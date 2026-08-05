@@ -94,7 +94,8 @@ node scripts/build-chief-report.js    # 출처 검증 + 병합
    `gh auth login` → `gh repo create 305rhfueo-ui/breakout-team --private --source=. --push`
    (로컬 git 커밋은 이미 완료)
 2. **NotebookLM 인증** — Chrome 완전 종료 → `setup_auth` → 브라우저 로그인
-   - 노트북 2개: `ria`(전략용, 이미 등록) + `83b212bd-a443-4a53-8b7e-28b97398bbfc`(주간 리서치용, 등록 대기)
+   - 노트북 2개(전략용 `ria` + 주간 리서치용). **URL 은 `.notebooklm-local.md` 에 있다(git 제외)** —
+     공유 링크 UUID 라서 공개 repo 에 두면 노트북 내용이 노출된다
    - ⚠️ 두 노트북의 소유 계정이 같은지 미확인 → 로그인 후 `list_notebooks` 로 판별
    - 무료 티어 한도: 하루 50쿼리 · 노트북당 소스 50개
 3. **2팀·4팀 워크플로 전체 실행** — 검증은 소규모(2~4종목)로만 했다. 전체 20종목 실행은 미검증

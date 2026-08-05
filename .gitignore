@@ -6,3 +6,4 @@ state/rs-snapshots/
 state/bars-cache/
 dashboard/data/series/*.tmp*
 *.tmp*
+.notebooklm-local.md
