@@ -172,6 +172,13 @@ async function main() {
 
   say('CHIEF', `병합 완료: ${merged.join(' · ') || '대상 없음'}`);
   say('SYSTEM', `대시보드: ${paths.dashboardHtml}`);
+
+  // ── GitHub 반영 — 이걸 해야 Pages 웹사이트에 LLM 리서치가 올라간다 ──
+  if (!process.argv.includes('--no-git')) {
+    const { commitAndPush } = require('./update-github');
+    const r = commitAndPush(dateStr, `LLM 리서치 병합 (${merged.join('·')})`);
+    if (r.pushed) say('SYSTEM', '웹사이트: https://305rhfueo-ui.github.io/breakout-team/ (1~2분 뒤 반영)');
+  }
 }
 
 if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });

@@ -414,6 +414,14 @@ async function main() {
   // 마크다운 리포트
   writeText(path.join(paths.reportsDir, `${dateStr}-breakout.md`), buildReport({ dateStr, chief, team1, team2, team3, team4, team5 }));
 
+  // ── 15) GitHub 반영 (Pages 웹사이트 갱신) ──
+  // ⚠️ LLM 리서치는 이 시점에 아직 안 붙어 있다. start breakout 흐름에서는
+  //    build-chief-report.js 가 병합한 뒤 다시 push 하므로 최종본이 올라간다.
+  if (args.git) {
+    const { commitAndPush } = require('./update-github');
+    commitAndPush(dateStr, `선정 ${qualified.length} · 돌파 ${chief.counts.breakouts} · 차트확인 ${chartCheckTop.length}`);
+  }
+
   cache.report('외부API 캐시');
   const secs = ((Date.now() - t0) / 1000).toFixed(1);
   console.log('\n═══════════════════════════════════════════════');

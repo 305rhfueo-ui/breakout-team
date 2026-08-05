@@ -72,6 +72,10 @@ node scripts/build-chief-report.js
 이 스크립트가 **모든 출처 URL 에 실제 HTTP 요청을 보내** 죽은 링크를 제거하고,
 근거가 사라진 주장은 "근거 없음"으로 강등한다. 그 뒤 대시보드와 리포트에 병합한다.
 
+`build-chief-report.js` 가 병합 직후 **자동으로 커밋 + push** 하므로
+공개 웹사이트 https://305rhfueo-ui.github.io/breakout-team/ 가 1~2분 뒤 갱신된다.
+push 를 원하지 않으면 `node scripts/build-chief-report.js --no-git`.
+
 ### 5. 보고
 
 사용자에게 한국어로 보고한다. 반드시 포함할 것:
