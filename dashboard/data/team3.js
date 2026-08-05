@@ -13,7 +13,7 @@ window.TEAM3_DATA = {
       "industry": "Semiconductor Equipment & Materials",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "excluded",
       "peak": 109.89,
       "peakDate": "2026-08-05",
@@ -47,7 +47,7 @@ window.TEAM3_DATA = {
       "industry": "Biotechnology",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 109.80000305175781,
       "peakDate": "2026-08-05",
@@ -74,7 +74,7 @@ window.TEAM3_DATA = {
       "industry": "Information Technology Services",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 95.5,
       "peakDate": "2026-08-05",
@@ -101,7 +101,7 @@ window.TEAM3_DATA = {
       "industry": "Oil & Gas Equipment & Services",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 74.30000305175781,
       "peakDate": "2026-08-05",
@@ -128,7 +128,7 @@ window.TEAM3_DATA = {
       "industry": "Drug Manufacturers - Specialty & Generic",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 88.38,
       "peakDate": "2026-08-05",
@@ -155,7 +155,7 @@ window.TEAM3_DATA = {
       "industry": "Medical Care Facilities",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "excluded",
       "peak": 94.78,
       "peakDate": "2026-08-05",
@@ -166,6 +166,16 @@ window.TEAM3_DATA = {
           "date": "2026-08-05",
           "status": "active",
           "note": "신규 편입 (2팀 선정)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "excluded",
+          "note": "50일선 아래 9일 연속(2026-07-23 ~ 2026-08-04)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "active",
+          "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         },
         {
           "date": "2026-08-05",
@@ -219,7 +229,7 @@ window.TEAM3_DATA = {
       "industry": "Consulting Services",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 152.78,
       "peakDate": "2026-08-05",
@@ -246,7 +256,7 @@ window.TEAM3_DATA = {
       "industry": "Software - Application",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 316.77,
       "peakDate": "2026-08-05",
@@ -273,7 +283,7 @@ window.TEAM3_DATA = {
       "industry": "Semiconductors",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 127.7300033569336,
       "peakDate": "2026-08-05",
@@ -300,7 +310,7 @@ window.TEAM3_DATA = {
       "industry": "Computer Hardware",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 467.27,
       "peakDate": "2026-08-05",
@@ -327,7 +337,7 @@ window.TEAM3_DATA = {
       "industry": "Semiconductors",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "excluded",
       "peak": 72.72000122070312,
       "peakDate": "2026-08-05",
@@ -338,6 +348,16 @@ window.TEAM3_DATA = {
           "date": "2026-08-05",
           "status": "active",
           "note": "신규 편입 (2팀 선정)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "excluded",
+          "note": "50일선 아래 8일 연속(2026-07-24 ~ 2026-08-04)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "active",
+          "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         },
         {
           "date": "2026-08-05",
@@ -391,7 +411,7 @@ window.TEAM3_DATA = {
       "industry": "Communication Equipment",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 368.83,
       "peakDate": "2026-08-05",
@@ -418,7 +438,7 @@ window.TEAM3_DATA = {
       "industry": "Telecom Services",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 106.35,
       "peakDate": "2026-08-05",
@@ -445,7 +465,7 @@ window.TEAM3_DATA = {
       "industry": "Biotechnology",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 118.46,
       "peakDate": "2026-08-05",
@@ -472,7 +492,7 @@ window.TEAM3_DATA = {
       "industry": "Software - Infrastructure",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "excluded",
       "peak": 46.20000076293945,
       "peakDate": "2026-08-05",
@@ -483,6 +503,16 @@ window.TEAM3_DATA = {
           "date": "2026-08-05",
           "status": "active",
           "note": "신규 편입 (2팀 선정)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "excluded",
+          "note": "50일선 아래 9일 연속(2026-07-23 ~ 2026-08-04)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "active",
+          "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         },
         {
           "date": "2026-08-05",
@@ -536,7 +566,7 @@ window.TEAM3_DATA = {
       "industry": "Apparel Retail",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 89.21,
       "peakDate": "2026-08-05",
@@ -563,7 +593,7 @@ window.TEAM3_DATA = {
       "industry": "Biotechnology",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 104.94000244140625,
       "peakDate": "2026-08-05",
@@ -590,7 +620,7 @@ window.TEAM3_DATA = {
       "industry": "Oil & Gas Refining & Marketing",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 83,
       "peakDate": "2026-08-05",
@@ -617,7 +647,7 @@ window.TEAM3_DATA = {
       "industry": "Software - Infrastructure",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 366.34,
       "peakDate": "2026-08-05",
@@ -644,7 +674,7 @@ window.TEAM3_DATA = {
       "industry": "Information Technology Services",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "excluded",
       "peak": 57.84000015258789,
       "peakDate": "2026-08-05",
@@ -655,6 +685,16 @@ window.TEAM3_DATA = {
           "date": "2026-08-05",
           "status": "active",
           "note": "신규 편입 (2팀 선정)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "excluded",
+          "note": "50일선 아래 13일 연속(2026-07-17 ~ 2026-08-04)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "active",
+          "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         },
         {
           "date": "2026-08-05",
@@ -708,7 +748,7 @@ window.TEAM3_DATA = {
       "industry": "Semiconductors",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 361.6700134277344,
       "peakDate": "2026-08-05",
@@ -735,7 +775,7 @@ window.TEAM3_DATA = {
       "industry": "Biotechnology",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 98.13,
       "peakDate": "2026-08-05",
@@ -762,7 +802,7 @@ window.TEAM3_DATA = {
       "industry": "Information Technology Services",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 185.79,
       "peakDate": "2026-08-05",
@@ -789,7 +829,7 @@ window.TEAM3_DATA = {
       "industry": "Software - Infrastructure",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 147.82000732421875,
       "peakDate": "2026-08-05",
@@ -816,7 +856,7 @@ window.TEAM3_DATA = {
       "industry": "Communication Equipment",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "excluded",
       "peak": 131.6300048828125,
       "peakDate": "2026-08-05",
@@ -827,6 +867,16 @@ window.TEAM3_DATA = {
           "date": "2026-08-05",
           "status": "active",
           "note": "신규 편입 (2팀 선정)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "excluded",
+          "note": "50일선 아래 30일 연속(2026-06-23 ~ 2026-08-04)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "active",
+          "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         },
         {
           "date": "2026-08-05",
@@ -880,7 +930,7 @@ window.TEAM3_DATA = {
       "industry": "Semiconductors",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "excluded",
       "peak": 67.53,
       "peakDate": "2026-08-05",
@@ -891,6 +941,16 @@ window.TEAM3_DATA = {
           "date": "2026-08-05",
           "status": "active",
           "note": "신규 편입 (2팀 선정)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "excluded",
+          "note": "50일선 아래 14일 연속(2026-07-16 ~ 2026-08-04)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "active",
+          "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         },
         {
           "date": "2026-08-05",
@@ -944,7 +1004,7 @@ window.TEAM3_DATA = {
       "industry": "Semiconductor Equipment & Materials",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "excluded",
       "peak": 65.27,
       "peakDate": "2026-08-05",
@@ -955,6 +1015,16 @@ window.TEAM3_DATA = {
           "date": "2026-08-05",
           "status": "active",
           "note": "신규 편입 (2팀 선정)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "excluded",
+          "note": "50일선 아래 34일 연속(2026-06-16 ~ 2026-08-04)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "active",
+          "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         },
         {
           "date": "2026-08-05",
@@ -1008,7 +1078,7 @@ window.TEAM3_DATA = {
       "industry": "Credit Services",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 177.23,
       "peakDate": "2026-08-05",
@@ -1035,7 +1105,7 @@ window.TEAM3_DATA = {
       "industry": "Semiconductors",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 77.18000030517578,
       "peakDate": "2026-08-05",
@@ -1062,7 +1132,7 @@ window.TEAM3_DATA = {
       "industry": "Internet Retail",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 116.08000183105469,
       "peakDate": "2026-08-05",
@@ -1089,7 +1159,7 @@ window.TEAM3_DATA = {
       "industry": "Semiconductors",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "excluded",
       "peak": 218.59,
       "peakDate": "2026-08-05",
@@ -1100,6 +1170,16 @@ window.TEAM3_DATA = {
           "date": "2026-08-05",
           "status": "active",
           "note": "신규 편입 (2팀 선정)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "excluded",
+          "note": "50일선 아래 17일 연속(2026-07-13 ~ 2026-08-04)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "active",
+          "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         },
         {
           "date": "2026-08-05",
@@ -1153,7 +1233,7 @@ window.TEAM3_DATA = {
       "industry": "Electrical Equipment & Parts",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 423.6000061035156,
       "peakDate": "2026-08-05",
@@ -1180,7 +1260,7 @@ window.TEAM3_DATA = {
       "industry": "Computer Hardware",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "excluded",
       "peak": 1427.62,
       "peakDate": "2026-08-05",
@@ -1191,6 +1271,16 @@ window.TEAM3_DATA = {
           "date": "2026-08-05",
           "status": "active",
           "note": "신규 편입 (2팀 선정)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "excluded",
+          "note": "50일선 아래 15일 연속(2026-07-15 ~ 2026-08-04)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "active",
+          "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         },
         {
           "date": "2026-08-05",
@@ -1244,7 +1334,7 @@ window.TEAM3_DATA = {
       "industry": "Rental & Leasing Services",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 170.8000030517578,
       "peakDate": "2026-08-05",
@@ -1271,7 +1361,7 @@ window.TEAM3_DATA = {
       "industry": "Diagnostics & Research",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 159.79,
       "peakDate": "2026-08-05",
@@ -1298,7 +1388,7 @@ window.TEAM3_DATA = {
       "industry": "Specialty Industrial Machinery",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 349.31,
       "peakDate": "2026-08-05",
@@ -1325,7 +1415,7 @@ window.TEAM3_DATA = {
       "industry": "N/A",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 135.6699981689453,
       "peakDate": "2026-08-05",
@@ -1346,7 +1436,7 @@ window.TEAM3_DATA = {
       "industry": "Engineering & Construction",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "excluded",
       "peak": 63.93000030517578,
       "peakDate": "2026-08-05",
@@ -1357,6 +1447,16 @@ window.TEAM3_DATA = {
           "date": "2026-08-05",
           "status": "active",
           "note": "신규 편입 (2팀 선정)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "excluded",
+          "note": "50일선 아래 8일 연속(2026-07-24 ~ 2026-08-04)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "active",
+          "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         },
         {
           "date": "2026-08-05",
@@ -1410,7 +1510,7 @@ window.TEAM3_DATA = {
       "industry": "Software - Application",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 429.260009765625,
       "peakDate": "2026-08-05",
@@ -1437,7 +1537,7 @@ window.TEAM3_DATA = {
       "industry": "Internet Content & Information",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 225.74000549316406,
       "peakDate": "2026-08-05",
@@ -1464,7 +1564,7 @@ window.TEAM3_DATA = {
       "industry": "Diagnostics & Research",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 99.44499969482422,
       "peakDate": "2026-08-05",
@@ -1491,7 +1591,7 @@ window.TEAM3_DATA = {
       "industry": "Semiconductors",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 518.5800170898438,
       "peakDate": "2026-08-05",
@@ -1518,7 +1618,7 @@ window.TEAM3_DATA = {
       "industry": "Apparel Retail",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 72.64,
       "peakDate": "2026-08-05",
@@ -1545,7 +1645,7 @@ window.TEAM3_DATA = {
       "industry": "Software - Infrastructure",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 161.06,
       "peakDate": "2026-08-05",
@@ -1572,7 +1672,7 @@ window.TEAM3_DATA = {
       "industry": "Health Information Services",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 79.42,
       "peakDate": "2026-08-05",
@@ -1599,7 +1699,7 @@ window.TEAM3_DATA = {
       "industry": "Medical Devices",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 334.84,
       "peakDate": "2026-08-05",
@@ -1626,7 +1726,7 @@ window.TEAM3_DATA = {
       "industry": "Software - Infrastructure",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 190.4600067138672,
       "peakDate": "2026-08-05",
@@ -1653,7 +1753,7 @@ window.TEAM3_DATA = {
       "industry": "Semiconductors",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "excluded",
       "peak": 892.67,
       "peakDate": "2026-08-05",
@@ -1664,6 +1764,16 @@ window.TEAM3_DATA = {
           "date": "2026-08-05",
           "status": "active",
           "note": "신규 편입 (2팀 선정)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "excluded",
+          "note": "50일선 아래 8일 연속(2026-07-24 ~ 2026-08-04)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "active",
+          "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         },
         {
           "date": "2026-08-05",
@@ -1717,7 +1827,7 @@ window.TEAM3_DATA = {
       "industry": "Software - Infrastructure",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 211.22000122070312,
       "peakDate": "2026-08-05",
@@ -1744,7 +1854,7 @@ window.TEAM3_DATA = {
       "industry": "Semiconductors",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "excluded",
       "peak": 280.56,
       "peakDate": "2026-08-05",
@@ -1755,6 +1865,16 @@ window.TEAM3_DATA = {
           "date": "2026-08-05",
           "status": "active",
           "note": "신규 편입 (2팀 선정)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "excluded",
+          "note": "50일선 아래 17일 연속(2026-07-13 ~ 2026-08-04)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "active",
+          "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         },
         {
           "date": "2026-08-05",
@@ -1808,7 +1928,7 @@ window.TEAM3_DATA = {
       "industry": "Furnishings, Fixtures & Appliances",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 68.77,
       "peakDate": "2026-08-05",
@@ -1835,7 +1955,7 @@ window.TEAM3_DATA = {
       "industry": "Software - Application",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 288.15,
       "peakDate": "2026-08-05",
@@ -1862,7 +1982,7 @@ window.TEAM3_DATA = {
       "industry": "Scientific & Technical Instruments",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "excluded",
       "peak": 101,
       "peakDate": "2026-08-05",
@@ -1873,6 +1993,16 @@ window.TEAM3_DATA = {
           "date": "2026-08-05",
           "status": "active",
           "note": "신규 편입 (2팀 선정)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "excluded",
+          "note": "50일선 아래 17일 연속(2026-07-13 ~ 2026-08-04)"
+        },
+        {
+          "date": "2026-08-05",
+          "status": "active",
+          "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         },
         {
           "date": "2026-08-05",
@@ -1926,7 +2056,7 @@ window.TEAM3_DATA = {
       "industry": "Software - Application",
       "added": "2026-08-05",
       "lastPicked": "2026-08-05",
-      "pickCount": 4,
+      "pickCount": 5,
       "status": "active",
       "peak": 110.31,
       "peakDate": "2026-08-05",

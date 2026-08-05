@@ -2715,6 +2715,290 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기"
+      },
+      "detail": {
+        "fetchedAt": "2026-08-05",
+        "nameKo": "NVE",
+        "nameEn": "NVE CORP",
+        "infomaxCode": "NAS:NVEC",
+        "financials": {
+          "ok": true,
+          "ticker": "NVEC",
+          "cik": "0000724910",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "Revenues",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-04-01",
+              "periodEnd": "2026-06-30",
+              "derived": false,
+              "revenue": 11034057,
+              "profit": 7265836,
+              "netIncome": 6394191,
+              "margin": 65.8,
+              "yoy": {
+                "revenue": 80.7,
+                "profit": 92.1,
+                "netIncome": 78.8,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodStart": "2025-12-31",
+              "periodEnd": "2026-03-31",
+              "derived": true,
+              "revenue": 7654806,
+              "profit": 4734756,
+              "netIncome": 4927897,
+              "margin": 61.9,
+              "yoy": {
+                "revenue": 5.3,
+                "profit": 11.4,
+                "netIncome": 26.6,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodStart": "2025-10-01",
+              "periodEnd": "2025-12-31",
+              "derived": false,
+              "revenue": 6224776,
+              "profit": 3744376,
+              "netIncome": 3384642,
+              "margin": 60.2,
+              "yoy": {
+                "revenue": 22.9,
+                "profit": 26.5,
+                "netIncome": 11,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodStart": "2025-07-01",
+              "periodEnd": "2025-09-30",
+              "derived": false,
+              "revenue": 6346992,
+              "profit": 3658109,
+              "netIncome": 3310838,
+              "margin": 57.6,
+              "yoy": {
+                "revenue": -6.1,
+                "profit": -16.8,
+                "netIncome": -17.8,
+                "priorEnd": "2024-09-30"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000724910&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "NVEC",
+          "items": [
+            {
+              "title": "NVE Corp Q1 Earnings Surge Y/Y on Strong Sales & New Products",
+              "url": "https://www.nasdaq.com/articles/nve-corp-q1-earnings-surge-y-y-strong-sales-new-products",
+              "date": "2026-07-24",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "NVEC"
+              ]
+            },
+            {
+              "title": "NVE (NVEC) Q1 2027 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/nve-nvec-q1-2027-earnings-call-transcript",
+              "date": "2026-07-23",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "NVEC",
+                "NVEC"
+              ]
+            },
+            {
+              "title": "NVE Q1 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/nve-q1-earnings-call-highlights",
+              "date": "2026-07-22",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "NVEC"
+              ]
+            },
+            {
+              "title": "The &quot;Spin&quot; on NVE Corp's Upgrade to Outperform",
+              "url": "https://www.nasdaq.com/articles/spin-nve-corps-upgrade-outperform",
+              "date": "2026-06-11",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "NVEC"
+              ]
+            },
+            {
+              "title": "NVEC Earns &quot;Outperform&quot; Rating on Defense Recovery & AIoT Demand",
+              "url": "https://www.nasdaq.com/articles/nvec-earns-outperform-rating-defense-recovery-aiot-demand",
+              "date": "2026-06-09",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "NVEC"
+              ]
+            },
+            {
+              "title": "NVEC Reports Solid Y/Y Earnings Growth in Q4, Unveils Strong Outlook",
+              "url": "https://www.nasdaq.com/articles/nvec-reports-solid-y-y-earnings-growth-q4-unveils-strong-outlook",
+              "date": "2026-05-13",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "NVEC"
+              ]
+            },
+            {
+              "title": "Nve (NVEC) Q4 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/nve-nvec-q4-2026-earnings-call-transcript",
+              "date": "2026-05-06",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "NVEC",
+                "NVEC"
+              ]
+            },
+            {
+              "title": "NVEC vs. AOSL: Which Small-Cap Chip Stock Is the Better Buy?",
+              "url": "https://www.nasdaq.com/articles/nvec-vs-aosl-which-small-cap-chip-stock-better-buy",
+              "date": "2026-02-10",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AOSL",
+                "NVEC"
+              ]
+            }
+          ],
+          "directCount": 11,
+          "total": 11,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-22",
+            "reportDate": "2026-07-22",
+            "items": [
+              "2.02",
+              "8.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "기타 중요사건"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/724910/000137647426000513/nvec-20260722_8k.htm",
+            "description": "NVE CORP - FORM 8-K SEC FILING"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-22",
+            "reportDate": "2026-06-22",
+            "items": [
+              "5.02",
+              "8.01"
+            ],
+            "itemsKo": [
+              "임원 변동",
+              "기타 중요사건"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/724910/000137647426000456/nvec-20260622_8k.htm",
+            "description": "NVE CORP - FORM 8-K SEC FILING"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-06",
+            "reportDate": "2026-05-06",
+            "items": [
+              "2.02",
+              "8.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "기타 중요사건"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/724910/000137647426000347/nvec-20260506_8k.htm",
+            "description": "NVE CORP - FORM 8-K SEC FILING"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-01-21",
+            "reportDate": "2026-01-21",
+            "items": [
+              "2.02",
+              "8.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "기타 중요사건"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/724910/000137647426000058/nvec-20260121_8k.htm",
+            "description": "NVE CORP - FORM 8-K SEC FILING"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2025-10-22",
+            "reportDate": "2025-10-22",
+            "items": [
+              "2.02",
+              "8.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "기타 중요사건"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/724910/000137647425000856/nvec-20251022_8k.htm",
+            "description": "NVE CORP - FORM 8-K SEC FILING"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2025-08-12",
+            "reportDate": "2025-08-07",
+            "items": [
+              "5.07"
+            ],
+            "itemsKo": [
+              "주주총회 표결"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/724910/000137647425000737/nvec-20250807_8k.htm",
+            "description": "NVE CORP - FORM 8-K SEC FILING"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
       }
     },
     {
@@ -2787,6 +3071,360 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기"
+      },
+      "detail": {
+        "fetchedAt": "2026-08-05",
+        "nameKo": "델 테크놀로지스",
+        "nameEn": "DELL TECHNOLOGIES INC",
+        "infomaxCode": "NYS:DELL",
+        "financials": {
+          "ok": true,
+          "ticker": "DELL",
+          "cik": "0001571996",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "Revenues",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-01-31",
+              "periodEnd": "2026-05-01",
+              "derived": false,
+              "revenue": 43842000000,
+              "profit": 3656000000,
+              "netIncome": 3438000000,
+              "margin": 8.3,
+              "yoy": {
+                "revenue": 87.5,
+                "profit": 213.8,
+                "netIncome": 256.3,
+                "priorEnd": "2025-05-02"
+              }
+            },
+            {
+              "periodStart": "2025-10-31",
+              "periodEnd": "2026-01-30",
+              "derived": true,
+              "revenue": 33379000000,
+              "profit": 3092000000,
+              "netIncome": 2259000000,
+              "margin": 9.3,
+              "yoy": {
+                "revenue": 39.5,
+                "profit": 43.2,
+                "netIncome": 47.4,
+                "priorEnd": "2025-01-31"
+              }
+            },
+            {
+              "periodStart": "2025-08-02",
+              "periodEnd": "2025-10-31",
+              "derived": false,
+              "revenue": 27005000000,
+              "profit": 2119000000,
+              "netIncome": 1548000000,
+              "margin": 7.8,
+              "yoy": {
+                "revenue": 10.8,
+                "profit": 23.1,
+                "netIncome": 31.7,
+                "priorEnd": "2024-11-01"
+              }
+            },
+            {
+              "periodStart": "2025-05-03",
+              "periodEnd": "2025-08-01",
+              "derived": false,
+              "revenue": 29776000000,
+              "profit": 1773000000,
+              "netIncome": 1164000000,
+              "margin": 6,
+              "yoy": {
+                "revenue": 19,
+                "profit": 27.4,
+                "netIncome": 31.2,
+                "priorEnd": "2024-08-02"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001571996&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "DELL",
+          "items": [
+            {
+              "title": "Here's Why Dell Technologies (DELL) is a Strong Momentum Stock",
+              "url": "https://www.nasdaq.com/articles/heres-why-dell-technologies-dell-strong-momentum-stock",
+              "date": "2026-08-03",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "DELL"
+              ]
+            },
+            {
+              "title": "Dell Technologies Rides on Commercial PC Demand: What's Ahead?",
+              "url": "https://www.nasdaq.com/articles/dell-technologies-rides-commercial-pc-demand-whats-ahead",
+              "date": "2026-07-31",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "DELL",
+                "HPQ"
+              ]
+            },
+            {
+              "title": "Wall Street Analysts Think Dell Technologies (DELL) Could Surge 25.21%: Read This Before Placing a Bet",
+              "url": "https://www.nasdaq.com/articles/wall-street-analysts-think-dell-technologies-dell-could-surge-2521-read-placing-bet-0",
+              "date": "2026-07-31",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "DELL"
+              ]
+            },
+            {
+              "title": "Dell Technologies Inc. (DELL) is Attracting Investor Attention: Here is What You Should Know",
+              "url": "https://www.nasdaq.com/articles/dell-technologies-inc-dell-attracting-investor-attention-here-what-you-should-know-0",
+              "date": "2026-07-31",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "DELL"
+              ]
+            },
+            {
+              "title": "Here's Why Dell Technologies (DELL) Could be Great Choice for a Bottom Fisher",
+              "url": "https://www.nasdaq.com/articles/heres-why-dell-technologies-dell-could-be-great-choice-bottom-fisher",
+              "date": "2026-07-29",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "DELL"
+              ]
+            },
+            {
+              "title": "Dell Technologies vs. Apple: Which AI Stock is a Better Buy?",
+              "url": "https://www.nasdaq.com/articles/dell-technologies-vs-apple-which-ai-stock-better-buy",
+              "date": "2026-07-28",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AAPL",
+                "DELL"
+              ]
+            },
+            {
+              "title": "Apple (AAPL) Q3 Earnings and Revenues Beat Estimates",
+              "url": "https://www.nasdaq.com/articles/apple-aapl-q3-earnings-and-revenues-beat-estimates",
+              "date": "2026-07-30",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "AAPL",
+                "DELL"
+              ]
+            },
+            {
+              "title": "Apple's Q3 Earnings: Strong iPhone 17 Shipment to Aid Top-Line Growth",
+              "url": "https://www.nasdaq.com/articles/apples-q3-earnings-strong-iphone-17-shipment-aid-top-line-growth",
+              "date": "2026-07-29",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "AAPL",
+                "HPQ",
+                "DELL"
+              ]
+            }
+          ],
+          "directCount": 6,
+          "total": 8,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-06",
+            "reportDate": "2026-07-02",
+            "items": [
+              "3.03",
+              "5.03",
+              "9.01"
+            ],
+            "itemsKo": [
+              "3.03",
+              "5.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526296224/d32716d8k.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-01",
+            "reportDate": "2026-06-25",
+            "items": [
+              "3.03",
+              "5.07",
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "3.03",
+              "주주총회 표결",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000036/dell-20260625.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-17",
+            "reportDate": "2026-06-11",
+            "items": [
+              "3.02"
+            ],
+            "itemsKo": [
+              "3.02"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000032/dell-20260611.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-16",
+            "reportDate": "2026-06-16",
+            "items": [
+              "1.01",
+              "2.03",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "2.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526272720/d20600d8k.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-12",
+            "reportDate": "2026-06-11",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526269594/d131151d8k.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-10",
+            "reportDate": "2026-06-10",
+            "items": [
+              "1.01",
+              "1.02",
+              "2.03",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "1.02",
+              "2.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526265877/d98058d8k.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 5,
+          "reports": [
+            {
+              "title": "[델 테크놀로지스 (NYS:DELL)] 전통 서버의 부활과 Agentic AI가 이끄는 멀티플 리레이팅",
+              "broker": "키움증권",
+              "analyst": "박기현",
+              "date": "2026-06-02",
+              "summary": "- 매출 $43.8B(+88%), EPS $4.86(+214%)로 컨센서스 60% 이상 상회- AI 수요의 전통 IT 전방 확산 및 Agentic AI발 CPU TAM 구조적 확장- 주가 급등에도 Fwd P/E 22.8배로 업종(26.0배) 하회, 대규모 주주환원 안전판",
+              "pages": "6",
+              "secureId": "eqlciziegxilkkggcgxclcz",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlciziegxilkkggcgxclcz.pdf",
+              "opinion": null
+            },
+            {
+              "title": "[델 테크놀로지스 (NYS:DELL)] Go out and buy a Dell",
+              "broker": "신한투자증권",
+              "analyst": "고준혁",
+              "date": "2026-05-29",
+              "summary": "- 실적발표 이후 40% 주가 상승. 단순 AI 서버 OEM에서 플랫폼 기업으로 확장. 기대를 서프라이즈 실적으로 증명. 커버리지 내 최선호주 제시- FY1Q27 매출액 438억달러(YoY+87.5%, 이하 전년동기대비), 영업이익 42억달러(+154.2%, OPM 9.7%)로 컨센서스를 각각 23.4%, 52.8% 상회. AI 서버 매출은 161억달러(+757%) 기록. 1분기 AI 서버 주문 244억달러, 백로그 513억달러 달성. FY27 AI 서버 매출 가이던스 600억달러로 상향- 전통 서버 매출도 85억달러(+92%) 기록. Agentic AI 확산으로 전통 서버 의 AI 추론 및 내부 워크로드 처리 역할 확대. 14세대 이하 서버 설치 기 반이 여전히 큰 상황에서, 18세대 서버는 14세대 13대 통합 효과 제공. 평 균단가 상승에도 비용 절감 효과가 커서 교체 수요 기반 매출 확대 전망. CSG 부문(+17%)도 점유율과 수익성 개선(+2.6%p)으로 하방을 뒷받침",
+              "pages": "5",
+              "secureId": "eqlcciqxcilleikgcgxclcz",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcciqxcilleikgcgxclcz.pdf",
+              "opinion": null
+            },
+            {
+              "title": "[델 테크놀로지스 (NYS:DELL)] AI 인프라 기업으로 재평가",
+              "broker": "신한투자증권",
+              "analyst": "고준혁",
+              "date": "2026-04-27",
+              "summary": "- 시장은 델을 AI 인프라 기업으로 바라보기 시작- PC와 전통 서버 판매에 AI가 더해졌다- 전통 PC OEM에서 AI 인프라 기업으로 멀티플 확장 국면 진입",
+              "pages": "22",
+              "secureId": "eqqqglcgmceemikgcgxclcz",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqglcgmceemikgcgxclcz.pdf",
+              "opinion": null
+            },
+            {
+              "title": "[델 테크놀로지스 (NYS:DELL)] AI 고성장, 메모리 가격은 관리 가능 수준",
+              "broker": "한화증권",
+              "analyst": "임해인",
+              "date": "2026-02-27",
+              "summary": "- 델의 FY 4Q26 매출액은 334억 달러(YoY +39.5%), EPS는 3.89 달러 (YoY +45.1%)를 기록해 컨센서스를 각각 5.2%, 10.5% 상회했다. 각 각 가이던스 상단(320억 달러, 3.50 달러)을 초과했다.- 델은 FY 1Q27 가이던스를 중간값 기준 매출액 352억 달러(YoY +50.6%, vs. 컨센서스 293억 달러), EPS 2.9 달러(YoY +87.1%, vs. 컨 센서스 2.4 달러)로 제시했다- 2027 연간으로는 매출액 1,400억 달러 (YoY +23.3%, vs. 컨센서스 1,263억 달러), EPS 12.90 달러(YoY +25.2%, vs. 컨센서스 11.56 달러)를 기록할 것으로 예상했다. 현재 AI 서버 수주잔고는 엔비디아 그레이스 블랙웰 제품 비중이 압도적이며, 차세대 베라루빈 아키텍처는 회계연도 하반기 출하가 예정돼 있다",
+              "pages": "7",
+              "secureId": "eqqgeligkiqmcgqgcgxclcz",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgeligkiqmcgqgcgxclcz.pdf",
+              "opinion": null
+            },
+            {
+              "title": "[델 테크놀로지스 (NYS:DELL)] Earnings Flash",
+              "broker": "한화증권",
+              "analyst": "임해인",
+              "date": "2025-11-26",
+              "summary": "- 매출액 270억 달러(YoY +10.8%), 조정 EPS 2.59 달러(YoY +20.5%)로 각각 예상치 0.7% 하회, 4.9% 상회. AI 서버 출하량 증가 및 운영 효율성으로 3분기 기준 매출, EPS 최고치 경신- CSG: 상업용 클라이언트, 소비자 매출은 각각 106.2억 달러(YoY +4.8%), 18.6억 달러(YOY -6.8%). 상업용 클라이언트 부문은 5분기 연속 매출 성장, 중소기업 전반에서 강력한 수요 확인. 소비자 수요와 심리는 3년 만에 성장세로 전환- AI 서버 수요 증가에 기록적 출하액, 수주잔고 달성. 4Q26 가이던스 시장 예상 대폭 상회. 시간 외 3.5% 상승",
+              "pages": "1",
+              "secureId": "eqxkeggxcizekzmgcgxclcz",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkeggxcizekzmgcgxclcz.pdf",
+              "opinion": null
+            }
+          ],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
       }
     },
     {
@@ -2858,6 +3496,279 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기"
+      },
+      "detail": {
+        "fetchedAt": "2026-08-05",
+        "nameKo": "맥스리니어",
+        "nameEn": "MAXLINEAR INC",
+        "infomaxCode": "NAS:MXL",
+        "financials": {
+          "ok": true,
+          "ticker": "MXL",
+          "cik": "0001288469",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-04-01",
+              "periodEnd": "2026-06-30",
+              "derived": false,
+              "revenue": 168847000,
+              "profit": -4185000,
+              "netIncome": 1760000,
+              "margin": -2.5,
+              "yoy": {
+                "revenue": 55.2,
+                "profit": 83,
+                "netIncome": 106.6,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodStart": "2026-01-01",
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 137188000,
+              "profit": -17209000,
+              "netIncome": -45137000,
+              "margin": -12.5,
+              "yoy": {
+                "revenue": 43,
+                "profit": 62.7,
+                "netIncome": 9.2,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodStart": "2025-09-30",
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 136436000,
+              "profit": -14892000,
+              "netIncome": -14897000,
+              "margin": -10.9,
+              "yoy": {
+                "revenue": 48,
+                "profit": 63.8,
+                "netIncome": 74.2,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodStart": "2025-07-01",
+              "periodEnd": "2025-09-30",
+              "derived": false,
+              "revenue": 126459000,
+              "profit": -41289000,
+              "netIncome": -45485000,
+              "margin": -32.7,
+              "yoy": {
+                "revenue": 55.9,
+                "profit": 38.1,
+                "netIncome": 40,
+                "priorEnd": "2024-09-30"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001288469&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "MXL",
+          "items": [
+            {
+              "title": "The Zacks Analyst Blog Highlights MaxLinear, Marvell Technology and Broadcom",
+              "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-maxlinear-marvell-technology-and-broadcom",
+              "date": "2026-07-28",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MRVL",
+                "AVGO",
+                "MXL"
+              ]
+            },
+            {
+              "title": "MaxLinear Rides on AI Infrastructure Momentum: More Upside Ahead?",
+              "url": "https://www.nasdaq.com/articles/maxlinear-rides-ai-infrastructure-momentum-more-upside-ahead",
+              "date": "2026-07-27",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MXL",
+                "MRVL",
+                "AVGO"
+              ]
+            },
+            {
+              "title": "MXL Q2 Earnings Call Highlights Optical AI Data Center Growth",
+              "url": "https://www.nasdaq.com/articles/mxl-q2-earnings-call-highlights-optical-ai-data-center-growth",
+              "date": "2026-07-24",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MXL"
+              ]
+            },
+            {
+              "title": "MaxLinear (MXL) Tops Q2 Earnings and Revenue Estimates",
+              "url": "https://www.nasdaq.com/articles/maxlinear-mxl-tops-q2-earnings-and-revenue-estimates",
+              "date": "2026-07-23",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MXL",
+                "ON"
+              ]
+            },
+            {
+              "title": "MaxLinear Q2 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/maxlinear-q2-earnings-call-highlights",
+              "date": "2026-07-23",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MXL"
+              ]
+            },
+            {
+              "title": "AAOI vs. MXL: Which AI Data Center Infrastructure Stock Has an Edge?",
+              "url": "https://www.nasdaq.com/articles/aaoi-vs-mxl-which-ai-data-center-infrastructure-stock-has-edge",
+              "date": "2026-07-16",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MXL",
+                "AAOI"
+              ]
+            }
+          ],
+          "directCount": 6,
+          "total": 6,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-23",
+            "reportDate": "2026-07-23",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000050/mxl-20260723.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-01",
+            "reportDate": "2026-05-28",
+            "items": [
+              "4.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "4.01",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000045/mxl-20260528.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-21",
+            "reportDate": "2026-05-20",
+            "items": [
+              "5.02",
+              "5.07",
+              "9.01"
+            ],
+            "itemsKo": [
+              "임원 변동",
+              "주주총회 표결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000035/mxl-20260520.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-04-23",
+            "reportDate": "2026-04-22",
+            "items": [
+              "1.01",
+              "2.02",
+              "2.03",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "실적 발표",
+              "2.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000027/mxl-20260422.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-17",
+            "reportDate": "2026-02-13",
+            "items": [
+              "5.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "임원 변동",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000017/mxl-20260213.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-01-29",
+            "reportDate": "2026-01-29",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000009/mxl-20260129.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
       }
     },
     {
@@ -2930,6 +3841,301 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기"
+      },
+      "detail": {
+        "fetchedAt": "2026-08-05",
+        "nameKo": "지브라 테크놀로지스",
+        "nameEn": "ZEBRA TECHNOLOGIES",
+        "infomaxCode": "NAS:ZBRA",
+        "financials": {
+          "ok": true,
+          "ticker": "ZBRA",
+          "cik": "0000877212",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-04-05",
+              "periodEnd": "2026-07-04",
+              "derived": false,
+              "revenue": 1557000000,
+              "profit": 321000000,
+              "netIncome": 233000000,
+              "margin": 20.6,
+              "yoy": {
+                "revenue": 20.4,
+                "profit": 75.4,
+                "netIncome": 108,
+                "priorEnd": "2025-06-28"
+              }
+            },
+            {
+              "periodStart": "2026-01-01",
+              "periodEnd": "2026-04-04",
+              "derived": false,
+              "revenue": 1495000000,
+              "profit": 215000000,
+              "netIncome": 135000000,
+              "margin": 14.4,
+              "yoy": {
+                "revenue": 14.3,
+                "profit": 10.3,
+                "netIncome": -0.7,
+                "priorEnd": "2025-03-29"
+              }
+            },
+            {
+              "periodStart": "2025-09-27",
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 1475000000,
+              "profit": 139000000,
+              "netIncome": 70000000,
+              "margin": 9.4,
+              "yoy": {
+                "revenue": 10.6,
+                "profit": -38.2,
+                "netIncome": -57.1,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodStart": "2025-06-29",
+              "periodEnd": "2025-09-27",
+              "derived": false,
+              "revenue": 1320000000,
+              "profit": 183000000,
+              "netIncome": 101000000,
+              "margin": 13.9,
+              "yoy": {
+                "revenue": 5.2,
+                "profit": -4.2,
+                "netIncome": -26.3,
+                "priorEnd": "2024-09-28"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000877212&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "ZBRA",
+          "items": [
+            {
+              "title": "Zebra Technologies Stock Jumped 20% Today on the Best Problem in Tech",
+              "url": "https://www.nasdaq.com/articles/zebra-technologies-stock-jumped-20-today-best-problem-tech",
+              "date": "2026-08-04",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ZBRA",
+                "ZBRA"
+              ]
+            },
+            {
+              "title": "Zebra Technologies (ZBRA) Beats Q2 Earnings and Revenue Estimates",
+              "url": "https://www.nasdaq.com/articles/zebra-technologies-zbra-beats-q2-earnings-and-revenue-estimates",
+              "date": "2026-08-04",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ZBRA",
+                "DE"
+              ]
+            },
+            {
+              "title": "Zebra Technologies Boosts FY26 Outlook As Q2 Profit, Sales Surge; Stock Up 10%",
+              "url": "https://www.nasdaq.com/articles/zebra-technologies-boosts-fy26-outlook-q2-profit-sales-surge-stock-10",
+              "date": "2026-08-04",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ZBRA"
+              ]
+            },
+            {
+              "title": "Better Robotics Stock: UiPath or Zebra Technologies",
+              "url": "https://www.nasdaq.com/articles/better-robotics-stock-uipath-or-zebra-technologies",
+              "date": "2026-07-14",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PATH",
+                "PATH",
+                "ZBRA"
+              ]
+            },
+            {
+              "title": "Why Zebra Technologies (ZBRA) is a Top Growth Stock for the Long-Term",
+              "url": "https://www.nasdaq.com/articles/why-zebra-technologies-zbra-top-growth-stock-long-term",
+              "date": "2026-07-06",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ZBRA"
+              ]
+            },
+            {
+              "title": "Here's Why Zebra Technologies (ZBRA) is a Strong Growth Stock",
+              "url": "https://www.nasdaq.com/articles/heres-why-zebra-technologies-zbra-strong-growth-stock-0",
+              "date": "2026-06-18",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ZBRA"
+              ]
+            },
+            {
+              "title": "Zebra (ZBRA) Down 12.2% Since Last Earnings Report: Can It Rebound?",
+              "url": "https://www.nasdaq.com/articles/zebra-zbra-down-122-last-earnings-report-can-it-rebound",
+              "date": "2026-06-11",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ZBRA"
+              ]
+            },
+            {
+              "title": "Got $5,000? 2 Stocks to Own for Physical AI",
+              "url": "https://www.nasdaq.com/articles/got-5000-2-stocks-own-physical-ai",
+              "date": "2026-06-25",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "CGNX",
+                "CGNX",
+                "ZBRA"
+              ]
+            }
+          ],
+          "directCount": 7,
+          "total": 8,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-04",
+            "reportDate": "2026-08-04",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/877212/000162828026052158/zbra-20260804.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-26",
+            "reportDate": "2026-05-19",
+            "items": [
+              "5.02",
+              "5.07",
+              "9.01"
+            ],
+            "itemsKo": [
+              "임원 변동",
+              "주주총회 표결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/877212/000162828026038066/zbra-20260519.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-12",
+            "reportDate": "2026-05-12",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/877212/000162828026033877/zbra-20260512.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-12",
+            "reportDate": "2026-02-12",
+            "items": [
+              "2.02",
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/877212/000087721226000003/zbra-20260212.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2025-12-15",
+            "reportDate": "2025-12-09",
+            "items": [
+              "2.05",
+              "2.06",
+              "9.01"
+            ],
+            "itemsKo": [
+              "2.05",
+              "2.06",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/877212/000162828025056882/zbra-20251209.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2025-11-24",
+            "reportDate": "2025-11-20",
+            "items": [
+              "5.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "임원 변동",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/877212/000162828025053699/zbra-20251120.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
       }
     },
     {
@@ -3002,6 +4208,296 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기"
+      },
+      "detail": {
+        "fetchedAt": "2026-08-05",
+        "nameKo": "안테릭스",
+        "nameEn": "ANTERIX INC",
+        "infomaxCode": "NAS:ATEX",
+        "financials": {
+          "ok": true,
+          "ticker": "ATEX",
+          "cik": "0001304492",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "Revenues",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2025-12-31",
+              "periodEnd": "2026-03-31",
+              "derived": true,
+              "revenue": 1958000,
+              "profit": 19835000,
+              "netIncome": 18520000,
+              "margin": 1013,
+              "yoy": {
+                "revenue": 41,
+                "profit": 111.1,
+                "netIncome": 101.1,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodStart": "2025-10-01",
+              "periodEnd": "2025-12-31",
+              "derived": false,
+              "revenue": 1573000,
+              "profit": -9061000,
+              "netIncome": -6601000,
+              "margin": -576,
+              "yoy": {
+                "revenue": 0.4,
+                "profit": -228.9,
+                "netIncome": -185.6,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodStart": "2025-07-01",
+              "periodEnd": "2025-09-30",
+              "derived": false,
+              "revenue": 1552000,
+              "profit": 60675000,
+              "netIncome": 53536000,
+              "margin": 3909.5,
+              "yoy": {
+                "revenue": 0.1,
+                "profit": 562.1,
+                "netIncome": 519.4,
+                "priorEnd": "2024-09-30"
+              }
+            },
+            {
+              "periodStart": "2025-04-01",
+              "periodEnd": "2025-06-30",
+              "derived": false,
+              "revenue": 1418000,
+              "profit": 22481000,
+              "netIncome": 25180000,
+              "margin": 1585.4,
+              "yoy": {
+                "revenue": -7,
+                "profit": 249.8,
+                "netIncome": 262.2,
+                "priorEnd": "2024-06-30"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001304492&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "ATEX",
+          "items": [
+            {
+              "title": "Anterix (ATEX) Up 31.2% Since Last Earnings Report: Can It Continue?",
+              "url": "https://www.nasdaq.com/articles/anterix-atex-312-last-earnings-report-can-it-continue",
+              "date": "2026-07-10",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ATEX"
+              ]
+            },
+            {
+              "title": "Strength Seen in Anterix (ATEX): Can Its 4.8% Jump Turn into More Strength?",
+              "url": "https://www.nasdaq.com/articles/strength-seen-anterix-atex-can-its-48-jump-turn-more-strength",
+              "date": "2026-07-01",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ATEX",
+                "BAND"
+              ]
+            },
+            {
+              "title": "Anterix Insider Transaction: 4,291 Shares Sold as Utility Broadband Stock Gains 170% This Past Year",
+              "url": "https://www.nasdaq.com/articles/anterix-insider-transaction-4291-shares-sold-utility-broadband-stock-gains-170-past-year",
+              "date": "2026-06-24",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ATEX",
+                "ATEX"
+              ]
+            },
+            {
+              "title": "Anterix Surges 163% in the Past Year: Should You Bet on the Stock?",
+              "url": "https://www.nasdaq.com/articles/anterix-surges-163-past-year-should-you-bet-stock",
+              "date": "2026-06-22",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ERIC",
+                "BAND",
+                "ATEX"
+              ]
+            },
+            {
+              "title": "Anterix Q4 Earnings Call Highlights Rising Spectrum Demand",
+              "url": "https://www.nasdaq.com/articles/anterix-q4-earnings-call-highlights-rising-spectrum-demand",
+              "date": "2026-06-16",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ATEX"
+              ]
+            },
+            {
+              "title": "Anterix (ATEX) Q4 2026 Earnings Transcript",
+              "url": "https://www.nasdaq.com/articles/anterix-atex-q4-2026-earnings-transcript",
+              "date": "2026-06-11",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ATEX",
+                "ATEX"
+              ]
+            },
+            {
+              "title": "Anterix Q4 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/anterix-q4-earnings-call-highlights",
+              "date": "2026-06-11",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ATEX"
+              ]
+            },
+            {
+              "title": "Anterix Inc. Q4 Income Advances",
+              "url": "https://www.nasdaq.com/articles/anterix-inc-q4-income-advances",
+              "date": "2026-06-11",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ATEX"
+              ]
+            }
+          ],
+          "directCount": 9,
+          "total": 12,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-10",
+            "reportDate": "2026-06-10",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1304492/000130449226000024/atex-20260610.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-04-21",
+            "reportDate": "2026-04-21",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1304492/000130449226000019/atex-20260421.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-04-06",
+            "reportDate": "2026-03-31",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1304492/000130449226000016/atex-20260331.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-04-01",
+            "reportDate": "2026-03-25",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1304492/000130449226000014/atex-20260325.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-11",
+            "reportDate": "2026-02-11",
+            "items": [
+              "2.02",
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1304492/000130449226000009/atex-20260211.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-02",
+            "reportDate": "2026-01-30",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1304492/000130449226000004/atex-20260130.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
       }
     },
     {
@@ -3073,6 +4569,287 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기"
+      },
+      "detail": {
+        "fetchedAt": "2026-08-05",
+        "nameKo": "모노파 테라퓨틱스",
+        "nameEn": "MONOPAR THERAPEUTICS INC",
+        "infomaxCode": "NAS:MNPR",
+        "financials": {
+          "ok": true,
+          "ticker": "MNPR",
+          "cik": "0001645469",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "Revenues",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-01-01",
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 0,
+              "profit": -5225253,
+              "netIncome": -3893050,
+              "margin": null,
+              "yoy": {
+                "revenue": null,
+                "profit": -62.2,
+                "netIncome": -48.3,
+                "priorEnd": null
+              }
+            },
+            {
+              "periodStart": "2019-09-30",
+              "periodEnd": "2019-12-31",
+              "derived": true,
+              "revenue": 0,
+              "profit": -1224895,
+              "netIncome": -1206859,
+              "margin": null,
+              "yoy": {
+                "revenue": null,
+                "profit": -32.2,
+                "netIncome": -35.5,
+                "priorEnd": "2018-12-31"
+              }
+            },
+            {
+              "periodStart": "2019-07-01",
+              "periodEnd": "2019-09-30",
+              "derived": false,
+              "revenue": 0,
+              "profit": -759448,
+              "netIncome": -736080,
+              "margin": null,
+              "yoy": {
+                "revenue": null,
+                "profit": -13.8,
+                "netIncome": -15,
+                "priorEnd": "2018-09-30"
+              }
+            },
+            {
+              "periodStart": "2019-04-01",
+              "periodEnd": "2019-06-30",
+              "derived": false,
+              "revenue": 0,
+              "profit": -932109,
+              "netIncome": -905700,
+              "margin": null,
+              "yoy": {
+                "revenue": null,
+                "profit": -39.6,
+                "netIncome": -41.5,
+                "priorEnd": "2018-06-30"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001645469&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "MNPR",
+          "items": [
+            {
+              "title": "Monopar's ALXN1840 Gets FDA's Rare Pediatric Disease Designation For Wilson Disease",
+              "url": "https://www.nasdaq.com/articles/monopars-alxn1840-gets-fdas-rare-pediatric-disease-designation-wilson-disease",
+              "date": "2026-06-30",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MNPR"
+              ]
+            },
+            {
+              "title": "Monopar Therapeutics Granted Rare Pediatric Disease Designation To ALXN1840 To Treat Wilson Disease",
+              "url": "https://www.nasdaq.com/articles/monopar-therapeutics-granted-rare-pediatric-disease-designation-alxn1840-treat-wilson",
+              "date": "2026-06-30",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MNPR"
+              ]
+            },
+            {
+              "title": "Wall Street Analysts Believe Monopar Therapeutics (MNPR) Could Rally 88.92%: Here's is How to Trade",
+              "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-monopar-therapeutics-mnpr-could-rally-8892-heres-how-trade",
+              "date": "2026-06-15",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MNPR"
+              ]
+            },
+            {
+              "title": "Monopar's ALXN1840 Shows Significant Copper Reduction In Phase 2 Trial For Wilson Disease",
+              "url": "https://www.nasdaq.com/articles/monopars-alxn1840-shows-significant-copper-reduction-phase-2-trial-wilson-disease",
+              "date": "2026-05-20",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MNPR"
+              ]
+            },
+            {
+              "title": "Monopar Reports Promising Analyses From Phase 3 FoCus Trial For ALXN1840 In Treating Wilson Disease",
+              "url": "https://www.nasdaq.com/articles/monopar-reports-promising-analyses-phase-3-focus-trial-alxn1840-treating-wilson-disease",
+              "date": "2026-04-20",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MNPR"
+              ]
+            },
+            {
+              "title": "Morgan Stanley Initiates Coverage of Monopar Therapeutics (MNPR) with Overweight Recommendation",
+              "url": "https://www.nasdaq.com/articles/morgan-stanley-initiates-coverage-monopar-therapeutics-mnpr-overweight-recommendation",
+              "date": "2026-01-10",
+              "publisher": "Fintel",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MNPR"
+              ]
+            },
+            {
+              "title": "Monday 12/29 Insider Buying Report: MNPR",
+              "url": "https://www.nasdaq.com/articles/monday-12-29-insider-buying-report-mnpr",
+              "date": "2025-12-29",
+              "publisher": "BNK Invest",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MNPR"
+              ]
+            },
+            {
+              "title": "Chardan Capital Maintains Monopar Therapeutics (MNPR) Buy Recommendation",
+              "url": "https://www.nasdaq.com/articles/chardan-capital-maintains-monopar-therapeutics-mnpr-buy-recommendation-1",
+              "date": "2025-11-14",
+              "publisher": "Fintel",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MNPR"
+              ]
+            }
+          ],
+          "directCount": 9,
+          "total": 9,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-22",
+            "reportDate": "2026-07-22",
+            "items": [
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926024041/mnpr20260721_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-30",
+            "reportDate": "2026-06-30",
+            "items": [
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926022086/mnpr20260629_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-26",
+            "reportDate": "2026-06-26",
+            "items": [
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926021832/mnpr20260625_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-23",
+            "reportDate": "2026-06-22",
+            "items": [
+              "5.07"
+            ],
+            "itemsKo": [
+              "주주총회 표결"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926021350/mnpr20260622_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-29",
+            "reportDate": "2026-05-29",
+            "items": [
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926018896/mnpr20260529_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-19",
+            "reportDate": "2026-05-19",
+            "items": [
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926017821/mnpr20260513_8k.htm",
+            "description": "FORM 8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
       }
     },
     {
@@ -3144,6 +4921,265 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기"
+      },
+      "detail": {
+        "fetchedAt": "2026-08-05",
+        "nameKo": "밴드위스",
+        "nameEn": "BANDWIDTH INC",
+        "infomaxCode": "NAS:BAND",
+        "financials": {
+          "ok": true,
+          "ticker": "BAND",
+          "cik": "0001514416",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-01-01",
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 208784000,
+              "profit": -4621000,
+              "netIncome": 4118000,
+              "margin": -2.2,
+              "yoy": {
+                "revenue": 19.8,
+                "profit": 1.4,
+                "netIncome": 210.1,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodStart": "2025-09-30",
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 207668000,
+              "profit": -3926000,
+              "netIncome": -3000000,
+              "margin": -1.9,
+              "yoy": {
+                "revenue": -1.1,
+                "profit": -47,
+                "netIncome": -70.6,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodStart": "2025-07-01",
+              "periodEnd": "2025-09-30",
+              "derived": false,
+              "revenue": 191895000,
+              "profit": -2008000,
+              "netIncome": -1241000,
+              "margin": -1,
+              "yoy": {
+                "revenue": -1,
+                "profit": -123.6,
+                "netIncome": -400.5,
+                "priorEnd": "2024-09-30"
+              }
+            },
+            {
+              "periodStart": "2025-04-01",
+              "periodEnd": "2025-06-30",
+              "derived": false,
+              "revenue": 180013000,
+              "profit": -3748000,
+              "netIncome": -4931000,
+              "margin": -2.1,
+              "yoy": {
+                "revenue": 3.7,
+                "profit": 38.3,
+                "netIncome": -221.6,
+                "priorEnd": "2024-06-30"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514416&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "BAND",
+          "items": [
+            {
+              "title": "All You Need to Know About Bandwidth (BAND) Rating Upgrade to Buy",
+              "url": "https://www.nasdaq.com/articles/all-you-need-know-about-bandwidth-band-rating-upgrade-buy",
+              "date": "2026-08-04",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BAND"
+              ]
+            },
+            {
+              "title": "Bandwidth Q2 Earnings Call Highlights AI Shift, 2026 Outlook Raised",
+              "url": "https://www.nasdaq.com/articles/bandwidth-q2-earnings-call-highlights-ai-shift-2026-outlook-raised",
+              "date": "2026-07-30",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BAND"
+              ]
+            },
+            {
+              "title": "Bandwidth Q2 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/bandwidth-q2-earnings-call-highlights",
+              "date": "2026-07-29",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BAND"
+              ]
+            },
+            {
+              "title": "Bandwidth (BAND) Q2 Earnings and Revenues Surpass Estimates",
+              "url": "https://www.nasdaq.com/articles/bandwidth-band-q2-earnings-and-revenues-surpass-estimates",
+              "date": "2026-07-29",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BAND",
+                "ATEX"
+              ]
+            },
+            {
+              "title": "Should Bandwidth Stock Be in Your Portfolio Pre-Q2 Earnings?",
+              "url": "https://www.nasdaq.com/articles/should-bandwidth-stock-be-your-portfolio-pre-q2-earnings",
+              "date": "2026-07-27",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BAND",
+                "RNG",
+                "TWLO"
+              ]
+            }
+          ],
+          "directCount": 5,
+          "total": 5,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-03",
+            "reportDate": "2026-08-03",
+            "items": [
+              "8.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000060/band-20260803.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-29",
+            "reportDate": "2026-07-24",
+            "items": [
+              "1.01",
+              "2.02",
+              "5.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "실적 발표",
+              "임원 변동",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000055/band-20260724.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-18",
+            "reportDate": "2026-06-15",
+            "items": [
+              "1.01",
+              "2.03",
+              "3.02",
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "2.03",
+              "3.02",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000049/band-20260615.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-16",
+            "reportDate": "2026-06-15",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000045/band-20260615.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-15",
+            "reportDate": "2026-06-15",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000043/band-20260615.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-29",
+            "reportDate": "2026-05-28",
+            "items": [
+              "5.07"
+            ],
+            "itemsKo": [
+              "주주총회 표결"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000041/band-20260528.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
       }
     },
     {
@@ -3215,6 +5251,298 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기"
+      },
+      "detail": {
+        "fetchedAt": "2026-08-05",
+        "nameKo": "VICTORIAS SECRET AND CO",
+        "nameEn": "VICTORIAS SECRET AND CO",
+        "infomaxCode": "NYS:VSXY",
+        "financials": {
+          "ok": true,
+          "ticker": "VSXY",
+          "cik": "0001856437",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-02-01",
+              "periodEnd": "2026-05-02",
+              "derived": false,
+              "revenue": 1560000000,
+              "profit": 76000000,
+              "netIncome": 48000000,
+              "margin": 4.9,
+              "yoy": {
+                "revenue": 15.3,
+                "profit": 280,
+                "netIncome": 2500,
+                "priorEnd": "2025-05-03"
+              }
+            },
+            {
+              "periodStart": "2025-11-01",
+              "periodEnd": "2026-01-31",
+              "derived": true,
+              "revenue": 2269000000,
+              "profit": 229000000,
+              "netIncome": 184000000,
+              "margin": 10.1,
+              "yoy": {
+                "revenue": 7.7,
+                "profit": -14.6,
+                "netIncome": -4.7,
+                "priorEnd": "2025-02-01"
+              }
+            },
+            {
+              "periodStart": "2025-08-03",
+              "periodEnd": "2025-11-01",
+              "derived": false,
+              "revenue": 1472000000,
+              "profit": -19000000,
+              "netIncome": -37000000,
+              "margin": -1.3,
+              "yoy": {
+                "revenue": 9.3,
+                "profit": 59.6,
+                "netIncome": 33.9,
+                "priorEnd": "2024-11-02"
+              }
+            },
+            {
+              "periodStart": "2025-05-04",
+              "periodEnd": "2025-08-02",
+              "derived": false,
+              "revenue": 1459000000,
+              "profit": 41000000,
+              "netIncome": 16000000,
+              "margin": 2.8,
+              "yoy": {
+                "revenue": 3,
+                "profit": -33.9,
+                "netIncome": -50,
+                "priorEnd": "2024-08-03"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001856437&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "VSXY",
+          "items": [
+            {
+              "title": "Will Victoria's Secret (VSXY) Beat Estimates Again in Its Next Earnings Report?",
+              "url": "https://www.nasdaq.com/articles/will-victorias-secret-vsxy-beat-estimates-again-its-next-earnings-report",
+              "date": "2026-08-04",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "VSXY"
+              ]
+            },
+            {
+              "title": "Victoria's Secret (VSXY) is a Great Momentum Stock: Should You Buy?",
+              "url": "https://www.nasdaq.com/articles/victorias-secret-vsxy-great-momentum-stock-should-you-buy",
+              "date": "2026-07-30",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "VSXY"
+              ]
+            },
+            {
+              "title": "Why Victoria's Secret (VSXY) is a Top Value Stock for the Long-Term",
+              "url": "https://www.nasdaq.com/articles/why-victorias-secret-vsxy-top-value-stock-long-term",
+              "date": "2026-07-30",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "VSXY"
+              ]
+            },
+            {
+              "title": "Why Victoria's Secret (VSXY) is a Top Growth Stock for the Long-Term",
+              "url": "https://www.nasdaq.com/articles/why-victorias-secret-vsxy-top-growth-stock-long-term",
+              "date": "2026-07-21",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "VSXY"
+              ]
+            },
+            {
+              "title": "Victoria's Secret (VSXY) is a Top-Ranked Momentum Stock: Should You Buy?",
+              "url": "https://www.nasdaq.com/articles/victorias-secret-vsxy-top-ranked-momentum-stock-should-you-buy",
+              "date": "2026-07-09",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "VSXY"
+              ]
+            },
+            {
+              "title": "Bull of the Day: Victoria's Secret (VSXY)",
+              "url": "https://www.nasdaq.com/articles/bull-day-victorias-secret-vsxy",
+              "date": "2026-07-09",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "VSXY"
+              ]
+            },
+            {
+              "title": "Buy 2 Apparel & Shoes Stocks on Solid Guidance and Estimate Revisions",
+              "url": "https://www.nasdaq.com/articles/buy-2-apparel-shoes-stocks-solid-guidance-and-estimate-revisions",
+              "date": "2026-07-30",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "DECK",
+                "VSXY"
+              ]
+            },
+            {
+              "title": "Arhaus Is Well Positioned to Benefit From Evolving Design Trends",
+              "url": "https://www.nasdaq.com/articles/arhaus-well-positioned-benefit-evolving-design-trends",
+              "date": "2026-07-28",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "ARHS",
+                "FIVE",
+                "VSXY"
+              ]
+            }
+          ],
+          "directCount": 6,
+          "total": 8,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-15",
+            "reportDate": "2026-06-11",
+            "items": [
+              "5.07",
+              "9.01"
+            ],
+            "itemsKo": [
+              "주주총회 표결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000015/vsco-20260611.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-02",
+            "reportDate": "2026-06-02",
+            "items": [
+              "2.02",
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000011/vsco-20260602.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-21",
+            "reportDate": "2026-05-21",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000007/vsco-20260521.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-11",
+            "reportDate": "2026-05-10",
+            "items": [
+              "5.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "임원 변동",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000119312526217065/d152704d8k.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-03-05",
+            "reportDate": "2026-03-05",
+            "items": [
+              "2.02",
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000002/vsco-20260305.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2025-12-05",
+            "reportDate": "2025-12-05",
+            "items": [
+              "2.02",
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643725000044/vsco-20251205.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
       }
     },
     {
@@ -3286,6 +5614,301 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기"
+      },
+      "detail": {
+        "fetchedAt": "2026-08-05",
+        "nameKo": "스파이어 테라퓨틱스",
+        "nameEn": "SPYRE THERAPEUTICS INC",
+        "infomaxCode": "NAS:SYRE",
+        "financials": {
+          "ok": true,
+          "ticker": "SYRE",
+          "cik": "0001636282",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2024-09-30",
+              "periodEnd": "2024-12-31",
+              "derived": true,
+              "revenue": 0,
+              "profit": -61253000,
+              "netIncome": -56296000,
+              "margin": null,
+              "yoy": {
+                "revenue": null,
+                "profit": -33.4,
+                "netIncome": 10.9,
+                "priorEnd": "2023-12-31"
+              }
+            },
+            {
+              "periodStart": "2024-07-01",
+              "periodEnd": "2024-09-30",
+              "derived": false,
+              "revenue": 0,
+              "profit": -55392000,
+              "netIncome": -69028000,
+              "margin": null,
+              "yoy": {
+                "revenue": null,
+                "profit": -202.1,
+                "netIncome": -72.1,
+                "priorEnd": "2023-09-30"
+              }
+            },
+            {
+              "periodStart": "2024-04-01",
+              "periodEnd": "2024-06-30",
+              "derived": false,
+              "revenue": 0,
+              "profit": -44147000,
+              "netIncome": -38837000,
+              "margin": null,
+              "yoy": {
+                "revenue": -100,
+                "profit": 72.3,
+                "netIncome": 82.1,
+                "priorEnd": "2023-06-30"
+              }
+            },
+            {
+              "periodStart": "2024-01-01",
+              "periodEnd": "2024-03-31",
+              "derived": false,
+              "revenue": 0,
+              "profit": -47774000,
+              "netIncome": -43857000,
+              "margin": null,
+              "yoy": {
+                "revenue": -100,
+                "profit": -154,
+                "netIncome": -138.1,
+                "priorEnd": "2023-03-31"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001636282&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "SYRE",
+          "items": [
+            {
+              "title": "Is SYRE Stock a Buy Now or a Wait-and-See Biotech Story Today",
+              "url": "https://www.nasdaq.com/articles/syre-stock-buy-now-or-wait-and-see-biotech-story-today",
+              "date": "2026-06-29",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "SYRE",
+                "JNJ",
+                "ABBV"
+              ]
+            },
+            {
+              "title": "SYRE and Spyre Ride New IBD Trends in Biotech Drug Design",
+              "url": "https://www.nasdaq.com/articles/syre-and-spyre-ride-new-ibd-trends-biotech-drug-design",
+              "date": "2026-06-29",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "SYRE",
+                "JNJ",
+                "ABBV"
+              ]
+            },
+            {
+              "title": "Spyre Therapeutics Stock Outlook Hinges on 2026 Study Catalysts",
+              "url": "https://www.nasdaq.com/articles/spyre-therapeutics-stock-outlook-hinges-2026-study-catalysts",
+              "date": "2026-06-29",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "JNJ",
+                "ABBV",
+                "SYRE"
+              ]
+            },
+            {
+              "title": "Spyre Therapeutics (SYRE) Price Target Increased by 42.03% to 88.06",
+              "url": "https://www.nasdaq.com/articles/spyre-therapeutics-syre-price-target-increased-4203-8806",
+              "date": "2026-04-28",
+              "publisher": "Fintel",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "SYRE"
+              ]
+            },
+            {
+              "title": "SYRE Stock Jumps More Than 70% in a Month: What Is Driving This Rally?",
+              "url": "https://www.nasdaq.com/articles/syre-stock-jumps-more-70-month-what-driving-rally",
+              "date": "2026-04-23",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "JNJ",
+                "TAK",
+                "SYRE"
+              ]
+            },
+            {
+              "title": "Spyre Therapeutics Prices Upsized $403 Mln Public Offering Of 6.50 Mln Shares At $62.00/shr",
+              "url": "https://www.nasdaq.com/articles/spyre-therapeutics-prices-upsized-403-mln-public-offering-650-mln-shares-6200-shr",
+              "date": "2026-04-15",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "SYRE"
+              ]
+            },
+            {
+              "title": "Raymond James Initiates Coverage of Spyre Therapeutics (SYRE) with Strong Buy Recommendation",
+              "url": "https://www.nasdaq.com/articles/raymond-james-initiates-coverage-spyre-therapeutics-syre-strong-buy-recommendation",
+              "date": "2026-04-14",
+              "publisher": "Fintel",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "SYRE"
+              ]
+            },
+            {
+              "title": "Spyre Therapeutics Unveils $300 Mln Public Offering Of Shares; Stock Down",
+              "url": "https://www.nasdaq.com/articles/spyre-therapeutics-unveils-300-mln-public-offering-shares-stock-down",
+              "date": "2026-04-14",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "SYRE"
+              ]
+            }
+          ],
+          "directCount": 10,
+          "total": 10,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-04",
+            "reportDate": "2026-08-04",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000098/syre-20260804.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-15",
+            "reportDate": "2026-06-15",
+            "items": [
+              "7.01",
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "Reg FD 공시",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000083/syre-20260615.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-01",
+            "reportDate": "2026-05-29",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000075/syre-20260529.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-29",
+            "reportDate": "2026-05-27",
+            "items": [
+              "5.02",
+              "5.07",
+              "9.01"
+            ],
+            "itemsKo": [
+              "임원 변동",
+              "주주총회 표결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000056/syre-20260527.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-05",
+            "reportDate": "2026-05-05",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000051/syre-20260505.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-04-16",
+            "reportDate": "2026-04-14",
+            "items": [
+              "1.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1636282/000162828026025508/syre-20260414.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
       }
     },
     {
@@ -3357,6 +5980,279 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기"
+      },
+      "detail": {
+        "fetchedAt": "2026-08-05",
+        "nameKo": "파 퍼시픽 홀딩스",
+        "nameEn": "PAR PACIFIC HOLDINGS INC",
+        "infomaxCode": "NYS:PARR",
+        "financials": {
+          "ok": true,
+          "ticker": "PARR",
+          "cik": "0000821483",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-01-01",
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 1823750000,
+              "profit": 65322000,
+              "netIncome": 54450000,
+              "margin": 3.6,
+              "yoy": {
+                "revenue": 4.5,
+                "profit": 514.1,
+                "netIncome": 279.1,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodStart": "2025-09-30",
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 1813240000,
+              "profit": 99258000,
+              "netIncome": 77700000,
+              "margin": 5.5,
+              "yoy": {
+                "revenue": -1,
+                "profit": 311.4,
+                "netIncome": 239.5,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodStart": "2025-07-01",
+              "periodEnd": "2025-09-30",
+              "derived": false,
+              "revenue": 2012936000,
+              "profit": 358516000,
+              "netIncome": 262631000,
+              "margin": 17.8,
+              "yoy": {
+                "revenue": -6.1,
+                "profit": 884.1,
+                "netIncome": 3408.3,
+                "priorEnd": "2024-09-30"
+              }
+            },
+            {
+              "periodStart": "2025-04-01",
+              "periodEnd": "2025-06-30",
+              "derived": false,
+              "revenue": 1893438000,
+              "profit": 96760000,
+              "netIncome": 59460000,
+              "margin": 5.1,
+              "yoy": {
+                "revenue": -6.1,
+                "profit": 98.9,
+                "netIncome": 219,
+                "priorEnd": "2024-06-30"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000821483&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "PARR",
+          "items": [
+            {
+              "title": "Par Petroleum (PARR) Beats Q2 Earnings and Revenue Estimates",
+              "url": "https://www.nasdaq.com/articles/par-petroleum-parr-beats-q2-earnings-and-revenue-estimates",
+              "date": "2026-08-04",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PARR",
+                "PSX"
+              ]
+            },
+            {
+              "title": "Par Pacific's Q2 Earnings on Deck: Should You Bet on the Stock?",
+              "url": "https://www.nasdaq.com/articles/par-pacifics-q2-earnings-deck-should-you-bet-stock",
+              "date": "2026-08-03",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PARR",
+                "VLO",
+                "PSX"
+              ]
+            },
+            {
+              "title": "Par Petroleum (PARR) Is Up 1.50% in One Week: What You Should Know",
+              "url": "https://www.nasdaq.com/articles/par-petroleum-parr-150-one-week-what-you-should-know",
+              "date": "2026-07-29",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PARR"
+              ]
+            },
+            {
+              "title": "Par Petroleum (PARR) Reports Next Week: Wall Street Expects Earnings Growth",
+              "url": "https://www.nasdaq.com/articles/par-petroleum-parr-reports-next-week-wall-street-expects-earnings-growth",
+              "date": "2026-07-28",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PARR",
+                "PBF"
+              ]
+            },
+            {
+              "title": "Phillips 66's Q2 Earnings on Deck: Should You Bet on the Stock?",
+              "url": "https://www.nasdaq.com/articles/phillips-66s-q2-earnings-deck-should-you-bet-stock",
+              "date": "2026-07-30",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "PSX",
+                "VLO",
+                "PARR"
+              ]
+            },
+            {
+              "title": "Valero Energy Q2 Earnings on Deck: What's in Store for the Stock?",
+              "url": "https://www.nasdaq.com/articles/valero-energy-q2-earnings-deck-whats-store-stock",
+              "date": "2026-07-28",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "VLO",
+                "PBF",
+                "PARR"
+              ]
+            }
+          ],
+          "directCount": 4,
+          "total": 6,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-14",
+            "reportDate": "2026-05-14",
+            "items": [
+              "1.01",
+              "2.03",
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "2.03",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/821483/000119312526224142/d176382d8k.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-11",
+            "reportDate": "2026-05-11",
+            "items": [
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/821483/000119312526215799/d49629d8k.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-05",
+            "reportDate": "2026-05-05",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/821483/000162828026030714/parr-20260505.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-04",
+            "reportDate": "2026-04-30",
+            "items": [
+              "5.07"
+            ],
+            "itemsKo": [
+              "주주총회 표결"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/821483/000143774926014568/parr20260501_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-24",
+            "reportDate": "2026-02-24",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/821483/000162828026011234/parr-20260224.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2025-12-19",
+            "reportDate": "2025-12-16",
+            "items": [
+              "1.01",
+              "2.03",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "2.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/821483/000143774925038429/parr20251219_8k.htm",
+            "description": "FORM 8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
       }
     },
     {
@@ -3429,6 +6325,336 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기"
+      },
+      "detail": {
+        "fetchedAt": "2026-08-05",
+        "nameKo": "팰로 앨토 네트웍스",
+        "nameEn": "PALO ALTO NETWORKS INC",
+        "infomaxCode": "NAS:PANW",
+        "financials": {
+          "ok": true,
+          "ticker": "PANW",
+          "cik": "0001327567",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-02-01",
+              "periodEnd": "2026-04-30",
+              "derived": false,
+              "revenue": 3002000000,
+              "profit": -183000000,
+              "netIncome": -177000000,
+              "margin": -6.1,
+              "yoy": {
+                "revenue": 31.1,
+                "profit": -183.6,
+                "netIncome": -167.6,
+                "priorEnd": "2025-04-30"
+              }
+            },
+            {
+              "periodStart": "2025-11-01",
+              "periodEnd": "2026-01-31",
+              "derived": false,
+              "revenue": 2594000000,
+              "profit": 397000000,
+              "netIncome": 432000000,
+              "margin": 15.3,
+              "yoy": {
+                "revenue": 14.9,
+                "profit": 64.7,
+                "netIncome": 61.8,
+                "priorEnd": "2025-01-31"
+              }
+            },
+            {
+              "periodStart": "2025-08-01",
+              "periodEnd": "2025-10-31",
+              "derived": false,
+              "revenue": 2474000000,
+              "profit": 309000000,
+              "netIncome": 334000000,
+              "margin": 12.5,
+              "yoy": {
+                "revenue": 15.7,
+                "profit": 8,
+                "netIncome": -4.8,
+                "priorEnd": "2024-10-31"
+              }
+            },
+            {
+              "periodStart": "2025-04-30",
+              "periodEnd": "2025-07-31",
+              "derived": true,
+              "revenue": 2536500000,
+              "profit": 496900000,
+              "netIncome": 253900000,
+              "margin": 19.6,
+              "yoy": {
+                "revenue": 15.8,
+                "profit": 108.4,
+                "netIncome": -29,
+                "priorEnd": "2024-07-31"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327567&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "PANW",
+          "items": [
+            {
+              "title": "The Zacks Analyst Blog Highlights Microsoft, Palo Alto Networks and American Express",
+              "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-microsoft-palo-alto-networks-and-american-express",
+              "date": "2026-08-03",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MSFT",
+                "AXP",
+                "PANW"
+              ]
+            },
+            {
+              "title": "Palo Alto Networks (PANW) Stock Sinks As Market Gains: Here's Why",
+              "url": "https://www.nasdaq.com/articles/palo-alto-networks-panw-stock-sinks-market-gains-heres-why",
+              "date": "2026-07-27",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PANW"
+              ]
+            },
+            {
+              "title": "Palo Alto Networks, Inc. (PANW) Is a Trending Stock: Facts to Know Before Betting on It",
+              "url": "https://www.nasdaq.com/articles/palo-alto-networks-inc-panw-trending-stock-facts-know-betting-it-1",
+              "date": "2026-07-24",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PANW"
+              ]
+            },
+            {
+              "title": "Qualys (QLYS) Tops Q2 Earnings and Revenue Estimates",
+              "url": "https://www.nasdaq.com/articles/qualys-qlys-tops-q2-earnings-and-revenue-estimates",
+              "date": "2026-08-04",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "QLYS",
+                "PANW"
+              ]
+            },
+            {
+              "title": "ServiceNow Built a Billion-Dollar Cybersecurity Business, and It's Growing Faster Than the Competition",
+              "url": "https://www.nasdaq.com/articles/servicenow-built-billion-dollar-cybersecurity-business-and-its-growing-faster-competition",
+              "date": "2026-08-04",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "NOW",
+                "NOW",
+                "PANW"
+              ]
+            },
+            {
+              "title": "Zscaler's Large Deal Activity Surges: What's Driving This Momentum?",
+              "url": "https://www.nasdaq.com/articles/zscalers-large-deal-activity-surges-whats-driving-momentum",
+              "date": "2026-08-04",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "ZS",
+                "PANW",
+                "CRWD"
+              ]
+            },
+            {
+              "title": "Fortinet (FTNT) Surpasses Q2 Earnings and Revenue Estimates",
+              "url": "https://www.nasdaq.com/articles/fortinet-ftnt-surpasses-q2-earnings-and-revenue-estimates",
+              "date": "2026-07-29",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "FTNT",
+                "PANW"
+              ]
+            },
+            {
+              "title": "Insiders Sell, Institutions Buy: The AI Trade Is Getting More Interesting",
+              "url": "https://www.nasdaq.com/articles/insiders-sell-institutions-buy-ai-trade-getting-more-interesting",
+              "date": "2026-07-29",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "PANW",
+                "PANW"
+              ]
+            }
+          ],
+          "directCount": 3,
+          "total": 8,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-02",
+            "reportDate": "2026-06-02",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000012/panw-20260602.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-04-13",
+            "reportDate": "2026-04-08",
+            "items": [
+              "1.01",
+              "2.03",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "2.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312526151637/d49517d8k.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-03-23",
+            "reportDate": "2026-03-23",
+            "items": [
+              "8.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312526119729/d84927d8k.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-03-11",
+            "reportDate": "2026-03-10",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000009/panw-20260310.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-17",
+            "reportDate": "2026-02-17",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000003/panw-20260217.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-11",
+            "reportDate": "2026-02-11",
+            "items": [
+              "1.01",
+              "2.03",
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "2.03",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312526045600/d40626d8k.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 3,
+          "reports": [
+            {
+              "title": "[팰로 앨토 네트웍스 (NAS:PANW)] AI 에이전트 시대의 필요 조건은 사이버 보안",
+              "broker": "키움증권",
+              "analyst": "김진구",
+              "date": "2026-08-04",
+              "summary": "- 보안 프로세스 전체를 아우르는 토탈 보안 솔루션 플랫폼 업체를 목표- 프런티어 업체와 긴밀한 연계 및 상호 교차검증 수요 증가로 성장 기대- 장기적으로 프런티어 업체의 보안 솔루션 내재화 여지는 잠재적 리스크",
+              "pages": "8",
+              "secureId": "eqlzqmxgmmkzqzlgcgxclcz",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqmxgmmkzqzlgcgxclcz.pdf",
+              "opinion": null
+            },
+            {
+              "title": "[팰로 앨토 네트웍스 (NAS:PANW)] 토탈 보안 플랫폼의 반격",
+              "broker": "키움증권",
+              "analyst": "김승혁",
+              "date": "2025-09-02",
+              "summary": "- 팰로 앨토 네트웍스는 토털 보안 플랫폼을 제공하는 글로벌 사이버 보안 기업- AI 확산 속 통합 보안 플랫폼으로 급증하는 트래픽 수요를 선점- CyberArk 인수로 아이덴티티까지 아우르며 토털 보안 표준과 경쟁 우위를 강화",
+              "pages": "7",
+              "secureId": "eqzxqxqkclqlxmkgcgxclcz",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzxqxqkclqlxmkgcgxclcz.pdf",
+              "opinion": null
+            },
+            {
+              "title": "[팰로 앨토 네트웍스 (NAS:PANW)] ‘토탈’의 반격",
+              "broker": "키움증권",
+              "analyst": "김승혁",
+              "date": "2025-08-20",
+              "summary": "- 팰로 앨토 네트웍스는 토털 보안 플랫폼을 제공하는 글로벌 사이버 보안 기업- FY4Q25 실적에서 차세대 보안 ARR과 수주 잔고 등이 높은 성장률을 기록- 통합 보안 솔루션 니즈 확대와 경쟁사 대비 차별성 기반 긍정적 실적 흐름 전망",
+              "pages": "6",
+              "secureId": "eqzzxkzeliecmeigcgxclcz",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzzxkzeliecmeigcgxclcz.pdf",
+              "opinion": null
+            }
+          ],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
       }
     },
     {
@@ -3500,6 +6726,307 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기"
+      },
+      "detail": {
+        "fetchedAt": "2026-08-05",
+        "nameKo": "펭귄 솔루션스",
+        "nameEn": "PENGUIN SOLUTIONS INC",
+        "infomaxCode": "NAS:PENG",
+        "financials": {
+          "ok": true,
+          "ticker": "PENG",
+          "cik": "0001616533",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-02-28",
+              "periodEnd": "2026-05-29",
+              "derived": false,
+              "revenue": 478713000,
+              "profit": 50863000,
+              "netIncome": 44689000,
+              "margin": 10.6,
+              "yoy": {
+                "revenue": 47.6,
+                "profit": 416.7,
+                "netIncome": 1579.4,
+                "priorEnd": "2025-05-30"
+              }
+            },
+            {
+              "periodStart": "2025-11-29",
+              "periodEnd": "2026-02-27",
+              "derived": false,
+              "revenue": 342999000,
+              "profit": 25689000,
+              "netIncome": 37452000,
+              "margin": 7.5,
+              "yoy": {
+                "revenue": -6.2,
+                "profit": 38.9,
+                "netIncome": 363.4,
+                "priorEnd": "2025-02-28"
+              }
+            },
+            {
+              "periodStart": "2025-08-30",
+              "periodEnd": "2025-11-28",
+              "derived": false,
+              "revenue": 343071000,
+              "profit": 19582000,
+              "netIncome": 5270000,
+              "margin": 5.7,
+              "yoy": {
+                "revenue": 0.6,
+                "profit": 12.8,
+                "netIncome": 1,
+                "priorEnd": "2024-11-29"
+              }
+            },
+            {
+              "periodStart": "2025-05-31",
+              "periodEnd": "2025-08-29",
+              "derived": false,
+              "revenue": 337922000,
+              "profit": 12448000,
+              "netIncome": 9431000,
+              "margin": 3.7,
+              "yoy": {
+                "revenue": 8.6,
+                "profit": 41.6,
+                "netIncome": 138.4,
+                "priorEnd": "2024-08-30"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001616533&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "PENG",
+          "items": [
+            {
+              "title": "Penguin's ClusterWareAI Expands: Is the Platform Strategy Paying Off?",
+              "url": "https://www.nasdaq.com/articles/penguins-clusterwareai-expands-platform-strategy-paying",
+              "date": "2026-07-23",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PENG",
+                "SMCI",
+                "HPE"
+              ]
+            },
+            {
+              "title": "PENG vs. DDOG: Which AI Infrastructure Stock Is the Better Buy Now?",
+              "url": "https://www.nasdaq.com/articles/peng-vs-ddog-which-ai-infrastructure-stock-better-buy-now",
+              "date": "2026-07-20",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "DDOG",
+                "PENG"
+              ]
+            },
+            {
+              "title": "Can Penguin Solutions Be the Next 10X Stock?",
+              "url": "https://www.nasdaq.com/articles/can-penguin-solutions-be-next-10x-stock",
+              "date": "2026-07-15",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PENG",
+                "PENG"
+              ]
+            },
+            {
+              "title": "Penguin Raises FY26 Outlook: Is AI Demand Finally Paying Off?",
+              "url": "https://www.nasdaq.com/articles/penguin-raises-fy26-outlook-ai-demand-finally-paying",
+              "date": "2026-07-14",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PENG",
+                "DELL",
+                "ALAB"
+              ]
+            },
+            {
+              "title": "Earnings Estimates Rising for Penguin Solutions, Inc. (PENG): Will It Gain?",
+              "url": "https://www.nasdaq.com/articles/earnings-estimates-rising-penguin-solutions-inc-peng-will-it-gain",
+              "date": "2026-07-13",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PENG"
+              ]
+            },
+            {
+              "title": "Are You Looking for a Top Momentum Pick? Why Penguin Solutions, Inc. (PENG) is a Great Choice",
+              "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-penguin-solutions-inc-peng-great-choice",
+              "date": "2026-07-13",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PENG"
+              ]
+            },
+            {
+              "title": "September 2027 Options Now Available For Penguin Solutions (PENG)",
+              "url": "https://www.nasdaq.com/articles/september-2027-options-now-available-penguin-solutions-peng",
+              "date": "2026-07-10",
+              "publisher": "BNK Invest",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PENG"
+              ]
+            },
+            {
+              "title": "Penguin Solutions Q3 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/penguin-solutions-q3-earnings-call-highlights",
+              "date": "2026-07-09",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PENG"
+              ]
+            }
+          ],
+          "directCount": 9,
+          "total": 11,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-17",
+            "reportDate": "2026-07-13",
+            "items": [
+              "1.01",
+              "2.03",
+              "3.02",
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "2.03",
+              "3.02",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1616533/000119312526307989/d103073d8k.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-07",
+            "reportDate": "2026-07-07",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000041/peng-20260707.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-01",
+            "reportDate": "2026-05-26",
+            "items": [
+              "5.02",
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "임원 변동",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1616533/000119312526251467/d104493d8k.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-18",
+            "reportDate": "2026-05-18",
+            "items": [
+              "5.02",
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "임원 변동",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000036/peng-20260518.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-04-01",
+            "reportDate": "2026-04-01",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000028/peng-20260401.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-04-01",
+            "reportDate": "2026-03-30",
+            "items": [
+              "7.01",
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "Reg FD 공시",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1616533/000119312526135770/d119062d8k.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
       }
     },
     {
@@ -6526,8 +10053,8 @@ window.TEAM2_DATA = {
     "total": 54
   },
   "detail_coverage": {
-    "done": 8,
+    "done": 20,
     "total": 54,
-    "cap": 8
+    "cap": 20
   }
 };
