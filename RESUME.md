@@ -69,9 +69,28 @@ Stage 0~12 전부 완료. **Node 파이프라인 + 대시보드 + LLM 워크플�
   ⚠️ **교훈: 뉴스 URL 은 반드시 `prepare-llm-args.js` 출력을 그대로 넘길 것.**
   기억으로 타이핑하면 그럴듯하지만 틀린 URL 이 만들어진다.
 
+### ✅ start breakout 전체 흐름 통과 (2026-08-05)
+
+워크플로 → 수집 → 출처검증 → 대시보드 병합까지 처음으로 끝까지 성공.
+
+```bash
+node scripts/run-breakout.js          # Node 파이프라인
+node scripts/prepare-llm-args.js      # 워크플로 args 생성
+node scripts/slim-args.js --t2=6      # 인라인 전달용 축약
+# → Workflow({scriptPath:'<abs>/scripts/workflows/teamN-*.js', args:...}) 실행
+node scripts/collect-llm.js --team1=<output> --team2=<output> ...
+node scripts/build-chief-report.js    # 출처 검증 + 병합
+```
+
+실행 결과: 1팀 뉴스 7건 · 2팀 리서치 6종목(에이전트 8명 전원 성공) · 4팀 촉매 4 · 5팀 업종 3
+출처 URL 64개 → 생존 51 · 미검증 15 · 죽음 8 제거 · 근거없음 강등 4
+
+**⚠️ 반드시 지킬 것**: 뉴스 URL 은 `prepare-llm-args.js` 출력을 **그대로** 넘긴다.
+기억으로 타이핑하면 그럴듯하지만 틀린 URL 이 만들어진다(실측: 5개 중 4개가 죽은 링크).
+
 ## 남은 작업
 
-1. **GitHub 업로드** — `gh` CLI 설치가 완료됐는지 확인 후
+1. **GitHub 업로드** — `gh` 2.97.0 설치 완료. `gh auth login`(브라우저 인증, 직접 해야 함) 후
    `gh auth login` → `gh repo create 305rhfueo-ui/breakout-team --private --source=. --push`
    (로컬 git 커밋은 이미 완료)
 2. **NotebookLM 인증** — Chrome 완전 종료 → `setup_auth` → 브라우저 로그인
