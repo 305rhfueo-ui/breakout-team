@@ -663,8 +663,8 @@ window.TEAM1_DATA = {
     "candidateCount": 8,
     "verified": {
       "checked": 64,
-      "ok": 52,
-      "unverified": 14,
+      "ok": 51,
+      "unverified": 15,
       "dead": 8,
       "stripped": 4,
       "removed": [

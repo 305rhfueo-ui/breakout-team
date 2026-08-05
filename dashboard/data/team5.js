@@ -713,8 +713,8 @@ window.TEAM5_DATA = {
                 "url": "https://247wallst.com/investing/2026/07/06/crowdstrike-surges-5-palo-alto-and-okta-gain-4-as-cybersecurity-stocks-rally-on-analyst-upgrades/",
                 "date": "2026-07-06",
                 "quote": "CrowdStrike has surged 5% to over $204, Palo Alto Networks climbed 4% to approximately $363, while Okta shares rose 4% to $147.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
