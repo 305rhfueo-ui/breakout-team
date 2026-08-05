@@ -40,31 +40,39 @@ border:1px solid var(--bd);border-radius:18px;padding:26px 16px 22px;margin-top:
 border-radius:8px;padding:6px 16px;font-size:11.5px;color:var(--dim);white-space:nowrap}
 
 .desks{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:10px;margin-top:38px;position:relative;z-index:2}
-.seat{text-align:center;cursor:pointer;position:relative;padding-top:78px}
+/* padding-top 은 말풍선이 올라앉을 자리다. 얼굴을 가리지 않으려면
+   말풍선 '바닥'을 이 선에 붙이고 위로 자라게 해야 한다 (.bub 참조). */
+.seat{text-align:center;cursor:pointer;position:relative;padding-top:118px}
 .seat:hover .body{transform:translateY(-4px)}
 
 /* 말풍선 */
-.bub{position:absolute;top:0;left:50%;transform:translateX(-50%) scale(.86);width:190px;
+/* ⚠️ top 기준으로 아래로 자라면 말이 길어질수록 얼굴을 덮는다.
+   bottom 을 캐릭터 머리 위 선(112px)에 고정하고 위로 자라게 한다. */
+.bub{position:absolute;top:112px;left:50%;transform:translate(-50%,-100%) scale(.88);
+transform-origin:bottom center;width:190px;
 background:#eef3fb;color:#16202f;border-radius:14px;padding:9px 12px;font-size:11.5px;line-height:1.5;
 box-shadow:0 8px 20px rgba(0,0,0,.5);opacity:0;transition:.35s;pointer-events:none;text-align:left;z-index:5}
 .bub::after{content:"";position:absolute;bottom:-7px;left:50%;transform:translateX(-50%);
 border:7px solid transparent;border-top-color:#eef3fb;border-bottom:0}
-.bub.on{opacity:1;transform:translateX(-50%) scale(1)}
+.bub.on{opacity:1;transform:translate(-50%,-100%) scale(1)}
 .bub b{color:#0b57d0}
 
 /* 캐릭터 + 책상 */
 .body{transition:.2s}
-.head{font-size:40px;line-height:1;display:block;animation:bob 3.4s ease-in-out infinite}
-.seat:nth-child(2) .head{animation-delay:.4s}
-.seat:nth-child(3) .head{animation-delay:.8s}
-.seat:nth-child(4) .head{animation-delay:1.2s}
-.seat:nth-child(5) .head{animation-delay:1.6s}
-.seat:nth-child(6) .head{animation-delay:2s}
+/* 미니미는 책상 뒤에 앉는다 — 하반신이 책상에 가리도록 아래로 겹친다 */
+.mini{display:block;margin:0 auto -20px;position:relative;z-index:1;
+  animation:bob 3.4s ease-in-out infinite;filter:drop-shadow(0 4px 6px rgba(0,0,0,.45))}
+.seat:nth-child(2) .mini{animation-delay:.4s}
+.seat:nth-child(3) .mini{animation-delay:.8s}
+.seat:nth-child(4) .mini{animation-delay:1.2s}
+.seat:nth-child(5) .mini{animation-delay:1.6s}
+.seat:nth-child(6) .mini{animation-delay:2s}
+.mhead .avatar .mini{animation:none;margin:0;filter:none}
 @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
 
 .deskTop{margin:4px auto 0;width:96%;max-width:150px;height:44px;border-radius:8px 8px 4px 4px;
-background:linear-gradient(180deg,#2a3448,#1d2534);border:1px solid #36425c;position:relative;
-display:flex;align-items:center;justify-content:center;gap:5px}
+background:linear-gradient(180deg,#2a3448,#1d2534);border:1px solid #36425c;position:relative;z-index:2;
+display:flex;align-items:center;justify-content:center;gap:5px;box-shadow:0 -3px 8px rgba(0,0,0,.35)}
 .mon{width:38px;height:26px;border-radius:3px;background:#0a1220;border:1px solid #3b4a66;position:relative;overflow:hidden}
 .mon::after{content:"";position:absolute;inset:2px;border-radius:2px;
 background:linear-gradient(120deg,#123 0%,#1b4d7a 40%,#123 80%);animation:scan 2.6s linear infinite}
@@ -77,14 +85,14 @@ background:linear-gradient(120deg,#123 0%,#1b4d7a 40%,#123 80%);animation:scan 2
 .kpi{margin-top:6px;font-size:19px;font-weight:800;color:#fff;line-height:1.2}
 .kpil{font-size:10px;color:var(--dim)}
 .kline{margin-top:5px;font-size:10.5px;line-height:1.5;color:#9dabc0;min-height:2em}
-.busy{position:absolute;top:82px;right:12px;width:7px;height:7px;border-radius:50%;
+.busy{position:absolute;top:122px;right:12px;width:7px;height:7px;border-radius:50%;
 background:var(--grn);animation:pulse 1.6s infinite;z-index:3}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
 .busy.idle{background:var(--dim);animation:none}
 
 .chiefSeat{grid-column:1/-1}
 .chiefSeat .deskTop{max-width:280px;height:50px}
-.chiefSeat .head{font-size:46px}
+.chiefSeat .mini{margin-bottom:-18px}
 
 .talkbar{display:flex;align-items:center;gap:10px;justify-content:center;margin-top:16px;
 font-size:12px;color:var(--dim);position:relative;z-index:2}
@@ -103,7 +111,7 @@ padding:6px 14px;cursor:pointer;font-size:12px}
 .modal.on{display:block}
 .mbox{max-width:820px;margin:24px auto;background:var(--room);border:1px solid var(--bd);border-radius:16px;padding:20px}
 .mhead{display:flex;align-items:center;gap:14px;border-bottom:1px solid var(--bd);padding-bottom:12px;margin-bottom:14px}
-.mhead .avatar{font-size:38px;animation:none}
+.mhead .avatar{width:46px;flex:0 0 46px;animation:none}
 .mhead h3{margin:0;font-size:19px}
 .x{margin-left:auto;background:none;border:1px solid var(--bd);color:var(--dim);border-radius:8px;padding:6px 14px;cursor:pointer;font-size:14px}
 .x:hover{color:var(--tx);border-color:var(--blu)}
@@ -139,7 +147,7 @@ background:#0c121d;color:var(--dim);font-size:12px;line-height:1.6;font-style:it
 .empty{color:var(--dim);text-align:center;padding:16px;font-size:13px}
 .mhead .role{font-size:12px;color:var(--dim);margin-top:2px}
 .disc{text-align:center;color:var(--dim);font-size:11.5px;margin-top:30px;line-height:1.8}
-@media(max-width:560px){h1{font-size:21px}.avatar{font-size:38px}.stat{font-size:19px}}
+@media(max-width:560px){h1{font-size:21px}.stat{font-size:19px}.mini{width:52px}}
 </style>
 
 <div class="wrap">
@@ -180,15 +188,65 @@ const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;',
 const n=(v,d=2)=>v==null||Number.isNaN(Number(v))?'—':Number(v).toFixed(d);
 const tp=v=>v==null?'—':(100-Number(v)).toFixed(1);
 
-/* 팀별 담당자 — 이름은 취향껏 바꾸셔도 됩니다 */
+/* 팀별 담당자 — 이름·머리모양·옷색은 취향껏 바꾸셔도 됩니다.
+   look = {skin, hair, style, shirt, glasses, tie} 로 미니미 SVG 가 생성됩니다.
+   style: short | long | bun | spiky | bob | part */
 const AGENTS=[
-  {id:'t1',emoji:'🔭',name:'한별',role:'1팀 · 시장환경',tab:'t1'},
-  {id:'t2',emoji:'🎯',name:'도윤',role:'2팀 · 종목선정',tab:'t2'},
-  {id:'t3',emoji:'📋',name:'수아',role:'3팀 · 추적관리',tab:'t3'},
-  {id:'t4',emoji:'⚡',name:'재민',role:'4팀 · EP·촉매',tab:'t4'},
-  {id:'t5',emoji:'🗺️',name:'미르',role:'5팀 · 주도섹터',tab:'t5'},
-  {id:'chief',emoji:'🧑‍💼',name:'실장',role:'종합 · 오늘의 지시',tab:'chief',wide:true},
+  {id:'t1',emoji:'🔭',name:'한별',role:'1팀 · 시장환경',tab:'t1',
+   look:{skin:'#f3d0b4',hair:'#3b2a24',style:'long', shirt:'#5b8def',glasses:true}},
+  {id:'t2',emoji:'🎯',name:'도윤',role:'2팀 · 종목선정',tab:'t2',
+   look:{skin:'#eec59f',hair:'#1f1a17',style:'short',shirt:'#3fb27f'}},
+  {id:'t3',emoji:'📋',name:'수아',role:'3팀 · 추적관리',tab:'t3',
+   look:{skin:'#f7dcc4',hair:'#4a2f2a',style:'bun',  shirt:'#a86ee0'}},
+  {id:'t4',emoji:'⚡',name:'재민',role:'4팀 · EP·촉매',tab:'t4',
+   look:{skin:'#e0b087',hair:'#241d1a',style:'spiky',shirt:'#f08a3c'}},
+  {id:'t5',emoji:'🗺️',name:'미르',role:'5팀 · 주도섹터',tab:'t5',
+   look:{skin:'#f0cdae',hair:'#5a3a2e',style:'bob',  shirt:'#2fb3ba'}},
+  {id:'chief',emoji:'🧑‍💼',name:'실장',role:'종합 · 오늘의 지시',tab:'chief',wide:true,
+   look:{skin:'#eec7a4',hair:'#2b2320',style:'part', shirt:'#3a4560',tie:'#c0392b',glasses:true}},
 ];
+
+/* ── 미니미 SVG ──
+   외부 이미지·폰트 없이 그린다 (file:// 과 GitHub Pages 양쪽에서 동일하게 보이려면
+   이미지 파일을 쓰면 안 된다). viewBox 64×78 상반신, 책상 위로 올라앉는 구도. */
+function mini(a,w){
+  const L=a.look||{},skin=L.skin||'#f0cdae',hair=L.hair||'#2b2320',shirt=L.shirt||'#5b8def';
+  const dark=(c,f)=>{ // 목 그림자·옷 접힘용 어두운 톤
+    const m=/^#(..)(..)(..)$/.exec(c); if(!m)return c;
+    return '#'+[1,2,3].map(i=>Math.round(parseInt(m[i],16)*(f||0.82)).toString(16).padStart(2,'0')).join('');
+  };
+  const H={
+    short:`<path d="M17 30q0-15 15-15t15 15q-2-8-15-7T17 30z" fill="${hair}"/>`,
+    long :`<path d="M15 28q0-16 17-16t17 16v20q0 4-4 4t-3-5V30q-10 3-20 0v17q1 5-3 5t-4-4z" fill="${hair}"/>`,
+    bun  :`<circle cx="32" cy="8" r="6.5" fill="${hair}"/>
+           <path d="M17 30q0-15 15-15t15 15q-3-9-15-8t-15 8z" fill="${hair}"/>`,
+    spiky:`<path d="M17 30q0-15 15-15t15 15q-3-9-15-8t-15 8z" fill="${hair}"/>
+           <path d="M21 18l2.5-7 3 5.5 4-8 4 8 3-5.5 2.5 7z" fill="${hair}"/>`,
+    bob  :`<path d="M15 28q0-16 17-16t17 16v10q0 4-4 4V29q-10 3-26 0v13q-4 0-4-4z" fill="${hair}"/>`,
+    part :`<path d="M17 30q0-15 15-15t15 15q-1-7-9-8-8 4-15 1-5 2-6 7z" fill="${hair}"/>`,
+  };
+  // 안경은 얇고 밝게 — 굵으면 선글라스처럼 보여 눈이 사라진다
+  const g=L.glasses?`<g fill="rgba(255,255,255,.18)" stroke="#6b7c96" stroke-width="1.1">
+      <circle cx="26" cy="29.5" r="4.6"/><circle cx="38" cy="29.5" r="4.6"/></g>
+      <path d="M30.6 29.5h2.8M21.4 28.6l-3.4-.8M42.6 28.6l3.4-.8" stroke="#6b7c96" stroke-width="1.1" fill="none"/>`:'';
+  const tie=L.tie?`<path d="M32 52l-3 4 3 12 3-12z" fill="${L.tie}"/><path d="M32 48l-3.5 4h7z" fill="${dark(L.tie,0.8)}"/>`:'';
+  return `<svg class="mini" viewBox="0 0 64 78" width="${w||58}" role="img" aria-label="${esc(a.name)}">
+    <!-- 몸통 -->
+    <path d="M32 46c-12 0-20 8-20 18v14h40V64c0-10-8-18-20-18z" fill="${shirt}"/>
+    <path d="M32 46c-4 0-7 .6-10 1.8L32 60l10-12.2C39 46.6 36 46 32 46z" fill="${dark(shirt,0.86)}"/>
+    ${tie}
+    <!-- 목 -->
+    <path d="M27 40h10v8q0 4-5 4t-5-4z" fill="${dark(skin,0.88)}"/>
+    <!-- 귀 · 머리 -->
+    <circle cx="17.5" cy="30" r="3.2" fill="${skin}"/><circle cx="46.5" cy="30" r="3.2" fill="${skin}"/>
+    <ellipse cx="32" cy="28" rx="15" ry="16" fill="${skin}"/>
+    ${H[L.style]||H.short}
+    <!-- 눈 · 입 -->
+    <circle cx="26" cy="29.5" r="1.9" fill="#22303f"/><circle cx="38" cy="29.5" r="1.9" fill="#22303f"/>
+    <path d="M28.5 36q3.5 3 7 0" stroke="#22303f" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    ${g}
+  </svg>`;
+}
 
 /* ── 상단 보드 ── */
 function board(){
@@ -306,7 +364,7 @@ function office(){
       <div class="bub" id="bub-${a.id}"></div>
       <span class="busy ${d.busy?'':'idle'}"></span>
       <div class="body">
-        <span class="head">${a.emoji}</span>
+        ${mini(a,a.wide?78:66)}
         <div class="deskTop"><div class="mon ${monCls}"></div>${a.wide?'<div class="mon"></div><div class="mon"></div>':''}</div>
       </div>
       <div class="nameTag">${a.name}</div>
@@ -722,7 +780,7 @@ function openAgent(id){
   const a=AGENTS.find(x=>x.id===id);
   const br=briefing(id);
   const llmSum=(D.chief&&D.chief.llm&&D.chief.llm.teamSummaries&&D.chief.llm.teamSummaries[id])||'';
-  $('mbox').innerHTML=`<div class="mhead"><div class="avatar">${a.emoji}</div>
+  $('mbox').innerHTML=`<div class="mhead"><div class="avatar">${mini(a,46)}</div>
     <div><h3>${a.name}</h3><div class="role">${a.role}</div></div>
     <button class="x" onclick="closeM()">닫기 ✕</button></div>`
     +(br?`<div class="sec brief"><h4>💬 ${a.name}의 브리핑</h4><div class="pi">${br}</div>
