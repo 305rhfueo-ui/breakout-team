@@ -1,0 +1,50 @@
+name: Daily Breakout Scan
+
+# 평일 미국장 마감 후 (UTC 23:00 = KST 08:00 다음날)
+# ⚠️ Node 파이프라인만 돈다. LLM 리서치는 Actions 에서 불가능하므로
+#    로컬에서 `start breakout` 을 실행할 때 덧입혀진다.
+on:
+  schedule:
+    - cron: '0 23 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 캐시 (야후 봉·SEC·뉴스). 없어도 동작하지만 있으면 훨씬 빠르다
+      - name: Restore cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/breakout-team
+          key: bt-cache-${{ github.run_id }}
+          restore-keys: bt-cache-
+
+      - name: Run pipeline
+        env:
+          # ⚠️ SEC 는 UA 를 까다롭게 본다. Secrets 에 SEC_USER_AGENT 를 넣어두면 그걸 쓴다.
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT || 'breakout-team/0.1 (actions@example.com)' }}
+          # Actions IP 는 야후가 자주 막는다. 실패해도 RS·SEC·FINRA 로 완결되게 설계돼 있다.
+          POPUP_CAP: '10'
+        run: |
+          node scripts/backfill-history.js --days=63 || echo "백필 경고 (계속 진행)"
+          node scripts/run-breakout.js --no-git
+
+      - name: Commit results
+        run: |
+          git config user.name  "breakout-bot"
+          git config user.email "breakout-bot@users.noreply.github.com"
+          git add -A state dashboard analysis
+          if git diff --staged --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "chore: $(date -u +%Y-%m-%d) 브레이크아웃 스캔 자동 실행"
+            git push
+          fi

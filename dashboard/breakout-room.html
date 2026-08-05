@@ -1,0 +1,698 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>브레이크아웃 팀 — 쿨라매기 전략</title>
+
+<!-- ⚠️ file:// 로 열리므로 fetch() 는 CORS 에 막힌다. 데이터는 반드시 window 전역 .js 로 로드한다. -->
+<script src="data/chief.js"      onerror="window.__NO_CHIEF=1"></script>
+<script src="data/team1.js"      onerror="window.__NO_T1=1"></script>
+<script src="data/team2.js"      onerror="window.__NO_T2=1"></script>
+<script src="data/team3.js"      onerror="window.__NO_T3=1"></script>
+<script src="data/team4.js"      onerror="window.__NO_T4=1"></script>
+<script src="data/team5.js"      onerror="window.__NO_T5=1"></script>
+<script src="data/chartcheck.js" onerror="window.__NO_CC=1"></script>
+<script src="data/history.js"    onerror="window.__NO_HIST=1"></script>
+<script src="data/series/_index.js" onerror="window.__NO_SERIES=1"></script>
+
+<style>
+:root{--bg:#0d1117;--panel:#161b22;--panel2:#1c2230;--bd:#30363d;--tx:#c9d1d9;--dim:#8b949e;
+--grn:#2ea043;--red:#f85149;--yel:#e3b341;--blu:#58a6ff;--pur:#c084fc;--org:#f5a524}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.6 -apple-system,"Segoe UI","Malgun Gothic",sans-serif}
+a{color:var(--blu)}
+.wrap{max-width:1500px;margin:0 auto;padding:16px}
+header{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+h1{font-size:19px;margin:0}
+.hud{display:flex;gap:8px;flex-wrap:wrap;margin-left:auto}
+.chip{background:var(--panel);border:1px solid var(--bd);border-radius:99px;padding:4px 11px;font-size:12px;white-space:nowrap}
+.chip b{color:#fff}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;border-bottom:1px solid var(--bd);padding-bottom:10px;margin-bottom:16px}
+.tab{background:var(--panel);border:1px solid var(--bd);color:var(--dim);border-radius:8px;padding:7px 13px;cursor:pointer;font-size:13px}
+.tab:hover{color:var(--tx)}
+.tab.on{background:var(--blu);border-color:var(--blu);color:#04101f;font-weight:700}
+.pane{display:none}.pane.on{display:block}
+.card{background:var(--panel);border:1px solid var(--bd);border-radius:10px;padding:14px;margin-bottom:14px}
+.card h2{font-size:14px;margin:0 0 10px;color:var(--dim);font-weight:600;letter-spacing:.3px}
+.grid{display:grid;gap:14px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.verdict{font-size:15px;padding:12px;border-radius:8px;border-left:4px solid var(--dim);background:var(--panel2);margin-bottom:10px}
+.v-green{border-left-color:var(--grn)}.v-yellow{border-left-color:var(--yel)}.v-red{border-left-color:var(--red)}
+.v-danger{border-left-color:var(--red)}.v-warn{border-left-color:var(--yel)}.v-normal{border-left-color:var(--grn)}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:12.5px;white-space:nowrap}
+th,td{padding:6px 9px;border-bottom:1px solid var(--bd);text-align:right}
+th:first-child,td:first-child,th.l,td.l{text-align:left}
+th{color:var(--dim);font-weight:600;position:sticky;top:0;background:var(--panel);cursor:pointer;user-select:none}
+th:hover{color:var(--tx)}
+tbody tr:hover{background:#1d2430}
+.tk{color:var(--blu);font-weight:700;cursor:pointer}
+.tk:hover{text-decoration:underline}
+.b{display:inline-block;padding:1px 7px;border-radius:99px;font-size:11px;border:1px solid}
+.b-grn{color:var(--grn);border-color:#1f4d2b;background:#0f2417}
+.b-red{color:var(--red);border-color:#5c2626;background:#2a1414}
+.b-yel{color:var(--yel);border-color:#5c4a1a;background:#241f0e}
+.b-dim{color:var(--dim);border-color:var(--bd);background:var(--panel2)}
+.b-pur{color:var(--pur);border-color:#4a2d63;background:#1e1329}
+.banner{background:#241f0e;border:1px solid #5c4a1a;color:var(--yel);border-radius:8px;padding:11px 14px;margin-bottom:14px}
+.stat{background:var(--panel2);border-radius:8px;padding:11px}
+.stat .n{font-size:22px;font-weight:700;color:#fff}
+.stat .l{font-size:11px;color:var(--dim)}
+.funnel{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:13px}
+.funnel span{background:var(--panel2);border-radius:6px;padding:5px 10px}
+.arrow{color:var(--dim)}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.note{font-size:12px;color:var(--dim);margin-top:6px}
+.reason{font-size:11.5px;color:var(--dim)}
+.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:50;padding:20px;overflow:auto}
+.modal.on{display:block}
+.mbox{max-width:1000px;margin:0 auto;background:var(--panel);border:1px solid var(--bd);border-radius:12px;padding:18px}
+.mhead{display:flex;align-items:center;gap:12px;border-bottom:1px solid var(--bd);padding-bottom:10px;margin-bottom:12px}
+.mhead h3{margin:0;font-size:18px}
+.x{margin-left:auto;background:none;border:1px solid var(--bd);color:var(--dim);border-radius:8px;padding:5px 12px;cursor:pointer}
+.pending{background:var(--panel2);border:1px dashed var(--bd);border-radius:8px;padding:14px;color:var(--dim);font-size:12.5px}
+.empty{color:var(--dim);padding:18px;text-align:center}
+svg{display:block}
+@media(max-width:640px){.wrap{padding:10px}h1{font-size:16px}}
+</style>
+
+<div class="wrap">
+<header>
+  <h1>📈 브레이크아웃 팀</h1>
+  <div class="hud" id="hud"></div>
+</header>
+
+<div class="tabs" id="tabs"></div>
+
+<div class="pane on" id="p-chief"></div>
+<div class="pane" id="p-t1"></div>
+<div class="pane" id="p-t2"></div>
+<div class="pane" id="p-t3"></div>
+<div class="pane" id="p-t4"></div>
+<div class="pane" id="p-t5"></div>
+<div class="pane" id="p-cc"></div>
+<div class="pane" id="p-hist"></div>
+</div>
+
+<div class="modal" id="modal"><div class="mbox" id="mbox"></div></div>
+
+<script>
+const D={chief:window.CHIEF_DATA,t1:window.TEAM1_DATA,t2:window.TEAM2_DATA,t3:window.TEAM3_DATA,
+         t4:window.TEAM4_DATA,t5:window.TEAM5_DATA,cc:window.CHARTCHECK_DATA,hist:window.HISTORY_DATA};
+const $=id=>document.getElementById(id);
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const n=(v,d=2)=>v==null||v===''||Number.isNaN(Number(v))?'—':Number(v).toFixed(d);
+const tp=v=>v==null?'—':(100-Number(v)).toFixed(1);   // 백분위 → "상위 N%"
+const money=v=>v==null?'—':'$'+Number(v).toLocaleString(undefined,{maximumFractionDigits:2});
+const vcls=v=>({green:'v-green',yellow:'v-yellow',red:'v-red',danger:'v-danger',warn:'v-warn',normal:'v-normal'}[v]||'');
+
+const TABS=[['chief','📊 종합'],['t1','1️⃣ 시장환경'],['t2','2️⃣ 종목선정'],['t3','3️⃣ 추적'],
+            ['t4','4️⃣ EP·촉매'],['t5','5️⃣ 주도섹터'],['cc','👁️ 차트확인'],['hist','📅 히스토리']];
+
+/* ── 헤더 HUD ── */
+function hud(){
+  const c=D.chief; if(!c){$('hud').innerHTML='<span class="chip">데이터 없음 — run-breakout 실행 필요</span>';return;}
+  const m=c.market||{},k=c.counts||{};
+  const v={green:'🟢',yellow:'🟡',red:'🔴'}[m.verdict]||'⚪';
+  $('hud').innerHTML=[
+    `<span class="chip">QQQ <b>${v} ${esc(m.verdict||'?')}</b></span>`,
+    `<span class="chip">마진부채 <b>${esc(m.finra||'?')}</b></span>`,
+    `<span class="chip">선정 <b>${k.picks??'—'}</b></span>`,
+    `<span class="chip">추적 <b>${k.tracking?k.tracking.active:'—'}</b> (배제 ${k.tracking?k.tracking.excluded:'—'})</span>`,
+    `<span class="chip">돌파 <b>${k.breakouts??'—'}</b></span>`,
+    `<span class="chip">차트확인 <b>${k.chartCheck??'—'}</b></span>`,
+    `<span class="chip">${esc(c.generated||'')}${c.stale?' ⚠️오래된데이터':''}</span>`].join('');
+}
+
+/* ── 정렬 가능한 표 ── */
+function table(cols,rows,opts={}){
+  const id='t'+Math.random().toString(36).slice(2,8);
+  const head=cols.map((c,i)=>`<th class="${c.l?'l':''}" data-i="${i}">${esc(c.h)}</th>`).join('');
+  const body=rows.map(r=>'<tr>'+cols.map(c=>`<td class="${c.l?'l':''}">${c.f(r)}</td>`).join('')+'</tr>').join('');
+  setTimeout(()=>{
+    const t=$(id); if(!t)return;
+    t.querySelectorAll('th').forEach(th=>th.onclick=()=>{
+      const i=+th.dataset.i,c=cols[i];if(!c.s)return;
+      const dir=th.dataset.d==='1'?-1:1;
+      t.querySelectorAll('th').forEach(x=>x.dataset.d='');
+      th.dataset.d=dir===1?'1':'0';
+      rows.sort((a,b)=>{const x=c.s(a),y=c.s(b);
+        if(x==null)return 1;if(y==null)return -1;
+        return typeof x==='string'?dir*x.localeCompare(y):dir*(y-x);});
+      t.querySelector('tbody').innerHTML=rows.map(r=>'<tr>'+cols.map(c=>`<td class="${c.l?'l':''}">${c.f(r)}</td>`).join('')+'</tr>').join('');
+      bindTk();
+    });
+  },0);
+  return `<div class="scroll"><table id="${id}"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+}
+function bindTk(){
+  document.querySelectorAll('.tk[data-t]').forEach(e=>e.onclick=()=>openModal(e.dataset.t));
+  document.querySelectorAll('.tk[data-i]').forEach(e=>e.onclick=()=>openIndustry(e.dataset.i));
+}
+
+/* ── 종합 ── */
+function renderChief(){
+  const c=D.chief;
+  if(!c){$('p-chief').innerHTML='<div class="empty">데이터가 없습니다. <code>node scripts/run-breakout.js</code> 를 실행하세요.</div>';return;}
+  const m=c.market||{},k=c.counts||{};
+  let h='';
+  const wq=D.t1&&D.t1.weekly_question;
+  if(wq&&!wq.answered) h+=`<div class="banner">❓ <b>${esc(wq.question)}</b> (${esc(wq.week)}) — 답하시면 반영합니다:
+    <code>node scripts/answer-weekly.js --tickers=NVDA,AVGO</code></div>`;
+  if(c.stale) h+=`<div class="banner">⚠️ RS 데이터가 4일 이상 경과했습니다 — 추적 상태 변경을 건너뛰었습니다.</div>`;
+  h+=`<div class="card"><h2>시장 판정</h2>
+      <div class="verdict ${vcls(m.verdict)}">${esc(m.ko||'—')}</div>
+      <div class="verdict ${vcls(m.finra)}">${esc(m.finraKo||'—')}</div></div>`;
+  h+=`<div class="card"><h2>오늘의 숫자</h2><div class="grid g3">
+      <div class="stat"><div class="n">${k.picks??'—'}</div><div class="l">2팀 선정 종목</div></div>
+      <div class="stat"><div class="n">${k.tracking?k.tracking.active:'—'}</div><div class="l">추적 활성 (배제 ${k.tracking?k.tracking.excluded:'—'})</div></div>
+      <div class="stat"><div class="n">${k.breakouts??'—'}</div><div class="l">전고점 돌파</div></div>
+      <div class="stat"><div class="n">${k.epCandidates??'—'}</div><div class="l">거래량 급증(EP 후보)</div></div>
+      <div class="stat"><div class="n">${k.chartCheck??'—'}</div><div class="l">👁️ 차트 볼 종목</div></div>
+      <div class="stat"><div class="n">${k.universe??'—'}</div><div class="l">유니버스</div></div></div></div>`;
+  h+=`<div class="card"><h2>테마</h2><div style="font-size:15px">${esc(c.theme||'—')}</div></div>`;
+  if(c.chartCheck&&c.chartCheck.length){
+    h+=`<div class="card"><h2>👁️ 오늘 차트를 봐야 할 종목</h2>`+
+      c.chartCheck.map(x=>`<div style="margin-bottom:9px"><span class="tk" data-t="${esc(x.ticker)}">${esc(x.ticker)}</span>
+        <span class="b b-pur">score ${x.score}</span> <span class="b b-dim">${esc(x.source)}</span>
+        <div class="reason">${x.reasons.map(esc).join(' · ')}</div></div>`).join('')+`</div>`;
+  }
+  h+=`<div class="card"><h2>LLM 리서치</h2><div class="pending">${esc((c.llm&&c.llm.note)||'대기')}</div></div>`;
+  $('p-chief').innerHTML=h;
+}
+
+/* ── 1팀 ── */
+function renderT1(){
+  const t=D.t1; if(!t){$('p-t1').innerHTML='<div class="empty">1팀 데이터 없음</div>';return;}
+  const q=t.qqq||{},f=t.finra||{};
+  let h='';
+  // ① 차트 → ② 바로 밑 FINRA → ③ 판정 → ④ 주도주 → ⑤ 뉴스  (배치 순서 고정)
+  h+=`<div class="card"><h2>QQQ 일봉 · 10/20/50일선 · 최근 3개월</h2>
+      ${q.chart_svg||'<div class="empty">차트 없음</div>'}
+      ${q.chart_png?`<div class="note">PNG: <a href="${esc(q.chart_png)}" target="_blank">${esc(q.chart_png)}</a></div>`:''}</div>`;
+  h+=`<div class="card"><h2>FINRA 고객 마진부채 (Debit Balances) — 전년동기 대비</h2>
+      <div class="verdict ${vcls(f.level)}">${esc(f.ko||'—')}</div>`;
+  if(f.series13&&f.series13.length){
+    const mx=Math.max(...f.series13.map(s=>s.debit));
+    h+=`<div style="display:flex;align-items:flex-end;gap:4px;height:90px;margin-top:10px">`+
+      f.series13.map(s=>`<div style="flex:1;text-align:center" title="${esc(s.month)}: ${s.debit.toLocaleString()}">
+        <div style="background:${s===f.series13[f.series13.length-1]?'var(--red)':'var(--blu)'};height:${(s.debit/mx*70).toFixed(0)}px;border-radius:3px 3px 0 0"></div>
+        <div style="font-size:9px;color:var(--dim);margin-top:3px">${esc(s.month.slice(2))}</div></div>`).join('')+`</div>`;
+    h+=`<div class="note">단위: 백만 달러 · 데이터 ${esc(f.range?f.range.from:'')} ~ ${esc(f.range?f.range.to:'')} · 출처 <a href="${esc(f.source_url||'#')}" target="_blank">FINRA</a>${f.stale?' · ⚠️캐시':''}</div>`;
+  }
+  h+=`</div>`;
+  h+=`<div class="card"><h2>쿨라매기 판정</h2>
+      <div class="verdict ${vcls(q.verdict)}">${esc(q.ko||'—')}</div>
+      <div class="grid g3">
+        <div class="stat"><div class="n">${n(q.price)}</div><div class="l">QQQ 종가 (${esc(q.lastDate||'')})</div></div>
+        <div class="stat"><div class="n">${n(q.ma10)}</div><div class="l">MA10 · 기울기 ${n(q.slope10Pct)}%</div></div>
+        <div class="stat"><div class="n">${n(q.ma20)}</div><div class="l">MA20 · 기울기 ${n(q.slope20Pct)}%</div></div>
+        <div class="stat"><div class="n">${n(q.ma50)}</div><div class="l">MA50</div></div>
+        <div class="stat"><div class="n">${q.daysSinceGoldenCross??'—'}</div><div class="l">골든크로스 경과일 (${esc(q.goldenCrossDate||'—')})</div></div>
+        <div class="stat"><div class="n">${q.daysSinceDeathCross??'—'}</div><div class="l">데드크로스 경과일 (${esc(q.deathCrossDate||'—')})</div></div>
+      </div>
+      ${q.actions?`<div class="note">대응: ${q.actions.map(esc).join(' · ')}</div>`:''}</div>`;
+  const ls=(t.leaders&&t.leaders.stocks)||[];
+  h+=`<div class="card"><h2>주도주 TOP ${ls.length} · 200일선 이격도</h2>`+
+    table([
+      {h:'종목',l:1,f:r=>`<span class="tk" data-t="${esc(r.ticker)}">${esc(r.ticker)}</span>`,s:r=>r.ticker},
+      {h:'섹터',l:1,f:r=>esc(r.sector),s:r=>r.sector},
+      {h:'업종',l:1,f:r=>esc(r.industry),s:r=>r.industry},
+      {h:'상위%',f:r=>tp(r.bestPct),s:r=>r.bestPct},
+      {h:'200DIV',f:r=>n(r.div200,1),s:r=>r.div200},
+      {h:'임계',f:r=>r.overheat.threshold,s:r=>r.overheat.threshold},
+      {h:'상태',l:1,f:r=>`<span class="b ${r.overheat.status==='overheat'?'b-red':r.overheat.status==='reentry'||r.overheat.status==='extreme'?'b-grn':'b-dim'}">${esc(r.overheat.label)}</span>`,s:r=>r.overheat.status},
+      {h:'ADR',f:r=>n(r.adr,1),s:r=>r.adr},
+      {h:'52주',f:r=>n(r.high52,1),s:r=>r.high52},
+    ],ls)+
+    `<div class="note">${esc((t.leaders.market_overheat||{}).ko||'')}</div></div>`;
+  const secs=(t.leaders&&t.leaders.sectors)||[];
+  h+=`<div class="card"><h2>주도 섹터 (상위 50종목 쏠림)</h2><div class="chips">`+
+    secs.map(s=>`<span class="chip"><b>${esc(s.name)}</b> ${s.count}종목 (${s.sharePct}%)</span>`).join('')+
+    `</div><div class="note">${secs.map(s=>esc(s.name)+': '+s.tickers.slice(0,6).map(esc).join(', ')).join(' | ')}</div></div>`;
+  const nw=t.news||{};
+  h+=`<div class="card"><h2>시장 뉴스</h2>`+
+    (nw.llm&&nw.digest&&nw.digest.length
+      ? nw.digest.map(d=>`<div style="margin-bottom:12px"><b>${esc(d.headline)}</b><div>${esc(d.oneLine||'')}</div>
+          ${(d.sources||[]).map(s=>`<a href="${esc(s.url)}" target="_blank">${esc(s.publisher||s.title)}</a>`).join(' · ')}</div>`).join('')
+      : `<div class="pending">${esc(nw.note||'LLM 뉴스 미실행')}</div>`)+`</div>`;
+  $('p-t1').innerHTML=h;bindTk();
+}
+
+/* ── 2팀 ── */
+function renderT2(){
+  const t=D.t2; if(!t){$('p-t2').innerHTML='<div class="empty">2팀 데이터 없음</div>';return;}
+  const s=t.stats||{},th=t.themes||{};
+  let h=`<div class="card"><h2>스크리닝 퍼널</h2><div class="funnel">
+    <span>유니버스 <b>${s.universe}</b></span><span class="arrow">→</span>
+    <span>RS 상위2% 합집합 <b>${s.unionTop}</b></span><span class="arrow">→</span>
+    <span>ADR ≥ 4 <b>${s.afterAdr}</b></span><span class="arrow">→</span>
+    <span>150일선 위 <b style="color:var(--grn)">${s.afterMa150}</b></span></div>
+    <div class="note">기간별 상위 2%: 1개월 ${s.byPeriod.m1} · 3개월 ${s.byPeriod.m3} · 6개월 ${s.byPeriod.m6}
+    · 리서치 커버리지 ${t.research_coverage.done}/${t.research_coverage.total}</div></div>`;
+  h+=`<div class="card"><h2>테마 클러스터</h2><div style="font-size:15px;margin-bottom:9px">${esc(th.headline||'')}</div>
+    <div class="chips">`+(th.clusters||[]).slice(0,12).map(c=>
+      `<span class="chip"><b>${esc(c.name)}</b> ${c.count}종목 (${c.sharePct}%) <span class="b ${c.concentration==='high'?'b-red':c.concentration==='mid'?'b-yel':'b-dim'}">${esc(c.concentration)}</span></span>`).join('')+
+    `</div><div class="note">공통 테마가 없으면 "공통 테마 없음"이라고 그대로 표기합니다 — 억지로 묶지 않습니다.</div></div>`;
+  const P=t.picks||[];
+  h+=`<div class="card"><h2>선정 종목 ${P.length}개 — 티커를 클릭하면 상세 팝업</h2>`+
+    table([
+      {h:'종목',l:1,f:r=>`<span class="tk" data-t="${esc(r.ticker)}">${esc(r.ticker)}</span>`,s:r=>r.ticker},
+      {h:'섹터',l:1,f:r=>esc(r.sector),s:r=>r.sector},
+      {h:'업종',l:1,f:r=>esc(r.industry),s:r=>r.industry},
+      {h:'통과',l:1,f:r=>(r.qualifiedBy||[]).map(x=>`<span class="b b-grn">${esc(x)}</span>`).join(' '),s:r=>(r.qualifiedBy||[]).length},
+      {h:'RS1M 상위%',f:r=>tp(r.rs.m1.pct),s:r=>r.rs.m1.pct},
+      {h:'RS3M 상위%',f:r=>tp(r.rs.m3.pct),s:r=>r.rs.m3.pct},
+      {h:'RS6M 상위%',f:r=>tp(r.rs.m6.pct),s:r=>r.rs.m6.pct},
+      {h:'ADR',f:r=>n(r.adr,1),s:r=>r.adr},
+      {h:'52주%',f:r=>n(r.high52,1),s:r=>r.high52},
+      {h:'VOL_X',f:r=>n(r.volx,1),s:r=>r.volx},
+      {h:'주간거래량',f:r=>n(r.volSurgeWk,1),s:r=>r.volSurgeWk},
+      {h:'BBWTHD',f:r=>n(r.bbwthd,2),s:r=>r.bbwthd},
+      {h:'CY',f:r=>n(r.cyTrend,1),s:r=>r.cyTrend},
+      {h:'NY',f:r=>n(r.nyTrend,1),s:r=>r.nyTrend},
+      {h:'Up/Dn',f:r=>`${r.upCount??'—'}/${r.downCount??'—'}`,s:r=>r.upDownRatio},
+      {h:'U/(U+D)',f:r=>n(r.upDownRatio,0),s:r=>r.upDownRatio},
+      {h:'WRS1M',f:r=>r.wrs?n(r.wrs.m1,3):'—',s:r=>r.wrs&&r.wrs.m1},
+      {h:'WRS3M',f:r=>r.wrs?n(r.wrs.m3,3):'—',s:r=>r.wrs&&r.wrs.m3},
+      {h:'WRS6M',f:r=>r.wrs?n(r.wrs.m6,3):'—',s:r=>r.wrs&&r.wrs.m6},
+      {h:'200DIV',f:r=>n(r.div200,1),s:r=>r.div200},
+      {h:'150MA기울기',f:r=>r.ma150Slope==null?'<span class="b b-dim">판정불가</span>':`<span class="b ${r.ma150Slope>0?'b-grn':'b-red'}">${n(r.ma150Slope,2)}%</span>`,s:r=>r.ma150Slope},
+      {h:'리서치',l:1,f:r=>`<span class="b b-yel">⏳대기</span>`,s:r=>0},
+    ],P)+
+    `<div class="note">WRS 1M/3M/6M 은 해당 종목이 속한 <b>업종</b>의 값이며, 사이트에 없어 공식대로 <b>자체 계산</b>한 값입니다.
+     · RS 는 QQQ 대비 초과수익률이지 절대 상승률이 아닙니다.</div></div>`;
+  $('p-t2').innerHTML=h;bindTk();
+}
+
+/* ── 3팀 ── */
+function renderT3(){
+  const t=D.t3; if(!t){$('p-t3').innerHTML='<div class="empty">3팀 데이터 없음</div>';return;}
+  const s=t.summary||{};
+  let h=`<div class="card"><h2>추적 현황 (누적)</h2><div class="grid g3">
+    <div class="stat"><div class="n" style="color:var(--grn)">${s.active??0}</div><div class="l">활성</div></div>
+    <div class="stat"><div class="n" style="color:var(--yel)">${s.dormant??0}</div><div class="l">휴면</div></div>
+    <div class="stat"><div class="n" style="color:var(--red)">${s.excluded??0}</div><div class="l">배제</div></div>
+    <div class="stat"><div class="n">${s.total??0}</div><div class="l">누적 총계</div></div></div>
+    <div class="note">배제 조건 ① 50일선 아래 3일 연속 ② 편입 후 고점 대비 −40% ③ 종가가 150일선 아래
+    · 2팀이 다시 선정하면 자동 재편입(peak 리셋). 수동 배제는 <code>node scripts/exclude-ticker.js --ticker=XYZ</code></div></div>`;
+  if(t.dropped_today&&t.dropped_today.length){
+    h+=`<div class="card"><h2>🚫 오늘 배제된 종목 ${t.dropped_today.length}개</h2>`+
+      t.dropped_today.map(d=>`<div style="margin-bottom:7px"><span class="b b-red">${esc(d.ticker)}</span> <span class="reason">${esc(d.reason)}</span></div>`).join('')+`</div>`;
+  }
+  const B=t.breakouts||[];
+  h+=`<div class="card"><h2>🚀 전고점 돌파 ${B.length}종목</h2>`+
+    (B.length?table([
+      {h:'종목',l:1,f:r=>`<span class="tk" data-t="${esc(r.ticker)}">${esc(r.ticker)}</span>`,s:r=>r.ticker},
+      {h:'직전고점',f:r=>money(r.priorHigh),s:r=>r.priorHigh},
+      {h:'고점일',l:1,f:r=>esc(r.priorHighDate),s:r=>r.priorHighDate},
+      {h:'돌파일',l:1,f:r=>esc(r.breakDate||'—'),s:r=>r.breakDate},
+      {h:'초과%',f:r=>n(r.closeAbovePct,1),s:r=>r.closeAbovePct},
+      {h:'VOL_X',f:r=>n(r.volx,1),s:r=>r.volx},
+      {h:'주간배수',f:r=>n(r.volSurgeWk,1),s:r=>r.volSurgeWk},
+      {h:'거래량확인',l:1,f:r=>r.volumeConfirmed?'<span class="b b-grn">✅ 확인</span>':'<span class="b b-dim">미달</span>',s:r=>r.volumeConfirmed?1:0},
+      {h:'횡보(개월)',f:r=>n(r.baseMonths,1),s:r=>r.baseMonths},
+      {h:'Congestion',l:1,f:r=>esc(r.congestionKo||'—'),s:r=>r.congestion},
+    ],B):'<div class="empty">오늘 전고점 돌파 종목 없음</div>')+
+    `<div class="note">거래량 확인 기준: VOL_X ≥ 2.0 (거래대금 20일평균 대비) <b>또는</b> 주간배수 ≥ 2.0 (거래량, 당일제외 5일평균 대비). 서로 다른 지표입니다.</div></div>`;
+  const items=(t.items||[]).slice().sort((a,b)=>{const o={active:0,dormant:1,excluded:2};return (o[a.status]-o[b.status])||String(a.ticker).localeCompare(b.ticker);});
+  h+=`<div class="card"><h2>추적 종목 전체 ${items.length}개</h2>`+
+    table([
+      {h:'종목',l:1,f:r=>`<span class="tk" data-t="${esc(r.ticker)}">${esc(r.ticker)}</span>`,s:r=>r.ticker},
+      {h:'상태',l:1,f:r=>`<span class="b ${r.status==='active'?'b-grn':r.status==='dormant'?'b-yel':'b-red'}">${r.status==='active'?'활성':r.status==='dormant'?'휴면':'배제'}</span>${r.manualHold?' <span class="b b-pur">수동</span>':''}`,s:r=>r.status},
+      {h:'편입일',l:1,f:r=>esc(r.added),s:r=>r.added},
+      {h:'최근선정',l:1,f:r=>esc(r.lastPicked||'—'),s:r=>r.lastPicked},
+      {h:'선정횟수',f:r=>r.pickCount??'—',s:r=>r.pickCount},
+      {h:'현재가',f:r=>r.live?money(r.live.price):'—',s:r=>r.live&&r.live.price},
+      {h:'고점',f:r=>money(r.peak),s:r=>r.peak},
+      {h:'고점대비%',f:r=>r.drawdownPct==null?'—':`<span class="b ${r.drawdownPct<-20?'b-red':'b-dim'}">${n(r.drawdownPct,1)}</span>`,s:r=>r.drawdownPct},
+      {h:'50MA이탈일',f:r=>r.live?r.live.belowMa50Days:'—',s:r=>r.live&&r.live.belowMa50Days},
+      {h:'eye',f:r=>r.live?r.live.eyeScore:'—',s:r=>r.live&&r.live.eyeScore},
+      {h:'사유/근거',l:1,f:r=>`<span class="reason">${esc(r.excludedReason||r.addedReason||'')}</span>`,s:r=>r.excludedReason||''},
+    ],items)+`</div>`;
+  $('p-t3').innerHTML=h;bindTk();
+}
+
+/* ── 4팀 ── */
+function renderT4(){
+  const t=D.t4; if(!t){$('p-t4').innerHTML='<div class="empty">4팀 데이터 없음</div>';return;}
+  let h=`<div class="card"><h2>Episodic Pivot 후보</h2>
+    <div class="funnel"><span>거래량 급증 <b>${t.universeHits}</b>종목</span><span class="arrow">→</span><span>분석 <b>${t.analyzed}</b>개</span></div>
+    <div class="note">필터: VOL_X ≥ ${t.filter.volXMin} <b>또는</b> 주간 거래량배수 ≥ ${t.filter.volSurgeWkMin}
+    · 리서치 커버리지 ${t.research_coverage.done}/${t.research_coverage.total}</div>
+    <div class="chips" style="margin-top:9px">`+
+    Object.entries(t.byPhase||{}).map(([k,v])=>`<span class="chip"><b>${esc(k)}</b> ${v}</span>`).join('')+`</div></div>`;
+  const notable=(t.items||[]).filter(i=>['bounce_trigger','retest','breakout','base','extended'].includes(i.congestion.phase));
+  h+=`<div class="card"><h2>Congestion 셋업 ${notable.length}종목</h2>`+
+    (notable.length?table([
+      {h:'종목',l:1,f:r=>`<span class="tk" data-t="${esc(r.ticker)}">${esc(r.ticker)}</span>`,s:r=>r.ticker},
+      {h:'국면',l:1,f:r=>`<span class="b ${r.congestion.phase==='bounce_trigger'?'b-grn':r.congestion.phase==='extended'?'b-red':'b-yel'}">${esc(r.congestion.phaseKo)}</span>`,s:r=>r.congestion.phase},
+      {h:'score',f:r=>r.congestion.score??'—',s:r=>r.congestion.score},
+      {h:'횡보(개월)',f:r=>n(r.congestion.baseMonths,1),s:r=>r.congestion.baseMonths},
+      {h:'베이스폭%',f:r=>n(r.congestion.rangePct,1),s:r=>r.congestion.rangePct},
+      {h:'돌파거래량',f:r=>n(r.congestion.breakoutVolX,1),s:r=>r.congestion.breakoutVolX},
+      {h:'돌파시 150MA',l:1,f:r=>r.congestion.aboveMa150AtBreak==null?'—':(r.congestion.aboveMa150AtBreak?'<span class="b b-grn">위</span>':'<span class="b b-red">아래</span>'),s:r=>r.congestion.aboveMa150AtBreak?1:0},
+      {h:'VOL_X',f:r=>n(r.volx,1),s:r=>r.volx},
+      {h:'주간배수',f:r=>n(r.volSurgeWk,1),s:r=>r.volSurgeWk},
+      {h:'매수 트리거',l:1,f:r=>`<span class="reason">${esc(r.congestion.buyTrigger?r.congestion.buyTrigger.note:'—')}</span>`,s:r=>0},
+      {h:'촉매',l:1,f:r=>'<span class="b b-yel">⏳대기</span>',s:r=>0},
+    ],notable):'<div class="empty">Congestion 셋업 해당 종목 없음</div>')+
+    `<div class="note">6개월 횡보 → 거래량 2배 돌파 → 저항선 리테스트(거래량 고갈) → 반등 시 매수. 돌파 시점 일봉이 150일선 위여야 합니다.</div></div>`;
+  h+=`<div class="card"><h2>호재성 뉴스 6분류</h2><div class="pending">
+    ① 어닝 서프라이즈/가이던스 상향 ★ · ② 바이오·FDA·임상 · ③ 대형 파트너십·공급계약 ·
+    ④ 기업 턴어라운드 · ⑤ 매크로·정책·산업 돌파(AI/양자/로봇) ★ · ⑥ 암묵적(뉴스 없는 이상거래량)<br><br>
+    LLM 촉매 분류 대기 — <code>start breakout</code> 실행 시 채워집니다. 뉴스를 못 찾으면 ⑥으로 분류하고 '근거 없음'으로 표기합니다.</div></div>`;
+  $('p-t4').innerHTML=h;bindTk();
+}
+
+/* ── 5팀 ── */
+function renderT5(){
+  const t=D.t5; if(!t){$('p-t5').innerHTML='<div class="empty">5팀 데이터 없음</div>';return;}
+  const cols=[
+    {h:'업종',l:1,f:r=>`<span class="tk" data-i="${esc(r.key)}">${esc(r.industry)}</span>`,s:r=>r.industry},
+    {h:'섹터',l:1,f:r=>esc(r.sector),s:r=>r.sector},
+    {h:'종목수',f:r=>r.count,s:r=>r.count},
+    {h:'WRS 1M',f:r=>n(r.wrs.m1,4),s:r=>r.wrs.m1},
+    {h:'WRS 3M',f:r=>n(r.wrs.m3,4),s:r=>r.wrs.m3},
+    {h:'WRS 6M',f:r=>n(r.wrs.m6,4),s:r=>r.wrs.m6},
+    {h:'상위%(6M)',f:r=>n(r.rankPct.m6,2),s:r=>-r.rankPct.m6},
+  ];
+  let h=`<div class="card"><h2>WRS 검증</h2><div class="note">${esc(t.note)}<br>
+    사이트가 정상 계산한 <b>${t.validation.comparable}</b>개 그룹 중 <b>${t.validation.matched}</b>개 일치 ·
+    사이트 NaN <b>${t.validation.recovered}</b>그룹은 자체 복구했습니다.</div></div>`;
+  for(const [k,label] of [['m1','1개월'],['m3','3개월'],['m6','6개월']]){
+    const list=(t.strictTop2&&t.strictTop2[k])||[];
+    h+=`<div class="card"><h2>WRS(${label}) 상위 2% 업종 — ${list.length}개 / 전체 ${t.totalIndustries}개</h2>`+
+      (list.length?table(cols,list):'<div class="empty">해당 없음</div>')+`</div>`;
+  }
+  h+=`<div class="card"><h2>참고 — 6개월 기준 상위 10 업종</h2>${table(cols,t.top10by6||[])}</div>`;
+  h+=`<div class="card"><h2>섹터 순위</h2><div class="note">${esc(t.sectorNote)}</div>`+
+    table([
+      {h:'섹터',l:1,f:r=>esc(r.sector),s:r=>r.sector},
+      {h:'업종수',f:r=>r.industries,s:r=>r.industries},
+      {h:'종목수',f:r=>r.count,s:r=>r.count},
+      {h:'WRS 6M (시총가중)',f:r=>n(r.wrs6,4),s:r=>r.wrs6},
+    ],t.sectors||[])+`</div>`;
+  h+=`<div class="card"><h2>강세 사유 분석</h2><div class="pending">LLM 리서치 대기 — 공신력 있는 언론·투자은행·증권사 리포트 기반으로 조사합니다. 근거가 없으면 '근거 없음'으로 표기합니다.</div></div>`;
+  $('p-t5').innerHTML=h;
+}
+
+/* ── 차트확인 ── */
+function renderCC(){
+  const t=D.cc; const items=(t&&t.items)||[];
+  $('p-cc').innerHTML=`<div class="card"><h2>👁️ 오늘 차트를 봐야 할 종목 ${items.length}개</h2>
+    <div class="note">변동성 축소 + 거래량 고갈 + 저항 근접을 수치로 잡은 결과입니다. <b>최종 판단은 직접 차트를 보고 하세요.</b>
+    돌파를 확인하시면: <code>node scripts/mark-breakout.js --ticker=XXX --verdict=breakout</code></div></div>`+
+    (items.length?items.map(x=>`<div class="card">
+      <div style="display:flex;align-items:center;gap:10px">
+        <span class="tk" style="font-size:17px" data-t="${esc(x.ticker)}">${esc(x.ticker)}</span>
+        <span class="b b-pur">score ${x.score}</span><span class="b b-dim">${esc(x.source)}</span>
+        <a style="margin-left:auto" href="https://finviz.com/quote.ashx?t=${esc(x.ticker)}" target="_blank">Finviz ↗</a>
+        <a href="https://www.tradingview.com/chart/?symbol=${esc(x.ticker)}" target="_blank">TradingView ↗</a>
+      </div>
+      <ul style="margin:8px 0 0;padding-left:18px;color:var(--dim);font-size:12.5px">
+        ${x.reasons.map(r=>`<li>${esc(r)}</li>`).join('')}</ul></div>`).join('')
+      :'<div class="empty">오늘은 수렴 조건을 만족하는 종목이 없습니다.</div>');
+  bindTk();
+}
+
+/* ── 히스토리 ── */
+function renderHist(){
+  const t=D.hist; const runs=(t&&t.runs)||[];
+  $('p-hist').innerHTML=`<div class="card"><h2>실행 히스토리 ${runs.length}건</h2>`+
+    (runs.length?table([
+      {h:'날짜',l:1,f:r=>esc(r.date),s:r=>r.date},
+      {h:'QQQ',l:1,f:r=>`<span class="b ${r.qqq==='green'?'b-grn':r.qqq==='red'?'b-red':'b-yel'}">${esc(r.qqq||'—')}</span>`,s:r=>r.qqq},
+      {h:'마진부채 YoY',f:r=>n(r.finraYoY,1),s:r=>r.finraYoY},
+      {h:'선정',f:r=>r.picks,s:r=>r.picks},
+      {h:'돌파',f:r=>r.breakouts,s:r=>r.breakouts},
+      {h:'차트확인',f:r=>r.chartCheck,s:r=>r.chartCheck},
+      {h:'테마',l:1,f:r=>`<span class="reason">${esc(r.theme||'')}</span>`,s:r=>r.theme},
+    ],runs):'<div class="empty">아직 기록이 없습니다</div>')+`</div>`;
+}
+
+/* ── 시계열 동적 로드 (file:// 에서 fetch 가 막히므로 <script> 주입) ── */
+const _loaded={};
+function loadSeries(kind,key,cb){
+  const store=kind==='t'?'SERIES':'ISERIES';
+  if(window[store]&&window[store][key])return cb(window[store][key]);
+  const idx=window.SERIES_INDEX;
+  let file;
+  if(kind==='t'){
+    if(!idx||!idx.tickers.includes(key))return cb(null);
+    file='data/series/'+key.replace(/[^A-Za-z0-9._-]/g,'_')+'.js';
+  }else{
+    const slug=idx&&idx.industries&&idx.industries[key];
+    if(!slug)return cb(null);
+    file='data/series/industry/'+slug+'.js';
+  }
+  if(_loaded[file])return cb(null);
+  _loaded[file]=1;
+  const s=document.createElement('script');
+  s.src=file;
+  s.onload=()=>cb((window[store]||{})[key]||null);
+  s.onerror=()=>cb(null);   // 조용히 넘어가지 않고 '데이터 준비 중'을 표시한다
+  document.head.appendChild(s);
+}
+
+/* ── 미니 라인차트 (SVG) ── */
+function miniChart(dates,lines,opts={}){
+  const W=opts.w||880,H=opts.h||190,PL=54,PR=14,PT=16,PB=26;
+  const pts=lines.filter(l=>l.v&&l.v.some(x=>x!=null));
+  if(!pts.length||dates.length<2)return '<div class="empty">데이터 없음</div>';
+  let lo=Infinity,hi=-Infinity;
+  for(const l of pts)for(const v of l.v){if(v==null)continue;if(v<lo)lo=v;if(v>hi)hi=v;}
+  if(!(hi>lo)){hi=lo+1;lo=lo-1;}
+  const pad=(hi-lo)*0.08;lo-=pad;hi+=pad;
+  const n=dates.length;
+  const X=i=>PL+(i*(W-PL-PR))/(n-1);
+  const Y=v=>PT+(H-PT-PB)-((v-lo)/(hi-lo))*(H-PT-PB);
+  let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" style="max-width:${W}px;height:auto">`;
+  // 0 기준선 (RS/WRS 는 0 이 QQQ 와 동일 성과)
+  if(lo<0&&hi>0){s+=`<line x1="${PL}" y1="${Y(0).toFixed(1)}" x2="${W-PR}" y2="${Y(0).toFixed(1)}" stroke="#484f58" stroke-width="1" stroke-dasharray="4 4"/>`;
+    s+=`<text x="${PL-6}" y="${(Y(0)+4).toFixed(1)}" fill="#6e7681" font-size="10" text-anchor="end">0</text>`;}
+  // y 눈금 (상/하)
+  for(const v of [hi-pad,lo+pad]){
+    s+=`<line x1="${PL}" y1="${Y(v).toFixed(1)}" x2="${W-PR}" y2="${Y(v).toFixed(1)}" stroke="#21262d" stroke-width="1"/>`;
+    s+=`<text x="${PL-6}" y="${(Y(v)+4).toFixed(1)}" fill="#6e7681" font-size="10" text-anchor="end">${opts.fmt?opts.fmt(v):v.toFixed(opts.dec??2)}</text>`;
+  }
+  for(const l of pts){
+    let d='',open=false;
+    l.v.forEach((v,i)=>{if(v==null){open=false;return;}d+=(open?'L':'M')+X(i).toFixed(1)+' '+Y(v).toFixed(1)+' ';open=true;});
+    s+=`<path d="${d}" fill="none" stroke="${l.c}" stroke-width="1.8" stroke-linejoin="round"/>`;
+  }
+  // x 라벨 (처음/중간/끝)
+  for(const i of [0,Math.floor(n/2),n-1]){
+    s+=`<text x="${X(i).toFixed(1)}" y="${H-8}" fill="#6e7681" font-size="10" text-anchor="${i===0?'start':i===n-1?'end':'middle'}">${esc(dates[i])}</text>`;
+  }
+  s+='</svg>';
+  const leg=pts.map(l=>`<span style="color:${l.c};font-size:11px;margin-right:12px">■ ${esc(l.n)} <b>${l.v.filter(x=>x!=null).slice(-1)[0]?.toFixed(opts.dec??4)??'—'}</b></span>`).join('');
+  return `<div>${leg}</div>${s}`;
+}
+
+/* ── 종목 팝업 ── */
+function findPick(t){
+  const inT2=(D.t2&&D.t2.picks||[]).find(p=>p.ticker===t);
+  const inT3=(D.t3&&D.t3.items||[]).find(p=>p.ticker===t);
+  const inT4=(D.t4&&D.t4.items||[]).find(p=>p.ticker===t);
+  const inT1=(D.t1&&D.t1.leaders&&D.t1.leaders.stocks||[]).find(p=>p.ticker===t);
+  return {p:inT2,tr:inT3,ep:inT4,ld:inT1};
+}
+function openModal(t){
+  const {p,tr,ep,ld}=findPick(t);
+  let h=`<div class="mhead"><h3>${esc(t)}</h3>`;
+  if(p)h+=`<span class="b b-dim">${esc(p.sector)} / ${esc(p.industry)}</span>`;
+  h+=`<button class="x" onclick="closeModal()">닫기 ✕</button></div>`;
+
+  if(p){
+    h+=`<div class="card"><h2>스크리닝 지표</h2><div class="grid g3">
+      <div class="stat"><div class="n">${money(p.price)}</div><div class="l">현재가</div></div>
+      <div class="stat"><div class="n">${tp(p.rs.m1.pct)}%</div><div class="l">RS 1개월 상위 (${n(p.rs.m1.v,4)})</div></div>
+      <div class="stat"><div class="n">${tp(p.rs.m3.pct)}%</div><div class="l">RS 3개월 상위 (${n(p.rs.m3.v,4)})</div></div>
+      <div class="stat"><div class="n">${tp(p.rs.m6.pct)}%</div><div class="l">RS 6개월 상위 (${n(p.rs.m6.v,4)})</div></div>
+      <div class="stat"><div class="n">${n(p.adr,1)}%</div><div class="l">ADR 20일</div></div>
+      <div class="stat"><div class="n">${n(p.high52,1)}%</div><div class="l">52주 고점 대비</div></div>
+      <div class="stat"><div class="n">${n(p.volx,1)}</div><div class="l">VOL_X (거래대금/20일)</div></div>
+      <div class="stat"><div class="n">${n(p.volSurgeWk,1)}</div><div class="l">주간 거래량배수 (당일제외 5일)</div></div>
+      <div class="stat"><div class="n">${n(p.div200,1)}%</div><div class="l">200일선 이격도</div></div>
+      </div>
+      <div class="note">절대 상승률(참고): 1M ${n(p.ret1m,1)}% · 3M ${n(p.ret3m,1)}% · 6M ${n(p.ret6m,1)}%
+      | 기간 최대상승 1M ${n(p.maxRise1m,1)}% · 3M ${n(p.maxRise3m,1)}% · 6M ${n(p.maxRise6m,1)}%</div></div>`;
+    if(p.wrs)h+=`<div class="card"><h2>업종 WRS (자체 계산)</h2>
+      <div class="funnel"><span>WRS 1M <b>${n(p.wrs.m1,4)}</b></span><span>WRS 3M <b>${n(p.wrs.m3,4)}</b></span>
+      <span>WRS 6M <b>${n(p.wrs.m6,4)}</b></span><span>업종 내 ${p.wrs.count}종목</span></div></div>`;
+  }
+  if(tr){
+    h+=`<div class="card"><h2>추적 상태</h2>
+      <span class="b ${tr.status==='active'?'b-grn':tr.status==='dormant'?'b-yel':'b-red'}">${esc(tr.status)}</span>
+      <span class="note">편입 ${esc(tr.added)} · 선정 ${tr.pickCount}회 · 고점 ${money(tr.peak)}</span>
+      ${tr.excludedReason?`<div class="verdict v-red" style="margin-top:9px">${esc(tr.excludedReason)}</div>`:''}
+      <div style="margin-top:9px"><b style="font-size:12px;color:var(--dim)">상태 이력</b>`+
+      (tr.history||[]).slice(-8).reverse().map(x=>`<div class="reason">${esc(x.date)} · ${esc(x.status)} · ${esc(x.note)}</div>`).join('')+
+      `</div></div>`;
+  }
+  if(ep&&ep.congestion){
+    const c=ep.congestion;
+    h+=`<div class="card"><h2>Congestion 국면</h2>
+      <div class="verdict ${c.phase==='bounce_trigger'?'v-green':c.phase==='extended'?'v-red':'v-yellow'}">${esc(c.phaseKo)}</div>
+      <div class="note">횡보 ${n(c.baseMonths,1)}개월 · 베이스 폭 ${n(c.rangePct,1)}% · 피봇 ${money(c.pivot)}
+      ${c.breakoutDate?` · 돌파 ${esc(c.breakoutDate)} 거래량 ${n(c.breakoutVolX,1)}배`:''}
+      ${c.buyTrigger?`<br>→ ${esc(c.buyTrigger.note)}`:''}</div></div>`;
+  }
+  if(ld)h+=`<div class="card"><h2>주도주 200DIV</h2><span class="b ${ld.overheat.status==='overheat'?'b-red':'b-dim'}">${esc(ld.overheat.label)}</span>
+    <div class="note">임계 +${ld.overheat.threshold}% · ${esc(ld.overheat.note||'')}</div></div>`;
+
+  // 시계열 그래프 자리 — 아래에서 비동기로 채운다
+  h+=`<div class="card"><h2>RS(1M/3M/6M) 최근 3개월</h2><div id="mx-rs"><div class="pending">불러오는 중…</div></div></div>`;
+  h+=`<div class="card"><h2>일자별 종가</h2><div id="mx-px"><div class="pending">불러오는 중…</div></div></div>`;
+  h+=`<div class="card"><h2>업종 WRS 추이 — ${esc(p?p.industry:(tr?tr.industry:''))}</h2><div id="mx-wrs"><div class="pending">불러오는 중…</div></div></div>`;
+
+  const D2=p&&p.detail;
+  const M=v=>v==null?'—':(v/1e6).toLocaleString(undefined,{maximumFractionDigits:0});
+  const G=v=>v==null?'—':`<span class="b ${v>=0?'b-grn':'b-red'}">${v>=0?'+':''}${v.toFixed(1)}%</span>`;
+
+  // ── 최근 4분기 실적 ──
+  if(D2&&D2.financials&&D2.financials.quarters&&D2.financials.quarters.length){
+    const F=D2.financials;
+    h+=`<div class="card"><h2>최근 4분기 실적 · 전년동기 대비</h2>`+
+      `<div class="scroll"><table><thead><tr>
+        <th class="l">분기말</th><th>매출액(M$)</th><th>매출 YoY</th>
+        <th>${esc(F.profitLabel)}(M$)</th><th>${esc(F.profitLabel)} YoY</th>
+        <th>당기순이익(M$)</th><th>순이익 YoY</th><th>${esc(F.marginLabel)}</th></tr></thead><tbody>`+
+      F.quarters.map(q=>`<tr>
+        <td class="l">${esc(q.periodEnd)}${q.derived?' <span class="b b-dim">유도</span>':''}</td>
+        <td>${M(q.revenue)}</td><td>${G(q.yoy.revenue)}</td>
+        <td>${M(q.profit)}</td><td>${G(q.yoy.profit)}</td>
+        <td>${M(q.netIncome)}</td><td>${G(q.yoy.netIncome)}</td>
+        <td>${q.margin==null?'—':q.margin.toFixed(1)+'%'}</td></tr>`).join('')+
+      `</tbody></table></div>
+      <div class="note">출처: <a href="${esc(F.source_url)}" target="_blank">SEC EDGAR XBRL ↗</a> ·
+      태그 ${esc(F.tags.revenue)}${F.profitIsOperating?'':' · <b style="color:var(--yel)">⚠️ 이 회사는 영업이익을 보고하지 않아 세전이익으로 대체했습니다 (영업이익 아님)</b>'}
+      ${F.quarters.some(q=>q.derived)?' · "유도" = 10-K 연간 − 9개월누계로 계산한 회계 4분기 (별도 공시가 없음)':''}</div></div>`;
+  } else if(D2&&D2.financialsError){
+    h+=`<div class="card"><h2>최근 4분기 실적</h2><div class="pending">수집 실패: ${esc(D2.financialsError)}</div></div>`;
+  }
+
+  // ── 최근 뉴스 ──
+  if(D2&&D2.news&&D2.news.items&&D2.news.items.length){
+    const N2=D2.news;
+    h+=`<div class="card"><h2>최근 뉴스 — 직접 언급 ${N2.directCount}건 / 전체 ${N2.total}건</h2>`+
+      N2.items.map(x=>`<div style="margin-bottom:8px">
+        <span class="b ${x.direct?'b-grn':'b-dim'}">${x.direct?'직접':'관련'}</span>
+        <span class="b ${x.tier1?'b-pur':'b-dim'}">${esc(x.publisher)}</span>
+        <span class="reason">${esc(x.date||'')}</span><br>
+        <a href="${esc(x.url)}" target="_blank">${esc(x.title)}</a></div>`).join('')+
+      `<div class="note">${esc(N2.note)}</div></div>`;
+  }
+
+  // ── SEC 공시 (8-K) ──
+  if(D2&&D2.filings&&D2.filings.length){
+    h+=`<div class="card"><h2>SEC 8-K 공시</h2>`+
+      D2.filings.map(f=>`<div style="margin-bottom:6px">
+        <span class="b ${f.isEarnings?'b-grn':'b-dim'}">${esc(f.filingDate)}</span>
+        ${f.isEarnings?'<span class="b b-yel">★실적발표</span>':''}
+        <span class="reason">${esc((f.itemsKo||[]).join(', '))}</span>
+        <a href="${esc(f.url)}" target="_blank">원문 ↗</a></div>`).join('')+
+      `<div class="note">items 2.02 = Results of Operations(실적발표). 촉매 판정의 1차 근거입니다.</div></div>`;
+  }
+
+  // ── 국내 증권사 리포트 ──
+  if(D2&&D2.krReports){
+    const K=D2.krReports;
+    h+=`<div class="card"><h2>국내 증권사 리포트 — 최근 12개월 ${K.total}건${D2.nameKo?` · ${esc(D2.nameKo)}`:''}</h2>`+
+      (K.reports.length?K.reports.map(r=>`<div style="margin-bottom:10px">
+        <span class="b b-dim">${esc(r.date)}</span> <b>${esc(r.broker||'?')}</b>
+        <span class="reason">${esc(r.analyst||'')}</span>
+        ${r.pdfUrl?` <a href="${esc(r.pdfUrl)}" target="_blank">📄 PDF ↗</a>`:''}
+        <div style="font-size:12.5px">${esc(r.title)}</div>
+        ${r.summary?`<div class="reason">${esc(r.summary.replace(/\s+/g,' ').slice(0,220))}</div>`:''}</div>`).join('')
+        :'<div class="pending">해당 기간 국내 증권사 리포트 없음</div>')+
+      `<div class="note">${esc(K.note)} · 목표주가·투자의견은 구조화 필드가 없어 PDF 원문에서 확인해야 합니다.</div></div>`;
+  }
+
+  if(!D2){
+    h+=`<div class="card"><h2>상세 데이터</h2><div class="pending">
+      이 종목은 팝업 상세 수집 대상(상위 ${esc((D.t2&&D.t2.detail_coverage&&D.t2.detail_coverage.cap)||20)}종목)에 포함되지 않았습니다.
+      전체를 원하면 <code>POPUP_CAP=60 node scripts/run-breakout.js</code></div></div>`;
+  }
+
+  h+=`<div class="card"><h2>상승 이유 · 실적 전망치 조정</h2><div class="pending">
+    LLM 리서치 대기 — <code>start breakout</code> 실행 시 공신력 있는 뉴스·증권사 리포트 근거로 채워집니다.
+    근거를 못 찾으면 '근거 없음'으로 표기하며 지어내지 않습니다.</div>
+    <div class="note">외부 차트: <a href="https://finviz.com/quote.ashx?t=${esc(t)}" target="_blank">Finviz ↗</a> ·
+    <a href="https://www.tradingview.com/chart/?symbol=${esc(t)}" target="_blank">TradingView ↗</a></div></div>`;
+
+  $('mbox').innerHTML=h;$('modal').classList.add('on');
+
+  // ── 시계열 렌더 (file:// 대응: <script> 동적 주입) ──
+  const NOSER=`<div class="pending">시계열 데이터가 없습니다 — <code>node scripts/backfill-history.js</code> 를 먼저 실행하세요.</div>`;
+  loadSeries('t',t,s=>{
+    const rs=$('mx-rs'),px=$('mx-px');
+    if(!s||!s.d||s.d.length<2){if(rs)rs.innerHTML=NOSER;if(px)px.innerHTML=NOSER;return;}
+    if(rs)rs.innerHTML=miniChart(s.d,[
+      {n:'RS 1M',v:s.r1,c:'#f5a524'},{n:'RS 3M',v:s.r3,c:'#58a6ff'},{n:'RS 6M',v:s.r6,c:'#c084fc'}],{dec:4})
+      +`<div class="note">RS = 해당 종목 수익률 − QQQ 수익률 (초과수익률). 0 = QQQ 와 동일 · ${s.d.length}거래일 (주말 스냅샷 제외)</div>`;
+    if(px)px.innerHTML=miniChart(s.d,[{n:'종가',v:s.p,c:'#2ea043'}],{dec:2,fmt:v=>'$'+v.toFixed(v>=1000?0:2)})
+      +`<div class="note">출처: 야후 파이낸스 (액면분할 조정 반영)${s.splitAdjusted?` · <b style="color:var(--yel)">⚠️ ${esc(s.splitNote||'분할 조정됨')}</b>`:''}</div>`;
+  });
+  const indKey=p?`${p.sector}|${p.industry}`:(tr?`${tr.sector}|${tr.industry}`:null);
+  if(indKey)loadSeries('i',indKey,s=>{
+    const el=$('mx-wrs');if(!el)return;
+    if(!s||!s.d||s.d.length<2){el.innerHTML=NOSER;return;}
+    el.innerHTML=miniChart(s.d,[
+      {n:'WRS 1M',v:s.m1,c:'#f5a524'},{n:'WRS 3M',v:s.m3,c:'#58a6ff'},{n:'WRS 6M',v:s.m6,c:'#c084fc'}],{dec:4})
+      +`<div class="note">업종 내 시총가중 평균 RS. <b>사이트에 없어 공식대로 자체 계산한 값</b>입니다 (WRS_6mo 는 사이트와 대조 검증 통과).</div>`;
+  });
+  else{const el=$('mx-wrs');if(el)el.innerHTML='<div class="pending">업종 정보 없음</div>';}
+}
+/* ── 업종 팝업 (5팀) ── */
+function openIndustry(key){
+  const t5=D.t5||{};
+  const all=[...(t5.top10by6||[]),...(t5.strictTop2?[...t5.strictTop2.m1,...t5.strictTop2.m3,...t5.strictTop2.m6]:[])];
+  const x=all.find(z=>z.key===key);
+  const [sec,ind]=String(key).split('|');
+  let h=`<div class="mhead"><h3>${esc(ind||key)}</h3><span class="b b-dim">${esc(sec||'')}</span>
+    <button class="x" onclick="closeModal()">닫기 ✕</button></div>`;
+  if(x){
+    const C=x.counts||{};
+    h+=`<div class="card"><h2>WRS 현황 (자체 계산)</h2><div class="grid g3">
+      <div class="stat"><div class="n">${x.count}</div><div class="l">업종 내 종목수 (6개월 기준)</div></div>
+      <div class="stat"><div class="n">${n(x.wrs.m1,4)}</div><div class="l">WRS 1개월 · 상위 ${n(x.rankPct.m1,2)}%${C.m1&&C.m1!==x.count?` · ${C.m1}종목`:''}</div></div>
+      <div class="stat"><div class="n">${n(x.wrs.m3,4)}</div><div class="l">WRS 3개월 · 상위 ${n(x.rankPct.m3,2)}%${C.m3&&C.m3!==x.count?` · ${C.m3}종목`:''}</div></div>
+      <div class="stat"><div class="n">${n(x.wrs.m6,4)}</div><div class="l">WRS 6개월 · 상위 ${n(x.rankPct.m6,2)}%</div></div>
+      </div><div class="note">WRS = 업종 내 시총가중 평균 RS. 사이트는 6개월만 제공하므로 1M/3M 은 동일 공식으로 자체 계산했습니다.
+      ${C.m1!==C.m6?`<br>⚠️ 기간별 종목수가 다릅니다 (1M ${C.m1} / 3M ${C.m3} / 6M ${C.m6}) — 해당 기간 RS 가 결측인 종목이 제외되기 때문입니다.`:''}</div></div>`;
+  }
+  h+=`<div class="card"><h2>WRS(1M/3M/6M) 최근 3개월 추이</h2><div id="ix-wrs"><div class="pending">불러오는 중…</div></div></div>`;
+  // 이 업종에 속한 2팀 선정 종목
+  const mem=(D.t2&&D.t2.picks||[]).filter(p=>`${p.sector}|${p.industry}`===key);
+  h+=`<div class="card"><h2>이 업종의 2팀 선정 종목 ${mem.length}개</h2>`+
+    (mem.length?mem.map(p=>`<span class="chip"><span class="tk" data-t="${esc(p.ticker)}">${esc(p.ticker)}</span>
+      상위 ${tp(p.bestPct)}% · ADR ${n(p.adr,1)}</span> `).join('')
+      :'<div class="empty">이 업종에서 선정된 종목 없음</div>')+`</div>`;
+  h+=`<div class="card"><h2>강세 사유</h2><div class="pending">
+    LLM 리서치 대기 — 공신력 있는 언론·투자은행·증권사 리포트 근거로 채웁니다. 근거 없으면 '근거 없음'으로 표기합니다.</div></div>`;
+
+  $('mbox').innerHTML=h;$('modal').classList.add('on');bindTk();
+  loadSeries('i',key,s=>{
+    const el=$('ix-wrs');if(!el)return;
+    if(!s||!s.d||s.d.length<2){el.innerHTML='<div class="pending">시계열 없음 — <code>node scripts/backfill-history.js</code> 실행 필요</div>';return;}
+    el.innerHTML=miniChart(s.d,[
+      {n:'WRS 1M',v:s.m1,c:'#f5a524'},{n:'WRS 3M',v:s.m3,c:'#58a6ff'},{n:'WRS 6M',v:s.m6,c:'#c084fc'}],{dec:4})
+      +`<div class="note">0 = QQQ 와 동일 성과 · ${s.d.length}거래일 (주말 스냅샷 제외) · 매 스냅샷의 data[] 에서 재계산</div>`;
+  });
+}
+
+function closeModal(){$('modal').classList.remove('on');}
+$('modal').onclick=e=>{if(e.target.id==='modal')closeModal();};
+document.onkeydown=e=>{if(e.key==='Escape')closeModal();};
+
+/* ── 탭 ── */
+$('tabs').innerHTML=TABS.map((t,i)=>`<button class="tab${i===0?' on':''}" data-k="${t[0]}">${t[1]}</button>`).join('');
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));
+  document.querySelectorAll('.pane').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on');$('p-'+b.dataset.k).classList.add('on');
+});
+
+hud();renderChief();renderT1();renderT2();renderT3();renderT4();renderT5();renderCC();renderHist();
+</script>

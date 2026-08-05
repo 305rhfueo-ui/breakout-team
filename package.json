@@ -1,0 +1,19 @@
+{
+  "name": "breakout-team",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "쿨라매기 Break-out + Episodic Pivot 5팀 에이전트 시스템 (의존성 0)",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "breakout": "node scripts/run-breakout.js",
+    "backfill": "node scripts/backfill-history.js",
+    "rs": "node scripts/fetch-rs-data.js",
+    "screen": "node scripts/lib/screen.js",
+    "wrs": "node scripts/lib/wrs.js",
+    "room": "node scripts/open-dashboard.js"
+  },
+  "license": "UNLICENSED"
+}

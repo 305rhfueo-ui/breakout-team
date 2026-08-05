@@ -1,0 +1,8 @@
+node_modules/
+.env
+*.log
+# 캐시는 OneDrive 밖(CACHE_DIR)에 있지만 혹시 몰라 방어
+state/rs-snapshots/
+state/bars-cache/
+dashboard/data/series/*.tmp*
+*.tmp*
