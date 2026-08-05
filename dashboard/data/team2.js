@@ -91,8 +91,130 @@ window.TEAM2_DATA = {
         "count": 23
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "company": "에흐르 테스트 시스템스(Aehr Test Systems)는 반도체 칩을 출하하기 전에 고온·고전압 환경에서 미리 혹사시켜(번인, burn-in) 불량품을 걸러내는 검사 장비를 만드는 회사예요. 원래는 전기차용 실리콘카바이드(SiC) 반도체 검사가 주력이었는데, 최근에는 AI 서버용 반도체와 광통신(실리콘 포토닉스) 부품 검사 쪽으로 사업이 빠르게 확대되고 있습니다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "근거 없음(출처 검증 실패로 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [],
+            "stripped": true
+          },
+          {
+            "id": "w2",
+            "statement": "2027회계연도(2027년 6월 마감) 매출 가이던스로 1억3,000만~1억5,000만달러(전년比 160~200% 성장)를 제시했고, 분기 신규수주 6,070만달러(사상최대)로 실효 백로그(수주잔고)가 1억60만달러까지 늘어나 실적 가시성이 크게 높아졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Aehr Test Systems Reports Fiscal 2026 Fourth Quarter and Full Year Financial Results with Record Quarterly Bookings and $100 Million Effective Backlog",
+                "publisher": "Aehr Test Systems (공식 보도자료)",
+                "url": "https://www.aehr.com/2026/07/aehr-test-systems-reports-fiscal-2026-fourth-quarter-and-full-year-financial-results-with-record-quarterly-bookings-and-100-million-effective-backlog/",
+                "date": "2026-07-14",
+                "quote": "For the fiscal year ending June 25, 2027, Aehr expects total company revenue to be between $130 million and $150 million, representing approximately 160%-200% year-over-year growth.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "실적 발표 전후로 신규 수주 소식이 이어졌다. 중국 전기차 프로그램 확대에 따른 실리콘카바이드 웨이퍼레벨 번인 신규주문 약 800만달러(세계적 완성차업체 1곳의 품질인증 주문 포함)와, 주요 실리콘포토닉스 고객사로부터 AI 데이터센터용 광인터커넥트향 FOX-XP 장비 후속 발주를 확보했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AEHR Stock Surges As Traders Pile Into AI And EV Test Play",
+                "publisher": "StocksToTrade",
+                "url": "https://stockstotrade.com/news/aehr-test-systems-aehr-news-2026_07_21-2/",
+                "date": "2026-07-21",
+                "quote": "AEHR is winning over $8M in new silicon carbide wafer-level burn-in orders tied to expanding EV programs in China and a qualification order from one of the world's top automakers... landed a follow-on FOX-XP system order from its lead silicon photonics customer, aimed at high-volume AI optical interconnects for hyperscale data centers.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "실적 발표 직후 증권사들이 일제히 목표주가를 큰 폭으로 상향했다(7/15 Craig Hallum $68→$125 유지매수, 7/15 Lake Street $56→$110 유지매수, 7/16 Freedom Capital hold→strong-buy 상향, 7/17 Zacks Research hold→strong-buy 상향).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Aehr Test Systems (AEHR) – Investment Analysts' Recent Ratings Updates",
+                "publisher": "MarketsDaily",
+                "url": "https://www.themarketsdaily.com/2026/08/03/aehr-test-systems-aehr-investment-analysts-recent-ratings-updates.html",
+                "date": "2026-08-03",
+                "quote": "7/15/2026 – Aehr Test Systems had its \"buy\" rating reaffirmed by Craig Hallum. They now have a $125.00 price target on the stock.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "Lake Street는 실적 발표 전 자체 2027회계연도 매출 추정치가 약 8,400만달러였는데, 회사가 제시한 1억3,000만~1억5,000만달러(160~200% 성장) 가이던스가 이를 '크게 상회'했다며 목표주가를 56달러→110달러로 두 배 가까이 상향했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "TipRanks: Aehr Test Systems $AEHR price target raised to $110 from $56 at Lake Street",
+                  "publisher": "TipRanks (X/Twitter)",
+                  "url": "https://x.com/TipRanks/status/2077379833206649225",
+                  "date": "2026-07-15",
+                  "quote": "the company guided FY27 revenue growth of 160%-200%, which was \"well above\" the firm's prior estimate of $84M, the analyst tells investors in a post-earnings note.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "e2",
+              "statement": "Craig Hallum도 같은 날 실적발표 이후 목표주가를 68달러에서 125달러로 상향하며 매수 의견을 유지했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Aehr Test Systems (AEHR) – Investment Analysts' Recent Ratings Updates",
+                  "publisher": "MarketsDaily",
+                  "url": "https://www.themarketsdaily.com/2026/08/03/aehr-test-systems-aehr-investment-analysts-recent-ratings-updates.html",
+                  "date": "2026-08-03",
+                  "quote": "7/15/2026 – Aehr Test Systems had its \"buy\" rating reaffirmed by Craig Hallum. They now have a $125.00 price target on the stock.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "AI 인프라",
+          "반도체 장비",
+          "실리콘포토닉스",
+          "전기차(SiC) 반도체"
+        ],
+        "upcomingCatalyst": {
+          "what": "2027회계연도 1분기(2026.9월 마감분기) 실적 발표 — 과거 발표 패턴 기준 추정치이며 회사 공식 확정 일정은 미확인",
+          "date": "2026-10-01(추정, 미확정)",
+          "sources": [
+            {
+              "title": "Aehr Test (AEHR) Earnings Dates, Call Summary & Reports",
+              "publisher": "TipRanks",
+              "url": "https://www.tipranks.com/stocks/aehr/earnings",
+              "date": "2026-08-05",
+              "quote": "Aehr Test Systems's next earnings date is estimated for October 1, 2026, based on past reporting schedules",
+              "verified": "unverified",
+              "httpStatus": 403
+            }
+          ]
+        },
+        "confidence": "high",
+        "ticker": "AEHR",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        }
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -455,8 +577,140 @@ window.TEAM2_DATA = {
         "count": 55
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "CORT",
+        "company": "코셉트 테라퓨틱스는 우리 몸의 스트레스 호르몬인 '코르티솔'이 과다 분비돼 생기는 병(쿠싱증후군 등 대사질환, 일부 암, 정신질환)을 치료하는 약을 만드는 미국 바이오제약회사입니다. 대표 약인 코를림(Korlym)은 쿠싱증후군 치료제로 FDA 최초 승인을 받았고, 최근에는 백금저항성 난소암 치료제 라이피오를리(Lifyorli, 성분명 렐라코릴란트)가 새로 승인돼 판매를 시작했습니다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "2026년 2분기 실적이 시장 예상치를 크게 웃돌았다 (매출 2.561억달러로 컨센서스 2.16억달러 상회, EPS는 컨센서스가 4센트 손실 예상이었으나 실제 36센트 흑자)",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CORT Q2 Earnings & Revenues Beat Estimates, 2026 Outlook Raised",
+                "publisher": "Zacks (via TradingView)",
+                "url": "https://www.tradingview.com/news/zacks:ff781da19094b:0-cort-q2-earnings-revenues-beat-estimates-2026-outlook-raised/",
+                "date": "2026-07-29",
+                "quote": "Second-quarter revenues rose nearly 32% year over year to $256.1 million and surpassed the Zacks Consensus Estimate of $216 million",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "회사가 2026년 연간 매출 가이던스를 기존 9.5억~10.5억달러에서 11억~12억달러로 상향 조정했다",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Corcept Therapeutics Q2 Profit Rises; Raises FY26 Outlook",
+                "publisher": "RTTNews",
+                "url": "https://www.rttnews.com/3672355/corcept-therapeutics-q2-profit-rises-raises-fy26-outlook.aspx?type=ern",
+                "date": "2026-07-29",
+                "quote": "Corcept raised its 2026 revenue guidance to a range of $1.1 billion to $1.2 billion from its previous outlook of $950 million to $1.050 billion.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "신약 라이피오를리(Lifyorli)가 2026년 4월 출시 이후 첫 분기부터 4760만달러 매출을 내며 상업화가 순조롭고, 기존 주력제품 코를림 매출도 회복세를 보였다",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "H.C. Wainwright raises Corcept Therapeutics price target to $165 on strong Q2 results",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/analyst-ratings/hc-wainwright-raises-corcept-therapeutics-price-target-to-165-on-strong-q2-results-93CH-4823785",
+                "date": "2026-07-30",
+                "quote": "Lifyorli's commercial debut following its April 1, 2026 launch and a recovery in Korlym sales",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "실적 발표 직후 증권사들이 목표주가를 대폭 상향했다 (예: H.C. Wainwright는 95달러에서 165달러로 상향, Buy 유지)",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "H.C. Wainwright raises Corcept Therapeutics price target to $165 on strong Q2 results",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/analyst-ratings/hc-wainwright-raises-corcept-therapeutics-price-target-to-165-on-strong-q2-results-93CH-4823785",
+                "date": "2026-07-30",
+                "quote": "H.C. Wainwright raised its price target on Corcept Therapeutics shares (NASDAQ:CORT) to $165 from $95 while maintaining a Buy rating on the stock.",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "회사가 2026 회계연도 매출 가이던스를 기존 9.5억~10.5억달러에서 11억~12억달러로 상향했다 (내부 가이던스 상향)",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Corcept Therapeutics Q2 Profit Rises; Raises FY26 Outlook",
+                  "publisher": "RTTNews",
+                  "url": "https://www.rttnews.com/3672355/corcept-therapeutics-q2-profit-rises-raises-fy26-outlook.aspx?type=ern",
+                  "date": "2026-07-29",
+                  "quote": "Corcept raised its 2026 revenue guidance to a range of $1.1 billion to $1.2 billion from its previous outlook of $950 million to $1.050 billion.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "e2",
+              "statement": "2분기 실제 실적이 Zacks 시장 컨센서스 추정치를 크게 상회했다 (EPS: 컨센서스 -4센트 손실 vs 실제 +36센트, 매출: 컨센서스 2.16억달러 vs 실제 2.561억달러) — 이는 애널리스트들이 향후 추정치를 상향할 근거가 되었다",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CORT Q2 Earnings & Revenues Beat Estimates, 2026 Outlook Raised",
+                  "publisher": "Zacks (via TradingView)",
+                  "url": "https://www.tradingview.com/news/zacks:ff781da19094b:0-cort-q2-earnings-revenues-beat-estimates-2026-outlook-raised/",
+                  "date": "2026-07-29",
+                  "quote": "reported second-quarter 2026 earnings of 36 cents per share, beating the Zacks Consensus Estimate of a loss of 4 cents",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "e3",
+              "statement": "H.C. Wainwright가 2분기 실적 발표 직후 목표주가를 95달러에서 165달러로 상향 조정했다 (Buy 등급 유지)",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "H.C. Wainwright raises Corcept Therapeutics price target to $165 on strong Q2 results",
+                  "publisher": "Investing.com",
+                  "url": "https://www.investing.com/news/analyst-ratings/hc-wainwright-raises-corcept-therapeutics-price-target-to-165-on-strong-q2-results-93CH-4823785",
+                  "date": "2026-07-30",
+                  "quote": "H.C. Wainwright raised its price target on Corcept Therapeutics shares (NASDAQ:CORT) to $165 from $95 while maintaining a Buy rating on the stock.",
+                  "verified": "unverified",
+                  "httpStatus": 403
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "바이오/제약",
+          "항암 신약(난소암)",
+          "쿠싱증후군·희귀 대사질환 치료제",
+          "코르티솔 조절 메커니즘"
+        ],
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        }
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -796,8 +1050,90 @@ window.TEAM2_DATA = {
         "count": 16
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "MGRT",
+        "company": "Mega Fortune Company Limited(메가 포춘)은 홍콩 사틴에 본사를 둔 회사로, 사물인터넷(IoT) 통합 솔루션, 업무프로세스아웃소싱(BPO), IoT 유지보수, IoT 관련 제품 유통 등을 정부기관·대형 유통 브랜드·프랜차이즈·테마파크 등에 제공한다. 2011년 설립됐고 직원 수는 17명(2026년 7월 기준)에 불과한 매우 작은 회사이며 나스닥에 상장돼 있다.",
+        "whyRose": [
+          {
+            "id": "leadership-overhaul",
+            "statement": "2026년 1월 20~21일 이사진과 재무 임원진을 대거 교체(전 CFO·COO 포함 이사 4명 퇴진, 신임 독립이사 및 자본시장 경력을 가진 신임 CFO 선임)하면서 '새 경영진이 기업가치를 끌어올릴 것'이라는 기대감이 투자자들 사이에 형성돼 주가 급등의 주된 서사가 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Has Mega Fortune's Leadership Overhaul Fueled Its Meteoric Rise",
+                "publisher": "Kavout Market Lens",
+                "url": "https://www.kavout.com/market-lens/has-mega-fortune-s-leadership-overhaul-fueled-its-meteoric-rise",
+                "date": "2026",
+                "quote": "This leadership transition appears to be the primary narrative driving investor interest, rather than any sudden operational breakthrough.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "meme-stock-squeeze",
+            "statement": "2026년 4월 초 나흘 만에 주가가 238% 급등했는데, 온라인 커뮤니티에서 숏스퀴즈 가능성이 회자되며 거래대금이 하루 약 230만 달러에서 1690만 달러로 급증한 전형적인 '밈주식' 투기 매수가 원인이었고, 실적이나 공시 등 펀더멘털상 근거는 없었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "How Mega Fortune Stock Tripled This Week",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/investing/2026/04/09/how-mega-fortune-stock-tripled-this-week/",
+                "date": "2026-04-09",
+                "quote": "Mega Fortune had no reason for any of these moves, though. You're watching the wild, unpredictable price swings of a meme stock in action.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "oversold-technical-bounce",
+            "statement": "2026년 6월경 RSI 등 기술적 지표상 과매도(oversold) 구간에 진입했다는 분석이 나오면서 저가 매수세가 유입돼 단기 반등이 나타난 것으로 보인다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Oversold Conditions For Mega Fortune Company (MGRT)",
+                "publisher": "Nasdaq (BNK Invest)",
+                "url": "https://www.nasdaq.com/articles/oversold-conditions-mega-fortune-company-mgrt",
+                "date": "2026-06-11",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "IoT",
+          "밈주식(초소형 급등주)"
+        ],
+        "upcomingCatalyst": {
+          "what": "다음 실적발표 일정 미확정(회사 측 공식 발표 없음, 직전 실적발표는 2026-02-03)",
+          "date": "",
+          "sources": [
+            {
+              "title": "Mega Fortune (MGRT) Earnings Date & Report",
+              "publisher": "Investing.com",
+              "url": "https://www.investing.com/equities/mega-fortune-co-ltd-earnings",
+              "date": "2026-08",
+              "verified": "unverified",
+              "httpStatus": 403
+            }
+          ]
+        },
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w3"
+          ],
+          "reasons": [
+            "oversold-technical-bounce: 인용 없음 → 기사 내용 검증 불가능"
+          ]
+        }
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -923,8 +1259,113 @@ window.TEAM2_DATA = {
         "count": 13
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "company": "FET(포럼 에너지 테크놀로지스)는 석유·천연가스 채굴 현장에서 쓰는 장비와 부품을 만들어 파는 회사입니다. 시추(드릴링)와 완결 작업에 쓰이는 장비를 만드는 사업부, 그리고 유정에서 원유를 끌어올리는 데 쓰는 인공채유(Artificial Lift) 장비를 만드는 사업부, 이렇게 두 축으로 사업을 운영하며 방위산업·재생에너지 쪽에도 일부 장비를 공급합니다.",
+        "ticker": "FET",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "2026년 2분기 실적이 시장 예상치를 크게 상회했다. 조정 EPS 1.16달러(컨센서스 0.56달러 대비), 매출 2.26억 달러(전년 대비 8%+ 증가, 예상치 약 2.10~2.12억 달러 상회)를 기록하며 발표 다음 날 주가가 하루 만에 약 22% 급등했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Forum Energy Technologies Stock Blasted Nearly 22% Higher on Friday",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/investing/2026/07/31/why-forum-energy-technologies-stock-blasted-nearly/",
+                "date": "2026-07-31",
+                "quote": "Market players clearly liked what they saw, as they eagerly bought shares of the company, pushing the stock up almost 22% that day.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "회사가 2026년 연간 가이던스를 일제히 상향 조정했다. 매출 8.7억~9.1억 달러(전년비 +13%), 조정 EBITDA 1.15억~1.25억 달러(+40%), 조정순이익 4,200만~5,200만 달러로 상향했으며, 이는 시장 평균 전망치(매출 약 8.56억 달러)를 웃도는 수준이었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Forum Energy Technologies Stock Blasted Nearly 22% Higher on Friday",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/investing/2026/07/31/why-forum-energy-technologies-stock-blasted-nearly/",
+                "date": "2026-07-31",
+                "quote": "Its new forecast for annual revenue is $870 million to $910 million, while adjusted net income should be $42 million to $52 million.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "주문잔고와 수익성 지표가 함께 개선됐다. 2분기 주문 2.36억 달러로 Book-to-Bill 비율 약 104%(최근 6개 분기 중 5개 분기에서 1.0 초과)를 기록했고, 조정 EBITDA는 전분기 대비 39% 증가하며 마진 개선을 보여줬다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Forum Energy Technologies (FET) Stock Reprices Higher On Margin Gains And Guidance Lift",
+                "publisher": "Sahm Capital",
+                "url": "https://www.sahmcapital.com/news/content/forum-energy-technologies-fet-stock-reprices-higher-on-margin-gains-and-guidance-lift-2026-08-01",
+                "date": "2026-08-01",
+                "quote": "Orders of US$236m kept book to bill around 104% and mark 5 of the last 6 quarters above 1.0",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "mixed",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "2026년 5월 25일, Zacks Research는 FET 등급을 'Strong Buy'에서 'Hold'로 하향 조정했다 (실적 발표 이전 시점의 눈높이 조정).",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Forum Energy Technologies (NYSE:FET) Hits New 12-Month High – Here's Why",
+                  "publisher": "MarketsDaily (themarketsdaily.com)",
+                  "url": "https://www.themarketsdaily.com/2026/08/03/forum-energy-technologies-nysefet-hits-new-12-month-high-heres-why.html",
+                  "date": "2026-08-03",
+                  "quote": "Zacks Research downgraded Forum Energy Technologies from a 'strong-buy' rating to a 'hold' rating in a research note on Monday, May 25th.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "e3",
+              "statement": "반면 회사 자신은 2026년 7월 30일 2분기 실적 발표와 함께 2026년 연간 가이던스(매출·EBITDA·순이익)를 전부 상향했으며, 이 가이던스는 당시 시장 평균 전망치(매출 약 8.56억 달러)를 웃돌았다. 즉 개별 애널리스트 추정치는 엇갈렸지만 회사 자체 눈높이는 위로 향했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Why Forum Energy Technologies Stock Blasted Nearly 22% Higher on Friday",
+                  "publisher": "The Motley Fool",
+                  "url": "https://www.fool.com/investing/2026/07/31/why-forum-energy-technologies-stock-blasted-nearly/",
+                  "date": "2026-07-31",
+                  "quote": "the average pundit expectation for revenue is under $856 million",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "에너지 장비/서비스",
+          "유가 관련주",
+          "실적 서프라이즈",
+          "가이던스 상향"
+        ],
+        "upcomingCatalyst": {},
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "e2"
+          ],
+          "reasons": [
+            "Sidoti EPS 하향: Daily Political(정치 뉴스 사이트)에서 금융 분석 내용 보도 → 신뢰성 의심"
+          ]
+        }
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -1286,8 +1727,104 @@ window.TEAM2_DATA = {
         "count": 7
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "company": "리퀴디아(Liquidia Corporation)는 폐동맥고혈압(폐로 가는 혈관이 좁아져 숨쉬기 힘들어지는 희귀 심폐질환)과 간질성 폐질환에 동반된 폐고혈압 환자를 치료하는 흡입형 약을 만드는 제약회사입니다. 대표 제품 '유트레피아(YUTREPIA)'는 가루 형태로 흡입해 폐혈관을 넓혀주는 치료제로, 2025년 6월 미국에서 정식 출시된 뒤 매출이 매 분기 빠르게 늘고 있습니다.",
+        "ticker": "LQDA",
+        "themeTags": [
+          "희귀질환 바이오텍",
+          "폐동맥고혈압(PAH) 치료제",
+          "실적 턴어라운드/흑자전환"
+        ],
+        "confidence": "high",
+        "whyRose": [
+          {
+            "id": "yutrepia-q1-profit",
+            "statement": "근거 없음(출처 검증 실패로 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [],
+            "stripped": true
+          },
+          {
+            "id": "100m-milestone-hcrx-bofa",
+            "statement": "6월30일 기준 YUTREPIA 누적 순매출이 1억달러를 돌파해 HealthCare Royalty로부터 마지막 2500만달러 마일스톤 지급금을 확보했고, 동시에 BofA증권이 목표주가를 79달러로 대폭 상향하면서 주가가 급등했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Liquidia Stock Soars as YUTREPIA Milestone Ignites Hype",
+                "publisher": "TipRanks",
+                "url": "https://www.tipranks.com/news/catalyst/liquidia-stock-soars-as-yutrepia-milestone-ignites-hype",
+                "date": "2026-07-01",
+                "quote": "The company cleared a June 30 threshold of more than $100 million in net sales for its pulmonary hypertension drug YUTREPIA, unlocking a final $25 million payment from HealthCare Royalty.",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "estimate-revisions-driving-price",
+            "statement": "애널리스트들의 2026·2027년 EPS 전망치가 최근 60일 사이 잇달아 상향 조정되면서, 이 실적 개선 기대감이 최근 주가 상승을 뒷받침하고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Should You Invest in Liquidia Corporation Stock Ahead of Q2 Earnings?",
+                "publisher": "TradingView (Zacks Investment Research)",
+                "url": "https://www.tradingview.com/news/zacks:acb53917d094b:0-should-you-invest-in-liquidia-corporation-stock-ahead-of-q2-earnings/",
+                "date": "2026-07-31",
+                "quote": "The Zacks Consensus Estimate for 2026 EPS has moved north to $3.02 from $2.97 and that for 2027 EPS has increased to $5.31 from $4.81 in the past 60 days.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "eps-2026-2027-60day",
+              "statement": "Zacks 컨센서스 기준 2026년 EPS 전망치가 60일 사이 2.97달러에서 3.02달러로, 2027년 EPS는 4.81달러에서 5.31달러로 상향 조정됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Should You Invest in Liquidia Corporation Stock Ahead of Q2 Earnings?",
+                  "publisher": "TradingView (Zacks Investment Research)",
+                  "url": "https://www.tradingview.com/news/zacks:acb53917d094b:0-should-you-invest-in-liquidia-corporation-stock-ahead-of-q2-earnings/",
+                  "date": "2026-07-31",
+                  "quote": "The Zacks Consensus Estimate for 2026 EPS has moved north to $3.02 from $2.97 and that for 2027 EPS has increased to $5.31 from $4.81 in the past 60 days.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "eps-30day-surge-may",
+              "statement": "근거 없음(출처 검증 실패로 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [],
+              "stripped": true
+            }
+          ]
+        },
+        "upcomingCatalyst": {
+          "what": "2026년 2분기(6월30일 마감) 실적발표 및 컨퍼런스콜 (동부시간 오전 8시30분 웹캐스트)",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "title": "Liquidia Corporation to Report Second Quarter 2026 Financial Results on August 12, 2026",
+              "publisher": "GlobeNewswire",
+              "url": "https://www.globenewswire.com/news-release/2026/07/29/3335204/0/en/Liquidia-Corporation-to-Report-Second-Quarter-2026-Financial-Results-on-August-12-2026.html",
+              "date": "2026-07-29",
+              "quote": "Liquidia Corporation announced that it will report its second quarter 2026 financial results on Wednesday, August 12, 2026.",
+              "verified": "ok",
+              "httpStatus": 200
+            }
+          ]
+        },
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        }
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -1580,8 +2117,109 @@ window.TEAM2_DATA = {
         "count": 12
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "company": "agilon health는 미국의 동네 1차 진료 병원(개인 병원)들과 손잡고, 메디케어 어드밴티지(65세 이상 고령자 대상 민간 의료보험)에 가입한 환자를 관리해주는 헬스케어 플랫폼 회사입니다. 진료 횟수만큼 돈을 받는 기존 방식 대신, 환자를 건강하게 잘 관리할수록 보험사로부터 더 많이 보상받는 '가치기반 진료(value-based care)' 계약을 병원들이 맺도록 돕고 그 성과(위험도 조정, 의료비 마진 등)를 함께 나눕니다. 즉 동네 병원이 대형 보험사와 유리하게 계약하고 리스크를 관리하도록 대신 운영해주는 회사입니다.",
+        "ticker": "AGL",
+        "whyRose": [
+          {
+            "id": "q1-beat",
+            "statement": "2026년 5월 6일 발표된 1분기(3월 31일 마감) 실적에서 매출 14.2억 달러, 순이익 4,892만 달러, 주당순이익(계속영업 기준) 1.80달러를 기록하며 시장 예상을 상회했고, 이 실적 발표를 계기로 주가가 급등했다(기사 제목: 실적 발표 후 160.1% 상승).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Agilon Health (AGL) Is Up 160.1% After Profit Jumps On Better Medical Margins And Guidance",
+                "publisher": "Simply Wall St News",
+                "url": "https://simplywall.st/stocks/us/healthcare/nyse-agl/agilon-health/news/why-agilon-health-agl-is-up-1601-after-profit-jumps-on-bette",
+                "date": "2026",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "guidance-raise",
+            "statement": "1분기 실적 발표와 함께 회사가 2026년 연간 가이던스를 상향 조정했다: 매출 전망 56.8억~58.05억 달러, 의료마진(medical margin) 3.5억~4억 달러, 조정 EBITDA 1,000만~4,000만 달러로 상향.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "agilon health Q1 2026: Revenue $1.42B, Adjusted EBITDA $54M, Net Income $49M",
+                "publisher": "TradingView News",
+                "url": "https://www.tradingview.com/news/tradingview:4c79879c01cd2:0-agilon-health-q1-2026-revenue-1-42b-adjusted-ebitda-54m-net-income-49m/",
+                "date": "2026-05-06",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "db-upgrade",
+            "statement": "1분기 실적 호조와 가이던스 상향에 힘입어 2026년 5월 7일 Deutsche Bank가 AGL 등급을 Hold에서 Buy로, 목표주가를 33달러에서 49달러로 상향했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Deutsche Bank upgrades agilon health stock rating on raised guidance",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/analyst-ratings/deutsche-bank-upgrades-agilon-health-stock-rating-on-raised-guidance-93CH-4666431",
+                "date": "2026-05-07",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "value-pick",
+            "statement": "2026년 6월 26일 Zacks가 AGL을 '빠르게 움직이는 저평가 종목'으로 소개하며 밸류 투자자들의 관심을 끌었다 (Node가 이미 확보한 기사).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Fast-paced Mover Agilon (AGL) Is a Great Choice for Value Investors",
+                "publisher": "Zacks/Nasdaq",
+                "url": "https://www.nasdaq.com/articles/why-fast-paced-mover-agilon-agl-great-choice-value-investors",
+                "date": "2026-06-26",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": []
+        },
+        "themeTags": [
+          "가치기반 진료(Value-Based Care)",
+          "메디케어 어드밴티지",
+          "헬스케어 서비스 플랫폼"
+        ],
+        "upcomingCatalyst": {
+          "what": "2026년 2분기(Q2) 실적 발표 (장 마감 후 공시, 오후 4:30 ET 컨퍼런스콜)",
+          "date": "2026-08-05",
+          "sources": [
+            {
+              "title": "agilon health Sets Date to Report Second Quarter 2026 Financial Results",
+              "publisher": "StockTitan",
+              "url": "https://www.stocktitan.net/news/AGL/agilon-health-sets-date-to-report-second-quarter-2026-financial-hyjvp1sk4wiw.html",
+              "date": "2026-07-07",
+              "quote": "agilon health will release financial results for the second quarter ended June 30, 2026 after market close on Wednesday, August 5, 2026, and will host a conference call at 4:30 p.m. ET to discuss the results.",
+              "verified": "ok",
+              "httpStatus": 200
+            }
+          ]
+        },
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1",
+            "w2",
+            "zacks-rank2"
+          ],
+          "reasons": [
+            "q1-beat: 인용 없음 + 발행 날짜 불명확('2026'만 표시) → 검증 불가",
+            "guidance-raise: 인용 없음 + 기사 제목이 Q1 실적만 언급, 가이던스 상향 미명시 → 내용 불일치",
+            "zacks-rank2: 원문 접근 불가(403) + 구체적 수치 '검색 스니펫에서만 확인' → 원문 검증 불가"
+          ]
+        }
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -1940,7 +2578,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -2291,7 +2929,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -2714,7 +3352,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -3070,7 +3708,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -3495,7 +4133,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -3840,7 +4478,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -4207,7 +4845,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -4568,7 +5206,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -4920,7 +5558,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -5250,7 +5888,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -5613,7 +6251,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -5979,7 +6617,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -6324,7 +6962,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -6725,7 +7363,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       },
       "detail": {
         "fetchedAt": "2026-08-05",
@@ -7097,7 +7735,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -7168,7 +7806,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -7239,7 +7877,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -7310,7 +7948,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -7381,7 +8019,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -7453,7 +8091,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -7524,7 +8162,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -7596,7 +8234,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -7667,7 +8305,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -7738,7 +8376,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -7809,7 +8447,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -7880,7 +8518,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -7951,7 +8589,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -8022,7 +8660,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -8093,7 +8731,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -8164,7 +8802,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -8218,7 +8856,11 @@ window.TEAM2_DATA = {
       "brk60d": false,
       "clsPos": 78,
       "ma150Slope": null,
-      "ta": null
+      "ta": null,
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기 (상한 6 초과)"
+      }
     },
     {
       "ticker": "CDNL",
@@ -8288,7 +8930,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -8360,7 +9002,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -8431,7 +9073,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -8502,7 +9144,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -8573,7 +9215,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -8644,7 +9286,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -8715,7 +9357,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -8786,7 +9428,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -8857,7 +9499,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -8928,7 +9570,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -8999,7 +9641,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -9070,7 +9712,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -9141,7 +9783,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -9212,7 +9854,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -9283,7 +9925,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -9354,7 +9996,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     },
     {
@@ -9425,7 +10067,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "LLM 리서치 대기 (상한 6 초과)"
       }
     }
   ],
@@ -10046,11 +10688,81 @@ window.TEAM2_DATA = {
     ],
     "headline": "Technology 29종목(53.7%) · Healthcare 10종목(18.5%) · Semiconductors 9종목(16.7%)",
     "minCount": 2,
-    "total": 54
+    "total": 54,
+    "llm": {
+      "leadingTheme": {
+        "name": "AI 데이터센터 캐펙스 사이클 (반도체·AI 인프라)",
+        "why": "클러스터 자체가 이미 한쪽으로 쏠려 있다. Technology 53.7%(29종목) + Industry:Semiconductors 16.7%(9종목) + Software-Infrastructure 11.1%(6종목)로, 상위 3개 클러스터가 모두 AI 인프라 밸류체인 한 줄에 꿰인다. 검색으로 확인한 실제 동인은 다음과 같다. (1) 하이퍼스케일러 캐펙스 급증 — BofA는 향후 12개월 하이퍼스케일러 캐펙스가 1.2조 달러를 넘을 것으로 전망(기존 약 7,000억 달러에서 상향). 원문: \"Bank of America now expects hyperscaler capex to top $1.2 trillion over the next 12 months, up from roughly $700 billion.\" (https://www.benzinga.com/markets/tech/26/08/60886732/hyperscaler-capex-1-2-trillion-9-semiconductor-stocks-bofa , https://www.benzinga.com/etfs/sector-etfs/26/08/60911484/big-tech-1-2-trillion-hyperscaler-ai-bet-could-ignite-the-next-semiconductor-etf-rally) (2) 메모리 슈퍼사이클 — MU는 2026년 HBM 물량이 전량 소진(sold out)됐고 3~5년 장기계약으로 전환 중. 원문: \"The entire 2026 HBM supply is sold out under multi-year contracts.\" (https://www.investing.com/analysis/microns-soldout-hbm-supply-makes-the-bull-case-hard-to-dismiss-200681391 , https://io-fund.com/ai-stocks/micron-stock-up-100-hbm-leader-2026-plan) (3) AI 인터커넥트 실수요 — ALAB는 2026년 8월 4일 2분기 실적을 발표했고 가이던스는 매출 3.55~3.65억 달러(전분기 대비 +15~18%), 컨센서스 기준 전년 대비 약 +57%였다 (https://www.benzinga.com/trading-ideas/movers/26/08/60882856/astera-labs-stock-rises-ahead-of-q2-earnings , https://www.stocktitan.net/news/ALAB/astera-labs-announces-conference-call-to-review-second-quarter-2026-s2dnxh4zjsp3.html) (4) 서버 실수요 — DELL은 AI 최적화 서버 매출 90억 달러(+342% YoY), AI 수주잔고 430억 달러를 기록했고 이후 사상 최대 513억 달러까지 늘었다 (https://futurumgroup.com/insights/dell-q4-fy-2026-earnings-highlight-ai-optimized-server-ramp/ , https://www.blocksandfiles.com/ai-ml/2026/05/29/dells-extraordinary-ai-server-revenue-acceleration/5248541) (5) 확보된 리서치의 AEHR도 같은 줄 — 주요 실리콘포토닉스 고객사로부터 AI 데이터센터용 광인터커넥트향 FOX-XP 후속 발주 확보, FY2027 매출 가이던스 1.3~1.5억 달러(전년비 160~200% 성장), 실효 백로그 1억60만 달러. 즉 대형주(AMD/MU/ARM/MRVL)부터 소형 장비주(AEHR/ALAB/AMBQ)까지 '같은 지출 사이클의 서로 다른 층'을 먹고 있다는 점에서 주도 테마로 인정할 만하다.",
+        "tickers": [
+          "AMD",
+          "MU",
+          "ARM",
+          "MRVL",
+          "ALAB",
+          "AEHR",
+          "MXL",
+          "NVEC",
+          "AMBQ",
+          "LASR",
+          "DELL",
+          "NTAP",
+          "SNOW"
+        ],
+        "strength": "strong"
+      },
+      "subThemes": [
+        {
+          "name": "AI 광인터커넥트 / 실리콘포토닉스 (테마 안의 진짜 신선한 축)",
+          "tickers": [
+            "AEHR",
+            "MXL",
+            "LASR",
+            "ALAB"
+          ],
+          "why": "단순 'GPU 수혜'가 아니라 데이터센터 내부 배선이 구리에서 빛으로 넘어가는 구간에 걸린 종목군. AI용 광트랜시버 시장은 2025년 165억 달러에서 2026년 260억 달러로 성장 전망이고, 800G 이상 출하량은 전년 대비 100% 증가 중이며 800G·1.6T 광모듈의 실리콘포토닉스 침투율이 50~70%에 이를 것으로 전망된다 (https://www.yolegroup.com/press-release/silicon-photonics-and-co-packaged-optics-at-the-heart-of-next-generation-ai-driven-data-infrastructure/ , https://www.tomshardware.com/networking/nvidia-outlines-plans-for-using-light-for-communication-between-ai-gpus-by-2026-silicon-photonics-and-co-packaged-optics-may-become-mandatory-for-next-gen-ai-data-centers). MXL은 Jabil과 실리콘포토닉스 기반 800G 광모듈 양산 공급을 발표한 이력이 확인된다. AEHR은 확보된 리서치대로 실리콘포토닉스 고객사 FOX-XP 후속 발주를 명시적으로 밝혔다. 다만 CPO 대규모 배치는 2028~2030년 전망이라 지금은 '기대 선반영' 구간이라는 점은 감안해야 한다."
+        },
+        {
+          "name": "사이버보안·아이덴티티 SW (Software-Infrastructure 클러스터의 실체)",
+          "tickers": [
+            "PANW",
+            "CRWD",
+            "OKTA",
+            "QLYS"
+          ],
+          "why": "Software-Infrastructure 6종목 중 4종목이 보안이다. 실적으로 뒷받침된다 — PANW FY26 3분기 매출 30억 달러(+31% YoY), NGS ARR 81억 달러(+60% YoY), CRWD FY27 1분기 매출 13.9억 달러(+26% YoY), ARR 55.1억 달러, OKTA FY27 1분기 매출 +11%로 셋 다 컨센서스 상회. 촉매는 Scotiabank의 아이덴티티·익스포저 관리 벤더 대상 무더기 등급 상향이었고, UBS는 2026년 글로벌 사이버보안 시장이 13% 성장한 2,400억 달러가 될 것으로 봤다 (https://247wallst.com/investing/2026/07/06/crowdstrike-surges-5-palo-alto-and-okta-gain-4-as-cybersecurity-stocks-rally-on-analyst-upgrades/ , https://247wallst.com/investing/2026/06/29/palo-alto-networks-surges-9-crowdstrike-rises-7-okta-gains-5-can-the-cybersecurity-rally-justify-its-valuations/). QLYS는 이 랠리 기사에서 직접 언급되지 않아 동반 편입은 추정이며, 근거 강도가 나머지 3개보다 낮다."
+        },
+        {
+          "name": "'어닝 서프라이즈 + 연간 가이던스 상향' 패턴 (섹터를 가로지르는 행태적 공통점)",
+          "tickers": [
+            "CORT",
+            "LQDA",
+            "AGL",
+            "GH",
+            "AEHR"
+          ],
+          "why": "이건 산업 테마가 아니라 '상승 메커니즘'이 같은 묶음이라 별도로 잡는다. 확보된 리서치 기준 — CORT는 2분기 매출 2.561억 달러(컨센서스 2.16억 상회)에 연간 가이던스를 9.5~10.5억에서 11~12억 달러로 상향, AGL은 1분기 매출 14.2억 달러·EPS 1.80달러로 상회하며 연간 가이던스를 56.8~58.05억 달러로 상향, LQDA는 YUTREPIA 매출 1.3287억 달러로 3분기 연속 흑자, AEHR도 실적 서프라이즈 + FY27 가이던스 제시. 여기에 검색으로 확인한 GH가 정확히 같은 패턴 — 2026년 2분기 매출 3.35억 달러(+44% YoY, 컨센서스 3.14억 상회), 연간 가이던스를 13.4~13.6억 달러로 상향 (https://seekingalpha.com/news/4622752-guardant-health-stock-rises-guidance-hike , https://markets.financialcontent.com/stocks/article/stockstory-2026-7-30-guardant-health-nasdaqgh-delivers-strong-q2-cy2026-numbers-stock-soars). 즉 Healthcare 클러스터는 '헬스케어여서' 오른 게 아니라 '가이던스를 올려서' 올랐다."
+        },
+        {
+          "name": "실적 없는 희귀질환·면역 바이오텍 (같은 섹터지만 동인이 다른 잔여군)",
+          "tickers": [
+            "MNPR",
+            "SYRE",
+            "ORKA",
+            "TWST"
+          ],
+          "why": "위 '가이던스 상향' 그룹과 반드시 분리해야 하는 묶음. 매출이 아니라 임상 데이터와 자금조달로 움직인다. ORKA는 ORKA-001 EVERLAST-A 16주 데이터에서 PASI 100 63.5%를 보고했고 장기 데이터가 2026년 하반기로 예정돼 있으며, 연내 다수의 424B5(증권신고서 추가) 제출이 확인된다 (https://www.globenewswire.com/news-release/2026/05/13/3294407/0/en/oruka-therapeutics-reports-first-quarter-2026-financial-results-and-provides-corporate-update.html , https://www.sec.gov/Archives/edgar/data/0000907654/000121390026048099/ea028778101-424b5_oruka.htm). MNPR·SYRE·TWST는 검색으로 개별 상승 사유를 특정하지 못했다 — evidence_level: no_source, 근거 없음, sources: []. 따라서 이 4종목은 '테마'라기보다 금리·유동성에 민감한 무이익 바이오 바스켓으로만 취급해야 한다."
+        }
+      ],
+      "crossCuttingDriver": "\n관통하는 동인은 두 겹이다. 첫째는 실물 지출 — AI 데이터센터 캐펙스가 '기대'에서 '계약된 수주잔고'로 굳어지는 국면이다. BofA의 하이퍼스케일러 캐펙스 1.2조 달러 전망, MU의 2026년 HBM 전량 소진 및 3~5년 장기계약 전환, DELL의 513억 달러 AI 백로그, AEHR의 1억60만 달러 실효 백로그가 모두 같은 말을 다른 층위에서 하고 있다. 핵심은 '분기마다 재협상하던 사이클이 다년 계약으로 바뀌면서 실적 가시성이 구조적으로 올라갔다'는 점이고, 이게 반도체·장비·인터커넥트·서버·스토리지·데이터플랫폼까지 클러스터를 세로로 관통한다. 둘째는 할인율 — 연준 금리인하 기대다. 이건 Technology가 아니라 Healthcare 클러스터를 설명하는 축이다. Goldman Sachs와 Mizuho는 2026년 바이오텍 강세 근거로 임상 자금조달 비용을 낮추는 금리인하를 명시했고, 2026~2028년 2,000억 달러 규모 특허절벽에 따른 M&A 수요가 구조적 지지로 지목된다 (https://www.mizuhogroup.com/americas-insights/can-the-comeback-continue-2026-biotech-outlook , https://finance.yahoo.com/news/heres-why-biotech-etfs-rallying-150000062.html). 정리하면 이번 스크리닝 결과는 '캐펙스가 밀어올린 기술주 + 금리가 들어올린 무이익 바이오'라는 두 엔진이 겹친 리스크온 국면이며, 2026년 7월 30일 램리서치 +17.6%를 비롯한 반도체 일제 급등과 8월 4일 인텔·AMD·브로드컴 동반 상승이 그 리스크온의 최근 표현이다 (https://247wallst.com/investing/2026/08/04/intel-soars-10-amd-jumps-8-broadcom-rises-6-as-chip-stocks-ride-a-risk-on-rally/ , https://www.cnbc.com/2026/06/30/ai-chip-rally-in-q2-adds-2-trillion-in-value-to-micron-intel-amd-.html). 두 엔진이 공유하는 단일 취약점은 '유동성'이다.\n",
+      "caution": "\n1) 가장 큰 한계 — Technology 53.7%는 테마 발견이 아니라 시장 자체일 수 있다. 2026년 반도체는 이미 AMD +122%, MU +188%, MRVL 약 +200%, ARM +134% 수준의 광범위 랠리 상태다. 이 국면에서 브레이크아웃 스크리너를 돌리면 무엇을 걸러도 반도체가 절반을 차지한다. 즉 '주도 테마를 포착한 것'과 '지수 쏠림을 그대로 복사한 것'이 구분되지 않는다. 반증 방법: 동일 스크리너를 equal-weight 대비 초과수익 기준으로 다시 돌려 Tech 비중이 53.7% 밑으로 떨어지는지 확인할 것.\n2) MGRT는 테마에서 반드시 배제해야 한다. 확보된 리서치가 명시적으로 '실적이나 공시 등 펀더멘털상 근거는 없었고' 온라인 커뮤니티 숏스퀴즈 기대에 따른 밈주식 투기 매수(거래대금 230만→1690만 달러)라고 적고 있다. IoT 태그 때문에 Technology 클러스터에 들어가 Tech 비중을 부풀리고 있으나, 동인이 전혀 다르다. 같은 이유로 클러스터 count는 테마 강도의 증거가 아니다.\n3) Industrials 5종목(HURN, PLPC, HRI, CSW, CDNL)은 검증 통과한 리서치가 하나도 없다. 상승 사유를 특정하지 못했으므로 evidence_level: no_source, 근거 없음, sources: [] 로 남긴다. 이들에 산업재 테마를 붙이는 것은 추측이다.\n4) 시점 리스크 — ALAB 2분기 실적은 2026년 8월 4일, 즉 어제 발표됐다. 발표 이후 주가 반응은 확인하지 못했다. 마진 압박, 높은 밸류에이션, MRVL·Credo·Cisco와의 경쟁 심화가 리스크로 지적되고 있어, 이 종목의 클러스터 편입 근거는 실적 발표 전 기대감일 가능성이 있다.\n5) AI 캐펙스 테마의 정직한 반증 시나리오 — 하이퍼스케일러 4사 중 한 곳만 캐펙스 가이던스를 하향해도 이 테마 전체가 동시에 꺾인다. 종목 수 29개는 분산이 아니라 단일 요인에 대한 29중 중복 베팅에 가깝다. 특히 광인터커넥트 서브테마는 CPO 대규모 배치가 2028~2030년으로 전망되는데 주가는 이미 반응한 상태라 기대와 매출 인식 사이의 시차가 가장 크다.\n6) 소형 바이오(MNPR, SYRE, TWST)는 상승 사유 자체를 확인하지 못했다. 금리인하 기대가 꺾이면 이 그룹이 가장 먼저, 가장 크게 되돌린다. 또한 ORKA에서 확인되듯 무이익 바이오텍의 424B5 유상증자는 상승 직후 희석 리스크로 직결된다.\n"
+    }
   },
   "research_coverage": {
-    "done": 0,
-    "total": 54
+    "done": 6,
+    "total": 54,
+    "cap": 6,
+    "pending": 48,
+    "note": "상한(6) 때문에 48종목은 아직 리서치 대기입니다. 캐시가 쌓이면 며칠 안에 전량 커버됩니다."
   },
   "detail_coverage": {
     "done": 20,

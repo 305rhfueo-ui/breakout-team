@@ -26,13 +26,19 @@ const t2 = {
         profitLabel: p.detail.financials.profitLabel,
         quarters: p.detail.financials.quarters.map((q) => ({ periodEnd: q.periodEnd, revenue: q.revenue, profit: q.profit, yoy: q.yoy })),
       } : null,
-      news: p.detail.news ? { items: p.detail.news.items.filter((x) => x.direct).slice(0, 4) } : null,
-      filings: (p.detail.filings || []).slice(0, 3),
+      // ⚠️ 필드명은 절대 줄이지 마라. 워크플로가 periodEnd/revenue/yoy/publisher/pdfUrl 등을
+      //    그대로 읽어 프롬프트를 만든다. 이름을 바꾸면 프롬프트에 undefined 가 들어간다.
+      news: p.detail.news ? {
+        items: p.detail.news.items.filter((x) => x.direct).slice(0, 3)
+          .map((x) => ({ date: x.date, publisher: x.publisher, title: x.title, url: x.url, direct: true })),
+      } : null,
+      filings: (p.detail.filings || []).slice(0, 2)
+        .map((f) => ({ filingDate: f.filingDate, itemsKo: f.itemsKo, isEarnings: f.isEarnings, url: f.url })),
       krReports: p.detail.krReports ? {
         total: p.detail.krReports.total,
-        reports: p.detail.krReports.reports.slice(0, 3).map((r) => ({
+        reports: p.detail.krReports.reports.slice(0, 2).map((r) => ({
           date: r.date, broker: r.broker, analyst: r.analyst, title: r.title,
-          summary: String(r.summary || '').slice(0, 150), pdfUrl: r.pdfUrl,
+          summary: String(r.summary || '').slice(0, 120), pdfUrl: r.pdfUrl,
         })),
       } : null,
     },

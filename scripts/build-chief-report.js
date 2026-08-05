@@ -76,7 +76,19 @@ async function main() {
         }
       }
       d.themes = { ...(d.themes || {}), llm: payload.team2.theme };
-      d.research_coverage = { done, total: (d.picks || []).length, ...(payload.team2.coverage || {}) };
+      // ⚠️ total 은 반드시 "전체 선정 종목 수"여야 한다.
+      //    워크플로가 돌려주는 coverage.total 은 "그 실행에 넘긴 종목 수"라
+      //    그대로 쓰면 6/6 처럼 전량 조사한 것으로 보인다(실제로는 54 중 6).
+      //    상한 때문에 빠진 종목을 숨기지 않는 것이 이 시스템의 원칙이다.
+      const totalPicks = (d.picks || []).length;
+      d.research_coverage = {
+        done, total: totalPicks,
+        cap: (payload.team2.coverage || {}).cap ?? null,
+        pending: Math.max(0, totalPicks - done),
+        note: done < totalPicks
+          ? `상한(${(payload.team2.coverage || {}).cap ?? '?'}) 때문에 ${totalPicks - done}종목은 아직 리서치 대기입니다. 캐시가 쌓이면 며칠 안에 전량 커버됩니다.`
+          : '전 종목 리서치 완료',
+      };
       writeWindowData(f, 'TEAM2_DATA', d);
       merged.push(`team2(리서치 ${done})`);
     }

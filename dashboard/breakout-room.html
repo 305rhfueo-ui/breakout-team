@@ -247,8 +247,9 @@ function renderT2(){
     <span>RS 상위2% 합집합 <b>${s.unionTop}</b></span><span class="arrow">→</span>
     <span>ADR ≥ 4 <b>${s.afterAdr}</b></span><span class="arrow">→</span>
     <span>150일선 위 <b style="color:var(--grn)">${s.afterMa150}</b></span></div>
-    <div class="note">기간별 상위 2%: 1개월 ${s.byPeriod.m1} · 3개월 ${s.byPeriod.m3} · 6개월 ${s.byPeriod.m6}
-    · 리서치 커버리지 ${t.research_coverage.done}/${t.research_coverage.total}</div></div>`;
+    <div class="note">기간별 상위 2%: 1개월 ${s.byPeriod.m1} · 3개월 ${s.byPeriod.m3} · 6개월 ${s.byPeriod.m6}</div>
+    <div class="note">리서치 커버리지 <b class="${t.research_coverage.done<t.research_coverage.total?'':''}" style="color:${t.research_coverage.done<t.research_coverage.total?'var(--yel)':'var(--grn)'}">${t.research_coverage.done}/${t.research_coverage.total}</b>
+    ${t.research_coverage.note?` — ${esc(t.research_coverage.note)}`:''}</div></div>`;
   h+=`<div class="card"><h2>테마 클러스터</h2><div style="font-size:15px;margin-bottom:9px">${esc(th.headline||'')}</div>
     <div class="chips">`+(th.clusters||[]).slice(0,12).map(c=>
       `<span class="chip"><b>${esc(c.name)}</b> ${c.count}종목 (${c.sharePct}%) <span class="b ${c.concentration==='high'?'b-red':c.concentration==='mid'?'b-yel':'b-dim'}">${esc(c.concentration)}</span></span>`).join('')+
