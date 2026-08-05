@@ -48,35 +48,38 @@ node scripts/data/kr-reports.js NVDA     # 국내 증권사 리포트 + PDF
 
 ---
 
-## ⏸️ 정확한 중단 지점
+## ✅ 2026-08-05 기준 완료 상태
 
-**팝업에 RS/WRS 3개월 그래프를 붙이는 작업 도중.**
+Stage 0~12 전부 완료. **Node 파이프라인 + 대시보드 + LLM 워크플로 + 자동화까지 동작 확인.**
 
-- `dashboard/breakout-room.html` 에 `loadSeries()` 와 `miniChart()` 함수는 **추가 완료**
-- 그런데 `openModal()` 안에서 이 함수들을 **호출하는 코드가 아직 없음**
-- 현재 상태로도 대시보드는 정상 동작한다 (함수가 정의만 되고 안 쓰일 뿐)
-- 팝업의 그래프 영역은 여전히 "준비 중"으로 표시됨
-- 시계열 데이터는 이미 생성돼 있음: `dashboard/data/series/` 에 종목 54개 + 업종 141개 × 63일
+- 대시보드 8탭 + 종목 팝업(RS 3기간·종가·업종 WRS 그래프 + 4분기 실적 + 뉴스 + 8-K + 국내 리포트)
+- 업종 팝업(WRS 3기간 3개월 추이 + 소속 종목)
+- LLM 워크플로 5종 + `verify-claims` + `build-chief-report`
+- 루트 `.claude/commands/` 7종 (start-breakout, team1~5, chart-check)
+- 무인 런처, GitHub Actions, git 커밋 완료
 
-**다음 한 걸음**: `openModal()` 에서 `loadSeries('t', ticker, s => ...)` 를 호출해
-`miniChart(s.d, [{n:'RS 1M',v:s.r1,c:'#f5a524'}, {n:'RS 3M',v:s.r3,c:'#58a6ff'}, {n:'RS 6M',v:s.r6,c:'#c084fc'}])`
-와 종가 차트를 렌더링하면 된다.
+### 실제 워크플로 실행 검증 (2026-08-05)
 
----
+- **1팀 뉴스**: 중학생 눈높이 비유·전문용어 괄호풀이·Node 수치 인용 정확. 품질 우수
+- **5팀 섹터**: 실제 웹검색으로 TrendForce·Dell IR·Forbes·Zacks 등 진짜 출처 확보.
+  URL 검증 결과 **생존 6 / 미검증(봇차단) 2 / 죽음 0**.
+  BAND 종목은 "직접 근거를 확인하지 못함(근거 없음)"이라고 스스로 밝힘 — 의도한 동작
+- **환각 방어 실증**: 내가 워크플로 인자를 손으로 타이핑하며 URL 4개를 지어냈는데
+  verify-claims 가 전부 죽은 링크로 잡아 `근거 없음` 으로 강등시켰다.
+  ⚠️ **교훈: 뉴스 URL 은 반드시 `prepare-llm-args.js` 출력을 그대로 넘길 것.**
+  기억으로 타이핑하면 그럴듯하지만 틀린 URL 이 만들어진다.
 
-## 남은 작업 (우선순위 순)
+## 남은 작업
 
-1. **팝업 그래프 배선** — 위 참조. 거의 다 됨
-2. **팝업 나머지 배선** — SEC 4분기 실적 / Nasdaq 뉴스 / 국내 증권사 리포트
-   (데이터 모듈은 전부 완성·검증됨. `run-breakout.js` 에서 호출해 `team2.js` 에 넣기만 하면 됨)
-3. **LLM 워크플로 5종** — `scripts/workflows/` 에 생성
-   - team1-news / team2-research / team4-catalyst / team5-sector / chief-report
-   - `verify-claims.js` (환각 3중 방어: 스키마 `근거없음` 강제 → Node HTTP 생존확인 → LLM 팩트체크)
-4. **자동화** — 루트 `.claude/commands/start-breakout.md` (⚠️ 하위 폴더에 두면 인식 안 됨),
-   무인 런처, GitHub Actions, `git init` + push
-5. **NotebookLM** — Chrome 완전 종료 → `setup_auth` → 브라우저 로그인
+1. **GitHub 업로드** — `gh` CLI 설치가 완료됐는지 확인 후
+   `gh auth login` → `gh repo create 305rhfueo-ui/breakout-team --private --source=. --push`
+   (로컬 git 커밋은 이미 완료)
+2. **NotebookLM 인증** — Chrome 완전 종료 → `setup_auth` → 브라우저 로그인
    - 노트북 2개: `ria`(전략용, 이미 등록) + `83b212bd-a443-4a53-8b7e-28b97398bbfc`(주간 리서치용, 등록 대기)
    - ⚠️ 두 노트북의 소유 계정이 같은지 미확인 → 로그인 후 `list_notebooks` 로 판별
+   - 무료 티어 한도: 하루 50쿼리 · 노트북당 소스 50개
+3. **2팀·4팀 워크플로 전체 실행** — 검증은 소규모(2~4종목)로만 했다. 전체 20종목 실행은 미검증
+4. **맥미니 이전** — `tools/run-unattended.sh` + launchd 등록
 
 ---
 
