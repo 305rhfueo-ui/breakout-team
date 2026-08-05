@@ -696,4 +696,18 @@ document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{
 });
 
 hud();renderChief();renderT1();renderT2();renderT3();renderT4();renderT5();renderCC();renderHist();
+
+/* 리서치룸에서 #t1 같은 해시로 들어오면 해당 탭을 연다 */
+function openTabFromHash(){
+  const k=(location.hash||'').replace('#','');
+  if(!k)return;
+  const b=document.querySelector(`.tab[data-k="${k}"]`);
+  if(!b)return;
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));
+  document.querySelectorAll('.pane').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on');$('p-'+k).classList.add('on');
+  window.scrollTo(0,0);
+}
+openTabFromHash();
+window.addEventListener('hashchange',openTabFromHash);
 </script>
