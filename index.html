@@ -141,8 +141,10 @@ background:#0c121d;color:var(--dim);font-size:12px;line-height:1.6;font-style:it
 .srcs a:hover{color:var(--blu)}
 .more{background:none;border:0;color:var(--blu);cursor:pointer;font-size:12px;padding:2px 0}
 .more:hover{text-decoration:underline}
-.clip{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.clip.open{-webkit-line-clamp:unset}
+/* ⚠️ 줄 수를 인라인 style 로 넣으면 인라인이 .clip.open 을 이겨서 '더보기'가 먹히지 않는다.
+   줄 수는 CSS 변수로만 넘기고, 펼침은 클래스가 담당한다. */
+.clip{display:-webkit-box;-webkit-line-clamp:var(--lines,3);-webkit-box-orient:vertical;overflow:hidden}
+.clip.open{display:block;-webkit-line-clamp:unset;overflow:visible}
 .nosrc{color:var(--yel);font-size:12.5px}
 .empty{color:var(--dim);text-align:center;padding:16px;font-size:13px}
 .mhead .role{font-size:12px;color:var(--dim);margin-top:2px}
@@ -467,11 +469,15 @@ function prose(text){
 /* ⚠️ 글자 수로 자르면 문장 중간이 끊긴다. 줄 단위로 접고 '더보기'로 펼친다.
    본문은 항상 전부 들어있으므로 잘려서 사라지는 내용이 없다. */
 let _clipId=0;
+function toggleClip(id,btn){
+  const e=document.getElementById(id); if(!e)return;
+  const open=e.classList.toggle('open');
+  btn.textContent=open?'접기 ▲':'더보기 ▼';
+}
 function clip(html,lines=3){
   const id='c'+(++_clipId);
-  return `<div class="clip" id="${id}" style="-webkit-line-clamp:${lines}">${html}</div>
-    <button class="more" onclick="(function(){var e=document.getElementById('${id}');
-      e.classList.toggle('open');this.textContent=e.classList.contains('open')?'접기 ▲':'더보기 ▼';}).call(this)">더보기 ▼</button>`;
+  return `<div class="clip" id="${id}" style="--lines:${lines}">${html}</div>
+    <button class="more" onclick="toggleClip('${id}',this)">더보기 ▼</button>`;
 }
 
 /* ── 담당자 브리핑 ──
