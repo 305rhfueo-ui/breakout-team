@@ -543,8 +543,264 @@ window.TEAM1_DATA = {
     "note": "AI 인프라 테마"
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-08-08",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "7월 고용보고서 부진 — 미국 일자리 증가가 눈에 띄게 둔화",
+        "easy": "미국은 매달 '지난달 일자리가 몇 개 늘었나'를 발표합니다(고용보고서). 이번 7월 성적표는 기대에 못 미쳤습니다. 회사가 사람을 덜 뽑는다는 건 경제 엔진이 식고 있다는 신호입니다. 그런데 주식시장은 이걸 꼭 나쁘게만 보지 않습니다. 경제가 식으면 중앙은행(연준)이 금리를 내려서 돈을 싸게 풀 가능성이 커지고, 돈이 싸지면 주식으로 돈이 몰리기 때문입니다. 즉 '나쁜 뉴스가 좋은 뉴스'가 되는 이상한 구간에 들어간 겁니다.",
+        "whyMatters": "고용 둔화 = 금리 인하 기대 상승입니다. 금리 인하 기대는 성장주·기술주에 특히 유리한데, 지금 우리 주도 섹터가 Technology 22종목(44%)으로 압도적이라 순풍이 됩니다. 다만 이건 '진짜 경기침체'로 넘어가면 정반대로 뒤집히는 양날의 검이라, 다음 지표에서 고용이 더 급락하면 보유 종목의 손절 라인을 앞당겨 잡아야 합니다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Here are three key takeaways from the disappointing July jobs report",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
+            "date": "2026-08-07",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "트럼프, 연준 이사 리사 쿡 해임 재시도 — 연준 독립성 흔들기",
+        "easy": "연준(미국 중앙은행)은 금리를 정하는 곳인데, 원래는 대통령이 마음대로 못 건드리게 되어 있습니다. 축구 경기에서 심판을 감독이 갈아치울 수 없는 것과 같은 원리죠. 트럼프 대통령이 연준 이사 리사 쿡을 다시 해임하려 하고, 자기 사람들로 연준을 채우려 한다는 보도입니다. 심판을 감독 편으로 바꾸면 당장은 우리 팀에 유리한 판정(금리 인하)이 나올 수 있지만, 경기 자체를 아무도 믿지 않게 됩니다. 그래서 달러 가치와 미국 국채에 대한 신뢰가 흔들립니다.",
+        "whyMatters": "단기적으로는 '금리 인하 압박 = 주식에 호재'로 읽히지만, 중기적으로는 달러 약세와 장기금리 상승(=할인율 상승)을 부릅니다. 밸류에이션이 높은 기술주일수록 장기금리에 민감하므로, Technology 비중 44%인 지금 포트폴리오는 이 뉴스의 방향이 뒤집힐 때 가장 크게 흔들립니다. 헤드라인 하나에 장중 급변동이 나올 수 있으니 돌파 매수 시 시가 갭 추격은 피하세요.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Trump revives effort to fire Fed's Lisa Cook",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/08/07/trump-lisa-cook-federal-reserve.html",
+            "date": "2026-08-07",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "엔비디아, 1년여 만의 최대 주간 상승 — AI 대장주가 지수를 끌어올렸다",
+        "easy": "엔비디아는 AI를 돌리는 데 필요한 반도체(GPU)를 거의 독점하다시피 파는 회사입니다. 금광 시대에 삽과 곡괭이를 파는 가게라고 보면 됩니다. 이 회사 주가가 1년 넘는 기간 중 가장 큰 주간 상승을 기록했습니다. 시가총액이 워낙 커서 엔비디아 하나가 오르면 나스닥 지수 전체가 따라 올라갑니다. 즉 이번 주 지수 강세의 상당 부분이 이 한 종목에서 나왔다는 뜻입니다.",
+        "whyMatters": "QQQ가 종가 723.03으로 MA10 696.98 / MA20 700.34 / MA50 714.57 세 이동평균선을 모두 위로 넘어선 배경이 바로 이겁니다. 다만 '지수는 강한데 엔진이 한두 종목'인 구조는 폭이 좁은 상승입니다. 내 종목이 AI 반도체 밸류체인에 속한다면 지금은 순풍이지만, 엔비디아가 흔들리는 날 함께 무너질 확률이 높다는 점을 감안해 비중을 한 바구니에 몰지 마세요.",
+        "impact": "up",
+        "sources": []
+      },
+      {
+        "headline": "'SaaS 종말론' 논쟁 격화 — 소프트웨어 주식이 위아래로 크게 출렁",
+        "easy": "SaaS는 소프트웨어를 매달 구독료 받고 빌려주는 사업입니다(넷플릭스처럼 월 구독하는 업무용 프로그램). 그런데 AI가 그런 프로그램을 몇 시간 만에 뚝딱 만들어내기 시작하면서, '이 회사들 사업 모델이 통째로 사라지는 거 아니냐'는 논쟁이 붙었습니다. 마차 회사가 자동차를 처음 본 순간과 비슷합니다. 아직 정답이 없으니 소프트웨어 주식은 하루는 급등, 다음 날은 급락하며 심하게 요동칩니다.",
+        "whyMatters": "같은 '기술주'라도 AI 인프라(반도체·데이터센터)와 기존 소프트웨어의 운명이 정반대로 갈리고 있습니다. Technology 22종목(44%) 안에 SaaS 성격 종목이 섞여 있다면 지수가 올라도 혼자 무너질 수 있습니다. 돌파 매매 관점에서는 변동성이 커진 만큼 손절폭이 넓어지므로 진입 사이즈를 평소보다 줄이는 게 안전합니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "'SaaSpocalypse' debate intensifies as software stocks swing wildly",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+            "date": "2026-08-07",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "팔란티어, 2024년 이후 최고의 한 주 — 'AI 낙오자' 딱지 떼다",
+        "easy": "팔란티어는 정부와 기업의 방대한 데이터를 분석해주는 회사입니다. 시장은 한동안 이 회사를 'AI 시대에 뒤처진 종목'으로 취급했는데, 이번 주 2024년 이후 가장 강한 상승을 보이며 그 평가를 뒤집었습니다. 반에서 조용하던 학생이 시험에서 갑자기 1등을 한 상황이죠. 이런 '평가 반전' 종목은 소외돼 있던 만큼 매수세가 몰리면 상승 폭이 큽니다.",
+        "whyMatters": "AI 수혜 범위가 반도체 밖으로 넓어지고 있다는 신호입니다. 돌파(브레이크아웃) 전략에서는 이렇게 오랜 횡보 뒤 갑자기 거래량이 터지며 신고가를 뚫는 종목이 최고의 후보입니다. 다만 이미 한 주 급등한 뒤라 추격 매수는 위험하고, 눌림(되돌림) 후 지지 확인 자리를 기다리는 편이 낫습니다.",
+        "impact": "up",
+        "sources": []
+      },
+      {
+        "headline": "달러 약세 속 금 투자 관심 확대 — 안전자산으로 돈이 이동",
+        "easy": "달러 가치가 떨어지면 금값은 보통 오릅니다. 금은 달러로 값을 매기니까, 달러가 싸질수록 같은 금 한 덩어리에 더 많은 달러가 필요해지기 때문입니다. 또 사람들이 '나라 살림이나 중앙은행이 못 미덥다'고 느낄 때 대피처로 금을 삽니다. 지금 연준 독립성 논란과 고용 둔화가 겹치면서 그 대피 수요가 커지고 있습니다.",
+        "whyMatters": "주식이 오르는데 금도 같이 오른다는 건 '시장이 완전히 마음 놓은 상태는 아니다'라는 뜻입니다. 즉 지금 상승은 확신에 찬 강세장이라기보다 불안을 껴안은 상승입니다. 금·귀금속 관련 종목이 있다면 순풍이지만, 순수 성장주만 들고 있다면 이 지표를 '조심하라는 경고등'으로 읽고 현금 비중을 아주 0으로 만들지는 마세요.",
+        "impact": "neutral",
+        "sources": []
+      },
+      {
+        "headline": "무산된 이란 합의에도 주가는 급등 — 기대만으로 오르는 시장",
+        "easy": "트럼프 대통령이 이란과의 합의를 암시했지만 실제 합의는 나오지 않았습니다. 그런데도 주가는 크게 올랐고 유가는 내렸습니다. 시험을 아직 안 봤는데 '잘 볼 것 같다'는 말만 듣고 미리 축하 파티를 여는 것과 같습니다. 이런 일이 반복된다는 건 지금 시장이 실제 결과보다 '좋은 소식이 올 것 같다'는 기대에 훨씬 민감하다는 뜻입니다. 기대가 깨지면 되돌림도 그만큼 빠릅니다.",
+        "whyMatters": "지금 상승의 상당 부분이 실적이 아니라 심리와 기대라는 증거입니다. FINRA 고객 마진부채가 YoY +49.0%로 +40% 기준선을 넘긴 레버리지 과열 경고 구간이라는 점과 겹치면 위험은 배가됩니다. 빌린 돈으로 산 주식이 많을수록 기대가 꺾이는 날의 낙폭이 커지므로, 신규 진입 시 레버리지 사용은 피하고 손절선을 기계적으로 지키세요.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Trump teased an Iran deal that didn't come, but markets soared. Here's why it keeps happening",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/08/07/trump-iran-hormuz-deal-stocks-oil.html",
+            "date": "2026-08-07",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "오늘 시장은 한마디로 '엔진은 뜨거운데 연료 게이지에 빨간불이 켜진 자동차' 같습니다. 기술적으로 보면 QQQ 종가 723.03이 MA10 696.98 / MA20 700.34 / MA50 714.57 세 이동평균선을 모두 위로 올라섰고, 10MA도 1.34% 상승 전환하며 골든크로스(단기 평균선이 중기 평균선을 위로 뚫는 상승 신호)가 임박한 관찰 구간입니다. 다만 10MA는 여전히 20MA 아래에 있은 지 23일째(D+23)라 아직 완전한 상승 확정은 아닙니다. 상승의 동력은 엔비디아의 1년여 만의 최대 주간 급등과 팔란티어의 부활 같은 AI 관련주에 몰려 있고, 실제로 주도 섹터도 Technology 22종목(44%)으로 압도적이며 Healthcare 12종목(24%)이 뒤를 받치고 있습니다. 문제는 배경입니다. 7월 고용은 부진했고, 트럼프의 연준 이사 해임 재시도로 중앙은행 독립성 논란이 다시 불붙었으며, 달러가 약해지면서 금으로 피신하는 돈이 늘고 있습니다. 무엇보다 FINRA 고객 마진부채가 YoY +49.0%로 과열 경고선인 +40%를 넘겨, 역사적으로 시장이 뜨거웠던 국면의 특징을 보이고 있습니다. 반대로 200일선 대비 +150%를 넘긴 극단적 과열 종목은 0개라 개별 종목 단위의 광기는 아직 없는, 어중간한 지점입니다.",
+    "keyRisks": [
+      "레버리지 과열: FINRA 고객 마진부채 YoY +49.0%로 경고 기준(+40%)을 초과 — 빌린 돈으로 산 주식이 많다는 뜻이라, 조정이 시작되면 반대매매가 낙폭을 증폭시킬 수 있음",
+      "상승 폭이 좁음: 엔비디아·팔란티어 등 소수 AI 대형주가 지수를 끌어올리는 구조 — 이들이 꺾이면 지수와 포트폴리오가 동시에 무너짐",
+      "섹터 집중 위험: 주도 섹터 Technology 22종목(44%)으로 편중 — 분산 효과가 약해 기술주 악재 하나에 전체가 흔들림",
+      "연준 독립성 훼손 리스크: 트럼프의 리사 쿡 해임 재시도 — 단기 금리 인하 기대는 호재지만 달러 약세·장기금리 상승으로 이어지면 고밸류 성장주에 직격탄",
+      "경기 둔화 신호: 7월 고용보고서 부진 — 지금은 '금리 인하 기대'로 해석되지만 추가 악화 시 '침체 공포'로 뒤집힐 수 있는 양날의 검",
+      "기대 선반영: 이란 합의는 실제로 나오지 않았는데도 주가가 급등 — 실체 없는 기대에 기댄 상승은 되돌림이 빠름",
+      "기술적 미확정: QQQ 10MA가 아직 20MA 아래(D+23) — 골든크로스는 임박했을 뿐 확정이 아니므로 신규 대량 진입은 확인 후로 미루는 것이 안전"
+    ],
+    "easySummary": [
+      "지수는 좋습니다. QQQ 종가 723.03이 MA10 696.98·MA20 700.34·MA50 714.57 세 선을 모두 넘어섰고 10MA가 1.34% 상승 전환해, 골든크로스가 코앞인 관찰 구간입니다(다만 10MA는 아직 20MA 아래, D+23).",
+      "하지만 빚이 무섭습니다. 투자자들이 증권사에서 빌린 돈(마진부채)이 1년 전보다 +49.0% 늘어 과열 경고선(+40%)을 넘겼습니다. 빚내서 산 주식이 많은 시장은 내릴 때 더 빠르게 내립니다.",
+      "상승 엔진은 AI 몇 종목뿐입니다. 엔비디아·팔란티어가 지수를 끌고 가는 동안 SaaS(구독형 소프트웨어) 주식은 'AI가 우리를 대체한다'는 논쟁으로 크게 흔들립니다. 지금은 공격보다 '어떤 기술주냐'를 고르는 게 더 중요합니다."
+    ],
+    "candidateCount": 8,
+    "verified": {
+      "checked": 122,
+      "ok": 97,
+      "unverified": 21,
+      "dead": 35,
+      "stripped": 18,
+      "removed": [
+        {
+          "reason": "링크 죽음(HTTP 401)",
+          "url": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories"
+        },
+        {
+          "reason": "링크 죽음(HTTP 401)",
+          "url": "https://www.marketwatch.com/story/two-reasons-why-nvidias-stock-saw-its-biggest-weekly-surge-in-more-than-a-year-644875c8?mod=mw_rss_topstories"
+        },
+        {
+          "reason": "링크 죽음(HTTP 401)",
+          "url": "https://www.marketwatch.com/story/palantirs-stock-stages-best-week-since-2024-showing-its-no-longer-an-ai-loser-2fc6c32b?mod=mw_rss_topstories"
+        },
+        {
+          "reason": "링크 죽음(HTTP 401)",
+          "url": "https://www.marketwatch.com/story/the-smart-way-to-invest-in-gold-right-now-as-the-dollar-slips-22fdf3b2?mod=mw_rss_topstories"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.tradingpedia.com/2026/08/07/atlassian-soars-as-ai-fueled-quarter-boosts-outlook/"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/scotiabank-raises-price-target-snowflake-171316543.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/snowflake-inc-snow-trending-stock-130004694.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-victorias-secret-vsxy-100000741.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-victorias-secret-vsxy-100000741.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-victorias-secret-vsxy-100000741.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-dell-ddog-stocks-025716421.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-dell-ddog-stocks-025716421.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-q2-2026-050437348.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-q2-2026-050437348.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://www.globenewswire.com/news-release/2026/08/07/3340984/0/en/6-k_gravity_second-quarter-2026-result-and-business-update.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://www.invenglobal.com/articles/24573/gravity-reports-q2-2026-results-operating-profit-up-402-year-on-year"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://www.globenewswire.com/news-release/2026/08/07/3340984/0/en/6-k_gravity_second-quarter-2026-result-and-business-update.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://www.globenewswire.com/news-release/2026/08/07/3340984/0/en/6-k_gravity_second-quarter-2026-result-and-business-update.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/atlassian-nasdaq-team-beats-expectations-211025809.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.ebc.com/forex/atlassian-stock-jumps-35-fy2027-outlook"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-stock-pops-better-expected-133500116.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://ca.finance.yahoo.com/news/twilio-inc-twlo-q2-2026-050405411.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-inc-abnb-outpaces-stock-214503208.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-raises-2026-outlook-q2-202300314.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sezzle-nasdaq-sezl-delivers-strong-201037673.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sezzle-shares-tumble-despite-strong-123845759.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/lasr-q2-earnings-surpass-estimates-160900318.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/innodata-inc-inod-q2-2026-050535372.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/innodata-inc-inod-q2-2026-050535372.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 500)",
+          "url": "https://finance.yahoo.com/quote/SPG/news/"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/distribution-solutions-stocks-q1-highlights-143304804.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.ebc.com/forex/cybersecurity-stocks-nasdaqs-ai-rally-no-one-saw-coming"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-netapp-ntap-26-4-081130000.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wayfair-stock-57-past-analysts-135117386.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/expedia-group-q2-earnings-revenues-164700520.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/airline-stocks-soar-summer-travel-191506075.html"
+        }
+      ]
+    }
   }
 };
