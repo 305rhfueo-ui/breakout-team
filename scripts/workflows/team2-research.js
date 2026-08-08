@@ -145,13 +145,17 @@ for (const s of clean) {
 phase('테마종합')
 const THEME = { type: 'object', properties: {
   leadingTheme: { type: 'object', properties: {
-    name: { type: 'string' }, why: { type: 'string' },
+    name: { type: 'string' },
+    plainKo: { type: 'string', description: '중학생도 이해할 2~3문장. 전문용어 금지, URL·인용문 넣지 마라' },
+    why: { type: 'string' },
     tickers: { type: 'array', items: { type: 'string' } },
     strength: { type: 'string', enum: ['strong', 'emerging', 'weak', 'none'] },
-  }, required: ['name', 'why', 'tickers', 'strength'] },
+  }, required: ['name', 'plainKo', 'why', 'tickers', 'strength'] },
   subThemes: { type: 'array', items: { type: 'object', properties: {
-    name: { type: 'string' }, tickers: { type: 'array', items: { type: 'string' } }, why: { type: 'string' },
-  }, required: ['name', 'tickers'] } },
+    name: { type: 'string' },
+    plainKo: { type: 'string', description: '중학생도 이해할 1~2문장. 전문용어 금지, URL 넣지 마라' },
+    tickers: { type: 'array', items: { type: 'string' } }, why: { type: 'string' },
+  }, required: ['name', 'plainKo', 'tickers'] } },
   crossCuttingDriver: { type: 'string' },
   caution: { type: 'string' },
 }, required: ['leadingTheme', 'subThemes', 'crossCuttingDriver'] }
@@ -169,6 +173,15 @@ ${JSON.stringify(clean.map((x) => ({ ticker: x.ticker, themeTags: x.themeTags, w
 - leadingTheme: 지금의 주도 테마. **위 클러스터에 실제로 존재하는 종목만** 넣어라.
   ⚠️ 공통 테마가 없으면 name:"공통 테마 없음", strength:"none" 으로 정직하게 답하라. 억지로 묶지 마라.
 - subThemes: 2~3개 종목 수준의 소규모 공통점도 잡아라. 전원 공통일 필요 없다.
+
+⚠️ **plainKo 와 why 는 역할이 다르다. 섞지 마라.**
+- \`plainKo\`: 화면 맨 위에 굵게 보여줄 **쉬운 요약**. 중학생이 읽고 "아, 이 회사들이 이래서 같이 오르는구나"
+  하고 바로 알 수 있어야 한다. 2~3문장. **URL·원문 인용·(1)(2) 번호·영문 약어 나열 금지.**
+  전문용어를 꼭 써야 하면 괄호로 풀어라 (예: "캐펙스(설비 투자)").
+  좋은 예: "AI를 돌리려면 거대한 데이터센터가 필요한데, 큰 회사들이 여기에 돈을 쏟아붓고 있습니다.
+  그 돈이 반도체를 만드는 회사, 서버를 파는 회사, 데이터를 옮기는 부품 회사로 차례로 흘러갑니다.
+  이 테마의 종목들은 같은 지출 사이클의 서로 다른 층을 먹고 있습니다."
+- \`why\`: 그 아래 '근거' 영역에 접어서 보여줄 **출처 딸린 상세 근거**. 여기에만 URL·원문 인용을 넣어라.
 - crossCuttingDriver: 종목들을 관통하는 공통 원인 한 문단 (예: 금리, AI 자본지출, 정책)
 - caution: 이 테마 해석의 한계·반증 가능성
 

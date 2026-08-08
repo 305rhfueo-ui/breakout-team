@@ -507,7 +507,9 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "에흐르 테스트 시스템스",
+      "nameEn": "AEHR TEST SYSTEMS"
     },
     {
       "ticker": "CORT",
@@ -980,7 +982,9 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "코셉트 테라퓨틱스",
+      "nameEn": "CORCEPT THERAPEUTICS INC"
     },
     {
       "ticker": "MGRT",
@@ -1190,7 +1194,9 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "메가 포춘",
+      "nameEn": "MEGA FORTUNE COMPANY LIMITED"
     },
     {
       "ticker": "FET",
@@ -1657,7 +1663,9 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "포럼 에너지 테크놀로지스",
+      "nameEn": "FORUM ENERGY TECHNOLOGIES INC"
     },
     {
       "ticker": "LQDA",
@@ -2048,7 +2056,9 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "리퀴디아",
+      "nameEn": "LIQUIDIA CORPORATION"
     },
     {
       "ticker": "AGL",
@@ -2508,7 +2518,9 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "애질론 헬스",
+      "nameEn": "AGILON HEALTH INC"
     },
     {
       "ticker": "HURN",
@@ -2859,7 +2871,9 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "휴런 컨설팅 그룹",
+      "nameEn": "HURON CONSULTING GROUP INC"
     },
     {
       "ticker": "SNOW",
@@ -3282,7 +3296,9 @@ window.TEAM2_DATA = {
           ],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "스노우플레이크",
+      "nameEn": "SNOWFLAKE INC"
     },
     {
       "ticker": "NVEC",
@@ -3637,7 +3653,9 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "NVE",
+      "nameEn": "NVE CORP"
     },
     {
       "ticker": "DELL",
@@ -4063,7 +4081,9 @@ window.TEAM2_DATA = {
           ],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "델 테크놀로지스",
+      "nameEn": "DELL TECHNOLOGIES INC"
     },
     {
       "ticker": "MXL",
@@ -4407,7 +4427,9 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "맥스리니어",
+      "nameEn": "MAXLINEAR INC"
     },
     {
       "ticker": "ZBRA",
@@ -4774,7 +4796,9 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "지브라 테크놀로지스",
+      "nameEn": "ZEBRA TECHNOLOGIES"
     },
     {
       "ticker": "ATEX",
@@ -5136,7 +5160,9 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "안테릭스",
+      "nameEn": "ANTERIX INC"
     },
     {
       "ticker": "MNPR",
@@ -5488,7 +5514,9 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "모노파 테라퓨틱스",
+      "nameEn": "MONOPAR THERAPEUTICS INC"
     },
     {
       "ticker": "BAND",
@@ -5818,7 +5846,9 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "밴드위스",
+      "nameEn": "BANDWIDTH INC"
     },
     {
       "ticker": "VSXY",
@@ -6181,7 +6211,9 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "VICTORIAS SECRET AND CO",
+      "nameEn": "VICTORIAS SECRET AND CO"
     },
     {
       "ticker": "SYRE",
@@ -6547,7 +6579,9 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "스파이어 테라퓨틱스",
+      "nameEn": "SPYRE THERAPEUTICS INC"
     },
     {
       "ticker": "PARR",
@@ -6891,7 +6925,9 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "파 퍼시픽 홀딩스",
+      "nameEn": "PAR PACIFIC HOLDINGS INC"
     },
     {
       "ticker": "PANW",
@@ -7293,7 +7329,9 @@ window.TEAM2_DATA = {
           ],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "팰로 앨토 네트웍스",
+      "nameEn": "PALO ALTO NETWORKS INC"
     },
     {
       "ticker": "PENG",
@@ -7665,7 +7703,9 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      }
+      },
+      "nameKo": "펭귄 솔루션스",
+      "nameEn": "PENGUIN SOLUTIONS INC"
     },
     {
       "ticker": "ALAB",
@@ -7736,7 +7776,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "아스테라 랩스",
+      "nameEn": "ASTERA LABS INC"
     },
     {
       "ticker": "ORKA",
@@ -7807,7 +7849,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "오루카 테라퓨틱스",
+      "nameEn": "ORUKA THERAPEUTICS INC"
     },
     {
       "ticker": "IT",
@@ -7878,7 +7922,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "가트너",
+      "nameEn": "GARTNER INC"
     },
     {
       "ticker": "OKTA",
@@ -7949,7 +7995,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "옥타",
+      "nameEn": "OKTA INC"
     },
     {
       "ticker": "AAOI",
@@ -8020,7 +8068,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "어플라이드 옵토일렉트로닉스",
+      "nameEn": "APPLIED OPTOELECTRONICS INC"
     },
     {
       "ticker": "AMBQ",
@@ -8092,7 +8142,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "앰비크 마이크로",
+      "nameEn": "AMBIQ MICRO  INC."
     },
     {
       "ticker": "AXTI",
@@ -8163,7 +8215,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "AXT",
+      "nameEn": "AXT INC"
     },
     {
       "ticker": "SEZL",
@@ -8235,7 +8289,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "세즐",
+      "nameEn": "SEZZLE INC"
     },
     {
       "ticker": "LASR",
@@ -8306,7 +8362,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "엔라이트",
+      "nameEn": "NLIGHT INC"
     },
     {
       "ticker": "W",
@@ -8377,7 +8435,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "웨이페어",
+      "nameEn": "WAYFAIR INC"
     },
     {
       "ticker": "MRVL",
@@ -8448,7 +8508,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "마벨 테크놀로지 그룹",
+      "nameEn": "MARVELL TECHNOLOGY INC"
     },
     {
       "ticker": "PLPC",
@@ -8519,7 +8581,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "프리폼드 라인 프라덕츠",
+      "nameEn": "PREFORMED LINE PRODUCTS CO"
     },
     {
       "ticker": "SNDK",
@@ -8590,7 +8654,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "샌디스크",
+      "nameEn": "SANDISK CORP"
     },
     {
       "ticker": "HRI",
@@ -8661,7 +8727,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "허크 홀딩스",
+      "nameEn": "HERC HOLDINGS INC"
     },
     {
       "ticker": "GH",
@@ -8732,7 +8800,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "가단트 헬스",
+      "nameEn": "GUARDANT HEALTH INC"
     },
     {
       "ticker": "CSW",
@@ -8803,7 +8873,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "CSW 인더스트리얼스",
+      "nameEn": "CSW INDUSTRIALS INC"
     },
     {
       "ticker": "HPE-C",
@@ -8931,7 +9003,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "CARDINAL INFRASTRUCTURE GROUP INC",
+      "nameEn": "CARDINAL INFRASTRUCTURE GROUP INC"
     },
     {
       "ticker": "DAVE",
@@ -9003,7 +9077,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "데이브",
+      "nameEn": "DAVE INC"
     },
     {
       "ticker": "NBIS",
@@ -9074,7 +9150,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "네비우스 그룹",
+      "nameEn": "NEBIUS GROUP N V"
     },
     {
       "ticker": "TWST",
@@ -9145,7 +9223,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "트위스트 바이오사이언스",
+      "nameEn": "TWIST BIOSCIENCE CORPORATION"
     },
     {
       "ticker": "AMD",
@@ -9216,7 +9296,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "AMD",
+      "nameEn": "ADVANCED MICRO DEVICES INC"
     },
     {
       "ticker": "CTRN",
@@ -9287,7 +9369,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "시티 트렌즈",
+      "nameEn": "CITI TRENDS INC"
     },
     {
       "ticker": "QLYS",
@@ -9358,7 +9442,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "퀄리스",
+      "nameEn": "QUALYS INC"
     },
     {
       "ticker": "HNGE",
@@ -9429,7 +9515,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "힌지 헬스",
+      "nameEn": "HINGE HEALTH INC"
     },
     {
       "ticker": "UFPT",
@@ -9500,7 +9588,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "UFP 테크놀로지스",
+      "nameEn": "UFP TECHNOLOGIES"
     },
     {
       "ticker": "NTAP",
@@ -9571,7 +9661,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "넷앱",
+      "nameEn": "NETAPP INC"
     },
     {
       "ticker": "MU",
@@ -9642,7 +9734,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "마이크론 테크놀로지",
+      "nameEn": "MICRON TECHNOLOGY INC"
     },
     {
       "ticker": "CRWD",
@@ -9713,7 +9807,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "크라우드스트라이크 홀딩스",
+      "nameEn": "CROWDSTRIKE HOLDINGS INC"
     },
     {
       "ticker": "ARM",
@@ -9784,7 +9880,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "에이알엠 홀딩스(ADR)",
+      "nameEn": "ARM HOLDINGS PLC SPON ADS EACH REP 1 ORD SHS"
     },
     {
       "ticker": "COOK",
@@ -9855,7 +9953,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "트래저",
+      "nameEn": "TRAEGER INC"
     },
     {
       "ticker": "DDOG",
@@ -9926,7 +10026,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "데이터도그",
+      "nameEn": "DATADOG INC"
     },
     {
       "ticker": "VPG",
@@ -9997,7 +10099,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "비샤이 프리시전 그룹",
+      "nameEn": "VISHAY PRECISION GROUP INC"
     },
     {
       "ticker": "TEAM",
@@ -10068,7 +10172,9 @@ window.TEAM2_DATA = {
       "research": {
         "status": "pending",
         "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+      },
+      "nameKo": "아틀라시언",
+      "nameEn": "ATLASSIAN CORP"
     }
   ],
   "themes": {

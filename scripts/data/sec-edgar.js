@@ -81,6 +81,27 @@ async function getCikMap() {
   });
 }
 
+// 티커 → 회사 영문명. company_tickers.json 의 title 을 쓴다 (미국 상장 전 종목 커버).
+// ⚠️ cikMap 과 캐시 키를 나눈다 — 같은 키를 쓰면 cikOf 가 기대하는 모양이 깨진다.
+async function getNameMap() {
+  return cache.through('cikMap', 'company_names', async () => {
+    const r = await secFetch('https://www.sec.gov/files/company_tickers.json');
+    if (!r.ok) return null;
+    const map = {};
+    for (const v of Object.values(r.data)) {
+      if (v && v.ticker && v.title) map[String(v.ticker).toUpperCase()] = String(v.title);
+    }
+    return map;
+  });
+}
+
+async function nameOf(ticker) {
+  const map = await getNameMap();
+  if (!map) return null;
+  const t = String(ticker).toUpperCase();
+  return map[t] || map[t.replace(/-/g, '.')] || map[t.replace(/\./g, '-')] || null;
+}
+
 async function cikOf(ticker) {
   const map = await getCikMap();
   if (!map) return null;
@@ -280,7 +301,7 @@ async function getFilings(ticker, { forms = ['8-K', '10-Q', '10-K'], limit = 20 
   return { ok: true, ticker, cik, companyName: data.name || null, filings: out };
 }
 
-module.exports = { getCompanyFacts, pickTag, getQuarterlyFinancials, getFilings, cikOf, getCikMap, quarterlySeries, REVENUE_TAGS };
+module.exports = { getCompanyFacts, pickTag, getQuarterlyFinancials, getFilings, cikOf, getCikMap, getNameMap, nameOf, quarterlySeries, REVENUE_TAGS };
 
 if (require.main === module) {
   require('../lib/util').loadEnv();

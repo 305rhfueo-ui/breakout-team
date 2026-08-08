@@ -304,6 +304,23 @@ async function main() {
     const kr = require('./data/kr-reports');
     let okFin = 0, okNews = 0, okKr = 0;
 
+    // ── 회사명은 전 종목에 붙인다 (상한과 무관) ──
+    // 테마 카드에 티커만 나열하면 무슨 회사인지 알 수 없다.
+    // 국문명은 인포맥스(30일 캐시), 없으면 SEC company_tickers 의 영문명으로 채운다.
+    // 둘 다 없으면 비워두고 화면에 '회사명 미확보'로 표기한다 — 지어내지 않는다.
+    const { nameOf } = require('./data/sec-edgar');
+    let okKo = 0, okEn = 0;
+    for (const q of qualified) {
+      try {
+        const info = await kr.lookupTicker(q.ticker);
+        if (info && info.ok) { q.nameKo = info.nameKo || null; q.nameEn = info.nameEn || null; if (q.nameKo) okKo++; }
+      } catch (e) { /* 매핑 실패해도 티커로 표시하면 된다 */ }
+      if (!q.nameEn) {
+        try { const en = await nameOf(q.ticker); if (en) { q.nameEn = en; okEn++; } } catch (e) { /* noop */ }
+      }
+    }
+    say('T2', `회사명: 국문 ${okKo} · 영문보강 ${okEn} / ${qualified.length}종목`);
+
     for (let i = 0; i < targets.length; i++) {
       const q = targets[i];
       const detail = { fetchedAt: dateStr };

@@ -39,16 +39,24 @@ border:1px solid var(--bd);border-radius:18px;padding:26px 16px 22px;margin-top:
 .wall{position:absolute;top:14px;left:50%;transform:translateX(-50%);background:#0f1725;border:1px solid #2b3547;
 border-radius:8px;padding:6px 16px;font-size:11.5px;color:var(--dim);white-space:nowrap}
 
-.desks{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:10px;margin-top:38px;position:relative;z-index:2}
+.desks{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:10px;margin-top:56px;position:relative;z-index:2}
 /* padding-top 은 말풍선이 올라앉을 자리다. 얼굴을 가리지 않으려면
    말풍선 '바닥'을 이 선에 붙이고 위로 자라게 해야 한다 (.bub 참조). */
 .seat{text-align:center;cursor:pointer;position:relative;padding-top:118px}
 .seat:hover .body{transform:translateY(-4px)}
 
 /* 말풍선 */
+/* 직무 팻말 — 머리 바로 위에 천장에서 내려온 것처럼 매단다 */
+.plate{position:absolute;top:88px;left:50%;transform:translateX(-50%);z-index:3;
+background:linear-gradient(180deg,#33405a,#242e42);border:1px solid #46557a;border-radius:7px;
+padding:3px 11px;font-size:10.5px;font-weight:700;color:#cfd9e8;white-space:nowrap;
+box-shadow:0 3px 8px rgba(0,0,0,.45)}
+.plate::before{content:"";position:absolute;top:-9px;left:50%;transform:translateX(-50%);
+width:1px;height:9px;background:#46557a}
+
 /* ⚠️ top 기준으로 아래로 자라면 말이 길어질수록 얼굴을 덮는다.
-   bottom 을 캐릭터 머리 위 선(112px)에 고정하고 위로 자라게 한다. */
-.bub{position:absolute;top:112px;left:50%;transform:translate(-50%,-100%) scale(.88);
+   bottom 을 팻말 줄 위(78px)에 고정하고 위로 자라게 한다. */
+.bub{position:absolute;top:78px;left:50%;transform:translate(-50%,-100%) scale(.88);
 transform-origin:bottom center;width:190px;
 background:#eef3fb;color:#16202f;border-radius:14px;padding:9px 12px;font-size:11.5px;line-height:1.5;
 box-shadow:0 8px 20px rgba(0,0,0,.5);opacity:0;transition:.35s;pointer-events:none;text-align:left;z-index:5}
@@ -117,6 +125,8 @@ padding:6px 14px;cursor:pointer;font-size:12px}
 .x:hover{color:var(--tx);border-color:var(--blu)}
 .sec{background:#101724;border:1px solid var(--bd);border-radius:10px;padding:13px;margin-bottom:11px}
 .sec h4{margin:0 0 8px;font-size:12px;color:var(--dim);font-weight:600;letter-spacing:.4px}
+.sec.duty{background:#0e1622;border-color:#2b3547}
+.sec.duty h4{color:var(--org)}
 .sec.brief{background:linear-gradient(180deg,#141d2e,#101724);border-color:#33405a}
 .sec.brief h4{color:var(--blu);font-size:13px}
 .sec.brief .pi{margin-bottom:12px}
@@ -136,6 +146,34 @@ padding:6px 14px;cursor:pointer;font-size:12px}
 .ref:hover{text-decoration:underline}
 .quote{display:block;margin:6px 0;padding:7px 11px;border-left:3px solid var(--bd);
 background:#0c121d;color:var(--dim);font-size:12px;line-height:1.6;font-style:italic}
+/* ── 테마 카드 ── */
+.themeCard{background:#0d141f;border:1px solid var(--bd);border-radius:11px;padding:13px;margin-top:11px}
+.themeCard.lead{border-color:#4b3a72;background:linear-gradient(180deg,#141029,#0d141f)}
+.themeTop{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:9px}
+.themeTop b{font-size:15px;color:#fff}
+.tag{font-size:10.5px;padding:2px 9px;border-radius:99px;background:#1b2332;border:1px solid var(--bd);color:var(--dim)}
+.tag.lead{background:#2c1f4a;border-color:#5b46895e;color:var(--pur);font-weight:700}
+.pi.lead{color:#e8eef7;font-size:14px}
+.coGrid{display:flex;flex-wrap:wrap;gap:9px;margin:9px 0}
+.coGrp{background:#111a27;border:1px solid #232e40;border-radius:9px;padding:8px 10px;min-width:150px}
+.coInd{font-size:10.5px;color:var(--blu);margin-bottom:5px;font-weight:600}
+.co{display:flex;gap:7px;align-items:baseline;font-size:12px;padding:1.5px 0}
+.co b{color:#fff;min-width:52px}
+.co span{color:var(--dim);font-size:11.5px}
+.whyWrap{margin-top:10px;padding-top:9px;border-top:1px solid #1e2837}
+.whyLbl{font-size:10.5px;color:var(--dim);margin-bottom:5px;letter-spacing:.3px}
+.en{color:var(--dim);font-size:11px;font-weight:400}
+.dim{color:var(--dim)}
+/* 섹터·업종 표 */
+.ctitle{font-size:12.5px;color:var(--blu);font-weight:700;margin-bottom:6px}
+.ctab{width:100%;border-collapse:collapse;font-size:13px}
+.ctab th{text-align:left;font-size:10.5px;color:var(--dim);font-weight:600;padding:4px 6px;border-bottom:1px solid var(--bd)}
+.ctab th:nth-child(2),.ctab th:nth-child(3){text-align:right}
+.ctab td{padding:5px 6px;vertical-align:top}
+.ctab td.num{text-align:right;font-variant-numeric:tabular-nums;color:#fff;font-weight:700}
+.ctab tr.tkRow td{padding:0 6px 7px;border-bottom:1px solid #1a2231}
+.tkc{display:inline-block;background:#1b2332;border:1px solid #2b3547;border-radius:5px;
+  padding:1px 6px;margin:2px 3px 0 0;font-size:10.5px;color:#b9c4d4}
 .srcs{margin-top:11px;padding-top:9px;border-top:1px solid var(--bd);font-size:11.5px;color:var(--dim)}
 .srcs a{color:var(--dim);text-decoration:none}
 .srcs a:hover{color:var(--blu)}
@@ -194,17 +232,23 @@ const tp=v=>v==null?'—':(100-Number(v)).toFixed(1);
    look = {skin, hair, style, shirt, glasses, tie} 로 미니미 SVG 가 생성됩니다.
    style: short | long | bun | spiky | bob | part */
 const AGENTS=[
-  {id:'t1',emoji:'🔭',name:'한별',role:'1팀 · 시장환경',tab:'t1',
+  {id:'t1',emoji:'🔭',name:'한별',role:'1팀 · 시장환경',tab:'t1',job:'시장 신호등',
+   duty:'지금 주식을 사도 되는 때인지 아닌지를 판단합니다. 나스닥100(QQQ)의 10·20·50일 평균선 배열을 보고 초록/노랑/빨강으로 신호를 매기고, 사람들이 빚내서 주식을 얼마나 샀는지(마진부채)를 1년 전과 비교해 과열을 경고합니다. 매일 아침 시장 뉴스도 쉬운 말로 풀어 드립니다.',
    look:{skin:'#f3d0b4',hair:'#3b2a24',style:'long', shirt:'#5b8def',glasses:true}},
-  {id:'t2',emoji:'🎯',name:'도윤',role:'2팀 · 종목선정',tab:'t2',
+  {id:'t2',emoji:'🎯',name:'도윤',role:'2팀 · 종목선정',tab:'t2',job:'종목 발굴',
+   duty:'1,400여 개 미국 주식을 매일 훑어 오늘 가장 강한 종목만 추려냅니다. 기준은 세 가지 — ①시장보다 얼마나 앞서갔는지(RS)가 상위 2% ②하루 변동폭(ADR)이 4% 이상 ③주가가 150일 평균선 위. 그런 다음 뽑힌 종목들이 서로 무슨 공통점으로 묶이는지(테마·섹터·업종)를 정리하고, 왜 올랐는지를 실제 기사와 증권사 자료로 조사합니다.',
    look:{skin:'#eec59f',hair:'#1f1a17',style:'short',shirt:'#3fb27f'}},
-  {id:'t3',emoji:'📋',name:'수아',role:'3팀 · 추적관리',tab:'t3',
+  {id:'t3',emoji:'📋',name:'수아',role:'3팀 · 추적관리',tab:'t3',job:'보유 관리',
+   duty:'한 번 뽑힌 종목을 계속 따라다니며 상태를 기록합니다. ①50일선 아래로 3일 연속 내려가거나 ②고점 대비 40% 넘게 빠지거나 ③150일선을 깨면 목록에서 뺍니다. 뺀 뒤에도 사유와 함께 남겨두고, 다시 기준을 충족하면 자동으로 되돌립니다. 전고점을 거래량까지 실어 뚫은 종목도 찾아 알려 드립니다.',
    look:{skin:'#f7dcc4',hair:'#4a2f2a',style:'bun',  shirt:'#a86ee0'}},
-  {id:'t4',emoji:'⚡',name:'재민',role:'4팀 · EP·촉매',tab:'t4',
+  {id:'t4',emoji:'⚡',name:'재민',role:'4팀 · EP·촉매',tab:'t4',job:'급등 포착',
+   duty:'오늘 갑자기 거래량이 평소의 2배 넘게 터진 종목을 잡아냅니다. 그리고 그게 왜 터졌는지 이유를 여섯 갈래로 분류합니다 — ①실적 서프라이즈 ②바이오·FDA ③대형 계약 ④턴어라운드 ⑤산업 돌파 ⑥이유 못 찾음. 뉴스를 못 찾으면 지어내지 않고 ⑥으로 두고 "근거 없음"이라 적습니다. 몇 달을 옆으로 기다가 뚫었는지도 계산합니다.',
    look:{skin:'#e0b087',hair:'#241d1a',style:'spiky',shirt:'#f08a3c'}},
-  {id:'t5',emoji:'🗺️',name:'미르',role:'5팀 · 주도섹터',tab:'t5',
+  {id:'t5',emoji:'🗺️',name:'미르',role:'5팀 · 주도섹터',tab:'t5',job:'업종 지도',
+   duty:'개별 종목이 아니라 "판" 전체를 봅니다. 140개 업종의 시가총액 가중 강도(WRS)를 직접 계산해 어느 업종에 돈이 몰리고 있는지 순위를 매기고, 상위 2%를 뽑습니다. 참고하는 RS 사이트의 계산이 일부 깨져 있어서(140개 중 20개) 원자료에서 다시 계산해 복구합니다.',
    look:{skin:'#f0cdae',hair:'#5a3a2e',style:'bob',  shirt:'#2fb3ba'}},
-  {id:'chief',emoji:'🧑‍💼',name:'실장',role:'종합 · 오늘의 지시',tab:'chief',wide:true,
+  {id:'chief',emoji:'🧑‍💼',name:'실장',role:'종합 · 오늘의 지시',tab:'chief',wide:true,job:'총괄 보고',
+   duty:'다섯 팀의 결과를 하나로 모아 사장님께 보고합니다. 오늘 시장이 어떤 상태인지, 무엇을 눈여겨봐야 하는지, 그리고 무엇보다 <b>오늘 직접 차트를 봐야 할 종목</b>을 골라 드립니다. 인용한 모든 출처 링크는 실제로 접속해 살아 있는지 확인하고, 죽은 링크가 붙은 주장은 "근거 없음"으로 내립니다.',
    look:{skin:'#eec7a4',hair:'#2b2320',style:'part', shirt:'#3a4560',tie:'#c0392b',glasses:true}},
 ];
 
@@ -364,6 +408,7 @@ function office(){
     const monCls=a.id==='t1'?((D.t1&&D.t1.qqq&&D.t1.qqq.verdict)==='red'?'red':(D.t1&&D.t1.qqq&&D.t1.qqq.verdict)==='green'?'green':''):'';
     return `<div class="seat ${a.wide?'chiefSeat':''}" data-id="${a.id}">
       <div class="bub" id="bub-${a.id}"></div>
+      <div class="plate">${esc(a.job||'')}</div>
       <span class="busy ${d.busy?'':'idle'}"></span>
       <div class="body">
         ${mini(a,a.wide?78:66)}
@@ -633,6 +678,108 @@ function rows(list){
   return list.map(([k,v])=>`<div class="row"><span>${k==null?'':k}</span><b>${v==null?'—':v}</b></div>`).join('');
 }
 
+/* ── 2팀 테마 정리 ──
+   ① 어떤 회사들이 같은 이유로 오르는가(테마)  ② 어느 판에 몰려 있는가(섹터·업종)
+   순서로 나눈다. 회사 이름·업종·종목 수는 전부 picks 에서 가져오며 지어내지 않는다. */
+const SECTOR_KO={Technology:'기술',Healthcare:'헬스케어',Industrials:'산업재',
+  'Consumer Cyclical':'경기소비재','Consumer Defensive':'필수소비재',Energy:'에너지',
+  'Communication Services':'통신서비스','Financial Services':'금융','Basic Materials':'소재',
+  'Real Estate':'부동산',Utilities:'유틸리티','N/A':'미분류'};
+const INDUSTRY_KO={Semiconductors:'반도체','Semiconductor Equipment & Materials':'반도체 장비·소재',
+  'Software - Infrastructure':'인프라 소프트웨어','Software - Application':'응용 소프트웨어',
+  'Information Technology Services':'IT 서비스',Biotechnology:'바이오테크',
+  'Computer Hardware':'컴퓨터 하드웨어','Communication Equipment':'통신장비',
+  'Diagnostics & Research':'진단·연구','Apparel Retail':'의류 유통',
+  'Medical Devices':'의료기기','Drug Manufacturers - Specialty & Generic':'제약(전문·제네릭)',
+  'Healthcare Plans':'건강보험','Oil & Gas Equipment & Services':'정유·가스 장비',
+  'Electronic Components':'전자부품','Aerospace & Defense':'항공우주·방산',
+  'Specialty Industrial Machinery':'산업기계','Engineering & Construction':'건설·엔지니어링'};
+const koName=(m,en)=>m[en]?`${m[en]} <span class="en">(${esc(en)})</span>`:esc(en);
+
+/* 티커 → {회사명, 섹터, 업종}. 이름이 없으면 티커만 쓴다 (없는 이름을 만들지 않는다) */
+function pickIndex(t){
+  const m=new Map();
+  for(const p of t.picks||[]) m.set(p.ticker,{
+    ko:p.nameKo||(p.detail&&p.detail.nameKo)||null,
+    en:p.nameEn||(p.detail&&p.detail.nameEn)||null,
+    sector:p.sector,industry:p.industry});
+  return m;
+}
+/* 테마에 묶인 종목을 회사 카드로. 업종별로 묶어 한눈에 보이게 한다. */
+function themeStocks(tickers,idx){
+  const known=(tickers||[]).filter(x=>idx.has(x));
+  if(!known.length)return '<div class="note">해당 종목이 오늘 선정 목록에 없습니다</div>';
+  const byInd=new Map();
+  for(const tk of known){const i=idx.get(tk);
+    if(!byInd.has(i.industry))byInd.set(i.industry,[]);
+    byInd.get(i.industry).push({tk,...i});}
+  const grp=[...byInd.entries()].sort((a,b)=>b[1].length-a[1].length);
+  return `<div class="coGrid">`+grp.map(([ind,list])=>
+    `<div class="coGrp"><div class="coInd">${koName(INDUSTRY_KO,ind)} · ${list.length}곳</div>`+
+    list.map(x=>`<div class="co"><b>${esc(x.tk)}</b><span>${x.ko?esc(x.ko):(x.en?esc(x.en):'회사명 미확보')}</span></div>`).join('')+
+    `</div>`).join('')+`</div>`;
+}
+function themeCard(th,idx,total,lead){
+  if(!th||!th.name)return '';
+  const n=(th.tickers||[]).filter(x=>idx.has(x)).length;
+  const badge={strong:'강함',mid:'보통',weak:'약함',none:'없음'}[th.strength]||th.strength||'';
+  // ⚠️ 아래 한 줄은 LLM 서술이 아니라 picks 에서 센 숫자다 (지어낸 문장이 아니다)
+  const facts=`이 테마로 묶인 종목은 <b>${n}개</b>${total?` — 오늘 고른 ${total}종목의 ${(n/total*100).toFixed(0)}%`:''}입니다.`;
+  return `<div class="themeCard${lead?' lead':''}">
+    <div class="themeTop">${lead?'<span class="tag lead">주도 테마</span>':'<span class="tag">보조 테마</span>'}
+      <b>${esc(th.name)}</b>${badge?`<span class="chip">${esc(badge)}</span>`:''}</div>
+    ${th.plainKo?`<p class="pi lead">${esc(th.plainKo)}</p>`:''}
+    <p class="pi">${facts}</p>
+    ${themeStocks(th.tickers,idx)}
+    <div class="whyWrap"><div class="whyLbl">왜 이 테마인가 — 근거</div>${clip(prose(th.why),4)}</div>
+  </div>`;
+}
+function clusterTable(list,map,total,emptyKo){
+  if(!list.length)return `<div class="note">${emptyKo}</div>`;
+  return `<table class="ctab"><thead><tr><th>이름</th><th>종목수</th><th>비중</th><th>쏠림</th></tr></thead><tbody>`+
+    list.map(c=>{
+      const lv={high:'<span style="color:var(--org)">강함</span>',mid:'보통',low:'<span class="dim">약함</span>'}[c.concentration]||'';
+      return `<tr><td>${koName(map,c.name)}</td><td class="num">${c.count}</td>
+        <td class="num">${c.sharePct}%</td><td>${lv}</td></tr>
+        <tr class="tkRow"><td colspan="4">${(c.tickers||[]).map(x=>`<span class="tkc">${esc(x)}</span>`).join('')}</td></tr>`;
+    }).join('')+`</tbody></table>`;
+}
+function themeSection(t){
+  const idx=pickIndex(t),total=(t.picks||[]).length;
+  const L=(t.themes&&t.themes.llm)||null;
+  const cl=(t.themes&&t.themes.clusters)||[];
+  const sec=cl.filter(c=>c.level==='Sector'),ind=cl.filter(c=>c.level==='Industry');
+
+  let h=`<div class="sec"><h4>① 공통 테마 — 어떤 회사들이 같은 이유로 오르고 있나</h4>`;
+  if(!L){
+    h+=`<div class="note">AI 테마 분석 대기 중입니다. 아래 ②의 섹터·업종 쏠림은 코드가 센 숫자라 이미 확정입니다.</div>`;
+  }else if(!L.leadingTheme||L.leadingTheme.strength==='none'){
+    h+=`<div class="nosrc">오늘은 <b>공통 테마가 없습니다.</b> 억지로 묶지 않습니다.</div>`;
+  }else{
+    h+=`<p class="pi">"테마"는 <b>서로 다른 회사들이 같은 이유로 오르고 있는 묶음</b>을 말합니다.
+        같은 이유로 오르면 같은 이유로 함께 빠질 수도 있으니, 몇 개가 한 테마에 몰려 있는지가 중요합니다.</p>`;
+    h+=themeCard(L.leadingTheme,idx,total,true);
+    for(const s of (L.subThemes||[])) h+=themeCard(s,idx,total,false);
+    if(L.crossCuttingDriver)
+      h+=`<div class="themeCard"><div class="themeTop"><span class="tag">테마를 가로지르는 공통 동인</span></div>
+          ${clip(prose(L.crossCuttingDriver),4)}</div>`;
+    if(L.caution)h+=`<div class="note" style="margin-top:10px">⚠️ ${esc(L.caution)}</div>`;
+  }
+  h+=`</div>`;
+
+  h+=`<div class="sec"><h4>② 공통 섹터 · 업종 — 어느 판에 몰려 있나</h4>
+    <p class="pi"><b>섹터</b>는 큰 분류(기술·헬스케어처럼 11개), <b>업종(industry)</b>은 그 안을 더 잘게 나눈 분류입니다.
+      예를 들어 <b>기술 섹터</b> 안에 <b>반도체</b>, <b>인프라 소프트웨어</b> 같은 업종이 들어 있습니다.
+      그래서 섹터만 보면 "기술주가 세다"까지만 알 수 있고, 업종까지 봐야 <b>기술주 중에서도 정확히 어디가 세다</b>를 알 수 있습니다.</p>
+    <div class="ctitle">섹터 (큰 분류)</div>
+    ${clusterTable(sec,SECTOR_KO,total,'2종목 이상 몰린 섹터가 없습니다')}
+    <div class="ctitle" style="margin-top:16px">업종 (세부 분류)</div>
+    ${clusterTable(ind,INDUSTRY_KO,total,'2종목 이상 몰린 업종이 없습니다')}
+    <div class="note">전체 ${total}종목 기준. 한 종목은 섹터 1개와 업종 1개에 동시에 들어가므로 비중 합계는 100%가 넘습니다.</div>
+  </div>`;
+  return h;
+}
+
 function bodyFor(id){
   if(id==='t1'){
     const t=D.t1; if(!t)return '<div class="empty">데이터 없음</div>';
@@ -662,15 +809,7 @@ function bodyFor(id){
     let h=`<div class="sec"><h4>스크리닝 퍼널</h4>
       ${rows([['유니버스',s.universe],['RS 상위 2% 합집합',s.unionTop],['ADR ≥ 4 통과',s.afterAdr],['150일선 위 (최종)',`<span style="color:var(--grn)">${s.afterMa150}</span>`]])}
       <div class="note">기간별 상위 2%: 1개월 ${s.byPeriod.m1} · 3개월 ${s.byPeriod.m3} · 6개월 ${s.byPeriod.m6}</div></div>`;
-    h+=`<div class="sec"><h4>테마</h4><div class="ko">${esc(t.themes.headline||'')}</div>`;
-    if(t.themes.llm){const L=t.themes.llm;
-      h+=`<div style="margin-top:12px"><b style="color:var(--pur);font-size:15px">${esc(L.leadingTheme.name)}</b>
-        <span class="chip">${esc(L.leadingTheme.strength)}</span></div>
-        <div style="margin-top:9px">${prose(L.leadingTheme.why)}</div>`;
-      if(L.crossCuttingDriver)h+=`<div style="margin-top:12px"><h4>공통 동인</h4>${prose(L.crossCuttingDriver)}</div>`;
-      if(L.caution)h+=`<div class="note" style="margin-top:10px">⚠️ ${esc(L.caution)}</div>`;
-    }
-    h+=`</div>`;
+    h+=themeSection(t);
 
     const done=(t.picks||[]).filter(p=>p.research&&p.research.status==='done').slice(0,6);
     if(done.length)h+=`<div class="sec"><h4>리서치 완료 종목 — 왜 올랐나</h4>`+
@@ -789,6 +928,8 @@ function openAgent(id){
   $('mbox').innerHTML=`<div class="mhead"><div class="avatar">${mini(a,46)}</div>
     <div><h3>${a.name}</h3><div class="role">${a.role}</div></div>
     <button class="x" onclick="closeM()">닫기 ✕</button></div>`
+    +(a.duty?`<div class="sec duty"><h4>🪧 ${esc(a.job||'')} — 이 사람이 하는 일</h4>
+       <p class="pi">${a.duty}</p></div>`:'')
     +(br?`<div class="sec brief"><h4>💬 ${a.name}의 브리핑</h4><div class="pi">${br}</div>
        ${llmSum?`<div class="pi" style="margin-top:10px;padding-top:10px;border-top:1px solid var(--bd)">${esc(llmSum)}</div>`:''}</div>`:'')
     +bodyFor(id)
