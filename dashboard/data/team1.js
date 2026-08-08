@@ -1,42 +1,42 @@
 window.TEAM1_DATA = {
-  "generated": "2026-08-05",
+  "generated": "2026-08-08",
   "data_source": {
-    "rs_last_updated": "2026-08-04 23:10:52 UTC",
+    "rs_last_updated": "2026-08-07 22:42:16 UTC",
     "stale": false,
     "source": "live",
     "columns": 46
   },
   "qqq": {
     "ok": true,
-    "price": 723.85,
-    "ma10": 689.63,
-    "ma20": 700.6,
-    "ma50": 715.01,
+    "price": 723.03,
+    "ma10": 696.98,
+    "ma20": 700.34,
+    "ma50": 714.57,
     "ma10AboveMa20": false,
-    "slope10Pct": -0.96,
-    "slope20Pct": -1.05,
-    "slope10Up": false,
+    "slope10Pct": 1.34,
+    "slope20Pct": -0.1,
+    "slope10Up": true,
     "slope20Up": false,
     "goldenCrossDate": "2026-06-29",
-    "daysSinceGoldenCross": 25,
+    "daysSinceGoldenCross": 28,
     "deathCrossDate": "2026-07-07",
-    "daysSinceDeathCross": 20,
+    "daysSinceDeathCross": 23,
     "priceAboveAll": true,
     "sweetSpot": false,
-    "lastDate": "2026-08-04",
-    "verdict": "red",
-    "ko": "🔴 10MA가 20MA 아래(데드크로스 2026-07-07, D+20) — 신규 진입 중단, 보유분 청산 검토",
+    "lastDate": "2026-08-07",
+    "verdict": "yellow",
+    "ko": "🟡 10MA가 아직 20MA 아래(D+23)지만 주가가 3개 이동평균선 위로 올라섰고 10MA가 상승 전환(1.34%) — 골든크로스 임박 관찰 구간",
     "actions": [
-      "신규 매수 전면 보류",
-      "보유 종목 손절 라인 점검",
-      "현금 비중 확대"
+      "신규 진입은 골든크로스 확인 후",
+      "이미 보유분은 유지하되 손절 상향",
+      "크로스 발생 시 D+3~15 구간을 노릴 것"
     ],
-    "chart_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 960 560\" width=\"100%\" style=\"max-width:960px;height:auto;font-family:ui-monospace,SFMono-Regular,Menlo,monospace\"><rect width=\"960\" height=\"560\" fill=\"#0d1117\" rx=\"8\"/><text x=\"16\" y=\"26\" fill=\"#c9d1d9\" font-size=\"15\" font-weight=\"700\">QQQ DAILY</text><text x=\"16\" y=\"44\" fill=\"#7d8590\" font-size=\"11\">10 / 20 / 50 DAY MA   LAST 3 MONTHS</text><line x1=\"855.8\" y1=\"22\" x2=\"867.8\" y2=\"22\" stroke=\"#a1a1aa\" stroke-width=\"2.5\"/><text x=\"871.8\" y=\"26\" fill=\"#a1a1aa\" font-size=\"11\">MA50 715.01</text><line x1=\"769.5999999999999\" y1=\"22\" x2=\"781.5999999999999\" y2=\"22\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"785.5999999999999\" y=\"26\" fill=\"#3b82f6\" font-size=\"11\">MA20 700.60</text><line x1=\"683.3999999999999\" y1=\"22\" x2=\"695.3999999999999\" y2=\"22\" stroke=\"#f5a524\" stroke-width=\"2.5\"/><text x=\"699.3999999999999\" y=\"26\" fill=\"#f5a524\" font-size=\"11\">MA10 689.63</text><line x1=\"62\" y1=\"310.6\" x2=\"942\" y2=\"310.6\" stroke=\"#30363d\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><text x=\"54\" y=\"314.6\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">650.0</text><line x1=\"62\" y1=\"189.7\" x2=\"942\" y2=\"189.7\" stroke=\"#30363d\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><text x=\"54\" y=\"193.7\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">700.0</text><line x1=\"62\" y1=\"68.8\" x2=\"942\" y2=\"68.8\" stroke=\"#30363d\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><text x=\"54\" y=\"72.8\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">750.0</text><line x1=\"317.5\" y1=\"56\" x2=\"317.5\" y2=\"410\" stroke=\"#30363d\" stroke-width=\"1\" opacity=\"0.5\"/><text x=\"317.5\" y=\"426\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"middle\">JUN</text><line x1=\"615.5\" y1=\"56\" x2=\"615.5\" y2=\"410\" stroke=\"#30363d\" stroke-width=\"1\" opacity=\"0.5\"/><text x=\"615.5\" y=\"426\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"middle\">JUL</text><line x1=\"927.8\" y1=\"56\" x2=\"927.8\" y2=\"410\" stroke=\"#30363d\" stroke-width=\"1\" opacity=\"0.5\"/><text x=\"927.8\" y=\"426\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"middle\">AUG</text><line x1=\"62.0\" y1=\"231.4\" x2=\"62.0\" y2=\"244.1\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"58.0\" y=\"234.2\" width=\"8.0\" height=\"8.8\" fill=\"#2ea043\"/><line x1=\"76.2\" y1=\"199.6\" x2=\"76.2\" y2=\"222.4\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"72.2\" y=\"199.9\" width=\"8.0\" height=\"19.3\" fill=\"#2ea043\"/><line x1=\"90.4\" y1=\"186.7\" x2=\"90.4\" y2=\"209.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"86.4\" y=\"198.0\" width=\"8.0\" height=\"4.0\" fill=\"#f85149\"/><line x1=\"104.6\" y1=\"162.6\" x2=\"104.6\" y2=\"190.9\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"100.6\" y=\"162.6\" width=\"8.0\" height=\"27.3\" fill=\"#2ea043\"/><line x1=\"118.8\" y1=\"154.4\" x2=\"118.8\" y2=\"168.2\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"114.8\" y=\"157.6\" width=\"8.0\" height=\"7.1\" fill=\"#2ea043\"/><line x1=\"133.0\" y1=\"165.1\" x2=\"133.0\" y2=\"197.8\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"169.8\" width=\"8.0\" height=\"2.4\" fill=\"#f85149\"/><line x1=\"147.2\" y1=\"149.5\" x2=\"147.2\" y2=\"178.0\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"143.2\" y=\"154.2\" width=\"8.0\" height=\"11.5\" fill=\"#2ea043\"/><line x1=\"161.4\" y1=\"136.5\" x2=\"161.4\" y2=\"155.3\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"157.4\" y=\"141.9\" width=\"8.0\" height=\"12.5\" fill=\"#2ea043\"/><line x1=\"175.5\" y1=\"153.1\" x2=\"175.5\" y2=\"176.3\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"171.5\" y=\"165.2\" width=\"8.0\" height=\"2.9\" fill=\"#f85149\"/><line x1=\"189.7\" y1=\"160.5\" x2=\"189.7\" y2=\"192.5\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"185.7\" y=\"161.8\" width=\"8.0\" height=\"13.7\" fill=\"#f85149\"/><line x1=\"203.9\" y1=\"174.0\" x2=\"203.9\" y2=\"201.2\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"199.9\" y=\"186.0\" width=\"8.0\" height=\"4.2\" fill=\"#2ea043\"/><line x1=\"218.1\" y1=\"157.9\" x2=\"218.1\" y2=\"180.6\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"214.1\" y=\"157.9\" width=\"8.0\" height=\"19.0\" fill=\"#2ea043\"/><line x1=\"232.3\" y1=\"148.3\" x2=\"232.3\" y2=\"173.3\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"228.3\" y=\"154.6\" width=\"8.0\" height=\"13.3\" fill=\"#2ea043\"/><line x1=\"246.5\" y1=\"136.2\" x2=\"246.5\" y2=\"151.2\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"242.5\" y=\"146.0\" width=\"8.0\" height=\"1.3\" fill=\"#f85149\"/><line x1=\"260.7\" y1=\"114.4\" x2=\"260.7\" y2=\"131.3\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"256.7\" y=\"116.5\" width=\"8.0\" height=\"10.4\" fill=\"#2ea043\"/><line x1=\"274.9\" y1=\"109.2\" x2=\"274.9\" y2=\"128.2\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"270.9\" y=\"110.0\" width=\"8.0\" height=\"8.5\" fill=\"#f85149\"/><line x1=\"289.1\" y1=\"101.2\" x2=\"289.1\" y2=\"125.9\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"285.1\" y=\"103.6\" width=\"8.0\" height=\"14.2\" fill=\"#2ea043\"/><line x1=\"303.3\" y1=\"89.1\" x2=\"303.3\" y2=\"104.5\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"299.3\" y=\"97.1\" width=\"8.0\" height=\"1.1\" fill=\"#2ea043\"/><line x1=\"317.5\" y1=\"79.3\" x2=\"317.5\" y2=\"102.7\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"313.5\" y=\"86.4\" width=\"8.0\" height=\"13.8\" fill=\"#2ea043\"/><line x1=\"331.7\" y1=\"77.4\" x2=\"331.7\" y2=\"94.9\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"327.7\" y=\"78.1\" width=\"8.0\" height=\"9.1\" fill=\"#2ea043\"/><line x1=\"345.9\" y1=\"72.1\" x2=\"345.9\" y2=\"90.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"341.9\" y=\"75.3\" width=\"8.0\" height=\"7.5\" fill=\"#f85149\"/><line x1=\"360.1\" y1=\"84.5\" x2=\"360.1\" y2=\"110.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"356.1\" y=\"91.5\" width=\"8.0\" height=\"12.4\" fill=\"#2ea043\"/><line x1=\"374.3\" y1=\"113.1\" x2=\"374.3\" y2=\"179.3\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"370.3\" y=\"117.0\" width=\"8.0\" height=\"60.4\" fill=\"#f85149\"/><line x1=\"388.5\" y1=\"134.0\" x2=\"388.5\" y2=\"158.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"384.5\" y=\"146.7\" width=\"8.0\" height=\"4.2\" fill=\"#f85149\"/><line x1=\"402.6\" y1=\"127.7\" x2=\"402.6\" y2=\"222.7\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"398.6\" y=\"134.2\" width=\"8.0\" height=\"36.6\" fill=\"#f85149\"/><line x1=\"416.8\" y1=\"162.4\" x2=\"416.8\" y2=\"206.8\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"412.8\" y=\"185.7\" width=\"8.0\" height=\"19.3\" fill=\"#f85149\"/><line x1=\"431.0\" y1=\"145.3\" x2=\"431.0\" y2=\"201.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"427.0\" y=\"148.3\" width=\"8.0\" height=\"43.1\" fill=\"#2ea043\"/><line x1=\"445.2\" y1=\"131.7\" x2=\"445.2\" y2=\"162.4\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"441.2\" y=\"138.1\" width=\"8.0\" height=\"9.0\" fill=\"#2ea043\"/><line x1=\"459.4\" y1=\"81.5\" x2=\"459.4\" y2=\"99.3\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"455.4\" y=\"83.3\" width=\"8.0\" height=\"14.3\" fill=\"#2ea043\"/><line x1=\"473.6\" y1=\"82.8\" x2=\"473.6\" y2=\"118.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"469.6\" y=\"87.6\" width=\"8.0\" height=\"30.0\" fill=\"#f85149\"/><line x1=\"487.8\" y1=\"103.5\" x2=\"487.8\" y2=\"139.3\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"483.8\" y=\"104.6\" width=\"8.0\" height=\"30.7\" fill=\"#f85149\"/><line x1=\"502.0\" y1=\"88.6\" x2=\"502.0\" y2=\"111.1\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"498.0\" y=\"91.5\" width=\"8.0\" height=\"8.3\" fill=\"#2ea043\"/><line x1=\"516.2\" y1=\"79.8\" x2=\"516.2\" y2=\"106.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"512.2\" y=\"88.1\" width=\"8.0\" height=\"9.8\" fill=\"#f85149\"/><line x1=\"530.4\" y1=\"132.6\" x2=\"530.4\" y2=\"160.4\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"526.4\" y=\"151.7\" width=\"8.0\" height=\"5.1\" fill=\"#f85149\"/><line x1=\"544.6\" y1=\"141.5\" x2=\"544.6\" y2=\"179.0\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"540.6\" y=\"152.6\" width=\"8.0\" height=\"11.5\" fill=\"#f85149\"/><line x1=\"558.8\" y1=\"124.8\" x2=\"558.8\" y2=\"176.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"554.8\" y=\"127.1\" width=\"8.0\" height=\"23.0\" fill=\"#f85149\"/><line x1=\"573.0\" y1=\"152.1\" x2=\"573.0\" y2=\"182.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"569.0\" y=\"172.5\" width=\"8.0\" height=\"1.5\" fill=\"#f85149\"/><line x1=\"587.2\" y1=\"130.3\" x2=\"587.2\" y2=\"177.2\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"583.2\" y=\"131.5\" width=\"8.0\" height=\"24.4\" fill=\"#2ea043\"/><line x1=\"601.4\" y1=\"98.8\" x2=\"601.4\" y2=\"131.9\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"597.4\" y=\"101.7\" width=\"8.0\" height=\"29.5\" fill=\"#2ea043\"/><line x1=\"615.5\" y1=\"112.5\" x2=\"615.5\" y2=\"130.2\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"611.5\" y=\"119.1\" width=\"8.0\" height=\"9.7\" fill=\"#f85149\"/><line x1=\"629.7\" y1=\"115.2\" x2=\"629.7\" y2=\"171.4\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"625.7\" y=\"127.9\" width=\"8.0\" height=\"31.4\" fill=\"#f85149\"/><line x1=\"643.9\" y1=\"126.7\" x2=\"643.9\" y2=\"145.1\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"639.9\" y=\"134.5\" width=\"8.0\" height=\"7.0\" fill=\"#2ea043\"/><line x1=\"658.1\" y1=\"150.2\" x2=\"658.1\" y2=\"177.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"654.1\" y=\"155.5\" width=\"8.0\" height=\"11.5\" fill=\"#f85149\"/><line x1=\"672.3\" y1=\"160.1\" x2=\"672.3\" y2=\"187.5\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"668.3\" y=\"162.1\" width=\"8.0\" height=\"15.7\" fill=\"#2ea043\"/><line x1=\"686.5\" y1=\"131.1\" x2=\"686.5\" y2=\"153.1\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"682.5\" y=\"133.4\" width=\"8.0\" height=\"12.0\" fill=\"#2ea043\"/><line x1=\"700.7\" y1=\"125.9\" x2=\"700.7\" y2=\"148.6\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"696.7\" y=\"128.0\" width=\"8.0\" height=\"11.6\" fill=\"#2ea043\"/><line x1=\"714.9\" y1=\"144.4\" x2=\"714.9\" y2=\"165.3\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"710.9\" y=\"146.9\" width=\"8.0\" height=\"14.5\" fill=\"#f85149\"/><line x1=\"729.1\" y1=\"135.8\" x2=\"729.1\" y2=\"155.0\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"725.1\" y=\"140.8\" width=\"8.0\" height=\"1.3\" fill=\"#f85149\"/><line x1=\"743.3\" y1=\"130.8\" x2=\"743.3\" y2=\"165.0\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"739.3\" y=\"132.1\" width=\"8.0\" height=\"14.8\" fill=\"#f85149\"/><line x1=\"757.5\" y1=\"156.8\" x2=\"757.5\" y2=\"183.4\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"753.5\" y=\"160.7\" width=\"8.0\" height=\"14.7\" fill=\"#f85149\"/><line x1=\"771.7\" y1=\"184.2\" x2=\"771.7\" y2=\"221.7\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"767.7\" y=\"201.0\" width=\"8.0\" height=\"8.9\" fill=\"#2ea043\"/><line x1=\"785.9\" y1=\"175.7\" x2=\"785.9\" y2=\"200.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"781.9\" y=\"184.5\" width=\"8.0\" height=\"14.7\" fill=\"#f85149\"/><line x1=\"800.1\" y1=\"165.4\" x2=\"800.1\" y2=\"182.9\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"796.1\" y=\"168.0\" width=\"8.0\" height=\"5.8\" fill=\"#2ea043\"/><line x1=\"814.3\" y1=\"166.4\" x2=\"814.3\" y2=\"181.0\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"810.3\" y=\"176.8\" width=\"8.0\" height=\"4.2\" fill=\"#2ea043\"/><line x1=\"828.5\" y1=\"193.0\" x2=\"828.5\" y2=\"219.2\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"824.5\" y=\"202.6\" width=\"8.0\" height=\"6.6\" fill=\"#f85149\"/><line x1=\"842.6\" y1=\"207.5\" x2=\"842.6\" y2=\"232.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"838.6\" y=\"212.9\" width=\"8.0\" height=\"14.9\" fill=\"#f85149\"/><line x1=\"856.8\" y1=\"208.3\" x2=\"856.8\" y2=\"247.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"852.8\" y=\"209.8\" width=\"8.0\" height=\"23.1\" fill=\"#f85149\"/><line x1=\"871.0\" y1=\"239.5\" x2=\"871.0\" y2=\"267.4\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"867.0\" y=\"247.2\" width=\"8.0\" height=\"1.8\" fill=\"#f85149\"/><line x1=\"885.2\" y1=\"238.0\" x2=\"885.2\" y2=\"283.7\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"881.2\" y=\"248.9\" width=\"8.0\" height=\"33.3\" fill=\"#f85149\"/><line x1=\"899.4\" y1=\"225.7\" x2=\"899.4\" y2=\"254.3\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"895.4\" y=\"229.5\" width=\"8.0\" height=\"21.3\" fill=\"#2ea043\"/><line x1=\"913.6\" y1=\"199.9\" x2=\"913.6\" y2=\"238.0\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"909.6\" y=\"208.8\" width=\"8.0\" height=\"10.0\" fill=\"#f85149\"/><line x1=\"927.8\" y1=\"185.9\" x2=\"927.8\" y2=\"224.0\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"923.8\" y=\"189.5\" width=\"8.0\" height=\"28.5\" fill=\"#2ea043\"/><line x1=\"942.0\" y1=\"127.7\" x2=\"942.0\" y2=\"171.4\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"938.0\" y=\"132.1\" width=\"8.0\" height=\"37.8\" fill=\"#2ea043\"/><path d=\"M62.0 274.3 L76.2 264.5 L90.4 254.0 L104.6 242.5 L118.8 230.6 L133.0 218.6 L147.2 205.8 L161.4 193.2 L175.5 184.8 L189.7 176.8 L203.9 172.0 L218.1 167.8 L232.3 163.1 L246.5 161.5 L260.7 157.4 L274.9 152.1 L289.1 147.0 L303.3 142.5 L317.5 134.4 L331.7 124.6 L345.9 114.3 L360.1 107.7 L374.3 109.9 L388.5 110.3 L402.6 115.7 L416.8 124.4 L431.0 128.8 L445.2 132.9 L459.4 132.6 L473.6 136.6 L487.8 141.8 L502.0 141.8 L516.2 133.9 L530.4 134.5 L544.6 133.8 L558.8 128.3 L573.0 130.9 L587.2 130.2 L601.4 132.0 L615.5 133.2 L629.7 135.6 L643.9 139.9 L658.1 146.8 L672.3 147.3 L686.5 144.2 L700.7 142.0 L714.9 140.8 L729.1 141.8 L743.3 146.3 L757.5 151.0 L771.7 155.2 L785.9 161.6 L800.1 161.7 L814.3 163.2 L828.5 170.8 L842.6 180.8 L856.8 187.9 L871.0 198.6 L885.2 212.2 L899.4 217.6 L913.6 219.3 L927.8 218.4 L942.0 214.8\" fill=\"none\" stroke=\"#f5a524\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><path d=\"M62.0 317.7 L76.2 306.9 L90.4 296.6 L104.6 284.5 L118.8 272.9 L133.0 263.4 L147.2 254.1 L161.4 244.5 L175.5 237.2 L189.7 230.1 L203.9 223.2 L218.1 216.1 L232.3 208.5 L246.5 202.0 L260.7 194.0 L274.9 185.3 L289.1 176.4 L303.3 167.9 L317.5 159.6 L331.7 150.7 L345.9 143.1 L360.1 137.7 L374.3 136.5 L388.5 135.9 L402.6 136.6 L416.8 138.2 L431.0 137.9 L445.2 137.7 L459.4 133.5 L473.6 130.6 L487.8 128.1 L502.0 124.7 L516.2 121.9 L530.4 122.4 L544.6 124.8 L558.8 126.3 L573.0 129.8 L587.2 131.6 L601.4 132.3 L615.5 134.9 L629.7 138.7 L643.9 140.8 L658.1 140.3 L672.3 140.9 L686.5 139.0 L700.7 135.2 L714.9 135.8 L729.1 136.0 L743.3 139.2 L757.5 142.1 L771.7 145.4 L785.9 150.7 L800.1 154.3 L814.3 155.3 L828.5 157.5 L842.6 161.4 L856.8 164.3 L871.0 170.2 L885.2 179.2 L899.4 184.3 L913.6 187.3 L927.8 190.0 L942.0 188.3\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><path d=\"M62.0 393.9 L76.2 389.7 L90.4 385.9 L104.6 380.9 L118.8 375.8 L133.0 371.0 L147.2 365.6 L161.4 360.3 L175.5 355.4 L189.7 350.3 L203.9 345.8 L218.1 340.7 L232.3 335.5 L246.5 329.7 L260.7 323.1 L274.9 316.9 L289.1 310.5 L303.3 303.5 L317.5 296.3 L331.7 288.3 L345.9 280.8 L360.1 273.2 L374.3 267.5 L388.5 260.7 L402.6 253.6 L416.8 247.1 L431.0 240.3 L445.2 233.7 L459.4 226.0 L473.6 219.2 L487.8 212.7 L502.0 206.2 L516.2 200.0 L530.4 195.1 L544.6 190.6 L558.8 186.3 L573.0 183.0 L587.2 178.9 L601.4 174.7 L615.5 170.9 L629.7 167.6 L643.9 164.3 L658.1 161.5 L672.3 159.2 L686.5 156.4 L700.7 153.1 L714.9 150.6 L729.1 148.1 L743.3 146.0 L757.5 144.4 L771.7 143.8 L785.9 143.8 L800.1 143.1 L814.3 143.4 L828.5 144.4 L842.6 145.5 L856.8 147.1 L871.0 149.2 L885.2 151.5 L899.4 152.6 L913.6 153.2 L927.8 153.9 L942.0 153.4\" fill=\"none\" stroke=\"#a1a1aa\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><text x=\"62\" y=\"438\" fill=\"#7d8590\" font-size=\"10\">VOLUME</text><rect x=\"58.0\" y=\"496.7\" width=\"8.0\" height=\"31.3\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"72.2\" y=\"495.3\" width=\"8.0\" height=\"32.7\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"86.4\" y=\"491.1\" width=\"8.0\" height=\"36.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"100.6\" y=\"490.6\" width=\"8.0\" height=\"37.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"114.8\" y=\"497.6\" width=\"8.0\" height=\"30.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"129.0\" y=\"489.3\" width=\"8.0\" height=\"38.7\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"143.2\" y=\"494.3\" width=\"8.0\" height=\"33.7\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"157.4\" y=\"499.9\" width=\"8.0\" height=\"28.1\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"171.5\" y=\"484.3\" width=\"8.0\" height=\"43.7\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"185.7\" y=\"486.0\" width=\"8.0\" height=\"42.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"199.9\" y=\"488.5\" width=\"8.0\" height=\"39.5\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"214.1\" y=\"497.0\" width=\"8.0\" height=\"31.0\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"228.3\" y=\"497.3\" width=\"8.0\" height=\"30.7\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"242.5\" y=\"500.1\" width=\"8.0\" height=\"27.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"256.7\" y=\"499.1\" width=\"8.0\" height=\"28.9\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"270.9\" y=\"498.4\" width=\"8.0\" height=\"29.6\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"285.1\" y=\"500.3\" width=\"8.0\" height=\"27.7\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"299.3\" y=\"496.3\" width=\"8.0\" height=\"31.7\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"313.5\" y=\"499.4\" width=\"8.0\" height=\"28.6\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"327.7\" y=\"502.6\" width=\"8.0\" height=\"25.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"341.9\" y=\"494.0\" width=\"8.0\" height=\"34.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"356.1\" y=\"493.6\" width=\"8.0\" height=\"34.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"370.3\" y=\"444.0\" width=\"8.0\" height=\"84.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"384.5\" y=\"488.0\" width=\"8.0\" height=\"40.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"398.6\" y=\"450.5\" width=\"8.0\" height=\"77.5\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"412.8\" y=\"472.9\" width=\"8.0\" height=\"55.1\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"427.0\" y=\"467.5\" width=\"8.0\" height=\"60.5\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"441.2\" y=\"484.8\" width=\"8.0\" height=\"43.2\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"455.4\" y=\"488.6\" width=\"8.0\" height=\"39.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"469.6\" y=\"489.8\" width=\"8.0\" height=\"38.2\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"483.8\" y=\"484.4\" width=\"8.0\" height=\"43.6\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"498.0\" y=\"485.7\" width=\"8.0\" height=\"42.3\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"512.2\" y=\"491.3\" width=\"8.0\" height=\"36.7\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"526.4\" y=\"483.0\" width=\"8.0\" height=\"45.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"540.6\" y=\"483.7\" width=\"8.0\" height=\"44.3\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"554.8\" y=\"486.1\" width=\"8.0\" height=\"41.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"569.0\" y=\"488.3\" width=\"8.0\" height=\"39.7\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"583.2\" y=\"490.1\" width=\"8.0\" height=\"37.9\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"597.4\" y=\"492.5\" width=\"8.0\" height=\"35.5\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"611.5\" y=\"493.6\" width=\"8.0\" height=\"34.4\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"625.7\" y=\"485.0\" width=\"8.0\" height=\"43.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"639.9\" y=\"502.5\" width=\"8.0\" height=\"25.5\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"654.1\" y=\"492.2\" width=\"8.0\" height=\"35.8\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"668.3\" y=\"498.0\" width=\"8.0\" height=\"30.0\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"682.5\" y=\"499.6\" width=\"8.0\" height=\"28.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"696.7\" y=\"505.7\" width=\"8.0\" height=\"22.3\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"710.9\" y=\"497.2\" width=\"8.0\" height=\"30.8\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"725.1\" y=\"503.2\" width=\"8.0\" height=\"24.8\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"739.3\" y=\"500.5\" width=\"8.0\" height=\"27.5\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"753.5\" y=\"494.8\" width=\"8.0\" height=\"33.2\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"767.7\" y=\"482.4\" width=\"8.0\" height=\"45.6\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"781.9\" y=\"503.0\" width=\"8.0\" height=\"25.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"796.1\" y=\"499.6\" width=\"8.0\" height=\"28.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"810.3\" y=\"508.0\" width=\"8.0\" height=\"20.0\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"824.5\" y=\"490.9\" width=\"8.0\" height=\"37.1\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"838.6\" y=\"491.8\" width=\"8.0\" height=\"36.2\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"852.8\" y=\"492.0\" width=\"8.0\" height=\"36.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"867.0\" y=\"484.7\" width=\"8.0\" height=\"43.3\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"881.2\" y=\"479.7\" width=\"8.0\" height=\"48.3\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"895.4\" y=\"471.7\" width=\"8.0\" height=\"56.3\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"909.6\" y=\"485.4\" width=\"8.0\" height=\"42.6\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"923.8\" y=\"490.1\" width=\"8.0\" height=\"37.9\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"938.0\" y=\"478.3\" width=\"8.0\" height=\"49.7\" fill=\"#2ea043\" opacity=\"0.55\"/><text x=\"942\" y=\"550\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">2026-08-04 · $723.85</text></svg>",
-    "chart_png": "charts/qqq-2026-08-05.png",
+    "chart_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 960 560\" width=\"100%\" style=\"max-width:960px;height:auto;font-family:ui-monospace,SFMono-Regular,Menlo,monospace\"><rect width=\"960\" height=\"560\" fill=\"#0d1117\" rx=\"8\"/><text x=\"16\" y=\"26\" fill=\"#c9d1d9\" font-size=\"15\" font-weight=\"700\">QQQ DAILY</text><text x=\"16\" y=\"44\" fill=\"#7d8590\" font-size=\"11\">10 / 20 / 50 DAY MA   LAST 3 MONTHS</text><line x1=\"855.8\" y1=\"22\" x2=\"867.8\" y2=\"22\" stroke=\"#a1a1aa\" stroke-width=\"2.5\"/><text x=\"871.8\" y=\"26\" fill=\"#a1a1aa\" font-size=\"11\">MA50 714.57</text><line x1=\"769.5999999999999\" y1=\"22\" x2=\"781.5999999999999\" y2=\"22\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"785.5999999999999\" y=\"26\" fill=\"#3b82f6\" font-size=\"11\">MA20 700.34</text><line x1=\"683.3999999999999\" y1=\"22\" x2=\"695.3999999999999\" y2=\"22\" stroke=\"#f5a524\" stroke-width=\"2.5\"/><text x=\"699.3999999999999\" y=\"26\" fill=\"#f5a524\" font-size=\"11\">MA10 696.98</text><line x1=\"62\" y1=\"320.6\" x2=\"942\" y2=\"320.6\" stroke=\"#30363d\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><text x=\"54\" y=\"324.6\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">650.0</text><line x1=\"62\" y1=\"194.7\" x2=\"942\" y2=\"194.7\" stroke=\"#30363d\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><text x=\"54\" y=\"198.7\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">700.0</text><line x1=\"62\" y1=\"68.7\" x2=\"942\" y2=\"68.7\" stroke=\"#30363d\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><text x=\"54\" y=\"72.7\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">750.0</text><line x1=\"274.9\" y1=\"56\" x2=\"274.9\" y2=\"410\" stroke=\"#30363d\" stroke-width=\"1\" opacity=\"0.5\"/><text x=\"274.9\" y=\"426\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"middle\">JUN</text><line x1=\"573.0\" y1=\"56\" x2=\"573.0\" y2=\"410\" stroke=\"#30363d\" stroke-width=\"1\" opacity=\"0.5\"/><text x=\"573.0\" y=\"426\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"middle\">JUL</text><line x1=\"885.2\" y1=\"56\" x2=\"885.2\" y2=\"410\" stroke=\"#30363d\" stroke-width=\"1\" opacity=\"0.5\"/><text x=\"885.2\" y=\"426\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"middle\">AUG</text><line x1=\"62.0\" y1=\"166.4\" x2=\"62.0\" y2=\"195.9\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"58.0\" y=\"166.4\" width=\"8.0\" height=\"28.5\" fill=\"#2ea043\"/><line x1=\"76.2\" y1=\"157.9\" x2=\"76.2\" y2=\"172.2\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"72.2\" y=\"161.2\" width=\"8.0\" height=\"7.4\" fill=\"#2ea043\"/><line x1=\"90.4\" y1=\"169.0\" x2=\"90.4\" y2=\"203.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"86.4\" y=\"173.9\" width=\"8.0\" height=\"2.5\" fill=\"#f85149\"/><line x1=\"104.6\" y1=\"152.7\" x2=\"104.6\" y2=\"182.5\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"100.6\" y=\"157.6\" width=\"8.0\" height=\"12.0\" fill=\"#2ea043\"/><line x1=\"118.8\" y1=\"139.2\" x2=\"118.8\" y2=\"158.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"114.8\" y=\"144.8\" width=\"8.0\" height=\"13.0\" fill=\"#2ea043\"/><line x1=\"133.0\" y1=\"156.5\" x2=\"133.0\" y2=\"180.7\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"169.1\" width=\"8.0\" height=\"3.0\" fill=\"#f85149\"/><line x1=\"147.2\" y1=\"164.2\" x2=\"147.2\" y2=\"197.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"143.2\" y=\"165.6\" width=\"8.0\" height=\"14.3\" fill=\"#f85149\"/><line x1=\"161.4\" y1=\"178.3\" x2=\"161.4\" y2=\"206.6\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"157.4\" y=\"190.8\" width=\"8.0\" height=\"4.3\" fill=\"#2ea043\"/><line x1=\"175.5\" y1=\"161.5\" x2=\"175.5\" y2=\"185.1\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"171.5\" y=\"161.5\" width=\"8.0\" height=\"19.8\" fill=\"#2ea043\"/><line x1=\"189.7\" y1=\"151.5\" x2=\"189.7\" y2=\"177.6\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"185.7\" y=\"158.1\" width=\"8.0\" height=\"13.9\" fill=\"#2ea043\"/><line x1=\"203.9\" y1=\"138.9\" x2=\"203.9\" y2=\"154.5\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"199.9\" y=\"149.1\" width=\"8.0\" height=\"1.3\" fill=\"#f85149\"/><line x1=\"218.1\" y1=\"116.1\" x2=\"218.1\" y2=\"133.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"214.1\" y=\"118.4\" width=\"8.0\" height=\"10.9\" fill=\"#2ea043\"/><line x1=\"232.3\" y1=\"110.7\" x2=\"232.3\" y2=\"130.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"228.3\" y=\"111.6\" width=\"8.0\" height=\"8.8\" fill=\"#f85149\"/><line x1=\"246.5\" y1=\"102.4\" x2=\"246.5\" y2=\"128.1\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"242.5\" y=\"105.0\" width=\"8.0\" height=\"14.8\" fill=\"#2ea043\"/><line x1=\"260.7\" y1=\"89.8\" x2=\"260.7\" y2=\"105.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"256.7\" y=\"98.1\" width=\"8.0\" height=\"1.2\" fill=\"#2ea043\"/><line x1=\"274.9\" y1=\"79.6\" x2=\"274.9\" y2=\"104.0\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"270.9\" y=\"87.0\" width=\"8.0\" height=\"14.4\" fill=\"#2ea043\"/><line x1=\"289.1\" y1=\"77.7\" x2=\"289.1\" y2=\"95.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"285.1\" y=\"78.4\" width=\"8.0\" height=\"9.5\" fill=\"#2ea043\"/><line x1=\"303.3\" y1=\"72.1\" x2=\"303.3\" y2=\"91.3\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"299.3\" y=\"75.5\" width=\"8.0\" height=\"7.8\" fill=\"#f85149\"/><line x1=\"317.5\" y1=\"85.1\" x2=\"317.5\" y2=\"112.5\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"313.5\" y=\"92.3\" width=\"8.0\" height=\"12.9\" fill=\"#2ea043\"/><line x1=\"331.7\" y1=\"114.8\" x2=\"331.7\" y2=\"183.8\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"327.7\" y=\"118.9\" width=\"8.0\" height=\"63.0\" fill=\"#f85149\"/><line x1=\"345.9\" y1=\"136.6\" x2=\"345.9\" y2=\"161.7\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"341.9\" y=\"149.8\" width=\"8.0\" height=\"4.4\" fill=\"#f85149\"/><line x1=\"360.1\" y1=\"130.0\" x2=\"360.1\" y2=\"229.0\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"356.1\" y=\"136.8\" width=\"8.0\" height=\"38.2\" fill=\"#f85149\"/><line x1=\"374.3\" y1=\"166.2\" x2=\"374.3\" y2=\"212.5\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"370.3\" y=\"190.5\" width=\"8.0\" height=\"20.1\" fill=\"#f85149\"/><line x1=\"388.5\" y1=\"148.4\" x2=\"388.5\" y2=\"207.3\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"384.5\" y=\"151.5\" width=\"8.0\" height=\"44.9\" fill=\"#2ea043\"/><line x1=\"402.6\" y1=\"134.2\" x2=\"402.6\" y2=\"166.2\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"398.6\" y=\"140.9\" width=\"8.0\" height=\"9.4\" fill=\"#2ea043\"/><line x1=\"416.8\" y1=\"81.9\" x2=\"416.8\" y2=\"100.5\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"412.8\" y=\"83.8\" width=\"8.0\" height=\"14.9\" fill=\"#2ea043\"/><line x1=\"431.0\" y1=\"83.3\" x2=\"431.0\" y2=\"120.0\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"427.0\" y=\"88.2\" width=\"8.0\" height=\"31.2\" fill=\"#f85149\"/><line x1=\"445.2\" y1=\"104.8\" x2=\"445.2\" y2=\"142.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"441.2\" y=\"106.0\" width=\"8.0\" height=\"31.9\" fill=\"#f85149\"/><line x1=\"459.4\" y1=\"89.3\" x2=\"459.4\" y2=\"112.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"455.4\" y=\"92.3\" width=\"8.0\" height=\"8.6\" fill=\"#2ea043\"/><line x1=\"473.6\" y1=\"80.2\" x2=\"473.6\" y2=\"108.0\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"469.6\" y=\"88.8\" width=\"8.0\" height=\"10.3\" fill=\"#f85149\"/><line x1=\"487.8\" y1=\"135.2\" x2=\"487.8\" y2=\"164.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"483.8\" y=\"155.0\" width=\"8.0\" height=\"5.3\" fill=\"#f85149\"/><line x1=\"502.0\" y1=\"144.4\" x2=\"502.0\" y2=\"183.4\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"498.0\" y=\"155.9\" width=\"8.0\" height=\"12.0\" fill=\"#f85149\"/><line x1=\"516.2\" y1=\"127.1\" x2=\"516.2\" y2=\"181.3\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"512.2\" y=\"129.4\" width=\"8.0\" height=\"24.0\" fill=\"#f85149\"/><line x1=\"530.4\" y1=\"155.5\" x2=\"530.4\" y2=\"187.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"526.4\" y=\"176.7\" width=\"8.0\" height=\"1.5\" fill=\"#f85149\"/><line x1=\"544.6\" y1=\"132.7\" x2=\"544.6\" y2=\"181.6\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"540.6\" y=\"134.0\" width=\"8.0\" height=\"25.4\" fill=\"#2ea043\"/><line x1=\"558.8\" y1=\"99.9\" x2=\"558.8\" y2=\"134.4\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"554.8\" y=\"103.0\" width=\"8.0\" height=\"30.8\" fill=\"#2ea043\"/><line x1=\"573.0\" y1=\"114.2\" x2=\"573.0\" y2=\"132.7\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"569.0\" y=\"121.1\" width=\"8.0\" height=\"10.1\" fill=\"#f85149\"/><line x1=\"587.2\" y1=\"117.0\" x2=\"587.2\" y2=\"175.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"583.2\" y=\"130.2\" width=\"8.0\" height=\"32.7\" fill=\"#f85149\"/><line x1=\"601.4\" y1=\"129.0\" x2=\"601.4\" y2=\"148.2\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"597.4\" y=\"137.2\" width=\"8.0\" height=\"7.3\" fill=\"#2ea043\"/><line x1=\"615.5\" y1=\"153.5\" x2=\"615.5\" y2=\"182.3\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"611.5\" y=\"159.0\" width=\"8.0\" height=\"11.9\" fill=\"#f85149\"/><line x1=\"629.7\" y1=\"163.8\" x2=\"629.7\" y2=\"192.4\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"625.7\" y=\"165.8\" width=\"8.0\" height=\"16.4\" fill=\"#2ea043\"/><line x1=\"643.9\" y1=\"133.6\" x2=\"643.9\" y2=\"156.5\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"639.9\" y=\"136.0\" width=\"8.0\" height=\"12.5\" fill=\"#2ea043\"/><line x1=\"658.1\" y1=\"128.2\" x2=\"658.1\" y2=\"151.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"654.1\" y=\"130.4\" width=\"8.0\" height=\"12.1\" fill=\"#2ea043\"/><line x1=\"672.3\" y1=\"147.4\" x2=\"672.3\" y2=\"169.3\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"668.3\" y=\"150.0\" width=\"8.0\" height=\"15.1\" fill=\"#f85149\"/><line x1=\"686.5\" y1=\"138.5\" x2=\"686.5\" y2=\"158.5\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"682.5\" y=\"143.7\" width=\"8.0\" height=\"1.3\" fill=\"#f85149\"/><line x1=\"700.7\" y1=\"133.3\" x2=\"700.7\" y2=\"168.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"696.7\" y=\"134.6\" width=\"8.0\" height=\"15.4\" fill=\"#f85149\"/><line x1=\"714.9\" y1=\"160.4\" x2=\"714.9\" y2=\"188.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"710.9\" y=\"164.4\" width=\"8.0\" height=\"15.3\" fill=\"#f85149\"/><line x1=\"729.1\" y1=\"188.9\" x2=\"729.1\" y2=\"228.0\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"725.1\" y=\"206.4\" width=\"8.0\" height=\"9.3\" fill=\"#2ea043\"/><line x1=\"743.3\" y1=\"180.0\" x2=\"743.3\" y2=\"206.0\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"739.3\" y=\"189.2\" width=\"8.0\" height=\"15.4\" fill=\"#f85149\"/><line x1=\"757.5\" y1=\"169.3\" x2=\"757.5\" y2=\"187.6\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"753.5\" y=\"172.1\" width=\"8.0\" height=\"6.0\" fill=\"#2ea043\"/><line x1=\"771.7\" y1=\"170.3\" x2=\"771.7\" y2=\"185.5\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"767.7\" y=\"181.2\" width=\"8.0\" height=\"4.4\" fill=\"#2ea043\"/><line x1=\"785.9\" y1=\"198.0\" x2=\"785.9\" y2=\"225.4\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"781.9\" y=\"208.1\" width=\"8.0\" height=\"6.8\" fill=\"#f85149\"/><line x1=\"800.1\" y1=\"213.2\" x2=\"800.1\" y2=\"238.8\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"796.1\" y=\"218.8\" width=\"8.0\" height=\"15.6\" fill=\"#f85149\"/><line x1=\"814.3\" y1=\"214.1\" x2=\"814.3\" y2=\"255.2\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"810.3\" y=\"215.6\" width=\"8.0\" height=\"24.1\" fill=\"#f85149\"/><line x1=\"828.5\" y1=\"246.6\" x2=\"828.5\" y2=\"275.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"824.5\" y=\"254.5\" width=\"8.0\" height=\"1.9\" fill=\"#f85149\"/><line x1=\"842.6\" y1=\"244.9\" x2=\"842.6\" y2=\"292.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"838.6\" y=\"256.4\" width=\"8.0\" height=\"34.7\" fill=\"#f85149\"/><line x1=\"856.8\" y1=\"232.1\" x2=\"856.8\" y2=\"261.9\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"852.8\" y=\"236.1\" width=\"8.0\" height=\"22.1\" fill=\"#2ea043\"/><line x1=\"871.0\" y1=\"205.3\" x2=\"871.0\" y2=\"244.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"867.0\" y=\"214.5\" width=\"8.0\" height=\"10.4\" fill=\"#f85149\"/><line x1=\"885.2\" y1=\"190.7\" x2=\"885.2\" y2=\"230.4\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"881.2\" y=\"194.5\" width=\"8.0\" height=\"29.7\" fill=\"#2ea043\"/><line x1=\"899.4\" y1=\"130.0\" x2=\"899.4\" y2=\"175.7\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"895.4\" y=\"134.6\" width=\"8.0\" height=\"39.5\" fill=\"#2ea043\"/><line x1=\"913.6\" y1=\"122.8\" x2=\"913.6\" y2=\"152.0\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"909.6\" y=\"128.5\" width=\"8.0\" height=\"22.5\" fill=\"#f85149\"/><line x1=\"927.8\" y1=\"146.0\" x2=\"927.8\" y2=\"173.2\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"923.8\" y=\"157.7\" width=\"8.0\" height=\"9.6\" fill=\"#2ea043\"/><line x1=\"942.0\" y1=\"135.1\" x2=\"942.0\" y2=\"153.0\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"938.0\" y=\"136.6\" width=\"8.0\" height=\"7.2\" fill=\"#2ea043\"/><path d=\"M62.0 249.7 L76.2 237.3 L90.4 224.8 L104.6 211.4 L118.8 198.3 L133.0 189.5 L147.2 181.2 L161.4 176.2 L175.5 171.8 L189.7 166.9 L203.9 165.3 L218.1 161.0 L232.3 155.4 L246.5 150.1 L260.7 145.5 L274.9 137.0 L289.1 126.8 L303.3 116.1 L317.5 109.1 L331.7 111.5 L345.9 111.9 L360.1 117.6 L374.3 126.6 L388.5 131.2 L402.6 135.5 L416.8 135.2 L431.0 139.3 L445.2 144.8 L459.4 144.7 L473.6 136.5 L487.8 137.1 L502.0 136.4 L516.2 130.7 L530.4 133.3 L544.6 132.6 L558.8 134.5 L573.0 135.7 L587.2 138.2 L601.4 142.7 L615.5 149.9 L629.7 150.5 L643.9 147.3 L658.1 145.0 L672.3 143.6 L686.5 144.8 L700.7 149.5 L714.9 154.3 L729.1 158.6 L743.3 165.4 L757.5 165.5 L771.7 167.0 L785.9 174.9 L800.1 185.3 L814.3 192.8 L828.5 203.9 L842.6 218.0 L856.8 223.7 L871.0 225.5 L885.2 224.5 L899.4 220.8 L913.6 217.8 L927.8 212.0 L942.0 202.3\" fill=\"none\" stroke=\"#f5a524\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><path d=\"M62.0 293.4 L76.2 281.3 L90.4 271.4 L104.6 261.7 L118.8 251.7 L133.0 244.1 L147.2 236.7 L161.4 229.5 L175.5 222.2 L189.7 214.2 L203.9 207.5 L218.1 199.2 L232.3 190.1 L246.5 180.8 L260.7 171.9 L274.9 163.2 L289.1 154.0 L303.3 146.1 L317.5 140.5 L331.7 139.2 L345.9 138.6 L360.1 139.3 L374.3 141.0 L388.5 140.7 L402.6 140.5 L416.8 136.1 L431.0 133.1 L445.2 130.4 L459.4 126.9 L473.6 124.0 L487.8 124.5 L502.0 127.0 L516.2 128.6 L530.4 132.3 L544.6 134.1 L558.8 134.9 L573.0 137.5 L587.2 141.5 L601.4 143.7 L615.5 143.2 L629.7 143.8 L643.9 141.8 L658.1 137.8 L672.3 138.5 L686.5 138.7 L700.7 142.0 L714.9 145.0 L729.1 148.4 L743.3 154.1 L757.5 157.7 L771.7 158.7 L785.9 161.1 L800.1 165.1 L814.3 168.2 L828.5 174.3 L842.6 183.7 L856.8 189.0 L871.0 192.1 L885.2 195.0 L899.4 193.1 L913.6 192.4 L927.8 193.5 L942.0 193.8\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><path d=\"M62.0 393.9 L76.2 388.6 L90.4 383.6 L104.6 377.9 L118.8 372.4 L133.0 367.3 L147.2 362.0 L161.4 357.3 L175.5 352.0 L189.7 346.6 L203.9 340.5 L218.1 333.6 L232.3 327.1 L246.5 320.5 L260.7 313.2 L274.9 305.7 L289.1 297.4 L303.3 289.6 L317.5 281.7 L331.7 275.8 L345.9 268.6 L360.1 261.3 L374.3 254.4 L388.5 247.4 L402.6 240.5 L416.8 232.5 L431.0 225.4 L445.2 218.6 L459.4 211.8 L473.6 205.4 L487.8 200.2 L502.0 195.5 L516.2 191.1 L530.4 187.6 L544.6 183.4 L558.8 179.0 L573.0 175.0 L587.2 171.6 L601.4 168.2 L615.5 165.3 L629.7 162.9 L643.9 159.9 L658.1 156.5 L672.3 153.9 L686.5 151.3 L700.7 149.1 L714.9 147.5 L729.1 146.8 L743.3 146.8 L757.5 146.1 L771.7 146.4 L785.9 147.4 L800.1 148.6 L814.3 150.2 L828.5 152.5 L842.6 154.8 L856.8 156.0 L871.0 156.6 L885.2 157.3 L899.4 156.8 L913.6 156.8 L927.8 157.6 L942.0 158.0\" fill=\"none\" stroke=\"#a1a1aa\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><text x=\"62\" y=\"438\" fill=\"#7d8590\" font-size=\"10\">VOLUME</text><rect x=\"58.0\" y=\"490.6\" width=\"8.0\" height=\"37.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"72.2\" y=\"497.6\" width=\"8.0\" height=\"30.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"86.4\" y=\"489.3\" width=\"8.0\" height=\"38.7\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"100.6\" y=\"494.3\" width=\"8.0\" height=\"33.7\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"114.8\" y=\"499.9\" width=\"8.0\" height=\"28.1\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"129.0\" y=\"484.3\" width=\"8.0\" height=\"43.7\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"143.2\" y=\"486.0\" width=\"8.0\" height=\"42.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"157.4\" y=\"488.5\" width=\"8.0\" height=\"39.5\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"171.5\" y=\"497.0\" width=\"8.0\" height=\"31.0\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"185.7\" y=\"497.3\" width=\"8.0\" height=\"30.7\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"199.9\" y=\"500.1\" width=\"8.0\" height=\"27.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"214.1\" y=\"499.1\" width=\"8.0\" height=\"28.9\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"228.3\" y=\"498.4\" width=\"8.0\" height=\"29.6\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"242.5\" y=\"500.3\" width=\"8.0\" height=\"27.7\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"256.7\" y=\"496.3\" width=\"8.0\" height=\"31.7\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"270.9\" y=\"499.4\" width=\"8.0\" height=\"28.6\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"285.1\" y=\"502.6\" width=\"8.0\" height=\"25.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"299.3\" y=\"494.0\" width=\"8.0\" height=\"34.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"313.5\" y=\"493.6\" width=\"8.0\" height=\"34.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"327.7\" y=\"444.0\" width=\"8.0\" height=\"84.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"341.9\" y=\"488.0\" width=\"8.0\" height=\"40.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"356.1\" y=\"450.5\" width=\"8.0\" height=\"77.5\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"370.3\" y=\"472.9\" width=\"8.0\" height=\"55.1\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"384.5\" y=\"467.5\" width=\"8.0\" height=\"60.5\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"398.6\" y=\"484.8\" width=\"8.0\" height=\"43.2\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"412.8\" y=\"488.6\" width=\"8.0\" height=\"39.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"427.0\" y=\"489.8\" width=\"8.0\" height=\"38.2\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"441.2\" y=\"484.4\" width=\"8.0\" height=\"43.6\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"455.4\" y=\"485.7\" width=\"8.0\" height=\"42.3\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"469.6\" y=\"491.3\" width=\"8.0\" height=\"36.7\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"483.8\" y=\"483.0\" width=\"8.0\" height=\"45.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"498.0\" y=\"483.7\" width=\"8.0\" height=\"44.3\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"512.2\" y=\"486.1\" width=\"8.0\" height=\"41.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"526.4\" y=\"488.3\" width=\"8.0\" height=\"39.7\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"540.6\" y=\"490.1\" width=\"8.0\" height=\"37.9\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"554.8\" y=\"492.5\" width=\"8.0\" height=\"35.5\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"569.0\" y=\"493.6\" width=\"8.0\" height=\"34.4\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"583.2\" y=\"485.0\" width=\"8.0\" height=\"43.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"597.4\" y=\"502.5\" width=\"8.0\" height=\"25.5\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"611.5\" y=\"492.2\" width=\"8.0\" height=\"35.8\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"625.7\" y=\"498.0\" width=\"8.0\" height=\"30.0\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"639.9\" y=\"499.6\" width=\"8.0\" height=\"28.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"654.1\" y=\"505.7\" width=\"8.0\" height=\"22.3\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"668.3\" y=\"497.2\" width=\"8.0\" height=\"30.8\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"682.5\" y=\"503.2\" width=\"8.0\" height=\"24.8\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"696.7\" y=\"500.5\" width=\"8.0\" height=\"27.5\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"710.9\" y=\"494.8\" width=\"8.0\" height=\"33.2\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"725.1\" y=\"482.4\" width=\"8.0\" height=\"45.6\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"739.3\" y=\"503.0\" width=\"8.0\" height=\"25.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"753.5\" y=\"499.6\" width=\"8.0\" height=\"28.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"767.7\" y=\"508.0\" width=\"8.0\" height=\"20.0\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"781.9\" y=\"490.9\" width=\"8.0\" height=\"37.1\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"796.1\" y=\"491.8\" width=\"8.0\" height=\"36.2\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"810.3\" y=\"492.0\" width=\"8.0\" height=\"36.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"824.5\" y=\"484.7\" width=\"8.0\" height=\"43.3\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"838.6\" y=\"479.7\" width=\"8.0\" height=\"48.3\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"852.8\" y=\"471.7\" width=\"8.0\" height=\"56.3\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"867.0\" y=\"485.4\" width=\"8.0\" height=\"42.6\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"881.2\" y=\"490.1\" width=\"8.0\" height=\"37.9\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"895.4\" y=\"477.6\" width=\"8.0\" height=\"50.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"909.6\" y=\"499.7\" width=\"8.0\" height=\"28.3\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"923.8\" y=\"500.1\" width=\"8.0\" height=\"27.9\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"938.0\" y=\"503.3\" width=\"8.0\" height=\"24.7\" fill=\"#2ea043\" opacity=\"0.55\"/><text x=\"942\" y=\"550\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">2026-08-07 · $723.03</text></svg>",
+    "chart_png": "charts/qqq-2026-08-08.png",
     "index_dip": {
       "status": "normal",
-      "div200": 12.02,
-      "ko": "지수 200일선 12.02% — 정상 구간"
+      "div200": 11.6,
+      "ko": "지수 200일선 11.6% — 정상 구간"
     }
   },
   "finra": {
@@ -159,163 +159,29 @@ window.TEAM1_DATA = {
         "freeMargin": "D"
       }
     },
-    "fetched_at": "2026-08-05T04:26:18.134Z"
+    "fetched_at": "2026-08-08T02:22:56.329Z"
   },
   "leaders": {
     "stocks": [
       {
-        "ticker": "AEHR",
+        "ticker": "TEAM",
         "sector": "Technology",
-        "industry": "Semiconductor Equipment & Materials",
-        "price": 109.88999938964844,
+        "industry": "Software - Application",
+        "price": 149.07000732421875,
         "bestPct": 99.96,
         "rs": {
-          "m1": 99.96405463695184,
-          "m3": 80.16618497109826,
-          "m6": 99.8191027496382
+          "m1": 99.96395097332372,
+          "m3": 98.87599709934736,
+          "m6": 95.67901234567901
         },
-        "div200": 104.2,
-        "div50": 19.9,
-        "adr": 12.98,
-        "high52": 86.79,
+        "div200": 37.97,
+        "div50": 59.09,
+        "adr": 6.58,
+        "high52": 81.02,
         "overheat": {
           "status": "normal",
-          "label": "정상(+104%)",
-          "div200": 104.2,
-          "threshold": 112
-        }
-      },
-      {
-        "ticker": "CORT",
-        "sector": "Healthcare",
-        "industry": "Biotechnology",
-        "price": 109.80000305175781,
-        "bestPct": 99.96,
-        "rs": {
-          "m1": 92.48741912293315,
-          "m3": 99.96387283236994,
-          "m6": 99.09551374819102
-        },
-        "div200": 76.6,
-        "div50": 27.95,
-        "adr": 5.45,
-        "high52": 89.85,
-        "overheat": {
-          "status": "normal",
-          "label": "정상(+77%)",
-          "div200": 76.6,
-          "threshold": 150
-        }
-      },
-      {
-        "ticker": "MGRT",
-        "sector": "Technology",
-        "industry": "Information Technology Services",
-        "price": 95.5,
-        "bestPct": 99.96,
-        "rs": {
-          "m1": 98.5981308411215,
-          "m3": 1.3367052023121389,
-          "m6": 99.96382054992765
-        },
-        "div200": 119.11,
-        "div50": 16.15,
-        "adr": 8.22,
-        "high52": 56.18,
-        "overheat": {
-          "status": "overheat",
-          "label": "🔥과열(+119%)",
-          "div200": 119.11,
-          "threshold": 112,
-          "note": "고변동성(ADR 8.22%) 기준 +112% 초과 — 분할 차익 검토. 전량 매도는 금지(추세 지속 사례 다수)"
-        }
-      },
-      {
-        "ticker": "FET",
-        "sector": "Energy",
-        "industry": "Oil & Gas Equipment & Services",
-        "price": 74.30000305175781,
-        "bestPct": 99.89,
-        "rs": {
-          "m1": 99.8921639108555,
-          "m3": 94.32803468208093,
-          "m6": 92.65557163531113
-        },
-        "div200": 55.6,
-        "div50": 40.52,
-        "adr": 5.72,
-        "high52": 99.4,
-        "overheat": {
-          "status": "normal",
-          "label": "정상(+56%)",
-          "div200": 55.6,
-          "threshold": 150
-        }
-      },
-      {
-        "ticker": "LQDA",
-        "sector": "Healthcare",
-        "industry": "Drug Manufacturers - Specialty & Generic",
-        "price": 88.37999725341797,
-        "bestPct": 99.89,
-        "rs": {
-          "m1": 75.37742631200575,
-          "m3": 99.89161849710982,
-          "m6": 98.01013024602025
-        },
-        "div200": 93.95,
-        "div50": 19.07,
-        "adr": 6.77,
-        "high52": 97.01,
-        "overheat": {
-          "status": "normal",
-          "label": "정상(+94%)",
-          "div200": 93.95,
-          "threshold": 150
-        }
-      },
-      {
-        "ticker": "AGL",
-        "sector": "Healthcare",
-        "industry": "Medical Care Facilities",
-        "price": 94.77999877929688,
-        "bestPct": 99.89,
-        "rs": {
-          "m1": 5.068296189791517,
-          "m3": 97.86849710982659,
-          "m6": 99.89146164978293
-        },
-        "div200": 119.56,
-        "div50": -10.26,
-        "adr": 9.36,
-        "high52": 71.24,
-        "overheat": {
-          "status": "overheat",
-          "label": "🔥과열(+120%)",
-          "div200": 119.56,
-          "threshold": 112,
-          "note": "고변동성(ADR 9.36%) 기준 +112% 초과 — 분할 차익 검토. 전량 매도는 금지(추세 지속 사례 다수)"
-        }
-      },
-      {
-        "ticker": "HURN",
-        "sector": "Industrials",
-        "industry": "Consulting Services",
-        "price": 152.77999877929688,
-        "bestPct": 99.82,
-        "rs": {
-          "m1": 99.82027318475917,
-          "m3": 83.05635838150289,
-          "m6": 41.13603473227207
-        },
-        "div200": 9.23,
-        "div50": 37.73,
-        "adr": 6.01,
-        "high52": 81.8,
-        "overheat": {
-          "status": "normal",
-          "label": "정상(+9%)",
-          "div200": 9.23,
+          "label": "정상(+38%)",
+          "div200": 37.97,
           "threshold": 150
         }
       },
@@ -323,43 +189,155 @@ window.TEAM1_DATA = {
         "ticker": "SNOW",
         "sector": "Technology",
         "industry": "Software - Application",
-        "price": 316.7699890136719,
-        "bestPct": 99.82,
+        "price": 330.489990234375,
+        "bestPct": 99.96,
         "rs": {
-          "m1": 95.93817397555715,
-          "m3": 99.8193641618497,
-          "m6": 95.54992764109986
+          "m1": 97.29632299927901,
+          "m3": 99.96374184191443,
+          "m6": 95.96949891067538
         },
-        "div200": 49.97,
-        "div50": 25.01,
-        "adr": 5.36,
-        "high52": 98.59,
+        "div200": 55.58,
+        "div50": 26.04,
+        "adr": 5.12,
+        "high52": 99.73,
         "overheat": {
           "status": "normal",
-          "label": "정상(+50%)",
-          "div200": 49.97,
+          "label": "정상(+56%)",
+          "div200": 55.58,
           "threshold": 150
         }
       },
       {
-        "ticker": "NVEC",
+        "ticker": "MGRT",
         "sector": "Technology",
-        "industry": "Semiconductors",
-        "price": 127.7300033569336,
-        "bestPct": 99.75,
+        "industry": "Information Technology Services",
+        "price": 94.8499984741211,
+        "bestPct": 99.96,
         "rs": {
-          "m1": 99.74838245866283,
-          "m3": 96.78468208092485,
-          "m6": 96.92474674384948
+          "m1": 82.58832011535688,
+          "m3": 2.139231327048586,
+          "m6": 99.96368917937546
         },
-        "div200": 65.97,
-        "div50": 25.3,
-        "adr": 7.85,
-        "high52": 95.44,
+        "div200": 111.08,
+        "div50": 14.53,
+        "adr": 7.51,
+        "high52": 55.79,
         "overheat": {
           "status": "normal",
-          "label": "정상(+66%)",
-          "div200": 65.97,
+          "label": "정상(+111%)",
+          "div200": 111.08,
+          "threshold": 150
+        }
+      },
+      {
+        "ticker": "BXC",
+        "sector": "Industrials",
+        "industry": "Industrial Distribution",
+        "price": 89.87999725341797,
+        "bestPct": 99.89,
+        "rs": {
+          "m1": 99.89185291997116,
+          "m3": 99.31109499637418,
+          "m6": 69.75308641975309
+        },
+        "div200": 48.67,
+        "div50": 55.5,
+        "adr": 7.79,
+        "high52": 98.91,
+        "overheat": {
+          "status": "normal",
+          "label": "정상(+49%)",
+          "div200": 48.67,
+          "threshold": 150
+        }
+      },
+      {
+        "ticker": "CORT",
+        "sector": "Healthcare",
+        "industry": "Biotechnology",
+        "price": 110.7699966430664,
+        "bestPct": 99.89,
+        "rs": {
+          "m1": 94.26820475847151,
+          "m3": 99.8912255257433,
+          "m6": 99.01960784313727
+        },
+        "div200": 76.85,
+        "div50": 24.94,
+        "adr": 5.33,
+        "high52": 90.64,
+        "overheat": {
+          "status": "normal",
+          "label": "정상(+77%)",
+          "div200": 76.85,
+          "threshold": 150
+        }
+      },
+      {
+        "ticker": "AGL",
+        "sector": "Healthcare",
+        "industry": "Medical Care Facilities",
+        "price": 95.51000213623047,
+        "bestPct": 99.89,
+        "rs": {
+          "m1": 4.361932227829849,
+          "m3": 92.929659173314,
+          "m6": 99.89106753812636
+        },
+        "div200": 115.82,
+        "div50": -10.05,
+        "adr": 10.61,
+        "high52": 71.79,
+        "overheat": {
+          "status": "overheat",
+          "label": "🔥과열(+116%)",
+          "div200": 115.82,
+          "threshold": 112,
+          "note": "고변동성(ADR 10.61%) 기준 +112% 초과 — 분할 차익 검토. 전량 매도는 금지(추세 지속 사례 다수)"
+        }
+      },
+      {
+        "ticker": "GDXU",
+        "sector": "ETF",
+        "industry": "ETF",
+        "price": 130.42999267578125,
+        "bestPct": 99.82,
+        "rs": {
+          "m1": 99.81975486661861,
+          "m3": 0.3988397389412618,
+          "m6": 0.2541757443718228
+        },
+        "div200": -37.96,
+        "div50": 32.74,
+        "adr": 9.2,
+        "high52": 24.12,
+        "overheat": {
+          "status": "extreme",
+          "label": "🔻극단(-38%)",
+          "div200": -37.96,
+          "threshold": 112,
+          "note": "−30% 이하: 매수 강도 ↑. 단 개별 악재·주도주 탈락 여부를 먼저 점검"
+        }
+      },
+      {
+        "ticker": "VSXY",
+        "sector": "Consumer Cyclical",
+        "industry": "Apparel Retail",
+        "price": 98.54000091552734,
+        "bestPct": 99.82,
+        "rs": {
+          "m1": 96.79163662581111,
+          "m3": 99.81870920957215,
+          "m6": 94.44444444444444
+        },
+        "div200": 70.94,
+        "div50": 22,
+        "adr": 4.72,
+        "high52": 99.27,
+        "overheat": {
+          "status": "normal",
+          "label": "정상(+71%)",
+          "div200": 70.94,
           "threshold": 150
         }
       },
@@ -367,22 +345,44 @@ window.TEAM1_DATA = {
         "ticker": "DELL",
         "sector": "Technology",
         "industry": "Computer Hardware",
-        "price": 467.2699890136719,
-        "bestPct": 99.75,
+        "price": 453.7699890136719,
+        "bestPct": 99.82,
         "rs": {
-          "m1": 85.51401869158879,
-          "m3": 99.7471098265896,
-          "m6": 99.67438494934878
+          "m1": 57.42609949531363,
+          "m3": 99.45612762871646,
+          "m6": 99.81844589687728
         },
-        "div200": 115.8,
-        "div50": 14.96,
-        "adr": 7.71,
-        "high52": 97.98,
+        "div200": 105.25,
+        "div50": 9.22,
+        "adr": 7.86,
+        "high52": 93.43,
         "overheat": {
           "status": "normal",
-          "label": "정상(+116%)",
-          "div200": 115.8,
+          "label": "정상(+105%)",
+          "div200": 105.25,
           "threshold": 150
+        }
+      },
+      {
+        "ticker": "AXTI",
+        "sector": "Technology",
+        "industry": "Semiconductor Equipment & Materials",
+        "price": 88.58000183105469,
+        "bestPct": 99.75,
+        "rs": {
+          "m1": 99.74765681326603,
+          "m3": 1.9941986947063088,
+          "m6": 99.60058097313
+        },
+        "div200": 82.79,
+        "div50": 22.33,
+        "adr": 15.65,
+        "high52": 61.87,
+        "overheat": {
+          "status": "normal",
+          "label": "정상(+83%)",
+          "div200": 82.79,
+          "threshold": 112
         }
       }
     ],
@@ -391,84 +391,81 @@ window.TEAM1_DATA = {
         "name": "Technology",
         "count": 22,
         "tickers": [
-          "AEHR",
-          "MGRT",
+          "TEAM",
           "SNOW",
-          "NVEC",
+          "MGRT",
           "DELL",
-          "MXL",
-          "ZBRA",
-          "NSIT"
+          "AXTI",
+          "BAND",
+          "PAYC",
+          "QLYS"
         ],
         "sharePct": 44
       },
       {
         "name": "Healthcare",
-        "count": 10,
+        "count": 12,
         "tickers": [
           "CORT",
-          "LQDA",
           "AGL",
+          "TWST",
+          "WGS",
           "MNPR",
-          "ITGR",
-          "SYRE",
           "ORKA",
-          "WGS"
+          "SYRE",
+          "HALO"
         ],
-        "sharePct": 20
+        "sharePct": 24
       },
       {
         "name": "Industrials",
-        "count": 6,
+        "count": 5,
         "tickers": [
+          "BXC",
           "HURN",
-          "ATKR",
           "PLPC",
-          "HRI",
-          "CSW",
-          "CDNL"
+          "CDNL",
+          "TPC"
         ],
-        "sharePct": 12
+        "sharePct": 10
       },
       {
         "name": "Consumer Cyclical",
-        "count": 4,
+        "count": 5,
         "tickers": [
-          "CAKE",
           "VSXY",
-          "BABA",
-          "W"
+          "CAKE",
+          "W",
+          "VAC",
+          "SN"
         ],
-        "sharePct": 8
-      },
-      {
-        "name": "Energy",
-        "count": 3,
-        "tickers": [
-          "FET",
-          "PARR",
-          "WHD"
-        ],
-        "sharePct": 6
+        "sharePct": 10
       },
       {
         "name": "Financial Services",
-        "count": 3,
+        "count": 2,
         "tickers": [
           "MKTX",
-          "SAFT",
-          "SEZL"
+          "SAFT"
         ],
-        "sharePct": 6
+        "sharePct": 4
+      },
+      {
+        "name": "ETF",
+        "count": 1,
+        "tickers": [
+          "GDXU"
+        ],
+        "sharePct": 2
       }
     ],
     "market_overheat": {
-      "count": 1390,
+      "count": 1387,
       "over150": 0,
       "over100": 5,
-      "reentry": 44,
-      "max": 134.56,
-      "median": 10.61,
+      "reentry": 37,
+      "max": 115.82,
+      "median": 10.51,
       "ko": "200일선 +150% 초과 0종목 · +100% 초과 5종목 — 과열 임계 미달"
     }
   },
@@ -546,161 +543,8 @@ window.TEAM1_DATA = {
     "note": "AI 인프라 테마"
   },
   "news": {
-    "llm": true,
-    "date": "2026-08-05",
-    "team": 1,
-    "digest": [
-      {
-        "headline": "뉴욕증시 화요일 급등, 5가지 이유로 다시 사상 최고가",
-        "easy": "어제 미국 증시가 크게 올랐고, CNBC는 그 이유를 다섯 가지로 정리했습니다. 반 친구들이 며칠 동안 눈치만 보다가 한 명이 손을 들자 우르르 따라 손을 드는 것과 비슷합니다. 최근 몇 주간 '모멘텀 붕괴'(잘 오르던 인기 종목들이 갑자기 우수수 떨어진 현상) 이후 겁먹고 팔았던 돈이 다시 들어온 겁니다. 실제로 QQQ(나스닥 100 대표 ETF) 종가는 723.85로, 10일선 689.63·20일선 700.6·50일선 715.01을 모두 위로 뚫고 올라와 있습니다. 다만 10일선이 아직 20일선 아래에 있어서(7월 7일 데드크로스 이후 D+20) '가격은 튀었는데 추세는 아직 회복 도장을 못 받은' 어중간한 상태입니다.",
-        "whyMatters": "지수가 사상 최고가라고 해서 지금 아무 종목이나 사도 되는 국면은 아닙니다. 우리 시스템의 QQQ 쿨라매기 판정은 여전히 🔴(10MA<20MA)이므로 신규 진입은 중단, 보유분은 청산 검토가 원칙입니다. 오늘 급등에 흥분해서 원칙을 깨고 추격 매수하면, 반등이 하락 추세 안의 일시적 되돌림이었을 때 가장 비싼 자리에서 물립니다. 지금은 관심종목 리스트만 정비하고, 10일선이 20일선을 다시 위로 뚫는 골든크로스를 확인한 뒤 들어가는 게 맞습니다.",
-        "impact": "up",
-        "sources": [
-          {
-            "title": "The stock market soars. 5 reasons behind the big surge Tuesday",
-            "publisher": "CNBC Top News",
-            "url": "https://www.cnbc.com/2026/08/04/the-stock-market-soars-5-reasons-behind-the-big-surge-tuesday.html",
-            "date": "2026-08-04",
-            "verified": "ok",
-            "httpStatus": 200
-          }
-        ]
-      },
-      {
-        "headline": "마이클 버리 \"지금은 대형 천장 근처, 1987년식 폭락 가능\" — 마진부채 +49%가 뒷받침",
-        "easy": "영화 '빅쇼트'로 유명한 마이클 버리가 이번 상승장에 반대 베팅(주가가 떨어져야 돈을 버는 거래)을 걸었습니다. 그는 지금이 '큰 꼭대기' 근처이며 1987년 같은 하루 폭락도 가능하다고 말했습니다. 한 사람의 의견이라 그대로 믿을 필요는 없지만, 우리 데이터에도 비슷한 경고등이 켜져 있습니다. FINRA 고객 마진부채(투자자들이 증권사에서 돈을 빌려 주식을 산 총액)가 전년 대비 +49.0%로, 경고선인 +40%를 넘었습니다. 이건 반 친구들 절반이 용돈을 미리 당겨 쓰고 게임기를 산 상태라, 한 명이 팔기 시작하면 연쇄적으로 팔 수밖에 없는 구조라는 뜻입니다.",
-        "whyMatters": "빌린 돈이 많은 시장은 떨어질 때 '조금 떨어지는' 게 아니라 강제청산(마진콜)이 연쇄로 터지면서 계단식으로 무너집니다. 즉 내 종목의 하락 폭이 평소보다 훨씬 커질 수 있다는 뜻이므로, 손절선을 평소보다 타이트하게 잡고 한 종목당 비중을 줄여야 합니다. 특히 신용·미수로 산 물량이 있다면 지금 정리하는 게 우선입니다. 마진부채 +49%와 QQQ 데드크로스가 동시에 켜진 상태는 공격이 아니라 방어를 하라는 신호입니다.",
-        "impact": "down",
-        "sources": [
-          {
-            "title": "Michael Burry bets against rally: 'We are near a major top, and possible a 1987-type fall'",
-            "publisher": "CNBC Top News",
-            "url": "https://www.cnbc.com/2026/08/04/michael-burry-bets-against-rally-we-are-near-a-major-top.html",
-            "date": "2026-08-04",
-            "verified": "ok",
-            "httpStatus": 200
-          }
-        ]
-      },
-      {
-        "headline": "AMD 매출 +50%·데이터센터 2배인데 주가는 하락 — '좋은 실적'의 함정",
-        "easy": "AMD가 매출이 1년 전보다 50% 늘고 데이터센터(AI 서버용 칩) 매출은 두 배가 됐다고 발표했는데, 주가는 오히려 떨어졌습니다. 시험을 90점 맞았는데 엄마가 '너는 95점 맞을 줄 알았는데'라며 실망한 상황입니다. 주가에는 이미 '아주 잘할 것'이라는 기대가 미리 반영돼(선반영) 있었기 때문입니다. 이게 지금 시장이 얼마나 높은 기대를 안고 있는지 보여주는 온도계입니다.",
-        "whyMatters": "주도 섹터 구성이 Technology 22종목(44%)으로 절반 가까이 되기 때문에, AI 반도체 대장주가 '좋은 실적에도 하락'하는 패턴은 내 포트폴리오 전체에 직결됩니다. 실적 발표를 앞둔 기술주를 들고 있다면, 실적이 좋아도 주가는 빠질 수 있다는 전제로 발표 전 비중을 줄이는 게 안전합니다. 반대로 실적 후 하락을 다 소화하고 거래량과 함께 다시 이전 고점을 넘어서는 종목은 진짜 강한 종목이므로 관심종목에 넣어둘 가치가 있습니다.",
-        "impact": "down",
-        "sources": [
-          {
-            "title": "AMD's revenue climbs 50% and data center sales doubled, but the stock is down",
-            "publisher": "CNBC Top News",
-            "url": "https://www.cnbc.com/2026/08/04/amd-earnings-report-q2-2026.html",
-            "date": "2026-08-04",
-            "verified": "ok",
-            "httpStatus": 200
-          }
-        ]
-      },
-      {
-        "headline": "'모멘텀 붕괴' 때 안 팔고 버틴 투자자가 보상받았다 — 그래도 규칙이 먼저",
-        "easy": "최근 잘 나가던 인기 주식들이 한꺼번에 무너진 '모멘텀 크래시'가 있었는데, 그때 팔지 않고 가만히 있던 사람들이 지수가 사상 최고가로 돌아오면서 이익을 봤다는 기사입니다. 다만 이건 '결과를 알고 난 뒤의 이야기'라 조심해야 합니다. 롤러코스터에서 안전바를 안 잡고도 무사히 내린 사람 이야기지, 안전바를 잡지 말라는 뜻은 아닙니다. 실제로 우리 데이터에서 200일선 대비 +150%를 넘은 과열 종목 수는 0개로, 개별 종목 단에서는 아직 새로운 강세 주도주가 만들어지지 않았습니다.",
-        "whyMatters": "'버티면 된다'는 이야기는 지수(ETF)에는 맞을 수 있어도 개별 종목에는 자주 틀립니다. 지수는 망한 종목을 알아서 빼고 새 종목을 넣지만 내 계좌는 그렇게 안 되기 때문입니다. 200일선 +150% 초과 종목이 0개라는 건 지금 시장에 확실한 주도주가 없다는 뜻이므로, 신규 진입을 서두를 이유가 없습니다. 손절 규칙은 그대로 유지하고, 새 주도주가 나타날 때까지 현금 비중을 지키는 것이 낫습니다.",
-        "impact": "neutral",
-        "sources": []
-      },
-      {
-        "headline": "크레이머 \"한 헤지펀드의 붕괴가 기술주 반등의 길을 텄다\" — 상승의 원인이 실적이 아니라 청산",
-        "easy": "짐 크레이머는 이번 기술주 반등이 좋은 뉴스 때문이 아니라, 어떤 헤지펀드(큰돈을 굴리는 전문 투자 회사)가 무너지면서 그동안 억지로 쏟아내던 매도 물량이 사라졌기 때문이라고 설명했습니다. 수도관을 막고 있던 이물질이 빠지자 물이 갑자기 콸콸 흐른 것과 같습니다. 즉 회사들이 갑자기 돈을 더 잘 벌게 된 게 아니라, '파는 사람이 없어져서' 오른 겁니다. 이런 상승은 시작은 강해 보이지만 새로운 매수 이유가 뒤따르지 않으면 오래가지 못합니다.",
-        "whyMatters": "내 종목이 어제 크게 올랐다면 '실적·수주 같은 진짜 촉매가 있었나, 아니면 그냥 시장을 따라 올랐나'를 구분해야 합니다. 촉매 없이 시장 물살에만 올라탄 반등은 되돌림이 빠르므로 익절 구간을 짧게 잡는 게 맞습니다. 또 헤지펀드 붕괴는 레버리지(빌린 돈) 문제가 아직 시장에 남아 있다는 증거이며, 마진부채 +49.0% 경고와 같은 방향을 가리킵니다. 변동성이 커진 구간이니 포지션 크기를 평소보다 줄이세요.",
-        "impact": "neutral",
-        "sources": [
-          {
-            "title": "Jim Cramer says one hedge fund's collapse cleared the way for tech's rally",
-            "publisher": "CNBC Top News",
-            "url": "https://www.cnbc.com/2026/08/04/cramer-one-hedge-fund-collapse-cleared-way-for-tech-rally.html",
-            "date": "2026-08-04",
-            "verified": "ok",
-            "httpStatus": 200
-          }
-        ]
-      },
-      {
-        "headline": "'베이비 아이폰'과 애플 협력사 유출 정황 — 중국의 공급망 견제가 계속된다",
-        "easy": "애플이 준비 중인 작은 아이폰과 관련해, 인도 타타 일렉트로닉스 등 애플 협력사에서 정보가 새어 나간 정황이 중국의 최근 공급망 조치들과 연결돼 있다는 기사입니다. 애플은 공장을 중국 밖(인도)으로 옮기려 하고, 중국은 그게 못마땅해서 부품과 인력을 붙잡아 두려는 줄다리기입니다. 한쪽이 줄을 당길 때마다 제품 출시 일정과 원가가 흔들립니다. 스마트폰 한 대에 들어가는 부품 하나만 막혀도 전체 생산이 멈추기 때문입니다.",
-        "whyMatters": "애플 공급망에 물려 있는 부품·조립·반도체 종목은 이런 뉴스에 실적과 무관하게 급등락합니다. 기술주가 주도 섹터의 44%(22종목)를 차지하는 지금 구조에서는, 지정학 뉴스 한 방이 포트폴리오 절반을 동시에 흔들 수 있다는 뜻입니다. 내 종목이 특정 고객사(애플) 매출 의존도가 높은지 확인하고, 같은 공급망에 속한 종목을 여러 개 들고 있다면 그건 분산이 아니라 한 종목에 몰빵한 것과 같습니다. 헬스케어 10종목(20%)·산업재 6종목(12%) 같은 다른 축으로 위험을 나눠 두는 편이 낫습니다.",
-        "impact": "neutral",
-        "sources": [
-          {
-            "title": "How the 'Baby iPhone' and an Apple supplier leak explain China's recent supply chain moves",
-            "publisher": "CNBC Top News",
-            "url": "https://www.cnbc.com/2026/08/04/china-apple-india-tata-electronics.html",
-            "date": "2026-08-04",
-            "verified": "ok",
-            "httpStatus": 200
-          }
-        ]
-      },
-      {
-        "headline": "업스타트, AI 심사 고도화로 대출 증가 — AI 수혜가 금융으로 번지는 신호",
-        "easy": "업스타트(Upstart)는 AI로 '이 사람에게 돈을 빌려줘도 되는지'를 판단하는 대출 회사인데, AI 성능을 개선한 뒤 대출이 늘면서 주가가 올랐습니다. 지금까지 AI로 돈을 번 건 주로 칩·서버를 파는 회사였는데, 이제 AI를 '가져다 쓰는' 회사도 실제 매출이 늘기 시작한 겁니다. 곡괭이를 팔던 사람만 돈을 벌다가, 그 곡괭이로 금을 캐는 사람도 돈을 벌기 시작한 셈입니다. 다만 대출 회사는 경기가 나빠지면 못 받는 돈이 늘어 타격이 큰 업종이기도 합니다.",
-        "whyMatters": "AI 수혜의 범위가 반도체 밖으로 넓어지면, 다음 주도주 후보가 반도체가 아닌 곳에서 나올 수 있습니다. 기술주 편중(44%)을 줄이면서도 성장 스토리를 유지할 대안을 찾을 때 참고할 만한 단서입니다. 다만 마진부채 +49.0%로 레버리지가 과열된 국면에서 대출 관련주는 시장이 꺾일 때 낙폭이 가장 큰 부류이므로, 진입하더라도 소액으로 시작하고 QQQ 판정이 🔴에서 벗어난 뒤에 비중을 늘리는 게 안전합니다.",
-        "impact": "up",
-        "sources": []
-      }
-    ],
-    "marketNarrative": "어제 미국 증시는 크게 올라 사상 최고가 부근으로 돌아왔지만, 속을 들여다보면 아직 안심할 상태가 아닙니다. QQQ 종가는 723.85로 10일선 689.63·20일선 700.6·50일선 715.01을 모두 위로 넘어섰지만, 10일선이 여전히 20일선 아래에 있어(7월 7일 데드크로스 이후 D+20) 쿨라매기 판정은 🔴 — 신규 진입 중단, 보유분 청산 검토 구간입니다. 즉 '가격은 튀어 올랐는데 추세는 아직 회복 확인 도장을 못 받은' 어중간한 상태입니다. 게다가 이번 반등의 이유가 기업 실적 개선이 아니라 한 헤지펀드의 붕괴로 매도 물량이 사라진 것이라는 해석이 나오고, 마이클 버리는 아예 '1987년식 폭락' 가능성까지 언급했습니다. 우리 데이터도 같은 방향입니다. FINRA 고객 마진부채가 전년 대비 +49.0%로 경고선 +40%를 훌쩍 넘어 레버리지 과열 상태이고, 200일선 대비 +150%를 넘은 종목은 0개로 새 주도주는 아직 나오지 않았습니다. 주도 섹터는 Technology 22종목(44%)·Healthcare 10종목(20%)·Industrials 6종목(12%)으로 여전히 기술주 쏠림이 크고, AMD처럼 매출이 50% 늘어도 주가가 빠지는 걸 보면 기대치가 이미 한껏 높아져 있다는 뜻입니다.",
-    "keyRisks": [
-      "레버리지 과열: FINRA 고객 마진부채 YoY +49.0%로 경고선(+40%)을 초과. 빌린 돈이 많은 시장은 하락 시 강제청산(마진콜)이 연쇄로 터져 낙폭이 평소보다 훨씬 커진다",
-      "추세 미회복: QQQ 종가 723.85가 MA10/20/50을 모두 넘었지만 10MA가 20MA 아래(데드크로스 D+20)여서 판정은 여전히 🔴. 지수 최고가에 흥분한 추격 매수가 가장 위험한 자리가 될 수 있다",
-      "기대치 과열: AMD가 매출 +50%·데이터센터 2배에도 주가 하락. 실적이 좋아도 주가는 빠지는 국면이라 실적 발표를 앞둔 기술주는 이벤트 리스크가 크다",
-      "상승의 질 불량: 이번 기술주 반등이 헤지펀드 붕괴로 매도 압력이 사라진 결과라는 해석. 새 매수 이유가 뒤따르지 않으면 되돌림이 빠르다",
-      "섹터 쏠림: 주도 섹터 중 Technology가 22종목(44%)으로 절반 가까움. 애플-중국 공급망 갈등 같은 지정학 뉴스 한 건에 포트폴리오 절반이 동시에 흔들릴 수 있다",
-      "주도주 부재: 200일선 +150% 초과 종목 0개. 강하게 끌고 갈 새 주도주가 없어 지금 진입해도 수익이 나올 자리가 마땅치 않다",
-      "공매도 대가의 천장 경고: 마이클 버리의 '1987년식 폭락' 발언은 한 사람의 의견이지만, 마진부채 지표와 방향이 일치한다는 점에서 무시하기 어렵다"
-    ],
-    "easySummary": [
-      "어제 증시는 크게 올라 사상 최고가 부근이지만, QQQ는 10일선이 20일선 아래라 우리 규칙상 판정은 여전히 🔴 — 신규 진입 중단, 보유분 청산 검토입니다.",
-      "빚내서 산 돈(마진부채)이 1년 전보다 +49.0%나 늘어 과열 경고가 켜졌고, 마이클 버리는 '큰 천장'을 경고했습니다. 떨어질 때 낙폭이 커질 수 있는 구조입니다.",
-      "AMD는 매출 +50%인데도 주가가 빠졌고 200일선 +150% 초과 종목은 0개 — 확실한 주도주가 없습니다. 지금은 사는 시간이 아니라 관심종목을 정리하며 기다릴 시간입니다."
-    ],
-    "candidateCount": 8,
-    "verified": {
-      "checked": 64,
-      "ok": 51,
-      "unverified": 15,
-      "dead": 8,
-      "stripped": 4,
-      "removed": [
-        {
-          "reason": "링크 죽음(HTTP 401)",
-          "url": "https://www.marketwatch.com/story/stocks-return-to-record-highs-investors-who-sat-tight-during-the-recent-momentum-crash-are-being-rewarded-8c960105?mod=mw_rss_topstories"
-        },
-        {
-          "reason": "링크 죽음(HTTP 401)",
-          "url": "https://www.marketwatch.com/story/upstarts-ai-upgrades-pay-off-as-a-pickup-in-loan-growth-helps-send-the-stock-higher-32e7ec9d?mod=mw_rss_topstories"
-        },
-        {
-          "reason": "링크 죽음(HTTP 500)",
-          "url": "https://finance.yahoo.com/quote/SCDL/"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-netapp-ntap-26-4-081130000.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://softwarestrategiesblog.com/2026/03/24/information-security-spending-2026/"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/aehr-test-systems-stock-soars-160500247.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lqda-stock-soars-129-7-162200821.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-estimates-moving-higher-liquidia-162002211.html"
-        }
-      ]
-    }
+    "llm": false,
+    "digest": [],
+    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
   }
 };

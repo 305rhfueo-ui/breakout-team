@@ -1,5 +1,5 @@
 window.TEAM2_DATA = {
-  "generated": "2026-08-05",
+  "generated": "2026-08-08",
   "stats": {
     "universe": 1412,
     "byPeriod": {
@@ -7,13 +7,13 @@ window.TEAM2_DATA = {
       "m3": 28,
       "m6": 28
     },
-    "unionTop": 72,
+    "unionTop": 71,
     "afterAdr": 58,
-    "afterMa150": 54,
+    "afterMa150": 55,
     "ma150Unknown": 0,
     "dropped": {
-      "adr": 14,
-      "ma150": 4
+      "adr": 13,
+      "ma150": 3
     },
     "threshold": 98
   },
@@ -24,705 +24,87 @@ window.TEAM2_DATA = {
   },
   "picks": [
     {
-      "ticker": "AEHR",
-      "price": 109.88999938964844,
-      "marketCap": "2.99B",
+      "ticker": "TEAM",
+      "price": 149.07000732421875,
+      "marketCap": "27.96B",
       "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
+      "industry": "Software - Application",
       "rs": {
         "m1": {
-          "v": 0.6416192916311448,
-          "pct": 99.96405463695184
+          "v": 0.6775827852836313,
+          "pct": 99.96395097332372
         },
         "m3": {
-          "v": 0.20414197695949657,
-          "pct": 80.16618497109826
+          "v": 0.7537647920496323,
+          "pct": 98.87599709934736
         },
         "m6": {
-          "v": 3.0957882855807783,
-          "pct": 99.8191027496382
+          "v": 0.766651009439093,
+          "pct": 95.67901234567901
         }
       },
       "qualifiedBy": [
         "1mo",
-        "6mo"
+        "3mo"
       ],
-      "bestPct": 99.96405463695184,
-      "adr": 12.98,
-      "cyTrend": 400,
-      "nyTrend": 361.11,
-      "upCount": 6,
-      "downCount": 1,
-      "upDownRatio": 85.71,
-      "bbwthd": 0.57,
-      "bbwthdLow": 0.28,
-      "high52": 86.79,
-      "volx": 1.33,
-      "volSurgeWk": 1.39,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": true,
-      "jeongbae": false,
-      "div10": 32.45,
-      "div50": 19.9,
-      "div200": 104.2,
-      "ret1m": 64.16,
-      "ret3m": 20.41,
-      "ret6m": 309.58,
-      "maxRise1m": 75.3,
-      "maxRise3m": 99.97,
-      "maxRise6m": 387,
-      "brk60d": false,
-      "clsPos": 93.39,
-      "ma150Slope": 13.62,
-      "ta": {
-        "price": 109.89,
-        "resistance": 121.8,
-        "support": 86.58,
-        "contraction": 1.07,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": -0.0205,
-        "m3": 0.1549,
-        "m6": 0.3847,
-        "rankPct6": 4.32,
-        "count": 23
-      },
-      "research": {
-        "status": "done",
-        "company": "에흐르 테스트 시스템스(Aehr Test Systems)는 반도체 칩을 출하하기 전에 고온·고전압 환경에서 미리 혹사시켜(번인, burn-in) 불량품을 걸러내는 검사 장비를 만드는 회사예요. 원래는 전기차용 실리콘카바이드(SiC) 반도체 검사가 주력이었는데, 최근에는 AI 서버용 반도체와 광통신(실리콘 포토닉스) 부품 검사 쪽으로 사업이 빠르게 확대되고 있습니다.",
-        "whyRose": [
-          {
-            "id": "w1",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
-          },
-          {
-            "id": "w2",
-            "statement": "2027회계연도(2027년 6월 마감) 매출 가이던스로 1억3,000만~1억5,000만달러(전년比 160~200% 성장)를 제시했고, 분기 신규수주 6,070만달러(사상최대)로 실효 백로그(수주잔고)가 1억60만달러까지 늘어나 실적 가시성이 크게 높아졌다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Aehr Test Systems Reports Fiscal 2026 Fourth Quarter and Full Year Financial Results with Record Quarterly Bookings and $100 Million Effective Backlog",
-                "publisher": "Aehr Test Systems (공식 보도자료)",
-                "url": "https://www.aehr.com/2026/07/aehr-test-systems-reports-fiscal-2026-fourth-quarter-and-full-year-financial-results-with-record-quarterly-bookings-and-100-million-effective-backlog/",
-                "date": "2026-07-14",
-                "quote": "For the fiscal year ending June 25, 2027, Aehr expects total company revenue to be between $130 million and $150 million, representing approximately 160%-200% year-over-year growth.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w3",
-            "statement": "실적 발표 전후로 신규 수주 소식이 이어졌다. 중국 전기차 프로그램 확대에 따른 실리콘카바이드 웨이퍼레벨 번인 신규주문 약 800만달러(세계적 완성차업체 1곳의 품질인증 주문 포함)와, 주요 실리콘포토닉스 고객사로부터 AI 데이터센터용 광인터커넥트향 FOX-XP 장비 후속 발주를 확보했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "AEHR Stock Surges As Traders Pile Into AI And EV Test Play",
-                "publisher": "StocksToTrade",
-                "url": "https://stockstotrade.com/news/aehr-test-systems-aehr-news-2026_07_21-2/",
-                "date": "2026-07-21",
-                "quote": "AEHR is winning over $8M in new silicon carbide wafer-level burn-in orders tied to expanding EV programs in China and a qualification order from one of the world's top automakers... landed a follow-on FOX-XP system order from its lead silicon photonics customer, aimed at high-volume AI optical interconnects for hyperscale data centers.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w4",
-            "statement": "실적 발표 직후 증권사들이 일제히 목표주가를 큰 폭으로 상향했다(7/15 Craig Hallum $68→$125 유지매수, 7/15 Lake Street $56→$110 유지매수, 7/16 Freedom Capital hold→strong-buy 상향, 7/17 Zacks Research hold→strong-buy 상향).",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Aehr Test Systems (AEHR) – Investment Analysts' Recent Ratings Updates",
-                "publisher": "MarketsDaily",
-                "url": "https://www.themarketsdaily.com/2026/08/03/aehr-test-systems-aehr-investment-analysts-recent-ratings-updates.html",
-                "date": "2026-08-03",
-                "quote": "7/15/2026 – Aehr Test Systems had its \"buy\" rating reaffirmed by Craig Hallum. They now have a $125.00 price target on the stock.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "estimateRevisions": {
-          "direction": "raised",
-          "claims": [
-            {
-              "id": "e1",
-              "statement": "Lake Street는 실적 발표 전 자체 2027회계연도 매출 추정치가 약 8,400만달러였는데, 회사가 제시한 1억3,000만~1억5,000만달러(160~200% 성장) 가이던스가 이를 '크게 상회'했다며 목표주가를 56달러→110달러로 두 배 가까이 상향했다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "TipRanks: Aehr Test Systems $AEHR price target raised to $110 from $56 at Lake Street",
-                  "publisher": "TipRanks (X/Twitter)",
-                  "url": "https://x.com/TipRanks/status/2077379833206649225",
-                  "date": "2026-07-15",
-                  "quote": "the company guided FY27 revenue growth of 160%-200%, which was \"well above\" the firm's prior estimate of $84M, the analyst tells investors in a post-earnings note.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "e2",
-              "statement": "Craig Hallum도 같은 날 실적발표 이후 목표주가를 68달러에서 125달러로 상향하며 매수 의견을 유지했다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Aehr Test Systems (AEHR) – Investment Analysts' Recent Ratings Updates",
-                  "publisher": "MarketsDaily",
-                  "url": "https://www.themarketsdaily.com/2026/08/03/aehr-test-systems-aehr-investment-analysts-recent-ratings-updates.html",
-                  "date": "2026-08-03",
-                  "quote": "7/15/2026 – Aehr Test Systems had its \"buy\" rating reaffirmed by Craig Hallum. They now have a $125.00 price target on the stock.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ]
-        },
-        "themeTags": [
-          "AI 인프라",
-          "반도체 장비",
-          "실리콘포토닉스",
-          "전기차(SiC) 반도체"
-        ],
-        "upcomingCatalyst": {
-          "what": "2027회계연도 1분기(2026.9월 마감분기) 실적 발표 — 과거 발표 패턴 기준 추정치이며 회사 공식 확정 일정은 미확인",
-          "date": "2026-10-01(추정, 미확정)",
-          "sources": [
-            {
-              "title": "Aehr Test (AEHR) Earnings Dates, Call Summary & Reports",
-              "publisher": "TipRanks",
-              "url": "https://www.tipranks.com/stocks/aehr/earnings",
-              "date": "2026-08-05",
-              "quote": "Aehr Test Systems's next earnings date is estimated for October 1, 2026, based on past reporting schedules",
-              "verified": "unverified",
-              "httpStatus": 403
-            }
-          ]
-        },
-        "confidence": "high",
-        "ticker": "AEHR",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reasons": []
-        }
-      },
-      "detail": {
-        "fetchedAt": "2026-08-05",
-        "nameKo": "에흐르 테스트 시스템스",
-        "nameEn": "AEHR TEST SYSTEMS",
-        "infomaxCode": "NAS:AEHR",
-        "financials": {
-          "ok": true,
-          "ticker": "AEHR",
-          "cik": "0001040470",
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "profitIsOperating": true,
-          "tags": {
-            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
-            "profit": "OperatingIncomeLoss",
-            "netIncome": "NetIncomeLoss"
-          },
-          "quarters": [
-            {
-              "periodStart": "2026-02-27",
-              "periodEnd": "2026-05-29",
-              "derived": true,
-              "revenue": 18835000,
-              "profit": -1206000,
-              "netIncome": 1391000,
-              "margin": -6.4,
-              "yoy": {
-                "revenue": 33.7,
-                "profit": 62.4,
-                "netIncome": 148,
-                "priorEnd": "2025-05-30"
-              }
-            },
-            {
-              "periodStart": "2025-11-29",
-              "periodEnd": "2026-02-27",
-              "derived": false,
-              "revenue": 10313000,
-              "profit": -4229000,
-              "netIncome": -3203000,
-              "margin": -41,
-              "yoy": {
-                "revenue": -43.7,
-                "profit": -277.9,
-                "netIncome": -398.1,
-                "priorEnd": "2025-02-28"
-              }
-            },
-            {
-              "periodStart": "2025-08-30",
-              "periodEnd": "2025-11-28",
-              "derived": false,
-              "revenue": 9884000,
-              "profit": -4648000,
-              "netIncome": -3230000,
-              "margin": -47,
-              "yoy": {
-                "revenue": -26.5,
-                "profit": -207.2,
-                "netIncome": -214.2,
-                "priorEnd": "2024-11-29"
-              }
-            },
-            {
-              "periodStart": "2025-05-31",
-              "periodEnd": "2025-08-29",
-              "derived": false,
-              "revenue": 10969000,
-              "profit": -4066000,
-              "netIncome": -2084000,
-              "margin": -37.1,
-              "yoy": {
-                "revenue": -16.4,
-                "profit": -2657.2,
-                "netIncome": -415.8,
-                "priorEnd": "2024-08-30"
-              }
-            }
-          ],
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001040470&type=10-Q"
-        },
-        "news": {
-          "ok": true,
-          "ticker": "AEHR",
-          "items": [
-            {
-              "title": "Microsoft vs. Aehr Test Systems: Comparing Revenue Trends Between These Artificial Intelligence Companies",
-              "url": "https://www.nasdaq.com/articles/microsoft-vs-aehr-test-systems-comparing-revenue-trends-between-these-artificial",
-              "date": "2026-08-04",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MSFT",
-                "MSFT",
-                "AEHR"
-              ]
-            },
-            {
-              "title": "An Aehr Test Systems Insider Sells Shares Worth $2.5 Million as the Stock Soars. Here's a Closer Look at the Transaction.",
-              "url": "https://www.nasdaq.com/articles/aehr-test-systems-insider-sells-shares-worth-25-million-stock-soars-heres-closer-look",
-              "date": "2026-08-04",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "AEHR",
-                "AEHR"
-              ]
-            },
-            {
-              "title": "Aehr Test Systems vs. C3.ai: Which Technology Stock Is a Better Buy in 2026?",
-              "url": "https://www.nasdaq.com/articles/aehr-test-systems-vs-c3ai-which-technology-stock-better-buy-2026",
-              "date": "2026-08-02",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "AEHR",
-                "AEHR",
-                "AI"
-              ]
-            },
-            {
-              "title": "Why Aehr Test Systems (AEHR) Might be Well Poised for a Surge",
-              "url": "https://www.nasdaq.com/articles/why-aehr-test-systems-aehr-might-be-well-poised-surge-0",
-              "date": "2026-07-31",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "AEHR"
-              ]
-            },
-            {
-              "title": "Can Aehr Test Systems (AEHR) Climb 49.6% to Reach the Level Wall Street Analysts Expect?",
-              "url": "https://www.nasdaq.com/articles/can-aehr-test-systems-aehr-climb-496-reach-level-wall-street-analysts-expect-0",
-              "date": "2026-07-31",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "AEHR"
-              ]
-            },
-            {
-              "title": "FORM vs. AEHR: Which Semi Test Equipment Stock is a Better Buy?",
-              "url": "https://www.nasdaq.com/articles/form-vs-aehr-which-semi-test-equipment-stock-better-buy",
-              "date": "2026-07-30",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "FORM",
-                "AEHR"
-              ]
-            },
-            {
-              "title": "Here's Why Aehr Test Systems (AEHR) Could be Great Choice for a Bottom Fisher",
-              "url": "https://www.nasdaq.com/articles/heres-why-aehr-test-systems-aehr-could-be-great-choice-bottom-fisher",
-              "date": "2026-07-28",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "AEHR"
-              ]
-            },
-            {
-              "title": "Is Aehr Test Systems (AEHR) Stock Outpacing Its Computer and Technology Peers This Year?",
-              "url": "https://www.nasdaq.com/articles/aehr-test-systems-aehr-stock-outpacing-its-computer-and-technology-peers-year",
-              "date": "2026-07-20",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "AEHR",
-                "CSCO"
-              ]
-            }
-          ],
-          "directCount": 8,
-          "total": 9,
-          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-07-14",
-            "reportDate": "2026-07-14",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426006655/aehr_8k.htm",
-            "description": "FORM 8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-04-20",
-            "reportDate": "2026-04-17",
-            "items": [
-              "8.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426003746/aehr_8k.htm",
-            "description": "FORM 8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-04-08",
-            "reportDate": "2026-04-08",
-            "items": [
-              "1.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "중요 계약 체결",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426003355/aehr_8k.htm",
-            "description": "FORM 8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-04-07",
-            "reportDate": "2026-04-07",
-            "items": [
-              "2.02",
-              "5.03",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "5.03",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426003310/aehr_8k.htm",
-            "description": "FORM 8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-01-08",
-            "reportDate": "2026-01-08",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426000197/aehr_8k.htm",
-            "description": "FORM 8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2025-11-07",
-            "reportDate": "2025-10-21",
-            "items": [
-              "5.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "임원 변동",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495425012704/aehr_8k.htm",
-            "description": "FORM 8-K"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": [],
-          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
-        }
-      },
-      "nameKo": "에흐르 테스트 시스템스",
-      "nameEn": "AEHR TEST SYSTEMS"
-    },
-    {
-      "ticker": "CORT",
-      "price": 109.80000305175781,
-      "marketCap": "12.19B",
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "rs": {
-        "m1": {
-          "v": 0.16758828139939191,
-          "pct": 92.48741912293315
-        },
-        "m3": {
-          "v": 1.1508326090639152,
-          "pct": 99.96387283236994
-        },
-        "m6": {
-          "v": 1.6800097578779967,
-          "pct": 99.09551374819102
-        }
-      },
-      "qualifiedBy": [
-        "3mo",
-        "6mo"
-      ],
-      "bestPct": 99.96387283236994,
-      "adr": 5.45,
-      "cyTrend": 367.69,
-      "nyTrend": 71.14,
-      "upCount": 8,
-      "downCount": 3,
-      "upDownRatio": 72.73,
-      "bbwthd": 0.39,
-      "bbwthdLow": 0.11,
-      "high52": 89.85,
-      "volx": 0.85,
-      "volSurgeWk": 0.53,
+      "bestPct": 99.96395097332372,
+      "adr": 6.58,
+      "cyTrend": 0.01,
+      "nyTrend": -1.83,
+      "upCount": 5,
+      "downCount": 22,
+      "upDownRatio": 18.52,
+      "bbwthd": 0.59,
+      "bbwthdLow": 0.22,
+      "high52": 81.02,
+      "volx": 5.44,
+      "volSurgeWk": 4.3,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": false,
       "jeongbae": true,
-      "div10": 8.01,
-      "div50": 27.95,
-      "div200": 76.6,
-      "ret1m": 16.76,
-      "ret3m": 115.08,
-      "ret6m": 168,
-      "maxRise1m": 43.98,
-      "maxRise3m": 142.87,
-      "maxRise6m": 326.41,
-      "brk60d": false,
-      "clsPos": 17.4,
-      "ma150Slope": 3.13,
+      "div10": 37.28,
+      "div50": 59.09,
+      "div200": 37.97,
+      "ret1m": 67.76,
+      "ret3m": 75.38,
+      "ret6m": 76.67,
+      "maxRise1m": 91.5,
+      "maxRise3m": 105.89,
+      "maxRise6m": 173.52,
+      "brk60d": true,
+      "clsPos": 64.67,
+      "ma150Slope": -8.32,
       "ta": {
-        "price": 109.8,
-        "resistance": 117.33,
-        "support": 90,
-        "contraction": 1.5,
-        "trend": "up"
+        "price": 149.07,
+        "resistance": 166.48,
+        "support": 144.32,
+        "contraction": 1.11,
+        "trend": "mixed"
       },
-      "ma150SlopeDir": "up",
+      "ma150SlopeDir": "down",
       "wrs": {
-        "m1": -0.0421,
-        "m3": 0.1275,
-        "m6": 0.2182,
-        "rankPct6": 14.39,
-        "count": 55
+        "m1": 0.1567,
+        "m3": 0.2538,
+        "m6": 0.2049,
+        "rankPct6": 18.71,
+        "count": 50
       },
       "research": {
-        "status": "done",
-        "ticker": "CORT",
-        "company": "코셉트 테라퓨틱스는 우리 몸의 스트레스 호르몬인 '코르티솔'이 과다 분비돼 생기는 병(쿠싱증후군 등 대사질환, 일부 암, 정신질환)을 치료하는 약을 만드는 미국 바이오제약회사입니다. 대표 약인 코를림(Korlym)은 쿠싱증후군 치료제로 FDA 최초 승인을 받았고, 최근에는 백금저항성 난소암 치료제 라이피오를리(Lifyorli, 성분명 렐라코릴란트)가 새로 승인돼 판매를 시작했습니다.",
-        "whyRose": [
-          {
-            "id": "w1",
-            "statement": "2026년 2분기 실적이 시장 예상치를 크게 웃돌았다 (매출 2.561억달러로 컨센서스 2.16억달러 상회, EPS는 컨센서스가 4센트 손실 예상이었으나 실제 36센트 흑자)",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "CORT Q2 Earnings & Revenues Beat Estimates, 2026 Outlook Raised",
-                "publisher": "Zacks (via TradingView)",
-                "url": "https://www.tradingview.com/news/zacks:ff781da19094b:0-cort-q2-earnings-revenues-beat-estimates-2026-outlook-raised/",
-                "date": "2026-07-29",
-                "quote": "Second-quarter revenues rose nearly 32% year over year to $256.1 million and surpassed the Zacks Consensus Estimate of $216 million",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w2",
-            "statement": "회사가 2026년 연간 매출 가이던스를 기존 9.5억~10.5억달러에서 11억~12억달러로 상향 조정했다",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Corcept Therapeutics Q2 Profit Rises; Raises FY26 Outlook",
-                "publisher": "RTTNews",
-                "url": "https://www.rttnews.com/3672355/corcept-therapeutics-q2-profit-rises-raises-fy26-outlook.aspx?type=ern",
-                "date": "2026-07-29",
-                "quote": "Corcept raised its 2026 revenue guidance to a range of $1.1 billion to $1.2 billion from its previous outlook of $950 million to $1.050 billion.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w3",
-            "statement": "신약 라이피오를리(Lifyorli)가 2026년 4월 출시 이후 첫 분기부터 4760만달러 매출을 내며 상업화가 순조롭고, 기존 주력제품 코를림 매출도 회복세를 보였다",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "H.C. Wainwright raises Corcept Therapeutics price target to $165 on strong Q2 results",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/analyst-ratings/hc-wainwright-raises-corcept-therapeutics-price-target-to-165-on-strong-q2-results-93CH-4823785",
-                "date": "2026-07-30",
-                "quote": "Lifyorli's commercial debut following its April 1, 2026 launch and a recovery in Korlym sales",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "w4",
-            "statement": "실적 발표 직후 증권사들이 목표주가를 대폭 상향했다 (예: H.C. Wainwright는 95달러에서 165달러로 상향, Buy 유지)",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "H.C. Wainwright raises Corcept Therapeutics price target to $165 on strong Q2 results",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/analyst-ratings/hc-wainwright-raises-corcept-therapeutics-price-target-to-165-on-strong-q2-results-93CH-4823785",
-                "date": "2026-07-30",
-                "quote": "H.C. Wainwright raised its price target on Corcept Therapeutics shares (NASDAQ:CORT) to $165 from $95 while maintaining a Buy rating on the stock.",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          }
-        ],
-        "estimateRevisions": {
-          "direction": "raised",
-          "claims": [
-            {
-              "id": "e1",
-              "statement": "회사가 2026 회계연도 매출 가이던스를 기존 9.5억~10.5억달러에서 11억~12억달러로 상향했다 (내부 가이던스 상향)",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Corcept Therapeutics Q2 Profit Rises; Raises FY26 Outlook",
-                  "publisher": "RTTNews",
-                  "url": "https://www.rttnews.com/3672355/corcept-therapeutics-q2-profit-rises-raises-fy26-outlook.aspx?type=ern",
-                  "date": "2026-07-29",
-                  "quote": "Corcept raised its 2026 revenue guidance to a range of $1.1 billion to $1.2 billion from its previous outlook of $950 million to $1.050 billion.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "e2",
-              "statement": "2분기 실제 실적이 Zacks 시장 컨센서스 추정치를 크게 상회했다 (EPS: 컨센서스 -4센트 손실 vs 실제 +36센트, 매출: 컨센서스 2.16억달러 vs 실제 2.561억달러) — 이는 애널리스트들이 향후 추정치를 상향할 근거가 되었다",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "CORT Q2 Earnings & Revenues Beat Estimates, 2026 Outlook Raised",
-                  "publisher": "Zacks (via TradingView)",
-                  "url": "https://www.tradingview.com/news/zacks:ff781da19094b:0-cort-q2-earnings-revenues-beat-estimates-2026-outlook-raised/",
-                  "date": "2026-07-29",
-                  "quote": "reported second-quarter 2026 earnings of 36 cents per share, beating the Zacks Consensus Estimate of a loss of 4 cents",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "e3",
-              "statement": "H.C. Wainwright가 2분기 실적 발표 직후 목표주가를 95달러에서 165달러로 상향 조정했다 (Buy 등급 유지)",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "H.C. Wainwright raises Corcept Therapeutics price target to $165 on strong Q2 results",
-                  "publisher": "Investing.com",
-                  "url": "https://www.investing.com/news/analyst-ratings/hc-wainwright-raises-corcept-therapeutics-price-target-to-165-on-strong-q2-results-93CH-4823785",
-                  "date": "2026-07-30",
-                  "quote": "H.C. Wainwright raised its price target on Corcept Therapeutics shares (NASDAQ:CORT) to $165 from $95 while maintaining a Buy rating on the stock.",
-                  "verified": "unverified",
-                  "httpStatus": 403
-                }
-              ]
-            }
-          ]
-        },
-        "themeTags": [
-          "바이오/제약",
-          "항암 신약(난소암)",
-          "쿠싱증후군·희귀 대사질환 치료제",
-          "코르티솔 조절 메커니즘"
-        ],
-        "confidence": "high",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reasons": []
-        }
+        "status": "pending",
+        "note": "LLM 리서치 대기"
       },
+      "nameKo": "아틀라시언",
+      "nameEn": "ATLASSIAN CORP",
       "detail": {
-        "fetchedAt": "2026-08-05",
-        "nameKo": "코셉트 테라퓨틱스",
-        "nameEn": "CORCEPT THERAPEUTICS INC",
-        "infomaxCode": "NAS:CORT",
+        "fetchedAt": "2026-08-08",
+        "nameKo": "아틀라시언",
+        "nameEn": "ATLASSIAN CORP",
+        "infomaxCode": "NAS:TEAM",
         "financials": {
           "ok": true,
-          "ticker": "CORT",
-          "cik": "0001088856",
+          "ticker": "TEAM",
+          "cik": "0001650372",
           "profitLabel": "영업이익",
           "marginLabel": "영업이익률",
           "profitIsOperating": true,
@@ -733,47 +115,32 @@ window.TEAM2_DATA = {
           },
           "quarters": [
             {
-              "periodStart": "2026-04-01",
-              "periodEnd": "2026-06-30",
-              "derived": false,
-              "revenue": 256147000,
-              "profit": 41300000,
-              "netIncome": 42987000,
-              "margin": 16.1,
-              "yoy": {
-                "revenue": 31.7,
-                "profit": 54.8,
-                "netIncome": 22.3,
-                "priorEnd": "2025-06-30"
-              }
-            },
-            {
               "periodStart": "2026-01-01",
               "periodEnd": "2026-03-31",
               "derived": false,
-              "revenue": 164903000,
-              "profit": -49601000,
-              "netIncome": -31761000,
-              "margin": -30.1,
+              "revenue": 1786971000,
+              "profit": -56284000,
+              "netIncome": -98389000,
+              "margin": -3.1,
               "yoy": {
-                "revenue": 4.9,
-                "profit": -1552,
-                "netIncome": -254.6,
+                "revenue": 31.7,
+                "profit": -351.9,
+                "netIncome": -39,
                 "priorEnd": "2025-03-31"
               }
             },
             {
-              "periodStart": "2025-09-30",
+              "periodStart": "2025-10-01",
               "periodEnd": "2025-12-31",
-              "derived": true,
-              "revenue": 202125000,
-              "profit": 4487000,
-              "netIncome": 24288000,
-              "margin": 2.2,
+              "derived": false,
+              "revenue": 1586315000,
+              "profit": -47747000,
+              "netIncome": -42645000,
+              "margin": -3,
               "yoy": {
-                "revenue": 11.1,
-                "profit": -82.2,
-                "netIncome": -21,
+                "revenue": 23.3,
+                "profit": 16.9,
+                "netIncome": -11.6,
                 "priorEnd": "2024-12-31"
               }
             },
@@ -781,93 +148,107 @@ window.TEAM2_DATA = {
               "periodStart": "2025-07-01",
               "periodEnd": "2025-09-30",
               "derived": false,
-              "revenue": 207638000,
-              "profit": 10219000,
-              "netIncome": 19668000,
-              "margin": 4.9,
+              "revenue": 1432553000,
+              "profit": -96337000,
+              "netIncome": -51870000,
+              "margin": -6.7,
               "yoy": {
-                "revenue": 13.7,
-                "profit": -78.1,
-                "netIncome": -58.3,
+                "revenue": 20.6,
+                "profit": -201.3,
+                "netIncome": 58.1,
                 "priorEnd": "2024-09-30"
+              }
+            },
+            {
+              "periodStart": "2025-03-31",
+              "periodEnd": "2025-06-30",
+              "derived": true,
+              "revenue": 1384344000,
+              "profit": -28479000,
+              "netIncome": -23903000,
+              "margin": -2.1,
+              "yoy": {
+                "revenue": 22.3,
+                "profit": 57.5,
+                "netIncome": 87.9,
+                "priorEnd": "2024-06-30"
               }
             }
           ],
           "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001088856&type=10-Q"
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001650372&type=10-Q"
         },
         "news": {
           "ok": true,
-          "ticker": "CORT",
+          "ticker": "TEAM",
           "items": [
             {
-              "title": "Corcept Therapeutics (CORT) Q2 Earnings and Revenues Surpass Estimates",
-              "url": "https://www.nasdaq.com/articles/corcept-therapeutics-cort-q2-earnings-and-revenues-surpass-estimates",
-              "date": "2026-07-29",
+              "title": "Stock Market Today, Aug. 7: Markets Rally on Jobs Shock and Atlassian Surges 35%",
+              "url": "https://www.nasdaq.com/articles/stock-market-today-aug-7-markets-rally-jobs-shock-and-atlassian-surges-35",
+              "date": "2026-08-07",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "QQQ",
+                "TEAM"
+              ]
+            },
+            {
+              "title": "Why Atlassian Stock Soared Today",
+              "url": "https://www.nasdaq.com/articles/why-atlassian-stock-soared-today",
+              "date": "2026-08-07",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "TEAM",
+                "TEAM"
+              ]
+            },
+            {
+              "title": "TEAM Q4 Earnings Call Highlights AI and Enterprise Momentum",
+              "url": "https://www.nasdaq.com/articles/team-q4-earnings-call-highlights-ai-and-enterprise-momentum",
+              "date": "2026-08-07",
               "publisher": "Zacks",
               "tier1": false,
               "direct": true,
               "tickers": [
-                "CORT",
-                "MDGL"
+                "TEAM"
               ]
             },
             {
-              "title": "Corcept Therapeutics Q2 Earnings Call Highlights",
-              "url": "https://www.nasdaq.com/articles/corcept-therapeutics-q2-earnings-call-highlights",
-              "date": "2026-07-29",
-              "publisher": "MarketBeat",
+              "title": "Atlassian (TEAM) Reports Q4 Earnings: What Key Metrics Have to Say",
+              "url": "https://www.nasdaq.com/articles/atlassian-team-reports-q4-earnings-what-key-metrics-have-say",
+              "date": "2026-08-06",
+              "publisher": "Zacks",
               "tier1": false,
               "direct": true,
               "tickers": [
-                "CORT"
+                "TEAM"
               ]
             },
             {
-              "title": "Corcept Therapeutics Q2 Profit Rises; Raises FY26 Outlook",
-              "url": "https://www.nasdaq.com/articles/corcept-therapeutics-q2-profit-rises-raises-fy26-outlook",
-              "date": "2026-07-29",
+              "title": "Atlassian (TEAM) Q4 Earnings and Revenues Top Estimates",
+              "url": "https://www.nasdaq.com/articles/atlassian-team-q4-earnings-and-revenues-top-estimates",
+              "date": "2026-08-06",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "TEAM",
+                "PD"
+              ]
+            },
+            {
+              "title": "Atlassian Swings To Q4 Profit As Revenue Jumps 28%",
+              "url": "https://www.nasdaq.com/articles/atlassian-swings-q4-profit-revenue-jumps-28",
+              "date": "2026-08-06",
               "publisher": "RTTNews",
               "tier1": false,
               "direct": true,
               "tickers": [
-                "CORT"
-              ]
-            },
-            {
-              "title": "Are Medical Stocks Lagging  Corcept Therapeutics (CORT) This Year?",
-              "url": "https://www.nasdaq.com/articles/are-medical-stocks-lagging-corcept-therapeutics-cort-year",
-              "date": "2026-07-23",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "CORT",
-                "DGX"
-              ]
-            },
-            {
-              "title": "Corcept's CFO Set His Selling Plan the Month the Stock Fell 50% — Here's What Investors Should Know",
-              "url": "https://www.nasdaq.com/articles/corcepts-cfo-set-his-selling-plan-month-stock-fell-50-heres-what-investors-should-know",
-              "date": "2026-07-21",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "CORT",
-                "CORT"
-              ]
-            },
-            {
-              "title": "A Corcept Director Holds 1.5 Million Shares Through a 50% Crash and Rebound",
-              "url": "https://www.nasdaq.com/articles/corcept-director-holds-15-million-shares-through-50-crash-and-rebound",
-              "date": "2026-07-21",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "CORT",
-                "CORT"
+                "TEAM"
               ]
             }
           ],
@@ -878,68 +259,20 @@ window.TEAM2_DATA = {
         "filings": [
           {
             "form": "8-K",
-            "filingDate": "2026-07-29",
-            "reportDate": "2026-07-29",
+            "filingDate": "2026-08-06",
+            "reportDate": "2026-08-06",
             "items": [
               "2.02",
-              "7.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort-20260729.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-17",
-            "reportDate": "2026-06-17",
-            "items": [
               "8.01",
               "9.01"
             ],
             "itemsKo": [
+              "실적 발표",
               "기타 중요사건",
               "재무제표·첨부"
             ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526274258/d159941d8k.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-03",
-            "reportDate": "2026-05-19",
-            "items": [
-              "8.01"
-            ],
-            "itemsKo": [
-              "기타 중요사건"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526254622/d103585d8k.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-28",
-            "reportDate": "2026-05-21",
-            "items": [
-              "5.02",
-              "5.07",
-              "9.01"
-            ],
-            "itemsKo": [
-              "임원 변동",
-              "주주총회 표결",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026038793/cort-20260521.htm",
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000031/team-20260806.htm",
             "description": "8-K"
           },
           {
@@ -948,705 +281,70 @@ window.TEAM2_DATA = {
             "reportDate": "2026-04-30",
             "items": [
               "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000024/team-20260430.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-03-11",
+            "reportDate": "2026-03-11",
+            "items": [
+              "2.05",
+              "5.02",
               "7.01",
               "9.01"
             ],
             "itemsKo": [
-              "실적 발표",
+              "2.05",
+              "임원 변동",
               "Reg FD 공시",
               "재무제표·첨부"
             ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026028892/cort-20260430.htm",
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000021/team-20260311.htm",
             "description": "8-K"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-03-25",
-            "reportDate": "2026-03-25",
+            "filingDate": "2026-02-18",
+            "reportDate": "2026-02-18",
             "items": [
-              "8.01",
-              "9.01"
+              "5.02"
             ],
             "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
+              "임원 변동"
             ],
             "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526123543/d123475d8k.htm",
-            "description": "8-K"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": [],
-          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
-        }
-      },
-      "nameKo": "코셉트 테라퓨틱스",
-      "nameEn": "CORCEPT THERAPEUTICS INC"
-    },
-    {
-      "ticker": "MGRT",
-      "price": 95.5,
-      "marketCap": "1.27B",
-      "sector": "Technology",
-      "industry": "Information Technology Services",
-      "rs": {
-        "m1": {
-          "v": 0.28187919463087246,
-          "pct": 98.5981308411215
-        },
-        "m3": {
-          "v": -0.3129496402877698,
-          "pct": 1.3367052023121389
-        },
-        "m6": {
-          "v": 18.854470090661515,
-          "pct": 99.96382054992765
-        }
-      },
-      "qualifiedBy": [
-        "1mo",
-        "6mo"
-      ],
-      "bestPct": 99.96382054992765,
-      "adr": 8.22,
-      "cyTrend": null,
-      "nyTrend": null,
-      "upCount": null,
-      "downCount": null,
-      "upDownRatio": null,
-      "bbwthd": 0.4,
-      "bbwthdLow": 0.09,
-      "high52": 56.18,
-      "volx": 0.96,
-      "volSurgeWk": 0.55,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": true,
-      "jeongbae": false,
-      "div10": -0.43,
-      "div50": 16.15,
-      "div200": 119.11,
-      "ret1m": 28.19,
-      "ret3m": -31.29,
-      "ret6m": 1885.45,
-      "maxRise1m": 42.88,
-      "maxRise3m": 157.91,
-      "maxRise6m": 3434.3,
-      "brk60d": false,
-      "clsPos": 100,
-      "ma150Slope": 23.94,
-      "ta": {
-        "price": 95.5,
-        "resistance": 108.83,
-        "support": 71.74,
-        "contraction": 1.13,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": -0.0306,
-        "m3": 0.0425,
-        "m6": -0.1053,
-        "rankPct6": 89.21,
-        "count": 16
-      },
-      "research": {
-        "status": "done",
-        "ticker": "MGRT",
-        "company": "Mega Fortune Company Limited(메가 포춘)은 홍콩 사틴에 본사를 둔 회사로, 사물인터넷(IoT) 통합 솔루션, 업무프로세스아웃소싱(BPO), IoT 유지보수, IoT 관련 제품 유통 등을 정부기관·대형 유통 브랜드·프랜차이즈·테마파크 등에 제공한다. 2011년 설립됐고 직원 수는 17명(2026년 7월 기준)에 불과한 매우 작은 회사이며 나스닥에 상장돼 있다.",
-        "whyRose": [
-          {
-            "id": "leadership-overhaul",
-            "statement": "2026년 1월 20~21일 이사진과 재무 임원진을 대거 교체(전 CFO·COO 포함 이사 4명 퇴진, 신임 독립이사 및 자본시장 경력을 가진 신임 CFO 선임)하면서 '새 경영진이 기업가치를 끌어올릴 것'이라는 기대감이 투자자들 사이에 형성돼 주가 급등의 주된 서사가 됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Has Mega Fortune's Leadership Overhaul Fueled Its Meteoric Rise",
-                "publisher": "Kavout Market Lens",
-                "url": "https://www.kavout.com/market-lens/has-mega-fortune-s-leadership-overhaul-fueled-its-meteoric-rise",
-                "date": "2026",
-                "quote": "This leadership transition appears to be the primary narrative driving investor interest, rather than any sudden operational breakthrough.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "meme-stock-squeeze",
-            "statement": "2026년 4월 초 나흘 만에 주가가 238% 급등했는데, 온라인 커뮤니티에서 숏스퀴즈 가능성이 회자되며 거래대금이 하루 약 230만 달러에서 1690만 달러로 급증한 전형적인 '밈주식' 투기 매수가 원인이었고, 실적이나 공시 등 펀더멘털상 근거는 없었다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "How Mega Fortune Stock Tripled This Week",
-                "publisher": "The Motley Fool",
-                "url": "https://www.fool.com/investing/2026/04/09/how-mega-fortune-stock-tripled-this-week/",
-                "date": "2026-04-09",
-                "quote": "Mega Fortune had no reason for any of these moves, though. You're watching the wild, unpredictable price swings of a meme stock in action.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "oversold-technical-bounce",
-            "statement": "2026년 6월경 RSI 등 기술적 지표상 과매도(oversold) 구간에 진입했다는 분석이 나오면서 저가 매수세가 유입돼 단기 반등이 나타난 것으로 보인다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Oversold Conditions For Mega Fortune Company (MGRT)",
-                "publisher": "Nasdaq (BNK Invest)",
-                "url": "https://www.nasdaq.com/articles/oversold-conditions-mega-fortune-company-mgrt",
-                "date": "2026-06-11",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "estimateRevisions": {
-          "direction": "unknown",
-          "claims": []
-        },
-        "themeTags": [
-          "IoT",
-          "밈주식(초소형 급등주)"
-        ],
-        "upcomingCatalyst": {
-          "what": "다음 실적발표 일정 미확정(회사 측 공식 발표 없음, 직전 실적발표는 2026-02-03)",
-          "date": "",
-          "sources": [
-            {
-              "title": "Mega Fortune (MGRT) Earnings Date & Report",
-              "publisher": "Investing.com",
-              "url": "https://www.investing.com/equities/mega-fortune-co-ltd-earnings",
-              "date": "2026-08",
-              "verified": "unverified",
-              "httpStatus": 403
-            }
-          ]
-        },
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "w3"
-          ],
-          "reasons": [
-            "oversold-technical-bounce: 인용 없음 → 기사 내용 검증 불가능"
-          ]
-        }
-      },
-      "detail": {
-        "fetchedAt": "2026-08-05",
-        "nameKo": "메가 포춘",
-        "nameEn": "MEGA FORTUNE COMPANY LIMITED",
-        "infomaxCode": "NAS:MGRT",
-        "financialsError": "매출 태그 없음",
-        "news": {
-          "ok": true,
-          "ticker": "MGRT",
-          "items": [
-            {
-              "title": "Oversold Conditions For Mega Fortune Company (MGRT)",
-              "url": "https://www.nasdaq.com/articles/oversold-conditions-mega-fortune-company-mgrt",
-              "date": "2026-06-11",
-              "publisher": "BNK Invest",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MGRT"
-              ]
-            },
-            {
-              "title": "How Mega Fortune Stock Tripled This Week",
-              "url": "https://www.nasdaq.com/articles/how-mega-fortune-stock-tripled-week",
-              "date": "2026-04-09",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MGRT",
-                "MGRT"
-              ]
-            },
-            {
-              "title": "Mega Fortune Company Limited Completes Initial Public Offering, Raising $15 Million",
-              "url": "https://www.nasdaq.com/articles/mega-fortune-company-limited-completes-initial-public-offering-raising-15-million",
-              "date": "2025-07-17",
-              "publisher": "Quiver Quantitative",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MGRT"
-              ]
-            }
-          ],
-          "directCount": 3,
-          "total": 3,
-          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
-        },
-        "filings": [],
-        "krReports": {
-          "total": 0,
-          "reports": [],
-          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
-        }
-      },
-      "nameKo": "메가 포춘",
-      "nameEn": "MEGA FORTUNE COMPANY LIMITED"
-    },
-    {
-      "ticker": "FET",
-      "price": 74.30000305175781,
-      "marketCap": "0.80B",
-      "sector": "Energy",
-      "industry": "Oil & Gas Equipment & Services",
-      "rs": {
-        "m1": {
-          "v": 0.5648694980644107,
-          "pct": 99.8921639108555
-        },
-        "m3": {
-          "v": 0.36530697448933386,
-          "pct": 94.32803468208093
-        },
-        "m6": {
-          "v": 0.5774948080429695,
-          "pct": 92.65557163531113
-        }
-      },
-      "qualifiedBy": [
-        "1mo"
-      ],
-      "bestPct": 99.8921639108555,
-      "adr": 5.72,
-      "cyTrend": 0,
-      "nyTrend": 0,
-      "upCount": 4,
-      "downCount": 2,
-      "upDownRatio": 66.67,
-      "bbwthd": 0.49,
-      "bbwthdLow": 0.1,
-      "high52": 99.4,
-      "volx": 2.74,
-      "volSurgeWk": 1.43,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": false,
-      "jeongbae": false,
-      "div10": 25.48,
-      "div50": 40.52,
-      "div200": 55.6,
-      "ret1m": 56.49,
-      "ret3m": 36.53,
-      "ret6m": 57.75,
-      "maxRise1m": 56.45,
-      "maxRise3m": 60.72,
-      "maxRise6m": 60.72,
-      "brk60d": true,
-      "clsPos": 92.68,
-      "ma150Slope": 5.48,
-      "ta": {
-        "price": 74.3,
-        "resistance": null,
-        "support": 56.5,
-        "contraction": 2.26,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.0896,
-        "m3": -0.0265,
-        "m6": 0.0877,
-        "rankPct6": 42.45,
-        "count": 13
-      },
-      "research": {
-        "status": "done",
-        "company": "FET(포럼 에너지 테크놀로지스)는 석유·천연가스 채굴 현장에서 쓰는 장비와 부품을 만들어 파는 회사입니다. 시추(드릴링)와 완결 작업에 쓰이는 장비를 만드는 사업부, 그리고 유정에서 원유를 끌어올리는 데 쓰는 인공채유(Artificial Lift) 장비를 만드는 사업부, 이렇게 두 축으로 사업을 운영하며 방위산업·재생에너지 쪽에도 일부 장비를 공급합니다.",
-        "ticker": "FET",
-        "whyRose": [
-          {
-            "id": "w1",
-            "statement": "2026년 2분기 실적이 시장 예상치를 크게 상회했다. 조정 EPS 1.16달러(컨센서스 0.56달러 대비), 매출 2.26억 달러(전년 대비 8%+ 증가, 예상치 약 2.10~2.12억 달러 상회)를 기록하며 발표 다음 날 주가가 하루 만에 약 22% 급등했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Why Forum Energy Technologies Stock Blasted Nearly 22% Higher on Friday",
-                "publisher": "The Motley Fool",
-                "url": "https://www.fool.com/investing/2026/07/31/why-forum-energy-technologies-stock-blasted-nearly/",
-                "date": "2026-07-31",
-                "quote": "Market players clearly liked what they saw, as they eagerly bought shares of the company, pushing the stock up almost 22% that day.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w2",
-            "statement": "회사가 2026년 연간 가이던스를 일제히 상향 조정했다. 매출 8.7억~9.1억 달러(전년비 +13%), 조정 EBITDA 1.15억~1.25억 달러(+40%), 조정순이익 4,200만~5,200만 달러로 상향했으며, 이는 시장 평균 전망치(매출 약 8.56억 달러)를 웃도는 수준이었다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Why Forum Energy Technologies Stock Blasted Nearly 22% Higher on Friday",
-                "publisher": "The Motley Fool",
-                "url": "https://www.fool.com/investing/2026/07/31/why-forum-energy-technologies-stock-blasted-nearly/",
-                "date": "2026-07-31",
-                "quote": "Its new forecast for annual revenue is $870 million to $910 million, while adjusted net income should be $42 million to $52 million.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w3",
-            "statement": "주문잔고와 수익성 지표가 함께 개선됐다. 2분기 주문 2.36억 달러로 Book-to-Bill 비율 약 104%(최근 6개 분기 중 5개 분기에서 1.0 초과)를 기록했고, 조정 EBITDA는 전분기 대비 39% 증가하며 마진 개선을 보여줬다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Forum Energy Technologies (FET) Stock Reprices Higher On Margin Gains And Guidance Lift",
-                "publisher": "Sahm Capital",
-                "url": "https://www.sahmcapital.com/news/content/forum-energy-technologies-fet-stock-reprices-higher-on-margin-gains-and-guidance-lift-2026-08-01",
-                "date": "2026-08-01",
-                "quote": "Orders of US$236m kept book to bill around 104% and mark 5 of the last 6 quarters above 1.0",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "estimateRevisions": {
-          "direction": "mixed",
-          "claims": [
-            {
-              "id": "e1",
-              "statement": "2026년 5월 25일, Zacks Research는 FET 등급을 'Strong Buy'에서 'Hold'로 하향 조정했다 (실적 발표 이전 시점의 눈높이 조정).",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Forum Energy Technologies (NYSE:FET) Hits New 12-Month High – Here's Why",
-                  "publisher": "MarketsDaily (themarketsdaily.com)",
-                  "url": "https://www.themarketsdaily.com/2026/08/03/forum-energy-technologies-nysefet-hits-new-12-month-high-heres-why.html",
-                  "date": "2026-08-03",
-                  "quote": "Zacks Research downgraded Forum Energy Technologies from a 'strong-buy' rating to a 'hold' rating in a research note on Monday, May 25th.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "e3",
-              "statement": "반면 회사 자신은 2026년 7월 30일 2분기 실적 발표와 함께 2026년 연간 가이던스(매출·EBITDA·순이익)를 전부 상향했으며, 이 가이던스는 당시 시장 평균 전망치(매출 약 8.56억 달러)를 웃돌았다. 즉 개별 애널리스트 추정치는 엇갈렸지만 회사 자체 눈높이는 위로 향했다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Why Forum Energy Technologies Stock Blasted Nearly 22% Higher on Friday",
-                  "publisher": "The Motley Fool",
-                  "url": "https://www.fool.com/investing/2026/07/31/why-forum-energy-technologies-stock-blasted-nearly/",
-                  "date": "2026-07-31",
-                  "quote": "the average pundit expectation for revenue is under $856 million",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ]
-        },
-        "themeTags": [
-          "에너지 장비/서비스",
-          "유가 관련주",
-          "실적 서프라이즈",
-          "가이던스 상향"
-        ],
-        "upcomingCatalyst": {},
-        "confidence": "high",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "e2"
-          ],
-          "reasons": [
-            "Sidoti EPS 하향: Daily Political(정치 뉴스 사이트)에서 금융 분석 내용 보도 → 신뢰성 의심"
-          ]
-        }
-      },
-      "detail": {
-        "fetchedAt": "2026-08-05",
-        "nameKo": "포럼 에너지 테크놀로지스",
-        "nameEn": "FORUM ENERGY TECHNOLOGIES INC",
-        "infomaxCode": "NYS:FET",
-        "financials": {
-          "ok": true,
-          "ticker": "FET",
-          "cik": "0001401257",
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "profitIsOperating": true,
-          "tags": {
-            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
-            "profit": "OperatingIncomeLoss",
-            "netIncome": "NetIncomeLoss"
-          },
-          "quarters": [
-            {
-              "periodStart": "2026-01-01",
-              "periodEnd": "2026-03-31",
-              "derived": false,
-              "revenue": 208700000,
-              "profit": 11005000,
-              "netIncome": 4492000,
-              "margin": 5.3,
-              "yoy": {
-                "revenue": 8,
-                "profit": 25,
-                "netIncome": 300.4,
-                "priorEnd": "2025-03-31"
-              }
-            },
-            {
-              "periodStart": "2025-09-30",
-              "periodEnd": "2025-12-31",
-              "derived": true,
-              "revenue": 202200000,
-              "profit": 12764000,
-              "netIncome": 2072000,
-              "margin": 6.3,
-              "yoy": {
-                "revenue": 0.6,
-                "profit": 111.9,
-                "netIncome": 102,
-                "priorEnd": "2024-12-31"
-              }
-            },
-            {
-              "periodStart": "2025-07-01",
-              "periodEnd": "2025-09-30",
-              "derived": false,
-              "revenue": 196231000,
-              "profit": -6106000,
-              "netIncome": -20554000,
-              "margin": -3.1,
-              "yoy": {
-                "revenue": -5.6,
-                "profit": -168.5,
-                "netIncome": -38.7,
-                "priorEnd": "2024-09-30"
-              }
-            },
-            {
-              "periodStart": "2025-04-01",
-              "periodEnd": "2025-06-30",
-              "derived": false,
-              "revenue": 199764000,
-              "profit": 14683000,
-              "netIncome": 7700000,
-              "margin": 7.4,
-              "yoy": {
-                "revenue": -2.7,
-                "profit": 85.1,
-                "netIncome": 215,
-                "priorEnd": "2024-06-30"
-              }
-            }
-          ],
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001401257&type=10-Q"
-        },
-        "news": {
-          "ok": true,
-          "ticker": "FET",
-          "items": [
-            {
-              "title": "Why Forum Energy Technologies Stock Blasted Nearly 22% Higher on Friday",
-              "url": "https://www.nasdaq.com/articles/why-forum-energy-technologies-stock-blasted-nearly-22-higher-friday",
-              "date": "2026-07-31",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "FET",
-                "FET"
-              ]
-            },
-            {
-              "title": "Forum Energy Technologies Q2 Earnings Call Highlights",
-              "url": "https://www.nasdaq.com/articles/forum-energy-technologies-q2-earnings-call-highlights",
-              "date": "2026-07-31",
-              "publisher": "MarketBeat",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "FET"
-              ]
-            },
-            {
-              "title": "Forum Energy Technologies (FET) Surpasses Q2 Earnings and Revenue Estimates",
-              "url": "https://www.nasdaq.com/articles/forum-energy-technologies-fet-surpasses-q2-earnings-and-revenue-estimates",
-              "date": "2026-07-30",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "FET",
-                "PED"
-              ]
-            },
-            {
-              "title": "Is Forum Energy Technologies (FET) Stock Outpacing Its Oils-Energy Peers This Year?",
-              "url": "https://www.nasdaq.com/articles/forum-energy-technologies-fet-stock-outpacing-its-oils-energy-peers-year",
-              "date": "2026-07-06",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "FET",
-                "PARR"
-              ]
-            },
-            {
-              "title": "FET Q1 2026 Earnings Transcript",
-              "url": "https://www.nasdaq.com/articles/fet-q1-2026-earnings-transcript",
-              "date": "2026-05-01",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "FET",
-                "FET"
-              ]
-            },
-            {
-              "title": "Forum Energy Technologies (FET) Surpasses Q1 Earnings and Revenue Estimates",
-              "url": "https://www.nasdaq.com/articles/forum-energy-technologies-fet-surpasses-q1-earnings-and-revenue-estimates",
-              "date": "2026-04-30",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "FET",
-                "OIS"
-              ]
-            },
-            {
-              "title": "Recent Price Trend in Forum Energy (FET) is Your Friend, Here's Why",
-              "url": "https://www.nasdaq.com/articles/recent-price-trend-forum-energy-fet-your-friend-heres-why",
-              "date": "2026-04-28",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "FET"
-              ]
-            },
-            {
-              "title": "Are Oils-Energy Stocks Lagging  Forum Energy Technologies (FET) This Year?",
-              "url": "https://www.nasdaq.com/articles/are-oils-energy-stocks-lagging-forum-energy-technologies-fet-year",
-              "date": "2026-04-27",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "FET",
-                "TTE"
-              ]
-            }
-          ],
-          "directCount": 9,
-          "total": 13,
-          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-07-30",
-            "reportDate": "2026-07-30",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000049/fet-20260730.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-12",
-            "reportDate": "2026-05-08",
-            "items": [
-              "5.02",
-              "5.07",
-              "9.01"
-            ],
-            "itemsKo": [
-              "임원 변동",
-              "주주총회 표결",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000039/fet-20260508.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-01",
-            "reportDate": "2026-04-30",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000030/fet-20260430.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-02-20",
-            "reportDate": "2026-02-19",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000010/fet8-kearningsreleaseq42025.htm",
+            "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000017/team-20260218.htm",
             "description": "8-K"
           },
           {
             "form": "8-K",
             "filingDate": "2026-02-05",
-            "reportDate": "2026-02-04",
+            "reportDate": "2026-02-05",
             "items": [
-              "1.01",
-              "2.03",
+              "2.02",
               "9.01"
             ],
             "itemsKo": [
-              "중요 계약 체결",
-              "2.03",
+              "실적 발표",
               "재무제표·첨부"
             ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000005/fet-20260204.htm",
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000008/team-20260205.htm",
             "description": "8-K"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-01-12",
-            "reportDate": "2026-01-12",
+            "filingDate": "2026-01-15",
+            "reportDate": "2026-01-15",
             "items": [
               "5.02"
             ],
@@ -1654,7 +352,7 @@ window.TEAM2_DATA = {
               "임원 변동"
             ],
             "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000002/fet-20260112.htm",
+            "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000003/team-20260115.htm",
             "description": "8-K"
           }
         ],
@@ -1663,1290 +361,82 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      },
-      "nameKo": "포럼 에너지 테크놀로지스",
-      "nameEn": "FORUM ENERGY TECHNOLOGIES INC"
-    },
-    {
-      "ticker": "LQDA",
-      "price": 88.37999725341797,
-      "marketCap": "7.46B",
-      "sector": "Healthcare",
-      "industry": "Drug Manufacturers - Specialty & Generic",
-      "rs": {
-        "m1": {
-          "v": 0.08802158809555274,
-          "pct": 75.37742631200575
-        },
-        "m3": {
-          "v": 1.0903500426942951,
-          "pct": 99.89161849710982
-        },
-        "m6": {
-          "v": 1.1800689506044704,
-          "pct": 98.01013024602025
-        }
-      },
-      "qualifiedBy": [
-        "3mo",
-        "6mo"
-      ],
-      "bestPct": 99.89161849710982,
-      "adr": 6.77,
-      "cyTrend": 0,
-      "nyTrend": 4.24,
-      "upCount": 0,
-      "downCount": 0,
-      "upDownRatio": 0,
-      "bbwthd": 0.24,
-      "bbwthdLow": 0.13,
-      "high52": 97.01,
-      "volx": 0.83,
-      "volSurgeWk": 0.89,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": true,
-      "jeongbae": true,
-      "div10": 2.35,
-      "div50": 19.07,
-      "div200": 93.95,
-      "ret1m": 8.8,
-      "ret3m": 109.04,
-      "ret6m": 118.01,
-      "maxRise1m": 30.68,
-      "maxRise3m": 130.05,
-      "maxRise6m": 212.84,
-      "brk60d": false,
-      "clsPos": 72.43,
-      "ma150Slope": 14.4,
-      "ta": {
-        "price": 88.38,
-        "resistance": 91.1,
-        "support": 70.85,
-        "contraction": 1.19,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": -0.0198,
-        "m3": 0.065,
-        "m6": 0.0947,
-        "rankPct6": 40.29,
-        "count": 7
-      },
-      "research": {
-        "status": "done",
-        "company": "리퀴디아(Liquidia Corporation)는 폐동맥고혈압(폐로 가는 혈관이 좁아져 숨쉬기 힘들어지는 희귀 심폐질환)과 간질성 폐질환에 동반된 폐고혈압 환자를 치료하는 흡입형 약을 만드는 제약회사입니다. 대표 제품 '유트레피아(YUTREPIA)'는 가루 형태로 흡입해 폐혈관을 넓혀주는 치료제로, 2025년 6월 미국에서 정식 출시된 뒤 매출이 매 분기 빠르게 늘고 있습니다.",
-        "ticker": "LQDA",
-        "themeTags": [
-          "희귀질환 바이오텍",
-          "폐동맥고혈압(PAH) 치료제",
-          "실적 턴어라운드/흑자전환"
-        ],
-        "confidence": "high",
-        "whyRose": [
-          {
-            "id": "yutrepia-q1-profit",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
-          },
-          {
-            "id": "100m-milestone-hcrx-bofa",
-            "statement": "6월30일 기준 YUTREPIA 누적 순매출이 1억달러를 돌파해 HealthCare Royalty로부터 마지막 2500만달러 마일스톤 지급금을 확보했고, 동시에 BofA증권이 목표주가를 79달러로 대폭 상향하면서 주가가 급등했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Liquidia Stock Soars as YUTREPIA Milestone Ignites Hype",
-                "publisher": "TipRanks",
-                "url": "https://www.tipranks.com/news/catalyst/liquidia-stock-soars-as-yutrepia-milestone-ignites-hype",
-                "date": "2026-07-01",
-                "quote": "The company cleared a June 30 threshold of more than $100 million in net sales for its pulmonary hypertension drug YUTREPIA, unlocking a final $25 million payment from HealthCare Royalty.",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "estimate-revisions-driving-price",
-            "statement": "애널리스트들의 2026·2027년 EPS 전망치가 최근 60일 사이 잇달아 상향 조정되면서, 이 실적 개선 기대감이 최근 주가 상승을 뒷받침하고 있다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Should You Invest in Liquidia Corporation Stock Ahead of Q2 Earnings?",
-                "publisher": "TradingView (Zacks Investment Research)",
-                "url": "https://www.tradingview.com/news/zacks:acb53917d094b:0-should-you-invest-in-liquidia-corporation-stock-ahead-of-q2-earnings/",
-                "date": "2026-07-31",
-                "quote": "The Zacks Consensus Estimate for 2026 EPS has moved north to $3.02 from $2.97 and that for 2027 EPS has increased to $5.31 from $4.81 in the past 60 days.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "estimateRevisions": {
-          "direction": "raised",
-          "claims": [
-            {
-              "id": "eps-2026-2027-60day",
-              "statement": "Zacks 컨센서스 기준 2026년 EPS 전망치가 60일 사이 2.97달러에서 3.02달러로, 2027년 EPS는 4.81달러에서 5.31달러로 상향 조정됐다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Should You Invest in Liquidia Corporation Stock Ahead of Q2 Earnings?",
-                  "publisher": "TradingView (Zacks Investment Research)",
-                  "url": "https://www.tradingview.com/news/zacks:acb53917d094b:0-should-you-invest-in-liquidia-corporation-stock-ahead-of-q2-earnings/",
-                  "date": "2026-07-31",
-                  "quote": "The Zacks Consensus Estimate for 2026 EPS has moved north to $3.02 from $2.97 and that for 2027 EPS has increased to $5.31 from $4.81 in the past 60 days.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "eps-30day-surge-may",
-              "statement": "근거 없음(출처 검증 실패로 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [],
-              "stripped": true
-            }
-          ]
-        },
-        "upcomingCatalyst": {
-          "what": "2026년 2분기(6월30일 마감) 실적발표 및 컨퍼런스콜 (동부시간 오전 8시30분 웹캐스트)",
-          "date": "2026-08-12",
-          "sources": [
-            {
-              "title": "Liquidia Corporation to Report Second Quarter 2026 Financial Results on August 12, 2026",
-              "publisher": "GlobeNewswire",
-              "url": "https://www.globenewswire.com/news-release/2026/07/29/3335204/0/en/Liquidia-Corporation-to-Report-Second-Quarter-2026-Financial-Results-on-August-12-2026.html",
-              "date": "2026-07-29",
-              "quote": "Liquidia Corporation announced that it will report its second quarter 2026 financial results on Wednesday, August 12, 2026.",
-              "verified": "ok",
-              "httpStatus": 200
-            }
-          ]
-        },
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reasons": []
-        }
-      },
-      "detail": {
-        "fetchedAt": "2026-08-05",
-        "nameKo": "리퀴디아",
-        "nameEn": "LIQUIDIA CORPORATION",
-        "infomaxCode": "NAS:LQDA",
-        "financials": {
-          "ok": true,
-          "ticker": "LQDA",
-          "cik": "0001819576",
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "profitIsOperating": true,
-          "tags": {
-            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
-            "profit": "OperatingIncomeLoss",
-            "netIncome": "NetIncomeLoss"
-          },
-          "quarters": [
-            {
-              "periodStart": "2026-01-01",
-              "periodEnd": "2026-03-31",
-              "derived": false,
-              "revenue": 132865000,
-              "profit": 61504000,
-              "netIncome": 52862000,
-              "margin": 46.3,
-              "yoy": {
-                "revenue": 4158.5,
-                "profit": 273.6,
-                "netIncome": 237.8,
-                "priorEnd": "2025-03-31"
-              }
-            },
-            {
-              "periodStart": "2025-09-30",
-              "periodEnd": "2025-12-31",
-              "derived": true,
-              "revenue": 92021000,
-              "profit": 19787000,
-              "netIncome": 14555000,
-              "margin": 21.5,
-              "yoy": {
-                "revenue": 3054.6,
-                "profit": 154.8,
-                "netIncome": 137.8,
-                "priorEnd": "2024-12-31"
-              }
-            },
-            {
-              "periodStart": "2025-07-01",
-              "periodEnd": "2025-09-30",
-              "derived": false,
-              "revenue": 54342000,
-              "profit": 1767000,
-              "netIncome": -3533000,
-              "margin": 3.3,
-              "yoy": {
-                "revenue": 1121.7,
-                "profit": 106.1,
-                "netIncome": 88.6,
-                "priorEnd": "2024-09-30"
-              }
-            },
-            {
-              "periodStart": "2025-04-01",
-              "periodEnd": "2025-06-30",
-              "derived": false,
-              "revenue": 8837000,
-              "profit": -37505000,
-              "netIncome": -41579000,
-              "margin": -424.4,
-              "yoy": {
-                "revenue": 141.5,
-                "profit": -37.9,
-                "netIncome": -45,
-                "priorEnd": "2024-06-30"
-              }
-            }
-          ],
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819576&type=10-Q"
-        },
-        "news": {
-          "ok": true,
-          "ticker": "LQDA",
-          "items": [
-            {
-              "title": "Should You Invest in Liquidia Corporation Stock Ahead of Q2 Earnings?",
-              "url": "https://www.nasdaq.com/articles/should-you-invest-liquidia-corporation-stock-ahead-q2-earnings",
-              "date": "2026-07-31",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "LQDA",
-                "JNJ",
-                "UTHR"
-              ]
-            },
-            {
-              "title": "VKTX Q2 Earnings Beat Estimates Despite Surge in R&D Costs",
-              "url": "https://www.nasdaq.com/articles/vktx-q2-earnings-beat-estimates-despite-surge-rd-costs",
-              "date": "2026-07-30",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "VKTX",
-                "LQDA",
-                "HRMY"
-              ]
-            }
-          ],
-          "directCount": 1,
-          "total": 2,
-          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-17",
-            "reportDate": "2026-06-16",
-            "items": [
-              "5.07",
-              "9.01"
-            ],
-            "itemsKo": [
-              "주주총회 표결",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1819576/000110465926075177/tm2618171d1_8k.htm",
-            "description": "FORM 8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-08",
-            "reportDate": "2026-06-08",
-            "items": [
-              "8.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1819576/000110465926071407/tm2617139d1_8k.htm",
-            "description": "FORM 8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-11",
-            "reportDate": "2026-05-11",
-            "items": [
-              "2.02",
-              "8.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1819576/000110465926058234/tm2614109d1_8k.htm",
-            "description": "FORM 8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-03-05",
-            "reportDate": "2026-03-05",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1819576/000110465926023794/tm267579d3_8k.htm",
-            "description": "FORM 8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-01-09",
-            "reportDate": "2026-01-09",
-            "items": [
-              "7.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1819576/000110465926002306/tm262716d1_8k.htm",
-            "description": "FORM 8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2025-11-03",
-            "reportDate": "2025-11-03",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1819576/000110465925105199/tm2530004d1_8k.htm",
-            "description": "FORM 8-K"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": [],
-          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
-        }
-      },
-      "nameKo": "리퀴디아",
-      "nameEn": "LIQUIDIA CORPORATION"
-    },
-    {
-      "ticker": "AGL",
-      "price": 94.77999877929688,
-      "marketCap": "1.57B",
-      "sector": "Healthcare",
-      "industry": "Medical Care Facilities",
-      "rs": {
-        "m1": {
-          "v": -0.1180794854123593,
-          "pct": 5.068296189791517
-        },
-        "m3": {
-          "v": 0.5624793771465926,
-          "pct": 97.86849710982659
-        },
-        "m6": {
-          "v": 7.406208601863501,
-          "pct": 99.89146164978293
-        }
-      },
-      "qualifiedBy": [
-        "6mo"
-      ],
-      "bestPct": 99.89146164978293,
-      "adr": 9.36,
-      "cyTrend": -1.84,
-      "nyTrend": 66.32,
-      "upCount": 31,
-      "downCount": 6,
-      "upDownRatio": 83.78,
-      "bbwthd": 0.48,
-      "bbwthdLow": 0.14,
-      "high52": 71.24,
-      "volx": 0.96,
-      "volSurgeWk": 1.18,
-      "aboveMa150": true,
-      "aboveMa50": false,
-      "order": false,
-      "jeongbae": true,
-      "div10": -3.84,
-      "div50": -10.26,
-      "div200": 119.56,
-      "ret1m": -11.81,
-      "ret3m": 56.25,
-      "ret6m": 740.62,
-      "maxRise1m": 54.14,
-      "maxRise3m": 157.8,
-      "maxRise6m": 1678.61,
-      "brk60d": false,
-      "clsPos": 97.47,
-      "ma150Slope": 31.39,
-      "ta": {
-        "price": 94.78,
-        "resistance": 100.5,
-        "support": 93.01,
-        "contraction": 0.76,
-        "trend": "mixed"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.0028,
-        "m3": 0.0451,
-        "m6": 0.056,
-        "rankPct6": 53.24,
-        "count": 12
-      },
-      "research": {
-        "status": "done",
-        "company": "agilon health는 미국의 동네 1차 진료 병원(개인 병원)들과 손잡고, 메디케어 어드밴티지(65세 이상 고령자 대상 민간 의료보험)에 가입한 환자를 관리해주는 헬스케어 플랫폼 회사입니다. 진료 횟수만큼 돈을 받는 기존 방식 대신, 환자를 건강하게 잘 관리할수록 보험사로부터 더 많이 보상받는 '가치기반 진료(value-based care)' 계약을 병원들이 맺도록 돕고 그 성과(위험도 조정, 의료비 마진 등)를 함께 나눕니다. 즉 동네 병원이 대형 보험사와 유리하게 계약하고 리스크를 관리하도록 대신 운영해주는 회사입니다.",
-        "ticker": "AGL",
-        "whyRose": [
-          {
-            "id": "q1-beat",
-            "statement": "2026년 5월 6일 발표된 1분기(3월 31일 마감) 실적에서 매출 14.2억 달러, 순이익 4,892만 달러, 주당순이익(계속영업 기준) 1.80달러를 기록하며 시장 예상을 상회했고, 이 실적 발표를 계기로 주가가 급등했다(기사 제목: 실적 발표 후 160.1% 상승).",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Why Agilon Health (AGL) Is Up 160.1% After Profit Jumps On Better Medical Margins And Guidance",
-                "publisher": "Simply Wall St News",
-                "url": "https://simplywall.st/stocks/us/healthcare/nyse-agl/agilon-health/news/why-agilon-health-agl-is-up-1601-after-profit-jumps-on-bette",
-                "date": "2026",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "guidance-raise",
-            "statement": "1분기 실적 발표와 함께 회사가 2026년 연간 가이던스를 상향 조정했다: 매출 전망 56.8억~58.05억 달러, 의료마진(medical margin) 3.5억~4억 달러, 조정 EBITDA 1,000만~4,000만 달러로 상향.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "agilon health Q1 2026: Revenue $1.42B, Adjusted EBITDA $54M, Net Income $49M",
-                "publisher": "TradingView News",
-                "url": "https://www.tradingview.com/news/tradingview:4c79879c01cd2:0-agilon-health-q1-2026-revenue-1-42b-adjusted-ebitda-54m-net-income-49m/",
-                "date": "2026-05-06",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "db-upgrade",
-            "statement": "1분기 실적 호조와 가이던스 상향에 힘입어 2026년 5월 7일 Deutsche Bank가 AGL 등급을 Hold에서 Buy로, 목표주가를 33달러에서 49달러로 상향했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Deutsche Bank upgrades agilon health stock rating on raised guidance",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/analyst-ratings/deutsche-bank-upgrades-agilon-health-stock-rating-on-raised-guidance-93CH-4666431",
-                "date": "2026-05-07",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "value-pick",
-            "statement": "2026년 6월 26일 Zacks가 AGL을 '빠르게 움직이는 저평가 종목'으로 소개하며 밸류 투자자들의 관심을 끌었다 (Node가 이미 확보한 기사).",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Why Fast-paced Mover Agilon (AGL) Is a Great Choice for Value Investors",
-                "publisher": "Zacks/Nasdaq",
-                "url": "https://www.nasdaq.com/articles/why-fast-paced-mover-agilon-agl-great-choice-value-investors",
-                "date": "2026-06-26",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "estimateRevisions": {
-          "direction": "raised",
-          "claims": []
-        },
-        "themeTags": [
-          "가치기반 진료(Value-Based Care)",
-          "메디케어 어드밴티지",
-          "헬스케어 서비스 플랫폼"
-        ],
-        "upcomingCatalyst": {
-          "what": "2026년 2분기(Q2) 실적 발표 (장 마감 후 공시, 오후 4:30 ET 컨퍼런스콜)",
-          "date": "2026-08-05",
-          "sources": [
-            {
-              "title": "agilon health Sets Date to Report Second Quarter 2026 Financial Results",
-              "publisher": "StockTitan",
-              "url": "https://www.stocktitan.net/news/AGL/agilon-health-sets-date-to-report-second-quarter-2026-financial-hyjvp1sk4wiw.html",
-              "date": "2026-07-07",
-              "quote": "agilon health will release financial results for the second quarter ended June 30, 2026 after market close on Wednesday, August 5, 2026, and will host a conference call at 4:30 p.m. ET to discuss the results.",
-              "verified": "ok",
-              "httpStatus": 200
-            }
-          ]
-        },
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "w1",
-            "w2",
-            "zacks-rank2"
-          ],
-          "reasons": [
-            "q1-beat: 인용 없음 + 발행 날짜 불명확('2026'만 표시) → 검증 불가",
-            "guidance-raise: 인용 없음 + 기사 제목이 Q1 실적만 언급, 가이던스 상향 미명시 → 내용 불일치",
-            "zacks-rank2: 원문 접근 불가(403) + 구체적 수치 '검색 스니펫에서만 확인' → 원문 검증 불가"
-          ]
-        }
-      },
-      "detail": {
-        "fetchedAt": "2026-08-05",
-        "nameKo": "애질론 헬스",
-        "nameEn": "AGILON HEALTH INC",
-        "infomaxCode": "NYS:AGL",
-        "financials": {
-          "ok": true,
-          "ticker": "AGL",
-          "cik": "0001831097",
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "profitIsOperating": true,
-          "tags": {
-            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
-            "profit": "OperatingIncomeLoss",
-            "netIncome": "NetIncomeLoss"
-          },
-          "quarters": [
-            {
-              "periodStart": "2026-01-01",
-              "periodEnd": "2026-03-31",
-              "derived": false,
-              "revenue": 1420460000,
-              "profit": 3997000,
-              "netIncome": 48916000,
-              "margin": 0.3,
-              "yoy": {
-                "revenue": -7.3,
-                "profit": 118.1,
-                "netIncome": 303.9,
-                "priorEnd": "2025-03-31"
-              }
-            },
-            {
-              "periodStart": "2025-09-30",
-              "periodEnd": "2025-12-31",
-              "derived": true,
-              "revenue": 1569491000,
-              "profit": -193825000,
-              "netIncome": -188882000,
-              "margin": -12.3,
-              "yoy": {
-                "revenue": 3.1,
-                "profit": -79.3,
-                "netIncome": -78.5,
-                "priorEnd": "2024-12-31"
-              }
-            },
-            {
-              "periodStart": "2025-07-01",
-              "periodEnd": "2025-09-30",
-              "derived": false,
-              "revenue": 1435321000,
-              "profit": -131274000,
-              "netIncome": -110207000,
-              "margin": -9.1,
-              "yoy": {
-                "revenue": -1.1,
-                "profit": 1.7,
-                "netIncome": 6.3,
-                "priorEnd": "2024-09-30"
-              }
-            },
-            {
-              "periodStart": "2025-04-01",
-              "periodEnd": "2025-06-30",
-              "derived": false,
-              "revenue": 1394982000,
-              "profit": -116027000,
-              "netIncome": -104370000,
-              "margin": -8.3,
-              "yoy": {
-                "revenue": -5.9,
-                "profit": -167.7,
-                "netIncome": -240.2,
-                "priorEnd": "2024-06-30"
-              }
-            }
-          ],
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001831097&type=10-Q"
-        },
-        "news": {
-          "ok": true,
-          "ticker": "AGL",
-          "items": [
-            {
-              "title": "Agilon Health (AGL) Is Up 0.79% in One Week: What You Should Know",
-              "url": "https://www.nasdaq.com/articles/agilon-health-agl-079-one-week-what-you-should-know",
-              "date": "2026-06-26",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "AGL"
-              ]
-            },
-            {
-              "title": "Why Fast-paced Mover Agilon (AGL) Is a Great Choice for Value Investors",
-              "url": "https://www.nasdaq.com/articles/why-fast-paced-mover-agilon-agl-great-choice-value-investors",
-              "date": "2026-06-26",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "AGL"
-              ]
-            },
-            {
-              "title": "Is the Options Market Predicting a Spike in agilon health Stock?",
-              "url": "https://www.nasdaq.com/articles/options-market-predicting-spike-agilon-health-stock",
-              "date": "2026-06-23",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "AGL"
-              ]
-            },
-            {
-              "title": "Are You Looking for a Top Momentum Pick? Why Agilon Health (AGL) is a Great Choice",
-              "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-agilon-health-agl-great-choice",
-              "date": "2026-05-28",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "AGL"
-              ]
-            },
-            {
-              "title": "Are Medical Stocks Lagging  Agilon Health (AGL) This Year?",
-              "url": "https://www.nasdaq.com/articles/are-medical-stocks-lagging-agilon-health-agl-year",
-              "date": "2026-05-27",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "AGL",
-                "HUMA"
-              ]
-            },
-            {
-              "title": "Despite Fast-paced Momentum, Agilon (AGL) Is Still a Bargain Stock",
-              "url": "https://www.nasdaq.com/articles/despite-fast-paced-momentum-agilon-agl-still-bargain-stock",
-              "date": "2026-05-27",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "AGL"
-              ]
-            },
-            {
-              "title": "Barclays Upgrades agilon health (AGL)",
-              "url": "https://www.nasdaq.com/articles/barclays-upgrades-agilon-health-agl",
-              "date": "2026-05-26",
-              "publisher": "Fintel",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "AGL"
-              ]
-            },
-            {
-              "title": "agilon health (AGL) Price Target Increased by 50.63% to 30.22",
-              "url": "https://www.nasdaq.com/articles/agilon-health-agl-price-target-increased-5063-3022",
-              "date": "2026-05-14",
-              "publisher": "Fintel",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "AGL"
-              ]
-            }
-          ],
-          "directCount": 10,
-          "total": 12,
-          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-07-22",
-            "reportDate": "2026-07-17",
-            "items": [
-              "5.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "임원 변동",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026049080/agl-20260717.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-03",
-            "reportDate": "2026-06-02",
-            "items": [
-              "5.07"
-            ],
-            "itemsKo": [
-              "주주총회 표결"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026040370/agl-20260602.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-06",
-            "reportDate": "2026-05-06",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026031254/agl-20260506.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-04-27",
-            "reportDate": "2026-04-24",
-            "items": [
-              "5.02",
-              "7.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "임원 변동",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026027512/agl-20260424.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-03-30",
-            "reportDate": "2026-03-30",
-            "items": [
-              "3.03",
-              "5.03",
-              "9.01"
-            ],
-            "itemsKo": [
-              "3.03",
-              "5.03",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026022074/agl-20260330.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-03-18",
-            "reportDate": "2026-03-17",
-            "items": [
-              "5.07",
-              "8.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "주주총회 표결",
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026019406/agl-20260317.htm",
-            "description": "8-K"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": [],
-          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
-        }
-      },
-      "nameKo": "애질론 헬스",
-      "nameEn": "AGILON HEALTH INC"
-    },
-    {
-      "ticker": "HURN",
-      "price": 152.77999877929688,
-      "marketCap": "2.39B",
-      "sector": "Industrials",
-      "industry": "Consulting Services",
-      "rs": {
-        "m1": {
-          "v": 0.44227318360379525,
-          "pct": 99.82027318475917
-        },
-        "m3": {
-          "v": 0.22439493728097132,
-          "pct": 83.05635838150289
-        },
-        "m6": {
-          "v": 0.04744274057307392,
-          "pct": 41.13603473227207
-        }
-      },
-      "qualifiedBy": [
-        "1mo"
-      ],
-      "bestPct": 99.82027318475917,
-      "adr": 6.01,
-      "cyTrend": 3.96,
-      "nyTrend": 3.64,
-      "upCount": 11,
-      "downCount": 9,
-      "upDownRatio": 55,
-      "bbwthd": 0.69,
-      "bbwthdLow": 0.07,
-      "high52": 81.8,
-      "volx": 1.12,
-      "volSurgeWk": 0.5,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": false,
-      "jeongbae": false,
-      "div10": 12.38,
-      "div50": 37.73,
-      "div200": 9.23,
-      "ret1m": 44.23,
-      "ret3m": 22.44,
-      "ret6m": 4.74,
-      "maxRise1m": 75.64,
-      "maxRise3m": 103.7,
-      "maxRise6m": 103.7,
-      "brk60d": false,
-      "clsPos": 89.86,
-      "ma150Slope": -4.96,
-      "ta": {
-        "price": 152.78,
-        "resistance": 153.66,
-        "support": 150.49,
-        "contraction": 2.22,
-        "trend": "mixed"
-      },
-      "ma150SlopeDir": "down",
-      "wrs": {
-        "m1": 0.0496,
-        "m3": 0.0572,
-        "m6": -0.0088,
-        "rankPct6": 71.22,
-        "count": 7
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "detail": {
-        "fetchedAt": "2026-08-05",
-        "nameKo": "휴런 컨설팅 그룹",
-        "nameEn": "HURON CONSULTING GROUP INC",
-        "infomaxCode": "NAS:HURN",
-        "financials": {
-          "ok": true,
-          "ticker": "HURN",
-          "cik": "0001289848",
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "profitIsOperating": true,
-          "tags": {
-            "revenue": "Revenues",
-            "profit": "OperatingIncomeLoss",
-            "netIncome": "NetIncomeLoss"
-          },
-          "quarters": [
-            {
-              "periodStart": "2026-01-01",
-              "periodEnd": "2026-03-31",
-              "derived": false,
-              "revenue": 451767000,
-              "profit": 36583000,
-              "netIncome": 23247000,
-              "margin": 8.1,
-              "yoy": {
-                "revenue": 11.8,
-                "profit": 11.8,
-                "netIncome": -5.3,
-                "priorEnd": "2025-03-31"
-              }
-            },
-            {
-              "periodStart": "2025-09-30",
-              "periodEnd": "2025-12-31",
-              "derived": true,
-              "revenue": 441963000,
-              "profit": 50184000,
-              "netIncome": 30654000,
-              "margin": 11.4,
-              "yoy": {
-                "revenue": 10.7,
-                "profit": 6.7,
-                "netIncome": -9.8,
-                "priorEnd": "2024-12-31"
-              }
-            },
-            {
-              "periodStart": "2025-07-01",
-              "periodEnd": "2025-09-30",
-              "derived": false,
-              "revenue": 441284000,
-              "profit": 50000000,
-              "netIncome": 30420000,
-              "margin": 11.3,
-              "yoy": {
-                "revenue": 16.7,
-                "profit": 17.8,
-                "netIncome": 12,
-                "priorEnd": "2024-09-30"
-              }
-            },
-            {
-              "periodStart": "2025-04-01",
-              "periodEnd": "2025-06-30",
-              "derived": false,
-              "revenue": 411755000,
-              "profit": 45654000,
-              "netIncome": 19430000,
-              "margin": 11.1,
-              "yoy": {
-                "revenue": 8.1,
-                "profit": -23.1,
-                "netIncome": -48.2,
-                "priorEnd": "2024-06-30"
-              }
-            }
-          ],
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001289848&type=10-Q"
-        },
-        "news": {
-          "ok": true,
-          "ticker": "HURN",
-          "items": [
-            {
-              "title": "Wall Street Analysts See a 27.2% Upside in Huron Consulting (HURN): Can the Stock Really Move This High?",
-              "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-272-upside-huron-consulting-hurn-can-stock-really-move-high",
-              "date": "2026-08-04",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "HURN"
-              ]
-            },
-            {
-              "title": "Huron Consulting (HURN) is an Incredible Growth Stock: 3 Reasons Why",
-              "url": "https://www.nasdaq.com/articles/huron-consulting-hurn-incredible-growth-stock-3-reasons-why",
-              "date": "2026-08-03",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "HURN"
-              ]
-            },
-            {
-              "title": "Huron Consulting (HURN) Upgraded to Strong Buy: What Does It Mean for the Stock?",
-              "url": "https://www.nasdaq.com/articles/huron-consulting-hurn-upgraded-strong-buy-what-does-it-mean-stock",
-              "date": "2026-08-03",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "HURN"
-              ]
-            },
-            {
-              "title": "Huron Consulting Group Q2 Earnings Call Highlights",
-              "url": "https://www.nasdaq.com/articles/huron-consulting-group-q2-earnings-call-highlights",
-              "date": "2026-07-28",
-              "publisher": "MarketBeat",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "HURN"
-              ]
-            },
-            {
-              "title": "Huron Consulting (HURN) Tops Q2 Earnings and Revenue Estimates",
-              "url": "https://www.nasdaq.com/articles/huron-consulting-hurn-tops-q2-earnings-and-revenue-estimates",
-              "date": "2026-07-28",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "HURN",
-                "CRAI"
-              ]
-            },
-            {
-              "title": "Huron Consulting (HURN) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
-              "url": "https://www.nasdaq.com/articles/huron-consulting-hurn-q2-earnings-taking-look-key-metrics-versus-estimates",
-              "date": "2026-07-28",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "HURN"
-              ]
-            },
-            {
-              "title": "A Huron Consulting Director Sold Over 1,800 Company Shares. Here's a Closer Look at the Transaction.",
-              "url": "https://www.nasdaq.com/articles/huron-consulting-director-sold-over-1800-company-shares-heres-closer-look-transaction",
-              "date": "2026-06-30",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "HURN",
-                "HURN"
-              ]
-            },
-            {
-              "title": "Strength Seen in Huron Consulting (HURN): Can Its 7.1% Jump Turn into More Strength?",
-              "url": "https://www.nasdaq.com/articles/strength-seen-huron-consulting-hurn-can-its-71-jump-turn-more-strength",
-              "date": "2026-06-29",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "HURN",
-                "III"
-              ]
-            }
-          ],
-          "directCount": 10,
-          "total": 11,
-          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-07-28",
-            "reportDate": "2026-07-28",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026050168/hurn-20260728.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-07-27",
-            "reportDate": "2026-07-23",
-            "items": [
-              "5.02"
-            ],
-            "itemsKo": [
-              "임원 변동"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026049857/hurn-20260723.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-22",
-            "reportDate": "2026-06-19",
-            "items": [
-              "5.02"
-            ],
-            "itemsKo": [
-              "임원 변동"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026044612/hurn-20260619.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-12",
-            "reportDate": "2026-05-08",
-            "items": [
-              "5.07"
-            ],
-            "itemsKo": [
-              "주주총회 표결"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1289848/000128984826000098/hurn-20260508.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-05",
-            "reportDate": "2026-05-05",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1289848/000128984826000080/hurn-20260505.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-02-24",
-            "reportDate": "2026-02-24",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026011092/hurn-20260224.htm",
-            "description": "8-K"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": [],
-          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
-        }
-      },
-      "nameKo": "휴런 컨설팅 그룹",
-      "nameEn": "HURON CONSULTING GROUP INC"
+      }
     },
     {
       "ticker": "SNOW",
-      "price": 316.7699890136719,
-      "marketCap": "106.59B",
+      "price": 330.489990234375,
+      "marketCap": "110.22B",
       "sector": "Technology",
       "industry": "Software - Application",
       "rs": {
         "m1": {
-          "v": 0.20564056020212176,
-          "pct": 95.93817397555715
+          "v": 0.26406569058667284,
+          "pct": 97.29632299927901
         },
         "m3": {
-          "v": 1.0606946818772798,
-          "pct": 99.8193641618497
+          "v": 1.174562439301935,
+          "pct": 99.96374184191443
         },
         "m6": {
-          "v": 0.7349654170054514,
-          "pct": 95.54992764109986
+          "v": 0.8129903033987115,
+          "pct": 95.96949891067538
         }
       },
       "qualifiedBy": [
         "3mo"
       ],
-      "bestPct": 99.8193641618497,
-      "adr": 5.36,
+      "bestPct": 99.96374184191443,
+      "adr": 5.12,
       "cyTrend": 0.21,
       "nyTrend": 0.45,
       "upCount": 154,
       "downCount": 11,
       "upDownRatio": 93.33,
-      "bbwthd": 0.22,
+      "bbwthd": 0.3,
       "bbwthdLow": 0.08,
-      "high52": 98.59,
-      "volx": 1.17,
-      "volSurgeWk": 0.7,
+      "high52": 99.73,
+      "volx": 1.23,
+      "volSurgeWk": 0.86,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": false,
       "jeongbae": true,
-      "div10": 11.43,
-      "div50": 25.01,
-      "div200": 49.97,
-      "ret1m": 20.56,
-      "ret3m": 106.07,
-      "ret6m": 73.5,
-      "maxRise1m": 27,
-      "maxRise3m": 122.39,
-      "maxRise6m": 171.61,
+      "div10": 9.9,
+      "div50": 26.04,
+      "div200": 55.58,
+      "ret1m": 26.41,
+      "ret3m": 117.46,
+      "ret6m": 81.3,
+      "maxRise1m": 30.68,
+      "maxRise3m": 126.91,
+      "maxRise6m": 180.14,
       "brk60d": true,
-      "clsPos": 76.61,
-      "ma150Slope": 3.26,
+      "clsPos": 90.18,
+      "ma150Slope": 4.2,
       "ta": {
-        "price": 316.77,
+        "price": 330.49,
         "resistance": null,
         "support": 253.59,
-        "contraction": 1.19,
+        "contraction": 1.25,
         "trend": "up"
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0976,
-        "m3": 0.1557,
-        "m6": 0.1348,
-        "rankPct6": 23.74,
+        "m1": 0.1567,
+        "m3": 0.2538,
+        "m6": 0.2049,
+        "rankPct6": 18.71,
         "count": 50
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
+      "nameKo": "스노우플레이크",
+      "nameEn": "SNOWFLAKE INC",
       "detail": {
-        "fetchedAt": "2026-08-05",
+        "fetchedAt": "2026-08-08",
         "nameKo": "스노우플레이크",
         "nameEn": "SNOWFLAKE INC",
         "infomaxCode": "NYS:SNOW",
@@ -3102,33 +592,33 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Marvell Technology vs. Snowflake: Which High-Growth Artificial Intelligence Stock Is a Better Buy in 2026?",
-              "url": "https://www.nasdaq.com/articles/marvell-technology-vs-snowflake-which-high-growth-artificial-intelligence-stock-better-buy",
-              "date": "2026-07-28",
-              "publisher": "The Motley Fool",
+              "title": "Is ZETA Worth Buying Now as Growth Surges but Valuation Stays Rich?",
+              "url": "https://www.nasdaq.com/articles/zeta-worth-buying-now-growth-surges-valuation-stays-rich",
+              "date": "2026-08-07",
+              "publisher": "Zacks",
               "tier1": false,
-              "direct": true,
+              "direct": false,
               "tickers": [
-                "MRVL",
-                "MRVL",
-                "SNOW"
+                "ZETA",
+                "SNOW",
+                "PLTR"
               ]
             },
             {
-              "title": "UiPath vs. Snowflake: Which Artificial Intelligence Tech Stock Is a Better Buy in 2026?",
-              "url": "https://www.nasdaq.com/articles/uipath-vs-snowflake-which-artificial-intelligence-tech-stock-better-buy-2026",
-              "date": "2026-07-27",
-              "publisher": "The Motley Fool",
+              "title": "ZETA Jumps 12.9% in One Week as AI Momentum Builds: Is There More?",
+              "url": "https://www.nasdaq.com/articles/zeta-jumps-129-one-week-ai-momentum-builds-there-more",
+              "date": "2026-08-07",
+              "publisher": "Zacks",
               "tier1": false,
-              "direct": true,
+              "direct": false,
               "tickers": [
-                "PATH",
-                "PATH",
-                "SNOW"
+                "ZETA",
+                "SNOW",
+                "PLTR"
               ]
             }
           ],
-          "directCount": 8,
+          "directCount": 6,
           "total": 11,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
@@ -3234,8 +724,8 @@ window.TEAM2_DATA = {
               "date": "2026-06-01",
               "summary": "- 스노우플레이크는 클라우드에 데이터를 모아 저장·분석해주는 데이터 플랫폼 기업- FY1Q27 실적은 성장률 재가속과 가이던스 상향 등 긍정적. 발표 후 주가 +36%- 기업용 데이터·AI 플랫폼 시장 확장, 고객 확보 속도 증가 등에 우호적 흐름 전망",
               "pages": "6",
-              "secureId": "eqlcgxlggimzelmgcgxclcz",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcgxlggimzelmgcgxclcz.pdf",
+              "secureId": "eqlcgxlggimzelmgcgxclcl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcgxlggimzelmgcgxclcl.pdf",
               "opinion": null
             },
             {
@@ -3245,8 +735,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-27",
               "summary": "- 스노우플레이크는 데이터 저장·분석과 AI 활용을 지원하는 클라우드 데이터 플랫폼- FY4Q26은 매출 +30% 성장, NRR 125%, RPO +42%로 성장 탄력이 유지된 실적- FY27 성장 둔화, RPO 단기 인식 비중 하락 속 Cortex Code가 성장 재가속의 핵심",
               "pages": "4",
-              "secureId": "eqqgemlmilqxxqzgcgxclcz",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgemlmilqxxqzgcgxclcz.pdf",
+              "secureId": "eqqgemlmilqxxqzgcgxclcl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgemlmilqxxqzgcgxclcl.pdf",
               "opinion": null
             },
             {
@@ -3256,8 +746,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-26",
               "summary": "- AI 에이전트 확산으로 인한 비용 최적화 위험 비교적 적음- 원래부터 높았던 AI 기여도가 한층 더 확대 + 상호운용성 확장- 전년대비 제품 매출 +27% 성장 가이던스는 보수적으로 제시된 수치",
               "pages": "6",
-              "secureId": "eqqgcmxeclqgmlxgcgxclcz",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgcmxeclqgmlxgcgxclcz.pdf",
+              "secureId": "eqqgcmxeclqgmlxgcgxclcl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgcmxeclqgmlxgcgxclcl.pdf",
               "opinion": null
             },
             {
@@ -3267,8 +757,8 @@ window.TEAM2_DATA = {
               "date": "2025-12-05",
               "summary": "- FY3Q26은 호실적 달성에도 불구하고 4Q 가이던스를 아쉽게 제시하며 직후 주가 급락- AI는 동사에게 별도의 모멘텀이 아니라 기존 플랫폼 사용량을 끌어올리는 직접적 성장 엔진- 2Q의 대규모 마이그레이션 효과에서 정상 패턴으로의 복귀 때문에 이번 분기 실적이 언뜻 아쉬워보일 수 있으나, 레거시 시스템의 데이터 수집 및 마이그레이션은 여전히 규모가 크고 미완성된 시장임을 염두에 두어야 함 (AWS는 온프레미스 마이그레이션이 15-20%만 완료되었다고 간주).",
               "pages": "6",
-              "secureId": "eqxklllckxqgkxqgcgxclcz",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxklllckxqgkxqgcgxclcz.pdf",
+              "secureId": "eqxklllckxqgkxqgcgxclcl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxklllckxqgkxqgcgxclcl.pdf",
               "opinion": null
             },
             {
@@ -3278,8 +768,8 @@ window.TEAM2_DATA = {
               "date": "2025-09-25",
               "summary": "- 스노우플레이크는 클라우드 기반 데이터 웨어하우징(DWaaS) 및 분석 업체. 고객이 사용하는 서비스에 대해서만 비용을 지불하는 소비 기반 가격 책정 전략이 경쟁사와의 가장 큰 차별점- 이로 인해 대부분의 SW 업체가 채택하는 선수지표들(Billings, RPO, Backlog, 이연수익 등)이 불명확해지지 않은가 하는 우려가 있을 수 있지만, 계약 Capa 만큼 미리 청구를 해서 계약 최소금을 Booking으로 잡아놓기 때문에 오히려 선수지표 추이보다 매출에 인식되는 부분이 클 수 있음- AI로 인해 데이터의 양과 종류가 기하급수적으로 폭증. 이로 인해 고객 데이터 플랫폼(CDP) 시장이 점점 더 중요해지면서 TAM과 고객 기반이 모두 빠르게 확대",
               "pages": "2",
-              "secureId": "eqzlqqziceiqmxqgcgxclcz",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzlqqziceiqmxqgcgxclcz.pdf",
+              "secureId": "eqzlqqziceiqmxqgcgxclcl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzlqqziceiqmxqgcgxclcl.pdf",
               "opinion": null
             },
             {
@@ -3289,101 +779,595 @@ window.TEAM2_DATA = {
               "date": "2025-08-29",
               "summary": "- 스노우플레이크는 데이터웨어하우징(DWaaS) 산업에서 추정 점유율 2위를 보유하고 있는 업체. FY2Q26에 호실적 및 가이던스 상향으로 직후 주가 급등을 이끌어내며, 전날 발표한 몽고DB 호실적과 함께 데이터 SW 전반 의 강세 증명- 순유지율은 125%로 전분기 대비 개선. 상반기에만 250개 기능을 정식 출 시한 점이 주효(신제품: Cortex Agent, Gen2 웨어하우스, Snowflake Postgres, OpenFlow, Apache Spark용 Snowpark Connect 등)- 2분기 신규 고객의 51%와 전체 활용 사례의 25%에 AI가 중요한 영향을 미쳤으며, 현재 약 6,100개 계정이 동사의 AI를 매주 사용하고 있다고 밝 힘",
               "pages": "6",
-              "secureId": "eqzxkgicieikqlegcgxclcz",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzxkgicieikqlegcgxclcz.pdf",
+              "secureId": "eqzxkgicieikqlegcgxclcl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzxkgicieikqlegcgxclcl.pdf",
               "opinion": null
             }
           ],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      },
-      "nameKo": "스노우플레이크",
-      "nameEn": "SNOWFLAKE INC"
+      }
     },
     {
-      "ticker": "NVEC",
-      "price": 127.7300033569336,
-      "marketCap": "0.59B",
+      "ticker": "MGRT",
+      "price": 94.8499984741211,
+      "marketCap": "1.31B",
       "sector": "Technology",
-      "industry": "Semiconductors",
+      "industry": "Information Technology Services",
       "rs": {
         "m1": {
-          "v": 0.3984381134205004,
-          "pct": 99.74838245866283
+          "v": 0.12115839462024869,
+          "pct": 82.58832011535688
         },
         "m3": {
-          "v": 0.4707073910354618,
-          "pct": 96.78468208092485
+          "v": -0.27038462712214545,
+          "pct": 2.139231327048586
         },
         "m6": {
-          "v": 0.9794887517244739,
-          "pct": 96.92474674384948
+          "v": 11.697456645000472,
+          "pct": 99.96368917937546
         }
       },
       "qualifiedBy": [
-        "1mo"
+        "6mo"
       ],
-      "bestPct": 99.74838245866283,
-      "adr": 7.85,
+      "bestPct": 99.96368917937546,
+      "adr": 7.51,
       "cyTrend": null,
       "nyTrend": null,
       "upCount": null,
       "downCount": null,
       "upDownRatio": null,
-      "bbwthd": 0.66,
-      "bbwthdLow": 0.19,
-      "high52": 95.44,
-      "volx": 0.85,
-      "volSurgeWk": 0.88,
+      "bbwthd": 0.37,
+      "bbwthdLow": 0.09,
+      "high52": 55.79,
+      "volx": 0.87,
+      "volSurgeWk": 0.66,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": true,
       "jeongbae": true,
-      "div10": 10.25,
-      "div50": 25.3,
-      "div200": 65.97,
-      "ret1m": 39.84,
-      "ret3m": 47.07,
-      "ret6m": 97.95,
-      "maxRise1m": 62.47,
-      "maxRise3m": 67.74,
-      "maxRise6m": 115.67,
+      "div10": -1.22,
+      "div50": 14.53,
+      "div200": 111.08,
+      "ret1m": 12.12,
+      "ret3m": -27.04,
+      "ret6m": 1169.75,
+      "maxRise1m": 42.88,
+      "maxRise3m": 147.73,
+      "maxRise6m": 2861.67,
       "brk60d": false,
-      "clsPos": 52.51,
-      "ma150Slope": 6.02,
+      "clsPos": 52.03,
+      "ma150Slope": 23.69,
       "ta": {
-        "price": 127.73,
-        "resistance": 135,
-        "support": 97.53,
-        "contraction": 2.49,
+        "price": 94.85,
+        "resistance": 102.5,
+        "support": 71.74,
+        "contraction": 0.69,
+        "trend": "up"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.0212,
+        "m3": 0.0981,
+        "m6": -0.0401,
+        "rankPct6": 79.14,
+        "count": 16
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "메가 포춘",
+      "nameEn": "MEGA FORTUNE COMPANY LIMITED",
+      "detail": {
+        "fetchedAt": "2026-08-08",
+        "nameKo": "메가 포춘",
+        "nameEn": "MEGA FORTUNE COMPANY LIMITED",
+        "infomaxCode": "NAS:MGRT",
+        "financialsError": "매출 태그 없음",
+        "news": {
+          "ok": true,
+          "ticker": "MGRT",
+          "items": [
+            {
+              "title": "Oversold Conditions For Mega Fortune Company (MGRT)",
+              "url": "https://www.nasdaq.com/articles/oversold-conditions-mega-fortune-company-mgrt",
+              "date": "2026-06-11",
+              "publisher": "BNK Invest",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MGRT"
+              ]
+            },
+            {
+              "title": "How Mega Fortune Stock Tripled This Week",
+              "url": "https://www.nasdaq.com/articles/how-mega-fortune-stock-tripled-week",
+              "date": "2026-04-09",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MGRT",
+                "MGRT"
+              ]
+            },
+            {
+              "title": "Mega Fortune Company Limited Completes Initial Public Offering, Raising $15 Million",
+              "url": "https://www.nasdaq.com/articles/mega-fortune-company-limited-completes-initial-public-offering-raising-15-million",
+              "date": "2025-07-17",
+              "publisher": "Quiver Quantitative",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MGRT"
+              ]
+            }
+          ],
+          "directCount": 3,
+          "total": 3,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
+      }
+    },
+    {
+      "ticker": "BXC",
+      "price": 89.87999725341797,
+      "marketCap": "0.67B",
+      "sector": "Industrials",
+      "industry": "Industrial Distribution",
+      "rs": {
+        "m1": {
+          "v": 0.6592209763991567,
+          "pct": 99.89185291997116
+        },
+        "m3": {
+          "v": 0.8463433995472202,
+          "pct": 99.31109499637418
+        },
+        "m6": {
+          "v": 0.20822688521119956,
+          "pct": 69.75308641975309
+        }
+      },
+      "qualifiedBy": [
+        "1mo",
+        "3mo"
+      ],
+      "bestPct": 99.89185291997116,
+      "adr": 7.79,
+      "cyTrend": 0,
+      "nyTrend": 0,
+      "upCount": 2,
+      "downCount": 4,
+      "upDownRatio": 33.33,
+      "bbwthd": 0.65,
+      "bbwthdLow": 0.13,
+      "high52": 98.91,
+      "volx": 2.18,
+      "volSurgeWk": 1.12,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": false,
+      "jeongbae": false,
+      "div10": 37.49,
+      "div50": 55.5,
+      "div200": 48.67,
+      "ret1m": 65.92,
+      "ret3m": 84.63,
+      "ret6m": 20.82,
+      "maxRise1m": 78.11,
+      "maxRise3m": 95.59,
+      "maxRise6m": 102.93,
+      "brk60d": true,
+      "clsPos": 83.13,
+      "ma150Slope": -0.23,
+      "ta": {
+        "price": 89.88,
+        "resistance": 106.69,
+        "support": 75.8,
+        "contraction": 1.63,
+        "trend": "mixed"
+      },
+      "ma150SlopeDir": "down",
+      "wrs": {
+        "m1": 0.0195,
+        "m3": 0.05,
+        "m6": 0.0869,
+        "rankPct6": 39.57,
+        "count": 11
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "블루링스 홀딩스",
+      "nameEn": "BLUELINX HLDGS INC",
+      "detail": {
+        "fetchedAt": "2026-08-08",
+        "nameKo": "블루링스 홀딩스",
+        "nameEn": "BLUELINX HLDGS INC",
+        "infomaxCode": "NYS:BXC",
+        "financials": {
+          "ok": true,
+          "ticker": "BXC",
+          "cik": "0001301787",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-04-05",
+              "periodEnd": "2026-07-04",
+              "derived": false,
+              "revenue": 814077000,
+              "profit": 20603000,
+              "netIncome": 6406000,
+              "margin": 2.5,
+              "yoy": {
+                "revenue": 4.4,
+                "profit": 37,
+                "netIncome": 48.6,
+                "priorEnd": "2025-06-28"
+              }
+            },
+            {
+              "periodStart": "2026-01-04",
+              "periodEnd": "2026-04-04",
+              "derived": false,
+              "revenue": 731149000,
+              "profit": 7328000,
+              "netIncome": -1458000,
+              "margin": 1,
+              "yoy": {
+                "revenue": 3.1,
+                "profit": -31.7,
+                "netIncome": -152,
+                "priorEnd": "2025-03-29"
+              }
+            },
+            {
+              "periodStart": "2025-09-27",
+              "periodEnd": "2026-01-03",
+              "derived": true,
+              "revenue": 715804000,
+              "profit": -3242000,
+              "netIncome": -8551000,
+              "margin": -0.5,
+              "yoy": {
+                "revenue": 0.7,
+                "profit": -126.9,
+                "netIncome": -262.2,
+                "priorEnd": "2024-12-28"
+              }
+            },
+            {
+              "periodStart": "2025-06-29",
+              "periodEnd": "2025-09-27",
+              "derived": false,
+              "revenue": 748870000,
+              "profit": 9966000,
+              "netIncome": 1655000,
+              "margin": 1.3,
+              "yoy": {
+                "revenue": 0.2,
+                "profit": -58.5,
+                "netIncome": -89.7,
+                "priorEnd": "2024-09-28"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001301787&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "BXC",
+          "items": [
+            {
+              "title": "BlueLinx Q2 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/bluelinx-q2-earnings-call-highlights",
+              "date": "2026-08-05",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BXC"
+              ]
+            },
+            {
+              "title": "BlueLinx Q1 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/bluelinx-q1-earnings-call-highlights",
+              "date": "2026-05-09",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BXC"
+              ]
+            },
+            {
+              "title": "BlueLinx (BXC) Q1 2026 Earnings Transcript",
+              "url": "https://www.nasdaq.com/articles/bluelinx-bxc-q1-2026-earnings-transcript",
+              "date": "2026-05-06",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BXC",
+                "BXC"
+              ]
+            },
+            {
+              "title": "BlueLinx (BXC) Q4 2025 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/bluelinx-bxc-q4-2025-earnings-call-transcript",
+              "date": "2026-02-25",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BXC",
+                "BXC"
+              ]
+            },
+            {
+              "title": "BlueLinx Q2 EPS Falls 58%",
+              "url": "https://www.nasdaq.com/articles/bluelinx-q2-eps-falls-58",
+              "date": "2025-08-04",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BXC",
+                "BXC"
+              ]
+            },
+            {
+              "title": "BlueLinx Holdings Inc. Q2 Income Declines",
+              "url": "https://www.nasdaq.com/articles/bluelinx-holdings-inc-q2-income-declines",
+              "date": "2025-07-29",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BXC"
+              ]
+            },
+            {
+              "title": "New Analyst Forecast: $BXC Given $80.0 Price Target",
+              "url": "https://www.nasdaq.com/articles/new-analyst-forecast-bxc-given-800-price-target",
+              "date": "2025-07-18",
+              "publisher": "Quiver Quantitative",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BXC"
+              ]
+            },
+            {
+              "title": "$BXC stock is up 11% today. Here's what we see in our data.",
+              "url": "https://www.nasdaq.com/articles/bxc-stock-11-today-heres-what-we-see-our-data",
+              "date": "2025-06-20",
+              "publisher": "Quiver Quantitative",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BXC"
+              ]
+            }
+          ],
+          "directCount": 9,
+          "total": 11,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-04",
+            "reportDate": "2026-08-04",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1301787/000162828026052586/bxc-20260804.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-19",
+            "reportDate": "2026-05-14",
+            "items": [
+              "5.07",
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "주주총회 표결",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1301787/000110465926063807/tm2614957d1_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-05",
+            "reportDate": "2026-05-05",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1301787/000162828026030601/bxc-20260505.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-24",
+            "reportDate": "2026-02-24",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1301787/000162828026011132/bxc-20260224.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-06",
+            "reportDate": "2026-02-03",
+            "items": [
+              "5.03",
+              "9.01"
+            ],
+            "itemsKo": [
+              "5.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1301787/000110465926011491/tm265384d1_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2025-12-15",
+            "reportDate": "2025-12-12",
+            "items": [
+              "5.02",
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "임원 변동",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1301787/000110465925121125/tm2533366d1_8k.htm",
+            "description": "FORM 8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
+      }
+    },
+    {
+      "ticker": "CORT",
+      "price": 110.7699966430664,
+      "marketCap": "11.67B",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "rs": {
+        "m1": {
+          "v": 0.20559425287690378,
+          "pct": 94.26820475847151
+        },
+        "m3": {
+          "v": 1.1651680409195628,
+          "pct": 99.8912255257433
+        },
+        "m6": {
+          "v": 1.7713283277482426,
+          "pct": 99.01960784313727
+        }
+      },
+      "qualifiedBy": [
+        "3mo",
+        "6mo"
+      ],
+      "bestPct": 99.8912255257433,
+      "adr": 5.33,
+      "cyTrend": 337.61,
+      "nyTrend": 81.03,
+      "upCount": 8,
+      "downCount": 3,
+      "upDownRatio": 72.73,
+      "bbwthd": 0.42,
+      "bbwthdLow": 0.11,
+      "high52": 90.64,
+      "volx": 0.58,
+      "volSurgeWk": 0.57,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": false,
+      "jeongbae": true,
+      "div10": 4.2,
+      "div50": 24.94,
+      "div200": 76.85,
+      "ret1m": 20.56,
+      "ret3m": 116.52,
+      "ret6m": 177.13,
+      "maxRise1m": 43.98,
+      "maxRise3m": 129.29,
+      "maxRise6m": 326.41,
+      "brk60d": false,
+      "clsPos": 99.26,
+      "ma150Slope": 4.4,
+      "ta": {
+        "price": 110.77,
+        "resistance": 117.33,
+        "support": 90,
+        "contraction": 1.23,
         "trend": "up"
       },
       "ma150SlopeDir": "up",
       "wrs": {
         "m1": 0.0313,
-        "m3": 0.0559,
-        "m6": 0.4182,
-        "rankPct6": 3.6,
-        "count": 42
+        "m3": 0.1447,
+        "m6": 0.2473,
+        "rankPct6": 12.95,
+        "count": 55
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
+      "nameKo": "코셉트 테라퓨틱스",
+      "nameEn": "CORCEPT THERAPEUTICS INC",
       "detail": {
-        "fetchedAt": "2026-08-05",
-        "nameKo": "NVE",
-        "nameEn": "NVE CORP",
-        "infomaxCode": "NAS:NVEC",
+        "fetchedAt": "2026-08-08",
+        "nameKo": "코셉트 테라퓨틱스",
+        "nameEn": "CORCEPT THERAPEUTICS INC",
+        "infomaxCode": "NAS:CORT",
         "financials": {
           "ok": true,
-          "ticker": "NVEC",
-          "cik": "0000724910",
+          "ticker": "CORT",
+          "cik": "0001088856",
           "profitLabel": "영업이익",
           "marginLabel": "영업이익률",
           "profitIsOperating": true,
           "tags": {
-            "revenue": "Revenues",
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
             "profit": "OperatingIncomeLoss",
             "netIncome": "NetIncomeLoss"
           },
@@ -3392,44 +1376,44 @@ window.TEAM2_DATA = {
               "periodStart": "2026-04-01",
               "periodEnd": "2026-06-30",
               "derived": false,
-              "revenue": 11034057,
-              "profit": 7265836,
-              "netIncome": 6394191,
-              "margin": 65.8,
+              "revenue": 256147000,
+              "profit": 41300000,
+              "netIncome": 42987000,
+              "margin": 16.1,
               "yoy": {
-                "revenue": 80.7,
-                "profit": 92.1,
-                "netIncome": 78.8,
+                "revenue": 31.7,
+                "profit": 54.8,
+                "netIncome": 22.3,
                 "priorEnd": "2025-06-30"
               }
             },
             {
-              "periodStart": "2025-12-31",
+              "periodStart": "2026-01-01",
               "periodEnd": "2026-03-31",
-              "derived": true,
-              "revenue": 7654806,
-              "profit": 4734756,
-              "netIncome": 4927897,
-              "margin": 61.9,
+              "derived": false,
+              "revenue": 164903000,
+              "profit": -49601000,
+              "netIncome": -31761000,
+              "margin": -30.1,
               "yoy": {
-                "revenue": 5.3,
-                "profit": 11.4,
-                "netIncome": 26.6,
+                "revenue": 4.9,
+                "profit": -1552,
+                "netIncome": -254.6,
                 "priorEnd": "2025-03-31"
               }
             },
             {
-              "periodStart": "2025-10-01",
+              "periodStart": "2025-09-30",
               "periodEnd": "2025-12-31",
-              "derived": false,
-              "revenue": 6224776,
-              "profit": 3744376,
-              "netIncome": 3384642,
-              "margin": 60.2,
+              "derived": true,
+              "revenue": 202125000,
+              "profit": 4487000,
+              "netIncome": 24288000,
+              "margin": 2.2,
               "yoy": {
-                "revenue": 22.9,
-                "profit": 26.5,
-                "netIncome": 11,
+                "revenue": 11.1,
+                "profit": -82.2,
+                "netIncome": -21,
                 "priorEnd": "2024-12-31"
               }
             },
@@ -3437,215 +1421,211 @@ window.TEAM2_DATA = {
               "periodStart": "2025-07-01",
               "periodEnd": "2025-09-30",
               "derived": false,
-              "revenue": 6346992,
-              "profit": 3658109,
-              "netIncome": 3310838,
-              "margin": 57.6,
+              "revenue": 207638000,
+              "profit": 10219000,
+              "netIncome": 19668000,
+              "margin": 4.9,
               "yoy": {
-                "revenue": -6.1,
-                "profit": -16.8,
-                "netIncome": -17.8,
+                "revenue": 13.7,
+                "profit": -78.1,
+                "netIncome": -58.3,
                 "priorEnd": "2024-09-30"
               }
             }
           ],
           "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000724910&type=10-Q"
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001088856&type=10-Q"
         },
         "news": {
           "ok": true,
-          "ticker": "NVEC",
+          "ticker": "CORT",
           "items": [
             {
-              "title": "NVE Corp Q1 Earnings Surge Y/Y on Strong Sales & New Products",
-              "url": "https://www.nasdaq.com/articles/nve-corp-q1-earnings-surge-y-y-strong-sales-new-products",
-              "date": "2026-07-24",
+              "title": "Why Corcept Therapeutics (CORT) is a Top Momentum Stock for the Long-Term",
+              "url": "https://www.nasdaq.com/articles/why-corcept-therapeutics-cort-top-momentum-stock-long-term",
+              "date": "2026-08-05",
               "publisher": "Zacks",
               "tier1": false,
               "direct": true,
               "tickers": [
-                "NVEC"
+                "CORT"
               ]
             },
             {
-              "title": "NVE (NVEC) Q1 2027 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/nve-nvec-q1-2027-earnings-call-transcript",
-              "date": "2026-07-23",
-              "publisher": "The Motley Fool",
+              "title": "Corcept Therapeutics (CORT) Q2 Earnings and Revenues Surpass Estimates",
+              "url": "https://www.nasdaq.com/articles/corcept-therapeutics-cort-q2-earnings-and-revenues-surpass-estimates",
+              "date": "2026-07-29",
+              "publisher": "Zacks",
               "tier1": false,
               "direct": true,
               "tickers": [
-                "NVEC",
-                "NVEC"
+                "CORT",
+                "MDGL"
               ]
             },
             {
-              "title": "NVE Q1 Earnings Call Highlights",
-              "url": "https://www.nasdaq.com/articles/nve-q1-earnings-call-highlights",
-              "date": "2026-07-22",
+              "title": "Corcept Therapeutics Q2 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/corcept-therapeutics-q2-earnings-call-highlights",
+              "date": "2026-07-29",
               "publisher": "MarketBeat",
               "tier1": false,
               "direct": true,
               "tickers": [
-                "NVEC"
+                "CORT"
               ]
             },
             {
-              "title": "The &quot;Spin&quot; on NVE Corp's Upgrade to Outperform",
-              "url": "https://www.nasdaq.com/articles/spin-nve-corps-upgrade-outperform",
-              "date": "2026-06-11",
+              "title": "Corcept Therapeutics Q2 Profit Rises; Raises FY26 Outlook",
+              "url": "https://www.nasdaq.com/articles/corcept-therapeutics-q2-profit-rises-raises-fy26-outlook",
+              "date": "2026-07-29",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "CORT"
+              ]
+            },
+            {
+              "title": "Are Medical Stocks Lagging  Corcept Therapeutics (CORT) This Year?",
+              "url": "https://www.nasdaq.com/articles/are-medical-stocks-lagging-corcept-therapeutics-cort-year",
+              "date": "2026-07-23",
               "publisher": "Zacks",
               "tier1": false,
               "direct": true,
               "tickers": [
-                "NVEC"
+                "CORT",
+                "DGX"
               ]
             },
             {
-              "title": "NVEC Earns &quot;Outperform&quot; Rating on Defense Recovery & AIoT Demand",
-              "url": "https://www.nasdaq.com/articles/nvec-earns-outperform-rating-defense-recovery-aiot-demand",
-              "date": "2026-06-09",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "NVEC"
-              ]
-            },
-            {
-              "title": "NVEC Reports Solid Y/Y Earnings Growth in Q4, Unveils Strong Outlook",
-              "url": "https://www.nasdaq.com/articles/nvec-reports-solid-y-y-earnings-growth-q4-unveils-strong-outlook",
-              "date": "2026-05-13",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "NVEC"
-              ]
-            },
-            {
-              "title": "Nve (NVEC) Q4 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/nve-nvec-q4-2026-earnings-call-transcript",
-              "date": "2026-05-06",
+              "title": "Corcept's CFO Set His Selling Plan the Month the Stock Fell 50% — Here's What Investors Should Know",
+              "url": "https://www.nasdaq.com/articles/corcepts-cfo-set-his-selling-plan-month-stock-fell-50-heres-what-investors-should-know",
+              "date": "2026-07-21",
               "publisher": "The Motley Fool",
               "tier1": false,
               "direct": true,
               "tickers": [
-                "NVEC",
-                "NVEC"
+                "CORT",
+                "CORT"
               ]
             },
             {
-              "title": "NVEC vs. AOSL: Which Small-Cap Chip Stock Is the Better Buy?",
-              "url": "https://www.nasdaq.com/articles/nvec-vs-aosl-which-small-cap-chip-stock-better-buy",
-              "date": "2026-02-10",
-              "publisher": "Zacks",
+              "title": "A Corcept Director Holds 1.5 Million Shares Through a 50% Crash and Rebound",
+              "url": "https://www.nasdaq.com/articles/corcept-director-holds-15-million-shares-through-50-crash-and-rebound",
+              "date": "2026-07-21",
+              "publisher": "The Motley Fool",
               "tier1": false,
               "direct": true,
               "tickers": [
-                "AOSL",
-                "NVEC"
+                "CORT",
+                "CORT"
               ]
             }
           ],
-          "directCount": 11,
-          "total": 11,
+          "directCount": 7,
+          "total": 7,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
           {
             "form": "8-K",
-            "filingDate": "2026-07-22",
-            "reportDate": "2026-07-22",
+            "filingDate": "2026-07-29",
+            "reportDate": "2026-07-29",
             "items": [
               "2.02",
-              "8.01"
+              "7.01",
+              "9.01"
             ],
             "itemsKo": [
               "실적 발표",
-              "기타 중요사건"
+              "Reg FD 공시",
+              "재무제표·첨부"
             ],
             "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/724910/000137647426000513/nvec-20260722_8k.htm",
-            "description": "NVE CORP - FORM 8-K SEC FILING"
+            "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort-20260729.htm",
+            "description": "8-K"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-06-22",
-            "reportDate": "2026-06-22",
+            "filingDate": "2026-06-17",
+            "reportDate": "2026-06-17",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526274258/d159941d8k.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-03",
+            "reportDate": "2026-05-19",
+            "items": [
+              "8.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526254622/d103585d8k.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-28",
+            "reportDate": "2026-05-21",
             "items": [
               "5.02",
-              "8.01"
+              "5.07",
+              "9.01"
             ],
             "itemsKo": [
               "임원 변동",
-              "기타 중요사건"
+              "주주총회 표결",
+              "재무제표·첨부"
             ],
             "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/724910/000137647426000456/nvec-20260622_8k.htm",
-            "description": "NVE CORP - FORM 8-K SEC FILING"
+            "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026038793/cort-20260521.htm",
+            "description": "8-K"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-05-06",
-            "reportDate": "2026-05-06",
+            "filingDate": "2026-04-30",
+            "reportDate": "2026-04-30",
             "items": [
               "2.02",
-              "8.01"
+              "7.01",
+              "9.01"
             ],
             "itemsKo": [
               "실적 발표",
-              "기타 중요사건"
+              "Reg FD 공시",
+              "재무제표·첨부"
             ],
             "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/724910/000137647426000347/nvec-20260506_8k.htm",
-            "description": "NVE CORP - FORM 8-K SEC FILING"
+            "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026028892/cort-20260430.htm",
+            "description": "8-K"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-01-21",
-            "reportDate": "2026-01-21",
+            "filingDate": "2026-03-25",
+            "reportDate": "2026-03-25",
             "items": [
-              "2.02",
-              "8.01"
+              "8.01",
+              "9.01"
             ],
             "itemsKo": [
-              "실적 발표",
-              "기타 중요사건"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/724910/000137647426000058/nvec-20260121_8k.htm",
-            "description": "NVE CORP - FORM 8-K SEC FILING"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2025-10-22",
-            "reportDate": "2025-10-22",
-            "items": [
-              "2.02",
-              "8.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "기타 중요사건"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/724910/000137647425000856/nvec-20251022_8k.htm",
-            "description": "NVE CORP - FORM 8-K SEC FILING"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2025-08-12",
-            "reportDate": "2025-08-07",
-            "items": [
-              "5.07"
-            ],
-            "itemsKo": [
-              "주주총회 표결"
+              "기타 중요사건",
+              "재무제표·첨부"
             ],
             "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/724910/000137647425000737/nvec-20250807_8k.htm",
-            "description": "NVE CORP - FORM 8-K SEC FILING"
+            "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526123543/d123475d8k.htm",
+            "description": "8-K"
           }
         ],
         "krReports": {
@@ -3653,83 +1633,807 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
+      }
+    },
+    {
+      "ticker": "AGL",
+      "price": 95.51000213623047,
+      "marketCap": "1.45B",
+      "sector": "Healthcare",
+      "industry": "Medical Care Facilities",
+      "rs": {
+        "m1": {
+          "v": -0.16839352716446457,
+          "pct": 4.361932227829849
+        },
+        "m3": {
+          "v": 0.37345413975834985,
+          "pct": 92.929659173314
+        },
+        "m6": {
+          "v": 9.58282616878208,
+          "pct": 99.89106753812636
+        }
       },
-      "nameKo": "NVE",
-      "nameEn": "NVE CORP"
+      "qualifiedBy": [
+        "6mo"
+      ],
+      "bestPct": 99.89106753812636,
+      "adr": 10.61,
+      "cyTrend": -14.69,
+      "nyTrend": -42.21,
+      "upCount": 3,
+      "downCount": 2,
+      "upDownRatio": 60,
+      "bbwthd": 0.53,
+      "bbwthdLow": 0.14,
+      "high52": 71.79,
+      "volx": 1.11,
+      "volSurgeWk": 0.83,
+      "aboveMa150": true,
+      "aboveMa50": false,
+      "order": false,
+      "jeongbae": true,
+      "div10": -0.27,
+      "div50": -10.05,
+      "div200": 115.82,
+      "ret1m": -16.84,
+      "ret3m": 37.35,
+      "ret6m": 958.28,
+      "maxRise1m": 54.18,
+      "maxRise3m": 98.25,
+      "maxRise6m": 1678.61,
+      "brk60d": false,
+      "clsPos": 47.49,
+      "ma150Slope": 28.97,
+      "ta": {
+        "price": 95.51,
+        "resistance": 100.5,
+        "support": 93.01,
+        "contraction": 0.9,
+        "trend": "mixed"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.0569,
+        "m3": 0.0579,
+        "m6": -0.0043,
+        "rankPct6": 72.66,
+        "count": 12
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "애질론 헬스",
+      "nameEn": "AGILON HEALTH INC",
+      "detail": {
+        "fetchedAt": "2026-08-08",
+        "nameKo": "애질론 헬스",
+        "nameEn": "AGILON HEALTH INC",
+        "infomaxCode": "NYS:AGL",
+        "financials": {
+          "ok": true,
+          "ticker": "AGL",
+          "cik": "0001831097",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-01-01",
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 1420460000,
+              "profit": 3997000,
+              "netIncome": 48916000,
+              "margin": 0.3,
+              "yoy": {
+                "revenue": -7.3,
+                "profit": 118.1,
+                "netIncome": 303.9,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodStart": "2025-09-30",
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 1569491000,
+              "profit": -193825000,
+              "netIncome": -188882000,
+              "margin": -12.3,
+              "yoy": {
+                "revenue": 3.1,
+                "profit": -79.3,
+                "netIncome": -78.5,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodStart": "2025-07-01",
+              "periodEnd": "2025-09-30",
+              "derived": false,
+              "revenue": 1435321000,
+              "profit": -131274000,
+              "netIncome": -110207000,
+              "margin": -9.1,
+              "yoy": {
+                "revenue": -1.1,
+                "profit": 1.7,
+                "netIncome": 6.3,
+                "priorEnd": "2024-09-30"
+              }
+            },
+            {
+              "periodStart": "2025-04-01",
+              "periodEnd": "2025-06-30",
+              "derived": false,
+              "revenue": 1394982000,
+              "profit": -116027000,
+              "netIncome": -104370000,
+              "margin": -8.3,
+              "yoy": {
+                "revenue": -5.9,
+                "profit": -167.7,
+                "netIncome": -240.2,
+                "priorEnd": "2024-06-30"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001831097&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "AGL",
+          "items": [
+            {
+              "title": "Agilon Health Q2 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/agilon-health-q2-earnings-call-highlights",
+              "date": "2026-08-06",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AGL"
+              ]
+            },
+            {
+              "title": "Agilon Health Swings To Q2 Net Profit; Guides For Q3;Lifts 2026 Revenue View; Stock Gains",
+              "url": "https://www.nasdaq.com/articles/agilon-health-swings-q2-net-profit-guides-q3lifts-2026-revenue-view-stock-gains",
+              "date": "2026-08-06",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AGL"
+              ]
+            },
+            {
+              "title": "Agilon Health (AGL) Tops Q2 Earnings and Revenue Estimates",
+              "url": "https://www.nasdaq.com/articles/agilon-health-agl-tops-q2-earnings-and-revenue-estimates",
+              "date": "2026-08-06",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AGL",
+                "SERA"
+              ]
+            },
+            {
+              "title": "Agilon (AGL) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+              "url": "https://www.nasdaq.com/articles/agilon-agl-q2-earnings-taking-look-key-metrics-versus-estimates",
+              "date": "2026-08-06",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AGL"
+              ]
+            },
+            {
+              "title": "Agilon Health (AGL) Is Up 0.79% in One Week: What You Should Know",
+              "url": "https://www.nasdaq.com/articles/agilon-health-agl-079-one-week-what-you-should-know",
+              "date": "2026-06-26",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AGL"
+              ]
+            },
+            {
+              "title": "Why Fast-paced Mover Agilon (AGL) Is a Great Choice for Value Investors",
+              "url": "https://www.nasdaq.com/articles/why-fast-paced-mover-agilon-agl-great-choice-value-investors",
+              "date": "2026-06-26",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AGL"
+              ]
+            },
+            {
+              "title": "Is the Options Market Predicting a Spike in agilon health Stock?",
+              "url": "https://www.nasdaq.com/articles/options-market-predicting-spike-agilon-health-stock",
+              "date": "2026-06-23",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AGL"
+              ]
+            },
+            {
+              "title": "Are You Looking for a Top Momentum Pick? Why Agilon Health (AGL) is a Great Choice",
+              "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-agilon-health-agl-great-choice",
+              "date": "2026-05-28",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AGL"
+              ]
+            }
+          ],
+          "directCount": 10,
+          "total": 12,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-05",
+            "reportDate": "2026-08-05",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026053328/agl-20260805.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-22",
+            "reportDate": "2026-07-17",
+            "items": [
+              "5.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "임원 변동",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026049080/agl-20260717.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-03",
+            "reportDate": "2026-06-02",
+            "items": [
+              "5.07"
+            ],
+            "itemsKo": [
+              "주주총회 표결"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026040370/agl-20260602.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-06",
+            "reportDate": "2026-05-06",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026031254/agl-20260506.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-04-27",
+            "reportDate": "2026-04-24",
+            "items": [
+              "5.02",
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "임원 변동",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026027512/agl-20260424.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-03-30",
+            "reportDate": "2026-03-30",
+            "items": [
+              "3.03",
+              "5.03",
+              "9.01"
+            ],
+            "itemsKo": [
+              "3.03",
+              "5.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1831097/000162828026022074/agl-20260330.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
+      }
+    },
+    {
+      "ticker": "VSXY",
+      "price": 98.54000091552734,
+      "marketCap": "7.43B",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel Retail",
+      "rs": {
+        "m1": {
+          "v": 0.2575293535986771,
+          "pct": 96.79163662581111
+        },
+        "m3": {
+          "v": 1.116408891947638,
+          "pct": 99.81870920957215
+        },
+        "m6": {
+          "v": 0.6832934638610548,
+          "pct": 94.44444444444444
+        }
+      },
+      "qualifiedBy": [
+        "3mo"
+      ],
+      "bestPct": 99.81870920957215,
+      "adr": 4.72,
+      "cyTrend": 0.6,
+      "nyTrend": 0.88,
+      "upCount": 37,
+      "downCount": 0,
+      "upDownRatio": 100,
+      "bbwthd": 0.21,
+      "bbwthdLow": 0.16,
+      "high52": 99.27,
+      "volx": 0.97,
+      "volSurgeWk": 0.99,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": true,
+      "jeongbae": true,
+      "div10": 9.38,
+      "div50": 22,
+      "div200": 70.94,
+      "ret1m": 25.75,
+      "ret3m": 111.64,
+      "ret6m": 68.33,
+      "maxRise1m": 26.99,
+      "maxRise3m": 130.21,
+      "maxRise6m": 136.41,
+      "brk60d": true,
+      "clsPos": 87.84,
+      "ma150Slope": 7.89,
+      "ta": {
+        "price": 98.54,
+        "resistance": null,
+        "support": 77.6,
+        "contraction": 1.09,
+        "trend": "up"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.0982,
+        "m3": 0.1487,
+        "m6": 0.1274,
+        "rankPct6": 31.65,
+        "count": 9
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "VICTORIAS SECRET AND CO",
+      "nameEn": "VICTORIAS SECRET AND CO",
+      "detail": {
+        "fetchedAt": "2026-08-08",
+        "nameKo": "VICTORIAS SECRET AND CO",
+        "nameEn": "VICTORIAS SECRET AND CO",
+        "infomaxCode": "NYS:VSXY",
+        "financials": {
+          "ok": true,
+          "ticker": "VSXY",
+          "cik": "0001856437",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-02-01",
+              "periodEnd": "2026-05-02",
+              "derived": false,
+              "revenue": 1560000000,
+              "profit": 76000000,
+              "netIncome": 48000000,
+              "margin": 4.9,
+              "yoy": {
+                "revenue": 15.3,
+                "profit": 280,
+                "netIncome": 2500,
+                "priorEnd": "2025-05-03"
+              }
+            },
+            {
+              "periodStart": "2025-11-01",
+              "periodEnd": "2026-01-31",
+              "derived": true,
+              "revenue": 2269000000,
+              "profit": 229000000,
+              "netIncome": 184000000,
+              "margin": 10.1,
+              "yoy": {
+                "revenue": 7.7,
+                "profit": -14.6,
+                "netIncome": -4.7,
+                "priorEnd": "2025-02-01"
+              }
+            },
+            {
+              "periodStart": "2025-08-03",
+              "periodEnd": "2025-11-01",
+              "derived": false,
+              "revenue": 1472000000,
+              "profit": -19000000,
+              "netIncome": -37000000,
+              "margin": -1.3,
+              "yoy": {
+                "revenue": 9.3,
+                "profit": 59.6,
+                "netIncome": 33.9,
+                "priorEnd": "2024-11-02"
+              }
+            },
+            {
+              "periodStart": "2025-05-04",
+              "periodEnd": "2025-08-02",
+              "derived": false,
+              "revenue": 1459000000,
+              "profit": 41000000,
+              "netIncome": 16000000,
+              "margin": 2.8,
+              "yoy": {
+                "revenue": 3,
+                "profit": -33.9,
+                "netIncome": -50,
+                "priorEnd": "2024-08-03"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001856437&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "VSXY",
+          "items": [
+            {
+              "title": "Victoria's Secret & Co. (VSXY) Hits Fresh High: Is There Still Room to Run?",
+              "url": "https://www.nasdaq.com/articles/victorias-secret-co-vsxy-hits-fresh-high-there-still-room-run",
+              "date": "2026-08-07",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "VSXY",
+                "DBI"
+              ]
+            },
+            {
+              "title": "Here's Why Victoria's Secret (VSXY) is a Strong Growth Stock",
+              "url": "https://www.nasdaq.com/articles/heres-why-victorias-secret-vsxy-strong-growth-stock",
+              "date": "2026-08-06",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "VSXY"
+              ]
+            },
+            {
+              "title": "Will Victoria's Secret (VSXY) Beat Estimates Again in Its Next Earnings Report?",
+              "url": "https://www.nasdaq.com/articles/will-victorias-secret-vsxy-beat-estimates-again-its-next-earnings-report",
+              "date": "2026-08-04",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "VSXY"
+              ]
+            },
+            {
+              "title": "Victoria's Secret (VSXY) is a Great Momentum Stock: Should You Buy?",
+              "url": "https://www.nasdaq.com/articles/victorias-secret-vsxy-great-momentum-stock-should-you-buy",
+              "date": "2026-07-30",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "VSXY"
+              ]
+            },
+            {
+              "title": "Why Victoria's Secret (VSXY) is a Top Value Stock for the Long-Term",
+              "url": "https://www.nasdaq.com/articles/why-victorias-secret-vsxy-top-value-stock-long-term",
+              "date": "2026-07-30",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "VSXY"
+              ]
+            },
+            {
+              "title": "Why Victoria's Secret (VSXY) is a Top Growth Stock for the Long-Term",
+              "url": "https://www.nasdaq.com/articles/why-victorias-secret-vsxy-top-growth-stock-long-term",
+              "date": "2026-07-21",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "VSXY"
+              ]
+            },
+            {
+              "title": "Zacks Investment Ideas feature highlights: Lenovo, Victoria's Secret and Liquidia",
+              "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-lenovo-victorias-secret-and-liquidia",
+              "date": "2026-08-06",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "LQDA",
+                "VSXY"
+              ]
+            },
+            {
+              "title": "3 Top Ranked Stocks Breaking Out Now",
+              "url": "https://www.nasdaq.com/articles/3-top-ranked-stocks-breaking-out-now",
+              "date": "2026-08-05",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "LQDA",
+                "VSXY"
+              ]
+            }
+          ],
+          "directCount": 6,
+          "total": 10,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-15",
+            "reportDate": "2026-06-11",
+            "items": [
+              "5.07",
+              "9.01"
+            ],
+            "itemsKo": [
+              "주주총회 표결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000015/vsco-20260611.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-02",
+            "reportDate": "2026-06-02",
+            "items": [
+              "2.02",
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000011/vsco-20260602.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-21",
+            "reportDate": "2026-05-21",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000007/vsco-20260521.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-11",
+            "reportDate": "2026-05-10",
+            "items": [
+              "5.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "임원 변동",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000119312526217065/d152704d8k.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-03-05",
+            "reportDate": "2026-03-05",
+            "items": [
+              "2.02",
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000002/vsco-20260305.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2025-12-05",
+            "reportDate": "2025-12-05",
+            "items": [
+              "2.02",
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643725000044/vsco-20251205.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
+      }
     },
     {
       "ticker": "DELL",
-      "price": 467.2699890136719,
-      "marketCap": "277.21B",
+      "price": 453.7699890136719,
+      "marketCap": "282.78B",
       "sector": "Technology",
       "industry": "Computer Hardware",
       "rs": {
         "m1": {
-          "v": 0.12165009519903965,
-          "pct": 85.51401869158879
+          "v": 0.044945238381195005,
+          "pct": 57.42609949531363
         },
         "m3": {
-          "v": 1.0325796778312393,
-          "pct": 99.7471098265896
+          "v": 0.9022341869663407,
+          "pct": 99.45612762871646
         },
         "m6": {
-          "v": 2.7258179128671243,
-          "pct": 99.67438494934878
+          "v": 2.880553174109176,
+          "pct": 99.81844589687728
         }
       },
       "qualifiedBy": [
         "3mo",
         "6mo"
       ],
-      "bestPct": 99.7471098265896,
-      "adr": 7.71,
+      "bestPct": 99.81844589687728,
+      "adr": 7.86,
       "cyTrend": 0.22,
       "nyTrend": 5.86,
-      "upCount": 48,
+      "upCount": 7,
       "downCount": 0,
       "upDownRatio": 100,
-      "bbwthd": 0.25,
+      "bbwthd": 0.27,
       "bbwthdLow": 0.14,
-      "high52": 97.98,
-      "volx": 1.24,
-      "volSurgeWk": 1.17,
+      "high52": 93.43,
+      "volx": 0.8,
+      "volSurgeWk": 0.78,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": true,
       "jeongbae": true,
-      "div10": 10.89,
-      "div50": 14.96,
-      "div200": 115.8,
-      "ret1m": 12.17,
-      "ret3m": 103.26,
-      "ret6m": 272.58,
-      "maxRise1m": 32.89,
-      "maxRise3m": 110.19,
-      "maxRise6m": 330.9,
+      "div10": 6.79,
+      "div50": 9.22,
+      "div200": 105.25,
+      "ret1m": 4.49,
+      "ret3m": 90.22,
+      "ret6m": 288.06,
+      "maxRise1m": 35.34,
+      "maxRise3m": 114.06,
+      "maxRise6m": 332.4,
       "brk60d": false,
-      "clsPos": 70.88,
-      "ma150Slope": 18.7,
+      "clsPos": 94.67,
+      "ma150Slope": 18.34,
       "ta": {
-        "price": 467.27,
-        "resistance": null,
+        "price": 453.77,
+        "resistance": 463.48,
         "support": 378.66,
-        "contraction": 1.13,
+        "contraction": 1.21,
         "trend": "up"
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0507,
-        "m3": 0.3844,
-        "m6": 1.3893,
+        "m1": -0.0972,
+        "m3": 0.2558,
+        "m6": 1.2012,
         "rankPct6": 0.72,
         "count": 8
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
+      "nameKo": "델 테크놀로지스",
+      "nameEn": "DELL TECHNOLOGIES INC",
       "detail": {
-        "fetchedAt": "2026-08-05",
+        "fetchedAt": "2026-08-08",
         "nameKo": "델 테크놀로지스",
         "nameEn": "DELL TECHNOLOGIES INC",
         "infomaxCode": "NYS:DELL",
@@ -3815,6 +2519,39 @@ window.TEAM2_DATA = {
           "ticker": "DELL",
           "items": [
             {
+              "title": "Is Dell Technologies (DELL) a Buy as Wall Street Analysts Look Optimistic?",
+              "url": "https://www.nasdaq.com/articles/dell-technologies-dell-buy-wall-street-analysts-look-optimistic",
+              "date": "2026-08-07",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "DELL"
+              ]
+            },
+            {
+              "title": "Dell Technologies (DELL) Dips More Than Broader Market: What You Should Know",
+              "url": "https://www.nasdaq.com/articles/dell-technologies-dell-dips-more-broader-market-what-you-should-know",
+              "date": "2026-08-06",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "DELL"
+              ]
+            },
+            {
+              "title": "Dell Technologies Inc. (DELL) Hits Fresh High: Is There Still Room to Run?",
+              "url": "https://www.nasdaq.com/articles/dell-technologies-inc-dell-hits-fresh-high-there-still-room-run",
+              "date": "2026-08-05",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "DELL"
+              ]
+            },
+            {
               "title": "Here's Why Dell Technologies (DELL) is a Strong Momentum Stock",
               "url": "https://www.nasdaq.com/articles/heres-why-dell-technologies-dell-strong-momentum-stock",
               "date": "2026-08-03",
@@ -3836,80 +2573,10 @@ window.TEAM2_DATA = {
                 "DELL",
                 "HPQ"
               ]
-            },
-            {
-              "title": "Wall Street Analysts Think Dell Technologies (DELL) Could Surge 25.21%: Read This Before Placing a Bet",
-              "url": "https://www.nasdaq.com/articles/wall-street-analysts-think-dell-technologies-dell-could-surge-2521-read-placing-bet-0",
-              "date": "2026-07-31",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "DELL"
-              ]
-            },
-            {
-              "title": "Dell Technologies Inc. (DELL) is Attracting Investor Attention: Here is What You Should Know",
-              "url": "https://www.nasdaq.com/articles/dell-technologies-inc-dell-attracting-investor-attention-here-what-you-should-know-0",
-              "date": "2026-07-31",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "DELL"
-              ]
-            },
-            {
-              "title": "Here's Why Dell Technologies (DELL) Could be Great Choice for a Bottom Fisher",
-              "url": "https://www.nasdaq.com/articles/heres-why-dell-technologies-dell-could-be-great-choice-bottom-fisher",
-              "date": "2026-07-29",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "DELL"
-              ]
-            },
-            {
-              "title": "Dell Technologies vs. Apple: Which AI Stock is a Better Buy?",
-              "url": "https://www.nasdaq.com/articles/dell-technologies-vs-apple-which-ai-stock-better-buy",
-              "date": "2026-07-28",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "AAPL",
-                "DELL"
-              ]
-            },
-            {
-              "title": "Apple (AAPL) Q3 Earnings and Revenues Beat Estimates",
-              "url": "https://www.nasdaq.com/articles/apple-aapl-q3-earnings-and-revenues-beat-estimates",
-              "date": "2026-07-30",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "AAPL",
-                "DELL"
-              ]
-            },
-            {
-              "title": "Apple's Q3 Earnings: Strong iPhone 17 Shipment to Aid Top-Line Growth",
-              "url": "https://www.nasdaq.com/articles/apples-q3-earnings-strong-iphone-17-shipment-aid-top-line-growth",
-              "date": "2026-07-29",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "AAPL",
-                "HPQ",
-                "DELL"
-              ]
             }
           ],
-          "directCount": 6,
-          "total": 8,
+          "directCount": 5,
+          "total": 5,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -4030,8 +2697,8 @@ window.TEAM2_DATA = {
               "date": "2026-06-02",
               "summary": "- 매출 $43.8B(+88%), EPS $4.86(+214%)로 컨센서스 60% 이상 상회- AI 수요의 전통 IT 전방 확산 및 Agentic AI발 CPU TAM 구조적 확장- 주가 급등에도 Fwd P/E 22.8배로 업종(26.0배) 하회, 대규모 주주환원 안전판",
               "pages": "6",
-              "secureId": "eqlciziegxilkkggcgxclcz",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlciziegxilkkggcgxclcz.pdf",
+              "secureId": "eqlciziegxilkkggcgxclcl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlciziegxilkkggcgxclcl.pdf",
               "opinion": null
             },
             {
@@ -4041,8 +2708,8 @@ window.TEAM2_DATA = {
               "date": "2026-05-29",
               "summary": "- 실적발표 이후 40% 주가 상승. 단순 AI 서버 OEM에서 플랫폼 기업으로 확장. 기대를 서프라이즈 실적으로 증명. 커버리지 내 최선호주 제시- FY1Q27 매출액 438억달러(YoY+87.5%, 이하 전년동기대비), 영업이익 42억달러(+154.2%, OPM 9.7%)로 컨센서스를 각각 23.4%, 52.8% 상회. AI 서버 매출은 161억달러(+757%) 기록. 1분기 AI 서버 주문 244억달러, 백로그 513억달러 달성. FY27 AI 서버 매출 가이던스 600억달러로 상향- 전통 서버 매출도 85억달러(+92%) 기록. Agentic AI 확산으로 전통 서버 의 AI 추론 및 내부 워크로드 처리 역할 확대. 14세대 이하 서버 설치 기 반이 여전히 큰 상황에서, 18세대 서버는 14세대 13대 통합 효과 제공. 평 균단가 상승에도 비용 절감 효과가 커서 교체 수요 기반 매출 확대 전망. CSG 부문(+17%)도 점유율과 수익성 개선(+2.6%p)으로 하방을 뒷받침",
               "pages": "5",
-              "secureId": "eqlcciqxcilleikgcgxclcz",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcciqxcilleikgcgxclcz.pdf",
+              "secureId": "eqlcciqxcilleikgcgxclcl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcciqxcilleikgcgxclcl.pdf",
               "opinion": null
             },
             {
@@ -4052,8 +2719,8 @@ window.TEAM2_DATA = {
               "date": "2026-04-27",
               "summary": "- 시장은 델을 AI 인프라 기업으로 바라보기 시작- PC와 전통 서버 판매에 AI가 더해졌다- 전통 PC OEM에서 AI 인프라 기업으로 멀티플 확장 국면 진입",
               "pages": "22",
-              "secureId": "eqqqglcgmceemikgcgxclcz",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqglcgmceemikgcgxclcz.pdf",
+              "secureId": "eqqqglcgmceemikgcgxclcl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqglcgmceemikgcgxclcl.pdf",
               "opinion": null
             },
             {
@@ -4063,8 +2730,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-27",
               "summary": "- 델의 FY 4Q26 매출액은 334억 달러(YoY +39.5%), EPS는 3.89 달러 (YoY +45.1%)를 기록해 컨센서스를 각각 5.2%, 10.5% 상회했다. 각 각 가이던스 상단(320억 달러, 3.50 달러)을 초과했다.- 델은 FY 1Q27 가이던스를 중간값 기준 매출액 352억 달러(YoY +50.6%, vs. 컨센서스 293억 달러), EPS 2.9 달러(YoY +87.1%, vs. 컨 센서스 2.4 달러)로 제시했다- 2027 연간으로는 매출액 1,400억 달러 (YoY +23.3%, vs. 컨센서스 1,263억 달러), EPS 12.90 달러(YoY +25.2%, vs. 컨센서스 11.56 달러)를 기록할 것으로 예상했다. 현재 AI 서버 수주잔고는 엔비디아 그레이스 블랙웰 제품 비중이 압도적이며, 차세대 베라루빈 아키텍처는 회계연도 하반기 출하가 예정돼 있다",
               "pages": "7",
-              "secureId": "eqqgeligkiqmcgqgcgxclcz",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgeligkiqmcgqgcgxclcz.pdf",
+              "secureId": "eqqgeligkiqmcgqgcgxclcl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgeligkiqmcgqgcgxclcl.pdf",
               "opinion": null
             },
             {
@@ -4074,89 +2741,1823 @@ window.TEAM2_DATA = {
               "date": "2025-11-26",
               "summary": "- 매출액 270억 달러(YoY +10.8%), 조정 EPS 2.59 달러(YoY +20.5%)로 각각 예상치 0.7% 하회, 4.9% 상회. AI 서버 출하량 증가 및 운영 효율성으로 3분기 기준 매출, EPS 최고치 경신- CSG: 상업용 클라이언트, 소비자 매출은 각각 106.2억 달러(YoY +4.8%), 18.6억 달러(YOY -6.8%). 상업용 클라이언트 부문은 5분기 연속 매출 성장, 중소기업 전반에서 강력한 수요 확인. 소비자 수요와 심리는 3년 만에 성장세로 전환- AI 서버 수요 증가에 기록적 출하액, 수주잔고 달성. 4Q26 가이던스 시장 예상 대폭 상회. 시간 외 3.5% 상승",
               "pages": "1",
-              "secureId": "eqxkeggxcizekzmgcgxclcz",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkeggxcizekzmgcgxclcz.pdf",
+              "secureId": "eqxkeggxcizekzmgcgxclcl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkeggxcizekzmgcgxclcl.pdf",
               "opinion": null
             }
           ],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      },
-      "nameKo": "델 테크놀로지스",
-      "nameEn": "DELL TECHNOLOGIES INC"
+      }
     },
     {
-      "ticker": "MXL",
-      "price": 72.72000122070312,
-      "marketCap": "6.09B",
+      "ticker": "AXTI",
+      "price": 88.58000183105469,
+      "marketCap": "4.92B",
       "sector": "Technology",
-      "industry": "Semiconductors",
+      "industry": "Semiconductor Equipment & Materials",
       "rs": {
         "m1": {
-          "v": -0.1526450538418162,
-          "pct": 3.0553558590941767
+          "v": 0.5483307681977598,
+          "pct": 99.74765681326603
         },
         "m3": {
-          "v": -0.11715431836961224,
-          "pct": 11.091040462427745
+          "v": -0.2792514179716873,
+          "pct": 1.9941986947063088
         },
         "m6": {
-          "v": 2.8557793673023415,
-          "pct": 99.7467438494935
+          "v": 2.6542905390864444,
+          "pct": 99.60058097313
+        }
+      },
+      "qualifiedBy": [
+        "1mo",
+        "6mo"
+      ],
+      "bestPct": 99.74765681326603,
+      "adr": 15.65,
+      "cyTrend": 191.28,
+      "nyTrend": 186.12,
+      "upCount": 1,
+      "downCount": 3,
+      "upDownRatio": 25,
+      "bbwthd": 0.89,
+      "bbwthdLow": 0.35,
+      "high52": 61.87,
+      "volx": 2.44,
+      "volSurgeWk": 0.99,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": true,
+      "jeongbae": false,
+      "div10": 47.32,
+      "div50": 22.33,
+      "div200": 82.79,
+      "ret1m": 54.83,
+      "ret3m": -27.93,
+      "ret6m": 265.43,
+      "maxRise1m": 143.62,
+      "maxRise3m": 289.76,
+      "maxRise6m": 533.73,
+      "brk60d": false,
+      "clsPos": 91.8,
+      "ma150Slope": 9.95,
+      "ta": {
+        "price": 88.58,
+        "resistance": 90.1,
+        "support": 76,
+        "contraction": 1.66,
+        "trend": "up"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": -0.0755,
+        "m3": 0.1293,
+        "m6": 0.342,
+        "rankPct6": 7.19,
+        "count": 23
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "AXT",
+      "nameEn": "AXT INC",
+      "detail": {
+        "fetchedAt": "2026-08-08",
+        "nameKo": "AXT",
+        "nameEn": "AXT INC",
+        "infomaxCode": "NAS:AXTI",
+        "financials": {
+          "ok": true,
+          "ticker": "AXTI",
+          "cik": "0001051627",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-01-01",
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 26924000,
+              "profit": -1585000,
+              "netIncome": -1620000,
+              "margin": -5.9,
+              "yoy": {
+                "revenue": 39.1,
+                "profit": 84.6,
+                "netIncome": 81.6,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodStart": "2025-09-30",
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 23041000,
+              "profit": -3833000,
+              "netIncome": -3548000,
+              "margin": -16.6,
+              "yoy": {
+                "revenue": -8.2,
+                "profit": 37.8,
+                "netIncome": 30.3,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodStart": "2025-07-01",
+              "periodEnd": "2025-09-30",
+              "derived": false,
+              "revenue": 27955000,
+              "profit": -1123000,
+              "netIncome": -1906000,
+              "margin": -4,
+              "yoy": {
+                "revenue": 18.2,
+                "profit": 67,
+                "netIncome": 35.1,
+                "priorEnd": "2024-09-30"
+              }
+            },
+            {
+              "periodStart": "2025-04-01",
+              "periodEnd": "2025-06-30",
+              "derived": false,
+              "revenue": 17974000,
+              "profit": -6745000,
+              "netIncome": -7008000,
+              "margin": -37.5,
+              "yoy": {
+                "revenue": -35.6,
+                "profit": -257.8,
+                "netIncome": -362.3,
+                "priorEnd": "2024-06-30"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001051627&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "AXTI",
+          "items": [
+            {
+              "title": "AXT (AXTI) Q2 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/axt-axti-q2-2026-earnings-call-transcript-0",
+              "date": "2026-08-04",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AXTI",
+                "AXTI"
+              ]
+            },
+            {
+              "title": "AXTI Q2 Earnings Call Highlights AI Capacity Expansion",
+              "url": "https://www.nasdaq.com/articles/axti-q2-earnings-call-highlights-ai-capacity-expansion",
+              "date": "2026-07-31",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AXTI"
+              ]
+            },
+            {
+              "title": "AXT (AXTI) Q2 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/axt-axti-q2-2026-earnings-call-transcript",
+              "date": "2026-07-31",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AXTI",
+                "AXTI"
+              ]
+            },
+            {
+              "title": "AXT (AXTI) Tops Q2 Earnings and Revenue Estimates",
+              "url": "https://www.nasdaq.com/articles/axt-axti-tops-q2-earnings-and-revenue-estimates",
+              "date": "2026-07-30",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AXTI",
+                "LSCC"
+              ]
+            },
+            {
+              "title": "AXT Q2 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/axt-q2-earnings-call-highlights",
+              "date": "2026-07-30",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AXTI"
+              ]
+            },
+            {
+              "title": "AXT (AXTI) Earnings Expected to Grow: Should You Buy?",
+              "url": "https://www.nasdaq.com/articles/axt-axti-earnings-expected-grow-should-you-buy",
+              "date": "2026-07-23",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AXTI",
+                "LRCX"
+              ]
+            },
+            {
+              "title": "Lam Research (LRCX) Surpasses Q4 Earnings and Revenue Estimates",
+              "url": "https://www.nasdaq.com/articles/lam-research-lrcx-surpasses-q4-earnings-and-revenue-estimates",
+              "date": "2026-07-29",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "LRCX",
+                "AXTI"
+              ]
+            }
+          ],
+          "directCount": 6,
+          "total": 7,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-30",
+            "reportDate": "2026-07-30",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926025061/axti20260609_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-29",
+            "reportDate": "2026-07-26",
+            "items": [
+              "1.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926024883/axti20260715_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-29",
+            "reportDate": "2026-07-26",
+            "items": [
+              "3.03",
+              "5.03",
+              "9.01"
+            ],
+            "itemsKo": [
+              "3.03",
+              "5.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926024882/axti20260729_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-22",
+            "reportDate": "2026-07-16",
+            "items": [
+              "5.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "임원 변동",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926024184/axti20260720_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-08",
+            "reportDate": "2026-07-08",
+            "items": [
+              "2.04"
+            ],
+            "itemsKo": [
+              "2.04"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926022984/axti20260629_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-02",
+            "reportDate": "2026-06-26",
+            "items": [
+              "1.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926022557/axti20260630_8k.htm",
+            "description": "FORM 8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
+      }
+    },
+    {
+      "ticker": "TWST",
+      "price": 115.66999816894531,
+      "marketCap": "6.84B",
+      "sector": "Healthcare",
+      "industry": "Diagnostics & Research",
+      "rs": {
+        "m1": {
+          "v": 0.2761473846849499,
+          "pct": 97.5126171593367
+        },
+        "m3": {
+          "v": 1.0673815297883535,
+          "pct": 99.74619289340102
+        },
+        "m6": {
+          "v": 1.355324714546308,
+          "pct": 98.6564996368918
+        }
+      },
+      "qualifiedBy": [
+        "3mo",
+        "6mo"
+      ],
+      "bestPct": 99.74619289340102,
+      "adr": 8.25,
+      "cyTrend": -18.18,
+      "nyTrend": -17.47,
+      "upCount": 0,
+      "downCount": 0,
+      "upDownRatio": 0,
+      "bbwthd": 0.37,
+      "bbwthdLow": 0.14,
+      "high52": 97.76,
+      "volx": 1.25,
+      "volSurgeWk": 0.72,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": true,
+      "jeongbae": true,
+      "div10": 17.59,
+      "div50": 31.04,
+      "div200": 112.19,
+      "ret1m": 27.61,
+      "ret3m": 106.74,
+      "ret6m": 135.53,
+      "maxRise1m": 46.82,
+      "maxRise3m": 146.5,
+      "maxRise6m": 184.97,
+      "brk60d": true,
+      "clsPos": 70.75,
+      "ma150Slope": 15.56,
+      "ta": {
+        "price": 115.67,
+        "resistance": null,
+        "support": 87.57,
+        "contraction": 1.48,
+        "trend": "up"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.0898,
+        "m3": 0.3028,
+        "m6": 0.2105,
+        "rankPct6": 17.99,
+        "count": 22
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "트위스트 바이오사이언스",
+      "nameEn": "TWIST BIOSCIENCE CORPORATION",
+      "detail": {
+        "fetchedAt": "2026-08-08",
+        "nameKo": "트위스트 바이오사이언스",
+        "nameEn": "TWIST BIOSCIENCE CORPORATION",
+        "infomaxCode": "NAS:TWST",
+        "financials": {
+          "ok": true,
+          "ticker": "TWST",
+          "cik": "0001581280",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerIncludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-04-01",
+              "periodEnd": "2026-06-30",
+              "derived": false,
+              "revenue": 118376000,
+              "profit": -36280000,
+              "netIncome": -35051000,
+              "margin": -30.6,
+              "yoy": {
+                "revenue": 23.2,
+                "profit": -20.5,
+                "netIncome": -271.9,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodStart": "2026-01-01",
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 110715000,
+              "profit": -45863000,
+              "netIncome": -44021000,
+              "margin": -41.4,
+              "yoy": {
+                "revenue": 19.3,
+                "profit": -10.4,
+                "netIncome": -11.9,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodStart": "2025-10-01",
+              "periodEnd": "2025-12-31",
+              "derived": false,
+              "revenue": 103698000,
+              "profit": -32900000,
+              "netIncome": -30507000,
+              "margin": -31.7,
+              "yoy": {
+                "revenue": 16.9,
+                "profit": 5,
+                "netIncome": 3.4,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodStart": "2025-06-30",
+              "periodEnd": "2025-09-30",
+              "derived": true,
+              "revenue": 99009000,
+              "profit": -29934000,
+              "netIncome": -27138000,
+              "margin": -30.2,
+              "yoy": {
+                "revenue": 16.9,
+                "profit": 16.9,
+                "netIncome": 21.7,
+                "priorEnd": "2024-09-30"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001581280&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "TWST",
+          "items": [
+            {
+              "title": "Twist Announces Pricing Of $300 Mln Underwritten Upsized Public Offering",
+              "url": "https://www.nasdaq.com/articles/twist-announces-pricing-300-mln-underwritten-upsized-public-offering",
+              "date": "2026-08-05",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "TWST"
+              ]
+            },
+            {
+              "title": "Twist Bioscience Q3 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/twist-bioscience-q3-earnings-call-highlights",
+              "date": "2026-08-03",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "TWST"
+              ]
+            },
+            {
+              "title": "Twist Bioscience (TWST) Reports Q3 Loss, Beats Revenue Estimates",
+              "url": "https://www.nasdaq.com/articles/twist-bioscience-twst-reports-q3-loss-beats-revenue-estimates",
+              "date": "2026-08-03",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "TWST",
+                "OTLK"
+              ]
+            },
+            {
+              "title": "Twist Bioscience Director Sold 12,000 Shares. Here's What That Means for Investors.",
+              "url": "https://www.nasdaq.com/articles/twist-bioscience-director-sold-12000-shares-heres-what-means-investors",
+              "date": "2026-06-12",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "TWST",
+                "TWST"
+              ]
+            },
+            {
+              "title": "Kiniksa Pharmaceuticals International, plc (KNSA) Q2 Earnings Match Estimates",
+              "url": "https://www.nasdaq.com/articles/kiniksa-pharmaceuticals-international-plc-knsa-q2-earnings-match-estimates",
+              "date": "2026-07-28",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "KNSA",
+                "TWST"
+              ]
+            },
+            {
+              "title": "Alpha Cognition Inc. (ACOG) Surges 8.6%: Is This an Indication of Further Gains?",
+              "url": "https://www.nasdaq.com/articles/alpha-cognition-inc-acog-surges-86-indication-further-gains",
+              "date": "2026-07-28",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "ACOG",
+                "TWST"
+              ]
+            },
+            {
+              "title": "Cathie Wood Is Selling This High-Flying Stock. Is It a Buy?",
+              "url": "https://www.nasdaq.com/articles/cathie-wood-selling-high-flying-stock-it-buy",
+              "date": "2026-07-19",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "TWST",
+                "TWST"
+              ]
+            }
+          ],
+          "directCount": 4,
+          "total": 7,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-05",
+            "reportDate": "2026-08-04",
+            "items": [
+              "1.01",
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1581280/000110465926091280/tm2622018d2_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-03",
+            "reportDate": "2026-08-03",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1581280/000158128026000044/twist-20260803.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-04",
+            "reportDate": "2026-05-04",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1581280/000158128026000037/twist-20260504.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-17",
+            "reportDate": "2026-02-11",
+            "items": [
+              "3.02",
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "3.02",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1581280/000110465926015730/tm266463d1_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-06",
+            "reportDate": "2026-02-05",
+            "items": [
+              "5.07"
+            ],
+            "itemsKo": [
+              "주주총회 표결"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1581280/000158128026000022/twist-20260205.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-02",
+            "reportDate": "2026-02-02",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1581280/000158128026000016/twist-20260202.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
+      }
+    },
+    {
+      "ticker": "BAND",
+      "price": 49.959999084472656,
+      "marketCap": "1.44B",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "rs": {
+        "m1": {
+          "v": -0.3381028502579772,
+          "pct": 0.684931506849315
+        },
+        "m3": {
+          "v": 0.01051780890387711,
+          "pct": 30.928208846990575
+        },
+        "m6": {
+          "v": 2.85493818961562,
+          "pct": 99.74582425562818
         }
       },
       "qualifiedBy": [
         "6mo"
       ],
-      "bestPct": 99.7467438494935,
-      "adr": 11.42,
-      "cyTrend": 30.84,
-      "nyTrend": 37.74,
-      "upCount": 39,
-      "downCount": 0,
-      "upDownRatio": 100,
-      "bbwthd": 0.62,
-      "bbwthdLow": 0.24,
-      "high52": 56.68,
-      "volx": 0.67,
-      "volSurgeWk": 0.78,
+      "bestPct": 99.74582425562818,
+      "adr": 9.29,
+      "cyTrend": -2.78,
+      "nyTrend": -15.28,
+      "upCount": 10,
+      "downCount": 4,
+      "upDownRatio": 71.43,
+      "bbwthd": 0.92,
+      "bbwthdLow": 0.37,
+      "high52": 63.18,
+      "volx": 0.99,
+      "volSurgeWk": 1.24,
       "aboveMa150": true,
       "aboveMa50": false,
       "order": false,
       "jeongbae": false,
-      "div10": 3.26,
-      "div50": -15.51,
-      "div200": 75.48,
-      "ret1m": -15.26,
-      "ret3m": -11.72,
-      "ret6m": 285.58,
-      "maxRise1m": 75.16,
-      "maxRise3m": 128.17,
-      "maxRise6m": 772.79,
+      "div10": 9.96,
+      "div50": -16.88,
+      "div200": 65.35,
+      "ret1m": -33.81,
+      "ret3m": 1.05,
+      "ret6m": 285.49,
+      "maxRise1m": 120.37,
+      "maxRise3m": 124.66,
+      "maxRise6m": 532.64,
       "brk60d": false,
-      "clsPos": 72.29,
-      "ma150Slope": 19.12,
+      "clsPos": 52.58,
+      "ma150Slope": 18.76,
       "ta": {
-        "price": 72.72,
-        "resistance": 94.55,
-        "support": 67.77,
-        "contraction": 0.99,
+        "price": 49.96,
+        "resistance": 75.98,
+        "support": 48.15,
+        "contraction": 0.85,
         "trend": "mixed"
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0313,
-        "m3": 0.0559,
-        "m6": 0.4182,
-        "rankPct6": 3.6,
+        "m1": 0.2357,
+        "m3": 0.237,
+        "m6": 0.3311,
+        "rankPct6": 7.91,
+        "count": 33
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "밴드위스",
+      "nameEn": "BANDWIDTH INC",
+      "detail": {
+        "fetchedAt": "2026-08-08",
+        "nameKo": "밴드위스",
+        "nameEn": "BANDWIDTH INC",
+        "infomaxCode": "NAS:BAND",
+        "financials": {
+          "ok": true,
+          "ticker": "BAND",
+          "cik": "0001514416",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-01-01",
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 208784000,
+              "profit": -4621000,
+              "netIncome": 4118000,
+              "margin": -2.2,
+              "yoy": {
+                "revenue": 19.8,
+                "profit": 1.4,
+                "netIncome": 210.1,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodStart": "2025-09-30",
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 207668000,
+              "profit": -3926000,
+              "netIncome": -3000000,
+              "margin": -1.9,
+              "yoy": {
+                "revenue": -1.1,
+                "profit": -47,
+                "netIncome": -70.6,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodStart": "2025-07-01",
+              "periodEnd": "2025-09-30",
+              "derived": false,
+              "revenue": 191895000,
+              "profit": -2008000,
+              "netIncome": -1241000,
+              "margin": -1,
+              "yoy": {
+                "revenue": -1,
+                "profit": -123.6,
+                "netIncome": -400.5,
+                "priorEnd": "2024-09-30"
+              }
+            },
+            {
+              "periodStart": "2025-04-01",
+              "periodEnd": "2025-06-30",
+              "derived": false,
+              "revenue": 180013000,
+              "profit": -3748000,
+              "netIncome": -4931000,
+              "margin": -2.1,
+              "yoy": {
+                "revenue": 3.7,
+                "profit": 38.3,
+                "netIncome": -221.6,
+                "priorEnd": "2024-06-30"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514416&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "BAND",
+          "items": [
+            {
+              "title": "All You Need to Know About Bandwidth (BAND) Rating Upgrade to Buy",
+              "url": "https://www.nasdaq.com/articles/all-you-need-know-about-bandwidth-band-rating-upgrade-buy",
+              "date": "2026-08-04",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BAND"
+              ]
+            },
+            {
+              "title": "Bandwidth Q2 Earnings Call Highlights AI Shift, 2026 Outlook Raised",
+              "url": "https://www.nasdaq.com/articles/bandwidth-q2-earnings-call-highlights-ai-shift-2026-outlook-raised",
+              "date": "2026-07-30",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BAND"
+              ]
+            },
+            {
+              "title": "Bandwidth Q2 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/bandwidth-q2-earnings-call-highlights",
+              "date": "2026-07-29",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BAND"
+              ]
+            },
+            {
+              "title": "Bandwidth (BAND) Q2 Earnings and Revenues Surpass Estimates",
+              "url": "https://www.nasdaq.com/articles/bandwidth-band-q2-earnings-and-revenues-surpass-estimates",
+              "date": "2026-07-29",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BAND",
+                "ATEX"
+              ]
+            },
+            {
+              "title": "Should Bandwidth Stock Be in Your Portfolio Pre-Q2 Earnings?",
+              "url": "https://www.nasdaq.com/articles/should-bandwidth-stock-be-your-portfolio-pre-q2-earnings",
+              "date": "2026-07-27",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BAND",
+                "RNG",
+                "TWLO"
+              ]
+            }
+          ],
+          "directCount": 5,
+          "total": 5,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-03",
+            "reportDate": "2026-08-03",
+            "items": [
+              "8.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000060/band-20260803.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-29",
+            "reportDate": "2026-07-24",
+            "items": [
+              "1.01",
+              "2.02",
+              "5.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "실적 발표",
+              "임원 변동",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000055/band-20260724.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-18",
+            "reportDate": "2026-06-15",
+            "items": [
+              "1.01",
+              "2.03",
+              "3.02",
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "2.03",
+              "3.02",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000049/band-20260615.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-16",
+            "reportDate": "2026-06-15",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000045/band-20260615.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-15",
+            "reportDate": "2026-06-15",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000043/band-20260615.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-29",
+            "reportDate": "2026-05-28",
+            "items": [
+              "5.07"
+            ],
+            "itemsKo": [
+              "주주총회 표결"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000041/band-20260528.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
+      }
+    },
+    {
+      "ticker": "PAYC",
+      "price": 214.94000244140625,
+      "marketCap": "10.07B",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "rs": {
+        "m1": {
+          "v": 0.5454414697412885,
+          "pct": 99.67555875991349
+        },
+        "m3": {
+          "v": 0.5663263433962541,
+          "pct": 97.35315445975344
+        },
+        "m6": {
+          "v": 0.7246328654504798,
+          "pct": 94.9527959331881
+        }
+      },
+      "qualifiedBy": [
+        "1mo"
+      ],
+      "bestPct": 99.67555875991349,
+      "adr": 4.75,
+      "cyTrend": 0,
+      "nyTrend": -0.08,
+      "upCount": 0,
+      "downCount": 5,
+      "upDownRatio": 0,
+      "bbwthd": 0.55,
+      "bbwthdLow": 0.11,
+      "high52": 92.33,
+      "volx": 1.49,
+      "volSurgeWk": 0.75,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": false,
+      "jeongbae": true,
+      "div10": 22.33,
+      "div50": 48.59,
+      "div200": 49.04,
+      "ret1m": 54.54,
+      "ret3m": 56.63,
+      "ret6m": 72.46,
+      "maxRise1m": 62.59,
+      "maxRise3m": 83.83,
+      "maxRise6m": 101.86,
+      "brk60d": false,
+      "clsPos": 15.56,
+      "ma150Slope": -0.28,
+      "ta": {
+        "price": 214.94,
+        "resistance": 217.49,
+        "support": 213.55,
+        "contraction": 1.5,
+        "trend": "mixed"
+      },
+      "ma150SlopeDir": "down",
+      "wrs": {
+        "m1": 0.1567,
+        "m3": 0.2538,
+        "m6": 0.2049,
+        "rankPct6": 18.71,
+        "count": 50
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "페이컴 소프트웨어",
+      "nameEn": "PAYCOM SOFTWARE INC",
+      "detail": {
+        "fetchedAt": "2026-08-08",
+        "nameKo": "페이컴 소프트웨어",
+        "nameEn": "PAYCOM SOFTWARE INC",
+        "infomaxCode": "NYS:PAYC",
+        "financials": {
+          "ok": true,
+          "ticker": "PAYC",
+          "cik": "0001590955",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-04-01",
+              "periodEnd": "2026-06-30",
+              "derived": false,
+              "revenue": 531200000,
+              "profit": 168500000,
+              "netIncome": 107400000,
+              "margin": 31.7,
+              "yoy": {
+                "revenue": 9.8,
+                "profit": 50,
+                "netIncome": 20,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodStart": "2026-01-01",
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 571900000,
+              "profit": 210200000,
+              "netIncome": 155700000,
+              "margin": 36.8,
+              "yoy": {
+                "revenue": 7.8,
+                "profit": 13.6,
+                "netIncome": 11.7,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodStart": "2025-09-30",
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 544300000,
+              "profit": 157100000,
+              "netIncome": 113800000,
+              "margin": 28.9,
+              "yoy": {
+                "revenue": 10.2,
+                "profit": 5.8,
+                "netIncome": 0.2,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodStart": "2025-07-01",
+              "periodEnd": "2025-09-30",
+              "derived": false,
+              "revenue": 493300000,
+              "profit": 112600000,
+              "netIncome": 110700000,
+              "margin": 22.8,
+              "yoy": {
+                "revenue": 9.2,
+                "profit": 7.3,
+                "netIncome": 51,
+                "priorEnd": "2024-09-30"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001590955&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "PAYC",
+          "items": [
+            {
+              "title": "PAYC Q2 Earnings Call Centers on Automation and Raised Outlook (Revised)",
+              "url": "https://www.nasdaq.com/articles/payc-q2-earnings-call-centers-automation-and-raised-outlook-revised",
+              "date": "2026-08-07",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PAYC"
+              ]
+            },
+            {
+              "title": "PAYC Q2 Earnings Call Centers on Automation and Raised Outlook",
+              "url": "https://www.nasdaq.com/articles/payc-q2-earnings-call-centers-automation-and-raised-outlook",
+              "date": "2026-08-06",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PAYC"
+              ]
+            },
+            {
+              "title": "Paycom Software (PAYC) Tops Q2 Earnings and Revenue Estimates",
+              "url": "https://www.nasdaq.com/articles/paycom-software-payc-tops-q2-earnings-and-revenue-estimates",
+              "date": "2026-08-06",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PAYC",
+                "DDOG"
+              ]
+            },
+            {
+              "title": "Amended: Paycom Software Reveals Increase In Q2 Bottom Line",
+              "url": "https://www.nasdaq.com/articles/amended-paycom-software-reveals-increase-q2-bottom-line",
+              "date": "2026-08-05",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PAYC"
+              ]
+            },
+            {
+              "title": "Paycom Software, Inc. Reveals Increase In Q2 Bottom Line",
+              "url": "https://www.nasdaq.com/articles/paycom-software-inc-reveals-increase-q2-bottom-line",
+              "date": "2026-08-05",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PAYC"
+              ]
+            },
+            {
+              "title": "Paycom Software Q2 26 Earnings Conference Call At 5:00 PM ET",
+              "url": "https://www.nasdaq.com/articles/paycom-software-q2-26-earnings-conference-call-5-00-pm-et",
+              "date": "2026-08-05",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PAYC"
+              ]
+            },
+            {
+              "title": "Paycom Software (PAYC) is a Top-Ranked Value Stock: Should You Buy?",
+              "url": "https://www.nasdaq.com/articles/paycom-software-payc-top-ranked-value-stock-should-you-buy",
+              "date": "2026-08-03",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PAYC"
+              ]
+            },
+            {
+              "title": "Here's How Much You'd Have If You Invested $1000 in Paycom Software a Decade Ago",
+              "url": "https://www.nasdaq.com/articles/heres-how-much-youd-have-if-you-invested-1000-paycom-software-decade-ago",
+              "date": "2026-07-30",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PAYC"
+              ]
+            }
+          ],
+          "directCount": 9,
+          "total": 12,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-05",
+            "reportDate": "2026-08-05",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526335105/payc-20260805.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-03",
+            "reportDate": "2026-08-03",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526330818/payc-20260803.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-09",
+            "reportDate": "2026-07-08",
+            "items": [
+              "5.02",
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "임원 변동",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526299695/payc-20260708.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-07",
+            "reportDate": "2026-05-04",
+            "items": [
+              "5.07"
+            ],
+            "itemsKo": [
+              "주주총회 표결"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526211919/payc-20260504.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-06",
+            "reportDate": "2026-05-06",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526208968/payc-20260506.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-04",
+            "reportDate": "2026-05-04",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526204311/payc-20260504.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
+      }
+    },
+    {
+      "ticker": "QLYS",
+      "price": 183.47999572753906,
+      "marketCap": "6.29B",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "rs": {
+        "m1": {
+          "v": 0.2016503555820445,
+          "pct": 93.97981254506128
+        },
+        "m3": {
+          "v": 1.0359519544566136,
+          "pct": 99.67367657722987
+        },
+        "m6": {
+          "v": 0.7489275504982851,
+          "pct": 95.53376906318083
+        }
+      },
+      "qualifiedBy": [
+        "3mo"
+      ],
+      "bestPct": 99.67367657722987,
+      "adr": 6.29,
+      "cyTrend": 2.07,
+      "nyTrend": 1.46,
+      "upCount": 39,
+      "downCount": 2,
+      "upDownRatio": 95.12,
+      "bbwthd": 0.42,
+      "bbwthdLow": 0.12,
+      "high52": 91.04,
+      "volx": 1.05,
+      "volSurgeWk": 0.67,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": false,
+      "jeongbae": true,
+      "div10": 17.87,
+      "div50": 35.93,
+      "div200": 52.94,
+      "ret1m": 20.17,
+      "ret3m": 103.6,
+      "ret6m": 74.89,
+      "maxRise1m": 53.85,
+      "maxRise3m": 138.14,
+      "maxRise6m": 170.49,
+      "brk60d": false,
+      "clsPos": 85.06,
+      "ma150Slope": 1.07,
+      "ta": {
+        "price": 183.48,
+        "resistance": null,
+        "support": 140.31,
+        "contraction": 1.06,
+        "trend": "up"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.2357,
+        "m3": 0.237,
+        "m6": 0.3311,
+        "rankPct6": 7.91,
+        "count": 33
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "퀄리스",
+      "nameEn": "QUALYS INC",
+      "detail": {
+        "fetchedAt": "2026-08-08",
+        "nameKo": "퀄리스",
+        "nameEn": "QUALYS INC",
+        "infomaxCode": "NAS:QLYS",
+        "financials": {
+          "ok": true,
+          "ticker": "QLYS",
+          "cik": "0001107843",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-04-01",
+              "periodEnd": "2026-06-30",
+              "derived": false,
+              "revenue": 182175000,
+              "profit": 61902000,
+              "netIncome": 52405000,
+              "margin": 34,
+              "yoy": {
+                "revenue": 11,
+                "profit": 20.4,
+                "netIncome": 10.8,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodStart": "2026-01-01",
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 175638000,
+              "profit": 60885000,
+              "netIncome": 50643000,
+              "margin": 34.7,
+              "yoy": {
+                "revenue": 9.8,
+                "profit": 17.6,
+                "netIncome": 6.5,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodStart": "2025-09-30",
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 175282000,
+              "profit": 58835000,
+              "netIncome": 53130000,
+              "margin": 33.6,
+              "yoy": {
+                "revenue": 10.1,
+                "profit": 19.1,
+                "netIncome": 20.8,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodStart": "2025-07-01",
+              "periodEnd": "2025-09-30",
+              "derived": false,
+              "revenue": 169882000,
+              "profit": 59955000,
+              "netIncome": 50346000,
+              "margin": 35.3,
+              "yoy": {
+                "revenue": 10.4,
+                "profit": 33.4,
+                "netIncome": 8.9,
+                "priorEnd": "2024-09-30"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001107843&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "QLYS",
+          "items": [
+            {
+              "title": "Why Qualys Stock Crushed it on Wednesday",
+              "url": "https://www.nasdaq.com/articles/why-qualys-stock-crushed-it-wednesday",
+              "date": "2026-08-05",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "QLYS",
+                "QLYS"
+              ]
+            },
+            {
+              "title": "Qualys Q2 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/qualys-q2-earnings-call-highlights",
+              "date": "2026-08-05",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "QLYS"
+              ]
+            },
+            {
+              "title": "Qualys (QLYS) Tops Q2 Earnings and Revenue Estimates",
+              "url": "https://www.nasdaq.com/articles/qualys-qlys-tops-q2-earnings-and-revenue-estimates",
+              "date": "2026-08-04",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "QLYS",
+                "PANW"
+              ]
+            },
+            {
+              "title": "Qualys (QLYS) Soars 6.1%: Is Further Upside Left in the Stock?",
+              "url": "https://www.nasdaq.com/articles/qualys-qlys-soars-61-further-upside-left-stock",
+              "date": "2026-06-29",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "QLYS",
+                "CHKP"
+              ]
+            },
+            {
+              "title": "A Qualys Director Sold Company Shares Worth $104,000. Here's What That Means for Investors.",
+              "url": "https://www.nasdaq.com/articles/qualys-director-sold-company-shares-worth-104000-heres-what-means-investors",
+              "date": "2026-06-16",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "QLYS",
+                "QLYS"
+              ]
+            },
+            {
+              "title": "Qualys (QLYS) Up 22.9% Since Last Earnings Report: Can It Continue?",
+              "url": "https://www.nasdaq.com/articles/qualys-qlys-229-last-earnings-report-can-it-continue",
+              "date": "2026-06-04",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "QLYS",
+                "VRNS"
+              ]
+            }
+          ],
+          "directCount": 6,
+          "total": 6,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-04",
+            "reportDate": "2026-08-04",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000034/qlys-20260804.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-11",
+            "reportDate": "2026-06-10",
+            "items": [
+              "5.02",
+              "5.07",
+              "9.01"
+            ],
+            "itemsKo": [
+              "임원 변동",
+              "주주총회 표결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000024/qlys-20260610.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-05",
+            "reportDate": "2026-05-05",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000013/qlys-20260505.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-05",
+            "reportDate": "2026-02-05",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000004/qlys-20260205.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2025-11-04",
+            "reportDate": "2025-11-04",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784325000037/qlys-20251104.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2025-08-05",
+            "reportDate": "2025-08-05",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784325000030/qlys-20250805.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
+      }
+    },
+    {
+      "ticker": "MXL",
+      "price": 74.9800033569336,
+      "marketCap": "6.37B",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "rs": {
+        "m1": {
+          "v": -0.17875135979538181,
+          "pct": 3.4967555875991345
+        },
+        "m3": {
+          "v": -0.1843793853146314,
+          "pct": 6.272661348803481
+        },
+        "m6": {
+          "v": 2.8392217470941743,
+          "pct": 99.67320261437908
+        }
+      },
+      "qualifiedBy": [
+        "6mo"
+      ],
+      "bestPct": 99.67320261437908,
+      "adr": 11.57,
+      "cyTrend": 30.84,
+      "nyTrend": 37.74,
+      "upCount": 24,
+      "downCount": 0,
+      "upDownRatio": 100,
+      "bbwthd": 0.58,
+      "bbwthdLow": 0.24,
+      "high52": 58.44,
+      "volx": 0.5,
+      "volSurgeWk": 0.76,
+      "aboveMa150": true,
+      "aboveMa50": false,
+      "order": false,
+      "jeongbae": false,
+      "div10": 12.37,
+      "div50": -11.15,
+      "div200": 77.49,
+      "ret1m": -17.88,
+      "ret3m": -18.44,
+      "ret6m": 283.92,
+      "maxRise1m": 75.16,
+      "maxRise3m": 128.17,
+      "maxRise6m": 772.79,
+      "brk60d": false,
+      "clsPos": 61.92,
+      "ma150Slope": 17.46,
+      "ta": {
+        "price": 74.98,
+        "resistance": 94.55,
+        "support": 67.77,
+        "contraction": 0.64,
+        "trend": "mixed"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.0012,
+        "m3": 0.0379,
+        "m6": 0.4545,
+        "rankPct6": 2.88,
         "count": 42
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
+      "nameKo": "맥스리니어",
+      "nameEn": "MAXLINEAR INC",
       "detail": {
-        "fetchedAt": "2026-08-05",
+        "fetchedAt": "2026-08-08",
         "nameKo": "맥스리니어",
         "nameEn": "MAXLINEAR INC",
         "infomaxCode": "NAS:MXL",
@@ -4427,90 +4828,89 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      },
-      "nameKo": "맥스리니어",
-      "nameEn": "MAXLINEAR INC"
+      }
     },
     {
-      "ticker": "ZBRA",
-      "price": 368.8299865722656,
-      "marketCap": "13.89B",
-      "sector": "Technology",
-      "industry": "Communication Equipment",
+      "ticker": "FET",
+      "price": 74.2300033569336,
+      "marketCap": "0.85B",
+      "sector": "Energy",
+      "industry": "Oil & Gas Equipment & Services",
       "rs": {
         "m1": {
-          "v": 0.3936519746020866,
-          "pct": 99.67649173256649
+          "v": 0.4944635815054991,
+          "pct": 99.60346070656092
         },
         "m3": {
-          "v": 0.61328840193181,
-          "pct": 98.01300578034682
+          "v": 0.33531216321606633,
+          "pct": 91.33430021754894
         },
         "m6": {
-          "v": 0.437541318327936,
-          "pct": 88.60347322720695
+          "v": 0.47868530336227566,
+          "pct": 89.65141612200436
         }
       },
       "qualifiedBy": [
-        "1mo",
-        "3mo"
+        "1mo"
       ],
-      "bestPct": 99.67649173256649,
-      "adr": 4.43,
-      "cyTrend": 0.07,
-      "nyTrend": 0.05,
-      "upCount": 5,
-      "downCount": 3,
-      "upDownRatio": 62.5,
-      "bbwthd": 0.36,
-      "bbwthdLow": 0.07,
-      "high52": 99.74,
-      "volx": 4.06,
-      "volSurgeWk": 2.42,
+      "bestPct": 99.60346070656092,
+      "adr": 5.94,
+      "cyTrend": 86.54,
+      "nyTrend": 38.11,
+      "upCount": 4,
+      "downCount": 2,
+      "upDownRatio": 66.67,
+      "bbwthd": 0.62,
+      "bbwthdLow": 0.1,
+      "high52": 95.77,
+      "volx": 1.24,
+      "volSurgeWk": 0.57,
       "aboveMa150": true,
       "aboveMa50": true,
-      "order": false,
-      "jeongbae": true,
-      "div10": 29.21,
-      "div50": 43.12,
-      "div200": 49.44,
-      "ret1m": 39.37,
-      "ret3m": 61.33,
-      "ret6m": 43.75,
-      "maxRise1m": 47.73,
-      "maxRise3m": 74.54,
-      "maxRise6m": 85.78,
-      "brk60d": true,
-      "clsPos": 97.62,
-      "ma150Slope": 0.96,
+      "order": true,
+      "jeongbae": false,
+      "div10": 15.28,
+      "div50": 37.39,
+      "div200": 53.17,
+      "ret1m": 49.45,
+      "ret3m": 33.53,
+      "ret6m": 47.87,
+      "maxRise1m": 55.42,
+      "maxRise3m": 66.65,
+      "maxRise6m": 66.65,
+      "brk60d": false,
+      "clsPos": 14.48,
+      "ma150Slope": 6.25,
       "ta": {
-        "price": 368.83,
-        "resistance": 375.88,
-        "support": 360.57,
-        "contraction": 1.36,
+        "price": 74.23,
+        "resistance": null,
+        "support": 56.5,
+        "contraction": 2.12,
         "trend": "up"
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0896,
-        "m3": 0.1819,
-        "m6": 0.3655,
-        "rankPct6": 5.76,
+        "m1": 0.0351,
+        "m3": -0.0778,
+        "m6": 0.0452,
+        "rankPct6": 57.55,
         "count": 13
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
+      "nameKo": "포럼 에너지 테크놀로지스",
+      "nameEn": "FORUM ENERGY TECHNOLOGIES INC",
       "detail": {
-        "fetchedAt": "2026-08-05",
-        "nameKo": "지브라 테크놀로지스",
-        "nameEn": "ZEBRA TECHNOLOGIES",
-        "infomaxCode": "NAS:ZBRA",
+        "fetchedAt": "2026-08-08",
+        "nameKo": "포럼 에너지 테크놀로지스",
+        "nameEn": "FORUM ENERGY TECHNOLOGIES INC",
+        "infomaxCode": "NYS:FET",
         "financials": {
           "ok": true,
-          "ticker": "ZBRA",
-          "cik": "0000877212",
+          "ticker": "FET",
+          "cik": "0001401257",
           "profitLabel": "영업이익",
           "marginLabel": "영업이익률",
           "profitIsOperating": true,
@@ -4521,177 +4921,176 @@ window.TEAM2_DATA = {
           },
           "quarters": [
             {
-              "periodStart": "2026-04-05",
-              "periodEnd": "2026-07-04",
-              "derived": false,
-              "revenue": 1557000000,
-              "profit": 321000000,
-              "netIncome": 233000000,
-              "margin": 20.6,
-              "yoy": {
-                "revenue": 20.4,
-                "profit": 75.4,
-                "netIncome": 108,
-                "priorEnd": "2025-06-28"
-              }
-            },
-            {
               "periodStart": "2026-01-01",
-              "periodEnd": "2026-04-04",
+              "periodEnd": "2026-03-31",
               "derived": false,
-              "revenue": 1495000000,
-              "profit": 215000000,
-              "netIncome": 135000000,
-              "margin": 14.4,
+              "revenue": 208700000,
+              "profit": 11005000,
+              "netIncome": 4492000,
+              "margin": 5.3,
               "yoy": {
-                "revenue": 14.3,
-                "profit": 10.3,
-                "netIncome": -0.7,
-                "priorEnd": "2025-03-29"
+                "revenue": 8,
+                "profit": 25,
+                "netIncome": 300.4,
+                "priorEnd": "2025-03-31"
               }
             },
             {
-              "periodStart": "2025-09-27",
+              "periodStart": "2025-09-30",
               "periodEnd": "2025-12-31",
               "derived": true,
-              "revenue": 1475000000,
-              "profit": 139000000,
-              "netIncome": 70000000,
-              "margin": 9.4,
+              "revenue": 202200000,
+              "profit": 12764000,
+              "netIncome": 2072000,
+              "margin": 6.3,
               "yoy": {
-                "revenue": 10.6,
-                "profit": -38.2,
-                "netIncome": -57.1,
+                "revenue": 0.6,
+                "profit": 111.9,
+                "netIncome": 102,
                 "priorEnd": "2024-12-31"
               }
             },
             {
-              "periodStart": "2025-06-29",
-              "periodEnd": "2025-09-27",
+              "periodStart": "2025-07-01",
+              "periodEnd": "2025-09-30",
               "derived": false,
-              "revenue": 1320000000,
-              "profit": 183000000,
-              "netIncome": 101000000,
-              "margin": 13.9,
+              "revenue": 196231000,
+              "profit": -6106000,
+              "netIncome": -20554000,
+              "margin": -3.1,
               "yoy": {
-                "revenue": 5.2,
-                "profit": -4.2,
-                "netIncome": -26.3,
-                "priorEnd": "2024-09-28"
+                "revenue": -5.6,
+                "profit": -168.5,
+                "netIncome": -38.7,
+                "priorEnd": "2024-09-30"
+              }
+            },
+            {
+              "periodStart": "2025-04-01",
+              "periodEnd": "2025-06-30",
+              "derived": false,
+              "revenue": 199764000,
+              "profit": 14683000,
+              "netIncome": 7700000,
+              "margin": 7.4,
+              "yoy": {
+                "revenue": -2.7,
+                "profit": 85.1,
+                "netIncome": 215,
+                "priorEnd": "2024-06-30"
               }
             }
           ],
           "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000877212&type=10-Q"
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001401257&type=10-Q"
         },
         "news": {
           "ok": true,
-          "ticker": "ZBRA",
+          "ticker": "FET",
           "items": [
             {
-              "title": "Zebra Technologies Stock Jumped 20% Today on the Best Problem in Tech",
-              "url": "https://www.nasdaq.com/articles/zebra-technologies-stock-jumped-20-today-best-problem-tech",
-              "date": "2026-08-04",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "ZBRA",
-                "ZBRA"
-              ]
-            },
-            {
-              "title": "Zebra Technologies (ZBRA) Beats Q2 Earnings and Revenue Estimates",
-              "url": "https://www.nasdaq.com/articles/zebra-technologies-zbra-beats-q2-earnings-and-revenue-estimates",
-              "date": "2026-08-04",
+              "title": "Forum Energy Technologies (FET) is a Great Momentum Stock: Should You Buy?",
+              "url": "https://www.nasdaq.com/articles/forum-energy-technologies-fet-great-momentum-stock-should-you-buy",
+              "date": "2026-08-07",
               "publisher": "Zacks",
               "tier1": false,
               "direct": true,
               "tickers": [
-                "ZBRA",
-                "DE"
+                "FET"
               ]
             },
             {
-              "title": "Zebra Technologies Boosts FY26 Outlook As Q2 Profit, Sales Surge; Stock Up 10%",
-              "url": "https://www.nasdaq.com/articles/zebra-technologies-boosts-fy26-outlook-q2-profit-sales-surge-stock-10",
-              "date": "2026-08-04",
-              "publisher": "RTTNews",
+              "title": "Forum Energy (FET) is on the Move, Here's Why the Trend Could be Sustainable",
+              "url": "https://www.nasdaq.com/articles/forum-energy-fet-move-heres-why-trend-could-be-sustainable",
+              "date": "2026-08-06",
+              "publisher": "Zacks",
               "tier1": false,
               "direct": true,
               "tickers": [
-                "ZBRA"
+                "FET"
               ]
             },
             {
-              "title": "Better Robotics Stock: UiPath or Zebra Technologies",
-              "url": "https://www.nasdaq.com/articles/better-robotics-stock-uipath-or-zebra-technologies",
-              "date": "2026-07-14",
+              "title": "Are Oils-Energy Stocks Lagging  Forum Energy Technologies (FET) This Year?",
+              "url": "https://www.nasdaq.com/articles/are-oils-energy-stocks-lagging-forum-energy-technologies-fet-year",
+              "date": "2026-08-05",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "FET",
+                "NOV"
+              ]
+            },
+            {
+              "title": "Forum Energy Technologies, Inc. (FET) Hit a 52 Week High, Can the Run Continue?",
+              "url": "https://www.nasdaq.com/articles/forum-energy-technologies-inc-fet-hit-52-week-high-can-run-continue",
+              "date": "2026-08-05",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "FET",
+                "NESR"
+              ]
+            },
+            {
+              "title": "Why Forum Energy Technologies Stock Blasted Nearly 22% Higher on Friday",
+              "url": "https://www.nasdaq.com/articles/why-forum-energy-technologies-stock-blasted-nearly-22-higher-friday",
+              "date": "2026-07-31",
               "publisher": "The Motley Fool",
               "tier1": false,
               "direct": true,
               "tickers": [
-                "PATH",
-                "PATH",
-                "ZBRA"
+                "FET",
+                "FET"
               ]
             },
             {
-              "title": "Why Zebra Technologies (ZBRA) is a Top Growth Stock for the Long-Term",
-              "url": "https://www.nasdaq.com/articles/why-zebra-technologies-zbra-top-growth-stock-long-term",
+              "title": "Forum Energy Technologies Q2 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/forum-energy-technologies-q2-earnings-call-highlights",
+              "date": "2026-07-31",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "FET"
+              ]
+            },
+            {
+              "title": "Forum Energy Technologies (FET) Surpasses Q2 Earnings and Revenue Estimates",
+              "url": "https://www.nasdaq.com/articles/forum-energy-technologies-fet-surpasses-q2-earnings-and-revenue-estimates",
+              "date": "2026-07-30",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "FET",
+                "PED"
+              ]
+            },
+            {
+              "title": "Is Forum Energy Technologies (FET) Stock Outpacing Its Oils-Energy Peers This Year?",
+              "url": "https://www.nasdaq.com/articles/forum-energy-technologies-fet-stock-outpacing-its-oils-energy-peers-year",
               "date": "2026-07-06",
               "publisher": "Zacks",
               "tier1": false,
               "direct": true,
               "tickers": [
-                "ZBRA"
-              ]
-            },
-            {
-              "title": "Here's Why Zebra Technologies (ZBRA) is a Strong Growth Stock",
-              "url": "https://www.nasdaq.com/articles/heres-why-zebra-technologies-zbra-strong-growth-stock-0",
-              "date": "2026-06-18",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "ZBRA"
-              ]
-            },
-            {
-              "title": "Zebra (ZBRA) Down 12.2% Since Last Earnings Report: Can It Rebound?",
-              "url": "https://www.nasdaq.com/articles/zebra-zbra-down-122-last-earnings-report-can-it-rebound",
-              "date": "2026-06-11",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "ZBRA"
-              ]
-            },
-            {
-              "title": "Got $5,000? 2 Stocks to Own for Physical AI",
-              "url": "https://www.nasdaq.com/articles/got-5000-2-stocks-own-physical-ai",
-              "date": "2026-06-25",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "CGNX",
-                "CGNX",
-                "ZBRA"
+                "FET",
+                "PARR"
               ]
             }
           ],
-          "directCount": 7,
-          "total": 8,
+          "directCount": 12,
+          "total": 14,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
           {
             "form": "8-K",
-            "filingDate": "2026-08-04",
-            "reportDate": "2026-08-04",
+            "filingDate": "2026-07-30",
+            "reportDate": "2026-07-30",
             "items": [
               "2.02",
               "9.01"
@@ -4701,13 +5100,13 @@ window.TEAM2_DATA = {
               "재무제표·첨부"
             ],
             "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/877212/000162828026052158/zbra-20260804.htm",
+            "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000049/fet-20260730.htm",
             "description": "8-K"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-05-26",
-            "reportDate": "2026-05-19",
+            "filingDate": "2026-05-12",
+            "reportDate": "2026-05-08",
             "items": [
               "5.02",
               "5.07",
@@ -4719,13 +5118,787 @@ window.TEAM2_DATA = {
               "재무제표·첨부"
             ],
             "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/877212/000162828026038066/zbra-20260519.htm",
+            "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000039/fet-20260508.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-01",
+            "reportDate": "2026-04-30",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000030/fet-20260430.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-20",
+            "reportDate": "2026-02-19",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000010/fet8-kearningsreleaseq42025.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-05",
+            "reportDate": "2026-02-04",
+            "items": [
+              "1.01",
+              "2.03",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "2.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000005/fet-20260204.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-01-12",
+            "reportDate": "2026-01-12",
+            "items": [
+              "5.02"
+            ],
+            "itemsKo": [
+              "임원 변동"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000002/fet-20260112.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
+      }
+    },
+    {
+      "ticker": "WGS",
+      "price": 77.08000183105469,
+      "marketCap": "2.08B",
+      "sector": "Healthcare",
+      "industry": "Diagnostics & Research",
+      "rs": {
+        "m1": {
+          "v": 0.17428401200153518,
+          "pct": 91.31218457101659
+        },
+        "m3": {
+          "v": 0.9518865169632307,
+          "pct": 99.60116026105874
+        },
+        "m6": {
+          "v": -0.14498058206989914,
+          "pct": 10.058097312999275
+        }
+      },
+      "qualifiedBy": [
+        "3mo"
+      ],
+      "bestPct": 99.60116026105874,
+      "adr": 8.59,
+      "cyTrend": -105.68,
+      "nyTrend": -9.14,
+      "upCount": 1,
+      "downCount": 7,
+      "upDownRatio": 12.5,
+      "bbwthd": 0.27,
+      "bbwthdLow": 0.18,
+      "high52": 45.11,
+      "volx": 1.41,
+      "volSurgeWk": 0.77,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": false,
+      "jeongbae": false,
+      "div10": 14.11,
+      "div50": 23.63,
+      "div200": -14.15,
+      "ret1m": 17.43,
+      "ret3m": 95.19,
+      "ret6m": -14.5,
+      "maxRise1m": 36.53,
+      "maxRise3m": 110.89,
+      "maxRise6m": 196.12,
+      "brk60d": false,
+      "clsPos": 86.66,
+      "ma150Slope": -12.87,
+      "ta": {
+        "price": 77.08,
+        "resistance": 82.49,
+        "support": 76.04,
+        "contraction": 1.54,
+        "trend": "mixed"
+      },
+      "ma150SlopeDir": "down",
+      "wrs": {
+        "m1": 0.0898,
+        "m3": 0.3028,
+        "m6": 0.2105,
+        "rankPct6": 17.99,
+        "count": 22
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "진DX 홀딩스",
+      "nameEn": "GENEDX HOLDINGS CORP",
+      "detail": {
+        "fetchedAt": "2026-08-08",
+        "nameKo": "진DX 홀딩스",
+        "nameEn": "GENEDX HOLDINGS CORP",
+        "infomaxCode": "NAS:WGS",
+        "financials": {
+          "ok": true,
+          "ticker": "WGS",
+          "cik": "0001818331",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-04-01",
+              "periodEnd": "2026-06-30",
+              "derived": false,
+              "revenue": 114440000,
+              "profit": -17455000,
+              "netIncome": -17740000,
+              "margin": -15.3,
+              "yoy": {
+                "revenue": 11.4,
+                "profit": -294.8,
+                "netIncome": -264.1,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodStart": "2026-01-01",
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 102254000,
+              "profit": -57471000,
+              "netIncome": -63316000,
+              "margin": -56.2,
+              "yoy": {
+                "revenue": 17.4,
+                "profit": -1162.8,
+                "netIncome": -869.8,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodStart": "2025-09-30",
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 120989000,
+              "profit": -14235000,
+              "netIncome": -17645000,
+              "margin": -11.8,
+              "yoy": {
+                "revenue": 26.5,
+                "profit": -261.7,
+                "netIncome": -425.3,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodStart": "2025-07-01",
+              "periodEnd": "2025-09-30",
+              "derived": false,
+              "revenue": 116743000,
+              "profit": -3251000,
+              "netIncome": -7635000,
+              "margin": -2.8,
+              "yoy": {
+                "revenue": 51.9,
+                "profit": 58.2,
+                "netIncome": 8.1,
+                "priorEnd": "2024-09-30"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001818331&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "WGS",
+          "items": [
+            {
+              "title": "GeneDx Q2 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/genedx-q2-earnings-call-highlights",
+              "date": "2026-08-03",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "WGS"
+              ]
+            },
+            {
+              "title": "GeneDx Holdings Corp. (WGS) Q2 Earnings and Revenues Surpass Estimates",
+              "url": "https://www.nasdaq.com/articles/genedx-holdings-corp-wgs-q2-earnings-and-revenues-surpass-estimates",
+              "date": "2026-08-03",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "WGS",
+                "VTRS"
+              ]
+            },
+            {
+              "title": "What a $227,000 GeneDx Insider Sale Means as Revenue Climbs 17%",
+              "url": "https://www.nasdaq.com/articles/what-227000-genedx-insider-sale-means-revenue-climbs-17",
+              "date": "2026-06-23",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "WGS",
+                "WGS"
+              ]
+            },
+            {
+              "title": "Hedge Funder Eli Casdin Is Loading up on GeneDx Shares",
+              "url": "https://www.nasdaq.com/articles/hedge-funder-eli-casdin-loading-genedx-shares",
+              "date": "2026-06-11",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "WGS",
+                "WGS"
+              ]
+            },
+            {
+              "title": "Is GeneDx Stock a Buys After a Company Director Purchased Over 350,000 Shares?",
+              "url": "https://www.nasdaq.com/articles/genedx-stock-buys-after-company-director-purchased-over-350000-shares",
+              "date": "2026-05-21",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "WGS",
+                "WGS"
+              ]
+            },
+            {
+              "title": "Tuesday 5/12 Insider Buying Report: WGS, MOBI",
+              "url": "https://www.nasdaq.com/articles/tuesday-5-12-insider-buying-report-wgs-mobi",
+              "date": "2026-05-12",
+              "publisher": "BNK Invest",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "WGS",
+                "WGS",
+                "MOBI"
+              ]
+            },
+            {
+              "title": "Why GeneDX Stock Is Plummeting Today",
+              "url": "https://www.nasdaq.com/articles/why-genedx-stock-plummeting-today",
+              "date": "2026-05-05",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "WGS",
+                "WGS"
+              ]
+            },
+            {
+              "title": "Pediatrix Medical Group (MD) Soars 7.3%: Is Further Upside Left in the Stock?",
+              "url": "https://www.nasdaq.com/articles/pediatrix-medical-group-md-soars-73-further-upside-left-stock",
+              "date": "2026-07-16",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "MD",
+                "WGS"
+              ]
+            }
+          ],
+          "directCount": 7,
+          "total": 9,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-03",
+            "reportDate": "2026-08-03",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1818331/000162828026051852/wgs-20260803.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-23",
+            "reportDate": "2026-06-18",
+            "items": [
+              "5.07"
+            ],
+            "itemsKo": [
+              "주주총회 표결"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1818331/000162828026044806/wgs-20260618.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-16",
+            "reportDate": "2026-06-15",
+            "items": [
+              "5.02",
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "임원 변동",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1818331/000162828026043431/wgs-20260615.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-04",
+            "reportDate": "2026-05-04",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1818331/000181833126000039/wgs-20260504.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-03-02",
+            "reportDate": "2026-02-27",
+            "items": [
+              "1.01",
+              "1.02",
+              "2.03"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "1.02",
+              "2.03"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1818331/000181833126000021/wgs-20260227.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-23",
+            "reportDate": "2026-02-23",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1818331/000181833126000014/wgs-20260223.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 2,
+          "reports": [
+            {
+              "title": "[진DX 홀딩스 (NAS:WGS)] 대 AI 시대, 유전자를 읽어라",
+              "broker": "키움증권",
+              "analyst": "신민수",
+              "date": "2026-02-27",
+              "summary": "- WGS(전장 유전체 시퀀싱) 기술 기반 희귀 질환 진단, 신약 개발까지 노리는 기업- 보험 지역 확장에 따른 Q 증가, 보험 지급률 상승 및 매출 믹스 개선으로 P 상승- 지난 1월 기대치 하회하는 가이던스 제시 있었으나 목표 달성에는 무리 없는 상황",
+              "pages": "7",
+              "secureId": "eqqgezeeieeimxmgcgxclcl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgezeeieeimxmgcgxclcl.pdf",
+              "opinion": null
+            },
+            {
+              "title": "[진DX 홀딩스 (NAS:WGS)] 여전히 기대되는 성장 가능성",
+              "broker": "iM증권",
+              "analyst": "정재원",
+              "date": "2025-09-12",
+              "summary": "- 2분기 동사는 1억달러의 매출을 기록했으며 전년동기 대비 49%  성장하는 호실적을 달성했다- 향후  기대되는  시너지는  동사가  확보한  75만건  이상  누적된  희귀질환  유전체 데이터셋과  Fabric이  가진  해석  플랫폼을  통해  새로운  비즈니스  모델  및  신규 시장 진출이 용이할 것으로 전망한다- 현재 Fabric 플랫폼은 interpretation-as-a-service 모델로 해석 기술의 고도화를 동사의  데이터셋을  통해  이끌어낼  수  있을  것으로  기대된다",
+              "pages": "6",
+              "secureId": "eqzqxigeiizkxlxgcgxclcl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzqxigeiizkxlxgcgxclcl.pdf",
+              "opinion": null
+            }
+          ],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
+      }
+    },
+    {
+      "ticker": "HURN",
+      "price": 152.0500030517578,
+      "marketCap": "2.39B",
+      "sector": "Industrials",
+      "industry": "Consulting Services",
+      "rs": {
+        "m1": {
+          "v": 0.4364667476960994,
+          "pct": 99.53136265320836
+        },
+        "m3": {
+          "v": 0.3793885368887063,
+          "pct": 93.43727338651196
+        },
+        "m6": {
+          "v": 0.21290684677295965,
+          "pct": 70.40668119099492
+        }
+      },
+      "qualifiedBy": [
+        "1mo"
+      ],
+      "bestPct": 99.53136265320836,
+      "adr": 5.92,
+      "cyTrend": 3.96,
+      "nyTrend": 3.64,
+      "upCount": 11,
+      "downCount": 9,
+      "upDownRatio": 55,
+      "bbwthd": 0.66,
+      "bbwthdLow": 0.07,
+      "high52": 81.41,
+      "volx": 0.48,
+      "volSurgeWk": 0.4,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": false,
+      "jeongbae": false,
+      "div10": 2.85,
+      "div50": 33.75,
+      "div200": 8.69,
+      "ret1m": 43.65,
+      "ret3m": 37.94,
+      "ret6m": 21.29,
+      "maxRise1m": 60.76,
+      "maxRise3m": 103.7,
+      "maxRise6m": 103.7,
+      "brk60d": false,
+      "clsPos": 67.32,
+      "ma150Slope": -4.49,
+      "ta": {
+        "price": 152.05,
+        "resistance": 153.66,
+        "support": 150.49,
+        "contraction": 2.38,
+        "trend": "mixed"
+      },
+      "ma150SlopeDir": "down",
+      "wrs": {
+        "m1": 0.0955,
+        "m3": 0.1249,
+        "m6": 0.0158,
+        "rankPct6": 66.91,
+        "count": 7
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "휴런 컨설팅 그룹",
+      "nameEn": "HURON CONSULTING GROUP INC",
+      "detail": {
+        "fetchedAt": "2026-08-08",
+        "nameKo": "휴런 컨설팅 그룹",
+        "nameEn": "HURON CONSULTING GROUP INC",
+        "infomaxCode": "NAS:HURN",
+        "financials": {
+          "ok": true,
+          "ticker": "HURN",
+          "cik": "0001289848",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "Revenues",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-01-01",
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 451767000,
+              "profit": 36583000,
+              "netIncome": 23247000,
+              "margin": 8.1,
+              "yoy": {
+                "revenue": 11.8,
+                "profit": 11.8,
+                "netIncome": -5.3,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodStart": "2025-09-30",
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 441963000,
+              "profit": 50184000,
+              "netIncome": 30654000,
+              "margin": 11.4,
+              "yoy": {
+                "revenue": 10.7,
+                "profit": 6.7,
+                "netIncome": -9.8,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodStart": "2025-07-01",
+              "periodEnd": "2025-09-30",
+              "derived": false,
+              "revenue": 441284000,
+              "profit": 50000000,
+              "netIncome": 30420000,
+              "margin": 11.3,
+              "yoy": {
+                "revenue": 16.7,
+                "profit": 17.8,
+                "netIncome": 12,
+                "priorEnd": "2024-09-30"
+              }
+            },
+            {
+              "periodStart": "2025-04-01",
+              "periodEnd": "2025-06-30",
+              "derived": false,
+              "revenue": 411755000,
+              "profit": 45654000,
+              "netIncome": 19430000,
+              "margin": 11.1,
+              "yoy": {
+                "revenue": 8.1,
+                "profit": -23.1,
+                "netIncome": -48.2,
+                "priorEnd": "2024-06-30"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001289848&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "HURN",
+          "items": [
+            {
+              "title": "Wall Street Analysts See a 27.2% Upside in Huron Consulting (HURN): Can the Stock Really Move This High?",
+              "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-272-upside-huron-consulting-hurn-can-stock-really-move-high",
+              "date": "2026-08-04",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "HURN"
+              ]
+            },
+            {
+              "title": "Huron Consulting (HURN) is an Incredible Growth Stock: 3 Reasons Why",
+              "url": "https://www.nasdaq.com/articles/huron-consulting-hurn-incredible-growth-stock-3-reasons-why",
+              "date": "2026-08-03",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "HURN"
+              ]
+            },
+            {
+              "title": "Huron Consulting (HURN) Upgraded to Strong Buy: What Does It Mean for the Stock?",
+              "url": "https://www.nasdaq.com/articles/huron-consulting-hurn-upgraded-strong-buy-what-does-it-mean-stock",
+              "date": "2026-08-03",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "HURN"
+              ]
+            },
+            {
+              "title": "Huron Consulting Group Q2 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/huron-consulting-group-q2-earnings-call-highlights",
+              "date": "2026-07-28",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "HURN"
+              ]
+            },
+            {
+              "title": "Huron Consulting (HURN) Tops Q2 Earnings and Revenue Estimates",
+              "url": "https://www.nasdaq.com/articles/huron-consulting-hurn-tops-q2-earnings-and-revenue-estimates",
+              "date": "2026-07-28",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "HURN",
+                "CRAI"
+              ]
+            },
+            {
+              "title": "Huron Consulting (HURN) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+              "url": "https://www.nasdaq.com/articles/huron-consulting-hurn-q2-earnings-taking-look-key-metrics-versus-estimates",
+              "date": "2026-07-28",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "HURN"
+              ]
+            },
+            {
+              "title": "A Huron Consulting Director Sold Over 1,800 Company Shares. Here's a Closer Look at the Transaction.",
+              "url": "https://www.nasdaq.com/articles/huron-consulting-director-sold-over-1800-company-shares-heres-closer-look-transaction",
+              "date": "2026-06-30",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "HURN",
+                "HURN"
+              ]
+            },
+            {
+              "title": "Strength Seen in Huron Consulting (HURN): Can Its 7.1% Jump Turn into More Strength?",
+              "url": "https://www.nasdaq.com/articles/strength-seen-huron-consulting-hurn-can-its-71-jump-turn-more-strength",
+              "date": "2026-06-29",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "HURN",
+                "III"
+              ]
+            }
+          ],
+          "directCount": 8,
+          "total": 10,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-28",
+            "reportDate": "2026-07-28",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026050168/hurn-20260728.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-27",
+            "reportDate": "2026-07-23",
+            "items": [
+              "5.02"
+            ],
+            "itemsKo": [
+              "임원 변동"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026049857/hurn-20260723.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-22",
+            "reportDate": "2026-06-19",
+            "items": [
+              "5.02"
+            ],
+            "itemsKo": [
+              "임원 변동"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026044612/hurn-20260619.htm",
             "description": "8-K"
           },
           {
             "form": "8-K",
             "filingDate": "2026-05-12",
-            "reportDate": "2026-05-12",
+            "reportDate": "2026-05-08",
+            "items": [
+              "5.07"
+            ],
+            "itemsKo": [
+              "주주총회 표결"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1289848/000128984826000098/hurn-20260508.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-05",
+            "reportDate": "2026-05-05",
             "items": [
               "2.02",
               "9.01"
@@ -4735,49 +5908,733 @@ window.TEAM2_DATA = {
               "재무제표·첨부"
             ],
             "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/877212/000162828026033877/zbra-20260512.htm",
+            "url": "https://www.sec.gov/Archives/edgar/data/1289848/000128984826000080/hurn-20260505.htm",
             "description": "8-K"
           },
           {
             "form": "8-K",
-            "filingDate": "2026-02-12",
-            "reportDate": "2026-02-12",
+            "filingDate": "2026-02-24",
+            "reportDate": "2026-02-24",
             "items": [
               "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026011092/hurn-20260224.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
+      }
+    },
+    {
+      "ticker": "MNPR",
+      "price": 119.20999908447266,
+      "marketCap": "0.81B",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "rs": {
+        "m1": {
+          "v": 0.11829269034570247,
+          "pct": 82.08363374188897
+        },
+        "m3": {
+          "v": 0.9431133178390918,
+          "pct": 99.52864394488759
+        },
+        "m6": {
+          "v": 1.1494771195884914,
+          "pct": 97.85766158315178
+        }
+      },
+      "qualifiedBy": [
+        "3mo"
+      ],
+      "bestPct": 99.52864394488759,
+      "adr": 7.32,
+      "cyTrend": 0,
+      "nyTrend": -0.91,
+      "upCount": 21,
+      "downCount": 3,
+      "upDownRatio": 87.5,
+      "bbwthd": 0.2,
+      "bbwthdLow": 0.13,
+      "high52": 95.51,
+      "volx": 0.79,
+      "volSurgeWk": 0.69,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": false,
+      "jeongbae": true,
+      "div10": 4.7,
+      "div50": 32.31,
+      "div200": 65.91,
+      "ret1m": 11.83,
+      "ret3m": 94.31,
+      "ret6m": 114.95,
+      "maxRise1m": 27.46,
+      "maxRise3m": 130.25,
+      "maxRise6m": 149.29,
+      "brk60d": false,
+      "clsPos": 18.34,
+      "ma150Slope": 8,
+      "ta": {
+        "price": 119.21,
+        "resistance": null,
+        "support": 101,
+        "contraction": 0.88,
+        "trend": "up"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.0313,
+        "m3": 0.1447,
+        "m6": 0.2473,
+        "rankPct6": 12.95,
+        "count": 55
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "모노파 테라퓨틱스",
+      "nameEn": "MONOPAR THERAPEUTICS INC",
+      "detail": {
+        "fetchedAt": "2026-08-08",
+        "nameKo": "모노파 테라퓨틱스",
+        "nameEn": "MONOPAR THERAPEUTICS INC",
+        "infomaxCode": "NAS:MNPR",
+        "financials": {
+          "ok": true,
+          "ticker": "MNPR",
+          "cik": "0001645469",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "Revenues",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-01-01",
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 0,
+              "profit": -5225253,
+              "netIncome": -3893050,
+              "margin": null,
+              "yoy": {
+                "revenue": null,
+                "profit": -62.2,
+                "netIncome": -48.3,
+                "priorEnd": null
+              }
+            },
+            {
+              "periodStart": "2019-09-30",
+              "periodEnd": "2019-12-31",
+              "derived": true,
+              "revenue": 0,
+              "profit": -1224895,
+              "netIncome": -1206859,
+              "margin": null,
+              "yoy": {
+                "revenue": null,
+                "profit": -32.2,
+                "netIncome": -35.5,
+                "priorEnd": "2018-12-31"
+              }
+            },
+            {
+              "periodStart": "2019-07-01",
+              "periodEnd": "2019-09-30",
+              "derived": false,
+              "revenue": 0,
+              "profit": -759448,
+              "netIncome": -736080,
+              "margin": null,
+              "yoy": {
+                "revenue": null,
+                "profit": -13.8,
+                "netIncome": -15,
+                "priorEnd": "2018-09-30"
+              }
+            },
+            {
+              "periodStart": "2019-04-01",
+              "periodEnd": "2019-06-30",
+              "derived": false,
+              "revenue": 0,
+              "profit": -932109,
+              "netIncome": -905700,
+              "margin": null,
+              "yoy": {
+                "revenue": null,
+                "profit": -39.6,
+                "netIncome": -41.5,
+                "priorEnd": "2018-06-30"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001645469&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "MNPR",
+          "items": [
+            {
+              "title": "Monopar's ALXN1840 Gets FDA's Rare Pediatric Disease Designation For Wilson Disease",
+              "url": "https://www.nasdaq.com/articles/monopars-alxn1840-gets-fdas-rare-pediatric-disease-designation-wilson-disease",
+              "date": "2026-06-30",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MNPR"
+              ]
+            },
+            {
+              "title": "Monopar Therapeutics Granted Rare Pediatric Disease Designation To ALXN1840 To Treat Wilson Disease",
+              "url": "https://www.nasdaq.com/articles/monopar-therapeutics-granted-rare-pediatric-disease-designation-alxn1840-treat-wilson",
+              "date": "2026-06-30",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MNPR"
+              ]
+            },
+            {
+              "title": "Wall Street Analysts Believe Monopar Therapeutics (MNPR) Could Rally 88.92%: Here's is How to Trade",
+              "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-monopar-therapeutics-mnpr-could-rally-8892-heres-how-trade",
+              "date": "2026-06-15",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MNPR"
+              ]
+            },
+            {
+              "title": "Monopar's ALXN1840 Shows Significant Copper Reduction In Phase 2 Trial For Wilson Disease",
+              "url": "https://www.nasdaq.com/articles/monopars-alxn1840-shows-significant-copper-reduction-phase-2-trial-wilson-disease",
+              "date": "2026-05-20",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MNPR"
+              ]
+            },
+            {
+              "title": "Monopar Reports Promising Analyses From Phase 3 FoCus Trial For ALXN1840 In Treating Wilson Disease",
+              "url": "https://www.nasdaq.com/articles/monopar-reports-promising-analyses-phase-3-focus-trial-alxn1840-treating-wilson-disease",
+              "date": "2026-04-20",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MNPR"
+              ]
+            },
+            {
+              "title": "Morgan Stanley Initiates Coverage of Monopar Therapeutics (MNPR) with Overweight Recommendation",
+              "url": "https://www.nasdaq.com/articles/morgan-stanley-initiates-coverage-monopar-therapeutics-mnpr-overweight-recommendation",
+              "date": "2026-01-10",
+              "publisher": "Fintel",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MNPR"
+              ]
+            },
+            {
+              "title": "Monday 12/29 Insider Buying Report: MNPR",
+              "url": "https://www.nasdaq.com/articles/monday-12-29-insider-buying-report-mnpr",
+              "date": "2025-12-29",
+              "publisher": "BNK Invest",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MNPR"
+              ]
+            },
+            {
+              "title": "Chardan Capital Maintains Monopar Therapeutics (MNPR) Buy Recommendation",
+              "url": "https://www.nasdaq.com/articles/chardan-capital-maintains-monopar-therapeutics-mnpr-buy-recommendation-1",
+              "date": "2025-11-14",
+              "publisher": "Fintel",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MNPR"
+              ]
+            }
+          ],
+          "directCount": 8,
+          "total": 8,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-22",
+            "reportDate": "2026-07-22",
+            "items": [
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926024041/mnpr20260721_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-30",
+            "reportDate": "2026-06-30",
+            "items": [
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926022086/mnpr20260629_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-26",
+            "reportDate": "2026-06-26",
+            "items": [
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926021832/mnpr20260625_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-23",
+            "reportDate": "2026-06-22",
+            "items": [
+              "5.07"
+            ],
+            "itemsKo": [
+              "주주총회 표결"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926021350/mnpr20260622_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-29",
+            "reportDate": "2026-05-29",
+            "items": [
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926018896/mnpr20260529_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-19",
+            "reportDate": "2026-05-19",
+            "items": [
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926017821/mnpr20260513_8k.htm",
+            "description": "FORM 8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
+      }
+    },
+    {
+      "ticker": "AEHR",
+      "price": 103.06999969482422,
+      "marketCap": "3.25B",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "rs": {
+        "m1": {
+          "v": 0.41969699533209254,
+          "pct": 99.38716654650325
+        },
+        "m3": {
+          "v": 0.06565341598405462,
+          "pct": 45.93908629441624
+        },
+        "m6": {
+          "v": 2.5738557264041995,
+          "pct": 99.5279593318809
+        }
+      },
+      "qualifiedBy": [
+        "1mo",
+        "6mo"
+      ],
+      "bestPct": 99.5279593318809,
+      "adr": 13.78,
+      "cyTrend": 400,
+      "nyTrend": 361.11,
+      "upCount": 9,
+      "downCount": 0,
+      "upDownRatio": 100,
+      "bbwthd": 0.6,
+      "bbwthdLow": 0.28,
+      "high52": 81.4,
+      "volx": 0.56,
+      "volSurgeWk": 0.69,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": true,
+      "jeongbae": false,
+      "div10": 18.07,
+      "div50": 12.64,
+      "div200": 87.66,
+      "ret1m": 41.97,
+      "ret3m": 6.57,
+      "ret6m": 257.39,
+      "maxRise1m": 73.95,
+      "maxRise3m": 99.97,
+      "maxRise6m": 387,
+      "brk60d": false,
+      "clsPos": 72.47,
+      "ma150Slope": 14.45,
+      "ta": {
+        "price": 103.07,
+        "resistance": 108.75,
+        "support": 86.58,
+        "contraction": 0.96,
+        "trend": "up"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": -0.0755,
+        "m3": 0.1293,
+        "m6": 0.342,
+        "rankPct6": 7.19,
+        "count": 23
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "에흐르 테스트 시스템스",
+      "nameEn": "AEHR TEST SYSTEMS",
+      "detail": {
+        "fetchedAt": "2026-08-08",
+        "nameKo": "에흐르 테스트 시스템스",
+        "nameEn": "AEHR TEST SYSTEMS",
+        "infomaxCode": "NAS:AEHR",
+        "financials": {
+          "ok": true,
+          "ticker": "AEHR",
+          "cik": "0001040470",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-02-27",
+              "periodEnd": "2026-05-29",
+              "derived": true,
+              "revenue": 18835000,
+              "profit": -1206000,
+              "netIncome": 1391000,
+              "margin": -6.4,
+              "yoy": {
+                "revenue": 33.7,
+                "profit": 62.4,
+                "netIncome": 148,
+                "priorEnd": "2025-05-30"
+              }
+            },
+            {
+              "periodStart": "2025-11-29",
+              "periodEnd": "2026-02-27",
+              "derived": false,
+              "revenue": 10313000,
+              "profit": -4229000,
+              "netIncome": -3203000,
+              "margin": -41,
+              "yoy": {
+                "revenue": -43.7,
+                "profit": -277.9,
+                "netIncome": -398.1,
+                "priorEnd": "2025-02-28"
+              }
+            },
+            {
+              "periodStart": "2025-08-30",
+              "periodEnd": "2025-11-28",
+              "derived": false,
+              "revenue": 9884000,
+              "profit": -4648000,
+              "netIncome": -3230000,
+              "margin": -47,
+              "yoy": {
+                "revenue": -26.5,
+                "profit": -207.2,
+                "netIncome": -214.2,
+                "priorEnd": "2024-11-29"
+              }
+            },
+            {
+              "periodStart": "2025-05-31",
+              "periodEnd": "2025-08-29",
+              "derived": false,
+              "revenue": 10969000,
+              "profit": -4066000,
+              "netIncome": -2084000,
+              "margin": -37.1,
+              "yoy": {
+                "revenue": -16.4,
+                "profit": -2657.2,
+                "netIncome": -415.8,
+                "priorEnd": "2024-08-30"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001040470&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "AEHR",
+          "items": [
+            {
+              "title": "An Aehr Test Systems Director Is Among the Insiders Selling with 20,000 Shares Sold for Over $2 Million. Here Are Insights into the Transaction.",
+              "url": "https://www.nasdaq.com/articles/aehr-test-systems-director-among-insiders-selling-20000-shares-sold-over-2-million-here",
+              "date": "2026-08-05",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AEHR",
+                "AEHR"
+              ]
+            },
+            {
+              "title": "Here's What Could Help Aehr Test Systems (AEHR) Maintain Its Recent Price Strength",
+              "url": "https://www.nasdaq.com/articles/heres-what-could-help-aehr-test-systems-aehr-maintain-its-recent-price-strength",
+              "date": "2026-08-05",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AEHR"
+              ]
+            },
+            {
+              "title": "Microsoft vs. Aehr Test Systems: Comparing Revenue Trends Between These Artificial Intelligence Companies",
+              "url": "https://www.nasdaq.com/articles/microsoft-vs-aehr-test-systems-comparing-revenue-trends-between-these-artificial",
+              "date": "2026-08-04",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MSFT",
+                "MSFT",
+                "AEHR"
+              ]
+            },
+            {
+              "title": "An Aehr Test Systems Insider Sells Shares Worth $2.5 Million as the Stock Soars. Here's a Closer Look at the Transaction.",
+              "url": "https://www.nasdaq.com/articles/aehr-test-systems-insider-sells-shares-worth-25-million-stock-soars-heres-closer-look",
+              "date": "2026-08-04",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AEHR",
+                "AEHR"
+              ]
+            },
+            {
+              "title": "Aehr Test Systems vs. C3.ai: Which Technology Stock Is a Better Buy in 2026?",
+              "url": "https://www.nasdaq.com/articles/aehr-test-systems-vs-c3ai-which-technology-stock-better-buy-2026",
+              "date": "2026-08-02",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AEHR",
+                "AEHR",
+                "AI"
+              ]
+            },
+            {
+              "title": "Why Aehr Test Systems (AEHR) Might be Well Poised for a Surge",
+              "url": "https://www.nasdaq.com/articles/why-aehr-test-systems-aehr-might-be-well-poised-surge-0",
+              "date": "2026-07-31",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AEHR"
+              ]
+            },
+            {
+              "title": "Can Aehr Test Systems (AEHR) Climb 49.6% to Reach the Level Wall Street Analysts Expect?",
+              "url": "https://www.nasdaq.com/articles/can-aehr-test-systems-aehr-climb-496-reach-level-wall-street-analysts-expect-0",
+              "date": "2026-07-31",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AEHR"
+              ]
+            },
+            {
+              "title": "FORM vs. AEHR: Which Semi Test Equipment Stock is a Better Buy?",
+              "url": "https://www.nasdaq.com/articles/form-vs-aehr-which-semi-test-equipment-stock-better-buy",
+              "date": "2026-07-30",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "FORM",
+                "AEHR"
+              ]
+            }
+          ],
+          "directCount": 9,
+          "total": 10,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-14",
+            "reportDate": "2026-07-14",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426006655/aehr_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-04-20",
+            "reportDate": "2026-04-17",
+            "items": [
               "8.01",
               "9.01"
             ],
             "itemsKo": [
-              "실적 발표",
               "기타 중요사건",
               "재무제표·첨부"
             ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/877212/000087721226000003/zbra-20260212.htm",
-            "description": "8-K"
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426003746/aehr_8k.htm",
+            "description": "FORM 8-K"
           },
           {
             "form": "8-K",
-            "filingDate": "2025-12-15",
-            "reportDate": "2025-12-09",
+            "filingDate": "2026-04-08",
+            "reportDate": "2026-04-08",
             "items": [
-              "2.05",
-              "2.06",
+              "1.01",
               "9.01"
             ],
             "itemsKo": [
-              "2.05",
-              "2.06",
+              "중요 계약 체결",
               "재무제표·첨부"
             ],
             "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/877212/000162828025056882/zbra-20251209.htm",
-            "description": "8-K"
+            "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426003355/aehr_8k.htm",
+            "description": "FORM 8-K"
           },
           {
             "form": "8-K",
-            "filingDate": "2025-11-24",
-            "reportDate": "2025-11-20",
+            "filingDate": "2026-04-07",
+            "reportDate": "2026-04-07",
+            "items": [
+              "2.02",
+              "5.03",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "5.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426003310/aehr_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-01-08",
+            "reportDate": "2026-01-08",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426000197/aehr_8k.htm",
+            "description": "FORM 8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2025-11-07",
+            "reportDate": "2025-10-21",
             "items": [
               "5.02",
               "9.01"
@@ -4787,8 +6644,8 @@ window.TEAM2_DATA = {
               "재무제표·첨부"
             ],
             "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/877212/000162828025053699/zbra-20251120.htm",
-            "description": "8-K"
+            "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495425012704/aehr_8k.htm",
+            "description": "FORM 8-K"
           }
         ],
         "krReports": {
@@ -4796,83 +6653,83 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      },
-      "nameKo": "지브라 테크놀로지스",
-      "nameEn": "ZEBRA TECHNOLOGIES"
+      }
     },
     {
       "ticker": "ATEX",
-      "price": 106.3499984741211,
-      "marketCap": "1.87B",
+      "price": 99.26000213623047,
+      "marketCap": "1.96B",
       "sector": "Communication Services",
       "industry": "Telecom Services",
       "rs": {
         "m1": {
-          "v": 0.054013844061680895,
-          "pct": 63.51545650611071
+          "v": -0.01683832174780241,
+          "pct": 30.245133381398702
         },
         "m3": {
-          "v": 0.9986844635213563,
-          "pct": 99.67485549132948
+          "v": 0.8296774587323589,
+          "pct": 99.23857868020305
         },
         "m6": {
-          "v": 2.6901457182603816,
-          "pct": 99.60202604920406
+          "v": 2.112574601316878,
+          "pct": 99.45533769063181
         }
       },
       "qualifiedBy": [
         "3mo",
         "6mo"
       ],
-      "bestPct": 99.67485549132948,
-      "adr": 7.42,
+      "bestPct": 99.45533769063181,
+      "adr": 7.6,
       "cyTrend": -1.05,
       "nyTrend": -72,
-      "upCount": 5,
+      "upCount": 4,
       "downCount": 0,
       "upDownRatio": 100,
-      "bbwthd": 0.24,
+      "bbwthd": 0.22,
       "bbwthdLow": 0.17,
-      "high52": 94.12,
-      "volx": 0.8,
-      "volSurgeWk": 0.87,
+      "high52": 87.84,
+      "volx": 0.62,
+      "volSurgeWk": 0.7,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": true,
       "jeongbae": true,
-      "div10": 10.74,
-      "div50": 22.37,
-      "div200": 134.56,
-      "ret1m": 5.4,
-      "ret3m": 99.87,
-      "ret6m": 269.01,
+      "div10": 3.3,
+      "div50": 11.44,
+      "div200": 113.34,
+      "ret1m": -1.68,
+      "ret3m": 82.97,
+      "ret6m": 211.26,
       "maxRise1m": 31.57,
-      "maxRise3m": 118.3,
-      "maxRise6m": 318.52,
+      "maxRise3m": 112.59,
+      "maxRise6m": 258.62,
       "brk60d": false,
-      "clsPos": 89.69,
-      "ma150Slope": 24.1,
+      "clsPos": 48.42,
+      "ma150Slope": 22.93,
       "ta": {
-        "price": 106.35,
+        "price": 99.26,
         "resistance": 111.9,
         "support": 91,
-        "contraction": 0.83,
+        "contraction": 0.9,
         "trend": "up"
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": -0.0201,
-        "m3": -0.045,
-        "m6": -0.0352,
-        "rankPct6": 76.98,
+        "m1": -0.0273,
+        "m3": -0.0323,
+        "m6": -0.0969,
+        "rankPct6": 87.77,
         "count": 7
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
+      "nameKo": "안테릭스",
+      "nameEn": "ANTERIX INC",
       "detail": {
-        "fetchedAt": "2026-08-05",
+        "fetchedAt": "2026-08-08",
         "nameKo": "안테릭스",
         "nameEn": "ANTERIX INC",
         "infomaxCode": "NAS:ATEX",
@@ -5051,11 +6908,29 @@ window.TEAM2_DATA = {
               ]
             }
           ],
-          "directCount": 9,
-          "total": 12,
+          "directCount": 8,
+          "total": 11,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-06",
+            "reportDate": "2026-08-04",
+            "items": [
+              "5.02",
+              "5.07",
+              "9.01"
+            ],
+            "itemsKo": [
+              "임원 변동",
+              "주주총회 표결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1304492/000130449226000041/atex-20260804.htm",
+            "description": "8-K"
+          },
           {
             "form": "8-K",
             "filingDate": "2026-06-10",
@@ -5137,22 +7012,6 @@ window.TEAM2_DATA = {
             "isEarnings": true,
             "url": "https://www.sec.gov/Archives/edgar/data/1304492/000130449226000009/atex-20260211.htm",
             "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-02-02",
-            "reportDate": "2026-01-30",
-            "items": [
-              "8.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1304492/000130449226000004/atex-20260130.htm",
-            "description": "8-K"
           }
         ],
         "krReports": {
@@ -5160,3338 +7019,718 @@ window.TEAM2_DATA = {
           "reports": [],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
-      },
-      "nameKo": "안테릭스",
-      "nameEn": "ANTERIX INC"
-    },
-    {
-      "ticker": "MNPR",
-      "price": 118.45999908447266,
-      "marketCap": "0.75B",
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "rs": {
-        "m1": {
-          "v": 0.24406634704722724,
-          "pct": 97.73544212796548
-        },
-        "m3": {
-          "v": 0.8974851594650991,
-          "pct": 99.53034682080924
-        },
-        "m6": {
-          "v": 1.075696508111529,
-          "pct": 97.57597684515196
-        }
-      },
-      "qualifiedBy": [
-        "3mo"
-      ],
-      "bestPct": 99.53034682080924,
-      "adr": 8.48,
-      "cyTrend": 0,
-      "nyTrend": -0.91,
-      "upCount": 21,
-      "downCount": 3,
-      "upDownRatio": 87.5,
-      "bbwthd": 0.17,
-      "bbwthdLow": 0.13,
-      "high52": 98.49,
-      "volx": 0.76,
-      "volSurgeWk": 0.5,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": false,
-      "jeongbae": true,
-      "div10": 6.91,
-      "div50": 36.58,
-      "div200": 66.24,
-      "ret1m": 24.41,
-      "ret3m": 89.75,
-      "ret6m": 107.57,
-      "maxRise1m": 36.17,
-      "maxRise3m": 121.87,
-      "maxRise6m": 140.21,
-      "brk60d": true,
-      "clsPos": 77.92,
-      "ma150Slope": 7.04,
-      "ta": {
-        "price": 118.46,
-        "resistance": null,
-        "support": 101,
-        "contraction": 0.83,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": -0.0421,
-        "m3": 0.1275,
-        "m6": 0.2182,
-        "rankPct6": 14.39,
-        "count": 55
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "detail": {
-        "fetchedAt": "2026-08-05",
-        "nameKo": "모노파 테라퓨틱스",
-        "nameEn": "MONOPAR THERAPEUTICS INC",
-        "infomaxCode": "NAS:MNPR",
-        "financials": {
-          "ok": true,
-          "ticker": "MNPR",
-          "cik": "0001645469",
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "profitIsOperating": true,
-          "tags": {
-            "revenue": "Revenues",
-            "profit": "OperatingIncomeLoss",
-            "netIncome": "NetIncomeLoss"
-          },
-          "quarters": [
-            {
-              "periodStart": "2026-01-01",
-              "periodEnd": "2026-03-31",
-              "derived": false,
-              "revenue": 0,
-              "profit": -5225253,
-              "netIncome": -3893050,
-              "margin": null,
-              "yoy": {
-                "revenue": null,
-                "profit": -62.2,
-                "netIncome": -48.3,
-                "priorEnd": null
-              }
-            },
-            {
-              "periodStart": "2019-09-30",
-              "periodEnd": "2019-12-31",
-              "derived": true,
-              "revenue": 0,
-              "profit": -1224895,
-              "netIncome": -1206859,
-              "margin": null,
-              "yoy": {
-                "revenue": null,
-                "profit": -32.2,
-                "netIncome": -35.5,
-                "priorEnd": "2018-12-31"
-              }
-            },
-            {
-              "periodStart": "2019-07-01",
-              "periodEnd": "2019-09-30",
-              "derived": false,
-              "revenue": 0,
-              "profit": -759448,
-              "netIncome": -736080,
-              "margin": null,
-              "yoy": {
-                "revenue": null,
-                "profit": -13.8,
-                "netIncome": -15,
-                "priorEnd": "2018-09-30"
-              }
-            },
-            {
-              "periodStart": "2019-04-01",
-              "periodEnd": "2019-06-30",
-              "derived": false,
-              "revenue": 0,
-              "profit": -932109,
-              "netIncome": -905700,
-              "margin": null,
-              "yoy": {
-                "revenue": null,
-                "profit": -39.6,
-                "netIncome": -41.5,
-                "priorEnd": "2018-06-30"
-              }
-            }
-          ],
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001645469&type=10-Q"
-        },
-        "news": {
-          "ok": true,
-          "ticker": "MNPR",
-          "items": [
-            {
-              "title": "Monopar's ALXN1840 Gets FDA's Rare Pediatric Disease Designation For Wilson Disease",
-              "url": "https://www.nasdaq.com/articles/monopars-alxn1840-gets-fdas-rare-pediatric-disease-designation-wilson-disease",
-              "date": "2026-06-30",
-              "publisher": "RTTNews",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MNPR"
-              ]
-            },
-            {
-              "title": "Monopar Therapeutics Granted Rare Pediatric Disease Designation To ALXN1840 To Treat Wilson Disease",
-              "url": "https://www.nasdaq.com/articles/monopar-therapeutics-granted-rare-pediatric-disease-designation-alxn1840-treat-wilson",
-              "date": "2026-06-30",
-              "publisher": "RTTNews",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MNPR"
-              ]
-            },
-            {
-              "title": "Wall Street Analysts Believe Monopar Therapeutics (MNPR) Could Rally 88.92%: Here's is How to Trade",
-              "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-monopar-therapeutics-mnpr-could-rally-8892-heres-how-trade",
-              "date": "2026-06-15",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MNPR"
-              ]
-            },
-            {
-              "title": "Monopar's ALXN1840 Shows Significant Copper Reduction In Phase 2 Trial For Wilson Disease",
-              "url": "https://www.nasdaq.com/articles/monopars-alxn1840-shows-significant-copper-reduction-phase-2-trial-wilson-disease",
-              "date": "2026-05-20",
-              "publisher": "RTTNews",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MNPR"
-              ]
-            },
-            {
-              "title": "Monopar Reports Promising Analyses From Phase 3 FoCus Trial For ALXN1840 In Treating Wilson Disease",
-              "url": "https://www.nasdaq.com/articles/monopar-reports-promising-analyses-phase-3-focus-trial-alxn1840-treating-wilson-disease",
-              "date": "2026-04-20",
-              "publisher": "RTTNews",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MNPR"
-              ]
-            },
-            {
-              "title": "Morgan Stanley Initiates Coverage of Monopar Therapeutics (MNPR) with Overweight Recommendation",
-              "url": "https://www.nasdaq.com/articles/morgan-stanley-initiates-coverage-monopar-therapeutics-mnpr-overweight-recommendation",
-              "date": "2026-01-10",
-              "publisher": "Fintel",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MNPR"
-              ]
-            },
-            {
-              "title": "Monday 12/29 Insider Buying Report: MNPR",
-              "url": "https://www.nasdaq.com/articles/monday-12-29-insider-buying-report-mnpr",
-              "date": "2025-12-29",
-              "publisher": "BNK Invest",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MNPR"
-              ]
-            },
-            {
-              "title": "Chardan Capital Maintains Monopar Therapeutics (MNPR) Buy Recommendation",
-              "url": "https://www.nasdaq.com/articles/chardan-capital-maintains-monopar-therapeutics-mnpr-buy-recommendation-1",
-              "date": "2025-11-14",
-              "publisher": "Fintel",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MNPR"
-              ]
-            }
-          ],
-          "directCount": 9,
-          "total": 9,
-          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-07-22",
-            "reportDate": "2026-07-22",
-            "items": [
-              "7.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926024041/mnpr20260721_8k.htm",
-            "description": "FORM 8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-30",
-            "reportDate": "2026-06-30",
-            "items": [
-              "7.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926022086/mnpr20260629_8k.htm",
-            "description": "FORM 8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-26",
-            "reportDate": "2026-06-26",
-            "items": [
-              "7.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926021832/mnpr20260625_8k.htm",
-            "description": "FORM 8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-23",
-            "reportDate": "2026-06-22",
-            "items": [
-              "5.07"
-            ],
-            "itemsKo": [
-              "주주총회 표결"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926021350/mnpr20260622_8k.htm",
-            "description": "FORM 8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-29",
-            "reportDate": "2026-05-29",
-            "items": [
-              "7.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926018896/mnpr20260529_8k.htm",
-            "description": "FORM 8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-19",
-            "reportDate": "2026-05-19",
-            "items": [
-              "7.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926017821/mnpr20260513_8k.htm",
-            "description": "FORM 8-K"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": [],
-          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
-        }
-      },
-      "nameKo": "모노파 테라퓨틱스",
-      "nameEn": "MONOPAR THERAPEUTICS INC"
-    },
-    {
-      "ticker": "BAND",
-      "price": 46.20000076293945,
-      "marketCap": "1.40B",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "rs": {
-        "m1": {
-          "v": -0.3161633742974768,
-          "pct": 0.39539899352983465
-        },
-        "m3": {
-          "v": -0.04899137460702652,
-          "pct": 17.88294797687861
-        },
-        "m6": {
-          "v": 2.4070795968489644,
-          "pct": 99.52966714905934
-        }
-      },
-      "qualifiedBy": [
-        "6mo"
-      ],
-      "bestPct": 99.52966714905934,
-      "adr": 9.64,
-      "cyTrend": -2.78,
-      "nyTrend": -15.28,
-      "upCount": 13,
-      "downCount": 4,
-      "upDownRatio": 76.47,
-      "bbwthd": 0.9,
-      "bbwthdLow": 0.37,
-      "high52": 58.42,
-      "volx": 0.56,
-      "volSurgeWk": 0.45,
-      "aboveMa150": true,
-      "aboveMa50": false,
-      "order": false,
-      "jeongbae": true,
-      "div10": -7.03,
-      "div50": -24.1,
-      "div200": 55.32,
-      "ret1m": -31.62,
-      "ret3m": -4.9,
-      "ret6m": 240.71,
-      "maxRise1m": 124.66,
-      "maxRise3m": 124.66,
-      "maxRise6m": 532.64,
-      "brk60d": false,
-      "clsPos": 93.56,
-      "ma150Slope": 21.62,
-      "ta": {
-        "price": 46.2,
-        "resistance": 75.98,
-        "support": 19.14,
-        "contraction": 0.86,
-        "trend": "mixed"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.2014,
-        "m3": 0.2005,
-        "m6": 0.2905,
-        "rankPct6": 7.91,
-        "count": 33
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "detail": {
-        "fetchedAt": "2026-08-05",
-        "nameKo": "밴드위스",
-        "nameEn": "BANDWIDTH INC",
-        "infomaxCode": "NAS:BAND",
-        "financials": {
-          "ok": true,
-          "ticker": "BAND",
-          "cik": "0001514416",
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "profitIsOperating": true,
-          "tags": {
-            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
-            "profit": "OperatingIncomeLoss",
-            "netIncome": "NetIncomeLoss"
-          },
-          "quarters": [
-            {
-              "periodStart": "2026-01-01",
-              "periodEnd": "2026-03-31",
-              "derived": false,
-              "revenue": 208784000,
-              "profit": -4621000,
-              "netIncome": 4118000,
-              "margin": -2.2,
-              "yoy": {
-                "revenue": 19.8,
-                "profit": 1.4,
-                "netIncome": 210.1,
-                "priorEnd": "2025-03-31"
-              }
-            },
-            {
-              "periodStart": "2025-09-30",
-              "periodEnd": "2025-12-31",
-              "derived": true,
-              "revenue": 207668000,
-              "profit": -3926000,
-              "netIncome": -3000000,
-              "margin": -1.9,
-              "yoy": {
-                "revenue": -1.1,
-                "profit": -47,
-                "netIncome": -70.6,
-                "priorEnd": "2024-12-31"
-              }
-            },
-            {
-              "periodStart": "2025-07-01",
-              "periodEnd": "2025-09-30",
-              "derived": false,
-              "revenue": 191895000,
-              "profit": -2008000,
-              "netIncome": -1241000,
-              "margin": -1,
-              "yoy": {
-                "revenue": -1,
-                "profit": -123.6,
-                "netIncome": -400.5,
-                "priorEnd": "2024-09-30"
-              }
-            },
-            {
-              "periodStart": "2025-04-01",
-              "periodEnd": "2025-06-30",
-              "derived": false,
-              "revenue": 180013000,
-              "profit": -3748000,
-              "netIncome": -4931000,
-              "margin": -2.1,
-              "yoy": {
-                "revenue": 3.7,
-                "profit": 38.3,
-                "netIncome": -221.6,
-                "priorEnd": "2024-06-30"
-              }
-            }
-          ],
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514416&type=10-Q"
-        },
-        "news": {
-          "ok": true,
-          "ticker": "BAND",
-          "items": [
-            {
-              "title": "All You Need to Know About Bandwidth (BAND) Rating Upgrade to Buy",
-              "url": "https://www.nasdaq.com/articles/all-you-need-know-about-bandwidth-band-rating-upgrade-buy",
-              "date": "2026-08-04",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "BAND"
-              ]
-            },
-            {
-              "title": "Bandwidth Q2 Earnings Call Highlights AI Shift, 2026 Outlook Raised",
-              "url": "https://www.nasdaq.com/articles/bandwidth-q2-earnings-call-highlights-ai-shift-2026-outlook-raised",
-              "date": "2026-07-30",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "BAND"
-              ]
-            },
-            {
-              "title": "Bandwidth Q2 Earnings Call Highlights",
-              "url": "https://www.nasdaq.com/articles/bandwidth-q2-earnings-call-highlights",
-              "date": "2026-07-29",
-              "publisher": "MarketBeat",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "BAND"
-              ]
-            },
-            {
-              "title": "Bandwidth (BAND) Q2 Earnings and Revenues Surpass Estimates",
-              "url": "https://www.nasdaq.com/articles/bandwidth-band-q2-earnings-and-revenues-surpass-estimates",
-              "date": "2026-07-29",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "BAND",
-                "ATEX"
-              ]
-            },
-            {
-              "title": "Should Bandwidth Stock Be in Your Portfolio Pre-Q2 Earnings?",
-              "url": "https://www.nasdaq.com/articles/should-bandwidth-stock-be-your-portfolio-pre-q2-earnings",
-              "date": "2026-07-27",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "BAND",
-                "RNG",
-                "TWLO"
-              ]
-            }
-          ],
-          "directCount": 5,
-          "total": 5,
-          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-08-03",
-            "reportDate": "2026-08-03",
-            "items": [
-              "8.01"
-            ],
-            "itemsKo": [
-              "기타 중요사건"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000060/band-20260803.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-07-29",
-            "reportDate": "2026-07-24",
-            "items": [
-              "1.01",
-              "2.02",
-              "5.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "중요 계약 체결",
-              "실적 발표",
-              "임원 변동",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000055/band-20260724.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-18",
-            "reportDate": "2026-06-15",
-            "items": [
-              "1.01",
-              "2.03",
-              "3.02",
-              "8.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "중요 계약 체결",
-              "2.03",
-              "3.02",
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000049/band-20260615.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-16",
-            "reportDate": "2026-06-15",
-            "items": [
-              "8.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000045/band-20260615.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-15",
-            "reportDate": "2026-06-15",
-            "items": [
-              "8.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000043/band-20260615.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-29",
-            "reportDate": "2026-05-28",
-            "items": [
-              "5.07"
-            ],
-            "itemsKo": [
-              "주주총회 표결"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000041/band-20260528.htm",
-            "description": "8-K"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": [],
-          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
-        }
-      },
-      "nameKo": "밴드위스",
-      "nameEn": "BANDWIDTH INC"
-    },
-    {
-      "ticker": "VSXY",
-      "price": 89.20999908447266,
-      "marketCap": "7.08B",
-      "sector": "Consumer Cyclical",
-      "industry": "Apparel Retail",
-      "rs": {
-        "m1": {
-          "v": 0.14006388606354833,
-          "pct": 88.82099209202013
-        },
-        "m3": {
-          "v": 0.8761303999126511,
-          "pct": 99.45809248554913
-        },
-        "m6": {
-          "v": 0.5064167045860364,
-          "pct": 90.55716353111433
-        }
-      },
-      "qualifiedBy": [
-        "3mo"
-      ],
-      "bestPct": 99.45809248554913,
-      "adr": 4.63,
-      "cyTrend": 0.6,
-      "nyTrend": 0.88,
-      "upCount": 37,
-      "downCount": 0,
-      "upDownRatio": 100,
-      "bbwthd": 0.21,
-      "bbwthdLow": 0.16,
-      "high52": 97,
-      "volx": 1.01,
-      "volSurgeWk": 0.94,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": true,
-      "jeongbae": true,
-      "div10": 2.23,
-      "div50": 13.72,
-      "div200": 57.34,
-      "ret1m": 14.01,
-      "ret3m": 87.61,
-      "ret6m": 50.64,
-      "maxRise1m": 23.23,
-      "maxRise3m": 113.29,
-      "maxRise6m": 119.03,
-      "brk60d": false,
-      "clsPos": 34.06,
-      "ma150Slope": 7.83,
-      "ta": {
-        "price": 89.21,
-        "resistance": null,
-        "support": 77.6,
-        "contraction": 1.07,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.0819,
-        "m3": 0.0841,
-        "m6": 0.1151,
-        "rankPct6": 29.5,
-        "count": 9
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "detail": {
-        "fetchedAt": "2026-08-05",
-        "nameKo": "VICTORIAS SECRET AND CO",
-        "nameEn": "VICTORIAS SECRET AND CO",
-        "infomaxCode": "NYS:VSXY",
-        "financials": {
-          "ok": true,
-          "ticker": "VSXY",
-          "cik": "0001856437",
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "profitIsOperating": true,
-          "tags": {
-            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
-            "profit": "OperatingIncomeLoss",
-            "netIncome": "NetIncomeLoss"
-          },
-          "quarters": [
-            {
-              "periodStart": "2026-02-01",
-              "periodEnd": "2026-05-02",
-              "derived": false,
-              "revenue": 1560000000,
-              "profit": 76000000,
-              "netIncome": 48000000,
-              "margin": 4.9,
-              "yoy": {
-                "revenue": 15.3,
-                "profit": 280,
-                "netIncome": 2500,
-                "priorEnd": "2025-05-03"
-              }
-            },
-            {
-              "periodStart": "2025-11-01",
-              "periodEnd": "2026-01-31",
-              "derived": true,
-              "revenue": 2269000000,
-              "profit": 229000000,
-              "netIncome": 184000000,
-              "margin": 10.1,
-              "yoy": {
-                "revenue": 7.7,
-                "profit": -14.6,
-                "netIncome": -4.7,
-                "priorEnd": "2025-02-01"
-              }
-            },
-            {
-              "periodStart": "2025-08-03",
-              "periodEnd": "2025-11-01",
-              "derived": false,
-              "revenue": 1472000000,
-              "profit": -19000000,
-              "netIncome": -37000000,
-              "margin": -1.3,
-              "yoy": {
-                "revenue": 9.3,
-                "profit": 59.6,
-                "netIncome": 33.9,
-                "priorEnd": "2024-11-02"
-              }
-            },
-            {
-              "periodStart": "2025-05-04",
-              "periodEnd": "2025-08-02",
-              "derived": false,
-              "revenue": 1459000000,
-              "profit": 41000000,
-              "netIncome": 16000000,
-              "margin": 2.8,
-              "yoy": {
-                "revenue": 3,
-                "profit": -33.9,
-                "netIncome": -50,
-                "priorEnd": "2024-08-03"
-              }
-            }
-          ],
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001856437&type=10-Q"
-        },
-        "news": {
-          "ok": true,
-          "ticker": "VSXY",
-          "items": [
-            {
-              "title": "Will Victoria's Secret (VSXY) Beat Estimates Again in Its Next Earnings Report?",
-              "url": "https://www.nasdaq.com/articles/will-victorias-secret-vsxy-beat-estimates-again-its-next-earnings-report",
-              "date": "2026-08-04",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "VSXY"
-              ]
-            },
-            {
-              "title": "Victoria's Secret (VSXY) is a Great Momentum Stock: Should You Buy?",
-              "url": "https://www.nasdaq.com/articles/victorias-secret-vsxy-great-momentum-stock-should-you-buy",
-              "date": "2026-07-30",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "VSXY"
-              ]
-            },
-            {
-              "title": "Why Victoria's Secret (VSXY) is a Top Value Stock for the Long-Term",
-              "url": "https://www.nasdaq.com/articles/why-victorias-secret-vsxy-top-value-stock-long-term",
-              "date": "2026-07-30",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "VSXY"
-              ]
-            },
-            {
-              "title": "Why Victoria's Secret (VSXY) is a Top Growth Stock for the Long-Term",
-              "url": "https://www.nasdaq.com/articles/why-victorias-secret-vsxy-top-growth-stock-long-term",
-              "date": "2026-07-21",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "VSXY"
-              ]
-            },
-            {
-              "title": "Victoria's Secret (VSXY) is a Top-Ranked Momentum Stock: Should You Buy?",
-              "url": "https://www.nasdaq.com/articles/victorias-secret-vsxy-top-ranked-momentum-stock-should-you-buy",
-              "date": "2026-07-09",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "VSXY"
-              ]
-            },
-            {
-              "title": "Bull of the Day: Victoria's Secret (VSXY)",
-              "url": "https://www.nasdaq.com/articles/bull-day-victorias-secret-vsxy",
-              "date": "2026-07-09",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "VSXY"
-              ]
-            },
-            {
-              "title": "Buy 2 Apparel & Shoes Stocks on Solid Guidance and Estimate Revisions",
-              "url": "https://www.nasdaq.com/articles/buy-2-apparel-shoes-stocks-solid-guidance-and-estimate-revisions",
-              "date": "2026-07-30",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "DECK",
-                "VSXY"
-              ]
-            },
-            {
-              "title": "Arhaus Is Well Positioned to Benefit From Evolving Design Trends",
-              "url": "https://www.nasdaq.com/articles/arhaus-well-positioned-benefit-evolving-design-trends",
-              "date": "2026-07-28",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "ARHS",
-                "FIVE",
-                "VSXY"
-              ]
-            }
-          ],
-          "directCount": 6,
-          "total": 8,
-          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-15",
-            "reportDate": "2026-06-11",
-            "items": [
-              "5.07",
-              "9.01"
-            ],
-            "itemsKo": [
-              "주주총회 표결",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000015/vsco-20260611.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-02",
-            "reportDate": "2026-06-02",
-            "items": [
-              "2.02",
-              "7.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000011/vsco-20260602.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-21",
-            "reportDate": "2026-05-21",
-            "items": [
-              "8.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000007/vsco-20260521.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-11",
-            "reportDate": "2026-05-10",
-            "items": [
-              "5.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "임원 변동",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000119312526217065/d152704d8k.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-03-05",
-            "reportDate": "2026-03-05",
-            "items": [
-              "2.02",
-              "7.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000002/vsco-20260305.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2025-12-05",
-            "reportDate": "2025-12-05",
-            "items": [
-              "2.02",
-              "7.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643725000044/vsco-20251205.htm",
-            "description": "8-K"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": [],
-          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
-        }
-      },
-      "nameKo": "VICTORIAS SECRET AND CO",
-      "nameEn": "VICTORIAS SECRET AND CO"
-    },
-    {
-      "ticker": "SYRE",
-      "price": 104.94000244140625,
-      "marketCap": "8.24B",
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "rs": {
-        "m1": {
-          "v": 0.11365805691319227,
-          "pct": 83.21351545650612
-        },
-        "m3": {
-          "v": 0.43556777882228237,
-          "pct": 96.20664739884393
-        },
-        "m6": {
-          "v": 2.126936774350777,
-          "pct": 99.45730824891461
-        }
-      },
-      "qualifiedBy": [
-        "6mo"
-      ],
-      "bestPct": 99.45730824891461,
-      "adr": 6.4,
-      "cyTrend": 3.88,
-      "nyTrend": 2.39,
-      "upCount": 0,
-      "downCount": 9,
-      "upDownRatio": 0,
-      "bbwthd": 0.12,
-      "bbwthdLow": 0.11,
-      "high52": 99.71,
-      "volx": 0.82,
-      "volSurgeWk": 0.8,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": true,
-      "jeongbae": true,
-      "div10": 5.06,
-      "div50": 18.27,
-      "div200": 97.37,
-      "ret1m": 11.37,
-      "ret3m": 43.56,
-      "ret6m": 212.69,
-      "maxRise1m": 16.11,
-      "maxRise3m": 62.75,
-      "maxRise6m": 225.35,
-      "brk60d": false,
-      "clsPos": 96.23,
-      "ma150Slope": 16.67,
-      "ta": {
-        "price": 104.94,
-        "resistance": null,
-        "support": 92.37,
-        "contraction": 0.9,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": -0.0421,
-        "m3": 0.1275,
-        "m6": 0.2182,
-        "rankPct6": 14.39,
-        "count": 55
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "detail": {
-        "fetchedAt": "2026-08-05",
-        "nameKo": "스파이어 테라퓨틱스",
-        "nameEn": "SPYRE THERAPEUTICS INC",
-        "infomaxCode": "NAS:SYRE",
-        "financials": {
-          "ok": true,
-          "ticker": "SYRE",
-          "cik": "0001636282",
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "profitIsOperating": true,
-          "tags": {
-            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
-            "profit": "OperatingIncomeLoss",
-            "netIncome": "NetIncomeLoss"
-          },
-          "quarters": [
-            {
-              "periodStart": "2024-09-30",
-              "periodEnd": "2024-12-31",
-              "derived": true,
-              "revenue": 0,
-              "profit": -61253000,
-              "netIncome": -56296000,
-              "margin": null,
-              "yoy": {
-                "revenue": null,
-                "profit": -33.4,
-                "netIncome": 10.9,
-                "priorEnd": "2023-12-31"
-              }
-            },
-            {
-              "periodStart": "2024-07-01",
-              "periodEnd": "2024-09-30",
-              "derived": false,
-              "revenue": 0,
-              "profit": -55392000,
-              "netIncome": -69028000,
-              "margin": null,
-              "yoy": {
-                "revenue": null,
-                "profit": -202.1,
-                "netIncome": -72.1,
-                "priorEnd": "2023-09-30"
-              }
-            },
-            {
-              "periodStart": "2024-04-01",
-              "periodEnd": "2024-06-30",
-              "derived": false,
-              "revenue": 0,
-              "profit": -44147000,
-              "netIncome": -38837000,
-              "margin": null,
-              "yoy": {
-                "revenue": -100,
-                "profit": 72.3,
-                "netIncome": 82.1,
-                "priorEnd": "2023-06-30"
-              }
-            },
-            {
-              "periodStart": "2024-01-01",
-              "periodEnd": "2024-03-31",
-              "derived": false,
-              "revenue": 0,
-              "profit": -47774000,
-              "netIncome": -43857000,
-              "margin": null,
-              "yoy": {
-                "revenue": -100,
-                "profit": -154,
-                "netIncome": -138.1,
-                "priorEnd": "2023-03-31"
-              }
-            }
-          ],
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001636282&type=10-Q"
-        },
-        "news": {
-          "ok": true,
-          "ticker": "SYRE",
-          "items": [
-            {
-              "title": "Is SYRE Stock a Buy Now or a Wait-and-See Biotech Story Today",
-              "url": "https://www.nasdaq.com/articles/syre-stock-buy-now-or-wait-and-see-biotech-story-today",
-              "date": "2026-06-29",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "SYRE",
-                "JNJ",
-                "ABBV"
-              ]
-            },
-            {
-              "title": "SYRE and Spyre Ride New IBD Trends in Biotech Drug Design",
-              "url": "https://www.nasdaq.com/articles/syre-and-spyre-ride-new-ibd-trends-biotech-drug-design",
-              "date": "2026-06-29",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "SYRE",
-                "JNJ",
-                "ABBV"
-              ]
-            },
-            {
-              "title": "Spyre Therapeutics Stock Outlook Hinges on 2026 Study Catalysts",
-              "url": "https://www.nasdaq.com/articles/spyre-therapeutics-stock-outlook-hinges-2026-study-catalysts",
-              "date": "2026-06-29",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "JNJ",
-                "ABBV",
-                "SYRE"
-              ]
-            },
-            {
-              "title": "Spyre Therapeutics (SYRE) Price Target Increased by 42.03% to 88.06",
-              "url": "https://www.nasdaq.com/articles/spyre-therapeutics-syre-price-target-increased-4203-8806",
-              "date": "2026-04-28",
-              "publisher": "Fintel",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "SYRE"
-              ]
-            },
-            {
-              "title": "SYRE Stock Jumps More Than 70% in a Month: What Is Driving This Rally?",
-              "url": "https://www.nasdaq.com/articles/syre-stock-jumps-more-70-month-what-driving-rally",
-              "date": "2026-04-23",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "JNJ",
-                "TAK",
-                "SYRE"
-              ]
-            },
-            {
-              "title": "Spyre Therapeutics Prices Upsized $403 Mln Public Offering Of 6.50 Mln Shares At $62.00/shr",
-              "url": "https://www.nasdaq.com/articles/spyre-therapeutics-prices-upsized-403-mln-public-offering-650-mln-shares-6200-shr",
-              "date": "2026-04-15",
-              "publisher": "RTTNews",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "SYRE"
-              ]
-            },
-            {
-              "title": "Raymond James Initiates Coverage of Spyre Therapeutics (SYRE) with Strong Buy Recommendation",
-              "url": "https://www.nasdaq.com/articles/raymond-james-initiates-coverage-spyre-therapeutics-syre-strong-buy-recommendation",
-              "date": "2026-04-14",
-              "publisher": "Fintel",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "SYRE"
-              ]
-            },
-            {
-              "title": "Spyre Therapeutics Unveils $300 Mln Public Offering Of Shares; Stock Down",
-              "url": "https://www.nasdaq.com/articles/spyre-therapeutics-unveils-300-mln-public-offering-shares-stock-down",
-              "date": "2026-04-14",
-              "publisher": "RTTNews",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "SYRE"
-              ]
-            }
-          ],
-          "directCount": 10,
-          "total": 10,
-          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-08-04",
-            "reportDate": "2026-08-04",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000098/syre-20260804.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-15",
-            "reportDate": "2026-06-15",
-            "items": [
-              "7.01",
-              "8.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "Reg FD 공시",
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000083/syre-20260615.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-01",
-            "reportDate": "2026-05-29",
-            "items": [
-              "8.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000075/syre-20260529.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-29",
-            "reportDate": "2026-05-27",
-            "items": [
-              "5.02",
-              "5.07",
-              "9.01"
-            ],
-            "itemsKo": [
-              "임원 변동",
-              "주주총회 표결",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000056/syre-20260527.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-05",
-            "reportDate": "2026-05-05",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000051/syre-20260505.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-04-16",
-            "reportDate": "2026-04-14",
-            "items": [
-              "1.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "중요 계약 체결",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1636282/000162828026025508/syre-20260414.htm",
-            "description": "8-K"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": [],
-          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
-        }
-      },
-      "nameKo": "스파이어 테라퓨틱스",
-      "nameEn": "SPYRE THERAPEUTICS INC"
-    },
-    {
-      "ticker": "PARR",
-      "price": 83,
-      "marketCap": "4.16B",
-      "sector": "Energy",
-      "industry": "Oil & Gas Refining & Marketing",
-      "rs": {
-        "m1": {
-          "v": 0.3504718717278543,
-          "pct": 99.38892882818116
-        },
-        "m3": {
-          "v": 0.3333333333333333,
-          "pct": 93.31647398843931
-        },
-        "m6": {
-          "v": 0.9635675207274692,
-          "pct": 96.63531114327061
-        }
-      },
-      "qualifiedBy": [
-        "1mo"
-      ],
-      "bestPct": 99.38892882818116,
-      "adr": 4.8,
-      "cyTrend": 14.52,
-      "nyTrend": 13.42,
-      "upCount": 11,
-      "downCount": 2,
-      "upDownRatio": 84.62,
-      "bbwthd": 0.31,
-      "bbwthdLow": 0.12,
-      "high52": 95.37,
-      "volx": 1.05,
-      "volSurgeWk": 0.98,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": true,
-      "jeongbae": true,
-      "div10": 2.09,
-      "div50": 29.36,
-      "div200": 60.32,
-      "ret1m": 35.05,
-      "ret3m": 33.33,
-      "ret6m": 96.36,
-      "maxRise1m": 36.15,
-      "maxRise3m": 77.9,
-      "maxRise6m": 137.79,
-      "brk60d": false,
-      "clsPos": 84.56,
-      "ma150Slope": 9.49,
-      "ta": {
-        "price": 83,
-        "resistance": null,
-        "support": 56.24,
-        "contraction": 1.24,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.1629,
-        "m3": 0.2727,
-        "m6": 0.479,
-        "rankPct6": 2.16,
-        "count": 7
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "detail": {
-        "fetchedAt": "2026-08-05",
-        "nameKo": "파 퍼시픽 홀딩스",
-        "nameEn": "PAR PACIFIC HOLDINGS INC",
-        "infomaxCode": "NYS:PARR",
-        "financials": {
-          "ok": true,
-          "ticker": "PARR",
-          "cik": "0000821483",
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "profitIsOperating": true,
-          "tags": {
-            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
-            "profit": "OperatingIncomeLoss",
-            "netIncome": "NetIncomeLoss"
-          },
-          "quarters": [
-            {
-              "periodStart": "2026-01-01",
-              "periodEnd": "2026-03-31",
-              "derived": false,
-              "revenue": 1823750000,
-              "profit": 65322000,
-              "netIncome": 54450000,
-              "margin": 3.6,
-              "yoy": {
-                "revenue": 4.5,
-                "profit": 514.1,
-                "netIncome": 279.1,
-                "priorEnd": "2025-03-31"
-              }
-            },
-            {
-              "periodStart": "2025-09-30",
-              "periodEnd": "2025-12-31",
-              "derived": true,
-              "revenue": 1813240000,
-              "profit": 99258000,
-              "netIncome": 77700000,
-              "margin": 5.5,
-              "yoy": {
-                "revenue": -1,
-                "profit": 311.4,
-                "netIncome": 239.5,
-                "priorEnd": "2024-12-31"
-              }
-            },
-            {
-              "periodStart": "2025-07-01",
-              "periodEnd": "2025-09-30",
-              "derived": false,
-              "revenue": 2012936000,
-              "profit": 358516000,
-              "netIncome": 262631000,
-              "margin": 17.8,
-              "yoy": {
-                "revenue": -6.1,
-                "profit": 884.1,
-                "netIncome": 3408.3,
-                "priorEnd": "2024-09-30"
-              }
-            },
-            {
-              "periodStart": "2025-04-01",
-              "periodEnd": "2025-06-30",
-              "derived": false,
-              "revenue": 1893438000,
-              "profit": 96760000,
-              "netIncome": 59460000,
-              "margin": 5.1,
-              "yoy": {
-                "revenue": -6.1,
-                "profit": 98.9,
-                "netIncome": 219,
-                "priorEnd": "2024-06-30"
-              }
-            }
-          ],
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000821483&type=10-Q"
-        },
-        "news": {
-          "ok": true,
-          "ticker": "PARR",
-          "items": [
-            {
-              "title": "Par Petroleum (PARR) Beats Q2 Earnings and Revenue Estimates",
-              "url": "https://www.nasdaq.com/articles/par-petroleum-parr-beats-q2-earnings-and-revenue-estimates",
-              "date": "2026-08-04",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "PARR",
-                "PSX"
-              ]
-            },
-            {
-              "title": "Par Pacific's Q2 Earnings on Deck: Should You Bet on the Stock?",
-              "url": "https://www.nasdaq.com/articles/par-pacifics-q2-earnings-deck-should-you-bet-stock",
-              "date": "2026-08-03",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "PARR",
-                "VLO",
-                "PSX"
-              ]
-            },
-            {
-              "title": "Par Petroleum (PARR) Is Up 1.50% in One Week: What You Should Know",
-              "url": "https://www.nasdaq.com/articles/par-petroleum-parr-150-one-week-what-you-should-know",
-              "date": "2026-07-29",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "PARR"
-              ]
-            },
-            {
-              "title": "Par Petroleum (PARR) Reports Next Week: Wall Street Expects Earnings Growth",
-              "url": "https://www.nasdaq.com/articles/par-petroleum-parr-reports-next-week-wall-street-expects-earnings-growth",
-              "date": "2026-07-28",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "PARR",
-                "PBF"
-              ]
-            },
-            {
-              "title": "Phillips 66's Q2 Earnings on Deck: Should You Bet on the Stock?",
-              "url": "https://www.nasdaq.com/articles/phillips-66s-q2-earnings-deck-should-you-bet-stock",
-              "date": "2026-07-30",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "PSX",
-                "VLO",
-                "PARR"
-              ]
-            },
-            {
-              "title": "Valero Energy Q2 Earnings on Deck: What's in Store for the Stock?",
-              "url": "https://www.nasdaq.com/articles/valero-energy-q2-earnings-deck-whats-store-stock",
-              "date": "2026-07-28",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "VLO",
-                "PBF",
-                "PARR"
-              ]
-            }
-          ],
-          "directCount": 4,
-          "total": 6,
-          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-14",
-            "reportDate": "2026-05-14",
-            "items": [
-              "1.01",
-              "2.03",
-              "7.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "중요 계약 체결",
-              "2.03",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/821483/000119312526224142/d176382d8k.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-11",
-            "reportDate": "2026-05-11",
-            "items": [
-              "7.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/821483/000119312526215799/d49629d8k.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-05",
-            "reportDate": "2026-05-05",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/821483/000162828026030714/parr-20260505.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-04",
-            "reportDate": "2026-04-30",
-            "items": [
-              "5.07"
-            ],
-            "itemsKo": [
-              "주주총회 표결"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/821483/000143774926014568/parr20260501_8k.htm",
-            "description": "FORM 8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-02-24",
-            "reportDate": "2026-02-24",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/821483/000162828026011234/parr-20260224.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2025-12-19",
-            "reportDate": "2025-12-16",
-            "items": [
-              "1.01",
-              "2.03",
-              "9.01"
-            ],
-            "itemsKo": [
-              "중요 계약 체결",
-              "2.03",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/821483/000143774925038429/parr20251219_8k.htm",
-            "description": "FORM 8-K"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": [],
-          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
-        }
-      },
-      "nameKo": "파 퍼시픽 홀딩스",
-      "nameEn": "PAR PACIFIC HOLDINGS INC"
-    },
-    {
-      "ticker": "PANW",
-      "price": 366.3399963378906,
-      "marketCap": "282.91B",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "rs": {
-        "m1": {
-          "v": 0.08693326326290887,
-          "pct": 75.08986340762041
-        },
-        "m3": {
-          "v": 0.8640411062602729,
-          "pct": 99.38583815028902
-        },
-        "m6": {
-          "v": 1.213401054295606,
-          "pct": 98.08248914616497
-        }
-      },
-      "qualifiedBy": [
-        "3mo",
-        "6mo"
-      ],
-      "bestPct": 99.38583815028902,
-      "adr": 4.93,
-      "cyTrend": 0.06,
-      "nyTrend": -1.45,
-      "upCount": 91,
-      "downCount": 13,
-      "upDownRatio": 87.5,
-      "bbwthd": 0.18,
-      "bbwthdLow": 0.15,
-      "high52": 99.33,
-      "volx": 1.37,
-      "volSurgeWk": 1.27,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": true,
-      "jeongbae": true,
-      "div10": 10.81,
-      "div50": 18.35,
-      "div200": 69.75,
-      "ret1m": 8.69,
-      "ret3m": 86.4,
-      "ret6m": 121.34,
-      "maxRise1m": 19.53,
-      "maxRise3m": 90.66,
-      "maxRise6m": 164.24,
-      "brk60d": false,
-      "clsPos": 93.76,
-      "ma150Slope": 9.7,
-      "ta": {
-        "price": 366.34,
-        "resistance": 368.8,
-        "support": 314.95,
-        "contraction": 0.8,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.2014,
-        "m3": 0.2005,
-        "m6": 0.2905,
-        "rankPct6": 7.91,
-        "count": 33
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "detail": {
-        "fetchedAt": "2026-08-05",
-        "nameKo": "팰로 앨토 네트웍스",
-        "nameEn": "PALO ALTO NETWORKS INC",
-        "infomaxCode": "NAS:PANW",
-        "financials": {
-          "ok": true,
-          "ticker": "PANW",
-          "cik": "0001327567",
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "profitIsOperating": true,
-          "tags": {
-            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
-            "profit": "OperatingIncomeLoss",
-            "netIncome": "NetIncomeLoss"
-          },
-          "quarters": [
-            {
-              "periodStart": "2026-02-01",
-              "periodEnd": "2026-04-30",
-              "derived": false,
-              "revenue": 3002000000,
-              "profit": -183000000,
-              "netIncome": -177000000,
-              "margin": -6.1,
-              "yoy": {
-                "revenue": 31.1,
-                "profit": -183.6,
-                "netIncome": -167.6,
-                "priorEnd": "2025-04-30"
-              }
-            },
-            {
-              "periodStart": "2025-11-01",
-              "periodEnd": "2026-01-31",
-              "derived": false,
-              "revenue": 2594000000,
-              "profit": 397000000,
-              "netIncome": 432000000,
-              "margin": 15.3,
-              "yoy": {
-                "revenue": 14.9,
-                "profit": 64.7,
-                "netIncome": 61.8,
-                "priorEnd": "2025-01-31"
-              }
-            },
-            {
-              "periodStart": "2025-08-01",
-              "periodEnd": "2025-10-31",
-              "derived": false,
-              "revenue": 2474000000,
-              "profit": 309000000,
-              "netIncome": 334000000,
-              "margin": 12.5,
-              "yoy": {
-                "revenue": 15.7,
-                "profit": 8,
-                "netIncome": -4.8,
-                "priorEnd": "2024-10-31"
-              }
-            },
-            {
-              "periodStart": "2025-04-30",
-              "periodEnd": "2025-07-31",
-              "derived": true,
-              "revenue": 2536500000,
-              "profit": 496900000,
-              "netIncome": 253900000,
-              "margin": 19.6,
-              "yoy": {
-                "revenue": 15.8,
-                "profit": 108.4,
-                "netIncome": -29,
-                "priorEnd": "2024-07-31"
-              }
-            }
-          ],
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327567&type=10-Q"
-        },
-        "news": {
-          "ok": true,
-          "ticker": "PANW",
-          "items": [
-            {
-              "title": "The Zacks Analyst Blog Highlights Microsoft, Palo Alto Networks and American Express",
-              "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-microsoft-palo-alto-networks-and-american-express",
-              "date": "2026-08-03",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MSFT",
-                "AXP",
-                "PANW"
-              ]
-            },
-            {
-              "title": "Palo Alto Networks (PANW) Stock Sinks As Market Gains: Here's Why",
-              "url": "https://www.nasdaq.com/articles/palo-alto-networks-panw-stock-sinks-market-gains-heres-why",
-              "date": "2026-07-27",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "PANW"
-              ]
-            },
-            {
-              "title": "Palo Alto Networks, Inc. (PANW) Is a Trending Stock: Facts to Know Before Betting on It",
-              "url": "https://www.nasdaq.com/articles/palo-alto-networks-inc-panw-trending-stock-facts-know-betting-it-1",
-              "date": "2026-07-24",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "PANW"
-              ]
-            },
-            {
-              "title": "Qualys (QLYS) Tops Q2 Earnings and Revenue Estimates",
-              "url": "https://www.nasdaq.com/articles/qualys-qlys-tops-q2-earnings-and-revenue-estimates",
-              "date": "2026-08-04",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "QLYS",
-                "PANW"
-              ]
-            },
-            {
-              "title": "ServiceNow Built a Billion-Dollar Cybersecurity Business, and It's Growing Faster Than the Competition",
-              "url": "https://www.nasdaq.com/articles/servicenow-built-billion-dollar-cybersecurity-business-and-its-growing-faster-competition",
-              "date": "2026-08-04",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "NOW",
-                "NOW",
-                "PANW"
-              ]
-            },
-            {
-              "title": "Zscaler's Large Deal Activity Surges: What's Driving This Momentum?",
-              "url": "https://www.nasdaq.com/articles/zscalers-large-deal-activity-surges-whats-driving-momentum",
-              "date": "2026-08-04",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "ZS",
-                "PANW",
-                "CRWD"
-              ]
-            },
-            {
-              "title": "Fortinet (FTNT) Surpasses Q2 Earnings and Revenue Estimates",
-              "url": "https://www.nasdaq.com/articles/fortinet-ftnt-surpasses-q2-earnings-and-revenue-estimates",
-              "date": "2026-07-29",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "FTNT",
-                "PANW"
-              ]
-            },
-            {
-              "title": "Insiders Sell, Institutions Buy: The AI Trade Is Getting More Interesting",
-              "url": "https://www.nasdaq.com/articles/insiders-sell-institutions-buy-ai-trade-getting-more-interesting",
-              "date": "2026-07-29",
-              "publisher": "MarketBeat",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "PANW",
-                "PANW"
-              ]
-            }
-          ],
-          "directCount": 3,
-          "total": 8,
-          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-02",
-            "reportDate": "2026-06-02",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000012/panw-20260602.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-04-13",
-            "reportDate": "2026-04-08",
-            "items": [
-              "1.01",
-              "2.03",
-              "9.01"
-            ],
-            "itemsKo": [
-              "중요 계약 체결",
-              "2.03",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312526151637/d49517d8k.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-03-23",
-            "reportDate": "2026-03-23",
-            "items": [
-              "8.01"
-            ],
-            "itemsKo": [
-              "기타 중요사건"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312526119729/d84927d8k.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-03-11",
-            "reportDate": "2026-03-10",
-            "items": [
-              "8.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000009/panw-20260310.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-02-17",
-            "reportDate": "2026-02-17",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000003/panw-20260217.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-02-11",
-            "reportDate": "2026-02-11",
-            "items": [
-              "1.01",
-              "2.03",
-              "8.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "중요 계약 체결",
-              "2.03",
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312526045600/d40626d8k.htm",
-            "description": "8-K"
-          }
-        ],
-        "krReports": {
-          "total": 3,
-          "reports": [
-            {
-              "title": "[팰로 앨토 네트웍스 (NAS:PANW)] AI 에이전트 시대의 필요 조건은 사이버 보안",
-              "broker": "키움증권",
-              "analyst": "김진구",
-              "date": "2026-08-04",
-              "summary": "- 보안 프로세스 전체를 아우르는 토탈 보안 솔루션 플랫폼 업체를 목표- 프런티어 업체와 긴밀한 연계 및 상호 교차검증 수요 증가로 성장 기대- 장기적으로 프런티어 업체의 보안 솔루션 내재화 여지는 잠재적 리스크",
-              "pages": "8",
-              "secureId": "eqlzqmxgmmkzqzlgcgxclcz",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqmxgmmkzqzlgcgxclcz.pdf",
-              "opinion": null
-            },
-            {
-              "title": "[팰로 앨토 네트웍스 (NAS:PANW)] 토탈 보안 플랫폼의 반격",
-              "broker": "키움증권",
-              "analyst": "김승혁",
-              "date": "2025-09-02",
-              "summary": "- 팰로 앨토 네트웍스는 토털 보안 플랫폼을 제공하는 글로벌 사이버 보안 기업- AI 확산 속 통합 보안 플랫폼으로 급증하는 트래픽 수요를 선점- CyberArk 인수로 아이덴티티까지 아우르며 토털 보안 표준과 경쟁 우위를 강화",
-              "pages": "7",
-              "secureId": "eqzxqxqkclqlxmkgcgxclcz",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzxqxqkclqlxmkgcgxclcz.pdf",
-              "opinion": null
-            },
-            {
-              "title": "[팰로 앨토 네트웍스 (NAS:PANW)] ‘토탈’의 반격",
-              "broker": "키움증권",
-              "analyst": "김승혁",
-              "date": "2025-08-20",
-              "summary": "- 팰로 앨토 네트웍스는 토털 보안 플랫폼을 제공하는 글로벌 사이버 보안 기업- FY4Q25 실적에서 차세대 보안 ARR과 수주 잔고 등이 높은 성장률을 기록- 통합 보안 솔루션 니즈 확대와 경쟁사 대비 차별성 기반 긍정적 실적 흐름 전망",
-              "pages": "6",
-              "secureId": "eqzzxkzeliecmeigcgxclcz",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzzxkzeliecmeigcgxclcz.pdf",
-              "opinion": null
-            }
-          ],
-          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
-        }
-      },
-      "nameKo": "팰로 앨토 네트웍스",
-      "nameEn": "PALO ALTO NETWORKS INC"
-    },
-    {
-      "ticker": "PENG",
-      "price": 57.84000015258789,
-      "marketCap": "2.70B",
-      "sector": "Technology",
-      "industry": "Information Technology Services",
-      "rs": {
-        "m1": {
-          "v": -0.0776590496409464,
-          "pct": 10.891445003594537
-        },
-        "m3": {
-          "v": 0.48383788691213364,
-          "pct": 96.85693641618496
-        },
-        "m6": {
-          "v": 2.0947029694937505,
-          "pct": 99.38494934876991
-        }
-      },
-      "qualifiedBy": [
-        "6mo"
-      ],
-      "bestPct": 99.38494934876991,
-      "adr": 11.42,
-      "cyTrend": 14.51,
-      "nyTrend": 19.03,
-      "upCount": 11,
-      "downCount": 0,
-      "upDownRatio": 100,
-      "bbwthd": 0.76,
-      "bbwthdLow": 0.25,
-      "high52": 64.37,
-      "volx": 0.36,
-      "volSurgeWk": 0.66,
-      "aboveMa150": true,
-      "aboveMa50": false,
-      "order": false,
-      "jeongbae": true,
-      "div10": 9.07,
-      "div50": -7.81,
-      "div200": 75.93,
-      "ret1m": -7.77,
-      "ret3m": 48.38,
-      "ret6m": 209.47,
-      "maxRise1m": 106.05,
-      "maxRise3m": 126.71,
-      "maxRise6m": 460.22,
-      "brk60d": false,
-      "clsPos": 78.37,
-      "ma150Slope": 17.38,
-      "ta": {
-        "price": 57.84,
-        "resistance": 73.24,
-        "support": 56.61,
-        "contraction": 0.55,
-        "trend": "mixed"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": -0.0306,
-        "m3": 0.0425,
-        "m6": -0.1053,
-        "rankPct6": 89.21,
-        "count": 16
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "detail": {
-        "fetchedAt": "2026-08-05",
-        "nameKo": "펭귄 솔루션스",
-        "nameEn": "PENGUIN SOLUTIONS INC",
-        "infomaxCode": "NAS:PENG",
-        "financials": {
-          "ok": true,
-          "ticker": "PENG",
-          "cik": "0001616533",
-          "profitLabel": "영업이익",
-          "marginLabel": "영업이익률",
-          "profitIsOperating": true,
-          "tags": {
-            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
-            "profit": "OperatingIncomeLoss",
-            "netIncome": "NetIncomeLoss"
-          },
-          "quarters": [
-            {
-              "periodStart": "2026-02-28",
-              "periodEnd": "2026-05-29",
-              "derived": false,
-              "revenue": 478713000,
-              "profit": 50863000,
-              "netIncome": 44689000,
-              "margin": 10.6,
-              "yoy": {
-                "revenue": 47.6,
-                "profit": 416.7,
-                "netIncome": 1579.4,
-                "priorEnd": "2025-05-30"
-              }
-            },
-            {
-              "periodStart": "2025-11-29",
-              "periodEnd": "2026-02-27",
-              "derived": false,
-              "revenue": 342999000,
-              "profit": 25689000,
-              "netIncome": 37452000,
-              "margin": 7.5,
-              "yoy": {
-                "revenue": -6.2,
-                "profit": 38.9,
-                "netIncome": 363.4,
-                "priorEnd": "2025-02-28"
-              }
-            },
-            {
-              "periodStart": "2025-08-30",
-              "periodEnd": "2025-11-28",
-              "derived": false,
-              "revenue": 343071000,
-              "profit": 19582000,
-              "netIncome": 5270000,
-              "margin": 5.7,
-              "yoy": {
-                "revenue": 0.6,
-                "profit": 12.8,
-                "netIncome": 1,
-                "priorEnd": "2024-11-29"
-              }
-            },
-            {
-              "periodStart": "2025-05-31",
-              "periodEnd": "2025-08-29",
-              "derived": false,
-              "revenue": 337922000,
-              "profit": 12448000,
-              "netIncome": 9431000,
-              "margin": 3.7,
-              "yoy": {
-                "revenue": 8.6,
-                "profit": 41.6,
-                "netIncome": 138.4,
-                "priorEnd": "2024-08-30"
-              }
-            }
-          ],
-          "unit": "USD",
-          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001616533&type=10-Q"
-        },
-        "news": {
-          "ok": true,
-          "ticker": "PENG",
-          "items": [
-            {
-              "title": "Penguin's ClusterWareAI Expands: Is the Platform Strategy Paying Off?",
-              "url": "https://www.nasdaq.com/articles/penguins-clusterwareai-expands-platform-strategy-paying",
-              "date": "2026-07-23",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "PENG",
-                "SMCI",
-                "HPE"
-              ]
-            },
-            {
-              "title": "PENG vs. DDOG: Which AI Infrastructure Stock Is the Better Buy Now?",
-              "url": "https://www.nasdaq.com/articles/peng-vs-ddog-which-ai-infrastructure-stock-better-buy-now",
-              "date": "2026-07-20",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "DDOG",
-                "PENG"
-              ]
-            },
-            {
-              "title": "Can Penguin Solutions Be the Next 10X Stock?",
-              "url": "https://www.nasdaq.com/articles/can-penguin-solutions-be-next-10x-stock",
-              "date": "2026-07-15",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "PENG",
-                "PENG"
-              ]
-            },
-            {
-              "title": "Penguin Raises FY26 Outlook: Is AI Demand Finally Paying Off?",
-              "url": "https://www.nasdaq.com/articles/penguin-raises-fy26-outlook-ai-demand-finally-paying",
-              "date": "2026-07-14",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "PENG",
-                "DELL",
-                "ALAB"
-              ]
-            },
-            {
-              "title": "Earnings Estimates Rising for Penguin Solutions, Inc. (PENG): Will It Gain?",
-              "url": "https://www.nasdaq.com/articles/earnings-estimates-rising-penguin-solutions-inc-peng-will-it-gain",
-              "date": "2026-07-13",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "PENG"
-              ]
-            },
-            {
-              "title": "Are You Looking for a Top Momentum Pick? Why Penguin Solutions, Inc. (PENG) is a Great Choice",
-              "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-penguin-solutions-inc-peng-great-choice",
-              "date": "2026-07-13",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "PENG"
-              ]
-            },
-            {
-              "title": "September 2027 Options Now Available For Penguin Solutions (PENG)",
-              "url": "https://www.nasdaq.com/articles/september-2027-options-now-available-penguin-solutions-peng",
-              "date": "2026-07-10",
-              "publisher": "BNK Invest",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "PENG"
-              ]
-            },
-            {
-              "title": "Penguin Solutions Q3 Earnings Call Highlights",
-              "url": "https://www.nasdaq.com/articles/penguin-solutions-q3-earnings-call-highlights",
-              "date": "2026-07-09",
-              "publisher": "MarketBeat",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "PENG"
-              ]
-            }
-          ],
-          "directCount": 9,
-          "total": 11,
-          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
-        },
-        "filings": [
-          {
-            "form": "8-K",
-            "filingDate": "2026-07-17",
-            "reportDate": "2026-07-13",
-            "items": [
-              "1.01",
-              "2.03",
-              "3.02",
-              "8.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "중요 계약 체결",
-              "2.03",
-              "3.02",
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1616533/000119312526307989/d103073d8k.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-07-07",
-            "reportDate": "2026-07-07",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000041/peng-20260707.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-06-01",
-            "reportDate": "2026-05-26",
-            "items": [
-              "5.02",
-              "7.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "임원 변동",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1616533/000119312526251467/d104493d8k.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-18",
-            "reportDate": "2026-05-18",
-            "items": [
-              "5.02",
-              "7.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "임원 변동",
-              "Reg FD 공시",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000036/peng-20260518.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-04-01",
-            "reportDate": "2026-04-01",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000028/peng-20260401.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-04-01",
-            "reportDate": "2026-03-30",
-            "items": [
-              "7.01",
-              "8.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "Reg FD 공시",
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1616533/000119312526135770/d119062d8k.htm",
-            "description": "8-K"
-          }
-        ],
-        "krReports": {
-          "total": 0,
-          "reports": [],
-          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
-        }
-      },
-      "nameKo": "펭귄 솔루션스",
-      "nameEn": "PENGUIN SOLUTIONS INC"
-    },
-    {
-      "ticker": "ALAB",
-      "price": 361.6700134277344,
-      "marketCap": "55.03B",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "rs": {
-        "m1": {
-          "v": -0.05542061795522909,
-          "pct": 15.636232925952553
-        },
-        "m3": {
-          "v": 0.8485562213668599,
-          "pct": 99.3135838150289
-        },
-        "m6": {
-          "v": 0.9778519753940136,
-          "pct": 96.85238784370478
-        }
-      },
-      "qualifiedBy": [
-        "3mo"
-      ],
-      "bestPct": 99.3135838150289,
-      "adr": 9.21,
-      "cyTrend": 1.55,
-      "nyTrend": 7.42,
-      "upCount": 26,
-      "downCount": 1,
-      "upDownRatio": 96.3,
-      "bbwthd": 0.56,
-      "bbwthdLow": 0.25,
-      "high52": 72.41,
-      "volx": 2.37,
-      "volSurgeWk": 1.88,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": true,
-      "jeongbae": false,
-      "div10": 19.14,
-      "div50": 1.26,
-      "div200": 72.74,
-      "ret1m": -5.54,
-      "ret3m": 84.86,
-      "ret6m": 97.79,
-      "maxRise1m": 78.44,
-      "maxRise3m": 163.31,
-      "maxRise6m": 410.24,
-      "brk60d": false,
-      "clsPos": 77.79,
-      "ma150Slope": 11.18,
-      "ta": {
-        "price": 361.67,
-        "resistance": 372.37,
-        "support": 303,
-        "contraction": 1.1,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.0313,
-        "m3": 0.0559,
-        "m6": 0.4182,
-        "rankPct6": 3.6,
-        "count": 42
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "nameKo": "아스테라 랩스",
-      "nameEn": "ASTERA LABS INC"
-    },
-    {
-      "ticker": "ORKA",
-      "price": 98.12999725341797,
-      "marketCap": "5.72B",
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "rs": {
-        "m1": {
-          "v": 0.16130174264399963,
-          "pct": 91.69662113587347
-        },
-        "m3": {
-          "v": 0.5316060203032157,
-          "pct": 97.57947976878613
-        },
-        "m6": {
-          "v": 1.9844888706094872,
-          "pct": 99.31259044862519
-        }
-      },
-      "qualifiedBy": [
-        "6mo"
-      ],
-      "bestPct": 99.31259044862519,
-      "adr": 5.92,
-      "cyTrend": 0.09,
-      "nyTrend": 1.22,
-      "upCount": 15,
-      "downCount": 5,
-      "upDownRatio": 75,
-      "bbwthd": 0.2,
-      "bbwthdLow": 0.17,
-      "high52": 99.12,
-      "volx": 0.75,
-      "volSurgeWk": 0.67,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": true,
-      "jeongbae": true,
-      "div10": 5.22,
-      "div50": 23.54,
-      "div200": 97.43,
-      "ret1m": 16.13,
-      "ret3m": 53.16,
-      "ret6m": 198.45,
-      "maxRise1m": 22.65,
-      "maxRise3m": 84.63,
-      "maxRise6m": 219.35,
-      "brk60d": false,
-      "clsPos": 86.83,
-      "ma150Slope": 16.54,
-      "ta": {
-        "price": 98.13,
-        "resistance": null,
-        "support": 81.15,
-        "contraction": 1.03,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": -0.0421,
-        "m3": 0.1275,
-        "m6": 0.2182,
-        "rankPct6": 14.39,
-        "count": 55
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "nameKo": "오루카 테라퓨틱스",
-      "nameEn": "ORUKA THERAPEUTICS INC"
-    },
-    {
-      "ticker": "IT",
-      "price": 185.7899932861328,
-      "marketCap": "10.15B",
-      "sector": "Technology",
-      "industry": "Information Technology Services",
-      "rs": {
-        "m1": {
-          "v": 0.3195311737162162,
-          "pct": 99.2451473759885
-        },
-        "m3": {
-          "v": 0.17752563521068598,
-          "pct": 74.7471098265896
-        },
-        "m6": {
-          "v": 0.16198632807150531,
-          "pct": 64.00144717800289
-        }
-      },
-      "qualifiedBy": [
-        "1mo"
-      ],
-      "bestPct": 99.2451473759885,
-      "adr": 5.62,
-      "cyTrend": -0.13,
-      "nyTrend": -0.03,
-      "upCount": 7,
-      "downCount": 9,
-      "upDownRatio": 43.75,
-      "bbwthd": 0.38,
-      "bbwthdLow": 0.1,
-      "high52": 69.89,
-      "volx": 2.94,
-      "volSurgeWk": 2.09,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": false,
-      "jeongbae": false,
-      "div10": 22.51,
-      "div50": 27.25,
-      "div200": 1.33,
-      "ret1m": 31.95,
-      "ret3m": 17.75,
-      "ret6m": 16.2,
-      "maxRise1m": 48.99,
-      "maxRise3m": 54.42,
-      "maxRise6m": 54.42,
-      "brk60d": true,
-      "clsPos": 83.08,
-      "ma150Slope": -7.15,
-      "ta": {
-        "price": 185.79,
-        "resistance": 240.25,
-        "support": 154.97,
-        "contraction": 1.8,
-        "trend": "mixed"
-      },
-      "ma150SlopeDir": "down",
-      "wrs": {
-        "m1": -0.0306,
-        "m3": 0.0425,
-        "m6": -0.1053,
-        "rankPct6": 89.21,
-        "count": 16
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "nameKo": "가트너",
-      "nameEn": "GARTNER INC"
+      }
     },
     {
       "ticker": "OKTA",
-      "price": 147.82000732421875,
-      "marketCap": "24.61B",
+      "price": 148.32000732421875,
+      "marketCap": "24.94B",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "rs": {
         "m1": {
-          "v": -0.0043779476738748605,
-          "pct": 36.05319913731129
+          "v": 0.06989830556233088,
+          "pct": 67.51982696467196
         },
         "m3": {
-          "v": 0.8276460477744627,
-          "pct": 99.24132947976878
+          "v": 0.8760436618315642,
+          "pct": 99.38361131254533
         },
         "m6": {
-          "v": 0.6712268222091381,
-          "pct": 94.82633863965268
+          "v": 0.699747922222845,
+          "pct": 94.73493100944081
         }
       },
       "qualifiedBy": [
         "3mo"
       ],
-      "bestPct": 99.24132947976878,
-      "adr": 5.49,
-      "cyTrend": 0.01,
-      "nyTrend": 0.05,
-      "upCount": 113,
-      "downCount": 35,
-      "upDownRatio": 76.35,
+      "bestPct": 99.38361131254533,
+      "adr": 5.11,
+      "cyTrend": 0.04,
+      "nyTrend": 0.07,
+      "upCount": 43,
+      "downCount": 28,
+      "upDownRatio": 60.56,
       "bbwthd": 0.16,
       "bbwthdLow": 0.14,
-      "high52": 94.15,
-      "volx": 0.98,
-      "volSurgeWk": 1.07,
+      "high52": 94.47,
+      "volx": 0.8,
+      "volSurgeWk": 0.86,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": true,
       "jeongbae": true,
-      "div10": 6.07,
-      "div50": 13.9,
-      "div200": 56.35,
-      "ret1m": -0.44,
-      "ret3m": 82.76,
-      "ret6m": 67.12,
+      "div10": 4.37,
+      "div50": 11.48,
+      "div200": 55.43,
+      "ret1m": 6.99,
+      "ret3m": 87.6,
+      "ret6m": 69.97,
       "maxRise1m": 21.69,
       "maxRise3m": 102.71,
       "maxRise6m": 150.56,
       "brk60d": false,
-      "clsPos": 95.15,
-      "ma150Slope": 8.22,
+      "clsPos": 53.13,
+      "ma150Slope": 8,
       "ta": {
-        "price": 147.82,
+        "price": 148.32,
         "resistance": 157,
         "support": 134.37,
-        "contraction": 0.64,
+        "contraction": 0.69,
         "trend": "up"
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.2014,
-        "m3": 0.2005,
-        "m6": 0.2905,
+        "m1": 0.2357,
+        "m3": 0.237,
+        "m6": 0.3311,
         "rankPct6": 7.91,
         "count": 33
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
       "nameKo": "옥타",
       "nameEn": "OKTA INC"
     },
     {
-      "ticker": "AAOI",
-      "price": 131.6300048828125,
-      "marketCap": "8.84B",
-      "sector": "Technology",
-      "industry": "Communication Equipment",
+      "ticker": "ORKA",
+      "price": 98.81999969482422,
+      "marketCap": "5.94B",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
       "rs": {
         "m1": {
-          "v": 0.1505113247925373,
-          "pct": 90.18691588785047
+          "v": 0.13861042346347785,
+          "pct": 87.13049747656814
         },
         "m3": {
-          "v": -0.16451918544508157,
-          "pct": 6.75578034682081
+          "v": 0.5285382422654286,
+          "pct": 97.13560551124003
         },
         "m6": {
-          "v": 1.7145803325733047,
-          "pct": 99.24023154848047
+          "v": 2.067991384776598,
+          "pct": 99.38271604938271
         }
       },
       "qualifiedBy": [
         "6mo"
       ],
-      "bestPct": 99.24023154848047,
-      "adr": 11.54,
+      "bestPct": 99.38271604938271,
+      "adr": 5.62,
       "cyTrend": 0,
       "nyTrend": 0,
-      "upCount": 11,
+      "upCount": 15,
       "downCount": 5,
-      "upDownRatio": 68.75,
-      "bbwthd": 0.51,
-      "bbwthdLow": 0.27,
-      "high52": 56.33,
-      "volx": 2.64,
-      "volSurgeWk": 1.82,
-      "aboveMa150": true,
-      "aboveMa50": false,
-      "order": false,
-      "jeongbae": false,
-      "div10": 30.14,
-      "div50": -6.8,
-      "div200": 44.76,
-      "ret1m": 15.05,
-      "ret3m": -16.45,
-      "ret6m": 171.46,
-      "maxRise1m": 79.28,
-      "maxRise3m": 207.42,
-      "maxRise6m": 468.26,
-      "brk60d": false,
-      "clsPos": 63.66,
-      "ma150Slope": 9.97,
-      "ta": {
-        "price": 131.63,
-        "resistance": 173.41,
-        "support": 91.5,
-        "contraction": 1.11,
-        "trend": "mixed"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.0896,
-        "m3": 0.1819,
-        "m6": 0.3655,
-        "rankPct6": 5.76,
-        "count": 13
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "nameKo": "어플라이드 옵토일렉트로닉스",
-      "nameEn": "APPLIED OPTOELECTRONICS INC"
-    },
-    {
-      "ticker": "AMBQ",
-      "price": 67.52999877929688,
-      "marketCap": "1.57B",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "rs": {
-        "m1": {
-          "v": -0.10532597011214138,
-          "pct": 6.506110711718188
-        },
-        "m3": {
-          "v": 0.7771052310341283,
-          "pct": 99.16907514450867
-        },
-        "m6": {
-          "v": 1.2992848774143757,
-          "pct": 98.29956584659914
-        }
-      },
-      "qualifiedBy": [
-        "3mo",
-        "6mo"
-      ],
-      "bestPct": 99.16907514450867,
-      "adr": 7.41,
-      "cyTrend": -0.9,
-      "nyTrend": -3.26,
-      "upCount": 12,
-      "downCount": 0,
-      "upDownRatio": 100,
-      "bbwthd": 0.48,
+      "upDownRatio": 75,
+      "bbwthd": 0.2,
       "bbwthdLow": 0.17,
-      "high52": 73.71,
-      "volx": 0.66,
-      "volSurgeWk": 0.48,
-      "aboveMa150": true,
-      "aboveMa50": false,
-      "order": false,
-      "jeongbae": false,
-      "div10": 1.14,
-      "div50": -14.12,
-      "div200": 53.82,
-      "ret1m": -10.53,
-      "ret3m": 77.71,
-      "ret6m": 129.93,
-      "maxRise1m": 57.32,
-      "maxRise3m": 138.57,
-      "maxRise6m": 302.68,
-      "brk60d": false,
-      "clsPos": 23.33,
-      "ma150Slope": 13.86,
-      "ta": {
-        "price": 67.53,
-        "resistance": 85.72,
-        "support": 66.25,
-        "contraction": 0.86,
-        "trend": "mixed"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.0313,
-        "m3": 0.0559,
-        "m6": 0.4182,
-        "rankPct6": 3.6,
-        "count": 42
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "nameKo": "앰비크 마이크로",
-      "nameEn": "AMBIQ MICRO  INC."
-    },
-    {
-      "ticker": "AXTI",
-      "price": 65.2699966430664,
-      "marketCap": "4.49B",
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "rs": {
-        "m1": {
-          "v": 0.122441873264936,
-          "pct": 85.80158159597411
-        },
-        "m3": {
-          "v": -0.39798932166223133,
-          "pct": 0.541907514450867
-        },
-        "m6": {
-          "v": 1.6804926332870478,
-          "pct": 99.16787264833575
-        }
-      },
-      "qualifiedBy": [
-        "6mo"
-      ],
-      "bestPct": 99.16787264833575,
-      "adr": 14.87,
-      "cyTrend": 191.28,
-      "nyTrend": 186.12,
-      "upCount": 1,
-      "downCount": 3,
-      "upDownRatio": 25,
-      "bbwthd": 0.61,
-      "bbwthdLow": 0.35,
-      "high52": 45.59,
-      "volx": 2.58,
-      "volSurgeWk": 1.41,
-      "aboveMa150": true,
-      "aboveMa50": false,
-      "order": false,
-      "jeongbae": false,
-      "div10": 25.02,
-      "div50": -13.76,
-      "div200": 37.79,
-      "ret1m": 12.24,
-      "ret3m": -39.8,
-      "ret6m": 168.05,
-      "maxRise1m": 93.87,
-      "maxRise3m": 289.76,
-      "maxRise6m": 533.73,
-      "brk60d": false,
-      "clsPos": 60.09,
-      "ma150Slope": 9.65,
-      "ta": {
-        "price": 65.27,
-        "resistance": 71.49,
-        "support": 53.36,
-        "contraction": 1.26,
-        "trend": "mixed"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": -0.0205,
-        "m3": 0.1549,
-        "m6": 0.3847,
-        "rankPct6": 4.32,
-        "count": 23
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "nameKo": "AXT",
-      "nameEn": "AXT INC"
-    },
-    {
-      "ticker": "SEZL",
-      "price": 177.22999572753906,
-      "marketCap": "5.48B",
-      "sector": "Financial Services",
-      "industry": "Credit Services",
-      "rs": {
-        "m1": {
-          "v": -0.00225192334784506,
-          "pct": 37.059669302659955
-        },
-        "m3": {
-          "v": 0.7754958552331938,
-          "pct": 99.09682080924856
-        },
-        "m6": {
-          "v": 1.5839044349042093,
-          "pct": 98.80607814761215
-        }
-      },
-      "qualifiedBy": [
-        "3mo",
-        "6mo"
-      ],
-      "bestPct": 99.09682080924856,
-      "adr": 7.23,
-      "cyTrend": 0.5,
-      "nyTrend": 0.29,
-      "upCount": 9,
-      "downCount": 1,
-      "upDownRatio": 90,
-      "bbwthd": 0.27,
-      "bbwthdLow": 0.17,
-      "high52": 90.56,
-      "volx": 0.96,
-      "volSurgeWk": 1.18,
+      "high52": 98.49,
+      "volx": 0.38,
+      "volSurgeWk": 0.43,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": true,
       "jeongbae": true,
-      "div10": 10.51,
-      "div50": 16.5,
-      "div200": 94.32,
-      "ret1m": -0.23,
-      "ret3m": 77.55,
-      "ret6m": 158.39,
-      "maxRise1m": 32.77,
-      "maxRise3m": 113.33,
-      "maxRise6m": 255.84,
+      "div10": 3.97,
+      "div50": 20.85,
+      "div200": 94.65,
+      "ret1m": 13.86,
+      "ret3m": 52.85,
+      "ret6m": 206.8,
+      "maxRise1m": 24.31,
+      "maxRise3m": 87.13,
+      "maxRise6m": 222.74,
       "brk60d": false,
-      "clsPos": 95.62,
-      "ma150Slope": 15.28,
+      "clsPos": 52.5,
+      "ma150Slope": 16.56,
       "ta": {
-        "price": 177.23,
-        "resistance": 185,
-        "support": 157,
-        "contraction": 0.77,
+        "price": 98.82,
+        "resistance": null,
+        "support": 85.14,
+        "contraction": 1.06,
         "trend": "up"
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0527,
-        "m3": 0.1427,
-        "m6": 0.0837,
-        "rankPct6": 43.88,
-        "count": 18
+        "m1": 0.0313,
+        "m3": 0.1447,
+        "m6": 0.2473,
+        "rankPct6": 12.95,
+        "count": 55
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
-      "nameKo": "세즐",
-      "nameEn": "SEZZLE INC"
+      "nameKo": "오루카 테라퓨틱스",
+      "nameEn": "ORUKA THERAPEUTICS INC"
     },
     {
-      "ticker": "LASR",
-      "price": 77.18000030517578,
-      "marketCap": "3.95B",
+      "ticker": "NVEC",
+      "price": 125.94000244140625,
+      "marketCap": "0.63B",
       "sector": "Technology",
       "industry": "Semiconductors",
       "rs": {
         "m1": {
-          "v": 0.30791395526971577,
-          "pct": 99.0294751976995
+          "v": 0.39934534148148343,
+          "pct": 99.31506849315068
         },
         "m3": {
-          "v": 0.166037127336538,
-          "pct": 72.9407514450867
+          "v": 0.39802036983257927,
+          "pct": 93.8723712835388
         },
         "m6": {
-          "v": 0.45842787179964045,
-          "pct": 89.25470332850941
+          "v": 0.9440689449763698,
+          "pct": 97.20406681190995
         }
       },
       "qualifiedBy": [
         "1mo"
       ],
-      "bestPct": 99.0294751976995,
-      "adr": 9.26,
-      "cyTrend": 0,
-      "nyTrend": 0,
-      "upCount": 32,
-      "downCount": 4,
-      "upDownRatio": 88.89,
-      "bbwthd": 0.28,
-      "bbwthdLow": 0.16,
-      "high52": 88.76,
-      "volx": 1.25,
-      "volSurgeWk": 1.35,
+      "bestPct": 99.31506849315068,
+      "adr": 7.97,
+      "cyTrend": null,
+      "nyTrend": null,
+      "upCount": null,
+      "downCount": null,
+      "upDownRatio": null,
+      "bbwthd": 0.68,
+      "bbwthdLow": 0.23,
+      "high52": 94.1,
+      "volx": 0.65,
+      "volSurgeWk": 0.85,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": true,
-      "jeongbae": false,
-      "div10": 12.28,
-      "div50": 12.03,
-      "div200": 39.48,
-      "ret1m": 30.79,
-      "ret3m": 16.6,
-      "ret6m": 45.84,
-      "maxRise1m": 39.22,
-      "maxRise3m": 53.05,
-      "maxRise6m": 77.08,
+      "jeongbae": true,
+      "div10": 4.5,
+      "div50": 21.11,
+      "div200": 61.81,
+      "ret1m": 39.93,
+      "ret3m": 39.8,
+      "ret6m": 94.41,
+      "maxRise1m": 62.47,
+      "maxRise3m": 67.74,
+      "maxRise6m": 115.67,
       "brk60d": false,
-      "clsPos": 68.64,
-      "ma150Slope": 7.41,
+      "clsPos": 5.12,
+      "ma150Slope": 7,
       "ta": {
-        "price": 77.18,
-        "resistance": 80.27,
-        "support": 65.91,
-        "contraction": 0.78,
+        "price": 125.94,
+        "resistance": 135,
+        "support": 97.53,
+        "contraction": 0.89,
         "trend": "up"
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0313,
-        "m3": 0.0559,
-        "m6": 0.4182,
-        "rankPct6": 3.6,
+        "m1": 0.0012,
+        "m3": 0.0379,
+        "m6": 0.4545,
+        "rankPct6": 2.88,
         "count": 42
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
-      "nameKo": "엔라이트",
-      "nameEn": "NLIGHT INC"
+      "nameKo": "NVE",
+      "nameEn": "NVE CORP"
     },
     {
-      "ticker": "W",
-      "price": 116.08000183105469,
-      "marketCap": "11.79B",
-      "sector": "Consumer Cyclical",
-      "industry": "Internet Retail",
-      "rs": {
-        "m1": {
-          "v": 0.24482575690139075,
-          "pct": 97.80733285406183
-        },
-        "m3": {
-          "v": 0.7534744287346522,
-          "pct": 99.02456647398844
-        },
-        "m6": {
-          "v": 0.28963447479278115,
-          "pct": 79.55861070911722
-        }
-      },
-      "qualifiedBy": [
-        "3mo"
-      ],
-      "bestPct": 99.02456647398844,
-      "adr": 5.44,
-      "cyTrend": 0.53,
-      "nyTrend": 0.58,
-      "upCount": 3,
-      "downCount": 3,
-      "upDownRatio": 50,
-      "bbwthd": 0.31,
-      "bbwthdLow": 0.15,
-      "high52": 96.75,
-      "volx": 4.43,
-      "volSurgeWk": 3.22,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": false,
-      "jeongbae": true,
-      "div10": 27.65,
-      "div50": 37.49,
-      "div200": 32.58,
-      "ret1m": 24.48,
-      "ret3m": 75.35,
-      "ret6m": 28.96,
-      "maxRise1m": 49.81,
-      "maxRise3m": 112.78,
-      "maxRise6m": 112.78,
-      "brk60d": true,
-      "clsPos": 78.41,
-      "ma150Slope": -1.56,
-      "ta": {
-        "price": 116.08,
-        "resistance": 119.98,
-        "support": 105.86,
-        "contraction": 1.26,
-        "trend": "mixed"
-      },
-      "ma150SlopeDir": "down",
-      "wrs": {
-        "m1": 0.1347,
-        "m3": 0.0213,
-        "m6": 0.2565,
-        "rankPct6": 11.51,
-        "count": 9
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "nameKo": "웨이페어",
-      "nameEn": "WAYFAIR INC"
-    },
-    {
-      "ticker": "MRVL",
-      "price": 218.58999633789062,
-      "marketCap": "173.92B",
+      "ticker": "AAOI",
+      "price": 135.6300048828125,
+      "marketCap": "9.97B",
       "sector": "Technology",
-      "industry": "Semiconductors",
+      "industry": "Communication Equipment",
       "rs": {
         "m1": {
-          "v": -0.05225866608059872,
-          "pct": 16.211358734723223
+          "v": 0.13100406065495987,
+          "pct": 85.54434030281183
         },
         "m3": {
-          "v": 0.36643911303780324,
-          "pct": 94.40028901734104
+          "v": -0.27963668067685227,
+          "pct": 1.9216823785351704
         },
         "m6": {
-          "v": 1.6673986776321834,
-          "pct": 99.02315484804632
+          "v": 2.050607460092826,
+          "pct": 99.31009440813362
         }
       },
       "qualifiedBy": [
         "6mo"
       ],
-      "bestPct": 99.02315484804632,
-      "adr": 7,
-      "cyTrend": -0.01,
-      "nyTrend": 1.08,
-      "upCount": 95,
-      "downCount": 7,
-      "upDownRatio": 93.14,
-      "bbwthd": 0.41,
-      "bbwthdLow": 0.19,
-      "high52": 66.28,
-      "volx": 1.47,
-      "volSurgeWk": 1.25,
+      "bestPct": 99.31009440813362,
+      "adr": 12.14,
+      "cyTrend": 0,
+      "nyTrend": 0,
+      "upCount": 11,
+      "downCount": 5,
+      "upDownRatio": 68.75,
+      "bbwthd": 0.58,
+      "bbwthdLow": 0.27,
+      "high52": 58.04,
+      "volx": 2.65,
+      "volSurgeWk": 1.69,
       "aboveMa150": true,
       "aboveMa50": false,
       "order": false,
       "jeongbae": false,
-      "div10": 13.56,
-      "div50": -8.96,
-      "div200": 60.52,
-      "ret1m": -5.23,
-      "ret3m": 36.64,
-      "ret6m": 166.74,
-      "maxRise1m": 54.47,
-      "maxRise3m": 108.84,
+      "div10": 25.91,
+      "div50": -1.87,
+      "div200": 46.8,
+      "ret1m": 13.1,
+      "ret3m": -27.96,
+      "ret6m": 205.06,
+      "maxRise1m": 96.49,
+      "maxRise3m": 207.42,
+      "maxRise6m": 468.26,
+      "brk60d": false,
+      "clsPos": 27.21,
+      "ma150Slope": 9.81,
+      "ta": {
+        "price": 135.63,
+        "resistance": 173.41,
+        "support": 132.63,
+        "contraction": 1.26,
+        "trend": "mixed"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.0276,
+        "m3": 0.1341,
+        "m6": 0.4749,
+        "rankPct6": 2.16,
+        "count": 13
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "어플라이드 옵토일렉트로닉스",
+      "nameEn": "APPLIED OPTOELECTRONICS INC"
+    },
+    {
+      "ticker": "IT",
+      "price": 185.60000610351562,
+      "marketCap": "11.67B",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "rs": {
+        "m1": {
+          "v": 0.39297507093721873,
+          "pct": 99.24297043979813
+        },
+        "m3": {
+          "v": 0.2133891079823634,
+          "pct": 79.29659173313995
+        },
+        "m6": {
+          "v": 0.17038721125282277,
+          "pct": 64.45170660856935
+        }
+      },
+      "qualifiedBy": [
+        "1mo"
+      ],
+      "bestPct": 99.24297043979813,
+      "adr": 5.79,
+      "cyTrend": 3.79,
+      "nyTrend": 2.73,
+      "upCount": 10,
+      "downCount": 13,
+      "upDownRatio": 43.48,
+      "bbwthd": 0.51,
+      "bbwthdLow": 0.11,
+      "high52": 69.81,
+      "volx": 0.77,
+      "volSurgeWk": 0.47,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": false,
+      "jeongbae": false,
+      "div10": 11.34,
+      "div50": 25.76,
+      "div200": 1.65,
+      "ret1m": 39.3,
+      "ret3m": 21.34,
+      "ret6m": 17.04,
+      "maxRise1m": 50.97,
+      "maxRise3m": 56.47,
+      "maxRise6m": 56.47,
+      "brk60d": false,
+      "clsPos": 15.44,
+      "ma150Slope": -6.9,
+      "ta": {
+        "price": 185.6,
+        "resistance": 240.25,
+        "support": 154.97,
+        "contraction": 1.94,
+        "trend": "mixed"
+      },
+      "ma150SlopeDir": "down",
+      "wrs": {
+        "m1": 0.0212,
+        "m3": 0.0981,
+        "m6": -0.0401,
+        "rankPct6": 79.14,
+        "count": 16
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "가트너",
+      "nameEn": "GARTNER INC"
+    },
+    {
+      "ticker": "PENG",
+      "price": 58.43000030517578,
+      "marketCap": "2.88B",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "rs": {
+        "m1": {
+          "v": -0.254243759500836,
+          "pct": 1.3338139870223502
+        },
+        "m3": {
+          "v": 0.32404257627341343,
+          "pct": 90.24655547498188
+        },
+        "m6": {
+          "v": 2.016520277419268,
+          "pct": 99.23747276688452
+        }
+      },
+      "qualifiedBy": [
+        "6mo"
+      ],
+      "bestPct": 99.23747276688452,
+      "adr": 10.28,
+      "cyTrend": 14.51,
+      "nyTrend": 19.03,
+      "upCount": 13,
+      "downCount": 2,
+      "upDownRatio": 86.67,
+      "bbwthd": 0.62,
+      "bbwthdLow": 0.25,
+      "high52": 65.02,
+      "volx": 0.57,
+      "volSurgeWk": 1.11,
+      "aboveMa150": true,
+      "aboveMa50": false,
+      "order": false,
+      "jeongbae": false,
+      "div10": 10.41,
+      "div50": -7.1,
+      "div200": 74.96,
+      "ret1m": -25.42,
+      "ret3m": 32.4,
+      "ret6m": 201.65,
+      "maxRise1m": 90.32,
+      "maxRise3m": 111.19,
+      "maxRise6m": 460.22,
+      "brk60d": false,
+      "clsPos": 55.77,
+      "ma150Slope": 15.4,
+      "ta": {
+        "price": 58.43,
+        "resistance": 73.24,
+        "support": 56.61,
+        "contraction": 0.66,
+        "trend": "mixed"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.0212,
+        "m3": 0.0981,
+        "m6": -0.0401,
+        "rankPct6": 79.14,
+        "count": 16
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "펭귄 솔루션스",
+      "nameEn": "PENGUIN SOLUTIONS INC"
+    },
+    {
+      "ticker": "ZBRA",
+      "price": 376.489990234375,
+      "marketCap": "17.23B",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "rs": {
+        "m1": {
+          "v": 0.3815133032883218,
+          "pct": 99.17087238644557
+        },
+        "m3": {
+          "v": 0.557095002640738,
+          "pct": 97.28063814358231
+        },
+        "m6": {
+          "v": 0.42275715056092283,
+          "pct": 87.54538852578068
+        }
+      },
+      "qualifiedBy": [
+        "1mo"
+      ],
+      "bestPct": 99.17087238644557,
+      "adr": 4.53,
+      "cyTrend": 4.91,
+      "nyTrend": 2.5,
+      "upCount": 14,
+      "downCount": 5,
+      "upDownRatio": 73.68,
+      "bbwthd": 0.58,
+      "bbwthdLow": 0.07,
+      "high52": 98.14,
+      "volx": 1.03,
+      "volSurgeWk": 0.52,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": false,
+      "jeongbae": true,
+      "div10": 18.22,
+      "div50": 42.24,
+      "div200": 51.87,
+      "ret1m": 38.15,
+      "ret3m": 55.71,
+      "ret6m": 42.28,
+      "maxRise1m": 53.26,
+      "maxRise3m": 81.08,
+      "maxRise6m": 92.73,
+      "brk60d": false,
+      "clsPos": 60.63,
+      "ma150Slope": 1.86,
+      "ta": {
+        "price": 376.49,
+        "resistance": 380.05,
+        "support": 360.57,
+        "contraction": 1.51,
+        "trend": "up"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.0276,
+        "m3": 0.1341,
+        "m6": 0.4749,
+        "rankPct6": 2.16,
+        "count": 13
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "지브라 테크놀로지스",
+      "nameEn": "ZEBRA TECHNOLOGIES"
+    },
+    {
+      "ticker": "ALNT",
+      "price": 112.80999755859375,
+      "marketCap": "1.89B",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "rs": {
+        "m1": {
+          "v": 0.24665709163156826,
+          "pct": 96.28695025234319
+        },
+        "m3": {
+          "v": 0.7926198347132487,
+          "pct": 99.1660623640319
+        },
+        "m6": {
+          "v": 0.6942164830033887,
+          "pct": 94.66230936819173
+        }
+      },
+      "qualifiedBy": [
+        "3mo"
+      ],
+      "bestPct": 99.1660623640319,
+      "adr": 6.28,
+      "cyTrend": 0,
+      "nyTrend": 0,
+      "upCount": 2,
+      "downCount": 18,
+      "upDownRatio": 10,
+      "bbwthd": 0.36,
+      "bbwthdLow": 0.13,
+      "high52": 96.39,
+      "volx": 1.73,
+      "volSurgeWk": 1.4,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": true,
+      "jeongbae": true,
+      "div10": 22,
+      "div50": 24.52,
+      "div200": 64.31,
+      "ret1m": 24.67,
+      "ret3m": 79.26,
+      "ret6m": 69.42,
+      "maxRise1m": 49.31,
+      "maxRise3m": 99.67,
+      "maxRise6m": 112.52,
+      "brk60d": false,
+      "clsPos": 39.93,
+      "ma150Slope": 6.81,
+      "ta": {
+        "price": 112.81,
+        "resistance": null,
+        "support": 89.54,
+        "contraction": 1.33,
+        "trend": "up"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": -0.0062,
+        "m3": 0.0459,
+        "m6": 0.2374,
+        "rankPct6": 14.39,
+        "count": 22
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "얼라이언트",
+      "nameEn": "ALLIENT INC"
+    },
+    {
+      "ticker": "SYRE",
+      "price": 104.91000366210938,
+      "marketCap": "9.12B",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "rs": {
+        "m1": {
+          "v": 0.0733579492024691,
+          "pct": 68.74549387166546
+        },
+        "m3": {
+          "v": 0.3980544027472327,
+          "pct": 93.94488759970994
+        },
+        "m6": {
+          "v": 1.8640458805071891,
+          "pct": 99.16485112563545
+        }
+      },
+      "qualifiedBy": [
+        "6mo"
+      ],
+      "bestPct": 99.16485112563545,
+      "adr": 6.46,
+      "cyTrend": 5.14,
+      "nyTrend": 2.7,
+      "upCount": 0,
+      "downCount": 9,
+      "upDownRatio": 0,
+      "bbwthd": 0.13,
+      "bbwthdLow": 0.11,
+      "high52": 97.01,
+      "volx": 0.55,
+      "volSurgeWk": 0.67,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": true,
+      "jeongbae": true,
+      "div10": 3.85,
+      "div50": 15.82,
+      "div200": 92.88,
+      "ret1m": 7.34,
+      "ret3m": 39.81,
+      "ret6m": 186.4,
+      "maxRise1m": 17.07,
+      "maxRise3m": 67.22,
+      "maxRise6m": 209.32,
+      "brk60d": false,
+      "clsPos": 41.91,
+      "ma150Slope": 16.38,
+      "ta": {
+        "price": 104.91,
+        "resistance": null,
+        "support": 92.37,
+        "contraction": 0.98,
+        "trend": "up"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.0313,
+        "m3": 0.1447,
+        "m6": 0.2473,
+        "rankPct6": 12.95,
+        "count": 55
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "스파이어 테라퓨틱스",
+      "nameEn": "SPYRE THERAPEUTICS INC"
+    },
+    {
+      "ticker": "MRVL",
+      "price": 218.72000122070312,
+      "marketCap": "188.97B",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "rs": {
+        "m1": {
+          "v": -0.07247358684885329,
+          "pct": 14.816149963950972
+        },
+        "m3": {
+          "v": 0.32993289208316967,
+          "pct": 90.82668600435098
+        },
+        "m6": {
+          "v": 1.7844226935544576,
+          "pct": 99.09222948438635
+        }
+      },
+      "qualifiedBy": [
+        "6mo"
+      ],
+      "bestPct": 99.09222948438635,
+      "adr": 7.45,
+      "cyTrend": -0.01,
+      "nyTrend": 1.08,
+      "upCount": 33,
+      "downCount": 3,
+      "upDownRatio": 91.67,
+      "bbwthd": 0.32,
+      "bbwthdLow": 0.19,
+      "high52": 66.32,
+      "volx": 0.89,
+      "volSurgeWk": 0.84,
+      "aboveMa150": true,
+      "aboveMa50": false,
+      "order": false,
+      "jeongbae": false,
+      "div10": 12.13,
+      "div50": -9.19,
+      "div200": 58.41,
+      "ret1m": -7.25,
+      "ret3m": 32.99,
+      "ret6m": 178.44,
+      "maxRise1m": 42.42,
+      "maxRise3m": 102.57,
       "maxRise6m": 338.66,
       "brk60d": false,
-      "clsPos": 72.19,
-      "ma150Slope": 11.07,
+      "clsPos": 80.73,
+      "ma150Slope": 10.58,
       "ta": {
-        "price": 218.59,
+        "price": 218.72,
         "resistance": 300,
         "support": 177.95,
         "contraction": 1.08,
@@ -8499,1682 +7738,1827 @@ window.TEAM2_DATA = {
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0313,
-        "m3": 0.0559,
-        "m6": 0.4182,
-        "rankPct6": 3.6,
+        "m1": 0.0012,
+        "m3": 0.0379,
+        "m6": 0.4545,
+        "rankPct6": 2.88,
         "count": 42
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
       "nameKo": "마벨 테크놀로지 그룹",
       "nameEn": "MARVELL TECHNOLOGY INC"
     },
     {
-      "ticker": "PLPC",
-      "price": 423.6000061035156,
-      "marketCap": "1.75B",
-      "sector": "Industrials",
-      "industry": "Electrical Equipment & Parts",
+      "ticker": "PLTR",
+      "price": 172.00999450683594,
+      "marketCap": "374.68B",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
       "rs": {
         "m1": {
-          "v": 0.2981919152638213,
-          "pct": 98.95758447160317
+          "v": 0.35665267974432774,
+          "pct": 99.02667627974044
         },
         "m3": {
-          "v": 0.22745824589055802,
-          "pct": 83.27312138728324
+          "v": 0.26477937137379365,
+          "pct": 84.95286439448876
         },
         "m6": {
-          "v": 0.5616558461210633,
-          "pct": 92.29377713458756
+          "v": 0.3089566221238385,
+          "pct": 81.08206245461147
         }
       },
       "qualifiedBy": [
         "1mo"
       ],
-      "bestPct": 98.95758447160317,
-      "adr": 6.31,
-      "cyTrend": -2.79,
-      "nyTrend": 0.44,
-      "upCount": 1,
-      "downCount": 3,
-      "upDownRatio": 25,
-      "bbwthd": 0.35,
-      "bbwthdLow": 0.11,
-      "high52": 99.44,
-      "volx": 1.62,
-      "volSurgeWk": 0.88,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": true,
-      "jeongbae": false,
-      "div10": 25.96,
-      "div50": 17.29,
-      "div200": 49.12,
-      "ret1m": 29.82,
-      "ret3m": 22.75,
-      "ret6m": 56.17,
-      "maxRise1m": 53.19,
-      "maxRise3m": 53.19,
-      "maxRise6m": 91.29,
-      "brk60d": true,
-      "clsPos": 96.13,
-      "ma150Slope": 5.42,
-      "ta": {
-        "price": 423.6,
-        "resistance": null,
-        "support": 349.49,
-        "contraction": 1.31,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": -0.0626,
-        "m3": -0.1095,
-        "m6": 0.3419,
-        "rankPct6": 6.47,
-        "count": 12
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "nameKo": "프리폼드 라인 프라덕츠",
-      "nameEn": "PREFORMED LINE PRODUCTS CO"
-    },
-    {
-      "ticker": "SNDK",
-      "price": 1427.6199951171875,
-      "marketCap": "190.74B",
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "rs": {
-        "m1": {
-          "v": -0.11750013092167805,
-          "pct": 5.212077641984184
-        },
-        "m3": {
-          "v": 0.06541989069461177,
-          "pct": 46.278901734104046
-        },
-        "m6": {
-          "v": 1.6357358328553575,
-          "pct": 98.87843704775688
-        }
-      },
-      "qualifiedBy": [
-        "6mo"
-      ],
-      "bestPct": 98.87843704775688,
-      "adr": 11.43,
-      "cyTrend": 0.99,
-      "nyTrend": 12.74,
-      "upCount": 18,
+      "bestPct": 99.02667627974044,
+      "adr": 5.28,
+      "cyTrend": 6.93,
+      "nyTrend": 8.08,
+      "upCount": 10,
       "downCount": 0,
       "upDownRatio": 100,
-      "bbwthd": 0.67,
-      "bbwthdLow": 0.35,
-      "high52": 60.64,
-      "volx": 0.85,
-      "volSurgeWk": 0.62,
-      "aboveMa150": true,
-      "aboveMa50": false,
-      "order": false,
-      "jeongbae": false,
-      "div10": 7.77,
-      "div50": -16.26,
-      "div200": 66.91,
-      "ret1m": -11.75,
-      "ret3m": 6.54,
-      "ret6m": 163.57,
-      "maxRise1m": 95.61,
-      "maxRise3m": 135.87,
-      "maxRise6m": 355.39,
-      "brk60d": false,
-      "clsPos": 82.18,
-      "ma150Slope": 18.54,
-      "ta": {
-        "price": 1427.62,
-        "resistance": 1600,
-        "support": 1325.03,
-        "contraction": 1.07,
-        "trend": "mixed"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.0507,
-        "m3": 0.3844,
-        "m6": 1.3893,
-        "rankPct6": 0.72,
-        "count": 8
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "nameKo": "샌디스크",
-      "nameEn": "SANDISK CORP"
-    },
-    {
-      "ticker": "HRI",
-      "price": 170.8000030517578,
-      "marketCap": "5.48B",
-      "sector": "Industrials",
-      "industry": "Rental & Leasing Services",
-      "rs": {
-        "m1": {
-          "v": 0.28798734835708256,
-          "pct": 98.8138030194105
-        },
-        "m3": {
-          "v": 0.3016606784839519,
-          "pct": 91.14884393063583
-        },
-        "m6": {
-          "v": -0.0477015750479933,
-          "pct": 23.552821997105646
-        }
-      },
-      "qualifiedBy": [
-        "1mo"
-      ],
-      "bestPct": 98.8138030194105,
-      "adr": 5.96,
-      "cyTrend": 20.83,
-      "nyTrend": 2.76,
-      "upCount": 5,
-      "downCount": 7,
-      "upDownRatio": 41.67,
-      "bbwthd": 0.21,
-      "bbwthdLow": 0.11,
-      "high52": 91.57,
-      "volx": 1.09,
-      "volSurgeWk": 0.74,
+      "bbwthd": 0.44,
+      "bbwthdLow": 0.1,
+      "high52": 82.89,
+      "volx": 2.01,
+      "volSurgeWk": 0.98,
       "aboveMa150": true,
       "aboveMa50": true,
-      "order": true,
-      "jeongbae": true,
-      "div10": 9.56,
-      "div50": 17.39,
-      "div200": 24.2,
-      "ret1m": 28.8,
-      "ret3m": 30.17,
-      "ret6m": -4.77,
-      "maxRise1m": 30.97,
-      "maxRise3m": 38.86,
-      "maxRise6m": 111.95,
+      "order": false,
+      "jeongbae": false,
+      "div10": 23.04,
+      "div50": 29.72,
+      "div200": 12.96,
+      "ret1m": 35.67,
+      "ret3m": 26.48,
+      "ret6m": 30.9,
+      "maxRise1m": 46.25,
+      "maxRise3m": 62.09,
+      "maxRise6m": 62.09,
       "brk60d": true,
-      "clsPos": 82.24,
-      "ma150Slope": 0.33,
+      "clsPos": 96.78,
+      "ma150Slope": -4.46,
       "ta": {
-        "price": 170.8,
-        "resistance": 172.02,
-        "support": 154.4,
-        "contraction": 1.56,
-        "trend": "up"
+        "price": 172.01,
+        "resistance": 185.75,
+        "support": 170.82,
+        "contraction": 1.29,
+        "trend": "mixed"
       },
-      "ma150SlopeDir": "up",
+      "ma150SlopeDir": "down",
       "wrs": {
-        "m1": 0.0719,
-        "m3": 0.1318,
-        "m6": 0.1936,
-        "rankPct6": 16.55,
-        "count": 11
+        "m1": 0.2357,
+        "m3": 0.237,
+        "m6": 0.3311,
+        "rankPct6": 7.91,
+        "count": 33
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
-      "nameKo": "허크 홀딩스",
-      "nameEn": "HERC HOLDINGS INC"
+      "nameKo": "팔란티어 테크",
+      "nameEn": "PALANTIR TECH INC"
     },
     {
-      "ticker": "GH",
-      "price": 159.7899932861328,
-      "marketCap": "21.31B",
-      "sector": "Healthcare",
-      "industry": "Diagnostics & Research",
+      "ticker": "ELF",
+      "price": 98.48999786376953,
+      "marketCap": "5.44B",
+      "sector": "Consumer Defensive",
+      "industry": "Household & Personal Products",
       "rs": {
         "m1": {
-          "v": -0.019211913319362655,
-          "pct": 28.792235801581594
+          "v": 0.28325730115660624,
+          "pct": 97.65681326604182
         },
         "m3": {
-          "v": 0.7319530629339032,
-          "pct": 98.80780346820809
+          "v": 0.7694933189682498,
+          "pct": 99.02102973168962
         },
         "m6": {
-          "v": 0.5213747990410338,
-          "pct": 91.20839363241679
+          "v": 0.20846623145729487,
+          "pct": 69.89832970225127
         }
       },
       "qualifiedBy": [
         "3mo"
       ],
-      "bestPct": 98.80780346820809,
-      "adr": 5.3,
-      "cyTrend": 2.18,
-      "nyTrend": 12.46,
-      "upCount": 3,
+      "bestPct": 99.02102973168962,
+      "adr": 5.77,
+      "cyTrend": 0.94,
+      "nyTrend": 1.02,
+      "upCount": 13,
       "downCount": 6,
-      "upDownRatio": 33.33,
-      "bbwthd": 0.17,
-      "bbwthdLow": 0.09,
-      "high52": 90.49,
-      "volx": 0.72,
-      "volSurgeWk": 0.56,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": true,
-      "jeongbae": true,
-      "div10": 5.51,
-      "div50": 11.1,
-      "div200": 47.59,
-      "ret1m": -1.92,
-      "ret3m": 73.2,
-      "ret6m": 52.14,
-      "maxRise1m": 25.36,
-      "maxRise3m": 98.25,
-      "maxRise6m": 136.86,
-      "brk60d": false,
-      "clsPos": 45.94,
-      "ma150Slope": 6.5,
-      "ta": {
-        "price": 159.79,
-        "resistance": 174.08,
-        "support": 152.64,
-        "contraction": 0.99,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.0535,
-        "m3": 0.2075,
-        "m6": 0.1075,
-        "rankPct6": 32.37,
-        "count": 22
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "nameKo": "가단트 헬스",
-      "nameEn": "GUARDANT HEALTH INC"
-    },
-    {
-      "ticker": "CSW",
-      "price": 349.30999755859375,
-      "marketCap": "5.60B",
-      "sector": "Industrials",
-      "industry": "Specialty Industrial Machinery",
-      "rs": {
-        "m1": {
-          "v": 0.2876834659732536,
-          "pct": 98.74191229331416
-        },
-        "m3": {
-          "v": 0.25880148383463325,
-          "pct": 86.74132947976878
-        },
-        "m6": {
-          "v": 0.11156926677559463,
-          "pct": 55.31837916063675
-        }
-      },
-      "qualifiedBy": [
-        "1mo"
-      ],
-      "bestPct": 98.74191229331416,
-      "adr": 4.77,
-      "cyTrend": 6.64,
-      "nyTrend": 1.38,
-      "upCount": 12,
-      "downCount": 3,
-      "upDownRatio": 80,
-      "bbwthd": 0.3,
-      "bbwthdLow": 0.07,
-      "high52": 99.6,
-      "volx": 1.23,
+      "upDownRatio": 68.42,
+      "bbwthd": 0.33,
+      "bbwthdLow": 0.16,
+      "high52": 65.23,
+      "volx": 1.46,
       "volSurgeWk": 0.84,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": false,
       "jeongbae": false,
-      "div10": 14.52,
-      "div50": 23.68,
-      "div200": 24.38,
-      "ret1m": 28.77,
-      "ret3m": 25.88,
-      "ret6m": 11.16,
-      "maxRise1m": 32.04,
-      "maxRise3m": 39.61,
-      "maxRise6m": 41.36,
+      "div10": 14.28,
+      "div50": 39.14,
+      "div200": 28.93,
+      "ret1m": 28.33,
+      "ret3m": 76.95,
+      "ret6m": 20.85,
+      "maxRise1m": 38.58,
+      "maxRise3m": 103.79,
+      "maxRise6m": 103.79,
       "brk60d": true,
-      "clsPos": 86.03,
-      "ma150Slope": -0.42,
+      "clsPos": 87.71,
+      "ma150Slope": 0.45,
       "ta": {
-        "price": 349.31,
-        "resistance": 377.38,
-        "support": 346.96,
-        "contraction": 1.44,
-        "trend": "up"
+        "price": 98.49,
+        "resistance": 114.61,
+        "support": 94,
+        "contraction": 1.31,
+        "trend": "mixed"
       },
-      "ma150SlopeDir": "down",
+      "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0365,
-        "m3": 0.0568,
-        "m6": 0.0963,
-        "rankPct6": 39.57,
-        "count": 36
+        "m1": 0.0144,
+        "m3": 0.0645,
+        "m6": -0.0755,
+        "rankPct6": 85.61,
+        "count": 10
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
-      "nameKo": "CSW 인더스트리얼스",
-      "nameEn": "CSW INDUSTRIALS INC"
+      "nameKo": "엘프 뷰티",
+      "nameEn": "E L F BEAUTY INC"
     },
     {
-      "ticker": "HPE-C",
-      "price": 135.6699981689453,
-      "marketCap": "N/A",
-      "sector": "N/A",
-      "industry": "N/A",
+      "ticker": "W",
+      "price": 106.5999984741211,
+      "marketCap": "14.25B",
+      "sector": "Consumer Cyclical",
+      "industry": "Internet Retail",
       "rs": {
         "m1": {
-          "v": 0.2102586977310752,
-          "pct": 96.29762760603882
+          "v": 0.1946654092088832,
+          "pct": 93.11463590483056
         },
         "m3": {
-          "v": 0.7250961691160086,
-          "pct": 98.73554913294798
+          "v": 0.7622746820334196,
+          "pct": 98.94851341551849
         },
         "m6": {
-          "v": 1.1011990604325181,
-          "pct": 97.72069464544138
+          "v": 0.2938463316400318,
+          "pct": 79.48438634713145
         }
       },
       "qualifiedBy": [
         "3mo"
       ],
-      "bestPct": 98.73554913294798,
-      "adr": 4.68,
-      "cyTrend": null,
-      "nyTrend": null,
-      "upCount": null,
-      "downCount": null,
-      "upDownRatio": null,
-      "bbwthd": 0.17,
-      "bbwthdLow": 0.16,
-      "high52": 82.98,
-      "volx": 2.04,
-      "volSurgeWk": 3.08,
+      "bestPct": 98.94851341551849,
+      "adr": 5.49,
+      "cyTrend": 1.21,
+      "nyTrend": 2,
+      "upCount": 8,
+      "downCount": 5,
+      "upDownRatio": 61.54,
+      "bbwthd": 0.4,
+      "bbwthdLow": 0.15,
+      "high52": 88.85,
+      "volx": 0.67,
+      "volSurgeWk": 0.35,
       "aboveMa150": true,
       "aboveMa50": true,
-      "order": true,
+      "order": false,
       "jeongbae": true,
-      "div10": 9.17,
-      "div50": 12.62,
-      "div200": 72.4,
-      "ret1m": 21.03,
-      "ret3m": 72.51,
-      "ret6m": 110.12,
-      "maxRise1m": 21.33,
-      "maxRise3m": 107.86,
-      "maxRise6m": 196.58,
+      "div10": 9.18,
+      "div50": 23.16,
+      "div200": 21.27,
+      "ret1m": 19.47,
+      "ret3m": 76.23,
+      "ret6m": 29.38,
+      "maxRise1m": 49.81,
+      "maxRise3m": 112.78,
+      "maxRise6m": 112.78,
       "brk60d": false,
-      "clsPos": 78,
-      "ma150Slope": null,
-      "ta": null,
+      "clsPos": 42.66,
+      "ma150Slope": -1.01,
+      "ta": {
+        "price": 106.6,
+        "resistance": 107.89,
+        "support": 105.86,
+        "contraction": 1.56,
+        "trend": "mixed"
+      },
+      "ma150SlopeDir": "down",
+      "wrs": {
+        "m1": 0.1123,
+        "m3": 0.0426,
+        "m6": 0.3015,
+        "rankPct6": 10.07,
+        "count": 9
+      },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      }
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "웨이페어",
+      "nameEn": "WAYFAIR INC"
     },
     {
-      "ticker": "CDNL",
-      "price": 63.93000030517578,
-      "marketCap": "1.25B",
+      "ticker": "PLPC",
+      "price": 466.82000732421875,
+      "marketCap": "2.25B",
       "sector": "Industrials",
-      "industry": "Engineering & Construction",
+      "industry": "Electrical Equipment & Parts",
       "rs": {
         "m1": {
-          "v": -0.15715225324641557,
-          "pct": 2.839683680805176
+          "v": 0.3476716636823656,
+          "pct": 98.88248017303532
         },
         "m3": {
-          "v": 0.24619885489181392,
-          "pct": 85.58526011560693
+          "v": 0.3567827393430733,
+          "pct": 92.05946337926034
         },
         "m6": {
-          "v": 1.5070588354970895,
-          "pct": 98.73371924746743
+          "v": 0.6752257817789237,
+          "pct": 94.15395787944809
         }
       },
       "qualifiedBy": [
-        "6mo"
+        "1mo"
       ],
-      "bestPct": 98.73371924746743,
-      "adr": 8.61,
-      "cyTrend": 7.34,
-      "nyTrend": -3.33,
-      "upCount": 0,
-      "downCount": 0,
-      "upDownRatio": 0,
-      "bbwthd": 0.26,
-      "bbwthdLow": 0.22,
-      "high52": 66.32,
-      "volx": 0.75,
-      "volSurgeWk": 1.02,
+      "bestPct": 98.88248017303532,
+      "adr": 6.81,
+      "cyTrend": 36.1,
+      "nyTrend": 26.31,
+      "upCount": 1,
+      "downCount": 3,
+      "upDownRatio": 25,
+      "bbwthd": 0.63,
+      "bbwthdLow": 0.11,
+      "high52": 93.93,
+      "volx": 1.34,
+      "volSurgeWk": 0.77,
       "aboveMa150": true,
-      "aboveMa50": false,
-      "order": false,
-      "jeongbae": true,
-      "div10": 0.06,
-      "div50": -6.76,
-      "div200": 40.76,
-      "ret1m": -15.72,
-      "ret3m": 24.62,
-      "ret6m": 150.71,
-      "maxRise1m": 37.71,
-      "maxRise3m": 107,
-      "maxRise6m": 302.09,
+      "aboveMa50": true,
+      "order": true,
+      "jeongbae": false,
+      "div10": 22.9,
+      "div50": 27.25,
+      "div200": 62.3,
+      "ret1m": 34.77,
+      "ret3m": 35.68,
+      "ret6m": 67.52,
+      "maxRise1m": 78.73,
+      "maxRise3m": 78.73,
+      "maxRise6m": 123.17,
       "brk60d": false,
-      "clsPos": 40.89,
-      "ma150Slope": null,
+      "clsPos": 76.89,
+      "ma150Slope": 6.2,
       "ta": {
-        "price": 63.93,
-        "resistance": 66.87,
-        "support": 47.68,
-        "contraction": 0.82,
-        "trend": null
+        "price": 466.82,
+        "resistance": null,
+        "support": 349.49,
+        "contraction": 1.93,
+        "trend": "up"
       },
-      "ma150SlopeDir": null,
+      "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0208,
-        "m3": -0.0891,
-        "m6": 0.1887,
-        "rankPct6": 17.27,
-        "count": 24
+        "m1": -0.0707,
+        "m3": -0.1504,
+        "m6": 0.2685,
+        "rankPct6": 12.23,
+        "count": 12
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
-      "nameKo": "CARDINAL INFRASTRUCTURE GROUP INC",
-      "nameEn": "CARDINAL INFRASTRUCTURE GROUP INC"
+      "nameKo": "프리폼드 라인 프라덕츠",
+      "nameEn": "PREFORMED LINE PRODUCTS CO"
     },
     {
-      "ticker": "DAVE",
-      "price": 429.260009765625,
-      "marketCap": "5.07B",
+      "ticker": "ALAB",
+      "price": 334.1700134277344,
+      "marketCap": "56.82B",
       "sector": "Technology",
-      "industry": "Software - Application",
+      "industry": "Semiconductors",
       "rs": {
         "m1": {
-          "v": 0.11798109000595393,
-          "pct": 84.57943925233646
+          "v": -0.19081286185447585,
+          "pct": 2.9920692141312184
         },
         "m3": {
-          "v": 0.7220684495051743,
-          "pct": 98.66329479768787
+          "v": 0.634722710209378,
+          "pct": 98.07831762146483
         },
         "m6": {
-          "v": 1.3136959660969163,
-          "pct": 98.37192474674384
+          "v": 1.5840550147042236,
+          "pct": 98.87436456063907
         }
       },
       "qualifiedBy": [
         "3mo",
         "6mo"
       ],
-      "bestPct": 98.66329479768787,
-      "adr": 6.15,
-      "cyTrend": 0.42,
-      "nyTrend": 2.88,
-      "upCount": 32,
+      "bestPct": 98.87436456063907,
+      "adr": 9.9,
+      "cyTrend": 14.54,
+      "nyTrend": 28.28,
+      "upCount": 14,
       "downCount": 0,
       "upDownRatio": 100,
-      "bbwthd": 0.23,
-      "bbwthdLow": 0.22,
-      "high52": 93.67,
-      "volx": 0.82,
-      "volSurgeWk": 0.8,
+      "bbwthd": 0.39,
+      "bbwthdLow": 0.25,
+      "high52": 66.9,
+      "volx": 0.74,
+      "volSurgeWk": 0.52,
       "aboveMa150": true,
-      "aboveMa50": true,
-      "order": true,
-      "jeongbae": true,
-      "div10": 7.18,
-      "div50": 24.09,
-      "div200": 74.51,
-      "ret1m": 11.8,
-      "ret3m": 72.21,
-      "ret6m": 131.37,
-      "maxRise1m": 25.89,
-      "maxRise3m": 103.84,
-      "maxRise6m": 186.91,
-      "brk60d": false,
-      "clsPos": 89.85,
-      "ma150Slope": 11.73,
-      "ta": {
-        "price": 429.26,
-        "resistance": 458.25,
-        "support": 242.01,
-        "contraction": 1.14,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.0976,
-        "m3": 0.1557,
-        "m6": 0.1348,
-        "rankPct6": 23.74,
-        "count": 50
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "nameKo": "데이브",
-      "nameEn": "DAVE INC"
-    },
-    {
-      "ticker": "NBIS",
-      "price": 225.74000549316406,
-      "marketCap": "53.97B",
-      "sector": "Communication Services",
-      "industry": "Internet Content & Information",
-      "rs": {
-        "m1": {
-          "v": 0.1565141793618685,
-          "pct": 91.3371675053918
-        },
-        "m3": {
-          "v": 0.2217351316412212,
-          "pct": 82.69508670520231
-        },
-        "m6": {
-          "v": 1.4593093282666862,
-          "pct": 98.66136034732273
-        }
-      },
-      "qualifiedBy": [
-        "6mo"
-      ],
-      "bestPct": 98.66136034732273,
-      "adr": 12.24,
-      "cyTrend": 0,
-      "nyTrend": 0,
-      "upCount": 3,
-      "downCount": 4,
-      "upDownRatio": 42.86,
-      "bbwthd": 0.43,
-      "bbwthdLow": 0.37,
-      "high52": 75.28,
-      "volx": 1.09,
-      "volSurgeWk": 0.63,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": true,
+      "aboveMa50": false,
+      "order": false,
       "jeongbae": false,
-      "div10": 15.77,
-      "div50": 0.68,
-      "div200": 58.85,
-      "ret1m": 15.65,
-      "ret3m": 22.17,
-      "ret6m": 145.93,
-      "maxRise1m": 57.96,
-      "maxRise3m": 105.67,
-      "maxRise6m": 276.28,
+      "div10": 8.84,
+      "div50": -6.61,
+      "div200": 57.7,
+      "ret1m": -19.08,
+      "ret3m": 63.47,
+      "ret6m": 158.41,
+      "maxRise1m": 64.96,
+      "maxRise3m": 144.18,
+      "maxRise6m": 410.24,
       "brk60d": false,
-      "clsPos": 73.3,
-      "ma150Slope": 9.97,
+      "clsPos": 23.63,
+      "ma150Slope": 10,
       "ta": {
-        "price": 225.74,
-        "resistance": 230.3,
-        "support": 200.3,
-        "contraction": 1.15,
-        "trend": "up"
+        "price": 334.17,
+        "resistance": 342.3,
+        "support": 303,
+        "contraction": 1.09,
+        "trend": "mixed"
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0195,
-        "m3": -0.047,
-        "m6": 0.1439,
-        "rankPct6": 21.58,
-        "count": 8
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "nameKo": "네비우스 그룹",
-      "nameEn": "NEBIUS GROUP N V"
-    },
-    {
-      "ticker": "TWST",
-      "price": 99.44499969482422,
-      "marketCap": "6.29B",
-      "sector": "Healthcare",
-      "industry": "Diagnostics & Research",
-      "rs": {
-        "m1": {
-          "v": 0.09244206336780907,
-          "pct": 77.03091301222142
-        },
-        "m3": {
-          "v": 0.6987529576284496,
-          "pct": 98.59104046242774
-        },
-        "m6": {
-          "v": 1.0270076826570074,
-          "pct": 97.28654124457307
-        }
-      },
-      "qualifiedBy": [
-        "3mo"
-      ],
-      "bestPct": 98.59104046242774,
-      "adr": 8,
-      "cyTrend": 32.76,
-      "nyTrend": 11.35,
-      "upCount": 0,
-      "downCount": 0,
-      "upDownRatio": 0,
-      "bbwthd": 0.17,
-      "bbwthdLow": 0.14,
-      "high52": 93.31,
-      "volx": 0.98,
-      "volSurgeWk": 0.69,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": true,
-      "jeongbae": true,
-      "div10": 7.99,
-      "div50": 16.63,
-      "div200": 86.67,
-      "ret1m": 9.24,
-      "ret3m": 69.88,
-      "ret6m": 102.7,
-      "maxRise1m": 32.25,
-      "maxRise3m": 122.04,
-      "maxRise6m": 156.7,
-      "brk60d": false,
-      "clsPos": 6.49,
-      "ma150Slope": 15.15,
-      "ta": {
-        "price": 99.44,
-        "resistance": 105.47,
-        "support": 87.57,
-        "contraction": 1.24,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.0535,
-        "m3": 0.2075,
-        "m6": 0.1075,
-        "rankPct6": 32.37,
-        "count": 22
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "nameKo": "트위스트 바이오사이언스",
-      "nameEn": "TWIST BIOSCIENCE CORPORATION"
-    },
-    {
-      "ticker": "AMD",
-      "price": 518.5800170898438,
-      "marketCap": "790.25B",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "rs": {
-        "m1": {
-          "v": 0.004785863107451254,
-          "pct": 40.3666427030913
-        },
-        "m3": {
-          "v": 0.2695980706518633,
-          "pct": 87.89739884393065
-        },
-        "m6": {
-          "v": 1.4281500178187099,
-          "pct": 98.589001447178
-        }
-      },
-      "qualifiedBy": [
-        "6mo"
-      ],
-      "bestPct": 98.589001447178,
-      "adr": 6.58,
-      "cyTrend": 1.02,
-      "nyTrend": 5.27,
-      "upCount": 19,
-      "downCount": 4,
-      "upDownRatio": 82.61,
-      "bbwthd": 0.27,
-      "bbwthdLow": 0.14,
-      "high52": 88.69,
-      "volx": 1.36,
-      "volSurgeWk": 1.19,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": true,
-      "jeongbae": true,
-      "div10": 4.6,
-      "div50": 0.83,
-      "div200": 64.86,
-      "ret1m": 0.48,
-      "ret3m": 26.96,
-      "ret6m": 142.82,
-      "maxRise1m": 35.41,
-      "maxRise3m": 48.65,
-      "maxRise6m": 210.66,
-      "brk60d": false,
-      "clsPos": 58.65,
-      "ma150Slope": 13.07,
-      "ta": {
-        "price": 518.58,
-        "resistance": 546.44,
-        "support": 498.15,
-        "contraction": 1.23,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.0313,
-        "m3": 0.0559,
-        "m6": 0.4182,
-        "rankPct6": 3.6,
+        "m1": 0.0012,
+        "m3": 0.0379,
+        "m6": 0.4545,
+        "rankPct6": 2.88,
         "count": 42
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
-      "nameKo": "AMD",
-      "nameEn": "ADVANCED MICRO DEVICES INC"
+      "nameKo": "아스테라 랩스",
+      "nameEn": "ASTERA LABS INC"
     },
     {
-      "ticker": "CTRN",
-      "price": 72.63999938964844,
-      "marketCap": "0.58B",
+      "ticker": "VAC",
+      "price": 123.47000122070312,
+      "marketCap": "4.28B",
       "sector": "Consumer Cyclical",
-      "industry": "Apparel Retail",
+      "industry": "Resorts & Casinos",
       "rs": {
         "m1": {
-          "v": 0.2737156048479231,
-          "pct": 98.52624011502516
+          "v": 0.2559251783839559,
+          "pct": 96.71953857245855
         },
         "m3": {
-          "v": 0.5399618869917928,
-          "pct": 97.72398843930635
+          "v": 0.7221873530787042,
+          "pct": 98.80348078317621
         },
         "m6": {
-          "v": 0.598239783724714,
-          "pct": 93.3068017366136
+          "v": 1.3393309599548944,
+          "pct": 98.5838779956427
         }
       },
       "qualifiedBy": [
-        "1mo"
+        "3mo",
+        "6mo"
       ],
-      "bestPct": 98.52624011502516,
-      "adr": 4.46,
-      "cyTrend": 46.73,
-      "nyTrend": -3.85,
-      "upCount": 4,
-      "downCount": 3,
-      "upDownRatio": 57.14,
-      "bbwthd": 0.26,
-      "bbwthdLow": 0.16,
-      "high52": 99.06,
-      "volx": 0.72,
-      "volSurgeWk": 0.6,
+      "bestPct": 98.80348078317621,
+      "adr": 4.29,
+      "cyTrend": 0.49,
+      "nyTrend": 1.05,
+      "upCount": 7,
+      "downCount": 5,
+      "upDownRatio": 58.33,
+      "bbwthd": 0.33,
+      "bbwthdLow": 0.08,
+      "high52": 94.22,
+      "volx": 2.33,
+      "volSurgeWk": 1.51,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": true,
       "jeongbae": true,
-      "div10": 9.26,
-      "div50": 27.89,
-      "div200": 54.36,
-      "ret1m": 27.37,
-      "ret3m": 54,
-      "ret6m": 59.82,
-      "maxRise1m": 33.42,
-      "maxRise3m": 103.41,
-      "maxRise6m": 103.41,
-      "brk60d": true,
-      "clsPos": 80.7,
-      "ma150Slope": 5.83,
-      "ta": {
-        "price": 72.64,
-        "resistance": null,
-        "support": 61.01,
-        "contraction": 0.99,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.0819,
-        "m3": 0.0841,
-        "m6": 0.1151,
-        "rankPct6": 29.5,
-        "count": 9
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "nameKo": "시티 트렌즈",
-      "nameEn": "CITI TRENDS INC"
-    },
-    {
-      "ticker": "QLYS",
-      "price": 161.05999755859375,
-      "marketCap": "5.45B",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "rs": {
-        "m1": {
-          "v": 0.022278606403345138,
-          "pct": 48.49029475197699
-        },
-        "m3": {
-          "v": 0.6959039221690906,
-          "pct": 98.51878612716763
-        },
-        "m6": {
-          "v": 0.420407429451818,
-          "pct": 87.87988422575977
-        }
-      },
-      "qualifiedBy": [
-        "3mo"
-      ],
-      "bestPct": 98.51878612716763,
-      "adr": 6.1,
-      "cyTrend": 0,
-      "nyTrend": 0,
-      "upCount": 60,
-      "downCount": 16,
-      "upDownRatio": 78.95,
-      "bbwthd": 0.28,
-      "bbwthdLow": 0.12,
-      "high52": 95.95,
-      "volx": 1.48,
-      "volSurgeWk": 1.26,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": false,
-      "jeongbae": true,
-      "div10": 13.46,
-      "div50": 23.83,
-      "div200": 35.19,
-      "ret1m": 2.23,
-      "ret3m": 69.59,
-      "ret6m": 42.04,
-      "maxRise1m": 28.14,
-      "maxRise3m": 98.35,
-      "maxRise6m": 125.29,
+      "div10": 18.11,
+      "div50": 27.15,
+      "div200": 74.87,
+      "ret1m": 25.59,
+      "ret3m": 72.22,
+      "ret6m": 133.93,
+      "maxRise1m": 41.61,
+      "maxRise3m": 93.73,
+      "maxRise6m": 148.06,
       "brk60d": false,
-      "clsPos": 84.76,
-      "ma150Slope": 0.43,
+      "clsPos": 5.61,
+      "ma150Slope": 8.35,
       "ta": {
-        "price": 161.06,
-        "resistance": 167.86,
-        "support": 140.31,
-        "contraction": 0.89,
+        "price": 123.47,
+        "resistance": null,
+        "support": 93,
+        "contraction": 2.14,
         "trend": "up"
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.2014,
-        "m3": 0.2005,
-        "m6": 0.2905,
-        "rankPct6": 7.91,
-        "count": 33
+        "m1": 0.0191,
+        "m3": 0.1622,
+        "m6": 0.1816,
+        "rankPct6": 20.86,
+        "count": 7
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
-      "nameKo": "퀄리스",
-      "nameEn": "QUALYS INC"
+      "nameKo": "메리어트 베이케이션스 월드와이드",
+      "nameEn": "MARRIOTT VACATIONS WORLDWIDE CORP"
     },
     {
-      "ticker": "HNGE",
-      "price": 79.41999816894531,
-      "marketCap": "6.01B",
-      "sector": "Healthcare",
-      "industry": "Health Information Services",
+      "ticker": "CDNL",
+      "price": 64,
+      "marketCap": "1.25B",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
       "rs": {
         "m1": {
-          "v": -0.1106383487701126,
-          "pct": 5.859094176851186
+          "v": -0.06075725604243797,
+          "pct": 17.339581831290555
         },
         "m3": {
-          "v": 0.4439999667080966,
-          "pct": 96.49566473988439
+          "v": 0.12103695619098503,
+          "pct": 59.93473531544598
         },
         "m6": {
-          "v": 1.4030257186780164,
-          "pct": 98.51664254703329
+          "v": 1.56,
+          "pct": 98.80174291938998
         }
       },
       "qualifiedBy": [
         "6mo"
       ],
-      "bestPct": 98.51664254703329,
-      "adr": 4.54,
-      "cyTrend": 0.51,
-      "nyTrend": 1.03,
-      "upCount": 42,
-      "downCount": 4,
-      "upDownRatio": 91.3,
-      "bbwthd": 0.3,
-      "bbwthdLow": 0.14,
-      "high52": 86.8,
-      "volx": 1.12,
-      "volSurgeWk": 1.33,
+      "bestPct": 98.80174291938998,
+      "adr": 8,
+      "cyTrend": 7.34,
+      "nyTrend": -3.33,
+      "upCount": 0,
+      "downCount": 3,
+      "upDownRatio": 0,
+      "bbwthd": 0.27,
+      "bbwthdLow": 0.22,
+      "high52": 66.39,
+      "volx": 0.34,
+      "volSurgeWk": 0.53,
       "aboveMa150": true,
-      "aboveMa50": true,
-      "order": true,
-      "jeongbae": true,
-      "div10": 4.31,
-      "div50": 7.84,
-      "div200": 52.61,
-      "ret1m": -11.06,
-      "ret3m": 44.4,
-      "ret6m": 140.3,
-      "maxRise1m": 28.14,
-      "maxRise3m": 76.91,
-      "maxRise6m": 169.04,
+      "aboveMa50": false,
+      "order": false,
+      "jeongbae": false,
+      "div10": 2.56,
+      "div50": -7.71,
+      "div200": 39.92,
+      "ret1m": -6.08,
+      "ret3m": 12.1,
+      "ret6m": 156,
+      "maxRise1m": 33.15,
+      "maxRise3m": 107,
+      "maxRise6m": 298.35,
       "brk60d": false,
-      "clsPos": 43.32,
-      "ma150Slope": 9.09,
+      "clsPos": 36.43,
+      "ma150Slope": null,
       "ta": {
-        "price": 79.42,
-        "resistance": 91.5,
-        "support": 71.4,
-        "contraction": 1.03,
-        "trend": "up"
+        "price": 64,
+        "resistance": 66.87,
+        "support": 56.27,
+        "contraction": 0.73,
+        "trend": null
       },
-      "ma150SlopeDir": "up",
+      "ma150SlopeDir": null,
       "wrs": {
-        "m1": 0.0528,
-        "m3": 0.222,
-        "m6": 0.2116,
-        "rankPct6": 15.11,
-        "count": 6
+        "m1": 0.007,
+        "m3": -0.0946,
+        "m6": 0.1573,
+        "rankPct6": 24.46,
+        "count": 24
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
-      "nameKo": "힌지 헬스",
-      "nameEn": "HINGE HEALTH INC"
+      "nameKo": "CARDINAL INFRASTRUCTURE GROUP INC",
+      "nameEn": "CARDINAL INFRASTRUCTURE GROUP INC"
     },
     {
       "ticker": "UFPT",
-      "price": 334.8399963378906,
-      "marketCap": "2.07B",
+      "price": 314.010009765625,
+      "marketCap": "2.41B",
       "sector": "Healthcare",
       "industry": "Medical Devices",
       "rs": {
         "m1": {
-          "v": 0.26780513766708924,
-          "pct": 98.45434938892883
+          "v": 0.32544006125414093,
+          "pct": 98.73828406633021
         },
         "m3": {
-          "v": 0.5127173576010688,
-          "pct": 97.29046242774567
+          "v": 0.42350067989772966,
+          "pct": 94.8150833937636
         },
         "m6": {
-          "v": 0.2514576147152305,
-          "pct": 75.28943560057887
+          "v": 0.27745011547292503,
+          "pct": 77.1604938271605
         }
       },
       "qualifiedBy": [
         "1mo"
       ],
-      "bestPct": 98.45434938892883,
-      "adr": 4.49,
-      "cyTrend": 0,
-      "nyTrend": 0,
-      "upCount": 12,
-      "downCount": 2,
-      "upDownRatio": 85.71,
-      "bbwthd": 0.35,
+      "bestPct": 98.73828406633021,
+      "adr": 4.26,
+      "cyTrend": 2.55,
+      "nyTrend": 1.05,
+      "upCount": 11,
+      "downCount": 3,
+      "upDownRatio": 78.57,
+      "bbwthd": 0.49,
       "bbwthdLow": 0.08,
-      "high52": 98.86,
-      "volx": 3.63,
-      "volSurgeWk": 3.44,
+      "high52": 92.71,
+      "volx": 0.69,
+      "volSurgeWk": 0.44,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": true,
       "jeongbae": true,
-      "div10": 29.51,
-      "div50": 37.4,
-      "div200": 48.01,
-      "ret1m": 26.78,
-      "ret3m": 51.27,
-      "ret6m": 25.15,
+      "div10": 11.28,
+      "div50": 26.13,
+      "div200": 37.7,
+      "ret1m": 32.54,
+      "ret3m": 42.35,
+      "ret6m": 27.75,
       "maxRise1m": 48.24,
       "maxRise3m": 61.26,
-      "maxRise6m": 94.81,
-      "brk60d": true,
-      "clsPos": 88.53,
-      "ma150Slope": 1.72,
+      "maxRise6m": 94.82,
+      "brk60d": false,
+      "clsPos": 34.52,
+      "ma150Slope": 2.26,
       "ta": {
-        "price": 334.84,
-        "resistance": 341.23,
+        "price": 314.01,
+        "resistance": 319.53,
         "support": 289.49,
-        "contraction": 0.9,
+        "contraction": 1.29,
         "trend": "up"
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0583,
-        "m3": 0.1714,
-        "m6": -0.0123,
-        "rankPct6": 71.94,
+        "m1": 0.0763,
+        "m3": 0.2048,
+        "m6": 0.0013,
+        "rankPct6": 69.06,
         "count": 22
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
       "nameKo": "UFP 테크놀로지스",
       "nameEn": "UFP TECHNOLOGIES"
     },
     {
-      "ticker": "NTAP",
-      "price": 190.4600067138672,
-      "marketCap": "35.90B",
+      "ticker": "NSIT",
+      "price": 149.32000732421875,
+      "marketCap": "4.51B",
       "sector": "Technology",
-      "industry": "Software - Infrastructure",
+      "industry": "Electronics & Computer Distribution",
       "rs": {
         "m1": {
-          "v": 0.15236141090100686,
-          "pct": 90.54636951833214
+          "v": 0.24630673872765055,
+          "pct": 96.21485219899063
         },
         "m3": {
-          "v": 0.6906060406383812,
-          "pct": 98.4465317919075
+          "v": 0.7159275233793783,
+          "pct": 98.73096446700508
         },
         "m6": {
-          "v": 0.8176543613483742,
-          "pct": 96.05643994211289
+          "v": 0.7544355099682328,
+          "pct": 95.60639070442993
         }
       },
       "qualifiedBy": [
         "3mo"
       ],
-      "bestPct": 98.4465317919075,
-      "adr": 4.55,
-      "cyTrend": 0.06,
-      "nyTrend": -0.22,
-      "upCount": 31,
-      "downCount": 7,
-      "upDownRatio": 81.58,
-      "bbwthd": 0.18,
-      "bbwthdLow": 0.1,
-      "high52": 97.32,
-      "volx": 1.44,
-      "volSurgeWk": 1.33,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": true,
-      "jeongbae": true,
-      "div10": 9.31,
-      "div50": 16.3,
-      "div200": 57.57,
-      "ret1m": 15.24,
-      "ret3m": 69.06,
-      "ret6m": 81.77,
-      "maxRise1m": 25.24,
-      "maxRise3m": 74.33,
-      "maxRise6m": 106.87,
-      "brk60d": false,
-      "clsPos": 52.39,
-      "ma150Slope": 6.39,
-      "ta": {
-        "price": 190.46,
-        "resistance": 192.83,
-        "support": 156.26,
-        "contraction": 0.82,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.2014,
-        "m3": 0.2005,
-        "m6": 0.2905,
-        "rankPct6": 7.91,
-        "count": 33
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "nameKo": "넷앱",
-      "nameEn": "NETAPP INC"
-    },
-    {
-      "ticker": "MU",
-      "price": 892.6699829101562,
-      "marketCap": "936.83B",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "rs": {
-        "m1": {
-          "v": -0.04871163253139078,
-          "pct": 17.074047447879224
-        },
-        "m3": {
-          "v": 0.38070806306611205,
-          "pct": 94.83381502890174
-        },
-        "m6": {
-          "v": 1.3929868680687585,
-          "pct": 98.44428364688856
-        }
-      },
-      "qualifiedBy": [
-        "6mo"
-      ],
-      "bestPct": 98.44428364688856,
-      "adr": 7.73,
-      "cyTrend": 0.15,
-      "nyTrend": 3.96,
-      "upCount": 107,
+      "bestPct": 98.73096446700508,
+      "adr": 4.59,
+      "cyTrend": 2.42,
+      "nyTrend": 2.51,
+      "upCount": 4,
       "downCount": 0,
       "upDownRatio": 100,
-      "bbwthd": 0.31,
-      "bbwthdLow": 0.3,
-      "high52": 71.14,
-      "volx": 0.78,
-      "volSurgeWk": 0.62,
-      "aboveMa150": true,
-      "aboveMa50": false,
-      "order": false,
-      "jeongbae": false,
-      "div10": 2.02,
-      "div50": -7.91,
-      "div200": 70.14,
-      "ret1m": -4.87,
-      "ret3m": 38.07,
-      "ret6m": 139.3,
-      "maxRise1m": 40.33,
-      "maxRise3m": 92.42,
-      "maxRise6m": 302.9,
-      "brk60d": false,
-      "clsPos": 77.78,
-      "ma150Slope": 16.24,
-      "ta": {
-        "price": 892.67,
-        "resistance": 1011.77,
-        "support": 854.35,
-        "contraction": 1.2,
-        "trend": "mixed"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.0313,
-        "m3": 0.0559,
-        "m6": 0.4182,
-        "rankPct6": 3.6,
-        "count": 42
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "nameKo": "마이크론 테크놀로지",
-      "nameEn": "MICRON TECHNOLOGY INC"
-    },
-    {
-      "ticker": "CRWD",
-      "price": 211.22000122070312,
-      "marketCap": "206.24B",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "rs": {
-        "m1": {
-          "v": 0.08529445339632334,
-          "pct": 74.58662832494608
-        },
-        "m3": {
-          "v": 0.6706477949130893,
-          "pct": 98.37427745664739
-        },
-        "m6": {
-          "v": 1.0437842592819528,
-          "pct": 97.3589001447178
-        }
-      },
-      "qualifiedBy": [
-        "3mo"
-      ],
-      "bestPct": 98.37427745664739,
-      "adr": 5.3,
-      "cyTrend": 0.07,
-      "nyTrend": 0.15,
-      "upCount": 142,
-      "downCount": 28,
-      "upDownRatio": 83.53,
-      "bbwthd": 0.21,
-      "bbwthdLow": 0.17,
-      "high52": 97.11,
-      "volx": 1.07,
-      "volSurgeWk": 0.96,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": true,
-      "jeongbae": true,
-      "div10": 11.98,
-      "div50": 15.31,
-      "div200": 58.22,
-      "ret1m": 8.53,
-      "ret3m": 67.06,
-      "ret6m": 104.38,
-      "maxRise1m": 24.9,
-      "maxRise3m": 76.71,
-      "maxRise6m": 153.85,
-      "brk60d": false,
-      "clsPos": 84.46,
-      "ma150Slope": 7.25,
-      "ta": {
-        "price": 211.22,
-        "resistance": 217.5,
-        "support": 181,
-        "contraction": 0.75,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.2014,
-        "m3": 0.2005,
-        "m6": 0.2905,
-        "rankPct6": 7.91,
-        "count": 33
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "nameKo": "크라우드스트라이크 홀딩스",
-      "nameEn": "CROWDSTRIKE HOLDINGS INC"
-    },
-    {
-      "ticker": "ARM",
-      "price": 280.55999755859375,
-      "marketCap": "255.32B",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "rs": {
-        "m1": {
-          "v": -0.066138520126487,
-          "pct": 13.551401869158877
-        },
-        "m3": {
-          "v": 0.3152688611396529,
-          "pct": 92.23265895953757
-        },
-        "m6": {
-          "v": 1.2275506499129722,
-          "pct": 98.22720694645442
-        }
-      },
-      "qualifiedBy": [
-        "6mo"
-      ],
-      "bestPct": 98.22720694645442,
-      "adr": 8.19,
-      "cyTrend": 2.52,
-      "nyTrend": -0.55,
-      "upCount": 16,
-      "downCount": 4,
-      "upDownRatio": 80,
-      "bbwthd": 0.4,
-      "bbwthdLow": 0.21,
-      "high52": 61.97,
-      "volx": 1.55,
-      "volSurgeWk": 1.16,
-      "aboveMa150": true,
-      "aboveMa50": false,
-      "order": false,
-      "jeongbae": false,
-      "div10": 9.45,
-      "div50": -13.39,
-      "div200": 47.06,
-      "ret1m": -6.61,
-      "ret3m": 31.53,
-      "ret6m": 122.76,
-      "maxRise1m": 54.72,
-      "maxRise3m": 125.35,
-      "maxRise6m": 306.88,
-      "brk60d": false,
-      "clsPos": 91.64,
-      "ma150Slope": 10.37,
-      "ta": {
-        "price": 280.56,
-        "resistance": 427.99,
-        "support": 243.12,
-        "contraction": 1.01,
-        "trend": "mixed"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.0313,
-        "m3": 0.0559,
-        "m6": 0.4182,
-        "rankPct6": 3.6,
-        "count": 42
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "nameKo": "에이알엠 홀딩스(ADR)",
-      "nameEn": "ARM HOLDINGS PLC SPON ADS EACH REP 1 ORD SHS"
-    },
-    {
-      "ticker": "COOK",
-      "price": 68.7699966430664,
-      "marketCap": "0.19B",
-      "sector": "Consumer Cyclical",
-      "industry": "Furnishings, Fixtures & Appliances",
-      "rs": {
-        "m1": {
-          "v": -0.006931456417813628,
-          "pct": 34.61538461538461
-        },
-        "m3": {
-          "v": 0.6280775073483041,
-          "pct": 98.15751445086705
-        },
-        "m6": {
-          "v": 0.7932203227980045,
-          "pct": 95.91172214182345
-        }
-      },
-      "qualifiedBy": [
-        "3mo"
-      ],
-      "bestPct": 98.15751445086705,
-      "adr": 8.36,
-      "cyTrend": 0,
-      "nyTrend": 0,
-      "upCount": 5,
-      "downCount": 5,
-      "upDownRatio": 50,
-      "bbwthd": 0.24,
-      "bbwthdLow": 0.22,
-      "high52": 78.24,
-      "volx": 0.73,
-      "volSurgeWk": 1.28,
-      "aboveMa150": true,
-      "aboveMa50": true,
-      "order": true,
-      "jeongbae": true,
-      "div10": 8.06,
-      "div50": 1.4,
-      "div200": 38.64,
-      "ret1m": -0.69,
-      "ret3m": 62.81,
-      "ret6m": 79.32,
-      "maxRise1m": 35.52,
-      "maxRise3m": 120.56,
-      "maxRise6m": 314.11,
-      "brk60d": false,
-      "clsPos": 83.89,
-      "ma150Slope": 4.98,
-      "ta": {
-        "price": 68.77,
-        "resistance": 74.15,
-        "support": 66,
-        "contraction": 0.8,
-        "trend": "up"
-      },
-      "ma150SlopeDir": "up",
-      "wrs": {
-        "m1": 0.0696,
-        "m3": 0.2824,
-        "m6": 0.0972,
-        "rankPct6": 38.85,
-        "count": 6
-      },
-      "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
-      },
-      "nameKo": "트래저",
-      "nameEn": "TRAEGER INC"
-    },
-    {
-      "ticker": "DDOG",
-      "price": 288.1499938964844,
-      "marketCap": "97.39B",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "rs": {
-        "m1": {
-          "v": 0.12203573317172005,
-          "pct": 85.65780014378144
-        },
-        "m3": {
-          "v": 0.5267842972479767,
-          "pct": 97.4349710982659
-        },
-        "m6": {
-          "v": 1.222179362731675,
-          "pct": 98.1548480463097
-        }
-      },
-      "qualifiedBy": [
-        "6mo"
-      ],
-      "bestPct": 98.1548480463097,
-      "adr": 5.26,
-      "cyTrend": -0.18,
-      "nyTrend": 0.66,
-      "upCount": 78,
-      "downCount": 2,
-      "upDownRatio": 97.5,
-      "bbwthd": 0.16,
+      "bbwthd": 0.35,
       "bbwthdLow": 0.11,
-      "high52": 99.4,
-      "volx": 1.27,
-      "volSurgeWk": 0.94,
+      "high52": 96.6,
+      "volx": 1.36,
+      "volSurgeWk": 0.72,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": true,
       "jeongbae": true,
-      "div10": 10.73,
-      "div50": 16.42,
-      "div200": 71.04,
-      "ret1m": 12.2,
-      "ret3m": 52.68,
-      "ret6m": 122.22,
-      "maxRise1m": 21.98,
-      "maxRise3m": 56.7,
-      "maxRise6m": 195.79,
-      "brk60d": true,
-      "clsPos": 90.44,
-      "ma150Slope": 9.72,
+      "div10": 11.47,
+      "div50": 26.55,
+      "div200": 62.02,
+      "ret1m": 24.63,
+      "ret3m": 71.59,
+      "ret6m": 75.44,
+      "maxRise1m": 38.67,
+      "maxRise3m": 84.74,
+      "maxRise6m": 142.96,
+      "brk60d": false,
+      "clsPos": 16.27,
+      "ma150Slope": 6.52,
       "ta": {
-        "price": 288.15,
-        "resistance": null,
-        "support": 237.67,
-        "contraction": 0.86,
+        "price": 149.32,
+        "resistance": 160.68,
+        "support": 147.69,
+        "contraction": 1.79,
         "trend": "up"
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0976,
-        "m3": 0.1557,
-        "m6": 0.1348,
-        "rankPct6": 23.74,
-        "count": 50
+        "m1": 0.0453,
+        "m3": 0.1595,
+        "m6": 0.496,
+        "rankPct6": 1.44,
+        "count": 5
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
-      "nameKo": "데이터도그",
-      "nameEn": "DATADOG INC"
+      "nameKo": "인사이트 엔터프라이즈",
+      "nameEn": "INSIGHT ENTERPRISE INC"
     },
     {
-      "ticker": "VPG",
-      "price": 101,
-      "marketCap": "1.22B",
-      "sector": "Technology",
-      "industry": "Scientific & Technical Instruments",
+      "ticker": "LQDA",
+      "price": 90.22000122070312,
+      "marketCap": "7.95B",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
       "rs": {
         "m1": {
-          "v": -0.06869522506116531,
-          "pct": 12.616822429906541
+          "v": 0.15770564439111254,
+          "pct": 89.5097332372026
         },
         "m3": {
-          "v": 0.6178119414749796,
-          "pct": 98.08526011560693
+          "v": 0.5939929974018271,
+          "pct": 97.71573604060913
         },
         "m6": {
-          "v": 0.8846799722414752,
-          "pct": 96.41823444283646
+          "v": 1.3617800894975893,
+          "pct": 98.72912127814088
         }
       },
       "qualifiedBy": [
-        "3mo"
+        "6mo"
       ],
-      "bestPct": 98.08526011560693,
-      "adr": 7.68,
+      "bestPct": 98.72912127814088,
+      "adr": 6.55,
       "cyTrend": 0,
-      "nyTrend": 0,
-      "upCount": 8,
+      "nyTrend": 4.24,
+      "upCount": 0,
       "downCount": 0,
-      "upDownRatio": 100,
-      "bbwthd": 0.36,
-      "bbwthdLow": 0.24,
-      "high52": 66.54,
-      "volx": 1.16,
-      "volSurgeWk": 0.84,
+      "upDownRatio": 0,
+      "bbwthd": 0.26,
+      "bbwthdLow": 0.13,
+      "high52": 98.53,
+      "volx": 0.46,
+      "volSurgeWk": 0.56,
       "aboveMa150": true,
-      "aboveMa50": false,
-      "order": false,
-      "jeongbae": false,
-      "div10": 3.78,
-      "div50": -15.33,
-      "div200": 55.84,
-      "ret1m": -6.87,
-      "ret3m": 61.78,
-      "ret6m": 88.47,
-      "maxRise1m": 46.7,
-      "maxRise3m": 139.21,
-      "maxRise6m": 287.59,
+      "aboveMa50": true,
+      "order": true,
+      "jeongbae": true,
+      "div10": 3.71,
+      "div50": 18.81,
+      "div200": 93.77,
+      "ret1m": 15.77,
+      "ret3m": 59.4,
+      "ret6m": 136.18,
+      "maxRise1m": 31.36,
+      "maxRise3m": 72.58,
+      "maxRise6m": 214.46,
       "brk60d": false,
-      "clsPos": 72.82,
-      "ma150Slope": 13.11,
+      "clsPos": 65.36,
+      "ma150Slope": 14.41,
       "ta": {
-        "price": 101,
-        "resistance": 136.21,
-        "support": 93.34,
-        "contraction": 0.99,
-        "trend": "mixed"
+        "price": 90.22,
+        "resistance": 91.1,
+        "support": 70.85,
+        "contraction": 0.72,
+        "trend": "up"
       },
       "ma150SlopeDir": "up",
       "wrs": {
-        "m1": 0.0868,
-        "m3": 0.0791,
-        "m6": 0.3187,
-        "rankPct6": 7.19,
-        "count": 17
+        "m1": -0.0064,
+        "m3": 0.0403,
+        "m6": 0.1341,
+        "rankPct6": 27.34,
+        "count": 7
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
-      "nameKo": "비샤이 프리시전 그룹",
-      "nameEn": "VISHAY PRECISION GROUP INC"
+      "nameKo": "리퀴디아",
+      "nameEn": "LIQUIDIA CORPORATION"
     },
     {
-      "ticker": "TEAM",
-      "price": 110.30999755859375,
-      "marketCap": "26.32B",
+      "ticker": "CACI",
+      "price": 644.4299926757812,
+      "marketCap": "13.89B",
       "sector": "Technology",
-      "industry": "Software - Application",
+      "industry": "Information Technology Services",
       "rs": {
         "m1": {
-          "v": 0.24799183527896274,
-          "pct": 98.02300503235082
+          "v": 0.3247609754432781,
+          "pct": 98.66618601297765
         },
         "m3": {
-          "v": 0.19421884030067924,
-          "pct": 77.5650289017341
+          "v": 0.29097720688164735,
+          "pct": 87.05583756345177
         },
         "m6": {
-          "v": 0.18715023388216476,
-          "pct": 67.6917510853835
+          "v": 0.12407117808713282,
+          "pct": 56.10021786492375
         }
       },
       "qualifiedBy": [
         "1mo"
       ],
-      "bestPct": 98.02300503235082,
-      "adr": 7,
-      "cyTrend": 0.01,
-      "nyTrend": -1.89,
-      "upCount": 34,
-      "downCount": 5,
-      "upDownRatio": 87.18,
-      "bbwthd": 0.32,
-      "bbwthdLow": 0.22,
-      "high52": 58.15,
-      "volx": 1.38,
-      "volSurgeWk": 1.06,
+      "bestPct": 98.66618601297765,
+      "adr": 4.23,
+      "cyTrend": 0.53,
+      "nyTrend": -1.4,
+      "upCount": 3,
+      "downCount": 3,
+      "upDownRatio": 50,
+      "bbwthd": 0.42,
+      "bbwthdLow": 0.08,
+      "high52": 94.28,
+      "volx": 1.51,
+      "volSurgeWk": 0.97,
       "aboveMa150": true,
       "aboveMa50": true,
       "order": false,
-      "jeongbae": true,
-      "div10": 14.23,
-      "div50": 20.64,
-      "div200": 1.68,
-      "ret1m": 24.8,
-      "ret3m": 19.42,
-      "ret6m": 18.72,
-      "maxRise1m": 38.21,
-      "maxRise3m": 60.44,
-      "maxRise6m": 113.14,
+      "jeongbae": false,
+      "div10": 21.66,
+      "div50": 29.61,
+      "div200": 16.45,
+      "ret1m": 32.48,
+      "ret3m": 29.1,
+      "ret6m": 12.41,
+      "maxRise1m": 49.29,
+      "maxRise3m": 49.71,
+      "maxRise6m": 49.71,
       "brk60d": false,
-      "clsPos": 96.41,
-      "ma150Slope": -8.7,
+      "clsPos": 82.75,
+      "ma150Slope": -1.63,
       "ta": {
-        "price": 110.31,
-        "resistance": 119.38,
-        "support": 80,
-        "contraction": 1.09,
+        "price": 644.43,
+        "resistance": 683.5,
+        "support": 589.61,
+        "contraction": 1.65,
         "trend": "mixed"
       },
       "ma150SlopeDir": "down",
       "wrs": {
-        "m1": 0.0976,
-        "m3": 0.1557,
-        "m6": 0.1348,
-        "rankPct6": 23.74,
+        "m1": 0.0212,
+        "m3": 0.0981,
+        "m6": -0.0401,
+        "rankPct6": 79.14,
+        "count": 16
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "CACI 인터내셔널",
+      "nameEn": "CACI INTERNATIONAL INC"
+    },
+    {
+      "ticker": "TPC",
+      "price": 99.11000061035156,
+      "marketCap": "5.06B",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "rs": {
+        "m1": {
+          "v": 0.305969184443957,
+          "pct": 98.59408795962509
+        },
+        "m3": {
+          "v": 0.19950780695328865,
+          "pct": 77.41116751269035
+        },
+        "m6": {
+          "v": 0.19978221958693762,
+          "pct": 68.51851851851852
+        }
+      },
+      "qualifiedBy": [
+        "1mo"
+      ],
+      "bestPct": 98.59408795962509,
+      "adr": 4.39,
+      "cyTrend": 0.61,
+      "nyTrend": 1.04,
+      "upCount": 4,
+      "downCount": 0,
+      "upDownRatio": 100,
+      "bbwthd": 0.29,
+      "bbwthdLow": 0.11,
+      "high52": 96.88,
+      "volx": 0.95,
+      "volSurgeWk": 1.42,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": true,
+      "jeongbae": false,
+      "div10": 14.93,
+      "div50": 24.93,
+      "div200": 30.64,
+      "ret1m": 30.6,
+      "ret3m": 19.95,
+      "ret6m": 19.98,
+      "maxRise1m": 37.94,
+      "maxRise3m": 49.1,
+      "maxRise6m": 53.33,
+      "brk60d": false,
+      "clsPos": 92.28,
+      "ma150Slope": 2.71,
+      "ta": {
+        "price": 99.11,
+        "resistance": 100,
+        "support": 80,
+        "contraction": 1.79,
+        "trend": "up"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.007,
+        "m3": -0.0946,
+        "m6": 0.1573,
+        "rankPct6": 24.46,
+        "count": 24
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "튜터 페리니",
+      "nameEn": "TUTOR PERINI CORP"
+    },
+    {
+      "ticker": "HPE-C",
+      "price": 136.60000610351562,
+      "marketCap": "N/A",
+      "sector": "N/A",
+      "industry": "N/A",
+      "rs": {
+        "m1": {
+          "v": 0.09149024720762029,
+          "pct": 74.58543619322279
+        },
+        "m3": {
+          "v": 0.7110904132148316,
+          "pct": 98.5859318346628
+        },
+        "m6": {
+          "v": 1.2218843202560268,
+          "pct": 98.14814814814815
+        }
+      },
+      "qualifiedBy": [
+        "3mo",
+        "6mo"
+      ],
+      "bestPct": 98.5859318346628,
+      "adr": 4.79,
+      "cyTrend": null,
+      "nyTrend": null,
+      "upCount": null,
+      "downCount": null,
+      "upDownRatio": null,
+      "bbwthd": 0.22,
+      "bbwthdLow": 0.16,
+      "high52": 83.55,
+      "volx": 0.08,
+      "volSurgeWk": 0.06,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": true,
+      "jeongbae": true,
+      "div10": 6.65,
+      "div50": 11.24,
+      "div200": 71.14,
+      "ret1m": 9.15,
+      "ret3m": 71.11,
+      "ret6m": 122.19,
+      "maxRise1m": 24.75,
+      "maxRise3m": 104.96,
+      "maxRise6m": 196.58,
+      "brk60d": false,
+      "clsPos": 99.33,
+      "ma150Slope": null,
+      "ta": null
+    },
+    {
+      "ticker": "PANW",
+      "price": 363.8599853515625,
+      "marketCap": "292.98B",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "rs": {
+        "m1": {
+          "v": 0.11644313234643196,
+          "pct": 81.36265320836338
+        },
+        "m3": {
+          "v": 0.6876622219429024,
+          "pct": 98.51341551849167
+        },
+        "m6": {
+          "v": 1.1794548787225574,
+          "pct": 98.00290486564997
+        }
+      },
+      "qualifiedBy": [
+        "3mo",
+        "6mo"
+      ],
+      "bestPct": 98.51341551849167,
+      "adr": 4.56,
+      "cyTrend": 0.01,
+      "nyTrend": -1.45,
+      "upCount": 91,
+      "downCount": 13,
+      "upDownRatio": 87.5,
+      "bbwthd": 0.2,
+      "bbwthdLow": 0.15,
+      "high52": 96.52,
+      "volx": 0.79,
+      "volSurgeWk": 0.72,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": true,
+      "jeongbae": true,
+      "div10": 6.78,
+      "div50": 15.16,
+      "div200": 66.82,
+      "ret1m": 11.64,
+      "ret3m": 68.77,
+      "ret6m": 117.95,
+      "maxRise1m": 22.18,
+      "maxRise3m": 78.86,
+      "maxRise6m": 170.1,
+      "brk60d": false,
+      "clsPos": 41.5,
+      "ma150Slope": 9.93,
+      "ta": {
+        "price": 363.86,
+        "resistance": 368.17,
+        "support": 314.95,
+        "contraction": 0.9,
+        "trend": "up"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.2357,
+        "m3": 0.237,
+        "m6": 0.3311,
+        "rankPct6": 7.91,
+        "count": 33
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "팰로 앨토 네트웍스",
+      "nameEn": "PALO ALTO NETWORKS INC"
+    },
+    {
+      "ticker": "AMD",
+      "price": 483.3599853515625,
+      "marketCap": "797.82B",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "rs": {
+        "m1": {
+          "v": -0.1335926927171141,
+          "pct": 6.669069935111752
+        },
+        "m3": {
+          "v": 0.07823055642143843,
+          "pct": 48.839738941261785
+        },
+        "m6": {
+          "v": 1.3314681086020648,
+          "pct": 98.51125635439361
+        }
+      },
+      "qualifiedBy": [
+        "6mo"
+      ],
+      "bestPct": 98.51125635439361,
+      "adr": 6.7,
+      "cyTrend": 1.08,
+      "nyTrend": 5.62,
+      "upCount": 41,
+      "downCount": 6,
+      "upDownRatio": 87.23,
+      "bbwthd": 0.26,
+      "bbwthdLow": 0.14,
+      "high52": 82.66,
+      "volx": 0.82,
+      "volSurgeWk": 0.73,
+      "aboveMa150": true,
+      "aboveMa50": false,
+      "order": false,
+      "jeongbae": false,
+      "div10": 0.73,
+      "div50": -5.98,
+      "div200": 51.86,
+      "ret1m": -13.36,
+      "ret3m": 7.82,
+      "ret6m": 133.15,
+      "maxRise1m": 35.41,
+      "maxRise3m": 48.65,
+      "maxRise6m": 210.66,
+      "brk60d": false,
+      "clsPos": 32.07,
+      "ma150Slope": 12.45,
+      "ta": {
+        "price": 483.36,
+        "resistance": 546.44,
+        "support": 460.21,
+        "contraction": 1.05,
+        "trend": "mixed"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.0012,
+        "m3": 0.0379,
+        "m6": 0.4545,
+        "rankPct6": 2.88,
+        "count": 42
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "AMD",
+      "nameEn": "ADVANCED MICRO DEVICES INC"
+    },
+    {
+      "ticker": "GH",
+      "price": 168.47999572753906,
+      "marketCap": "21.15B",
+      "sector": "Healthcare",
+      "industry": "Diagnostics & Research",
+      "rs": {
+        "m1": {
+          "v": 0.052670993533534105,
+          "pct": 60.45421773612113
+        },
+        "m3": {
+          "v": 0.6858114029596615,
+          "pct": 98.44089920232052
+        },
+        "m6": {
+          "v": 0.6068669354260698,
+          "pct": 93.20987654320987
+        }
+      },
+      "qualifiedBy": [
+        "3mo"
+      ],
+      "bestPct": 98.44089920232052,
+      "adr": 4.95,
+      "cyTrend": 3.82,
+      "nyTrend": -5.18,
+      "upCount": 10,
+      "downCount": 6,
+      "upDownRatio": 62.5,
+      "bbwthd": 0.18,
+      "bbwthdLow": 0.09,
+      "high52": 95.41,
+      "volx": 1.15,
+      "volSurgeWk": 0.85,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": true,
+      "jeongbae": true,
+      "div10": 8.32,
+      "div50": 15.18,
+      "div200": 53.58,
+      "ret1m": 5.27,
+      "ret3m": 68.58,
+      "ret6m": 60.69,
+      "maxRise1m": 25.36,
+      "maxRise3m": 90.9,
+      "maxRise6m": 136.86,
+      "brk60d": false,
+      "clsPos": 92.17,
+      "ma150Slope": 6.58,
+      "ta": {
+        "price": 168.48,
+        "resistance": 174.08,
+        "support": 152.64,
+        "contraction": 1.26,
+        "trend": "up"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.0898,
+        "m3": 0.3028,
+        "m6": 0.2105,
+        "rankPct6": 17.99,
+        "count": 22
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "가단트 헬스",
+      "nameEn": "GUARDANT HEALTH INC"
+    },
+    {
+      "ticker": "DNTH",
+      "price": 108.91999816894531,
+      "marketCap": "6.15B",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "rs": {
+        "m1": {
+          "v": 0.1159836052438643,
+          "pct": 81.29055515501081
+        },
+        "m3": {
+          "v": 0.2643063986043743,
+          "pct": 84.88034807831762
+        },
+        "m6": {
+          "v": 1.2978901827561846,
+          "pct": 98.43863471314451
+        }
+      },
+      "qualifiedBy": [
+        "6mo"
+      ],
+      "bestPct": 98.43863471314451,
+      "adr": 6.06,
+      "cyTrend": -1.95,
+      "nyTrend": -1.27,
+      "upCount": 12,
+      "downCount": 2,
+      "upDownRatio": 85.71,
+      "bbwthd": 0.17,
+      "bbwthdLow": 0.09,
+      "high52": 95.09,
+      "volx": 0.69,
+      "volSurgeWk": 0.66,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": true,
+      "jeongbae": true,
+      "div10": 1.08,
+      "div50": 14.83,
+      "div200": 59.04,
+      "ret1m": 11.6,
+      "ret3m": 26.43,
+      "ret6m": 129.79,
+      "maxRise1m": 25.87,
+      "maxRise3m": 66.38,
+      "maxRise6m": 144.76,
+      "brk60d": false,
+      "clsPos": 31.53,
+      "ma150Slope": 11.89,
+      "ta": {
+        "price": 108.92,
+        "resistance": 114.55,
+        "support": 100,
+        "contraction": 0.98,
+        "trend": "up"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.0313,
+        "m3": 0.1447,
+        "m6": 0.2473,
+        "rankPct6": 12.95,
+        "count": 55
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "다이앤서스 테라퓨틱스",
+      "nameEn": "DIANTHUS THERAPEUTICS INC"
+    },
+    {
+      "ticker": "HNGE",
+      "price": 89.33000183105469,
+      "marketCap": "6.20B",
+      "sector": "Healthcare",
+      "industry": "Health Information Services",
+      "rs": {
+        "m1": {
+          "v": 0.005968454516695916,
+          "pct": 39.11319394376352
+        },
+        "m3": {
+          "v": 0.6177109716825399,
+          "pct": 97.86076867295141
+        },
+        "m6": {
+          "v": 1.2940422440021133,
+          "pct": 98.36601307189542
+        }
+      },
+      "qualifiedBy": [
+        "6mo"
+      ],
+      "bestPct": 98.36601307189542,
+      "adr": 5.85,
+      "cyTrend": 0.44,
+      "nyTrend": 0.84,
+      "upCount": 12,
+      "downCount": 3,
+      "upDownRatio": 80,
+      "bbwthd": 0.28,
+      "bbwthdLow": 0.14,
+      "high52": 97.63,
+      "volx": 1.33,
+      "volSurgeWk": 0.97,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": true,
+      "jeongbae": true,
+      "div10": 14.3,
+      "div50": 18.46,
+      "div200": 70.04,
+      "ret1m": 0.6,
+      "ret3m": 61.77,
+      "ret6m": 129.4,
+      "maxRise1m": 28.14,
+      "maxRise3m": 76.91,
+      "maxRise6m": 164.15,
+      "brk60d": false,
+      "clsPos": 89.32,
+      "ma150Slope": 8.76,
+      "ta": {
+        "price": 89.33,
+        "resistance": 91.5,
+        "support": 71.4,
+        "contraction": 1.27,
+        "trend": "up"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.1113,
+        "m3": 0.3038,
+        "m6": 0.2872,
+        "rankPct6": 11.51,
+        "count": 6
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "힌지 헬스",
+      "nameEn": "HINGE HEALTH INC"
+    },
+    {
+      "ticker": "CTRN",
+      "price": 72.69000244140625,
+      "marketCap": "0.60B",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel Retail",
+      "rs": {
+        "m1": {
+          "v": 0.25935552501917924,
+          "pct": 96.93583273251622
+        },
+        "m3": {
+          "v": 0.6737278823537886,
+          "pct": 98.29586656997824
+        },
+        "m6": {
+          "v": 0.5740580762460339,
+          "pct": 92.0479302832244
+        }
+      },
+      "qualifiedBy": [
+        "3mo"
+      ],
+      "bestPct": 98.29586656997824,
+      "adr": 4.18,
+      "cyTrend": 46.73,
+      "nyTrend": -3.85,
+      "upCount": 4,
+      "downCount": 3,
+      "upDownRatio": 57.14,
+      "bbwthd": 0.23,
+      "bbwthdLow": 0.2,
+      "high52": 99.05,
+      "volx": 0.95,
+      "volSurgeWk": 1.25,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": true,
+      "jeongbae": true,
+      "div10": 4.81,
+      "div50": 24.27,
+      "div200": 52.69,
+      "ret1m": 25.94,
+      "ret3m": 67.37,
+      "ret6m": 57.41,
+      "maxRise1m": 28.3,
+      "maxRise3m": 103.58,
+      "maxRise6m": 103.58,
+      "brk60d": false,
+      "clsPos": 96.17,
+      "ma150Slope": 6.58,
+      "ta": {
+        "price": 72.69,
+        "resistance": null,
+        "support": 61.01,
+        "contraction": 0.83,
+        "trend": "up"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.0982,
+        "m3": 0.1487,
+        "m6": 0.1274,
+        "rankPct6": 31.65,
+        "count": 9
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "시티 트렌즈",
+      "nameEn": "CITI TRENDS INC"
+    },
+    {
+      "ticker": "AMBQ",
+      "price": 67.48999786376953,
+      "marketCap": "1.58B",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "rs": {
+        "m1": {
+          "v": -0.2086069555602076,
+          "pct": 2.198990627253064
+        },
+        "m3": {
+          "v": 0.01687501990114319,
+          "pct": 32.95866569978245
+        },
+        "m6": {
+          "v": 1.2808380370307964,
+          "pct": 98.29339143064634
+        }
+      },
+      "qualifiedBy": [
+        "6mo"
+      ],
+      "bestPct": 98.29339143064634,
+      "adr": 7.63,
+      "cyTrend": -1.77,
+      "nyTrend": -5.06,
+      "upCount": 12,
+      "downCount": 0,
+      "upDownRatio": 100,
+      "bbwthd": 0.44,
+      "bbwthdLow": 0.17,
+      "high52": 73.67,
+      "volx": 0.9,
+      "volSurgeWk": 1.28,
+      "aboveMa150": true,
+      "aboveMa50": false,
+      "order": false,
+      "jeongbae": false,
+      "div10": 5.31,
+      "div50": -13.06,
+      "div200": 51.92,
+      "ret1m": -20.86,
+      "ret3m": 1.69,
+      "ret6m": 128.08,
+      "maxRise1m": 57.32,
+      "maxRise3m": 62.45,
+      "maxRise6m": 302.68,
+      "brk60d": false,
+      "clsPos": 66.85,
+      "ma150Slope": 12.42,
+      "ta": {
+        "price": 67.49,
+        "resistance": 85.72,
+        "support": 66.25,
+        "contraction": 0.85,
+        "trend": "mixed"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.0012,
+        "m3": 0.0379,
+        "m6": 0.4545,
+        "rankPct6": 2.88,
+        "count": 42
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "앰비크 마이크로",
+      "nameEn": "AMBIQ MICRO  INC."
+    },
+    {
+      "ticker": "FEIM",
+      "price": 74.43000030517578,
+      "marketCap": "0.82B",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "rs": {
+        "m1": {
+          "v": 0.2982731192737956,
+          "pct": 98.23359769286229
+        },
+        "m3": {
+          "v": 0.23432837888712438,
+          "pct": 81.97969543147208
+        },
+        "m6": {
+          "v": 0.5931078416195218,
+          "pct": 92.55628177196805
+        }
+      },
+      "qualifiedBy": [
+        "1mo"
+      ],
+      "bestPct": 98.23359769286229,
+      "adr": 10.15,
+      "cyTrend": -18.06,
+      "nyTrend": 26.49,
+      "upCount": 1,
+      "downCount": 3,
+      "upDownRatio": 25,
+      "bbwthd": 0.45,
+      "bbwthdLow": 0.17,
+      "high52": 92.44,
+      "volx": 0.5,
+      "volSurgeWk": 0.71,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": true,
+      "jeongbae": false,
+      "div10": 12.24,
+      "div50": 10.58,
+      "div200": 41.4,
+      "ret1m": 29.83,
+      "ret3m": 23.43,
+      "ret6m": 59.31,
+      "maxRise1m": 63.59,
+      "maxRise3m": 63.59,
+      "maxRise6m": 102.31,
+      "brk60d": false,
+      "clsPos": 58.63,
+      "ma150Slope": 5.29,
+      "ta": {
+        "price": 74.43,
+        "resistance": 76.34,
+        "support": 62.33,
+        "contraction": 0.91,
+        "trend": "up"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.0276,
+        "m3": 0.1341,
+        "m6": 0.4749,
+        "rankPct6": 2.16,
+        "count": 13
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "프리퀀시 일렉트로닉스",
+      "nameEn": "FREQUENCY ELECTRONICS INC"
+    },
+    {
+      "ticker": "ARM",
+      "price": 282.57000732421875,
+      "marketCap": "306.17B",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "rs": {
+        "m1": {
+          "v": -0.12622531765117992,
+          "pct": 7.317952415284787
+        },
+        "m3": {
+          "v": 0.3590323673176286,
+          "pct": 92.27701232777375
+        },
+        "m6": {
+          "v": 1.2555077432752562,
+          "pct": 98.22076978939724
+        }
+      },
+      "qualifiedBy": [
+        "6mo"
+      ],
+      "bestPct": 98.22076978939724,
+      "adr": 8.42,
+      "cyTrend": 2.52,
+      "nyTrend": -0.55,
+      "upCount": 6,
+      "downCount": 10,
+      "upDownRatio": 37.5,
+      "bbwthd": 0.3,
+      "bbwthdLow": 0.21,
+      "high52": 62.42,
+      "volx": 0.65,
+      "volSurgeWk": 0.6,
+      "aboveMa150": true,
+      "aboveMa50": false,
+      "order": false,
+      "jeongbae": false,
+      "div10": 9.5,
+      "div50": -12.3,
+      "div200": 46.82,
+      "ret1m": -12.62,
+      "ret3m": 35.9,
+      "ret6m": 125.55,
+      "maxRise1m": 41.95,
+      "maxRise3m": 123,
+      "maxRise6m": 306.88,
+      "brk60d": false,
+      "clsPos": 31.54,
+      "ma150Slope": 10.06,
+      "ta": {
+        "price": 282.57,
+        "resistance": 427.99,
+        "support": 243.12,
+        "contraction": 1.15,
+        "trend": "mixed"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.0012,
+        "m3": 0.0379,
+        "m6": 0.4545,
+        "rankPct6": 2.88,
+        "count": 42
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "에이알엠 홀딩스(ADR)",
+      "nameEn": "ARM HOLDINGS PLC SPON ADS EACH REP 1 ORD SHS"
+    },
+    {
+      "ticker": "NTAP",
+      "price": 189.52000427246094,
+      "marketCap": "37.57B",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "rs": {
+        "m1": {
+          "v": 0.1222834710271848,
+          "pct": 82.94881038211969
+        },
+        "m3": {
+          "v": 0.6355125185273361,
+          "pct": 98.15083393763598
+        },
+        "m6": {
+          "v": 0.8655470225015283,
+          "pct": 96.33260711692084
+        }
+      },
+      "qualifiedBy": [
+        "3mo"
+      ],
+      "bestPct": 98.15083393763598,
+      "adr": 4.61,
+      "cyTrend": 0.06,
+      "nyTrend": -0.22,
+      "upCount": 2,
+      "downCount": 2,
+      "upDownRatio": 50,
+      "bbwthd": 0.24,
+      "bbwthdLow": 0.1,
+      "high52": 96.84,
+      "volx": 0.73,
+      "volSurgeWk": 0.59,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": true,
+      "jeongbae": true,
+      "div10": 4.65,
+      "div50": 13.68,
+      "div200": 55.4,
+      "ret1m": 12.23,
+      "ret3m": 63.55,
+      "ret6m": 86.55,
+      "maxRise1m": 25.24,
+      "maxRise3m": 69.35,
+      "maxRise6m": 106.87,
+      "brk60d": false,
+      "clsPos": 39.97,
+      "ma150Slope": 6.76,
+      "ta": {
+        "price": 189.52,
+        "resistance": 192.83,
+        "support": 156.26,
+        "contraction": 1.04,
+        "trend": "up"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.2357,
+        "m3": 0.237,
+        "m6": 0.3311,
+        "rankPct6": 7.91,
+        "count": 33
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "넷앱",
+      "nameEn": "NETAPP INC"
+    },
+    {
+      "ticker": "TVTX",
+      "price": 61.31999969482422,
+      "marketCap": "5.89B",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "rs": {
+        "m1": {
+          "v": 0.08358366371236037,
+          "pct": 72.49459264599855
+        },
+        "m3": {
+          "v": 0.4313725367977148,
+          "pct": 95.03263234227701
+        },
+        "m6": {
+          "v": 1.2041696753229123,
+          "pct": 98.07552650689905
+        }
+      },
+      "qualifiedBy": [
+        "6mo"
+      ],
+      "bestPct": 98.07552650689905,
+      "adr": 4.92,
+      "cyTrend": -0.15,
+      "nyTrend": 2.99,
+      "upCount": 5,
+      "downCount": 2,
+      "upDownRatio": 71.43,
+      "bbwthd": 0.16,
+      "bbwthdLow": 0.06,
+      "high52": 92.57,
+      "volx": 0.76,
+      "volSurgeWk": 0.38,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": true,
+      "jeongbae": true,
+      "div10": 5.93,
+      "div50": 12.43,
+      "div200": 56.55,
+      "ret1m": 8.36,
+      "ret3m": 43.14,
+      "ret6m": 120.42,
+      "maxRise1m": 24.98,
+      "maxRise3m": 60.31,
+      "maxRise6m": 153.31,
+      "brk60d": false,
+      "clsPos": 21.38,
+      "ma150Slope": 7.47,
+      "ta": {
+        "price": 61.32,
+        "resistance": null,
+        "support": 54.87,
+        "contraction": 1.1,
+        "trend": "up"
+      },
+      "ma150SlopeDir": "up",
+      "wrs": {
+        "m1": 0.0313,
+        "m3": 0.1447,
+        "m6": 0.2473,
+        "rankPct6": 12.95,
+        "count": 55
+      },
+      "research": {
+        "status": "pending",
+        "note": "LLM 리서치 대기"
+      },
+      "nameKo": "트래비어 테라퓨틱스",
+      "nameEn": "TRAVERE THERAPEUTICS INC"
+    },
+    {
+      "ticker": "WDAY",
+      "price": 179.63999938964844,
+      "marketCap": "42.04B",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "rs": {
+        "m1": {
+          "v": 0.2928391747756782,
+          "pct": 98.01730353280462
+        },
+        "m3": {
+          "v": 0.5144157412761876,
+          "pct": 96.91805656272662
+        },
+        "m6": {
+          "v": 0.2438720514280999,
+          "pct": 73.81989832970226
+        }
+      },
+      "qualifiedBy": [
+        "1mo"
+      ],
+      "bestPct": 98.01730353280462,
+      "adr": 5.71,
+      "cyTrend": 0.34,
+      "nyTrend": 0.03,
+      "upCount": 5,
+      "downCount": 1,
+      "upDownRatio": 83.33,
+      "bbwthd": 0.39,
+      "bbwthdLow": 0.13,
+      "high52": 71.9,
+      "volx": 0.88,
+      "volSurgeWk": 0.96,
+      "aboveMa150": true,
+      "aboveMa50": true,
+      "order": false,
+      "jeongbae": true,
+      "div10": 8.84,
+      "div50": 27.53,
+      "div200": 9.54,
+      "ret1m": 29.28,
+      "ret3m": 51.44,
+      "ret6m": 24.39,
+      "maxRise1m": 43.75,
+      "maxRise3m": 63.87,
+      "maxRise6m": 65.57,
+      "brk60d": true,
+      "clsPos": 63.51,
+      "ma150Slope": -5.77,
+      "ta": {
+        "price": 179.64,
+        "resistance": 194.01,
+        "support": 127.11,
+        "contraction": 1.19,
+        "trend": "mixed"
+      },
+      "ma150SlopeDir": "down",
+      "wrs": {
+        "m1": 0.1567,
+        "m3": 0.2538,
+        "m6": 0.2049,
+        "rankPct6": 18.71,
         "count": 50
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기 (상한 6 초과)"
+        "note": "LLM 리서치 대기"
       },
-      "nameKo": "아틀라시언",
-      "nameEn": "ATLASSIAN CORP"
+      "nameKo": "워크데이",
+      "nameEn": "WORKDAY INC"
     }
   ],
   "themes": {
@@ -10183,66 +9567,69 @@ window.TEAM2_DATA = {
         "name": "Technology",
         "count": 29,
         "tickers": [
-          "AEHR",
-          "MGRT",
+          "TEAM",
           "SNOW",
-          "NVEC",
+          "MGRT",
           "DELL",
-          "MXL",
-          "ZBRA",
-          "BAND",
-          "PANW",
-          "PENG",
-          "ALAB",
-          "IT",
-          "OKTA",
-          "AAOI",
-          "AMBQ",
           "AXTI",
-          "LASR",
-          "MRVL",
-          "SNDK",
-          "DAVE",
-          "AMD",
+          "BAND",
+          "PAYC",
           "QLYS",
-          "NTAP",
-          "MU",
-          "CRWD",
+          "MXL",
+          "AEHR",
+          "OKTA",
+          "NVEC",
+          "AAOI",
+          "IT",
+          "PENG",
+          "ZBRA",
+          "ALNT",
+          "MRVL",
+          "PLTR",
+          "ALAB",
+          "NSIT",
+          "CACI",
+          "PANW",
+          "AMD",
+          "AMBQ",
+          "FEIM",
           "ARM",
-          "DDOG",
-          "VPG",
-          "TEAM"
+          "NTAP",
+          "WDAY"
         ],
-        "sharePct": 53.7
+        "sharePct": 52.7
       },
       {
         "name": "Healthcare",
-        "count": 10,
+        "count": 13,
         "tickers": [
           "CORT",
-          "LQDA",
           "AGL",
-          "MNPR",
-          "SYRE",
-          "ORKA",
-          "GH",
           "TWST",
+          "WGS",
+          "MNPR",
+          "ORKA",
+          "SYRE",
+          "UFPT",
+          "LQDA",
+          "GH",
+          "DNTH",
           "HNGE",
-          "UFPT"
+          "TVTX"
         ],
-        "sharePct": 18.5
+        "sharePct": 23.6
       },
       {
         "name": "Industrials",
         "count": 5,
         "tickers": [
+          "BXC",
           "HURN",
           "PLPC",
-          "HRI",
-          "CSW",
-          "CDNL"
+          "CDNL",
+          "TPC"
         ],
-        "sharePct": 9.3
+        "sharePct": 9.1
       },
       {
         "name": "Consumer Cyclical",
@@ -10250,36 +9637,34 @@ window.TEAM2_DATA = {
         "tickers": [
           "VSXY",
           "W",
-          "CTRN",
-          "COOK"
+          "VAC",
+          "CTRN"
         ],
-        "sharePct": 7.4
+        "sharePct": 7.3
       },
       {
         "name": "Energy",
-        "count": 2,
+        "count": 1,
         "tickers": [
-          "FET",
-          "PARR"
+          "FET"
         ],
-        "sharePct": 3.7
+        "sharePct": 1.8
       },
       {
         "name": "Communication Services",
-        "count": 2,
-        "tickers": [
-          "ATEX",
-          "NBIS"
-        ],
-        "sharePct": 3.7
-      },
-      {
-        "name": "Financial Services",
         "count": 1,
         "tickers": [
-          "SEZL"
+          "ATEX"
         ],
-        "sharePct": 1.9
+        "sharePct": 1.8
+      },
+      {
+        "name": "Consumer Defensive",
+        "count": 1,
+        "tickers": [
+          "ELF"
+        ],
+        "sharePct": 1.8
       },
       {
         "name": "미분류",
@@ -10287,97 +9672,91 @@ window.TEAM2_DATA = {
         "tickers": [
           "HPE-C"
         ],
-        "sharePct": 1.9
+        "sharePct": 1.8
       }
     ],
     "byIndustry": [
       {
         "name": "Semiconductors",
-        "count": 9,
+        "count": 7,
         "tickers": [
-          "NVEC",
           "MXL",
-          "ALAB",
-          "AMBQ",
-          "LASR",
+          "NVEC",
           "MRVL",
+          "ALAB",
           "AMD",
-          "MU",
+          "AMBQ",
           "ARM"
         ],
-        "sharePct": 16.7
+        "sharePct": 12.7
+      },
+      {
+        "name": "Biotechnology",
+        "count": 6,
+        "tickers": [
+          "CORT",
+          "MNPR",
+          "ORKA",
+          "SYRE",
+          "DNTH",
+          "TVTX"
+        ],
+        "sharePct": 10.9
       },
       {
         "name": "Software - Infrastructure",
         "count": 6,
         "tickers": [
           "BAND",
-          "PANW",
-          "OKTA",
           "QLYS",
-          "NTAP",
-          "CRWD"
+          "OKTA",
+          "PLTR",
+          "PANW",
+          "NTAP"
         ],
-        "sharePct": 11.1
-      },
-      {
-        "name": "Biotechnology",
-        "count": 4,
-        "tickers": [
-          "CORT",
-          "MNPR",
-          "SYRE",
-          "ORKA"
-        ],
-        "sharePct": 7.4
+        "sharePct": 10.9
       },
       {
         "name": "Software - Application",
         "count": 4,
         "tickers": [
+          "TEAM",
           "SNOW",
-          "DAVE",
-          "DDOG",
-          "TEAM"
+          "PAYC",
+          "WDAY"
         ],
-        "sharePct": 7.4
+        "sharePct": 7.3
       },
       {
         "name": "Information Technology Services",
-        "count": 3,
+        "count": 4,
         "tickers": [
           "MGRT",
+          "IT",
           "PENG",
-          "IT"
+          "CACI"
         ],
-        "sharePct": 5.6
+        "sharePct": 7.3
       },
       {
-        "name": "Semiconductor Equipment & Materials",
-        "count": 2,
+        "name": "Diagnostics & Research",
+        "count": 3,
         "tickers": [
-          "AEHR",
-          "AXTI"
+          "TWST",
+          "WGS",
+          "GH"
         ],
-        "sharePct": 3.7
-      },
-      {
-        "name": "Computer Hardware",
-        "count": 2,
-        "tickers": [
-          "DELL",
-          "SNDK"
-        ],
-        "sharePct": 3.7
+        "sharePct": 5.5
       },
       {
         "name": "Communication Equipment",
-        "count": 2,
+        "count": 3,
         "tickers": [
+          "AAOI",
           "ZBRA",
-          "AAOI"
+          "FEIM"
         ],
-        "sharePct": 3.7
+        "sharePct": 5.5
       },
       {
         "name": "Apparel Retail",
@@ -10386,32 +9765,33 @@ window.TEAM2_DATA = {
           "VSXY",
           "CTRN"
         ],
-        "sharePct": 3.7
+        "sharePct": 3.6
       },
       {
-        "name": "Diagnostics & Research",
+        "name": "Semiconductor Equipment & Materials",
         "count": 2,
         "tickers": [
-          "GH",
-          "TWST"
+          "AXTI",
+          "AEHR"
         ],
-        "sharePct": 3.7
+        "sharePct": 3.6
       },
       {
-        "name": "Oil & Gas Equipment & Services",
-        "count": 1,
+        "name": "Engineering & Construction",
+        "count": 2,
         "tickers": [
-          "FET"
+          "CDNL",
+          "TPC"
         ],
-        "sharePct": 1.9
+        "sharePct": 3.6
       },
       {
-        "name": "Drug Manufacturers - Specialty & Generic",
+        "name": "Industrial Distribution",
         "count": 1,
         "tickers": [
-          "LQDA"
+          "BXC"
         ],
-        "sharePct": 1.9
+        "sharePct": 1.8
       },
       {
         "name": "Medical Care Facilities",
@@ -10419,7 +9799,23 @@ window.TEAM2_DATA = {
         "tickers": [
           "AGL"
         ],
-        "sharePct": 1.9
+        "sharePct": 1.8
+      },
+      {
+        "name": "Computer Hardware",
+        "count": 1,
+        "tickers": [
+          "DELL"
+        ],
+        "sharePct": 1.8
+      },
+      {
+        "name": "Oil & Gas Equipment & Services",
+        "count": 1,
+        "tickers": [
+          "FET"
+        ],
+        "sharePct": 1.8
       },
       {
         "name": "Consulting Services",
@@ -10427,7 +9823,7 @@ window.TEAM2_DATA = {
         "tickers": [
           "HURN"
         ],
-        "sharePct": 1.9
+        "sharePct": 1.8
       },
       {
         "name": "Telecom Services",
@@ -10435,23 +9831,23 @@ window.TEAM2_DATA = {
         "tickers": [
           "ATEX"
         ],
-        "sharePct": 1.9
+        "sharePct": 1.8
       },
       {
-        "name": "Oil & Gas Refining & Marketing",
+        "name": "Electronic Components",
         "count": 1,
         "tickers": [
-          "PARR"
+          "ALNT"
         ],
-        "sharePct": 1.9
+        "sharePct": 1.8
       },
       {
-        "name": "Credit Services",
+        "name": "Household & Personal Products",
         "count": 1,
         "tickers": [
-          "SEZL"
+          "ELF"
         ],
-        "sharePct": 1.9
+        "sharePct": 1.8
       },
       {
         "name": "Internet Retail",
@@ -10459,7 +9855,7 @@ window.TEAM2_DATA = {
         "tickers": [
           "W"
         ],
-        "sharePct": 1.9
+        "sharePct": 1.8
       },
       {
         "name": "Electrical Equipment & Parts",
@@ -10467,55 +9863,15 @@ window.TEAM2_DATA = {
         "tickers": [
           "PLPC"
         ],
-        "sharePct": 1.9
+        "sharePct": 1.8
       },
       {
-        "name": "Rental & Leasing Services",
+        "name": "Resorts & Casinos",
         "count": 1,
         "tickers": [
-          "HRI"
+          "VAC"
         ],
-        "sharePct": 1.9
-      },
-      {
-        "name": "Specialty Industrial Machinery",
-        "count": 1,
-        "tickers": [
-          "CSW"
-        ],
-        "sharePct": 1.9
-      },
-      {
-        "name": "미분류",
-        "count": 1,
-        "tickers": [
-          "HPE-C"
-        ],
-        "sharePct": 1.9
-      },
-      {
-        "name": "Engineering & Construction",
-        "count": 1,
-        "tickers": [
-          "CDNL"
-        ],
-        "sharePct": 1.9
-      },
-      {
-        "name": "Internet Content & Information",
-        "count": 1,
-        "tickers": [
-          "NBIS"
-        ],
-        "sharePct": 1.9
-      },
-      {
-        "name": "Health Information Services",
-        "count": 1,
-        "tickers": [
-          "HNGE"
-        ],
-        "sharePct": 1.9
+        "sharePct": 1.8
       },
       {
         "name": "Medical Devices",
@@ -10523,23 +9879,39 @@ window.TEAM2_DATA = {
         "tickers": [
           "UFPT"
         ],
-        "sharePct": 1.9
+        "sharePct": 1.8
       },
       {
-        "name": "Furnishings, Fixtures & Appliances",
+        "name": "Electronics & Computer Distribution",
         "count": 1,
         "tickers": [
-          "COOK"
+          "NSIT"
         ],
-        "sharePct": 1.9
+        "sharePct": 1.8
       },
       {
-        "name": "Scientific & Technical Instruments",
+        "name": "Drug Manufacturers - Specialty & Generic",
         "count": 1,
         "tickers": [
-          "VPG"
+          "LQDA"
         ],
-        "sharePct": 1.9
+        "sharePct": 1.8
+      },
+      {
+        "name": "미분류",
+        "count": 1,
+        "tickers": [
+          "HPE-C"
+        ],
+        "sharePct": 1.8
+      },
+      {
+        "name": "Health Information Services",
+        "count": 1,
+        "tickers": [
+          "HNGE"
+        ],
+        "sharePct": 1.8
       }
     ],
     "clusters": [
@@ -10548,37 +9920,37 @@ window.TEAM2_DATA = {
         "level": "Sector",
         "name": "Technology",
         "count": 29,
-        "sharePct": 53.7,
+        "sharePct": 52.7,
         "tickers": [
-          "AEHR",
-          "MGRT",
+          "TEAM",
           "SNOW",
-          "NVEC",
+          "MGRT",
           "DELL",
-          "MXL",
-          "ZBRA",
-          "BAND",
-          "PANW",
-          "PENG",
-          "ALAB",
-          "IT",
-          "OKTA",
-          "AAOI",
-          "AMBQ",
           "AXTI",
-          "LASR",
-          "MRVL",
-          "SNDK",
-          "DAVE",
-          "AMD",
+          "BAND",
+          "PAYC",
           "QLYS",
-          "NTAP",
-          "MU",
-          "CRWD",
+          "MXL",
+          "AEHR",
+          "OKTA",
+          "NVEC",
+          "AAOI",
+          "IT",
+          "PENG",
+          "ZBRA",
+          "ALNT",
+          "MRVL",
+          "PLTR",
+          "ALAB",
+          "NSIT",
+          "CACI",
+          "PANW",
+          "AMD",
+          "AMBQ",
+          "FEIM",
           "ARM",
-          "DDOG",
-          "VPG",
-          "TEAM"
+          "NTAP",
+          "WDAY"
         ],
         "concentration": "high"
       },
@@ -10586,38 +9958,55 @@ window.TEAM2_DATA = {
         "key": "Sector:Healthcare",
         "level": "Sector",
         "name": "Healthcare",
-        "count": 10,
-        "sharePct": 18.5,
+        "count": 13,
+        "sharePct": 23.6,
         "tickers": [
           "CORT",
-          "LQDA",
           "AGL",
-          "MNPR",
-          "SYRE",
-          "ORKA",
-          "GH",
           "TWST",
+          "WGS",
+          "MNPR",
+          "ORKA",
+          "SYRE",
+          "UFPT",
+          "LQDA",
+          "GH",
+          "DNTH",
           "HNGE",
-          "UFPT"
+          "TVTX"
         ],
-        "concentration": "mid"
+        "concentration": "high"
       },
       {
         "key": "Industry:Semiconductors",
         "level": "Industry",
         "name": "Semiconductors",
-        "count": 9,
-        "sharePct": 16.7,
+        "count": 7,
+        "sharePct": 12.7,
         "tickers": [
-          "NVEC",
           "MXL",
-          "ALAB",
-          "AMBQ",
-          "LASR",
+          "NVEC",
           "MRVL",
+          "ALAB",
           "AMD",
-          "MU",
+          "AMBQ",
           "ARM"
+        ],
+        "concentration": "mid"
+      },
+      {
+        "key": "Industry:Biotechnology",
+        "level": "Industry",
+        "name": "Biotechnology",
+        "count": 6,
+        "sharePct": 10.9,
+        "tickers": [
+          "CORT",
+          "MNPR",
+          "ORKA",
+          "SYRE",
+          "DNTH",
+          "TVTX"
         ],
         "concentration": "mid"
       },
@@ -10626,14 +10015,14 @@ window.TEAM2_DATA = {
         "level": "Industry",
         "name": "Software - Infrastructure",
         "count": 6,
-        "sharePct": 11.1,
+        "sharePct": 10.9,
         "tickers": [
           "BAND",
-          "PANW",
-          "OKTA",
           "QLYS",
-          "NTAP",
-          "CRWD"
+          "OKTA",
+          "PLTR",
+          "PANW",
+          "NTAP"
         ],
         "concentration": "mid"
       },
@@ -10642,13 +10031,13 @@ window.TEAM2_DATA = {
         "level": "Sector",
         "name": "Industrials",
         "count": 5,
-        "sharePct": 9.3,
+        "sharePct": 9.1,
         "tickers": [
+          "BXC",
           "HURN",
           "PLPC",
-          "HRI",
-          "CSW",
-          "CDNL"
+          "CDNL",
+          "TPC"
         ],
         "concentration": "low"
       },
@@ -10657,26 +10046,12 @@ window.TEAM2_DATA = {
         "level": "Sector",
         "name": "Consumer Cyclical",
         "count": 4,
-        "sharePct": 7.4,
+        "sharePct": 7.3,
         "tickers": [
           "VSXY",
           "W",
-          "CTRN",
-          "COOK"
-        ],
-        "concentration": "low"
-      },
-      {
-        "key": "Industry:Biotechnology",
-        "level": "Industry",
-        "name": "Biotechnology",
-        "count": 4,
-        "sharePct": 7.4,
-        "tickers": [
-          "CORT",
-          "MNPR",
-          "SYRE",
-          "ORKA"
+          "VAC",
+          "CTRN"
         ],
         "concentration": "low"
       },
@@ -10685,12 +10060,12 @@ window.TEAM2_DATA = {
         "level": "Industry",
         "name": "Software - Application",
         "count": 4,
-        "sharePct": 7.4,
+        "sharePct": 7.3,
         "tickers": [
+          "TEAM",
           "SNOW",
-          "DAVE",
-          "DDOG",
-          "TEAM"
+          "PAYC",
+          "WDAY"
         ],
         "concentration": "low"
       },
@@ -10698,60 +10073,26 @@ window.TEAM2_DATA = {
         "key": "Industry:Information Technology Services",
         "level": "Industry",
         "name": "Information Technology Services",
-        "count": 3,
-        "sharePct": 5.6,
+        "count": 4,
+        "sharePct": 7.3,
         "tickers": [
           "MGRT",
+          "IT",
           "PENG",
-          "IT"
+          "CACI"
         ],
         "concentration": "low"
       },
       {
-        "key": "Sector:Energy",
-        "level": "Sector",
-        "name": "Energy",
-        "count": 2,
-        "sharePct": 3.7,
-        "tickers": [
-          "FET",
-          "PARR"
-        ],
-        "concentration": "low"
-      },
-      {
-        "key": "Sector:Communication Services",
-        "level": "Sector",
-        "name": "Communication Services",
-        "count": 2,
-        "sharePct": 3.7,
-        "tickers": [
-          "ATEX",
-          "NBIS"
-        ],
-        "concentration": "low"
-      },
-      {
-        "key": "Industry:Semiconductor Equipment & Materials",
+        "key": "Industry:Diagnostics & Research",
         "level": "Industry",
-        "name": "Semiconductor Equipment & Materials",
-        "count": 2,
-        "sharePct": 3.7,
+        "name": "Diagnostics & Research",
+        "count": 3,
+        "sharePct": 5.5,
         "tickers": [
-          "AEHR",
-          "AXTI"
-        ],
-        "concentration": "low"
-      },
-      {
-        "key": "Industry:Computer Hardware",
-        "level": "Industry",
-        "name": "Computer Hardware",
-        "count": 2,
-        "sharePct": 3.7,
-        "tickers": [
-          "DELL",
-          "SNDK"
+          "TWST",
+          "WGS",
+          "GH"
         ],
         "concentration": "low"
       },
@@ -10759,11 +10100,12 @@ window.TEAM2_DATA = {
         "key": "Industry:Communication Equipment",
         "level": "Industry",
         "name": "Communication Equipment",
-        "count": 2,
-        "sharePct": 3.7,
+        "count": 3,
+        "sharePct": 5.5,
         "tickers": [
+          "AAOI",
           "ZBRA",
-          "AAOI"
+          "FEIM"
         ],
         "concentration": "low"
       },
@@ -10772,7 +10114,7 @@ window.TEAM2_DATA = {
         "level": "Industry",
         "name": "Apparel Retail",
         "count": 2,
-        "sharePct": 3.7,
+        "sharePct": 3.6,
         "tickers": [
           "VSXY",
           "CTRN"
@@ -10780,99 +10122,41 @@ window.TEAM2_DATA = {
         "concentration": "low"
       },
       {
-        "key": "Industry:Diagnostics & Research",
+        "key": "Industry:Semiconductor Equipment & Materials",
         "level": "Industry",
-        "name": "Diagnostics & Research",
+        "name": "Semiconductor Equipment & Materials",
         "count": 2,
-        "sharePct": 3.7,
+        "sharePct": 3.6,
         "tickers": [
-          "GH",
-          "TWST"
+          "AXTI",
+          "AEHR"
+        ],
+        "concentration": "low"
+      },
+      {
+        "key": "Industry:Engineering & Construction",
+        "level": "Industry",
+        "name": "Engineering & Construction",
+        "count": 2,
+        "sharePct": 3.6,
+        "tickers": [
+          "CDNL",
+          "TPC"
         ],
         "concentration": "low"
       }
     ],
-    "headline": "Technology 29종목(53.7%) · Healthcare 10종목(18.5%) · Semiconductors 9종목(16.7%)",
+    "headline": "Technology 29종목(52.7%) · Healthcare 13종목(23.6%) · Semiconductors 7종목(12.7%)",
     "minCount": 2,
-    "total": 54,
-    "llm": {
-      "leadingTheme": {
-        "name": "AI 데이터센터 캐펙스 사이클 (반도체·AI 인프라)",
-        "why": "클러스터 자체가 이미 한쪽으로 쏠려 있다. Technology 53.7%(29종목) + Industry:Semiconductors 16.7%(9종목) + Software-Infrastructure 11.1%(6종목)로, 상위 3개 클러스터가 모두 AI 인프라 밸류체인 한 줄에 꿰인다. 검색으로 확인한 실제 동인은 다음과 같다. (1) 하이퍼스케일러 캐펙스 급증 — BofA는 향후 12개월 하이퍼스케일러 캐펙스가 1.2조 달러를 넘을 것으로 전망(기존 약 7,000억 달러에서 상향). 원문: \"Bank of America now expects hyperscaler capex to top $1.2 trillion over the next 12 months, up from roughly $700 billion.\" (https://www.benzinga.com/markets/tech/26/08/60886732/hyperscaler-capex-1-2-trillion-9-semiconductor-stocks-bofa , https://www.benzinga.com/etfs/sector-etfs/26/08/60911484/big-tech-1-2-trillion-hyperscaler-ai-bet-could-ignite-the-next-semiconductor-etf-rally) (2) 메모리 슈퍼사이클 — MU는 2026년 HBM 물량이 전량 소진(sold out)됐고 3~5년 장기계약으로 전환 중. 원문: \"The entire 2026 HBM supply is sold out under multi-year contracts.\" (https://www.investing.com/analysis/microns-soldout-hbm-supply-makes-the-bull-case-hard-to-dismiss-200681391 , https://io-fund.com/ai-stocks/micron-stock-up-100-hbm-leader-2026-plan) (3) AI 인터커넥트 실수요 — ALAB는 2026년 8월 4일 2분기 실적을 발표했고 가이던스는 매출 3.55~3.65억 달러(전분기 대비 +15~18%), 컨센서스 기준 전년 대비 약 +57%였다 (https://www.benzinga.com/trading-ideas/movers/26/08/60882856/astera-labs-stock-rises-ahead-of-q2-earnings , https://www.stocktitan.net/news/ALAB/astera-labs-announces-conference-call-to-review-second-quarter-2026-s2dnxh4zjsp3.html) (4) 서버 실수요 — DELL은 AI 최적화 서버 매출 90억 달러(+342% YoY), AI 수주잔고 430억 달러를 기록했고 이후 사상 최대 513억 달러까지 늘었다 (https://futurumgroup.com/insights/dell-q4-fy-2026-earnings-highlight-ai-optimized-server-ramp/ , https://www.blocksandfiles.com/ai-ml/2026/05/29/dells-extraordinary-ai-server-revenue-acceleration/5248541) (5) 확보된 리서치의 AEHR도 같은 줄 — 주요 실리콘포토닉스 고객사로부터 AI 데이터센터용 광인터커넥트향 FOX-XP 후속 발주 확보, FY2027 매출 가이던스 1.3~1.5억 달러(전년비 160~200% 성장), 실효 백로그 1억60만 달러. 즉 대형주(AMD/MU/ARM/MRVL)부터 소형 장비주(AEHR/ALAB/AMBQ)까지 '같은 지출 사이클의 서로 다른 층'을 먹고 있다는 점에서 주도 테마로 인정할 만하다.",
-        "tickers": [
-          "AMD",
-          "MU",
-          "ARM",
-          "MRVL",
-          "ALAB",
-          "AEHR",
-          "MXL",
-          "NVEC",
-          "AMBQ",
-          "LASR",
-          "DELL",
-          "NTAP",
-          "SNOW"
-        ],
-        "strength": "strong"
-      },
-      "subThemes": [
-        {
-          "name": "AI 광인터커넥트 / 실리콘포토닉스 (테마 안의 진짜 신선한 축)",
-          "tickers": [
-            "AEHR",
-            "MXL",
-            "LASR",
-            "ALAB"
-          ],
-          "why": "단순 'GPU 수혜'가 아니라 데이터센터 내부 배선이 구리에서 빛으로 넘어가는 구간에 걸린 종목군. AI용 광트랜시버 시장은 2025년 165억 달러에서 2026년 260억 달러로 성장 전망이고, 800G 이상 출하량은 전년 대비 100% 증가 중이며 800G·1.6T 광모듈의 실리콘포토닉스 침투율이 50~70%에 이를 것으로 전망된다 (https://www.yolegroup.com/press-release/silicon-photonics-and-co-packaged-optics-at-the-heart-of-next-generation-ai-driven-data-infrastructure/ , https://www.tomshardware.com/networking/nvidia-outlines-plans-for-using-light-for-communication-between-ai-gpus-by-2026-silicon-photonics-and-co-packaged-optics-may-become-mandatory-for-next-gen-ai-data-centers). MXL은 Jabil과 실리콘포토닉스 기반 800G 광모듈 양산 공급을 발표한 이력이 확인된다. AEHR은 확보된 리서치대로 실리콘포토닉스 고객사 FOX-XP 후속 발주를 명시적으로 밝혔다. 다만 CPO 대규모 배치는 2028~2030년 전망이라 지금은 '기대 선반영' 구간이라는 점은 감안해야 한다."
-        },
-        {
-          "name": "사이버보안·아이덴티티 SW (Software-Infrastructure 클러스터의 실체)",
-          "tickers": [
-            "PANW",
-            "CRWD",
-            "OKTA",
-            "QLYS"
-          ],
-          "why": "Software-Infrastructure 6종목 중 4종목이 보안이다. 실적으로 뒷받침된다 — PANW FY26 3분기 매출 30억 달러(+31% YoY), NGS ARR 81억 달러(+60% YoY), CRWD FY27 1분기 매출 13.9억 달러(+26% YoY), ARR 55.1억 달러, OKTA FY27 1분기 매출 +11%로 셋 다 컨센서스 상회. 촉매는 Scotiabank의 아이덴티티·익스포저 관리 벤더 대상 무더기 등급 상향이었고, UBS는 2026년 글로벌 사이버보안 시장이 13% 성장한 2,400억 달러가 될 것으로 봤다 (https://247wallst.com/investing/2026/07/06/crowdstrike-surges-5-palo-alto-and-okta-gain-4-as-cybersecurity-stocks-rally-on-analyst-upgrades/ , https://247wallst.com/investing/2026/06/29/palo-alto-networks-surges-9-crowdstrike-rises-7-okta-gains-5-can-the-cybersecurity-rally-justify-its-valuations/). QLYS는 이 랠리 기사에서 직접 언급되지 않아 동반 편입은 추정이며, 근거 강도가 나머지 3개보다 낮다."
-        },
-        {
-          "name": "'어닝 서프라이즈 + 연간 가이던스 상향' 패턴 (섹터를 가로지르는 행태적 공통점)",
-          "tickers": [
-            "CORT",
-            "LQDA",
-            "AGL",
-            "GH",
-            "AEHR"
-          ],
-          "why": "이건 산업 테마가 아니라 '상승 메커니즘'이 같은 묶음이라 별도로 잡는다. 확보된 리서치 기준 — CORT는 2분기 매출 2.561억 달러(컨센서스 2.16억 상회)에 연간 가이던스를 9.5~10.5억에서 11~12억 달러로 상향, AGL은 1분기 매출 14.2억 달러·EPS 1.80달러로 상회하며 연간 가이던스를 56.8~58.05억 달러로 상향, LQDA는 YUTREPIA 매출 1.3287억 달러로 3분기 연속 흑자, AEHR도 실적 서프라이즈 + FY27 가이던스 제시. 여기에 검색으로 확인한 GH가 정확히 같은 패턴 — 2026년 2분기 매출 3.35억 달러(+44% YoY, 컨센서스 3.14억 상회), 연간 가이던스를 13.4~13.6억 달러로 상향 (https://seekingalpha.com/news/4622752-guardant-health-stock-rises-guidance-hike , https://markets.financialcontent.com/stocks/article/stockstory-2026-7-30-guardant-health-nasdaqgh-delivers-strong-q2-cy2026-numbers-stock-soars). 즉 Healthcare 클러스터는 '헬스케어여서' 오른 게 아니라 '가이던스를 올려서' 올랐다."
-        },
-        {
-          "name": "실적 없는 희귀질환·면역 바이오텍 (같은 섹터지만 동인이 다른 잔여군)",
-          "tickers": [
-            "MNPR",
-            "SYRE",
-            "ORKA",
-            "TWST"
-          ],
-          "why": "위 '가이던스 상향' 그룹과 반드시 분리해야 하는 묶음. 매출이 아니라 임상 데이터와 자금조달로 움직인다. ORKA는 ORKA-001 EVERLAST-A 16주 데이터에서 PASI 100 63.5%를 보고했고 장기 데이터가 2026년 하반기로 예정돼 있으며, 연내 다수의 424B5(증권신고서 추가) 제출이 확인된다 (https://www.globenewswire.com/news-release/2026/05/13/3294407/0/en/oruka-therapeutics-reports-first-quarter-2026-financial-results-and-provides-corporate-update.html , https://www.sec.gov/Archives/edgar/data/0000907654/000121390026048099/ea028778101-424b5_oruka.htm). MNPR·SYRE·TWST는 검색으로 개별 상승 사유를 특정하지 못했다 — evidence_level: no_source, 근거 없음, sources: []. 따라서 이 4종목은 '테마'라기보다 금리·유동성에 민감한 무이익 바이오 바스켓으로만 취급해야 한다."
-        }
-      ],
-      "crossCuttingDriver": "\n관통하는 동인은 두 겹이다. 첫째는 실물 지출 — AI 데이터센터 캐펙스가 '기대'에서 '계약된 수주잔고'로 굳어지는 국면이다. BofA의 하이퍼스케일러 캐펙스 1.2조 달러 전망, MU의 2026년 HBM 전량 소진 및 3~5년 장기계약 전환, DELL의 513억 달러 AI 백로그, AEHR의 1억60만 달러 실효 백로그가 모두 같은 말을 다른 층위에서 하고 있다. 핵심은 '분기마다 재협상하던 사이클이 다년 계약으로 바뀌면서 실적 가시성이 구조적으로 올라갔다'는 점이고, 이게 반도체·장비·인터커넥트·서버·스토리지·데이터플랫폼까지 클러스터를 세로로 관통한다. 둘째는 할인율 — 연준 금리인하 기대다. 이건 Technology가 아니라 Healthcare 클러스터를 설명하는 축이다. Goldman Sachs와 Mizuho는 2026년 바이오텍 강세 근거로 임상 자금조달 비용을 낮추는 금리인하를 명시했고, 2026~2028년 2,000억 달러 규모 특허절벽에 따른 M&A 수요가 구조적 지지로 지목된다 (https://www.mizuhogroup.com/americas-insights/can-the-comeback-continue-2026-biotech-outlook , https://finance.yahoo.com/news/heres-why-biotech-etfs-rallying-150000062.html). 정리하면 이번 스크리닝 결과는 '캐펙스가 밀어올린 기술주 + 금리가 들어올린 무이익 바이오'라는 두 엔진이 겹친 리스크온 국면이며, 2026년 7월 30일 램리서치 +17.6%를 비롯한 반도체 일제 급등과 8월 4일 인텔·AMD·브로드컴 동반 상승이 그 리스크온의 최근 표현이다 (https://247wallst.com/investing/2026/08/04/intel-soars-10-amd-jumps-8-broadcom-rises-6-as-chip-stocks-ride-a-risk-on-rally/ , https://www.cnbc.com/2026/06/30/ai-chip-rally-in-q2-adds-2-trillion-in-value-to-micron-intel-amd-.html). 두 엔진이 공유하는 단일 취약점은 '유동성'이다.\n",
-      "caution": "\n1) 가장 큰 한계 — Technology 53.7%는 테마 발견이 아니라 시장 자체일 수 있다. 2026년 반도체는 이미 AMD +122%, MU +188%, MRVL 약 +200%, ARM +134% 수준의 광범위 랠리 상태다. 이 국면에서 브레이크아웃 스크리너를 돌리면 무엇을 걸러도 반도체가 절반을 차지한다. 즉 '주도 테마를 포착한 것'과 '지수 쏠림을 그대로 복사한 것'이 구분되지 않는다. 반증 방법: 동일 스크리너를 equal-weight 대비 초과수익 기준으로 다시 돌려 Tech 비중이 53.7% 밑으로 떨어지는지 확인할 것.\n2) MGRT는 테마에서 반드시 배제해야 한다. 확보된 리서치가 명시적으로 '실적이나 공시 등 펀더멘털상 근거는 없었고' 온라인 커뮤니티 숏스퀴즈 기대에 따른 밈주식 투기 매수(거래대금 230만→1690만 달러)라고 적고 있다. IoT 태그 때문에 Technology 클러스터에 들어가 Tech 비중을 부풀리고 있으나, 동인이 전혀 다르다. 같은 이유로 클러스터 count는 테마 강도의 증거가 아니다.\n3) Industrials 5종목(HURN, PLPC, HRI, CSW, CDNL)은 검증 통과한 리서치가 하나도 없다. 상승 사유를 특정하지 못했으므로 evidence_level: no_source, 근거 없음, sources: [] 로 남긴다. 이들에 산업재 테마를 붙이는 것은 추측이다.\n4) 시점 리스크 — ALAB 2분기 실적은 2026년 8월 4일, 즉 어제 발표됐다. 발표 이후 주가 반응은 확인하지 못했다. 마진 압박, 높은 밸류에이션, MRVL·Credo·Cisco와의 경쟁 심화가 리스크로 지적되고 있어, 이 종목의 클러스터 편입 근거는 실적 발표 전 기대감일 가능성이 있다.\n5) AI 캐펙스 테마의 정직한 반증 시나리오 — 하이퍼스케일러 4사 중 한 곳만 캐펙스 가이던스를 하향해도 이 테마 전체가 동시에 꺾인다. 종목 수 29개는 분산이 아니라 단일 요인에 대한 29중 중복 베팅에 가깝다. 특히 광인터커넥트 서브테마는 CPO 대규모 배치가 2028~2030년으로 전망되는데 주가는 이미 반응한 상태라 기대와 매출 인식 사이의 시차가 가장 크다.\n6) 소형 바이오(MNPR, SYRE, TWST)는 상승 사유 자체를 확인하지 못했다. 금리인하 기대가 꺾이면 이 그룹이 가장 먼저, 가장 크게 되돌린다. 또한 ORKA에서 확인되듯 무이익 바이오텍의 424B5 유상증자는 상승 직후 희석 리스크로 직결된다.\n"
-    }
+    "total": 55
   },
   "research_coverage": {
-    "done": 6,
-    "total": 54,
-    "cap": 6,
-    "pending": 48,
-    "note": "상한(6) 때문에 48종목은 아직 리서치 대기입니다. 캐시가 쌓이면 며칠 안에 전량 커버됩니다."
+    "done": 0,
+    "total": 55
   },
   "detail_coverage": {
     "done": 20,
-    "total": 54,
+    "total": 55,
     "cap": 20
   }
 };
