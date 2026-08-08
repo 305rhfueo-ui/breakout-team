@@ -8,7 +8,7 @@
 
 const path = require('path');
 const fs = require('fs');
-const { paths, loadEnv, today, readJson, writeJson, writeText, writeWindowData, say, round } = require('./lib/util');
+const { paths, loadEnv, today, readJson, writeJson, writeWindowData, say, coverageOf } = require('./lib/util');
 const { verifyPayload } = require('./lib/verify-claims');
 
 function loadWindowData(file, varName) {
@@ -93,15 +93,11 @@ async function main() {
       //    워크플로가 돌려주는 coverage.total 은 "그 실행에 넘긴 종목 수"라
       //    그대로 쓰면 6/6 처럼 전량 조사한 것으로 보인다(실제로는 54 중 6).
       //    상한 때문에 빠진 종목을 숨기지 않는 것이 이 시스템의 원칙이다.
-      const totalPicks = (d.picks || []).length;
-      d.research_coverage = {
-        done, total: totalPicks,
+      d.research_coverage = coverageOf({
+        done, total: (d.picks || []).length,
         cap: (payload.team2.coverage || {}).cap ?? null,
-        pending: Math.max(0, totalPicks - done),
-        note: done < totalPicks
-          ? `상한(${(payload.team2.coverage || {}).cap ?? '?'}) 때문에 ${totalPicks - done}종목은 아직 리서치 대기입니다. 캐시가 쌓이면 며칠 안에 전량 커버됩니다.`
-          : '전 종목 리서치 완료',
-      };
+        hint: '캐시가 쌓이면 며칠 안에 전량 커버됩니다.',
+      });
       writeWindowData(f, 'TEAM2_DATA', d);
       merged.push(`team2(리서치 ${done})`);
     }
@@ -121,7 +117,13 @@ async function main() {
       d.llm = payload.team4.summary || null;
       d.reusedFrom = reuse.team4 || null;
       d.byCategory = payload.team4.byCategory || d.byCategory;
-      d.research_coverage = { done, total: (d.items || []).length, ...(payload.team4.coverage || {}) };
+      // ⚠️ 예전엔 ...payload.team4.coverage 를 뒤에 펼쳐서 total 이 12(=상한)로 덮였다.
+      //    40종목 중 12개만 조사했는데 화면엔 12/12 로 나왔다. 절대 되돌리지 말 것.
+      d.research_coverage = coverageOf({
+        done, total: (d.items || []).length,
+        cap: (payload.team4.coverage || {}).cap ?? null,
+        hint: '거래대금 급증 순으로 우선 조사하며, 나머지는 다음 실행에서 채워집니다.',
+      });
       writeWindowData(f, 'TEAM4_DATA', d);
       merged.push(`team4(촉매 ${done})`);
     }

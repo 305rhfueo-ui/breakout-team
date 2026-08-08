@@ -1,7 +1,7 @@
 window.TEAM1_DATA = {
   "generated": "2026-08-09",
   "data_source": {
-    "rs_last_updated": "2026-08-07 22:42:16 UTC",
+    "rs_last_updated": "2026-08-08 21:56:59 UTC",
     "stale": false,
     "source": "live",
     "columns": 46
@@ -159,7 +159,7 @@ window.TEAM1_DATA = {
         "freeMargin": "D"
       }
     },
-    "fetched_at": "2026-08-08T20:41:48.662Z"
+    "fetched_at": "2026-08-08T22:05:00.982Z"
   },
   "leaders": {
     "stocks": [
@@ -170,9 +170,9 @@ window.TEAM1_DATA = {
         "price": 149.07000732421875,
         "bestPct": 99.96,
         "rs": {
-          "m1": 99.96395097332372,
-          "m3": 98.87599709934736,
-          "m6": 95.67901234567901
+          "m1": 99.96433666191156,
+          "m3": 98.8880918220947,
+          "m6": 95.75606276747504
         },
         "div200": 37.97,
         "div50": 59.09,
@@ -186,15 +186,37 @@ window.TEAM1_DATA = {
         }
       },
       {
+        "ticker": "MGRT",
+        "sector": "Technology",
+        "industry": "Information Technology Services",
+        "price": 94.8499984741211,
+        "bestPct": 99.96,
+        "rs": {
+          "m1": 82.63195435092724,
+          "m3": 2.187948350071736,
+          "m6": 99.96433666191156
+        },
+        "div200": 111.08,
+        "div50": 14.53,
+        "adr": 7.56,
+        "high52": 55.79,
+        "overheat": {
+          "status": "normal",
+          "label": "정상(+111%)",
+          "div200": 111.08,
+          "threshold": 150
+        }
+      },
+      {
         "ticker": "SNOW",
         "sector": "Technology",
         "industry": "Software - Application",
         "price": 330.489990234375,
         "bestPct": 99.96,
         "rs": {
-          "m1": 97.29632299927901,
-          "m3": 99.96374184191443,
-          "m6": 95.96949891067538
+          "m1": 97.32524964336662,
+          "m3": 99.96413199426112,
+          "m6": 96.0413694721826
         },
         "div200": 55.58,
         "div50": 26.04,
@@ -208,25 +230,26 @@ window.TEAM1_DATA = {
         }
       },
       {
-        "ticker": "MGRT",
-        "sector": "Technology",
-        "industry": "Information Technology Services",
-        "price": 94.8499984741211,
-        "bestPct": 99.96,
+        "ticker": "AGL",
+        "sector": "Healthcare",
+        "industry": "Medical Care Facilities",
+        "price": 95.51000213623047,
+        "bestPct": 99.89,
         "rs": {
-          "m1": 82.58832011535688,
-          "m3": 2.139231327048586,
-          "m6": 99.96368917937546
+          "m1": 4.3865905848787445,
+          "m3": 93.00573888091822,
+          "m6": 99.89300998573466
         },
-        "div200": 111.08,
-        "div50": 14.53,
-        "adr": 7.51,
-        "high52": 55.79,
+        "div200": 115.82,
+        "div50": -10.05,
+        "adr": 10.7,
+        "high52": 71.79,
         "overheat": {
-          "status": "normal",
-          "label": "정상(+111%)",
-          "div200": 111.08,
-          "threshold": 150
+          "status": "overheat",
+          "label": "🔥과열(+116%)",
+          "div200": 115.82,
+          "threshold": 112,
+          "note": "고변동성(ADR 10.7%) 기준 +112% 초과 — 분할 차익 검토. 전량 매도는 금지(추세 지속 사례 다수)"
         }
       },
       {
@@ -236,9 +259,9 @@ window.TEAM1_DATA = {
         "price": 89.87999725341797,
         "bestPct": 99.89,
         "rs": {
-          "m1": 99.89185291997116,
-          "m3": 99.31109499637418,
-          "m6": 69.75308641975309
+          "m1": 99.89300998573466,
+          "m3": 99.31850789096126,
+          "m6": 69.9358059914408
         },
         "div200": 48.67,
         "div50": 55.5,
@@ -258,9 +281,9 @@ window.TEAM1_DATA = {
         "price": 110.7699966430664,
         "bestPct": 99.89,
         "rs": {
-          "m1": 94.26820475847151,
-          "m3": 99.8912255257433,
-          "m6": 99.01960784313727
+          "m1": 94.32952924393724,
+          "m3": 99.89239598278336,
+          "m6": 99.03708987161198
         },
         "div200": 76.85,
         "div50": 24.94,
@@ -274,26 +297,25 @@ window.TEAM1_DATA = {
         }
       },
       {
-        "ticker": "AGL",
-        "sector": "Healthcare",
-        "industry": "Medical Care Facilities",
-        "price": 95.51000213623047,
-        "bestPct": 99.89,
+        "ticker": "DELL",
+        "sector": "Technology",
+        "industry": "Computer Hardware",
+        "price": 453.7699890136719,
+        "bestPct": 99.82,
         "rs": {
-          "m1": 4.361932227829849,
-          "m3": 92.929659173314,
-          "m6": 99.89106753812636
+          "m1": 57.45363766048502,
+          "m3": 99.46197991391679,
+          "m6": 99.82168330955777
         },
-        "div200": 115.82,
-        "div50": -10.05,
-        "adr": 10.61,
-        "high52": 71.79,
+        "div200": 105.25,
+        "div50": 9.22,
+        "adr": 7.86,
+        "high52": 93.43,
         "overheat": {
-          "status": "overheat",
-          "label": "🔥과열(+116%)",
-          "div200": 115.82,
-          "threshold": 112,
-          "note": "고변동성(ADR 10.61%) 기준 +112% 초과 — 분할 차익 검토. 전량 매도는 금지(추세 지속 사례 다수)"
+          "status": "normal",
+          "label": "정상(+105%)",
+          "div200": 105.25,
+          "threshold": 150
         }
       },
       {
@@ -303,9 +325,9 @@ window.TEAM1_DATA = {
         "price": 130.42999267578125,
         "bestPct": 99.82,
         "rs": {
-          "m1": 99.81975486661861,
-          "m3": 0.3988397389412618,
-          "m6": 0.2541757443718228
+          "m1": 99.82168330955777,
+          "m3": 0.3945480631276901,
+          "m6": 0.24964336661911554
         },
         "div200": -37.96,
         "div50": 32.74,
@@ -326,40 +348,18 @@ window.TEAM1_DATA = {
         "price": 98.54000091552734,
         "bestPct": 99.82,
         "rs": {
-          "m1": 96.79163662581111,
-          "m3": 99.81870920957215,
-          "m6": 94.44444444444444
+          "m1": 96.82596291012838,
+          "m3": 99.82065997130559,
+          "m6": 94.5435092724679
         },
         "div200": 70.94,
         "div50": 22,
-        "adr": 4.72,
-        "high52": 99.27,
+        "adr": 4.73,
+        "high52": 99.2,
         "overheat": {
           "status": "normal",
           "label": "정상(+71%)",
           "div200": 70.94,
-          "threshold": 150
-        }
-      },
-      {
-        "ticker": "DELL",
-        "sector": "Technology",
-        "industry": "Computer Hardware",
-        "price": 453.7699890136719,
-        "bestPct": 99.82,
-        "rs": {
-          "m1": 57.42609949531363,
-          "m3": 99.45612762871646,
-          "m6": 99.81844589687728
-        },
-        "div200": 105.25,
-        "div50": 9.22,
-        "adr": 7.86,
-        "high52": 93.43,
-        "overheat": {
-          "status": "normal",
-          "label": "정상(+105%)",
-          "div200": 105.25,
           "threshold": 150
         }
       },
@@ -370,13 +370,13 @@ window.TEAM1_DATA = {
         "price": 88.58000183105469,
         "bestPct": 99.75,
         "rs": {
-          "m1": 99.74765681326603,
-          "m3": 1.9941986947063088,
-          "m6": 99.60058097313
+          "m1": 99.75035663338089,
+          "m3": 2.0444763271162123,
+          "m6": 99.6077032810271
         },
         "div200": 82.79,
         "div50": 22.33,
-        "adr": 15.65,
+        "adr": 15.66,
         "high52": 61.87,
         "overheat": {
           "status": "normal",
@@ -392,13 +392,13 @@ window.TEAM1_DATA = {
         "count": 22,
         "tickers": [
           "TEAM",
-          "SNOW",
           "MGRT",
+          "SNOW",
           "DELL",
           "AXTI",
           "BAND",
           "PAYC",
-          "QLYS"
+          "MXL"
         ],
         "sharePct": 44
       },
@@ -406,14 +406,14 @@ window.TEAM1_DATA = {
         "name": "Healthcare",
         "count": 12,
         "tickers": [
-          "CORT",
           "AGL",
+          "CORT",
           "TWST",
           "WGS",
           "MNPR",
           "ORKA",
           "SYRE",
-          "HALO"
+          "MANE"
         ],
         "sharePct": 24
       },
@@ -460,7 +460,7 @@ window.TEAM1_DATA = {
       }
     ],
     "market_overheat": {
-      "count": 1387,
+      "count": 1396,
       "over150": 0,
       "over100": 5,
       "reentry": 37,
@@ -661,8 +661,8 @@ window.TEAM1_DATA = {
     "candidateCount": 6,
     "verified": {
       "checked": 120,
-      "ok": 119,
-      "unverified": 30,
+      "ok": 120,
+      "unverified": 29,
       "dead": 2,
       "stripped": 0,
       "removed": [

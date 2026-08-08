@@ -90,9 +90,17 @@ async function main() {
 
   // ── 5) 4팀 EP 후보 (VOL_X≥2.0 또는 주간거래량≥2.0배) ──
   const epRows = rows.filter((r) => (num(r.VOL_X) ?? 0) >= 2.0 || (num(r.Vol_Surge_Wk) ?? 0) >= 2.0);
-  const epCap = Number(process.env.EP_CAP || 40);
-  const epTop = [...epRows].sort((a, b) => (num(b.VOL_X) ?? 0) - (num(a.VOL_X) ?? 0)).slice(0, epCap);
-  say('T4', `거래량 급증 ${epRows.length}종목 (VOL_X≥2 또는 주간 2배) → 상위 ${epTop.length}개 분석`);
+  // ⚠️ 예전엔 상위 40개만 분석했다(EP_CAP). 그런데 그 40개를 VOL_X(거래대금/20일평균)로만
+  //    골라서, 거래대금은 낮지만 주식 수 기준 거래량이 폭증한 종목이 조용히 잘려나갔다.
+  //    두 지표는 단위가 달라(거래대금 vs 주식 수) 하나로 줄세우는 것 자체가 틀렸다.
+  //    congestion 판정은 봉만 있으면 되고 LLM 을 쓰지 않는다 — 26종목 추가에 약 2초다.
+  //    그래서 정렬 기준을 고민하는 대신 상한을 없애 선택 편향을 통째로 제거한다.
+  //    (여전히 제한하고 싶으면 EP_CAP 환경변수로 지정할 수 있다)
+  const epCap = Number(process.env.EP_CAP || 0);
+  const epSorted = [...epRows].sort((a, b) => (num(b.VOL_X) ?? 0) - (num(a.VOL_X) ?? 0));
+  const epTop = epCap > 0 ? epSorted.slice(0, epCap) : epSorted;
+  say('T4', `거래량 급증 ${epRows.length}종목 (VOL_X≥2 또는 주간 2배) → ${epTop.length}개 분석`
+    + (epCap > 0 ? ` (EP_CAP=${epCap} 적용 — ${epRows.length - epTop.length}종목 제외)` : ' (전량)'));
 
   // ── 6) 추적 상태 로드 + 2팀 픽 반영 ──
   const trackState = tracking.load();

@@ -2,6 +2,14 @@ window.CHARTCHECK_DATA = {
   "generated": "2026-08-09",
   "items": [
     {
+      "ticker": "WAB",
+      "score": 45,
+      "source": "T4",
+      "reasons": [
+        "돌파 후 저항선 리테스트 · 횡보 6개월"
+      ]
+    },
+    {
       "ticker": "CZFS",
       "score": 20,
       "source": "T4",

@@ -6,7 +6,7 @@ window.HISTORY_DATA = {
       "finraYoY": 49,
       "picks": 55,
       "breakouts": 28,
-      "chartCheck": 6,
+      "chartCheck": 7,
       "theme": "Technology 29종목(52.7%) · Healthcare 13종목(23.6%) · Semiconductors 7종목(12.7%)"
     },
     {

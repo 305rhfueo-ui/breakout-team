@@ -218,7 +218,31 @@ function say(who, msg) {
   console.log(`${c}[${who}]${RESET} ${msg}`);
 }
 
+// ── 리서치 커버리지 ──
+// "상한 때문에 빠진 항목을 숨기지 마라"는 이 시스템의 원칙이다.
+//
+// ⚠️ 같은 버그가 두 번 났다. 워크플로가 돌려주는 coverage.total 은
+//    "그 실행에 넘긴 개수"(=상한)라, 그대로 쓰면 12/12 처럼 전량 조사한 것으로 보인다.
+//    2팀에서 한 번 고쳤는데 4팀에서 스프레드 순서 때문에 재발했다:
+//      { done, total: items.length, ...payload.coverage }   ← 뒤가 앞을 덮어씀
+//    그래서 계산을 한곳에 모으고 total 을 호출부가 반드시 명시하게 만든다.
+//
+// @param total  전체 대상 수 — 상한이 아니라 "조사했어야 할 전체"
+function coverageOf({ done, total, cap = null, unit = '종목', hint = '' }) {
+  const d = Number(done) || 0;
+  const t = Number(total) || 0;
+  const pending = Math.max(0, t - d);
+  return {
+    done: d, total: t, cap, pending,
+    note: pending
+      ? `${t}${unit} 중 ${d}${unit}만 조사했습니다. 나머지 ${pending}${unit}은 `
+        + `상한(${cap ?? '?'}) 때문에 아직 조사하지 않았습니다.${hint ? ' ' + hint : ''}`
+      : `전 ${unit}(${t}) 조사 완료`,
+  };
+}
+
 module.exports = {
+  coverageOf,
   paths, CACHE_DIR, loadEnv,
   ensureDir, readJson, writeJson, writeText, writeAtomic, writeWindowData,
   today, ymd, isoWeek, isWeekday,

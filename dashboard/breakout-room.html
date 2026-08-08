@@ -204,7 +204,7 @@ function renderChief(){
 function renderT1(){
   const t=D.t1; if(!t){$('p-t1').innerHTML='<div class="empty">1팀 데이터 없음</div>';return;}
   const q=t.qqq||{},f=t.finra||{};
-  let h='';
+  let h=reuseBadge(t.news&&t.news.reusedFrom);
   // ① 차트 → ② 바로 밑 FINRA → ③ 판정 → ④ 주도주 → ⑤ 뉴스  (배치 순서 고정)
   h+=`<div class="card"><h2>QQQ 일봉 · 10/20/50일선 · 최근 3개월</h2>
       ${q.chart_svg||'<div class="empty">차트 없음</div>'}
@@ -262,7 +262,7 @@ function renderT1(){
 function renderT2(){
   const t=D.t2; if(!t){$('p-t2').innerHTML='<div class="empty">2팀 데이터 없음</div>';return;}
   const s=t.stats||{},th=t.themes||{};
-  let h=`<div class="card"><h2>스크리닝 퍼널</h2><div class="funnel">
+  let h=reuseBadge(th.reusedFrom)+`<div class="card"><h2>스크리닝 퍼널</h2><div class="funnel">
     <span>유니버스 <b>${s.universe}</b></span><span class="arrow">→</span>
     <span>RS 상위2% 합집합 <b>${s.unionTop}</b></span><span class="arrow">→</span>
     <span>ADR ≥ 4 <b>${s.afterAdr}</b></span><span class="arrow">→</span>
@@ -354,12 +354,70 @@ function renderT3(){
 }
 
 /* ── 4팀 ── */
+/* 호재성 뉴스 6분류 */
+const CAT6=[[1,'어닝 서프라이즈 · 가이던스 상향','★'],[2,'바이오 · FDA · 임상',''],
+  [3,'대형 파트너십 · 공급계약',''],[4,'기업 턴어라운드',''],
+  [5,'매크로 · 정책 · 산업 돌파(AI/양자/로봇)','★'],[6,'암묵적 — 뉴스 없는 이상거래량','']];
+
+function catBadge(c){
+  if(!c||c.status!=='done') return '<span class="b b-dim">미조사</span>';
+  const n2=Number(c.category)||6;
+  const star=(n2===1||n2===5)?' ★':'';
+  const nm=(CAT6.find(x=>x[0]===n2)||[0,'분류 '+n2])[1];
+  return `<span class="b ${n2===6?'b-yel':'b-grn'}" title="${esc(nm)}">${'①②③④⑤⑥'[n2-1]||n2}${star}</span>`;
+}
+
+/* 재사용 배지 — 이 데이터가 오늘 새로 조사한 게 아니면 반드시 밝힌다 */
+function reuseBadge(src){
+  if(!src)return '';
+  return `<div class="note" style="margin-bottom:10px"><span class="b b-yel">재사용</span>
+    이 팀의 조사 내용은 <b>${esc(src)}</b> 실행분을 그대로 다시 쓴 것입니다 —
+    시장이 열리지 않아 주가 데이터가 그날과 완전히 같기 때문입니다. 오늘 새로 조사한 것이 아닙니다.</div>`;
+}
+
+function cat6Card(t){
+  const hl=(t.llm&&t.llm.highlights)||[];
+  const bc=t.byCategory||null;
+  const done=(t.items||[]).filter(i=>i.catalyst&&i.catalyst.status==='done');
+  let h=`<div class="card"><h2>호재성 뉴스 6분류</h2>`;
+  if(!done.length){
+    h+=`<div class="pending">`+CAT6.map(([n2,nm,st])=>`${'①②③④⑤⑥'[n2-1]} ${nm}${st?' '+st:''}`).join(' · ')+
+      `<br><br>LLM 촉매 분류 대기 — <code>start breakout</code> 실행 시 채워집니다.
+      뉴스를 못 찾으면 ⑥으로 분류하고 '근거 없음'으로 표기합니다.</div></div>`;
+    return h;
+  }
+  h+=`<div class="chips" style="margin-bottom:10px">`+CAT6.map(([n2,nm,st])=>{
+    const cnt=bc?(bc[n2]||0):done.filter(i=>Number(i.catalyst.category)===n2).length;
+    return `<span class="chip ${cnt?'':'dim'}"><b>${'①②③④⑤⑥'[n2-1]}</b> ${esc(nm)}${st?' ★':''} — <b>${cnt}</b>건</span>`;
+  }).join('')+`</div>`;
+  // ★ 강조 분류(①어닝 서프라이즈 · ⑤산업 돌파)를 먼저
+  const star=done.filter(i=>[1,5].includes(Number(i.catalyst.category)));
+  const rest=done.filter(i=>![1,5].includes(Number(i.catalyst.category)));
+  const line=(i)=>{
+    const c=i.catalyst, one=(hl.find(x=>x.ticker===i.ticker)||{}).oneLine||c.volumeExplanation||'';
+    return `<div style="margin-bottom:9px">${catBadge(c)}
+      <span class="tk" data-t="${esc(i.ticker)}"><b>${esc(i.ticker)}</b></span>
+      <span class="b b-dim">거래대금 ${n(i.volx,1)}배 · 주간 ${n(i.volSurgeWk,1)}배</span>
+      <div class="note">${esc(String(one).slice(0,300))}</div></div>`;
+  };
+  if(star.length)h+=`<div style="margin-bottom:12px"><b style="color:var(--grn);font-size:13px">★ 쿨라매기가 가장 선호하는 촉매 (①어닝 서프라이즈 · ⑤산업 돌파) — ${star.length}건</b>
+    <div style="margin-top:7px">`+star.map(line).join('')+`</div></div>`;
+  if(rest.length)h+=`<div><b style="color:var(--dim);font-size:12.5px">그 외 ${rest.length}건</b>
+    <div style="margin-top:7px">`+rest.map(line).join('')+`</div></div>`;
+  h+=`<div class="note">뉴스를 못 찾은 종목은 지어내지 않고 ⑥(근거 없음)으로 둡니다.</div></div>`;
+  return h;
+}
+
 function renderT4(){
   const t=D.t4; if(!t){$('p-t4').innerHTML='<div class="empty">4팀 데이터 없음</div>';return;}
-  let h=`<div class="card"><h2>Episodic Pivot 후보</h2>
-    <div class="funnel"><span>거래량 급증 <b>${t.universeHits}</b>종목</span><span class="arrow">→</span><span>분석 <b>${t.analyzed}</b>개</span></div>
-    <div class="note">필터: VOL_X ≥ ${t.filter.volXMin} <b>또는</b> 주간 거래량배수 ≥ ${t.filter.volSurgeWkMin}
-    · 리서치 커버리지 ${t.research_coverage.done}/${t.research_coverage.total}</div>
+  const rc=t.research_coverage||{};
+  let h=reuseBadge(t.reusedFrom)+`<div class="card"><h2>Episodic Pivot 후보</h2>
+    <div class="funnel"><span>거래량 급증 <b>${t.universeHits}</b>종목</span><span class="arrow">→</span>
+      <span>국면 분석 <b>${t.analyzed}</b>개${t.analyzed<t.universeHits?` <span class="b b-yel">${t.universeHits-t.analyzed}개 제외</span>`:''}</span>
+      <span class="arrow">→</span>
+      <span>촉매 조사 <b>${rc.done??0}</b>개${rc.pending?` <span class="b b-yel">${rc.pending}개 미조사</span>`:''}</span></div>
+    <div class="note">필터: VOL_X ≥ ${t.filter.volXMin}(거래대금/20일평균) <b>또는</b> 주간 거래량배수 ≥ ${t.filter.volSurgeWkMin}(주식수/당일제외 5일평균)
+    ${rc.note?`<br>${esc(rc.note)}`:''}</div>
     <div class="chips" style="margin-top:9px">`+
     Object.entries(t.byPhase||{}).map(([k,v])=>`<span class="chip"><b>${esc(k)}</b> ${v}</span>`).join('')+`</div></div>`;
   const notable=(t.items||[]).filter(i=>['bounce_trigger','retest','breakout','base','extended'].includes(i.congestion.phase));
@@ -375,13 +433,14 @@ function renderT4(){
       {h:'VOL_X',f:r=>n(r.volx,1),s:r=>r.volx},
       {h:'주간배수',f:r=>n(r.volSurgeWk,1),s:r=>r.volSurgeWk},
       {h:'매수 트리거',l:1,f:r=>`<span class="reason">${esc(r.congestion.buyTrigger?r.congestion.buyTrigger.note:'—')}</span>`,s:r=>0},
-      {h:'촉매',l:1,f:r=>'<span class="b b-yel">⏳대기</span>',s:r=>0},
+      // ⚠️ 예전엔 여기가 '⏳대기' 로 하드코딩돼 있어, 촉매 분류가 끝난 종목도 대기로 보였다.
+      //    그리고 '대기'는 곧 채워질 것처럼 들리는데 상한 밖 종목은 오늘 안 채워진다 → '미조사'.
+      {h:'촉매',l:1,f:r=>catBadge(r.catalyst),s:r=>r.catalyst&&r.catalyst.status==='done'?(r.catalyst.category||9):99},
     ],notable):'<div class="empty">Congestion 셋업 해당 종목 없음</div>')+
     `<div class="note">6개월 횡보 → 거래량 2배 돌파 → 저항선 리테스트(거래량 고갈) → 반등 시 매수. 돌파 시점 일봉이 150일선 위여야 합니다.</div></div>`;
-  h+=`<div class="card"><h2>호재성 뉴스 6분류</h2><div class="pending">
-    ① 어닝 서프라이즈/가이던스 상향 ★ · ② 바이오·FDA·임상 · ③ 대형 파트너십·공급계약 ·
-    ④ 기업 턴어라운드 · ⑤ 매크로·정책·산업 돌파(AI/양자/로봇) ★ · ⑥ 암묵적(뉴스 없는 이상거래량)<br><br>
-    LLM 촉매 분류 대기 — <code>start breakout</code> 실행 시 채워집니다. 뉴스를 못 찾으면 ⑥으로 분류하고 '근거 없음'으로 표기합니다.</div></div>`;
+  // ⚠️ 예전엔 데이터가 있어도 무조건 "LLM 촉매 분류 대기" 안내문만 띄웠다.
+  //    리서치룸은 제대로 보여주는데 여기만 안 보여줘서 조사한 걸 버리고 있었다.
+  h+=cat6Card(t);
   $('p-t4').innerHTML=h;bindTk();
 }
 
@@ -460,7 +519,7 @@ function renderT5(){
     {h:'WRS 6M',f:r=>n(r.wrs.m6,4),s:r=>r.wrs.m6},
     {h:'상위%(6M)',f:r=>n(r.rankPct.m6,2),s:r=>-r.rankPct.m6},
   ];
-  let h=flowCards(t);
+  let h=reuseBadge(t.llm&&t.llm.reusedFrom)+flowCards(t);
   h+=`<div class="card"><h2>WRS 검증</h2><div class="note">${esc(t.note)}<br>
     사이트가 정상 계산한 <b>${t.validation.comparable}</b>개 그룹 중 <b>${t.validation.matched}</b>개 일치 ·
     사이트 NaN <b>${t.validation.recovered}</b>그룹은 자체 복구했습니다.</div></div>`;

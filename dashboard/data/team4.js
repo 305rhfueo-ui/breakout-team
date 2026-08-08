@@ -4,19 +4,19 @@ window.TEAM4_DATA = {
     "volXMin": 2,
     "volSurgeWkMin": 2
   },
-  "universeHits": 66,
-  "analyzed": 40,
+  "universeHits": 79,
+  "analyzed": 79,
   "items": [
     {
       "ticker": "GRVY",
       "sector": "Communication Services",
       "industry": "Electronic Gaming & Multimedia",
       "price": 68.12000274658203,
-      "volx": 6.76,
-      "volSurgeWk": 9.37,
+      "volx": 6.78,
+      "volSurgeWk": 9.41,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 54.68,
+      "clsPos": 54.63,
       "high52": 91.13,
       "adr": 3.08,
       "congestion": {
@@ -110,12 +110,112 @@ window.TEAM4_DATA = {
       }
     },
     {
+      "ticker": "VSECU",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "price": 55.13999938964844,
+      "volx": 6.36,
+      "volSurgeWk": 6.65,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 51.89,
+      "high52": 82.11,
+      "adr": 4.58,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 127,
+        "rangePct": 77.11
+      },
+      "catalyst": {
+        "status": "done",
+        "ticker": "VSECU",
+        "category": 1,
+        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "VSE Corp(VSEC, VSECU의 기초자산)는 2026년 8월 5일 장 마감 후 2분기 2026 실적을 발표했고, 매출은 전년동기 대비 65% 증가한 4억 4,910만 달러로 컨센서스($4억 2,850만) 대비 4.8% 상회했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "VSE Corporation (NASDAQ:VSEC) Delivers Impressive Q2 CY2026",
+                "publisher": "StockStory / FinancialContent Markets",
+                "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-5-vse-corporation-nasdaqvsec-delivers-impressive-q2-cy2026",
+                "date": "2026-08-05",
+                "quote": "매출: $449.1백만 (전년 동기 대비 65% 증가, 컨센서스 $428.5백만 대비 4.8% 상회)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "조정 EPS는 1.75달러로 애널리스트 컨센서스를 87.5% 초과했으며, 조정 EBITDA는 8,602만 달러로 컨센서스 대비 11.3% 상회(마진 19.2%)했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "VSE Corporation (NASDAQ:VSEC) Delivers Impressive Q2 CY2026",
+                "publisher": "StockStory / FinancialContent Markets",
+                "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-5-vse-corporation-nasdaqvsec-delivers-impressive-q2-cy2026",
+                "date": "2026-08-05",
+                "quote": "조정 EPS: $1.75 (애널리스트 컨센서스 대비 87.5% 초과); 조정 EBITDA: $86.02백만 (컨센서스 $77.28백만 대비 11.3% 상회, 마진 19.2%)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "VSE Corp는 2026년 8월 5일자 SEC 8-K(Item 2.02 실적발표, Item 9.01)를 통해 순이익 109.1% 증가(2,850만 달러), 조정 EBITDA 98% 증가를 보고했고, 2026년 연간 매출 성장률 가이던스를 기존 57~61%에서 61~64%로, 조정 EBITDA 마진 가이던스를 18.1~18.5%에서 18.7~19.0%로 상향했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "VSE Corp 8-K: Reports Material Event (Q2 2026 Results)",
+                "publisher": "StockTitan (SEC Filings)",
+                "url": "https://www.stocktitan.net/sec-filings/VSEC/8-k-vse-corp-reports-material-event-3f7f4e02eb59.html",
+                "date": "2026-08-05",
+                "quote": "2026년 상향 가이던스: 매출 성장률 61~64% (기존 57~61%), 조정 EBITDA 마진 18.7~19.0% (기존 18.1~18.5%)",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "실적 발표 이후 B. Riley는 목표주가를 270달러에서 280달러로, RBC Capital은 240달러에서 265달러로 상향했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "VSE Corporation (NASDAQ:VSEC) Delivers Impressive Q2 CY2026",
+                "publisher": "StockStory / FinancialContent Markets",
+                "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-5-vse-corporation-nasdaqvsec-delivers-impressive-q2-cy2026",
+                "date": "2026-08-05",
+                "quote": "B. Riley raised its price target to $280 from $270; RBC Capital raised its price target to $265 from $240",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "isHighlight": true,
+        "confidence": "high",
+        "volumeExplanation": "2026-08-05(수) 장마감 후 VSE Corp(VSECU의 기초자산 VSEC)가 2분기 실적을 발표: 매출 +65% YoY(컨센서스 4.8% 상회), 조정 EPS 컨센서스 87.5% 초과, 순이익 +109.1%. 동시에 SEC 8-K(Item 2.02)로 2026년 연간 매출성장률 가이던스를 57~61%→61~64%로, EBITDA마진 가이던스도 상향. 실적 서프라이즈+가이던스 상향에 애널리스트 목표주가 상향(B.Riley, RBC)이 겹치며 발표 당일(8/5)과 익일(8/6, 컨퍼런스콜) 거래대금·거래량이 급증한 것으로 판단됨. 오늘(8/8)까지 그 여진이 이어지는 전형적 어닝 서프라이즈형 EP 촉매.",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        }
+      }
+    },
+    {
       "ticker": "TEAM",
       "sector": "Technology",
       "industry": "Software - Application",
       "price": 149.07000732421875,
-      "volx": 5.44,
-      "volSurgeWk": 4.3,
+      "volx": 5.46,
+      "volSurgeWk": 4.31,
       "aboveMa150": true,
       "brk60d": true,
       "clsPos": 64.67,
@@ -216,13 +316,13 @@ window.TEAM4_DATA = {
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "price": 103.12000274658203,
-      "volx": 4.59,
-      "volSurgeWk": 4.44,
+      "volx": 4.67,
+      "volSurgeWk": 4.54,
       "aboveMa150": true,
       "brk60d": true,
-      "clsPos": 98.67,
-      "high52": 99.84,
-      "adr": 3.33,
+      "clsPos": 98.65,
+      "high52": 99.83,
+      "adr": 3.37,
       "congestion": {
         "ok": true,
         "phase": "none",
@@ -280,228 +380,16 @@ window.TEAM4_DATA = {
       }
     },
     {
-      "ticker": "VSECU",
-      "sector": "Industrials",
-      "industry": "Aerospace & Defense",
-      "price": 55.13999938964844,
-      "volx": 4.41,
-      "volSurgeWk": 4.04,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 54.15,
-      "high52": 82.11,
-      "adr": 4.57,
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 127,
-        "rangePct": 77.11
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "VSECU",
-        "category": 1,
-        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "VSE Corp(VSEC, VSECU의 기초자산)는 2026년 8월 5일 장 마감 후 2분기 2026 실적을 발표했고, 매출은 전년동기 대비 65% 증가한 4억 4,910만 달러로 컨센서스($4억 2,850만) 대비 4.8% 상회했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "VSE Corporation (NASDAQ:VSEC) Delivers Impressive Q2 CY2026",
-                "publisher": "StockStory / FinancialContent Markets",
-                "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-5-vse-corporation-nasdaqvsec-delivers-impressive-q2-cy2026",
-                "date": "2026-08-05",
-                "quote": "매출: $449.1백만 (전년 동기 대비 65% 증가, 컨센서스 $428.5백만 대비 4.8% 상회)",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "조정 EPS는 1.75달러로 애널리스트 컨센서스를 87.5% 초과했으며, 조정 EBITDA는 8,602만 달러로 컨센서스 대비 11.3% 상회(마진 19.2%)했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "VSE Corporation (NASDAQ:VSEC) Delivers Impressive Q2 CY2026",
-                "publisher": "StockStory / FinancialContent Markets",
-                "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-5-vse-corporation-nasdaqvsec-delivers-impressive-q2-cy2026",
-                "date": "2026-08-05",
-                "quote": "조정 EPS: $1.75 (애널리스트 컨센서스 대비 87.5% 초과); 조정 EBITDA: $86.02백만 (컨센서스 $77.28백만 대비 11.3% 상회, 마진 19.2%)",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "VSE Corp는 2026년 8월 5일자 SEC 8-K(Item 2.02 실적발표, Item 9.01)를 통해 순이익 109.1% 증가(2,850만 달러), 조정 EBITDA 98% 증가를 보고했고, 2026년 연간 매출 성장률 가이던스를 기존 57~61%에서 61~64%로, 조정 EBITDA 마진 가이던스를 18.1~18.5%에서 18.7~19.0%로 상향했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "VSE Corp 8-K: Reports Material Event (Q2 2026 Results)",
-                "publisher": "StockTitan (SEC Filings)",
-                "url": "https://www.stocktitan.net/sec-filings/VSEC/8-k-vse-corp-reports-material-event-3f7f4e02eb59.html",
-                "date": "2026-08-05",
-                "quote": "2026년 상향 가이던스: 매출 성장률 61~64% (기존 57~61%), 조정 EBITDA 마진 18.7~19.0% (기존 18.1~18.5%)",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "실적 발표 이후 B. Riley는 목표주가를 270달러에서 280달러로, RBC Capital은 240달러에서 265달러로 상향했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "VSE Corporation (NASDAQ:VSEC) Delivers Impressive Q2 CY2026",
-                "publisher": "StockStory / FinancialContent Markets",
-                "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-5-vse-corporation-nasdaqvsec-delivers-impressive-q2-cy2026",
-                "date": "2026-08-05",
-                "quote": "B. Riley raised its price target to $280 from $270; RBC Capital raised its price target to $265 from $240",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "isHighlight": true,
-        "confidence": "high",
-        "volumeExplanation": "2026-08-05(수) 장마감 후 VSE Corp(VSECU의 기초자산 VSEC)가 2분기 실적을 발표: 매출 +65% YoY(컨센서스 4.8% 상회), 조정 EPS 컨센서스 87.5% 초과, 순이익 +109.1%. 동시에 SEC 8-K(Item 2.02)로 2026년 연간 매출성장률 가이던스를 57~61%→61~64%로, EBITDA마진 가이던스도 상향. 실적 서프라이즈+가이던스 상향에 애널리스트 목표주가 상향(B.Riley, RBC)이 겹치며 발표 당일(8/5)과 익일(8/6, 컨퍼런스콜) 거래대금·거래량이 급증한 것으로 판단됨. 오늘(8/8)까지 그 여진이 이어지는 전형적 어닝 서프라이즈형 EP 촉매.",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        }
-      }
-    },
-    {
-      "ticker": "TWLO",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "price": 241.27999877929688,
-      "volx": 4.27,
-      "volSurgeWk": 3.02,
-      "aboveMa150": true,
-      "brk60d": true,
-      "clsPos": 51.89,
-      "high52": 94.81,
-      "adr": 5.24,
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 142.04
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "TWLO",
-        "category": 1,
-        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "Twilio는 2026년 8월 6일(목) 2분기 실적을 발표했으며, 조정 EPS $1.47로 시장 예상치($1.32~$1.34)를 크게 상회했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Twilio Stock Soars After Strong Q2 Results and Guidance",
-                "publisher": "Benzinga",
-                "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61042961/twilio-stock-soars-after-strong-q2-results-and-guidance",
-                "date": "2026-08-07",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Twilio stock pops on better-than-expected Q2 report",
-                "publisher": "Yahoo Finance",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-stock-pops-better-expected-133500116.html",
-                "date": "2026-08-07",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "2분기 매출은 $1.50B로 전년 대비 22% 성장했으며 시장 예상치 $1.43B를 상회, 회사 사상 최대 기록이었다. 조직적(organic) 성장률은 17%로 가속화, 메시징 매출 +28%, 음성 +20% 이상, 소프트웨어 애드온 +25% 이상을 기록했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Earnings call transcript: Twilio jumps after Q2 2026 beat and raised outlook",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-twilio-jumps-after-q2-2026-beat-and-raised-outlook-93CH-4844705",
-                "date": "2026-08-07",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "Twilio는 2026년 연간 매출 성장 가이던스를 기존 14~15%에서 18~18.5%로 상향했으며, 3분기 매출 가이던스는 $1.505B~$1.515B, 조정 EPS $1.42~$1.47로 제시했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Twilio Inc (TWLO) (Q2 2026) Earnings Call Highlights: Record Revenue and AI-Driven Growth",
-                "publisher": "Yahoo Finance (CA)",
-                "url": "https://ca.finance.yahoo.com/news/twilio-inc-twlo-q2-2026-050405411.html",
-                "date": "2026-08-07",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "실적 발표 다음 날 주가는 장중 최대 26%까지 급등했고, 애프터마켓에서는 16.67% 상승했으며, 신규 52주 신고가를 기록했다. BTIG는 목표주가를 $245→$285, Needham은 $250→$280으로 상향했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "TWILIO ($TWLO) Releases Q2 2026 Earnings, Stock Rises",
-                "publisher": "Quiver Quantitative",
-                "url": "https://www.quiverquant.com/news/TWILIO+($TWLO)+Releases+Q2+2026+Earnings,+Stock+Rises",
-                "date": "2026-08-07",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Twilio stock hits 52-week high at $238.79",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/company-news/twilio-stock-hits-52week-high-at-23879-93CH-4846702",
-                "date": "2026-08-07",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          }
-        ],
-        "confidence": "high",
-        "volumeExplanation": "2026년 8월 6일 장마감 후 발표된 2분기 실적에서 EPS·매출 모두 시장 예상치를 크게 상회(EPS $1.47 vs 예상 $1.32~1.34, 매출 $1.50B vs 예상 $1.43B)했고, 연간 매출 성장 가이던스를 14~15%에서 18~18.5%로 상향하면서 8월 7일 주가가 장중 최대 26% 급등, 52주 신고가를 경신했다. 이 어닝 서프라이즈·가이던스 상향 이벤트가 VOL_X 4.27, 주간 거래량배수 3.02의 거래대금 급증과 60일 신고가 돌파를 직접 설명한다.",
-        "isHighlight": true,
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        }
-      }
-    },
-    {
       "ticker": "ABNB",
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
       "price": 178.07000732421875,
-      "volx": 4.2,
-      "volSurgeWk": 3.92,
+      "volx": 4.28,
+      "volSurgeWk": 4.02,
       "aboveMa150": true,
       "brk60d": true,
-      "clsPos": 97.47,
-      "high52": 99.79,
+      "clsPos": 97.27,
+      "high52": 99.77,
       "adr": 2.96,
       "congestion": {
         "ok": true,
@@ -621,17 +509,129 @@ window.TEAM4_DATA = {
       }
     },
     {
+      "ticker": "TWLO",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "price": 241.27999877929688,
+      "volx": 4.27,
+      "volSurgeWk": 3.02,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 51.89,
+      "high52": 94.81,
+      "adr": 5.24,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 142.04
+      },
+      "catalyst": {
+        "status": "done",
+        "ticker": "TWLO",
+        "category": 1,
+        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "Twilio는 2026년 8월 6일(목) 2분기 실적을 발표했으며, 조정 EPS $1.47로 시장 예상치($1.32~$1.34)를 크게 상회했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Twilio Stock Soars After Strong Q2 Results and Guidance",
+                "publisher": "Benzinga",
+                "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61042961/twilio-stock-soars-after-strong-q2-results-and-guidance",
+                "date": "2026-08-07",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Twilio stock pops on better-than-expected Q2 report",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-stock-pops-better-expected-133500116.html",
+                "date": "2026-08-07",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "2분기 매출은 $1.50B로 전년 대비 22% 성장했으며 시장 예상치 $1.43B를 상회, 회사 사상 최대 기록이었다. 조직적(organic) 성장률은 17%로 가속화, 메시징 매출 +28%, 음성 +20% 이상, 소프트웨어 애드온 +25% 이상을 기록했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Earnings call transcript: Twilio jumps after Q2 2026 beat and raised outlook",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-twilio-jumps-after-q2-2026-beat-and-raised-outlook-93CH-4844705",
+                "date": "2026-08-07",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "Twilio는 2026년 연간 매출 성장 가이던스를 기존 14~15%에서 18~18.5%로 상향했으며, 3분기 매출 가이던스는 $1.505B~$1.515B, 조정 EPS $1.42~$1.47로 제시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Twilio Inc (TWLO) (Q2 2026) Earnings Call Highlights: Record Revenue and AI-Driven Growth",
+                "publisher": "Yahoo Finance (CA)",
+                "url": "https://ca.finance.yahoo.com/news/twilio-inc-twlo-q2-2026-050405411.html",
+                "date": "2026-08-07",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "실적 발표 다음 날 주가는 장중 최대 26%까지 급등했고, 애프터마켓에서는 16.67% 상승했으며, 신규 52주 신고가를 기록했다. BTIG는 목표주가를 $245→$285, Needham은 $250→$280으로 상향했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "TWILIO ($TWLO) Releases Q2 2026 Earnings, Stock Rises",
+                "publisher": "Quiver Quantitative",
+                "url": "https://www.quiverquant.com/news/TWILIO+($TWLO)+Releases+Q2+2026+Earnings,+Stock+Rises",
+                "date": "2026-08-07",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Twilio stock hits 52-week high at $238.79",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/company-news/twilio-stock-hits-52week-high-at-23879-93CH-4846702",
+                "date": "2026-08-07",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          }
+        ],
+        "confidence": "high",
+        "volumeExplanation": "2026년 8월 6일 장마감 후 발표된 2분기 실적에서 EPS·매출 모두 시장 예상치를 크게 상회(EPS $1.47 vs 예상 $1.32~1.34, 매출 $1.50B vs 예상 $1.43B)했고, 연간 매출 성장 가이던스를 14~15%에서 18~18.5%로 상향하면서 8월 7일 주가가 장중 최대 26% 급등, 52주 신고가를 경신했다. 이 어닝 서프라이즈·가이던스 상향 이벤트가 VOL_X 4.27, 주간 거래량배수 3.02의 거래대금 급증과 60일 신고가 돌파를 직접 설명한다.",
+        "isHighlight": true,
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        }
+      }
+    },
+    {
       "ticker": "SEZL",
       "sector": "Financial Services",
       "industry": "Credit Services",
       "price": 118.0199966430664,
-      "volx": 4.03,
-      "volSurgeWk": 6.93,
+      "volx": 4.05,
+      "volSurgeWk": 6.98,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 22.8,
+      "clsPos": 21.21,
       "high52": 60.3,
-      "adr": 7.79,
+      "adr": 7.85,
       "congestion": {
         "ok": true,
         "phase": "none",
@@ -815,11 +815,11 @@ window.TEAM4_DATA = {
       "sector": "Technology",
       "industry": "Information Technology Services",
       "price": 62.33000183105469,
-      "volx": 3.47,
-      "volSurgeWk": 2.49,
+      "volx": 3.52,
+      "volSurgeWk": 2.53,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 4.65,
+      "clsPos": 4.63,
       "high52": 49.81,
       "adr": 7.63,
       "congestion": {
@@ -920,150 +920,27 @@ window.TEAM4_DATA = {
       }
     },
     {
-      "ticker": "SPG-J",
-      "sector": "Real Estate",
-      "industry": "REIT - Retail",
-      "price": 56.308799743652344,
-      "volx": 3.37,
-      "volSurgeWk": 4.64,
-      "aboveMa150": true,
+      "ticker": "POST",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "price": 78.69000244140625,
+      "volx": 3.51,
+      "volSurgeWk": 4.41,
+      "aboveMa150": false,
       "brk60d": false,
-      "clsPos": 84.7,
-      "high52": 98.41,
-      "adr": 0.66,
-      "congestion": {
-        "ok": false,
-        "phase": "none",
-        "phaseKo": "봉 없음 — 판정불가"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "SPG-J",
-        "category": 6,
-        "categoryName": "암묵적 호재 (표면적 뉴스 없음, 비정상 거래량만 포착)",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음 — SPG-J(Simon Property Group 8.375% Series J 우선주) 관련 직접 뉴스, 8-K item 2.02 실적공시, 상환(redemption) 공지 등을 웹검색으로 확인했으나 발견하지 못함",
-            "evidence_level": "no_source",
-            "sources": []
-          },
-          {
-            "id": "c2",
-            "statement": "참고: 모회사 Simon Property Group(SPG) 보통주의 2분기 실적 발표는 2026-08-10 예정으로, 오늘(08-08) 기준 아직 발표 전이며 SPG-J 자체에 대한 촉매로 볼 수 없음 (정보성 확인, 거래량 판정 근거 아님)",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Simon Property Group (SPG) Stock Analysis",
-                "publisher": "Tickeron",
-                "url": "https://tickeron.com/ticker/SPG/",
-                "date": "2026-08",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Simon Property Group, Inc. (SPG) Latest Stock News & Headlines",
-                "publisher": "Yahoo Finance",
-                "url": "https://finance.yahoo.com/quote/SPG/news/",
-                "date": "2026-08",
-                "verified": "unverified",
-                "httpStatus": 500
-              }
-            ]
-          }
-        ],
-        "isHighlight": false,
-        "confidence": "high",
-        "volumeExplanation": "SPG-J는 Simon Property Group의 8.375% Series J 누적상환우선주(preferred stock)로, 웹검색 결과 해당 종목을 직접 언급하는 뉴스, SEC 8-K(item 2.02) 실적공시, 상환(call/redemption) 공지 등을 전혀 찾지 못했음. Nasdaq RSS 및 8-K 확인 결과도 '없음'으로 일치. 모회사 SPG 보통주 실적발표는 08-10로 아직 발표 전이라 직접적 촉매가 아님. 우선주 특성상 금리/수익률 민감 종목이라는 점을 고려해도 이를 뒷받침할 구체적 뉴스가 확인되지 않아, 규정에 따라 category 6(암묵적 호재, 근거 없음)으로 판정함. VOL_X 3.37·주간 거래량배수 4.64 등 제공된 수치는 그대로 유지.",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        }
-      }
-    },
-    {
-      "ticker": "NTRA",
-      "sector": "Healthcare",
-      "industry": "Diagnostics & Research",
-      "price": 322.1000061035156,
-      "volx": 3.3,
-      "volSurgeWk": 2.36,
-      "aboveMa150": true,
-      "brk60d": true,
-      "clsPos": 94.53,
-      "high52": 99.72,
-      "adr": 4.16,
+      "clsPos": 13.63,
+      "high52": 67.1,
+      "adr": 3.5,
       "congestion": {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
         "bars": 501,
-        "rangePct": 78.46
+        "rangePct": 51.13
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "NTRA",
-        "category": 1,
-        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "Natera는 2026년 8월 6일 장 마감 후 2분기(2026 회계연도) 실적을 발표했으며, 매출은 전년 동기 대비 37.7% 증가한 7억 5,280만 달러로 시장 예상치(약 6억 7,390만 달러)를 크게 상회했다. 2026 연간 매출 가이던스도 중간값 28억 8천만 달러로 애널리스트 추정치 대비 약 3% 상향되었다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Natera Shares Soar Over 20% To All-Time High, Bolstering Co-Founder's Billionaire Status",
-                "publisher": "Forbes",
-                "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/08/07/natera-shares-soar-over-20-to-all-time-high-bolstering-co-founders-billionaire-status/",
-                "date": "2026-08-07",
-                "quote": "매출액: $752.8백만 달러로 예상치 $673.9백만 달러를 크게 초과 / 암 검출 혈액검사 Signatera: 엄청난 거래량을 기록",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "실적 발표 다음 거래일(8월 7일 금요일) Natera 주가는 21.3% 급등해 322.10달러로 사상 최고가를 경신했으며, 시가총액은 약 380억 달러에서 461억 달러로 증가했다. 급등 배경은 암 진단 혈액검사 Signatera의 '기록적 거래량(blowout volume)'과 시장 예상을 뛰어넘는 실적이다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Natera Shares Soar Over 20% To All-Time High, Bolstering Co-Founder's Billionaire Status",
-                "publisher": "Forbes",
-                "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/08/07/natera-shares-soar-over-20-to-all-time-high-bolstering-co-founders-billionaire-status/",
-                "date": "2026-08-07",
-                "quote": "주가는 금요일에 21.3% 상승하여 $322.10에 마감했으며, 이는 사상 최고가를 기록했습니다. 시가총액은 7월 말 약 380억 달러에서 461억 달러로 증가했습니다.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "실적 발표 당일(8월 6일)에도 주가는 매출 성장, 기록적 검사량(약 104만4천건), 2026년 연간 실적 가이던스 상향을 배경으로 상승세를 보였다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Why Natera (NTRA) Stock Rose Today",
-                "publisher": "Quiver Quantitative",
-                "url": "https://www.quiverquant.com/news/Why+Natera+(NTRA)+Stock+Rose+Today",
-                "date": "2026-08-06",
-                "quote": "강한 실적: 회사의 최근 분기는 '매출 성장, 기록적인 검사량, 2026년 연간 실적 지침 상향'을 보였습니다.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "confidence": "high",
-        "isHighlight": true,
-        "volumeExplanation": "2026-08-06 장마감 후 발표된 2분기 실적에서 매출이 전년비 37.7% 증가(컨센서스 대폭 상회)하고 연간 가이던스가 상향되면서, 익일(8/7) 주가가 21.3% 급등해 사상 최고가를 기록했다. Signatera 암 진단검사의 기록적 거래량이 핵심 성장 동력으로 지목되며 거래대금·거래량이 동시에 급증한 전형적인 어닝 서프라이즈형 거래량 폭발이다.",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [],
-          "reason": "어닝 서프라이즈(매출 37.7% 증가, $752.8M vs 예상 $673.9M)는 Forbes에서 뚜렷이 뒷받침됨. 그러나 c1의 '연간 가이던스 28억 8천만 달러, 3% 상향'에 대한 구체적 근거가 제시된 인용문에 없음. 공식 8-K나 회사 보도자료 링크도 부재하고 뉴스 기사만 존재."
-        }
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
       }
     },
     {
@@ -1071,8 +948,8 @@ window.TEAM4_DATA = {
       "sector": "Industrials",
       "industry": "Engineering & Construction",
       "price": 57,
-      "volx": 3.28,
-      "volSurgeWk": 2.58,
+      "volx": 3.49,
+      "volSurgeWk": 2.78,
       "aboveMa150": true,
       "brk60d": true,
       "clsPos": 83.83,
@@ -1193,27 +1070,150 @@ window.TEAM4_DATA = {
       }
     },
     {
-      "ticker": "POST",
-      "sector": "Consumer Defensive",
-      "industry": "Packaged Foods",
-      "price": 78.69000244140625,
-      "volx": 3.25,
-      "volSurgeWk": 4.02,
-      "aboveMa150": false,
+      "ticker": "SPG-J",
+      "sector": "Real Estate",
+      "industry": "REIT - Retail",
+      "price": 56.308799743652344,
+      "volx": 3.38,
+      "volSurgeWk": 4.65,
+      "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 18.38,
-      "high52": 67.1,
-      "adr": 3.36,
+      "clsPos": 87.58,
+      "high52": 98.41,
+      "adr": 0.68,
+      "congestion": {
+        "ok": false,
+        "phase": "none",
+        "phaseKo": "봉 없음 — 판정불가"
+      },
+      "catalyst": {
+        "status": "done",
+        "ticker": "SPG-J",
+        "category": 6,
+        "categoryName": "암묵적 호재 (표면적 뉴스 없음, 비정상 거래량만 포착)",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음 — SPG-J(Simon Property Group 8.375% Series J 우선주) 관련 직접 뉴스, 8-K item 2.02 실적공시, 상환(redemption) 공지 등을 웹검색으로 확인했으나 발견하지 못함",
+            "evidence_level": "no_source",
+            "sources": []
+          },
+          {
+            "id": "c2",
+            "statement": "참고: 모회사 Simon Property Group(SPG) 보통주의 2분기 실적 발표는 2026-08-10 예정으로, 오늘(08-08) 기준 아직 발표 전이며 SPG-J 자체에 대한 촉매로 볼 수 없음 (정보성 확인, 거래량 판정 근거 아님)",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Simon Property Group (SPG) Stock Analysis",
+                "publisher": "Tickeron",
+                "url": "https://tickeron.com/ticker/SPG/",
+                "date": "2026-08",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Simon Property Group, Inc. (SPG) Latest Stock News & Headlines",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/quote/SPG/news/",
+                "date": "2026-08",
+                "verified": "unverified",
+                "httpStatus": 500
+              }
+            ]
+          }
+        ],
+        "isHighlight": false,
+        "confidence": "high",
+        "volumeExplanation": "SPG-J는 Simon Property Group의 8.375% Series J 누적상환우선주(preferred stock)로, 웹검색 결과 해당 종목을 직접 언급하는 뉴스, SEC 8-K(item 2.02) 실적공시, 상환(call/redemption) 공지 등을 전혀 찾지 못했음. Nasdaq RSS 및 8-K 확인 결과도 '없음'으로 일치. 모회사 SPG 보통주 실적발표는 08-10로 아직 발표 전이라 직접적 촉매가 아님. 우선주 특성상 금리/수익률 민감 종목이라는 점을 고려해도 이를 뒷받침할 구체적 뉴스가 확인되지 않아, 규정에 따라 category 6(암묵적 호재, 근거 없음)으로 판정함. VOL_X 3.37·주간 거래량배수 4.64 등 제공된 수치는 그대로 유지.",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        }
+      }
+    },
+    {
+      "ticker": "NTRA",
+      "sector": "Healthcare",
+      "industry": "Diagnostics & Research",
+      "price": 322.1000061035156,
+      "volx": 3.32,
+      "volSurgeWk": 2.37,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 94.53,
+      "high52": 99.72,
+      "adr": 4.16,
       "congestion": {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
         "bars": 501,
-        "rangePct": 51.13
+        "rangePct": 78.46
       },
       "catalyst": {
-        "status": "pending",
-        "note": "LLM 촉매 분류 대기 (상한 초과)"
+        "status": "done",
+        "ticker": "NTRA",
+        "category": 1,
+        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "Natera는 2026년 8월 6일 장 마감 후 2분기(2026 회계연도) 실적을 발표했으며, 매출은 전년 동기 대비 37.7% 증가한 7억 5,280만 달러로 시장 예상치(약 6억 7,390만 달러)를 크게 상회했다. 2026 연간 매출 가이던스도 중간값 28억 8천만 달러로 애널리스트 추정치 대비 약 3% 상향되었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Natera Shares Soar Over 20% To All-Time High, Bolstering Co-Founder's Billionaire Status",
+                "publisher": "Forbes",
+                "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/08/07/natera-shares-soar-over-20-to-all-time-high-bolstering-co-founders-billionaire-status/",
+                "date": "2026-08-07",
+                "quote": "매출액: $752.8백만 달러로 예상치 $673.9백만 달러를 크게 초과 / 암 검출 혈액검사 Signatera: 엄청난 거래량을 기록",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적 발표 다음 거래일(8월 7일 금요일) Natera 주가는 21.3% 급등해 322.10달러로 사상 최고가를 경신했으며, 시가총액은 약 380억 달러에서 461억 달러로 증가했다. 급등 배경은 암 진단 혈액검사 Signatera의 '기록적 거래량(blowout volume)'과 시장 예상을 뛰어넘는 실적이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Natera Shares Soar Over 20% To All-Time High, Bolstering Co-Founder's Billionaire Status",
+                "publisher": "Forbes",
+                "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/08/07/natera-shares-soar-over-20-to-all-time-high-bolstering-co-founders-billionaire-status/",
+                "date": "2026-08-07",
+                "quote": "주가는 금요일에 21.3% 상승하여 $322.10에 마감했으며, 이는 사상 최고가를 기록했습니다. 시가총액은 7월 말 약 380억 달러에서 461억 달러로 증가했습니다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "실적 발표 당일(8월 6일)에도 주가는 매출 성장, 기록적 검사량(약 104만4천건), 2026년 연간 실적 가이던스 상향을 배경으로 상승세를 보였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Natera (NTRA) Stock Rose Today",
+                "publisher": "Quiver Quantitative",
+                "url": "https://www.quiverquant.com/news/Why+Natera+(NTRA)+Stock+Rose+Today",
+                "date": "2026-08-06",
+                "quote": "강한 실적: 회사의 최근 분기는 '매출 성장, 기록적인 검사량, 2026년 연간 실적 지침 상향'을 보였습니다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "high",
+        "isHighlight": true,
+        "volumeExplanation": "2026-08-06 장마감 후 발표된 2분기 실적에서 매출이 전년비 37.7% 증가(컨센서스 대폭 상회)하고 연간 가이던스가 상향되면서, 익일(8/7) 주가가 21.3% 급등해 사상 최고가를 기록했다. Signatera 암 진단검사의 기록적 거래량이 핵심 성장 동력으로 지목되며 거래대금·거래량이 동시에 급증한 전형적인 어닝 서프라이즈형 거래량 폭발이다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [],
+          "reason": "어닝 서프라이즈(매출 37.7% 증가, $752.8M vs 예상 $673.9M)는 Forbes에서 뚜렷이 뒷받침됨. 그러나 c1의 '연간 가이던스 28억 8천만 달러, 3% 상향'에 대한 구체적 근거가 제시된 인용문에 없음. 공식 8-K나 회사 보도자료 링크도 부재하고 뉴스 기사만 존재."
+        }
       }
     },
     {
@@ -1221,8 +1221,8 @@ window.TEAM4_DATA = {
       "sector": "Healthcare",
       "industry": "Medical Devices",
       "price": 127.83999633789062,
-      "volx": 3.15,
-      "volSurgeWk": 2.57,
+      "volx": 3.17,
+      "volSurgeWk": 2.59,
       "aboveMa150": false,
       "brk60d": false,
       "clsPos": 32.58,
@@ -1245,8 +1245,8 @@ window.TEAM4_DATA = {
       "sector": "ETF",
       "industry": "ETF",
       "price": 130.42999267578125,
-      "volx": 3.06,
-      "volSurgeWk": 1.75,
+      "volx": 3.07,
+      "volSurgeWk": 1.76,
       "aboveMa150": false,
       "brk60d": false,
       "clsPos": 71.25,
@@ -1265,6 +1265,78 @@ window.TEAM4_DATA = {
       }
     },
     {
+      "ticker": "UAN",
+      "sector": "Basic Materials",
+      "industry": "Agricultural Inputs",
+      "price": 126.56999969482422,
+      "volx": 3.05,
+      "volSurgeWk": 2,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 2.22,
+      "high52": 93.7,
+      "adr": 2.5,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 45.31
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "TNC",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "price": 73.88999938964844,
+      "volx": 3.05,
+      "volSurgeWk": 3.29,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 25.17,
+      "high52": 80.38,
+      "adr": 4.14,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 52.76
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "ICUI",
+      "sector": "Healthcare",
+      "industry": "Medical Instruments & Supplies",
+      "price": 184.55999755859375,
+      "volx": 3.03,
+      "volSurgeWk": 2.41,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 30.74,
+      "high52": 95.7,
+      "adr": 3.2,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 70.11
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
       "ticker": "ANIP",
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - Specialty & Generic",
@@ -1273,7 +1345,7 @@ window.TEAM4_DATA = {
       "volSurgeWk": 2.76,
       "aboveMa150": false,
       "brk60d": false,
-      "clsPos": 91.9,
+      "clsPos": 92.02,
       "high52": 78.64,
       "adr": 3.05,
       "congestion": {
@@ -1301,71 +1373,23 @@ window.TEAM4_DATA = {
       }
     },
     {
-      "ticker": "UAN",
-      "sector": "Basic Materials",
-      "industry": "Agricultural Inputs",
-      "price": 126.56999969482422,
-      "volx": 2.99,
-      "volSurgeWk": 1.96,
+      "ticker": "LB",
+      "sector": "Energy",
+      "industry": "Oil & Gas Equipment & Services",
+      "price": 75.4000015258789,
+      "volx": 2.96,
+      "volSurgeWk": 2.58,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 0,
-      "high52": 93.7,
-      "adr": 2.5,
+      "clsPos": 15.35,
+      "high52": 88.51,
+      "adr": 4.21,
       "congestion": {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
         "bars": 501,
-        "rangePct": 45.31
-      },
-      "catalyst": {
-        "status": "pending",
-        "note": "LLM 촉매 분류 대기 (상한 초과)"
-      }
-    },
-    {
-      "ticker": "TNC",
-      "sector": "Industrials",
-      "industry": "Specialty Industrial Machinery",
-      "price": 73.88999938964844,
-      "volx": 2.95,
-      "volSurgeWk": 3.17,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 25.19,
-      "high52": 80.38,
-      "adr": 4.14,
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 52.76
-      },
-      "catalyst": {
-        "status": "pending",
-        "note": "LLM 촉매 분류 대기 (상한 초과)"
-      }
-    },
-    {
-      "ticker": "ICUI",
-      "sector": "Healthcare",
-      "industry": "Medical Instruments & Supplies",
-      "price": 184.55999755859375,
-      "volx": 2.93,
-      "volSurgeWk": 2.31,
-      "aboveMa150": true,
-      "brk60d": true,
-      "clsPos": 30.74,
-      "high52": 95.7,
-      "adr": 3.2,
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 70.11
+        "rangePct": 50.97
       },
       "catalyst": {
         "status": "pending",
@@ -1377,8 +1401,8 @@ window.TEAM4_DATA = {
       "sector": "Industrials",
       "industry": "Conglomerates",
       "price": 4240.64013671875,
-      "volx": 2.9,
-      "volSurgeWk": 1.94,
+      "volx": 2.92,
+      "volSurgeWk": 1.96,
       "aboveMa150": false,
       "brk60d": false,
       "clsPos": 48.32,
@@ -1401,13 +1425,13 @@ window.TEAM4_DATA = {
       "sector": "Financial Services",
       "industry": "Insurance - Specialty",
       "price": 289.8399963378906,
-      "volx": 2.82,
-      "volSurgeWk": 1.73,
+      "volx": 2.83,
+      "volSurgeWk": 1.74,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 71.81,
+      "clsPos": 67.17,
       "high52": 97.49,
-      "adr": 2.61,
+      "adr": 2.62,
       "congestion": {
         "ok": true,
         "phase": "none",
@@ -1421,23 +1445,23 @@ window.TEAM4_DATA = {
       }
     },
     {
-      "ticker": "LB",
-      "sector": "Energy",
-      "industry": "Oil & Gas Equipment & Services",
-      "price": 75.4000015258789,
+      "ticker": "AMRZ",
+      "sector": "Basic Materials",
+      "industry": "Building Materials",
+      "price": 46.63999938964844,
       "volx": 2.82,
-      "volSurgeWk": 2.43,
-      "aboveMa150": true,
+      "volSurgeWk": 3,
+      "aboveMa150": false,
       "brk60d": false,
-      "clsPos": 15.42,
-      "high52": 88.51,
-      "adr": 4.2,
+      "clsPos": 13.54,
+      "high52": 71.43,
+      "adr": 2.79,
       "congestion": {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 50.97
+        "bars": 284,
+        "rangePct": 42.4
       },
       "catalyst": {
         "status": "pending",
@@ -1449,42 +1473,18 @@ window.TEAM4_DATA = {
       "sector": "Industrials",
       "industry": "Aerospace & Defense",
       "price": 133.11000061035156,
-      "volx": 2.72,
-      "volSurgeWk": 1.6,
+      "volx": 2.78,
+      "volSurgeWk": 1.63,
       "aboveMa150": false,
       "brk60d": false,
-      "clsPos": 98.04,
+      "clsPos": 98.05,
       "high52": 58.99,
-      "adr": 7.67,
+      "adr": 7.68,
       "congestion": {
         "ok": false,
         "phase": "none",
         "phaseKo": "봉 부족 — 판정불가",
         "bars": 39
-      },
-      "catalyst": {
-        "status": "pending",
-        "note": "LLM 촉매 분류 대기 (상한 초과)"
-      }
-    },
-    {
-      "ticker": "SENEB",
-      "sector": "Consumer Defensive",
-      "industry": "Packaged Foods",
-      "price": 167.5,
-      "volx": 2.72,
-      "volSurgeWk": null,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 0,
-      "high52": 92.3,
-      "adr": 0.07,
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 51.23
       },
       "catalyst": {
         "status": "pending",
@@ -1520,7 +1520,7 @@ window.TEAM4_DATA = {
       "sector": "Healthcare",
       "industry": "Diagnostics & Research",
       "price": 69.4800033569336,
-      "volx": 2.71,
+      "volx": 2.72,
       "volSurgeWk": 2.13,
       "aboveMa150": true,
       "brk60d": false,
@@ -1540,23 +1540,23 @@ window.TEAM4_DATA = {
       }
     },
     {
-      "ticker": "AMRZ",
-      "sector": "Basic Materials",
-      "industry": "Building Materials",
-      "price": 46.63999938964844,
+      "ticker": "RMD",
+      "sector": "Healthcare",
+      "industry": "Medical Instruments & Supplies",
+      "price": 211.94000244140625,
       "volx": 2.71,
-      "volSurgeWk": 2.87,
+      "volSurgeWk": 2.43,
       "aboveMa150": false,
       "brk60d": false,
-      "clsPos": 13.54,
-      "high52": 71.43,
-      "adr": 2.79,
+      "clsPos": 73.63,
+      "high52": 72.69,
+      "adr": 3.09,
       "congestion": {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 284,
-        "rangePct": 42.4
+        "bars": 501,
+        "rangePct": 54.03
       },
       "catalyst": {
         "status": "pending",
@@ -1564,23 +1564,23 @@ window.TEAM4_DATA = {
       }
     },
     {
-      "ticker": "AAOI",
-      "sector": "Technology",
-      "industry": "Communication Equipment",
-      "price": 135.6300048828125,
-      "volx": 2.65,
-      "volSurgeWk": 1.69,
+      "ticker": "SENEB",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "price": 167.5,
+      "volx": 2.71,
+      "volSurgeWk": null,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 27.21,
-      "high52": 58.04,
-      "adr": 12.14,
+      "clsPos": 0,
+      "high52": 92.3,
+      "adr": 0.07,
       "congestion": {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
         "bars": 501,
-        "rangePct": 489.48
+        "rangePct": 51.23
       },
       "catalyst": {
         "status": "pending",
@@ -1592,8 +1592,8 @@ window.TEAM4_DATA = {
       "sector": "Basic Materials",
       "industry": "Agricultural Inputs",
       "price": 65.08000183105469,
-      "volx": 2.65,
-      "volSurgeWk": 3.05,
+      "volx": 2.68,
+      "volSurgeWk": 3.09,
       "aboveMa150": false,
       "brk60d": false,
       "clsPos": 25.88,
@@ -1614,11 +1614,11 @@ window.TEAM4_DATA = {
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "price": 300.2699890136719,
-      "volx": 2.55,
-      "volSurgeWk": 1.92,
+      "volx": 2.66,
+      "volSurgeWk": 2.01,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 15,
+      "clsPos": 15.19,
       "high52": 92.47,
       "adr": 5.72,
       "congestion": {
@@ -1634,12 +1634,36 @@ window.TEAM4_DATA = {
       }
     },
     {
+      "ticker": "AAOI",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "price": 135.6300048828125,
+      "volx": 2.66,
+      "volSurgeWk": 1.7,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 27.21,
+      "high52": 58.04,
+      "adr": 12.14,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 489.48
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
       "ticker": "DEO",
       "sector": "Consumer Defensive",
       "industry": "Beverages - Wineries & Distilleries",
       "price": 96.3499984741211,
-      "volx": 2.54,
-      "volSurgeWk": 1.75,
+      "volx": 2.64,
+      "volSurgeWk": 1.83,
       "aboveMa150": true,
       "brk60d": true,
       "clsPos": 37.17,
@@ -1658,12 +1682,84 @@ window.TEAM4_DATA = {
       }
     },
     {
+      "ticker": "COHR",
+      "sector": "Technology",
+      "industry": "Scientific & Technical Instruments",
+      "price": 379.1300048828125,
+      "volx": 2.63,
+      "volSurgeWk": 1.77,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 67.97,
+      "high52": 86.17,
+      "adr": 9,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 115.09
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "OKLO",
+      "sector": "Utilities",
+      "industry": "Utilities - Independent Power Producers",
+      "price": 48.41999816894531,
+      "volx": 2.63,
+      "volSurgeWk": 2.62,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 81.17,
+      "high52": 24.98,
+      "adr": 7.37,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 122.62
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "VAC",
+      "sector": "Consumer Cyclical",
+      "industry": "Resorts & Casinos",
+      "price": 123.47000122070312,
+      "volx": 2.57,
+      "volSurgeWk": 1.69,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 5.41,
+      "high52": 94.01,
+      "adr": 4.3,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 150.22
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
       "ticker": "BHF",
       "sector": "Financial Services",
       "industry": "Insurance - Life",
       "price": 60.79999923706055,
-      "volx": 2.54,
-      "volSurgeWk": 2.37,
+      "volx": 2.55,
+      "volSurgeWk": 2.38,
       "aboveMa150": false,
       "brk60d": false,
       "clsPos": 34.66,
@@ -1748,30 +1844,6 @@ window.TEAM4_DATA = {
       }
     },
     {
-      "ticker": "RMD",
-      "sector": "Healthcare",
-      "industry": "Medical Instruments & Supplies",
-      "price": 211.94000244140625,
-      "volx": 2.47,
-      "volSurgeWk": 2.18,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 73.63,
-      "high52": 72.69,
-      "adr": 3.09,
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 54.03
-      },
-      "catalyst": {
-        "status": "pending",
-        "note": "LLM 촉매 분류 대기 (상한 초과)"
-      }
-    },
-    {
       "ticker": "PDEX",
       "sector": "Healthcare",
       "industry": "Medical Instruments & Supplies",
@@ -1780,9 +1852,9 @@ window.TEAM4_DATA = {
       "volSurgeWk": 3.14,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 7.29,
+      "clsPos": 15.33,
       "high52": 95.03,
-      "adr": 5.73,
+      "adr": 5.75,
       "congestion": {
         "ok": true,
         "phase": "none",
@@ -1801,7 +1873,7 @@ window.TEAM4_DATA = {
       "industry": "REIT - Retail",
       "price": 118.69000244140625,
       "volx": 2.44,
-      "volSurgeWk": 2.38,
+      "volSurgeWk": 2.39,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 79.45,
@@ -1828,9 +1900,9 @@ window.TEAM4_DATA = {
       "volSurgeWk": 0.99,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 91.8,
+      "clsPos": 91.72,
       "high52": 61.87,
-      "adr": 15.65,
+      "adr": 15.66,
       "congestion": {
         "ok": true,
         "phase": "none",
@@ -1844,12 +1916,36 @@ window.TEAM4_DATA = {
       }
     },
     {
+      "ticker": "UTHR",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "price": 538.8400268554688,
+      "volx": 2.42,
+      "volSurgeWk": 1.81,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 86.69,
+      "high52": 88.43,
+      "adr": 2.57,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 31.2
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
       "ticker": "ASH",
       "sector": "Basic Materials",
       "industry": "Specialty Chemicals",
       "price": 76.44999694824219,
       "volx": 2.42,
-      "volSurgeWk": 3.09,
+      "volSurgeWk": 3.1,
       "aboveMa150": true,
       "brk60d": true,
       "clsPos": 71.83,
@@ -1890,19 +1986,903 @@ window.TEAM4_DATA = {
         "status": "pending",
         "note": "LLM 촉매 분류 대기 (상한 초과)"
       }
+    },
+    {
+      "ticker": "NUTX",
+      "sector": "Healthcare",
+      "industry": "Medical Care Facilities",
+      "price": 162.07000732421875,
+      "volx": 2.38,
+      "volSurgeWk": 2.2,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 47,
+      "high52": 79.45,
+      "adr": 6.03,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 142.89
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "BXC",
+      "sector": "Industrials",
+      "industry": "Industrial Distribution",
+      "price": 89.87999725341797,
+      "volx": 2.34,
+      "volSurgeWk": 1.21,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 83.13,
+      "high52": 98.91,
+      "adr": 7.79,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 102.93
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "FSLR",
+      "sector": "Technology",
+      "industry": "Solar",
+      "price": 250.0500030517578,
+      "volx": 2.32,
+      "volSurgeWk": 1.33,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 9.86,
+      "high52": 77.91,
+      "adr": 5.5,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 75.39
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "SPB",
+      "sector": "Consumer Defensive",
+      "industry": "Household & Personal Products",
+      "price": 90.12999725341797,
+      "volx": 2.32,
+      "volSurgeWk": 2.14,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 19.11,
+      "high52": 90.99,
+      "adr": 3.56,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 43.94
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "MAIN",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "price": 58.939998626708984,
+      "volx": 2.23,
+      "volSurgeWk": 2.1,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 82.97,
+      "high52": 93.73,
+      "adr": 2.43,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 27.68
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "ESE",
+      "sector": "Technology",
+      "industry": "Scientific & Technical Instruments",
+      "price": 305.7200012207031,
+      "volx": 2.21,
+      "volSurgeWk": 2.68,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 78.22,
+      "high52": 84.44,
+      "adr": 3.52,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 48
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "ICFI",
+      "sector": "Industrials",
+      "industry": "Consulting Services",
+      "price": 95,
+      "volx": 2.2,
+      "volSurgeWk": 2.24,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 92.52,
+      "high52": 94.09,
+      "adr": 3.96,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 62.64
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "RDNT",
+      "sector": "Healthcare",
+      "industry": "Diagnostics & Research",
+      "price": 72.38500213623047,
+      "volx": 2.19,
+      "volSurgeWk": 1.73,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 100,
+      "high52": 84.33,
+      "adr": 4.63,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 48.5
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "WPM",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "price": 134.1999969482422,
+      "volx": 2.18,
+      "volSurgeWk": 1.56,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 47.4,
+      "high52": 81.21,
+      "adr": 3.3,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 63.17
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "CENX",
+      "sector": "Basic Materials",
+      "industry": "Aluminum",
+      "price": 51.22999954223633,
+      "volx": 2.16,
+      "volSurgeWk": 1.65,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 70.85,
+      "high52": 72.74,
+      "adr": 4.97,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 74.33
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "FOUR-A",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "price": 54.040000915527344,
+      "volx": 2.16,
+      "volSurgeWk": 1.35,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 33.42,
+      "high52": 54.26,
+      "adr": 3.44,
+      "congestion": {
+        "ok": false,
+        "phase": "none",
+        "phaseKo": "봉 없음 — 판정불가"
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "AEM",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "price": 178.82000732421875,
+      "volx": 2.12,
+      "volSurgeWk": 1.52,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 44.16,
+      "high52": 70.23,
+      "adr": 3.21,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 89.94
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "AKAM",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "price": 110.54000091552734,
+      "volx": 2.12,
+      "volSurgeWk": 2.12,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 3.35,
+      "high52": 66.81,
+      "adr": 4.99,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 86.95
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "EMA",
+      "sector": "Utilities",
+      "industry": "Utilities - Regulated Electric",
+      "price": 50.81999969482422,
+      "volx": 2.11,
+      "volSurgeWk": 1.52,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 61.28,
+      "high52": 92.48,
+      "adr": 1.8,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 14.55
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "GMED",
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "price": 82.3499984741211,
+      "volx": 2.1,
+      "volSurgeWk": 2.44,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 22.13,
+      "high52": 81.21,
+      "adr": 3.53,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 31.56
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "CVSA",
+      "sector": "Consumer Defensive",
+      "industry": "Education & Training Services",
+      "price": 140.97999572753906,
+      "volx": 2.09,
+      "volSurgeWk": 2.02,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 94.71,
+      "high52": 90.22,
+      "adr": 5.54,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 56.87
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "MP",
+      "sector": "Basic Materials",
+      "industry": "Other Industrial Metals & Mining",
+      "price": 51.11000061035156,
+      "volx": 2.09,
+      "volSurgeWk": 1.58,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 55.47,
+      "high52": 50.98,
+      "adr": 6.33,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 103.12
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "TTWO",
+      "sector": "Communication Services",
+      "industry": "Electronic Gaming & Multimedia",
+      "price": 246.5,
+      "volx": 2.07,
+      "volSurgeWk": 1.7,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 93.69,
+      "high52": 92.69,
+      "adr": 3.03,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 41.74
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "BR",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "price": 166.5,
+      "volx": 2.04,
+      "volSurgeWk": 1.39,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 69.19,
+      "high52": 63.36,
+      "adr": 3.1,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 47.49
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "PLTR",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "price": 172.00999450683594,
+      "volx": 2.04,
+      "volSurgeWk": 1,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 96.79,
+      "high52": 82.89,
+      "adr": 5.28,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 62.09
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "MMS",
+      "sector": "Industrials",
+      "industry": "Specialty Business Services",
+      "price": 59.189998626708984,
+      "volx": 2.03,
+      "volSurgeWk": 1.98,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 6.67,
+      "high52": 59.79,
+      "adr": 3.41,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 51.91
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "FROG",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "price": 89.5199966430664,
+      "volx": 2.02,
+      "volSurgeWk": 2.01,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 41.26,
+      "high52": 90.22,
+      "adr": 6.86,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 191.4
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "ARW",
+      "sector": "Technology",
+      "industry": "Electronics & Computer Distribution",
+      "price": 203.50999450683594,
+      "volx": 2,
+      "volSurgeWk": 1.86,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 59.8,
+      "high52": 85.75,
+      "adr": 3.74,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 78.95
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "ATLC",
+      "sector": "Financial Services",
+      "industry": "Credit Services",
+      "price": 100.01000213623047,
+      "volx": 2,
+      "volSurgeWk": 2.58,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 30.45,
+      "high52": 87.47,
+      "adr": 5.61,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 140.72
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "SEDG",
+      "sector": "Technology",
+      "industry": "Solar",
+      "price": 31.760000228881836,
+      "volx": 2,
+      "volSurgeWk": 1.45,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 10.7,
+      "high52": 39.09,
+      "adr": 9.21,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 159.17
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "CECO",
+      "sector": "Industrials",
+      "industry": "Pollution & Treatment Controls",
+      "price": 70.91999816894531,
+      "volx": 1.96,
+      "volSurgeWk": 2.42,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 79.02,
+      "high52": 70.05,
+      "adr": 6.07,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 102.08
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "INBX",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "price": 88.66000366210938,
+      "volx": 1.92,
+      "volSurgeWk": 2.95,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 93.01,
+      "high52": 57.09,
+      "adr": 5.68,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 171.01
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "NSC",
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "price": 334.3599853515625,
+      "volx": 1.91,
+      "volSurgeWk": 2.68,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0.39,
+      "high52": 93.61,
+      "adr": 2.01,
+      "congestion": {
+        "ok": true,
+        "baseHigh": 342.53,
+        "baseLow": 277.9,
+        "baseBars": 126,
+        "baseMonths": 6,
+        "rangePct": 23.26,
+        "breakoutDate": "2026-07-23",
+        "breakoutVolX": 2.66,
+        "barsSinceBreakout": 11,
+        "aboveMa150AtBreak": true,
+        "ma150AtBreak": 304.81,
+        "pivot": 342.53,
+        "distToPivotPct": -2.39,
+        "phase": "failed",
+        "phaseKo": "돌파 실패 (저항 아래 재이탈)",
+        "belowRun": 9,
+        "score": 0
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "ESNT",
+      "sector": "Financial Services",
+      "industry": "Insurance - Specialty",
+      "price": 68.72000122070312,
+      "volx": 1.91,
+      "volSurgeWk": 2.06,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 74.9,
+      "high52": 98.17,
+      "adr": 2.34,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 26.49
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "DDS",
+      "sector": "Consumer Cyclical",
+      "industry": "Department Stores",
+      "price": 612.1400146484375,
+      "volx": 1.73,
+      "volSurgeWk": 2.13,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 57.27,
+      "high52": 86.18,
+      "adr": 3.75,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 35.42
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "MNDY",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "price": 93.12999725341797,
+      "volx": 1.68,
+      "volSurgeWk": 2.27,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 59.03,
+      "high52": 36.83,
+      "adr": 5.91,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 71.53
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "KGS",
+      "sector": "Energy",
+      "industry": "Oil & Gas Equipment & Services",
+      "price": 59.900001525878906,
+      "volx": 1.68,
+      "volSurgeWk": 2.11,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 84.27,
+      "high52": 77.11,
+      "adr": 5.35,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 62.49
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "ROAD",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "price": 119.73999786376953,
+      "volx": 1.62,
+      "volSurgeWk": 2.3,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 80.92,
+      "high52": 79.3,
+      "adr": 4.82,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 61.64
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "MLPR",
+      "sector": "ETF",
+      "industry": "ETF",
+      "price": 73.66600036621094,
+      "volx": 1.57,
+      "volSurgeWk": 2.5,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 97.31,
+      "adr": 0.64,
+      "congestion": {
+        "ok": true,
+        "phase": "base",
+        "phaseKo": "6개월 횡보 베이스 형성 중",
+        "baseHigh": 77.89,
+        "baseLow": 64.41,
+        "baseBars": 126,
+        "baseMonths": 6,
+        "rangePct": 20.94,
+        "contraction": 1,
+        "pivot": 77.89,
+        "distToPivotPct": -5.43,
+        "aboveMa150AtNow": true,
+        "buyTrigger": {
+          "price": 77.89,
+          "note": "$77.89(저항선) 거래량 동반 돌파 시 진입 검토"
+        },
+        "score": 50
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
+    },
+    {
+      "ticker": "WAB",
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "price": 291.80999755859375,
+      "volx": 1.55,
+      "volSurgeWk": 2.22,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 13.38,
+      "high52": 95.16,
+      "adr": 2.85,
+      "congestion": {
+        "ok": true,
+        "baseHigh": 284.91,
+        "baseLow": 224.85,
+        "baseBars": 126,
+        "baseMonths": 6,
+        "rangePct": 26.71,
+        "breakoutDate": "2026-07-22",
+        "breakoutVolX": 3.38,
+        "barsSinceBreakout": 12,
+        "aboveMa150AtBreak": true,
+        "ma150AtBreak": 251.24,
+        "pivot": 284.91,
+        "distToPivotPct": 2.42,
+        "retestDate": "2026-07-23",
+        "retestVolRatio": 1.99,
+        "dryUp": false,
+        "phase": "retest",
+        "phaseKo": "돌파 후 저항선 리테스트",
+        "score": 45,
+        "buyTrigger": {
+          "price": 284.91,
+          "note": "저항선 $284.91 지지 확인 후 반등 시 진입"
+        }
+      },
+      "catalyst": {
+        "status": "pending",
+        "note": "LLM 촉매 분류 대기 (상한 초과)"
+      }
     }
   ],
   "byPhase": {
-    "none": 36,
+    "none": 72,
     "extended": 1,
     "breakout": 1,
-    "base": 1,
-    "bounce_trigger": 1
+    "base": 2,
+    "bounce_trigger": 1,
+    "failed": 1,
+    "retest": 1
   },
   "research_coverage": {
     "done": 12,
-    "total": 12,
-    "cap": 12
+    "total": 79,
+    "cap": 12,
+    "pending": 67,
+    "note": "79종목 중 12종목만 조사했습니다. 나머지 67종목은 상한(12) 때문에 아직 조사하지 않았습니다. 거래대금 급증 순으로 우선 조사하며, 나머지는 다음 실행에서 채워집니다."
   },
   "llm": {
     "highlights": [
