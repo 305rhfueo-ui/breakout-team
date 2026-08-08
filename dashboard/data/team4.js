@@ -4,8 +4,8 @@ window.TEAM4_DATA = {
     "volXMin": 2,
     "volSurgeWkMin": 2
   },
-  "universeHits": 79,
-  "analyzed": 79,
+  "universeHits": 77,
+  "analyzed": 77,
   "items": [
     {
       "ticker": "GRVY",
@@ -566,8 +566,8 @@ window.TEAM4_DATA = {
                 "publisher": "Investing.com",
                 "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-twilio-jumps-after-q2-2026-beat-and-raised-outlook-93CH-4844705",
                 "date": "2026-08-07",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -1234,30 +1234,6 @@ window.TEAM4_DATA = {
         "phaseKo": "해당 패턴 없음",
         "bars": 501,
         "rangePct": 63.31
-      },
-      "catalyst": {
-        "status": "pending",
-        "note": "LLM 촉매 분류 대기 (상한 초과)"
-      }
-    },
-    {
-      "ticker": "GDXU",
-      "sector": "ETF",
-      "industry": "ETF",
-      "price": 130.42999267578125,
-      "volx": 3.07,
-      "volSurgeWk": 1.76,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 71.25,
-      "high52": 24.12,
-      "adr": 9.2,
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 668.04
       },
       "catalyst": {
         "status": "pending",
@@ -2790,42 +2766,6 @@ window.TEAM4_DATA = {
       }
     },
     {
-      "ticker": "MLPR",
-      "sector": "ETF",
-      "industry": "ETF",
-      "price": 73.66600036621094,
-      "volx": 1.57,
-      "volSurgeWk": 2.5,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 0,
-      "high52": 97.31,
-      "adr": 0.64,
-      "congestion": {
-        "ok": true,
-        "phase": "base",
-        "phaseKo": "6개월 횡보 베이스 형성 중",
-        "baseHigh": 77.89,
-        "baseLow": 64.41,
-        "baseBars": 126,
-        "baseMonths": 6,
-        "rangePct": 20.94,
-        "contraction": 1,
-        "pivot": 77.89,
-        "distToPivotPct": -5.43,
-        "aboveMa150AtNow": true,
-        "buyTrigger": {
-          "price": 77.89,
-          "note": "$77.89(저항선) 거래량 동반 돌파 시 진입 검토"
-        },
-        "score": 50
-      },
-      "catalyst": {
-        "status": "pending",
-        "note": "LLM 촉매 분류 대기 (상한 초과)"
-      }
-    },
-    {
       "ticker": "WAB",
       "sector": "Industrials",
       "industry": "Railroads",
@@ -2869,20 +2809,20 @@ window.TEAM4_DATA = {
     }
   ],
   "byPhase": {
-    "none": 72,
+    "none": 71,
     "extended": 1,
     "breakout": 1,
-    "base": 2,
+    "base": 1,
     "bounce_trigger": 1,
     "failed": 1,
     "retest": 1
   },
   "research_coverage": {
     "done": 12,
-    "total": 79,
+    "total": 77,
     "cap": 12,
-    "pending": 67,
-    "note": "79종목 중 12종목만 조사했습니다. 나머지 67종목은 상한(12) 때문에 아직 조사하지 않았습니다. 거래대금 급증 순으로 우선 조사하며, 나머지는 다음 실행에서 채워집니다."
+    "pending": 65,
+    "note": "77종목 중 12종목만 조사했습니다. 나머지 65종목은 상한(12) 때문에 아직 조사하지 않았습니다. 거래대금 급증 순으로 우선 조사하며, 나머지는 다음 실행에서 채워집니다."
   },
   "llm": {
     "highlights": [

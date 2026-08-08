@@ -218,6 +218,20 @@ function say(who, msg) {
   console.log(`${c}[${who}]${RESET} ${msg}`);
 }
 
+// ETF·ETN 판별. RS 사이트는 Sector/Industry 를 둘 다 'ETF' 로 준다 (실측 14종목).
+//
+// 4팀 EP 는 개별 종목의 실적 촉매(어닝 서프라이즈·FDA·계약)를 찾는 팀이라 ETF 가 섞이면 안 된다.
+// ETF 는 실적 발표 자체가 없어 6분류가 성립하지 않고, 레버리지 상품(GDXU 3배 등)은
+// ADR·이격도 같은 변동성 지표가 구조적으로 왜곡된다.
+// ⚠️ 1팀 주도주와 5팀 업종표에는 그대로 둔다 — 거기서는 "시장에서 뭐가 극단적인가"를
+//    보는 용도라 ETF 도 정보 가치가 있다.
+function isEtf(row) {
+  if (!row) return false;
+  const s = String(row.Sector ?? row.sector ?? '').trim().toUpperCase();
+  const i = String(row.Industry ?? row.industry ?? '').trim().toUpperCase();
+  return s === 'ETF' || i === 'ETF';
+}
+
 // ── 리서치 커버리지 ──
 // "상한 때문에 빠진 항목을 숨기지 마라"는 이 시스템의 원칙이다.
 //
@@ -243,6 +257,7 @@ function coverageOf({ done, total, cap = null, unit = '종목', hint = '' }) {
 
 module.exports = {
   coverageOf,
+  isEtf,
   paths, CACHE_DIR, loadEnv,
   ensureDir, readJson, writeJson, writeText, writeAtomic, writeWindowData,
   today, ymd, isoWeek, isWeekday,

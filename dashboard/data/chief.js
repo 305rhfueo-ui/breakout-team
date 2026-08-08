@@ -16,7 +16,7 @@ window.CHIEF_DATA = {
       "total": 68
     },
     "breakouts": 28,
-    "epCandidates": 79,
+    "epCandidates": 77,
     "chartCheck": 7
   },
   "theme": "Technology 29종목(52.7%) · Healthcare 13종목(23.6%) · Semiconductors 7종목(12.7%)",

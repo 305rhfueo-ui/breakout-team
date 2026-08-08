@@ -8,7 +8,7 @@
 const path = require('path');
 const {
   paths, loadEnv, today, isoWeek, num, round, say, ensureDir,
-  readJson, writeJson, writeText, writeWindowData,
+  readJson, writeJson, writeText, writeWindowData, isEtf,
 } = require('./lib/util');
 const cache = require('./lib/cache');
 const { fetchRsData } = require('./fetch-rs-data');
@@ -89,7 +89,12 @@ async function main() {
   say('T2', `테마: ${themes.headline}`);
 
   // ── 5) 4팀 EP 후보 (VOL_X≥2.0 또는 주간거래량≥2.0배) ──
-  const epRows = rows.filter((r) => (num(r.VOL_X) ?? 0) >= 2.0 || (num(r.Vol_Surge_Wk) ?? 0) >= 2.0);
+  // ⚠️ ETF·ETN 은 제외한다. 4팀은 개별 종목의 실적 촉매를 찾는 팀이라
+  //    실적 발표가 없는 ETF 는 6분류가 성립하지 않고, 레버리지 상품은 변동성 지표가 왜곡된다.
+  //    (상한을 없애기 전에는 40위 밖이라 안 보였을 뿐 원래 섞여 있었다)
+  const epAll = rows.filter((r) => (num(r.VOL_X) ?? 0) >= 2.0 || (num(r.Vol_Surge_Wk) ?? 0) >= 2.0);
+  const epEtf = epAll.filter(isEtf);
+  const epRows = epAll.filter((r) => !isEtf(r));
   // ⚠️ 예전엔 상위 40개만 분석했다(EP_CAP). 그런데 그 40개를 VOL_X(거래대금/20일평균)로만
   //    골라서, 거래대금은 낮지만 주식 수 기준 거래량이 폭증한 종목이 조용히 잘려나갔다.
   //    두 지표는 단위가 달라(거래대금 vs 주식 수) 하나로 줄세우는 것 자체가 틀렸다.
@@ -99,8 +104,10 @@ async function main() {
   const epCap = Number(process.env.EP_CAP || 0);
   const epSorted = [...epRows].sort((a, b) => (num(b.VOL_X) ?? 0) - (num(a.VOL_X) ?? 0));
   const epTop = epCap > 0 ? epSorted.slice(0, epCap) : epSorted;
-  say('T4', `거래량 급증 ${epRows.length}종목 (VOL_X≥2 또는 주간 2배) → ${epTop.length}개 분석`
-    + (epCap > 0 ? ` (EP_CAP=${epCap} 적용 — ${epRows.length - epTop.length}종목 제외)` : ' (전량)'));
+  say('T4', `거래량 급증 ${epAll.length}종목 (VOL_X≥2 또는 주간 2배)`
+    + (epEtf.length ? ` → ETF ${epEtf.length}개 제외(${epEtf.map((r) => r.Ticker).join(',')})` : '')
+    + ` → ${epTop.length}개 분석`
+    + (epCap > 0 ? ` (EP_CAP=${epCap} — ${epRows.length - epTop.length}종목 추가 제외)` : ' (전량)'));
 
   // ── 6) 추적 상태 로드 + 2팀 픽 반영 ──
   const trackState = tracking.load();

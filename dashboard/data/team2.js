@@ -1873,8 +1873,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-bluelinx-beats-q2-2026-profit-forecasts-shares-jump-93CH-4838434",
                 "date": "2026-08-05",
                 "quote": "BlueLinx reported adjusted EPS of $1.15, compared with the consensus estimate of 46 cents. That was a beat of 69 cents a share, or about 150% above expectations.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -2877,8 +2877,8 @@ window.TEAM2_DATA = {
                 "publisher": "GuruFocus",
                 "url": "https://www.gurufocus.com/news/8928177/dell-maintains-by-morgan-stanley-price-target-raised-to-477",
                 "date": "2026-07",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           }
@@ -3898,8 +3898,8 @@ window.TEAM2_DATA = {
               "url": "https://www.investing.com/equities/axt-inc-earnings",
               "date": "2026-08-08",
               "quote": "AXT will release its next earnings report on Oct 29, 2026.",
-              "verified": "unverified",
-              "httpStatus": 403
+              "verified": "ok",
+              "httpStatus": 200
             }
           ]
         },

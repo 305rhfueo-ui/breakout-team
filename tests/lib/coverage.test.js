@@ -74,5 +74,16 @@ ok('4팀 — 촉매 미조사 종목이 실제로 미조사로 표시된다', ()
     '촉매 열이 다시 하드코딩됐다 — r.catalyst 를 읽어야 한다');
 });
 
+console.log('\n[4] 4팀에 ETF 가 섞이지 않았는가');
+ok('EP 후보에 ETF·ETN 이 없다', () => {
+  const d = load('team4.js', 'TEAM4_DATA');
+  if (!d) return;
+  const etf = (d.items || []).filter((i) => String(i.sector || '').toUpperCase() === 'ETF'
+    || String(i.industry || '').toUpperCase() === 'ETF');
+  assert.strictEqual(etf.length, 0,
+    `ETF 가 섞였다: ${etf.map((x) => x.ticker).join(', ')} — 4팀은 개별 종목의 실적 촉매를 찾는 팀이라 `
+    + 'ETF 는 실적 발표가 없어 6분류가 성립하지 않는다');
+});
+
 console.log(`\n${fail ? '❌' : '✅'} 통과 ${pass} · 실패 ${fail}`);
 process.exit(fail ? 1 : 0);
