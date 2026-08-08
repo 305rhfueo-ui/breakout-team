@@ -10,6 +10,7 @@
 <script src="dashboard/data/team4.js"      onerror="window.__NO_T4=1"></script>
 <script src="dashboard/data/team5.js"      onerror="window.__NO_T5=1"></script>
 <script src="dashboard/data/chartcheck.js" onerror="window.__NO_CC=1"></script>
+<script src="dashboard/data/industry-ko.js"></script>
 
 <style>
 :root{--bg:#0b0f16;--room:#131925;--desk:#1b2332;--bd:#2b3547;--tx:#dbe3ee;--dim:#8b96a8;
@@ -557,7 +558,7 @@ function chiefFlowLines(c){
     `<td class="num">${n(p.d50,0)}%</td><td class="num">${n(p.d200,0)}%</td>`+
     `<td>${esc(p.stageKo)}${p.breakout?' 🚀':''}</td></tr>`).join('');
 
-  H.push(`<b>[돈이 몰리는 곳의 강세 종목]</b> 오늘 돈이 가장 빨리 들어온 곳은 <b>${esc(g.industry)}</b> 입니다. `+
+  H.push(`<b>[돈이 몰리는 곳의 강세 종목]</b> 도윤이 뽑은 종목이 있는 업종 중 돈이 가장 빨리 들어온 곳은 <b>${esc(window.indKo?window.indKo(g.industry):g.industry)}</b> 입니다. `+
     `이 업종에서 도윤이 뽑은 종목은 ${g.picks.map(p=>esc(p.ticker)).join('·')} ${g.picks.length}개이고, `+
     (buy.length
       ? `그중 지금 볼 만한 자리는 <b>${buy.map(p=>esc(p.ticker)).join(', ')}</b> 입니다.`
@@ -583,7 +584,8 @@ function mirBrief(){
     P.push(`업종 ${t.totalIndustries}개의 강도를 계산했습니다. 다만 오늘은 과거 스냅샷이 모자라 <b>돈의 흐름(어디로 들어오고 어디서 빠지는지)은 판정하지 못했습니다.</b> <code>node scripts/backfill-history.js</code> 를 한 번 돌리면 다음 실행부터 나옵니다.`);
     return P.join(' ');
   }
-  const nm=(x)=>esc(x.industry);
+  // 업종명은 한글 먼저, 영문은 괄호로 (승인된 서술 규칙)
+  const nm=(x)=>esc(window.indKo?window.indKo(x.industry):x.industry);
   const cnt=(x)=>`${x.count}종목 중 ${Math.round((x.winRate||0)*x.count)}개 상승`;
   const rank=(x)=>x.frank25!=null
     ? `업종 순위가 25거래일 만에 <b>${x.FRANK+x.frank25}위에서 ${x.FRANK}위로 ${x.frank25>=0?x.frank25+'계단 올랐':(-x.frank25)+'계단 내렸'}습니다</b>`
@@ -606,9 +608,16 @@ function mirBrief(){
   } else P.push(`<b>오늘은 뚜렷하게 돈이 들어오는 업종이 없습니다.</b> 억지로 고르지 않겠습니다.`);
 
   // ② 돈이 빠지는 곳 — 3팀 탈락과 대조
-  const out=F.filter(x=>x.flow==='outflow').sort((a,b)=>(a.d200Delta??0)-(b.d200Delta??0)).slice(0,1);
+  // ⚠️ 이격 수축이 가장 큰 업종만 고르면 3팀 탈락 종목이 없는 곳이 걸려
+  //    "수아 판정과 일치한다"는 가장 강한 근거를 못 쓴다.
+  //    → 탈락 종목이 겹치는 업종을 먼저, 그 다음 수축이 큰 순.
   const dropped=(D.t3&&D.t3.dropped_today)||[];
   const picks=(D.t2&&D.t2.picks)||[];
+  const dropCount=(x)=>dropped.filter(d=>{
+    const p=picks.find(y=>y.ticker===d.ticker);
+    return p&&p.sector===x.sector&&p.industry===x.industry;}).length;
+  const out=F.filter(x=>x.flow==='outflow')
+    .sort((a,b)=>(dropCount(b)-dropCount(a))||((a.d200Delta??0)-(b.d200Delta??0))).slice(0,1);
   if(out.length){
     const o=out[0];
     const same=dropped.filter(d=>{const p=picks.find(x=>x.ticker===d.ticker);return p&&p.sector===o.sector&&p.industry===o.industry;});
@@ -780,19 +789,10 @@ function rows(list){
 /* ── 2팀 테마 정리 ──
    ① 어떤 회사들이 같은 이유로 오르는가(테마)  ② 어느 판에 몰려 있는가(섹터·업종)
    순서로 나눈다. 회사 이름·업종·종목 수는 전부 picks 에서 가져오며 지어내지 않는다. */
-const SECTOR_KO={Technology:'기술',Healthcare:'헬스케어',Industrials:'산업재',
-  'Consumer Cyclical':'경기소비재','Consumer Defensive':'필수소비재',Energy:'에너지',
-  'Communication Services':'통신서비스','Financial Services':'금융','Basic Materials':'소재',
-  'Real Estate':'부동산',Utilities:'유틸리티','N/A':'미분류'};
-const INDUSTRY_KO={Semiconductors:'반도체','Semiconductor Equipment & Materials':'반도체 장비·소재',
-  'Software - Infrastructure':'인프라 소프트웨어','Software - Application':'응용 소프트웨어',
-  'Information Technology Services':'IT 서비스',Biotechnology:'바이오테크',
-  'Computer Hardware':'컴퓨터 하드웨어','Communication Equipment':'통신장비',
-  'Diagnostics & Research':'진단·연구','Apparel Retail':'의류 유통',
-  'Medical Devices':'의료기기','Drug Manufacturers - Specialty & Generic':'제약(전문·제네릭)',
-  'Healthcare Plans':'건강보험','Oil & Gas Equipment & Services':'정유·가스 장비',
-  'Electronic Components':'전자부품','Aerospace & Defense':'항공우주·방산',
-  'Specialty Industrial Machinery':'산업기계','Engineering & Construction':'건설·엔지니어링'};
+/* 업종·섹터 한글명은 dashboard/data/industry-ko.js 에 있다 (대시보드와 공용).
+   없는 업종은 영문 그대로 — 억지 번역을 하지 않는다. */
+const SECTOR_KO=window.SECTOR_KO||{};
+const INDUSTRY_KO=window.INDUSTRY_KO||{};
 const koName=(m,en)=>m[en]?`${m[en]} <span class="en">(${esc(en)})</span>`:esc(en);
 
 /* 티커 → {회사명, 섹터, 업종}. 이름이 없으면 티커만 쓴다 (없는 이름을 만들지 않는다) */

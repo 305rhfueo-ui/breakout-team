@@ -13,7 +13,8 @@
     "rs": "node scripts/fetch-rs-data.js",
     "screen": "node scripts/lib/screen.js",
     "wrs": "node scripts/lib/wrs.js",
-    "room": "node scripts/open-dashboard.js"
+    "room": "node scripts/open-dashboard.js",
+    "test": "node tests/run-all.js"
   },
   "license": "UNLICENSED"
 }

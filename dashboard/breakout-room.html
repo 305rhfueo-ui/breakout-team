@@ -10,6 +10,7 @@
 <script src="data/team4.js"      onerror="window.__NO_T4=1"></script>
 <script src="data/team5.js"      onerror="window.__NO_T5=1"></script>
 <script src="data/chartcheck.js" onerror="window.__NO_CC=1"></script>
+<script src="data/industry-ko.js"></script>
 <script src="data/history.js"    onerror="window.__NO_HIST=1"></script>
 <script src="data/series/_index.js" onerror="window.__NO_SERIES=1"></script>
 
@@ -384,6 +385,69 @@ function renderT4(){
   $('p-t4').innerHTML=h;bindTk();
 }
 
+/* ── 5팀 자금 흐름 카드 ──
+   "돈이 어디로 들어오고 어디서 빠지는가"를 업종 단위로 보여준다.
+   ⚠️ 사이트 화면값과 우리 값이 다르므로 두 값을 나란히 놓는다. 사용자가 대조하기 때문이다. */
+/* 퍼센트 표기 — 값이 없으면 '—' 만. '—%' 로 나오면 데이터가 있는 것처럼 보인다 */
+const pc=(v,d)=>v==null||!isFinite(v)?'—':n(v,d==null?1:d)+'%';
+
+const FLOW_KO={leading:['🟢 본격 주도','돈이 넓게 들어오고 실적 기대도 오릅니다'],
+  inflow:['📈 자금 유입','돈이 들어오는 중입니다'],
+  narrow:['⚠️ 소수 종목','업종 전체가 아니라 일부만 오릅니다 — 종목으로 접근하세요'],
+  pending:['⭐ 다음 후보','가격은 아직인데 실적 기대가 쌓이는 중입니다'],
+  outflow:['📉 자금 이탈','돈이 빠지는 중입니다'],
+  neutral:['— 중립','뚜렷한 방향이 없습니다']};
+
+function flowRow(r){
+  const site=(r.siteF10!=null)?`${n(r.siteF10,1)}%`:'—';
+  const mine=(r.f10!=null)?`${n(r.f10,1)}%`:'—';
+  const diff=(r.f10!=null&&r.siteF10!=null&&(r.f10>0)!==(r.siteF10>0));
+  const dd=r.d200Delta;
+  return `<tr>
+    <td class="l"><span class="tk" data-i="${esc(r.key)}">${esc(window.indKo?window.indKo(r.industry):r.industry)}</span></td>
+    <td>${r.FRANK}${r.frank25!=null?` <span class="b ${r.frank25>0?'b-grn':r.frank25<0?'b-red':'b-dim'}">${r.frank25>0?'+':''}${r.frank25}</span>`:''}</td>
+    <td>${r.count}종목 중 ${Math.round((r.winRate||0)*r.count)}개</td>
+    <td>${n(r.d200,1)}%${dd!=null?` <span class="b ${dd>0?'b-grn':'b-red'}">${dd>0?'+':''}${n(dd,1)}p</span>`:''}</td>
+    <td>${n(r.d50,1)}%</td>
+    <td>${esc(r.stageKo)}</td>
+    <td>${mine}${diff?` <span class="b b-yel" title="사이트 화면과 부호가 반대입니다">사이트 ${site}</span>`:` <span class="dim">(사이트 ${site})</span>`}</td>
+  </tr>`;
+}
+
+function flowCards(t){
+  const F=t.flow;
+  if(!F)return `<div class="card"><h2>자금 흐름</h2><div class="pending">
+    과거 스냅샷이 부족해 판정하지 못했습니다 — <code>node scripts/backfill-history.js</code> 를 먼저 실행하세요.</div></div>`;
+  const rows=F.industries||[];
+  const head=`<thead><tr><th class="l">업종</th><th>순위(25일 변동)</th><th>오른 종목</th>
+    <th>1년 평균 대비(변화)</th><th>두 달 평균 대비</th><th>국면</th><th>업종 강도 10거래일</th></tr></thead>`;
+  const sec=(k,title,why)=>{
+    const list=rows.filter(r=>r.flow===k);
+    if(!list.length)return '';
+    const ord=k==='outflow'?(a,b)=>(a.d200Delta??0)-(b.d200Delta??0):(a,b)=>(b.frank25??-999)-(a.frank25??-999);
+    return `<div class="card"><h2>${title} — ${list.length}개 업종</h2>
+      <div class="note" style="margin-bottom:8px">${why}</div>
+      <div class="scroll"><table>${head}<tbody>${list.sort(ord).slice(0,12).map(flowRow).join('')}</tbody></table></div>
+      ${list.length>12?`<div class="note">상위 12개만 표시 (전체 ${list.length}개)</div>`:''}</div>`;
+  };
+  let h=`<div class="card"><h2>💰 돈이 어디로 가고 있나</h2>
+    <div class="note">${esc(F.note)}</div>
+    <div class="funnel" style="margin-top:9px">
+      <span>기준일 오늘 <b>${esc(F.baseline.today)}</b></span>
+      <span>10거래일 전 <b>${esc(F.baseline.d10)}</b></span>
+      <span>25거래일 전 <b>${esc(F.baseline.d25)}</b></span>
+      <span class="b b-yel">사이트와 부호 다른 업종 ${F.siteMismatch}개</span>
+    </div>
+    <div class="note" style="margin-top:8px">업종 강도 변화율(%)은 나누는 값이 0에 가까우면 숫자가 커집니다 —
+    <b>크기보다 순위 변동으로</b> 읽으세요. 업종명을 누르면 소속 종목이 나옵니다.</div></div>`;
+  h+=sec('leading','🟢 본격 주도 섹터','돈이 넓게 들어오고 실적 기대도 함께 오르는 곳입니다.');
+  h+=sec('inflow','📈 자금 유입 중','돈이 들어오고 있습니다.');
+  h+=sec('narrow','⚠️ 소수 종목만 오르는 곳','업종 전체가 아니라 일부만 오릅니다 — 업종이 아니라 종목으로 보세요.');
+  h+=sec('pending','⭐ 아직 안 온 곳 (다음 후보)','가격은 아직인데 실적 전망이 오르는 곳입니다. 지금 사는 자리는 아니고 관찰 리스트입니다.');
+  h+=sec('outflow','📉 돈이 빠지는 곳','1년 평균과의 격차가 좁혀지는 중입니다. 보유 중이면 손절선을 앞당기세요.');
+  return h;
+}
+
 /* ── 5팀 ── */
 function renderT5(){
   const t=D.t5; if(!t){$('p-t5').innerHTML='<div class="empty">5팀 데이터 없음</div>';return;}
@@ -396,7 +460,8 @@ function renderT5(){
     {h:'WRS 6M',f:r=>n(r.wrs.m6,4),s:r=>r.wrs.m6},
     {h:'상위%(6M)',f:r=>n(r.rankPct.m6,2),s:r=>-r.rankPct.m6},
   ];
-  let h=`<div class="card"><h2>WRS 검증</h2><div class="note">${esc(t.note)}<br>
+  let h=flowCards(t);
+  h+=`<div class="card"><h2>WRS 검증</h2><div class="note">${esc(t.note)}<br>
     사이트가 정상 계산한 <b>${t.validation.comparable}</b>개 그룹 중 <b>${t.validation.matched}</b>개 일치 ·
     사이트 NaN <b>${t.validation.recovered}</b>그룹은 자체 복구했습니다.</div></div>`;
   for(const [k,label] of [['m1','1개월'],['m3','3개월'],['m6','6개월']]){
@@ -414,6 +479,7 @@ function renderT5(){
     ],t.sectors||[])+`</div>`;
   h+=`<div class="card"><h2>강세 사유 분석</h2><div class="pending">LLM 리서치 대기 — 공신력 있는 언론·투자은행·증권사 리포트 기반으로 조사합니다. 근거가 없으면 '근거 없음'으로 표기합니다.</div></div>`;
   $('p-t5').innerHTML=h;
+  bindTk();   // 흐름 표의 업종 클릭은 table() 을 거치지 않으므로 직접 연결한다
 }
 
 /* ── 차트확인 ── */
@@ -819,13 +885,51 @@ function openIndustry(key){
       </div><div class="note">WRS = 업종 내 시총가중 평균 RS. 사이트는 6개월만 제공하므로 1M/3M 은 동일 공식으로 자체 계산했습니다.
       ${C.m1!==C.m6?`<br>⚠️ 기간별 종목수가 다릅니다 (1M ${C.m1} / 3M ${C.m3} / 6M ${C.m6}) — 해당 기간 RS 가 결측인 종목이 제외되기 때문입니다.`:''}</div></div>`;
   }
+  // ── 자금 흐름 판정 + 종목 분해 ──
+  const fl=((D.t5&&D.t5.flow&&D.t5.flow.industries)||[]).find(z=>z.key===key);
+  if(fl){
+    const [ko,why]=FLOW_KO[fl.flow]||['—',''];
+    const dd=fl.d200Delta;
+    h+=`<div class="card"><h2>지금 이 업종에 돈이 들어오나</h2>
+      <div class="verdict ${['leading','inflow'].includes(fl.flow)?'v-green':fl.flow==='outflow'?'v-red':'v-yellow'}">${ko} — ${esc(why)}</div>
+      <div class="funnel" style="margin-top:9px">
+        <span>업종 순위 <b>${fl.FRANK}위</b></span>
+        ${fl.frank25!=null?`<span>25거래일 전 대비 <b>${fl.frank25>0?'+':''}${fl.frank25}계단</b></span>`:''}
+        <span>${fl.count}종목 중 <b>${Math.round((fl.winRate||0)*fl.count)}개</b> 상승</span>
+        <span>${esc(fl.stageKo)}</span>
+      </div>
+      <div class="note" style="margin-top:8px">${esc(fl.stageNote)}.
+        1년 평균 대비 ${n(fl.d200,1)}%${dd!=null?` (25거래일 전보다 ${dd>0?'+':''}${n(dd,1)}%p ${dd>0?'벌어지는':'좁혀지는'} 중)`:''} ·
+        두 달 평균 대비 ${n(fl.d50,1)}% ·
+        올해 실적 전망 ${n(fl.cy,1)}%${fl.coverage?` (애널리스트 ${fl.coverage}명 중 ${n(fl.upRatio,0)}% 상향)`:''}
+        <br>업종 강도 10거래일 ${n(fl.f10,1)}% · 25거래일 ${n(fl.f25,1)}%
+        ${fl.siteF10!=null?` · <span class="dim">RS 사이트 화면값은 ${n(fl.siteF10,1)}% — 사이트가 오늘 값과 과거 값에 서로 다른 공식을 써서 다릅니다</span>`:''}
+      </div></div>`;
+  }
   h+=`<div class="card"><h2>WRS(1M/3M/6M) 최근 3개월 추이</h2><div id="ix-wrs"><div class="pending">불러오는 중…</div></div></div>`;
-  // 이 업종에 속한 2팀 선정 종목
+  // 이 업종에 속한 2팀 선정 종목 — 흐름 교차가 있으면 초입/눌림/과열/이탈로 분해해 보여준다
+  const cross=((D.chief&&D.chief.flowCross)||null);
+  const crossHit=cross?[...(cross.inflow||[]),...(cross.outflow||[]),...(cross.pending||[])]
+    .find(z=>`${z.sector}|${z.industry}`===key):null;
   const mem=(D.t2&&D.t2.picks||[]).filter(p=>`${p.sector}|${p.industry}`===key);
-  h+=`<div class="card"><h2>이 업종의 2팀 선정 종목 ${mem.length}개</h2>`+
-    (mem.length?mem.map(p=>`<span class="chip"><span class="tk" data-t="${esc(p.ticker)}">${esc(p.ticker)}</span>
-      상위 ${tp(p.bestPct)}% · ADR ${n(p.adr,1)}</span> `).join('')
-      :'<div class="empty">이 업종에서 선정된 종목 없음</div>')+`</div>`;
+  if(crossHit&&crossHit.picks&&crossHit.picks.length){
+    h+=`<div class="card"><h2>이 업종의 2팀 선정 종목 ${crossHit.picks.length}개 — 지금 어느 자리인가</h2>
+      <div class="scroll"><table><thead><tr><th class="l">종목</th><th>두 달 평균 대비</th><th>1년 평균 대비</th>
+        <th>올해 전망</th><th>판정</th><th>추적</th></tr></thead><tbody>`+
+      crossHit.picks.map(p=>`<tr>
+        <td class="l"><span class="tk" data-t="${esc(p.ticker)}">${esc(p.ticker)}</span>${p.name?` <span class="dim">${esc(p.name)}</span>`:''}</td>
+        <td>${pc(p.d50)}</td><td>${pc(p.d200)}</td><td>${pc(p.cy)}</td>
+        <td>${esc(p.stageKo)}${p.breakout?' 🚀':''}</td>
+        <td><span class="b ${p.tracking==='active'?'b-grn':'b-red'}">${p.tracking==='active'?'추적 중':'배제'}</span></td>
+      </tr>`).join('')+`</tbody></table></div>
+      <div class="note">두 달 평균(50일선) 대비가 30%를 넘으면 단기 과열, 음수면 이탈입니다.
+      1년 평균(200일선) 대비가 낮을수록 상승 사이클 초입이라 위로 갈 여지가 남습니다. 🚀 는 거래량까지 실린 전고점 돌파.</div></div>`;
+  } else {
+    h+=`<div class="card"><h2>이 업종의 2팀 선정 종목 ${mem.length}개</h2>`+
+      (mem.length?mem.map(p=>`<span class="chip"><span class="tk" data-t="${esc(p.ticker)}">${esc(p.ticker)}</span>
+        상위 ${tp(p.bestPct)}% · ADR ${n(p.adr,1)}</span> `).join('')
+        :'<div class="empty">이 업종에서 오늘 기준을 통과한 종목이 없습니다</div>')+`</div>`;
+  }
   h+=`<div class="card"><h2>강세 사유</h2><div class="pending">
     LLM 리서치 대기 — 공신력 있는 언론·투자은행·증권사 리포트 근거로 채웁니다. 근거 없으면 '근거 없음'으로 표기합니다.</div></div>`;
 
