@@ -116,8 +116,12 @@ function writeText(file, text) {
 
 // 대시보드용 JS 데이터 파일. file:// 로 열리면 fetch() 가 CORS 로 막히므로
 // JSON 이 아니라 window 전역에 담은 .js 로 내보낸다.
-function writeWindowData(file, varName, obj) {
-  writeAtomic(file, `window.${varName} = ${JSON.stringify(obj, null, 2)};\n`);
+// compact:true 면 들여쓰기를 빼서 파일을 절반으로 줄인다.
+// 사람이 읽을 일 없는 큰 데이터(유니버스 1,412행)에만 쓴다 — git diff 가 한 줄이 되므로
+// 사람이 들여다보는 team*.js 에는 쓰지 않는다.
+function writeWindowData(file, varName, obj, { compact = false } = {}) {
+  const json = compact ? JSON.stringify(obj) : JSON.stringify(obj, null, 2);
+  writeAtomic(file, `window.${varName} = ${json};\n`);
 }
 
 // ── 날짜 ──

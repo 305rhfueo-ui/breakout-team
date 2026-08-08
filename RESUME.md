@@ -1,10 +1,60 @@
 # 여기서부터 이어서 하면 됩니다
 
-마지막 작업: **2026-08-05**
+마지막 작업: **2026-08-08**
 
 ## 재개 방법
 
 Claude Code 를 열고 이렇게 말하면 됩니다:
+
+```
+breakout-team 이어서 하자. RESUME.md 읽어봐
+```
+
+---
+
+## 🔵 지금 하던 일 — 5팀 "자금 흐름" 확장 (승인된 계획 실행 중)
+
+계획 전문: `~/.claude/plans/prancy-kindling-thompson.md` 맨 아래 절.
+
+### 완료 (전부 검증됨)
+
+| 항목 | 파일 | 검증 |
+|---|---|---|
+| F10d/F25d/FRANK 계산 (사이트 재현 + 정정) | `scripts/lib/sector-flow.js` | `node tests/lib/sector-flow.test.js` → **24/24 통과** |
+| 실장 교차 (업종 × 2·3팀 종목) | `scripts/lib/flow-cross.js` | chief.js 에 `flowCross` 출력 확인 |
+| 파이프라인 연결 | `scripts/run-breakout.js` 12b 절 | 실행 로그에 `자금 흐름: 주도 3 · 유입 12 …` |
+| 스냅샷 스키마 v2 (50DIV/200DIV 추가) | `scripts/lib/history-series.js` | 구버전 캐시 자동 재수집 |
+| 티커 검색 (전 1,412종목) | `dashboard/breakout-room.html` | 브라우저에서 NVDA·TEAM·ZZZZ·"팔란티어" 확인 |
+| 유니버스 내보내기 | `run-breakout.js` + `data/universe.js` (646KB, 지연 로드) | 회사명 54개 매핑 |
+| 미르·실장 서술 | `index.html` `mirBrief()` · `chiefFlowLines()` | 리서치룸 스모크 통과 |
+
+**확인된 RS 사이트 버그 3종** (전부 회피 구현됨)
+
+1. 감쇠계수 불일치 — 오늘값(감쇠 O) vs 과거값(감쇠 X) 비교 → **137개 중 30개 업종의 부호가 뒤집힘**
+2. 기준일에 주말 스냅샷(금요일 복제) 섞임 → 평일만 골라 진짜 10·25거래일 사용
+3. NaN 오염 (기존에 알던 것)
+
+사이트 화면값 재현 골든값이 테스트에 박혀 있다 (Computer Hardware −38.3% 등 6종).
+
+### 🔧 남은 일 (여기서부터)
+
+1. **업종명 한글 병기** — 미르·실장 보고에 `Software - Application`,
+   `Oil & Gas Refining & Marketing` 처럼 영문이 그대로 나온다.
+   `index.html` 의 `INDUSTRY_KO` 맵을 확장해 붙일 것.
+   (승인된 서술 규칙: "영문 약어·용어를 풀지 않고 쓰지 않는다")
+2. **미르 vs 실장 업종 불일치** — 미르는 순위 상승폭 순(Software-Application),
+   실장은 2팀 종목 보유 업종 우선(Software-Infrastructure)이라 서로 다른 곳을
+   "가장 빠른 곳"이라 말한다. 실장 문구를 **"도윤이 뽑은 종목이 있는 업종 중"** 으로
+   정확히 하거나 미르 선택 기준을 맞출 것.
+3. **미르의 "돈 빠지는 곳" 선택** — 지금은 이격 수축이 가장 큰 업종(Semiconductor Equipment)을
+   고르는데 거기엔 3팀 탈락 종목이 없다. **탈락 종목이 겹치는 업종을 우선**하면
+   "수아 판정과 일치한다"는 근거가 살아난다 (Semiconductors 6종목 탈락).
+4. **대시보드 5팀 탭에 흐름 표 추가** — `dashboard/breakout-room.html` 의 `p-t5` 패널.
+   사이트값/정정값을 나란히, 업종 클릭 시 종목 분해.
+5. **약어 자동 검수** — 브리핑에 `F10d|WRS|ADR|CLS_POS|BBWTHD` 가 괄호 설명 없이
+   남으면 실패시키는 체크 추가.
+
+### 재개 명령
 
 ```
 breakout-team 이어서 하자. RESUME.md 읽어봐

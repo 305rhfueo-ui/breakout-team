@@ -525,6 +525,117 @@ function clip(html,lines=3){
     <button class="more" onclick="toggleClip('${id}',this)">더보기 ▼</button>`;
 }
 
+/* ── 실장 보고 중 "돈이 몰리는 곳의 강세 종목" 단락 ──
+   5팀 업종 판정과 2·3팀 종목을 교차한 결과(chief.flowCross)를 문장으로 푼다.
+   ⚠️ 교차 결과가 비면 "통과한 종목이 없습니다"라고 그대로 쓴다. 억지로 채우지 않는다. */
+function chiefFlowLines(c){
+  const fc=c&&c.flowCross; if(!fc)return [];
+  const H=[];
+  const lab={early:'지금 가장 초입',dip:'눌린 자리',lead:'선도주',
+    early_weak:'초입이나 실적 근거가 약함',lead_weak:'많이 왔고 기대는 멈춤',hot:'단기 과열',out:'이탈'};
+
+  // 팀 간 일치 — 이게 이 보고의 신뢰도 근거다
+  const ag=fc.agreement||{};
+  if(ag.droppedTotal&&ag.inOutflowIndustries){
+    H.push(`<b>[팀 판정이 맞아떨어집니다]</b> 수아가 오늘 뺀 ${ag.droppedTotal}종목 중 <b>${ag.inOutflowIndustries}개</b>가 `+
+      `미르가 "돈이 빠지는 중"이라고 짚은 업종 소속입니다 (${ag.tickers.map(t=>esc(t)).join(', ')}). `+
+      `서로 다른 방법으로 본 두 판정이 같은 곳을 가리키고 있습니다.`);
+  }
+  if(fc.breakoutsInInflow&&fc.breakoutsInInflow.length){
+    H.push(`거래량까지 실린 진짜 돌파 종목 중 <b>${fc.breakoutsInInflow.map(t=>esc(t)).join(', ')}</b> 는 돈이 들어오는 업종에 속해 있습니다.`);
+  }
+
+  const withPicks=(fc.inflow||[]).filter(i=>i.picks&&i.picks.length);
+  if(!withPicks.length){
+    H.push(`<b>[돈이 몰리는 곳의 종목]</b> 오늘 돈이 들어오는 업종 중에 도윤 기준을 통과한 종목이 있는 곳은 없습니다. 무리해서 고르지 않겠습니다.`);
+    return H;
+  }
+  const g=withPicks[0];
+  const buy=g.picks.filter(p=>['early','dip'].includes(p.stage)&&p.tracking==='active');
+  const rows=g.picks.map(p=>
+    `<tr><td><b>${esc(p.ticker)}</b>${p.name?` <span class="dim">${esc(p.name)}</span>`:''}</td>`+
+    `<td class="num">${n(p.d50,0)}%</td><td class="num">${n(p.d200,0)}%</td>`+
+    `<td>${esc(p.stageKo)}${p.breakout?' 🚀':''}</td></tr>`).join('');
+
+  H.push(`<b>[돈이 몰리는 곳의 강세 종목]</b> 오늘 돈이 가장 빨리 들어온 곳은 <b>${esc(g.industry)}</b> 입니다. `+
+    `이 업종에서 도윤이 뽑은 종목은 ${g.picks.map(p=>esc(p.ticker)).join('·')} ${g.picks.length}개이고, `+
+    (buy.length
+      ? `그중 지금 볼 만한 자리는 <b>${buy.map(p=>esc(p.ticker)).join(', ')}</b> 입니다.`
+      : `<b>그런데 지금 바로 사기 좋은 자리는 하나도 없습니다.</b> 솔직히 말씀드립니다 — 전부 단기로 뻗어 있거나 이미 이탈했습니다.`)+
+    `<table class="ctab" style="margin-top:9px"><thead><tr><th>종목</th><th>두 달 평균 대비</th><th>1년 평균 대비</th><th>판정</th></tr></thead><tbody>${rows}</tbody></table>`+
+    `<div class="note">두 달 평균(50일선) 대비가 30%를 넘으면 단기 과열, 음수면 이탈입니다. `+
+    `1년 평균(200일선) 대비가 낮을수록 상승 사이클 초입이라 위로 갈 여지가 남아 있습니다.</div>`);
+
+  const dip=g.picks.filter(p=>p.stage==='dip'&&p.tracking==='dropped');
+  if(dip.length)H.push(`⚠️ ${dip.map(p=>esc(p.ticker)).join(', ')} 는 실적 기대가 살아 있지만 두 달 평균선을 3일 이상 연속 이탈해 수아가 추적에서 뺐습니다. <b>규칙을 어기고 지금 사라는 뜻이 아닙니다</b> — 다시 올라오면 자동으로 재편입됩니다.`);
+  return H;
+}
+
+/* ── 미르(5팀) 보고 — "돈이 어디로 가고 있나" ──
+   서술 규칙: 영문 약어를 그대로 쓰지 않는다. 지표는 뜻 먼저, 이름은 괄호로.
+   숫자는 코드가 계산한 값 그대로. 매 문단 끝에 "그래서 뭘 하라는 건지"를 붙인다.
+   ⚠️ 변화율(%)은 나누는 값이 0 근처면 폭발한다 → 순위 변동을 앞세우고 %는 뒤에 붙인다. */
+function mirBrief(){
+  const t=D.t5; if(!t)return '';
+  const F=(t.flow&&t.flow.industries)||null;
+  const P=[];
+  if(!F){
+    P.push(`업종 ${t.totalIndustries}개의 강도를 계산했습니다. 다만 오늘은 과거 스냅샷이 모자라 <b>돈의 흐름(어디로 들어오고 어디서 빠지는지)은 판정하지 못했습니다.</b> <code>node scripts/backfill-history.js</code> 를 한 번 돌리면 다음 실행부터 나옵니다.`);
+    return P.join(' ');
+  }
+  const nm=(x)=>esc(x.industry);
+  const cnt=(x)=>`${x.count}종목 중 ${Math.round((x.winRate||0)*x.count)}개 상승`;
+  const rank=(x)=>x.frank25!=null
+    ? `업종 순위가 25거래일 만에 <b>${x.FRANK+x.frank25}위에서 ${x.FRANK}위로 ${x.frank25>=0?x.frank25+'계단 올랐':(-x.frank25)+'계단 내렸'}습니다</b>`
+    : `업종 순위는 <b>${x.FRANK}위</b>입니다`;
+  const gap=(x)=>x.d200!=null
+    ? `1년 평균 가격에서 ${n(x.d200,1)}% 떠 있고` + (x.d200Delta!=null
+        ? `, 25거래일 전보다 ${n(Math.abs(x.d200Delta),1)}%p ${x.d200Delta>0?'더 벌어지는':'좁혀지는'} 중입니다`
+        : `, 과거와 비교할 수 없어 방향은 판정 못 했습니다`)
+    : '';
+
+  // ① 돈이 들어오는 곳
+  const inflow=F.filter(x=>['leading','inflow','narrow'].includes(x.flow))
+    .sort((a,b)=>(b.frank25??-999)-(a.frank25??-999)).slice(0,2);
+  if(inflow.length){
+    const lead=inflow[0];
+    P.push(`<b>돈이 들어오는 곳은 ${nm(lead)}입니다.</b> ${rank(lead)}. ${cnt(lead)}이라 `+
+      (lead.winRate>=0.7?`몇 개가 끌어올린 게 아니라 업종 전체가 같이 움직였습니다`:`업종 전체가 아니라 일부만 오른 겁니다`)+
+      `. ${gap(lead)}. 지금은 <b>${esc(lead.stageKo)}</b> 국면이에요.`+
+      (inflow[1]?` ${nm(inflow[1])}도 ${rank(inflow[1])}.`:''));
+  } else P.push(`<b>오늘은 뚜렷하게 돈이 들어오는 업종이 없습니다.</b> 억지로 고르지 않겠습니다.`);
+
+  // ② 돈이 빠지는 곳 — 3팀 탈락과 대조
+  const out=F.filter(x=>x.flow==='outflow').sort((a,b)=>(a.d200Delta??0)-(b.d200Delta??0)).slice(0,1);
+  const dropped=(D.t3&&D.t3.dropped_today)||[];
+  const picks=(D.t2&&D.t2.picks)||[];
+  if(out.length){
+    const o=out[0];
+    const same=dropped.filter(d=>{const p=picks.find(x=>x.ticker===d.ticker);return p&&p.sector===o.sector&&p.industry===o.industry;});
+    P.push(`<b>돈이 빠지는 곳은 ${nm(o)}입니다.</b> 순위는 아직 ${o.FRANK}위지만 속을 보면 다릅니다 — ${gap(o)}.`+
+      (o.d50!=null&&o.d50<0?` 최근 두 달 평균 아래로 ${n(Math.abs(o.d50),1)}% 내려왔습니다.`:'')+
+      (same.length?` <b>수아가 오늘 뺀 ${dropped.length}종목 중 ${same.length}개가 정확히 이 업종</b>(${same.map(d=>esc(d.ticker)).join(', ')})입니다 — 제 판정과 수아 판정이 따로 논 게 아니라 같은 걸 본 겁니다.`
+        :` 다만 수아가 오늘 뺀 종목 중에는 이 업종이 없습니다.`));
+  }
+
+  // ③ 아직 안 온 곳
+  const pend=F.filter(x=>x.flow==='pending'&&x.coverage>=50).sort((a,b)=>(b.cy??-999)-(a.cy??-999)).slice(0,1);
+  if(pend.length){
+    const p2=pend[0];
+    const mine=picks.filter(x=>x.sector===p2.sector&&x.industry===p2.industry);
+    P.push(`<b>아직 안 온 곳은 ${nm(p2)}입니다.</b> 순위 ${p2.FRANK}위인데 주가 강도는 식었습니다. 그런데 애널리스트들이 `+
+      `<b>올해 실적 전망을 ${n(p2.cy,1)}% 올렸고 ${p2.coverage}명 중 ${n(p2.upRatio,0)}%가 동의</b>합니다. `+
+      `기대는 쌓이는데 가격이 아직 안 따라온 상태라 다음 차례 후보예요. `+
+      (mine.length?`도윤이 여기서 ${mine.map(x=>esc(x.ticker)).join('·')}를 뽑았습니다.`
+        :`다만 도윤 기준(가장 강한 상위 2%)은 아직 통과 못 해 오늘 뽑힌 종목은 없습니다.`));
+  }
+
+  // 사이트와 다른 이유 (사용자가 대조할 것이므로 반드시 밝힌다)
+  if(t.flow.siteMismatch)
+    P.push(`<span class="note">※ RS 사이트 화면과 숫자가 다릅니다. 사이트는 오늘 값과 과거 값에 서로 다른 공식을 적용해 비교하고, 기준일에 주말치(금요일 복제본)가 섞여 있습니다. 바로잡으면 <b>${t.flow.siteMismatch}개 업종은 오르내림 부호까지 반대</b>로 나옵니다. 대조하실 수 있게 두 값을 5팀 화면에 나란히 뒀습니다.</span>`);
+  return P.join(' ');
+}
+
 /* ── 담당자 브리핑 ──
    숫자만 던지지 않고 "그래서 뭘 해야 하나"를 먼저 말한다.
    LLM 없이 데이터만으로 생성하므로 오프라인에서도 읽힌다. */
@@ -589,22 +700,7 @@ function briefing(id){
     else P.push(`뉴스를 못 찾은 종목은 억지로 이유를 만들지 않고 '암묵적(뉴스 없는 이상거래량)'으로 분류합니다.`);
     return P.join(' ');
   }
-  if(id==='t5'){
-    const t=D.t5; if(!t)return '';
-    const top=(t.strictTop2&&t.strictTop2.m6)||[];
-    P.push(`업종 ${t.totalIndustries}개의 상대강도(WRS)를 계산했습니다. WRS는 그 업종 종목들의 시가총액 가중 평균 초과수익률이에요 — 0이면 QQQ와 같고, 높을수록 시장을 이기고 있다는 뜻입니다.`);
-    if(top.length){
-      const f=top[0];
-      P.push(`6개월 기준 <b>${f.industry}</b> 가 1위입니다(WRS ${n(f.wrs.m6,3)}, 상위 ${n(f.rankPct.m6,2)}%). ${f.count}종목짜리 업종이에요.`);
-      // 기간 비교로 로테이션 읽기
-      const rising=top.filter(x=>x.rankPct.m1!=null&&x.rankPct.m6!=null&&x.rankPct.m1<x.rankPct.m6);
-      const fading=top.filter(x=>x.rankPct.m1!=null&&x.rankPct.m6!=null&&x.rankPct.m1>x.rankPct.m6+10);
-      if(rising.length)P.push(`<b>${rising.map(x=>x.industry).join(', ')}</b> 는 1개월 순위가 6개월보다 높습니다 — 지금 새로 돈이 들어오고 있다는 신호예요.`);
-      if(fading.length)P.push(`반대로 <b>${fading.map(x=>x.industry).join(', ')}</b> 는 6개월은 상위인데 1개월이 밀렸습니다. 돈이 빠져나가는 중일 수 있으니 주의하세요.`);
-    } else P.push(`엄격한 상위 2%에 드는 업종이 오늘은 없습니다.`);
-    if(t.validation&&t.validation.recovered)P.push(`참고로 원본 사이트의 WRS는 ${t.validation.recovered}개 업종이 계산 오류로 비어 있어서, <b>같은 공식으로 직접 계산해 복구</b>했습니다.`);
-    return P.join(' ');
-  }
+  if(id==='t5')return mirBrief();
   /* 실장 — 사장께 올리는 보고 */
   const c=D.chief; if(!c)return '';
   const k=c.counts||{},m=c.market||{},cc=(D.cc&&D.cc.items)||[];
@@ -635,6 +731,9 @@ function briefing(id){
   if(t3.summary)did.push(`추적 ${t3.summary.active}종목 관리 (오늘 ${(t3.dropped_today||[]).length}종목 탈락)`);
   if(t4.universeHits)did.push(`거래량 급증 ${t4.universeHits}종목 점검`);
   if(did.length)H.push(`<b>[오늘 한 일]</b> ${did.join(' · ')}.`);
+
+  // ③-b 돈이 몰리는 곳의 강세 종목 (5팀 업종 흐름 × 2·3팀 종목 교차)
+  H.push(...chiefFlowLines(c));
 
   // ④ 눈여겨볼 것
   const bk=(t3.breakouts||[]).filter(b=>b.volumeConfirmed);

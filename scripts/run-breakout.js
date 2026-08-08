@@ -292,22 +292,50 @@ async function main() {
       llm: { status: 'pending' },
     };
     say('T5', `상위 2% 업종: 1개월 ${strictTop2.m1.length} · 3개월 ${strictTop2.m3.length} · 6개월 ${strictTop2.m6.length}개`);
+
+    // ── 12b) 자금 흐름 판정 (F10d/F25d/FRANK + 200일선 이격 변화) ──
+    // 사이트 화면에는 이 값들이 있지만 result.json 에는 없다. 브라우저가 만드는 값이라
+    // 우리가 직접 계산한다. 사이트 계산에는 버그가 3개 있어(sector-flow.js 주석 참조)
+    // 재현값과 정정값을 함께 낸다.
+    if (!args.offline) {
+      try {
+        const H = require('./lib/history-series');
+        const { computeFlow } = require('./lib/sector-flow');
+        const idx = await H.fetchIndex();
+        const wdays = H.weekdaysOnly(idx.dates).slice().reverse();   // 평일만, 최신순
+        const alld = idx.dates.slice().reverse();                    // 주말 포함(사이트 기준)
+        if (wdays.length >= 26) {
+          const need = [...new Set([wdays[10], wdays[25], alld[10], alld[25]])];
+          for (const d of need) await H.ensureSnapshot(d);
+          const flow = computeFlow(rows, H.loadSnapshot(wdays[10]), H.loadSnapshot(wdays[25]), {
+            site10: H.loadSnapshot(alld[10]), site25: H.loadSnapshot(alld[25]),
+          });
+          const cnt = (f) => flow.filter((x) => x.flow === f).length;
+          const flipped = flow.filter((x) => Number.isFinite(x.f10) && Number.isFinite(x.siteF10)
+            && (x.f10 > 0) !== (x.siteF10 > 0)).length;
+          team5.flow = {
+            baseline: { today: alld[0], d10: wdays[10], d25: wdays[25], site10: alld[10], site25: alld[25] },
+            note: `업종 강도 변화는 진짜 10·25거래일(${wdays[10]}·${wdays[25]}) 기준으로 다시 계산했습니다. `
+                + `RS 사이트 화면은 주말 스냅샷이 섞인 ${alld[10]}·${alld[25]}를 쓰고, 오늘 값과 과거 값에 `
+                + `서로 다른 공식을 적용해 비교합니다 — 그래서 화면값과 다르며 ${flipped}개 업종은 부호까지 반대입니다.`,
+            siteMismatch: flipped,
+            industries: flow,
+          };
+          say('T5', `자금 흐름: 주도 ${cnt('leading')} · 유입 ${cnt('inflow')} · 소수종목 ${cnt('narrow')} · 대기 ${cnt('pending')} · 유출 ${cnt('outflow')} (사이트와 부호 다른 업종 ${flipped}개)`);
+        } else {
+          say('WARN', `스냅샷 평일분 ${wdays.length}개 — 26개 미만이라 자금 흐름 판정을 건너뜁니다`);
+        }
+      } catch (e) { say('WARN', `자금 흐름 판정 실패: ${e.message}`); }
+    }
   }
 
-  // ── 12-0) 팝업 상세 데이터 (실적 · 뉴스 · 국내 리포트) ──
-  // 비용이 큰 단계라 상위 N 종목만. 전부 TTL 캐시라 2회차부터는 거의 무료다.
-  if (team2 && !args.offline && process.env.SKIP_DETAIL !== '1') {
-    const cap = Number(process.env.POPUP_CAP || 20);
-    const targets = qualified.slice(0, cap);
-    const { getQuarterlyFinancials, getFilings } = require('./data/sec-edgar');
-    const { getTickerNews } = require('./data/news-rss');
+  // ── 12-0a) 회사명 매핑 (전 선정 종목, 상한·SKIP_DETAIL 과 무관) ──
+  // 테마 카드와 티커 검색에 티커만 나열하면 무슨 회사인지 알 수 없다.
+  // 국문명은 인포맥스(30일 캐시), 없으면 SEC company_tickers 의 영문명으로 채운다.
+  // 둘 다 없으면 비워두고 화면에 '회사명 미확보'로 표기한다 — 지어내지 않는다.
+  // ⚠️ 팝업 상세(SKIP_DETAIL)와 분리했다. 상세를 건너뛰어도 이름은 있어야 검색이 쓸모 있다.
+  if (team2 && !args.offline) {
     const kr = require('./data/kr-reports');
-    let okFin = 0, okNews = 0, okKr = 0;
-
-    // ── 회사명은 전 종목에 붙인다 (상한과 무관) ──
-    // 테마 카드에 티커만 나열하면 무슨 회사인지 알 수 없다.
-    // 국문명은 인포맥스(30일 캐시), 없으면 SEC company_tickers 의 영문명으로 채운다.
-    // 둘 다 없으면 비워두고 화면에 '회사명 미확보'로 표기한다 — 지어내지 않는다.
     const { nameOf } = require('./data/sec-edgar');
     let okKo = 0, okEn = 0;
     for (const q of qualified) {
@@ -320,6 +348,17 @@ async function main() {
       }
     }
     say('T2', `회사명: 국문 ${okKo} · 영문보강 ${okEn} / ${qualified.length}종목`);
+  }
+
+  // ── 12-0) 팝업 상세 데이터 (실적 · 뉴스 · 국내 리포트) ──
+  // 비용이 큰 단계라 상위 N 종목만. 전부 TTL 캐시라 2회차부터는 거의 무료다.
+  if (team2 && !args.offline && process.env.SKIP_DETAIL !== '1') {
+    const cap = Number(process.env.POPUP_CAP || 20);
+    const targets = qualified.slice(0, cap);
+    const { getQuarterlyFinancials, getFilings } = require('./data/sec-edgar');
+    const { getTickerNews } = require('./data/news-rss');
+    const kr = require('./data/kr-reports');
+    let okFin = 0, okNews = 0, okKr = 0;
 
     for (let i = 0; i < targets.length; i++) {
       const q = targets[i];
@@ -406,6 +445,11 @@ async function main() {
     },
     theme: themes.headline,
     chartCheck: chartCheckTop,
+    // 5팀 업종 흐름 × 2·3팀 종목 교차 — "돈이 몰리는 업종 안에서 뭐가 강한가"
+    flowCross: (team5 && team5.flow)
+      ? require('./lib/flow-cross').crossFlow(team5.flow.industries,
+          { picks: qualified, rowByTicker, team3, cap: 4 })
+      : null,
     stale: staleData,
     llm: { status: 'pending', note: 'LLM 리서치는 start breakout 실행 시 덧입혀집니다' },
   };
@@ -418,6 +462,36 @@ async function main() {
   if (team5) writeWindowData(path.join(paths.dashboardData, 'team5.js'), 'TEAM5_DATA', team5);
   writeWindowData(path.join(paths.dashboardData, 'chief.js'), 'CHIEF_DATA', chief);
   writeWindowData(path.join(paths.dashboardData, 'chartcheck.js'), 'CHARTCHECK_DATA', { generated: dateStr, items: chartCheckTop });
+
+  // ── 티커 검색용 유니버스 (전 1,412종목) ──
+  // ⚠️ 약 500KB 라 초기 로딩에 넣으면 안 된다. 대시보드가 검색창을 처음 쓸 때만
+  //    <script> 를 동적 주입해 불러온다 (file:// 에서도 동작하는 series 로딩 패턴).
+  {
+    const flowByKey = new Map(((team5 && team5.flow && team5.flow.industries) || [])
+      .map((i) => [i.key, { FRANK: i.FRANK, f10: i.f10, f25: i.f25, frank25: i.frank25,
+        stage: i.stage, stageKo: i.stageKo, flow: i.flow, d200Delta: i.d200Delta }]));
+    const nameByTicker = new Map(qualified.filter((p) => p.nameKo || p.nameEn)
+      .map((p) => [p.ticker, { ko: p.nameKo || null, en: p.nameEn || null }]));
+    const uni = rows.map((r) => {
+      const nm = nameByTicker.get(r.Ticker) || {};
+      return {
+        t: r.Ticker, ko: nm.ko || null, en: nm.en || null,
+        s: r.Sector, i: r.Industry, p: num(r.Price), mc: r['Market Cap'],
+        r1: num(r.RS_1mo), r3: num(r.RS_3mo), r6: num(r.RS_6mo),
+        // __p 는 rankPercentiles 가 붙인 백분위 (높을수록 강함, 98 이상이 상위 2%)
+        p1: r.__p ? r.__p.RS_1mo : null, p3: r.__p ? r.__p.RS_3mo : null, p6: r.__p ? r.__p.RS_6mo : null,
+        adr: num(r.ADR_20D), d10: num(r['10DIV']), d50: num(r['50DIV']), d200: num(r['200DIV']),
+        h52: num(r.High_52W_Pct), vx: num(r.VOL_X), vw: num(r.Vol_Surge_Wk),
+        cy: num(r.CY_Trend), ny: num(r.NY_Trend), u: num(r.Up_Count), dn: num(r.Down_Count),
+        a50: r.Above_50_SMA, a150: r.Above_150_SMA, ord: r.Order,
+        bb: num(r.BBWTHD), bbl: num(r.BBWTHD_LOW), cls: num(r.CLS_POS), brk: r.BRK_60D,
+      };
+    });
+    writeWindowData(path.join(paths.dashboardData, 'universe.js'), 'UNIVERSE_DATA',
+      { generated: dateStr, count: uni.length, industries: Object.fromEntries(flowByKey), rows: uni },
+      { compact: true });
+    say('SYSTEM', `티커 검색 유니버스 ${uni.length}종목 · 회사명 ${nameByTicker.size}개`);
+  }
 
   // 히스토리 누적
   const histFile = path.join(paths.dashboardData, 'history.js');

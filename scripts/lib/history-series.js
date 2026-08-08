@@ -29,20 +29,33 @@ async function fetchIndex() {
 // 평일만 남긴다 (주말 스냅샷은 금요일 복제)
 function weekdaysOnly(dates) { return dates.filter(isWeekday); }
 
+// 슬림 스냅샷 스키마 버전. 필드를 늘리면 올려야 한다 —
+// 올리지 않으면 예전에 캐시된 파일이 새 필드 없이 그대로 쓰여 조용히 null 이 된다.
+//   v2: d50/d200 추가 (5팀 업종 국면 판정에 필요)
+const SLIM_VERSION = 2;
+
 async function ensureSnapshot(date, { force = false } = {}) {
   const file = snapPath(date);
-  if (!force && fs.existsSync(file)) return { date, file, cached: true };
+  if (!force && fs.existsSync(file)) {
+    const old = readJson(file, null);
+    if (old && (old.v || 1) >= SLIM_VERSION) return { date, file, cached: true };
+    // 구버전 캐시 → 다시 받아 새 필드를 채운다
+  }
   const txt = await fetchText(`${BASE}/history/result_${date}.json`, 30000);
   const j = parseLooseJson(txt);
   ensureDir(path.dirname(file));
   // 원본 전체를 두면 무겁다 → 시계열에 필요한 필드만 남겨 저장 (약 1.7MB → 약 150KB)
+  // ⚠️ 200DIV/50DIV 는 2026-06~07 이후 스냅샷에만 있다. 없으면 null 로 남기고
+  //    쓰는 쪽에서 '판정불가'로 처리한다 (0 으로 채우면 안 된다).
   const slim = {
     date,
+    v: SLIM_VERSION,
     last_updated: j.last_updated || null,
     data: (j.data || []).filter((r) => r && r.Ticker).map((r) => ({
       T: r.Ticker, P: num(r.Price), MC: r['Market Cap'],
       S: r.Sector, I: r.Industry,
       r1: num(r.RS_1mo), r3: num(r.RS_3mo), r6: num(r.RS_6mo),
+      d50: num(r['50DIV']), d200: num(r['200DIV']),
     })),
   };
   fs.writeFileSync(file, JSON.stringify(slim), 'utf8');
