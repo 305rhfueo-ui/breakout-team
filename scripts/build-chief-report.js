@@ -36,6 +36,19 @@ async function main() {
     process.exit(0);
   }
 
+  // ── 0) 재사용 표기 ──
+  // 주말·휴장일에는 RS 데이터가 갱신되지 않아 같은 숫자가 나온다. 그럴 때 팀별 리서치를
+  // 다시 돌리면 같은 뉴스를 다시 읽을 뿐이라 이전 조사분을 재사용한다.
+  // ⚠️ 재사용했다는 사실을 반드시 화면에 남긴다 — 오늘 새로 조사한 것처럼 보이면 안 된다.
+  const reuse = {};
+  for (const k of ['team1', 'team2', 'team4', 'team5', 'chief']) {
+    const src = llm[k] && llm[k]._reusedFrom;
+    if (src) reuse[k] = src;
+  }
+  if (Object.keys(reuse).length) {
+    say('SYSTEM', `재사용: ${Object.entries(reuse).map(([k, v]) => `${k}←${v}`).join(' · ')} (시장 데이터가 그날과 동일)`);
+  }
+
   // ── 1) 출처 검증 (환각 방어 2단계, LLM 무관) ──
   say('SYSTEM', '출처 검증 중 (URL 생존 확인)…');
   const { payload, report } = await verifyPayload(llm, { runDate: dateStr, check: process.env.SKIP_LINKCHECK !== '1' });
@@ -53,7 +66,7 @@ async function main() {
     const f = path.join(paths.dashboardData, 'team1.js');
     const d = loadWindowData(f, 'TEAM1_DATA');
     if (d) {
-      d.news = { llm: true, ...payload.team1, verified: report };
+      d.news = { llm: true, ...payload.team1, verified: report, reusedFrom: reuse.team1 || null };
       writeWindowData(f, 'TEAM1_DATA', d);
       merged.push('team1(뉴스)');
     }
@@ -75,7 +88,7 @@ async function main() {
           p.research = { status: 'pending', note: `LLM 리서치 대기 (상한 ${payload.team2.coverage ? payload.team2.coverage.cap : '?'} 초과)` };
         }
       }
-      d.themes = { ...(d.themes || {}), llm: payload.team2.theme };
+      d.themes = { ...(d.themes || {}), llm: payload.team2.theme, reusedFrom: reuse.team2 || null };
       // ⚠️ total 은 반드시 "전체 선정 종목 수"여야 한다.
       //    워크플로가 돌려주는 coverage.total 은 "그 실행에 넘긴 종목 수"라
       //    그대로 쓰면 6/6 처럼 전량 조사한 것으로 보인다(실제로는 54 중 6).
@@ -106,6 +119,7 @@ async function main() {
         else it.catalyst = { status: 'pending', note: 'LLM 촉매 분류 대기 (상한 초과)' };
       }
       d.llm = payload.team4.summary || null;
+      d.reusedFrom = reuse.team4 || null;
       d.byCategory = payload.team4.byCategory || d.byCategory;
       d.research_coverage = { done, total: (d.items || []).length, ...(payload.team4.coverage || {}) };
       writeWindowData(f, 'TEAM4_DATA', d);
@@ -117,7 +131,7 @@ async function main() {
     const f = path.join(paths.dashboardData, 'team5.js');
     const d = loadWindowData(f, 'TEAM5_DATA');
     if (d) {
-      d.llm = { status: 'done', industries: payload.team5.industries || [], summary: payload.team5.summary || null };
+      d.llm = { status: 'done', industries: payload.team5.industries || [], summary: payload.team5.summary || null, reusedFrom: reuse.team5 || null };
       writeWindowData(f, 'TEAM5_DATA', d);
       merged.push(`team5(업종 ${(payload.team5.industries || []).length})`);
     }
@@ -127,7 +141,7 @@ async function main() {
     const f = path.join(paths.dashboardData, 'chief.js');
     const d = loadWindowData(f, 'CHIEF_DATA');
     if (d) {
-      d.llm = { status: 'done', ...payload.chief, verified: report };
+      d.llm = { status: 'done', ...payload.chief, verified: report, reusedFrom: reuse.chief || null, reuseAll: Object.keys(reuse).length ? reuse : null };
       writeWindowData(f, 'CHIEF_DATA', d);
       merged.push('chief(실장)');
     }
