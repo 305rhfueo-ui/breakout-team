@@ -576,6 +576,14 @@ window.TEAM1_DATA = {
             "date": "2026-08-07",
             "verified": "ok",
             "httpStatus": 200
+          },
+          {
+            "title": "Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with his allies.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
+            "date": "2026-08-07",
+            "verified": "unverified",
+            "httpStatus": 401
           }
         ]
       },
@@ -584,7 +592,16 @@ window.TEAM1_DATA = {
         "easy": "엔비디아는 AI를 돌리는 데 필요한 반도체(GPU)를 거의 독점하다시피 파는 회사입니다. 금광 시대에 삽과 곡괭이를 파는 가게라고 보면 됩니다. 이 회사 주가가 1년 넘는 기간 중 가장 큰 주간 상승을 기록했습니다. 시가총액이 워낙 커서 엔비디아 하나가 오르면 나스닥 지수 전체가 따라 올라갑니다. 즉 이번 주 지수 강세의 상당 부분이 이 한 종목에서 나왔다는 뜻입니다.",
         "whyMatters": "QQQ가 종가 723.03으로 MA10 696.98 / MA20 700.34 / MA50 714.57 세 이동평균선을 모두 위로 넘어선 배경이 바로 이겁니다. 다만 '지수는 강한데 엔진이 한두 종목'인 구조는 폭이 좁은 상승입니다. 내 종목이 AI 반도체 밸류체인에 속한다면 지금은 순풍이지만, 엔비디아가 흔들리는 날 함께 무너질 확률이 높다는 점을 감안해 비중을 한 바구니에 몰지 마세요.",
         "impact": "up",
-        "sources": []
+        "sources": [
+          {
+            "title": "Two reasons why Nvidia's stock saw its biggest weekly surge in more than a year",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/two-reasons-why-nvidias-stock-saw-its-biggest-weekly-surge-in-more-than-a-year-644875c8?mod=mw_rss_topstories",
+            "date": "2026-08-07",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
       },
       {
         "headline": "'SaaS 종말론' 논쟁 격화 — 소프트웨어 주식이 위아래로 크게 출렁",
@@ -607,14 +624,32 @@ window.TEAM1_DATA = {
         "easy": "팔란티어는 정부와 기업의 방대한 데이터를 분석해주는 회사입니다. 시장은 한동안 이 회사를 'AI 시대에 뒤처진 종목'으로 취급했는데, 이번 주 2024년 이후 가장 강한 상승을 보이며 그 평가를 뒤집었습니다. 반에서 조용하던 학생이 시험에서 갑자기 1등을 한 상황이죠. 이런 '평가 반전' 종목은 소외돼 있던 만큼 매수세가 몰리면 상승 폭이 큽니다.",
         "whyMatters": "AI 수혜 범위가 반도체 밖으로 넓어지고 있다는 신호입니다. 돌파(브레이크아웃) 전략에서는 이렇게 오랜 횡보 뒤 갑자기 거래량이 터지며 신고가를 뚫는 종목이 최고의 후보입니다. 다만 이미 한 주 급등한 뒤라 추격 매수는 위험하고, 눌림(되돌림) 후 지지 확인 자리를 기다리는 편이 낫습니다.",
         "impact": "up",
-        "sources": []
+        "sources": [
+          {
+            "title": "Palantir's stock stages best week since 2024 — showing it's no longer an 'AI loser'",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/palantirs-stock-stages-best-week-since-2024-showing-its-no-longer-an-ai-loser-2fc6c32b?mod=mw_rss_topstories",
+            "date": "2026-08-07",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
       },
       {
         "headline": "달러 약세 속 금 투자 관심 확대 — 안전자산으로 돈이 이동",
         "easy": "달러 가치가 떨어지면 금값은 보통 오릅니다. 금은 달러로 값을 매기니까, 달러가 싸질수록 같은 금 한 덩어리에 더 많은 달러가 필요해지기 때문입니다. 또 사람들이 '나라 살림이나 중앙은행이 못 미덥다'고 느낄 때 대피처로 금을 삽니다. 지금 연준 독립성 논란과 고용 둔화가 겹치면서 그 대피 수요가 커지고 있습니다.",
         "whyMatters": "주식이 오르는데 금도 같이 오른다는 건 '시장이 완전히 마음 놓은 상태는 아니다'라는 뜻입니다. 즉 지금 상승은 확신에 찬 강세장이라기보다 불안을 껴안은 상승입니다. 금·귀금속 관련 종목이 있다면 순풍이지만, 순수 성장주만 들고 있다면 이 지표를 '조심하라는 경고등'으로 읽고 현금 비중을 아주 0으로 만들지는 마세요.",
         "impact": "neutral",
-        "sources": []
+        "sources": [
+          {
+            "title": "The smart way to invest in gold right now as the dollar slips",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-smart-way-to-invest-in-gold-right-now-as-the-dollar-slips-22fdf3b2?mod=mw_rss_topstories",
+            "date": "2026-08-07",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
       },
       {
         "headline": "무산된 이란 합의에도 주가는 급등 — 기대만으로 오르는 시장",
@@ -651,154 +686,34 @@ window.TEAM1_DATA = {
     "candidateCount": 8,
     "verified": {
       "checked": 122,
-      "ok": 97,
-      "unverified": 21,
-      "dead": 35,
-      "stripped": 18,
+      "ok": 99,
+      "unverified": 49,
+      "dead": 5,
+      "stripped": 2,
       "removed": [
-        {
-          "reason": "링크 죽음(HTTP 401)",
-          "url": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories"
-        },
-        {
-          "reason": "링크 죽음(HTTP 401)",
-          "url": "https://www.marketwatch.com/story/two-reasons-why-nvidias-stock-saw-its-biggest-weekly-surge-in-more-than-a-year-644875c8?mod=mw_rss_topstories"
-        },
-        {
-          "reason": "링크 죽음(HTTP 401)",
-          "url": "https://www.marketwatch.com/story/palantirs-stock-stages-best-week-since-2024-showing-its-no-longer-an-ai-loser-2fc6c32b?mod=mw_rss_topstories"
-        },
-        {
-          "reason": "링크 죽음(HTTP 401)",
-          "url": "https://www.marketwatch.com/story/the-smart-way-to-invest-in-gold-right-now-as-the-dollar-slips-22fdf3b2?mod=mw_rss_topstories"
-        },
         {
           "reason": "중복",
           "url": "https://www.tradingpedia.com/2026/08/07/atlassian-soars-as-ai-fueled-quarter-boosts-outlook/"
         },
         {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/scotiabank-raises-price-target-snowflake-171316543.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/snowflake-inc-snow-trending-stock-130004694.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-victorias-secret-vsxy-100000741.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-victorias-secret-vsxy-100000741.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-victorias-secret-vsxy-100000741.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-dell-ddog-stocks-025716421.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-dell-ddog-stocks-025716421.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-q2-2026-050437348.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-q2-2026-050437348.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
+          "reason": "링크 죽음(HTTP 503)",
           "url": "https://www.globenewswire.com/news-release/2026/08/07/3340984/0/en/6-k_gravity_second-quarter-2026-result-and-business-update.html"
         },
         {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://www.invenglobal.com/articles/24573/gravity-reports-q2-2026-results-operating-profit-up-402-year-on-year"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
+          "reason": "링크 죽음(HTTP 503)",
           "url": "https://www.globenewswire.com/news-release/2026/08/07/3340984/0/en/6-k_gravity_second-quarter-2026-result-and-business-update.html"
         },
         {
-          "reason": "링크 죽음(HTTP 0)",
+          "reason": "링크 죽음(HTTP 503)",
           "url": "https://www.globenewswire.com/news-release/2026/08/07/3340984/0/en/6-k_gravity_second-quarter-2026-result-and-business-update.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/atlassian-nasdaq-team-beats-expectations-211025809.html"
         },
         {
           "reason": "링크 죽음(HTTP 404)",
           "url": "https://www.ebc.com/forex/atlassian-stock-jumps-35-fy2027-outlook"
         },
         {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-stock-pops-better-expected-133500116.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://ca.finance.yahoo.com/news/twilio-inc-twlo-q2-2026-050405411.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-inc-abnb-outpaces-stock-214503208.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-raises-2026-outlook-q2-202300314.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sezzle-nasdaq-sezl-delivers-strong-201037673.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sezzle-shares-tumble-despite-strong-123845759.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lasr-q2-earnings-surpass-estimates-160900318.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/innodata-inc-inod-q2-2026-050535372.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/innodata-inc-inod-q2-2026-050535372.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 500)",
-          "url": "https://finance.yahoo.com/quote/SPG/news/"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/distribution-solutions-stocks-q1-highlights-143304804.html"
-        },
-        {
           "reason": "링크 죽음(HTTP 404)",
           "url": "https://www.ebc.com/forex/cybersecurity-stocks-nasdaqs-ai-rally-no-one-saw-coming"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-netapp-ntap-26-4-081130000.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/wayfair-stock-57-past-analysts-135117386.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/expedia-group-q2-earnings-revenues-164700520.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 0)",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/airline-stocks-soar-summer-travel-191506075.html"
         }
       ]
     }

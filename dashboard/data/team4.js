@@ -45,6 +45,15 @@ window.TEAM4_DATA = {
                 "quote": "Gravity (NasdaqGM: GRVY) reported unaudited Q2 2026 revenue of KRW 161,884 million, operating profit up 40.2% YoY, net profit attributable to parent up 83.8% YoY.",
                 "verified": "ok",
                 "httpStatus": 200
+              },
+              {
+                "title": "Gravity Reports Q2 2026 Results: Operating Profit Up 40.2% Year-on-Year",
+                "publisher": "Inven Global",
+                "url": "https://www.invenglobal.com/articles/24573/gravity-reports-q2-2026-results-operating-profit-up-402-year-on-year",
+                "date": "2026-08-07",
+                "quote": "Gravity Reports Q2 2026 Results: Operating Profit Up 40.2% Year-on-Year",
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -128,10 +137,19 @@ window.TEAM4_DATA = {
           },
           {
             "id": "c2",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
+            "statement": "Atlassian은 FY2027 1분기 매출 가이던스로 17.05억~17.15억 달러를 제시했으며 이는 시장 컨센서스(약 16.7억 달러)를 상회하는 상향 가이던스다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Atlassian (NASDAQ:TEAM) Beats Expectations in Strong Q2 CY2026, Stock Jumps 37.4%",
+                "publisher": "Yahoo Finance / StockStory",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/atlassian-nasdaq-team-beats-expectations-211025809.html",
+                "date": "2026-08-07",
+                "quote": "For the first quarter of fiscal 2027, Atlassian projected revenue of $1.705 billion to $1.715 billion, exceeding analysts' consensus estimate of about $1.67 billion.",
+                "verified": "unverified",
+                "httpStatus": -1
+              }
+            ]
           },
           {
             "id": "c3",
@@ -371,6 +389,14 @@ window.TEAM4_DATA = {
                 "date": "2026-08-07",
                 "verified": "unverified",
                 "httpStatus": 403
+              },
+              {
+                "title": "Twilio stock pops on better-than-expected Q2 report",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-stock-pops-better-expected-133500116.html",
+                "date": "2026-08-07",
+                "verified": "unverified",
+                "httpStatus": -1
               }
             ]
           },
@@ -391,10 +417,18 @@ window.TEAM4_DATA = {
           },
           {
             "id": "c3",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
+            "statement": "Twilio는 2026년 연간 매출 성장 가이던스를 기존 14~15%에서 18~18.5%로 상향했으며, 3분기 매출 가이던스는 $1.505B~$1.515B, 조정 EPS $1.42~$1.47로 제시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Twilio Inc (TWLO) (Q2 2026) Earnings Call Highlights: Record Revenue and AI-Driven Growth",
+                "publisher": "Yahoo Finance (CA)",
+                "url": "https://ca.finance.yahoo.com/news/twilio-inc-twlo-q2-2026-050405411.html",
+                "date": "2026-08-07",
+                "verified": "unverified",
+                "httpStatus": -1
+              }
+            ]
           },
           {
             "id": "c4",
@@ -514,6 +548,15 @@ window.TEAM4_DATA = {
                 "quote": "ABNB stock soared 11% after-hours on Thursday after the rental platform raised its full-year revenue and margin guidance for the second time this year",
                 "verified": "unverified",
                 "httpStatus": 403
+              },
+              {
+                "title": "Airbnb, Inc. (ABNB) Outpaces Stock Market Gains: What You Should Know",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-inc-abnb-outpaces-stock-214503208.html",
+                "date": "2026-08-07",
+                "quote": "Shares of Airbnb jumped 15.1% in the afternoon session after the company delivered a strong second-quarter that beat all estimates across the board and raised its full-year guidance.",
+                "verified": "unverified",
+                "httpStatus": -1
               }
             ]
           },
@@ -522,6 +565,15 @@ window.TEAM4_DATA = {
             "statement": "Airbnb가 2026년 연간 가이던스를 올해 들어 두 번째로 상향(매출성장률 최소 mid-teens, 조정 EBITDA 마진 최소 35.5%)",
             "evidence_level": "sourced",
             "sources": [
+              {
+                "title": "Airbnb raises 2026 outlook after Q2 earnings top estimates",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-raises-2026-outlook-q2-202300314.html",
+                "date": "2026-08-06",
+                "quote": "Specifically, Airbnb bumped its full-year 2026 revenue growth projection to \"at least mid-teens\" and increased its full-year adjusted earnings margin target to at least 35.5%.",
+                "verified": "unverified",
+                "httpStatus": -1
+              },
               {
                 "title": "Airbnb Announces Second Quarter 2026 Results",
                 "publisher": "StockTitan",
@@ -571,10 +623,19 @@ window.TEAM4_DATA = {
         "claims": [
           {
             "id": "c1",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
+            "statement": "Sezzle은 2026-08-06 2분기(Q2 CY2026) 실적을 발표했으며 매출은 전년동기 대비 51.7% 증가한 1억4970만달러로 시장 예상치를 상회했고, 비GAAP EPS 1.13달러는 컨센서스 대비 11.3% 상회했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Sezzle (NASDAQ:SEZL) Delivers Strong Q2 CY2026 Numbers But Stock Drops 22.1%",
+                "publisher": "StockStory (via Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/sezzle-nasdaq-sezl-delivers-strong-201037673.html",
+                "date": "2026-08-06",
+                "quote": "Sales up 51.7% year on year to $149.7 million... non-GAAP profit of $1.13 per share was 11.3% above analysts' consensus estimates.",
+                "verified": "unverified",
+                "httpStatus": -1
+              }
+            ]
           },
           {
             "id": "c2",
@@ -594,10 +655,19 @@ window.TEAM4_DATA = {
           },
           {
             "id": "c3",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
+            "statement": "실적 호조 및 가이던스 상향에도 불구하고 하반기 매출 성장 둔화 전망과 수익률 정상화 우려로 주가는 프리마켓에서 22~23% 급락했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Sezzle Shares Tumble Despite Strong Quarter as Growth Outlook Disappoints",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/sezzle-shares-tumble-despite-strong-123845759.html",
+                "date": "2026-08-06",
+                "quote": "Sezzle shares dropped 23% in premarket trading to around $137.50 after the buy now, pay later provider reported second-quarter 2026 results that beat analyst expectations but warned that revenue growth is expected to slow during the second half of the year.",
+                "verified": "unverified",
+                "httpStatus": -1
+              }
+            ]
           },
           {
             "id": "c4",
@@ -663,6 +733,14 @@ window.TEAM4_DATA = {
                 "date": "2026-08-06",
                 "verified": "ok",
                 "httpStatus": 200
+              },
+              {
+                "title": "LASR Q2 Earnings Surpass Estimates on Strong A&D Growth",
+                "publisher": "Yahoo Finance (Zacks)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/lasr-q2-earnings-surpass-estimates-160900318.html",
+                "date": "2026-08-06",
+                "verified": "unverified",
+                "httpStatus": -1
               },
               {
                 "title": "nLIGHT to Announce Second Quarter 2026 Financial Results on August 6",
@@ -746,6 +824,15 @@ window.TEAM4_DATA = {
                 "quote": "Item 2.02 실적발표: 매출 $92.1백만(YoY +58%), 조정 EBITDA $25.355백만(+92%), 희석 EPS $0.41",
                 "verified": "ok",
                 "httpStatus": 200
+              },
+              {
+                "title": "Innodata Inc (INOD) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic Expansion",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/innodata-inc-inod-q2-2026-050535372.html",
+                "date": "2026-08-07",
+                "quote": "Fully diluted EPS of $0.41, nearly double the analyst consensus of $0.21; Net Income of $14.4 million, double the $7.2 million reported in Q2 of the prior year",
+                "verified": "unverified",
+                "httpStatus": -1
               }
             ]
           },
@@ -783,10 +870,19 @@ window.TEAM4_DATA = {
           },
           {
             "id": "c4",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
+            "statement": "실적 발표 익일인 2026-08-07 거래에서 주가가 고가 79.78달러/저가 65.35달러로 크게 출렁였고 종가는 74.00달러, 거래량은 286만주로 평균 거래량 148만주 대비 약 1.9배 급증했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Innodata Inc (INOD) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic Expansion",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/innodata-inc-inod-q2-2026-050535372.html",
+                "date": "2026-08-07",
+                "quote": "During the trading session on 2026-08-07, Innodata shares reached a daily high of $79.78 and a low of $65.35, with the stock closing at $74.00. Trading volume for Innodata stock reached 2.86M, versus its average volume of 1.48M.",
+                "verified": "unverified",
+                "httpStatus": -1
+              }
+            ]
           }
         ],
         "factcheck": {
@@ -837,6 +933,14 @@ window.TEAM4_DATA = {
                 "date": "2026-08",
                 "verified": "unverified",
                 "httpStatus": 403
+              },
+              {
+                "title": "Simon Property Group, Inc. (SPG) Latest Stock News & Headlines",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/quote/SPG/news/",
+                "date": "2026-08",
+                "verified": "unverified",
+                "httpStatus": 500
               }
             ]
           }

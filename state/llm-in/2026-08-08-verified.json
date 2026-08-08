@@ -2,154 +2,34 @@
   "date": "2026-08-08",
   "report": {
     "checked": 122,
-    "ok": 97,
-    "unverified": 21,
-    "dead": 35,
-    "stripped": 18,
+    "ok": 99,
+    "unverified": 49,
+    "dead": 5,
+    "stripped": 2,
     "removed": [
-      {
-        "reason": "링크 죽음(HTTP 401)",
-        "url": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories"
-      },
-      {
-        "reason": "링크 죽음(HTTP 401)",
-        "url": "https://www.marketwatch.com/story/two-reasons-why-nvidias-stock-saw-its-biggest-weekly-surge-in-more-than-a-year-644875c8?mod=mw_rss_topstories"
-      },
-      {
-        "reason": "링크 죽음(HTTP 401)",
-        "url": "https://www.marketwatch.com/story/palantirs-stock-stages-best-week-since-2024-showing-its-no-longer-an-ai-loser-2fc6c32b?mod=mw_rss_topstories"
-      },
-      {
-        "reason": "링크 죽음(HTTP 401)",
-        "url": "https://www.marketwatch.com/story/the-smart-way-to-invest-in-gold-right-now-as-the-dollar-slips-22fdf3b2?mod=mw_rss_topstories"
-      },
       {
         "reason": "중복",
         "url": "https://www.tradingpedia.com/2026/08/07/atlassian-soars-as-ai-fueled-quarter-boosts-outlook/"
       },
       {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/scotiabank-raises-price-target-snowflake-171316543.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/snowflake-inc-snow-trending-stock-130004694.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-victorias-secret-vsxy-100000741.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-victorias-secret-vsxy-100000741.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-victorias-secret-vsxy-100000741.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-dell-ddog-stocks-025716421.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-dell-ddog-stocks-025716421.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-q2-2026-050437348.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-q2-2026-050437348.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
+        "reason": "링크 죽음(HTTP 503)",
         "url": "https://www.globenewswire.com/news-release/2026/08/07/3340984/0/en/6-k_gravity_second-quarter-2026-result-and-business-update.html"
       },
       {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://www.invenglobal.com/articles/24573/gravity-reports-q2-2026-results-operating-profit-up-402-year-on-year"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
+        "reason": "링크 죽음(HTTP 503)",
         "url": "https://www.globenewswire.com/news-release/2026/08/07/3340984/0/en/6-k_gravity_second-quarter-2026-result-and-business-update.html"
       },
       {
-        "reason": "링크 죽음(HTTP 0)",
+        "reason": "링크 죽음(HTTP 503)",
         "url": "https://www.globenewswire.com/news-release/2026/08/07/3340984/0/en/6-k_gravity_second-quarter-2026-result-and-business-update.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/atlassian-nasdaq-team-beats-expectations-211025809.html"
       },
       {
         "reason": "링크 죽음(HTTP 404)",
         "url": "https://www.ebc.com/forex/atlassian-stock-jumps-35-fy2027-outlook"
       },
       {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-stock-pops-better-expected-133500116.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://ca.finance.yahoo.com/news/twilio-inc-twlo-q2-2026-050405411.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-inc-abnb-outpaces-stock-214503208.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-raises-2026-outlook-q2-202300314.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sezzle-nasdaq-sezl-delivers-strong-201037673.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sezzle-shares-tumble-despite-strong-123845759.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/lasr-q2-earnings-surpass-estimates-160900318.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/innodata-inc-inod-q2-2026-050535372.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/innodata-inc-inod-q2-2026-050535372.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 500)",
-        "url": "https://finance.yahoo.com/quote/SPG/news/"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/distribution-solutions-stocks-q1-highlights-143304804.html"
-      },
-      {
         "reason": "링크 죽음(HTTP 404)",
         "url": "https://www.ebc.com/forex/cybersecurity-stocks-nasdaqs-ai-rally-no-one-saw-coming"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-netapp-ntap-26-4-081130000.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wayfair-stock-57-past-analysts-135117386.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/expedia-group-q2-earnings-revenues-164700520.html"
-      },
-      {
-        "reason": "링크 죽음(HTTP 0)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/airline-stocks-soar-summer-travel-191506075.html"
       }
     ]
   },
@@ -189,6 +69,14 @@
               "date": "2026-08-07",
               "verified": "ok",
               "httpStatus": 200
+            },
+            {
+              "title": "Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with his allies.",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
+              "date": "2026-08-07",
+              "verified": "unverified",
+              "httpStatus": 401
             }
           ]
         },
@@ -197,7 +85,16 @@
           "easy": "엔비디아는 AI를 돌리는 데 필요한 반도체(GPU)를 거의 독점하다시피 파는 회사입니다. 금광 시대에 삽과 곡괭이를 파는 가게라고 보면 됩니다. 이 회사 주가가 1년 넘는 기간 중 가장 큰 주간 상승을 기록했습니다. 시가총액이 워낙 커서 엔비디아 하나가 오르면 나스닥 지수 전체가 따라 올라갑니다. 즉 이번 주 지수 강세의 상당 부분이 이 한 종목에서 나왔다는 뜻입니다.",
           "whyMatters": "QQQ가 종가 723.03으로 MA10 696.98 / MA20 700.34 / MA50 714.57 세 이동평균선을 모두 위로 넘어선 배경이 바로 이겁니다. 다만 '지수는 강한데 엔진이 한두 종목'인 구조는 폭이 좁은 상승입니다. 내 종목이 AI 반도체 밸류체인에 속한다면 지금은 순풍이지만, 엔비디아가 흔들리는 날 함께 무너질 확률이 높다는 점을 감안해 비중을 한 바구니에 몰지 마세요.",
           "impact": "up",
-          "sources": []
+          "sources": [
+            {
+              "title": "Two reasons why Nvidia's stock saw its biggest weekly surge in more than a year",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/two-reasons-why-nvidias-stock-saw-its-biggest-weekly-surge-in-more-than-a-year-644875c8?mod=mw_rss_topstories",
+              "date": "2026-08-07",
+              "verified": "unverified",
+              "httpStatus": 401
+            }
+          ]
         },
         {
           "headline": "'SaaS 종말론' 논쟁 격화 — 소프트웨어 주식이 위아래로 크게 출렁",
@@ -220,14 +117,32 @@
           "easy": "팔란티어는 정부와 기업의 방대한 데이터를 분석해주는 회사입니다. 시장은 한동안 이 회사를 'AI 시대에 뒤처진 종목'으로 취급했는데, 이번 주 2024년 이후 가장 강한 상승을 보이며 그 평가를 뒤집었습니다. 반에서 조용하던 학생이 시험에서 갑자기 1등을 한 상황이죠. 이런 '평가 반전' 종목은 소외돼 있던 만큼 매수세가 몰리면 상승 폭이 큽니다.",
           "whyMatters": "AI 수혜 범위가 반도체 밖으로 넓어지고 있다는 신호입니다. 돌파(브레이크아웃) 전략에서는 이렇게 오랜 횡보 뒤 갑자기 거래량이 터지며 신고가를 뚫는 종목이 최고의 후보입니다. 다만 이미 한 주 급등한 뒤라 추격 매수는 위험하고, 눌림(되돌림) 후 지지 확인 자리를 기다리는 편이 낫습니다.",
           "impact": "up",
-          "sources": []
+          "sources": [
+            {
+              "title": "Palantir's stock stages best week since 2024 — showing it's no longer an 'AI loser'",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/palantirs-stock-stages-best-week-since-2024-showing-its-no-longer-an-ai-loser-2fc6c32b?mod=mw_rss_topstories",
+              "date": "2026-08-07",
+              "verified": "ok",
+              "httpStatus": 200
+            }
+          ]
         },
         {
           "headline": "달러 약세 속 금 투자 관심 확대 — 안전자산으로 돈이 이동",
           "easy": "달러 가치가 떨어지면 금값은 보통 오릅니다. 금은 달러로 값을 매기니까, 달러가 싸질수록 같은 금 한 덩어리에 더 많은 달러가 필요해지기 때문입니다. 또 사람들이 '나라 살림이나 중앙은행이 못 미덥다'고 느낄 때 대피처로 금을 삽니다. 지금 연준 독립성 논란과 고용 둔화가 겹치면서 그 대피 수요가 커지고 있습니다.",
           "whyMatters": "주식이 오르는데 금도 같이 오른다는 건 '시장이 완전히 마음 놓은 상태는 아니다'라는 뜻입니다. 즉 지금 상승은 확신에 찬 강세장이라기보다 불안을 껴안은 상승입니다. 금·귀금속 관련 종목이 있다면 순풍이지만, 순수 성장주만 들고 있다면 이 지표를 '조심하라는 경고등'으로 읽고 현금 비중을 아주 0으로 만들지는 마세요.",
           "impact": "neutral",
-          "sources": []
+          "sources": [
+            {
+              "title": "The smart way to invest in gold right now as the dollar slips",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/the-smart-way-to-invest-in-gold-right-now-as-the-dollar-slips-22fdf3b2?mod=mw_rss_topstories",
+              "date": "2026-08-07",
+              "verified": "unverified",
+              "httpStatus": 401
+            }
+          ]
         },
         {
           "headline": "무산된 이란 합의에도 주가는 급등 — 기대만으로 오르는 시장",
@@ -536,6 +451,15 @@
                   "quote": "Snowflake brings Anthropic Claude models into Cortex AI so customers can use frontier reasoning across all data types while maintaining Snowflake governance and security controls.",
                   "verified": "ok",
                   "httpStatus": 200
+                },
+                {
+                  "title": "Scotiabank Raises its Price Target on Snowflake (SNOW)",
+                  "publisher": "Yahoo Finance",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/scotiabank-raises-price-target-snowflake-171316543.html",
+                  "date": "2026-06-08",
+                  "quote": "Scotiabank left Summit 2026 with greater confidence that Snowflake is benefiting from enterprise AI adoption and is well-positioned to deliver accelerating growth in the second half of the year",
+                  "verified": "unverified",
+                  "httpStatus": -1
                 }
               ]
             }
@@ -561,10 +485,19 @@
               },
               {
                 "id": "e3",
-                "statement": "근거 없음(출처 검증 실패로 제거됨)",
-                "evidence_level": "no_source",
-                "sources": [],
-                "stripped": true
+                "statement": "다만 애널리스트 컨센서스 EPS 전망치 자체는 최근(2026-07말 기준) 30일간 변동이 없었다. 당분기 EPS 컨센서스는 0.45달러(YoY +28.6%)로, 목표주가는 계속 오르고 있지만 단기 EPS 추정치는 안정적으로 유지되고 있어 상향 흐름이 이익추정치보다는 밸류에이션/목표주가 쪽에 더 뚜렷하게 나타난다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Snowflake Inc. (SNOW) Is a Trending Stock: Facts to Know Before Betting on It",
+                    "publisher": "Zacks (via Yahoo Finance)",
+                    "url": "https://finance.yahoo.com/markets/stocks/articles/snowflake-inc-snow-trending-stock-130004694.html",
+                    "date": "2026-07",
+                    "quote": "For the current quarter, Snowflake is expected to post earnings of $0.45 per share, indicating a change of +28.6% from the year-ago quarter. The Zacks Consensus Estimate remained unchanged over the last 30 days.",
+                    "verified": "unverified",
+                    "httpStatus": -1
+                  }
+                ]
               }
             ]
           },
@@ -579,7 +512,7 @@
                 "date": "2026-08",
                 "quote": "Snowflake ... will report financial results for its second quarter of fiscal 2027, ended July 31, 2026, after market close on Wednesday, September 2, 2026.",
                 "verified": "ok",
-                "httpStatus": 206
+                "httpStatus": 200
               }
             ]
           },
@@ -1038,17 +971,35 @@
             },
             {
               "id": "w2",
-              "statement": "근거 없음(출처 검증 실패로 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [],
-              "stripped": true
+              "statement": "4분기 연속 기존점 매출(comp sales) 플러스, 마진 확대, 가이던스 상향이 이어지며 유통업계에서 손꼽히는 턴어라운드 스토리로 부각됐고, 연초 대비 주가가 40% 이상 상승했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Bull of the Day: Victoria's Secret (VSXY)",
+                  "publisher": "Yahoo Finance / Zacks",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-victorias-secret-vsxy-100000741.html",
+                  "date": "2026-07-09",
+                  "quote": "four consecutive quarters of positive comparable sales, expanded margins, and raised guidance — and the market has taken notice, with shares up more than 40% year to date.",
+                  "verified": "unverified",
+                  "httpStatus": -1
+                }
+              ]
             },
             {
               "id": "w3",
-              "statement": "근거 없음(출처 검증 실패로 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [],
-              "stripped": true
+              "statement": "애널리스트들의 대규모 실적 전망 상향(60일 사이 EPS 컨센서스 3.49달러→4.61달러)이 주가 상승의 핵심 동력으로 작용했고, Zacks Rank #1(Strong Buy) 등급을 받았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Bull of the Day: Victoria's Secret (VSXY)",
+                  "publisher": "Yahoo Finance / Zacks",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-victorias-secret-vsxy-100000741.html",
+                  "date": "2026-07-09",
+                  "quote": "The stock's recent upgrade reflects a powerful wave of upward earnings estimate revisions, historically one of the most reliable forces driving share prices higher... over the past 60 days, the Zacks Consensus Estimate for the current fiscal year has jumped from $3.49 to $4.61 per share.",
+                  "verified": "unverified",
+                  "httpStatus": -1
+                }
+              ]
             },
             {
               "id": "w4",
@@ -1072,10 +1023,19 @@
             "claims": [
               {
                 "id": "e1",
-                "statement": "근거 없음(출처 검증 실패로 제거됨)",
-                "evidence_level": "no_source",
-                "sources": [],
-                "stripped": true
+                "statement": "Zacks 컨센서스 EPS 전망치가 최근 60일 사이 3.49달러에서 4.61달러로 대폭 상향됐다(당해 회계연도 기준, 전년비 약 53.7% 성장 함의).",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Bull of the Day: Victoria's Secret (VSXY)",
+                    "publisher": "Yahoo Finance / Zacks",
+                    "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-victorias-secret-vsxy-100000741.html",
+                    "date": "2026-07-09",
+                    "quote": "over the past 60 days, the Zacks Consensus Estimate for the current fiscal year has jumped from $3.49 to $4.61 per share.",
+                    "verified": "unverified",
+                    "httpStatus": -1
+                  }
+                ]
               }
             ]
           },
@@ -1116,17 +1076,35 @@
           "whyRose": [
             {
               "id": "w1",
-              "statement": "근거 없음(출처 검증 실패로 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [],
-              "stripped": true
+              "statement": "2026-05-01 마감 분기(회계연도 1분기) 실적에서 매출 438억 달러(YoY +87.5%)로 컨센서스를 22% 이상 상회하는 '어닝 서프라이즈'를 기록했고, 회사는 연간 매출 가이던스를 약 1670억 달러 수준으로, AI서버 매출 전망을 약 600억 달러로 상향했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Why Did DELL, S, DDOG Stocks Surge To 52-Week Highs Today?",
+                  "publisher": "Yahoo Finance",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-dell-ddog-stocks-025716421.html",
+                  "date": "2026-08-05",
+                  "quote": "Management raised full-year revenue guidance toward a $167 billion level and now expects about $60 billion of AI server revenue",
+                  "verified": "unverified",
+                  "httpStatus": -1
+                }
+              ]
             },
             {
               "id": "w2",
-              "statement": "근거 없음(출처 검증 실패로 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [],
-              "stripped": true
+              "statement": "2026-08-04 AI 클라우드 스타트업 Volta가 스텔스에서 나오며 노르웨이(Tydal)에 짓는 133메가와트급 AI 데이터센터의 '기술 제공업체(technology provider)'로 델이 지정된 100억 달러 규모 계약이 공개됐다. 이 딜에는 마이클 델의 패밀리오피스도 투자자로 참여했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Why Did DELL, S, DDOG Stocks Surge To 52-Week Highs Today?",
+                  "publisher": "Yahoo Finance",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-dell-ddog-stocks-025716421.html",
+                  "date": "2026-08-05",
+                  "quote": "Dell was named the technology provider on a new $10 billion AI-factory deal",
+                  "verified": "unverified",
+                  "httpStatus": -1
+                }
+              ]
             },
             {
               "id": "w4",
@@ -1219,17 +1197,35 @@
           "whyRose": [
             {
               "id": "w1",
-              "statement": "근거 없음(출처 검증 실패로 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [],
-              "stripped": true
+              "statement": "2026년 2분기(6월 분기) 실적이 어닝 서프라이즈를 기록했다. 매출 4,760만달러로 회사 사상 최고치를 기록했으며 전분기 대비 77%, 전년동기 대비 164% 증가했고, 비GAAP EPS도 시장 예상치를 크게 웃돌았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AXT Inc (AXTI) (Q2 2026) Earnings Call Highlights: Record Revenue and Profitability Surge on AI-Driven Indium Phosphide Demand",
+                  "publisher": "Yahoo Finance (GuruFocus 재배포)",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-q2-2026-050437348.html",
+                  "date": "2026-07-31",
+                  "quote": "Revenue: $47.6 million in Q2 2026, the highest quarterly revenue in AXT's history, up nearly 77% from $26.9 million in Q1 2026 and up 164% from $18.0 million in Q2 2025.",
+                  "verified": "unverified",
+                  "httpStatus": -1
+                }
+              ]
             },
             {
               "id": "w2",
-              "statement": "근거 없음(출처 검증 실패로 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [],
-              "stripped": true
+              "statement": "AI 데이터센터용 인듐인화물(InP) 수요 급증에 대응해 생산능력 확장 계획을 크게 상향했다. 2026년 말까지 InP 매출 기회가 3배 이상으로, 2027년에는 다시 2배로 늘어날 것으로 회사가 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "AXT Inc (AXTI) (Q2 2026) Earnings Call Highlights: Record Revenue and Profitability Surge on AI-Driven Indium Phosphide Demand",
+                  "publisher": "Yahoo Finance (GuruFocus 재배포)",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-q2-2026-050437348.html",
+                  "date": "2026-07-31",
+                  "quote": "Indium phosphide capacity expansion is ahead of schedule, with revenue opportunity expected to more than triple by end of 2026 and double again in 2027.",
+                  "verified": "unverified",
+                  "httpStatus": -1
+                }
+              ]
             },
             {
               "id": "w3",
@@ -1491,6 +1487,15 @@
                   "quote": "Gravity (NasdaqGM: GRVY) reported unaudited Q2 2026 revenue of KRW 161,884 million, operating profit up 40.2% YoY, net profit attributable to parent up 83.8% YoY.",
                   "verified": "ok",
                   "httpStatus": 200
+                },
+                {
+                  "title": "Gravity Reports Q2 2026 Results: Operating Profit Up 40.2% Year-on-Year",
+                  "publisher": "Inven Global",
+                  "url": "https://www.invenglobal.com/articles/24573/gravity-reports-q2-2026-results-operating-profit-up-402-year-on-year",
+                  "date": "2026-08-07",
+                  "quote": "Gravity Reports Q2 2026 Results: Operating Profit Up 40.2% Year-on-Year",
+                  "verified": "ok",
+                  "httpStatus": 200
                 }
               ]
             },
@@ -1553,10 +1558,19 @@
             },
             {
               "id": "c2",
-              "statement": "근거 없음(출처 검증 실패로 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [],
-              "stripped": true
+              "statement": "Atlassian은 FY2027 1분기 매출 가이던스로 17.05억~17.15억 달러를 제시했으며 이는 시장 컨센서스(약 16.7억 달러)를 상회하는 상향 가이던스다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Atlassian (NASDAQ:TEAM) Beats Expectations in Strong Q2 CY2026, Stock Jumps 37.4%",
+                  "publisher": "Yahoo Finance / StockStory",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/atlassian-nasdaq-team-beats-expectations-211025809.html",
+                  "date": "2026-08-07",
+                  "quote": "For the first quarter of fiscal 2027, Atlassian projected revenue of $1.705 billion to $1.715 billion, exceeding analysts' consensus estimate of about $1.67 billion.",
+                  "verified": "unverified",
+                  "httpStatus": -1
+                }
+              ]
             },
             {
               "id": "c3",
@@ -1733,6 +1747,14 @@
                   "date": "2026-08-07",
                   "verified": "unverified",
                   "httpStatus": 403
+                },
+                {
+                  "title": "Twilio stock pops on better-than-expected Q2 report",
+                  "publisher": "Yahoo Finance",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-stock-pops-better-expected-133500116.html",
+                  "date": "2026-08-07",
+                  "verified": "unverified",
+                  "httpStatus": -1
                 }
               ]
             },
@@ -1753,10 +1775,18 @@
             },
             {
               "id": "c3",
-              "statement": "근거 없음(출처 검증 실패로 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [],
-              "stripped": true
+              "statement": "Twilio는 2026년 연간 매출 성장 가이던스를 기존 14~15%에서 18~18.5%로 상향했으며, 3분기 매출 가이던스는 $1.505B~$1.515B, 조정 EPS $1.42~$1.47로 제시했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Twilio Inc (TWLO) (Q2 2026) Earnings Call Highlights: Record Revenue and AI-Driven Growth",
+                  "publisher": "Yahoo Finance (CA)",
+                  "url": "https://ca.finance.yahoo.com/news/twilio-inc-twlo-q2-2026-050405411.html",
+                  "date": "2026-08-07",
+                  "verified": "unverified",
+                  "httpStatus": -1
+                }
+              ]
             },
             {
               "id": "c4",
@@ -1837,6 +1867,15 @@
                   "quote": "ABNB stock soared 11% after-hours on Thursday after the rental platform raised its full-year revenue and margin guidance for the second time this year",
                   "verified": "unverified",
                   "httpStatus": 403
+                },
+                {
+                  "title": "Airbnb, Inc. (ABNB) Outpaces Stock Market Gains: What You Should Know",
+                  "publisher": "Yahoo Finance",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-inc-abnb-outpaces-stock-214503208.html",
+                  "date": "2026-08-07",
+                  "quote": "Shares of Airbnb jumped 15.1% in the afternoon session after the company delivered a strong second-quarter that beat all estimates across the board and raised its full-year guidance.",
+                  "verified": "unverified",
+                  "httpStatus": -1
                 }
               ]
             },
@@ -1845,6 +1884,15 @@
               "statement": "Airbnb가 2026년 연간 가이던스를 올해 들어 두 번째로 상향(매출성장률 최소 mid-teens, 조정 EBITDA 마진 최소 35.5%)",
               "evidence_level": "sourced",
               "sources": [
+                {
+                  "title": "Airbnb raises 2026 outlook after Q2 earnings top estimates",
+                  "publisher": "Yahoo Finance",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-raises-2026-outlook-q2-202300314.html",
+                  "date": "2026-08-06",
+                  "quote": "Specifically, Airbnb bumped its full-year 2026 revenue growth projection to \"at least mid-teens\" and increased its full-year adjusted earnings margin target to at least 35.5%.",
+                  "verified": "unverified",
+                  "httpStatus": -1
+                },
                 {
                   "title": "Airbnb Announces Second Quarter 2026 Results",
                   "publisher": "StockTitan",
@@ -1873,10 +1921,19 @@
           "claims": [
             {
               "id": "c1",
-              "statement": "근거 없음(출처 검증 실패로 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [],
-              "stripped": true
+              "statement": "Sezzle은 2026-08-06 2분기(Q2 CY2026) 실적을 발표했으며 매출은 전년동기 대비 51.7% 증가한 1억4970만달러로 시장 예상치를 상회했고, 비GAAP EPS 1.13달러는 컨센서스 대비 11.3% 상회했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Sezzle (NASDAQ:SEZL) Delivers Strong Q2 CY2026 Numbers But Stock Drops 22.1%",
+                  "publisher": "StockStory (via Yahoo Finance)",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/sezzle-nasdaq-sezl-delivers-strong-201037673.html",
+                  "date": "2026-08-06",
+                  "quote": "Sales up 51.7% year on year to $149.7 million... non-GAAP profit of $1.13 per share was 11.3% above analysts' consensus estimates.",
+                  "verified": "unverified",
+                  "httpStatus": -1
+                }
+              ]
             },
             {
               "id": "c2",
@@ -1896,10 +1953,19 @@
             },
             {
               "id": "c3",
-              "statement": "근거 없음(출처 검증 실패로 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [],
-              "stripped": true
+              "statement": "실적 호조 및 가이던스 상향에도 불구하고 하반기 매출 성장 둔화 전망과 수익률 정상화 우려로 주가는 프리마켓에서 22~23% 급락했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Sezzle Shares Tumble Despite Strong Quarter as Growth Outlook Disappoints",
+                  "publisher": "Yahoo Finance",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/sezzle-shares-tumble-despite-strong-123845759.html",
+                  "date": "2026-08-06",
+                  "quote": "Sezzle shares dropped 23% in premarket trading to around $137.50 after the buy now, pay later provider reported second-quarter 2026 results that beat analyst expectations but warned that revenue growth is expected to slow during the second half of the year.",
+                  "verified": "unverified",
+                  "httpStatus": -1
+                }
+              ]
             },
             {
               "id": "c4",
@@ -1944,6 +2010,14 @@
                   "date": "2026-08-06",
                   "verified": "ok",
                   "httpStatus": 200
+                },
+                {
+                  "title": "LASR Q2 Earnings Surpass Estimates on Strong A&D Growth",
+                  "publisher": "Yahoo Finance (Zacks)",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/lasr-q2-earnings-surpass-estimates-160900318.html",
+                  "date": "2026-08-06",
+                  "verified": "unverified",
+                  "httpStatus": -1
                 },
                 {
                   "title": "nLIGHT to Announce Second Quarter 2026 Financial Results on August 6",
@@ -2006,6 +2080,15 @@
                   "quote": "Item 2.02 실적발표: 매출 $92.1백만(YoY +58%), 조정 EBITDA $25.355백만(+92%), 희석 EPS $0.41",
                   "verified": "ok",
                   "httpStatus": 200
+                },
+                {
+                  "title": "Innodata Inc (INOD) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic Expansion",
+                  "publisher": "Yahoo Finance",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/innodata-inc-inod-q2-2026-050535372.html",
+                  "date": "2026-08-07",
+                  "quote": "Fully diluted EPS of $0.41, nearly double the analyst consensus of $0.21; Net Income of $14.4 million, double the $7.2 million reported in Q2 of the prior year",
+                  "verified": "unverified",
+                  "httpStatus": -1
                 }
               ]
             },
@@ -2043,10 +2126,19 @@
             },
             {
               "id": "c4",
-              "statement": "근거 없음(출처 검증 실패로 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [],
-              "stripped": true
+              "statement": "실적 발표 익일인 2026-08-07 거래에서 주가가 고가 79.78달러/저가 65.35달러로 크게 출렁였고 종가는 74.00달러, 거래량은 286만주로 평균 거래량 148만주 대비 약 1.9배 급증했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Innodata Inc (INOD) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic Expansion",
+                  "publisher": "Yahoo Finance",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/innodata-inc-inod-q2-2026-050535372.html",
+                  "date": "2026-08-07",
+                  "quote": "During the trading session on 2026-08-07, Innodata shares reached a daily high of $79.78 and a low of $65.35, with the stock closing at $74.00. Trading volume for Innodata stock reached 2.86M, versus its average volume of 1.48M.",
+                  "verified": "unverified",
+                  "httpStatus": -1
+                }
+              ]
             }
           ],
           "factcheck": {
@@ -2078,6 +2170,14 @@
                   "date": "2026-08",
                   "verified": "unverified",
                   "httpStatus": 403
+                },
+                {
+                  "title": "Simon Property Group, Inc. (SPG) Latest Stock News & Headlines",
+                  "publisher": "Yahoo Finance",
+                  "url": "https://finance.yahoo.com/quote/SPG/news/",
+                  "date": "2026-08",
+                  "verified": "unverified",
+                  "httpStatus": 500
                 }
               ]
             }
@@ -2477,6 +2577,14 @@
                   "date": "2026-01-08",
                   "verified": "ok",
                   "httpStatus": 200
+                },
+                {
+                  "title": "IT Distribution & Solutions Stocks Q1 Highlights: ScanSource (NASDAQ:SCSC)",
+                  "publisher": "Yahoo Finance (StockStory 제공)",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/distribution-solutions-stocks-q1-highlights-143304804.html",
+                  "date": "2026",
+                  "verified": "unverified",
+                  "httpStatus": -1
                 }
               ]
             }
@@ -2538,6 +2646,14 @@
                   "date": "2026",
                   "verified": "ok",
                   "httpStatus": 200
+                },
+                {
+                  "title": "Why NetApp (NTAP) Is Up 26.4% After Raising AI-Led Fiscal 2027 Margin And EPS Outlook",
+                  "publisher": "Yahoo Finance",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/why-netapp-ntap-26-4-081130000.html",
+                  "date": "2026",
+                  "verified": "unverified",
+                  "httpStatus": -1
                 }
               ]
             },
@@ -2678,10 +2794,19 @@
           "whyStrong": [
             {
               "id": "wayfair-q2-earnings-beat",
-              "statement": "근거 없음(출처 검증 실패로 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [],
-              "stripped": true
+              "statement": "Wayfair가 2026년 8월 4일 발표한 2분기 실적에서 매출 35억 달러(전년비 +7.5%, 컨센서스 34.7억 상회), 조정 EPS 0.95달러(컨센서스 0.92달러 상회)를 기록하며 어닝 서프라이즈를 냈고, 당일 주가가 약 30% 급등했다. 미국 내 스페셜티 브랜드는 전년비 20% 성장, 럭셔리 브랜드 Perigold는 35% 이상 성장(연매출 4억 달러 돌파)했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Wayfair Stock Is Up 57% in the Past Year, and Analysts Think It Can Keep Climbing",
+                  "publisher": "Yahoo Finance",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/wayfair-stock-57-past-analysts-135117386.html",
+                  "date": "2026-08-05 (기사 게재 추정, 실적 발표는 2026-08-04)",
+                  "quote": "Revenue increased 7.5% YOY to $3.5 billion, surpassing analysts' estimate of $3.47 billion",
+                  "verified": "unverified",
+                  "httpStatus": -1
+                }
+              ]
             },
             {
               "id": "sector-wide-rally-post-wayfair-earnings",
@@ -2765,17 +2890,35 @@
             },
             {
               "id": "expedia-guidance-raise",
-              "statement": "근거 없음(출처 검증 실패로 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [],
-              "stripped": true
+              "statement": "익스피디아그룹(EXPE)이 2분기 B2B 매출 23% 증가(14.9억달러)와 미국 소비자 부문의 '15분기 만의 최대 성장률'에 힘입어, 2026년 연간 매출 성장률 전망을 기존 6~9%에서 9~10%로, 총 예약액 전망도 상향했다. 호텔가·항공권 가격 상승에도 소비자 수요가 꺾이지 않았다는 점이 확인됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Expedia Group Q2 Earnings & Revenues Beat Estimates, Increase Y/Y",
+                  "publisher": "Yahoo Finance",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/expedia-group-q2-earnings-revenues-164700520.html",
+                  "date": "2026-08-07",
+                  "quote": "B2B revenues surged 23% year over year to $1.49 billion... the consumer business benefited from sustained U.S. momentum, with the market growing at its strongest pace in 15 quarters.",
+                  "verified": "unverified",
+                  "httpStatus": -1
+                }
+              ]
             },
             {
               "id": "broad-travel-demand-backdrop",
-              "statement": "근거 없음(출처 검증 실패로 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [],
-              "stripped": true
+              "statement": "OTA(온라인 여행 플랫폼) 실적 호조의 배경에는 업종 전반의 견조한 여행 수요가 있다. 항공업계(별도 GICS 세부업종)에서도 유가 하락과 여름 성수기 예약 호조로 주가가 상승했으며, 유나이티드항공은 6~8월 5,300만 명 이상의 승객을 예상하고 아메리칸항공은 창사 100주년 여름을 기록적 시기로 전망했다. 이는 3~6개월 구간에서도 여행 수요가 꾸준했음을 뒷받침하는 정황 근거다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Airline Stocks Soar as Summer Travel Demand Holds Strong",
+                  "publisher": "Yahoo Finance",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/airline-stocks-soar-summer-travel-191506075.html",
+                  "date": "2026-05-22",
+                  "quote": "United expecting more than 53 million passengers from June through August... American Airlines said its 100th anniversary summer could be a record period.",
+                  "verified": "unverified",
+                  "httpStatus": -1
+                }
+              ]
             }
           ],
           "driver": "earnings",

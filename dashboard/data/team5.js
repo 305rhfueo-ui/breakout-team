@@ -671,6 +671,14 @@ window.TEAM5_DATA = {
                 "date": "2026-01-08",
                 "verified": "ok",
                 "httpStatus": 200
+              },
+              {
+                "title": "IT Distribution & Solutions Stocks Q1 Highlights: ScanSource (NASDAQ:SCSC)",
+                "publisher": "Yahoo Finance (StockStory 제공)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/distribution-solutions-stocks-q1-highlights-143304804.html",
+                "date": "2026",
+                "verified": "unverified",
+                "httpStatus": -1
               }
             ]
           }
@@ -732,6 +740,14 @@ window.TEAM5_DATA = {
                 "date": "2026",
                 "verified": "ok",
                 "httpStatus": 200
+              },
+              {
+                "title": "Why NetApp (NTAP) Is Up 26.4% After Raising AI-Led Fiscal 2027 Margin And EPS Outlook",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/why-netapp-ntap-26-4-081130000.html",
+                "date": "2026",
+                "verified": "unverified",
+                "httpStatus": -1
               }
             ]
           },
@@ -872,10 +888,19 @@ window.TEAM5_DATA = {
         "whyStrong": [
           {
             "id": "wayfair-q2-earnings-beat",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
+            "statement": "Wayfair가 2026년 8월 4일 발표한 2분기 실적에서 매출 35억 달러(전년비 +7.5%, 컨센서스 34.7억 상회), 조정 EPS 0.95달러(컨센서스 0.92달러 상회)를 기록하며 어닝 서프라이즈를 냈고, 당일 주가가 약 30% 급등했다. 미국 내 스페셜티 브랜드는 전년비 20% 성장, 럭셔리 브랜드 Perigold는 35% 이상 성장(연매출 4억 달러 돌파)했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Wayfair Stock Is Up 57% in the Past Year, and Analysts Think It Can Keep Climbing",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/wayfair-stock-57-past-analysts-135117386.html",
+                "date": "2026-08-05 (기사 게재 추정, 실적 발표는 2026-08-04)",
+                "quote": "Revenue increased 7.5% YOY to $3.5 billion, surpassing analysts' estimate of $3.47 billion",
+                "verified": "unverified",
+                "httpStatus": -1
+              }
+            ]
           },
           {
             "id": "sector-wide-rally-post-wayfair-earnings",
@@ -959,17 +984,35 @@ window.TEAM5_DATA = {
           },
           {
             "id": "expedia-guidance-raise",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
+            "statement": "익스피디아그룹(EXPE)이 2분기 B2B 매출 23% 증가(14.9억달러)와 미국 소비자 부문의 '15분기 만의 최대 성장률'에 힘입어, 2026년 연간 매출 성장률 전망을 기존 6~9%에서 9~10%로, 총 예약액 전망도 상향했다. 호텔가·항공권 가격 상승에도 소비자 수요가 꺾이지 않았다는 점이 확인됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Expedia Group Q2 Earnings & Revenues Beat Estimates, Increase Y/Y",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/expedia-group-q2-earnings-revenues-164700520.html",
+                "date": "2026-08-07",
+                "quote": "B2B revenues surged 23% year over year to $1.49 billion... the consumer business benefited from sustained U.S. momentum, with the market growing at its strongest pace in 15 quarters.",
+                "verified": "unverified",
+                "httpStatus": -1
+              }
+            ]
           },
           {
             "id": "broad-travel-demand-backdrop",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
+            "statement": "OTA(온라인 여행 플랫폼) 실적 호조의 배경에는 업종 전반의 견조한 여행 수요가 있다. 항공업계(별도 GICS 세부업종)에서도 유가 하락과 여름 성수기 예약 호조로 주가가 상승했으며, 유나이티드항공은 6~8월 5,300만 명 이상의 승객을 예상하고 아메리칸항공은 창사 100주년 여름을 기록적 시기로 전망했다. 이는 3~6개월 구간에서도 여행 수요가 꾸준했음을 뒷받침하는 정황 근거다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Airline Stocks Soar as Summer Travel Demand Holds Strong",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/airline-stocks-soar-summer-travel-191506075.html",
+                "date": "2026-05-22",
+                "quote": "United expecting more than 53 million passengers from June through August... American Airlines said its 100th anniversary summer could be a record period.",
+                "verified": "unverified",
+                "httpStatus": -1
+              }
+            ]
           }
         ],
         "driver": "earnings",

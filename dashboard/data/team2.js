@@ -696,6 +696,15 @@ window.TEAM2_DATA = {
                 "quote": "Snowflake brings Anthropic Claude models into Cortex AI so customers can use frontier reasoning across all data types while maintaining Snowflake governance and security controls.",
                 "verified": "ok",
                 "httpStatus": 200
+              },
+              {
+                "title": "Scotiabank Raises its Price Target on Snowflake (SNOW)",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/scotiabank-raises-price-target-snowflake-171316543.html",
+                "date": "2026-06-08",
+                "quote": "Scotiabank left Summit 2026 with greater confidence that Snowflake is benefiting from enterprise AI adoption and is well-positioned to deliver accelerating growth in the second half of the year",
+                "verified": "unverified",
+                "httpStatus": -1
               }
             ]
           }
@@ -721,10 +730,19 @@ window.TEAM2_DATA = {
             },
             {
               "id": "e3",
-              "statement": "근거 없음(출처 검증 실패로 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [],
-              "stripped": true
+              "statement": "다만 애널리스트 컨센서스 EPS 전망치 자체는 최근(2026-07말 기준) 30일간 변동이 없었다. 당분기 EPS 컨센서스는 0.45달러(YoY +28.6%)로, 목표주가는 계속 오르고 있지만 단기 EPS 추정치는 안정적으로 유지되고 있어 상향 흐름이 이익추정치보다는 밸류에이션/목표주가 쪽에 더 뚜렷하게 나타난다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Snowflake Inc. (SNOW) Is a Trending Stock: Facts to Know Before Betting on It",
+                  "publisher": "Zacks (via Yahoo Finance)",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/snowflake-inc-snow-trending-stock-130004694.html",
+                  "date": "2026-07",
+                  "quote": "For the current quarter, Snowflake is expected to post earnings of $0.45 per share, indicating a change of +28.6% from the year-ago quarter. The Zacks Consensus Estimate remained unchanged over the last 30 days.",
+                  "verified": "unverified",
+                  "httpStatus": -1
+                }
+              ]
             }
           ]
         },
@@ -739,7 +757,7 @@ window.TEAM2_DATA = {
               "date": "2026-08",
               "quote": "Snowflake ... will report financial results for its second quarter of fiscal 2027, ended July 31, 2026, after market close on Wednesday, September 2, 2026.",
               "verified": "ok",
-              "httpStatus": 206
+              "httpStatus": 200
             }
           ]
         },
@@ -2814,17 +2832,35 @@ window.TEAM2_DATA = {
           },
           {
             "id": "w2",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
+            "statement": "4분기 연속 기존점 매출(comp sales) 플러스, 마진 확대, 가이던스 상향이 이어지며 유통업계에서 손꼽히는 턴어라운드 스토리로 부각됐고, 연초 대비 주가가 40% 이상 상승했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Bull of the Day: Victoria's Secret (VSXY)",
+                "publisher": "Yahoo Finance / Zacks",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-victorias-secret-vsxy-100000741.html",
+                "date": "2026-07-09",
+                "quote": "four consecutive quarters of positive comparable sales, expanded margins, and raised guidance — and the market has taken notice, with shares up more than 40% year to date.",
+                "verified": "unverified",
+                "httpStatus": -1
+              }
+            ]
           },
           {
             "id": "w3",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
+            "statement": "애널리스트들의 대규모 실적 전망 상향(60일 사이 EPS 컨센서스 3.49달러→4.61달러)이 주가 상승의 핵심 동력으로 작용했고, Zacks Rank #1(Strong Buy) 등급을 받았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Bull of the Day: Victoria's Secret (VSXY)",
+                "publisher": "Yahoo Finance / Zacks",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-victorias-secret-vsxy-100000741.html",
+                "date": "2026-07-09",
+                "quote": "The stock's recent upgrade reflects a powerful wave of upward earnings estimate revisions, historically one of the most reliable forces driving share prices higher... over the past 60 days, the Zacks Consensus Estimate for the current fiscal year has jumped from $3.49 to $4.61 per share.",
+                "verified": "unverified",
+                "httpStatus": -1
+              }
+            ]
           },
           {
             "id": "w4",
@@ -2848,10 +2884,19 @@ window.TEAM2_DATA = {
           "claims": [
             {
               "id": "e1",
-              "statement": "근거 없음(출처 검증 실패로 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [],
-              "stripped": true
+              "statement": "Zacks 컨센서스 EPS 전망치가 최근 60일 사이 3.49달러에서 4.61달러로 대폭 상향됐다(당해 회계연도 기준, 전년비 약 53.7% 성장 함의).",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Bull of the Day: Victoria's Secret (VSXY)",
+                  "publisher": "Yahoo Finance / Zacks",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-victorias-secret-vsxy-100000741.html",
+                  "date": "2026-07-09",
+                  "quote": "over the past 60 days, the Zacks Consensus Estimate for the current fiscal year has jumped from $3.49 to $4.61 per share.",
+                  "verified": "unverified",
+                  "httpStatus": -1
+                }
+              ]
             }
           ]
         },
@@ -3255,17 +3300,35 @@ window.TEAM2_DATA = {
         "whyRose": [
           {
             "id": "w1",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
+            "statement": "2026-05-01 마감 분기(회계연도 1분기) 실적에서 매출 438억 달러(YoY +87.5%)로 컨센서스를 22% 이상 상회하는 '어닝 서프라이즈'를 기록했고, 회사는 연간 매출 가이던스를 약 1670억 달러 수준으로, AI서버 매출 전망을 약 600억 달러로 상향했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Did DELL, S, DDOG Stocks Surge To 52-Week Highs Today?",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-dell-ddog-stocks-025716421.html",
+                "date": "2026-08-05",
+                "quote": "Management raised full-year revenue guidance toward a $167 billion level and now expects about $60 billion of AI server revenue",
+                "verified": "unverified",
+                "httpStatus": -1
+              }
+            ]
           },
           {
             "id": "w2",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
+            "statement": "2026-08-04 AI 클라우드 스타트업 Volta가 스텔스에서 나오며 노르웨이(Tydal)에 짓는 133메가와트급 AI 데이터센터의 '기술 제공업체(technology provider)'로 델이 지정된 100억 달러 규모 계약이 공개됐다. 이 딜에는 마이클 델의 패밀리오피스도 투자자로 참여했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Did DELL, S, DDOG Stocks Surge To 52-Week Highs Today?",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-dell-ddog-stocks-025716421.html",
+                "date": "2026-08-05",
+                "quote": "Dell was named the technology provider on a new $10 billion AI-factory deal",
+                "verified": "unverified",
+                "httpStatus": -1
+              }
+            ]
           },
           {
             "id": "w4",
@@ -3746,17 +3809,35 @@ window.TEAM2_DATA = {
         "whyRose": [
           {
             "id": "w1",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
+            "statement": "2026년 2분기(6월 분기) 실적이 어닝 서프라이즈를 기록했다. 매출 4,760만달러로 회사 사상 최고치를 기록했으며 전분기 대비 77%, 전년동기 대비 164% 증가했고, 비GAAP EPS도 시장 예상치를 크게 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AXT Inc (AXTI) (Q2 2026) Earnings Call Highlights: Record Revenue and Profitability Surge on AI-Driven Indium Phosphide Demand",
+                "publisher": "Yahoo Finance (GuruFocus 재배포)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-q2-2026-050437348.html",
+                "date": "2026-07-31",
+                "quote": "Revenue: $47.6 million in Q2 2026, the highest quarterly revenue in AXT's history, up nearly 77% from $26.9 million in Q1 2026 and up 164% from $18.0 million in Q2 2025.",
+                "verified": "unverified",
+                "httpStatus": -1
+              }
+            ]
           },
           {
             "id": "w2",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
+            "statement": "AI 데이터센터용 인듐인화물(InP) 수요 급증에 대응해 생산능력 확장 계획을 크게 상향했다. 2026년 말까지 InP 매출 기회가 3배 이상으로, 2027년에는 다시 2배로 늘어날 것으로 회사가 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AXT Inc (AXTI) (Q2 2026) Earnings Call Highlights: Record Revenue and Profitability Surge on AI-Driven Indium Phosphide Demand",
+                "publisher": "Yahoo Finance (GuruFocus 재배포)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-q2-2026-050437348.html",
+                "date": "2026-07-31",
+                "quote": "Indium phosphide capacity expansion is ahead of schedule, with revenue opportunity expected to more than triple by end of 2026 and double again in 2027.",
+                "verified": "unverified",
+                "httpStatus": -1
+              }
+            ]
           },
           {
             "id": "w3",
