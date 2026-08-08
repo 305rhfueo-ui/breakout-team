@@ -20,7 +20,9 @@ const { say } = require('./util');
 const BAD_HOST = /^(www\.)?(example\.(com|org|net)|localhost|127\.0\.0\.1|test\.com)$/i;
 const SEARCH_PAGE = /(google\.[a-z.]+\/search|bing\.com\/search|duckduckgo\.com\/\?q|search\.yahoo\.com|news\.google\.com\/rss)/i;
 // 봇 차단으로 유명한 도메인 — 4xx 가 와도 '없는 기사'라고 단정하지 않는다
-const BOT_BLOCKED = /(wsj\.com|bloomberg\.com|ft\.com|reuters\.com|barrons\.com|seekingalpha\.com|investors\.com)/i;
+// 봇/페이월로 4xx 를 주지만 브라우저로는 정상적으로 열리는 매체들.
+// marketwatch·yahoo 는 2026-08-08 실행에서 실측으로 추가했다 (401 / 헤더초과).
+const BOT_BLOCKED = /(wsj\.com|bloomberg\.com|ft\.com|reuters\.com|barrons\.com|seekingalpha\.com|investors\.com|marketwatch\.com|finance\.yahoo\.com|yahoo\.com|economist\.com|nytimes\.com)/i;
 
 function normUrl(u) {
   try {
@@ -35,22 +37,66 @@ function normUrl(u) {
   } catch (e) { return null; }
 }
 
+// ⚠️ 전역 fetch(undici)는 응답 헤더 한도가 16KB 로 고정이라
+//    finance.yahoo.com 처럼 Set-Cookie 를 잔뜩 보내는 사이트에서
+//    상태 코드를 읽기도 전에 UND_ERR_HEADERS_OVERFLOW 로 터진다.
+//    그걸 '죽은 링크'로 처리하는 바람에 2026-08-08 실행에서 살아있는 기사 24건을
+//    지우고 주장 18건을 '근거 없음'으로 강등한 적이 있다.
+//    node:http(s) 는 요청 단위로 maxHeaderSize 를 줄 수 있어 그 한계가 없다.
+const http = require('http');
+const https = require('https');
+const MAX_HEADER = 128 * 1024;
+const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
+// ⚠️ SEC 는 브라우저 UA 를 403 으로 막고 '앱명/버전 (연락처)' 형식을 요구한다.
+//    이걸 안 맞추면 우리가 가진 가장 확실한 1차 출처(공시 원문)가 전부 '미검증'으로 남는다.
+const SEC_UA = process.env.SEC_USER_AGENT || 'breakout-team/0.1 (contact@example.com)';
+const uaFor = (host) => (/(^|\.)sec\.gov$/i.test(host) ? SEC_UA : UA);
+
+function requestStatus(url, { method = 'HEAD', timeoutMs = 8000, hops = 0, extra } = {}) {
+  return new Promise((resolve) => {
+    if (hops > 5) return resolve({ status: 0, reason: '리다이렉트 과다' });
+    let u;
+    try { u = new URL(url); } catch (e) { return resolve({ status: 0, reason: 'URL 형식' }); }
+    const lib = u.protocol === 'http:' ? http : https;
+    const req = lib.request(u, {
+      method, maxHeaderSize: MAX_HEADER, timeout: timeoutMs,
+      headers: { 'User-Agent': uaFor(u.hostname), Accept: 'text/html,*/*', ...(extra || {}) },
+    }, (res) => {
+      const { statusCode: status, headers } = res;
+      res.resume(); // 본문은 버린다 — 상태 코드만 필요하다
+      if (status >= 300 && status < 400 && headers.location) {
+        const next = new URL(headers.location, u).toString();
+        return resolve(requestStatus(next, { method, timeoutMs, hops: hops + 1, extra }));
+      }
+      resolve({ status });
+    });
+    req.on('timeout', () => { req.destroy(); resolve({ status: 0, reason: '타임아웃' }); });
+    req.on('error', (e) => resolve({ status: 0, reason: e.code || e.message }));
+    req.end();
+  });
+}
+
+// 연결 자체가 끊긴 경우(status 0)에도 두 가지를 구분해야 한다.
+//   ① 도메인이 아예 없다(ENOTFOUND)        → 지어낸 URL. 죽음.
+//   ② 도메인은 있는데 연결을 끊는다(ECONNRESET·타임아웃) → 봇 차단. 죽음이 아니다.
+// 실측: globenewswire.com 은 ②다. 브라우저로는 열리는데 스크립트 연결만 리셋한다.
+const DNS_DEAD = /ENOTFOUND|EAI_AGAIN|ERR_INVALID_URL|URL 형식|리다이렉트 과다/i;
+
 async function headCheck(url, timeoutMs = 8000) {
-  const tryOnce = async (method, extra) => {
-    const c = new AbortController();
-    const timer = setTimeout(() => c.abort(), timeoutMs);
-    try {
-      const res = await fetch(url, {
-        method, redirect: 'follow', signal: c.signal,
-        headers: { 'User-Agent': 'Mozilla/5.0 (compatible; breakout-team/0.1)', ...(extra || {}) },
-      });
-      return res.status;
-    } catch (e) { return 0; } finally { clearTimeout(timer); }
-  };
-  let status = await tryOnce('HEAD');
+  let r = await requestStatus(url, { method: 'HEAD', timeoutMs });
   // HEAD 를 막는 서버가 많다 → 1바이트 GET 으로 재시도
-  if (status === 0 || status === 405 || status === 501) status = await tryOnce('GET', { Range: 'bytes=0-0' });
-  return status;
+  if (r.status === 0 || r.status === 405 || r.status === 501) {
+    r = await requestStatus(url, { method: 'GET', timeoutMs, extra: { Range: 'bytes=0-0' } });
+  }
+  if (r.status === 0 && !DNS_DEAD.test(String(r.reason || ''))) {
+    // DNS 는 되는지 직접 확인한다 — 도메인이 실재하면 '차단'이지 '없는 페이지'가 아니다
+    try {
+      const dns = require('dns').promises;
+      await dns.lookup(new URL(url).hostname);
+      return { status: 0, blockedConn: true, reason: r.reason };
+    } catch (e) { /* DNS 도 실패 → 진짜 죽음 */ }
+  }
+  return { status: r.status, blockedConn: false, reason: r.reason };
 }
 
 async function linkCheck(urls, { concurrency = 6, timeoutMs = 8000 } = {}) {
@@ -60,13 +106,20 @@ async function linkCheck(urls, { concurrency = 6, timeoutMs = 8000 } = {}) {
   async function worker() {
     while (i < uniq.length) {
       const u = uniq[i++];
-      const status = await headCheck(u, timeoutMs);
+      const { status, blockedConn, reason } = await headCheck(u, timeoutMs);
       const blocked = BOT_BLOCKED.test(u);
       let verdict;
       if (status >= 200 && status < 400) verdict = 'ok';
-      else if (status === 403 || status === 429 || status === 999 || (blocked && status >= 400)) verdict = 'unverified';
+      // 401 = 페이월·로그인 벽. '페이지가 없다'가 아니라 '로그인하라'다 (MarketWatch 실측)
+      else if (status === 401 || status === 403 || status === 429 || status === 999
+               || (blocked && status >= 400)) verdict = 'unverified';
+      // 도메인은 살아있는데 연결이 끊긴 경우 (globenewswire 실측)
+      else if (status === 0 && blockedConn) verdict = 'unverified';
+      // 5xx = 서버가 응답은 했다. 지어낸 URL 이면 404 가 오지 5xx 가 오지 않는다.
+      // (globenewswire 는 Cloudflare 가 503 으로 막는다 — '없는 기사'가 아니다)
+      else if (status >= 500) verdict = 'unverified';
       else verdict = 'dead';
-      out.set(u, { status, verdict });
+      out.set(u, { status, verdict, reason: reason || null });
     }
   }
   await Promise.all(Array.from({ length: Math.min(concurrency, uniq.length) }, worker));

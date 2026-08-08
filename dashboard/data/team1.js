@@ -630,8 +630,8 @@ window.TEAM1_DATA = {
             "publisher": "MarketWatch",
             "url": "https://www.marketwatch.com/story/palantirs-stock-stages-best-week-since-2024-showing-its-no-longer-an-ai-loser-2fc6c32b?mod=mw_rss_topstories",
             "date": "2026-08-07",
-            "verified": "ok",
-            "httpStatus": 200
+            "verified": "unverified",
+            "httpStatus": 401
           }
         ]
       },
@@ -686,26 +686,14 @@ window.TEAM1_DATA = {
     "candidateCount": 8,
     "verified": {
       "checked": 122,
-      "ok": 99,
-      "unverified": 49,
-      "dead": 5,
-      "stripped": 2,
+      "ok": 121,
+      "unverified": 30,
+      "dead": 2,
+      "stripped": 0,
       "removed": [
         {
           "reason": "중복",
           "url": "https://www.tradingpedia.com/2026/08/07/atlassian-soars-as-ai-fueled-quarter-boosts-outlook/"
-        },
-        {
-          "reason": "링크 죽음(HTTP 503)",
-          "url": "https://www.globenewswire.com/news-release/2026/08/07/3340984/0/en/6-k_gravity_second-quarter-2026-result-and-business-update.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 503)",
-          "url": "https://www.globenewswire.com/news-release/2026/08/07/3340984/0/en/6-k_gravity_second-quarter-2026-result-and-business-update.html"
-        },
-        {
-          "reason": "링크 죽음(HTTP 503)",
-          "url": "https://www.globenewswire.com/news-release/2026/08/07/3340984/0/en/6-k_gravity_second-quarter-2026-result-and-business-update.html"
         },
         {
           "reason": "링크 죽음(HTTP 404)",

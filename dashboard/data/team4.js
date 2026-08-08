@@ -38,13 +38,22 @@ window.TEAM4_DATA = {
             "evidence_level": "sourced",
             "sources": [
               {
+                "title": "6-K_GRAVITY_Second QUARTER 2026 RESULT and Business Update",
+                "publisher": "GlobeNewswire",
+                "url": "https://www.globenewswire.com/news-release/2026/08/07/3340984/0/en/6-k_gravity_second-quarter-2026-result-and-business-update.html",
+                "date": "2026-08-07",
+                "quote": "Total revenues were KRW 161,884 million (US$104.5 million), flat QoQ and down 5.2% YoY; Operating profit was KRW 27,582 million, down 10.5% QoQ but up 40.2% YoY; net profit attributable to parent was KRW 24,341 million, down 17.2% QoQ and up 83.8% YoY.",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
                 "title": "Gravity Q2 2026 Earnings: Net Profit Up 83.8%",
                 "publisher": "StockTitan",
                 "url": "https://www.stocktitan.net/news/GRVY/6-k-gravity-second-quarter-2026-result-and-business-0j7rscxsqbp1.html",
                 "date": "2026-08-07",
                 "quote": "Gravity (NasdaqGM: GRVY) reported unaudited Q2 2026 revenue of KRW 161,884 million, operating profit up 40.2% YoY, net profit attributable to parent up 83.8% YoY.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               },
               {
                 "title": "Gravity Reports Q2 2026 Results: Operating Profit Up 40.2% Year-on-Year",
@@ -59,17 +68,35 @@ window.TEAM4_DATA = {
           },
           {
             "id": "c2",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
+            "statement": "동 실적발표에는 라그나로크 IP의 다지역 신규 출시(라그나로크: 리버스 글로벌, 라그나로크 오리진 클래식 아메리카 등), 중국 판호(ISBN) 획득(라그나로크 M: 이터널 러브 2), 인도네시아 신규 합작법인 설립, 글로벌 UGC·HTML5 게임 플랫폼 계획 등 사업 확장 내용도 함께 포함됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "6-K_GRAVITY_Second QUARTER 2026 RESULT and Business Update",
+                "publisher": "GlobeNewswire",
+                "url": "https://www.globenewswire.com/news-release/2026/08/07/3340984/0/en/6-k_gravity_second-quarter-2026-result-and-business-update.html",
+                "date": "2026-08-07",
+                "quote": "Gravity highlighted extensive Ragnarok IP launches across multiple regions, a Chinese ISBN approval for Ragnarok M: Eternal Love 2, a new joint venture in Indonesia, and plans for additional JVs and a global UGC and HTML5 gaming platform.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
           },
           {
             "id": "c3",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
+            "statement": "참고: GRVY는 한국 소재 외국인 민간발행사(foreign private issuer)로서 미국 SEC에 8-K가 아닌 6-K를 통해 분기 실적을 공시한다. 사전 제공된 'SEC 8-K 공시(item 2.02)' 항목이 '없음'으로 표시된 것은 이 공시 형식 차이 때문이며, 실제로는 8-K에 상응하는 실적 공시(6-K)가 거래량 급증 전날 존재했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "6-K_GRAVITY_Second QUARTER 2026 RESULT and Business Update",
+                "publisher": "GlobeNewswire",
+                "url": "https://www.globenewswire.com/news-release/2026/08/07/3340984/0/en/6-k_gravity_second-quarter-2026-result-and-business-update.html",
+                "date": "2026-08-07",
+                "quote": "6-K_GRAVITY_Second QUARTER 2026 RESULT and Business Update",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
           }
         ],
         "isHighlight": true,
@@ -130,8 +157,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.benzinga.com/markets/earnings/26/08/61025469/atlassian-stock-soars-on-q4-results-guidance-what-investors-need-to-know",
                 "date": "2026-08-07",
                 "quote": "Atlassian Stock Soars on Q4 Results, Guidance",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -146,8 +173,8 @@ window.TEAM4_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/atlassian-nasdaq-team-beats-expectations-211025809.html",
                 "date": "2026-08-07",
                 "quote": "For the first quarter of fiscal 2027, Atlassian projected revenue of $1.705 billion to $1.715 billion, exceeding analysts' consensus estimate of about $1.67 billion.",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -162,8 +189,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.bloomberg.com/news/articles/2026-08-06/atlassian-shares-surge-as-revenue-jump-douses-ai-fears",
                 "date": "2026-08-06",
                 "quote": "Atlassian Shares Surge as Revenue Jump Douses AI Fears",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               },
               {
                 "title": "Atlassian Soars 34%, Twilio Leaps 27%, Cloudflare Advances 9% in Software Stock Surge",
@@ -223,8 +250,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.stocktitan.net/news/HALO/halozyme-to-report-second-quarter-2026-financial-and-operating-mqtnh3bpjxut.html",
                 "date": "2026-08-06",
                 "quote": "HALOZYME REPORTS RECORD SECOND QUARTER 2026 RESULTS, BEATS ESTIMATES AND RAISES FULL YEAR 2026 FINANCIAL GUIDANCE",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -320,8 +347,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.stocktitan.net/sec-filings/VSEC/8-k-vse-corp-reports-material-event-3f7f4e02eb59.html",
                 "date": "2026-08-05",
                 "quote": "2026년 상향 가이던스: 매출 성장률 61~64% (기존 57~61%), 조정 EBITDA 마진 18.7~19.0% (기존 18.1~18.5%)",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -387,16 +414,16 @@ window.TEAM4_DATA = {
                 "publisher": "Benzinga",
                 "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61042961/twilio-stock-soars-after-strong-q2-results-and-guidance",
                 "date": "2026-08-07",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "Twilio stock pops on better-than-expected Q2 report",
                 "publisher": "Yahoo Finance",
                 "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-stock-pops-better-expected-133500116.html",
                 "date": "2026-08-07",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -425,8 +452,8 @@ window.TEAM4_DATA = {
                 "publisher": "Yahoo Finance (CA)",
                 "url": "https://ca.finance.yahoo.com/news/twilio-inc-twlo-q2-2026-050405411.html",
                 "date": "2026-08-07",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -546,8 +573,8 @@ window.TEAM4_DATA = {
                 "url": "https://stocktwits.com/news-articles/markets/equity/airbnb-raises-2026-outlook-again-on-strong-travel-demand/cZoBXsVRJJt",
                 "date": "2026-08-06",
                 "quote": "ABNB stock soared 11% after-hours on Thursday after the rental platform raised its full-year revenue and margin guidance for the second time this year",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "Airbnb, Inc. (ABNB) Outpaces Stock Market Gains: What You Should Know",
@@ -555,8 +582,8 @@ window.TEAM4_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-inc-abnb-outpaces-stock-214503208.html",
                 "date": "2026-08-07",
                 "quote": "Shares of Airbnb jumped 15.1% in the afternoon session after the company delivered a strong second-quarter that beat all estimates across the board and raised its full-year guidance.",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -571,8 +598,8 @@ window.TEAM4_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-raises-2026-outlook-q2-202300314.html",
                 "date": "2026-08-06",
                 "quote": "Specifically, Airbnb bumped its full-year 2026 revenue growth projection to \"at least mid-teens\" and increased its full-year adjusted earnings margin target to at least 35.5%.",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "Airbnb Announces Second Quarter 2026 Results",
@@ -580,8 +607,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.stocktitan.net/news/ABNB/airbnb-announces-second-quarter-2026-236qugsa79yg.html",
                 "date": "2026-08-06",
                 "quote": "Airbnb Q2 2026 Earnings Posted; Webcast Today",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           }
@@ -632,8 +659,8 @@ window.TEAM4_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/sezzle-nasdaq-sezl-delivers-strong-201037673.html",
                 "date": "2026-08-06",
                 "quote": "Sales up 51.7% year on year to $149.7 million... non-GAAP profit of $1.13 per share was 11.3% above analysts' consensus estimates.",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -648,8 +675,8 @@ window.TEAM4_DATA = {
                 "url": "https://seekingalpha.com/news/4628256-sezzle-stock-slumps-after-q2-earnings-beat-guidance-raised",
                 "date": "2026-08-06",
                 "quote": "Sezzle raised its FY2026 adjusted EPS guidance from $5.10 to $5.25 and also raised sales guidance",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -664,8 +691,8 @@ window.TEAM4_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/sezzle-shares-tumble-despite-strong-123845759.html",
                 "date": "2026-08-06",
                 "quote": "Sezzle shares dropped 23% in premarket trading to around $137.50 after the buy now, pay later provider reported second-quarter 2026 results that beat analyst expectations but warned that revenue growth is expected to slow during the second half of the year.",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -739,16 +766,16 @@ window.TEAM4_DATA = {
                 "publisher": "Yahoo Finance (Zacks)",
                 "url": "https://finance.yahoo.com/markets/stocks/articles/lasr-q2-earnings-surpass-estimates-160900318.html",
                 "date": "2026-08-06",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "nLIGHT to Announce Second Quarter 2026 Financial Results on August 6",
                 "publisher": "StockTitan",
                 "url": "https://www.stocktitan.net/news/LASR/n-light-to-announce-second-quarter-2026-financial-results-on-august-mw6uh322bgtt.html",
                 "date": "2026-08-05",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -822,8 +849,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.stocktitan.net/sec-filings/INOD/8-k-innodata-inc-reports-material-event-d81d6b9e7920.html",
                 "date": "2026-08-06",
                 "quote": "Item 2.02 실적발표: 매출 $92.1백만(YoY +58%), 조정 EBITDA $25.355백만(+92%), 희석 EPS $0.41",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               },
               {
                 "title": "Innodata Inc (INOD) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic Expansion",
@@ -831,8 +858,8 @@ window.TEAM4_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/innodata-inc-inod-q2-2026-050535372.html",
                 "date": "2026-08-07",
                 "quote": "Fully diluted EPS of $0.41, nearly double the analyst consensus of $0.21; Net Income of $14.4 million, double the $7.2 million reported in Q2 of the prior year",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -847,8 +874,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.stocktitan.net/sec-filings/INOD/8-k-innodata-inc-reports-material-event-d81d6b9e7920.html",
                 "date": "2026-08-06",
                 "quote": "2026년 연간 40% 이상의 매출 성장 재확인. 아직 확정되지 않은 대규모 고객 프로그램은 40% 수치에 미포함",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -863,8 +890,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.stocktitan.net/sec-filings/INOD/8-k-innodata-inc-reports-material-event-d81d6b9e7920.html",
                 "date": "2026-08-06",
                 "quote": "Item 5.02: 효력발생일 2026년 9월 30일, Jack S. Abuhoff → Executive Chairman, Rahul Singhal → CEO 및 이사회 이사",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -879,8 +906,8 @@ window.TEAM4_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/innodata-inc-inod-q2-2026-050535372.html",
                 "date": "2026-08-07",
                 "quote": "During the trading session on 2026-08-07, Innodata shares reached a daily high of $79.78 and a low of $65.35, with the stock closing at $74.00. Trading volume for Innodata stock reached 2.86M, versus its average volume of 1.48M.",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           }
@@ -931,8 +958,8 @@ window.TEAM4_DATA = {
                 "publisher": "Tickeron",
                 "url": "https://tickeron.com/ticker/SPG/",
                 "date": "2026-08",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "Simon Property Group, Inc. (SPG) Latest Stock News & Headlines",
@@ -1092,8 +1119,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.marketscreener.com/news/fluor-q2-adjusted-earnings-revenue-rise-shares-up-pre-bell-ce7f50d2dc8ff323",
                 "date": "2026-08-07",
                 "quote": "Fluor reported Q2 adjusted earnings of $0.91 per diluted share, up from $0.43 a year earlier, beating analyst expectations of $0.70.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -1133,8 +1160,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.benzinga.com/markets/earnings/26/08/61049319/data-center-boom-fuels-new-growth-opportunities-for-fluor-ceo-says",
                 "date": "2026-08-07",
                 "quote": "Fluor Stock Hits 52-Week High - Here's Why",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },

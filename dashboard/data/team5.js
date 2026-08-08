@@ -677,8 +677,8 @@ window.TEAM5_DATA = {
                 "publisher": "Yahoo Finance (StockStory 제공)",
                 "url": "https://finance.yahoo.com/markets/stocks/articles/distribution-solutions-stocks-q1-highlights-143304804.html",
                 "date": "2026",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           }
@@ -746,8 +746,8 @@ window.TEAM5_DATA = {
                 "publisher": "Yahoo Finance",
                 "url": "https://finance.yahoo.com/markets/stocks/articles/why-netapp-ntap-26-4-081130000.html",
                 "date": "2026",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -857,8 +857,8 @@ window.TEAM5_DATA = {
                 "publisher": "Bloomberg",
                 "url": "https://www.bloomberg.com/news/articles/2026-08-05/gold-holds-gain-as-progress-on-hormuz-deal-lowers-rate-hike-odds",
                 "date": "2026-08-05",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               },
               {
                 "title": "Gold Slips as Hormuz Tensions Cool; Silver Falls Harder",
@@ -897,8 +897,8 @@ window.TEAM5_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/wayfair-stock-57-past-analysts-135117386.html",
                 "date": "2026-08-05 (기사 게재 추정, 실적 발표는 2026-08-04)",
                 "quote": "Revenue increased 7.5% YOY to $3.5 billion, surpassing analysts' estimate of $3.47 billion",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -993,8 +993,8 @@ window.TEAM5_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/expedia-group-q2-earnings-revenues-164700520.html",
                 "date": "2026-08-07",
                 "quote": "B2B revenues surged 23% year over year to $1.49 billion... the consumer business benefited from sustained U.S. momentum, with the market growing at its strongest pace in 15 quarters.",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -1009,8 +1009,8 @@ window.TEAM5_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/airline-stocks-soar-summer-travel-191506075.html",
                 "date": "2026-05-22",
                 "quote": "United expecting more than 53 million passengers from June through August... American Airlines said its 100th anniversary summer could be a record period.",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           }

@@ -262,8 +262,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-atlassian-to-180-from-120-maintains-overweight-rating-ce7f50d2dc88f721",
                   "date": "2026-08-07",
                   "quote": "Morgan Stanley Adjusts Price Target on Atlassian to $180 From $120, Maintains Overweight Rating",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 403
                 }
               ]
             }
@@ -703,8 +703,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/scotiabank-raises-price-target-snowflake-171316543.html",
                 "date": "2026-06-08",
                 "quote": "Scotiabank left Summit 2026 with greater confidence that Snowflake is benefiting from enterprise AI adoption and is well-positioned to deliver accelerating growth in the second half of the year",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           }
@@ -739,8 +739,8 @@ window.TEAM2_DATA = {
                   "url": "https://finance.yahoo.com/markets/stocks/articles/snowflake-inc-snow-trending-stock-130004694.html",
                   "date": "2026-07",
                   "quote": "For the current quarter, Snowflake is expected to post earnings of $0.45 per share, indicating a change of +28.6% from the year-ago quarter. The Zacks Consensus Estimate remained unchanged over the last 30 days.",
-                  "verified": "unverified",
-                  "httpStatus": -1
+                  "verified": "ok",
+                  "httpStatus": 200
                 }
               ]
             }
@@ -1373,8 +1373,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-bluelinx-beats-q2-2026-profit-forecasts-shares-jump-93CH-4838434",
                 "date": "2026-08-05",
                 "quote": "BlueLinx reported adjusted EPS of $1.15, compared with the consensus estimate of 46 cents. That was a beat of 69 cents a share, or about 150% above expectations.",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -2443,8 +2443,8 @@ window.TEAM2_DATA = {
               "url": "https://www.marketscreener.com/news/agilon-health-inc-provides-earnings-guidance-for-the-third-quarter-ending-september-30-2026-ce7f50dcdc8af622",
               "date": "2026-08-05",
               "quote": "For the third quarter of 2026, Agilon Health provided revenue guidance of $1.44 billion to $1.47 billion, with a midpoint of $1.455 billion above the analyst consensus of $1.41 billion.",
-              "verified": "ok",
-              "httpStatus": 200
+              "verified": "unverified",
+              "httpStatus": 403
             }
           ]
         },
@@ -2841,8 +2841,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-victorias-secret-vsxy-100000741.html",
                 "date": "2026-07-09",
                 "quote": "four consecutive quarters of positive comparable sales, expanded margins, and raised guidance — and the market has taken notice, with shares up more than 40% year to date.",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -2857,8 +2857,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-victorias-secret-vsxy-100000741.html",
                 "date": "2026-07-09",
                 "quote": "The stock's recent upgrade reflects a powerful wave of upward earnings estimate revisions, historically one of the most reliable forces driving share prices higher... over the past 60 days, the Zacks Consensus Estimate for the current fiscal year has jumped from $3.49 to $4.61 per share.",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -2893,8 +2893,8 @@ window.TEAM2_DATA = {
                   "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-victorias-secret-vsxy-100000741.html",
                   "date": "2026-07-09",
                   "quote": "over the past 60 days, the Zacks Consensus Estimate for the current fiscal year has jumped from $3.49 to $4.61 per share.",
-                  "verified": "unverified",
-                  "httpStatus": -1
+                  "verified": "ok",
+                  "httpStatus": 200
                 }
               ]
             }
@@ -3309,8 +3309,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-dell-ddog-stocks-025716421.html",
                 "date": "2026-08-05",
                 "quote": "Management raised full-year revenue guidance toward a $167 billion level and now expects about $60 billion of AI server revenue",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -3325,8 +3325,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-dell-ddog-stocks-025716421.html",
                 "date": "2026-08-05",
                 "quote": "Dell was named the technology provider on a new $10 billion AI-factory deal",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -3818,8 +3818,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-q2-2026-050437348.html",
                 "date": "2026-07-31",
                 "quote": "Revenue: $47.6 million in Q2 2026, the highest quarterly revenue in AXT's history, up nearly 77% from $26.9 million in Q1 2026 and up 164% from $18.0 million in Q2 2025.",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -3834,8 +3834,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-q2-2026-050437348.html",
                 "date": "2026-07-31",
                 "quote": "Indium phosphide capacity expansion is ahead of schedule, with revenue opportunity expected to more than triple by end of 2026 and double again in 2027.",
-                "verified": "unverified",
-                "httpStatus": -1
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -3850,8 +3850,8 @@ window.TEAM2_DATA = {
                 "url": "https://ca.investing.com/news/stock-market-news/needham-upgrades-axt-stock-rating-to-buy-on-data-center-growth-93CH-4767963",
                 "date": "2026-07-31",
                 "quote": "Needham upgraded AXT, Inc. (NASDAQ:AXTI) from Hold to Buy and set a price target of $90.00.",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           }
@@ -3870,8 +3870,8 @@ window.TEAM2_DATA = {
                   "url": "https://ca.investing.com/news/stock-market-news/needham-upgrades-axt-stock-rating-to-buy-on-data-center-growth-93CH-4767963",
                   "date": "2026-07-31",
                   "quote": "The company doubled its indium phosphide substrate capacity plan for this year and next year.",
-                  "verified": "unverified",
-                  "httpStatus": 403
+                  "verified": "ok",
+                  "httpStatus": 200
                 }
               ]
             }
