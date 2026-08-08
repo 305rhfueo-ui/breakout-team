@@ -1,5 +1,5 @@
 window.TEAM5_DATA = {
-  "generated": "2026-08-08",
+  "generated": "2026-08-09",
   "note": "WRS(1MO)/(3MO) 는 사이트에 없어 공식대로 자체 계산한 값입니다 (WRS_6mo 는 사이트와 대조 검증 통과)",
   "validation": {
     "comparable": 115,

@@ -1,5 +1,5 @@
 window.TEAM4_DATA = {
-  "generated": "2026-08-08",
+  "generated": "2026-08-09",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2
@@ -74,7 +74,7 @@ window.TEAM4_DATA = {
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
         "bars": 501,
-        "rangePct": 68.42
+        "rangePct": 68.43
       },
       "catalyst": {
         "status": "pending",
@@ -318,7 +318,7 @@ window.TEAM4_DATA = {
         "baseMonths": 6,
         "rangePct": 31.71,
         "breakoutDate": "2026-08-07",
-        "breakoutVolX": 2.96,
+        "breakoutVolX": 3.15,
         "barsSinceBreakout": 0,
         "aboveMa150AtBreak": true,
         "ma150AtBreak": 48.28,

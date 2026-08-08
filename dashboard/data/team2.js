@@ -1,5 +1,5 @@
 window.TEAM2_DATA = {
-  "generated": "2026-08-08",
+  "generated": "2026-08-09",
   "stats": {
     "universe": 1412,
     "byPeriod": {
@@ -97,7 +97,7 @@ window.TEAM2_DATA = {
       "nameKo": "아틀라시언",
       "nameEn": "ATLASSIAN CORP",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "아틀라시언",
         "nameEn": "ATLASSIAN CORP",
         "infomaxCode": "NAS:TEAM",
@@ -207,6 +207,17 @@ window.TEAM2_DATA = {
               ]
             },
             {
+              "title": "Atlassian Q4 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/atlassian-q4-earnings-call-highlights",
+              "date": "2026-08-07",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "TEAM"
+              ]
+            },
+            {
               "title": "TEAM Q4 Earnings Call Highlights AI and Enterprise Momentum",
               "url": "https://www.nasdaq.com/articles/team-q4-earnings-call-highlights-ai-and-enterprise-momentum",
               "date": "2026-08-07",
@@ -252,8 +263,8 @@ window.TEAM2_DATA = {
               ]
             }
           ],
-          "directCount": 6,
-          "total": 6,
+          "directCount": 7,
+          "total": 7,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -436,7 +447,7 @@ window.TEAM2_DATA = {
       "nameKo": "스노우플레이크",
       "nameEn": "SNOWFLAKE INC",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "스노우플레이크",
         "nameEn": "SNOWFLAKE INC",
         "infomaxCode": "NYS:SNOW",
@@ -843,7 +854,7 @@ window.TEAM2_DATA = {
         "price": 94.85,
         "resistance": 102.5,
         "support": 71.74,
-        "contraction": 0.69,
+        "contraction": 0.7,
         "trend": "up"
       },
       "ma150SlopeDir": "up",
@@ -861,7 +872,7 @@ window.TEAM2_DATA = {
       "nameKo": "메가 포춘",
       "nameEn": "MEGA FORTUNE COMPANY LIMITED",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "메가 포춘",
         "nameEn": "MEGA FORTUNE COMPANY LIMITED",
         "infomaxCode": "NAS:MGRT",
@@ -991,7 +1002,7 @@ window.TEAM2_DATA = {
       "nameKo": "블루링스 홀딩스",
       "nameEn": "BLUELINX HLDGS INC",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "블루링스 홀딩스",
         "nameEn": "BLUELINX HLDGS INC",
         "infomaxCode": "NYS:BXC",
@@ -1355,7 +1366,7 @@ window.TEAM2_DATA = {
       "nameKo": "코셉트 테라퓨틱스",
       "nameEn": "CORCEPT THERAPEUTICS INC",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "코셉트 테라퓨틱스",
         "nameEn": "CORCEPT THERAPEUTICS INC",
         "infomaxCode": "NAS:CORT",
@@ -1690,7 +1701,7 @@ window.TEAM2_DATA = {
         "price": 95.51,
         "resistance": 100.5,
         "support": 93.01,
-        "contraction": 0.9,
+        "contraction": 0.91,
         "trend": "mixed"
       },
       "ma150SlopeDir": "up",
@@ -1708,7 +1719,7 @@ window.TEAM2_DATA = {
       "nameKo": "애질론 헬스",
       "nameEn": "AGILON HEALTH INC",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "애질론 헬스",
         "nameEn": "AGILON HEALTH INC",
         "infomaxCode": "NYS:AGL",
@@ -2067,7 +2078,7 @@ window.TEAM2_DATA = {
       "nameKo": "VICTORIAS SECRET AND CO",
       "nameEn": "VICTORIAS SECRET AND CO",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "VICTORIAS SECRET AND CO",
         "nameEn": "VICTORIAS SECRET AND CO",
         "infomaxCode": "NYS:VSXY",
@@ -2433,7 +2444,7 @@ window.TEAM2_DATA = {
       "nameKo": "델 테크놀로지스",
       "nameEn": "DELL TECHNOLOGIES INC",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "델 테크놀로지스",
         "nameEn": "DELL TECHNOLOGIES INC",
         "infomaxCode": "NYS:DELL",
@@ -2806,7 +2817,7 @@ window.TEAM2_DATA = {
         "price": 88.58,
         "resistance": 90.1,
         "support": 76,
-        "contraction": 1.66,
+        "contraction": 1.67,
         "trend": "up"
       },
       "ma150SlopeDir": "up",
@@ -2824,7 +2835,7 @@ window.TEAM2_DATA = {
       "nameKo": "AXT",
       "nameEn": "AXT INC",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "AXT",
         "nameEn": "AXT INC",
         "infomaxCode": "NAS:AXTI",
@@ -3175,7 +3186,7 @@ window.TEAM2_DATA = {
       "nameKo": "트위스트 바이오사이언스",
       "nameEn": "TWIST BIOSCIENCE CORPORATION",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "트위스트 바이오사이언스",
         "nameEn": "TWIST BIOSCIENCE CORPORATION",
         "infomaxCode": "NAS:TWST",
@@ -3527,7 +3538,7 @@ window.TEAM2_DATA = {
       "nameKo": "밴드위스",
       "nameEn": "BANDWIDTH INC",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "밴드위스",
         "nameEn": "BANDWIDTH INC",
         "infomaxCode": "NAS:BAND",
@@ -3871,7 +3882,7 @@ window.TEAM2_DATA = {
       "nameKo": "페이컴 소프트웨어",
       "nameEn": "PAYCOM SOFTWARE INC",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "페이컴 소프트웨어",
         "nameEn": "PAYCOM SOFTWARE INC",
         "infomaxCode": "NYS:PAYC",
@@ -4228,7 +4239,7 @@ window.TEAM2_DATA = {
       "nameKo": "퀄리스",
       "nameEn": "QUALYS INC",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "퀄리스",
         "nameEn": "QUALYS INC",
         "infomaxCode": "NAS:QLYS",
@@ -4569,7 +4580,7 @@ window.TEAM2_DATA = {
       "nameKo": "맥스리니어",
       "nameEn": "MAXLINEAR INC",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "맥스리니어",
         "nameEn": "MAXLINEAR INC",
         "infomaxCode": "NAS:MXL",
@@ -4915,7 +4926,7 @@ window.TEAM2_DATA = {
       "nameKo": "포럼 에너지 테크놀로지스",
       "nameEn": "FORUM ENERGY TECHNOLOGIES INC",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "포럼 에너지 테크놀로지스",
         "nameEn": "FORUM ENERGY TECHNOLOGIES INC",
         "infomaxCode": "NYS:FET",
@@ -5278,7 +5289,7 @@ window.TEAM2_DATA = {
       "nameKo": "진DX 홀딩스",
       "nameEn": "GENEDX HOLDINGS CORP",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "진DX 홀딩스",
         "nameEn": "GENEDX HOLDINGS CORP",
         "infomaxCode": "NAS:WGS",
@@ -5667,7 +5678,7 @@ window.TEAM2_DATA = {
       "nameKo": "휴런 컨설팅 그룹",
       "nameEn": "HURON CONSULTING GROUP INC",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "휴런 컨설팅 그룹",
         "nameEn": "HURON CONSULTING GROUP INC",
         "infomaxCode": "NAS:HURN",
@@ -6020,7 +6031,7 @@ window.TEAM2_DATA = {
       "nameKo": "모노파 테라퓨틱스",
       "nameEn": "MONOPAR THERAPEUTICS INC",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "모노파 테라퓨틱스",
         "nameEn": "MONOPAR THERAPEUTICS INC",
         "infomaxCode": "NAS:MNPR",
@@ -6375,7 +6386,7 @@ window.TEAM2_DATA = {
       "nameKo": "에흐르 테스트 시스템스",
       "nameEn": "AEHR TEST SYSTEMS",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "에흐르 테스트 시스템스",
         "nameEn": "AEHR TEST SYSTEMS",
         "infomaxCode": "NAS:AEHR",
@@ -6741,7 +6752,7 @@ window.TEAM2_DATA = {
       "nameKo": "안테릭스",
       "nameEn": "ANTERIX INC",
       "detail": {
-        "fetchedAt": "2026-08-08",
+        "fetchedAt": "2026-08-09",
         "nameKo": "안테릭스",
         "nameEn": "ANTERIX INC",
         "infomaxCode": "NAS:ATEX",
@@ -6827,6 +6838,17 @@ window.TEAM2_DATA = {
           "ticker": "ATEX",
           "items": [
             {
+              "title": "Anterix Shareholders Approve Board, Pay and Expanded 2023 Stock Plan",
+              "url": "https://www.nasdaq.com/articles/anterix-shareholders-approve-board-pay-and-expanded-2023-stock-plan",
+              "date": "2026-08-07",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ATEX"
+              ]
+            },
+            {
               "title": "Anterix (ATEX) Up 31.2% Since Last Earnings Report: Can It Continue?",
               "url": "https://www.nasdaq.com/articles/anterix-atex-312-last-earnings-report-can-it-continue",
               "date": "2026-07-10",
@@ -6902,17 +6924,6 @@ window.TEAM2_DATA = {
               "url": "https://www.nasdaq.com/articles/anterix-q4-earnings-call-highlights",
               "date": "2026-06-11",
               "publisher": "MarketBeat",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "ATEX"
-              ]
-            },
-            {
-              "title": "Anterix Inc. Q4 Income Advances",
-              "url": "https://www.nasdaq.com/articles/anterix-inc-q4-income-advances",
-              "date": "2026-06-11",
-              "publisher": "RTTNews",
               "tier1": false,
               "direct": true,
               "tickers": [
@@ -7599,7 +7610,7 @@ window.TEAM2_DATA = {
         "price": 112.81,
         "resistance": null,
         "support": 89.54,
-        "contraction": 1.33,
+        "contraction": 1.34,
         "trend": "up"
       },
       "ma150SlopeDir": "up",
@@ -8185,7 +8196,7 @@ window.TEAM2_DATA = {
         "price": 123.47,
         "resistance": null,
         "support": 93,
-        "contraction": 2.14,
+        "contraction": 2.15,
         "trend": "up"
       },
       "ma150SlopeDir": "up",
@@ -8258,7 +8269,7 @@ window.TEAM2_DATA = {
         "price": 64,
         "resistance": 66.87,
         "support": 56.27,
-        "contraction": 0.73,
+        "contraction": 0.74,
         "trend": null
       },
       "ma150SlopeDir": null,
