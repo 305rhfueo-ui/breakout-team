@@ -12,53 +12,50 @@ breakout-team 이어서 하자. RESUME.md 읽어봐
 
 ---
 
-## 🔵 지금 하던 일 — 5팀 "자금 흐름" 확장 (승인된 계획 실행 중)
+## ✅ 5팀 "자금 흐름" 확장 — 완료 (2026-08-08)
 
-계획 전문: `~/.claude/plans/prancy-kindling-thompson.md` 맨 아래 절.
+승인된 계획: `~/.claude/plans/prancy-kindling-thompson.md` 맨 아래 절. **전 항목 구현·검증 완료.**
 
-### 완료 (전부 검증됨)
+### 무엇이 생겼나
 
-| 항목 | 파일 | 검증 |
-|---|---|---|
-| F10d/F25d/FRANK 계산 (사이트 재현 + 정정) | `scripts/lib/sector-flow.js` | `node tests/lib/sector-flow.test.js` → **24/24 통과** |
-| 실장 교차 (업종 × 2·3팀 종목) | `scripts/lib/flow-cross.js` | chief.js 에 `flowCross` 출력 확인 |
-| 파이프라인 연결 | `scripts/run-breakout.js` 12b 절 | 실행 로그에 `자금 흐름: 주도 3 · 유입 12 …` |
-| 스냅샷 스키마 v2 (50DIV/200DIV 추가) | `scripts/lib/history-series.js` | 구버전 캐시 자동 재수집 |
-| 티커 검색 (전 1,412종목) | `dashboard/breakout-room.html` | 브라우저에서 NVDA·TEAM·ZZZZ·"팔란티어" 확인 |
-| 유니버스 내보내기 | `run-breakout.js` + `data/universe.js` (646KB, 지연 로드) | 회사명 54개 매핑 |
-| 미르·실장 서술 | `index.html` `mirBrief()` · `chiefFlowLines()` | 리서치룸 스모크 통과 |
+- **미르(5팀)** 가 순위표 대신 **"돈이 들어오는 곳 / 빠지는 곳 / 아직 안 온 곳"** 3단락으로 보고한다.
+- **실장** 보고에 **"돈이 몰리는 곳의 강세 종목"** 표가 붙는다 (종목 / 두 달 평균 대비 /
+  1년 평균 대비 / 초입·눌림·과열·이탈 판정).
+- **대시보드 5팀 탭**에 자금 흐름 표. 업종 클릭 → 흐름 판정 + 소속 종목 분해.
+- **티커 검색창** (전 1,412종목, 한글 회사명 가능). 미조사 종목은 "아직 조사하지 않았습니다"로 명시.
 
-**확인된 RS 사이트 버그 3종** (전부 회피 구현됨)
+### 새 파일
 
-1. 감쇠계수 불일치 — 오늘값(감쇠 O) vs 과거값(감쇠 X) 비교 → **137개 중 30개 업종의 부호가 뒤집힘**
-2. 기준일에 주말 스냅샷(금요일 복제) 섞임 → 평일만 골라 진짜 10·25거래일 사용
-3. NaN 오염 (기존에 알던 것)
+| 파일 | 역할 |
+|---|---|
+| `scripts/lib/sector-flow.js` | F10d/F25d/FRANK/200DIV변화 계산. 사이트 재현값과 정정값 두 벌 |
+| `scripts/lib/flow-cross.js` | 5팀 업종 흐름 × 2·3팀 종목 교차 (실장 보고용) |
+| `dashboard/data/industry-ko.js` | 업종·섹터 한글명 (141개 중 139개). 두 화면 공용 |
+| `dashboard/data/universe.js` | 티커 검색용 전 종목 (646KB, **검색창 첫 사용 시에만 지연 로드**) |
+| `tests/run-all.js` · `tests/lib/*.test.js` | `npm test` 로 전체 실행 |
 
-사이트 화면값 재현 골든값이 테스트에 박혀 있다 (Computer Hardware −38.3% 등 6종).
+### ⚠️ 확인된 RS 사이트 버그 3종 (전부 회피 구현됨)
 
-### 🔧 남은 일 (여기서부터)
+1. **감쇠계수 불일치** — 사이트는 오늘값(감쇠 O)과 과거값(감쇠 X)을 비교한다.
+   종목 수가 적은 업종일수록 왜곡이 크다. **137개 중 30개 업종의 부호가 뒤집힌다.**
+   예) Computer Hardware 화면 −38.3% → 정정 +0.2% (1위 업종인데 하락으로 표시됨)
+2. **기준일에 주말 스냅샷(금요일 복제)이 섞임** — 사이트의 "25일 전"이 실제로는 18거래일 전.
+   → 평일만 골라 진짜 10·25거래일 사용.
+3. **NaN 오염** (기존에 알던 것) — `lib/wrs.js` 가 이미 회피.
 
-1. **업종명 한글 병기** — 미르·실장 보고에 `Software - Application`,
-   `Oil & Gas Refining & Marketing` 처럼 영문이 그대로 나온다.
-   `index.html` 의 `INDUSTRY_KO` 맵을 확장해 붙일 것.
-   (승인된 서술 규칙: "영문 약어·용어를 풀지 않고 쓰지 않는다")
-2. **미르 vs 실장 업종 불일치** — 미르는 순위 상승폭 순(Software-Application),
-   실장은 2팀 종목 보유 업종 우선(Software-Infrastructure)이라 서로 다른 곳을
-   "가장 빠른 곳"이라 말한다. 실장 문구를 **"도윤이 뽑은 종목이 있는 업종 중"** 으로
-   정확히 하거나 미르 선택 기준을 맞출 것.
-3. **미르의 "돈 빠지는 곳" 선택** — 지금은 이격 수축이 가장 큰 업종(Semiconductor Equipment)을
-   고르는데 거기엔 3팀 탈락 종목이 없다. **탈락 종목이 겹치는 업종을 우선**하면
-   "수아 판정과 일치한다"는 근거가 살아난다 (Semiconductors 6종목 탈락).
-4. **대시보드 5팀 탭에 흐름 표 추가** — `dashboard/breakout-room.html` 의 `p-t5` 패널.
-   사이트값/정정값을 나란히, 업종 클릭 시 종목 분해.
-5. **약어 자동 검수** — 브리핑에 `F10d|WRS|ADR|CLS_POS|BBWTHD` 가 괄호 설명 없이
-   남으면 실패시키는 체크 추가.
+사이트 화면값 재현 골든값이 테스트에 박혀 있다 (Computer Hardware −38.3% 등 6종, 오차 <0.15%p).
+화면에는 우리 값과 사이트 값을 **나란히** 띄우고 부호가 다르면 노란 배지를 단다.
 
-### 재개 명령
+### 검증
 
+```bash
+npm test                              # 38개 (sector-flow 24 + briefing-plain 14) 전부 통과
+node scripts/run-breakout.js --no-git # 약 18초
 ```
-breakout-team 이어서 하자. RESUME.md 읽어봐
-```
+
+`briefing-plain.test.js` 가 **브리핑에 풀지 않은 영문 약어**(F10d·WRS·ADR·CLS_POS·BBWTHD·
+bounce_trigger 등)가 남으면 실패시킨다. `undefined`/`NaN`/`—%` 누출과
+미르·실장이 같은 업종을 가리키는지도 함께 검사한다.
 
 ---
 
