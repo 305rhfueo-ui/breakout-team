@@ -543,8 +543,143 @@ window.TEAM1_DATA = {
     "note": "AI 인프라 테마"
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-08-09",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "이란, 호르무즈 해협 개방에 조건 제시 — 중동 긴장이 유가 리스크로",
+        "easy": "호르무즈 해협은 전 세계 원유의 상당 부분이 지나가는 '바다 위 고속도로 톨게이트'입니다. 이란이 이 톨게이트를 열어주는 대신 조건을 걸었고, UAE 선박 한 척이 공습을 받았다는 소식까지 나왔습니다. 톨게이트가 막히면 기름을 실은 배가 돌아가야 해서 기름값(유가)이 오릅니다. 기름값이 오르면 물가(인플레이션 = 물건값이 전반적으로 오르는 것)가 자극되고, 그러면 중앙은행이 금리를 쉽게 못 내립니다. 즉 '전쟁 뉴스 → 기름값 → 물가 → 금리'라는 도미노가 시장을 불안하게 만드는 구조입니다.",
+        "whyMatters": "성장주·기술주에 가장 나쁜 조합은 '유가 상승 + 금리 인하 지연'입니다. 지금 QQQ는 종가 723.03으로 MA10 696.98·MA20 700.34·MA50 714.57 세 이동평균선 위에 올라선 관찰 구간(🟡, 10MA가 아직 20MA 아래 D+23, 10MA 상승 전환 +1.34%)인데, 유가 급등 헤드라인 하나가 이 임박한 골든크로스를 무산시킬 수 있습니다. 보유 종목이 Technology(주도 섹터 22종목·44%) 중심이라면 시가 갭하락 리스크를 염두에 두고, 신규 진입은 월요일 시초가 급등락을 확인한 뒤로 미루는 편이 안전합니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Iran sets conditions for opening Strait of Hormuz after UAE says one of its ships was targeted by airstrike",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/08/08/uae-ship-targeted-missile-us-iran-tensions-stay-high.html",
+            "date": "2026-08-08",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "허깅페이스 해킹 — 'AI 사이버 위협 시대'의 서막, 기업 대부분은 뚫린 줄도 모른다",
+        "easy": "허깅페이스는 AI 모델을 서로 나눠 쓰는 '앱스토어' 같은 곳입니다. 여기가 해킹당했다는 건, 앱스토어에 올라온 앱에 몰래 바이러스가 심어질 수 있다는 뜻이죠. 더 무서운 건 많은 회사가 자기가 그 앱을 갖다 쓰고도 '우리가 당했는지조차 모른다'는 점입니다. 도둑이 들어왔는데 문이 열린 줄도 모르는 집과 같습니다. 그래서 앞으로 기업들은 보안에 돈을 더 쓸 수밖에 없습니다.",
+        "whyMatters": "이건 '양날의 칼'입니다. AI 인프라·모델 관련 종목에는 신뢰 훼손이라는 단기 악재지만, 사이버보안 소프트웨어 종목에는 예산이 늘어나는 호재입니다. 주도 섹터가 Technology 22종목(44%)으로 쏠린 지금, 같은 기술주 안에서도 'AI 인프라'와 '보안'의 방향이 갈릴 수 있으니 보유 종목이 어느 쪽인지 구분해 두세요.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Hugging Face hack marks start of dangerous AI cyber era and many firms 'don't even know it'",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/08/08/hugging-face-ai-hack-cybersecurity-black-hat.html",
+            "date": "2026-08-08",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "버크셔 실적 개선 — 그렉 아벨, 버핏이 쌓아둔 거대한 현금을 쓰기 시작했다",
+        "easy": "버크셔해서웨이는 워런 버핏이 만든 거대한 투자회사로, 그동안 '살 게 없다'며 현금을 산더미처럼 쌓아뒀습니다. 새 대표 그렉 아벨이 그 저금통을 드디어 열기 시작했다는 소식입니다. 세상에서 가장 신중한 투자자 집단이 '이제 살 만하다'고 판단했다는 신호로 읽힐 수 있습니다. 다만 이건 싼 자산을 산다는 뜻이지, 비싼 성장주를 산다는 뜻은 아닐 수 있습니다.",
+        "whyMatters": "가치주·금융주 쪽에 심리적 지지가 생깁니다. 지금 주도 섹터에서 Financial Services는 2종목(4%)에 불과해 비중이 작지만, 시장이 '고평가 성장주 → 저평가 가치주'로 무게중심을 옮기면 이 비중이 바뀔 수 있습니다. 기술주 일변도 포트폴리오라면 자금이 다른 곳으로 새는지 거래대금으로 확인해 볼 시점입니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/08/08/berkshire-hathaway-earnings-q2-2026.html",
+            "date": "2026-08-08",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "금리 불확실성 속 CLO ETF 인기 — 투자자들이 '위험한 채권'까지 손대기 시작",
+        "easy": "CLO는 여러 기업 대출을 한 바구니에 담아 조각내 파는 상품입니다. 수익률은 높지만 경기가 나빠지면 안에 든 대출이 부실해질 수 있는 '조금 매운' 상품이죠. 금리가 언제 내릴지 몰라 답답한 투자자들이 이 매운 상품으로 몰려가고 있다는 뉴스입니다. 밥이 부족하면 사람들이 평소 안 먹던 반찬에도 손을 대는 것과 비슷합니다. 위험을 감수하려는 분위기가 강해졌다는 신호입니다.",
+        "whyMatters": "이 기사 자체보다 '위험 선호가 과열되고 있다'는 맥락이 중요합니다. FINRA 고객 마진부채가 YoY +49.0%로 +40%를 넘겨 레버리지 과열 경고(🔴) 상태인데, CLO 같은 고위험 상품 수요까지 겹치면 시장이 작은 악재에도 크게 흔들릴 수 있습니다. 빚(신용융자)으로 산 물량이 많을수록 하락 시 강제 매도가 연쇄적으로 나오니, 본인 계좌의 레버리지부터 점검하세요.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Next big push in ETF industry? Why these risk assets are gaining traction as interest rate uncertainty persists",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/08/08/rate-uncertainty-sparking-demand-for-clo-exposure-among-etfs-vettafi.html",
+            "date": "2026-08-08",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "'AI 회의론자 개발자, 아직 취업할 수 있을까' — 테크 고용 한파의 단면",
+        "easy": "AI를 못 미더워하는 실직 개발자가 '아직 나도 일자리를 구할 수 있냐'고 묻는 사연입니다. 기업들이 AI에 돈을 쏟으면서 사람 채용은 줄이고 있다는 현실을 보여줍니다. 회사 입장에선 비용이 줄어 이익이 좋아지지만, 일자리를 잃은 사람들은 소비를 줄입니다. 회사는 살찌고 소비자는 마르는, 어긋난 그림이 만들어지는 셈입니다.",
+        "whyMatters": "단기적으로는 인건비 절감이 기술주 이익률에 호재라 주가에 우호적입니다. 하지만 고용이 계속 나빠지면 소비 관련 종목(주도 섹터 중 Consumer Cyclical 5종목·10%)에는 뒤늦게 부담이 됩니다. 기술주와 소비주를 함께 들고 있다면 두 종목군이 서로 반대로 움직일 수 있다는 점을 감안하세요.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "I'm an unemployed software developer who is skeptical of AI. Can I still find a job in tech?",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/im-an-unemployed-software-developer-who-is-skeptical-of-ai-can-i-still-find-a-job-in-tech-4413875e?mod=mw_rss_topstories",
+            "date": "2026-08-08",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "사이클로스포라 공포에 샐러드 수요 급감 — 외식·식품주 국지적 악재",
+        "easy": "사이클로스포라는 채소에 붙을 수 있는 기생충으로, 먹으면 배탈이 납니다. 이 소식에 사람들이 샐러드를 피하면서 상추·채소 소비가 줄고 있습니다. 식당은 메뉴가 안 팔려 매출이 줄고, 채소를 파는 회사도 재고가 남습니다. '한 마리 벌레가 식탁 전체를 비우는' 전형적인 소비 심리 사건입니다.",
+        "whyMatters": "시장 전체 방향을 바꾸는 뉴스는 아니고, 신선식품·외식 관련 종목에만 국한된 악재입니다. 다만 주도 섹터에 Healthcare 12종목(24%)이 두 번째로 크게 들어와 있는 만큼 식품 안전·진단 관련 테마가 반짝 움직일 수 있습니다. 보유 종목이 여기에 해당하지 않는다면 무시해도 되는 뉴스입니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Cyclospora fears lead consumers to lose their appetite for salads",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/08/08/cyclospora-salads-lettuce-restaurants.html",
+            "date": "2026-08-08",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "오늘은 일요일이라 시장이 열리지 않았고, 아래 수치는 모두 2026-08-07(금) 종가 기준입니다. 기술적으로 보면 QQQ는 종가 723.03으로 MA10 696.98·MA20 700.34·MA50 714.57 세 이동평균선을 모두 위로 올라섰고, 10MA도 +1.34% 상승 전환해 방향은 확실히 위쪽입니다. 다만 10MA가 아직 20MA 아래에 있은 지 23일째(D+23)라 '골든크로스 임박 관찰 구간'일 뿐 아직 확정된 상승 신호는 아닙니다(🟡). 문제는 연료입니다. FINRA 고객 마진부채가 전년 대비 +49.0%로 경고선인 +40%를 크게 넘어, 시장이 상당 부분 '빚으로 산 주식'에 올라타 있다는 뜻입니다(🔴). 여기에 이란-호르무즈 해협 긴장, AI 인프라 해킹 같은 헤드라인 리스크가 겹쳐 있어, 위로는 열려 있지만 발밑이 미끄러운 상태입니다. 한편 200일선 대비 +150%를 넘긴 과열 종목은 0개라 개별 종목 단위의 극단적 거품은 아직 보이지 않습니다.",
+    "keyRisks": [
+      "FINRA 마진부채 YoY +49.0% — 빚으로 산 주식이 많아 하락 시 강제 청산이 연쇄적으로 터질 수 있는 레버리지 과열 구간(🔴)",
+      "이란의 호르무즈 해협 조건부 개방·UAE 선박 피격 — 유가 급등 시 물가 자극 → 금리 인하 지연 → 성장주 밸류에이션 압박",
+      "QQQ 10MA가 아직 20MA 아래(D+23) — 골든크로스가 확정되지 않은 관찰 구간이라 되돌림(가짜 돌파) 가능성 상존",
+      "주도 섹터가 Technology 22종목(44%)에 쏠려 있어, AI 관련 악재 하나에 포트폴리오 전체가 같이 흔들리는 집중 리스크",
+      "허깅페이스 해킹이 보여준 AI 공급망 보안 취약 — AI 인프라 신뢰 훼손이 기술주 센티먼트에 반복적 악재로 작용할 소지",
+      "금리 방향 불확실성 속 CLO 등 고위험 자산 수요 증가 — 시장 전반의 위험 선호가 과열 쪽으로 기울고 있다는 경고 신호"
+    ],
+    "easySummary": [
+      "QQQ 주가(723.03)는 10·20·50일 이동평균선을 모두 넘어섰지만, 10MA가 아직 20MA 아래(D+23)라 '거의 다 왔지만 아직 아닌' 관찰 구간입니다.",
+      "투자자들이 빚내서 주식을 사는 규모(마진부채)가 1년 전보다 +49.0% 늘어 과열 경고등이 켜졌습니다 — 오를 땐 빠르지만 내릴 땐 더 빠릅니다.",
+      "이란-호르무즈 해협 긴장(유가)과 AI 플랫폼 해킹이 이번 주 시장을 흔들 수 있는 두 개의 헤드라인이니, 신규 진입은 서두르지 말고 확인 후 대응하세요."
+    ],
+    "candidateCount": 6,
+    "verified": {
+      "checked": 120,
+      "ok": 119,
+      "unverified": 30,
+      "dead": 2,
+      "stripped": 0,
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://www.tradingpedia.com/2026/08/07/atlassian-soars-as-ai-fueled-quarter-boosts-outlook/"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.ebc.com/forex/atlassian-stock-jumps-35-fy2027-outlook"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.ebc.com/forex/cybersecurity-stocks-nasdaqs-ai-rally-no-one-saw-coming"
+        }
+      ]
+    },
+    "reusedFrom": null
   }
 };
