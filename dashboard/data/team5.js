@@ -521,7 +521,587 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "pending"
+    "status": "done",
+    "industries": [
+      {
+        "key": "technology-computer-hardware",
+        "industry": "Technology / Computer Hardware",
+        "whyStrong": [
+          {
+            "id": "ai-server-backlog",
+            "statement": "Dell 등 컴퓨터 하드웨어 업체들이 AI 서버 수주·백로그를 사상 최대치로 경신하며 실적 가시성이 급격히 높아졌다. Dell은 FY26 3분기(2025년 11월 마감분) 기준 분기 AI 수주 123억달러, 연간누적(YTD) 수주 300억달러, 기말 백로그 184억달러(사상 최대)를 기록했고 재무담당자는 AI 출하 가이던스를 약 250억달러(전년비 150%+ 증가)로 상향했다. 이후 발표된 FY26 전체로는 AI 수주 641억달러, 기말 백로그 430억달러, FY27 AI 매출 500억달러(약 100% 성장) 가이던스로 확대됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dell Technologies Q3 FY 2026: AI Orders, Backlog, and Outlook Rise",
+                "publisher": "Futurum Group",
+                "url": "https://futurumgroup.com/insights/dell-technologies-q3-fy-2026-ai-orders-backlog-and-outlook-rise/",
+                "date": "2025-12-01",
+                "quote": "AI 출하 지침을 약 $250억으로 상향 조정했으며, 전년 대비 150% 이상 증가할 것으로 예상됩니다. 5분기 파이프라인은 백로그의 배수 수준을 유지",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Dell Q4 FY 2026 Earnings Highlight AI-Optimized Server Ramp",
+                "publisher": "Futurum Group",
+                "url": "https://futurumgroup.com/insights/dell-q4-fy-2026-earnings-highlight-ai-optimized-server-ramp/",
+                "date": "2026-02-27",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "ai-hardware-rebound-rally",
+            "statement": "2026년 7월 넷째 주, Dell·HPE·Super Micro 등 AI 인프라 하드웨어 주가가 동반 급등하며 나스닥 반등을 주도했다. Dell은 분기(FY27 1분기) AI 수주 240억달러, 연간 AI 서버 매출을 약 600억달러로 예상했고, HPE는 Q2 FY26 매출이 전년비 40% 증가(Juniper Networks 통합으로 네트워킹 매출 148% 증가)했으며, Super Micro는 Q3 FY26 매출이 123% 증가했다(다만 컨센서스는 하회).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Super Micro Jumps 6%, Dell Climbs 7%, HPE Rises 5% as AI Hardware Rebounds With the NASDAQ",
+                "publisher": "24/7 Wall St.",
+                "url": "https://247wallst.com/investing/2026/07/21/super-micro-jumps-6-dell-climbs-7-hpe-rises-5-as-ai-hardware-rebounds-with-the-nasdaq/",
+                "date": "2026-07-21",
+                "quote": "AI orders in Q1 FY27 240억 달러... AI 서버 수익이 약 600억 달러... Q2 FY26 수익이 전년 동기 대비 40% 증가",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "windows10-refresh-cycle",
+            "statement": "마이크로소프트의 Windows 10 기술지원 종료(2025년 10월 14일)가 상업용 PC 교체 수요를 견인하며 글로벌 PC 출하량이 반등했다. 2025년 3분기 전세계 PC 출하량은 6,900만대를 넘어서며 전년비 8.2% 증가했고(단 북미는 관세發 재고 선적으로 1.6% 성장에 그침), AI 최적화 PC는 2025년 전체 출하량의 31%를 차지할 전망이었다. 이 교체 수요는 2026년까지 이어지는 추세로 보도됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Windows 10 end-of-support boosts global PC shipment growth",
+                "publisher": "CIO Dive",
+                "url": "https://www.ciodive.com/news/windows-10-end-boosts-global-pc-shipment/803155/",
+                "date": "2025-10-17",
+                "quote": "8.2% year-over-year increase in global PC shipments in the third quarter of 2025... AI-optimized PCs are expected to make up 31% of total shipments in 2025",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "earnings",
+        "durability": "cyclical",
+        "keyStocks": [
+          "DELL",
+          "HPE",
+          "SMCI (Super Micro)",
+          "AAPL"
+        ],
+        "risk": "DRAM·NAND 메모리 가격 급등이 하드웨어 업체 마진을 잠식할 위험이 핵심 리스크다. IDC는 AI발 메모리 공급 부족으로 Lenovo·Dell·HP·Acer·ASUS가 15~20% 가격 인상을 예고했다고 전했고(2025-12-18), 온건 시나리오에서도 2026년 PC 시장이 4.9% 감소, 비관 시나리오에서는 8.9% 감소할 수 있다고 분석했다(출처: IDC 블로그, https://www.idc.com/resource-center/blog/global-memory-shortage-crisis-market-analysis-and-the-potential-impact-on-the-smartphone-and-pc-markets-in-2026/). 즉 지금의 강세는 AI 서버 수요와 Windows 10 교체 수요라는 두 축에 의존한 실적 모멘텀(순환적 성격)이며, 원가(메모리) 급등이 소비자·기업 PC 수요를 꺾거나 AI 서버 발주 사이클이 정점을 지날 경우(백로그 소진, 하이퍼스케일러 capex 둔화) 되돌림 가능성이 있다. 참고로 WRS는 1개월 -4.02%(상위 86%)로 이미 최근 한 달 모멘텀이 꺾이기 시작한 신호로 해석할 수 있다."
+      },
+      {
+        "key": "technology-electronics-computer-distribution",
+        "industry": "Technology / Electronics & Computer Distribution",
+        "whyStrong": [
+          {
+            "id": "ws1",
+            "statement": "업종 내 2팀 선정 종목 NSIT(Insight Enterprises)가 2026년 2분기(6월 마감) 실적에서 순매출 24억 달러(전년비 +15%, 컨센서스 21.7억 달러 상회), GAAP 희석 EPS 2.57달러(+76%), 조정 EPS 3.86달러(+44%, 컨센서스 2.93달러를 32% 상회)를 기록했고, 클라우드·AI 준비 인프라·보안 수요를 근거로 연간 조정 EPS 가이던스를 12.20~12.70달러로 상향했다. 경영진은 'AI 시대 선도 솔루션 통합사' 전환 전략이 효과를 내고 있다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Insight Q2 2026 slides: AI strategy drives 44% EPS growth, guidance raised",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/company-news/insight-q2-2026-slides-ai-strategy-drives-44-eps-growth-guidance-raised-93CH-4843670",
+                "date": "2026-08-06",
+                "quote": "조정 희석 EPS $3.86 (전년 대비 44% 증가)... GAAP 희석 EPS $2.57 (전년 대비 76% 증가)... 연간 조정 희석 EPS 가이던스 $12.20~$12.70",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "ws2",
+            "statement": "동일 업종의 대표 IT유통업체 TD Synnex도 2026 회계 1분기 총청구액(gross billings)이 258억 달러로 전년비 24% 급증하고 희석 EPS가 4.73달러(+69%)로 뛰었으며, 5대 미국 하이퍼스케일러 전원과 프로그램을 확보한 Hyve Solutions(제조·조립 부문) 매출이 연 70%대 중반 성장하는 등, 업종 전반이 하이퍼스케일러의 AI 인프라 발주 확대의 직접 수혜를 받고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "TD Synnex Q1 2026 slides: gross billings jump 24% on hyperscaler demand",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/company-news/td-synnex-q1-2026-slides-gross-billings-jump-24-on-hyperscaler-demand-93CH-4590861",
+                "date": "2026-03-31",
+                "quote": "Gross billings $25.8 billion (+24% YoY)... Hyve Solutions secured programs with each of the top five U.S. hyperscalers",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "ws3",
+            "statement": "반도체산업협회(SIA)는 2026년 세계 반도체 매출이 2025년 7,917억 달러(+25.6%)에 이어 약 1조 달러에 도달할 것으로 전망했으며, AI 가속기(GPU)·HBM 메모리·네트워킹·스토리지가 성장을 주도한다고 밝혔다. 이 AI 데이터센터용 HBM 수요 집중이 PC·노트북 등 범용 D램/낸드 공급을 잠식해(IDC: 2026년 D램·낸드 공급 증가율이 각각 예년보다 낮은 16%·17%에 그칠 전망) 부품 가격이 급등했고, 이는 IT유통업체들의 매출 달러가치를 밀어올리는 요인으로 작용하고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Semiconductor industry on track to hit $1 trillion in sales in 2026, SIA predicts — bumper forecast follows $791.7 billion haul for 2025",
+                "publisher": "Yahoo Finance (Tom's Hardware 원문 경유)",
+                "url": "https://finance.yahoo.com/news/semiconductor-industry-track-hit-1-175442595.html",
+                "date": "2026-02-07",
+                "quote": "emerging technologies like AI, IoT, 6G, autonomous driving, and others will continue to drive robust demand for chips",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Global Memory Shortage Crisis: Market Analysis and the Potential Impact on the Smartphone and PC Markets in 2026",
+                "publisher": "IDC Blog",
+                "url": "https://www.idc.com/resource-center/blog/global-memory-shortage-crisis-market-analysis-and-the-potential-impact-on-the-smartphone-and-pc-markets-in-2026/",
+                "date": "2025-12-18",
+                "quote": "every wafer allocated to an HBM stack for an Nvidia GPU is a wafer denied to the LPDDR5X module of a mid-range smartphone or the SSD of a consumer laptop",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "technology",
+        "durability": "cyclical",
+        "keyStocks": [
+          "NSIT (Insight Enterprises)",
+          "SNX (TD Synnex)",
+          "ARW (Arrow Electronics)",
+          "SCSC (ScanSource)"
+        ],
+        "risk": "1) PC 수요 자체가 취약: Gartner는 2026년 전체 PC 출하량이 전년대비 10.4% 감소할 것으로 전망하며, 최근 분기 성장은 'artificially inflated'(실수요가 아니라 메모리 가격 인상 전 벤더·유통업체의 재고 축적)라고 평가했다(자원 재활용 뉴스 자체 취재 아님, resource-recycling.com 2026-04-23 보도, Gartner 리서치 디렉터 Rishi Padhi 발언 인용). 2) Windows 10 지원 종료 특수가 소멸: Context사 애널리스트는 2026년에는 윈도우 교체 특수가 없어 리프레시 주기가 다시 다년 주기로 늦춰질 것으로 본다(Computer Weekly/Microscope 보도, WebSearch 스니펫 확인, 원문 직접 접근은 403으로 실패 — 재검증 필요). 3) 메모리 가격 급등이 PC 판가를 15~20% 끌어올려(WebSearch 스니펫, 원문 미확인) 최종 수요를 위축시킬 수 있고, 유통업체 매출 달러가치 증가는 부품 인플레이션에 따른 것이라 물량 기준 성장이 아닐 수 있다. 4) 하이퍼스케일러 AI 설비투자 둔화 시 TD Synnex 등 유통업체의 고성장 부문(Hyve/하이퍼스케일러 프로그램)이 가장 먼저 타격받는다."
+      },
+      {
+        "key": "tech-software-infrastructure",
+        "industry": "Technology / Software - Infrastructure",
+        "whyStrong": [
+          {
+            "id": "cybersecurity-ai-threat-budget-shift",
+            "statement": "AI발(發) 위협(생성형 AI 피싱 등)이 급증하고 기업들이 20여 개 개별 보안 솔루션을 3개 이하의 통합 플랫폼으로 재편하면서, CrowdStrike·Palo Alto Networks·Fortinet·Qualys가 일제히 어닝 서프라이즈를 기록. CrowdStrike는 2027 회계연도 1분기(2026-06-04 발표) ARR이 전년比 24% 증가한 55억 달러, Palo Alto Networks는 차세대보안 ARR이 33% 증가한 63억 달러를 기록했고, Qualys는 AI 기반 취약점탐지 신제품 'InstaScan' 공개 후 실적발표 다음날(2026-08-05) 주가가 15.8% 급등. 2026년 8월 Black Hat 컨퍼런스를 전후해 CRWD·PANW 주가가 신고가를 경신.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CrowdStrike, Palo Alto Networks defy estimates as AI fuels cyber demand",
+                "publisher": "Cybersecurity Dive",
+                "url": "https://www.cybersecuritydive.com/news/crowdstrike-palo-alto-networks-ai-cyber-demand/821999/",
+                "date": "2026-06-04",
+                "quote": "CrowdStrike 매출 13억9천만달러(전년比 26%↑), ARR 55억달러(24%↑); Palo Alto Networks 매출 30억달러(31%↑). CEO 조지 쿠르츠: 'AI는 사이버보안의 두 가지 차원을 직접 변화시켰다'",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Qualys (QLYS) Soars As Earnings Beat And AI Security Push Ignite Rally",
+                "publisher": "StocksToTrade",
+                "url": "https://stockstotrade.com/news/qualys-inc-qlys-news-2026_08_05/",
+                "date": "2026-08-05",
+                "quote": "실적 발표 다음날 QLYS 15.8% 상승. AI 기반 취약점탐지 'InstaScan' 출시로 주가 약 5%p 추가 상승. JPMorgan 목표가 $150로 상향, '사이버보안 지출 강세' 언급",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "palantir-ai-platform-surge",
+            "statement": "Palantir가 'AI 주권(AI sovereignty)' 수요를 등에 업고 2026년 2분기(2026-08-05 발표) 매출이 전년比 93% 급증(19.4억→19.35억달러 수준), 특히 미국 상업 부문이 149% 급증하며 연간 가이던스를 81.5억달러로 상향. 이는 업종 내 AI 소프트웨어 플랫폼 전반의 밸류에이션 리레이팅을 견인.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Palantir Q2 FY 2026 Earnings Surge on US Commercial AI Demand",
+                "publisher": "Futurum Group",
+                "url": "https://futurumgroup.com/insights/palantir-q2-fy-2026-earnings-surge-on-us-commercial-ai-demand/",
+                "date": "2026-08-05",
+                "quote": "총수익 19.4억달러(전년比 93%↑), 미국 상업부문 7.64억달러(149%↑). CEO 알렉스 카프: 'AI에 대한 수요가 본격화됐다.' 2026년 전체 매출 가이던스 81.5~81.6억달러로 상향",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "ai-storage-infra-demand",
+            "statement": "기업의 AI 도입 확산으로 데이터·스토리지 인프라 수요가 늘며 NetApp이 2026 회계연도 4분기(발표 기준)에 순매출 19.5억달러(전년比 12%↑)를 기록, AI 관련 거래를 분기 500건·연간 1,100건 이상 성사시켰고 올플래시 매출은 전년比 18% 증가한 12억달러를 달성.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "NetApp Inc (NTAP) Q4 2026 Earnings Call Highlights: Record Revenue and Strategic AI Expansion",
+                "publisher": "Yahoo Finance (GuruFocus 콘텐츠 신디케이션)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/netapp-inc-ntap-q4-2026-050141526.html",
+                "date": "2026",
+                "quote": "순매출 19.5억달러(전년比 12%↑), Q4 약 500건·연간 1,100건 이상의 AI 관련 거래 성사, 올플래시 매출 12억달러(18%↑). 경영진: '50개 가까운 파트너 AI 팩토리와 랩을 운영 중'",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "earnings",
+        "durability": "structural",
+        "keyStocks": [
+          "CRWD",
+          "PANW",
+          "PLTR",
+          "QLYS",
+          "NTAP",
+          "TWLO",
+          "OKTA",
+          "BAND"
+        ],
+        "risk": "밸류에이션이 이미 높게 형성된 상태(정보 기준 S&P 소프트웨어 섹터 선행 PER이 10년 평균을 상회한다는 지적 존재)에서, 실적이 컨센서스를 상회하고도 주가가 하락한 전례(2026년 6월 CrowdStrike·Palo Alto Networks 실적 발표 후 일시 하락)가 이미 나타났다는 점이 경계 신호. ① 대형 고객사의 AI 보안·AI 플랫폼 지출이 예상보다 둔화되거나(Palo Alto CEO도 '즉각적인 windfall은 기대하지 말라'고 언급), ② 연준이 금리 인하 기조를 되돌리는 등 매크로 환경이 바뀌어 고밸류 성장주 할인율이 높아지거나, ③ 다음 분기 실적에서 'beat-and-raise' 흐름이 한 번이라도 끊길 경우, 기대치 선반영(priced-in) 부담으로 급격한 되돌림이 나타날 수 있음."
+      },
+      {
+        "key": "basic_materials_gold",
+        "industry": "Basic Materials / Gold",
+        "whyStrong": [
+          {
+            "id": "jobs-miss-rate-cut-bets",
+            "statement": "2026년 7월 미국 고용지표가 대폭 미스(전월 대비 -23,000명, 시장 예상 +80,000명)로 발표되며 연준의 추가 금리인상 가능성이 크게 후퇴, 금 현물가가 8/7 장중 온스당 4,411.70달러(주간 +4.8%, 연초 대비 +27%)까지 치솟았다. 이 급등이 WRS 1개월치가 업종 상위 1.45%까지 튄 직접적 트리거로 보인다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Gold prices today, Friday, August 7, 2026: Gold prices continue to rise even after July jobs report misses",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-august-7-2026-gold-prices-continue-to-rise-even-after-july-jobs-report-misses-122102132.html",
+                "date": "2026-08-07",
+                "quote": "23,000 jobs were lost in July, a true miss from the 80,000 new jobs economists had expected.",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Bitcoin, Gold and Stocks Rally as Fed Rate Cut Hopes Rise",
+                "publisher": "CryptoTimes",
+                "url": "https://www.cryptotimes.io/2026/08/07/bitcoin-gold-and-stocks-rally-as-fed-rate-cut-hopes-rise/",
+                "date": "2026-08-07",
+                "quote": "Gold and U.S. stocks climbed after weak U.S. jobs data strengthened expectations of Federal Reserve rate cuts.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "central-bank-gold-buying",
+            "statement": "중국 인민은행이 2026년 4월 26만 온스(8.1톤)를 매입하며 18개월 연속 순매입을 이어가는 등, 각국 중앙은행이 2026년 1분기 기준 1년여 만에 가장 빠른 속도로 금을 사들이고 있다. 달러 자산 의존도를 낮추려는 외환보유고 다변화가 배경으로, 이는 업종 3개월·6개월 WRS의 부진(하위권)에도 불구하고 저변의 구조적 수요를 뒷받침하는 요인이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "China Adds Most Gold Since December 2024 as Central Banks Accelerate Buying",
+                "publisher": "Canadian Mining Report",
+                "url": "https://www.canadianminingreport.com/blog/china-adds-most-gold-since-december-2024-as-central-banks-accelerate-buying-bullish-signal-for-canadian-gold-mining-stocks-in-2026",
+                "date": "2026-05-07",
+                "quote": "Central banks added gold at the fastest pace in more than a year during the first quarter of 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Central banks' gold buying momentum carries into 2026",
+                "publisher": "MINING.COM",
+                "url": "https://www.mining.com/central-banks-gold-buying-momentum-carries-into-2026/",
+                "date": "2026",
+                "quote": "82% now hold physical gold, up from 71% a year earlier, with nearly a third planning further additions.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "dollar-weakness-geopolitics",
+            "statement": "우크라이나 전쟁, 중동 긴장, 주요국 간 마찰과 워싱턴발 정치 혼란이 안전자산 수요를 자극했고, 트럼프 행정부의 보호주의·관세 정책으로 달러 자산 자체가 각국 정부에 정치적 리스크로 인식되기 시작하면서 달러 약세와 금값 상승이 서로를 강화하는 흐름이 나타났다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why gold prices are smashing records so far in 2026",
+                "publisher": "Yahoo Finance UK",
+                "url": "https://uk.finance.yahoo.com/news/why-gold-prices-smashing-records-063000651.html",
+                "date": "2026-02-04",
+                "quote": "Central bank buying was a major factor behind gold's ascent, stemming from countries' intent to reduce exposure to US dollar assets... Trump's aggressive protectionist policies have begun making the US dollar itself seen as a political risk by foreign governments.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "augo-earnings-momentum",
+            "statement": "2팀이 선정한 AUGO(Aura Minerals)는 2026년 8월 8일까지 5거래일 만에 56.61달러에서 75.18달러로 급등했다. 금·구리 가격 전망 개선에 따른 심리 호전과 함께, 분기 순이익 약 2억1,770만 달러(희석 EPS 2.57달러), 매출 약 9억2,170만 달러, 영업이익 1억7,500만 달러의 실적 호조 및 '고품질 소재·광업 종목으로의 섹터 로테이션'이 급등 배경으로 지목됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Aura Minerals Inc. AUGO Stock Surges On Strong Momentum",
+                "publisher": "StocksToTrade",
+                "url": "https://stockstotrade.com/news/auramineralsinc-augo-news-2026_08_08/",
+                "date": "2026-08-08",
+                "quote": "a move from $56.61 to $75.18 in five sessions... earnings strength and sector rotation into higher-quality materials and mining names.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "macro",
+        "durability": "cyclical",
+        "keyStocks": [
+          "AUGO (Aura Minerals)",
+          "NEM (Newmont)",
+          "CDE (Coeur Mining)",
+          "AU (AngloGold Ashanti)",
+          "HL (Hecla Mining)",
+          "GDX (VanEck Gold Miners ETF, 벤치마크)"
+        ],
+        "risk": "1) 7월 고용쇼크가 일시적 이상치로 판명되고 후속 지표가 견조하게 나오면 연준 금리인상 우려가 되살아날 수 있다 — 골드만삭스는 이미 2026년 말 금 목표가를 5,400→4,900달러로 하향하며 \"단기적으로는 하방 리스크, 중기적으로는 상방 리스크\"라고 명시했고, 실제 금리인상 시 4,400달러까지 되밀릴 수 있다고 경고했다(출처: CoinMarketCap, 원출처 Bloomberg 2026-06-19 보도 인용). 2) 중앙은행 매입 속도 둔화나 달러 반등, 중동 지정학 긴장 완화 시 안전자산 프리미엄이 축소될 수 있다. 3) WRS 3개월(하위 86.23%)·6개월(하위 86.96%)이 여전히 부진하다는 점 자체가 이번 강세가 아직 '1개월짜리 스파이크'에 가깝다는 신호이며, 후속 확인 없이는 구조적 전환이 아닌 일시적 로테이션에 그칠 위험이 있다."
+      },
+      {
+        "key": "consumer_cyclical_furnishings_fixtures_appliances",
+        "industry": "Consumer Cyclical / Furnishings, Fixtures & Appliances",
+        "whyStrong": [
+          {
+            "id": "sharkninja_earnings",
+            "statement": "업종 시총 1위(약 261억 달러)인 SharkNinja가 2026년 2분기(13분기 연속 두 자릿수 성장)에 매출 22.2% 증가($17.7억)를 기록하며 어닝 서프라이즈를 냈고, 2026년 연간 매출 성장 가이던스를 16~17%로, 조정 EPS 가이던스를 $6.45~$6.55로 상향했다. 관세 환급액 약 $2.471억을 3분기에 수령할 예정이라는 점도 긍정적으로 작용했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SharkNinja, Inc. Q2 2026 Earnings Call Summary",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/sharkninja-inc-q2-2026-earnings-211657838.html",
+                "date": "2026-08",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "SharkNinja Q2 Adjusted Earnings, Net Sales Rise; 2026 Adjusted EPS Guidance Increased",
+                "publisher": "MarketScreener",
+                "url": "https://www.marketscreener.com/news/sharkninja-q2-adjusted-earnings-net-sales-rise-2026-adjusted-eps-guidance-increased-ce7f50dfd189f62d",
+                "date": "2026-08",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "mohawk_tariff_refund",
+            "statement": "업종 시총 3위 Mohawk Industries가 2026년 2분기 순매출 6.8% 증가($30억), 조정 EPS $3.67(전년 $2.77)을 기록했는데, 이 중 약 $0.63가 관세 환급(tariff reimbursement) 혜택이었다. 조정 영업이익률도 관세 환급과 생산성 개선 덕에 11.4%로 개선됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Mohawk Industries Reports Q2 2026 Results",
+                "publisher": "GlobeNewswire",
+                "url": "https://www.globenewswire.com/news-release/2026/07/30/3336450/0/en/mohawk-industries-reports-q2-2026-results.html",
+                "date": "2026-07-30",
+                "verified": "unverified",
+                "httpStatus": 0
+              },
+              {
+                "title": "Mohawk Industries (MHK) Stock Gets A Margin Lift From Tariff Refunds",
+                "publisher": "Simply Wall St News",
+                "url": "https://simplywall.st/stocks/us/consumer-durables/nyse-mhk/mohawk-industries/news/mohawk-industries-mhk-stock-gets-a-margin-lift-from-tariff-r",
+                "date": "2026-08",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "somnigroup_eps_beat_ma",
+            "statement": "업종 시총 2위 Somnigroup International(SGI, 매트리스펌·테슘퍼실리 통합법인)이 2026년 2분기 매출은 전년비 소폭 감소($18.2억)했음에도 순이익이 늘어 희석 EPS $0.52(전년 $0.47 대비 +10.6%)를 기록했고, Leggett & Platt를 약 $25억 규모 전액 주식 인수하기로 한 거래도 진행 중이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Somnigroup International Inc. Reports Second Quarter 2026 Results",
+                "publisher": "PR Newswire",
+                "url": "https://www.prnewswire.com/news-releases/somnigroup-international-inc-reports-second-quarter-2026-results-302844240.html",
+                "date": "2026-08",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "SOMNIGROUP INTERNATIONAL INC. 2026: Revenue $1.82B, EPS $0.52 — 10-Q Summary",
+                "publisher": "TradingView",
+                "url": "https://www.tradingview.com/news/tradingview:e88787ca579af:0-somnigroup-international-inc-2026-revenue-1-82b-eps-0-52-10-q-summary/",
+                "date": "2026-08",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "macro_rate_cut_note",
+            "statement": "근거 없음 — 금리인하 기대가 업종 강세를 이끈다는 서사를 찾아 확인했으나, 2026년 7월 29일 FOMC는 금리를 3.50~3.75%로 5회 연속 동결했고, 시장은 오히려 연말까지 1~2회 인상 가능성을 가격에 반영하는 쪽으로 이동한 것으로 확인됐다(CNBC). 즉 최근(7~8월) 업종 강세는 금리인하/주택시장 기대보다는 개별 종목 실적(관세환급 포함)에 의한 것으로 판단되며, 금리인하 서사는 이번 강세의 근거로 채택하지 않는다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Fed rate decision July 2026: Divided Fed holds interest rates steady",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html",
+                "date": "2026-07-29",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "earnings",
+        "durability": "cyclical",
+        "keyStocks": [
+          "SharkNinja (SN) — 업종 시총 1위, 실적 최대 동력",
+          "Somnigroup International (SGI) — 시총 2위, 매트리스펌+테슘퍼실리 통합",
+          "Mohawk Industries (MHK) — 시총 3위, 관세환급 마진 개선",
+          "Alliance Laundry Holdings (ALH)",
+          "HNI Corporation (HNI)",
+          "Hooker Furnishings (HOFT) / Purple Innovation (PRPL) 등 소형주"
+        ],
+        "risk": "1) Mohawk 스스로 3분기 가이던스에서 관세환급 혜택이 축소되고(3분기 예상 환급 기여 $0.12에 불과, 2분기 $0.63 대비 급감) 계절적 수요가 둔화될 것이라 경고함(GlobeNewswire, 2026-07-30). 2) 2026년 7월 FOMC가 금리를 5회 연속 동결했고 시장이 연말 인상 가능성을 반영하기 시작해, 주택 회전율·가구 교체수요를 밀어줄 금리인하 모멘텀이 약화됨(CNBC, 2026-07-29). 3) Somnigroup 매출이 전년 대비 감소한 데서 보듯 최종 수요(볼륨) 자체는 아직 약하며, EPS 개선은 비용·마진 관리에 의존하는 측면이 큼(PR Newswire, 2026-08). 이런 관세환급·마진 방어형 실적 서프라이즈가 소진되고 금리·주택거래가 개선되지 않으면 강세는 빠르게 꺾일 수 있음."
+      },
+      {
+        "key": "healthcare-diagnostics-research",
+        "industry": "Healthcare / Diagnostics &amp; Research",
+        "whyStrong": [
+          {
+            "id": "twst-earnings-beat",
+            "statement": "Twist Bioscience(TWST)가 2026년 8월 3일 발표한 FY2026 3분기 실적에서 매출 1억1,840만달러로 컨센서스(1억1,450만~1억1,454만달러)를 상회했고, 성장률 23% 이상을 기록. 이에 힘입어 FY2026 연간 매출 가이던스를 기존 4억4,200만~4억4,700만달러에서 4억5,600만~4억5,700만달러로 상향. AI 신약개발용 유전자 합성(Complex Genes 프로그램) 투자자 데이에서의 스토리도 긍정적으로 작용했고, 주가는 8월 5일 15.7% 급등.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Twist Bioscience Jumps as Raised 2026 Outlook Appears to Drive Buying",
+                "publisher": "QuiverQuant",
+                "url": "https://www.quiverquant.com/news/Twist+Bioscience+Jumps+as+Raised+2026+Outlook+Appears+to+Drive+Buying",
+                "date": "2026-08",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Twist Bioscience (TWST) Jumps As Revenue, Targets And Offering Reshape The Trade",
+                "publisher": "StocksToTrade",
+                "url": "https://stockstotrade.com/news/twist-bioscience-corporation-twst-news-2026_08_05/",
+                "date": "2026-08-05",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Twist Bioscience Corp (TWST) Shares Surge 15.7% -- What GF Score of 69 Tells Investors",
+                "publisher": "GuruFocus",
+                "url": "https://www.gurufocus.com/news/9008807/twist-bioscience-corp-twst-shares-surge-157-what-gf-score-of-69-tells-investors",
+                "date": "2026-08",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "wgs-genedx-earnings-beat",
+            "statement": "GeneDx Holdings(WGS)의 2026년 2분기 매출이 1억1,444만달러로 전년동기(1억269만달러) 대비 증가하며 Zacks 컨센서스를 4.32% 상회. 엑솜·게놈 검사 건수가 3만건 이상으로 전년대비 32% 증가했고, 회사는 2026년 연매출 가이던스(4억7,500만~4억9,000만달러)를 재확인. 실적 발표 후 주가는 9.7% 상승.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "GeneDx Holdings Corp. (WGS) Q2 Earnings and Revenues Surpass Estimates",
+                "publisher": "Yahoo Finance / Zacks",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/genedx-holdings-corp-wgs-q2-214506086.html",
+                "date": "2026-08",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "GeneDx Holdings (WGS) Is Up 9.7% After Beating Q2 Estimates And Reaffirming 2026 Outlook",
+                "publisher": "Simply Wall St News",
+                "url": "https://simplywall.st/stocks/us/healthcare/nasdaq-wgs/genedx-holdings/news/genedx-holdings-wgs-is-up-97-after-beating-q2-estimates-and",
+                "date": "2026-08",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "gh-shield-earnings-beat",
+            "statement": "Guardant Health(GH)의 2026년 2분기 매출이 3억3,500만달러로 전년대비 44% 급증, 대장암 스크리닝 제품 'Shield' 관련 스크리닝 매출이 5,300만달러로 확대. 회사는 2026년 매출 가이던스를 13.4억~13.6억달러로 상향했고, 실적 발표 후 정규장 5.87%, 시간외 추가 7.32% 급등. UnitedHealth의 보장 개시 발표도 앞서 주가 상승을 견인.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Guardant Health Q2 2026 slides: 44% revenue surge on Shield momentum",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/company-news/guardant-health-q2-2026-slides-44-revenue-surge-on-shield-momentum-93CH-4826433",
+                "date": "2026-08",
+                "verified": "unverified",
+                "httpStatus": 403
+              },
+              {
+                "title": "Guardant Health (GH) Sees Share Price Surge Following UnitedHealth Coverage Announcement",
+                "publisher": "GuruFocus",
+                "url": "https://www.gurufocus.com/news/8941296/guardant-health-gh-sees-share-price-surge-following-unitedhealth-coverage-announcement",
+                "date": "2026",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "mced-medicare-legislation",
+            "statement": "2026년 2월 3일 'Nancy Gardner Sewell Medicare Multi-Cancer Early Detection Screening Coverage Act'가 초당적 예산 패키지의 일부로 법제화되어, FDA 승인을 받은 다중암 조기진단(MCED) 검사에 대해 2028년부터 메디케어 보장·수가 지급이 가능해지는 법적 경로가 마련됨. 다만 실제 보장 개시는 2028년으로, 단기 실적보다는 구조적 정책 모멘텀에 해당하며 CMS의 적절성 판단이 전제조건.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Long Awaited Legislation on Multi Cancer Early Detection Tests for Medicare Beneficiaries Becomes Law",
+                "publisher": "AZBio",
+                "url": "https://www.azbio.org/long-awaited-legislation-on-multi-cancer-early-detection-tests-for-medicare-beneficiaries-becomes-law",
+                "date": "2026-02",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Multi-cancer early detection tests aren't ready for Medicare coverage",
+                "publisher": "STAT News",
+                "url": "https://www.statnews.com/2026/01/28/multi-cancer-early-detection-tests-medicare-coverage/",
+                "date": "2026-01-28",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "genomics-sector-secular-growth-ai",
+            "statement": "동일 진단·유전체 섹터 내 10x Genomics(TXG)도 2026년 2분기 매출 1억5,104만달러로 컨센서스(1억4,664만달러) 상회 및 AI·바이오파마 수요 확대를 이유로 Stifel·Citi·Morgan Stanley 등이 목표주가를 상향(예: Stifel $25→$50 Buy). 애널리스트들은 멀티오믹스 시장 연 12% 성장을 배경으로 섹터 전반의 실적 모멘텀을 긍정적으로 평가하고 있어, 개별 종목 서프라이즈를 넘어 섹터 차원의 수요 확대가 뒷받침되고 있음을 시사.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "10x Genomics Stock Jumps As Analysts Hike Price Targets",
+                "publisher": "Timothy Sykes",
+                "url": "https://www.timothysykes.com/news/10xgenomicsinc-txg-news-2026_08_09/",
+                "date": "2026-08-09",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Canaccord raises 10X Genomics stock price target on AI, biopharma growth",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/analyst-ratings/canaccord-raises-10x-genomics-stock-price-target-on-ai-biopharma-growth-93CH-4848295",
+                "date": "2026-08",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          }
+        ],
+        "driver": "earnings",
+        "durability": "cyclical",
+        "keyStocks": [
+          "TWST (Twist Bioscience)",
+          "WGS (GeneDx Holdings)",
+          "GH (Guardant Health)",
+          "TXG (10x Genomics, 섹터 참고종목)",
+          "EXAS (Exact Sciences, MCED 정책 수혜 참고종목)"
+        ],
+        "risk": "3개월 WRS 상위 1.45%로 나타난 강세는 2026년 8월 초(TWST 8/5, WGS/GH 8월 초, TXG 8/9) 집중적으로 발표된 '실적 서프라이즈+가이던스 상향' 이벤트에 크게 의존하고 있어 실적 시즌이 지나면 모멘텀이 둔화될 수 있는 순환적(이벤트 드리븐) 성격이 강함. 리스크 요인: (1) TWST의 자본조달(오퍼링)에 따른 희석 우려, (2) GH의 순손실 확대(전년 약 1억달러→약 1.2억달러)와 연간 1.95억~2.05억달러 현금소진 가이던스로 손익분기점 도달(2027년 목표)까지 실행 리스크 존재, (3) MCED 메디케어 보장은 법적 경로만 마련됐을 뿐 실제 보장 개시는 2028년이며 CMS 적절성 판단이 전제조건이라 단기 촉매로 보기 어려움, (4) 다음 분기 실적이 이번처럼 컨센서스를 상회하지 못하거나 가이던스가 시장 기대에 못 미칠 경우 급등분 반납 가능성."
+      }
+    ],
+    "summary": {
+      "command": "{}",
+      "rotationView": "지금 시장은 \"AI 하드웨어 → AI 소프트웨어/보안 + 실물자산·실적주\"로 자금이 옮겨가는 국면이다. 6개월 기준 최상위였던 Computer Hardware(0.72%)와 Electronics & Computer Distribution(1.45%)은 Dell의 AI 수주·백로그 사상 최대(FY26 AI 수주 641억달러, 백로그 430억달러), TD Synnex 총청구액 +24% 같은 펀더멘털이 여전히 좋음에도 1개월 순위가 각각 86.23%, 30.43%로 밀렸다. 즉 실적은 살아있으나 가격이 뉴스를 선반영해 자금이 먼저 빠져나가고 있다. 반대로 Software - Infrastructure는 1개월 0.72%로 전 업종 최상위에 올라서며 하드웨어에서 이탈한 AI 자금을 받아냈고(CrowdStrike ARR +24%, Palantir 매출 +93%, Qualys 8/5 +15.8%), 유일하게 1·3·6개월 모두 상위권을 유지하는 업종이다. 동시에 7월 미국 고용 -23,000명 쇼크로 금리 경로가 뒤집히자 Gold가 6개월 하위권(86.96%)에서 1개월 1.45%로 튀어오르며 매크로 헤지 수요가 신규 유입됐고, Furnishings와 Diagnostics는 개별 실적 서프라이즈(SharkNinja +22.2%, Guardant +44%, Twist 가이던스 상향)로 자금을 끌어당겼다. 요약하면 AI 인프라의 \"쇠(iron)\"에서 \"소프트웨어\"로, 그리고 매크로 완화 기대에 올라탄 금·실적 서프라이즈 업종으로의 이중 로테이션이다.",
+      "strongest": {
+        "industry": "Technology / Software - Infrastructure",
+        "why": "유일하게 1개월(상위 0.72%)·3개월(6.52%)·6개월(5.07%) 전 기간 상위권을 유지하면서 1개월 순위가 가장 좋은 업종이다. 다른 업종이 한두 기간만 강한 것과 달리 추세의 연속성과 최신 가속이 동시에 확인된다. 드라이버도 earnings이면서 durability가 유일하게 structural로, 20여 개 보안 솔루션을 3개 이하 플랫폼으로 통합하는 기업 지출 재편과 AI 주권 수요가 배경이다. CrowdStrike ARR 55억달러(+24%), Palo Alto 차세대보안 ARR 63억달러(+33%), Palantir 2분기 매출 +93%(미국 상업 +149%), NetApp AI 거래 연 1,100건 등 개별 종목이 아니라 업종 전반에서 어닝 서프라이즈가 확인되며, 8월 Black Hat 전후로 CRWD·PANW가 신고가를 경신했다."
+      },
+      "emerging": [
+        "Basic Materials / Gold — 6개월 WRS -0.0711(하위 86.96%)에서 1개월 +0.2425(상위 1.45%)로 가장 극적인 반전. 7월 고용지표 미스(-23,000명, 예상 +80,000명)로 금 현물이 8/7 장중 온스당 4,411.70달러(주간 +4.8%, 연초 대비 +27%)까지 급등한 것이 직접 트리거. 중국 인민은행 18개월 연속 순매입 등 중앙은행 수요가 저변을 받친다.",
+        "Consumer Cyclical / Furnishings, Fixtures & Appliances — 6개월 0.1303(28.26%)에서 3개월 0.4767(상위 0.72%), 1개월 0.1438(7.97%)로 최근 3개월 구간에 자금이 집중 유입. SharkNinja 2분기 매출 +22.2%로 13분기 연속 두 자릿수 성장 및 가이던스 상향, Mohawk 조정 EPS $3.67이 견인.",
+        "Technology / Software - Infrastructure — 절대 WRS는 6개월(0.385)이 1개월(0.2475)보다 높지만 순위상으로는 1개월 0.72%로 6개월 5.07%보다 올라섰다. 강세가 식지 않고 오히려 상대 우위가 확대되는 유형의 신규 유입."
+      ],
+      "fading": [
+        "Technology / Computer Hardware — 6개월 WRS 1.2802로 전 업종 최상위(0.72%)였으나 1개월 -0.0402로 마이너스 전환, 순위도 86.23%까지 추락. AI 서버 수주·백로그는 사상 최대이고 Windows 10 지원 종료發 PC 교체 수요도 이어지지만, 6개월간 +128%를 낸 뒤 가격이 호재를 소진한 전형적 되돌림 구간이다. 실적 훼손이 아닌 수급 이탈로 읽어야 한다.",
+        "Technology / Electronics & Computer Distribution — 6개월 WRS 0.5331(상위 1.45%)에서 1개월 0.0615(30.43%)로 둔화. Insight Enterprises 조정 EPS 컨센서스 32% 상회, TD Synnex 총청구액 +24% 등 펀더멘털은 견조하나 상대강도 순위가 계단식으로 내려오는 중(1.45% → 21.74% → 30.43%).",
+        "Healthcare / Diagnostics & Research — 완전한 fading은 아니나 3개월 상위 1.45%에서 1개월 15.22%로 한 단계 후퇴하며 모멘텀이 둔화. Guardant +44%, GeneDx +32%, Twist 가이던스 상향 등 실적은 살아있어 이탈보다는 숨고르기로 보이며, MCED 메디케어 보장은 2028년 시행이라 단기 동력은 아니다."
+      ],
+      "caution": "Gold의 1개월 급등은 단일 고용지표 하나에 걸린 매크로 베팅이다. 3개월(-0.0452, 86.23%)·6개월(-0.0711, 86.96%) 모두 하위권이라 추세가 검증되지 않았고, driver가 macro·durability가 cyclical이므로 다음 지표가 반대로 나오면 되돌림도 그만큼 빠르다. Computer Hardware는 정반대 함정으로, 뉴스 흐름이 가장 화려한 순간에 1개월 WRS가 마이너스라는 점에서 \"좋은 소식 = 매수\"가 통하지 않는 구간이다. Furnishings의 실적 개선분 중 일부는 일회성 관세 환급(SharkNinja 약 2.471억달러 3분기 수령 예정, Mohawk EPS 중 약 $0.63)이므로 지속 이익력과 구분해야 한다. 아울러 제출된 자료 스스로가 밝히듯 7월 29일 FOMC는 3.50~3.75%로 5회 연속 동결했고 시장은 오히려 연말 1~2회 인상을 반영 중이므로, \"금리인하 기대\"를 소비순환·금 강세의 근거로 삼아서는 안 된다. 이번 판단은 제시된 6개 업종 데이터 범위 내에서만 유효하다."
+    },
+    "reusedFrom": null
   },
   "flow": {
     "baseline": {

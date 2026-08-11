@@ -480,8 +480,135 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-08-11",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "엔비디아, 5000억 달러 규모 자금조달 라인업 — 젠슨 황 \"우리 칩은 투자 자산\"",
+        "easy": "엔비디아가 AI 칩을 더 많이 만들기 위해 무려 5000억 달러(약 700조 원)의 돈줄을 미리 마련하고 있다는 소식입니다. 젠슨 황 CEO는 자사 칩이 이제 단순한 부품이 아니라 '금이나 부동산처럼 사두면 값이 오르는 투자 자산'이라고 말했습니다. 쉽게 말해 학교 앞 인기 떡볶이집이 은행에서 큰돈을 빌려 지점을 왕창 늘리겠다고 선언한 것과 비슷합니다. 손님이 계속 몰릴 거라 확신하니 빚을 내서라도 설비를 키우는 것이죠. 다만 손님이 줄면 그 빚이 그대로 부담으로 돌아온다는 점도 같이 봐야 합니다.",
+        "whyMatters": "제 종목 바구니의 44%가 Technology 섹터(22종목)라, 이 뉴스는 사실상 포트폴리오 심장부에 직접 꽂히는 재료입니다. 엔비디아가 자금을 조달해 설비를 키우면 반도체 장비·전력·데이터센터 관련 종목까지 수요가 흘러가 주도 섹터의 상승 명분이 유지됩니다. 반대로 '빚으로 만든 성장'이라는 인식이 퍼지는 순간 AI 관련주 전체가 한꺼번에 흔들릴 수 있어, 기술주 비중이 높은 지금은 개별 종목 손절선을 미리 정해둬야 합니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are 'investable asset'",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
+            "date": "2026-08-10",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "트럼프, 이란에 경제 압박 전환 신호 — 호르무즈 해협 놓고 대치 격화",
+        "easy": "이란이 호르무즈 해협에 대해 강경한 태도를 굽히지 않자, 트럼프 대통령이 군사 대응 대신 경제 압박 쪽으로 방향을 트는 신호를 보냈습니다. 호르무즈 해협은 전 세계 원유의 상당량이 지나가는 아주 좁은 바닷길입니다. 학교 정문이 딱 하나뿐인데 그 앞에서 시위가 벌어지면 모든 학생의 등교가 밀리는 것과 같습니다. 이 길이 막히거나 막힐 것 같다는 말만 나와도 기름값이 뛰고, 기름값이 뛰면 물가가 오르고, 물가가 오르면 금리를 내리기 어려워집니다. 그래서 주식시장은 중동 뉴스에 예민하게 반응합니다.",
+        "whyMatters": "지금 QQQ는 골든크로스 직후(D+0), 즉 10일선이 20일선을 갓 뚫은 아주 예민한 자리입니다. 이런 초기 국면에서 유가 급등 같은 외부 충격이 오면 갓 만들어진 상승 흐름이 쉽게 무너집니다. 성장주(기술·헬스케어) 비중이 큰 제 포트폴리오는 유가·금리에 특히 약하므로, 오늘 신규 진입을 서두르기보다 통계적 최적 구간인 D+3~15까지 관찰하는 편이 안전합니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Trump signals shift to economic pressure as Iran hardens stance over Strait of Hormuz",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/10/us-iran-war-trump-hormuz-oman-ships-blockade-shipping.html",
+            "date": "2026-08-10",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "트럼프 \"워시 연준 의장과 최근 통화\" — 정기 통화 의혹은 부인",
+        "easy": "트럼프 대통령이 케빈 워시 연준 의장(연준 = 미국의 중앙은행, 금리를 정하는 곳)과 최근 통화했다고 밝히면서, 다만 수시로 전화하는 사이는 아니라고 선을 그었습니다. 연준은 원래 정치와 거리를 둬야 하는 심판 같은 존재입니다. 축구 경기에서 한쪽 팀 감독이 심판과 자주 통화한다는 소문이 돌면, 판정을 그대로 믿기 어려워지는 것과 같습니다. 그래서 시장은 '금리가 경제 상황이 아니라 정치 논리로 정해지는 것 아니냐'를 걱정합니다. 이런 의심이 커지면 장기 금리와 달러가 흔들립니다.",
+        "whyMatters": "연준 독립성 논란은 당장 주가를 크게 움직이진 않지만, 금리 방향에 대한 시장의 신뢰를 갉아먹으며 변동성을 키웁니다. 금리 기대에 민감한 성장주(제 포트폴리오의 기술 44% + 헬스케어 20%)는 이런 불확실성에서 하루 등락 폭이 커집니다. 매수 단위를 평소보다 잘게 쪼개고, 뉴스 하나에 포지션 전체가 흔들리지 않게 분할 진입하는 게 실질적인 대응입니다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Trump says he spoke recently to Fed Chairman Warsh, denies regular calls",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/10/trump-spoke-to-fed-chair-kevin-warsh-denies-regular-calls.html",
+            "date": "2026-08-10",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "애플, '올글래스 아이폰' 없으면 주가 부진할 수 있다 — 애널리스트 경고",
+        "easy": "한 애널리스트가 애플이 화면 전체가 유리로 된 새로운 아이폰 같은 확실한 신제품을 내놓지 못하면 주가가 시장 평균보다 못할 수 있다고 경고했습니다. 애플은 이미 세계에서 가장 큰 회사 중 하나라, 지금 수준을 유지하는 것만으로는 주가가 오르기 어렵습니다. 반에서 이미 1등인 학생은 평균 점수를 유지해도 칭찬받지 못하고, 만점을 받아야 인정받는 것과 비슷합니다. 즉 '잘하고 있다'가 아니라 '새로운 걸 보여줬다'가 필요한 상황입니다.",
+        "whyMatters": "애플은 나스닥·QQQ에서 비중이 큰 종목이라, 애플이 뒤처지면 제가 보고 있는 QQQ 흐름 자체가 무거워집니다. 다만 이건 AI 반도체·소프트웨어 쪽으로 자금이 더 쏠린다는 뜻이기도 해서, 같은 Technology 안에서도 '오래된 대장주'와 'AI 성장주'의 성적이 갈릴 수 있습니다. 기술주라고 다 같이 사는 게 아니라, 실제로 신고가 근처에서 강한 종목만 골라 담아야 하는 국면입니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Apple's stock could underperform, especially without an 'all-glass' iPhone, this analyst warns",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/apples-stock-could-underperform-especially-without-an-all-glass-iphone-this-analyst-warns-fc9a750c?mod=mw_rss_topstories",
+            "date": "2026-08-10",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "아처, 보잉과 손잡고 AI 항공 전환 시도",
+        "easy": "전기 비행택시를 만드는 아처(Archer)가 세계적인 항공기 제조사 보잉과 손을 잡았습니다. 작은 신생 기업이 업계 최고 선배와 짝을 이룬 셈이라, 기술이 진짜인지 의심받던 회사가 단숨에 신뢰를 얻게 됩니다. 동네 발명 동아리가 갑자기 대기업 연구소와 공동 프로젝트를 하게 된 것과 비슷합니다. 이런 대형 파트너십 발표는 주가가 하루 만에 크게 뛰는 '촉매(주가를 급등시키는 계기가 되는 뉴스)'가 되는 경우가 많습니다.",
+        "whyMatters": "제 포트폴리오의 Industrials 5종목(10%)과 연결되는 테마로, AI가 반도체를 넘어 항공·제조 같은 실물 산업으로 번지고 있다는 신호입니다. 브레이크아웃 관점에서는 이런 대형 계약 뉴스가 나온 날의 거래량과 갭 상승 여부가 핵심 관찰 포인트입니다. 다만 이런 종목은 뉴스 하나로 급등한 뒤 되돌림도 크므로, 추격 매수보다 눌림 후 재돌파를 기다리는 게 낫습니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Archer strikes deal with Boeing in latest bid to transform aviation through AI",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/archer-strikes-deal-with-boeing-in-latest-bid-to-transform-aviation-through-ai-dac15322?mod=mw_rss_topstories",
+            "date": "2026-08-10",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "오픈AI, AI 에이전트 위협 대응 위해 사이버보안 '데이브레이크' 확대",
+        "easy": "오픈AI가 AI 스스로 움직이는 프로그램(AI 에이전트)이 만들어내는 새로운 해킹 위협에 대응하려고 보안 프로젝트를 확대했습니다. AI가 똑똑해질수록 나쁜 사람이 쓰는 AI도 똑똑해지기 때문입니다. 자물쇠가 좋아지면 도둑도 더 좋은 도구를 들고 오는 것과 같아서, 결국 자물쇠 회사가 계속 돈을 버는 구조가 됩니다. 그래서 AI가 커질수록 보안 분야 지출도 같이 늘어납니다.",
+        "whyMatters": "AI 확산이 반도체뿐 아니라 사이버보안 소프트웨어 수요까지 끌어올린다는 뜻으로, Technology 섹터 안에서 상승의 폭이 넓어질 가능성을 보여줍니다. 제 종목 중 소프트웨어·보안 성격이 있다면 이번 뉴스는 실적 기대를 지지하는 배경이 됩니다. 다만 개별 종목 계약 발표 같은 즉각적 촉매는 아니므로, 매수 근거라기보다 '섹터를 계속 들고 갈 이유' 정도로 취급하는 게 맞습니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "OpenAI expands Daybreak cybersecurity initiative as AI agent threats evolve",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/10/open-ai-daybreak-cybersecurity.html",
+            "date": "2026-08-10",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "오늘 시장은 '엔진은 다시 켜졌는데 연료통에 빚이 가득한' 상태입니다. QQQ는 종가 720.87로 MA10 700.85가 MA20 700.8을 위로 뚫은 골든크로스 당일(D+0)이라, 방향은 위를 보기 시작했지만 아직 확인이 필요한 자리입니다(MA50은 714.27). 쿨라매기 관점에서 통계적 최적 진입은 약 1주 뒤인 D+3~15 구간이므로 오늘은 사는 날이 아니라 보는 날입니다. 문제는 FINRA 고객 마진부채가 YoY +49.0%로 과열 경고선인 +40%를 넘겼다는 점인데, 이는 사람들이 빚을 내서 주식을 사고 있다는 뜻이고 역사적으로 시장이 뜨거워진 국면에서 나타나는 신호입니다. 뉴스 쪽에서는 엔비디아의 5000억 달러 자금조달과 오픈AI 보안 확대처럼 AI 성장 스토리를 밀어주는 재료와, 호르무즈 해협을 둘러싼 미국·이란 대치와 연준 독립성 논란처럼 언제든 찬물을 끼얹을 재료가 같이 놓여 있습니다. 주도 섹터는 Technology 22종목(44%)이 압도적이고 Healthcare 10종목(20%)이 뒤를 받치는 전형적인 성장주 주도 장세이며, 200일선 +150%를 넘긴 극단적 과열 종목은 0개라 개별 종목 단에서의 광기는 아직 제한적입니다.",
+    "keyRisks": [
+      "마진부채 YoY +49.0% — 과열 경고선 +40%를 넘긴 레버리지(빚투) 과열. 조정이 오면 빚 상환을 위한 강제 매도가 겹쳐 하락 폭이 평소보다 커질 수 있음",
+      "QQQ 골든크로스 D+0 — 아직 확인되지 않은 초기 신호. 지금 진입하면 하루 이틀 만에 되돌려지는 속임수 돌파 위험이 있어 D+3~15까지 관찰 권장",
+      "호르무즈 해협 미국·이란 긴장 — 유가 급등 시 물가·금리 부담이 커지고, 금리에 민감한 성장주 비중 64%(기술 44% + 헬스케어 20%) 포트폴리오가 직격탄",
+      "Technology 44% 편중 — 엔비디아·AI 스토리 하나가 흔들리면 포트폴리오 절반이 동시에 흔들리는 집중 위험",
+      "연준 독립성 논란(트럼프-워시 통화) — 금리 경로에 대한 시장 신뢰 약화로 일중 변동성 확대 가능",
+      "애플 부진 경고 — 지수 내 비중이 큰 대형주가 밀리면 QQQ의 상승 탄력 자체가 무거워질 수 있음"
+    ],
+    "easySummary": [
+      "QQQ가 오늘 막 상승 신호(골든크로스, 10일 평균선이 20일 평균선을 위로 뚫는 것)를 냈지만 딱 첫날(D+0)이라 지금은 사는 날이 아니라 지켜보는 날입니다. 통계적으로는 약 1주 뒤(D+3~15)가 진입 타이밍입니다.",
+      "사람들이 빚을 내서 주식을 사는 규모(마진부채)가 1년 전보다 49.0% 늘었습니다. 경고선인 40%를 넘긴 과열 상태라, 오르는 장이어도 한 번 꺾이면 낙폭이 커질 수 있습니다.",
+      "뉴스는 엔비디아의 5000억 달러 AI 투자처럼 좋은 재료와, 호르무즈 해협 긴장·연준 독립성 논란처럼 나쁜 재료가 반반입니다. 기술주 비중이 44%인 만큼 한 번에 몰아 사지 말고 나눠서 접근하세요."
+    ],
+    "candidateCount": 6,
+    "verified": {
+      "checked": 117,
+      "ok": 106,
+      "unverified": 42,
+      "dead": 1,
+      "stripped": 0,
+      "removed": [
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.ebc.com/forex/cybersecurity-stocks-nasdaqs-ai-rally-no-one-saw-coming"
+        }
+      ]
+    },
+    "reusedFrom": null
   }
 };
