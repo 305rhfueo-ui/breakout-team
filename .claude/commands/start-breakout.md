@@ -54,11 +54,23 @@ Workflow({ scriptPath: '<REPO>/scripts/workflows/team5-sector.js',   args: {...}
 
 ### 3. 실장 종합
 
-위 결과를 모아 `chief-report.js` 를 실행한다.
+먼저 실장 인자를 **오늘 날짜로 새로 조립한다.** 5팀 결과 파일 경로를 넘긴다.
+
+```bash
+node scripts/prepare-chief-args.js --team5=<5팀 워크플로 출력파일>
+```
+
+이게 세 가지를 합쳐 `state/llm-in/_chiefargs.json` 을 만든다 —
+`_args.json` 의 팀 요약, `chief.js` 의 `flowCross`(자금 유입 업종 × 그 안의 실제 종목),
+그리고 5팀이 조사한 강세 근거.
+⚠️ **이 단계를 건너뛰면 지난 실행분 인자가 그대로 남아 실장이 옛날 섹터 판정을 보고한다** (2026-08-11 실제 발생).
+
+그 다음 실장을 띄운다. 인자가 20KB 를 넘으므로 **파일 경로로 넘긴다** —
+객체로 인라인하면 프롬프트에서 `flowCross` 가 잘려 "돈이 몰리는 섹터의 강세 종목"이 사라진다.
 
 ```
 Workflow({ scriptPath: '<REPO>/scripts/workflows/chief-report.js',
-           args: { date, teams: { team1, team2, team3, team4, team5, chartCheck } } })
+           args: { date, argsFile: '<REPO>/state/llm-in/_chiefargs.json' } })
 ```
 
 ### 4. 검증 + 병합
