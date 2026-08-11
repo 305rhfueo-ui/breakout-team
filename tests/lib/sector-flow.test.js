@@ -78,13 +78,24 @@ ok('AFRM형 — 초입이나 기대 하향 → 근거 약함',
     console.log(`     → 비교 ${both.length}개 중 F10d 부호 뒤집힘 ${flipped.length}개 (${(flipped.length / both.length * 100).toFixed(0)}%)`);
   });
   ok('종목 수가 적을수록 사이트 왜곡이 크다', () => {
+    // ⚠️ 반드시 중앙값으로 본다. 평균은 못 쓴다.
+    //    f10 은 나누는 값(과거 Final_WRS)이 0 근처면 폭발한다. 2026-08-11 실측에서
+    //    Software-Application 하나가 gap 2704%p 라 count≥30 표본 7개의 평균을 혼자 411 로 끌어올렸고
+    //    (중앙값은 26) 소형 89개 평균 198(중앙값 35.5)을 역전시켜 테스트가 거짓 실패했다.
+    //    "% 크기가 아니라 순위로 읽는다"는 이 시스템의 원칙을 테스트에도 적용한다.
     const s = flow.filter((x) => Number.isFinite(x.f10) && Number.isFinite(x.siteF10) && x.count >= 2)
       .map((x) => ({ c: x.count, gap: Math.abs(x.f10 - x.siteF10) }));
     const small = s.filter((x) => x.c <= 10), big = s.filter((x) => x.c >= 30);
+    const med = (a) => {
+      const v = a.map((x) => x.gap).sort((p, q) => p - q);
+      return v.length % 2 ? v[(v.length - 1) / 2] : (v[v.length / 2 - 1] + v[v.length / 2]) / 2;
+    };
     const avg = (a) => a.reduce((p, q) => p + q.gap, 0) / (a.length || 1);
     assert.ok(small.length && big.length, '표본 부족');
-    assert.ok(avg(small) > avg(big), `소형 ${avg(small).toFixed(1)} vs 대형 ${avg(big).toFixed(1)}`);
-    console.log(`     → 평균 왜곡: 10종목 이하 ${avg(small).toFixed(1)}%p · 30종목 이상 ${avg(big).toFixed(1)}%p`);
+    assert.ok(med(small) > med(big), `소형 중앙값 ${med(small).toFixed(1)} vs 대형 중앙값 ${med(big).toFixed(1)}`);
+    console.log(`     → 왜곡 중앙값: 10종목 이하 ${med(small).toFixed(1)}%p (n=${small.length}) `
+      + `· 30종목 이상 ${med(big).toFixed(1)}%p (n=${big.length})`);
+    console.log(`        참고 평균 ${avg(small).toFixed(0)} / ${avg(big).toFixed(0)} — 분모 0 근처 업종 때문에 평균은 무의미`);
   });
   ok('200DIV 변화량이 산출된다 (스냅샷 v2 스키마 확인)', () => {
     const withDelta = flow.filter((x) => Number.isFinite(x.d200Delta));
