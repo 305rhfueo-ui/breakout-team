@@ -31,7 +31,17 @@ const NEWS = { type: 'object', properties: {
 }, required: ['digest', 'marketNarrative', 'keyRisks', 'easySummary'] }
 
 phase('시황뉴스')
-const result = await agent(
+// 에이전트가 죽으면 1회만 다시 시도한다.
+// ⚠️ 이 워크플로는 에이전트가 하나뿐이라 실패하면 `{...null}` 이 되어 필드가 통째로 사라진다.
+//    JS 에서 {...null} 은 합법이라 오류도 안 난다 — 빈 리포트가 조용히 나간다. 아래에서 막는다.
+const tryAgent = async (p, o) => {
+  const r = await agent(p, o)
+  if (r) return r
+  log(`재시도: ${o.label}`)
+  return await agent(p, { ...o, label: `${o.label}#2` })
+}
+
+const result = await tryAgent(
   `당신은 개인 투자자에게 시장을 아주 쉽게 설명하는 매크로 분석가입니다. 오늘은 ${date}.
 
 ## Node 가 이미 계산한 수치 (⚠️ 이 숫자를 절대 바꾸지 마라. 해석만 하라)
@@ -58,5 +68,10 @@ ${candidates.map((c, i) => `[${i + 1}] ${c.date || ''} [${c.publisher}] ${c.titl
 한글로 작성하세요.`,
   { label: '시황뉴스', phase: '시황뉴스', schema: NEWS, model: 'opus' }
 )
+
+if (!result) {
+  log('❌ 시황뉴스 에이전트가 재시도 후에도 실패했습니다 — 빈 리포트 대신 실패를 명시합니다')
+  return { date, team: 1, error: 'agent_failed', digest: [], candidateCount: candidates.length }
+}
 
 return { date, team: 1, ...result, candidateCount: candidates.length }

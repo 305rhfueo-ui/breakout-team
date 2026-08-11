@@ -10,6 +10,7 @@ const path = require('path');
 const fs = require('fs');
 const { paths, loadEnv, today, readJson, writeJson, writeWindowData, say, coverageOf } = require('./lib/util');
 const { verifyPayload } = require('./lib/verify-claims');
+const { loadCache, saveCache, recordResearched } = require('./lib/research-rotation');
 
 function loadWindowData(file, varName) {
   try {
@@ -61,6 +62,8 @@ async function main() {
 
   // ── 2) 팀별 데이터에 병합 ──
   const merged = [];
+  // 로테이션 캐시 — 오늘 실제로 조사한 티커를 기록해야 내일 다른 종목이 뽑힌다.
+  const rc = loadCache();
 
   if (payload.team1) {
     const f = path.join(paths.dashboardData, 'team1.js');
@@ -77,29 +80,35 @@ async function main() {
     const d = loadWindowData(f, 'TEAM2_DATA');
     if (d) {
       const byTicker = new Map((payload.team2.researched || []).map((x) => [x.ticker, x]));
-      let done = 0;
+      // ⚠️ 조사를 "시도했다가 실패한 것"과 "상한 밖이라 아예 안 한 것"은 다르다.
+      //    예전엔 둘 다 '상한 초과'로 표시돼 에이전트 오류가 숨겨졌다 (2026-08-11 BMRN).
+      const failedSet = new Set(payload.team2.failed || []);
+      let done = 0, failedCount = 0;
       for (const p of d.picks || []) {
         const r = byTicker.get(p.ticker);
         if (r) {
           const sourced = (r.whyRose || []).filter((c) => c.evidence_level === 'sourced').length;
           p.research = { status: sourced ? 'done' : 'no_source', ...r };
           done++;
+        } else if (failedSet.has(p.ticker)) {
+          p.research = { status: 'failed', note: 'LLM 리서치 실패 (에이전트 오류) — 다음 실행에서 우선 재시도합니다' };
+          failedCount++;
         } else {
-          p.research = { status: 'pending', note: `LLM 리서치 대기 (상한 ${payload.team2.coverage ? payload.team2.coverage.cap : '?'} 초과)` };
+          p.research = { status: 'pending', note: '아직 조사하지 않았습니다 (순환 조사 대기)' };
         }
       }
+      recordResearched(rc, 'team2', [...byTicker.keys()], dateStr);
       d.themes = { ...(d.themes || {}), llm: payload.team2.theme, reusedFrom: reuse.team2 || null };
       // ⚠️ total 은 반드시 "전체 선정 종목 수"여야 한다.
       //    워크플로가 돌려주는 coverage.total 은 "그 실행에 넘긴 종목 수"라
       //    그대로 쓰면 6/6 처럼 전량 조사한 것으로 보인다(실제로는 54 중 6).
       //    상한 때문에 빠진 종목을 숨기지 않는 것이 이 시스템의 원칙이다.
       d.research_coverage = coverageOf({
-        done, total: (d.picks || []).length,
+        done, failed: failedCount, total: (d.picks || []).length,
         cap: (payload.team2.coverage || {}).cap ?? null,
-        hint: '캐시가 쌓이면 며칠 안에 전량 커버됩니다.',
       });
       writeWindowData(f, 'TEAM2_DATA', d);
-      merged.push(`team2(리서치 ${done})`);
+      merged.push(`team2(리서치 ${done}${failedCount ? ` · 실패 ${failedCount}` : ''})`);
     }
   }
 
@@ -108,24 +117,29 @@ async function main() {
     const d = loadWindowData(f, 'TEAM4_DATA');
     if (d) {
       const byTicker = new Map((payload.team4.items || []).map((x) => [x.ticker, x]));
-      let done = 0;
+      const failedSet = new Set(payload.team4.failed || []);
+      let done = 0, failedCount = 0;
       for (const it of d.items || []) {
         const c = byTicker.get(it.ticker);
         if (c) { it.catalyst = { status: 'done', ...c }; done++; }
-        else it.catalyst = { status: 'pending', note: 'LLM 촉매 분류 대기 (상한 초과)' };
+        else if (failedSet.has(it.ticker)) {
+          it.catalyst = { status: 'failed', note: 'LLM 촉매 분류 실패 (에이전트 오류) — 다음 실행에서 우선 재시도합니다' };
+          failedCount++;
+        } else it.catalyst = { status: 'pending', note: '아직 조사하지 않았습니다 (순환 조사 대기)' };
       }
+      recordResearched(rc, 'team4', [...byTicker.keys()], dateStr);
       d.llm = payload.team4.summary || null;
       d.reusedFrom = reuse.team4 || null;
       d.byCategory = payload.team4.byCategory || d.byCategory;
       // ⚠️ 예전엔 ...payload.team4.coverage 를 뒤에 펼쳐서 total 이 12(=상한)로 덮였다.
       //    40종목 중 12개만 조사했는데 화면엔 12/12 로 나왔다. 절대 되돌리지 말 것.
       d.research_coverage = coverageOf({
-        done, total: (d.items || []).length,
+        done, failed: failedCount, total: (d.items || []).length,
         cap: (payload.team4.coverage || {}).cap ?? null,
-        hint: '거래대금 급증 순으로 우선 조사하며, 나머지는 다음 실행에서 채워집니다.',
+        hint: '자금이 들어오는 업종 · 거래대금 급증 순으로 우선 조사합니다.',
       });
       writeWindowData(f, 'TEAM4_DATA', d);
-      merged.push(`team4(촉매 ${done})`);
+      merged.push(`team4(촉매 ${done}${failedCount ? ` · 실패 ${failedCount}` : ''})`);
     }
   }
 
@@ -182,6 +196,22 @@ async function main() {
     fs.appendFileSync(mdFile, L.join('\n'), 'utf8');
     merged.push('리포트.md');
   }
+
+  // ── 로테이션 캐시 저장 ──
+  // 이걸 안 쓰면 내일도 같은 종목만 조사한다 (예전 동작).
+  saveCache(rc, dateStr);
+  const covered = { team2: Object.keys(rc.team2).length, team4: Object.keys(rc.team4).length };
+  say('SYSTEM', `로테이션 캐시: 2팀 누적 ${covered.team2}종목 · 4팀 누적 ${covered.team4}종목 조사됨`);
+
+  // ── 에이전트 실패를 로그에 그대로 남긴다 ──
+  const fails = [];
+  for (const [k, label] of [['team1', '1팀'], ['team2', '2팀'], ['team4', '4팀'], ['team5', '5팀'], ['chief', '실장']]) {
+    const p = payload[k];
+    if (!p) continue;
+    if (p.error === 'agent_failed') fails.push(`${label} 전체`);
+    if (Array.isArray(p.failed) && p.failed.length) fails.push(`${label} ${p.failed.join(',')}`);
+  }
+  if (fails.length) say('WARN', `에이전트 실패(재시도 후에도): ${fails.join(' · ')} — 화면에 '실패'로 표시됩니다`);
 
   // 검증 리포트 보관
   writeJson(path.join(paths.llmInDir, `${dateStr}-verified.json`), { date: dateStr, report, payload });

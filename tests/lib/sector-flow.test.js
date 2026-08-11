@@ -41,6 +41,37 @@ ok('QLYS형 — 50DIV 30 초과 → 과열',
 ok('AFRM형 — 초입이나 기대 하향 → 근거 약함',
   () => assert.strictEqual(tickerStage({ d50: 0.4, d200: 13.6, cy: -0.6, upRatio: 14 }).k, 'early_weak'));
 
+console.log('\n[2b] 감쇠 불일치 메커니즘 (합성 픽스처 — 라이브 노이즈 없음)');
+ok('종목 수가 적을수록 감쇠 왜곡이 크다', () => {
+  // 사이트 버그의 정체: 오늘값은 감쇠(×count/(count+5))를 먹이고, 과거값은 안 먹인 채 비교한다.
+  // 과거값이 1/damping 배로 부풀려지므로 변화율이 인위적으로 낮아지고,
+  // 그 왜곡 배율은 종목 수가 적을수록 크다 — 이게 137개 중 40개의 부호를 뒤집은 원인이다.
+  //
+  // ⚠️ 이 성질을 라이브 F10d 값의 gap 으로 재던 예전 테스트는 거짓 실패했다.
+  //    F10d 는 분모(과거 Final_WRS)가 0 근처면 폭발해서(관측 +2762%) 표본 7개짜리
+  //    대형 버킷을 한 업종이 통째로 흔든다. 크기가 아니라 메커니즘을 직접 검증한다.
+  const mkRows = (n, industry) => Array.from({ length: n }, (_, i) => ({
+    Ticker: `${industry}${i}`, Sector: 'Test', Industry: industry,
+    'Market Cap': '10.00B', RS_6mo: 0.5,
+  }));
+  const g = siteWrsCalc([...mkRows(3, 'Small'), ...mkRows(40, 'Big')]);
+  const small = g.get('Test|Small'), big = g.get('Test|Big');
+  assert.strictEqual(small.count, 3);
+  assert.strictEqual(big.count, 40);
+
+  // 왜곡 배율 = 감쇠 미적용 / 감쇠 적용 = (count+5)/count
+  const distort = (x) => x.raw / x.damped;
+  near(distort(small), 8 / 3, 1e-9, '3종목 왜곡 배율');
+  near(distort(big), 45 / 40, 1e-9, '40종목 왜곡 배율');
+  assert.ok(distort(small) > distort(big),
+    `소형이 더 왜곡돼야 한다: ${distort(small).toFixed(2)} vs ${distort(big).toFixed(2)}`);
+  console.log(`     → 과거값 부풀림 배율: 3종목 ${distort(small).toFixed(2)}배 · 40종목 ${distort(big).toFixed(2)}배`);
+});
+ok('감쇠는 종목 수에 대해 단조 증가한다 (1 을 넘지 않는다)', () => {
+  const f = (n) => n / (n + 5);
+  for (let n = 1; n < 60; n++) assert.ok(f(n) < f(n + 1) && f(n) < 1, `n=${n} 에서 단조성 깨짐`);
+});
+
 // ── 라이브 데이터 ──
 (async () => {
   console.log('\n[3] 라이브 데이터로 구조 검증');
@@ -77,25 +108,14 @@ ok('AFRM형 — 초입이나 기대 하향 → 근거 약함',
     assert.ok(flipped.length > 0, '부호가 뒤집히는 업종이 하나도 없다 — 감쇠계수 정정이 안 먹었을 수 있다');
     console.log(`     → 비교 ${both.length}개 중 F10d 부호 뒤집힘 ${flipped.length}개 (${(flipped.length / both.length * 100).toFixed(0)}%)`);
   });
-  ok('종목 수가 적을수록 사이트 왜곡이 크다', () => {
-    // ⚠️ 반드시 중앙값으로 본다. 평균은 못 쓴다.
-    //    f10 은 나누는 값(과거 Final_WRS)이 0 근처면 폭발한다. 2026-08-11 실측에서
-    //    Software-Application 하나가 gap 2704%p 라 count≥30 표본 7개의 평균을 혼자 411 로 끌어올렸고
-    //    (중앙값은 26) 소형 89개 평균 198(중앙값 35.5)을 역전시켜 테스트가 거짓 실패했다.
-    //    "% 크기가 아니라 순위로 읽는다"는 이 시스템의 원칙을 테스트에도 적용한다.
-    const s = flow.filter((x) => Number.isFinite(x.f10) && Number.isFinite(x.siteF10) && x.count >= 2)
-      .map((x) => ({ c: x.count, gap: Math.abs(x.f10 - x.siteF10) }));
-    const small = s.filter((x) => x.c <= 10), big = s.filter((x) => x.c >= 30);
-    const med = (a) => {
-      const v = a.map((x) => x.gap).sort((p, q) => p - q);
-      return v.length % 2 ? v[(v.length - 1) / 2] : (v[v.length / 2 - 1] + v[v.length / 2]) / 2;
-    };
-    const avg = (a) => a.reduce((p, q) => p + q.gap, 0) / (a.length || 1);
-    assert.ok(small.length && big.length, '표본 부족');
-    assert.ok(med(small) > med(big), `소형 중앙값 ${med(small).toFixed(1)} vs 대형 중앙값 ${med(big).toFixed(1)}`);
-    console.log(`     → 왜곡 중앙값: 10종목 이하 ${med(small).toFixed(1)}%p (n=${small.length}) `
-      + `· 30종목 이상 ${med(big).toFixed(1)}%p (n=${big.length})`);
-    console.log(`        참고 평균 ${avg(small).toFixed(0)} / ${avg(big).toFixed(0)} — 분모 0 근처 업종 때문에 평균은 무의미`);
+  ok('사이트 값이 체계적으로 더 비관적이다 (감쇠 불일치의 방향성)', () => {
+    // 사이트는 오늘값(감쇠 적용)을 과거값(감쇠 미적용, 즉 부풀려진 값)과 비교한다.
+    // 분모가 크게 잡히므로 변화율이 인위적으로 낮게 나온다 → 우리 값보다 작아야 한다.
+    const s = flow.filter((x) => Number.isFinite(x.f10) && Number.isFinite(x.siteF10) && x.count >= 2);
+    const lower = s.filter((x) => x.siteF10 < x.f10).length;
+    console.log(`     → 사이트 값이 더 낮은 업종 ${lower}/${s.length} (${(lower / s.length * 100).toFixed(0)}%)`);
+    assert.ok(lower / s.length > 0.6,
+      `감쇠 불일치라면 사이트가 대부분 더 낮아야 하는데 ${lower}/${s.length} 뿐이다`);
   });
   ok('200DIV 변화량이 산출된다 (스냅샷 v2 스키마 확인)', () => {
     const withDelta = flow.filter((x) => Number.isFinite(x.d200Delta));

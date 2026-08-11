@@ -369,7 +369,20 @@ async function main() {
   // 비용이 큰 단계라 상위 N 종목만. 전부 TTL 캐시라 2회차부터는 거의 무료다.
   if (team2 && !args.offline && process.env.SKIP_DETAIL !== '1') {
     const cap = Number(process.env.POPUP_CAP || 20);
-    const targets = qualified.slice(0, cap);
+
+    // ⚠️ 예전엔 `qualified.slice(0, cap)` — bestPct 상위 20개만 영원히. 순위가 안 바뀌면
+    //    나머지 34종목은 상세도, LLM 리서치도(리서치는 detail 있는 종목만 대상) 영영 못 받았다.
+    //    그런데 화면엔 "며칠 안에 전량 커버"라고 떴다. 이제 실제로 순환시킨다.
+    //    ① 오래 안 본 종목 → ② 돈이 들어오는 업종 → ③ bestPct 순.
+    const rot = require('./lib/research-rotation');
+    const rc = rot.loadCache();
+    const flowRank = rot.flowRankOf(team5 && team5.flow ? team5.flow.industries : null);
+    if (!flowRank.size) say('WARN', '자금흐름 데이터 없음 — 상세 조사 우선순위에서 업종 항목이 빠집니다');
+    const targets = rot.orderForResearch(qualified, {
+      flowRank, cache: rc, bucket: 'detail', today: dateStr,
+      ttl: Number(process.env.DETAIL_TTL || 10),
+      metric: (q) => q.bestPct || 0,
+    }).slice(0, cap);
     const { getQuarterlyFinancials, getFilings } = require('./data/sec-edgar');
     const { getTickerNews } = require('./data/news-rss');
     const kr = require('./data/kr-reports');
@@ -405,8 +418,29 @@ async function main() {
       if ((i + 1) % 5 === 0) process.stdout.write(`\r  팝업 상세 ${i + 1}/${targets.length}   `);
     }
     process.stdout.write('\r');
-    say('T2', `팝업 상세: 실적 ${okFin} · 뉴스 ${okNews} · 국내리포트 ${okKr} / ${targets.length}종목 (상한 ${cap})`);
-    team2.detail_coverage = { done: targets.length, total: qualified.length, cap };
+    for (const t of targets) rc.detail[t.ticker] = dateStr;
+    rot.saveCache(rc, dateStr);
+
+    // ── 이월 — 오늘 안 뽑힌 종목은 지난 실행의 상세를 물려받는다 ──
+    // 로테이션만 넣고 이월을 빼면 어제 보이던 팝업이 오늘 텅 빈다. fetchedAt 을 유지해
+    // 화면이 "언제 기준 자료인지" 밝힐 수 있게 한다 — 오늘 조사한 것처럼 보이면 안 된다.
+    let carried = 0;
+    try {
+      const prevSrc = require('fs').readFileSync(path.join(paths.dashboardData, 'team2.js'), 'utf8');
+      const m = prevSrc.match(/window\.TEAM2_DATA\s*=\s*([\s\S]*);\s*$/);
+      const prev = m ? JSON.parse(m[1]) : null;
+      const prevDetail = new Map((prev && prev.picks || []).filter((p) => p.detail).map((p) => [p.ticker, p.detail]));
+      for (const q of qualified) {
+        if (q.detail || !prevDetail.has(q.ticker)) continue;
+        q.detail = prevDetail.get(q.ticker);
+        carried++;
+      }
+    } catch (e) { /* 첫 실행이면 이월할 게 없다 */ }
+
+    const withDetail = qualified.filter((q) => q.detail).length;
+    say('T2', `팝업 상세: 실적 ${okFin} · 뉴스 ${okNews} · 국내리포트 ${okKr} / 오늘 ${targets.length}종목 신규`
+      + `${carried ? ` · 이월 ${carried}종목` : ''} → 보유 ${withDetail}/${qualified.length} (상한 ${cap})`);
+    team2.detail_coverage = { done: withDetail, freshToday: targets.length, carried, total: qualified.length, cap };
   }
 
   // ── 12-1) 팝업 시계열의 종가를 야후(분할 조정)로 갱신 ──

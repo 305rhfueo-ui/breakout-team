@@ -37,6 +37,7 @@ scripts/
   answer-weekly.js / exclude-ticker.js / mark-breakout.js / open-dashboard.js
   lib/                   util·ta·bars·percentile·wrs·screen·tracking·congestion·vcp
                          ·leaders·regime·chart/·xlsx/·history-series·verify-claims·cache
+                         ·sector-flow·flow-cross·research-rotation
   data/                  finra-margin · sec-edgar · kr-reports · news-rss
   workflows/             team1-news · team2-research · team4-catalyst · team5-sector · chief-report
 state/                   tracking·picks·weekly-question·chart-check·breakout-log·llm-in·history
@@ -66,6 +67,12 @@ dashboard/               breakout-room.html (8탭 + 팝업) · data/*.js · data
 - 라이브 `result.json` 은 같은 거래일이라도 스냅샷보다 새로울 수 있다 → 마지막 지점 동기화
 - 대시보드는 `file://` 로 열리므로 **`fetch()` 금지**, `window.X_DATA` 형태 `.js` 만
 - SEC UA 에 URL 이 섞이면 403
+- 워크플로 `agent()` 는 죽으면 **null 을 준다.** `.filter(Boolean)` 로 버리면 그 종목이 조용히 사라지고
+  화면엔 "상한 초과"로 표시된다 → 각 워크플로의 `tryAgent` 래퍼를 쓰고 `failed` 로 반환할 것
+- 단일 에이전트 워크플로에서 `return {...result}` 는 실패 시 `{...null}` 이라 **오류 없이 빈 리포트**가 된다
+- 조사 대상은 `research-rotation.js` 가 순환시킨다. 상한을 올리지 말고 로테이션으로 커버리지를 채운다
+  (실측: detail 20/54 고정 → 3회 실행에 54/54)
+- `const CAP = (A && A.cap) || N` 은 `cap:0` 을 N 으로 둔갑시킨다 → `Number.isFinite` 로 판정
 
 ## 검증된 골든값 (회귀 확인용)
 

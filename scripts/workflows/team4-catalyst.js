@@ -15,7 +15,16 @@ let A = args
 if (typeof A === 'string') { try { A = JSON.parse(A) } catch (e) { A = null } }
 const date = (A && A.date) || 'today'
 const items = (A && A.items) || []
-const CAP = (A && A.cap) || 15
+const CAP = Number.isFinite(A && A.cap) ? A.cap : 15     // `|| 15` 이면 cap:0 이 15 로 둔갑한다
+
+// 에이전트가 죽으면 1회만 다시 시도한다. 그래도 실패하면 호출부가 '실패'로 표시하게 남긴다.
+// (2026-08-11 BMRN 이 죽었는데 화면엔 "상한 초과"로 표시됐다)
+const tryAgent = async (p, o) => {
+  const r = await agent(p, o)
+  if (r) return r
+  log(`재시도: ${o.label}`)
+  return await agent(p, { ...o, label: `${o.label}#2` })
+}
 
 const SOURCE = { type: 'object', properties: {
   title: { type: 'string' }, publisher: { type: 'string' }, url: { type: 'string' }, date: { type: 'string' }, quote: { type: 'string' },
@@ -62,7 +71,7 @@ const classified = await parallel(targets.map((it) => () => {
   const c = it.congestion || {}
   const news = (it.news || []).slice(0, 6).map((x) => `- ${x.date} [${x.publisher}] ${x.title}\n  ${x.url}`).join('\n') || '없음'
   const fil = (it.filings || []).slice(0, 4).map((f) => `- ${f.filingDate} ${(f.itemsKo || []).join(',')}${f.isEarnings ? ' ★실적발표(8-K item 2.02)' : ''} ${f.url}`).join('\n') || '없음'
-  return agent(
+  return tryAgent(
     `당신은 Episodic Pivot 촉매를 판별하는 트레이더입니다. 오늘은 ${date}. 종목: ${it.ticker} (${it.sector} / ${it.industry})
 
 ## Node 가 확정한 수치 (바꾸지 마라)
@@ -89,6 +98,10 @@ ${RULES}
 
 phase('팩트체크')
 const clean = classified.filter(Boolean)
+// 재시도까지 하고도 결과가 없는 종목 = 실패. 조용히 사라지게 두지 않는다.
+const gotSet = new Set(clean.map((x) => x.ticker))
+const failed = targets.filter((t) => !gotSet.has(t.ticker)).map((t) => t.ticker)
+if (failed.length) log(`⚠️ 촉매 분류 실패 ${failed.length}종목: ${failed.join(', ')}`)
 const BATCH = 5
 const batches = []
 for (let i = 0; i < clean.length; i += BATCH) batches.push(clean.slice(i, i + BATCH))
@@ -103,7 +116,7 @@ const CHECK = { type: 'object', properties: { results: { type: 'array', items: {
   }, required: ['ticker', 'verdict', 'removed_claim_ids'],
 } } }, required: ['results'] }
 
-const checks = await parallel(batches.map((b, i) => () => agent(
+const checks = await parallel(batches.map((b, i) => () => tryAgent(
   `다음 촉매 분류를 검증하세요. 오늘은 ${date}.
 
 ${JSON.stringify(b, null, 1)}
@@ -148,7 +161,7 @@ const SUM = { type: 'object', properties: {
   caution: { type: 'string' },
 }, required: ['highlights', 'sectorSignal'] }
 
-const summary = await agent(
+const summary = await tryAgent(
   `오늘(${date}) Episodic Pivot 후보를 종합하세요.
 
 ${JSON.stringify(clean.map((x) => ({ ticker: x.ticker, category: x.category, categoryName: x.categoryName, corrected: !!x.corrected, claims: (x.claims || []).map((c) => c.statement) })), null, 1)}
@@ -166,4 +179,5 @@ ${JSON.stringify(clean.map((x) => ({ ticker: x.ticker, category: x.category, cat
 const byCategory = {}
 for (const s of clean) byCategory[s.category] = (byCategory[s.category] || 0) + 1
 
-return { date, team: 4, items: clean, summary, byCategory, coverage: { done: clean.length, total: items.length, cap: CAP } }
+return { date, team: 4, items: clean, summary, byCategory, failed,
+  coverage: { done: clean.length, total: items.length, cap: CAP, failed: failed.length } }

@@ -6,6 +6,7 @@
 const fs = require('fs');
 const path = require('path');
 const { paths, loadEnv, ensureDir, say } = require('./lib/util');
+const rot = require('./lib/research-rotation');
 
 function loadWindowData(file, varName) {
   const src = fs.readFileSync(path.join(paths.dashboardData, file), 'utf8');
@@ -43,10 +44,20 @@ async function main() {
     },
   };
 
+  // ── 조사 순서 — 오래 안 본 종목 → 돈이 들어오는 업종 → 지표 순 ──
+  // 상한을 올리지 않고 커버리지를 채우는 방법이다. 매일 같은 상위 N개만 조사하면
+  // 나머지는 영원히 미조사로 남는다(2026-08-11 이전 동작).
+  const rc = rot.loadCache();
+  const flowRank = rot.flowRankOf(t5.flow ? t5.flow.industries : null);
+  if (!flowRank.size) say('WARN', '자금흐름 데이터 없음 — 리서치 우선순위에서 업종 항목이 빠집니다');
+
+  const t2Ordered = rot.orderForResearch((t2.picks || []).filter((p) => p.detail), {
+    flowRank, cache: rc, bucket: 'team2', today: date, ttl: 5, metric: (p) => p.bestPct || 0,
+  });
   out.team2args = {
     date, cap: Number(process.env.RESEARCH_CAP || 20),
     clusters: (t2.themes.clusters || []).slice(0, 14),
-    picks: (t2.picks || []).filter((p) => p.detail).map((p) => ({
+    picks: t2Ordered.map((p) => ({
       ticker: p.ticker, sector: p.sector, industry: p.industry,
       rs: p.rs, adr: p.adr, high52: p.high52, div200: p.div200,
       ret1m: p.ret1m, ret3m: p.ret3m, ret6m: p.ret6m,
@@ -54,10 +65,11 @@ async function main() {
     })),
   };
 
-  // 4팀은 Congestion 셋업이 있거나 거래량이 특히 큰 종목 우선
-  const epPick = (t4.items || [])
-    .filter((i) => ['bounce_trigger', 'retest', 'breakout', 'base', 'extended'].includes(i.congestion.phase) || (i.volx ?? 0) >= 3)
-    .slice(0, Number(process.env.CATALYST_CAP || 12));
+  // 4팀은 Congestion 셋업이 있거나 거래량이 특히 큰 종목 우선 — 그 안에서 로테이션
+  const epPick = rot.orderForResearch(
+    (t4.items || []).filter((i) => ['bounce_trigger', 'retest', 'breakout', 'base', 'extended'].includes(i.congestion.phase) || (i.volx ?? 0) >= 3),
+    { flowRank, cache: rc, bucket: 'team4', today: date, ttl: 5, metric: (i) => i.volx || 0 },
+  ).slice(0, Number(process.env.CATALYST_CAP || 12));
   out.team4args = {
     date, cap: epPick.length,
     items: epPick.map((i) => ({
@@ -105,7 +117,11 @@ async function main() {
   console.log(`\n════════ LLM 워크플로 인자 준비 완료 ════════`);
   console.log(`날짜        ${date}`);
   console.log(`1팀 뉴스후보 ${out.team1args.candidates.length}건`);
-  console.log(`2팀 종목     ${out.team2args.picks.length}개 (상한 ${out.team2args.cap}) · 클러스터 ${out.team2args.clusters.length}`);
+  const cap2 = out.team2args.cap;
+  const fresh2 = out.team2args.picks.slice(0, cap2).filter((p) => !rot.lastResearched(rc, 'team2', p.ticker)).length;
+  console.log(`2팀 종목     ${out.team2args.picks.length}개 (상한 ${cap2}) · 클러스터 ${out.team2args.clusters.length}`);
+  console.log(`  조사 순서  ${out.team2args.picks.slice(0, cap2).map((p) => p.ticker).join(', ')}`);
+  console.log(`  신규 ${fresh2}종목 · 누적 조사 ${Object.keys(rc.team2).length}/${(t2.picks || []).length}종목`);
   console.log(`4팀 종목     ${out.team4args.items.length}개 — ${out.team4args.items.map((i) => i.ticker).join(', ')}`);
   console.log(`5팀 업종     ${out.team5args.industries.length}개 — ${out.team5args.industries.map((x) => x.industry).join(', ')}`);
   console.log(`차트확인     ${(cc.items || []).length}개`);

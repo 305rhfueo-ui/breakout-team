@@ -14,7 +14,15 @@ let A = args
 if (typeof A === 'string') { try { A = JSON.parse(A) } catch (e) { A = null } }
 const date = (A && A.date) || 'today'
 const industries = (A && A.industries) || []
-const CAP = (A && A.cap) || 6
+const CAP = Number.isFinite(A && A.cap) ? A.cap : 6      // `|| 6` 이면 cap:0 이 6 으로 둔갑한다
+
+// 에이전트가 죽으면 1회만 다시 시도한다. 그래도 실패하면 실패로 남긴다.
+const tryAgent = async (p, o) => {
+  const r = await agent(p, o)
+  if (r) return r
+  log(`재시도: ${o.label}`)
+  return await agent(p, { ...o, label: `${o.label}#2` })
+}
 
 const SOURCE = { type: 'object', properties: {
   title: { type: 'string' }, publisher: { type: 'string' }, url: { type: 'string' }, date: { type: 'string' }, quote: { type: 'string' },
@@ -48,7 +56,7 @@ const RULES = `
 
 phase('업종분석')
 const targets = industries.slice(0, CAP)
-const analyzed = await parallel(targets.map((x) => () => agent(
+const analyzed = await parallel(targets.map((x) => () => tryAgent(
   `당신은 섹터 로테이션을 분석하는 전략가입니다. 오늘은 ${date}.
 
 ## 대상 업종 (Node 확정 수치 — 바꾸지 마라)
@@ -83,13 +91,23 @@ const SUM = { type: 'object', properties: {
 }, required: ['rotationView', 'strongest'] }
 
 const clean = analyzed.filter(Boolean)
-const summary = await agent(
+// 재시도까지 하고도 결과가 없는 업종 = 실패. 식별자는 key 다.
+const gotKeys = new Set(clean.map((x) => x.key))
+const failed = targets.filter((t) => !gotKeys.has(t.key)).map((t) => t.key)
+if (failed.length) log(`⚠️ 업종 조사 실패 ${failed.length}건: ${failed.join(', ')}`)
+
+const summary = await tryAgent(
   `오늘(${date}) 주도 업종을 종합하세요.
 
 ## Node 확정 WRS (기간 비교로 로테이션을 읽어라)
-${JSON.stringify(targets.map((x) => ({ industry: x.industry, sector: x.sector, wrs: x.wrs, rankPct: x.rankPct })), null, 1)}
+⚠️ researched:false 인 업종은 **조사가 안 됐다.** WRS 숫자로 순위·로테이션을 말하는 건 되지만,
+   그 업종이 "왜" 강한지는 절대 지어내지 마라. 근거가 필요한 서술에서는 빼라.
+${JSON.stringify(targets.map((x) => ({
+    industry: x.industry, sector: x.sector, wrs: x.wrs, rankPct: x.rankPct,
+    researched: gotKeys.has(x.key),
+  })), null, 1)}
 
-## 업종별 조사 결과
+## 업종별 조사 결과 (근거는 여기 있는 것만 쓴다)
 ${JSON.stringify(clean.map((x) => ({ industry: x.industry, driver: x.driver, durability: x.durability, why: (x.whyStrong || []).map((c) => c.statement) })), null, 1)}
 
 - emerging: **1개월 WRS 가 6개월보다 뚜렷이 높은** 업종 = 새로 돈이 들어오는 곳
@@ -98,4 +116,5 @@ ${JSON.stringify(clean.map((x) => ({ industry: x.industry, driver: x.driver, dur
   { label: '섹터종합', phase: '종합', schema: SUM, model: 'opus' }
 )
 
-return { date, team: 5, industries: clean, summary, coverage: { done: clean.length, total: industries.length, cap: CAP } }
+return { date, team: 5, industries: clean, summary, failed,
+  coverage: { done: clean.length, total: industries.length, cap: CAP, failed: failed.length } }

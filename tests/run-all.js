@@ -8,12 +8,20 @@ const { execFileSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-const dir = path.join(__dirname, 'lib');
-const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => f.endsWith('.test.js')).sort() : [];
+// tests/ 아래 모든 하위 폴더를 훑는다 (lib · workflows · …).
+// 예전엔 tests/lib 만 봐서 다른 폴더에 테스트를 두면 조용히 실행되지 않았다.
+const files = [];
+for (const sub of fs.readdirSync(__dirname, { withFileTypes: true })) {
+  if (!sub.isDirectory()) continue;
+  const d = path.join(__dirname, sub.name);
+  for (const f of fs.readdirSync(d).filter((x) => x.endsWith('.test.js')).sort()) {
+    files.push({ rel: `${sub.name}/${f}`, abs: path.join(d, f) });
+  }
+}
+files.sort((a, b) => a.rel.localeCompare(b.rel));
 
 let fail = 0;
-for (const f of files) {
-  const p = path.join(dir, f);
+for (const { rel: f, abs: p } of files) {
   console.log(`\n${'═'.repeat(58)}\n▶ ${f}\n${'═'.repeat(58)}`);
   try {
     execFileSync(process.execPath, [p], { stdio: 'inherit' });

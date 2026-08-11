@@ -67,7 +67,16 @@ const CHIEF = { type: 'object', properties: {
 }, required: ['headline', 'marketVerdictKo', 'todayFocus', 'teamSummaries', 'chartCheckNote'] }
 
 phase('실장종합')
-const report = await agent(
+// 에이전트가 죽으면 1회만 다시 시도한다.
+// ⚠️ 실패 시 `{...null}` 이 되어 실장 리포트가 통째로 비는데 오류는 안 난다. 아래에서 막는다.
+const tryAgent = async (p, o) => {
+  const r = await agent(p, o)
+  if (r) return r
+  log(`재시도: ${o.label}`)
+  return await agent(p, { ...o, label: `${o.label}#2` })
+}
+
+const report = await tryAgent(
   `당신은 투자 리서치팀의 실장입니다. 오늘은 ${date}.
 5개 팀의 결과를 사용자에게 보고하세요.
 
@@ -99,5 +108,10 @@ ${teamBlocks}
 중학생도 이해할 수 있는 쉬운 한국어로 작성하세요.`,
   { label: '실장종합', phase: '실장종합', schema: CHIEF, model: 'opus' }
 )
+
+if (!report) {
+  log('❌ 실장 에이전트가 재시도 후에도 실패했습니다 — 빈 종합 대신 실패를 명시합니다')
+  return { date, error: 'agent_failed' }
+}
 
 return { date, ...report }

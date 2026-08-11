@@ -16,7 +16,17 @@ if (typeof A === 'string') { try { A = JSON.parse(A) } catch (e) { A = null } }
 const date = (A && A.date) || 'today'
 const picks = (A && A.picks) || []
 const clusters = (A && A.clusters) || []
-const CAP = (A && A.cap) || 20
+const CAP = Number.isFinite(A && A.cap) ? A.cap : 20     // `|| 20` 이면 cap:0 이 20 으로 둔갑한다
+
+// 에이전트가 API 오류로 죽으면 agent() 가 null 을 준다. 1회만 다시 시도한다.
+// ⚠️ 재시도 후에도 null 이면 그 종목을 조용히 버리지 말고 호출부가 실패로 표시할 수 있게 남긴다.
+//    2026-08-11 에 죽은 에이전트가 화면에 "상한 초과"로 표시되는 사고가 있었다.
+const tryAgent = async (p, o) => {
+  const r = await agent(p, o)
+  if (r) return r
+  log(`재시도: ${o.label}`)
+  return await agent(p, { ...o, label: `${o.label}#2` })
+}
 
 // ── 환각 0 스키마 ──
 const SOURCE = { type: 'object', properties: {
@@ -67,7 +77,7 @@ const researched = await parallel(targets.map((p) => () => {
     .map((r) => `- ${r.date} ${r.broker} ${r.analyst || ''}: ${r.title}\n  요약: ${(r.summary || '').replace(/\s+/g, ' ').slice(0, 160)}\n  PDF: ${r.pdfUrl}`).join('\n') || '없음'
   const filings = (d.filings || []).slice(0, 4).map((f) => `- ${f.filingDate} ${f.itemsKo.join(',')}${f.isEarnings ? ' ★실적' : ''} ${f.url}`).join('\n') || '없음'
 
-  return agent(
+  return tryAgent(
     `당신은 미국 주식 리서치 애널리스트입니다. 오늘은 ${date}. 종목: ${p.ticker} (${d.nameKo || ''} / ${p.sector} / ${p.industry})
 
 ## 이미 확보된 자료 (Node 가 수집·검증한 것. 이 숫자를 바꾸지 마라)
@@ -101,6 +111,10 @@ ${RULES}
 
 phase('팩트체크')
 const clean = researched.filter(Boolean)
+// 재시도까지 하고도 결과가 없는 종목 = 실패. 조용히 사라지게 두지 않는다.
+const gotSet = new Set(clean.map((x) => x.ticker))
+const failed = targets.filter((t) => !gotSet.has(t.ticker)).map((t) => t.ticker)
+if (failed.length) log(`⚠️ 리서치 실패 ${failed.length}종목: ${failed.join(', ')}`)
 const BATCH = 6
 const batches = []
 for (let i = 0; i < clean.length; i += BATCH) batches.push(clean.slice(i, i + BATCH))
@@ -114,7 +128,7 @@ const CHECK = { type: 'object', properties: { results: { type: 'array', items: {
   }, required: ['ticker', 'verdict', 'removed_claim_ids'],
 } } }, required: ['results'] }
 
-const checks = await parallel(batches.map((b, i) => () => agent(
+const checks = await parallel(batches.map((b, i) => () => tryAgent(
   `다음 종목 리서치 결과를 검증하세요. 오늘은 ${date}.
 
 ${JSON.stringify(b.map((x) => ({ ticker: x.ticker, whyRose: x.whyRose, estimateRevisions: x.estimateRevisions })), null, 1)}
@@ -160,7 +174,7 @@ const THEME = { type: 'object', properties: {
   caution: { type: 'string' },
 }, required: ['leadingTheme', 'subThemes', 'crossCuttingDriver'] }
 
-const theme = await agent(
+const theme = await tryAgent(
   `당신은 주도 테마를 판별하는 전략가입니다. 오늘은 ${date}.
 
 ## Node 가 확정한 클러스터 (이 숫자는 절대 바꾸지 마라)
@@ -195,6 +209,7 @@ return {
   team: 2,
   researched: clean,
   theme,
-  coverage: { done: clean.length, total: picks.length, cap: CAP },
+  failed,
+  coverage: { done: clean.length, total: picks.length, cap: CAP, failed: failed.length },
   factcheckBatches: batches.length,
 }
