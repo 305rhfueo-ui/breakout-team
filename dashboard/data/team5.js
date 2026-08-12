@@ -540,24 +540,24 @@ window.TEAM5_DATA = {
                 "url": "https://futurumgroup.com/insights/dell-q2-fy-2026-results-show-19-revenue-jump-ai-server-shipments-surge/",
                 "date": "2025-09-02",
                 "quote": "Dell shipped $8.2 billion of AI servers during the quarter; ISG revenue up 44% YoY, servers and networking revenue up 69% YoY.",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "Dell stock skyrockets 32% for its best day ever as AI server revenue soars",
                 "publisher": "CNBC",
                 "url": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
                 "date": "2026-05-29",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "Dell Stock Rises on Sales Outlook Fueled by AI Servers",
                 "publisher": "Bloomberg",
                 "url": "https://www.bloomberg.com/news/articles/2026-05-28/dell-boosts-outlook-to-60-billion-in-ai-server-sales-this-year",
                 "date": "2026-05-28",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -571,16 +571,16 @@ window.TEAM5_DATA = {
                 "publisher": "Seeking Alpha",
                 "url": "https://seekingalpha.com/news/4625688-samsung-sk-hynix-micron-sell-out-2027-memory-chip-supply-report",
                 "date": "2026",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "unverified",
+                "httpStatus": 403
               },
               {
                 "title": "IDC warns PC market could shrink up to 9% in 2026 due to skyrocketing RAM pricing",
                 "publisher": "Tom's Hardware",
                 "url": "https://www.tomshardware.com/tech-industry/idc-warns-pc-market-could-shrink-up-to-9-percent-in-2026-due-to-skyrocketing-ram-pricing-even-moderate-forecast-hits-5-percent-drop-as-ai-driven-shortages-slam-into-pc-market",
                 "date": "2026",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -594,16 +594,16 @@ window.TEAM5_DATA = {
                 "publisher": "Trefis",
                 "url": "https://www.trefis.com/stock/stx/articles/597921/seagate-is-sold-out-through-2027-as-ai-reshapes-hard-drive-demand/2026-04-30",
                 "date": "2026-04-30",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "Seagate and Western Digital: AI Storage Demand Is Now Showing Up in Pricing Power",
                 "publisher": "24/7 Wall St.",
                 "url": "https://247wallst.com/investing/2026/05/16/seagate-and-western-digital-ai-storage-demand-is-now-showing-up-in-pricing-power/",
                 "date": "2026-05-16",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -617,24 +617,24 @@ window.TEAM5_DATA = {
                 "publisher": "PR Newswire",
                 "url": "https://www.prnewswire.com/news-releases/everpure-to-change-ticker-symbol-to-p-302735100.html",
                 "date": "2026",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "Pure Storage Q3 FY 2026 Results: Revenue Up 16% YoY, Guidance Raised",
                 "publisher": "Futurum Group",
                 "url": "https://futurumgroup.com/insights/pure-storage-q3-fy-2026-results-revenue-up-16-yoy-guidance-raised/",
                 "date": "2025-12",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "Pure Storage beats Q2 earnings, raises 2026 guidance as Enterprise Data Cloud strategy drives growth",
                 "publisher": "diginomica",
                 "url": "https://diginomica.com/pure-storage-beats-q2-earnings-raises-2026-guidance-enterprise-data-cloud-strategy-drives-growth",
                 "date": "2025",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           }
@@ -673,8 +673,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.forbes.com/sites/garthfriesen/2026/07/23/refining-stocks-soar-as-crack-spread-hits-record-high-in-2026/",
                 "date": "2026-07-23",
                 "quote": "The 3-2-1 crack spread hit record highs... gasoline prices rose 98% in 2026 versus 44% for WTI crude oil.",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -689,8 +689,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.hngn.com/articles/272160/20260718/oil-refiners-emerge-2026s-quiet-stock-winners-iran-conflict-drives-crack-spreads-higher.htm",
                 "date": "2026-07-18",
                 "quote": "widening profit margins and the escalating U.S.-Iran conflict combine to drive their shares far ahead of the broader market",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "Refining Stocks Soar As Crack Spread Hits Record High In 2026",
@@ -698,8 +698,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.forbes.com/sites/garthfriesen/2026/07/23/refining-stocks-soar-as-crack-spread-hits-record-high-in-2026/",
                 "date": "2026-07-23",
                 "quote": "Ukrainian drone strikes on Russian refining infrastructure reduced Russian crude-processing rates to their lowest level in two decades... renewed hostilities around the Strait of Hormuz",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -714,8 +714,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.forbes.com/sites/garthfriesen/2026/07/23/refining-stocks-soar-as-crack-spread-hits-record-high-in-2026/",
                 "date": "2026-07-23",
                 "quote": "Seven major U.S. refinery closures/conversions since 2019 eliminated roughly 1.2 million barrels daily; global permanent closures and war damage cut refinery output by an estimated 4.5 million barrels daily (5.4%) in Q2 2026",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -730,8 +730,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.hngn.com/articles/272160/20260718/oil-refiners-emerge-2026s-quiet-stock-winners-iran-conflict-drives-crack-spreads-higher.htm",
                 "date": "2026-07-18",
                 "quote": "Marathon Petroleum reported adjusted earnings per share growth of 787% in its most recent results... Marathon Petroleum, Valero and HF Sinclair have each climbed more than 80% in 2026, while Phillips 66 has gained more than 54%, compared with the S&P 500's roughly 11% return",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "Zacks Industry Outlook Highlights Phillips 66, Marathon Petroleum and Valero Energy",
@@ -739,8 +739,8 @@ window.TEAM5_DATA = {
                 "url": "https://finance.yahoo.com/news/zacks-industry-outlook-highlights-phillips-093100573.html",
                 "date": "2026-08",
                 "quote": "The industry trades at 5.05X trailing EV/EBITDA, significantly below the S&P 500's 17.20X multiple... the sector has outperformed both the broader energy sector and S&P 500 over the past year, gaining 24.7% versus 17% and 16.8% respectively",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           }
@@ -756,20 +756,12 @@ window.TEAM5_DATA = {
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "CrowdStrike, Palo Alto Networks stocks hit new highs after Black Hat",
-                "publisher": "thenextweb.com",
-                "url": "https://thenextweb.com/news/crowdstrike-palo-alto-record-highs-black-hat-ai-agents",
-                "date": "2026-08-10",
-                "verified": "unchecked",
-                "httpStatus": null
-              },
-              {
                 "title": "CrowdStrike, Palo Alto Stocks Surge on AI Threat Warnings",
                 "publisher": "TechBuzz.ai",
                 "url": "https://www.techbuzz.ai/articles/crowdstrike-palo-alto-surge-on-ai-threat-wave-from-black-hat",
                 "date": "2026-08-10",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -783,8 +775,8 @@ window.TEAM5_DATA = {
                 "publisher": "Yahoo Finance",
                 "url": "https://finance.yahoo.com/markets/stocks/articles/saaspocalypse-once-knew-over-095001184.html",
                 "date": "2026-06-02",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -798,8 +790,8 @@ window.TEAM5_DATA = {
                 "publisher": "24/7 Wall St. / Yahoo Finance",
                 "url": "https://247wallst.com/investing/2026/06/29/palo-alto-networks-surges-9-crowdstrike-rises-7-okta-gains-5-can-the-cybersecurity-rally-justify-its-valuations/",
                 "date": "2026-06-29",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -813,8 +805,8 @@ window.TEAM5_DATA = {
                 "publisher": "softwarestrategiesblog.com (citing Gartner)",
                 "url": "https://softwarestrategiesblog.com/2026/03/24/information-security-spending-2026/",
                 "date": "2026-03-24",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "unverified",
+                "httpStatus": 0
               }
             ]
           }
@@ -846,16 +838,16 @@ window.TEAM5_DATA = {
                 "publisher": "Yahoo Finance",
                 "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-august-7-2026-gold-prices-continue-to-rise-even-after-july-jobs-report-misses-122102132.html",
                 "date": "2026-08-07",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "Gold Price Jumps Above $4,300 as Weak Jobs Data Hits Fed Bets",
                 "publisher": "The Market Periodical",
                 "url": "https://themarketperiodical.com/2026/08/08/gold-price-jumps-above-4300-as-weak-jobs-data-hits-fed-bets/",
                 "date": "2026-08-08",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -869,8 +861,8 @@ window.TEAM5_DATA = {
                 "publisher": "World Gold Council (gold.org)",
                 "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026",
                 "date": "2026-07-30",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -884,8 +876,8 @@ window.TEAM5_DATA = {
                 "publisher": "GlobeNewswire (Aura Minerals 공식 발표)",
                 "url": "https://www.globenewswire.com/news-release/2026/08/05/3339839/0/en/aura-announces-q2-2026-and-h1-2026-financial-and-operational-results-a-record-first-half-result.html",
                 "date": "2026-08-05",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "unverified",
+                "httpStatus": 0
               }
             ]
           },
@@ -899,8 +891,8 @@ window.TEAM5_DATA = {
                 "publisher": "ING (THINK, 투자은행 리서치)",
                 "url": "https://think.ing.com/articles/golds-bull-run-to-continue-in-2026/",
                 "date": "2025-12-11",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           }
@@ -929,8 +921,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-sharkninja-q2-2026-sales-surge-lifts-shares-despite-eps-miss-93CH-4838007",
                 "date": "2026-08-05",
                 "quote": "The stock climbed 4.88% to $176.41 in premarket trading... 13th consecutive quarter of double-digit net sales growth",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "unverified",
+                "httpStatus": 403
               },
               {
                 "title": "SharkNinja Reports Second Quarter 2026 (8-K/press release)",
@@ -938,8 +930,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.stocktitan.net/news/SN/shark-ninja-reports-second-quarter-2026-e384dzr000be.html",
                 "date": "2026-08-05",
                 "quote": "Net sales increased 22.2% to $1,765.5 million... Full fiscal 2026 net sales growth guidance raised to 16.0%-17.0%",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "unverified",
+                "httpStatus": 429
               }
             ]
           },
@@ -954,8 +946,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.fool.com/investing/2026/08/07/trump-tariff-refunds-top-100-billion-large-checks/",
                 "date": "2026-08-07",
                 "quote": "The Trump administration has refunded approximately $100 billion in tariffs collected under the International Emergency Economic Powers Act... 60% of the $165 billion collected",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "SharkNinja Reports Second Quarter 2026 (8-K/press release)",
@@ -963,8 +955,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.stocktitan.net/news/SN/shark-ninja-reports-second-quarter-2026-e384dzr000be.html",
                 "date": "2026-08-05",
                 "quote": "Approximately $30 million of the EBITDA guidance increase relates to expected tariff refunds through the U.S. Customs and Border Protection process",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "unverified",
+                "httpStatus": 429
               }
             ]
           },
@@ -979,8 +971,8 @@ window.TEAM5_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/whirlpool-stock-jumped-13-6-161300270.html",
                 "date": "2026-08-08",
                 "quote": "promotional price increases exceeding 10% and list price hikes of approximately 4%... North America's EBIT margin improved 240 basis points sequentially... industry down 3.4% year-over-year",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           }
@@ -1012,8 +1004,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.investing.com/news/company-news/guardant-health-q2-2026-slides-44-revenue-surge-on-shield-momentum-93CH-4826433",
                 "date": "2026-07-30",
                 "quote": "44% revenue surge on Shield momentum",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "unverified",
+                "httpStatus": 403
               },
               {
                 "title": "Guardant Health, Inc. (GH) Delivers Strong Q2 CY2026 Numbers, Stock Soars",
@@ -1021,32 +1013,32 @@ window.TEAM5_DATA = {
                 "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-7-30-guardant-health-nasdaqgh-delivers-strong-q2-cy2026-numbers-stock-soars",
                 "date": "2026-07-30",
                 "quote": "Guardant Health beat estimates by a wide margin... reported $335 million of revenue, beating Wall Street's estimates by 6.4%",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "GeneDx reaffirms 2026 revenue guidance of $475M-$490M while expecting meaningful collection-rate uplift starting in Q4",
                 "publisher": "Seeking Alpha",
                 "url": "https://seekingalpha.com/news/4624204-genedx-reaffirms-2026-revenue-guidance-of-475m-490m-while-expecting-meaningful-collection",
                 "date": "2026-08-10",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "unverified",
+                "httpStatus": 403
               },
               {
                 "title": "Earnings call transcript: GeneDx tops revenue forecast in Q2 2026, shares jump",
                 "publisher": "Investing.com",
                 "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-genedx-tops-revenue-forecast-in-q2-2026-shares-jump-93CH-4832431",
                 "date": "2026-08-10",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "unverified",
+                "httpStatus": 403
               },
               {
                 "title": "Twist Bioscience (TWST) Jumps As Guidance, Targets And Offering Reshape The Trade",
                 "publisher": "StocksToTrade",
                 "url": "https://stockstotrade.com/news/twist-bioscience-corporation-twst-news-2026_08_05/",
                 "date": "2026-08-05",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -1061,16 +1053,16 @@ window.TEAM5_DATA = {
                 "url": "https://investors.guardanthealth.com/press-releases/press-releases/2026/UnitedHealth-Group-Now-Covers-Guardant-Healths-Shield-Blood-Test-for-Colorectal-Cancer-Screening/default.aspx",
                 "date": "2026",
                 "quote": "Approximately 40 million Americans are covered by UnitedHealth Group's plans",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "Medicare to reimburse Guardant Health's Shield colorectal cancer test at $1,495 starting April 2025, analyst sees as positive development",
                 "publisher": "Benzinga",
                 "url": "https://www.benzinga.com/25/03/44259889/medicare-to-reimburse-guardant-healths-shield-colorectal-cancer-test-at-1495-starting-april-2025-analyst-sees-as-positive-development",
                 "date": "2025-03",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "Guardant Health Inc (GH) (Q2 2026) Earnings Call Highlights: Revenue Surges 44% on FDA Approval",
@@ -1078,8 +1070,8 @@ window.TEAM5_DATA = {
                 "url": "https://finance.yahoo.com/healthcare/articles/guardant-health-inc-gh-q2-050336852.html",
                 "date": "2026-07-30",
                 "quote": "Shield screening revenue surged 253% year over year",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -1093,16 +1085,16 @@ window.TEAM5_DATA = {
                 "publisher": "Investing.com",
                 "url": "https://ca.investing.com/news/company-news/genedx-q2-2026-slides-record-volume-drives-early-profitability-return-93CH-4772304",
                 "date": "2026-08",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "unverified",
+                "httpStatus": 403
               },
               {
                 "title": "GeneDx Holdings (WGS) Is Up 9.7% After Beating Q2 Estimates And Reaffirming 2026 Outlook",
                 "publisher": "Simply Wall St News",
                 "url": "https://simplywall.st/stocks/us/healthcare/nasdaq-wgs/genedx-holdings/news/genedx-holdings-wgs-is-up-97-after-beating-q2-estimates-and",
                 "date": "2026-08",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -1116,16 +1108,16 @@ window.TEAM5_DATA = {
                 "publisher": "Senior HealthCare Solutions",
                 "url": "https://seniorhealthcaresolutions.com/blog/medicare-now-covers-liquid-biopsy/",
                 "date": "2026",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "Liquid Biopsy | May Round-Up 2026",
                 "publisher": "DeciBio Consulting",
                 "url": "https://www.decibio.com/insights/liquid-biopsy-may-round-up-2026",
                 "date": "2026-05",
-                "verified": "unchecked",
-                "httpStatus": null
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           }
