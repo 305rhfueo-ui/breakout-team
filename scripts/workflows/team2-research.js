@@ -112,8 +112,10 @@ ${RULES}
 phase('팩트체크')
 const clean = researched.filter(Boolean)
 // 재시도까지 하고도 결과가 없는 종목 = 실패. 조용히 사라지게 두지 않는다.
-const gotSet = new Set(clean.map((x) => x.ticker))
-const failed = targets.filter((t) => !gotSet.has(t.ticker)).map((t) => t.ticker)
+// ⚠️ 반환값의 ticker 로 대조하지 마라. 스키마가 required 여도 모델이 입력값을 그대로 준다는
+//    보장이 없다(5팀에서 key 가 슬러그로 바뀌어 성공 6건이 전부 실패로 표시된 사고가 있었다).
+//    parallel 은 입력 순서를 보존하므로 인덱스로 판정한다.
+const failed = targets.filter((t, i) => !researched[i]).map((t) => t.ticker)
 if (failed.length) log(`⚠️ 리서치 실패 ${failed.length}종목: ${failed.join(', ')}`)
 const BATCH = 6
 const batches = []

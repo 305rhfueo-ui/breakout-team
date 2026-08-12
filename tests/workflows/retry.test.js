@@ -55,9 +55,15 @@ for (const f of files) {
 
 console.log('\n[4] 배열형 워크플로가 실패 목록을 반환한다');
 for (const f of ['team2-research.js', 'team4-catalyst.js', 'team5-sector.js']) {
-  ok(`${f} — failed 를 계산해 반환한다`, () => {
-    assert.ok(/const failed = targets\.filter/.test(src[f]),
-      'targets 와 결과를 대조해 실패 목록을 만들어야 한다');
+  ok(`${f} — failed 를 인덱스로 계산해 반환한다`, () => {
+    // ⚠️ 반환값의 ticker/key 로 대조하면 안 된다. 스키마가 required 로 걸어도 모델이 입력값을
+    //    그대로 돌려주지 않는다 — 2026-08-12 실측: 5팀이 "Technology|Computer Hardware" 를
+    //    "technology-computer-hardware" 로 바꿔 돌려주는 바람에 성공 6건이 전부 실패로 표시됐다.
+    //    parallel 은 순서를 보존하므로 인덱스 판정만이 확실하다.
+    assert.ok(/const failed = targets\.filter\(\(t, i\) => !\w+\[i\]\)/.test(src[f]),
+      'failed 를 인덱스(!results[i])로 판정해야 한다 — 반환값 식별자 대조는 신뢰할 수 없다');
+    assert.ok(!/new Set\(clean\.map\(\(x\) => x\.(ticker|key)\)\)[\s\S]{0,120}targets\.filter\(\(t\) =>/.test(src[f]),
+      '식별자 대조 방식이 되살아났다');
     assert.ok(/\bfailed,/.test(src[f]), 'return 에 failed 가 없다 — 실패가 화면까지 전달되지 않는다');
     assert.ok(/coverage: \{[^}]*failed: failed\.length/.test(src[f]),
       'coverage.failed 가 없다 — done+failed+pending = total 이 깨진다');

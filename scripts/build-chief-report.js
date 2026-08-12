@@ -165,7 +165,14 @@ async function main() {
 
   // ── 3) 마크다운 리포트에 실장 종합을 덧붙인다 ──
   const mdFile = path.join(paths.reportsDir, `${dateStr}-breakout.md`);
+  const CHIEF_MARK = '\n---\n\n## 🧑‍💼 실장 종합 (LLM)';
   if (payload.chief && fs.existsSync(mdFile)) {
+    // ⚠️ append 라서 이 스크립트를 두 번 돌리면 실장 절이 두 번 붙는다 (2026-08-12 실제 발생).
+    //    붙이기 전에 기존 실장 절을 잘라내 항상 한 벌만 남게 한다.
+    const prev = fs.readFileSync(mdFile, 'utf8');
+    const at = prev.indexOf(CHIEF_MARK);
+    if (at >= 0) fs.writeFileSync(mdFile, prev.slice(0, at), 'utf8');
+
     const c = payload.chief;
     const L = [];
     L.push('');

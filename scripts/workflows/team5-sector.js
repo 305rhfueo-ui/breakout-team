@@ -91,9 +91,13 @@ const SUM = { type: 'object', properties: {
 }, required: ['rotationView', 'strongest'] }
 
 const clean = analyzed.filter(Boolean)
-// 재시도까지 하고도 결과가 없는 업종 = 실패. 식별자는 key 다.
-const gotKeys = new Set(clean.map((x) => x.key))
-const failed = targets.filter((t) => !gotKeys.has(t.key)).map((t) => t.key)
+// 재시도까지 하고도 결과가 없는 업종 = 실패.
+// ⚠️ 반환값의 key 로 대조하면 안 된다. 스키마가 key 를 required 로 걸어도 모델이 입력값을
+//    그대로 주지 않는다 — 실측(2026-08-12): "Technology|Computer Hardware" 를 넣었는데
+//    "technology-computer-hardware" 를 돌려줬고, 그 결과 성공한 6건이 전부 실패로 표시됐다.
+//    parallel 은 입력 순서를 보존하므로 인덱스로 판정한다. 이게 유일하게 확실한 방법이다.
+const failed = targets.filter((t, i) => !analyzed[i]).map((t) => t.key)
+const gotKeys = new Set(targets.filter((t, i) => analyzed[i]).map((t) => t.key))
 if (failed.length) log(`⚠️ 업종 조사 실패 ${failed.length}건: ${failed.join(', ')}`)
 
 const summary = await tryAgent(
