@@ -46,16 +46,16 @@ window.TEAM4_DATA = {
                 "publisher": "GlobeNewswire",
                 "url": "https://www.globenewswire.com/news-release/2026/08/04/3338124/27734/en/Kimco-Realty-Announces-Second-Quarter-2026-Results.html",
                 "date": "2026-08-04",
-                "verified": "unverified",
-                "httpStatus": 0
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Kimco Realty Q2 Earnings: FFO $0.46, Outlook Up",
                 "publisher": "StockTitan",
                 "url": "https://www.stocktitan.net/news/KIM/kimco-realty-announces-second-quarter-2026-f02ce6jikj4b.html",
                 "date": "2026-08-04",
-                "verified": "unverified",
-                "httpStatus": 429
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -109,8 +109,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.nasdaq.com/press-release/nayax-report-2026-q2-earnings-august-10-2026-2026-07-21",
                 "date": "2026-07-21",
                 "quote": "Nayax to Report 2026 Q2 Earnings on August 10, 2026",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -125,8 +125,8 @@ window.TEAM4_DATA = {
                 "url": "https://ir.nayax.com/news/news-details/2026/Nayax-Reports-Second-Quarter-2026-Results/default.aspx",
                 "date": "2026-08-10",
                 "quote": "Revenue grew 28% to $123 million",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -141,8 +141,8 @@ window.TEAM4_DATA = {
                 "url": "https://ir.nayax.com/news/news-details/2026/Nayax-Reports-Second-Quarter-2026-Results/default.aspx",
                 "date": "2026-08-10",
                 "quote": "Basic adjusted earnings per share were $0.161; diluted were $0.144",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Nayax Ltd (NYAX) Q2 2026 Earnings Report Preview: What To Look For",
@@ -150,8 +150,8 @@ window.TEAM4_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/nayax-ltd-nyax-q2-2026-131701466.html",
                 "date": "2026-08-10",
                 "quote": "The consensus estimate for Q2 2026 revenue is 121.80 million, and earnings are expected to come in at 0.11 per share",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -166,8 +166,8 @@ window.TEAM4_DATA = {
                 "url": "https://ir.nayax.com/news/news-details/2026/Nayax-Reports-Second-Quarter-2026-Results/default.aspx",
                 "date": "2026-08-10",
                 "quote": "Nayax is reaffirming its financial outlook for 2026 ... a loss of $10.1 million for the quarter",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Nayax reaffirms 2026 guidance of $510M-$520M revenue while revising free cash flow conversion to 5%-10%",
@@ -175,8 +175,8 @@ window.TEAM4_DATA = {
                 "url": "https://seekingalpha.com/news/4630164-nayax-reaffirms-2026-guidance-of-510m-520m-revenue-while-revising-free-cash-flow-conversion",
                 "date": "2026-08-10",
                 "quote": "Nayax reaffirms 2026 guidance of $510M-$520M revenue while revising free cash flow conversion to 5%-10%",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -233,16 +233,16 @@ window.TEAM4_DATA = {
                 "publisher": "StockTitan (SEC 8-K, 2026-07-29)",
                 "url": "https://www.sec.gov/Archives/edgar/data/0000912595/000119312526323756/maa-20260729.htm",
                 "date": "2026-07-29",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "MARKET UPDATE - REITs Have Rallied. Their Preferred Shares Have Been Left Behind",
                 "publisher": "High Yield Landlord (Seeking Alpha)",
                 "url": "https://www.high-yield-landlord.com/p/market-update-reits-have-rallied",
                 "date": "2026",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -302,8 +302,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.globenewswire.com/news-release/2026/08/06/3340801/0/en/ryman-hospitality-properties-inc-reports-second-quarter-2026-results.html",
                 "date": "2026-08-06",
                 "quote": "all-time quarterly record consolidated revenue of $749.0 million",
-                "verified": "unverified",
-                "httpStatus": 0
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Ryman Hospitality Properties (RHP) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates",
@@ -311,8 +311,8 @@ window.TEAM4_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/ryman-hospitality-properties-rhp-q2-000004160.html",
                 "date": "2026-08-06",
                 "quote": "earnings of $2.77 per share, beating estimates of $1.35 by $1.42",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Ryman Hospitality Properties, Inc. - Form 8-K - FY2026",
@@ -320,8 +320,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.sec.gov/Archives/edgar/data/0001040829/000110465926092380/tmb-20260806x8k.htm",
                 "date": "2026-08-06",
                 "quote": "Item 2.02 Results of Operations and Financial Condition",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -336,8 +336,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.globenewswire.com/news-release/2026/08/10/3341645/0/en/ryman-hospitality-properties-inc-to-acquire-grande-lakes-orlando-resort-for-1-38-billion.html",
                 "date": "2026-08-10",
                 "quote": "definitive agreement to purchase the fee simple interest in Grande Lakes Orlando Resort",
-                "verified": "unverified",
-                "httpStatus": 0
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -351,24 +351,24 @@ window.TEAM4_DATA = {
                 "publisher": "GlobeNewswire (회사 공식 보도자료)",
                 "url": "https://www.globenewswire.com/news-release/2026/08/10/3341708/0/en/ryman-hospitality-properties-inc-announces-offering-of-5-100-000-shares-of-common-stock.html",
                 "date": "2026-08-10",
-                "verified": "unverified",
-                "httpStatus": 0
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Ryman Hospitality Properties, Inc. Announces Pricing of Common Stock Offering",
                 "publisher": "GlobeNewswire (회사 공식 보도자료)",
                 "url": "https://www.globenewswire.com/news-release/2026/08/11/3342368/0/en/ryman-hospitality-properties-inc-announces-pricing-of-common-stock-offering.html",
                 "date": "2026-08-11",
-                "verified": "unverified",
-                "httpStatus": 0
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Ryman Hospitality Properties, Inc. Announces Proposed $700 Million Senior Notes Offering",
                 "publisher": "GlobeNewswire (회사 공식 보도자료)",
                 "url": "https://www.globenewswire.com/news-release/2026/08/11/3342609/0/en/ryman-hospitality-properties-inc-announces-proposed-700-million-senior-notes-offering.html",
                 "date": "2026-08-11",
-                "verified": "unverified",
-                "httpStatus": 0
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -419,8 +419,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.stocktitan.net/news/NEN/new-england-realty-associates-lp-announces-third-quarter-h4ef9onfzx2u.html",
                 "date": "2026-08-07",
                 "quote": "New England Realty Associates declared a third-quarter 2026 distribution of $12.00 per Class A Unit and $0.40 per Depositary Receipt.",
-                "verified": "unverified",
-                "httpStatus": 429
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -483,8 +483,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.globenewswire.com/news-release/2026/08/05/3339183/0/en/Kymera-Therapeutics-Announces-Second-Quarter-2026-Financial-Results-and-Provides-a-Business-Update.html",
                 "date": "2026-08-05",
                 "quote": "Enrollment completed in KT-621 (STAT6) BROADEN2 Phase 2b AD trial nearly six months ahead of anticipated timeline, with data expected by year-end 2026",
-                "verified": "unverified",
-                "httpStatus": 0
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Kymera Q2 Earnings: Loss Narrows to $61.2M",
@@ -492,8 +492,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.stocktitan.net/news/KYMR/kymera-therapeutics-announces-second-quarter-2026-financial-results-3zzlf61ofkvf.html",
                 "date": "2026-08-05",
                 "quote": "collaboration revenue of $65.0 million, up from $11.5 million a year earlier, driven by a $45 million option exercise fee from Gilead for KT-200 and a $20 million milestone from Sanofi for KT-485",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Kymera Therapeutics, Inc. - Form 8-K - FY2026",
@@ -501,8 +501,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.sec.gov/Archives/edgar/data/0001815442/000119312526333834/kymr-20260805.htm",
                 "date": "2026-08-05",
                 "quote": "Kymera hosted a video conference call on August 5, 2026, at 8:30 a.m. ET",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Oppenheimer raises Kymera Therapeutics price target on trial timing",
@@ -510,8 +510,8 @@ window.TEAM4_DATA = {
                 "url": "https://m.investing.com/news/analyst-ratings/oppenheimer-raises-kymera-therapeutics-price-target-on-trial-timing-93CH-4839067?ampMode=1",
                 "date": "2026-08-05",
                 "quote": "Oppenheimer analyst Jeff Jones raised the price target on Kymera Therapeutics (NASDAQ: KYMR) to $125.00 (from $120.00) while maintaining an Outperform rating",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -562,8 +562,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.investing.com/news/earnings/sea-limited-stock-surges-9-on-strong-revenue-growth-93CH-4851185",
                 "date": "2026-08-11",
                 "quote": "Revenue totaled $7.79 billion, surpassing the $7.06 billion consensus estimate from LSEG. Sea surpassed consensus by approximately $728 million, or 10.3%.",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -578,8 +578,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.investing.com/news/stock-market-news/why-is-sea-stock-surging-today-93CH-4851997",
                 "date": "2026-08-11",
                 "quote": "Shares of Sea Limited surged 13.75% on Tuesday following quarterly revenue that exceeded forecasts. The stock was at $130.59 as of 3:45 p.m. EDT.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -594,8 +594,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.bloomberg.com/news/articles/2026-08-11/sea-raises-e-commerce-profit-forecast-after-sales-beat-estimates",
                 "date": "2026-08-11",
                 "quote": "the Singapore-based firm predicted $1 billion in adjusted earnings before interest, taxes, depreciation and amortization for online-retail arm Shopee this year. It had previously forecast at least $880.6 million, and analysts were expecting $980.7 million on average.",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -646,8 +646,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.prnewswire.com/news-releases/cardinal-infrastructure-group-inc-reports-second-quarter-2026-results-and-updates-2026-outlook-announces-acquisition-of-allied-paving-302847652.html",
                 "date": "2026-08-11",
                 "quote": "Cardinal Infrastructure Group Inc. Reports Second Quarter 2026 Results and Updates 2026 Outlook, Announces Acquisition of Allied Paving",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -662,8 +662,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.stocktitan.net/news/CDNL/cardinal-infrastructure-group-inc-reports-second-quarter-2026-8ftg243wpsm2.html",
                 "date": "2026-08-11",
                 "quote": "2026년 매출 전망을 \"$880~$900백만\"으로 상향 조정하고, 조정 EBITDA 마진 목표를 \"16~18%\"로 설정했습니다.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -678,8 +678,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.investing.com/news/company-news/cardinal-infrastructure-q2-2026-slides-show-record-growth-margin-pressure-93CH-4852258",
                 "date": "2026-08-11",
                 "quote": "Adjusted EBITDA rose 43% to $28.1 million, but the margin fell to 12.4% from 18.6% due to higher labor and equipment costs, project delays, underutilized crews and severe Georgia weather.",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -694,8 +694,8 @@ window.TEAM4_DATA = {
                 "url": "https://kalkinemedia.com/us/stocks/infrastructure-and-real-estate/cardinal-infrastructure-group-nasdaqcdnl-what-could-todays-update-reveal-about-infrastructure-backlog-and-project-execution",
                 "date": "2026-08-11",
                 "quote": "As of August 11, 2026, CDNL stock was trading at $38.27, down 36.22%, and the share price dipped by 26.00% as of Tuesday, August 11.",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -745,8 +745,8 @@ window.TEAM4_DATA = {
                 "publisher": "GlobeNewswire",
                 "url": "https://www.globenewswire.com/news-release/2026/08/03/3337432/30771/en/mesa-labs-announces-first-quarter-financial-results-release-date-and-inaugural-earnings-conference-call.html",
                 "date": "2026-08-03",
-                "verified": "unverified",
-                "httpStatus": 0
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -760,16 +760,16 @@ window.TEAM4_DATA = {
                 "publisher": "StockTitan",
                 "url": "https://www.stocktitan.net/news/MLAB/mesa-labs-announces-first-quarter-financial-results-release-date-and-p31g45nn070a.html",
                 "date": "2026-08-10",
-                "verified": "unverified",
-                "httpStatus": 429
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Mesa Laboratories Inc (MLAB) (Q1 2027) Earnings Call Highlights: Margin Expansion and Debt Reduction",
                 "publisher": "Yahoo Finance",
                 "url": "https://finance.yahoo.com/markets/stocks/articles/mesa-laboratories-inc-mlab-q1-050412982.html",
                 "date": "2026-08-10",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -783,8 +783,8 @@ window.TEAM4_DATA = {
                 "publisher": "StockAnalysis.com",
                 "url": "https://stockanalysis.com/stocks/mlab/",
                 "date": "2026-08-11",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -798,8 +798,8 @@ window.TEAM4_DATA = {
                 "publisher": "Yahoo Finance",
                 "url": "https://finance.yahoo.com/markets/stocks/articles/mesa-laboratories-inc-mlab-q1-050412982.html",
                 "date": "2026-08-10",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }

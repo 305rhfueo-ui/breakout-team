@@ -493,8 +493,8 @@ window.TEAM1_DATA = {
             "publisher": "CNBC",
             "url": "https://www.cnbc.com/2026/08/11/an-inflation-report-wednesday-should-be-a-big-deal-for-the-fed-heres-what-to-expect.html",
             "date": "2026-08-11",
-            "verified": "ok",
-            "httpStatus": 200
+            "verified": "unchecked",
+            "httpStatus": null
           }
         ]
       },
@@ -509,16 +509,16 @@ window.TEAM1_DATA = {
             "publisher": "CNBC",
             "url": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
             "date": "2026-08-11",
-            "verified": "ok",
-            "httpStatus": 200
+            "verified": "unchecked",
+            "httpStatus": null
           },
           {
             "title": "CoreWeave's stock soars as earnings show major AI momentum",
             "publisher": "MarketWatch",
             "url": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
             "date": "2026-08-11",
-            "verified": "unverified",
-            "httpStatus": 401
+            "verified": "unchecked",
+            "httpStatus": null
           }
         ]
       },
@@ -533,8 +533,8 @@ window.TEAM1_DATA = {
             "publisher": "CNBC",
             "url": "https://www.cnbc.com/2026/08/11/nvidia-ai-funding-jensen-huang-china-risk.html",
             "date": "2026-08-11",
-            "verified": "ok",
-            "httpStatus": 200
+            "verified": "unchecked",
+            "httpStatus": null
           }
         ]
       },
@@ -549,8 +549,8 @@ window.TEAM1_DATA = {
             "publisher": "MarketWatch",
             "url": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89?mod=mw_rss_topstories",
             "date": "2026-08-11",
-            "verified": "unverified",
-            "httpStatus": 401
+            "verified": "unchecked",
+            "httpStatus": null
           }
         ]
       },
@@ -565,8 +565,8 @@ window.TEAM1_DATA = {
             "publisher": "MarketWatch",
             "url": "https://www.marketwatch.com/story/lumentum-sees-sales-more-than-double-as-ai-demand-swells-6ebe6ef1?mod=mw_rss_topstories",
             "date": "2026-08-11",
-            "verified": "ok",
-            "httpStatus": 200
+            "verified": "unchecked",
+            "httpStatus": null
           }
         ]
       },
@@ -581,8 +581,8 @@ window.TEAM1_DATA = {
             "publisher": "CNBC",
             "url": "https://www.cnbc.com/2026/08/11/gm-makes-4point5-billion-parts-deal-to-bolster-supply-chain.html",
             "date": "2026-08-11",
-            "verified": "ok",
-            "httpStatus": 200
+            "verified": "unchecked",
+            "httpStatus": null
           }
         ]
       }
@@ -603,16 +603,11 @@ window.TEAM1_DATA = {
     "candidateCount": 12,
     "verified": {
       "checked": 126,
-      "ok": 117,
-      "unverified": 37,
-      "dead": 1,
+      "ok": 0,
+      "unverified": 0,
+      "dead": 0,
       "stripped": 0,
-      "removed": [
-        {
-          "reason": "링크 죽음(HTTP 404)",
-          "url": "https://thenextweb.com/news/crowdstrike-palo-alto-record-highs-black-hat-ai-agents"
-        }
-      ]
+      "removed": []
     },
     "reusedFrom": null
   }

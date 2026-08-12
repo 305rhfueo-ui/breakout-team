@@ -106,8 +106,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/atlassian-s-profitability-breakthrough-sparks-a-wall-street-reckoning/69937627",
                 "date": "2026-08-11",
                 "quote": "upgraded the stock from Neutral to Buy, lifting his price target from $105 to $175",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -122,8 +122,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.nasdaq.com/articles/saaspocalypse-not-atlassian-stock-which-has-now-soared-166-its-52-week-low",
                 "date": "2026-08-11",
                 "quote": "SaaSpocalypse? Not for Atlassian Stock, Which Has Now Soared 166% From Its 52-Week Low.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -142,8 +142,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/atlassian-s-profitability-breakthrough-sparks-a-wall-street-reckoning/69937627",
                   "date": "2026-08-11",
                   "quote": "upgraded the stock from Neutral to Buy, lifting his price target from $105 to $175",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unchecked",
+                  "httpStatus": null
                 }
               ]
             },
@@ -158,8 +158,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/atlassian-s-profitability-breakthrough-sparks-a-wall-street-reckoning/69937627",
                   "date": "2026-08-11",
                   "quote": "raising his target from $110 to $200 while keeping an Outperform rating",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unchecked",
+                  "httpStatus": null
                 }
               ]
             },
@@ -174,8 +174,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/atlassian-s-profitability-breakthrough-sparks-a-wall-street-reckoning/69937627",
                   "date": "2026-08-11",
                   "quote": "Baird, KeyBanc, Guggenheim, Wells Fargo, Morgan Stanley, Citi, Truist, BTIG, Raymond James, and TD Cowen all followed with target hikes ranging from $145 to $200",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unchecked",
+                  "httpStatus": null
                 }
               ]
             },
@@ -189,24 +189,24 @@ window.TEAM2_DATA = {
                   "publisher": "TipRanks (The Fly)",
                   "url": "https://www.tipranks.com/news/the-fly/atlassian-price-target-raised-to-304-from-264-at-cantor-fitzgerald",
                   "date": "2026-08-07",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unchecked",
+                  "httpStatus": null
                 },
                 {
                   "title": "atlassian price target raised to 375 from 285 at canaccord",
                   "publisher": "TipRanks (The Fly)",
                   "url": "https://www.tipranks.com/news/the-fly/atlassian-price-target-raised-to-375-from-285-at-canaccord",
                   "date": "2026-08-07",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unchecked",
+                  "httpStatus": null
                 },
                 {
                   "title": "atlassian price target raised to 315 from 260 at keybanc",
                   "publisher": "TipRanks (The Fly)",
                   "url": "https://www.tipranks.com/news/the-fly/atlassian-price-target-raised-to-315-from-260-at-keybanc",
                   "date": "2026-08-07",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unchecked",
+                  "httpStatus": null
                 }
               ]
             }
@@ -227,8 +227,8 @@ window.TEAM2_DATA = {
               "url": "https://www.marketbeat.com/stocks/NASDAQ/TEAM/earnings/",
               "date": "2026-08-12",
               "quote": "Atlassian's next earnings date is estimated for Thursday, October 29, 2026, based on past reporting schedules.",
-              "verified": "ok",
-              "httpStatus": 200
+              "verified": "unchecked",
+              "httpStatus": null
             }
           ]
         },
@@ -2234,8 +2234,8 @@ window.TEAM2_DATA = {
                 "url": "https://stockstotrade.com/news/qualys-inc-qlys-news-2026_08_05/",
                 "date": "2026-08-05",
                 "quote": "Q2 revenue of $182.2M, edging past expectations, with adjusted EPS of $1.98 versus $1.78 consensus",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -2250,8 +2250,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/qualys-q2-earnings-beat-channel-150000511.html",
                 "date": "2026-08-05",
                 "quote": "Management increased its full-year 2026 revenue guidance to $732-$738 million from $721-$727 million.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -2266,8 +2266,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.theglobeandmail.com/investing/markets/stocks/QLYS/pressreleases/3687402/analysts-offer-insights-on-technology-companies-qualys-qlys-entegris-entg-and-lattice-semiconductor-lscc/",
                 "date": "2026-08-06",
                 "quote": "Qualys price target raised to $170 from $145 at TD Cowen",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -2282,8 +2282,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/qualys-inc-qlys-q2-2026-050140231.html",
                 "date": "2026-08-05",
                 "quote": "the newly announced Agent Insta enables instantaneous, scanless detection within minutes of a new advisory",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -2302,8 +2302,8 @@ window.TEAM2_DATA = {
                   "url": "https://finance.yahoo.com/markets/stocks/articles/qualys-q2-earnings-beat-channel-150000511.html",
                   "date": "2026-08-05",
                   "quote": "Non-GAAP earnings are now projected between $7.74 and $7.88 per share, up from the prior forecast of $7.44-$7.65.",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unchecked",
+                  "httpStatus": null
                 }
               ]
             },
@@ -2318,8 +2318,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.theglobeandmail.com/investing/markets/stocks/QLYS/pressreleases/3687402/analysts-offer-insights-on-technology-companies-qualys-qlys-entegris-entg-and-lattice-semiconductor-lscc/",
                   "date": "2026-08-06",
                   "quote": "Qualys price target raised to $185 from $150 at Jefferies",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unchecked",
+                  "httpStatus": null
                 }
               ]
             }
@@ -3075,8 +3075,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.tradingview.com/news/zacks:9c4c762b8094b:0-bandwidth-q2-earnings-call-highlights-ai-shift-2026-outlook-raised/",
                 "date": "2026-08-11",
                 "quote": "The company reported revenues of $219.9 million, which exceeded the Zacks Consensus Estimate of $217 million, while non-GAAP EPS of $0.37 surpassed the Zacks Consensus Estimate of $0.36.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -3091,8 +3091,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.tradingview.com/news/zacks:9c4c762b8094b:0-bandwidth-q2-earnings-call-highlights-ai-shift-2026-outlook-raised/",
                 "date": "2026-08-11",
                 "quote": "Morken noted that Bandwidth secured five new $1 million-plus customer wins and expansions in the second quarter, with all including Maestro or AI services.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -3107,8 +3107,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.tradingview.com/news/zacks:9c4c762b8094b:0-bandwidth-q2-earnings-call-highlights-ai-shift-2026-outlook-raised/",
                 "date": "2026-08-11",
                 "quote": "Bandwidth raised full-year 2026 guidance, citing sustained demand strength and improving profitability. Revenues are now expected to be between $900 million and $910 million.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Bandwidth (BAND) Is Up 27.6% After Raising 2026 Revenue Guidance and Returning More Capital",
@@ -3116,8 +3116,8 @@ window.TEAM2_DATA = {
                 "url": "https://simplywall.st/stocks/us/telecom/nasdaq-band/bandwidth/news/bandwidth-band-is-up-276-after-raising-2026-revenue-guidance",
                 "date": "2026-08-10",
                 "quote": "Bandwidth is pairing improved profitability and higher 2026 guidance with greater balance-sheet flexibility and active capital returns",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -3132,8 +3132,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.tradingview.com/news/zacks:7ca9671a6094b:0-bandwidth-stock-rises-21-7-in-a-week-can-the-rally-still-continue/",
                 "date": "2026-08-11",
                 "quote": "AI is becoming a more prominent part of Bandwidth's customer discussions, and the company is expanding products around that demand.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "B.Riley raises Bandwidth stock price target on AI voice growth",
@@ -3141,8 +3141,8 @@ window.TEAM2_DATA = {
                 "url": "https://ca.investing.com/news/stock-market-news/briley-raises-bandwidth-stock-price-target-on-ai-voice-growth-93CH-4726763",
                 "date": "2026-07-09",
                 "quote": "The firm cited advances in AI voice technology that it expects will accelerate demand for Bandwidth's services.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -3161,8 +3161,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.dailypolitical.com/2026/07/31/bandwidth-nasdaqband-releases-fy-2026-earnings-guidance.html",
                   "date": "2026-07-31",
                   "quote": "The company provided EPS guidance of 1.710-1.790 for the period, compared to the consensus EPS estimate of 1.550.",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unchecked",
+                  "httpStatus": null
                 }
               ]
             },
@@ -3177,8 +3177,8 @@ window.TEAM2_DATA = {
                   "url": "https://ca.investing.com/news/stock-market-news/briley-raises-bandwidth-stock-price-target-on-ai-voice-growth-93CH-4726763",
                   "date": "2026-07-09",
                   "quote": "B.Riley slightly increased its fiscal 2027 estimates to reflect higher growth fueled by these technological developments.",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unchecked",
+                  "httpStatus": null
                 }
               ]
             }
@@ -3199,8 +3199,8 @@ window.TEAM2_DATA = {
               "url": "https://altindex.com/earnings-calendar/band",
               "date": "2026-08",
               "quote": "Wednesday, October 28, 2026",
-              "verified": "ok",
-              "httpStatus": 200
+              "verified": "unchecked",
+              "httpStatus": null
             }
           ]
         },
@@ -4324,8 +4324,8 @@ window.TEAM2_DATA = {
                 "url": "https://futurumgroup.com/insights/dell-q1-fy-2027-ai-server-demand-drives-raised-fy-2027-outlook/",
                 "date": "2026-06-03",
                 "quote": "We're increasing our AI server revenue expectations for FY27 to $60 billion, which only goes to show the AI opportunity shows no signs of slowing.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -4340,8 +4340,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.tradingkey.com/news/market-movers/262074049-market-movers-dell-20260804",
                 "date": "2026-08-04",
                 "quote": "market sentiment remains bullish with an average analyst price target of $495.43",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -4356,8 +4356,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-upgraded-strong-160004515.html",
                 "date": "2026-06-04",
                 "quote": "Analysts have been steadily raising their estimates for Dell Technologies. Over the past three months, the Zacks Consensus Estimate for the company has increased 9.7%.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -4372,8 +4372,8 @@ window.TEAM2_DATA = {
                 "url": "https://rreport.einfomax.co.kr/report/eqlciziegxilkkggcgxcleg.pdf",
                 "date": "2026-06-02",
                 "quote": "매출 $43.8B(+88%), EPS $4.86(+214%)로 컨센서스 60% 이상 상회",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "델 테크놀로지스 (NYS:DELL) Go out and buy a Dell",
@@ -4381,8 +4381,8 @@ window.TEAM2_DATA = {
                 "url": "https://rreport.einfomax.co.kr/report/eqlcciqxcilleikgcgxcleg.pdf",
                 "date": "2026-05-29",
                 "quote": "실적발표 이후 40% 주가 상승. 단순 AI 서버 OEM에서 플랫폼 기업으로 확장. 커버리지 내 최선호주 제시",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -4401,8 +4401,8 @@ window.TEAM2_DATA = {
                   "url": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-upgraded-strong-160004515.html",
                   "date": "2026-06-04",
                   "quote": "Analysts have been steadily raising their estimates for Dell Technologies. Over the past three months, the Zacks Consensus Estimate for the company has increased 9.7%.",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unchecked",
+                  "httpStatus": null
                 }
               ]
             },
@@ -4417,8 +4417,8 @@ window.TEAM2_DATA = {
                   "url": "https://futurumgroup.com/insights/dell-q1-fy-2027-ai-server-demand-drives-raised-fy-2027-outlook/",
                   "date": "2026-06-03",
                   "quote": "We're increasing our AI server revenue expectations for FY27 to $60 billion, which only goes to show the AI opportunity shows no signs of slowing.",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unchecked",
+                  "httpStatus": null
                 }
               ]
             }
@@ -4439,8 +4439,8 @@ window.TEAM2_DATA = {
               "url": "https://stockanalysis.com/stocks/dell/",
               "date": "2026-08-12",
               "quote": "Earnings Date Sep 3, 2026",
-              "verified": "ok",
-              "httpStatus": 200
+              "verified": "unchecked",
+              "httpStatus": null
             }
           ]
         },
@@ -7566,8 +7566,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/okta-q1-fiscal-2027-earnings-120640188.html",
                 "date": "2026-05-29",
                 "quote": "Okta reported first-quarter revenue of $765 million, beating analyst expectations of $752 million.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Okta soars on Q1 earnings beat, raised outlook driven by AI security demand",
@@ -7575,8 +7575,8 @@ window.TEAM2_DATA = {
                 "url": "https://sherwood.news/markets/okta-soars-on-q1-earnings-beat-raised-outlook-driven-by-ai-security-demand/",
                 "date": "2026-05-29",
                 "quote": "The strong results are fueled by accelerating corporate demand for cybersecurity software, as well as the deployment of autonomous AI systems.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -7591,8 +7591,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/okta-q1-fiscal-2027-earnings-120640188.html",
                 "date": "2026-05-29",
                 "quote": "For the full fiscal year 2027, Okta raised its revenue guidance to a range of $3.185 billion to $3.205 billion, representing growth of 9% to 10%.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -7607,8 +7607,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/okta-q1-fiscal-2027-earnings-120640188.html",
                 "date": "2026-05-29",
                 "quote": "AI agents are becoming a new workforce inside organizations, creating a wave of identities that must be secured.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Okta (OKTA) Is Considered a Good Investment by Brokers: Is That True?",
@@ -7616,8 +7616,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.nasdaq.com/articles/okta-okta-considered-good-investment-brokers-true",
                 "date": "2026-08-11",
                 "quote": "Okta (OKTA) Is Considered a Good Investment by Brokers: Is That True?",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -7632,8 +7632,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.tikr.com/blog/okta-is-betting-200-million-that-ai-agents-need-its-identity-layer-is-the-stock-still-worth-buying",
                 "date": "2026-08-10",
                 "quote": "Wells Fargo lifted its target to $150 from $100, Capital One upgraded to Overweight at $171, and Scotiabank moved to Outperform at $165",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "OKTA Maintained by Oppenheimer -- Price Target Raised to $170",
@@ -7641,8 +7641,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.gurufocus.com/news/9024706/okta-maintained-by-oppenheimer-price-target-raised-to-170",
                 "date": "2026-08-10",
                 "quote": "Oppenheimer raised the price target for Okta Inc (NASDAQ:OKTA) from $125 to $170, with analyst Shaul Eyal maintaining an Outperform rating.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -7661,8 +7661,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.gurufocus.com/news/9024706/okta-maintained-by-oppenheimer-price-target-raised-to-170",
                   "date": "2026-08-10",
                   "quote": "Oppenheimer raised the price target for Okta Inc (NASDAQ:OKTA) from $125 to $170, with analyst Shaul Eyal maintaining an Outperform rating.",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unchecked",
+                  "httpStatus": null
                 },
                 {
                   "title": "Okta Is Betting $200 Million That AI Agents Need Its Identity Layer. Is the Stock Still Worth Buying?",
@@ -7670,8 +7670,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.tikr.com/blog/okta-is-betting-200-million-that-ai-agents-need-its-identity-layer-is-the-stock-still-worth-buying",
                   "date": "2026-08-10",
                   "quote": "Wells Fargo lifted its target to $150 from $100, Capital One upgraded to Overweight at $171, and Scotiabank moved to Outperform at $165",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unchecked",
+                  "httpStatus": null
                 }
               ]
             },
@@ -7686,8 +7686,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.tikr.com/blog/okta-is-betting-200-million-that-ai-agents-need-its-identity-layer-is-the-stock-still-worth-buying",
                   "date": "2026-08-10",
                   "quote": "the average Wall Street target remains at approximately $129, below the current trading price of $148.32",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unchecked",
+                  "httpStatus": null
                 }
               ]
             }
@@ -7708,8 +7708,8 @@ window.TEAM2_DATA = {
               "url": "https://finance.yahoo.com/quote/OKTA/press-releases/",
               "date": "2026-08-11",
               "quote": "Okta will release its second quarter fiscal year 2027 financial results for the period ended July 31, 2026 after the U.S. market close on Wednesday, August 26, 2026.",
-              "verified": "unverified",
-              "httpStatus": 500
+              "verified": "unchecked",
+              "httpStatus": null
             }
           ]
         },
@@ -8469,8 +8469,8 @@ window.TEAM2_DATA = {
               "url": "https://www.stocktitan.net/news/P/everpure-announces-date-and-conference-call-information-for-second-9a5e5chu7zsi.html",
               "date": "2026-08-05",
               "quote": "Everpure will report its Q2 FY2027 financial results on August 26, 2026",
-              "verified": "ok",
-              "httpStatus": 200
+              "verified": "unchecked",
+              "httpStatus": null
             }
           ]
         },
@@ -9767,8 +9767,8 @@ window.TEAM2_DATA = {
                 "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-10-palo-alto-networks-panw-stock-is-up-what-you-need-to-know",
                 "date": "2026-08-10",
                 "quote": "Investors are now realizing that as AI models become more dangerous and autonomous, corporations will need more robust, AI-native defense platforms to counter them.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -9783,8 +9783,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.prnewswire.com/news-releases/palo-alto-networks-reports-fiscal-third-quarter-2026-financial-results-302789148.html",
                 "date": "2026-06-02",
                 "quote": "Total revenue for the fiscal third quarter 2026 grew 31% year over year to $3.0 billion",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -9799,8 +9799,8 @@ window.TEAM2_DATA = {
                 "url": "https://cybersecuritynews.com/palo-alto-networks-and-cyberark/",
                 "date": "2026-02-11",
                 "quote": "The emerging wave of AI agents will require us to secure every identity, human, machine, and agent.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -9815,8 +9815,8 @@ window.TEAM2_DATA = {
                 "url": "https://stockanalysis.com/stocks/panw/forecast/",
                 "date": "2026-08-06",
                 "quote": "8/5 Saket Kalia Barclays $315.00 -> $370.00 / 8/4 Ittai Kidron Oppenheimer $350.00 -> $400.00 / 8/6 Shaul Eyal TD Cowen $330.00 -> $360.00",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -9835,8 +9835,8 @@ window.TEAM2_DATA = {
                   "url": "https://stockanalysis.com/stocks/panw/forecast/",
                   "date": "2026-08-06",
                   "quote": "8/5 Saket Kalia Barclays $315.00 -> $370.00 / 8/4 Ittai Kidron Oppenheimer $350.00 -> $400.00",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unchecked",
+                  "httpStatus": null
                 }
               ]
             }
@@ -9858,8 +9858,8 @@ window.TEAM2_DATA = {
               "url": "https://www.stocktitan.net/news/PANW/palo-alto-networks-to-announce-fiscal-fourth-quarter-and-fiscal-year-3zilivv906w6.html",
               "date": "2026-08-01",
               "quote": "Palo Alto Networks (NASDAQ: PANW) will release its fiscal fourth quarter and full fiscal year 2026 results, for the period ended July 31, 2026, after U.S. markets close on Tuesday, September 1, 2026.",
-              "verified": "ok",
-              "httpStatus": 200
+              "verified": "unchecked",
+              "httpStatus": null
             }
           ]
         },
@@ -10848,8 +10848,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.fool.com/investing/2026/08/09/twilio-raised-its-full-year-growth-guide-to-18-and/",
                 "date": "2026-08-09",
                 "quote": "Non-GAAP income from operations rose 29% year over year to $285 million",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Why Twilio (TWLO) Is Up 22.3% After Raising 2026 Guidance And Completing $1.2B Buyback",
@@ -10857,8 +10857,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/why-twilio-twlo-22-3-101146402.html",
                 "date": "2026-08-09",
                 "quote": "Twilio Inc. reported second‑quarter 2026 results with revenue of US$1,499.09 million and net income of US$1,067.21 million, alongside higher full‑year 2026 revenue growth guidance",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -10873,8 +10873,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.fool.com/investing/2026/08/09/twilio-raised-its-full-year-growth-guide-to-18-and/",
                 "date": "2026-08-09",
                 "quote": "Twilio now expects 2026 revenue to grow 18% to 18.5%, up from its prior outlook of 14% to 15%",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -10889,8 +10889,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/why-twilio-twlo-22-3-101146402.html",
                 "date": "2026-08-09",
                 "quote": "The company also completed a US$1.20 billion share repurchase program covering 10,634,845 shares, signaling management's confidence",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -10914,8 +10914,8 @@ window.TEAM2_DATA = {
               "url": "https://www.investing.com/equities/twilio-inc-a-earnings",
               "date": "2026-08-12",
               "quote": "On Oct 29, 2026",
-              "verified": "ok",
-              "httpStatus": 200
+              "verified": "unchecked",
+              "httpStatus": null
             }
           ]
         },
@@ -11861,8 +11861,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/why-netapp-ntap-26-4-081130000.html",
                 "date": "2026-06-03",
                 "quote": "fiscal 2027 guidance that points to higher operating margins and earnings per share, underpinned by growing demand tied to AI infrastructure and cloud-related storage deployments",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -11877,8 +11877,8 @@ window.TEAM2_DATA = {
                 "url": "https://ca.investing.com/news/stock-market-news/why-is-netapp-stock-gaining-28-today-93CH-4789467",
                 "date": "2026-08-10",
                 "quote": "soaring memory chip prices, fueled by AI infrastructure demand, are prompting enterprises to accelerate purchases of PCs, servers, and storage equipment",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "NetApp stock rating upgraded by Morgan Stanley on storage demand",
@@ -11886,8 +11886,8 @@ window.TEAM2_DATA = {
                 "url": "https://ca.investing.com/news/stock-market-news/netapp-stock-rating-upgraded-by-morgan-stanley-on-storage-demand-93CH-4789057",
                 "date": "2026-08-10",
                 "quote": "Morgan Stanley expects stronger storage spending and a more favorable revenue trajectory to drive earnings estimate revisions higher.",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -11902,8 +11902,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.sdxcentral.com/news/netapp-acquires-jetstream-to-bolster-vmware-disaster-recovery/",
                 "date": "2026-08-06",
                 "quote": "bringing JetStream into NetApp expands our ability to help keep their data secure, available, and ready for what comes next",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -11917,8 +11917,8 @@ window.TEAM2_DATA = {
                 "publisher": "Nasdaq (Zacks)",
                 "url": "https://www.nasdaq.com/articles/netapp-ntap-increases-despite-market-slip-heres-what-you-need-know",
                 "date": "2026-08-06",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -11937,8 +11937,8 @@ window.TEAM2_DATA = {
                   "url": "https://finance.yahoo.com/markets/stocks/articles/why-netapp-ntap-26-4-081130000.html",
                   "date": "2026-06-03",
                   "quote": "fiscal 2027 guidance that points to higher operating margins and earnings per share, underpinned by growing demand tied to AI infrastructure and cloud-related storage deployments",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unchecked",
+                  "httpStatus": null
                 }
               ]
             },
@@ -11953,8 +11953,8 @@ window.TEAM2_DATA = {
                   "url": "https://ca.investing.com/news/stock-market-news/netapp-stock-rating-upgraded-by-morgan-stanley-on-storage-demand-93CH-4789057",
                   "date": "2026-08-10",
                   "quote": "Morgan Stanley expects stronger storage spending and a more favorable revenue trajectory to drive earnings estimate revisions higher.",
-                  "verified": "unverified",
-                  "httpStatus": 403
+                  "verified": "unchecked",
+                  "httpStatus": null
                 }
               ]
             }
@@ -11970,8 +11970,8 @@ window.TEAM2_DATA = {
               "url": "https://finance.yahoo.com/markets/stocks/articles/netapp-hosts-first-quarter-fiscal-200100227.html",
               "date": "2026-08-12",
               "quote": "After market close on September 2, 2026, NetApp (NASDAQ: NTAP) will announce financial results for the first quarter of fiscal year 2027",
-              "verified": "ok",
-              "httpStatus": 200
+              "verified": "unchecked",
+              "httpStatus": null
             }
           ]
         },
@@ -12990,8 +12990,8 @@ window.TEAM2_DATA = {
                 "url": "https://markets.financialcontent.com/wral/article/stockstory-2026-8-10-why-is-crowdstrike-crwd-stock-rocketing-higher-today",
                 "date": "2026-08-10",
                 "quote": "The rally was ignited by a blockbuster earnings report from data analytics giant Palantir...acting as a rising tide that lifted dozens of high-growth tech peers",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -13006,8 +13006,8 @@ window.TEAM2_DATA = {
                 "url": "https://markets.financialcontent.com/wral/article/stockstory-2026-8-10-why-is-crowdstrike-crwd-stock-rocketing-higher-today",
                 "date": "2026-08-10",
                 "quote": "as AI models become more dangerous and autonomous, corporations will need more robust, AI-native defense platforms",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -13022,8 +13022,8 @@ window.TEAM2_DATA = {
                 "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-3-crowdstrike-crwd-stock-trades-up-here-is-why",
                 "date": "2026-08-03",
                 "quote": "AI is now embedded across modern adversary operations",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -13038,8 +13038,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-q1-2027-earnings-profit-114408133.html",
                 "date": "2026-06-04",
                 "quote": "management lifted its total revenue target to a range of $5.91 billion to $5.96 billion, revising upward from the previous forecast of $5.87 billion to $5.93 billion",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -13054,8 +13054,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.investing.com/news/analyst-ratings/ubs-raises-crowdstrike-stock-price-target-to-235-on-ai-growth-93CH-4779603",
                 "date": "2026-07-07",
                 "quote": "CrowdStrike is entering a new growth cycle driven by AI adoption and related cybersecurity challenges",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -13074,8 +13074,8 @@ window.TEAM2_DATA = {
                   "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-q1-2027-earnings-profit-114408133.html",
                   "date": "2026-06-04",
                   "quote": "Adjusted earnings guidance was similarly revised higher, moving to $4.88 to $4.96 per share from what had been a range of $4.78 to $4.90",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unchecked",
+                  "httpStatus": null
                 }
               ]
             },
@@ -13090,8 +13090,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.investing.com/news/analyst-ratings/piper-sandler-raises-crowdstrike-stock-price-target-on-arr-outlook-93CH-4726692",
                   "date": "2026-06-04",
                   "quote": "raised its net new annual recurring revenue expectations for the year by more than $50 million",
-                  "verified": "unverified",
-                  "httpStatus": 403
+                  "verified": "unchecked",
+                  "httpStatus": null
                 }
               ]
             }
@@ -13112,8 +13112,8 @@ window.TEAM2_DATA = {
               "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-first-quarter-fiscal-year-2027-financial",
               "date": "2026-06-03",
               "quote": "CrowdStrike's fiscal Q2 2027 results are scheduled to be released on August 26, 2026, following the U.S. market close.",
-              "verified": "ok",
-              "httpStatus": 200
+              "verified": "unchecked",
+              "httpStatus": null
             }
           ]
         },

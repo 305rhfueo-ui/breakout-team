@@ -540,24 +540,24 @@ window.TEAM5_DATA = {
                 "url": "https://futurumgroup.com/insights/dell-q2-fy-2026-results-show-19-revenue-jump-ai-server-shipments-surge/",
                 "date": "2025-09-02",
                 "quote": "Dell shipped $8.2 billion of AI servers during the quarter; ISG revenue up 44% YoY, servers and networking revenue up 69% YoY.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Dell stock skyrockets 32% for its best day ever as AI server revenue soars",
                 "publisher": "CNBC",
                 "url": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
                 "date": "2026-05-29",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Dell Stock Rises on Sales Outlook Fueled by AI Servers",
                 "publisher": "Bloomberg",
                 "url": "https://www.bloomberg.com/news/articles/2026-05-28/dell-boosts-outlook-to-60-billion-in-ai-server-sales-this-year",
                 "date": "2026-05-28",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -571,16 +571,16 @@ window.TEAM5_DATA = {
                 "publisher": "Seeking Alpha",
                 "url": "https://seekingalpha.com/news/4625688-samsung-sk-hynix-micron-sell-out-2027-memory-chip-supply-report",
                 "date": "2026",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "IDC warns PC market could shrink up to 9% in 2026 due to skyrocketing RAM pricing",
                 "publisher": "Tom's Hardware",
                 "url": "https://www.tomshardware.com/tech-industry/idc-warns-pc-market-could-shrink-up-to-9-percent-in-2026-due-to-skyrocketing-ram-pricing-even-moderate-forecast-hits-5-percent-drop-as-ai-driven-shortages-slam-into-pc-market",
                 "date": "2026",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -594,16 +594,16 @@ window.TEAM5_DATA = {
                 "publisher": "Trefis",
                 "url": "https://www.trefis.com/stock/stx/articles/597921/seagate-is-sold-out-through-2027-as-ai-reshapes-hard-drive-demand/2026-04-30",
                 "date": "2026-04-30",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Seagate and Western Digital: AI Storage Demand Is Now Showing Up in Pricing Power",
                 "publisher": "24/7 Wall St.",
                 "url": "https://247wallst.com/investing/2026/05/16/seagate-and-western-digital-ai-storage-demand-is-now-showing-up-in-pricing-power/",
                 "date": "2026-05-16",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -617,24 +617,24 @@ window.TEAM5_DATA = {
                 "publisher": "PR Newswire",
                 "url": "https://www.prnewswire.com/news-releases/everpure-to-change-ticker-symbol-to-p-302735100.html",
                 "date": "2026",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Pure Storage Q3 FY 2026 Results: Revenue Up 16% YoY, Guidance Raised",
                 "publisher": "Futurum Group",
                 "url": "https://futurumgroup.com/insights/pure-storage-q3-fy-2026-results-revenue-up-16-yoy-guidance-raised/",
                 "date": "2025-12",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Pure Storage beats Q2 earnings, raises 2026 guidance as Enterprise Data Cloud strategy drives growth",
                 "publisher": "diginomica",
                 "url": "https://diginomica.com/pure-storage-beats-q2-earnings-raises-2026-guidance-enterprise-data-cloud-strategy-drives-growth",
                 "date": "2025",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -673,8 +673,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.forbes.com/sites/garthfriesen/2026/07/23/refining-stocks-soar-as-crack-spread-hits-record-high-in-2026/",
                 "date": "2026-07-23",
                 "quote": "The 3-2-1 crack spread hit record highs... gasoline prices rose 98% in 2026 versus 44% for WTI crude oil.",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -689,8 +689,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.hngn.com/articles/272160/20260718/oil-refiners-emerge-2026s-quiet-stock-winners-iran-conflict-drives-crack-spreads-higher.htm",
                 "date": "2026-07-18",
                 "quote": "widening profit margins and the escalating U.S.-Iran conflict combine to drive their shares far ahead of the broader market",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Refining Stocks Soar As Crack Spread Hits Record High In 2026",
@@ -698,8 +698,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.forbes.com/sites/garthfriesen/2026/07/23/refining-stocks-soar-as-crack-spread-hits-record-high-in-2026/",
                 "date": "2026-07-23",
                 "quote": "Ukrainian drone strikes on Russian refining infrastructure reduced Russian crude-processing rates to their lowest level in two decades... renewed hostilities around the Strait of Hormuz",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -714,8 +714,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.forbes.com/sites/garthfriesen/2026/07/23/refining-stocks-soar-as-crack-spread-hits-record-high-in-2026/",
                 "date": "2026-07-23",
                 "quote": "Seven major U.S. refinery closures/conversions since 2019 eliminated roughly 1.2 million barrels daily; global permanent closures and war damage cut refinery output by an estimated 4.5 million barrels daily (5.4%) in Q2 2026",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -730,8 +730,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.hngn.com/articles/272160/20260718/oil-refiners-emerge-2026s-quiet-stock-winners-iran-conflict-drives-crack-spreads-higher.htm",
                 "date": "2026-07-18",
                 "quote": "Marathon Petroleum reported adjusted earnings per share growth of 787% in its most recent results... Marathon Petroleum, Valero and HF Sinclair have each climbed more than 80% in 2026, while Phillips 66 has gained more than 54%, compared with the S&P 500's roughly 11% return",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Zacks Industry Outlook Highlights Phillips 66, Marathon Petroleum and Valero Energy",
@@ -739,8 +739,8 @@ window.TEAM5_DATA = {
                 "url": "https://finance.yahoo.com/news/zacks-industry-outlook-highlights-phillips-093100573.html",
                 "date": "2026-08",
                 "quote": "The industry trades at 5.05X trailing EV/EBITDA, significantly below the S&P 500's 17.20X multiple... the sector has outperformed both the broader energy sector and S&P 500 over the past year, gaining 24.7% versus 17% and 16.8% respectively",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -756,12 +756,20 @@ window.TEAM5_DATA = {
             "evidence_level": "sourced",
             "sources": [
               {
+                "title": "CrowdStrike, Palo Alto Networks stocks hit new highs after Black Hat",
+                "publisher": "thenextweb.com",
+                "url": "https://thenextweb.com/news/crowdstrike-palo-alto-record-highs-black-hat-ai-agents",
+                "date": "2026-08-10",
+                "verified": "unchecked",
+                "httpStatus": null
+              },
+              {
                 "title": "CrowdStrike, Palo Alto Stocks Surge on AI Threat Warnings",
                 "publisher": "TechBuzz.ai",
                 "url": "https://www.techbuzz.ai/articles/crowdstrike-palo-alto-surge-on-ai-threat-wave-from-black-hat",
                 "date": "2026-08-10",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -775,8 +783,8 @@ window.TEAM5_DATA = {
                 "publisher": "Yahoo Finance",
                 "url": "https://finance.yahoo.com/markets/stocks/articles/saaspocalypse-once-knew-over-095001184.html",
                 "date": "2026-06-02",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -790,8 +798,8 @@ window.TEAM5_DATA = {
                 "publisher": "24/7 Wall St. / Yahoo Finance",
                 "url": "https://247wallst.com/investing/2026/06/29/palo-alto-networks-surges-9-crowdstrike-rises-7-okta-gains-5-can-the-cybersecurity-rally-justify-its-valuations/",
                 "date": "2026-06-29",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -805,8 +813,8 @@ window.TEAM5_DATA = {
                 "publisher": "softwarestrategiesblog.com (citing Gartner)",
                 "url": "https://softwarestrategiesblog.com/2026/03/24/information-security-spending-2026/",
                 "date": "2026-03-24",
-                "verified": "unverified",
-                "httpStatus": 0
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -838,16 +846,16 @@ window.TEAM5_DATA = {
                 "publisher": "Yahoo Finance",
                 "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-august-7-2026-gold-prices-continue-to-rise-even-after-july-jobs-report-misses-122102132.html",
                 "date": "2026-08-07",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Gold Price Jumps Above $4,300 as Weak Jobs Data Hits Fed Bets",
                 "publisher": "The Market Periodical",
                 "url": "https://themarketperiodical.com/2026/08/08/gold-price-jumps-above-4300-as-weak-jobs-data-hits-fed-bets/",
                 "date": "2026-08-08",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -861,8 +869,8 @@ window.TEAM5_DATA = {
                 "publisher": "World Gold Council (gold.org)",
                 "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026",
                 "date": "2026-07-30",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -876,8 +884,8 @@ window.TEAM5_DATA = {
                 "publisher": "GlobeNewswire (Aura Minerals 공식 발표)",
                 "url": "https://www.globenewswire.com/news-release/2026/08/05/3339839/0/en/aura-announces-q2-2026-and-h1-2026-financial-and-operational-results-a-record-first-half-result.html",
                 "date": "2026-08-05",
-                "verified": "unverified",
-                "httpStatus": 0
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -891,8 +899,8 @@ window.TEAM5_DATA = {
                 "publisher": "ING (THINK, 투자은행 리서치)",
                 "url": "https://think.ing.com/articles/golds-bull-run-to-continue-in-2026/",
                 "date": "2025-12-11",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -921,8 +929,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-sharkninja-q2-2026-sales-surge-lifts-shares-despite-eps-miss-93CH-4838007",
                 "date": "2026-08-05",
                 "quote": "The stock climbed 4.88% to $176.41 in premarket trading... 13th consecutive quarter of double-digit net sales growth",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "SharkNinja Reports Second Quarter 2026 (8-K/press release)",
@@ -930,8 +938,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.stocktitan.net/news/SN/shark-ninja-reports-second-quarter-2026-e384dzr000be.html",
                 "date": "2026-08-05",
                 "quote": "Net sales increased 22.2% to $1,765.5 million... Full fiscal 2026 net sales growth guidance raised to 16.0%-17.0%",
-                "verified": "unverified",
-                "httpStatus": 429
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -946,8 +954,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.fool.com/investing/2026/08/07/trump-tariff-refunds-top-100-billion-large-checks/",
                 "date": "2026-08-07",
                 "quote": "The Trump administration has refunded approximately $100 billion in tariffs collected under the International Emergency Economic Powers Act... 60% of the $165 billion collected",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "SharkNinja Reports Second Quarter 2026 (8-K/press release)",
@@ -955,8 +963,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.stocktitan.net/news/SN/shark-ninja-reports-second-quarter-2026-e384dzr000be.html",
                 "date": "2026-08-05",
                 "quote": "Approximately $30 million of the EBITDA guidance increase relates to expected tariff refunds through the U.S. Customs and Border Protection process",
-                "verified": "unverified",
-                "httpStatus": 429
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -971,8 +979,8 @@ window.TEAM5_DATA = {
                 "url": "https://finance.yahoo.com/markets/stocks/articles/whirlpool-stock-jumped-13-6-161300270.html",
                 "date": "2026-08-08",
                 "quote": "promotional price increases exceeding 10% and list price hikes of approximately 4%... North America's EBIT margin improved 240 basis points sequentially... industry down 3.4% year-over-year",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -1004,8 +1012,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.investing.com/news/company-news/guardant-health-q2-2026-slides-44-revenue-surge-on-shield-momentum-93CH-4826433",
                 "date": "2026-07-30",
                 "quote": "44% revenue surge on Shield momentum",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Guardant Health, Inc. (GH) Delivers Strong Q2 CY2026 Numbers, Stock Soars",
@@ -1013,32 +1021,32 @@ window.TEAM5_DATA = {
                 "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-7-30-guardant-health-nasdaqgh-delivers-strong-q2-cy2026-numbers-stock-soars",
                 "date": "2026-07-30",
                 "quote": "Guardant Health beat estimates by a wide margin... reported $335 million of revenue, beating Wall Street's estimates by 6.4%",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "GeneDx reaffirms 2026 revenue guidance of $475M-$490M while expecting meaningful collection-rate uplift starting in Q4",
                 "publisher": "Seeking Alpha",
                 "url": "https://seekingalpha.com/news/4624204-genedx-reaffirms-2026-revenue-guidance-of-475m-490m-while-expecting-meaningful-collection",
                 "date": "2026-08-10",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Earnings call transcript: GeneDx tops revenue forecast in Q2 2026, shares jump",
                 "publisher": "Investing.com",
                 "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-genedx-tops-revenue-forecast-in-q2-2026-shares-jump-93CH-4832431",
                 "date": "2026-08-10",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Twist Bioscience (TWST) Jumps As Guidance, Targets And Offering Reshape The Trade",
                 "publisher": "StocksToTrade",
                 "url": "https://stockstotrade.com/news/twist-bioscience-corporation-twst-news-2026_08_05/",
                 "date": "2026-08-05",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -1053,16 +1061,16 @@ window.TEAM5_DATA = {
                 "url": "https://investors.guardanthealth.com/press-releases/press-releases/2026/UnitedHealth-Group-Now-Covers-Guardant-Healths-Shield-Blood-Test-for-Colorectal-Cancer-Screening/default.aspx",
                 "date": "2026",
                 "quote": "Approximately 40 million Americans are covered by UnitedHealth Group's plans",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Medicare to reimburse Guardant Health's Shield colorectal cancer test at $1,495 starting April 2025, analyst sees as positive development",
                 "publisher": "Benzinga",
                 "url": "https://www.benzinga.com/25/03/44259889/medicare-to-reimburse-guardant-healths-shield-colorectal-cancer-test-at-1495-starting-april-2025-analyst-sees-as-positive-development",
                 "date": "2025-03",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Guardant Health Inc (GH) (Q2 2026) Earnings Call Highlights: Revenue Surges 44% on FDA Approval",
@@ -1070,8 +1078,8 @@ window.TEAM5_DATA = {
                 "url": "https://finance.yahoo.com/healthcare/articles/guardant-health-inc-gh-q2-050336852.html",
                 "date": "2026-07-30",
                 "quote": "Shield screening revenue surged 253% year over year",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -1085,16 +1093,16 @@ window.TEAM5_DATA = {
                 "publisher": "Investing.com",
                 "url": "https://ca.investing.com/news/company-news/genedx-q2-2026-slides-record-volume-drives-early-profitability-return-93CH-4772304",
                 "date": "2026-08",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "GeneDx Holdings (WGS) Is Up 9.7% After Beating Q2 Estimates And Reaffirming 2026 Outlook",
                 "publisher": "Simply Wall St News",
                 "url": "https://simplywall.st/stocks/us/healthcare/nasdaq-wgs/genedx-holdings/news/genedx-holdings-wgs-is-up-97-after-beating-q2-estimates-and",
                 "date": "2026-08",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           },
@@ -1108,16 +1116,16 @@ window.TEAM5_DATA = {
                 "publisher": "Senior HealthCare Solutions",
                 "url": "https://seniorhealthcaresolutions.com/blog/medicare-now-covers-liquid-biopsy/",
                 "date": "2026",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               },
               {
                 "title": "Liquid Biopsy | May Round-Up 2026",
                 "publisher": "DeciBio Consulting",
                 "url": "https://www.decibio.com/insights/liquid-biopsy-may-round-up-2026",
                 "date": "2026-05",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unchecked",
+                "httpStatus": null
               }
             ]
           }
@@ -1136,21 +1144,20 @@ window.TEAM5_DATA = {
       }
     ],
     "summary": {
-      "rotationView": "지금 자금은 'AI 하드웨어'에서 'AI 소프트웨어·보안'으로, 그리고 일부는 '금리인하 베팅(금)'으로 옮겨가고 있다. 6개월 WRS 1위(1.2524, 상위 0.72%)였던 Computer Hardware가 1개월에는 -0.0632(하위 93.48%)로 완전히 꺾였고, 같은 기술섹터 안에서 Software - Infrastructure가 1개월 상위 0.72%로 그 자리를 그대로 넘겨받았다. 즉 AI 테마가 죽은 게 아니라 하드웨어 레이어에서 소프트웨어 레이어로 자금이 이동한 것이다. 두 번째 흐름은 매크로다. Gold는 6개월 WRS -0.0891(하위 89.13%), 3개월 -0.0258(하위 79.71%)로 반년 내내 소외됐다가 1개월 0.2311(상위 1.45%)로 급반전했는데, 7월 미 고용지표 쇼크(비농업 -2.3만명, 예상 +8만명)로 9월 연준 긴축 가능성이 후퇴한 것이 직접적 계기다. 두 흐름은 같은 방향을 가리킨다 — 실적 모멘텀이 이미 다 나온 고밸류 하드웨어에서 빠져나온 돈이, 아직 실적이 진행 중인 소프트웨어와 금리 민감 자산으로 재배치되는 국면이다. 반면 Oil & Gas Refining & Marketing은 6개월 상위 1.45%의 강세를 1개월 상위 20.29%로 반납하며 완만히 식고 있고, Furnishings(3개월 상위 0.72% 피크)와 Diagnostics & Research(3개월 상위 1.45% 피크)는 8월 초 실적 서프라이즈로 3개월 구간을 폭발시킨 뒤 1개월 기준으로는 각각 7.97%·15.94%로 속도가 줄어든 '실적 이벤트 소진' 패턴이다.",
+      "rotationView": "돈은 '6개월 누적 승자'에서 '1개월 신규 진입처'로 빠르게 갈아타는 중이다. 6개월 WRS 1·2위였던 Computer Hardware(m6 1.2524, 상위 0.72%)와 Oil & Gas Refining(m6 0.5818, 상위 1.45%)이 각각 1개월 상위 93.48%·20.29%로 밀려났고, 특히 Computer Hardware는 1개월 WRS가 -0.0632로 마이너스 전환하며 리더십을 완전히 반납했다. 그 자금이 흘러간 곳은 두 갈래다. 첫째는 Gold로, 6개월(하위 89.13%)·3개월(하위 79.71%) 내내 죽어 있다가 1개월에만 WRS 0.2311(상위 1.45%)로 튀어 올랐다 — 7월 비농업 고용 -2.3만명 쇼크로 9월 연준 긴축 가능성이 후퇴하며 금 현물이 주간 7%대 급등해 $4,300선을 재돌파한 것이 직접 원인이다. 둘째는 Software - Infrastructure로, 유일하게 1개월(0.72%)·3개월(7.97%)·6개월(4.35%) 전 구간 상위 10%를 지키면서 1개월에 오히려 순위가 최상위로 올라섰다. 중간 구간(3개월)의 승자였던 Furnishings(m3 상위 0.72%)와 Diagnostics & Research(m3 상위 1.45%)는 1개월 기준 각각 7.97%·15.94%로 한 단계씩 내려앉아, 3개월 모멘텀 정점을 이미 통과한 모습이다. 정리하면 'AI 하드웨어 → 소프트웨어/보안 + 금'으로의 로테이션이고, 성격상 전자는 실적 지속성이 검증된 이동, 후자는 매크로 이벤트 한 방에 올라탄 이동이라 무게가 다르다.",
       "strongest": {
-        "industry": "Technology / Software - Infrastructure",
-        "why": "6개 업종 중 유일하게 1·3·6개월 전 구간에서 상위 10% 이내(1개월 0.72%, 3개월 7.97%, 6개월 4.35%)를 유지하면서 1개월 순위가 6개월보다 개선된, 즉 강세가 '지속되면서 동시에 가속되는' 유일한 업종이다. 근거도 단발 이벤트가 아니라 층이 쌓여 있다. (1) 2026년 8월 라스베이거스 Black Hat에서 AI 에이전트 기반 자가변형 악성코드·실시간 적응형 피싱·자율 랜섬웨어(Hugging Face 침해 포함)가 발표되며 'AI가 공격자이자 방어 인프라의 핵심 축'이라는 인식이 확산됐고, 8월 10일 CrowdStrike(+5.28%)와 Palo Alto Networks(+4.90%)가 나란히 사상 최고치를 경신, BTIG는 직후 목표주가를 각각 $237·$380으로 상향했다. (2) 실적이 이를 실증한다 — Palo Alto Networks FY2026 3분기 매출 +31%(CEO 니케쉬 아로라: 'AI 배포 보안 수요에 힘입은 스탠드아웃 분기'), CrowdStrike FY2027 1분기 +26%(CEO 조지 커츠: 자사는 'AI 보안 인프라'), Okta FY2027 1분기 +11%로 컨센서스 상회. (3) 수요 기반도 확장 중이다. Gartner는 2026년 글로벌 정보보안 지출을 전년비 약 13% 증가한 $248.9B로 3월 전망($244.2B) 대비 상향했고, 배경으로 AI 기반 피싱·프롬프트 인젝션 공격 증가를 지목했다. (4) 연초 'SaaSpocalypse'(AI가 좌석기반 과금모델을 잠식한다는 공포)로 20% 넘게 급락했던 낙폭이 5월 27~28일 Snowflake 서프라이즈(가이던스 상향 + 아마존 60억달러 계약)와 6월 1일 젠슨 황의 Computex 발언으로 해소되며 IGV가 13% 반등한 상태라, 밸류에이션 부담이 상대적으로 덜한 자리에서 모멘텀이 붙고 있다."
+        "industry": "Software - Infrastructure (Technology)",
+        "why": "유일하게 1개월(WRS 0.2402, 상위 0.72%)·3개월(0.2345, 7.97%)·6개월(0.3752, 4.35%) 전 기간 상위 10%를 유지하면서 1개월에 전 업종 최상위로 올라선 업종이다. 순위 개선이 매크로 이벤트가 아니라 실적과 지출 사이클로 뒷받침된다는 점이 핵심이다: Palo Alto Networks는 FY2026 3분기 매출이 전년비 31% 성장했고(CEO 니케쉬 아로라 'AI 배포 보안 수요에 힘입은 스탠드아웃 분기'), CrowdStrike는 FY2027 1분기 매출 26% 성장, Okta도 FY2027 1분기 11% 성장으로 컨센서스를 상회했다. 8월 라스베이거스 Black Hat에서 AI 자율 랜섬웨어·적응형 피싱 사례가 발표되며 8월 10일 CrowdStrike(+5.28%)와 Palo Alto(+4.90%)가 나란히 사상 최고가를 경신했고, BTIG는 직후 목표주가를 각각 $237·$380으로 상향했다. Gartner는 2026년 글로벌 정보보안 지출 전망을 전년비 약 13% 증가한 $248.9B로 상향했다. 연초 'SaaSpocalypse' 공포로 20% 넘게 급락했던 낙폭을 Snowflake 실적 서프라이즈(가이던스 상향 + 아마존 60억달러 계약)를 기점으로 되돌리는 중이라, 6개월 WRS가 아직 하드웨어만큼 높지 않은 것 자체가 여력으로 읽힌다(IGV는 반등 이후 13% 상승)."
       },
       "emerging": [
-        "Basic Materials / Gold — 6개월 하위 89.13% → 1개월 상위 1.45%로 가장 극적인 반전. 7월 고용 미스로 연준 긴축 후퇴, 금 현물 주간 +7%대(1월 이후 최대 주간 상승폭)로 $4,300 재돌파. 2분기 중앙은행 순매입 289톤(+62% YoY, 역대 2분기 최대, 폴란드 51톤·중국 33톤)으로 매수 기반은 가격 조정과 무관하게 유지. ING는 2026년 평균 $4,325 제시. 2팀 종목 AUGO는 2분기 조정 EBITDA $196.7M(+85% YoY), 순이익 $217.7M으로 사상 최대 상반기 실적.",
-        "Technology / Software - Infrastructure — 1개월 상위 0.72%로 6개월(4.35%)보다 순위 개선. 6개월 강세를 유지한 채 가속되는 유일한 케이스이자 현 시점 주도주.",
-        "Consumer Cyclical / Furnishings, Fixtures & Appliances — 1개월 7.97%로 6개월(19.57%)보다 개선. 다만 정점은 3개월(WRS 0.4527, 상위 0.72%)이었고 1개월은 그보다 둔화된 상태라, '신규 유입'보다는 8월 5일 SharkNinja 실적(매출 +22.2%, 국제 +36.6%, 연간 가이던스 상향) 이후의 여진에 가깝다."
+        "Basic Materials / Gold — 1개월 WRS 0.2311(상위 1.45%) vs 6개월 -0.0891(하위 89.13%). 6개월 내내 최하위권이던 업종이 1개월에만 최상위로 반전한, 이번 데이터에서 가장 극단적인 신규 자금 유입처. 7월 고용 쇼크발 연준 긴축 후퇴가 방아쇠이며, 2분기 중앙은행 순매입 289톤(전년비 +62%, 역대 2분기 최대)이 바닥을 받친다. 종목 레벨에서도 AUGO가 2분기 평균 판매가 $4,304/oz(+35% YoY), 조정 EBITDA $196.7M(+85% YoY)로 사상 최대 상반기 실적을 냈다.",
+        "Technology / Software - Infrastructure — 1개월 WRS 0.2402(상위 0.72%) vs 6개월 0.3752(상위 4.35%). WRS 절대값은 6개월이 높지만 순위는 1개월에 4.35%→0.72%로 최상위 진입했고, 3개월(7.97%)에 잠시 눌렸다가 재가속하는 형태라 '유지형 리더십 + 신규 유입'이 겹친 자리다."
       ],
       "fading": [
-        "Technology / Computer Hardware — 6개월 WRS 1.2524(상위 0.72%)로 전 업종 최강이었으나 1개월 -0.0632(하위 93.48%)로 완전히 꺾였다. 이번 로테이션에서 자금이 빠져나가는 가장 명확한 진원지다. 펀더멘털 자체(Dell Q2 FY2026 매출 +19%·ISG +44%·서버네트워킹 +69%, Seagate 니어라인 2027년 말까지 sold out·비GAAP 총이익률 47.0%)는 여전히 강하지만, HBM이 메모리 생산능력을 흡수해 2026~2027년 공급이 사실상 매진되면서 PC 제조원가가 밀려 올라가고 IDC가 2026년 PC 출하 최대 -9%를 경고하는 등, 상승 요인이 동시에 원가 부담으로 되돌아오는 구간에 진입했다.",
-        "Energy / Oil & Gas Refining & Marketing — 6개월 상위 1.45%, 3개월 상위 3.62%의 강세가 1개월 상위 20.29%로 완만히 식고 있다. WRS 자체는 여전히 플러스(0.0925)라 붕괴가 아니라 속도 조절에 가깝다. 3-2-1 크랙스프레드 다년 최고치(2026년 휘발유 +98% vs WTI +44%), 2019년 이후 미국 정제능력 일산 약 120만 배럴 영구 소멸, 마라톤 페트롤리엄 조정 EPS +787% 등 마진 구조는 유지되나, 이 동력들이 이미 6개월 성과에 상당 부분 반영됐다."
+        "Technology / Computer Hardware — 6개월 WRS 1.2524(상위 0.72%, 전 업종 압도적 1위)에서 1개월 -0.0632(상위 93.48%)로 마이너스 전환. 이번 데이터에서 가장 명확한 이탈처다. Dell ISG +44%·서버/네트워킹 +69%, Seagate 니어라인 2027년 말까지 sold out에 비GAAP 총이익률 사상 최고 47.0% 같은 펀더멘털 스토리는 여전히 유효(durability: structural)하지만, 가격이 6개월간 이를 선반영한 뒤 자금이 빠지는 국면이다. HBM이 범용 DRAM 공급을 흡수하며 PC 제조원가가 올라 IDC가 2026년 PC 출하량 최대 -9%를 경고한 점은 실제 역풍 요인.",
+        "Energy / Oil & Gas Refining & Marketing — 6개월 WRS 0.5818(상위 1.45%)·3개월 0.3175(3.62%)에서 1개월 0.0925(20.29%)로 단계적 둔화. 아직 플러스이고 순위도 상위 20% 안이라 붕괴는 아니지만 리더십 자리는 내주는 중이다. 3-2-1 크랙스프레드 다년 최고치, 2019년 이후 미국 정제능력 일산 약 120만 배럴 영구 소멸, 2분기 글로벌 정제 생산 일산 450만 배럴(5.4%) 추가 감소 등 마진 논리는 남아 있으나 driver가 commodity/cyclical이라 마진 피크아웃 시 되돌림이 빠르다."
       ],
-      "caution": "첫째, 입력된 WRS 노드는 6개 업종 전부 researched:false로 표시돼 있으나 조사 결과 블록에는 6개 업종 모두 근거가 존재한다. 플래그와 실제 조사 상태가 불일치하므로, 위 서술의 '왜'는 전부 조사 결과 블록에 명시된 내용만 사용했고 그 밖의 사유는 추가하지 않았다. 둘째, Furnishings의 3개월 상위 0.72%는 시총가중 WRS 특성상 업종 최대 시총주 SharkNinja(약 264억달러) 단일 종목 급등에 크게 의존한 것으로 판단되며, 마진 개선분 상당수가 대법원 IEEPA 관세 위헌 판결에 따른 환급(SharkNinja 약 2억4,710만달러 청구 승인, 가이던스 상향분 중 약 3,000만달러 EBITDA)이라는 일회성 요인이다. Whirlpool 사례도 프로모션가 10%+·정가 4% 인상과 연 1.5억달러 비용 절감에 의한 마진 방어일 뿐 업종 전체 판매는 전년비 -3.4%로 수요 자체는 약하다. 업종 강세를 '수요 회복'으로 읽으면 안 된다. 셋째, Gold의 1개월 급등은 연준 경로 재평가라는 매크로 단일 변수에 걸려 있어(durability: short_term), ING도 지정학적 긴장 완화나 시장 급락 시 중앙은행발 매도 전환을 하방 리스크로 명시했다. 넷째, Diagnostics & Research는 1개월(15.94%)과 6개월(15.22%) 순위가 사실상 동일해 emerging·fading 어느 쪽으로도 분류하지 않았다 — GH·WGS·TWST의 8월 초 실적이 3개월 구간(상위 1.45%)에 몰린 이벤트형 패턴이다. 다만 Shield 스크리닝 매출 +253%와 보험 커버리지 확대(UnitedHealth 약 4천만명)는 구조적 성격이라 재가속 여지는 남아 있으며, MCED 시장 성장 전망은 업계 보도·시장조사기관 출처로 개별 IB 리서치 원문은 확인되지 않았다."
+      "caution": "1) Gold의 1개월 급등은 durability short_term으로 분류된 이벤트성이다. 3개월(하위 79.71%)·6개월(하위 89.13%)이 여전히 최하위권이라 추세 전환이 아니라 반등 1개월차일 수 있고, ING도 지정학적 긴장 완화나 시장 급락 시 중앙은행발 매도 전환을 하방 리스크로 명시했다. 실제 2분기에는 중앙은행이 대량 매수하는 동안에도 금값 자체는 약 16% 하락했다 — 매수세와 가격이 따로 논 전례가 직전 분기에 있다.\n2) Furnishings, Fixtures & Appliances(3개월 상위 0.72%)는 emerging/fading 어디에도 넣지 않았다. 1개월 WRS 0.1463 vs 6개월 0.1576으로 절대값이 사실상 동일하고 순위만 개선된 애매한 구간인 데다, 3개월 급등의 성격이 시총 약 264억달러 최대주 SharkNinja 단일 종목의 2분기 서프라이즈(매출 +22.2%, 가이던스 상향)에 크게 의존한 시총가중 효과로 판단되기 때문이다. 상향 폭에 반영된 약 3,000만달러 EBITDA 개선은 IEEPA 관세 위헌 판결에 따른 약 2억4,710만달러 환급이라는 일회성이고, Whirlpool의 마진 개선도 가격 인상·비용 절감이지 수요 회복이 아니다(업종 전체 판매 전년비 -3.4%). 업종 지수로 사기보다 종목을 특정해야 하는 자리다.\n3) Diagnostics & Research는 3개월 상위 1.45%에서 1개월 15.94%로 식었지만 6개월도 15.22%라 '꺾였다'기보다 원래 자리로 돌아온 쪽에 가깝다. 다만 durability는 structural로, GH의 Shield 스크리닝 매출 +253%(UnitedHealth 약 4천만명 커버 확대, 메디케어 ADLT 검사당 $1,495 상환)와 GeneDx 분기 검사 3만건 돌파 후 조기 흑자전환처럼 상환정책이 뒷받침하는 성장이라, 모멘텀이 식은 지금이 오히려 관찰 대상이다.\n4) 전제 자체의 한계: 여기 6개 업종은 이미 선별된 조사 대상이라 전체 업종 유니버스의 로테이션을 다 본 게 아니다. 1개월 상위권에 있으면서 이 목록에 없는 업종은 확인되지 않았다."
     },
     "reusedFrom": null
   },
