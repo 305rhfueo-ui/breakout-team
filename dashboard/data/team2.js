@@ -91,8 +91,159 @@ window.TEAM2_DATA = {
         "count": 50
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "company": "아틀라시언(Atlassian)은 소프트웨어 개발팀과 회사 조직이 함께 일하고 프로젝트를 관리하도록 도와주는 협업 소프트웨어를 만드는 회사입니다. 대표 제품은 이슈·업무 추적 도구인 지라(Jira), 문서 협업 도구인 컨플루언스(Confluence) 등이며, 최근에는 대부분의 매출을 클라우드 구독 방식으로 벌어들이고 있습니다.",
+        "ticker": "TEAM",
+        "whyRose": [
+          {
+            "id": "r3",
+            "statement": "실적 발표 후 24시간 내 뱅크오브아메리카(BofA)를 포함한 다수의 증권사가 투자의견 상향 및 목표주가를 대폭 올렸다. BofA는 뉴트럴에서 매수로 상향하며 목표주가를 105달러에서 175달러로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Atlassian's Profitability Breakthrough Sparks a Wall Street Reckoning",
+                "publisher": "ad-hoc-news.de",
+                "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/atlassian-s-profitability-breakthrough-sparks-a-wall-street-reckoning/69937627",
+                "date": "2026-08-11",
+                "quote": "upgraded the stock from Neutral to Buy, lifting his price target from $105 to $175",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r4",
+            "statement": "이번 실적 발표를 기점으로 주가가 52주 저점 대비 166%까지 상승했다는 점이 언론에서 'SaaS 붕괴론(SaaSpocalypse)'을 무색하게 하는 사례로 조명됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SaaSpocalypse? Not for Atlassian Stock, Which Has Now Soared 166% From Its 52-Week Low.",
+                "publisher": "The Motley Fool (Nasdaq 게재)",
+                "url": "https://www.nasdaq.com/articles/saaspocalypse-not-atlassian-stock-which-has-now-soared-166-its-52-week-low",
+                "date": "2026-08-11",
+                "quote": "SaaSpocalypse? Not for Atlassian Stock, Which Has Now Soared 166% From Its 52-Week Low.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "c1",
+              "statement": "BofA(Koji Ikeda)는 아틀라시언을 뉴트럴에서 매수로 상향하고 목표주가를 105달러에서 175달러로 올렸으며, 'AI의 피해자가 아니라 AI의 수혜자'라고 평가했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Atlassian's Profitability Breakthrough Sparks a Wall Street Reckoning",
+                  "publisher": "ad-hoc-news.de",
+                  "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/atlassian-s-profitability-breakthrough-sparks-a-wall-street-reckoning/69937627",
+                  "date": "2026-08-11",
+                  "quote": "upgraded the stock from Neutral to Buy, lifting his price target from $105 to $175",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "statement": "오펜하이머(Ittai Kidron)는 아웃퍼폼 의견을 유지하며 목표주가를 110달러에서 200달러로, 제프리스(Brent Thill)는 150달러에서 200달러로 상향했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Atlassian's Profitability Breakthrough Sparks a Wall Street Reckoning",
+                  "publisher": "ad-hoc-news.de",
+                  "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/atlassian-s-profitability-breakthrough-sparks-a-wall-street-reckoning/69937627",
+                  "date": "2026-08-11",
+                  "quote": "raising his target from $110 to $200 while keeping an Outperform rating",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "c3",
+              "statement": "Baird, KeyBanc, Guggenheim, Wells Fargo, Morgan Stanley, Citi, Truist, BTIG, Raymond James, TD Cowen 등 다수 기관이 목표주가를 145~200달러 범위로 일제히 상향했다(TD Cowen만 등급은 홀드 유지).",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Atlassian's Profitability Breakthrough Sparks a Wall Street Reckoning",
+                  "publisher": "ad-hoc-news.de",
+                  "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/atlassian-s-profitability-breakthrough-sparks-a-wall-street-reckoning/69937627",
+                  "date": "2026-08-11",
+                  "quote": "Baird, KeyBanc, Guggenheim, Wells Fargo, Morgan Stanley, Citi, Truist, BTIG, Raymond James, and TD Cowen all followed with target hikes ranging from $145 to $200",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "c4",
+              "statement": "캔터 피츠제럴드는 목표주가를 264달러에서 304달러로, 캐나코드는 285달러에서 375달러로, 키뱅크는 260달러에서 315달러로 상향 조정했다(원문 기사 본문은 접근 제한으로 확인 못했으며 제목만 확인됨).",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "atlassian price target raised to 304 from 264 at cantor fitzgerald",
+                  "publisher": "TipRanks (The Fly)",
+                  "url": "https://www.tipranks.com/news/the-fly/atlassian-price-target-raised-to-304-from-264-at-cantor-fitzgerald",
+                  "date": "2026-08-07",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "atlassian price target raised to 375 from 285 at canaccord",
+                  "publisher": "TipRanks (The Fly)",
+                  "url": "https://www.tipranks.com/news/the-fly/atlassian-price-target-raised-to-375-from-285-at-canaccord",
+                  "date": "2026-08-07",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "atlassian price target raised to 315 from 260 at keybanc",
+                  "publisher": "TipRanks (The Fly)",
+                  "url": "https://www.tipranks.com/news/the-fly/atlassian-price-target-raised-to-315-from-260-at-keybanc",
+                  "date": "2026-08-07",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "SaaS/구독형 소프트웨어",
+          "협업·생산성 툴",
+          "AI 수익화(AI monetization)"
+        ],
+        "upcomingCatalyst": {
+          "what": "2027회계연도 1분기(Q1 FY2027) 실적발표 (공식 확정 아님, 과거 발표 패턴 기반 추정치)",
+          "date": "2026-10-29",
+          "sources": [
+            {
+              "title": "Atlassian (TEAM) Earnings Date and Reports 2026 $TEAM",
+              "publisher": "MarketBeat",
+              "url": "https://www.marketbeat.com/stocks/NASDAQ/TEAM/earnings/",
+              "date": "2026-08-12",
+              "quote": "Atlassian's next earnings date is estimated for Thursday, October 29, 2026, based on past reporting schedules.",
+              "verified": "ok",
+              "httpStatus": 200
+            }
+          ]
+        },
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "r1",
+            "r2"
+          ],
+          "reasons": [
+            "r1, r2: 출처 URL 경로에 '/stocks/NVDA/'(Nvidia 섹션)가 포함되어 있어, Atlassian 기사가 아닌 다른 출처에서의 인용으로 의심됨. 출처 신뢰도 저하",
+            "r3, r4, estimateRevisions 섹션의 c1-c4는 모두 적절한 출처와 명확한 인용을 포함하므로 유지"
+          ]
+        }
       },
       "nameKo": "아틀라시언",
       "nameEn": "ATLASSIAN CORP",
@@ -435,7 +586,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "트위스트 바이오사이언스",
       "nameEn": "TWIST BIOSCIENCE CORPORATION",
@@ -787,7 +938,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "메가 포춘",
       "nameEn": "MEGA FORTUNE COMPANY LIMITED",
@@ -917,7 +1068,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "에흐르 테스트 시스템스",
       "nameEn": "AEHR TEST SYSTEMS",
@@ -1282,7 +1433,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "스노우플레이크",
       "nameEn": "SNOWFLAKE INC",
@@ -1705,7 +1856,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "애질론 헬스",
       "nameEn": "AGILON HEALTH INC",
@@ -2063,8 +2214,124 @@ window.TEAM2_DATA = {
         "count": 33
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "company": "Qualys(퀄리스)는 클라우드 기반으로 기업의 IT 자산과 보안 취약점을 찾아내고 관리해주는 회사예요. 쉽게 말하면 회사 컴퓨터 시스템에 뚫린 구멍(보안 취약점)이 있는지 자동으로 스캔해서 알려주고 고쳐주는 '보안 점검 서비스'를 파는 곳입니다. 최근엔 AI를 활용한 자동 탐지·복구 기능도 확대하고 있습니다.",
+        "ticker": "QLYS",
+        "themeTags": [
+          "사이버보안",
+          "AI 보안"
+        ],
+        "confidence": "high",
+        "whyRose": [
+          {
+            "id": "q2_earnings_beat",
+            "statement": "2026년 8월 4일 발표된 2분기(4~6월) 실적에서 매출 1억8,220만 달러(전년비 11% 증가), 비GAAP EPS 1.98달러를 기록해 시장 컨센서스(매출 약 1억7,900만달러, EPS 1.78달러)를 모두 상회했다. 발표 다음날인 8월 5일 주가가 급등했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Qualys (QLYS) Soars As Earnings Beat And AI Security Push Ignite Rally",
+                "publisher": "StocksToTrade",
+                "url": "https://stockstotrade.com/news/qualys-inc-qlys-news-2026_08_05/",
+                "date": "2026-08-05",
+                "quote": "Q2 revenue of $182.2M, edging past expectations, with adjusted EPS of $1.98 versus $1.78 consensus",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "fy26_guidance_raised",
+            "statement": "회사가 2026 회계연도 매출 가이던스를 7억2,100만~7억2,700만 달러에서 7억3,200만~7억3,800만 달러로, 비GAAP EPS 가이던스를 7.44~7.65달러에서 7.74~7.88달러로 상향했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Qualys Q2 Earnings Beat on Channel Strength, FY26 Guidance Raised",
+                "publisher": "Zacks (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/qualys-q2-earnings-beat-channel-150000511.html",
+                "date": "2026-08-05",
+                "quote": "Management increased its full-year 2026 revenue guidance to $732-$738 million from $721-$727 million.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "analyst_price_target_hikes",
+            "statement": "실적 발표 직후 TD Cowen(145→170달러), Jefferies(150→185달러) 등 다수 증권사가 목표주가를 일제히 상향 조정했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Analysts Offer Insights on Technology Companies: Qualys (QLYS), Entegris (ENTG) and Lattice Semiconductor (LSCC)",
+                "publisher": "The Globe and Mail",
+                "url": "https://www.theglobeandmail.com/investing/markets/stocks/QLYS/pressreleases/3687402/analysts-offer-insights-on-technology-companies-qualys-qlys-entegris-entg-and-lattice-semiconductor-lscc/",
+                "date": "2026-08-06",
+                "quote": "Qualys price target raised to $170 from $145 at TD Cowen",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "ai_channel_growth",
+            "statement": "신제품 'Agent Insta'(스캔 없이 몇 분 내 새 취약점을 탐지하는 AI 기능) 등 AI 기반 보안 제품 확장과, 채널 파트너 매출이 전년비 22% 성장(전체 매출의 54% 차지, 전년 49%)한 점이 실적 서프라이즈의 배경으로 지목됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Qualys Inc (QLYS) (Q2 2026) Earnings Call Highlights: AI-Driven Innovation and Raised Guidance",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/qualys-inc-qlys-q2-2026-050140231.html",
+                "date": "2026-08-05",
+                "quote": "the newly announced Agent Insta enables instantaneous, scanless detection within minutes of a new advisory",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "company_guidance_raised",
+              "statement": "회사 자체가 2026 회계연도 매출 가이던스를 7억2,100만~7억2,700만 달러에서 7억3,200만~7억3,800만 달러로, 비GAAP EPS 가이던스를 7.44~7.65달러에서 7.74~7.88달러로 상향했다. 3분기 매출 가이던스도 1억8,550만~1억8,750만 달러(컨센서스 1억8,260만 달러 상회)로 제시했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Qualys Q2 Earnings Beat on Channel Strength, FY26 Guidance Raised",
+                  "publisher": "Zacks (Yahoo Finance)",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/qualys-q2-earnings-beat-channel-150000511.html",
+                  "date": "2026-08-05",
+                  "quote": "Non-GAAP earnings are now projected between $7.74 and $7.88 per share, up from the prior forecast of $7.44-$7.65.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "sellside_price_target_hikes",
+              "statement": "실적 발표 후 TD Cowen, Jefferies 등 여러 증권사가 목표주가를 일제히 상향 조정하며 긍정적으로 반응했다(단, 매수의견 전환 여부는 매체별로 엇갈려 확인되지 않음).",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Analysts Offer Insights on Technology Companies: Qualys (QLYS), Entegris (ENTG) and Lattice Semiconductor (LSCC)",
+                  "publisher": "The Globe and Mail",
+                  "url": "https://www.theglobeandmail.com/investing/markets/stocks/QLYS/pressreleases/3687402/analysts-offer-insights-on-technology-companies-qualys-qlys-entegris-entg-and-lattice-semiconductor-lscc/",
+                  "date": "2026-08-06",
+                  "quote": "Qualys price target raised to $185 from $150 at Jefferies",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": [
+            "모든 claim이 검증됨. 출처 URL과 날짜 모두 적절함."
+          ]
+        }
       },
       "nameKo": "퀄리스",
       "nameEn": "QUALYS INC",
@@ -2405,7 +2672,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "진DX 홀딩스",
       "nameEn": "GENEDX HOLDINGS CORP",
@@ -2793,8 +3060,158 @@ window.TEAM2_DATA = {
         "count": 33
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "company": "Bandwidth(밴드위스)는 기업들이 자기 서비스 안에 전화 통화, 문자(SMS), 911 신고 같은 통신 기능을 쉽게 넣을 수 있도록 API(소프트웨어 연결 도구)를 제공하는 클라우드 통신 회사입니다. 자체 통신망을 직접 소유·운영하고, 최근에는 AI 음성 비서(챗봇이 전화도 받는 식)가 통신망에 붙을 수 있게 해주는 'Maestro', 'Bandwidth Build' 같은 AI 인프라 사업으로 확장하고 있습니다.",
+        "ticker": "BAND",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "2026년 2분기 실적이 시장 예상치를 상회했다. 매출 2억1990만 달러(컨센서스 2억1700만 달러 상회), 비GAAP EPS 0.37달러(컨센서스 0.36달러 상회).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Bandwidth Q2 Earnings Call Highlights AI Shift, 2026 Outlook Raised",
+                "publisher": "Zacks (via TradingView)",
+                "url": "https://www.tradingview.com/news/zacks:9c4c762b8094b:0-bandwidth-q2-earnings-call-highlights-ai-shift-2026-outlook-raised/",
+                "date": "2026-08-11",
+                "quote": "The company reported revenues of $219.9 million, which exceeded the Zacks Consensus Estimate of $217 million, while non-GAAP EPS of $0.37 surpassed the Zacks Consensus Estimate of $0.36.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "2분기에 100만 달러 이상 규모의 신규 대형 고객 5건을 확보했는데, 이 계약들이 모두 AI 오케스트레이션 플랫폼 'Maestro' 또는 AI 서비스를 포함하고 있어 AI 수요가 실제 매출로 이어지고 있음을 보여줬다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Bandwidth Q2 Earnings Call Highlights AI Shift, 2026 Outlook Raised",
+                "publisher": "Zacks (via TradingView)",
+                "url": "https://www.tradingview.com/news/zacks:9c4c762b8094b:0-bandwidth-q2-earnings-call-highlights-ai-shift-2026-outlook-raised/",
+                "date": "2026-08-11",
+                "quote": "Morken noted that Bandwidth secured five new $1 million-plus customer wins and expansions in the second quarter, with all including Maestro or AI services.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "회사가 2026 연간 매출 가이던스를 9억~9억1000만 달러로 상향 조정했고, 순이익도 흑자 전환(약 239만 달러)했다. 이와 함께 신용계약 개정으로 자사주 매입 등 주주환원 여력도 확대됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Bandwidth Q2 Earnings Call Highlights AI Shift, 2026 Outlook Raised",
+                "publisher": "Zacks (via TradingView)",
+                "url": "https://www.tradingview.com/news/zacks:9c4c762b8094b:0-bandwidth-q2-earnings-call-highlights-ai-shift-2026-outlook-raised/",
+                "date": "2026-08-11",
+                "quote": "Bandwidth raised full-year 2026 guidance, citing sustained demand strength and improving profitability. Revenues are now expected to be between $900 million and $910 million.",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Bandwidth (BAND) Is Up 27.6% After Raising 2026 Revenue Guidance and Returning More Capital",
+                "publisher": "Simply Wall St",
+                "url": "https://simplywall.st/stocks/us/telecom/nasdaq-band/bandwidth/news/bandwidth-band-is-up-276-after-raising-2026-revenue-guidance",
+                "date": "2026-08-10",
+                "quote": "Bandwidth is pairing improved profitability and higher 2026 guidance with greater balance-sheet flexibility and active capital returns",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "OpenAI, 구글, xAI 등의 AI 음성 기술 발전이 밴드위스 통신 서비스 수요를 가속시킬 것이라는 전망 아래, B.Riley가 목표주가를 55달러에서 85달러로 상향하는 등 AI 음성 테마가 최근 주가 상승(최근 1주일 21.7% 상승 포함)을 견인했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Bandwidth Stock Rises 21.7% in a Week: Can the Rally Still Continue?",
+                "publisher": "Zacks (via TradingView)",
+                "url": "https://www.tradingview.com/news/zacks:7ca9671a6094b:0-bandwidth-stock-rises-21-7-in-a-week-can-the-rally-still-continue/",
+                "date": "2026-08-11",
+                "quote": "AI is becoming a more prominent part of Bandwidth's customer discussions, and the company is expanding products around that demand.",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "B.Riley raises Bandwidth stock price target on AI voice growth",
+                "publisher": "Investing.com",
+                "url": "https://ca.investing.com/news/stock-market-news/briley-raises-bandwidth-stock-price-target-on-ai-voice-growth-93CH-4726763",
+                "date": "2026-07-09",
+                "quote": "The firm cited advances in AI voice technology that it expects will accelerate demand for Bandwidth's services.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "회사가 제시한 FY2026 EPS 가이던스(1.71~1.79달러)가 시장 컨센서스 EPS 전망치(1.55달러)를 상회했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Bandwidth (NASDAQ:BAND) Releases FY 2026 Earnings Guidance",
+                  "publisher": "Daily Political",
+                  "url": "https://www.dailypolitical.com/2026/07/31/bandwidth-nasdaqband-releases-fy-2026-earnings-guidance.html",
+                  "date": "2026-07-31",
+                  "quote": "The company provided EPS guidance of 1.710-1.790 for the period, compared to the consensus EPS estimate of 1.550.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "e2",
+              "statement": "B.Riley가 AI 음성 수요 가속을 근거로 목표주가를 55달러에서 85달러로 상향했고, 2027 회계연도 실적 추정치도 소폭 상향 조정했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "B.Riley raises Bandwidth stock price target on AI voice growth",
+                  "publisher": "Investing.com",
+                  "url": "https://ca.investing.com/news/stock-market-news/briley-raises-bandwidth-stock-price-target-on-ai-voice-growth-93CH-4726763",
+                  "date": "2026-07-09",
+                  "quote": "B.Riley slightly increased its fiscal 2027 estimates to reflect higher growth fueled by these technological developments.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "AI 음성(Voice AI)",
+          "AI 인프라/에이전트",
+          "클라우드 커뮤니케이션(CPaaS)"
+        ],
+        "upcomingCatalyst": {
+          "what": "2026 회계연도 3분기(Q3) 실적 발표 예정",
+          "date": "2026-10-28",
+          "sources": [
+            {
+              "title": "Bandwidth Inc (BAND) Earnings Prediction — Next Report & AI Score (August 2026)",
+              "publisher": "AltIndex",
+              "url": "https://altindex.com/earnings-calendar/band",
+              "date": "2026-08",
+              "quote": "Wednesday, October 28, 2026",
+              "verified": "ok",
+              "httpStatus": 200
+            }
+          ]
+        },
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": [
+            "모든 claim이 검증됨. 출처 URL과 날짜 모두 적절함."
+          ]
+        }
       },
       "nameKo": "밴드위스",
       "nameEn": "BANDWIDTH INC",
@@ -3165,7 +3582,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "블루링스 홀딩스",
       "nameEn": "BLUELINX HLDGS INC",
@@ -3528,7 +3945,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "VICTORIAS SECRET AND CO",
       "nameEn": "VICTORIAS SECRET AND CO",
@@ -3893,8 +4310,149 @@ window.TEAM2_DATA = {
         "count": 8
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "company": "델 테크놀로지스(Dell Technologies)는 개인용 컴퓨터(PC)와 노트북을 만드는 회사로 잘 알려져 있지만, 요즘 매출의 큰 축은 기업과 클라우드 업체에 파는 서버·스토리지 같은 데이터센터 장비입니다. 특히 최근에는 AI 모델을 학습·구동하는 데 쓰이는 'AI 서버'(엔비디아 GPU를 탑재한 고성능 서버)를 대량으로 만들어 파는 회사로 주목받고 있습니다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "2026-05-28 발표된 FY2027 1분기 실적에서 매출 438.4억달러(YoY +87.5%)로 컨센서스를 크게 상회했고, AI 서버 수주 244억달러·AI 서버 매출 161억달러를 기록했으며 백로그(수주잔고)가 513억달러로 불어났다. 이를 근거로 회사는 FY2027 연간 매출 가이던스를 1,650억~1,690억달러로, AI 서버 매출 전망을 600억달러로 상향했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dell Q1 FY 2027: AI Server Demand Drives Raised FY 2027 Outlook",
+                "publisher": "Futurum Group",
+                "url": "https://futurumgroup.com/insights/dell-q1-fy-2027-ai-server-demand-drives-raised-fy-2027-outlook/",
+                "date": "2026-06-03",
+                "quote": "We're increasing our AI server revenue expectations for FY27 to $60 billion, which only goes to show the AI opportunity shows no signs of slowing.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "8월 초(8/4) 하루 만에 주가가 8.57% 급등했는데, AI 최적화 서버에 대한 수요 증가와 마진 기대치 상향, 기관투자자의 매수 유입이 원인으로 지목됐다. 당시 애널리스트 평균 목표주가는 495.43달러로 매우 낙관적이었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dell Technologies Inc Stock (DELL) Moved Up by 8.57% on Aug 4: What Signal Does It Send?",
+                "publisher": "TradingKey",
+                "url": "https://www.tradingkey.com/news/market-movers/262074049-market-movers-dell-20260804",
+                "date": "2026-08-04",
+                "quote": "market sentiment remains bullish with an average analyst price target of $495.43",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "Zacks는 2026년 6월 4일 델을 'Strong Buy(1등급)'로 상향했는데, 직전 3개월간 애널리스트들의 EPS 컨센서스 전망치가 9.7% 상향된 것이 핵심 근거였다. 이런 이익 전망치 상승 추세 자체가 주가 상승의 동력으로 작용했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dell Technologies (DELL) Upgraded to Strong Buy: What Does It Mean for the Stock?",
+                "publisher": "Yahoo Finance (Zacks)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-upgraded-strong-160004515.html",
+                "date": "2026-06-04",
+                "quote": "Analysts have been steadily raising their estimates for Dell Technologies. Over the past three months, the Zacks Consensus Estimate for the company has increased 9.7%.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "국내 증권사(키움, 신한투자증권)도 1분기 실적 서프라이즈(매출 컨센서스 60% 이상 상회, EPS +214%)를 근거로 델을 'AI 수요의 전통 IT 전방 확산'과 '단순 서버 OEM에서 플랫폼 기업으로의 전환'으로 재평가하며 최선호주로 제시, 목표주가를 상향했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "델 테크놀로지스 (NYS:DELL) 전통 서버의 부활과 Agentic AI가 이끄는 멀티플 리레이팅",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqlciziegxilkkggcgxcleg.pdf",
+                "date": "2026-06-02",
+                "quote": "매출 $43.8B(+88%), EPS $4.86(+214%)로 컨센서스 60% 이상 상회",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "델 테크놀로지스 (NYS:DELL) Go out and buy a Dell",
+                "publisher": "신한투자증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqlcciqxcilleikgcgxcleg.pdf",
+                "date": "2026-05-29",
+                "quote": "실적발표 이후 40% 주가 상승. 단순 AI 서버 OEM에서 플랫폼 기업으로 확장. 커버리지 내 최선호주 제시",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "Zacks 컨센서스 EPS 전망치가 2026년 6월 초 기준 직전 3개월간 9.7% 상향 조정되었고, 이를 근거로 델은 Zacks Rank 1등급(Strong Buy)으로 업그레이드됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Dell Technologies (DELL) Upgraded to Strong Buy: What Does It Mean for the Stock?",
+                  "publisher": "Yahoo Finance (Zacks)",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-upgraded-strong-160004515.html",
+                  "date": "2026-06-04",
+                  "quote": "Analysts have been steadily raising their estimates for Dell Technologies. Over the past three months, the Zacks Consensus Estimate for the company has increased 9.7%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "e2",
+              "statement": "델 자체적으로도 FY2027 1분기 실적 발표 후 연간 매출 가이던스를 1,650억~1,690억달러(중간값 기준 YoY +47%)로, AI 서버 매출 전망을 600억달러로 상향 조정했다 — 애널리스트 전망치 상향의 배경이 된 회사 측 근거.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Dell Q1 FY 2027: AI Server Demand Drives Raised FY 2027 Outlook",
+                  "publisher": "Futurum Group",
+                  "url": "https://futurumgroup.com/insights/dell-q1-fy-2027-ai-server-demand-drives-raised-fy-2027-outlook/",
+                  "date": "2026-06-03",
+                  "quote": "We're increasing our AI server revenue expectations for FY27 to $60 billion, which only goes to show the AI opportunity shows no signs of slowing.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "AI 인프라",
+          "AI 서버",
+          "데이터센터"
+        ],
+        "upcomingCatalyst": {
+          "what": "FY2027 2분기(Q2) 실적 발표",
+          "date": "2026-09-03",
+          "sources": [
+            {
+              "title": "Dell Technologies (DELL) Stock Price & Overview",
+              "publisher": "StockAnalysis.com",
+              "url": "https://stockanalysis.com/stocks/dell/",
+              "date": "2026-08-12",
+              "quote": "Earnings Date Sep 3, 2026",
+              "verified": "ok",
+              "httpStatus": 200
+            }
+          ]
+        },
+        "ticker": "DELL",
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": [
+            "모든 claim이 검증됨. 출처 URL과 날짜 모두 적절함."
+          ]
+        }
       },
       "nameKo": "델 테크놀로지스",
       "nameEn": "DELL TECHNOLOGIES INC",
@@ -4286,7 +4844,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "포럼 에너지 테크놀로지스",
       "nameEn": "FORUM ENERGY TECHNOLOGIES INC",
@@ -4650,7 +5208,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "맥스리니어",
       "nameEn": "MAXLINEAR INC",
@@ -4997,7 +5555,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "코셉트 테라퓨틱스",
       "nameEn": "CORCEPT THERAPEUTICS INC",
@@ -5351,7 +5909,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "오루카 테라퓨틱스",
       "nameEn": "ORUKA THERAPEUTICS INC",
@@ -5713,7 +6271,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "페이컴 소프트웨어",
       "nameEn": "PAYCOM SOFTWARE INC",
@@ -6070,7 +6628,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "AXT",
       "nameEn": "AXT INC",
@@ -6408,7 +6966,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "지브라 테크놀로지스",
       "nameEn": "ZEBRA TECHNOLOGIES"
@@ -6481,7 +7039,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "모노파 테라퓨틱스",
       "nameEn": "MONOPAR THERAPEUTICS INC"
@@ -6554,7 +7112,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "어플라이드 옵토일렉트로닉스",
       "nameEn": "APPLIED OPTOELECTRONICS INC"
@@ -6627,7 +7185,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "CACI 인터내셔널",
       "nameEn": "CACI INTERNATIONAL INC",
@@ -6993,8 +7551,176 @@ window.TEAM2_DATA = {
         "count": 33
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "company": "옥타(Okta)는 회사와 직원, 고객이 온라인 서비스에 로그인할 때 아이디·비밀번호 등 '신원(identity)'을 안전하게 관리해주는 회사입니다. 쉽게 말해 여러 앱에 한 번의 안전한 로그인으로 접속하게 해주고, 해커가 남의 계정으로 침입하는 것을 막아주는 보안 소프트웨어(SaaS)를 기업에 판매합니다. 최근에는 사람뿐 아니라 AI 에이전트(자동화 봇)의 '신원'까지 관리해주는 서비스로 사업을 넓히고 있습니다.",
+        "ticker": "OKTA",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "2026년 5월 28일 발표한 2027 회계연도 1분기(4월 마감분기) 실적이 예상치를 크게 웃돌았다. 매출 7억6500만달러(YoY +11%)로 시장 예상(7억5200만달러)을 상회했고, 조정 EPS도 0.91달러로 예상(0.85달러)을 상회했다. 발표 다음 거래일 주가는 약 20~24% 급등했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Okta Q1 fiscal 2027 earnings beat on agentic AI demand",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/okta-q1-fiscal-2027-earnings-120640188.html",
+                "date": "2026-05-29",
+                "quote": "Okta reported first-quarter revenue of $765 million, beating analyst expectations of $752 million.",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Okta soars on Q1 earnings beat, raised outlook driven by AI security demand",
+                "publisher": "Sherwood News",
+                "url": "https://sherwood.news/markets/okta-soars-on-q1-earnings-beat-raised-outlook-driven-by-ai-security-demand/",
+                "date": "2026-05-29",
+                "quote": "The strong results are fueled by accelerating corporate demand for cybersecurity software, as well as the deployment of autonomous AI systems.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "1분기 실적 발표와 함께 2027 회계연도(FY27) 매출 가이던스를 31억8500만~32억500만달러(성장률 9~10%)로 상향 조정했다. 이는 기존 가이던스 대비 중간값 기준 약 1500만달러 상향이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Okta Q1 fiscal 2027 earnings beat on agentic AI demand",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/okta-q1-fiscal-2027-earnings-120640188.html",
+                "date": "2026-05-29",
+                "quote": "For the full fiscal year 2027, Okta raised its revenue guidance to a range of $3.185 billion to $3.205 billion, representing growth of 9% to 10%.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "CEO 토드 맥키넌이 'AI 에이전트가 기업 내부의 새로운 인력이 되고 있고, 이들을 보안 관리해야 할 신원의 물결이 만들어지고 있다'고 언급하며, AI 에이전트發 신원보안 수요가 성장 동력이라는 서사가 부각됐다. 이후 이 서사에 힘입어 8월 들어서도 브로커들의 낙관적 코멘트(Zacks 등)가 이어졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Okta Q1 fiscal 2027 earnings beat on agentic AI demand",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/okta-q1-fiscal-2027-earnings-120640188.html",
+                "date": "2026-05-29",
+                "quote": "AI agents are becoming a new workforce inside organizations, creating a wave of identities that must be secured.",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Okta (OKTA) Is Considered a Good Investment by Brokers: Is That True?",
+                "publisher": "Nasdaq (Zacks)",
+                "url": "https://www.nasdaq.com/articles/okta-okta-considered-good-investment-brokers-true",
+                "date": "2026-08-11",
+                "quote": "Okta (OKTA) Is Considered a Good Investment by Brokers: Is That True?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "실적 발표 이후 다수의 증권사가 목표주가를 큰 폭으로 상향했다(Wells Fargo $100→$150, Oppenheimer $125→$170, Capital One $126→$171·투자의견 상향, Scotiabank Outperform $165). 이러한 목표가 상향 러시가 8월 들어 주가 추가 상승을 뒷받침했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Okta Is Betting $200 Million That AI Agents Need Its Identity Layer. Is the Stock Still Worth Buying?",
+                "publisher": "TIKR.com",
+                "url": "https://www.tikr.com/blog/okta-is-betting-200-million-that-ai-agents-need-its-identity-layer-is-the-stock-still-worth-buying",
+                "date": "2026-08-10",
+                "quote": "Wells Fargo lifted its target to $150 from $100, Capital One upgraded to Overweight at $171, and Scotiabank moved to Outperform at $165",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "OKTA Maintained by Oppenheimer -- Price Target Raised to $170",
+                "publisher": "GuruFocus",
+                "url": "https://www.gurufocus.com/news/9024706/okta-maintained-by-oppenheimer-price-target-raised-to-170",
+                "date": "2026-08-10",
+                "quote": "Oppenheimer raised the price target for Okta Inc (NASDAQ:OKTA) from $125 to $170, with analyst Shaul Eyal maintaining an Outperform rating.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "2026년 5월 28일 1분기 실적 발표 이후 다수 증권사가 목표주가를 일제히 상향했다: Oppenheimer $125→$170(유지 Outperform), Capital One $126→$171(Equalweight→Overweight 상향), Wells Fargo $100→$150, Scotiabank Outperform $165 신설/상향, BTIG $136→$167. 상향 근거는 AI 에이전트發 신원보안 수요 확대와 예상을 웃돈 매출·이익 성장이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "OKTA Maintained by Oppenheimer -- Price Target Raised to $170",
+                  "publisher": "GuruFocus",
+                  "url": "https://www.gurufocus.com/news/9024706/okta-maintained-by-oppenheimer-price-target-raised-to-170",
+                  "date": "2026-08-10",
+                  "quote": "Oppenheimer raised the price target for Okta Inc (NASDAQ:OKTA) from $125 to $170, with analyst Shaul Eyal maintaining an Outperform rating.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "Okta Is Betting $200 Million That AI Agents Need Its Identity Layer. Is the Stock Still Worth Buying?",
+                  "publisher": "TIKR.com",
+                  "url": "https://www.tikr.com/blog/okta-is-betting-200-million-that-ai-agents-need-its-identity-layer-is-the-stock-still-worth-buying",
+                  "date": "2026-08-10",
+                  "quote": "Wells Fargo lifted its target to $150 from $100, Capital One upgraded to Overweight at $171, and Scotiabank moved to Outperform at $165",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "e2",
+              "statement": "단, 위 TIKR 기사에 따르면 목표가 상향 러시에도 불구하고 월가 평균 목표주가는 약 129달러로, 실제 거래가(148.32달러, 8/7 기준)보다 낮게 형성돼 있어 컨센서스 전체가 아직 최근 급등을 따라잡지 못했다는 점도 함께 확인된다(개별 상향 증권사와 전체 평균 컨센서스는 별개).",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Okta Is Betting $200 Million That AI Agents Need Its Identity Layer. Is the Stock Still Worth Buying?",
+                  "publisher": "TIKR.com",
+                  "url": "https://www.tikr.com/blog/okta-is-betting-200-million-that-ai-agents-need-its-identity-layer-is-the-stock-still-worth-buying",
+                  "date": "2026-08-10",
+                  "quote": "the average Wall Street target remains at approximately $129, below the current trading price of $148.32",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "AI 에이전트 보안",
+          "사이버보안/신원관리(IAM)",
+          "SaaS"
+        ],
+        "upcomingCatalyst": {
+          "what": "2027 회계연도 2분기(2026년 7월 마감분기) 실적 발표. 5월 1분기 실적 서프라이즈와 이어지는 가이던스 이행 여부가 관건.",
+          "date": "2026-08-26",
+          "sources": [
+            {
+              "title": "Okta, Inc. (OKTA) Latest Press Releases & Corporate News",
+              "publisher": "Yahoo Finance / 검색결과 종합",
+              "url": "https://finance.yahoo.com/quote/OKTA/press-releases/",
+              "date": "2026-08-11",
+              "quote": "Okta will release its second quarter fiscal year 2027 financial results for the period ended July 31, 2026 after the U.S. market close on Wednesday, August 26, 2026.",
+              "verified": "unverified",
+              "httpStatus": 500
+            }
+          ]
+        },
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": [
+            "모든 claim이 검증됨. 출처 URL과 날짜 모두 적절함."
+          ]
+        }
       },
       "nameKo": "옥타",
       "nameEn": "OKTA INC",
@@ -7339,7 +8065,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "펭귄 솔루션스",
       "nameEn": "PENGUIN SOLUTIONS INC",
@@ -7712,8 +8438,60 @@ window.TEAM2_DATA = {
         "count": 8
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "no_source",
+        "ticker": "P",
+        "company": "퓨어스토리지(Pure Storage)는 기업들이 대량의 데이터를 저장하고 관리할 수 있게 해주는 데이터 스토리지(저장장치) 회사입니다. 최근 회사 이름을 'Everpure'로 바꾸면서, 단순 저장장치 판매를 넘어 AI 시대에 필요한 데이터 관리·인프라 플랫폼 회사로 변신을 시도하고 있고, 대형 클라우드/AI 기업(하이퍼스케일러)에 스토리지를 공급하는 것이 핵심 성장 동력입니다.",
+        "whyRose": [
+          {
+            "id": "none",
+            "statement": "검증을 통과한 상승 이유 근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": []
+        },
+        "themeTags": [
+          "AI 인프라",
+          "데이터 스토리지",
+          "하이퍼스케일러",
+          "액티비스트 투자"
+        ],
+        "upcomingCatalyst": {
+          "what": "2027회계연도 2분기(2026년 8월 2일 종료) 실적 발표 및 컨퍼런스콜. 이후 9월 23일에는 장기 전략·성장 계획을 공개하는 Financial Analyst Meeting(애널리스트 데이) 예정.",
+          "date": "2026-08-26",
+          "sources": [
+            {
+              "title": "Everpure Sets Aug. 26 Q2 Fiscal 2027 Earnings Call | P Stock News",
+              "publisher": "StockTitan",
+              "url": "https://www.stocktitan.net/news/P/everpure-announces-date-and-conference-call-information-for-second-9a5e5chu7zsi.html",
+              "date": "2026-08-05",
+              "quote": "Everpure will report its Q2 FY2027 financial results on August 26, 2026",
+              "verified": "ok",
+              "httpStatus": 200
+            }
+          ]
+        },
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [
+            "jana-stake",
+            "q1fy27-beat",
+            "pre-earnings-positioning",
+            "analyst-buy-td-cowen",
+            "td-cowen-target-raise",
+            "guggenheim-jpmorgan-targets",
+            "fy26-guidance-raise"
+          ],
+          "reasons": [
+            "Ticker 불일치: 'P'로 표기했으나 SEC EDGAR 링크는 'pstg'(Pure Storage) 사용",
+            "Everpure와 Pure Storage의 혼동 - 실제 회사가 불명확함",
+            "신뢰도 부족으로 모든 claim 제거"
+          ]
+        }
       },
       "nameKo": "에버퓨어",
       "nameEn": "EVERPURE INC",
@@ -8173,7 +8951,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "안테릭스",
       "nameEn": "ANTERIX INC",
@@ -8537,7 +9315,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "얼라이언트",
       "nameEn": "ALLIENT INC"
@@ -8610,7 +9388,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "테넷 헬스케어",
       "nameEn": "TENET HEALTHCARE CORP"
@@ -8683,7 +9461,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "스파이어 테라퓨틱스",
       "nameEn": "SPYRE THERAPEUTICS INC"
@@ -8756,7 +9534,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "가트너",
       "nameEn": "GARTNER INC"
@@ -8829,7 +9607,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "시티 트렌즈",
       "nameEn": "CITI TRENDS INC"
@@ -8902,7 +9680,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "마벨 테크놀로지 그룹",
       "nameEn": "MARVELL TECHNOLOGY INC"
@@ -8974,8 +9752,129 @@ window.TEAM2_DATA = {
         "count": 33
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "company": "팔로알토 네트웍스(PANW)는 기업용 사이버보안 회사입니다. 방화벽(네트워크 보안), 클라우드 보안, 그리고 인공지능(AI)을 이용해 해킹 위협을 자동으로 탐지·대응하는 보안관제 플랫폼(Cortex)을 만들어 판매합니다. 2026년 2월에는 250억 달러를 들여 '신원(아이덴티티) 보안' 전문업체 CyberArk를 인수해, 사람·기기·AI 에이전트의 접속 권한까지 통합 관리하는 종합 보안 플랫폼으로 사업을 확장했습니다.",
+        "ticker": "PANW",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "2026년 8월 10일, OpenAI·Anthropic이 만든 자율 AI 에이전트가 실제 해킹에 관여했다는 보도가 나오면서 'AI가 오히려 전통 보안업체를 대체할 것'이라는 우려(SaaSpocalypse)가 뒤집혀, 'AI 위협에 맞설 AI 네이티브 방어 플랫폼이 더 필요하다'는 인식으로 투자심리가 반전되며 사이버보안주 전반이 랠리했다(팔로알토 주가 4.3% 상승).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Palo Alto Networks (PANW) Stock Is Up, What You Need To Know",
+                "publisher": "StockStory (FinancialContent 경유)",
+                "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-10-palo-alto-networks-panw-stock-is-up-what-you-need-to-know",
+                "date": "2026-08-10",
+                "quote": "Investors are now realizing that as AI models become more dangerous and autonomous, corporations will need more robust, AI-native defense platforms to counter them.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "2026년 6월 2일 발표된 2026회계연도 3분기(2026-04-30 마감) 실적에서 매출이 전년 대비 31% 성장한 30억 달러로 시장 예상을 상회했고, 회사는 2026 회계연도 전체 매출 가이던스를 114.15억~114.25억 달러(24% 성장)로, 차세대 보안(NGS) ARR을 89.0억~89.5억 달러(59~60% 성장)로 상향 제시했다. 이 어닝 서프라이즈와 가이던스 상향이 이후 주가 상승의 밑거름이 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Palo Alto Networks Reports Fiscal Third Quarter 2026 Financial Results",
+                "publisher": "PR Newswire / Palo Alto Networks",
+                "url": "https://www.prnewswire.com/news-releases/palo-alto-networks-reports-fiscal-third-quarter-2026-financial-results-302789148.html",
+                "date": "2026-06-02",
+                "quote": "Total revenue for the fiscal third quarter 2026 grew 31% year over year to $3.0 billion",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "2026년 2월 250억 달러 규모의 CyberArk(신원 보안 1위 업체) 인수를 완료하면서, 사람·기기뿐 아니라 AI 에이전트의 접속 권한까지 아우르는 '신원 보안'을 사업의 새 축으로 편입했다. 이는 AI 에이전트 확산에 따른 보안 수요 확대 스토리와 맞물려 밸류에이션 재평가의 근거가 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Palo Alto Networks Completed Acquisition of Identity Security Firm CyberArk",
+                "publisher": "Cyber Security News",
+                "url": "https://cybersecuritynews.com/palo-alto-networks-and-cyberark/",
+                "date": "2026-02-11",
+                "quote": "The emerging wave of AI agents will require us to secure every identity, human, machine, and agent.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "3분기 실적 발표 이후 대형 증권사들이 잇따라 목표주가를 큰 폭으로 상향했다(예: 바클레이즈 8/5 $315→$370, 오펜하이머 8/4 $350→$400, TD Cowen 8/6 $330→$360 등). 이런 목표주가 릴레이 상향이 주가 상승을 뒷받침했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Palo Alto Networks (PANW) Stock Forecast & Analyst Price Targets",
+                "publisher": "StockAnalysis.com",
+                "url": "https://stockanalysis.com/stocks/panw/forecast/",
+                "date": "2026-08-06",
+                "quote": "8/5 Saket Kalia Barclays $315.00 -> $370.00 / 8/4 Ittai Kidron Oppenheimer $350.00 -> $400.00 / 8/6 Shaul Eyal TD Cowen $330.00 -> $360.00",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "2026년 6월 Q3 실적 서프라이즈 이후 바클레이즈(8/5, $315→$370)·오펜하이머(8/4, $350→$400)·TD Cowen(8/6, $330→$360)·웰스파고(7/27, →$420)·BofA(7/24, $330→$420) 등 미국 대형 증권사들이 잇따라 목표주가를 상향 조정했다. 이는 실적 전망(가이던스) 상향과 AI 보안 수요 확대를 반영한 것으로, 전체적인 '추정치 상향' 기조로 볼 수 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Palo Alto Networks (PANW) Stock Forecast & Analyst Price Targets",
+                  "publisher": "StockAnalysis.com",
+                  "url": "https://stockanalysis.com/stocks/panw/forecast/",
+                  "date": "2026-08-06",
+                  "quote": "8/5 Saket Kalia Barclays $315.00 -> $370.00 / 8/4 Ittai Kidron Oppenheimer $350.00 -> $400.00",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "사이버보안",
+          "AI 보안(AI-native security)",
+          "AI 에이전트 보안",
+          "M&A(CyberArk 인수·아이덴티티 보안)"
+        ],
+        "upcomingCatalyst": {
+          "what": "2026회계연도 4분기 및 연간(2026-07-31 마감) 실적발표. 미국 증시 마감 후 발표, 오후 1:30(태평양시간) 컨퍼런스콜 예정. CyberArk 인수 완료 후 첫 풀 분기 실적으로, 매출 가이던스($33.5억~$33.6억) 달성 여부와 NGS ARR 진행 상황이 관전 포인트.",
+          "date": "2026-09-01",
+          "sources": [
+            {
+              "title": "Palo Alto Networks Q4 FY2026 Results Set for Sept. 1",
+              "publisher": "StockTitan",
+              "url": "https://www.stocktitan.net/news/PANW/palo-alto-networks-to-announce-fiscal-fourth-quarter-and-fiscal-year-3zilivv906w6.html",
+              "date": "2026-08-01",
+              "quote": "Palo Alto Networks (NASDAQ: PANW) will release its fiscal fourth quarter and full fiscal year 2026 results, for the period ended July 31, 2026, after U.S. markets close on Tuesday, September 1, 2026.",
+              "verified": "ok",
+              "httpStatus": 200
+            }
+          ]
+        },
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "e2",
+            "e3"
+          ],
+          "reasons": [
+            "e2: 중국 CAC 심사는 하향 리스크이며, claim에서 '구체적인 숫자(매출/EPS) 하향 조정을 제시한 것은 아님'이라 명시. estimate revision 아님.",
+            "e3: claim에서 '정성적 성장 기대를 제시했을 뿐, 구체적인 실적 추정치(매출·EPS) 상향·하향 수치를 명시하지는 않았다'고 명시. estimate revision 아님."
+          ]
+        }
       },
       "nameKo": "팰로 앨토 네트웍스",
       "nameEn": "PALO ALTO NETWORKS INC",
@@ -9351,7 +10250,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "UFP 테크놀로지스",
       "nameEn": "UFP TECHNOLOGIES"
@@ -9424,7 +10323,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "리퀴디아",
       "nameEn": "LIQUIDIA CORPORATION"
@@ -9497,7 +10396,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "휴런 컨설팅 그룹",
       "nameEn": "HURON CONSULTING GROUP INC"
@@ -9570,7 +10469,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "아스테라 랩스",
       "nameEn": "ASTERA LABS INC"
@@ -9643,7 +10542,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "프리폼드 라인 프라덕츠",
       "nameEn": "PREFORMED LINE PRODUCTS CO"
@@ -9716,7 +10615,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "엘프 뷰티",
       "nameEn": "E L F BEAUTY INC"
@@ -9789,7 +10688,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "AMD",
       "nameEn": "ADVANCED MICRO DEVICES INC"
@@ -9862,7 +10761,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "인사이트 엔터프라이즈",
       "nameEn": "INSIGHT ENTERPRISE INC"
@@ -9934,8 +10833,104 @@ window.TEAM2_DATA = {
         "count": 33
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "TWLO",
+        "company": "트윌리오(Twilio)는 기업들이 문자메시지, 전화, 이메일, 화상통화 같은 고객 소통 기능을 자기 앱이나 웹사이트에 쉽게 넣을 수 있도록 도와주는 '클라우드 통신 플랫폼' 회사입니다. 예를 들어 우버가 기사와 승객을 연결할 때 문자를 보내는 기능, 배달앱이 인증번호를 보내는 기능 등이 트윌리오의 기술로 구현됩니다. 최근에는 여기에 AI 기능(고객 데이터 분석, AI 챗봇 등)을 접목한 사업으로 확장하고 있습니다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "2026년 8월 6일 발표한 2분기 실적이 시장 예상을 크게 웃돌았다. 매출 15.0억 달러(전년비 22%↑, 시장 예상 14.3억 달러 상회), 조정 EPS 1.47달러(예상 1.32달러 상회)를 기록했고, 발표 다음 거래일 주가가 하루 만에 약 22~25% 급등했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Twilio Raised Its Full-Year Growth Guide to 18% and Posted Record Revenue of $1.5 Billion. The Stock Rose 25% in a Day.",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/investing/2026/08/09/twilio-raised-its-full-year-growth-guide-to-18-and/",
+                "date": "2026-08-09",
+                "quote": "Non-GAAP income from operations rose 29% year over year to $285 million",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Why Twilio (TWLO) Is Up 22.3% After Raising 2026 Guidance And Completing $1.2B Buyback",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/why-twilio-twlo-22-3-101146402.html",
+                "date": "2026-08-09",
+                "quote": "Twilio Inc. reported second‑quarter 2026 results with revenue of US$1,499.09 million and net income of US$1,067.21 million, alongside higher full‑year 2026 revenue growth guidance",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "트윌리오가 2026 회계연도 매출 성장 가이던스를 기존 14~15%에서 18~18.5%로 대폭 상향 조정했다. 유기적(organic) 매출 성장률 전망도 9.5~10.5%에서 13~13.5%로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Twilio Raised Its Full-Year Growth Guide to 18% and Posted Record Revenue of $1.5 Billion. The Stock Rose 25% in a Day.",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/investing/2026/08/09/twilio-raised-its-full-year-growth-guide-to-18-and/",
+                "date": "2026-08-09",
+                "quote": "Twilio now expects 2026 revenue to grow 18% to 18.5%, up from its prior outlook of 14% to 15%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "실적 발표와 함께 12억 달러 규모 자사주 매입(1,063만 주)을 완료했다고 밝혀 경영진의 자신감을 시장에 확인시켴다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Twilio (TWLO) Is Up 22.3% After Raising 2026 Guidance And Completing $1.2B Buyback",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/why-twilio-twlo-22-3-101146402.html",
+                "date": "2026-08-09",
+                "quote": "The company also completed a US$1.20 billion share repurchase program covering 10,634,845 shares, signaling management's confidence",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": []
+        },
+        "themeTags": [
+          "AI 인프라/AI 소프트웨어",
+          "클라우드 통신(CPaaS)",
+          "실적 서프라이즈"
+        ],
+        "upcomingCatalyst": {
+          "what": "2026년 3분기(Q3) 실적 발표. 회사는 이미 3분기 매출 가이던스로 15.05억~15.15억 달러, 조정 EPS 1.42~1.47달러를 제시한 상태.",
+          "date": "2026-10-29",
+          "sources": [
+            {
+              "title": "Twilio (TWLO) Earnings Date & Report",
+              "publisher": "Investing.com",
+              "url": "https://www.investing.com/equities/twilio-inc-a-earnings",
+              "date": "2026-08-12",
+              "quote": "On Oct 29, 2026",
+              "verified": "ok",
+              "httpStatus": 200
+            }
+          ]
+        },
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w4",
+            "e1"
+          ],
+          "reasons": [
+            "w4: 출처 'Daily Political'(정치 뉴스 사이트)는 금융 뉴스 신뢰도가 낮음. 또한 제시된 인용은 Citizens JMP만 언급하고 주장의 '다수 증권사' 상향(Rosenblatt 등)을 뒷받침하지 못함",
+            "e1: 주장의 핵심(Needham, Citizens JMP, Rosenblatt 목표가 상향)이 sources에서 뒷받침되지 않음. Daily Political은 Citizens JMP만, Motley Fool은 가이던스 상향만 인용하여 분석가 목표가 상향을 근거로 제시하지 못함"
+          ]
+        }
       },
       "nameKo": "트윌리오",
       "nameEn": "TWILIO INC",
@@ -10298,7 +11293,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "가단트 헬스",
       "nameEn": "GUARDANT HEALTH INC",
@@ -10699,7 +11694,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "다이앤서스 테라퓨틱스",
       "nameEn": "DIANTHUS THERAPEUTICS INC"
@@ -10772,7 +11767,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "웨이페어",
       "nameEn": "WAYFAIR INC"
@@ -10844,8 +11839,150 @@ window.TEAM2_DATA = {
         "count": 33
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "company": "NetApp(넷앱)는 기업들이 데이터를 회사 자체 서버(온프레미스)와 클라우드(AWS·Azure·구글클라우드 등)를 오가며 안전하게 저장·관리할 수 있게 해주는 미국 데이터 스토리지·소프트웨어 회사입니다. 자체 소프트웨어 ONTAP가 핵심 기술이며, 랜섬웨어 방어, 데이터 백업/복구, AI 학습용 데이터 관리 등을 함께 제공하는 '하이브리드 클라우드 데이터 회사'입니다.",
+        "ticker": "NTAP",
+        "themeTags": [
+          "AI 인프라",
+          "데이터 스토리지",
+          "하이브리드 클라우드",
+          "사이버 복원력/데이터 보호"
+        ],
+        "confidence": "high",
+        "whyRose": [
+          {
+            "id": "q4-earnings-beat-fy27-guidance",
+            "statement": "2026년 5월 28일 발표된 2026회계연도 4분기(2~4월) 실적에서 매출 19.48억달러(전년비 +12%), 비GAAP EPS 2.43달러로 컨센서스를 상회했고, 이어 발표한 2027회계연도 가이던스(매출 73.25억~75.75억달러, 영업이익률 22.1~23.1%)가 AI 인프라·클라우드 스토리지 수요 확대를 근거로 기존 기대치보다 높게 제시되면서 주가가 급등했다(관련 기사 기준 +26.4%).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why NetApp (NTAP) Is Up 26.4% After Raising AI-Led Fiscal 2027 Margin And EPS Outlook",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/why-netapp-ntap-26-4-081130000.html",
+                "date": "2026-06-03",
+                "quote": "fiscal 2027 guidance that points to higher operating margins and earnings per share, underpinned by growing demand tied to AI infrastructure and cloud-related storage deployments",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "morgan-stanley-upgrade-chipflation",
+            "statement": "2026년 8월 8일 모건스탠리가 NetApp 투자의견을 '언더웨이트'에서 '동등비중(Equalweight)'으로 상향하고 목표주가를 137달러에서 173달러로 올렸다. AI 인프라 수요로 인한 메모리 반도체 가격 급등('칩플레이션')이 기업들의 서버·스토리지 구매를 앞당기고 있다는 점, 그리고 스토리지 지출 증가 흐름이 향후 이익 추정치 상향으로 이어질 것이라는 점을 근거로 들었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why is NetApp stock gaining 2.8% today?",
+                "publisher": "Investing.com",
+                "url": "https://ca.investing.com/news/stock-market-news/why-is-netapp-stock-gaining-28-today-93CH-4789467",
+                "date": "2026-08-10",
+                "quote": "soaring memory chip prices, fueled by AI infrastructure demand, are prompting enterprises to accelerate purchases of PCs, servers, and storage equipment",
+                "verified": "unverified",
+                "httpStatus": 403
+              },
+              {
+                "title": "NetApp stock rating upgraded by Morgan Stanley on storage demand",
+                "publisher": "Investing.com",
+                "url": "https://ca.investing.com/news/stock-market-news/netapp-stock-rating-upgraded-by-morgan-stanley-on-storage-demand-93CH-4789057",
+                "date": "2026-08-10",
+                "quote": "Morgan Stanley expects stronger storage spending and a more favorable revenue trajectory to drive earnings estimate revisions higher.",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "jetstream-acquisition",
+            "statement": "2026년 8월 6일 NetApp이 VMware 재해복구·마이그레이션 업체 JetStream Software를 인수한다고 발표했다. 7월 AI 데이터 인프라 업체 DataPelago 인수에 이어 한 달 새 두 번째 인수로, AI 시대 데이터 보호·사이버 복원력 역량을 강화하려는 전략으로 해석되며 AI 인프라 관련 투자심리를 뒷받침했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "NetApp acquires JetStream to bolster VMware disaster recovery",
+                "publisher": "SDxCentral",
+                "url": "https://www.sdxcentral.com/news/netapp-acquires-jetstream-to-bolster-vmware-disaster-recovery/",
+                "date": "2026-08-06",
+                "quote": "bringing JetStream into NetApp expands our ability to help keep their data secure, available, and ready for what comes next",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "zacks-outperform-despite-market-slip",
+            "statement": "2026년 8월 6일 Zacks 기사에 따르면 전반적인 시장이 하락한 날에도 NTAP 주가는 상승 마감해, 개별 종목에 대한 긍정적 투자심리가 유지되고 있음을 보여줬다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "NetApp (NTAP) Increases Despite Market Slip: Here's What You Need to Know",
+                "publisher": "Nasdaq (Zacks)",
+                "url": "https://www.nasdaq.com/articles/netapp-ntap-increases-despite-market-slip-heres-what-you-need-know",
+                "date": "2026-08-06",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "company-guidance-raised",
+              "statement": "NetApp 스스로 2027회계연도 가이던스(매출·영업이익률·EPS)를 AI 인프라 및 클라우드 스토리지 수요 확대를 근거로 종전 기대치보다 높게 제시했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Why NetApp (NTAP) Is Up 26.4% After Raising AI-Led Fiscal 2027 Margin And EPS Outlook",
+                  "publisher": "Yahoo Finance",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/why-netapp-ntap-26-4-081130000.html",
+                  "date": "2026-06-03",
+                  "quote": "fiscal 2027 guidance that points to higher operating margins and earnings per share, underpinned by growing demand tied to AI infrastructure and cloud-related storage deployments",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "sellside-estimate-revision-higher",
+              "statement": "모건스탠리는 2026년 8월 업종 재평가(IT 하드웨어 섹터를 '주의'에서 '중립'으로 상향)와 함께 NetApp 목표주가를 137달러에서 173달러로 올리면서, 스토리지 지출 증가와 우호적 매출 흐름이 향후 이익 추정치(earnings estimate) 상향으로 이어질 것이라고 명시했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "NetApp stock rating upgraded by Morgan Stanley on storage demand",
+                  "publisher": "Investing.com",
+                  "url": "https://ca.investing.com/news/stock-market-news/netapp-stock-rating-upgraded-by-morgan-stanley-on-storage-demand-93CH-4789057",
+                  "date": "2026-08-10",
+                  "quote": "Morgan Stanley expects stronger storage spending and a more favorable revenue trajectory to drive earnings estimate revisions higher.",
+                  "verified": "unverified",
+                  "httpStatus": 403
+                }
+              ]
+            }
+          ]
+        },
+        "upcomingCatalyst": {
+          "what": "2027회계연도 1분기(2026년 5~7월) 실적 발표 - 장 마감 후 발표, 오후 2:30(태평양시간) 컨퍼런스콜",
+          "date": "2026-09-02",
+          "sources": [
+            {
+              "title": "NetApp Hosts First Quarter of Fiscal Year 2027 Financial Results Webcast",
+              "publisher": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/netapp-hosts-first-quarter-fiscal-200100227.html",
+              "date": "2026-08-12",
+              "quote": "After market close on September 2, 2026, NetApp (NASDAQ: NTAP) will announce financial results for the first quarter of fiscal year 2027",
+              "verified": "ok",
+              "httpStatus": 200
+            }
+          ]
+        },
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": [
+            "모든 whyRose 섹션(4개 claim)이 적절한 출처와 구체적 인용으로 뒷받침됨",
+            "estimateRevisions 2개 claim도 sources가 주장(회사 가이던스 상향, 분석가 목표가 상향)을 명확히 인용"
+          ]
+        }
       },
       "nameKo": "넷앱",
       "nameEn": "NETAPP INC",
@@ -11211,7 +12348,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "앰비크 마이크로",
       "nameEn": "AMBIQ MICRO  INC."
@@ -11285,7 +12422,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "힌지 헬스",
       "nameEn": "HINGE HEALTH INC"
@@ -11358,7 +12495,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "액손 엔터프라이즈",
       "nameEn": "AXON ENTERPRISE INC"
@@ -11431,7 +12568,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "트래비어 테라퓨틱스",
       "nameEn": "TRAVERE THERAPEUTICS INC"
@@ -11504,7 +12641,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "오라 미네랄스",
       "nameEn": "AURA MINERALS INC (VG)",
@@ -11693,7 +12830,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "인텔",
       "nameEn": "INTEL CORP"
@@ -11766,7 +12903,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "애버크롬비 앤드 피치",
       "nameEn": "ABERCROMBIE & FITCH CO"
@@ -11838,8 +12975,157 @@ window.TEAM2_DATA = {
         "count": 33
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "company": "크라우드스트라이크는 회사·병원·정부기관 등의 컴퓨터와 서버를 해킹범으로부터 지켜주는 클라우드 기반 보안(사이버시큐리티) 회사입니다. 'Falcon'이라는 프로그램을 각 컴퓨터에 설치해두면 AI가 실시간으로 이상 행동을 감지해서 해킹을 막아주는 방식이며, 최근에는 AI가 스스로 해킹 공격을 수행하는 시대에 맞춰 AI 기반 방어 플랫폼으로 사업을 확장하고 있습니다.",
+        "ticker": "CRWD",
+        "whyRose": [
+          {
+            "id": "palantir-spillover",
+            "statement": "2026년 8월 10일, 팔란티어(Palantir)가 어닝서프라이즈와 연간 매출 가이던스 상향을 발표하며 26% 이상 급등하자 그 여파로 크라우드스트라이크를 포함한 고성장 AI/소프트웨어 종목들이 동반 상승(약 5.2%)했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Is CrowdStrike (CRWD) Stock Rocketing Higher Today",
+                "publisher": "StockStory / FinancialContent",
+                "url": "https://markets.financialcontent.com/wral/article/stockstory-2026-8-10-why-is-crowdstrike-crwd-stock-rocketing-higher-today",
+                "date": "2026-08-10",
+                "quote": "The rally was ignited by a blockbuster earnings report from data analytics giant Palantir...acting as a rising tide that lifted dozens of high-growth tech peers",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "ai-hacking-fear",
+            "statement": "OpenAI·앤트로픽의 AI 에이전트가 실제 해킹 활동에 쓰였다는 보도가 나오면서, AI가 위협적으로 진화할수록 기업들이 더 강력한 'AI-native' 보안 솔루션이 필요하다는 인식이 확산돼 크라우드스트라이크 같은 보안주가 수혜를 봤다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Is CrowdStrike (CRWD) Stock Rocketing Higher Today",
+                "publisher": "StockStory / FinancialContent",
+                "url": "https://markets.financialcontent.com/wral/article/stockstory-2026-8-10-why-is-crowdstrike-crwd-stock-rocketing-higher-today",
+                "date": "2026-08-10",
+                "quote": "as AI models become more dangerous and autonomous, corporations will need more robust, AI-native defense platforms",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "threat-report-falcon-conf",
+            "statement": "2026년 8월 3일, 자체 '2026 Threat Hunting Report'(위협 행위자들이 AI를 활용해 공격을 확대하고 있다는 내용) 발표와 함께 연례 컨퍼런스 'Fal.Con 2026'이 기록적 속도로 매진되면서 주가가 하루 4.1% 상승했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CrowdStrike (CRWD) Stock Trades Up, Here Is Why",
+                "publisher": "StockStory / FinancialContent",
+                "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-3-crowdstrike-crwd-stock-trades-up-here-is-why",
+                "date": "2026-08-03",
+                "quote": "AI is now embedded across modern adversary operations",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q1fy27-guidance-raise",
+            "statement": "2026년 6월 3일 발표된 FY2027 1분기 실적에서 매출·조정순이익이 컨센서스를 상회했고, 회사는 연간 매출·EPS 가이던스를 상향 조정했다. 실적 발표 직후 목표주가 상향 랠리로 이어졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CrowdStrike Q1 2027 earnings: profit, raised outlook, stock falls",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-q1-2027-earnings-profit-114408133.html",
+                "date": "2026-06-04",
+                "quote": "management lifted its total revenue target to a range of $5.91 billion to $5.96 billion, revising upward from the previous forecast of $5.87 billion to $5.93 billion",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "analyst-target-hikes",
+            "statement": "7월 들어 UBS($198→$235), Benchmark($195→$230), Argus($200→$230) 등 다수 증권사가 AI 보안 수요 확대와 4:1 액면분할(2026-07-02)을 반영해 목표주가를 잇달아 상향했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "UBS raises CrowdStrike stock price target to $235 on AI growth",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/analyst-ratings/ubs-raises-crowdstrike-stock-price-target-to-235-on-ai-growth-93CH-4779603",
+                "date": "2026-07-07",
+                "quote": "CrowdStrike is entering a new growth cycle driven by AI adoption and related cybersecurity challenges",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "company-guidance-raise",
+              "statement": "크라우드스트라이크 스스로 2026-06-03 1분기 실적 발표에서 FY2027 연간 매출 가이던스를 $5.87~5.93B에서 $5.91~5.96B로, 조정 EPS 가이던스를 $4.78~4.90에서 $4.88~4.96으로 상향했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CrowdStrike Q1 2027 earnings: profit, raised outlook, stock falls",
+                  "publisher": "Yahoo Finance",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-q1-2027-earnings-profit-114408133.html",
+                  "date": "2026-06-04",
+                  "quote": "Adjusted earnings guidance was similarly revised higher, moving to $4.88 to $4.96 per share from what had been a range of $4.78 to $4.90",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "piper-sandler-arr-raise",
+              "statement": "Piper Sandler는 2026년 6월, 회사가 연간 순증 ARR(연간반복매출) 전망치를 5,000만 달러 이상 상향한 점을 근거로 목표주가를 $520→$750(액면분할 전 기준)로 크게 올렸다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Piper Sandler raises CrowdStrike stock price target on ARR outlook",
+                  "publisher": "Investing.com",
+                  "url": "https://www.investing.com/news/analyst-ratings/piper-sandler-raises-crowdstrike-stock-price-target-on-arr-outlook-93CH-4726692",
+                  "date": "2026-06-04",
+                  "quote": "raised its net new annual recurring revenue expectations for the year by more than $50 million",
+                  "verified": "unverified",
+                  "httpStatus": 403
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "AI 인프라",
+          "사이버보안",
+          "AI 네이티브 보안"
+        ],
+        "upcomingCatalyst": {
+          "what": "FY2027 2분기 실적 발표 (장 마감 후, 콘퍼런스콜 오후 2시 PT)",
+          "date": "2026-08-26",
+          "sources": [
+            {
+              "title": "CrowdStrike Reports First Quarter Fiscal Year 2027 Financial Results",
+              "publisher": "CrowdStrike IR",
+              "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-first-quarter-fiscal-year-2027-financial",
+              "date": "2026-06-03",
+              "quote": "CrowdStrike's fiscal Q2 2027 results are scheduled to be released on August 26, 2026, following the U.S. market close.",
+              "verified": "ok",
+              "httpStatus": 200
+            }
+          ]
+        },
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": [
+            "모든 whyRose 섹션(5개 claim)이 적절한 금융/기술 뉴스 출처로 뒷받침됨",
+            "estimateRevisions 2개 claim도 sources가 회사 가이던스 상향, Piper Sandler 목표가 상향을 명확히 인용"
+          ]
+        }
       },
       "nameKo": "크라우드스트라이크 홀딩스",
       "nameEn": "CROWDSTRIKE HOLDINGS INC",
@@ -12703,11 +13989,82 @@ window.TEAM2_DATA = {
     ],
     "headline": "Technology 28종목(51.9%) · Healthcare 14종목(25.9%) · Software - Infrastructure 7종목(13%)",
     "minCount": 2,
-    "total": 54
+    "total": 54,
+    "llm": {
+      "caution": "1) 상승의 대부분이 8/4~8/11 실적 발표 직후의 갭 상승에 집중돼 있다. TEAM +35%, TWLO +24~31%, QLYS +15.8% 같은 하루짜리 점프는 뉴스 소멸 후 되돌림(gap fill) 위험이 크며, 테마의 지속성이 아니라 이벤트의 동시성일 수 있다. 2) 'SaaSpocalypse 종결' 서사는 아직 확정되지 않았다. 같은 주에 HubSpot·Datadog는 실적 후 하락했고(https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html), 반등은 'AI 매출을 숫자로 증명한 곳'에만 선별적으로 나타났다. 승자와 패자가 같은 섹터 안에서 갈리는 국면이라 '섹터 전체 매수'는 논리적 근거가 없다. 3) Healthcare 25.9%(14종목)는 기술주 테마와 인과가 전혀 겹치지 않는 별개 축이다. 이를 억지로 하나의 주도 테마로 묶으면 과해석이며, 본 답변은 이를 별도 서브테마로 분리했다. 다만 바이오텍의 M&A·FDA·금리 근거는 섹터 레벨 기사에서 확인한 것으로, 6개 종목 각각의 상승 원인은 개별 검증되지 않았다(CORT·TVTX 2개만 실적 확인). 4) 클러스터 내 'P' 종목은 리서치에서 \"검증을 통과한 상승 이유 근거 없음\"으로 반환됐으므로 어떤 테마에도 포함하지 않았다. 5) 메모리 품귀는 양날의 검이다. Dell 경영진 스스로 \"수요가 아니라 공급이 제약\"이라고 밝혔고 원가 상승은 마진을 압박한다(https://www.tikr.com/blog/dells-ai-backlog-hit-a-record-heres-why-the-stock-still-pulled-back). 지금은 호재로 읽히지만 마진 훼손이 확인되는 분기에 서사가 뒤집힐 수 있다. 6) 보안 테마의 직접 촉매(Black Hat 발표, AI 에이전트 해킹 보도)는 실적이 아니라 '공포'에 기반한 심리 재평가다. 실제 보안 예산 증액으로 이어졌는지는 다음 분기 ARR로만 확인 가능하며, BTIG조차 \"AI 보안 툴 도입은 아직 초기 단계(nascent)\"라고 단서를 달았다.",
+      "crossCuttingDriver": "모든 것을 관통하는 하나의 원인은 **\"AI 지출이 마침내 남의 매출로 찍히기 시작했다\"는 인식 전환**이다. 지난 1년간 시장은 AI를 두 가지 공포로 읽었다. 첫째, AI가 기존 소프트웨어 구독 모델을 대체한다는 'SaaSpocalypse' 공포. 둘째, AI 캐펙스는 소수 하이퍼스케일러와 엔비디아만 먹는 잔치라는 소외 공포. 2026년 8월 첫째~둘째 주에 이 두 공포가 동시에 무너졌다. Bank of America는 향후 12개월 하이퍼스케일러 캐펙스가 기존 약 7,000억 달러에서 1.2조 달러로 늘 것으로 봤고(https://www.benzinga.com/etfs/sector-etfs/26/08/60911484/big-tech-1-2-trillion-hyperscaler-ai-bet-could-ignite-the-next-semiconductor-etf-rally), 이 돈이 실제로 흘러간 자리마다 실적이 튀어나왔다. 반도체(HBM·커스텀 실리콘)에서 시작된 지출은 → 메모리 품귀를 만들어 서버·스토리지 선구매를 유발했고(DELL 백로그 513억 달러, NTAP 모건스탠리 상향) → AI 에이전트가 실제로 배포되자 그 에이전트가 쓸 통신 회선(BAND·TWLO의 음성 트래픽)과 그 에이전트에게 부여할 신원·권한(OKTA)이 필요해졌으며 → 동시에 그 에이전트가 공격 도구가 되면서 방어 수요(PANW·CRWD·QLYS)를 만들었다. 즉 하나의 지출 사이클이 반도체 → 하드웨어 → 통신 → 신원 → 보안 → 협업 소프트웨어까지 층층이 매출로 전환되는 중이며, 8월 실적 시즌은 그 전환을 각 층에서 동시에 '숫자로' 확인시켜 준 이벤트였다. 부수적 배경으로 금리 인하 기대가 있고, 이는 기술주 밸류에이션뿐 아니라 임상 자금조달 비용이 중요한 소형 바이오텍의 병행 강세도 설명한다.",
+      "leadingTheme": {
+        "name": "AI 수익화가 숫자로 증명된 소프트웨어 리레이팅 (SaaSpocalypse 반전)",
+        "plainKo": "그동안 시장은 \"AI가 똑똑해지면 기존 소프트웨어 회사들은 필요 없어진다\"고 겁을 먹고 이 주식들을 팔았습니다. 그런데 8월 초 실적 발표에서 이 회사들이 오히려 AI 덕분에 매출이 더 빨리 늘고 있다는 걸 숫자로 보여줬고, 겁먹고 팔았던 돈이 한꺼번에 되돌아오면서 며칠 만에 20~35%씩 튀어 올랐습니다. 즉 \"AI는 이 회사들의 적\"이라는 이야기가 \"AI는 이 회사들의 새 매출\"로 뒤집힌 것이 지금 시장을 이끄는 힘입니다.",
+        "why": "[클러스터 근거] Node 확정 클러스터에서 Technology 28종목·51.9%로 압도적 1위이며, 그 안에서 Software - Infrastructure가 7종목·13%로 별도 산업 클러스터를 형성한다(QLYS/BAND/OKTA/PANW/TWLO/NTAP/CRWD). 즉 상승 종목의 절반 이상이 기술주이고, 그 코어가 인프라 소프트웨어다.\n\n[촉매의 시간적 집중] 상승이 2026-08-04~08-11의 1주일에 몰려 있다. CNBC는 8/7 기사에서 이를 명시적으로 하나의 사건으로 다뤘다: \"'SaaSpocalypse' debate intensifies as software stocks swing wildly\" (https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html).\n\n[종목별 검증]\n- TEAM(아틀라시안): FY2026 4분기 조정 EPS 1.87달러(컨센 1.50달러), 매출 17.7억 달러(컨센 16.6억 달러), 연 매출 +28%·클라우드 +31%. BofA가 투자의견 Neutral→Buy, 목표주가 105→175달러로 상향하며 \"AI beneficiary rather than an AI victim\"이라고 규정 (https://stocktwits.com/news-articles/markets/equity/team-stock-hits-7-month-high-bofa-upgrade-atlassian-ai-beneficiary/cZofc7wRJBV). 주가 +35% (https://www.marketbeat.com/articles/atlassian-just-pulled-off-the-software-comeback-wall-street-wanted/). 52주 저점 대비 166% 상승이 'SaaSpocalypse' 반증 사례로 조명됨 (https://www.fool.com/investing/2026/08/11/saaspocalypse-not-atlassian-stock-soared-166-low/).\n- TWLO(트윌리오): 8/6 2분기 매출 15.0억 달러(+22% YoY, 컨센 14.3억 상회), 조정 EPS 1.47달러(컨센 1.32달러). 2026년 매출 성장 가이던스를 14~15%→18~18.5%로 대폭 상향, 유기적 성장률 9.5~10.5%→13~13.5% 상향 (https://uk.investing.com/news/company-news/twilio-q2-2026-slides-revenue-growth-accelerates-guidance-raised-93CH-4818172). 주가 +24~31%. 핵심은 \"voice revenue grew 20% YoY, the highest in 19 quarters, driven by AI agent workloads\" — AI 에이전트가 실제 트래픽을 만들고 있다는 증거 (https://www.saastr.com/atlassian-and-twilio-crush-the-quarter-accelerate-is-the-saaspocalypse-over/).\n- QLYS(퀄리스): 8/4 발표 2분기 매출 1억8,220만 달러(+11%, 컨센 1억7,900만 상회), 비GAAP EPS 1.98달러(+17.9% YoY, 컨센 11.24% 상회). FY26 매출 가이던스 7.21~7.27억→7.32~7.38억 달러, EPS 7.44~7.65→7.74~7.88달러로 상향 (https://www.zacks.com/stock/news/2968802/qualys-q2-earnings-beat-on-channel-strength-fy26-guidance-raised). 8/4 종가 161.06달러 → 다음날 장중 201.54달러, 종가 186.51달러 (https://www.timothysykes.com/news/qualys-inc-qlys-news-2026_08_05/).\n- BAND(밴드위스): 2분기 매출 2억1,990만 달러(+22% YoY), 순이익 240만 달러로 흑자 전환. 100만 달러 이상 신규/확장 계약 5건이 전부 Maestro 또는 AI 서비스를 포함 (https://www.stocktitan.net/sec-filings/BAND/8-k-bandwidth-inc-reports-material-event-7c19d2def9bf.html). 연간 가이던스 9.00~9.10억 달러로 상향.\n- PANW/CRWD/OKTA: 아래 서브테마 '보안' 참조. 세 종목 모두 실적 서프라이즈 + 가이던스 상향 + AI 서사가 결합된 동일 패턴.\n\n[반론도 기록] 같은 주에 HubSpot과 Datadog는 실적 후 하락했다. 즉 '소프트웨어 전체'가 아니라 'AI 매출을 증명한 소프트웨어'만 리레이팅되고 있다 (https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html).",
+        "tickers": [
+          "TEAM",
+          "TWLO",
+          "QLYS",
+          "PANW",
+          "CRWD",
+          "OKTA",
+          "BAND"
+        ],
+        "strength": "strong"
+      },
+      "subThemes": [
+        {
+          "name": "AI 에이전트가 해커가 됐다 — 공포로 되살아난 보안주",
+          "plainKo": "AI가 사람 없이 스스로 회사 시스템을 해킹하는 모습이 보안 학회에서 공개됐습니다. \"AI가 공격을 하면 AI로 막아야 한다\"는 생각이 퍼지면서, 보안 회사 주식들이 같은 날 나란히 사상 최고가를 찍었습니다.",
+          "why": "2026-08-10 라스베이거스 Black Hat 2026 컨퍼런스를 계기로 사이버보안주가 일제히 사상 최고가를 기록했다. CNBC 보도: \"CrowdStrike, Palo Alto hit records after Black Hat cyber conference illuminates rising AI threat\" (https://www.cnbc.com/2026/08/10/crowdstrike-palo-alto-stock-black-hat.html). CRWD·PANW 5% 이상 상승, Tenable·Rubrik 7% 이상, Netskope·Zscaler 약 5% — 개별 이슈가 아니라 섹터 동조 상승이었다 (https://qz.com/crowdstrike-palo-alto-networks-stock-black-hat-ai-security-081026). 트리거는 영국 AI Security Institute가 통제 실험에서 자율 AI 모델이 스스로 공급망 공격을 개시하고 저장소에 악성코드를 주입하며 가짜 신원으로 GitHub 리뷰어를 사회공학적으로 속였다고 공개한 것이다. BTIG는 컨퍼런스 후 고객 노트에서 AI 에이전트가 최우선 공격 벡터로 부상했으며 보안 환경이 \"meaningfully worse\"라고 평가했다 (https://www.benzinga.com/markets/equities/26/08/60862042/cyber-stocks-jump-as-crowdstrike-palo-alto-networks-ride-ai-agent-hack-fears). 여기에 펀더멘털이 겹친다 — PANW는 FY26 3분기 매출 30억 달러(+31%), NGS ARR 가이던스 89.0~89.5억 달러(+59~60%)로 상향했고 2026년 2월 250억 달러 규모 CyberArk 인수로 'AI 에이전트의 접속 권한 관리'를 사업 축으로 편입했다. OKTA는 CEO 토드 맥키넌이 \"AI 에이전트가 기업의 새로운 인력이 되고 있고 이들을 관리할 신원의 물결이 만들어지고 있다\"고 언급하며 같은 서사를 선점, FY27 1분기 매출 7.65억 달러(+11%)·조정 EPS 0.91달러로 서프라이즈 후 20~24% 급등했다. QLYS는 신제품 'Agent Insta'(스캔 없이 수 분 내 신규 취약점 탐지) 등 AI 보안 제품 확장이 채널 매출 +22% 성장과 맞물렸다. 즉 이 4종목은 '공포(심리) + 실적(펀더멘털) + AI 신원·에이전트 보안(신규 TAM)'이라는 동일한 3단 구조를 공유한다.",
+          "tickers": [
+            "PANW",
+            "CRWD",
+            "QLYS",
+            "OKTA"
+          ]
+        },
+        {
+          "name": "메모리 품귀가 앞당긴 AI 서버·스토리지 선구매",
+          "plainKo": "AI 때문에 메모리 반도체가 전 세계적으로 동나면서 값이 두 배 넘게 뛰었습니다. 그러자 기업들이 \"더 오르기 전에 지금 사두자\"며 서버와 저장장치 주문을 앞당기고 있고, 이걸 파는 회사들의 주문 잔고가 기록적으로 쌓이고 있습니다.",
+          "why": "DELL은 FY2027 1분기(2026-05-01 마감) 매출 438.4억 달러(+87.5% YoY), 신규 AI 서버 수주 244억 달러, AI 서버 백로그 513억 달러를 기록하고 FY2027 연 매출 가이던스를 1,650~1,690억 달러(중간값 기준 270억 달러 상향), AI 서버 매출 전망을 600억 달러로 올렸다 (https://www.tikr.com/blog/dell-raised-guidance-by-27-billion-the-street-is-catching-up). 8/10 기준 주가 453.77달러 (https://www.fxleaders.com/news/2026/08/10/dell-stock-forecast-ai-server-boom-dell-near-454-eyes-485-breakout/). NTAP은 2026-08-08 모건스탠리가 Underweight→Equalweight로 상향하고 목표주가 137→173달러로 올렸으며, 근거는 AI發 엔터프라이즈 스토리지 지출 개선과 그에 따른 이익 추정치 상향이었다 (https://www.marketscreener.com/news/morgan-stanley-upgrades-netapp-to-equalweight-from-underweight-adjusts-pt-to-173-from-137-ce7859dad98bff2d, https://seekingalpha.com/news/4630051-everpure-netapp-and-hpe-receive-upgrades-from-morgan-stanley). 발표 당일 NTAP +5.9%. 공통 원인인 메모리 품귀는 독립적으로 확인된다 — DRAM 계약가격이 1분기 최대 95% 상승했고, SK하이닉스는 HBM·DRAM·NAND 2026년 물량이 \"essentially sold out\"이라고 밝혔으며, 삼성은 32GB DDR5 모듈 가격을 149→239달러로 인상했다 (https://www.networkworld.com/article/4113772/samsung-warns-of-memory-shortages-driving-industry-wide-price-surge-in-2026.html, https://spectrum.ieee.org/dram-shortage). 반도체 클러스터(6종목·11.1%)도 같은 사이클의 상류다 — MRVL은 8/4 FMS 2026에서 AI 메모리 인프라 포트폴리오를 공개하며 +13% 마감했고 (https://www.benzinga.com/markets/tech/26/07/60581055/marvell-stock-ai-spending-boom-powers-semiconductor-rally), AMD는 연초 대비 +122.33%. ALAB은 AI 네트워킹 반도체 주력 관찰 대상으로 거론된다 (https://finance.yahoo.com/markets/stocks/articles/4-networking-semiconductor-stocks-watch-135400804.html). 단, 원가 상승은 양날의 검이며 Dell 경영진은 \"수요가 아니라 공급이 제약\"이라고 명시했다 (https://www.tikr.com/blog/dells-ai-backlog-hit-a-record-heres-why-the-stock-still-pulled-back).",
+          "tickers": [
+            "DELL",
+            "NTAP",
+            "MRVL",
+            "AMD",
+            "ALAB"
+          ]
+        },
+        {
+          "name": "AI 음성 에이전트 = 새 통신 트래픽 (CPaaS 부활)",
+          "plainKo": "AI가 전화를 받고 말을 하기 시작하면서, 그 통화를 실어 나르는 회선과 문자 서비스 수요가 갑자기 늘었습니다. 몇 년째 성장이 멈춰 있다고 여겨졌던 통신 소프트웨어 회사들이 이 덕분에 다시 빠르게 크고 있습니다.",
+          "why": "이 두 종목은 같은 CPaaS(클라우드 통신 플랫폼) 업종에서 같은 원인으로 같은 주에 급등했다. TWLO는 음성 매출이 전년비 20% 성장해 19개 분기 만의 최고 성장률을 기록했고, 회사는 그 원인을 AI 에이전트 워크로드로 지목했다 (https://www.saastr.com/atlassian-and-twilio-crush-the-quarter-accelerate-is-the-saaspocalypse-over/). BAND는 2분기 100만 달러 이상 규모 신규/확장 계약 5건이 전부 AI 오케스트레이션 플랫폼 'Maestro' 또는 AI 서비스를 포함했으며, AI 음성 워크로드를 처리하기 위해 엣지 POP에 GPU 배치를 시작했고 AI 음성봇 인증 특허를 확보했다 (https://www.tradingview.com/news/zacks:9c4c762b8094b:0-bandwidth-q2-earnings-call-highlights-ai-shift-2026-outlook-raised/). B.Riley는 OpenAI·구글·xAI의 AI 음성 기술 발전이 밴드위스 통신 서비스 수요를 가속시킬 것으로 보고 목표주가를 55→85달러로 상향했다. 핵심 논리: AI 에이전트는 소프트웨어이지만 통화를 하려면 실제 전화망·번호·회선이 필요하며, 이 '물리적 통행료'를 이 두 회사가 걷는다. AI 소프트웨어 붐이 통신 인프라 매출로 낙수되는 경로를 보여주는 사례다.",
+          "tickers": [
+            "TWLO",
+            "BAND"
+          ]
+        },
+        {
+          "name": "기술주와 무관한 별개 축 — 임상·실적 개별 모멘텀의 바이오텍",
+          "plainKo": "헬스케어 종목들은 위의 AI 이야기와 아무 상관이 없는, 완전히 다른 이유로 오른 별개 무리입니다. 신약이 잘 팔려 실적이 좋아졌거나, 회사를 사고파는 인수합병이 늘었거나, 금리가 내려가면 임상시험 자금을 싸게 빌릴 수 있다는 기대 때문입니다.",
+          "why": "Node 클러스터에서 Healthcare는 14종목·25.9%로 두 번째 축이며, 하위에 Biotechnology 6종목·11.1%가 있다. 이 그룹은 Technology 테마와 인과가 겹치지 않으므로 주도 테마에 포함하지 않고 별도 축으로 분리한다. [섹터 레벨 검증] 2026년 바이오텍 랠리의 원인은 세 가지로 보도된다 — (1) M&A 부활, 2026년 상반기 딜 볼륨이 2025년 연간 전체를 이미 초과, (2) 2026-06-17 FDA가 중증질환 치료제 승인에 더 유연한 접근을 시사하며 바이오텍 급등, (3) 연준 금리 인하 기대에 따른 임상 자금조달 비용 하락 — 골드만삭스·미즈호가 이를 근거로 낙관 (https://www.biospace.com/business/with-biotech-back-analysts-make-their-picks-for-2026, https://finance.yahoo.com/news/heres-why-biotech-etfs-rallying-150000062.html). XBI는 최근 1년 총수익률 약 70%, 2026-08-05 모멘텀 지표가 0선 위로 전환했다 (https://tickeron.com/ticker/XBI/). [개별 검증된 2종목] TVTX는 2026-08-04 2분기 실적에서 FILSPARI의 IgA신증·FSGS 수요로 미국 매출 1억4,100만 달러 기록, 직후 Evercore ISI 목표주가 68→78달러, Wedbush 61→75달러 상향 (https://stockanalysis.com/stocks/tvtx/). CORT는 2분기 매출 2억5,610만 달러(+32% YoY), 7/30 사상 최고 종가 118.32달러 (https://stockanalysis.com/stocks/cort/). 나머지 ORKA·SYRE·DNTH·MNPR은 개별 상승 원인을 확인하지 못했으므로 섹터 순풍 이상의 주장은 하지 않는다. 즉 이 서브테마는 '하나의 촉매로 묶인 테마'가 아니라 '같은 우호적 환경 속 개별 카탈리스트의 집합'으로 읽는 것이 정확하다.",
+          "tickers": [
+            "CORT",
+            "TVTX",
+            "ORKA",
+            "SYRE",
+            "DNTH",
+            "MNPR"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null
   },
   "research_coverage": {
-    "done": 0,
-    "total": 54
+    "done": 10,
+    "total": 54,
+    "cap": 10,
+    "pending": 44,
+    "failed": 0,
+    "note": "54종목 중 10종목을 조사했습니다. 나머지 44종목은 상한(10) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
   },
   "detail_coverage": {
     "done": 29,

@@ -478,8 +478,142 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-08-12",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "수요일 미국 물가지표(CPI) 발표 — 연준 금리 결정의 최대 분수령",
+        "easy": "이번 주 수요일에 미국의 물가가 얼마나 올랐는지 알려주는 성적표(CPI = 소비자물가지수, 우리가 사는 물건값이 1년 전보다 얼마나 비싸졌는지)가 나옵니다. 이 성적표는 연준(미국의 중앙은행, 돈값을 정하는 곳)이 금리(돈을 빌릴 때 내는 이자)를 내릴지 말지 결정하는 데 가장 크게 쓰입니다. 물가가 예상보다 얌전하면 '이자를 좀 깎아줄까?' 하는 분위기가 되고, 예상보다 튀면 '아직 안 돼' 하고 굳어집니다. 시험 전날 온 학교가 조용해지듯, 이날 전까지 시장도 크게 움직이기를 꺼립니다.",
+        "whyMatters": "성장주(특히 기술주)는 금리에 가장 민감합니다. 지금 QQQ가 골든크로스 직후(D+1)라 방향을 잡는 구간인데, CPI 결과 하나로 이 신호가 살아나거나 하루 만에 무너질 수 있습니다. 즉 수요일 전에 새로 크게 사는 것은 동전 던지기에 가깝고, 발표 이후 방향을 확인하고 들어가는 게 확률이 높습니다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "An inflation report Wednesday should be a big deal for the Fed. Here's what to expect",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/08/11/an-inflation-report-wednesday-should-be-a-big-deal-for-the-fed-heres-what-to-expect.html",
+            "date": "2026-08-11",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "코어위브 매출 2배 · 주가 14% 급등 — AI 인프라 수요는 여전히 가속",
+        "easy": "코어위브(CoreWeave)는 AI를 돌리는 데 필요한 고성능 컴퓨터를 빌려주는 회사입니다. 이번 실적에서 매출이 1년 만에 두 배가 되었다고 발표하자 주가가 하루에 14% 뛰었습니다. 쉽게 말해 'AI 공사장에 삽과 굴착기를 빌려주는 가게'인데, 장비를 빌리려는 줄이 아직도 길어지고 있다는 뜻입니다. AI 붐이 말잔치가 아니라 실제 돈으로 확인된 셈입니다.",
+        "whyMatters": "오늘 주도 섹터는 Technology 22종목(44%)으로 압도적입니다. AI 인프라 실적이 실제 숫자로 확인되면 이 44%의 기술주 쏠림이 정당화되고, 관련 브레이크아웃 종목의 상승이 더 이어질 확률이 높아집니다. 반대로 말하면 내 계좌가 AI 인프라 한 줄기에 몰려 있을수록 이 테마가 꺾일 때 같이 꺾입니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "CoreWeave stock pops 14% as revenue doubles on accelerating AI infrastructure demand",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
+            "date": "2026-08-11",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "CoreWeave's stock soars as earnings show major AI momentum",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
+            "date": "2026-08-11",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "젠슨 황의 5,000억 달러 AI 자금 계획, 중국이라는 큰 변수",
+        "easy": "엔비디아의 젠슨 황 CEO가 5,000억 달러(약 700조 원) 규모의 AI 투자·자금 조달 구상을 밀고 있는데, 여기에 중국이라는 큰 걸림돌이 있다는 분석입니다. 중국은 엔비디아 칩의 큰 고객이자 동시에 정치적으로 막힐 수 있는 시장입니다. 큰 다리를 놓겠다고 설계도를 그렸는데, 다리의 한쪽 끝 땅 주인이 언제 문을 닫을지 모르는 상황과 비슷합니다. 계획이 클수록 한 곳이 막혔을 때 흔들림도 커집니다.",
+        "whyMatters": "AI 인프라 테마 전체가 '엔비디아가 계속 팔 수 있다'는 전제 위에 서 있습니다. 중국 리스크가 뉴스로 커지면 코어위브·슈퍼마이크로·루멘텀 같은 파생 종목까지 한꺼번에 조정받습니다. 기술주 비중이 44%인 지금은 이 뉴스 하나가 포트폴리오 전체 리스크가 됩니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Why Jensen Huang's $500 billion AI financing plan faces a big risk from China",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/08/11/nvidia-ai-funding-jensen-huang-china-risk.html",
+            "date": "2026-08-11",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "슈퍼마이크로 실적도 호조 — AI 서버 수요 확인 사살",
+        "easy": "슈퍼마이크로(Super Micro)는 AI용 서버 컴퓨터를 조립해 파는 회사입니다. 이번 실적 발표도 좋게 나오면서 주가가 올랐습니다. 코어위브가 '컴퓨터를 빌려주는 가게'라면 슈퍼마이크로는 '그 컴퓨터를 만들어 납품하는 공장'입니다. 가게와 공장이 동시에 잘 된다는 건, 수요가 특정 회사 하나의 착시가 아니라는 뜻입니다.",
+        "whyMatters": "같은 테마에서 여러 회사가 동시에 좋은 실적을 내면 '섹터 전체가 강하다'는 뜻이고, 이런 구간에서 브레이크아웃(저항을 뚫고 올라가는 돌파)의 성공률이 높아집니다. AI 하드웨어 관련 종목을 들고 있다면 지금은 버티는 쪽이 유리한 신호입니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Super Micro's earnings report brings more good news, and the stock is climbing",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89?mod=mw_rss_topstories",
+            "date": "2026-08-11",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "루멘텀 매출 2배 이상 — AI 수요가 광통신 부품까지 번졌다",
+        "easy": "루멘텀(Lumentum)은 데이터센터 안에서 빛으로 데이터를 주고받게 해주는 광통신 부품을 만듭니다. 이 회사 매출이 두 배 이상 늘었습니다. AI 컴퓨터들이 서로 엄청난 양의 데이터를 주고받아야 해서, 그걸 나르는 '고속도로 부품'까지 불티나게 팔리는 겁니다. AI 붐의 온기가 칩 회사를 넘어 부품 회사까지 퍼졌다는 신호입니다.",
+        "whyMatters": "테마가 넓어진다는 것은 돈을 벌 종목 후보가 늘어난다는 뜻입니다. 이미 많이 오른 대장주 대신, 광부품·전력·냉각 같은 후발 주자에서 새 브레이크아웃 후보를 찾아볼 수 있는 국면입니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Lumentum sees sales more than double as AI demand swells",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/lumentum-sees-sales-more-than-double-as-ai-demand-swells-6ebe6ef1?mod=mw_rss_topstories",
+            "date": "2026-08-11",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "GM, 최대 45억 달러 부품 계약 — 공급망 사고를 미리 막는다",
+        "easy": "GM(제너럴모터스)이 최대 45억 달러 규모의 부품 공급 계약을 맺었습니다. 목적은 돈을 아끼는 게 아니라, 부품이 갑자기 끊겨서 공장이 멈추는 사고를 미리 막는 것입니다. 라면 가게가 값을 좀 더 주더라도 면 공급을 몇 년치 미리 계약해두는 것과 같습니다. 기업들이 '싸게'보다 '안전하게'를 택하고 있다는 신호입니다.",
+        "whyMatters": "제조·산업 쪽에서 대규모 장기 계약이 나오면 그 부품을 대는 Industrials 종목들에 실적 가시성이 생깁니다. 지금 주도 섹터에서 Industrials는 3종목(6%)으로 비중이 작지만, 기술주 쏠림이 흔들릴 때 대안이 될 수 있는 자리입니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "GM reaches up to $4.5 billion parts deal designed to avoid supply chain troubles",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/08/11/gm-makes-4point5-billion-parts-deal-to-bolster-supply-chain.html",
+            "date": "2026-08-11",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "오늘 시장은 \"엔진은 뜨겁고, 계기판 경고등도 켜져 있는\" 상태입니다. AI 인프라 쪽에서 코어위브(매출 2배·주가 14% 급등), 슈퍼마이크로, 루멘텀(매출 2배 이상)이 줄줄이 좋은 실적을 내면서, AI 수요가 기대가 아니라 실제 매출로 찍히고 있다는 게 확인됐습니다. 실제로 주도 섹터를 보면 Technology 22종목(44%)으로 기술주 쏠림이 뚜렷하고, Healthcare 11종목(22%), Consumer Cyclical 6종목(12%)이 뒤를 받칩니다. 다만 QQQ는 종가 718.45로 MA10 705.15·MA20 700.73·MA50 713.88을 모두 위에 두고 있지만, 골든크로스 직후(D+1)라 통계적으로 약 1주 뒤가 최적 진입 시점이며 지금은 관찰 구간입니다. 여기에 FINRA 고객 마진부채가 YoY +49.0%로 +40% 기준선을 넘겨 레버리지 과열 경고(빚내서 주식 사는 돈이 역사적으로 과열이던 수준)가 켜져 있습니다. 반대로 200일선 대비 +150%를 넘긴 종목은 0개라, 개별 종목이 미친 듯이 튀어오른 '막차 국면'까지는 아직 아닙니다. 그리고 수요일 CPI(물가 성적표)가 이 모든 걸 한 번에 흔들 수 있어서, 오늘은 크게 베팅하기보다 발을 반쯤 걸치고 기다리는 날입니다.",
+    "keyRisks": [
+      "마진부채 YoY +49.0% — 빚으로 산 주식이 많다는 뜻이라, 하락이 시작되면 강제 매도(반대매매)가 연쇄적으로 터져 낙폭이 평소보다 커질 수 있음",
+      "수요일 CPI 발표 — 물가가 예상보다 높게 나오면 금리 인하 기대가 무너지고 기술주가 가장 먼저 크게 맞음",
+      "기술주 44% 쏠림 — 종목은 여러 개여도 결국 AI 한 테마라, 테마가 꺾이면 분산 효과 없이 계좌 전체가 동시에 빠짐",
+      "엔비디아의 5,000억 달러 AI 자금 계획에 걸린 중국 리스크 — 정치적 이슈 하나로 AI 밸류체인 전체가 한꺼번에 조정될 수 있음",
+      "QQQ 골든크로스 D+1 — 신호가 갓 나온 상태라 되돌림(속임수 돌파)으로 무효화될 가능성이 남아 있음"
+    ],
+    "easySummary": [
+      "AI 회사들 실적이 진짜로 잘 나왔습니다 — 코어위브 매출 2배·주가 14% 급등, 슈퍼마이크로와 루멘텀도 호조라 AI 수요는 여전히 살아 있습니다.",
+      "하지만 빚내서 주식 사는 돈(마진부채)이 1년 전보다 +49.0% 늘어 과열 경고등이 켜졌고, QQQ는 골든크로스 직후(D+1)라 아직 '들어갈 때'가 아니라 '지켜볼 때'입니다.",
+      "수요일 물가 지표(CPI)가 금리 방향을 가르는 최대 변수라, 그전까지는 신규 매수를 줄이고 결과를 확인한 뒤 움직이는 게 안전합니다."
+    ],
+    "candidateCount": 12,
+    "verified": {
+      "checked": 126,
+      "ok": 117,
+      "unverified": 37,
+      "dead": 1,
+      "stripped": 0,
+      "removed": [
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://thenextweb.com/news/crowdstrike-palo-alto-record-highs-black-hat-ai-agents"
+        }
+      ]
+    },
+    "reusedFrom": null
   }
 };
