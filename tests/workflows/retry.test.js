@@ -22,6 +22,30 @@ const ok = (name, fn) => { try { fn(); console.log('  ✅ ' + name); pass++; } c
 const files = fs.readdirSync(DIR).filter((f) => f.endsWith('.js')).sort();
 const src = Object.fromEntries(files.map((f) => [f, fs.readFileSync(path.join(DIR, f), 'utf8')]));
 
+console.log('\n[0] 문법이 깨지지 않았는가');
+// 워크플로는 실행해봐야 문법 오류를 알 수 있고, 그때는 이미 파이프라인 중간이다.
+// 2026-08-13: 프롬프트 템플릿 안에 이스케이프 안 된 백틱을 넣어 실장 실행이 통째로 실패했다.
+// Workflow 런타임처럼 async 로 감싸서 파싱만 해본다 (실행은 하지 않는다).
+for (const f of files) {
+  ok(`${f} — 파싱된다`, () => {
+    const body = src[f].replace(/^export /, '');
+    // eslint-disable-next-line no-new-func
+    new Function('args', 'agent', 'parallel', 'pipeline', 'log', 'phase', 'workflow', 'budget',
+      'return (async()=>{' + body + '})()');
+  });
+}
+ok('프롬프트 템플릿 안에 이스케이프 안 된 백틱이 없다', () => {
+  // 위 파싱 검사로 대부분 걸리지만, 사유를 명확히 남기기 위해 따로 표시한다.
+  const bad = files.filter((f) => {
+    try {
+      // eslint-disable-next-line no-new-func
+      new Function('return (async()=>{' + src[f].replace(/^export /, '') + '})()');
+      return false;
+    } catch (e) { return /Unexpected token/.test(e.message); }
+  });
+  assert.strictEqual(bad.length, 0, `문법 오류: ${bad.join(', ')} — 템플릿 리터럴 안의 백틱은 \\\` 로 이스케이프해야 한다`);
+});
+
 console.log('\n[1] 모든 워크플로에 재시도 래퍼가 있다');
 for (const f of files) {
   ok(`${f} — tryAgent 정의`, () => {

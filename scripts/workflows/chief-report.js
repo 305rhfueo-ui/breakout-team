@@ -19,6 +19,11 @@ const teamBlocks = argsFile
 **${argsFile}**
 
 ⚠️ **가장 먼저 Read 도구로 이 파일을 읽어라.** 읽지 않고 리포트를 쓰면 안 된다.
+
+⚠️ **teams.dataNotice 가 있으면 원본 데이터가 오염된 날이다.**
+그 안의 ko 문장을 **marketVerdictKo 맨 앞과 caution 에 반드시 넣어라.**
+그날의 종목 목록은 걸러지지 않은 것이므로 "기준을 통과했다"고 말하면 안 된다.
+숨기거나 완곡하게 돌려 말하지 마라 — 사용자가 이걸 모르고 매매하면 안 된다.
 JSON 구조: \`teams.team1\`(시장환경) · \`teams.team2\`(종목선정) · \`teams.team3\`(추적) ·
 \`teams.team4\`(EP·촉매) · \`teams.team5\`(주도섹터 + \`llmIndustries\` 강세 근거) ·
 \`teams.chartCheck\`(오늘 차트 볼 종목) · \`teams.flowCross\`(자금이 들어오는 업종 × 그 안의 실제 종목).

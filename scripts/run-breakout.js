@@ -97,6 +97,16 @@ async function main() {
     say('WARN', '   → 3팀 배제조건 ③(150일선 이탈)도 오늘은 적용하지 않습니다.');
   }
   const maTrusted = maCheck.ok;
+  // 화면·실장에게도 알린다. 이걸 안 넘기면 61종목이 필터를 정상 통과한 것처럼 보인다.
+  const maNotice = maTrusted ? null : {
+    column: 'Above_150_SMA',
+    reason: maCheck.reason,
+    stats: maCheck.stats,
+    effect: '150일선 필터 미적용 · 3팀 배제조건 ③ 미적용 · 3팀 신규 편입 보류',
+    ko: `⚠️ RS 사이트의 150일선 컬럼이 오염돼 오늘은 판정불가로 처리했습니다. `
+      + `(150일선 위 ${maCheck.stats.o150}종목인데 200일선 위는 ${maCheck.stats.d200Pos}종목 — 앞뒤가 맞지 않습니다.) `
+      + `종목을 잘라내지 않았으므로 오늘 2팀 목록에는 실제로는 150일선 아래인 종목이 섞여 있을 수 있습니다.`,
+  };
 
   // ── 4) 2팀 스크리닝 ──
   const { qualified, stats: screenStats } = selectBreakoutCandidates(rows, { requireMa150: maTrusted });
@@ -206,7 +216,8 @@ async function main() {
                      rankPct6: wk.m6 ? wk.m6.rankPct : null, count: wk.Count } : null;
       q.research = { status: 'pending', note: 'LLM 리서치 대기' };
     }
-    team2 = { generated: dateStr, stats: screenStats, criteria: { topPct: 2, adrMin: 4, requireMa150: true },
+    team2 = { generated: dateStr, stats: screenStats, criteria: { topPct: 2, adrMin: 4, requireMa150: maTrusted },
+              dataNotice: maNotice,
               picks: qualified, themes, research_coverage: { done: 0, total: qualified.length } };
     writeJson(path.join(paths.picksDir, `${dateStr}.json`),
       { date: dateStr, count: qualified.length, tickers: qualified.map((q) => q.ticker), criteria: team2.criteria, themes: themes.clusters });

@@ -67,7 +67,7 @@
   "criteria": {
     "topPct": 2,
     "adrMin": 4,
-    "requireMa150": true
+    "requireMa150": false
   },
   "themes": [
     {

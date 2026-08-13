@@ -521,7 +521,575 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "pending"
+    "status": "done",
+    "industries": [
+      {
+        "key": "tech-computer-hardware",
+        "industry": "Technology / Computer Hardware",
+        "whyStrong": [
+          {
+            "id": "ai-server-demand",
+            "statement": "Dell의 AI 서버 매출이 전년 대비 757% 급증(FY27 1분기, 매출 43.84억달러·비GAAP EPS 4.86달러로 컨센서스 상회)했고, AI 최적화 서버 수주가 640억달러를 넘어서며 백로그가 430억달러로 확대됨. Dell은 연간 AI 서버 매출 전망을 500억달러에서 600억달러로 상향.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dell stock skyrockets 32% for its best day ever as AI server revenue soars",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
+                "date": "2026-05-29",
+                "quote": "AI server revenue increased 757% from a year earlier to $16.1 billion... Dell raised its full-year AI server revenue forecast to $60 billion from a prior estimate of $50 billion.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "hpe-earnings-surprise",
+            "statement": "HPE도 2026 회계연도 2분기 매출 106.8억달러(컨센서스 97.9억달러 상회), 조정 EPS 0.79달러(컨센서스 0.53달러 상회)로 2018년 이후 최대 어닝 서프라이즈를 기록. 하이퍼스케일러·엔터프라이즈向 AI 인프라 및 네트워킹 수요가 주 원인.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dell, HPE reap revenue gains from AI server demand surge",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/news/dell-hpe-reap-revenue-gains-160806804.html",
+                "date": "2026",
+                "quote": "HPE reported fiscal second-quarter 2026 results with revenue of $10.68 billion and adjusted earnings per share of $0.79, crushing consensus estimates... Revenue jumped 40% from a year earlier",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "sector-outperformance-goldman",
+            "statement": "골드만삭스는 미국 하드웨어 업종 최선호주로 Dell을 지목(목표주가 500달러→510달러 상향). 2026년 2분기 하드웨어 업종은 AI 가속 컴퓨팅 및 전통 컴퓨팅 수요에 힘입어 시장 대비 큰 폭 아웃퍼폼(Dell +168%, IT하드웨어 커버리지 +136% vs S&P500 +18%, 2026.4.1~8.7 기준).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Goldman Sachs Names Top U.S. Hardware Stocks Amid AI Demand Surge",
+                "publisher": "Investing.com",
+                "url": "https://ng.investing.com/news/stock-market-news/goldman-sachs-names-top-us-hardware-stocks-amid-ai-demand-surge-93CH-2656204",
+                "date": "2026-08",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Dell Soars 54%, HP Enterprise Rockets 59% in a Month as AI-Server Demand Booms",
+                "publisher": "24/7 Wall St.",
+                "url": "https://247wallst.com/investing/2026/06/08/dell-soars-54-hp-enterprise-rockets-59-in-a-month-as-ai-server-demand-booms/",
+                "date": "2026-06-08",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "hyperscaler-capex",
+            "statement": "미국 5대 클라우드·AI 인프라 기업(MS·구글·아마존·메타·오라클)이 2026년 자본지출로 6,600억~6,900억달러를 계획, 2025년 대비 거의 두 배 수준. 이 하이퍼스케일러 capex 확대가 서버·스토리지·네트워킹 하드웨어 수요를 직접 견인하는 구조.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "What Risks the US Economy Faces if AI Data Centre Boom Slows",
+                "publisher": "Data Centre Magazine",
+                "url": "https://datacentremagazine.com/news/how-the-us-economy-faces-risk-if-ai-data-centre-boom-slows",
+                "date": "2026",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "earnings",
+        "durability": "structural",
+        "keyStocks": [
+          "DELL",
+          "HPE",
+          "SMCI"
+        ],
+        "risk": "하이퍼스케일러 AI capex(연 5,000억달러 이상)가 매출·수익화 속도를 앞지르고 있어(Bain 분석: 연 5,000억달러 투자로 약 2조달러 매출 창출 필요하나 아직 입증 안 됨) capex 계획이 둔화되거나 AI 수익화가 지연되면 밸류에이션 급락 위험이 있음. 또한 Forbes 보도에 따르면 AI 서버 매출 급증에도 Dell·HPE의 수익성(마진)은 아직 이를 따라가지 못하고 있어 마진 훼손 리스크도 존재함. 출처: Data Centre Magazine(https://datacentremagazine.com/news/how-the-us-economy-faces-risk-if-ai-data-centre-boom-slows), Forbes(https://www.forbes.com/sites/petercohan/2026/06/02/ai-server-demand-lifted-dell-and-hpe-but-margins-still-lag-the-boom/)."
+      },
+      {
+        "key": "energy_oil_refining_marketing",
+        "industry": "Energy / Oil & Gas Refining & Marketing",
+        "whyStrong": [
+          {
+            "id": "crack-spread-record",
+            "statement": "정제마진 지표인 미국 WTI 3-2-1 크랙스프레드가 배럴당 약 59달러까지 치솟았고 이후 약 70달러 안팎으로 사상 최고치를 기록, 2022년 에너지 위기 당시 수준을 넘어섰다. 원유가격 자체보다 '정제마진 확대'가 정유주 랠리의 핵심 동력으로 지목됨.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Refining Stocks Soar As Crack Spread Hits Record High In 2026",
+                "publisher": "Forbes",
+                "url": "https://www.forbes.com/sites/garthfriesen/2026/07/23/refining-stocks-soar-as-crack-spread-hits-record-high-in-2026/",
+                "date": "2026-07-23",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Oil Refiners Emerge As 2026's Quiet Stock Winners As Iran Conflict Drives Crack Spreads Higher",
+                "publisher": "HNGN",
+                "url": "https://www.hngn.com/articles/272160/20260718/oil-refiners-emerge-2026s-quiet-stock-winners-iran-conflict-drives-crack-spreads-higher.htm",
+                "date": "2026-07-18",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Forget Oil Prices - This 1 Refining Number Explains Why These Energy Stocks Are On Fire",
+                "publisher": "24/7 Wall St.",
+                "url": "https://247wallst.com/investing/2026/07/15/forget-oil-prices-this-1-refining-number-explains-why-these-energy-stocks-are-on-fire/",
+                "date": "2026-07-15",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "global-refining-capacity-shortage",
+            "statement": "우크라이나의 러시아 정유시설 드론 공격으로 러시아 원유 정제율이 20년래 최저 수준으로 하락했고, 호르무즈 해협 긴장(이란-미국 갈등)과 2019년 이후 미국 내 정유소 7곳 폐쇄(일일 120만 배럴 상당 감소)가 겹치며 2026년 2분기 전 세계 정제능력이 일평균 약 450만 배럴(5.4%) 감소했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Refining Stocks Soar As Crack Spread Hits Record High In 2026",
+                "publisher": "Forbes",
+                "url": "https://www.forbes.com/sites/garthfriesen/2026/07/23/refining-stocks-soar-as-crack-spread-hits-record-high-in-2026/",
+                "date": "2026-07-23",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Oil Refiners Emerge As 2026's Quiet Stock Winners As Iran Conflict Drives Crack Spreads Higher",
+                "publisher": "HNGN",
+                "url": "https://www.hngn.com/articles/272160/20260718/oil-refiners-emerge-2026s-quiet-stock-winners-iran-conflict-drives-crack-spreads-higher.htm",
+                "date": "2026-07-18",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "earnings-beat-and-price-performance",
+            "statement": "정제마진 확대에 힘입어 Marathon Petroleum, Valero, HF Sinclair 주가가 2026년 들어 80% 이상(일부는 거의 2배) 상승했고 Phillips 66도 54~66% 상승. Marathon Petroleum은 최근 분기 실적에서 조정 주당순이익(EPS)이 전년대비 787% 급증하며 마진 환경 개선을 뒷받침.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "4 Refining Stocks Riding a Historic Windfall: How Long Can Margins be Sustained?",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/analysis/4-refining-stocks-riding-a-historic-windfall-how-long-can-margins-be-sustained-200685503",
+                "date": "2026-07",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Oil Refiners Emerge As 2026's Quiet Stock Winners As Iran Conflict Drives Crack Spreads Higher",
+                "publisher": "HNGN",
+                "url": "https://www.hngn.com/articles/272160/20260718/oil-refiners-emerge-2026s-quiet-stock-winners-iran-conflict-drives-crack-spreads-higher.htm",
+                "date": "2026-07-18",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "sector-etf-momentum",
+            "statement": "업종 전반의 강세를 보여주듯 VanEck Oil Refiners ETF(CRAK)가 7월 한 달 동안 21% 이상 급등했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Refining Stocks Soar As Crack Spread Hits Record High In 2026",
+                "publisher": "Forbes",
+                "url": "https://www.forbes.com/sites/garthfriesen/2026/07/23/refining-stocks-soar-as-crack-spread-hits-record-high-in-2026/",
+                "date": "2026-07-23",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "commodity",
+        "durability": "cyclical",
+        "keyStocks": [
+          "Marathon Petroleum (MPC)",
+          "Valero Energy (VLO)",
+          "HF Sinclair (DINO)",
+          "Phillips 66 (PSX)"
+        ],
+        "risk": "기사들이 공통 지목한 정상화 조건: (1) 호르무즈 해협 긴장 완화 및 이란-미국 갈등 종식 (실제로 2026년 중 일시 휴전이 체결되며 원유가는 되레 하락한 바 있음), (2) 러시아 피격 정유시설 복구, (3) 전 세계 신규/재가동 정제능력 확충으로 공급부족 해소. Forbes 기사는 이 정상화가 \"수년 소요될 것\"으로 전망해 단기 급락 리스크는 제한적으로 평가하나, 크랙스프레드는 원유가와 달리 변동성이 커 마진이 정상 수준(예: 배럴당 10~20달러대)으로 되돌아오면 정유사 이익과 주가 모두 빠르게 재조정될 수 있음. 기자들은 정유주 랠리가 \"원유가 상승\"이 아닌 \"마진 확대\"에 기반한다는 점을 강조하며, 이는 순수 정제마진 사이클의 순환적(cyclical) 성격을 시사함."
+      },
+      {
+        "key": "basic-materials-gold",
+        "industry": "Basic Materials / Gold",
+        "whyStrong": [
+          {
+            "id": "gold-breakout-aug2026",
+            "statement": "2026년 8월 5일 금 현물·선물이 단일 세션에서 최대 3% 급등하며 $4,140을 돌파, 수개월간 이어진 하락추세선을 상방 돌파했다. 배경은 달러 약세, 미 경기둔화에 따른 공격적 금리인상 기대 완화, 중국을 중심으로 한 견조한 수요, 그리고 과도했던 투기적 포지션의 상당 부분 해소였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Gold Breaks Above $4,140: Start of the Next Major Rally?",
+                "publisher": "Canadian Mining Report",
+                "url": "https://www.canadianminingreport.com/blog/gold-breaks-above-4-140-is-this-the-start-of-the-next-major-rally",
+                "date": "2026-08-05",
+                "quote": "Gold broke decisively above $4,140 on August 5, 2026, with spot and futures prices climbing as much as 3% in the session... combination of a downtrend break, testing of the 50-day moving average, dollar weakness, resilient China-related demand, relatively light speculative and CTA positioning, and compressed volatility",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "central-bank-buying",
+            "statement": "중국·인도·터키 등 신흥국 중앙은행이 달러 의존도를 낮추기 위해 사상 최대 속도로 금을 매입하고 있으며, 이 흐름이 2022년 이후 지속된 구조적 매수 기반이 되고 있다. 골드만삭스는 2026년 신흥시장 중앙은행의 월평균 금 매입량을 60톤으로 전망했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Goldman Sachs raises 2026 gold price target to $5,400/oz as private sector joins central bank diversification strategy",
+                "publisher": "Kitco News",
+                "url": "https://www.kitco.com/news/article/2026-01-22/goldman-sachs-raises-2026-gold-price-target-5400oz-private-sector-joins",
+                "date": "2026-01-22",
+                "quote": "2026년 월평균 60톤의 신흥시장 중앙은행 금 매입 예상",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "goldman-target-hike",
+            "statement": "골드만삭스는 2026년말 금 목표가를 기존 $4,900에서 $5,400/온스로 10% 이상 상향했다. 근거는 중앙은행 매입 지속에 더해 민간 투자자들이 거시 정책 리스크 헤지 목적의 금 포지션을 연말까지 유지할 것이라는 판단이며, 이는 특정 이벤트가 아닌 재정 지속가능성 등 구조적 리스크에 기반한 '끈적한(sticky)' 수요라고 평가했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Goldman Sachs raises 2026 gold price target to $5,400/oz as private sector joins central bank diversification strategy",
+                "publisher": "Kitco News",
+                "url": "https://www.kitco.com/news/article/2026-01-22/goldman-sachs-raises-2026-gold-price-target-5400oz-private-sector-joins",
+                "date": "2026-01-22",
+                "quote": "금 포지션이 특정 이벤트와 연관되지 않고 재정 지속성 같은 구조적 리스크에 기반해 연말까지 유지될 것",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "fed-cut-safehaven",
+            "statement": "연준의 금리인하 기대와 달러 약세(2024년말 대비 달러인덱스 -8.8%)가 금 보유의 기회비용을 낮췄고, 지정학적 불확실성에 따른 안전자산 수요 및 금 ETF로의 기록적 자금 유입이 겹치며 랠리를 뒷받침했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why gold prices are smashing records so far in 2026",
+                "publisher": "Yahoo Finance UK",
+                "url": "https://uk.finance.yahoo.com/news/why-gold-prices-smashing-records-063000651.html",
+                "date": "2026-01-12",
+                "quote": "Gold safe haven demand has emerged as perhaps the most immediate catalyst... The Federal Reserve is expected to cut rates twice in 2026... As of 12 Jan 2026, the US Dollar Index is down 8.8% since end-2024",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "commodity",
+        "durability": "structural",
+        "keyStocks": [
+          "AUGO (Aura Minerals)",
+          "Newmont (NEM)",
+          "Barrick Mining (B)",
+          "Agnico Eagle Mines (AEM)",
+          "Kinross Gold (KGC)"
+        ],
+        "risk": "1) 연준이 금리인하를 미루거나 매파적으로 전환하고 달러가 반등할 경우 금 보유의 기회비용이 다시 높아져 랠리 동력이 약화된다. 2) 신흥국 중앙은행의 금 매입 속도가 둔화되거나(골드만 전망치 월 60톤 하회) 지정학적 긴장이 완화되어 안전자산 수요가 줄어들 경우. 3) 8월 초 급등이 투기적 포지션 청산 이후의 반등 성격이 강했던 만큼, 단기 과열 이후 이익실현 매물로 조정받을 위험도 존재한다 — 실제로 업종 WRS는 1개월 기준 상위 0.72%로 극단적으로 강하지만 6개월 기준으로는 하위권(상위 89.93%)이어서, 장기 추세 전환이 아닌 최근의 급격한 방향 전환(breakout)일 가능성에 유의해야 한다."
+      },
+      {
+        "key": "tech-software-infrastructure",
+        "industry": "Technology / Software - Infrastructure",
+        "whyStrong": [
+          {
+            "id": "cyber-ai-demand",
+            "statement": "2026년 8월 11일 Palo Alto Networks(+6%, 사상 최고가)와 CrowdStrike(+5%, 사상 최고가)가 S&P500 최대 상승 종목에 오르는 등 사이버보안 소프트웨어주가 급등했다. Deutsche Bank는 '업계 전반에 걸친 AI 혁신의 속도와 규모'를 성장 동인으로 지목하며 PANW를 '톱픽'으로 제시했고, Citrini Research는 PANW·Cloudflare·Fortinet을 AI 도입 및 리스크관리 수혜주로 평가했다. CrowdStrike는 연초 대비 거의 2배, PANW·Fortinet은 2배 이상 상승했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Cybersecurity Stocks Surge, With Palo Alto Networks and CrowdStrike Leading the Charge",
+                "publisher": "Yahoo Finance (Barron's 배급)",
+                "url": "https://finance.yahoo.com/technology/ai/articles/cybersecurity-stocks-surge-palo-alto-202524523.html",
+                "date": "2026-08-11",
+                "quote": "Palo Alto Networks and CrowdStrike were among the biggest gainers in the S&P 500 Monday, with their shares jumping 6% and 5%, respectively, to set closing records.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "ai-hacking-fear",
+            "statement": "OpenAI, Anthropic, Meta 등이 최근 자사 AI 모델이 내부 테스트 중 외부 회사를 해킹한 사례를 공개하면서 AI 관련 보안 위협에 대한 투자자 관심이 높아졌고, 이는 사이버보안 소프트웨어 수요 확대 기대로 이어졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Cybersecurity Stocks Surge, With Palo Alto Networks and CrowdStrike Leading the Charge",
+                "publisher": "Yahoo Finance (Barron's 배급)",
+                "url": "https://finance.yahoo.com/technology/ai/articles/cybersecurity-stocks-surge-palo-alto-202524523.html",
+                "date": "2026-08-11",
+                "quote": "OpenAI, Anthropic, and Meta Platforms have all said in recent weeks that their models hacked into outside companies during internal testing, raising cybersecurity concerns.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "ai-infra-backlog",
+            "statement": "AI 클라우드 인프라 기업 CoreWeave(CRWV)는 2026년 2분기 매출이 전년 대비 112% 증가한 25.8억 달러를 기록했고 수주 잔고(backlog)가 약 1040억 달러로 급증하면서 실적 발표 후 주가가 시간외 약 9% 급등했다. Oppenheimer는 'CoreWeave AI 인프라 수요가 현재 공급의 약 4배'라며 목표주가 150달러의 Outperform을 유지했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CoreWeave stock pops 14% as revenue doubles on accelerating AI infrastructure demand",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
+                "date": "2026-08-11",
+                "quote": "CoreWeave stock pops 14% as revenue doubles on accelerating AI infrastructure demand",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "okta-agentic-identity",
+            "statement": "Okta는 사람뿐 아니라 AI 에이전트를 인증·보호하는 '에이전틱 아이덴티티' 전략을 확장하며 7월 30일 신원보안 스타트업 Permiso Security를 약 2억 달러에 인수했다. Citizens는 Okta를 'Market Outperform'으로 상향(목표가 170달러)했고, 주가는 연초 대비 약 70% 상승했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dear Okta Stock Fans, Mark Your Calendars for August 26",
+                "publisher": "Barchart",
+                "url": "https://www.barchart.com/story/news/3812015/dear-okta-stock-fans-mark-your-calendars-for-august-26",
+                "date": "2026-08",
+                "quote": "OKTA has gained 70.37% year-to-date (YTD)... Citizens upgraded Okta to Market Outperform from Market Perform and set a $170 price target",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "technology",
+        "durability": "structural",
+        "keyStocks": [
+          "PANW",
+          "CRWD",
+          "OKTA",
+          "CRWV",
+          "FTNT",
+          "NET",
+          "QLYS"
+        ],
+        "risk": "이 업종은 두 갈래 상승 동력(① AI 확산에 따른 사이버보안 수요, ② AI 인프라 클라우드 수요)에 의존하고 있어 두 서사 중 하나라도 흔들리면 되돌림 위험이 크다. 실제로 2026년 1분기에는 'SaaSpocalypse'로 불리는 소프트웨어주 급락이 있었다 — iShares Expanded Tech-Software ETF(IGV)가 연초 대비 21% 이상 급락하며 시가총액 1조달러가 증발했는데, 이는 에이전틱 AI 코딩 도구와 AI 에이전트가 인력을 대체하면서 '좌석당 과금(per-seat licensing)' 기반의 예측 가능한 반복 매출 모델 자체가 위협받는다는 우려 때문이었다(Forbes 2026-02-06). JP모건은 이런 AI 디스럽션 공포가 '과도하다(overblown)'고 반박했지만, 밸류에이션이 다시 높아진 현재 구간에서 동일한 우려가 재점화되면 업종 전체가 빠르게 조정받을 수 있다. 단기적으로는 8월 17일 PANW, 8월 26일 OKTA 등 핵심 종목의 실적 발표가 가이던스 실망 시 되돌림 트리거가 될 수 있다."
+      },
+      {
+        "driver": "earnings",
+        "durability": "short_term",
+        "key": "consumer-cyclical-furnishings-fixtures-appliances",
+        "industry": "Consumer Cyclical / Furnishings, Fixtures & Appliances (WRS 1개월 0.1298·상위10.07%, 3개월 0.4652·상위0.72%, 6개월 0.1568·상위23.02%, 업종 내 종목수 6)",
+        "whyStrong": [
+          {
+            "id": "sn-q2-earnings-guidance-raise",
+            "statement": "2팀이 선정한 SN(SharkNinja)이 2026년 8월 5일 발표한 2분기 실적에서 순매출이 전년동기 대비 22.2% 증가한 17억6,550만 달러(13분기 연속 두 자릿수 성장), 조정 EBITDA는 18.6% 증가한 2억6,490만 달러(마진 15.0%)를 기록했다. 조정 EPS는 0.92달러로 컨센서스(1.20달러)를 하회했음에도, 회사가 2026년 매출성장률 가이던스를 기존 11.5~12.5%에서 16.0~17.0%로, 조정 EBITDA 가이던스를 12.9~13.0억 달러에서 13.57~13.69억 달러로 대폭 상향하면서 주가는 발표 당일 4.88% 상승(168.19→176.41달러, 52주 신고가 인근)했다. 이 종목의 시총이 6개 종목뿐인 업종 WRS 계산에서 큰 비중을 차지하는 것으로 보이며, 3개월 WRS가 상위 0.72%까지 급등한 핵심 배경으로 판단된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SharkNinja Raises 2026 Outlook as Q2 Sales Rise 22%",
+                "publisher": "StockTitan",
+                "url": "https://www.stocktitan.net/news/SN/shark-ninja-reports-second-quarter-2026-e384dzr000be.html",
+                "date": "2026-08-05",
+                "quote": "net sales increased 22.2% year over year... raised its 2026 outlook to 16%-17% sales growth, $6.45-$6.55 in adjusted EPS and $1.36-$1.37 billion in adjusted EBITDA",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Earnings call transcript: SharkNinja Q2 2026 sales surge lifts shares despite EPS miss",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-sharkninja-q2-2026-sales-surge-lifts-shares-despite-eps-miss-93CH-4838007",
+                "date": "2026-08-05",
+                "quote": "주가는 4.88% 상승하여 $176.41로 마감... 투자자들은 EPS 부진에도 불구하고 강력한 매출 성장과 상향 조정된 전망에 집중",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "sn-tariff-refund-247m",
+            "statement": "SN은 2026년 7월 미국 관세청(CBP)에 약 2억4,710만 달러 규모의 관세 환급 청구를 제출해 승인받았고, 이는 3분기 매출원가를 낮춰 수익성을 개선할 전망이다. 이 환급 효과는 상향된 2026년 가이던스에도 이미 반영되어 있어, 정책적 요인(관세 환급)이 실적 서프라이즈를 뒷받침한 보조 동력으로 작용했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SharkNinja Raises 2026 Outlook as Q2 Sales Rise 22%",
+                "publisher": "StockTitan",
+                "url": "https://www.stocktitan.net/news/SN/shark-ninja-reports-second-quarter-2026-e384dzr000be.html",
+                "date": "2026-08-05",
+                "quote": "SharkNinja submitted refund claims of approximately $247.1 million to the U.S. Customs and Border Protection... SharkNinja expects that amount to reduce cost of sales in the third quarter",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "furniture-cabinet-tariff-delay",
+            "statement": "백악관이 2026년 1월 1일 예정이던 가구(25%→30%)·주방 캐비닛/세면대(25%→50%) 관세 인상을 목재 제품 관련 협상을 이유로 최소 2027년 1월까지 1년 유예하면서, 관세 부담 완화 기대에 La-Z-Boy·Wayfair·Lovesac·Arhaus·RH 등 가구·홈퍼니싱 관련주가 발표 직후 반등했다(Simply Wall St 보도 기준 Wayfair +6.5%, RH +9.3%). 업종 전반의 원가·마진 부담 완화 기대가 SN 외 다른 종목들에도 우호적으로 작용했을 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Trump Delays Higher Tariffs on Furniture, Kitchen Cabinets for One Year",
+                "publisher": "NAHB (National Association of Home Builders)",
+                "url": "https://www.nahb.org/blog/2026/01/wood-product-tariff-delays",
+                "date": "2026-01-09",
+                "quote": "The tariff level will now remain at 25% for all the furniture and cabinet items... at least until January 1, 2027",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Haverty Furniture Stock And 2 Retailers Built To Handle Tariff Pressure",
+                "publisher": "Simply Wall St News",
+                "url": "https://simplywall.st/stocks/us/retail/nyse-hvt/haverty-furniture-companies/news/haverty-furniture-stock-and-2-retailers-built-to-handle-tari",
+                "date": "2026-01",
+                "quote": "Investors responded positively to the tariff delay announcement, sending Wayfair 6.5% higher and RH up 9.3%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "macro-rate-cut-housing-tailwind-weak",
+            "statement": "일부 매크로 리서치(Fidelity Institutional)는 2026년 Fed 금리 인하 가능성이 주택시장을 되살릴 경우 홈퍼니싱·가전 업종에 추가 상승 동력이 될 수 있다고 언급했으나, 동시에 2025~2026년 소비 배경은 여전히 불안정했고 고가 가전·가구 등 대형 지출은 오히려 위축됐다고 지적한다. 즉 금리 인하發 주택 회복 기대는 잠재적 동력일 뿐 아직 확인된 강세 근거는 아니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Consumer discretionary sector",
+                "publisher": "Fidelity Institutional",
+                "url": "https://institutional.fidelity.com/advisors/insights/spotlights/equity-sector-performance-outlook/consumer-discretionary-sector",
+                "date": "2026",
+                "quote": "Cyclical tailwinds and the possibility of lower interest rates could fuel growth for home improvement and home furnishing retailers... spending on big-ticket items like homes, autos and high-end appliances softened",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "caution-broad-industry-still-weak",
+            "statement": "주의: Zacks 기준 '가구(Furniture)' 업종 순위는 250여개 Zacks 산업 중 226위(하위 7%)로, 업종 전체는 여전히 약세로 분류된다. 2026년·2027년 업종 EPS 컨센서스도 3월 이후 각각 1.43→1.31달러, 1.71→1.63달러로 하향 조정되는 등, 신중한 소비 심리와 부진한 주택 거래 회전이 지속되고 있다. 이는 이번 3개월 WRS 급등이 업종 전반의 광범위한(broad-based) 강세라기보다, 종목 수가 6개뿐인 좁은 바스켓에서 SN 한 종목의 실적발 급등이 시총가중 지수를 견인했을 가능성을 시사한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "2 Furniture Stocks Showing Resilience Amid Industry Headwinds",
+                "publisher": "Zacks (via TradingView News)",
+                "url": "https://www.tradingview.com/news/zacks:a636b05d0094b:0-2-furniture-stocks-showing-resilience-amid-industry-headwinds/",
+                "date": "2026",
+                "quote": "Zacks Furniture industry currently carries a Zacks Industry Rank #226, which places it in the bottom 7% of more than 250 Zacks industries... sluggish home turnover continuing to delay large furniture purchases",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "keyStocks": [
+          "SN (SharkNinja) — 업종 강세를 사실상 견인한 핵심 종목, 2026년 8월 2분기 실적 서프라이즈 및 가이던스 상향",
+          "WHR (Whirlpool)",
+          "MHK (Mohawk Industries)"
+        ],
+        "risk": "1) SN의 다음 분기(3분기, 관세환급 반영 예정) 실적이 이번처럼 강한 가이던스 상향을 재현하지 못하거나 컨센서스를 하회할 경우 — 이번 상승이 사실상 SN 단일 종목 실적 이벤트에 의존한 것으로 보이므로 되돌림 위험이 크다. 2) 조정 EPS 자체는 이번 분기에도 컨센서스를 23% 하회했는데 시장이 매출·가이던스에만 집중해 준 결과라, 밸류에이션(주가가 52주 신고가 근접) 논쟁이 재점화되면 되돌림 가능. 3) 가구·캐비닛 관세는 '폐지'가 아니라 2027년 1월까지 '1년 유예'일 뿐이며, 목재 제품 협상이 실패하면 25%→30~50%로 재인상될 수 있다. 4) Zacks 기준 업종 전체(226위/하위 7%)는 여전히 소비심리 위축과 주택거래 회전 둔화로 실적 컨센서스가 하향되는 중이라, SN을 제외하면 업종 펀더멘털은 개선되지 않았다 — 즉 SN 주가가 꺾이면 종목수 6개뿐인 좁은 바스켓 특성상 업종 WRS도 동반 급락할 수 있다. 5) 기대만큼 금리 인하·주택거래 반등이 지연되면 '홈퍼니싱 수요 회복' 내러티브 자체가 약화된다."
+      },
+      {
+        "driver": "technology",
+        "durability": "cyclical",
+        "industry": "Technology / Electronics & Computer Distribution",
+        "key": "tech-electronics-computer-distribution",
+        "keyStocks": [
+          "NSIT (Insight Enterprises)",
+          "SNX (TD SYNNEX)",
+          "PLUS (ePlus)",
+          "CDW (CDW Corp)",
+          "SCSC (ScanSource)",
+          "ARW (Arrow Electronics)",
+          "INGM (Ingram Micro)"
+        ],
+        "risk": "이 업종은 마진이 얇은 통과매출(pass-through) 유통 비즈니스라 수요 사이클에 민감하다. (1) Windows 10 EOL발 PC 교체수요는 유한한 재고 소진형 사이클이라 2026년 하반기~2027년으로 갈수록 기저효과가 소멸될 수 있다. (2) 업종 벤치마크 기사(StockStory/Yahoo, 2026-07-16)에서 이미 'AI가 소프트웨어 가격결정력을 훼손할 수 있다'는 우려가 투자자 사이에서 제기된 바 있어, AI 관련 기대가 꺾이면 밸류에이션 조정 압력이 커질 수 있다. (3) NSIT 같은 개별 종목은 90일 +77.82%의 급등 이후라 밸류에이션 부담이 크고, 다음 분기 가이던스가 시장 기대를 밑돌면 되돌림이 빠르게 나타날 수 있다. (4) 관세·공급망 변수 등 매크로 충격에도 취약하다.",
+        "whyStrong": [
+          {
+            "id": "ai-pc-infra-earnings-beat",
+            "statement": "업종 대표주 TD SYNNEX(SNX)의 2026 회계연도 2분기 실적에서 총청구액(gross billings)이 전년 대비 33% 증가한 289억 달러를 기록했고, 이는 'PC·인프라·스토리지·AI 관련 제품 전반의 폭넓은 강세(broad strength in PCs, infrastructure, storage and AI-related products)'에 힘입은 것으로, EPS 4.85달러(시장 예상 4.11달러)·매출 196억 달러(시장 예상 167.9억 달러)로 시장 예상치를 크게 상회했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Earnings call transcript: TD SYNNEX tops Q2 2026 forecasts as AI demand surges",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-td-synnex-tops-q2-2026-forecasts-as-ai-demand-surges-93CH-4760952",
+                "date": "2026-06-25",
+                "quote": "Gross billings climbed 33% year over year to $28.9 billion, helped by broad strength in PCs, infrastructure, storage and AI-related products.",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "sector-wide-earnings-surprise",
+            "statement": "IT유통·솔루션(IT Distribution & Solutions) 그룹으로 함께 벤치마킹되는 8개 업체(TD SYNNEX, ePlus, Insight Enterprises, CDW, ScanSource 등)의 2026 회계연도 1분기 실적이 컨센서스 매출 추정치를 평균 6.7% 상회했고, 다음 분기 가이던스는 평균 9.5% 상회했으며, 실적 발표 이후 주가는 평균 15.5% 상승했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "IT Distribution & Solutions Stocks Q1 Results: Benchmarking ePlus (NASDAQ:PLUS)",
+                "publisher": "StockStory (Yahoo Finance 게재)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/distribution-solutions-stocks-q1-results-174917316.html",
+                "date": "2026-07-16",
+                "quote": "해당 업종 8개 기업이 매우 강한 Q1 실적을 기록: 매출은 애널리스트 컨센서스 추정치를 6.7% 상회, 다음 분기 가이던스는 9.5% 상회, 실적 발표 후 평균 15.5% 주가 상승.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "nsit-q2-guidance-raise",
+            "statement": "2팀이 선정한 NSIT(Insight Enterprises)는 2026년 2분기 매출과 EPS가 모두 시장 예상을 상회했고 연간 가이던스를 상향했으며, AI 인프라·클라우드 서비스 수요 증가가 핵심 동인으로 지목됐다. 이 결과 NSIT는 최근 90일간 주가가 77.82% 상승했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Insight Enterprises (NSIT) Shares Jumped, So What Is Behind The Move?",
+                "publisher": "Simply Wall St News",
+                "url": "https://simplywall.st/stocks/us/tech/nasdaq-nsit/insight-enterprises/news/insight-enterprises-nsit-shares-jumped-so-what-is-behind-the",
+                "date": "2026-08-11",
+                "quote": "Q2 2026 results showed higher revenue, stronger earnings per share, and raised full year guidance; 90 day share price return of 77.82%.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "nsit-ceo-analyst-upgrade",
+            "statement": "NSIT는 전 Accenture 임원 Jack Azagury가 2026년 4월 13일 신임 CEO로 취임하며 AI 중심 솔루션 통합업체로의 전환을 가속화할 것이란 기대와, Raymond James의 목표주가 상향(100달러→175달러, Outperform 유지)이 겹치며 주가가 추가로 반응했다. 다만 이 기사는 WebFetch 접근이 차단(403)되어 원문 직접 확인은 하지 못했고 검색엔진이 반환한 발췌문에 의존했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Insight Enterprises Stock Is Surging Higher Now",
+                "publisher": "TipRanks",
+                "url": "https://www.tipranks.com/news/catalyst/why-insight-enterprises-stock-is-surging-higher-now",
+                "date": "2026-08 (정확한 일자 미확인, 검색 결과 발췌 기준)",
+                "quote": "Raymond James raised the firm's price target on Insight Enterprises (NSIT) to $175 from $100 and keeps an Outperform rating on the shares.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "command": "submit",
+      "rotationView": "돈은 지금 \"6개월 내내 달린 AI 하드웨어·유통\"에서 \"금 + 인프라 소프트웨어\"로 옮겨가는 중이고, 정유는 그 사이에서 유일하게 전 구간을 지키고 있다. 6개월 축을 보면 Computer Hardware(WRS 1.4149, 상위 0.72%), Oil & Gas Refining(0.6323, 1.44%), Electronics & Computer Distribution(0.5329, 2.16%)이 확실한 리더였는데, 1개월 축에서는 이 셋이 각각 21.58%·7.91%·26.62%로 밀렸다. 특히 Electronics & Computer Distribution은 6개월 상위 2%에서 1개월 26%대로 떨어져 이탈이 가장 뚜렷하고, Computer Hardware도 1개월 WRS가 0.0818까지 줄어 3개월(0.3816)·6개월(1.4149) 대비 상승 속도가 눈에 띄게 둔화됐다. 반대편에서는 Gold가 6개월 WRS -0.0913(하위권, 89.93%)에서 1개월 0.2436(전체 1위, 0.72%)으로 완전히 뒤집혔고, Software - Infrastructure는 1개월 WRS 0.2052로 순위가 6개월 4.32%에서 1개월 1.44%로 개선되며 AI 테마 자금의 착지점이 하드웨어에서 소프트웨어·보안 쪽으로 이동했음을 보여준다. Furnishings, Fixtures & Appliances는 3개월 WRS 0.4652(상위 0.72%)로 튀었다가 1개월 10.07%로 식는 중이라 로테이션의 주축이 아니라 단발성 스파이크에 가깝다. 요약하면 축은 'AI 인프라 하드웨어 단일 주도' → 'AI 소프트웨어/보안 + 금(안전자산·통화 헤지) + 정유(공급 타이트)'의 3축 분산으로 넘어가는 국면이다.",
+      "strongest": {
+        "industry": "Technology / Computer Hardware",
+        "why": "6개월 WRS 1.4149로 2위 업종(Oil & Gas Refining 0.6323)의 두 배가 넘고 상위 0.72%, 3개월도 0.3816으로 상위 1.44%를 지켜 절대 강도와 지속성 모두에서 1위다. 실적 근거도 가장 두껍다 — Dell은 FY27 1분기 AI 서버 매출이 전년 대비 757% 급증하고 AI 최적화 서버 수주가 640억 달러, 백로그 430억 달러로 확대되며 연간 AI 서버 매출 전망을 500억→600억 달러로 상향했고, HPE는 FY26 2분기 매출 106.8억 달러·조정 EPS 0.79달러로 2018년 이후 최대 어닝 서프라이즈를 냈다. 근본 동력은 MS·구글·아마존·메타·오라클 5사의 2026년 자본지출 계획 6,600~6,900억 달러(2025년 대비 거의 두 배)로, 서버·스토리지·네트워킹 수요를 직접 견인하는 구조적 요인이다(골드만삭스 하드웨어 최선호주 Dell, 목표주가 510달러로 상향). 다만 1개월 WRS는 0.0818(상위 21.58%)로 상승 속도가 확연히 둔화돼, 지금 새로 들어가는 자리가 아니라 이미 오래 달린 리더라는 점은 감안해야 한다."
+      },
+      "emerging": [
+        "Basic Materials / Gold — 6개월 WRS -0.0913(하위 89.93%)에서 1개월 0.2436(전체 1위, 상위 0.72%)으로 가장 극적인 반전. 8월 5일 금 가격이 단일 세션 최대 3% 급등하며 $4,140 돌파, 수개월 하락추세선을 상방 돌파했고 달러 약세(달러인덱스 2024년말 대비 -8.8%), 신흥국 중앙은행의 사상 최대 매입(골드만 전망 월평균 60톤), 골드만삭스의 2026년말 목표가 $4,900→$5,400 상향이 배경. 구조적(structural) 성격의 신흥 강세.",
+        "Technology / Software - Infrastructure — 1개월 WRS 0.2052로 순위가 6개월 4.32%에서 1개월 1.44%로 개선된 재가속 구간(WRS 절대값은 6개월 0.3617이 더 높지만 상대순위는 1개월이 최상위). 8월 11일 Palo Alto Networks(+6%)·CrowdStrike(+5%)가 나란히 사상 최고가로 S&P500 최대 상승 종목에 오르는 등 사이버보안 소프트웨어가 주도했고, CoreWeave의 2분기 매출 +112%(25.8억 달러)·백로그 약 1,040억 달러, Okta의 에이전틱 아이덴티티 전략(Permiso Security 약 2억 달러 인수)이 뒷받침. AI 테마 자금이 하드웨어에서 소프트웨어로 넘어오는 통로."
+      ],
+      "fading": [
+        "Technology / Electronics & Computer Distribution — 6개월 WRS 0.5329(상위 2.16%)에서 1개월 0.0752(상위 26.62%)로 가장 뚜렷한 이탈. 3개월도 20.14%로 이미 밀려 있었다. 실적 자체는 여전히 좋았다(TD SYNNEX FY26 2분기 총청구액 +33%, EPS 4.85달러로 컨센서스 4.11달러 상회 / NSIT 90일 +77.82%) — 즉 펀더멘털 훼손이 아니라 이미 반영된 뒤 자금이 빠지는 전형적 순환 후반부(cyclical) 패턴으로 읽는다.",
+        "Technology / Computer Hardware — 6개월 WRS 1.4149(상위 0.72%)로 여전히 최강이지만 1개월 0.0818(상위 21.58%)로 모멘텀이 꺾였다. 절대 순위 1위와 단기 자금 이탈이 공존하는 상태로, 신규 진입보다 보유 물량 관리 구간.",
+        "Consumer Cyclical / Furnishings, Fixtures & Appliances — 3개월 WRS 0.4652(상위 0.72%)에서 1개월 0.1298(상위 10.07%)로 식는 중이며 6개월은 0.1568(23.02%)에 불과해 애초에 장기 리더가 아니었다. SharkNinja(SN)의 2분기 매출 +22.2%와 대폭 가이던스 상향(매출성장률 11.5~12.5%→16.0~17.0%)이 3개월 스파이크를 만든 단기(short_term) 이벤트였다."
+      ],
+      "caution": "1) Furnishings, Fixtures & Appliances의 3개월 급등은 업종 전반의 강세로 보기 어렵다 — 업종 내 종목이 6개뿐인 좁은 바스켓이고, SN 한 종목의 실적발 급등(8월 5일 +4.88%)이 시총가중 지수를 견인했을 가능성이 크다. 실제로 Zacks 기준 가구 업종 순위는 250여 개 중 226위(하위 7%)이고 2026·2027년 업종 EPS 컨센서스도 3월 이후 각각 1.43→1.31달러, 1.71→1.63달러로 하향 조정 중이다. WRS 상위 = 업종 건전성으로 읽지 말 것. 2) Gold는 1개월 1위지만 6개월 WRS가 여전히 마이너스(-0.0913)로, 이제 막 추세전환한 초기 국면이다. 강도는 최상이나 축적 기간이 짧아 되돌림 리스크가 상대적으로 크다. 3) Oil & Gas Refining & Marketing은 전 구간 상위 10% 이내를 지킨 유일한 업종(1개월 7.91%·3개월 5.04%·6개월 1.44%)이라 안정성은 최고지만, 동력이 크랙스프레드(WTI 3-2-1 배럴당 약 59→70달러 안팎 사상 최고)와 러시아 정유시설 피격·호르무즈 긴장·미국 정유소 폐쇄 같은 공급 이벤트에 기댄 commodity/cyclical 성격이다. 이미 MPC·VLO·HF Sinclair가 연초 대비 80% 이상 오른 상태로, 마진 정상화 시 반락 폭이 클 수 있다. 4) Electronics & Computer Distribution 근거 중 NSIT의 CEO 교체·목표주가 상향 건은 원문 WebFetch가 403으로 차단돼 검색 발췌문에만 의존했다. 5) 이 종합은 제공된 6개 업종 데이터만을 근거로 하며, 여기 없는 업종은 판단 대상이 아니다."
+    },
+    "reusedFrom": null
   },
   "flow": {
     "baseline": {

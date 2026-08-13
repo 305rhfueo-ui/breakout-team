@@ -37,6 +37,14 @@ function main() {
   if (chief && chief.flowCross) teams.flowCross = chief.flowCross;
   else say('WARN', 'chief.js 에 flowCross 가 없다 — 실장이 섹터×종목 교차를 못 본다');
 
+  // 원본 데이터가 오염된 날에는 그 사실을 실장이 반드시 보고해야 한다.
+  // 안 넘기면 필터가 꺼진 목록을 정상 통과분으로 보고하게 된다.
+  const t2 = loadWindowData('team2.js', 'TEAM2_DATA');
+  if (t2 && t2.dataNotice) {
+    teams.dataNotice = t2.dataNotice;
+    say('WARN', `데이터 경고를 실장에게 전달: ${t2.dataNotice.column} 오염`);
+  }
+
   // 5팀 LLM 결과에서 업종별 핵심 근거 한 줄만 뽑아 넣는다 (전문은 대시보드에 있다)
   const t5 = readResult(arg('team5'));
   if (t5 && t5.industries) {

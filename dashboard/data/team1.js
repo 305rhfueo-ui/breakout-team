@@ -159,7 +159,7 @@ window.TEAM1_DATA = {
         "freeMargin": "D"
       }
     },
-    "fetched_at": "2026-08-13T04:05:30.688Z"
+    "fetched_at": "2026-08-13T04:20:44.788Z"
   },
   "leaders": {
     "stocks": [
@@ -478,8 +478,147 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-08-13",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "호르무즈 해협 봉쇄 지속 — 이란, 트럼프의 '정상화' 주장 반박, 통항량 3개월 최저",
+        "easy": "호르무즈 해협은 전 세계 원유가 지나다니는 '바다 위 고속도로 톨게이트'입니다. 지금 이 톨게이트가 사고로 막혀서 차(유조선)가 3개월 만에 가장 적게 지나가고 있어요. 트럼프 대통령은 '다시 뚫렸다'고 했는데 이란은 '아니다, 여전히 막혀 있다'고 반박하는 상황입니다. 톨게이트가 막히면 기름값이 오르고, 기름값이 오르면 물가(인플레이션 = 물건값이 전반적으로 오르는 것)가 다시 자극받습니다. 게다가 '진짜 뚫렸는지 아닌지'조차 서로 말이 다르니, 시장은 매일 뉴스에 따라 출렁일 수밖에 없습니다.",
+        "whyMatters": "내 종목이 기술주 위주라면 직접 타격은 아니지만, 유가가 오르면 물가가 다시 튀고 → 금리 인하 기대가 미뤄지고 → 밸류에이션이 높은 성장주(브레이크아웃 종목 대부분)가 먼저 흔들립니다. 특히 지금은 QQQ가 골든크로스 직후 D+2(종가 723.7, MA10 711.35 / MA20 701.03 / MA50 713.49)라 추세가 막 잡히려는 예민한 구간이라, 지정학 헤드라인 하나로 신규 브레이크아웃이 쉽게 실패할 수 있습니다. 신규 진입은 손절폭을 평소보다 타이트하게, 야간 갭 리스크를 감안한 비중으로 가져가세요.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "'Hormuz remains blocked': Iran disputes Trump claims as traffic sinks to near 3-month lows",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/13/us-iran-war-trump-hormuz-irgc.html",
+            "date": "2026-08-13",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "시스코, AI '슈퍼사이클'로 사상 최대 실적 — 그런데 주가는 오히려 하락",
+        "easy": "시스코는 AI 데이터센터를 연결하는 '인터넷 배관·전선'을 파는 회사입니다. 이번에 역대 최고 실적을 냈고 회사도 'AI 슈퍼사이클(AI 수요가 몇 년간 이어지는 큰 파도)'이라고 자랑했어요. 그런데 주가는 떨어졌습니다. 시험을 100점 맞았는데 부모님이 '기대는 120점이었는데?' 하는 상황과 같습니다. 즉, 시장이 이미 좋은 실적을 주가에 미리 반영해 놓았다는 뜻입니다.",
+        "whyMatters": "'실적이 좋아도 주가가 빠진다'는 건 AI 관련주의 기대치가 이미 매우 높다는 신호입니다. 내 종목이 AI·반도체·네트워크 장비 쪽이라면, 앞으로 실적 발표는 '잘 나오면 본전, 조금이라도 부족하면 급락'인 비대칭 리스크입니다. 보유 종목의 실적 발표일을 미리 캘린더에 적어두고, 발표 직전 신규 매수는 피하거나 비중을 줄이는 게 안전합니다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Cisco sees record results from an AI 'supercycle,' but its stock pulls back",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/cisco-sees-record-results-from-an-ai-supercycle-but-its-stock-pulls-back-2635b81a?mod=mw_rss_topstories",
+            "date": "2026-08-13",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "세레브라스, IPO 후 두 번째 실적 발표에 주가 14% 급락",
+        "easy": "세레브라스는 엔비디아에 도전하는 AI 칩 신생 회사입니다. 상장한 지 얼마 안 된 '신입 사원' 같은 회사인데, 두 번째 성적표를 냈더니 주가가 하루에 14% 빠졌어요. 신생 상장주는 아직 실적이 들쭉날쭉해서 주가가 롤러코스터처럼 움직입니다. 기대만으로 오른 주식은 숫자가 조금만 어긋나도 순식간에 되돌림이 옵니다.",
+        "whyMatters": "브레이크아웃 전략에서 최근 상장한 AI 테마주는 상승폭이 크지만 실적 발표 한 번에 손절선이 통째로 날아갈 수 있습니다. 지금 주도 섹터가 Technology 25종목(50%)으로 절반이나 몰려 있다는 건, 이런 개별 급락이 포트폴리오 전체로 번질 수 있다는 뜻입니다. IPO 1년 미만 종목은 보유 개수와 비중을 제한하고, 실적 발표 전에는 갭하락을 견딜 수 있는 크기로만 들고 가세요.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Cerebras stock plunges 14% after second earnings report following IPO",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html",
+            "date": "2026-08-12",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "중국 업체, NAND 메모리 출하량에서 마이크론·키오시아 추월",
+        "easy": "NAND는 스마트폰·SSD에 들어가는 '기억 창고' 칩입니다. 지금까지 이 창고를 가장 많이 만들던 회사는 마이크론·키오시아 같은 미국·일본 기업이었는데, 중국 업체가 출하량에서 이들을 앞질렀습니다. 동네에 값싼 대형마트가 새로 생겨서 기존 가게 손님을 뺏어가는 것과 비슷해요. 공급이 늘면 칩 가격이 내려가고, 파는 회사들의 이익도 줄어듭니다.",
+        "whyMatters": "메모리 반도체를 들고 있다면 '가격이 계속 오를 것'이라는 가정 자체가 흔들립니다. 반면 칩을 사서 쓰는 쪽(데이터센터·서버·완제품 업체)에는 원가 하락이라 유리합니다. 내 포트폴리오에 메모리 관련주가 있다면 추세가 깨지는지 주간 차트로 확인하고, 반대로 AI 서버·장비주는 상대적 우위를 볼 수 있습니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "This Chinese firm has topped Micron and Kioxia in shipments of crucial NAND memory chips",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/13/chinese-firm-tops-micron-kioxia-shipments-nand-memory-chips.html",
+            "date": "2026-08-13",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "한국 코스피, 한 달여 만에 약세장 → 강세장 전환 — AI 트레이드가 견인",
+        "easy": "코스피가 한 달 조금 넘는 기간에 '하락장(약세장)'에서 '상승장(강세장)'으로 갈아탔습니다. SK하이닉스·삼성전자 같은 AI 메모리 관련 대형주가 끌어올린 결과입니다. 한국 증시는 세계 AI 수요를 가장 먼저 보여주는 '탄광 속 카나리아' 같은 시장이에요. 카나리아가 힘차게 노래한다는 건, 아직 AI 주문이 실제로 들어오고 있다는 뜻입니다.",
+        "whyMatters": "AI 사이클이 아직 살아있다는 실물 증거이므로, 내가 들고 있는 미국 AI·반도체 종목의 상승 추세에 우호적입니다. 다만 한 달 만에 약세장에서 강세장으로 뒤집힌 속도는 그 자체로 과열 신호이기도 합니다. 지금은 신규 브레이크아웃을 새로 잡기보다, 이미 수익 중인 종목을 끌고 가면서 손절선을 올리는(트레일링) 쪽이 유리한 구간입니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "South Korea's Kospi swings from bear to bull-market territory in just over a month on AI trade",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/13/south-korea-kospi-bull-market-sk-hynix-samsung-ai-trade.html",
+            "date": "2026-08-13",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "블랙록 등 글로벌 자금, 인도 'GIFT 시티'로 몰린다",
+        "easy": "GIFT 시티는 인도가 만든 '금융 특별구역'입니다. 세금과 규제를 확 풀어줘서 외국 돈이 들어오기 쉽게 만든 곳이에요. 블랙록 같은 세계 최대 운용사들이 여기에 사무실을 열고 자금을 넣고 있습니다. 물이 낮은 곳으로 흐르듯, 돈은 규제가 헐거운 곳으로 흘러갑니다. 이는 글로벌 자금의 일부가 미국 밖으로도 분산되고 있다는 신호입니다.",
+        "whyMatters": "당장 내 미국 종목에 미치는 영향은 크지 않지만, '미국 기술주 한 곳에만 돈이 몰리던 구도'가 조금씩 갈라지고 있다는 배경 정보입니다. 미국 기술주 비중이 과도하다면(현재 주도 섹터 Technology 50%) 장기적으로는 분산 관점을 갖고 있을 필요가 있습니다. 단기 매매 판단을 바꿀 뉴스는 아니므로 참고 수준으로 보세요.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Inside India newsletter: Why global funds are flocking to GIFT City in Modi's home state",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/13/global-funds-blackrock-modi-gift-city.html",
+            "date": "2026-08-13",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "오늘 시장은 '엔진은 아직 돌아가는데 계기판에 경고등이 켜진' 상태입니다. AI 수요는 여전히 진짜입니다 — 시스코가 AI 슈퍼사이클로 사상 최대 실적을 냈고, 한국 코스피는 한 달여 만에 약세장에서 강세장으로 뒤집혔습니다. 문제는 좋은 소식이 나와도 주가가 더 이상 오르지 않는다는 점입니다. 시스코는 최고 실적에도 주가가 밀렸고, 세레브라스는 실적 발표 후 하루 14% 급락했습니다. 여기에 FINRA 고객 마진부채가 YoY +49.0%로 +40% 경고선을 넘어, 사람들이 빚을 내서 주식을 사는 레버리지 과열 국면임을 보여줍니다(역사적으로 시장 과열 구간). 지수 자체는 QQQ 종가 723.7이 MA10 711.35·MA20 701.03·MA50 713.49를 모두 위에 두고 골든크로스 직후 D+2로, 방향은 위지만 통계적으로 최적 진입은 약 1주 뒤라 지금은 관찰 구간입니다. 여기에 호르무즈 해협 봉쇄가 풀리지 않아 유가·물가 리스크가 언제든 헤드라인으로 튀어나올 수 있습니다.",
+    "keyRisks": [
+      "마진부채 YoY +49.0% — +40% 경고선 돌파. 빚으로 산 주식이 많다는 뜻이라, 하락이 시작되면 강제 청산이 하락을 더 키우는 연쇄반응(마진콜)이 일어나기 쉽다",
+      "호르무즈 해협 봉쇄 지속 + 통항량 3개월 최저. 미국-이란 간 사실관계조차 엇갈려 유가 급등 → 물가 자극 → 금리 인하 기대 후퇴의 경로가 열려 있다",
+      "'좋은 실적에도 주가 하락' 패턴(시스코) 및 신규 상장 AI주 급락(세레브라스 -14%) — AI 테마의 기대치가 이미 주가에 과하게 반영돼 실적 발표가 비대칭 리스크가 됐다",
+      "주도 섹터가 Technology 25종목(50%)으로 절반 집중 — 분산이 아니라 한 방향 베팅에 가깝다. 기술주 조정 시 포트폴리오 전체가 동시에 흔들린다",
+      "중국 업체의 NAND 출하량 1위 등극 — 메모리 공급 증가로 가격·마진 압박. 메모리 관련 보유 종목의 실적 전제가 바뀔 수 있다",
+      "QQQ는 골든크로스 D+2로 아직 추세 초기. 통계적 최적 시점(약 1주 뒤) 전에 서두른 신규 진입은 되돌림에 손절당하기 쉽다"
+    ],
+    "easySummary": [
+      "AI는 아직 잘 팔린다 — 시스코 사상 최대 실적, 한국 코스피 한 달여 만에 강세장 전환. 엔진은 돌아가고 있다.",
+      "그런데 좋은 뉴스에도 주가가 안 오른다 — 시스코 실적 최고인데 하락, 세레브라스는 -14%. 기대가 이미 너무 높다는 신호다.",
+      "계기판 경고등: 마진부채 YoY +49.0%(빚투 과열)에 호르무즈 봉쇄까지. QQQ는 골든크로스 D+2(종가 723.7)라 방향은 위지만, 지금은 새로 사기보다 관찰하고 손절선을 올릴 때다."
+    ],
+    "candidateCount": 12,
+    "verified": {
+      "checked": 112,
+      "ok": 131,
+      "unverified": 15,
+      "dead": 0,
+      "stripped": 0,
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://247wallst.com/investing/2026/05/28/snowflake-explodes-37-on-6-billion-amazon-deal-as-ceo-calls-q1-an-ai-inflection-point/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.investing.com/news/analyst-ratings/evercore-isi-raises-snowflake-stock-price-target-on-product-momentum-93CH-4848237"
+        },
+        {
+          "reason": "중복",
+          "url": "https://simplywall.st/stocks/us/software/nyse-snow/snowflake/news/earnings-update-heres-why-analysts-just-lifted-their-snowfla"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.stocktitan.net/sec-filings/WGS/8-k-gene-dx-holdings-corp-reports-material-event-3e975983564d.html"
+        }
+      ]
+    },
+    "reusedFrom": null
   }
 };
