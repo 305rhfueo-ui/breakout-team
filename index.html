@@ -33,82 +33,154 @@ h1{font-size:26px;margin:0 0 4px}
 .b-yellow{background:#2a2410;color:var(--yel);border:1px solid #5c4a1a}
 .b-gray{background:#1b2332;color:var(--dim);border:1px solid var(--bd)}
 
-/* ── 사무실 ── */
-.room{position:relative;background:linear-gradient(180deg,#151d2c 0%,#151d2c 58%,#101622 58%,#0d1320 100%);
-border:1px solid var(--bd);border-radius:18px;padding:26px 16px 22px;margin-top:20px;overflow:hidden}
-.room::before{content:"";position:absolute;left:0;right:0;top:58%;height:1px;background:#26314a}
-.wall{position:absolute;top:14px;left:50%;transform:translateX(-50%);background:#0f1725;border:1px solid #2b3547;
-border-radius:8px;padding:6px 16px;font-size:11.5px;color:var(--dim);white-space:nowrap}
+/* ══ 사무실 ══
+   에이전트가 자리에서 걸어 나와 회의 테이블 앞에서 발언하고 돌아간다.
+   좌표는 % 기준이라 화면 크기가 변해도 배치가 유지된다.
+   외부 이미지·폰트는 쓰지 않는다 (file:// 과 GitHub Pages 양쪽에서 같아야 하므로). */
+.floor{position:relative;height:min(62vw,520px);min-height:410px;margin-top:20px;
+border:1px solid #26314a;border-radius:22px;overflow:hidden;isolation:isolate;
+background:linear-gradient(180deg,#111a2a 0%,#101827 44%,#0c1220 44%,#080d16 100%);
+box-shadow:0 24px 60px -30px #000,inset 0 1px 0 #ffffff0d}
 
-.desks{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:10px;margin-top:56px;position:relative;z-index:2}
-/* padding-top 은 말풍선이 올라앉을 자리다. 얼굴을 가리지 않으려면
-   말풍선 '바닥'을 이 선에 붙이고 위로 자라게 해야 한다 (.bub 참조). */
-.seat{text-align:center;cursor:pointer;position:relative;padding-top:118px}
-.seat:hover .body{transform:translateY(-4px)}
+/* 창밖 야경 */
+.win{position:absolute;top:5%;height:17%;width:13%;border-radius:4px;overflow:hidden;
+background:linear-gradient(180deg,#16304d 0%,#0d1f36 55%,#091626 100%);
+border:1px solid #2b4160;
+box-shadow:inset 0 0 26px #5aa0ff1f,0 0 26px #4a86d216;opacity:.85}
+.win::before{content:"";position:absolute;left:0;right:0;bottom:0;height:56%;
+background:repeating-linear-gradient(90deg,#0a1424 0 9px,transparent 9px 13px,#0c1828 13px 26px,transparent 26px 31px)}
+.win::after{content:"";position:absolute;inset:0;
+background-image:linear-gradient(90deg,transparent calc(50% - 1px),#2b4160 50%,transparent calc(50% + 1px));
+background:radial-gradient(1px 1px at 20% 62%,#ffd98a99,transparent),
+radial-gradient(1px 1px at 46% 70%,#9fd0ff88,transparent),
+radial-gradient(1px 1px at 68% 60%,#ffd98a77,transparent),
+radial-gradient(1px 1px at 84% 74%,#9fd0ff66,transparent)}
 
-/* 말풍선 */
-/* 직무 팻말 — 머리 바로 위에 천장에서 내려온 것처럼 매단다 */
-.plate{position:absolute;top:88px;left:50%;transform:translateX(-50%);z-index:3;
-background:linear-gradient(180deg,#33405a,#242e42);border:1px solid #46557a;border-radius:7px;
-padding:3px 11px;font-size:10.5px;font-weight:700;color:#cfd9e8;white-space:nowrap;
-box-shadow:0 3px 8px rgba(0,0,0,.45)}
-.plate::before{content:"";position:absolute;top:-9px;left:50%;transform:translateX(-50%);
-width:1px;height:9px;background:#46557a}
+/* 바닥 원근 그리드 */
+.grid{position:absolute;left:-20%;right:-20%;top:44%;bottom:0;opacity:.45;
+background-image:linear-gradient(#ffffff0f 1px,transparent 1px),linear-gradient(90deg,#ffffff09 1px,transparent 1px);
+background-size:100% 34px,70px 100%;
+-webkit-mask-image:linear-gradient(#000,transparent 88%);mask-image:linear-gradient(#000,transparent 88%)}
+/* 천장 조명이 바닥에 만드는 빛웅덩이 */
+.pool{position:absolute;width:26%;height:16%;border-radius:50%;filter:blur(26px);
+background:#7fb4ff;opacity:.10;pointer-events:none}
 
-/* ⚠️ top 기준으로 아래로 자라면 말이 길어질수록 얼굴을 덮는다.
-   bottom 을 팻말 줄 위(78px)에 고정하고 위로 자라게 한다. */
-.bub{position:absolute;top:78px;left:50%;transform:translate(-50%,-100%) scale(.88);
-transform-origin:bottom center;width:190px;
-background:#eef3fb;color:#16202f;border-radius:14px;padding:9px 12px;font-size:11.5px;line-height:1.5;
-box-shadow:0 8px 20px rgba(0,0,0,.5);opacity:0;transition:.35s;pointer-events:none;text-align:left;z-index:5}
-.bub::after{content:"";position:absolute;bottom:-7px;left:50%;transform:translateX(-50%);
-border:7px solid transparent;border-top-color:#eef3fb;border-bottom:0}
-.bub.on{opacity:1;transform:translate(-50%,-100%) scale(1)}
-.bub b{color:#0b57d0}
+/* 벽 화이트보드 */
+.wboard{position:absolute;left:50%;top:5%;transform:translateX(-50%);z-index:2;
+background:linear-gradient(180deg,#182236,#111a2a);border:1px solid #32405c;border-radius:10px;
+padding:7px 18px;text-align:center;box-shadow:0 8px 22px #0009}
+.wboard b{display:block;font-size:12.5px;letter-spacing:.02em}
+.wboard span{font-size:10.5px;color:var(--dim)}
 
-/* 캐릭터 + 책상 */
-.body{transition:.2s}
-/* 미니미는 책상 뒤에 앉는다 — 하반신이 책상에 가리도록 아래로 겹친다 */
-.mini{display:block;margin:0 auto -20px;position:relative;z-index:1;
-  animation:bob 3.4s ease-in-out infinite;filter:drop-shadow(0 4px 6px rgba(0,0,0,.45))}
-.seat:nth-child(2) .mini{animation-delay:.4s}
-.seat:nth-child(3) .mini{animation-delay:.8s}
-.seat:nth-child(4) .mini{animation-delay:1.2s}
-.seat:nth-child(5) .mini{animation-delay:1.6s}
-.seat:nth-child(6) .mini{animation-delay:2s}
-.mhead .avatar .mini{animation:none;margin:0;filter:none}
-@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+/* 화분 — 빈 바닥을 채우는 소품 */
+.plant{position:absolute;width:26px;height:34px;z-index:2;
+background:radial-gradient(ellipse at 50% 22%,#2f6b4a 0 42%,transparent 43%),
+radial-gradient(ellipse at 26% 40%,#276046 0 34%,transparent 35%),
+radial-gradient(ellipse at 74% 40%,#276046 0 34%,transparent 35%),
+linear-gradient(180deg,transparent 0 58%,#3b3026 58% 100%);
+filter:drop-shadow(0 6px 8px #0009)}
 
-.deskTop{margin:4px auto 0;width:96%;max-width:150px;height:44px;border-radius:8px 8px 4px 4px;
-background:linear-gradient(180deg,#2a3448,#1d2534);border:1px solid #36425c;position:relative;z-index:2;
-display:flex;align-items:center;justify-content:center;gap:5px;box-shadow:0 -3px 8px rgba(0,0,0,.35)}
-.mon{width:38px;height:26px;border-radius:3px;background:#0a1220;border:1px solid #3b4a66;position:relative;overflow:hidden}
+/* 회의 테이블 */
+.table{position:absolute;left:50%;top:57%;transform:translate(-50%,-50%);
+width:44%;height:11%;border-radius:50%;
+background:radial-gradient(ellipse at 50% 34%,#273350 0%,#1b2438 72%,#141c2c 100%);
+border:1px solid #36425e;box-shadow:0 14px 30px -12px #000,inset 0 2px 0 #ffffff10}
+
+/* 책상 (에이전트와 분리 — 걸어 나가도 책상은 제자리) */
+.station{position:absolute;transform:translate(-50%,-50%);width:104px;pointer-events:none;z-index:3}
+.desk{height:34px;border-radius:9px 9px 5px 5px;position:relative;
+background:linear-gradient(180deg,#2b3752,#1b2436);border:1px solid #3a4767;
+display:flex;align-items:center;justify-content:center;gap:4px;
+box-shadow:0 8px 16px -8px #000,inset 0 1px 0 #ffffff12}
+.station.big{width:190px}.station.big .desk{height:40px}
+.mon{width:30px;height:21px;border-radius:3px;background:#08101d;border:1px solid #3f4f6e;position:relative;overflow:hidden}
 .mon::after{content:"";position:absolute;inset:2px;border-radius:2px;
-background:linear-gradient(120deg,#123 0%,#1b4d7a 40%,#123 80%);animation:scan 2.6s linear infinite}
-@keyframes scan{0%{transform:translateX(-60%)}100%{transform:translateX(60%)}}
-.mon.red::after{background:linear-gradient(120deg,#2a1116,#7a1b28 40%,#2a1116 80%)}
-.mon.green::after{background:linear-gradient(120deg,#0f2a17,#1b7a3c 40%,#0f2a17 80%)}
+background:linear-gradient(120deg,#0d2033 0%,#1b5c92 42%,#0d2033 82%);animation:scan 2.8s linear infinite}
+@keyframes scan{0%{transform:translateX(-65%)}100%{transform:translateX(65%)}}
+.mon.red::after{background:linear-gradient(120deg,#2a1116,#8f2030 42%,#2a1116 82%)}
+.mon.green::after{background:linear-gradient(120deg,#0f2a17,#1f8f47 42%,#0f2a17 82%)}
+.chairback{position:absolute;left:50%;top:-16px;transform:translateX(-50%);
+width:34px;height:16px;border-radius:8px 8px 0 0;background:#222c42;border:1px solid #384563;z-index:-1}
 
-.nameTag{margin-top:8px;font-size:14px;font-weight:700}
-.roleTag{font-size:10.5px;color:var(--dim)}
-.kpi{margin-top:6px;font-size:19px;font-weight:800;color:#fff;line-height:1.2}
-.kpil{font-size:10px;color:var(--dim)}
-.kline{margin-top:5px;font-size:10.5px;line-height:1.5;color:#9dabc0;min-height:2em}
-.busy{position:absolute;top:122px;right:12px;width:7px;height:7px;border-radius:50%;
-background:var(--grn);animation:pulse 1.6s infinite;z-index:3}
+/* 에이전트 */
+.actor{position:absolute;transform:translate(-50%,-100%) scale(var(--s,1));transform-origin:bottom center;
+cursor:pointer;z-index:var(--z,5);
+transition:left 1.45s cubic-bezier(.5,.02,.28,1),top 1.45s cubic-bezier(.5,.02,.28,1),
+           transform .45s cubic-bezier(.34,1.4,.5,1)}
+.actor:hover{transform:translate(-50%,-100%) scale(calc(var(--s,1) * 1.07))}
+.actor .mini{display:block;margin:0 auto;filter:drop-shadow(0 8px 10px #000a);
+animation:breathe 3.8s ease-in-out infinite}
+.actor.walk .mini{animation:step .44s ease-in-out infinite}
+.actor.talking{z-index:40}
+.actor.talking .mini{animation:breathe 2.2s ease-in-out infinite;filter:drop-shadow(0 0 14px #58a6ff55) drop-shadow(0 8px 10px #000a)}
+@keyframes breathe{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+@keyframes step{0%,100%{transform:translateY(0) rotate(-1.6deg)}50%{transform:translateY(-6px) rotate(1.6deg)}}
+.shadow{position:absolute;left:50%;bottom:-5px;transform:translateX(-50%);
+width:44px;height:9px;border-radius:50%;background:#000;opacity:.42;filter:blur(4px);z-index:-1}
+
+/* 이름표 */
+.tag{position:absolute;top:100%;left:50%;transform:translateX(-50%);margin-top:3px;
+text-align:center;white-space:nowrap;pointer-events:none}
+.tag b{display:block;font-size:12.5px;font-weight:700;text-shadow:0 2px 6px #000}
+.tag i{font-style:normal;font-size:9.5px;color:#93a1b8}
+.dot{display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--grn);
+margin-right:4px;vertical-align:middle;animation:pulse 1.7s infinite}
+.dot.off{background:#5b6678;animation:none}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
-.busy.idle{background:var(--dim);animation:none}
 
-.chiefSeat{grid-column:1/-1}
-.chiefSeat .deskTop{max-width:280px;height:50px}
-.chiefSeat .mini{margin-bottom:-18px}
+/* 말풍선 — 머리 '옆'으로 나온다.
+   ⚠️ 위로 자라게 하면 앞줄 발언자의 말풍선이 뒷줄 동료 얼굴을 덮는다 (실측 확인).
+      말이 길어질수록 더 덮으므로 세로가 아니라 가로로 뺀다. */
+.say{position:absolute;top:0;width:max-content;max-width:min(230px,32vw);
+background:linear-gradient(180deg,#fbfdff,#e9f0fa);color:#131c2b;
+border-radius:14px;padding:9px 13px;font-size:11.5px;line-height:1.55;text-align:left;
+box-shadow:0 16px 34px -10px #000d,0 0 0 1px #ffffff20;
+opacity:0;pointer-events:none;transition:.34s cubic-bezier(.34,1.3,.5,1)}
+.say::after{content:"";position:absolute;top:20px;border:7px solid transparent}
+.say.r{left:calc(100% + 13px);transform-origin:left center;transform:translateX(-8px) scale(.94)}
+.say.l{right:calc(100% + 13px);transform-origin:right center;transform:translateX(8px) scale(.94)}
+.say.r::after{left:-7px;border-right-color:#f4f8fd;border-left:0}
+.say.l::after{right:-7px;border-left-color:#f4f8fd;border-right:0}
+.say.on{opacity:1;transform:translateX(0) scale(1)}
+.say b{color:#0b57d0}
+.say .who{display:block;font-size:9.5px;font-weight:800;letter-spacing:.04em;color:#5a6a86;margin-bottom:2px}
 
-.talkbar{display:flex;align-items:center;gap:10px;justify-content:center;margin-top:16px;
-font-size:12px;color:var(--dim);position:relative;z-index:2}
-.tbtn{background:var(--desk);border:1px solid var(--bd);color:var(--tx);border-radius:8px;
-padding:6px 14px;cursor:pointer;font-size:12px}
-.tbtn:hover{border-color:var(--blu)}
-.hint{text-align:center;color:var(--dim);font-size:11.5px;margin-top:10px}
+/* 하단 컨트롤 */
+.talkbar{position:absolute;left:12px;bottom:12px;z-index:30;
+display:flex;align-items:center;gap:10px;font-size:11.5px;color:var(--dim);
+background:#0b1220cc;backdrop-filter:blur(8px);border:1px solid #26314a;border-radius:99px;padding:5px 8px 5px 14px}
+.tbtn{background:#1c2740;border:1px solid #354463;color:var(--tx);border-radius:99px;
+padding:5px 14px;cursor:pointer;font-size:11.5px;transition:.16s}
+.tbtn:hover{border-color:var(--blu);background:#233152}
+
+/* KPI 카드 — 바닥에서 빼내 아래 줄로 (사무실이 표처럼 보이지 않게) */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:9px;margin-top:14px}
+.stat{position:relative;overflow:hidden;cursor:pointer;border-radius:15px;padding:13px 15px;
+background:linear-gradient(180deg,#161f30,#111927);border:1px solid #253048;transition:.18s}
+.stat:hover{transform:translateY(-3px);border-color:#3d5580;box-shadow:0 14px 26px -14px #000}
+.stat::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--ac,#58a6ff);opacity:.85}
+.stat .sh{display:flex;align-items:center;gap:7px;margin-bottom:8px}
+.stat .sh b{font-size:12.5px}
+.stat .job{font-size:9.5px;color:#8ea0ba;background:#1d2740;border:1px solid #2c3a56;
+border-radius:99px;padding:1px 8px;margin-left:auto}
+.stat .num{font-size:23px;font-weight:800;color:#fff;line-height:1.1}
+.stat .lab{font-size:9.5px;color:var(--dim);margin-top:1px}
+.stat .ln{font-size:10.5px;line-height:1.55;color:#93a3ba;margin-top:7px}
+.hint{text-align:center;color:var(--dim);font-size:11.5px;margin-top:12px}
+
+.mhead .avatar .mini{animation:none;margin:0;filter:none}
+
+@media (max-width:640px){
+  .floor{height:430px}
+  .station{width:74px}.station.big{width:120px}
+  .tag i{display:none}
+}
+/* 움직임을 줄여달라는 설정이면 걷기·호흡을 끈다 (접근성) */
+@media (prefers-reduced-motion:reduce){
+  .actor{transition:none}
+  .actor .mini,.actor.walk .mini,.mon::after,.dot{animation:none}
+  .say{transition:opacity .2s}
+}
 .actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:26px}
 .btn{background:#238636;color:#fff;text-decoration:none;padding:12px 24px;border-radius:10px;font-weight:700;font-size:15px}
 .btn:hover{background:#2ea043}
@@ -198,15 +270,30 @@ background:#0c121d;color:var(--dim);font-size:12px;line-height:1.6;font-style:it
 </header>
 
 <div class="board" id="board"></div>
-<div class="room">
-  <div class="wall" id="wall">📋 오늘의 회의</div>
-  <div class="desks" id="desks"></div>
+
+<div class="floor" id="floor">
+  <div class="win" style="left:5%"></div>
+  <div class="win" style="left:26%"></div>
+  <div class="win" style="right:26%"></div>
+  <div class="win" style="right:5%"></div>
+  <div class="grid"></div>
+  <div class="pool" style="left:8%;top:52%"></div>
+  <div class="pool" style="left:38%;top:62%"></div>
+  <div class="pool" style="right:8%;top:52%"></div>
+  <div class="plant" style="left:3%;bottom:30%"></div>
+  <div class="plant" style="right:3.5%;bottom:16%"></div>
+  <div class="wboard" id="wboard"></div>
+  <div class="table"></div>
+  <div id="stations"></div>
+  <div id="actors"></div>
   <div class="talkbar">
     <button class="tbtn" id="replay">🔁 회의 다시 보기</button>
     <span id="turn"></span>
   </div>
 </div>
-<div class="hint">담당자를 클릭하면 그 팀의 상세 분석을 볼 수 있습니다</div>
+
+<div class="stats" id="stats"></div>
+<div class="hint">사무실의 담당자나 아래 카드를 클릭하면 그 팀의 상세 분석이 열립니다</div>
 
 <div class="actions">
   <a class="btn" href="dashboard/breakout-room.html">📊 대시보드 전체 보기</a>
@@ -402,54 +489,131 @@ function dialog(){
   return L;
 }
 
-/* ── 자리 배치 ── */
+/* ══ 사무실 무대 ══
+   좌표는 전부 % (가로,세로). 화면 크기가 변해도 배치가 유지된다.
+   HOME  = 평소 자리(책상)
+   STAGE = 발언하러 나오는 자리 — 자기 책상에서 회의 테이블 쪽으로 비스듬히 걸어 나온다.
+   깊이감: 아래쪽(y 큼)일수록 크게 그리고 앞에 겹치게 한다. */
+const HOME ={t1:[10,33],t2:[30,33],t3:[50,33],t4:[70,33],t5:[90,33],chief:[50,83]};
+const STAGE={t1:[24,62],t2:[37,66],t3:[50,68],t4:[63,66],t5:[76,62],chief:[50,78]};
+const DESK_BACK=7;                            // 책상은 사람보다 이만큼 뒤(위)에 둔다 — 앉은 것처럼 보이게
+const depth=y=>0.80+(y/100)*0.42;            // y 34 → .94 · y 66 → 1.08 · y 84 → 1.15
+const reduce=()=>window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+
+function place(id,pos,walking){
+  const el=$('ac-'+id); if(!el)return;
+  const [x,y]=pos;
+  const moving=walking&&!reduce()&&(el.style.left!==x+'%'||el.style.top!==y+'%');
+  el.style.left=x+'%'; el.style.top=y+'%';
+  el.style.setProperty('--s',depth(y).toFixed(3));
+  el.style.setProperty('--z',Math.round(y*10));
+  if(moving){
+    el.classList.add('walk');
+    clearTimeout(el._wt);
+    el._wt=setTimeout(()=>el.classList.remove('walk'),1450);
+  }
+}
+
 function office(){
-  $('desks').innerHTML=AGENTS.map(a=>{
+  const q=(D.t1&&D.t1.qqq)||{};
+  const monCls=q.verdict==='red'?'red':q.verdict==='green'?'green':'';
+
+  // 책상은 에이전트와 분리한다 — 걸어 나가도 책상은 제자리에 남아야 사무실처럼 보인다.
+  $('stations').innerHTML=AGENTS.map(a=>{
+    const [x,y0]=HOME[a.id],y=y0-DESK_BACK;
+    const big=a.wide?' big':'';
+    const mons=a.wide?3:(a.id==='t1'?2:1);
+    return `<div class="station${big}" style="left:${x}%;top:${y}%;transform:translate(-50%,-50%) scale(${depth(y0).toFixed(3)})">
+      <div class="desk"><div class="chairback"></div>
+        ${Array.from({length:mons},(_,i)=>`<div class="mon ${i===0?monCls:''}"></div>`).join('')}
+      </div></div>`;
+  }).join('');
+
+  $('actors').innerHTML=AGENTS.map(a=>{
     const d=_dd(a.id);
-    const monCls=a.id==='t1'?((D.t1&&D.t1.qqq&&D.t1.qqq.verdict)==='red'?'red':(D.t1&&D.t1.qqq&&D.t1.qqq.verdict)==='green'?'green':''):'';
-    return `<div class="seat ${a.wide?'chiefSeat':''}" data-id="${a.id}">
-      <div class="bub" id="bub-${a.id}"></div>
-      <div class="plate">${esc(a.job||'')}</div>
-      <span class="busy ${d.busy?'':'idle'}"></span>
-      <div class="body">
-        ${mini(a,a.wide?78:66)}
-        <div class="deskTop"><div class="mon ${monCls}"></div>${a.wide?'<div class="mon"></div><div class="mon"></div>':''}</div>
-      </div>
-      <div class="nameTag">${a.name}</div>
-      <div class="roleTag">${a.role}</div>
-      <div class="kpi">${d.stat}</div>
-      <div class="kpil">${d.statl}</div>
-      <div class="kline">${d.line||''}</div>
+    return `<div class="actor" id="ac-${a.id}" data-id="${a.id}" title="${esc(a.name)} — 클릭하면 상세">
+      <div class="say" id="say-${a.id}"></div>
+      ${mini(a,a.wide?74:62)}
+      <div class="shadow"></div>
+      <div class="tag"><b><span class="dot ${d.busy?'':'off'}"></span>${esc(a.name)}</b><i>${esc(a.job||'')}</i></div>
     </div>`;
   }).join('');
-  document.querySelectorAll('.seat').forEach(e=>e.onclick=()=>openAgent(e.dataset.id));
+  AGENTS.forEach(a=>place(a.id,HOME[a.id],false));
+  document.querySelectorAll('.actor').forEach(e=>e.onclick=()=>openAgent(e.dataset.id));
+
+  const c=D.chief||{};
+  $('wboard').innerHTML=`<b>📋 오늘의 회의</b><span>${esc(c.generated||'데이터 없음')}</span>`;
+
+  // KPI 는 바닥에서 빼내 아래 카드로. 사무실이 표처럼 보이지 않게.
+  const AC={t1:'#58a6ff',t2:'#3fb27f',t3:'#c084fc',t4:'#f5a524',t5:'#2fb3ba',chief:'#e3b341'};
+  $('stats').innerHTML=AGENTS.map(a=>{
+    const d=_dd(a.id);
+    return `<div class="stat" data-id="${a.id}" style="--ac:${AC[a.id]}">
+      <div class="sh"><b>${esc(a.name)}</b><span class="job">${esc(a.job||'')}</span></div>
+      <div class="num">${d.stat}</div><div class="lab">${esc(d.statl)}</div>
+      <div class="ln">${d.line||''}</div></div>`;
+  }).join('');
+  document.querySelectorAll('.stat').forEach(e=>e.onclick=()=>openAgent(e.dataset.id));
+
   runDialog();
 }
 
-/* ── 회의 재생 ── */
-let _timer=null;
+/* ══ 회의 재생 ══
+   발언자는 책상에서 걸어 나와 말하고, 끝나면 제자리로 돌아간다.
+   회의가 끝나면 가끔 한 명씩 자리 주변을 서성이게 해 사무실이 멈춰 보이지 않게 한다. */
+let _timer=null,_wander=null;
+function clearSays(){document.querySelectorAll('.say').forEach(b=>b.classList.remove('on'));}
+
 function runDialog(){
   const L=dialog();
-  if(_timer)clearTimeout(_timer);
-  document.querySelectorAll('.bub').forEach(b=>{b.classList.remove('on');b.innerHTML='';});
-  let i=0;
+  clearTimeout(_timer); clearInterval(_wander);
+  clearSays();
+  AGENTS.forEach(a=>place(a.id,HOME[a.id],false));
+  let i=0,prev=null;
+
   const step=()=>{
-    document.querySelectorAll('.bub').forEach(b=>b.classList.remove('on'));
+    clearSays();
+    if(prev){document.getElementById('ac-'+prev)?.classList.remove('talking');place(prev,HOME[prev],true);}
     if(i>=L.length){
       $('turn').textContent='회의 종료 — 담당자를 클릭해 보세요';
+      startWander();
       return;
     }
-    const cur=L[i];
-    const el=$('bub-'+cur.who);
-    const a=AGENTS.find(x=>x.id===cur.who);
-    if(el){el.innerHTML=`<b>${a?a.name:''}</b><br>${cur.t}`;el.classList.add('on');}
+    const cur=L[i],a=AGENTS.find(x=>x.id===cur.who);
+    const el=$('ac-'+cur.who),say=$('say-'+cur.who);
+    if(el&&say){
+      el.classList.add('talking');
+      place(cur.who,STAGE[cur.who]||HOME[cur.who],true);
+      // 다 걸어 나온 뒤에 말풍선을 띄운다 (걸으면서 말하면 꼬리가 따로 논다)
+      // 무대 왼쪽에 서면 오른쪽으로, 오른쪽에 서면 왼쪽으로 — 항상 무대 안쪽을 향한다
+      const sx=(STAGE[cur.who]||HOME[cur.who])[0];
+      say.className='say '+(sx<50?'r':'l');
+      const delay=reduce()?0:520;
+      setTimeout(()=>{
+        say.innerHTML=`<span class="who">${esc(a?a.name:'')}</span>${cur.t}`;
+        say.classList.add('on');
+      },delay);
+    }
     $('turn').textContent=`${i+1} / ${L.length}`;
-    i++;
-    // 글자 수에 비례한 시간 (읽을 시간을 준다)
-    const ms=Math.min(6500,Math.max(2600,String(cur.t).replace(/<[^>]+>/g,'').length*95));
+    prev=cur.who; i++;
+    const ms=Math.min(7000,Math.max(3000,String(cur.t).replace(/<[^>]+>/g,'').length*95));
     _timer=setTimeout(step,ms);
   };
   step();
+}
+
+/* 회의가 끝난 뒤의 잔잔한 움직임 — 한 명씩 자리 근처를 서성인다 */
+function startWander(){
+  clearInterval(_wander);
+  if(reduce())return;
+  _wander=setInterval(()=>{
+    if(document.getElementById('modal').classList.contains('on'))return;   // 상세를 보는 중이면 가만히
+    const a=AGENTS[Math.floor(Math.random()*AGENTS.length)];
+    const [hx,hy]=HOME[a.id];
+    const to=[Math.max(4,Math.min(96,hx+(Math.random()*14-7))),Math.max(28,Math.min(86,hy+(Math.random()*10-4)))];
+    place(a.id,to,true);
+    setTimeout(()=>place(a.id,HOME[a.id],true),2600);
+  },4200);
 }
 
 /* ── 긴 서술 정리 ──

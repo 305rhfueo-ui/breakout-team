@@ -20,13 +20,16 @@ const ok = (name, fn) => { try { fn(); console.log('  ✅ ' + name); pass++; } c
 function loadRoom() {
   const html = fs.readFileSync(path.join(REPO, 'index.html'), 'utf8');
   const script = /<script(?![^>]*\bsrc=)[^>]*>([\s\S]*?)<\/script>/.exec(html)[1];
-  const mk = () => ({ innerHTML: '', className: '', style: {}, dataset: {}, classList: { add() {}, remove() {}, contains: () => false, toggle() {} },
+  // style 은 setProperty/getPropertyValue 까지 흉내낸다 — 사무실 배치 코드가 CSS 변수를 쓴다
+  const mkStyle = () => { const o = {}; o.setProperty = (k, v) => { o[k] = v; }; o.getPropertyValue = (k) => o[k] || ''; return o; };
+  const mk = () => ({ innerHTML: '', className: '', style: mkStyle(), dataset: {}, classList: { add() {}, remove() {}, contains: () => false, toggle() {} },
     appendChild() {}, addEventListener() {}, querySelectorAll: () => [], querySelector: () => null, setAttribute() {}, remove() {} });
   const nodes = new Map();
   const doc = { getElementById: (id) => { if (!nodes.has(id)) nodes.set(id, mk()); return nodes.get(id); },
     querySelectorAll: () => [], querySelector: () => null, createElement: () => mk(),
     head: mk(), body: mk(), addEventListener() {} };
-  const win = { document: doc, location: { href: '', hash: '' }, setTimeout, clearTimeout, console };
+  const win = { document: doc, location: { href: '', hash: '' }, setTimeout, clearTimeout, setInterval, clearInterval, console,
+    matchMedia: () => ({ matches: false, addEventListener() {} }) };
   const ctx = vm.createContext(win);
   ctx.window = win; ctx.document = doc;
   for (const f of ['industry-ko.js', 'chief.js', 'team1.js', 'team2.js', 'team3.js', 'team4.js', 'team5.js', 'chartcheck.js']) {
