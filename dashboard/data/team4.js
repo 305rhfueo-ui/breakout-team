@@ -665,8 +665,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.gurufocus.com/news/9029092/super-micro-computer-inc-smci-shares-surge-190-what-gf-score-of-84-tells-investors",
                 "date": "2026-08-12",
                 "quote": "",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               },
               {
                 "title": "Super Micro Computer (SMCIP) Stock Price & Overview",

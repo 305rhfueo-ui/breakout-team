@@ -4397,7 +4397,7 @@ window.TEAM3_DATA = {
     "added": 0,
     "restored": 0,
     "refreshed": 0,
-    "held": 61,
+    "held": 60,
     "heldReason": "150일선 판정불가 — 신규 편입 보류"
   },
   "cap": {

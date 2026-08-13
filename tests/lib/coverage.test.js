@@ -119,15 +119,41 @@ ok('4팀 — 촉매 미조사 종목이 실제로 미조사로 표시된다', ()
     '촉매 열이 다시 하드코딩됐다 — r.catalyst 를 읽어야 한다');
 });
 
-console.log('\n[4] 4팀에 ETF 가 섞이지 않았는가');
-ok('EP 후보에 ETF·ETN 이 없다', () => {
+console.log('\n[4] ETF·ETN 이 섞이지 않았는가');
+const isEtfRow = (x) => String(x.sector || '').toUpperCase() === 'ETF'
+  || String(x.industry || '').toUpperCase() === 'ETF';
+ok('4팀 EP 후보에 ETF·ETN 이 없다', () => {
   const d = load('team4.js', 'TEAM4_DATA');
   if (!d) return;
-  const etf = (d.items || []).filter((i) => String(i.sector || '').toUpperCase() === 'ETF'
-    || String(i.industry || '').toUpperCase() === 'ETF');
+  const etf = (d.items || []).filter(isEtfRow);
   assert.strictEqual(etf.length, 0,
     `ETF 가 섞였다: ${etf.map((x) => x.ticker).join(', ')} — 4팀은 개별 종목의 실적 촉매를 찾는 팀이라 `
     + 'ETF 는 실적 발표가 없어 6분류가 성립하지 않는다');
+});
+ok('2팀 선정 종목에 ETF·ETN 이 없다', () => {
+  // 2026-08-13: GDXU(3배 레버리지 금광 ETN)가 2팀 리서치 슬롯을 하나 먹었다.
+  // 2팀은 "왜 올랐나 + 증권사 실적 전망 조정"을 조사하는데 ETN 은 실적도 커버리지도 없다.
+  const d = load('team2.js', 'TEAM2_DATA');
+  if (!d) return;
+  const etf = (d.picks || []).filter(isEtfRow);
+  assert.strictEqual(etf.length, 0,
+    `ETF 가 섞였다: ${etf.map((x) => x.ticker).join(', ')} — 실적 발표도 애널리스트 커버리지도 없어 `
+    + '2팀 리서치 질문이 성립하지 않는다');
+});
+ok('screen 이 ETF 를 실제로 걸러낸다', () => {
+  const { selectBreakoutCandidates } = require(path.join(REPO, 'scripts/lib/screen'));
+  const mk = (t, sector, industry, rs) => ({
+    Ticker: t, Sector: sector, Industry: industry, 'Market Cap': '10.00B', Price: 100,
+    RS_1mo: rs, RS_3mo: rs, RS_6mo: rs, ADR_20D: 9, Above_150_SMA: 'O', '200DIV': 30,
+  });
+  // 상위 2% 안에 ETF 와 일반주가 하나씩 들어가도록 RS 를 벌려 놓는다.
+  // (전부 같은 값이면 동점 처리로 아무도 98 백분위를 못 넘어 ETF 검사까지 가지도 못한다)
+  const rows = [mk('GDXU', 'ETF', 'ETF', 100), mk('AAPL', 'Technology', 'Consumer Electronics', 99)];
+  for (let i = 0; i < 100; i++) rows.push(mk('F' + i, 'Technology', 'Software', i * 0.1));
+  const { qualified, stats } = selectBreakoutCandidates(rows);
+  assert.ok(!qualified.some((q) => q.ticker === 'GDXU'), 'ETF 가 통과했다');
+  assert.strictEqual(stats.dropped.etf, 1);
+  assert.deepStrictEqual(stats.etfExcluded, ['GDXU']);
 });
 
 console.log(`\n${fail ? '❌' : '✅'} 통과 ${pass} · 실패 ${fail}`);

@@ -1,8 +1,7 @@
 {
   "date": "2026-08-13",
-  "count": 61,
+  "count": 60,
   "tickers": [
-    "GDXU",
     "TWST",
     "MGRT",
     "TEAM",
@@ -75,7 +74,7 @@
       "level": "Sector",
       "name": "Technology",
       "count": 33,
-      "sharePct": 54.1,
+      "sharePct": 55,
       "tickers": [
         "MGRT",
         "TEAM",
@@ -118,7 +117,7 @@
       "level": "Sector",
       "name": "Healthcare",
       "count": 13,
-      "sharePct": 21.3,
+      "sharePct": 21.7,
       "tickers": [
         "TWST",
         "AGL",
@@ -141,7 +140,7 @@
       "level": "Industry",
       "name": "Semiconductors",
       "count": 9,
-      "sharePct": 14.8,
+      "sharePct": 15,
       "tickers": [
         "MXL",
         "CBRS",
@@ -160,7 +159,7 @@
       "level": "Industry",
       "name": "Software - Infrastructure",
       "count": 7,
-      "sharePct": 11.5,
+      "sharePct": 11.7,
       "tickers": [
         "QLYS",
         "BAND",
@@ -177,7 +176,7 @@
       "level": "Sector",
       "name": "Consumer Cyclical",
       "count": 6,
-      "sharePct": 9.8,
+      "sharePct": 10,
       "tickers": [
         "VSXY",
         "EAT",
@@ -186,14 +185,14 @@
         "SN",
         "VAC"
       ],
-      "concentration": "low"
+      "concentration": "mid"
     },
     {
       "key": "Industry:Biotechnology",
       "level": "Industry",
       "name": "Biotechnology",
       "count": 6,
-      "sharePct": 9.8,
+      "sharePct": 10,
       "tickers": [
         "ORKA",
         "CORT",
@@ -202,14 +201,14 @@
         "DNTH",
         "MANE"
       ],
-      "concentration": "low"
+      "concentration": "mid"
     },
     {
       "key": "Industry:Information Technology Services",
       "level": "Industry",
       "name": "Information Technology Services",
       "count": 5,
-      "sharePct": 8.2,
+      "sharePct": 8.3,
       "tickers": [
         "MGRT",
         "CACI",
@@ -224,7 +223,7 @@
       "level": "Industry",
       "name": "Diagnostics & Research",
       "count": 4,
-      "sharePct": 6.6,
+      "sharePct": 6.7,
       "tickers": [
         "TWST",
         "WGS",
@@ -238,7 +237,7 @@
       "level": "Sector",
       "name": "Industrials",
       "count": 3,
-      "sharePct": 4.9,
+      "sharePct": 5,
       "tickers": [
         "BXC",
         "AVAV",
@@ -251,7 +250,7 @@
       "level": "Industry",
       "name": "Software - Application",
       "count": 3,
-      "sharePct": 4.9,
+      "sharePct": 5,
       "tickers": [
         "TEAM",
         "SNOW",
@@ -264,7 +263,7 @@
       "level": "Industry",
       "name": "Communication Equipment",
       "count": 3,
-      "sharePct": 4.9,
+      "sharePct": 5,
       "tickers": [
         "ZBRA",
         "AAOI",

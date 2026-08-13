@@ -1,14 +1,15 @@
 'use strict';
-// 2팀 스크리닝 — RS 3기간 중 하나라도 상위 2% + ADR≥4 + 150일선 위.
+// 2팀 스크리닝 — RS 3기간 중 하나라도 상위 2% + ADR≥4 + 150일선 위. ETF·ETN 은 제외.
 // 그리고 테마 클러스터링(섹터/업종 쏠림).
 
-const { num, yes, round, say } = require('./util');
+const { num, yes, round, say, isEtf } = require('./util');
 const { rankPercentiles, bestPct } = require('./percentile');
 
 const DEFAULTS = {
   topPct: 2,        // 상위 2%  → 백분위 98 이상
   adrMin: 4,        // ADR_20D ≥ 4%
   requireMa150: true,
+  excludeEtf: true,   // ETF·ETN 은 실적·커버리지가 없어 2팀 질문이 성립하지 않는다
 };
 
 // 사이트 Above_150_SMA 는 "O"/"X" 문자열 (utils.py:397 = latest_price > ma150)
@@ -86,10 +87,12 @@ function selectBreakoutCandidates(rows, opts = {}) {
     universe: rows.length,
     byPeriod: { m1: 0, m3: 0, m6: 0 },
     unionTop: 0,
+    afterEtf: 0,
     afterAdr: 0,
     afterMa150: 0,
     ma150Unknown: 0,
-    dropped: { adr: 0, ma150: 0 },
+    dropped: { etf: 0, adr: 0, ma150: 0 },
+    etfExcluded: [],
     threshold,
   };
 
@@ -104,6 +107,18 @@ function selectBreakoutCandidates(rows, opts = {}) {
     if (p.RS_6mo !== null && p.RS_6mo >= threshold) { by.push('6mo'); stats.byPeriod.m6++; }
     if (by.length === 0) continue;
     stats.unionTop++;
+
+    // ⚠️ ETF·ETN 제외. 2팀은 "이 종목이 왜 올랐나 + 증권사 실적 전망 조정"을 조사하는데
+    //    ETF·ETN 은 실적 발표도 애널리스트 커버리지도 없어 그 질문이 성립하지 않는다.
+    //    레버리지 상품은 ADR·이격도 같은 변동성 지표도 왜곡된다.
+    //    (4팀은 2026-08-11 부터 같은 이유로 제외 중. 2026-08-13 에 GDXU(3배 레버리지
+    //     금광 ETN)가 리서치 슬롯을 하나 먹은 것을 보고 2팀에도 적용했다)
+    if (o.excludeEtf && isEtf(row)) {
+      stats.dropped.etf++;
+      if (stats.etfExcluded.length < 20) stats.etfExcluded.push(ticker);
+      continue;
+    }
+    stats.afterEtf++;
 
     const adr = num(row.ADR_20D);
     if (!(adr !== null && adr >= o.adrMin)) { stats.dropped.adr++; continue; }
@@ -196,6 +211,7 @@ if (require.main === module) {
     console.log(`유니버스           ${stats.universe}`);
     console.log(`기간별 상위 2%     1mo ${stats.byPeriod.m1} · 3mo ${stats.byPeriod.m3} · 6mo ${stats.byPeriod.m6}`);
     console.log(`  → 합집합         ${stats.unionTop}`);
+    console.log(`  → ETF·ETN 제외   ${stats.afterEtf}   (제외 ${stats.dropped.etf}${stats.etfExcluded.length ? ': ' + stats.etfExcluded.join(', ') : ''})`);
     console.log(`  → ADR ≥ 4        ${stats.afterAdr}   (탈락 ${stats.dropped.adr})`);
     console.log(`  → 150일선 위     ${stats.afterMa150}   (탈락 ${stats.dropped.ma150}, 판정불가 ${stats.ma150Unknown})`);
     console.log(`\n시장국면(사이트)   ${meta.market_condition}`);

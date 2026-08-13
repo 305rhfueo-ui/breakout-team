@@ -111,7 +111,9 @@ async function main() {
   // ── 4) 2팀 스크리닝 ──
   const { qualified, stats: screenStats } = selectBreakoutCandidates(rows, { requireMa150: maTrusted });
   const themes = detectThemes(qualified);
-  say('T2', `퍼널 ${screenStats.universe} → 상위2% ${screenStats.unionTop} → ADR≥4 ${screenStats.afterAdr} → `
+  say('T2', `퍼널 ${screenStats.universe} → 상위2% ${screenStats.unionTop}`
+    + (screenStats.dropped.etf ? ` → ETF제외 ${screenStats.afterEtf}` : '')
+    + ` → ADR≥4 ${screenStats.afterAdr} → `
     + (maTrusted ? `150일선 ${screenStats.afterMa150}종목` : `${screenStats.afterMa150}종목 (150일선 판정불가 — 필터 미적용)`));
   say('T2', `테마: ${themes.headline}`);
 

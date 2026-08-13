@@ -569,8 +569,8 @@ window.TEAM5_DATA = {
                 "publisher": "Investing.com",
                 "url": "https://ng.investing.com/news/stock-market-news/goldman-sachs-names-top-us-hardware-stocks-amid-ai-demand-surge-93CH-2656204",
                 "date": "2026-08",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               },
               {
                 "title": "Dell Soars 54%, HP Enterprise Rockets 59% in a Month as AI-Server Demand Booms",
@@ -902,8 +902,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-sharkninja-q2-2026-sales-surge-lifts-shares-despite-eps-miss-93CH-4838007",
                 "date": "2026-08-05",
                 "quote": "주가는 4.88% 상승하여 $176.41로 마감... 투자자들은 EPS 부진에도 불구하고 강력한 매출 성장과 상향 조정된 전망에 집중",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -1063,8 +1063,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.tipranks.com/news/catalyst/why-insight-enterprises-stock-is-surging-higher-now",
                 "date": "2026-08 (정확한 일자 미확인, 검색 결과 발췌 기준)",
                 "quote": "Raymond James raised the firm's price target on Insight Enterprises (NSIT) to $175 from $100 and keeps an Outperform rating on the shares.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           }

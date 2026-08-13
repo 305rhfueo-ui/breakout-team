@@ -2,8 +2,8 @@
   "date": "2026-08-13",
   "report": {
     "checked": 112,
-    "ok": 131,
-    "unverified": 15,
+    "ok": 122,
+    "unverified": 24,
     "dead": 0,
     "stripped": 0,
     "removed": [
@@ -214,8 +214,8 @@
                   "url": "https://m.investing.com/news/analyst-ratings/baird-raises-coreweave-stock-price-target-on-power-growth-93CH-4854459?ampMode=1",
                   "date": "2026-08-12",
                   "quote": "the company's solid quarterly results and encouraging deal and power metrics through August",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 403
                 },
                 {
                   "title": "Bernstein raises CoreWeave stock price target on strong results",
@@ -223,8 +223,8 @@
                   "url": "https://www.investing.com/news/analyst-ratings/bernstein-raises-coreweave-stock-price-target-on-strong-results-93CH-4855403",
                   "date": "2026-08-12",
                   "quote": "CoreWeave reported Tuesday with a revenue beat and a larger beat on adjusted operating income.",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 403
                 },
                 {
                   "title": "CoreWeave, Inc. Stock 12‑Month Price Target Raised to $142.29, Implies 58% Upside",
@@ -252,8 +252,8 @@
                     "url": "https://m.investing.com/news/analyst-ratings/baird-raises-coreweave-stock-price-target-on-power-growth-93CH-4854459?ampMode=1",
                     "date": "2026-08-12",
                     "quote": "the company's solid quarterly results and encouraging deal and power metrics through August",
-                    "verified": "ok",
-                    "httpStatus": 200
+                    "verified": "unverified",
+                    "httpStatus": 403
                   }
                 ]
               },
@@ -268,8 +268,8 @@
                     "url": "https://www.investing.com/news/analyst-ratings/bernstein-raises-coreweave-stock-price-target-on-strong-results-93CH-4855403",
                     "date": "2026-08-12",
                     "quote": "long-term fundamentals and the view that the growth trajectory could shift",
-                    "verified": "ok",
-                    "httpStatus": 200
+                    "verified": "unverified",
+                    "httpStatus": 403
                   }
                 ]
               },
@@ -443,8 +443,8 @@
                 "url": "https://www.investing.com/equities/twist-bioscience-corporation-earnings",
                 "date": "2026-08-13",
                 "quote": "Twist Bioscience will release its next earnings report on Nov 13, 2026.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -1646,8 +1646,8 @@
                   "url": "https://www.gurufocus.com/news/9029092/super-micro-computer-inc-smci-shares-surge-190-what-gf-score-of-84-tells-investors",
                   "date": "2026-08-12",
                   "quote": "",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 403
                 },
                 {
                   "title": "Super Micro Computer (SMCIP) Stock Price & Overview",
@@ -2258,8 +2258,8 @@
                   "publisher": "Investing.com",
                   "url": "https://ng.investing.com/news/stock-market-news/goldman-sachs-names-top-us-hardware-stocks-amid-ai-demand-surge-93CH-2656204",
                   "date": "2026-08",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 403
                 },
                 {
                   "title": "Dell Soars 54%, HP Enterprise Rockets 59% in a Month as AI-Server Demand Booms",
@@ -2591,8 +2591,8 @@
                   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-sharkninja-q2-2026-sales-surge-lifts-shares-despite-eps-miss-93CH-4838007",
                   "date": "2026-08-05",
                   "quote": "주가는 4.88% 상승하여 $176.41로 마감... 투자자들은 EPS 부진에도 불구하고 강력한 매출 성장과 상향 조정된 전망에 집중",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 403
                 }
               ]
             },
@@ -2752,8 +2752,8 @@
                   "url": "https://www.tipranks.com/news/catalyst/why-insight-enterprises-stock-is-surging-higher-now",
                   "date": "2026-08 (정확한 일자 미확인, 검색 결과 발췌 기준)",
                   "quote": "Raymond James raised the firm's price target on Insight Enterprises (NSIT) to $175 from $100 and keeps an Outperform rating on the shares.",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 403
                 }
               ]
             }

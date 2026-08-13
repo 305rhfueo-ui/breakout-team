@@ -4,10 +4,10 @@ window.HISTORY_DATA = {
       "date": "2026-08-13",
       "qqq": "yellow",
       "finraYoY": 49,
-      "picks": 61,
+      "picks": 60,
       "breakouts": 26,
       "chartCheck": 7,
-      "theme": "Technology 33종목(54.1%) · Healthcare 13종목(21.3%) · Semiconductors 9종목(14.8%)"
+      "theme": "Technology 33종목(55%) · Healthcare 13종목(21.7%) · Semiconductors 9종목(15%)"
     },
     {
       "date": "2026-08-12",

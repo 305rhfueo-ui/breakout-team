@@ -159,7 +159,7 @@ window.TEAM1_DATA = {
         "freeMargin": "D"
       }
     },
-    "fetched_at": "2026-08-13T04:20:44.788Z"
+    "fetched_at": "2026-08-13T08:51:07.134Z"
   },
   "leaders": {
     "stocks": [
@@ -596,8 +596,8 @@ window.TEAM1_DATA = {
     "candidateCount": 12,
     "verified": {
       "checked": 112,
-      "ok": 131,
-      "unverified": 15,
+      "ok": 122,
+      "unverified": 24,
       "dead": 0,
       "stripped": 0,
       "removed": [
