@@ -1,0 +1,123 @@
+{
+  "date": "2026-08-13",
+  "count": 18,
+  "tickers": [
+    "TEAM",
+    "SNOW",
+    "AEHR",
+    "P",
+    "DELL",
+    "MXL",
+    "AXTI",
+    "PENG",
+    "AAOI",
+    "MRVL",
+    "OKTA",
+    "CRWV",
+    "PANW",
+    "NBIS",
+    "ALAB",
+    "AMD",
+    "INTC",
+    "MU"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": true
+  },
+  "themes": [
+    {
+      "key": "Sector:Technology",
+      "level": "Sector",
+      "name": "Technology",
+      "count": 17,
+      "sharePct": 94.4,
+      "tickers": [
+        "TEAM",
+        "SNOW",
+        "AEHR",
+        "P",
+        "DELL",
+        "MXL",
+        "AXTI",
+        "PENG",
+        "AAOI",
+        "MRVL",
+        "OKTA",
+        "CRWV",
+        "PANW",
+        "ALAB",
+        "AMD",
+        "INTC",
+        "MU"
+      ],
+      "concentration": "high"
+    },
+    {
+      "key": "Industry:Semiconductors",
+      "level": "Industry",
+      "name": "Semiconductors",
+      "count": 6,
+      "sharePct": 33.3,
+      "tickers": [
+        "MXL",
+        "MRVL",
+        "ALAB",
+        "AMD",
+        "INTC",
+        "MU"
+      ],
+      "concentration": "high"
+    },
+    {
+      "key": "Industry:Software - Infrastructure",
+      "level": "Industry",
+      "name": "Software - Infrastructure",
+      "count": 3,
+      "sharePct": 16.7,
+      "tickers": [
+        "OKTA",
+        "CRWV",
+        "PANW"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Software - Application",
+      "level": "Industry",
+      "name": "Software - Application",
+      "count": 2,
+      "sharePct": 11.1,
+      "tickers": [
+        "TEAM",
+        "SNOW"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Semiconductor Equipment & Materials",
+      "level": "Industry",
+      "name": "Semiconductor Equipment & Materials",
+      "count": 2,
+      "sharePct": 11.1,
+      "tickers": [
+        "AEHR",
+        "AXTI"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Computer Hardware",
+      "level": "Industry",
+      "name": "Computer Hardware",
+      "count": 2,
+      "sharePct": 11.1,
+      "tickers": [
+        "P",
+        "DELL"
+      ],
+      "concentration": "mid"
+    }
+  ]
+}
