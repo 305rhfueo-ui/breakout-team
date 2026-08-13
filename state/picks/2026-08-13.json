@@ -1,25 +1,68 @@
 {
   "date": "2026-08-13",
-  "count": 18,
+  "count": 61,
   "tickers": [
+    "GDXU",
+    "TWST",
+    "MGRT",
     "TEAM",
     "SNOW",
+    "AGL",
+    "FET",
     "AEHR",
     "P",
+    "QLYS",
     "DELL",
+    "BXC",
+    "VSXY",
     "MXL",
+    "ZBRA",
+    "WGS",
+    "BAND",
+    "ORKA",
     "AXTI",
+    "CORT",
+    "PAYC",
+    "MNPR",
+    "CACI",
     "PENG",
+    "ALNT",
     "AAOI",
+    "CBRS",
+    "EAT",
+    "SYRE",
+    "CTRN",
     "MRVL",
+    "AUGO",
     "OKTA",
+    "HPE-C",
+    "ATEX",
     "CRWV",
+    "W",
     "PANW",
+    "THC",
     "NBIS",
+    "NVEC",
+    "SN",
     "ALAB",
+    "AVAV",
+    "NSIT",
     "AMD",
     "INTC",
-    "MU"
+    "VAC",
+    "DNTH",
+    "PLPC",
+    "NTRA",
+    "MANE",
+    "NTAP",
+    "LQDA",
+    "GH",
+    "TWLO",
+    "SHAZ",
+    "IT",
+    "MU",
+    "DGII",
+    "AMBQ"
   ],
   "criteria": {
     "topPct": 2,
@@ -31,26 +74,65 @@
       "key": "Sector:Technology",
       "level": "Sector",
       "name": "Technology",
-      "count": 17,
-      "sharePct": 94.4,
+      "count": 33,
+      "sharePct": 54.1,
       "tickers": [
+        "MGRT",
         "TEAM",
         "SNOW",
         "AEHR",
         "P",
+        "QLYS",
         "DELL",
         "MXL",
+        "ZBRA",
+        "BAND",
         "AXTI",
+        "PAYC",
+        "CACI",
         "PENG",
+        "ALNT",
         "AAOI",
+        "CBRS",
         "MRVL",
         "OKTA",
         "CRWV",
         "PANW",
+        "NVEC",
         "ALAB",
+        "NSIT",
         "AMD",
         "INTC",
-        "MU"
+        "NTAP",
+        "TWLO",
+        "SHAZ",
+        "IT",
+        "MU",
+        "DGII",
+        "AMBQ"
+      ],
+      "concentration": "high"
+    },
+    {
+      "key": "Sector:Healthcare",
+      "level": "Sector",
+      "name": "Healthcare",
+      "count": 13,
+      "sharePct": 21.3,
+      "tickers": [
+        "TWST",
+        "AGL",
+        "WGS",
+        "ORKA",
+        "CORT",
+        "MNPR",
+        "SYRE",
+        "THC",
+        "DNTH",
+        "NTRA",
+        "MANE",
+        "LQDA",
+        "GH"
       ],
       "concentration": "high"
     },
@@ -58,66 +140,197 @@
       "key": "Industry:Semiconductors",
       "level": "Industry",
       "name": "Semiconductors",
-      "count": 6,
-      "sharePct": 33.3,
+      "count": 9,
+      "sharePct": 14.8,
       "tickers": [
         "MXL",
+        "CBRS",
         "MRVL",
+        "NVEC",
         "ALAB",
         "AMD",
         "INTC",
-        "MU"
+        "MU",
+        "AMBQ"
       ],
-      "concentration": "high"
+      "concentration": "mid"
     },
     {
       "key": "Industry:Software - Infrastructure",
       "level": "Industry",
       "name": "Software - Infrastructure",
-      "count": 3,
-      "sharePct": 16.7,
+      "count": 7,
+      "sharePct": 11.5,
       "tickers": [
+        "QLYS",
+        "BAND",
         "OKTA",
         "CRWV",
-        "PANW"
+        "PANW",
+        "NTAP",
+        "TWLO"
       ],
       "concentration": "mid"
+    },
+    {
+      "key": "Sector:Consumer Cyclical",
+      "level": "Sector",
+      "name": "Consumer Cyclical",
+      "count": 6,
+      "sharePct": 9.8,
+      "tickers": [
+        "VSXY",
+        "EAT",
+        "CTRN",
+        "W",
+        "SN",
+        "VAC"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 6,
+      "sharePct": 9.8,
+      "tickers": [
+        "ORKA",
+        "CORT",
+        "MNPR",
+        "SYRE",
+        "DNTH",
+        "MANE"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Information Technology Services",
+      "level": "Industry",
+      "name": "Information Technology Services",
+      "count": 5,
+      "sharePct": 8.2,
+      "tickers": [
+        "MGRT",
+        "CACI",
+        "PENG",
+        "SHAZ",
+        "IT"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Diagnostics & Research",
+      "level": "Industry",
+      "name": "Diagnostics & Research",
+      "count": 4,
+      "sharePct": 6.6,
+      "tickers": [
+        "TWST",
+        "WGS",
+        "NTRA",
+        "GH"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Sector:Industrials",
+      "level": "Sector",
+      "name": "Industrials",
+      "count": 3,
+      "sharePct": 4.9,
+      "tickers": [
+        "BXC",
+        "AVAV",
+        "PLPC"
+      ],
+      "concentration": "low"
     },
     {
       "key": "Industry:Software - Application",
       "level": "Industry",
       "name": "Software - Application",
-      "count": 2,
-      "sharePct": 11.1,
+      "count": 3,
+      "sharePct": 4.9,
       "tickers": [
         "TEAM",
-        "SNOW"
+        "SNOW",
+        "PAYC"
       ],
-      "concentration": "mid"
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Communication Equipment",
+      "level": "Industry",
+      "name": "Communication Equipment",
+      "count": 3,
+      "sharePct": 4.9,
+      "tickers": [
+        "ZBRA",
+        "AAOI",
+        "DGII"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Sector:Communication Services",
+      "level": "Sector",
+      "name": "Communication Services",
+      "count": 2,
+      "sharePct": 3.3,
+      "tickers": [
+        "ATEX",
+        "NBIS"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Medical Care Facilities",
+      "level": "Industry",
+      "name": "Medical Care Facilities",
+      "count": 2,
+      "sharePct": 3.3,
+      "tickers": [
+        "AGL",
+        "THC"
+      ],
+      "concentration": "low"
     },
     {
       "key": "Industry:Semiconductor Equipment & Materials",
       "level": "Industry",
       "name": "Semiconductor Equipment & Materials",
       "count": 2,
-      "sharePct": 11.1,
+      "sharePct": 3.3,
       "tickers": [
         "AEHR",
         "AXTI"
       ],
-      "concentration": "mid"
+      "concentration": "low"
     },
     {
       "key": "Industry:Computer Hardware",
       "level": "Industry",
       "name": "Computer Hardware",
       "count": 2,
-      "sharePct": 11.1,
+      "sharePct": 3.3,
       "tickers": [
         "P",
         "DELL"
       ],
-      "concentration": "mid"
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Apparel Retail",
+      "level": "Industry",
+      "name": "Apparel Retail",
+      "count": 2,
+      "sharePct": 3.3,
+      "tickers": [
+        "VSXY",
+        "CTRN"
+      ],
+      "concentration": "low"
     }
   ]
 }

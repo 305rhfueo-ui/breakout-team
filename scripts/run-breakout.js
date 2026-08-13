@@ -15,6 +15,7 @@ const { fetchRsData } = require('./fetch-rs-data');
 const { rankPercentiles, bestPct } = require('./lib/percentile');
 const { computeWrsAll, validateAgainstSite } = require('./lib/wrs');
 const { selectBreakoutCandidates, detectThemes } = require('./lib/screen');
+const { checkMaColumns } = require('./lib/ma-guard');
 const { fetchMany, fetchBarsCached } = require('./lib/bars');
 const { analyze, consecutiveDaysBelowMA, maSlope, priorHighBreak, volumeExpansion } = require('./lib/ta');
 const { qullamaggieRegime } = require('./lib/regime');
@@ -82,10 +83,26 @@ async function main() {
     (wrsCheck.recovered.length ? ` · 사이트 NaN 복구 ${wrsCheck.recovered.length}그룹` : ''));
   if (!wrsCheck.ok) say('WARN', '⚠️ WRS 대조 불일치 — WRS 컬럼을 신뢰하지 마세요');
 
+  // ── 3b) 150/50일선 컬럼 신뢰도 검사 ──
+  // 사이트가 MA 계산에 실패하면 조용히 전 종목을 "X"(150일선 아래)로 만든다.
+  // 2026-08-13 에 실제로 터져서 2팀이 61→18 로 붕괴하고 3팀이 48종목을 배제할 뻔했다.
+  // 배제는 tracking.json 에 영구 기록되므로 조용히 통과시키는 것이 최악이다.
+  const maCheck = checkMaColumns(rows);
+  if (!maCheck.ok) {
+    say('WARN', `⚠️ 150일선 컬럼 오염 감지 — ${maCheck.reason}`);
+    say('WARN', `   150일선 위 ${maCheck.stats.o150} / 아래 ${maCheck.stats.x150}`
+      + ` · 200일선 위 ${maCheck.stats.d200Pos}/${maCheck.stats.checked}`
+      + ` · 모순 ${maCheck.stats.contradiction}개(${maCheck.stats.contraPct}%)`);
+    say('WARN', '   → 150일선 필터를 끄고 "판정불가"로 표기합니다. 종목을 잘라내지 않습니다.');
+    say('WARN', '   → 3팀 배제조건 ③(150일선 이탈)도 오늘은 적용하지 않습니다.');
+  }
+  const maTrusted = maCheck.ok;
+
   // ── 4) 2팀 스크리닝 ──
-  const { qualified, stats: screenStats } = selectBreakoutCandidates(rows);
+  const { qualified, stats: screenStats } = selectBreakoutCandidates(rows, { requireMa150: maTrusted });
   const themes = detectThemes(qualified);
-  say('T2', `퍼널 ${screenStats.universe} → 상위2% ${screenStats.unionTop} → ADR≥4 ${screenStats.afterAdr} → 150일선 ${screenStats.afterMa150}종목`);
+  say('T2', `퍼널 ${screenStats.universe} → 상위2% ${screenStats.unionTop} → ADR≥4 ${screenStats.afterAdr} → `
+    + (maTrusted ? `150일선 ${screenStats.afterMa150}종목` : `${screenStats.afterMa150}종목 (150일선 판정불가 — 필터 미적용)`));
   say('T2', `테마: ${themes.headline}`);
 
   // ── 5) 4팀 EP 후보 (VOL_X≥2.0 또는 주간거래량≥2.0배) ──
@@ -110,8 +127,15 @@ async function main() {
     + (epCap > 0 ? ` (EP_CAP=${epCap} — ${epRows.length - epTop.length}종목 추가 제외)` : ' (전량)'));
 
   // ── 6) 추적 상태 로드 + 2팀 픽 반영 ──
+  // ⚠️ 150일선을 못 믿는 날에는 신규 편입·재편입을 하지 않는다.
+  //    2팀 자격은 「RS 상위 2% + ADR + 150일선 위」 셋인데 하나를 검증 못 한 상태라
+  //    두 조건만 통과한 종목이 tracking.json 에 영구 기록되면 안 된다.
+  //    기존 활성 종목의 평가(50일선·낙폭)는 그대로 돌린다 — 그건 야후 봉 기반이라 멀쩡하다.
   const trackState = tracking.load();
-  const ing = tracking.ingestPicks(trackState, qualified, dateStr);
+  const ing = maTrusted
+    ? tracking.ingestPicks(trackState, qualified, dateStr)
+    : { added: 0, restored: 0, refreshed: 0, held: qualified.length, heldReason: '150일선 판정불가 — 신규 편입 보류' };
+  if (!maTrusted) say('WARN', `   → 3팀 신규 편입도 보류합니다 (2팀 ${qualified.length}종목은 화면에만 표시)`);
   const activeTickers = trackState.items.filter((x) => x.status === 'active').map((x) => x.ticker);
 
   // ── 7) 봉 일괄 수집 (2·3·4팀 + QQQ 중복 제거) ──
@@ -201,7 +225,11 @@ async function main() {
       const adr = row ? num(row.ADR_20D) : null;
       ctx[it.ticker] = {
         price: a.price,
-        aboveMa150: row ? (String(row.Above_150_SMA || '').toUpperCase() === 'O') : a.aboveMA150,
+        // ⚠️ 컬럼이 오염됐으면 null(판정불가) 로 넘긴다. false 로 넘기면 배제조건 ③ 이 걸려
+        //    tracking.json 에 "150일선 이탈"이 영구 기록된다 — 2026-08-13 에 48종목이 그럴 뻔했다.
+        aboveMa150: maTrusted
+          ? (row ? (String(row.Above_150_SMA || '').toUpperCase() === 'O') : a.aboveMA150)
+          : null,
         high52Price: a.periodHigh,
         belowMa50: consecutiveDaysBelowMA(b, 50),
         brk: priorHighBreak(b),

@@ -8,18 +8,18 @@ window.CHIEF_DATA = {
   },
   "counts": {
     "universe": 1412,
-    "picks": 18,
+    "picks": 61,
     "tracking": {
-      "active": 16,
+      "active": 54,
       "dormant": 0,
-      "excluded": 60,
-      "total": 76
+      "excluded": 21,
+      "total": 75
     },
     "breakouts": 26,
     "epCandidates": 42,
     "chartCheck": 7
   },
-  "theme": "Technology 17종목(94.4%) · Semiconductors 6종목(33.3%) · Software - Infrastructure 3종목(16.7%)",
+  "theme": "Technology 33종목(54.1%) · Healthcare 13종목(21.3%) · Semiconductors 9종목(14.8%)",
   "chartCheck": [
     {
       "ticker": "PFGC",
@@ -172,7 +172,7 @@ window.CHIEF_DATA = {
             "ny": 9.36,
             "upRatio": 10.526315789473683,
             "coverage": 19,
-            "tracking": "active",
+            "tracking": "dropped",
             "breakout": false,
             "stage": "early",
             "stageKo": "⭐ 초입",
@@ -194,6 +194,21 @@ window.CHIEF_DATA = {
             "why": "많이 왔고 실적 기대도 받쳐줍니다"
           },
           {
+            "ticker": "TWLO",
+            "name": "트윌리오",
+            "d50": 19.29,
+            "d200": 60.16,
+            "cy": 3.38,
+            "ny": 2.2,
+            "upRatio": 82.43243243243244,
+            "coverage": 74,
+            "tracking": "active",
+            "breakout": false,
+            "stage": "lead",
+            "stageKo": "✅ 선도",
+            "why": "많이 왔고 실적 기대도 받쳐줍니다"
+          },
+          {
             "ticker": "OKTA",
             "name": "옥타",
             "d50": 9.22,
@@ -207,6 +222,51 @@ window.CHIEF_DATA = {
             "stage": "lead_weak",
             "stageKo": "🔶 관성",
             "why": "많이 왔는데 실적 기대는 멈췄습니다"
+          },
+          {
+            "ticker": "NTAP",
+            "name": "넷앱",
+            "d50": 19.62,
+            "d200": 64.58,
+            "cy": 0.06,
+            "ny": -0.22,
+            "upRatio": 50,
+            "coverage": 4,
+            "tracking": "active",
+            "breakout": false,
+            "stage": "lead_weak",
+            "stageKo": "🔶 관성",
+            "why": "많이 왔는데 실적 기대는 멈췄습니다"
+          },
+          {
+            "ticker": "QLYS",
+            "name": "퀄리스",
+            "d50": 34.05,
+            "d200": 55.16,
+            "cy": 2.7,
+            "ny": 1.74,
+            "upRatio": 95.1219512195122,
+            "coverage": 41,
+            "tracking": "active",
+            "breakout": false,
+            "stage": "hot",
+            "stageKo": "🔥 과열",
+            "why": "두 달 평균에서 30% 넘게 떠 있습니다"
+          },
+          {
+            "ticker": "BAND",
+            "name": "밴드위스",
+            "d50": -12.58,
+            "d200": 71.3,
+            "cy": -2.78,
+            "ny": -15.28,
+            "upRatio": 71.42857142857143,
+            "coverage": 14,
+            "tracking": "dropped",
+            "breakout": false,
+            "stage": "out",
+            "stageKo": "❌ 이탈",
+            "why": "두 달 평균 아래로 내려왔고 실적 기대도 없습니다"
           }
         ]
       },
@@ -399,74 +459,139 @@ window.CHIEF_DATA = {
             "stage": "hot",
             "stageKo": "🔥 과열",
             "why": "두 달 평균에서 30% 넘게 떠 있습니다"
+          },
+          {
+            "ticker": "PAYC",
+            "name": "페이컴 소프트웨어",
+            "d50": 41.91,
+            "d200": 46.41,
+            "cy": 11.11,
+            "ny": 13.17,
+            "upRatio": 59.09090909090909,
+            "coverage": 22,
+            "tracking": "active",
+            "breakout": false,
+            "stage": "hot",
+            "stageKo": "🔥 과열",
+            "why": "두 달 평균에서 30% 넘게 떠 있습니다"
           }
         ]
       },
       {
-        "key": "Technology|Information Technology Services",
-        "sector": "Technology",
-        "industry": "Information Technology Services",
-        "count": 17,
-        "winRate": 0.5294,
-        "final": 0.0773,
-        "FRANK": 72,
-        "f10": 393.9163498098859,
-        "f25": 253.9840637450199,
-        "frank25": 57,
-        "siteF10": 254.0826496638354,
-        "siteF25": 157.27785730758762,
-        "d50": 9.05,
-        "d200": -3.75,
-        "d200Prev": -10.35,
-        "d200Delta": 6.6,
-        "cy": 0.71,
-        "ny": 0.82,
-        "upRatio": 44.881889763779526,
-        "coverage": 254,
-        "stage": "early",
-        "stageKo": "⭐ 상승 초입",
-        "stageNote": "아직 많이 안 왔는데 격차가 벌어지는 중입니다",
-        "flow": "narrow",
+        "key": "Healthcare|Diagnostics & Research",
+        "sector": "Healthcare",
+        "industry": "Diagnostics & Research",
+        "count": 22,
+        "winRate": 0.8182,
+        "final": 0.254,
+        "FRANK": 16,
+        "f10": 50.74183976261127,
+        "f25": 595.8904109589041,
+        "frank25": 81,
+        "siteF10": 16.344891228438797,
+        "siteF25": 603.2179770543595,
+        "d50": 11.74,
+        "d200": 15.415,
+        "d200Prev": 7.074999999999999,
+        "d200Delta": 8.34,
+        "cy": 1.12,
+        "ny": 0.975,
+        "upRatio": 66.08478802992519,
+        "coverage": 401,
+        "stage": "mid_up",
+        "stageKo": "📈 상승 중반 (확장 중)",
+        "stageNote": "어느 정도 왔지만 아직 벌어지는 중입니다",
+        "flow": "inflow",
         "axes": {
           "inflow": true,
           "outflow": false,
           "attention": false,
-          "broad": false
+          "broad": true
         },
         "members": [
-          "CACI",
-          "IBM",
-          "ACN",
-          "BR",
-          "IT",
-          "CDW",
-          "JKHY",
-          "FORTY",
-          "LDOS",
-          "SAIC",
-          "INOD",
-          "EPAM",
-          "SHAZ",
-          "MGRT",
-          "GIB",
-          "PENG",
-          "PSN"
+          "MTD",
+          "IDXX",
+          "TMO",
+          "MEDP",
+          "WAT",
+          "LH",
+          "NTRA",
+          "DGX",
+          "CRL",
+          "DHR",
+          "IQV",
+          "ILMN",
+          "ICLR",
+          "GH",
+          "A",
+          "BLLN",
+          "RVTY",
+          "TWST",
+          "GRAL",
+          "WGS",
+          "RDNT",
+          "VCYT"
         ],
         "picks": [
           {
-            "ticker": "PENG",
-            "name": "펭귄 솔루션스",
-            "d50": -6.67,
-            "d200": 73.11,
-            "cy": 14.51,
-            "ny": 19.03,
-            "upRatio": 89.47368421052632,
-            "coverage": 19,
+            "ticker": "GH",
+            "name": "가단트 헬스",
+            "d50": 11.89,
+            "d200": 49.71,
+            "cy": 3.82,
+            "ny": -5.18,
+            "upRatio": 62.5,
+            "coverage": 16,
+            "tracking": "active",
+            "breakout": false,
+            "stage": "lead",
+            "stageKo": "✅ 선도",
+            "why": "많이 왔고 실적 기대도 받쳐줍니다"
+          },
+          {
+            "ticker": "WGS",
+            "name": "진DX 홀딩스",
+            "d50": 28.39,
+            "d200": -8,
+            "cy": -106.49,
+            "ny": -7.51,
+            "upRatio": 0,
+            "coverage": 4,
+            "tracking": "active",
+            "breakout": false,
+            "stage": "early_weak",
+            "stageKo": "⚠️ 초입이나 근거 약함",
+            "why": "아직 안 왔지만 실적 기대는 안 오릅니다"
+          },
+          {
+            "ticker": "NTRA",
+            "name": "나테라",
+            "d50": 22.47,
+            "d200": 40.71,
+            "cy": -13.11,
+            "ny": -55.55,
+            "upRatio": 66.66666666666666,
+            "coverage": 6,
             "tracking": "dropped",
             "breakout": false,
-            "stage": "dip",
-            "stageKo": "🎯 눌림 후보 (단, 추적 배제 — 재편입 대기)",
-            "why": "많이 왔다가 눌렸는데 실적 기대는 살아 있습니다. 다만 50일선을 3일 이상 연속 이탈해 추적에서 뺐습니다 — 규칙대로 재편입을 기다립니다"
+            "stage": "lead_weak",
+            "stageKo": "🔶 관성",
+            "why": "많이 왔는데 실적 기대는 멈췄습니다"
+          },
+          {
+            "ticker": "TWST",
+            "name": "트위스트 바이오사이언스",
+            "d50": 36.81,
+            "d200": 126.34,
+            "cy": -22.08,
+            "ny": -17.03,
+            "upRatio": null,
+            "coverage": 0,
+            "tracking": "active",
+            "breakout": false,
+            "stage": "hot",
+            "stageKo": "🔥 과열",
+            "why": "두 달 평균에서 30% 넘게 떠 있습니다"
           }
         ]
       }
@@ -549,7 +674,23 @@ window.CHIEF_DATA = {
           "LQDA",
           "KNSA"
         ],
-        "picks": [],
+        "picks": [
+          {
+            "ticker": "LQDA",
+            "name": "리퀴디아",
+            "d50": 1.83,
+            "d200": 66.43,
+            "cy": 0,
+            "ny": 4.24,
+            "upRatio": 100,
+            "coverage": 1,
+            "tracking": "active",
+            "breakout": false,
+            "stage": "lead_weak",
+            "stageKo": "🔶 관성",
+            "why": "많이 왔는데 실적 기대는 멈췄습니다"
+          }
+        ],
         "droppedToday": []
       },
       {
@@ -774,7 +915,23 @@ window.CHIEF_DATA = {
           "RAL",
           "CTS"
         ],
-        "picks": []
+        "picks": [
+          {
+            "ticker": "ALNT",
+            "name": "얼라이언트",
+            "d50": 23.04,
+            "d200": 64.7,
+            "cy": 8.1,
+            "ny": 7.23,
+            "upRatio": 21.052631578947366,
+            "coverage": 19,
+            "tracking": "active",
+            "breakout": false,
+            "stage": "lead",
+            "stageKo": "✅ 선도",
+            "why": "많이 왔고 실적 기대도 받쳐줍니다"
+          }
+        ]
       },
       {
         "key": "Technology|Electronics & Computer Distribution",
@@ -814,7 +971,23 @@ window.CHIEF_DATA = {
           "AVT",
           "CNXN"
         ],
-        "picks": []
+        "picks": [
+          {
+            "ticker": "NSIT",
+            "name": "인사이트 엔터프라이즈",
+            "d50": 28.22,
+            "d200": 67.39,
+            "cy": 7.1,
+            "ny": 5.45,
+            "upRatio": 100,
+            "coverage": 4,
+            "tracking": "active",
+            "breakout": false,
+            "stage": "lead",
+            "stageKo": "✅ 선도",
+            "why": "많이 왔고 실적 기대도 받쳐줍니다"
+          }
+        ]
       },
       {
         "key": "Consumer Cyclical|Recreational Vehicles",
@@ -858,7 +1031,7 @@ window.CHIEF_DATA = {
       }
     ],
     "agreement": {
-      "droppedTotal": 48,
+      "droppedTotal": 0,
       "inOutflowIndustries": 0,
       "tickers": []
     },
