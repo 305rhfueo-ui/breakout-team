@@ -33,135 +33,94 @@ h1{font-size:26px;margin:0 0 4px}
 .b-yellow{background:#2a2410;color:var(--yel);border:1px solid #5c4a1a}
 .b-gray{background:#1b2332;color:var(--dim);border:1px solid var(--bd)}
 
-/* ══ 사무실 ══
-   에이전트가 자리에서 걸어 나와 회의 테이블 앞에서 발언하고 돌아간다.
-   좌표는 % 기준이라 화면 크기가 변해도 배치가 유지된다.
+/* ══ 아이소메트릭 사무실 ══
+   무대는 고정 좌표(980×590)로 그리고 화면 폭에 맞춰 통째로 scale 한다.
+   % 로 배치하면 화면비가 바뀔 때 아이소메트릭 각도가 깨진다.
    외부 이미지·폰트는 쓰지 않는다 (file:// 과 GitHub Pages 양쪽에서 같아야 하므로). */
-.floor{position:relative;height:min(62vw,520px);min-height:410px;margin-top:20px;
-border:1px solid #26314a;border-radius:22px;overflow:hidden;isolation:isolate;
-background:linear-gradient(180deg,#111a2a 0%,#101827 44%,#0c1220 44%,#080d16 100%);
-box-shadow:0 24px 60px -30px #000,inset 0 1px 0 #ffffff0d}
+.floor{position:relative;margin-top:20px;border-radius:22px;overflow:hidden;isolation:isolate;
+border:1px solid #222c44;
+background:radial-gradient(120% 90% at 50% -10%,#17203300,#080c15 70%),
+linear-gradient(180deg,#0e1524,#070b12);
+box-shadow:0 30px 70px -34px #000,inset 0 1px 0 #ffffff0d}
+.stage{position:absolute;left:50%;top:0;width:980px;height:590px;
+transform-origin:top center;margin-left:-490px}
+.stage svg{display:block}
 
-/* 창밖 야경 */
-.win{position:absolute;top:5%;height:17%;width:13%;border-radius:4px;overflow:hidden;
-background:linear-gradient(180deg,#16304d 0%,#0d1f36 55%,#091626 100%);
-border:1px solid #2b4160;
-box-shadow:inset 0 0 26px #5aa0ff1f,0 0 26px #4a86d216;opacity:.85}
-.win::before{content:"";position:absolute;left:0;right:0;bottom:0;height:56%;
-background:repeating-linear-gradient(90deg,#0a1424 0 9px,transparent 9px 13px,#0c1828 13px 26px,transparent 26px 31px)}
-.win::after{content:"";position:absolute;inset:0;
-background-image:linear-gradient(90deg,transparent calc(50% - 1px),#2b4160 50%,transparent calc(50% + 1px));
-background:radial-gradient(1px 1px at 20% 62%,#ffd98a99,transparent),
-radial-gradient(1px 1px at 46% 70%,#9fd0ff88,transparent),
-radial-gradient(1px 1px at 68% 60%,#ffd98a77,transparent),
-radial-gradient(1px 1px at 84% 74%,#9fd0ff66,transparent)}
-
-/* 바닥 원근 그리드 */
-.grid{position:absolute;left:-20%;right:-20%;top:44%;bottom:0;opacity:.45;
-background-image:linear-gradient(#ffffff0f 1px,transparent 1px),linear-gradient(90deg,#ffffff09 1px,transparent 1px);
-background-size:100% 34px,70px 100%;
--webkit-mask-image:linear-gradient(#000,transparent 88%);mask-image:linear-gradient(#000,transparent 88%)}
-/* 천장 조명이 바닥에 만드는 빛웅덩이 */
-.pool{position:absolute;width:26%;height:16%;border-radius:50%;filter:blur(26px);
-background:#7fb4ff;opacity:.10;pointer-events:none}
-
-/* 벽 화이트보드 */
-.wboard{position:absolute;left:50%;top:5%;transform:translateX(-50%);z-index:2;
-background:linear-gradient(180deg,#182236,#111a2a);border:1px solid #32405c;border-radius:10px;
-padding:7px 18px;text-align:center;box-shadow:0 8px 22px #0009}
-.wboard b{display:block;font-size:12.5px;letter-spacing:.02em}
-.wboard span{font-size:10.5px;color:var(--dim)}
-
-/* 화분 — 빈 바닥을 채우는 소품 */
-.plant{position:absolute;width:26px;height:34px;z-index:2;
-background:radial-gradient(ellipse at 50% 22%,#2f6b4a 0 42%,transparent 43%),
-radial-gradient(ellipse at 26% 40%,#276046 0 34%,transparent 35%),
-radial-gradient(ellipse at 74% 40%,#276046 0 34%,transparent 35%),
-linear-gradient(180deg,transparent 0 58%,#3b3026 58% 100%);
-filter:drop-shadow(0 6px 8px #0009)}
-
-/* 회의 테이블 */
-.table{position:absolute;left:50%;top:57%;transform:translate(-50%,-50%);
-width:44%;height:11%;border-radius:50%;
-background:radial-gradient(ellipse at 50% 34%,#273350 0%,#1b2438 72%,#141c2c 100%);
-border:1px solid #36425e;box-shadow:0 14px 30px -12px #000,inset 0 2px 0 #ffffff10}
-
-/* 책상 (에이전트와 분리 — 걸어 나가도 책상은 제자리) */
-.station{position:absolute;transform:translate(-50%,-50%);width:104px;pointer-events:none;z-index:3}
-.desk{height:34px;border-radius:9px 9px 5px 5px;position:relative;
-background:linear-gradient(180deg,#2b3752,#1b2436);border:1px solid #3a4767;
-display:flex;align-items:center;justify-content:center;gap:4px;
-box-shadow:0 8px 16px -8px #000,inset 0 1px 0 #ffffff12}
-.station.big{width:190px}.station.big .desk{height:40px}
-.mon{width:30px;height:21px;border-radius:3px;background:#08101d;border:1px solid #3f4f6e;position:relative;overflow:hidden}
-.mon::after{content:"";position:absolute;inset:2px;border-radius:2px;
-background:linear-gradient(120deg,#0d2033 0%,#1b5c92 42%,#0d2033 82%);animation:scan 2.8s linear infinite}
-@keyframes scan{0%{transform:translateX(-65%)}100%{transform:translateX(65%)}}
-.mon.red::after{background:linear-gradient(120deg,#2a1116,#8f2030 42%,#2a1116 82%)}
-.mon.green::after{background:linear-gradient(120deg,#0f2a17,#1f8f47 42%,#0f2a17 82%)}
-.chairback{position:absolute;left:50%;top:-16px;transform:translateX(-50%);
-width:34px;height:16px;border-radius:8px 8px 0 0;background:#222c42;border:1px solid #384563;z-index:-1}
 
 /* 에이전트 */
 .actor{position:absolute;transform:translate(-50%,-100%) scale(var(--s,1));transform-origin:bottom center;
-cursor:pointer;z-index:var(--z,5);
+cursor:pointer;z-index:var(--z,200);
 transition:left 1.45s cubic-bezier(.5,.02,.28,1),top 1.45s cubic-bezier(.5,.02,.28,1),
-           transform .45s cubic-bezier(.34,1.4,.5,1)}
-.actor:hover{transform:translate(-50%,-100%) scale(calc(var(--s,1) * 1.07))}
-.actor .mini{display:block;margin:0 auto;filter:drop-shadow(0 8px 10px #000a);
-animation:breathe 3.8s ease-in-out infinite}
-.actor.walk .mini{animation:step .44s ease-in-out infinite}
-.actor.talking{z-index:40}
-.actor.talking .mini{animation:breathe 2.2s ease-in-out infinite;filter:drop-shadow(0 0 14px #58a6ff55) drop-shadow(0 8px 10px #000a)}
-@keyframes breathe{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
-@keyframes step{0%,100%{transform:translateY(0) rotate(-1.6deg)}50%{transform:translateY(-6px) rotate(1.6deg)}}
-.shadow{position:absolute;left:50%;bottom:-5px;transform:translateX(-50%);
-width:44px;height:9px;border-radius:50%;background:#000;opacity:.42;filter:blur(4px);z-index:-1}
+           transform .4s cubic-bezier(.34,1.4,.5,1)}
+.actor:hover{transform:translate(-50%,-100%) scale(calc(var(--s,1) * 1.06))}
+.actor .mini{display:block;margin:0 auto;filter:drop-shadow(0 10px 12px #0009);
+animation:breathe 4s ease-in-out infinite}
+.actor.talking{z-index:400}
+.actor.talking .mini{filter:drop-shadow(0 0 16px #7cc0ff66) drop-shadow(0 10px 12px #0009)}
+@keyframes breathe{0%,100%{transform:translateY(0)}50%{transform:translateY(-2.5px)}}
 
-/* 이름표 */
-.tag{position:absolute;top:100%;left:50%;transform:translateX(-50%);margin-top:3px;
+/* 걷기 — 팔다리를 번갈아 흔든다 */
+.mini .lgA,.mini .lgB,.mini .arA,.mini .arB{transform-box:fill-box;transform-origin:50% 6%}
+.actor.walk .mini{animation:bobwalk .46s ease-in-out infinite}
+.actor.walk .lgA{animation:swA .46s ease-in-out infinite}
+.actor.walk .lgB{animation:swB .46s ease-in-out infinite}
+.actor.walk .arA{animation:swB .46s ease-in-out infinite}
+.actor.walk .arB{animation:swA .46s ease-in-out infinite}
+@keyframes bobwalk{0%,100%{transform:translateY(0)}50%{transform:translateY(-3.5px)}}
+@keyframes swA{0%,100%{transform:rotate(15deg)}50%{transform:rotate(-15deg)}}
+@keyframes swB{0%,100%{transform:rotate(-15deg)}50%{transform:rotate(15deg)}}
+.mini .gl{fill:#ffffff1f;stroke:#8fa3c2;stroke-width:1.1}
+.mini .gl path{stroke:#8fa3c2;fill:none}
+
+.shadow{position:absolute;left:50%;bottom:-4px;transform:translateX(-50%);
+width:46px;height:12px;border-radius:50%;background:#000;opacity:.5;filter:blur(5px);z-index:-1}
+
+/* 이름표 — 흐름에서 빼 발밑에 매단다 (안 그러면 캐릭터가 그만큼 떠오른다) */
+.tag{position:absolute;top:100%;left:50%;transform:translateX(-50%);margin-top:4px;
 text-align:center;white-space:nowrap;pointer-events:none}
-.tag b{display:block;font-size:12.5px;font-weight:700;text-shadow:0 2px 6px #000}
-.tag i{font-style:normal;font-size:9.5px;color:#93a1b8}
+.tag b{display:inline-block;font-size:10.5px;font-weight:700;color:#e8eef8;
+background:#0a101ec2;border:1px solid #ffffff14;border-radius:99px;padding:1.5px 8px;
+backdrop-filter:blur(4px);text-shadow:0 1px 3px #000}
+.tag i{display:block;font-style:normal;font-size:8.5px;color:#8fa3c0;margin-top:2px;
+text-shadow:0 1px 5px #000;opacity:0;transition:.2s}
+.actor:hover .tag i,.actor.talking .tag i{opacity:1}
 .dot{display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--grn);
 margin-right:4px;vertical-align:middle;animation:pulse 1.7s infinite}
 .dot.off{background:#5b6678;animation:none}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
 
-/* 말풍선 — 머리 '옆'으로 나온다.
-   ⚠️ 위로 자라게 하면 앞줄 발언자의 말풍선이 뒷줄 동료 얼굴을 덮는다 (실측 확인).
-      말이 길어질수록 더 덮으므로 세로가 아니라 가로로 뺀다. */
-.say{position:absolute;top:0;width:max-content;max-width:min(230px,32vw);
-background:linear-gradient(180deg,#fbfdff,#e9f0fa);color:#131c2b;
-border-radius:14px;padding:9px 13px;font-size:11.5px;line-height:1.55;text-align:left;
-box-shadow:0 16px 34px -10px #000d,0 0 0 1px #ffffff20;
+/* 말풍선 — 머리 '옆'으로. 위로 자라면 뒷줄 얼굴을 덮는다(실측) */
+.say{position:absolute;top:-4px;width:max-content;max-width:250px;
+background:linear-gradient(180deg,#fdfefe,#eaf0f8);color:#131c2b;
+border-radius:15px;padding:10px 14px;font-size:12px;line-height:1.55;text-align:left;
+box-shadow:0 20px 40px -12px #000e,0 0 0 1px #ffffff26;
 opacity:0;pointer-events:none;transition:.34s cubic-bezier(.34,1.3,.5,1)}
-.say::after{content:"";position:absolute;top:20px;border:7px solid transparent}
-.say.r{left:calc(100% + 13px);transform-origin:left center;transform:translateX(-8px) scale(.94)}
-.say.l{right:calc(100% + 13px);transform-origin:right center;transform:translateX(8px) scale(.94)}
-.say.r::after{left:-7px;border-right-color:#f4f8fd;border-left:0}
-.say.l::after{right:-7px;border-left-color:#f4f8fd;border-right:0}
+.say::after{content:"";position:absolute;top:22px;border:8px solid transparent}
+.say.r{left:calc(100% + 14px);transform-origin:left center;transform:translateX(-10px) scale(.94)}
+.say.l{right:calc(100% + 14px);transform-origin:right center;transform:translateX(10px) scale(.94)}
+.say.r::after{left:-8px;border-right-color:#f2f6fb;border-left:0}
+.say.l::after{right:-8px;border-left-color:#f2f6fb;border-right:0}
 .say.on{opacity:1;transform:translateX(0) scale(1)}
 .say b{color:#0b57d0}
-.say .who{display:block;font-size:9.5px;font-weight:800;letter-spacing:.04em;color:#5a6a86;margin-bottom:2px}
+.say .who{display:block;font-size:9.5px;font-weight:800;letter-spacing:.05em;color:#5a6a86;margin-bottom:3px}
 
-/* 하단 컨트롤 */
-.talkbar{position:absolute;left:12px;bottom:12px;z-index:30;
+/* 컨트롤 */
+.talkbar{position:absolute;left:14px;bottom:14px;z-index:500;
 display:flex;align-items:center;gap:10px;font-size:11.5px;color:var(--dim);
-background:#0b1220cc;backdrop-filter:blur(8px);border:1px solid #26314a;border-radius:99px;padding:5px 8px 5px 14px}
-.tbtn{background:#1c2740;border:1px solid #354463;color:var(--tx);border-radius:99px;
+background:#0a0f1ad9;backdrop-filter:blur(10px);border:1px solid #26314a;border-radius:99px;padding:5px 12px 5px 6px}
+.tbtn{background:#1b2540;border:1px solid #33436a;color:var(--tx);border-radius:99px;
 padding:5px 14px;cursor:pointer;font-size:11.5px;transition:.16s}
 .tbtn:hover{border-color:var(--blu);background:#233152}
 
-/* KPI 카드 — 바닥에서 빼내 아래 줄로 (사무실이 표처럼 보이지 않게) */
+/* KPI 카드 */
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:9px;margin-top:14px}
 .stat{position:relative;overflow:hidden;cursor:pointer;border-radius:15px;padding:13px 15px;
-background:linear-gradient(180deg,#161f30,#111927);border:1px solid #253048;transition:.18s}
-.stat:hover{transform:translateY(-3px);border-color:#3d5580;box-shadow:0 14px 26px -14px #000}
-.stat::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--ac,#58a6ff);opacity:.85}
+background:linear-gradient(180deg,#141d2e,#0f1725);border:1px solid #222d45;transition:.18s}
+.stat:hover{transform:translateY(-3px);border-color:#3d5580;box-shadow:0 16px 28px -16px #000}
+.stat::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--ac,#58a6ff);opacity:.9}
 .stat .sh{display:flex;align-items:center;gap:7px;margin-bottom:8px}
 .stat .sh b{font-size:12.5px}
-.stat .job{font-size:9.5px;color:#8ea0ba;background:#1d2740;border:1px solid #2c3a56;
+.stat .job{font-size:9.5px;color:#8ea0ba;background:#1a2338;border:1px solid #2a3654;
 border-radius:99px;padding:1px 8px;margin-left:auto}
 .stat .num{font-size:23px;font-weight:800;color:#fff;line-height:1.1}
 .stat .lab{font-size:9.5px;color:var(--dim);margin-top:1px}
@@ -171,14 +130,13 @@ border-radius:99px;padding:1px 8px;margin-left:auto}
 .mhead .avatar .mini{animation:none;margin:0;filter:none}
 
 @media (max-width:640px){
-  .floor{height:430px}
-  .station{width:74px}.station.big{width:120px}
   .tag i{display:none}
+  .say{max-width:190px;font-size:11px}
 }
-/* 움직임을 줄여달라는 설정이면 걷기·호흡을 끈다 (접근성) */
 @media (prefers-reduced-motion:reduce){
   .actor{transition:none}
-  .actor .mini,.actor.walk .mini,.mon::after,.dot{animation:none}
+  .actor .mini,.actor.walk .mini,.actor.walk .lgA,.actor.walk .lgB,
+  .actor.walk .arA,.actor.walk .arB,.dot{animation:none}
   .say{transition:opacity .2s}
 }
 .actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:26px}
@@ -272,20 +230,10 @@ background:#0c121d;color:var(--dim);font-size:12px;line-height:1.6;font-style:it
 <div class="board" id="board"></div>
 
 <div class="floor" id="floor">
-  <div class="win" style="left:5%"></div>
-  <div class="win" style="left:26%"></div>
-  <div class="win" style="right:26%"></div>
-  <div class="win" style="right:5%"></div>
-  <div class="grid"></div>
-  <div class="pool" style="left:8%;top:52%"></div>
-  <div class="pool" style="left:38%;top:62%"></div>
-  <div class="pool" style="right:8%;top:52%"></div>
-  <div class="plant" style="left:3%;bottom:30%"></div>
-  <div class="plant" style="right:3.5%;bottom:16%"></div>
-  <div class="wboard" id="wboard"></div>
-  <div class="table"></div>
-  <div id="stations"></div>
-  <div id="actors"></div>
+  <div class="stage" id="stage">
+    <div id="room"></div>
+    <div id="actors"></div>
+  </div>
   <div class="talkbar">
     <button class="tbtn" id="replay">🔁 회의 다시 보기</button>
     <span id="turn"></span>
@@ -340,45 +288,86 @@ const AGENTS=[
    look:{skin:'#eec7a4',hair:'#2b2320',style:'part', shirt:'#3a4560',tie:'#c0392b',glasses:true}},
 ];
 
-/* ── 미니미 SVG ──
-   외부 이미지·폰트 없이 그린다 (file:// 과 GitHub Pages 양쪽에서 동일하게 보이려면
-   이미지 파일을 쓰면 안 된다). viewBox 64×78 상반신, 책상 위로 올라앉는 구도. */
-function mini(a,w){
-  const L=a.look||{},skin=L.skin||'#f0cdae',hair=L.hair||'#2b2320',shirt=L.shirt||'#5b8def';
-  const dark=(c,f)=>{ // 목 그림자·옷 접힘용 어두운 톤
-    const m=/^#(..)(..)(..)$/.exec(c); if(!m)return c;
-    return '#'+[1,2,3].map(i=>Math.round(parseInt(m[i],16)*(f||0.82)).toString(16).padStart(2,'0')).join('');
-  };
+/* ── 색 보조 ── */
+function shade(c,f){
+  const m=/^#(..)(..)(..)$/.exec(c); if(!m)return c;
+  const v=i=>{const x=Math.round(parseInt(m[i],16)*f);return Math.max(0,Math.min(255,x)).toString(16).padStart(2,'0');};
+  return '#'+v(1)+v(2)+v(3);
+}
+function tint(c,f){  // 흰색 쪽으로 f 만큼
+  const m=/^#(..)(..)(..)$/.exec(c); if(!m)return c;
+  const v=i=>{const x=parseInt(m[i],16);return Math.round(x+(255-x)*f).toString(16).padStart(2,'0');};
+  return '#'+v(1)+v(2)+v(3);
+}
+
+/* ── 캐릭터 SVG ──
+   외부 이미지·폰트 없이 그린다 (file:// 과 GitHub Pages 양쪽에서 같아야 하므로).
+   viewBox 60×100 전신. 아이소메트릭 방 안에 서므로 다리가 있어야 걷는 게 읽힌다.
+   그라데이션 id 는 담당자 id 로 유일하게 만든다 — 같은 id 가 겹치면 색이 서로 먹는다. */
+function mini(a,h){
+  const L=a.look||{},u=a.id;
+  const skin=L.skin||'#f0cdae',hair=L.hair||'#2b2320',shirt=L.shirt||'#5b8def';
+  const pants=L.pants||'#2a3348';
+  const hi=tint(hair,.22),sd=shade(shirt,.72),pd=shade(pants,.74);
+
+  // 머리 모양 — 머리통(cx30 cy22 rx12.5 ry13.5) 위에 얹는다
   const H={
-    short:`<path d="M17 30q0-15 15-15t15 15q-2-8-15-7T17 30z" fill="${hair}"/>`,
-    long :`<path d="M15 28q0-16 17-16t17 16v20q0 4-4 4t-3-5V30q-10 3-20 0v17q1 5-3 5t-4-4z" fill="${hair}"/>`,
-    bun  :`<circle cx="32" cy="8" r="6.5" fill="${hair}"/>
-           <path d="M17 30q0-15 15-15t15 15q-3-9-15-8t-15 8z" fill="${hair}"/>`,
-    spiky:`<path d="M17 30q0-15 15-15t15 15q-3-9-15-8t-15 8z" fill="${hair}"/>
-           <path d="M21 18l2.5-7 3 5.5 4-8 4 8 3-5.5 2.5 7z" fill="${hair}"/>`,
-    bob  :`<path d="M15 28q0-16 17-16t17 16v10q0 4-4 4V29q-10 3-26 0v13q-4 0-4-4z" fill="${hair}"/>`,
-    part :`<path d="M17 30q0-15 15-15t15 15q-1-7-9-8-8 4-15 1-5 2-6 7z" fill="${hair}"/>`,
+    short:`<path d="M17.7 21.5q0-12.8 12.3-12.8T42.3 21.5q-1.5-7.4-12.3-6.6t-12.3 6.6z"/>`,
+    long :`<path d="M17.5 21q0-12.8 12.5-12.8T42.5 21v22q0 4-3.4 4t-2.6-4.6V22.5q-8 2.6-16.4 0v19.9Q20.4 47 17 47t-3.4-4z"/>`,
+    bun  :`<circle cx="30" cy="4.6" r="5.4"/><path d="M17.7 21.5q0-12.8 12.3-12.8T42.3 21.5q-2.4-7.8-12.3-7t-12.3 7z"/>`,
+    spiky:`<path d="M17.7 21.5q0-12.8 12.3-12.8T42.3 21.5q-2.4-7.8-12.3-7t-12.3 7z"/>
+           <path d="M21.4 11.6l1.9-6.2 2.6 4.7 3.2-6.9 3.4 6.9 2.5-4.7 2 6.2z"/>`,
+    bob  :`<path d="M17.5 21q0-12.8 12.5-12.8T42.5 21v9.4q0 3.6-3.3 3.6V22.4q-8.2 2.6-18.4 0V34q-3.3 0-3.3-3.6z"/>`,
+    part :`<path d="M17.7 21.5q0-12.8 12.3-12.8T42.3 21.5q-.9-6.2-7.7-7-6.9 3.6-12.7 1-4.4 1.6-4.2 6z"/>`,
   };
-  // 안경은 얇고 밝게 — 굵으면 선글라스처럼 보여 눈이 사라진다
-  const g=L.glasses?`<g fill="rgba(255,255,255,.18)" stroke="#6b7c96" stroke-width="1.1">
-      <circle cx="26" cy="29.5" r="4.6"/><circle cx="38" cy="29.5" r="4.6"/></g>
-      <path d="M30.6 29.5h2.8M21.4 28.6l-3.4-.8M42.6 28.6l3.4-.8" stroke="#6b7c96" stroke-width="1.1" fill="none"/>`:'';
-  const tie=L.tie?`<path d="M32 52l-3 4 3 12 3-12z" fill="${L.tie}"/><path d="M32 48l-3.5 4h7z" fill="${dark(L.tie,0.8)}"/>`:'';
-  return `<svg class="mini" viewBox="0 0 64 78" width="${w||58}" role="img" aria-label="${esc(a.name)}">
-    <!-- 몸통 -->
-    <path d="M32 46c-12 0-20 8-20 18v14h40V64c0-10-8-18-20-18z" fill="${shirt}"/>
-    <path d="M32 46c-4 0-7 .6-10 1.8L32 60l10-12.2C39 46.6 36 46 32 46z" fill="${dark(shirt,0.86)}"/>
-    ${tie}
-    <!-- 목 -->
-    <path d="M27 40h10v8q0 4-5 4t-5-4z" fill="${dark(skin,0.88)}"/>
-    <!-- 귀 · 머리 -->
-    <circle cx="17.5" cy="30" r="3.2" fill="${skin}"/><circle cx="46.5" cy="30" r="3.2" fill="${skin}"/>
-    <ellipse cx="32" cy="28" rx="15" ry="16" fill="${skin}"/>
-    ${H[L.style]||H.short}
-    <!-- 눈 · 입 -->
-    <circle cx="26" cy="29.5" r="1.9" fill="#22303f"/><circle cx="38" cy="29.5" r="1.9" fill="#22303f"/>
-    <path d="M28.5 36q3.5 3 7 0" stroke="#22303f" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-    ${g}
+  const glass=L.glasses?`<g class="gl"><circle cx="24.6" cy="23.4" r="4.5"/><circle cx="35.4" cy="23.4" r="4.5"/>
+    <path d="M29.1 23.4h1.8M20.1 22.6l-2.9-.7M39.9 22.6l2.9-.7"/></g>`:'';
+  const tie=L.tie?`<path d="M30 42.5l-2.4 3.2 2.4 11 2.4-11z" fill="${L.tie}"/>
+    <path d="M30 39.6l-2.9 3.1h5.8z" fill="${shade(L.tie,.78)}"/>`:'';
+
+  return `<svg class="mini" viewBox="0 0 60 100" height="${h||84}" role="img" aria-label="${esc(a.name)}">
+  <defs>
+    <linearGradient id="sk${u}" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="${tint(skin,.16)}"/><stop offset="1" stop-color="${shade(skin,.9)}"/></linearGradient>
+    <linearGradient id="sh${u}" x1=".15" y1="0" x2=".85" y2="1">
+      <stop offset="0" stop-color="${tint(shirt,.18)}"/><stop offset="1" stop-color="${shade(shirt,.78)}"/></linearGradient>
+    <linearGradient id="hr${u}" x1=".2" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="${hi}"/><stop offset=".55" stop-color="${hair}"/></linearGradient>
+    <linearGradient id="pt${u}" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="${pants}"/><stop offset="1" stop-color="${pd}"/></linearGradient>
+  </defs>
+
+  <!-- 다리 (걸을 때 번갈아 흔들린다) -->
+  <g class="lgB"><rect x="30.4" y="66" width="8.2" height="26" rx="4.1" fill="${pd}"/>
+    <path d="M30.4 88h8.2v3.4q0 2.6-2.8 2.6h-3.4q-2 0-2-2.4z" fill="#1b2233"/></g>
+  <g class="lgA"><rect x="21.4" y="66" width="8.2" height="26" rx="4.1" fill="url(#pt${u})"/>
+    <path d="M21.4 88h8.2v3.4q0 2.6-2.8 2.6h-3.4q-2 0-2-2.4z" fill="#232c40"/></g>
+
+  <!-- 몸통 -->
+  <path d="M30 38.5c-8.6 0-14.2 4.6-15.4 12L13 68.6h34l-1.6-18.1c-1.2-7.4-6.8-12-15.4-12z" fill="url(#sh${u})"/>
+  <path d="M30 38.5c-3 0-5.6.5-7.7 1.5L30 50l7.7-10c-2.1-1-4.7-1.5-7.7-1.5z" fill="${sd}"/>
+  ${tie}
+  <!-- 팔 -->
+  <g class="arA"><rect x="10.4" y="42" width="7.6" height="25" rx="3.8" fill="${sd}"/>
+    <circle cx="14.2" cy="67.5" r="3.9" fill="url(#sk${u})"/></g>
+  <g class="arB"><rect x="42" y="42" width="7.6" height="25" rx="3.8" fill="${shade(shirt,.86)}"/>
+    <circle cx="45.8" cy="67.5" r="3.9" fill="url(#sk${u})"/></g>
+
+  <!-- 목 · 머리 -->
+  <path d="M25.6 32h8.8v7.6q0 3.6-4.4 3.6t-4.4-3.6z" fill="${shade(skin,.84)}"/>
+  <ellipse cx="16.9" cy="23" rx="2.9" ry="3.4" fill="${shade(skin,.94)}"/>
+  <ellipse cx="43.1" cy="23" rx="2.9" ry="3.4" fill="${shade(skin,.94)}"/>
+  <ellipse cx="30" cy="22" rx="12.5" ry="13.5" fill="url(#sk${u})"/>
+  <ellipse cx="24.4" cy="27.6" rx="3" ry="2" fill="${shade(skin,.93)}" opacity=".55"/>
+  <ellipse cx="35.6" cy="27.6" rx="3" ry="2" fill="${shade(skin,.93)}" opacity=".55"/>
+  <g fill="url(#hr${u})">${H[L.style]||H.short}</g>
+  <!-- 눈 · 입 -->
+  <ellipse cx="24.6" cy="23.4" rx="1.75" ry="2" fill="#202b3a"/>
+  <ellipse cx="35.4" cy="23.4" rx="1.75" ry="2" fill="#202b3a"/>
+  <circle cx="25.2" cy="22.7" r=".55" fill="#fff" opacity=".9"/>
+  <circle cx="36" cy="22.7" r=".55" fill="#fff" opacity=".9"/>
+  <path d="M27.2 29.6q2.8 2.4 5.6 0" stroke="#202b3a" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+  ${glass}
   </svg>`;
 }
 
@@ -494,19 +483,30 @@ function dialog(){
    HOME  = 평소 자리(책상)
    STAGE = 발언하러 나오는 자리 — 자기 책상에서 회의 테이블 쪽으로 비스듬히 걸어 나온다.
    깊이감: 아래쪽(y 큼)일수록 크게 그리고 앞에 겹치게 한다. */
-const HOME ={t1:[10,33],t2:[30,33],t3:[50,33],t4:[70,33],t5:[90,33],chief:[50,83]};
-const STAGE={t1:[24,62],t2:[37,66],t3:[50,68],t4:[63,66],t5:[76,62],chief:[50,78]};
-const DESK_BACK=7;                            // 책상은 사람보다 이만큼 뒤(위)에 둔다 — 앉은 것처럼 보이게
-const depth=y=>0.80+(y/100)*0.42;            // y 34 → .94 · y 66 → 1.08 · y 84 → 1.15
+/* ══ 아이소메트릭 무대 ══
+   내부 좌표는 고정(STAGE_W×STAGE_H)이고, 화면 폭에 맞춰 통째로 scale 한다.
+   그래야 원근이 어긋나지 않는다 (% 배치는 화면비가 바뀌면 아이소 각도가 깨진다).
+   격자(gx,gy) → 화면(x,y) 변환은 2:1 아이소메트릭. */
+const STAGE_W=700,STAGE_H=500;
+const TW=76,TH=38;                 // 타일 폭·높이 (2:1)
+const ORG={x:278,y:152};           // 격자 원점 — 방이 무대에 꽉 차도록 잡았다
+const iso=(gx,gy)=>[ORG.x+(gx-gy)*TW/2, ORG.y+(gx+gy)*TH/2];
+
+/* 자리 (격자 좌표) */
+const DESK={t1:[0.5,0.4],t2:[2.4,0.4],t3:[4.3,0.4],t4:[6.2,0.4],t5:[8.1,0.4]};
+const HOME ={t1:[1.2,1.5],t2:[3.1,1.5],t3:[5.0,1.5],t4:[6.9,1.5],t5:[8.8,1.5],chief:[5.1,5.6]};
+const STAGE={t1:[2.2,3.0],t2:[3.1,5.0],t3:[5.1,1.5],t4:[7.1,5.0],t5:[8.0,3.0],chief:[5.1,6.1]};
+const TABLE=[5.1,3.6];
 const reduce=()=>window.matchMedia('(prefers-reduced-motion:reduce)').matches;
 
-function place(id,pos,walking){
+function place(id,g,walking){
   const el=$('ac-'+id); if(!el)return;
-  const [x,y]=pos;
-  const moving=walking&&!reduce()&&(el.style.left!==x+'%'||el.style.top!==y+'%');
-  el.style.left=x+'%'; el.style.top=y+'%';
-  el.style.setProperty('--s',depth(y).toFixed(3));
-  el.style.setProperty('--z',Math.round(y*10));
+  const [gx,gy]=g,[x,y]=iso(gx,gy);
+  const moving=walking&&!reduce()&&(el.style.left!==x+'px'||el.style.top!==y+'px');
+  el.style.left=x+'px'; el.style.top=y+'px';
+  // 뒤쪽(격자 합이 작은 쪽)일수록 작게 + 뒤에 깔린다
+  el.style.setProperty('--s',(0.84+(gx+gy)*0.028).toFixed(3));
+  el.style.setProperty('--z',String(200+Math.round((gx+gy)*10)));
   if(moving){
     el.classList.add('walk');
     clearTimeout(el._wt);
@@ -514,35 +514,115 @@ function place(id,pos,walking){
   }
 }
 
-function office(){
-  const q=(D.t1&&D.t1.qqq)||{};
-  const monCls=q.verdict==='red'?'red':q.verdict==='green'?'green':'';
+/* 아이소메트릭 상자 하나 (윗면 + 왼쪽면 + 오른쪽면) */
+function isoBox(gx,gy,w,d,hgt,top,left,right){
+  const P=(a,b,dy)=>{const[x,y]=iso(a,b);return `${x},${y-dy}`;};
+  return `<polygon points="${P(gx,gy,hgt)} ${P(gx+w,gy,hgt)} ${P(gx+w,gy+d,hgt)} ${P(gx,gy+d,hgt)}" fill="${top}"/>
+  <polygon points="${P(gx,gy+d,hgt)} ${P(gx+w,gy+d,hgt)} ${P(gx+w,gy+d,0)} ${P(gx,gy+d,0)}" fill="${left}"/>
+  <polygon points="${P(gx+w,gy,hgt)} ${P(gx+w,gy+d,hgt)} ${P(gx+w,gy+d,0)} ${P(gx+w,gy,0)}" fill="${right}"/>`;
+}
 
-  // 책상은 에이전트와 분리한다 — 걸어 나가도 책상은 제자리에 남아야 사무실처럼 보인다.
-  $('stations').innerHTML=AGENTS.map(a=>{
-    const [x,y0]=HOME[a.id],y=y0-DESK_BACK;
-    const big=a.wide?' big':'';
-    const mons=a.wide?3:(a.id==='t1'?2:1);
-    return `<div class="station${big}" style="left:${x}%;top:${y}%;transform:translate(-50%,-50%) scale(${depth(y0).toFixed(3)})">
-      <div class="desk"><div class="chairback"></div>
-        ${Array.from({length:mons},(_,i)=>`<div class="mon ${i===0?monCls:''}"></div>`).join('')}
-      </div></div>`;
-  }).join('');
+/* 방 — 바닥·벽·창문·책상·회의테이블·러그·화분을 통째로 그린다 */
+function roomSVG(){
+  const GX=10.4,GY=6.8,WH=132;                // 격자 크기 · 벽 높이(px)
+  const p=(a,b,dy)=>{const[x,y]=iso(a,b);return `${x},${(y-(dy||0))}`;};
+  const wallWin=(gx,gy,along,n)=>{            // 벽에 붙는 창 n개
+    let s='';
+    for(let i=0;i<n;i++){
+      const a=gx+(along?i*1.55+.5:0),b=gy+(along?0:i*1.55+.5);
+      const a2=along?a+1.1:a,b2=along?b:b+1.1;
+      s+=`<polygon points="${p(a,b,WH-22)} ${p(a2,b2,WH-22)} ${p(a2,b2,32)} ${p(a,b,32)}"
+        fill="url(#winG)" stroke="#3b4a6b" stroke-width="1.2"/>`;
+    }
+    return s;
+  };
+  const desks=Object.entries(DESK).map(([id,[gx,gy]])=>
+    isoBox(gx,gy,1.15,.72,26,'#39445f','#232c40','#2c3650')+
+    // 모니터
+    `<g>${isoBox(gx+.32,gy+.18,.5,.06,30,'#131c2c','#0d1522','#101827')}</g>`
+  ).join('');
+
+  return `<svg viewBox="0 0 ${STAGE_W} ${STAGE_H}" width="${STAGE_W}" height="${STAGE_H}">
+  <defs>
+    <linearGradient id="flG" x1=".2" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#1b2438"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <linearGradient id="wlL" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d2740"/><stop offset="1" stop-color="#151d31"/></linearGradient>
+    <linearGradient id="wlR" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#232e4a"/><stop offset="1" stop-color="#182136"/></linearGradient>
+    <linearGradient id="winG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2d5b8c"/><stop offset=".55" stop-color="#16304f"/><stop offset="1" stop-color="#0e2035"/></linearGradient>
+    <radialGradient id="lamp"><stop offset="0" stop-color="#ffc06a" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#ffc06a" stop-opacity="0"/></radialGradient>
+    <radialGradient id="cool"><stop offset="0" stop-color="#8fc4ff" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#8fc4ff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="tbl"><stop offset="0" stop-color="#33405e"/><stop offset="1" stop-color="#202a41"/></radialGradient>
+  </defs>
+
+  <!-- 왼쪽 벽 -->
+  <polygon points="${p(0,0,WH)} ${p(0,GY,WH)} ${p(0,GY)} ${p(0,0)}" fill="url(#wlL)"/>
+  ${wallWin(0,0,false,4)}
+  <!-- 오른쪽 벽 -->
+  <polygon points="${p(0,0,WH)} ${p(GX,0,WH)} ${p(GX,0)} ${p(0,0)}" fill="url(#wlR)"/>
+  ${wallWin(0,0,true,6)}
+  <!-- 바닥 -->
+  <polygon points="${p(0,0)} ${p(GX,0)} ${p(GX,GY)} ${p(0,GY)}" fill="url(#flG)"/>
+  <g stroke="#ffffff0a" stroke-width="1">
+    ${Array.from({length:Math.floor(GX)+1},(_,i)=>`<line x1="${iso(i,0)[0]}" y1="${iso(i,0)[1]}" x2="${iso(i,GY)[0]}" y2="${iso(i,GY)[1]}"/>`).join('')}
+    ${Array.from({length:Math.floor(GY)+1},(_,i)=>`<line x1="${iso(0,i)[0]}" y1="${iso(0,i)[1]}" x2="${iso(GX,i)[0]}" y2="${iso(GX,i)[1]}"/>`).join('')}
+  </g>
+  <!-- 조명 웅덩이 -->
+  <ellipse cx="${iso(2,2)[0]}" cy="${iso(2,2)[1]}" rx="170" ry="86" fill="url(#cool)"/>
+  <ellipse cx="${iso(6.5,2)[0]}" cy="${iso(6.5,2)[1]}" rx="170" ry="86" fill="url(#cool)"/>
+  <ellipse cx="${iso(TABLE[0],TABLE[1])[0]}" cy="${iso(TABLE[0],TABLE[1])[1]}" rx="200" ry="100" fill="url(#lamp)"/>
+  <!-- 러그 -->
+  <polygon points="${p(3.1,2.0)} ${p(7.1,2.0)} ${p(7.1,5.4)} ${p(3.1,5.4)}" fill="#1a2338" opacity=".9"/>
+  <polygon points="${p(3.3,2.2)} ${p(6.9,2.2)} ${p(6.9,5.2)} ${p(3.3,5.2)}" fill="none" stroke="#2d3a58" stroke-width="1.5"/>
+  <!-- 회의 테이블 -->
+  <ellipse cx="${iso(TABLE[0],TABLE[1])[0]}" cy="${iso(TABLE[0],TABLE[1])[1]-20}" rx="126" ry="63" fill="url(#tbl)" stroke="#3d4a6a" stroke-width="1.5"/>
+  <ellipse cx="${iso(TABLE[0],TABLE[1])[0]}" cy="${iso(TABLE[0],TABLE[1])[1]-16}" rx="126" ry="63" fill="#0b101c" opacity=".55"/>
+  <ellipse cx="${iso(TABLE[0],TABLE[1])[0]}" cy="${iso(TABLE[0],TABLE[1])[1]-20}" rx="126" ry="63" fill="url(#tbl)"/>
+  <ellipse cx="${iso(TABLE[0],TABLE[1])[0]}" cy="${iso(TABLE[0],TABLE[1])[1]-24}" rx="96" ry="46" fill="#ffffff06"/>
+  <!-- 책상 -->
+  ${desks}
+  <!-- 실장 책상 -->
+  ${isoBox(4.5,5.1,1.5,.8,28,'#3b4763','#242e44','#2e3854')}
+  <!-- 화분 -->
+  ${[[0.25,6.1],[9.9,6.1]].map(([gx,gy])=>{const[x,y]=iso(gx,gy);return `
+    <ellipse cx="${x}" cy="${y}" rx="15" ry="7" fill="#0a0f1a" opacity=".6"/>
+    <path d="M${x-9} ${y-2}h18l-3 16h-12z" fill="#3a2f26"/>
+    <circle cx="${x-6}" cy="${y-14}" r="9" fill="#2f6b4a"/><circle cx="${x+6}" cy="${y-13}" r="8" fill="#28603f"/>
+    <circle cx="${x}" cy="${y-22}" r="9.5" fill="#347a53"/>`;}).join('')}
+  </svg>`;
+}
+
+function fitStage(){
+  const wrap=$('floor'); if(!wrap)return;
+  // 폭과 높이 둘 다 본다 — 폭만 맞추면 세로가 화면을 넘어간다
+  const maxH=Math.min(600,Math.max(380,innerHeight*0.62));
+  const k=Math.min(1.5,wrap.clientWidth/STAGE_W,maxH/STAGE_H);
+  const st=$('stage');
+  st.style.transform=`scale(${k})`;
+  wrap.style.height=Math.round(STAGE_H*k)+'px';
+}
+
+function office(){
+  $('room').innerHTML=roomSVG();
 
   $('actors').innerHTML=AGENTS.map(a=>{
     const d=_dd(a.id);
     return `<div class="actor" id="ac-${a.id}" data-id="${a.id}" title="${esc(a.name)} — 클릭하면 상세">
       <div class="say" id="say-${a.id}"></div>
-      ${mini(a,a.wide?74:62)}
       <div class="shadow"></div>
+      ${mini(a,a.wide?100:92)}
       <div class="tag"><b><span class="dot ${d.busy?'':'off'}"></span>${esc(a.name)}</b><i>${esc(a.job||'')}</i></div>
     </div>`;
   }).join('');
   AGENTS.forEach(a=>place(a.id,HOME[a.id],false));
   document.querySelectorAll('.actor').forEach(e=>e.onclick=()=>openAgent(e.dataset.id));
 
-  const c=D.chief||{};
-  $('wboard').innerHTML=`<b>📋 오늘의 회의</b><span>${esc(c.generated||'데이터 없음')}</span>`;
+  fitStage();
+  addEventListener('resize',fitStage);
 
   // KPI 는 바닥에서 빼내 아래 카드로. 사무실이 표처럼 보이지 않게.
   const AC={t1:'#58a6ff',t2:'#3fb27f',t3:'#c084fc',t4:'#f5a524',t5:'#2fb3ba',chief:'#e3b341'};
@@ -586,8 +666,8 @@ function runDialog(){
       place(cur.who,STAGE[cur.who]||HOME[cur.who],true);
       // 다 걸어 나온 뒤에 말풍선을 띄운다 (걸으면서 말하면 꼬리가 따로 논다)
       // 무대 왼쪽에 서면 오른쪽으로, 오른쪽에 서면 왼쪽으로 — 항상 무대 안쪽을 향한다
-      const sx=(STAGE[cur.who]||HOME[cur.who])[0];
-      say.className='say '+(sx<50?'r':'l');
+      const g=STAGE[cur.who]||HOME[cur.who];
+      say.className='say '+(iso(g[0],g[1])[0]<STAGE_W/2?'r':'l');
       const delay=reduce()?0:520;
       setTimeout(()=>{
         say.innerHTML=`<span class="who">${esc(a?a.name:'')}</span>${cur.t}`;
