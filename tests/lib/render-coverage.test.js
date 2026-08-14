@@ -49,6 +49,12 @@ const ctx = loadRoom();
 const T2 = ctx.window.TEAM2_DATA, T4 = ctx.window.TEAM4_DATA, T5 = ctx.window.TEAM5_DATA;
 // bodyFor 가 상세 본문이다 (briefing 은 그 위의 짧은 서술). 모달은 둘을 합쳐 보여준다.
 const h2 = ctx.bodyFor('t2'), h4 = ctx.bodyFor('t4'), h5 = ctx.bodyFor('t5');
+/* ⚠️ 렌더는 esc() 로 & < > " 를 이스케이프한다(주입 방어). 원문 그대로 찾으면 오탐이 난다.
+   2026-08-14: VSXY 회사명 "Victoria's Secret & Co." 의 & 때문에 멀쩡한 렌더가 실패로 잡혔다.
+   ⚠️ ctx.esc 를 쓰면 안 된다 — index.html 의 esc 는 `const` 라 VM 전역 속성이 되지 않는다
+      (bodyFor 는 function 선언이라 되고, 그래서 헷갈리기 쉽다). 여기서 같은 규칙을 복제한다. */
+const E = (x) => String(x == null ? '' : x)
+  .replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
 console.log('\n[1] 2팀 — 회사 설명·근거·인용문이 실제로 렌더되는가');
 const done2 = (T2.picks || []).filter((p) => p.research && p.research.status === 'done');
@@ -62,14 +68,14 @@ else {
     // 사용자가 명시적으로 요구한 항목 — "이 회사가 어떤 회사인지"
     const has = done2.filter((p) => p.research.company);
     assert.ok(has.length, 'company 를 가진 종목이 하나도 없다 (스키마 필수인데)');
-    const miss = has.filter((p) => !h2.includes(p.research.company.slice(0, 40))).map((p) => p.ticker);
+    const miss = has.filter((p) => !h2.includes(E(p.research.company.slice(0, 40)))).map((p) => p.ticker);
     assert.strictEqual(miss.length, 0, `회사 설명이 안 나오는 종목: ${miss.join(', ')}`);
   });
   ok('출처 원문 인용문(quote)이 렌더된다', () => {
     const quotes = done2.flatMap((p) => (p.research.whyRose || [])
       .flatMap((c) => (c.sources || []).map((s) => s && s.quote))).filter((q) => q && q.length > 12);
     if (!quotes.length) return;                       // 인용문이 하나도 없는 날은 통과
-    const shown = quotes.filter((q) => h2.includes(q.slice(0, 30))).length;
+    const shown = quotes.filter((q) => h2.includes(E(q.slice(0, 30)))).length;
     assert.ok(shown > 0, `인용문 ${quotes.length}개 중 화면에 나온 건 0개`);
   });
   ok('출처 링크에 날짜가 붙는다', () => {
@@ -101,7 +107,7 @@ else {
   ok('risk(꺾이는 조건)가 렌더된다', () => {
     const risks = inds.map((x) => x.risk).filter(Boolean);
     if (!risks.length) return;
-    const miss = risks.filter((r) => !h5.includes(r.slice(0, 40))).length;
+    const miss = risks.filter((r) => !h5.includes(E(r.slice(0, 40)))).length;
     assert.strictEqual(miss, 0, `risk ${risks.length}건 중 ${miss}건이 화면에 없다`);
   });
   ok('driver·durability 를 영문 enum 그대로 노출하지 않는다', () => {
