@@ -158,7 +158,34 @@ else ok('5팀 lead(리드문)가 렌더된다', () => {
   assert.ok(ctx.bodyFor('t5').includes(SENT + 'D'), '5팀 리드문이 화면에 없다');
 });
 
-console.log('\n[5] 대시보드에 죽은 하드코딩이 되살아나지 않았는가');
+/* 1팀 뉴스도 같은 병을 앓고 있었다 (2026-08-14).
+   · index.html 이 digest.slice(0,4) 라 7건 중 4건만 그렸다
+   · 대시보드는 스키마에 없는 d.oneLine 을 그려서 제목만 나오고 설명이 통째로 비었다 */
+console.log('\n[5] 1팀 뉴스 — 만든 만큼 화면에 나오는가');
+const T1 = ctx.window.TEAM1_DATA || {};
+const dg = ((T1.news || {}).digest) || [];
+if (!dg.length) skipIt('1팀 뉴스 렌더', 'LLM 뉴스 데이터 없음');
+else {
+  const h1 = ctx.bodyFor('t1');
+  ok(`뉴스 ${dg.length}건이 전부 렌더된다 (일부만 자르지 않는다)`, () => {
+    const miss = dg.filter((x) => !h1.includes(E(String(x.headline).slice(0, 25)))).map((x) => String(x.headline).slice(0, 20));
+    assert.strictEqual(miss.length, 0, `빠진 뉴스: ${miss.join(' | ')}`);
+  });
+  ok('쉬운 설명(easy)이 렌더된다', () => {
+    const has = dg.filter((x) => x.easy);
+    assert.ok(has.length, 'easy 를 가진 뉴스가 없다 (스키마 필수인데)');
+    const shown = has.filter((x) => h1.includes(E(x.easy.slice(0, 30)))).length;
+    assert.ok(shown > 0, `설명 ${has.length}건 중 화면에 나온 건 0개`);
+  });
+  ok('대시보드가 스키마에 없는 필드를 그리지 않는다', () => {
+    // d.oneLine 은 team1 스키마에 존재한 적이 없다. 그리면 항상 빈 문자열이 된다.
+    const room2 = fs.readFileSync(path.join(REPO, 'dashboard', 'breakout-room.html'), 'utf8');
+    assert.ok(!/\bd\.oneLine\b/.test(room2), '대시보드가 존재하지 않는 d.oneLine 을 그리고 있다');
+    assert.ok(/d\.easy/.test(room2), '대시보드가 easy(쉬운 설명)를 안 그린다');
+  });
+}
+
+console.log('\n[6] 대시보드에 죽은 하드코딩이 되살아나지 않았는가');
 const room = fs.readFileSync(path.join(REPO, 'dashboard', 'breakout-room.html'), 'utf8');
 ok('표 열 렌더러가 행 데이터를 읽지 않고 상수 배지를 뿌리지 않는다', () => {
   // 2026-08-11 4팀 촉매 열, 2026-08-13 2팀 리서치 열에서 같은 버그가 났다.

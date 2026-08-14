@@ -260,8 +260,12 @@ function renderT1(){
   const nw=t.news||{};
   h+=`<div class="card"><h2>시장 뉴스</h2>`+
     (nw.llm&&nw.digest&&nw.digest.length
-      ? nw.digest.map(d=>`<div style="margin-bottom:12px"><b>${esc(d.headline)}</b><div>${esc(d.oneLine||'')}</div>
-          ${(d.sources||[]).map(s=>`<a href="${esc(s.url)}" target="_blank">${esc(s.publisher||s.title)}</a>`).join(' · ')}</div>`).join('')
+      // ⚠️ 예전엔 스키마에 없는 필드(oneLine)를 그려서 제목만 나오고 설명이 통째로 비어 있었다.
+      //    한별이 쓰는 easy(쉬운 설명)·whyMatters(내 종목엔?)가 매일 생성되는데 화면에 없었다.
+      ? nw.digest.map(d=>`<div style="margin-bottom:14px"><b>${esc(d.headline)}</b>
+          ${d.easy?`<div class="note" style="margin-top:5px">${esc(d.easy)}</div>`:''}
+          ${d.whyMatters?`<div class="note" style="margin-top:5px"><b>내 종목엔?</b> ${esc(d.whyMatters)}</div>`:''}
+          <div style="margin-top:5px">${(d.sources||[]).map(s=>`<a href="${esc(s.url)}" target="_blank">${esc(s.publisher||s.title)} ↗</a>`).join(' · ')}</div></div>`).join('')
       : `<div class="pending">${esc(nw.note||'LLM 뉴스 미실행')}</div>`)+`</div>`;
   $('p-t1').innerHTML=h;bindTk();
 }

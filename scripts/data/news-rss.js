@@ -125,8 +125,21 @@ async function getTickerNews(ticker, { limit = 8, nameHint = null } = {}) {
 
 // 시장 전체 뉴스 — 1팀 LLM 프롬프트에 "실제 URL 후보"로 넘긴다.
 // Node 가 URL 을 먼저 확보하므로 LLM 이 링크를 지어낼 여지가 없다.
-async function getMarketNews({ perFeed = 6 } = {}) {
+/* ⚠️ 낡은 기사를 "오늘의 시장 뉴스" 후보로 넘기면 안 된다.
+   2026-08-14 실측: WSJ Markets 피드가 **2025-01-27** 기사 6건을 그대로 주고 있었다.
+   후보 24건 중 6건(25%)이 18개월 전 것이라, 1팀이 쓸 수 있는 후보가 그만큼 줄었다.
+   버린 건수를 반환해 화면·로그에서 조용히 사라지지 않게 한다. */
+const MAX_AGE_DAYS = Number(process.env.NEWS_MAX_AGE_DAYS || 10);
+
+async function getMarketNews({ perFeed = 8, maxAgeDays = MAX_AGE_DAYS, today = null } = {}) {
   const out = [];
+  const dropped = [];
+  const cutoff = (() => {
+    const base = today ? new Date(today + 'T00:00:00Z') : new Date();
+    base.setUTCDate(base.getUTCDate() - maxAgeDays);
+    return base.toISOString().slice(0, 10);
+  })();
+
   for (const f of MARKET_FEEDS) {
     const items = await cache.through('newsRss', `mkt_${f.name.replace(/\W+/g, '_')}`, async () => {
       const xml = await fetchXml(f.url);
@@ -134,11 +147,22 @@ async function getMarketNews({ perFeed = 6 } = {}) {
     });
     if (!items) continue;
     for (const x of items.slice(0, perFeed)) {
-      out.push({ publisher: f.name, title: x.title, url: x.url, date: toIso(x.published) });
+      const row = { publisher: f.name, title: x.title, url: x.url, date: toIso(x.published) };
+      // 날짜를 못 읽은 건 버리지 않는다 — 파싱 실패와 낡은 기사는 다르다.
+      if (row.date && row.date < cutoff) { dropped.push(row); continue; }
+      out.push(row);
     }
   }
   out.sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
-  return { ok: out.length > 0, items: out, feeds: MARKET_FEEDS.map((f) => f.name) };
+
+  const staleByPublisher = {};
+  for (const d of dropped) staleByPublisher[d.publisher] = (staleByPublisher[d.publisher] || 0) + 1;
+  return {
+    ok: out.length > 0,
+    items: out,
+    feeds: MARKET_FEEDS.map((f) => f.name),
+    stale: { count: dropped.length, cutoff, byPublisher: staleByPublisher },
+  };
 }
 
 module.exports = { getTickerNews, getMarketNews, parseRss, MARKET_FEEDS };

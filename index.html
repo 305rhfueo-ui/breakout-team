@@ -1262,7 +1262,8 @@ function bodyFor(id){
     const nw=t.news||{};
     if(nw.llm&&nw.digest&&nw.digest.length){
       h+=`<div class="sec"><h4>오늘의 시장 뉴스</h4>`+
-        nw.digest.slice(0,4).map(x=>`<div style="margin-bottom:10px">
+        // 7건을 만들어놓고 4건만 그리고 있었다 (2026-08-14). 만든 건 다 보여준다.
+        nw.digest.map(x=>`<div style="margin-bottom:10px">
           <b>${esc(x.headline)}</b>${clip(`<div class="pi">${esc(x.easy||'')}</div>`+(x.whyMatters?`<div class="note" style="margin-top:6px"><b>내 종목엔?</b> ${esc(x.whyMatters)}</div>`:''),3)}
           ${(x.sources||[]).map(s=>`<a href="${esc(s.url)}" target="_blank" style="font-size:12px">${esc(s.publisher)} ↗</a>`).join(' · ')}</div>`).join('')+`</div>`;
     }
