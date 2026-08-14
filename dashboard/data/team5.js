@@ -893,8 +893,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.stocktitan.net/news/SN/shark-ninja-reports-second-quarter-2026-e384dzr000be.html",
                 "date": "2026-08-05",
                 "quote": "net sales increased 22.2% year over year... raised its 2026 outlook to 16%-17% sales growth, $6.45-$6.55 in adjusted EPS and $1.36-$1.37 billion in adjusted EBITDA",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 429
               },
               {
                 "title": "Earnings call transcript: SharkNinja Q2 2026 sales surge lifts shares despite EPS miss",
@@ -918,8 +918,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.stocktitan.net/news/SN/shark-ninja-reports-second-quarter-2026-e384dzr000be.html",
                 "date": "2026-08-05",
                 "quote": "SharkNinja submitted refund claims of approximately $247.1 million to the U.S. Customs and Border Protection... SharkNinja expects that amount to reduce cost of sales in the third quarter",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 429
               }
             ]
           },

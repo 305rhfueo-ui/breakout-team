@@ -643,7 +643,9 @@ function buildReport({ dateStr, chief, team1, team2, team3, team4, team5 }) {
     L.push('## 2팀 · 종목 선정');
     L.push(`- 퍼널: ${team2.stats.universe} → 상위2% ${team2.stats.unionTop} → ADR≥4 ${team2.stats.afterAdr} → 150일선 위 **${team2.stats.afterMa150}종목**`);
     L.push(`- 테마: **${team2.themes.headline}**`);
-    L.push(`- 리서치 커버리지: ${team2.research_coverage.done}/${team2.research_coverage.total} (LLM 미실행)`);
+    // ⚠️ 여기는 LLM 실행 전이라 항상 0/N 이다. "(LLM 미실행)"이라고 못박으면
+    //    나중에 리서치가 병합돼도 거짓말로 남는다 → build-chief-report 가 이 줄을 갈아끼운다.
+    L.push(`- 리서치 커버리지: ${team2.research_coverage.done}/${team2.research_coverage.total} (LLM 리서치 대기)`);
     L.push('');
     L.push('| 종목 | 섹터/업종 | RS 1M/3M/6M (상위%) | ADR | 52주 | VOL_X | 주간 | 200DIV | 150MA기울기 |');
     L.push('|---|---|---|---|---|---|---|---|---|');

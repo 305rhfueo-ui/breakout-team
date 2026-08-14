@@ -1119,6 +1119,34 @@ function briefing(id){
 
 /* [라벨, 값] 배열 → 표 행. 값에 이미 만들어 둔 HTML 이 들어오므로 여기서 esc 하지 않는다
    (호출부가 esc() 를 씌워서 넘긴다). */
+/* ── 근거 렌더 (2·4·5팀 공용) ──
+   ⚠️ 예전엔 발행처 이름만 찍고 date·quote·title 을 통째로 버렸다.
+      원문 인용문(quote)은 수집·검증까지 해놓고 화면에 한 번도 표시하지 않았다.
+      "근거를 봤다"는 말을 사용자가 확인할 방법이 없으면 그 말은 의미가 없다. */
+const CONF_KO={high:'충분',medium:'보통',low:'약함'};
+const DRIVER_KO={earnings:'실적',policy:'정책',macro:'거시',technology:'기술',
+  commodity:'원자재',rotation:'순환매',unknown:'불명'};
+const DURA_KO={structural:'구조적',cyclical:'경기순환',short_term:'단기',unknown:'불명'};
+
+function srcLinks(sources,max){
+  return (sources||[]).slice(0,max||4).map(s=>{
+    const d=s.date?` ${esc(String(s.date).slice(0,10))}`:'';
+    return `<a class="ref" href="${esc(s.url)}" target="_blank" title="${esc(s.title||'')}">[${esc(s.publisher||'출처')}${d}]</a>`;
+  }).join(' ');
+}
+// 인용문은 출처에 실제로 담겨 있을 때만. 없으면 아무것도 그리지 않는다(빈 칸 금지).
+function quoteOf(c){
+  const q=(c.sources||[]).map(s=>s&&s.quote).find(x=>x&&String(x).trim().length>8);
+  return q?`<div class="quote">${esc(String(q).trim())}</div>`:'';
+}
+function claimList(claims,opt){
+  const o=opt||{};
+  const list=(claims||[]).filter(c=>c.evidence_level==='sourced'&&(c.sources||[]).length);
+  if(!list.length)return '';
+  return '<ul class="plist">'+list.slice(0,o.max||99).map(c=>
+    `<li>${esc(c.statement)} ${srcLinks(c.sources)}${o.quote===false?'':quoteOf(c)}</li>`).join('')+'</ul>';
+}
+
 function rows(list){
   if(!list||!list.length)return '<div class="note">표시할 항목 없음</div>';
   return list.map(([k,v])=>`<div class="row"><span>${k==null?'':k}</span><b>${v==null?'—':v}</b></div>`).join('');
@@ -1248,34 +1276,39 @@ function bodyFor(id){
       <div class="note">기간별 상위 2%: 1개월 ${s.byPeriod.m1} · 3개월 ${s.byPeriod.m3} · 6개월 ${s.byPeriod.m6}</div></div>`;
     h+=themeSection(t);
 
-    const done=(t.picks||[]).filter(p=>p.research&&p.research.status==='done').slice(0,6);
-    if(done.length)h+=`<div class="sec"><h4>리서치 완료 종목 — 왜 올랐나</h4>`+
+    // ⚠️ 상한이 10 이라 6개만 보여줄 이유가 없다. 조사한 건 전부 보여준다.
+    const done=(t.picks||[]).filter(p=>p.research&&p.research.status==='done');
+    if(done.length)h+=`<div class="sec"><h4>리서치 완료 종목 — 어떤 회사이고, 왜 올랐나</h4>`+
       done.map(p=>{
         const R=p.research||{};
-        // ⚠️ whyRose[0] 만 보면 그 항목이 출처검증에서 걸러졌을 때 종목 전체가 근거 없어 보인다.
-        //    출처가 살아있는 항목을 우선 고른다.
-        const claims=(R.whyRose||[]).filter(c=>c.evidence_level==='sourced'&&(c.sources||[]).length);
         const rev=R.estimateRevisions||{};
         const revKo={raised:'📈 상향',lowered:'📉 하향',mixed:'혼조',none:'조정 없음',unknown:'확인 안 됨'}[rev.direction]||'';
-        let b=`<div style="margin-bottom:16px"><b style="font-size:15px">${esc(p.ticker)}</b>
-          <span class="chip">${esc(p.sector)}</span>${revKo?`<span class="chip">전망치 ${revKo}</span>`:''}`;
-        if(!claims.length){
-          b+=`<div class="nosrc" style="margin-top:6px">검증을 통과한 상승 이유 근거가 없습니다 (지어내지 않습니다)</div>`;
-        }else{
-          b+='<ul class="plist" style="margin-top:7px">'+claims.slice(0,3).map(c=>{
-            const src=(c.sources||[]).slice(0,2).map(s=>
-              `<a class="ref" href="${esc(s.url)}" target="_blank" title="${esc(s.title||'')}">[${esc(s.publisher||'출처')}]</a>`).join(' ');
-            return `<li>${esc(c.statement)} ${src}</li>`;
-          }).join('')+'</ul>';
-        }
-        if(rev.claims&&rev.claims.length){
-          const rc=rev.claims.filter(c=>c.evidence_level==='sourced');
-          if(rc.length)b+=`<div class="note" style="margin-top:4px"><b>증권사 전망치:</b> ${esc(rc[0].statement)}
-            ${(rc[0].sources||[]).slice(0,1).map(s=>`<a class="ref" href="${esc(s.url)}" target="_blank">[${esc(s.publisher||'출처')}]</a>`).join('')}</div>`;
-        }
+        const nm=p.nameKo||p.nameEn||'';
+        let b=`<div style="margin-bottom:18px"><div><b style="font-size:15px">${esc(p.ticker)}</b>`
+          +(nm?` <span style="color:var(--dim);font-size:12.5px">${esc(nm)}</span>`:'')
+          +` <span class="chip">${esc(p.industry||p.sector)}</span>`
+          +(revKo?`<span class="chip">전망치 ${revKo}</span>`:'')
+          +(R.confidence?`<span class="chip">근거 ${esc(CONF_KO[R.confidence]||R.confidence)}</span>`:'')
+          +`</div>`;
+        // 요구사항: 왜 올랐는지 앞에 "이 회사가 뭐 하는 곳인지"가 먼저 와야 한다.
+        // 이미 매일 생성되고 있었는데(team2 스키마 필수) 화면에 한 번도 안 나왔다.
+        if(R.company)b+=clip(`<div class="pi" style="margin-top:7px">${esc(R.company)}</div>`,3);
+        // ⚠️ whyRose[0] 만 보면 그 항목이 출처검증에서 걸러졌을 때 종목 전체가 근거 없어 보인다.
+        const cl=claimList(R.whyRose);
+        b+=cl||`<div class="nosrc" style="margin-top:6px">검증을 통과한 상승 이유 근거가 없습니다 (지어내지 않습니다)</div>`;
+        const rc=(rev.claims||[]).filter(c=>c.evidence_level==='sourced');
+        if(rc.length)b+=`<div class="note" style="margin-top:6px"><b>증권사 전망치</b></div>`+claimList(rc,{quote:false});
+        const uc=R.upcomingCatalyst;
+        if(uc&&(uc.what||uc.date))b+=`<div class="note"><b>다가올 일정:</b> ${esc(uc.date||'')} ${esc(uc.what||'')} ${srcLinks(uc.sources,2)}</div>`;
+        if((R.themeTags||[]).length)b+=`<div class="chips" style="margin-top:7px">`
+          +R.themeTags.map(x=>`<span class="chip">${esc(x)}</span>`).join('')+`</div>`;
         return b+'</div>';
       }).join('')+
-      `<div class="note">리서치 ${t.research_coverage.done}/${t.research_coverage.total}${t.research_coverage.pending?` · 대기 ${t.research_coverage.pending}종목 (상한 때문. 며칠이면 전량 커버)`:''}</div></div>`;
+      `<div class="note">${esc(t.research_coverage.note||'')}</div></div>`;
+    // 조사 중 실패한 종목은 숨기지 않는다 — '상한 때문에 안 함'과 다르다
+    const failed=(t.picks||[]).filter(p=>p.research&&p.research.status==='failed');
+    if(failed.length)h+=`<div class="sec"><h4>리서치 실패</h4>
+      <div class="nosrc">${failed.map(p=>esc(p.ticker)).join(' · ')} — 에이전트 오류로 조사하지 못했습니다. 다음 실행에서 우선 재시도합니다.</div></div>`;
     h+=`<div class="sec"><h4>선정 종목 (상위 12)</h4>
       ${rows((t.picks||[]).slice(0,12).map(p=>[`${esc(p.ticker)} · ${esc(p.industry)}`,`상위 ${tp(p.bestPct)}% · ADR ${n(p.adr,1)}`]))}</div>`;
     return h;
@@ -1306,10 +1339,24 @@ function bodyFor(id){
     if(nt.length)h+=`<div class="sec"><h4>Congestion 셋업</h4>
       ${rows(nt.map(i=>[`${esc(i.ticker)} · ${esc(i.congestion.phaseKo)}`,
         `횡보 ${n(i.congestion.baseMonths,1)}개월 · VOL_X ${n(i.volx,1)}`]))}</div>`;
-    const cat=(t.items||[]).filter(i=>i.catalyst&&i.catalyst.status==='done').slice(0,4);
-    if(cat.length)h+=`<div class="sec"><h4>촉매 분류</h4>`+
-      cat.map(i=>`<div style="margin-bottom:9px"><b>${esc(i.ticker)}</b> <span class="chip">${esc(i.catalyst.categoryName||'')}</span>
-        ${clip(`<div class="pi">${esc(i.catalyst.volumeExplanation||'')}</div>`,3)}</div>`).join('')+`</div>`;
+    const cat=(t.items||[]).filter(i=>i.catalyst&&i.catalyst.status==='done');
+    if(cat.length)h+=`<div class="sec"><h4>촉매 분류 — 왜 거래량이 터졌나</h4>`+
+      cat.map(i=>{
+        const C=i.catalyst||{};
+        let b=`<div style="margin-bottom:14px"><div><b>${esc(i.ticker)}</b> <span class="chip">${esc(C.categoryName||'')}</span>`
+          +(C.confidence?`<span class="chip">근거 ${esc(CONF_KO[C.confidence]||C.confidence)}</span>`:'')+`</div>`;
+        if(C.company)b+=clip(`<div class="pi" style="margin-top:6px">${esc(C.company)}</div>`,3);
+        if(C.volumeExplanation)b+=clip(`<div class="pi">${esc(C.volumeExplanation)}</div>`,4);
+        // ⚠️ 4팀 출처는 전부 claims[] 안에 있는데 지금까지 화면에 하나도 안 나왔다.
+        //    출처 없는 한 줄 설명만 보였으니 사용자가 검증할 방법이 없었다.
+        const cl=claimList(C.claims);
+        b+=cl||`<div class="nosrc">검증을 통과한 근거가 없습니다 (⑥ 암묵적으로 분류)</div>`;
+        return b+'</div>';
+      }).join('')+
+      `<div class="note">${esc((t.research_coverage||{}).note||'')}</div></div>`;
+    const cfail=(t.items||[]).filter(i=>i.catalyst&&i.catalyst.status==='failed');
+    if(cfail.length)h+=`<div class="sec"><h4>촉매 분류 실패</h4>
+      <div class="nosrc">${cfail.map(i=>esc(i.ticker)).join(' · ')} — 에이전트 오류. 다음 실행에서 우선 재시도합니다.</div></div>`;
     return h;
   }
   if(id==='t5'){
@@ -1323,13 +1370,20 @@ function bodyFor(id){
         ${rows(L.map(x=>[`${esc(x.industry)} (${x.count}종목)`,`${n(x.wrs[k],4)} · 상위 ${n(x.rankPct[k],2)}%`]))}</div>`;
     }
     if(t.llm&&t.llm.industries&&t.llm.industries.length)
-      h+=`<div class="sec"><h4>강세 사유</h4>`+
-        t.llm.industries.slice(0,3).map(x=>`<div style="margin-bottom:11px"><b>${esc(x.industry)}</b>
-          <span class="chip">${esc(x.driver)}</span><span class="chip">${esc(x.durability)}</span>
-          ${clip((x.whyStrong||[]).filter(c=>c.evidence_level==='sourced').slice(0,3).map(c=>
-              `<div class="pi" style="margin-bottom:7px">• ${esc(c.statement)} ${(c.sources||[]).slice(0,1).map(sr=>
-                `<a class="ref" href="${esc(sr.url)}" target="_blank">[${esc(sr.publisher||'출처')}]</a>`).join('')}</div>`).join('')
-              ||'<div class="nosrc">검증 통과한 근거 없음</div>',4)}</div>`).join('')+`</div>`;
+      h+=`<div class="sec"><h4>강세 사유 — 왜 강하고, 언제 꺾이나</h4>`+
+        t.llm.industries.map(x=>{
+          // driver·durability 를 영문 enum 그대로 노출하던 것을 한글로. (자체 서술 규칙 위반이었다)
+          let b=`<div style="margin-bottom:15px"><div><b>${esc(window.indKo?window.indKo(x.industry):x.industry)}</b>
+            <span class="chip">${esc(DRIVER_KO[x.driver]||x.driver||'')}</span>
+            <span class="chip">${esc(DURA_KO[x.durability]||x.durability||'')}</span></div>`;
+          const cl=claimList(x.whyStrong);
+          b+=cl||`<div class="nosrc">검증을 통과한 근거가 없습니다</div>`;
+          if((x.keyStocks||[]).length)b+=`<div class="note"><b>대표 종목:</b> ${x.keyStocks.map(s=>esc(s)).join(' · ')}</div>`;
+          // risk 는 "이 강세가 언제 꺾이나" — 가장 실행에 가까운 항목인데 지금까지 미표시였다
+          if(x.risk)b+=`<div class="note" style="color:var(--yel)"><b>꺾이는 조건</b></div>`
+            +clip(`<div class="pi">${esc(x.risk)}</div>`,4);
+          return b+'</div>';
+        }).join('')+`</div>`;
     return h;
   }
   /* 실장 */

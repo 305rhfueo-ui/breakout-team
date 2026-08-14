@@ -65,8 +65,8 @@ window.TEAM4_DATA = {
                 "publisher": "TipRanks / Yahoo Finance",
                 "url": "https://www.tipranks.com/stocks/slm/earnings/q2-2026-report",
                 "date": "2026-07-2026",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },

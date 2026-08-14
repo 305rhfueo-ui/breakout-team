@@ -7471,8 +7471,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.tipranks.com/news/the-fly/paycom-price-target-raised-to-356-from-340-at-bmo-capital",
                 "date": "2026-08-09",
                 "quote": "Paycom price target raised to 356 from 340 at BMO Capital",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -12730,8 +12730,8 @@ window.TEAM2_DATA = {
                 "url": "https://m.investing.com/news/analyst-ratings/baird-raises-coreweave-stock-price-target-on-power-growth-93CH-4854459?ampMode=1",
                 "date": "2026-08-12",
                 "quote": "the company's solid quarterly results and encouraging deal and power metrics through August",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "Bernstein raises CoreWeave stock price target on strong results",
@@ -12768,8 +12768,8 @@ window.TEAM2_DATA = {
                   "url": "https://m.investing.com/news/analyst-ratings/baird-raises-coreweave-stock-price-target-on-power-growth-93CH-4854459?ampMode=1",
                   "date": "2026-08-12",
                   "quote": "the company's solid quarterly results and encouraging deal and power metrics through August",
-                  "verified": "unverified",
-                  "httpStatus": 403
+                  "verified": "ok",
+                  "httpStatus": 200
                 }
               ]
             },
@@ -20245,8 +20245,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.investing.com/news/analyst-ratings/guggenheim-raises-guardant-health-stock-price-target-on-shield-data-93CH-4795534",
                 "date": "2026-07-16",
                 "quote": "Guggenheim stated this data \"gives it confidence in the consensus estimate of approximately 54,000 volume for the quarter\"",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -20297,8 +20297,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.investing.com/news/analyst-ratings/guggenheim-raises-guardant-health-stock-price-target-on-shield-data-93CH-4795534",
                   "date": "2026-07-16",
                   "quote": "Guggenheim raised its price target from $160 to $190, maintaining a Buy rating.",
-                  "verified": "unverified",
-                  "httpStatus": 403
+                  "verified": "ok",
+                  "httpStatus": 200
                 }
               ]
             }

@@ -86,6 +86,14 @@ tbody tr:hover{background:#1d2430}
 .mhead h3{margin:0;font-size:18px}
 .x{margin-left:auto;background:none;border:1px solid var(--bd);color:var(--dim);border-radius:8px;padding:5px 12px;cursor:pointer}
 .pending{background:var(--panel2);border:1px dashed var(--bd);border-radius:8px;padding:14px;color:var(--dim);font-size:12.5px}
+/* 리서치 카드 — 회사 설명(리드) · 근거 목록 · 출처 원문 인용 */
+.lead{font-size:13.5px;line-height:1.75;margin-bottom:10px}
+.rlist{margin:0;padding-left:19px;font-size:13px;line-height:1.75}
+.rlist li{margin-bottom:9px}
+.rq{display:block;margin:6px 0;padding:7px 11px;border-left:3px solid var(--bd);
+background:var(--panel2);border-radius:0 6px 6px 0;font-size:11.5px;line-height:1.6;color:var(--dim)}
+.rsrc{font-size:10.5px;color:var(--blu);text-decoration:none;vertical-align:super;margin-left:3px}
+.rsrc:hover{text-decoration:underline}
 .empty{color:var(--dim);padding:18px;text-align:center}
 svg{display:block}
 @media(max-width:640px){.wrap{padding:10px}h1{font-size:16px}}
@@ -298,7 +306,7 @@ function renderT2(){
       {h:'WRS6M',f:r=>r.wrs?n(r.wrs.m6,3):'—',s:r=>r.wrs&&r.wrs.m6},
       {h:'200DIV',f:r=>n(r.div200,1),s:r=>r.div200},
       {h:'150MA기울기',f:r=>r.ma150Slope==null?'<span class="b b-dim">판정불가</span>':`<span class="b ${r.ma150Slope>0?'b-grn':'b-red'}">${n(r.ma150Slope,2)}%</span>`,s:r=>r.ma150Slope},
-      {h:'리서치',l:1,f:r=>`<span class="b b-yel">⏳대기</span>`,s:r=>0},
+      {h:'리서치',l:1,f:r=>researchBadge(r.research),s:r=>({done:0,no_source:1,failed:2,pending:3}[(r.research||{}).status]??9)},
     ],P)+
     `<div class="note">WRS 1M/3M/6M 은 해당 종목이 속한 <b>업종</b>의 값이며, 사이트에 없어 공식대로 <b>자체 계산</b>한 값입니다.
      · RS 는 QQQ 대비 초과수익률이지 절대 상승률이 아닙니다.</div></div>`;
@@ -358,6 +366,56 @@ function renderT3(){
 const CAT6=[[1,'어닝 서프라이즈 · 가이던스 상향','★'],[2,'바이오 · FDA · 임상',''],
   [3,'대형 파트너십 · 공급계약',''],[4,'기업 턴어라운드',''],
   [5,'매크로 · 정책 · 산업 돌파(AI/양자/로봇)','★'],[6,'암묵적 — 뉴스 없는 이상거래량','']];
+
+/* 근거 목록 — 출처(발행처·날짜) + 원문 인용문.
+   ⚠️ quote 는 수집·검증까지 하고 화면엔 한 번도 안 나오던 항목이다.
+      "근거를 봤다"는 말을 사용자가 확인할 방법이 있어야 한다. */
+function rClaims(claims,noQuote){
+  const L=(claims||[]).filter(c=>c.evidence_level==='sourced'&&(c.sources||[]).length);
+  if(!L.length)return '';
+  return '<ul class="rlist">'+L.map(c=>{
+    const src=(c.sources||[]).slice(0,4).map(s=>{
+      const d=s.date?' '+esc(String(s.date).slice(0,10)):'';
+      return `<a class="rsrc" href="${esc(s.url)}" target="_blank" title="${esc(s.title||'')}">[${esc(s.publisher||'출처')}${d}]</a>`;
+    }).join('');
+    const q=noQuote?null:(c.sources||[]).map(s=>s&&s.quote).find(x=>x&&String(x).trim().length>8);
+    return `<li>${esc(c.statement)}${src}${q?`<span class="rq">${esc(String(q).trim())}</span>`:''}</li>`;
+  }).join('')+'</ul>';
+}
+
+/* 5팀 업종 강세 사유 카드.
+   ⚠️ 예전엔 5팀 탭과 업종 팝업 둘 다 "LLM 대기" 하드코딩이라, 조사한 6개 업종이
+      대시보드 어디에도 안 나왔다. risk(꺾이는 조건)는 특히 실행에 직결되는 항목이다. */
+const DRV_KO={earnings:'실적',policy:'정책',macro:'거시',technology:'기술',
+  commodity:'원자재',rotation:'순환매',unknown:'불명'};
+const DUR_KO={structural:'구조적',cyclical:'경기순환',short_term:'단기',unknown:'불명'};
+function indCards(list,one){
+  if(!list||!list.length)
+    return `<div class="card"><h2>강세 사유</h2><div class="pending">
+      아직 조사하지 않았습니다 — <code>start breakout</code> 실행 시 공신력 있는 언론·증권사 리포트 근거로 채웁니다.
+      근거가 없으면 '근거 없음'으로 표기하며 지어내지 않습니다.</div></div>`;
+  return list.map(x=>{
+    let b=`<div class="card"><h2>${esc(window.indKo?window.indKo(x.industry):x.industry)}</h2>
+      <div><span class="b b-dim">${esc(DRV_KO[x.driver]||x.driver||'')}</span>
+      <span class="b b-dim">${esc(DUR_KO[x.durability]||x.durability||'')}</span></div>`;
+    b+=rClaims(x.whyStrong)||`<div class="pending">검증을 통과한 근거가 없습니다</div>`;
+    if((x.keyStocks||[]).length)b+=`<div class="note"><b>대표 종목:</b> ${x.keyStocks.map(s=>esc(s)).join(' · ')}</div>`;
+    if(x.risk)b+=`<div class="note" style="color:var(--yel)"><b>꺾이는 조건</b></div><div class="note">${esc(x.risk)}</div>`;
+    return b+'</div>';
+  }).join('')+(one?'':'');
+}
+
+/* 2팀 리서치 상태 배지.
+   ⚠️ 예전엔 이 열이 `⏳대기` 하드코딩이라 조사를 끝낸 종목도 대기로 보였다.
+      4팀 촉매 열에서 같은 버그를 고쳐놓고 2팀은 남아 있었다.
+      '실패'(에이전트 오류)와 '대기'(상한 밖)를 구분해서 보여준다. */
+function researchBadge(r){
+  if(!r)return '<span class="b b-dim">미조사</span>';
+  if(r.status==='done')     return '<span class="b b-grn" title="근거 있는 상승 이유 확보">✅조사완료</span>';
+  if(r.status==='no_source')return '<span class="b b-yel" title="조사했으나 검증 통과한 출처가 없음">❌근거없음</span>';
+  if(r.status==='failed')   return `<span class="b b-red" title="${esc(r.note||'')}">⚠️실패</span>`;
+  return `<span class="b b-dim" title="${esc(r.note||'')}">⏳대기</span>`;
+}
 
 function catBadge(c){
   if(!c||c.status!=='done') return '<span class="b b-dim">미조사</span>';
@@ -536,7 +594,7 @@ function renderT5(){
       {h:'종목수',f:r=>r.count,s:r=>r.count},
       {h:'WRS 6M (시총가중)',f:r=>n(r.wrs6,4),s:r=>r.wrs6},
     ],t.sectors||[])+`</div>`;
-  h+=`<div class="card"><h2>강세 사유 분석</h2><div class="pending">LLM 리서치 대기 — 공신력 있는 언론·투자은행·증권사 리포트 기반으로 조사합니다. 근거가 없으면 '근거 없음'으로 표기합니다.</div></div>`;
+  h+=indCards((D.t5&&D.t5.llm&&D.t5.llm.industries)||null);
   $('p-t5').innerHTML=h;
   bindTk();   // 흐름 표의 업종 클릭은 table() 을 거치지 않으므로 직접 연결한다
 }
@@ -897,10 +955,34 @@ function openModal(t){
       전체를 원하면 <code>POPUP_CAP=60 node scripts/run-breakout.js</code></div></div>`;
   }
 
-  h+=`<div class="card"><h2>상승 이유 · 실적 전망치 조정</h2><div class="pending">
-    LLM 리서치 대기 — <code>start breakout</code> 실행 시 공신력 있는 뉴스·증권사 리포트 근거로 채워집니다.
-    근거를 못 찾으면 '근거 없음'으로 표기하며 지어내지 않습니다.</div>
-    <div class="note">외부 차트: <a href="https://finviz.com/quote.ashx?t=${esc(t)}" target="_blank">Finviz ↗</a> ·
+  // ── 리서치 카드 ──
+  // ⚠️ 예전엔 여기가 "LLM 대기" 하드코딩이라, 조사를 마친 종목도 아무것도 안 보였다.
+  //    회사 설명 → 상승 이유(출처·날짜·원문 인용) → 전망치 → 다가올 일정 순으로 보여준다.
+  const R=(p&&p.research)||null;
+  h+=`<div class="card"><h2>이 회사는 · 왜 올랐나</h2>`;
+  if(R&&R.status==='done'){
+    if(R.company)h+=`<div class="lead">${esc(R.company)}</div>`;
+    h+=rClaims(R.whyRose)||`<div class="pending">검증을 통과한 상승 이유 근거가 없습니다 (지어내지 않습니다)</div>`;
+    const rev=R.estimateRevisions||{};
+    const revKo={raised:'📈 상향',lowered:'📉 하향',mixed:'혼조',none:'조정 없음',unknown:'확인 안 됨'}[rev.direction];
+    const rc=(rev.claims||[]).filter(c=>c.evidence_level==='sourced');
+    if(revKo||rc.length){
+      h+=`<h2 style="margin-top:14px">증권사 실적 전망치 ${esc(revKo||'')}</h2>`;
+      h+=rClaims(rc,true)||`<div class="note">방향만 확인되고 근거 문장은 없습니다.</div>`;
+    }
+    const uc=R.upcomingCatalyst;
+    if(uc&&(uc.what||uc.date))h+=`<div class="note"><b>다가올 일정:</b> ${esc(uc.date||'')} ${esc(uc.what||'')}</div>`;
+    if((R.themeTags||[]).length)h+=`<div class="note"><b>테마:</b> ${R.themeTags.map(x=>esc(x)).join(' · ')}</div>`;
+    if(R.confidence)h+=`<div class="note">근거 충실도: ${esc({high:'충분',medium:'보통',low:'약함'}[R.confidence]||R.confidence)}</div>`;
+  }else if(R&&R.status==='failed'){
+    h+=`<div class="pending">⚠️ ${esc(R.note||'리서치 실패')}</div>`;
+  }else if(R&&R.status==='no_source'){
+    h+=`<div class="pending">조사했으나 검증을 통과한 출처가 없었습니다. 지어내지 않습니다.</div>`;
+  }else{
+    h+=`<div class="pending">${esc((R&&R.note)||'아직 조사하지 않았습니다 (순환 조사 대기)')} —
+      <code>start breakout</code> 실행 시 공신력 있는 뉴스·증권사 리포트 근거로 채워집니다.</div>`;
+  }
+  h+=`<div class="note">외부 차트: <a href="https://finviz.com/quote.ashx?t=${esc(t)}" target="_blank">Finviz ↗</a> ·
     <a href="https://www.tradingview.com/chart/?symbol=${esc(t)}" target="_blank">TradingView ↗</a></div></div>`;
 
   $('mbox').innerHTML=h;$('modal').classList.add('on');
@@ -989,8 +1071,9 @@ function openIndustry(key){
         상위 ${tp(p.bestPct)}% · ADR ${n(p.adr,1)}</span> `).join('')
         :'<div class="empty">이 업종에서 오늘 기준을 통과한 종목이 없습니다</div>')+`</div>`;
   }
-  h+=`<div class="card"><h2>강세 사유</h2><div class="pending">
-    LLM 리서치 대기 — 공신력 있는 언론·투자은행·증권사 리포트 근거로 채웁니다. 근거 없으면 '근거 없음'으로 표기합니다.</div></div>`;
+  // 이 업종 하나만 골라서 보여준다 (없으면 안내)
+  h+=indCards(((D.t5&&D.t5.llm&&D.t5.llm.industries)||[]).filter(x=>
+    x.key===key||String(x.industry||'').includes(String(key).split('|')[1]||' ')),true);
 
   $('mbox').innerHTML=h;$('modal').classList.add('on');bindTk();
   loadSeries('i',key,s=>{

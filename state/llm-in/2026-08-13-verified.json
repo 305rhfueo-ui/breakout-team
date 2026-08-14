@@ -214,8 +214,8 @@
                   "url": "https://m.investing.com/news/analyst-ratings/baird-raises-coreweave-stock-price-target-on-power-growth-93CH-4854459?ampMode=1",
                   "date": "2026-08-12",
                   "quote": "the company's solid quarterly results and encouraging deal and power metrics through August",
-                  "verified": "unverified",
-                  "httpStatus": 403
+                  "verified": "ok",
+                  "httpStatus": 200
                 },
                 {
                   "title": "Bernstein raises CoreWeave stock price target on strong results",
@@ -252,8 +252,8 @@
                     "url": "https://m.investing.com/news/analyst-ratings/baird-raises-coreweave-stock-price-target-on-power-growth-93CH-4854459?ampMode=1",
                     "date": "2026-08-12",
                     "quote": "the company's solid quarterly results and encouraging deal and power metrics through August",
-                    "verified": "unverified",
-                    "httpStatus": 403
+                    "verified": "ok",
+                    "httpStatus": 200
                   }
                 ]
               },
@@ -824,8 +824,8 @@
                   "url": "https://www.tipranks.com/news/the-fly/paycom-price-target-raised-to-356-from-340-at-bmo-capital",
                   "date": "2026-08-09",
                   "quote": "Paycom price target raised to 356 from 340 at BMO Capital",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 403
                 }
               ]
             },
@@ -1219,8 +1219,8 @@
                   "url": "https://www.investing.com/news/analyst-ratings/guggenheim-raises-guardant-health-stock-price-target-on-shield-data-93CH-4795534",
                   "date": "2026-07-16",
                   "quote": "Guggenheim stated this data \"gives it confidence in the consensus estimate of approximately 54,000 volume for the quarter\"",
-                  "verified": "unverified",
-                  "httpStatus": 403
+                  "verified": "ok",
+                  "httpStatus": 200
                 }
               ]
             },
@@ -1271,8 +1271,8 @@
                     "url": "https://www.investing.com/news/analyst-ratings/guggenheim-raises-guardant-health-stock-price-target-on-shield-data-93CH-4795534",
                     "date": "2026-07-16",
                     "quote": "Guggenheim raised its price target from $160 to $190, maintaining a Buy rating.",
-                    "verified": "unverified",
-                    "httpStatus": 403
+                    "verified": "ok",
+                    "httpStatus": 200
                   }
                 ]
               }
@@ -1869,8 +1869,8 @@
                   "publisher": "TipRanks / Yahoo Finance",
                   "url": "https://www.tipranks.com/stocks/slm/earnings/q2-2026-report",
                   "date": "2026-07-2026",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 403
                 }
               ]
             },
@@ -2582,8 +2582,8 @@
                   "url": "https://www.stocktitan.net/news/SN/shark-ninja-reports-second-quarter-2026-e384dzr000be.html",
                   "date": "2026-08-05",
                   "quote": "net sales increased 22.2% year over year... raised its 2026 outlook to 16%-17% sales growth, $6.45-$6.55 in adjusted EPS and $1.36-$1.37 billion in adjusted EBITDA",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 429
                 },
                 {
                   "title": "Earnings call transcript: SharkNinja Q2 2026 sales surge lifts shares despite EPS miss",
@@ -2607,8 +2607,8 @@
                   "url": "https://www.stocktitan.net/news/SN/shark-ninja-reports-second-quarter-2026-e384dzr000be.html",
                   "date": "2026-08-05",
                   "quote": "SharkNinja submitted refund claims of approximately $247.1 million to the U.S. Customs and Border Protection... SharkNinja expects that amount to reduce cost of sales in the third quarter",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 429
                 }
               ]
             },

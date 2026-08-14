@@ -163,9 +163,77 @@ async function main() {
     }
   }
 
-  // ── 3) 마크다운 리포트에 실장 종합을 덧붙인다 ──
+  // ── 3) 마크다운 리포트 보강 ──
   const mdFile = path.join(paths.reportsDir, `${dateStr}-breakout.md`);
   const CHIEF_MARK = '\n---\n\n## 🧑‍💼 실장 종합 (LLM)';
+
+  // 3-a) 종목별 리서치를 리포트에 싣는다.
+  // ⚠️ 예전엔 마크다운에 개별 종목 리서치가 0줄이었다 — 회사 설명도, 상승 이유도, 출처도.
+  //    .md 만 읽는 사람에게는 리서치 계층이 통째로 없는 것과 같았다.
+  if (fs.existsSync(mdFile)) {
+    const t2 = loadWindowData(path.join(paths.dashboardData, 'team2.js'), 'TEAM2_DATA');
+    const done = ((t2 && t2.picks) || []).filter((p) => p.research && p.research.status === 'done');
+    let md = fs.readFileSync(mdFile, 'utf8');
+
+    // 커버리지 줄의 거짓 표기를 실제 상태로 교체
+    if (t2 && t2.research_coverage) {
+      const rc = t2.research_coverage;
+      md = md.replace(/^- 리서치 커버리지: .*$/m,
+        `- 리서치 커버리지: ${rc.done}/${rc.total}`
+        + (rc.failed ? ` · 실패 ${rc.failed}` : '') + (rc.pending ? ` · 대기 ${rc.pending}` : ''));
+    }
+
+    if (done.length) {
+      const S = [];
+      S.push('', '### 리서치 완료 종목 — 어떤 회사이고, 왜 올랐나', '');
+      for (const p of done) {
+        const R = p.research;
+        const nm = p.nameKo || p.nameEn || '';
+        S.push(`#### ${p.ticker}${nm ? ` · ${nm}` : ''} — ${p.industry || p.sector}`);
+        if (R.company) S.push('', R.company);
+        const cl = (R.whyRose || []).filter((c) => c.evidence_level === 'sourced' && (c.sources || []).length);
+        if (cl.length) {
+          S.push('', '**왜 올랐나**');
+          for (const c of cl) {
+            const src = (c.sources || []).slice(0, 4)
+              .map((s) => `[${s.publisher || '출처'}${s.date ? ' ' + String(s.date).slice(0, 10) : ''}](${s.url})`).join(' · ');
+            S.push(`- ${c.statement} ${src}`);
+            const q = (c.sources || []).map((s) => s && s.quote).find((x) => x && String(x).trim().length > 8);
+            if (q) S.push(`  > ${String(q).trim().replace(/\n+/g, ' ')}`);
+          }
+        } else {
+          S.push('', '**왜 올랐나** — 검증을 통과한 근거가 없습니다 (지어내지 않습니다)');
+        }
+        const rev = R.estimateRevisions || {};
+        const rc2 = (rev.claims || []).filter((c) => c.evidence_level === 'sourced');
+        if (rc2.length) {
+          const dirKo = { raised: '상향', lowered: '하향', mixed: '혼조', none: '조정 없음', unknown: '확인 안 됨' }[rev.direction] || '';
+          S.push('', `**증권사 실적 전망치 ${dirKo}**`);
+          for (const c of rc2) {
+            const src = (c.sources || []).slice(0, 3)
+              .map((s) => `[${s.publisher || '출처'}](${s.url})`).join(' · ');
+            S.push(`- ${c.statement} ${src}`);
+          }
+        }
+        S.push('');
+      }
+      const failed = ((t2 && t2.picks) || []).filter((p) => p.research && p.research.status === 'failed');
+      if (failed.length) S.push(`> ⚠️ 리서치 실패: ${failed.map((p) => p.ticker).join(', ')} — 다음 실행에서 우선 재시도합니다.`, '');
+
+      // 실장 절 앞에 끼워 넣는다. 재실행 시 중복되지 않게 기존 절을 먼저 걷어낸다.
+      const RES_MARK = '\n### 리서치 완료 종목 — 어떤 회사이고, 왜 올랐나\n';
+      const chiefAt = md.indexOf(CHIEF_MARK);
+      const body = chiefAt >= 0 ? md.slice(0, chiefAt) : md;
+      const tail = chiefAt >= 0 ? md.slice(chiefAt) : '';
+      const resAt = body.indexOf(RES_MARK);
+      const clean = resAt >= 0 ? body.slice(0, resAt) : body;
+      fs.writeFileSync(mdFile, clean.replace(/\s*$/, '') + '\n' + S.join('\n') + tail, 'utf8');
+      merged.push(`리포트.md(종목 ${done.length})`);
+    } else {
+      fs.writeFileSync(mdFile, md, 'utf8');
+    }
+  }
+
   if (payload.chief && fs.existsSync(mdFile)) {
     // ⚠️ append 라서 이 스크립트를 두 번 돌리면 실장 절이 두 번 붙는다 (2026-08-12 실제 발생).
     //    붙이기 전에 기존 실장 절을 잘라내 항상 한 벌만 남게 한다.
