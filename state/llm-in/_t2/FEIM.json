@@ -1,0 +1,294 @@
+{
+ "ticker": "FEIM",
+ "sector": "Technology",
+ "industry": "Communication Equipment",
+ "nameKo": "프리퀀시 일렉트로닉스",
+ "detail": {
+  "fetchedAt": "2026-08-14",
+  "nameKo": "프리퀀시 일렉트로닉스",
+  "nameEn": "FREQUENCY ELECTRONICS INC",
+  "infomaxCode": "NAS:FEIM",
+  "financials": {
+   "ok": true,
+   "ticker": "FEIM",
+   "cik": "0000039020",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "Revenues",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-01-31",
+     "periodEnd": "2026-04-30",
+     "derived": true,
+     "revenue": 15398000,
+     "profit": -6350000,
+     "netIncome": -4905000,
+     "margin": -41.2,
+     "yoy": {
+      "revenue": -23,
+      "profit": -293.7,
+      "netIncome": -253.4,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodStart": "2025-11-01",
+     "periodEnd": "2026-01-31",
+     "derived": false,
+     "revenue": 16890000,
+     "profit": 1270000,
+     "netIncome": 1567000,
+     "margin": 7.5,
+     "yoy": {
+      "revenue": -10.8,
+      "profit": -63.4,
+      "netIncome": -89.8,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodStart": "2025-08-01",
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 17127000,
+     "profit": 1714000,
+     "netIncome": 1801000,
+     "margin": 10,
+     "yoy": {
+      "revenue": 8.3,
+      "profit": -34.5,
+      "netIncome": -32.1,
+      "priorEnd": "2024-10-31"
+     }
+    },
+    {
+     "periodStart": "2025-05-01",
+     "periodEnd": "2025-07-31",
+     "derived": false,
+     "revenue": 13812000,
+     "profit": 364000,
+     "netIncome": 634000,
+     "margin": 2.6,
+     "yoy": {
+      "revenue": -8.4,
+      "profit": -84.6,
+      "netIncome": -73.9,
+      "priorEnd": "2024-07-31"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000039020&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "FEIM",
+   "items": [
+    {
+     "title": "FEIM Secures $18 Million in New Aerospace Contract Awards",
+     "url": "https://www.nasdaq.com/articles/feim-secures-18-million-new-aerospace-contract-awards",
+     "date": "2026-07-23",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "FEIM"
+     ]
+    },
+    {
+     "title": "Frequency Electronics (FEIM) Q4 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/frequency-electronics-feim-q4-2026-earnings-call-transcript",
+     "date": "2026-07-23",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "FEIM",
+      "FEIM"
+     ]
+    },
+    {
+     "title": "FEIM Stock Up 13% Despite Incurring Q4 Loss Due to Restructuring Costs",
+     "url": "https://www.nasdaq.com/articles/feim-stock-13-despite-incurring-q4-loss-due-restructuring-costs",
+     "date": "2026-07-21",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "FEIM"
+     ]
+    },
+    {
+     "title": "Why Frequency Electronics Stock Is Plummeting Today",
+     "url": "https://www.nasdaq.com/articles/why-frequency-electronics-stock-plummeting-today",
+     "date": "2026-07-16",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "FEIM",
+      "FEIM"
+     ]
+    },
+    {
+     "title": "Frequency Electronics Q4 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/frequency-electronics-q4-earnings-call-highlights",
+     "date": "2026-07-15",
+     "publisher": "MarketBeat",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "FEIM"
+     ]
+    },
+    {
+     "title": "Frequency Electronics (FEIM) Price Target Increased by 10.17% to 66.30",
+     "url": "https://www.nasdaq.com/articles/frequency-electronics-feim-price-target-increased-1017-6630",
+     "date": "2026-05-14",
+     "publisher": "Fintel",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "FEIM"
+     ]
+    },
+    {
+     "title": "FEIM Q4 2025 Earnings Transcript",
+     "url": "https://www.nasdaq.com/articles/feim-q4-2025-earnings-transcript",
+     "date": "2026-05-11",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "FEIM",
+      "FEIM"
+     ]
+    },
+    {
+     "title": "Freedom Broker Upgrades Frequency Electronics (FEIM)",
+     "url": "https://www.nasdaq.com/articles/freedom-broker-upgrades-frequency-electronics-feim",
+     "date": "2026-05-06",
+     "publisher": "Fintel",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "FEIM"
+     ]
+    }
+   ],
+   "directCount": 9,
+   "total": 11,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "reportDate": "2026-08-03",
+    "items": [
+     "8.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526003285/feim8k080526.htm",
+    "description": "FORM 8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "reportDate": "2026-07-28",
+    "items": [
+     "1.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526003177/feim8k072926.htm",
+    "description": "FORM 8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-15",
+    "reportDate": "2026-07-15",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526002982/feim8k071526.htm",
+    "description": "FORM 8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-12",
+    "reportDate": "2026-06-12",
+    "items": [
+     "1.01",
+     "2.03",
+     "9.01"
+    ],
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526002498/feim8k061226.htm",
+    "description": "FORM 8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-11",
+    "reportDate": "2026-03-11",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526000840/feim8k031126.htm",
+    "description": "FORM 8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-12-11",
+    "reportDate": "2025-12-11",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518525002022/feim8k121125.htm",
+    "description": "FORM 8-K"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": [],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}

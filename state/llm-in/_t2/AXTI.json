@@ -1,0 +1,282 @@
+{
+ "ticker": "AXTI",
+ "sector": "Technology",
+ "industry": "Semiconductor Equipment & Materials",
+ "nameKo": "AXT",
+ "detail": {
+  "fetchedAt": "2026-08-13",
+  "nameKo": "AXT",
+  "nameEn": "AXT INC",
+  "infomaxCode": "NAS:AXTI",
+  "financials": {
+   "ok": true,
+   "ticker": "AXTI",
+   "cik": "0001051627",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-01-01",
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 26924000,
+     "profit": -1585000,
+     "netIncome": -1620000,
+     "margin": -5.9,
+     "yoy": {
+      "revenue": 39.1,
+      "profit": 84.6,
+      "netIncome": 81.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodStart": "2025-09-30",
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 23041000,
+     "profit": -3833000,
+     "netIncome": -3548000,
+     "margin": -16.6,
+     "yoy": {
+      "revenue": -8.2,
+      "profit": 37.8,
+      "netIncome": 30.3,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodStart": "2025-07-01",
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 27955000,
+     "profit": -1123000,
+     "netIncome": -1906000,
+     "margin": -4,
+     "yoy": {
+      "revenue": 18.2,
+      "profit": 67,
+      "netIncome": 35.1,
+      "priorEnd": "2024-09-30"
+     }
+    },
+    {
+     "periodStart": "2025-04-01",
+     "periodEnd": "2025-06-30",
+     "derived": false,
+     "revenue": 17974000,
+     "profit": -6745000,
+     "netIncome": -7008000,
+     "margin": -37.5,
+     "yoy": {
+      "revenue": -35.6,
+      "profit": -257.8,
+      "netIncome": -362.3,
+      "priorEnd": "2024-06-30"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001051627&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "AXTI",
+   "items": [
+    {
+     "title": "Earnings Estimates Moving Higher for AXT (AXTI): Time to Buy?",
+     "url": "https://www.nasdaq.com/articles/earnings-estimates-moving-higher-axt-axti-time-buy",
+     "date": "2026-08-12",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AXTI"
+     ]
+    },
+    {
+     "title": "AXT (AXTI) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/axt-axti-q2-2026-earnings-call-transcript-0",
+     "date": "2026-08-04",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AXTI",
+      "AXTI"
+     ]
+    },
+    {
+     "title": "AXTI Q2 Earnings Call Highlights AI Capacity Expansion",
+     "url": "https://www.nasdaq.com/articles/axti-q2-earnings-call-highlights-ai-capacity-expansion",
+     "date": "2026-07-31",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AXTI"
+     ]
+    },
+    {
+     "title": "AXT (AXTI) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/axt-axti-q2-2026-earnings-call-transcript",
+     "date": "2026-07-31",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AXTI",
+      "AXTI"
+     ]
+    },
+    {
+     "title": "AXT (AXTI) Tops Q2 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/axt-axti-tops-q2-earnings-and-revenue-estimates",
+     "date": "2026-07-30",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AXTI",
+      "LSCC"
+     ]
+    },
+    {
+     "title": "AXT Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/axt-q2-earnings-call-highlights",
+     "date": "2026-07-30",
+     "publisher": "MarketBeat",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AXTI"
+     ]
+    },
+    {
+     "title": "Lam Research (LRCX) Surpasses Q4 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/lam-research-lrcx-surpasses-q4-earnings-and-revenue-estimates",
+     "date": "2026-07-29",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "LRCX",
+      "AXTI"
+     ]
+    }
+   ],
+   "directCount": 6,
+   "total": 7,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "reportDate": "2026-07-30",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926025061/axti20260609_8k.htm",
+    "description": "FORM 8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "reportDate": "2026-07-26",
+    "items": [
+     "1.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926024883/axti20260715_8k.htm",
+    "description": "FORM 8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "reportDate": "2026-07-26",
+    "items": [
+     "3.03",
+     "5.03",
+     "9.01"
+    ],
+    "itemsKo": [
+     "3.03",
+     "5.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926024882/axti20260729_8k.htm",
+    "description": "FORM 8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-22",
+    "reportDate": "2026-07-16",
+    "items": [
+     "5.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926024184/axti20260720_8k.htm",
+    "description": "FORM 8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-08",
+    "reportDate": "2026-07-08",
+    "items": [
+     "2.04"
+    ],
+    "itemsKo": [
+     "2.04"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926022984/axti20260629_8k.htm",
+    "description": "FORM 8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-02",
+    "reportDate": "2026-06-26",
+    "items": [
+     "1.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926022557/axti20260630_8k.htm",
+    "description": "FORM 8-K"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": [],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}

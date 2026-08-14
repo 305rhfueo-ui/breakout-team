@@ -156,43 +156,123 @@
     },
     "MDB": {
       "last": "2026-08-14",
-      "count": 3
+      "count": 5
     },
     "SNDK": {
       "last": "2026-08-14",
-      "count": 3
+      "count": 5
     },
     "STX": {
       "last": "2026-08-14",
-      "count": 3
+      "count": 5
     },
     "WDAY": {
       "last": "2026-08-14",
-      "count": 3
+      "count": 5
     },
     "FROG": {
       "last": "2026-08-14",
-      "count": 3
+      "count": 5
     },
     "ESTC": {
       "last": "2026-08-14",
-      "count": 3
+      "count": 5
     },
     "AUGO": {
       "last": "2026-08-14",
-      "count": 3
+      "count": 5
     },
     "PENG": {
       "last": "2026-08-14",
-      "count": 3
+      "count": 5
     },
     "CACI": {
       "last": "2026-08-14",
-      "count": 3
+      "count": 5
     },
     "BXC": {
       "last": "2026-08-14",
-      "count": 3
+      "count": 5
+    },
+    "SN": {
+      "last": "2026-08-14",
+      "count": 2
+    },
+    "AAOI": {
+      "last": "2026-08-14",
+      "count": 2
+    },
+    "FEIM": {
+      "last": "2026-08-14",
+      "count": 2
+    },
+    "W": {
+      "last": "2026-08-14",
+      "count": 2
+    },
+    "AGL": {
+      "last": "2026-08-14",
+      "count": 2
+    },
+    "MXL": {
+      "last": "2026-08-14",
+      "count": 2
+    },
+    "AXTI": {
+      "last": "2026-08-14",
+      "count": 2
+    },
+    "VSXY": {
+      "last": "2026-08-14",
+      "count": 2
+    },
+    "FET": {
+      "last": "2026-08-14",
+      "count": 2
+    },
+    "CORT": {
+      "last": "2026-08-14",
+      "count": 2
+    },
+    "AEHR": {
+      "last": "2026-08-14",
+      "count": 2
+    },
+    "ORKA": {
+      "last": "2026-08-14",
+      "count": 2
+    },
+    "NBIS": {
+      "last": "2026-08-14",
+      "count": 2
+    },
+    "MRVL": {
+      "last": "2026-08-14",
+      "count": 2
+    },
+    "CTRN": {
+      "last": "2026-08-14",
+      "count": 2
+    },
+    "EAT": {
+      "last": "2026-08-14",
+      "count": 2
+    },
+    "ALNT": {
+      "last": "2026-08-14",
+      "count": 2
+    },
+    "NSIT": {
+      "last": "2026-08-14",
+      "count": 2
+    },
+    "ALAB": {
+      "last": "2026-08-14",
+      "count": 2
+    },
+    "AMD": {
+      "last": "2026-08-14",
+      "count": 2
     }
   },
   "team4": {
@@ -270,35 +350,35 @@
     },
     "DKL": {
       "last": "2026-08-14",
-      "count": 3
+      "count": 5
     },
     "WDAY": {
       "last": "2026-08-14",
-      "count": 3
+      "count": 5
     },
     "SENEB": {
       "last": "2026-08-14",
-      "count": 3
+      "count": 5
     },
     "VSECU": {
       "last": "2026-08-14",
-      "count": 3
+      "count": 5
     },
     "FORTY": {
       "last": "2026-08-14",
-      "count": 3
+      "count": 5
     },
     "FSV": {
       "last": "2026-08-14",
-      "count": 3
+      "count": 5
     },
     "ASND": {
       "last": "2026-08-14",
-      "count": 3
+      "count": 5
     },
     "LKFN": {
       "last": "2026-08-14",
-      "count": 3
+      "count": 5
     }
   }
 }

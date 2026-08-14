@@ -560,8 +560,8 @@ window.TEAM1_DATA = {
             "url": "https://www.marketwatch.com/story/salesforces-stock-gets-a-boost-as-j-p-morgan-says-ai-fears-are-overblown-feebb221?mod=mw_rss_topstories",
             "date": "2026-08-13",
             "quote": "Salesforce's stock gets a boost as J.P. Morgan says AI fears are overblown",
-            "verified": "ok",
-            "httpStatus": 200
+            "verified": "unverified",
+            "httpStatus": 401
           }
         ]
       },
@@ -626,10 +626,10 @@ window.TEAM1_DATA = {
     ],
     "candidateCount": 14,
     "verified": {
-      "checked": 130,
-      "ok": 137,
-      "unverified": 44,
-      "dead": 0,
+      "checked": 283,
+      "ok": 314,
+      "unverified": 99,
+      "dead": 1,
       "stripped": 1,
       "removed": [
         {
@@ -643,6 +643,34 @@ window.TEAM1_DATA = {
         {
           "reason": "중복",
           "url": "https://www.riotimesonline.com/aura-minerals-q2-2026-profit-gold-hedge-gain/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sharkninja-inc-sn-hit-52-131502291.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.investing.com/news/analyst-ratings/ubs-raises-sharkninja-stock-price-target-to-219-on-product-expansion-93CH-4854619"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/3745656/sharkninja-ceo-mark-barrocas-sells-nearly-600-000-shares-worth-over-100-million-here-s-a-deeper-look-at-the-transaction/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://investor.wayfair.com/news/news-details/2026/Wayfair-Announces-Second-Quarter-2026-Results-Reports-Strongest-Free-Cash-Flow-Since-2020/default.aspx"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.stocktitan.net/sec-filings/VSCO/8-k-victoria-s-secret-co-reports-material-event-0624db68ee19.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://in.investing.com/news/stock-market-news/citi-trends-raises-2026-outlook-on-strong-q1-sales-growth-93CH-5428685"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.alphaquery.com/stock/ALAB/earnings-history"
         },
         {
           "reason": "중복",

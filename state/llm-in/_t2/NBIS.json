@@ -1,0 +1,158 @@
+{
+ "ticker": "NBIS",
+ "sector": "Communication Services",
+ "industry": "Internet Content & Information",
+ "nameKo": "네비우스 그룹",
+ "detail": {
+  "fetchedAt": "2026-08-13",
+  "nameKo": "네비우스 그룹",
+  "nameEn": "NEBIUS GROUP N V",
+  "infomaxCode": "NAS:NBIS",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "ok": true,
+   "ticker": "NBIS",
+   "items": [
+    {
+     "title": "Michael Burry's Nebius Short Is Underwater After a 454% Revenue Quarter",
+     "url": "https://www.nasdaq.com/articles/michael-burrys-nebius-short-underwater-after-454-revenue-quarter",
+     "date": "2026-08-13",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NBIS",
+      "NBIS",
+      "ORCL"
+     ]
+    },
+    {
+     "title": "Why Nebius Stock Skyrocketed Today",
+     "url": "https://www.nasdaq.com/articles/why-nebius-stock-skyrocketed-today",
+     "date": "2026-08-13",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NBIS",
+      "NBIS"
+     ]
+    },
+    {
+     "title": "Stock Market Today, Aug. 12: Nebius Group Surges on Massive Revenue Growth",
+     "url": "https://www.nasdaq.com/articles/stock-market-today-aug-12-nebius-group-surges-massive-revenue-growth",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NBIS",
+      "NBIS"
+     ]
+    },
+    {
+     "title": "CoreWeave and Nebius Group Deliver Earnings Shocker. Here's What It Signals About the Future of AI.",
+     "url": "https://www.nasdaq.com/articles/coreweave-and-nebius-group-deliver-earnings-shocker-heres-what-it-signals-about-future-ai",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CRWV",
+      "CRWV",
+      "NBIS"
+     ]
+    },
+    {
+     "title": "Nebius Group (NBIS) Reports Q2 Loss, Tops Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/nebius-group-nbis-reports-q2-loss-tops-revenue-estimates",
+     "date": "2026-08-12",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NBIS",
+      "GLOB"
+     ]
+    },
+    {
+     "title": "Nebius Posts Loss In Q2; Revenues Up 454%",
+     "url": "https://www.nasdaq.com/articles/nebius-posts-loss-q2-revenues-454",
+     "date": "2026-08-12",
+     "publisher": "RTTNews",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NBIS"
+     ]
+    },
+    {
+     "title": "Nebius Group N.V. Q2 26 Earnings Conference Call At 8:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/nebius-group-nv-q2-26-earnings-conference-call-8-00-am-et",
+     "date": "2026-08-12",
+     "publisher": "RTTNews",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NBIS"
+     ]
+    },
+    {
+     "title": "Michael Burry Just Shorted Nebius. Should Investors Avoid the Stock?",
+     "url": "https://www.nasdaq.com/articles/michael-burry-just-shorted-nebius-should-investors-avoid-stock",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NBIS",
+      "NBIS"
+     ]
+    }
+   ],
+   "directCount": 8,
+   "total": 9,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [],
+  "krReports": {
+   "total": 3,
+   "reports": [
+    {
+     "title": "[네비우스 그룹 (NAS:NBIS)] 네오클라우드 붐은 온다",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "date": "2026-08-13",
+     "summary": "- 네비우스의 2분기 그룹 매출은 5.82억달러(+454%yoy), AI Cloud 매출은 5.75억달러(+514%yoy)를 기록하며 컨센을 상회. AI 클라우드 수요 강세에 힘입어 ARR은 6월 말 기준 30억달러(+598%yoy)를 달성했으며, RPO는 400억달러를 기록.- 연간 가이던스는 그룹 매출 32억달러(+504%yoy), ARR 80억달러, EBITDA 마진 40%로 유지. 최근 바인랜드(Vineland) 데이터센터 지연 관 련 우려에도 가이던스 달성 의지를 재확인 점이 긍정적. 연간 계약용량 가이 던스는 전분기 실적발표 기준 4GW에서 5GW로 상향조정했으며, 연간 활 성용량 가이던스는 0.8~1GW 범위를 재확인. 연간 캐팩스 가이던스도 225 억달러로 유지- 고객 선수금 비중도 사상 최고치를 기록. 2분기 체결된 계약의 약 70%가 선수금 조건이 포함되었으며, 2026년 전체 선수금은 90억달러(연간 캐팩스 가이던스의 40% 수준)으로 예상. 선수금과 영업활동 현금흐름 기반의 캐팩 스 투자로, 상대적으로 안정적인 재무상태를 유지한다는 점이 네비우스가 받는 밸류에이션 프리미엄의 핵심 근거 중 하나로 판단",
+     "pages": "4",
+     "secureId": "eqlxzlzeeccixmxgcgxclei",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxzlzeeccixmxgcgxclei.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[네비우스 그룹 (NAS:NBIS)] 네비우스 실적의 함의",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "date": "2026-05-14",
+     "summary": "- 네비우스의 1분기 실적은 매출 3.99억달러(+684% yoy), AI Cloud 매출은 3.90억달러(+841% yoy)로 전체 매출의 98%를 차지. 높은 가동률과 가격 책정 효과로 GPM은 74%로 개선되었으며, 조정 EBITDA는 1.3억달러로 안정적인 흑자를 기록하며 모든 주요 지표에서 컨센을 상회- 네비우스는 Meta와 5년간 최대 270억달러 규모의 AI 인프라 공급 계약을 체결했으며, 해당 계약에는 엔비디아 Vera Rubin 플랫폼의 대규모 컴퓨팅 공급이 포함- 다만 공격적인 AI 캐팩스 투자로 인한 재무 부담은 여전히 리스크 요인. 1분 기 GAAP 순이익은 ClickHouse 지분가치 재평가에 따른 비현금성 이익이 반영된 수치이며, 조정 순손실은 1억달러를 기록",
+     "pages": "4",
+     "secureId": "eqqlqexxxkizkgigcgxclei",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlqexxxkizkgigcgxclei.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[네비우스 그룹 (NAS:NBIS)] 엔비디아와 마이크로소프트가 선택한 기업",
+     "broker": "키움증권",
+     "analyst": "조민주",
+     "date": "2025-09-26",
+     "summary": "- 네덜란드 암스테르담에 본사를 둔 AI 인프라 기업- 엔비디아와 직접 연계된 네오클라우드 업체로 마이크로소프트와 대규모 계약 체결- 향후 타 빅테크와의 추가 계약 가능성 존재하며, 2026년까지 용량 5배 확장 계획",
+     "pages": "7",
+     "secureId": "eqzllkgxzemcglggcgxclei",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzllkgxzemcglggcgxclei.pdf",
+     "opinion": null
+    }
+   ],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}

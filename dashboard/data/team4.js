@@ -1209,8 +1209,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.investing.com/news/earnings/lakeland-financial-beats-earnings-but-misses-on-revenue-93CH-4813605",
                 "date": "2026-07-27",
                 "quote": "Lakeland Financial reported second quarter adjusted earnings per share of $1.13, surpassing the analyst consensus of $1.08, however revenue of $70.9 million fell short of the $72.25 million analyst estimate.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
