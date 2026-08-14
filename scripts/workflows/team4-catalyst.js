@@ -44,8 +44,11 @@ const tryAgent = async (p, o) => {
 }
 
 const SOURCE = { type: 'object', properties: {
-  title: { type: 'string' }, publisher: { type: 'string' }, url: { type: 'string' }, date: { type: 'string' }, quote: { type: 'string' },
-}, required: ['title', 'publisher', 'url', 'date'] }
+  title: { type: 'string' }, publisher: { type: 'string' }, url: { type: 'string' }, date: { type: 'string' },
+  // ⚠️ quote 를 required 로 걸되 "제공된 자료의 문장"도 인정한다(RULES 참조).
+  //    그냥 필수로만 걸면 원문을 못 읽는 유료기사·국내 PDF 인용이 통째로 강등돼 보고서가 더 얇아진다.
+  quote: { type: 'string', description: '실제로 읽은 원문 문장 그대로. 웹에서 읽은 문장이거나 위에 제공된 자료(뉴스 제목·리포트 요약·실적 수치)의 문장. 요약하거나 번역하지 마라' },
+}, required: ['title', 'publisher', 'url', 'date', 'quote'] }
 
 const CLAIM = { type: 'object', properties: {
   id: { type: 'string' }, statement: { type: 'string' },
@@ -58,10 +61,11 @@ const CAT = { type: 'object', properties: {
   category: { type: 'number', enum: [1, 2, 3, 4, 5, 6] },
   categoryName: { type: 'string' },
   claims: { type: 'array', items: CLAIM },
-  volumeExplanation: { type: 'string', description: '거래량이 왜 터졌는지 한두 문장' },
+  company: { type: 'string', description: '이 회사가 뭐 하는 곳인지 2~4문장, 쉬운 말로. 무엇을 팔아 돈을 버는지' },
+  volumeExplanation: { type: 'string', description: '거래량이 왜 터졌는지 3~5문장. 언제·무슨 일이 있었고 왜 그게 거래량으로 이어졌는지. 숫자와 날짜를 넣어라' },
   isHighlight: { type: 'boolean', description: 'category 1 또는 5 이면 true' },
   confidence: { type: 'string', enum: ['high', 'medium', 'low'] },
-}, required: ['ticker', 'category', 'categoryName', 'claims', 'isHighlight'] }
+}, required: ['ticker', 'category', 'categoryName', 'claims', 'company', 'volumeExplanation', 'isHighlight'] }
 
 const CATEGORIES = `
 ① 어닝 서프라이즈 및 향후 실적 가이던스 상향 ★가장 중요
@@ -80,7 +84,17 @@ const RULES = `
    claims 에 evidence_level:"no_source", statement:"근거 없음" 을 넣어라.
    "뭔가 있을 것"이라는 추측으로 ①~⑤ 를 고르지 마라. 이게 가장 흔한 실수다.
 4. 검색결과 페이지는 출처가 아니다.
-5. 아래 제공된 숫자(VOL_X·거래량배수·Congestion)는 바꾸지 마라.`
+5. 아래 제공된 숫자(VOL_X·거래량배수·Congestion)는 바꾸지 마라.
+6. **quote 에는 실제로 읽은 문장을 원문 그대로 넣는다.** 제공된 뉴스 제목·공시 내용도 된다.
+   요약해서 새로 쓰지 마라. 없으면 그 주장은 no_source 다.
+
+## 글의 형태
+- company(이 회사가 뭐 하는 곳인지) → volumeExplanation(무슨 일이 있었고 왜 거래량으로 이어졌는지)
+  → claims(출처 딸린 근거) 순서다.
+- **각 문장에 숫자나 날짜를 넣어라.** 그 숫자는 quote 나 제공된 자료에 실제로 있어야 한다.
+- 분량을 채우려고 추측하지 마라. 모르면 ⑥ 으로 분류하고 짧게 "근거 없음"이라고 적어라.
+- **영문 약어를 그냥 쓰지 마라.** 뜻을 먼저 쓰고 이름은 괄호에 넣어라 —
+  "VOL_X 3.1" 이 아니라 "거래대금이 20일 평균의 3.1배(VOL_X)". 중학생도 이해할 수 있게 쓴다.`
 
 phase('촉매분류')
 const targets = items.slice(0, CAP)
@@ -103,6 +117,8 @@ ${CATEGORIES}
 
 ## 할 일
 이 종목의 거래량이 터진 이유를 6분류 중 하나로 판정하고 근거를 대세요.
+먼저 **이 회사가 뭐 하는 곳인지**(company) 부터 적으세요 — 뭘 하는 회사인지 모르면
+왜 올랐는지도 이해할 수 없습니다.
 ${RULES}
 한글로 작성하세요.`,
     { label: `촉매:${it.ticker}`, phase: '촉매분류', schema: CAT, model: 'sonnet' }
@@ -138,6 +154,7 @@ ${JSON.stringify(b, null, 1)}
 확인 사항:
 - 출처가 그 주장을 실제로 뒷받침하는가 (무관하면 removed_claim_ids)
 - 다른 회사 뉴스를 근거로 쓰지 않았는가
+- **statement 안의 숫자·날짜가 quote 나 출처 제목에 실제로 있는가?** 없으면 제거하라
 - **근거가 빈약한데 ①~⑤ 로 분류했으면 correctedCategory: 6 으로 정정하라.** 이게 핵심 검증 포인트다
 - ①(어닝) 로 분류했으면 실제 실적 발표 근거(8-K item 2.02 또는 실적 기사)가 있는가`,
   { label: `팩트체크:${i + 1}/${batches.length}`, phase: '팩트체크', schema: CHECK, model: 'haiku' }

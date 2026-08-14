@@ -103,5 +103,47 @@ for (const [f, needle] of [['team1-news.js', 'result'], ['chief-report.js', 'rep
   });
 }
 
+console.log('\n[6] 무거운 자료를 파일로 넘기는 분기가 있다 (인라인 인자 회귀 방지)');
+// 한 파일에 몰면 60종목 × 상세 = 580KB 라 에이전트의 Read 가 잘려 자료를 못 본다.
+for (const [f, key] of [['team2-research.js', 'argsDir'], ['team4-catalyst.js', 'argsDir'],
+  ['team5-sector.js', 'argsFile'], ['chief-report.js', 'argsFile']]) {
+  ok(`${f} — ${key} 분기가 있다`, () => {
+    assert.ok(new RegExp(`A\\.${key}`).test(src[f]), `${key} 를 읽지 않는다 — 인자를 인라인으로 되돌린 것`);
+    assert.ok(/Read 도구로/.test(src[f]), '에이전트에게 파일을 읽으라는 지시가 없다');
+  });
+}
+
+console.log('\n[7] 리포트형 규격이 유지되는가 (2026-08-14)');
+// "더 자세히"가 "더 그럴듯하게 지어내기"가 되지 않도록 스키마·프롬프트 쪽 방어를 고정한다.
+for (const f of ['team2-research.js', 'team4-catalyst.js', 'team5-sector.js']) {
+  ok(`${f} — quote 가 required 이고 인정 범위가 명시돼 있다`, () => {
+    assert.ok(/required: \['title', 'publisher', 'url', 'date', 'quote'\]/.test(src[f]),
+      'quote 가 required 가 아니다 — 숫자의 출처를 확인할 방법이 사라진다');
+    assert.ok(/제공된 자료|memberNews|뉴스 제목/.test(src[f]),
+      'Node 가 준 자료의 인용을 인정한다는 문구가 없다 — 가장 안전한 인용이 오히려 강등된다');
+  });
+  ok(`${f} — 팩트체크가 숫자·날짜의 출처를 검사한다`, () => {
+    assert.ok(/숫자·날짜가 quote 나 출처 제목에 실제로 있는가/.test(src[f]),
+      '팩트체크가 제목·발행처만 보고 판단한다 — 분량이 늘면 수치 창작이 가장 위험하다');
+  });
+  ok(`${f} — 분량을 위해 추측하지 말라는 규칙이 있다`, () => {
+    assert.ok(/분량을 (채우|늘리)려고/.test(src[f]), '분량 압박에 대한 방어 문구가 없다');
+  });
+}
+ok('team1-news.js — SOURCE 의 date 가 required 다', () => {
+  // date 가 빠지면 verify-claims 의 미래 날짜 검사를 1팀 출처만 통과해 버린다
+  assert.ok(/required: \['title', 'publisher', 'url', 'date', 'quote'\]/.test(src['team1-news.js']),
+    '1팀 SOURCE 에 date·quote 가 required 가 아니다');
+});
+ok('chief-report.js — caution 이 required 다', () => {
+  // 프롬프트는 필수라고 말하는데 스키마는 선택이었다 — 어긋나 있었다
+  assert.ok(/required: \[[^\]]*'caution'\]/.test(src['chief-report.js']), 'caution 이 required 가 아니다');
+});
+ok('team5-sector.js — 팩트체크 단계가 있다', () => {
+  assert.ok(/phase\('팩트체크'\)/.test(src['team5-sector.js']),
+    '5팀만 팩트체크가 없으면 출처 없는 업종 서술이 그대로 실장까지 올라간다');
+  assert.ok(/{ title: '팩트체크'/.test(src['team5-sector.js']), 'meta.phases 에 팩트체크가 없다');
+});
+
 console.log(`\n${fail ? '❌' : '✅'} 통과 ${pass} · 실패 ${fail}`);
 process.exit(fail ? 1 : 0);

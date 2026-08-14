@@ -1292,10 +1292,15 @@ function bodyFor(id){
           +`</div>`;
         // 요구사항: 왜 올랐는지 앞에 "이 회사가 뭐 하는 곳인지"가 먼저 와야 한다.
         // 이미 매일 생성되고 있었는데(team2 스키마 필수) 화면에 한 번도 안 나왔다.
-        if(R.company)b+=clip(`<div class="pi" style="margin-top:7px">${esc(R.company)}</div>`,3);
+        if(R.company)b+=clip(`<div class="pi" style="margin-top:7px">${esc(R.company)}</div>`,4);
+        // 리포트형: 리드문 → 근거 → 반대 근거
+        if(R.lead)b+=clip(`<div class="pi lead" style="margin-top:7px">${esc(R.lead)}</div>`,4);
         // ⚠️ whyRose[0] 만 보면 그 항목이 출처검증에서 걸러졌을 때 종목 전체가 근거 없어 보인다.
         const cl=claimList(R.whyRose);
         b+=cl||`<div class="nosrc" style="margin-top:6px">검증을 통과한 상승 이유 근거가 없습니다 (지어내지 않습니다)</div>`;
+        // 반대 근거는 비어 있는 게 정상이다 — 없으면 그냥 안 그린다(칸을 채우려 지어내지 않는다)
+        const cp=claimList(R.counterpoint);
+        if(cp)b+=`<div class="note" style="margin-top:6px;color:var(--yel)"><b>반대 근거·한계</b></div>`+cp;
         const rc=(rev.claims||[]).filter(c=>c.evidence_level==='sourced');
         if(rc.length)b+=`<div class="note" style="margin-top:6px"><b>증권사 전망치</b></div>`+claimList(rc,{quote:false});
         const uc=R.upcomingCatalyst;
@@ -1376,6 +1381,7 @@ function bodyFor(id){
           let b=`<div style="margin-bottom:15px"><div><b>${esc(window.indKo?window.indKo(x.industry):x.industry)}</b>
             <span class="chip">${esc(DRIVER_KO[x.driver]||x.driver||'')}</span>
             <span class="chip">${esc(DURA_KO[x.durability]||x.durability||'')}</span></div>`;
+          if(x.lead)b+=clip(`<div class="pi lead" style="margin-top:6px">${esc(x.lead)}</div>`,4);
           const cl=claimList(x.whyStrong);
           b+=cl||`<div class="nosrc">검증을 통과한 근거가 없습니다</div>`;
           if((x.keyStocks||[]).length)b+=`<div class="note"><b>대표 종목:</b> ${x.keyStocks.map(s=>esc(s)).join(' · ')}</div>`;

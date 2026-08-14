@@ -56,8 +56,10 @@ const tryAgent = async (p, o) => {
 const SOURCE = { type: 'object', properties: {
   title: { type: 'string' }, publisher: { type: 'string' },
   url: { type: 'string' }, date: { type: 'string' },
-  quote: { type: 'string', description: '근거가 되는 원문 문장 1개. 번역하지 말고 원문 그대로.' },
-}, required: ['title', 'publisher', 'url', 'date'] }
+  // ⚠️ quote 를 required 로 걸되 "제공된 자료의 문장"도 인정한다(RULES 참조).
+  //    그냥 필수로만 걸면 원문을 못 읽는 유료기사·국내 PDF 인용이 통째로 강등돼 보고서가 더 얇아진다.
+  quote: { type: 'string', description: '실제로 읽은 원문 문장 그대로. 웹에서 읽은 문장이거나 위에 제공된 자료(뉴스 제목·리포트 요약·실적 수치)의 문장. 요약하거나 번역하지 마라' },
+}, required: ['title', 'publisher', 'url', 'date', 'quote'] }
 
 const CLAIM = { type: 'object', properties: {
   id: { type: 'string' },
@@ -68,8 +70,10 @@ const CLAIM = { type: 'object', properties: {
 
 const STOCK = { type: 'object', properties: {
   ticker: { type: 'string' },
-  company: { type: 'string', description: '이 회사가 뭐 하는 곳인지 2~3문장, 쉬운 말로' },
-  whyRose: { type: 'array', items: CLAIM, description: '최근 상승 이유. 각 항목에 출처 필수' },
+  company: { type: 'string', description: '이 회사가 뭐 하는 곳인지 4~6문장. 무엇을 팔아 돈을 버는지 · 주 고객이 누구인지 · 지금 왜 주목받는지. 중학생도 이해할 쉬운 말로' },
+  lead: { type: 'string', description: '리포트 첫 문단 3~5문장. 이 회사가 뭐 하는 곳이고 지금 무슨 일이 벌어지고 있는지를 한 문단으로. 아래 근거의 요약이어야 하며 새 사실을 넣지 마라' },
+  whyRose: { type: 'array', items: CLAIM, description: '최근 상승 이유 3~6개. 각 항목에 출처 필수. 각 문장에 숫자나 날짜를 넣어라' },
+  counterpoint: { type: 'array', items: CLAIM, description: '반대 근거·한계·리스크. 없으면 빈 배열로 두라 — 칸을 채우려고 지어내지 마라' },
   estimateRevisions: { type: 'object', properties: {
     direction: { type: 'string', enum: ['raised', 'lowered', 'mixed', 'none', 'unknown'] },
     claims: { type: 'array', items: CLAIM },
@@ -77,7 +81,7 @@ const STOCK = { type: 'object', properties: {
   themeTags: { type: 'array', items: { type: 'string' } },
   upcomingCatalyst: { type: 'object', properties: { date: { type: 'string' }, what: { type: 'string' }, sources: { type: 'array', items: SOURCE } } },
   confidence: { type: 'string', enum: ['high', 'medium', 'low'] },
-}, required: ['ticker', 'company', 'whyRose', 'estimateRevisions', 'confidence'] }
+}, required: ['ticker', 'company', 'lead', 'whyRose', 'estimateRevisions', 'confidence'] }
 
 const RULES = `
 반드시 지킬 것 (어기면 결과를 폐기한다):
@@ -86,8 +90,20 @@ const RULES = `
 3. 검색해도 근거를 못 찾으면 evidence_level:"no_source", statement:"근거 없음", sources:[] 로 반환한다.
    **추측으로 채우지 마라.** 빈 결과는 실패가 아니라 정상이다.
 4. 검색결과 페이지(google.com/search 등)는 출처가 아니다. 원문 기사 URL 을 써라.
-5. quote 에는 번역이 아니라 원문 문장을 그대로 넣는다.
-6. 아래 "이미 확보된 자료"에 있는 숫자는 절대 바꾸지 마라. 해석만 하라.`
+5. **quote 에는 실제로 읽은 문장을 원문 그대로 넣는다.** 웹에서 읽은 기사 문장이거나,
+   위에 제공된 자료(뉴스 제목·국내 리포트 요약·SEC 실적 수치)의 문장이면 된다.
+   둘 다 아니면 그 주장은 evidence_level:"no_source" 다. **요약해서 새로 쓰지 마라. 번역하지 마라.**
+6. 제공된 자료에 있는 숫자는 절대 바꾸지 마라. 해석만 하라.
+
+## 글의 형태 — 리포트로 쓴다
+- **lead(리드문) → whyRose(근거) → counterpoint(반대 근거)** 순서다. 리드문은 아래 근거의 요약이며
+  리드문에만 있고 근거에 없는 사실을 쓰면 안 된다.
+- **각 근거 문장에는 숫자나 날짜를 최소 하나 넣어라.** 그 숫자는 quote 나 제공된 자료에 실제로 있어야 한다.
+  "실적이 좋았다"가 아니라 "8월 4일 발표한 2분기 매출이 1억8,220만 달러로 전년비 11% 늘었다".
+- 분량을 채우려고 추측을 늘리지 마라. **확인 못 한 것은 짧게 "근거 없음"이라고 적는 것이 낫다.**
+- **영문 약어를 그냥 쓰지 마라.** 뜻을 먼저 쓰고 이름은 괄호에 넣어라 —
+  "VOL_X 3.1" 이 아니라 "거래대금이 20일 평균의 3.1배(VOL_X)". 중학생도 이해할 수 있게 쓴다.
+- 전문용어는 괄호로 풀어라. 길어졌다고 어려워지면 안 된다.`
 
 phase('종목리서치')
 const targets = picks.slice(0, CAP)
@@ -112,9 +128,14 @@ ${evidenceBlock(p.ticker, { fin, news, filings, kr })}
 
 ## 할 일
 위 자료를 출발점으로 **웹검색을 더 해서** 다음을 채우세요.
-- company: 이 회사가 뭐 하는 곳인지 2~3문장, 중학생도 이해할 쉬운 말로
-- whyRose: **최근 이 종목이 오른 이유**를 2~4개 항목으로. 각 항목에 출처 URL 필수.
+- company: **이 회사가 뭐 하는 곳인지 4~6문장.** 무엇을 팔아 돈을 버는지, 주 고객이 누구인지,
+  지금 왜 주목받는지. 중학생도 이해할 쉬운 말로. (사용자가 명시적으로 요구한 항목이다)
+- lead: 리포트 첫 문단 3~5문장. 회사가 뭐 하는 곳이고 지금 무슨 일이 벌어지는지 한 문단으로.
+  **아래 whyRose 의 요약이어야 한다** — 리드문에만 있고 근거에 없는 사실을 쓰지 마라.
+- whyRose: **최근 이 종목이 오른 이유**를 3~6개 항목으로. 각 항목에 출처 URL 필수.
   위에 제공된 뉴스·리포트·8-K 를 근거로 써도 좋다(그게 가장 안전하다).
+- counterpoint: **반대 근거·한계·리스크.** 실적은 좋은데 주가가 빠졌다든지, 증자·희석이 있었다든지,
+  성장률이 둔화됐다든지. 찾은 만큼만 쓰고 **없으면 빈 배열로 둬라 — 칸을 채우려고 지어내지 마라.**
 - estimateRevisions: 증권사가 최근 이 종목의 **실적 전망치를 상향/하향 조정했는지**와 그 이유.
   국내 리포트 요약에 단서가 있으면 활용하라. 확인 안 되면 direction:"unknown", claims:[] 로 두라.
 - themeTags: 이 종목을 묶을 수 있는 테마 (예: "AI 인프라", "비만치료제"). 없으면 빈 배열.
@@ -151,13 +172,17 @@ const CHECK = { type: 'object', properties: { results: { type: 'array', items: {
 const checks = await parallel(batches.map((b, i) => () => tryAgent(
   `다음 종목 리서치 결과를 검증하세요. 오늘은 ${date}.
 
-${JSON.stringify(b.map((x) => ({ ticker: x.ticker, whyRose: x.whyRose, estimateRevisions: x.estimateRevisions })), null, 1)}
+${JSON.stringify(b.map((x) => ({ ticker: x.ticker, whyRose: x.whyRose, counterpoint: x.counterpoint, estimateRevisions: x.estimateRevisions })), null, 1)}
 
 각 claim 에 대해 다음을 확인하고, 문제가 있으면 removed_claim_ids 에 넣으세요:
+- **statement 안의 숫자·날짜가 quote 나 출처 제목에 실제로 있는가?** 없으면 제거하라.
+  분량을 늘리려고 그럴듯한 수치를 지어내는 것이 가장 위험하다. 이게 최우선 검증 항목이다.
 - 출처 URL 이 그 주장을 실제로 뒷받침하는가 (제목·발행처가 주장과 무관하면 제거)
 - 다른 회사 기사를 이 종목 근거로 쓰지 않았는가
 - 날짜가 "최근 상승"을 설명하기에 너무 오래되지 않았는가 (6개월 초과면 의심)
 - evidence_level 이 'sourced' 인데 sources 가 비어있지 않은가
+- counterpoint 가 근거 없이 "리스크가 있을 수 있다" 식으로 채워져 있으면 제거하라.
+  반대 근거는 있으면 좋지만 **지어낸 반대 근거는 없느니만 못하다.**
 
 의심스러우면 제거하는 쪽을 택하세요. 근거 없는 주장이 남는 것보다 낫습니다.`,
   { label: `팩트체크:${i + 1}/${batches.length}`, phase: '팩트체크', schema: CHECK, model: 'haiku' }
@@ -172,6 +197,7 @@ for (const s of clean) {
   const rm = new Set(r.removed_claim_ids || [])
   s.factcheck = { verdict: r.verdict, removed: [...rm], reasons: r.reasons || [] }
   s.whyRose = (s.whyRose || []).filter((c) => !rm.has(c.id))
+  s.counterpoint = (s.counterpoint || []).filter((c) => !rm.has(c.id))
   if (s.estimateRevisions) s.estimateRevisions.claims = (s.estimateRevisions.claims || []).filter((c) => !rm.has(c.id))
   if (!s.whyRose.length) s.whyRose = [{ id: 'none', statement: '검증을 통과한 상승 이유 근거 없음', evidence_level: 'no_source', sources: [] }]
 }

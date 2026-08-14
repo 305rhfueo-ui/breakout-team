@@ -111,7 +111,41 @@ else {
   });
 }
 
-console.log('\n[4] 대시보드에 죽은 하드코딩이 되살아나지 않았는가');
+/* 리포트형(2026-08-14)으로 새로 넣은 필드들.
+   오늘 데이터에는 아직 없을 수 있으므로 값을 주입해 렌더 경로가 살아있는지 본다.
+   실데이터를 기다렸다가 "안 나오네" 하고 발견하는 걸 막는 게 목적이다. */
+console.log('\n[4] 리포트형 신규 필드 — lead · counterpoint · 4팀 company');
+const SENT = 'ZZSENTINEL리드문검사용문자열';
+const mkClaim = (txt) => ({ id: 'zz1', statement: txt, evidence_level: 'sourced',
+  sources: [{ title: 't', publisher: 'p', url: 'https://example.org/zz', date: '2026-08-14', quote: 'q' }] });
+
+if (!done2.length) skipIt('2팀 lead·counterpoint 렌더', '2팀 리서치 데이터 없음');
+else {
+  ok('2팀 lead(리드문)가 렌더된다', () => {
+    done2[0].research.lead = SENT + 'A';
+    assert.ok(ctx.bodyFor('t2').includes(SENT + 'A'), 'lead 가 화면에 없다');
+  });
+  ok('2팀 counterpoint(반대 근거)가 렌더된다', () => {
+    done2[0].research.counterpoint = [mkClaim(SENT + 'B')];
+    assert.ok(ctx.bodyFor('t2').includes(SENT + 'B'), 'counterpoint 가 화면에 없다');
+  });
+  ok('counterpoint 가 비어도 빈 제목만 남지 않는다', () => {
+    done2[0].research.counterpoint = [];
+    assert.ok(!ctx.bodyFor('t2').includes('반대 근거·한계'), '반대 근거가 없는데 제목만 그려진다');
+  });
+}
+if (!done4.length) skipIt('4팀 company 렌더', '4팀 촉매 데이터 없음');
+else ok('4팀 company(회사 설명)가 렌더된다', () => {
+  done4[0].catalyst.company = SENT + 'C';
+  assert.ok(ctx.bodyFor('t4').includes(SENT + 'C'), '4팀 회사 설명이 화면에 없다');
+});
+if (!inds.length) skipIt('5팀 lead 렌더', '5팀 업종 데이터 없음');
+else ok('5팀 lead(리드문)가 렌더된다', () => {
+  inds[0].lead = SENT + 'D';
+  assert.ok(ctx.bodyFor('t5').includes(SENT + 'D'), '5팀 리드문이 화면에 없다');
+});
+
+console.log('\n[5] 대시보드에 죽은 하드코딩이 되살아나지 않았는가');
 const room = fs.readFileSync(path.join(REPO, 'dashboard', 'breakout-room.html'), 'utf8');
 ok('표 열 렌더러가 행 데이터를 읽지 않고 상수 배지를 뿌리지 않는다', () => {
   // 2026-08-11 4팀 촉매 열, 2026-08-13 2팀 리서치 열에서 같은 버그가 났다.

@@ -13,15 +13,20 @@ const date = (A && A.date) || 'today'
 const candidates = (A && A.candidates) || []
 const ctx = (A && A.context) || {}
 
+/* ⚠️ date 가 required 가 아니면 verify-claims.js 의 미래 날짜 검사를 1팀 출처만 통과해 버린다
+      (검사가 s.date 를 보기 때문). 후보 목록에 날짜가 없으면 빈 문자열로 두게 하고 required 로 건다 —
+      빈 문자열은 검사에서 그냥 건너뛴다. quote 도 2·4·5팀과 맞춰 추가한다. */
 const SOURCE = { type: 'object', properties: {
-  title: { type: 'string' }, publisher: { type: 'string' }, url: { type: 'string' }, date: { type: 'string' },
-}, required: ['title', 'publisher', 'url'] }
+  title: { type: 'string' }, publisher: { type: 'string' }, url: { type: 'string' },
+  date: { type: 'string', description: '후보 목록의 날짜 그대로. 없으면 빈 문자열' },
+  quote: { type: 'string', description: '실제로 읽은 원문 문장. 못 읽었으면 후보 목록의 제목을 그대로 복사' },
+}, required: ['title', 'publisher', 'url', 'date', 'quote'] }
 
 const NEWS = { type: 'object', properties: {
   digest: { type: 'array', items: { type: 'object', properties: {
     headline: { type: 'string', description: '한국어 헤드라인' },
-    easy: { type: 'string', description: '중학생도 이해할 3~5문장 설명. 비유를 쓰고 전문용어는 괄호로 풀어라' },
-    whyMatters: { type: 'string', description: '이게 왜 중요한지, 내 종목에 어떤 영향인지' },
+    easy: { type: 'string', description: '중학생도 이해할 4~6문장 설명. 무슨 일이 있었는지 · 왜 그런 일이 생겼는지 · 그래서 뭐가 달라지는지. 비유를 쓰고 전문용어는 괄호로 풀어라' },
+    whyMatters: { type: 'string', description: '이게 왜 중요한지를 2~4문장. **구체적인 업종이나 종목 이름을 들어** 어떤 영향인지 답하라. 위 주도 섹터 목록을 활용하라' },
     impact: { type: 'string', enum: ['up', 'down', 'neutral'] },
     sources: { type: 'array', items: SOURCE },
   }, required: ['headline', 'easy', 'whyMatters', 'impact', 'sources'] } },
@@ -63,7 +68,13 @@ ${candidates.map((c, i) => `[${i + 1}] ${c.date || ''} [${c.publisher}] ${c.titl
 3. easy 는 **중학생도 이해할 수 있게** 비유를 써서 3~5문장. 전문용어는 괄호로 풀어라.
    (예: "연준이 금리를 내렸습니다(금리 = 돈을 빌릴 때 내는 이자). 돈이 싸지면...")
 4. 위에 제공된 QQQ·마진부채 숫자를 인용할 때 값을 바꾸지 마라.
-5. whyMatters 는 "그래서 내 종목에 뭐가 달라지나"를 답하라.
+5. whyMatters 는 "그래서 내 종목에 뭐가 달라지나"를 **구체적인 업종·종목 이름을 들어** 답하라.
+   "기술주에 영향"처럼 뭉뚱그리지 말고 위에 준 주도 섹터를 근거로 어디에 어떻게 영향인지 써라.
+   후보 기사에 없는 종목의 실적·사건을 지어내지는 마라 — 영향의 방향만 말하라.
+6. **quote 에는 실제로 읽은 문장을 그대로 넣어라.** 기사 본문을 못 읽었으면
+   위 후보 목록의 제목을 그대로 복사해라. **요약해서 새로 쓰거나 번역하지 마라.**
+7. date 는 후보 목록의 날짜를 그대로 쓰고, 목록에 날짜가 없으면 빈 문자열로 둬라. **추정하지 마라.**
+8. 길게 쓰되 **분량을 채우려고 추측을 늘리지 마라.** 확인 못 한 것은 쓰지 않는다.
 
 한글로 작성하세요.`,
   { label: '시황뉴스', phase: '시황뉴스', schema: NEWS, model: 'opus' }

@@ -119,6 +119,40 @@ ok('4팀 — 촉매 미조사 종목이 실제로 미조사로 표시된다', ()
     '촉매 열이 다시 하드코딩됐다 — r.catalyst 를 읽어야 한다');
 });
 
+/* 분량을 늘린 만큼 방어도 올린다(2026-08-14).
+   'sourced' 인데 인용문이 없으면 그 주장이 실제로 어디서 나왔는지 확인할 방법이 없다.
+   스키마에서 quote 를 required 로 걸었으므로 결과에도 있어야 한다.
+   ⚠️ 규칙 적용일 이전 데이터는 경고만 — 매일 빨간불이 남는 게 더 나쁘다. */
+console.log('\n[3b] sourced 인데 인용문(quote)이 빠진 주장이 없는가');
+const QUOTE_FROM = '2026-08-14';
+function claimsOf() {
+  const out = [];
+  const t2 = load('team2.js', 'TEAM2_DATA'), t4 = load('team4.js', 'TEAM4_DATA'), t5 = load('team5.js', 'TEAM5_DATA');
+  for (const p of ((t2 && t2.picks) || [])) {
+    const R = p.research; if (!R || R.status !== 'done') continue;
+    for (const c of [...(R.whyRose || []), ...(R.counterpoint || []), ...((R.estimateRevisions || {}).claims || [])]) out.push([p.ticker, c]);
+  }
+  for (const i of ((t4 && t4.items) || [])) {
+    const C = i.catalyst; if (!C || C.status !== 'done') continue;
+    for (const c of (C.claims || [])) out.push([i.ticker, c]);
+  }
+  for (const x of (((t5 && t5.llm) || {}).industries || [])) for (const c of (x.whyStrong || [])) out.push([x.industry, c]);
+  return out;
+}
+const allClaims = claimsOf();
+const noQuote = allClaims.filter(([, c]) => c.evidence_level === 'sourced'
+  && (c.sources || []).length && !(c.sources || []).some((s) => s && String(s.quote || '').trim().length > 8));
+const t2d = load('team2.js', 'TEAM2_DATA');
+const runDate = String((t2d && (t2d.generated || t2d.date)) || '');   // team2.js 의 날짜 필드는 generated
+if (!allClaims.length) console.log('  ⏭️  LLM 주장 데이터 없음');
+else if (runDate && runDate < QUOTE_FROM) {
+  console.log(`  ⏭️  ${runDate} 데이터 — quote 필수화(${QUOTE_FROM}) 이전이라 경고만`
+    + `\n     인용문 없는 sourced 주장 ${noQuote.length}/${allClaims.length}건`);
+} else ok(`sourced 주장 ${allClaims.length}건 전부 인용문이 있다`, () => {
+  assert.strictEqual(noQuote.length, 0,
+    `인용문 없는 주장 ${noQuote.length}건: ${noQuote.slice(0, 6).map(([t, c]) => `${String(t).slice(0, 20)}#${c.id}`).join(', ')}`);
+});
+
 console.log('\n[4] ETF·ETN 이 섞이지 않았는가');
 const isEtfRow = (x) => String(x.sector || '').toUpperCase() === 'ETF'
   || String(x.industry || '').toUpperCase() === 'ETF';

@@ -398,6 +398,7 @@ function indCards(list,one){
     let b=`<div class="card"><h2>${esc(window.indKo?window.indKo(x.industry):x.industry)}</h2>
       <div><span class="b b-dim">${esc(DRV_KO[x.driver]||x.driver||'')}</span>
       <span class="b b-dim">${esc(DUR_KO[x.durability]||x.durability||'')}</span></div>`;
+    if(x.lead)b+=`<div class="lead">${esc(x.lead)}</div>`;
     b+=rClaims(x.whyStrong)||`<div class="pending">검증을 통과한 근거가 없습니다</div>`;
     if((x.keyStocks||[]).length)b+=`<div class="note"><b>대표 종목:</b> ${x.keyStocks.map(s=>esc(s)).join(' · ')}</div>`;
     if(x.risk)b+=`<div class="note" style="color:var(--yel)"><b>꺾이는 조건</b></div><div class="note">${esc(x.risk)}</div>`;
@@ -962,7 +963,11 @@ function openModal(t){
   h+=`<div class="card"><h2>이 회사는 · 왜 올랐나</h2>`;
   if(R&&R.status==='done'){
     if(R.company)h+=`<div class="lead">${esc(R.company)}</div>`;
+    if(R.lead)h+=`<div class="lead">${esc(R.lead)}</div>`;
     h+=rClaims(R.whyRose)||`<div class="pending">검증을 통과한 상승 이유 근거가 없습니다 (지어내지 않습니다)</div>`;
+    // 반대 근거는 비어 있는 게 정상 — 없으면 그리지 않는다
+    const cpx=rClaims(R.counterpoint);
+    if(cpx)h+=`<div class="note" style="color:var(--yel)"><b>반대 근거·한계</b></div>`+cpx;
     const rev=R.estimateRevisions||{};
     const revKo={raised:'📈 상향',lowered:'📉 하향',mixed:'혼조',none:'조정 없음',unknown:'확인 안 됨'}[rev.direction];
     const rc=(rev.claims||[]).filter(c=>c.evidence_level==='sourced');

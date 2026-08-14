@@ -191,6 +191,7 @@ async function main() {
         const nm = p.nameKo || p.nameEn || '';
         S.push(`#### ${p.ticker}${nm ? ` · ${nm}` : ''} — ${p.industry || p.sector}`);
         if (R.company) S.push('', R.company);
+        if (R.lead) S.push('', R.lead);   // 리포트형: 리드문 → 근거 → 반대 근거
         const cl = (R.whyRose || []).filter((c) => c.evidence_level === 'sourced' && (c.sources || []).length);
         if (cl.length) {
           S.push('', '**왜 올랐나**');
@@ -203,6 +204,16 @@ async function main() {
           }
         } else {
           S.push('', '**왜 올랐나** — 검증을 통과한 근거가 없습니다 (지어내지 않습니다)');
+        }
+        // 반대 근거는 비어 있는 게 정상이다 — 있을 때만 쓴다
+        const cp = (R.counterpoint || []).filter((c) => c.evidence_level === 'sourced' && (c.sources || []).length);
+        if (cp.length) {
+          S.push('', '**반대 근거·한계**');
+          for (const c of cp) {
+            const src = (c.sources || []).slice(0, 4)
+              .map((s) => `[${s.publisher || '출처'}${s.date ? ' ' + String(s.date).slice(0, 10) : ''}](${s.url})`).join(' · ');
+            S.push(`- ${c.statement} ${src}`);
+          }
         }
         const rev = R.estimateRevisions || {};
         const rc2 = (rev.claims || []).filter((c) => c.evidence_level === 'sourced');

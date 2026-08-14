@@ -4,6 +4,7 @@ export const meta = {
   whenToUse: 'start breakout 실행 시. WRS 상위 업종의 강세 사유를 조사할 때',
   phases: [
     { title: '업종분석', detail: '상위 업종별 강세 사유 (웹검색, 출처 필수)' },
+    { title: '팩트체크', detail: '출처 없는 주장 제거 (3업종 배치)' },
     { title: '종합', detail: '섹터 로테이션 해석' },
   ],
 }
@@ -34,8 +35,11 @@ const tryAgent = async (p, o) => {
 }
 
 const SOURCE = { type: 'object', properties: {
-  title: { type: 'string' }, publisher: { type: 'string' }, url: { type: 'string' }, date: { type: 'string' }, quote: { type: 'string' },
-}, required: ['title', 'publisher', 'url', 'date'] }
+  title: { type: 'string' }, publisher: { type: 'string' }, url: { type: 'string' }, date: { type: 'string' },
+  // ⚠️ quote 를 required 로 걸되 "제공된 자료의 문장"도 인정한다(RULES 참조).
+  //    그냥 필수로만 걸면 원문을 못 읽는 유료기사·국내 PDF 인용이 통째로 강등돼 보고서가 더 얇아진다.
+  quote: { type: 'string', description: '실제로 읽은 원문 문장 그대로. 웹에서 읽은 문장이거나 위에 제공된 자료(뉴스 제목·리포트 요약·실적 수치)의 문장. 요약하거나 번역하지 마라' },
+}, required: ['title', 'publisher', 'url', 'date', 'quote'] }
 
 const CLAIM = { type: 'object', properties: {
   id: { type: 'string' }, statement: { type: 'string' },
@@ -45,12 +49,13 @@ const CLAIM = { type: 'object', properties: {
 
 const IND = { type: 'object', properties: {
   key: { type: 'string' }, industry: { type: 'string' },
-  whyStrong: { type: 'array', items: CLAIM, description: '이 업종이 강한 이유. 각 항목 출처 필수' },
+  lead: { type: 'string', description: '리포트 첫 문단 3~5문장. 이 업종이 무엇을 하는 업종이고 지금 무슨 일이 벌어지는지. 아래 whyStrong 의 요약이어야 하며 새 사실을 넣지 마라' },
+  whyStrong: { type: 'array', items: CLAIM, description: '이 업종이 강한 이유 3~5개. 각 항목 출처 필수. 각 문장에 숫자나 날짜를 넣어라' },
   driver: { type: 'string', enum: ['earnings', 'policy', 'macro', 'technology', 'commodity', 'rotation', 'unknown'] },
   durability: { type: 'string', enum: ['structural', 'cyclical', 'short_term', 'unknown'], description: '구조적인가 일시적인가' },
   keyStocks: { type: 'array', items: { type: 'string' } },
-  risk: { type: 'string' },
-}, required: ['key', 'industry', 'whyStrong', 'driver', 'durability'] }
+  risk: { type: 'string', description: '이 강세가 꺾일 조건 2~4문장. 무엇이 일어나면 이 논리가 깨지는지 구체적으로' },
+}, required: ['key', 'industry', 'lead', 'whyStrong', 'driver', 'durability', 'risk'] }
 
 const RULES = `
 반드시 지킬 것:
@@ -61,7 +66,18 @@ const RULES = `
 5. ⚠️ 국내 매체(연합인포맥스/써치엠글로벌)를 인용할 때는 원출처를 2단으로 밝혀라.
    그 매체들은 해외 IB 코멘터리를 옮긴 것이 많다.
    예: "연합인포맥스 경유 · 원출처: 미즈호". 원출처가 불명이면 그렇게 적어라.
-6. 아래 WRS 수치는 Node 가 확정한 것이다. 바꾸지 마라.`
+6. 아래 WRS 수치는 Node 가 확정한 것이다. 바꾸지 마라.
+7. **quote 에는 실제로 읽은 문장을 원문 그대로 넣는다.** 제공된 memberNews 의 제목도 된다.
+   요약해서 새로 쓰지 마라. 없으면 그 주장은 no_source 다.
+
+## 글의 형태 — 리포트로 쓴다
+- **lead(리드문) → whyStrong(근거) → risk(꺾일 조건)** 순서다. 리드문은 아래 근거의 요약이며
+  리드문에만 있고 근거에 없는 사실을 쓰면 안 된다.
+- **각 근거 문장에 숫자나 날짜를 최소 하나 넣어라.** 그 숫자는 quote 나 제공된 자료에 실제로 있어야 한다.
+- 분량을 채우려고 추측하지 마라. 확인 못 한 것은 짧게 "근거 없음"이라고 적어라.
+- **영문 약어를 그냥 쓰지 마라.** 뜻을 먼저 쓰고 이름은 괄호에 넣어라 —
+  "WRS 0.42" 가 아니라 "업종 강도가 0.42(WRS, 지수 대비 초과수익률의 시총가중 평균)".
+  길어졌다고 어려워지면 안 된다.`
 
 phase('업종분석')
 const targets = industries.slice(0, CAP)
@@ -80,18 +96,20 @@ ${evidenceBlock(x.key)}
 ## 할 일
 웹검색으로 **이 업종이 최근 왜 강한지**를 조사하세요.
 공신력 있는 언론·투자은행·증권사 리포트를 근거로 삼으세요.
-- whyStrong: 2~4개 항목, 각각 출처 필수
+- lead: 리포트 첫 문단 3~5문장. 이 업종이 뭘 하는 곳이고 지금 무슨 일이 벌어지는지.
+  **아래 whyStrong 의 요약이어야 한다** — 리드문에만 있는 사실을 쓰지 마라
+- whyStrong: 3~5개 항목, 각각 출처 필수. 각 문장에 숫자나 날짜를 넣어라
 - driver: 무엇이 이끄는가 (실적/정책/매크로/기술/원자재/단순 로테이션)
 - durability: 구조적인가 순환적인가 단기인가
 - keyStocks: 이 업종의 핵심 종목
-- risk: 이 강세가 꺾일 조건
+- risk: **이 강세가 꺾일 조건 2~4문장.** 무엇이 일어나면 이 논리가 깨지는지 구체적으로.
+  (필수 항목이다 — 비워두지 마라)
 
 ${RULES}
 한글로 작성하세요.`,
   { label: `업종:${String(x.industry).slice(0, 18)}`, phase: '업종분석', schema: IND, model: 'sonnet' }
 )))
 
-phase('종합')
 const SUM = { type: 'object', properties: {
   rotationView: { type: 'string', description: '지금 자금이 어디서 어디로 움직이는지 한 문단' },
   strongest: { type: 'object', properties: { industry: { type: 'string' }, why: { type: 'string' } }, required: ['industry', 'why'] },
@@ -110,6 +128,54 @@ const failed = targets.filter((t, i) => !analyzed[i]).map((t) => t.key)
 const gotKeys = new Set(targets.filter((t, i) => analyzed[i]).map((t) => t.key))
 if (failed.length) log(`⚠️ 업종 조사 실패 ${failed.length}건: ${failed.join(', ')}`)
 
+/* ── 팩트체크 ──
+   5팀은 지금까지 팩트체크 단계가 아예 없었다. 2·4팀은 있는데 5팀만 없어서
+   출처 없는 업종 서술이 그대로 실장까지 올라갔다. 2·4팀과 같은 배치 검증을 넣는다. */
+phase('팩트체크')
+const CHECK = { type: 'object', properties: { results: { type: 'array', items: {
+  type: 'object', properties: {
+    industry: { type: 'string' },
+    verdict: { type: 'string', enum: ['pass', 'partial', 'reject'] },
+    removed_claim_ids: { type: 'array', items: { type: 'string' } },
+    reason: { type: 'string' },
+  }, required: ['industry', 'verdict', 'removed_claim_ids'],
+} } }, required: ['results'] }
+
+const FBATCH = 3
+const fbatches = []
+for (let i = 0; i < clean.length; i += FBATCH) fbatches.push(clean.slice(i, i + FBATCH))
+
+const fchecks = await parallel(fbatches.map((b, i) => () => tryAgent(
+  `다음 업종 강세 근거를 검증하세요. 오늘은 ${date}.
+
+${JSON.stringify(b.map((x) => ({ industry: x.industry, whyStrong: x.whyStrong })), null, 1)}
+
+각 claim 을 확인하고 문제가 있으면 removed_claim_ids 에 넣으세요:
+- **statement 안의 숫자·날짜가 quote 나 출처 제목에 실제로 있는가?** 없으면 제거하라.
+  분량을 늘리려고 그럴듯한 수치를 지어내는 것이 가장 위험하다. 이게 최우선 검증 항목이다.
+- 출처가 그 주장을 실제로 뒷받침하는가 (제목·발행처가 무관하면 제거)
+- **다른 업종 이야기를 이 업종 근거로 쓰지 않았는가** (예: 반도체 기사를 소프트웨어 근거로)
+- 날짜가 "최근 강세"를 설명하기에 너무 오래되지 않았는가 (6개월 초과면 의심)
+- evidence_level 이 'sourced' 인데 sources 가 비어있지 않은가
+
+의심스러우면 제거하는 쪽을 택하세요. 근거 없는 주장이 남는 것보다 낫습니다.`,
+  { label: `팩트체크:${i + 1}/${fbatches.length}`, phase: '팩트체크', schema: CHECK, model: 'haiku' }
+)))
+
+// ⚠️ 여기선 industry 명으로 대조한다 — key 와 달리 industry 는 프롬프트에 그대로 노출돼
+//    모델이 변형할 여지가 적다. 그래도 못 찾으면 그냥 건너뛴다(검증 실패 ≠ 주장 삭제).
+const frm = new Map()
+for (const c of fchecks.filter(Boolean)) for (const r of (c.results || [])) frm.set(r.industry, r)
+for (const x of clean) {
+  const r = frm.get(x.industry)
+  if (!r) continue
+  const rm = new Set(r.removed_claim_ids || [])
+  x.factcheck = { verdict: r.verdict, removed: [...rm], reason: r.reason || '' }
+  x.whyStrong = (x.whyStrong || []).filter((c) => !rm.has(c.id))
+  if (!x.whyStrong.length) x.whyStrong = [{ id: 'none', statement: '근거 없음', evidence_level: 'no_source', sources: [] }]
+}
+
+phase('종합')
 const summary = await tryAgent(
   `오늘(${date}) 주도 업종을 종합하세요.
 

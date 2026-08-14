@@ -56,7 +56,7 @@ ${JSON.stringify(T.chartCheck || [], null, 1).slice(0, 2000)}`
 
 const CHIEF = { type: 'object', properties: {
   headline: { type: 'string', description: '오늘을 한 줄로' },
-  marketVerdictKo: { type: 'string', description: '시장 환경 3~4문장, 쉬운 말로' },
+  marketVerdictKo: { type: 'string', description: '시장 환경 5~7문장, 쉬운 말로. 지금 시장이 어떤 상태인지 · 돈이 어디로 들어오고 어디서 빠지는지 · 그래서 지금 뭘 해야 하는지' },
   todayFocus: { type: 'array', items: { type: 'object', properties: {
     ticker: { type: 'string' },
     reason: { type: 'string' },
@@ -68,8 +68,9 @@ const CHIEF = { type: 'object', properties: {
   }, required: ['team1', 'team2', 'team3', 'team4', 'team5'] },
   chartCheckNote: { type: 'string', description: '오늘 눈으로 차트를 봐야 할 종목과 무엇을 볼지' },
   tomorrowWatch: { type: 'string' },
-  caution: { type: 'string', description: '이 리포트의 한계·불확실성' },
-}, required: ['headline', 'marketVerdictKo', 'todayFocus', 'teamSummaries', 'chartCheckNote'] }
+  // ⚠️ 프롬프트 규칙 7번은 caution 을 필수라고 말하는데 스키마에선 선택이었다. 어긋나 있었다.
+  caution: { type: 'string', description: '이 리포트의 한계·불확실성 2~4문장. 조사 안 된 종목 · 근거 없는 항목 · 데이터 결함을 솔직히' },
+}, required: ['headline', 'marketVerdictKo', 'todayFocus', 'teamSummaries', 'chartCheckNote', 'caution'] }
 
 phase('실장종합')
 // 에이전트가 죽으면 1회만 다시 시도한다.
@@ -95,8 +96,10 @@ ${teamBlocks}
 5. chartCheckNote 는 "이 종목의 차트에서 무엇을 확인하라"를 구체적으로.
    (예: "PANW — 저항 $368.8 을 거래량 동반해 뚫는지, 뚫을 때 거래량이 20일 평균의 2배인지")
 6. 사용자가 최종 판단자다. 단정적 매수 권유 대신 확인할 조건을 제시하라.
-7. caution 에 이 리포트의 한계를 솔직히 적어라.
-8. **marketVerdictKo 에 "돈이 어디로 들어오고 어디서 빠지는지"를 반드시 넣어라.**
+7. caution 에 이 리포트의 한계를 **2~4문장으로 솔직히** 적어라 (필수 항목이다).
+   조사되지 않은 종목 수, '근거 없음'으로 남은 항목, 데이터 결함(있다면)을 숨기지 마라.
+8. **marketVerdictKo 는 5~7문장이다.** "돈이 어디로 들어오고 어디서 빠지는지"를 반드시 넣어라.
+   길게 쓰되 **입력에 없는 사실로 분량을 채우지 마라** — 근거가 부족하면 짧게 끝내는 것이 낫다.
    업종 이름 + 그 안에서 지금 강한 종목 티커 + 지금 사기 좋은 자리인지까지.
    교차 결과가 비면 "이 업종에서 오늘 기준을 통과한 종목은 없습니다"라고 그대로 써라.
 
