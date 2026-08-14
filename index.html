@@ -19,7 +19,7 @@
 body{margin:0;background:radial-gradient(1300px 700px at 50% -12%,#25314a,var(--bg));
 color:var(--tx);font:15px/1.65 -apple-system,"Segoe UI","Malgun Gothic",sans-serif;min-height:100vh}
 a{color:var(--blu)}
-.wrap{max-width:1180px;margin:0 auto;padding:22px 16px 60px}
+.wrap{max-width:1280px;margin:0 auto;padding:22px 16px 60px}
 
 header{text-align:center;margin-bottom:18px}
 h1{font-size:26px;margin:0 0 4px}
@@ -489,16 +489,23 @@ function dialog(){
    내부 좌표는 고정(STAGE_W×STAGE_H)이고, 화면 폭에 맞춰 통째로 scale 한다.
    그래야 원근이 어긋나지 않는다 (% 배치는 화면비가 바뀌면 아이소 각도가 깨진다).
    격자(gx,gy) → 화면(x,y) 변환은 2:1 아이소메트릭. */
-const STAGE_W=780,STAGE_H=545;
+const STAGE_W=915,STAGE_H=612;
 const TW=76,TH=38;                 // 타일 폭·높이 (2:1)
-const ORG={x:303,y:150};           // 격자 원점 — 방이 무대에 꽉 차도록 잡았다
+const ORG={x:362,y:152};           // 격자 원점 — 방이 무대에 꽉 차도록 잡았다
 const iso=(gx,gy)=>[ORG.x+(gx-gy)*TW/2, ORG.y+(gx+gy)*TH/2];
 
 /* 자리 (격자 좌표) */
-const DESK={t1:[1.0,0.4],t2:[3.2,0.4],t3:[5.4,0.4],t4:[7.6,0.4],t5:[9.8,0.4]};
-const HOME ={t1:[1.7,1.6],t2:[3.9,1.6],t3:[6.1,1.6],t4:[8.3,1.6],t5:[10.5,1.6],chief:[1.4,5.6]};
-const STAGE={t1:[3.8,3.6],t2:[5.0,5.8],t3:[6.1,2.1],t4:[7.2,5.8],t5:[8.4,3.6],chief:[2.9,5.2]};
-const TABLE=[6.1,4.0];
+const DESK={t1:[1.2,0.4],t2:[3.6,0.4],t3:[6.0,0.4],t4:[8.4,0.4],t5:[10.8,0.4]};
+const HOME ={t1:[1.95,1.7],t2:[4.35,1.7],t3:[6.75,1.7],t4:[9.15,1.7],t5:[11.55,1.7],chief:[1.5,6.3]};
+const STAGE={t1:[4.6,4.2],t2:[5.8,6.6],t3:[7.0,2.5],t4:[8.4,6.6],t5:[9.6,4.2],chief:[3.2,6.6]};
+const TABLE=[7.0,4.6];
+/* 회의가 끝난 뒤 서성일 곳 — 자리 근처만 맴돌면 어색하다.
+   커피 코너·창가·프린터·화이트보드처럼 '갈 이유가 있는' 지점으로 보낸다. */
+const SPOTS=[
+  {g:[13.0,7.9],ko:'커피 코너'},{g:[0.9,3.2],ko:'창가'},
+  {g:[13.2,2.2],ko:'프린터'},  {g:[3.4,7.4],ko:'화이트보드'},
+  {g:[3.0,3.4],ko:'복도'},     {g:[10.6,7.6],ko:'라운지'},
+];
 const reduce=()=>window.matchMedia('(prefers-reduced-motion:reduce)').matches;
 
 function place(id,g,walking){
@@ -526,7 +533,7 @@ function isoBox(gx,gy,w,d,hgt,top,left,right){
 
 /* 방 — 바닥·벽·창문·책상·회의테이블·러그·화분을 통째로 그린다 */
 function roomSVG(){
-  const GX=12,GY=7.5,WH=132;                  // 격자 크기 · 벽 높이(px)
+  const GX=14,GY=9,WH=140;                    // 격자 크기 · 벽 높이(px)
   const p=(a,b,dy)=>{const[x,y]=iso(a,b);return `${x},${(y-(dy||0))}`;};
   const wallWin=(gx,gy,along,n)=>{            // 벽에 붙는 창 n개
     let s='';
@@ -534,40 +541,62 @@ function roomSVG(){
       const a=gx+(along?i*1.55+.5:0),b=gy+(along?0:i*1.55+.5);
       const a2=along?a+1.1:a,b2=along?b:b+1.1;
       s+=`<polygon points="${p(a,b,WH-22)} ${p(a2,b2,WH-22)} ${p(a2,b2,32)} ${p(a,b,32)}"
-        fill="url(#winG)" stroke="#3b4a6b" stroke-width="1.2"/>`;
+        fill="url(#winG)" stroke="#54688f" stroke-width="1.2"/>
+      <polygon points="${p(a,b,WH-58)} ${p(a2,b2,WH-58)} ${p(a2,b2,WH-74)} ${p(a,b,WH-74)}"
+        fill="url(#cloud)" opacity=".5"/>`;
     }
     return s;
   };
-  const desks=Object.entries(DESK).map(([id,[gx,gy]])=>
-    isoBox(gx,gy,1.15,.72,26,'#54628a','#333f5d','#42506f')+
-    // 모니터
-    `<g>${isoBox(gx+.32,gy+.18,.5,.06,30,'#1d2b40','#16202f','#1a2537')}</g>`
-  ).join('');
+  // 책상 = 상판 + 모니터 + 소품(머그·서류·스탠드). 소품이 있어야 '쓰는 책상'으로 보인다.
+  const DH=26;                                     // 책상 높이
+  const desks=Object.entries(DESK).map(([id,[gx,gy]])=>{
+    const mug=(()=>{const[x,y]=iso(gx+1.0,gy+.52);return `
+      <ellipse cx="${x}" cy="${y-DH-7}" rx="4.2" ry="2.1" fill="#e8eef7"/>
+      <path d="M${x-4.2} ${y-DH-7}v4.4q0 2.6 4.2 2.6t4.2-2.6v-4.4z" fill="#d3dcea"/>
+      <path d="M${x+4.4} ${y-DH-6.2}q3.2.3 3.2 2.4t-3.2 2.2" fill="none" stroke="#d3dcea" stroke-width="1.2"/>`;})();
+    const paper=(()=>{const[x,y]=iso(gx+.28,gy+.56);return `
+      <g transform="translate(${x} ${y-DH-2})">
+        <polygon points="0,-3 13,3.5 0,10 -13,3.5" fill="#eef3fa"/>
+        <polygon points="0,-6 13,.5 0,7 -13,.5" fill="#f8fbff"/>
+        <polygon points="0,-6 13,.5 0,7 -13,.5" fill="none" stroke="#c3cfe0" stroke-width=".7"/>
+      </g>`;})();
+    const lamp=(()=>{const[x,y]=iso(gx+.92,gy+.14);return `
+      <path d="M${x} ${y-DH-2}v-13" stroke="#7f8ca6" stroke-width="1.6"/>
+      <path d="M${x-5} ${y-DH-15}h10l-2.5 5h-5z" fill="#e8c489"/>
+      <ellipse cx="${x}" cy="${y-DH-2}" rx="4" ry="2" fill="#7f8ca6"/>
+      <ellipse cx="${x}" cy="${y-DH-7}" rx="11" ry="6" fill="#ffd79a" opacity=".14"/>`;})();
+    return isoBox(gx,gy,1.15,.72,DH,'#54628a','#333f5d','#42506f')
+      + `<g>${isoBox(gx+.32,gy+.18,.5,.06,30,'#1d2b40','#16202f','#1a2537')}</g>`
+      + paper + mug + lamp;
+  }).join('');
 
   return `<svg viewBox="0 0 ${STAGE_W} ${STAGE_H}" width="${STAGE_W}" height="${STAGE_H}">
   <defs>
     <linearGradient id="flG" x1=".2" y1="0" x2=".8" y2="1">
-      <stop offset="0" stop-color="#2b3a54"/><stop offset="1" stop-color="#1e2739"/></linearGradient>
+      <stop offset="0" stop-color="#3a4a68"/><stop offset="1" stop-color="#28334a"/></linearGradient>
     <linearGradient id="wlL" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#33415f"/><stop offset="1" stop-color="#242f47"/></linearGradient>
+      <stop offset="0" stop-color="#43547a"/><stop offset="1" stop-color="#2e3b58"/></linearGradient>
     <linearGradient id="wlR" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#3c4c6d"/><stop offset="1" stop-color="#2a3752"/></linearGradient>
+      <stop offset="0" stop-color="#4e6188"/><stop offset="1" stop-color="#354564"/></linearGradient>
     <linearGradient id="winG" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#5b93cf"/><stop offset=".42" stop-color="#2f5f92"/>
-      <stop offset=".72" stop-color="#a8794f"/><stop offset="1" stop-color="#24405f"/></linearGradient>
-    <radialGradient id="lamp"><stop offset="0" stop-color="#ffcb84" stop-opacity=".72"/>
+      <stop offset="0" stop-color="#7cc0f5"/><stop offset=".45" stop-color="#a9d8f7"/>
+      <stop offset=".74" stop-color="#dcefff"/><stop offset=".82" stop-color="#8fb3cc"/>
+      <stop offset="1" stop-color="#5c7d99"/></linearGradient>
+    <linearGradient id="cloud" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".85"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <radialGradient id="lamp"><stop offset="0" stop-color="#ffdca8" stop-opacity=".42"/>
       <stop offset="1" stop-color="#ffc06a" stop-opacity="0"/></radialGradient>
-    <radialGradient id="cool"><stop offset="0" stop-color="#a8d4ff" stop-opacity=".45"/>
+    <radialGradient id="cool"><stop offset="0" stop-color="#cfe8ff" stop-opacity=".62"/>
       <stop offset="1" stop-color="#8fc4ff" stop-opacity="0"/></radialGradient>
     <radialGradient id="tbl"><stop offset="0" stop-color="#4a5a80"/><stop offset="1" stop-color="#2f3b57"/></radialGradient>
   </defs>
 
   <!-- 왼쪽 벽 -->
   <polygon points="${p(0,0,WH)} ${p(0,GY,WH)} ${p(0,GY)} ${p(0,0)}" fill="url(#wlL)"/>
-  ${wallWin(0,0,false,5)}
+  ${wallWin(0,0,false,6)}
   <!-- 오른쪽 벽 -->
   <polygon points="${p(0,0,WH)} ${p(GX,0,WH)} ${p(GX,0)} ${p(0,0)}" fill="url(#wlR)"/>
-  ${wallWin(0,0,true,7)}
+  ${wallWin(0,0,true,8)}
   <!-- 바닥 -->
   <polygon points="${p(0,0)} ${p(GX,0)} ${p(GX,GY)} ${p(0,GY)}" fill="url(#flG)"/>
   <g stroke="#ffffff14" stroke-width="1">
@@ -579,8 +608,8 @@ function roomSVG(){
   <ellipse cx="${iso(6.5,2)[0]}" cy="${iso(6.5,2)[1]}" rx="170" ry="86" fill="url(#cool)"/>
   <ellipse cx="${iso(TABLE[0],TABLE[1])[0]}" cy="${iso(TABLE[0],TABLE[1])[1]}" rx="200" ry="100" fill="url(#lamp)"/>
   <!-- 러그 -->
-  <polygon points="${p(4.0,2.2)} ${p(8.4,2.2)} ${p(8.4,6.0)} ${p(4.0,6.0)}" fill="#27334b" opacity=".9"/>
-  <polygon points="${p(4.2,2.4)} ${p(8.2,2.4)} ${p(8.2,5.8)} ${p(4.2,5.8)}" fill="none" stroke="#42527a" stroke-width="1.5"/>
+  <polygon points="${p(4.6,2.6)} ${p(9.6,2.6)} ${p(9.6,7.0)} ${p(4.6,7.0)}" fill="#27334b" opacity=".9"/>
+  <polygon points="${p(4.8,2.8)} ${p(9.4,2.8)} ${p(9.4,6.8)} ${p(4.8,6.8)}" fill="none" stroke="#42527a" stroke-width="1.5"/>
   <!-- 회의 테이블 -->
   <ellipse cx="${iso(TABLE[0],TABLE[1])[0]}" cy="${iso(TABLE[0],TABLE[1])[1]-20}" rx="126" ry="63" fill="url(#tbl)" stroke="#3d4a6a" stroke-width="1.5"/>
   <ellipse cx="${iso(TABLE[0],TABLE[1])[0]}" cy="${iso(TABLE[0],TABLE[1])[1]-16}" rx="126" ry="63" fill="#0b101c" opacity=".55"/>
@@ -589,9 +618,27 @@ function roomSVG(){
   <!-- 책상 -->
   ${desks}
   <!-- 실장 책상 -->
-  ${isoBox(0.7,4.9,1.5,.8,28,'#56648c','#343f5e','#43506f')}
+  ${isoBox(0.7,5.5,1.6,.85,28,'#56648c','#343f5e','#43506f')}
+
+  <!-- 가구 — 서성이는 목적지(SPOTS)에 실제로 물건을 둔다.
+       빈 바닥을 채우면서 "저기로 왜 가는지"가 화면에서 읽히게 한다. -->
+  <!-- 커피 코너 -->
+  ${isoBox(12.4,7.2,1.5,.9,34,'#4a5a80','#2e3a56','#3b4966')}
+  ${isoBox(12.6,7.4,.55,.5,58,'#6d7ea6','#414f70','#54648a')}
+  ${(()=>{const[x,y]=iso(13.1,7.75);return `<ellipse cx="${x}" cy="${y-36}" rx="5" ry="2.4" fill="#e8eef7"/>`;})()}
+  <!-- 프린터 -->
+  ${isoBox(12.7,1.5,1.1,.8,30,'#4f5f85','#313d5b','#3f4d6c')}
+  ${isoBox(12.85,1.7,.7,.45,42,'#8d9cbe','#5a688c','#6f7ea3')}
+  <!-- 라운지 소파 -->
+  ${isoBox(9.6,7.3,1.9,1.0,20,'#4d5f88','#2f3b58','#3d4b6c')}
+  ${isoBox(9.6,7.3,1.9,.28,44,'#5a6d99','#374463','#46567b')}
+  <!-- 화이트보드 이젤 -->
+  ${(()=>{const[x,y]=iso(2.7,7.8);return `
+    <path d="M${x-22} ${y} l14-8 M${x+22} ${y} l-14-8" stroke="#5c6a8c" stroke-width="2.4"/>
+    <rect x="${x-30}" y="${y-62}" width="60" height="42" rx="3" fill="#eef3fa" stroke="#8fa0bd"/>
+    <path d="M${x-22} ${y-50}h30M${x-22} ${y-42}h44M${x-22} ${y-34}h22" stroke="#9fb0cb" stroke-width="2.4" stroke-linecap="round"/>`;})()}
   <!-- 화분 -->
-  ${[[0.3,6.9],[11.5,6.9]].map(([gx,gy])=>{const[x,y]=iso(gx,gy);return `
+  ${[[0.35,8.3],[13.5,8.3]].map(([gx,gy])=>{const[x,y]=iso(gx,gy);return `
     <ellipse cx="${x}" cy="${y}" rx="15" ry="7" fill="#0a0f1a" opacity=".6"/>
     <path d="M${x-9} ${y-2}h18l-3 16h-12z" fill="#3a2f26"/>
     <circle cx="${x-6}" cy="${y-14}" r="9" fill="#2f6b4a"/><circle cx="${x+6}" cy="${y-13}" r="8" fill="#28603f"/>
@@ -602,7 +649,7 @@ function roomSVG(){
 function fitStage(){
   const wrap=$('floor'); if(!wrap)return;
   // 폭과 높이 둘 다 본다 — 폭만 맞추면 세로가 화면을 넘어간다
-  const maxH=Math.min(600,Math.max(380,innerHeight*0.62));
+  const maxH=Math.min(700,Math.max(400,innerHeight*0.66));
   const k=Math.min(1.5,wrap.clientWidth/STAGE_W,maxH/STAGE_H);
   const st=$('stage');
   st.style.transform=`scale(${k})`;
@@ -687,18 +734,50 @@ function runDialog(){
   step();
 }
 
-/* 회의가 끝난 뒤의 잔잔한 움직임 — 한 명씩 자리 근처를 서성인다 */
+/* 회의가 끝난 뒤의 잔잔한 움직임.
+   ⚠️ 자리 근처만 맴돌면 "왔다갔다"로만 보이고 사무실 같지 않다.
+      커피 코너·창가·프린터처럼 갈 이유가 있는 곳으로 보내고, 가끔은 동료 자리로 찾아가
+      잠깐 이야기하게 한다. 같은 사람이 연달아 움직이지 않게 하고 목적지도 겹치지 않게 한다. */
+let _busy=new Set(),_lastMover=null;
+function wanderOnce(){
+  if($('modal').classList.contains('on'))return;          // 상세를 보는 중이면 가만히
+  const free=AGENTS.filter(a=>!_busy.has(a.id)&&a.id!==_lastMover);
+  if(!free.length)return;
+  const a=free[Math.floor(Math.random()*free.length)];
+  _lastMover=a.id; _busy.add(a.id);
+
+  // 60% 는 장소로, 40% 는 동료 자리로 (찾아가서 잠깐 이야기)
+  const visitPeer=Math.random()<0.4;
+  let to,peer=null;
+  if(visitPeer){
+    const others=AGENTS.filter(x=>x.id!==a.id&&!_busy.has(x.id));
+    peer=others[Math.floor(Math.random()*others.length)];
+    if(peer){const[px,py]=HOME[peer.id];to=[px-0.95,py+0.35];}   // 옆에 가서 선다
+  }
+  if(!to){const sp=SPOTS[Math.floor(Math.random()*SPOTS.length)];to=sp.g;}
+
+  place(a.id,to,true);
+  const stay=2600+Math.random()*2600;
+  if(peer){
+    // 도착하면 짧게 한마디 — 회의 대사가 아니라 잡담이라 데이터를 만들지 않는다
+    setTimeout(()=>{
+      const say=$('say-'+a.id); if(!say)return;
+      say.className='say '+(iso(to[0],to[1])[0]<STAGE_W/2?'r':'l');
+      say.innerHTML='<span class="who">'+esc(a.name)+'</span>💬';
+      say.classList.add('on');
+      setTimeout(()=>say.classList.remove('on'),Math.max(900,stay-1800));
+    },1500);
+  }
+  setTimeout(()=>{
+    place(a.id,HOME[a.id],true);
+    setTimeout(()=>_busy.delete(a.id),1500);
+  },stay);
+}
 function startWander(){
   clearInterval(_wander);
+  _busy.clear(); _lastMover=null;
   if(reduce())return;
-  _wander=setInterval(()=>{
-    if(document.getElementById('modal').classList.contains('on'))return;   // 상세를 보는 중이면 가만히
-    const a=AGENTS[Math.floor(Math.random()*AGENTS.length)];
-    const [hx,hy]=HOME[a.id];
-    const to=[Math.max(4,Math.min(96,hx+(Math.random()*14-7))),Math.max(28,Math.min(86,hy+(Math.random()*10-4)))];
-    place(a.id,to,true);
-    setTimeout(()=>place(a.id,HOME[a.id],true),2600);
-  },4200);
+  _wander=setInterval(wanderOnce,3200);
 }
 
 /* ── 긴 서술 정리 ──
