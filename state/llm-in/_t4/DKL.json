@@ -1,0 +1,199 @@
+{
+ "ticker": "DKL",
+ "news": [
+  {
+   "title": "Is Delek Logistics Partners (DKL) Stock Outpacing Its Oils-Energy Peers This Year?",
+   "url": "https://www.nasdaq.com/articles/delek-logistics-partners-dkl-stock-outpacing-its-oils-energy-peers-year",
+   "date": "2026-08-13",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DKL"
+   ]
+  },
+  {
+   "title": "Delek Logistics Partners (DKL) Upgraded to Strong Buy: Here's Why",
+   "url": "https://www.nasdaq.com/articles/delek-logistics-partners-dkl-upgraded-strong-buy-heres-why",
+   "date": "2026-08-10",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DKL"
+   ]
+  },
+  {
+   "title": "Reminder - Delek Logistics Partners (DKL) Goes Ex-Dividend Soon",
+   "url": "https://www.nasdaq.com/articles/reminder-delek-logistics-partners-dkl-goes-ex-dividend-soon",
+   "date": "2026-07-31",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DKL",
+    "DKL",
+    "DIV"
+   ]
+  },
+  {
+   "title": "Earnings Estimates Rising for Delek Logistics Partners (DKL): Will It Gain?",
+   "url": "https://www.nasdaq.com/articles/earnings-estimates-rising-delek-logistics-partners-dkl-will-it-gain",
+   "date": "2026-07-28",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DKL"
+   ]
+  },
+  {
+   "title": "Is Delek Logistics Partners (DKL) Outperforming Other Oils-Energy Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/delek-logistics-partners-dkl-outperforming-other-oils-energy-stocks-year",
+   "date": "2026-07-28",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DKL"
+   ]
+  },
+  {
+   "title": "DKL Ex-Dividend Reminder - 5/4/26",
+   "url": "https://www.nasdaq.com/articles/dkl-ex-dividend-reminder-5-4-26",
+   "date": "2026-05-01",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DKL",
+    "DKL",
+    "DIV"
+   ]
+  },
+  {
+   "title": "Delek Logistics Partners Q2 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/delek-logistics-partners-q2-earnings-call-highlights",
+   "date": "2026-08-08",
+   "publisher": "MarketBeat",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "DKL"
+   ]
+  },
+  {
+   "title": "ET Underperforms Its Industry in 6 Months: How to Play the Stock?",
+   "url": "https://www.nasdaq.com/articles/et-underperforms-its-industry-6-months-how-play-stock",
+   "date": "2026-07-07",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "ET",
+    "PAA",
+    "DKL"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-13",
+   "reportDate": "2026-08-12",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552797/000119312526347734/d92225d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-12",
+   "reportDate": "2026-08-12",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552797/000119312526346821/d138814d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552797/000162828026052893/dkl-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552797/000162828026049217/dkl-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-02",
+   "reportDate": "2026-06-26",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552797/000162828026046943/dkl-20260626.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-14",
+   "reportDate": "2026-05-14",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552797/000119312526223986/d94774d8k.htm",
+   "description": "8-K"
+  }
+ ]
+}

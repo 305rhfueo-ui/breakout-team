@@ -1,0 +1,94 @@
+{
+ "ticker": "FORTY",
+ "news": [
+  {
+   "title": "FORTY Crosses Below Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/forty-crosses-below-key-moving-average-level",
+   "date": "2026-02-04",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FORTY"
+   ]
+  },
+  {
+   "title": "Formula Systems (FORTY) Shares Cross Below 200 DMA",
+   "url": "https://www.nasdaq.com/articles/formula-systems-forty-shares-cross-below-200-dma",
+   "date": "2025-04-07",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FORTY"
+   ]
+  },
+  {
+   "title": "Bullish Two Hundred Day Moving Average Cross - FORTY",
+   "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-forty",
+   "date": "2024-10-16",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FORTY"
+   ]
+  },
+  {
+   "title": "Formula Systems Breaks Above 200-Day Moving Average - Bullish for FORTY",
+   "url": "https://www.nasdaq.com/articles/formula-systems-breaks-above-200-day-moving-average-bullish-forty",
+   "date": "2024-09-24",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FORTY"
+   ]
+  },
+  {
+   "title": "Notable Two Hundred Day Moving Average Cross - FORTY",
+   "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-forty",
+   "date": "2024-08-06",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FORTY"
+   ]
+  },
+  {
+   "title": "FORTY Makes Notable Cross Below Critical Moving Average",
+   "url": "https://www.nasdaq.com/articles/forty-makes-notable-cross-below-critical-moving-average",
+   "date": "2024-02-06",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FORTY"
+   ]
+  },
+  {
+   "title": "Formula Systems (1985)  - ADR (FORTY) Declares $0.62 Dividend",
+   "url": "https://www.nasdaq.com/articles/formula-systems-1985-adr-forty-declares-$0.62-dividend",
+   "date": "2023-05-25",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FORTY"
+   ]
+  },
+  {
+   "title": "Formula Systems Reports Record Q1 2025 Financial Results with 8.1% Revenue Growth and Dividend Declaration",
+   "url": "https://www.nasdaq.com/articles/formula-systems-reports-record-q1-2025-financial-results-81-revenue-growth-and-dividend",
+   "date": "2025-05-22",
+   "publisher": "Quiver Quantitative",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "FORTY"
+   ]
+  }
+ ],
+ "filings": []
+}

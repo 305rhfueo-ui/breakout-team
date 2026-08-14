@@ -1,0 +1,100 @@
+{
+ "ticker": "FSV",
+ "news": [
+  {
+   "title": "FirstService (FSV) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/firstservice-fsv-q2-2026-earnings-call-transcript",
+   "date": "2026-07-24",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FSV",
+    "FSV"
+   ]
+  },
+  {
+   "title": "FirstService (FSV) Tops Q2 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/firstservice-fsv-tops-q2-earnings-estimates",
+   "date": "2026-07-23",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FSV",
+    "BEEP"
+   ]
+  },
+  {
+   "title": "FirstService (FSV) Q1 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/firstservice-fsv-q1-2026-earnings-transcript",
+   "date": "2026-04-23",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FSV",
+    "FSV"
+   ]
+  },
+  {
+   "title": "FirstService (FSV) Beats Q1 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/firstservice-fsv-beats-q1-earnings-and-revenue-estimates",
+   "date": "2026-04-23",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FSV",
+    "RMR"
+   ]
+  },
+  {
+   "title": "Can FirstService (FSV) Keep the Earnings Surprise Streak Alive?",
+   "url": "https://www.nasdaq.com/articles/can-firstservice-fsv-keep-earnings-surprise-streak-alive",
+   "date": "2026-04-16",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FSV"
+   ]
+  },
+  {
+   "title": "FirstService (FSV) Expected to Beat Earnings Estimates: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/firstservice-fsv-expected-beat-earnings-estimates-should-you-buy",
+   "date": "2026-04-16",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FSV"
+   ]
+  },
+  {
+   "title": "FirstService (FSV) Q3 2024 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/firstservice-fsv-q3-2024-earnings-transcript",
+   "date": "2026-04-14",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FSV",
+    "FSV"
+   ]
+  },
+  {
+   "title": "FirstService (FSV) Q4 2025 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/firstservice-fsv-q4-2025-earnings-transcript",
+   "date": "2026-02-04",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FSV",
+    "FSV"
+   ]
+  }
+ ],
+ "filings": []
+}

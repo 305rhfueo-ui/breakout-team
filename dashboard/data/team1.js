@@ -476,8 +476,196 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-08-14",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "\"너무 조용해서 더 무섭다\" — FOMO 랠리 속 마진부채 YoY +49%",
+        "easy": "시장이 지금 이상할 만큼 잔잔합니다. 파도가 하나도 없는 바다처럼 보이는데, 정작 배에 탄 사람들은 \"나만 못 타면 어쩌지\"(FOMO = 나만 소외될까 두려운 마음) 하며 앞다퉈 올라타고 있는 상황이에요. 문제는 그 사람들이 자기 돈이 아니라 빌린 돈으로 타고 있다는 겁니다. FINRA(미국 증권사 감독기구)가 집계한 고객 마진부채(주식을 담보로 빌린 돈)는 1년 전보다 +49.0% 늘었고, 이는 +40% 경고선을 넘은 레버리지 과열 신호입니다. 반대로 QQQ(나스닥100 ETF) 차트만 보면 골든크로스 D+3에 10일선·20일선이 같이 오르는(3.33% / 0.27%) 최적 진입 구간이라, \"차트는 사라는데 심리는 위험하다\"는 엇갈림이 오늘의 핵심입니다.",
+        "whyMatters": "빌린 돈이 많을수록 하락이 시작될 때 강제청산으로 낙폭이 커집니다. 지금 주도 섹터는 Technology가 26종목(52%)으로 절반이 넘고 Healthcare 9종목(18%), Consumer Cyclical 5종목(10%)이 뒤를 잇는데, 마진 청산이 터지면 가장 많이 오른 Technology 쏠림 종목부터 먼저 얻어맞습니다. 다만 200일선 대비 +150%를 넘긴 과열 종목은 0개라 개별 종목의 수직 급등 국면은 아직 아닙니다. 즉 지금은 진입을 막을 국면이 아니라, 진입은 하되 손절선을 평소보다 타이트하게 잡고 레버리지를 쓰지 않는 국면입니다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Markets are looking eerily calm as investors chase FOMO rally",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/markets-are-looking-eerily-calm-as-investors-chase-fomo-rally-bed22de9?mod=mw_rss_topstories",
+            "date": "2026-08-13",
+            "quote": "Markets are looking eerily calm as investors chase FOMO rally",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "무역법원, 트럼프의 '데미니미스' 면세 폐지 유지 판결 — 저가 수입 소비재 비용 상승",
+        "easy": "'데미니미스(de minimis)'는 원래 \"너무 작아서 따지지 않는다\"는 뜻으로, 800달러 이하 소액 해외 직구 물건에는 관세를 안 매기던 제도였습니다. 트럼프 행정부가 이 구멍을 막았고, 이번에 무역법원이 그 조치를 그대로 유지한다고 판결했습니다. 학교 매점에서 \"천 원 이하 과자는 그냥 가져가도 돼\" 하던 규칙이 없어지고 이제 다 계산해야 하는 것과 같습니다. 해외에서 싸게 들여오던 옷·잡화·전자 액세서리의 원가가 올라가고, 그 비용은 결국 소비자 가격에 붙습니다. 법원이 정부 손을 들어줬으니 이 상태가 당분간 되돌려질 가능성은 낮아졌습니다.",
+        "whyMatters": "직접 타격 업종은 주도 섹터 중 Consumer Cyclical 5종목(10%)입니다. 저가 해외 소싱에 의존하는 의류·잡화 리테일과 이커머스 플랫폼은 마진 압박을 받고, 반대로 미국 내 생산·유통 비중이 높은 업체는 상대적으로 유리해집니다. 물류·통관을 다루는 Industrials 2종목(4%)에도 통관 물량·비용 구조 변화가 생깁니다. 관세는 물가를 밀어올리는 요인이라 금리 인하 기대를 늦출 수 있고, 그 경로로 Technology 26종목(52%)의 밸류에이션에도 간접적인 역풍이 됩니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Trade court upholds Trump's closure of 'de minimis' loophole",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/13/trump-trade-court-de-minimis-tariffs-ieepa.html",
+            "date": "2026-08-13",
+            "quote": "Trade court upholds Trump's closure of 'de minimis' loophole",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "미국, 이란에 \"전례 없는\" 경제 수단 예고 — 호르무즈·항모 이슈로 지정학 리스크 재점화",
+        "easy": "미국이 이란을 상대로 \"지금까지 본 적 없는\" 방식의 경제적 압박 수단을 쓰겠다고 예고했고, 동시에 항공모함 에이브러햄 링컨함의 문제를 해결하기 위해 해군이 움직이고 있다는 보도입니다. 중동은 세계 원유가 지나가는 좁은 골목(호르무즈 해협) 옆에 있어서, 여기서 시끄러워지면 골목이 막힐까 봐 기름값이 먼저 반응합니다. 기름값은 물가의 재료비 같은 존재라 오르면 거의 모든 물가가 따라 오릅니다. 물가가 오르면 중앙은행이 금리를 내리기 어려워지고, 금리(돈 빌리는 값)가 높게 유지되면 미래 이익으로 평가받는 성장주가 불리해집니다. 아직 결과가 나온 사건이 아니라 '경고 단계'라는 점은 감안해야 합니다.",
+        "whyMatters": "유가 급등 시나리오는 에너지 관련주에는 순풍이지만, 지금 시장을 끌고 가는 주도 섹터 구성은 Technology 26종목(52%)·Healthcare 9종목(18%)로 에너지 비중이 없습니다. 즉 이 뉴스가 현실화되면 지금 주도주 라인업에는 도움이 안 되고 오히려 할인율 상승이라는 역풍이 됩니다. 항공·운송 원가에 민감한 Industrials 2종목(4%)과 소비 여력에 민감한 Consumer Cyclical 5종목(10%)이 먼저 흔들릴 자리입니다. 브레이크아웃 진입 시 지정학 헤드라인 한 방에 갭하락이 나올 수 있으니 분할 진입이 안전합니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "U.S. to use economic tactics on Iran `that have never been seen'; Navy works to relieve troubled carrier Abraham Lincoln",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/14/us-iran-war-trump-hormuz-carrier-abraham-lincoln-george-washington.html",
+            "date": "2026-08-14",
+            "quote": "U.S. to use economic tactics on Iran `that have never been seen'; Navy works to relieve troubled carrier Abraham Lincoln",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "애플부터 포드까지 — 글로벌 기업이 더는 무시할 수 없게 된 중국 기술",
+        "easy": "예전엔 중국 기술을 \"싼 대체품\" 정도로 봤다면, 이제는 애플이나 포드 같은 세계적 기업들도 중국의 배터리(CATL)나 AI(DeepSeek) 같은 기술을 안 쓰고는 경쟁이 어려워졌다는 이야기입니다. 반에서 늘 2등 하던 친구가 어느 날 시험 범위 전체를 자기 방식으로 풀어버려서, 1등도 그 방식을 참고해야 하는 상황과 비슷합니다. 이건 두 얼굴을 가진 뉴스입니다. 좋은 쪽은 미국 기업이 더 싸고 빠른 부품·기술을 쓸 수 있다는 것이고, 나쁜 쪽은 미국 기술기업이 누리던 '우리만 할 수 있다'는 프리미엄이 깎인다는 것입니다.",
+        "whyMatters": "주도 섹터의 절반이 넘는 Technology 26종목(52%)이 바로 이 프리미엄 위에 서 있습니다. 중국 대체재가 실제로 채택될수록 AI 모델·반도체·부품 업체의 가격 결정력이 약해지는 방향입니다. 반대로 중국 부품을 원가에 반영할 수 있는 완성품·자동차 쪽 Consumer Cyclical 5종목(10%)에는 원가 절감이라는 반대 방향의 힘이 작용합니다. 앞의 데미니미스·관세 뉴스와 묶어 보면 '중국 기술은 필요한데 중국 물건은 비싸진다'는 모순 구간이라, 개별 기업의 공급망 노출도에 따라 종목별 차별화가 커집니다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "From Apple to Ford: How Chinese tech is becoming harder for global companies to ignore",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/14/china-tech-global-appeal-apple-ford-catl-deepseek.html",
+            "date": "2026-08-14",
+            "quote": "From Apple to Ford: How Chinese tech is becoming harder for global companies to ignore",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "JP모건 \"AI 공포는 과했다\" — 세일즈포스 반등, 소프트웨어 심리 회복 신호",
+        "easy": "그동안 시장에는 \"AI가 소프트웨어 회사들의 밥그릇을 뺏을 것\"이라는 걱정이 있었습니다. 사람이 쓰던 프로그램을 AI가 알아서 대신 만들어버리면, 프로그램을 팔던 회사는 뭘 먹고 사느냐는 이야기죠. 이번에 JP모건(대형 투자은행)이 \"그 공포는 지나쳤다\"고 하면서 세일즈포스 주가가 힘을 받았습니다. 겨울이 오면 다 죽는다고 했는데 큰 어른이 \"이 나무는 겨울에도 안 죽는다\"고 진단서를 써준 셈입니다. 걱정이 사라진 게 아니라, 걱정의 크기가 줄어든 단계입니다.",
+        "whyMatters": "이건 주도 섹터 1위인 Technology 26종목(52%) 안에서 자금이 어디로 흐르는지를 바꾸는 뉴스입니다. 그동안 AI 반도체·하드웨어에만 쏠려 있던 돈이 그동안 눌려 있던 기업용 소프트웨어(SaaS)로 되돌아올 명분이 생겼습니다. 소프트웨어는 최근 상대강도가 약해 베이스(횡보 구간)를 오래 만든 종목이 많아, 브레이크아웃 후보 풀이 넓어지는 효과가 있습니다. 다만 애널리스트 코멘트발 반등은 실적으로 확인되기 전까지 되돌림이 잦으니 거래량 동반 여부를 반드시 확인해야 합니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Salesforce's stock gets a boost as J.P. Morgan says AI fears are overblown",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/salesforces-stock-gets-a-boost-as-j-p-morgan-says-ai-fears-are-overblown-feebb221?mod=mw_rss_topstories",
+            "date": "2026-08-13",
+            "quote": "Salesforce's stock gets a boost as J.P. Morgan says AI fears are overblown",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "AI 하드웨어 주도권 이동 — 델이 마이크론·AMD를 제쳤고, 샌디스크는 목표주가 상향 랠리",
+        "easy": "AI 열풍의 수혜가 '칩을 만드는 회사'에서 '칩을 조립해 서버로 파는 회사'와 '데이터를 담아두는 저장장치 회사'로 번지고 있습니다. 델은 올해 마이크론과 AMD보다 더 오르며 상승폭을 더 키웠고, 샌디스크는 월가가 목표주가를 새로 올리면서 주가가 날아올랐습니다. AI를 요리에 비유하면, 그동안은 최고급 칼(GPU)만 비싸게 팔렸는데 이제 주방 전체(서버)와 냉장고(저장장치)까지 같이 팔리는 국면입니다. 수요가 한 종목이 아니라 밸류체인 전체로 퍼지고 있다는 뜻입니다.",
+        "whyMatters": "Technology 26종목(52%)이라는 주도 섹터 안에서 리더십이 GPU 단일 축에서 서버·메모리·스토리지로 넓어지고 있다는 실증입니다. 브레이크아웃 관점에서는 후발 밸류체인 종목이 새로 신고가 베이스를 만들 확률이 높아져, 이미 많이 오른 대장주를 추격 매수하는 것보다 위험 대비 보상이 낫습니다. 서버 조립·냉각·전력 쪽으로 파급되면 Industrials 2종목(4%)에도 온기가 갑니다. 단, 메모리·스토리지는 가격 사이클 업종이라 상승이 가팔랐던 만큼 되돌림도 깊다는 점을 전제로 손절을 잡아야 합니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Dell's stock has beaten Micron and AMD this year — and now it's adding to its gains",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/dells-stock-has-beaten-micron-and-amd-this-year-and-now-its-adding-to-its-gains-11c00117?mod=mw_rss_topstories",
+            "date": "2026-08-13",
+            "quote": "Dell's stock has beaten Micron and AMD this year — and now it's adding to its gains",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Sandisk's stock is flying higher. Here are the new targets that are exciting Wall Street.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/sandisks-stock-is-flying-higher-here-are-the-new-targets-that-are-exciting-wall-street-4eaab99d?mod=mw_rss_topstories",
+            "date": "2026-08-13",
+            "quote": "Sandisk's stock is flying higher. Here are the new targets that are exciting Wall Street.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "레딧, S&P 500 편입 확정 — 다만 애널리스트들은 우려를 남겼다",
+        "easy": "S&P 500은 미국 대표기업 500곳을 담은 명단인데, 여기 들어가면 이 지수를 그대로 따라 사는 대형 펀드들이 '규칙상' 그 주식을 사야 합니다. 반 대표로 뽑히면 자동으로 여러 행사에 초대되는 것과 비슷해서, 편입 발표 자체가 강제 매수 수요를 만듭니다. 레딧이 오랜 추측 끝에 그 명단에 들어가게 됐습니다. 다만 애널리스트들은 우려를 함께 내놨는데, 편입에 따른 수급 상승은 일회성이고 그 이후엔 결국 실적으로 증명해야 하기 때문입니다. 즉 '들어가서 좋다'와 '들어간 다음이 문제다'가 같이 있는 뉴스입니다.",
+        "whyMatters": "레딧은 주도 섹터 중 Communication Services 2종목(4%)에 해당하는 영역으로, 비중은 작지만 광고 기반 플랫폼 전반의 투자심리를 대표합니다. 지수 편입 이벤트는 이벤트 드리븐(EP, Episodic Pivot) 매매에서 전형적인 거래량 급증 구간을 만들지만, 편입일 전후로 재료가 소멸하며 급락하는 사례가 많은 유형입니다. 추격보다는 편입 관련 급등 이후 눌림에서 베이스가 다시 잡히는지 보는 편이 승률이 높습니다. 광고 시장 전반의 온기는 같은 Communication Services 내 다른 플랫폼주로도 확산될 수 있습니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Reddit is joining the S&P 500 after months of speculation. Analysts have these concerns.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/reddit-is-joining-the-s-p-500-after-months-of-speculation-analysts-have-these-concerns-21f81f77?mod=mw_rss_topstories",
+            "date": "2026-08-14",
+            "quote": "Reddit is joining the S&P 500 after months of speculation. Analysts have these concerns.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "오늘 시장은 한마디로 \\\"차트는 초록불, 심리는 노란불\\\"입니다. QQQ(나스닥100 ETF)는 종가 732.07로 MA10 716.2·MA20 702.34·MA50 713.21을 모두 위에 두고 있고, 골든크로스 D+3에 10일선과 20일선이 함께 오르는(3.33% / 0.27%) 쿨라매기 최적 진입 구간입니다. 즉 추세 자체는 매수를 막을 이유가 없는 상태입니다. 문제는 그 상승을 만드는 연료입니다. FINRA 고객 마진부채가 1년 전보다 +49.0% 늘어 +40% 경고선을 넘었고, 언론은 시장이 \\\"이상하리만치 조용한 가운데 투자자들이 FOMO 랠리를 쫓고 있다\\\"고 표현합니다. 빌린 돈으로 올라탄 랠리는 오를 땐 더 오르고 꺾일 땐 강제청산으로 더 빨리 꺾입니다. 다만 200일선 대비 +150%를 넘긴 과열 종목이 0개라는 점은 아직 개별 종목 단위의 막바지 수직 급등 국면은 아니라는 뜻이고, 주도 섹터도 Technology 26종목(52%)을 중심으로 Healthcare 9종목(18%), Consumer Cyclical 5종목(10%)까지 폭이 유지되고 있습니다.",
+    "keyRisks": [
+      "레버리지 과열: FINRA 고객 마진부채 YoY +49.0%로 +40% 경고선 초과. 조정이 시작되면 마진콜 연쇄로 낙폭이 평소보다 깊어질 수 있음",
+      "저변동성 함정: 시장이 '이상할 만큼 조용한' 상태에서 FOMO 매수가 붙는 구간은 헤드라인 한 방에 변동성이 급점프하기 쉬움",
+      "지정학: 미국의 대이란 '전례 없는' 경제 수단 예고와 호르무즈 인근 항모 이슈 — 유가·물가 경로로 성장주 할인율에 역풍",
+      "관세·물가: 무역법원의 데미니미스 면세 폐지 유지 판결로 저가 수입 소비재 원가 상승. Consumer Cyclical에 직접 마진 압박",
+      "기술 우위 희석: 중국 기술(CATL·DeepSeek 등)의 채택 확대는 Technology 26종목(52%)이 누리던 프리미엄을 깎는 구조적 방향",
+      "쏠림 리스크: 주도 섹터의 52%가 Technology 한 곳. 이 섹터가 흔들리면 분산 효과가 사실상 작동하지 않음",
+      "이벤트 소멸: 레딧의 S&P 500 편입 같은 지수 이벤트는 편입 전후 재료 소멸형 급락이 잦아 추격매수 위험이 큼"
+    ],
+    "easySummary": [
+      "차트는 사도 되는 자리다 — QQQ는 종가 732.07로 10일·20일·50일선 위, 골든크로스 D+3에 10MA·20MA 동반 상승(3.33% / 0.27%)인 쿨라매기 최적 진입 구간이다.",
+      "그런데 연료가 빚이다 — 마진부채(주식 담보로 빌린 돈)가 1년 전보다 +49.0%로 경고선(+40%)을 넘었고, 시장은 '너무 조용한데 다들 FOMO로 뛰어드는' 상태다.",
+      "그래서 결론은 '가되 안전벨트' — 주도주는 Technology 26종목(52%) 중심이고 200일선 +150% 초과 과열 종목은 0개라 아직 여유가 있지만, 관세·이란 같은 헤드라인 리스크가 살아 있으니 레버리지 없이 손절선을 타이트하게 잡고 분할로 진입하는 게 맞다."
+    ],
+    "candidateCount": 14,
+    "verified": {
+      "checked": 130,
+      "ok": 142,
+      "unverified": 41,
+      "dead": 0,
+      "stripped": 0,
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://www.stocktitan.net/news/MDB/mongo-db-inc-announces-first-quarter-fiscal-2027-financial-pn6ou0elo2cm.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.riotimesonline.com/aura-minerals-q2-2026-profit-gold-hedge-gain/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.stocktitan.net/news/DK/delek-logistics-partners-lp-announces-pricing-of-public-offering-of-yc39wmngrvz5.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://247wallst.com/investing/2026/08/13/sandisk-unveils-multi-year-financial-model-and-growth-strategy-memory-stocks-soar/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.biggo.com/news/9Aju1Z0BNl__-4_Gl_O2"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.biggo.com/news/9Aju1Z0BNl__-4_Gl_O2"
+        },
+        {
+          "reason": "중복",
+          "url": "https://letsdatascience.com/news/dell-reports-43b-ai-backlog-guides-50b-ai-revenue-9f6f0c5f"
+        },
+        {
+          "reason": "중복",
+          "url": "https://letsdatascience.com/news/dell-reports-43b-ai-backlog-guides-50b-ai-revenue-9f6f0c5f"
+        }
+      ]
+    },
+    "reusedFrom": null
   }
 };

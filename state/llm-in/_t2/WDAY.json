@@ -1,0 +1,255 @@
+{
+ "ticker": "WDAY",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "워크데이",
+ "detail": {
+  "fetchedAt": "2026-08-14",
+  "nameKo": "워크데이",
+  "nameEn": "WORKDAY INC",
+  "infomaxCode": "NAS:WDAY",
+  "financials": {
+   "ok": true,
+   "ticker": "WDAY",
+   "cik": "0001327811",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-02-01",
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 2542000000,
+     "profit": 338000000,
+     "netIncome": 222000000,
+     "margin": 13.3,
+     "yoy": {
+      "revenue": 13.5,
+      "profit": 766.7,
+      "netIncome": 226.5,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodStart": "2025-10-31",
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 2532000000,
+     "profit": 174000000,
+     "netIncome": 145000000,
+     "margin": 6.9,
+     "yoy": {
+      "revenue": 14.5,
+      "profit": 132,
+      "netIncome": 54.3,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodStart": "2025-08-01",
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 2432000000,
+     "profit": 259000000,
+     "netIncome": 252000000,
+     "margin": 10.6,
+     "yoy": {
+      "revenue": 12.6,
+      "profit": 57,
+      "netIncome": 30.6,
+      "priorEnd": "2024-10-31"
+     }
+    },
+    {
+     "periodStart": "2025-05-01",
+     "periodEnd": "2025-07-31",
+     "derived": false,
+     "revenue": 2348000000,
+     "profit": 248000000,
+     "netIncome": 228000000,
+     "margin": 10.6,
+     "yoy": {
+      "revenue": 12.6,
+      "profit": 123.4,
+      "netIncome": 72.7,
+      "priorEnd": "2024-07-31"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327811&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "WDAY",
+   "items": [
+    {
+     "title": "Stock Market Today, Aug. 13: Stocks Rise as Inflation Cools, Workday Soars 18%",
+     "url": "https://www.nasdaq.com/articles/stock-market-today-aug-13-stocks-rise-inflation-cools-workday-soars-18",
+     "date": "2026-08-13",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "QQQ",
+      "WDAY"
+     ]
+    },
+    {
+     "title": "Workday (WDAY) Increases Despite Market Slip: Here's What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/workday-wday-increases-despite-market-slip-heres-what-you-need-know",
+     "date": "2026-08-10",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "WDAY"
+     ]
+    },
+    {
+     "title": "WDAY Crosses Above Average Analyst Target",
+     "url": "https://www.nasdaq.com/articles/wday-crosses-above-average-analyst-target",
+     "date": "2026-08-10",
+     "publisher": "BNK Invest",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "WDAY"
+     ]
+    },
+    {
+     "title": "StoneCo Ltd. (STNE) Q2 Earnings Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/stoneco-ltd-stne-q2-earnings-beat-estimates",
+     "date": "2026-08-13",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "STNE",
+      "WDAY"
+     ]
+    },
+    {
+     "title": "CI&T Inc. (CINT) Q2 Earnings Miss Estimates",
+     "url": "https://www.nasdaq.com/articles/cit-inc-cint-q2-earnings-miss-estimates",
+     "date": "2026-08-11",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "CINT",
+      "WDAY"
+     ]
+    }
+   ],
+   "directCount": 3,
+   "total": 5,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-22",
+    "reportDate": "2026-06-16",
+    "items": [
+     "5.07"
+    ],
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000031/wday-20260616.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-21",
+    "reportDate": "2026-05-21",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000024/wday-20260521.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-24",
+    "reportDate": "2026-04-20",
+    "items": [
+     "9.01"
+    ],
+    "itemsKo": [
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000019/wday-20260420.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-06",
+    "reportDate": "2026-03-05",
+    "items": [
+     "5.02"
+    ],
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000016/wday-20260305.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-24",
+    "reportDate": "2026-02-24",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000010/wday-20260224.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-09",
+    "reportDate": "2026-02-06",
+    "items": [
+     "5.02",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000007/wday-20260206.htm",
+    "description": "8-K"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": [],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}
