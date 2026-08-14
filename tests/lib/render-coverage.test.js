@@ -130,8 +130,15 @@ else {
     assert.ok(ctx.bodyFor('t2').includes(SENT + 'B'), 'counterpoint 가 화면에 없다');
   });
   ok('counterpoint 가 비어도 빈 제목만 남지 않는다', () => {
-    done2[0].research.counterpoint = [];
-    assert.ok(!ctx.bodyFor('t2').includes('반대 근거·한계'), '반대 근거가 없는데 제목만 그려진다');
+    // ⚠️ done2[0] 만 비우면 나머지 종목의 counterpoint 때문에 문자열이 남아 오탐이 난다
+    //    (2026-08-14: counterpoint 가 실제로 생성되기 시작하자 이 테스트가 그렇게 깨졌다).
+    const saved = done2.map((p) => p.research.counterpoint);
+    done2.forEach((p) => { p.research.counterpoint = []; });
+    try {
+      assert.ok(!ctx.bodyFor('t2').includes('반대 근거·한계'), '반대 근거가 없는데 제목만 그려진다');
+    } finally {
+      done2.forEach((p, i) => { p.research.counterpoint = saved[i]; });
+    }
   });
 }
 if (!done4.length) skipIt('4팀 company 렌더', '4팀 촉매 데이터 없음');

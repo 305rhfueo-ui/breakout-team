@@ -1173,14 +1173,18 @@ window.CHIEF_DATA = {
     "tomorrowWatch": "내일 가장 먼저 볼 것은 세 가지입니다. 첫째, 거래량이 붙지 않은 돌파 8개(MDB·P·DELL·NTAP·PAYC·TEAM·EAT·FET)에 뒤늦게 거래량이 실리는지 — 실리면 진짜 돌파로 승격되고, 계속 없으면 후보에서 빠집니다. 특히 DELL과 PAYC는 어제(8월 13일) 막 뚫은 신선한 신호라 하루 이틀이 판가름입니다. 둘째, 숨을 참고 있는 종목들의 저항선 돌파 여부 — OKTA $157(1.3% 남음), FEIM $80(2.4% 남음), SYRE $105.05, NVEC $121.2 순으로 가깝습니다. 셋째, DKL이 $59.33까지 되돌아오는지, ASND가 $250.74를 지켜내는지입니다.\n\n한편 반도체 대형주(INTC·MRVL·MU·AMD·ALAB·SNDK)가 무더기로 추적에서 빠진 것과, 반도체 장비 업종이 '기대만 오르고 가격은 두 달 평균 아래'인 상태가 겹칩니다. 이 업종이 다시 두 달 평균선 위로 올라오는지가 다음 주도 흐름의 갈림길입니다. → 내일은 새 종목을 찾기보다 위 목록의 조건 충족 여부만 체크하시고, 마진부채 경고가 켜져 있는 만큼 진입하더라도 평소보다 작게 시작하세요.",
     "verified": {
       "checked": 130,
-      "ok": 142,
-      "unverified": 41,
+      "ok": 137,
+      "unverified": 44,
       "dead": 0,
-      "stripped": 0,
+      "stripped": 1,
       "removed": [
         {
           "reason": "중복",
           "url": "https://www.stocktitan.net/news/MDB/mongo-db-inc-announces-first-quarter-fiscal-2027-financial-pn6ou0elo2cm.html"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1800667/000119312526337998/frog-20260806.htm"
         },
         {
           "reason": "중복",
@@ -1189,6 +1193,10 @@ window.CHIEF_DATA = {
         {
           "reason": "중복",
           "url": "https://www.stocktitan.net/news/DK/delek-logistics-partners-lp-announces-pricing-of-public-offering-of-yc39wmngrvz5.html"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/721994/000072199426000063/lkfn-20260727.htm"
         },
         {
           "reason": "중복",
@@ -1210,7 +1218,8 @@ window.CHIEF_DATA = {
           "reason": "중복",
           "url": "https://letsdatascience.com/news/dell-reports-43b-ai-backlog-guides-50b-ai-revenue-9f6f0c5f"
         }
-      ]
+      ],
+      "noQuote": 2
     },
     "reusedFrom": null,
     "reuseAll": null

@@ -804,8 +804,8 @@ window.TEAM5_DATA = {
                 "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-coreweave-tops-q2-2026-estimates-shares-jump-135-93CH-4825607?ampMode=1",
                 "date": "2026-08-11",
                 "quote": "Revenue was $2.6 billion in Q2, up 112% year-over-year and 24% sequentially / CapEx in Q2 totaled $9.4 billion, slightly above the high end of our guided range / we now expect 2026 CapEx in the range of $35 billion to $39 billion / Revenue backlog ended the quarter at $104 billion, up 246% year-over-year.",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "CoreWeave and Nebius Group Deliver Earnings Shocker. Here's What It Signals About the Future of AI.",
@@ -890,8 +890,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.stocktitan.net/sec-filings/SN/8-k-shark-ninja-inc-reports-material-event-c1781a5a966a.html",
                 "date": "2026-08-05",
                 "quote": "Net sales increased 22.2% to $1,765.5 million",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 429
               }
             ]
           },
@@ -922,8 +922,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.stocktitan.net/sec-filings/SN/8-k-shark-ninja-inc-reports-material-event-c1781a5a966a.html",
                 "date": "2026-08-05",
                 "quote": "SharkNinja submitted refund claims of approximately $247.1 million through the U.S. Customs and Border Protection (\"CBP\") refund process, and the CBP accepted those claims",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 429
               }
             ]
           },
@@ -938,8 +938,8 @@ window.TEAM5_DATA = {
                 "url": "https://www.stocktitan.net/sec-filings/SN/8-k-shark-ninja-inc-reports-material-event-c1781a5a966a.html",
                 "date": "2026-08-05",
                 "quote": "Net sales to increase 16.0% to 17.0% compared to the prior year (above the prior expectation of 11.5% to 12.5%)",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 429
               }
             ]
           },
@@ -1040,12 +1040,12 @@ window.TEAM5_DATA = {
         "Oil & Gas Refining & Marketing (Energy) — 6개월 순위 1.43%(WRS 0.6743)에서 1개월 6.43%(WRS 0.1441)로 완만하게 후퇴. 아직 상위 10% 안이라 이탈이 아니라 '선두에서 2선으로' 수준의 감속.",
         "Furnishings, Fixtures & Appliances (Consumer Cyclical) — 3개월 순위 0.71%(WRS 0.4825) 정점 이후 1개월 9.29%(WRS 0.1169)로 꺾임. 다만 6개월 순위가 21.43%로 원래 상위권이 아니었던 단기 스파이크형이라, 정의상 완전한 fading보다는 '모멘텀 피크아웃'."
       ],
-      "rotationView": "지금 자금의 중심축은 여전히 AI 하드웨어다. Computer Hardware가 6개월 WRS 1.465(상위 0.71%), 3개월 0.4562(1.43%), 1개월 0.1977(2.14%)로 세 구간 모두 상위 2% 안에 남은 유일한 업종이고, 이게 이번 장의 기준선이다. 그 축 주변에서 두 갈래 로테이션이 동시에 일어나고 있다. 첫째, 테크 섹터 내부의 재배분이다. 6개월 상위 2.14%였던 Electronics & Computer Distribution이 1개월 17.86%까지 밀리는 사이, Software - Infrastructure가 3개월 10%의 소강을 지나 1개월 1.43%로 다시 앞줄로 올라왔다. 즉 테크 안에서 유통·중개 성격에서 하드웨어 원천과 인프라 소프트웨어 쪽으로 돈이 좁혀지는 그림이다. 둘째, 시클리컬 축의 교대다. 6개월 상위 1.43%로 강했던 Oil & Gas Refining & Marketing이 1개월 6.43%로 한 단계 물러서고, 3개월 0.71%로 튀었던 Furnishings가 1개월 9.29%로 식는 동안, 6개월 하위권(92.14%)에 있던 Gold가 1개월 0.71% 1위로 급부상했다. 정리하면 '구조적 AI 하드웨어·인프라 소프트웨어는 유지 또는 재가속, 시클리컬 리더십은 정제마진에서 금으로 갈아타는 중'이며, 금 유입은 8월 12일 CPI가 예상치에 부합하며 달러가 약해지고 9월 금리 인상 확률이 54%에서 40%로 낮아진 매크로 이벤트와 시점이 겹친다.",
+      "rotationView": "지금 자금의 중심축은 여전히 AI 하드웨어다. Computer Hardware가 6개월 업종 강도(WRS) 1.465(상위 0.71%), 3개월 0.4562(1.43%), 1개월 0.1977(2.14%)로 세 구간 모두 상위 2% 안에 남은 유일한 업종이고, 이게 이번 장의 기준선이다. 그 축 주변에서 두 갈래 로테이션이 동시에 일어나고 있다. 첫째, 테크 섹터 내부의 재배분이다. 6개월 상위 2.14%였던 Electronics & Computer Distribution이 1개월 17.86%까지 밀리는 사이, Software - Infrastructure가 3개월 10%의 소강을 지나 1개월 1.43%로 다시 앞줄로 올라왔다. 즉 테크 안에서 유통·중개 성격에서 하드웨어 원천과 인프라 소프트웨어 쪽으로 돈이 좁혀지는 그림이다. 둘째, 시클리컬 축의 교대다. 6개월 상위 1.43%로 강했던 Oil & Gas Refining & Marketing이 1개월 6.43%로 한 단계 물러서고, 3개월 0.71%로 튀었던 Furnishings가 1개월 9.29%로 식는 동안, 6개월 하위권(92.14%)에 있던 Gold가 1개월 0.71% 1위로 급부상했다. 정리하면 '구조적 AI 하드웨어·인프라 소프트웨어는 유지 또는 재가속, 시클리컬 리더십은 정제마진에서 금으로 갈아타는 중'이며, 금 유입은 8월 12일 CPI가 예상치에 부합하며 달러가 약해지고 9월 금리 인상 확률이 54%에서 40%로 낮아진 매크로 이벤트와 시점이 겹친다.",
       "strongest": {
         "industry": "Computer Hardware (Technology)",
         "why": "WRS가 6개월 1.465(상위 0.71%), 3개월 0.4562(1.43%), 1개월 0.1977(2.14%)로 전 구간 상위 2% 이내를 유지한 유일한 업종이라 '지속형 주도주'의 정의에 가장 부합한다. 근거도 개별 종목 실적·수급으로 확인된다. 샌디스크(SNDK)는 2026년 8월 13일 투자자의 날에서 FY2028~2030 비GAAP 매출총이익률 약 80% 목표를 제시하며 당일 15% 급등해 1,545.35달러를 기록했고, 시게이트(STX)는 고용량 HDD의 2026년 생산분을 이미 완판한 상태에서 2025년 11월~2026년 2월 사이 고용량 HDD 가격이 60% 올랐으며 데이터센터향 출하 비중이 87%에 달한다. 델(DELL)은 FY2026 AI서버 누적 수주 641억 달러에 이어 1분기 AI서버 매출이 전년 대비 757% 늘어난 161억 달러, 백로그 513억 달러를 기록하며 FY2027 AI서버 매출 목표를 약 600억 달러로 상향했고, 8월 12일에는 슈퍼마이크로 호실적 가이던스에 동반 상승해 종가 484.50달러를 찍었다. 가격(HDD 60% 상승), 수량(수주·백로그), 마진(80% 목표)이 동시에 올라오는 구조라 조사 결과의 durability 판정도 structural이다."
       },
-      "caution": "1) emerging 판정의 기준 차이에 주의. 지시된 정의(1개월 WRS > 6개월 WRS)를 문자 그대로 적용하면 emerging은 Gold 하나뿐이다. Software - Infrastructure는 절대 WRS로는 1개월(0.2226)이 6개월(0.4118)보다 낮고 순위(rankPct) 기준으로만 개선된 케이스라 별도로 표기했다. WRS는 기간 누적치 성격이라 절대값 직접 비교가 구간 길이에 유리/불리하게 왜곡될 수 있으므로, 실전 판단은 rankPct 궤적을 함께 봐야 한다. 2) Gold는 조사 결과상 driver가 macro, durability가 cyclical이다. 1개월 순위 0.71%는 8월 12일 CPI 부합·달러 약세·9월 금리 인상 확률 54%→40% 하락이라는 매크로 이벤트에 붙은 움직임이고, 3개월 순위가 67.14%·6개월이 92.14%로 아직 중기 추세 확인이 안 된 상태다. 매크로 전제가 뒤집히면 되돌림이 빠를 수 있는 자리다. 3) Electronics & Computer Distribution은 researched:true지만 확보된 근거가 2026년 8월 6일 레이먼드 제임스의 NSIT 목표주가 100→175달러, 8월 7일 JP모건 135→160달러 상향, 이 두 건의 애널리스트 액션뿐이다. 업종 전체의 펀더멘털을 설명할 재료로는 얇으므로 fading 판정의 원인을 단정하지 말고 수치(6개월 2.14% → 1개월 17.86%)까지만 말해야 한다. 4) Oil & Gas Refining과 Furnishings는 모두 durability가 cyclical로 분류돼 있다. 정제는 크랙스프레드 배럴당 59달러와 2026년 2분기 정제설비 가동 5.4%(하루 450만 배럴) 축소, 호르무즈 인근 충돌·우크라이나의 러시아 정유시설 드론 공격 같은 공급 이벤트에 얹힌 마진이고, Furnishings는 SharkNinja의 CBP 관세 환급 약 2억 4,710만 달러 승인이라는 일회성 요인이 가이던스 상향(11.5~12.5% → 16.0~17.0%)에 섞여 있다. 둘 다 이벤트가 소멸하면 모멘텀도 함께 꺼지는 구조라 신규 진입 시 추세 연장을 전제로 깔지 말 것. 5) 이번 종합은 제시된 6개 업종 데이터 범위 안에서만 이뤄졌다. 시장 전체 상위 업종을 망라한 것이 아니므로 '전체 1위'가 아니라 '주어진 후보군 내 최강'으로 읽어야 한다."
+      "caution": "1) emerging 판정의 기준 차이에 주의. 지시된 정의(1개월 WRS > 6개월 WRS)를 문자 그대로 적용하면 emerging은 Gold 하나뿐이다. Software - Infrastructure는 절대 업종 강도(WRS)로는 1개월(0.2226)이 6개월(0.4118)보다 낮고 순위(rankPct) 기준으로만 개선된 케이스라 별도로 표기했다. 업종 강도(WRS)는 기간 누적치 성격이라 절대값 직접 비교가 구간 길이에 유리/불리하게 왜곡될 수 있으므로, 실전 판단은 rankPct 궤적을 함께 봐야 한다. 2) Gold는 조사 결과상 driver가 macro, durability가 cyclical이다. 1개월 순위 0.71%는 8월 12일 CPI 부합·달러 약세·9월 금리 인상 확률 54%→40% 하락이라는 매크로 이벤트에 붙은 움직임이고, 3개월 순위가 67.14%·6개월이 92.14%로 아직 중기 추세 확인이 안 된 상태다. 매크로 전제가 뒤집히면 되돌림이 빠를 수 있는 자리다. 3) Electronics & Computer Distribution은 researched:true지만 확보된 근거가 2026년 8월 6일 레이먼드 제임스의 NSIT 목표주가 100→175달러, 8월 7일 JP모건 135→160달러 상향, 이 두 건의 애널리스트 액션뿐이다. 업종 전체의 펀더멘털을 설명할 재료로는 얇으므로 fading 판정의 원인을 단정하지 말고 수치(6개월 2.14% → 1개월 17.86%)까지만 말해야 한다. 4) Oil & Gas Refining과 Furnishings는 모두 durability가 cyclical로 분류돼 있다. 정제는 크랙스프레드 배럴당 59달러와 2026년 2분기 정제설비 가동 5.4%(하루 450만 배럴) 축소, 호르무즈 인근 충돌·우크라이나의 러시아 정유시설 드론 공격 같은 공급 이벤트에 얹힌 마진이고, Furnishings는 SharkNinja의 CBP 관세 환급 약 2억 4,710만 달러 승인이라는 일회성 요인이 가이던스 상향(11.5~12.5% → 16.0~17.0%)에 섞여 있다. 둘 다 이벤트가 소멸하면 모멘텀도 함께 꺼지는 구조라 신규 진입 시 추세 연장을 전제로 깔지 말 것. 5) 이번 종합은 제시된 6개 업종 데이터 범위 안에서만 이뤄졌다. 시장 전체 상위 업종을 망라한 것이 아니므로 '전체 1위'가 아니라 '주어진 후보군 내 최강'으로 읽어야 한다."
     },
     "reusedFrom": null
   },

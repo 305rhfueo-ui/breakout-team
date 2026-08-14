@@ -10,6 +10,7 @@ const path = require('path');
 const fs = require('fs');
 const { paths, loadEnv, today, readJson, writeJson, writeWindowData, say, coverageOf } = require('./lib/util');
 const { verifyPayload } = require('./lib/verify-claims');
+const { plainifyDeep } = require('./lib/plain-terms');
 const { loadCache, saveCache, recordResearched } = require('./lib/research-rotation');
 
 function loadWindowData(file, varName) {
@@ -59,6 +60,11 @@ async function main() {
     for (const r of report.removed) byReason[r.reason] = (byReason[r.reason] || 0) + 1;
     say('SYSTEM', `제거 사유: ${Object.entries(byReason).map(([k, v]) => `${k} ${v}`).join(' · ')}`);
   }
+
+  // 맨몸 영문 약어를 "뜻(약어)" 형태로 푼다. 서술을 다시 쓰는 게 아니라 용어 표기만 바꾼다.
+  // 프롬프트에도 규칙이 있지만 분량이 늘수록 한두 건씩 샌다 — 여기서 확정적으로 집행한다.
+  const pl = plainifyDeep(payload);
+  if (pl.changed) say('SYSTEM', `용어 풀이: 맨몸 약어 ${pl.changed}곳을 "뜻(약어)" 형태로 정리`);
 
   // ── 2) 팀별 데이터에 병합 ──
   const merged = [];

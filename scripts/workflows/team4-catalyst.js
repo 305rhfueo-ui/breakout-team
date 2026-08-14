@@ -142,6 +142,9 @@ const CHECK = { type: 'object', properties: { results: { type: 'array', items: {
     verdict: { type: 'string', enum: ['pass', 'partial', 'reject'] },
     removed_claim_ids: { type: 'array', items: { type: 'string' } },
     correctedCategory: { type: 'number' },
+    // ⚠️ volumeExplanation 은 claims 의 요약이라 근거가 지워지면 같이 고쳐야 한다.
+    //    2026-08-14 실측: WDAY 의 시총·주가 수치가 팩트체크로 제거됐는데 설명문엔 그대로 남았다.
+    correctedVolumeExplanation: { type: 'string', description: '제거한 주장의 숫자·사실이 volumeExplanation 에도 있으면 그 문장을 뺀 설명. 뺄 것이 없으면 빈 문자열' },
     reason: { type: 'string' },
   }, required: ['ticker', 'verdict', 'removed_claim_ids'],
 } } }, required: ['results'] }
@@ -155,8 +158,18 @@ ${JSON.stringify(b, null, 1)}
 - 출처가 그 주장을 실제로 뒷받침하는가 (무관하면 removed_claim_ids)
 - 다른 회사 뉴스를 근거로 쓰지 않았는가
 - **statement 안의 숫자·날짜가 quote 나 출처 제목에 실제로 있는가?** 없으면 제거하라
+- ⚠️ **단위 환산을 정확히 하라.** 1 billion = 10억, 1 million = 100만 이다.
+  $64.1 billion = 641억 달러 · $104 billion = 1,040억 달러 · $143.5 million = 1억 4,350만 달러.
+  **환산만 다르고 값이 같으면 정상이다 — 지우지 마라.**
+  (2026-08-14 실측: 이 환산을 틀려 정확한 근거 2건을 지웠다. 검증이 지나치게 지우는 것도 오류다.)
 - **근거가 빈약한데 ①~⑤ 로 분류했으면 correctedCategory: 6 으로 정정하라.** 이게 핵심 검증 포인트다
-- ①(어닝) 로 분류했으면 실제 실적 발표 근거(8-K item 2.02 또는 실적 기사)가 있는가`,
+- ①(어닝) 로 분류했으면 실제 실적 발표 근거(8-K item 2.02 또는 실적 기사)가 있는가
+
+⚠️ **마지막으로 volumeExplanation 을 검사하라.** 이 설명문은 claims 의 요약이므로,
+위에서 제거하기로 한 주장의 숫자·사실이 설명문에도 들어 있으면
+**근거는 지워졌는데 요약문만 살아남는다.** 그런 문장이 있으면
+correctedVolumeExplanation 에 **그 문장을 뺀 설명**을 다시 써라.
+남은 근거만으로 다시 쓰고 **새 사실을 넣지 마라.** 뺄 것이 없으면 빈 문자열로 두라.`,
   { label: `팩트체크:${i + 1}/${batches.length}`, phase: '팩트체크', schema: CHECK, model: 'haiku' }
 )))
 
@@ -180,7 +193,21 @@ for (const s of clean) {
     if (s.category !== 6) { s.originalCategory = s.category; s.category = 6; s.categoryName = CATNAME[6]; s.corrected = true }
   }
   s.isHighlight = s.category === 1 || s.category === 5
+  // 근거가 지워졌으면 그 근거를 요약한 설명문도 같이 고친다. 원문은 남겨 대조할 수 있게 한다.
+  const cv = String(r.correctedVolumeExplanation || '').trim()
+  if (rm.size && cv.length > 20 && cv !== s.volumeExplanation) {
+    s.volumeExplanationOriginal = s.volumeExplanation
+    s.volumeExplanation = cv
+    s.factcheck.narrativeFixed = true
+  }
 }
+
+/* 스키마에 없는 필드는 버린다.
+   2026-08-14 실측: WDAY 결과에 `volumeExplanation2: "placeholder"` 가 딸려 왔다.
+   화면에 나가진 않지만 데이터에 쌓이면 나중에 진짜 필드로 오인된다. */
+const KEEP = new Set(['ticker', 'category', 'categoryName', 'claims', 'company', 'volumeExplanation',
+  'volumeExplanationOriginal', 'isHighlight', 'confidence', 'factcheck', 'originalCategory', 'corrected'])
+for (const s of clean) for (const k of Object.keys(s)) if (!KEEP.has(k)) delete s[k]
 
 phase('종합')
 const SUM = { type: 'object', properties: {

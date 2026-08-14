@@ -149,6 +149,13 @@ function sanitizeNode(node, { runDate, linkMap, report }) {
       if (s.date && runDate && String(s.date) > String(runDate)) {
         report.removed.push({ reason: `미래 날짜(${s.date} > ${runDate})`, url: u }); continue;
       }
+      // 인용문 없는 출처는 출처로 치지 않는다.
+      // 스키마에서 quote 를 required 로 걸어도 모델은 빈 문자열을 넣을 수 있으므로 Node 가 집행한다.
+      // 규칙이 일관되어야 한다 — "그 문장이 어디서 나왔는지 못 보여주면 근거가 아니다".
+      // sources 가 전부 빠지면 아래에서 자동으로 '근거 없음' 으로 강등된다.
+      if (String(s.quote || '').trim().length <= 8) {
+        report.removed.push({ reason: '인용문 없음', url: u }); report.noQuote = (report.noQuote || 0) + 1; continue;
+      }
       if (seen.has(u)) { report.removed.push({ reason: '중복', url: u }); continue; }
       seen.add(u);
       const lk = linkMap ? linkMap.get(u) : null;

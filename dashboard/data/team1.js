@@ -492,8 +492,8 @@ window.TEAM1_DATA = {
             "url": "https://www.marketwatch.com/story/markets-are-looking-eerily-calm-as-investors-chase-fomo-rally-bed22de9?mod=mw_rss_topstories",
             "date": "2026-08-13",
             "quote": "Markets are looking eerily calm as investors chase FOMO rally",
-            "verified": "ok",
-            "httpStatus": 200
+            "verified": "unverified",
+            "httpStatus": 401
           }
         ]
       },
@@ -560,8 +560,8 @@ window.TEAM1_DATA = {
             "url": "https://www.marketwatch.com/story/salesforces-stock-gets-a-boost-as-j-p-morgan-says-ai-fears-are-overblown-feebb221?mod=mw_rss_topstories",
             "date": "2026-08-13",
             "quote": "Salesforce's stock gets a boost as J.P. Morgan says AI fears are overblown",
-            "verified": "unverified",
-            "httpStatus": 401
+            "verified": "ok",
+            "httpStatus": 200
           }
         ]
       },
@@ -627,14 +627,18 @@ window.TEAM1_DATA = {
     "candidateCount": 14,
     "verified": {
       "checked": 130,
-      "ok": 142,
-      "unverified": 41,
+      "ok": 137,
+      "unverified": 44,
       "dead": 0,
-      "stripped": 0,
+      "stripped": 1,
       "removed": [
         {
           "reason": "중복",
           "url": "https://www.stocktitan.net/news/MDB/mongo-db-inc-announces-first-quarter-fiscal-2027-financial-pn6ou0elo2cm.html"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1800667/000119312526337998/frog-20260806.htm"
         },
         {
           "reason": "중복",
@@ -643,6 +647,10 @@ window.TEAM1_DATA = {
         {
           "reason": "중복",
           "url": "https://www.stocktitan.net/news/DK/delek-logistics-partners-lp-announces-pricing-of-public-offering-of-yc39wmngrvz5.html"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/721994/000072199426000063/lkfn-20260727.htm"
         },
         {
           "reason": "중복",
@@ -664,7 +672,8 @@ window.TEAM1_DATA = {
           "reason": "중복",
           "url": "https://letsdatascience.com/news/dell-reports-43b-ai-backlog-guides-50b-ai-revenue-9f6f0c5f"
         }
-      ]
+      ],
+      "noQuote": 2
     },
     "reusedFrom": null
   }

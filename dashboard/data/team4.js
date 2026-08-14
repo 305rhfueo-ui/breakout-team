@@ -284,7 +284,7 @@ window.TEAM4_DATA = {
         "category": 4,
         "categoryName": "기업 턴어라운드(대형 M&A·사모펀드 바이아웃설)",
         "company": "Workday는 2005년에 전 PeopleSoft 임원 출신인 아닐 부스리(Aneel Bhusri)와 데이비드 더필드(David Duffield)가 세운 회사로, 2012년에 상장했다. 기업의 인사(HR)·급여(payroll)·재무·지출관리·기획 업무를 클라우드 소프트웨어(구독형 SaaS)로 제공해서 매출을 낸다. 즉 대기업들이 직원 관리와 회계 업무를 온라인으로 처리하게 해주고 매달/매년 구독료를 받는 사업 모델이다.",
-        "volumeExplanation": "2026년 8월 13일, 로이터(Reuters)가 사모펀드(private equity) 운용사 실버레이크(Silver Lake)가 Workday를 인수하는 방안을 놓고 협상 중이라고 단독 보도하면서 주가가 하루 만에 약 17.78% 급등했다. 로이터에 따르면 이번 협상은 \"최근 몇 달간(in recent months)\" 진행되어 왔으며, 성사가 확정된 것은 아니라고 소식통이 전했다. 실버레이크가 다른 공동투자자를 끌어들여 자금을 조달할 가능성도 거론됐는데, 이는 작년 사우디 국부펀드(PIF)와 함께 진행한 550억 달러 규모의 일렉트로닉 아츠(EA) 비상장화 거래와 유사한 구조다. 이 초대형 인수 루머라는 명확한 뉴스 촉매가 하루 만에 주가를 20% 가까이 흔들었기 때문에, 거래대금이 20일 평균의 3.99배(VOL_X), 최근 5일 평균 대비로는 4.32배까지 치솟은 것으로 설명된다. 다만 8월 13일 하루의 급등만으로는 20일 평균 대비 VOL_X나 60일 신고가 돌파 같은 수치가 전부 설명되지 않을 수 있는데, 이는 8월 10일 자 젝스(Zacks) 기사에서 이미 \"시장 하락에도 불구하고 상승(Increases Despite Market Slip)\"했다고 보도된 점 등 인수설 이전부터 있었던 매수세도 함께 작용했을 가능성을 시사한다.",
+        "volumeExplanation": "2026년 8월 13일, 로이터(Reuters)가 사모펀드(private equity) 운용사 실버레이크(Silver Lake)가 Workday를 인수하는 방안을 놓고 협상 중이라고 단독 보도하면서 주가가 하루 만에 약 17.78% 급등했다. 로이터에 따르면 이번 협상은 \"최근 몇 달간(in recent months)\" 진행되어 왔으며, 성사가 확정된 것은 아니라고 소식통이 전했다. 실버레이크가 다른 공동투자자를 끌어들여 자금을 조달할 가능성도 거론됐는데, 이는 작년 사우디 국부펀드(PIF)와 함께 진행한 550억 달러 규모의 일렉트로닉 아츠(EA) 비상장화 거래와 유사한 구조다. 이 초대형 인수 루머라는 명확한 뉴스 촉매가 하루 만에 주가를 20% 가까이 흔들었기 때문에, 거래대금이 20일 평균의 3.99배(VOL_X), 최근 5일 평균 대비로는 4.32배까지 치솟은 것으로 설명된다. 다만 8월 13일 하루의 급등만으로는 20일 평균 대비 거래대금 배수(VOL_X)나 60일 신고가 돌파 같은 수치가 전부 설명되지 않을 수 있는데, 이는 8월 10일 자 젝스(Zacks) 기사에서 이미 \"시장 하락에도 불구하고 상승(Increases Despite Market Slip)\"했다고 보도된 점 등 인수설 이전부터 있었던 매수세도 함께 작용했을 가능성을 시사한다.",
         "claims": [
           {
             "id": "c3",
@@ -347,7 +347,7 @@ window.TEAM4_DATA = {
           "reason": "c1의 '430억 달러' 수치가 quote에 명시되지 않음. c2의 206.45달러, 511억 달러 수치가 quote에 없음 (quote는 '18% surged'만 있음). c5의 '하이브리드 AI 환경에서 수혜' 부분이 quote에 없음. 나머지 claims (c3, c4, c6)는 검증됨.",
           "narrativeFixed": true
         },
-        "volumeExplanationOriginal": "2026년 8월 13일, 로이터(Reuters)가 사모펀드(private equity) 운용사 실버레이크(Silver Lake)가 Workday를 인수하는 방안을 놓고 협상 중이라고 단독 보도하면서 주가가 하루 만에 약 17.78%(전일 대비 31.16달러) 급등해 206.45달러로 마감했고, 시가총액은 인수설 보도 전 약 430억 달러에서 511억 달러로 불어났다. 로이터에 따르면 이번 협상은 \"최근 몇 달간(in recent months)\" 진행되어 왔으며, 성사가 확정된 것은 아니라고 소식통이 전했다. 실버레이크가 다른 공동투자자를 끌어들여 자금을 조달할 가능성도 거론됐는데, 이는 작년 사우디 국부펀드(PIF)와 함께 진행한 550억 달러 규모의 일렉트로닉 아츠(EA) 비상장화 거래와 유사한 구조다. 이 초대형 인수 루머라는 명확한 뉴스 촉매가 하루 만에 주가를 20% 가까이 흔들었기 때문에, 거래대금이 20일 평균의 3.99배(VOL_X), 최근 5일 평균 대비로는 4.32배까지 치솟은 것으로 설명된다. 다만 8월 13일 하루의 급등만으로는 20일 평균 대비 VOL_X나 60일 신고가 돌파 같은 수치가 전부 설명되지 않을 수 있는데, 이는 8월 10일 자 젝스(Zacks) 기사에서 이미 \"시장 하락에도 불구하고 상승(Increases Despite Market Slip)\"했다고 보도된 점, 그리고 웰스파고(Wells Fargo)가 목표주가를 215달러로 상향하며 \"하이브리드 AI 환경에서 기존 대형업체(Workday 등)가 수혜를 본다\"고 평가한 점 등 인수설 이전부터 있었던 매수세도 함께 작용했을 가능성을 시사한다."
+        "volumeExplanationOriginal": "2026년 8월 13일, 로이터(Reuters)가 사모펀드(private equity) 운용사 실버레이크(Silver Lake)가 Workday를 인수하는 방안을 놓고 협상 중이라고 단독 보도하면서 주가가 하루 만에 약 17.78%(전일 대비 31.16달러) 급등해 206.45달러로 마감했고, 시가총액은 인수설 보도 전 약 430억 달러에서 511억 달러로 불어났다. 로이터에 따르면 이번 협상은 \"최근 몇 달간(in recent months)\" 진행되어 왔으며, 성사가 확정된 것은 아니라고 소식통이 전했다. 실버레이크가 다른 공동투자자를 끌어들여 자금을 조달할 가능성도 거론됐는데, 이는 작년 사우디 국부펀드(PIF)와 함께 진행한 550억 달러 규모의 일렉트로닉 아츠(EA) 비상장화 거래와 유사한 구조다. 이 초대형 인수 루머라는 명확한 뉴스 촉매가 하루 만에 주가를 20% 가까이 흔들었기 때문에, 거래대금이 20일 평균의 3.99배(VOL_X), 최근 5일 평균 대비로는 4.32배까지 치솟은 것으로 설명된다. 다만 8월 13일 하루의 급등만으로는 20일 평균 대비 거래대금 배수(VOL_X)나 60일 신고가 돌파 같은 수치가 전부 설명되지 않을 수 있는데, 이는 8월 10일 자 젝스(Zacks) 기사에서 이미 \"시장 하락에도 불구하고 상승(Increases Despite Market Slip)\"했다고 보도된 점, 그리고 웰스파고(Wells Fargo)가 목표주가를 215달러로 상향하며 \"하이브리드 AI 환경에서 기존 대형업체(Workday 등)가 수혜를 본다\"고 평가한 점 등 인수설 이전부터 있었던 매수세도 함께 작용했을 가능성을 시사한다."
       }
     },
     {
@@ -502,8 +502,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.stocktitan.net/sec-filings/FORTY/",
                 "date": "2026-08-05",
                 "quote": "Menora Mivtachim (FORTY) reports 8.86% Formula Systems ownership stake",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 429
               }
             ]
           }
@@ -1209,26 +1209,17 @@ window.TEAM4_DATA = {
                 "url": "https://www.investing.com/news/earnings/lakeland-financial-beats-earnings-but-misses-on-revenue-93CH-4813605",
                 "date": "2026-07-27",
                 "quote": "Lakeland Financial reported second quarter adjusted earnings per share of $1.13, surpassing the analyst consensus of $1.08, however revenue of $70.9 million fell short of the $72.25 million analyst estimate.",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
           {
             "id": "c2",
-            "statement": "SEC 8-K 공시로 2026년 7월27일 item 2.02(실적 발표)가 접수되어 위 실적 발표를 공식 확인할 수 있다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "8-K (Item 2.02 실적 발표)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/721994/000072199426000063/lkfn-20260727.htm",
-                "date": "2026-07-27",
-                "quote": "실적 발표",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
+            "statement": "근거 없음(출처 검증 실패로 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [],
+            "stripped": true
           },
           {
             "id": "c3",

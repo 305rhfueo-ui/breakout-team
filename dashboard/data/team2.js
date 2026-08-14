@@ -10493,8 +10493,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.stocktitan.net/news/MDB/mongo-db-inc-announces-first-quarter-fiscal-2027-financial-pn6ou0elo2cm.html",
                 "date": "2026-05-28",
                 "quote": "Total revenue was $687.6 million for the first quarter of fiscal 2027, an increase of 25% year-over-year.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 429
               }
             ]
           }
@@ -10572,8 +10572,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.stocktitan.net/news/MDB/mongo-db-inc-announces-first-quarter-fiscal-2027-financial-pn6ou0elo2cm.html",
                   "date": "2026-05-28",
                   "quote": "Raising full-year fiscal 2027 guidance driven mainly by strength in Atlas",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 429
                 }
               ]
             },
@@ -10610,8 +10610,8 @@ window.TEAM2_DATA = {
               "url": "https://www.stocktitan.net/news/MDB/mongo-db-inc-announces-date-of-second-quarter-fiscal-2027-earnings-468fnbgchlx3.html",
               "date": "2026-08-04",
               "quote": "MongoDB, Inc. (NASDAQ: MDB) will report its second quarter fiscal year 2027 financial results for the three months ended July 31, 2026, after the U.S. financial markets close on Tuesday, September 1, 2026.",
-              "verified": "ok",
-              "httpStatus": 200
+              "verified": "unverified",
+              "httpStatus": 429
             }
           ]
         },
@@ -11825,8 +11825,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-downgrades-workday-stock-rating-on-growth-concerns-93CH-4801957",
                 "date": "2026-07-21",
                 "quote": "HCM growth has slowed to 13% in FY26, and Morgan Stanley models HCM year-over-year growth continuing to decelerate to 9% in FY28.",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -11841,8 +11841,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-downgrades-workday-stock-rating-on-growth-concerns-93CH-4801957",
                 "date": "2026-07-21",
                 "quote": "Morgan Stanley noted that AI monetization remains in pilot phase.",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -13173,17 +13173,7 @@ window.TEAM2_DATA = {
         "upcomingCatalyst": {
           "what": "3분기(2026년) 실적발표 예정. 공식 날짜는 아직 발표되지 않았으나, 직전 분기들의 8-K(실적 발표) 공시일(2025-11-06, 2026-02-12, 2026-05-07, 2026-08-06)로 볼 때 11월 초 발표가 유력하다.",
           "date": "",
-          "sources": [
-            {
-              "title": "JFrog Ltd 8-K (실적 발표)",
-              "publisher": "SEC EDGAR",
-              "url": "https://www.sec.gov/Archives/edgar/data/1800667/000119312526337998/frog-20260806.htm",
-              "date": "2026-08-06",
-              "quote": "실적 발표",
-              "verified": "ok",
-              "httpStatus": 200
-            }
-          ]
+          "sources": []
         },
         "confidence": "high",
         "factcheck": {

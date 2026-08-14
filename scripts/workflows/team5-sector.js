@@ -137,6 +137,9 @@ const CHECK = { type: 'object', properties: { results: { type: 'array', items: {
     industry: { type: 'string' },
     verdict: { type: 'string', enum: ['pass', 'partial', 'reject'] },
     removed_claim_ids: { type: 'array', items: { type: 'string' } },
+    // ⚠️ 리드문은 근거의 요약이라 근거가 지워지면 같이 고쳐야 한다.
+    //    2026-08-14 실측: 이 업종 리드문에 팩트체크가 지운 "백로그 513억 달러"(실제 51.3억)가 그대로 남았다.
+    correctedLead: { type: 'string', description: '제거한 주장의 숫자·사실이 lead 에도 있으면 그 문장을 뺀 리드문. 뺄 것이 없으면 빈 문자열' },
     reason: { type: 'string' },
   }, required: ['industry', 'verdict', 'removed_claim_ids'],
 } } }, required: ['results'] }
@@ -148,15 +151,25 @@ for (let i = 0; i < clean.length; i += FBATCH) fbatches.push(clean.slice(i, i + 
 const fchecks = await parallel(fbatches.map((b, i) => () => tryAgent(
   `다음 업종 강세 근거를 검증하세요. 오늘은 ${date}.
 
-${JSON.stringify(b.map((x) => ({ industry: x.industry, whyStrong: x.whyStrong })), null, 1)}
+${JSON.stringify(b.map((x) => ({ industry: x.industry, lead: x.lead, whyStrong: x.whyStrong })), null, 1)}
 
 각 claim 을 확인하고 문제가 있으면 removed_claim_ids 에 넣으세요:
 - **statement 안의 숫자·날짜가 quote 나 출처 제목에 실제로 있는가?** 없으면 제거하라.
   분량을 늘리려고 그럴듯한 수치를 지어내는 것이 가장 위험하다. 이게 최우선 검증 항목이다.
+- ⚠️ **단위 환산을 정확히 하라.** 1 billion = 10억, 1 million = 100만 이다.
+  $64.1 billion = 641억 달러 · $104 billion = 1,040억 달러 · $143.5 million = 1억 4,350만 달러.
+  **환산만 다르고 값이 같으면 정상이다 — 지우지 마라.**
+  (2026-08-14 실측: 이 환산을 틀려 정확한 근거 2건을 지웠다. 검증이 지나치게 지우는 것도 오류다.)
 - 출처가 그 주장을 실제로 뒷받침하는가 (제목·발행처가 무관하면 제거)
 - **다른 업종 이야기를 이 업종 근거로 쓰지 않았는가** (예: 반도체 기사를 소프트웨어 근거로)
 - 날짜가 "최근 강세"를 설명하기에 너무 오래되지 않았는가 (6개월 초과면 의심)
 - evidence_level 이 'sourced' 인데 sources 가 비어있지 않은가
+
+⚠️ **마지막으로 lead(리드문)를 검사하라.** 리드문은 근거의 요약이므로,
+위에서 제거하기로 한 주장의 숫자·사실이 리드문에도 들어 있으면
+**근거는 지워졌는데 요약문만 살아남는다.** 그런 문장이 있으면
+correctedLead 에 **그 문장을 뺀 리드문**을 다시 써라.
+남은 근거만으로 다시 쓰고 **새 사실을 넣지 마라.** 뺄 것이 없으면 correctedLead 를 빈 문자열로 두라.
 
 의심스러우면 제거하는 쪽을 택하세요. 근거 없는 주장이 남는 것보다 낫습니다.`,
   { label: `팩트체크:${i + 1}/${fbatches.length}`, phase: '팩트체크', schema: CHECK, model: 'haiku' }
@@ -173,6 +186,9 @@ for (const x of clean) {
   x.factcheck = { verdict: r.verdict, removed: [...rm], reason: r.reason || '' }
   x.whyStrong = (x.whyStrong || []).filter((c) => !rm.has(c.id))
   if (!x.whyStrong.length) x.whyStrong = [{ id: 'none', statement: '근거 없음', evidence_level: 'no_source', sources: [] }]
+  // 근거가 지워졌으면 그 근거를 요약한 리드문도 같이 고친다. 원문은 남겨 대조할 수 있게 한다.
+  const cl = String(r.correctedLead || '').trim()
+  if (rm.size && cl.length > 20 && cl !== x.lead) { x.leadOriginal = x.lead; x.lead = cl; x.factcheck.leadFixed = true }
 }
 
 phase('종합')

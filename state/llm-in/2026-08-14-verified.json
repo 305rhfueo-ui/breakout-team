@@ -2,14 +2,18 @@
   "date": "2026-08-14",
   "report": {
     "checked": 130,
-    "ok": 142,
-    "unverified": 41,
+    "ok": 137,
+    "unverified": 44,
     "dead": 0,
-    "stripped": 0,
+    "stripped": 1,
     "removed": [
       {
         "reason": "중복",
         "url": "https://www.stocktitan.net/news/MDB/mongo-db-inc-announces-first-quarter-fiscal-2027-financial-pn6ou0elo2cm.html"
+      },
+      {
+        "reason": "인용문 없음",
+        "url": "https://www.sec.gov/Archives/edgar/data/1800667/000119312526337998/frog-20260806.htm"
       },
       {
         "reason": "중복",
@@ -18,6 +22,10 @@
       {
         "reason": "중복",
         "url": "https://www.stocktitan.net/news/DK/delek-logistics-partners-lp-announces-pricing-of-public-offering-of-yc39wmngrvz5.html"
+      },
+      {
+        "reason": "인용문 없음",
+        "url": "https://www.sec.gov/Archives/edgar/data/721994/000072199426000063/lkfn-20260727.htm"
       },
       {
         "reason": "중복",
@@ -39,7 +47,8 @@
         "reason": "중복",
         "url": "https://letsdatascience.com/news/dell-reports-43b-ai-backlog-guides-50b-ai-revenue-9f6f0c5f"
       }
-    ]
+    ],
+    "noQuote": 2
   },
   "payload": {
     "date": "2026-08-14",
@@ -59,8 +68,8 @@
               "url": "https://www.marketwatch.com/story/markets-are-looking-eerily-calm-as-investors-chase-fomo-rally-bed22de9?mod=mw_rss_topstories",
               "date": "2026-08-13",
               "quote": "Markets are looking eerily calm as investors chase FOMO rally",
-              "verified": "ok",
-              "httpStatus": 200
+              "verified": "unverified",
+              "httpStatus": 401
             }
           ]
         },
@@ -127,8 +136,8 @@
               "url": "https://www.marketwatch.com/story/salesforces-stock-gets-a-boost-as-j-p-morgan-says-ai-fears-are-overblown-feebb221?mod=mw_rss_topstories",
               "date": "2026-08-13",
               "quote": "Salesforce's stock gets a boost as J.P. Morgan says AI fears are overblown",
-              "verified": "unverified",
-              "httpStatus": 401
+              "verified": "ok",
+              "httpStatus": 200
             }
           ]
         },
@@ -212,8 +221,8 @@
                   "url": "https://www.stocktitan.net/news/MDB/mongo-db-inc-announces-first-quarter-fiscal-2027-financial-pn6ou0elo2cm.html",
                   "date": "2026-05-28",
                   "quote": "Total revenue was $687.6 million for the first quarter of fiscal 2027, an increase of 25% year-over-year.",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 429
                 }
               ]
             }
@@ -291,8 +300,8 @@
                     "url": "https://www.stocktitan.net/news/MDB/mongo-db-inc-announces-first-quarter-fiscal-2027-financial-pn6ou0elo2cm.html",
                     "date": "2026-05-28",
                     "quote": "Raising full-year fiscal 2027 guidance driven mainly by strength in Atlas",
-                    "verified": "ok",
-                    "httpStatus": 200
+                    "verified": "unverified",
+                    "httpStatus": 429
                   }
                 ]
               },
@@ -329,8 +338,8 @@
                 "url": "https://www.stocktitan.net/news/MDB/mongo-db-inc-announces-date-of-second-quarter-fiscal-2027-earnings-468fnbgchlx3.html",
                 "date": "2026-08-04",
                 "quote": "MongoDB, Inc. (NASDAQ: MDB) will report its second quarter fiscal year 2027 financial results for the three months ended July 31, 2026, after the U.S. financial markets close on Tuesday, September 1, 2026.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 429
               }
             ]
           },
@@ -954,8 +963,8 @@
                   "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-downgrades-workday-stock-rating-on-growth-concerns-93CH-4801957",
                   "date": "2026-07-21",
                   "quote": "HCM growth has slowed to 13% in FY26, and Morgan Stanley models HCM year-over-year growth continuing to decelerate to 9% in FY28.",
-                  "verified": "unverified",
-                  "httpStatus": 403
+                  "verified": "ok",
+                  "httpStatus": 200
                 }
               ]
             },
@@ -970,8 +979,8 @@
                   "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-downgrades-workday-stock-rating-on-growth-concerns-93CH-4801957",
                   "date": "2026-07-21",
                   "quote": "Morgan Stanley noted that AI monetization remains in pilot phase.",
-                  "verified": "unverified",
-                  "httpStatus": 403
+                  "verified": "ok",
+                  "httpStatus": 200
                 }
               ]
             },
@@ -1274,17 +1283,7 @@
           "upcomingCatalyst": {
             "what": "3분기(2026년) 실적발표 예정. 공식 날짜는 아직 발표되지 않았으나, 직전 분기들의 8-K(실적 발표) 공시일(2025-11-06, 2026-02-12, 2026-05-07, 2026-08-06)로 볼 때 11월 초 발표가 유력하다.",
             "date": "",
-            "sources": [
-              {
-                "title": "JFrog Ltd 8-K (실적 발표)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1800667/000119312526337998/frog-20260806.htm",
-                "date": "2026-08-06",
-                "quote": "실적 발표",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
+            "sources": []
           },
           "confidence": "high",
           "factcheck": {
@@ -2574,7 +2573,7 @@
           "category": 4,
           "categoryName": "기업 턴어라운드(대형 M&A·사모펀드 바이아웃설)",
           "company": "Workday는 2005년에 전 PeopleSoft 임원 출신인 아닐 부스리(Aneel Bhusri)와 데이비드 더필드(David Duffield)가 세운 회사로, 2012년에 상장했다. 기업의 인사(HR)·급여(payroll)·재무·지출관리·기획 업무를 클라우드 소프트웨어(구독형 SaaS)로 제공해서 매출을 낸다. 즉 대기업들이 직원 관리와 회계 업무를 온라인으로 처리하게 해주고 매달/매년 구독료를 받는 사업 모델이다.",
-          "volumeExplanation": "2026년 8월 13일, 로이터(Reuters)가 사모펀드(private equity) 운용사 실버레이크(Silver Lake)가 Workday를 인수하는 방안을 놓고 협상 중이라고 단독 보도하면서 주가가 하루 만에 약 17.78% 급등했다. 로이터에 따르면 이번 협상은 \"최근 몇 달간(in recent months)\" 진행되어 왔으며, 성사가 확정된 것은 아니라고 소식통이 전했다. 실버레이크가 다른 공동투자자를 끌어들여 자금을 조달할 가능성도 거론됐는데, 이는 작년 사우디 국부펀드(PIF)와 함께 진행한 550억 달러 규모의 일렉트로닉 아츠(EA) 비상장화 거래와 유사한 구조다. 이 초대형 인수 루머라는 명확한 뉴스 촉매가 하루 만에 주가를 20% 가까이 흔들었기 때문에, 거래대금이 20일 평균의 3.99배(VOL_X), 최근 5일 평균 대비로는 4.32배까지 치솟은 것으로 설명된다. 다만 8월 13일 하루의 급등만으로는 20일 평균 대비 VOL_X나 60일 신고가 돌파 같은 수치가 전부 설명되지 않을 수 있는데, 이는 8월 10일 자 젝스(Zacks) 기사에서 이미 \"시장 하락에도 불구하고 상승(Increases Despite Market Slip)\"했다고 보도된 점 등 인수설 이전부터 있었던 매수세도 함께 작용했을 가능성을 시사한다.",
+          "volumeExplanation": "2026년 8월 13일, 로이터(Reuters)가 사모펀드(private equity) 운용사 실버레이크(Silver Lake)가 Workday를 인수하는 방안을 놓고 협상 중이라고 단독 보도하면서 주가가 하루 만에 약 17.78% 급등했다. 로이터에 따르면 이번 협상은 \"최근 몇 달간(in recent months)\" 진행되어 왔으며, 성사가 확정된 것은 아니라고 소식통이 전했다. 실버레이크가 다른 공동투자자를 끌어들여 자금을 조달할 가능성도 거론됐는데, 이는 작년 사우디 국부펀드(PIF)와 함께 진행한 550억 달러 규모의 일렉트로닉 아츠(EA) 비상장화 거래와 유사한 구조다. 이 초대형 인수 루머라는 명확한 뉴스 촉매가 하루 만에 주가를 20% 가까이 흔들었기 때문에, 거래대금이 20일 평균의 3.99배(VOL_X), 최근 5일 평균 대비로는 4.32배까지 치솟은 것으로 설명된다. 다만 8월 13일 하루의 급등만으로는 20일 평균 대비 거래대금 배수(VOL_X)나 60일 신고가 돌파 같은 수치가 전부 설명되지 않을 수 있는데, 이는 8월 10일 자 젝스(Zacks) 기사에서 이미 \"시장 하락에도 불구하고 상승(Increases Despite Market Slip)\"했다고 보도된 점 등 인수설 이전부터 있었던 매수세도 함께 작용했을 가능성을 시사한다.",
           "claims": [
             {
               "id": "c3",
@@ -2637,7 +2636,7 @@
             "reason": "c1의 '430억 달러' 수치가 quote에 명시되지 않음. c2의 206.45달러, 511억 달러 수치가 quote에 없음 (quote는 '18% surged'만 있음). c5의 '하이브리드 AI 환경에서 수혜' 부분이 quote에 없음. 나머지 claims (c3, c4, c6)는 검증됨.",
             "narrativeFixed": true
           },
-          "volumeExplanationOriginal": "2026년 8월 13일, 로이터(Reuters)가 사모펀드(private equity) 운용사 실버레이크(Silver Lake)가 Workday를 인수하는 방안을 놓고 협상 중이라고 단독 보도하면서 주가가 하루 만에 약 17.78%(전일 대비 31.16달러) 급등해 206.45달러로 마감했고, 시가총액은 인수설 보도 전 약 430억 달러에서 511억 달러로 불어났다. 로이터에 따르면 이번 협상은 \"최근 몇 달간(in recent months)\" 진행되어 왔으며, 성사가 확정된 것은 아니라고 소식통이 전했다. 실버레이크가 다른 공동투자자를 끌어들여 자금을 조달할 가능성도 거론됐는데, 이는 작년 사우디 국부펀드(PIF)와 함께 진행한 550억 달러 규모의 일렉트로닉 아츠(EA) 비상장화 거래와 유사한 구조다. 이 초대형 인수 루머라는 명확한 뉴스 촉매가 하루 만에 주가를 20% 가까이 흔들었기 때문에, 거래대금이 20일 평균의 3.99배(VOL_X), 최근 5일 평균 대비로는 4.32배까지 치솟은 것으로 설명된다. 다만 8월 13일 하루의 급등만으로는 20일 평균 대비 VOL_X나 60일 신고가 돌파 같은 수치가 전부 설명되지 않을 수 있는데, 이는 8월 10일 자 젝스(Zacks) 기사에서 이미 \"시장 하락에도 불구하고 상승(Increases Despite Market Slip)\"했다고 보도된 점, 그리고 웰스파고(Wells Fargo)가 목표주가를 215달러로 상향하며 \"하이브리드 AI 환경에서 기존 대형업체(Workday 등)가 수혜를 본다\"고 평가한 점 등 인수설 이전부터 있었던 매수세도 함께 작용했을 가능성을 시사한다."
+          "volumeExplanationOriginal": "2026년 8월 13일, 로이터(Reuters)가 사모펀드(private equity) 운용사 실버레이크(Silver Lake)가 Workday를 인수하는 방안을 놓고 협상 중이라고 단독 보도하면서 주가가 하루 만에 약 17.78%(전일 대비 31.16달러) 급등해 206.45달러로 마감했고, 시가총액은 인수설 보도 전 약 430억 달러에서 511억 달러로 불어났다. 로이터에 따르면 이번 협상은 \"최근 몇 달간(in recent months)\" 진행되어 왔으며, 성사가 확정된 것은 아니라고 소식통이 전했다. 실버레이크가 다른 공동투자자를 끌어들여 자금을 조달할 가능성도 거론됐는데, 이는 작년 사우디 국부펀드(PIF)와 함께 진행한 550억 달러 규모의 일렉트로닉 아츠(EA) 비상장화 거래와 유사한 구조다. 이 초대형 인수 루머라는 명확한 뉴스 촉매가 하루 만에 주가를 20% 가까이 흔들었기 때문에, 거래대금이 20일 평균의 3.99배(VOL_X), 최근 5일 평균 대비로는 4.32배까지 치솟은 것으로 설명된다. 다만 8월 13일 하루의 급등만으로는 20일 평균 대비 거래대금 배수(VOL_X)나 60일 신고가 돌파 같은 수치가 전부 설명되지 않을 수 있는데, 이는 8월 10일 자 젝스(Zacks) 기사에서 이미 \"시장 하락에도 불구하고 상승(Increases Despite Market Slip)\"했다고 보도된 점, 그리고 웰스파고(Wells Fargo)가 목표주가를 215달러로 상향하며 \"하이브리드 AI 환경에서 기존 대형업체(Workday 등)가 수혜를 본다\"고 평가한 점 등 인수설 이전부터 있었던 매수세도 함께 작용했을 가능성을 시사한다."
         },
         {
           "ticker": "SENEB",
@@ -2857,8 +2856,8 @@
                   "url": "https://www.stocktitan.net/sec-filings/FORTY/",
                   "date": "2026-08-05",
                   "quote": "Menora Mivtachim (FORTY) reports 8.86% Formula Systems ownership stake",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 429
                 }
               ]
             }
@@ -3016,26 +3015,17 @@
                   "url": "https://www.investing.com/news/earnings/lakeland-financial-beats-earnings-but-misses-on-revenue-93CH-4813605",
                   "date": "2026-07-27",
                   "quote": "Lakeland Financial reported second quarter adjusted earnings per share of $1.13, surpassing the analyst consensus of $1.08, however revenue of $70.9 million fell short of the $72.25 million analyst estimate.",
-                  "verified": "unverified",
-                  "httpStatus": 403
+                  "verified": "ok",
+                  "httpStatus": 200
                 }
               ]
             },
             {
               "id": "c2",
-              "statement": "SEC 8-K 공시로 2026년 7월27일 item 2.02(실적 발표)가 접수되어 위 실적 발표를 공식 확인할 수 있다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "8-K (Item 2.02 실적 발표)",
-                  "publisher": "SEC EDGAR",
-                  "url": "https://www.sec.gov/Archives/edgar/data/721994/000072199426000063/lkfn-20260727.htm",
-                  "date": "2026-07-27",
-                  "quote": "실적 발표",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
+              "statement": "근거 없음(출처 검증 실패로 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [],
+              "stripped": true
             },
             {
               "id": "c3",
@@ -3393,8 +3383,8 @@
                   "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-coreweave-tops-q2-2026-estimates-shares-jump-135-93CH-4825607?ampMode=1",
                   "date": "2026-08-11",
                   "quote": "Revenue was $2.6 billion in Q2, up 112% year-over-year and 24% sequentially / CapEx in Q2 totaled $9.4 billion, slightly above the high end of our guided range / we now expect 2026 CapEx in the range of $35 billion to $39 billion / Revenue backlog ended the quarter at $104 billion, up 246% year-over-year.",
-                  "verified": "unverified",
-                  "httpStatus": 403
+                  "verified": "ok",
+                  "httpStatus": 200
                 },
                 {
                   "title": "CoreWeave and Nebius Group Deliver Earnings Shocker. Here's What It Signals About the Future of AI.",
@@ -3479,8 +3469,8 @@
                   "url": "https://www.stocktitan.net/sec-filings/SN/8-k-shark-ninja-inc-reports-material-event-c1781a5a966a.html",
                   "date": "2026-08-05",
                   "quote": "Net sales increased 22.2% to $1,765.5 million",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 429
                 }
               ]
             },
@@ -3511,8 +3501,8 @@
                   "url": "https://www.stocktitan.net/sec-filings/SN/8-k-shark-ninja-inc-reports-material-event-c1781a5a966a.html",
                   "date": "2026-08-05",
                   "quote": "SharkNinja submitted refund claims of approximately $247.1 million through the U.S. Customs and Border Protection (\"CBP\") refund process, and the CBP accepted those claims",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 429
                 }
               ]
             },
@@ -3527,8 +3517,8 @@
                   "url": "https://www.stocktitan.net/sec-filings/SN/8-k-shark-ninja-inc-reports-material-event-c1781a5a966a.html",
                   "date": "2026-08-05",
                   "quote": "Net sales to increase 16.0% to 17.0% compared to the prior year (above the prior expectation of 11.5% to 12.5%)",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 429
                 }
               ]
             },
@@ -3629,12 +3619,12 @@
           "Oil & Gas Refining & Marketing (Energy) — 6개월 순위 1.43%(WRS 0.6743)에서 1개월 6.43%(WRS 0.1441)로 완만하게 후퇴. 아직 상위 10% 안이라 이탈이 아니라 '선두에서 2선으로' 수준의 감속.",
           "Furnishings, Fixtures & Appliances (Consumer Cyclical) — 3개월 순위 0.71%(WRS 0.4825) 정점 이후 1개월 9.29%(WRS 0.1169)로 꺾임. 다만 6개월 순위가 21.43%로 원래 상위권이 아니었던 단기 스파이크형이라, 정의상 완전한 fading보다는 '모멘텀 피크아웃'."
         ],
-        "rotationView": "지금 자금의 중심축은 여전히 AI 하드웨어다. Computer Hardware가 6개월 WRS 1.465(상위 0.71%), 3개월 0.4562(1.43%), 1개월 0.1977(2.14%)로 세 구간 모두 상위 2% 안에 남은 유일한 업종이고, 이게 이번 장의 기준선이다. 그 축 주변에서 두 갈래 로테이션이 동시에 일어나고 있다. 첫째, 테크 섹터 내부의 재배분이다. 6개월 상위 2.14%였던 Electronics & Computer Distribution이 1개월 17.86%까지 밀리는 사이, Software - Infrastructure가 3개월 10%의 소강을 지나 1개월 1.43%로 다시 앞줄로 올라왔다. 즉 테크 안에서 유통·중개 성격에서 하드웨어 원천과 인프라 소프트웨어 쪽으로 돈이 좁혀지는 그림이다. 둘째, 시클리컬 축의 교대다. 6개월 상위 1.43%로 강했던 Oil & Gas Refining & Marketing이 1개월 6.43%로 한 단계 물러서고, 3개월 0.71%로 튀었던 Furnishings가 1개월 9.29%로 식는 동안, 6개월 하위권(92.14%)에 있던 Gold가 1개월 0.71% 1위로 급부상했다. 정리하면 '구조적 AI 하드웨어·인프라 소프트웨어는 유지 또는 재가속, 시클리컬 리더십은 정제마진에서 금으로 갈아타는 중'이며, 금 유입은 8월 12일 CPI가 예상치에 부합하며 달러가 약해지고 9월 금리 인상 확률이 54%에서 40%로 낮아진 매크로 이벤트와 시점이 겹친다.",
+        "rotationView": "지금 자금의 중심축은 여전히 AI 하드웨어다. Computer Hardware가 6개월 업종 강도(WRS) 1.465(상위 0.71%), 3개월 0.4562(1.43%), 1개월 0.1977(2.14%)로 세 구간 모두 상위 2% 안에 남은 유일한 업종이고, 이게 이번 장의 기준선이다. 그 축 주변에서 두 갈래 로테이션이 동시에 일어나고 있다. 첫째, 테크 섹터 내부의 재배분이다. 6개월 상위 2.14%였던 Electronics & Computer Distribution이 1개월 17.86%까지 밀리는 사이, Software - Infrastructure가 3개월 10%의 소강을 지나 1개월 1.43%로 다시 앞줄로 올라왔다. 즉 테크 안에서 유통·중개 성격에서 하드웨어 원천과 인프라 소프트웨어 쪽으로 돈이 좁혀지는 그림이다. 둘째, 시클리컬 축의 교대다. 6개월 상위 1.43%로 강했던 Oil & Gas Refining & Marketing이 1개월 6.43%로 한 단계 물러서고, 3개월 0.71%로 튀었던 Furnishings가 1개월 9.29%로 식는 동안, 6개월 하위권(92.14%)에 있던 Gold가 1개월 0.71% 1위로 급부상했다. 정리하면 '구조적 AI 하드웨어·인프라 소프트웨어는 유지 또는 재가속, 시클리컬 리더십은 정제마진에서 금으로 갈아타는 중'이며, 금 유입은 8월 12일 CPI가 예상치에 부합하며 달러가 약해지고 9월 금리 인상 확률이 54%에서 40%로 낮아진 매크로 이벤트와 시점이 겹친다.",
         "strongest": {
           "industry": "Computer Hardware (Technology)",
           "why": "WRS가 6개월 1.465(상위 0.71%), 3개월 0.4562(1.43%), 1개월 0.1977(2.14%)로 전 구간 상위 2% 이내를 유지한 유일한 업종이라 '지속형 주도주'의 정의에 가장 부합한다. 근거도 개별 종목 실적·수급으로 확인된다. 샌디스크(SNDK)는 2026년 8월 13일 투자자의 날에서 FY2028~2030 비GAAP 매출총이익률 약 80% 목표를 제시하며 당일 15% 급등해 1,545.35달러를 기록했고, 시게이트(STX)는 고용량 HDD의 2026년 생산분을 이미 완판한 상태에서 2025년 11월~2026년 2월 사이 고용량 HDD 가격이 60% 올랐으며 데이터센터향 출하 비중이 87%에 달한다. 델(DELL)은 FY2026 AI서버 누적 수주 641억 달러에 이어 1분기 AI서버 매출이 전년 대비 757% 늘어난 161억 달러, 백로그 513억 달러를 기록하며 FY2027 AI서버 매출 목표를 약 600억 달러로 상향했고, 8월 12일에는 슈퍼마이크로 호실적 가이던스에 동반 상승해 종가 484.50달러를 찍었다. 가격(HDD 60% 상승), 수량(수주·백로그), 마진(80% 목표)이 동시에 올라오는 구조라 조사 결과의 durability 판정도 structural이다."
         },
-        "caution": "1) emerging 판정의 기준 차이에 주의. 지시된 정의(1개월 WRS > 6개월 WRS)를 문자 그대로 적용하면 emerging은 Gold 하나뿐이다. Software - Infrastructure는 절대 WRS로는 1개월(0.2226)이 6개월(0.4118)보다 낮고 순위(rankPct) 기준으로만 개선된 케이스라 별도로 표기했다. WRS는 기간 누적치 성격이라 절대값 직접 비교가 구간 길이에 유리/불리하게 왜곡될 수 있으므로, 실전 판단은 rankPct 궤적을 함께 봐야 한다. 2) Gold는 조사 결과상 driver가 macro, durability가 cyclical이다. 1개월 순위 0.71%는 8월 12일 CPI 부합·달러 약세·9월 금리 인상 확률 54%→40% 하락이라는 매크로 이벤트에 붙은 움직임이고, 3개월 순위가 67.14%·6개월이 92.14%로 아직 중기 추세 확인이 안 된 상태다. 매크로 전제가 뒤집히면 되돌림이 빠를 수 있는 자리다. 3) Electronics & Computer Distribution은 researched:true지만 확보된 근거가 2026년 8월 6일 레이먼드 제임스의 NSIT 목표주가 100→175달러, 8월 7일 JP모건 135→160달러 상향, 이 두 건의 애널리스트 액션뿐이다. 업종 전체의 펀더멘털을 설명할 재료로는 얇으므로 fading 판정의 원인을 단정하지 말고 수치(6개월 2.14% → 1개월 17.86%)까지만 말해야 한다. 4) Oil & Gas Refining과 Furnishings는 모두 durability가 cyclical로 분류돼 있다. 정제는 크랙스프레드 배럴당 59달러와 2026년 2분기 정제설비 가동 5.4%(하루 450만 배럴) 축소, 호르무즈 인근 충돌·우크라이나의 러시아 정유시설 드론 공격 같은 공급 이벤트에 얹힌 마진이고, Furnishings는 SharkNinja의 CBP 관세 환급 약 2억 4,710만 달러 승인이라는 일회성 요인이 가이던스 상향(11.5~12.5% → 16.0~17.0%)에 섞여 있다. 둘 다 이벤트가 소멸하면 모멘텀도 함께 꺼지는 구조라 신규 진입 시 추세 연장을 전제로 깔지 말 것. 5) 이번 종합은 제시된 6개 업종 데이터 범위 안에서만 이뤄졌다. 시장 전체 상위 업종을 망라한 것이 아니므로 '전체 1위'가 아니라 '주어진 후보군 내 최강'으로 읽어야 한다."
+        "caution": "1) emerging 판정의 기준 차이에 주의. 지시된 정의(1개월 WRS > 6개월 WRS)를 문자 그대로 적용하면 emerging은 Gold 하나뿐이다. Software - Infrastructure는 절대 업종 강도(WRS)로는 1개월(0.2226)이 6개월(0.4118)보다 낮고 순위(rankPct) 기준으로만 개선된 케이스라 별도로 표기했다. 업종 강도(WRS)는 기간 누적치 성격이라 절대값 직접 비교가 구간 길이에 유리/불리하게 왜곡될 수 있으므로, 실전 판단은 rankPct 궤적을 함께 봐야 한다. 2) Gold는 조사 결과상 driver가 macro, durability가 cyclical이다. 1개월 순위 0.71%는 8월 12일 CPI 부합·달러 약세·9월 금리 인상 확률 54%→40% 하락이라는 매크로 이벤트에 붙은 움직임이고, 3개월 순위가 67.14%·6개월이 92.14%로 아직 중기 추세 확인이 안 된 상태다. 매크로 전제가 뒤집히면 되돌림이 빠를 수 있는 자리다. 3) Electronics & Computer Distribution은 researched:true지만 확보된 근거가 2026년 8월 6일 레이먼드 제임스의 NSIT 목표주가 100→175달러, 8월 7일 JP모건 135→160달러 상향, 이 두 건의 애널리스트 액션뿐이다. 업종 전체의 펀더멘털을 설명할 재료로는 얇으므로 fading 판정의 원인을 단정하지 말고 수치(6개월 2.14% → 1개월 17.86%)까지만 말해야 한다. 4) Oil & Gas Refining과 Furnishings는 모두 durability가 cyclical로 분류돼 있다. 정제는 크랙스프레드 배럴당 59달러와 2026년 2분기 정제설비 가동 5.4%(하루 450만 배럴) 축소, 호르무즈 인근 충돌·우크라이나의 러시아 정유시설 드론 공격 같은 공급 이벤트에 얹힌 마진이고, Furnishings는 SharkNinja의 CBP 관세 환급 약 2억 4,710만 달러 승인이라는 일회성 요인이 가이던스 상향(11.5~12.5% → 16.0~17.0%)에 섞여 있다. 둘 다 이벤트가 소멸하면 모멘텀도 함께 꺼지는 구조라 신규 진입 시 추세 연장을 전제로 깔지 말 것. 5) 이번 종합은 제시된 6개 업종 데이터 범위 안에서만 이뤄졌다. 시장 전체 상위 업종을 망라한 것이 아니므로 '전체 1위'가 아니라 '주어진 후보군 내 최강'으로 읽어야 한다."
       },
       "failed": [],
       "coverage": {
