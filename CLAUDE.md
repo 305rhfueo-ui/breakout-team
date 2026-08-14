@@ -73,6 +73,11 @@ dashboard/               breakout-room.html (8탭 + 팝업) · data/*.js · data
 - 조사 대상은 `research-rotation.js` 가 순환시킨다. 상한을 올리지 말고 로테이션으로 커버리지를 채운다
   (실측: detail 20/54 고정 → 3회 실행에 54/54)
 - `const CAP = (A && A.cap) || N` 은 `cap:0` 을 N 으로 둔갑시킨다 → `Number.isFinite` 로 판정
+- **NotebookLM `setup_auth` 는 세션 MCP 서버로는 절대 성공하지 못한다.** 서버가 `headless:true`
+  로 떠 있어 로그인 창이 안 보인 채 죽는다. `HEADLESS=false` 로 서버를 따로 띄워 로그인만 끝낸다
+- **NotebookLM `get_health` 의 `authenticated` 를 믿지 마라.** 로그인에 성공해도 false 로 남는다
+  (서버가 `notebooklm.google.com` 을 기다리는데 실제로는 `notebook.google.com` 에 도달한다).
+  가용 여부는 `ask_question` 을 한 번 던져 확인한다. 자세한 내용은 `.notebooklm-local.md`
 
 ## 검증된 골든값 (회귀 확인용)
 
