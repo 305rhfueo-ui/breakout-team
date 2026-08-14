@@ -1,0 +1,2064 @@
+{
+ "date": "2026-08-13",
+ "cap": 12,
+ "items": [
+  {
+   "ticker": "PFGC",
+   "sector": "Consumer Defensive",
+   "industry": "Food Distribution",
+   "volx": 2.11,
+   "volSurgeWk": 2.34,
+   "aboveMa150": false,
+   "brk60d": false,
+   "clsPos": 30.6,
+   "high52": 91.43,
+   "congestion": {
+    "ok": true,
+    "baseHigh": 108.6,
+    "baseLow": 80.82,
+    "baseBars": 126,
+    "baseMonths": 6,
+    "rangePct": 34.37,
+    "breakoutDate": "2026-06-26",
+    "breakoutVolX": 2.02,
+    "barsSinceBreakout": 32,
+    "aboveMa150AtBreak": true,
+    "ma150AtBreak": 93.08,
+    "pivot": 108.6,
+    "distToPivotPct": -1.1,
+    "retestDate": "2026-06-29",
+    "retestVolRatio": 1.43,
+    "dryUp": false,
+    "phase": "retest",
+    "phaseKo": "돌파 후 저항선 리테스트",
+    "score": 20,
+    "buyTrigger": {
+     "price": 108.6,
+     "note": "저항선 $108.6 지지 확인 후 반등 시 진입"
+    }
+   },
+   "news": [
+    {
+     "title": "Compared to Estimates, Performance Food (PFGC) Q4 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-performance-food-pfgc-q4-earnings-look-key-metrics",
+     "date": "2026-08-12",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "PFGC"
+     ]
+    },
+    {
+     "title": "Performance Food Group (PFGC) Q4 Earnings and Revenues Miss Estimates",
+     "url": "https://www.nasdaq.com/articles/performance-food-group-pfgc-q4-earnings-and-revenues-miss-estimates",
+     "date": "2026-08-12",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "PFGC",
+      "SPWH"
+     ]
+    },
+    {
+     "title": "Exploring Analyst Estimates for Performance Food (PFGC) Q4 Earnings, Beyond Revenue and EPS",
+     "url": "https://www.nasdaq.com/articles/exploring-analyst-estimates-performance-food-pfgc-q4-earnings-beyond-revenue-and-eps",
+     "date": "2026-08-07",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "PFGC"
+     ]
+    },
+    {
+     "title": "Performance Food Group (PFGC) Earnings Expected to Grow: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/performance-food-group-pfgc-earnings-expected-grow-should-you-buy",
+     "date": "2026-08-05",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "PFGC"
+     ]
+    },
+    {
+     "title": "Performance Food Group Q4 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/performance-food-group-q4-earnings-call-highlights",
+     "date": "2026-08-12",
+     "publisher": "MarketBeat",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "PFGC"
+     ]
+    },
+    {
+     "title": "Performance Food Group Q4 26 Earnings Conference Call At 9:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/performance-food-group-q4-26-earnings-conference-call-9-00-am-et",
+     "date": "2026-08-12",
+     "publisher": "RTTNews",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "PFGC"
+     ]
+    },
+    {
+     "title": "Performance Food Group Sees Net Sales Growth In Q1, FY27 - Update",
+     "url": "https://www.nasdaq.com/articles/performance-food-group-sees-net-sales-growth-q1-fy27-update",
+     "date": "2026-08-12",
+     "publisher": "RTTNews",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "PFGC"
+     ]
+    },
+    {
+     "title": "Performance Food Group Q4 Profit Advances",
+     "url": "https://www.nasdaq.com/articles/performance-food-group-q4-profit-advances",
+     "date": "2026-08-12",
+     "publisher": "RTTNews",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "PFGC"
+     ]
+    }
+   ],
+   "filings": [
+    {
+     "form": "8-K",
+     "filingDate": "2026-08-12",
+     "reportDate": "2026-08-12",
+     "items": [
+      "2.02",
+      "9.01"
+     ],
+     "itemsKo": [
+      "실적 발표",
+      "재무제표·첨부"
+     ],
+     "isEarnings": true,
+     "url": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526345718/pfgc-20260812.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-05-06",
+     "reportDate": "2026-05-06",
+     "items": [
+      "2.02",
+      "9.01"
+     ],
+     "itemsKo": [
+      "실적 발표",
+      "재무제표·첨부"
+     ],
+     "isEarnings": true,
+     "url": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526207521/pfgc-20260506.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-02-19",
+     "reportDate": "2026-02-19",
+     "items": [
+      "1.01",
+      "2.03",
+      "9.01"
+     ],
+     "itemsKo": [
+      "중요 계약 체결",
+      "2.03",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526059455/d59092d8k.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-02-09",
+     "reportDate": "2026-02-09",
+     "items": [
+      "8.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "기타 중요사건",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526043019/d51098d8k.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-02-09",
+     "reportDate": "2026-02-09",
+     "items": [
+      "8.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "기타 중요사건",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526041923/d48626d8k.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-02-04",
+     "reportDate": "2026-02-04",
+     "items": [
+      "2.02",
+      "9.01"
+     ],
+     "itemsKo": [
+      "실적 발표",
+      "재무제표·첨부"
+     ],
+     "isEarnings": true,
+     "url": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526036704/pfgc-20260204.htm",
+     "description": "8-K"
+    }
+   ]
+  },
+  {
+   "ticker": "LNT",
+   "sector": "Utilities",
+   "industry": "Utilities - Regulated Electric",
+   "volx": 1.9,
+   "volSurgeWk": 2.14,
+   "aboveMa150": false,
+   "brk60d": false,
+   "clsPos": 85.67,
+   "high52": 89.8,
+   "congestion": {
+    "ok": true,
+    "phase": "base",
+    "phaseKo": "6개월 횡보 베이스 형성 중",
+    "baseHigh": 78.81,
+    "baseLow": 67.54,
+    "baseBars": 126,
+    "baseMonths": 6,
+    "rangePct": 16.69,
+    "contraction": 0.87,
+    "pivot": 78.81,
+    "distToPivotPct": -10.87,
+    "aboveMa150AtNow": false,
+    "buyTrigger": {
+     "price": 78.81,
+     "note": "$78.81(저항선) 거래량 동반 돌파 시 진입 검토"
+    },
+    "score": 50
+   },
+   "news": [
+    {
+     "title": "Alliant Energy (LNT) Misses Q2 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/alliant-energy-lnt-misses-q2-earnings-and-revenue-estimates",
+     "date": "2026-07-30",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "LNT",
+      "DUK"
+     ]
+    },
+    {
+     "title": "Earnings Preview: Alliant Energy (LNT) Q2 Earnings Expected to Decline",
+     "url": "https://www.nasdaq.com/articles/earnings-preview-alliant-energy-lnt-q2-earnings-expected-decline",
+     "date": "2026-07-23",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "LNT",
+      "NWE"
+     ]
+    },
+    {
+     "title": "LNT vs. AEE: Which Electric Utility Stock Offers Better Growth in 2026?",
+     "url": "https://www.nasdaq.com/articles/lnt-vs-aee-which-electric-utility-stock-offers-better-growth-2026",
+     "date": "2026-06-08",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AEE",
+      "LNT"
+     ]
+    },
+    {
+     "title": "Alliant Energy Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/alliant-energy-q2-earnings-call-highlights",
+     "date": "2026-07-31",
+     "publisher": "MarketBeat",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "LNT"
+     ]
+    },
+    {
+     "title": "Alliant Energy Q2 26 Earnings Conference Call At 10:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/alliant-energy-q2-26-earnings-conference-call-10-00-am-et",
+     "date": "2026-07-31",
+     "publisher": "RTTNews",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "LNT"
+     ]
+    },
+    {
+     "title": "Alliant Energy Corp Profit Drops In Q2",
+     "url": "https://www.nasdaq.com/articles/alliant-energy-corp-profit-drops-q2",
+     "date": "2026-07-31",
+     "publisher": "RTTNews",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "LNT"
+     ]
+    },
+    {
+     "title": "PSEG (PEG) Reports Next Week: Wall Street Expects Earnings Growth",
+     "url": "https://www.nasdaq.com/articles/pseg-peg-reports-next-week-wall-street-expects-earnings-growth",
+     "date": "2026-07-28",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "PEG",
+      "LNT"
+     ]
+    },
+    {
+     "title": "Can Alliant Energy's Renewable Projects Deliver Long-Term Value?",
+     "url": "https://www.nasdaq.com/articles/can-alliant-energys-renewable-projects-deliver-long-term-value",
+     "date": "2026-07-14",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "LNT",
+      "NEE",
+      "CWEN"
+     ]
+    }
+   ],
+   "filings": [
+    {
+     "form": "8-K",
+     "filingDate": "2026-07-31",
+     "reportDate": "2026-07-30",
+     "items": [
+      "2.02",
+      "9.01"
+     ],
+     "itemsKo": [
+      "실적 발표",
+      "재무제표·첨부"
+     ],
+     "isEarnings": true,
+     "url": "https://www.sec.gov/Archives/edgar/data/352541/000035254126000042/lnt-20260730.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-05-21",
+     "reportDate": "2026-05-20",
+     "items": [
+      "5.07"
+     ],
+     "itemsKo": [
+      "주주총회 표결"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/352541/000035254126000036/lnt-20260520.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-05-01",
+     "reportDate": "2026-04-30",
+     "items": [
+      "2.02",
+      "9.01"
+     ],
+     "itemsKo": [
+      "실적 발표",
+      "재무제표·첨부"
+     ],
+     "isEarnings": true,
+     "url": "https://www.sec.gov/Archives/edgar/data/352541/000035254126000030/lnt-20260430.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-03-19",
+     "reportDate": "2026-03-19",
+     "items": [
+      "1.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "중요 계약 체결",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/352541/000119312526116244/d131241d8k.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-03-04",
+     "reportDate": "2026-03-02",
+     "items": [
+      "1.01",
+      "2.03",
+      "9.01"
+     ],
+     "itemsKo": [
+      "중요 계약 체결",
+      "2.03",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/352541/000035254126000009/lnt-20260302.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-02-20",
+     "reportDate": "2026-02-19",
+     "items": [
+      "2.02",
+      "9.01"
+     ],
+     "itemsKo": [
+      "실적 발표",
+      "재무제표·첨부"
+     ],
+     "isEarnings": true,
+     "url": "https://www.sec.gov/Archives/edgar/data/352541/000035254126000005/lnt-20260219.htm",
+     "description": "8-K"
+    }
+   ]
+  },
+  {
+   "ticker": "RBCAA",
+   "sector": "Financial Services",
+   "industry": "Banks - Regional",
+   "volx": 1.52,
+   "volSurgeWk": 2.02,
+   "aboveMa150": false,
+   "brk60d": false,
+   "clsPos": 3.5,
+   "high52": 95,
+   "congestion": {
+    "ok": true,
+    "baseHigh": 88.84,
+    "baseLow": 66.5,
+    "baseBars": 126,
+    "baseMonths": 6,
+    "rangePct": 33.59,
+    "breakoutDate": "2026-06-26",
+    "breakoutVolX": 2.15,
+    "barsSinceBreakout": 32,
+    "aboveMa150AtBreak": true,
+    "ma150AtBreak": 73.83,
+    "pivot": 88.84,
+    "distToPivotPct": 9.31,
+    "retestDate": "2026-06-29",
+    "retestVolRatio": 1.27,
+    "dryUp": false,
+    "phase": "extended",
+    "phaseKo": "과확장 (추격 금지)",
+    "score": 20,
+    "buyTrigger": {
+     "price": 88.84,
+     "note": "과확장(피봇 +9.31% > 3×ADR 7.98%) — 되돌림 대기"
+    }
+   },
+   "news": [
+    {
+     "title": "RBCAA Ex-Dividend Reminder - 3/20/26",
+     "url": "https://www.nasdaq.com/articles/rbcaa-ex-dividend-reminder-3-20-26",
+     "date": "2026-03-18",
+     "publisher": "BNK Invest",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "RBCAA"
+     ]
+    },
+    {
+     "title": "Republic Bancorp (RBCAA) Q4 Earnings Miss Estimates",
+     "url": "https://www.nasdaq.com/articles/republic-bancorp-rbcaa-q4-earnings-miss-estimates",
+     "date": "2026-01-30",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "RBCAA",
+      "OHI"
+     ]
+    },
+    {
+     "title": "Republic Bancorp Breaks Below 200-Day Moving Average - Notable for RBCAA",
+     "url": "https://www.nasdaq.com/articles/republic-bancorp-breaks-below-200-day-moving-average-notable-rbcaa",
+     "date": "2026-01-27",
+     "publisher": "BNK Invest",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "RBCAA"
+     ]
+    },
+    {
+     "title": "RBCAA Crosses Below Key Moving Average Level",
+     "url": "https://www.nasdaq.com/articles/rbcaa-crosses-below-key-moving-average-level",
+     "date": "2025-12-26",
+     "publisher": "BNK Invest",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "RBCAA"
+     ]
+    },
+    {
+     "title": "Republic Bancorp (RBCAA) Upgraded to Buy: Here's Why",
+     "url": "https://www.nasdaq.com/articles/republic-bancorp-rbcaa-upgraded-buy-heres-why",
+     "date": "2025-11-27",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "RBCAA"
+     ]
+    },
+    {
+     "title": "Republic Bancorp (RBCAA) Surpasses Q3 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/republic-bancorp-rbcaa-surpasses-q3-earnings-and-revenue-estimates",
+     "date": "2025-10-17",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "RBCAA",
+      "FCCO"
+     ]
+    },
+    {
+     "title": "Republic Bancorp Inc . Q1 Profit Drops",
+     "url": "https://www.nasdaq.com/articles/republic-bancorp-inc-q1-profit-drops",
+     "date": "2026-04-23",
+     "publisher": "RTTNews",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "RBCAA"
+     ]
+    },
+    {
+     "title": "Republic Bancorp Inc . Q4 Profit Climbs",
+     "url": "https://www.nasdaq.com/articles/republic-bancorp-inc-q4-profit-climbs",
+     "date": "2026-01-30",
+     "publisher": "RTTNews",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "RBCAA"
+     ]
+    }
+   ],
+   "filings": [
+    {
+     "form": "8-K",
+     "filingDate": "2026-07-24",
+     "reportDate": "2026-07-24",
+     "items": [
+      "2.02",
+      "9.01"
+     ],
+     "itemsKo": [
+      "실적 발표",
+      "재무제표·첨부"
+     ],
+     "isEarnings": true,
+     "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926086487/rbcaa-20260724x8k.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-07-20",
+     "reportDate": "2026-07-16",
+     "items": [
+      "5.02"
+     ],
+     "itemsKo": [
+      "임원 변동"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926085103/rbcaa-20260716x8k.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-07-15",
+     "reportDate": "2026-07-15",
+     "items": [
+      "7.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "Reg FD 공시",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926083868/rbcaa-20260715x8k.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-05-20",
+     "reportDate": "2026-05-20",
+     "items": [
+      "7.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "Reg FD 공시",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926064475/rbcaa-20260520x8k.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-04-24",
+     "reportDate": "2026-04-23",
+     "items": [
+      "5.07"
+     ],
+     "itemsKo": [
+      "주주총회 표결"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926048535/rbcaa-20260423x8k.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-04-23",
+     "reportDate": "2026-04-23",
+     "items": [
+      "7.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "Reg FD 공시",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926047386/rbcaa-20260423x8k.htm",
+     "description": "8-K"
+    }
+   ]
+  },
+  {
+   "ticker": "NVS",
+   "sector": "Healthcare",
+   "industry": "Drug Manufacturers - General",
+   "volx": 1.41,
+   "volSurgeWk": 2.21,
+   "aboveMa150": false,
+   "brk60d": false,
+   "clsPos": 31.27,
+   "high52": 92.08,
+   "congestion": {
+    "ok": true,
+    "phase": "base",
+    "phaseKo": "6개월 횡보 베이스 형성 중",
+    "baseHigh": 170.46,
+    "baseLow": 142.25,
+    "baseBars": 126,
+    "baseMonths": 6,
+    "rangePct": 19.83,
+    "contraction": 0.63,
+    "pivot": 170.46,
+    "distToPivotPct": -10.64,
+    "aboveMa150AtNow": false,
+    "buyTrigger": {
+     "price": 170.46,
+     "note": "$170.46(저항선) 거래량 동반 돌파 시 진입 검토"
+    },
+    "score": 50
+   },
+   "news": [
+    {
+     "title": "Novartis (NVS) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/novartis-nvs-q2-2026-earnings-call-transcript",
+     "date": "2026-07-22",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NVS",
+      "NVS"
+     ]
+    },
+    {
+     "title": "FDA Approves Novartis' Pluvicto Combo For Metastatic Hormone-sensitive Prostate Cancer",
+     "url": "https://www.nasdaq.com/articles/fda-approves-novartis-pluvicto-combo-metastatic-hormone-sensitive-prostate-cancer",
+     "date": "2026-08-01",
+     "publisher": "RTTNews",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "NVS"
+     ]
+    },
+    {
+     "title": "ALNY Stock Tanks 28% as Q2 Earnings Miss Estimates, '26 Sales View Cut",
+     "url": "https://www.nasdaq.com/articles/alny-stock-tanks-28-q2-earnings-miss-estimates-26-sales-view-cut",
+     "date": "2026-07-31",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "ALNY",
+      "REGN",
+      "NVS"
+     ]
+    },
+    {
+     "title": "Novartis Q2 Earnings & Revenues Top Estimates, Key Drugs Perform Well",
+     "url": "https://www.nasdaq.com/articles/novartis-q2-earnings-revenues-top-estimates-key-drugs-perform-well",
+     "date": "2026-07-21",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "NVS",
+      "NVAX",
+      "LQDA"
+     ]
+    },
+    {
+     "title": "Novartis Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/novartis-q2-earnings-call-highlights",
+     "date": "2026-07-21",
+     "publisher": "MarketBeat",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "NVS"
+     ]
+    }
+   ],
+   "filings": []
+  },
+  {
+   "ticker": "AGM.A",
+   "sector": "Financial Services",
+   "industry": "Credit Services",
+   "volx": 0.45,
+   "volSurgeWk": 2.36,
+   "aboveMa150": false,
+   "brk60d": false,
+   "clsPos": 0,
+   "high52": 93.89,
+   "congestion": {
+    "ok": true,
+    "baseHigh": 147.61,
+    "baseLow": 115,
+    "baseBars": 126,
+    "baseMonths": 6,
+    "rangePct": 28.36,
+    "breakoutDate": "2026-07-06",
+    "breakoutVolX": 3.27,
+    "barsSinceBreakout": 27,
+    "aboveMa150AtBreak": true,
+    "ma150AtBreak": 132.17,
+    "pivot": 147.61,
+    "distToPivotPct": 11.95,
+    "retestDate": "2026-07-07",
+    "retestVolRatio": 2.12,
+    "dryUp": false,
+    "phase": "extended",
+    "phaseKo": "과확장 (추격 금지)",
+    "score": 45,
+    "buyTrigger": {
+     "price": 147.61,
+     "note": "과확장(피봇 +11.95% > 3×ADR 1.35%) — 되돌림 대기"
+    }
+   },
+   "news": [
+    {
+     "title": "Federal Agricultural Mortgage  - (AGM.A) Declares $1.10 Dividend",
+     "url": "https://www.nasdaq.com/articles/federal-agricultural-mortgage-agm.a-declares-$1.10-dividend-0",
+     "date": "2023-05-05",
+     "publisher": "Fintel",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AGM.A"
+     ]
+    },
+    {
+     "title": "Federal Agricultural Mortgage (AGM.A) Declares $1.10 Dividend",
+     "url": "https://www.nasdaq.com/articles/federal-agricultural-mortgage-agm.a-declares-$1.10-dividend",
+     "date": "2023-03-01",
+     "publisher": "Fintel",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AGM.A"
+     ]
+    },
+    {
+     "title": "Lobbying Update: $130,000 of FEDERAL AGRICULTURAL MORTGAGE CORPORATION lobbying was just disclosed",
+     "url": "https://www.nasdaq.com/articles/lobbying-update-130000-federal-agricultural-mortgage-corporation-lobbying-was-just",
+     "date": "2025-07-21",
+     "publisher": "Quiver Quantitative",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "AGM.A"
+     ]
+    },
+    {
+     "title": "Lobbying Update: $110,000 of FEDERAL AGRICULTURAL MORTGAGE CORPORATION lobbying was just disclosed",
+     "url": "https://www.nasdaq.com/articles/lobbying-update-110000-federal-agricultural-mortgage-corporation-lobbying-was-just",
+     "date": "2025-04-21",
+     "publisher": "Quiver Quantitative",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "AGM.A"
+     ]
+    },
+    {
+     "title": "Lobbying Update: $30,000 of FEDERAL AGRICULTURAL MORTGAGE CORPORATION lobbying was just disclosed",
+     "url": "https://www.nasdaq.com/articles/lobbying-update-30000-federal-agricultural-mortgage-corporation-lobbying-was-just",
+     "date": "2025-01-22",
+     "publisher": "Quiver Quantitative",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "AGM.A"
+     ]
+    },
+    {
+     "title": "Federal Agricultural Mortgage Corp. - Class A Shares Climb Infinity% Past Previous 52-Week High - Market Mover",
+     "url": "https://www.nasdaq.com/articles/federal-agricultural-mortgage-corp.-class-a-shares-climb-infinity-past-previous-52-week",
+     "date": "2022-07-01",
+     "publisher": "Kwhen",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "AGM.A",
+      "AGM.A"
+     ]
+    },
+    {
+     "title": "Federal Agricultural Mortgage Corp. - Class A Shares Close in on 52-Week High - Market Mover",
+     "url": "https://www.nasdaq.com/articles/federal-agricultural-mortgage-corp.-class-a-shares-close-in-on-52-week-high-market-mover",
+     "date": "2022-01-09",
+     "publisher": "Kwhen",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "AGM.A",
+      "AGM.A"
+     ]
+    },
+    {
+     "title": "Federal Agricultural Mortgage Corp. - Class A Shares Near 52-Week High - Market Mover",
+     "url": "https://www.nasdaq.com/articles/federal-agricultural-mortgage-corp.-class-a-shares-near-52-week-high-market-mover-2021-09",
+     "date": "2021-09-30",
+     "publisher": "Kwhen",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "AGM.A",
+      "AGM.A"
+     ]
+    }
+   ],
+   "filings": [
+    {
+     "form": "8-K",
+     "filingDate": "2026-08-12",
+     "reportDate": "2026-08-12",
+     "items": [
+      "8.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "기타 중요사건",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/845877/000084587726000125/agm-20260812.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-07-30",
+     "reportDate": "2026-07-30",
+     "items": [
+      "2.02",
+      "7.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "실적 발표",
+      "Reg FD 공시",
+      "재무제표·첨부"
+     ],
+     "isEarnings": true,
+     "url": "https://www.sec.gov/Archives/edgar/data/845877/000084587726000122/agm-20260730.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-07-16",
+     "reportDate": "2026-07-16",
+     "items": [
+      "7.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "Reg FD 공시",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/845877/000084587726000118/agm-20260716.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-06-08",
+     "reportDate": "2026-06-03",
+     "items": [
+      "5.02",
+      "7.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "임원 변동",
+      "Reg FD 공시",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/845877/000084587726000116/agm-20260603.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-06-03",
+     "reportDate": "2026-06-03",
+     "items": [
+      "8.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "기타 중요사건",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/845877/000084587726000113/agm-20260603.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-05-19",
+     "reportDate": "2026-05-19",
+     "items": [
+      "8.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "기타 중요사건",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/845877/000084587726000109/agm-20260519.htm",
+     "description": "8-K"
+    }
+   ]
+  },
+  {
+   "ticker": "NYAX",
+   "sector": "Technology",
+   "industry": "Software - Infrastructure",
+   "volx": 3.05,
+   "volSurgeWk": 2.14,
+   "aboveMa150": false,
+   "brk60d": false,
+   "clsPos": 0,
+   "high52": 64.9,
+   "congestion": {
+    "ok": true,
+    "phase": "none",
+    "phaseKo": "해당 패턴 없음",
+    "bars": 501,
+    "rangePct": 54.09
+   },
+   "news": [
+    {
+     "title": "Nayax (NYAX) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "url": "https://www.nasdaq.com/articles/nayax-nyax-q2-earnings-taking-look-key-metrics-versus-estimates",
+     "date": "2026-08-10",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NYAX"
+     ]
+    },
+    {
+     "title": "Nayax (NYAX) Q2 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/nayax-nyax-q2-earnings-and-revenues-surpass-estimates",
+     "date": "2026-08-10",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NYAX",
+      "PAGS"
+     ]
+    },
+    {
+     "title": "Nayax (NYAX) Expected to Beat Earnings Estimates: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/nayax-nyax-expected-beat-earnings-estimates-should-you-buy",
+     "date": "2026-08-03",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NYAX",
+      "CPAY"
+     ]
+    },
+    {
+     "title": "Nayax (NYAX) Q1 Earnings Miss Estimates",
+     "url": "https://www.nasdaq.com/articles/nayax-nyax-q1-earnings-miss-estimates",
+     "date": "2026-05-12",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NYAX",
+      "ATCH"
+     ]
+    },
+    {
+     "title": "Nayax Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/nayax-q2-earnings-call-highlights",
+     "date": "2026-08-10",
+     "publisher": "MarketBeat",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "NYAX"
+     ]
+    },
+    {
+     "title": "PagSeguro Digital Ltd. (PAGS) Earnings Expected to Grow: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/pagseguro-digital-ltd-pags-earnings-expected-grow-should-you-buy",
+     "date": "2026-08-06",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "PAGS",
+      "NYAX"
+     ]
+    },
+    {
+     "title": "Payoneer Global Inc. (PAYO) Misses Q2 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/payoneer-global-inc-payo-misses-q2-earnings-estimates",
+     "date": "2026-08-06",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "PAYO",
+      "NYAX"
+     ]
+    },
+    {
+     "title": "RCAT Gears Up to Report Q2 Earnings: Here's What Investors Should Know",
+     "url": "https://www.nasdaq.com/articles/rcat-gears-report-q2-earnings-heres-what-investors-should-know",
+     "date": "2026-08-05",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "RCAT",
+      "NIQ",
+      "NYAX"
+     ]
+    }
+   ],
+   "filings": []
+  },
+  {
+   "ticker": "CRWV",
+   "sector": "Technology",
+   "industry": "Software - Infrastructure",
+   "volx": 3.65,
+   "volSurgeWk": 3.53,
+   "aboveMa150": true,
+   "brk60d": false,
+   "clsPos": 35.89,
+   "high52": 70.32,
+   "congestion": {
+    "ok": true,
+    "phase": "none",
+    "phaseKo": "해당 패턴 없음",
+    "bars": 345,
+    "rangePct": 128.32
+   },
+   "news": [
+    {
+     "title": "CoreWeave and Nebius Group Deliver Earnings Shocker. Here's What It Signals About the Future of AI.",
+     "url": "https://www.nasdaq.com/articles/coreweave-and-nebius-group-deliver-earnings-shocker-heres-what-it-signals-about-future-ai",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CRWV",
+      "CRWV",
+      "NBIS"
+     ]
+    },
+    {
+     "title": "Why CoreWeave Stock Is Skyrocketing Today",
+     "url": "https://www.nasdaq.com/articles/why-coreweave-stock-skyrocketing-today",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CRWV",
+      "CRWV"
+     ]
+    },
+    {
+     "title": "CoreWeave's Business Is Booming, but There's Still One Massive Problem",
+     "url": "https://www.nasdaq.com/articles/coreweaves-business-booming-theres-still-one-massive-problem",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CRWV",
+      "CRWV"
+     ]
+    }
+   ],
+   "filings": [
+    {
+     "form": "8-K",
+     "filingDate": "2026-08-11",
+     "reportDate": "2026-08-11",
+     "items": [
+      "2.02",
+      "9.01"
+     ],
+     "itemsKo": [
+      "실적 발표",
+      "재무제표·첨부"
+     ],
+     "isEarnings": true,
+     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/crwv-20260811.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-08-10",
+     "reportDate": "2026-08-07",
+     "items": [
+      "1.01",
+      "2.03",
+      "7.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "중요 계약 체결",
+      "2.03",
+      "Reg FD 공시",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/crwv-20260807.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-06-18",
+     "reportDate": "2026-06-18",
+     "items": [
+      "1.01",
+      "2.03",
+      "9.01"
+     ],
+     "itemsKo": [
+      "중요 계약 체결",
+      "2.03",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000291/crwv-20260618.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-06-11",
+     "reportDate": "2026-06-11",
+     "items": [
+      "7.01"
+     ],
+     "itemsKo": [
+      "Reg FD 공시"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000278/crwv-20260611.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-06-10",
+     "reportDate": "2026-06-08",
+     "items": [
+      "5.07"
+     ],
+     "itemsKo": [
+      "주주총회 표결"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000270/crwv-20260608.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-05-18",
+     "reportDate": "2026-05-15",
+     "items": [
+      "1.01",
+      "2.03",
+      "7.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "중요 계약 체결",
+      "2.03",
+      "Reg FD 공시",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000236/crwv-20260515.htm",
+     "description": "8-K"
+    }
+   ]
+  },
+  {
+   "ticker": "SMCIP",
+   "sector": "Technology",
+   "industry": "Computer Hardware",
+   "volx": 3.44,
+   "volSurgeWk": 6.87,
+   "aboveMa150": false,
+   "brk60d": true,
+   "clsPos": 86.27,
+   "high52": 99.18,
+   "congestion": {
+    "ok": false,
+    "phase": "none",
+    "phaseKo": "봉 부족 — 판정불가",
+    "bars": 43
+   },
+   "news": [],
+   "filings": [
+    {
+     "form": "8-K",
+     "filingDate": "2026-08-11",
+     "reportDate": "2026-08-11",
+     "items": [
+      "2.02",
+      "9.01"
+     ],
+     "itemsKo": [
+      "실적 발표",
+      "재무제표·첨부"
+     ],
+     "isEarnings": true,
+     "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000021/smci-20260811.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-08-05",
+     "reportDate": "2026-08-05",
+     "items": [
+      "8.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "기타 중요사건",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000020/smci-20260805.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-07-21",
+     "reportDate": "2026-07-21",
+     "items": [
+      "2.02",
+      "9.01"
+     ],
+     "itemsKo": [
+      "실적 발표",
+      "재무제표·첨부"
+     ],
+     "isEarnings": true,
+     "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000019/smci-20260721.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-06-15",
+     "reportDate": "2026-06-10",
+     "items": [
+      "1.01",
+      "3.03",
+      "5.03",
+      "9.01"
+     ],
+     "itemsKo": [
+      "중요 계약 체결",
+      "3.03",
+      "5.03",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/1375365/000119312526270430/d151436d8k.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-06-12",
+     "reportDate": "2026-06-10",
+     "items": [
+      "1.01",
+      "7.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "중요 계약 체결",
+      "Reg FD 공시",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/1375365/000119312526269703/d45696d8k.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-06-09",
+     "reportDate": "2026-06-09",
+     "items": [
+      "8.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "기타 중요사건",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/1375365/000119312526263942/d47444d8k.htm",
+     "description": "8-K"
+    }
+   ]
+  },
+  {
+   "ticker": "QNT",
+   "sector": "Technology",
+   "industry": "Software - Application",
+   "volx": 3.92,
+   "volSurgeWk": 4.29,
+   "aboveMa150": false,
+   "brk60d": false,
+   "clsPos": 95.56,
+   "high52": 82.66,
+   "congestion": {
+    "ok": false,
+    "phase": "none",
+    "phaseKo": "봉 부족 — 판정불가",
+    "bars": 48
+   },
+   "news": [
+    {
+     "title": "Quantinuum's First Earnings After its IPO: Buy or Sell QNT Stock?",
+     "url": "https://www.nasdaq.com/articles/quantinuums-first-earnings-after-its-ipo-buy-or-sell-qnt-stock",
+     "date": "2026-08-06",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "QNT",
+      "JPM",
+      "AMGN"
+     ]
+    },
+    {
+     "title": "Why Quantinuum Stock Popped Today",
+     "url": "https://www.nasdaq.com/articles/why-quantinuum-stock-popped-today",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "QNT",
+      "QNT"
+     ]
+    },
+    {
+     "title": "Quantinuum Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/quantinuum-q2-earnings-call-highlights",
+     "date": "2026-08-12",
+     "publisher": "MarketBeat",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "QNT"
+     ]
+    },
+    {
+     "title": "SpaceX vs. Quantinuum: Which Recent IPO Stock Is a Better Buy?",
+     "url": "https://www.nasdaq.com/articles/spacex-vs-quantinuum-which-recent-ipo-stock-better-buy",
+     "date": "2026-08-10",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "QNT"
+     ]
+    },
+    {
+     "title": "Where Will Quantinuum Stock Be in 1 Year?",
+     "url": "https://www.nasdaq.com/articles/where-will-quantinuum-stock-be-1-year",
+     "date": "2026-07-27",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "QNT",
+      "QNT"
+     ]
+    },
+    {
+     "title": "2 Quantum Stocks With 100%+ Upside After the Quantinuum-SoftBank Deal",
+     "url": "https://www.nasdaq.com/articles/2-quantum-stocks-100-upside-after-quantinuum-softbank-deal",
+     "date": "2026-07-22",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "RGTI",
+      "QBTS",
+      "QNT"
+     ]
+    }
+   ],
+   "filings": [
+    {
+     "form": "8-K",
+     "filingDate": "2026-08-11",
+     "reportDate": "2026-08-11",
+     "items": [
+      "2.02",
+      "7.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "실적 발표",
+      "Reg FD 공시",
+      "재무제표·첨부"
+     ],
+     "isEarnings": true,
+     "url": "https://www.sec.gov/Archives/edgar/data/2110105/000162828026055699/qnt-20260811.htm",
+     "description": "8-K"
+    }
+   ]
+  },
+  {
+   "ticker": "ATRO",
+   "sector": "Industrials",
+   "industry": "Aerospace & Defense",
+   "volx": 4.07,
+   "volSurgeWk": 3.76,
+   "aboveMa150": false,
+   "brk60d": false,
+   "clsPos": 64.54,
+   "high52": 95.02,
+   "congestion": {
+    "ok": true,
+    "phase": "none",
+    "phaseKo": "해당 패턴 없음",
+    "bars": 501,
+    "rangePct": 88.49
+   },
+   "news": [
+    {
+     "title": "Why Astronics (ATRO) Might be Well Poised for a Surge",
+     "url": "https://www.nasdaq.com/articles/why-astronics-atro-might-be-well-poised-surge",
+     "date": "2026-08-13",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "ATRO"
+     ]
+    },
+    {
+     "title": "Astronics (ATRO) Is a Great Choice for 'Trend' Investors, Here's Why",
+     "url": "https://www.nasdaq.com/articles/astronics-atro-great-choice-trend-investors-heres-why",
+     "date": "2026-08-13",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "ATRO"
+     ]
+    },
+    {
+     "title": "Astronics Corporation (ATRO) Q2 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/astronics-corporation-atro-q2-earnings-and-revenues-surpass-estimates",
+     "date": "2026-08-11",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "ATRO",
+      "AVAV"
+     ]
+    },
+    {
+     "title": "Are Aerospace Stocks Lagging  Astronics (ATRO) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-aerospace-stocks-lagging-astronics-atro-year",
+     "date": "2026-07-22",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "ATRO",
+      "RTX"
+     ]
+    },
+    {
+     "title": "Astronics (ATRO) Upgraded to Buy: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/astronics-atro-upgraded-buy-heres-what-you-should-know",
+     "date": "2026-07-20",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "ATRO"
+     ]
+    },
+    {
+     "title": "AVAV Outperforms Industry in the Past Month: How to Play the Stock?",
+     "url": "https://www.nasdaq.com/articles/avav-outperforms-industry-past-month-how-play-stock",
+     "date": "2026-08-13",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "AVAV",
+      "ATRO",
+      "TDY"
+     ]
+    },
+    {
+     "title": "Astronics Reaches Analyst Target Price",
+     "url": "https://www.nasdaq.com/articles/astronics-reaches-analyst-target-price",
+     "date": "2026-08-13",
+     "publisher": "BNK Invest",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "ATRO"
+     ]
+    },
+    {
+     "title": "Why Astronics Stock Popped Today",
+     "url": "https://www.nasdaq.com/articles/why-astronics-stock-popped-today",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "ATRO",
+      "ATRO"
+     ]
+    }
+   ],
+   "filings": [
+    {
+     "form": "8-K",
+     "filingDate": "2026-08-11",
+     "reportDate": "2026-08-11",
+     "items": [
+      "2.02",
+      "9.01"
+     ],
+     "itemsKo": [
+      "실적 발표",
+      "재무제표·첨부"
+     ],
+     "isEarnings": true,
+     "url": "https://www.sec.gov/Archives/edgar/data/8063/000000806326000037/atro-20260811.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-06-01",
+     "reportDate": "2026-06-01",
+     "items": [
+      "7.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "Reg FD 공시",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/8063/000000806326000032/atro-20260601.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-05-28",
+     "reportDate": "2026-05-28",
+     "items": [
+      "5.07"
+     ],
+     "itemsKo": [
+      "주주총회 표결"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/8063/000000806326000029/atro-20260528.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-05-12",
+     "reportDate": "2026-05-12",
+     "items": [
+      "2.02",
+      "9.01"
+     ],
+     "itemsKo": [
+      "실적 발표",
+      "재무제표·첨부"
+     ],
+     "isEarnings": true,
+     "url": "https://www.sec.gov/Archives/edgar/data/8063/000000806326000024/atro-20260512.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-02-24",
+     "reportDate": "2026-02-24",
+     "items": [
+      "2.02",
+      "9.01"
+     ],
+     "itemsKo": [
+      "실적 발표",
+      "재무제표·첨부"
+     ],
+     "isEarnings": true,
+     "url": "https://www.sec.gov/Archives/edgar/data/8063/000000806326000018/atro-20260224.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-02-05",
+     "reportDate": "2026-02-05",
+     "items": [
+      "2.02",
+      "9.01"
+     ],
+     "itemsKo": [
+      "실적 발표",
+      "재무제표·첨부"
+     ],
+     "isEarnings": true,
+     "url": "https://www.sec.gov/Archives/edgar/data/8063/000000806326000014/atro-20260205.htm",
+     "description": "8-K"
+    }
+   ]
+  },
+  {
+   "ticker": "NTES",
+   "sector": "Communication Services",
+   "industry": "Electronic Gaming & Multimedia",
+   "volx": 1.73,
+   "volSurgeWk": 2.46,
+   "aboveMa150": false,
+   "brk60d": false,
+   "clsPos": 72.86,
+   "high52": 79.35,
+   "congestion": {
+    "ok": true,
+    "phase": "base",
+    "phaseKo": "6개월 횡보 베이스 형성 중",
+    "baseHigh": 136.66,
+    "baseLow": 106.06,
+    "baseBars": 126,
+    "baseMonths": 6,
+    "rangePct": 28.85,
+    "contraction": 0.9,
+    "pivot": 136.66,
+    "distToPivotPct": -9.18,
+    "aboveMa150AtNow": true,
+    "buyTrigger": {
+     "price": 136.66,
+     "note": "$136.66(저항선) 거래량 동반 돌파 시 진입 검토"
+    },
+    "score": 20
+   },
+   "news": [
+    {
+     "title": "NTES or TYL: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/ntes-or-tyl-which-better-value-stock-right-now",
+     "date": "2026-07-13",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NTES",
+      "TYL"
+     ]
+    },
+    {
+     "title": "NTES vs. TYL: Which Stock Is the Better Value Option?",
+     "url": "https://www.nasdaq.com/articles/ntes-vs-tyl-which-stock-better-value-option",
+     "date": "2026-06-25",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NTES",
+      "TYL"
+     ]
+    },
+    {
+     "title": "Looking for a Growth Stock? 3 Reasons Why NetEase (NTES) is a Solid Choice",
+     "url": "https://www.nasdaq.com/articles/looking-growth-stock-3-reasons-why-netease-ntes-solid-choice",
+     "date": "2026-06-15",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NTES"
+     ]
+    },
+    {
+     "title": "Earnings Estimates Rising for NetEase (NTES): Will It Gain?",
+     "url": "https://www.nasdaq.com/articles/earnings-estimates-rising-netease-ntes-will-it-gain",
+     "date": "2026-06-12",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NTES"
+     ]
+    },
+    {
+     "title": "NetEase (NTES) Upgraded to Strong Buy: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/netease-ntes-upgraded-strong-buy-heres-what-you-should-know",
+     "date": "2026-06-09",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NTES"
+     ]
+    },
+    {
+     "title": "NTES vs. TYL: Which Stock Should Value Investors Buy Now?",
+     "url": "https://www.nasdaq.com/articles/ntes-vs-tyl-which-stock-should-value-investors-buy-now",
+     "date": "2026-06-09",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NTES",
+      "TYL"
+     ]
+    },
+    {
+     "title": "Wall Street Analysts See a 34.66% Upside in NetEase (NTES): Can the Stock Really Move This High?",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-3466-upside-netease-ntes-can-stock-really-move-high",
+     "date": "2026-06-09",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NTES"
+     ]
+    },
+    {
+     "title": "NetEase Q1 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/netease-q1-earnings-call-highlights",
+     "date": "2026-05-21",
+     "publisher": "MarketBeat",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "NTES"
+     ]
+    }
+   ],
+   "filings": []
+  },
+  {
+   "ticker": "SLMBP",
+   "sector": "Financial Services",
+   "industry": "Credit Services",
+   "volx": 8.16,
+   "volSurgeWk": 18.34,
+   "aboveMa150": false,
+   "brk60d": true,
+   "clsPos": 85.74,
+   "high52": 99.93,
+   "congestion": {
+    "ok": true,
+    "phase": "base",
+    "phaseKo": "6개월 횡보 베이스 형성 중",
+    "baseHigh": 76.27,
+    "baseLow": 72.5,
+    "baseBars": 126,
+    "baseMonths": 6,
+    "rangePct": 5.2,
+    "contraction": 0.61,
+    "pivot": 76.27,
+    "distToPivotPct": -1.4,
+    "aboveMa150AtNow": true,
+    "buyTrigger": {
+     "price": 76.27,
+     "note": "$76.27(저항선) 거래량 동반 돌파 시 진입 검토"
+    },
+    "score": 50
+   },
+   "news": [
+    {
+     "title": "SLM Corporation - Preferred Stock (SLMBP) Price Target Increased by 10.08% to 102.42",
+     "url": "https://www.nasdaq.com/articles/slm-corporation-preferred-stock-slmbp-price-target-increased-1008-10242",
+     "date": "2026-05-14",
+     "publisher": "Fintel",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SLMBP"
+     ]
+    },
+    {
+     "title": "Compass Point Upgrades SLM Corporation - Preferred Stock (SLMBP)",
+     "url": "https://www.nasdaq.com/articles/compass-point-upgrades-slm-corporation-preferred-stock-slmbp",
+     "date": "2026-04-01",
+     "publisher": "Fintel",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SLMBP"
+     ]
+    },
+    {
+     "title": "SLM Corporation - Preferred Stock (SLMBP) Price Target Increased by 37.28% to 123.54",
+     "url": "https://www.nasdaq.com/articles/slm-corporation-preferred-stock-slmbp-price-target-increased-3728-12354",
+     "date": "2026-02-25",
+     "publisher": "Fintel",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SLMBP"
+     ]
+    },
+    {
+     "title": "Wells Fargo Maintains SLM Corporation - Preferred Stock (SLMBP) Overweight Recommendation",
+     "url": "https://www.nasdaq.com/articles/wells-fargo-maintains-slm-corporation-preferred-stock-slmbp-overweight-recommendation-1",
+     "date": "2025-12-12",
+     "publisher": "Fintel",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SLMBP"
+     ]
+    },
+    {
+     "title": "Keefe, Bruyette & Woods Maintains SLM Corporation - Preferred Stock (SLMBP) Market Perform Recommendation",
+     "url": "https://www.nasdaq.com/articles/keefe-bruyette-woods-maintains-slm-corporation-preferred-stock-slmbp-market-perform-0",
+     "date": "2025-12-11",
+     "publisher": "Fintel",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SLMBP"
+     ]
+    },
+    {
+     "title": "TD Cowen Maintains SLM Corporation - Preferred Stock (SLMBP) Buy Recommendation",
+     "url": "https://www.nasdaq.com/articles/td-cowen-maintains-slm-corporation-preferred-stock-slmbp-buy-recommendation",
+     "date": "2025-12-05",
+     "publisher": "Fintel",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SLMBP"
+     ]
+    },
+    {
+     "title": "Wells Fargo Maintains SLM Corporation - Preferred Stock (SLMBP) Overweight Recommendation",
+     "url": "https://www.nasdaq.com/articles/wells-fargo-maintains-slm-corporation-preferred-stock-slmbp-overweight-recommendation-0",
+     "date": "2025-12-05",
+     "publisher": "Fintel",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SLMBP"
+     ]
+    },
+    {
+     "title": "Morgan Stanley Maintains SLM Corporation - Preferred Stock (SLMBP) Overweight Recommendation",
+     "url": "https://www.nasdaq.com/articles/morgan-stanley-maintains-slm-corporation-preferred-stock-slmbp-overweight-recommendation-0",
+     "date": "2025-10-25",
+     "publisher": "Fintel",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SLMBP"
+     ]
+    }
+   ],
+   "filings": [
+    {
+     "form": "8-K",
+     "filingDate": "2026-08-05",
+     "reportDate": "2026-08-05",
+     "items": [
+      "7.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "Reg FD 공시",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/1032033/000103203326000046/slm-20260805.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-07-23",
+     "reportDate": "2026-07-23",
+     "items": [
+      "2.02",
+      "9.01"
+     ],
+     "itemsKo": [
+      "실적 발표",
+      "재무제표·첨부"
+     ],
+     "isEarnings": true,
+     "url": "https://www.sec.gov/Archives/edgar/data/1032033/000103203326000041/slm-20260723.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-06-18",
+     "reportDate": "2026-06-16",
+     "items": [
+      "5.07"
+     ],
+     "itemsKo": [
+      "주주총회 표결"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/1032033/000103203326000036/slm-20260616.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-06-10",
+     "reportDate": "2026-06-10",
+     "items": [
+      "7.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "Reg FD 공시",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/1032033/000103203326000034/slm-20260610.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-05-15",
+     "reportDate": "2026-05-15",
+     "items": [
+      "1.01",
+      "8.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "중요 계약 체결",
+      "기타 중요사건",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/1032033/000119312526225683/d672122d8k.htm",
+     "description": "8-K"
+    },
+    {
+     "form": "8-K",
+     "filingDate": "2026-05-06",
+     "reportDate": "2026-05-06",
+     "items": [
+      "7.01",
+      "9.01"
+     ],
+     "itemsKo": [
+      "Reg FD 공시",
+      "재무제표·첨부"
+     ],
+     "isEarnings": false,
+     "url": "https://www.sec.gov/Archives/edgar/data/1032033/000119312526207711/d29837d8k.htm",
+     "description": "8-K"
+    }
+   ]
+  }
+ ]
+}

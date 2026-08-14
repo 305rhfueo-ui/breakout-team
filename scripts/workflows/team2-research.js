@@ -18,6 +18,30 @@ const picks = (A && A.picks) || []
 const clusters = (A && A.clusters) || []
 const CAP = Number.isFinite(A && A.cap) ? A.cap : 20     // `|| 20` 이면 cap:0 이 20 으로 둔갑한다
 
+/* ── 무거운 자료는 파일로 ──
+   워크플로 스크립트는 파일시스템에 접근할 수 없다. 그래서 **에이전트가 직접 Read 한다.**
+   ⚠️ 스크립트는 몇 명을 띄울지 알아야 하므로 티커 목록만 인라인으로 받고,
+      실적·뉴스·공시·국내리포트 같은 무거운 자료는 argsFile 에 둔다.
+      이걸 안 하면 근거를 늘릴수록 호출부가 붙여넣어야 할 인자가 수십 KB 로 불어난다. */
+const argsDir = (A && A.argsDir) || null
+const fileFor = (tk) => argsDir ? `${argsDir}/${tk}.json` : null
+const evidenceBlock = (tk, d) => argsDir ? `## 이미 확보된 자료 (Node 가 수집·검증한 1차 자료)
+**${fileFor(tk)}**
+
+⚠️ **가장 먼저 Read 도구로 이 파일을 읽어라.** 읽지 않고 쓰면 안 된다. ${tk} 전용 파일이다.
+그 안의
+\`detail.financials\`(최근 분기 실적) · \`detail.news\`(이 종목 직접 언급 기사) ·
+\`detail.filings\`(SEC 8-K) · \`detail.krReports\`(국내 증권사 리포트, 요약·PDF 링크) 를 근거로 삼아라.
+**여기 있는 숫자는 절대 바꾸지 마라. 해석만 하라.**` : `## 이미 확보된 자료 (Node 가 수집·검증한 것. 이 숫자를 바꾸지 마라)
+최근 4분기 실적(SEC EDGAR):
+  ${d.fin}
+최근 뉴스(Nasdaq RSS, 이 종목 직접 언급분):
+${d.news}
+SEC 8-K 공시:
+${d.filings}
+국내 증권사 리포트(연합인포맥스):
+${d.kr}`
+
 // 에이전트가 API 오류로 죽으면 agent() 가 null 을 준다. 1회만 다시 시도한다.
 // ⚠️ 재시도 후에도 null 이면 그 종목을 조용히 버리지 말고 호출부가 실패로 표시할 수 있게 남긴다.
 //    2026-08-11 에 죽은 에이전트가 화면에 "상한 초과"로 표시되는 사고가 있었다.
@@ -78,19 +102,13 @@ const researched = await parallel(targets.map((p) => () => {
   const filings = (d.filings || []).slice(0, 4).map((f) => `- ${f.filingDate} ${f.itemsKo.join(',')}${f.isEarnings ? ' ★실적' : ''} ${f.url}`).join('\n') || '없음'
 
   return tryAgent(
-    `당신은 미국 주식 리서치 애널리스트입니다. 오늘은 ${date}. 종목: ${p.ticker} (${d.nameKo || ''} / ${p.sector} / ${p.industry})
+    `당신은 미국 주식 리서치 애널리스트입니다. 오늘은 ${date}. 종목: ${p.ticker} (${p.nameKo || d.nameKo || ''} / ${p.sector} / ${p.industry})
 
-## 이미 확보된 자료 (Node 가 수집·검증한 것. 이 숫자를 바꾸지 마라)
+## Node 가 확정한 수치 (바꾸지 마라)
 스크리닝: RS 상위 1M ${(100 - (p.rs?.m1?.pct ?? 0)).toFixed(1)}% / 3M ${(100 - (p.rs?.m3?.pct ?? 0)).toFixed(1)}% / 6M ${(100 - (p.rs?.m6?.pct ?? 0)).toFixed(1)}% · ADR ${p.adr}% · 52주 고점 대비 ${p.high52}% · 200일선 이격 ${p.div200}%
 절대 상승률: 1M ${p.ret1m}% · 3M ${p.ret3m}% · 6M ${p.ret6m}%
-최근 4분기 실적(SEC EDGAR):
-  ${fin}
-최근 뉴스(Nasdaq RSS, 이 종목 직접 언급분):
-${news}
-SEC 8-K 공시:
-${filings}
-국내 증권사 리포트(연합인포맥스):
-${kr}
+
+${evidenceBlock(p.ticker, { fin, news, filings, kr })}
 
 ## 할 일
 위 자료를 출발점으로 **웹검색을 더 해서** 다음을 채우세요.
@@ -180,7 +198,7 @@ const theme = await tryAgent(
   `당신은 주도 테마를 판별하는 전략가입니다. 오늘은 ${date}.
 
 ## Node 가 확정한 클러스터 (이 숫자는 절대 바꾸지 마라)
-${JSON.stringify(clusters, null, 1)}
+${clusters.length ? JSON.stringify(clusters, null, 1) : '(클러스터 없음 — 테마를 만들지 마세요)'}
 
 ## 검증 통과한 종목별 리서치
 ${JSON.stringify(clean.map((x) => ({ ticker: x.ticker, themeTags: x.themeTags, whyRose: (x.whyRose || []).map((c) => c.statement) })), null, 1)}

@@ -1,0 +1,66 @@
+{
+ "ticker": "NVS",
+ "news": [
+  {
+   "title": "Novartis (NVS) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/novartis-nvs-q2-2026-earnings-call-transcript",
+   "date": "2026-07-22",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "NVS",
+    "NVS"
+   ]
+  },
+  {
+   "title": "FDA Approves Novartis' Pluvicto Combo For Metastatic Hormone-sensitive Prostate Cancer",
+   "url": "https://www.nasdaq.com/articles/fda-approves-novartis-pluvicto-combo-metastatic-hormone-sensitive-prostate-cancer",
+   "date": "2026-08-01",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "NVS"
+   ]
+  },
+  {
+   "title": "ALNY Stock Tanks 28% as Q2 Earnings Miss Estimates, '26 Sales View Cut",
+   "url": "https://www.nasdaq.com/articles/alny-stock-tanks-28-q2-earnings-miss-estimates-26-sales-view-cut",
+   "date": "2026-07-31",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "ALNY",
+    "REGN",
+    "NVS"
+   ]
+  },
+  {
+   "title": "Novartis Q2 Earnings & Revenues Top Estimates, Key Drugs Perform Well",
+   "url": "https://www.nasdaq.com/articles/novartis-q2-earnings-revenues-top-estimates-key-drugs-perform-well",
+   "date": "2026-07-21",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "NVS",
+    "NVAX",
+    "LQDA"
+   ]
+  },
+  {
+   "title": "Novartis Q2 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/novartis-q2-earnings-call-highlights",
+   "date": "2026-07-21",
+   "publisher": "MarketBeat",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "NVS"
+   ]
+  }
+ ],
+ "filings": []
+}

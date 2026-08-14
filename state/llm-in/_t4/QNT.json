@@ -1,0 +1,97 @@
+{
+ "ticker": "QNT",
+ "news": [
+  {
+   "title": "Quantinuum's First Earnings After its IPO: Buy or Sell QNT Stock?",
+   "url": "https://www.nasdaq.com/articles/quantinuums-first-earnings-after-its-ipo-buy-or-sell-qnt-stock",
+   "date": "2026-08-06",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "QNT",
+    "JPM",
+    "AMGN"
+   ]
+  },
+  {
+   "title": "Why Quantinuum Stock Popped Today",
+   "url": "https://www.nasdaq.com/articles/why-quantinuum-stock-popped-today",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "QNT",
+    "QNT"
+   ]
+  },
+  {
+   "title": "Quantinuum Q2 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/quantinuum-q2-earnings-call-highlights",
+   "date": "2026-08-12",
+   "publisher": "MarketBeat",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "QNT"
+   ]
+  },
+  {
+   "title": "SpaceX vs. Quantinuum: Which Recent IPO Stock Is a Better Buy?",
+   "url": "https://www.nasdaq.com/articles/spacex-vs-quantinuum-which-recent-ipo-stock-better-buy",
+   "date": "2026-08-10",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "QNT"
+   ]
+  },
+  {
+   "title": "Where Will Quantinuum Stock Be in 1 Year?",
+   "url": "https://www.nasdaq.com/articles/where-will-quantinuum-stock-be-1-year",
+   "date": "2026-07-27",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "QNT",
+    "QNT"
+   ]
+  },
+  {
+   "title": "2 Quantum Stocks With 100%+ Upside After the Quantinuum-SoftBank Deal",
+   "url": "https://www.nasdaq.com/articles/2-quantum-stocks-100-upside-after-quantinuum-softbank-deal",
+   "date": "2026-07-22",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "RGTI",
+    "QBTS",
+    "QNT"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-11",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2110105/000162828026055699/qnt-20260811.htm",
+   "description": "8-K"
+  }
+ ]
+}

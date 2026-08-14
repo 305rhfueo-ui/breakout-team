@@ -17,6 +17,23 @@ const date = (A && A.date) || 'today'
 const items = (A && A.items) || []
 const CAP = Number.isFinite(A && A.cap) ? A.cap : 15     // `|| 15` 이면 cap:0 이 15 로 둔갑한다
 
+/* ── 무거운 자료는 파일로 ──
+   워크플로 스크립트는 파일시스템에 접근할 수 없다 → 에이전트가 직접 Read 한다.
+   스크립트는 몇 명을 띄울지 알아야 하므로 티커 목록만 인라인으로 받는다. */
+const argsDir = (A && A.argsDir) || null
+const fileFor = (tk) => argsDir ? `${argsDir}/${tk}.json` : null
+const evidenceBlock = (tk, news, fil) => argsDir ? `## 이미 확보된 자료 (Node 가 수집한 1차 자료)
+**${fileFor(tk)}**
+
+⚠️ **가장 먼저 Read 도구로 이 파일을 읽어라.** 읽지 않고 판정하면 안 된다. ${tk} 전용 파일이다.
+그 안의 \`news\`(이 종목을 직접 언급한 기사) 와 \`filings\`(SEC 8-K · item 2.02 = 실적발표) 를
+촉매 판정의 1차 근거로 삼아라. 거기 있는 숫자는 바꾸지 마라.
+⚠️ 예전엔 4팀에 문서 근거를 하나도 안 줬다. 이제 준다 — **웹검색보다 이걸 먼저 보라.**` : `## 확보된 뉴스 (Nasdaq RSS, 이 종목 직접 언급)
+${news}
+
+## SEC 8-K 공시 (item 2.02 = 실적발표. 촉매 판정의 1차 근거)
+${fil}`
+
 // 에이전트가 죽으면 1회만 다시 시도한다. 그래도 실패하면 호출부가 '실패'로 표시하게 남긴다.
 // (2026-08-11 BMRN 이 죽었는데 화면엔 "상한 초과"로 표시됐다)
 const tryAgent = async (p, o) => {
@@ -79,11 +96,7 @@ VOL_X ${it.volx} (거래대금 20일평균 대비) · 주간 거래량배수 ${i
 150일선 ${it.aboveMa150 ? '위' : '아래'} · 60일 신고가 돌파 ${it.brk60d ? 'YES' : 'NO'} · 종가강도 ${it.clsPos} · 52주 고점 대비 ${it.high52}%
 Congestion: ${c.phaseKo || '판정불가'}${c.baseMonths ? ` · 횡보 ${c.baseMonths}개월 · 베이스폭 ${c.rangePct}%` : ''}${c.breakoutDate ? ` · 돌파 ${c.breakoutDate} 거래량 ${c.breakoutVolX}배` : ''}
 
-## 확보된 뉴스 (Nasdaq RSS, 이 종목 직접 언급)
-${news}
-
-## SEC 8-K 공시 (item 2.02 = 실적발표. 촉매 판정의 1차 근거)
-${fil}
+${evidenceBlock(it.ticker, news, fil)}
 
 ## 호재 6분류
 ${CATEGORIES}

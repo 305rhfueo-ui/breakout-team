@@ -43,12 +43,18 @@ Workflow({ scriptPath: '<REPO>/scripts/workflows/team4-catalyst.js', args: {...}
 Workflow({ scriptPath: '<REPO>/scripts/workflows/team5-sector.js',   args: {...} })
 ```
 
+⚠️ **2·4·5팀 인자는 인라인으로 붙여넣지 마라.** `prepare-llm-args.js` 가
+`state/llm-in/_t2/{TICKER}.json` · `_t4/{TICKER}.json` · `_t5args.json` 로 무거운 자료를 빼놓고,
+`_args.json` 의 `team2args.argsDir` / `team4args.argsDir` / `team5args.argsFile` 에 경로를 담는다.
+그 경로를 그대로 넘기면 **에이전트가 자기 종목 파일만 Read** 한다.
+(한 파일에 몰면 60종목 × 상세 = 580KB 라 에이전트의 Read 가 잘려 자료를 못 본다)
+
 각 워크플로 파일 상단 주석에 필요한 args 형태가 적혀 있다. 요약:
 - `team1-news`: `{ date, candidates: [뉴스 후보], context: { qqqKo, qqqPrice, ma10, ma20, ma50, finraKo, sectors, over150 } }`
   - candidates 는 `node -e "require('./scripts/data/news-rss').getMarketNews().then(r=>console.log(JSON.stringify(r.items)))"` 로 얻는다
-- `team2-research`: `{ date, picks: TEAM2_DATA.picks (detail 포함), clusters: TEAM2_DATA.themes.clusters, cap: 20 }`
-- `team4-catalyst`: `{ date, items: TEAM4_DATA.items, cap: 15 }`
-- `team5-sector`: `{ date, industries: TEAM5_DATA.strictTop2.m6 + top10by6 상위, cap: 6 }`
+- `team2-research`: `_args.json` 의 `team2args` 를 그대로 (picks 는 detail 없는 경량 · argsDir 포함)
+- `team4-catalyst`: `_args.json` 의 `team4args` 를 그대로 (argsDir 포함)
+- `team5-sector`: `_args.json` 의 `team5args` 를 그대로 (argsFile 포함)
 
 4개는 서로 독립이므로 **한 메시지에서 병렬로** 띄운다.
 

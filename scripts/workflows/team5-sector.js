@@ -16,6 +16,15 @@ const date = (A && A.date) || 'today'
 const industries = (A && A.industries) || []
 const CAP = Number.isFinite(A && A.cap) ? A.cap : 6      // `|| 6` 이면 cap:0 이 6 으로 둔갑한다
 
+/* 무거운 자료는 파일로 (에이전트가 직접 Read). 스크립트는 업종 목록만 인라인으로 받는다.
+   5팀은 지금까지 문서 근거가 0이었다 — WRS 숫자만 주고 나머지는 전부 웹검색이었다. */
+const argsFile = (A && A.argsFile) || null
+const evidenceBlock = (key) => argsFile ? `
+## 이미 확보된 자료
+**${argsFile}**
+⚠️ **먼저 Read 도구로 이 파일을 읽어라.** \`industries\` 배열에서 \`key\` 가 **"${key}"** 인 항목의
+\`memberNews\`(이 업종 대표 종목들의 최근 기사) 를 출발점으로 삼아라. 웹검색은 그 위에 더한다.` : ''
+
 // 에이전트가 죽으면 1회만 다시 시도한다. 그래도 실패하면 실패로 남긴다.
 const tryAgent = async (p, o) => {
   const r = await agent(p, o)
@@ -66,6 +75,7 @@ WRS 1개월 ${x.wrs?.m1} (상위 ${x.rankPct?.m1}%) · 3개월 ${x.wrs?.m3} (상
 ※ WRS = 업종 내 시총가중 평균 RS(QQQ 대비 초과수익률). 0 이면 QQQ 와 동일.
    1개월·3개월 WRS 는 사이트에 없어 동일 공식으로 자체 계산한 값이다.
 이 업종에서 2팀이 선정한 종목: ${(x.members || []).join(', ') || '없음'}
+${evidenceBlock(x.key)}
 
 ## 할 일
 웹검색으로 **이 업종이 최근 왜 강한지**를 조사하세요.

@@ -1,0 +1,448 @@
+{
+ "date": "2026-08-13",
+ "cap": 6,
+ "industries": [
+  {
+   "key": "Technology|Computer Hardware",
+   "sector": "Technology",
+   "industry": "Computer Hardware",
+   "count": 8,
+   "counts": {
+    "m1": 9,
+    "m3": 8,
+    "m6": 8
+   },
+   "wrs": {
+    "m1": 0.0818,
+    "m3": 0.3816,
+    "m6": 1.4149
+   },
+   "final": {
+    "m1": 0.1552,
+    "m3": 0.1745,
+    "m6": 0.5951
+   },
+   "rankPct": {
+    "m1": 21.58,
+    "m3": 1.44,
+    "m6": 0.72
+   },
+   "members": [
+    "P",
+    "DELL"
+   ],
+   "memberNews": [
+    {
+     "ticker": "P",
+     "date": "2026-08-07",
+     "publisher": "Zacks",
+     "title": "VNT or P: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/vnt-or-p-which-better-value-stock-right-now"
+    },
+    {
+     "ticker": "P",
+     "date": "2026-07-31",
+     "publisher": "Zacks",
+     "title": "STX vs. P: Which Storage Stock Deserves a Spot in Your Portfolio?",
+     "url": "https://www.nasdaq.com/articles/stx-vs-p-which-storage-stock-deserves-spot-your-portfolio"
+    },
+    {
+     "ticker": "P",
+     "date": "2026-07-23",
+     "publisher": "Zacks",
+     "title": "3 Reasons Growth Investors Will Love Everpure (P)",
+     "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-everpure-p"
+    },
+    {
+     "ticker": "DELL",
+     "date": "2026-08-08",
+     "publisher": "The Motley Fool",
+     "title": "Where Will Dell Technologies Stock Be in 3 Years?",
+     "url": "https://www.nasdaq.com/articles/where-will-dell-technologies-stock-be-3-years"
+    },
+    {
+     "ticker": "DELL",
+     "date": "2026-08-07",
+     "publisher": "Zacks",
+     "title": "Is Dell Technologies (DELL) a Buy as Wall Street Analysts Look Optimistic?",
+     "url": "https://www.nasdaq.com/articles/dell-technologies-dell-buy-wall-street-analysts-look-optimistic"
+    },
+    {
+     "ticker": "DELL",
+     "date": "2026-08-06",
+     "publisher": "Zacks",
+     "title": "Dell Technologies (DELL) Dips More Than Broader Market: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/dell-technologies-dell-dips-more-broader-market-what-you-should-know"
+    }
+   ]
+  },
+  {
+   "key": "Energy|Oil & Gas Refining & Marketing",
+   "sector": "Energy",
+   "industry": "Oil & Gas Refining & Marketing",
+   "count": 7,
+   "counts": {
+    "m1": 7,
+    "m3": 7,
+    "m6": 7
+   },
+   "wrs": {
+    "m1": 0.1396,
+    "m3": 0.3144,
+    "m6": 0.6323
+   },
+   "final": {
+    "m1": 0.1523,
+    "m3": 0.2409,
+    "m6": 0.4043
+   },
+   "rankPct": {
+    "m1": 7.91,
+    "m3": 5.04,
+    "m6": 1.44
+   },
+   "members": [],
+   "memberNews": []
+  },
+  {
+   "key": "Basic Materials|Gold",
+   "sector": "Basic Materials",
+   "industry": "Gold",
+   "count": 8,
+   "counts": {
+    "m1": 8,
+    "m3": 8,
+    "m6": 8
+   },
+   "wrs": {
+    "m1": 0.2436,
+    "m3": 0.0481,
+    "m6": -0.0913
+   },
+   "final": {
+    "m1": 0.2261,
+    "m3": 0.1141,
+    "m6": -0.0263
+   },
+   "rankPct": {
+    "m1": 0.72,
+    "m3": 59.71,
+    "m6": 89.93
+   },
+   "members": [
+    "AUGO"
+   ],
+   "memberNews": [
+    {
+     "ticker": "AUGO",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "title": "Aura Minerals (AUGO) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/aura-minerals-augo-q2-2026-earnings-call-transcript"
+    },
+    {
+     "ticker": "AUGO",
+     "date": "2026-08-06",
+     "publisher": "BNK Invest",
+     "title": "How To YieldBoost Aura Minerals From 4.7% To 24.2% Using Options",
+     "url": "https://www.nasdaq.com/articles/how-yieldboost-aura-minerals-47-242-using-options"
+    },
+    {
+     "ticker": "AUGO",
+     "date": "2026-08-06",
+     "publisher": "RTTNews",
+     "title": "Aura Minerals Inc. Q2 Income Rises",
+     "url": "https://www.nasdaq.com/articles/aura-minerals-inc-q2-income-rises"
+    }
+   ]
+  },
+  {
+   "key": "Technology|Software - Infrastructure",
+   "sector": "Technology",
+   "industry": "Software - Infrastructure",
+   "count": 33,
+   "counts": {
+    "m1": 33,
+    "m3": 33,
+    "m6": 33
+   },
+   "wrs": {
+    "m1": 0.2052,
+    "m3": 0.1951,
+    "m6": 0.3617
+   },
+   "final": {
+    "m1": 0.2221,
+    "m3": 0.2303,
+    "m6": 0.3514
+   },
+   "rankPct": {
+    "m1": 1.44,
+    "m3": 14.39,
+    "m6": 4.32
+   },
+   "members": [
+    "QLYS",
+    "BAND",
+    "OKTA",
+    "CRWV",
+    "PANW",
+    "NTAP",
+    "TWLO"
+   ],
+   "memberNews": [
+    {
+     "ticker": "QLYS",
+     "date": "2026-08-12",
+     "publisher": "Zacks",
+     "title": "Qualys (QLYS) Upgraded to Strong Buy: Here's Why",
+     "url": "https://www.nasdaq.com/articles/qualys-qlys-upgraded-strong-buy-heres-why"
+    },
+    {
+     "ticker": "QLYS",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "title": "Qualys (QLYS) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/qualys-qlys-q2-2026-earnings-call-transcript"
+    },
+    {
+     "ticker": "QLYS",
+     "date": "2026-08-05",
+     "publisher": "The Motley Fool",
+     "title": "Why Qualys Stock Crushed it on Wednesday",
+     "url": "https://www.nasdaq.com/articles/why-qualys-stock-crushed-it-wednesday"
+    },
+    {
+     "ticker": "BAND",
+     "date": "2026-08-11",
+     "publisher": "Zacks",
+     "title": "Bandwidth Q2 Results Raise the Stakes for Its AI Growth Strategy",
+     "url": "https://www.nasdaq.com/articles/bandwidth-q2-results-raise-stakes-its-ai-growth-strategy"
+    },
+    {
+     "ticker": "BAND",
+     "date": "2026-08-11",
+     "publisher": "Zacks",
+     "title": "Bandwidth Stock Faces a Growth Versus Valuation Test for Investors",
+     "url": "https://www.nasdaq.com/articles/bandwidth-stock-faces-growth-versus-valuation-test-investors"
+    },
+    {
+     "ticker": "BAND",
+     "date": "2026-08-11",
+     "publisher": "Zacks",
+     "title": "Bandwidth Stock Rises 21.7% in a Week: Can the Rally Still Continue?",
+     "url": "https://www.nasdaq.com/articles/bandwidth-stock-rises-217-week-can-rally-still-continue"
+    },
+    {
+     "ticker": "OKTA",
+     "date": "2026-08-12",
+     "publisher": "Zacks",
+     "title": "Okta (OKTA) Stock Falls Amid Market Uptick: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/okta-okta-stock-falls-amid-market-uptick-what-investors-need-know"
+    },
+    {
+     "ticker": "OKTA",
+     "date": "2026-08-11",
+     "publisher": "Zacks",
+     "title": "Okta (OKTA) Is Considered a Good Investment by Brokers: Is That True?",
+     "url": "https://www.nasdaq.com/articles/okta-okta-considered-good-investment-brokers-true"
+    },
+    {
+     "ticker": "OKTA",
+     "date": "2026-08-07",
+     "publisher": "Zacks",
+     "title": "Zacks Industry Outlook Palo Alto Networks, Fortinet, and Okta",
+     "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-palo-alto-networks-fortinet-and-okta"
+    },
+    {
+     "ticker": "CRWV",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "title": "CoreWeave and Nebius Group Deliver Earnings Shocker. Here's What It Signals About the Future of AI.",
+     "url": "https://www.nasdaq.com/articles/coreweave-and-nebius-group-deliver-earnings-shocker-heres-what-it-signals-about-future-ai"
+    },
+    {
+     "ticker": "CRWV",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "title": "Why CoreWeave Stock Is Skyrocketing Today",
+     "url": "https://www.nasdaq.com/articles/why-coreweave-stock-skyrocketing-today"
+    },
+    {
+     "ticker": "CRWV",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "title": "CoreWeave's Business Is Booming, but There's Still One Massive Problem",
+     "url": "https://www.nasdaq.com/articles/coreweaves-business-booming-theres-still-one-massive-problem"
+    },
+    {
+     "ticker": "PANW",
+     "date": "2026-08-12",
+     "publisher": "Zacks",
+     "title": "Can Cloudflare's AI Security Strategy Help it Challenge PANW & ZS?",
+     "url": "https://www.nasdaq.com/articles/can-cloudflares-ai-security-strategy-help-it-challenge-panw-zs"
+    },
+    {
+     "ticker": "PANW",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "title": "Massive Update for Palo Alto Stock Investors",
+     "url": "https://www.nasdaq.com/articles/massive-update-palo-alto-stock-investors"
+    },
+    {
+     "ticker": "PANW",
+     "date": "2026-08-10",
+     "publisher": "The Motley Fool",
+     "title": "Why Palo Alto Networks Stock Dropped, Then Popped",
+     "url": "https://www.nasdaq.com/articles/why-palo-alto-networks-stock-dropped-then-popped"
+    },
+    {
+     "ticker": "NTAP",
+     "date": "2026-08-12",
+     "publisher": "Zacks",
+     "title": "Why NetApp (NTAP) Outpaced the Stock Market Today",
+     "url": "https://www.nasdaq.com/articles/why-netapp-ntap-outpaced-stock-market-today"
+    },
+    {
+     "ticker": "NTAP",
+     "date": "2026-08-10",
+     "publisher": "Zacks",
+     "title": "SNDK vs. NTAP: Which Stock Is the Better Value Option?",
+     "url": "https://www.nasdaq.com/articles/sndk-vs-ntap-which-stock-better-value-option"
+    },
+    {
+     "ticker": "NTAP",
+     "date": "2026-08-07",
+     "publisher": "BNK Invest",
+     "title": "NetApp Moves Up In Market Cap Rank, Passing Kenvue",
+     "url": "https://www.nasdaq.com/articles/netapp-moves-market-cap-rank-passing-kenvue"
+    },
+    {
+     "ticker": "TWLO",
+     "date": "2026-08-11",
+     "publisher": "Zacks",
+     "title": "Is It Worth Investing in Twilio (TWLO) Based on Wall Street's Bullish Views?",
+     "url": "https://www.nasdaq.com/articles/it-worth-investing-twilio-twlo-based-wall-streets-bullish-views"
+    },
+    {
+     "ticker": "TWLO",
+     "date": "2026-08-10",
+     "publisher": "Zacks",
+     "title": "Zacks Investment Ideas feature highlights: Twilio",
+     "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-twilio"
+    },
+    {
+     "ticker": "TWLO",
+     "date": "2026-08-10",
+     "publisher": "BNK Invest",
+     "title": "Twilio Reaches Analyst Target Price",
+     "url": "https://www.nasdaq.com/articles/twilio-reaches-analyst-target-price-0"
+    }
+   ]
+  },
+  {
+   "key": "Consumer Cyclical|Furnishings, Fixtures & Appliances",
+   "sector": "Consumer Cyclical",
+   "industry": "Furnishings, Fixtures & Appliances",
+   "count": 6,
+   "counts": {
+    "m1": 6,
+    "m3": 6,
+    "m6": 6
+   },
+   "wrs": {
+    "m1": 0.1298,
+    "m3": 0.4652,
+    "m6": 0.1568
+   },
+   "final": {
+    "m1": 0.0941,
+    "m3": 0.2648,
+    "m6": 0.1457
+   },
+   "rankPct": {
+    "m1": 10.07,
+    "m3": 0.72,
+    "m6": 23.02
+   },
+   "members": [
+    "SN"
+   ],
+   "memberNews": [
+    {
+     "ticker": "SN",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "title": "SharkNinja (SN) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/sharkninja-sn-q2-2026-earnings-call-transcript"
+    },
+    {
+     "ticker": "SN",
+     "date": "2026-08-12",
+     "publisher": "Zacks",
+     "title": "Here's Why SharkNinja, Inc. (SN) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-sharkninja-inc-sn-strong-momentum-stock"
+    },
+    {
+     "ticker": "SN",
+     "date": "2026-08-12",
+     "publisher": "Zacks",
+     "title": "SharkNinja, Inc. (SN) Hit a 52 Week High, Can the Run Continue?",
+     "url": "https://www.nasdaq.com/articles/sharkninja-inc-sn-hit-52-week-high-can-run-continue"
+    }
+   ]
+  },
+  {
+   "key": "Technology|Electronics & Computer Distribution",
+   "sector": "Technology",
+   "industry": "Electronics & Computer Distribution",
+   "count": 5,
+   "counts": {
+    "m1": 5,
+    "m3": 5,
+    "m6": 5
+   },
+   "wrs": {
+    "m1": 0.0752,
+    "m3": 0.1662,
+    "m6": 0.5329
+   },
+   "final": {
+    "m1": 0.1066,
+    "m3": 0.1456,
+    "m6": 0.2841
+   },
+   "rankPct": {
+    "m1": 26.62,
+    "m3": 20.14,
+    "m6": 2.16
+   },
+   "members": [
+    "NSIT"
+   ],
+   "memberNews": [
+    {
+     "ticker": "NSIT",
+     "date": "2026-08-07",
+     "publisher": "MarketBeat",
+     "title": "Insight Enterprises Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/insight-enterprises-q2-earnings-call-highlights"
+    },
+    {
+     "ticker": "NSIT",
+     "date": "2026-08-06",
+     "publisher": "Zacks",
+     "title": "Insight Enterprises (NSIT) Reports Q2 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/insight-enterprises-nsit-reports-q2-earnings-what-key-metrics-have-say"
+    },
+    {
+     "ticker": "NSIT",
+     "date": "2026-08-06",
+     "publisher": "Zacks",
+     "title": "Insight Enterprises (NSIT) Q2 Earnings and Revenues Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/insight-enterprises-nsit-q2-earnings-and-revenues-beat-estimates"
+    }
+   ]
+  }
+ ]
+}
