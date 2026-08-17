@@ -1,0 +1,285 @@
+{
+ "ticker": "TWST",
+ "sector": "Healthcare",
+ "industry": "Diagnostics & Research",
+ "nameKo": "트위스트 바이오사이언스",
+ "detail": {
+  "fetchedAt": "2026-08-17",
+  "nameKo": "트위스트 바이오사이언스",
+  "nameEn": "TWIST BIOSCIENCE CORPORATION",
+  "infomaxCode": "NAS:TWST",
+  "financials": {
+   "ok": true,
+   "ticker": "TWST",
+   "cik": "0001581280",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerIncludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-04-01",
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 118376000,
+     "profit": -36280000,
+     "netIncome": -35051000,
+     "margin": -30.6,
+     "yoy": {
+      "revenue": 23.2,
+      "profit": -20.5,
+      "netIncome": -271.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodStart": "2026-01-01",
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 110715000,
+     "profit": -45863000,
+     "netIncome": -44021000,
+     "margin": -41.4,
+     "yoy": {
+      "revenue": 19.3,
+      "profit": -10.4,
+      "netIncome": -11.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodStart": "2025-10-01",
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 103698000,
+     "profit": -32900000,
+     "netIncome": -30507000,
+     "margin": -31.7,
+     "yoy": {
+      "revenue": 16.9,
+      "profit": 5,
+      "netIncome": 3.4,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodStart": "2025-06-30",
+     "periodEnd": "2025-09-30",
+     "derived": true,
+     "revenue": 99009000,
+     "profit": -29934000,
+     "netIncome": -27138000,
+     "margin": -30.2,
+     "yoy": {
+      "revenue": 16.9,
+      "profit": 16.9,
+      "netIncome": 21.7,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001581280&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "TWST",
+   "items": [
+    {
+     "title": "Twist Bioscience (TWST) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/twist-bioscience-twst-q3-2026-earnings-call-transcript",
+     "date": "2026-08-11",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "TWST",
+      "TWST"
+     ]
+    },
+    {
+     "title": "Twist Announces Pricing Of $300 Mln Underwritten Upsized Public Offering",
+     "url": "https://www.nasdaq.com/articles/twist-announces-pricing-300-mln-underwritten-upsized-public-offering",
+     "date": "2026-08-05",
+     "publisher": "RTTNews",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "TWST"
+     ]
+    },
+    {
+     "title": "Twist Bioscience Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/twist-bioscience-q3-earnings-call-highlights",
+     "date": "2026-08-03",
+     "publisher": "MarketBeat",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "TWST"
+     ]
+    },
+    {
+     "title": "Twist Bioscience (TWST) Reports Q3 Loss, Beats Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/twist-bioscience-twst-reports-q3-loss-beats-revenue-estimates",
+     "date": "2026-08-03",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "TWST",
+      "OTLK"
+     ]
+    },
+    {
+     "title": "Kiniksa Pharmaceuticals International, plc (KNSA) Q2 Earnings Match Estimates",
+     "url": "https://www.nasdaq.com/articles/kiniksa-pharmaceuticals-international-plc-knsa-q2-earnings-match-estimates",
+     "date": "2026-07-28",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "KNSA",
+      "TWST"
+     ]
+    },
+    {
+     "title": "Alpha Cognition Inc. (ACOG) Surges 8.6%: Is This an Indication of Further Gains?",
+     "url": "https://www.nasdaq.com/articles/alpha-cognition-inc-acog-surges-86-indication-further-gains",
+     "date": "2026-07-28",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "ACOG",
+      "TWST"
+     ]
+    },
+    {
+     "title": "Cathie Wood Is Selling This High-Flying Stock. Is It a Buy?",
+     "url": "https://www.nasdaq.com/articles/cathie-wood-selling-high-flying-stock-it-buy",
+     "date": "2026-07-19",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "TWST",
+      "TWST"
+     ]
+    }
+   ],
+   "directCount": 4,
+   "total": 7,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "reportDate": "2026-08-04",
+    "items": [
+     "1.01",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "중요 계약 체결",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1581280/000110465926091280/tm2622018d2_8k.htm",
+    "description": "FORM 8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-03",
+    "reportDate": "2026-08-03",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1581280/000158128026000044/twist-20260803.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-04",
+    "reportDate": "2026-05-04",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1581280/000158128026000037/twist-20260504.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-17",
+    "reportDate": "2026-02-11",
+    "items": [
+     "3.02",
+     "8.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "3.02",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1581280/000110465926015730/tm266463d1_8k.htm",
+    "description": "FORM 8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-06",
+    "reportDate": "2026-02-05",
+    "items": [
+     "5.07"
+    ],
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1581280/000158128026000022/twist-20260205.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-02",
+    "reportDate": "2026-02-02",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1581280/000158128026000016/twist-20260202.htm",
+    "description": "8-K"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": [],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}

@@ -1,0 +1,301 @@
+{
+ "ticker": "VAC",
+ "sector": "Consumer Cyclical",
+ "industry": "Resorts & Casinos",
+ "nameKo": "메리어트 베이케이션스 월드와이드",
+ "detail": {
+  "fetchedAt": "2026-08-13",
+  "nameKo": "메리어트 베이케이션스 월드와이드",
+  "nameEn": "MARRIOTT VACATIONS WORLDWIDE CORP",
+  "infomaxCode": "NYS:VAC",
+  "financials": {
+   "ok": true,
+   "ticker": "VAC",
+   "cik": "0001524358",
+   "profitLabel": "세전이익",
+   "marginLabel": "세전이익률",
+   "profitIsOperating": false,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-04-01",
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1228000000,
+     "profit": null,
+     "netIncome": 77000000,
+     "margin": null,
+     "yoy": {
+      "revenue": 6.2,
+      "profit": null,
+      "netIncome": 11.6,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodStart": "2026-01-01",
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1165000000,
+     "profit": null,
+     "netIncome": 22000000,
+     "margin": null,
+     "yoy": {
+      "revenue": 4.8,
+      "profit": null,
+      "netIncome": -60.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodStart": "2025-09-30",
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1231000000,
+     "profit": null,
+     "netIncome": -431000000,
+     "margin": null,
+     "yoy": {
+      "revenue": -0.7,
+      "profit": null,
+      "netIncome": -962,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodStart": "2025-07-01",
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1173000000,
+     "profit": null,
+     "netIncome": -2000000,
+     "margin": null,
+     "yoy": {
+      "revenue": -3.7,
+      "profit": null,
+      "netIncome": -102.4,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001524358&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "VAC",
+   "items": [
+    {
+     "title": "Marriott Vacations Worldwide Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/marriott-vacations-worldwide-q2-earnings-call-highlights",
+     "date": "2026-08-09",
+     "publisher": "MarketBeat",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "VAC"
+     ]
+    },
+    {
+     "title": "Despite Fast-paced Momentum, Marriott Vacations Worldwide (VAC) Is Still a Bargain Stock",
+     "url": "https://www.nasdaq.com/articles/despite-fast-paced-momentum-marriott-vacations-worldwide-vac-still-bargain-stock",
+     "date": "2026-08-07",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "VAC"
+     ]
+    },
+    {
+     "title": "Marriott Vacations Worldwide (VAC) Q2 Earnings and Revenues Top Estimates",
+     "url": "https://www.nasdaq.com/articles/marriott-vacations-worldwide-vac-q2-earnings-and-revenues-top-estimates",
+     "date": "2026-08-06",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "VAC",
+      "LUCK"
+     ]
+    },
+    {
+     "title": "Compared to Estimates, Marriott Vacations Worldwide (VAC) Q2 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-marriott-vacations-worldwide-vac-q2-earnings-look-key-metrics",
+     "date": "2026-08-06",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "VAC"
+     ]
+    },
+    {
+     "title": "Marriott Vacations Worldwide (VAC) Reports Next Week: Wall Street Expects Earnings Growth",
+     "url": "https://www.nasdaq.com/articles/marriott-vacations-worldwide-vac-reports-next-week-wall-street-expects-earnings-growth",
+     "date": "2026-07-30",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "VAC",
+      "EXPE"
+     ]
+    },
+    {
+     "title": "Do Options Traders Know Something About Marriott Vacations Stock We Don't?",
+     "url": "https://www.nasdaq.com/articles/do-options-traders-know-something-about-marriott-vacations-stock-we-dont",
+     "date": "2026-07-08",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "VAC"
+     ]
+    },
+    {
+     "title": "Marriott Vacations Worldwide (VAC) Up 9.3% Since Last Earnings Report: Can It Continue?",
+     "url": "https://www.nasdaq.com/articles/marriott-vacations-worldwide-vac-93-last-earnings-report-can-it-continue",
+     "date": "2026-06-04",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "VAC",
+      "CZR"
+     ]
+    },
+    {
+     "title": "Lindblad Expeditions (LIND) Reports Q2 Loss, Beats Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/lindblad-expeditions-lind-reports-q2-loss-beats-revenue-estimates",
+     "date": "2026-08-03",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "LIND",
+      "VAC"
+     ]
+    }
+   ],
+   "directCount": 7,
+   "total": 8,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "reportDate": "2026-08-06",
+    "items": [
+     "2.02",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1524358/000152435826000035/vac-20260806.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-03",
+    "reportDate": "2026-07-30",
+    "items": [
+     "5.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1524358/000152435826000031/vac-20260730.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-21",
+    "reportDate": "2026-07-21",
+    "items": [
+     "5.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1524358/000152435826000029/vac-20260721.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-18",
+    "reportDate": "2026-05-15",
+    "items": [
+     "5.02",
+     "5.07",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1524358/000152435826000024/vac-20260515.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "reportDate": "2026-05-05",
+    "items": [
+     "2.02",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1524358/000152435826000020/vac-20260505.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-06",
+    "reportDate": "2026-03-06",
+    "items": [
+     "5.02",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1524358/000152435826000012/vac-20260306.htm",
+    "description": "8-K"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": [],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}

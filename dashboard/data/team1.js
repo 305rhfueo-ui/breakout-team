@@ -477,8 +477,290 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-08-17",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "호르무즈 해협 물류 마비 — 미·이란 휴전 만료 앞두고 배가 멈췄다",
+        "easy": "호르무즈 해협은 중동에서 뽑아낸 기름이 배를 타고 세계로 나가는 사실상 유일한 좁은 바닷길입니다. 미국과 이란의 휴전(싸움을 잠시 멈추기로 한 약속) 기한이 끝나가자, 배 주인들이 위험하다고 판단해 배를 그 길로 안 넣기 시작했습니다. 전국의 기름 트럭이 전부 지나야 하는 다리 하나가 통제된 것과 같아서, 다리가 막히면 기름값과 운송비가 곧바로 올라갑니다. 기름값이 오르면 물건 만드는 값·나르는 값이 다 올라 물가(인플레이션)를 다시 자극합니다. 아직 실제 봉쇄가 확정된 것은 아니고 '휴전 만료를 앞둔 사전 회피'라는 점이 중요합니다.",
+        "whyMatters": "유가가 오르면 물가 압력이 되살아나고, 그러면 금리를 낮게 유지하기 어려워집니다. 오늘 주도 섹터는 Technology 27종목(54%)으로 압도적인데, 기술주는 먼 미래 이익을 현재 가치로 당겨와 평가받기 때문에 금리 상방 압력에 가장 크게 흔들리는 쪽입니다. Consumer Cyclical 6종목(12%)도 기름값이 오르면 소비자 지갑이 얇아져 역풍입니다. 반대로 후보 기사 [3]의 Vista Energy 같은 비중동 원유 생산업체는 방향상 수혜 쪽입니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Strait of Hormuz shipping grinds to a halt ahead of U.S.-Iran ceasefire expiry",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/17/us-iran-war-trump-hormuz.html",
+            "date": "2026-08-17",
+            "quote": "Strait of Hormuz shipping grinds to a halt ahead of U.S.-Iran ceasefire expiry",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "골드만삭스 \"연준은 9월에 금리를 올리지 않는다\"",
+        "easy": "금리는 돈을 빌릴 때 내는 이자입니다. 연준(미국의 중앙은행, 돈값을 정하는 곳)이 금리를 올리면 대출이 비싸져 기업 투자도 줄고 주식도 부담을 받습니다. 시장 일부에서는 물가 때문에 9월에 금리를 올릴 수 있다고 걱정했는데, 골드만삭스는 그럴 일 없다고 본다는 겁니다. 파티 음악 볼륨을 낮춘다는 소문이 돌았는데 DJ는 그대로 둘 거라는 얘기와 같습니다. 다만 이건 예측이지 연준이 확정한 결정이 아닙니다.",
+        "whyMatters": "금리 상방 압력이 걷히면 Technology 27종목(54%) 같은 성장주가 가장 크게 안도합니다. 실제로 QQQ는 골든크로스 D+4에 10MA(720.51)·20MA(704.13)가 동반 상승(3.38% / 0.54%)하며 종가 731.07로 두 선 위에 있어, 저금리 기대가 그대로 지수 추세를 떠받치는 구조입니다. 다만 FINRA 고객 마진부채가 YoY +38.6%로 +30% 경계선을 넘었기 때문에, 금리 안심 심리는 빚내서 사는 흐름을 더 키우는 부작용도 함께 갖고 있습니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Why Goldman Sachs thinks the Fed won't be hiking interest rates in September",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/why-goldman-sachs-thinks-the-fed-wont-be-hiking-interest-rates-in-september-718275e7?mod=mw_rss_topstories",
+            "date": "2026-08-17",
+            "quote": "Why Goldman Sachs thinks the Fed won't be hiking interest rates in September",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "산톨리 경고 — 신고가를 만든 '실적 잔치'가 보이는 것만큼은 아닐 수 있다",
+        "easy": "기업들이 성적표(실적)를 잘 냈다고 해서 지수가 사상 최고가까지 올라왔습니다. 그런데 뜯어보니 몇몇 큰 회사가 특히 잘한 덕이거나 한 번뿐인 이익일 수 있다는 지적입니다. 반 평균 점수가 올랐는데 알고 보니 전교 1등 몇 명이 만점을 받아 평균을 끌어올린 것과 같습니다. 이러면 지수는 좋아 보여도 내가 가진 종목은 안 오르는 일이 생깁니다. 아직 실적이 나빠졌다는 뜻은 아니고, '질'을 의심해 보라는 얘기입니다.",
+        "whyMatters": "오늘 주도 섹터 구성 자체가 이 지적과 정확히 겹칩니다. Technology 27종목(54%)에 절반이 몰려 있고 Communication Services 2종목(4%)·Industrials 2종목(4%)은 얇습니다. 즉 지수가 오른다고 Healthcare 8종목(16%)이나 Industrials까지 같이 오른다고 기대하면 안 됩니다. 다만 200일선 대비 +150%를 넘긴 과열 종목이 0개라는 점은 아직 마지막 폭발 구간(클라이맥스)은 아니라는 반대 근거입니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Santoli: Earnings bonanza that lifted market to record may not be all that it appears to be",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/17/santoli-earnings-bonanza-that-lifted-market-to-record-may-not-be-all-that-it-appears-to-be.html",
+            "date": "2026-08-17",
+            "quote": "Santoli: Earnings bonanza that lifted market to record may not be all that it appears to be",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "\"AI 생산성 결실이 온다\" — 수혜주 20선 제시",
+        "easy": "지금까지 AI로 돈을 번 곳은 주로 AI를 '파는' 회사(반도체, 클라우드)였습니다. 이제는 AI를 '쓰는' 회사도 사람이 하던 일을 줄여 비용을 아끼고 이익이 늘 거라는 얘기입니다. 골드러시 때 처음엔 곡괭이 파는 가게만 돈을 벌다가, 시간이 지나면 실제로 금을 캐는 사람도 벌기 시작하는 것과 같습니다. 그래서 돈이 흐르는 길이 한 줄에서 여러 줄로 넓어질 수 있습니다. 다만 이건 아직 전망이고, 실제 실적으로 확인된 것은 아닙니다.",
+        "whyMatters": "수혜 축이 넓어지는 방향이라는 점이 핵심입니다. 지금은 Technology 27종목(54%)에 주도권이 몰려 있는데, AI 도입 효과가 실제로 나오면 Healthcare 8종목(16%)·Consumer Cyclical 6종목(12%)·Industrials 2종목(4%)처럼 'AI를 쓰는 쪽' 섹터로 주도주 후보가 확산될 수 있습니다. 저는 기사에 언급된 20종목의 이름이나 실적을 확인하지 못했으므로 방향만 말합니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "The AI productivity payoff is coming. Here are 20 stocks primed to capture the gains as adoption spreads.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-ai-productivity-payoff-is-coming-here-are-20-stocks-primed-to-capture-the-gains-as-adoption-spreads-443842ac?mod=mw_rss_topstories",
+            "date": "2026-08-17",
+            "quote": "The AI productivity payoff is coming. Here are 20 stocks primed to capture the gains as adoption spreads.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "'AI 주식의 신'이라 불리던 투자자, 두 종목에 56% 몰빵하다 터졌다",
+        "easy": "AI 종목을 잘 맞혀 유명해진 투자자가 자기 돈의 56%를 딱 두 종목에 넣었다가 크게 손실을 봤다는 기사입니다. 계란을 바구니 두 개에만 담아 들고 가다가 그 바구니를 떨어뜨린 것과 같습니다. 잘 맞히던 사람도 집중이 지나치면 한 번에 무너질 수 있다는 사례입니다. 특히 빚(레버리지)까지 얹으면 손실 속도가 훨씬 빨라집니다. 지금 시장 분위기와 정확히 맞물리는 경고입니다.",
+        "whyMatters": "오늘 FINRA 고객 마진부채가 YoY +38.6%로 +30%를 넘겼습니다. 즉 시장 전체가 빚을 늘려 주식을 사고 있고, 그 돈이 주도 섹터인 Technology 27종목(54%) 쪽 소수 대형주에 몰리기 쉬운 구조입니다. 지수 추세(QQQ 골든크로스 D+4)가 좋다고 종목당 비중을 키우면, 조정 한 번에 이 기사와 같은 결과가 납니다. 진입 판단과 비중·손절 규율은 별개로 관리해야 하는 국면입니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Investor dubbed 'AI stock god' had 56% of his funds in these two stocks before it blew up",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/investor-dubbed-ai-stock-god-had-56-of-his-funds-in-these-two-stocks-before-it-blew-up-07472f46?mod=mw_rss_topstories",
+            "date": "2026-08-17",
+            "quote": "Investor dubbed 'AI stock god' had 56% of his funds in these two stocks before it blew up",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "알리바바, 노트북에서 돌아가는 AI 모델로 메타에 맞불",
+        "easy": "알리바바가 거대한 데이터센터 없이 노트북에서도 돌아가는 AI 모델을 내놨습니다. 게다가 가중치를 공개하는 방식(오픈웨이트, 설계도를 남들도 쓰게 푸는 것)이라 누구나 가져다 쓸 수 있습니다. 예전엔 큰 발전소에서만 만들던 전기를 이제 집 지붕 태양광으로도 만들 수 있게 된 것과 비슷합니다. 이렇게 되면 AI 자체는 싸지고 흔해집니다. 파는 쪽은 값이 깎이고, 쓰는 쪽은 편해집니다.",
+        "whyMatters": "양방향입니다. 모델 성능이 공짜에 가까워지면 Communication Services 2종목(4%)에 속하는 대형 플랫폼처럼 AI를 유료화해 마진을 키우려던 쪽에는 가격 압박입니다. 반대로 AI가 싸지면 도입이 빨라져 Technology 27종목(54%) 안의 소프트웨어·기기(엣지 디바이스) 쪽에는 수요 확대 방향입니다. 연산이 데이터센터에서 개인 기기로 일부 옮겨간다는 점은 데이터센터 반도체 수요 성장 기대에 논쟁 거리를 하나 더 얹습니다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Alibaba answers Meta's AI challenge with new laptop-ready model",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/17/alibaba-meta-qwen-open-weight-ai-laptop-models.html",
+            "date": "2026-08-17",
+            "quote": "Alibaba answers Meta's AI challenge with new laptop-ready model",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "메타, 아동 프라이버시 재판 패소 시 인스타·페이스북이 영구히 바뀔 수 있다",
+        "easy": "인스타그램과 페이스북이 어린 이용자의 개인정보를 어떻게 다뤘는지를 두고 재판이 열립니다. 만약 지면 서비스 구조 자체를 바꿔야 할 수도 있다는 게 기사 요지입니다. 놀이터 안전 규정을 어겼다는 판결이 나오면 기구를 전부 뜯어고쳐야 하는 것과 같습니다. 소셜미디어 회사의 돈은 대부분 '누구에게 무슨 광고를 보여줄지'를 잘 맞히는 데서 나옵니다. 그 맞히는 재료(개인정보) 사용이 제한되면 광고 수익 구조가 흔들립니다. 아직 판결이 난 것은 아닙니다.",
+        "whyMatters": "오늘 주도 섹터에서 Communication Services는 2종목(4%)으로 가장 얇은 축입니다. 얇은 섹터일수록 규제 뉴스 하나에 섹터 전체 체감이 크게 흔들립니다. 광고 타깃팅 제한은 광고 기반 플랫폼과 그 광고 예산에 얹혀 있는 미디어 쪽 전반에 역풍 방향입니다. 반대로 광고비 의존도가 낮은 Technology 27종목(54%) 내 인프라·소프트웨어 쪽으로는 직접 전이가 크지 않습니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Instagram and Facebook could change forever if Meta loses child privacy trial",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/clyqpx6xk69o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-08-17",
+            "quote": "Instagram and Facebook could change forever if Meta loses child privacy trial",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "피터 틸이 아르헨티나 셰일 오일 업체 지분 매입, Vista Energy 5% 상승",
+        "easy": "억만장자 투자자 피터 틸이 아르헨티나의 셰일 오일(단단한 암석층에서 뽑아내는 석유) 생산 회사 지분을 샀고, 그 소식에 주가가 5% 올랐습니다. 유명한 사람이 어느 가게 단골이 됐다는 소문에 그 가게 앞에 줄이 서는 것과 같습니다. 중요한 건 그 회사가 중동 밖에 있다는 점입니다. 중동 뱃길이 막힐수록 중동 밖에서 기름을 뽑는 회사의 값어치가 올라갑니다. 다만 지분 매입 자체가 그 회사 실적을 좋게 만드는 건 아닙니다.",
+        "whyMatters": "오늘의 호르무즈 뉴스와 같이 읽으면 '중동을 안 거치는 원유 공급처'로 돈이 이동하는 그림입니다. 다만 오늘 주도 섹터 목록에 Energy는 아예 잡히지 않았습니다(Technology 54%, Healthcare 16%, Consumer Cyclical 12%, Communication Services 4%, Industrials 4%). 즉 에너지는 아직 지속적인 주도주 무리가 아니라 이벤트로 튀는 자리라는 뜻이므로, 추격보다 유가 상승이 며칠 이어지는지 확인이 먼저입니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Vista Energy up 5% after billionaire Peter Thiel buys stake in the Argentine shale oil producer",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/17/peter-thiel-hedge-fund-vista-energy-argentina-stake.html",
+            "date": "2026-08-17",
+            "quote": "Vista Energy up 5% after billionaire Peter Thiel buys stake in the Argentine shale oil producer",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "러시아, 우크라이나 대규모 공습 직후 다뉴브 항구 타격",
+        "easy": "우크라이나가 큰 규모의 공중 공격을 한 뒤, 러시아가 다뉴브강의 항구를 때렸습니다. 항구는 곡물과 연료가 배로 드나드는 관문입니다. 싸움이 시장 골목까지 번져 트럭이 아예 못 들어오는 상황과 비슷합니다. 이런 시설이 맞으면 곡물값과 운송비가 오르고, 그 값은 결국 우리가 사는 물건값에 얹힙니다. 전쟁이 길어질수록 이 비용은 계속 배경에 깔립니다.",
+        "whyMatters": "호르무즈 소식과 겹쳐 보면 에너지와 곡물, 운임이 동시에 위로 눌리는 조합입니다. 이는 오늘 시장을 지탱한 '9월 금리 인상 없음' 전제를 흔드는 가장 현실적인 리스크입니다. 그 전제 위에 올라 있는 Technology 27종목(54%)과 Consumer Cyclical 6종목(12%)이 되돌림에 가장 취약합니다. 반대로 Industrials 2종목(4%) 중 방산·물류 성격은 방향상 반대편입니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Russia targets Danube port after one of Ukraine's largest aerial attacks of the war",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/17/ukraine-war-russia-putin-moscow.html",
+            "date": "2026-08-17",
+            "quote": "Russia targets Danube port after one of Ukraine's largest aerial attacks of the war",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "오늘 시장은 '기술적으로는 최고의 자리, 재료는 두 갈래로 갈린 날'입니다. QQQ는 골든크로스 D+4에 10MA(720.51)와 20MA(704.13)가 함께 오르고(3.38% / 0.54%) 종가 731.07이 두 선 위에 있어, 쿨라매기 기준으로는 가장 좋은 진입 구간에 들어와 있습니다. 재료 쪽에서는 골드만삭스가 연준의 9월 금리 인상은 없다고 본다는 소식이 상승 논리를 받쳐줬고, AI 생산성 수혜가 실제 이익으로 넘어온다는 전망이 온기를 넓혔습니다. 반대편에는 호르무즈 해협 물류 마비와 우크라이나 다뉴브 항구 피격이라는, 기름값과 운임을 동시에 밀어 올릴 수 있는 지정학 리스크가 붙어 있습니다. 여기에 산톨리는 지수를 신고가로 올린 실적 호황의 질을 의심했고, FINRA 고객 마진부채는 YoY +38.6%로 +30% 경계선을 넘어 시장이 빚을 늘려 사고 있음을 보여줍니다. 정리하면 추세는 살아 있으니 참여는 하되, 오른 이유가 '금리가 안 오른다'는 전제 하나에 크게 기대고 있다는 점을 기억해야 하는 날입니다.",
+    "keyRisks": [
+      "호르무즈 해협 물류 중단이 실제 봉쇄로 굳으면 유가·운임이 뛰고, 오늘 상승의 전제인 '9월 금리 인상 없음'이 깨질 수 있음",
+      "FINRA 고객 마진부채 YoY +38.6%(+30% 초과) — 빚으로 산 물량이 많아 조정 시 하락 속도가 평소보다 빠름",
+      "주도 섹터가 Technology 27종목(54%)에 절반 이상 쏠려 있어, 기술주 한 방향으로만 계좌가 묶이기 쉬움",
+      "산톨리 지적대로 신고가를 만든 실적의 질이 소수 대형주에 의존한다면 지수와 개별 종목 체감이 벌어질 수 있음",
+      "'AI 주식의 신' 사례처럼 소수 종목 집중은 잘 맞히던 사람도 한 번에 무너뜨림 — 종목당 비중 상한과 손절선을 미리 정할 것",
+      "메타 아동 프라이버시 재판 등 규제 이슈는 Communication Services 2종목(4%)처럼 얇은 섹터에 충격이 크게 전달됨",
+      "알리바바의 노트북용 오픈웨이트 모델처럼 AI가 싸지는 흐름은 AI 유료화 마진 기대에 반대 방향으로 작용할 수 있음"
+    ],
+    "easySummary": [
+      "차트는 최고 상태입니다 — QQQ가 골든크로스 D+4에 10MA·20MA가 같이 오르고 종가(731.07)가 두 선 위에 있어, 쿨라매기 기준 최적 진입 구간입니다.",
+      "오른 이유는 '연준이 9월에 금리를 안 올린다'는 기대와 AI가 실제 이익으로 넘어온다는 전망 두 가지입니다.",
+      "단 호르무즈 뱃길 마비로 기름값이 튈 수 있고 마진부채가 1년 새 +38.6% 늘어난 상태라, 사더라도 한 종목에 몰지 말고 손절선을 먼저 정해두세요."
+    ],
+    "candidateCount": 16,
+    "verified": {
+      "checked": 234,
+      "ok": 262,
+      "unverified": 57,
+      "dead": 0,
+      "stripped": 14,
+      "removed": [
+        {
+          "reason": "미래 날짜(확인불가(2026년 8월 초 추정) > 2026-08-17)",
+          "url": "https://www.gurufocus.com/news/8987817/is-preformed-line-products-co-plpc-overvalued-after-q2-earnings-beat-eps-of-449-vs-241-estimated-revenue-of-2127m-vs-193m-estimated-gf-score-80100-648-overvalued"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/80035/000008003526000028/plpc-20260729.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/80035/000008003526000015/plpc-20260429.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://futurumgroup.com/insights/intel-q2-fy-2026-hyperscaler-server-demand-drives-59-dcai-growth/"
+        },
+        {
+          "reason": "미래 날짜(2026-08-26 > 2026-08-17)",
+          "url": "https://www.stocktitan.net/news/P/everpure-announces-date-and-conference-call-information-for-second-9a5e5chu7zsi.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-q2-2026-earnings-revenue-203037369.html"
+        },
+        {
+          "reason": "미래 날짜(2026-08-18 > 2026-08-17)",
+          "url": "https://stockanalysis.com/stocks/STX/"
+        },
+        {
+          "reason": "미래 날짜(2026-08-18 > 2026-08-17)",
+          "url": "https://stockanalysis.com/stocks/STX/financials/ratios/"
+        },
+        {
+          "reason": "미래 날짜(2026-08-18 > 2026-08-17)",
+          "url": "https://stockanalysis.com/stocks/STX/financials/ratios/"
+        },
+        {
+          "reason": "미래 날짜(2026-08-18 > 2026-08-17)",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/STX/earnings/"
+        },
+        {
+          "reason": "미래 날짜(2026-08-18 > 2026-08-17)",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/STX/earnings/"
+        },
+        {
+          "reason": "미래 날짜(2026-08-18 > 2026-08-17)",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/TWST/price-target/"
+        },
+        {
+          "reason": "미래 날짜(2026-08-18 > 2026-08-17)",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/TWST/price-target/"
+        },
+        {
+          "reason": "미래 날짜(2026-08-18 > 2026-08-17)",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/TWST/price-target/"
+        },
+        {
+          "reason": "미래 날짜(2026-08-18 > 2026-08-17)",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/TWST/price-target/"
+        },
+        {
+          "reason": "미래 날짜(2026-08-18 > 2026-08-17)",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/TWST/price-target/"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1168455/000143774926023589/plbc20260713d_8k.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.stocktitan.net/sec-filings/JDZG/6-k-jiade-ltd-current-report-foreign-issuer-d439d2ee3728.html"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/29002/000119312526345311/diod-20260805.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000098/rddt-20260730.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/912593/000091259326000231/sui-20260727.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.tradingview.com/news/zacks:94a706304094b:0-nera-incurs-q2-loss-due-to-higher-costs-revenues-up-y-y/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/surging-earnings-estimates-signal-upside-162003075.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.biggo.com/news/gy7ynJwBNZYCTTDv1ITk"
+        },
+        {
+          "reason": "URL 부적격(비http·example·검색결과)",
+          "url": "internal://breakout-team/state/llm-in/_t5args.json"
+        }
+      ],
+      "noQuote": 6
+    },
+    "reusedFrom": null
   }
 };

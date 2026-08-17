@@ -1,0 +1,198 @@
+{
+ "ticker": "WBS",
+ "news": [
+  {
+   "title": "Compared to Estimates, Webster Financial (WBS) Q2 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-webster-financial-wbs-q2-earnings-look-key-metrics",
+   "date": "2026-07-21",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "WBS"
+   ]
+  },
+  {
+   "title": "Webster Financial (WBS) Q2 Earnings and Revenues Miss Estimates",
+   "url": "https://www.nasdaq.com/articles/webster-financial-wbs-q2-earnings-and-revenues-miss-estimates",
+   "date": "2026-07-21",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "WBS",
+    "NECB"
+   ]
+  },
+  {
+   "title": "Webster Financial (WBS) Q2 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
+   "url": "https://www.nasdaq.com/articles/webster-financial-wbs-q2-earnings-horizon-analysts-insights-key-performance-measures",
+   "date": "2026-07-16",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "WBS"
+   ]
+  },
+  {
+   "title": "Webster Financial's Series F Preferred Stock Shares Cross 6.5% Yield Mark",
+   "url": "https://www.nasdaq.com/articles/webster-financials-series-f-preferred-stock-shares-cross-65-yield-mark",
+   "date": "2026-07-30",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "WBS.PRF",
+    "WBS.PRF",
+    "WBS"
+   ]
+  },
+  {
+   "title": "Webster Financial's Preferred Stock Series G Crosses Above 7% Yield Territory",
+   "url": "https://www.nasdaq.com/articles/webster-financials-preferred-stock-series-g-crosses-above-7-yield-territory",
+   "date": "2026-07-27",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "WBS.PRG",
+    "WBS.PRG",
+    "WBS"
+   ]
+  },
+  {
+   "title": "Webster Financial Q2 Earnings Miss Estimates, Expenses Rise Y/Y",
+   "url": "https://www.nasdaq.com/articles/webster-financial-q2-earnings-miss-estimates-expenses-rise-y-y",
+   "date": "2026-07-22",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "WBS",
+    "WAFD",
+    "CFG"
+   ]
+  },
+  {
+   "title": "Webster Financial Corp. Q2 Sales Increase",
+   "url": "https://www.nasdaq.com/articles/webster-financial-corp-q2-sales-increase",
+   "date": "2026-07-21",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "WBS"
+   ]
+  },
+  {
+   "title": "Northern Trust Q2 Earnings on Deck: What Investors Should Watch",
+   "url": "https://www.nasdaq.com/articles/northern-trust-q2-earnings-deck-what-investors-should-watch",
+   "date": "2026-07-20",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "NTRS",
+    "WBS",
+    "BFST"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-04",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/801337/000080133726000025/wbs-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-21",
+   "reportDate": "2026-07-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/801337/000080133726000021/wbs-20260721.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-16",
+   "reportDate": "2026-06-12",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/801337/000080133726000017/wbs-20260612.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-27",
+   "reportDate": "2026-05-26",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/801337/000119312526241890/d119520d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-18",
+   "reportDate": "2026-05-18",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/801337/000119312526229155/d15200d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/801337/000080133726000013/wbs-20260428.htm",
+   "description": "8-K"
+  }
+ ]
+}

@@ -1,0 +1,392 @@
+{
+ "ticker": "P",
+ "sector": "Technology",
+ "industry": "Computer Hardware",
+ "nameKo": "에버퓨어",
+ "detail": {
+  "fetchedAt": "2026-08-17",
+  "nameKo": "에버퓨어",
+  "nameEn": "EVERPURE INC",
+  "infomaxCode": "NYS:P",
+  "financials": {
+   "ok": true,
+   "ticker": "P",
+   "cik": "0001474432",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-02-02",
+     "periodEnd": "2026-05-03",
+     "derived": false,
+     "revenue": 1052896000,
+     "profit": 19939000,
+     "netIncome": 24078000,
+     "margin": 1.9,
+     "yoy": {
+      "revenue": 35.2,
+      "profit": 164,
+      "netIncome": 272,
+      "priorEnd": "2025-05-04"
+     }
+    },
+    {
+     "periodStart": "2025-11-02",
+     "periodEnd": "2026-02-01",
+     "derived": true,
+     "revenue": 1058903000,
+     "profit": 87198000,
+     "netIncome": 100252000,
+     "margin": 8.2,
+     "yoy": {
+      "revenue": 20.4,
+      "profit": 105.3,
+      "netIncome": 136.2,
+      "priorEnd": "2025-02-02"
+     }
+    },
+    {
+     "periodStart": "2025-08-04",
+     "periodEnd": "2025-11-02",
+     "derived": false,
+     "revenue": 964453000,
+     "profit": 53918000,
+     "netIncome": 54806000,
+     "margin": 5.6,
+     "yoy": {
+      "revenue": 16,
+      "profit": -9.7,
+      "netIncome": -13.9,
+      "priorEnd": "2024-11-03"
+     }
+    },
+    {
+     "periodStart": "2025-05-05",
+     "periodEnd": "2025-08-03",
+     "derived": false,
+     "revenue": 861002000,
+     "profit": 4871000,
+     "netIncome": 47118000,
+     "margin": 0.6,
+     "yoy": {
+      "revenue": 12.7,
+      "profit": -80.4,
+      "netIncome": 32.1,
+      "priorEnd": "2024-08-04"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001474432&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "P",
+   "items": [
+    {
+     "title": "VNT or P: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/vnt-or-p-which-better-value-stock-right-now",
+     "date": "2026-08-07",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "VNT",
+      "P"
+     ]
+    },
+    {
+     "title": "STX vs. P: Which Storage Stock Deserves a Spot in Your Portfolio?",
+     "url": "https://www.nasdaq.com/articles/stx-vs-p-which-storage-stock-deserves-spot-your-portfolio",
+     "date": "2026-07-31",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "STX",
+      "P"
+     ]
+    },
+    {
+     "title": "3 Reasons Growth Investors Will Love Everpure (P)",
+     "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-everpure-p",
+     "date": "2026-07-23",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "P"
+     ]
+    },
+    {
+     "title": "Aether Holdings, Inc. (ATHR) Reports Q3 Loss, Lags Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/aether-holdings-inc-athr-reports-q3-loss-lags-revenue-estimates",
+     "date": "2026-08-13",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "ATHR",
+      "P"
+     ]
+    },
+    {
+     "title": "PureCycle Technologies, Inc. (PCT) Reports Q2 Loss, Misses Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/purecycle-technologies-inc-pct-reports-q2-loss-misses-revenue-estimates",
+     "date": "2026-08-06",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "PCT",
+      "P"
+     ]
+    },
+    {
+     "title": "Deluxe (DLX) Q2 Earnings and Revenues Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/deluxe-dlx-q2-earnings-and-revenues-beat-estimates",
+     "date": "2026-08-06",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "DLX",
+      "P"
+     ]
+    },
+    {
+     "title": "Is STX Stock Still Attractive After Its Massive 2026 Price Rally?",
+     "url": "https://www.nasdaq.com/articles/stx-stock-still-attractive-after-its-massive-2026-price-rally",
+     "date": "2026-07-30",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "STX",
+      "WDC",
+      "P"
+     ]
+    }
+   ],
+   "directCount": 3,
+   "total": 7,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-12",
+    "reportDate": "2026-06-10",
+    "items": [
+     "5.07"
+    ],
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000066/pstg-20260610.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-27",
+    "reportDate": "2026-05-27",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000046/pstg-20260527.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-25",
+    "reportDate": "2026-02-25",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000015/pstg-20260225.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-23",
+    "reportDate": "2026-02-23",
+    "items": [
+     "5.03"
+    ],
+    "itemsKo": [
+     "5.03"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000011/pstg-20260223.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-12-02",
+    "reportDate": "2025-12-02",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443225000062/pstg-20251202.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-11-05",
+    "reportDate": "2025-11-04",
+    "items": [
+     "2.02",
+     "5.02"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "임원 변동"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1474432/000162828025049165/pstg-20251104.htm",
+    "description": "8-K"
+   }
+  ],
+  "krReports": {
+   "total": 23,
+   "reports": [
+    {
+     "title": "[프록터 앤드 갬블 (NYS:PG)] [Issue & News] 프리미엄 웰니스 브랜드 Thorne 인수 발표 - 정체된 Health Care 카테고리의 프리미엄화 시도",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-08-05",
+     "summary": "- P&G, 프리미엄 웰니스 브랜드 Thorne 인수 발표- 금액·조건 미공개, Health Care 부진 만회 포석- FY27 가이던스 영향은 세부조건 공개 이후 판단",
+     "pages": "5",
+     "secureId": "eqlzlmilkqimgxcgcgxcleq",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzlmilkqimgxcgcgxcleq.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[필립 모리스 인터내셔널 (NYS:PM)] 담배는 너무 잘 팔지만",
+     "broker": "키움증권",
+     "analyst": "박상준",
+     "date": "2026-07-24",
+     "summary": "- 말보로와 아이코스 등으로 유명한 글로벌 담배 시장점유율 1위 업체- 2분기 매출액 및 조정 EPS는 시장 컨센서스 상회- SFP 판매 비중 확대와 궐련담배 ASP 상승에 힘입어, 구조적 실적 개선 지속 전망",
+     "pages": "7",
+     "secureId": "eqlklklzzgmiqixgcgxcleq",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlklklzzgmiqixgcgxcleq.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[필립 모리스 인터내셔널 (NYS:PM)] 불 붙은 매출 신기록",
+     "broker": "신한투자증권",
+     "analyst": "조상훈",
+     "date": "2026-07-23",
+     "summary": "- 2Q26 글로벌 담배 시장 점유율 29.1%로 업계 최고 수준의 시장장악력(일 반담배 23.3%, 궐련형 전자담배 5.8%) 지속. 일반담배 출하량이 오랜만에 플러스 전환하며 반등한 가운데, 가열식 담배 IQOS, 니코틴 파우치 ZYN, 액상형 VEEV의 고성장 지속.- 2Q26 매출과 영업이익은 111.9억달러(+10.4%, 이하 YoY), 45.3억달러 (+22%) 기록하며 분기 최초로 매출 110억 달러 돌파, 컨센서스 상회. 조 정 EPS 역시 2.2달러(+15.2%)로 기대치 상회. Smoke-Free 카테고리(궐련 형 전자담배, 니코틴 파우치 등)는 482억본(+7.5%), 일반담배는 1,569억 본(+1.1%) 판매하며 5개 분기만에 플러스 전환- 부문별 매출 성장률은 해외 Smoke-Free +14.2%, 해외 일반담배 +9.8%, 미국 -0.7%. 전반적인 해외 성장 속 지정학적 리스크가 비용에 일부 영향",
+     "pages": "5",
+     "secureId": "eqlkqmcilemieqkgcgxcleq",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkqmcilemieqkgcgxcleq.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[플래닛 랩스 (NYS:PL)] 증자는 이벤트, 본질은 성장",
+     "broker": "신한투자증권",
+     "analyst": "이주은",
+     "date": "2026-06-08",
+     "summary": "- 실적 컨퍼런스 콜에서 자금 조달 필요에 대한 언급 없이 주식 발행 계획을 발표하면서 투자자와의 신뢰도 훼손과 시장 하락 속 주가 급락. AI 활용으 로 방산과 상업부문 성장 지속. 다만, 단기 시장 변동성 확대와 SpaceX 상장은 부담으로 작용. SpaceX 상장 후 매수 추천- 매출 9,420만달러(+42% YoY, 이하 전년동기대비), 매출총이익 5,300만달 러(+36%), 조정 EBITDA -103만달러(적자전환), 조정EPS -0.30달러(적자 확대). 시장 예상치를 매출 +4.6%p, EBITDA +77.3%p, EPS +54.1%p상회- 2Q 매출 1.02~1.07억달러(+39~46%), GPM 52~55% 제시. FY27 매출 4.25~4.41억달러, GPM 52-54%로 상향",
+     "pages": "5",
+     "secureId": "eqlclmixegqxqelgcgxcleq",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlclmixegqxqelgcgxcleq.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[프록터 앤드 갬블 (NYS:PG)] 마진 하락, 비용 상승 지속 예상",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "date": "2026-04-28",
+     "summary": "- 프록터앤갬블의 FY 3Q26 매출액은 212.4억 달러(YoY +7.4%), 조정 EPS는 1.59 달러(YoY +3.2%)로 각각 컨센서스를 3.6%, 1.9% 상회했 다. 모든 지역 및 사업부에서 본업 매출이 전년 동기 대비 성장했다.- 영업이익은 47.2억 달러(YoY +3.6%), 영업이익률은 21.5%(YoY - 1.5%p)였다. 영업이익에 구조조정 비용 1.4억 달러가 포함되는데, 이 영향을 제거한 핵심(Core) 영업이익률은 22.2%(YoY -0.8%p)다- 잉여현금흐름은 30.3억 달러(YoY +6.3%)를 기록했다. 분기 배당금으 로 25억 달러, 자사주 매입으로 6억 달러를 지출했다. 4월에 분기 배당 금을 3% 인상했다.",
+     "pages": "7",
+     "secureId": "eqqqiiczxqlxqlegcgxcleq",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqiiczxqlxqlegcgxcleq.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[필립 모리스 인터내셔널 (NYS:PM)] 1Q26 Re: 시장 기대치 상회",
+     "broker": "하나증권",
+     "analyst": "심은주",
+     "date": "2026-04-24",
+     "summary": "- 1분기 매출액 및 영업이익은 각각 101.1억달러(YoY 9.1%), 38.9억달러(YoY 9.8%)를 기록하며 시장 기대치를 상회- 1분기 궐련형 전자담배 출하량은 YoY 11.3% 증가한 413억 개비를 기록- 올해 연간 조정 희석 EPS 가이던스(환율 제외)를 8.11~8.26달러로 유지",
+     "pages": "5",
+     "secureId": "eqqqcccxgzqxkkcgcgxcleq",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqcccxgzqxkkcgcgxcleq.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[필립 모리스 인터내셔널 (NYS:PM)] IQOS, 말보로를 넘다",
+     "broker": "키움증권",
+     "analyst": "박상준",
+     "date": "2026-04-24",
+     "summary": "- 말보로와 아이코스 등으로 유명한 글로벌 담배 시장점유율 1위 업체- 1분기 조정 EPS는 시장 컨센서스 상회, 실적발표 당일 주가 약 +7% 상승- SFP 판매 비중 확대와 궐련담배 ASP 상승에 힘입어, 구조적 실적 개선 지속 전망",
+     "pages": "7",
+     "secureId": "eqqxmlxzgixkzimgcgxcleq",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxmlxzgixkzimgcgxcleq.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[프로로지스 (NYS:PLD)] 데이터센터 확장 속 연간 가이던스 상향",
+     "broker": "하나증권",
+     "analyst": "하민호",
+     "date": "2026-04-24",
+     "summary": "- 1Q26 Review: 컨센서스 상회- 본업 정상화와 신사업 가속화- 매크로 불확실성 속 펀더멘털 재평가",
+     "pages": "4",
+     "secureId": "eqqxmleqxmzikiigcgxcleq",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxmleqxmzikiigcgxcleq.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[필립 모리스 인터내셔널 (NYS:PM)] 불 꺼도 1등",
+     "broker": "신한투자증권",
+     "analyst": "조상훈",
+     "date": "2026-04-23",
+     "summary": "- 덜 나쁜 것도 웰빙인 시대, 전자담배가 바꾼 패러다임- 1Q26 Review: Smoke-Free와 Zyn 호조세 지속 vs. 일반담배 부진- 견조한 실적 기반 지속적인 주주환원",
+     "pages": "5",
+     "secureId": "eqqxmgmzkxlqlelgcgxcleq",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxmgmzkxlqlelgcgxcleq.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[플래닛 랩스 (NYS:PL)] 흑자 전환으로 자생력을 증명한 우주+AI 플랫폼",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "date": "2026-03-30",
+     "summary": "- 지정학 수혜 및 수주잔고 급증 기반 첫 연간 흑자 달성과 외형 성장 가시성 확보- NVIDIA 협업 및 방대한 데이터 기반 AI Earth Intelligence 플랫폼으로의 질적 진화- 선제 투자로 인한 단기 마진 압박 존재하나 데이터 기업으로 밸류 리레이팅 기대",
+     "pages": "4",
+     "secureId": "eqqkqqilgmimlimgcgxcleq",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqkqqilgmimlimgcgxcleq.pdf",
+     "opinion": null
+    }
+   ],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}

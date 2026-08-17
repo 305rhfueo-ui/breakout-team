@@ -59,16 +59,16 @@
    ]
   },
   {
-   "title": "DKL Ex-Dividend Reminder - 5/4/26",
-   "url": "https://www.nasdaq.com/articles/dkl-ex-dividend-reminder-5-4-26",
-   "date": "2026-05-01",
-   "publisher": "BNK Invest",
+   "title": "This Oil Dividend Just Got a Raise. Here's What It Means for Shareholders.",
+   "url": "https://www.nasdaq.com/articles/oil-dividend-just-got-raise-heres-what-it-means-shareholders",
+   "date": "2026-08-16",
+   "publisher": "The Motley Fool",
    "tier1": false,
-   "direct": true,
+   "direct": false,
    "tickers": [
     "DKL",
     "DKL",
-    "DIV"
+    "DK"
    ]
   },
   {
@@ -97,6 +97,38 @@
   }
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-14",
+   "reportDate": "2026-08-14",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552797/000119312526352363/d172655d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-14",
+   "reportDate": "2026-08-12",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552797/000119312526350181/d124411d8k.htm",
+   "description": "8-K"
+  },
   {
    "form": "8-K",
    "filingDate": "2026-08-13",
@@ -159,40 +191,6 @@
    ],
    "isEarnings": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1552797/000162828026049217/dkl-20260722.htm",
-   "description": "8-K"
-  },
-  {
-   "form": "8-K",
-   "filingDate": "2026-07-02",
-   "reportDate": "2026-06-26",
-   "items": [
-    "5.02"
-   ],
-   "itemsKo": [
-    "임원 변동"
-   ],
-   "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1552797/000162828026046943/dkl-20260626.htm",
-   "description": "8-K"
-  },
-  {
-   "form": "8-K",
-   "filingDate": "2026-05-14",
-   "reportDate": "2026-05-14",
-   "items": [
-    "1.01",
-    "2.03",
-    "8.01",
-    "9.01"
-   ],
-   "itemsKo": [
-    "중요 계약 체결",
-    "2.03",
-    "기타 중요사건",
-    "재무제표·첨부"
-   ],
-   "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1552797/000119312526223986/d94774d8k.htm",
    "description": "8-K"
   }
  ]

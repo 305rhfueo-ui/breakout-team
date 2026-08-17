@@ -1,0 +1,207 @@
+{
+ "ticker": "DIOD",
+ "news": [
+  {
+   "title": "Diodes (DIOD) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/diodes-diod-q2-2026-earnings-call-transcript",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DIOD",
+    "DIOD"
+   ]
+  },
+  {
+   "title": "Diodes (DIOD) Moves to Buy: Rationale Behind the Upgrade",
+   "url": "https://www.nasdaq.com/articles/diodes-diod-moves-buy-rationale-behind-upgrade",
+   "date": "2026-07-01",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DIOD"
+   ]
+  },
+  {
+   "title": "AXT vs. DIOD: Which Emerging Chip Stock Looks More Attractive in 2026?",
+   "url": "https://www.nasdaq.com/articles/axt-vs-diod-which-emerging-chip-stock-looks-more-attractive-2026",
+   "date": "2026-06-25",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DIOD",
+    "AXTI"
+   ]
+  },
+  {
+   "title": "Best Momentum Stocks to Buy for August 13th",
+   "url": "https://www.nasdaq.com/articles/best-momentum-stocks-buy-august-13th",
+   "date": "2026-08-13",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "DIOD",
+    "HRTG",
+    "PARR"
+   ]
+  },
+  {
+   "title": "Diodes Q2 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/diodes-q2-earnings-call-highlights",
+   "date": "2026-08-06",
+   "publisher": "MarketBeat",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "DIOD"
+   ]
+  },
+  {
+   "title": "Diodes Inc. Reports Advance In Q2 Profit",
+   "url": "https://www.nasdaq.com/articles/diodes-inc-reports-advance-q2-profit",
+   "date": "2026-08-05",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "DIOD"
+   ]
+  },
+  {
+   "title": "Diodes To Buy ElevATE Semiconductor For $250 Mln In Cash",
+   "url": "https://www.nasdaq.com/articles/diodes-buy-elevate-semiconductor-250-mln-cash",
+   "date": "2026-07-14",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "DIOD"
+   ]
+  },
+  {
+   "title": "Will Vishay's 3.0 Strategy Deliver Sustainable Margin Expansion?",
+   "url": "https://www.nasdaq.com/articles/will-vishays-30-strategy-deliver-sustainable-margin-expansion",
+   "date": "2026-07-09",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "VSH",
+    "DIOD",
+    "ON"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-12",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/29002/000119312526345311/diod-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/29002/000119312526335408/diod-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-27",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/29002/000119312526321208/diod-20260727.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-15",
+   "reportDate": "2026-07-15",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/29002/000119312526304836/diod-20260715.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-14",
+   "reportDate": "2026-07-10",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/29002/000119312526302584/diod-20260710.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-12",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/29002/000119312526219765/diod-20260507.htm",
+   "description": "8-K"
+  }
+ ]
+}

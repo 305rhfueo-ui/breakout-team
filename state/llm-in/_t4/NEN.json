@@ -1,0 +1,173 @@
+{
+ "ticker": "NEN",
+ "news": [
+  {
+   "title": "NEN Downgraded to Neutral on Rising Costs Despite Strong Rental Income",
+   "url": "https://www.nasdaq.com/articles/nen-downgraded-neutral-rising-costs-despite-strong-rental-income-0",
+   "date": "2026-04-01",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "NEN"
+   ]
+  },
+  {
+   "title": "NERA Incurs Q2 Loss Due to Higher Costs, Revenues Up Y/Y",
+   "url": "https://www.nasdaq.com/articles/nera-incurs-q2-loss-due-higher-costs-revenues-y-y",
+   "date": "2026-08-13",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "NEN"
+   ]
+  },
+  {
+   "title": "NERA Downgraded to Underperform Amid Escalating Expenses",
+   "url": "https://www.nasdaq.com/articles/nera-downgraded-underperform-amid-escalating-expenses",
+   "date": "2026-06-02",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "NEN"
+   ]
+  },
+  {
+   "title": "NERA Swings to Q1 Loss as Costs and Interest Rise, Stock Down 3%",
+   "url": "https://www.nasdaq.com/articles/nera-swings-q1-loss-costs-and-interest-rise-stock-down-3",
+   "date": "2026-05-14",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "NEN"
+   ]
+  },
+  {
+   "title": "NERA Incurs a Loss in Q4 Due to Escalating Costs, Stock Down 5%",
+   "url": "https://www.nasdaq.com/articles/nera-incurs-loss-q4-due-escalating-costs-stock-down-5",
+   "date": "2026-03-20",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "NEN"
+   ]
+  },
+  {
+   "title": "NERA Swings to Q3 Loss Despite a Boost in Revenues From Acquisitions",
+   "url": "https://www.nasdaq.com/articles/nera-swings-q3-loss-despite-boost-revenues-acquisitions",
+   "date": "2025-11-13",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "NEN"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2025-06-25",
+   "reportDate": "2025-06-18",
+   "items": [
+    "1.01",
+    "2.01",
+    "2.03",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.01",
+    "2.03",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/746514/000110465925062493/tm2518827d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-06-10",
+   "reportDate": "2025-05-30",
+   "items": [
+    "1.01",
+    "2.03"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/746514/000110465925058203/tm2517651d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-04-17",
+   "reportDate": "2025-04-17",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/746514/000110465925036039/tm2512587d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-03-14",
+   "reportDate": "2025-03-14",
+   "items": [
+    "1.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/746514/000110465925023957/tm259271d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2024-11-27",
+   "reportDate": "2024-11-21",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/746514/000110465924123576/tm2429658d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2023-01-26",
+   "reportDate": "2023-01-20",
+   "items": [
+    "3.01"
+   ],
+   "itemsKo": [
+    "상장규정 위반"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/746514/000110465923007030/tm234551d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ]
+}

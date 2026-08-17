@@ -521,7 +521,483 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "pending"
+    "status": "done",
+    "industries": [
+      {
+        "key": "Technology|Computer Hardware",
+        "industry": "Computer Hardware",
+        "lead": "컴퓨터 하드웨어 업종은 서버·PC·스토리지 장비를 만드는 델(DELL), 시게이트(STX), 샌디스크(SNDK) 등이 속한 업종이다. AI 데이터센터 투자 확대로 낸드플래시·하드디스크 수요가 급증하면서, 샌디스크는 2026년 8월14일 투자자의 날에서 2028~2030회계연도 조정 잉여현금흐름 마진을 매출의 약 50%까지 끌어올리겠다는 목표를 제시했고 주가는 당일 13% 넘게 올랐다. 같은 시기 시게이트는 최근 30일간 실적 전망치가 30.7% 상향되며 Zacks Rank 1위(Strong Buy)를 받았다. 델은 2026회계연도 4분기 AI 서버 매출이 전년 대비 342% 늘어난 90억달러를 기록했고 430억달러 규모의 기록적 수주잔고를 안고 2027회계연도에 진입했으며, 메모리 원가 상승분을 반영해 2025년 12월과 2026년 1월 두 차례에 걸쳐 가격을 올렸다.",
+        "whyStrong": [
+          {
+            "id": "sndk-guidance",
+            "statement": "샌디스크는 2026년 8월14일 투자자의 날에서 2028~2030회계연도 조정 잉여현금흐름 마진을 매출의 약 50%로, 매출성장률을 10%대 중후반으로 끌어올리겠다는 신규 장기목표를 제시했고 주가는 장중 13% 넘게 상승했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Sandisk Stock Is Soaring Today",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/investing/2026/08/14/why-sandisk-stock-is-soaring-today/",
+                "date": "2026-08-14",
+                "quote": "adjusted free cash flow (FCF) margin of approximately 50%",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "SNDK Stock Rallies After SanDisk Maps Out New Multi-Year Growth Plan, Targets 50% Adjusted Free Cash Flow Margin",
+                "publisher": "TradingView (Stocktwits)",
+                "url": "https://www.tradingview.com/news/stocktwits:fe93bda33094b:0-sndk-stock-rallies-after-sandisk-maps-out-new-multi-year-growth-plan-targets-50-adjusted-free-cash-flow-margin/",
+                "date": "2026-08-14",
+                "quote": "SNDK stock rose more than 13% in midday trade",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "stx-estimate-revision",
+            "statement": "시게이트는 최근 30일간 컨센서스 주당순이익 전망치가 30.7% 상향됐고, 이 흐름 속에 Zacks Rank 1위(Strong Buy) 등급을 받았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Surging Earnings Estimates Signal Upside for Seagate (STX) Stock",
+                "publisher": "Zacks (via Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/surging-earnings-estimates-signal-upside-162003075.html",
+                "date": "2026-08-14",
+                "quote": "Over the last 30 days, the Zacks Consensus Estimate for Seagate has increased 30.7% because three estimates have moved higher compared to no negative revisions.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "dell-ai-server-revenue",
+            "statement": "델은 2026회계연도 4분기(2026년 2월26일 실적발표) AI 서버 매출이 전년 대비 342% 급증한 90억달러를 기록했고, 430억달러 규모의 기록적 수주잔고를 안고 2027회계연도로 진입했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dell Targets $50 Billion in AI Server Revenue for Fiscal 2027, Data Center Boom Drives Full Guidance Beat",
+                "publisher": "BigGo Finance",
+                "url": "https://finance.biggo.com/news/gy7ynJwBNZYCTTDv1ITk",
+                "date": "2026-02-27",
+                "quote": "AI-optimized server quarterly revenue reaching $9.0 billion, a staggering 342% increase",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "dell-price-hike",
+            "statement": "메모리 원가 급등분을 소비자·기업 고객에게 전가하기 위해 델은 2025년 12월10일 서버 가격을, 2026년 1월6일에는 PC 가격을 각각 인상했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dell Targets $50 Billion in AI Server Revenue for Fiscal 2027, Data Center Boom Drives Full Guidance Beat",
+                "publisher": "BigGo Finance",
+                "url": "https://finance.biggo.com/news/gy7ynJwBNZYCTTDv1ITk",
+                "date": "2026-02-27",
+                "quote": "Dell raised server prices on December 10 last year and adjusted PC prices on January 6 this year",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "technology",
+        "durability": "structural",
+        "keyStocks": [
+          "DELL",
+          "P",
+          "SNDK",
+          "STX"
+        ],
+        "risk": "이 강세의 핵심은 AI 데이터센터발 낸드플래시·HDD 공급부족과 그에 따른 가격 결정력인데, 하이퍼스케일러들의 캐펙스 증가세가 둔화되거나 삼성전자·SK하이닉스·마이크론이 HBM(고대역폭메모리) 대신 범용 낸드·D램 생산능력을 다시 늘리면 공급부족 프리미엄이 빠르게 꺾일 수 있다. 메모리 사이클은 역사적으로 급등 후 재고조정과 급락을 반복해왔다는 점도 위험 요인이다. 델처럼 원가 상승분을 가격에 전가해온 업체들은 전가 여력이 소진되거나 최종 수요가 가격 저항에 부딪히면 마진이 눌릴 수 있고, 샌디스크가 제시한 2028~2030년 50% 잉여현금흐름 마진 목표도 실현 전까지는 가이던스일 뿐이라 미달 시 되돌림 리스크가 있다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "everpure-seasonal-beat"
+          ],
+          "reason": "웨드부시의 목표주가 인상(100→105달러) 구체 수치가 출처 quote에 없음",
+          "leadFixed": true
+        },
+        "leadOriginal": "컴퓨터 하드웨어 업종은 서버·PC·스토리지 장비를 만드는 델(DELL), 시게이트(STX), 샌디스크(SNDK), 에버퓨어(P) 등이 속한 업종이다. AI 데이터센터 투자 확대로 낸드플래시·하드디스크 수요가 급증하면서, 샌디스크는 2026년 8월14일 투자자의 날에서 2028~2030회계연도 조정 잉여현금흐름 마진을 매출의 약 50%까지 끌어올리겠다는 목표를 제시했고 주가는 당일 13% 넘게 올랐다. 같은 시기 시게이트는 최근 30일간 실적 전망치가 30.7% 상향되며 Zacks Rank 1위(Strong Buy)를 받았다. 델은 2026회계연도 4분기 AI 서버 매출이 전년 대비 342% 늘어난 90억달러를 기록했고 430억달러 규모의 기록적 수주잔고를 안고 2027회계연도에 진입했으며, 메모리 원가 상승분을 반영해 2025년 12월과 2026년 1월 두 차례에 걸쳐 가격을 올렸다. 스토리지업체 에버퓨어(P)도 계절적 기대치를 웃도는 1분기 매출을 내며 대형 IB들의 목표주가 상향을 이끌어냈다."
+      },
+      {
+        "key": "Energy|Oil & Gas Refining & Marketing",
+        "industry": "Energy - Oil & Gas Refining & Marketing (정유·석유제품 마케팅)",
+        "lead": "Oil & Gas 정제·마케팅(Refining & Marketing) 업종은 원유를 가솔린·디젤 등 완제품으로 가공해 판매하는 정유사들로 구성되며, 이 업종의 시총가중 강도지표(WRS, 지수 대비 초과수익률)는 6개월 기준 상위 1.43%에 이를 만큼 극단적으로 강하다. 2026년 들어 미국 WTI 기준 3-2-1 정제마진(크랙 스프레드, 원유 3배럴을 가솔린 2배럴·경유 1배럴로 가공했을 때의 총마진)이 배럴당 59달러까지 치솟아 연초 대비 거의 3배로 뛰었고, 이 업종을 구성하는 S&P500 정유업 서브인덱스는 올해 104% 상승했다. Marathon Petroleum·Valero·HF Sinclair 주가는 연초 대비 80% 넘게, Phillips 66도 54~66% 뛰어 같은 기간 S&P500 지수 상승률(약 11%)을 크게 앞질렀다. 2분기 실적에서도 Marathon Petroleum의 정제마진이 배럴당 17.58달러에서 36.33달러로, Phillips 66은 10.11달러에서 24.08달러로 급등하며 이익이 컨센서스를 크게 상회했다. 이 마진 급등은 호르무즈 해협 정세 불안과 우크라이나의 러시아 정유시설 공격으로 전 세계 정제 능력이 줄어든 데 따른 것이다.",
+        "whyStrong": [
+          {
+            "id": "wrs-extreme",
+            "statement": "근거 없음(출처 검증 실패로 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [],
+            "stripped": true
+          },
+          {
+            "id": "subindex-104pct-crack-59",
+            "statement": "S&P500 정유업(Oil & Gas Refining & Marketing) 서브인덱스가 2026년 들어 104% 상승했고, WTI 기준 3-2-1 정제마진(크랙 스프레드)은 배럴당 59달러까지 올라 연초 이후 거의 3배로 확대됐다(2026-07-15, 2026-08-17 기준).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Refiner stocks are on a nearly unprecedented run. History says it could end soon",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/08/17/refiner-stocks-are-on-a-nearly-unprecedented-run-history-says-it-could-end-soon.html",
+                "date": "2026-08-17",
+                "quote": "the S&P 500 Oil & Gas Refining & Marketing Sub Industry group that comprises Marathon, Valero Energy and Phillips 66 has jumped 104% this year.",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Forget Oil Prices - This 1 Refining Number Explains Why These Energy Stocks Are On Fire",
+                "publisher": "24/7 Wall St.",
+                "url": "https://247wallst.com/investing/2026/07/15/forget-oil-prices-this-1-refining-number-explains-why-these-energy-stocks-are-on-fire/",
+                "date": "2026-07-15",
+                "quote": "The U.S. WTI 3-2-1 crack spread recently climbed to a $59 per barrel ... Since the start of 2026, refining margins have nearly tripled",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "individual-stock-rally",
+            "statement": "Marathon Petroleum·Valero·HF Sinclair 주가는 2026년 들어 80% 넘게 올랐고 Phillips 66도 54~66% 상승해, 같은 기간 S&P500 지수 상승률(약 11%)을 크게 웃돌았다(2026-07-23~08-17 기준 종합).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Oil Refiners Emerge As 2026's Quiet Stock Winners As Iran Conflict Drives Crack Spreads Higher",
+                "publisher": "HNGN",
+                "url": "https://www.hngn.com/articles/272160/20260718/oil-refiners-emerge-2026s-quiet-stock-winners-iran-conflict-drives-crack-spreads-higher.htm",
+                "date": "2026-07-18",
+                "quote": "Marathon Petroleum, Valero and HF Sinclair each gaining more than 80% this year ... Phillips 66 has gained more than 54%, compared with the S&P 500's roughly 11% return over the same period.",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Refining Stocks Soar As Crack Spread Hits Record High In 2026",
+                "publisher": "Forbes",
+                "url": "https://www.forbes.com/sites/garthfriesen/2026/07/23/refining-stocks-soar-as-crack-spread-hits-record-high-in-2026/",
+                "date": "2026-07-23",
+                "quote": "Marathon Petroleum and Valero shares have nearly doubled so far in 2026 ... Phillips 66 stock rose 66%, with approximately a third of that move occurring in the last month.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "earnings-beat-q2",
+            "statement": "2026년 2분기 실적에서 Marathon Petroleum의 정제·마케팅 마진은 배럴당 17.58달러에서 36.33달러로, Phillips 66의 세계 실현 정제마진은 배럴당 10.11달러(1분기)에서 24.08달러로 뛰며 이익이 컨센서스를 크게 상회했다(2026-08-05).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Marathon Petroleum Q2 2026 earnings: Refining margins drive profit growth",
+                "publisher": "TradingKey",
+                "url": "https://www.tradingkey.com/news/earnings/262075822-tradingkey",
+                "date": "2026-08-05",
+                "quote": "Refining & Marketing margin increased to $36.33 per barrel from $17.58 in the prior year quarter ... Diluted EPS rose to $17.73 from $3.96",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Phillips 66 Q2 2026: Refining Margins More Than Doubled, EPS Beats by 16%",
+                "publisher": "24/7 Wall St.",
+                "url": "https://247wallst.com/cards/phillips-66-q2-2026-earnings-psx-01kz947qskg0hvk85j1yhfg815",
+                "date": "2026-08-05",
+                "quote": "Worldwide realized refining margins jumped to $24.08 per barrel, more than double the $10.11 per barrel recorded in Q1 2026. ... earnings per share of $9.41, clearing the consensus estimate of $7.50 by about 16%.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "supply-disruption",
+            "statement": "러시아의 원유 정제 가동률이 우크라이나의 드론 공격으로 20년 만에 최저 수준까지 떨어졌고, 전 세계 정유설비 폐쇄·전쟁 피해로 2026년 2분기 정제 생산량이 하루 450만 배럴(전체의 5.4%) 줄어든 것으로 추정된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Refining Stocks Soar As Crack Spread Hits Record High In 2026",
+                "publisher": "Forbes",
+                "url": "https://www.forbes.com/sites/garthfriesen/2026/07/23/refining-stocks-soar-as-crack-spread-hits-record-high-in-2026/",
+                "date": "2026-07-23",
+                "quote": "Russian crude-processing rates fell to their lowest level in two decades ... permanent plant closures and war-related damage have cut refinery output by an estimated 4.5 million barrels per day, or 5.4%, in Q2 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "commodity",
+        "durability": "cyclical",
+        "risk": "지금의 정제마진 급등은 호르무즈 해협 정세 불안과 러시아-우크라이나 전쟁이라는 지정학적 프리미엄에서 비롯된 것이어서, 걸프 지역에서 실제로 지켜지는 휴전이 성사되면 크랙 스프레드(정제마진)가 급격히 낮아지고 정유주 상승분도 함께 반납될 수 있다(CNBC, 2026-08-17: \"A ceasefire in the Gulf that actually holds would push crack spreads sharply lower, and take the refiners with it\"). CNBC(2026-08-17)에 따르면 S&P500 정유업 서브인덱스가 150일 이동평균선을 41% 상회한 것은 지수 역사상 단 5번뿐이었고, 그 다섯 번 모두 이후 6개월 수익률이 평균 -10.1%로 마이너스였다는 과열 신호도 있다. 또한 24/7 Wall St.(2026-07-15)는 \"크랙 스프레드가 영원히 고점에 머문 적은 드물다(crack spreads rarely stay elevated forever)\"고 지적했으며, 9~10월 정기보수 시즌 진입과 여름 성수기 수요 둔화가 겹치면 4분기 정제마진이 축소될 가능성이 있다.",
+        "keyStocks": [
+          "MPC (Marathon Petroleum)",
+          "VLO (Valero Energy)",
+          "PSX (Phillips 66)",
+          "DINO (HF Sinclair)"
+        ],
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 주요 수치(104% 상승, $59/배럴, 정제마진, 공급 차질 규모) 검증됨"
+        }
+      },
+      {
+        "key": "Basic Materials|Gold",
+        "industry": "Basic Materials / Gold",
+        "lead": "금 채굴업체(Gold Mining) 업종은 2026년 8월 들어 업종 강도가 1개월 기준 0.2879(WRS, 지수 대비 초과수익률의 시총가중 평균)로 전체 업종 중 상위 0.71%까지 급등했다. 이는 국제 금값이 8월 17일 온스당 4,425달러까지 오르며 8월 11일 4,400달러를 돌파한 것과 궤를 같이한다. 금값 상승은 연준의 9월 금리인상 우려가 후퇴하고 달러지수(DXY)가 6월 5일 이후 최저인 99.30까지 밀린 데 더해, 중국 인민은행(PBOC)이 20개월 연속 금 매입을 이어간 데 힘입은 것이다. 다만 6개월 기준 업종 강도(WRS)는 -0.1412(하위 96.43%)로, 금광업체 주가는 오랫동안 금 현물가격 상승을 따라가지 못하다가 7월 이후 가파르게 따라잡은 전형적인 '캐치업(catch-up)' 국면이다. Newmont와 Agnico Eagle 등 대형 금광업체는 2분기에 사상 최대 잉여현금흐름을 기록하며 실적으로도 이를 뒷받침했다.",
+        "whyStrong": [
+          {
+            "id": "gold-price-record",
+            "statement": "국제 금(XAU/USD) 현물가격이 2026년 8월 17일 온스당 약 4,425달러까지 올랐으며, 이는 하루 만에 1.11% 상승한 수치다. 앞서 8월 11일에는 4,400달러를 돌파했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Gold holds near $4,400 as fading Fed rate hike bets weigh on US Dollar",
+                "publisher": "FXStreet",
+                "url": "https://www.fxstreet.com/news/gold-holds-near-4-400-as-fading-fed-rate-hike-bets-weigh-on-us-dollar-202608171128",
+                "date": "2026-08-17",
+                "quote": "Gold (XAU/USD) extends its intraday advance on Monday, supported by fading expectations that the Federal Reserve (Fed) will raise interest rates at its September meeting, while the US Dollar (USD) remains on the back foot. At the time of writing, XAU/USD trades around $4,425, up 1.11% on the day.",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Gold Just Hit $4,400 and the Miners Are Finally Catching Up",
+                "publisher": "24/7 Wall St.",
+                "url": "https://247wallst.com/investing/etf/2026/08/16/gold-just-hit-4400-and-the-miners-are-finally-catching-up/",
+                "date": "2026-08-16",
+                "quote": "Gold cracked $4,400 an ounce on August 11.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "fed-dollar",
+            "statement": "연준의 9월 금리 인상 우려가 후퇴하면서 달러지수(DXY)는 6월 5일 이후 최저인 99.30까지 하락했고, CME 페드워치(FedWatch) 기준 연준이 다음 회의에서 금리를 동결할 확률은 일주일 전 48%에서 70%로 뛰었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Gold holds near $4,400 as fading Fed rate hike bets weigh on US Dollar",
+                "publisher": "FXStreet",
+                "url": "https://www.fxstreet.com/news/gold-holds-near-4-400-as-fading-fed-rate-hike-bets-weigh-on-us-dollar-202608171128",
+                "date": "2026-08-17",
+                "quote": "The US Dollar Index (DXY), which tracks the Greenback's value against a basket of six major currencies, trades around 99.50 after touching 99.30, its lowest level since June 5. According to the CME FedWatch tool, markets now see around a 70% chance that the US central bank will keep rates unchanged next month, up from 48% a week ago.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "pboc-buying",
+            "statement": "중국 인민은행(PBOC)은 2024년 11월부터 시작된 금 매입을 20개월 연속 이어갔으며, 6월 한 달에만 48만 온스(약 14.93톤)를 사들여 이 사이클 중 최대 월간 매입 규모를 기록했다. 6월 말 기준 중국의 금 보유량은 7,544만 온스(약 2,346톤)에 달한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "China's Central Bank Boosts Gold Reserves for 20th Straight Month, June Purchases Hit 480,000 Ounces",
+                "publisher": "BigGo Finance",
+                "url": "https://finance.biggo.com/news/bda3d75a-6b19-4788-ac2c-a148c918b8dd",
+                "date": "2026-07-07",
+                "quote": "20th consecutive month of gold purchases... 480,000 ounces... 75.44 million ounces",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "macro",
+        "durability": "cyclical",
+        "keyStocks": [
+          "Newmont (NEM)",
+          "Agnico Eagle Mines (AEM)",
+          "Barrick Mining (B/GOLD)",
+          "Kinross Gold (KGC)",
+          "VanEck Gold Miners ETF (GDX)"
+        ],
+        "risk": "1개월 업종 강도(WRS) 상위 0.71%와 달리 6개월 업종 강도(WRS)는 하위 96.43%(-0.1412)로, 이번 강세는 7~8월 사이에 집중된 뒤늦은 캐치업 랠리라는 점이 가장 큰 취약점이다. 연준이 9월 회의에서 실제로 금리를 동결이 아닌 인상 방향으로 선회하거나 미국 경제지표가 다시 호조를 보여 달러지수(DXY)가 99.30 저점에서 반등하면, 금값 상승의 핵심 동력이던 '금리인상 우려 후퇴' 논리가 깨질 수 있다. 또한 PBOC의 20개월 연속 매입이 과거처럼(2025년 5월 18개월 만에 중단된 전례) 갑자기 멈추면 중앙은행발 수요 축이 약화된다. 마지막으로 Agnico Eagle이 7월 캐나디안 말라틱(Barnat) 채석장 산사태로 생산 가이던스를 하단(연 330만~350만 온스)에 묶어둔 것처럼, 개별 광산의 운영 차질과 원가(AISC) 상승이 이어지면 금값이 높아도 채굴업체 실적 모멘텀이 꺾일 수 있다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "gdx-catchup",
+            "miner-fcf",
+            "barrick-kinross"
+          ],
+          "reason": "gdx-catchup: 연초 대비 3%대 상승 수치 미검증 | miner-fcf: Agnico 주주환원 6억 2,500만달러 미검증 | barrick-kinross: '5년 만에 하루 최대폭' 미검증"
+        }
+      },
+      {
+        "key": "Technology|Software - Infrastructure",
+        "industry": "Software - Infrastructure",
+        "lead": "소프트웨어-인프라(Software - Infrastructure) 업종은 데이터베이스, 클라우드 인프라, 사이버보안 소프트웨어를 공급하는 33개 종목으로 구성되며, 이 업종의 강도는 1개월 기준 QQQ 대비 초과수익률 상위 1.43%로 시장을 크게 앞서고 있다. 8월 12일에는 퀄리스(QLYS)가 '강력 매수(Strong Buy)'로 상향됐다.",
+        "whyStrong": [
+          {
+            "id": "qlys_strong_buy",
+            "statement": "2026년 8월 12일 퀄리스(QLYS)가 Zacks 기준 '강력 매수(Strong Buy)' 등급으로 상향 조정됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Qualys (QLYS) Upgraded to Strong Buy: Here's Why",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/qualys-qlys-upgraded-strong-buy-heres-why",
+                "date": "2026-08-12",
+                "quote": "Qualys (QLYS) Upgraded to Strong Buy: Here's Why",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "technology",
+        "durability": "structural",
+        "keyStocks": [
+          "MDB",
+          "QLYS",
+          "CRWV",
+          "PANW",
+          "CRWD",
+          "OKTA"
+        ],
+        "risk": "밸류에이션 부담이 가장 큰 위험이다. 2026년 6월 29일 기준 팔로알토네트웍스의 후행 주가수익비율(P/E)은 283.51배, 크라우드스트라이크는 아직 이익을 내지 못하는 상태에서 선행 P/E 143배에 거래되고 있어(\"Can the Cybersecurity Rally Justify Its Valuations?\" — 24/7 Wall St., 2026-06-29), 실적이 이 눈높이를 계속 충족하지 못하면 되돌림이 커질 수 있다. BTIG조차 \"AI 보안 도구 채택은 아직 초기 단계(early stage)\"라고 밝혔는데, 이는 AI 위협 서사가 실제 매출로 확인되기까지 시차가 있다는 뜻이며 다음 분기 가이던스가 기대에 못 미치면 서사가 흔들릴 수 있다. 같은 업종 내에서도 몽고DB(MDB)는 2026년 8월 6일과 14일 두 차례 \"시장 대비 더 크게 하락했다\"는 기사가 나올 정도로 종목별 온도차가 이미 나타나고 있어, 업종 전체가 아니라 사이버보안 소그룹에 쏠린 강세일 가능성도 배제할 수 없다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "black_hat_rally",
+            "earnings_beat_0629",
+            "scotiabank_okta_upgrade",
+            "budget_growth_outlook"
+          ],
+          "reason": "",
+          "leadFixed": true
+        },
+        "leadOriginal": "소프트웨어-인프라(Software - Infrastructure) 업종은 데이터베이스, 클라우드 인프라, 사이버보안 소프트웨어를 공급하는 33개 종목으로 구성되며, 이 업종의 강도는 1개월 기준 QQQ 대비 초과수익률 상위 1.43%로 시장을 크게 앞서고 있다. 2026년 8월 10일 라스베이거스 블랙햇(Black Hat) 컨퍼런스를 계기로 \"AI 에이전트가 위협 지형을 근본적으로 바꾸고 있다\"는 서사가 확산되며 크라우드스트라이크(CRWD)와 팔로알토네트웍스(PANW)가 각각 5% 이상 급등해 사상 최고치를 기록했다. 앞서 6월 29일에는 팔로알토네트웍스(매출 전년비 +31%), 크라우드스트라이크(+26%), 옥타(+11%)가 나란히 시장 컨센서스를 웃도는 실적을 내며 각각 9%, 7%, 5% 상승했고, 7월 6일에는 스코샤뱅크가 옥타 목표주가를 165달러로 올렸으며 8월 12일에는 퀄리스(QLYS)가 '강력 매수(Strong Buy)'로 상향됐다. 여기에 2028년까지 연 15%대 사이버보안 예산 증액 전망이 더해지며 업종 전반의 자금 유입을 뒷받침하고 있다."
+      },
+      {
+        "key": "Consumer Cyclical|Furnishings, Fixtures & Appliances",
+        "industry": "Furnishings, Fixtures & Appliances",
+        "lead": "가정용 가전·주방기기 업종(Furnishings, Fixtures & Appliances)의 강세는 사실상 단일 종목 샤크닌자(SharkNinja, SN)의 실적에 이끌리고 있다. 미국 관세당국으로부터 받은 2억 4,710만 달러 규모의 관세 환급을 반영해 2026년 연간 가이던스(매출성장률 16~17%, 조정 EPS 6.45~6.55달러)를 상향했다. 업종 내 종목이 6개뿐이라 이 강세는 사실상 SN 한 종목의 스토리에 크게 의존하고 있다.",
+        "whyStrong": [
+          {
+            "id": "tariff-refund-guidance",
+            "statement": "미 세관국경보호청(CBP)으로부터 2억 4,710만 달러의 관세 환급을 받았고, 이를 반영해 2026년 매출성장률 가이던스를 16~17%로, 조정 EPS 가이던스를 6.45~6.55달러로 상향했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SharkNinja Inc (SN) (Q2 2026) Earnings Call Highlights",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/sharkninja-inc-sn-q2-2026-210307702.html",
+                "date": "2026-08-05",
+                "quote": "received a $247.1 million tariff refund from US Customs and Border Protection",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "SharkNinja Q2 2026 Earnings",
+                "publisher": "Quiver Quantitative",
+                "url": "https://www.quiverquant.com/news/SHARKNINJA+%28%24SN%29+Releases+Q2+2026+Earnings",
+                "date": "2026-08-05",
+                "quote": "SharkNinja raised its 2026 outlook to 16%–17% sales growth, $6.45–$6.55 in adjusted EPS and $1.36–$1.37 billion in adjusted EBITDA, partly reflecting an expected $247.1 million tariff-refund benefit.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "momentum-stock",
+            "statement": "업종 대표 뉴스에서도 SN을 강한 모멘텀 종목으로 조명했다(2026년 8월 12일 Zacks 기사).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Here's Why SharkNinja, Inc. (SN) is a Strong Momentum Stock",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/heres-why-sharkninja-inc-sn-strong-momentum-stock",
+                "date": "2026-08-12",
+                "quote": "Here's Why SharkNinja, Inc. (SN) is a Strong Momentum Stock",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "earnings",
+        "durability": "cyclical",
+        "keyStocks": [
+          "SN"
+        ],
+        "risk": "1) 2026년 가이던스 상향의 상당 부분이 2억 4,710만 달러 규모의 일회성 관세 환급에 기대고 있어, 이 효과가 소진되는 2027년 이후에는 EPS 성장률이 둔화될 수 있다. 2) 업종 내 종목이 6개에 불과하고 확인된 대표 종목이 SN 하나뿐이라, 시총가중 초과수익률(WRS) 강세가 사실상 SN 개별 실적·주가 흐름에 전적으로 의존한다 — SN이 조정받으면 업종 전체 순위가 함께 붕괴될 수 있다. 3) 8월 10일 이후 목표주가가 200~210달러 구간까지 급등해(실적 발표 전 저점 대비 큰 폭 상향) 밸류에이션 부담이 커진 상태이며, 추가 실적 확인 없이는 상승 모멘텀이 이어지기 어렵다. 4) 소비 내구재 업종 특성상 미국·유럽 가계 지출이 둔화되거나 관세 정책이 재차 강화될 경우 해외 매출(2분기 +36.6%) 성장세가 꺾일 수 있다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "earnings-beat",
+            "streak-and-intl",
+            "analyst-upgrades",
+            "52-week-high"
+          ],
+          "reason": "",
+          "leadFixed": true
+        },
+        "leadOriginal": "가정용 가전·주방기기 업종(Furnishings, Fixtures & Appliances)의 강세는 사실상 단일 종목 샤크닌자(SharkNinja, SN)의 실적 서프라이즈가 이끌고 있다. SN은 2026년 8월 5일 발표한 2분기 실적에서 매출이 전년 대비 22.2% 증가한 17억 6,548만 달러를 기록해 13분기 연속 두 자릿수 매출 성장을 이어갔고, 특히 해외 매출이 36.6% 급증했다. 미국 관세당국으로부터 받은 2억 4,710만 달러 규모의 관세 환급을 반영해 2026년 연간 가이던스(매출성장률 16~17%, 조정 EPS 6.45~6.55달러)를 큰 폭으로 상향했다. 이 어닝비트 이후 JP모간·골드만삭스·TD코웬·캐나코드 등 주요 IB가 목표주가를 일제히 상향했고, 8월 10일에는 Wall Street Zen의 투자의견 상향(보유→매수)까지 겹치며 주가가 52주 신고가를 경신했다. 다만 업종 내 종목이 6개뿐이라 이 강세는 사실상 SN 한 종목의 스토리에 크게 의존하고 있다."
+      },
+      {
+        "key": "Technology|Electronics & Computer Distribution",
+        "industry": "Electronics & Computer Distribution",
+        "lead": "Technology 섹터의 Electronics & Computer Distribution(전자·컴퓨터 유통) 업종은 반도체 부품과 서버·PC 등 IT 하드웨어를 제조사로부터 받아 기업 고객에 공급하는 유통업체들로 구성되며, 6개월 기준 업종 강도가 0.5491(WRS, 나스닥100 대비 초과수익률의 시가총액가중 평균)으로 전체 업종 중 상위 2.14%에 오를 만큼 강세다. PC Connection은 2분기 순매출이 전년동기대비 12.4% 증가한 8억 5,400만 달러로 사상 최고치를 기록했다.",
+        "whyStrong": [
+          {
+            "id": "cnxn-q2-earnings",
+            "statement": "업종 내 또 다른 유통업체 PC Connection(CNXN)의 2026년 2분기 순매출은 전년동기대비 12.4% 증가한 8억 5,400만 달러로 사상 최고치를 기록했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PC Connection (NASDAQ: CNXN) grows Q2 revenue 12.4% as margins rise",
+                "publisher": "StockTitan (10-Q 공시)",
+                "url": "https://www.stocktitan.net/sec-filings/CNXN/10-q-pc-connection-inc-quarterly-earnings-report-e9e45fec0259.html",
+                "date": "2026-08",
+                "quote": "Q2 2026 net sales rose 12.4% to $854.0 million",
+                "verified": "unverified",
+                "httpStatus": 429
+              }
+            ]
+          }
+        ],
+        "driver": "earnings",
+        "durability": "cyclical",
+        "keyStocks": [
+          "ARW (Arrow Electronics)",
+          "AVT (Avnet)",
+          "CNXN (PC Connection)",
+          "NSIT (Insight Enterprises)",
+          "SCSC (ScanSource)"
+        ],
+        "risk": "2026년 5월 6일 Investing.com 기사는 Arrow 실적 발표를 앞두고 \"사이클적 회복 기대치가 이미 낮게(muted) 잡혀 있다\"고 지적했다 — 즉 지금의 강세는 눈높이가 낮아진 데 대한 반사 효과일 수 있어, 향후 실적이 이 낮은 기대치를 못 넘기면 랠리 동력이 급격히 약해질 수 있다. Avnet의 매출 급증은 메모리 등 부품 가격 상승과 재고 재비축(restocking) 국면에 크게 기대고 있으므로, 반도체 공급이 다시 풀리며 부품 가격과 리드타임이 꺾이면 유통업체의 매출·마진 증가세도 함께 꺾인다. 또한 유통업은 재고를 먼저 사들이고 나중에 대금을 회수하는 구조라 재비축 국면이 과잉 발주로 넘어가면 현금흐름이 오히려 악화될 수 있다 — 이 경우 실적 서프라이즈가 재고 조정으로 반전될 위험이 있다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "arw-q2-earnings",
+            "avt-q4-fy26-earnings",
+            "truist-cyclical-recovery-upgrade"
+          ],
+          "reason": "",
+          "leadFixed": true
+        },
+        "leadOriginal": "Technology 섹터의 Electronics & Computer Distribution(전자·컴퓨터 유통) 업종은 반도체 부품과 서버·PC 등 IT 하드웨어를 제조사로부터 받아 기업 고객에 공급하는 유통업체들로 구성되며, 6개월 기준 업종 강도가 0.5491(WRS, 나스닥100 대비 초과수익률의 시가총액가중 평균)로 전체 업종 중 상위 2.14%에 오를 만큼 강세다. 업종 대표주 Arrow Electronics는 2026년 8월 6일 발표한 2분기 실적에서 매출이 전년동기대비 31.8% 늘어난 99억 9천만 달러, 주당순이익은 컨센서스를 22.5% 웃돈 5.45달러를 기록했다. Avnet도 같은 시기 발표한 2026회계연도 4분기 실적에서 매출이 전년동기대비 48% 증가한 사상 최대 83억 달러, 반도체 유통 부문 매출은 49% 늘었다고 밝혔다. PC Connection 역시 2분기 순매출이 전년동기대비 12.4% 증가한 8억 5,400만 달러로 사상 최고치를 냈다. 그 배경에는 Truist Securities 등이 4월부터 제기해온 반도체 유통업 \"경기순환적 회복(cyclical recovery)\" 논리가 자리잡고 있다."
+      }
+    ],
+    "summary": {
+      "strongest": {
+        "industry": "Computer Hardware (Technology)",
+        "why": "6개월 WRS 1.5492로 전체 업종 상위 0.71%, 3개월 상위 1.43%, 1개월 상위 2.86%로 세 구간 모두 상위 3% 안에 든 유일한 업종이다. 근거도 가장 두껍다 — 샌디스크가 2026년 8월 14일 투자자의 날에서 FY2028~2030 조정 잉여현금흐름 마진 매출 대비 약 50%, 매출성장률 10%대 중후반이라는 신규 장기목표를 제시하며 장중 13% 넘게 올랐고, 시게이트는 최근 30일간 컨센서스 EPS 전망치가 30.7% 상향되며 Zacks Rank 1위(Strong Buy)를 받았다. 델은 FY2026 4분기(2026년 2월 26일 발표) AI 서버 매출이 전년 대비 342% 급증한 90억 달러, 수주잔고 430억 달러로 FY2027에 진입했고, 메모리 원가 급등분을 2025년 12월 10일 서버·2026년 1월 6일 PC 가격 인상으로 전가했다. 조사 판정은 driver=technology, durability=structural — 단발 이벤트가 아니라 구조적 수요에 기반한 강세다."
+      },
+      "rotationView": "지금 자금은 '6개월간 달렸던 경기민감·실적 모멘텀 쪽'에서 '매크로 방어자산과 기술주 코어' 쪽으로 옮겨가고 있다. 6개월 랭크 상위 1.43%였던 정유(Oil & Gas Refining & Marketing)는 3개월 5% → 1개월 12.86%로 순위가 계단식으로 밀렸고, 6개월 상위 2.14%였던 Electronics & Computer Distribution도 1개월 20%까지 떨어졌다. Furnishings, Fixtures & Appliances는 3개월 랭크 0.71%로 정점을 찍은 뒤 1개월 11.43%로 식었다 — 세 업종 모두 업종 강도(WRS) 절대값은 여전히 플러스지만 신규 자금 유입 강도는 뚜렷이 약해진 상태다. 반대편에서는 Gold가 6개월 랭크 96.43%(사실상 최하위권)에서 3개월 50.71%를 거쳐 1개월 0.71%(전체 1위)로 수직 상승했다 — 연준 9월 인상 우려 후퇴, 달러지수 99.30까지 하락, 동결 확률 48%→70% 급등, 20개월 연속 이어진 PBOC 금 매입이라는 매크로 조합이 자금을 끌어당긴 전형적 신규 유입 구간이다. Software - Infrastructure도 3개월 랭크 12.14%에서 1개월 1.43%로 되살아나며 기술주 내 순환의 다음 바통을 받는 모습이다. 그 와중에 Computer Hardware는 세 구간 모두 상위 3%를 지키며 로테이션의 축 역할을 하고 있다 — 즉 시장은 기술주를 버리는 게 아니라, 기술주 안에서는 하드웨어를 유지한 채 소프트웨어로 폭을 넓히고, 동시에 원자재·경기민감 쪽 이익을 금으로 옮겨 담는 중이다.",
+      "emerging": [
+        "Gold (Basic Materials) — 6개월 WRS -0.1412(랭크 96.43%)에서 1개월 0.2879(랭크 0.71%, 전체 1위)로 반전. 근거: 2026년 8월 17일 XAU/USD 온스당 약 4,425달러(하루 +1.11%), 8월 11일 4,400달러 돌파, 달러지수 99.30(6월 5일 이후 최저), CME 페드워치 기준 동결 확률 일주일 만에 48%→70%, PBOC 20개월 연속 매입(6월 한 달 48만 온스로 사이클 최대, 6월 말 보유량 7,544만 온스). driver=macro / durability=cyclical.",
+        "Software - Infrastructure (Technology) — 1개월 WRS 0.2223으로 랭크 1.43%, 3개월 랭크 12.14%에서 뚜렷이 개선(6개월 랭크 3.57%). 다만 조사에서 확보된 근거는 2026년 8월 12일 퀄리스(QLYS)의 Zacks '강력 매수' 상향 한 건뿐이라 서술 근거는 얇다. driver=technology / durability=structural."
+      ],
+      "fading": [
+        "Oil & Gas Refining & Marketing (Energy) — 6개월 WRS 0.6986(랭크 1.43%) → 3개월 랭크 5% → 1개월 0.1158(랭크 12.86%)로 순위 3단 하락. 펀더멘털 자체는 여전히 강하다: 2026년 S&P500 정유 서브인덱스 +104%, WTI 3-2-1 크랙 스프레드 배럴당 59달러(연초 대비 약 3배), MPC·VLO·DINO 연초 대비 +80% 이상, PSX +54~66%(S&P500 약 +11%), 2분기 MPC 정제·마케팅 마진 17.58→36.33달러/배럴, PSX 실현 정제마진 10.11→24.08달러/배럴, 러시아 정제 가동률 20년 최저와 설비 폐쇄로 2분기 글로벌 정제량 하루 450만 배럴(5.4%) 감소. 즉 이익은 정점권인데 주가 모멘텀이 먼저 식는 전형적 후반부 구간이며, 조사 판정도 durability=cyclical이다.",
+        "Electronics & Computer Distribution (Technology) — 6개월 WRS 0.5491(랭크 2.14%) → 3개월 랭크 16.43% → 1개월 0.0929(랭크 20%). 근거는 PC Connection(CNXN) 2026년 2분기 순매출 8억 5,400만 달러(전년 대비 +12.4%, 사상 최고) 한 건으로, driver=earnings / durability=cyclical — 실적 이벤트 소화 후 모멘텀이 빠지는 흐름으로 읽힌다.",
+        "Furnishings, Fixtures & Appliances (Consumer Cyclical) — 3개월 WRS 0.5129로 랭크 0.71%(3개월 구간 전체 1위)를 찍은 뒤 1개월 0.1185(랭크 11.43%)로 둔화. 6개월 랭크는 21.43%로 애초에 장기 주도가 아니라 3개월짜리 스파이크였다. 근거는 CBP로부터 2억 4,710만 달러 관세 환급과 이를 반영한 2026년 매출성장률 16~17%·조정 EPS 6.45~6.55달러 가이던스 상향, 그리고 2026년 8월 12일 Zacks 기사의 모멘텀 조명 — driver=earnings의 일회성 성격이 강하다."
+      ],
+      "caution": "첫째, 업종 강도(WRS) 절대값은 기간이 길수록 누적되어 커지므로 m1과 m6의 숫자를 직접 비교하면 거의 모든 업종이 '식는 것'처럼 보인다. 그래서 위 판정은 rankPct(동일 시점 전체 업종 내 백분위)의 이동을 주 기준으로 삼았다. 유일하게 절대값 비교로도 명백히 뒤집힌 건 Gold(m6 -0.1412 → m1 0.2879)다. 둘째, 근거의 두께가 업종마다 크게 다르다 — Computer Hardware와 정유는 4~5건의 구체적 수치가 있지만, Software - Infrastructure는 종목 등급 상향 1건, Electronics & Computer Distribution도 종목 실적 1건뿐이다. 이 두 업종은 업종 강도(WRS) 순위로는 말할 수 있어도 '왜 강한가'를 확신 있게 서술할 근거가 부족하니 비중 결정 전 추가 조사가 필요하다. 셋째, 정유·유통·가구는 모두 durability=cyclical로 판정됐고 조사 근거가 이미 실현된 실적·마진에 몰려 있다 — 순위 하락이 되돌림의 시작일 수 있다. 넷째, Gold의 상승은 driver=macro로, 연준 동결 기대(48%→70%)라는 가정 위에 서 있어 그 기대가 뒤집히면 1개월 랭크 0.71%도 빠르게 되돌려질 수 있다. 입력 데이터는 2026-08-17 기준 6개 업종에 한정되며, 여기 없는 업종에 대한 판단은 포함하지 않았다."
+    },
+    "reusedFrom": null
   },
   "flow": {
     "baseline": {

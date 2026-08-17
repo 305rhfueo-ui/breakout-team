@@ -1,5 +1,5 @@
 {
- "date": "2026-08-14",
+ "date": "2026-08-17",
  "cap": 6,
  "industries": [
   {
@@ -13,17 +13,17 @@
     "m6": 8
    },
    "wrs": {
-    "m1": 0.1977,
-    "m3": 0.4562,
-    "m6": 1.465
+    "m1": 0.211,
+    "m3": 0.4735,
+    "m6": 1.5492
    },
    "final": {
-    "m1": 0.2258,
-    "m3": 0.2412,
-    "m6": 0.6277
+    "m1": 0.2292,
+    "m3": 0.2607,
+    "m6": 0.6789
    },
    "rankPct": {
-    "m1": 2.14,
+    "m1": 2.86,
     "m3": 1.43,
     "m6": 0.71
    },
@@ -78,24 +78,31 @@
     },
     {
      "ticker": "SNDK",
-     "date": "2026-08-13",
+     "date": "2026-08-15",
      "publisher": "The Motley Fool",
-     "title": "Micron and Sandisk Stock Have Plummeted. Here's Why Now Is the Perfect Time to Buy",
-     "url": "https://www.nasdaq.com/articles/micron-and-sandisk-stock-have-plummeted-heres-why-now-perfect-time-buy"
+     "title": "Prediction: This Is What a $1,000 Investment in Sandisk Will Be Worth by 2030",
+     "url": "https://www.nasdaq.com/articles/prediction-what-1000-investment-sandisk-will-be-worth-2030"
     },
     {
      "ticker": "SNDK",
-     "date": "2026-08-13",
-     "publisher": "RTTNews",
-     "title": "Sandisk Sets Out Long-Term Growth Strategy, Targets Strong Margins Through 2030; Stock Up",
-     "url": "https://www.nasdaq.com/articles/sandisk-sets-out-long-term-growth-strategy-targets-strong-margins-through-2030-stock"
+     "date": "2026-08-14",
+     "publisher": "The Motley Fool",
+     "title": "Sandisk Just Guided to Turning Half Its Revenue Into Free Cash Flow Through 2030",
+     "url": "https://www.nasdaq.com/articles/sandisk-just-guided-turning-half-its-revenue-free-cash-flow-through-2030"
     },
     {
      "ticker": "SNDK",
-     "date": "2026-08-13",
-     "publisher": "The Motley Fool",
-     "title": "Why Sandisk Stock Popped Again Today",
-     "url": "https://www.nasdaq.com/articles/why-sandisk-stock-popped-again-today"
+     "date": "2026-08-14",
+     "publisher": "Zacks",
+     "title": "Earnings Estimates Moving Higher for Sandisk Corporation (SNDK): Time to Buy?",
+     "url": "https://www.nasdaq.com/articles/earnings-estimates-moving-higher-sandisk-corporation-sndk-time-buy"
+    },
+    {
+     "ticker": "STX",
+     "date": "2026-08-14",
+     "publisher": "Zacks",
+     "title": "The Zacks Analyst Blog Highlights Seagate Technology and NVIDIA",
+     "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-seagate-technology-and-nvidia"
     },
     {
      "ticker": "STX",
@@ -110,13 +117,6 @@
      "publisher": "Zacks",
      "title": "Here's How Much You'd Have If You Invested $1000 in Seagate a Decade Ago",
      "url": "https://www.nasdaq.com/articles/heres-how-much-youd-have-if-you-invested-1000-seagate-decade-ago"
-    },
-    {
-     "ticker": "STX",
-     "date": "2026-08-12",
-     "publisher": "Zacks",
-     "title": "Is Seagate's Strong Margin and Cash Flow Momentum Sustainable?",
-     "url": "https://www.nasdaq.com/articles/seagates-strong-margin-and-cash-flow-momentum-sustainable"
     }
    ]
   },
@@ -131,18 +131,18 @@
     "m6": 7
    },
    "wrs": {
-    "m1": 0.1441,
-    "m3": 0.3228,
-    "m6": 0.6743
+    "m1": 0.1158,
+    "m3": 0.3035,
+    "m6": 0.6986
    },
    "final": {
-    "m1": 0.1451,
-    "m3": 0.2488,
-    "m6": 0.4117
+    "m1": 0.1419,
+    "m3": 0.2416,
+    "m6": 0.437
    },
    "rankPct": {
-    "m1": 6.43,
-    "m3": 4.29,
+    "m1": 12.86,
+    "m3": 5,
     "m6": 1.43
    },
    "members": [],
@@ -159,46 +159,22 @@
     "m6": 8
    },
    "wrs": {
-    "m1": 0.2536,
-    "m3": 0.0171,
-    "m6": -0.1322
+    "m1": 0.2879,
+    "m3": 0.0811,
+    "m6": -0.1412
    },
    "final": {
-    "m1": 0.2319,
-    "m3": 0.0885,
-    "m6": -0.0516
+    "m1": 0.2454,
+    "m3": 0.1316,
+    "m6": -0.0739
    },
    "rankPct": {
     "m1": 0.71,
-    "m3": 67.14,
-    "m6": 92.14
+    "m3": 50.71,
+    "m6": 96.43
    },
-   "members": [
-    "AUGO"
-   ],
-   "memberNews": [
-    {
-     "ticker": "AUGO",
-     "date": "2026-08-12",
-     "publisher": "The Motley Fool",
-     "title": "Aura Minerals (AUGO) Q2 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/aura-minerals-augo-q2-2026-earnings-call-transcript"
-    },
-    {
-     "ticker": "AUGO",
-     "date": "2026-08-06",
-     "publisher": "BNK Invest",
-     "title": "How To YieldBoost Aura Minerals From 4.7% To 24.2% Using Options",
-     "url": "https://www.nasdaq.com/articles/how-yieldboost-aura-minerals-47-242-using-options"
-    },
-    {
-     "ticker": "AUGO",
-     "date": "2026-08-06",
-     "publisher": "RTTNews",
-     "title": "Aura Minerals Inc. Q2 Income Rises",
-     "url": "https://www.nasdaq.com/articles/aura-minerals-inc-q2-income-rises"
-    }
-   ]
+   "members": [],
+   "memberNews": []
   },
   {
    "key": "Technology|Software - Infrastructure",
@@ -211,30 +187,50 @@
     "m6": 33
    },
    "wrs": {
-    "m1": 0.2226,
-    "m3": 0.2078,
-    "m6": 0.4118
+    "m1": 0.2223,
+    "m3": 0.2063,
+    "m6": 0.4469
    },
    "final": {
-    "m1": 0.2512,
-    "m3": 0.2446,
-    "m6": 0.4018
+    "m1": 0.2385,
+    "m3": 0.2456,
+    "m6": 0.424
    },
    "rankPct": {
     "m1": 1.43,
-    "m3": 10,
+    "m3": 12.14,
     "m6": 3.57
    },
    "members": [
+    "MDB",
     "QLYS",
-    "BAND",
     "CRWV",
     "PANW",
-    "MDB",
-    "OKTA",
-    "CRWD"
+    "CRWD",
+    "OKTA"
    ],
    "memberNews": [
+    {
+     "ticker": "MDB",
+     "date": "2026-08-14",
+     "publisher": "Zacks",
+     "title": "MongoDB (MDB) Dips More Than Broader Market: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/mongodb-mdb-dips-more-broader-market-what-you-should-know"
+    },
+    {
+     "ticker": "MDB",
+     "date": "2026-08-06",
+     "publisher": "Zacks",
+     "title": "Here's Why MongoDB (MDB) Fell More Than Broader Market",
+     "url": "https://www.nasdaq.com/articles/heres-why-mongodb-mdb-fell-more-broader-market-0"
+    },
+    {
+     "ticker": "MDB",
+     "date": "2026-07-23",
+     "publisher": "Zacks",
+     "title": "Here's Why MongoDB (MDB) Fell More Than Broader Market",
+     "url": "https://www.nasdaq.com/articles/heres-why-mongodb-mdb-fell-more-broader-market"
+    },
     {
      "ticker": "QLYS",
      "date": "2026-08-12",
@@ -257,46 +253,25 @@
      "url": "https://www.nasdaq.com/articles/why-qualys-stock-crushed-it-wednesday"
     },
     {
-     "ticker": "BAND",
-     "date": "2026-08-11",
-     "publisher": "Zacks",
-     "title": "Bandwidth Q2 Results Raise the Stakes for Its AI Growth Strategy",
-     "url": "https://www.nasdaq.com/articles/bandwidth-q2-results-raise-stakes-its-ai-growth-strategy"
-    },
-    {
-     "ticker": "BAND",
-     "date": "2026-08-11",
-     "publisher": "Zacks",
-     "title": "Bandwidth Stock Faces a Growth Versus Valuation Test for Investors",
-     "url": "https://www.nasdaq.com/articles/bandwidth-stock-faces-growth-versus-valuation-test-investors"
-    },
-    {
-     "ticker": "BAND",
-     "date": "2026-08-11",
-     "publisher": "Zacks",
-     "title": "Bandwidth Stock Rises 21.7% in a Week: Can the Rally Still Continue?",
-     "url": "https://www.nasdaq.com/articles/bandwidth-stock-rises-217-week-can-rally-still-continue"
-    },
-    {
      "ticker": "CRWV",
-     "date": "2026-08-13",
-     "publisher": "Zacks",
-     "title": "Neoclouds CRWV & NBIS Soar (Why they have room to run)",
-     "url": "https://www.nasdaq.com/articles/neoclouds-crwv-nbis-soar-why-they-have-room-run"
-    },
-    {
-     "ticker": "CRWV",
-     "date": "2026-08-13",
-     "publisher": "Zacks",
-     "title": "CoreWeave's $35-$39B Capex Plan: Can AI Demand Justify the Spend?",
-     "url": "https://www.nasdaq.com/articles/coreweaves-35-39b-capex-plan-can-ai-demand-justify-spend"
-    },
-    {
-     "ticker": "CRWV",
-     "date": "2026-08-12",
+     "date": "2026-08-16",
      "publisher": "The Motley Fool",
-     "title": "CoreWeave and Nebius Group Deliver Earnings Shocker. Here's What It Signals About the Future of AI.",
-     "url": "https://www.nasdaq.com/articles/coreweave-and-nebius-group-deliver-earnings-shocker-heres-what-it-signals-about-future-ai"
+     "title": "Is CoreWeave Stock a Buy After a Co-Founder's Latest Insider Filing? Here's What to Know",
+     "url": "https://www.nasdaq.com/articles/coreweave-stock-buy-after-co-founders-latest-insider-filing-heres-what-know"
+    },
+    {
+     "ticker": "CRWV",
+     "date": "2026-08-16",
+     "publisher": "The Motley Fool",
+     "title": "Should You Worry That Another CoreWeave Insider Sold? Here's What to Know",
+     "url": "https://www.nasdaq.com/articles/should-you-worry-another-coreweave-insider-sold-heres-what-know"
+    },
+    {
+     "ticker": "CRWV",
+     "date": "2026-08-16",
+     "publisher": "The Motley Fool",
+     "title": "CoreWeave's Operating Chief Sold Before Earnings. Here's What to Know",
+     "url": "https://www.nasdaq.com/articles/coreweaves-operating-chief-sold-earnings-heres-what-know"
     },
     {
      "ticker": "PANW",
@@ -320,25 +295,32 @@
      "url": "https://www.nasdaq.com/articles/massive-update-palo-alto-stock-investors"
     },
     {
-     "ticker": "MDB",
-     "date": "2026-08-06",
-     "publisher": "Zacks",
-     "title": "Here's Why MongoDB (MDB) Fell More Than Broader Market",
-     "url": "https://www.nasdaq.com/articles/heres-why-mongodb-mdb-fell-more-broader-market-0"
-    },
-    {
-     "ticker": "MDB",
-     "date": "2026-07-23",
-     "publisher": "Zacks",
-     "title": "Here's Why MongoDB (MDB) Fell More Than Broader Market",
-     "url": "https://www.nasdaq.com/articles/heres-why-mongodb-mdb-fell-more-broader-market"
-    },
-    {
-     "ticker": "MDB",
-     "date": "2026-07-21",
+     "ticker": "CRWD",
+     "date": "2026-08-15",
      "publisher": "The Motley Fool",
-     "title": "MongoDB Director Dwight Merriman Sells 16,000 Shares for $5.2 Million",
-     "url": "https://www.nasdaq.com/articles/mongodb-director-dwight-merriman-sells-16000-shares-52-million"
+     "title": "Should You Buy CrowdStrike Stock Before the Huge Investor Update?",
+     "url": "https://www.nasdaq.com/articles/should-you-buy-crowdstrike-stock-huge-investor-update"
+    },
+    {
+     "ticker": "CRWD",
+     "date": "2026-08-14",
+     "publisher": "The Motley Fool",
+     "title": "CrowdStrike vs. IonQ: Which Technology Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/crowdstrike-vs-ionq-which-technology-stock-better-buy-2026"
+    },
+    {
+     "ticker": "CRWD",
+     "date": "2026-08-14",
+     "publisher": "BNK Invest",
+     "title": "CrowdStrike Holdings Achieves #90 Analyst Rank, Surpassing Zebra Technologies",
+     "url": "https://www.nasdaq.com/articles/crowdstrike-holdings-achieves-90-analyst-rank-surpassing-zebra-technologies"
+    },
+    {
+     "ticker": "OKTA",
+     "date": "2026-08-14",
+     "publisher": "The Motley Fool",
+     "title": "Massive Update for Okta Stock Investors",
+     "url": "https://www.nasdaq.com/articles/massive-update-okta-stock-investors"
     },
     {
      "ticker": "OKTA",
@@ -353,27 +335,6 @@
      "publisher": "Zacks",
      "title": "Okta (OKTA) Is Considered a Good Investment by Brokers: Is That True?",
      "url": "https://www.nasdaq.com/articles/okta-okta-considered-good-investment-brokers-true"
-    },
-    {
-     "ticker": "OKTA",
-     "date": "2026-08-07",
-     "publisher": "Zacks",
-     "title": "Zacks Industry Outlook Palo Alto Networks, Fortinet, and Okta",
-     "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-palo-alto-networks-fortinet-and-okta"
-    },
-    {
-     "ticker": "CRWD",
-     "date": "2026-08-13",
-     "publisher": "Zacks",
-     "title": "Why CrowdStrike Holdings (CRWD) Outpaced the Stock Market Today",
-     "url": "https://www.nasdaq.com/articles/why-crowdstrike-holdings-crwd-outpaced-stock-market-today"
-    },
-    {
-     "ticker": "CRWD",
-     "date": "2026-08-13",
-     "publisher": "The Motley Fool",
-     "title": "C3.ai vs. CrowdStrike: Which Tech Stock Is a Better Buy in 2026?",
-     "url": "https://www.nasdaq.com/articles/c3ai-vs-crowdstrike-which-tech-stock-better-buy-2026"
     }
    ]
   },
@@ -388,17 +349,17 @@
     "m6": 6
    },
    "wrs": {
-    "m1": 0.1169,
-    "m3": 0.4825,
-    "m6": 0.1528
+    "m1": 0.1185,
+    "m3": 0.5129,
+    "m6": 0.1909
    },
    "final": {
-    "m1": 0.0705,
-    "m3": 0.2467,
-    "m6": 0.1389
+    "m1": 0.07,
+    "m3": 0.2384,
+    "m6": 0.1612
    },
    "rankPct": {
-    "m1": 9.29,
+    "m1": 11.43,
     "m3": 0.71,
     "m6": 21.43
    },
@@ -440,46 +401,22 @@
     "m6": 5
    },
    "wrs": {
-    "m1": 0.0872,
-    "m3": 0.1664,
-    "m6": 0.512
+    "m1": 0.0929,
+    "m3": 0.1881,
+    "m6": 0.5491
    },
    "final": {
-    "m1": 0.1069,
-    "m3": 0.1445,
-    "m6": 0.2702
+    "m1": 0.1119,
+    "m3": 0.1511,
+    "m6": 0.277
    },
    "rankPct": {
-    "m1": 17.86,
-    "m3": 18.57,
+    "m1": 20,
+    "m3": 16.43,
     "m6": 2.14
    },
-   "members": [
-    "NSIT"
-   ],
-   "memberNews": [
-    {
-     "ticker": "NSIT",
-     "date": "2026-08-07",
-     "publisher": "MarketBeat",
-     "title": "Insight Enterprises Q2 Earnings Call Highlights",
-     "url": "https://www.nasdaq.com/articles/insight-enterprises-q2-earnings-call-highlights"
-    },
-    {
-     "ticker": "NSIT",
-     "date": "2026-08-06",
-     "publisher": "Zacks",
-     "title": "Insight Enterprises (NSIT) Reports Q2 Earnings: What Key Metrics Have to Say",
-     "url": "https://www.nasdaq.com/articles/insight-enterprises-nsit-reports-q2-earnings-what-key-metrics-have-say"
-    },
-    {
-     "ticker": "NSIT",
-     "date": "2026-08-06",
-     "publisher": "Zacks",
-     "title": "Insight Enterprises (NSIT) Q2 Earnings and Revenues Beat Estimates",
-     "url": "https://www.nasdaq.com/articles/insight-enterprises-nsit-q2-earnings-and-revenues-beat-estimates"
-    }
-   ]
+   "members": [],
+   "memberNews": []
   }
  ]
 }

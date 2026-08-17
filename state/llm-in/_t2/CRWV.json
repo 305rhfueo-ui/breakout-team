@@ -1,0 +1,360 @@
+{
+ "ticker": "CRWV",
+ "sector": "Technology",
+ "industry": "Software - Infrastructure",
+ "nameKo": "코어위브",
+ "detail": {
+  "fetchedAt": "2026-08-17",
+  "nameKo": "코어위브",
+  "nameEn": "COREWEAVE INC",
+  "infomaxCode": "NAS:CRWV",
+  "financials": {
+   "ok": true,
+   "ticker": "CRWV",
+   "cik": "0001769628",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-04-01",
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 2575000000,
+     "profit": -49000000,
+     "netIncome": -626000000,
+     "margin": -1.9,
+     "yoy": {
+      "revenue": 112.5,
+      "profit": -357.9,
+      "netIncome": -115.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodStart": "2026-01-01",
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 2078000000,
+     "profit": -144000000,
+     "netIncome": -740000000,
+     "margin": -6.9,
+     "yoy": {
+      "revenue": 111.6,
+      "profit": -433.3,
+      "netIncome": -134.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodStart": "2025-09-30",
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1571904000,
+     "profit": -89589000,
+     "netIncome": -452726000,
+     "margin": -5.7,
+     "yoy": {
+      "revenue": 110.4,
+      "profit": -179.8,
+      "netIncome": -789,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodStart": "2025-07-01",
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1364676000,
+     "profit": 51850000,
+     "netIncome": -110124000,
+     "margin": 3.8,
+     "yoy": {
+      "revenue": 133.7,
+      "profit": -55.7,
+      "netIncome": 69.4,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001769628&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "CRWV",
+   "items": [
+    {
+     "title": "Is CoreWeave Stock a Buy After a Co-Founder's Latest Insider Filing? Here's What to Know",
+     "url": "https://www.nasdaq.com/articles/coreweave-stock-buy-after-co-founders-latest-insider-filing-heres-what-know",
+     "date": "2026-08-16",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CRWV",
+      "CRWV"
+     ]
+    },
+    {
+     "title": "Should You Worry That Another CoreWeave Insider Sold? Here's What to Know",
+     "url": "https://www.nasdaq.com/articles/should-you-worry-another-coreweave-insider-sold-heres-what-know",
+     "date": "2026-08-16",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CRWV",
+      "CRWV"
+     ]
+    },
+    {
+     "title": "CoreWeave's Operating Chief Sold Before Earnings. Here's What to Know",
+     "url": "https://www.nasdaq.com/articles/coreweaves-operating-chief-sold-earnings-heres-what-know",
+     "date": "2026-08-16",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CRWV",
+      "CRWV"
+     ]
+    },
+    {
+     "title": "A CoreWeave Insider Cashed In Options Before Earnings. Here's What to Know",
+     "url": "https://www.nasdaq.com/articles/coreweave-insider-cashed-options-earnings-heres-what-know",
+     "date": "2026-08-16",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CRWV",
+      "CRWV"
+     ]
+    },
+    {
+     "title": "CoreWeave's CEO Sold Stock as Revenue Doubled. Here's What to Know",
+     "url": "https://www.nasdaq.com/articles/coreweaves-ceo-sold-stock-revenue-doubled-heres-what-know",
+     "date": "2026-08-16",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CRWV",
+      "CRWV"
+     ]
+    },
+    {
+     "title": "CoreWeave Stock is Soaring!",
+     "url": "https://www.nasdaq.com/articles/coreweave-stock-soaring",
+     "date": "2026-08-15",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CRWV",
+      "CRWV"
+     ]
+    },
+    {
+     "title": "Zacks Investment Ideas feature highlights: CoreWeave, Nebius and NVIDIA",
+     "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-coreweave-nebius-and-nvidia",
+     "date": "2026-08-14",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NVDA",
+      "NBIS",
+      "CRWV"
+     ]
+    },
+    {
+     "title": "Neoclouds CRWV & NBIS Soar (Why they have room to run)",
+     "url": "https://www.nasdaq.com/articles/neoclouds-crwv-nbis-soar-why-they-have-room-run",
+     "date": "2026-08-13",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NBIS",
+      "CRWV"
+     ]
+    }
+   ],
+   "directCount": 8,
+   "total": 10,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-11",
+    "reportDate": "2026-08-11",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/crwv-20260811.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-10",
+    "reportDate": "2026-08-07",
+    "items": [
+     "1.01",
+     "2.03",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/crwv-20260807.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "reportDate": "2026-06-18",
+    "items": [
+     "1.01",
+     "2.03",
+     "9.01"
+    ],
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000291/crwv-20260618.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "reportDate": "2026-06-11",
+    "items": [
+     "7.01"
+    ],
+    "itemsKo": [
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000278/crwv-20260611.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-10",
+    "reportDate": "2026-06-08",
+    "items": [
+     "5.07"
+    ],
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000270/crwv-20260608.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-18",
+    "reportDate": "2026-05-15",
+    "items": [
+     "1.01",
+     "2.03",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000236/crwv-20260515.htm",
+    "description": "8-K"
+   }
+  ],
+  "krReports": {
+   "total": 5,
+   "reports": [
+    {
+     "title": "[코어위브 (NAS:CRWV)] AI 인프라를 넘어 서비스로",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "date": "2026-08-12",
+     "summary": "- 코어위브의 2분기 매출은 25.8억달러(+112%yoy)를 기록하며 컨센을 상 회.EBITDA 마진은 59%, OPM은 5%를 기록하며 전분기 대비 뚜렷한 개선 세를 보임. 순손실은 5.67억달러로 전분기 대비 소폭 축소. 급증하는 AI 컴 퓨팅 수요로 인해 RPO는 1,042억달러(+246%yoy)로 증가.- 2분기 캐팩스는 94억달러를 기록. 계약용량은 1분기 실적발표 시점의 3.5GW 대비 700MW 증가한 4.2GW를 확보. 활성용량은 1.5GW를 기록 했는데, 이는 전분기 실적 발표 시점 대비 500MW 증가한 수치로 코어위 브의 실행력을 다시 한번 증명.- GPU 렌탈가 상승 기조 지속. H100과 B200 렌탈가는 저점대비 각각 40%, 27% 상승. 블랙웰과 루빈 플랫폼의 가격은 사상 최고치를 기록했으 며, 레거시 A100 GPU까지 전년과 유사한 수준의 ASP로 2029년까지 계 약이 연장됨",
+     "pages": "7",
+     "secureId": "eqlxzeemegcxxeggcgxcleq",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxzeemegcxxeggcgxcleq.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[코어위브 (NAS:CRWV)] Earnings Flash",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "date": "2026-08-12",
+     "summary": "- 매출액 25.8억 달러(YoY +112.3%)로 예상치 0.5% 상회. 조정 EPS는 -1.03달러로 예상치(-1.18달러) 대비 적자폭 축소- 업계 최초로 엔비디아 베라 루빈 NVL72의 초기 구동·검증 완료. GPU 외 스토리지·CPU·네트워크·소프트웨어 연환산 매출- 수주잔고 급증·가이던스 상향으로 시간외 15.7% 상승. 네오클라우드주 동반 상승(네비우스 +7.9%, 아이렌 +4.4%)",
+     "pages": "1",
+     "secureId": "eqlxzeeliigxgzqgcgxcleq",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxzeeliigxgzqgcgxcleq.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[코어위브 (NAS:CRWV)] 초과 수요 속 공급 지연이라는 현실의 벽",
+     "broker": "키움증권",
+     "analyst": "조민주",
+     "date": "2025-11-14",
+     "summary": "- 2017년 설립된 GPUaaS 기업으로 엔비디아가 지분 투자한 네오클라우드 업체- 컨센서스 대비 매출액 +6.1%, EBITDA +2.0%, 순이익 적자 축소(+1.5억달러)- 백로그, 전력 확보 용량 증가가 향후 성장 궤도를 뒷받침하나, 데이터센터 공간 부족으로 단기 불확실성 유입. 내년 1분기까지 CAPEX 추가 확보 여부가 반등의 키",
+     "pages": "7",
+     "secureId": "eqxiclckeqlzkgxgcgxcleq",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxiclckeqlzkgxgcgxcleq.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[코어위브 (NAS:CRWV)] 일회성으로 놓치긴 아까운 인물",
+     "broker": "SK증권",
+     "analyst": "박제민",
+     "date": "2025-11-12",
+     "summary": "- Signal: 일회성 매출 이연으로 주가 급락- Key: RPO 급증, 전력 여유로 방향성 견고- Step: 경쟁력 입증 지속, 전력 부족 상황에 집중해야할 때",
+     "pages": "3",
+     "secureId": "eqxgmceecllqkllgcgxcleq",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgmceecllqkllgcgxcleq.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[코어위브 (NAS:CRWV)] AI 흐름에 올라타기",
+     "broker": "키움증권",
+     "analyst": "조민주",
+     "date": "2025-10-02",
+     "summary": "- 2017년 설립된 GPUaaS 기업으로 엔비디아가 지분 투자한 네오클라우드 업체- AI 개발 풀스택 통합 제공하며, 마이크로소프트, OpenAI, 메타와 대규모 계약 체결- AI 인프라 투자 빅사이클 속 전력 용량 이미 확보한 클라우드 업체 경쟁우위 발생",
+     "pages": "9",
+     "secureId": "eqzmllmxkkmcqkegcgxcleq",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzmllmxkkmcqkegcgxcleq.pdf",
+     "opinion": null
+    }
+   ],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}
