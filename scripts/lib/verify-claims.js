@@ -57,8 +57,16 @@ function requestStatus(url, { method = 'HEAD', timeoutMs = 8000, hops = 0, extra
     if (hops > 5) return resolve({ status: 0, reason: '리다이렉트 과다' });
     let u;
     try { u = new URL(url); } catch (e) { return resolve({ status: 0, reason: 'URL 형식' }); }
+    // ⚠️ `new URL()` 은 `internal://…` `file://…` 같은 것도 통과시킨다. 형식 검사만으로는 못 거른다.
+    //    그대로 https.request 에 넘기면 ERR_INVALID_PROTOCOL 을 **동기적으로 던져** 검증 전체가 죽는다.
+    //    2026-08-17 실측: 5팀이 `internal://breakout-team/state/…` 를 출처로 달아 병합이 중단됐다.
+    if (u.protocol !== 'http:' && u.protocol !== 'https:') {
+      return resolve({ status: 0, reason: `지원하지 않는 프로토콜(${u.protocol})` });
+    }
     const lib = u.protocol === 'http:' ? http : https;
-    const req = lib.request(u, {
+    let req;
+    try {
+      req = lib.request(u, {
       method, maxHeaderSize: MAX_HEADER, timeout: timeoutMs,
       headers: { 'User-Agent': uaFor(u.hostname), Accept: 'text/html,*/*', ...(extra || {}) },
     }, (res) => {
@@ -70,9 +78,13 @@ function requestStatus(url, { method = 'HEAD', timeoutMs = 8000, hops = 0, extra
       }
       resolve({ status });
     });
+    } catch (e) {
+      // 요청 생성 단계에서 던지는 예외(잘못된 프로토콜·호스트 등)로 검증 전체가 멈추면 안 된다.
+      return resolve({ status: 0, reason: e.code || e.message });
+    }
     req.on('timeout', () => { req.destroy(); resolve({ status: 0, reason: '타임아웃' }); });
     req.on('error', (e) => resolve({ status: 0, reason: e.code || e.message }));
-    req.end();
+    try { req.end(); } catch (e) { resolve({ status: 0, reason: e.code || e.message }); }
   });
 }
 
