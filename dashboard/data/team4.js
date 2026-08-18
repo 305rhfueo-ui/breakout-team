@@ -1,1052 +1,144 @@
 window.TEAM4_DATA = {
-  "generated": "2026-08-17",
+  "generated": "2026-08-18",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2
   },
-  "universeHits": 28,
-  "analyzed": 28,
+  "universeHits": 34,
+  "analyzed": 34,
   "items": [
     {
-      "ticker": "HL-B",
-      "sector": "Basic Materials",
-      "industry": "Other Precious Metals & Mining",
-      "price": 67.75,
-      "volx": 5.86,
-      "volSurgeWk": 11.52,
+      "ticker": "AIFU",
+      "sector": "Financial Services",
+      "industry": "Insurance Brokers",
+      "price": 17.25,
+      "volx": 6.9,
+      "volSurgeWk": 40.07,
       "aboveMa150": false,
       "brk60d": false,
-      "clsPos": 100,
-      "high52": 63.46,
-      "adr": 0.96,
+      "clsPos": 13.65,
+      "high52": 12.36,
+      "adr": 13.37,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 499,
+        "rangePct": 230
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "CTA-A",
+      "sector": "Basic Materials",
+      "industry": "Agricultural Inputs",
+      "price": 53.000099182128906,
+      "volx": 5.07,
+      "volSurgeWk": 3.67,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 96.73,
+      "adr": 0.15,
       "congestion": {
         "ok": false,
         "phase": "none",
         "phaseKo": "봉 없음 — 판정불가"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "HL-B",
-        "category": 6,
-        "categoryName": "암묵적 호재 (표면적 뉴스 없이 거래량만 급증)",
-        "company": "Hecla Mining Company는 미국의 귀금속 채굴 기업으로, 은(silver)과 금(gold)을 주로 캐서 파는 회사입니다. HL-B는 이 회사가 발행한 연 3.50달러 배당의 시리즈 B 누적전환우선주(Series B Cumulative Convertible Preferred Stock, 종목코드 HL.PRB)로, 보통주 HL과는 별도로 거래되는 우선주입니다.",
-        "volumeExplanation": "HL-B는 2026-08-17 기준 거래대금이 20일 평균 대비 5.86배(VOL_X 5.86)로 뛰었고, 최근 5일 평균과 비교한 주간 거래량은 무려 11.52배까지 치솟았습니다. 그런데 Node가 확보한 HL-B 전용 자료(HL-B.json)를 확인한 결과, 이 종목을 직접 언급한 기사는 단 한 건도 없었습니다. 담긴 뉴스 3건은 모두 \"FTSE 100 Up Marginally At Noon; Miners Move Higher\"(2026-08-17, RTTNews) 등 유럽·인도 증시 전반을 다룬 시황 기사로, tickers 필드가 null이고 direct 값이 false로 표시되어 HL-B와 직접적인 관련이 없습니다. SEC 공시(filings) 항목도 null이라 실적발표(8-K item 2.02) 같은 공시 근거도 전혀 없습니다. 웹검색으로 보통주 헤클라마이닝(HL)의 2분기 실적발표(2026-08-04)와 관련 뉴스를 추가로 찾아보았으나, 이는 거래량 급증 시점(8월 17일)보다 약 2주 앞선 사안이라 이번 스파이크의 직접 촉매로 보기 어렵고, 애초에 우선주(HL-B) 자체를 지목한 뉴스도 아니었습니다. 여기에 60일 신고가 돌파는 없었고(NO), 52주 고점 대비로는 아직 63.46% 낮은 상태이며 150일 이동평균선 아래에 머물러 있어, 뚜렷한 호재성 촉매 없이 거래량만 이례적으로 터진 경우로 판단됩니다.",
-        "claims": [
-          {
-            "id": "no-direct-news",
-            "statement": "제공된 HL-B 전용 뉴스 자료 3건은 모두 이 종목을 직접 언급하지 않는 유럽/아시아 증시 시황 기사이며(direct:false, tickers:null), SEC 공시(filings)도 없어(null) 촉매 근거를 찾을 수 없음 — 근거 없음",
-            "evidence_level": "no_source",
-            "sources": [
-              {
-                "title": "FTSE 100 Up Marginally At Noon; Miners Move Higher",
-                "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/ftse-100-marginally-noon-miners-move-higher",
-                "date": "2026-08-17",
-                "quote": "FTSE 100 Up Marginally At Noon; Miners Move Higher",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "CAC 40 In Tight Range In Cautious Trade",
-                "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/cac-40-tight-range-cautious-trade",
-                "date": "2026-08-17",
-                "quote": "CAC 40 In Tight Range In Cautious Trade",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Indian Shares End Off Day's Lows",
-                "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/indian-shares-end-days-lows-1",
-                "date": "2026-08-17",
-                "quote": "Indian Shares End Off Day's Lows",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "stale-earnings-not-catalyst",
-            "statement": "보통주 헤클라마이닝(HL)이 2026-08-04에 2분기 실적을 발표하며 현금흐름 개선 뉴스가 있었으나, 이는 거래량 급증 시점(2026-08-17)보다 약 2주 앞선 사안으로 우선주 HL-B의 이번 스파이크를 직접 설명하는 근거로 보기는 어려움",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "HL Stock Rises As Q2 Cash Flow, Silver Output Shine",
-                "publisher": "StocksToTrade",
-                "url": "https://stockstotrade.com/news/hecla-mining-company-hl-news-2026_08_10/",
-                "date": "2026-08-10",
-                "quote": "HL Stock Rises As Q2 Cash Flow, Silver Output Shine",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "confidence": "low",
-        "isHighlight": false,
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "거래량 급증(VOL_X 5.86배) 시점(2026-08-17)과 직접 연결된 HL-B 뉴스 없음(직제 언급 기사 0건, filings null) 확인. 보통주 HL의 2분기 실적(2026-08-04)은 2주 전 사건으로 직접 촉매 아님. 60일 신고가 없음, 52주 고점 대비 63.46% 낮음. Category 6 정확함."
-        }
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "JDZG",
-      "sector": "Consumer Defensive",
-      "industry": "Education & Training Services",
-      "price": 3.8499999046325684,
-      "volx": 4.3,
-      "volSurgeWk": 10.47,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 44.44,
-      "high52": 0.38,
-      "adr": 27.91,
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 38493.15
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "JDZG",
-        "category": 6,
-        "categoryName": "암묵적 호재 (표면적 뉴스 없이 거래량만 폭증)",
-        "company": "JIADE Limited(지아데, JDZG)은 중국 내 성인교육기관(사설 학원·직업교육기관)을 상대로 학사관리·행정 소프트웨어인 \"Kebiao Technology 교무행정 플랫폼\"과 부수 서비스를 제공하고 수수료를 받는 교육지원 서비스 회사다. 2023년 2월 설립됐고 2025 회계연도 매출은 약 370만달러(총이익률 45.4%)로 아직 영업적자(-170만달러) 상태인 초소형 중국계 나스닥 상장사다.",
-        "volumeExplanation": "2026년 8월 17일 JDZG는 20일 평균 거래대금 대비 4.3배(VOL_X 4.3), 최근 5일 평균 거래량 대비로는 10.47배까지 거래량이 폭증했지만, 이 시점과 직접 연결되는 회사 뉴스나 공시는 확인되지 않았다. 회사가 낸 가장 최근 공식 공시는 8월 7일자 6-K로 공동대표이사(Joint-CEO) Xiaohui Li의 사임과 신임 이사 Kunqi Bai 선임을 알린 것인데, 이는 거래량 폭증일로부터 10일이나 지난 일이고 통상 이런 임원 교체 공시가 10배 넘는 거래량 폭증을 유발하지는 않는다. 제공된 JDZG 전용 자료 파일 속 뉴스 3건은 모두 2024년 12월 기사(나스닥 최저입찰가 미달 통지, 안전교육 분야 지분인수 관련)로 1년 8개월 이상 지났고 종목을 직접 다루지 않는(direct:false) 간접 기사이며, filings 항목도 비어 있어(실적발표 없음) 오늘 거래량과 연결지을 근거가 없다. 이 종목은 최근 1년간 주가가 99.3% 폭락했고 6월 4일부터 7월 31일까지 거래정지를 겪은 뒤 재개됐으며, 5월(1200만달러)·6월(864만달러) 잇단 유상증자로 주식 수가 계속 희석돼 온 시가총액 2000만달러 안팎의 초소형·저유동성 종목으로, 뚜렷한 뉴스 없이도 투기적 매매만으로 거래량이 급등락하는 경우가 흔하다. 따라서 이번 거래량 폭증은 표면적 호재 없이 발생한 것으로 판단해 암묵적 호재(⑥)로 분류한다.",
-        "isHighlight": false,
-        "confidence": "medium",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "2026년 8월 17일 거래량 급증(VOL_X 4.3배, 주간배수 10.47배)과 시점상 직접 연결되는 당일 뉴스·공시를 웹검색으로 찾지 못함 — 근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          },
-          {
-            "id": "c2",
-            "statement": "회사의 가장 최근 공식 공시는 8월 7일자 공동CEO 사임 및 신임 이사 선임(6-K)이며, 거래량 폭증일과는 10일의 시차가 있어 직접 촉매로 보기 어렵다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Jiade Limited director and Joint-CEO resigns | JDZG SEC Filing - Form 6-K",
-                "publisher": "StockTitan",
-                "url": "https://www.stocktitan.net/sec-filings/JDZG/6-k-jiade-ltd-current-report-foreign-issuer-d439d2ee3728.html",
-                "date": "2026-08-07",
-                "quote": "Mr. Xiaohui Li notified JIADE LIMITED (the \"Company\") of his resignation as a director and Joint-Chief Executive Officer, effective August 7, 2026.",
-                "verified": "unverified",
-                "httpStatus": 429
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "8월 17일 이전 가장 최근의 시장 이벤트는 7월 31일 나스닥 거래정지 해제였고, 이 역시 거래량 폭증일과 2주 이상 차이가 나 직접적 촉매로 보기 어렵다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Nasdaq to Resume Jiade Shares July 31 at Noon | JDZG Stock News",
-                "publisher": "StockTitan",
-                "url": "https://www.stocktitan.net/news/JDZG/nasdaq-resumes-trading-in-jiade-limited-class-a-ordinary-nugxuuapkqx4.html",
-                "date": "2026-07-31",
-                "quote": "Nasdaq announced that trading in Jiade Limited – Class A Ordinary Shares (Nasdaq: JDZG) will resume at 12:00 p.m. Eastern Time on July 31, 2026.",
-                "verified": "unverified",
-                "httpStatus": 429
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "Node가 제공한 JDZG 전용 자료 파일 속 뉴스 3건은 모두 2024년 12월 기사로, 2026년 8월 거래량 폭증과는 무관한 오래된 간접(direct:false) 기사다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Jiade receives Nasdaq letter over minimum bid price deficiency",
-                "publisher": "TipRanks",
-                "url": "https://www.nasdaq.com/articles/jiade-receives-nasdaq-letter-over-minimum-bid-price-deficiency",
-                "date": "2024-12-20",
-                "quote": "Jiade receives Nasdaq letter over minimum bid price deficiency",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "JIADE LIMITED Announces Major Equity Acquisition in Safety Training Sector",
-                "publisher": "TipRanks",
-                "url": "https://www.nasdaq.com/articles/jiade-limited-announces-major-equity-acquisition-safety-training-sector",
-                "date": "2024-12-27",
-                "quote": "JIADE LIMITED Announces Major Equity Acquisition in Safety Training Sector",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "거래량 폭증(VOL_X 4.3배, 주간배수 10.47배) 시점(2026-08-17) 당일 뉴스/공시 없음(filings null). 최근 공시는 CEO 사임(2026-08-07, 10일 차이), 거래정지 해제(2026-07-31, 2주+ 차이). Node 제공 자료는 2024-12-20/27 오래된 기사만. Category 6 적절."
-        }
-      }
-    },
-    {
-      "ticker": "DIOD",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "price": 103.4800033569336,
-      "volx": 3.95,
-      "volSurgeWk": 3.28,
+      "ticker": "MOG.B",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "price": 450,
+      "volx": 4.2,
+      "volSurgeWk": null,
       "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 96.13,
-      "high52": 82.13,
-      "adr": 6.14,
+      "brk60d": true,
+      "clsPos": 0,
+      "high52": 100,
+      "adr": 0.02,
       "congestion": {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 115.96
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "DIOD",
-        "category": 1,
-        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
-        "company": "다이오드 인코퍼레이티드(Diodes Incorporated)는 반도체 회사로, 다이오드·트랜지스터·MOSFET(전력 스위칭 반도체)·보호소자 같은 개별소자(디스크리트)와 아날로그·혼성신호(믹스드시그널) 반도체를 설계·제조·판매합니다. 자동차, 산업, 컴퓨팅, 가전 제품 제조사에 부품을 공급해서 돈을 법니다.",
-        "volumeExplanation": "2026년 8월 5일(현지시각) 다이오드는 2026회계연도 2분기 실적을 발표했고, 이는 SEC 8-K 공시(항목 2.02, 실적발표)로 8월 5일과 8월 12일 두 차례 제출됐습니다. 2분기 매출은 4억 4550만 달러로 전년 동기 대비 22% 늘었고 전분기 대비로도 10% 증가했으며, 이는 6분기 연속 두 자릿수 성장입니다. 비GAAP(일반회계기준 조정 후) 주당순이익(EPS)은 전년 동기 대비 두 배 이상 늘어난 0.70달러를 기록했습니다. 회사는 3분기 가이던스로 매출 약 5억 1000만 달러(±3%), 비GAAP 조정 EPS 1.05달러(±)를 제시해 실적 가이던스를 상향했습니다. 8월 12일 실적발표 콘퍼런스콜 기사가 나왔고 8월 13일에는 재크스(Zacks)가 이 종목을 \"8월 13일 매수할 모멘텀 종목\"으로 꼽는 등 실적 발표 이후 며칠간 투자심리가 이어지면서, 거래대금이 20일 평균의 3.95배(VOL_X), 주간 거래량이 최근 5일 평균의 3.28배로 급증한 것으로 풀이됩니다. 여기에 7월 1일 재크스가 이 종목을 \"매수(Buy)\"로 상향한 점과 7월 14일 발표된 2억 5000만 달러 규모의 엘리베이트 반도체(ElevATE Semiconductor) 전량 현금 인수(자동화 시험장비용 집적회로 전문업체, 인수 즉시 매출·이익 증대 효과 기대) 소식도 함께 겹치면서 우호적 뉴스 흐름이 이어졌습니다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "2026회계연도 2분기 매출이 4억 4550만 달러로 전년 동기 대비 22%, 전분기 대비 10% 증가했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Diodes Inc (DIOD) (Q2 2026) Earnings Call Highlights: Record Automotive Revenue and AI-Driven Growth Propel Strong Quarter",
-                "publisher": "GuruFocus",
-                "url": "https://www.gurufocus.com/news/9009671/diodes-inc-diod-q2-2026-earnings-call-highlights-record-automotive-revenue-and-aidriven-growth-propel-strong-quarter",
-                "date": "2026-08",
-                "quote": "Revenue: $445.5 million in Q2 2026, up 22% year-over-year and 10% sequentially",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "비GAAP 주당순이익(EPS)이 전년 동기 대비 두 배 이상 늘어난 0.70달러를 기록했고, 이는 6분기 연속 두 자릿수 매출 성장에 해당한다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Diodes Inc (DIOD) (Q2 2026) Earnings Call Highlights: Record Automotive Revenue and AI-Driven Growth Propel Strong Quarter",
-                "publisher": "GuruFocus / Yahoo Finance",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/diodes-inc-diod-q2-2026-050830323.html",
-                "date": "2026-08",
-                "quote": "Revenue grew 22% year-over-year and 10% sequentially, marking the sixth consecutive quarter of double-digit growth",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "3분기 가이던스로 매출 약 5억 1000만 달러(±3%), 비GAAP 조정 EPS 1.05달러를 제시해 향후 실적 전망을 상향했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Diodes Inc (DIOD) (Q2 2026) Earnings Call Highlights",
-                "publisher": "GuruFocus",
-                "url": "https://www.gurufocus.com/news/9009671/diodes-inc-diod-q2-2026-earnings-call-highlights-record-automotive-revenue-and-aidriven-growth-propel-strong-quarter",
-                "date": "2026-08",
-                "quote": "Revenue expected to be approximately $510 million, plus or minus 3%; GAAP gross margin expected to expand to 35%, plus or minus 1%; non-GAAP adjusted EPS expected to be $1.05, plus or minus",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
-          },
-          {
-            "id": "c5",
-            "statement": "8월 12일 다이오드의 2분기 실적발표 콘퍼런스콜 기사가 나왔고, 8월 13일 재크스가 이 종목을 8월 13일자 매수할 모멘텀 종목 리스트에 포함시켰다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Diodes (DIOD) Q2 2026 Earnings Call Transcript",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/diodes-diod-q2-2026-earnings-call-transcript",
-                "date": "2026-08-12",
-                "quote": "Diodes (DIOD) Q2 2026 Earnings Call Transcript",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Best Momentum Stocks to Buy for August 13th",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/best-momentum-stocks-buy-august-13th",
-                "date": "2026-08-13",
-                "quote": "Best Momentum Stocks to Buy for August 13th",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c6",
-            "statement": "7월 1일 재크스가 다이오드를 매수(Buy) 등급으로 상향했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Diodes (DIOD) Moves to Buy: Rationale Behind the Upgrade",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/diodes-diod-moves-buy-rationale-behind-upgrade",
-                "date": "2026-07-01",
-                "quote": "Diodes (DIOD) Moves to Buy: Rationale Behind the Upgrade",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c7",
-            "statement": "7월 14일 다이오드가 자동화 시험장비(ATE)용 집적회로 전문업체 엘리베이트 반도체(ElevATE Semiconductor)를 2억 5000만 달러 전량 현금으로 인수하는 확정 계약을 체결했다고 발표했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Diodes to acquire ElevATE Semiconductor for $250 million",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/company-news/diodes-to-acquire-elevate-semiconductor-for-250-million-93CH-4791250",
-                "date": "2026-07-14",
-                "quote": "Diodes Incorporated announced it has entered into a definitive agreement to acquire ElevATE Semiconductor in an all-cash transaction for $250 million, with the acquisition expected to close during the second half of 2026, subject to customary closing conditions, including regulatory approvals.",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          }
-        ],
-        "confidence": "high",
-        "isHighlight": true,
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "모든 claims 검증 완료. 2분기 실적(2026-08-05, $445.5M=4억4550만달러, 22% YoY, 10% QoQ, 비GAAP EPS $0.70), 6분기 연속 두 자릿수 성장, 3분기 가이던스(매출 $510M, EPS $1.05), 8-K 공시(2026-08-05/08-12), 콘콜(2026-08-12), Zacks 모멘텀(2026-08-13), Buy 상향(2026-07-01), ElevATE M&A $250M(2026-07-14) 모두 출처와 정합. Category 1 적절."
-        }
-      }
-    },
-    {
-      "ticker": "CHEF",
-      "sector": "Consumer Defensive",
-      "industry": "Food Distribution",
-      "price": 109.08000183105469,
-      "volx": 3.81,
-      "volSurgeWk": 6.04,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 30.63,
-      "high52": 92.97,
-      "adr": 4.26,
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 107.44
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "CHEF",
-        "category": 1,
-        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
-        "company": "셰프스 웨어하우스(Chefs' Warehouse)는 고급 레스토랑, 호텔, 컨트리클럽, 케이터링 업체 등에 특수 식자재(치즈, 육류, 수산물 등 프리미엄 식재료)를 공급하는 식자재 유통(도매) 회사다. 셰프들이 직접 운영하는 메뉴 중심 고급 식당들을 주 고객으로 삼는다.",
-        "volumeExplanation": "2026년 7월 29일 발표된 2분기 실적(SEC 8-K, item 2.02 실적발표)에서 매출이 전년 대비 12.9% 증가한 11억 6,861만 달러로 시장 예상(약 11억 3,300만~11억 4,400만 달러)을 웃돌았고, 조정 주당순이익(EPS)은 0.78달러로 시장 예상 0.60달러를 크게 상회하며 전년 대비 50% 늘었다. 회사는 이 실적 발표와 함께 2026년 연간 매출 가이던스를 기존 43억 5천만~44억 5천만 달러에서 45억~46억 달러로 상향했다. 이 서프라이즈 발표 이후 주가는 7거래일 연속 상승하며 누적 23% 급등했고 2026년 7월 31일에는 사상 최고가 115.35달러를 기록, 시가총액이 약 8억 3,400만 달러 늘었다. 이후 8월 7일부터 12일 사이 Zacks 등 애널리스트 매체에서 \"마진 개선이 이익 성장을 이끌 수 있는가\", \"한 달간 10.7% 상승, 모멘텀이 계속될까\" 같은 후속 분석 기사가 연이어 나오며 실적발 랠리에 대한 관심이 이어졌다. 이 흐름 속에서 8월 17일 기준 거래대금이 20일 평균의 3.81배(VOL_X)로, 주간 거래량은 최근 5일 평균의 6.04배로 급증했고, 52주 고점 대비 92.97% 수준까지 근접한 것도 실적 서프라이즈발 상승 모멘텀이 이어지고 있음을 보여준다.",
-        "isHighlight": true,
-        "confidence": "high",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "2026년 7월 29일 SEC 8-K(item 2.02, 실적발표)로 2분기 실적을 공시했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "8-K (CURRENT REPORT)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1517175/000151717526000026/chef-20260729.htm",
-                "date": "2026-07-29",
-                "quote": "items: 2.02, 9.01 / itemsKo: 실적 발표, 재무제표·첨부 / isEarnings: true",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "2분기 매출과 순이익이 전년 대비 크게 늘었고, 회사는 2026년 매출 가이던스를 45억~46억 달러로 상향했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Chefs' Warehouse (CHEF) Is Up 21.6% After Raising 2026 Sales Outlook on Strong Q2 Results",
-                "publisher": "Simply Wall St News",
-                "url": "https://simplywall.st/stocks/us/consumer-retailing/nasdaq-chef/chefs-warehouse/news/chefs-warehouse-chef-is-up-216-after-raising-2026-sales-outl",
-                "date": "2026-08-03",
-                "quote": "higher year-over-year sales of US$1,168.61 million and net income of US$33.77 million ... updated 2026 net sales guidance of US$4.50-4.60 billion",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "실적 발표 이후 주가가 7거래일 연속 상승하며 누적 23% 급등했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Chefs' Warehouse Stock: 7 Straight Green Days, Up 23%",
-                "publisher": "Trefis",
-                "url": "https://www.trefis.com/stock/chef/articles/609823/chefs-warehouse-stock-7-straight-green-days-up-23/2026-08-03",
-                "date": "2026-08-03",
-                "quote": "Chefs' Warehouse Stock: 7 Straight Green Days, Up 23%",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "실적 발표 약 2주 후에도 애널리스트 매체가 마진 개선과 이익 성장 지속 가능성을 다루는 후속기사를 냈다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Can CHEF's Q2 Margin Gains Keep Profit Growth Ahead of Sales Growth?",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/can-chefs-q2-margin-gains-keep-profit-growth-ahead-sales-growth",
-                "date": "2026-08-12",
-                "quote": "Can CHEF's Q2 Margin Gains Keep Profit Growth Ahead of Sales Growth?",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c5",
-            "statement": "실적발 상승 모멘텀이 한 달간 10.7% 상승으로 이어지고 있다는 분석이 나왔다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "CHEF Rises 10.7% in the Past Month: Can Its Momentum Keep Building?",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/chef-rises-107-past-month-can-its-momentum-keep-building",
-                "date": "2026-08-12",
-                "quote": "CHEF Rises 10.7% in the Past Month: Can Its Momentum Keep Building?",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c6",
-            "statement": "2분기 실적 컨퍼런스콜 내용이 실적발표 직후 전문 매체를 통해 공개돼 서프라이즈 실적에 대한 시장 관심을 뒷받침했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Chefs' Warehouse (CHEF) Q2 2026 Earnings Call Transcript",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/chefs-warehouse-chef-q2-2026-earnings-call-transcript",
-                "date": "2026-08-08",
-                "quote": "Chefs' Warehouse (CHEF) Q2 2026 Earnings Call Transcript",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "실적 서프라이즈(매출 11억 6,861만 달러, EPS 0.78달러) 및 가이던스 상향(45억~46억 달러)이 명확하게 8-K와 press 자료로 뒷받침됨. 7거래일 연속 상승 후속 기사 등 촉매 지속도 확인. 다만 volumeExplanation의 구체적 숫자(12.9%, 50%, 최고가 등)는 claim으로 뒷받침되지 않아 수정 필요."
-        }
-      }
-    },
-    {
-      "ticker": "RDDT",
-      "sector": "Communication Services",
-      "industry": "Internet Content & Information",
-      "price": 178.08999633789062,
-      "volx": 3.34,
-      "volSurgeWk": 5.86,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 39.77,
-      "high52": 62.94,
-      "adr": 5.86,
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 74.44
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "RDDT",
-        "category": 5,
-        "categoryName": "매크로·정책·산업 돌파 (S&P500 지수 편입에 따른 패시브 자금 유입)",
-        "company": "레딧(Reddit, RDDT)은 관심사별 게시판(서브레딧)에서 사용자들이 글을 올리고 토론하는 온라인 커뮤니티·소셜미디어 플랫폼을 운영하는 회사다. 주요 수익원은 이 플랫폼에 붙는 광고이며, 최근에는 자사 게시글 데이터를 AI 기업들에게 학습용으로 제공하고 사용료를 받는 데이터 라이선싱 계약도 새로운 수익원으로 커지고 있다.",
-        "volumeExplanation": "2026년 8월 14일, RTTNews가 \"Reddit To Join S&P 500\"이라는 제목으로 레딧(RDDT)이 S&P500 지수에 편입된다는 소식을 보도했고, 같은 날 The Motley Fool은 \"Stock Market Midday, Aug. 14: Stocks Wobble on Falling Consumer Confidence, Reddit Jumps 14%\"라는 제목으로 이 종목이 장중 14% 급등했다고 전했다. S&P500에 새로 편입되는 종목은 이 지수를 그대로 추종하는 인덱스펀드·ETF들이 편입일 전후로 해당 주식을 의무적으로 사들여야 하기 때문에, 뉴스 이후 며칠간 거래량이 크게 늘어나는 경우가 많다. 다음 날인 8월 15일에도 The Motley Fool이 \"Reddit Stock Soared on the News of Its Inclusion in the S&P 500. Here Are 3 Things Investors Need to Know About the Social Media Stock in 2026.\"라는 후속 기사를 내며 이 재료에 대한 관심이 이어졌고, 8월 16일에는 레딧을 스노우플레이크(SNOW)와 비교하는 \"Reddit vs. Snowflake: Which High-Growth Tech Stock Is a Better Buy in 2026?\" 기사도 나왔다. 이런 흐름 속에서 오늘(8/17 기준) 거래대금이 20일 평균의 3.34배(VOL_X 3.34)로 뛰고, 최근 5일 평균 대비 주간 거래량이 5.86배로 치솟은 것은 S&P500 편입에 따른 지수 추종 자금 매수와 그로 인한 시장의 관심 집중이 겹친 결과로 해석된다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "2026년 8월 14일 RTTNews가 레딧(RDDT)의 S&P500 지수 편입 소식을 보도했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Reddit To Join S&P 500",
-                "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/reddit-join-sp-500",
-                "date": "2026-08-14",
-                "quote": "Reddit To Join S&P 500",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "같은 날(8월 14일) 레딧 주가는 장중 14% 급등했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Stock Market Midday, Aug. 14: Stocks Wobble on Falling Consumer Confidence, Reddit Jumps 14%",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/stock-market-midday-aug-14-stocks-wobble-falling-consumer-confidence-reddit-jumps-14",
-                "date": "2026-08-14",
-                "quote": "Stock Market Midday, Aug. 14: Stocks Wobble on Falling Consumer Confidence, Reddit Jumps 14%",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "8월 15일에도 S&P500 편입 소식에 레딧 주가가 급등했다는 후속 기사가 나오며 재료가 이어졌다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Reddit Stock Soared on the News of Its Inclusion in the S&P 500. Here Are 3 Things Investors Need to Know About the Social Media Stock in 2026.",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/reddit-stock-soared-news-its-inclusion-sp-500-here-are-3-things-investors-need-know-about",
-                "date": "2026-08-15",
-                "quote": "Reddit Stock Soared on the News of Its Inclusion in the S&P 500. Here Are 3 Things Investors Need to Know About the Social Media Stock in 2026.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "8월 16일에는 레딧을 스노우플레이크와 비교하며 고성장 기술주로 다루는 기사가 나와 관심이 이어졌다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Reddit vs. Snowflake: Which High-Growth Tech Stock Is a Better Buy in 2026?",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/reddit-vs-snowflake-which-high-growth-tech-stock-better-buy-2026",
-                "date": "2026-08-16",
-                "quote": "Reddit vs. Snowflake: Which High-Growth Tech Stock Is a Better Buy in 2026?",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c5",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
-          }
-        ],
-        "confidence": "high",
-        "isHighlight": true,
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "S&P500 지수 편입 촉매가 명확함 (8-K 2026-08-14). 해당일 14% 급등, 8-15, 8-16 후속 기사 확인. 지수 편입에 따른 패시브 자금 유입이 직접 원인. 다만 volumeExplanation의 거래량 배수(3.34배, 5.86배)는 claim으로 뒷받침되지 않아 제거 필요."
-        }
-      }
-    },
-    {
-      "ticker": "NYAX",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "price": 50.599998474121094,
-      "volx": 3.2,
-      "volSurgeWk": 1.57,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 4.45,
-      "high52": 65.83,
-      "adr": 2.9,
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 54.09
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "NYAX",
-        "category": 1,
-        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
-        "company": "나약스(Nayax)는 무인·셀프서비스 매장(자판기, 세탁소, 주차장, 전기차 충전소 등)에 들어가는 결제단말기(POS)를 만들고 파는 핀테크 회사입니다. 하드웨어 판매뿐 아니라, 그 단말기에서 결제가 일어날 때마다 수수료를 받는 거래처리(SaaS+결제) 매출이 핵심 수익원입니다. 최근에는 전기차 충전 자회사 링크웰(Lynkwell)을 통해 EV 충전 결제 시장으로도 사업을 넓히고 있습니다.",
-        "volumeExplanation": "2026년 8월 10일(월) 나약스는 2분기 실적을 발표했는데, 매출이 전년 동기 대비 28% 성장했고 주당순이익(EPS)도 컨센서스를 초과했습니다. 하지만 같은 날 회사는 2026년 연간 잉여현금흐름(FCF) 전환율 가이던스를 5~10%로 낮췄고, 실적을 웃도는 매출·EPS에도 불구하고 주가는 발표 당일 약 10% 급락했습니다. 그로부터 일주일 뒤인 8월 17일(월), 투자은행 KBW의 애널리스트가 나약스 투자의견을 'Market Perform'에서 'Outperform'으로 상향하며 실적 발표 후 주가 급락을 '과도한 반응'으로 평가했다. 이에 따라 거래량이 증가했습니다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "나약스 2분기(2026) 매출은 1억 2,259만 달러로 시장 컨센서스 1억 1,675만 달러를 상회했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Nayax (NASDAQ:NYAX) Sees Unusually-High Trading Volume on Analyst Upgrade",
-                "publisher": "Daily Political",
-                "url": "https://www.dailypolitical.com/2026/08/17/nayax-nasdaqnyax-sees-unusually-high-trading-volume-on-analyst-upgrade.html",
-                "date": "2026-08-17",
-                "quote": "had revenue of $122.59 million for the quarter, compared to the consensus estimate of $116.75 million",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "같은 분기 주당순이익(EPS)은 0.14달러로 컨센서스 0.09달러를 0.05달러 초과했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Nayax (NASDAQ:NYAX) Sees Unusually-High Trading Volume on Analyst Upgrade",
-                "publisher": "Daily Political",
-                "url": "https://www.dailypolitical.com/2026/08/17/nayax-nasdaqnyax-sees-unusually-high-trading-volume-on-analyst-upgrade.html",
-                "date": "2026-08-17",
-                "quote": "reporting $0.14 earnings per share (EPS) for the quarter, beating the consensus estimate of $0.09 by $0.05",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "2분기 매출은 전년 동기 대비 28% 성장했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Nayax (NASDAQ:NYAX) grows Q2 revenue 28% while cutting 2026 free cash flow outlook",
-                "publisher": "StockTitan",
-                "url": "https://www.stocktitan.net/sec-filings/NYAX/6-k-nayax-ltd-current-report-foreign-issuer-1c60051e129f.html",
-                "date": "2026-08-10",
-                "quote": "Nayax (NASDAQ: NYAX) grows Q2 revenue 28% while cutting 2026 free cash flow outlook",
-                "verified": "unverified",
-                "httpStatus": 429
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "매출·EPS가 컨센서스를 웃돌았음에도 잉여현금흐름 가이던스 하향 우려로 실적 발표 당일 주가는 약 10% 하락했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Earnings call transcript: Nayax Q2 2026 revenue rises 28% as stock falls 10%",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-nayax-q2-2026-revenue-rises-28-as-stock-falls-10-93CH-4849720",
-                "date": "2026-08-10",
-                "quote": "Earnings call transcript: Nayax Q2 2026 revenue rises 28% as stock falls 10%",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "c5",
-            "statement": "나약스는 2026년 매출 가이던스(5.1억~5.2억 달러)는 재확인했지만, 잉여현금흐름 전환율 가이던스는 5~10%로 낮춰 잡았다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Nayax reaffirms 2026 guidance of $510M-$520M revenue while revising free cash flow conversion to 5%-10%",
-                "publisher": "Seeking Alpha",
-                "url": "https://seekingalpha.com/news/4630164-nayax-reaffirms-2026-guidance-of-510m-520m-revenue-while-revising-free-cash-flow-conversion",
-                "date": "2026-08-10",
-                "quote": "Nayax reaffirms 2026 guidance of $510M-$520M revenue while revising free cash flow conversion to 5%-10%",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "c7",
-            "statement": "KBW 애널리스트 산제이 사크라니는 실적 발표 후 주가 급락을 '과도한 반응'으로 평가하며 지금을 '매력적인 진입 시점'이라고 밝혔다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "After share price plummets, analyst upgrades Nayax",
-                "publisher": "Globes",
-                "url": "https://en.globes.co.il/en/article-after-its-share-price-plummets-nayax-receives-upgraded-recommendation-1001552414",
-                "date": "2026-08-17",
-                "quote": "the market's reaction had been exaggerated and that the fall in the stock price provided \"an attractive entry point.\"",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          }
-        ],
-        "confidence": "medium",
-        "isHighlight": true,
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "c6"
-          ],
-          "reason": "어닝 서프라이즈(매출 +28%, EPS +55%)는 명확하나 가이던스 하향(FCF 40%→5-10%)이 동시 발생. c6의 '목표주가 75달러' 부분이 quote에 없어 제거. 실적 발표 후 -10% 폭락 → 8-17 애널리스트 상향이 거래량 급증 트리거. '순수한 가이던스 상향'이 아닌 '서프라이즈 + 저점 매수 분석'.",
-          "narrativeFixed": true
-        },
-        "volumeExplanationOriginal": "2026년 8월 10일(월) 나약스는 2분기 실적을 발표했는데, 매출이 전년 동기 대비 28% 늘어난 1억 2,259만 달러로 시장 예상치(1억 1,675만 달러)를 웃돌았고, 주당순이익(EPS)도 0.14달러로 컨센서스 0.09달러를 0.05달러 초과했습니다. 하지만 같은 날 회사는 2026년 연간 잉여현금흐름(FCF) 전환율 가이던스를 기존 약 40%에서 5~10%로 큰 폭으로 낮췄고, GAAP 기준으로는 전년 1,170만 달러 흑자에서 1,010만 달러 순손실로 돌아서면서, 실적을 웃도는 매출·EPS에도 불구하고 주가는 발표 당일 약 10% 급락했습니다. 그로부터 일주일 뒤인 8월 17일(월), 이번엔 정반대 방향의 촉매가 나왔습니다. 투자은행 키프브루엣우즈(KBW)의 애널리스트 산제이 사크라니가 나약스 투자의견을 '시장수익률(Market Perform)'에서 '시장수익률 상회(Outperform)'로 상향하며 목표주가 75달러(당시 주가 대비 약 48% 상승여력)를 유지했고, \"시장의 반응이 과도했다\"며 급락 이후 지금이 \"매력적인 진입 시점\"이라고 평가했습니다. 즉 실제로 확인된 두 자릿수 중후반(28%)의 매출 성장과 EPS 서프라이즈라는 펀더멘털 위에, 그 저가 매수 기회를 짚어준 애널리스트 상향 리포트가 겹치면서 8월 17일 거래대금이 20일 평균의 3.2배(VOL_X 3.2)까지 튀어오른 것으로 보입니다. 다만 잉여현금흐름 가이던스가 큰 폭으로 낮아진 부정적 요인도 함께 있었던 만큼, 순수한 '가이던스 상향형' 서프라이즈라기보다는 '어닝 서프라이즈 이후 애널리스트가 저점 매수를 부추긴' 성격에 가깝습니다."
-      }
-    },
-    {
-      "ticker": "DKL",
-      "sector": "Energy",
-      "industry": "Oil & Gas Refining & Marketing",
-      "price": 54.0099983215332,
-      "volx": 2.89,
-      "volSurgeWk": 1.38,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 95.71,
-      "high52": 89.51,
-      "adr": 3.84,
-      "congestion": {
-        "ok": true,
-        "baseHigh": 59.33,
-        "baseLow": 47.46,
-        "baseBars": 126,
-        "baseMonths": 6,
-        "rangePct": 25.01,
-        "breakoutDate": "2026-07-31",
-        "breakoutVolX": 2.99,
-        "barsSinceBreakout": 10,
-        "aboveMa150AtBreak": true,
-        "ma150AtBreak": 51.62,
-        "pivot": 59.33,
-        "distToPivotPct": -8.97,
-        "retestDate": "2026-08-11",
-        "retestVolRatio": 1.26,
-        "dryUp": false,
-        "phase": "breakout",
-        "phaseKo": "거래량 동반 저항 돌파",
-        "score": 45,
-        "buyTrigger": {
-          "price": 59.33,
-          "note": "되돌림 시 $59.33 지지 확인 후 진입"
-        }
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "DKL",
-        "category": 1,
-        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
-        "company": "Delek Logistics Partners, L.P.(DKL)는 원유·정제유를 나르고 저장하는 파이프라인·터미널·마케팅 자산을 소유·운영하는 미국의 미드스트림 에너지 마스터합자회사(MLP)다. 주로 모회사격인 정유사 Delek US Holdings의 텍사스 퍼미안 분지 및 걸프코스트 정제시설에 연결된 원유 수집·물류망을 운영하며, 여기서 발생하는 수수료와 마진으로 돈을 번다. 배당(분배금) 성향이 강한 에너지 인프라주로, 오늘까지 54분기 연속 분배금을 인상해온 것이 특징이다.",
-        "volumeExplanation": "2026년 7월 31일, 6개월간 이어진 횡보 박스권 상단을 거래량 2.99배를 동반하며 돌파했다(Congestion 데이터). 이는 7월 28일 Zacks가 \"Earnings Estimates Rising for Delek Logistics Partners (DKL): Will It Gain?\" 기사를 통해 실적 전망치 상향 흐름을 보도한 직후였다. 8월 5일 제출된 8-K(Item 2.02, 실적발표)에서 2분기 실적이 공개됐는데, GAAP 기준 주당순이익은 0.54달러로 시장 예상치 0.92달러를 밑돌았지만, 조정 EBITDA는 분기 사상 최대치를 기록했고 회사는 2026년 연간 가이던스를 그대로 유지했다. 이어 7월 22일 이미 예고됐던 분기 분배금 인상(주당 1.135달러, 54분기 연속 인상)이 8월 10일 지급됐고, 8월 7일 Zacks는 DKL 투자의견을 'Strong Buy'로 상향했으며 Raymond James는 목표주가를 57달러에서 60달러로 올렸다. 이런 흐름이 겹치며 8월 13일에는 \"Is DKL Outpacing Its Oils-Energy Peers\"라는 기사가 나올 정도로 동종업계 대비 강세가 부각됐고, 오늘 기준 거래대금은 20일 평균의 2.89배(VOL_X), 주간 거래량도 5일 평균의 1.38배로 여전히 높은 수준을 유지하고 있다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "2026년 8월 5일 DKL은 2분기 실적을 담은 8-K(Item 2.02, 실적발표)를 SEC에 제출했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Delek Logistics Partners LP - 8-K (Item 2.02, 9.01)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1552797/000162828026052893/dkl-20260805.htm",
-                "date": "2026-08-05",
-                "quote": "\"items\": [\"2.02\", \"9.01\"], \"itemsKo\": [\"실적 발표\", \"재무제표·첨부\"], \"isEarnings\": true",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "2분기 GAAP 주당순이익은 0.54달러로 시장 예상치 0.92달러에 미달했지만, 조정 EBITDA는 분기 사상 최대치를 기록했고 54분기 연속 분배금 인상이 이어졌다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Is Delek Logistics Partners LP (DKL) Overvalued After Q2 Earnings Miss? EPS at $0.54 vs. Estimated $0.92; GF Score: 73/100",
-                "publisher": "GuruFocus",
-                "url": "https://www.gurufocus.com/news/9005651/is-delek-logistics-partners-lp-dkl-overvalued-after-q2-earnings-miss-eps-at-054-vs-estimated-092-gf-score-73100",
-                "date": "2026-08",
-                "quote": "Is Delek Logistics Partners LP (DKL) Overvalued After Q2 Earnings Miss? EPS at $0.54 vs. Estimated $0.92; GF Score: 73/100",
-                "verified": "unverified",
-                "httpStatus": 403
-              },
-              {
-                "title": "Delek Logistics Partners LP (DKL) (Q2 2026) Earnings Call Highlights: Record EBITDA and 54th Consecutive Distribution Increase",
-                "publisher": "GuruFocus",
-                "url": "https://www.gurufocus.com/news/9020105/delek-logistics-partners-lp-dkl-q2-2026-earnings-call-highlights-record-ebitda-and-54th-consecutive-distribution-increase",
-                "date": "2026-08",
-                "quote": "Delek Logistics Partners LP (DKL) (Q2 2026) Earnings Call Highlights: Record EBITDA and 54th Consecutive Distribution Increase",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "Zacks는 8월 7일 DKL 투자의견을 Hold에서 Strong Buy로 상향했고, Raymond James는 목표주가를 57달러에서 60달러로 올렸다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Delek Logistics Partners (DKL) Upgraded to Strong Buy: Here's Why",
-                "publisher": "Zacks (via Yahoo Finance)",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/delek-logistics-partners-dkl-upgraded-160006383.html",
-                "date": "2026-08-10",
-                "quote": "Zacks Research upgraded shares of Delek Logistics Partners from a \"hold\" rating to a \"strong-buy\" rating on Friday, August 7th, 2026. ... Raymond James raised the firm's price target on Delek Logistics (DKL) to $60 from $57 and keeps an Outperform rating on the shares.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "DKL은 7월 22일 분기 분배금을 주당 1.135달러로 인상했으며, 이는 올해 세 번째이자 54분기 연속 인상이었고 8월 10일 지급됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "This Oil Dividend Just Got a Raise. Here's What It Means for Shareholders.",
-                "publisher": "The Motley Fool",
-                "url": "https://www.fool.com/investing/2026/08/16/oil-dividend-got-raise-what-means-delek-dkl/",
-                "date": "2026-08-16",
-                "quote": "On July 22, this midcap midstream company upped its quarterly distribution by half a cent to $1.135 a share. The July increase marked the third time this year Delek Logistics raised its dividend and the 54th consecutive quarter in which the pipeline stock has done so.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c5",
-            "statement": "8월 13일 Zacks는 DKL이 동종 에너지업종 대비 올해 강세를 보이고 있는지를 다룬 기사를 냈다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Is Delek Logistics Partners (DKL) Stock Outpacing Its Oils-Energy Peers This Year?",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/delek-logistics-partners-dkl-stock-outpacing-its-oils-energy-peers-year",
-                "date": "2026-08-13",
-                "quote": "Is Delek Logistics Partners (DKL) Stock Outpacing Its Oils-Energy Peers This Year?",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c6",
-            "statement": "7월 28일 Zacks는 DKL의 실적 전망치(어닝 estimate)가 상향되고 있다고 보도했다 — 이는 7월 31일 박스권 돌파 직전 시점이다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Earnings Estimates Rising for Delek Logistics Partners (DKL): Will It Gain?",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/earnings-estimates-rising-delek-logistics-partners-dkl-will-it-gain",
-                "date": "2026-07-28",
-                "quote": "Earnings Estimates Rising for Delek Logistics Partners (DKL): Will It Gain?",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "confidence": "medium",
-        "isHighlight": true,
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "모든 claims의 숫자·날짜가 quote/제목에 정확히 반영됨. 단위 환산 정확 (예: $1.135 = 주당 1.135달러). Category 1 분류 적절 (실적 발표, 가이던스 유지, 분석가 상향 근거 명확)."
-        }
-      }
-    },
-    {
-      "ticker": "BTSGU",
-      "sector": "Healthcare",
-      "industry": "Health Information Services",
-      "price": 203.1699981689453,
-      "volx": 2.8,
-      "volSurgeWk": 2.99,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 100,
-      "high52": 79.81,
-      "adr": 2.06,
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 104.72
+        "bars": 499,
+        "rangePct": 45.99
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "NATH",
-      "sector": "Consumer Cyclical",
-      "industry": "Restaurants",
-      "price": 96.97000122070312,
-      "volx": 2.66,
-      "volSurgeWk": 2.93,
+      "ticker": "NEE-S",
+      "sector": "Utilities",
+      "industry": "Utilities - Regulated Electric",
+      "price": 53.02000045776367,
+      "volx": 4.04,
+      "volSurgeWk": 5.88,
       "aboveMa150": false,
       "brk60d": false,
-      "clsPos": 15.91,
-      "high52": 88.75,
-      "adr": 1.1,
+      "clsPos": 100,
+      "high52": 89.49,
+      "adr": 1.55,
       "congestion": {
-        "ok": true,
-        "phase": "base",
-        "phaseKo": "6개월 횡보 베이스 형성 중",
-        "baseHigh": 102.46,
-        "baseLow": 95.5,
-        "baseBars": 126,
-        "baseMonths": 6,
-        "rangePct": 7.29,
-        "contraction": 0.89,
-        "pivot": 102.46,
-        "distToPivotPct": -5.36,
-        "aboveMa150AtNow": false,
-        "buyTrigger": {
-          "price": 102.46,
-          "note": "$102.46(저항선) 거래량 동반 돌파 시 진입 검토"
-        },
-        "score": 50
+        "ok": false,
+        "phase": "none",
+        "phaseKo": "봉 없음 — 판정불가"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "NATH",
-        "category": 6,
-        "categoryName": "암묵적 호재 (뚜렷한 촉매 뉴스 없음)",
-        "company": "Nathan's Famous, Inc.(NATH)는 뉴욕 코니아일랜드에서 시작된 핫도그로 유명한 브랜드 식품회사다. 포장 핫도그·소시지를 소매점에 공급하는 '브랜디드 프로덕트 프로그램', 나단스 브랜드를 다른 외식업체에 빌려주는 '라이선싱', 직영·가맹 형태의 나단스 레스토랑 운영, 이 세 부문으로 돈을 번다.",
-        "volumeExplanation": "NATH는 2026년 1월 20일 육가공업체 Smithfield Foods에 주당 102.00달러 전액 현금, 총 약 4억5000만달러에 인수되는 합병계약을 체결했다(2026-01-21 공시 8-K, item 1.01). 이 뉴스는 이미 7개월 전 것이라 신규 촉매가 아니며, 주가가 52주 고점 대비 88.75%에서 150일선 아래·60일 신고가 미달·베이스폭 7.29%의 좁은 6개월 횡보를 보이는 것도 이미 인수가(102달러) 근처에서 갇혀 움직이는 '차익거래(merger-arbitrage)' 국면임을 보여준다. 2026년 8월 7일 8-K(item 2.02, 실적발표)에서 발표된 회계연도 2027년 1분기(6월28일 마감) 실적은 매출이 5406만2000달러로 전년 4699만달러에서 늘었지만 순이익은 882만9000달러(전년 893만달러)로, 희석주당순이익(EPS)은 2.14달러(전년 2.16달러)로 오히려 줄었다 — 서프라이즈 호재가 아니라 '이익 후퇴'다. 같은 시기 회사는 연방정부 일부 셧다운이 CFIUS(외국인투자심의위원회) 심사 법정기한에 영향을 줘 합병 종료 예상시점이 2026년 하반기로 미뤄졌다고 밝혔고(2026년 6월 제출 10-K), 이후 8월 공시에서는 CFIUS 승인은 받았지만 주주총회 승인 등 절차가 남아 여전히 하반기 종료를 예상한다고 했다. 2026년 8월 9일에는 로펌 Halper Sadeh LLC가 \"나단스 주주들이 공정한 가격을 받는지\" 조사한다는 보도자료를 냈는데, 이런 '공정가격 조사' 보도자료는 거의 모든 M&A 거래마다 반복적으로 나오는 정형화된 소송 로펌 광고성 자료로 그 자체가 새로운 사실은 아니다. 종합하면 거래대금이 20일 평균의 2.66배(VOL_X), 주간 거래량이 5일 평균의 2.93배로 튄 오늘(8월 중순) 시점을 직접 설명할 신규 호재성 뉴스는 검색으로 확인되지 않았다. 확인된 것은 7개월 전 인수합병 건, 8월7일의 부정적 이익 후퇴 실적, CFIUS 지연에 따른 거래 종료 불확실성, 8월9일의 정형화된 로펌 보도자료뿐이며 이는 호재 ①~⑤ 어디에도 명확히 해당하지 않는다. 주가도 150일선 아래·52주 고점 대비 88.75%로 신고가와는 거리가 멀어, 이번 거래량 급증은 인수합병 종결 불확실성 위에서의 차익거래 포지션 조정으로 보이며 뚜렷한 호재 뉴스는 없어 카테고리 ⑥(암묵적)으로 분류한다.",
-        "claims": [
-          {
-            "id": "merger-announcement",
-            "statement": "2026년 1월 20일 Nathan's Famous가 Smithfield Foods에 주당 102.00달러 전액 현금, 총 약 4.5억달러에 인수되는 합병계약을 체결했다 (신규 촉매 아님, 7개월 전 뉴스).",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Smithfield Foods Reveals $450 Million Cash Buyout Of Nathans Famous",
-                "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/smithfield-foods-reveals-450-million-cash-buyout-nathans-famous",
-                "date": "2026-01-21",
-                "quote": "Smithfield Foods Reveals $450 Million Cash Buyout Of Nathans Famous",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "The Hot Dog Hedge: Smithfield Acquires Nathan's Famous",
-                "publisher": "MarketBeat",
-                "url": "https://www.nasdaq.com/articles/hot-dog-hedge-smithfield-acquires-nathans-famous",
-                "date": "2026-01-25",
-                "quote": "The Hot Dog Hedge: Smithfield Acquires Nathan's Famous",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "q1-profit-retreat",
-            "statement": "2026년 8월 7일 8-K(실적발표)에서 회계연도 2027 1분기 매출은 늘었지만(5406만2000달러) 순이익(882만9000달러)과 희석EPS(2.14달러)는 전년보다 줄어든 '이익 후퇴'로 보도됐다 — 서프라이즈 호재 아님.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "NATHAN'S FAMOUS IN Reports Retreat In Q1 Profit",
-                "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/nathans-famous-reports-retreat-q1-profit",
-                "date": "2026-08-07",
-                "quote": "NATHAN'S FAMOUS IN Reports Retreat In Q1 Profit",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Nathan's Famous Q1 2027 results and pending merger | NATH Quarterly Report (10-Q)",
-                "publisher": "StockTitan (SEC filing 요약)",
-                "url": "https://www.stocktitan.net/sec-filings/NATH/10-q-nathans-famous-inc-quarterly-earnings-report-122470ff2d13.html",
-                "date": "2026-08-07",
-                "quote": "Total revenues of 54,062 (in thousands) ... Net income was 8,829 (in thousands) ... diluted EPS of $2.14",
-                "verified": "unverified",
-                "httpStatus": 429
-              }
-            ]
-          },
-          {
-            "id": "cfius-delay",
-            "statement": "2026년 6월 제출된 연차보고서(10-K)에서 회사는 연방정부 일부 셧다운이 CFIUS 심사 법정기한에 영향을 줘 합병 종료 예상시점이 2026년 하반기로 미뤄졌다고 밝혔다 — 거래 종결 불확실성이 이어지는 중.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Nathan's Famous (NATH) outlines Smithfield Foods merger terms and brand-driven 2026 revenue mix",
-                "publisher": "StockTitan (SEC filing 요약, 10-K)",
-                "url": "https://www.stocktitan.net/sec-filings/NATH/10-k-nathans-famous-inc-files-annual-report-ae8d9deb399a.html",
-                "date": "2026-06-09",
-                "quote": "given the impact of the partial government shutdown on statutory deadlines for CFIUS's review process, our anticipated closing timeline has shifted... we now expect the transaction to close in the second half of 2026",
-                "verified": "unverified",
-                "httpStatus": 429
-              }
-            ]
-          },
-          {
-            "id": "fair-price-investigation",
-            "statement": "2026년 8월 9일 로펌 Halper Sadeh LLC가 'Nathan's Famous 주주들이 공정한 가격을 받고 있는지' 조사한다는 보도자료를 냈다 — 통상적인 M&A 소송 로펌 광고성 자료로 그 자체가 신규 사실은 아님.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "NATH Stock Alert: Halper Sadeh LLC is Investigating Whether Nathan's Famous, Inc. is Obtaining a Fair Price for its Shareholders",
-                "publisher": "Business Wire",
-                "url": "https://www.businesswire.com/news/home/20260809203611/en/NATH-Stock-Alert-Halper-Sadeh-LLC-is-Investigating-Whether-Nathans-Famous-Inc.-is-Obtaining-a-Fair-Price-for-its-Shareholders",
-                "date": "2026-08-09",
-                "quote": "NATH Stock Alert: Halper Sadeh LLC is Investigating Whether Nathan's Famous, Inc. is Obtaining a Fair Price for its Shareholders",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          }
-        ],
-        "confidence": "medium",
-        "isHighlight": false,
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [
-            "no-fresh-catalyst-for-surge"
-          ],
-          "reason": "Category 6 (암묵적 호재)은 타당. 신규 호재 부재 주장(c5)은 메타 설명이므로 제거. c1-c4로 충분: 7개월 전 인수합병 (신규 아님), 8-7 이익 후퇴 (부정적), CFIUS 지연, 정형화된 로펌 광고. 확인된 신규 호재 뉴스 없음."
-        }
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "AIR",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "price": 153.7100067138672,
+      "volx": 3.51,
+      "volSurgeWk": 6.59,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 99.38,
+      "high52": 99.81,
+      "adr": 4.7,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 499,
+        "rangePct": 55.27
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
       "ticker": "NEN",
       "sector": "Real Estate",
       "industry": "Real Estate Services",
-      "price": 55.5099983215332,
-      "volx": 2.64,
-      "volSurgeWk": 1.86,
+      "price": 56,
+      "volx": 3.39,
+      "volSurgeWk": 2.08,
       "aboveMa150": false,
       "brk60d": false,
-      "clsPos": 41.67,
-      "high52": 77.03,
+      "clsPos": 0,
+      "high52": 77.71,
       "adr": 0.38,
       "congestion": {
         "ok": true,
@@ -1068,66 +160,82 @@ window.TEAM4_DATA = {
         "score": 50
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "NEN",
-        "category": 6,
-        "categoryName": "암묵적 호재 (뚜렷한 호재 없이 거래량만 급증)",
-        "company": "뉴잉글랜드 리얼티 어소시에이츠(New England Realty Associates LP, 종목코드 NEN, 리서치 기사에서는 NERA로도 표기됨)는 미국 매사추세츠·뉴햄프셔 등 보스턴 인근 지역에서 주거용·상업용·복합용도 부동산을 매입·개발·보유·운영하는 부동산 리츠형 파트너십 회사입니다. 2026년 8월 1일 기준 3,430세대의 주거용 유닛을 보유하고 있으며, 세입자로부터 받는 임대료(임대수익)와 세탁시설 등 부대수익이 주요 수익원입니다.",
-        "volumeExplanation": "거래대금이 20일 평균 대비 2.64배(VOL_X 2.64), 최근 5일 평균 대비 1.86배로 늘어난 시점 직전인 2026년 8월 13일, NEN(NERA)의 2026회계연도 2분기(6월 30일 마감) 실적 기사가 나왔습니다. 이 기사에 따르면 회사는 순손실 120만 달러를 기록해 전년 동기 순이익 420만 달러에서 적자로 전환했습니다. 같은 분기 총매출은 전년 대비 14.9% 늘어난 2,440만 달러였지만, 감가상각비 810만 달러와 이자비용 573만 달러 등 비용 증가가 적자의 원인이었습니다. 즉 검색으로 확인되는 가장 최근의 종목 관련 뉴스는 '매출은 늘었지만 비용 부담으로 적자 전환'이라는 부정적 실적 소식이며, 문제에서 정의한 6분류 중 어느 하나(어닝 서프라이즈, 임상·승인, 대형계약, 턴어라운드, 매크로 호재)에도 해당하는 긍정적 촉매가 아닙니다. 결과적으로 거래대금·거래량 급증을 정당화할 만한 명확한 호재 뉴스는 검색을 통해 확인되지 않아, 지침에 따라 6번(암묵적) 분류로 처리합니다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "2026년 8월 13일 자 기사에서 NEN(NERA)은 2026년 2분기에 순손실 120만 달러(유닛당 9.99달러 손실)를 기록해 전년 동기 순이익 420만 달러(유닛당 35.59달러)에서 적자로 전환했다고 보도됨.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "NERA Incurs Q2 Loss Due to Higher Costs, Revenues Up Y/Y",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/nera-incurs-q2-loss-due-higher-costs-revenues-y-y",
-                "date": "2026-08-13",
-                "quote": "NERA Incurs Q2 Loss Due to Higher Costs, Revenues Up Y/Y",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "NERA Incurs Q2 Loss Due to Higher Costs, Revenues Up Y/Y — TradingView News",
-                "publisher": "Zacks (via TradingView)",
-                "url": "https://www.tradingview.com/news/zacks:94a706304094b:0-nera-incurs-q2-loss-due-to-higher-costs-revenues-up-y-y/",
-                "date": "2026-08-13",
-                "quote": "NERA posted a net loss of $1.2 million against a net income of $4.2 million in the prior-year quarter.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "같은 분기 총매출은 전년 대비 14.9% 증가한 2,440만 달러를 기록했으나, 감가상각비 810만 달러와 이자비용 573만 달러 등 비용 증가가 순손실의 원인으로 지목됨.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "NERA Incurs Q2 Loss Due to Higher Costs, Revenues Up Y/Y — TradingView News",
-                "publisher": "Zacks (via TradingView)",
-                "url": "https://www.tradingview.com/news/zacks:94a706304094b:0-nera-incurs-q2-loss-due-to-higher-costs-revenues-up-y-y/",
-                "date": "2026-08-13",
-                "quote": "Total revenues increased 14.9% year over year to $24.4 million from $21.2 million.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "confidence": "medium",
-        "isHighlight": false,
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "c3"
-          ],
-          "reason": "c1의 유닛당 손실 금액(9.99달러, 35.59달러)은 TradingView quote에 없어 부분 제거. c3은 근거 없음으로 삭제. Category 6 유지 적절.",
-          "narrativeFixed": true
-        },
-        "volumeExplanationOriginal": "거래대금이 20일 평균 대비 2.64배(VOL_X 2.64), 최근 5일 평균 대비 1.86배로 늘어난 시점 직전인 2026년 8월 13일, NEN(NERA)의 2026회계연도 2분기(6월 30일 마감) 실적 기사가 나왔습니다. 이 기사에 따르면 회사는 순손실 120만 달러(유닛당 9.99달러 손실)를 기록해 전년 동기 순이익 420만 달러(유닛당 35.59달러)에서 적자로 전환했습니다. 같은 분기 총매출은 전년 대비 14.9% 늘어난 2,440만 달러였지만, 감가상각비 810만 달러와 이자비용 573만 달러 등 비용 증가가 적자의 원인이었습니다. 즉 검색으로 확인되는 가장 최근의 종목 관련 뉴스는 '매출은 늘었지만 비용 부담으로 적자 전환'이라는 부정적 실적 소식이며, 문제에서 정의한 6분류 중 어느 하나(어닝 서프라이즈, 임상·승인, 대형계약, 턴어라운드, 매크로 호재)에도 해당하는 긍정적 촉매가 아닙니다. 8월 7일 정례 분기 배당(예탁증서 주당 0.40달러) 발표도 매 분기 반복되는 통상적 공시로 신규 호재로 보기 어렵습니다. 결과적으로 거래대금·거래량 급증을 정당화할 만한 명확한 호재 뉴스는 검색을 통해 확인되지 않아, 지침에 따라 6번(암묵적) 분류로 처리합니다."
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "SEB",
+      "sector": "Industrials",
+      "industry": "Conglomerates",
+      "price": 4452.31982421875,
+      "volx": 3.28,
+      "volSurgeWk": 1.98,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 75.43,
+      "high52": 74.41,
+      "adr": 3.75,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 499,
+        "rangePct": 47.23
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "PNRG",
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "price": 210.60000610351562,
+      "volx": 3,
+      "volSurgeWk": 3.45,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 35.35,
+      "high52": 75.51,
+      "adr": 4.73,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 499,
+        "rangePct": 78.21
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "HL-B",
+      "sector": "Basic Materials",
+      "industry": "Other Precious Metals & Mining",
+      "price": 66.16000366210938,
+      "volx": 2.78,
+      "volSurgeWk": 1.97,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 100,
+      "high52": 61.97,
+      "adr": 0.98,
+      "congestion": {
+        "ok": false,
+        "phase": "none",
+        "phaseKo": "봉 없음 — 판정불가"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1146,96 +254,77 @@ window.TEAM4_DATA = {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 501,
+        "bars": 499,
         "rangePct": 24.07
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "UAN",
-      "sector": "Basic Materials",
-      "industry": "Agricultural Inputs",
-      "price": 123.5,
-      "volx": 2.35,
-      "volSurgeWk": 1.69,
+      "ticker": "ITIC",
+      "sector": "Financial Services",
+      "industry": "Insurance - Specialty",
+      "price": 288.3500061035156,
+      "volx": 2.47,
+      "volSurgeWk": 2.58,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 100,
-      "high52": 96.04,
-      "adr": 2.69,
+      "clsPos": 35.46,
+      "high52": 96.99,
+      "adr": 2.55,
       "congestion": {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 45.31
+        "bars": 499,
+        "rangePct": 41.74
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "VIK",
-      "sector": "Consumer Cyclical",
-      "industry": "Travel Services",
-      "price": 97.98999786376953,
-      "volx": 2.29,
-      "volSurgeWk": 2.65,
+      "ticker": "ARGX",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "price": 987.8400268554688,
+      "volx": 2.42,
+      "volSurgeWk": 2.32,
       "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 6.96,
-      "high52": 89.01,
+      "brk60d": true,
+      "clsPos": 81.29,
+      "high52": 98.57,
       "adr": 3.23,
       "congestion": {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 67.68
+        "bars": 499,
+        "rangePct": 44.08
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
-      }
-    },
-    {
-      "ticker": "FOUR-A",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "price": 59.029998779296875,
-      "volx": 2.24,
-      "volSurgeWk": 2.24,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 8.2,
-      "high52": 59.27,
-      "adr": 3.8,
-      "congestion": {
-        "ok": false,
-        "phase": "none",
-        "phaseKo": "봉 없음 — 판정불가"
-      },
-      "catalyst": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
       "ticker": "CBRS",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "price": 218.97999572753906,
-      "volx": 2.23,
-      "volSurgeWk": 1.88,
+      "price": 251.97999572753906,
+      "volx": 2.35,
+      "volSurgeWk": 1.49,
       "aboveMa150": false,
       "brk60d": false,
-      "clsPos": 24.26,
-      "high52": 56.68,
-      "adr": 11.55,
+      "clsPos": 75.73,
+      "high52": 65.22,
+      "adr": 11.86,
       "congestion": {
         "ok": false,
         "phase": "none",
@@ -1244,444 +333,295 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "WBS",
-      "sector": "Financial Services",
-      "industry": "Banks - Regional",
-      "price": 79,
-      "volx": 2.11,
-      "volSurgeWk": 2.11,
+      "ticker": "GH",
+      "sector": "Healthcare",
+      "industry": "Diagnostics & Research",
+      "price": 161.6699981689453,
+      "volx": 2.32,
+      "volSurgeWk": 2.58,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 57.9,
-      "high52": 99.5,
-      "adr": 0.74,
+      "clsPos": 85.73,
+      "high52": 91.56,
+      "adr": 4.72,
       "congestion": {
         "ok": true,
-        "baseHigh": 78.29,
-        "baseLow": 65.35,
-        "baseBars": 126,
-        "baseMonths": 6,
-        "rangePct": 19.8,
-        "breakoutDate": "2026-08-05",
-        "breakoutVolX": 2.25,
-        "barsSinceBreakout": 7,
-        "aboveMa150AtBreak": true,
-        "ma150AtBreak": 71.52,
-        "pivot": 78.29,
-        "distToPivotPct": 0.91,
-        "retestDate": "2026-08-06",
-        "retestVolRatio": 1.5,
-        "dryUp": false,
-        "phase": "retest",
-        "phaseKo": "돌파 후 저항선 리테스트",
-        "score": 50,
-        "buyTrigger": {
-          "price": 78.29,
-          "note": "저항선 $78.29 지지 확인 후 반등 시 진입"
-        }
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 499,
+        "rangePct": 136.86
       },
       "catalyst": {
-        "status": "done",
-        "category": 5,
-        "categoryName": "매크로·정책·산업 돌파 (정부 규제 승인 — M&A 완결)",
-        "company": "웹스터 파이낸셜(Webster Financial Corporation)은 코네티컷주에 본사를 둔 웹스터 은행(Webster Bank, N.A.)의 지주회사로, 개인·기업 대상 예금·대출 등 상업은행 업무와 함께 HSA뱅크(건강저축계좌 관리), 자산관리, 장비금융 같은 특화 사업도 함께 운영하는 미국 지역은행(Regional Bank)입니다.",
-        "volumeExplanation": "2026년 8월 4일, 스페인 대형 은행 방코 산탄데르(Banco Santander)와 웹스터 파이낸셜이 공동으로 \"미국 연방준비제도이사회(Federal Reserve Board)가 산탄데르의 웹스터 인수를 승인했다\"고 발표했습니다. 이 인수는 2026년 초 합의된 것으로 총 거래규모 약 123억 달러(12.3 billion), 웹스터 주주는 주당 현금 48.75달러와 산탄데르 미국예탁증서(ADS) 2.0548주를 받는 현금+주식 혼합 거래입니다. 이번 연준 승인은 미국 통화감독청(OCC, 2026-06-12 승인)과 유럽중앙은행(ECB, 2026-07-21 승인)에 이은 마지막 주요 규제 관문이었고, 거래 종결 예정일은 2026년 8월 20일로 제시됐습니다. 이 발표 시점은 Node가 제공한 SEC 8-K 공시(제출일 2026-08-05, item 8.01 기타 중요사건)와 정확히 일치합니다. 인수가가 이미 확정된 딜(현금+주식 조합)이 규제 승인으로 사실상 종결 확정 단계에 들어가면서, 차익거래(merger arbitrage) 및 클로징을 앞둔 매매 수요가 몰려 거래대금이 20일 평균의 2.11배(VOL_X 2.11), 주간 거래량도 직전 5일 평균의 2.11배로 뛰었고 8월 5일 돌파 당일에는 거래량이 2.25배까지 치솟았습니다. 참고로 같은 종목의 2분기 실적(2026-07-21 발표)은 시장 예상치를 하회(earnings miss)했으므로, 이번 거래량 폭증의 원인은 실적이 아니라 인수합병 규제 승인 뉴스입니다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "2026년 8월 4일 산탄데르와 웹스터 파이낸셜이 공동으로 연준(Federal Reserve)의 인수 승인 획득을 발표했으며, 이는 Node가 제공한 8-K(제출일 2026-08-05, item 8.01)와 시점이 일치한다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Santander Receives Federal Reserve Approval for the Acquisition of Webster Financial Corporation",
-                "publisher": "PR Newswire",
-                "url": "https://www.prnewswire.com/news-releases/santander-receives-federal-reserve-approval-for-the-acquisition-of-webster-financial-corporation-302843056.html",
-                "date": "2026-08-04",
-                "quote": "Banco Santander, S.A. (\"Santander\") and Webster Financial Corporation (\"Webster\") today announced that they have received the required approval from the Board of Governors of the Federal Reserve System for Santander's previously announced acquisition of Webster",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "거래 종결 예정일은 2026년 8월 20일로, OCC(2026-06-12)와 ECB(2026-07-21) 승인에 이은 마지막 규제 승인이었다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Santander Receives Federal Reserve Approval for the Acquisition of Webster Financial Corporation",
-                "publisher": "PR Newswire",
-                "url": "https://www.prnewswire.com/news-releases/santander-receives-federal-reserve-approval-for-the-acquisition-of-webster-financial-corporation-302843056.html",
-                "date": "2026-08-04",
-                "quote": "The transaction is now expected to close on August 20, 2026.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "인수 총 거래규모는 약 123억 달러이며, 웹스터 주주는 주당 현금 48.75달러와 산탄데르 ADS 2.0548주를 받는다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Webster Financial Corporation Enters Into Merger Agreement With Banco Santander, S.A. for $12.3 Billion",
-                "publisher": "Webster Financial Investor Relations",
-                "url": "https://investors.websterbank.com/News--Events/news-releases/news-details/2026/Webster-Financial-Corporation-Enters-Into-Merger-Agreement-With-Banco-Santander-S-A--for-12-3-Billion/default.aspx",
-                "date": "2026-02-02",
-                "quote": "the transaction has an aggregate value of approximately $12.3 billion... Webster stockholders will receive $48.75 in cash and 2.0548 Santander American Depository Shares for each Webster common share",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "2026년 2분기 실적(2026-07-21 발표)은 시장 예상치를 하회했으므로 이번 거래량 폭증의 원인은 실적이 아니다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Webster Financial (WBS) Q2 Earnings and Revenues Miss Estimates",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/webster-financial-wbs-q2-earnings-and-revenues-miss-estimates",
-                "date": "2026-07-21",
-                "quote": "Webster Financial (WBS) Q2 Earnings and Revenues Miss Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "confidence": "high",
-        "isHighlight": true,
-        "ticker": "WBS",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "모든 claims 검증 완료. 규제 승인 날짜(2026-08-04), 거래 종결일(2026-08-20), 거래규모($12.3B=123억달러), 주당 보상($48.75+ADS 2.0548주), 2분기 실적 miss 모두 출처와 정합. Category 5 적절."
-        }
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "EQR",
+      "ticker": "MRCY",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "price": 113.36000061035156,
+      "volx": 2.28,
+      "volSurgeWk": 2.99,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 71.43,
+      "high52": 88.25,
+      "adr": 5.43,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 499,
+        "rangePct": 86
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "MAA-I",
       "sector": "Real Estate",
       "industry": "REIT - Residential",
-      "price": 65.97000122070312,
-      "volx": 2.09,
-      "volSurgeWk": 2.09,
+      "price": 53.584999084472656,
+      "volx": 2.28,
+      "volSurgeWk": 1.64,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 53.85,
-      "high52": 92.27,
-      "adr": 1.83,
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 24.2
-      },
-      "catalyst": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
-      }
-    },
-    {
-      "ticker": "ESTC",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "price": 86.68000030517578,
-      "volx": 2.07,
-      "volSurgeWk": 1.39,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 75.53,
-      "high52": 90.23,
-      "adr": 5.01,
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 108.35
-      },
-      "catalyst": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
-      }
-    },
-    {
-      "ticker": "BMNP",
-      "sector": "N/A",
-      "industry": "N/A",
-      "price": 90.5999984741211,
-      "volx": 1.99,
-      "volSurgeWk": 3.27,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 43.27,
-      "high52": 99.12,
-      "adr": 1.54,
+      "clsPos": 33.78,
+      "high52": 96.38,
+      "adr": 1.01,
       "congestion": {
         "ok": false,
         "phase": "none",
-        "phaseKo": "봉 부족 — 판정불가",
-        "bars": 42
+        "phaseKo": "봉 없음 — 판정불가"
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "ASO",
-      "sector": "Consumer Cyclical",
-      "industry": "Specialty Retail",
-      "price": 47.98500061035156,
-      "volx": 1.97,
-      "volSurgeWk": 2.13,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 36.33,
-      "high52": 77.3,
-      "adr": 3.57,
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 42.83
-      },
-      "catalyst": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
-      }
-    },
-    {
-      "ticker": "NMM",
-      "sector": "Industrials",
-      "industry": "Marine Shipping",
-      "price": 81.87999725341797,
-      "volx": 1.83,
-      "volSurgeWk": 2.69,
+      "ticker": "FN",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "price": 598.5800170898438,
+      "volx": 2.21,
+      "volSurgeWk": 2.35,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 63.21,
-      "high52": 98.92,
-      "adr": 3.02,
+      "clsPos": 83.96,
+      "high52": 79.93,
+      "adr": 6.49,
       "congestion": {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 42.09
+        "bars": 499,
+        "rangePct": 85.54
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "OPY",
-      "sector": "Financial Services",
-      "industry": "Capital Markets",
-      "price": 116.33999633789062,
-      "volx": 1.72,
-      "volSurgeWk": 2.13,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 73.47,
-      "high52": 94.57,
-      "adr": 3.93,
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 50.97
-      },
-      "catalyst": {
-        "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
-      }
-    },
-    {
-      "ticker": "SUI",
-      "sector": "Real Estate",
-      "industry": "REIT - Residential",
-      "price": 123.29000091552734,
-      "volx": 1.64,
-      "volSurgeWk": 3.66,
+      "ticker": "NYAX",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "price": 48.0099983215332,
+      "volx": 2.21,
+      "volSurgeWk": 0.97,
       "aboveMa150": false,
       "brk60d": false,
-      "clsPos": 7.38,
-      "high52": 91.08,
-      "adr": 2.05,
+      "clsPos": 14.84,
+      "high52": 62.46,
+      "adr": 2.96,
       "congestion": {
         "ok": true,
-        "phase": "base",
-        "phaseKo": "6개월 횡보 베이스 형성 중",
-        "baseHigh": 137.85,
-        "baseLow": 117.46,
-        "baseBars": 126,
-        "baseMonths": 6,
-        "rangePct": 17.36,
-        "contraction": 0.75,
-        "pivot": 137.85,
-        "distToPivotPct": -10.56,
-        "aboveMa150AtNow": false,
-        "buyTrigger": {
-          "price": 137.85,
-          "note": "$137.85(저항선) 거래량 동반 돌파 시 진입 검토"
-        },
-        "score": 50
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 499,
+        "rangePct": 54.09
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "SUI",
-        "category": 5,
-        "categoryName": "매크로·정책·산업 돌파 (S&P 지수 편입)",
-        "company": "선 커뮤니티스(Sun Communities, SUI)는 미국·영국·캐나다에서 이동식주택(모바일홈) 커뮤니티, RV(레저용 차량) 리조트, 마리나(보트 정박시설)를 소유·운영하는 부동산투자신탁(REIT)이다. 입주민과 이용객에게 부지·구획·계류장을 임대해주고 월 임대료를 받는 방식으로 수익을 낸다.",
-        "volumeExplanation": "2026년 8월 13일 S&P 다우존스 지수(S&P Dow Jones Indices)가 \"선 커뮤니티스가 8월 20일 개장 전에 S&P 중형주 400지수(S&P MidCap 400)에 편입되어 웹스터 파이낸셜(Webster Financial, WBS)을 대체한다\"고 공식 발표했다. 웹스터 파이낸셜이 방코 산탄데르(Banco Santander)에 인수되면서 지수에서 빠지게 된 자리를 선 커뮤니티스가 채우는 구조다. 이 발표는 오늘(8월 17~18일) 기준 불과 4~5일 전에 나왔고, 편입 효력 발생일(8월 20일)을 코앞에 두고 있어 지수를 추종하는 인덱스펀드들의 선제적 매수가 이번 거래량 증가의 핵심 원인으로 보인다 — 거래대금이 20일 평균 대비 1.64배(VOL_X), 주간 거래량은 직전 5일 평균 대비 3.66배로 뛴 수치와 시점이 맞아떨어진다. 다만 이 상승은 실적 호재가 아니다 — 7월 27일 발표된 2분기 실적은 순손실과 매출 감소를 기록해 어닝 서프라이즈(호재①)에는 해당하지 않는다. 60일 신고가 돌파는 없었고 150일 이동평균선 아래에 머물러 있다는 점도, 이번 거래량 급증이 실적 기반 재평가가 아니라 지수 편입에 따른 기계적 수급 이벤트임을 뒷받침한다. 52주 고점 대비 91.08% 수준에서 6개월째 폭 17.36%의 횡보 베이스를 형성해온 종목이 지수 편입 뉴스를 계기로 매수세가 유입된 모습이다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "S&P 다우존스 지수는 2026년 8월 13일, 선 커뮤니티스(SUI)가 8월 20일 개장 전 S&P 중형주 400지수(S&P MidCap 400)에 편입되어 웹스터 파이낸셜(WBS)을 대체한다고 발표했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Reddit Set to Join S&P 500 and Sun Communities to Join S&P MidCap 400",
-                "publisher": "S&P Global / S&P Dow Jones Indices",
-                "url": "https://press.spglobal.com/2026-08-13-Reddit-Set-to-Join-S-P-500-and-Sun-Communities-to-Join-S-P-MidCap-400",
-                "date": "2026-08-13",
-                "quote": "Sun Communities Inc. (NYSE: SUI) will replace Webster Financial Corp. (NYSE: WBS) in the S&P MidCap 400 effective prior to the opening of trading on Thursday, August 20.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "웹스터 파이낸셜이 방코 산탄데르에 인수되는 절차가 마무리 단계에 있어 S&P 중형주 400지수에서 제외되고, 그 빈자리를 선 커뮤니티스가 채우게 된다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Reddit Set to Join S&P 500 and Sun Communities to Join S&P MidCap 400",
-                "publisher": "S&P Global / S&P Dow Jones Indices",
-                "url": "https://press.spglobal.com/2026-08-13-Reddit-Set-to-Join-S-P-500-and-Sun-Communities-to-Join-S-P-MidCap-400",
-                "date": "2026-08-13",
-                "quote": "Banco Santander S.A. (BMEX / NYSE: SAN) is acquiring Webster Financial in a deal expected to be completed soon pending final conditions.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "직전 실적 발표(2분기, 2026년 7월 27일)는 순손실과 매출 감소로 마감돼, 이번 거래량 급증이 어닝 서프라이즈(호재①)에 의한 것은 아니다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Sun Communities Reports Q2 Net Loss As Revenue Declines",
-                "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/sun-communities-reports-q2-net-loss-revenue-declines",
-                "date": "2026-07-27",
-                "quote": "Sun Communities Reports Q2 Net Loss As Revenue Declines",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "제공된 SUI 전용 자료(_t4/SUI.json)의 뉴스 목록에도 2026-08-14자로 'Reddit To Join S&P 500' 기사가 SUI를 함께 언급하며 이 지수 편입 이벤트를 다루고 있다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Reddit To Join S&P 500",
-                "publisher": "RTTNews (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/reddit-join-sp-500",
-                "date": "2026-08-14",
-                "quote": "Reddit To Join S&P 500",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "confidence": "high",
-        "isHighlight": true,
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "S&P MidCap 400 편입 촉매가 명확함 (2026-08-13 공식 발표, 편입 효력 2026-08-20). 웹스터 파이낸셜 인수 대체 구조. 직전 실적(7-27)은 순손실·매출 감소로 이번 거래량은 지수 편입 기계적 수급. volumeExplanation의 거래량 배수는 claim 미지원이나 분류는 타당."
-        }
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "AVGO",
+      "ticker": "UI",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "price": 583.6699829101562,
+      "volx": 2.13,
+      "volSurgeWk": 2.22,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 46.52,
+      "high52": 53.13,
+      "adr": 3.32,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 499,
+        "rangePct": 112.54
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "SMTC",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "price": 392.989990234375,
-      "volx": 1.6,
-      "volSurgeWk": 2.09,
+      "price": 154.22000122070312,
+      "volx": 2.09,
+      "volSurgeWk": 2.13,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 18.71,
-      "high52": 79.52,
-      "adr": 3.7,
+      "clsPos": 86.84,
+      "high52": 86.96,
+      "adr": 7.16,
       "congestion": {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 70.71
+        "bars": 499,
+        "rangePct": 156.43
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "FDS",
+      "ticker": "BHF",
       "sector": "Financial Services",
-      "industry": "Financial Data & Stock Exchanges",
-      "price": 283.489990234375,
-      "volx": 1.58,
-      "volSurgeWk": 2.02,
-      "aboveMa150": true,
+      "industry": "Insurance - Life",
+      "price": 55.7400016784668,
+      "volx": 2.03,
+      "volSurgeWk": 2.07,
+      "aboveMa150": false,
       "brk60d": false,
-      "clsPos": 47.9,
-      "high52": 74.36,
-      "adr": 3.95,
+      "clsPos": 3.88,
+      "high52": 83.44,
+      "adr": 2.4,
       "congestion": {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 59.77
+        "bars": 499,
+        "rangePct": 13.97
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "ECPG",
+      "sector": "Financial Services",
+      "industry": "Credit Services",
+      "price": 103.68000030517578,
+      "volx": 1.98,
+      "volSurgeWk": 2.27,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 30.85,
+      "high52": 98.76,
+      "adr": 4.24,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 499,
+        "rangePct": 84.82
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "FLXS",
+      "sector": "Consumer Cyclical",
+      "industry": "Furnishings, Fixtures & Appliances",
+      "price": 70.86000061035156,
+      "volx": 1.98,
+      "volSurgeWk": 2.25,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 14.33,
+      "high52": 88.91,
+      "adr": 3.9,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 499,
+        "rangePct": 85.35
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "VIST",
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "price": 72.16000366210938,
+      "volx": 1.95,
+      "volSurgeWk": 2.59,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 68.64,
+      "high52": 88.61,
+      "adr": 3.65,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 499,
+        "rangePct": 54.2
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
       "ticker": "PLBC",
       "sector": "Financial Services",
       "industry": "Banks - Regional",
-      "price": 63.08000183105469,
-      "volx": 1.41,
-      "volSurgeWk": 2.27,
+      "price": 62.47999954223633,
+      "volx": 1.91,
+      "volSurgeWk": 2.54,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 35.21,
-      "high52": 98.56,
-      "adr": 2.44,
+      "clsPos": 47.4,
+      "high52": 97.62,
+      "adr": 2.4,
       "congestion": {
         "ok": true,
         "baseHigh": 58.4,
@@ -1704,149 +644,139 @@ window.TEAM4_DATA = {
         "score": 45,
         "buyTrigger": {
           "price": 58.4,
-          "note": "과확장(피봇 +8.01% > 3×ADR 7.32%) — 되돌림 대기"
+          "note": "과확장(피봇 +8.01% > 3×ADR 7.2%) — 되돌림 대기"
         }
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "PLBC",
-        "category": 1,
-        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
-        "company": "Plumas Bancorp는 미국 네바다주 리노(원래는 캘리포니아 캘리포니아·네바다 접경 지역 기반)에 본사를 둔 지방은행 지주회사로, 자회사인 Plumas Bank를 통해 개인과 중소기업을 상대로 예금, 상업대출, 부동산·농업대출, 자동차대출, 소상공인 정부보증대출(SBA) 등을 취급한다. 즉 동네 상업은행이 돈을 빌려주고 이자를 받아 버는 전형적인 지방은행(Regional Bank) 사업 구조다.",
-        "volumeExplanation": "2026년 7월 15일 Plumas Bancorp가 2분기 실적을 발표했고, 이는 SEC 8-K 공시(item 2.02, 실적발표)로 공식 확인됐다. 같은 날 Zacks는 \"PLBC Beats Q2 Earnings and Revenue Estimates\"라는 제목으로 이 회사가 시장 예상치를 웃도는 실적을 냈다고 보도했다. 이틀 뒤인 7월 17일 Zacks는 이 종목을 매수(Buy)로 상향했고, 7월 16일에는 Piper Sandler의 애널리스트 Matthew Clark이 목표주가를 66달러에서 69달러로 올리면서 비중확대(Overweight) 의견을 유지했다. 이런 실적 호조와 잇단 애널리스트 목표가 상향이 맞물리며 주가가 52주 최고가의 98.56%까지 올라섰고, 6월 26일에는 평소 거래량의 2.72배를 동반한 베이스(횡보 구간) 돌파도 나왔다. 다만 8월 17일 현재는 거래대금이 20일 평균 대비 1.41배, 주간 거래량이 5일 평균 대비 2.27배로 예전만큼 강하지 않고, 60일 신고가 갱신도 없으며 종가강도도 35.21로 약해서, 7월 실적발표·목표가 상향 랠리 이후 관심이 식으면서 과확장(overextended) 구간에서 숨고르기가 이어지는 모습이다. 8월 들어서는 7월 31일 배당락 안내(\"PLBC Ex-Dividend Reminder - 8/3/26\") 외에 새로운 재료 뉴스가 확인되지 않는다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
-          },
-          {
-            "id": "c2",
-            "statement": "Zacks는 PLBC가 2분기 실적과 매출 모두 시장 예상치를 상회(beat)했다고 보도했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Plumas Bancorp (PLBC) Beats Q2 Earnings and Revenue Estimates",
-                "publisher": "Zacks (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/plumas-bancorp-plbc-beats-q2-earnings-and-revenue-estimates",
-                "date": "2026-07-15",
-                "quote": "Plumas Bancorp (PLBC) Beats Q2 Earnings and Revenue Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "실적 발표 이틀 뒤인 7월 17일 Zacks가 PLBC를 매수(Buy)로 상향했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Plumas Bancorp (PLBC) Upgraded to Buy: Here's Why",
-                "publisher": "Zacks (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/plumas-bancorp-plbc-upgraded-buy-heres-why",
-                "date": "2026-07-17",
-                "quote": "Plumas Bancorp (PLBC) Upgraded to Buy: Here's Why",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "Piper Sandler 애널리스트 Matthew Clark이 2026년 7월 16일 목표주가를 66달러에서 69달러로 올리며 비중확대(Overweight) 의견을 유지했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Piper Sandler Maintains Overweight on Plumas, Raises Price Target to $69",
-                "publisher": "Sahm Capital",
-                "url": "https://www.sahmcapital.com/news/content/piper-sandler-maintains-overweight-on-plumas-raises-price-target-to-69-2026-07-16",
-                "date": "2026-07-16",
-                "quote": "Piper Sandler analyst Matthew Clark maintains Plumas (NASDAQ: PLBC) with a Overweight and raises the price target from $66 to $69.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c5",
-            "statement": "7월 27일에는 배당주로서의 매력을 다룬 기사가 나왔고, 7월 31일에는 8월 3일 배당락을 앞둔 안내 기사가 나왔다 — 이는 실적 재료라기보다 통상적인 배당 일정 안내다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Why Plumas Bancorp (PLBC) is a Great Dividend Stock Right Now",
-                "publisher": "Zacks (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/why-plumas-bancorp-plbc-great-dividend-stock-right-now",
-                "date": "2026-07-27",
-                "quote": "Why Plumas Bancorp (PLBC) is a Great Dividend Stock Right Now",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "PLBC Ex-Dividend Reminder - 8/3/26",
-                "publisher": "BNK Invest (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/plbc-ex-dividend-reminder-8-3-26",
-                "date": "2026-07-31",
-                "quote": "PLBC Ex-Dividend Reminder - 8/3/26",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c6",
-            "statement": "오늘(8월 17~18일) 시점 기준으로는 7월 31일 배당락 안내 이후 새로운 재료 뉴스가 검색에서 확인되지 않았고, 현재의 완만한 거래량 증가(VOL_X 1.41배)는 7월 실적·목표가 상향 랠리의 여운에 가깝다.",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "confidence": "medium",
-        "isHighlight": true,
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "모든 claims 검증 완료. 2분기 실적 발표(2026-07-15, 8-K item 2.02), 실적 beat(Zacks 보도), Zacks 상향(2026-07-17), Piper Sandler 목표가 상향 $66→$69(2026-07-16), 배당 관련 기사(2026-07-27, 2026-07-31) 모두 출처와 정합. Category 1 적절."
-        }
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "UCTT",
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "price": 84.93000030517578,
-      "volx": 1.38,
-      "volSurgeWk": 2.1,
+      "ticker": "ECL",
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "price": 275.8399963378906,
+      "volx": 1.83,
+      "volSurgeWk": 2.62,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 64.69,
+      "high52": 89.67,
+      "adr": 1.99,
+      "congestion": {
+        "ok": true,
+        "phase": "base",
+        "phaseKo": "6개월 횡보 베이스 형성 중",
+        "baseHigh": 309.27,
+        "baseLow": 243.15,
+        "baseBars": 126,
+        "baseMonths": 6,
+        "rangePct": 27.19,
+        "contraction": 0.85,
+        "pivot": 309.27,
+        "distToPivotPct": -10.72,
+        "aboveMa150AtNow": true,
+        "buyTrigger": {
+          "price": 309.27,
+          "note": "$309.27(저항선) 거래량 동반 돌파 시 진입 검토"
+        },
+        "score": 20
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "BWXT",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "price": 171.5399932861328,
+      "volx": 1.79,
+      "volSurgeWk": 2.46,
       "aboveMa150": false,
       "brk60d": false,
-      "clsPos": 15.71,
-      "high52": 58.89,
-      "adr": 9.69,
+      "clsPos": 32,
+      "high52": 71.03,
+      "adr": 3.77,
       "congestion": {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 501,
-        "rangePct": 196.08
+        "bars": 499,
+        "rangePct": 53.93
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "NEE-S",
-      "sector": "Utilities",
-      "industry": "Utilities - Regulated Electric",
-      "price": 53.11000061035156,
-      "volx": 0.5,
-      "volSurgeWk": 2.28,
+      "ticker": "GE",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "price": 369.42999267578125,
+      "volx": 1.62,
+      "volSurgeWk": 2.03,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 47.68,
+      "high52": 95.01,
+      "adr": 2.41,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 499,
+        "rangePct": 44.6
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "GPI",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto & Truck Dealerships",
+      "price": 259.67999267578125,
+      "volx": 1.44,
+      "volSurgeWk": 2.31,
       "aboveMa150": false,
       "brk60d": false,
-      "clsPos": 92.31,
-      "high52": 89.64,
-      "adr": 1.6,
+      "clsPos": 29.93,
+      "high52": 53.42,
+      "adr": 4.55,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 499,
+        "rangePct": 45.85
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "USB-A",
+      "sector": "N/A",
+      "industry": "N/A",
+      "price": 769.594970703125,
+      "volx": 1.25,
+      "volSurgeWk": 2.1,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": -0.12,
+      "high52": 97.46,
+      "adr": 0.34,
       "congestion": {
         "ok": false,
         "phase": "none",
@@ -1854,83 +784,134 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "PRK",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "price": 205.52999877929688,
+      "volx": 1.12,
+      "volSurgeWk": 2.06,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 21.86,
+      "high52": 95.6,
+      "adr": 2.79,
+      "congestion": {
+        "ok": true,
+        "baseHigh": 192.77,
+        "baseLow": 150.13,
+        "baseBars": 126,
+        "baseMonths": 6,
+        "rangePct": 28.4,
+        "breakoutDate": "2026-07-28",
+        "breakoutVolX": 3.64,
+        "barsSinceBreakout": 13,
+        "aboveMa150AtBreak": true,
+        "ma150AtBreak": 170.06,
+        "pivot": 192.77,
+        "distToPivotPct": 7.79,
+        "retestDate": "2026-08-10",
+        "retestVolRatio": 0.6,
+        "dryUp": true,
+        "phase": "breakout",
+        "phaseKo": "거래량 동반 저항 돌파",
+        "score": 70,
+        "buyTrigger": {
+          "price": 192.77,
+          "note": "되돌림 시 $192.77 지지 확인 후 진입"
+        }
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "GOOGN",
+      "sector": "N/A",
+      "industry": "N/A",
+      "price": 48.709999084472656,
+      "volx": 1.06,
+      "volSurgeWk": 2.23,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 36.84,
+      "high52": 88.12,
+      "adr": 2.2,
+      "congestion": {
+        "ok": false,
+        "phase": "none",
+        "phaseKo": "봉 부족 — 판정불가",
+        "bars": 51
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "BA-A",
+      "sector": "N/A",
+      "industry": "N/A",
+      "price": 69.5199966430664,
+      "volx": 0.94,
+      "volSurgeWk": 6.2,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 6.94,
+      "high52": 88.31,
+      "adr": 2.23,
+      "congestion": {
+        "ok": false,
+        "phase": "none",
+        "phaseKo": "봉 없음 — 판정불가"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "AMBA",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "price": 78.54000091552734,
+      "volx": 0.78,
+      "volSurgeWk": 2.03,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 12.93,
+      "high52": 81.23,
+      "adr": 7.13,
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 499,
+        "rangePct": 99.5
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     }
   ],
   "byPhase": {
-    "none": 22,
-    "breakout": 1,
-    "base": 3,
-    "retest": 1,
-    "extended": 1
+    "none": 30,
+    "base": 2,
+    "extended": 1,
+    "breakout": 1
   },
   "research_coverage": {
-    "done": 12,
-    "total": 28,
-    "cap": 12,
-    "pending": 16,
-    "failed": 0,
-    "note": "28종목 중 12종목을 조사했습니다. 나머지 16종목은 상한(12) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다. 자금이 들어오는 업종 · 거래대금 급증 순으로 우선 조사합니다."
-  },
-  "llm": {
-    "highlights": [
-      {
-        "ticker": "DIOD",
-        "category": 1,
-        "oneLine": "2분기 매출 4억4550만 달러(YoY +22%, QoQ +10%)·비GAAP EPS 0.70달러로 전년 대비 2배 이상, 6분기 연속 두 자릿수 성장에 3분기 가이던스를 매출 5.1억 달러·EPS 1.05달러로 상향 — ElevATE 반도체 2.5억 달러 전액 현금 인수까지 얹힌 가장 정석적인 EP."
-      },
-      {
-        "ticker": "CHEF",
-        "category": 1,
-        "oneLine": "7월 29일 8-K(item 2.02) 2분기 매출·순이익 대폭 증가와 2026년 매출 가이던스 45억~46억 달러 상향, 발표 후 7거래일 연속 상승 누적 23% 급등 — 2주 뒤에도 마진 개선 후속기사가 이어지며 한 달 10.7% 상승으로 모멘텀 생존."
-      },
-      {
-        "ticker": "DKL",
-        "category": 1,
-        "oneLine": "GAAP EPS 0.54달러로 예상치 0.92달러를 하회했으나 조정 EBITDA 분기 사상 최대·54분기 연속 분배금 인상이 시장을 움직여 Zacks Hold→Strong Buy, Raymond James 목표가 57→60달러 — 7월 28일 실적 전망치 상향 보도가 7월 31일 박스권 돌파 직전에 나온 것이 핵심."
-      },
-      {
-        "ticker": "NYAX",
-        "category": 1,
-        "oneLine": "2분기 매출 1억2259만 달러(컨센 1억1675만 상회, YoY +28%)·EPS 0.14달러(컨센 0.09달러 대비 +0.05)로 더블 비트했지만 잉여현금흐름 전환율 가이던스를 5~10%로 낮춰 당일 약 10% 급락 — KBW 사크라니는 과잉반응·매력적 진입 시점이라 평가."
-      },
-      {
-        "ticker": "PLBC",
-        "category": 1,
-        "oneLine": "7월 15일 8-K(item 2.02) 2분기 실적·매출 동반 비트, 7월 16일 Piper Sandler 목표가 66→69달러(Overweight 유지), 7월 17일 Zacks 매수 상향 — 다만 7월 31일 배당락 안내 이후 신규 재료가 없고 거래대금 배수(VOL_X) 1.41배에 그쳐 한 달 지난 랠리의 여운 구간."
-      },
-      {
-        "ticker": "WBS",
-        "category": 5,
-        "oneLine": "8월 4일 산탄데르-웹스터 공동으로 연준 인수 승인 발표(8-K 2026-08-05, item 8.01), OCC·ECB에 이은 마지막 규제 관문 통과로 8월 20일 종결 확정 — 총 123억 달러, 주당 현금 48.75달러+산탄데르 ADS 2.0548주 구조라 방향성보다 합병차익 성격의 거래량."
-      },
-      {
-        "ticker": "RDDT",
-        "category": 5,
-        "oneLine": "8월 14일 S&P500 편입 보도와 함께 당일 장중 14% 급등, 15일 후속 기사·16일 스노우플레이크 비교 고성장 기술주 기사로 3일 연속 재료 지속 — 7월 30일 실적 8-K는 배경일 뿐 트리거는 명백히 지수 편입 패시브 자금."
-      },
-      {
-        "ticker": "SUI",
-        "category": 5,
-        "oneLine": "8월 13일 S&P 다우존스가 8월 20일 개장 전 SUI의 S&P MidCap 400 편입(WBS 대체)을 발표 — 7월 27일 2분기가 순손실·매출 감소였던 만큼 실적이 아닌 순수 지수 이벤트이며, WBS 인수 종결과 한 몸으로 맞물린 연쇄 편입."
-      }
-    ],
-    "sectorSignal": "특정 섹터로 몰리지 않았다. 카테고리 1은 반도체(DIOD)·식자재 유통(CHEF)·에너지 MLP(DKL)·핀테크 결제(NYAX)·지역은행(PLBC)으로 흩어져 있고, 카테고리 5도 은행(WBS)·인터넷 플랫폼(RDDT)·주거용 리츠(SUI)로 갈라진다. 섹터 대신 두 가지 '이벤트 유형'이 뭉친 것이 이번 국면의 진짜 신호다. 첫째, 7월 말~8월 초에 집중된 2분기 실적 8-K(CHEF 7/29, DIOD 8/5, DKL 8/5, NATH 8/7)와 그 뒤를 따르는 Zacks·셀사이드 목표가 상향 — 개별 종목 재료가 아니라 어닝 시즌 후반의 구조적 파도다. 둘째, 8월 13~14일 S&P 지수 리밸런스 클러스터 — RDDT의 S&P500 편입과 SUI의 MidCap 400 편입이 같은 발표 사이클에서 나왔고, SUI가 채우는 자리가 인수 종결로 빠지는 WBS 자리라 WBS·SUI·RDDT 세 종목이 하나의 사건으로 연결된다. 즉 섹터 테마가 아니라 '어닝 시즌 잔여 + 지수 리밸런스'라는 캘린더 이벤트에 촉매가 몰린 구도다.",
-    "watchList": [
-      "DKL — 7월 28일 실적 전망치 상향 보도 직후 7월 31일 박스권을 돌파했다고 명시된 유일한 종목. 돌파 후 8월 5일 실적·8월 7일 Zacks Strong Buy 상향·8월 10일 분배금 지급으로 재료가 계단식으로 이어져, 돌파선까지 눌림이 나오면 리테스트 관찰 1순위.",
-      "CHEF — 7월 29일 실적 갭 이후 7거래일 연속 23% 급등해 이미 확장 국면. 신규 진입보다 급등분을 되돌린 뒤 첫 조정선을 지켜내는지가 관건이며, 발표 2주 후에도 후속 애널리스트 기사가 나올 만큼 재료 수명은 남아 있다.",
-      "PLBC — 7월 실적·목표가 상향 랠리 이후 신규 재료 공백 상태에서 VOL_X 1.41배의 완만한 거래량만 유지. 재료 소멸 후 눌림을 소화하는 전형적 구간이라, 거래량이 다시 살아나며 7월 고점을 재돌파하는지만 확인하면 되는 관망 대상.",
-      "NYAX — 더블 비트에도 잉여현금흐름 가이던스 하향으로 당일 10% 급락. 실적 본체는 훼손되지 않았으므로 급락 저점이 지지선이 되는지, 실적 갭 자리를 회복하는지가 판단 기준이며 회복 실패 시 EP 자격 상실.",
-      "DIOD — 8월 5일 실적 이후 8월 12일 콘퍼런스콜 기사, 8월 13일 Zacks 모멘텀 리스트 편입까지 재료가 가장 최근까지 이어진 종목. 실적 갭 상단을 지켜내는 한 눌림 리테스트 후보로 우선순위가 높다.",
-      "RDDT — 8월 14일 편입 급등은 8월 20일 전후 실제 편입일까지 패시브 매수가 예정된 이벤트성 수급. 편입 완료 후 되돌림 자리에서 지지가 확인되는지를 봐야 하며, 그 전 추격은 이벤트 소멸 리스크가 크다."
-    ],
-    "caution": "이 분류는 뉴스·SEC 공시 검색과 거래량 배수에만 기댄 사후 해석이라 한계가 뚜렷하다. 첫째, 카테고리 6(HL-B, JDZG, NATH, NEN)은 '촉매를 못 찾았다'는 뜻이지 '숨은 호재가 있다'는 뜻이 아니다. HL-B는 전용 뉴스 3건이 모두 종목을 직접 언급하지 않는 시황 기사(direct:false)에 SEC 공시도 없고, JDZG는 전용 자료가 2024년 12월 기사뿐이며 8월 7일 6-K(공동CEO 사임)와 7월 31일 나스닥 거래정지 해제 모두 거래량 급증일과 10일~2주 이상 시차가 난다. 검색 커버리지 부족이나 얕은 유동성의 단순 수급 왜곡을 '암묵적 호재'로 미화할 위험이 있다. 둘째, 카테고리 1 내부에서도 재료의 질이 균일하지 않다. DIOD·CHEF는 실적과 가이던스가 함께 올라간 진짜 서프라이즈지만, NYAX는 비트에도 가이던스 하향으로 10% 급락했고 DKL은 GAAP EPS가 컨센서스를 크게 하회했다. 같은 라벨이라고 같은 매매 대상으로 다루면 안 된다. 셋째, 카테고리 5의 WBS·SUI는 방향성 재료가 아니다. WBS는 8월 20일 종결이 확정된 현금+ADS 혼합 인수라 거래량의 상당 부분이 합병차익·기계적 리밸런스 매매이고, SUI는 그 빈자리를 채우는 편입 종목이다. 두 종목 모두 편입·종결일이 지나면 수급이 소멸하며 SUI는 직전 분기가 순손실·매출 감소였다. 넷째, 재료 발생일과 거래량 급증일의 시차를 이 분류가 충분히 벌점 처리하지 못한다. PLBC는 7월 중순 재료로 8월 중순 거래량을 설명하고 있고, NATH는 1월 합병계약·8월 7일 이익 후퇴 실적·8월 9일 로펌 조사 보도자료(통상적 M&A 광고성)뿐이라 신규 촉매가 없다. 다섯째, 가격·차트 데이터가 입력에 없다. 6개월 횡보 여부, 돌파 지점, 리테스트 성립 여부는 DKL의 '7월 31일 박스권 돌파' 언급 외에는 확인된 사실이 아니라 추정이므로 watchList는 반드시 실제 차트로 재검증해야 한다. 마지막으로 오늘 기준 재료가 이미 1~3주 지난 건이 다수라, 신선도가 떨어진 종목의 뒤늦은 추격은 EP의 전제 자체를 무너뜨린다."
-  },
-  "reusedFrom": null,
-  "byCategory": {
-    "1": 5,
-    "5": 3,
-    "6": 4
+    "done": 0,
+    "total": 34
   }
 };
