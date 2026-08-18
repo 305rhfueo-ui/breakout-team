@@ -533,8 +533,8 @@ window.TEAM1_DATA = {
             "url": "https://www.marketwatch.com/story/theres-a-49-chance-the-dow-will-finish-this-year-up-double-digits-heres-why-6871e569?mod=mw_rss_topstories",
             "date": "2026-08-17",
             "quote": "There's a 49% chance the Dow will finish this year up double digits. Here's why.",
-            "verified": "unverified",
-            "httpStatus": 401
+            "verified": "ok",
+            "httpStatus": 200
           }
         ]
       },
@@ -676,8 +676,8 @@ window.TEAM1_DATA = {
     "candidateCount": 14,
     "verified": {
       "checked": 210,
-      "ok": 276,
-      "unverified": 39,
+      "ok": 275,
+      "unverified": 40,
       "dead": 0,
       "stripped": 4,
       "removed": [

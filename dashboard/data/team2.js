@@ -812,7 +812,7 @@ window.TEAM2_DATA = {
                 "date": "2026-08",
                 "quote": "AXT, Inc. completed a follow-on public offering of 8,560,311 common shares at US$64.25 each, raising about US$550.0 million",
                 "verified": "ok",
-                "httpStatus": 200
+                "httpStatus": 202
               },
               {
                 "title": "Why AXT (AXTI) Is Down 7.8% After $632.5 Million Indium Phosphide Expansion Equity Raise – And What's Next",
@@ -837,7 +837,7 @@ window.TEAM2_DATA = {
                 "date": "2026-08",
                 "quote": "EV/sales is 33.14 (current) versus a five-year average of ~8.52",
                 "verified": "ok",
-                "httpStatus": 200
+                "httpStatus": 202
               }
             ]
           },
@@ -853,7 +853,7 @@ window.TEAM2_DATA = {
                 "date": "2026-08",
                 "quote": "Beta ~2.44 and volatility ~154.17 indicate extreme share-price swings",
                 "verified": "ok",
-                "httpStatus": 200
+                "httpStatus": 202
               }
             ]
           },
@@ -2512,8 +2512,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.stocktitan.net/sec-filings/AEHR/8-k-aehr-test-systems-reports-material-event-bf5c78598f6a.html",
                 "date": "2026-04-20",
                 "quote": "On April 17, 2026, Aehr Test Systems, a California corporation (the \"Company\"), fully utilized its previously announced at-the-market equity offering program and completed sales of shares of its common stock having aggregate gross proceeds of approximately $60.0 million.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 429
               }
             ]
           },
@@ -4226,8 +4226,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.stocktitan.net/sec-filings/P/10-q-everpure-inc-quarterly-earnings-report-a3f4b909ac27.html",
                 "date": "2026-05-27",
                 "quote": "Revenue $1.1 billion, up 35% year-over-year / GAAP operating income $20 million / non-GAAP operating income $159 million / 15.1% margin",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 429
               }
             ]
           },
@@ -4328,8 +4328,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.stocktitan.net/sec-filings/P/10-q-everpure-inc-quarterly-earnings-report-a3f4b909ac27.html",
                   "date": "2026-05-27",
                   "quote": "Revenue $4.41B to $4.51B / Non-GAAP operating income $820M to $860M",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 429
                 }
               ]
             },
@@ -6520,8 +6520,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.stocktitan.net/news/FET/",
                   "date": "2026-08-18",
                   "quote": "경영진의 \"전체 2026년 지표 모두 상향\"",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 429
                 }
               ]
             }
@@ -15862,8 +15862,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.stocktitan.net/sec-filings/STX/form-4-seagate-technology-holdings-plc-insider-trading-activity-4f4411fb8b57.html",
                 "date": "2026-08-03",
                 "quote": "These Ordinary Shares were sold under a Rule 10b5-1 trading plan adopted by the Reporting Person on January 29, 2026.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 429
               }
             ]
           }
@@ -19139,8 +19139,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/healthcare/articles/hinge-health-reports-record-second-200500632.html",
                 "date": "2026-08-04",
                 "quote": "Revenue increased 53% year-over-year to $212.8 million compared to revenue of $139.1 million in Q2 2025.",
-                "verified": "unverified",
-                "httpStatus": 500
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -19155,8 +19155,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/healthcare/articles/hinge-health-reports-record-second-200500632.html",
                 "date": "2026-08-04",
                 "quote": "Non-GAAP income from operations increased 136% to $61.5 million compared to $26.1 million in Q2 2025.",
-                "verified": "unverified",
-                "httpStatus": 500
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -19171,8 +19171,8 @@ window.TEAM2_DATA = {
                 "url": "https://finance.yahoo.com/healthcare/articles/hinge-health-reports-record-second-200500632.html",
                 "date": "2026-08-04",
                 "quote": "We are raising our revenue guidance to be between $856 million and $860 million, reflecting year-over-year growth of 46% at the midpoint.",
-                "verified": "unverified",
-                "httpStatus": 500
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -19273,8 +19273,8 @@ window.TEAM2_DATA = {
                   "url": "https://finance.yahoo.com/healthcare/articles/hinge-health-reports-record-second-200500632.html",
                   "date": "2026-08-04",
                   "quote": "We are raising our revenue guidance to be between $856 million and $860 million, reflecting year-over-year growth of 46% at the midpoint.",
-                  "verified": "unverified",
-                  "httpStatus": 500
+                  "verified": "ok",
+                  "httpStatus": 200
                 }
               ]
             },

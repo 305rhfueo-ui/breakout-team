@@ -632,8 +632,8 @@ window.TEAM4_DATA = {
                 "url": "https://www.stocktitan.net/news/SEB/seaboard-corporation-report-of-earnings-and-dividend-9zvmk41qbn5h.html",
                 "date": "2026-08-04",
                 "quote": "Quarterly earnings per common share were $159.74 compared with $105.22.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 429
               }
             ]
           },
