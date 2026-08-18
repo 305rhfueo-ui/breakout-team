@@ -4226,8 +4226,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.stocktitan.net/sec-filings/P/10-q-everpure-inc-quarterly-earnings-report-a3f4b909ac27.html",
                 "date": "2026-05-27",
                 "quote": "Revenue $1.1 billion, up 35% year-over-year / GAAP operating income $20 million / non-GAAP operating income $159 million / 15.1% margin",
-                "verified": "unverified",
-                "httpStatus": 429
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -4328,8 +4328,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.stocktitan.net/sec-filings/P/10-q-everpure-inc-quarterly-earnings-report-a3f4b909ac27.html",
                   "date": "2026-05-27",
                   "quote": "Revenue $4.41B to $4.51B / Non-GAAP operating income $820M to $860M",
-                  "verified": "unverified",
-                  "httpStatus": 429
+                  "verified": "ok",
+                  "httpStatus": 200
                 }
               ]
             },
@@ -6520,8 +6520,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.stocktitan.net/news/FET/",
                   "date": "2026-08-18",
                   "quote": "경영진의 \"전체 2026년 지표 모두 상향\"",
-                  "verified": "unverified",
-                  "httpStatus": 429
+                  "verified": "ok",
+                  "httpStatus": 200
                 }
               ]
             }
@@ -8375,8 +8375,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.stocktitan.net/news/AAOI/applied-optoelectronics-reports-second-quarter-2026-wjz4h91d9ngj.html",
                 "date": "2026-08-06",
                 "quote": "Q2 2026 GAAP revenue of $191.9 million",
-                "verified": "unverified",
-                "httpStatus": 429
+                "verified": "ok",
+                "httpStatus": 200
               },
               {
                 "title": "Applied Optoelectronics (AAOI) Surpasses Q2 Earnings and Revenue Estimates",
@@ -8400,8 +8400,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.stocktitan.net/news/AAOI/applied-optoelectronics-reports-second-quarter-2026-wjz4h91d9ngj.html",
                 "date": "2026-08-06",
                 "quote": "데이터센터: $107.7M (Q2 2025: $44.8M, 140% 증가) / CATV: $80.6M (Q2 2025: $56.0M, 44% 증가)",
-                "verified": "unverified",
-                "httpStatus": 429
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -8416,8 +8416,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.stocktitan.net/news/AAOI/applied-optoelectronics-reports-second-quarter-2026-wjz4h91d9ngj.html",
                 "date": "2026-08-06",
                 "quote": "We delivered record revenue for our fifth consecutive quarter and achieved an important milestone as we returned to non-GAAP profitability",
-                "verified": "unverified",
-                "httpStatus": 429
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -8432,8 +8432,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.stocktitan.net/news/AAOI/applied-optoelectronics-reports-second-quarter-2026-wjz4h91d9ngj.html",
                 "date": "2026-08-06",
                 "quote": "We saw a strong volume ramp of our 800G products, which more than doubled sequentially / we forecast that demand will continue to outpace our production capacity through mid-2027",
-                "verified": "unverified",
-                "httpStatus": 429
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -15862,8 +15862,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.stocktitan.net/sec-filings/STX/form-4-seagate-technology-holdings-plc-insider-trading-activity-4f4411fb8b57.html",
                 "date": "2026-08-03",
                 "quote": "These Ordinary Shares were sold under a Rule 10b5-1 trading plan adopted by the Reporting Person on January 29, 2026.",
-                "verified": "unverified",
-                "httpStatus": 429
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           }
