@@ -1,0 +1,202 @@
+{
+ "ticker": "ECL",
+ "news": [
+  {
+   "title": "Ecolab (ECL) Reports Q2 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/ecolab-ecl-reports-q2-earnings-what-key-metrics-have-say",
+   "date": "2026-07-28",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ECL"
+   ]
+  },
+  {
+   "title": "Ecolab (ECL) Q2 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/ecolab-ecl-q2-earnings-and-revenues-surpass-estimates",
+   "date": "2026-07-28",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ECL",
+    "MATV"
+   ]
+  },
+  {
+   "title": "Is VLTO Worth Buying as Growth Improves but Valuation Stays Rich?",
+   "url": "https://www.nasdaq.com/articles/vlto-worth-buying-growth-improves-valuation-stays-rich",
+   "date": "2026-08-06",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "VLTO",
+    "ECL",
+    "XYL"
+   ]
+  },
+  {
+   "title": "VLTO Climbs 13.2% in 3 Months: Will Its Momentum Keep Building Now?",
+   "url": "https://www.nasdaq.com/articles/vlto-climbs-132-3-months-will-its-momentum-keep-building-now",
+   "date": "2026-08-06",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "VLTO",
+    "ECL",
+    "XYL"
+   ]
+  },
+  {
+   "title": "Is ROL Stock Worth Buying After Its Sharp Six-Month Valuation Reset?",
+   "url": "https://www.nasdaq.com/articles/rol-stock-worth-buying-after-its-sharp-six-month-valuation-reset",
+   "date": "2026-07-29",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "ROL",
+    "ECL",
+    "RTO"
+   ]
+  },
+  {
+   "title": "Rollins Trends to Watch as Demand Shifts and Technology Keeps Scaling",
+   "url": "https://www.nasdaq.com/articles/rollins-trends-watch-demand-shifts-and-technology-keeps-scaling",
+   "date": "2026-07-29",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "ROL",
+    "ECL",
+    "RTO"
+   ]
+  },
+  {
+   "title": "Ecolab Q2 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/ecolab-q2-earnings-call-highlights",
+   "date": "2026-07-28",
+   "publisher": "MarketBeat",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "ECL"
+   ]
+  },
+  {
+   "title": "Ecolab Q2 26 Earnings Conference Call At 1:00 PM ET",
+   "url": "https://www.nasdaq.com/articles/ecolab-q2-26-earnings-conference-call-1-00-pm-et",
+   "date": "2026-07-28",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "ECL"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/31462/000162828026049933/ecl-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-29",
+   "reportDate": "2026-05-29",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/31462/000110465926068276/tm2615907d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-07",
+   "items": [
+    "5.02",
+    "5.07"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/31462/000110465926058710/ecl-20260507x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/31462/000110465926049822/ecl-20260428x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-15",
+   "reportDate": "2026-04-10",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/31462/000110465926043821/ecl-20260410x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-27",
+   "reportDate": "2026-03-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/31462/000110465926035705/ecl-20260327x8k.htm",
+   "description": "8-K"
+  }
+ ]
+}

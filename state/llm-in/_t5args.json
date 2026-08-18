@@ -1,5 +1,5 @@
 {
- "date": "2026-08-17",
+ "date": "2026-08-18",
  "cap": 6,
  "industries": [
   {
@@ -13,48 +13,28 @@
     "m6": 8
    },
    "wrs": {
-    "m1": 0.211,
-    "m3": 0.4735,
-    "m6": 1.5492
+    "m1": 0.188,
+    "m3": 0.4496,
+    "m6": 1.4257
    },
    "final": {
-    "m1": 0.2292,
-    "m3": 0.2607,
-    "m6": 0.6789
+    "m1": 0.2039,
+    "m3": 0.2603,
+    "m6": 0.6055
    },
    "rankPct": {
-    "m1": 2.86,
-    "m3": 1.43,
+    "m1": 1.43,
+    "m3": 0.71,
     "m6": 0.71
    },
    "members": [
-    "DELL",
     "P",
+    "DELL",
     "SNDK",
-    "STX"
+    "STX",
+    "IONQ"
    ],
    "memberNews": [
-    {
-     "ticker": "DELL",
-     "date": "2026-08-13",
-     "publisher": "Zacks",
-     "title": "Dell Technologies (DELL) Exceeds Market Returns: Some Facts to Consider",
-     "url": "https://www.nasdaq.com/articles/dell-technologies-dell-exceeds-market-returns-some-facts-consider"
-    },
-    {
-     "ticker": "DELL",
-     "date": "2026-08-13",
-     "publisher": "Zacks",
-     "title": "Will Dell Technologies (DELL) Beat Estimates Again in Its Next Earnings Report?",
-     "url": "https://www.nasdaq.com/articles/will-dell-technologies-dell-beat-estimates-again-its-next-earnings-report-0"
-    },
-    {
-     "ticker": "DELL",
-     "date": "2026-08-08",
-     "publisher": "The Motley Fool",
-     "title": "Where Will Dell Technologies Stock Be in 3 Years?",
-     "url": "https://www.nasdaq.com/articles/where-will-dell-technologies-stock-be-3-years"
-    },
     {
      "ticker": "P",
      "date": "2026-08-07",
@@ -77,25 +57,53 @@
      "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-everpure-p"
     },
     {
-     "ticker": "SNDK",
-     "date": "2026-08-15",
-     "publisher": "The Motley Fool",
-     "title": "Prediction: This Is What a $1,000 Investment in Sandisk Will Be Worth by 2030",
-     "url": "https://www.nasdaq.com/articles/prediction-what-1000-investment-sandisk-will-be-worth-2030"
-    },
-    {
-     "ticker": "SNDK",
-     "date": "2026-08-14",
-     "publisher": "The Motley Fool",
-     "title": "Sandisk Just Guided to Turning Half Its Revenue Into Free Cash Flow Through 2030",
-     "url": "https://www.nasdaq.com/articles/sandisk-just-guided-turning-half-its-revenue-free-cash-flow-through-2030"
-    },
-    {
-     "ticker": "SNDK",
-     "date": "2026-08-14",
+     "ticker": "DELL",
+     "date": "2026-08-17",
      "publisher": "Zacks",
-     "title": "Earnings Estimates Moving Higher for Sandisk Corporation (SNDK): Time to Buy?",
-     "url": "https://www.nasdaq.com/articles/earnings-estimates-moving-higher-sandisk-corporation-sndk-time-buy"
+     "title": "Dell Technologies (DELL) Is Up 8.16% in One Week: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/dell-technologies-dell-816-one-week-what-you-should-know"
+    },
+    {
+     "ticker": "DELL",
+     "date": "2026-08-13",
+     "publisher": "Zacks",
+     "title": "Dell Technologies (DELL) Exceeds Market Returns: Some Facts to Consider",
+     "url": "https://www.nasdaq.com/articles/dell-technologies-dell-exceeds-market-returns-some-facts-consider"
+    },
+    {
+     "ticker": "DELL",
+     "date": "2026-08-13",
+     "publisher": "Zacks",
+     "title": "Will Dell Technologies (DELL) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-dell-technologies-dell-beat-estimates-again-its-next-earnings-report-0"
+    },
+    {
+     "ticker": "SNDK",
+     "date": "2026-08-18",
+     "publisher": "The Motley Fool",
+     "title": "Sandisk Stock Is Down 30% From Its Peak: Is the Memory Winner Still a Screaming Buy Before September?",
+     "url": "https://www.nasdaq.com/articles/sandisk-stock-down-30-its-peak-memory-winner-still-screaming-buy-september"
+    },
+    {
+     "ticker": "SNDK",
+     "date": "2026-08-17",
+     "publisher": "The Motley Fool",
+     "title": "Why Sandisk Stock Rocketed Higher (Again) Today",
+     "url": "https://www.nasdaq.com/articles/why-sandisk-stock-rocketed-higher-again-today"
+    },
+    {
+     "ticker": "SNDK",
+     "date": "2026-08-17",
+     "publisher": "The Motley Fool",
+     "title": "Sandisk Just Gave Micron Technology Investors Great News",
+     "url": "https://www.nasdaq.com/articles/sandisk-just-gave-micron-technology-investors-great-news"
+    },
+    {
+     "ticker": "STX",
+     "date": "2026-08-17",
+     "publisher": "Zacks",
+     "title": "3 Reasons Why Growth Investors Shouldn't Overlook Seagate (STX)",
+     "url": "https://www.nasdaq.com/articles/3-reasons-why-growth-investors-shouldnt-overlook-seagate-stx"
     },
     {
      "ticker": "STX",
@@ -112,11 +120,25 @@
      "url": "https://www.nasdaq.com/articles/surging-earnings-estimates-signal-upside-seagate-stx-stock"
     },
     {
-     "ticker": "STX",
-     "date": "2026-08-13",
+     "ticker": "IONQ",
+     "date": "2026-08-17",
      "publisher": "Zacks",
-     "title": "Here's How Much You'd Have If You Invested $1000 in Seagate a Decade Ago",
-     "url": "https://www.nasdaq.com/articles/heres-how-much-youd-have-if-you-invested-1000-seagate-decade-ago"
+     "title": "IonQ Stock Up 16% Since Q2 Earnings: Should You Buy or Book Profits?",
+     "url": "https://www.nasdaq.com/articles/ionq-stock-16-q2-earnings-should-you-buy-or-book-profits"
+    },
+    {
+     "ticker": "IONQ",
+     "date": "2026-08-16",
+     "publisher": "The Motley Fool",
+     "title": "IonQ Paid $1.8 Billion for a Chip Foundry. Here's What Investors Should Know.",
+     "url": "https://www.nasdaq.com/articles/ionq-paid-18-billion-chip-foundry-heres-what-investors-should-know"
+    },
+    {
+     "ticker": "IONQ",
+     "date": "2026-08-14",
+     "publisher": "The Motley Fool",
+     "title": "CrowdStrike vs. IonQ: Which Technology Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/crowdstrike-vs-ionq-which-technology-stock-better-buy-2026"
     }
    ]
   },
@@ -131,18 +153,18 @@
     "m6": 7
    },
    "wrs": {
-    "m1": 0.1158,
-    "m3": 0.3035,
-    "m6": 0.6986
+    "m1": 0.0735,
+    "m3": 0.3274,
+    "m6": 0.5109
    },
    "final": {
-    "m1": 0.1419,
-    "m3": 0.2416,
-    "m6": 0.437
+    "m1": 0.0908,
+    "m3": 0.2509,
+    "m6": 0.334
    },
    "rankPct": {
     "m1": 12.86,
-    "m3": 5,
+    "m3": 2.14,
     "m6": 1.43
    },
    "members": [],
@@ -159,182 +181,44 @@
     "m6": 8
    },
    "wrs": {
-    "m1": 0.2879,
-    "m3": 0.0811,
-    "m6": -0.1412
+    "m1": 0.2746,
+    "m3": 0.0514,
+    "m6": -0.3351
    },
    "final": {
-    "m1": 0.2454,
-    "m3": 0.1316,
-    "m6": -0.0739
+    "m1": 0.2434,
+    "m3": 0.1163,
+    "m6": -0.17
    },
    "rankPct": {
     "m1": 0.71,
-    "m3": 50.71,
-    "m6": 96.43
-   },
-   "members": [],
-   "memberNews": []
-  },
-  {
-   "key": "Technology|Software - Infrastructure",
-   "sector": "Technology",
-   "industry": "Software - Infrastructure",
-   "count": 33,
-   "counts": {
-    "m1": 33,
-    "m3": 33,
-    "m6": 33
-   },
-   "wrs": {
-    "m1": 0.2223,
-    "m3": 0.2063,
-    "m6": 0.4469
-   },
-   "final": {
-    "m1": 0.2385,
-    "m3": 0.2456,
-    "m6": 0.424
-   },
-   "rankPct": {
-    "m1": 1.43,
-    "m3": 12.14,
-    "m6": 3.57
+    "m3": 42.86,
+    "m6": 90.71
    },
    "members": [
-    "MDB",
-    "QLYS",
-    "CRWV",
-    "PANW",
-    "CRWD",
-    "OKTA"
+    "AUGO"
    ],
    "memberNews": [
     {
-     "ticker": "MDB",
-     "date": "2026-08-14",
-     "publisher": "Zacks",
-     "title": "MongoDB (MDB) Dips More Than Broader Market: What You Should Know",
-     "url": "https://www.nasdaq.com/articles/mongodb-mdb-dips-more-broader-market-what-you-should-know"
+     "ticker": "AUGO",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "title": "Aura Minerals (AUGO) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/aura-minerals-augo-q2-2026-earnings-call-transcript"
     },
     {
-     "ticker": "MDB",
+     "ticker": "AUGO",
      "date": "2026-08-06",
-     "publisher": "Zacks",
-     "title": "Here's Why MongoDB (MDB) Fell More Than Broader Market",
-     "url": "https://www.nasdaq.com/articles/heres-why-mongodb-mdb-fell-more-broader-market-0"
-    },
-    {
-     "ticker": "MDB",
-     "date": "2026-07-23",
-     "publisher": "Zacks",
-     "title": "Here's Why MongoDB (MDB) Fell More Than Broader Market",
-     "url": "https://www.nasdaq.com/articles/heres-why-mongodb-mdb-fell-more-broader-market"
-    },
-    {
-     "ticker": "QLYS",
-     "date": "2026-08-12",
-     "publisher": "Zacks",
-     "title": "Qualys (QLYS) Upgraded to Strong Buy: Here's Why",
-     "url": "https://www.nasdaq.com/articles/qualys-qlys-upgraded-strong-buy-heres-why"
-    },
-    {
-     "ticker": "QLYS",
-     "date": "2026-08-12",
-     "publisher": "The Motley Fool",
-     "title": "Qualys (QLYS) Q2 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/qualys-qlys-q2-2026-earnings-call-transcript"
-    },
-    {
-     "ticker": "QLYS",
-     "date": "2026-08-05",
-     "publisher": "The Motley Fool",
-     "title": "Why Qualys Stock Crushed it on Wednesday",
-     "url": "https://www.nasdaq.com/articles/why-qualys-stock-crushed-it-wednesday"
-    },
-    {
-     "ticker": "CRWV",
-     "date": "2026-08-16",
-     "publisher": "The Motley Fool",
-     "title": "Is CoreWeave Stock a Buy After a Co-Founder's Latest Insider Filing? Here's What to Know",
-     "url": "https://www.nasdaq.com/articles/coreweave-stock-buy-after-co-founders-latest-insider-filing-heres-what-know"
-    },
-    {
-     "ticker": "CRWV",
-     "date": "2026-08-16",
-     "publisher": "The Motley Fool",
-     "title": "Should You Worry That Another CoreWeave Insider Sold? Here's What to Know",
-     "url": "https://www.nasdaq.com/articles/should-you-worry-another-coreweave-insider-sold-heres-what-know"
-    },
-    {
-     "ticker": "CRWV",
-     "date": "2026-08-16",
-     "publisher": "The Motley Fool",
-     "title": "CoreWeave's Operating Chief Sold Before Earnings. Here's What to Know",
-     "url": "https://www.nasdaq.com/articles/coreweaves-operating-chief-sold-earnings-heres-what-know"
-    },
-    {
-     "ticker": "PANW",
-     "date": "2026-08-13",
-     "publisher": "Zacks",
-     "title": "Palo Alto Networks (PANW) Outperforms Broader Market: What You Need to Know",
-     "url": "https://www.nasdaq.com/articles/palo-alto-networks-panw-outperforms-broader-market-what-you-need-know"
-    },
-    {
-     "ticker": "PANW",
-     "date": "2026-08-12",
-     "publisher": "Zacks",
-     "title": "Can Cloudflare's AI Security Strategy Help it Challenge PANW & ZS?",
-     "url": "https://www.nasdaq.com/articles/can-cloudflares-ai-security-strategy-help-it-challenge-panw-zs"
-    },
-    {
-     "ticker": "PANW",
-     "date": "2026-08-12",
-     "publisher": "The Motley Fool",
-     "title": "Massive Update for Palo Alto Stock Investors",
-     "url": "https://www.nasdaq.com/articles/massive-update-palo-alto-stock-investors"
-    },
-    {
-     "ticker": "CRWD",
-     "date": "2026-08-15",
-     "publisher": "The Motley Fool",
-     "title": "Should You Buy CrowdStrike Stock Before the Huge Investor Update?",
-     "url": "https://www.nasdaq.com/articles/should-you-buy-crowdstrike-stock-huge-investor-update"
-    },
-    {
-     "ticker": "CRWD",
-     "date": "2026-08-14",
-     "publisher": "The Motley Fool",
-     "title": "CrowdStrike vs. IonQ: Which Technology Stock Is a Better Buy in 2026?",
-     "url": "https://www.nasdaq.com/articles/crowdstrike-vs-ionq-which-technology-stock-better-buy-2026"
-    },
-    {
-     "ticker": "CRWD",
-     "date": "2026-08-14",
      "publisher": "BNK Invest",
-     "title": "CrowdStrike Holdings Achieves #90 Analyst Rank, Surpassing Zebra Technologies",
-     "url": "https://www.nasdaq.com/articles/crowdstrike-holdings-achieves-90-analyst-rank-surpassing-zebra-technologies"
+     "title": "How To YieldBoost Aura Minerals From 4.7% To 24.2% Using Options",
+     "url": "https://www.nasdaq.com/articles/how-yieldboost-aura-minerals-47-242-using-options"
     },
     {
-     "ticker": "OKTA",
-     "date": "2026-08-14",
-     "publisher": "The Motley Fool",
-     "title": "Massive Update for Okta Stock Investors",
-     "url": "https://www.nasdaq.com/articles/massive-update-okta-stock-investors"
-    },
-    {
-     "ticker": "OKTA",
-     "date": "2026-08-12",
-     "publisher": "Zacks",
-     "title": "Okta (OKTA) Stock Falls Amid Market Uptick: What Investors Need to Know",
-     "url": "https://www.nasdaq.com/articles/okta-okta-stock-falls-amid-market-uptick-what-investors-need-know"
-    },
-    {
-     "ticker": "OKTA",
-     "date": "2026-08-11",
-     "publisher": "Zacks",
-     "title": "Okta (OKTA) Is Considered a Good Investment by Brokers: Is That True?",
-     "url": "https://www.nasdaq.com/articles/okta-okta-considered-good-investment-brokers-true"
+     "ticker": "AUGO",
+     "date": "2026-08-06",
+     "publisher": "RTTNews",
+     "title": "Aura Minerals Inc. Q2 Income Rises",
+     "url": "https://www.nasdaq.com/articles/aura-minerals-inc-q2-income-rises"
     }
    ]
   },
@@ -349,19 +233,19 @@
     "m6": 6
    },
    "wrs": {
-    "m1": 0.1185,
-    "m3": 0.5129,
-    "m6": 0.1909
+    "m1": 0.0748,
+    "m3": 0.3884,
+    "m6": -0.0592
    },
    "final": {
-    "m1": 0.07,
-    "m3": 0.2384,
-    "m6": 0.1612
+    "m1": 0.0294,
+    "m3": 0.1568,
+    "m6": 0.0291
    },
    "rankPct": {
-    "m1": 11.43,
-    "m3": 0.71,
-    "m6": 21.43
+    "m1": 12.14,
+    "m3": 1.43,
+    "m6": 26.43
    },
    "members": [
     "SN"
@@ -401,22 +285,158 @@
     "m6": 5
    },
    "wrs": {
-    "m1": 0.0929,
-    "m3": 0.1881,
-    "m6": 0.5491
+    "m1": 0.0732,
+    "m3": 0.1472,
+    "m6": 0.3761
    },
    "final": {
-    "m1": 0.1119,
-    "m3": 0.1511,
-    "m6": 0.277
+    "m1": 0.0902,
+    "m3": 0.1382,
+    "m6": 0.2119
    },
    "rankPct": {
-    "m1": 20,
-    "m3": 16.43,
+    "m1": 13.57,
+    "m3": 10.71,
     "m6": 2.14
    },
-   "members": [],
+   "members": [
+    "NSIT"
+   ],
    "memberNews": []
+  },
+  {
+   "key": "Technology|Semiconductors",
+   "sector": "Technology",
+   "industry": "Semiconductors",
+   "count": 42,
+   "counts": {
+    "m1": 43,
+    "m3": 43,
+    "m6": 42
+   },
+   "wrs": {
+    "m1": 0.0338,
+    "m3": 0.0149,
+    "m6": 0.245
+   },
+   "final": {
+    "m1": 0.0896,
+    "m3": 0.0323,
+    "m6": 0.2417
+   },
+   "rankPct": {
+    "m1": 25,
+    "m3": 57.86,
+    "m6": 2.86
+   },
+   "members": [
+    "MXL",
+    "MRVL",
+    "NVEC",
+    "ALAB",
+    "MU",
+    "AMD"
+   ],
+   "memberNews": [
+    {
+     "ticker": "MXL",
+     "date": "2026-08-14",
+     "publisher": "Zacks",
+     "title": "Does MaxLinear (MXL) Have the Potential to Rally 31.25% as Wall Street Analysts Expect?",
+     "url": "https://www.nasdaq.com/articles/does-maxlinear-mxl-have-potential-rally-3125-wall-street-analysts-expect"
+    },
+    {
+     "ticker": "MXL",
+     "date": "2026-07-28",
+     "publisher": "Zacks",
+     "title": "The Zacks Analyst Blog Highlights MaxLinear, Marvell Technology and Broadcom",
+     "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-maxlinear-marvell-technology-and-broadcom"
+    },
+    {
+     "ticker": "MXL",
+     "date": "2026-07-27",
+     "publisher": "Zacks",
+     "title": "MaxLinear Rides on AI Infrastructure Momentum: More Upside Ahead?",
+     "url": "https://www.nasdaq.com/articles/maxlinear-rides-ai-infrastructure-momentum-more-upside-ahead"
+    },
+    {
+     "ticker": "MRVL",
+     "date": "2026-08-10",
+     "publisher": "Zacks",
+     "title": "Here's Why Marvell Technology (MRVL) Fell More Than Broader Market",
+     "url": "https://www.nasdaq.com/articles/heres-why-marvell-technology-mrvl-fell-more-broader-market"
+    },
+    {
+     "ticker": "MRVL",
+     "date": "2026-08-07",
+     "publisher": "BNK Invest",
+     "title": "See Which Recent 13F Filers Hold MRVL",
+     "url": "https://www.nasdaq.com/articles/see-which-recent-13f-filers-hold-mrvl"
+    },
+    {
+     "ticker": "NVEC",
+     "date": "2026-07-24",
+     "publisher": "Zacks",
+     "title": "NVE Corp Q1 Earnings Surge Y/Y on Strong Sales & New Products",
+     "url": "https://www.nasdaq.com/articles/nve-corp-q1-earnings-surge-y-y-strong-sales-new-products"
+    },
+    {
+     "ticker": "NVEC",
+     "date": "2026-07-23",
+     "publisher": "The Motley Fool",
+     "title": "NVE (NVEC) Q1 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/nve-nvec-q1-2027-earnings-call-transcript"
+    },
+    {
+     "ticker": "NVEC",
+     "date": "2026-07-22",
+     "publisher": "MarketBeat",
+     "title": "NVE Q1 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/nve-q1-earnings-call-highlights"
+    },
+    {
+     "ticker": "ALAB",
+     "date": "2026-08-12",
+     "publisher": "Zacks",
+     "title": "ALAB Benefits From PCIe Demand: Can It Stay Ahead of Its Competitors?",
+     "url": "https://www.nasdaq.com/articles/alab-benefits-pcie-demand-can-it-stay-ahead-its-competitors"
+    },
+    {
+     "ticker": "ALAB",
+     "date": "2026-08-11",
+     "publisher": "The Motley Fool",
+     "title": "Astera Labs (ALAB) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/astera-labs-alab-q2-2026-earnings-call-transcript"
+    },
+    {
+     "ticker": "ALAB",
+     "date": "2026-08-11",
+     "publisher": "The Motley Fool",
+     "title": "Astera Labs vs. Arm: Which Technology Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/astera-labs-vs-arm-which-technology-stock-better-buy-2026"
+    },
+    {
+     "ticker": "AMD",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "title": "Adobe vs. Advanced Micro Devices: Which Technology Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/adobe-vs-advanced-micro-devices-which-technology-stock-better-buy-2026"
+    },
+    {
+     "ticker": "AMD",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "title": "Advanced Micro Devices vs. AppLovin: Which Technology Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/advanced-micro-devices-vs-applovin-which-technology-stock-better-buy-2026"
+    },
+    {
+     "ticker": "AMD",
+     "date": "2026-08-12",
+     "publisher": "BNK Invest",
+     "title": "Notable Wednesday Option Activity: HUBG, AMD, SPCX",
+     "url": "https://www.nasdaq.com/articles/notable-wednesday-option-activity-hubg-amd-spcx"
+    }
+   ]
   }
  ]
 }

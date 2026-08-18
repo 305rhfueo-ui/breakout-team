@@ -1,0 +1,122 @@
+{
+ "ticker": "AUGO",
+ "sector": "Basic Materials",
+ "industry": "Gold",
+ "nameKo": "오라 미네랄스",
+ "detail": {
+  "fetchedAt": "2026-08-18",
+  "nameKo": "오라 미네랄스",
+  "nameEn": "AURA MINERALS INC (VG)",
+  "infomaxCode": "NAS:AUGO",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "ok": true,
+   "ticker": "AUGO",
+   "items": [
+    {
+     "title": "Aura Minerals (AUGO) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/aura-minerals-augo-q2-2026-earnings-call-transcript",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AUGO",
+      "AUGO"
+     ]
+    },
+    {
+     "title": "How To YieldBoost Aura Minerals From 4.7% To 24.2% Using Options",
+     "url": "https://www.nasdaq.com/articles/how-yieldboost-aura-minerals-47-242-using-options",
+     "date": "2026-08-06",
+     "publisher": "BNK Invest",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AUGO"
+     ]
+    },
+    {
+     "title": "Aura Minerals Inc. Q2 Income Rises",
+     "url": "https://www.nasdaq.com/articles/aura-minerals-inc-q2-income-rises",
+     "date": "2026-08-06",
+     "publisher": "RTTNews",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AUGO",
+      "AUGO"
+     ]
+    },
+    {
+     "title": "Aura Minerals (AUGO) Q2 Earnings and Revenues Miss Estimates",
+     "url": "https://www.nasdaq.com/articles/aura-minerals-augo-q2-earnings-and-revenues-miss-estimates",
+     "date": "2026-08-06",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AUGO",
+      "EU"
+     ]
+    },
+    {
+     "title": "Aura Minerals (AUGO) Earnings Expected to Grow: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/aura-minerals-augo-earnings-expected-grow-should-you-buy",
+     "date": "2026-07-29",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AUGO"
+     ]
+    },
+    {
+     "title": "Are Options Traders Betting on a Big Move in Aura Minerals Stock?",
+     "url": "https://www.nasdaq.com/articles/are-options-traders-betting-big-move-aura-minerals-stock",
+     "date": "2026-07-22",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AUGO"
+     ]
+    },
+    {
+     "title": "Wheaton Precious Metals Corp. (WPM) Earnings Expected to Grow: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/wheaton-precious-metals-corp-wpm-earnings-expected-grow-should-you-buy",
+     "date": "2026-07-30",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "WPM",
+      "AUGO"
+     ]
+    },
+    {
+     "title": "New Strong Sell Stocks for July 21st",
+     "url": "https://www.nasdaq.com/articles/new-strong-sell-stocks-july-21st",
+     "date": "2026-07-21",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "ABR",
+      "AAUC",
+      "AUGO"
+     ]
+    }
+   ],
+   "directCount": 6,
+   "total": 8,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [],
+  "krReports": {
+   "total": 0,
+   "reports": [],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}

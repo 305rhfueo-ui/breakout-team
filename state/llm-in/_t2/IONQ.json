@@ -1,0 +1,321 @@
+{
+ "ticker": "IONQ",
+ "sector": "Technology",
+ "industry": "Computer Hardware",
+ "nameKo": "아이온큐",
+ "detail": {
+  "fetchedAt": "2026-08-18",
+  "nameKo": "아이온큐",
+  "nameEn": "IONQ INC",
+  "infomaxCode": "NYS:IONQ",
+  "financials": {
+   "ok": true,
+   "ticker": "IONQ",
+   "cik": "0001824920",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-04-01",
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 80050000,
+     "profit": -337243000,
+     "netIncome": -1867742000,
+     "margin": -421.3,
+     "yoy": {
+      "revenue": 286.8,
+      "profit": -110,
+      "netIncome": -956.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodStart": "2026-01-01",
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 64668000,
+     "profit": -271507000,
+     "netIncome": 805360000,
+     "margin": -419.8,
+     "yoy": {
+      "revenue": 754.7,
+      "profit": -258.8,
+      "netIncome": 2597.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodStart": "2025-09-30",
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 61890000,
+     "profit": -228631000,
+     "netIncome": 754045000,
+     "margin": -369.4,
+     "yoy": {
+      "revenue": 428.5,
+      "profit": -195,
+      "netIncome": 472.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodStart": "2025-07-01",
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 39866000,
+     "profit": -168813000,
+     "netIncome": -1054955000,
+     "margin": -423.5,
+     "yoy": {
+      "revenue": 221.5,
+      "profit": -217.7,
+      "netIncome": -1909.6,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001824920&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "IONQ",
+   "items": [
+    {
+     "title": "IonQ Stock Up 16% Since Q2 Earnings: Should You Buy or Book Profits?",
+     "url": "https://www.nasdaq.com/articles/ionq-stock-16-q2-earnings-should-you-buy-or-book-profits",
+     "date": "2026-08-17",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "IONQ",
+      "RGTI",
+      "QBTS"
+     ]
+    },
+    {
+     "title": "IonQ Paid $1.8 Billion for a Chip Foundry. Here's What Investors Should Know.",
+     "url": "https://www.nasdaq.com/articles/ionq-paid-18-billion-chip-foundry-heres-what-investors-should-know",
+     "date": "2026-08-16",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "IONQ",
+      "IONQ"
+     ]
+    },
+    {
+     "title": "CrowdStrike vs. IonQ: Which Technology Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/crowdstrike-vs-ionq-which-technology-stock-better-buy-2026",
+     "date": "2026-08-14",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CRWD",
+      "CRWD",
+      "IONQ"
+     ]
+    },
+    {
+     "title": "IonQ Could Become a Massive Winner in the Next Phase of AI Infrastructure",
+     "url": "https://www.nasdaq.com/articles/ionq-could-become-massive-winner-next-phase-ai-infrastructure",
+     "date": "2026-08-13",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "IONQ",
+      "IONQ"
+     ]
+    },
+    {
+     "title": "IonQ (IONQ) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/ionq-ionq-q2-2026-earnings-call-transcript",
+     "date": "2026-08-13",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "IONQ",
+      "IONQ"
+     ]
+    },
+    {
+     "title": "IonQ, D-Wave or Rigetti: Which Quantum Stock Is the Best Buy After Q2?",
+     "url": "https://www.nasdaq.com/articles/ionq-d-wave-or-rigetti-which-quantum-stock-best-buy-after-q2",
+     "date": "2026-08-12",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "IONQ",
+      "RGTI",
+      "QBTS"
+     ]
+    },
+    {
+     "title": "Prediction: A $1,000 Investment in IonQ Could Be Worth This Much by 2028 as Revenue Soars 287% and Its Backlog Grows Even Faster",
+     "url": "https://www.nasdaq.com/articles/prediction-1000-investment-ionq-could-be-worth-much-2028-revenue-soars-287-and-its-backlog",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "IONQ",
+      "IONQ"
+     ]
+    },
+    {
+     "title": "Where Will IonQ Stock Be in 5 Years?",
+     "url": "https://www.nasdaq.com/articles/where-will-ionq-stock-be-5-years",
+     "date": "2026-08-11",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "IONQ",
+      "IONQ"
+     ]
+    }
+   ],
+   "directCount": 9,
+   "total": 11,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-07",
+    "reportDate": "2026-08-07",
+    "items": [
+     "3.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "3.02",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1824920/000119312526338998/ionq-20260807.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "reportDate": "2026-08-05",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1824920/000119312526335040/ionq-20260805.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "reportDate": "2026-07-31",
+    "items": [
+     "8.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1824920/000119312526327127/ionq-20260731.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "reportDate": "2026-07-28",
+    "items": [
+     "8.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1824920/000119312526321221/ionq-20260728.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-22",
+    "reportDate": "2026-06-16",
+    "items": [
+     "5.07"
+    ],
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1824920/000119312526276342/ionq-20260616.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-06",
+    "reportDate": "2026-05-06",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1824920/000119312526208923/ionq-20260506.htm",
+    "description": "8-K"
+   }
+  ],
+  "krReports": {
+   "total": 2,
+   "reports": [
+    {
+     "title": "[아이온큐 (NYS:IONQ)] [26Q2 Review] 사상 최고 매출, 문제는 하반기, 투자의견 중립 신규",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-08-05",
+     "summary": "- 2분기 매출 $80.1M, 가이던스 중간값 20% 상회- FY26 가이던스 $280~290M 상향, 하반기는 보합 함의- GAAP EPS -5.08은 워런트 평가손 비현금 요인",
+     "pages": "6",
+     "secureId": "eqlzmqeqxcqxizqgcgxclel",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzmqeqxcqxizqgcgxclel.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[아이온큐 (NYS:IONQ)] 양자주에 투자할 거면 아이온큐만한 선택이 없습니다",
+     "broker": "하나증권",
+     "analyst": "김홍식",
+     "date": "2026-04-24",
+     "summary": "- 아이온큐 투자 매력도 높음, 매수 후 장기보유하면 큰 수익률이 기대됩니다- 아이온큐가 양자컴퓨터 보급의 첨병이 될 것입니다- 투자 기대수익률 관점에서도 가장 매력적인 옵션입니다",
+     "pages": "4",
+     "secureId": "eqqxmleqegllqzkgcgxclel",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxmleqegllqzkgcgxclel.pdf",
+     "opinion": null
+    }
+   ],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}

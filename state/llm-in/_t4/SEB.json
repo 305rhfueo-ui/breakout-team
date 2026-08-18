@@ -1,0 +1,148 @@
+{
+ "ticker": "SEB",
+ "news": [
+  {
+   "title": "Seaboard (SEB) Q2 EPS Jumps 68%",
+   "url": "https://www.nasdaq.com/articles/seaboard-seb-q2-eps-jumps-68",
+   "date": "2025-07-30",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "SEB",
+    "SEB"
+   ]
+  },
+  {
+   "title": "RSI Alert: Seaboard Now Oversold",
+   "url": "https://www.nasdaq.com/articles/rsi-alert-seaboard-now-oversold",
+   "date": "2026-08-06",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "SEB"
+   ]
+  },
+  {
+   "title": "Seaboard Enters Oversold Territory",
+   "url": "https://www.nasdaq.com/articles/seaboard-enters-oversold-territory",
+   "date": "2025-10-22",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "SEB"
+   ]
+  },
+  {
+   "title": "Validea's Top Consumer Staples Stocks Based On Benjamin Graham - 6/27/2025",
+   "url": "https://www.nasdaq.com/articles/valideas-top-consumer-staples-stocks-based-benjamin-graham-6-27-2025",
+   "date": "2025-06-27",
+   "publisher": "Validea",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "SEB",
+    "SEB",
+    "ADM"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/88121/000008812126000052/seb-20260804x8k.htm",
+   "description": "SEABOARD CORPORATION 8-K DATED AUGUST 4, 2026"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/88121/000008812126000042/seb-20260505x8k.htm",
+   "description": "SEABOARD CORPORATION 8-K DATED MAY 5, 2026"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-22",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/88121/000008812126000031/seb-20260422x8k.htm",
+   "description": "SEABOARD CORPORATION 8-K DATED APRIL 22, 2026"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "reportDate": "2026-02-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/88121/000008812126000010/seb-20260212x8k.htm",
+   "description": "SEABOARD CORPORATION 8-K DATED FEBRUARY 12, 2026"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-10-28",
+   "reportDate": "2025-10-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/88121/000008812125000077/seb-20251028x8k.htm",
+   "description": "SEABOARD CORPORATION 8-K DATED OCTOBER 28, 2025"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-07-29",
+   "reportDate": "2025-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/88121/000008812125000065/seb-20250729x8k.htm",
+   "description": "SEABOARD CORPORATION 8-K DATED JULY 29, 2025"
+  }
+ ]
+}

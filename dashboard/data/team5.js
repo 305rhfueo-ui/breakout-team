@@ -521,7 +521,510 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "pending"
+    "status": "done",
+    "industries": [
+      {
+        "key": "Technology|Computer Hardware",
+        "industry": "Technology / Computer Hardware",
+        "lead": "컴퓨터 하드웨어 업종은 PC·서버·저장장치(HDD·SSD·낸드플래시)를 만드는 곳으로, 최근 AI 데이터센터 투자 확대가 이 업종 전반의 실적과 주가를 밀어올리고 있다. 샌디스크(SNDK)는 낸드 공급 부족으로 가격이 급등하며 주가가 급변동하고 있고, 아이온큐(IONQ)는 18억 달러에 반도체 파운드리를 인수해 공급망을 내재화했다. 다만 모건스탠리는 최근 메모리 랠리가 '변화율 정점'에 근접했다고 경고해 단기 되돌림 가능성도 함께 제기된다.",
+        "whyStrong": [
+          {
+            "id": "sndk-nand-shortage",
+            "statement": "샌디스크는 낸드플래시 공급 부족에 따른 가격 급등 국면에 있으며, 2026-08-17 종목뉴스 제목대로 주가가 '또다시 급등(rocketed higher again)'했다가 2026-08-18 기준 고점 대비 30% 하락한 상태로, 9월 이전 '스크리밍 바이(screaming buy)'인지가 시장의 관심사다. 마이크론에도 긍정적 신호를 준 것으로 평가된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Sandisk Stock Is Down 30% From Its Peak: Is the Memory Winner Still a Screaming Buy Before September?",
+                "publisher": "The Motley Fool (Nasdaq 경유)",
+                "url": "https://www.nasdaq.com/articles/sandisk-stock-down-30-its-peak-memory-winner-still-screaming-buy-september",
+                "date": "2026-08-18",
+                "quote": "Sandisk Stock Is Down 30% From Its Peak: Is the Memory Winner Still a Screaming Buy Before September?",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Why Sandisk Stock Rocketed Higher (Again) Today",
+                "publisher": "The Motley Fool (Nasdaq 경유)",
+                "url": "https://www.nasdaq.com/articles/why-sandisk-stock-rocketed-higher-again-today",
+                "date": "2026-08-17",
+                "quote": "Why Sandisk Stock Rocketed Higher (Again) Today",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Sandisk Just Gave Micron Technology Investors Great News",
+                "publisher": "The Motley Fool (Nasdaq 경유)",
+                "url": "https://www.nasdaq.com/articles/sandisk-just-gave-micron-technology-investors-great-news",
+                "date": "2026-08-17",
+                "quote": "Sandisk Just Gave Micron Technology Investors Great News",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "earnings",
+        "durability": "structural",
+        "keyStocks": [
+          "DELL",
+          "STX",
+          "SNDK",
+          "IONQ"
+        ],
+        "risk": "모건스탠리는 2026년 8월 기준 메모리 반도체 랠리가 '변화율 정점(peak rate of change)'에 근접했다고 경고했다. D램 실적 전망 상향 비율이 이미 약 89%로 역사적 고점에 달해 추가 상향 여지가 좁고, 생성형 AI 랠리 이후(2022년 11월~) 15~32%대의 조정이 여러 차례 있었던 만큼 이번에도 단기 되돌림 가능성이 있다(현재 약 17% 조정은 아직 역사적 범위 내). 더 구조적인 위험은 2028년경 낸드·D램 공급이 과잉으로 전환될 가능성으로, AI 인프라 투자가 예상보다 둔화되면 씨게이트·샌디스크의 '완전 소진(fully allocated)' 백로그가 풀리며 가격결정력이 약화될 수 있다. 델의 경우 AI 서버 백로그(513억 달러)가 부품(특히 메모리) 조달 지연에 좌우되므로, 메모리 공급 정상화나 반대로 부품 부족 심화 모두 매출 인식 시점을 흔들 수 있다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "dell-ai-server-backlog",
+            "stx-nearline-fully-booked",
+            "hdd-nearline-pricing-power",
+            "ionq-foundry-acquisition"
+          ],
+          "reason": "",
+          "leadFixed": true
+        },
+        "leadOriginal": "컴퓨터 하드웨어 업종은 PC·서버·저장장치(HDD·SSD·낸드플래시)를 만드는 곳으로, 최근 AI 데이터센터 투자 확대가 이 업종 전반의 실적과 주가를 밀어올리고 있다. 델 테크놀로지스(DELL)는 2026회계연도 1분기 AI 서버 매출이 전년비 757% 늘어난 161억 달러를 기록했고 백로그가 513억 달러로 불어났다. 씨게이트(STX)는 넥스트라인(nearline) HDD 생산능력이 2026년까지 이미 꽉 찼고 2027년 상반기분 주문을 받기 시작했다고 밝혔다. 샌디스크(SNDK)는 낸드 공급 부족으로 가격이 급등하며 주가가 급변동하고 있고, 아이온큐(IONQ)는 18억 달러에 반도체 파운드리를 인수해 공급망을 내재화했다. 다만 모건스탠리는 최근 메모리 랠리가 '변화율 정점'에 근접했다고 경고해 단기 되돌림 가능성도 함께 제기된다."
+      },
+      {
+        "key": "Energy|Oil & Gas Refining & Marketing",
+        "industry": "Oil & Gas Refining & Marketing",
+        "lead": "정유(Oil & Gas Refining & Marketing) 업종은 원유를 가공해 휘발유·경유 등 석유제품으로 만들어 파는 다운스트림 산업이다. 2026년 들어 원유가와 정제제품 가격의 차이를 뜻하는 크랙 스프레드(정제마진)가 사상 최고치로 벌어지면서, 마라톤 페트롤리움·발레로 에너지·필립스66 등 미국 대형 정유사 주가는 2026년 8월 17일 기준 연초 대비 80~100% 이상 급등했다. 이는 호르무즈 해협 긴장과 우크라이나의 러시아 정유시설 드론 공격으로 러시아 정제가동률이 20년래 최저 수준까지 떨어지고, 2019년 이후 미국 내 정유시설 폐쇄로 정제능력이 줄어든 상태에서 2026년 2분기 전세계 정제 생산량이 하루 450만 배럴(5.4%) 감소한 데 따른 것이다.",
+        "whyStrong": [
+          {
+            "id": "crack-spread-record-high",
+            "statement": "업종 마진 지표인 3-2-1 크랙 스프레드(원유 1배럴로 휘발유2·경유1을 정제했을 때 남는 마진)가 2026년 7월 23일 기준 전주 사상 최고치를 경신했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Refining Stocks Soar As Crack Spread Hits Record High In 2026",
+                "publisher": "Forbes",
+                "url": "https://www.forbes.com/sites/garthfriesen/2026/07/23/refining-stocks-soar-as-crack-spread-hits-record-high-in-2026/",
+                "date": "2026-07-23",
+                "quote": "The 3-2-1 crack spread hit a new high last week.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "stock-performance-2026",
+            "statement": "2026년 8월 17일 기준 발레로·마라톤 페트롤리엄 주가는 연초 대비 두 배 이상, 필립스66은 약 85% 상승했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Refiner stocks are on a nearly unprecedented run. History says it could end soon",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/08/17/refiner-stocks-are-on-a-nearly-unprecedented-run-history-says-it-could-end-soon.html",
+                "date": "2026-08-17",
+                "quote": "Valero and Marathon Petroleum shares have more than doubled in value this year while Phillips 66 is up about 85%.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "russia-refinery-outage-supply-cut",
+            "statement": "호르무즈 해협 긴장 재점화와 우크라이나의 러시아 정유시설 드론 공격이 겹치며 러시아 원유정제 가동률이 20년래 최저 수준으로 떨어졌고, 2026년 2분기 전세계 정제 생산량은 하루 450만 배럴(5.4%) 감소했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Refining Stocks Soar As Crack Spread Hits Record High In 2026",
+                "publisher": "Forbes",
+                "url": "https://www.forbes.com/sites/garthfriesen/2026/07/23/refining-stocks-soar-as-crack-spread-hits-record-high-in-2026/",
+                "date": "2026-07-23",
+                "quote": "Renewed hostilities around the Strait of Hormuz, plus sustained Ukrainian drone strikes on Russian refining infrastructure, have squeezed global refined product supply.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "us-capacity-loss-since-2019",
+            "statement": "2019년 이후 미국 내 주요 정유시설 7곳이 폐쇄·전환되며 하루 약 120만 배럴의 정제능력이 사라져, 구조적 공급 부족이 마진 강세를 뒷받침하고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Refining Stocks Soar As Crack Spread Hits Record High In 2026",
+                "publisher": "Forbes",
+                "url": "https://www.forbes.com/sites/garthfriesen/2026/07/23/refining-stocks-soar-as-crack-spread-hits-record-high-in-2026/",
+                "date": "2026-07-23",
+                "quote": "Seven major refinery closures and conversions since 2019 have removed roughly 1.2 million barrels per day",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "commodity",
+        "durability": "cyclical",
+        "keyStocks": [
+          "MPC (Marathon Petroleum)",
+          "VLO (Valero Energy)",
+          "PSX (Phillips 66)",
+          "DINO (HF Sinclair)"
+        ],
+        "risk": "이번 강세는 전쟁이라는 지정학적 프리미엄에 크게 의존하고 있어 되돌림 위험이 구조적으로 내재돼 있다. CNBC 분석(2026년 8월 17일자)에 따르면 정유업종 지수가 현재처럼 이동평균 대비 과열됐던 과거 5차례의 사례 모두 이후 6개월 수익률이 마이너스였고 평균 -10.1%를 기록했다. 호르무즈 해협 긴장이나 러시아-우크라이나 전쟁이 완화·종전되면 러시아 정제가동률이 정상화되고 미국 정유사로 쏠렸던 대체 수요가 줄어들며 크랙 스프레드가 빠르게 축소될 수 있다. Globe and Mail 기사(theglobeandmail.com)는 이 마진 강세가 \"적어도 전쟁이 해소될 때까지\"(\"At least until the war resolves\") 유효한 구조라고 명시해, 휴전이 안정적으로 정착되면 이 프리미엄이 소멸할 수 있음을 시사한다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "war-driven-acceleration"
+          ],
+          "reason": "",
+          "leadFixed": true
+        },
+        "leadOriginal": "정유(Oil & Gas Refining & Marketing) 업종은 원유를 가공해 휘발유·경유 등 석유제품으로 만들어 파는 다운스트림 산업이다. 2026년 들어 원유가와 정제제품 가격의 차이를 뜻하는 크랙 스프레드(정제마진)가 사상 최고치로 벌어지면서, 마라톤 페트롤리엄·발레로 에너지·필립스66 등 미국 대형 정유사 주가는 2026년 8월 17일 기준 연초 대비 80~100% 이상 급등했다. 이는 호르무즈 해협 긴장과 우크라이나의 러시아 정유시설 드론 공격으로 러시아 정제가동률이 20년래 최저 수준까지 떨어지고, 2019년 이후 미국 내 정유시설 폐쇄로 정제능력이 줄어든 상태에서 2026년 2분기 전세계 정제 생산량이 하루 450만 배럴(5.4%) 감소한 데 따른 것이다. 이란전쟁 발발 이후에도 정유주 상승세가 가속화되며 정유 ETF(VanEck Oil Refiners ETF)는 개전 이후 약 24% 상승했다."
+      },
+      {
+        "key": "Basic Materials|Gold",
+        "industry": "Basic Materials / Gold",
+        "lead": "Basic Materials/Gold 업종은 금 채굴·정련 기업들로 구성되며, 업종 강도(WRS, 지수 대비 초과수익률의 시총가중 평균)가 1개월 기준 0.2746(업종 상위 0.71%)로 매우 강하다. 이는 2026년 1월 말 사상 최고가(온스당 5,589달러) 이후 5~6월 저점(4,180~4,320달러, 고점 대비 20~25% 하락)까지 이어진 6개월 조정 국면(WRS -0.3351, 하위 9.29%)에서 8월 들어 반전이 나온 결과다. 8월 첫째 주 금값이 약 7% 급등하며 1월 이후 최고의 한 주를 기록했고, 이후 8월 12~14일에도 온스당 4,400달러선을 재돌파했다. 이 업종에서 2팀이 선정한 종목 AUGO(Aura Minerals)는 8월 5일 발표한 2분기 실적에서 매출이 전년 대비 76.4% 증가한 3억3,600만 달러, 순이익 2억1,770만 달러를 기록했다.",
+        "whyStrong": [
+          {
+            "id": "w1",
+            "statement": "금 선물(GCZ26)이 8월 첫째 주에만 약 7% 급등하며 '되살아났다'고 평가됐고, VanEck Gold Miners ETF(GDX)는 연초 이후(YTD) 약 5% 상승해 같은 기간 금(2%)보다 강한 상승률을 보였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Gold Miners Rally as Bullion Roars Back to Life. Here's How Investors Can Cash In.",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/commodities/articles/gold-miners-rally-bullion-roars-113002313.html",
+                "date": "2026-08",
+                "quote": "jumped about 7% in the first week of August... The VanEck Gold Miners ETF (GDX)...has gained nearly 5% year-to-date (YTD), compared with a gain of 2% for gold.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "7월 미국 고용지표가 예상 밖으로 위축되면서 연준의 금리 인상 가능성이 낮아졌고, CFTC 자료 기준 헤지펀드·자산운용사의 금 강세 베팅은 8월 4일 마감 주간 기준 6개월래 최고 수준으로 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Gold Miners Rally as Bullion Roars Back to Life. Here's How Investors Can Cash In.",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/commodities/articles/gold-miners-rally-bullion-roars-113002313.html",
+                "date": "2026-08",
+                "quote": "data showed that U.S. employers unexpectedly cut jobs in July, further dampening expectations that the Fed will raise interest rates anytime soon... hedge funds and money managers increased their bullish bets on gold to the highest level in more than six months in the week ending Aug. 4.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "8월 12일 금값이 온스당 4,400달러선을 재돌파했으며, 8월 14일에는 4,387.62달러까지 상승했다. 7월 소비자물가지수(CPI)는 전월 대비 0.1% 상승에 그쳤고 생산자물가지수(PPI) 근원 물가도 0.2% 상승에 머물러 인플레이션 둔화를 시사했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Precious Metals Market Update 8-14-2026",
+                "publisher": "Texas Precious Metals",
+                "url": "https://texmetals.com/all-news/precious-metals-market-update-8-14-2026",
+                "date": "2026-08-14",
+                "quote": "Gold advanced Friday, climbing to $4,387.62 per ounce... Wednesday's July Consumer Price Index rose just 0.1% for the month, while Thursday's Producer Price Index showed core prices increasing a modest 0.2%.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "금은 2026년 1월 28일 온스당 5,589달러로 사상 최고가를 기록한 뒤, 5~6월에는 고점 대비 20~25% 하락한 4,180~4,320달러까지 조정받았다. 이 조정 구간이 이번 업종의 6개월 업종 강도(WRS) -0.3351(업종 내 하위 9.29%)로 반영돼 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Is the Gold Correction Over? Analysts See More Downside Risk Ahead",
+                "publisher": "Canadian Mining Report",
+                "url": "https://www.canadianminingreport.com/blog/is-the-gold-correction-over-no-analysts-say-more-pain-lies-ahead",
+                "date": "2026",
+                "quote": "After climbing to an all-time high near $5,589 per ounce in late January... representing a decline of approximately 20–25% from the peak and roughly 8% over the past month alone... As of mid-to-late June 2026, spot gold trades around $4,180–$4,320 per ounce.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "macro",
+        "durability": "cyclical",
+        "keyStocks": [
+          "AUGO"
+        ],
+        "risk": "이번 강세는 실적보다 연준 정책 기대에 크게 의존한다. 7월 CPI·PPI 둔화로 형성된 금리 동결·인하 기대가 향후 지표에서 인플레이션 재가속(예: 유가 상승, 관세발 물가 압력)으로 뒤집히면 금리 인상 우려가 되살아나 달러 강세와 함께 금값이 다시 눌릴 수 있다. 실제로 2026년 1~6월에도 달러 강세와 '더 오래 높은 금리(higher-for-longer)' 전망 재부상만으로 사상 최고가 대비 20~25% 급락한 전례가 있다. 또한 AUGO의 2분기 금 생산량이 전분기 대비 8% 감소하고 판매단가는 전분기 대비 11% 하락한 만큼, 하반기 생산 목표(34만~39만 GEO)를 달성하지 못하면 업종 대표주 실적 모멘텀이 꺾일 수 있다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w5"
+          ],
+          "reason": ""
+        }
+      },
+      {
+        "key": "Consumer Cyclical|Furnishings, Fixtures & Appliances",
+        "industry": "Furnishings, Fixtures & Appliances",
+        "lead": "가구·주방기기·생활가전을 만드는 이 업종(Furnishings, Fixtures & Appliances)은 업종 내 종목수가 6개로 작은 니치 업종인데, 최근 3개월 업종 강도가 0.3884(WRS, 지수 대비 초과수익률의 시총가중 평균)로 전체 업종 중 상위 1.43%까지 올라왔다. 이 강세는 사실상 단일 종목인 SharkNinja(SN)가 이끌고 있다. SN은 2026년 8월 5일 발표한 2분기 실적에서 순매출이 전년 대비 22.2% 증가한 17억 6,550만 달러를 기록했고, 조정 주당순이익 가이던스를 6.45~6.55달러로 상향했다. 여기에 미국 관세당국으로부터 약 2억 4,710만 달러의 관세 환급까지 확정되면서 주가는 8월 10일 187.63달러로 52주 신고가를 새로 썼다.",
+        "whyStrong": [
+          {
+            "id": "earnings-beat",
+            "statement": "SharkNinja(SN)는 2026년 8월 5일 발표한 2분기 실적에서 순매출이 전년 대비 22.2% 증가한 17억 6,550만 달러를 기록해 시장 추정치(약 17억 370만 달러)를 상회했고, 이는 13분기 연속 두 자릿수 매출 성장이자 2024년 4분기 이후 가장 빠른 성장률이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SharkNinja (NYSE: SN) grows Q2 sales 22% and raises 2026 outlook",
+                "publisher": "StockTitan (SEC 8-K filing)",
+                "url": "https://www.stocktitan.net/sec-filings/SN/8-k-shark-ninja-inc-reports-material-event-c1781a5a966a.html",
+                "date": "2026-08-05",
+                "quote": "Net sales increased 22.2% to $1,765.5 million",
+                "verified": "unverified",
+                "httpStatus": 429
+              }
+            ]
+          },
+          {
+            "id": "international-growth",
+            "statement": "같은 2분기 실적에서 해외 매출은 영국·유럽·라틴아메리카 전반의 강세에 힘입어 전년 대비 약 37% 급증했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SharkNinja Inc (SN) (Q2 2026) Earnings Call Highlights: 13th Consecutive Quarter of ...",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/sharkninja-inc-sn-q2-2026-210307702.html",
+                "date": "2026-08-09",
+                "quote": "International net sales surged nearly 37% year-over-year, driven by broad-based strength across the UK, Europe, and Latin America.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "guidance-raise",
+            "statement": "회사는 2026년 연간 가이던스를 상향해 순매출 성장률을 16.0~17.0%로, 조정 주당순이익을 6.45~6.55달러로, 조정 EBITDA를 13억 5,700만~13억 6,900만 달러로 제시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SharkNinja (NYSE: SN) grows Q2 sales 22% and raises 2026 outlook",
+                "publisher": "StockTitan (SEC 8-K filing)",
+                "url": "https://www.stocktitan.net/sec-filings/SN/8-k-shark-ninja-inc-reports-material-event-c1781a5a966a.html",
+                "date": "2026-08-05",
+                "quote": "Net sales to increase 16.0% to 17.0%; Adjusted Net Income per diluted share between $6.45 and $6.55; Adjusted EBITDA between $1,357 million and $1,369 million",
+                "verified": "unverified",
+                "httpStatus": 429
+              }
+            ]
+          },
+          {
+            "id": "tariff-refund",
+            "statement": "SharkNinja는 미국 관세국경보호청(CBP)으로부터 약 2억 4,710만 달러의 관세 환급을 받아 2026년 현금흐름과 이익에 유의미한 보탬이 되고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SharkNinja (NYSE: SN) grows Q2 sales 22% and raises 2026 outlook",
+                "publisher": "StockTitan (SEC 8-K filing)",
+                "url": "https://www.stocktitan.net/sec-filings/SN/8-k-shark-ninja-inc-reports-material-event-c1781a5a966a.html",
+                "date": "2026-08-05",
+                "quote": "approximately $247.1 million tariff-refund claims",
+                "verified": "unverified",
+                "httpStatus": 429
+              }
+            ]
+          }
+        ],
+        "driver": "earnings",
+        "durability": "cyclical",
+        "keyStocks": [
+          "SN"
+        ],
+        "risk": "이 업종은 6개 종목뿐인 소규모 업종이고 3개월 강세(상위 1.43%)가 사실상 SharkNinja(SN) 한 종목의 실적 서프라이즈와 관세 환급이라는 일회성 현금흐름에 크게 의존하고 있다. 1개월 업종 강도(WRS)는 0.0748(상위 12.14%)로 3개월 대비 이미 둔화됐고, 6개월 업종 강도(WRS)는 -0.0592(상위 26.43%)로 마이너스라 장기 추세는 아직 약하다. 향후 분기에 22%대의 매출 성장률과 두 자릿수 성장 흐름이 꺾이거나, 미국의 대중국·대베트남 관세 정책이 다시 강화되어 원가 부담이 재발하거나(업계 전반에는 가구·가전 관세로 2027년까지 건설·리모델링 비용이 약 300억 달러 늘어날 것이라는 브루킹스연구소 추정도 있음), JP모건·골드만삭스 등의 목표주가(200~210달러) 근처에서 밸류에이션 부담이 커지면 이 강세는 빠르게 꺾일 수 있다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "analyst-upgrades-52w-high"
+          ],
+          "reason": "",
+          "leadFixed": true
+        },
+        "leadOriginal": "가구·주방기기·생활가전을 만드는 이 업종(Furnishings, Fixtures & Appliances)은 업종 내 종목수가 6개로 작은 니치 업종인데, 최근 3개월 업종 강도가 0.3884(WRS, 지수 대비 초과수익률의 시총가중 평균)로 전체 업종 중 상위 1.43%까지 올라왔다. 이 강세는 사실상 단일 종목인 SharkNinja(SN)가 이끌고 있다. SN은 2026년 8월 5일 발표한 2분기 실적에서 순매출이 전년 대비 22.2% 증가한 17억 6,550만 달러를 기록했고, 조정 주당순이익 가이던스를 6.45~6.55달러로 상향했다. 여기에 미국 관세당국으로부터 약 2억 4,710만 달러의 관세 환급까지 확정되면서 주가는 8월 10일 187.63달러로 52주 신고가를 새로 썼다. JP모건, 골드만삭스 등 대형 IB들이 목표주가를 200달러 안팎으로 일제히 올려잡은 점도 강세를 뒷받침한다."
+      },
+      {
+        "key": "Technology|Electronics & Computer Distribution",
+        "industry": "Technology / Electronics & Computer Distribution",
+        "lead": "Technology / Electronics & Computer Distribution 업종은 기업·정부 고객에게 서버·스토리지·네트워킹 하드웨어와 클라우드·매니지드 서비스를 공급하는 IT 유통·솔루션 기업들로 구성된다. 이 업종에서 2팀이 선정한 인사이트 엔터프라이즈(NSIT)는 2026년 8월 6일 발표한 2분기 실적에서 희석 주당순이익이 76% 급증한 2.57달러를 기록했다. 고객사들이 인공지능(AI) 구동을 위해 서버·스토리지·네트워킹 인프라를 확충하면서 인프라 하드웨어 매출이 20% 넘게 늘었다. 이에 회사는 연간 조정 주당순이익 가이던스를 중간값 12.45달러(약 16% 성장)로 상향했으며, 이는 시장조사업체 가트너가 전망한 2026년 데이터센터 시스템 지출 55.8% 증가라는 업종 전반의 흐름, 그리고 동종 유통업체 CDW의 실적 개선과도 궤를 같이한다.",
+        "whyStrong": [
+          {
+            "id": "ai_infra_hardware_demand",
+            "statement": "CEO 잭 아자거리는 2026년 8월 실적 콜에서 고객사들이 AI 대응 인프라를 구축하면서 서버·스토리지·네트워킹 수요에 힘입어 인프라 하드웨어 매출이 20% 넘게 늘었다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Insight Enterprises (NSIT) Q2 2026 Earnings Call Transcript",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/earnings/call-transcripts/2026/08/13/insight-enterprises-nsit-q2-2026-earnings-call-transcript/",
+                "date": "2026-08-13",
+                "quote": "Infrastructure hardware revenue rose more than 20%, reflecting strong demand across servers, storage and networking as clients modernize their environments.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "gartner_datacenter_forecast",
+            "statement": "가트너는 2026년 4월 23일 데이터센터 시스템 지출이 전년 대비 55.8% 증가해 7,880억 달러를 넘어설 것으로 전망하며, AI 워크로드 확산이 데이터센터 투자를 빠르게 밀어올리고 있다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Global IT spend to reach $6.31 trillion in 2026 amid data center rush",
+                "publisher": "CIO Dive",
+                "url": "https://www.ciodive.com/news/global-it-spend-exceed-6T-2026/818356/",
+                "date": "2026-04-23",
+                "quote": "Spending on data centers will grow 55.8% in 2026 and is expected to surpass $788 billion",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "cdw_peer_confirmation",
+            "statement": "동종 IT유통업체 CDW도 AI 인프라 수요 확대에 힘입어 매출이 9% 늘었으며, 경영진은 'AI 관련 투자가 2026년 내내 중요한 성장 촉매로 남을 것'이라고 밝혀 업종 전반의 수요를 확인시켰다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Can AI Infrastructure Demand Fuel CDW's Growth in 2026?",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/technology/ai/articles/ai-infrastructure-demand-fuel-cdws-135100570.html",
+                "date": "2026-08",
+                "quote": "CDW expects AI-related investments to remain an important growth catalyst throughout 2026",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "earnings",
+        "durability": "structural",
+        "keyStocks": [
+          "NSIT"
+        ],
+        "risk": "CFO 제임스 모르가도는 2026년 8월 실적 콜에서 \"메모리 가격 상승, 공급망 차질, 거시경제 불확실성을 감안해 4분기 전망에 신중을 기하고 있다\"고 밝혔고, \"하드웨어 매출총이익은 부품원가 상승으로 특히 디바이스 부문에서 올해 한 자릿수 초반 증가에 그칠 것\"이라고 덧붙였다(출처: The Motley Fool, 2026-08-13 게재 실적 콜 녹취록). 실제로 2분기 하드웨어 매출총이익률은 약 110bp 하락했고, 구글 등 클라우드 파트너 프로그램 압력이 이어지는 가운데 가이던스는 클라우드 성장률이 중고십대~20%대 초반을 유지한다는 전제에 기대고 있다(출처: Simply Wall St, 2026-08). 따라서 메모리·부품가 추가 상승이나 AI 인프라 투자 사이클 둔화(가트너의 2026년 데이터센터 지출 전망 하향 등)가 확인되면, 매출 성장은 유지되더라도 마진이 훼손되며 업종의 상대강도가 꺾일 수 있다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "q2_earnings_beat",
+            "cloud_growth_and_guidance_raise"
+          ],
+          "reason": "",
+          "leadFixed": true
+        },
+        "leadOriginal": "Technology / Electronics & Computer Distribution 업종은 기업·정부 고객에게 서버·스토리지·네트워킹 하드웨어와 클라우드·매니지드 서비스를 공급하는 IT 유통·솔루션 기업들로 구성된다. 이 업종에서 2팀이 선정한 인사이트 엔터프라이즈(NSIT)는 2026년 8월 6일 발표한 2분기 실적에서 매출이 전년 대비 15% 늘어난 24억 달러, 희석 주당순이익이 76% 급증한 2.57달러를 기록하며 시장 예상을 크게 웃돌았다. 고객사들이 인공지능(AI) 구동을 위해 서버·스토리지·네트워킹 인프라를 확충하면서 인프라 하드웨어 매출이 20% 넘게 늘었고, 클라우드 매출총이익도 39% 증가했다. 이에 회사는 연간 조정 주당순이익 가이던스를 중간값 12.45달러(약 16% 성장)로 상향했으며, 이는 시장조사업체 가트너가 전망한 2026년 데이터센터 시스템 지출 55.8% 증가라는 업종 전반의 흐름, 그리고 동종 유통업체 CDW의 실적 개선과도 궤를 같이한다."
+      },
+      {
+        "key": "Technology|Semiconductors",
+        "industry": "Technology / Semiconductors",
+        "lead": "반도체(Technology/Semiconductors) 업종은 AI 데이터센터 인프라 투자 확대를 등에 업고 강세를 이어가고 있다. 반도체산업협회(SIA) 집계 기준 2026년 5월 글로벌 반도체 판매액은 1,206억 달러로 전년 동월(591억 달러) 대비 104.1% 증가하며 15개월 연속 월간 최고치를 경신했다. 메모리 대장주 마이크론(MU)은 2026회계연도 3분기(6월24일 발표) 매출이 전년 대비 346% 급증한 414.6억 달러를 기록했고, HBM(고대역폭메모리) 3E·4세대가 2027년까지 완전 예약 판매된 상태다. AMD는 2분기(8월4일 발표) 데이터센터 매출이 107% 늘어 2배 이상으로 커졌고, 마벨(MRVL)·에스테라랩스(ALAB) 등 AI 네트워킹·연결 반도체 업체들도 매출이 28~93%대로 늘었다. 다만 이 강세는 7월 한 차례 밸류에이션 우려로 급락을 겪은 뒤 재차 반등한 흐름이어서, 6개월 구간에 비해 3개월 구간 상대강도 순위는 상대적으로 낮아진 상태다.",
+        "whyStrong": [
+          {
+            "id": "semi_sales_record",
+            "statement": "글로벌 반도체 판매액이 2026년 5월 1,206억 달러로 전년 동월(591억 달러) 대비 104.1% 증가하며 15개월 연속 월간 최고치를 경신했다(반도체산업협회 SIA 집계).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Global semi sales rise by 9.2% month-to-month in May 2026",
+                "publisher": "atreg.com (SIA 반도체산업협회 자료 인용)",
+                "url": "https://atreg.com/global-semi-sales-rise-by-9-2-percent-month-to-month-in-may-2026/",
+                "date": "2026-05",
+                "quote": "Global semiconductor sales amounted to $120.6 billion in May 2026, an increase by 9.2% compared to April 2026 ($110.5 billion) and 104.1% more than May 2025 ($59.1 billion).",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "micron_hbm_soldout",
+            "statement": "마이크론(MU)은 2026회계연도 3분기(6월24일 발표) 매출이 전년 대비 346% 급증한 414.6억 달러로 5분기 연속 매출 기록을 세웠고, HBM3E·HBM4가 2027년까지, 일부는 2028년 수요까지 완전 예약 판매됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Micron Q3 FY2026 Earnings: Revenue, AI Boom & Guidance",
+                "publisher": "TradeThePool",
+                "url": "https://tradethepool.com/fundamental/micron-q3-fy2026-earnings-revenue-ai-boom-guidance/",
+                "date": "2026-06-24",
+                "quote": "Micron Technology posted its fifth consecutive quarterly revenue record, with revenue of $41.46 billion for the third quarter of fiscal 2026. That figure is 346% higher than the same quarter a year ago and 74% above the immediately preceding quarter.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "amd_datacenter_double",
+            "statement": "AMD는 2026년 2분기(8월4일 발표) 데이터센터 매출이 전년 대비 107% 늘어난 67억 달러로 2배 이상 증가했고, 전체 매출(115억 달러, +50%)의 58%를 차지했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AMD Reports Second Quarter 2026 Earnings",
+                "publisher": "AMD Newsroom",
+                "url": "https://newsroom.amd.com/news/amd-2q-2026-earnings/",
+                "date": "2026-08-04",
+                "quote": "We delivered an excellent quarter, with record revenue and profitability as Data Center revenue more than doubled year-over-year",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "mrvl_alab_ai_networking",
+            "statement": "마벨(MRVL)은 2026년 2분기 매출이 전년 대비 28% 늘어난 24.2억 달러, 이 중 데이터센터 매출이 27% 늘어난 18.3억 달러로 전체의 76%를 차지했고, 에스테라랩스(ALAB)는 1분기 매출이 전년 대비 93.4% 늘어난 3.08억 달러를 기록했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "4 Networking Semiconductor Stocks to Watch in August 2026",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/4-networking-semiconductor-stocks-watch-135400804.html",
+                "date": "2026-07-23",
+                "quote": "MRVL's revenues rose 28% year over year to $2.42 billion, with data center up 27% to $1.83 billion",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "technology",
+        "durability": "structural",
+        "keyStocks": [
+          "MU",
+          "AMD",
+          "MRVL",
+          "ALAB",
+          "MXL",
+          "NVEC"
+        ],
+        "risk": "이 강세는 AI 데이터센터 투자가 계속 늘어난다는 전제에 크게 기대고 있다. 2026년 7월 밸류에이션 우려가 불거지며 필라델피아반도체지수(SOX)가 10.8% 급락하고 반도체 ETF 시가총액이 약 1.3조 달러 증발했으며(Forbes, 2026-07-08), BofA 전략가 마이클 하트넷의 버블위험지수는 0.91로 나스닥100의 0.69를 웃돌 만큼 경고 신호가 커진 상태다. 같은 기사는 메타 등 빅테크가 여유 AI 클라우드 용량을 외부에 임대하기 시작한 점을 초과공급 우려의 신호로 지목했다. DRAM·낸드 설비투자가 각각 14%, 5% 늘어나는 상황에서 하이퍼스케일러의 AI 지출 증가세가 둔화되면, 현재 가격 결정력의 근거인 공급부족이 빠르게 공급과잉으로 뒤집히며 이번 랠리의 논리가 깨질 수 있다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "mxl_ai_momentum_broadening"
+          ],
+          "reason": "",
+          "leadFixed": true
+        },
+        "leadOriginal": "반도체(Technology/Semiconductors) 업종은 AI 데이터센터 인프라 투자 확대를 등에 업고 강세를 이어가고 있다. 반도체산업협회(SIA) 집계 기준 2026년 5월 글로벌 반도체 판매액은 1,206억 달러로 전년 동월(591억 달러) 대비 104.1% 증가하며 15개월 연속 월간 최고치를 경신했다. 메모리 대장주 마이크론(MU)은 2026회계연도 3분기(6월24일 발표) 매출이 전년 대비 346% 급증한 414.6억 달러를 기록했고, HBM(고대역폭메모리) 3E·4세대가 2027년까지 완전 예약 판매된 상태다. AMD는 2분기(8월4일 발표) 데이터센터 매출이 107% 늘어 2배 이상으로 커졌고, 마벨(MRVL)·에스테라랩스(ALAB)·맥스리니어(MXL) 등 AI 네트워킹·연결 반도체 업체들도 매출이 28~93%대로 늘었다. 다만 이 강세는 7월 한 차례 밸류에이션 우려로 급락을 겪은 뒤 재차 반등한 흐름이어서, 6개월 구간에 비해 3개월 구간 상대강도 순위는 상대적으로 낮아진 상태다."
+      }
+    ],
+    "summary": {
+      "rotationView": "지금 시장의 주도권은 \"6개월 누적 강세 축(에너지 정제 + 테크 하드웨어/유통/반도체)\"에서 \"최근 1개월 신규 유입 축(금, 그리고 소비재 내구재)\"으로 일부 갈라지고 있다. 6개월 업종 강도(WRS) 상위 1~3%를 차지하던 Oil & Gas Refining & Marketing(m6 0.5109, 상위 1.43%)과 Electronics & Computer Distribution(m6 0.3761, 상위 2.14%), Semiconductors(m6 0.245, 상위 2.86%)는 1개월 구간에서 각각 12.86%·13.57%·25%로 순위가 밀리며 상승 속도가 눈에 띄게 둔화됐다. 즉 돈이 빠져나갔다기보다 \"이미 오른 자리에서 쉬는\" 국면이다. 반대로 Gold는 6개월 업종 강도(WRS) -0.3351(하위 9.29%)라는 최악의 출발에서 1개월 업종 강도(WRS) 0.2746, 전체 상위 0.71%로 튀어올라 이번 로테이션에서 가장 뚜렷한 신규 자금 유입처가 됐다. Furnishings, Fixtures & Appliances도 6개월 -0.0592에서 1개월 +0.0748로 방향을 돌렸지만, 3개월 상위 1.43%가 1개월 12.14%로 밀린 걸 보면 신규 진입보다는 3개월 랠리의 잔열에 가깝다. 이 모든 흐름 위에 Computer Hardware만이 1·3·6개월 전 구간 상위 1.5% 이내를 유지하며 로테이션의 영향을 받지 않는 단일 축으로 남아 있다. 요약하면 자금은 '정제·반도체 사이클 축'에서 잠시 발을 빼 '금(매크로 헤지) 축'으로 이동 중이고, 테크 하드웨어는 그 이동과 무관하게 자리를 지키고 있다.",
+      "strongest": {
+        "industry": "Computer Hardware (Technology)",
+        "why": "1개월 WRS 0.188(상위 1.43%), 3개월 0.4496(상위 0.71%), 6개월 1.4257(상위 0.71%)로 세 구간 모두 전체 업종 상위 1.5% 안에 든 유일한 업종이다. 특히 6개월 WRS 1.4257은 2위권(Oil & Gas Refining 0.5109)의 2.8배로, 단순 1등이 아니라 압도적 격차의 1등이다. 근거는 낸드플래시 공급 부족에 따른 가격 급등이며, 샌디스크는 2026-08-17 '또다시 급등(rocketed higher again)'했다가 8월 18일 기준 고점 대비 30% 하락한 상태로 9월 이전 '스크리밍 바이'인지가 시장의 관심사다. 이 흐름은 마이크론에도 긍정적 신호를 준 것으로 평가되며, 드라이버는 실적(earnings)·지속성은 구조적(structural)으로 분류돼 단기 테마가 아니다. 다만 1개월 WRS(0.188)가 3개월(0.4496)·6개월(1.4257)보다 낮아 상승 속도 자체는 완만해졌다는 점은 감안해야 한다."
+      },
+      "emerging": [
+        "Gold (Basic Materials) — 6개월 WRS -0.3351(하위 9.29%) → 1개월 +0.2746(전체 1위, 상위 0.71%). 이번 로테이션에서 가장 극적인 반전이며 신규 자금 유입이 가장 뚜렷하다. 근거: 금 선물(GCZ26) 8월 첫째 주 약 7% 급등, GDX는 YTD 약 5%로 금 현물(2%)을 상회. 7월 미 고용지표 위축으로 연준 금리 인상 가능성이 낮아졌고, CFTC 기준 헤지펀드·자산운용사 강세 베팅이 8월 4일 마감 주간 6개월래 최고. 8월 12일 온스당 4,400달러선 재돌파, 8월 14일 4,387.62달러. 7월 CPI +0.1%(MoM), 근원 PPI +0.2%로 인플레 둔화 시사. 6개월 WRS가 나쁜 이유는 1월 28일 사상 최고 5,589달러 이후 5~6월 20~25% 조정(4,180~4,320달러)이 그대로 반영된 것이므로, 지금은 조정 종료 후 재상승 초입으로 읽는 게 맞다. 드라이버는 macro, 지속성은 cyclical.",
+        "Furnishings, Fixtures & Appliances (Consumer Cyclical) — 6개월 WRS -0.0592(26.43%) → 1개월 +0.0748(12.14%)로 부호가 플러스로 돌아섰다. 다만 3개월 0.3884(상위 1.43%)가 피크였고 1개월 순위가 12.14%로 밀린 만큼, 신규 유입이라기보다 3개월 랠리의 잔열에 가까운 '약한 emerging'이다. 근거: SharkNinja(SN)가 8월 5일 발표한 2분기 순매출 17억 6,550만 달러(+22.2% YoY, 컨센 약 17억 370만 달러 상회)로 13분기 연속 두 자릿수 성장이자 2024년 4분기 이후 최고 성장률. 해외 매출은 영국·유럽·중남미 강세로 약 37% 급증. 2026년 가이던스 상향(순매출 +16.0~17.0%, 조정 EPS 6.45~6.55달러, 조정 EBITDA 13억 5,700만~13억 6,900만 달러). CBP로부터 약 2억 4,710만 달러 관세 환급도 현금흐름에 기여. 드라이버 earnings, 지속성 cyclical."
+      ],
+      "fading": [
+        "Oil & Gas Refining & Marketing (Energy) — 6개월 WRS 0.5109(상위 1.43%), 3개월 0.3274(상위 2.14%)에서 1개월 0.0735(12.86%)로 순위가 9배 가까이 밀렸다. WRS 절대값은 여전히 플러스라 하락 전환이 아니라 '속도 둔화'다. 이 업종의 강세는 실체가 있다: 3-2-1 크랙 스프레드가 2026년 7월 23일 기준 전주 사상 최고치 경신, 8월 17일 기준 발레로·마라톤 페트롤리엄은 연초 대비 2배 이상·필립스66은 약 85% 상승. 호르무즈 긴장과 우크라이나의 러시아 정유시설 드론 공격으로 러시아 정제 가동률이 20년래 최저, 2분기 전세계 정제 생산량 하루 450만 배럴(5.4%) 감소. 2019년 이후 미국 주요 정유시설 7곳 폐쇄로 하루 약 120만 배럴 정제능력 소멸이라는 구조적 공급 부족도 깔려 있다. 즉 펀더멘털은 살아 있고 1개월 둔화는 이미 두 배 오른 뒤의 숨고르기로 보는 게 타당하다.",
+        "Electronics & Computer Distribution (Technology) — 6개월 0.3761(상위 2.14%) → 3개월 0.1472(10.71%) → 1개월 0.0732(13.57%)로 세 구간에 걸쳐 계단식으로 순위가 밀렸다. 다만 근거는 구조적(structural)이다: CEO 잭 아자거리는 8월 실적 콜에서 고객사 AI 인프라 구축으로 서버·스토리지·네트워킹 수요가 살아나며 인프라 하드웨어 매출이 20% 넘게 늘었다고 밝혔고, 가트너는 4월 23일 2026년 데이터센터 시스템 지출이 +55.8%인 7,880억 달러를 넘을 것으로 전망했다. 동종 CDW도 매출 +9%에 'AI 투자가 2026년 내내 중요한 성장 촉매'라고 밝혔다. 수요는 유지되는데 주가 모멘텀만 식은 전형적 눌림 구간.",
+        "Semiconductors (Technology) — 6개월 0.245(상위 2.86%)에서 3개월 0.0149(57.86%)로 급락했다가 1개월 0.0338(25%)로 소폭 회복했다. 6개월 상위였다가 최근 꺾였다는 점에서 fading이지만, 3개월 저점 대비 1개월이 개선된 '바닥 다지기' 패턴이라 재가속 후보로도 볼 여지가 있다. 펀더멘털은 여전히 최상급이다: 글로벌 반도체 판매액이 2026년 5월 1,206억 달러로 전년 동월(591억 달러) 대비 104.1% 증가하며 15개월 연속 월간 최고치(SIA). 마이크론 FY26 3분기 매출 414.6억 달러(+346% YoY)로 5분기 연속 기록, HBM3E·HBM4는 2027년까지(일부 2028년 수요까지) 완판. AMD 2분기 데이터센터 매출 67억 달러(+107%)로 전체 매출(115억, +50%)의 58%. 마벨 2분기 매출 24.2억 달러(+28%) 중 데이터센터 18.3억(76%), 에스테라랩스 1분기 3.08억 달러(+93.4%). 드라이버 technology, 지속성 structural — 펀더멘털과 주가 모멘텀의 괴리가 가장 큰 업종."
+      ],
+      "caution": "첫째, 6개 업종 전부 researched:true이므로 서술 근거는 모두 제공된 조사 결과에서만 인용했고 그 외 사실은 추가하지 않았다. 둘째, 'fading'으로 분류한 세 업종(정제, 전자유통, 반도체)은 업종 강도(WRS) 절대값이 여전히 모두 플러스이며 순위 하락일 뿐 하락 전환이 아니다. 특히 반도체·전자유통은 지속성이 structural로 분류돼 있어 '이탈'이 아니라 '눌림'으로 읽어야 하며, 이를 매도 신호로 해석하면 안 된다. 셋째, Gold의 1개월 1위는 시작점이 6개월 하위 9.29%라는 극단적 저점이었다는 점을 반드시 감안해야 한다 — 1월 최고가 5,589달러 대비 현재 4,400달러선은 여전히 21% 낮은 수준이며, 반등 폭이 커 보이는 것은 기저효과가 상당 부분 포함된 결과다. 또 금의 드라이버는 macro(연준 금리 경로·인플레 둔화 기대)라 지표 한 번 뒤집히면 방향이 빠르게 바뀔 수 있고, 지속성도 cyclical로 분류돼 있다. 넷째, Furnishings의 상승 근거는 사실상 SharkNinja 단일 종목 실적에 집중돼 있어 업종 전체의 폭이 확인되지 않았고, 관세 환급 2억 4,710만 달러는 일회성 성격이므로 반복 가능한 이익으로 계산하면 안 된다. 다섯째, 최강 업종인 Computer Hardware도 근거가 낸드 가격 사이클과 샌디스크 중심이며, 해당 종목이 이미 고점 대비 30% 하락한 상태라는 점에서 진입 시점 리스크는 별개로 판단해야 한다. 마지막으로 rankPct는 백분위(낮을수록 상위)로, 순위 개선과 업종 강도(WRS) 절대값 증가는 다른 얘기이니 혼동하지 말 것."
+    },
+    "reusedFrom": null
   },
   "flow": {
     "baseline": {
