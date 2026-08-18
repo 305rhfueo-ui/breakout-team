@@ -92,7 +92,11 @@ if (!done4.length) skipIt('4팀 촉매 렌더', 'LLM 촉매 데이터 없음');
 else {
   ok('claims 의 출처 URL 이 렌더된다', () => {
     // 4팀 출처는 전부 claims[] 안에 있다. 이게 안 나오면 사용자는 검증할 방법이 없다.
+    // ⚠️ 'sourced' 인 주장만 센다. 'no_source'(근거 없음) 주장에 딸린 링크는 렌더가 일부러
+    //    그리지 않는다 — "근거 없음"이라 해놓고 출처를 보여주면 모순이다.
+    //    (2026-08-17: HL-B 의 no_source 주장에 참고 링크 3개가 붙어 이 테스트가 오탐을 냈다)
     const urls = done4.flatMap((i) => (i.catalyst.claims || [])
+      .filter((c) => c.evidence_level === 'sourced')
       .flatMap((c) => (c.sources || []).map((s) => s && s.url))).filter(Boolean);
     if (!urls.length) return;
     const shown = urls.filter((u) => h4.includes(u)).length;

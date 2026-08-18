@@ -108,14 +108,34 @@ ok('감쇠는 종목 수에 대해 단조 증가한다 (1 을 넘지 않는다)'
     assert.ok(flipped.length > 0, '부호가 뒤집히는 업종이 하나도 없다 — 감쇠계수 정정이 안 먹었을 수 있다');
     console.log(`     → 비교 ${both.length}개 중 F10d 부호 뒤집힘 ${flipped.length}개 (${(flipped.length / both.length * 100).toFixed(0)}%)`);
   });
-  ok('사이트 값이 체계적으로 더 비관적이다 (감쇠 불일치의 방향성)', () => {
-    // 사이트는 오늘값(감쇠 적용)을 과거값(감쇠 미적용, 즉 부풀려진 값)과 비교한다.
-    // 분모가 크게 잡히므로 변화율이 인위적으로 낮게 나온다 → 우리 값보다 작아야 한다.
+  /* 감쇠 불일치의 방향은 **오늘 Final_WRS 의 부호**가 결정한다.
+   *   사이트 = (T − raw)/|raw| ,  정정 = (T − raw·d)/(|raw|·d)   (d = count/(count+5) < 1)
+   *   양변에 |raw| 를 곱해 빼면  정정 − 사이트 = T·(1/d − 1)
+   *   1/d − 1 > 0 이므로 부호는 오직 T 가 정한다 — T>0 이면 사이트가 낮고, T<0 이면 사이트가 높다.
+   *
+   * ⚠️ 예전 이 테스트는 "사이트가 대부분 더 낮다(>60%)"고만 검사했다. 그건 테스트를 쓰던 날
+   *    양수 업종이 다수였던 우연이지 규칙이 아니다. 2026-08-17 실측에서 양수 업종이 127개 중
+   *    37개(29%)로 줄자 전체 비율이 39%가 되어 실패했다 — 코드가 아니라 시장 폭이 바뀐 것이다.
+   *    이제 부호별로 나눠 실제 메커니즘을 검사한다. */
+  ok('감쇠 불일치의 방향이 오늘 Final_WRS 부호를 따른다', () => {
     const s = flow.filter((x) => Number.isFinite(x.f10) && Number.isFinite(x.siteF10) && x.count >= 2);
-    const lower = s.filter((x) => x.siteF10 < x.f10).length;
-    console.log(`     → 사이트 값이 더 낮은 업종 ${lower}/${s.length} (${(lower / s.length * 100).toFixed(0)}%)`);
-    assert.ok(lower / s.length > 0.6,
-      `감쇠 불일치라면 사이트가 대부분 더 낮아야 하는데 ${lower}/${s.length} 뿐이다`);
+    // final 이 0 근처면 부동소수점 경계라 방향이 뒤집힐 수 있다 — 판정에서 뺀다.
+    const EPS = 1e-3;
+    const pos = s.filter((x) => x.final > EPS);
+    const neg = s.filter((x) => x.final < -EPS);
+    const loP = pos.filter((x) => x.siteF10 < x.f10).length;
+    const hiN = neg.filter((x) => x.siteF10 > x.f10).length;
+    console.log(`     → 오늘값 양수 ${pos.length}개 중 사이트가 더 낮음 ${loP}`
+      + ` · 음수 ${neg.length}개 중 사이트가 더 높음 ${hiN}`);
+    assert.ok(pos.length + neg.length > 50, `비교 가능 ${pos.length + neg.length}개`);
+    if (pos.length >= 10) {
+      assert.ok(loP / pos.length > 0.9,
+        `오늘값이 양수면 사이트가 더 낮아야 한다 — ${loP}/${pos.length} 뿐이다`);
+    }
+    if (neg.length >= 10) {
+      assert.ok(hiN / neg.length > 0.8,
+        `오늘값이 음수면 사이트가 더 높아야 한다 — ${hiN}/${neg.length} 뿐이다`);
+    }
   });
   ok('200DIV 변화량이 산출된다 (스냅샷 v2 스키마 확인)', () => {
     const withDelta = flow.filter((x) => Number.isFinite(x.d200Delta));
