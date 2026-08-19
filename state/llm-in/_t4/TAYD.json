@@ -1,0 +1,187 @@
+{
+ "ticker": "TAYD",
+ "news": [
+  {
+   "title": "Taylor Devices (TAYD) Price Target Increased by 45.83% to 71.40",
+   "url": "https://www.nasdaq.com/articles/taylor-devices-tayd-price-target-increased-4583-7140",
+   "date": "2026-01-14",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "TAYD"
+   ]
+  },
+  {
+   "title": "TAYD Stock Gains 2% Despite Q3 Earnings Decline Y/Y, Backlog Grows",
+   "url": "https://www.nasdaq.com/articles/tayd-stock-gains-2-despite-q3-earnings-decline-y-y-backlog-grows",
+   "date": "2025-04-02",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "TAYD"
+   ]
+  },
+  {
+   "title": "Taylor Devices Inc Q4 Income Retreats",
+   "url": "https://www.nasdaq.com/articles/taylor-devices-inc-q4-income-retreats",
+   "date": "2026-08-18",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "TAYD"
+   ]
+  },
+  {
+   "title": "Taylor Devices' Q3 Earnings Increase Y/Y On Lower Costs",
+   "url": "https://www.nasdaq.com/articles/taylor-devices-q3-earnings-increase-y-y-lower-costs",
+   "date": "2026-04-06",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "TAYD"
+   ]
+  },
+  {
+   "title": "Taylor Devices Inc Q3 Profit Climbs",
+   "url": "https://www.nasdaq.com/articles/taylor-devices-inc-q3-profit-climbs",
+   "date": "2026-03-31",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "TAYD"
+   ]
+  },
+  {
+   "title": "Taylor Devices Jumps 74% in 6 Months: Should You Buy the Stock?",
+   "url": "https://www.nasdaq.com/articles/taylor-devices-jumps-74-6-months-should-you-buy-stock",
+   "date": "2026-02-06",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "RBC",
+    "NDSN",
+    "TAYD"
+   ]
+  },
+  {
+   "title": "Taylor Devices Q2 Earnings Soar Y/Y on Aerospace Demand",
+   "url": "https://www.nasdaq.com/articles/taylor-devices-q2-earnings-soar-y-y-aerospace-demand",
+   "date": "2026-01-06",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "TAYD"
+   ]
+  },
+  {
+   "title": "Taylor Devices Inc Bottom Line Advances In Q2",
+   "url": "https://www.nasdaq.com/articles/taylor-devices-inc-bottom-line-advances-q2",
+   "date": "2025-12-31",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "TAYD"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2025-10-22",
+   "reportDate": "2025-10-17",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/96536/000137647425000858/tayd-20251017_8k.htm",
+   "description": "TAYLOR DEVICES, INC. - FORM 8-K SEC FILING"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-01-14",
+   "reportDate": "2025-01-14",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/96536/000137647425000079/tayd-20250114.htm",
+   "description": "TAYLOR DEVICES, INC. - FORM 8-K SEC FILING"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2024-10-28",
+   "reportDate": "2024-10-25",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/96536/000137647424000620/tayd-20241025.htm",
+   "description": "TAYLOR DEVICES, INC. - FORM 8-K SEC FILING"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2024-10-28",
+   "reportDate": "2024-10-25",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/96536/000137647424000619/tayd_8k.htm",
+   "description": "CURRENT EVENT REPORT - FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2023-10-24",
+   "reportDate": "2023-10-20",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/96536/000137647423000460/tayd-20231020.htm",
+   "description": "TAYLOR DEVICES INC - FORM 8-K SEC FILING"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2023-09-11",
+   "reportDate": "2023-09-11",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/96536/000137647423000431/tayd-20230911.htm",
+   "description": "TAYLOR DEVICES INC - FORM 8-K SEC FILING"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "ticker": "MGRT",
+ "news": [
+  {
+   "title": "Oversold Conditions For Mega Fortune Company (MGRT)",
+   "url": "https://www.nasdaq.com/articles/oversold-conditions-mega-fortune-company-mgrt",
+   "date": "2026-06-11",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "MGRT"
+   ]
+  },
+  {
+   "title": "How Mega Fortune Stock Tripled This Week",
+   "url": "https://www.nasdaq.com/articles/how-mega-fortune-stock-tripled-week",
+   "date": "2026-04-09",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "MGRT",
+    "MGRT"
+   ]
+  },
+  {
+   "title": "Mega Fortune Company Limited Completes Initial Public Offering, Raising $15 Million",
+   "url": "https://www.nasdaq.com/articles/mega-fortune-company-limited-completes-initial-public-offering-raising-15-million",
+   "date": "2025-07-17",
+   "publisher": "Quiver Quantitative",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "MGRT"
+   ]
+  }
+ ],
+ "filings": []
+}

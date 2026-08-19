@@ -4,7 +4,7 @@
  "industry": "Computer Hardware",
  "nameKo": "샌디스크",
  "detail": {
-  "fetchedAt": "2026-08-18",
+  "fetchedAt": "2026-08-19",
   "nameKo": "샌디스크",
   "nameEn": "SANDISK CORP",
   "infomaxCode": "NAS:SNDK",
@@ -90,8 +90,34 @@
    "ticker": "SNDK",
    "items": [
     {
-     "title": "Sandisk Stock Is Down 30% From Its Peak: Is the Memory Winner Still a Screaming Buy Before September?",
-     "url": "https://www.nasdaq.com/articles/sandisk-stock-down-30-its-peak-memory-winner-still-screaming-buy-september",
+     "title": "Sandisk Is Up More Than 35-Fold in a Year and Sits Nearly a Third Below Its Peak. History Says What Comes Next.",
+     "url": "https://www.nasdaq.com/articles/sandisk-more-35-fold-year-and-sits-nearly-third-below-its-peak-history-says-what-comes",
+     "date": "2026-08-19",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SNDK",
+      "SNDK",
+      "MU"
+     ]
+    },
+    {
+     "title": "Palantir and Sandisk Stocks Are Soaring: Wall Street Says to Buy 1 and Avoid the Other",
+     "url": "https://www.nasdaq.com/articles/palantir-and-sandisk-stocks-are-soaring-wall-street-says-buy-1-and-avoid-other",
+     "date": "2026-08-18",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SNDK",
+      "SNDK",
+      "PLTR"
+     ]
+    },
+    {
+     "title": "Up More Than 3,400% in the Past 12 Months, Here's Why Sandisk's Stock Could Still Go Higher",
+     "url": "https://www.nasdaq.com/articles/more-3400-past-12-months-heres-why-sandisks-stock-could-still-go-higher",
      "date": "2026-08-18",
      "publisher": "The Motley Fool",
      "tier1": false,
@@ -102,46 +128,19 @@
      ]
     },
     {
-     "title": "Why Sandisk Stock Rocketed Higher (Again) Today",
-     "url": "https://www.nasdaq.com/articles/why-sandisk-stock-rocketed-higher-again-today",
-     "date": "2026-08-17",
+     "title": "Sandisk Stock Is Down 30% From Its Peak: Is the Memory Winner Still a Screaming Buy Before September?",
+     "url": "https://www.nasdaq.com/articles/sandisk-stock-down-30-its-peak-memory-winner-still-screaming-buy-september",
+     "date": "2026-08-18",
      "publisher": "The Motley Fool",
      "tier1": false,
      "direct": true,
      "tickers": [
       "SNDK",
-      "SNDK",
-      "JPM"
-     ]
-    },
-    {
-     "title": "Sandisk Just Gave Micron Technology Investors Great News",
-     "url": "https://www.nasdaq.com/articles/sandisk-just-gave-micron-technology-investors-great-news",
-     "date": "2026-08-17",
-     "publisher": "The Motley Fool",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "MU",
-      "MU",
-      "SNDK"
-     ]
-    },
-    {
-     "title": "Why SK Hynix Stock Popped Today",
-     "url": "https://www.nasdaq.com/articles/why-sk-hynix-stock-popped-today",
-     "date": "2026-08-17",
-     "publisher": "The Motley Fool",
-     "tier1": false,
-     "direct": false,
-     "tickers": [
-      "AAPL",
-      "MU",
       "SNDK"
      ]
     }
    ],
-   "directCount": 3,
+   "directCount": 4,
    "total": 4,
    "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
   },
@@ -257,8 +256,8 @@
      "date": "2026-08-14",
      "summary": "- 투자자의날서 물량 두자릿수 중후반 성장·HBF 로드맵 공개- 8개 고객사 총계약가치 939억달러, NBM 계약 흐름과 결 같아- 가격기여·마진 고원 리스크는 여전, 방향성 제시 수준",
      "pages": "5",
-     "secureId": "eqlxxxxkgkmlcklgcgxclel",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxxxxkgkmlcklgcgxclel.pdf",
+     "secureId": "eqlxxxxkgkmlcklgcgxclem",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxxxxkgkmlcklgcgxclem.pdf",
      "opinion": null
     },
     {
@@ -268,8 +267,8 @@
      "date": "2026-08-06",
      "summary": "- 매출액 89.7억 달러(YOY +371.6%), 영업이익 70.4억 달러(YoY +38,994.4%), 조정 EPS 39.3 달러 (YoY +13,434.5%)로 각각 예상치 3.8%, 9.7%, 14.2% 상회- 2분기 자사주 45.2억 달러 매입. 140억 달러 추가 자사주 매입 승인으로 잔여 한도 155억 달러로 확대- 가격 상승폭 둔화와 NBM 계약으로 인해 판매량 증가율이 둔화된다는 가이던스에 따라 시간 외 8% 하락",
      "pages": "1",
-     "secureId": "eqlxcczlkqixekegcgxclel",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxcczlkqixekegcgxclel.pdf",
+     "secureId": "eqlxcczlkqixekegcgxclem",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxcczlkqixekegcgxclem.pdf",
      "opinion": null
     },
     {
@@ -279,8 +278,8 @@
      "date": "2026-08-05",
      "summary": "- Q4 매출 $8.97B·비GAAP EPS $39.25로 컨센 상회- Q1 매출 가이던스 컨센 하회, 시간외 11% 하락- 자사주 잔여한도 $15.5B, NTM PER 6.8배",
      "pages": "7",
-     "secureId": "eqlzmqeqgkxgcligcgxclel",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzmqeqgkxgcligcgxclel.pdf",
+     "secureId": "eqlzmqeqgkxgcligcgxclem",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzmqeqgkxgcligcgxclem.pdf",
      "opinion": null
     },
     {
@@ -290,8 +289,8 @@
      "date": "2026-05-04",
      "summary": "- NAND 턴어라운드 3Q25부터 가속화. 단기 모멘텀이 아닌 구조적 변화로 해석. AI 추론 수요와 동행하는 SSD 호황 장기화 기대. 엔비디아의 DPU 를 비롯한 SSD 활용 시도 다각화 전망. 단순 데이터 저장 용도가 아닌 추 론 보조 연산 역할로 급부상 → 공급 부족 심화 구간 진입- 매출 59.5억달러(+97%, 전분기대비), EPS 23.41달러로 컨센서스를 각각 26.5%, 61% 상회. 부문별 실적은 데이터센터 14.7억달러(+233.4%), 엣지 36.6억달러(+118.3%), 컨슈머 8.2억달러(-9.6%)로 엔터프라이즈향 SSD 수요가 실적 견인. 지난 분기부터 높아졌던 추정치를 대폭 상회하며 업황 호조 재차 증명. 구속력 있는 장기 계약 확대로 외형 성장 가시성도 확보- FY4Q26 가이던스 매출 80억달러, EPS 31.50달러로 컨센서스(65억달러, 22.83달러) 대폭 상회. 장기 계약 3건 기준 최소 계약 매출 420억달러. 100억달러 수준의 금융 보증 포함. FY2027 예정된 출하 물량 1/3이 장기 계약 구조로 공급 예정. 가격은 단기 고정, 장기 변동 반영 구조. 가격 상 승세 지속, 고부가 제품 비중 확대 → 매출총이익률 가이던스 80% 제시",
      "pages": "4",
-     "secureId": "eqqqlzeiqkxliligcgxclel",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqlzeiqkxliligcgxclel.pdf",
+     "secureId": "eqqqlzeiqkxliligcgxclem",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqlzeiqkxliligcgxclem.pdf",
      "opinion": null
     },
     {
@@ -301,8 +300,8 @@
      "date": "2025-11-11",
      "summary": "- 3Q25CY 실적 기대치 상회, 4Q25CY 가이던스도 컨센서스 크게 상회- 2026년 eSSD 수요 전망치 기존 +24~26%YoY에서 +44~46%YoY로 상향- 당분간 NAND의 가격 상승 흐름 이어질 것으로 판단함",
      "pages": "6",
-     "secureId": "eqxgleleqqmllqqgcgxclel",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgleleqqmllqqgcgxclel.pdf",
+     "secureId": "eqxgleleqqmllqqgcgxclem",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgleleqqmllqqgcgxclem.pdf",
      "opinion": null
     },
     {
@@ -312,8 +311,8 @@
      "date": "2025-11-07",
      "summary": "- 매출액 23.1억 달러(YoY +22.6%), 조정 EPS 1.22 달러(YoY -33.3%)로 각각 예상치 7.2%, 37.1% 상회- 수요가 공급을 초과함에 따라 재고 회전일수가 135일에서 115일로 감소- 실적 예상 대폭 상회. 주요 클라우드 기업들의 CAPEX 확대 지속되며 스토리지 수요 증가 기대감 확산. 시간 외 6.9% 상승",
      "pages": "1",
-     "secureId": "eqxgkmcgqcqeqzlgcgxclel",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgkmcgqcqeqzlgcgxclel.pdf",
+     "secureId": "eqxgkmcgqcqeqzlgcgxclem",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgkmcgqcqeqzlgcgxclem.pdf",
      "opinion": null
     }
    ],

@@ -1,5 +1,5 @@
 {
- "date": "2026-08-18",
+ "date": "2026-08-19",
  "cap": 6,
  "industries": [
   {
@@ -8,31 +8,29 @@
    "industry": "Computer Hardware",
    "count": 8,
    "counts": {
-    "m1": 9,
+    "m1": 8,
     "m3": 8,
     "m6": 8
    },
    "wrs": {
-    "m1": 0.188,
-    "m3": 0.4496,
-    "m6": 1.4257
+    "m1": 0.0761,
+    "m3": 0.3145,
+    "m6": 1.4029
    },
    "final": {
-    "m1": 0.2039,
-    "m3": 0.2603,
-    "m6": 0.6055
+    "m1": 0.1457,
+    "m3": 0.1791,
+    "m6": 0.6128
    },
    "rankPct": {
-    "m1": 1.43,
-    "m3": 0.71,
-    "m6": 0.71
+    "m1": 22.63,
+    "m3": 2.16,
+    "m6": 0.72
    },
    "members": [
     "P",
     "DELL",
-    "SNDK",
-    "STX",
-    "IONQ"
+    "SNDK"
    ],
    "memberNews": [
     {
@@ -58,6 +56,13 @@
     },
     {
      "ticker": "DELL",
+     "date": "2026-08-18",
+     "publisher": "Zacks",
+     "title": "Bull of the Day: Dell (DELL)",
+     "url": "https://www.nasdaq.com/articles/bull-day-dell-dell"
+    },
+    {
+     "ticker": "DELL",
      "date": "2026-08-17",
      "publisher": "Zacks",
      "title": "Dell Technologies (DELL) Is Up 8.16% in One Week: What You Should Know",
@@ -71,74 +76,25 @@
      "url": "https://www.nasdaq.com/articles/dell-technologies-dell-exceeds-market-returns-some-facts-consider"
     },
     {
-     "ticker": "DELL",
-     "date": "2026-08-13",
-     "publisher": "Zacks",
-     "title": "Will Dell Technologies (DELL) Beat Estimates Again in Its Next Earnings Report?",
-     "url": "https://www.nasdaq.com/articles/will-dell-technologies-dell-beat-estimates-again-its-next-earnings-report-0"
+     "ticker": "SNDK",
+     "date": "2026-08-19",
+     "publisher": "The Motley Fool",
+     "title": "Sandisk Is Up More Than 35-Fold in a Year and Sits Nearly a Third Below Its Peak. History Says What Comes Next.",
+     "url": "https://www.nasdaq.com/articles/sandisk-more-35-fold-year-and-sits-nearly-third-below-its-peak-history-says-what-comes"
     },
     {
      "ticker": "SNDK",
      "date": "2026-08-18",
      "publisher": "The Motley Fool",
-     "title": "Sandisk Stock Is Down 30% From Its Peak: Is the Memory Winner Still a Screaming Buy Before September?",
-     "url": "https://www.nasdaq.com/articles/sandisk-stock-down-30-its-peak-memory-winner-still-screaming-buy-september"
+     "title": "Palantir and Sandisk Stocks Are Soaring: Wall Street Says to Buy 1 and Avoid the Other",
+     "url": "https://www.nasdaq.com/articles/palantir-and-sandisk-stocks-are-soaring-wall-street-says-buy-1-and-avoid-other"
     },
     {
      "ticker": "SNDK",
-     "date": "2026-08-17",
+     "date": "2026-08-18",
      "publisher": "The Motley Fool",
-     "title": "Why Sandisk Stock Rocketed Higher (Again) Today",
-     "url": "https://www.nasdaq.com/articles/why-sandisk-stock-rocketed-higher-again-today"
-    },
-    {
-     "ticker": "SNDK",
-     "date": "2026-08-17",
-     "publisher": "The Motley Fool",
-     "title": "Sandisk Just Gave Micron Technology Investors Great News",
-     "url": "https://www.nasdaq.com/articles/sandisk-just-gave-micron-technology-investors-great-news"
-    },
-    {
-     "ticker": "STX",
-     "date": "2026-08-17",
-     "publisher": "Zacks",
-     "title": "3 Reasons Why Growth Investors Shouldn't Overlook Seagate (STX)",
-     "url": "https://www.nasdaq.com/articles/3-reasons-why-growth-investors-shouldnt-overlook-seagate-stx"
-    },
-    {
-     "ticker": "STX",
-     "date": "2026-08-14",
-     "publisher": "Zacks",
-     "title": "The Zacks Analyst Blog Highlights Seagate Technology and NVIDIA",
-     "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-seagate-technology-and-nvidia"
-    },
-    {
-     "ticker": "STX",
-     "date": "2026-08-13",
-     "publisher": "Zacks",
-     "title": "Surging Earnings Estimates Signal Upside for Seagate (STX) Stock",
-     "url": "https://www.nasdaq.com/articles/surging-earnings-estimates-signal-upside-seagate-stx-stock"
-    },
-    {
-     "ticker": "IONQ",
-     "date": "2026-08-17",
-     "publisher": "Zacks",
-     "title": "IonQ Stock Up 16% Since Q2 Earnings: Should You Buy or Book Profits?",
-     "url": "https://www.nasdaq.com/articles/ionq-stock-16-q2-earnings-should-you-buy-or-book-profits"
-    },
-    {
-     "ticker": "IONQ",
-     "date": "2026-08-16",
-     "publisher": "The Motley Fool",
-     "title": "IonQ Paid $1.8 Billion for a Chip Foundry. Here's What Investors Should Know.",
-     "url": "https://www.nasdaq.com/articles/ionq-paid-18-billion-chip-foundry-heres-what-investors-should-know"
-    },
-    {
-     "ticker": "IONQ",
-     "date": "2026-08-14",
-     "publisher": "The Motley Fool",
-     "title": "CrowdStrike vs. IonQ: Which Technology Stock Is a Better Buy in 2026?",
-     "url": "https://www.nasdaq.com/articles/crowdstrike-vs-ionq-which-technology-stock-better-buy-2026"
+     "title": "Up More Than 3,400% in the Past 12 Months, Here's Why Sandisk's Stock Could Still Go Higher",
+     "url": "https://www.nasdaq.com/articles/more-3400-past-12-months-heres-why-sandisks-stock-could-still-go-higher"
     }
    ]
   },
@@ -148,24 +104,24 @@
    "industry": "Oil & Gas Refining & Marketing",
    "count": 7,
    "counts": {
-    "m1": 7,
+    "m1": 6,
     "m3": 7,
     "m6": 7
    },
    "wrs": {
-    "m1": 0.0735,
-    "m3": 0.3274,
-    "m6": 0.5109
+    "m1": 0.1259,
+    "m3": 0.4241,
+    "m6": 0.7449
    },
    "final": {
-    "m1": 0.0908,
-    "m3": 0.2509,
-    "m6": 0.334
+    "m1": 0.1365,
+    "m3": 0.292,
+    "m6": 0.4531
    },
    "rankPct": {
-    "m1": 12.86,
-    "m3": 2.14,
-    "m6": 1.43
+    "m1": 9.49,
+    "m3": 0.72,
+    "m6": 1.44
    },
    "members": [],
    "memberNews": []
@@ -176,24 +132,24 @@
    "industry": "Gold",
    "count": 8,
    "counts": {
-    "m1": 8,
+    "m1": 7,
     "m3": 8,
     "m6": 8
    },
    "wrs": {
-    "m1": 0.2746,
-    "m3": 0.0514,
-    "m6": -0.3351
+    "m1": 0.2388,
+    "m3": 0.0481,
+    "m6": -0.1535
    },
    "final": {
-    "m1": 0.2434,
+    "m1": 0.2135,
     "m3": 0.1163,
-    "m6": -0.17
+    "m6": -0.0802
    },
    "rankPct": {
-    "m1": 0.71,
-    "m3": 42.86,
-    "m6": 90.71
+    "m1": 0.73,
+    "m3": 49.64,
+    "m6": 92.81
    },
    "members": [
     "AUGO"
@@ -223,56 +179,60 @@
    ]
   },
   {
+   "key": "Basic Materials|Coking Coal",
+   "sector": "Basic Materials",
+   "industry": "Coking Coal",
+   "count": 2,
+   "counts": {
+    "m1": 2,
+    "m3": 2,
+    "m6": 2
+   },
+   "wrs": {
+    "m1": 0.2168,
+    "m3": 0.0983,
+    "m6": 0.0724
+   },
+   "final": {
+    "m1": 0.0773,
+    "m3": 0.0329,
+    "m6": 0.0272
+   },
+   "rankPct": {
+    "m1": 1.46,
+    "m3": 30.22,
+    "m6": 38.85
+   },
+   "members": [],
+   "memberNews": []
+  },
+  {
    "key": "Consumer Cyclical|Furnishings, Fixtures & Appliances",
    "sector": "Consumer Cyclical",
    "industry": "Furnishings, Fixtures & Appliances",
    "count": 6,
    "counts": {
-    "m1": 6,
+    "m1": 3,
     "m3": 6,
     "m6": 6
    },
    "wrs": {
-    "m1": 0.0748,
-    "m3": 0.3884,
-    "m6": -0.0592
+    "m1": 0.2105,
+    "m3": 0.3512,
+    "m6": 0.1385
    },
    "final": {
-    "m1": 0.0294,
-    "m3": 0.1568,
-    "m6": 0.0291
+    "m1": 0.0693,
+    "m3": 0.152,
+    "m6": 0.134
    },
    "rankPct": {
-    "m1": 12.14,
-    "m3": 1.43,
-    "m6": 26.43
+    "m1": 2.19,
+    "m3": 1.44,
+    "m6": 20.86
    },
-   "members": [
-    "SN"
-   ],
-   "memberNews": [
-    {
-     "ticker": "SN",
-     "date": "2026-08-12",
-     "publisher": "The Motley Fool",
-     "title": "SharkNinja (SN) Q2 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/sharkninja-sn-q2-2026-earnings-call-transcript"
-    },
-    {
-     "ticker": "SN",
-     "date": "2026-08-12",
-     "publisher": "Zacks",
-     "title": "Here's Why SharkNinja, Inc. (SN) is a Strong Momentum Stock",
-     "url": "https://www.nasdaq.com/articles/heres-why-sharkninja-inc-sn-strong-momentum-stock"
-    },
-    {
-     "ticker": "SN",
-     "date": "2026-08-12",
-     "publisher": "Zacks",
-     "title": "SharkNinja, Inc. (SN) Hit a 52 Week High, Can the Run Continue?",
-     "url": "https://www.nasdaq.com/articles/sharkninja-inc-sn-hit-52-week-high-can-run-continue"
-    }
-   ]
+   "members": [],
+   "memberNews": []
   },
   {
    "key": "Technology|Electronics & Computer Distribution",
@@ -280,163 +240,29 @@
    "industry": "Electronics & Computer Distribution",
    "count": 5,
    "counts": {
-    "m1": 5,
+    "m1": 4,
     "m3": 5,
     "m6": 5
    },
    "wrs": {
-    "m1": 0.0732,
-    "m3": 0.1472,
-    "m6": 0.3761
+    "m1": 0.0531,
+    "m3": 0.1484,
+    "m6": 0.5454
    },
    "final": {
-    "m1": 0.0902,
-    "m3": 0.1382,
-    "m6": 0.2119
+    "m1": 0.0667,
+    "m3": 0.1353,
+    "m6": 0.2691
    },
    "rankPct": {
-    "m1": 13.57,
-    "m3": 10.71,
-    "m6": 2.14
+    "m1": 31.39,
+    "m3": 17.27,
+    "m6": 2.16
    },
    "members": [
     "NSIT"
    ],
    "memberNews": []
-  },
-  {
-   "key": "Technology|Semiconductors",
-   "sector": "Technology",
-   "industry": "Semiconductors",
-   "count": 42,
-   "counts": {
-    "m1": 43,
-    "m3": 43,
-    "m6": 42
-   },
-   "wrs": {
-    "m1": 0.0338,
-    "m3": 0.0149,
-    "m6": 0.245
-   },
-   "final": {
-    "m1": 0.0896,
-    "m3": 0.0323,
-    "m6": 0.2417
-   },
-   "rankPct": {
-    "m1": 25,
-    "m3": 57.86,
-    "m6": 2.86
-   },
-   "members": [
-    "MXL",
-    "MRVL",
-    "NVEC",
-    "ALAB",
-    "MU",
-    "AMD"
-   ],
-   "memberNews": [
-    {
-     "ticker": "MXL",
-     "date": "2026-08-14",
-     "publisher": "Zacks",
-     "title": "Does MaxLinear (MXL) Have the Potential to Rally 31.25% as Wall Street Analysts Expect?",
-     "url": "https://www.nasdaq.com/articles/does-maxlinear-mxl-have-potential-rally-3125-wall-street-analysts-expect"
-    },
-    {
-     "ticker": "MXL",
-     "date": "2026-07-28",
-     "publisher": "Zacks",
-     "title": "The Zacks Analyst Blog Highlights MaxLinear, Marvell Technology and Broadcom",
-     "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-maxlinear-marvell-technology-and-broadcom"
-    },
-    {
-     "ticker": "MXL",
-     "date": "2026-07-27",
-     "publisher": "Zacks",
-     "title": "MaxLinear Rides on AI Infrastructure Momentum: More Upside Ahead?",
-     "url": "https://www.nasdaq.com/articles/maxlinear-rides-ai-infrastructure-momentum-more-upside-ahead"
-    },
-    {
-     "ticker": "MRVL",
-     "date": "2026-08-10",
-     "publisher": "Zacks",
-     "title": "Here's Why Marvell Technology (MRVL) Fell More Than Broader Market",
-     "url": "https://www.nasdaq.com/articles/heres-why-marvell-technology-mrvl-fell-more-broader-market"
-    },
-    {
-     "ticker": "MRVL",
-     "date": "2026-08-07",
-     "publisher": "BNK Invest",
-     "title": "See Which Recent 13F Filers Hold MRVL",
-     "url": "https://www.nasdaq.com/articles/see-which-recent-13f-filers-hold-mrvl"
-    },
-    {
-     "ticker": "NVEC",
-     "date": "2026-07-24",
-     "publisher": "Zacks",
-     "title": "NVE Corp Q1 Earnings Surge Y/Y on Strong Sales & New Products",
-     "url": "https://www.nasdaq.com/articles/nve-corp-q1-earnings-surge-y-y-strong-sales-new-products"
-    },
-    {
-     "ticker": "NVEC",
-     "date": "2026-07-23",
-     "publisher": "The Motley Fool",
-     "title": "NVE (NVEC) Q1 2027 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/nve-nvec-q1-2027-earnings-call-transcript"
-    },
-    {
-     "ticker": "NVEC",
-     "date": "2026-07-22",
-     "publisher": "MarketBeat",
-     "title": "NVE Q1 Earnings Call Highlights",
-     "url": "https://www.nasdaq.com/articles/nve-q1-earnings-call-highlights"
-    },
-    {
-     "ticker": "ALAB",
-     "date": "2026-08-12",
-     "publisher": "Zacks",
-     "title": "ALAB Benefits From PCIe Demand: Can It Stay Ahead of Its Competitors?",
-     "url": "https://www.nasdaq.com/articles/alab-benefits-pcie-demand-can-it-stay-ahead-its-competitors"
-    },
-    {
-     "ticker": "ALAB",
-     "date": "2026-08-11",
-     "publisher": "The Motley Fool",
-     "title": "Astera Labs (ALAB) Q2 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/astera-labs-alab-q2-2026-earnings-call-transcript"
-    },
-    {
-     "ticker": "ALAB",
-     "date": "2026-08-11",
-     "publisher": "The Motley Fool",
-     "title": "Astera Labs vs. Arm: Which Technology Stock Is a Better Buy in 2026?",
-     "url": "https://www.nasdaq.com/articles/astera-labs-vs-arm-which-technology-stock-better-buy-2026"
-    },
-    {
-     "ticker": "AMD",
-     "date": "2026-08-12",
-     "publisher": "The Motley Fool",
-     "title": "Adobe vs. Advanced Micro Devices: Which Technology Stock Is a Better Buy in 2026?",
-     "url": "https://www.nasdaq.com/articles/adobe-vs-advanced-micro-devices-which-technology-stock-better-buy-2026"
-    },
-    {
-     "ticker": "AMD",
-     "date": "2026-08-12",
-     "publisher": "The Motley Fool",
-     "title": "Advanced Micro Devices vs. AppLovin: Which Technology Stock Is a Better Buy in 2026?",
-     "url": "https://www.nasdaq.com/articles/advanced-micro-devices-vs-applovin-which-technology-stock-better-buy-2026"
-    },
-    {
-     "ticker": "AMD",
-     "date": "2026-08-12",
-     "publisher": "BNK Invest",
-     "title": "Notable Wednesday Option Activity: HUBG, AMD, SPCX",
-     "url": "https://www.nasdaq.com/articles/notable-wednesday-option-activity-hubg-amd-spcx"
-    }
-   ]
   }
  ]
 }

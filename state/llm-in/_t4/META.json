@@ -1,0 +1,172 @@
+{
+ "ticker": "META",
+ "news": [
+  {
+   "title": "Why Meta Platforms Stock Crashed Today",
+   "url": "https://www.nasdaq.com/articles/why-meta-platforms-stock-crashed-today",
+   "date": "2026-08-18",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "META",
+    "META"
+   ]
+  },
+  {
+   "title": "RDDT vs. META: Which Digital Advertising Stock Has an Edge Right Now?",
+   "url": "https://www.nasdaq.com/articles/rddt-vs-meta-which-digital-advertising-stock-has-edge-right-now-0",
+   "date": "2026-08-18",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "META",
+    "RDDT"
+   ]
+  },
+  {
+   "title": "Meta Faces 29 States in Court Tuesday. The Case Could Be Big Tech’s Big Tobacco Moment.",
+   "url": "https://www.nasdaq.com/articles/meta-faces-29-states-court-tuesday-case-could-be-big-techs-big-tobacco-moment",
+   "date": "2026-08-17",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "META",
+    "META"
+   ]
+  },
+  {
+   "title": "Why Meta Platforms Stock Is Falling Today",
+   "url": "https://www.nasdaq.com/articles/why-meta-platforms-stock-falling-today",
+   "date": "2026-08-17",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "META",
+    "META"
+   ]
+  },
+  {
+   "title": "Amazon Ads Benefits From AI Shopping: Can Growth Stay Strong?",
+   "url": "https://www.nasdaq.com/articles/amazon-ads-benefits-ai-shopping-can-growth-stay-strong",
+   "date": "2026-08-18",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "AMZN",
+    "GOOGL",
+    "META"
+   ]
+  },
+  {
+   "title": "After Skyrocketing 95% in 3 Years, Here Are the Bull and Bear Cases Investors Must Know About This Trillion-Dollar AI Stock",
+   "url": "https://www.nasdaq.com/articles/after-skyrocketing-95-3-years-here-are-bull-and-bear-cases-investors-must-know-about",
+   "date": "2026-08-18",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "META",
+    "META"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-29",
+   "reportDate": "2026-05-27",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026039193/meta-20260527.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-04-30",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526204128/d134616d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028364/meta-20260429.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-14",
+   "reportDate": "2026-04-08",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025108/meta-20260408.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-28",
+   "reportDate": "2026-01-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003832/meta-20260128.htm",
+   "description": "8-K"
+  }
+ ]
+}

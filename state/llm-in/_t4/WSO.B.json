@@ -1,0 +1,191 @@
+{
+ "ticker": "WSO.B",
+ "news": [
+  {
+   "title": "Watsco (WSO.B) Price Target Increased by 31.34% to 461.99",
+   "url": "https://www.nasdaq.com/articles/watsco-wsob-price-target-increased-3134-46199",
+   "date": "2026-05-14",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "WSO.B"
+   ]
+  },
+  {
+   "title": "Watsco (WSO.B) Price Target Decreased by 14.64% to 422.06",
+   "url": "https://www.nasdaq.com/articles/watsco-wsob-price-target-decreased-1464-42206",
+   "date": "2025-12-06",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "WSO.B"
+   ]
+  },
+  {
+   "title": "UBS Maintains Watsco (WSO.B) Neutral Recommendation",
+   "url": "https://www.nasdaq.com/articles/ubs-maintains-watsco-wsob-neutral-recommendation",
+   "date": "2025-11-07",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "WSO.B"
+   ]
+  },
+  {
+   "title": "JP Morgan Maintains Watsco (WSO.B) Neutral Recommendation",
+   "url": "https://www.nasdaq.com/articles/jp-morgan-maintains-watsco-wsob-neutral-recommendation-0",
+   "date": "2025-10-31",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "WSO.B"
+   ]
+  },
+  {
+   "title": "Mizuho Maintains Watsco (WSO.B) Neutral Recommendation",
+   "url": "https://www.nasdaq.com/articles/mizuho-maintains-watsco-wsob-neutral-recommendation",
+   "date": "2025-10-18",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "WSO.B"
+   ]
+  },
+  {
+   "title": "JP Morgan Maintains Watsco (WSO.B) Neutral Recommendation",
+   "url": "https://www.nasdaq.com/articles/jp-morgan-maintains-watsco-wsob-neutral-recommendation",
+   "date": "2025-10-16",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "WSO.B"
+   ]
+  },
+  {
+   "title": "Morgan Stanley Maintains Watsco (WSO.B) Equal-Weight Recommendation",
+   "url": "https://www.nasdaq.com/articles/morgan-stanley-maintains-watsco-wsob-equal-weight-recommendation",
+   "date": "2025-10-09",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "WSO.B"
+   ]
+  },
+  {
+   "title": "Morgan Stanley Initiates Coverage of Watsco (WSO.B) with Equal-Weight Recommendation",
+   "url": "https://www.nasdaq.com/articles/morgan-stanley-initiates-coverage-watsco-wsob-equal-weight-recommendation",
+   "date": "2025-04-14",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "WSO.B"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/105016/000119312526322168/wso-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-04",
+   "items": [
+    "9.01"
+   ],
+   "itemsKo": [
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/105016/000119312526257467/wso-20260604.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "reportDate": "2026-06-01",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/105016/000119312526255386/wso-20260601.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-23",
+   "items": [
+    "3.02"
+   ],
+   "itemsKo": [
+    "3.02"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/105016/000119312526191427/wso-20260423.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/105016/000119312526183549/wso-20260428.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-17",
+   "reportDate": "2026-02-17",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/105016/000119312526053048/wso-20260217.htm",
+   "description": "8-K"
+  }
+ ]
+}

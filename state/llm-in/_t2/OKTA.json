@@ -1,0 +1,277 @@
+{
+ "ticker": "OKTA",
+ "sector": "Technology",
+ "industry": "Software - Infrastructure",
+ "nameKo": "옥타",
+ "detail": {
+  "fetchedAt": "2026-08-19",
+  "nameKo": "옥타",
+  "nameEn": "OKTA INC",
+  "infomaxCode": "NAS:OKTA",
+  "financials": {
+   "ok": true,
+   "ticker": "OKTA",
+   "cik": "0001660134",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-02-01",
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 765000000,
+     "profit": 56000000,
+     "netIncome": 74000000,
+     "margin": 7.3,
+     "yoy": {
+      "revenue": 11.2,
+      "profit": 43.6,
+      "netIncome": 19.4,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodStart": "2025-10-31",
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 761000000,
+     "profit": 46000000,
+     "netIncome": 63000000,
+     "margin": 6,
+     "yoy": {
+      "revenue": 11.6,
+      "profit": 475,
+      "netIncome": 173.9,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodStart": "2025-08-01",
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 742000000,
+     "profit": 23000000,
+     "netIncome": 43000000,
+     "margin": 3.1,
+     "yoy": {
+      "revenue": 11.6,
+      "profit": 243.8,
+      "netIncome": 168.8,
+      "priorEnd": "2024-10-31"
+     }
+    },
+    {
+     "periodStart": "2025-05-01",
+     "periodEnd": "2025-07-31",
+     "derived": false,
+     "revenue": 728000000,
+     "profit": 41000000,
+     "netIncome": 67000000,
+     "margin": 5.6,
+     "yoy": {
+      "revenue": 12.7,
+      "profit": 315.8,
+      "netIncome": 131,
+      "priorEnd": "2024-07-31"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001660134&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "OKTA",
+   "items": [
+    {
+     "title": "Zscaler vs. Okta: Which Cybersecurity Stock Is the Better Buy?",
+     "url": "https://www.nasdaq.com/articles/zscaler-vs-okta-which-cybersecurity-stock-better-buy",
+     "date": "2026-08-18",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "OKTA",
+      "ZS"
+     ]
+    },
+    {
+     "title": "Massive Update for Okta Stock Investors",
+     "url": "https://www.nasdaq.com/articles/massive-update-okta-stock-investors",
+     "date": "2026-08-14",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "OKTA",
+      "OKTA"
+     ]
+    },
+    {
+     "title": "Okta (OKTA) Stock Falls Amid Market Uptick: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/okta-okta-stock-falls-amid-market-uptick-what-investors-need-know",
+     "date": "2026-08-12",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "OKTA"
+     ]
+    },
+    {
+     "title": "Okta (OKTA) Is Considered a Good Investment by Brokers: Is That True?",
+     "url": "https://www.nasdaq.com/articles/okta-okta-considered-good-investment-brokers-true",
+     "date": "2026-08-11",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "OKTA"
+     ]
+    },
+    {
+     "title": "Zacks Industry Outlook Palo Alto Networks, Fortinet, and Okta",
+     "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-palo-alto-networks-fortinet-and-okta",
+     "date": "2026-08-07",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "FTNT",
+      "PANW",
+      "OKTA"
+     ]
+    },
+    {
+     "title": "Why Okta (OKTA) Dipped More Than Broader Market Today",
+     "url": "https://www.nasdaq.com/articles/why-okta-okta-dipped-more-broader-market-today",
+     "date": "2026-08-06",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "OKTA"
+     ]
+    }
+   ],
+   "directCount": 6,
+   "total": 6,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-23",
+    "reportDate": "2026-06-18",
+    "items": [
+     "5.02",
+     "5.07",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000054/okta-20260618.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-28",
+    "reportDate": "2026-05-28",
+    "items": [
+     "2.02",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000050/okta-20260528.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-22",
+    "reportDate": "2026-04-21",
+    "items": [
+     "5.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1660134/000119312526170498/d118360d8k.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-23",
+    "reportDate": "2026-03-19",
+    "items": [
+     "5.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000029/okta-20260319.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-11",
+    "reportDate": "2026-03-05",
+    "items": [
+     "5.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000024/okta-20260305.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-04",
+    "reportDate": "2026-03-04",
+    "items": [
+     "2.02",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000016/okta-20260304.htm",
+    "description": "8-K"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": [],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}
