@@ -232,6 +232,10 @@ function computeFlow(liveRows, snap10, snap25, opts = {}) {
       // 사이트 재현 (대조용) — 오늘 감쇠 vs 과거 무감쇠
       siteF10: st && sa ? pctChg(st.damped, sa.raw) : null,
       siteF25: st && sb ? pctChg(st.damped, sb.raw) : null,
+      // ⚠️ 사이트 변화율의 분자는 `final`(파이썬 공식)이 아니라 이 값이다.
+      //    둘은 서로 다른 수라, 감쇠 불일치의 방향을 따질 때 final 부호로 판정하면 틀린다.
+      //    (2026-08-19 실측: 음수 업종 20개 중 4개가 그 이유로 규칙을 어기는 것처럼 보였다)
+      siteToday: st ? st.damped : null,
       d50, d200, d200Prev: o200, d200Delta,
       cy, ny, upRatio, coverage: up + dn,
       stage: s.stage, stageKo: s.ko, stageNote: s.note,
