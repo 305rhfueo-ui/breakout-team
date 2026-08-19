@@ -1,0 +1,246 @@
+{
+  "date": "2026-08-19",
+  "count": 44,
+  "tickers": [
+    "TEAM",
+    "MGRT",
+    "CORT",
+    "AGL",
+    "MXL",
+    "P",
+    "SNOW",
+    "BAND",
+    "AXTI",
+    "ORKA",
+    "DELL",
+    "MNPR",
+    "FET",
+    "CTRN",
+    "MDB",
+    "QLYS",
+    "AEHR",
+    "PENG",
+    "MRVL",
+    "AUGO",
+    "ELF",
+    "PANW",
+    "SNDK",
+    "EAT",
+    "ATEX",
+    "HURN",
+    "LQDA",
+    "SYRE",
+    "IT",
+    "ALAB",
+    "FROG",
+    "WDAY",
+    "CRWD",
+    "PLPC",
+    "WGS",
+    "NBIS",
+    "AMD",
+    "OKTA",
+    "AAOI",
+    "HNGE",
+    "DDOG",
+    "NSIT",
+    "DNTH",
+    "AXON"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": true
+  },
+  "themes": [
+    {
+      "key": "Sector:Technology",
+      "level": "Sector",
+      "name": "Technology",
+      "count": 25,
+      "sharePct": 56.8,
+      "tickers": [
+        "TEAM",
+        "MGRT",
+        "MXL",
+        "P",
+        "SNOW",
+        "BAND",
+        "AXTI",
+        "DELL",
+        "MDB",
+        "QLYS",
+        "AEHR",
+        "PENG",
+        "MRVL",
+        "PANW",
+        "SNDK",
+        "IT",
+        "ALAB",
+        "FROG",
+        "WDAY",
+        "CRWD",
+        "AMD",
+        "OKTA",
+        "AAOI",
+        "DDOG",
+        "NSIT"
+      ],
+      "concentration": "high"
+    },
+    {
+      "key": "Sector:Healthcare",
+      "level": "Sector",
+      "name": "Healthcare",
+      "count": 9,
+      "sharePct": 20.5,
+      "tickers": [
+        "CORT",
+        "AGL",
+        "ORKA",
+        "MNPR",
+        "LQDA",
+        "SYRE",
+        "WGS",
+        "HNGE",
+        "DNTH"
+      ],
+      "concentration": "high"
+    },
+    {
+      "key": "Industry:Software - Infrastructure",
+      "level": "Industry",
+      "name": "Software - Infrastructure",
+      "count": 6,
+      "sharePct": 13.6,
+      "tickers": [
+        "BAND",
+        "MDB",
+        "QLYS",
+        "PANW",
+        "CRWD",
+        "OKTA"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Software - Application",
+      "level": "Industry",
+      "name": "Software - Application",
+      "count": 5,
+      "sharePct": 11.4,
+      "tickers": [
+        "TEAM",
+        "SNOW",
+        "FROG",
+        "WDAY",
+        "DDOG"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 5,
+      "sharePct": 11.4,
+      "tickers": [
+        "CORT",
+        "ORKA",
+        "MNPR",
+        "SYRE",
+        "DNTH"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Semiconductors",
+      "level": "Industry",
+      "name": "Semiconductors",
+      "count": 4,
+      "sharePct": 9.1,
+      "tickers": [
+        "MXL",
+        "MRVL",
+        "ALAB",
+        "AMD"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Sector:Industrials",
+      "level": "Sector",
+      "name": "Industrials",
+      "count": 3,
+      "sharePct": 6.8,
+      "tickers": [
+        "HURN",
+        "PLPC",
+        "AXON"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Information Technology Services",
+      "level": "Industry",
+      "name": "Information Technology Services",
+      "count": 3,
+      "sharePct": 6.8,
+      "tickers": [
+        "MGRT",
+        "PENG",
+        "IT"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Computer Hardware",
+      "level": "Industry",
+      "name": "Computer Hardware",
+      "count": 3,
+      "sharePct": 6.8,
+      "tickers": [
+        "P",
+        "DELL",
+        "SNDK"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Sector:Consumer Cyclical",
+      "level": "Sector",
+      "name": "Consumer Cyclical",
+      "count": 2,
+      "sharePct": 4.5,
+      "tickers": [
+        "CTRN",
+        "EAT"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Sector:Communication Services",
+      "level": "Sector",
+      "name": "Communication Services",
+      "count": 2,
+      "sharePct": 4.5,
+      "tickers": [
+        "ATEX",
+        "NBIS"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Semiconductor Equipment & Materials",
+      "level": "Industry",
+      "name": "Semiconductor Equipment & Materials",
+      "count": 2,
+      "sharePct": 4.5,
+      "tickers": [
+        "AXTI",
+        "AEHR"
+      ],
+      "concentration": "low"
+    }
+  ]
+}
