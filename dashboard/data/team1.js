@@ -704,8 +704,8 @@ window.TEAM1_DATA = {
     "candidateCount": 16,
     "verified": {
       "checked": 224,
-      "ok": 283,
-      "unverified": 38,
+      "ok": 282,
+      "unverified": 39,
       "dead": 1,
       "stripped": 3,
       "removed": [

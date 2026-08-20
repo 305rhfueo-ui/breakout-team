@@ -3677,8 +3677,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.tipranks.com/news/company-announcements/bandwidth-q2-2026-earnings-call-highlights-growth",
                 "date": "2026-08-08",
                 "quote": "Bandwidth secured five new $1 million-plus customer wins and expansions in the second quarter, with all including Maestro or AI services.",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -3759,8 +3759,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.investing.com/news/analyst-ratings/piper-sandler-raises-bandwidth-stock-price-target-on-agentforce-deal-93CH-4867715",
                 "date": "2026-08-11",
                 "quote": "Piper Sandler cautioned about risk-reward at current levels, particularly regarding likely reported growth rates beyond this year... while maintaining a Neutral rating.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -3811,8 +3811,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.investing.com/news/analyst-ratings/piper-sandler-raises-bandwidth-stock-price-target-on-agentforce-deal-93CH-4867715",
                   "date": "2026-08-11",
                   "quote": "Piper Sandler raised its price target on Bandwidth (NASDAQ:BAND) shares to $52 from $38 while maintaining a Neutral rating.",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 403
                 }
               ]
             },
@@ -9160,8 +9160,8 @@ window.TEAM2_DATA = {
                 "url": "https://ca.investing.com/news/company-news/genedx-holdings-corp-wgs-q2-2026-earnings-call-highlights-record-volume-and-early--4772619",
                 "date": "2026-08-11",
                 "quote": "지놈 수금률 저조 (32%, 전년 43%에서 하락)",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -9176,8 +9176,8 @@ window.TEAM2_DATA = {
                 "url": "https://ca.investing.com/news/company-news/genedx-holdings-corp-wgs-q2-2026-earnings-call-highlights-record-volume-and-early--4772619",
                 "date": "2026-08-11",
                 "quote": "수익 성장이 물량 성장(32%)에 미치지 못함",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -9192,8 +9192,8 @@ window.TEAM2_DATA = {
                 "url": "https://ca.investing.com/news/company-news/genedx-holdings-corp-wgs-q2-2026-earnings-call-highlights-record-volume-and-early--4772619",
                 "date": "2026-08-11",
                 "quote": "청구 거절 높음 (67%만 보험사 제출)",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -11538,8 +11538,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.investing.com/news/analyst-ratings/stifel-raises-mongodb-stock-price-target-to-475-on-consumption-trends-93CH-4865237",
                 "date": "2026-08-18",
                 "quote": "strong hyperscaler results and consumption trends from on-calendar companies",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -17932,8 +17932,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.tipranks.com/news/the-fly/nutex-health-price-target-raised-to-310-from-235-at-lake-street-thefly-news",
                 "date": "2026-08-11",
                 "quote": "Lake Street analyst Ben Haynor raised the firm's price target on Nutex Health (NUTX) to $310 from $235 and keeps a Buy rating on the shares. Q2's profitability was 'stellar,'",
-                "verified": "unverified",
-                "httpStatus": 403
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
@@ -18050,8 +18050,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.tipranks.com/news/the-fly/nutex-health-price-target-raised-to-310-from-235-at-lake-street-thefly-news",
                   "date": "2026-08-11",
                   "quote": "Lake Street analyst Ben Haynor raised the firm's price target on Nutex Health (NUTX) to $310 from $235 and keeps a Buy rating on the shares.",
-                  "verified": "unverified",
-                  "httpStatus": 403
+                  "verified": "ok",
+                  "httpStatus": 200
                 }
               ]
             }

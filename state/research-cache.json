@@ -87,11 +87,11 @@
   "team2": {
     "QLYS": {
       "last": "2026-08-20",
-      "count": 6
+      "count": 7
     },
     "BAND": {
       "last": "2026-08-20",
-      "count": 5
+      "count": 6
     },
     "DELL": {
       "last": "2026-08-19",
@@ -107,7 +107,7 @@
     },
     "PANW": {
       "last": "2026-08-20",
-      "count": 6
+      "count": 7
     },
     "TWLO": {
       "last": "2026-08-12",
@@ -123,7 +123,7 @@
     },
     "TEAM": {
       "last": "2026-08-20",
-      "count": 6
+      "count": 7
     },
     "CRWV": {
       "last": "2026-08-17",
@@ -131,19 +131,19 @@
     },
     "TWST": {
       "last": "2026-08-20",
-      "count": 5
+      "count": 6
     },
     "SNOW": {
       "last": "2026-08-20",
-      "count": 6
+      "count": 7
     },
     "WGS": {
       "last": "2026-08-20",
-      "count": 8
+      "count": 9
     },
     "PAYC": {
       "last": "2026-08-20",
-      "count": 5
+      "count": 6
     },
     "ATEX": {
       "last": "2026-08-18",
@@ -163,11 +163,11 @@
     },
     "MGRT": {
       "last": "2026-08-20",
-      "count": 8
+      "count": 9
     },
     "MDB": {
       "last": "2026-08-20",
-      "count": 8
+      "count": 9
     },
     "SNDK": {
       "last": "2026-08-19",
@@ -179,11 +179,11 @@
     },
     "WDAY": {
       "last": "2026-08-20",
-      "count": 7
+      "count": 8
     },
     "FROG": {
       "last": "2026-08-20",
-      "count": 7
+      "count": 8
     },
     "ESTC": {
       "last": "2026-08-14",
@@ -207,7 +207,7 @@
     },
     "SN": {
       "last": "2026-08-20",
-      "count": 3
+      "count": 4
     },
     "AAOI": {
       "last": "2026-08-18",
@@ -219,7 +219,7 @@
     },
     "W": {
       "last": "2026-08-20",
-      "count": 3
+      "count": 4
     },
     "AGL": {
       "last": "2026-08-18",
@@ -335,27 +335,27 @@
     },
     "PLTR": {
       "last": "2026-08-20",
-      "count": 1
+      "count": 2
     },
     "SHAZ": {
       "last": "2026-08-20",
-      "count": 1
+      "count": 2
     },
     "MRNA": {
       "last": "2026-08-20",
-      "count": 1
+      "count": 2
     },
     "KYMR": {
       "last": "2026-08-20",
-      "count": 1
+      "count": 2
     },
     "NUTX": {
       "last": "2026-08-20",
-      "count": 1
+      "count": 2
     },
     "TVTX": {
       "last": "2026-08-20",
-      "count": 1
+      "count": 2
     }
   },
   "team4": {
@@ -585,51 +585,51 @@
     },
     "SATA": {
       "last": "2026-08-20",
-      "count": 1
+      "count": 2
     },
     "MRK": {
       "last": "2026-08-20",
-      "count": 1
+      "count": 2
     },
     "STRF": {
       "last": "2026-08-20",
-      "count": 1
+      "count": 2
     },
     "DHR": {
       "last": "2026-08-20",
-      "count": 1
+      "count": 2
     },
     "WPM": {
       "last": "2026-08-20",
-      "count": 1
+      "count": 2
     },
     "FRHC": {
       "last": "2026-08-20",
-      "count": 1
+      "count": 2
     },
     "MRNA": {
       "last": "2026-08-20",
-      "count": 1
+      "count": 2
     },
     "BNTX": {
       "last": "2026-08-20",
-      "count": 1
+      "count": 2
     },
     "EL": {
       "last": "2026-08-20",
-      "count": 1
+      "count": 2
     },
     "NOVTU": {
       "last": "2026-08-20",
-      "count": 1
+      "count": 2
     },
     "CRSP": {
       "last": "2026-08-20",
-      "count": 1
+      "count": 2
     },
     "CCZ": {
       "last": "2026-08-20",
-      "count": 1
+      "count": 2
     }
   }
 }
