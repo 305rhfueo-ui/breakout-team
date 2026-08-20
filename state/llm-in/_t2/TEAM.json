@@ -4,7 +4,7 @@
  "industry": "Software - Application",
  "nameKo": "아틀라시언",
  "detail": {
-  "fetchedAt": "2026-08-19",
+  "fetchedAt": "2026-08-20",
   "nameKo": "아틀라시언",
   "nameEn": "ATLASSIAN CORP",
   "infomaxCode": "NAS:TEAM",
@@ -90,6 +90,19 @@
    "ticker": "TEAM",
    "items": [
     {
+     "title": "Can Strong AI Adoption Help Atlassian Challenge CRM & NOW?",
+     "url": "https://www.nasdaq.com/articles/can-strong-ai-adoption-help-atlassian-challenge-crm-now",
+     "date": "2026-08-19",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "TEAM",
+      "CRM",
+      "NOW"
+     ]
+    },
+    {
      "title": "What Does the Sale of Atlassian Stock Worth $1.2 Million by Its Chief Revenue Officer Mean for Investors?",
      "url": "https://www.nasdaq.com/articles/what-does-sale-atlassian-stock-worth-12-million-its-chief-revenue-officer-mean-investors",
      "date": "2026-08-18",
@@ -125,29 +138,6 @@
      ]
     },
     {
-     "title": "Atlassian (TEAM) Q4 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/atlassian-team-q4-2026-earnings-call-transcript",
-     "date": "2026-08-13",
-     "publisher": "The Motley Fool",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "TEAM",
-      "TEAM"
-     ]
-    },
-    {
-     "title": "Atlassian Just Pulled Off the Software Comeback Wall Street Wanted",
-     "url": "https://www.nasdaq.com/articles/atlassian-just-pulled-software-comeback-wall-street-wanted",
-     "date": "2026-08-11",
-     "publisher": "MarketBeat",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "TEAM"
-     ]
-    },
-    {
      "title": "This Software Stock Is Up 74% in 1 Month, and It Can Keep Climbing Higher From Here",
      "url": "https://www.nasdaq.com/articles/software-stock-74-1-month-and-it-can-keep-climbing-higher-here",
      "date": "2026-08-15",
@@ -173,8 +163,8 @@
      ]
     }
    ],
-   "directCount": 5,
-   "total": 7,
+   "directCount": 4,
+   "total": 6,
    "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
   },
   "filings": [

@@ -520,7 +520,499 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "pending"
+    "status": "done",
+    "industries": [
+      {
+        "key": "Technology|Computer Hardware",
+        "industry": "Technology / Computer Hardware",
+        "lead": "Technology/Computer Hardware 업종은 서버, 스토리지, 낸드플래시(NAND, 전원이 꺼져도 데이터가 저장되는 비휘발성 메모리) 등을 만드는 컴퓨터 하드웨어 제조사들이 속한 업종이다. AI 데이터센터 수요가 낸드플래시 공급 부족과 맞물리면서 관련주가 급등하고 있다. SanDisk는 2026년 8월 13일 투자자의 날에서 수백억 달러 규모의 장기 계약 백로그(수주 잔고)를 공개하며 그 여파로 주가가 8월 17일 1,700달러선을 돌파했다. Dell은 2026년 5월 28일 발표한 회계연도 1분기 실적에서 AI 서버 매출이 전년 대비 757% 급증했고 AI 서버 백로그가 513억 달러로 늘었다고 밝혔으며, 8월 들어서도 주가가 한 주 만에 8.16% 오르는 등 강세가 이어지고 있다. 이 결과 이 업종의 6개월 상대강도(WRS)는 전체 업종 중 상위 0.71%에 달할 만큼 극단적으로 강하지만, 1개월 지표는 상위 66.1%로 되레 마이너스(-0.0107) 전환해 단기 모멘텀은 식고 있다.",
+        "whyStrong": [
+          {
+            "id": "sndk_investor_day",
+            "statement": "SanDisk는 2026년 8월 13일 투자자의 날에서 재무 모델과 수백억 달러 규모의 장기 계약 백로그를 공개했고, 이후 주가가 8월 17일(현지시간) 1,700달러선을 돌파해 장중 1,740달러 위로 6% 이상 뛰었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SanDisk Stock Price Forecast: Surging Past $1,700 Mark, Will Memory Frenzy Push SNDK to New Record?",
+                "publisher": "TradingKey",
+                "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262111150-stock-sandisk-sndk-ai-hbm-essd-hbf-nbm-tradingkey",
+                "date": "2026-08-17",
+                "quote": "Last Thursday (August 13), at its Investor Day, SanDisk not only released positive signals such as financial models and tens of billions in long-term contract backlogs",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "sndk_yahoo_rally_targets",
+            "statement": "SanDisk 주가는 하루 6% 상승에 이어 전일 13% 급등을 더해 연초 대비 540% 넘게 올랐고, 2028~2030년 매출은 중~고10%대(mid-to-high teens) 성장, 비GAAP 총이익률은 약 80%로 제시됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Sandisk stock surges as Wall Street cheers flash memory maker's bullish outlook",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/article/sandisk-stock-surges-as-wall-street-cheers-flash-memory-makers-bullish-outlook-131502540.html",
+                "date": "2026-08",
+                "quote": "Sandisk (SNDK) stock popped 6% on Friday, extending gains from a 13% rise in the prior session. The stock has been volatile but has gained more than 540% year to date.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "nand_supply_shortage",
+            "statement": "낸드플래시 공급 부족이 구조적으로 진행 중이다 — 삼성은 지난해 9월 이후 일부 메모리 칩 가격을 최대 60% 인상했고, 2026년 낸드 수요는 전년 대비 20~22% 늘어나는데 공급은 15~17% 증가에 그칠 것으로 전망됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "NAND Flash Prices Likely to Jump Double Digits in Q1, as Makers Reportedly Hike in Turns",
+                "publisher": "TrendForce",
+                "url": "https://www.trendforce.com/news/2025/11/20/news-nand-flash-prices-likely-to-jump-double-digits-in-q1-as-makers-reportedly-hike-in-turns/",
+                "date": "2025-11-20",
+                "quote": "Samsung has raised prices on select memory chips by up to 60% since September",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "dell_ai_backlog",
+            "statement": "Dell은 2026년 5월 28일 발표한 회계연도 1분기(FY27 Q1) 실적에서 AI 서버 매출이 161억 달러로 전년 대비 757% 급증했고, AI 서버 백로그는 분기 말 513억 달러(분기 중 신규 수주 244억 달러)로 늘었으며, 연간 AI 서버 매출 전망을 전년 대비 144% 늘어난 600억 달러로 상향했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dell's AI Server Revenue Hit $16 Billion in One Quarter. Here's What That Means for the Next 2 Years",
+                "publisher": "TIKR",
+                "url": "https://www.tikr.com/blog/dells-ai-server-revenue-hit-16-billion-in-one-quarter-heres-what-that-means-for-the-next-2-years",
+                "date": "2026-05-28",
+                "quote": "AI-optimized server revenue reached $16.1 billion, surging 757% from the prior year.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "dell_recent_momentum",
+            "statement": "Dell 주가는 8월 들어서도 강세를 이어가 한 주(2026년 8월 10~17일) 만에 8.16% 상승했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dell Technologies (DELL) Is Up 8.16% in One Week: What You Should Know",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/dell-technologies-dell-816-one-week-what-you-should-know",
+                "date": "2026-08-17",
+                "quote": "Dell Technologies (DELL) Is Up 8.16% in One Week: What You Should Know",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "commodity",
+        "durability": "structural",
+        "keyStocks": [
+          "DELL",
+          "SNDK",
+          "P"
+        ],
+        "risk": "이 강세는 두 축 — 낸드플래시 가격 급등과 AI 서버 수주 확대 — 에 의존하는데, 둘 다 되돌림 리스크가 있다. 낸드 공급 부족은 2027~2028년 신규 팹 가동으로 완화될 것으로 전망돼(TrendForce, 2025-11-20), 신규 생산능력이 예상보다 빨리 들어오거나 AI 데이터센터 투자 속도가 둔화되면 SanDisk·Dell의 가격/수주 프리미엄이 꺾일 수 있다. SanDisk는 이미 연초 대비 540%, 최근 1년으로는 3,400% 넘게 올라(Motley Fool, 2026-08-18 memberNews 제목) 밸류에이션 부담에 따른 차익실현 매물 압력이 커질 수 있다. 실제로 이 업종의 1개월 업종 강도(WRS)는 -0.0107(상위 66.1%)로 이미 마이너스 전환해, 6개월(상위 0.71%) 대비 단기 모멘텀이 눈에 띄게 식은 상태다 — 이 둔화가 이어지면 로테이션이 다른 업종으로 넘어갈 신호일 수 있다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "p_everpure_growth"
+          ],
+          "reason": ""
+        }
+      },
+      {
+        "key": "Energy|Oil & Gas Refining & Marketing",
+        "industry": "Oil & Gas Refining & Marketing",
+        "lead": "정유·마케팅 업종은 원유를 휘발유·디젤 등 정제품으로 가공해 판매하는 업종으로, 2026년 들어 정제마진(크랙 스프레드) 급등에 힘입어 시장을 큰 폭으로 앞서고 있다. WTI 3-2-1 크랙 스프레드(정제마진)는 올해 1월 이후 거의 3배로 뛰어 배럴당 59달러 수준까지 올랐고, 디젤 크랙 스프레드는 8월 17일 배럴당 102.20달러로 사상 최고치를 기록했다. 이란 전쟁과 우크라이나의 러시아 정유시설 드론 공격으로 정제유 공급이 차질을 빚으면서 마라톤 페트롤리엄·발레로에너지·HF시네클레어 등 주요 정유주가 올해 80% 넘게 급등했고, 이들을 포함하는 S&P500 정유·마케팅 하위업종 지수는 올해 104% 상승했다. 다만 이 지수가 150일 이동평균선 대비 41% 위에 있는 등 과열 신호도 함께 나타나고 있다.",
+        "whyStrong": [
+          {
+            "id": "crack-spread-59",
+            "statement": "WTI 3-2-1 크랙 스프레드(정제마진)가 2026년 1월 이후 거의 3배로 뛰어 배럴당 59달러 수준까지 상승했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Forget Oil Prices — This 1 Refining Number Explains Why These Energy Stocks Are On Fire",
+                "publisher": "Forbes (Yahoo Finance 재게재)",
+                "url": "https://finance.yahoo.com/energy/articles/forget-oil-prices-1-refining-141753237.html",
+                "date": "2026-07-23",
+                "quote": "the U.S. WTI 3-2-1 crack spread recently climbed to a $59 per barrel",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "diesel-crack-record",
+            "statement": "8월 17일(월) 미국 디젤 크랙 스프레드가 배럴당 102.20달러로 사상 최고치를 기록했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Diesel Prices Are Breaking Records: 3 Refiners Turning the Crisis Into Record Profits",
+                "publisher": "24/7 Wall St.",
+                "url": "https://247wallst.com/investing/2026/08/18/diesel-prices-are-breaking-records-3-refiners-turning-the-crisis-into-record-profits/",
+                "date": "2026-08-18",
+                "quote": "the U.S. diesel crack spread — the premium refiners earn turning crude into diesel — hit an all-time high of $102.20 a barrel on Monday.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "stock-gains-80pct-index-104pct",
+            "statement": "마라톤 페트롤리엄·발레로에너지·HF시네클레어 주가가 2026년 들어 각각 80% 넘게 올랐고(같은 기간 S&P500은 약 11% 상승), 이들과 필립스66을 포함하는 S&P500 정유·마케팅 하위업종 지수는 올해 104% 상승했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Refiner Stocks Have Soared More Than 80% in 2026. The Last 5 Times This Happened, They Fell Later.",
+                "publisher": "IBTimes (CNBC 2026-08-17 보도와 동일 내용 · 원출처: CNBC)",
+                "url": "https://www.ibtimes.com/refiner-stocks-have-soared-more-80-2026-last-5-times-this-happened-they-fell-later-3806533",
+                "date": "2026-08-19",
+                "quote": "Marathon Petroleum, Valero Energy and HF Sinclair have each surged more than 80% this year, compared with an approximately 11% gain for the S&P 500.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "index-overheat-41pct",
+            "statement": "S&P500 정유·마케팅 하위업종 지수는 150일 이동평균선 대비 41% 위에 있으며, 이는 지수 역사상 5번째로만 발생한 사례로 과거 5차례 모두 이후 6개월 수익률이 평균 -10.1%로 마이너스였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Refiner Stocks Have Soared More Than 80% in 2026. The Last 5 Times This Happened, They Fell Later.",
+                "publisher": "IBTimes (CNBC 2026-08-17 보도와 동일 내용 · 원출처: CNBC)",
+                "url": "https://www.ibtimes.com/refiner-stocks-have-soared-more-80-2026-last-5-times-this-happened-they-fell-later-3806533",
+                "date": "2026-08-19",
+                "quote": "As of Friday's close, the index stood 41% above its 150-day moving average.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "commodity",
+        "durability": "cyclical",
+        "keyStocks": [
+          "Marathon Petroleum (MPC)",
+          "Valero Energy (VLO)",
+          "Phillips 66 (PSX)",
+          "HF Sinclair (DINO)"
+        ],
+        "risk": "S&P500 정유·마케팅 하위업종 지수가 150일 이동평균선 대비 41% 이상 괴리된 것은 지수 역사상 이번이 6번째이며, 앞선 5번 모두 이후 6개월 수익률이 평균 -10.1%로 마이너스였다(IBTimes, 2026-08-19) — 같은 패턴이 반복되면 조정 국면이 올 수 있다. 크랙 스프레드는 영구적으로 유지되지 않는 경향이 있으며, 연료 공급이 늘거나 정유 가동률이 오르거나 원유 가격이 휘발유·디젤 가격보다 빠르게 반등하면 정제마진은 정상화된다(Forbes, Yahoo Finance 재게재, 2026-07-23). 현재의 마진 우위는 구조적이라기보다 이란 전쟁·러시아 정유시설 공격발 공급 차질에 기댄 순환적 성격이 강해, 종전이나 러시아 정유시설 정상화로 공급이 회복되면 디젤 크랙 스프레드의 급등분이 빠르게 되돌려질 수 있다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "earnings-margin-jump"
+          ],
+          "reason": ""
+        }
+      },
+      {
+        "key": "Healthcare|Biotechnology",
+        "industry": "Healthcare / Biotechnology",
+        "lead": "헬스케어/바이오테크놀로지는 신약 후보물질의 임상시험 성공 여부와 인수합병(M&A) 소식에 따라 주가가 크게 출렁이는 성장주 업종이다. 2026년 8월 19일 모더나와 머크가 개인맞춤형 mRNA 항암백신 '인티스메란 오토진'과 키트루다 병용요법의 3상(INTerpath-001, 환자 1,137명) 임상시험에서 1차 평가지표(무재발생존율)와 핵심 2차 평가지표(원격전이 무발생생존율)를 동시에 충족했다고 발표하며 모더나 주가가 하루 만에 100% 넘게 급등했고, 그 여파로 바이오텍 ETF(XBI)도 이날 하루 5.90% 오르며 1년 수익률이 88.81%까지 확대됐다. FDA도 2026년 2월 신약 승인 시 원칙적으로 임상 3상을 1건만 요구하는 쪽으로 정책을 바꾸는 등 정책·자금 환경이 우호적이다. 업종 내 55개 종목의 시가총액가중 초과수익률(WRS, 지수 대비 초과수익률의 시총가중 평균)은 1개월 기준 상위 0.85%로 전체 업종 중 최상위권이다.",
+        "whyStrong": [
+          {
+            "id": "mrna-merck-melanoma-p3",
+            "statement": "모더나·머크의 개인맞춤형 mRNA 항암백신 '인티스메란 오토진'+키트루다 병용요법이 2026년 8월 19일 3상(INTerpath-001, 완전절제 후 stage IIB-IV 흑색종 환자 1,137명 대상) 임상시험에서 무재발생존율(1차)과 원격전이 무발생생존율(2차) 평가지표를 모두 충족했다고 발표했다. 이는 mRNA 기반 항암치료제로는 사상 첫 3상 성공 사례이며, 모더나 주가는 발표 당일 100% 넘게 급등했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Merck and Moderna Announce Phase 3 INTerpath-001 Trial of Intismeran Autogene Plus KEYTRUDA Met Endpoints of Recurrence-Free Survival (RFS) and Distant Metastasis-Free Survival (DMFS) in Patients With Completely Resected Stage IIB-IV Melanoma",
+                "publisher": "Merck & Co. (공식 보도자료)",
+                "url": "https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/",
+                "date": "2026-08-19",
+                "quote": "The trial enrolled 1,137 patients who, following complete surgical resection, were randomized 2:1",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Merck and Moderna's personalized mRNA vaccine shows real promise against deadly skin cancer melanoma in late stage trial and sends stocks soaring",
+                "publisher": "Fortune",
+                "url": "https://fortune.com/article/moderna-merck-mrna-vaccine-promise-deadly-skin-cancer-melanoma-stocks-08-19-2026/",
+                "date": "2026-08-19",
+                "quote": "The news sent Moderna's stock up more than 100%",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "ticker_note": "memberNews 제공자료",
+                "title": "Stock Market Today, Aug. 19: Moderna Skyrockets 177% on Positive Phase 3 Melanoma Data",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/stock-market-today-aug-19-moderna-skyrockets-177-positive-phase-3-melanoma-data",
+                "date": "2026-08-19",
+                "quote": "Stock Market Today, Aug. 19: Moderna Skyrockets 177% on Positive Phase 3 Melanoma Data",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "xbi-etf-spike",
+            "statement": "모더나 호재의 여파로 바이오텍 ETF인 XBI(SPDR S&P Biotech ETF)는 2026년 8월 19일 하루 +5.90% 상승했고, 1년 수익률은 +88.81%까지 확대되며 52주 고점(169.68달러)에 근접했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "State Street SPDR S&P Biotech ETF (XBI) — 실시간 시세/수익률 데이터",
+                "publisher": "stockanalysis.com",
+                "url": "https://stockanalysis.com/etf/xbi/",
+                "date": "2026-08-19",
+                "quote": "1Y Return 88.81% (dividends included); Day change +5.90%; 52-Week High $169.68",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "fda-one-pivotal-trial-policy",
+            "statement": "FDA는 2026년 2월 19일, 신약 승인 시 원칙적으로 임상 3상을 2건이 아닌 1건만 요구하는 방향으로 정책을 전환한다고 발표해 신약 개발비용·기간을 단축할 수 있는 규제 우호 환경이 조성됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "FDA leaders say one pivotal trial, not two, should be 'default' for drug approvals",
+                "publisher": "BioPharma Dive",
+                "url": "https://www.biopharmadive.com/news/fda-makary-prasad0one-pivotal-trial-nejm/812557/",
+                "date": "2026-02-19",
+                "quote": "Going forward, the Food and Drug Administration will generally only require one pivotal trial to support the approval of new medicines, top agency officials announced Wednesday.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "member-earnings-beats",
+            "statement": "업종 내 개별종목 실적도 잇따라 시장 예상치를 상회했다. 코르셉트 테라퓨틱스(CORT)는 2026년 7월 29일 2분기 실적과 매출이 모두 예상치를 웃돌았고, 트래비어 테라퓨틱스(TVTX)는 8월 18일 신장질환 치료제 필스파리(FILSPARI)의 매출 확대가 기대치를 상회한다고 밝혔으며, 카이메라 테라퓨틱스(KYMR)는 8월 6일 길리어드·사노피로부터 받은 마일스톤 페이먼트에 힘입어 2분기 실적이 예상치를 상회했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Corcept Therapeutics (CORT) Q2 Earnings and Revenues Surpass Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/corcept-therapeutics-cort-q2-earnings-and-revenues-surpass-estimates",
+                "date": "2026-07-29",
+                "quote": "Corcept Therapeutics (CORT) Q2 Earnings and Revenues Surpass Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Travere Therapeutics Sees FILSPARI FSGS Launch Top Expectations, Expands Renal Pipeline",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/travere-therapeutics-sees-filspari-fsgs-launch-top-expectations-expands-renal-pipeline",
+                "date": "2026-08-18",
+                "quote": "Travere Therapeutics Sees FILSPARI FSGS Launch Top Expectations, Expands Renal Pipeline",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "KYMR Q2 Earnings and Revenues Top Estimates on Gilead, Sanofi Payments",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/kymr-q2-earnings-and-revenues-top-estimates-gilead-sanofi-payments",
+                "date": "2026-08-06",
+                "quote": "KYMR Q2 Earnings and Revenues Top Estimates on Gilead, Sanofi Payments",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "earnings",
+        "durability": "cyclical",
+        "keyStocks": [
+          "MRNA",
+          "CORT",
+          "MNPR",
+          "ORKA",
+          "MANE",
+          "SYRE",
+          "KYMR",
+          "TVTX"
+        ],
+        "risk": "트럼프 행정부의 최혜국(MFN) 약가정책이 본격 시행돼 미국 내 프리미엄 약가가 유럽 등 다른 선진국 수준으로 낮아지면, 패치 절벽에 대응해 진행 중인 대형 M&A·라이선스 딜의 밸류에이션 산정 근거 자체가 흔들려 딜 활동이 위축될 수 있다. FDA 커미셔너 마티 매카리가 2026년 5월 사임한 뒤 대행 체제가 이어지고 있어, 후임 인선이나 정책 기조 변화로 단일임상시험 승인 완화 방침이 되돌려질 위험도 있다. 8월 19일 발표된 모더나·머크 흑색종 백신 데이터는 상세 데이터가 아직 공개되지 않은 톱라인(초기) 결과로, 향후 국제학회 발표나 규제기관 제출 과정에서 세부 데이터가 기대에 못 미치면 이날 급등분이 되돌려질 수 있다. XBI 1년 수익률이 이미 +88.81%로 52주 고점 근접까지 오른 상태여서, M&A·임상 모멘텀이 둔화되는 순간 밸류에이션 부담에 따른 되돌림 리스크도 존재한다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "biotech-ma-boom"
+          ],
+          "reason": "",
+          "leadFixed": true
+        },
+        "leadOriginal": "헬스케어/바이오테크놀로지는 신약 후보물질의 임상시험 성공 여부와 인수합병(M&A) 소식에 따라 주가가 크게 출렁이는 성장주 업종이다. 2026년 8월 19일 모더나와 머크가 개인맞춤형 mRNA 항암백신 '인티스메란 오토진'과 키트루다 병용요법의 3상(INTerpath-001, 환자 1,137명) 임상시험에서 1차 평가지표(무재발생존율)와 핵심 2차 평가지표(원격전이 무발생생존율)를 동시에 충족했다고 발표하며 모더나 주가가 하루 만에 100% 넘게 급등했고, 그 여파로 바이오텍 ETF(XBI)도 이날 하루 5.90% 오르며 1년 수익률이 88.81%까지 확대됐다. 여기에 2026년 상반기 바이오텍 M&A 규모(6개월간 33건, 1,340억달러)가 이미 2025년 연간 실적(26건, 1,120억달러)을 넘어섰고, FDA도 2026년 2월 신약 승인 시 원칙적으로 임상 3상을 1건만 요구하는 쪽으로 정책을 바꾸는 등 정책·자금 환경이 우호적이다. 업종 내 55개 종목의 시가총액가중 초과수익률(WRS, 지수 대비 초과수익률의 시총가중 평균)은 1개월 기준 상위 0.85%로 전체 업종 중 최상위권이다."
+      },
+      {
+        "driver": "commodity",
+        "durability": "cyclical",
+        "industry": "Gold",
+        "key": "Basic Materials|Gold",
+        "keyStocks": [
+          "Newmont (NEM)",
+          "Barrick Mining (GOLD)",
+          "Agnico Eagle Mines (AEM)",
+          "AngloGold Ashanti (AU)",
+          "Gold Fields (GFI)",
+          "IAMGOLD (IAG)"
+        ],
+        "lead": "금(Gold) 업종은 금 채굴·정련 기업들로 구성되며 국제 금 시세와 채굴 원가의 스프레드로 수익성이 좌우된다. 중앙은행의 기록적 매입을 배경으로 금값이 반등했다. 이 업종의 1개월 지수 대비 초과수익률(WRS, 업종 내 시총가중 평균 초과수익률)이 상위 1.69%까지 급등한 반면 6개월 업종 강도(WRS)는 하위권(상위 90.71%)에 머무는 것은 이런 최근 반등의 성격을 보여준다.",
+        "risk": "9월 연방공개시장위원회(FOMC)에서 시장 예상과 달리 실제 금리인상이 단행되거나 인플레이션 지표가 재차 가속화되면 달러 강세·실질금리 상승으로 최근 반등의 논리가 그대로 반전될 수 있다. 6개월 업종 강도(WRS)가 여전히 하위 90%권(-0.095)에 머문다는 점은 8월 반등이 아직 추세 전환이 아니라 1월 고점 이후 이어진 조정 국면 속의 단기 되돌림일 가능성을 시사하며, 광산주는 원가가 고정적이라 금값이 재차 하락하면 하락폭도 증폭된다. 또한 중앙은행 매입은 분기 데이터로만 확인되므로(2026년 2분기 289톤) 3분기 이후 매입 속도가 둔화될 경우 구조적 수요 축이 약해질 수 있다.",
+        "whyStrong": [
+          {
+            "id": "central-bank-buying",
+            "statement": "세계금협회(World Gold Council)에 따르면 2026년 2분기 전세계 중앙은행의 금 순매입량은 289톤으로, 폴란드 중앙은행이 51톤으로 최대 매수국이었고 중국인민은행이 33톤을 추가 매입했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Central Banks - Gold Demand Trends: Q2 2026",
+                "publisher": "World Gold Council (gold.org)",
+                "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026/central-banks",
+                "date": "2026-07-30",
+                "quote": "Net purchases totalled a healthy 289t in Q2... The National Bank of Poland was the largest buyer, adding 51t during the quarter... The People's Bank of China added a further 33t in Q2",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "gold-price-rebound",
+            "fed-hike-odds-fall",
+            "miners-2008-week",
+            "retail-inflow-gdx"
+          ],
+          "reason": "금값 상승과 금광주 지수 급등의 구체적 숫자(4,557.60달러, 20% 상승률)가 출처의 quote에 없거나 검증되지 않음. 연준 금리인상 확률만 부분 검증됨. 리테일 자금 유입도 구체적 근거 부족.",
+          "leadFixed": true
+        },
+        "leadOriginal": "금(Gold) 업종은 금 채굴·정련 기업들로 구성되며 국제 금 시세와 채굴 원가의 스프레드로 수익성이 좌우된다. 2026년 1월 28일 온스당 약 5,589달러로 사상 최고치를 찍은 뒤 6월 말 4,000달러 아래로 조정받았던 금값이, 8월 들어 9월 연방준비제도(Fed) 금리인상 기대 후퇴와 중앙은행의 기록적 매입을 딛고 반등하며 8월 16일 4,557.60달러(6월4일 이후 최고치)까지 올랐다. 이 반등에 채굴 원가가 고정적인 광산주가 레버리지 효과로 더 크게 반응하면서, NYSE Arca 금광주 지수는 8월 첫째 주 한 주 만에 20%를 넘게 뛰어 2008년 금융위기 당시 이후 최고의 주간 상승률을 기록했다. 이 업종의 1개월 지수 대비 초과수익률(WRS, 업종 내 시총가중 평균 초과수익률)이 상위 1.69%까지 급등한 반면 6개월 업종 강도(WRS)는 하위권(상위 90.71%)에 머무는 것도 이런 최근 급반등의 성격을 보여준다."
+      },
+      {
+        "driver": "technology",
+        "durability": "cyclical",
+        "industry": "Electronics & Computer Distribution",
+        "key": "Technology|Electronics & Computer Distribution",
+        "keyStocks": [
+          "SNX (TD시넥스)",
+          "ARW (애로우일렉트로닉스)",
+          "AVT (에이브넷)",
+          "NSIT (인사이트엔터프라이즈)",
+          "SCSC (스캔소스)"
+        ],
+        "lead": "전자·컴퓨터 유통업(Electronics & Computer Distribution)은 반도체·서버·PC 등 IT 하드웨어를 제조사로부터 사들여 기업·소매업체에 재판매하는 도매유통업으로, TD시넥스(SNX)·애로우일렉트로닉스(ARW)·에이브넷(AVT) 등이 대표 기업이다. 2026년 8월 현재 이 업종은 인공지능(AI) 데이터센터 투자 확산에 힘입어 유통업체들의 분기 실적이 잇달아 시장 예상을 크게 웃돌고 있다. 다만 최근 1개월 강도는 오히려 시장 대비 약화돼(업종 강도 WRS 상위 72.03%), 6개월 추세의 강한 상승(WRS 상위 2.14%)과는 온도차가 있다.",
+        "risk": "이 강세는 AI 데이터센터·서버 발주가 지속적으로 늘어난다는 전제 위에 서 있다. 첫째, 하이퍼스케일러(대형 클라우드업체)들의 서버·인프라 발주 증가율이 둔화되면 TD시넥스의 하이브(Hyve) 서버 부문(2분기 총청구액 전년比 117% 증가)과 애로우일렉트로닉스의 엔터프라이즈컴퓨팅솔루션(ECS) 백로그(전년比 75% 이상 증가, 사상 최고치)부터 꺾일 수 있다. 둘째, 이미 TD시넥스 98.63%·애로우 72.9%·에이브넷 74.71%(WallStreetZen 집계, 지난 1년 기준) 급등한 뒤라 밸류에이션 부담이 크고, 실제로 이 업종의 1개월 -0.023(WRS)는 이미 QQQ 대비 열위로 돌아서 상위 72.03%에 그쳐 단기 모멘텀이 식고 있다는 신호가 먼저 나타나고 있다. 셋째, 유통업은 본질적으로 반도체·IT 하드웨어 재고 사이클에 연동되는 경기순환적 업종이라, 에이브넷이 밝힌 \"광범위한 최종시장에 걸친 수요 회복(demand recovery occurring across all regions and end markets)\"이 재고 재축적에 따른 일회성 반등이라면 다음 분기 가이던스 정상화와 함께 상대강도가 빠르게 반락할 수 있다.",
+        "whyStrong": [
+          {
+            "id": "arw-ecs-backlog",
+            "statement": "애로우일렉트로닉스의 엔터프라이즈컴퓨팅솔루션(ECS) 부문 수주잔고(백로그)는 전년 대비 75% 이상 증가해 2분기 기준 사상 최고치를 기록, 클라우드·사이버보안·AI 관련 수요 확대를 뒷받침했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Arrow Electronics (ARW) Q2 2026 Earnings Call Transcript",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/earnings/call-transcripts/2026/08/14/arrow-electronics-arw-q2-2026-earnings-call-transcript/",
+                "date": "2026-08-14",
+                "quote": "ECS backlog...up 75% year over year, finishing the second quarter at another all time high",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "snx-q2-earnings",
+            "snx-hyve-ai",
+            "arw-q2-2026",
+            "avt-q4fy26",
+            "industry-1y-returns"
+          ],
+          "reason": "주요 기업들의 매출은 부분 검증되나, 주당순이익(EPS)과 수익률 등 추가 수치는 quote에 없음. 특히 각 회사별 실적 상세 내용이 부분적으로만 quote에 포함됨.",
+          "leadFixed": true
+        },
+        "leadOriginal": "전자·컴퓨터 유통업(Electronics & Computer Distribution)은 반도체·서버·PC 등 IT 하드웨어를 제조사로부터 사들여 기업·소매업체에 재판매하는 도매유통업으로, TD시넥스(SNX)·애로우일렉트로닉스(ARW)·에이브넷(AVT) 등이 대표 기업이다. 2026년 8월 현재 이 업종은 인공지능(AI) 데이터센터 투자 확산에 힘입어 유통업체들의 분기 실적이 잇달아 시장 예상을 크게 웃돌고 있다. TD시넥스는 2026 회계연도 2분기 매출이 195억7000만달러로 자크스(Zacks) 컨센서스 168억4000만달러를 16.2% 초과했고, 애로우일렉트로닉스는 2026년 2분기(8월 6일 발표) 매출이 전년 대비 32% 늘어난 100억달러, 비GAAP 주당순이익(EPS)은 124% 급증한 5.45달러를 기록했다. 에이브넷도 2026 회계연도 4분기(2026년 8월 5일 발표) 매출이 전년 대비 47.7% 급증한 83억달러로 컨센서스를 10.5% 웃돌았다. 다만 최근 1개월 강도는 오히려 시장 대비 약화돼(업종 강도 WRS 상위 72.03%), 6개월 추세의 강한 상승(WRS 상위 2.14%)과는 온도차가 있다."
+      },
+      {
+        "driver": "earnings",
+        "durability": "structural",
+        "industry": "Technology / Semiconductors",
+        "key": "Technology|Semiconductors",
+        "keyStocks": [
+          "MU",
+          "AMD",
+          "MRVL",
+          "ALAB",
+          "MXL"
+        ],
+        "lead": "반도체 업종(Semiconductors)은 AI 데이터센터에 들어가는 연산·메모리·네트워킹 칩을 설계·공급하는 업종이다. 2026년 5월 글로벌 반도체 매출이 사상 최대인 1206억 달러(전년비 104.1% 증가)를 기록하며 15개월 연속 최고치를 경신했고, AI 데이터센터 GPU·네트워킹 수요가 겹치며 핵심 종목의 실적이 일제히 전년대비 두 자릿수로 급증했다. 이 구조적 수요 덕분에 6개월 기준 업종 강도(WRS)는 전체 업종 중 상위 3.57%(0.3973)에 든다. 다만 7월 말부터 8월까지 밸류에이션 부담과 국채금리 상승으로 반도체주가 큰 폭의 조정을 겪으면서 1개월·3개월 업종 강도(WRS)는 오히려 마이너스로 돌아섰고, 업종 순위도 하위권(각각 상위 77.97%, 75%)으로 밀렸다 — 구조적 상승 추세 속에 최근 단기 조정이 겹친 국면이다.",
+        "risk": "1개월·3개월 업종 강도(WRS)가 이미 마이너스(-0.0265, -0.0129)로 업종 내 하위권(상위 77.97%, 75%)인 것은 7월 말~8월 반도체주 조정과 직접 연결된다. 2026년 7월 한 달간 MSCI 월드 반도체지수가 약 13% 하락했으며(leverageshares.com, 2026-07-29 무렵 보도), 배경에는 AI 투자 수익성에 대한 의문과 반도체·AI개발사·하이퍼스케일러가 서로 고객·공급자·투자자를 겸하는 \"순환 자금조달(circular AI funding)\" 우려, 중국의 노광장비(DUV) 자국화로 인한 기술격차 축소 우려가 있다. 8월 18일에도 국채금리 상승 속에 Marvell이 하루 6% 급락했고(\"Marvell Technology stock is down 6% Tuesday morning to $219.28\", 247wallst, 2026-08-18), 8월 19일에는 \"Intel and AMD each dropped 4% while NVIDIA held flat\"(247wallst, 2026-08-19)이었다. 만약 하이퍼스케일러들의 AI 데이터센터 설비투자(capex) 증가율이 실제로 꺾이거나, 국채금리가 추가로 오르며 고밸류 기술주 전반의 할인율 재조정(de-rating)이 계속되면, 6개월 기준의 구조적 강세 흐름도 훼손될 수 있다.",
+        "whyStrong": [
+          {
+            "id": "ws1",
+            "statement": "AI 데이터센터 투자 확대로 글로벌 반도체 매출이 2026년 5월 1206억 달러(전년비 104.1% 증가)를 기록하며 15개월 연속 사상 최고치를 경신했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "3 Semiconductor Stocks to Buy Before AI Demand Explodes in August",
+                "publisher": "24/7 Wall St.",
+                "url": "https://247wallst.com/investing/2026/08/01/3-semiconductor-stocks-to-buy-before-ai-demand-explodes-in-august/",
+                "date": "2026-08-01",
+                "quote": "Global semiconductor sales hit a record $120.6 billion in May 2026, up 104.1% year over year and marking the 15th consecutive monthly record.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "ws3",
+            "statement": "AI 서버 간 연결(PCIe·스케일업 스위칭)을 담당하는 Astera Labs(ALAB)는 2026년 2분기 매출이 3억 9240만 달러로 전년대비 104% 늘며 분기 기록을 세웠고, 3분기 매출 가이던스는 5억4000만~5억6000만 달러로 제시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Astera Labs Reports Second Quarter 2026 Financial Results",
+                "publisher": "Astera Labs (공식 보도자료)",
+                "url": "https://www.asteralabs.com/news/astera-labs-reports-second-quarter-2026-financial-results/",
+                "date": "2026-08-04",
+                "quote": "Record quarterly revenue of $392.4 million, up 27% QoQ and up 104% year-over-year",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "ws2",
+            "ws4",
+            "ws5"
+          ],
+          "reason": "글로벌 반도체 매출과 주요 기업 매출은 검증되나, Micron의 HBM 완판, AMD의 Anthropic 파트너십, Marvell의 인터커넥트 성장 전망은 quote에 없음.",
+          "leadFixed": true
+        },
+        "leadOriginal": "반도체 업종(Semiconductors)은 AI 데이터센터에 들어가는 연산·메모리·네트워킹 칩을 설계·공급하는 업종이다. 2026년 5월 글로벌 반도체 매출이 사상 최대인 1206억 달러(전년비 104.1% 증가)를 기록하며 15개월 연속 최고치를 경신했고, 메모리(HBM·DRAM) 품귀와 AI 데이터센터 GPU·네트워킹 수요가 겹치며 Micron·AMD·Astera Labs·Marvell 등 핵심 종목의 실적이 일제히 전년대비 두 자릿수~세 자릿수로 급증했다. 이 구조적 수요 덕분에 6개월 기준 업종 강도(WRS)는 전체 업종 중 상위 3.57%(0.3973)에 든다. 다만 7월 말부터 8월까지 밸류에이션 부담과 국채금리 상승으로 반도체주가 큰 폭의 조정을 겪으면서 1개월·3개월 업종 강도(WRS)는 오히려 마이너스로 돌아섰고, 업종 순위도 하위권(각각 상위 77.97%, 75%)으로 밀렸다 — 구조적 상승 추세 속에 최근 단기 조정이 겹친 국면이다."
+      }
+    ],
+    "summary": {
+      "rotationView": "돈은 지난 6개월 동안 AI 하드웨어 축(Computer Hardware 6M WRS 1.276·상위 0.71%, Semiconductors 0.3973·상위 3.57%, Electronics & Computer Distribution 0.4938·상위 2.14%)에 집중돼 있었지만, 최근 1개월 구간에서는 이 세 업종의 업종 강도(WRS)가 모두 마이너스(-0.011 / -0.027 / -0.023)로 돌아서며 순위가 66~78%대로 밀렸다. 즉 AI 하드웨어는 '이미 오른 자리'이지 '지금 들어오는 자리'가 아니다. 대신 자금은 두 갈래로 이동 중이다. 첫째는 Biotechnology로, 1M 업종 강도(WRS) 0.4876(상위 0.85%)이 3M(0.433)·6M(0.4686)보다 높아 강도가 가속되는 유일한 축이며 8월 19일 모더나·머크 mRNA 항암백신 3상 성공과 XBI 하루 +5.90%가 그 촉매다. 둘째는 Gold로, 6M 업종 강도(WRS) -0.095(하위 90.71%)에서 1M 0.3127(상위 1.69%)로 반전한 전형적인 신규 유입 구간이다. Oil & Gas Refining & Marketing은 6M·3M 모두 상위 1.43%로 여전히 강하지만 1M 순위가 16.95%로 밀려 리더십의 정점을 지나는 중이다. 요약하면 로테이션은 'AI 하드웨어 → 바이오텍 + 금'으로, 실적·촉매 주도에서 촉매·매크로 헤지 쪽으로 무게중심이 옮겨가고 있다.",
+      "strongest": {
+        "industry": "Healthcare / Biotechnology",
+        "why": "1개월(0.4876·상위 0.85%)·3개월(0.433·상위 0.71%)·6개월(0.4686·상위 2.86%) 전 구간에서 상위 3% 안에 든 유일한 업종이고, 그중 1개월 강도가 6개월보다 높아 가속 국면이다. 근거도 뚜렷하다 — 2026년 8월 19일 모더나·머크의 개인맞춤형 mRNA 항암백신(인티스메란 오토진 + 키트루다) 3상 INTerpath-001이 흑색종 환자 1,137명 대상 무재발생존율·원격전이 무발생생존율을 모두 충족하며 mRNA 항암치료제 사상 첫 3상 성공을 기록했고 모더나 주가는 당일 100% 넘게 급등했다. 여파로 XBI는 8월 19일 하루 +5.90%, 1년 +88.81%로 52주 고점(169.68달러)에 근접했다. 여기에 2026년 2월 19일 FDA가 신약 승인 시 3상을 2건이 아닌 1건만 요구하는 방향으로 정책을 전환한 규제 우호 환경이 깔려 있고, CORT(7월 29일 2분기 매출·실적 동시 상회), TVTX(8월 18일 필스파리 매출 기대 상회), KYMR(8월 6일 길리어드·사노피 마일스톤으로 2분기 상회) 등 개별 실적 서프라이즈가 뒷받침한다. 단일 뉴스가 아니라 촉매 + 규제 + 실적 3중 구조라는 점이 다른 업종과의 차이다."
+      },
+      "emerging": [
+        "Gold — 6M WRS -0.095(하위 90.71%)에서 1M 0.3127(상위 1.69%)로 완전 반전. 조사된 근거는 2026년 2분기 전세계 중앙은행 금 순매입 289톤(폴란드 51톤 최대, 중국인민은행 33톤 추가)뿐이므로 그 이상의 스토리는 붙이지 말 것",
+        "Healthcare / Biotechnology — 1M 0.4876 > 6M 0.4686으로 강도 가속, 1M 랭크 0.85%로 전 업종 최상위. 8월 19일 모더나·머크 mRNA 항암백신 3상 성공이 트리거"
+      ],
+      "fading": [
+        "Technology / Computer Hardware — 6M WRS 1.276(상위 0.71%, 전 업종 압도적 1위)이었으나 1M -0.0107로 마이너스 전환·랭크 66.1%. 낸드 공급부족(2026년 수요 +20~22% vs 공급 +15~17%)과 Dell AI 서버 백로그 513억 달러 같은 펀더멘털은 살아있지만 가격 모멘텀은 식는 중",
+        "Technology / Semiconductors — 6M 0.3973(상위 3.57%) → 3M -0.0129(75%) → 1M -0.0265(77.97%)로 3개월째 연속 둔화. 5월 글로벌 반도체 매출 1206억 달러(전년비 +104.1%, 15개월 연속 최고) 실적과 주가 모멘텀이 디커플링",
+        "Technology / Electronics & Computer Distribution — 6M 0.4938(상위 2.14%) → 1M -0.023(72.03%). 애로우 ECS 백로그 전년비 +75% 사상 최고라는 펀더멘털에도 자금은 이탈 중",
+        "Oil & Gas Refining & Marketing — 3M·6M 모두 상위 1.43%로 여전히 리더군이나 1M 랭크가 16.95%로 밀려 정점 통과 신호. 완만한 둔화 단계"
+      ],
+      "caution": "Oil & Gas Refining & Marketing은 숫자가 강하다고 신규 진입할 자리가 아니다. S&P500 정유·마케팅 하위업종 지수는 올해 104% 올라 150일 이동평균선 대비 41% 위에 있는데, 이는 지수 역사상 5번째 발생 사례이고 과거 5차례 모두 이후 6개월 수익률이 평균 -10.1%로 마이너스였다. 8월 17일 디젤 크랙 스프레드 배럴당 102.20달러 사상 최고, WTI 3-2-1 크랙 59달러(1월 대비 약 3배)는 이미 정점권 지표로 읽어야 한다. 둘째, Gold와 Electronics & Computer Distribution은 조사된 근거가 각 1건뿐이어서 업종 강도(WRS) 순위 해석까지만 하고 서사를 확장하지 말 것. 셋째, Biotechnology의 1개월 급등은 8월 19일 단일 임상 이벤트에 크게 기대고 있어 후속 데이터·규제 뉴스에 따라 되돌림 위험이 있다 — 진입 시 이벤트 갭 위 지지 확인이 필요하다."
+    },
+    "reusedFrom": null
   },
   "flow": {
     "baseline": {

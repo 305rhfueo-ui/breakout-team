@@ -1,0 +1,151 @@
+{
+ "ticker": "EL",
+ "news": [
+  {
+   "title": "Estee Lauder (EL) Q4 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "url": "https://www.nasdaq.com/articles/estee-lauder-el-q4-earnings-how-key-metrics-compare-wall-street-estimates",
+   "date": "2026-08-19",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "EL"
+   ]
+  },
+  {
+   "title": "Estee Lauder (EL) Q4 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/estee-lauder-el-q4-earnings-and-revenues-beat-estimates",
+   "date": "2026-08-19",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "EL",
+    "FLO"
+   ]
+  },
+  {
+   "title": "Why Estée Lauder Stock Jumped Today",
+   "url": "https://www.nasdaq.com/articles/why-estee-lauder-stock-jumped-today",
+   "date": "2026-08-19",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "EL",
+    "EL"
+   ]
+  },
+  {
+   "title": "Estée Lauder Q4 Loss Narrows; Shares Up In Pre-market",
+   "url": "https://www.nasdaq.com/articles/estee-lauder-q4-loss-narrows-shares-pre-market",
+   "date": "2026-08-19",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "EL"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-19",
+   "reportDate": "2026-08-19",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000038/el-20260819.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "reportDate": "2026-07-20",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000033/el-20260720.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-05-01",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000017/el-20260501.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-24",
+   "reportDate": "2026-03-23",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000010/el-20260323.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "reportDate": "2026-02-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000004/el-20260205.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-18",
+   "reportDate": "2025-11-13",
+   "items": [
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125025000112/el-20251113.htm",
+   "description": "8-K"
+  }
+ ]
+}

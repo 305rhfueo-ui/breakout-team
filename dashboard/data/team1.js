@@ -476,8 +476,350 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-08-20",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "미국 국가부채 40조 달러 돌파 — 10년 만에 두 배",
+        "easy": "미국 정부가 진 빚이 사상 처음으로 40조 달러를 넘었습니다(국가부채 = 정부가 세금으로 못 채운 돈을 빌린 것). 10년 만에 두 배가 됐습니다. 집안 살림으로 비유하면, 월급으로 부족한 생활비를 계속 카드로 돌려막았는데 카드 잔액이 10년 만에 두 배가 된 셈입니다. 정부는 이 돈을 빌리려고 국채(정부가 발행하는 차용증)를 계속 찍어서 팔아야 하는데, 사겠다는 사람이 모자라면 이자를 더 얹어줘야 합니다. 그 이자율이 바로 시장금리이고, 금리가 오르면 '먼 미래에 벌 돈'을 미리 값으로 쳐주는 성장주가 가장 먼저 할인을 당합니다.",
+        "whyMatters": "오늘 주도 섹터의 42%가 Technology 21종목이라, 장기금리가 오르면 포트폴리오 상단부터 직격을 받는 구조입니다. 여기에 FINRA 고객 마진부채가 YoY +38.6%(빚내서 산 돈)로 +30% 경고선을 넘어 있어, 금리가 튀는 날에는 강제 청산이 겹쳐 낙폭이 평소보다 커질 수 있습니다. 반대로 실적이 지금 바로 나오는 Industrials 3종목·Consumer Cyclical 6종목은 상대적으로 금리 민감도가 낮습니다. 당장 무너질 뉴스는 아니지만, 신규 진입 시 레버리지를 줄여야 할 배경 리스크입니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "U.S. government debt passes $40 trillion, more than doubling in a decade",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/19/us-government-debt-passes-40-trillion-mark-for-the-first-time.html",
+            "date": "2026-08-19",
+            "quote": "U.S. government debt passes $40 trillion, more than doubling in a decade",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "US national debt passes $40tn after doubling in a decade",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c70gp8252ejo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-08-19",
+            "quote": "US national debt passes $40tn after doubling in a decade",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "베센트 재무장관, 국채 바이백으로 금리 누르기 — 워시 연준에 압박",
+        "easy": "미국 재무장관(나라 곳간을 관리하는 사람)이 이미 발행된 국채를 정부가 되사들이는 방식으로 시장금리를 끌어내리려 하고 있습니다. 시장에 풀린 차용증 수를 줄이면 남은 차용증의 값이 올라가고, 값이 오르면 이자율은 반대로 내려갑니다. 여기에 트럼프 대통령도 '미국은 이자를 훨씬 적게 내야 한다'며 연준(미국의 중앙은행, 기준금리를 정하는 곳)을 공개적으로 압박하고 있습니다. 즉 정부가 두 방향에서 '금리를 내려라'라고 밀고 있는 상황입니다. 금리가 내려가면 돈이 싸져서 주식에는 단기적으로 좋은 바람이지만, 중앙은행이 정치의 눈치를 본다는 인상이 굳어지면 나중에 물가와 채권시장이 반격할 수 있습니다.",
+        "whyMatters": "금리 하락 기대는 밸류에이션이 높은 Technology 21종목(주도 섹터의 42%)과 아직 이익보다 성장 스토리로 평가받는 Healthcare 14종목에 가장 크게 유리합니다. QQQ가 골든크로스 D+7에 10MA·20MA 동반 상승(1.6% / 0.82%)인 지금, 금리 하락 재료는 이 추세를 뒤에서 밀어주는 역할을 합니다. 다만 이 힘은 '정책이 만든 금리'라 정책 방향이 흔들리는 날 되돌림도 빠릅니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Bessent moves to curb Treasury yields, putting new pressure on Warsh's Fed",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/19/bessent-treasury-buybacks-yields-warsh-fed.html",
+            "date": "2026-08-19",
+            "quote": "Bessent moves to curb Treasury yields, putting new pressure on Warsh's Fed",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Trump bemoans Fed interest rate policy, says U.S. should be paying much less",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/19/trump-bemoans-fed-interest-rate-policy-says-us-should-be-paying-much-less.html",
+            "date": "2026-08-19",
+            "quote": "Trump bemoans Fed interest rate policy, says U.S. should be paying much less",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "트럼프, 이란에 '경제 전쟁' 선언 — 호르무즈 리스크 재점화",
+        "easy": "트럼프 대통령이 이란을 상대로 '경제 전쟁'을 하겠다고 선언하고, 이란을 돕는 나라들에도 '엄청난 대가'를 경고했습니다. 이란 옆에는 호르무즈 해협이라는 바닷길이 있는데, 전 세계 원유의 상당량이 이 좁은 길목을 지나갑니다. 아파트 단지에 출입구가 딱 하나뿐인데 그 문 앞에서 싸움이 나는 상황이라고 보면 됩니다. 문이 막힐 수 있다는 말만 나와도 기름값(유가)이 먼저 뜁니다. 기름값은 물가와 운송비로 바로 번지기 때문에, 주식시장에서는 '금리 인하 기대'를 갉아먹는 재료로 취급됩니다.",
+        "whyMatters": "유가 급등은 원가가 곧 실적인 Consumer Cyclical 6종목(소비·여행·유통성 업종)과 Industrials 3종목의 마진을 직접 깎습니다. 반대로 에너지·방산 쪽은 반사 수혜를 받지만 오늘 주도 섹터 명단에는 들어와 있지 않아, 지금 우리 포트폴리오 구성상 이 뉴스는 방어보다 노출에 가깝습니다. 헤드라인 하나에 장중 변동성이 커지는 유형이라, 신규 돌파 매수는 종가 확인 후로 미루는 편이 안전합니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Trump announces 'economic warfare' on Iran, threatens 'tremendous' consequences for its backers",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/19/us-iran-war-trump-hormuz-economic-warfare.html",
+            "date": "2026-08-19",
+            "quote": "Trump announces 'economic warfare' on Iran, threatens 'tremendous' consequences for its backers",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "반도체 랠리에 제동 — 마벨은 구글 칩 수주로 급등, 브로드컴은 하락",
+        "easy": "그동안 쉬지 않고 오르던 반도체 주식들이 잠깐 숨을 골랐습니다. 그런데 안쪽을 보면 모두가 같이 내린 게 아니라 자리바꿈이 일어났습니다. 마벨(Marvell)은 구글에 칩을 공급한다는 소식에 주가가 튀었고, 반대로 브로드컴(Broadcom)은 그 물량을 뺏겼다는 해석에 내렸습니다. 학급에서 반장 자리가 한 명에서 다른 한 명으로 넘어간 것과 비슷합니다. 애널리스트(주식 분석 전문가)들은 이번 조정이 추세가 꺾인 게 아니라 과열을 식히는 과정이라고 보는 쪽이 많습니다.",
+        "whyMatters": "주도 섹터의 42%가 Technology 21종목이라, 반도체 내부의 순환은 곧 우리 종목 리스트 절반의 손익입니다. 중요한 건 '반도체 전체가 죽었다'가 아니라 '고객사를 새로 따낸 곳으로 돈이 옮겨간다'는 점이라, 개별 종목의 수주·고객 뉴스가 있는 쪽에 붙어야 합니다. QQQ가 종가 716.08로 MA10 722.73 아래에 있는 만큼, 지수보다 개별 반도체 종목의 상대강도가 판단 기준이 되는 국면입니다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "The chip-stock rally hits a speed bump — but these analysts see reason to be hopeful",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-chip-stock-rally-hits-a-speed-bump-but-these-analysts-see-reason-to-be-hopeful-61821295?mod=mw_rss_topstories",
+            "date": "2026-08-19",
+            "quote": "The chip-stock rally hits a speed bump — but these analysts see reason to be hopeful",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Marvell's stock pops on news of Google chip deal — and Broadcom's falls",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/marvells-stock-soars-on-news-of-google-chip-deal-and-broadcoms-falls-c2a7f559?mod=mw_rss_topstories",
+            "date": "2026-08-19",
+            "quote": "Marvell's stock pops on news of Google chip deal — and Broadcom's falls",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "서비스나우가 이끈 소프트웨어 랠리 — AI 주도주가 칩에서 SW로",
+        "easy": "서비스나우(ServiceNow)라는 기업용 소프트웨어 회사의 주가가 크게 오르면서 소프트웨어 업종 전체가 같이 올랐습니다. 그동안 AI 투자로 돈을 번 쪽은 주로 반도체(삽을 파는 회사)였는데, 이제 그 삽으로 실제 돈을 버는 소프트웨어 회사 차례가 왔다는 기대가 붙은 겁니다. 금광에 비유하면, 초반에는 곡괭이 파는 가게가 먼저 벌고 그다음에 금을 캐는 회사가 버는 순서입니다. 투자자들이 'AI가 매출로 바뀌는 증거'를 소프트웨어에서 찾기 시작했다는 신호입니다.",
+        "whyMatters": "오늘 반도체가 쉬는데 소프트웨어가 오른 것은 Technology 21종목 안에서 돈이 빠져나간 게 아니라 옆으로 이동했다는 뜻이라, 기술 섹터 전체 비중을 줄일 이유가 되지 않습니다. 오히려 같은 Technology 안에서도 SaaS·기업용 소프트웨어 쪽의 신고가 종목을 우선순위로 올려야 하는 국면입니다. QQQ가 골든크로스 D+7로 쿨라매기 최적 진입 구간이라는 판정과 방향이 맞는, 몇 안 되는 순수 긍정 재료입니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "ServiceNow's stock leads a software rally. Here's what's energizing investors.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/servicenows-stock-leads-a-software-rally-heres-whats-energizing-investors-0ad74dd1?mod=mw_rss_topstories",
+            "date": "2026-08-19",
+            "quote": "ServiceNow's stock leads a software rally. Here's what's energizing investors.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "모더나·머크 암 백신 후기임상 청신호 — 두 종목 모두 급등",
+        "easy": "모더나(Moderna)와 머크(Merck)가 함께 개발 중인 암 백신이 후기 임상시험(사람을 대상으로 하는 마지막 단계 시험)에서 좋은 초기 결과를 냈고, 두 회사 주가가 크게 올랐습니다. 신약은 시험을 1단계씩 통과할 때마다 '실제로 팔릴 확률'이 계단식으로 뛰기 때문에, 마지막 단계의 좋은 데이터는 회사 가치를 한 번에 다시 계산하게 만듭니다. 시험 문제를 다 풀고 채점만 남은 상태에서 첫 채점 결과가 잘 나온 셈입니다. 바이오 주식이 하루에 크게 튀는 이유가 바로 이 '확률 점프' 때문입니다.",
+        "whyMatters": "오늘 주도 섹터에서 Healthcare가 14종목(28%)으로 두 번째로 큰 축인데, 이런 임상 성공 헤드라인은 개별 종목을 넘어 바이오·제약 업종 전체의 위험 선호를 끌어올립니다. 즉 기술주 하나에만 기대던 상승을 헬스케어가 나눠 받는 구조가 만들어져, 지수 조정 시 포트폴리오의 방어력이 좋아집니다. 다만 임상 뉴스로 갭상승한 종목은 되돌림도 크므로, 돌파 매수라면 첫날 고가가 아니라 눌림 후 재돌파를 기다리는 쪽이 승률이 높습니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Cancer vaccine from Moderna, Merck shows promise in late-stage trial; both stocks soar",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/19/moderna-merck-cancer-vaccine-shows-initial-late-stage-melanoma-data.html",
+            "date": "2026-08-19",
+            "quote": "Cancer vaccine from Moderna, Merck shows promise in late-stage trial; both stocks soar",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "미국·캐나다 관세 합의 임박 — 다만 세부 내용은 아직 안갯속",
+        "easy": "트럼프 대통령이 캐나다에 새 관세를 물리지 않기로 하는 합의를 자랑했고, 양국 모두 무역 합의를 마무리 중이라고 밝혔습니다. 관세는 수입품에 붙이는 세금이라, 관세가 붙으면 부품과 원자재 값이 올라 기업의 원가가 늘어납니다. 옆집과 물건을 주고받는데 대문을 지날 때마다 통행료를 내던 걸 안 내기로 한 것과 비슷합니다. 다만 BBC는 세부 조건이 아직 불분명하다고 전했습니다. 즉 방향은 좋지만 도장은 아직 안 찍힌 상태입니다.",
+        "whyMatters": "관세 부담이 줄면 국경을 넘나드는 공급망을 쓰는 Industrials 3종목과 Consumer Cyclical 6종목의 원가 압력이 완화됩니다. 무역 불확실성은 그 자체로 기업의 설비투자를 미루게 만드는 요인이라, 합의 확정은 산업재 쪽 실적 가시성을 높이는 방향입니다. 다만 '세부는 미정'이라 실제 문서가 나오기 전까지는 재료를 선반영해 베팅할 단계는 아닙니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Trump touted a deal to avert new tariffs on Canada. Here's what we know so far",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/19/trump-canada-tariffs-deal-carney.html",
+            "date": "2026-08-19",
+            "quote": "Trump touted a deal to avert new tariffs on Canada. Here's what we know so far",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Canada and US say they are finalising a trade deal, but details remain murky",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c3ekl74jnk5o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-08-19",
+            "quote": "Canada and US say they are finalising a trade deal, but details remain murky",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "9월 회사채 발행 폭탄 — 국채시장의 평온이 깨질 수 있다",
+        "easy": "최근 미국 국채시장이 조용했는데, 9월에 기업들의 회사채(기업이 돈을 빌리려고 찍는 차용증) 발행이 몰릴 예정이라 이 평온이 오래 못 갈 수 있다는 분석입니다. 시장에 채권이 한꺼번에 쏟아지면 사려는 돈은 그대로인데 물건만 늘어나는 셈이라, 팔려면 이자를 더 얹어줘야 합니다. 중고 장터에 같은 물건이 하루에 100개 올라오면 가격을 깎아야 팔리는 것과 같습니다. 그 결과 시장금리가 위로 밀리면 주식에는 역풍이 됩니다.",
+        "whyMatters": "이건 '언제 흔들릴지'를 미리 알려주는 달력형 리스크라, 9월 초 신규 진입 비중을 조절할 근거가 됩니다. 금리가 밀리면 Technology 21종목처럼 밸류에이션이 높은 주도주가 먼저 조정을 받고, 마진부채 YoY +38.6%인 지금은 그 조정이 증폭될 여지가 있습니다. 반대로 이 구간을 견디면 좋은 눌림목 매수 기회가 나오는 자리이기도 합니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Why the Treasury market's newfound calm could break down in September",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/treasury-market-reprieve-could-be-fleeting-with-deluge-of-corporate-bond-issuance-due-in-september-33cfaacd?mod=mw_rss_topstories",
+            "date": "2026-08-19",
+            "quote": "Why the Treasury market's newfound calm could break down in September",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "물가가 다시 뜨거워지고 있다 — 그래도 위기 재현은 아니라는 진단",
+        "easy": "물가(인플레이션 = 물건값이 전반적으로 오르는 것)가 다시 올라오고 있다는 보도입니다. 다만 예전 같은 물가 위기가 또 오는 건 아니라는 게 이 기사의 결론입니다. 물가가 오르면 중앙은행은 금리를 내리기 어려워집니다. 뜨거워진 냄비에 찬물을 붓는 게 금리 인상이고, 냄비가 아직 식지 않았으면 불을 줄이기(금리 인하) 어렵다는 뜻입니다. 지금 시장이 기대하는 '금리 인하'와 정면으로 부딪히는 재료입니다.",
+        "whyMatters": "물가가 다시 오르면 앞서 나온 재무부의 금리 억제 시도와 트럼프의 인하 압박이 힘을 잃고, 밸류에이션으로 오른 Technology 21종목·Healthcare 14종목이 먼저 조정 대상이 됩니다. 반대로 가격을 소비자에게 전가할 수 있는 Consumer Cyclical 6종목 중 브랜드력이 있는 쪽은 상대적으로 버팁니다. 오늘 당장의 방아쇠는 아니지만, 다음 물가 지표 발표일이 포트폴리오의 최대 변수라는 점을 알려주는 신호입니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Inflation is heating up but don't expect another crisis",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cj63jr5r09zo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-08-19",
+            "quote": "Inflation is heating up but don't expect another crisis",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "OpenAI CFO \"2027년 또는 그 이전 상장\" — AI 사이클의 다음 장",
+        "easy": "OpenAI의 최고재무책임자(CFO, 회사 돈을 총괄하는 임원)가 직원들에게 회사가 2027년 또는 그보다 이르게 상장(주식시장에 회사 주식을 공개해 누구나 사고팔 수 있게 하는 것)할 것이라고 말했습니다. 지금까지는 소수 투자자만 살 수 있던 회사를 일반 투자자도 살 수 있게 된다는 뜻입니다. 큰 회사가 상장하면 시장의 돈이 그쪽으로 몰리고, 비슷한 사업을 하는 기존 상장 회사들의 몸값도 같이 재평가됩니다. 학교에서 전학 온 전교 1등 때문에 반 전체 등수표가 다시 짜이는 것과 비슷합니다. 아직 1년 넘게 남은 이야기라 오늘 주가를 움직이는 재료라기보다 방향을 알려주는 신호입니다.",
+        "whyMatters": "AI 대장주의 상장 로드맵이 구체화되면 AI 테마 전체의 자금 유입이 이어지고, 주도 섹터의 42%를 차지하는 Technology 21종목 — 특히 오늘 강했던 소프트웨어와 AI 인프라 쪽 — 의 밸류에이션 상단이 열립니다. 다만 대형 IPO는 기존 종목에서 돈을 빼서 새 종목으로 옮기는 수급 이동도 만들기 때문에, 상장이 임박할수록 기존 AI 관련주에는 양날의 검이 됩니다. 지금은 '테마가 살아 있다'는 확인 정도로만 받아들이면 충분합니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "OpenAI 'will be a public company in 2027' or sooner, CFO Friar tells employees",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html",
+            "date": "2026-08-19",
+            "quote": "OpenAI 'will be a public company in 2027' or sooner, CFO Friar tells employees",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "오늘 시장은 '기술적으로는 좋은데 배경이 불안한' 이중 구조입니다. QQQ는 골든크로스 D+7에 10MA·20MA가 동반 상승(1.6% / 0.82%)해 쿨라매기 최적 진입 구간이라는 판정이 나왔지만, 종가 716.08은 MA10 722.73 아래에 있어 단기적으로는 눌려 있는 상태입니다. 뉴스 쪽은 금리가 핵심 축입니다 — 국가부채 40조 달러 돌파와 9월 회사채 발행 러시, 그리고 다시 뜨거워지는 물가가 금리를 위로 밀고, 반대편에서 재무부의 국채 바이백과 트럼프의 연준 압박이 금리를 아래로 누르는 줄다리기가 벌어지고 있습니다. 업종 안에서는 반도체 랠리가 잠깐 쉬는 대신 서비스나우가 이끄는 소프트웨어와 모더나·머크 임상 호재를 받은 헬스케어로 돈이 옮겨가, 주도 섹터가 Technology 42% + Healthcare 28%로 두 다리를 갖춘 모습입니다. 가장 신경 쓰이는 건 지표 쪽인데, FINRA 고객 마진부채가 YoY +38.6%로 경고선(+30%)을 넘어 있어 시장이 빚을 많이 쓰고 있다는 뜻입니다. 즉 추세는 살아 있지만, 무너질 때 낙폭이 커지는 상태이므로 진입은 하되 비중은 줄이는 게 오늘의 결론입니다.",
+    "keyRisks": [
+      "금리 역풍의 겹침 — 국가부채 40조 달러 돌파, 9월 회사채 발행 폭탄, 물가 재가열이 모두 장기금리를 밀어올리는 방향이라, 밸류에이션이 높은 주도주가 먼저 맞는다",
+      "레버리지 과열 — FINRA 고객 마진부채 YoY +38.6%로 +30% 경고선 초과. 빚으로 산 물량이 많아 조정이 오면 강제 청산이 겹쳐 낙폭이 증폭될 수 있다",
+      "지정학 헤드라인 리스크 — 트럼프의 이란 '경제 전쟁' 선언과 호르무즈 해협 이슈는 유가를 통해 물가로 번지고, 금리 인하 기대를 한 번에 되돌릴 수 있다",
+      "섹터 쏠림 — 주도 섹터의 42%가 Technology 21종목으로 한쪽에 몰려 있어, 반도체·소프트웨어 조정 시 포트폴리오 전체가 같이 흔들린다",
+      "연준 독립성 훼손 우려 — 재무부와 백악관이 동시에 금리 인하를 밀어붙이는 구도는 단기 호재지만, 정책이 만든 금리라 되돌림이 빠르고 채권시장의 반격 가능성이 남는다",
+      "200일선 대비 +150%를 넘은 종목이 1개 존재 — 아직 극단적 과열 국면은 아니지만, 개별 종목 단위의 이격 관리가 필요하다"
+    ],
+    "easySummary": [
+      "QQQ는 골든크로스 D+7에 10MA·20MA가 같이 오르는 좋은 자리(쿨라매기 최적 진입 구간)지만, 종가 716.08이 MA10 722.73 아래라 아직 눌려 있습니다 — 추세는 살아 있고 속도만 잠깐 쉬는 중입니다.",
+      "오늘 뉴스의 주인공은 금리입니다. 국가부채 40조 달러 돌파·9월 회사채 발행 러시·물가 재가열이 금리를 밀어올리고, 재무부 국채 바이백과 트럼프의 연준 압박이 금리를 눌러 서로 줄다리기 중입니다.",
+      "반도체는 숨 고르기, 대신 서비스나우가 이끈 소프트웨어와 모더나·머크 암 백신 호재를 받은 헬스케어로 돈이 옮겨갔습니다. 다만 마진부채가 YoY +38.6%로 경고선을 넘어 있으니 '들어가되 크게 걸지는 말라'가 오늘의 결론입니다."
+    ],
+    "candidateCount": 16,
+    "verified": {
+      "checked": 224,
+      "ok": 283,
+      "unverified": 38,
+      "dead": 1,
+      "stripped": 3,
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://www.stocktitan.net/news/KYMR/kymera-therapeutics-announces-second-quarter-2026-financial-results-3zzlf61ofkvf.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.stocktitan.net/news/KYMR/kymera-therapeutics-announces-second-quarter-2026-financial-results-3zzlf61ofkvf.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.biospace.com/press-releases/kymera-therapeutics-completes-enrollment-in-the-phase-2b-broaden2-trial-of-kt-621-in-atopic-dermatitis-with-topline-data-by-year-end-2026"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/3245630/kymera-s-ceo-sold-6-million-in-stock-after-a-170-run/"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1438533/000119312526252474/d107618d8k.htm"
+        },
+        {
+          "reason": "미래 날짜(확인 안됨 > 2026-08-20)",
+          "url": "https://ts2.tech/en/paycom-stock-slides-5-as-software-selloff-intensifies-2026-growth-worries-linger/"
+        },
+        {
+          "reason": "미래 날짜(확인 안됨 > 2026-08-20)",
+          "url": "https://public.com/stocks/payc/earnings"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/atlassian-announces-fourth-quarter-fiscal-200500156.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.timothysykes.com/news/atlassian-corporation-team-news-2026_08_18/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/08/13/jfrog-frog-q2-2026-earnings-call-transcript/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/FROG/price-target/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/FROG/price-target/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.fool.com/quote/nyse/sn/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://investingnews.com/strive-inc-announces-second-quarter-2026-financial-results/"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/313616/000119312526330652/d161342d8k.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.stocktitan.net/news/WPM/wheaton-precious-metals-announces-second-quarter-2026-results-and-5nvzg1bdufdg.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-bntx/biontech/news/the-bull-case-for-biontech-bntx-could-change-following-cut-2"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000038/el-20260819.htm"
+        },
+        {
+          "reason": "링크 죽음(HTTP 0)",
+          "url": "https://comcarnet.com/finance/quote/CCZ:NYSE"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262111150-stock-sandisk-sndk-ai-hbm-essd-hbf-nbm-tradingkey"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/article/sandisk-stock-surges-as-wall-street-cheers-flash-memory-makers-bullish-outlook-131502540.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.trendforce.com/news/2025/11/20/news-nand-flash-prices-likely-to-jump-double-digits-in-q1-as-makers-reportedly-hike-in-turns/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.tikr.com/blog/dells-ai-server-revenue-hit-16-billion-in-one-quarter-heres-what-that-means-for-the-next-2-years"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.tikr.com/blog/dells-ai-server-revenue-hit-16-billion-in-one-quarter-heres-what-that-means-for-the-next-2-years"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.ibtimes.com/refiner-stocks-have-soared-more-80-2026-last-5-times-this-happened-they-fell-later-3806533"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.ibtimes.com/refiner-stocks-have-soared-more-80-2026-last-5-times-this-happened-they-fell-later-3806533"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.asteralabs.com/news/astera-labs-reports-second-quarter-2026-financial-results/"
+        }
+      ],
+      "noQuote": 4
+    },
+    "reusedFrom": null
   }
 };

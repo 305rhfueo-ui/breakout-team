@@ -1,0 +1,146 @@
+{
+ "ticker": "NOVTU",
+ "news": [
+  {
+   "title": "Novanta About To Put More Money In Your Pocket (NOVTU)",
+   "url": "https://www.nasdaq.com/articles/novanta-about-put-more-money-your-pocket-novtu",
+   "date": "2026-07-29",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "NOVTU"
+   ]
+  },
+  {
+   "title": "NOVTU Ex-Dividend Reminder - 4/30/26",
+   "url": "https://www.nasdaq.com/articles/novtu-ex-dividend-reminder-4-30-26",
+   "date": "2026-04-28",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "NOVTU"
+   ]
+  },
+  {
+   "title": "Baird Upgrades Novanta (NOVTU)",
+   "url": "https://www.nasdaq.com/articles/baird-upgrades-novanta-novtu",
+   "date": "2026-03-31",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "NOVTU"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526335356/novt-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-27",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.01",
+    "2.03",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.01",
+    "2.03",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526316947/novt-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-09",
+   "reportDate": "2026-06-08",
+   "items": [
+    "1.01",
+    "3.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "3.02",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526263979/novt-20260608.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-09",
+   "reportDate": "2026-06-08",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526262867/novt-20260608.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-29",
+   "reportDate": "2026-05-28",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526248524/novt-20260528.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-15",
+   "reportDate": "2026-05-15",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526227053/novt-20260515.htm",
+   "description": "8-K"
+  }
+ ]
+}

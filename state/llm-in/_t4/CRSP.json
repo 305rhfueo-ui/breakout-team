@@ -1,0 +1,193 @@
+{
+ "ticker": "CRSP",
+ "news": [
+  {
+   "title": "CRISPR Therapeutics AG (CRSP) Reports Q2 Loss, Tops Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/crispr-therapeutics-ag-crsp-reports-q2-loss-tops-revenue-estimates",
+   "date": "2026-08-03",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "CRSP",
+    "CAMP"
+   ]
+  },
+  {
+   "title": "CRISPR Therapeutics AG (CRSP) Exceeds Market Returns: Some Facts to Consider",
+   "url": "https://www.nasdaq.com/articles/crispr-therapeutics-ag-crsp-exceeds-market-returns-some-facts-consider",
+   "date": "2026-07-30",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "CRSP"
+   ]
+  },
+  {
+   "title": "CRISPR Therapeutics AG (CRSP) is Attracting Investor Attention: Here is What You Should Know",
+   "url": "https://www.nasdaq.com/articles/crispr-therapeutics-ag-crsp-attracting-investor-attention-here-what-you-should-know",
+   "date": "2026-07-28",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "CRSP"
+   ]
+  },
+  {
+   "title": "CRISPR Therapeutics AG (CRSP) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",
+   "url": "https://www.nasdaq.com/articles/crispr-therapeutics-ag-crsp-expected-beat-earnings-estimates-can-stock-move-higher",
+   "date": "2026-07-27",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "CRSP",
+    "ALNY"
+   ]
+  },
+  {
+   "title": "CRISPR Therapeutics AG (CRSP) Stock Sinks As Market Gains: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/crispr-therapeutics-ag-crsp-stock-sinks-market-gains-what-you-should-know",
+   "date": "2026-07-24",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "CRSP"
+   ]
+  },
+  {
+   "title": "VRTX's Q2 Earnings Lag Estimates, Revenues Top, 2026 Sales View Raised",
+   "url": "https://www.nasdaq.com/articles/vrtxs-q2-earnings-lag-estimates-revenues-top-2026-sales-view-raised",
+   "date": "2026-08-04",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "VRTX",
+    "CRSP",
+    "CRNX"
+   ]
+  },
+  {
+   "title": "Earnings Preview: Ultragenyx (RARE) Q2 Earnings Expected to Decline",
+   "url": "https://www.nasdaq.com/articles/earnings-preview-ultragenyx-rare-q2-earnings-expected-decline",
+   "date": "2026-07-28",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "RARE",
+    "CRSP"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-08-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1674416/000119312526330644/crsp-20260803.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-04",
+   "items": [
+    "5.02",
+    "5.03",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "5.03",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1674416/000119312526257593/crsp-20260604.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-05-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1674416/000119312526204147/crsp-20260504.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-16",
+   "reportDate": "2026-03-16",
+   "items": [
+    "1.01",
+    "2.03",
+    "3.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "3.02",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1674416/000119312526108333/crsp-20260316.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-11",
+   "reportDate": "2026-03-10",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1674416/000119312526101073/crsp-20260310.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "reportDate": "2026-02-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1674416/000119312526048873/crsp-20260212.htm",
+   "description": "8-K"
+  }
+ ]
+}

@@ -1,0 +1,298 @@
+{
+ "ticker": "KYMR",
+ "sector": "Healthcare",
+ "industry": "Biotechnology",
+ "nameKo": "키메라 테라퓨틱스",
+ "detail": {
+  "fetchedAt": "2026-08-20",
+  "nameKo": "키메라 테라퓨틱스",
+  "nameEn": "KYMERA THERAPEUTICS INC",
+  "infomaxCode": "NAS:KYMR",
+  "financials": {
+   "ok": true,
+   "ticker": "KYMR",
+   "cik": "0001815442",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-04-01",
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 65000000,
+     "profit": -75607000,
+     "netIncome": -61211000,
+     "margin": -116.3,
+     "yoy": {
+      "revenue": 466.4,
+      "profit": 10.6,
+      "netIncome": 20.1,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodStart": "2026-01-01",
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 34365000,
+     "profit": -84154000,
+     "netIncome": -69234000,
+     "margin": -244.9,
+     "yoy": {
+      "revenue": 55.5,
+      "profit": -13.1,
+      "netIncome": -5.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodStart": "2025-09-30",
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 2870000,
+     "profit": -97896000,
+     "netIncome": 535721000,
+     "margin": -3411,
+     "yoy": {
+      "revenue": -61.2,
+      "profit": -21.2,
+      "netIncome": 42.1,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodStart": "2025-07-01",
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 2764000,
+     "profit": -92521000,
+     "netIncome": -82175000,
+     "margin": -3347.4,
+     "yoy": {
+      "revenue": -26.1,
+      "profit": -28.3,
+      "netIncome": -31.5,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001815442&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "KYMR",
+   "items": [
+    {
+     "title": "Kymera Therapeutics (KYMR) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-kymr-q2-2026-earnings-call-transcript",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "KYMR",
+      "KYMR"
+     ]
+    },
+    {
+     "title": "KYMR Q2 Earnings and Revenues Top Estimates on Gilead, Sanofi Payments",
+     "url": "https://www.nasdaq.com/articles/kymr-q2-earnings-and-revenues-top-estimates-gilead-sanofi-payments",
+     "date": "2026-08-06",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "KYMR",
+      "SNY",
+      "GILD"
+     ]
+    },
+    {
+     "title": "Kymera Therapeutics Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-q2-earnings-call-highlights",
+     "date": "2026-08-05",
+     "publisher": "MarketBeat",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "KYMR"
+     ]
+    },
+    {
+     "title": "Kymera Reports Narrower Loss In Q2 As Collaboration Revenue Jumps",
+     "url": "https://www.nasdaq.com/articles/kymera-reports-narrower-loss-q2-collaboration-revenue-jumps",
+     "date": "2026-08-05",
+     "publisher": "RTTNews",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "KYMR"
+     ]
+    },
+    {
+     "title": "Kymera Therapeutics, Inc. (KYMR) Reports Q2 Loss, Tops Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-inc-kymr-reports-q2-loss-tops-revenue-estimates",
+     "date": "2026-08-05",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "KYMR",
+      "MXCT"
+     ]
+    },
+    {
+     "title": "Is Kymera Therapeutics Poised for a Breakthrough With KT-621?",
+     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-poised-breakthrough-kt-621",
+     "date": "2026-07-24",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "KYMR",
+      "ARVN",
+      "NRIX"
+     ]
+    },
+    {
+     "title": "Kymera's CEO Sold $6 Million in Stock After a 170% Run",
+     "url": "https://www.nasdaq.com/articles/kymeras-ceo-sold-6-million-stock-after-170-run",
+     "date": "2026-07-12",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "KYMR",
+      "KYMR"
+     ]
+    },
+    {
+     "title": "KYMR Stock Soars 51% YTD on Progress of Atopic Dermatitis Drug",
+     "url": "https://www.nasdaq.com/articles/kymr-stock-soars-51-ytd-progress-atopic-dermatitis-drug",
+     "date": "2026-07-01",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "KYMR",
+      "SNY",
+      "GILD"
+     ]
+    }
+   ],
+   "directCount": 10,
+   "total": 10,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "reportDate": "2026-08-05",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526333834/kymr-20260805.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-27",
+    "reportDate": "2026-07-27",
+    "items": [
+     "5.02",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526318078/d167778d8k.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-25",
+    "reportDate": "2026-06-25",
+    "items": [
+     "7.01",
+     "8.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526281817/d62555d8k.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-24",
+    "reportDate": "2026-06-24",
+    "items": [
+     "5.07"
+    ],
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526281051/d131538d8k.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-08",
+    "reportDate": "2026-06-05",
+    "items": [
+     "5.02"
+    ],
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526261698/d13635d8k.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "reportDate": "2026-04-30",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526193957/kymr-20260430.htm",
+    "description": "8-K"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": [],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}
