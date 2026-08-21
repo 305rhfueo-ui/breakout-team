@@ -1,0 +1,234 @@
+{
+  "date": "2026-08-21",
+  "count": 38,
+  "tickers": [
+    "MRNA",
+    "TEAM",
+    "MXL",
+    "CORT",
+    "WDAY",
+    "ELF",
+    "MRVL",
+    "SNOW",
+    "ORKA",
+    "HURN",
+    "DELL",
+    "AEHR",
+    "SNDK",
+    "SYRE",
+    "P",
+    "EAT",
+    "IT",
+    "PENG",
+    "BXC",
+    "MANH",
+    "ALAB",
+    "NBIS",
+    "MU",
+    "NOW",
+    "HNGE",
+    "PANW",
+    "PLTR",
+    "AMD",
+    "MDB",
+    "CTRN",
+    "ZBRA",
+    "AXON",
+    "ATEX",
+    "GWRE",
+    "LQDA",
+    "AXTI",
+    "RGEN",
+    "STX"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": true
+  },
+  "themes": [
+    {
+      "key": "Sector:Technology",
+      "level": "Sector",
+      "name": "Technology",
+      "count": 23,
+      "sharePct": 60.5,
+      "tickers": [
+        "TEAM",
+        "MXL",
+        "WDAY",
+        "MRVL",
+        "SNOW",
+        "DELL",
+        "AEHR",
+        "SNDK",
+        "P",
+        "IT",
+        "PENG",
+        "MANH",
+        "ALAB",
+        "MU",
+        "NOW",
+        "PANW",
+        "PLTR",
+        "AMD",
+        "MDB",
+        "ZBRA",
+        "GWRE",
+        "AXTI",
+        "STX"
+      ],
+      "concentration": "high"
+    },
+    {
+      "key": "Sector:Healthcare",
+      "level": "Sector",
+      "name": "Healthcare",
+      "count": 7,
+      "sharePct": 18.4,
+      "tickers": [
+        "MRNA",
+        "CORT",
+        "ORKA",
+        "SYRE",
+        "HNGE",
+        "LQDA",
+        "RGEN"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Software - Application",
+      "level": "Industry",
+      "name": "Software - Application",
+      "count": 6,
+      "sharePct": 15.8,
+      "tickers": [
+        "TEAM",
+        "WDAY",
+        "SNOW",
+        "MANH",
+        "NOW",
+        "GWRE"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Semiconductors",
+      "level": "Industry",
+      "name": "Semiconductors",
+      "count": 5,
+      "sharePct": 13.2,
+      "tickers": [
+        "MXL",
+        "MRVL",
+        "ALAB",
+        "MU",
+        "AMD"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 4,
+      "sharePct": 10.5,
+      "tickers": [
+        "MRNA",
+        "CORT",
+        "ORKA",
+        "SYRE"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Computer Hardware",
+      "level": "Industry",
+      "name": "Computer Hardware",
+      "count": 4,
+      "sharePct": 10.5,
+      "tickers": [
+        "DELL",
+        "SNDK",
+        "P",
+        "STX"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Sector:Industrials",
+      "level": "Sector",
+      "name": "Industrials",
+      "count": 3,
+      "sharePct": 7.9,
+      "tickers": [
+        "HURN",
+        "BXC",
+        "AXON"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Software - Infrastructure",
+      "level": "Industry",
+      "name": "Software - Infrastructure",
+      "count": 3,
+      "sharePct": 7.9,
+      "tickers": [
+        "PANW",
+        "PLTR",
+        "MDB"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Sector:Consumer Cyclical",
+      "level": "Sector",
+      "name": "Consumer Cyclical",
+      "count": 2,
+      "sharePct": 5.3,
+      "tickers": [
+        "EAT",
+        "CTRN"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Sector:Communication Services",
+      "level": "Sector",
+      "name": "Communication Services",
+      "count": 2,
+      "sharePct": 5.3,
+      "tickers": [
+        "NBIS",
+        "ATEX"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Semiconductor Equipment & Materials",
+      "level": "Industry",
+      "name": "Semiconductor Equipment & Materials",
+      "count": 2,
+      "sharePct": 5.3,
+      "tickers": [
+        "AEHR",
+        "AXTI"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Information Technology Services",
+      "level": "Industry",
+      "name": "Information Technology Services",
+      "count": 2,
+      "sharePct": 5.3,
+      "tickers": [
+        "IT",
+        "PENG"
+      ],
+      "concentration": "low"
+    }
+  ]
+}
