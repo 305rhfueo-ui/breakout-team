@@ -4,7 +4,7 @@
  "industry": "Software - Infrastructure",
  "nameKo": "팰로 앨토 네트웍스",
  "detail": {
-  "fetchedAt": "2026-08-20",
+  "fetchedAt": "2026-08-21",
   "nameKo": "팰로 앨토 네트웍스",
   "nameEn": "PALO ALTO NETWORKS INC",
   "infomaxCode": "NAS:PANW",
@@ -90,6 +90,30 @@
    "ticker": "PANW",
    "items": [
     {
+     "title": "See Which Recent 13F Filers Hold PANW But Lombard Odier Asset Management Europe and Landscape Capital Management Exited",
+     "url": "https://www.nasdaq.com/articles/see-which-recent-13f-filers-hold-panw-lombard-odier-asset-management-europe-and-landscape",
+     "date": "2026-08-20",
+     "publisher": "BNK Invest",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "PANW"
+     ]
+    },
+    {
+     "title": "Can Strong Enterprise AI Adoption Help PANW Challenge CRWD & ZS?",
+     "url": "https://www.nasdaq.com/articles/can-strong-enterprise-ai-adoption-help-panw-challenge-crwd-zs",
+     "date": "2026-08-20",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "PANW",
+      "ZS",
+      "CRWD"
+     ]
+    },
+    {
      "title": "Palo Alto Networks (PANW) Stock Declines While Market Improves: Some Information for Investors",
      "url": "https://www.nasdaq.com/articles/palo-alto-networks-panw-stock-declines-while-market-improves-some-information-investors",
      "date": "2026-08-19",
@@ -120,31 +144,6 @@
      "tier1": false,
      "direct": true,
      "tickers": [
-      "PANW"
-     ]
-    },
-    {
-     "title": "Can Cloudflare's AI Security Strategy Help it Challenge PANW & ZS?",
-     "url": "https://www.nasdaq.com/articles/can-cloudflares-ai-security-strategy-help-it-challenge-panw-zs",
-     "date": "2026-08-12",
-     "publisher": "Zacks",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "NET",
-      "PANW",
-      "ZS"
-     ]
-    },
-    {
-     "title": "Massive Update for Palo Alto Stock Investors",
-     "url": "https://www.nasdaq.com/articles/massive-update-palo-alto-stock-investors",
-     "date": "2026-08-12",
-     "publisher": "The Motley Fool",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "PANW",
       "PANW"
      ]
     },
@@ -291,8 +290,8 @@
      "date": "2026-08-06",
      "summary": "- 중국 CAC, 팔로알토 제품 사이버보안 심사 착수- 2023년 마이크론 심사·조달금지 사례와 유사한 절차- 中매출 미공시로 실적 영향 크기 파악 어려움",
      "pages": "5",
-     "secureId": "eqlxczlecmeceelgcgxclem",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxczlecmeceelgcgxclem.pdf",
+     "secureId": "eqlxczlecmeceelgcgxclge",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxczlecmeceelgcgxclge.pdf",
      "opinion": null
     },
     {
@@ -302,8 +301,8 @@
      "date": "2026-08-04",
      "summary": "- 보안 프로세스 전체를 아우르는 토탈 보안 솔루션 플랫폼 업체를 목표- 프런티어 업체와 긴밀한 연계 및 상호 교차검증 수요 증가로 성장 기대- 장기적으로 프런티어 업체의 보안 솔루션 내재화 여지는 잠재적 리스크",
      "pages": "8",
-     "secureId": "eqlzqmxgmmkzqzlgcgxclem",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqmxgmmkzqzlgcgxclem.pdf",
+     "secureId": "eqlzqmxgmmkzqzlgcgxclge",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqmxgmmkzqzlgcgxclge.pdf",
      "opinion": null
     },
     {
@@ -313,8 +312,8 @@
      "date": "2025-09-02",
      "summary": "- 팰로 앨토 네트웍스는 토털 보안 플랫폼을 제공하는 글로벌 사이버 보안 기업- AI 확산 속 통합 보안 플랫폼으로 급증하는 트래픽 수요를 선점- CyberArk 인수로 아이덴티티까지 아우르며 토털 보안 표준과 경쟁 우위를 강화",
      "pages": "7",
-     "secureId": "eqzxqxqkclqlxmkgcgxclem",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzxqxqkclqlxmkgcgxclem.pdf",
+     "secureId": "eqzxqxqkclqlxmkgcgxclge",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzxqxqkclqlxmkgcgxclge.pdf",
      "opinion": null
     },
     {
@@ -324,8 +323,8 @@
      "date": "2025-08-20",
      "summary": "- 팰로 앨토 네트웍스는 토털 보안 플랫폼을 제공하는 글로벌 사이버 보안 기업- FY4Q25 실적에서 차세대 보안 ARR과 수주 잔고 등이 높은 성장률을 기록- 통합 보안 솔루션 니즈 확대와 경쟁사 대비 차별성 기반 긍정적 실적 흐름 전망",
      "pages": "6",
-     "secureId": "eqzzxkzeliecmeigcgxclem",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzzxkzeliecmeigcgxclem.pdf",
+     "secureId": "eqzzxkzeliecmeigcgxclge",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzzxkzeliecmeigcgxclge.pdf",
      "opinion": null
     }
    ],

@@ -1,0 +1,194 @@
+{
+ "ticker": "BJ",
+ "news": [
+  {
+   "title": "Pre-Market Earnings Report for August 21, 2026 :  BJ, BEKE",
+   "url": "https://www.nasdaq.com/articles/pre-market-earnings-report-august-21-2026-bj-beke",
+   "date": "2026-08-20",
+   "publisher": "NASDAQ.com",
+   "tier1": true,
+   "direct": true,
+   "tickers": [
+    "BJ",
+    "BJ"
+   ]
+  },
+  {
+   "title": "BJ's Wholesale Club (BJ) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://www.nasdaq.com/articles/bjs-wholesale-club-bj-earnings-expected-grow-what-know-ahead-next-weeks-release",
+   "date": "2026-08-14",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "BJ"
+   ]
+  },
+  {
+   "title": "Why BJ's Wholesale Club (BJ) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-bjs-wholesale-club-bj-top-momentum-stock-long-term",
+   "date": "2026-08-14",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "BJ"
+   ]
+  },
+  {
+   "title": "BJ Crosses Below Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/bj-crosses-below-key-moving-average-level",
+   "date": "2026-08-12",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "BJ"
+   ]
+  },
+  {
+   "title": "Why BJ's (BJ) is Poised to Beat Earnings Estimates Again",
+   "url": "https://www.nasdaq.com/articles/why-bjs-bj-poised-beat-earnings-estimates-again",
+   "date": "2026-08-12",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "BJ"
+   ]
+  },
+  {
+   "title": "BJ or CL: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/bj-or-cl-which-better-value-stock-right-now",
+   "date": "2026-08-12",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "BJ",
+    "CL"
+   ]
+  },
+  {
+   "title": "Here's Why BJ's Wholesale Club (BJ) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-bjs-wholesale-club-bj-strong-value-stock",
+   "date": "2026-08-11",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "BJ"
+   ]
+  },
+  {
+   "title": "BJ's Wholesale CEO Sells $7.3 Million Stock After Option Exercise",
+   "url": "https://www.nasdaq.com/articles/bjs-wholesale-ceo-sells-73-million-stock-after-option-exercise",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "BJ",
+    "BJ"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-18",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1531152/000110465926075759/tm2618331d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000026/bj-20260522.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-05",
+   "reportDate": "2026-03-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000003/bj-20260305.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-21",
+   "reportDate": "2025-11-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115225000127/bj-20251121.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-08-22",
+   "reportDate": "2025-08-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115225000097/bj-20250822.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-06-20",
+   "reportDate": "2025-06-19",
+   "items": [
+    "5.03",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1531152/000110465925061197/tm2518500d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ]
+}

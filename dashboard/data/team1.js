@@ -473,8 +473,339 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-08-21",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "채권시장이 다시 흔들렸다 — \"미국 부채엔 쉬운 해법이 없다\"",
+        "easy": "미국 정부는 돈이 부족하면 '국채'라는 빚 문서를 팔아서 돈을 빌립니다(국채 = 정부가 발행하는 차용증). 그런데 사려는 사람이 줄면 정부는 이자를 더 얹어줘야 하고, 그게 바로 '금리 상승'입니다. 지금 채권시장은 미국이 진 빚이 너무 커서 이자를 더 안 주면 안 사겠다는 분위기입니다. 재무장관 베선트가 국채를 되사주는(바이백) 대책을 내놨지만 하루 만에 매도세가 다시 터졌습니다. 학교 매점이 외상값이 너무 쌓인 친구에게 더는 외상을 안 주려는 상황과 비슷합니다.",
+        "whyMatters": "금리가 오르면 미래 이익을 당겨서 평가받는 성장주가 가장 먼저 아픕니다. 지금 주도 섹터가 Technology 24종목(48%)로 압도적이라 이 그룹이 금리 상승의 직격탄을 맞는 자리에 서 있습니다. 게다가 FINRA 고객 마진부채가 YoY +38.6%로 +30% 기준선을 넘은 상태라, 빚내서 산 물량이 금리 충격에 먼저 청산될 수 있습니다. QQQ 종가 710.93이 MA10 722.36 아래에 있는 것도 단기 힘이 빠졌다는 신호로 함께 봐야 합니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Anxious bond market sends troubling message to investors: There's no easy fix for U.S. debt",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/treasury-rout-restarts-one-day-after-bessents-beefed-up-buyback-plan-972766a1?mod=mw_rss_topstories",
+            "date": "2026-08-20",
+            "quote": "Anxious bond market sends troubling message to investors: There's no easy fix for U.S. debt",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Bessent's efforts in the Treasury market so far haven't worked. Here's what else he can try",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/20/bessents-efforts-in-the-treasury-market-so-far-havent-worked-heres-what-else-he-can-try.html",
+            "date": "2026-08-20",
+            "quote": "Bessent's efforts in the Treasury market so far haven't worked. Here's what else he can try",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "The bond market is going to burst the stock-market bubble",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-bond-market-is-going-to-burst-the-stock-market-bubble-1c6f0971?mod=mw_rss_topstories",
+            "date": "2026-08-20",
+            "quote": "The bond market is going to burst the stock-market bubble",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "연준 독립성 시험대에 선 워시 — 재무부가 중앙은행 영역까지 넘본다",
+        "easy": "연준은 미국의 '금리를 정하는 심판'입니다(연준 = 미국 중앙은행). 심판은 정부 눈치를 보지 않아야 판정이 믿을 만한데, 지금 재무부(정부의 돈 관리 부처)가 심판 구역까지 발을 들이고 있다는 이야기입니다. 새 연준 의장 워시는 '나는 정부 말대로 움직이지 않는다'는 걸 증명해야 하는 시험을 받고 있습니다. 심판이 한쪽 편이라는 의심이 생기면 관중(투자자)은 경기 결과 자체를 못 믿게 됩니다. 그 불신은 앞서 본 국채 금리 상승으로 곧장 이어집니다.",
+        "whyMatters": "중앙은행 신뢰가 흔들리면 장기 금리에 '불신 프리미엄'이 붙어 할인율이 올라갑니다. 이는 Technology 48% 비중의 고밸류 성장주와, 임상·연구비를 장기 조달해야 하는 Healthcare 14종목(28%) 그룹에 특히 부담입니다. 반대로 실물 가격에 연동되는 Basic Materials 3종목(6%) 쪽은 인플레 헤지 성격으로 상대적 방어가 나올 수 있는 자리입니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Warsh faces Fed independence test as Bessent moves in on central bank's turf",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/20/bessent-warsh-fed-bond-market-treasury-yields.html",
+            "date": "2026-08-20",
+            "quote": "Warsh faces Fed independence test as Bessent moves in on central bank's turf",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "월마트 9% 급락 — 미국 소비자가 지갑을 닫고 있다",
+        "easy": "월마트는 미국에서 가장 큰 마트라서, 여기 매출을 보면 미국 사람들이 요즘 돈을 얼마나 쓰는지 대충 알 수 있습니다. 이번에 월마트가 앞으로의 전망을 시장 기대보다 낮게 제시했고, 주가가 하루에 9% 빠졌습니다. 실적 숫자보다 '앞으로 더 안 좋을 것 같다'는 말이 더 무서웠던 겁니다. 반에서 제일 정보 빠른 친구가 '이번 시험 어려울 거야'라고 하면 반 전체가 긴장하는 것과 같습니다. 영국 BBC도 같은 날 미국 쇼핑객이 소비를 줄이고 있다고 전했습니다.",
+        "whyMatters": "소비 둔화는 Consumer Cyclical 2종목(4%)처럼 경기 민감 소비주에 직접적인 실적 하향 압력입니다. 주도 섹터 상위인 Technology와 Healthcare는 소비 경기 의존도가 상대적으로 낮아 자금이 오히려 이쪽으로 몰릴 수 있습니다. 다만 소비 둔화가 경기 침체 신호로 확대되면 지수 전체가 눌리기 때문에, 방어처가 아니라 시간차 문제일 뿐이라는 점도 함께 봐야 합니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/20/walmart-wmt-q2-2027-earnings.html",
+            "date": "2026-08-20",
+            "quote": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Walmart sales under strain as US shoppers pull back",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cpq8rjy7vxlo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-08-20",
+            "quote": "Walmart sales under strain as US shoppers pull back",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "BBC: \"미국 경제가 경보음을 울리고 있다\"",
+        "easy": "경제에는 자동차 계기판처럼 여러 경고등이 있습니다. BBC는 지금 미국 경제 계기판에 빨간 불이 여러 개 들어와 있다고 정리했습니다. 소비가 식고, 빚 부담이 커지고, 금리는 안 내려가는 조합입니다. 차가 아직 달리고는 있지만 경고등이 켜진 채 달리는 상태인 셈입니다. 이런 국면에서는 속도(수익률)보다 브레이크(리스크 관리)가 더 중요해집니다.",
+        "whyMatters": "거시 경고가 늘어나는 국면에서는 주도주 안에서도 '이익이 실제로 나오는 종목'과 '기대만으로 오른 종목'이 갈립니다. Technology 48% 쏠림은 상승장에선 강점이지만 경기 경고 국면에선 한 방향 리스크로 바뀝니다. 200일선 대비 +150%를 넘긴 종목이 1개뿐이라는 점은 아직 시장 전체가 광기 국면은 아니라는 뜻이라, 과열보다는 경기 둔화 쪽 리스크에 무게를 둬야 합니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Why the US economy is ringing alarm bells",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c9d8z72nn02o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-08-20",
+            "quote": "Why the US economy is ringing alarm bells",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "AI 데이터센터에 대한 분노, 광고와 선거판까지 번졌다",
+        "easy": "AI를 돌리려면 컴퓨터가 잔뜩 들어간 거대한 창고 같은 건물(데이터센터)이 필요합니다. 이 건물은 전기와 물을 엄청나게 먹어서, 근처 주민들의 전기요금이 오르고 소음·환경 문제가 생깁니다. 그래서 이제는 주민들의 불만이 광고와 선거 이슈로까지 커졌다는 소식입니다. 지금까지는 '어디에 지을까'가 문제였다면, 이제는 '지어도 되냐'가 문제가 된 겁니다. 학교 옆에 24시간 돌아가는 공장이 들어선다고 하면 학부모들이 반대하는 것과 같은 구도입니다.",
+        "whyMatters": "데이터센터 증설 속도가 정치·규제로 늦어지면 AI 인프라 투자 사이클에 얹혀 있는 Technology 24종목(48%) 그룹의 성장 기대치가 흔들립니다. 특히 전력·냉각·건설 수요에 연동된 Industrials 2종목(4%)의 수주 기대에도 시차를 두고 영향이 갑니다. 다만 이는 수요가 줄어서가 아니라 공급이 막히는 이슈라, 이미 부지와 전력을 확보한 사업자에겐 오히려 진입장벽이 되는 양면성이 있습니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "AI data center outrage is showing up everywhere from ads to elections",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/20/ai-data-center-election-backlash.html",
+            "date": "2026-08-20",
+            "quote": "AI data center outrage is showing up everywhere from ads to elections",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "일본 물가 올해 최고치 — 에너지값이 물가를 밀어올렸다",
+        "easy": "일본의 물가 상승률이 올해 들어 가장 높게 나왔고, 원인은 에너지 가격입니다. 에너지는 모든 물건의 '재료값'이라, 기름값이 오르면 빵값·배송비·전기요금이 줄줄이 오릅니다. 일본만의 문제가 아닌 이유는 에너지 가격이 세계 공통 가격이기 때문입니다. 한 반에서 급식 재료값이 오르면 모든 반의 급식비가 같이 오르는 것과 비슷합니다. 물가가 오르면 중앙은행은 금리를 쉽게 못 내립니다.",
+        "whyMatters": "에너지발 물가 상승은 '금리 인하 기대'를 뒤로 미루게 만들어, 앞서 본 채권 금리 상승 스토리를 강화합니다. 이는 Technology 48% 같은 장기 성장주의 밸류에이션에 부담이고, 반대로 원자재 가격에 연동되는 Basic Materials 3종목(6%)에는 상대적 우호 재료입니다. 일본 금리가 오르면 글로벌 저리 자금(엔 캐리)이 되돌아가면서 미국 성장주 수급에도 간접 압력이 됩니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Japan headline inflation rate hits highest this year as energy prices bite",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/21/japan-inflation-iran-war-energy.html",
+            "date": "2026-08-20",
+            "quote": "Japan headline inflation rate hits highest this year as energy prices bite",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "베선트 \"이란과 대규모 전투 재개 가능성 낮다\" — 경제 압박으로 전환",
+        "easy": "미국 재무장관이 이란과 다시 큰 규모의 전투를 벌일 가능성은 낮다고 말했습니다. 대신 무기 대신 '돈줄 조이기'(경제 제재)로 압박하겠다는 겁니다. 전쟁이 커지면 유가가 튀어오르기 때문에, 전면전을 안 한다는 말 자체가 시장에는 안도감입니다. 싸움이 주먹다짐에서 말싸움으로 내려온 셈입니다. 다만 제재는 계속되므로 에너지 공급 불안이 완전히 사라진 건 아닙니다.",
+        "whyMatters": "전면전 리스크가 낮아지면 유가 급등 시나리오가 후퇴해 지수 전체의 위험 프리미엄이 줄어듭니다. 이는 투입 비용에 민감한 Industrials 2종목(4%)과 Consumer Cyclical 2종목(4%)에 우호적입니다. 반대로 에너지·원자재 가격 상승에 베팅한 Basic Materials 3종목(6%) 쪽은 재료가 약해질 수 있어 방향이 엇갈립니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Bessent says U.S. likely won't restart large-scale Iran combat as it steps up economic pressure",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/20/bessent-economy-iran-war-trump.html",
+            "date": "2026-08-20",
+            "quote": "Bessent says U.S. likely won't restart large-scale Iran combat as it steps up economic pressure",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "모더나 맞춤형 mRNA 피부암 백신 — 판을 바꿀 수도, 과대포장일 수도",
+        "easy": "모더나가 환자 한 사람 한 사람의 암세포에 맞춰 만드는 '맞춤형 백신'을 개발 중입니다(mRNA = 몸속 세포에 '이런 걸 만들어라'라고 알려주는 설계도). 원리는 내 몸의 면역 세포에게 암세포의 몽타주를 보여주고 잡아오게 하는 것입니다. 성공하면 피부암 치료 방식이 통째로 바뀔 수 있습니다. 다만 기사도 '과대포장일 수 있다'고 함께 짚었습니다. 신약은 최종 임상 결과가 나오기 전까지는 기대와 실망이 크게 오가는 영역입니다.",
+        "whyMatters": "Healthcare가 주도 섹터 2위로 14종목(28%)을 차지하고 있어, 바이오 신약 모멘텀은 이 그룹 전체의 자금 유입 명분이 됩니다. 특히 mRNA·항암 파이프라인을 보유한 바이오테크는 이런 뉴스에 섹터 동조 상승이 나오기 쉬운 자리입니다. 다만 기사 자체가 과대평가 가능성을 병기했으므로 임상 데이터 없는 추격은 위험하고, 방향은 '섹터 관심 상향'까지만 보는 게 맞습니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Moderna's personalized mRNA shot could reshape the fight against skin cancer — but it may also be overhyped",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/modernas-personalized-mrna-shot-could-reshape-the-fight-against-skin-cancer-but-it-may-also-be-overhyped-a6f1bc88?mod=mw_rss_topstories",
+            "date": "2026-08-20",
+            "quote": "Moderna's personalized mRNA shot could reshape the fight against skin cancer — but it may also be overhyped",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "현대차, 조지아 신공장 미국 생산 확대 검토",
+        "easy": "현대차 CEO가 미국 조지아주에 새로 지은 공장의 생산량을 더 늘리는 방안을 검토 중이라고 CNBC에 밝혔습니다. 해외에서 만들어 들여오면 관세(수입할 때 내는 세금)를 물어야 하니, 아예 미국 안에서 만들겠다는 계산입니다. 공장을 더 돌리면 부품·설비·물류 주문이 같이 늘어납니다. 우리 동네에 큰 공장이 하나 더 돌아가면 근처 식당과 문구점까지 바빠지는 것과 같습니다. 미국 제조업 쪽에는 실제 주문으로 잡히는 뉴스입니다.",
+        "whyMatters": "미국 내 생산 확대는 설비·자동화·부품 공급망에 실수요를 만들어 Industrials 2종목(4%) 그룹에 우호적입니다. 자동차 부품과 소재를 대는 Basic Materials 3종목(6%) 쪽도 간접 수혜 방향입니다. 다만 규모가 지수를 움직일 급은 아니고, 리쇼어링(생산 국내 회귀) 테마가 계속 살아 있다는 확인 정도로 보는 게 적절합니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Hyundai considering U.S. production increase at new Georgia plant, CEO tells CNBC",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/20/hyundai-georgia-metaplant-us-production.html",
+            "date": "2026-08-20",
+            "quote": "Hyundai considering U.S. production increase at new Georgia plant, CEO tells CNBC",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "캘리포니아 법무장관 \"파라마운트-WBD 소송 합의엔 강력한 구조적 시정이 필요\"",
+        "easy": "미디어 회사 두 곳(파라마운트, 워너브러더스디스커버리)의 결합을 두고 캘리포니아주가 소송을 걸어둔 상태입니다. 주 법무장관은 합의로 끝내려면 '말로 하는 약속'이 아니라 사업 구조 자체를 뜯어고치는 조치가 필요하다고 했습니다. 즉 사업부를 떼어내는 수준의 요구가 나올 수 있다는 뜻입니다. 두 가게가 합치면 동네에 가게가 하나만 남아 값을 마음대로 올릴까 봐 감시하는 것과 같습니다. 합병 심사가 다시 빡빡해지는 신호입니다.",
+        "whyMatters": "대형 M&A 승인 문턱이 높아지면 합병 기대감으로 오르던 미디어·커뮤니케이션 종목의 프리미엄이 빠집니다. 지금 주도 섹터 목록에 Communication Services가 없다는 점에서 시장 주도권이 이미 이쪽을 떠나 있다는 해석과도 맞물립니다. 규제 강화 기조가 다른 산업의 대형 인수합병으로 번지면 Technology 48% 그룹의 빅딜 시나리오에도 시차를 두고 부담이 됩니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "California AG tells CNBC that settling Paramount-WBD lawsuit would require 'robust structural remedies'",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/20/california-ag-bonta-paramount-wbd-lawsuit-remedies.html",
+            "date": "2026-08-20",
+            "quote": "California AG tells CNBC that settling Paramount-WBD lawsuit would require 'robust structural remedies'",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "오늘 시장은 '기술적으로는 좋은데 뉴스는 나쁘다'는 엇갈린 자리에 서 있습니다. 차트로 보면 QQQ는 골든크로스 D+8에 10MA·20MA가 함께 오르고 있어(0.86% / 0.77%) 쿨라매기 최적 진입 구간으로 잡혀 있습니다. 다만 종가 710.93은 MA10 722.36보다 아래에 있어서, 추세는 살아 있지만 단기 힘은 한 번 꺾인 모습입니다. 뉴스 쪽은 반대로 무겁습니다 — 국채시장이 다시 흔들리며 '미국 부채엔 쉬운 해법이 없다'는 경고가 나왔고, 월마트가 전망 실망으로 9% 급락하면서 미국 소비자가 지갑을 닫고 있다는 신호를 줬습니다. 여기에 FINRA 고객 마진부채가 YoY +38.6%로 +30% 기준선을 넘어, 빚으로 산 물량이 시장 안에 두껍게 쌓여 있습니다. 주도 섹터는 Technology 24종목(48%)과 Healthcare 14종목(28%)에 쏠려 있어, 금리가 튀면 시장 전체가 같은 방향으로 흔들릴 수 있는 구조입니다.",
+    "keyRisks": [
+      "금리 리스크: 국채 매도세가 재개되며 장기 금리가 오르는 국면 — Technology 48% 비중의 고밸류 성장주 밸류에이션이 가장 먼저 눌린다",
+      "레버리지 리스크: FINRA 고객 마진부채 YoY +38.6%로 +30% 초과 — 빚으로 산 물량이 하락 시 강제 청산되며 낙폭을 키울 수 있다",
+      "소비 둔화: 월마트 전망 실망과 9% 급락, BBC의 미국 경제 경보음 보도 — Consumer Cyclical 2종목(4%) 등 경기 민감 업종의 실적 하향 압력",
+      "연준 신뢰 리스크: 워시가 연준 독립성 시험대에 오르고 재무부가 중앙은행 영역에 개입 — 장기 금리에 불신 프리미엄이 붙을 수 있다",
+      "쏠림 리스크: 주도 섹터가 Technology 48% + Healthcare 28%로 76%에 집중 — 분산이 되어 있는 것처럼 보여도 실제로는 한 방향 베팅에 가깝다",
+      "단기 이격: QQQ 종가 710.93이 MA10 722.36 아래 — 골든크로스 D+8이라도 10일선 회복 실패 시 추세 되돌림 확인 필요",
+      "AI 인프라 규제: 데이터센터 반발이 광고·선거 이슈로 확산 — 증설 지연이 AI 투자 사이클 기대치를 낮출 수 있다",
+      "에너지·물가: 일본 물가가 에너지 때문에 올해 최고치 — 글로벌 물가 재상승은 금리 인하 기대를 뒤로 밀어낸다"
+    ],
+    "easySummary": [
+      "차트는 아직 좋습니다 — QQQ는 골든크로스 D+8, 10MA·20MA 동반 상승으로 쿨라매기 최적 진입 구간입니다. 다만 종가 710.93이 MA10 722.36 아래라 단기 힘은 빠진 상태입니다.",
+      "뉴스는 무겁습니다 — 국채시장이 다시 흔들리며 금리 상승 압력이 커졌고, 월마트가 9% 급락하면서 미국 소비가 식고 있다는 신호를 줬습니다.",
+      "가장 조심할 건 빚입니다 — 마진부채가 YoY +38.6%로 위험선(+30%)을 넘었습니다. 남의 돈으로 산 물량이 많다는 뜻이라, 조정이 오면 평소보다 더 크게 흔들릴 수 있습니다."
+    ],
+    "candidateCount": 17,
+    "verified": {
+      "checked": 225,
+      "ok": 296,
+      "unverified": 44,
+      "dead": 0,
+      "stripped": 4,
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://www.stocktitan.net/sec-filings/ZBRA/8-k-zebra-technologies-corp-reports-material-event-25b6e1e18157.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/zebra-zbra-run-higher-rising-162002290.html"
+        },
+        {
+          "reason": "미래 날짜(미상(2026년 8월 중, 정확한 게재일 확인 불가) > 2026-08-21)",
+          "url": "https://www.tikr.com/blog/astera-labs-fell-12-monday-heres-where-alab-stock-could-head-in-2026"
+        },
+        {
+          "reason": "미래 날짜(미상(2026년 8월 중, 정확한 게재일 확인 불가) > 2026-08-21)",
+          "url": "https://www.tikr.com/blog/astera-labs-fell-12-monday-heres-where-alab-stock-could-head-in-2026"
+        },
+        {
+          "reason": "미래 날짜(미상 > 2026-08-21)",
+          "url": "https://marketchameleon.com/Overview/ALAB/Earnings/Earnings-Dates/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.artificialintelligence-news.com/news/amd-anthropic-ai-infrastructure-deal/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://stockanalysis.com/stocks/pltr/forecast/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/MDB/price-target/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/MDB/price-target/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/MDB/price-target/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.stocktitan.net/news/TEAM/atlassian-announces-fourth-quarter-and-fiscal-year-2026-u2n9sve5wan8.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.stocktitan.net/news/TEAM/atlassian-announces-fourth-quarter-and-fiscal-year-2026-u2n9sve5wan8.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.stocktitan.net/news/TEAM/atlassian-announces-fourth-quarter-and-fiscal-year-2026-u2n9sve5wan8.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/TEAM/price-target/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/TEAM/"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1032033/000103203326000041/slm-20260723.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526357755/aap-20260820.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/72331/000007233126000052/ndsn-20260819.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/wmt-20260820.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000026/bj-20260522.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000046/mbt-20260715.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/gold-miners-rally-bullion-roars-113002313.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/08/12/warrior-met-coal-hcc-q2-2026-earnings-call-transcript/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.stocktitan.net/overview/AMR/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.investing.com/news/company-news/natera-q2-2026-slides-record-mrd-volumes-drive-38-revenue-growth-93CH-4844882"
+        }
+      ],
+      "noQuote": 6
+    },
+    "reusedFrom": null
   }
 };

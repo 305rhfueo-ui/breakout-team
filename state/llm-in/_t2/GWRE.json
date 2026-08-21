@@ -1,0 +1,297 @@
+{
+ "ticker": "GWRE",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "가이드와이어 소프트웨어",
+ "detail": {
+  "fetchedAt": "2026-08-21",
+  "nameKo": "가이드와이어 소프트웨어",
+  "nameEn": "GUIDEWIRE SOFTWARE INC",
+  "infomaxCode": "NYS:GWRE",
+  "financials": {
+   "ok": true,
+   "ticker": "GWRE",
+   "cik": "0001528396",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "ProfitLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-02-01",
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 372541000,
+     "profit": 30637000,
+     "netIncome": 16471000,
+     "margin": 8.2,
+     "yoy": {
+      "revenue": 26.9,
+      "profit": 585.7,
+      "netIncome": -64.2,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodStart": "2025-11-01",
+     "periodEnd": "2026-01-31",
+     "derived": false,
+     "revenue": 359095000,
+     "profit": 38441000,
+     "netIncome": 60110000,
+     "margin": 10.7,
+     "yoy": {
+      "revenue": 24,
+      "profit": 227.9,
+      "netIncome": 261.3,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodStart": "2025-08-01",
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 332639000,
+     "profit": 18478000,
+     "netIncome": 31308000,
+     "margin": 5.6,
+     "yoy": {
+      "revenue": 26.5,
+      "profit": 491.5,
+      "netIncome": 242.6,
+      "priorEnd": "2024-10-31"
+     }
+    },
+    {
+     "periodStart": "2025-04-30",
+     "periodEnd": "2025-07-31",
+     "derived": true,
+     "revenue": 356570000,
+     "profit": 29597000,
+     "netIncome": 51951000,
+     "margin": 8.3,
+     "yoy": {
+      "revenue": 22.3,
+      "profit": 187,
+      "netIncome": 210,
+      "priorEnd": "2024-07-31"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001528396&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "GWRE",
+   "items": [
+    {
+     "title": "Guidewire CEO Michael Rosenbaum Sells Shares for $187,104",
+     "url": "https://www.nasdaq.com/articles/guidewire-ceo-michael-rosenbaum-sells-shares-187104",
+     "date": "2026-08-07",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "GWRE",
+      "GWRE"
+     ]
+    },
+    {
+     "title": "Guidewire's CEO Sold $166,000 in Stock — Here's What Investors Should Know",
+     "url": "https://www.nasdaq.com/articles/guidewires-ceo-sold-166000-stock-heres-what-investors-should-know",
+     "date": "2026-07-14",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "GWRE",
+      "GWRE"
+     ]
+    },
+    {
+     "title": "GWRE Stock Looks Stronger as Cash Flow Growth Backs Execution",
+     "url": "https://www.nasdaq.com/articles/gwre-stock-looks-stronger-cash-flow-growth-backs-execution",
+     "date": "2026-07-03",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SAP",
+      "CCC",
+      "GWRE"
+     ]
+    },
+    {
+     "title": "Guidewire Growth Trends Show How AI and Services Are Evolving",
+     "url": "https://www.nasdaq.com/articles/guidewire-growth-trends-show-how-ai-and-services-are-evolving",
+     "date": "2026-07-03",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SAP",
+      "ORCL",
+      "GWRE"
+     ]
+    },
+    {
+     "title": "GWRE Stock Outlook Built on Cloud Growth, Margin Gains and AI Risks",
+     "url": "https://www.nasdaq.com/articles/gwre-stock-outlook-built-cloud-growth-margin-gains-and-ai-risks",
+     "date": "2026-07-03",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CRM",
+      "SAP",
+      "GWRE"
+     ]
+    },
+    {
+     "title": "Unlocking Guidewire Software (GWRE) International Revenues: Trends, Surprises, and Prospects",
+     "url": "https://www.nasdaq.com/articles/unlocking-guidewire-software-gwre-international-revenues-trends-surprises-and-prospects",
+     "date": "2026-06-08",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "GWRE"
+     ]
+    },
+    {
+     "title": "Guidewire (GWRE) Q3 2026 Earnings Transcript",
+     "url": "https://www.nasdaq.com/articles/guidewire-gwre-q3-2026-earnings-transcript",
+     "date": "2026-06-05",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "GWRE",
+      "GWRE"
+     ]
+    },
+    {
+     "title": "AudioEye (AEYE) Q2 Earnings and Revenues Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/audioeye-aeye-q2-earnings-and-revenues-beat-estimates",
+     "date": "2026-08-13",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "AEYE",
+      "GWRE"
+     ]
+    }
+   ],
+   "directCount": 7,
+   "total": 10,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-22",
+    "reportDate": "2026-07-17",
+    "items": [
+     "5.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1528396/000152839626000032/gwre-20260717.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-04",
+    "reportDate": "2026-06-04",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1528396/000152839626000026/gwre-20260604.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-05",
+    "reportDate": "2026-03-05",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1528396/000152839626000013/gwre-20260305.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-08",
+    "reportDate": "2026-01-08",
+    "items": [
+     "8.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1528396/000152839626000007/gwre-20260108.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-12-18",
+    "reportDate": "2025-12-15",
+    "items": [
+     "5.07"
+    ],
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1528396/000152839625000248/gwre-20251215.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-12-03",
+    "reportDate": "2025-12-03",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1528396/000152839625000242/gwre-20251203.htm",
+    "description": "8-K"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": [],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}

@@ -1,0 +1,195 @@
+{
+ "ticker": "APD",
+ "news": [
+  {
+   "title": "All You Need to Know About Air Products and Chemicals (APD) Rating Upgrade to Buy",
+   "url": "https://www.nasdaq.com/articles/all-you-need-know-about-air-products-and-chemicals-apd-rating-upgrade-buy",
+   "date": "2026-08-14",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "APD"
+   ]
+  },
+  {
+   "title": "See Which Recent 13F Filers Hold APD But Hartree Partners and Segall Bryant & Hamill Exited",
+   "url": "https://www.nasdaq.com/articles/see-which-recent-13f-filers-hold-apd-hartree-partners-and-segall-bryant-hamill-exited",
+   "date": "2026-08-13",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "APD"
+   ]
+  },
+  {
+   "title": "AKZOY or APD: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/akzoy-or-apd-which-better-value-stock-right-now",
+   "date": "2026-08-07",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "APD"
+   ]
+  },
+  {
+   "title": "Is Air Products and Chemicals (APD) Outperforming Other Basic Materials Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/air-products-and-chemicals-apd-outperforming-other-basic-materials-stocks-year",
+   "date": "2026-08-05",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "APD",
+    "KWR"
+   ]
+  },
+  {
+   "title": "Air Products and Chemicals (APD) Q3 Earnings Top Estimates",
+   "url": "https://www.nasdaq.com/articles/air-products-and-chemicals-apd-q3-earnings-top-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "APD",
+    "KRO"
+   ]
+  },
+  {
+   "title": "Why Air Products and Chemicals (APD) is a Top Dividend Stock for Your Portfolio",
+   "url": "https://www.nasdaq.com/articles/why-air-products-and-chemicals-apd-top-dividend-stock-your-portfolio",
+   "date": "2026-07-29",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "APD"
+   ]
+  },
+  {
+   "title": "Air Products and Chemicals (APD) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
+   "url": "https://www.nasdaq.com/articles/air-products-and-chemicals-apd-q3-earnings-horizon-analysts-insights-key-performance",
+   "date": "2026-07-28",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "APD"
+   ]
+  },
+  {
+   "title": "Air Products and Chemicals Q3 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/air-products-and-chemicals-q3-earnings-call-highlights",
+   "date": "2026-08-01",
+   "publisher": "MarketBeat",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "APD"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000034/apd-20260730.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-30",
+   "reportDate": "2026-06-26",
+   "items": [
+    "2.06",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.06",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2969/000119312526289427/d97956d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000018/apd-20260430.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-30",
+   "reportDate": "2026-01-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000006/apd-20260130.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-29",
+   "reportDate": "2026-01-28",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2969/000119312526029381/d884680d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-25",
+   "reportDate": "2025-11-23",
+   "items": [
+    "5.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2969/000119312525297255/d42847d8k.htm",
+   "description": "8-K"
+  }
+ ]
+}

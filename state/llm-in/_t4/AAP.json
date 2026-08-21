@@ -1,0 +1,198 @@
+{
+ "ticker": "AAP",
+ "news": [
+  {
+   "title": "Advance Auto Parts is Now Oversold (AAP)",
+   "url": "https://www.nasdaq.com/articles/advance-auto-parts-now-oversold-aap",
+   "date": "2026-08-20",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "AAP"
+   ]
+  },
+  {
+   "title": "Advance Auto Parts (AAP) Reports Q2 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/advance-auto-parts-aap-reports-q2-earnings-what-key-metrics-have-say",
+   "date": "2026-08-20",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "AAP"
+   ]
+  },
+  {
+   "title": "Advance Auto Parts (AAP) Q2 Earnings Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/advance-auto-parts-aap-q2-earnings-surpass-estimates",
+   "date": "2026-08-20",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "AAP",
+    "CASY"
+   ]
+  },
+  {
+   "title": "Advance Auto Parts (AAP) Q2 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
+   "url": "https://www.nasdaq.com/articles/advance-auto-parts-aap-q2-earnings-horizon-analysts-insights-key-performance-measures",
+   "date": "2026-08-17",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "AAP"
+   ]
+  },
+  {
+   "title": "Why Autozone Stock Dropped Today",
+   "url": "https://www.nasdaq.com/articles/why-autozone-stock-dropped-today",
+   "date": "2026-08-20",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "AZO",
+    "AZO",
+    "AAP"
+   ]
+  },
+  {
+   "title": "Advance Auto Parts Q2 26 Earnings Conference Call At 8:00 AM ET",
+   "url": "https://www.nasdaq.com/articles/advance-auto-parts-q2-26-earnings-conference-call-8-00-am-et",
+   "date": "2026-08-20",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "AAP"
+   ]
+  },
+  {
+   "title": "Advance Auto Parts Q2 Profit Climbs",
+   "url": "https://www.nasdaq.com/articles/advance-auto-parts-q2-profit-climbs",
+   "date": "2026-08-20",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "AAP"
+   ]
+  },
+  {
+   "title": "Advance Auto Parts vs. Joby Aviation: Which Stock Is a Better Buy in 2026?",
+   "url": "https://www.nasdaq.com/articles/advance-auto-parts-vs-joby-aviation-which-stock-better-buy-2026",
+   "date": "2026-08-14",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "AAP",
+    "AAP",
+    "JOBY"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-20",
+   "reportDate": "2026-08-20",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526357755/aap-20260820.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-26",
+   "reportDate": "2026-06-24",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526285423/aap-20260624.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526236815/aap-20260520.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526233346/aap-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-10",
+   "reportDate": "2026-03-09",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526100177/aap-20260309.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-13",
+   "reportDate": "2026-02-13",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526049776/aap-20260213.htm",
+   "description": "8-K"
+  }
+ ]
+}

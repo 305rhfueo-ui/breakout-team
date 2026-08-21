@@ -1,0 +1,207 @@
+{
+ "ticker": "BIO.B",
+ "news": [
+  {
+   "title": "Citigroup Maintains Bio-Rad Laboratories (BIO.B) Buy Recommendation",
+   "url": "https://www.nasdaq.com/articles/citigroup-maintains-bio-rad-laboratories-biob-buy-recommendation",
+   "date": "2025-10-31",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "BIO.B"
+   ]
+  },
+  {
+   "title": "Wells Fargo Maintains Bio-Rad Laboratories (BIO.B) Equal-Weight Recommendation",
+   "url": "https://www.nasdaq.com/articles/wells-fargo-maintains-bio-rad-laboratories-biob-equal-weight-recommendation",
+   "date": "2025-10-31",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "BIO.B"
+   ]
+  },
+  {
+   "title": "Citigroup Upgrades Bio-Rad Laboratories (BIO.B)",
+   "url": "https://www.nasdaq.com/articles/citigroup-upgrades-bio-rad-laboratories-biob",
+   "date": "2024-10-02",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "BIO.B"
+   ]
+  },
+  {
+   "title": "Wells Fargo Initiates Coverage of Bio-Rad Laboratories (BIO.B) with Equal-Weight Recommendation",
+   "url": "https://www.nasdaq.com/articles/wells-fargo-initiates-coverage-bio-rad-laboratories-biob-equal-weight-recommendation",
+   "date": "2024-08-29",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "BIO.B"
+   ]
+  },
+  {
+   "title": "Bio-Rad Laboratories Inc (BIO) (BIO.B) Q2 2020 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/bio-rad-laboratories-inc-bio-bio.b-q2-2020-earnings-call-transcript-2020-08-01",
+   "date": "2020-08-01",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "BIO.B",
+    "BIO.B",
+    "BIO"
+   ]
+  },
+  {
+   "title": "Bio-Rad Laboratories Inc (BIO) (BIO.B) Q1 2020 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/bio-rad-laboratories-inc-bio-bio.b-q1-2020-earnings-call-transcript-2020-05-07",
+   "date": "2020-05-07",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "BIO.B",
+    "BIO.B",
+    "BIO"
+   ]
+  },
+  {
+   "title": "Bio-Rad Laboratories Inc. - Class B Shares Climb 15.0% Past Previous 52-Week High - Market Mover",
+   "url": "https://www.nasdaq.com/articles/bio-rad-laboratories-inc.-class-b-shares-climb-15.0-past-previous-52-week-high-market",
+   "date": "2023-05-08",
+   "publisher": "Kwhen",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "BIO.B",
+    "BIO.B"
+   ]
+  },
+  {
+   "title": "Bio-Rad Laboratories Inc. - Class B Shares Close the Day 13.5% Higher - Daily Wrap",
+   "url": "https://www.nasdaq.com/articles/bio-rad-laboratories-inc.-class-b-shares-close-the-day-13.5-higher-daily-wrap",
+   "date": "2022-04-21",
+   "publisher": "Kwhen",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "BIO.B",
+    "BIO.B"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-07-31",
+   "items": [
+    "2.02",
+    "2.05",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "2.05",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220826000046/bio-20260731.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220826000034/bio-20260430.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-24",
+   "reportDate": "2026-04-21",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220826000024/bio-20260421.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-19",
+   "reportDate": "2026-02-19",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220826000012/bio-20260219.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "reportDate": "2026-02-12",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220826000007/bio-20260212.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-10-29",
+   "reportDate": "2025-10-29",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/12208/000001220825000076/bio-20251029.htm",
+   "description": "8-K"
+  }
+ ]
+}

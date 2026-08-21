@@ -4,7 +4,7 @@
  "industry": "Software - Application",
  "nameKo": "워크데이",
  "detail": {
-  "fetchedAt": "2026-08-20",
+  "fetchedAt": "2026-08-21",
   "nameKo": "워크데이",
   "nameEn": "WORKDAY INC",
   "infomaxCode": "NAS:WDAY",
@@ -90,6 +90,30 @@
    "ticker": "WDAY",
    "items": [
     {
+     "title": "Workday Stock Surges 63% in 3 Months: Bull Trap or Buying Opportunity?",
+     "url": "https://www.nasdaq.com/articles/workday-stock-surges-63-3-months-bull-trap-or-buying-opportunity",
+     "date": "2026-08-20",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "WDAY",
+      "CALX",
+      "HUBS"
+     ]
+    },
+    {
+     "title": "Workday (WDAY) Reports Next Week: Wall Street Expects Earnings Growth",
+     "url": "https://www.nasdaq.com/articles/workday-wday-reports-next-week-wall-street-expects-earnings-growth",
+     "date": "2026-08-20",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "WDAY"
+     ]
+    },
+    {
      "title": "SBA Communications Takes Over #130 Spot From Workday",
      "url": "https://www.nasdaq.com/articles/sba-communications-takes-over-130-spot-workday",
      "date": "2026-08-18",
@@ -162,8 +186,8 @@
      ]
     }
    ],
-   "directCount": 5,
-   "total": 6,
+   "directCount": 7,
+   "total": 8,
    "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
   },
   "filings": [

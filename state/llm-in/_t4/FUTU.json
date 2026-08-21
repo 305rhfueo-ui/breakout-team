@@ -1,0 +1,105 @@
+{
+ "ticker": "FUTU",
+ "news": [
+  {
+   "title": "IX or FUTU: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/ix-or-futu-which-better-value-stock-right-now",
+   "date": "2026-08-12",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "IX",
+    "FUTU"
+   ]
+  },
+  {
+   "title": "IX vs. FUTU: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/ix-vs-futu-which-stock-better-value-option",
+   "date": "2026-07-24",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "IX",
+    "FUTU"
+   ]
+  },
+  {
+   "title": "BFH or FUTU: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/bfh-or-futu-which-better-value-stock-right-now-0",
+   "date": "2026-07-06",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "BFH",
+    "FUTU"
+   ]
+  },
+  {
+   "title": "Can Futu Absorb Its CSRC Penalty Without Losing Momentum?",
+   "url": "https://www.nasdaq.com/articles/can-futu-absorb-its-csrc-penalty-without-losing-momentum",
+   "date": "2026-06-30",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FUTU",
+    "IBKR",
+    "HOOD"
+   ]
+  },
+  {
+   "title": "Futu vs. Upstart: Which Fintech Stock Fits Your Portfolio Best?",
+   "url": "https://www.nasdaq.com/articles/futu-vs-upstart-which-fintech-stock-fits-your-portfolio-best",
+   "date": "2026-06-29",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FUTU",
+    "UPST"
+   ]
+  },
+  {
+   "title": "Is Improving Client Quality Driving the Next Growth Phase at FUTU?",
+   "url": "https://www.nasdaq.com/articles/improving-client-quality-driving-next-growth-phase-futu",
+   "date": "2026-06-25",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FUTU",
+    "IBKR",
+    "HOOD"
+   ]
+  },
+  {
+   "title": "Futu's Account Push: Can It Reach 800,000 New Funded Clients?",
+   "url": "https://www.nasdaq.com/articles/futus-account-push-can-it-reach-800000-new-funded-clients",
+   "date": "2026-06-22",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "IBKR",
+    "FUTU",
+    "HOOD"
+   ]
+  },
+  {
+   "title": "BFH or FUTU: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/bfh-or-futu-which-better-value-stock-right-now",
+   "date": "2026-06-19",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "BFH",
+    "FUTU"
+   ]
+  }
+ ],
+ "filings": []
+}

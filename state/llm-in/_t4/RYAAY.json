@@ -1,0 +1,109 @@
+{
+ "ticker": "RYAAY",
+ "news": [
+  {
+   "title": "Should Investors Buy RYAAY Post a Seven-Month Straight Traffic Growth?",
+   "url": "https://www.nasdaq.com/articles/should-investors-buy-ryaay-post-seven-month-straight-traffic-growth",
+   "date": "2026-08-12",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "RYAAY",
+    "ALK",
+    "ALGT"
+   ]
+  },
+  {
+   "title": "ALGT vs. RYAAY: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/algt-vs-ryaay-which-stock-better-value-option",
+   "date": "2026-08-04",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ALGT",
+    "RYAAY"
+   ]
+  },
+  {
+   "title": "RYAAY Refines Family Seating Policy While Maintaining Low-Fare Model",
+   "url": "https://www.nasdaq.com/articles/ryaay-refines-family-seating-policy-while-maintaining-low-fare-model",
+   "date": "2026-07-01",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "RYAAY",
+    "EXPD",
+    "TNK"
+   ]
+  },
+  {
+   "title": "LATAM Airlines July 2026 Traffic Improves Year Over Year",
+   "url": "https://www.nasdaq.com/articles/latam-airlines-july-2026-traffic-improves-year-over-year",
+   "date": "2026-08-12",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "LTM",
+    "RYAAY",
+    "VLRS"
+   ]
+  },
+  {
+   "title": "Baggage Claim: Apollo’s $7.7 Billion Bid to Acquire easyJet",
+   "url": "https://www.nasdaq.com/articles/baggage-claim-apollos-77-billion-bid-acquire-easyjet",
+   "date": "2026-07-14",
+   "publisher": "MarketBeat",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "APO",
+    "APO",
+    "RYAAY"
+   ]
+  },
+  {
+   "title": "LATAM Airlines June 2026 Traffic Improves Year Over Year",
+   "url": "https://www.nasdaq.com/articles/latam-airlines-june-2026-traffic-improves-year-over-year",
+   "date": "2026-07-10",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "LTM",
+    "RYAAY",
+    "VLRS"
+   ]
+  },
+  {
+   "title": "Should Investors Buy Allegiant Stock Post Bullish Q2 Guidance?",
+   "url": "https://www.nasdaq.com/articles/should-investors-buy-allegiant-stock-post-bullish-q2-guidance",
+   "date": "2026-07-02",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "ALGT",
+    "RYAAY",
+    "LUV"
+   ]
+  },
+  {
+   "title": "Ryanair's June Traffic Numbers Show Six-Month Straight Growth",
+   "url": "https://www.nasdaq.com/articles/ryanairs-june-traffic-numbers-show-six-month-straight-growth",
+   "date": "2026-07-02",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "RYAAY",
+    "EXPD",
+    "TNK"
+   ]
+  }
+ ],
+ "filings": []
+}

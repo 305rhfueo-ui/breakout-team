@@ -1,0 +1,412 @@
+{
+ "ticker": "AMD",
+ "sector": "Technology",
+ "industry": "Semiconductors",
+ "nameKo": "AMD",
+ "detail": {
+  "fetchedAt": "2026-08-21",
+  "nameKo": "AMD",
+  "nameEn": "ADVANCED MICRO DEVICES INC",
+  "infomaxCode": "NAS:AMD",
+  "financials": {
+   "ok": true,
+   "ticker": "AMD",
+   "cik": "0000002488",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-03-29",
+     "periodEnd": "2026-06-27",
+     "derived": false,
+     "revenue": 11536000000,
+     "profit": 1990000000,
+     "netIncome": 2297000000,
+     "margin": 17.3,
+     "yoy": {
+      "revenue": 50.1,
+      "profit": 1585.1,
+      "netIncome": 163.4,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodStart": "2025-12-28",
+     "periodEnd": "2026-03-28",
+     "derived": false,
+     "revenue": 10253000000,
+     "profit": 1476000000,
+     "netIncome": 1383000000,
+     "margin": 14.4,
+     "yoy": {
+      "revenue": 37.8,
+      "profit": 83.1,
+      "netIncome": 95.1,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodStart": "2025-09-27",
+     "periodEnd": "2025-12-27",
+     "derived": true,
+     "revenue": 10270000000,
+     "profit": 1752000000,
+     "netIncome": 1511000000,
+     "margin": 17.1,
+     "yoy": {
+      "revenue": 34.1,
+      "profit": 101.1,
+      "netIncome": 213.5,
+      "priorEnd": "2024-12-28"
+     }
+    },
+    {
+     "periodStart": "2025-06-29",
+     "periodEnd": "2025-09-27",
+     "derived": false,
+     "revenue": 9246000000,
+     "profit": 1270000000,
+     "netIncome": 1243000000,
+     "margin": 13.7,
+     "yoy": {
+      "revenue": 35.6,
+      "profit": 75.4,
+      "netIncome": 61.2,
+      "priorEnd": "2024-09-28"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000002488&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "AMD",
+   "items": [
+    {
+     "title": "Is AMD Catching Up With Nvidia? Here's the Best Stock to Buy Today.",
+     "url": "https://www.nasdaq.com/articles/amd-catching-nvidia-heres-best-stock-buy-today",
+     "date": "2026-08-20",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AMD",
+      "AMD",
+      "NVDA"
+     ]
+    },
+    {
+     "title": "Why Is AMD Borrowing Money if Profits are Booming?",
+     "url": "https://www.nasdaq.com/articles/why-amd-borrowing-money-if-profits-are-booming",
+     "date": "2026-08-20",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AMD",
+      "AMD"
+     ]
+    },
+    {
+     "title": "Advanced Micro Devices vs. Salesforce: Which Technology Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/advanced-micro-devices-vs-salesforce-which-technology-stock-better-buy-2026",
+     "date": "2026-08-19",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AMD",
+      "AMD",
+      "CRM"
+     ]
+    },
+    {
+     "title": "AMD Stock: Buy or Sell? (My Final Verdict)",
+     "url": "https://www.nasdaq.com/articles/amd-stock-buy-or-sell-my-final-verdict",
+     "date": "2026-08-19",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AMD",
+      "AMD"
+     ]
+    },
+    {
+     "title": "Where Will AMD Stock Be in 5 Years?",
+     "url": "https://www.nasdaq.com/articles/where-will-amd-stock-be-5-years",
+     "date": "2026-08-19",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AMD",
+      "AMD"
+     ]
+    },
+    {
+     "title": "If a Stock Market Crash Is Coming, These 2 Growth Stocks Might Be Worth Selling",
+     "url": "https://www.nasdaq.com/articles/if-stock-market-crash-coming-these-2-growth-stocks-might-be-worth-selling",
+     "date": "2026-08-20",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "AMD",
+      "AMD",
+      "CRWD"
+     ]
+    },
+    {
+     "title": "INTC's Client Computing Business Gains Momentum: Is More Growth Ahead?",
+     "url": "https://www.nasdaq.com/articles/intcs-client-computing-business-gains-momentum-more-growth-ahead",
+     "date": "2026-08-19",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "INTC",
+      "QCOM",
+      "AMD"
+     ]
+    }
+   ],
+   "directCount": 5,
+   "total": 7,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-19",
+    "reportDate": "2026-08-17",
+    "items": [
+     "5.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000163/amd-20260817.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-17",
+    "reportDate": "2026-08-13",
+    "items": [
+     "1.01",
+     "2.03",
+     "9.01"
+    ],
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526354029/d142696d8k.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "reportDate": "2026-08-04",
+    "items": [
+     "2.02",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amd-20260804.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-01",
+    "reportDate": "2026-06-26",
+    "items": [
+     "5.02"
+    ],
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000115/amd-20260626.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-15",
+    "reportDate": "2026-05-13",
+    "items": [
+     "1.01",
+     "1.02",
+     "2.03",
+     "5.02",
+     "5.07",
+     "9.01"
+    ],
+    "itemsKo": [
+     "중요 계약 체결",
+     "1.02",
+     "2.03",
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/d118163d8k.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "reportDate": "2026-05-05",
+    "items": [
+     "2.02",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000072/amd-20260505.htm",
+    "description": "8-K"
+   }
+  ],
+  "krReports": {
+   "total": 16,
+   "reports": [
+    {
+     "title": "[AMD (NAS:AMD)] 최대 50억 달러 회사채 발행 추진 - 헬리오스·MI400 램프 투자 확대에 따른 선제적 자금조달",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-08-14",
+     "summary": "- 최대 50억달러 회사채 발행 추진, 블룸버그 보도- 2분기 FCF 39%↓, 헬리오스·MI400 투자 급증과 겹쳐- 밸류 부담 속 지분 희석 피하려는 조달로 해석",
+     "pages": "5",
+     "secureId": "eqlxxxxxegekmqegcgxclge",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxxxxxegekmqegcgxclge.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[AMD (NAS:AMD)] [Issue & News] Taalas 인수로 AI 추론 컴퓨트 포트폴리오 확장 - DC 다음 성장축 선점 시도",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-08-07",
+     "summary": "- AMD, Taalas 인수해 AI 추론 컴퓨트 솔루션 강화- 인수가·조건 미공개, 재무 영향 판단 유보- DC 비중 58%·가속기 TAM 1.4조 목표와 결 같음",
+     "pages": "5",
+     "secureId": "eqlxczlellggeqkgcgxclge",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxczlellggeqkgcgxclge.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[AMD (NAS:AMD)] EPYC CPU의 성장, Helios의 가세",
+     "broker": "신한투자증권",
+     "analyst": "고준혁",
+     "date": "2026-08-05",
+     "summary": "- 실적발표 이후 8% 하락. 시장은 당분기 호실적보다 Helios 램프, 매출 가 시성과 CapEx 및 현금흐름에 주목한 것이 원인. 다만, EPYC CPU의 견조 한 수요와 Helios 일정은 변함없음. 하반기 이후 기대감 여전히 유효- 2Q26 매출액 115.4억달러(YoY+50.1%, 이하 전년동기대비), 영업이익 30.9억달러(+244.9%, OPM 26.8%)를 기록해 컨센서스 영업이익 30.1억달 러에 부합. 데이터센터 매출이 67.2억달러(+107%, OPM 31.3%) 기록하며 매출총이익률도 Non-GAAP 기준 56.2%로 역대 최대 분기 실적 달성.- 3Q 가이던스는 중간값 기준 매출액 130억달러, 매출총이익률 56%로 컨 센서스에 부합. 서버 CPU 매출은 26년 하반기, 27년 각각 80%, 70% 이상 성장 전망. 27년 데이터센터 매출은 Helios 채택 확대로 100% 이상 성장 예상. Helios 램프는 일정대로 진행 중",
+     "pages": "6",
+     "secureId": "eqlzmemccilcelegcgxclge",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzmemccilcelegcgxclge.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[AMD (NAS:AMD)] Earnings Flash",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "date": "2026-08-05",
+     "summary": "- 매출액 115.4억 달러(YoY +50.1%), 영업이익 31억 달러(YoY +244.9%), 조정 EPS 1.66 달러(YoY +245.8%)로 각각 예상치 2.0%, 2.9%, 2.7% 상회- 게이밍 부문 매출 감소는 콘솔 사이클 후반부 진입에 따른 *세미 커스텀 매출 하락과 하드웨어 비용 상승이 촉발한 그래픽카드 가격 인상에 따른 수요 위축이 주된 요인- 스페이스X가 지상·궤도 데이터센터를 Nvidia 제품으로 독점 구축한다는 소식에 시간 외 -8.8%(vs. 엔비디아 +2.2%)",
+     "pages": "1",
+     "secureId": "eqlzmecgmmlkzmkgcgxclge",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzmecgmmlkzmkgcgxclge.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[AMD (NAS:AMD)] 성장은 증명, 해자는 숙제",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "date": "2026-08-05",
+     "summary": "- AMD의 FY2Q26 매출은 115.4억달러(+50.1% yoy), 데이터센터 매출은 67.2억달러(+107% yoy)를 기록하며 컨센 상회. 데이터센터향 서버 CPU 와 Instinct GPU 강세로 견조한 외형 성장을 기록.- Agent AI 워크로드 확산으로 서버 CPU 수요 강세 기조가 유지되는 가운데, AMD의 서버 CPU 매출은 5분기 연속 사상 최고치를 경신. EPYC Turin(Gen5)뿐 아니라 구세대 Genoa(Gen4)도 여전히 견조한 수요를 보 이고 있으며,CPU 세대 전환에 따른 믹스 개선으로 ASP가 상승하는 동시에 안정적인 공급망 확보로 출하량이 동반 개선되는 P·Q 동반 성장 구간- 다만 Instinct 시리즈의 마진 부담은 여전. AMD는 Instinct의 GPM을 전사 평균 대비 낮게 책정하고 있으며, 하반기 출시될 MI455X GPU 역시 432GB(엔비디아 Rubin GPU 288GB)에 달하는 HBM4 탑재량으로 인해 높은 마진 책정이 쉽지 않을 것으로 전망",
+     "pages": "6",
+     "secureId": "eqlzmcmkiggczzqgcgxclge",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzmcmkiggczzqgcgxclge.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[AMD (NAS:AMD)] [26Q2 Review] 데이터센터 두 배, 현금은 잠시 뒤로, 투자의견 적극 매수 유지",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-08-04",
+     "summary": "- 매출 $11.5B·DC $6.7B(+107%), Q3 가이드 $13B- 컨센 상회폭 +2%대로 축소, NTM PE 43배- FCF -39%·설비투자 약 $808M, 램프 선투자",
+     "pages": "7",
+     "secureId": "eqlzlmixgiqlkgxgcgxclge",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzlmixgiqlkgxgcgxclge.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[AMD (NAS:AMD)] [2Q26 Preview] 데이터센터 독주는 계속될까, 높아진 기대가 독이 될까",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-07-27",
+     "summary": "- 8월 5일, AMD의 AI 성장 궤도가 다시 한번 시험대에 오른다- OpenAI·Anthropic 확보로 GPU 스토리가 한 단계 올라섰음- 데이터센터 63~66억 달러 구간이 밸류에이션의 방향을 정한다- 상회하면 추가 상승, 부합이면 제자리, 하회하면 프리미엄 조정",
+     "pages": "5",
+     "secureId": "eqlzeekilzmelklgcgxclge",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzeekilzmelklgcgxclge.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[AMD (NAS:AMD)] 주가 상승 원인 점검",
+     "broker": "iM증권",
+     "analyst": "송명섭",
+     "date": "2026-06-11",
+     "summary": "- AMD의 현재 주가는 YTD로 약 120%의 높은 상승률을 기록하고 있으며 특히 4월 중순 이후 폭발적인 랠리를 보이고 있다. 이에는 강력한 동사 GPU의 성장과 좋은 실적이 영향을 주었으나, 최근 에이전틱 AI 시대에 들어서며 CPU의 수요가 빠르게 증가할 것이라는 시장 전망에도 기인한다.- AI 학습 국면에서는 대규모 행렬 연산이 핵심이기 때문에 GPU 중심으로 인프라가 구축된다. 반면 추론, 특히 에이전틱 AI 단계에 진입하면 모델 호출 전후의 제어 과정이 대폭 확대된다.- CPU 업체들은 향후 AI 데이터센터 내 CPU와 GPU의 사용량 비율이 1대 8에서 1대 1로 수렴할 것이라고 주장한다. 여기서 1대 1 비율은 서버 한 대 내부의 구조 변화를 뜻하는 것이 아니라, 데이터센터 클러스터 전체의 자원 배분 비율이 바뀌는 것을 의미한다.",
+     "pages": "6",
+     "secureId": "eqleeiekccxzikcgcgxclge",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqleeiekccxzikcgcgxclge.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[AMD (NAS:AMD)] 서버 CPU, 장기 수요 전망치 대폭 상향",
+     "broker": "키움증권",
+     "analyst": "박유악",
+     "date": "2026-05-07",
+     "summary": "- 1Q26CY 실적 및 2Q26CY 가이던스 시장 컨센서스 상회- 2030년 서버 CPU TAM을 기존 $60B에서 $120B로 상향 조정- 2Q26 서버 DRAM 가격 상승률 역시 기존 전망치를 상회할 가능성 높다고 판단함",
+     "pages": "6",
+     "secureId": "eqqleclqexxqgxzgcgxclge",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqleclqexxqgxzgcgxclge.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[AMD (NAS:AMD)] 나도 CPU 쇼티지 수혜주",
+     "broker": "신한투자증권",
+     "analyst": "고준혁",
+     "date": "2026-05-07",
+     "summary": "- AI CPU + GPU 동시 수혜 가능성 부각. 서버 CPU 출하량 중심의 성장으 로 구조적 점유율 상승은 기대되나 공급망/수익성 리스크에 주의 필요- 1Q26 매출액 102.5억달러(YoY+37.8%, 이하 전년동기대비), 영업이익 25.4억달러(+42.8%, OPM 24.8%)를 기록해 컨센서스 영업이익 24.1억달 러를 상회. 매출총이익률은 Non-GAAP 기준 55.4%로 전분기 중국향 MI308 매출과 재고충당급 환입 효과를 제외하면 안정적인 마진율 기록- 2분기 가이던스는 매출액 112억달러, 매출총이익률 56%로 컨센서스를 상 회. 서버 CPU 매출도 전년대비 70% 이상 성장 예상. AI GPU는 MI450과 Helios 하반기 램프를 통한 대형 파트너십 출하 일정이 실적의 핵심 변수",
+     "pages": "5",
+     "secureId": "eqqleclxxqzqziigcgxclge",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqleclxxqzqziigcgxclge.pdf",
+     "opinion": null
+    }
+   ],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}

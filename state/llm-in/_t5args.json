@@ -1,5 +1,5 @@
 {
- "date": "2026-08-20",
+ "date": "2026-08-21",
  "cap": 6,
  "industries": [
   {
@@ -8,29 +8,30 @@
    "industry": "Computer Hardware",
    "count": 8,
    "counts": {
-    "m1": 8,
+    "m1": 9,
     "m3": 8,
     "m6": 8
    },
    "wrs": {
-    "m1": -0.0107,
-    "m3": 0.1716,
-    "m6": 1.276
+    "m1": -0.0123,
+    "m3": 0.1239,
+    "m6": 1.1398
    },
    "final": {
-    "m1": 0.0582,
-    "m3": 0.1201,
-    "m6": 0.5862
+    "m1": 0.0461,
+    "m3": 0.0994,
+    "m6": 0.5594
    },
    "rankPct": {
-    "m1": 66.1,
-    "m3": 10,
-    "m6": 0.71
+    "m1": 69.06,
+    "m3": 20.86,
+    "m6": 0.72
    },
    "members": [
     "DELL",
+    "SNDK",
     "P",
-    "SNDK"
+    "STX"
    ],
    "memberNews": [
     {
@@ -55,27 +56,6 @@
      "url": "https://www.nasdaq.com/articles/dell-technologies-dell-exceeds-market-returns-some-facts-consider"
     },
     {
-     "ticker": "P",
-     "date": "2026-08-07",
-     "publisher": "Zacks",
-     "title": "VNT or P: Which Is the Better Value Stock Right Now?",
-     "url": "https://www.nasdaq.com/articles/vnt-or-p-which-better-value-stock-right-now"
-    },
-    {
-     "ticker": "P",
-     "date": "2026-07-31",
-     "publisher": "Zacks",
-     "title": "STX vs. P: Which Storage Stock Deserves a Spot in Your Portfolio?",
-     "url": "https://www.nasdaq.com/articles/stx-vs-p-which-storage-stock-deserves-spot-your-portfolio"
-    },
-    {
-     "ticker": "P",
-     "date": "2026-07-23",
-     "publisher": "Zacks",
-     "title": "3 Reasons Growth Investors Will Love Everpure (P)",
-     "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-everpure-p"
-    },
-    {
      "ticker": "SNDK",
      "date": "2026-08-19",
      "publisher": "The Motley Fool",
@@ -95,6 +75,27 @@
      "publisher": "The Motley Fool",
      "title": "Up More Than 3,400% in the Past 12 Months, Here's Why Sandisk's Stock Could Still Go Higher",
      "url": "https://www.nasdaq.com/articles/more-3400-past-12-months-heres-why-sandisks-stock-could-still-go-higher"
+    },
+    {
+     "ticker": "P",
+     "date": "2026-08-07",
+     "publisher": "Zacks",
+     "title": "VNT or P: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/vnt-or-p-which-better-value-stock-right-now"
+    },
+    {
+     "ticker": "P",
+     "date": "2026-07-31",
+     "publisher": "Zacks",
+     "title": "STX vs. P: Which Storage Stock Deserves a Spot in Your Portfolio?",
+     "url": "https://www.nasdaq.com/articles/stx-vs-p-which-storage-stock-deserves-spot-your-portfolio"
+    },
+    {
+     "ticker": "P",
+     "date": "2026-07-23",
+     "publisher": "Zacks",
+     "title": "3 Reasons Growth Investors Will Love Everpure (P)",
+     "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-everpure-p"
     }
    ]
   },
@@ -104,170 +105,27 @@
    "industry": "Oil & Gas Refining & Marketing",
    "count": 7,
    "counts": {
-    "m1": 5,
+    "m1": 7,
     "m3": 7,
     "m6": 7
    },
    "wrs": {
-    "m1": 0.1279,
-    "m3": 0.3805,
-    "m6": 0.6965
+    "m1": 0.1317,
+    "m3": 0.3987,
+    "m6": 0.6782
    },
    "final": {
-    "m1": 0.1292,
-    "m3": 0.2732,
-    "m6": 0.4291
+    "m1": 0.1132,
+    "m3": 0.2773,
+    "m6": 0.4177
    },
    "rankPct": {
-    "m1": 16.95,
-    "m3": 1.43,
-    "m6": 1.43
+    "m1": 9.35,
+    "m3": 0.72,
+    "m6": 1.44
    },
    "members": [],
    "memberNews": []
-  },
-  {
-   "key": "Healthcare|Biotechnology",
-   "sector": "Healthcare",
-   "industry": "Biotechnology",
-   "count": 55,
-   "counts": {
-    "m1": 19,
-    "m3": 55,
-    "m6": 55
-   },
-   "wrs": {
-    "m1": 0.4876,
-    "m3": 0.433,
-    "m6": 0.4686
-   },
-   "final": {
-    "m1": 0.3353,
-    "m3": 0.3979,
-    "m6": 0.411
-   },
-   "rankPct": {
-    "m1": 0.85,
-    "m3": 0.71,
-    "m6": 2.86
-   },
-   "members": [
-    "MRNA",
-    "CORT",
-    "MNPR",
-    "ORKA",
-    "MANE",
-    "SYRE",
-    "KYMR",
-    "TVTX"
-   ],
-   "memberNews": [
-    {
-     "ticker": "MRNA",
-     "date": "2026-08-19",
-     "publisher": "The Motley Fool",
-     "title": "Stock Market Today, Aug. 19: Moderna Skyrockets 177% on Positive Phase 3 Melanoma Data",
-     "url": "https://www.nasdaq.com/articles/stock-market-today-aug-19-moderna-skyrockets-177-positive-phase-3-melanoma-data"
-    },
-    {
-     "ticker": "MRNA",
-     "date": "2026-08-19",
-     "publisher": "Zacks",
-     "title": "Moderna or Merck: Which Soaring Cancer Vaccine Stock Is the Better Buy?",
-     "url": "https://www.nasdaq.com/articles/moderna-or-merck-which-soaring-cancer-vaccine-stock-better-buy"
-    },
-    {
-     "ticker": "MRNA",
-     "date": "2026-08-19",
-     "publisher": "The Motley Fool",
-     "title": "Moderna and Merck Just Made History With the First mRNA Cancer Vaccine to Succeed in a Phase 3 Trial. Here's What That Means for Investors.",
-     "url": "https://www.nasdaq.com/articles/moderna-and-merck-just-made-history-first-mrna-cancer-vaccine-succeed-phase-3-trial-heres"
-    },
-    {
-     "ticker": "CORT",
-     "date": "2026-08-05",
-     "publisher": "Zacks",
-     "title": "Why Corcept Therapeutics (CORT) is a Top Momentum Stock for the Long-Term",
-     "url": "https://www.nasdaq.com/articles/why-corcept-therapeutics-cort-top-momentum-stock-long-term"
-    },
-    {
-     "ticker": "CORT",
-     "date": "2026-07-29",
-     "publisher": "Zacks",
-     "title": "Corcept Therapeutics (CORT) Q2 Earnings and Revenues Surpass Estimates",
-     "url": "https://www.nasdaq.com/articles/corcept-therapeutics-cort-q2-earnings-and-revenues-surpass-estimates"
-    },
-    {
-     "ticker": "CORT",
-     "date": "2026-07-29",
-     "publisher": "MarketBeat",
-     "title": "Corcept Therapeutics Q2 Earnings Call Highlights",
-     "url": "https://www.nasdaq.com/articles/corcept-therapeutics-q2-earnings-call-highlights"
-    },
-    {
-     "ticker": "ORKA",
-     "date": "2026-08-11",
-     "publisher": "RTTNews",
-     "title": "Oruka Q2 Net Loss Expands; Expects Phase 2 EVERLAST-A 28 Week Data Of ORKA-001 At The End Of Q3 2026",
-     "url": "https://www.nasdaq.com/articles/oruka-q2-net-loss-expands-expects-phase-2-everlast-28-week-data-orka-001-end-q3-2026"
-    },
-    {
-     "ticker": "ORKA",
-     "date": "2026-06-27",
-     "publisher": "The Motley Fool",
-     "title": "Oruka Stock Is Now Up Nearly 700%. Here's What a $687,000 Insider Sale Could Mean",
-     "url": "https://www.nasdaq.com/articles/oruka-stock-now-nearly-700-heres-what-687000-insider-sale-could-mean"
-    },
-    {
-     "ticker": "ORKA",
-     "date": "2026-06-24",
-     "publisher": "The Motley Fool",
-     "title": "Oruka Therapeutics' Head of Finance Sold Over 10,000 Company Shares. What Does That Mean for Investors?",
-     "url": "https://www.nasdaq.com/articles/oruka-therapeutics-head-finance-sold-over-10000-company-shares-what-does-mean-investors"
-    },
-    {
-     "ticker": "KYMR",
-     "date": "2026-08-12",
-     "publisher": "The Motley Fool",
-     "title": "Kymera Therapeutics (KYMR) Q2 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-kymr-q2-2026-earnings-call-transcript"
-    },
-    {
-     "ticker": "KYMR",
-     "date": "2026-08-06",
-     "publisher": "Zacks",
-     "title": "KYMR Q2 Earnings and Revenues Top Estimates on Gilead, Sanofi Payments",
-     "url": "https://www.nasdaq.com/articles/kymr-q2-earnings-and-revenues-top-estimates-gilead-sanofi-payments"
-    },
-    {
-     "ticker": "KYMR",
-     "date": "2026-08-05",
-     "publisher": "MarketBeat",
-     "title": "Kymera Therapeutics Q2 Earnings Call Highlights",
-     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-q2-earnings-call-highlights"
-    },
-    {
-     "ticker": "TVTX",
-     "date": "2026-08-18",
-     "publisher": "MarketBeat",
-     "title": "Travere Therapeutics Sees FILSPARI FSGS Launch Top Expectations, Expands Renal Pipeline",
-     "url": "https://www.nasdaq.com/articles/travere-therapeutics-sees-filspari-fsgs-launch-top-expectations-expands-renal-pipeline"
-    },
-    {
-     "ticker": "TVTX",
-     "date": "2026-08-12",
-     "publisher": "The Motley Fool",
-     "title": "Travere Therapeutics (TVTX) Q2 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/travere-therapeutics-tvtx-q2-2026-earnings-call-transcript"
-    },
-    {
-     "ticker": "TVTX",
-     "date": "2026-08-07",
-     "publisher": "RTTNews",
-     "title": "Travere Q2 Loss Widens Despite FILSPARI Sales Surge; Phase 4 SPARLIGHT Study Set To Begin In H2 '26",
-     "url": "https://www.nasdaq.com/articles/travere-q2-loss-widens-despite-filspari-sales-surge-phase-4-sparlight-study-set-begin-h2"
-    }
-   ]
   },
   {
    "key": "Basic Materials|Gold",
@@ -275,24 +133,80 @@
    "industry": "Gold",
    "count": 8,
    "counts": {
-    "m1": 5,
+    "m1": 8,
     "m3": 8,
     "m6": 8
    },
    "wrs": {
-    "m1": 0.3127,
-    "m3": 0.1576,
-    "m6": -0.095
+    "m1": 0.3692,
+    "m3": 0.1482,
+    "m6": -0.0851
    },
    "final": {
-    "m1": 0.2038,
-    "m3": 0.1738,
-    "m6": -0.05
+    "m1": 0.2863,
+    "m3": 0.1678,
+    "m6": -0.0266
    },
    "rankPct": {
-    "m1": 1.69,
-    "m3": 14.29,
-    "m6": 90.71
+    "m1": 0.72,
+    "m3": 14.39,
+    "m6": 87.05
+   },
+   "members": [],
+   "memberNews": []
+  },
+  {
+   "key": "Basic Materials|Coking Coal",
+   "sector": "Basic Materials",
+   "industry": "Coking Coal",
+   "count": 2,
+   "counts": {
+    "m1": 2,
+    "m3": 2,
+    "m6": 2
+   },
+   "wrs": {
+    "m1": 0.3011,
+    "m3": 0.0794,
+    "m6": 0.2287
+   },
+   "final": {
+    "m1": 0.0992,
+    "m3": 0.0445,
+    "m6": 0.0798
+   },
+   "rankPct": {
+    "m1": 1.44,
+    "m3": 33.09,
+    "m6": 12.23
+   },
+   "members": [],
+   "memberNews": []
+  },
+  {
+   "key": "Healthcare|Diagnostics & Research",
+   "sector": "Healthcare",
+   "industry": "Diagnostics & Research",
+   "count": 22,
+   "counts": {
+    "m1": 22,
+    "m3": 22,
+    "m6": 22
+   },
+   "wrs": {
+    "m1": 0.1115,
+    "m3": 0.3621,
+    "m6": 0.2495
+   },
+   "final": {
+    "m1": 0.2111,
+    "m3": 0.3835,
+    "m6": 0.3164
+   },
+   "rankPct": {
+    "m1": 12.23,
+    "m3": 1.44,
+    "m6": 10.07
    },
    "members": [],
    "memberNews": []
@@ -303,139 +217,27 @@
    "industry": "Electronics & Computer Distribution",
    "count": 5,
    "counts": {
-    "m1": 2,
+    "m1": 5,
     "m3": 5,
     "m6": 5
    },
    "wrs": {
-    "m1": -0.023,
-    "m3": 0.0786,
-    "m6": 0.4938
+    "m1": 0.0151,
+    "m3": 0.0534,
+    "m6": 0.5021
    },
    "final": {
-    "m1": -0.0063,
-    "m3": 0.0923,
-    "m6": 0.2483
+    "m1": 0.0301,
+    "m3": 0.0681,
+    "m6": 0.252
    },
    "rankPct": {
-    "m1": 72.03,
-    "m3": 40.71,
-    "m6": 2.14
+    "m1": 51.8,
+    "m3": 43.17,
+    "m6": 2.16
    },
    "members": [],
    "memberNews": []
-  },
-  {
-   "key": "Technology|Semiconductors",
-   "sector": "Technology",
-   "industry": "Semiconductors",
-   "count": 42,
-   "counts": {
-    "m1": 30,
-    "m3": 43,
-    "m6": 42
-   },
-   "wrs": {
-    "m1": -0.0265,
-    "m3": -0.0129,
-    "m6": 0.3973
-   },
-   "final": {
-    "m1": -0.0056,
-    "m3": -0.0273,
-    "m6": 0.3706
-   },
-   "rankPct": {
-    "m1": 77.97,
-    "m3": 75,
-    "m6": 3.57
-   },
-   "members": [
-    "MXL",
-    "MRVL",
-    "ALAB",
-    "AMD",
-    "MU"
-   ],
-   "memberNews": [
-    {
-     "ticker": "MXL",
-     "date": "2026-08-14",
-     "publisher": "Zacks",
-     "title": "Does MaxLinear (MXL) Have the Potential to Rally 31.25% as Wall Street Analysts Expect?",
-     "url": "https://www.nasdaq.com/articles/does-maxlinear-mxl-have-potential-rally-3125-wall-street-analysts-expect"
-    },
-    {
-     "ticker": "MXL",
-     "date": "2026-07-28",
-     "publisher": "Zacks",
-     "title": "The Zacks Analyst Blog Highlights MaxLinear, Marvell Technology and Broadcom",
-     "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-maxlinear-marvell-technology-and-broadcom"
-    },
-    {
-     "ticker": "MXL",
-     "date": "2026-07-27",
-     "publisher": "Zacks",
-     "title": "MaxLinear Rides on AI Infrastructure Momentum: More Upside Ahead?",
-     "url": "https://www.nasdaq.com/articles/maxlinear-rides-ai-infrastructure-momentum-more-upside-ahead"
-    },
-    {
-     "ticker": "MRVL",
-     "date": "2026-08-10",
-     "publisher": "Zacks",
-     "title": "Here's Why Marvell Technology (MRVL) Fell More Than Broader Market",
-     "url": "https://www.nasdaq.com/articles/heres-why-marvell-technology-mrvl-fell-more-broader-market"
-    },
-    {
-     "ticker": "MRVL",
-     "date": "2026-08-07",
-     "publisher": "BNK Invest",
-     "title": "See Which Recent 13F Filers Hold MRVL",
-     "url": "https://www.nasdaq.com/articles/see-which-recent-13f-filers-hold-mrvl"
-    },
-    {
-     "ticker": "ALAB",
-     "date": "2026-08-12",
-     "publisher": "Zacks",
-     "title": "ALAB Benefits From PCIe Demand: Can It Stay Ahead of Its Competitors?",
-     "url": "https://www.nasdaq.com/articles/alab-benefits-pcie-demand-can-it-stay-ahead-its-competitors"
-    },
-    {
-     "ticker": "ALAB",
-     "date": "2026-08-11",
-     "publisher": "The Motley Fool",
-     "title": "Astera Labs (ALAB) Q2 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/astera-labs-alab-q2-2026-earnings-call-transcript"
-    },
-    {
-     "ticker": "ALAB",
-     "date": "2026-08-11",
-     "publisher": "The Motley Fool",
-     "title": "Astera Labs vs. Arm: Which Technology Stock Is a Better Buy in 2026?",
-     "url": "https://www.nasdaq.com/articles/astera-labs-vs-arm-which-technology-stock-better-buy-2026"
-    },
-    {
-     "ticker": "AMD",
-     "date": "2026-08-12",
-     "publisher": "The Motley Fool",
-     "title": "Adobe vs. Advanced Micro Devices: Which Technology Stock Is a Better Buy in 2026?",
-     "url": "https://www.nasdaq.com/articles/adobe-vs-advanced-micro-devices-which-technology-stock-better-buy-2026"
-    },
-    {
-     "ticker": "AMD",
-     "date": "2026-08-12",
-     "publisher": "The Motley Fool",
-     "title": "Advanced Micro Devices vs. AppLovin: Which Technology Stock Is a Better Buy in 2026?",
-     "url": "https://www.nasdaq.com/articles/advanced-micro-devices-vs-applovin-which-technology-stock-better-buy-2026"
-    },
-    {
-     "ticker": "AMD",
-     "date": "2026-08-12",
-     "publisher": "BNK Invest",
-     "title": "Notable Wednesday Option Activity: HUBG, AMD, SPCX",
-     "url": "https://www.nasdaq.com/articles/notable-wednesday-option-activity-hubg-amd-spcx"
-    }
-   ]
   }
  ]
 }

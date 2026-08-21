@@ -1,0 +1,296 @@
+{
+ "ticker": "ALAB",
+ "sector": "Technology",
+ "industry": "Semiconductors",
+ "nameKo": "아스테라 랩스",
+ "detail": {
+  "fetchedAt": "2026-08-21",
+  "nameKo": "아스테라 랩스",
+  "nameEn": "ASTERA LABS INC",
+  "infomaxCode": "NAS:ALAB",
+  "financials": {
+   "ok": true,
+   "ticker": "ALAB",
+   "cik": "0001736297",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-04-01",
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 392400000,
+     "profit": 89248000,
+     "netIncome": 153088000,
+     "margin": 22.7,
+     "yoy": {
+      "revenue": 104.5,
+      "profit": 124.4,
+      "netIncome": 198.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodStart": "2026-01-01",
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 308361000,
+     "profit": 61833000,
+     "netIncome": 80310000,
+     "margin": 20.1,
+     "yoy": {
+      "revenue": 93.4,
+      "profit": 447.9,
+      "netIncome": 152.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodStart": "2025-09-30",
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 270583000,
+     "profit": 66958000,
+     "netIncome": 44982000,
+     "margin": 24.7,
+     "yoy": {
+      "revenue": 91.8,
+      "profit": 46398.6,
+      "netIncome": 82,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodStart": "2025-07-01",
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 230575000,
+     "profit": 55406000,
+     "netIncome": 91114000,
+     "margin": 24,
+     "yoy": {
+      "revenue": 103.9,
+      "profit": 722.8,
+      "netIncome": 1300,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001736297&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "ALAB",
+   "items": [
+    {
+     "title": "Credo vs. Astera Labs: Which AI Connectivity Stock Is the Better Buy?",
+     "url": "https://www.nasdaq.com/articles/credo-vs-astera-labs-which-ai-connectivity-stock-better-buy",
+     "date": "2026-08-20",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CRDO",
+      "ALAB"
+     ]
+    },
+    {
+     "title": "Astera Labs vs. monday.com: Comparing Revenue Trends Between These High-Growth Tech Companies",
+     "url": "https://www.nasdaq.com/articles/astera-labs-vs-mondaycom-comparing-revenue-trends-between-these-high-growth-tech-companies",
+     "date": "2026-08-19",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "ALAB",
+      "ALAB",
+      "MNDY"
+     ]
+    },
+    {
+     "title": "ALAB vs. AVGO: Which AI Infrastructure Stock Is the Better Buy Now?",
+     "url": "https://www.nasdaq.com/articles/alab-vs-avgo-which-ai-infrastructure-stock-better-buy-now",
+     "date": "2026-08-18",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AVGO",
+      "ALAB"
+     ]
+    },
+    {
+     "title": "Why Astera Labs, Inc. (ALAB) Might be Well Poised for a Surge",
+     "url": "https://www.nasdaq.com/articles/why-astera-labs-inc-alab-might-be-well-poised-surge",
+     "date": "2026-08-17",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "ALAB"
+     ]
+    },
+    {
+     "title": "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth",
+     "url": "https://www.nasdaq.com/articles/top-ranked-alab-anet-set-thrive-ai-cloud-networking-growth",
+     "date": "2026-08-17",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "ANET",
+      "ALAB"
+     ]
+    },
+    {
+     "title": "Does Astera Labs, Inc. (ALAB) Have the Potential to Rally 30.45% as Wall Street Analysts Expect?",
+     "url": "https://www.nasdaq.com/articles/does-astera-labs-inc-alab-have-potential-rally-3045-wall-street-analysts-expect",
+     "date": "2026-08-14",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "ALAB"
+     ]
+    },
+    {
+     "title": "Here's Why You Should Retain Broadridge Stock in Your Portfolio",
+     "url": "https://www.nasdaq.com/articles/heres-why-you-should-retain-broadridge-stock-your-portfolio",
+     "date": "2026-08-18",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "BR",
+      "TWLO",
+      "ALAB"
+     ]
+    },
+    {
+     "title": "How to Find Strong Buy Computer and Technology Stocks Using the Zacks Rank",
+     "url": "https://www.nasdaq.com/articles/how-find-strong-buy-computer-and-technology-stocks-using-zacks-rank-3",
+     "date": "2026-08-17",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "ALAB"
+     ]
+    }
+   ],
+   "directCount": 6,
+   "total": 9,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "reportDate": "2026-08-04",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000033/alab-20260804.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-08",
+    "reportDate": "2026-06-04",
+    "items": [
+     "5.07"
+    ],
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000027/alab-20260604.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "reportDate": "2026-05-05",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000017/alab-20260505.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-10",
+    "reportDate": "2026-02-04",
+    "items": [
+     "5.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1736297/000110465926012649/tm265461d2_8k.htm",
+    "description": "FORM 8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-10",
+    "reportDate": "2026-02-10",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000005/alab-20260210.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-10",
+    "reportDate": "2026-02-05",
+    "items": [
+     "1.01",
+     "3.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "중요 계약 체결",
+     "3.02",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1736297/000110465926012606/tm265461d1_8k.htm",
+    "description": "FORM 8-K"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": [],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}
