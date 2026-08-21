@@ -1743,8 +1743,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.investing.com/equities/workday-inc-news",
                 "date": "2026-08-17",
                 "quote": "Media reports that Silver Lake may be interested in acquiring Workday could catalyse investor interest in...",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -1759,8 +1759,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.investing.com/equities/workday-inc-news",
                 "date": "2026-08-17",
                 "quote": "TD Cowen: 목표 주가를 $155에서 $220으로 인상하면서 중립(Hold) 유지",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               },
               {
                 "title": "ServiceNow, Adobe, Workday stocks get BofA PT boost: what's driving optimism",
@@ -1818,8 +1818,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.investing.com/equities/workday-inc-news",
                 "date": "2026-08-17",
                 "quote": "Deutsche Bank: 등급을 매수(Buy)에서 중립(Hold)으로 하향 조정하면서 목표 주가를 $220으로 상향",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -1866,8 +1866,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.investing.com/equities/workday-inc-news",
                 "date": "2026-08-17",
                 "quote": "Media reports that Silver Lake may be interested in acquiring Workday could catalyse investor interest in...",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           }
@@ -1886,8 +1886,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.investing.com/equities/workday-inc-news",
                   "date": "2026-08-17",
                   "quote": "TD Cowen: 목표 주가를 $155에서 $220으로 인상하면서 중립(Hold) 유지",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 403
                 }
               ]
             },
@@ -1902,8 +1902,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.investing.com/equities/workday-inc-news",
                   "date": "2026-08-17",
                   "quote": "Deutsche Bank: 등급을 매수(Buy)에서 중립(Hold)으로 하향 조정하면서 목표 주가를 $220으로 상향",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 403
                 }
               ]
             },
@@ -1918,8 +1918,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.investing.com/equities/workday-inc-news",
                   "date": "2026-08-19",
                   "quote": "Barclays: 목표 주가 $200으로 과체중(Overweight) 등급 유지 (8월 19일)",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 403
                 }
               ]
             },
@@ -3463,8 +3463,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.stocktitan.net/news/SNOW/snowflake-unlocks-better-ai-economics-with-dynamic-model-routing-r6poty9yaa6g.html",
                 "date": "2026-08-18",
                 "quote": "agents using dynamic model routing with Cortex AI Gateway built a dbt pipeline with up to 3x greater token efficiency",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 429
               }
             ]
           },
@@ -16800,8 +16800,8 @@ window.TEAM2_DATA = {
                 "url": "https://www.investing.com/news/analyst-ratings/stifel-raises-guidewire-stock-price-target-to-225-on-cloud-demand-93CH-4852203",
                 "date": "2026-08-11",
                 "quote": "Recent survey and channel work conducted by the firm indicates sustained cloud demand and market leadership for Guidewire.",
-                "verified": "ok",
-                "httpStatus": 200
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           },
@@ -16918,8 +16918,8 @@ window.TEAM2_DATA = {
                   "url": "https://www.investing.com/news/analyst-ratings/stifel-raises-guidewire-stock-price-target-to-225-on-cloud-demand-93CH-4852203",
                   "date": "2026-08-11",
                   "quote": "Recent survey and channel work conducted by the firm indicates sustained cloud demand and market leadership for Guidewire.",
-                  "verified": "ok",
-                  "httpStatus": 200
+                  "verified": "unverified",
+                  "httpStatus": 403
                 },
                 {
                   "title": "Oppenheimer Maintains Outperform on Guidewire Software, Raises Price Target to $200",

@@ -111,7 +111,7 @@
     },
     "PANW": {
       "last": "2026-08-21",
-      "count": 8
+      "count": 9
     },
     "TWLO": {
       "last": "2026-08-12",
@@ -127,7 +127,7 @@
     },
     "TEAM": {
       "last": "2026-08-21",
-      "count": 8
+      "count": 9
     },
     "CRWV": {
       "last": "2026-08-17",
@@ -139,7 +139,7 @@
     },
     "SNOW": {
       "last": "2026-08-21",
-      "count": 8
+      "count": 9
     },
     "WGS": {
       "last": "2026-08-20",
@@ -171,7 +171,7 @@
     },
     "MDB": {
       "last": "2026-08-21",
-      "count": 10
+      "count": 11
     },
     "SNDK": {
       "last": "2026-08-19",
@@ -183,7 +183,7 @@
     },
     "WDAY": {
       "last": "2026-08-21",
-      "count": 9
+      "count": 10
     },
     "FROG": {
       "last": "2026-08-20",
@@ -207,7 +207,7 @@
     },
     "BXC": {
       "last": "2026-08-21",
-      "count": 6
+      "count": 7
     },
     "SN": {
       "last": "2026-08-20",
@@ -259,11 +259,11 @@
     },
     "NBIS": {
       "last": "2026-08-21",
-      "count": 3
+      "count": 4
     },
     "MRVL": {
       "last": "2026-08-21",
-      "count": 3
+      "count": 4
     },
     "CTRN": {
       "last": "2026-08-18",
@@ -271,7 +271,7 @@
     },
     "EAT": {
       "last": "2026-08-21",
-      "count": 3
+      "count": 4
     },
     "ALNT": {
       "last": "2026-08-14",
@@ -283,11 +283,11 @@
     },
     "ALAB": {
       "last": "2026-08-21",
-      "count": 3
+      "count": 4
     },
     "AMD": {
       "last": "2026-08-21",
-      "count": 3
+      "count": 4
     },
     "DDOG": {
       "last": "2026-08-19",
@@ -331,7 +331,7 @@
     },
     "IT": {
       "last": "2026-08-21",
-      "count": 2
+      "count": 3
     },
     "AXON": {
       "last": "2026-08-19",
@@ -339,7 +339,7 @@
     },
     "PLTR": {
       "last": "2026-08-21",
-      "count": 3
+      "count": 4
     },
     "SHAZ": {
       "last": "2026-08-20",
@@ -363,31 +363,31 @@
     },
     "MANH": {
       "last": "2026-08-21",
-      "count": 1
+      "count": 2
     },
     "NOW": {
       "last": "2026-08-21",
-      "count": 1
+      "count": 2
     },
     "GWRE": {
       "last": "2026-08-21",
-      "count": 1
+      "count": 2
     },
     "RGEN": {
       "last": "2026-08-21",
-      "count": 1
+      "count": 2
     },
     "SYRE": {
       "last": "2026-08-21",
-      "count": 1
+      "count": 2
     },
     "MU": {
       "last": "2026-08-21",
-      "count": 1
+      "count": 2
     },
     "ZBRA": {
       "last": "2026-08-21",
-      "count": 1
+      "count": 2
     }
   },
   "team4": {
@@ -449,7 +449,7 @@
     },
     "SLMBP": {
       "last": "2026-08-21",
-      "count": 4
+      "count": 5
     },
     "HPE-C": {
       "last": "2026-08-13",
@@ -665,47 +665,47 @@
     },
     "BIO.B": {
       "last": "2026-08-21",
-      "count": 1
+      "count": 2
     },
     "AAP": {
       "last": "2026-08-21",
-      "count": 1
+      "count": 2
     },
     "VIRT": {
       "last": "2026-08-21",
-      "count": 1
+      "count": 2
     },
     "FUTU": {
       "last": "2026-08-21",
-      "count": 1
+      "count": 2
     },
     "NDSN": {
       "last": "2026-08-21",
-      "count": 1
+      "count": 2
     },
     "WMT": {
       "last": "2026-08-21",
-      "count": 1
+      "count": 2
     },
     "BJ": {
       "last": "2026-08-21",
-      "count": 1
+      "count": 2
     },
     "RYAAY": {
       "last": "2026-08-21",
-      "count": 1
+      "count": 2
     },
     "MTB": {
       "last": "2026-08-21",
-      "count": 1
+      "count": 2
     },
     "APD": {
       "last": "2026-08-21",
-      "count": 1
+      "count": 2
     },
     "GATX": {
       "last": "2026-08-21",
-      "count": 1
+      "count": 2
     }
   }
 }
