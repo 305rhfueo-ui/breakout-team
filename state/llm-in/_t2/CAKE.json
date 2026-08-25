@@ -1,0 +1,307 @@
+{
+ "ticker": "CAKE",
+ "sector": "Consumer Cyclical",
+ "industry": "Restaurants",
+ "nameKo": "치즈케익 팩토리",
+ "detail": {
+  "fetchedAt": "2026-08-25",
+  "nameKo": "치즈케익 팩토리",
+  "nameEn": "CHEESECAKE FACTORY",
+  "infomaxCode": "NAS:CAKE",
+  "financials": {
+   "ok": true,
+   "ticker": "CAKE",
+   "cik": "0000887596",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-04-01",
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1029633000,
+     "profit": 78608000,
+     "netIncome": 68394000,
+     "margin": 7.6,
+     "yoy": {
+      "revenue": 7.7,
+      "profit": 21.3,
+      "netIncome": 24.8,
+      "priorEnd": "2025-07-01"
+     }
+    },
+    {
+     "periodStart": "2025-12-31",
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 978833000,
+     "profit": 55045000,
+     "netIncome": 49548000,
+     "margin": 5.6,
+     "yoy": {
+      "revenue": 5.6,
+      "profit": 5.9,
+      "netIncome": 50.4,
+      "priorEnd": "2025-04-01"
+     }
+    },
+    {
+     "periodStart": "2025-09-30",
+     "periodEnd": "2025-12-30",
+     "derived": true,
+     "revenue": 961558000,
+     "profit": 33235000,
+     "netIncome": 28348000,
+     "margin": 3.5,
+     "yoy": {
+      "revenue": 4.4,
+      "profit": -28.7,
+      "netIncome": -31.5,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodStart": "2025-07-02",
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 907226000,
+     "profit": 37269000,
+     "netIncome": 31899000,
+     "margin": 4.1,
+     "yoy": {
+      "revenue": 4.8,
+      "profit": 10.6,
+      "netIncome": 6.4,
+      "priorEnd": "2024-10-01"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000887596&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "CAKE",
+   "items": [
+    {
+     "title": "Is The Cheesecake Factory (CAKE) Stock Outpacing Its Retail-Wholesale Peers This Year?",
+     "url": "https://www.nasdaq.com/articles/cheesecake-factory-cake-stock-outpacing-its-retail-wholesale-peers-year-0",
+     "date": "2026-08-24",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CAKE",
+      "DDS"
+     ]
+    },
+    {
+     "title": "Cheesecake Factory (CAKE) is a Top-Ranked Growth Stock: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/cheesecake-factory-cake-top-ranked-growth-stock-should-you-buy",
+     "date": "2026-08-21",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CAKE"
+     ]
+    },
+    {
+     "title": "Bull of the Day: The Cheesecake Factory (CAKE)",
+     "url": "https://www.nasdaq.com/articles/bull-day-cheesecake-factory-cake",
+     "date": "2026-08-21",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CAKE"
+     ]
+    },
+    {
+     "title": "A Cheesecake Factory Director Sells 1,958 Shares as the Stock Soars. Here's a Closer Look at the Transaction.",
+     "url": "https://www.nasdaq.com/articles/cheesecake-factory-director-sells-1958-shares-stock-soars-heres-closer-look-transaction",
+     "date": "2026-08-19",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CAKE",
+      "CAKE"
+     ]
+    },
+    {
+     "title": "3 Reasons Why Growth Investors Shouldn't Overlook Cheesecake Factory (CAKE)",
+     "url": "https://www.nasdaq.com/articles/3-reasons-why-growth-investors-shouldnt-overlook-cheesecake-factory-cake",
+     "date": "2026-08-19",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CAKE"
+     ]
+    },
+    {
+     "title": "Cheesecake Factory President Sells $3.5M Stock After 81% Rally -- Should Investors Beware?",
+     "url": "https://www.nasdaq.com/articles/cheesecake-factory-president-sells-35m-stock-after-81-rally-should-investors-beware",
+     "date": "2026-08-18",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CAKE",
+      "CAKE"
+     ]
+    },
+    {
+     "title": "Why Cheesecake Factory (CAKE) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-cheesecake-factory-cake-top-momentum-stock-long-term",
+     "date": "2026-08-18",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CAKE"
+     ]
+    },
+    {
+     "title": "What Other Restaurant Chains Should Learn From The Cheesecake Factory's Success",
+     "url": "https://www.nasdaq.com/articles/what-other-restaurant-chains-should-learn-cheesecake-factorys-success",
+     "date": "2026-08-16",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CAKE",
+      "CAKE"
+     ]
+    }
+   ],
+   "directCount": 9,
+   "total": 11,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "reportDate": "2026-07-23",
+    "items": [
+     "2.02",
+     "7.01",
+     "8.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926087561/tm2621325d1_8k.htm",
+    "description": "FORM 8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-03",
+    "reportDate": "2026-05-28",
+    "items": [
+     "5.07"
+    ],
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926070125/tm2616600d1_8k.htm",
+    "description": "FORM 8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-29",
+    "reportDate": "2026-04-23",
+    "items": [
+     "2.02",
+     "7.01",
+     "8.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926051574/tm2612833d1_8k.htm",
+    "description": "FORM 8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-31",
+    "reportDate": "2026-03-26",
+    "items": [
+     "1.01",
+     "2.03"
+    ],
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926037831/tm2610653d1_8k.htm",
+    "description": "FORM 8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-18",
+    "reportDate": "2026-02-12",
+    "items": [
+     "2.02",
+     "7.01",
+     "8.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926017090/tm266472d1_8k.htm",
+    "description": "FORM 8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-10-28",
+    "reportDate": "2025-10-22",
+    "items": [
+     "2.02",
+     "7.01",
+     "8.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465925103205/tm2529478d1_8k.htm",
+    "description": "FORM 8-K"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": [],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}

@@ -1,5 +1,5 @@
 {
- "date": "2026-08-21",
+ "date": "2026-08-25",
  "cap": 6,
  "industries": [
   {
@@ -13,18 +13,18 @@
     "m6": 8
    },
    "wrs": {
-    "m1": -0.0123,
-    "m3": 0.1239,
-    "m6": 1.1398
+    "m1": 0.047,
+    "m3": 0.0762,
+    "m6": 1.2334
    },
    "final": {
-    "m1": 0.0461,
-    "m3": 0.0994,
-    "m6": 0.5594
+    "m1": 0.1145,
+    "m3": 0.0361,
+    "m6": 0.5793
    },
    "rankPct": {
-    "m1": 69.06,
-    "m3": 20.86,
+    "m1": 30.43,
+    "m3": 36.23,
     "m6": 0.72
    },
    "members": [
@@ -36,45 +36,59 @@
    "memberNews": [
     {
      "ticker": "DELL",
-     "date": "2026-08-18",
+     "date": "2026-08-24",
      "publisher": "Zacks",
-     "title": "Bull of the Day: Dell (DELL)",
-     "url": "https://www.nasdaq.com/articles/bull-day-dell-dell"
+     "title": "Here's Why Dell Technologies (DELL) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-dell-technologies-dell-strong-momentum-stock-0"
     },
     {
      "ticker": "DELL",
-     "date": "2026-08-17",
+     "date": "2026-08-24",
      "publisher": "Zacks",
-     "title": "Dell Technologies (DELL) Is Up 8.16% in One Week: What You Should Know",
-     "url": "https://www.nasdaq.com/articles/dell-technologies-dell-816-one-week-what-you-should-know"
+     "title": "Is It Worth Investing in Dell Technologies (DELL) Based on Wall Street's Bullish Views?",
+     "url": "https://www.nasdaq.com/articles/it-worth-investing-dell-technologies-dell-based-wall-streets-bullish-views"
     },
     {
      "ticker": "DELL",
-     "date": "2026-08-13",
+     "date": "2026-08-23",
+     "publisher": "The Motley Fool",
+     "title": "Should You Buy Dell Stock Before the Huge Investor Update?",
+     "url": "https://www.nasdaq.com/articles/should-you-buy-dell-stock-huge-investor-update"
+    },
+    {
+     "ticker": "SNDK",
+     "date": "2026-08-24",
      "publisher": "Zacks",
-     "title": "Dell Technologies (DELL) Exceeds Market Returns: Some Facts to Consider",
-     "url": "https://www.nasdaq.com/articles/dell-technologies-dell-exceeds-market-returns-some-facts-consider"
+     "title": "Sandisk & 2 Profitable Stocks to Buy Now for Explosive Upside",
+     "url": "https://www.nasdaq.com/articles/sandisk-2-profitable-stocks-buy-now-explosive-upside"
     },
     {
      "ticker": "SNDK",
-     "date": "2026-08-19",
+     "date": "2026-08-24",
      "publisher": "The Motley Fool",
-     "title": "Sandisk Is Up More Than 35-Fold in a Year and Sits Nearly a Third Below Its Peak. History Says What Comes Next.",
-     "url": "https://www.nasdaq.com/articles/sandisk-more-35-fold-year-and-sits-nearly-third-below-its-peak-history-says-what-comes"
+     "title": "Why Sandisk Stock Dropped This Morning",
+     "url": "https://www.nasdaq.com/articles/why-sandisk-stock-dropped-morning"
     },
     {
      "ticker": "SNDK",
-     "date": "2026-08-18",
+     "date": "2026-08-24",
      "publisher": "The Motley Fool",
-     "title": "Palantir and Sandisk Stocks Are Soaring: Wall Street Says to Buy 1 and Avoid the Other",
-     "url": "https://www.nasdaq.com/articles/palantir-and-sandisk-stocks-are-soaring-wall-street-says-buy-1-and-avoid-other"
+     "title": "Sandisk Rode an Estimated 70% Jump in NAND Prices. TrendForce Sees 10% to 15% This Quarter.",
+     "url": "https://www.nasdaq.com/articles/sandisk-rode-estimated-70-jump-nand-prices-trendforce-sees-10-15-quarter"
     },
     {
-     "ticker": "SNDK",
-     "date": "2026-08-18",
-     "publisher": "The Motley Fool",
-     "title": "Up More Than 3,400% in the Past 12 Months, Here's Why Sandisk's Stock Could Still Go Higher",
-     "url": "https://www.nasdaq.com/articles/more-3400-past-12-months-heres-why-sandisks-stock-could-still-go-higher"
+     "ticker": "P",
+     "date": "2026-08-21",
+     "publisher": "Zacks",
+     "title": "Everpure Gears Up to Report Q2 Earnings: What Should You Know?",
+     "url": "https://www.nasdaq.com/articles/everpure-gears-report-q2-earnings-what-should-you-know"
+    },
+    {
+     "ticker": "P",
+     "date": "2026-08-21",
+     "publisher": "Zacks",
+     "title": "Unlocking Q2 Potential of Everpure (P): Exploring Wall Street Estimates for Key Metrics",
+     "url": "https://www.nasdaq.com/articles/unlocking-q2-potential-everpure-p-exploring-wall-street-estimates-key-metrics"
     },
     {
      "ticker": "P",
@@ -84,18 +98,18 @@
      "url": "https://www.nasdaq.com/articles/vnt-or-p-which-better-value-stock-right-now"
     },
     {
-     "ticker": "P",
-     "date": "2026-07-31",
+     "ticker": "STX",
+     "date": "2026-08-21",
      "publisher": "Zacks",
-     "title": "STX vs. P: Which Storage Stock Deserves a Spot in Your Portfolio?",
-     "url": "https://www.nasdaq.com/articles/stx-vs-p-which-storage-stock-deserves-spot-your-portfolio"
+     "title": "Can Sandisk's NAS Expansion Help It Challenge MU & STX?",
+     "url": "https://www.nasdaq.com/articles/can-sandisks-nas-expansion-help-it-challenge-mu-stx"
     },
     {
-     "ticker": "P",
-     "date": "2026-07-23",
+     "ticker": "STX",
+     "date": "2026-08-21",
      "publisher": "Zacks",
-     "title": "3 Reasons Growth Investors Will Love Everpure (P)",
-     "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-everpure-p"
+     "title": "Seagate vs. AMD: Which AI Infrastructure Stock Has the Edge?",
+     "url": "https://www.nasdaq.com/articles/seagate-vs-amd-which-ai-infrastructure-stock-has-edge"
     }
    ]
   },
@@ -110,19 +124,19 @@
     "m6": 7
    },
    "wrs": {
-    "m1": 0.1317,
-    "m3": 0.3987,
-    "m6": 0.6782
+    "m1": 0.1429,
+    "m3": 0.3988,
+    "m6": 0.6075
    },
    "final": {
-    "m1": 0.1132,
-    "m3": 0.2773,
-    "m6": 0.4177
+    "m1": 0.1176,
+    "m3": 0.2809,
+    "m6": 0.3824
    },
    "rankPct": {
-    "m1": 9.35,
+    "m1": 6.52,
     "m3": 0.72,
-    "m6": 1.44
+    "m6": 1.45
    },
    "members": [],
    "memberNews": []
@@ -138,22 +152,46 @@
     "m6": 8
    },
    "wrs": {
-    "m1": 0.3692,
-    "m3": 0.1482,
-    "m6": -0.0851
+    "m1": 0.4177,
+    "m3": 0.2142,
+    "m6": 0.0338
    },
    "final": {
-    "m1": 0.2863,
-    "m3": 0.1678,
-    "m6": -0.0266
+    "m1": 0.3142,
+    "m3": 0.1984,
+    "m6": 0.0875
    },
    "rankPct": {
     "m1": 0.72,
-    "m3": 14.39,
-    "m6": 87.05
+    "m3": 7.97,
+    "m6": 59.42
    },
-   "members": [],
-   "memberNews": []
+   "members": [
+    "AUGO"
+   ],
+   "memberNews": [
+    {
+     "ticker": "AUGO",
+     "date": "2026-08-19",
+     "publisher": "BNK Invest",
+     "title": "Wednesday 8/19 Insider Buying Report: AUGO, CODI",
+     "url": "https://www.nasdaq.com/articles/wednesday-8-19-insider-buying-report-augo-codi"
+    },
+    {
+     "ticker": "AUGO",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "title": "Aura Minerals (AUGO) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/aura-minerals-augo-q2-2026-earnings-call-transcript"
+    },
+    {
+     "ticker": "AUGO",
+     "date": "2026-08-06",
+     "publisher": "BNK Invest",
+     "title": "How To YieldBoost Aura Minerals From 4.7% To 24.2% Using Options",
+     "url": "https://www.nasdaq.com/articles/how-yieldboost-aura-minerals-47-242-using-options"
+    }
+   ]
   },
   {
    "key": "Basic Materials|Coking Coal",
@@ -166,50 +204,187 @@
     "m6": 2
    },
    "wrs": {
-    "m1": 0.3011,
-    "m3": 0.0794,
-    "m6": 0.2287
+    "m1": 0.3611,
+    "m3": 0.008,
+    "m6": 0.2735
    },
    "final": {
-    "m1": 0.0992,
-    "m3": 0.0445,
-    "m6": 0.0798
+    "m1": 0.1136,
+    "m3": 0.0153,
+    "m6": 0.0892
    },
    "rankPct": {
-    "m1": 1.44,
-    "m3": 33.09,
-    "m6": 12.23
+    "m1": 1.45,
+    "m3": 65.22,
+    "m6": 10.14
    },
-   "members": [],
-   "memberNews": []
+   "members": [
+    "AMR"
+   ],
+   "memberNews": [
+    {
+     "ticker": "AMR",
+     "date": "2026-08-22",
+     "publisher": "The Motley Fool",
+     "title": "Alpha Metallurgical Resources Director Courtis Buys $2.9 Million Shares. What Does This Mean for Investors?",
+     "url": "https://www.nasdaq.com/articles/alpha-metallurgical-resources-director-courtis-buys-29-million-shares-what-does-mean"
+    },
+    {
+     "ticker": "AMR",
+     "date": "2026-08-21",
+     "publisher": "BNK Invest",
+     "title": "Friday 8/21 Insider Buying Report: ET, AMR",
+     "url": "https://www.nasdaq.com/articles/friday-8-21-insider-buying-report-et-amr"
+    },
+    {
+     "ticker": "AMR",
+     "date": "2026-08-14",
+     "publisher": "The Motley Fool",
+     "title": "Alpha Metallurgical Resources (AMR) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/alpha-metallurgical-resources-amr-q2-2026-earnings-call-transcript"
+    }
+   ]
   },
   {
-   "key": "Healthcare|Diagnostics & Research",
+   "key": "Healthcare|Biotechnology",
    "sector": "Healthcare",
-   "industry": "Diagnostics & Research",
-   "count": 22,
+   "industry": "Biotechnology",
+   "count": 55,
    "counts": {
-    "m1": 22,
-    "m3": 22,
-    "m6": 22
+    "m1": 55,
+    "m3": 55,
+    "m6": 55
    },
    "wrs": {
-    "m1": 0.1115,
-    "m3": 0.3621,
-    "m6": 0.2495
+    "m1": 0.1883,
+    "m3": 0.3246,
+    "m6": 0.4194
    },
    "final": {
-    "m1": 0.2111,
-    "m3": 0.3835,
-    "m6": 0.3164
+    "m1": 0.2202,
+    "m3": 0.3372,
+    "m6": 0.4032
    },
    "rankPct": {
-    "m1": 12.23,
-    "m3": 1.44,
-    "m6": 10.07
+    "m1": 3.62,
+    "m3": 1.45,
+    "m6": 3.62
    },
-   "members": [],
-   "memberNews": []
+   "members": [
+    "MRNA",
+    "CORT",
+    "ORKA",
+    "MNPR",
+    "SYRE",
+    "TVTX"
+   ],
+   "memberNews": [
+    {
+     "ticker": "MRNA",
+     "date": "2026-08-19",
+     "publisher": "The Motley Fool",
+     "title": "Stock Market Today, Aug. 19: Moderna Skyrockets 177% on Positive Phase 3 Melanoma Data",
+     "url": "https://www.nasdaq.com/articles/stock-market-today-aug-19-moderna-skyrockets-177-positive-phase-3-melanoma-data"
+    },
+    {
+     "ticker": "MRNA",
+     "date": "2026-08-19",
+     "publisher": "Zacks",
+     "title": "Moderna or Merck: Which Soaring Cancer Vaccine Stock Is the Better Buy?",
+     "url": "https://www.nasdaq.com/articles/moderna-or-merck-which-soaring-cancer-vaccine-stock-better-buy"
+    },
+    {
+     "ticker": "MRNA",
+     "date": "2026-08-19",
+     "publisher": "The Motley Fool",
+     "title": "Moderna and Merck Just Made History With the First mRNA Cancer Vaccine to Succeed in a Phase 3 Trial. Here's What That Means for Investors.",
+     "url": "https://www.nasdaq.com/articles/moderna-and-merck-just-made-history-first-mrna-cancer-vaccine-succeed-phase-3-trial-heres"
+    },
+    {
+     "ticker": "CORT",
+     "date": "2026-08-05",
+     "publisher": "Zacks",
+     "title": "Why Corcept Therapeutics (CORT) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-corcept-therapeutics-cort-top-momentum-stock-long-term"
+    },
+    {
+     "ticker": "CORT",
+     "date": "2026-07-29",
+     "publisher": "Zacks",
+     "title": "Corcept Therapeutics (CORT) Q2 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/corcept-therapeutics-cort-q2-earnings-and-revenues-surpass-estimates"
+    },
+    {
+     "ticker": "CORT",
+     "date": "2026-07-29",
+     "publisher": "MarketBeat",
+     "title": "Corcept Therapeutics Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/corcept-therapeutics-q2-earnings-call-highlights"
+    },
+    {
+     "ticker": "ORKA",
+     "date": "2026-08-11",
+     "publisher": "RTTNews",
+     "title": "Oruka Q2 Net Loss Expands; Expects Phase 2 EVERLAST-A 28 Week Data Of ORKA-001 At The End Of Q3 2026",
+     "url": "https://www.nasdaq.com/articles/oruka-q2-net-loss-expands-expects-phase-2-everlast-28-week-data-orka-001-end-q3-2026"
+    },
+    {
+     "ticker": "ORKA",
+     "date": "2026-06-27",
+     "publisher": "The Motley Fool",
+     "title": "Oruka Stock Is Now Up Nearly 700%. Here's What a $687,000 Insider Sale Could Mean",
+     "url": "https://www.nasdaq.com/articles/oruka-stock-now-nearly-700-heres-what-687000-insider-sale-could-mean"
+    },
+    {
+     "ticker": "ORKA",
+     "date": "2026-06-24",
+     "publisher": "The Motley Fool",
+     "title": "Oruka Therapeutics' Head of Finance Sold Over 10,000 Company Shares. What Does That Mean for Investors?",
+     "url": "https://www.nasdaq.com/articles/oruka-therapeutics-head-finance-sold-over-10000-company-shares-what-does-mean-investors"
+    },
+    {
+     "ticker": "MNPR",
+     "date": "2026-08-20",
+     "publisher": "BNK Invest",
+     "title": "MNPR Crosses Above Average Analyst Target",
+     "url": "https://www.nasdaq.com/articles/mnpr-crosses-above-average-analyst-target"
+    },
+    {
+     "ticker": "MNPR",
+     "date": "2026-08-19",
+     "publisher": "RTTNews",
+     "title": "MNPR Names New Medical Affairs Head As ALXN1840 Advances Toward FDA Decision",
+     "url": "https://www.nasdaq.com/articles/mnpr-names-new-medical-affairs-head-alxn1840-advances-toward-fda-decision"
+    },
+    {
+     "ticker": "MNPR",
+     "date": "2026-08-12",
+     "publisher": "RTTNews",
+     "title": "Monopar Q2 Net Loss Widens; Rolling NDA Submission For ALXN1840 In Wilson Disease Underway",
+     "url": "https://www.nasdaq.com/articles/monopar-q2-net-loss-widens-rolling-nda-submission-alxn1840-wilson-disease-underway"
+    },
+    {
+     "ticker": "SYRE",
+     "date": "2026-08-06",
+     "publisher": "The Motley Fool",
+     "title": "Spyre's CEO Sold Stock, but Kept 567,000 Shares. Here's What Long-Term Investors Should Know",
+     "url": "https://www.nasdaq.com/articles/spyres-ceo-sold-stock-kept-567000-shares-heres-what-long-term-investors-should-know"
+    },
+    {
+     "ticker": "SYRE",
+     "date": "2026-08-06",
+     "publisher": "The Motley Fool",
+     "title": "A Spyre Executive Sold Stock After a 500% Run. Here's What Long-Term Investors Should Know",
+     "url": "https://www.nasdaq.com/articles/spyre-executive-sold-stock-after-500-run-heres-what-long-term-investors-should-know"
+    },
+    {
+     "ticker": "SYRE",
+     "date": "2026-08-05",
+     "publisher": "RTTNews",
+     "title": "Spyre Q2 Loss Narrows On $40 Mln Milestone Gains; Two Phase 2 Readouts Due In September 2026",
+     "url": "https://www.nasdaq.com/articles/spyre-q2-loss-narrows-40-mln-milestone-gains-two-phase-2-readouts-due-september-2026"
+    }
+   ]
   },
   {
    "key": "Technology|Electronics & Computer Distribution",
@@ -222,19 +397,19 @@
     "m6": 5
    },
    "wrs": {
-    "m1": 0.0151,
-    "m3": 0.0534,
-    "m6": 0.5021
+    "m1": -0.0038,
+    "m3": 0.0248,
+    "m6": 0.4876
    },
    "final": {
-    "m1": 0.0301,
-    "m3": 0.0681,
-    "m6": 0.252
+    "m1": 0.0104,
+    "m3": 0.0357,
+    "m6": 0.2543
    },
    "rankPct": {
-    "m1": 51.8,
-    "m3": 43.17,
-    "m6": 2.16
+    "m1": 61.59,
+    "m3": 56.52,
+    "m6": 2.17
    },
    "members": [],
    "memberNews": []

@@ -1,0 +1,200 @@
+{
+ "ticker": "BCPC",
+ "news": [
+  {
+   "title": "Balchem (BCPC) Q1 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/balchem-bcpc-q1-2026-earnings-transcript",
+   "date": "2026-04-30",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "BCPC",
+    "BCPC"
+   ]
+  },
+  {
+   "title": "Quaker Chemical (KWR) Q2 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/quaker-chemical-kwr-q2-earnings-and-revenues-surpass-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "KWR",
+    "BCPC"
+   ]
+  },
+  {
+   "title": "Sensient Technologies (SXT) Surpasses Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/sensient-technologies-sxt-surpasses-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-24",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "SXT",
+    "BCPC"
+   ]
+  },
+  {
+   "title": "BASFY and Bota Launch AI-Powered Collagen III for Personal Care",
+   "url": "https://www.nasdaq.com/articles/basfy-and-bota-launch-ai-powered-collagen-iii-personal-care",
+   "date": "2026-07-02",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "ALB",
+    "BCPC",
+    "ASM"
+   ]
+  },
+  {
+   "title": "BASFY Adds Certified Sulfite Grades to North American Portfolio",
+   "url": "https://www.nasdaq.com/articles/basfy-adds-certified-sulfite-grades-north-american-portfolio",
+   "date": "2026-05-22",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "CF",
+    "ALB",
+    "BCPC"
+   ]
+  },
+  {
+   "title": "BASFY Adds ReducedPCF TPU Solution to Reduce Carbon Footprint",
+   "url": "https://www.nasdaq.com/articles/basfy-adds-reducedpcf-tpu-solution-reduce-carbon-footprint",
+   "date": "2026-05-21",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "CF",
+    "ALB",
+    "BCPC"
+   ]
+  },
+  {
+   "title": "Are Options Traders Betting on a Big Move in Balchem Stock?",
+   "url": "https://www.nasdaq.com/articles/are-options-traders-betting-big-move-balchem-stock",
+   "date": "2026-05-19",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "BCPC"
+   ]
+  },
+  {
+   "title": "Balchem Corp. Reports Increase In Q1 Income",
+   "url": "https://www.nasdaq.com/articles/balchem-corp-reports-increase-q1-income",
+   "date": "2026-04-30",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "BCPC"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-31",
+   "reportDate": "2026-07-31",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/9326/000000932626000026/bcpc-20260731.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-27",
+   "reportDate": "2026-07-24",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/9326/000114036126029658/ef20078813_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-22",
+   "reportDate": "2026-06-18",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/9326/000114036126025971/ef20076533_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/9326/000000932626000016/bcpc-20260430.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-20",
+   "reportDate": "2026-02-20",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/9326/000000932626000004/bcpc-20260220.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-19",
+   "reportDate": "2026-02-12",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/9326/000114036126006184/ef20065786_8k.htm",
+   "description": "8-K"
+  }
+ ]
+}

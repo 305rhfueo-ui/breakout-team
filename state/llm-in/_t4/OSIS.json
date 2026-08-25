@@ -1,0 +1,199 @@
+{
+ "ticker": "OSIS",
+ "news": [
+  {
+   "title": "OSI Systems (OSIS) Q4 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/osi-systems-osis-q4-2026-earnings-call-transcript",
+   "date": "2026-08-21",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "OSIS",
+    "OSIS"
+   ]
+  },
+  {
+   "title": "Compared to Estimates, OSI (OSIS) Q4 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-osi-osis-q4-earnings-look-key-metrics",
+   "date": "2026-08-20",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "OSIS"
+   ]
+  },
+  {
+   "title": "OSI Systems (OSIS) Q4 Earnings Top Estimates",
+   "url": "https://www.nasdaq.com/articles/osi-systems-osis-q4-earnings-top-estimates",
+   "date": "2026-08-20",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "OSIS",
+    "PATH"
+   ]
+  },
+  {
+   "title": "Exploring Analyst Estimates for OSI (OSIS) Q4 Earnings, Beyond Revenue and EPS",
+   "url": "https://www.nasdaq.com/articles/exploring-analyst-estimates-osi-osis-q4-earnings-beyond-revenue-and-eps",
+   "date": "2026-08-17",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "OSIS"
+   ]
+  },
+  {
+   "title": "OSI Systems (OSIS) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/osi-systems-osis-earnings-expected-grow-should-you-buy",
+   "date": "2026-08-13",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "OSIS",
+    "FN"
+   ]
+  },
+  {
+   "title": "Wall Street Analysts See a 25.1% Upside in OSI (OSIS): Can the Stock Really Move This High?",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-251-upside-osi-osis-can-stock-really-move-high",
+   "date": "2026-08-11",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "OSIS"
+   ]
+  },
+  {
+   "title": "Why OSI Systems Seems Radioactive Today",
+   "url": "https://www.nasdaq.com/articles/why-osi-systems-seems-radioactive-today",
+   "date": "2026-08-21",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "OSIS",
+    "OSIS"
+   ]
+  },
+  {
+   "title": "OSI Systems Q4 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/osi-systems-q4-earnings-call-highlights",
+   "date": "2026-08-20",
+   "publisher": "MarketBeat",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "OSIS"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-20",
+   "reportDate": "2026-08-20",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1039065/000110465926099215/tm2623681d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-05-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1039065/000110465926054857/tm2613470d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-29",
+   "reportDate": "2026-01-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1039065/000110465926007970/tm264404d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-11",
+   "reportDate": "2025-12-11",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1039065/000110465925120300/tm2533277d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-20",
+   "reportDate": "2025-11-20",
+   "items": [
+    "1.01",
+    "2.03",
+    "3.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "3.02",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1039065/000110465925114644/tm2531837d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-18",
+   "reportDate": "2025-11-17",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1039065/000110465925113487/tm2531448d2_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ]
+}

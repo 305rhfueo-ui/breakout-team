@@ -1,0 +1,200 @@
+{
+ "ticker": "FCFS",
+ "news": [
+  {
+   "title": "FirstCash (FCFS) Upgraded to Buy: Here's What You Should Know",
+   "url": "https://www.nasdaq.com/articles/firstcash-fcfs-upgraded-buy-heres-what-you-should-know",
+   "date": "2026-07-09",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FCFS"
+   ]
+  },
+  {
+   "title": "Are Business Services Stocks Lagging  Acuity, Inc. (AYI) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-business-services-stocks-lagging-acuity-inc-ayi-year",
+   "date": "2026-08-18",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "AYI",
+    "FCFS"
+   ]
+  },
+  {
+   "title": "Has ESCO Technologies (ESE) Outpaced Other Business Services Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/has-esco-technologies-ese-outpaced-other-business-services-stocks-year",
+   "date": "2026-07-29",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "ESE",
+    "FCFS"
+   ]
+  },
+  {
+   "title": "FirstCash Holdings Authorized To Repurchase $150 Mln Of Shares",
+   "url": "https://www.nasdaq.com/articles/firstcash-holdings-authorized-repurchase-150-mln-shares",
+   "date": "2026-07-23",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "FCFS"
+   ]
+  },
+  {
+   "title": "FirstCash, Inc. Bottom Line Rises In Q2",
+   "url": "https://www.nasdaq.com/articles/firstcash-inc-bottom-line-rises-q2",
+   "date": "2026-07-23",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "FCFS"
+   ]
+  },
+  {
+   "title": "FirstCash Appoints CEO Rick Wessel As Executive Chairman",
+   "url": "https://www.nasdaq.com/articles/firstcash-appoints-ceo-rick-wessel-executive-chairman",
+   "date": "2026-07-22",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "FCFS"
+   ]
+  },
+  {
+   "title": "Is PYPL Stock Worth Retaining in Your Portfolio for the Long Run?",
+   "url": "https://www.nasdaq.com/articles/pypl-stock-worth-retaining-your-portfolio-long-run",
+   "date": "2026-07-10",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "PYPL",
+    "FCFS",
+    "CPAY"
+   ]
+  },
+  {
+   "title": "Is Corpay, Inc. (CPAY) Stock Outpacing Its Business Services Peers This Year?",
+   "url": "https://www.nasdaq.com/articles/corpay-inc-cpay-stock-outpacing-its-business-services-peers-year",
+   "date": "2026-07-09",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "CPAY",
+    "FCFS"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/840489/000084048926000087/fcfs-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/840489/000084048926000082/fcfs-20260723.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/840489/000084048926000080/fcfs-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-16",
+   "reportDate": "2026-07-16",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/840489/000110465926084072/tm2620535d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-23",
+   "reportDate": "2026-06-23",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/840489/000110465926076623/tm2618455d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-18",
+   "items": [
+    "3.03",
+    "5.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "3.03",
+    "5.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/840489/000110465926075855/tm2618096d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ]
+}

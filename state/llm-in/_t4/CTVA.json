@@ -1,0 +1,204 @@
+{
+ "ticker": "CTVA",
+ "news": [
+  {
+   "title": "DOLE vs. CTVA: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/dole-vs-ctva-which-stock-better-value-option",
+   "date": "2026-08-13",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DOLE",
+    "CTVA"
+   ]
+  },
+  {
+   "title": "Corteva (CTVA) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/corteva-ctva-q2-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "CTVA",
+    "CTVA"
+   ]
+  },
+  {
+   "title": "Are You Looking for a Top Momentum Pick? Why Corteva, Inc. (CTVA) is a Great Choice",
+   "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-corteva-inc-ctva-great-choice-0",
+   "date": "2026-07-31",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "CTVA"
+   ]
+  },
+  {
+   "title": "Corteva, Inc. (CTVA) Reports Q2 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/corteva-inc-ctva-reports-q2-earnings-what-key-metrics-have-say",
+   "date": "2026-07-30",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "CTVA"
+   ]
+  },
+  {
+   "title": "Corteva, Inc. (CTVA) Q2 Earnings Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/corteva-inc-ctva-q2-earnings-beat-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "CTVA",
+    "ADM"
+   ]
+  },
+  {
+   "title": "Can Higher Volumes Offset Mission Produce's Pricing Pressure?",
+   "url": "https://www.nasdaq.com/articles/can-higher-volumes-offset-mission-produces-pricing-pressure",
+   "date": "2026-08-24",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "AVO",
+    "DOLE",
+    "CTVA"
+   ]
+  },
+  {
+   "title": "Can Strategic Investments Boost Mission Produce's Returns?",
+   "url": "https://www.nasdaq.com/articles/can-strategic-investments-boost-mission-produces-returns",
+   "date": "2026-08-17",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "AVO",
+    "DOLE",
+    "CTVA"
+   ]
+  },
+  {
+   "title": "Corteva's Higher 2026 Guidance Puts Investor Focus on Growth Drivers",
+   "url": "https://www.nasdaq.com/articles/cortevas-higher-2026-guidance-puts-investor-focus-growth-drivers",
+   "date": "2026-08-12",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "CTVA",
+    "ADM",
+    "AGRO"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-20",
+   "reportDate": "2026-08-20",
+   "items": [
+    "1.01",
+    "3.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "3.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1755672/000119312526359264/d422495d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-20",
+   "reportDate": "2026-08-20",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1755672/000119312526358064/d161563d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-14",
+   "reportDate": "2026-08-14",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1755672/000119312526352659/d163420d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1755672/000119312526338406/d140402d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1755672/000175567226000022/ctva-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-29",
+   "reportDate": "2026-06-26",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1755672/000119312526288755/d145724d8k.htm",
+   "description": "8-K"
+  }
+ ]
+}
