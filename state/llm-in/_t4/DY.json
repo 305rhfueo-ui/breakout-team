@@ -1,0 +1,198 @@
+{
+ "ticker": "DY",
+ "news": [
+  {
+   "title": "November 20th Options Now Available For Dycom Industries (DY)",
+   "url": "https://www.nasdaq.com/articles/november-20th-options-now-available-dycom-industries-dy",
+   "date": "2026-08-25",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DY"
+   ]
+  },
+  {
+   "title": "Dycom Industries (DY) Earnings Expected to Grow: What to Know Ahead of Q2 Release",
+   "url": "https://www.nasdaq.com/articles/dycom-industries-dy-earnings-expected-grow-what-know-ahead-q2-release",
+   "date": "2026-08-12",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DY"
+   ]
+  },
+  {
+   "title": "Why Dycom Industries (DY) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-dycom-industries-dy-top-momentum-stock-long-term",
+   "date": "2026-08-05",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DY"
+   ]
+  },
+  {
+   "title": "Can EMCOR Extend Its Winning Streak With AI & Infrastructure Growth?",
+   "url": "https://www.nasdaq.com/articles/can-emcor-extend-its-winning-streak-ai-infrastructure-growth",
+   "date": "2026-08-19",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "EME",
+    "DY",
+    "FIX"
+   ]
+  },
+  {
+   "title": "Is Dycom's 13.4% EBITDA Margin Set for Another Profitability Lift?",
+   "url": "https://www.nasdaq.com/articles/dycoms-134-ebitda-margin-set-another-profitability-lift",
+   "date": "2026-08-18",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "DY",
+    "PWR",
+    "EME"
+   ]
+  },
+  {
+   "title": "Can Strategic Acquisitions Strengthen Dycom's Growth Prospects?",
+   "url": "https://www.nasdaq.com/articles/can-strategic-acquisitions-strengthen-dycoms-growth-prospects",
+   "date": "2026-08-07",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "DY",
+    "EME",
+    "MTZ"
+   ]
+  },
+  {
+   "title": "Is Quanta's Raised 2026 Outlook Just the Start of a Bigger Story?",
+   "url": "https://www.nasdaq.com/articles/quantas-raised-2026-outlook-just-start-bigger-story",
+   "date": "2026-08-06",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "PWR",
+    "ACM",
+    "DY"
+   ]
+  },
+  {
+   "title": "Tutor Perini (TPC) Q2 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/tutor-perini-tpc-q2-earnings-and-revenues-top-estimates",
+   "date": "2026-08-06",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "TPC",
+    "DY"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-25",
+   "reportDate": "2026-08-25",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000036/dy-20260825.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000032/dy-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-05-28",
+   "items": [
+    "5.02",
+    "5.07"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000028/dy-20260528.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-27",
+   "reportDate": "2026-05-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000023/dy-20260527.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-24",
+   "reportDate": "2026-03-24",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000011/dy-20260324.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-04",
+   "reportDate": "2026-03-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000004/dy-20260304.htm",
+   "description": "8-K"
+  }
+ ]
+}

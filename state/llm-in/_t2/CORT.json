@@ -4,7 +4,7 @@
  "industry": "Biotechnology",
  "nameKo": "코셉트 테라퓨틱스",
  "detail": {
-  "fetchedAt": "2026-08-18",
+  "fetchedAt": "2026-08-26",
   "nameKo": "코셉트 테라퓨틱스",
   "nameEn": "CORCEPT THERAPEUTICS INC",
   "infomaxCode": "NAS:CORT",
@@ -145,22 +145,10 @@
       "CORT",
       "DGX"
      ]
-    },
-    {
-     "title": "Corcept's CFO Set His Selling Plan the Month the Stock Fell 50% — Here's What Investors Should Know",
-     "url": "https://www.nasdaq.com/articles/corcepts-cfo-set-his-selling-plan-month-stock-fell-50-heres-what-investors-should-know",
-     "date": "2026-07-21",
-     "publisher": "The Motley Fool",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "CORT",
-      "CORT"
-     ]
     }
    ],
-   "directCount": 6,
-   "total": 6,
+   "directCount": 5,
+   "total": 5,
    "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
   },
   "filings": [

@@ -1,0 +1,209 @@
+{
+ "ticker": "UNF",
+ "news": [
+  {
+   "title": "UniFirst (UNF) Upgraded to Buy: Here's Why",
+   "url": "https://www.nasdaq.com/articles/unifirst-unf-upgraded-buy-heres-why",
+   "date": "2026-08-21",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "UNF"
+   ]
+  },
+  {
+   "title": "UniFirst (UNF) Is Up 1.00% in One Week: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/unifirst-unf-100-one-week-what-you-should-know-0",
+   "date": "2026-07-31",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "UNF"
+   ]
+  },
+  {
+   "title": "UniFirst (UNF) Q3 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/unifirst-unf-q3-earnings-and-revenues-surpass-estimates",
+   "date": "2026-07-01",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "UNF",
+    "PRLB"
+   ]
+  },
+  {
+   "title": "UNF Ex-Dividend Reminder - 6/5/26",
+   "url": "https://www.nasdaq.com/articles/unf-ex-dividend-reminder-6-5-26",
+   "date": "2026-06-04",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "UNF",
+    "UNF",
+    "ARB"
+   ]
+  },
+  {
+   "title": "Are Industrial Products Stocks Lagging  Lincoln Electric (LECO) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-industrial-products-stocks-lagging-lincoln-electric-leco-year",
+   "date": "2026-08-19",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "LECO",
+    "UNF"
+   ]
+  },
+  {
+   "title": "Are Industrial Products Stocks Lagging  Kaiser Aluminum (KALU) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-industrial-products-stocks-lagging-kaiser-aluminum-kalu-year",
+   "date": "2026-07-31",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "KALU",
+    "UNF"
+   ]
+  },
+  {
+   "title": "Cintas Keeps Beating Expectations—And the Story Isn’t Over",
+   "url": "https://www.nasdaq.com/articles/cintas-keeps-beating-expectations-and-story-isnt-over",
+   "date": "2026-07-16",
+   "publisher": "MarketBeat",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "CTAS",
+    "CTAS",
+    "UNF"
+   ]
+  },
+  {
+   "title": "Is GormanRupp (GRC) Stock Outpacing Its Industrial Products Peers This Year?",
+   "url": "https://www.nasdaq.com/articles/gormanrupp-grc-stock-outpacing-its-industrial-products-peers-year",
+   "date": "2026-07-03",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "GRC",
+    "UNF"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-01",
+   "reportDate": "2026-07-01",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/717954/000162828026046349/unf-20260701.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-11",
+   "items": [
+    "5.07",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/717954/000114036126025000/ef20075767_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-01",
+   "reportDate": "2026-04-01",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/717954/000119312526135782/unf-20260401.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-11",
+   "reportDate": "2026-03-10",
+   "items": [
+    "1.01",
+    "5.03",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "5.03",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/717954/000119312526101128/d55520d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-07",
+   "reportDate": "2026-01-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/717954/000119312526005469/unf-20260107.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-29",
+   "reportDate": "2025-12-29",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/717954/000119312525335335/unf-20251223.htm",
+   "description": "8-K"
+  }
+ ]
+}

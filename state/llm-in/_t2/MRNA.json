@@ -1,0 +1,228 @@
+{
+ "ticker": "MRNA",
+ "sector": "Healthcare",
+ "industry": "Biotechnology",
+ "nameKo": "모더나",
+ "detail": {
+  "fetchedAt": "2026-08-26",
+  "nameKo": "모더나",
+  "nameEn": "MODERNA INC",
+  "infomaxCode": "NAS:MRNA",
+  "financials": {
+   "ok": true,
+   "ticker": "MRNA",
+   "cik": "0001682852",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-04-01",
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 145000000,
+     "profit": -815000000,
+     "netIncome": -782000000,
+     "margin": -562.1,
+     "yoy": {
+      "revenue": 2.1,
+      "profit": 10.1,
+      "netIncome": 5.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodStart": "2026-01-01",
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 389000000,
+     "profit": -1388000000,
+     "netIncome": -1343000000,
+     "margin": -356.8,
+     "yoy": {
+      "revenue": 260.2,
+      "profit": -32.2,
+      "netIncome": -38.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodStart": "2025-09-30",
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 678000000,
+     "profit": -857000000,
+     "netIncome": -826000000,
+     "margin": -126.4,
+     "yoy": {
+      "revenue": -29.8,
+      "profit": 31.2,
+      "netIncome": 26.3,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodStart": "2025-07-01",
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1016000000,
+     "profit": -260000000,
+     "netIncome": -200000000,
+     "margin": -25.6,
+     "yoy": {
+      "revenue": -45.4,
+      "profit": -271.4,
+      "netIncome": -1638.5,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682852&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "MRNA",
+   "items": [
+    {
+     "title": "Moderna’s 177% Surge Has Investors Asking What Comes Next",
+     "url": "https://www.nasdaq.com/articles/modernas-177-surge-has-investors-asking-what-comes-next",
+     "date": "2026-08-21",
+     "publisher": "MarketBeat",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "MRNA",
+      "MRNA",
+      "MRK"
+     ]
+    }
+   ],
+   "directCount": 1,
+   "total": 1,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "reportDate": "2026-07-31",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000147/mrna-20260731.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-08",
+    "reportDate": "2026-07-06",
+    "items": [
+     "5.02",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000134/mrna-20260706.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-11",
+    "reportDate": "2026-05-06",
+    "items": [
+     "5.03",
+     "5.07",
+     "9.01"
+    ],
+    "itemsKo": [
+     "5.03",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000101/mrna-20260506.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-01",
+    "reportDate": "2026-05-01",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000057/mrna-20260501.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-05",
+    "reportDate": "2026-03-03",
+    "items": [
+     "1.01"
+    ],
+    "itemsKo": [
+     "중요 계약 체결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000047/mrna-20260303.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-13",
+    "reportDate": "2026-02-13",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000015/mrna-20260213.htm",
+    "description": "8-K"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "title": "[모더나 (NAS:MRNA)] mRNA 기반 암 치료제 최초 3상 성공",
+     "broker": "키움증권",
+     "analyst": "허혜민",
+     "date": "2026-08-21",
+     "summary": "- 코로나19 백신으로 mRNA 상업화에 성공한 바이오텍. mRNA 기반 암 치료제로는 세계 최초 3상 성공- 다만, 시장은 이미 흑색종 성공을 상당부분 선반영한 상태로 신장암, 방광암, 폐암 등 다른 암종으로 확장성에 주목",
+     "pages": "7",
+     "secureId": "eqlqgxkklglmlgzgcgxclgx",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqgxkklglmlgzgcgxclgx.pdf",
+     "opinion": null
+    }
+   ],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}

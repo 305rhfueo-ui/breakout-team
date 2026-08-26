@@ -1,0 +1,191 @@
+{
+ "ticker": "LOPE",
+ "news": [
+  {
+   "title": "How Much Upside is Left in Grand Canyon Education (LOPE)? Wall Street Analysts Think 35.23%",
+   "url": "https://www.nasdaq.com/articles/how-much-upside-left-grand-canyon-education-lope-wall-street-analysts-think-3523",
+   "date": "2026-08-17",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "LOPE"
+   ]
+  },
+  {
+   "title": "PRDO or LOPE: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/prdo-or-lope-which-better-value-stock-right-now",
+   "date": "2026-08-10",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "PRDO",
+    "LOPE"
+   ]
+  },
+  {
+   "title": "Grand Canyon Education (LOPE) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/grand-canyon-education-lope-q2-2026-earnings-call-transcript",
+   "date": "2026-07-31",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "LOPE",
+    "LOPE"
+   ]
+  },
+  {
+   "title": "Grand Canyon Education (LOPE) Surpasses Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/grand-canyon-education-lope-surpasses-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "LOPE",
+    "UTI"
+   ]
+  },
+  {
+   "title": "TAL or LOPE: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/tal-or-lope-which-better-value-stock-right-now-0",
+   "date": "2026-06-12",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "TAL",
+    "LOPE"
+   ]
+  },
+  {
+   "title": "Down 10.3% in 4 Weeks, Here's Why Grand Canyon Education (LOPE) Looks Ripe for a Turnaround",
+   "url": "https://www.nasdaq.com/articles/down-103-4-weeks-heres-why-grand-canyon-education-lope-looks-ripe-turnaround",
+   "date": "2026-05-28",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "LOPE"
+   ]
+  },
+  {
+   "title": "TAL or LOPE: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/tal-or-lope-which-better-value-stock-right-now",
+   "date": "2026-05-27",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "TAL",
+    "LOPE"
+   ]
+  },
+  {
+   "title": "EDU vs. LOPE: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/edu-vs-lope-which-stock-better-value-option",
+   "date": "2026-05-11",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "EDU",
+    "LOPE"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-24",
+   "reportDate": "2026-08-21",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1434588/000110465926100299/lope-20260821x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1434588/000110465926088669/lope-20260730x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-25",
+   "reportDate": "2026-06-22",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1434588/000110465926077768/lope-20260622x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-10",
+   "reportDate": "2026-06-10",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1434588/000110465926072325/lope-20260610x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "reportDate": "2026-06-02",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1434588/000110465926069570/lope-20260602x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1434588/000110465926052881/lope-20260430x8k.htm",
+   "description": "8-K"
+  }
+ ]
+}

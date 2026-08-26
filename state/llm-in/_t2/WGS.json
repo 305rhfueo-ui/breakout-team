@@ -1,0 +1,319 @@
+{
+ "ticker": "WGS",
+ "sector": "Healthcare",
+ "industry": "Diagnostics & Research",
+ "nameKo": "진DX 홀딩스",
+ "detail": {
+  "fetchedAt": "2026-08-26",
+  "nameKo": "진DX 홀딩스",
+  "nameEn": "GENEDX HOLDINGS CORP",
+  "infomaxCode": "NAS:WGS",
+  "financials": {
+   "ok": true,
+   "ticker": "WGS",
+   "cik": "0001818331",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-04-01",
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 114440000,
+     "profit": -17455000,
+     "netIncome": -17740000,
+     "margin": -15.3,
+     "yoy": {
+      "revenue": 11.4,
+      "profit": -294.8,
+      "netIncome": -264.1,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodStart": "2026-01-01",
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 102254000,
+     "profit": -57471000,
+     "netIncome": -63316000,
+     "margin": -56.2,
+     "yoy": {
+      "revenue": 17.4,
+      "profit": -1162.8,
+      "netIncome": -869.8,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodStart": "2025-09-30",
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 120989000,
+     "profit": -14235000,
+     "netIncome": -17645000,
+     "margin": -11.8,
+     "yoy": {
+      "revenue": 26.5,
+      "profit": -261.7,
+      "netIncome": -425.3,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodStart": "2025-07-01",
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 116743000,
+     "profit": -3251000,
+     "netIncome": -7635000,
+     "margin": -2.8,
+     "yoy": {
+      "revenue": 51.9,
+      "profit": 58.2,
+      "netIncome": 8.1,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001818331&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "WGS",
+   "items": [
+    {
+     "title": "GeneDx Study Supports Hospital-Wide Adoption Of Rapid Genome Sequencing In Pediatric Care",
+     "url": "https://www.nasdaq.com/articles/genedx-study-supports-hospital-wide-adoption-rapid-genome-sequencing-pediatric-care",
+     "date": "2026-08-24",
+     "publisher": "RTTNews",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "WGS"
+     ]
+    },
+    {
+     "title": "Can GENEDX HOLDINGS (WGS) Run Higher on Rising Earnings Estimates?",
+     "url": "https://www.nasdaq.com/articles/can-genedx-holdings-wgs-run-higher-rising-earnings-estimates",
+     "date": "2026-08-19",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "WGS"
+     ]
+    },
+    {
+     "title": "GeneDx (WGS) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/genedx-wgs-q2-2026-earnings-call-transcript",
+     "date": "2026-08-11",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "WGS",
+      "WGS"
+     ]
+    },
+    {
+     "title": "GeneDx Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/genedx-q2-earnings-call-highlights",
+     "date": "2026-08-03",
+     "publisher": "MarketBeat",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "WGS"
+     ]
+    },
+    {
+     "title": "GeneDx Holdings Corp. (WGS) Q2 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/genedx-holdings-corp-wgs-q2-earnings-and-revenues-surpass-estimates",
+     "date": "2026-08-03",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "WGS",
+      "VTRS"
+     ]
+    },
+    {
+     "title": "What a $227,000 GeneDx Insider Sale Means as Revenue Climbs 17%",
+     "url": "https://www.nasdaq.com/articles/what-227000-genedx-insider-sale-means-revenue-climbs-17",
+     "date": "2026-06-23",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "WGS",
+      "WGS"
+     ]
+    },
+    {
+     "title": "Hedge Funder Eli Casdin Is Loading up on GeneDx Shares",
+     "url": "https://www.nasdaq.com/articles/hedge-funder-eli-casdin-loading-genedx-shares",
+     "date": "2026-06-11",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "WGS",
+      "WGS"
+     ]
+    },
+    {
+     "title": "Is GeneDx Stock a Buys After a Company Director Purchased Over 350,000 Shares?",
+     "url": "https://www.nasdaq.com/articles/genedx-stock-buys-after-company-director-purchased-over-350000-shares",
+     "date": "2026-05-21",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "WGS",
+      "WGS"
+     ]
+    }
+   ],
+   "directCount": 9,
+   "total": 12,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-03",
+    "reportDate": "2026-08-03",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1818331/000162828026051852/wgs-20260803.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-23",
+    "reportDate": "2026-06-18",
+    "items": [
+     "5.07"
+    ],
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1818331/000162828026044806/wgs-20260618.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-16",
+    "reportDate": "2026-06-15",
+    "items": [
+     "5.02",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1818331/000162828026043431/wgs-20260615.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-04",
+    "reportDate": "2026-05-04",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1818331/000181833126000039/wgs-20260504.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-02",
+    "reportDate": "2026-02-27",
+    "items": [
+     "1.01",
+     "1.02",
+     "2.03"
+    ],
+    "itemsKo": [
+     "중요 계약 체결",
+     "1.02",
+     "2.03"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1818331/000181833126000021/wgs-20260227.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-23",
+    "reportDate": "2026-02-23",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1818331/000181833126000014/wgs-20260223.htm",
+    "description": "8-K"
+   }
+  ],
+  "krReports": {
+   "total": 2,
+   "reports": [
+    {
+     "title": "[진DX 홀딩스 (NAS:WGS)] 대 AI 시대, 유전자를 읽어라",
+     "broker": "키움증권",
+     "analyst": "신민수",
+     "date": "2026-02-27",
+     "summary": "- WGS(전장 유전체 시퀀싱) 기술 기반 희귀 질환 진단, 신약 개발까지 노리는 기업- 보험 지역 확장에 따른 Q 증가, 보험 지급률 상승 및 매출 믹스 개선으로 P 상승- 지난 1월 기대치 하회하는 가이던스 제시 있었으나 목표 달성에는 무리 없는 상황",
+     "pages": "7",
+     "secureId": "eqqgezeeieeimxmgcgxclgx",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgezeeieeimxmgcgxclgx.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[진DX 홀딩스 (NAS:WGS)] 여전히 기대되는 성장 가능성",
+     "broker": "iM증권",
+     "analyst": "정재원",
+     "date": "2025-09-12",
+     "summary": "- 2분기 동사는 1억달러의 매출을 기록했으며 전년동기 대비 49%  성장하는 호실적을 달성했다- 향후  기대되는  시너지는  동사가  확보한  75만건  이상  누적된  희귀질환  유전체 데이터셋과  Fabric이  가진  해석  플랫폼을  통해  새로운  비즈니스  모델  및  신규 시장 진출이 용이할 것으로 전망한다- 현재 Fabric 플랫폼은 interpretation-as-a-service 모델로 해석 기술의 고도화를 동사의  데이터셋을  통해  이끌어낼  수  있을  것으로  기대된다",
+     "pages": "6",
+     "secureId": "eqzqxigeiizkxlxgcgxclgx",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzqxigeiizkxlxgcgxclgx.pdf",
+     "opinion": null
+    }
+   ],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}

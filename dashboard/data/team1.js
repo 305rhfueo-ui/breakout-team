@@ -477,8 +477,325 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-08-26",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "유가 3% 급락 — 미국이 이란에 '전쟁' 대신 '경제 압박'을 택했다",
+        "easy": "미국이 이란을 상대로 군사 충돌 대신 경제 제재(돈줄을 조여서 압박하는 방식)를 쓰기로 방향을 틀었습니다. 시장은 '전쟁이 나서 호르무즈 해협(중동 원유가 지나가는 좁은 바닷길)이 막힐지도 모른다'는 공포로 기름값을 미리 올려놓고 있었는데, 그 공포가 빠지면서 유가가 3% 넘게 떨어졌습니다. 소방차가 출동했다가 '불이 아니라 연기였다'며 돌아간 상황과 비슷합니다. 다만 이란은 '넓어진 미국 제재에 맞설 준비가 완전히 돼 있다'고 맞받아쳤기 때문에 불씨가 완전히 꺼진 건 아닙니다. 기름값이 내리면 물류·항공·제조 비용이 같이 내려가고, 물가 부담이 줄어 주식시장에는 보통 우호적입니다.",
+        "whyMatters": "유가 하락은 원가 부담이 큰 Basic Materials(소재, 현재 주도주의 14%인 7종목)에 직접적인 비용 절감 요인이라 이 그룹의 마진 스토리를 강화합니다. 반대로 에너지 관련 종목을 들고 있다면 매출 단가가 눌리는 역풍입니다. 물가 압력이 줄면 금리 부담이 완화돼 밸류에이션이 높은 Technology(32%, 16종목) 쪽에도 간접적으로 순풍이 됩니다. 다만 제재가 확대되는 국면이라 유가는 언제든 되돌릴 수 있는 변동성 재료라는 점은 기억해야 합니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Oil drops more than 3% as U.S. shifts to economic pressure on Iran, easing fears of renewed war",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/25/oil-prices-iran-trump-hormuz.html",
+            "date": "2026-08-25",
+            "quote": "Oil drops more than 3% as U.S. shifts to economic pressure on Iran, easing fears of renewed war",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Iran says it is 'fully prepared' to counter widened US economic sanctions",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-08-25",
+            "quote": "Iran says it is 'fully prepared' to counter widened US economic sanctions",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Who does Iran trade with and what could Trump's 'economic D-Day' mean?",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cqxvj1zd4qjo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-08-25",
+            "quote": "Who does Iran trade with and what could Trump's 'economic D-Day' mean?",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "캐나다가 미국산 약 200억 달러어치에 보복관세 — 무역전쟁이 이웃집까지",
+        "easy": "캐나다가 미국 제품 약 200억 달러(약 27조 원)어치에 보복관세를 매기겠다고 발표했습니다. 관세는 수입품에 붙이는 세금인데, 미국이 먼저 관세를 올리자 캐나다도 '그럼 우리도'라며 되받아친 겁니다. 놀이터에서 한 아이가 밀자 다른 아이도 미는 것과 같아서, 결국 양쪽 다 물건값이 비싸집니다. 캐나다는 미국의 최대 교역 상대 중 하나라서 자동차·농산물·소비재처럼 국경을 자주 넘나드는 제품일수록 타격이 큽니다. 기업 입장에서는 원가가 오르고, 소비자 입장에서는 물건값이 오르는 이중 부담이 생깁니다.",
+        "whyMatters": "국경을 넘나드는 원자재와 중간재를 다루는 Basic Materials(주도주 14%, 7종목)가 관세 리스크에 가장 직접적으로 노출됩니다. 캐나다 소비자를 상대하거나 북미 공급망에 의존하는 Consumer Cyclical(6%, 3종목) 역시 마진이 눌릴 수 있어, 이 그룹의 돌파 종목은 관세 헤드라인 하나에 갭하락이 나올 수 있는 구간입니다. 반대로 매출이 대부분 국내·디지털에서 나오는 Technology나 Healthcare는 상대적 방어력이 있습니다. 지금은 관세 뉴스가 나올 때마다 섹터별로 종목이 갈리는 장이라, 포지션의 매출 지역 구성을 한 번 확인해 둘 필요가 있습니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Canada unveils retaliatory tariffs on about $20 billion of U.S. goods",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/25/canada-trump-tariffs-trade-carney-leblanc.html",
+            "date": "2026-08-25",
+            "quote": "Canada unveils retaliatory tariffs on about $20 billion of U.S. goods",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "드러켄밀러 등 거물들 \"베센트의 국채 묘수는 통하지 않는다\"",
+        "easy": "전설적인 투자자 스탠리 드러켄밀러를 포함한 시장 거물들이 재무장관 베센트의 국채 발행 전략에 공개적으로 회의감을 나타냈습니다. 국채는 정부가 돈을 빌리려고 발행하는 차용증인데, 정부는 이자 부담을 줄이려고 만기가 짧은 차용증 위주로 발행하는 식의 '기술'을 씁니다. 이건 마치 카드값이 부담스러워 리볼빙으로 미루는 것과 비슷해서, 당장은 편하지만 나중에 금리가 오르면 더 큰 고지서가 돌아옵니다. 시장 거물들이 이걸 못 미덥다고 말하면 장기 금리(돈을 오래 빌릴 때의 이자)가 올라갈 수 있습니다. 금리는 주식의 '중력' 같은 것이라, 오르면 특히 미래 이익으로 평가받는 성장주가 무거워집니다.",
+        "whyMatters": "장기금리가 오르면 밸류에이션이 높은 Technology(주도주 32%, 16종목)와 이익이 먼 미래에 몰린 Healthcare 바이오 계열(34%, 17종목)이 먼저 눌립니다. 지금 QQQ가 종가 710.72로 MA10(719.17) 아래에 있고 10MA 기울기가 -0.51%로 꺾인 상태라, 금리 재료는 이 둔화를 더 굳힐 수 있는 방향입니다. 게다가 마진부채 YoY +38.6%로 레버리지가 확대된 국면이어서 금리 충격이 오면 강제 청산 압력이 붙기 쉽습니다. 신규 진입 강도를 줄이고 손절 라인을 타이트하게 두는 게 합리적인 구간입니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Stanley Druckenmiller leads doubters who think Bessent's bond ploys will fail",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/25/stanley-druckenmiller-leads-doubters-who-think-bessents-bond-ploys-will-fail.html",
+            "date": "2026-08-25",
+            "quote": "Stanley Druckenmiller leads doubters who think Bessent's bond ploys will fail",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "선거까지 10주 — 시장이 부채한도와 2026 중간선거를 보기 시작했다",
+        "easy": "미국 중간선거가 약 10주 앞으로 다가오면서 시장이 정치를 가격에 반영하기 시작했습니다. 여기에 '부채한도'(정부가 빌릴 수 있는 돈의 법적 상한선)라는 문제가 얽혀 있는데, 이건 정부 신용카드의 한도 같은 겁니다. 한도를 못 올리면 정부가 지출을 못 하게 되고, 그 협상이 길어질수록 시장은 불안해합니다. 지금까지는 '선거는 아직 멀었다'며 무시했지만, 날짜가 가까워지면 정책이 바뀔 가능성(세금·규제·지출)이 실제 실적 추정에 반영되기 시작합니다. 즉, 앞으로 몇 주 동안은 뉴스 하나에 지수가 흔들리는 날이 늘어날 수 있습니다.",
+        "whyMatters": "정책 변동성은 규제 민감도가 큰 Healthcare(주도주 34%, 17종목)에 가장 크게 걸립니다 — 약가·보험 정책은 선거 국면의 단골 재료이고, 현재 주도주 비중이 가장 높은 그룹이라 포트폴리오 전체가 이 한 축에 쏠려 있을 위험이 있습니다. 정부 지출·재정 이슈는 인프라·소재 수요 기대와도 연결돼 Basic Materials(14%)의 방향성을 흔들 수 있습니다. 지수 레벨에서 헤드라인 변동성이 커지는 구간이므로, 개별 종목 돌파가 지수 급락에 함께 무너지는 '가짜 돌파'가 늘어날 수 있습니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Here's why markets are starting to care about the 2026 election 10 weeks out",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/25/trump-debt-ceiling-markets-midterm-election.html",
+            "date": "2026-08-25",
+            "quote": "Here's why markets are starting to care about the 2026 election 10 weeks out",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "AMD, 데이터센터 CPU에서 인텔·엔비디아를 이길 수 있다는 분석",
+        "easy": "AMD가 데이터센터용 CPU(서버 컴퓨터의 두뇌 역할을 하는 반도체) 시장에서 인텔과 엔비디아를 앞설 수 있다는 분석이 나왔습니다. AI 붐 때문에 데이터센터가 계속 지어지는데, 데이터센터에는 계산을 빠르게 하는 GPU만 필요한 게 아니라 전체를 지휘하는 CPU도 반드시 들어갑니다. 축구팀에 비유하면 GPU가 골 넣는 공격수라면 CPU는 경기 전체를 조율하는 미드필더인데, 지금까지는 공격수 이야기만 시장의 주목을 받았습니다. AMD가 그 '미드필더' 자리를 인텔로부터 계속 뺏어오고 있다는 게 이 분석의 핵심입니다. 즉 AI 투자의 수혜가 GPU 한 종목 바깥으로 넓어질 수 있다는 이야기입니다.",
+        "whyMatters": "이건 Technology(주도주 32%, 16종목) 안에서 돈이 어디로 흐르는지를 바꾸는 재료입니다 — 같은 AI 테마라도 리더십이 GPU 단일 축에서 CPU·서버 부품 쪽으로 확산되면, AI 인프라 관련 반도체 종목의 돌파 시도가 늘어납니다. 반대로 이미 크게 오른 GPU 대장주 하나에만 몰빵돼 있다면 상대적 수익률이 뒤처질 위험이 있습니다. 다만 200일선 대비 +150%를 넘긴 종목이 2개나 있다는 건 이 테마의 일부가 이미 과열 구간이라는 뜻이라, 신규 진입은 눌림 확인 후가 안전합니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Why AMD can beat rivals Intel and Nvidia in the market for data-center CPUs",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/why-amd-can-beat-rivals-intel-and-nvidia-in-the-market-for-data-center-cpus-e49a53f1?mod=mw_rss_topstories",
+            "date": "2026-08-25",
+            "quote": "Why AMD can beat rivals Intel and Nvidia in the market for data-center CPUs",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "메타 주가 50% 상승 가능성 — 시장이 놓치고 있는 AI 카드",
+        "easy": "메타(페이스북·인스타그램 모회사) 주가가 아직 시장이 제대로 반영하지 않은 AI 요소 덕분에 50%까지 오를 수 있다는 분석이 나왔습니다. 메타는 AI에 어마어마한 돈을 쓰고 있어서 그동안 '비용만 늘어나는 회사'로 취급받는 구간이 있었습니다. 그런데 이 분석은 그 투자가 광고를 더 잘 맞춰주는 방식으로 돈을 벌어다 줄 수 있다고 봅니다. 밭에 비료를 잔뜩 뿌린 농부를 보고 '돈만 쓴다'고 할지, '가을에 수확이 클 것'이라고 볼지의 차이입니다. 어느 쪽이 맞는지는 결국 실적에서 갈립니다.",
+        "whyMatters": "이 논리가 시장에 먹히면 'AI = 비용 폭탄'이라는 프레임이 'AI = 매출 증가'로 바뀌면서 Technology(주도주 32%, 16종목) 전반의 밸류에이션 부담이 완화됩니다. 특히 AI 지출이 큰 대형 플랫폼주에 자금이 다시 들어오면 QQQ 자체의 기울기 회복에도 도움이 됩니다. 다만 이건 애널리스트의 전망이지 확정된 실적이 아니므로, 실제 매수 근거는 차트가 MA10(719.17) 위로 회복되는지 등 가격 확인에 둬야 합니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Why Meta's stock could see a 50% rally, thanks to an overlooked AI wild card",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/why-metas-stock-could-see-a-50-rally-thanks-to-an-overlooked-ai-wild-card-28cea54b?mod=mw_rss_topstories",
+            "date": "2026-08-25",
+            "quote": "Why Meta's stock could see a 50% rally, thanks to an overlooked AI wild card",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "오픈AI 데이터센터 총괄 크리스 말론 이탈 — 임원 줄퇴사 행렬",
+        "easy": "오픈AI의 데이터센터 총괄인 크리스 말론이 회사를 떠났고, 이는 최근 이어지고 있는 임원 이탈 행렬의 가장 최근 사례입니다. 데이터센터는 AI를 돌리는 거대한 컴퓨터 창고인데, 이걸 짓고 운영하는 책임자가 바뀐다는 건 AI 확장 계획의 실행 담당자가 교체된다는 뜻입니다. 큰 건물을 짓는 도중에 현장소장이 바뀌는 상황과 비슷해서, 공사가 멈추진 않아도 일정이 흔들릴 수 있습니다. 오픈AI는 상장사가 아니라 직접 사고팔 수는 없지만, 이 회사의 투자 계획이 수많은 상장 부품·전력 회사의 매출로 연결됩니다. 그래서 이 소식은 'AI 투자 속도'에 대한 불확실성 신호로 읽힙니다.",
+        "whyMatters": "AI 데이터센터 건설 속도는 Technology(주도주 32%, 16종목) 중 반도체·서버·인프라 종목의 실적 전망을 떠받치는 축입니다. 실행 리더십이 흔들린다는 헤드라인은 이 축의 확신도를 떨어뜨려 관련 종목의 조정 빌미가 될 수 있습니다. 여기에 마진부채 YoY +38.6%라는 레버리지 확대 환경이 겹치면, AI 테마에 빚을 얹어 들어간 자금이 먼저 흔들릴 수 있습니다. 방향성만 보자면 단기 심리에는 부정적이지만, 실제 투자 계획 축소가 확인된 사안은 아니라는 점은 구분해야 합니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "OpenAI data center chief Chris Malone is out, the latest in a string of executive exits",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/25/openais-head-of-data-centers-chris-malone-is-out-in-latest-exec-exit.html",
+            "date": "2026-08-25",
+            "quote": "OpenAI data center chief Chris Malone is out, the latest in a string of executive exits",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "딕스 스포팅굿즈 사상 최악의 하루 — 신발 업계 전체로 번진 충격",
+        "easy": "미국 대형 스포츠용품 소매업체 딕스 스포팅굿즈 주가가 사상 최악의 하락을 기록했고, 그 충격이 다른 신발 대기업들에까지 번졌습니다. 이유는 소비자들이 레트로 스니커즈(예전 디자인을 되살린 운동화)에 흥미를 잃어서, 더 깊게 할인해 주지 않으면 팔리지 않는다는 것이었습니다. 옷장에 이미 비슷한 신발이 세 켤레 있으면 네 번째는 반값이 아니면 안 사는 것과 같은 상황입니다. 할인을 많이 해서 팔면 매출은 그럭저럭 나와도 이익은 얇아집니다. 소매업체 한 곳의 실적이 아니라 '소비자가 지갑을 닫고 있다'는 신호로 읽히기 때문에 업계 전체가 같이 빠진 겁니다.",
+        "whyMatters": "이건 Consumer Cyclical(경기소비재, 주도주 6%인 3종목)에 직접적인 경고입니다 — 재량 소비(꼭 필요하지 않은 소비)가 약해지면 이 그룹의 돌파 종목은 실적 발표 하루에 몇십 퍼센트가 날아갈 수 있습니다. 주도주 구성에서 이 섹터 비중이 이미 6%로 얇다는 사실 자체가 시장이 소비재를 리더로 인정하지 않고 있다는 방증입니다. 반대로 수요가 경기에 덜 흔들리는 Healthcare(34%, 17종목)에 자금이 계속 머무는 배경 설명이 되기도 합니다. 소비재 쪽 신규 진입은 지금 우선순위를 낮추는 게 맞습니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Dick's Sporting Goods' epic drop hits other footwear giants, as shoppers sour on retro sneakers",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/dicks-sporting-goods-stock-is-having-its-worst-day-ever-as-sneakers-arent-selling-without-deeper-discounts-5a868358?mod=mw_rss_topstories",
+            "date": "2026-08-25",
+            "quote": "Dick's Sporting Goods' epic drop hits other footwear giants, as shoppers sour on retro sneakers",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "스페이스X, 루이지애나에 1,000억 달러 규모 우주기지 건설 계획",
+        "easy": "스페이스X가 루이지애나주에 1,000억 달러(약 135조 원) 규모의 우주기지(스페이스포트, 로켓을 쏘아 올리는 발사 기지)를 짓겠다고 발표했습니다. 기사에 따르면 이는 '지금까지는 공상과학에나 존재하던' 머스크의 구상을 실제로 짓는 것입니다. 이 정도 규모의 건설 프로젝트는 로켓 회사 하나의 이야기가 아니라, 철강·콘크리트·전력·중장비 같은 실물 산업의 대규모 발주로 이어집니다. 도시 하나를 새로 짓는 것과 비슷한 크기라고 보면 됩니다. 다만 발표와 실제 착공·집행 사이에는 시차가 크다는 점은 감안해야 합니다.",
+        "whyMatters": "초대형 건설 발주는 Basic Materials(소재, 주도주 14%인 7종목)의 수요 스토리를 강화하는 방향입니다 — 이 섹터가 이미 주도주 명단에 7종목이나 올라와 있다는 건 자금이 실물·인프라 쪽으로 이동 중이라는 신호와 맞물립니다. 산업 전력 수요가 늘어난다는 점에서 발전·전력 인프라 관련 종목에도 우호적인 방향입니다. 스페이스X는 비상장이라 직접 살 수 없으므로, 수혜는 어디까지나 자재·전력·건설 밸류체인에 상장된 회사들을 통해 간접적으로 나타납니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "SpaceX plans to build a $100 billion spaceport in Louisiana",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/25/spacex-louisiana-spaceport.html",
+            "date": "2026-08-25",
+            "quote": "SpaceX plans to build a $100 billion spaceport in Louisiana",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "SpaceX to build Musk's vision for a spaceport that until now 'only existed in science fiction'",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/spacex-to-build-musks-vision-for-a-spaceport-that-until-now-only-existed-in-science-fiction-f8482712?mod=mw_rss_topstories",
+            "date": "2026-08-25",
+            "quote": "SpaceX to build Musk's vision for a spaceport that until now 'only existed in science fiction'",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "비트코인 채굴하던 크립토 기업들, AI로 갈아탄다",
+        "easy": "비트코인을 캐던 암호화폐 기업들이 AI 쪽으로 사업을 옮기고 있습니다. 이유는 단순합니다 — 이 회사들은 이미 전기를 대량으로 끌어다 쓰는 거대한 컴퓨터 창고와 전력 계약을 갖고 있는데, 지금은 그 설비를 AI 계산에 빌려주는 게 코인을 캐는 것보다 돈이 더 되기 때문입니다. 금광에서 곡괭이질하던 사람들이 옆 동네에 더 좋은 금맥이 생기자 장비를 통째로 옮기는 것과 같습니다. 이 흐름은 AI 컴퓨팅 수요가 얼마나 강한지를 보여주는 동시에, 전력이 AI 시대의 진짜 병목이라는 사실을 알려줍니다. 실제로 스페인·포르투갈에서는 기업들이 배터리 전력 확보에 뛰어들고 있다는 소식도 함께 나왔습니다.",
+        "whyMatters": "전력과 컴퓨팅 설비가 돈이 되는 자원이 되면, Technology(주도주 32%, 16종목) 안에서 데이터센터·전력 인프라 관련 종목의 이익 전망이 개선되는 방향입니다. 동시에 발전 설비·배터리·송전에 들어가는 원자재 수요는 Basic Materials(14%, 7종목)와도 연결됩니다. 반대로 비트코인 채굴 매출에만 의존하는 순수 크립토 종목은 사업 모델이 흔들릴 수 있어 방향이 갈립니다. 테마 자체는 우호적이지만 개별 종목의 전환 성공 여부는 확인된 바 없으므로 중립으로 봅니다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "AI gold rush draws crypto firms away from Bitcoin",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c07ler8x9kpo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-08-25",
+            "quote": "AI gold rush draws crypto firms away from Bitcoin",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Firms scramble for battery power in Spain and Portugal",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cjrg10j721jo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-08-25",
+            "quote": "Firms scramble for battery power in Spain and Portugal",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "오늘 시장은 \"위험은 줄었는데 힘도 같이 빠진\" 애매한 자리에 있습니다. 중동 쪽에서는 미국이 이란에 군사 충돌 대신 경제 압박을 택하면서 유가가 3% 넘게 빠졌고, 이건 물가와 비용 부담을 덜어주는 좋은 소식입니다. 하지만 캐나다가 미국산 약 200억 달러어치에 보복관세를 매기겠다고 나섰고, 드러켄밀러 같은 거물들이 재무부의 국채 전략을 대놓고 의심하고 있으며, 중간선거가 10주 앞으로 다가오면서 정책 불확실성이 동시에 쌓이고 있습니다. 차트로 보면 QQQ는 종가 710.72로 여전히 정배열(단기선이 장기선 위에 있는 상승 대형)이지만 MA10(719.17) 아래로 내려와 있고 10MA 기울기가 -0.51%로 꺾였습니다 — 즉 방향은 위쪽인데 엔진 출력이 줄어든 상태라 진입 강도를 축소해야 하는 국면입니다. 주도권은 Healthcare 17종목(34%)과 Technology 16종목(32%)이 양분하고 있고, 소재가 7종목(14%)으로 뒤를 받치는 반면 경기소비재는 3종목(6%)에 그쳐 딕스 스포팅굿즈의 사상 최악 급락과 맞물리며 소비 약세를 확인시켜 줍니다. 무엇보다 FINRA 고객 마진부채가 YoY +38.6%로 위험 기준선인 +30%를 넘겼다는 점 — 빚을 내서 산 자금이 많다는 뜻이라, 지수가 조금만 흔들려도 낙폭이 커지기 쉬운 바닥 위에 서 있다는 걸 잊으면 안 됩니다.",
+    "keyRisks": [
+      "마진부채 YoY +38.6%로 위험선(+30%)을 넘김 — 빚으로 산 물량이 많아 작은 하락이 강제 청산을 부르며 낙폭을 키울 수 있는 구조",
+      "QQQ가 종가 710.72로 MA10(719.17) 아래 이탈, 10MA 기울기 -0.51%로 둔화 — 정배열은 유지 중이나 돌파 성공률이 떨어지는 구간이므로 신규 진입 강도 축소 필요",
+      "캐나다의 약 200억 달러 보복관세로 무역 마찰 재점화 — 북미 공급망에 걸린 소재(주도주 14%)·경기소비재(6%) 종목의 원가·마진 리스크",
+      "드러켄밀러 등의 국채 전략 회의론 → 장기금리 상승 시 밸류에이션 높은 Technology(32%)·Healthcare 바이오(34%)가 먼저 눌림",
+      "중간선거 10주 전 + 부채한도 이슈로 정책 헤드라인 변동성 확대 — 규제 민감도가 큰 Healthcare가 주도주의 34%를 차지해 쏠림 위험이 큼",
+      "딕스 스포팅굿즈 사상 최악 급락이 신발 업계 전반으로 확산 — 재량 소비 둔화가 확인되며 경기소비재 신규 진입 우선순위 하향",
+      "오픈AI 데이터센터 총괄 이탈 등 임원 줄퇴사 — AI 인프라 투자 집행 속도에 대한 불확실성이 반도체·서버 관련 종목 심리에 부담",
+      "200일선 대비 +150%를 넘긴 종목이 2개 — 일부 주도주가 이미 과열 구간이라 추격 매수 시 되돌림 위험",
+      "이란이 '완전히 대비돼 있다'며 맞대응 예고 — 유가 하락은 되돌릴 수 있는 변동성 재료이며 제재 확대 시 재급등 가능"
+    ],
+    "easySummary": [
+      "기름값이 3% 넘게 떨어져 물가 부담은 줄었지만, 캐나다 보복관세·국채 전략 회의론·중간선거 불확실성이 동시에 쌓이면서 시장은 좋은 소식과 나쁜 소식이 맞붙은 상태입니다.",
+      "QQQ는 종가 710.72로 여전히 정배열(상승 대형)이지만 MA10(719.17) 아래로 내려왔고 기울기가 -0.51%로 꺾여서, 방향은 위쪽인데 힘은 빠진 '조심 운전' 구간입니다.",
+      "빚내서 투자한 돈(마진부채)이 1년 전보다 +38.6% 늘어 위험선(+30%)을 넘었으니, 새로 들어가는 금액을 줄이고 손절 라인을 미리 정해두는 것이 지금 가장 중요합니다."
+    ],
+    "candidateCount": 18,
+    "verified": {
+      "checked": 222,
+      "ok": 276,
+      "unverified": 42,
+      "dead": 0,
+      "stripped": 5,
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://www.stocktitan.net/news/INBX/inhibrx-reports-second-quarter-2026-financial-6b0f3z0y4y5w.html"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136825000052/mp-20251106.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.marketbeat.com/instant-alerts/zacks-research-issues-positive-estimate-for-glaukos-earnings-2026-08-21/"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026053346/sndk-20260805.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.barchart.com/story/news/3562573/why-analysts-are-raising-their-seagate-stock-price-targets-left-and-right"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-seagate-technology-stock-sliding-today-93CH-4842763"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1434588/000110465926100299/lope-20260821x8k.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318484/000110465926100524/tm2623924d1_8k.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.investing.com/news/earnings/citi-trends-beats-estimates-but-stock-slips-on-guidance-concerns-93CH-4875049"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000036/dy-20260825.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/semtech-smtc-q2-earnings-revenues-211502936.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/semtech-smtc-q2-earnings-revenues-211502936.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-25-semtech-nasdaqsmtc-delivers-impressive-q2-inventory-levels-improve"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000028/smtc-20260825.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1023024/000102302426000071/ani-20260819.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.blocksandfiles.com/ai-ml/2026/05/29/dells-extraordinary-ai-server-revenue-acceleration/5248541"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.theregister.com/on-prem/2026/02/20/ai-blamed-again-as-hard-drives-are-sold-out-for-this-year/4285453"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.gold.org/news-and-events/press-releases/central-banks-set-step-gold-buying-over-next-year"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.indexbox.io/blog/global-coking-coal-prices-diverge-in-early-august/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://lifesciencedaily.news/biotech-ma-2026-every-1b-deal-so-far-and-what-is-driving-them/"
+        }
+      ],
+      "noQuote": 8
+    },
+    "reusedFrom": null
   }
 };

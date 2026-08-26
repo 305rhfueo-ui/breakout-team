@@ -1,0 +1,204 @@
+{
+ "ticker": "ANIP",
+ "news": [
+  {
+   "title": "Should You Buy ANIP as Low Valuation Meets Cortrophin Execution Risk?",
+   "url": "https://www.nasdaq.com/articles/should-you-buy-anip-low-valuation-meets-cortrophin-execution-risk",
+   "date": "2026-08-14",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ANIP",
+    "REGN",
+    "ABBV"
+   ]
+  },
+  {
+   "title": "ANIP's Cortrophin Guidance Cut Raises the Bar for Second-Half Growth",
+   "url": "https://www.nasdaq.com/articles/anips-cortrophin-guidance-cut-raises-bar-second-half-growth",
+   "date": "2026-08-14",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ANIP",
+    "REGN",
+    "ABBV"
+   ]
+  },
+  {
+   "title": "ANI Pharmaceuticals (ANIP) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/ani-pharmaceuticals-anip-q2-2026-earnings-call-transcript",
+   "date": "2026-08-14",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ANIP",
+    "ANIP"
+   ]
+  },
+  {
+   "title": "ANIP Tops Q2 Earnings, Stock Down on Cortrophin Sales View Cut",
+   "url": "https://www.nasdaq.com/articles/anip-tops-q2-earnings-stock-down-cortrophin-sales-view-cut",
+   "date": "2026-08-10",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ANIP",
+    "LQDA",
+    "HRMY"
+   ]
+  },
+  {
+   "title": "Compared to Estimates, ANI (ANIP) Q2 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-ani-anip-q2-earnings-look-key-metrics",
+   "date": "2026-08-07",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ANIP"
+   ]
+  },
+  {
+   "title": "ANI Pharmaceuticals (ANIP) Q2 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/ani-pharmaceuticals-anip-q2-earnings-and-revenues-beat-estimates",
+   "date": "2026-08-07",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ANIP",
+    "CDXS"
+   ]
+  },
+  {
+   "title": "ANI Pharmaceuticals (ANIP) Reports Next Week: Wall Street Expects Earnings Growth",
+   "url": "https://www.nasdaq.com/articles/ani-pharmaceuticals-anip-reports-next-week-wall-street-expects-earnings-growth-0",
+   "date": "2026-07-31",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ANIP",
+    "SRPT"
+   ]
+  },
+  {
+   "title": "ANI Pharmaceuticals Q2 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/ani-pharmaceuticals-q2-earnings-call-highlights",
+   "date": "2026-08-07",
+   "publisher": "MarketBeat",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "ANIP"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-24",
+   "reportDate": "2026-08-19",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1023024/000102302426000071/ani-20260819.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-07",
+   "reportDate": "2026-08-07",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1023024/000102302426000068/ani-20260807.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1023024/000102302426000056/ani-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-13",
+   "reportDate": "2026-05-13",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1023024/000102302426000054/ani-20260513.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-08",
+   "reportDate": "2026-05-08",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1023024/000102302426000049/ani-20260508.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-07",
+   "reportDate": "2026-04-01",
+   "items": [
+    "4.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "4.01",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1023024/000102302426000034/ani-20260401.htm",
+   "description": "8-K"
+  }
+ ]
+}

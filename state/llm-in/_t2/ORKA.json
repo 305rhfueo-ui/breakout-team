@@ -4,7 +4,7 @@
  "industry": "Biotechnology",
  "nameKo": "오루카 테라퓨틱스",
  "detail": {
-  "fetchedAt": "2026-08-18",
+  "fetchedAt": "2026-08-26",
   "nameKo": "오루카 테라퓨틱스",
   "nameEn": "ORUKA THERAPEUTICS INC",
   "infomaxCode": "NAS:ORKA",
@@ -90,6 +90,17 @@
    "ticker": "ORKA",
    "items": [
     {
+     "title": "Show Me The Money: ORKA Makes A Splash With A 500%+ Gain; More Catalysts Ahead",
+     "url": "https://www.nasdaq.com/articles/show-me-money-orka-makes-splash-500-gain-more-catalysts-ahead",
+     "date": "2026-08-21",
+     "publisher": "RTTNews",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "ORKA"
+     ]
+    },
+    {
      "title": "Oruka Q2 Net Loss Expands; Expects Phase 2 EVERLAST-A 28 Week Data Of ORKA-001 At The End Of Q3 2026",
      "url": "https://www.nasdaq.com/articles/oruka-q2-net-loss-expands-expects-phase-2-everlast-28-week-data-orka-001-end-q3-2026",
      "date": "2026-08-11",
@@ -145,48 +156,29 @@
      "tickers": [
       "ORKA"
      ]
-    },
-    {
-     "title": "An Oruka Therapeutics (ORKA) Insider Sold 105,000 Shares Worth $6.2 Million",
-     "url": "https://www.nasdaq.com/articles/oruka-therapeutics-orka-insider-sold-105000-shares-worth-62-million",
-     "date": "2026-05-31",
-     "publisher": "The Motley Fool",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "ORKA",
-      "ORKA"
-     ]
-    },
-    {
-     "title": "Oruka Therapeutics (ORKA) Price Target Increased by 50.51% to 138.41",
-     "url": "https://www.nasdaq.com/articles/oruka-therapeutics-orka-price-target-increased-5051-13841",
-     "date": "2026-05-14",
-     "publisher": "Fintel",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "ORKA"
-     ]
-    },
-    {
-     "title": "Why This Biotech Fund Increased Its Oruka Therapeutics Stake Amid a Staggering 500% Rally",
-     "url": "https://www.nasdaq.com/articles/why-biotech-fund-increased-its-oruka-therapeutics-stake-amid-staggering-500-rally",
-     "date": "2026-05-13",
-     "publisher": "The Motley Fool",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "ORKA",
-      "ORKA"
-     ]
     }
    ],
-   "directCount": 8,
-   "total": 8,
+   "directCount": 6,
+   "total": 6,
    "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
   },
   "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-24",
+    "reportDate": "2026-08-24",
+    "items": [
+     "5.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026093021/ea0302923-8k_oruka.htm",
+    "description": "CURRENT REPORT"
+   },
    {
     "form": "8-K",
     "filingDate": "2026-08-10",
@@ -267,22 +259,6 @@
     ],
     "isEarnings": false,
     "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026047743/ea0287782-8k_oruka.htm",
-    "description": "CURRENT REPORT"
-   },
-   {
-    "form": "8-K",
-    "filingDate": "2025-12-11",
-    "reportDate": "2025-12-11",
-    "items": [
-     "5.02",
-     "9.01"
-    ],
-    "itemsKo": [
-     "임원 변동",
-     "재무제표·첨부"
-    ],
-    "isEarnings": false,
-    "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390025120676/ea0268925-8k_oruka.htm",
     "description": "CURRENT REPORT"
    }
   ],
