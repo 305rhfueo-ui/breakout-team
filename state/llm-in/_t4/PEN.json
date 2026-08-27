@@ -1,0 +1,199 @@
+{
+ "ticker": "PEN",
+ "news": [
+  {
+   "title": "TFX or PEN: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/tfx-or-pen-which-better-value-stock-right-now",
+   "date": "2026-08-26",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "TFX",
+    "PEN"
+   ]
+  },
+  {
+   "title": "TFX vs. PEN: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/tfx-vs-pen-which-stock-better-value-option",
+   "date": "2026-08-10",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "TFX",
+    "PEN"
+   ]
+  },
+  {
+   "title": "IQV vs. PEN: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/iqv-vs-pen-which-stock-better-value-option",
+   "date": "2026-07-14",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "IQV",
+    "PEN"
+   ]
+  },
+  {
+   "title": "GMED vs. PEN: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/gmed-vs-pen-which-stock-should-value-investors-buy-now",
+   "date": "2026-06-22",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "GMED",
+    "PEN"
+   ]
+  },
+  {
+   "title": "GMED or PEN: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/gmed-or-pen-which-better-value-stock-right-now",
+   "date": "2026-06-05",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "GMED",
+    "PEN"
+   ]
+  },
+  {
+   "title": "Why Is Penumbra (PEN) Down 1.2% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-penumbra-pen-down-12-last-earnings-report",
+   "date": "2026-06-05",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "PEN",
+    "IQV"
+   ]
+  },
+  {
+   "title": "Penumbra (PEN) Misses Q1 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/penumbra-pen-misses-q1-earnings-estimates",
+   "date": "2026-05-06",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "PEN",
+    "DRIO"
+   ]
+  },
+  {
+   "title": "ALC vs. PEN: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/alc-vs-pen-which-stock-should-value-investors-buy-now",
+   "date": "2026-05-05",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ALC",
+    "PEN"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321732/000132173226000036/pen-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-22",
+   "reportDate": "2026-06-18",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321732/000132173226000030/pen-20260618.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-06",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321732/000132173226000024/pen-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321732/000132173226000018/pen-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-25",
+   "reportDate": "2026-02-25",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321732/000132173226000006/pen-20260225.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-15",
+   "reportDate": "2026-01-14",
+   "items": [
+    "1.01",
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321732/000095010326000523/dp240008_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ]
+}

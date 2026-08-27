@@ -2,6 +2,29 @@
  "ticker": "DY",
  "news": [
   {
+   "title": "Dycom Industries (DY) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/dycom-industries-dy-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-08-26",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DY"
+   ]
+  },
+  {
+   "title": "Dycom Industries (DY) Q2 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/dycom-industries-dy-q2-earnings-and-revenues-top-estimates",
+   "date": "2026-08-26",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DY",
+    "MTRX"
+   ]
+  },
+  {
    "title": "November 20th Options Now Available For Dycom Industries (DY)",
    "url": "https://www.nasdaq.com/articles/november-20th-options-now-available-dycom-industries-dy",
    "date": "2026-08-25",
@@ -24,12 +47,12 @@
    ]
   },
   {
-   "title": "Why Dycom Industries (DY) is a Top Momentum Stock for the Long-Term",
-   "url": "https://www.nasdaq.com/articles/why-dycom-industries-dy-top-momentum-stock-long-term",
-   "date": "2026-08-05",
-   "publisher": "Zacks",
+   "title": "Dycom Industries Authorizes New $150 Mln Share Repurchase Program",
+   "url": "https://www.nasdaq.com/articles/dycom-industries-authorizes-new-150-mln-share-repurchase-program",
+   "date": "2026-08-26",
+   "publisher": "RTTNews",
    "tier1": false,
-   "direct": true,
+   "direct": false,
    "tickers": [
     "DY"
    ]
@@ -72,34 +95,25 @@
     "EME",
     "MTZ"
    ]
-  },
-  {
-   "title": "Is Quanta's Raised 2026 Outlook Just the Start of a Bigger Story?",
-   "url": "https://www.nasdaq.com/articles/quantas-raised-2026-outlook-just-start-bigger-story",
-   "date": "2026-08-06",
-   "publisher": "Zacks",
-   "tier1": false,
-   "direct": false,
-   "tickers": [
-    "PWR",
-    "ACM",
-    "DY"
-   ]
-  },
-  {
-   "title": "Tutor Perini (TPC) Q2 Earnings and Revenues Top Estimates",
-   "url": "https://www.nasdaq.com/articles/tutor-perini-tpc-q2-earnings-and-revenues-top-estimates",
-   "date": "2026-08-06",
-   "publisher": "Zacks",
-   "tier1": false,
-   "direct": false,
-   "tickers": [
-    "TPC",
-    "DY"
-   ]
   }
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-26",
+   "reportDate": "2026-08-26",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000039/dy-20260826.htm",
+   "description": "8-K"
+  },
   {
    "form": "8-K",
    "filingDate": "2026-08-25",
@@ -176,22 +190,6 @@
    ],
    "isEarnings": false,
    "url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000011/dy-20260324.htm",
-   "description": "8-K"
-  },
-  {
-   "form": "8-K",
-   "filingDate": "2026-03-04",
-   "reportDate": "2026-03-04",
-   "items": [
-    "2.02",
-    "9.01"
-   ],
-   "itemsKo": [
-    "실적 발표",
-    "재무제표·첨부"
-   ],
-   "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000004/dy-20260304.htm",
    "description": "8-K"
   }
  ]

@@ -1,5 +1,5 @@
 {
- "date": "2026-08-26",
+ "date": "2026-08-27",
  "cap": 6,
  "industries": [
   {
@@ -13,47 +13,68 @@
     "m6": 8
    },
    "wrs": {
-    "m1": 0.1555,
-    "m3": 0.0046,
-    "m6": 1.1986
+    "m1": 0.25,
+    "m3": -0.023,
+    "m6": 1.2966
    },
    "final": {
-    "m1": 0.1678,
-    "m3": 0.0179,
-    "m6": 0.5753
+    "m1": 0.2314,
+    "m3": -0.0061,
+    "m6": 0.6228
    },
    "rankPct": {
-    "m1": 6.52,
-    "m3": 66.67,
+    "m1": 3.6,
+    "m3": 79.86,
     "m6": 0.72
    },
    "members": [
     "DELL",
-    "SNDK",
     "P",
+    "SNDK",
     "STX"
    ],
    "memberNews": [
     {
      "ticker": "DELL",
-     "date": "2026-08-25",
-     "publisher": "The Motley Fool",
-     "title": "Dell Technologies vs. UiPath: Which Technology Stock Is a Better Buy in 2026?",
-     "url": "https://www.nasdaq.com/articles/dell-technologies-vs-uipath-which-technology-stock-better-buy-2026"
+     "date": "2026-08-26",
+     "publisher": "Zacks",
+     "title": "Dell Technologies (DELL) Advances While Market Declines: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/dell-technologies-dell-advances-while-market-declines-some-information-investors"
+    },
+    {
+     "ticker": "DELL",
+     "date": "2026-08-26",
+     "publisher": "Zacks",
+     "title": "Zacks.com featured highlights Seagate Technology, Western Digital and Dell",
+     "url": "https://www.nasdaq.com/articles/zackscom-featured-highlights-seagate-technology-western-digital-and-dell"
     },
     {
      "ticker": "DELL",
      "date": "2026-08-25",
-     "publisher": "Zacks",
-     "title": "Dell Technologies (DELL) Earnings Expected to Grow: Should You Buy?",
-     "url": "https://www.nasdaq.com/articles/dell-technologies-dell-earnings-expected-grow-should-you-buy"
+     "publisher": "MarketBeat",
+     "title": "Dell Technologies Says Agentic AI Will Redefine Work, Infrastructure and Security",
+     "url": "https://www.nasdaq.com/articles/dell-technologies-says-agentic-ai-will-redefine-work-infrastructure-and-security"
     },
     {
-     "ticker": "DELL",
-     "date": "2026-08-24",
+     "ticker": "P",
+     "date": "2026-08-26",
      "publisher": "Zacks",
-     "title": "Here's Why Dell Technologies (DELL) is a Strong Momentum Stock",
-     "url": "https://www.nasdaq.com/articles/heres-why-dell-technologies-dell-strong-momentum-stock-0"
+     "title": "Compared to Estimates, Everpure (P) Q2 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-everpure-p-q2-earnings-look-key-metrics"
+    },
+    {
+     "ticker": "P",
+     "date": "2026-08-26",
+     "publisher": "Zacks",
+     "title": "Everpure (P) Beats Q2 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/everpure-p-beats-q2-earnings-and-revenue-estimates"
+    },
+    {
+     "ticker": "P",
+     "date": "2026-08-26",
+     "publisher": "RTTNews",
+     "title": "Everpure, Inc. Q2 Profit Climbs",
+     "url": "https://www.nasdaq.com/articles/everpure-inc-q2-profit-climbs"
     },
     {
      "ticker": "SNDK",
@@ -77,46 +98,25 @@
      "url": "https://www.nasdaq.com/articles/heres-why-sandisk-corporation-sndk-strong-momentum-stock"
     },
     {
-     "ticker": "P",
-     "date": "2026-08-25",
+     "ticker": "STX",
+     "date": "2026-08-26",
      "publisher": "Zacks",
-     "title": "SCSC vs. P: Which Stock Is the Better Value Option?",
-     "url": "https://www.nasdaq.com/articles/scsc-vs-p-which-stock-better-value-option"
+     "title": "3 Growth Stocks to Buy as Treasury Yields Fall: MU, STX & VLO",
+     "url": "https://www.nasdaq.com/articles/3-growth-stocks-buy-treasury-yields-fall-mu-stx-vlo"
     },
     {
-     "ticker": "P",
-     "date": "2026-08-21",
+     "ticker": "STX",
+     "date": "2026-08-26",
      "publisher": "Zacks",
-     "title": "Everpure Gears Up to Report Q2 Earnings: What Should You Know?",
-     "url": "https://www.nasdaq.com/articles/everpure-gears-report-q2-earnings-what-should-you-know"
-    },
-    {
-     "ticker": "P",
-     "date": "2026-08-21",
-     "publisher": "Zacks",
-     "title": "Unlocking Q2 Potential of Everpure (P): Exploring Wall Street Estimates for Key Metrics",
-     "url": "https://www.nasdaq.com/articles/unlocking-q2-potential-everpure-p-exploring-wall-street-estimates-key-metrics"
+     "title": "Zacks.com featured highlights Seagate Technology, Western Digital and Dell",
+     "url": "https://www.nasdaq.com/articles/zackscom-featured-highlights-seagate-technology-western-digital-and-dell"
     },
     {
      "ticker": "STX",
      "date": "2026-08-25",
-     "publisher": "Zacks",
-     "title": "Seagate & 2 Momentum Stocks to Buy Now for Explosive Upside",
-     "url": "https://www.nasdaq.com/articles/seagate-2-momentum-stocks-buy-now-explosive-upside"
-    },
-    {
-     "ticker": "STX",
-     "date": "2026-08-25",
-     "publisher": "The Motley Fool",
-     "title": "Western Digital vs. Seagate Technology: Which Data Storage Stock Is the Better Buy?",
-     "url": "https://www.nasdaq.com/articles/western-digital-vs-seagate-technology-which-data-storage-stock-better-buy"
-    },
-    {
-     "ticker": "STX",
-     "date": "2026-08-21",
-     "publisher": "Zacks",
-     "title": "Can Sandisk's NAS Expansion Help It Challenge MU & STX?",
-     "url": "https://www.nasdaq.com/articles/can-sandisks-nas-expansion-help-it-challenge-mu-stx"
+     "publisher": "MarketBeat",
+     "title": "Seagate Says AI Is Making Data Storage More Strategic Than Ever",
+     "url": "https://www.nasdaq.com/articles/seagate-says-ai-making-data-storage-more-strategic-ever"
     }
    ]
   },
@@ -131,19 +131,19 @@
     "m6": 7
    },
    "wrs": {
-    "m1": 0.1376,
-    "m3": 0.3781,
-    "m6": 0.5216
+    "m1": 0.1542,
+    "m3": 0.3668,
+    "m6": 0.552
    },
    "final": {
-    "m1": 0.1011,
-    "m3": 0.2681,
-    "m6": 0.3351
+    "m1": 0.1116,
+    "m3": 0.2675,
+    "m6": 0.3493
    },
    "rankPct": {
-    "m1": 7.97,
-    "m3": 0.72,
-    "m6": 1.45
+    "m1": 7.91,
+    "m3": 1.44,
+    "m6": 1.44
    },
    "members": [],
    "memberNews": []
@@ -159,19 +159,19 @@
     "m6": 8
    },
    "wrs": {
-    "m1": 0.4787,
-    "m3": 0.217,
-    "m6": 0.0553
+    "m1": 0.4291,
+    "m3": 0.2086,
+    "m6": 0.0581
    },
    "final": {
-    "m1": 0.3452,
-    "m3": 0.1996,
-    "m6": 0.0944
+    "m1": 0.3202,
+    "m3": 0.1984,
+    "m6": 0.0953
    },
    "rankPct": {
     "m1": 0.72,
-    "m3": 7.25,
-    "m6": 47.83
+    "m3": 10.07,
+    "m6": 53.24
    },
    "members": [
     "AUGO"
@@ -211,19 +211,19 @@
     "m6": 2
    },
    "wrs": {
-    "m1": 0.3841,
-    "m3": 0.1045,
-    "m6": 0.2298
+    "m1": 0.4095,
+    "m3": -0.002,
+    "m6": 0.3157
    },
    "final": {
-    "m1": 0.1193,
-    "m3": 0.0519,
-    "m6": 0.0797
+    "m1": 0.1267,
+    "m3": 0.0142,
+    "m6": 0.0999
    },
    "rankPct": {
-    "m1": 1.45,
-    "m3": 30.43,
-    "m6": 15.94
+    "m1": 1.44,
+    "m3": 69.78,
+    "m6": 7.91
    },
    "members": [
     "AMR"
@@ -263,38 +263,31 @@
     "m6": 55
    },
    "wrs": {
-    "m1": 0.2184,
-    "m3": 0.3743,
-    "m6": 0.4151
+    "m1": 0.2166,
+    "m3": 0.3807,
+    "m6": 0.4424
    },
    "final": {
-    "m1": 0.2349,
-    "m3": 0.3587,
-    "m6": 0.4042
+    "m1": 0.2371,
+    "m3": 0.3725,
+    "m6": 0.4289
    },
    "rankPct": {
-    "m1": 4.35,
-    "m3": 1.45,
-    "m6": 3.62
+    "m1": 5.04,
+    "m3": 0.72,
+    "m6": 2.88
    },
    "members": [
     "MRNA",
     "CORT",
     "ORKA",
-    "INBX",
     "MNPR",
+    "INBX",
+    "KYMR",
     "SYRE",
-    "TVTX",
-    "KYMR"
+    "RVMD"
    ],
    "memberNews": [
-    {
-     "ticker": "MRNA",
-     "date": "2026-08-21",
-     "publisher": "MarketBeat",
-     "title": "Moderna’s 177% Surge Has Investors Asking What Comes Next",
-     "url": "https://www.nasdaq.com/articles/modernas-177-surge-has-investors-asking-what-comes-next"
-    },
     {
      "ticker": "CORT",
      "date": "2026-08-05",
@@ -359,48 +352,6 @@
      "url": "https://www.nasdaq.com/articles/monopar-q2-net-loss-widens-rolling-nda-submission-alxn1840-wilson-disease-underway"
     },
     {
-     "ticker": "SYRE",
-     "date": "2026-08-24",
-     "publisher": "Zacks",
-     "title": "Is SYRE a Buy Now as Clinical Catalysts Clash With Valuation Risk?",
-     "url": "https://www.nasdaq.com/articles/syre-buy-now-clinical-catalysts-clash-valuation-risk"
-    },
-    {
-     "ticker": "SYRE",
-     "date": "2026-08-24",
-     "publisher": "Zacks",
-     "title": "Can Spyre's SPY772 HS Study Broaden Its Growth Story Beyond Core IBD?",
-     "url": "https://www.nasdaq.com/articles/can-spyres-spy772-hs-study-broaden-its-growth-story-beyond-core-ibd"
-    },
-    {
-     "ticker": "SYRE",
-     "date": "2026-08-24",
-     "publisher": "Zacks",
-     "title": "SYRE Rallies 44.9% in 3 Months. Can Clinical Catalysts Sustain It?",
-     "url": "https://www.nasdaq.com/articles/syre-rallies-449-3-months-can-clinical-catalysts-sustain-it"
-    },
-    {
-     "ticker": "TVTX",
-     "date": "2026-08-18",
-     "publisher": "MarketBeat",
-     "title": "Travere Therapeutics Sees FILSPARI FSGS Launch Top Expectations, Expands Renal Pipeline",
-     "url": "https://www.nasdaq.com/articles/travere-therapeutics-sees-filspari-fsgs-launch-top-expectations-expands-renal-pipeline"
-    },
-    {
-     "ticker": "TVTX",
-     "date": "2026-08-12",
-     "publisher": "The Motley Fool",
-     "title": "Travere Therapeutics (TVTX) Q2 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/travere-therapeutics-tvtx-q2-2026-earnings-call-transcript"
-    },
-    {
-     "ticker": "TVTX",
-     "date": "2026-08-07",
-     "publisher": "RTTNews",
-     "title": "Travere Q2 Loss Widens Despite FILSPARI Sales Surge; Phase 4 SPARLIGHT Study Set To Begin In H2 '26",
-     "url": "https://www.nasdaq.com/articles/travere-q2-loss-widens-despite-filspari-sales-surge-phase-4-sparlight-study-set-begin-h2"
-    },
-    {
      "ticker": "KYMR",
      "date": "2026-08-12",
      "publisher": "The Motley Fool",
@@ -420,6 +371,48 @@
      "publisher": "MarketBeat",
      "title": "Kymera Therapeutics Q2 Earnings Call Highlights",
      "url": "https://www.nasdaq.com/articles/kymera-therapeutics-q2-earnings-call-highlights"
+    },
+    {
+     "ticker": "SYRE",
+     "date": "2026-08-26",
+     "publisher": "RTTNews",
+     "title": "Spyre's SPY072 Shows Mixed Efficacy In Phase 2 RA Study, Fails Internal Bar For Monotherapy",
+     "url": "https://www.nasdaq.com/articles/spyres-spy072-shows-mixed-efficacy-phase-2-ra-study-fails-internal-bar-monotherapy"
+    },
+    {
+     "ticker": "SYRE",
+     "date": "2026-08-24",
+     "publisher": "Zacks",
+     "title": "Is SYRE a Buy Now as Clinical Catalysts Clash With Valuation Risk?",
+     "url": "https://www.nasdaq.com/articles/syre-buy-now-clinical-catalysts-clash-valuation-risk"
+    },
+    {
+     "ticker": "SYRE",
+     "date": "2026-08-24",
+     "publisher": "Zacks",
+     "title": "Can Spyre's SPY772 HS Study Broaden Its Growth Story Beyond Core IBD?",
+     "url": "https://www.nasdaq.com/articles/can-spyres-spy772-hs-study-broaden-its-growth-story-beyond-core-ibd"
+    },
+    {
+     "ticker": "RVMD",
+     "date": "2026-08-26",
+     "publisher": "RTTNews",
+     "title": "Revolution Medicines Wins FDA Approval For Rasonque In Pancreatic Cancer",
+     "url": "https://www.nasdaq.com/articles/revolution-medicines-wins-fda-approval-rasonque-pancreatic-cancer"
+    },
+    {
+     "ticker": "RVMD",
+     "date": "2026-08-25",
+     "publisher": "The Motley Fool",
+     "title": "Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines. Does He Know Something Wall Street Doesn't?",
+     "url": "https://www.nasdaq.com/articles/billionaire-stanley-druckenmiller-continues-load-revolution-medicines-does-he-know"
+    },
+    {
+     "ticker": "RVMD",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "title": "Revolution Medicines (RVMD) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/revolution-medicines-rvmd-q2-2026-earnings-call-transcript"
     }
    ]
   },
@@ -434,19 +427,19 @@
     "m6": 5
    },
    "wrs": {
-    "m1": 0.0194,
-    "m3": 0.0205,
-    "m6": 0.5088
+    "m1": 0.0448,
+    "m3": 0.0049,
+    "m6": 0.5508
    },
    "final": {
-    "m1": 0.055,
-    "m3": 0.0543,
-    "m6": 0.2641
+    "m1": 0.0782,
+    "m3": 0.0574,
+    "m6": 0.2805
    },
    "rankPct": {
-    "m1": 38.41,
-    "m3": 64.49,
-    "m6": 2.17
+    "m1": 30.94,
+    "m3": 66.91,
+    "m6": 2.16
    },
    "members": [],
    "memberNews": []

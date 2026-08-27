@@ -4,7 +4,7 @@
  "industry": "Biotechnology",
  "nameKo": "스파이어 테라퓨틱스",
  "detail": {
-  "fetchedAt": "2026-08-26",
+  "fetchedAt": "2026-08-27",
   "nameKo": "스파이어 테라퓨틱스",
   "nameEn": "SPYRE THERAPEUTICS INC",
   "infomaxCode": "NAS:SYRE",
@@ -89,6 +89,17 @@
    "ok": true,
    "ticker": "SYRE",
    "items": [
+    {
+     "title": "Spyre's SPY072 Shows Mixed Efficacy In Phase 2 RA Study, Fails Internal Bar For Monotherapy",
+     "url": "https://www.nasdaq.com/articles/spyres-spy072-shows-mixed-efficacy-phase-2-ra-study-fails-internal-bar-monotherapy",
+     "date": "2026-08-26",
+     "publisher": "RTTNews",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SYRE"
+     ]
+    },
     {
      "title": "Is SYRE a Buy Now as Clinical Catalysts Clash With Valuation Risk?",
      "url": "https://www.nasdaq.com/articles/syre-buy-now-clinical-catalysts-clash-valuation-risk",
@@ -175,23 +186,10 @@
       "JNJ",
       "ABBV"
      ]
-    },
-    {
-     "title": "SYRE and Spyre Ride New IBD Trends in Biotech Drug Design",
-     "url": "https://www.nasdaq.com/articles/syre-and-spyre-ride-new-ibd-trends-biotech-drug-design",
-     "date": "2026-06-29",
-     "publisher": "Zacks",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "SYRE",
-      "JNJ",
-      "ABBV"
-     ]
     }
    ],
-   "directCount": 11,
-   "total": 11,
+   "directCount": 10,
+   "total": 10,
    "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
   },
   "filings": [

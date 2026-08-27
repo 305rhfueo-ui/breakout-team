@@ -1,0 +1,158 @@
+{
+ "ticker": "META",
+ "news": [
+  {
+   "title": "Meta Agrees To Up To $17 Bln Settlement With States Over Child Safety Claims",
+   "url": "https://www.nasdaq.com/articles/meta-agrees-17-bln-settlement-states-over-child-safety-claims",
+   "date": "2026-08-26",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "META"
+   ]
+  },
+  {
+   "title": "Amid Legal Battles, What Should Investors Do With Meta Stock?",
+   "url": "https://www.nasdaq.com/articles/amid-legal-battles-what-should-investors-do-meta-stock",
+   "date": "2026-08-26",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "META",
+    "META"
+   ]
+  },
+  {
+   "title": "Why Meta Platforms Stock Popped Today",
+   "url": "https://www.nasdaq.com/articles/why-meta-platforms-stock-popped-today-0",
+   "date": "2026-08-26",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "META",
+    "META"
+   ]
+  },
+  {
+   "title": "Meta, 52 State Attorneys General Establish New Teen Online Safety Standard",
+   "url": "https://www.nasdaq.com/articles/meta-52-state-attorneys-general-establish-new-teen-online-safety-standard",
+   "date": "2026-08-26",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "META"
+   ]
+  },
+  {
+   "title": "Billionaire Bill Ackman Just Sold Alphabet and Bought These 2 Beaten-Down Artificial Intelligence (AI) Stocks",
+   "url": "https://www.nasdaq.com/articles/billionaire-bill-ackman-just-sold-alphabet-and-bought-these-2-beaten-down-artificial",
+   "date": "2026-08-26",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "MSFT",
+    "MSFT",
+    "META"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-29",
+   "reportDate": "2026-05-27",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026039193/meta-20260527.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-04-30",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526204128/d134616d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028364/meta-20260429.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-14",
+   "reportDate": "2026-04-08",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026025108/meta-20260408.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-28",
+   "reportDate": "2026-01-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003832/meta-20260128.htm",
+   "description": "8-K"
+  }
+ ]
+}

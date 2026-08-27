@@ -1,0 +1,198 @@
+{
+ "ticker": "CFFI",
+ "news": [
+  {
+   "title": "CFFI Q2 Earnings Rise Y/Y on Loan Growth & Margin Gains",
+   "url": "https://www.nasdaq.com/articles/cffi-q2-earnings-rise-y-y-loan-growth-margin-gains",
+   "date": "2026-07-24",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "CFFI"
+   ]
+  },
+  {
+   "title": "BOTJ vs. CFFI: Which Regional Bank Stock Looks More Attractive Now?",
+   "url": "https://www.nasdaq.com/articles/botj-vs-cffi-which-regional-bank-stock-looks-more-attractive-now",
+   "date": "2026-07-08",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "BOTJ",
+    "CFFI"
+   ]
+  },
+  {
+   "title": "2 Outperform Rated Regional Banks",
+   "url": "https://www.nasdaq.com/articles/2-outperform-rated-regional-banks",
+   "date": "2026-05-19",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "CFFI",
+    "FRAF"
+   ]
+  },
+  {
+   "title": "C&F Financial Q1 Earnings Rise 25% Y/Y as Mortgage Growth Surges",
+   "url": "https://www.nasdaq.com/articles/cf-financial-q1-earnings-rise-25-y-y-mortgage-growth-surges",
+   "date": "2026-04-28",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "CFFI"
+   ]
+  },
+  {
+   "title": "C&F Financial Q4 Earnings Rise Y/Y on Loan Growth, Margin Gains",
+   "url": "https://www.nasdaq.com/articles/cf-financial-q4-earnings-rise-y-y-loan-growth-margin-gains",
+   "date": "2026-02-02",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "CFFI"
+   ]
+  },
+  {
+   "title": "C&F Financial Corp. Reports Rise In Q4 Income",
+   "url": "https://www.nasdaq.com/articles/cf-financial-corp-reports-rise-q4-income",
+   "date": "2026-01-27",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "CFFI"
+   ]
+  },
+  {
+   "title": "Peoples Bancorp Gains 25.6% in Six Months: How to Play the Stock?",
+   "url": "https://www.nasdaq.com/articles/peoples-bancorp-gains-256-six-months-how-play-stock",
+   "date": "2026-01-23",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "PEBK",
+    "CFFI"
+   ]
+  },
+  {
+   "title": "3 Small Cap Stocks for 2026",
+   "url": "https://www.nasdaq.com/articles/3-small-cap-stocks-2026",
+   "date": "2025-12-05",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "BOTJ",
+    "CFFI",
+    "CHCI"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-19",
+   "reportDate": "2026-08-19",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/913341/000091334126000045/cffi-20260819x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/913341/000091334126000040/cffi-20260723x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/913341/000091334126000038/cffi-20260723x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-16",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/913341/000091334126000036/cffi-20260616x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-20",
+   "reportDate": "2026-05-20",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/913341/000091334126000031/cffi-20260520x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-08",
+   "reportDate": "2026-05-07",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/913341/000091334126000026/cffi-20260507x8k.htm",
+   "description": "8-K"
+  }
+ ]
+}

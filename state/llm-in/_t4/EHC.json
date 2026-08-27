@@ -1,0 +1,199 @@
+{
+ "ticker": "EHC",
+ "news": [
+  {
+   "title": "How EHC's Capacity Expansion Fuels a Multi-Year Growth Runway",
+   "url": "https://www.nasdaq.com/articles/how-ehcs-capacity-expansion-fuels-multi-year-growth-runway",
+   "date": "2026-08-25",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "EHC",
+    "BKD",
+    "ENSG"
+   ]
+  },
+  {
+   "title": "Why Encompass Health (EHC) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-encompass-health-ehc-top-momentum-stock-long-term",
+   "date": "2026-08-25",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "EHC"
+   ]
+  },
+  {
+   "title": "Why Encompass Health (EHC) is a Top Value Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-encompass-health-ehc-top-value-stock-long-term-2",
+   "date": "2026-08-24",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "EHC"
+   ]
+  },
+  {
+   "title": "Why Encompass Health (EHC) is a Top Growth Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-encompass-health-ehc-top-growth-stock-long-term",
+   "date": "2026-08-19",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "EHC"
+   ]
+  },
+  {
+   "title": "Encompass Health (EHC) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/encompass-health-ehc-q2-2026-earnings-call-transcript",
+   "date": "2026-08-13",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "EHC",
+    "EHC"
+   ]
+  },
+  {
+   "title": "Encompass Health (EHC) is a Top-Ranked Value Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/encompass-health-ehc-top-ranked-value-stock-should-you-buy",
+   "date": "2026-08-07",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "EHC"
+   ]
+  },
+  {
+   "title": "Compared to Estimates, Encompass Health (EHC) Q2 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-encompass-health-ehc-q2-earnings-look-key-metrics",
+   "date": "2026-08-06",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "EHC"
+   ]
+  },
+  {
+   "title": "What Three Encompass Health Insiders Selling Signals After a Rate Increase",
+   "url": "https://www.nasdaq.com/articles/what-three-encompass-health-insiders-selling-signals-after-rate-increase",
+   "date": "2026-08-16",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "EHC",
+    "EHC"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-13",
+   "reportDate": "2026-08-13",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000195/ehc-20260813.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000183/ehc-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-05-29",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000161/ehc-20260529.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-15",
+   "reportDate": "2026-05-14",
+   "items": [
+    "1.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000156/ehc-20260514.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-07",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000151/ehc-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000128/ehc-20260430.htm",
+   "description": "8-K"
+  }
+ ]
+}

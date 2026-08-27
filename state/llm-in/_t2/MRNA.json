@@ -4,7 +4,7 @@
  "industry": "Biotechnology",
  "nameKo": "모더나",
  "detail": {
-  "fetchedAt": "2026-08-26",
+  "fetchedAt": "2026-08-27",
   "nameKo": "모더나",
   "nameEn": "MODERNA INC",
   "infomaxCode": "NAS:MRNA",
@@ -90,21 +90,34 @@
    "ticker": "MRNA",
    "items": [
     {
-     "title": "Moderna’s 177% Surge Has Investors Asking What Comes Next",
-     "url": "https://www.nasdaq.com/articles/modernas-177-surge-has-investors-asking-what-comes-next",
-     "date": "2026-08-21",
-     "publisher": "MarketBeat",
+     "title": "Merck Stock Hits New 52-Week High: What's Driving the Rally?",
+     "url": "https://www.nasdaq.com/articles/merck-stock-hits-new-52-week-high-whats-driving-rally",
+     "date": "2026-08-26",
+     "publisher": "Zacks",
      "tier1": false,
-     "direct": true,
+     "direct": false,
      "tickers": [
+      "MRK",
+      "BMY",
+      "MRNA"
+     ]
+    },
+    {
+     "title": "Vertex Pharmaceuticals Up 15% in a Month: How to Play the Stock",
+     "url": "https://www.nasdaq.com/articles/vertex-pharmaceuticals-15-month-how-play-stock",
+     "date": "2026-08-26",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "VRTX",
       "MRNA",
-      "MRNA",
-      "MRK"
+      "CRSP"
      ]
     }
    ],
-   "directCount": 1,
-   "total": 1,
+   "directCount": 0,
+   "total": 2,
    "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
   },
   "filings": [
@@ -208,8 +221,19 @@
    }
   ],
   "krReports": {
-   "total": 1,
+   "total": 2,
    "reports": [
+    {
+     "title": "[모더나 (NAS:MRNA)] [Issue & News] 머크 공동 흑색종 백신 작동원리·생산과제 상세 공개",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-08-26",
+     "summary": "- 흑색종 백신 작동원리·비소세포폐암 등 확장 파이프라인 공개- 전체 생존율 데이터는 아직 미공개, 임상 불확실성 지속- 개인맞춤 생산 특성상 10~100배 증설 필요, 실행 리스크 부각",
+     "pages": "5",
+     "secureId": "eqlqqcexmkclgzegcgxclgq",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqqcexmkclgzegcgxclgq.pdf",
+     "opinion": null
+    },
     {
      "title": "[모더나 (NAS:MRNA)] mRNA 기반 암 치료제 최초 3상 성공",
      "broker": "키움증권",
@@ -217,8 +241,8 @@
      "date": "2026-08-21",
      "summary": "- 코로나19 백신으로 mRNA 상업화에 성공한 바이오텍. mRNA 기반 암 치료제로는 세계 최초 3상 성공- 다만, 시장은 이미 흑색종 성공을 상당부분 선반영한 상태로 신장암, 방광암, 폐암 등 다른 암종으로 확장성에 주목",
      "pages": "7",
-     "secureId": "eqlqgxkklglmlgzgcgxclgx",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqgxkklglmlgzgcgxclgx.pdf",
+     "secureId": "eqlqgxkklglmlgzgcgxclgq",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqgxkklglmlgzgcgxclgq.pdf",
      "opinion": null
     }
    ],

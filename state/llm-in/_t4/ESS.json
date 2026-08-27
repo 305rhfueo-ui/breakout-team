@@ -1,0 +1,195 @@
+{
+ "ticker": "ESS",
+ "news": [
+  {
+   "title": "Essex Property Trust (ESS) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/essex-property-trust-ess-q2-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ESS",
+    "ESS"
+   ]
+  },
+  {
+   "title": "ESS Q2 FFO Beats Estimates on Higher Property NOI, '26 View Raised",
+   "url": "https://www.nasdaq.com/articles/ess-q2-ffo-beats-estimates-higher-property-noi-26-view-raised",
+   "date": "2026-07-30",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ESS"
+   ]
+  },
+  {
+   "title": "Compared to Estimates, Essex Property Trust (ESS) Q2 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-essex-property-trust-ess-q2-earnings-look-key-metrics",
+   "date": "2026-07-29",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ESS"
+   ]
+  },
+  {
+   "title": "Essex Property Trust (ESS) Tops Q2 FFO and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/essex-property-trust-ess-tops-q2-ffo-and-revenue-estimates",
+   "date": "2026-07-29",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ESS",
+    "AMH"
+   ]
+  },
+  {
+   "title": "Zacks Industry Outlook Essex Property, Equity LifeStyle  and American Homes",
+   "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-essex-property-equity-lifestyle-and-american-homes",
+   "date": "2026-08-26",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "ELS",
+    "ESS",
+    "AMH"
+   ]
+  },
+  {
+   "title": "3 Residential REITs Worth Considering as the Industry Recovers",
+   "url": "https://www.nasdaq.com/articles/3-residential-reits-worth-considering-industry-recovers",
+   "date": "2026-08-24",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "ELS",
+    "ESS",
+    "AMH"
+   ]
+  },
+  {
+   "title": "Essex Property Trust Q2 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/essex-property-trust-q2-earnings-call-highlights",
+   "date": "2026-07-31",
+   "publisher": "MarketBeat",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "ESS"
+   ]
+  },
+  {
+   "title": "Essex Property Trust Q2 26 Earnings Conference Call At 2:00 PM ET",
+   "url": "https://www.nasdaq.com/articles/essex-property-trust-q2-26-earnings-conference-call-2-00-pm-et",
+   "date": "2026-07-30",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "ESS"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/920522/000114036126030060/ef20078746_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-29",
+   "reportDate": "2026-05-29",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/920522/000092052226000019/ess-20260529.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-14",
+   "reportDate": "2026-05-12",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/920522/000114036126021353/ef20073520_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/920522/000114036126017477/ef20071359_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-04",
+   "reportDate": "2026-02-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/920522/000114036126003709/ef20064474_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-12",
+   "reportDate": "2025-12-12",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/920522/000114036125045386/ef20061109_8k.htm",
+   "description": "8-K"
+  }
+ ]
+}

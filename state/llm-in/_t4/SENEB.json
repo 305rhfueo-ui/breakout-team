@@ -1,0 +1,130 @@
+{
+ "ticker": "SENEB",
+ "news": [
+  {
+   "title": "Mid-Afternoon Market Update: Crude Oil Down 0.6%; Fibrocell Science Shares Spike Higher",
+   "url": "https://www.nasdaq.com/articles/mid-afternoon-market-update-crude-oil-down-06-fibrocell-science-shares-spike-higher-2019",
+   "date": "2019-04-15",
+   "publisher": "Benzinga",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "SENEB",
+    "GS"
+   ]
+  },
+  {
+   "title": "Stocks That Fell to 3-Year Lows in the Week of July 28",
+   "url": "https://www.nasdaq.com/articles/stocks-fell-3-year-lows-week-july-28-2017-07-29",
+   "date": "2017-07-29",
+   "publisher": "GuruFocus",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "MAC",
+    "SENEB",
+    "RDY"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-06",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774926027008/senea20260806_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-08-12",
+   "reportDate": "2025-08-07",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774925026194/senea20250811_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2024-12-30",
+   "reportDate": "2024-12-23",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774924038531/senea20241212_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2024-08-12",
+   "reportDate": "2024-08-08",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774924026057/senea20240809_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2024-03-08",
+   "reportDate": "2024-03-08",
+   "items": [
+    "1.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774924007174/senea20240308_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2023-11-13",
+   "reportDate": "2023-11-07",
+   "items": [
+    "4.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "4.01",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774923031611/senea20231113_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ]
+}

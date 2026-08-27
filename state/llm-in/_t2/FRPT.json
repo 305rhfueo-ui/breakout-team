@@ -1,0 +1,299 @@
+{
+ "ticker": "FRPT",
+ "sector": "Consumer Defensive",
+ "industry": "Packaged Foods",
+ "nameKo": "프레시펫",
+ "detail": {
+  "fetchedAt": "2026-08-27",
+  "nameKo": "프레시펫",
+  "nameEn": "FRESHPET  INC",
+  "infomaxCode": "NAS:FRPT",
+  "financials": {
+   "ok": true,
+   "ticker": "FRPT",
+   "cik": "0001611647",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-04-01",
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 305587000,
+     "profit": 21709000,
+     "netIncome": 19488000,
+     "margin": 7.1,
+     "yoy": {
+      "revenue": 15.5,
+      "profit": 21.9,
+      "netIncome": 19.1,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodStart": "2026-01-01",
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 297644000,
+     "profit": 4331000,
+     "netIncome": 48508000,
+     "margin": 1.5,
+     "yoy": {
+      "revenue": 13.1,
+      "profit": 137.7,
+      "netIncome": 482,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodStart": "2025-09-30",
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 285229000,
+     "profit": 44463000,
+     "netIncome": 33818000,
+     "margin": 15.6,
+     "yoy": {
+      "revenue": 8.6,
+      "profit": 129.5,
+      "netIncome": 86.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodStart": "2025-07-01",
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 288848000,
+     "profit": 24901000,
+     "netIncome": 101663000,
+     "margin": 8.6,
+     "yoy": {
+      "revenue": 14,
+      "profit": 109.1,
+      "netIncome": 754.7,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001611647&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "FRPT",
+   "items": [
+    {
+     "title": "What Investors Should Know About Freshpet CEO William Cyr's $6.6 Million Stock Sale",
+     "url": "https://www.nasdaq.com/articles/what-investors-should-know-about-freshpet-ceo-william-cyrs-66-million-stock-sale",
+     "date": "2026-08-26",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "FRPT",
+      "FRPT"
+     ]
+    },
+    {
+     "title": "Freshpet (FRPT) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/freshpet-frpt-q2-2026-earnings-call-transcript",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "FRPT",
+      "FRPT"
+     ]
+    },
+    {
+     "title": "Freshpet Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/freshpet-q2-earnings-call-highlights",
+     "date": "2026-08-05",
+     "publisher": "MarketBeat",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "FRPT"
+     ]
+    },
+    {
+     "title": "Freshpet (FRPT) Tops Q2 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/freshpet-frpt-tops-q2-earnings-and-revenue-estimates",
+     "date": "2026-08-05",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "FRPT"
+     ]
+    },
+    {
+     "title": "Earnings Preview: Freshpet (FRPT) Q2 Earnings Expected to Decline",
+     "url": "https://www.nasdaq.com/articles/earnings-preview-freshpet-frpt-q2-earnings-expected-decline",
+     "date": "2026-07-29",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "FRPT",
+      "BRBR"
+     ]
+    },
+    {
+     "title": "Freshpet (FRPT) Exceeds Market Returns: Some Facts to Consider",
+     "url": "https://www.nasdaq.com/articles/freshpet-frpt-exceeds-market-returns-some-facts-consider",
+     "date": "2026-07-28",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "FRPT"
+     ]
+    },
+    {
+     "title": "Freshpet (FRPT) Outpaces Stock Market Gains: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/freshpet-frpt-outpaces-stock-market-gains-what-you-should-know",
+     "date": "2026-07-21",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "FRPT"
+     ]
+    },
+    {
+     "title": "Ingredion (INGR) Q2 Earnings and Revenues Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/ingredion-ingr-q2-earnings-and-revenues-beat-estimates",
+     "date": "2026-08-04",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "INGR",
+      "FRPT"
+     ]
+    }
+   ],
+   "directCount": 7,
+   "total": 8,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "reportDate": "2026-08-05",
+    "items": [
+     "2.02",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1611647/000161164726000016/frpt-20260805.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-24",
+    "reportDate": "2026-06-22",
+    "items": [
+     "5.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1611647/000092963826002308/a8k.htm",
+    "description": null
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "reportDate": "2026-06-10",
+    "items": [
+     "5.07"
+    ],
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1611647/000092963826002206/a8k.htm",
+    "description": null
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-06",
+    "reportDate": "2026-05-06",
+    "items": [
+     "2.02",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1611647/000161164726000008/frpt-20260506.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-23",
+    "reportDate": "2026-02-23",
+    "items": [
+     "2.02",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1611647/000161164726000002/frpt-20260223.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-04",
+    "reportDate": "2026-02-04",
+    "items": [
+     "5.02",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1611647/000092963826000488/a8k.htm",
+    "description": null
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": [],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}

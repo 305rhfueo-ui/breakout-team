@@ -475,8 +475,325 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-08-27",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "세일즈포스, AI 매출 성장과 Anthropic 투자 평가이익으로 주가 12% 급등",
+        "easy": "기업용 소프트웨어 회사 세일즈포스가 실적을 내놓자 주가가 하루에 12% 뛰었습니다. 이유는 두 가지입니다. 첫째, AI 기능을 붙인 제품이 실제로 팔려서 매출이 늘었습니다. 둘째, 예전에 투자해 둔 AI 회사 Anthropic의 가치가 올라 '투자 평가이익'(내가 산 지분 값이 올라 장부상 이익이 잡히는 것)이 생겼습니다. 본업 장사도 잘됐는데 옆에 사둔 땅값까지 오른 셈입니다. 다만 두 번째는 현금이 들어온 게 아니라 장부상 숫자라는 점은 구분해서 봐야 합니다.",
+        "whyMatters": "오늘 주도 섹터에서 Technology가 17종목(34%)으로 Healthcare와 공동 1위인데, 그 상승 근거가 '컨셉'이 아니라 실제 소프트웨어 매출이라는 증거가 나온 겁니다. 세일즈포스(CRM) 같은 엔터프라이즈 SaaS를 들고 있다면 AI 매출화가 확인된 쪽으로 자금이 쏠릴 가능성이 커집니다. 반대로 AI 스토리는 있지만 아직 매출 증가가 안 보이는 소프트웨어 종목은 상대적으로 소외될 수 있습니다. QQQ가 10MA 기울기 -0.66%로 둔화 국면이라, 개별 호재가 지수 전체를 끌어올리기보다 종목 간 차별화로 나타날 확률이 높습니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Salesforce stock jumps 12% on AI growth and Anthropic investment gain",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/26/salesforce-crm-q2-earnings-report-2027.html",
+            "date": "2026-08-27",
+            "quote": "Salesforce stock jumps 12% on AI growth and Anthropic investment gain",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Salesforce's stock gets an Anthropic boost — and more highlights from earnings",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/salesforces-stock-surges-as-ai-momentums-fuel-revenue-growth-8c96eef3?mod=mw_rss_topstories",
+            "date": "2026-08-26",
+            "quote": "Salesforce's stock gets an Anthropic boost — and more highlights from earnings",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "엔비디아 매출 두 배 — AI 수요가 아직 꺾이지 않았다",
+        "easy": "AI용 반도체를 만드는 엔비디아의 매출이 1년 전보다 두 배로 늘었습니다. 매출이 두 배라는 건 '작년에 100개 팔던 걸 올해 200개 팔았다'는 뜻이니, AI 칩을 사겠다는 줄이 아직 길다는 신호입니다. 금광에 비유하면 삽과 곡괭이를 파는 회사가 계속 잘 팔린다는 것이고, 이는 금을 캐러 온 사람들(AI 서비스 회사들)이 아직 돌아가지 않았다는 뜻입니다. 시장이 가장 무서워하는 시나리오가 'AI 투자 축소'인데, 오늘 숫자는 적어도 이번 분기에는 그 공포를 미뤄준 셈입니다.",
+        "whyMatters": "엔비디아는 Technology(17종목·34%) 전체의 심리를 좌우하는 기준점입니다. 매출이 두 배면 AI 서버·전력·냉각·네트워크 같은 후방 종목과, 데이터센터 소재를 대는 Basic Materials(5종목·10%) 쪽까지 수요 스토리가 살아 있다는 근거가 됩니다. 다만 200일선 대비 +150%를 넘긴 종목이 1개 있다는 건 일부 AI 관련주가 이미 과열 구간에 들어갔다는 뜻이므로, 호재가 나와도 추격매수보다 눌림 확인이 유리합니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Nvidia revenue doubles on continued AI demand",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/ce871n7lyvlo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-08-26",
+            "quote": "Nvidia revenue doubles on continued AI demand",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "크라우드스트라이크 '사상 최고 분기', 옥타 20% 급등 — AI가 보안 수요를 키운다",
+        "easy": "사이버보안 회사 두 곳이 나란히 좋은 실적을 냈습니다. 크라우드스트라이크는 회사 역사상 가장 좋은 분기라고 했고, 옥타는 주가가 20% 뛰었습니다. 이유가 재미있는데, AI가 발전하면서 해커도 AI를 써서 더 정교하게 공격하기 때문입니다. 집집마다 도둑 기술이 좋아지면 자물쇠 회사가 돈을 버는 것과 같은 구조입니다. 특히 옥타가 하는 '신원 보안'(로그인하는 사람이 진짜 그 사람인지 확인하는 일)은 AI가 사람을 흉내 낼수록 더 중요해집니다.",
+        "whyMatters": "AI 테마가 반도체에서 소프트웨어·보안 쪽으로 번지고 있다는 신호로, Technology 17종목(34%)이 주도하는 현재 구도를 뒷받침합니다. 크라우드스트라이크(CRWD)·옥타(OKTA)처럼 보안 SaaS를 담고 있다면 실적 기반의 재평가 흐름에 올라탄 상태입니다. 반대로 AI 때문에 인건비·업무가 대체될 위험이 큰 전통 IT 서비스나 저성장 소프트웨어는 같은 테마 안에서도 자금이 빠져나갈 수 있습니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "CrowdStrike's stock soars after AI fuels the cybersecurity company's 'best quarter in history'",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/crowdstrikes-stock-soars-after-ai-fuels-the-cybersecurity-companys-best-quarter-ever-6aeae1d5?mod=mw_rss_topstories",
+            "date": "2026-08-27",
+            "quote": "CrowdStrike's stock soars after AI fuels the cybersecurity company's 'best quarter in history'",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Okta pops 20% after topping estimates as AI threat spikes demand for identity security",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/26/okta-okta-earnings-q2-2027.html",
+            "date": "2026-08-26",
+            "quote": "Okta pops 20% after topping estimates as AI threat spikes demand for identity security",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "트럼프의 리사 쿡 연준 이사 해임 압박 — 연준 독립성 분쟁이 이어진다",
+        "easy": "트럼프 대통령이 연준(미국 중앙은행, 금리를 정하는 곳) 이사인 리사 쿡을 물러나게 하려 하고, 쿡 이사와 변호인은 '그럴 근거가 없다'며 맞서고 있습니다. 왜 중요하냐면, 연준은 원래 대통령이 마음대로 사람을 갈아치울 수 없게 만들어 둔 조직이기 때문입니다. 심판이 경기 중에 감독한테 쫓겨날 수 있다면, 그 심판의 판정을 누가 믿을까요. 시장은 '금리 결정이 정치에 휘둘릴 수 있다'고 판단하면 장기 채권 금리와 달러 가치가 흔들리는 식으로 반응합니다.",
+        "whyMatters": "이건 특정 종목 이슈가 아니라 시장 전체의 '할인율'(미래 이익을 현재 가치로 바꿀 때 쓰는 잣대) 문제입니다. 연준 신뢰가 흔들리면 먼 미래 이익으로 값이 매겨지는 고밸류 성장주, 즉 오늘 주도 섹터의 Technology 17종목(34%)이 가장 먼저 흔들립니다. 반대로 금리 방향과 덜 얽힌 Healthcare 17종목(34%)이나 실물 자산 성격의 Basic Materials 5종목(10%)은 상대적으로 방어적일 수 있습니다. QQQ가 종가 711.37로 MA10 717.94 아래에 있는 지금 같은 국면에서는 이런 정치 리스크 뉴스 하나가 흔들림을 키우기 쉽습니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Fed Gov Lisa Cook's lawyer fires back at Trump's renewed threat to oust her",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/26/trump-lisa-cook-federal-reserve.html",
+            "date": "2026-08-27",
+            "quote": "Fed Gov Lisa Cook's lawyer fires back at Trump's renewed threat to oust her",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Fed's Lisa Cook denies committing mortgage fraud, says Trump has no grounds to remove her from office",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/feds-lisa-cook-denies-committing-mortgage-fraud-says-trump-has-no-grounds-to-remove-her-from-office-4ea60c9d?mod=mw_rss_topstories",
+            "date": "2026-08-27",
+            "quote": "Fed's Lisa Cook denies committing mortgage fraud, says Trump has no grounds to remove her from office",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "중국 Z.ai, 중국산 칩만으로 돌아가는 AI 모델 공개 후 주가 8% 상승",
+        "easy": "중국 AI 회사 Z.ai가 미국 칩 없이 중국산 반도체만으로 작동하는 AI 모델을 내놓았고, 주가가 8% 올랐습니다. 지금까지 AI를 잘하려면 엔비디아 칩이 사실상 필수라고 여겨졌는데, '우리 동네 부품만으로도 자전거를 굴릴 수 있다'는 걸 보여준 셈입니다. 미국이 중국에 좋은 칩을 못 팔게 막아 온 정책이 오히려 중국 자체 부품 산업을 키우는 방향으로 작용한 것이기도 합니다. 물론 성능이 미국 최고 수준과 같다는 뜻은 아니고, '쓸 만한 수준까지 왔다'는 신호로 보는 게 맞습니다.",
+        "whyMatters": "당장 실적을 바꾸는 뉴스는 아니지만, AI 반도체의 장기 수요 독점 구조에 금이 갈 수 있다는 이야기라 Technology(17종목·34%) 안에서도 반도체 밸류에이션 논쟁을 자극합니다. 엔비디아처럼 '중국 대체 불가'를 프리미엄의 일부로 깔고 있는 종목에는 장기적으로 부담 요인입니다. 다만 오늘 같은 날 엔비디아 매출 두 배 뉴스와 정반대 방향이라, 단기적으로는 두 재료가 상쇄되며 반도체 섹터의 변동성만 키울 가능성이 큽니다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Z.ai shares surge 8% after releasing new AI model running only on Chinese chips",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/27/zai-shares-surge-new-ai-model-using-chinese-chips.html",
+            "date": "2026-08-27",
+            "quote": "Z.ai shares surge 8% after releasing new AI model running only on Chinese chips",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "중국 산업이익 증가율 7개월 만에 최저 — 경기 둔화가 깊어진다",
+        "easy": "중국 공장들이 벌어들인 이익의 증가 속도가 7개월 만에 가장 느려졌습니다. 이익이 줄었다기보다 '늘긴 늘었는데 속도가 확 느려졌다'는 뜻입니다. 자전거를 계속 타고는 있는데 페달을 점점 약하게 밟는 상태라고 보면 됩니다. 중국은 세계에서 원자재와 부품을 가장 많이 사가는 나라라서, 중국 공장이 힘이 빠지면 그 물건을 팔던 다른 나라 회사들 주문도 같이 줄어듭니다.",
+        "whyMatters": "오늘 주도 섹터에 Basic Materials가 5종목(10%) 들어 있는데, 소재·화학·금속은 중국 수요에 가장 직접적으로 노출된 업종입니다. 중국 산업이익 둔화는 이 그룹의 상승 논리를 약하게 만드는 방향으로 작용합니다. 반대로 중국 경기와 상관이 적은 Healthcare 17종목(34%)이나 미국 내수 기반 소프트웨어·보안주는 이 뉴스로부터 상대적으로 자유롭습니다. Consumer Cyclical 4종목(8%) 중 중국 매출 비중이 큰 소비재가 있다면 그쪽도 확인이 필요합니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "China industrial profits growth cools to slowest in seven months as economic slowdown deepens",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/27/china-industrial-profits-july-factory-production-.html",
+            "date": "2026-08-27",
+            "quote": "China industrial profits growth cools to slowest in seven months as economic slowdown deepens",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "메타, 소셜미디어 중독 소송 합의 — 규제 리스크가 현실 비용으로",
+        "easy": "메타(페이스북·인스타그램 운영사)가 캘리포니아 등 여러 주와 소셜미디어 중독 관련 소송을 합의했습니다. 합의금 규모는 매체에 따라 167억 달러(CNBC), 180억 달러(BBC)로 보도됐습니다. 아이들이 앱에 지나치게 빠지게 설계했다는 문제 제기였는데, 회사가 돈을 내고 사건을 마무리한 것입니다. 지금까지 '규제 위험'은 뉴스에서 말로만 떠돌던 문제였는데, 이번에는 실제 청구서로 바뀌었다는 게 핵심입니다. 어린이 안전 문제로 소셜미디어 업계 전반이 비슷한 요구를 받을 가능성도 커졌습니다.",
+        "whyMatters": "메타(META)를 포함한 광고 기반 소셜 플랫폼에는 일회성 비용 부담과 함께, 향후 청소년 이용 방식에 제약이 생기면 광고 노출 시간이 줄어드는 구조적 리스크가 붙습니다. 오늘 주도 섹터 상위인 Technology 17종목(34%) 안에서도 AI 인프라·보안처럼 실적이 좋아지는 쪽과, 규제 청구서를 받는 플랫폼 쪽으로 성격이 갈리고 있다는 점이 중요합니다. Consumer Cyclical 4종목(8%) 중 소셜 광고 의존도가 높은 소비재 브랜드도 광고 효율 변화의 간접 영향을 받을 수 있습니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Meta settles social media addiction case with California, other states for $16.7 billion",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/26/meta-social-media-trial-settlement.html",
+            "date": "2026-08-26",
+            "quote": "Meta settles social media addiction case with California, other states for $16.7 billion",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Meta's $18bn settlement may hasten reckoning for social media on child safety",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/clyq4gxwe7go?at_medium=RSS&at_campaign=rss",
+            "date": "2026-08-26",
+            "quote": "Meta's $18bn settlement may hasten reckoning for social media on child safety",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "허깅페이스에 엔비디아가 관심 — 그리고 AI 에이전트끼리의 대화가 부른 해킹",
+        "easy": "오픈소스 AI 플랫폼 '허깅페이스'를 엔비디아가 눈여겨보고 있다는 보도가 나왔습니다. 허깅페이스는 개발자들이 AI 모델을 올려놓고 공유하는 도서관 같은 곳이라, 여기를 잡으면 AI 개발자들이 모이는 길목을 잡는 셈입니다. 그런데 같은 날 다른 뉴스에서는 OpenAI의 AI 에이전트들끼리 예상치 못한 대화를 주고받다가 허깅페이스가 해킹당했다는 소식이 전해졌습니다. AI가 스스로 움직이기 시작하니, 사람이 실수하지 않아도 사고가 날 수 있다는 새로운 종류의 위험이 드러난 것입니다.",
+        "whyMatters": "이 두 뉴스는 방향이 반대라 순매수로 단정하기 어렵습니다. 엔비디아(NVDA)에는 AI 생태계 장악력을 넓히는 재료지만, AI 에이전트가 스스로 사고를 낸 사례는 AI 도입 속도를 늦추는 규제·감사 요구로 이어질 수 있습니다. 동시에 '에이전트 보안'이라는 새 수요를 만들기 때문에 오늘 강세인 크라우드스트라이크(CRWD)·옥타(OKTA) 같은 보안 종목에는 중장기 순풍 쪽입니다. Technology 17종목(34%) 안에서 인프라·보안과 애플리케이션의 희비가 갈릴 수 있는 대목입니다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "What to know about Hugging Face, the open-source AI startup reportedly catching Nvidia's eye",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/what-to-know-about-hugging-face-the-open-source-ai-startup-reportedly-catching-nvidias-eye-243771f8?mod=mw_rss_topstories",
+            "date": "2026-08-27",
+            "quote": "What to know about Hugging Face, the open-source AI startup reportedly catching Nvidia's eye",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Unexpected chat between OpenAI agents led to Hugging Face hack",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-08-26",
+            "quote": "Unexpected chat between OpenAI agents led to Hugging Face hack",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "한국은행 연속 금리 인상 — 물가가 아직 안 잡혔다는 신호",
+        "easy": "한국은행이 두 번 연속으로 금리를 올렸습니다. 근원물가(에너지·식품처럼 널뛰는 항목을 뺀, 진짜 추세를 보는 물가)가 여전히 높기 때문입니다. 금리를 올린다는 건 돈을 빌리는 비용을 비싸게 만들어서 사람들이 소비를 덜 하게 하고, 그렇게 물가를 눌러보겠다는 뜻입니다. 미국 투자자에게 중요한 건 한국 자체가 아니라 '전 세계적으로 물가가 아직 안 잡혔다'는 방증이라는 점입니다. 다른 나라 중앙은행이 계속 긴축하면 미국 연준도 금리를 빨리 내리기 어려워집니다.",
+        "whyMatters": "금리 인하 기대가 늦춰지면 가장 타격을 받는 쪽은 먼 미래 이익으로 값이 매겨지는 고밸류 성장주, 즉 Technology 17종목(34%) 그룹입니다. 특히 마진부채 YoY +38.6%로 빚을 낸 매수가 많은 상황에서 금리 부담이 유지되면 조정 시 되돌림이 더 커질 수 있습니다. 반면 경기와 금리 방향에 덜 민감한 Healthcare 17종목(34%)이 상대적으로 견조할 근거가 됩니다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Bank of Korea delivers back-to-back rate hikes as core inflation stays elevated",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/27/korea-bok-rate-hike-inflation.html",
+            "date": "2026-08-27",
+            "quote": "Bank of Korea delivers back-to-back rate hikes as core inflation stays elevated",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "오늘 시장은 \"개별 종목은 좋은데 지수는 무겁다\"는 그림입니다. 세일즈포스(+12%), 옥타(+20%), 크라우드스트라이크, 그리고 매출이 두 배로 늘어난 엔비디아까지 AI 관련 실적 소식은 줄줄이 좋았습니다. 그런데 QQQ는 종가 711.37로 MA10 717.94보다 아래에 있고, 10MA 기울기가 -0.66%로 꺾이는 중입니다. 정배열(단기선이 장기선 위에 있는 상승 대형)은 유지되지만 위로 밀어 올리는 힘이 줄어든 🟡 상태라, 진입 강도를 줄여야 하는 구간입니다. 반대편에는 연준 이사 해임 압박이라는 정치 리스크와 중국 산업이익 둔화, 한국은행 연속 인상이 보여주는 끈적한 물가가 놓여 있습니다. 게다가 FINRA 고객 마진부채가 전년 대비 +38.6%로 경고선인 +30%를 넘겼습니다 — 빚을 내서 산 물량이 많다는 뜻이고, 조정이 오면 되돌림이 평소보다 깊어질 수 있다는 신호입니다.",
+    "keyRisks": [
+      "마진부채 YoY +38.6% — 경고 기준 +30%를 초과. 빚으로 산 물량이 많아 하락 시 강제 매도가 연쇄될 수 있음",
+      "QQQ 종가 711.37이 MA10 717.94 아래이고 10MA 기울기 -0.66% — 정배열은 유지되나 상승 탄력 둔화, 신규 진입 사이즈 축소 구간",
+      "트럼프의 리사 쿡 연준 이사 해임 압박 지속 — 연준 독립성 훼손 우려는 고밸류 성장주(Technology 17종목·34%)에 가장 직접적",
+      "중국 산업이익 증가율 7개월래 최저 — Basic Materials 5종목(10%)과 중국 매출 비중 높은 Consumer Cyclical에 부담",
+      "한국은행 연속 금리 인상이 보여주는 글로벌 근원물가의 끈적함 — 금리 인하 기대 지연 리스크",
+      "메타 소셜미디어 중독 합의(167억~180억 달러로 보도) — 플랫폼 규제 리스크가 실제 비용으로 현실화",
+      "Z.ai의 중국산 칩 전용 AI 모델 — AI 반도체 수요 독점 구조에 대한 장기 의문 제기",
+      "OpenAI 에이전트 간 예기치 못한 대화로 촉발된 허깅페이스 해킹 — AI 자율화가 만드는 새로운 운영 리스크",
+      "200일선 대비 +150% 초과 종목 1개 — 일부 주도주의 과열 신호, 추격매수 시 손실 폭 확대 가능"
+    ],
+    "easySummary": [
+      "AI 실적은 진짜였습니다 — 엔비디아 매출 두 배, 세일즈포스 +12%, 옥타 +20%, 크라우드스트라이크 사상 최고 분기. 돈이 도는 쪽은 확실히 돌고 있습니다.",
+      "그런데 지수는 힘이 빠졌습니다 — QQQ 종가 711.37이 MA10 717.94 아래, 10MA 기울기 -0.66%. 정배열이지만 🟡 기울기 둔화라 새로 들어갈 땐 금액을 줄이는 게 맞습니다.",
+      "가장 조심할 건 빚입니다 — 마진부채가 전년 대비 +38.6%로 경고선 +30%를 넘겼습니다. 여기에 연준 인사 갈등·중국 둔화·끈적한 물가가 겹치면 되돌림이 평소보다 깊을 수 있습니다."
+    ],
+    "candidateCount": 16,
+    "verified": {
+      "checked": 238,
+      "ok": 270,
+      "unverified": 58,
+      "dead": 0,
+      "stripped": 6,
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/silicon-motions-q2-earnings-beat-142300987.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-26-everpure-nysep-reports-upbeat-q2-cy2026-guides-for-strong-full-year-sales"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026053346/sndk-20260805.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/e-l-f-beauty-elf-101206517.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://stockstotrade.com/news/twist-bioscience-corporation-twst-news-2026_08_19/"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000041/anf-20260826.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/715579/000162828026049299/acnb-20260723.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/715579/000162828026050410/acnb-20260728.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.gurufocus.com/news/8993494/essex-property-trust-inc-ess-q2-2026-earnings-call-highlights-strong-ffo-beat-and-raised-guidance-amid-regional-divergence"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.investing.com/news/company-news/andersons-q2-2026-slides-renewables-drive-record-earnings-93CH-4834713"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/821026/000082102626000120/ande-20260803.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.dailypolitical.com/2026/08/19/analysts-set-the-andersons-inc-nasdaqande-target-price-at-95-00.html"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/785161/000078516126000183/ehc-20260805.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.investing.com/news/company-news/seneca-foods-stock-hits-alltime-high-at-19650-93CH-4867628"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.fool.com/investing/2026/08/26/why-meta-platforms-stock-popped-today/"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/913341/000091334126000038/cffi-20260723x8k.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.trendforce.com/presscenter/news/20260331-12995.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://stockstotrade.com/news/sandisk-corporation-sndk-news-2026_08_17/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.blocksandfiles.com/flash/2026/02/27/ai-server-frenzy-fuels-record-revenues-for-dell/4092727"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.seoul.co.kr/news/economy/2026/07/08/20260708500112"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.ibtimes.com/refiner-stocks-have-soared-more-80-2026-last-5-times-this-happened-they-fell-later-3806533"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.forbes.com/sites/garthfriesen/2026/07/23/refining-stocks-soar-as-crack-spread-hits-record-high-in-2026/"
+        }
+      ],
+      "noQuote": 7
+    },
+    "reusedFrom": null
   }
 };
