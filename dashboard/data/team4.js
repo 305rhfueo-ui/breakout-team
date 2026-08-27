@@ -1,5 +1,5 @@
 window.TEAM4_DATA = {
-  "generated": "2026-08-27",
+  "generated": "2026-08-28",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2
@@ -27,92 +27,9 @@ window.TEAM4_DATA = {
         "rangePct": 121.84
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "ANF",
-        "category": 1,
-        "categoryName": "어닝 서프라이즈 및 가이던스 상향",
-        "company": "Abercrombie & Fitch(ANF)는 미국의 의류 소매 기업으로, 자사 브랜드인 애버크롬비앤피치(Abercrombie & Fitch)와 홀리스터(Hollister) 매장 및 온라인몰을 통해 청바지·티셔츠·아우터 같은 캐주얼 의류를 판매해 돈을 번다. 업종은 소비재 순환(Consumer Cyclical) 중 의류 소매(Apparel Retail)다.",
-        "volumeExplanation": "2026년 8월 26일 ANF는 2분기(Q2) 실적을 발표하는 8-K 공시(item 2.02, 실적 발표)를 제출했고, 같은 날 여러 매체가 이를 일제히 보도했다. Zacks는 \"Abercrombie & Fitch (ANF) Q2 Earnings and Revenues Beat Estimates\"라는 제목으로 매출과 EPS가 시장 예상치를 모두 상회했다고 전했고, RTTNews는 \"Abercrombie & Fitch Boosts FY26 Outlook As Q2 EPS, Sales Rise; Shares Surge 8.3%\"라는 제목으로 2026 회계연도(FY26) 실적 가이던스 상향과 함께 주가가 8.3% 급등했다고 보도했다. The Motley Fool은 \"Why Abercrombie & Fitch Stock Surged 35% Today\"라는 제목의 기사와 \"Abercrombie & Fitch Just Delivered Its 15th Consecutive Quarter of Sales Growth\"라는 제목의 기사를 같은 날(8/26) 냈는데, 이는 ANF가 15개 분기 연속 매출 성장을 이어갔다는 실적 서프라이즈를 의미한다. 이 실적 발표 하루 만에 거래대금이 20일 평균 대비 10.73배(VOL_X), 주간 거래량은 최근 5일 평균 대비 13.48배로 폭증했고, 종가강도 71.94에 52주 고점 대비 95.58% 지점까지 밀어올리며 60일 신고가를 돌파했다. 즉 실적 발표(8-K item 2.02, 2026-08-26)와 가이던스 상향이라는 명확한 촉매가 존재하고, 이것이 거래량 폭증과 주가 급등(기사 제목 기준 최대 35%)으로 직결된 것으로 판단된다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
-          },
-          {
-            "id": "c2",
-            "statement": "ANF의 2분기 실적이 매출과 EPS 모두 시장 예상치를 상회(beat)했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Abercrombie & Fitch (ANF) Q2 Earnings and Revenues Beat Estimates",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/abercrombie-fitch-anf-q2-earnings-and-revenues-beat-estimates",
-                "date": "2026-08-26",
-                "quote": "Abercrombie & Fitch (ANF) Q2 Earnings and Revenues Beat Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "ANF가 2026 회계연도(FY26) 실적 가이던스를 상향했고, 이날 주가가 8.3% 급등했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Abercrombie & Fitch Boosts FY26 Outlook As Q2 EPS, Sales Rise; Shares Surge 8.3%",
-                "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/abercrombie-fitch-boosts-fy26-outlook-q2-eps-sales-rise-shares-surge-83",
-                "date": "2026-08-26",
-                "quote": "Abercrombie & Fitch Boosts FY26 Outlook As Q2 EPS, Sales Rise; Shares Surge 8.3%",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "ANF가 15개 분기 연속 매출 성장을 기록했으며, 이것이 주가 급등의 실질적 이유로 보도되었다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Abercrombie & Fitch Just Delivered Its 15th Consecutive Quarter of Sales Growth. Here's the Real Reason the Stock Is Skyrocketing.",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/abercrombie-fitch-just-delivered-its-15th-consecutive-quarter-sales-growth-heres-real",
-                "date": "2026-08-26",
-                "quote": "Abercrombie & Fitch Just Delivered Its 15th Consecutive Quarter of Sales Growth. Here's the Real Reason the Stock Is Skyrocketing.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c5",
-            "statement": "같은 날 다른 매체 기준으로는 ANF 주가가 35% 급등했다고 보도되었다(거래일 중 시점·기준가에 따라 RTTNews의 8.3%와 수치 차이가 있음).",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Why Abercrombie & Fitch Stock Surged 35% Today",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/why-abercrombie-fitch-stock-surged-35-today",
-                "date": "2026-08-26",
-                "quote": "Why Abercrombie & Fitch Stock Surged 35% Today",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "confidence": "high",
-        "isHighlight": true,
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "모든 클레임이 출처와 일치. 8-K item 2.02 실적 발표 있음. 'Boosts FY26 Outlook'으로 가이던스 상향 명확. 카테고리 1은 적절."
-        }
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -135,90 +52,9 @@ window.TEAM4_DATA = {
         "rangePct": 86.79
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "DY",
-        "category": 1,
-        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
-        "company": "Dycom Industries(다이컴 인더스트리즈)는 미국 통신사·케이블 업체를 위해 광케이블(파이버) 네트워크와 5G 무선 통신망을 직접 설계·시공·유지보수해주는 엔지니어링·건설 회사다. AT&T, 버라이즌 같은 대형 통신사와 장기 계약을 맺고 현장 작업조를 투입해 케이블을 매설하고 통신 인프라를 깔아주는 일로 돈을 번다. 산업 분류상 Industrials(산업재) 안의 Engineering & Construction(엔지니어링·건설) 업종에 속한다.",
-        "volumeExplanation": "2026년 8월26일, Dycom이 2027회계연도 2분기(8월1일 마감분) 실적을 발표했다(SEC 8-K, item 2.02 '실적 발표', 접수일 2026-08-26). 조정 주당순이익(EPS)은 5.29달러로 컨센서스 4.68달러를 크게 상회했고, 매출도 시장 예상을 웃돌았다. 회사는 같은 날 1억5000만 달러 규모의 신규 자사주 매입 프로그램도 승인했다. 다만 실적 호조에도 불구하고 주가는 발표 당일 11.62% 급락해 310.91달러로 마감했는데, 이는 다음 분기(3분기) 가이던스가 시장 기대에 못 미친 것이 함께 반영되며 대규모 매도 물량이 쏟아진 것으로 풀이된다. 즉 이번 거래량 폭증은 '실적발표'라는 단일 이벤트가 만든 것이지만, 그 반응은 서프라이즈성 호재(EPS 컨센서스 상회)와 단기 가이던스 실망이 뒤섞인 형태였다. 그 결과 거래대금이 20일 평균의 3.83배(VOL_X), 거래량이 최근 5일 평균의 3.92배로 급증했고, 종가강도가 26.27로 낮게(당일 저가권 마감) 나타난 것도 매수보다 매도세가 강하게 실렸음을 보여준다.",
-        "isHighlight": true,
-        "confidence": "high",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "Zacks는 2026년 8월26일 Dycom의 2분기 실적과 매출이 모두 시장 예상치를 웃돌았다고 보도했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Dycom Industries (DY) Q2 Earnings and Revenues Top Estimates",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/dycom-industries-dy-q2-earnings-and-revenues-top-estimates",
-                "date": "2026-08-26",
-                "quote": "Dycom Industries (DY) Q2 Earnings and Revenues Top Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "SEC에 접수된 8-K 공시(item 2.02, 실적발표)가 2026년 8월26일이 공식 실적발표일임을 확인해준다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "8-K (Dycom Industries)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000039/dy-20260826.htm",
-                "date": "2026-08-26",
-                "quote": "items: 2.02 (실적 발표), 9.01 (재무제표·첨부)",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "회사는 실적발표와 같은 날 1억5000만 달러 규모의 신규 자사주 매입 프로그램을 승인했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Dycom Industries Authorizes New $150 Mln Share Repurchase Program",
-                "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/dycom-industries-authorizes-new-150-mln-share-repurchase-program",
-                "date": "2026-08-26",
-                "quote": "Dycom Industries Authorizes New $150 Mln Share Repurchase Program",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c5",
-            "statement": "실적과 가이던스가 양호했음에도 주가는 발표 당일 11.62% 급락해 310.91달러로 마감했다 — 다음 분기 가이던스에 대한 우려가 겹친 것으로 풀이된다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Dycom Industries (DY) Stock Price & Overview",
-                "publisher": "StockAnalysis.com",
-                "url": "https://stockanalysis.com/stocks/dy/",
-                "date": "2026-08-26",
-                "quote": "On the earnings announcement date (August 26, 2026), Dycom's stock declined 11.62% to close at $310.91",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [
-            "c3",
-            "c6"
-          ],
-          "reason": "분류 1(어닝 서프라이즈)이 적절함. c3의 매출 구체 숫자('20억1000만 달러' 등)는 quote에 없어 제거, c6의 'EPS 컨센서스 4.62달러'는 quote에 없어 제거. 남은 c1(Zacks 'Top Estimates'), c2(8-K 공시), c4(자사주 매입), c5(주가 급락)로 서프라이즈와 반응 충분히 입증됨.",
-          "narrativeFixed": true
-        },
-        "volumeExplanationOriginal": "2026년 8월26일, Dycom이 2027회계연도 2분기(8월1일 마감분) 실적을 발표했다(SEC 8-K, item 2.02 '실적 발표', 접수일 2026-08-26). 매출은 20억1000만 달러로 시장 컨센서스 19억8000만 달러를 웃돌았고, 조정 주당순이익(EPS)은 5.29달러로 컨센서스 4.68달러를 크게 상회했다. 회사는 같은 날 1억5000만 달러 규모의 신규 자사주 매입 프로그램도 승인했다. 다만 실적 호조에도 불구하고 주가는 발표 당일 11.62% 급락해 310.91달러로 마감했는데, 이는 다음 분기(3분기) 가이던스가 시장 기대에 못 미친 것이 함께 반영되며 대규모 매도 물량이 쏟아진 것으로 풀이된다. 즉 이번 거래량 폭증은 '실적발표'라는 단일 이벤트가 만든 것이지만, 그 반응은 서프라이즈성 호재(매출·EPS 컨센서스 상회)와 단기 가이던스 실망이 뒤섞인 형태였다. 그 결과 거래대금이 20일 평균의 3.83배(VOL_X), 거래량이 최근 5일 평균의 3.92배로 급증했고, 종가강도가 26.27로 낮게(당일 저가권 마감) 나타난 것도 매수보다 매도세가 강하게 실렸음을 보여준다."
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -237,121 +73,13 @@ window.TEAM4_DATA = {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 501,
+        "bars": 500,
         "rangePct": 49.59
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "SENEB",
-        "category": 1,
-        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
-        "company": "Seneca Foods Corporation은 미국 8개 주에서 26개 이상의 공장을 운영하며 캔·냉동 과일·채소를 가공해 자체 브랜드(Green Giant 등)와 유통업체 자체상표(private label)로 판매하는 포장식품(Packaged Foods) 회사다. 대형 마트·식품유통업체에 캔 채소·냉동 채소를 공급하는 것이 주 매출원이며, 2026년 3월 B&G Foods로부터 Green Giant 냉동채소 사업을 인수하며 사업 규모를 키웠다.",
-        "volumeExplanation": "2026년 8월 6일 발표된 2027 회계연도 1분기(2026년 6월 27일 마감) 실적에서 순매출이 전년 동기 2억 9,750만 달러에서 4억 520만 달러로 36% 급증했고, 조정순이익은 600만 달러에서 1,720만 달러로 187% 폭증했으며 희석주당순이익(EPS)도 2.14달러에서 2.85달러로 33% 늘었다. 이는 2026년 3월 인수한 Green Giant 냉동채소 사업 통합 효과가 실적에 본격 반영된 결과다. 이 어닝 서프라이즈 이후 주가 랠리가 이어지며 증권사 Freedom Broker가 목표주가를 202달러로 상향했고, 실적발표로부터 약 2주 뒤인 2026년 8월 19일 주가가 196.50달러로 사상 최고가를 갱신했다. 직전 회계연도(2026 회계연도) 전체로도 희석 EPS 14.15달러의 사상 최고 실적을 기록해 실적 모멘텀이 여러 분기째 이어지고 있다는 점이 확인된다. 실적발표 후 3주가 지난 현재까지 매수세가 지속되며 거래대금이 20일 평균 대비 3.72배(VOL_X), 최근 5일 평균 대비 주간 거래량이 3.36배로 급증한 것으로 판단된다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "2026년 8월 6일 발표된 2027 회계연도 1분기 실적에서 순매출이 전년 동기 2억 9,750만 달러에서 4억 520만 달러로 약 36% 증가했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Seneca Foods Earnings: $405M Sales, $2.85 Diluted EPS | SENEA Stock News",
-                "publisher": "StockTitan",
-                "url": "https://www.stocktitan.net/news/SENEA/seneca-foods-reports-sales-and-earnings-for-the-three-months-ended-6kuhsgfqvvoz.html",
-                "date": "2026-08-06",
-                "quote": "$405.2 million compared to $297.5 million",
-                "verified": "unverified",
-                "httpStatus": 429
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "같은 분기 조정순이익이 전년 동기 600만 달러에서 1,720만 달러로 약 187% 급증했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Seneca Foods Earnings: $405M Sales, $2.85 Diluted EPS | SENEA Stock News",
-                "publisher": "StockTitan",
-                "url": "https://www.stocktitan.net/news/SENEA/seneca-foods-reports-sales-and-earnings-for-the-three-months-ended-6kuhsgfqvvoz.html",
-                "date": "2026-08-06",
-                "quote": "$17.2 million versus $6.0 million",
-                "verified": "unverified",
-                "httpStatus": 429
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "같은 분기 희석주당순이익(EPS)이 전년 동기 2.14달러에서 2.85달러로 약 33% 증가했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Seneca Foods Earnings: $405M Sales, $2.85 Diluted EPS | SENEA Stock News",
-                "publisher": "StockTitan",
-                "url": "https://www.stocktitan.net/news/SENEA/seneca-foods-reports-sales-and-earnings-for-the-three-months-ended-6kuhsgfqvvoz.html",
-                "date": "2026-08-06",
-                "quote": "$2.85 from $2.14",
-                "verified": "unverified",
-                "httpStatus": 429
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "실적발표 이후 랠리가 이어지며 2026년 8월 19일 주가가 196.50달러로 사상 최고가를 기록했고, 증권사 Freedom Broker는 목표주가를 202달러로 상향하며 매수(Buy) 의견을 유지했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Seneca Foods stock hits all-time high at $196.50",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/company-news/seneca-foods-stock-hits-alltime-high-at-19650-93CH-4867628",
-                "date": "2026-08-19",
-                "quote": "Seneca Foods stock hits all-time high at $196.50",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "c5",
-            "statement": "직전 회계연도(2026 회계연도, 2026년 3월 31일 마감 12개월) 실적에서도 희석 EPS 14.15달러로 사상 최고 기록을 세워, 실적 모멘텀이 여러 분기째 이어지고 있다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Seneca Foods FY26 sales $1.66B, record EPS $14.15 | SENEA Stock News",
-                "publisher": "StockTitan",
-                "url": "https://www.stocktitan.net/news/SENEA/seneca-foods-reports-sales-and-earnings-for-the-quarter-and-twelve-h7el760vip6v.html",
-                "date": "2026-06-12",
-                "quote": "we are pleased to report record full-year FIFO diluted EPS of $14.15",
-                "verified": "unverified",
-                "httpStatus": 429
-              }
-            ]
-          },
-          {
-            "id": "c6",
-            "statement": "Node가 제공한 SEC 공시 목록상 2026-08-11 접수(보고기준일 2026-08-06)의 8-K는 항목 5.07(주주총회 표결)·9.01(재무제표 첨부)로만 분류되어 있어 item 2.02(실적발표) 표기는 없지만, 보고기준일이 위 실적발표일과 정확히 일치한다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "FORM 8-K (SENEB, filed 2026-08-11)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774926027008/senea20260806_8k.htm",
-                "date": "2026-08-11",
-                "quote": "items: 5.07, 9.01 / itemsKo: 주주총회 표결, 재무제표·첨부",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "confidence": "high",
-        "isHighlight": true,
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "6개 claims의 모든 숫자·사실이 출처 quote에서 확인됨. 매출 증가(36%), 순이익 증가(187%), EPS 증가(33%), 최고가 기록(196.50달러), 목표가 상향(202달러), 기록 EPS(14.15달러) 모두 유효."
-        }
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -375,7 +103,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -399,147 +128,26 @@ window.TEAM4_DATA = {
         "rangePct": 34.23,
         "breakoutDate": "2026-08-26",
         "breakoutVolX": 3.26,
-        "barsSinceBreakout": 0,
+        "barsSinceBreakout": 1,
         "aboveMa150AtBreak": true,
         "ma150AtBreak": 70.68,
         "pivot": 80.5,
-        "distToPivotPct": 3.04,
-        "phase": "breakout",
-        "phaseKo": "거래량 동반 저항 돌파",
+        "distToPivotPct": -2.12,
+        "retestDate": "2026-08-27",
+        "retestVolRatio": 2.2,
+        "dryUp": false,
+        "phase": "retest",
+        "phaseKo": "돌파 후 저항선 리테스트",
         "score": 45,
         "buyTrigger": {
           "price": 80.5,
-          "note": "되돌림 시 $80.5 지지 확인 후 진입"
+          "note": "저항선 $80.5 지지 확인 후 반등 시 진입"
         }
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "URBN",
-        "category": 1,
-        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
-        "company": "어반아웃피터스(Urban Outfitters, Inc., URBN)는 미국의 의류·라이프스타일 리테일 기업이다. Urban Outfitters, Anthropologie, Free People(FP) 등 자체 브랜드의 매장과 온라인몰을 통해 여성·남성 의류, 액세서리, 홈데코 상품을 팔고, 여기에 더해 구독형 의류 대여 서비스 Nuuly(누울리)도 운영해 매출을 낸다.",
-        "volumeExplanation": "2026-08-26 URBN이 회계연도 2분기(Q2) 실적을 발표했고, 이 날짜가 이번 거래량 폭증(20일 평균 거래대금 대비 3.48배, VOL_X)과 60일 신고가 돌파일과 정확히 겹친다. 총매출은 전년 대비 10% 늘어난 16.6억달러로 사상 최대치를 기록했고, 구독형 의류대여 서비스 Nuuly 매출은 29% 증가한 1억7860만달러, 평균 활성 구독자 수는 30% 늘었다. 조정 주당순이익(EPS)은 1.72달러로 애널리스트 컨센서스치 1.72달러와 정확히 일치해 전형적인 어닝서프라이즈(깜짝 실적)라기보다 예상치 부합에 가까웠지만, 매출 성장과 8분기 연속 기록적인 이익이라는 점이 긍정적으로 해석되면서 실적 발표 당일 주가는 9.46% 급등해 82.95달러(52주 신고가 84.35달러 근접)까지 올랐다. 실적 발표 전날인 2026-08-25에는 Zacks가 URBN을 매수(Buy) 등급으로 상향했고, 08-24에는 주가가 50일 이동평균선을 상향 돌파하는 등 실적 발표를 앞두고 이미 기술적 모멘텀이 형성돼 있었다.",
-        "isHighlight": true,
-        "confidence": "high",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "URBN은 2026-08-26에 2분기 실적을 발표했으며, 이는 이번 거래량 급증(VOL_X 3.48배) 및 60일 신고가 돌파일과 같은 날이다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Urban Outfitters (URBN) Matches Q2 Earnings Estimates",
-                "publisher": "Zacks (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/urban-outfitters-urbn-matches-q2-earnings-estimates",
-                "date": "2026-08-26",
-                "quote": "Urban Outfitters (URBN) Matches Q2 Earnings Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "2분기 총매출은 전년 대비 약 10% 증가한 16.6억달러로 사상 최대치를 기록했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Urban Outfitters Q2 FY'27 slides: record sales, Nuuly surges 29%",
-                "publisher": "Investing.com (UK)",
-                "url": "https://uk.investing.com/news/stock-market-news/urban-outfitters-q2-fy27-slides-record-sales-nuuly-surges-29-93CH-4848677",
-                "date": "2026-08-26",
-                "quote": "Urban Outfitters delivered total net sales of $1.66 billion in the second quarter, representing a 10% increase from the prior-year period.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "구독형 의류 대여 서비스 Nuuly 부문 매출은 29% 늘어난 1억7860만달러, 평균 활성 구독자 수는 30% 증가했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Urban Outfitters Q2 FY'27 slides: record sales, Nuuly surges 29%",
-                "publisher": "Investing.com (UK)",
-                "url": "https://uk.investing.com/news/stock-market-news/urban-outfitters-q2-fy27-slides-record-sales-nuuly-surges-29-93CH-4848677",
-                "date": "2026-08-26",
-                "quote": "the Subscription segment—home to the company's Nuuly rental service—achieved $178.6 million in sales, a 29% increase fueled by a 30% rise in average active subscribers.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "조정 주당순이익(EPS)은 1.72달러로 애널리스트 컨센서스 1.72달러와 정확히 일치했다 — 큰 폭의 어닝서프라이즈는 아니었다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Urban Outfitters (NASDAQ:URBN) Issues Earnings Results",
-                "publisher": "Daily Political",
-                "url": "https://www.dailypolitical.com/2026/08/26/urban-outfitters-nasdaqurbn-issues-earnings-results.html",
-                "date": "2026-08-26",
-                "quote": "The apparel retailer reported $1.72 earnings per share for the quarter, hitting analysts' consensus estimates of $1.72",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c5",
-            "statement": "실적 발표 당일 정규장에서 주가는 9.46% 급등해 82.95달러로 마감했고 52주 신고가(84.35달러)에 근접했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Urban Outfitters Q2 FY'27 slides: record sales, Nuuly surges 29%",
-                "publisher": "Investing.com (UK)",
-                "url": "https://uk.investing.com/news/stock-market-news/urban-outfitters-q2-fy27-slides-record-sales-nuuly-surges-29-93CH-4848677",
-                "date": "2026-08-26",
-                "quote": "The stock rose 9.46% during the regular session to $82.95, near its 52-week high of $84.35, before falling 3.56% to $80 in after-hours trading as investors digested the mixed results.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c6",
-            "statement": "CEO Richard A. Hayne는 이번 분기를 회사 역사상 최고 조정이익 분기이자 8분기 연속 기록적인 매출·이익이라고 밝혔다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "URBN Reports Record Q2 Sales and Profits",
-                "publisher": "GlobeNewswire (via Manila Times)",
-                "url": "https://www.manilatimes.net/2026/08/27/tmt-newswire/globenewswire/urbn-reports-record-q2-sales-and-profits/2412914",
-                "date": "2026-08-27",
-                "quote": "We are pleased to report our highest adjusted profit quarter in Company history, marking our eighth consecutive quarter of record sales and profits.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c7",
-            "statement": "실적 발표 전날인 2026-08-25 Zacks는 URBN을 매수(Buy) 등급으로 상향했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Urban Outfitters (URBN) Upgraded to Buy: Here's What You Should Know",
-                "publisher": "Zacks (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/urban-outfitters-urbn-upgraded-buy-heres-what-you-should-know",
-                "date": "2026-08-25",
-                "quote": "Urban Outfitters (URBN) Upgraded to Buy: Here's What You Should Know",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "모든 클레임이 출처와 일치. 숫자 환산 정확(16.6억달러, 1억 7860만달러). CEO quote 명확. 실적 발표 + 사상 최대 매출로 카테고리 1 적절."
-        }
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -563,11 +171,11 @@ window.TEAM4_DATA = {
         "rangePct": 24.11,
         "breakoutDate": "2026-08-05",
         "breakoutVolX": 15.35,
-        "barsSinceBreakout": 15,
+        "barsSinceBreakout": 16,
         "aboveMa150AtBreak": true,
         "ma150AtBreak": 75.55,
         "pivot": 86.18,
-        "distToPivotPct": 6.28,
+        "distToPivotPct": 5.13,
         "retestDate": "2026-08-06",
         "retestVolRatio": 5.31,
         "dryUp": false,
@@ -575,59 +183,14 @@ window.TEAM4_DATA = {
         "phaseKo": "🎯 리테스트 반등 — 매수 트리거",
         "score": 75,
         "buyTrigger": {
-          "price": 91.59,
+          "price": 90.6,
           "note": "리테스트 저점 $86.55 반등 + 거래량 회복 — 매수 트리거"
         }
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "CFFI",
-        "category": 6,
-        "categoryName": "암묵적 호재 (뉴스 없는 거래량 급증)",
-        "company": "C&F Financial Corporation은 미국 버지니아주 웨스트포인트에 본사를 둔 지역은행 지주회사(Banks - Regional)다. 자회사 C&F Bank를 통해 개인·기업 대상 수신·여신 상업은행 업무를 하고, 모기지(주택담보대출) 취급, 자동차 할부금융 등 소비자금융 사업도 함께 운영해 이자수익과 대출 관련 수수료로 돈을 번다.",
-        "volumeExplanation": "거래대금이 20일 평균 대비 3.29배(VOL_X 3.29), 주간 거래량도 최근 5일 평균 대비 2.4배로 늘었고, 이보다 앞서 2026-08-05에는 하루 거래량이 평소의 15.35배까지 튀며 6개월간 이어진 24.11% 폭의 횡보 구간을 위로 뚫었다(리테스트 반등 매수 트리거 발생). 그런데 이 급증 구간을 직접 설명할 만한 뉴스나 공시는 찾지 못했다. 가장 최근의 실질적 재료는 2026-07-23에 낸 2분기 실적(8-K, item 2.02)으로, 대출 성장과 순이자마진 개선에 힘입어 순이익이 전년 대비 늘었다는 내용(Zacks, 2026-07-24 보도)인데, 이는 8/5 거래량 폭증보다 약 2주 앞선 사건이라 시차가 크다. 오히려 8/5~8/7 구간에는 CEO와 사외이사가 자사주를 매도했다는 내부자거래 공시만 있었을 뿐, 주가를 밀어올릴 만한 호재성 뉴스는 검색되지 않았다. 정리하면 눈에 띄는 공개 뉴스 없이 거래량만 비정상적으로 터진 사례로 판단된다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "2026-07-23 발표된 2분기 실적에서 대출 성장과 순이자마진 개선으로 순이익이 전년 대비 증가했다 (다만 시점상 8/5 거래량 급증의 직접 방아쇠로 보기는 어렵다)",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "CFFI Q2 Earnings Rise Y/Y on Loan Growth & Margin Gains",
-                "publisher": "Zacks (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/cffi-q2-earnings-rise-y-y-loan-growth-margin-gains",
-                "date": "2026-07-24",
-                "quote": "CFFI Q2 Earnings Rise Y/Y on Loan Growth & Margin Gains",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
-          },
-          {
-            "id": "c4",
-            "statement": "2026-08-05 전후 거래량 폭증(15.35배) 및 이번 주 거래대금 배수(VOL_X) 3.29 급증을 직접 설명하는 뉴스나 공시는 검색에서 확인되지 않았다",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "confidence": "low",
-        "isHighlight": false,
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [
-            "c3"
-          ],
-          "reason": "분류 6(암묵적 호재)이 적절함. c3의 '주당 48센트' 숫자는 출처 quote에 없어 제거. 남은 c1(7월 23일 실적), c2(8-K 공시), c4(뉴스 부재)로 '뉴스 없는 거래량 급증' 분류 충분히 뒷받침됨.",
-          "narrativeFixed": true
-        },
-        "volumeExplanationOriginal": "거래대금이 20일 평균 대비 3.29배(VOL_X 3.29), 주간 거래량도 최근 5일 평균 대비 2.4배로 늘었고, 이보다 앞서 2026-08-05에는 하루 거래량이 평소의 15.35배까지 튀며 6개월간 이어진 24.11% 폭의 횡보 구간을 위로 뚫었다(리테스트 반등 매수 트리거 발생). 그런데 이 급증 구간을 직접 설명할 만한 뉴스나 공시는 찾지 못했다. 가장 최근의 실질적 재료는 2026-07-23에 낸 2분기 실적(8-K, item 2.02)으로, 대출 성장과 순이자마진 개선에 힘입어 순이익이 전년 대비 늘었다는 내용(Zacks, 2026-07-24 보도)인데, 이는 8/5 거래량 폭증보다 약 2주 앞선 사건이라 시차가 크다. 8/19에 8-K(Reg FD)로 공시된 것은 주당 48센트의 분기 정기배당으로, 서프라이즈성 재료가 아니라 매 분기 반복되는 통상적 공시다. 오히려 8/5~8/7 구간에는 CEO와 사외이사가 자사주를 매도했다는 내부자거래 공시만 있었을 뿐, 주가를 밀어올릴 만한 호재성 뉴스는 검색되지 않았다. 정리하면 눈에 띄는 공개 뉴스 없이 거래량만 비정상적으로 터진 사례로 판단된다."
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -650,85 +213,9 @@ window.TEAM4_DATA = {
         "rangePct": 187.21
       },
       "catalyst": {
-        "status": "done",
-        "category": 2,
-        "categoryName": "바이오테크·헬스케어 — 임상 성공, FDA 승인",
-        "ticker": "SYRE",
-        "company": "Spyre Therapeutics는 아직 제품을 판매하지 않는 임상단계 바이오테크 회사입니다. 염증성 장질환(IBD, 예: 크론병·궤양성대장염)과 류마티스 관절염(RA) 치료를 위한 항체 신약 후보물질을 개발하고 있습니다. 대표 파이프라인은 류마티스 관절염 후보물질 SPY072와 염증성 장질환·화농성 한선염(HS) 후보물질 SPY772이며, 회사는 제품 매출이 아니라 파트너십 마일스톤 수익과 증자 자금으로 임상시험 비용을 충당하는 구조입니다.",
-        "volumeExplanation": "2026년 8월 26일 RTTNews(Nasdaq 게재) 보도에 따르면 Spyre의 류마티스 관절염(RA) 치료제 후보 SPY072가 2상 임상시험에서 \"혼재된 효능(mixed efficacy)\"을 보였고 단독요법(monotherapy) 내부 목표치를 충족하지 못했습니다. 이 보도 하루 전인 8월 25일 회사는 8-K 공시(Item 7.01 Reg FD 공시, Item 8.01 기타 중요사건)를 제출했는데, 시점상 이 임상 데이터 관련 공시로 추정됩니다. 이미 8월 24일 Zacks 기사는 SYRE가 최근 3개월간 44.9% 급등했고 \"임상 촉매(clinical catalysts)\"가 이를 지속시킬 수 있을지가 관건이라고 짚었으며, 8월 5일 RTTNews는 9월에 두 건의 2상(Phase 2) 결과 발표가 추가로 예정되어 있다고 전했습니다. 즉 9월 예정된 추가 판독을 앞두고 8월 26일 나온 이번 RA 2상 결과(단독요법 기준 미충족·혼재된 효능)가 시장의 불확실성을 해소·재평가하는 재료로 작용하며, 거래대금이 20일 평균 대비 3.09배(VOL_X 3.09), 주간 거래량이 당일 제외 직전 5일 평균 대비 3.5배로 급증한 것으로 판단됩니다. 다만 결과가 \"혼재\"되고 60일 신고가 돌파에는 실패했으며 종가강도도 53.47로 중간 수준에 그친 점은, 이번 소식이 확실한 호재라기보다 임상 불확실성이 부분적으로만 해소된 사건임을 시사합니다.",
-        "isHighlight": false,
-        "confidence": "medium",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "2026년 8월 26일, Spyre의 류마티스 관절염 치료제 후보 SPY072가 2상 임상에서 혼재된 효능을 보였고 단독요법 내부 기준을 충족하지 못했다는 뉴스가 보도됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Spyre's SPY072 Shows Mixed Efficacy In Phase 2 RA Study, Fails Internal Bar For Monotherapy",
-                "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/spyres-spy072-shows-mixed-efficacy-phase-2-ra-study-fails-internal-bar-monotherapy",
-                "date": "2026-08-26",
-                "quote": "Spyre's SPY072 Shows Mixed Efficacy In Phase 2 RA Study, Fails Internal Bar For Monotherapy",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "이 임상 뉴스 하루 전인 2026년 8월 25일, 회사는 Reg FD 공시(Item 7.01)와 기타 중요사건(Item 8.01)을 포함한 8-K를 SEC에 제출했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "8-K (Item 7.01 Reg FD 공시, Item 8.01 기타 중요사건, Item 9.01 재무제표·첨부)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000105/syre-20260825.htm",
-                "date": "2026-08-25",
-                "quote": "items: 7.01, 8.01, 9.01 / itemsKo: Reg FD 공시, 기타 중요사건, 재무제표·첨부",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "2026년 8월 24일 기준 SYRE는 최근 3개월간 44.9% 상승했으며, 이 상승이 향후 임상 촉매로 지속될 수 있을지가 시장의 관심사였다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "SYRE Rallies 44.9% in 3 Months. Can Clinical Catalysts Sustain It?",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/syre-rallies-449-3-months-can-clinical-catalysts-sustain-it",
-                "date": "2026-08-24",
-                "quote": "SYRE Rallies 44.9% in 3 Months. Can Clinical Catalysts Sustain It?",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "2026년 8월 5일 보도에 따르면, 2026년 9월에 두 건의 추가 2상(Phase 2) 임상 결과 발표가 예정되어 있었다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Spyre Q2 Loss Narrows On $40 Mln Milestone Gains; Two Phase 2 Readouts Due In September 2026",
-                "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/spyre-q2-loss-narrows-40-mln-milestone-gains-two-phase-2-readouts-due-september-2026",
-                "date": "2026-08-05",
-                "quote": "Spyre Q2 Loss Narrows On $40 Mln Milestone Gains; Two Phase 2 Readouts Due In September 2026",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "모든 클레임이 출처와 일치. 숫자·날짜가 quote에 정확히 기록됨. 카테고리 2(임상 성공)는 적절."
-        }
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -752,7 +239,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -776,7 +264,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -798,7 +287,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -822,7 +312,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -846,7 +337,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -870,7 +362,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -894,7 +387,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -918,7 +412,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -938,11 +433,12 @@ window.TEAM4_DATA = {
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
         "bars": 501,
-        "rangePct": 52.8
+        "rangePct": 53.98
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -966,7 +462,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -990,7 +487,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1014,7 +512,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1033,11 +532,12 @@ window.TEAM4_DATA = {
         "ok": false,
         "phase": "none",
         "phaseKo": "봉 부족 — 판정불가",
-        "bars": 59
+        "bars": 60
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1057,11 +557,12 @@ window.TEAM4_DATA = {
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
         "bars": 501,
-        "rangePct": 150.56
+        "rangePct": 179.05
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1081,11 +582,12 @@ window.TEAM4_DATA = {
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
         "bars": 501,
-        "rangePct": 140.76
+        "rangePct": 145.09
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1109,11 +611,11 @@ window.TEAM4_DATA = {
         "rangePct": 32.5,
         "breakoutDate": "2026-06-26",
         "breakoutVolX": 4.97,
-        "barsSinceBreakout": 42,
+        "barsSinceBreakout": 43,
         "aboveMa150AtBreak": true,
         "ma150AtBreak": 50.98,
         "pivot": 59.12,
-        "distToPivotPct": 8.8,
+        "distToPivotPct": 9.13,
         "retestDate": "2026-06-29",
         "retestVolRatio": 2.28,
         "dryUp": false,
@@ -1122,132 +624,13 @@ window.TEAM4_DATA = {
         "score": 45,
         "buyTrigger": {
           "price": 59.12,
-          "note": "과확장(피봇 +8.8% > 3×ADR 5.91%) — 되돌림 대기"
+          "note": "과확장(피봇 +9.13% > 3×ADR 5.91%) — 되돌림 대기"
         }
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "ACNB",
-        "category": 1,
-        "categoryName": "어닝 서프라이즈 및 실적 가이던스 상향",
-        "company": "ACNB Corporation은 미국 펜실베이니아주 게티즈버그에 본사를 둔 자산 약 33억 2천만 달러 규모의 금융지주회사(financial holding company)로, 지역은행 ACNB Bank와 보험중개 자회사 ACNB Insurance Services, Inc.를 자회사로 두고 있다. 예금을 받아 대출을 해주고 그 이자 차이(순이자마진)로 돈을 벌고, 보험 판매 수수료도 함께 벌어들이는 전형적인 미국 지역은행 지주회사다.",
-        "volumeExplanation": "2026년 7월 23일 ACNB는 2분기 실적을 발표했다. 순이익 1,520만달러(주당순이익 1.49달러)로, 전년동기(순이익 1,160만달러, 주당순이익 1.11달러) 대비 약 34% 늘어난 분기 사상 최대(record) 실적이었고, 시장 예상치를 상회했다(Zacks \"Surpasses Q2 Earnings and Revenue Estimates\"). 이 발표는 SEC 8-K item 2.02(실적 발표)로 같은 날 공시됐다. 엿새 뒤인 7월 29일에는 분기 배당금을 전년동기 0.34달러에서 23.5% 올린 0.42달러로 상향(9월 15일 지급, 9월 1일 기준일)한다고 발표했고, 직전 분기 특별배당 0.50달러를 포함한 연초 이후 누적 배당금이 전년 1.00달러에서 1.72달러로 72% 늘었다고 밝혔다. 이 실적·배당 호재 이후 주가는 7월 28일 52주 신고가를 찍었고(Zacks \"Hit a 52 Week High, Can the Run Continue?\"), 8월 12일·17일에도 배당·실적 호조를 다루는 후속 기사(Zacks \"Could Be a Great Choice\", BNK Invest \"Upcoming Dividend Run\")가 이어지며 관심이 유지되고 있다. 오늘(8/27) 기준으로는 60일 신고가 갱신도 없이 52주 고점의 97.54% 지점에서 과확장된 채로 거래대금이 20일 평균의 2배(VOL_X 2), 주간 거래량도 평균의 1.27배 수준에 그쳐, 새로운 촉발 뉴스라기보다 7월 실적·배당 호재의 관심이 여진처럼 이어지는 흐름으로 보인다.",
-        "claims": [
-          {
-            "id": "q2-earnings-record",
-            "statement": "2026년 2분기 순이익 1,520만 달러(주당순이익 1.49달러)로 전년동기 대비 약 34% 증가한 분기 사상 최대 실적을 기록했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "ACNB Corporation Reports Record 2026 Second Quarter Financial Results",
-                "publisher": "GlobeNewswire (via StockTitan)",
-                "url": "https://www.stocktitan.net/news/ACNB/acnb-corporation-reports-record-2026-second-quarter-financial-rvt0pa50jety.html",
-                "date": "2026-07-23",
-                "quote": "net income of $15.2 million, or $1.49 diluted earnings per share, for the three months ended June 30, 2026, compared to net income of $11.6 million, or $1.11 diluted earnings per share, for the three months ended June 30, 2025",
-                "verified": "unverified",
-                "httpStatus": 429
-              }
-            ]
-          },
-          {
-            "id": "q2-earnings-beat-estimates",
-            "statement": "2분기 실적이 Zacks 컨센서스 예상치를 상회한 것으로 보도됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "ACNB (ACNB) Surpasses Q2 Earnings and Revenue Estimates",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/acnb-acnb-surpasses-q2-earnings-and-revenue-estimates",
-                "date": "2026-07-23",
-                "quote": "ACNB (ACNB) Surpasses Q2 Earnings and Revenue Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "8k-earnings-filing",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
-          },
-          {
-            "id": "dividend-hike",
-            "statement": "2026년 7월 29일 분기 배당금을 전년동기 0.34달러에서 23.5% 올린 0.42달러로 상향했고, 연초 이후 누적 배당금이 특별배당 포함 전년 1.00달러에서 1.72달러로 72% 늘었다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "ACNB Corporation Announces Third Quarter of 2026 Cash Dividend",
-                "publisher": "GlobeNewswire (via Manila Times)",
-                "url": "https://www.manilatimes.net/2026/07/29/tmt-newswire/globenewswire/acnb-corporation-announces-third-quarter-of-2026-cash-dividend/2394074",
-                "date": "2026-07-29",
-                "quote": "a regular quarterly cash dividend of $0.42 per share... This per share amount reflects a 23.5% increase, or $0.08, over the $0.34 cash dividend paid in the third quarter of 2025... inclusive of the $0.50 special dividend paid in the prior quarter, $1.72 per share in dividends through the third quarter of 2026, compared to $1.00 per share paid over the same period in 2025, an increase of 72%",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "8k-dividend-filing",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
-          },
-          {
-            "id": "52wk-high",
-            "statement": "실적·배당 호재 직후인 2026년 7월 28일 52주 신고가를 기록했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "ACNB Corporation (ACNB) Hit a 52 Week High, Can the Run Continue?",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/acnb-corporation-acnb-hit-52-week-high-can-run-continue",
-                "date": "2026-07-28",
-                "quote": "ACNB Corporation (ACNB) Hit a 52 Week High, Can the Run Continue?",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "continued-dividend-coverage",
-            "statement": "8월 12일·17일까지도 배당·실적 관련 후속 기사가 이어지며 관심이 지속됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "ACNB (ACNB) Could Be a Great Choice",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/acnb-acnb-could-be-great-choice",
-                "date": "2026-08-12",
-                "quote": "ACNB (ACNB) Could Be a Great Choice",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Upcoming Dividend Run For ACNB?",
-                "publisher": "BNK Invest",
-                "url": "https://www.nasdaq.com/articles/upcoming-dividend-run-acnb",
-                "date": "2026-08-17",
-                "quote": "Upcoming Dividend Run For ACNB?",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "confidence": "medium",
-        "isHighlight": true,
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "no-source-for-june-breakout"
-          ],
-          "reason": "no-source-for-june-breakout이 구체적 숫자('6월 26일', '거래량 4.97배')를 포함했으나 sources가 공란(no_source)이므로 제거. 나머지 클레임은 모두 검증됨. 8-K item 2.02 있고 배당 상향 명확.",
-          "narrativeFixed": true
-        },
-        "volumeExplanationOriginal": "2026년 7월 23일 ACNB는 2026년 2분기 실적을 발표했다. 순이익 1,520만 달러(주당순이익 1.49달러)로, 전년동기(순이익 1,160만 달러, 주당순이익 1.11달러) 대비 약 34% 늘어난 분기 사상 최대(record) 실적이었고, 시장 예상치를 상회했다(Zacks \"Surpasses Q2 Earnings and Revenue Estimates\"). 이 발표는 SEC 8-K item 2.02(실적 발표)로 같은 날 공시됐다. 엿새 뒤인 7월 29일에는 분기 배당금을 전년동기 0.34달러에서 23.5% 올린 0.42달러로 상향(9월 15일 지급, 9월 1일 기준일)한다고 발표했고, 직전 분기 특별배당 0.50달러를 포함한 연초 이후 누적 배당금이 전년 1.00달러에서 1.72달러로 72% 늘었다고 밝혔다. 이 실적·배당 호재 이후 주가는 7월 28일 52주 신고가를 찍었고(Zacks \"Hit a 52 Week High, Can the Run Continue?\"), 8월 12일·17일에도 배당·실적 호조를 다루는 후속 기사(Zacks \"Could Be a Great Choice\", BNK Invest \"Upcoming Dividend Run\")가 이어지며 관심이 유지되고 있다. 다만 6월 26일 베이스 돌파(거래량 4.97배) 시점 자체에 대한 직접 뉴스는 확인되지 않았고, 오늘(8/27) 기준으로는 60일 신고가 갱신도 없이 52주 고점의 97.54% 지점에서 과확장된 채로 거래대금이 20일 평균의 2배(VOL_X 2), 주간 거래량도 평균의 1.27배 수준에 그쳐, 새로운 촉발 뉴스라기보다 7월 실적·배당 호재의 관심이 여진처럼 이어지는 흐름으로 보인다."
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1271,7 +654,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1295,7 +679,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1319,7 +704,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1343,9 +729,9 @@ window.TEAM4_DATA = {
         "baseBars": 126,
         "baseMonths": 6,
         "rangePct": 9.44,
-        "contraction": 0.93,
+        "contraction": 0.97,
         "pivot": 344.53,
-        "distToPivotPct": -6.23,
+        "distToPivotPct": -6.83,
         "aboveMa150AtNow": false,
         "buyTrigger": {
           "price": 344.53,
@@ -1354,89 +740,9 @@ window.TEAM4_DATA = {
         "score": 50
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "PEN",
-        "category": 6,
-        "categoryName": "암묵적 호재 (뚜렷한 신규 촉매 뉴스 없음 — 진행 중인 M&A 차익거래 배경만 확인)",
-        "company": "페누브라(Penumbra, Inc.)는 뇌졸중이나 정맥혈전색전증처럼 혈관 속에 생긴 혈전(피떡)을 몸 밖으로 빨아내 제거하는 혈전제거술(thrombectomy) 의료기기를 만들어 파는 회사다. 컴퓨터로 흡인력을 조절하는 CAVT(컴퓨터제어 흡인 혈전제거) 방식의 'Thunderbolt', 'Lightning Flash' 카테터 제품이 주력이며, 신경혈관(뇌졸중)과 말초혈관(다리 정맥 등) 두 사업부에서 매출을 낸다. 2026년 1월부터는 대형 의료기기업체 보스턴사이언티픽(Boston Scientific)에 인수되는 계약이 진행 중이라, 현재 이 주식은 사실상 인수합병(M&A) 차익거래 종목 성격을 띠고 있다.",
-        "volumeExplanation": "이번 거래량 급증(거래대금 20일평균 대비 1.95배, 직전 5일평균 대비 주간 2.34배)은 명확한 신규 촉매가 아니라 진행 중인 M&A 구조에서 비롯된 것으로 보인다. 보스턴사이언티픽은 2026년 1월 15일 페누브라를 주당 374달러(현금 또는 자사주 3.8721주 선택, 총액 기준 현금 약 73%·주식 약 27%)에 인수하기로 합의했다고 발표했다. 그런데 2026년 3월 16일 미국 연방거래위원회(FTC)가 양사에 'Second Request'(2차 자료제출 요구)를 보내 기업결합 심사가 길어졌고, 검색 시점까지 FTC 심사 종료 소식은 확인되지 않는다. 이 딜 불확실성 때문에 주가는 확정 인수가 374달러보다 낮은 수준에서 거래되며 150일 이동평균선 아래, 52주 고점 대비 89.14% 수준에서 6개월째 베이스폭 9.44%의 횡보를 이어가고 있다 — 전형적인 규제 지연형 M&A 차익거래 패턴이다. 2026년 7월 30일 발표된 2분기 실적도 EPS가 시장 예상치(주당순이익 1.16달러)를 0.28달러 밑도는 어닝 미스였고 인수 예정 때문에 연간 가이던스도 제공되지 않아 새 호재로 보기 어렵다. PEN.json에서 확보된 가장 최근 뉴스도 2026-08-26자 Zacks의 정기 가치주 비교 기사(\"TFX or PEN: Which Is the Better Value Stock Right Now?\")뿐으로, 몇 주마다 반복되는 기계적 비교 기사일 뿐 촉매성 정보가 아니다. 따라서 오늘 거래량 급증은 단일 촉매보다 M&A 차익거래 구조 자체에서 나타나는 변동성 성격이 강하다고 판단해 암묵적(6번) 분류로 처리한다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "보스턴사이언티픽이 2026년 1월 15일 페누브라를 주당 374달러(현금 또는 자사주 선택, 현금 약 73%·주식 약 27% 비율)에 인수하기로 공식 합의했다고 발표했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Boston Scientific announces agreement to acquire Penumbra, Inc.",
-                "publisher": "Boston Scientific",
-                "url": "https://news.bostonscientific.com/2026-01-15-Boston-Scientific-announces-agreement-to-acquire-Penumbra,-Inc",
-                "date": "2026-01-15",
-                "quote": "Penumbra stockholders have the right to elect to receive $374 in cash or 3.8721 shares of Boston Scientific common stock (valued at $374 based on the volume weighted average price of Boston Scientific common stock over the last 10 trading days, as of January 13, 2026), subject to proration, so that the total transaction consideration is paid approximately 73% in cash and approximately 27% in shares of Boston Scientific common stock.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "2026년 3월 16일 FTC가 페누브라·보스턴사이언티픽 양사에 'Second Request'(2차 자료제출 요구)를 보내 기업결합 심사가 연장됐고, 검색 시점까지 이 규제 심사 종료 소식은 확인되지 않는다 — 즉 딜 완료에 대한 불확실성이 아직 남아 있다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Boston Scientific, Penumbra received second request from US FTC on March 16",
-                "publisher": "MLex",
-                "url": "https://www.mlex.com/mlex/mergers-acquisitions/articles/2460864",
-                "date": "2026-03-16",
-                "quote": "On March 16, 2026, Penumbra and Boston Scientific each received a Second Request from the FTC in connection with the FTC's review of the Merger.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "2026년 7월 30일 발표된 2분기 실적은 주당순이익(EPS)이 시장 예상치를 0.28달러 밑도는 어닝 미스였고, 인수 예정을 이유로 연간 가이던스도 제공되지 않았다 — 즉 최근 실적은 새 호재가 아니라 예상치 하회였다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Penumbra Inc earnings missed by $0.28, revenue topped estimates",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/earnings/penumbra-inc-earnings-missed-by-028-revenue-topped-estimates-4826283",
-                "date": "2026-07-30",
-                "quote": "Penumbra reported second quarter EPS of $0.88, $0.28 worse than the analyst estimate of $1.16, while revenue came in at $390.04M versus the consensus estimate of $389.61M.",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "PEN.json에 확보된 뉴스 중 가장 최근 것은 2026-08-26자 Zacks의 정기 가치주 비교 기사로, 신규 촉매성 정보가 아니라 몇 주마다 반복되는 기계적 비교 기사다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "TFX or PEN: Which Is the Better Value Stock Right Now?",
-                "publisher": "Zacks (via Nasdaq)",
-                "url": "https://www.nasdaq.com/articles/tfx-or-pen-which-better-value-stock-right-now",
-                "date": "2026-08-26",
-                "quote": "TFX or PEN: Which Is the Better Value Stock Right Now?",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "confidence": "medium",
-        "isHighlight": false,
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "c5"
-          ],
-          "reason": "c5의 statement가 '근거 없음'으로, 이는 실제 주장이 아니라 단순 기록이므로 제거. 나머지 클레임은 모두 검증됨.",
-          "narrativeFixed": true
-        },
-        "volumeExplanationOriginal": "이번 거래량 급증(거래대금 20일평균 대비 1.95배, 직전 5일평균 대비 주간 2.34배)을 설명할 만한 신규 뉴스나 공시는 여러 차례 검색해도 찾지 못했다. 대신 확인된 것은 진행 중인 M&A 구조다 — 보스턴사이언티픽은 2026년 1월 15일 페누브라를 주당 374달러(현금 또는 자사주 3.8721주 선택, 총액 기준 현금 약 73%·주식 약 27%)에 인수하기로 합의했다고 발표했다. 그런데 2026년 3월 16일 미국 연방거래위원회(FTC)가 양사에 'Second Request'(2차 자료제출 요구)를 보내 기업결합 심사가 길어졌고, 검색 시점까지 FTC 심사 종료 소식은 확인되지 않는다. 이 딜 불확실성 때문에 주가는 확정 인수가 374달러보다 낮은 수준에서 거래되며 150일 이동평균선 아래, 52주 고점 대비 89.14% 수준에서 6개월째 베이스폭 9.44%의 횡보를 이어가고 있다 — 전형적인 규제 지연형 M&A 차익거래 패턴이다. 2026년 7월 30일 발표된 2분기 실적도 EPS가 시장 예상치(주당순이익 1.16달러)를 0.28달러 밑도는 어닝 미스였고 인수 예정 때문에 연간 가이던스도 제공되지 않아 새 호재로 보기 어렵다. PEN.json에서 확보된 가장 최근 뉴스도 2026-08-26자 Zacks의 정기 가치주 비교 기사(\"TFX or PEN: Which Is the Better Value Stock Right Now?\")뿐으로, 몇 주마다 반복되는 기계적 비교 기사일 뿐 촉매성 정보가 아니다. 따라서 오늘 거래량 급증은 단일 촉매보다 M&A 차익거래 구조 자체에서 나타나는 변동성 성격이 강하다고 판단해 암묵적(6번) 분류로 처리한다."
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1460,9 +766,9 @@ window.TEAM4_DATA = {
         "baseBars": 126,
         "baseMonths": 6,
         "rangePct": 27.21,
-        "contraction": 0.82,
+        "contraction": 0.87,
         "pivot": 303.35,
-        "distToPivotPct": -5,
+        "distToPivotPct": -7.45,
         "aboveMa150AtNow": true,
         "buyTrigger": {
           "price": 303.35,
@@ -1471,89 +777,9 @@ window.TEAM4_DATA = {
         "score": 20
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "ESS",
-        "category": 1,
-        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
-        "company": "Essex Property Trust(ESS)는 미국 서부 해안(캘리포니아 남부·북부, 시애틀 등)에서 258개 아파트(공동주택) 단지, 약 6만2000세대를 소유·운영하는 주거용 리츠(REIT, 부동산투자신탁)다. 세입자로부터 받는 임대료 수입과 순영업이익(NOI)이 핵심 수익원이며, 리츠 특성상 순이익 대신 핵심 FFO(Core Funds From Operations, 감가상각을 뺀 핵심 영업현금흐름)를 실적 지표로 주로 쓴다.",
-        "volumeExplanation": "2026년 7월 29일 ESS는 2분기 실적을 발표(SEC 8-K, item 2.02)했는데, 핵심 FFO가 자체 가이던스 중간값을 주당 0.10달러 초과했고 2026년 연간 핵심 FFO 가이던스 중간값을 주당 0.20달러(1.3%) 올렸다. 8월 26일에는 Zacks가 ESS를 포함한 주거용 리츠 3곳을 '산업 회복' 테마로 다시 조명하는 기사를 냈다. 이런 실적 호조·가이던스 상향과 업종 재조명이 반영되면서 거래대금이 20일 평균 대비 1.95배(VOL_X), 최근 5일 평균 대비 주간 거래량이 2.39배로 늘어난 것으로 판단된다.",
-        "isHighlight": true,
-        "confidence": "medium",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "2026년 7월 29~30일 ESS의 2분기 핵심 FFO(Core FFO)가 시장 예상치를 웃돌았고 2026년 연간 가이던스가 상향됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "ESS Q2 FFO Beats Estimates on Higher Property NOI, '26 View Raised",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/ess-q2-ffo-beats-estimates-higher-property-noi-26-view-raised",
-                "date": "2026-07-30",
-                "quote": "ESS Q2 FFO Beats Estimates on Higher Property NOI, '26 View Raised",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "2분기 핵심 FFO가 자체 가이던스 중간값을 주당 0.10달러 초과했고, 연간 핵심 FFO 가이던스 중간값은 주당 0.20달러(1.3%) 상향됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Essex Property Trust Inc (ESS) (Q2 2026) Earnings Call Highlights: Strong FFO Beat and Raised Guidance Amid Regional Divergence",
-                "publisher": "GuruFocus",
-                "url": "https://www.gurufocus.com/news/8993494/essex-property-trust-inc-ess-q2-2026-earnings-call-highlights-strong-ffo-beat-and-raised-guidance-amid-regional-divergence",
-                "date": "2026-07-30",
-                "quote": "Core FFO per Share (Q2): Exceeded the midpoint of guidance by $0.10.",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "SEC 8-K 공시로 2026년 7월 29일 실적발표(item 2.02)가 공식 확인된다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "8-K (Essex Property Trust)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/920522/000114036126030060/ef20078746_8k.htm",
-                "date": "2026-07-29",
-                "quote": "items: 2.02 (실적 발표), 9.01 (재무제표·첨부)",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c5",
-            "statement": "2026년 8월 26일 Zacks가 ESS를 포함한 주거용 리츠 3곳을 '산업 회복' 테마로 다시 조명하는 기사를 냈다(ESS를 단독으로 다룬 기사는 아님).",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Zacks Industry Outlook Essex Property, Equity LifeStyle  and American Homes",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-essex-property-equity-lifestyle-and-american-homes",
-                "date": "2026-08-26",
-                "quote": "Zacks Industry Outlook Essex Property, Equity LifeStyle  and American Homes",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "c4"
-          ],
-          "reason": "Claim c4의 캔터 피츠제럴드 목표주가 상향 숫자(291달러→316달러)가 출처 quote에 없음. 또한 volumeExplanation의 '같은 자산 매출과 순영업이익 2.7%, 2.6% 증가' 및 '캔터 피츠제럴드 상향' 관련 내용도 claims 근거 부족으로 수정.",
-          "narrativeFixed": true
-        },
-        "volumeExplanationOriginal": "2026년 7월 29일 ESS는 2분기 실적을 발표(SEC 8-K, item 2.02)했는데, 핵심 FFO가 자체 가이던스 중간값을 주당 0.10달러 초과했고 2026년 연간 핵심 FFO 가이던스 중간값을 주당 0.20달러(1.3%) 올렸다. 같은 자산(same-property) 매출과 순영업이익(NOI)도 각각 2.7%, 2.6% 늘었고 입주율은 96.3%로 견조했다. 이 실적 발표 이후 8월 3일 캔터 피츠제럴드(Cantor Fitzgerald)가 목표주가를 291달러에서 316달러로 올리는 등 애널리스트들의 후속 상향이 이어졌고, 8월 26일에는 Zacks가 ESS를 포함한 주거용 리츠 3곳을 '산업 회복' 테마로 다시 조명하는 기사를 냈다. 실적 발표 자체는 오늘(8월 27일)보다 약 4주 전이지만, 이렇게 실적 호조·가이던스 상향 → 애널리스트 목표가 상향 → 업종 재조명 기사로 이어지는 흐름 속에서 주가가 52주 고점의 95% 수준까지 올라와 있고, 6개월째 이어진 횡보 베이스(베이스폭 27.21%) 상단에서 매수세가 붙으며 거래대금이 20일 평균 대비 1.95배(VOL_X), 최근 5일 평균 대비 주간 거래량이 2.39배로 늘어난 것으로 판단된다. 다만 실적 발표 직후에는 오히려 매도세가 나왔다는 보도도 있어, 오늘의 거래량 증가는 발표 당일보다는 그 이후 누적된 가이던스 상향·애널리스트 상향 재료가 뒤늦게 반영된 결과에 가까워 보인다."
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1577,7 +803,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1601,9 +828,9 @@ window.TEAM4_DATA = {
         "baseBars": 126,
         "baseMonths": 6,
         "rangePct": 32.92,
-        "contraction": 0.87,
+        "contraction": 0.89,
         "pivot": 691.52,
-        "distToPivotPct": -16.68,
+        "distToPivotPct": -17.41,
         "aboveMa150AtNow": false,
         "buyTrigger": {
           "price": 691.52,
@@ -1612,101 +839,9 @@ window.TEAM4_DATA = {
         "score": 20
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "META",
-        "category": 5,
-        "categoryName": "매크로·정책·산업 돌파",
-        "company": "메타 플랫폼스(Meta Platforms)는 페이스북(Facebook), 인스타그램(Instagram), 왓츠앱(WhatsApp)을 운영하는 회사로, 이용자에게 광고를 노출시켜 돈을 버는 것이 주 수익원이다. 최근에는 인공지능(AI) 모델과 AI 에이전트 서비스에도 대규모로 투자하며 사업을 확장하고 있다.",
-        "volumeExplanation": "2026년 8월 26일, 메타가 청소년 온라인 안전(child safety) 관련 소송에서 다수의 주 정부와 최대 167억 달러(16.7 Bln) 규모의 합의에 도달했다는 뉴스가 나왔고, 텍사스주와는 별도로 최대 10억 달러 규모의 추가 합의도 이루어졌다. 이 소송은 페이스북과 인스타그램이 청소년에게 중독되도록 설계되었다는 여러 주의 소송을 통합한 사건으로, 이번 합의로 이 고위험 재판 리스크가 해소되면서 주가에 드리워졌던 불확실성(overhang)이 걷혔다는 평가가 나왔다. 그 결과 메타 주가는 26일(목) 오전 장중 최대 4.1% 상승했다. 같은 날 메타가 52개 주 법무장관(Attorneys General)과 함께 새로운 청소년 온라인 안전 기준을 수립했다는 소식도 함께 전해지며 소송·규제 리스크 해소 흐름을 뒷받침했다. 이런 대형 소송·규제 리스크 해소 뉴스가 하루 사이 집중되면서 거래대금이 20일 평균의 1.78배(VOL_X), 거래량은 당일제외 5일평균 대비 2.31배로 급증한 것으로 보인다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "2026년 8월 26일, 메타가 아동 안전 관련 소송에서 다수 주와 최대 170억 달러(17 Bln) 규모 합의에 도달했다는 뉴스가 보도되었다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Meta Agrees To Up To $17 Bln Settlement With States Over Child Safety Claims",
-                "publisher": "RTTNews (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/meta-agrees-17-bln-settlement-states-over-child-safety-claims",
-                "date": "2026-08-26",
-                "quote": "Meta Agrees To Up To $17 Bln Settlement With States Over Child Safety Claims",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "실제 합의 금액은 각 주·준주에 배분되는 최대 167억 달러이며, 텍사스주와는 별도로 최대 10억 달러 규모의 합의를 체결했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Why Meta Platforms Stock Popped Today",
-                "publisher": "The Motley Fool",
-                "url": "https://www.fool.com/investing/2026/08/26/why-meta-platforms-stock-popped-today/",
-                "date": "2026-08-26",
-                "quote": "Meta has agreed to pay up to $16.7 billion, to be divided among the various states and territories",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "이 소식으로 메타 주가는 8월 26일(목) 오전 장중 최대 4.1% 상승했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Why Meta Platforms Stock Popped Today",
-                "publisher": "The Motley Fool",
-                "url": "https://www.fool.com/investing/2026/08/26/why-meta-platforms-stock-popped-today/",
-                "date": "2026-08-26",
-                "quote": "Shares of Meta Platforms rallied Thursday morning, gaining as much as 4.1%",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "이번 고위험 소송의 합의는 메타 주식에 드리워져 있던 불확실성(overhang)을 해소한 것으로 평가되었다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Why Meta Platforms Stock Popped Today",
-                "publisher": "The Motley Fool",
-                "url": "https://www.fool.com/investing/2026/08/26/why-meta-platforms-stock-popped-today/",
-                "date": "2026-08-26",
-                "quote": "The settlement of this high-profile case removes a big overhang from Meta's stock",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c5",
-            "statement": "같은 날 메타는 52개 주 법무장관과 함께 새로운 청소년 온라인 안전 기준을 수립했다는 소식도 전해졌다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Meta, 52 State Attorneys General Establish New Teen Online Safety Standard",
-                "publisher": "RTTNews (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/meta-52-state-attorneys-general-establish-new-teen-online-safety-standard",
-                "date": "2026-08-26",
-                "quote": "Meta, 52 State Attorneys General Establish New Teen Online Safety Standard",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "confidence": "high",
-        "isHighlight": true,
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "5개 claims의 모든 숫자·사실이 출처 quote에서 확인됨. 합의금액 환산(17 billion = 170억 달러, 16.7 billion = 167억 달러), 텍사스 별도 합의(10억 달러), 주가 상승(4.1%), 소송 리스크 해소 평가, 52개 주 안전기준 수립 모두 유효."
-        }
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1730,9 +865,9 @@ window.TEAM4_DATA = {
         "baseBars": 126,
         "baseMonths": 6,
         "rangePct": 33.14,
-        "contraction": 0.8,
+        "contraction": 0.87,
         "pivot": 82.11,
-        "distToPivotPct": -20.55,
+        "distToPivotPct": -22.38,
         "aboveMa150AtNow": false,
         "buyTrigger": {
           "price": 82.11,
@@ -1741,76 +876,9 @@ window.TEAM4_DATA = {
         "score": 20
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "ANDE",
-        "category": 1,
-        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
-        "company": "The Andersons(앤더슨스)는 미국 오하이오 주에 본사를 둔 농업 원자재·재생에너지 기업이다. 옥수수·콩 같은 곡물을 사들여 저장·유통하는 곡물 엘리베이터(저장시설) 사업(Agribusiness 부문), 옥수수를 원료로 에탄올을 만드는 재생에너지(Renewables) 부문, 그리고 작물에 뿌리는 비료(식물영양제)를 만들어 파는 사업, 이 세 갈래로 돈을 번다. 증시 분류상 '필수소비재/식품유통'에 속해 있지만 실제로는 농산물 트레이딩과 에탄올 생산이 실적의 핵심이다.",
-        "volumeExplanation": "2026년 8월 3일 장 마감 후 2026회계연도 2분기 실적을 발표했고(SEC 8-K, item 2.02 실적발표), 조정 주당순이익(EPS)이 2.15달러로 전년 동기 대비 796% 급증하며 시장 예상치(컨센서스) 1.41달러를 50% 넘게 웃돌았다. 순이익도 5700만달러(주당 1.65달러)로 전년 동기 800만달러(주당 0.23달러) 대비 크게 늘었는데, 에탄올을 만드는 재생에너지 부문이 기록적 실적을 냈기 때문이다(다만 매출 31억달러는 예상치를 소폭 밑돌았다). 실적 발표 다음 거래일인 8월 4일 주가는 5.77% 오른 73.89달러로 마감했고, 이후 월스트리트 애널리스트들의 목표주가 상향이 줄을 이었다 — BMO Capital Markets는 8월 5일 목표가를 75달러에서 90달러로 올렸고(Outperform 등급 유지), 8월 19일 기준 최근 12개월 애널리스트 평균 목표가는 95달러에 이르렀다. 이런 실적 서프라이즈와 그 뒤 약 3주에 걸쳐 이어진 애널리스트 재평가(목표가 연쇄 상향)가 겹치면서, 실적 발표로부터 3주 이상 지난 지금도 거래대금이 20일 평균의 1.74배(VOL_X), 최근 5일 평균 대비 주간 거래량 2.34배 수준의 거래가 유지되고 있는 것으로 보인다. 다만 종가강도(48.71)는 중립적 수준이고 주가는 150일 이동평균선 아래, 52주 고점 대비 79.69% 수준에 머물러 있어 뚜렷한 신고가 돌파(60일 신고가 돌파는 아직 미발생)로는 이어지지 못했으며, 6개월째 33.14% 폭의 횡보 베이스를 형성 중인 상태다.",
-        "confidence": "medium",
-        "isHighlight": true,
-        "claims": [
-          {
-            "id": "q2-eps-beat",
-            "statement": "2026년 8월 3일 발표된 2분기(2026 Q2) 실적에서 조정 EPS가 2.15달러로 전년 동기 대비 796% 급증했고, 시장 예상치(컨센서스) 1.41달러를 50% 이상 상회했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Andersons Q2 2026 slides: renewables drive record earnings",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/company-news/andersons-q2-2026-slides-renewables-drive-record-earnings-93CH-4834713",
-                "date": "2026-08-04",
-                "quote": "adjusted earnings per share surging 796% year-over-year to $2.15",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "net-income-surge",
-            "statement": "순이익은 5700만달러(주당 1.65달러)로 전년 동기 800만달러(주당 0.23달러) 대비 크게 증가했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Andersons Q2 2026 slides: renewables drive record earnings",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/company-news/andersons-q2-2026-slides-renewables-drive-record-earnings-93CH-4834713",
-                "date": "2026-08-04",
-                "quote": "Net income attributable to The Andersons reached $57 million, or $1.65 per diluted share, compared to just $8 million or $0.23 per share in the second quarter of 2025.",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "sec-8k-earnings-filing",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
-          },
-          {
-            "id": "analyst-target-raises",
-            "statement": "실적 발표 이후 월스트리트 애널리스트들의 목표주가 상향이 이어졌다 — BMO Capital Markets는 2026년 8월 5일 목표가를 75달러에서 90달러로 상향(Outperform 등급)했고, 2026년 8월 19일 기준 최근 12개월 애널리스트 평균 목표가는 95달러에 달했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Analysts Set The Andersons, Inc. (NASDAQ:ANDE) Target Price at $95.00",
-                "publisher": "Daily Political",
-                "url": "https://www.dailypolitical.com/2026/08/19/analysts-set-the-andersons-inc-nasdaqande-target-price-at-95-00.html",
-                "date": "2026-08-19",
-                "quote": "BMO Capital Markets upped their price target on shares of Andersons from $75.00 to $90.00 and gave the company an 'outperform' rating in a research note on Wednesday, August 5th.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "모든 claims의 핵심 숫자와 사실이 출처의 quote에서 확인됨. EPS 2.15달러 796% 증가, 1.41달러 vs 50% 초과, 순이익 수치, SEC 8-K 공시, 애널리스트 목표가 상향 모두 유효."
-        }
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1834,7 +902,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1858,95 +927,26 @@ window.TEAM4_DATA = {
         "rangePct": 25.1,
         "breakoutDate": "2026-08-06",
         "breakoutVolX": 2.22,
-        "barsSinceBreakout": 14,
+        "barsSinceBreakout": 15,
         "aboveMa150AtBreak": true,
         "ma150AtBreak": 104.51,
         "pivot": 117.17,
-        "distToPivotPct": 3.08,
+        "distToPivotPct": 2.05,
         "retestDate": "2026-08-20",
         "retestVolRatio": 0.94,
         "dryUp": false,
-        "phase": "breakout",
-        "phaseKo": "거래량 동반 저항 돌파",
+        "phase": "retest",
+        "phaseKo": "돌파 후 저항선 리테스트",
         "score": 20,
         "buyTrigger": {
           "price": 117.17,
-          "note": "되돌림 시 $117.17 지지 확인 후 진입"
+          "note": "저항선 $117.17 지지 확인 후 반등 시 진입"
         }
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "EHC",
-        "category": 1,
-        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
-        "company": "Encompass Health(엔컴패스 헬스)는 미국 최대의 입원 재활병원(inpatient rehabilitation hospital, IRF) 운영업체다. 뇌졸중, 척수손상, 뇌손상 등을 겪은 환자가 급성기(응급) 치료를 마친 뒤 옮겨와 집중재활치료를 받는 전문병원 네트워크를 미국 전역에서 운영하며, 신규 병원(de novo hospital) 개설과 병상 확충을 통해 매출을 늘려가는 사업모델이다.",
-        "volumeExplanation": "2026년 8월 5일 장 마감 후 회사는 2026 회계연도 2분기 실적을 발표했다(SEC 8-K, item 2.02, 공시일 2026-08-05). 주당순이익(EPS)이 1.55달러를 기록해 시장 예상치 1.48달러를 4.73% 웃도는 어닝 서프라이즈를 냈고, 매출도 16억 달러로 예상치 15.7억 달러 대비 1.91% 상회했다. 회사는 이 발표에서 2026 회계연도 매출 가이던스 중간값을 64.5억 달러(기존 64.2억 달러)로, 조정 EPS 가이던스 중간값을 6.14달러(2.2% 상향)로 올려 잡았다. 이 소식에 주가는 전일 종가 110.90달러에서 시간외 12.52% 급등한 124.78달러까지 뛰었다. 오늘 제공된 눌림 국면(Congestion) 데이터의 '2026-08-06 거래량 2.22배 돌파'는 바로 이 실적 발표 다음 거래일의 반응이며, 이후 8월 12일 실적 컨퍼런스콜과 8월 25일 \"병상 확장이 다년간 성장동력이 될 것\"이라는 후속 기사 등으로 실적 모멘텀이 이어지면서 오늘(8/27)까지도 거래대금이 20일 평균 대비 1.71배(VOL_X), 주간 거래량이 최근 5일 평균 대비 2.4배로 높게 유지되고 있다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
-          },
-          {
-            "id": "c2",
-            "statement": "2분기 EPS 1.55달러로 시장 예상치 1.48달러를 4.73% 상회하는 어닝 서프라이즈를 기록했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Encompass Health (EHC) Beats Q2 Earnings and Revenue Estimates",
-                "publisher": "Yahoo Finance",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/encompass-health-ehc-beats-q2-221018775.html",
-                "date": "2026-08-05",
-                "quote": "Encompass Health reported quarterly earnings of $1.55 per share, beating the Zacks Consensus Estimate of $1.48 per share, which represents an earnings surprise of +4.73%.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "회사는 2026 회계연도 매출 및 조정 EPS 가이던스를 상향 조정했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Earnings call transcript: Encompass Health beats Q2 2026 estimates, lifts outlook",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-encompass-health-beats-q2-2026-estimates-lifts-outlook-93CH-4843312",
-                "date": "2026-08-05",
-                "quote": "the company slightly lifted its revenue guidance for the full year to $6.45 billion at the midpoint from $6.42 billion... Management raised its full-year Adjusted EPS guidance to $6.14 at the midpoint, a 2.2% increase.",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "c5",
-            "statement": "실적 발표 이후에도 신규 병원 개설·병상 확장을 통한 다년간 성장 스토리가 후속 보도로 이어지며 최근까지 매수 관심이 유지됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "How EHC's Capacity Expansion Fuels a Multi-Year Growth Runway",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/how-ehcs-capacity-expansion-fuels-multi-year-growth-runway",
-                "date": "2026-08-25",
-                "quote": "In the first half of 2026, 139 beds were added through three new hospitals and 54 beds added to existing facilities.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "confidence": "high",
-        "isHighlight": true,
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "c3"
-          ],
-          "reason": "Claim c3의 '매출 16억 달러로 예상치 15.7억 달러 상회' 정보가 출처 quote에 없음. 주가 급등(12.52%) 정보는 유효하나, 매출 근거 부재로 전체 claim 제거. volumeExplanation의 해당 매출 내용도 수정."
-        }
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1970,7 +970,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1994,7 +995,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2016,7 +1018,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2035,12 +1038,13 @@ window.TEAM4_DATA = {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 501,
+        "bars": 500,
         "rangePct": 47.76
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2064,7 +1068,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2088,7 +1093,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2112,7 +1118,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2132,93 +1139,24 @@ window.TEAM4_DATA = {
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
         "bars": 501,
-        "rangePct": 74.43
+        "rangePct": 62.43
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     }
   ],
   "byPhase": {
     "none": 33,
-    "breakout": 2,
+    "retest": 2,
     "bounce_trigger": 1,
     "extended": 1,
     "base": 4
   },
   "research_coverage": {
-    "done": 12,
-    "total": 41,
-    "cap": 12,
-    "pending": 29,
-    "failed": 0,
-    "note": "41종목 중 12종목을 조사했습니다. 나머지 29종목은 상한(12) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다. 자금이 들어오는 업종 · 거래대금 급증 순으로 우선 조사합니다."
-  },
-  "llm": {
-    "highlights": [
-      {
-        "ticker": "ANF",
-        "category": 1,
-        "oneLine": "8/26 8-K(item 2.02) 실적 발표 — 2분기 매출·EPS 동시 상회에 FY26 가이던스 상향, 15개 분기 연속 매출 성장까지 겹치며 당일 8.3% 급등(타 매체는 35% 표기, 기준가 차이). 가장 정석적인 EP 형태."
-      },
-      {
-        "ticker": "URBN",
-        "category": 1,
-        "oneLine": "8/26 2분기 사상 최대 매출 16.6억달러(+10%), Nuuly 매출 +29%·구독자 +30%, CEO가 '역사상 최고 조정이익 분기'로 명시 — 다만 조정 EPS 1.72달러는 컨센서스와 정확히 일치. 서프라이즈 없이 거래대금 배수(VOL_X) 3.48배와 9.46% 급등(82.95달러, 52주 신고가 84.35달러 근접)이 나온 질(質) 기반 EP."
-      },
-      {
-        "ticker": "ANDE",
-        "category": 1,
-        "oneLine": "8/3 2분기 조정 EPS 2.15달러로 전년 대비 +796%, 컨센서스 1.41달러를 50% 이상 상회 — 순이익 5,700만달러(전년 800만달러). BMO 목표가 75→90달러 상향, 12개월 평균 목표가 95달러로 애널리스트 상향이 뒤따른 전형적 EP 후속 구조."
-      },
-      {
-        "ticker": "SENEB",
-        "category": 1,
-        "oneLine": "8/6 FY27 1분기 순매출 4억520만달러(+36%), 조정순이익 +187%, 희석 EPS 2.85달러(+33%) — 8/19 196.50달러 사상 최고가 및 Freedom Broker 목표가 202달러 상향으로 이어짐. 직전 회계연도 EPS 14.15달러도 사상 최고로 다분기 모멘텀."
-      },
-      {
-        "ticker": "EHC",
-        "category": 1,
-        "oneLine": "8/5 8-K(item 2.02) 2분기 EPS 1.55달러로 컨센서스 1.48달러를 4.73% 상회, FY26 매출·조정 EPS 가이던스 동반 상향 — 신규 병원 개설·병상 확장이라는 다년 성장 스토리가 후속 보도로 이어져 관심이 유지된 케이스."
-      },
-      {
-        "ticker": "ACNB",
-        "category": 1,
-        "oneLine": "2분기 순이익 1,520만달러(EPS 1.49달러, +34%)로 분기 사상 최대·컨센서스 상회, 7/29 분기 배당 0.34→0.42달러(+23.5%)·연초 이후 누적 배당 +72% — 7/28 52주 신고가 이후 8월 중순까지 후속 기사가 이어짐."
-      },
-      {
-        "ticker": "ESS",
-        "category": 1,
-        "oneLine": "7/29~30 2분기 Core FFO가 자체 가이던스 중간값을 주당 0.10달러 상회하고 연간 Core FFO 가이던스 중간값을 0.20달러(1.3%) 상향 — 8/26 Zacks의 '주거용 리츠 산업 회복' 기사로 재조명됐으나 ESS 단독 기사는 아님."
-      },
-      {
-        "ticker": "DY",
-        "category": 1,
-        "oneLine": "8/26 8-K(item 2.02) 2분기 실적·매출 동시 상회에 1억5,000만달러 자사주 매입 승인까지 나왔으나, 다음 분기 가이던스 우려로 당일 11.62% 급락(310.91달러) — 호재 분류지만 주가는 역방향, EP 진입 대상이 아니라 반증 사례."
-      },
-      {
-        "ticker": "META",
-        "category": 5,
-        "oneLine": "8/26 아동 안전 소송에서 각 주·준주 배분 최대 167억달러 + 텍사스 별도 최대 10억달러 합의, 52개 주 법무장관과 청소년 온라인 안전 기준 수립 — 주가는 장중 최대 4.1% 상승. 신규 성장 촉매가 아니라 오버행(불확실성) 제거형 재평가라는 점이 카테고리 5 중에서도 성격이 다르다."
-      }
-    ],
-    "sectorSignal": "특정 섹터로 몰리지 않았다. 카테고리 1 8종목의 업종이 의류·리테일(ANF, URBN), 지역은행(ACNB), 주거용 리츠(ESS), 농산물·곡물(ANDE), 재활병원(EHC), 식품가공(SENEB), 통신 인프라 건설(DY)로 전부 흩어져 있고, 카테고리 5의 META는 빅테크 규제 이슈다. 섹터 쏠림 대신 '날짜 쏠림'이 뚜렷하다 — 8/26 하루에 ANF·URBN·DY·META(그리고 카테고리 2의 SYRE)가 몰려 있으며, 이는 리테일 2분기 실적 시즌이라는 캘린더 효과와 당일 뉴스 스캔 시점 때문일 가능성이 크다. 굳이 묶는다면 소비 관련 의류 리테일(ANF·URBN)이 같은 날 나란히 매출 상회 + 기록적 분기를 낸 것이 유일하게 유의미한 소집단이며, 소비 지출 체력에 대한 공통 시그널로 볼 여지가 있다. 나머지는 각자 개별 기업 사정에 따른 독립 촉매로 보는 것이 안전하다.",
-    "watchList": [
-      "ACNB — 7/23 실적·7/29 배당 상향 후 7/28 52주 신고가, 8월 중순까지 후속 기사 지속. 촉매로부터 약 한 달 경과해 돌파 후 되돌림·리테스트 여부를 볼 구간",
-      "ANDE — 8/3 실적 급등 촉매로부터 3주 이상 경과, 목표가 상향이 뒤따르며 눌림 후 재돌파 가능성을 지켜볼 자리",
-      "EHC — 8/5 실적·가이던스 상향 후 3주 경과, 후속 성장 스토리 보도가 이어져 매물 소화 국면 관찰 대상",
-      "SENEB — 8/6 실적 후 랠리로 8/19 196.50달러 사상 최고가. 신고가 직후 첫 조정의 지지 확인 구간",
-      "ESS — 7/29 촉매 후 약 한 달 조용하다 8/26 산업 테마 기사로 재조명. 오래된 촉매의 2차 반응 여부 관찰",
-      "CFFI — 8/5 거래량 15.35배 폭증에 이어 이번 주 VOL_X 3.29 재급증인데 이를 설명하는 뉴스·공시가 없음. 뉴스 없는 반복 거래량은 물밑 매집 가능성이라 차트로만 판단해야 할 종목"
-    ],
-    "caution": "이 분류의 한계는 다섯 가지다. 첫째, 입력 데이터에 '6개월 횡보 후 돌파·리테스트'를 판정할 가격·베이스 구조 데이터가 없다. watchList는 순수하게 촉매 발생일로부터의 경과 시간과 거래량 언급만으로 추린 것이므로, 실제 베이스 길이·돌파 여부는 차트 육안 확인이 반드시 선행돼야 한다. 둘째, 카테고리 1이 '호재'를 뜻하지 주가 방향을 보장하지 않는다 — DY는 실적·매출 상회에 자사주 매입까지 발표했는데도 가이던스 우려로 11.62% 급락했다. 카테고리만 보고 매수하면 정반대 결과가 나온다. 셋째, 숫자의 신뢰도 편차가 있다. ANF는 같은 날 8.3%와 35%라는 4배 이상 차이 나는 상승률이 서로 다른 매체에서 보도됐고, URBN은 EPS가 컨센서스와 정확히 일치해 엄밀히는 '어닝 서프라이즈'가 아니라 매출·질 기반 급등인데 같은 카테고리 1로 묶였다. SENEB는 해당 8-K가 item 5.07·9.01로만 분류돼 item 2.02(실적발표) 표기가 없어 공시 근거가 간접적이다. 넷째, 촉매의 신선도가 제각각이다. ANF·URBN·DY·META는 8/26 당일이지만 ACNB는 7/23~29, ESS는 7/29, ANDE는 8/3, EHC는 8/5, SENEB는 8/6로 이미 2~5주 지난 촉매다. EP는 촉매 직후 진입이 원칙이라 후자 그룹은 '이미 반영된 뉴스'일 위험이 크다. 다섯째, 성격이 다른 것들이 섞여 있다. META의 카테고리 5는 신제품·기술 돌파가 아니라 소송 합의라는 리스크 제거형이라 상승 지속성이 기술 돌파와 다르고, PEN(cat 6)은 주당 374달러 인수가가 상단을 고정한 M&A 차익거래 종목이라 애초에 브레이크아웃 대상이 아니며 FTC Second Request 리스크까지 남아 있다. CFFI(cat 6)와 SYRE(cat 2)는 각각 촉매 미확인, 임상 결과 '혼재·단독요법 내부 기준 미충족'이라는 사실상 악재이므로 highlights에서 제외했다."
-  },
-  "reusedFrom": null,
-  "byCategory": {
-    "1": 8,
-    "2": 1,
-    "5": 1,
-    "6": 2
+    "done": 0,
+    "total": 41
   }
 };
