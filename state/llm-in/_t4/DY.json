@@ -2,6 +2,17 @@
  "ticker": "DY",
  "news": [
   {
+   "title": "DY Q2 Earnings Call Focuses on Fiber Demand and Higher Outlook",
+   "url": "https://www.nasdaq.com/articles/dy-q2-earnings-call-focuses-fiber-demand-and-higher-outlook",
+   "date": "2026-08-27",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DY"
+   ]
+  },
+  {
    "title": "Dycom Industries (DY) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
    "url": "https://www.nasdaq.com/articles/dycom-industries-dy-q2-earnings-taking-look-key-metrics-versus-estimates",
    "date": "2026-08-26",
@@ -47,6 +58,17 @@
    ]
   },
   {
+   "title": "Dycom Industries Q2 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/dycom-industries-q2-earnings-call-highlights",
+   "date": "2026-08-26",
+   "publisher": "MarketBeat",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "DY"
+   ]
+  },
+  {
    "title": "Dycom Industries Authorizes New $150 Mln Share Repurchase Program",
    "url": "https://www.nasdaq.com/articles/dycom-industries-authorizes-new-150-mln-share-repurchase-program",
    "date": "2026-08-26",
@@ -68,32 +90,6 @@
     "EME",
     "DY",
     "FIX"
-   ]
-  },
-  {
-   "title": "Is Dycom's 13.4% EBITDA Margin Set for Another Profitability Lift?",
-   "url": "https://www.nasdaq.com/articles/dycoms-134-ebitda-margin-set-another-profitability-lift",
-   "date": "2026-08-18",
-   "publisher": "Zacks",
-   "tier1": false,
-   "direct": false,
-   "tickers": [
-    "DY",
-    "PWR",
-    "EME"
-   ]
-  },
-  {
-   "title": "Can Strategic Acquisitions Strengthen Dycom's Growth Prospects?",
-   "url": "https://www.nasdaq.com/articles/can-strategic-acquisitions-strengthen-dycoms-growth-prospects",
-   "date": "2026-08-07",
-   "publisher": "Zacks",
-   "tier1": false,
-   "direct": false,
-   "tickers": [
-    "DY",
-    "EME",
-    "MTZ"
    ]
   }
  ],

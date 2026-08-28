@@ -4,7 +4,7 @@
  "industry": "Household & Personal Products",
  "nameKo": "엘프 뷰티",
  "detail": {
-  "fetchedAt": "2026-08-27",
+  "fetchedAt": "2026-08-28",
   "nameKo": "엘프 뷰티",
   "nameEn": "E L F BEAUTY INC",
   "infomaxCode": "NYS:ELF",
@@ -191,7 +191,7 @@
     }
    ],
    "directCount": 5,
-   "total": 13,
+   "total": 12,
    "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
   },
   "filings": [

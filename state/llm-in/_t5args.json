@@ -1,5 +1,5 @@
 {
- "date": "2026-08-27",
+ "date": "2026-08-28",
  "cap": 6,
  "industries": [
   {
@@ -36,24 +36,31 @@
    "memberNews": [
     {
      "ticker": "DELL",
-     "date": "2026-08-26",
-     "publisher": "Zacks",
-     "title": "Dell Technologies (DELL) Advances While Market Declines: Some Information for Investors",
-     "url": "https://www.nasdaq.com/articles/dell-technologies-dell-advances-while-market-declines-some-information-investors"
+     "date": "2026-08-27",
+     "publisher": "The Motley Fool",
+     "title": "Prediction: Dell Technologies Stock Could Go Parabolic After Sept. 1. Here's Why.",
+     "url": "https://www.nasdaq.com/articles/prediction-dell-technologies-stock-could-go-parabolic-after-sept-1-heres-why"
     },
     {
      "ticker": "DELL",
-     "date": "2026-08-26",
+     "date": "2026-08-27",
      "publisher": "Zacks",
-     "title": "Zacks.com featured highlights Seagate Technology, Western Digital and Dell",
-     "url": "https://www.nasdaq.com/articles/zackscom-featured-highlights-seagate-technology-western-digital-and-dell"
+     "title": "SNOW Benefits From Product Revenue Surge: Can It Beat DELL & ORCL?",
+     "url": "https://www.nasdaq.com/articles/snow-benefits-product-revenue-surge-can-it-beat-dell-orcl"
     },
     {
      "ticker": "DELL",
-     "date": "2026-08-25",
-     "publisher": "MarketBeat",
-     "title": "Dell Technologies Says Agentic AI Will Redefine Work, Infrastructure and Security",
-     "url": "https://www.nasdaq.com/articles/dell-technologies-says-agentic-ai-will-redefine-work-infrastructure-and-security"
+     "date": "2026-08-27",
+     "publisher": "Zacks",
+     "title": "Dell Technologies (DELL) Q2 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
+     "url": "https://www.nasdaq.com/articles/dell-technologies-dell-q2-earnings-horizon-analysts-insights-key-performance-measures"
+    },
+    {
+     "ticker": "P",
+     "date": "2026-08-27",
+     "publisher": "Zacks",
+     "title": "Everpure's Q2 Earnings Call Centers on Sustainable Growth",
+     "url": "https://www.nasdaq.com/articles/everpures-q2-earnings-call-centers-sustainable-growth"
     },
     {
      "ticker": "P",
@@ -70,32 +77,32 @@
      "url": "https://www.nasdaq.com/articles/everpure-p-beats-q2-earnings-and-revenue-estimates"
     },
     {
-     "ticker": "P",
-     "date": "2026-08-26",
-     "publisher": "RTTNews",
-     "title": "Everpure, Inc. Q2 Profit Climbs",
-     "url": "https://www.nasdaq.com/articles/everpure-inc-q2-profit-climbs"
-    },
-    {
      "ticker": "SNDK",
-     "date": "2026-08-25",
-     "publisher": "The Motley Fool",
-     "title": "Sandisk vs. Micron: Which Memory Stock Has the Best Risk/Reward?",
-     "url": "https://www.nasdaq.com/articles/sandisk-vs-micron-which-memory-stock-has-best-risk-reward"
-    },
-    {
-     "ticker": "SNDK",
-     "date": "2026-08-25",
-     "publisher": "The Motley Fool",
-     "title": "Why Sandisk Stock Popped, Then Dropped Today",
-     "url": "https://www.nasdaq.com/articles/why-sandisk-stock-popped-then-dropped-today"
-    },
-    {
-     "ticker": "SNDK",
-     "date": "2026-08-25",
+     "date": "2026-08-27",
      "publisher": "Zacks",
-     "title": "Here's Why Sandisk Corporation (SNDK) is a Strong Momentum Stock",
-     "url": "https://www.nasdaq.com/articles/heres-why-sandisk-corporation-sndk-strong-momentum-stock"
+     "title": "KLAC vs. SNDK: Which Semiconductor Stock is a Better Buy Now?",
+     "url": "https://www.nasdaq.com/articles/klac-vs-sndk-which-semiconductor-stock-better-buy-now"
+    },
+    {
+     "ticker": "SNDK",
+     "date": "2026-08-27",
+     "publisher": "RTTNews",
+     "title": "Kioxia Plans Over $31 Bln Japan Investment With Sandisk",
+     "url": "https://www.nasdaq.com/articles/kioxia-plans-over-31-bln-japan-investment-sandisk"
+    },
+    {
+     "ticker": "SNDK",
+     "date": "2026-08-27",
+     "publisher": "The Motley Fool",
+     "title": "This Hedge Fund Just Sold Sandisk and Bought Taiwan Semiconductor Manufacturing Stock. Does Wall Street Agree With the Move?",
+     "url": "https://www.nasdaq.com/articles/hedge-fund-just-sold-sandisk-and-bought-taiwan-semiconductor-manufacturing-stock-does-wall"
+    },
+    {
+     "ticker": "STX",
+     "date": "2026-08-27",
+     "publisher": "Zacks",
+     "title": "Seagate (STX) Up 10.7% Since Last Earnings Report: Can It Continue?",
+     "url": "https://www.nasdaq.com/articles/seagate-stx-107-last-earnings-report-can-it-continue"
     },
     {
      "ticker": "STX",
@@ -110,13 +117,6 @@
      "publisher": "Zacks",
      "title": "Zacks.com featured highlights Seagate Technology, Western Digital and Dell",
      "url": "https://www.nasdaq.com/articles/zackscom-featured-highlights-seagate-technology-western-digital-and-dell"
-    },
-    {
-     "ticker": "STX",
-     "date": "2026-08-25",
-     "publisher": "MarketBeat",
-     "title": "Seagate Says AI Is Making Data Storage More Strategic Than Ever",
-     "url": "https://www.nasdaq.com/articles/seagate-says-ai-making-data-storage-more-strategic-ever"
     }
    ]
   },
@@ -231,24 +231,24 @@
    "memberNews": [
     {
      "ticker": "AMR",
+     "date": "2026-08-25",
+     "publisher": "The Motley Fool",
+     "title": "Alpha Metallurgical Director Courtis Keeps Buying as He Adds Another  $1.1 Million Shares",
+     "url": "https://www.nasdaq.com/articles/alpha-metallurgical-director-courtis-keeps-buying-he-adds-another-11-million-shares"
+    },
+    {
+     "ticker": "AMR",
+     "date": "2026-08-25",
+     "publisher": "The Motley Fool",
+     "title": "Alpha Metallurgical Resources Director Courtis Buys Again, This Time $3.2 Million in Shares.  Is it Time for Investors to Buy Too?",
+     "url": "https://www.nasdaq.com/articles/alpha-metallurgical-resources-director-courtis-buys-again-time-32-million-shares-it-time"
+    },
+    {
+     "ticker": "AMR",
      "date": "2026-08-22",
      "publisher": "The Motley Fool",
      "title": "Alpha Metallurgical Resources Director Courtis Buys $2.9 Million Shares. What Does This Mean for Investors?",
      "url": "https://www.nasdaq.com/articles/alpha-metallurgical-resources-director-courtis-buys-29-million-shares-what-does-mean"
-    },
-    {
-     "ticker": "AMR",
-     "date": "2026-08-21",
-     "publisher": "BNK Invest",
-     "title": "Friday 8/21 Insider Buying Report: ET, AMR",
-     "url": "https://www.nasdaq.com/articles/friday-8-21-insider-buying-report-et-amr"
-    },
-    {
-     "ticker": "AMR",
-     "date": "2026-08-14",
-     "publisher": "The Motley Fool",
-     "title": "Alpha Metallurgical Resources (AMR) Q2 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/alpha-metallurgical-resources-amr-q2-2026-earnings-call-transcript"
     }
    ]
   },

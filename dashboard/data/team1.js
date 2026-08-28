@@ -475,8 +475,293 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-08-28",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "세일즈포스 22% 폭등 — 소프트웨어 섹터 전체를 들어올렸다",
+        "easy": "세일즈포스(기업들이 고객 정보를 관리할 때 쓰는 소프트웨어 회사)의 주가가 하루에 22% 뛰었습니다. CNBC는 이게 회사 역사상 두 번째로 좋은 하루였다고 전했고, 마켓워치는 이 상승이 소프트웨어 업종 전체를 끌어올렸다고 썼습니다. 반에서 제일 조용하던 아이가 갑자기 시험에서 1등을 하면 '아, 우리 반 다른 애들도 사실 공부 잘하는 거 아냐?'라는 분위기가 생기는 것과 비슷합니다. 그동안 소프트웨어 회사들은 'AI가 나오면 소프트웨어는 필요 없어지는 것 아니냐'는 의심을 받아왔는데, 이 하루가 그 의심에 반대되는 증거로 읽힌 겁니다. 다만 제목만으로는 정확히 어떤 내용이 주가를 끌어올렸는지까지는 확인되지 않습니다.",
+        "whyMatters": "지금 브레이크아웃 주도 섹터에서 Technology가 17종목(34%)으로 Healthcare와 함께 공동 1위인데, 그동안 그 안의 상승은 주로 반도체·AI 하드웨어 쪽에 몰려 있었습니다. 세일즈포스발 소프트웨어 랠리는 그 리더십이 하드웨어에서 소프트웨어(SaaS)로 넓어질 수 있다는 신호라, 응용 소프트웨어·클라우드 계열 종목의 신규 브레이크아웃 후보가 늘어날 수 있습니다. 다만 QQQ가 🟡 정배열이나 기울기 둔화(10MA -0.76% / 20MA 1.24%) 구간이라, 하루 20% 급등한 자리를 추격하기보다 눌림에서 확인하는 편이 안전합니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Salesforce rockets 22% for second-best day ever, leading software rally",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/27/salesforce-stock-soars-on-track-for-second-best-day-ever.html",
+            "date": "2026-08-27",
+            "quote": "Salesforce rockets 22% for second-best day ever, leading software rally",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Salesforce's stock rockets 20% and gives the software sector a major lift",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/salesforce-stock-is-jumping-what-wall-street-is-saying-about-its-earnings-and-its-anthropic-relationship-853ada85?mod=mw_rss_topstories",
+            "date": "2026-08-27",
+            "quote": "Salesforce's stock rockets 20% and gives the software sector a major lift",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "크라우드스트라이크 사상 최고 실적에 급등 — 보안은 '안 줄이는 지출'",
+        "easy": "크라우드스트라이크(회사 컴퓨터를 해킹에서 지켜주는 보안 소프트웨어 회사)가 기록적인 실적을 내놓자 주가가 뛰었고, 마켓워치는 월가가 이를 그대로 받아들이고 있다고 전했습니다. 같은 날 BBC에서는 주요 기술 기업들이 '사이버 보안에 쓸 시간이 얼마 남지 않았다'고 경고했다는 기사도 나왔습니다. 보안 지출은 집에 도둑이 든다는 소문이 돌 때 현관 자물쇠 값을 아끼는 사람이 없는 것과 같습니다. 경기가 안 좋아도 기업이 가장 나중에 줄이는 항목이라, 실적이 흔들릴 때도 버티는 힘이 상대적으로 강합니다.",
+        "whyMatters": "세일즈포스와 함께 소프트웨어 안에서도 '실적으로 증명한' 그룹이 따로 있다는 걸 보여줍니다. Technology 17종목(34%)이 주도 섹터의 절반 가까이를 차지하는 상황에서, 보안 소프트웨어는 AI 하드웨어 사이클이 흔들릴 때 자금이 옮겨갈 수 있는 방어적 성격의 성장주 자리에 해당합니다. 다만 실적 발표 직후 갭 상승 자리는 변동성이 크므로 진입 강도는 줄여서 접근하는 게 맞습니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "CrowdStrike's stock jumps after record-breaking earnings. Wall Street is lapping it up.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/crowdstrikes-stock-has-jumped-after-record-breaking-earnings-wall-street-is-lapping-it-up-dbdaca83?mod=mw_rss_topstories",
+            "date": "2026-08-27",
+            "quote": "CrowdStrike's stock jumps after record-breaking earnings. Wall Street is lapping it up.",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Time is running out for cyber security, warn top tech firms",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cwyz11475l1o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-08-27",
+            "quote": "Time is running out for cyber security, warn top tech firms",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "엔비디아 또 블록버스터 실적 — '연매출 1조 달러' 이야기까지 나왔다",
+        "easy": "엔비디아(AI를 돌리는 데 필요한 반도체를 만드는 회사)가 또 한 번 아주 좋은 실적을 냈고, 한 애널리스트는 연간 매출 1조 달러(약 1,300조 원)도 가능하다고 봤다고 마켓워치가 전했습니다. 이건 동네 문구점이 '전국 학교 준비물을 우리가 다 납품한다'고 말하는 수준의 숫자입니다. 이런 전망이 나온다는 것 자체가 AI에 쓰는 돈이 아직 줄어들 기미가 없다는 뜻입니다. 반대로 말하면, 시장의 기대가 그만큼 높아져서 앞으로는 '잘해도 기대만큼은 아니었다'는 실망이 나오기 쉬운 구간에 들어섰다는 얘기이기도 합니다.",
+        "whyMatters": "엔비디아는 Technology 17종목(34%)의 심장에 해당해서, 여기가 흔들리면 주도 섹터 절반이 같이 흔들립니다. 실적이 좋다는 건 반도체 장비·고대역폭 메모리·전력/냉각 같은 AI 공급망 종목의 브레이크아웃 셋업이 계속 유효하다는 뜻이고, Basic Materials 5종목(10%)에 들어있는 소재·구리 계열도 데이터센터 투자 테마의 간접 수혜 위치에 있습니다. 다만 기대가 이미 높다는 점에서, 같은 재료로 오르지 못하는 종목은 조심해야 합니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Is Nvidia heading for $1 trillion in annual revenue? One analyst now thinks that's possible.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/nvidia-stock-is-climbing-after-another-set-of-blockbuster-results-heres-what-wall-street-is-saying-a2260a62?mod=mw_rss_topstories",
+            "date": "2026-08-27",
+            "quote": "Is Nvidia heading for $1 trillion in annual revenue? One analyst now thinks that's possible.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "마벨은 전망을 올렸는데 주가는 내렸다 — 기대치가 이미 너무 높다는 신호",
+        "easy": "마벨(데이터센터용 맞춤형 반도체를 만드는 회사)이 앞으로의 실적 전망치를 높였는데도 주가는 오히려 내렸습니다. 마켓워치는 월가가 '이게 전부인가, 뒤에 뭔가 더 있는 것 아닌가'를 궁금해했다고 전했습니다. 시험을 90점 맞았는데 부모님이 '너 원래 95점 받는다며'라고 하는 상황과 같습니다. 좋은 소식이 나와도 주가가 안 오른다면, 그 좋은 소식이 이미 가격에 다 들어가 있다는 뜻입니다.",
+        "whyMatters": "같은 날 엔비디아는 오르고 마벨은 빠졌다는 건, AI 반도체가 이제 '다 같이 오르는' 국면에서 '되는 것만 오르는' 국면으로 바뀌고 있다는 실전 증거입니다. Technology 17종목(34%) 안에서도 종목별로 갈리기 시작한다는 뜻이라, 좋은 뉴스에 못 오르는 종목은 보유 비중을 줄이는 기준으로 삼을 수 있습니다. QQQ 기울기가 둔화된(10MA -0.76%) 지금 같은 구간에서는 이런 차별화가 더 크게 벌어집니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Marvell boosts its forecasts, but the stock slides as Wall Street wonders if there's more to the story",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/marvell-is-boosting-its-forecasts-but-thats-not-enough-to-lift-its-stock-c769556a?mod=mw_rss_topstories",
+            "date": "2026-08-27",
+            "quote": "Marvell boosts its forecasts, but the stock slides as Wall Street wonders if there's more to the story",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "금요일 잭슨홀 — 워시 연준 의장의 첫 대형 연설이 이번 주 최대 변수",
+        "easy": "케빈 워시 연준 의장(연준 = 미국의 중앙은행, 미국의 금리를 정하는 곳)이 금요일 잭슨홀에서 중요한 연설을 합니다. 잭슨홀은 매년 여름 각국 중앙은행 사람들이 모여 앞으로의 방향을 이야기하는 자리라, 시장이 가장 귀를 세우는 행사 중 하나입니다. 금리는 돈을 빌릴 때 내는 이자인데, 이자가 싸지면 기업도 투자자도 돈을 더 쉽게 쓰고 주식은 오르기 쉽습니다. 그래서 이 연설 하나에 시장이 하루 만에 방향을 바꾸는 일이 자주 있습니다. 이번 주 목요일까지의 상승은 사실상 금요일 연설을 앞둔 '중간 점수'라고 보는 게 맞습니다.",
+        "whyMatters": "연설 결과에 따라 오늘까지 잘 오르던 소프트웨어(세일즈포스·크라우드스트라이크 계열)와 AI 반도체가 그대로 이어갈지, 하루 만에 되돌릴지가 갈립니다. 특히 금리에 민감한 고밸류 성장주 비중이 큰 Technology 17종목(34%)이 가장 크게 반응하고, Healthcare 17종목(34%)의 바이오 계열도 금리 방향에 민감합니다. 이벤트 전날 신규 진입을 크게 가져가는 것보다, 연설 이후 방향을 보고 비중을 정하는 게 리스크 대비 유리합니다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Fed Chairman Kevin Warsh delivers his key Jackson Hole speech Friday. Here's what to expect",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/27/fed-chairman-kevin-warsh-delivers-his-key-jackson-hole-speech-friday.html",
+            "date": "2026-08-27",
+            "quote": "Fed Chairman Kevin Warsh delivers his key Jackson Hole speech Friday. Here's what to expect",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "SK하이닉스 CEO '인디애나가 2030년 핵심 메모리 생산기지' — 첫 미국 공장 착수",
+        "easy": "SK하이닉스(AI 반도체에 붙는 메모리를 만드는 한국 회사) CEO가 미국 인디애나 공장이 2030년까지 핵심 메모리 생산기지가 될 거라고 말했고, 첫 미국 시설 공사가 이미 진행 중이라고 했습니다. 메모리는 AI 반도체가 계산할 자료를 잠깐 올려두는 '작업 책상' 같은 부품이라, 책상이 좁으면 아무리 좋은 두뇌가 있어도 일을 못 합니다. 이 회사가 미국 땅에 직접 공장을 짓는다는 건 AI 수요가 몇 년짜리로 이어질 거라고 스스로 베팅했다는 뜻입니다. 공장 하나 짓는 데는 수조 원과 몇 년이 걸리기 때문에, 이런 결정은 쉽게 되돌리지 않습니다.",
+        "whyMatters": "AI 투자가 '올해 실적' 이야기가 아니라 2030년을 보고 짓는 설비 투자로 확장되고 있다는 근거라, 반도체 장비·건설·전력 인프라 쪽 브레이크아웃 셋업의 명분이 길어집니다. Basic Materials 5종목(10%)이 주도 섹터에 들어와 있는 것도 이런 대형 설비 투자 사이클과 방향이 맞습니다. 다만 완공 시점이 2030년이라 오늘 실적에 바로 반영되는 재료는 아니고, 테마의 지속성을 뒷받침하는 성격으로 보는 게 맞습니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "SK Hynix CEO says Indiana will be key memory production base by 2030, first U.S. facility now underway",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/27/sk-hynix-ceo-says-indiana-will-be-key-memory-production-base-by-2030.html",
+            "date": "2026-08-27",
+            "quote": "SK Hynix CEO says Indiana will be key memory production base by 2030, first U.S. facility now underway",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "FDA, 길리어드의 1일 1정 HIV 치료제 승인 — 헬스케어 주도력에 실탄",
+        "easy": "미국 FDA(식품의약국, 약을 팔아도 되는지 허가해주는 정부기관)가 길리어드의 하루 한 알짜리 HIV 치료제를 승인했습니다. 일부 환자의 치료를 더 단순하게 만들어주는 약이라고 CNBC는 전했습니다. 매일 여러 알을 시간 맞춰 먹어야 했던 걸 한 알로 줄여주는 건, 준비물을 다섯 개 챙기던 걸 하나로 줄여주는 것과 같아서 실제로 약을 거르지 않게 만듭니다. 제약사에게 FDA 승인은 '이제 팔아도 된다'는 허가증이라, 매출이 생기는 출발점입니다.",
+        "whyMatters": "지금 주도 섹터에서 Healthcare가 17종목(34%)으로 Technology와 공동 1위라는 점이 핵심입니다. 승인 뉴스는 이 헬스케어 주도력이 단순히 기술주 대비 방어 자금이 흘러든 결과가 아니라, 실제 신약 승인 같은 펀더멘털 촉매를 동반하고 있다는 근거가 됩니다. 기술주가 잭슨홀 이벤트로 흔들릴 경우 자금이 대형 제약·바이오로 옮겨갈 여지가 있어, 헬스케어 브레이크아웃 후보의 우선순위를 낮추지 않는 게 좋습니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "FDA approves daily HIV pill from Gilead designed to simplify treatment for some patients",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/27/fda-approves-gilead-hiv-pill-bixlenvo-designed-to-simplify-treatment.html",
+            "date": "2026-08-27",
+            "quote": "FDA approves daily HIV pill from Gilead designed to simplify treatment for some patients",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "갭 12% 급등 — 부진한 올드네이비에 새 CEO를 앉혔다",
+        "easy": "의류회사 갭(Gap)이 부진한 브랜드 올드네이비의 새 CEO를 임명한다고 발표하자 주가가 12% 올랐다고 CNBC가 전했습니다. 축구팀이 계속 지고 있을 때 감독을 바꾸면, 아직 경기를 한 판도 안 했는데 팬들이 기대감으로 들뜨는 것과 같습니다. 즉 이 상승은 실적이 좋아진 결과가 아니라 '앞으로 좋아질 것 같다'는 기대에 대한 반응입니다. 그래서 새 CEO가 실제 숫자로 증명하지 못하면 되돌림도 빠를 수 있습니다.",
+        "whyMatters": "Consumer Cyclical(경기소비재)이 주도 섹터에서 4종목(8%)으로 비중이 작은데, 그 작은 자리에서도 턴어라운드 스토리가 있는 소매주에는 돈이 붙는다는 걸 보여줍니다. 다만 이건 업종 전체가 좋아졌다는 신호가 아니라 개별 회사의 경영진 교체 이슈이므로, 다른 의류·소매주로 그대로 확대 해석하면 안 됩니다. 소비재는 여전히 Technology(34%)·Healthcare(34%)에 비해 주도력이 약한 후순위 자리입니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Gap shares jump 12% after company names new Old Navy CEO to revive struggling brand",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/27/gap-q2-2026-earnings.html",
+            "date": "2026-08-27",
+            "quote": "Gap shares jump 12% after company names new Old Navy CEO to revive struggling brand",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "옵션시장은 S&P500 추가 상승을 가리키는데, 지표 하나가 경고등을 켰다",
+        "easy": "옵션시장(주가가 오를지 내릴지에 미리 돈을 거는 시장)의 신호는 S&P500이 더 오를 것 같다고 말하고 있는데, 동시에 한 지표는 경고를 보내고 있다고 마켓워치가 전했습니다. 이건 일기예보가 '맑음'이라고 하면서 저 멀리 먹구름 사진을 같이 보여주는 것과 비슷합니다. 시장이 오르는 것과 그 오름이 안전한 것은 다른 문제입니다. 우리 팀 수치도 같은 이야기를 하는데, QQQ는 종가 721.11로 MA10 716.84 / MA20 716.52 / MA50 712.19 위에 있어 정배열이지만, 이동평균의 기울기가 둔화(10MA -0.76% / 20MA 1.24%)돼 있습니다.",
+        "whyMatters": "'방향은 위, 힘은 약해짐'이라는 조합이라 🟡 진입 강도 축소 판정이 나온 겁니다. 실전에서는 새 브레이크아웃을 아예 안 하는 게 아니라, 종목당 비중을 줄이고 손절 폭을 좁게 잡는 방식으로 대응합니다. 특히 세일즈포스처럼 하루 20% 넘게 뛴 자리를 추격하는 것은 이런 국면에서 손실 확률이 가장 높은 행동입니다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "The options market is signaling further gains for the S&P 500, but one indicator is flashing a warning",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-s-p-500-is-nearing-an-especially-positive-price-and-the-options-market-suggests-a-surge-is-likely-a54d866d?mod=mw_rss_topstories",
+            "date": "2026-08-27",
+            "quote": "The options market is signaling further gains for the S&P 500, but one indicator is flashing a warning",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "스페이스X — 주가는 이례적으로 움직이고, 1,000억 달러 우주항 계획엔 '돈은 어디서?'",
+        "easy": "스페이스X 주식이 아주 이례적인 움직임을 보이면서 옵션 거래자들이 주목하고 있다고 CNBC가 전했고, 마켓워치는 1,000억 달러(약 130조 원)짜리 우주항 건설 계획을 두고 투자자들이 '그 돈이 다 어디서 나오냐'고 묻고 있다고 전했습니다. 한 친구가 갑자기 '우리 집에 수영장 딸린 체육관을 지을 거야'라고 하면, 다들 멋지다고 하면서도 속으로는 돈 얘기를 먼저 떠올리는 것과 같습니다. 계획이 클수록 필요한 돈도 크고, 그 돈은 결국 빚을 내거나 주식을 더 찍어서 마련해야 합니다. 그래서 큰 꿈 자체보다 '자금 조달 방법'이 주가를 좌우하게 됩니다.",
+        "whyMatters": "이건 실적이 아니라 스토리와 수급으로 움직이는 대표적인 사례라, 지금처럼 마진부채 YoY +38.6%(+30% 초과, 레버리지 확대 주의)인 국면에서 특히 위험합니다. 빚으로 산 주식이 많은 시장에서는 이야기로 오른 종목이 조정 시 가장 먼저, 가장 크게 되돌립니다. 200일선 대비 +150%를 넘긴 종목이 아직 1개뿐이라 시장 전체가 과열 끝단은 아니지만, 개별 스토리주에 큰 비중을 싣는 건 지금 국면에서 권하지 않습니다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "SpaceX shares are doing something very unusual. Options traders are taking note",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/27/spacex-shares-are-doing-something-very-unusual-options-traders-are-taking-note.html",
+            "date": "2026-08-27",
+            "quote": "SpaceX shares are doing something very unusual. Options traders are taking note",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "SpaceX's $100 billion spaceport plan has investors asking where all the money is coming from",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/spacexs-100-billion-spaceport-plan-has-investors-asking-where-all-the-money-is-coming-from-7395bc51?mod=mw_rss_topstories",
+            "date": "2026-08-27",
+            "quote": "SpaceX's $100 billion spaceport plan has investors asking where all the money is coming from",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "오늘 미국 시장은 '방향은 위쪽인데 발걸음이 무거워진' 모습입니다. 세일즈포스가 22% 폭등해 소프트웨어 업종 전체를 끌어올렸고, 크라우드스트라이크는 사상 최고 실적으로, 엔비디아는 연매출 1조 달러 전망까지 나오며 기술주 쪽 재료는 계속 좋았습니다. 그런데 마벨은 전망치를 올렸는데도 주가가 빠졌습니다 — 좋은 소식이 이미 가격에 다 들어가 있는 종목은 더 못 오른다는 뜻이고, 이제 '다 같이 오르는' 장이 아니라 '되는 것만 오르는' 장으로 바뀌고 있다는 신호입니다. 지수 자체도 같은 이야기를 하는데, QQQ는 종가 721.11로 MA10 716.84 / MA20 716.52 / MA50 712.19 위에 있는 정배열이지만 이동평균의 기울기가 둔화(10MA -0.76% / 20MA 1.24%)돼 🟡 진입 강도 축소 판정입니다. 주도 섹터는 Healthcare 17종목(34%)과 Technology 17종목(34%)이 정확히 반반으로, 공격(AI·소프트웨어)과 방어(제약·바이오)가 동시에 강한 흔치 않은 구도입니다. 그리고 모든 것 위에 금요일 잭슨홀에서 있을 케빈 워시 연준 의장의 연설이 걸려 있어, 오늘까지의 상승은 사실상 '중간 점수'에 가깝습니다.",
+    "keyRisks": [
+      "금요일 잭슨홀 워시 연준 의장 연설 — 이번 주 상승분이 하루 만에 되돌려질 수 있는 단일 최대 변수. 금리에 민감한 고밸류 기술주(Technology 17종목, 34%)와 바이오가 가장 크게 반응한다.",
+      "FINRA 고객 마진부채 YoY +38.6% — +30% 초과, 레버리지 확대 주의 구간. 빚으로 산 주식이 많으면 조정이 시작될 때 강제 청산이 겹쳐 하락 속도가 평소보다 빨라진다.",
+      "QQQ 기울기 둔화(10MA -0.76% / 20MA 1.24%) — 정배열은 유지되지만 상승 힘이 약해지는 구간. 신규 진입 비중을 줄이고 손절 폭을 좁게 가져가야 한다.",
+      "실적 호재에도 안 오르는 종목의 등장(마벨 사례) — 좋은 뉴스가 가격에 선반영된 신호. 앞으로 AI 반도체 안에서도 종목별 차별화가 커질 수 있다.",
+      "세일즈포스 22% 같은 하루 급등 자리 추격 매수 — 기울기 둔화 국면에서 가장 손실 확률이 높은 행동. 눌림 확인 후 접근이 안전하다.",
+      "스페이스X처럼 실적이 아닌 스토리·수급으로 움직이는 종목 — 1,000억 달러 계획의 자금 조달 방법이 불명확한 상태라, 마진부채가 높은 지금 국면에서 조정 시 되돌림 폭이 가장 크다."
+    ],
+    "easySummary": [
+      "소프트웨어가 살아났다 — 세일즈포스 22%, 크라우드스트라이크 급등으로 그동안 AI 반도체에만 쏠려 있던 돈이 소프트웨어로도 넓어지는 중.",
+      "그런데 마벨은 전망을 올렸는데 주가가 빠졌다 — 이제 '다 오르는 장'이 아니라 '되는 것만 오르는 장'. QQQ도 정배열이지만 기울기가 둔화돼 🟡 진입 강도 축소.",
+      "금요일 잭슨홀 워시 의장 연설 전까지는 크게 베팅하지 말 것 — 마진부채가 YoY +38.6%로 빚이 많이 낀 시장이라, 이벤트에서 삐끗하면 되돌림이 평소보다 빠르다."
+    ],
+    "candidateCount": 16,
+    "verified": {
+      "checked": 243,
+      "ok": 324,
+      "unverified": 28,
+      "dead": 0,
+      "stripped": 3,
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://simplywall.st/stocks/us/software/nasdaq-team/atlassian/news/atlassian-team-posts-robust-earnings-and-guidance-is-the-reb"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.dailypolitical.com/2026/08/07/bluelinx-nysebxc-reaches-new-1-year-high-should-you-buy.html"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321732/000095010326000523/dp240008_8k.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000039/dy-20260826.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-20260729.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.dailypolitical.com/2026/08/19/analysts-set-the-andersons-inc-nasdaqande-target-price-at-95-00.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://247wallst.com/investing/2026/08/18/diesel-prices-are-breaking-records-3-refiners-turning-the-crisis-into-record-profits/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/energy/articles/forget-oil-prices-1-refining-141753237.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/energy/articles/forget-oil-prices-1-refining-141753237.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://247wallst.com/investing/2026/08/18/diesel-prices-are-breaking-records-3-refiners-turning-the-crisis-into-record-profits/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.enverus.com/blog/diesels-hundred-dollar-crack-refinery-outages-crude-supply-driving-pain-pump/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.enverus.com/blog/diesels-hundred-dollar-crack-refinery-outages-crude-supply-driving-pain-pump/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-tuesday-august-25-2026-gold-hits-3-month-high-this-morning-120736963.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-tuesday-august-25-2026-gold-hits-3-month-high-this-morning-120736963.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.thestandard.com.hk/finance/article/339328/Chinas-central-bank-adds-to-gold-reserves-for-21st-month-running"
+        }
+      ],
+      "noQuote": 3
+    },
+    "reusedFrom": null
   }
 };

@@ -1,0 +1,276 @@
+{
+ "ticker": "TEAM",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "아틀라시언",
+ "detail": {
+  "fetchedAt": "2026-08-21",
+  "nameKo": "아틀라시언",
+  "nameEn": "ATLASSIAN CORP",
+  "infomaxCode": "NAS:TEAM",
+  "financials": {
+   "ok": true,
+   "ticker": "TEAM",
+   "cik": "0001650372",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-01-01",
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1786971000,
+     "profit": -56284000,
+     "netIncome": -98389000,
+     "margin": -3.1,
+     "yoy": {
+      "revenue": 31.7,
+      "profit": -351.9,
+      "netIncome": -39,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodStart": "2025-10-01",
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 1586315000,
+     "profit": -47747000,
+     "netIncome": -42645000,
+     "margin": -3,
+     "yoy": {
+      "revenue": 23.3,
+      "profit": 16.9,
+      "netIncome": -11.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodStart": "2025-07-01",
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1432553000,
+     "profit": -96337000,
+     "netIncome": -51870000,
+     "margin": -6.7,
+     "yoy": {
+      "revenue": 20.6,
+      "profit": -201.3,
+      "netIncome": 58.1,
+      "priorEnd": "2024-09-30"
+     }
+    },
+    {
+     "periodStart": "2025-03-31",
+     "periodEnd": "2025-06-30",
+     "derived": true,
+     "revenue": 1384344000,
+     "profit": -28479000,
+     "netIncome": -23903000,
+     "margin": -2.1,
+     "yoy": {
+      "revenue": 22.3,
+      "profit": 57.5,
+      "netIncome": 87.9,
+      "priorEnd": "2024-06-30"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001650372&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "TEAM",
+   "items": [
+    {
+     "title": "Can Strong AI Adoption Help Atlassian Challenge CRM & NOW?",
+     "url": "https://www.nasdaq.com/articles/can-strong-ai-adoption-help-atlassian-challenge-crm-now",
+     "date": "2026-08-19",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "TEAM",
+      "CRM",
+      "NOW"
+     ]
+    },
+    {
+     "title": "What Does the Sale of Atlassian Stock Worth $1.2 Million by Its Chief Revenue Officer Mean for Investors?",
+     "url": "https://www.nasdaq.com/articles/what-does-sale-atlassian-stock-worth-12-million-its-chief-revenue-officer-mean-investors",
+     "date": "2026-08-18",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "TEAM",
+      "TEAM"
+     ]
+    },
+    {
+     "title": "Atlassian Conference Highlights AI-Led Cloud Growth, Expanding Enterprise Demand",
+     "url": "https://www.nasdaq.com/articles/atlassian-conference-highlights-ai-led-cloud-growth-expanding-enterprise-demand",
+     "date": "2026-08-18",
+     "publisher": "MarketBeat",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "TEAM"
+     ]
+    },
+    {
+     "title": "Atlassian vs. Salesforce: Which Cloud Software Stock Has an Edge?",
+     "url": "https://www.nasdaq.com/articles/atlassian-vs-salesforce-which-cloud-software-stock-has-edge",
+     "date": "2026-08-17",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "CRM",
+      "TEAM"
+     ]
+    },
+    {
+     "title": "This Software Stock Is Up 74% in 1 Month, and It Can Keep Climbing Higher From Here",
+     "url": "https://www.nasdaq.com/articles/software-stock-74-1-month-and-it-can-keep-climbing-higher-here",
+     "date": "2026-08-15",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "TEAM",
+      "TEAM"
+     ]
+    },
+    {
+     "title": "ROP Gains From Robust Application Software Unit: A Sign for More Upside?",
+     "url": "https://www.nasdaq.com/articles/rop-gains-robust-application-software-unit-sign-more-upside",
+     "date": "2026-08-14",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "ROP",
+      "ADSK",
+      "TEAM"
+     ]
+    }
+   ],
+   "directCount": 4,
+   "total": 6,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "reportDate": "2026-08-06",
+    "items": [
+     "2.02",
+     "8.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000031/team-20260806.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "reportDate": "2026-04-30",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000024/team-20260430.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-11",
+    "reportDate": "2026-03-11",
+    "items": [
+     "2.05",
+     "5.02",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "2.05",
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000021/team-20260311.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-18",
+    "reportDate": "2026-02-18",
+    "items": [
+     "5.02"
+    ],
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000017/team-20260218.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-05",
+    "reportDate": "2026-02-05",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000008/team-20260205.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-15",
+    "reportDate": "2026-01-15",
+    "items": [
+     "5.02"
+    ],
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000003/team-20260115.htm",
+    "description": "8-K"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": [],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}

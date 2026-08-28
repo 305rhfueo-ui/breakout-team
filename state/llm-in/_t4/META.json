@@ -2,6 +2,32 @@
  "ticker": "META",
  "news": [
   {
+   "title": "AppLovin vs. Meta Platforms: Analyzing Quarterly Revenue Trajectories Between These High-Growth Digital Media Companies",
+   "url": "https://www.nasdaq.com/articles/applovin-vs-meta-platforms-analyzing-quarterly-revenue-trajectories-between-these-high",
+   "date": "2026-08-27",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "APP",
+    "APP",
+    "META"
+   ]
+  },
+  {
+   "title": "GOOGL Rides on Strong Advertising Revenues: Can It Beat RDDT and META?",
+   "url": "https://www.nasdaq.com/articles/googl-rides-strong-advertising-revenues-can-it-beat-rddt-and-meta",
+   "date": "2026-08-27",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "GOOGL",
+    "META",
+    "RDDT"
+   ]
+  },
+  {
    "title": "Meta Agrees To Up To $17 Bln Settlement With States Over Child Safety Claims",
    "url": "https://www.nasdaq.com/articles/meta-agrees-17-bln-settlement-states-over-child-safety-claims",
    "date": "2026-08-26",
@@ -48,15 +74,27 @@
    ]
   },
   {
-   "title": "Billionaire Bill Ackman Just Sold Alphabet and Bought These 2 Beaten-Down Artificial Intelligence (AI) Stocks",
-   "url": "https://www.nasdaq.com/articles/billionaire-bill-ackman-just-sold-alphabet-and-bought-these-2-beaten-down-artificial",
-   "date": "2026-08-26",
+   "title": "Should SpaceX Join the &quot;Magnificent Seven&quot;? Here's 1 Stock I'd Kick Out to Make Room.",
+   "url": "https://www.nasdaq.com/articles/should-spacex-join-magnificent-seven-heres-1-stock-id-kick-out-make-room",
+   "date": "2026-08-27",
    "publisher": "The Motley Fool",
    "tier1": false,
    "direct": false,
    "tickers": [
-    "MSFT",
-    "MSFT",
+    "META",
+    "TSLA"
+   ]
+  },
+  {
+   "title": "If I Were in My 20s, I'd Buy These 2 Trillion-Dollar Stocks and Hold Them Until Retirement",
+   "url": "https://www.nasdaq.com/articles/if-i-were-my-20s-id-buy-these-2-trillion-dollar-stocks-and-hold-them-until-retirement",
+   "date": "2026-08-27",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "AMZN",
+    "AMZN",
     "META"
    ]
   }

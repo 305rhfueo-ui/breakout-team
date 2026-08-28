@@ -4,7 +4,7 @@
  "industry": "Computer Hardware",
  "nameKo": "에버퓨어",
  "detail": {
-  "fetchedAt": "2026-08-27",
+  "fetchedAt": "2026-08-28",
   "nameKo": "에버퓨어",
   "nameEn": "EVERPURE INC",
   "infomaxCode": "NYS:P",
@@ -90,6 +90,17 @@
    "ticker": "P",
    "items": [
     {
+     "title": "Everpure's Q2 Earnings Call Centers on Sustainable Growth",
+     "url": "https://www.nasdaq.com/articles/everpures-q2-earnings-call-centers-sustainable-growth",
+     "date": "2026-08-27",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "P"
+     ]
+    },
+    {
      "title": "Compared to Estimates, Everpure (P) Q2 Earnings: A Look at Key Metrics",
      "url": "https://www.nasdaq.com/articles/compared-estimates-everpure-p-q2-earnings-look-key-metrics",
      "date": "2026-08-26",
@@ -170,22 +181,10 @@
       "YMM",
       "P"
      ]
-    },
-    {
-     "title": "Aether Holdings, Inc. (ATHR) Reports Q3 Loss, Lags Revenue Estimates",
-     "url": "https://www.nasdaq.com/articles/aether-holdings-inc-athr-reports-q3-loss-lags-revenue-estimates",
-     "date": "2026-08-13",
-     "publisher": "Zacks",
-     "tier1": false,
-     "direct": false,
-     "tickers": [
-      "ATHR",
-      "P"
-     ]
     }
    ],
-   "directCount": 6,
-   "total": 8,
+   "directCount": 7,
+   "total": 9,
    "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
   },
   "filings": [

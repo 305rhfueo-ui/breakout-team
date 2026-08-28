@@ -4,7 +4,7 @@
  "industry": "Computer Hardware",
  "nameKo": "시게이트 테크놀로지 홀딩스",
  "detail": {
-  "fetchedAt": "2026-08-27",
+  "fetchedAt": "2026-08-28",
   "nameKo": "시게이트 테크놀로지 홀딩스",
   "nameEn": "SEAGATE TECHNOLOGY HOLDINGS PLC",
   "infomaxCode": "NAS:STX",
@@ -90,6 +90,18 @@
    "ticker": "STX",
    "items": [
     {
+     "title": "Seagate (STX) Up 10.7% Since Last Earnings Report: Can It Continue?",
+     "url": "https://www.nasdaq.com/articles/seagate-stx-107-last-earnings-report-can-it-continue",
+     "date": "2026-08-27",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "STX",
+      "IBM"
+     ]
+    },
+    {
      "title": "3 Growth Stocks to Buy as Treasury Yields Fall: MU, STX & VLO",
      "url": "https://www.nasdaq.com/articles/3-growth-stocks-buy-treasury-yields-fall-mu-stx-vlo",
      "date": "2026-08-26",
@@ -153,34 +165,32 @@
      ]
     },
     {
-     "title": "Can Strong Enterprise Demand Sustain Quantum's Momentum?",
-     "url": "https://www.nasdaq.com/articles/can-strong-enterprise-demand-sustain-quantums-momentum",
-     "date": "2026-08-25",
+     "title": "Will NetApp's Public Cloud Business Maintain Its Growth Momentum?",
+     "url": "https://www.nasdaq.com/articles/will-netapps-public-cloud-business-maintain-its-growth-momentum",
+     "date": "2026-08-27",
      "publisher": "Zacks",
      "tier1": false,
      "direct": false,
      "tickers": [
-      "QMCO",
+      "NTAP",
       "WDC",
       "STX"
      ]
     },
     {
-     "title": "WDC's Strong Q4 Raises the Stakes for Its Fiscal 2027 Product Ramp",
-     "url": "https://www.nasdaq.com/articles/wdcs-strong-q4-raises-stakes-its-fiscal-2027-product-ramp",
-     "date": "2026-08-24",
+     "title": "The Zacks Rank Explained: How to Find Strong Buy Computer and Technology Stocks",
+     "url": "https://www.nasdaq.com/articles/zacks-rank-explained-how-find-strong-buy-computer-and-technology-stocks-8",
+     "date": "2026-08-27",
      "publisher": "Zacks",
      "tier1": false,
      "direct": false,
      "tickers": [
-      "WDC",
-      "STX",
-      "SNDK"
+      "STX"
      ]
     }
    ],
-   "directCount": 5,
-   "total": 7,
+   "directCount": 6,
+   "total": 9,
    "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
   },
   "filings": [

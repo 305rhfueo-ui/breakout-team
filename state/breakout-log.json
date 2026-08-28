@@ -1,6 +1,13 @@
 {
   "entries": [
     {
+      "date": "2026-08-28",
+      "ticker": "OKTA",
+      "verdict": "breakout",
+      "note": "사장님 육안 판정 — 8/28 장중 저항선 돌파. 시스템은 8/26 종가까지만 반영(3팀 8/21 배제 상태, brk=NO)",
+      "recorded_at": "2026-08-28T00:03:59.152Z"
+    },
+    {
       "date": "2026-08-05",
       "ticker": "PANW",
       "verdict": "breakout",

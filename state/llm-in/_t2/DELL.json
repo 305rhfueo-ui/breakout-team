@@ -4,7 +4,7 @@
  "industry": "Computer Hardware",
  "nameKo": "델 테크놀로지스",
  "detail": {
-  "fetchedAt": "2026-08-27",
+  "fetchedAt": "2026-08-28",
   "nameKo": "델 테크놀로지스",
   "nameEn": "DELL TECHNOLOGIES INC",
   "infomaxCode": "NYS:DELL",
@@ -90,6 +90,42 @@
    "ticker": "DELL",
    "items": [
     {
+     "title": "Prediction: Dell Technologies Stock Could Go Parabolic After Sept. 1. Here's Why.",
+     "url": "https://www.nasdaq.com/articles/prediction-dell-technologies-stock-could-go-parabolic-after-sept-1-heres-why",
+     "date": "2026-08-27",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "DELL",
+      "DELL"
+     ]
+    },
+    {
+     "title": "SNOW Benefits From Product Revenue Surge: Can It Beat DELL & ORCL?",
+     "url": "https://www.nasdaq.com/articles/snow-benefits-product-revenue-surge-can-it-beat-dell-orcl",
+     "date": "2026-08-27",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SNOW",
+      "DELL",
+      "ORCL"
+     ]
+    },
+    {
+     "title": "Dell Technologies (DELL) Q2 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
+     "url": "https://www.nasdaq.com/articles/dell-technologies-dell-q2-earnings-horizon-analysts-insights-key-performance-measures",
+     "date": "2026-08-27",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "DELL"
+     ]
+    },
+    {
      "title": "Dell Technologies (DELL) Advances While Market Declines: Some Information for Investors",
      "url": "https://www.nasdaq.com/articles/dell-technologies-dell-advances-while-market-declines-some-information-investors",
      "date": "2026-08-26",
@@ -138,17 +174,6 @@
      ]
     },
     {
-     "title": "Dell Technologies (DELL) Earnings Expected to Grow: Should You Buy?",
-     "url": "https://www.nasdaq.com/articles/dell-technologies-dell-earnings-expected-grow-should-you-buy",
-     "date": "2026-08-25",
-     "publisher": "Zacks",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "DELL"
-     ]
-    },
-    {
      "title": "HP (HPQ) Q3 Earnings and Revenues Top Estimates",
      "url": "https://www.nasdaq.com/articles/hp-hpq-q3-earnings-and-revenues-top-estimates",
      "date": "2026-08-26",
@@ -159,36 +184,10 @@
       "HPQ",
       "DELL"
      ]
-    },
-    {
-     "title": "PENG's Backlog Keeps Growing: Is Revenue Visibility Improving?",
-     "url": "https://www.nasdaq.com/articles/pengs-backlog-keeps-growing-revenue-visibility-improving",
-     "date": "2026-08-26",
-     "publisher": "Zacks",
-     "tier1": false,
-     "direct": false,
-     "tickers": [
-      "PENG",
-      "DELL",
-      "VRT"
-     ]
-    },
-    {
-     "title": "HPE's Private Cloud AI Gains Momentum: What Lies Ahead?",
-     "url": "https://www.nasdaq.com/articles/hpes-private-cloud-ai-gains-momentum-what-lies-ahead",
-     "date": "2026-08-26",
-     "publisher": "Zacks",
-     "tier1": false,
-     "direct": false,
-     "tickers": [
-      "HPE",
-      "CSCO",
-      "DELL"
-     ]
     }
    ],
-   "directCount": 5,
-   "total": 11,
+   "directCount": 7,
+   "total": 12,
    "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
   },
   "filings": [

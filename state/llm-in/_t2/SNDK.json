@@ -4,7 +4,7 @@
  "industry": "Computer Hardware",
  "nameKo": "샌디스크",
  "detail": {
-  "fetchedAt": "2026-08-27",
+  "fetchedAt": "2026-08-28",
   "nameKo": "샌디스크",
   "nameEn": "SANDISK CORP",
   "infomaxCode": "NAS:SNDK",
@@ -90,6 +90,42 @@
    "ticker": "SNDK",
    "items": [
     {
+     "title": "KLAC vs. SNDK: Which Semiconductor Stock is a Better Buy Now?",
+     "url": "https://www.nasdaq.com/articles/klac-vs-sndk-which-semiconductor-stock-better-buy-now",
+     "date": "2026-08-27",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SNDK",
+      "KLAC"
+     ]
+    },
+    {
+     "title": "Kioxia Plans Over $31 Bln Japan Investment With Sandisk",
+     "url": "https://www.nasdaq.com/articles/kioxia-plans-over-31-bln-japan-investment-sandisk",
+     "date": "2026-08-27",
+     "publisher": "RTTNews",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SNDK"
+     ]
+    },
+    {
+     "title": "This Hedge Fund Just Sold Sandisk and Bought Taiwan Semiconductor Manufacturing Stock. Does Wall Street Agree With the Move?",
+     "url": "https://www.nasdaq.com/articles/hedge-fund-just-sold-sandisk-and-bought-taiwan-semiconductor-manufacturing-stock-does-wall",
+     "date": "2026-08-27",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SNDK",
+      "SNDK",
+      "TSM"
+     ]
+    },
+    {
      "title": "Sandisk vs. Micron: Which Memory Stock Has the Best Risk/Reward?",
      "url": "https://www.nasdaq.com/articles/sandisk-vs-micron-which-memory-stock-has-best-risk-reward",
      "date": "2026-08-25",
@@ -126,59 +162,20 @@
      ]
     },
     {
-     "title": "Zacks.com featured highlights Sandisk, Celestica  and BrightSpring",
-     "url": "https://www.nasdaq.com/articles/zackscom-featured-highlights-sandisk-celestica-and-brightspring",
-     "date": "2026-08-25",
+     "title": "3 Storage Devices Stocks to Buy as the Industry Gains Momentum",
+     "url": "https://www.nasdaq.com/articles/3-storage-devices-stocks-buy-industry-gains-momentum",
+     "date": "2026-08-27",
      "publisher": "Zacks",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "SNDK",
-      "CLS",
-      "BTSG"
-     ]
-    },
-    {
-     "title": "Sandisk & 2 Profitable Stocks to Buy Now for Explosive Upside",
-     "url": "https://www.nasdaq.com/articles/sandisk-2-profitable-stocks-buy-now-explosive-upside",
-     "date": "2026-08-24",
-     "publisher": "Zacks",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "SNDK",
-      "CLS",
-      "BTSG"
-     ]
-    },
-    {
-     "title": "Western Digital Sits 46% Below Its High and Has Still More Than Doubled This Year",
-     "url": "https://www.nasdaq.com/articles/western-digital-sits-46-below-its-high-and-has-still-more-doubled-year",
-     "date": "2026-08-25",
-     "publisher": "The Motley Fool",
-     "tier1": false,
-     "direct": false,
-     "tickers": [
-      "WDC",
-      "WDC",
-      "SNDK"
-     ]
-    },
-    {
-     "title": "Samsung Just Authorized Its Largest Shareholder Return Ever. Every Major Memory Stock Fell Monday.",
-     "url": "https://www.nasdaq.com/articles/samsung-just-authorized-its-largest-shareholder-return-ever-every-major-memory-stock-fell",
-     "date": "2026-08-24",
-     "publisher": "The Motley Fool",
      "tier1": false,
      "direct": false,
      "tickers": [
       "SNDK",
-      "SNDK",
-      "NVDA"
+      "WDC",
+      "SMCI"
      ]
     }
    ],
-   "directCount": 5,
+   "directCount": 6,
    "total": 7,
    "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
   },
