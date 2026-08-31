@@ -477,8 +477,269 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-08-31",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "잭슨홀 발언 후 '금리 인하'가 아니라 '금리 인상' 확률이 올라갔다 — 워시발 긴축 경고",
+        "easy": "미국 중앙은행(연준) 인사인 워시가 잭슨홀 회의에서 물가에 대해 강한 발언을 했고, 그 뒤 시장에서는 금리를 내리기는커녕 '올릴 수도 있다'는 확률이 올라갔습니다(금리 = 돈을 빌릴 때 내는 이자). BBC 기사에서 워시는 미국인들의 물가 상승이 잦아들지 않으면 연준이 '할 일이 남아 있다'고 말했습니다. 금리는 주식시장에서 중력 같은 겁니다 — 중력이 세지면 높이 떠 있던 물체일수록 더 세게 끌려 내려옵니다. 그래서 이 소식이 나온 뒤 미국 주가지수 선물이 미끄러졌습니다. 지금 QQQ는 종가 721.11로 MA10 716.84 · MA20 716.52 · MA50 712.19 위에 있어 정배열은 유지하지만, 10MA 기울기가 -0.76%로 꺾이며 '정배열이나 기울기 둔화 — 진입 강도 축소' 신호가 켜진 상태입니다.",
+        "whyMatters": "금리가 더 오를 수 있다는 이야기는 '먼 미래 이익'으로 값이 매겨지는 종목을 가장 아프게 때립니다. 지금 브레이크아웃 후보의 38%가 Technology 19종목이라 포트폴리오가 구조적으로 금리에 가장 민감한 쪽에 쏠려 있습니다. 두 번째로 큰 Healthcare 16종목(32%)은 상대적으로 방어적이라 자금이 기술주에서 헬스케어 쪽으로 옮겨가는 순환이 나타날 수 있습니다. 게다가 FINRA 고객 마진부채가 YoY +38.6%로 +30%를 넘겨 빚으로 산 물량이 많은 상태라, 금리 경계감이 커지면 강제 청산성 하락이 평소보다 깊어질 수 있습니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "U.S. stock futures slip as chances of rate hike rise after Warsh's Jackson Hole comments",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories",
+            "date": "2026-08-30",
+            "quote": "U.S. stock futures slip as chances of rate hike rise after Warsh's Jackson Hole comments",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Fed has 'work to do' if price rises don't ease for Americans, Warsh says",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-08-28",
+            "quote": "Fed has 'work to do' if price rises don't ease for Americans, Warsh says",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "미국, 호르무즈 해협 인근 이란 로켓 발사대 타격 — 원유 수송로에 불이 붙었다",
+        "easy": "미국이 호르무즈 해협 근처에 있는 이란의 로켓 발사대를 공격했습니다. 호르무즈 해협은 전 세계 석유가 배로 지나가는 좁은 길목입니다 — 도시 전체가 쓰는 하나뿐인 큰 다리 같은 곳이라, 여기가 막히거나 위험해지면 기름값이 바로 뜁니다. 기름값이 오르면 물가가 다시 오르고, 물가가 오르면 위의 '금리 인상' 이야기가 더 힘을 얻습니다. 즉 이 뉴스는 전쟁 뉴스이면서 동시에 물가 뉴스입니다. 주식시장은 이런 '어디까지 커질지 모르는' 사건을 가장 싫어합니다.",
+        "whyMatters": "방향은 둘로 갈립니다. Basic Materials 6종목(12%) 중 에너지·원자재 성격의 이름들은 유가가 뛰면 오히려 수혜를 볼 수 있는 자리입니다. 반대로 Technology 19종목(38%)과 Consumer Cyclical 4종목(8%)은 유가·운임 상승이 비용과 소비 여력을 동시에 갉아먹는 쪽이라 불리합니다. 특히 소비재는 기름값이 오르면 사람들이 지갑을 닫는 직격탄을 맞습니다. 사태가 커지면 지수 자체가 흔들리므로, QQQ가 MA20 716.52를 잃는지가 실무적인 방어선입니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "U.S. strikes Iranian rocket launchers near Strait of Hormuz",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/30/us-iran-strikes-strait-hormuz.html",
+            "date": "2026-08-30",
+            "quote": "U.S. strikes Iranian rocket launchers near Strait of Hormuz",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "트럼프, 베네수엘라 원유 650억 배럴 통제 '역사적 합의' 발표 — 중동 리스크의 반대편 추",
+        "easy": "트럼프 대통령이 베네수엘라의 석유 650억 배럴을 통제하는 합의를 맺었다고 발표했습니다. 배럴은 석유를 세는 통 단위이고, 650억 배럴은 어마어마한 양입니다. 앞의 이란 뉴스가 '기름 공급이 막힐 수 있다'는 이야기였다면, 이건 '기름이 더 나올 수 있다'는 정반대 이야기입니다. 시소의 양쪽에 사람이 하나씩 올라탄 셈이라, 유가가 어느 쪽으로 기울지는 어느 쪽 무게가 더 나가는지에 달렸습니다. 그래서 오늘 시장은 방향을 잡기보다 눈치를 보는 흐름이 되기 쉽습니다.",
+        "whyMatters": "공급이 늘어난다는 시나리오는 유가를 눌러 물가 압력을 낮추므로, 금리 부담이 큰 Technology 19종목(38%)에는 우호적입니다. 반대로 이란 뉴스의 수혜 자리였던 Basic Materials 6종목(12%) 에너지·원자재 쪽에는 역풍이 됩니다. 즉 오늘 원자재 계열 브레이크아웃 후보는 두 개의 반대 뉴스에 동시에 노출된 상태라 변동성이 커질 수 있습니다. 방향보다 변동성이 커지는 국면이므로 진입 사이즈를 줄이는 판단이 합리적입니다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Trump hails 'historic' deal to control 65 billion barrels of Venezuelan oil",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-08-30",
+            "quote": "Trump hails 'historic' deal to control 65 billion barrels of Venezuelan oil",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Aon, KKR로부터 보험중개사 USI를 170억 달러에 인수 협의 — 대형 M&A가 다시 돌아왔다",
+        "easy": "보험중개 회사 Aon이 사모펀드 KKR이 가진 보험중개사 USI를 약 170억 달러(약 23조 원)에 사들이는 협상을 하고 있다고 WSJ이 보도했습니다. 이렇게 큰 인수는 회사들이 '지금 돈을 쓸 만하다'고 판단할 때 나옵니다. 겨울에 아무도 집을 안 고치다가, 봄이 오면 공사가 시작되는 것과 비슷합니다. M&A(기업 인수합병)가 늘어난다는 건 자금 조달 환경이 아직 얼어붙지 않았다는 신호입니다. 다만 금리가 오르면 이런 딜은 다시 줄어들기 때문에, 위의 워시 뉴스와는 서로 반대 방향의 신호입니다.",
+        "whyMatters": "이 딜 자체는 금융·보험 업종 이야기라 현재 주도 섹터 구성(Technology 38% · Healthcare 32%)과 직접 겹치지는 않습니다. 다만 '대형 인수가 성사될 만큼 자금이 돈다'는 신호는 시장 전체의 위험선호를 지지해 브레이크아웃 종목들이 신고가를 유지하는 데 우호적입니다. 특히 사모펀드가 보유 자산을 파는 흐름이 살아 있다는 건 유동성이 아직 마르지 않았다는 뜻입니다. 반대로 이 딜이 무산되면 자금 환경이 실제로는 빡빡하다는 역신호로 읽힐 수 있습니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Aon nears $17 billion deal to buy insurance broker USI from KKR, WSJ reports",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/30/aon-usi-17-billion-deal-talks.html",
+            "date": "2026-08-30",
+            "quote": "Aon nears $17 billion deal to buy insurance broker USI from KKR, WSJ reports",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "담배회사를 무너뜨린 변호사가 이번엔 Meta와 소셜미디어를 겨눈다 — 규제 리스크 재점화",
+        "easy": "과거에 거대 담배회사들을 상대로 이겨서 막대한 합의금을 받아낸 변호사(마이크 무어)가, 이번에는 같은 전략을 Meta 같은 소셜미디어 회사에 쓰려 한다는 기사입니다. 담배 소송 때는 여러 주(州)가 힘을 합쳐 회사를 압박했고 결국 회사들이 큰돈을 물어냈습니다. 소셜미디어에 같은 방식이 통하면, 회사는 벌금뿐 아니라 서비스 운영 방식까지 바꿔야 할 수 있습니다. 이건 하루짜리 뉴스가 아니라 몇 년에 걸쳐 이어지는 '천천히 조이는 밧줄' 같은 리스크입니다. 당장 실적을 바꾸지는 않지만, 밸류에이션(주가에 매겨지는 프리미엄)을 깎는 쪽으로 작용합니다.",
+        "whyMatters": "주도 섹터 1위인 Technology 19종목(38%) 안에서 광고·플랫폼 성격의 이름들이 이 규제 리스크에 직접 노출됩니다. 사용자 참여 시간과 광고 노출을 수익으로 바꾸는 모델일수록 타격 경로가 짧습니다. 반대로 같은 기술 섹터라도 반도체·인프라·B2B 소프트웨어 쪽은 이 이슈와 거리가 멀어 상대적으로 안전합니다. 즉 '기술주 전체'가 아니라 기술 섹터 안에서 광고 플랫폼과 나머지가 갈릴 수 있다는 점이 실전 포인트입니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "He beat Big Tobacco. Will the same playbook work against Meta and social media?",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/30/mike-moore-ag-social-media-settlement-big-tobacco.html",
+            "date": "2026-08-30",
+            "quote": "He beat Big Tobacco. Will the same playbook work against Meta and social media?",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "법원 \"트럼프 행정부가 Anthropic에 불법 보복\" — AI 기업 대 정부 갈등이 판결로",
+        "easy": "판사가 트럼프 행정부의 Anthropic(AI 회사)에 대한 조치가 불법적인 보복이었다고 판단했습니다. 쉽게 말해 '정부가 마음에 안 드는 회사에 불이익을 줬는데, 그건 규칙 위반'이라는 판정입니다. 심판이 반칙을 잡아준 것과 비슷해서, AI 회사 입장에서는 정부가 임의로 목줄을 죄기 어려워진다는 뜻이 됩니다. 다만 이 사건은 정부와 AI 산업 사이의 긴장 자체가 계속되고 있다는 신호이기도 합니다. 규칙이 명확해지는 건 장기적으로 산업에 좋지만, 갈등이 이어진다는 건 단기 불확실성입니다.",
+        "whyMatters": "정책 리스크가 법적으로 제한된다는 점은 Technology 19종목(38%) 중 AI 관련 밸류체인 전반에 심리적으로 우호적입니다. 정부 계약·조달 리스크가 낮아질수록 AI 인프라와 소프트웨어 종목의 성장 스토리가 덜 훼손되기 때문입니다. 다만 판결 하나가 정책 방향 전체를 바꾸지는 않으므로, 실제 주가 영향은 제한적일 가능성이 높습니다. 방향은 우호적이되 크기는 작다고 보는 것이 안전합니다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Trump administration illegally retaliated against Anthropic, judge rules",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-08-28",
+            "quote": "Trump administration illegally retaliated against Anthropic, judge rules",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "K뷰티 APR 주가 올해 100% 급등 — 9월 미국 코스트코 입점을 앞두고",
+        "easy": "한국 화장품 회사 APR의 주가가 올해 들어 100% 올랐습니다. 9월에 미국 코스트코에 제품을 넣는다는 소식이 앞서 반영된 것입니다. 코스트코 입점은 작은 가게 열 곳에 파는 게 아니라, 전국 대형 창고매장 진열대를 한 번에 얻는 것과 같습니다. 판매 채널이 넓어지면 매출이 계단식으로 뛸 수 있어서 투자자들이 미리 사들인 겁니다. 다만 이미 100%가 오른 뒤라, 실제 판매 성적이 기대에 못 미치면 되돌림이 클 수 있다는 점도 함께 봐야 합니다.",
+        "whyMatters": "미국 소비자가 아직 '새 브랜드에 돈을 쓴다'는 증거라, Consumer Cyclical 4종목(8%) 후보군에 우호적인 배경입니다. 특히 뷰티·리테일 유통망 확장 스토리를 가진 종목은 같은 테마의 온기를 받을 수 있습니다. 다만 이 종목 자체가 이미 크게 오른 상태이고, 지금 스크리닝에서 200일선 대비 +150%를 넘긴 종목이 1개 존재한다는 점은 과열 구간의 종목이 시장에 실제로 있다는 뜻입니다. 이런 '이미 많이 오른 스토리주'는 추격보다 눌림을 기다리는 편이 실전적으로 유리합니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/08/31/k-beauty-apr-costco-launch-september.html",
+            "date": "2026-08-30",
+            "quote": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "오늘 시장의 중심 주제는 딱 하나입니다 — '금리가 더 오를 수도 있다'는 공포입니다. 워시의 잭슨홀 발언 이후 금리 인상 확률이 올라가면서 미국 주가지수 선물이 미끄러졌고, 여기에 미국의 호르무즈 해협 인근 이란 로켓 발사대 타격이 겹치면서 기름값이 물가를 다시 밀어올릴 수 있다는 걱정이 더해졌습니다. 반대편에는 트럼프의 베네수엘라 원유 650억 배럴 합의 발표가 있어 '기름이 더 나올 수도 있다'는 정반대 힘이 걸려 있는데, 이 시소가 어느 쪽으로 기울지 아직 정해지지 않아 시장은 방향보다 눈치를 보는 국면입니다. 차트로 보면 QQQ는 종가 721.11로 MA10 716.84 · MA20 716.52 · MA50 712.19 위에 있어 정배열은 살아 있지만, 10MA 기울기가 -0.76%로 꺾여 '정배열이나 기울기 둔화 — 진입 강도 축소' 신호입니다. 즉 추세는 아직 위지만 오르막의 경사가 완만해진 상태라, 신규 진입은 되지만 사이즈를 줄여야 하는 자리입니다. 여기에 FINRA 고객 마진부채가 YoY +38.6%로 +30% 기준을 넘겨, 빚으로 산 물량이 많은 만큼 악재가 나올 때 하락이 평소보다 깊어질 수 있는 구조라는 점을 반드시 함께 봐야 합니다.",
+    "keyRisks": [
+      "금리 인상 확률 상승: 워시의 잭슨홀 발언 이후 인하가 아니라 인상 쪽으로 기대가 이동 — 밸류에이션이 높은 Technology 19종목(38%)에 가장 불리",
+      "마진부채 YoY +38.6%로 +30% 초과: 레버리지(빚투) 물량이 많아 조정이 시작되면 강제 청산으로 하락 폭이 증폭될 수 있음",
+      "호르무즈 해협 지정학 리스크: 미국의 이란 로켓 발사대 타격으로 원유 수송로 불확실성 — 유가 급등 시 물가와 금리 우려가 동시에 재점화",
+      "유가 방향 자체의 불확실성: 이란 타격(공급 위축)과 베네수엘라 650억 배럴 합의(공급 확대)가 정반대로 걸려 있어 Basic Materials 6종목(12%)의 변동성 확대",
+      "규제 리스크: 담배 소송 전략을 Meta 등 소셜미디어에 적용하려는 움직임 — 기술 섹터 내 광고·플랫폼 계열의 프리미엄 축소 요인",
+      "QQQ 10MA 기울기 -0.76%로 둔화: 정배열은 유지되나 상승 탄력이 약해진 구간이라 브레이크아웃 실패(가짜 돌파) 확률이 올라감",
+      "과열 종목 존재: 200일선 대비 +150% 초과 종목 1개 — APR처럼 이미 100% 급등한 스토리주 추격 매수는 되돌림 위험이 큼"
+    ],
+    "easySummary": [
+      "오늘의 핵심은 '금리를 내리기는커녕 올릴 수도 있다'는 워시발 경계감입니다 — 금리는 주식시장의 중력이라, 높이 떠 있던 기술주일수록 더 세게 끌립니다.",
+      "QQQ는 종가 721.11로 MA10 716.84·MA20 716.52·MA50 712.19 위에 있어 추세는 살아 있지만, 10MA 기울기가 -0.76%로 꺾여 '진입은 하되 사이즈는 줄이는' 자리입니다.",
+      "빚으로 주식을 산 규모(마진부채)가 1년 전보다 +38.6% 늘어 위험 기준(+30%)을 넘었으니, 호르무즈 해협 사태 같은 악재가 터지면 하락이 평소보다 깊어질 수 있다는 점을 염두에 두세요."
+    ],
+    "candidateCount": 14,
+    "verified": {
+      "checked": 227,
+      "ok": 275,
+      "unverified": 26,
+      "dead": 0,
+      "stripped": 6,
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://www.stocktitan.net/news/HCC/warrior-reports-second-quarter-2026-thad2cy1wjma.html"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000055/band-20260724.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1514416/000151441626000060/band-20260803.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1800667/000119312526337998/frog-20260806.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1800667/000119312525269563/frog-20251106.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://stockanalysis.com/stocks/twst/forecast/"
+        },
+        {
+          "reason": "미래 날짜(미상 > 2026-08-31)",
+          "url": "https://stockanalysis.com/stocks/mgrt/"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026059271/afrm-20260825.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/2064953/000110465926102503/tm2620579d9_8k.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.manilatimes.net/2026/08/25/tmt-newswire/globenewswire/weatherford-and-ncs-multistage-announce-anticipated-election-deadline-and-closing-date/2411297"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1692427/000143774926028838/ncsm20260824_8k.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.biggo.com/news/US_EIX_2026-07-30"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.utilitydive.com/news/eix-california-utilities-credit-rating-wildfire-earnings/819026/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.biggo.com/news/US_EIX_2026-07-30"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.dailypolitical.com/2026/08/21/edison-international-nyseeix-stock-price-down-3-4-after-analyst-downgrade.html"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1653653/000119312526332721/d173277d8k.htm"
+        },
+        {
+          "reason": "URL 부적격(비http·example·검색결과)",
+          "url": "C:\\Users\\305le\\OneDrive\\바탕 화면\\클로드코드test\\breakout-team\\state\\llm-in\\_t4/RRR.json"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/913341/000091334126000038/cffi-20260723x8k.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.biggo.com/news/US_STX_2026-07-28"
+        },
+        {
+          "reason": "중복",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Coking-Coal-Prices-Surge-25-Squeezing-Indias-Steelmakers.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Coking-Coal-Prices-Surge-25-Squeezing-Indias-Steelmakers.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.stocktitan.net/sec-filings/AMR/8-k-alpha-metallurgical-resources-inc-reports-material-event-f00afe981971.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.etoro.com/news-and-analysis/market-insights/gold-gains-more-than-10-in-a-month-is-it-heading-for-new-highs/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.canadianminingreport.com/blog/gold-s-august-rally-explained-what-s-driving-prices-higher-and-can-the-rally-continue"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.investing.com/analysis/gold-miners-show-how-record-margins-amplify-the-bullion-rally-200686525"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.canadianminingreport.com/blog/central-bank-gold-buying-could-reaccelerate-in-2026-goldman-sachs-bullish-outlook"
+        }
+      ],
+      "noQuote": 9
+    },
+    "reusedFrom": null
   }
 };

@@ -4,7 +4,7 @@
  "industry": "Internet Content & Information",
  "nameKo": "네비우스 그룹",
  "detail": {
-  "fetchedAt": "2026-08-21",
+  "fetchedAt": "2026-08-31",
   "nameKo": "네비우스 그룹",
   "nameEn": "NEBIUS GROUP N V",
   "infomaxCode": "NAS:NBIS",
@@ -14,21 +14,9 @@
    "ticker": "NBIS",
    "items": [
     {
-     "title": "Nebius vs. Super Micro: Which AI Infrastructure Stock is a Better Buy?",
-     "url": "https://www.nasdaq.com/articles/nebius-vs-super-micro-which-ai-infrastructure-stock-better-buy",
-     "date": "2026-08-20",
-     "publisher": "Zacks",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "NBIS",
-      "SMCI"
-     ]
-    },
-    {
-     "title": "Stock Market Today, Aug. 19: Nebius Falls 10% on $4.5 Billion Convertible Note Offering",
-     "url": "https://www.nasdaq.com/articles/stock-market-today-aug-19-nebius-falls-10-45-billion-convertible-note-offering",
-     "date": "2026-08-19",
+     "title": "Nebius: Massive Billion-Dollar AI Deals Raise Critical Stakes",
+     "url": "https://www.nasdaq.com/articles/nebius-massive-billion-dollar-ai-deals-raise-critical-stakes",
+     "date": "2026-08-29",
      "publisher": "The Motley Fool",
      "tier1": false,
      "direct": true,
@@ -38,9 +26,35 @@
      ]
     },
     {
-     "title": "Why Nebius Group Stock Got Crushed on Wednesday",
-     "url": "https://www.nasdaq.com/articles/why-nebius-group-stock-got-crushed-wednesday",
-     "date": "2026-08-19",
+     "title": "Nebius Stock Surged 200% in Just 1 Year. Is It Still a Buy?",
+     "url": "https://www.nasdaq.com/articles/nebius-stock-surged-200-just-1-year-it-still-buy",
+     "date": "2026-08-29",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NBIS",
+      "NBIS",
+      "NVDA"
+     ]
+    },
+    {
+     "title": "Nebius Group N.V. vs. SoundHound AI: Which AI Stock Will Bring You Profits in 2026 and Beyond?",
+     "url": "https://www.nasdaq.com/articles/nebius-group-nv-vs-soundhound-ai-which-ai-stock-will-bring-you-profits-2026-and-beyond",
+     "date": "2026-08-25",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "NBIS",
+      "NBIS",
+      "SOUN"
+     ]
+    },
+    {
+     "title": "Nebius Just Raised $5 Billion in Convertible Notes Against a $1.4 Billion Revenue Base. Are We In a Bubble?",
+     "url": "https://www.nasdaq.com/articles/nebius-just-raised-5-billion-convertible-notes-against-14-billion-revenue-base-are-we",
+     "date": "2026-08-23",
      "publisher": "The Motley Fool",
      "tier1": false,
      "direct": true,
@@ -50,55 +64,21 @@
      ]
     },
     {
-     "title": "Nebius (NBIS) Q2 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/nebius-nbis-q2-2026-earnings-call-transcript",
-     "date": "2026-08-19",
-     "publisher": "The Motley Fool",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "NBIS",
-      "NBIS"
-     ]
-    },
-    {
-     "title": "Nebius Group Plans $4.5 Bln Convertible Senior Notes Offering; Shares Fall In Pre-market",
-     "url": "https://www.nasdaq.com/articles/nebius-group-plans-45-bln-convertible-senior-notes-offering-shares-fall-pre-market",
-     "date": "2026-08-19",
-     "publisher": "RTTNews",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "NBIS"
-     ]
-    },
-    {
-     "title": "Nebius Just Revealed the Most Important Number That Could Change the AI Stock's Investment Thesis",
-     "url": "https://www.nasdaq.com/articles/nebius-just-revealed-most-important-number-could-change-ai-stocks-investment-thesis",
-     "date": "2026-08-19",
-     "publisher": "The Motley Fool",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "NBIS",
-      "NBIS"
-     ]
-    },
-    {
-     "title": "Prediction: Massive AI Data Center Demand Will Make This Infrastructure Stock a Multibagger in Just 3 Years",
-     "url": "https://www.nasdaq.com/articles/prediction-massive-ai-data-center-demand-will-make-infrastructure-stock-multibagger-just-3",
-     "date": "2026-08-18",
-     "publisher": "The Motley Fool",
+     "title": "NVIDIA Reveals $21 Billion SpaceX Stake: Signal of Confidence or Circular Financing?",
+     "url": "https://www.nasdaq.com/articles/nvidia-reveals-21-billion-spacex-stake-signal-confidence-or-circular-financing",
+     "date": "2026-08-25",
+     "publisher": "MarketBeat",
      "tier1": false,
      "direct": false,
      "tickers": [
-      "NBIS",
+      "NVDA",
+      "CRWV",
       "NBIS"
      ]
     }
    ],
-   "directCount": 6,
-   "total": 7,
+   "directCount": 4,
+   "total": 5,
    "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
   },
   "filings": [],
@@ -112,8 +92,8 @@
      "date": "2026-08-18",
      "summary": "- 단가 2배 급등 및 EBITDA 컨센서스 +35% 상회로 증명된 공급자 우위- 분기 OCF +$2.2B와 연 $9B+ 선수금 유입, 차입 피어 대비 압도적 건전성- 5GW 전력망과 $40B+ 백로그 확보, 고성장에 따른 가파른 멀티플 정상화",
      "pages": "10",
-     "secureId": "eqlqcegqcmezgxegcgxclge",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcegqcmezgxegcgxclge.pdf",
+     "secureId": "eqlqcegqcmezgxegcgxclie",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcegqcmezgxegcgxclie.pdf",
      "opinion": null
     },
     {
@@ -123,8 +103,8 @@
      "date": "2026-08-13",
      "summary": "- 매출액 5.8억 달러(YoY +454%), 영업이익 -1.8억 달러(YoY -58.2%), 조정 EPS -0.12 달러(YoY +69.1%)로 각각 예상치 4.5%, 8.1%, 82.8% 상회- 컴퓨팅 용량 확보 경쟁 심화로, 선수금 지급이 표준적인 계약조건으로 자리 잡아 체결 계약의 약 70%에 선수금이 포함- 용량 경매를 통해 확인된 컴퓨팅 수요, 유상증자가 아닌 선수금을 통한 CAPEX 자금 총당 계획이 맞물려 34.1% 상승",
      "pages": "1",
-     "secureId": "eqlxxcikklglkgqgcgxclge",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxxcikklglkgqgcgxclge.pdf",
+     "secureId": "eqlxxcikklglkgqgcgxclie",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxxcikklglkgqgcgxclie.pdf",
      "opinion": null
     },
     {
@@ -134,8 +114,8 @@
      "date": "2026-08-13",
      "summary": "- 네비우스의 2분기 그룹 매출은 5.82억달러(+454%yoy), AI Cloud 매출은 5.75억달러(+514%yoy)를 기록하며 컨센을 상회. AI 클라우드 수요 강세에 힘입어 ARR은 6월 말 기준 30억달러(+598%yoy)를 달성했으며, RPO는 400억달러를 기록.- 연간 가이던스는 그룹 매출 32억달러(+504%yoy), ARR 80억달러, EBITDA 마진 40%로 유지. 최근 바인랜드(Vineland) 데이터센터 지연 관 련 우려에도 가이던스 달성 의지를 재확인 점이 긍정적. 연간 계약용량 가이 던스는 전분기 실적발표 기준 4GW에서 5GW로 상향조정했으며, 연간 활 성용량 가이던스는 0.8~1GW 범위를 재확인. 연간 캐팩스 가이던스도 225 억달러로 유지- 고객 선수금 비중도 사상 최고치를 기록. 2분기 체결된 계약의 약 70%가 선수금 조건이 포함되었으며, 2026년 전체 선수금은 90억달러(연간 캐팩스 가이던스의 40% 수준)으로 예상. 선수금과 영업활동 현금흐름 기반의 캐팩 스 투자로, 상대적으로 안정적인 재무상태를 유지한다는 점이 네비우스가 받는 밸류에이션 프리미엄의 핵심 근거 중 하나로 판단",
      "pages": "4",
-     "secureId": "eqlxzlzeeccixmxgcgxclge",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxzlzeeccixmxgcgxclge.pdf",
+     "secureId": "eqlxzlzeeccixmxgcgxclie",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxzlzeeccixmxgcgxclie.pdf",
      "opinion": null
     },
     {
@@ -145,8 +125,8 @@
      "date": "2026-05-14",
      "summary": "- 네비우스의 1분기 실적은 매출 3.99억달러(+684% yoy), AI Cloud 매출은 3.90억달러(+841% yoy)로 전체 매출의 98%를 차지. 높은 가동률과 가격 책정 효과로 GPM은 74%로 개선되었으며, 조정 EBITDA는 1.3억달러로 안정적인 흑자를 기록하며 모든 주요 지표에서 컨센을 상회- 네비우스는 Meta와 5년간 최대 270억달러 규모의 AI 인프라 공급 계약을 체결했으며, 해당 계약에는 엔비디아 Vera Rubin 플랫폼의 대규모 컴퓨팅 공급이 포함- 다만 공격적인 AI 캐팩스 투자로 인한 재무 부담은 여전히 리스크 요인. 1분 기 GAAP 순이익은 ClickHouse 지분가치 재평가에 따른 비현금성 이익이 반영된 수치이며, 조정 순손실은 1억달러를 기록",
      "pages": "4",
-     "secureId": "eqqlqexxxkizkgigcgxclge",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlqexxxkizkgigcgxclge.pdf",
+     "secureId": "eqqlqexxxkizkgigcgxclie",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlqexxxkizkgigcgxclie.pdf",
      "opinion": null
     },
     {
@@ -156,8 +136,8 @@
      "date": "2025-09-26",
      "summary": "- 네덜란드 암스테르담에 본사를 둔 AI 인프라 기업- 엔비디아와 직접 연계된 네오클라우드 업체로 마이크로소프트와 대규모 계약 체결- 향후 타 빅테크와의 추가 계약 가능성 존재하며, 2026년까지 용량 5배 확장 계획",
      "pages": "7",
-     "secureId": "eqzllkgxzemcglggcgxclge",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzllkgxzemcglggcgxclge.pdf",
+     "secureId": "eqzllkgxzemcglggcgxclie",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzllkgxzemcglggcgxclie.pdf",
      "opinion": null
     }
    ],

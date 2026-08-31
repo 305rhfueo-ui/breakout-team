@@ -1,0 +1,200 @@
+{
+ "ticker": "FLUT",
+ "news": [
+  {
+   "title": "Flutter (FLUT) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/flutter-flut-q2-2026-earnings-call-transcript",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FLUT",
+    "FLUT"
+   ]
+  },
+  {
+   "title": "Here's What Key Metrics Tell Us About Flutter (FLUT) Q2 Earnings",
+   "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-flutter-flut-q2-earnings",
+   "date": "2026-08-05",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FLUT"
+   ]
+  },
+  {
+   "title": "Flutter Entertainment (FLUT) Q2 Earnings Lag Estimates",
+   "url": "https://www.nasdaq.com/articles/flutter-entertainment-flut-q2-earnings-lag-estimates",
+   "date": "2026-08-05",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FLUT",
+    "GRSD"
+   ]
+  },
+  {
+   "title": "PENN vs. FLUT: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/penn-vs-flut-which-stock-better-value-option",
+   "date": "2026-07-30",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "PENN",
+    "FLUT"
+   ]
+  },
+  {
+   "title": "Analysts Estimate Flutter Entertainment (FLUT) to Report a Decline in Earnings: What to Look Out for",
+   "url": "https://www.nasdaq.com/articles/analysts-estimate-flutter-entertainment-flut-report-decline-earnings-what-look-out",
+   "date": "2026-07-29",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FLUT",
+    "WYNN"
+   ]
+  },
+  {
+   "title": "DraftKings vs. Flutter: Which Stock Has Better Growth Prospects?",
+   "url": "https://www.nasdaq.com/articles/draftkings-vs-flutter-which-stock-has-better-growth-prospects",
+   "date": "2026-08-28",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "DKNG",
+    "FLUT"
+   ]
+  },
+  {
+   "title": "Flutter Entertainment Q2 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/flutter-entertainment-q2-earnings-call-highlights",
+   "date": "2026-08-08",
+   "publisher": "MarketBeat",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "FLUT"
+   ]
+  },
+  {
+   "title": "Light & Wonder (LNWO) Q2 Earnings Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/light-wonder-lnwo-q2-earnings-surpass-estimates",
+   "date": "2026-08-04",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "FLUT"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1635327/000119312526333800/d127369d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-01",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1635327/000119312526333794/d167128d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-08-03",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1635327/000119312526329409/d231885d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-27",
+   "reportDate": "2026-07-27",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1635327/000119312526317484/d108487d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-01",
+   "reportDate": "2026-07-01",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1635327/000119312526291860/d150736d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-12",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1635327/000119312526268412/d852653d8k.htm",
+   "description": "8-K"
+  }
+ ]
+}

@@ -1,0 +1,197 @@
+{
+ "ticker": "ESTC",
+ "news": [
+  {
+   "title": "Why Elastic Stock Snapped Back Today",
+   "url": "https://www.nasdaq.com/articles/why-elastic-stock-snapped-back-today",
+   "date": "2026-08-29",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ESTC",
+    "ESTC"
+   ]
+  },
+  {
+   "title": "Elastic Reaches Analyst Target Price",
+   "url": "https://www.nasdaq.com/articles/elastic-reaches-analyst-target-price",
+   "date": "2026-08-28",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ESTC"
+   ]
+  },
+  {
+   "title": "Elastic Q1 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/elastic-q1-earnings-call-highlights",
+   "date": "2026-08-27",
+   "publisher": "MarketBeat",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ESTC"
+   ]
+  },
+  {
+   "title": "Compared to Estimates, Elastic (ESTC) Q1 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-elastic-estc-q1-earnings-look-key-metrics",
+   "date": "2026-08-27",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ESTC"
+   ]
+  },
+  {
+   "title": "Elastic (ESTC) Tops Q1 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/elastic-estc-tops-q1-earnings-and-revenue-estimates",
+   "date": "2026-08-27",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ESTC",
+    "DOCU"
+   ]
+  },
+  {
+   "title": "Elastic (ESTC) is a Top-Ranked Momentum Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/elastic-estc-top-ranked-momentum-stock-should-you-buy",
+   "date": "2026-08-27",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ESTC"
+   ]
+  },
+  {
+   "title": "Countdown to Elastic (ESTC) Q1 Earnings: Wall Street Forecasts for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/countdown-elastic-estc-q1-earnings-wall-street-forecasts-key-metrics",
+   "date": "2026-08-24",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ESTC"
+   ]
+  },
+  {
+   "title": "Here's Why Elastic (ESTC) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-elastic-estc-strong-growth-stock-0",
+   "date": "2026-08-21",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ESTC"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-27",
+   "reportDate": "2026-08-24",
+   "items": [
+    "5.02",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1707753/000170775326000036/estc-20260824.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-27",
+   "reportDate": "2026-08-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1707753/000170775326000035/estc-20260827.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-24",
+   "reportDate": "2026-06-18",
+   "items": [
+    "2.05",
+    "5.02"
+   ],
+   "itemsKo": [
+    "2.05",
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1707753/000170775326000024/estc-20260618.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1707753/000170775326000008/estc-20260528.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-26",
+   "reportDate": "2026-02-26",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1707753/000170775326000003/estc-20260226.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-20",
+   "reportDate": "2025-11-20",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1707753/000170775325000053/estc-20251120.htm",
+   "description": "8-K"
+  }
+ ]
+}
