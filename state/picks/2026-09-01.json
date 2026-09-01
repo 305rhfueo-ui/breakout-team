@@ -1,0 +1,277 @@
+{
+  "date": "2026-09-01",
+  "count": 42,
+  "tickers": [
+    "MRNA",
+    "MGRT",
+    "ELF",
+    "AGL",
+    "TEAM",
+    "TWST",
+    "MXL",
+    "AMR",
+    "ANF",
+    "AUGO",
+    "DELL",
+    "MNPR",
+    "BAND",
+    "ESTC",
+    "PLTR",
+    "INBX",
+    "QLYS",
+    "ORKA",
+    "EAT",
+    "PENG",
+    "BXC",
+    "SNDK",
+    "WGS",
+    "MU",
+    "ATEX",
+    "KYMR",
+    "ALAB",
+    "CRCL",
+    "FROG",
+    "MRVL",
+    "AMD",
+    "PANW",
+    "GWRE",
+    "STX",
+    "HCC",
+    "NBIS",
+    "SYRE",
+    "FET",
+    "MDB",
+    "XMTR",
+    "IT",
+    "OKTA"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": true
+  },
+  "themes": [
+    {
+      "key": "Sector:Technology",
+      "level": "Sector",
+      "name": "Technology",
+      "count": 21,
+      "sharePct": 50,
+      "tickers": [
+        "MGRT",
+        "TEAM",
+        "MXL",
+        "DELL",
+        "BAND",
+        "ESTC",
+        "PLTR",
+        "QLYS",
+        "PENG",
+        "SNDK",
+        "MU",
+        "ALAB",
+        "FROG",
+        "MRVL",
+        "AMD",
+        "PANW",
+        "GWRE",
+        "STX",
+        "MDB",
+        "IT",
+        "OKTA"
+      ],
+      "concentration": "high"
+    },
+    {
+      "key": "Sector:Healthcare",
+      "level": "Sector",
+      "name": "Healthcare",
+      "count": 9,
+      "sharePct": 21.4,
+      "tickers": [
+        "MRNA",
+        "AGL",
+        "TWST",
+        "MNPR",
+        "INBX",
+        "ORKA",
+        "WGS",
+        "KYMR",
+        "SYRE"
+      ],
+      "concentration": "high"
+    },
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 6,
+      "sharePct": 14.3,
+      "tickers": [
+        "MRNA",
+        "MNPR",
+        "INBX",
+        "ORKA",
+        "KYMR",
+        "SYRE"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Software - Infrastructure",
+      "level": "Industry",
+      "name": "Software - Infrastructure",
+      "count": 6,
+      "sharePct": 14.3,
+      "tickers": [
+        "BAND",
+        "PLTR",
+        "QLYS",
+        "PANW",
+        "MDB",
+        "OKTA"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Semiconductors",
+      "level": "Industry",
+      "name": "Semiconductors",
+      "count": 5,
+      "sharePct": 11.9,
+      "tickers": [
+        "MXL",
+        "MU",
+        "ALAB",
+        "MRVL",
+        "AMD"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Software - Application",
+      "level": "Industry",
+      "name": "Software - Application",
+      "count": 4,
+      "sharePct": 9.5,
+      "tickers": [
+        "TEAM",
+        "ESTC",
+        "FROG",
+        "GWRE"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Sector:Basic Materials",
+      "level": "Sector",
+      "name": "Basic Materials",
+      "count": 3,
+      "sharePct": 7.1,
+      "tickers": [
+        "AMR",
+        "AUGO",
+        "HCC"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Information Technology Services",
+      "level": "Industry",
+      "name": "Information Technology Services",
+      "count": 3,
+      "sharePct": 7.1,
+      "tickers": [
+        "MGRT",
+        "PENG",
+        "IT"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Computer Hardware",
+      "level": "Industry",
+      "name": "Computer Hardware",
+      "count": 3,
+      "sharePct": 7.1,
+      "tickers": [
+        "DELL",
+        "SNDK",
+        "STX"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Sector:Consumer Cyclical",
+      "level": "Sector",
+      "name": "Consumer Cyclical",
+      "count": 2,
+      "sharePct": 4.8,
+      "tickers": [
+        "ANF",
+        "EAT"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Sector:Industrials",
+      "level": "Sector",
+      "name": "Industrials",
+      "count": 2,
+      "sharePct": 4.8,
+      "tickers": [
+        "BXC",
+        "XMTR"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Sector:Communication Services",
+      "level": "Sector",
+      "name": "Communication Services",
+      "count": 2,
+      "sharePct": 4.8,
+      "tickers": [
+        "ATEX",
+        "NBIS"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Diagnostics & Research",
+      "level": "Industry",
+      "name": "Diagnostics & Research",
+      "count": 2,
+      "sharePct": 4.8,
+      "tickers": [
+        "TWST",
+        "WGS"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Coking Coal",
+      "level": "Industry",
+      "name": "Coking Coal",
+      "count": 2,
+      "sharePct": 4.8,
+      "tickers": [
+        "AMR",
+        "HCC"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Industrial Distribution",
+      "level": "Industry",
+      "name": "Industrial Distribution",
+      "count": 2,
+      "sharePct": 4.8,
+      "tickers": [
+        "BXC",
+        "XMTR"
+      ],
+      "concentration": "low"
+    }
+  ]
+}
