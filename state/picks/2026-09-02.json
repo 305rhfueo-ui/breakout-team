@@ -1,0 +1,285 @@
+{
+  "date": "2026-09-02",
+  "count": 41,
+  "tickers": [
+    "MRNA",
+    "MGRT",
+    "TEAM",
+    "ELF",
+    "AGL",
+    "AMR",
+    "MNPR",
+    "MXL",
+    "TWST",
+    "INBX",
+    "BAND",
+    "CRCL",
+    "ANF",
+    "DELL",
+    "AUGO",
+    "EAT",
+    "ORKA",
+    "SHAZ",
+    "PENG",
+    "FET",
+    "HCC",
+    "WGS",
+    "SNDK",
+    "ESTC",
+    "MRVL",
+    "QLYS",
+    "MSTR",
+    "CTRN",
+    "ATEX",
+    "ALAB",
+    "GWRE",
+    "MU",
+    "PANW",
+    "FROG",
+    "MLAB",
+    "XMTR",
+    "SMCIP",
+    "SYRE",
+    "STX",
+    "BXC",
+    "NUTX"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": false
+  },
+  "themes": [
+    {
+      "key": "Sector:Technology",
+      "level": "Sector",
+      "name": "Technology",
+      "count": 20,
+      "sharePct": 48.8,
+      "tickers": [
+        "MGRT",
+        "TEAM",
+        "MXL",
+        "BAND",
+        "DELL",
+        "SHAZ",
+        "PENG",
+        "SNDK",
+        "ESTC",
+        "MRVL",
+        "QLYS",
+        "MSTR",
+        "ALAB",
+        "GWRE",
+        "MU",
+        "PANW",
+        "FROG",
+        "MLAB",
+        "SMCIP",
+        "STX"
+      ],
+      "concentration": "high"
+    },
+    {
+      "key": "Sector:Healthcare",
+      "level": "Sector",
+      "name": "Healthcare",
+      "count": 9,
+      "sharePct": 22,
+      "tickers": [
+        "MRNA",
+        "AGL",
+        "MNPR",
+        "TWST",
+        "INBX",
+        "ORKA",
+        "WGS",
+        "SYRE",
+        "NUTX"
+      ],
+      "concentration": "high"
+    },
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 5,
+      "sharePct": 12.2,
+      "tickers": [
+        "MRNA",
+        "MNPR",
+        "INBX",
+        "ORKA",
+        "SYRE"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Software - Application",
+      "level": "Industry",
+      "name": "Software - Application",
+      "count": 5,
+      "sharePct": 12.2,
+      "tickers": [
+        "TEAM",
+        "ESTC",
+        "MSTR",
+        "GWRE",
+        "FROG"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Semiconductors",
+      "level": "Industry",
+      "name": "Semiconductors",
+      "count": 4,
+      "sharePct": 9.8,
+      "tickers": [
+        "MXL",
+        "MRVL",
+        "ALAB",
+        "MU"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Computer Hardware",
+      "level": "Industry",
+      "name": "Computer Hardware",
+      "count": 4,
+      "sharePct": 9.8,
+      "tickers": [
+        "DELL",
+        "SNDK",
+        "SMCIP",
+        "STX"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Sector:Basic Materials",
+      "level": "Sector",
+      "name": "Basic Materials",
+      "count": 3,
+      "sharePct": 7.3,
+      "tickers": [
+        "AMR",
+        "AUGO",
+        "HCC"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Sector:Consumer Cyclical",
+      "level": "Sector",
+      "name": "Consumer Cyclical",
+      "count": 3,
+      "sharePct": 7.3,
+      "tickers": [
+        "ANF",
+        "EAT",
+        "CTRN"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Information Technology Services",
+      "level": "Industry",
+      "name": "Information Technology Services",
+      "count": 3,
+      "sharePct": 7.3,
+      "tickers": [
+        "MGRT",
+        "SHAZ",
+        "PENG"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Software - Infrastructure",
+      "level": "Industry",
+      "name": "Software - Infrastructure",
+      "count": 3,
+      "sharePct": 7.3,
+      "tickers": [
+        "BAND",
+        "QLYS",
+        "PANW"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Sector:Industrials",
+      "level": "Sector",
+      "name": "Industrials",
+      "count": 2,
+      "sharePct": 4.9,
+      "tickers": [
+        "XMTR",
+        "BXC"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Medical Care Facilities",
+      "level": "Industry",
+      "name": "Medical Care Facilities",
+      "count": 2,
+      "sharePct": 4.9,
+      "tickers": [
+        "AGL",
+        "NUTX"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Coking Coal",
+      "level": "Industry",
+      "name": "Coking Coal",
+      "count": 2,
+      "sharePct": 4.9,
+      "tickers": [
+        "AMR",
+        "HCC"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Diagnostics & Research",
+      "level": "Industry",
+      "name": "Diagnostics & Research",
+      "count": 2,
+      "sharePct": 4.9,
+      "tickers": [
+        "TWST",
+        "WGS"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Apparel Retail",
+      "level": "Industry",
+      "name": "Apparel Retail",
+      "count": 2,
+      "sharePct": 4.9,
+      "tickers": [
+        "ANF",
+        "CTRN"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Industrial Distribution",
+      "level": "Industry",
+      "name": "Industrial Distribution",
+      "count": 2,
+      "sharePct": 4.9,
+      "tickers": [
+        "XMTR",
+        "BXC"
+      ],
+      "concentration": "low"
+    }
+  ]
+}

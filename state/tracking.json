@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01",
+  "updated": "2026-09-02",
   "items": [
     {
       "ticker": "AEHR",
@@ -63,7 +63,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -8.27,
+      "drawdownPct": -8.25,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -75,8 +75,8 @@
       "lastPicked": "2026-09-01",
       "pickCount": 29,
       "status": "active",
-      "peak": 98.7,
-      "peakDate": "2026-08-28",
+      "peak": 107.99,
+      "peakDate": "2026-09-02",
       "addedReason": "RS 상위 0.04% · ADR 8.22% · 150일선 위",
       "manualHold": false,
       "history": [
@@ -96,7 +96,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -0.64,
+      "drawdownPct": 0,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -108,8 +108,8 @@
       "lastPicked": "2026-09-01",
       "pickCount": 29,
       "status": "active",
-      "peak": 81.97,
-      "peakDate": "2026-09-01",
+      "peak": 82.25,
+      "peakDate": "2026-09-02",
       "addedReason": "RS 상위 0.11% · ADR 5.72% · 150일선 위",
       "manualHold": false,
       "history": [
@@ -418,7 +418,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -1.66,
+      "drawdownPct": -3.16,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -441,7 +441,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -1.76
+      "drawdownPct": -5.21
     },
     {
       "ticker": "NVEC",
@@ -490,7 +490,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -7.79
+      "drawdownPct": -14.06
     },
     {
       "ticker": "MXL",
@@ -809,7 +809,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -5.98,
+      "drawdownPct": -8.6,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -919,8 +919,8 @@
       "lastPicked": "2026-09-01",
       "pickCount": 28,
       "status": "active",
-      "peak": 113.94,
-      "peakDate": "2026-08-28",
+      "peak": 117.57,
+      "peakDate": "2026-09-02",
       "addedReason": "RS 상위 0.47% · ADR 8.48% · 150일선 위",
       "manualHold": false,
       "history": [
@@ -950,7 +950,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -1.76,
+      "drawdownPct": 0,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -1271,7 +1271,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -5.93,
+      "drawdownPct": -7.29,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -1350,7 +1350,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -3.5
+      "drawdownPct": -8.56
     },
     {
       "ticker": "PENG",
@@ -1917,7 +1917,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -18.09
+      "drawdownPct": -18.54
     },
     {
       "ticker": "IT",
@@ -1938,7 +1938,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -2.3
+      "drawdownPct": -6.34
     },
     {
       "ticker": "OKTA",
@@ -1969,7 +1969,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": 0,
+      "drawdownPct": -3.82,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -2588,7 +2588,7 @@
       "added": "2026-08-05",
       "lastPicked": "2026-09-01",
       "pickCount": 30,
-      "status": "active",
+      "status": "excluded",
       "peak": 251.01,
       "peakDate": "2026-08-21",
       "addedReason": "RS 상위 0.98% · ADR 7% · 150일선 위",
@@ -2828,11 +2828,16 @@
           "date": "2026-08-21",
           "status": "active",
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
+        },
+        {
+          "date": "2026-09-02",
+          "status": "excluded",
+          "note": "50일선 아래 3일 연속(2026-08-28 ~ 2026-09-01)"
         }
       ],
-      "drawdownPct": -15.68,
-      "excludedAt": null,
-      "excludedReason": null
+      "drawdownPct": -16.18,
+      "excludedAt": "2026-09-02",
+      "excludedReason": "50일선 아래 3일 연속(2026-08-28 ~ 2026-09-01)"
     },
     {
       "ticker": "PLPC",
@@ -2853,7 +2858,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -16.62
+      "drawdownPct": -19.17
     },
     {
       "ticker": "SNDK",
@@ -3480,7 +3485,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -9.21,
+      "drawdownPct": -13.74,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -3751,7 +3756,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -8.45,
+      "drawdownPct": -8.72,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -3784,7 +3789,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -1.3,
+      "drawdownPct": -6.14,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -3807,7 +3812,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -0.31
+      "drawdownPct": -3.05
     },
     {
       "ticker": "UFPT",
@@ -4004,7 +4009,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": 0,
+      "drawdownPct": -2.64,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -4367,7 +4372,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": 0
+      "drawdownPct": -3.68
     },
     {
       "ticker": "BXC",
@@ -4408,7 +4413,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -4.63,
+      "drawdownPct": -10.46,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -4441,7 +4446,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": 0,
+      "drawdownPct": -0.48,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -4525,7 +4530,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": 0
+      "drawdownPct": -3.47
     },
     {
       "ticker": "ELF",
@@ -4546,7 +4551,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": 0
+      "drawdownPct": -3.22
     },
     {
       "ticker": "VAC",
@@ -4567,7 +4572,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -15.56
+      "drawdownPct": -19.75
     },
     {
       "ticker": "NSIT",
@@ -4598,7 +4603,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": 0,
+      "drawdownPct": -1.88,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -4649,7 +4654,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -10.69
+      "drawdownPct": -12.68
     },
     {
       "ticker": "DNTH",
@@ -4736,7 +4741,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -1.84,
+      "drawdownPct": -2.68,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -4759,7 +4764,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -4.36
+      "drawdownPct": -3.91
     },
     {
       "ticker": "AUGO",
@@ -4800,7 +4805,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -7.62,
+      "drawdownPct": -12.63,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -4823,7 +4828,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -4.55
+      "drawdownPct": -4.58
     },
     {
       "ticker": "TWLO",
@@ -4872,7 +4877,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -21.34
+      "drawdownPct": -20.63
     },
     {
       "ticker": "AXON",
@@ -4893,7 +4898,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -12.26
+      "drawdownPct": -19.73
     },
     {
       "ticker": "INTC",
@@ -4972,7 +4977,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -3.16,
+      "drawdownPct": -4.79,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -5023,7 +5028,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -4.01
+      "drawdownPct": -8.06
     },
     {
       "ticker": "EAT",
@@ -5054,7 +5059,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -10.02,
+      "drawdownPct": -7.86,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -5097,7 +5102,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -3.81,
+      "drawdownPct": -11.78,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -5158,7 +5163,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": 0,
+      "drawdownPct": -5.29,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -5297,7 +5302,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -21.17
+      "drawdownPct": -21.89
     },
     {
       "ticker": "IONQ",
@@ -5346,7 +5351,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -11.64
+      "drawdownPct": -2.87
     },
     {
       "ticker": "MANH",
@@ -5367,7 +5372,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -0.25
+      "drawdownPct": -3.37
     },
     {
       "ticker": "NOW",
@@ -5388,7 +5393,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": 0
+      "drawdownPct": -3.44
     },
     {
       "ticker": "GWRE",
@@ -5409,7 +5414,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": 0
+      "drawdownPct": -1.79
     },
     {
       "ticker": "RGEN",
@@ -5430,7 +5435,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -0.58
+      "drawdownPct": -6.6
     },
     {
       "ticker": "CAKE",
@@ -5451,7 +5456,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -5.08
+      "drawdownPct": -6.06
     },
     {
       "ticker": "AMR",
@@ -5472,7 +5477,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": 0
+      "drawdownPct": -0.97
     },
     {
       "ticker": "KNSA",
@@ -5493,7 +5498,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -1.96
+      "drawdownPct": -1.15
     },
     {
       "ticker": "CRCL",
@@ -5514,7 +5519,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": 0
+      "drawdownPct": -6.35
     },
     {
       "ticker": "GKOS",
@@ -5535,7 +5540,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -1.29
+      "drawdownPct": -2.86
     },
     {
       "ticker": "INBX",
@@ -5556,7 +5561,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": 0
+      "drawdownPct": -1.61
     },
     {
       "ticker": "MP",
@@ -5605,7 +5610,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -6.18
+      "drawdownPct": -5.99
     },
     {
       "ticker": "LITE",
@@ -5626,7 +5631,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -4.33
+      "drawdownPct": -9.12
     },
     {
       "ticker": "DOCN",
@@ -5695,7 +5700,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -7.04
+      "drawdownPct": -5.1
     },
     {
       "ticker": "NUTX",
@@ -5716,7 +5721,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -3.65
+      "drawdownPct": -4.38
     },
     {
       "ticker": "FRPT",
@@ -5737,7 +5742,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -6.72
+      "drawdownPct": -6.12
     },
     {
       "ticker": "SIMO",
@@ -5796,7 +5801,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -0.02
+      "drawdownPct": -1.88
     },
     {
       "ticker": "XMTR",
@@ -5817,7 +5822,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -3.71
+      "drawdownPct": -5.31
     }
   ]
 }
