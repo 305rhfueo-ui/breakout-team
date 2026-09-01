@@ -1,0 +1,311 @@
+{
+ "ticker": "IT",
+ "sector": "Technology",
+ "industry": "Information Technology Services",
+ "nameKo": "가트너",
+ "detail": {
+  "fetchedAt": "2026-09-01",
+  "nameKo": "가트너",
+  "nameEn": "GARTNER INC",
+  "infomaxCode": "NYS:IT",
+  "financials": {
+   "ok": true,
+   "ticker": "IT",
+   "cik": "0000749251",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-04-01",
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1675943000,
+     "profit": 378520000,
+     "netIncome": 275498000,
+     "margin": 22.6,
+     "yoy": {
+      "revenue": -0.6,
+      "profit": 15.7,
+      "netIncome": 14.4,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodStart": "2026-01-01",
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1511041000,
+     "profit": 316092000,
+     "netIncome": 222344000,
+     "margin": 20.9,
+     "yoy": {
+      "revenue": -1.5,
+      "profit": 13.7,
+      "netIncome": 5.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodStart": "2025-09-30",
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1752570000,
+     "profit": 334239000,
+     "netIncome": 241921000,
+     "margin": 19.1,
+     "yoy": {
+      "revenue": 2.2,
+      "profit": 5.2,
+      "netIncome": -39.3,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodStart": "2025-07-01",
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1524072000,
+     "profit": 86344000,
+     "netIncome": 35357000,
+     "margin": 5.7,
+     "yoy": {
+      "revenue": 2.7,
+      "profit": -64.9,
+      "netIncome": -91.5,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000749251&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "IT",
+   "items": [
+    {
+     "title": "Gartner Stock Gains 28% in 3 Months: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/gartner-stock-gains-28-3-months-heres-what-you-should-know",
+     "date": "2026-08-25",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "IT",
+      "SCSC",
+      "GEO"
+     ]
+    },
+    {
+     "title": "Zacks Industry Outlook Gartner, CBIZ and Huron Consulting Group",
+     "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-gartner-cbiz-and-huron-consulting-group",
+     "date": "2026-08-25",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "HURN",
+      "IT",
+      "CBZ"
+     ]
+    },
+    {
+     "title": "Here's Why Gartner (IT) is a Strong Value Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-gartner-it-strong-value-stock-1",
+     "date": "2026-08-24",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "IT"
+     ]
+    },
+    {
+     "title": "3 Earnings Winners Setting Up for Another Leg Higher",
+     "url": "https://www.nasdaq.com/articles/3-earnings-winners-setting-another-leg-higher",
+     "date": "2026-08-31",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "CRM",
+      "IT",
+      "OKTA"
+     ]
+    },
+    {
+     "title": "GDS Stock Jumps 13% in a Month: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/gds-stock-jumps-13-month-heres-what-you-should-know",
+     "date": "2026-08-28",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "GDS",
+      "IT",
+      "SCSC"
+     ]
+    },
+    {
+     "title": "WYFI Stock Jumps 12% in 6 Months: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/wyfi-stock-jumps-12-6-months-heres-what-you-should-know",
+     "date": "2026-08-28",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "WYFI",
+      "IT",
+      "SCSC"
+     ]
+    },
+    {
+     "title": "KEEL Stock Jumps 56% in 6 Months: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/keel-stock-jumps-56-6-months-heres-what-you-should-know",
+     "date": "2026-08-27",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "KEEL",
+      "IT",
+      "SCSC"
+     ]
+    },
+    {
+     "title": "3 Stocks to Consider From the Prospering Consulting Services Industry",
+     "url": "https://www.nasdaq.com/articles/3-stocks-consider-prospering-consulting-services-industry",
+     "date": "2026-08-24",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "HURN",
+      "IT",
+      "CBZ"
+     ]
+    }
+   ],
+   "directCount": 3,
+   "total": 11,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "reportDate": "2026-07-30",
+    "items": [
+     "2.02",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000243/it-20260730.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-02",
+    "reportDate": "2026-05-28",
+    "items": [
+     "5.07"
+    ],
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000198/it-20260528.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "reportDate": "2026-04-30",
+    "items": [
+     "2.02",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000165/it-20260430.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-03",
+    "reportDate": "2026-01-29",
+    "items": [
+     "2.02",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000028/it-20260129.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-29",
+    "reportDate": "2026-01-29",
+    "items": [
+     "5.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000025/it-20260129.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-11-20",
+    "reportDate": "2025-11-20",
+    "items": [
+     "1.01",
+     "2.03",
+     "8.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/749251/000119312525289854/d98932d8k.htm",
+    "description": "8-K"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": [],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}

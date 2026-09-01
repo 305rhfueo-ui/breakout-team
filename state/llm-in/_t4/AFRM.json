@@ -2,6 +2,18 @@
  "ticker": "AFRM",
  "news": [
   {
+   "title": "Affirm (AFRM) Q4 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/affirm-afrm-q4-2026-earnings-call-transcript",
+   "date": "2026-08-31",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "AFRM",
+    "AFRM"
+   ]
+  },
+  {
    "title": "Affirm Holdings (AFRM) Q4 Earnings: Taking a Look at Key Metrics Versus Estimates",
    "url": "https://www.nasdaq.com/articles/affirm-holdings-afrm-q4-earnings-taking-look-key-metrics-versus-estimates",
    "date": "2026-08-27",
@@ -22,6 +34,19 @@
    "tickers": [
     "AFRM",
     "TTAN"
+   ]
+  },
+  {
+   "title": "Is SoFi's Product Flywheel Gaining Enough Traction to Lift SOFI Stock?",
+   "url": "https://www.nasdaq.com/articles/sofis-product-flywheel-gaining-enough-traction-lift-sofi-stock",
+   "date": "2026-08-31",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "SOFI",
+    "UPST",
+    "AFRM"
    ]
   },
   {
@@ -69,30 +94,6 @@
    "direct": false,
    "tickers": [
     "AFRM"
-   ]
-  },
-  {
-   "title": "Affirm Holdings, Inc. Q4 Profit Climbs",
-   "url": "https://www.nasdaq.com/articles/affirm-holdings-inc-q4-profit-climbs",
-   "date": "2026-08-27",
-   "publisher": "RTTNews",
-   "tier1": false,
-   "direct": false,
-   "tickers": [
-    "AFRM"
-   ]
-  },
-  {
-   "title": "Dave Expands With Flex: Can It Become a Primary Spending Tool?",
-   "url": "https://www.nasdaq.com/articles/dave-expands-flex-can-it-become-primary-spending-tool",
-   "date": "2026-08-27",
-   "publisher": "Zacks",
-   "tier1": false,
-   "direct": false,
-   "tickers": [
-    "DAVE",
-    "AFRM",
-    "KLAR"
    ]
   }
  ],

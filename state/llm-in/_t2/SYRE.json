@@ -1,0 +1,305 @@
+{
+ "ticker": "SYRE",
+ "sector": "Healthcare",
+ "industry": "Biotechnology",
+ "nameKo": "스파이어 테라퓨틱스",
+ "detail": {
+  "fetchedAt": "2026-08-28",
+  "nameKo": "스파이어 테라퓨틱스",
+  "nameEn": "SPYRE THERAPEUTICS INC",
+  "infomaxCode": "NAS:SYRE",
+  "financials": {
+   "ok": true,
+   "ticker": "SYRE",
+   "cik": "0001636282",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2024-09-30",
+     "periodEnd": "2024-12-31",
+     "derived": true,
+     "revenue": 0,
+     "profit": -61253000,
+     "netIncome": -56296000,
+     "margin": null,
+     "yoy": {
+      "revenue": null,
+      "profit": -33.4,
+      "netIncome": 10.9,
+      "priorEnd": "2023-12-31"
+     }
+    },
+    {
+     "periodStart": "2024-07-01",
+     "periodEnd": "2024-09-30",
+     "derived": false,
+     "revenue": 0,
+     "profit": -55392000,
+     "netIncome": -69028000,
+     "margin": null,
+     "yoy": {
+      "revenue": null,
+      "profit": -202.1,
+      "netIncome": -72.1,
+      "priorEnd": "2023-09-30"
+     }
+    },
+    {
+     "periodStart": "2024-04-01",
+     "periodEnd": "2024-06-30",
+     "derived": false,
+     "revenue": 0,
+     "profit": -44147000,
+     "netIncome": -38837000,
+     "margin": null,
+     "yoy": {
+      "revenue": -100,
+      "profit": 72.3,
+      "netIncome": 82.1,
+      "priorEnd": "2023-06-30"
+     }
+    },
+    {
+     "periodStart": "2024-01-01",
+     "periodEnd": "2024-03-31",
+     "derived": false,
+     "revenue": 0,
+     "profit": -47774000,
+     "netIncome": -43857000,
+     "margin": null,
+     "yoy": {
+      "revenue": -100,
+      "profit": -154,
+      "netIncome": -138.1,
+      "priorEnd": "2023-03-31"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001636282&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "SYRE",
+   "items": [
+    {
+     "title": "Spyre's SPY072 Shows Mixed Efficacy In Phase 2 RA Study, Fails Internal Bar For Monotherapy",
+     "url": "https://www.nasdaq.com/articles/spyres-spy072-shows-mixed-efficacy-phase-2-ra-study-fails-internal-bar-monotherapy",
+     "date": "2026-08-26",
+     "publisher": "RTTNews",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SYRE"
+     ]
+    },
+    {
+     "title": "Is SYRE a Buy Now as Clinical Catalysts Clash With Valuation Risk?",
+     "url": "https://www.nasdaq.com/articles/syre-buy-now-clinical-catalysts-clash-valuation-risk",
+     "date": "2026-08-24",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SYRE",
+      "JNJ",
+      "ABBV"
+     ]
+    },
+    {
+     "title": "Can Spyre's SPY772 HS Study Broaden Its Growth Story Beyond Core IBD?",
+     "url": "https://www.nasdaq.com/articles/can-spyres-spy772-hs-study-broaden-its-growth-story-beyond-core-ibd",
+     "date": "2026-08-24",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SYRE",
+      "INCY",
+      "ABBV"
+     ]
+    },
+    {
+     "title": "SYRE Rallies 44.9% in 3 Months. Can Clinical Catalysts Sustain It?",
+     "url": "https://www.nasdaq.com/articles/syre-rallies-449-3-months-can-clinical-catalysts-sustain-it",
+     "date": "2026-08-24",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SYRE",
+      "JNJ",
+      "ABBV"
+     ]
+    },
+    {
+     "title": "Spyre's CEO Sold Stock, but Kept 567,000 Shares. Here's What Long-Term Investors Should Know",
+     "url": "https://www.nasdaq.com/articles/spyres-ceo-sold-stock-kept-567000-shares-heres-what-long-term-investors-should-know",
+     "date": "2026-08-06",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SYRE",
+      "SYRE"
+     ]
+    },
+    {
+     "title": "A Spyre Executive Sold Stock After a 500% Run. Here's What Long-Term Investors Should Know",
+     "url": "https://www.nasdaq.com/articles/spyre-executive-sold-stock-after-500-run-heres-what-long-term-investors-should-know",
+     "date": "2026-08-06",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SYRE",
+      "SYRE"
+     ]
+    },
+    {
+     "title": "Spyre Q2 Loss Narrows On $40 Mln Milestone Gains; Two Phase 2 Readouts Due In September 2026",
+     "url": "https://www.nasdaq.com/articles/spyre-q2-loss-narrows-40-mln-milestone-gains-two-phase-2-readouts-due-september-2026",
+     "date": "2026-08-05",
+     "publisher": "RTTNews",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SYRE"
+     ]
+    },
+    {
+     "title": "Is SYRE Stock a Buy Now or a Wait-and-See Biotech Story Today",
+     "url": "https://www.nasdaq.com/articles/syre-stock-buy-now-or-wait-and-see-biotech-story-today",
+     "date": "2026-06-29",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "SYRE",
+      "JNJ",
+      "ABBV"
+     ]
+    }
+   ],
+   "directCount": 10,
+   "total": 10,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-25",
+    "reportDate": "2026-08-25",
+    "items": [
+     "7.01",
+     "8.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000105/syre-20260825.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "reportDate": "2026-08-04",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000098/syre-20260804.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-15",
+    "reportDate": "2026-06-15",
+    "items": [
+     "7.01",
+     "8.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000083/syre-20260615.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-01",
+    "reportDate": "2026-05-29",
+    "items": [
+     "8.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000075/syre-20260529.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-29",
+    "reportDate": "2026-05-27",
+    "items": [
+     "5.02",
+     "5.07",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000056/syre-20260527.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "reportDate": "2026-05-05",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000051/syre-20260505.htm",
+    "description": "8-K"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": [],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}

@@ -1,0 +1,298 @@
+{
+ "ticker": "PANW",
+ "sector": "Technology",
+ "industry": "Software - Infrastructure",
+ "nameKo": "팰로 앨토 네트웍스",
+ "detail": {
+  "fetchedAt": "2026-09-01",
+  "nameKo": "팰로 앨토 네트웍스",
+  "nameEn": "PALO ALTO NETWORKS INC",
+  "infomaxCode": "NAS:PANW",
+  "financials": {
+   "ok": true,
+   "ticker": "PANW",
+   "cik": "0001327567",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-02-01",
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 3002000000,
+     "profit": -183000000,
+     "netIncome": -177000000,
+     "margin": -6.1,
+     "yoy": {
+      "revenue": 31.1,
+      "profit": -183.6,
+      "netIncome": -167.6,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodStart": "2025-11-01",
+     "periodEnd": "2026-01-31",
+     "derived": false,
+     "revenue": 2594000000,
+     "profit": 397000000,
+     "netIncome": 432000000,
+     "margin": 15.3,
+     "yoy": {
+      "revenue": 14.9,
+      "profit": 64.7,
+      "netIncome": 61.8,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodStart": "2025-08-01",
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 2474000000,
+     "profit": 309000000,
+     "netIncome": 334000000,
+     "margin": 12.5,
+     "yoy": {
+      "revenue": 15.7,
+      "profit": 8,
+      "netIncome": -4.8,
+      "priorEnd": "2024-10-31"
+     }
+    },
+    {
+     "periodStart": "2025-04-30",
+     "periodEnd": "2025-07-31",
+     "derived": true,
+     "revenue": 2536500000,
+     "profit": 496900000,
+     "netIncome": 253900000,
+     "margin": 19.6,
+     "yoy": {
+      "revenue": 15.8,
+      "profit": 108.4,
+      "netIncome": -29,
+      "priorEnd": "2024-07-31"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327567&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "PANW",
+   "items": [
+    {
+     "title": "Is Palo Alto Networks (PANW) a 'Buy' Ahead of Earnings?",
+     "url": "https://www.nasdaq.com/articles/palo-alto-networks-panw-buy-ahead-earnings",
+     "date": "2026-08-31",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "PANW"
+     ]
+    },
+    {
+     "title": "Notable ETF Inflow Detected - QQQI, META, PANW, TXN",
+     "url": "https://www.nasdaq.com/articles/notable-etf-inflow-detected-qqqi-meta-panw-txn",
+     "date": "2026-08-28",
+     "publisher": "BNK Invest",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "META",
+      "PANW",
+      "TXN"
+     ]
+    },
+    {
+     "title": "Fortinet Stock Surges on Security Platform Momentum: What's Ahead?",
+     "url": "https://www.nasdaq.com/articles/fortinet-stock-surges-security-platform-momentum-whats-ahead",
+     "date": "2026-08-28",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "FTNT",
+      "PANW",
+      "CRWD"
+     ]
+    },
+    {
+     "title": "Can Strong Momentum in Next-Gen SIEM Boost CRWD's Long-Term Growth?",
+     "url": "https://www.nasdaq.com/articles/can-strong-momentum-next-gen-siem-boost-crwds-long-term-growth",
+     "date": "2026-08-28",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "CRWD",
+      "S",
+      "PANW"
+     ]
+    }
+   ],
+   "directCount": 2,
+   "total": 4,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-21",
+    "reportDate": "2026-08-20",
+    "items": [
+     "5.02",
+     "5.03",
+     "9.01"
+    ],
+    "itemsKo": [
+     "임원 변동",
+     "5.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312526361122/d180372d8k.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-02",
+    "reportDate": "2026-06-02",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000012/panw-20260602.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-13",
+    "reportDate": "2026-04-08",
+    "items": [
+     "1.01",
+     "2.03",
+     "9.01"
+    ],
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312526151637/d49517d8k.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-23",
+    "reportDate": "2026-03-23",
+    "items": [
+     "8.01"
+    ],
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312526119729/d84927d8k.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-11",
+    "reportDate": "2026-03-10",
+    "items": [
+     "8.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000009/panw-20260310.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-17",
+    "reportDate": "2026-02-17",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000003/panw-20260217.htm",
+    "description": "8-K"
+   }
+  ],
+  "krReports": {
+   "total": 4,
+   "reports": [
+    {
+     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] [4Q26 Preview] 3개월 87% 오른 주식이 실적으로 그 값을 증명할까, 투자의견 중립 하향",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-08-24",
+     "summary": "- 팔로알토 네트웍스, 3개월 주가 87% 상승해 선행 PER 75배까지 확대, 밸류에이션 부담 상승- 차세대 보안 ARR은 60% 증가했지만 인수 효과 제외 시 28%, 유기적 성장 둔화 여부가 핵심- FY27 가이던스와 마진 회복이 주가 방향 좌우, 투자의견 매수에서 중립으로 하향",
+     "pages": "5",
+     "secureId": "eqlqzglqilizkqkgcgxcmce",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqzglqilizkqkgcgxcmce.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] [Issue & News] 중국 CAC, 사이버보안 심사 착수 - 마이크론식 조달금지 리스크 부상",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-08-06",
+     "summary": "- 중국 CAC, 팔로알토 제품 사이버보안 심사 착수- 2023년 마이크론 심사·조달금지 사례와 유사한 절차- 中매출 미공시로 실적 영향 크기 파악 어려움",
+     "pages": "5",
+     "secureId": "eqlxczlecmeceelgcgxcmce",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxczlecmeceelgcgxcmce.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] AI 에이전트 시대의 필요 조건은 사이버 보안",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "date": "2026-08-04",
+     "summary": "- 보안 프로세스 전체를 아우르는 토탈 보안 솔루션 플랫폼 업체를 목표- 프런티어 업체와 긴밀한 연계 및 상호 교차검증 수요 증가로 성장 기대- 장기적으로 프런티어 업체의 보안 솔루션 내재화 여지는 잠재적 리스크",
+     "pages": "8",
+     "secureId": "eqlzqmxgmmkzqzlgcgxcmce",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqmxgmmkzqzlgcgxcmce.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] 토탈 보안 플랫폼의 반격",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "date": "2025-09-02",
+     "summary": "- 팰로 앨토 네트웍스는 토털 보안 플랫폼을 제공하는 글로벌 사이버 보안 기업- AI 확산 속 통합 보안 플랫폼으로 급증하는 트래픽 수요를 선점- CyberArk 인수로 아이덴티티까지 아우르며 토털 보안 표준과 경쟁 우위를 강화",
+     "pages": "7",
+     "secureId": "eqzxqxqkclqlxmkgcgxcmce",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzxqxqkclqlxmkgcgxcmce.pdf",
+     "opinion": null
+    }
+   ],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}
