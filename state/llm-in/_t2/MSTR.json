@@ -1,0 +1,298 @@
+{
+ "ticker": "MSTR",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "스트래티지",
+ "detail": {
+  "fetchedAt": "2026-09-02",
+  "nameKo": "스트래티지",
+  "nameEn": "Strategy Inc",
+  "infomaxCode": "NAS:MSTR",
+  "financials": {
+   "ok": true,
+   "ticker": "MSTR",
+   "cik": "0001050446",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-04-01",
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 122368000,
+     "profit": -8330950000,
+     "netIncome": -8219628000,
+     "margin": -6808.1,
+     "yoy": {
+      "revenue": 6.9,
+      "profit": -159.4,
+      "netIncome": -182,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodStart": "2026-01-01",
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 124300000,
+     "profit": -14470419000,
+     "netIncome": -12542670000,
+     "margin": -11641.5,
+     "yoy": {
+      "revenue": 11.9,
+      "profit": -144.4,
+      "netIncome": -197.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodStart": "2025-09-30",
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 122988000,
+     "profit": -17445805000,
+     "netIncome": -12436653000,
+     "margin": -14185,
+     "yoy": {
+      "revenue": 1.9,
+      "profit": -1616.4,
+      "netIncome": -1754,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodStart": "2025-07-01",
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 128691000,
+     "profit": 3890842000,
+     "netIncome": 2785024000,
+     "margin": 3023.4,
+     "yoy": {
+      "revenue": 10.9,
+      "profit": 999.4,
+      "netIncome": 918.7,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001050446&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "MSTR",
+   "items": [
+    {
+     "title": "Strategy Just Bought Bitcoin for the First Time in Over Two Months. Here's Why the Timing Matters.",
+     "url": "https://www.nasdaq.com/articles/strategy-just-bought-bitcoin-first-time-over-two-months-heres-why-timing-matters",
+     "date": "2026-08-31",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "MSTR",
+      "MSTR",
+      "BTC"
+     ]
+    },
+    {
+     "title": "Michael Saylor Predicted This Month That Bitcoin Will Appreciate 30% Annually for the Next 20 Years. Does the Math Behind That Call Hold Up for Strategy Investors?",
+     "url": "https://www.nasdaq.com/articles/michael-saylor-predicted-month-bitcoin-will-appreciate-30-annually-next-20-years-does-math",
+     "date": "2026-08-27",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "MSTR",
+      "MSTR",
+      "BTC"
+     ]
+    },
+    {
+     "title": "Stock Market Today, Aug. 31: Stocks Edge Lower as Oil Prices Surge Again",
+     "url": "https://www.nasdaq.com/articles/stock-market-today-aug-31-stocks-edge-lower-oil-prices-surge-again",
+     "date": "2026-08-31",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "QQQ",
+      "QQQ",
+      "MSTR"
+     ]
+    },
+    {
+     "title": "Bitcoin Is Surging, But Investors Are Still Worried About Bitcoin Treasury Companies. Here's Why They're Right.",
+     "url": "https://www.nasdaq.com/articles/bitcoin-surging-investors-are-still-worried-about-bitcoin-treasury-companies-heres-why",
+     "date": "2026-08-30",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "MSTR",
+      "MSTR",
+      "BTC"
+     ]
+    }
+   ],
+   "directCount": 2,
+   "total": 4,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-01",
+    "reportDate": "2026-08-31",
+    "items": [
+     "7.01",
+     "8.01"
+    ],
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526377583/mstr-20260831.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-31",
+    "reportDate": "2026-08-31",
+    "items": [
+     "7.01",
+     "8.01"
+    ],
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526375463/mstr-20260831.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-24",
+    "reportDate": "2026-08-24",
+    "items": [
+     "7.01",
+     "8.01"
+    ],
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526361845/mstr-20260824.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-17",
+    "reportDate": "2026-08-17",
+    "items": [
+     "7.01",
+     "8.01"
+    ],
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526353240/mstr-20260817.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-10",
+    "reportDate": "2026-08-10",
+    "items": [
+     "7.01",
+     "8.01"
+    ],
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526341297/mstr-20260810.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-03",
+    "reportDate": "2026-08-03",
+    "items": [
+     "7.01",
+     "8.01"
+    ],
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526329565/mstr-20260803.htm",
+    "description": "8-K"
+   }
+  ],
+  "krReports": {
+   "total": 4,
+   "reports": [
+    {
+     "title": "[스트래티지 (NAS:MSTR)] 변동성 확대, 신중한 접근 필요",
+     "broker": "한화증권",
+     "analyst": "김유민",
+     "date": "2026-02-06",
+     "summary": "- 매출은 1억 달러(YoY +1.9%), 영업손실 174억 달러를 기록했다. 순손 실은 126억 달러, 주당 순손실은 42.93 달러다. 비트코인 가격 하락에 따른 평가 손실이 재무제표에 반영되면서 대규모 회계상 손실을 기록 했다.- 주가 및 비트코인 가격 부진에도 공격적인 매수를 지속하며 4분기에 32,470 BTC를 약 31억 달러에 매입했다. 2025년 전체 BTC 수익률은 22.8%를 기록하며 목표 범위(22~26%)를 달성했다.- BTC 수익률은 주 당 비트코인 수의 변화율로 구한다. 주식을 발행해 자금을 조달하더라 도, 그 돈으로 주식 수 증가분보다 더 많은 비율의 비트코인을 매입했 다면 BPS는 상승하고 BTC 수익률은 양의 값을 가진다",
+     "pages": "6",
+     "secureId": "eqqczixlleezkzggcgxcmcg",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqczixlleezkzggcgxcmcg.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[스트래티지 (NAS:MSTR)] 스트래티지 MSCI 편출 우려 완화",
+     "broker": "한화증권",
+     "analyst": "김유민",
+     "date": "2026-01-07",
+     "summary": "- 스트래티지는 MSCI 편출 불확실성을 해소하며 시간 외로 6.6% 상승했 습니다. 실제로 제외된다 하더라도 여파는 크지 않을 것으로 보입니다. 10월 MSCI 발표 이후 주가는 51% 하락하며 리스크를 미리 반영했습니 다.- 시장에서는 편출 시 매도 규모를 약 28억 달러로 추정했다. 주가가 급 락하고 변동성이 확대되면 스트래티지의 자본 조달 여건이 약화돼 비 트코인을 매도할 수 있다는 우려가 컸다- 10월 MSCI 발표 이후 주가 는 51% 하락했다. 편출은 보류하지만 가중치 상향 및 추가 편입을 제 한했다. 주식 수나 유통 지분 등의 증가를 반영하지 않으며 당분간 해 당 종목들이 지수 내 비중이 커지는 상황을 막을 것이다",
+     "pages": "6",
+     "secureId": "eqxqqqeczxeqeqggcgxcmcg",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxqqqeczxeqeqggcgxcmcg.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[스트래티지 (NAS:MSTR)] Strategy (MSTR) - 스테이블코인 발행 증가, BTC 채굴 인센티브 상승 견인",
+     "broker": "유안타증권",
+     "analyst": "황병준",
+     "date": "2025-09-30",
+     "summary": "- 세계 1위 Bitcoin Treasury 업체로 9월 22일 기준 639,835개의 BTC를 보유, 유통량 기준 3.2%의 점유율을 차지. 동사의 비트코인 수익률(YTD)은 26%로 시장을 14% 상회(SPX)하 고 있는데, 현 국면 BTC 토큰은 De-Fi 시장 성장이 본격화하는 국면에서 담보 자산 가치 상승 측면에서의 수혜를 반영- BTC 토큰 경제학은 시가 총액 2위 토큰 이더리움과 달리 해당 블록체인 생태계 성장을 견 인하는 주요 dApp 시장 성장에 따라 토큰 가치가 영향을 받는 방식이 아닌, 업계 내 보유 자 수, 레거지 담보 자산으로의 입지와 이에 따른 수요 확대가 설명. dApp 시장 경쟁 심화 우려 등 블록체인 생태계 관련 노이즈에 대한 적고, 오로지 시장 전체 성장의 수혜를 받는 주식 시장의 World Index와 같은 자산.",
+     "pages": "6",
+     "secureId": "eqzmelzmelmlqiigcgxcmcg",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzmelzmelmlqiigcgxcmcg.pdf",
+     "opinion": null
+    },
+    {
+     "title": "[스트래티지 (NAS:MSTR)] 비쌀수록 좋은 회사",
+     "broker": "신한투자증권",
+     "analyst": "함형도",
+     "date": "2025-09-22",
+     "summary": "- 주가는 코인가격에 동행하며, 최근 코인 횡보장에서 주가도 부진. 코인가 격 상승과, 금리 인하로 자금 조달이 용이해 진다면 스트래티지의 프리미 엄은 확대 가능- 스트래티지는 세계에서 가장 많은 비트코인을 보유한 기업으로, 전체 유통 량의 3%(63만개) 수준. 2Q25 매출액은 1억달러대로 기존 소프트웨어 사 업으로 창출되고 있으며, 비트코인의 미실현 이익이 140억달러에 달함- 회사의 목표는 주당 코인 보유량을 높이는 것. 주당 코인 보유량의 증가율 을 BTC Yield라 부르며, 1주당 코인 개수는 2023년 0.91개에서 2024년 1.59개로 증가(+74%). 2025년은 25%를 목표",
+     "pages": "2",
+     "secureId": "eqzlkmqxkiiceqkgcgxcmcg",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzlkmqxkiiceqkgcgxcmcg.pdf",
+     "opinion": null
+    }
+   ],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}

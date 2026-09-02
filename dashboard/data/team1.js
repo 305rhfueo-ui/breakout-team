@@ -478,8 +478,295 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-09-02",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "미국이 이란을 타격, 이란도 보복 — 중동 전면전 위험이 커졌다",
+        "easy": "미국이 이란을 공격했고 이란도 곧바로 되받아쳤습니다. 시장에서 전쟁은 '언제 끝날지 모르는 정전(停電)' 같은 사건입니다. 불이 언제 다시 들어올지 모르면 사람들은 일단 하던 일을 멈추고 손전등(현금·금·달러)부터 챙깁니다. 그래서 투자자들은 위험한 주식을 팔고 안전한 자산으로 옮겨가는 반응을 보입니다. 특히 이란은 호르무즈 해협(전 세계 원유의 상당량이 지나가는 좁은 바닷길)을 끼고 있어서, 이 길이 막힐 수 있다는 공포가 유가에 바로 반영됩니다.",
+        "whyMatters": "오늘 QQQ는 종가 707.64로 MA10(713.08) 아래, 10MA가 20MA(717.97) 밑으로 내려간 데드크로스(2026-08-28, D+2) 상태입니다. 이미 약해진 시장에 전쟁 헤드라인이 겹치면 변동성이 커지는 쪽으로 작동합니다. 주도 섹터인 Technology(16종목·32%)처럼 밸류에이션이 높고 베타가 큰 그룹이 하락 국면에서 더 크게 흔들리는 경향이 있고, 반대로 Basic Materials(7종목·14%) 중 에너지·원자재 성격 종목은 유가 상승의 수혜 방향으로 갈립니다. Healthcare(17종목·34%)는 상대적으로 경기 민감도가 낮아 방어적으로 버티는 쪽에 서기 쉽습니다.",
+        "impact": "down",
+        "sources": []
+      },
+      {
+        "headline": "국제 유가 6주 만에 최고 — 호르무즈 타격이 기름값을 밀어올렸다",
+        "easy": "미국의 호르무즈 지역 타격 소식에 국제 유가가 6주 만에 가장 높은 수준으로 뛰었습니다. 기름은 모든 물건의 '배송비'와 같습니다. 배송비가 오르면 과자값부터 비행기표까지 전부 조금씩 비싸집니다. 그래서 유가가 오르면 물가(인플레이션)가 다시 자극받고, 물가가 오르면 중앙은행이 금리를 쉽게 내려주지 못합니다. 투자자에게는 '기름 파는 회사는 좋고, 기름을 많이 쓰는 회사는 나쁘다'가 기본 공식입니다.",
+        "whyMatters": "유가 상승은 원자재·에너지 성격이 섞인 Basic Materials(주도 섹터 7종목·14%)에는 순풍, 연료비와 물류비를 많이 쓰는 Consumer Cyclical(4종목·8%)에는 역풍입니다. 또 유가발 물가 상승은 금리 하락 기대를 늦추기 때문에, 금리에 민감한 Technology(16종목·32%) 고밸류 종목의 부담을 키우는 방향입니다. 마진부채 YoY +38.6%로 빚을 낀 자금이 이미 많은 상태라, 유가·전쟁 같은 외부 충격이 왔을 때 강제 청산성 매물이 더 빨리 나올 수 있는 환경이라는 점도 함께 봐야 합니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/global-oil-prices-surge-to-a-6-week-high-after-the-u-s-strikes-iran-in-hormuz?mod=mw_rss_topstories",
+            "date": "2026-09-01",
+            "quote": "Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "다우가 중요한 차트 선을 깨고 내려왔다 — 기술적으로 경고등",
+        "easy": "다우지수가 차트에서 중요하게 보는 기준선 아래로 떨어졌다는 분석이 나왔습니다. 이동평균선(최근 며칠·몇 주 주가의 평균을 이은 선)은 등산로의 '안전 난간' 같은 역할을 합니다. 난간 위를 걸을 때는 사람들이 안심하고 걷지만, 난간 아래로 미끄러지면 '어디까지 굴러갈지 모른다'는 불안이 생겨 파는 사람이 늘어납니다. 이 기사는 다우가 바로 그 난간을 놓쳤다는 이야기입니다.",
+        "whyMatters": "이건 남의 이야기가 아니라 지금 우리 계좌 상태와 정확히 겹칩니다. QQQ 종가 707.64가 MA10 713.08과 MA20 717.97 아래에 있고, 10MA가 20MA를 아래로 뚫은 데드크로스(2026-08-28, D+2)가 살아 있습니다. 쿨라매기 기준으로는 신규 진입을 멈추고 보유분 청산을 검토해야 하는 구간입니다. 200일선 대비 +150%를 넘긴 과열 종목이 1개뿐이라 시장 전체가 과열로 터지는 국면은 아니지만, 지수 자체가 지지선 아래에 있으므로 Technology·Healthcare 주도주라도 신규 브레이크아웃 성공률이 떨어지는 환경으로 봐야 합니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Dow drops below a key chart level, warning of more trouble ahead",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/dow-drops-below-a-key-chart-level-warning-of-more-trouble-ahead?mod=mw_rss_topstories",
+            "date": "2026-09-01",
+            "quote": "Dow drops below a key chart level, warning of more trouble ahead",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "미 10년물 국채 금리, '위험 구간' 진입 갈림길에 섰다",
+        "easy": "미국 10년 만기 국채 금리가 위험한 수준으로 넘어가는 분기점에 왔다는 분석입니다. 국채 금리는 '세상에서 가장 안전한 저금통이 주는 이자'입니다. 이 저금통 이자가 높아지면, 굳이 위험한 주식을 살 이유가 줄어듭니다. 게다가 금리가 오르면 회사가 돈을 빌리는 비용도 같이 올라, 빚을 내서 크게 투자하는 회사일수록 부담이 커집니다. 그래서 금리가 오르는 날에는 '미래 이익이 큰 대신 지금 이익은 적은' 성장주가 먼저 두들겨 맞습니다.",
+        "whyMatters": "금리 상승은 Technology(주도 섹터 16종목·32%)처럼 미래 성장을 당겨서 평가받는 그룹의 밸류에이션을 직접 깎는 요인입니다. 반대로 이익이 이미 나오고 배당·현금흐름이 안정적인 Healthcare(17종목·34%)나 Consumer Defensive(1종목·2%) 쪽은 상대적으로 방어력이 있습니다. 여기에 마진부채 YoY +38.6%(+30% 초과, 레버리지 확대 주의)가 겹치면, 금리 상승 → 빚 이자 부담 증가 → 신용 매수 물량 청산이라는 연쇄를 경계해야 합니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "This could be the 10-year Treasury's tipping point into the danger zone",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/this-could-be-the-10-year-treasurys-tipping-point-into-the-danger-zone?mod=mw_rss_topstories",
+            "date": "2026-09-01",
+            "quote": "This could be the 10-year Treasury's tipping point into the danger zone",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "영국 장기 국채 금리 1998년 이후 최고 — 채권 불안은 국경을 넘는다",
+        "easy": "영국의 장기 차입 비용(정부가 오래 빌릴 때 내는 이자)이 1998년 이후 가장 높아졌습니다. 10월 예산 발표를 앞두고 '나라가 돈을 더 많이 빌릴 것 같다'는 걱정이 커졌기 때문입니다. 세계 채권시장은 여러 개의 물통이 호스로 연결된 것과 비슷해서, 한 통의 수위가 올라가면 다른 통도 따라 올라갑니다. 영국 금리가 뛰면 미국 장기 금리도 같은 방향으로 끌려가는 경우가 많습니다.",
+        "whyMatters": "이 뉴스는 앞의 미 10년물 기사와 같은 방향으로 작동합니다. 글로벌 장기 금리가 동반 상승하면 할인율이 올라가면서 Technology(16종목·32%) 고성장주에 가장 먼저 압력이 갑니다. 반대로 금리 상승 자체는 은행·보험 같은 금융 성격 자산에는 이자 마진 측면에서 나쁘지 않은 방향이지만, 오늘 주도 섹터 목록에 Financial은 없으므로 우리 후보군에서는 방어보다 회피 쪽 신호로 읽는 것이 맞습니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "UK long-term borrowing costs highest since 1998 ahead of October Budget",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/business",
+            "date": "2026-09-01",
+            "quote": "UK long-term borrowing costs highest since 1998 ahead of October Budget",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "델(Dell) 9% 급등 — AI 서버가 실적과 전망을 동시에 끌어올렸다",
+        "easy": "델이 AI 서버가 잘 팔린 덕에 좋은 실적을 냈고, 2027 회계연도 전망까지 올려 잡으면서 주가가 9% 올랐습니다. AI 서버는 인공지능을 돌리기 위한 '거대한 계산 공장'이고, 델은 그 공장을 지어서 파는 회사입니다. 요즘 기업들이 AI에 돈을 쏟아붓고 있으니, 공장을 지어 파는 쪽에 주문이 몰리는 것입니다. 회사가 스스로 '앞으로 더 잘될 것 같다'고 전망을 올리는 건, 이미 손에 쥔 주문서가 두툼하다는 뜻이라 시장이 특히 좋아합니다.",
+        "whyMatters": "지수 전체가 데드크로스로 눌린 상황에서도 AI 하드웨어 쪽에는 여전히 실적이라는 실탄이 있다는 증거입니다. 주도 섹터 중 Technology(16종목·32%) 안에서도 AI 서버·부품·전력 공급망에 걸린 종목은 시장 하락과 별개로 개별 강세를 낼 여지가 있고, 이런 종목이 EP(어닝 서프라이즈 기반 급등) 후보로 잡힙니다. 다만 시장 환경이 🔴인 지금은 신규 진입을 늘리기보다 관찰 목록에 올려두고, QQQ가 MA10 713.08 위를 회복하는지를 먼저 확인하는 순서가 안전합니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Dell's AI servers drive a stellar earnings performance, and a raised outlook",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/dells-ai-servers-drive-a-stellar-earnings-performance-and-a-raised-outlook?mod=mw_rss_topstories",
+            "date": "2026-09-01",
+            "quote": "Dell's AI servers drive a stellar earnings performance, and a raised outlook",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "팔로알토 네트웍스, 실적은 이겼는데 주가는 빠졌다",
+        "easy": "팔로알토 네트웍스가 AI 관련 수요 덕에 시장 예상치를 웃도는 실적을 내고 인수도 계속 이어가고 있는데, 정작 주가는 떨어졌습니다. 시험을 90점 맞았는데 혼난 상황과 비슷합니다. 반 친구들이 이미 '쟤는 95점 맞을 거야'라고 기대하고 있었다면, 90점은 잘한 게 아니라 실망이 되기 때문입니다. 주식은 실적 그 자체보다 '기대보다 얼마나 더 잘했나'로 움직입니다. 또 회사를 계속 사들이는(인수) 전략은 성장은 사올 수 있지만 돈이 나가고 소화 부담이 생겨 시장이 깐깐하게 보기도 합니다.",
+        "whyMatters": "이건 지금 시장의 성격을 보여주는 신호입니다. 좋은 실적에도 주가가 빠진다는 건 매수세가 얇고 차익실현이 우선한다는 뜻이며, Technology(16종목·32%) 안에서 실적 발표를 앞둔 종목을 '실적만 믿고' 들고 가는 전략의 위험을 키웁니다. 반대로 델처럼 반응이 좋은 종목과 팔로알토처럼 반응이 나쁜 종목이 갈리는 국면이므로, 실적 내용보다 발표 후 주가 반응(시장의 채점 결과)을 보고 대응하는 편이 낫습니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Palo Alto Networks' stock falls despite strong AI cybersecurity demand",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/palo-alto-networks-stock-falls-despite-strong-ai-cybersecurity-demand?mod=mw_rss_topstories",
+            "date": "2026-09-01",
+            "quote": "Palo Alto Networks' stock falls despite strong AI cybersecurity demand",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "애플, 존 터너스 시대 개막 — AI 숙제와 메모리 부족이라는 짐을 함께 받았다",
+        "easy": "애플이 존 터너스 체제로 경영진이 바뀌는 국면에 들어섰는데, 하필 AI 경쟁에서 뒤처졌다는 지적과 메모리(스마트폰·컴퓨터가 정보를 잠깐 담아두는 부품) 공급 부족 문제가 동시에 커지고 있습니다. 새 감독이 부임했는데 주전 선수는 부상이고 상대팀은 강해진 상황과 비슷합니다. 메모리 부족은 부품값이 오른다는 뜻이라, 같은 제품을 만들어도 원가가 더 든다는 의미입니다. 그러면 회사 이익률이 눌릴 수 있습니다.",
+        "whyMatters": "애플은 지수에서 차지하는 비중이 크기 때문에, 애플이 흔들리면 QQQ 자체가 무거워지고 이미 MA20 717.97 아래에 있는 지수의 반등을 더 어렵게 만듭니다. 방향으로만 보면, 메모리 부족은 메모리를 사서 쓰는 완제품 업체에는 원가 부담이고 메모리를 파는 반도체 공급 쪽에는 가격 측면의 순풍이라는 상반된 효과를 냅니다. 주도 섹터인 Technology(16종목·32%) 안에서도 '부품을 파는 쪽'과 '부품을 사는 쪽'을 구분해서 보는 것이 지금 유효합니다.",
+        "impact": "neutral",
+        "sources": []
+      },
+      {
+        "headline": "미 하원, 정부 셧다운 회피 표결 통과 — 공화 강경파 반발은 남았다",
+        "easy": "미국 하원이 정부 셧다운(정부가 예산이 없어 일부 기능을 멈추는 것)을 피하는 안건을 통과시켰습니다. 다만 공화당 강경파의 반대가 계속되고 있어 불씨는 남았습니다. 셧다운은 회사로 치면 '월급날에 통장이 잠기는 것'과 같아서, 공무원 급여·정부 발주·경제 통계 발표까지 줄줄이 멈춥니다. 통계가 안 나오면 투자자도 연준도 눈을 감고 운전하는 셈이 되어 불확실성이 커집니다. 그래서 셧다운을 피했다는 소식 자체는 시장에 안도 요인입니다.",
+        "whyMatters": "전쟁·유가·금리라는 악재가 겹친 날에 이 뉴스는 몇 안 되는 완충재입니다. 정부 지출이 끊기지 않으면 정부 발주 비중이 큰 Healthcare(주도 섹터 17종목·34%)의 정책·급여 관련 불확실성이 줄고, 소비 심리에 기대는 Consumer Cyclical(4종목·8%)도 최악의 시나리오는 피합니다. 다만 강경파 반발이 남아 있어 완전히 해소된 재료는 아니므로, 재부각될 경우 다시 변동성 요인이 될 수 있다는 정도로 관리하면 됩니다.",
+        "impact": "up",
+        "sources": []
+      },
+      {
+        "headline": "G20에서 중국만 '저가 수출 반대' 성명에 반대 — 무역 갈등 재점화 조짐",
+        "easy": "베선트 재무장관에 따르면, 값싼 수출품이 시장에 쏟아지는 것을 반대한다는 G20 성명에 중국이 홀로 반대했습니다. 반이 다 같이 '싸게 파는 건 그만하자'고 손을 들었는데 한 명만 손을 안 든 상황입니다. 이런 의견 충돌은 보통 관세(수입품에 붙이는 세금) 같은 조치로 이어질 수 있고, 관세는 국경에 세워진 톨게이트와 같습니다. 톨게이트가 생기면 물건값이 올라가고, 그 나라에 물건을 팔던 회사의 매출은 줄어듭니다.",
+        "whyMatters": "무역 마찰이 다시 커지면 값싼 중국산 공급과 직접 경쟁하는 Basic Materials(주도 섹터 7종목·14%)는 관세 보호를 받으면 유리하고 반대로 원가가 오르면 불리한 양방향 재료가 됩니다. 중국 매출 비중이 크거나 중국에서 부품을 조달하는 Technology(16종목·32%)와 Consumer Cyclical(4종목·8%)은 공급망 비용 상승 쪽으로 노출됩니다. 지금은 확정된 조치가 아니라 성명 단계이므로 즉각적 충격보다는 '앞으로 관세 헤드라인이 다시 나올 수 있다'는 경계 재료로 두는 것이 맞습니다.",
+        "impact": "neutral",
+        "sources": []
+      },
+      {
+        "headline": "베일리 영란은행 총재, G20에서 'AI가 세계 경기 침체를 부를 수 있다' 경고",
+        "easy": "앤드루 베일리 영란은행 총재가 G20에서 AI가 세계 경제 침체를 일으킬 수 있다고 경고했습니다. 지금 AI에 몰린 돈이 너무 많아서, 기대만큼 돈을 벌지 못하면 그 실망이 한꺼번에 터질 수 있다는 걱정입니다. 풍선에 바람을 계속 넣으면 커 보이지만, 어느 순간 작은 바늘 하나에도 크게 터집니다. 중앙은행 총재처럼 신중한 자리에 있는 사람이 이런 말을 공개적으로 한다는 것 자체가 시장에는 무게가 있는 발언입니다. 다만 경고는 예언이 아니라 '조심하라'는 신호입니다.",
+        "whyMatters": "오늘 델의 호실적처럼 AI 수요는 실제 숫자로 확인되고 있지만, 동시에 정책당국이 AI 자산 가격을 걱정하고 있다는 상반된 그림입니다. 주도 섹터 1·2위가 Healthcare(17종목·34%)와 Technology(16종목·32%)로 나뉘어 있다는 점은, 자금이 AI 한 곳에만 쏠려 있지 않다는 방증이기도 합니다. 다만 마진부채 YoY +38.6%(+30% 초과)라는 빚 확대 신호가 이런 경고와 겹치면 조정 시 낙폭이 커지기 쉬우므로, AI 테마 집중 비중을 점검하고 Healthcare 쪽으로 분산 여지를 확인할 국면입니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "AI could cause global economic downturn, Andrew Bailey warns G20",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/business",
+            "date": "2026-09-01",
+            "quote": "AI could cause global economic downturn, Andrew Bailey warns G20",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "오늘 시장은 한마디로 '악재가 여러 겹으로 쌓인 날'입니다. 미국이 이란을 타격하고 이란이 보복하면서 전쟁 확대 우려가 커졌고, 그 여파로 국제 유가는 6주 만에 최고치로 뛰었습니다. 여기에 미국 10년물 국채 금리가 위험 구간 진입을 앞두고 있다는 분석과 영국 장기 차입비용이 1998년 이후 최고라는 소식이 겹치면서, 금리 상승이 성장주 밸류에이션을 누르는 구도가 만들어졌습니다. 차트도 같은 이야기를 합니다 — 다우는 주요 지지선을 이탈했고, QQQ는 종가 707.64로 MA10(713.08)과 MA20(717.97) 모두 아래에 있으며 8월 28일 데드크로스가 D+2로 살아 있어 쿨라매기 기준상 🔴, 신규 진입 중단·보유분 청산 검토 구간입니다. 그렇다고 전부 어두운 것은 아닙니다. 델은 AI 서버 호실적과 전망 상향으로 9% 급등했고, 하원이 셧다운 회피 표결을 통과시키며 정치 리스크 하나는 덜었습니다. 정리하면, 개별 기업의 AI 실적은 여전히 살아 있지만 지수·금리·지정학이라는 판 전체가 불리하게 기울어 있어 지금은 공격보다 방어가 우선인 날입니다.",
+    "keyRisks": [
+      "QQQ 데드크로스 진행 중(2026-08-28, D+2) — 종가 707.64가 MA10 713.08·MA20 717.97 아래. 쿨라매기 기준 신규 진입 중단, 보유분 청산 검토 구간",
+      "FINRA 고객 마진부채 YoY +38.6%로 +30% 기준선 초과 — 빚을 낀 자금이 많아 조정 시 강제 청산으로 낙폭이 증폭될 위험",
+      "미국-이란 무력 충돌 확대 가능성과 호르무즈 리스크 — 유가 추가 급등 시 물가 자극으로 금리 인하 기대가 뒤로 밀릴 수 있음",
+      "글로벌 장기 금리 동반 상승(미 10년물 위험 구간 논쟁 + 영국 1998년 이후 최고) — 할인율 상승으로 Technology 고밸류 종목에 직접 압력",
+      "실적 호조에도 주가가 빠지는 사례 발생(팔로알토 네트웍스) — 좋은 뉴스에 시장이 보상하지 않는 국면, 실적 베팅의 성공률 하락",
+      "정책당국의 AI 경고(베일리 총재)와 G20 중국 저가 수출 이견 — AI 쏠림 조정과 무역 갈등 재점화라는 두 개의 잠재 헤드라인 리스크"
+    ],
+    "easySummary": [
+      "전쟁과 유가 급등, 금리 상승이 한꺼번에 겹치면서 시장 전체가 눌린 하루였습니다.",
+      "QQQ는 종가 707.64로 MA10(713.08)·MA20(717.97) 아래에 있고 데드크로스가 D+2라, 지금은 새로 사기보다 지키는 구간입니다.",
+      "그래도 델의 AI 서버 실적 호조와 셧다운 회피처럼 좋은 소식도 있으니, AI 관련 강세 종목은 사지 말고 관찰 목록에만 올려두세요."
+    ],
+    "candidateCount": 15,
+    "verified": {
+      "checked": 200,
+      "ok": 267,
+      "unverified": 36,
+      "dead": 7,
+      "stripped": 4,
+      "removed": [
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.cnbc.com/2026/09/01/us-strikes-iran-tehran-retaliates-wider-war.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.cnbc.com/2026/09/01/dell-surges-lifting-fiscal-2027-forecast-ai-server.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.cnbc.com/2026/09/01/palo-alto-networks-beats-quarterly-estimates-ai-demand.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.cnbc.com/2026/09/01/apple-john-ternus-era-ai-memory-crunch.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.cnbc.com/2026/09/01/house-votes-avoid-government-shutdown.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.cnbc.com/2026/09/01/china-g20-cheap-exports-bessent.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.sec.gov/Archives/edgar/data/2068385/000149315226036254/ex99-1.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.sec.gov/Archives/edgar/data/2068385/000149315226036254/ex99-1.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.sec.gov/Archives/edgar/data/2068385/000149315226036254/ex99-1.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-sharonai-q2-2026-miss-offsets-strong-pipeline-growth-93CH-4844537"
+        },
+        {
+          "reason": "중복",
+          "url": "https://newsfilter.io/earnings/atlassian-fourth-quarter-and-fiscal-year-2026-earnings-summary-8f4a22186d0ebe9bdfb0c0f62ff98cc5"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.guidewire.com/about/press-center/press-releases/20260604/guidewire-announces-third-quarter-fiscal-year-2026-financial-results"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.gurufocus.com/news/9050724/guidewire-software-gwre-ceo-michael-rosenbaum-sells-1200-shares"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1114483/000095010326011881/dp251220_8k.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1114483/000117184326005137/f8k_080326.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.nasdaq.com/articles/shells-ceo-warned-oil-prices-would-keep-rising-hormuz-talks-are-testing-call-heres-what-it"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.nasdaq.com/articles/shells-ceo-warned-oil-prices-would-keep-rising-hormuz-talks-are-testing-call-heres-what-it"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.nasdaq.com/articles/exxonmobil-eyeing-potential-8-billion-bet-shells-us-chemical-plants-heres-what-it-means"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/28917/000002891726000024/dds-20260813x8k.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.fool.com/investing/2026/08/07/why-fluor-stock-is-skyrocketing-today/"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.sahmcapital.com/news/content/southstate-bank-ssb-expands-into-government-contractor-banking-following-a-fair-value-gap-2026-08-18"
+        },
+        {
+          "reason": "중복",
+          "url": "https://nand-research.com/memory-flash-crisisc-update-march-2026/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://winbuzzer.com/2026/02/18/wd-seagate-2026-hard-drive-shortage-ai-data-centers-xcxwbn/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://247wallst.com/cards/dell-technologies-q2-2027-earnings-dell-01m1f9r5egqcdb5ba3h8b408w5"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.ibtimes.com/refiner-stocks-have-soared-more-80-2026-last-5-times-this-happened-they-fell-later-3806533"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.hydrocarbonprocessing.com/news/2026/08/top-us-refiners-see-profits-soar-step-up-investor-rewards/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://gmk.center/en/news/china-has-increased-coking-coal-imports-by-25-y-y-over-the-past-five-months/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/td-synnex-corporation-snx-hit-131501741.html"
+        }
+      ],
+      "noQuote": 3
+    },
+    "reusedFrom": null
   }
 };

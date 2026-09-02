@@ -1,0 +1,206 @@
+{
+ "ticker": "SSB",
+ "news": [
+  {
+   "title": "Cash Dividend On The Way From SouthState Bank (SSB)",
+   "url": "https://www.nasdaq.com/articles/cash-dividend-way-southstate-bank-ssb",
+   "date": "2026-08-05",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "SSB",
+    "SSB",
+    "FTDS"
+   ]
+  },
+  {
+   "title": "SouthState (SSB) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/southstate-ssb-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-07-23",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "SSB"
+   ]
+  },
+  {
+   "title": "Seeking Clues to SouthState (SSB) Q2 Earnings? A Peek Into Wall Street Projections for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/seeking-clues-southstate-ssb-q2-earnings-peek-wall-street-projections-key-metrics",
+   "date": "2026-07-22",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "SSB"
+   ]
+  },
+  {
+   "title": "SouthState Bank About To Put More Money In Your Pocket (SSB)",
+   "url": "https://www.nasdaq.com/articles/southstate-bank-about-put-more-money-your-pocket-ssb",
+   "date": "2026-05-06",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "SSB",
+    "SSB",
+    "IAT"
+   ]
+  },
+  {
+   "title": "BOK Financial's Revenue Growth Solid: What's Driving the Upside?",
+   "url": "https://www.nasdaq.com/articles/bok-financials-revenue-growth-solid-whats-driving-upside",
+   "date": "2026-09-01",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "BOKF",
+    "CFG",
+    "SSB"
+   ]
+  },
+  {
+   "title": "Executive Parts Ways With 4,000 Shares of Regional Bank Stock, Following 11% Rally",
+   "url": "https://www.nasdaq.com/articles/executive-parts-ways-4000-shares-regional-bank-stock-following-11-rally",
+   "date": "2026-08-22",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "SSB",
+    "SSB"
+   ]
+  },
+  {
+   "title": "SouthState Bank Q2 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/southstate-bank-q2-earnings-call-highlights",
+   "date": "2026-07-24",
+   "publisher": "MarketBeat",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "SSB"
+   ]
+  },
+  {
+   "title": "SouthState Q2 Earnings Beat Estimates, Revenues Miss on Lower NII",
+   "url": "https://www.nasdaq.com/articles/southstate-q2-earnings-beat-estimates-revenues-miss-lower-nii",
+   "date": "2026-07-24",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "SSB",
+    "CBSH",
+    "FNB"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/764038/000110465926086278/ssb-20260723x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-13",
+   "reportDate": "2026-07-09",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/764038/000110465926082912/ssb-20260709x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-06",
+   "reportDate": "2026-07-06",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/764038/000110465926080628/ssb-20260706x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "2.02",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/764038/000110465926047690/ssb-20260423x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-15",
+   "reportDate": "2026-04-15",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/764038/000110465926043739/ssb-20260415x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-03",
+   "reportDate": "2026-04-03",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/764038/000110465926039475/ssb-20260403x8k.htm",
+   "description": "8-K"
+  }
+ ]
+}

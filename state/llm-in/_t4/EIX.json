@@ -1,0 +1,150 @@
+{
+ "ticker": "EIX",
+ "news": [
+  {
+   "title": "EIX Makes Notable Cross Below Critical Moving Average",
+   "url": "https://www.nasdaq.com/articles/eix-makes-notable-cross-below-critical-moving-average",
+   "date": "2026-08-31",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "EIX"
+   ]
+  },
+  {
+   "title": "EIX Crosses Critical Technical Indicator",
+   "url": "https://www.nasdaq.com/articles/eix-crosses-critical-technical-indicator",
+   "date": "2026-08-31",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "EIX"
+   ]
+  },
+  {
+   "title": "Edison International (EIX) Shares Cross 5% Yield Mark",
+   "url": "https://www.nasdaq.com/articles/edison-international-eix-shares-cross-5-yield-mark",
+   "date": "2026-08-05",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "EIX"
+   ]
+  },
+  {
+   "title": "Why Edison International Stock Just Crashed",
+   "url": "https://www.nasdaq.com/articles/why-edison-international-stock-just-crashed",
+   "date": "2026-08-31",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "EIX",
+    "EIX"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-31",
+   "reportDate": "2026-07-30",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/827052/000082705226000061/eix-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/827052/000082705226000058/eix-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-04-30",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/827052/000082705226000047/eix-20260430x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-28",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/827052/000082705226000044/eix-20260428.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/827052/000082705226000041/eix-20260428.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-24",
+   "reportDate": "2026-04-23",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/827052/000082705226000031/eix-20260423x8k.htm",
+   "description": "8-K"
+  }
+ ]
+}

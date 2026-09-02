@@ -1,0 +1,206 @@
+{
+ "ticker": "SMCIP",
+ "sector": "Technology",
+ "industry": "Computer Hardware",
+ "nameKo": null,
+ "detail": {
+  "fetchedAt": "2026-09-02",
+  "nameKo": null,
+  "nameEn": null,
+  "infomaxCode": null,
+  "financials": {
+   "ok": true,
+   "ticker": "SMCIP",
+   "cik": "0001375365",
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "profitIsOperating": true,
+   "tags": {
+    "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "profit": "OperatingIncomeLoss",
+    "netIncome": "NetIncomeLoss"
+   },
+   "quarters": [
+    {
+     "periodStart": "2026-03-31",
+     "periodEnd": "2026-06-30",
+     "derived": true,
+     "revenue": 11119777000,
+     "profit": 1488064000,
+     "netIncome": 1178217000,
+     "margin": 13.4,
+     "yoy": {
+      "revenue": 93.2,
+      "profit": 551.5,
+      "netIncome": 503.7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodStart": "2026-01-01",
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 10243014000,
+     "profit": 625868000,
+     "netIncome": 483387000,
+     "margin": 6.1,
+     "yoy": {
+      "revenue": 122.7,
+      "profit": 326.4,
+      "netIncome": 344.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodStart": "2025-10-01",
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 12682491000,
+     "profit": 474298000,
+     "netIncome": 400564000,
+     "margin": 3.7,
+     "yoy": {
+      "revenue": 123.4,
+      "profit": 28.7,
+      "netIncome": 24.9,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodStart": "2025-07-01",
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 5017790000,
+     "profit": 182256000,
+     "netIncome": 168285000,
+     "margin": 3.6,
+     "yoy": {
+      "revenue": -15.5,
+      "profit": -64.2,
+      "netIncome": -60.3,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ],
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001375365&type=10-Q"
+  },
+  "news": {
+   "ok": true,
+   "ticker": "SMCIP",
+   "items": [],
+   "directCount": 0,
+   "total": 0,
+   "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-11",
+    "reportDate": "2026-08-11",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000021/smci-20260811.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "reportDate": "2026-08-05",
+    "items": [
+     "8.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000020/smci-20260805.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-21",
+    "reportDate": "2026-07-21",
+    "items": [
+     "2.02",
+     "9.01"
+    ],
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000019/smci-20260721.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-15",
+    "reportDate": "2026-06-10",
+    "items": [
+     "1.01",
+     "3.03",
+     "5.03",
+     "9.01"
+    ],
+    "itemsKo": [
+     "중요 계약 체결",
+     "3.03",
+     "5.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1375365/000119312526270430/d151436d8k.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-12",
+    "reportDate": "2026-06-10",
+    "items": [
+     "1.01",
+     "7.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "중요 계약 체결",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1375365/000119312526269703/d45696d8k.htm",
+    "description": "8-K"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-09",
+    "reportDate": "2026-06-09",
+    "items": [
+     "8.01",
+     "9.01"
+    ],
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1375365/000119312526263942/d47444d8k.htm",
+    "description": "8-K"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": [],
+   "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+  }
+ }
+}

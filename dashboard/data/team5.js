@@ -521,7 +521,474 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "pending"
+    "status": "done",
+    "industries": [
+      {
+        "key": "Technology|Computer Hardware",
+        "industry": "Technology / Computer Hardware",
+        "lead": "Technology / Computer Hardware 업종은 서버, 스토리지(하드디스크·SSD 등), PC 같은 컴퓨터 하드웨어를 만드는 업종으로, 최근 AI 데이터센터 투자 폭증의 직접적 수혜를 받고 있다. AI용 메모리에 생산능력이 우선 배정되면서 낸드플래시(NAND) 계약가격이 2025년 11월 한 달 새 특정 제품군 기준 60% 넘게 뛰었고, 소비자용 1테라바이트 SSD 가격은 약 45달러에서 90달러 가까이로 두 배가 됐다. 웨스턴디지털은 2026년 하드디스크 물량이 이미 완전히 매진됐다고 밝혔고, 델 테크놀로지스는 2026년 9월 1일 발표한 실적에서 AI 서버 수주잔고가 사상 최대인 950억달러에 달했다고 밝혔다. 이런 극심한 공급부족과 잇단 실적 호조가 겹치며 이 업종의 6개월 상대강도는 전체 업종 중 상위 0.71%까지 올라섰다.",
+        "whyStrong": [
+          {
+            "id": "w1",
+            "statement": "낸드플래시(NAND, 데이터를 저장하는 메모리 반도체) 가격이 AI발 생산능력 재배치로 급등해, 2025년 11월 계약가격이 특정 제품군 기준 한 달 새 60% 넘게 올랐고 소비자용 1TB SSD는 약 45달러에서 90달러 가까이로 두 배가 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Memory & Flash Crisis: March 2026 Update",
+                "publisher": "NAND Research",
+                "url": "https://nand-research.com/memory-flash-crisisc-update-march-2026/",
+                "date": "2026-02-28",
+                "quote": "In November 2025, contract prices for NAND wafers increased more than 60% month-over-month for certain product categories",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "웨스턴디지털은 2026년도 하드디스크(HDD) 물량이 이미 완전히 매진됐고 상위 7개 고객사와 2026년 전체에 대한 확정 구매계약을 맺었다고 밝혔으며, 4TB WD Blue 드라이브 가격은 몇 달 새 67~85달러에서 99달러로 뛰었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "WD & Seagate 2026 Hard Drive Shortage: AI Data Centers",
+                "publisher": "Winbuzzer",
+                "url": "https://winbuzzer.com/2026/02/18/wd-seagate-2026-hard-drive-shortage-ai-data-centers-xcxwbn/",
+                "date": "2026-02-18",
+                "quote": "We're pretty much sold out for calendar year 2026. I have firm purchase orders with my top seven customers through calendar year 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "델 테크놀로지스는 2026년 9월 1일 발표한 2026회계연도 2분기(캘린더 기준) 실적에서 AI 서버 수주잔고가 사상 최대인 950억달러에 달했다고 밝히며, 연간 매출 가이던스를 1920억달러로 상향했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dell Technologies Q2 2027 Earnings",
+                "publisher": "24/7 Wall St.",
+                "url": "https://247wallst.com/cards/dell-technologies-q2-2027-earnings-dell-01m1f9r5egqcdb5ba3h8b408w5",
+                "date": "2026-09-01",
+                "quote": "A record $95 billion AI server backlog means the next several quarters are already largely spoken for.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w5",
+            "statement": "키옥시아(Kioxia)와 샌디스크(SNDK)는 2026년 8월 27일 일본에 310억달러 이상을 공동 투자하는 계획을 발표했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Kioxia Plans Over $31 Bln Japan Investment With Sandisk",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/kioxia-plans-over-31-bln-japan-investment-sandisk",
+                "date": "2026-08-27",
+                "quote": "Kioxia Plans Over $31 Bln Japan Investment With Sandisk",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "technology",
+        "durability": "structural",
+        "keyStocks": [
+          "DELL",
+          "STX",
+          "SNDK",
+          "SMCIP"
+        ],
+        "risk": "이 강세는 두 가지 조건에서 꺾일 수 있다. 첫째, 알파벳·메타·아마존·마이크로소프트 등 하이퍼스케일러들이 AI 데이터센터 자본지출을 줄이면 서버·메모리·HDD 수요가 한꺼번에 식을 수 있다 — 2026년 7월 1일 기준 뱅크오브아메리카의 반도체 버블위험지수는 1점 만점에 0.91까지 치솟았고, 같은 시기 SOXX 반도체 지수는 하루 만에 6.4% 급락했다(2026년 7월 14일 야후파이낸스 보도). 둘째, 마이크론·SK하이닉스 등이 준비 중인 신규 낸드 생산라인이 2027년 예정보다 앞당겨 가동돼 지금의 극심한 공급부족이 완화되면, 메모리·HDD 가격 급등에 기반한 이번 강세의 근거 자체가 약화된다. 웨스턴디지털의 장기 공급계약이 2027~2028년까지 이미 잡혀 있다는 점은 구조적 강세를 뒷받침하지만, 동시에 그만큼 앞으로의 가격 추가 상승 여력이 계약가에 이미 반영돼 있다는 뜻이기도 하다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w3"
+          ],
+          "reason": "w3의 '전년동기 대비 48% 늘었다'는 구체적 수치가 출처의 제목이나 quote에 없음. 제목에는 '$3.6B Revenue'만 있고 증가율 근거 없음.",
+          "leadFixed": true
+        },
+        "leadOriginal": "Technology / Computer Hardware 업종은 서버, 스토리지(하드디스크·SSD 등), PC 같은 컴퓨터 하드웨어를 만드는 업종으로, 최근 AI 데이터센터 투자 폭증의 직접적 수혜를 받고 있다. AI용 메모리에 생산능력이 우선 배정되면서 낸드플래시(NAND) 계약가격이 2025년 11월 한 달 새 특정 제품군 기준 60% 넘게 뛰었고, 소비자용 1테라바이트 SSD 가격은 약 45달러에서 90달러 가까이로 두 배가 됐다. 웨스턴디지털은 2026년 하드디스크 물량이 이미 완전히 매진됐다고 밝혔고, 시게이트는 2026회계연도 4분기(7월 발표) 매출이 전년 대비 48% 늘며 어닝서프라이즈를 냈다. 델 테크놀로지스는 2026년 9월 1일 발표한 실적에서 AI 서버 수주잔고가 사상 최대인 950억달러에 달했다고 밝혔다. 이런 극심한 공급부족과 잇단 실적 호조가 겹치며 이 업종의 6개월 상대강도는 전체 업종 중 상위 0.71%까지 올라섰다."
+      },
+      {
+        "driver": "commodity",
+        "durability": "cyclical",
+        "industry": "Oil & Gas Refining & Marketing",
+        "key": "Energy|Oil & Gas Refining & Marketing",
+        "keyStocks": [
+          "MPC (Marathon Petroleum)",
+          "VLO (Valero Energy)",
+          "PSX (Phillips 66)",
+          "DINO (HF Sinclair)"
+        ],
+        "lead": "에너지/정유·마케팅(원유를 휘발유·디젤 등으로 가공해 파는 업종)이 정제마진 사상 최고 수준에 힘입어 시장을 압도하고 있다. 업종 강도는 1개월 0.1974(상위 2.86%), 3개월 0.4133(상위 0.71%), 6개월 0.5918(상위 1.43%)로 QQQ 대비 뚜렷한 초과수익을 내고 있다. 정유 마진의 핵심 지표인 크랙 스프레드(정제마진, 원유와 정제품 가격 차이)가 2026년 9월물 기준 배럴당 69.92달러로 사상 최고 수준까지 치솟았고, 이에 힘입어 마라톤 페트롤리엄·발레로 에너지·HF 시클레어 등 주요 정유주는 올해 80% 넘게 급등했다. 2분기 마라톤·필립스66·발레로 3사의 합산 순이익은 126억 달러에 달했고, 이들은 63억 달러를 자사주 매입·배당으로 주주에게 환원했다. 다만 선물 시장은 이미 마진 정상화를 가격에 반영하고 있고, 과거 유사한 급등 국면은 예외 없이 이후 6개월간 주가 하락으로 이어진 전례가 있다.",
+        "risk": "선물 곡선이 이미 마진 정상화를 반영하고 있다 — 2026년 8월13일 IBTimes 보도에 따르면 2027년 8월물 크랙 스프레드는 배럴당 44.38달러로 2026년 9월물(69.92달러) 대비 35% 넘게 낮다. 즉 시장 참여자들은 현재의 마진 수준이 지속되지 않을 것으로 이미 베팅하고 있다. 같은 기사는 S&P500 정유·마케팅 소업종 지수가 유사하게 급등했던 과거 5차례 사례 모두에서 이후 6개월 수익률이 평균 -10.1%로 마이너스였다고 지적한다. 마진 급등의 근원이 호르무즈 해협 긴장, 러시아-우크라이나 전쟁에 따른 정유설비 피격 등 지정학적 공급 차질에 있다는 점도 구조적 위험이다 — 휴전이나 공급 정상화가 현실화되면 크랙 스프레드가 급격히 되돌림칠 수 있고, 정유주는 이익·주가 모두 되돌림 위험에 노출된다. 정유업은 원래 경기·가격 변동에 민감한 경기순환 업종이어서, 이익과 마진이 정점 부근일 때 밸류에이션(주가수익비율)이 실제보다 저평가처럼 보이는 착시도 경계해야 한다.",
+        "whyStrong": [
+          {
+            "id": "crack-spread-record",
+            "statement": "정제마진(3-2-1 크랙 스프레드, 원유 3배럴로 휘발유 2배럴·디젤 1배럴을 만들 때의 정제 마진)의 2026년 9월물이 배럴당 약 69.92달러로 사상 최고 수준까지 치솟았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Refiner Stocks Have Soared More Than 80% in 2026. The Last 5 Times This Happened, They Fell Later.",
+                "publisher": "IBTimes",
+                "url": "https://www.ibtimes.com/refiner-stocks-have-soared-more-80-2026-last-5-times-this-happened-they-fell-later-3806533",
+                "date": "2026-08-19",
+                "quote": "The September Nymex 3-2-1 spread was around $69.92...while the August 2027 spread stood at $44.38, more than 35% below the September level.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "stock-surge-2026",
+            "statement": "마라톤 페트롤리엄, 발레로 에너지, HF 시클레어 등 주요 정유주가 2026년 들어 80% 넘게 급등했고, S&P500 정유·마케팅 소업종 지수는 올해 104% 상승했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Refiner Stocks Have Soared More Than 80% in 2026. The Last 5 Times This Happened, They Fell Later.",
+                "publisher": "IBTimes",
+                "url": "https://www.ibtimes.com/refiner-stocks-have-soared-more-80-2026-last-5-times-this-happened-they-fell-later-3806533",
+                "date": "2026-08-19",
+                "quote": "Marathon Petroleum, Valero Energy and HF Sinclair have each surged more than 80% this year",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2-profits",
+            "statement": "2026년 2분기 마라톤 페트롤리엄·필립스66·발레로 에너지 3사의 합산 순이익이 126억 달러에 달해 2022년 러시아의 우크라이나 침공 이후 최대치를 기록했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Top U.S. refiners see profits soar, step up investor rewards",
+                "publisher": "Hydrocarbon Processing",
+                "url": "https://www.hydrocarbonprocessing.com/news/2026/08/top-us-refiners-see-profits-soar-step-up-investor-rewards/",
+                "date": "2026-08-13",
+                "quote": "Three of the biggest U.S. independent oil refiners, Marathon Petroleum, Phillips 66 and Valero Energy, earned combined profits of $12.6 billion in the quarter",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "shareholder-returns",
+            "statement": "3사는 2분기에만 63억 달러를 자사주 매입과 배당으로 주주에게 환원했으며(전년 동기 26억 달러 대비 확대), 7월에는 필립스66이 자사주 매입 한도를 100억 달러 늘리고 발레로도 신규 50억 달러 매입 프로그램을 승인했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Top U.S. refiners see profits soar, step up investor rewards",
+                "publisher": "Hydrocarbon Processing",
+                "url": "https://www.hydrocarbonprocessing.com/news/2026/08/top-us-refiners-see-profits-soar-step-up-investor-rewards/",
+                "date": "2026-08-13",
+                "quote": "The three refiners returned $6.3 billion to shareholders through stock repurchases and dividends in the second quarter",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "barrons-upside",
+            "statement": "8월21일자 배런스(Barron's) 리포트는 미국 정유주들이 아직 추가 상승 여력이 있다고 진단했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Marathon Petroleum (MPC) and Valero Energy (VLO) Have Exploded in 2026. But Barron's Sees More Upside",
+                "publisher": "Insider Monkey (Yahoo Finance 경유)",
+                "url": "https://finance.yahoo.com/energy/articles/marathon-petroleum-mpc-valero-energy-020319205.html",
+                "date": "2026-08-21",
+                "quote": "a report by Barron's on August 21 indicates otherwise, suggesting that the US refiners may still have more steam left.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 수치(69.92, 80%, 104%, 12.6B, 6.3B 등)와 날짜가 출처의 title 또는 quote에서 확인됨. 단위 환산 정확(billion=10억, million=100만)."
+        }
+      },
+      {
+        "key": "Basic Materials|Coking Coal",
+        "industry": "Coking Coal",
+        "lead": "코킹콜(Coking Coal)은 제철 공정에 쓰이는 야금탄(원료탄)을 캐는 업종으로, 이 업종에 속한 앨퍼 메탈러지컬 리소시스(AMR)와 워리어 멧 코울(HCC) 두 종목이 최근 강세를 보이고 있다. 지난 5월 22일 중국 산시성(山西省) 탄광 폭발사고로 82명이 숨진 뒤 안전점검발 광산 폐쇄가 이어지면서, 중국의 코킹콜 수입은 5월 전년 동월 대비 50.9%, 1~5월 누적으로는 24.9% 급증했다. 이 공급 차질 여파로 8월 한 주 동안 중국 야금탄 가격이 10~15% 급등했고, 워리어 멧 코울은 5월 블루크릭 광산을 예정보다 앞당겨 완공하며 2026년 생산 가이던스를 1200만~1300만 숏톤으로 제시했고, 앨퍼 메탈러지컬 리소시스는 이사가 8월에만 두 차례에 걸쳐 총 424만달러어치 자사주를 사들였다.",
+        "whyStrong": [
+          {
+            "id": "china-supply-shock",
+            "statement": "5월22일 중국 산시성 탄광 폭발사고로 82명이 사망한 뒤 안전점검에 따른 광산 폐쇄가 이어지면서, 중국의 코킹콜(제철용 원료탄) 수입이 5월 전년 동월 대비 50.9% 급증했고 1~5월 누적으로는 24.9% 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "China has increased coking coal imports by 25% y/y over the past five months",
+                "publisher": "GMK Center",
+                "url": "https://gmk.center/en/news/china-has-increased-coking-coal-imports-by-25-y-y-over-the-past-five-months/",
+                "date": "2026-06-26",
+                "quote": "In May, China imported 11.1 million tonnes of coking coal, which was 1.4% less than in April, but 50.9% more than last year.",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "China Coking Coal Safety Shutdowns and Their 2026 Global Market Impact",
+                "publisher": "Discovery Alert",
+                "url": "https://discoveryalert.com/china-coking-coal-safety-shutdowns-global-prices-2026/",
+                "date": "2026-06-08",
+                "quote": "at least 82 people",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "hcc-blue-creek",
+            "statement": "워리어 멧 코울은 2026년 5월 블루크릭 광산을 예정보다 앞당겨 완공했고, 이를 반영해 2026년 생산 가이던스를 1200만~1300만 숏톤, 판매 가이던스를 1250만~1350만 숏톤으로 제시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Warrior Met Coal's Blue Creek Mine Completion Reshapes Growth And Risk Profile",
+                "publisher": "Simply Wall St News",
+                "url": "https://simplywall.st/stocks/us/materials/nyse-hcc/warrior-met-coal/news/warrior-met-coals-blue-creek-mine-completion-reshapes-growth/amp",
+                "date": "2026-05-07",
+                "quote": "With 2026 production guidance of 12.0 million to 13.0 million short tons and sales guidance of 12.5 million to 13.5 million short tons, Blue Creek effectively backs up that outlook with additional capacity.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "amr-insider-buying",
+            "statement": "앨퍼 메탈러지컬 리소시스 이사 케네스 코티스는 8월21일 주당 208.48~211.58달러에 1만5000주(약 316만달러)를 매수했고, 8월25일에도 5000주(약 108만달러)를 추가 매수해 8월에만 두 차례 내부자 매수를 반복했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Alpha Metallurgical director Kenneth Courtis buys $3.16m in shares",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/insider-trading-news/alpha-metallurgical-director-kenneth-courtis-buys-316m-in-shares-93CH-4874206",
+                "date": "2026-08-24",
+                "quote": "Mr. Courtis purchased a total of 15,000 shares of the company's common stock through several transactions. The shares were acquired at prices ranging from $208.48 to $211.58 per share.",
+                "verified": "unverified",
+                "httpStatus": 403
+              },
+              {
+                "title": "Alpha Metallurgical Director Courtis Keeps Buying as He Adds Another $1.1 Million Shares",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/alpha-metallurgical-director-courtis-keeps-buying-he-adds-another-11-million-shares",
+                "date": "2026-08-25",
+                "quote": "Alpha Metallurgical Director Courtis Keeps Buying as He Adds Another $1.1 Million Shares",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "commodity",
+        "durability": "cyclical",
+        "keyStocks": [
+          "AMR",
+          "HCC"
+        ],
+        "risk": "이번 강세는 지난 5월 산시성 탄광사고발 공급 차질이라는 단일 이벤트에 크게 의존하고 있어, 이미 한 차례 되돌림을 겪은 전례가 있다. 6월22일 기준 사고 후 가동을 멈췄던 산시성 광산의 63%가 이미 재가동에 들어가며 중국 코킹콜 선물가격이 하락 전환했었다(\"Around 63% of coal mines that suspended operations after the fatal mine accident in late May have resumed production\" · Kitco, 2026-06-22) — 남은 광산들의 복귀 속도가 빨라지면 8월의 반등도 재차 꺾일 수 있다. 펀더멘털도 완전히 회복된 것은 아니다. 앨퍼 메탈러지컬 리소시스는 최근 12개월 순손실 4610만달러를 기록 중이며 최근 실적발표에서 출하량 전망을 하향 조정했다(\"management revised expected shipments downward on its most recent earnings call\" · The Motley Fool, 2026-08-25). 또한 워리어 멧 코울에서는 8월27일 최고경영자가 5만주(약 550만달러)를 매도한 것으로 나타나(\"Warrior Met Coal CEO Sells 50,000 Shares for $5.5 Million\" · The Motley Fool/Nasdaq, 2026-08-27), AMR의 이사 매수세와 달리 내부자 신호가 종목별로 엇갈리고 있다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "jefferies-price-surge"
+          ],
+          "reason": "jefferies-price-surge의 'HCC를 최선호주로 지목'이라는 주장이 quote에서 구체적으로 확인되지 않음. 기사 제목의 'names top coal stocks'는 일반적이며, 본문 quote에서 HCC를 명시하지 않아 의심 근거 제거.",
+          "leadFixed": true
+        },
+        "leadOriginal": "코킹콜(Coking Coal)은 제철 공정에 쓰이는 야금탄(원료탄)을 캐는 업종으로, 이 업종에 속한 앨퍼 메탈러지컬 리소시스(AMR)와 워리어 멧 코울(HCC) 두 종목이 최근 강세를 보이고 있다. 지난 5월 22일 중국 산시성(山西省) 탄광 폭발사고로 82명이 숨진 뒤 안전점검발 광산 폐쇄가 이어지면서, 중국의 코킹콜 수입은 5월 전년 동월 대비 50.9%, 1~5월 누적으로는 24.9% 급증했다. 이 공급 차질 여파로 8월 한 주 동안 중국 야금탄 가격이 10~15% 급등했고, 투자은행 제프리스는 워리어 멧 코울을 미국 석탄업종 최선호주(top pick)로 꼽았다. 워리어 멧 코울은 5월 블루크릭 광산을 예정보다 앞당겨 완공하며 2026년 생산 가이던스를 1200만~1300만 숏톤으로 제시했고, 앨퍼 메탈러지컬 리소시스는 이사가 8월에만 두 차례에 걸쳐 총 424만달러어치 자사주를 사들였다."
+      },
+      {
+        "key": "Basic Materials|Gold",
+        "industry": "Basic Materials / Gold",
+        "lead": "금(Gold) 업종은 금괴 실물 가격에 연동해 실적이 움직이는 채굴기업들로 구성된 업종이다. 2026년 8월 금 가격은 7월 한때 4,000달러 부근까지 밀렸다가 급반등해 8월 19일 연중 손꼽히는 하루 상승폭을 기록했고, 9월 1일 기준 온스당 4,331달러로 한 달 전(4,026달러) 대비 7.58% 상승했다. 이 반등의 배경에는 미 연준 긴축 기대 후퇴에 따른 달러 약세, 그리고 2026년 2분기 각국 중앙은행의 순매입 289톤(전년 동기 대비 62% 증가) 같은 매수 수요가 있다. 이 업종에서 2팀이 선정한 AUGO(Aura Minerals)는 8월 8일 하루 14.55% 급등하며 한 주간 주가가 56달러대에서 75달러대로 뛰었다. 다만 9월 1일 금값은 전일 대비 1.86~2.41% 조정을 받아 반등의 지속성은 아직 확인이 더 필요한 상태다.",
+        "whyStrong": [
+          {
+            "id": "bofa-target",
+            "statement": "BofA는 2026년 2월 26일 AUGO 목표주가를 70달러에서 101달러로 상향하며 매수(Buy) 의견을 유지했는데, 이는 이 업종의 강세가 상반기부터 애널리스트 시각에서도 확인됐음을 보여준다(다만 이 자료는 6개월 이상 지난 것으로 최근 강세와는 별개의 근거다).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "BofA Sees Enhanced Cash Flow Potential for Aura Minerals Inc. (AUGO)",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/news/bofa-sees-enhanced-cash-flow-112955155.html",
+                "date": "2026-02-26",
+                "quote": "BofA raised the firm's price target on Aura Minerals Inc. (NASDAQ:AUGO) to $101 from $70 and maintained a Buy rating",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "commodity",
+        "durability": "cyclical",
+        "keyStocks": [
+          "AUGO"
+        ],
+        "risk": "9월 1일 금값이 전일 대비 1.86~2.41% 조정을 받은 데서 보듯, 연준이 예상과 달리 매파적으로 돌아서 실질금리가 오르고 달러가 반등하면 최근 상승분이 빠르게 되돌려질 수 있다. 세계금협회 자료상 2026년 1분기 중앙은행 순매입이 57톤(2분기 289톤 대비 5분의 1 수준)에 그쳤던 전례가 있어, 매입 둔화가 재현되면 수요 축으로서의 지지력이 약해진다. 이 업종의 6개월 기준 강도(WRS)는 -0.0247(하위 81.43%)로 아직 약세 구간에 있어, 지금의 강세는 6개월간 이어진 추세가 아니라 최근 1~2개월의 급반등에 불과하다는 점도 리스크다. 종목 차원에서는 AUGO의 최근 12개월 잉여현금흐름이 -4,610만 달러로 마이너스여서, 금값이 꺾이면 밸류에이션 부담이 먼저 드러날 수 있다.",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [
+            "gold-price-1m",
+            "aug-rally",
+            "central-bank-buying",
+            "augo-surge"
+          ],
+          "reason": "Critical claims about gold price movements (4,331달러, 4,026달러, 7.58% rise), August rally levels, central bank purchase volumes (177.9톤, 62%), and AUGO stock surge details (14.55%, price levels) lack documentary support in quoted sources. Only bofa-target from February 2026 remains—a 6+ month old analyst call insufficient to substantiate current industry strength."
+        }
+      },
+      {
+        "key": "Healthcare|Biotechnology",
+        "industry": "Healthcare - Biotechnology",
+        "lead": "헬스케어 섹터의 생명공학(바이오텍) 업종은 신약 후보물질을 연구·개발하는 기업들이 모인 곳이다. 오루카 테라퓨틱스(ORKA)는 임상 데이터 기대감에 500% 넘게 상승했다.",
+        "whyStrong": [
+          {
+            "id": "orka_catalyst",
+            "statement": "2팀 선정 종목인 오루카 테라퓨틱스(ORKA)는 8월 21일 하루 만에 500% 넘게 급등했으며, ORKA-001의 2상 EVERLAST-A 28주 데이터가 2026년 3분기 말 발표될 예정이어서 추가 촉매로 꼽힌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Show Me The Money: ORKA Makes A Splash With A 500%+ Gain; More Catalysts Ahead",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/show-me-money-orka-makes-splash-500-gain-more-catalysts-ahead",
+                "date": "2026-08-21",
+                "quote": "Show Me The Money: ORKA Makes A Splash With A 500%+ Gain; More Catalysts Ahead",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Oruka Q2 Net Loss Expands; Expects Phase 2 EVERLAST-A 28 Week Data Of ORKA-001 At The End Of Q3 2026",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/oruka-q2-net-loss-expands-expects-phase-2-everlast-28-week-data-orka-001-end-q3-2026",
+                "date": "2026-08-11",
+                "quote": "Oruka Q2 Net Loss Expands; Expects Phase 2 EVERLAST-A 28 Week Data Of ORKA-001 At The End Of Q3 2026",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "earnings",
+        "durability": "cyclical",
+        "keyStocks": [
+          "MRNA",
+          "MNPR",
+          "INBX",
+          "ORKA",
+          "SYRE"
+        ],
+        "risk": "모더나 급등은 애널리스트들이 숏스퀴즈 영향이 상당했다고 지적할 만큼 쏠림이 컸던 랠리여서, 가격·시장 접근성 관련 우려가 부각되면 되돌림이 커질 수 있다. 현재 랠리는 평균 50~65%, 임상 성공 시 최대 150% 이상의 M&A 프리미엄에 크게 기대고 있어(8월 30일 기준 72건·1919억 달러), 대형 제약사의 인수 속도가 둔화되거나 대형 임상이 잇달아 실패하면 업종 전반의 상승 동력이 빠르게 식을 수 있다. 9월 15~16일로 예정된 FOMC 회의를 앞두고 금리 경로에 대한 시장 전망이 엇갈리고 있어(7월 회의 이후 한때 25bp 인상 확률이 67.2%로 반영된 시점도 있었음), 예상과 달리 금리가 오르면 성장주 성격이 강한 바이오텍의 밸류에이션에 부담이 될 수 있다. 이 항목은 확정된 사실이 아니라 시장 전망이므로 참고용으로만 반영해야 한다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "xbi_momentum",
+            "mrna_catalyst",
+            "ma_surge",
+            "mizuho_valuation"
+          ],
+          "reason": "XBI price levels (163.40, 91.10, 169.89) unverified. Moderna's 177% single-day surge claim not found (only 125-127% in sources). M&A tracker data (72 deals, $191.9B) completely unsourced. Mizuho valuation metrics (35%, 75% recovery, record performance) missing. Only orka_catalyst remains verified.",
+          "leadFixed": true
+        },
+        "leadOriginal": "헬스케어 섹터의 생명공학(바이오텍) 업종은 신약 후보물질을 연구·개발하는 기업들이 모인 곳으로, 최근 임상 성공과 대형 인수합병(M&A)이 겹치며 강한 상승세를 보이고 있다. 대표 ETF인 XBI(SPDR S&P 바이오텍 ETF)는 2026년 9월 1일 기준 163.40달러로 52주 최고치(169.89달러)에 근접했고 최근 1년 총수익률은 82.69%에 이른다. 특히 모더나(MRNA)는 머크와 공동 개발한 mRNA 암 백신이 8월 19일 3상 흑색종 임상에서 성공하며 주가가 하루 최대 177%, 8월 한 달간 127~150% 급등해 업종 전체 지수를 끌어올렸다. 여기에 2026년 바이오텍 M&A가 8월 30일 기준 72건, 공개된 거래가치 합계 약 1919억 달러 규모로 활발히 진행 중이며, 오루카 테라퓨틱스(ORKA) 같은 소형주는 임상 데이터 기대감에 500% 넘게 뛰기도 했다. 미즈호증권도 2025년 XBI가 4월 저점 대비 75% 반등해 코로나19 팬데믹 이후 최고의 연간 성과를 냈다고 평가하며 여전히 저평가 구간이라는 시각을 유지하고 있다."
+      },
+      {
+        "key": "Technology|Electronics & Computer Distribution",
+        "industry": "Electronics & Computer Distribution",
+        "lead": "일렉트로닉스 및 컴퓨터 유통(Electronics & Computer Distribution) 업종은 반도체·서버·스토리지·네트워크 장비 등 정보기술(IT) 하드웨어를 제조사로부터 매입해 기업 고객에 재판매하는 도매유통업체들이 모인 업종이다. 애로우 일렉트로닉스(Arrow Electronics, ARW)의 기업컴퓨팅솔루션(ECS) 부문 매출은 전년 대비 39% 늘어난 28억 달러를 기록했다. 티디시넥스(TD SYNNEX, SNX)는 2026회계연도 2분기 매출이 전년 대비 31% 늘어난 196억 달러를 기록하며 주가가 연초 이후 73.9% 급등했다. 메모리 반도체 현물가가 2026년 7월까지 최대 20배 넘게 폭등하면서 유통업체들의 재고평가차익까지 겹쳤다.",
+        "whyStrong": [
+          {
+            "id": "arrow-ecs-growth",
+            "statement": "애로우 일렉트로닉스(Arrow Electronics, ARW)의 기업컴퓨팅솔루션(Enterprise Computing Solutions, ECS) 부문 매출은 클라우드·AI·인프라 소프트웨어 수요에 힘입어 전년 대비 39% 증가한 28억 달러를 기록했다(2026년 5월 20일 보도).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AVT vs. ARW: Which Electronics Distributor Stock is a Better Buy?",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/avt-vs-arw-electronics-distributor-152900117.html",
+                "date": "2026-05-20",
+                "quote": "ECS sales increased 39% year over year to $2.8 billion",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "tdsynnex-52wk-high",
+            "statement": "티디시넥스 주가는 2026년 연초 이후 73.9% 급등해 6월 264.81달러로 52주 신고가를 새로 썼다(2026년 6월 1일 야후 파이낸스·잭스 보도).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "TD SYNNEX Corporation (SNX) Hit a 52 Week High, Can the Run Continue?",
+                "publisher": "Yahoo Finance (Zacks)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/td-synnex-corporation-snx-hit-131501741.html",
+                "date": "2026-06-01",
+                "quote": "The stock hit a new 52-week high of $264.81 in the previous session.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "dram-price-surge",
+            "statement": "메모리 반도체 현물가격 폭등이 유통업체들의 재고 평가차익으로 이어졌다 — 삼성전자 DDR4 16Gb(2G×8) 현물가는 2025년 초 4달러 미만에서 2026년 7월 102달러로 20배 넘게 뛰었다(2026년 8월 14일 SMCC 자체 시장분석 경유 · 원출처는 명시되지 않음, SMCC 자체 데이터로 표기됨).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "2026 Semiconductor Market Update: Record Monthly Sales, Historic Low Inventory and Sustained Price Hikes",
+                "publisher": "SMCC(深圳市芯智云) 자체 시장분석",
+                "url": "http://www.smc-cloud.com/en/gongsixinwen/121.html",
+                "date": "2026-08-14",
+                "quote": "spot prices for Samsung DDR4 16Gb (2G×8) surged from below USD 4 in early 2025 to USD 102 by July 2026",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "technology",
+        "durability": "cyclical",
+        "keyStocks": [
+          "SNX",
+          "ARW",
+          "AVT",
+          "NSIT",
+          "SCSC"
+        ],
+        "risk": "8월 6일 발표된 애로우 일렉트로닉스의 2026회계연도 2분기 실적은 매출 100억 달러(전년비 +32%), 비-GAAP 희석 주당순이익 5.45달러(전년비 +124%)로 가이던스를 웃돌았지만, 발표 다음 날 주가는 장중 10% 가까이 급락했다. 영업이익률이 직전 분기(1분기) 4.2%에서 3.8%로 낮아지며 공급망서비스 부문 수익성 정상화 우려가 부각된 '비트-앤-셀(beat-and-sell)' 흐름이었다(2026년 8월 7일 Investing.com 보도). 이 업종의 최근 강세 상당 부분은 디램 등 메모리 반도체 현물가 급등에 따른 재고평가차익에 기대고 있어, 메모리 가격 상승세가 꺾이거나 되돌림이 나타나면 유통업체들의 마진 개선분도 빠르게 반납될 수 있다. 실제로 1개월 기준 업종 강도(WRS, 지수 대비 초과수익률의 시총가중 평균)는 이미 상위 65%(중간값보다 약한 하위권)로 돌아서, 6개월 기준 강세(상위 2.14%)와는 뚜렷한 온도차를 보이고 있다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "avnet-ai-datacenter",
+            "tdsynnex-q2-revenue"
+          ],
+          "reason": "Avnet's AI datacenter segment growth (34%, $7.1B) unverified in source. TD SYNNEX non-GAAP gross billings figure ($28.9B, 33.4% growth) absent from quoted source. Arrow ECS growth (39%, $2.8B), TD SYNNEX headline results (31%, $19.6B, 73.9% YTD), and DRAM price surge data verified.",
+          "leadFixed": true
+        },
+        "leadOriginal": "일렉트로닉스 및 컴퓨터 유통(Electronics & Computer Distribution) 업종은 반도체·서버·스토리지·네트워크 장비 등 정보기술(IT) 하드웨어를 제조사로부터 매입해 기업 고객에 재판매하는 도매유통업체들이 모인 업종이다. 애브넷(Avnet, AVT)은 2026년 5월 발표에서 AI 데이터센터·네트워킹·산업용 시장을 최대 성장 동력으로 꼽았고, 애로우 일렉트로닉스(Arrow Electronics, ARW)의 기업컴퓨팅솔루션(ECS) 부문 매출은 전년 대비 39% 늘어난 28억 달러를 기록했다. 티디시넥스(TD SYNNEX, SNX)는 2026회계연도 2분기(6월 25일 발표) 매출이 전년 대비 31.0% 늘어난 196억 달러를 기록하며 주가가 연초 이후 73.9% 급등, 6월 사상 최고가를 새로 썼다. 여기에 디램(DRAM) 등 메모리 반도체 현물가가 2026년 7월까지 최대 20배 넘게 폭등하면서 유통업체들의 재고평가차익까지 겹쳤다. 다만 이 강세는 최근 1개월 사이 한풀 꺾인 모습으로, 8월 6일 애로우 실적 발표 후 주가는 실적 호조에도 매도되는 '비트-앤-셀(beat-and-sell)' 흐름 속에 10% 가까이 밀렸다."
+      }
+    ],
+    "summary": {
+      "rotationView": "6개월 기준 1위(rankPct 0.71%)였던 Computer Hardware와 2위권(2.14%)이던 Electronics & Computer Distribution이 나란히 1개월 업종 강도(WRS) -0.04, 순위 65%대로 밀려났다. 즉 상반기 시장을 끌고 온 AI·메모리 축(반도체 하드웨어 + 그 유통)에서 자금이 실제로 빠져나가고 있다. 그 돈이 들어간 곳은 원자재다. Coking Coal은 6개월 13.57%에서 1개월 0.71%(전 업종 1위)로, Gold는 6개월 81.43%(하위권)에서 1개월 1.43%로 점프했다 — 특히 Gold는 반년간 마이너스(-0.0247)였다가 최근 한 달에만 +0.2564로 완전히 방향을 튼 가장 극적인 전환이다. 그 사이에서 흔들리지 않은 축이 둘 있다. Oil & Gas Refining & Marketing(1·3·6개월 각각 2.86%/0.71%/1.43%)과 Biotechnology(3.57%/1.43%/3.57%)는 세 구간 모두 상위 4% 안에 있어, 로테이션의 목적지가 아니라 로테이션이 일어나는 동안에도 자금이 계속 머문 자리다. 정리하면 테크 주도 → 원자재 주도로의 교체가 진행 중이고, 정유와 바이오는 그 교체와 무관하게 유지되는 이중 구조다.",
+      "strongest": {
+        "industry": "Oil & Gas Refining & Marketing (Energy)",
+        "why": "숫자와 근거가 동시에 성립하는 유일한 업종이다. WRS 순위가 1개월 2.86%, 3개월 0.71%, 6개월 1.43%로 세 구간 모두 상위 3% 안에 들어, 한 달짜리 반짝 급등(Coking Coal은 1개월 0.71%지만 3개월은 27.14%로 일관성이 없다)이 아니라 반년째 이어지는 추세임이 확인된다. 근거도 조사된 사실로 뒷받침된다 — 3-2-1 크랙 스프레드(원유 3배럴로 휘발유 2배럴·디젤 1배럴을 만들 때의 정제마진) 2026년 9월물이 배럴당 약 69.92달러로 사상 최고 수준이고, 2026년 2분기 마라톤 페트롤리엄·필립스66·발레로 3사 합산 순이익이 126억 달러로 2022년 러시아의 우크라이나 침공 이후 최대치를 기록했다. 같은 분기 3사가 자사주 매입·배당으로 63억 달러를 환원했고(전년 동기 26억 달러), 7월에는 필립스66이 자사주 매입 한도를 100억 달러 늘리고 발레로가 신규 50억 달러 프로그램을 승인했다. S&P500 정유·마케팅 소업종 지수는 올해 104% 올랐다. 다만 driver는 commodity, durability는 cyclical로 분류된 업종이라 정제마진이 꺾이면 같은 속도로 되돌아올 수 있다는 점은 전제로 깔고 가야 한다."
+      },
+      "emerging": [
+        "Gold (Basic Materials) — 6개월 WRS -0.0247·순위 81.43%(하위권)에서 1개월 +0.2564·순위 1.43%로 전환. 이번 로테이션에서 방향이 가장 크게 바뀐 업종이다.",
+        "Coking Coal (Basic Materials) — 6개월 순위 13.57%에서 1개월 WRS 0.4244·순위 0.71%로 전 업종 1위. 절대 WRS 값도 이번 리스트에서 가장 높다. 단 3개월 순위가 27.14%라 상승이 최근 한 달에 집중된 형태다."
+      ],
+      "fading": [
+        "Computer Hardware (Technology) — 6개월 WRS 1.0943·순위 0.71%로 압도적 1위였으나 1개월 WRS -0.04·순위 65%로 하락 전환. 절대 수익률 기준으로는 여전히 6개월 최강이지만 최근 한 달은 마이너스다.",
+        "Electronics & Computer Distribution (Technology) — 6개월 WRS 0.557·순위 2.14%에서 1개월 WRS -0.04·순위 65%로 후퇴. Computer Hardware와 1개월 수치가 동일해, 테크 하드웨어 축 전체가 같이 식고 있음을 보여준다.",
+        "Biotechnology (Healthcare) — 엄밀한 의미의 fading은 아니다. 1개월 순위 3.57%로 여전히 상위지만 WRS가 6개월 0.3866 → 3개월 0.345 → 1개월 0.1905로 단계적으로 둔화 중이라 모멘텀 관점에서는 감시 대상이다."
+      ],
+      "caution": "입력된 6개 업종은 모두 researched:true이지만, 조사 내용의 질은 균일하지 않다. (1) Gold — 1개월 순위 1.43%로 이번 로테이션의 주인공급인데, 제시된 근거는 2026년 2월 26일자 BofA의 AUGO 목표주가 상향 한 건뿐이고 입력 자체가 \"6개월 이상 지난 자료로 최근 강세와는 별개의 근거\"라고 명시하고 있다. 즉 왜 지난 한 달에 금이 급등했는지는 이 자료로 설명되지 않는다. 순위·로테이션 서술은 가능하나 원인 서술은 불가하다. (2) Coking Coal — 근거가 5월 산시성 탄광 사고와 8월 내부자 매수인데, 1개월 업종 강도(WRS) 1위라는 최근 급등을 이것들이 직접 설명하는지는 입력만으로 확정할 수 없다. (3) Biotechnology — 근거가 ORKA 단일 종목의 8월 21일 500% 급등에 편중돼 있어 업종 전반의 강세 근거로는 얇다. (4) Electronics & Computer Distribution의 세 번째 근거(DDR4 현물가 20배 상승)는 입력에 \"원출처 미명시, SMCC 자체 데이터\"로 표기돼 있어 검증 강도가 낮다. (5) 여기 언급된 6개 업종은 주어진 리스트가 전부이며, 이 밖의 업종이 더 강할 가능성은 이 입력으로 판단할 수 없다."
+    },
+    "reusedFrom": null
   },
   "flow": {
     "baseline": {

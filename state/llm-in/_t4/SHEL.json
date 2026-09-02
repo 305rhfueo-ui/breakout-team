@@ -1,0 +1,106 @@
+{
+ "ticker": "SHEL",
+ "news": [
+  {
+   "title": "Shell's CEO Warned Oil Prices Would Keep Rising. Hormuz Talks Are Testing That Call. Here's What It Means for SHEL Stock.",
+   "url": "https://www.nasdaq.com/articles/shells-ceo-warned-oil-prices-would-keep-rising-hormuz-talks-are-testing-call-heres-what-it",
+   "date": "2026-08-27",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "SHEL",
+    "SHEL"
+   ]
+  },
+  {
+   "title": "Shell (SHEL) is a Top-Ranked Value Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/shell-shel-top-ranked-value-stock-should-you-buy",
+   "date": "2026-08-24",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "SHEL"
+   ]
+  },
+  {
+   "title": "HF Sinclair Plans Lubricants Spin-Off: Is it a Value-Unlocking Move?",
+   "url": "https://www.nasdaq.com/articles/hf-sinclair-plans-lubricants-spin-it-value-unlocking-move",
+   "date": "2026-09-01",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "DINO",
+    "E",
+    "SHEL"
+   ]
+  },
+  {
+   "title": "What XOM's Q2 Earnings Say About Production Growth and Market Risk",
+   "url": "https://www.nasdaq.com/articles/what-xoms-q2-earnings-say-about-production-growth-and-market-risk",
+   "date": "2026-08-31",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "XOM",
+    "CVX",
+    "SHEL"
+   ]
+  },
+  {
+   "title": "Is Occidental Petroleum a Bargain or a Value Trap Right Now?",
+   "url": "https://www.nasdaq.com/articles/occidental-petroleum-bargain-or-value-trap-right-now",
+   "date": "2026-08-31",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "OXY",
+    "OXY",
+    "SHEL"
+   ]
+  },
+  {
+   "title": "Shell's $8B Chemicals Exit Signals a Sharper Oil and Gas Focus",
+   "url": "https://www.nasdaq.com/articles/shells-8b-chemicals-exit-signals-sharper-oil-and-gas-focus",
+   "date": "2026-08-25",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "SHEL",
+    "XOM",
+    "LYB"
+   ]
+  },
+  {
+   "title": "ExxonMobil Is Eyeing a Potential $8 Billion Bet on Shell's U.S. Chemical Plants. Here's What It Means for XOM Stock.",
+   "url": "https://www.nasdaq.com/articles/exxonmobil-eyeing-potential-8-billion-bet-shells-us-chemical-plants-heres-what-it-means",
+   "date": "2026-08-24",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "XOM",
+    "XOM",
+    "SHEL"
+   ]
+  },
+  {
+   "title": "Chevron vs. Shell: Which Energy Major Offers a Better Bet?",
+   "url": "https://www.nasdaq.com/articles/chevron-vs-shell-which-energy-major-offers-better-bet",
+   "date": "2026-08-24",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "CVX",
+    "SHEL"
+   ]
+  }
+ ],
+ "filings": []
+}

@@ -1,0 +1,198 @@
+{
+ "ticker": "TXNM",
+ "news": [
+  {
+   "title": "Cash Dividend On The Way From TXNM Energy",
+   "url": "https://www.nasdaq.com/articles/cash-dividend-way-txnm-energy",
+   "date": "2026-07-31",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "TXNM",
+    "TXNM",
+    "EVNT"
+   ]
+  },
+  {
+   "title": "TXNM Energy Inc. Profit Climbs In Q2",
+   "url": "https://www.nasdaq.com/articles/txnm-energy-inc-profit-climbs-q2",
+   "date": "2026-07-31",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "TXNM"
+   ]
+  },
+  {
+   "title": "TXNM Crosses Critical Technical Indicator",
+   "url": "https://www.nasdaq.com/articles/txnm-crosses-critical-technical-indicator",
+   "date": "2026-06-09",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "TXNM"
+   ]
+  },
+  {
+   "title": "Notable Two Hundred Day Moving Average Cross - TXNM",
+   "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-txnm",
+   "date": "2026-06-08",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "TXNM"
+   ]
+  },
+  {
+   "title": "TXNM Energy Inc. Q1 Profit Declines",
+   "url": "https://www.nasdaq.com/articles/txnm-energy-inc-q1-profit-declines",
+   "date": "2026-05-01",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "TXNM"
+   ]
+  },
+  {
+   "title": "TXNM Energy Inc. Full Year Profit Declines",
+   "url": "https://www.nasdaq.com/articles/txnm-energy-inc-full-year-profit-declines",
+   "date": "2026-02-27",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "TXNM"
+   ]
+  },
+  {
+   "title": "FERC Approves Acquisition Of TXNM Energy By Blackstone Infrastructure",
+   "url": "https://www.nasdaq.com/articles/ferc-approves-acquisition-txnm-energy-blackstone-infrastructure",
+   "date": "2026-02-22",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "BX",
+    "BX",
+    "TXNM"
+   ]
+  },
+  {
+   "title": "TXNM Energy Stock Hits Records as One Fund Builds an $8 Million Position",
+   "url": "https://www.nasdaq.com/articles/txnm-energy-stock-hits-records-one-fund-builds-8-million-position",
+   "date": "2025-12-22",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "TXNM",
+    "TXNM"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-19",
+   "reportDate": "2026-08-19",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1108426/000110842626000050/pnm-20260819.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-31",
+   "reportDate": "2026-07-31",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1108426/000110842626000046/pnm-20260731.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-21",
+   "reportDate": "2026-07-21",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1108426/000110842626000044/pnm-20260721.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-20",
+   "reportDate": "2026-07-17",
+   "items": [
+    "1.01",
+    "2.03",
+    "7.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1108426/000110842626000042/pnm-20260717.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-06",
+   "reportDate": "2026-07-06",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1108426/000110842626000040/pnm-20260706.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-11",
+   "reportDate": "2026-06-11",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1108426/000110842626000033/pnm-20260611.htm",
+   "description": "8-K"
+  }
+ ]
+}

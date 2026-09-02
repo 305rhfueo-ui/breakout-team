@@ -1,0 +1,196 @@
+{
+ "ticker": "DDS",
+ "news": [
+  {
+   "title": "Here's Why Dillard's (DDS) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-dillards-dds-strong-momentum-stock",
+   "date": "2026-08-19",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DDS"
+   ]
+  },
+  {
+   "title": "2 Top Stocks to Buy After Crushing Earnings Expectations: Dillard's (DDS) and Lenovo (LNVGY)",
+   "url": "https://www.nasdaq.com/articles/2-top-stocks-buy-after-crushing-earnings-expectations-dillards-dds-and-lenovo-lnvgy",
+   "date": "2026-08-17",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DDS"
+   ]
+  },
+  {
+   "title": "Dillard's (DDS) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/dillards-dds-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-08-13",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DDS"
+   ]
+  },
+  {
+   "title": "Dillard's (DDS) Beats Q2 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/dillards-dds-beats-q2-earnings-estimates",
+   "date": "2026-08-13",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DDS",
+    "KSS"
+   ]
+  },
+  {
+   "title": "Dillard's Breaks Above 200-Day Moving Average - Bullish for DDS",
+   "url": "https://www.nasdaq.com/articles/dillards-breaks-above-200-day-moving-average-bullish-dds",
+   "date": "2026-07-30",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DDS"
+   ]
+  },
+  {
+   "title": "Is The Cheesecake Factory (CAKE) Stock Outpacing Its Retail-Wholesale Peers This Year?",
+   "url": "https://www.nasdaq.com/articles/cheesecake-factory-cake-stock-outpacing-its-retail-wholesale-peers-year-0",
+   "date": "2026-08-24",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "CAKE",
+    "DDS"
+   ]
+  },
+  {
+   "title": "Zacks Investment Ideas feature highlights: Dillard's and Lenovo",
+   "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-dillards-and-lenovo",
+   "date": "2026-08-18",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "DDS"
+   ]
+  },
+  {
+   "title": "Why Dillard's Stock Dipped Today",
+   "url": "https://www.nasdaq.com/articles/why-dillards-stock-dipped-today",
+   "date": "2026-08-13",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "DDS",
+    "DDS"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-13",
+   "reportDate": "2026-08-13",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/28917/000002891726000024/dds-20260813x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-04",
+   "items": [
+    "2.01",
+    "3.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.01",
+    "3.02",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/28917/000110465926070529/tm2616894d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-05-28",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/28917/000002891726000015/dds-20260514x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-14",
+   "reportDate": "2026-05-14",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/28917/000002891726000009/dds-20260514x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-20",
+   "reportDate": "2026-03-20",
+   "items": [
+    "1.01",
+    "3.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "3.02",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/28917/000110465926032749/tm269181d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-24",
+   "reportDate": "2026-02-24",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/28917/000002891726000002/dds-20260224x8k.htm",
+   "description": "8-K"
+  }
+ ]
+}

@@ -4,7 +4,7 @@
  "industry": "Household & Personal Products",
  "nameKo": "엘프 뷰티",
  "detail": {
-  "fetchedAt": "2026-09-01",
+  "fetchedAt": "2026-09-02",
   "nameKo": "엘프 뷰티",
   "nameEn": "E L F BEAUTY INC",
   "infomaxCode": "NYS:ELF",
@@ -140,12 +140,12 @@
      ]
     },
     {
-     "title": "e.l.f. Beauty (ELF) Q1 2027 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/elf-beauty-elf-q1-2027-earnings-call-transcript",
-     "date": "2026-08-13",
+     "title": "e.l.f. Beauty Stock: Buy or Sell?",
+     "url": "https://www.nasdaq.com/articles/elf-beauty-stock-buy-or-sell",
+     "date": "2026-09-01",
      "publisher": "The Motley Fool",
      "tier1": false,
-     "direct": true,
+     "direct": false,
      "tickers": [
       "ELF",
       "ELF"
@@ -190,7 +190,7 @@
      ]
     }
    ],
-   "directCount": 5,
+   "directCount": 4,
    "total": 12,
    "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
   },

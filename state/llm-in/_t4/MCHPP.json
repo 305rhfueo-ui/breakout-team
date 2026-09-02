@@ -1,0 +1,195 @@
+{
+ "ticker": "MCHPP",
+ "news": [
+  {
+   "title": "Microchip Technology Incorporated - Preferred Stock (MCHPP) Price Target Increased by 27.80% to 97.63",
+   "url": "https://www.nasdaq.com/articles/microchip-technology-incorporated-preferred-stock-mchpp-price-target-increased-2780-9763",
+   "date": "2026-05-14",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "MCHPP"
+   ]
+  },
+  {
+   "title": "Barclays Initiates Coverage of Microchip Technology Incorporated - Preferred Stock (MCHPP) with Equal-Weight Recommendation",
+   "url": "https://www.nasdaq.com/articles/barclays-initiates-coverage-microchip-technology-incorporated-preferred-stock-mchpp-equal",
+   "date": "2026-02-14",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "MCHPP"
+   ]
+  },
+  {
+   "title": "Cantor Fitzgerald Upgrades Microchip Technology Incorporated - Preferred Stock (MCHPP)",
+   "url": "https://www.nasdaq.com/articles/cantor-fitzgerald-upgrades-microchip-technology-incorporated-preferred-stock-mchpp",
+   "date": "2025-12-16",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "MCHPP"
+   ]
+  },
+  {
+   "title": "B of A Securities Maintains Microchip Technology Incorporated - Preferred Stock (MCHPP) Neutral Recommendation",
+   "url": "https://www.nasdaq.com/articles/b-securities-maintains-microchip-technology-incorporated-preferred-stock-mchpp-neutral",
+   "date": "2025-12-06",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "MCHPP"
+   ]
+  },
+  {
+   "title": "Needham Maintains Microchip Technology Incorporated - Preferred Stock (MCHPP) Buy Recommendation",
+   "url": "https://www.nasdaq.com/articles/needham-maintains-microchip-technology-incorporated-preferred-stock-mchpp-buy-0",
+   "date": "2025-12-05",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "MCHPP"
+   ]
+  },
+  {
+   "title": "Rosenblatt Maintains Microchip Technology Incorporated - Preferred Stock (MCHPP) Buy Recommendation",
+   "url": "https://www.nasdaq.com/articles/rosenblatt-maintains-microchip-technology-incorporated-preferred-stock-mchpp-buy",
+   "date": "2025-12-04",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "MCHPP"
+   ]
+  },
+  {
+   "title": "Wells Fargo Maintains Microchip Technology Incorporated - Preferred Stock (MCHPP) Equal-Weight Recommendation",
+   "url": "https://www.nasdaq.com/articles/wells-fargo-maintains-microchip-technology-incorporated-preferred-stock-mchpp-equal-weight",
+   "date": "2025-11-08",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "MCHPP"
+   ]
+  },
+  {
+   "title": "Truist Securities Reiterates Microchip Technology Incorporated - Preferred Stock (MCHPP) Hold Recommendation",
+   "url": "https://www.nasdaq.com/articles/truist-securities-reiterates-microchip-technology-incorporated-preferred-stock-mchpp-hold",
+   "date": "2025-11-08",
+   "publisher": "Fintel",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "MCHPP"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-19",
+   "reportDate": "2026-08-18",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000042/mchp-20260818.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000037/mchp-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "reportDate": "2026-07-23",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000031/mchp-20260723.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-05-28",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000020/mchp-20260528.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000012/mchp-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-11",
+   "reportDate": "2026-02-09",
+   "items": [
+    "1.01",
+    "2.03",
+    "3.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "3.02",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/827054/000119312526046713/d18435d8k.htm",
+   "description": "8-K"
+  }
+ ]
+}

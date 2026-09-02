@@ -1,5 +1,5 @@
 {
- "date": "2026-09-01",
+ "date": "2026-09-02",
  "cap": 6,
  "industries": [
   {
@@ -13,23 +13,24 @@
     "m6": 8
    },
    "wrs": {
-    "m1": 0.0692,
-    "m3": -0.0429,
-    "m6": 1.2232
+    "m1": -0.04,
+    "m3": 0.0441,
+    "m6": 1.0943
    },
    "final": {
-    "m1": 0.1154,
-    "m3": -0.0064,
-    "m6": 0.5613
+    "m1": 0.0191,
+    "m3": 0.0451,
+    "m6": 0.5231
    },
    "rankPct": {
-    "m1": 19.42,
-    "m3": 77.7,
-    "m6": 0.72
+    "m1": 65,
+    "m3": 42.14,
+    "m6": 0.71
    },
    "members": [
     "DELL",
     "SNDK",
+    "SMCIP",
     "STX"
    ],
    "memberNews": [
@@ -109,19 +110,19 @@
     "m6": 7
    },
    "wrs": {
-    "m1": 0.1368,
-    "m3": 0.3455,
-    "m6": 0.623
+    "m1": 0.1974,
+    "m3": 0.4133,
+    "m6": 0.5918
    },
    "final": {
-    "m1": 0.1117,
-    "m3": 0.263,
-    "m6": 0.3961
+    "m1": 0.1577,
+    "m3": 0.2945,
+    "m6": 0.3715
    },
    "rankPct": {
-    "m1": 7.91,
-    "m3": 0.72,
-    "m6": 1.44
+    "m1": 2.86,
+    "m3": 0.71,
+    "m6": 1.43
    },
    "members": [],
    "memberNews": []
@@ -137,19 +138,19 @@
     "m6": 2
    },
    "wrs": {
-    "m1": 0.4505,
-    "m3": 0.0293,
-    "m6": 0.3361
+    "m1": 0.4244,
+    "m3": 0.0941,
+    "m6": 0.2525
    },
    "final": {
-    "m1": 0.1371,
-    "m3": 0.0362,
-    "m6": 0.1041
+    "m1": 0.1322,
+    "m3": 0.0518,
+    "m6": 0.0861
    },
    "rankPct": {
-    "m1": 0.72,
-    "m3": 53.96,
-    "m6": 8.63
+    "m1": 0.71,
+    "m3": 27.14,
+    "m6": 13.57
    },
    "members": [
     "AMR",
@@ -211,19 +212,19 @@
     "m6": 8
    },
    "wrs": {
-    "m1": 0.3747,
-    "m3": 0.2001,
-    "m6": 0.0196
+    "m1": 0.2564,
+    "m3": 0.2167,
+    "m6": -0.0247
    },
    "final": {
-    "m1": 0.2952,
-    "m3": 0.2083,
-    "m6": 0.0791
+    "m1": 0.2339,
+    "m3": 0.2184,
+    "m6": 0.0133
    },
    "rankPct": {
-    "m1": 1.44,
-    "m3": 10.79,
-    "m6": 66.19
+    "m1": 1.43,
+    "m3": 4.29,
+    "m6": 81.43
    },
    "members": [
     "AUGO"
@@ -253,32 +254,116 @@
    ]
   },
   {
-   "key": "Healthcare|Health Information Services",
+   "key": "Healthcare|Biotechnology",
    "sector": "Healthcare",
-   "industry": "Health Information Services",
-   "count": 6,
+   "industry": "Biotechnology",
+   "count": 55,
    "counts": {
-    "m1": 6,
-    "m3": 6,
-    "m6": 6
+    "m1": 55,
+    "m3": 55,
+    "m6": 55
    },
    "wrs": {
-    "m1": 0.1784,
-    "m3": 0.3252,
-    "m6": 0.2847
+    "m1": 0.1905,
+    "m3": 0.345,
+    "m6": 0.3866
    },
    "final": {
-    "m1": 0.1069,
-    "m3": 0.1781,
-    "m6": 0.2268
+    "m1": 0.1933,
+    "m3": 0.3602,
+    "m6": 0.376
    },
    "rankPct": {
-    "m1": 4.32,
-    "m3": 1.44,
-    "m6": 12.95
+    "m1": 3.57,
+    "m3": 1.43,
+    "m6": 3.57
    },
-   "members": [],
-   "memberNews": []
+   "members": [
+    "MRNA",
+    "MNPR",
+    "INBX",
+    "ORKA",
+    "SYRE"
+   ],
+   "memberNews": [
+    {
+     "ticker": "MRNA",
+     "date": "2026-08-30",
+     "publisher": "The Motley Fool",
+     "title": "Is It Too Late to Buy Moderna Stock After Its 127% Surge?",
+     "url": "https://www.nasdaq.com/articles/it-too-late-buy-moderna-stock-after-its-127-surge"
+    },
+    {
+     "ticker": "MRNA",
+     "date": "2026-08-28",
+     "publisher": "RTTNews",
+     "title": "Moderna Stock Falls 6% On Announcement Of $2.6 Bln Private Offering Of Convertible Senior Notes",
+     "url": "https://www.nasdaq.com/articles/moderna-stock-falls-6-announcement-26-bln-private-offering-convertible-senior-notes"
+    },
+    {
+     "ticker": "MNPR",
+     "date": "2026-08-20",
+     "publisher": "BNK Invest",
+     "title": "MNPR Crosses Above Average Analyst Target",
+     "url": "https://www.nasdaq.com/articles/mnpr-crosses-above-average-analyst-target"
+    },
+    {
+     "ticker": "MNPR",
+     "date": "2026-08-19",
+     "publisher": "RTTNews",
+     "title": "MNPR Names New Medical Affairs Head As ALXN1840 Advances Toward FDA Decision",
+     "url": "https://www.nasdaq.com/articles/mnpr-names-new-medical-affairs-head-alxn1840-advances-toward-fda-decision"
+    },
+    {
+     "ticker": "MNPR",
+     "date": "2026-08-12",
+     "publisher": "RTTNews",
+     "title": "Monopar Q2 Net Loss Widens; Rolling NDA Submission For ALXN1840 In Wilson Disease Underway",
+     "url": "https://www.nasdaq.com/articles/monopar-q2-net-loss-widens-rolling-nda-submission-alxn1840-wilson-disease-underway"
+    },
+    {
+     "ticker": "ORKA",
+     "date": "2026-08-21",
+     "publisher": "RTTNews",
+     "title": "Show Me The Money: ORKA Makes A Splash With A 500%+ Gain; More Catalysts Ahead",
+     "url": "https://www.nasdaq.com/articles/show-me-money-orka-makes-splash-500-gain-more-catalysts-ahead"
+    },
+    {
+     "ticker": "ORKA",
+     "date": "2026-08-11",
+     "publisher": "RTTNews",
+     "title": "Oruka Q2 Net Loss Expands; Expects Phase 2 EVERLAST-A 28 Week Data Of ORKA-001 At The End Of Q3 2026",
+     "url": "https://www.nasdaq.com/articles/oruka-q2-net-loss-expands-expects-phase-2-everlast-28-week-data-orka-001-end-q3-2026"
+    },
+    {
+     "ticker": "ORKA",
+     "date": "2026-06-27",
+     "publisher": "The Motley Fool",
+     "title": "Oruka Stock Is Now Up Nearly 700%. Here's What a $687,000 Insider Sale Could Mean",
+     "url": "https://www.nasdaq.com/articles/oruka-stock-now-nearly-700-heres-what-687000-insider-sale-could-mean"
+    },
+    {
+     "ticker": "SYRE",
+     "date": "2026-08-26",
+     "publisher": "RTTNews",
+     "title": "Spyre's SPY072 Shows Mixed Efficacy In Phase 2 RA Study, Fails Internal Bar For Monotherapy",
+     "url": "https://www.nasdaq.com/articles/spyres-spy072-shows-mixed-efficacy-phase-2-ra-study-fails-internal-bar-monotherapy"
+    },
+    {
+     "ticker": "SYRE",
+     "date": "2026-08-24",
+     "publisher": "Zacks",
+     "title": "Is SYRE a Buy Now as Clinical Catalysts Clash With Valuation Risk?",
+     "url": "https://www.nasdaq.com/articles/syre-buy-now-clinical-catalysts-clash-valuation-risk"
+    },
+    {
+     "ticker": "SYRE",
+     "date": "2026-08-24",
+     "publisher": "Zacks",
+     "title": "Can Spyre's SPY772 HS Study Broaden Its Growth Story Beyond Core IBD?",
+     "url": "https://www.nasdaq.com/articles/can-spyres-spy772-hs-study-broaden-its-growth-story-beyond-core-ibd"
+    }
+   ]
   },
   {
    "key": "Technology|Electronics & Computer Distribution",
@@ -291,19 +376,19 @@
     "m6": 5
    },
    "wrs": {
-    "m1": 0.0021,
-    "m3": -0.0322,
-    "m6": 0.5727
+    "m1": -0.04,
+    "m3": 0.007,
+    "m6": 0.557
    },
    "final": {
-    "m1": 0.0151,
-    "m3": 0.0163,
-    "m6": 0.2862
+    "m1": -0.0014,
+    "m3": 0.0553,
+    "m6": 0.2852
    },
    "rankPct": {
-    "m1": 55.4,
-    "m3": 72.66,
-    "m6": 2.16
+    "m1": 65,
+    "m3": 57.14,
+    "m6": 2.14
    },
    "members": [],
    "memberNews": []

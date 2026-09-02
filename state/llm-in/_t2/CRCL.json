@@ -4,7 +4,7 @@
  "industry": "Capital Markets",
  "nameKo": "서클 인터넷 그룹",
  "detail": {
-  "fetchedAt": "2026-09-01",
+  "fetchedAt": "2026-09-02",
   "nameKo": "서클 인터넷 그룹",
   "nameEn": "CIRCLE INTERNET GROUP INC.",
   "infomaxCode": "NYS:CRCL",
@@ -102,13 +102,15 @@
      ]
     },
     {
-     "title": "Circle Internet Group Targets Trillions in USDC Growth as Arc Mainnet Nears",
-     "url": "https://www.nasdaq.com/articles/circle-internet-group-targets-trillions-usdc-growth-arc-mainnet-nears",
-     "date": "2026-08-20",
-     "publisher": "MarketBeat",
+     "title": "Coinbase Powers Webull's Crypto Trading Expansion in Canada",
+     "url": "https://www.nasdaq.com/articles/coinbase-powers-webulls-crypto-trading-expansion-canada",
+     "date": "2026-09-01",
+     "publisher": "Zacks",
      "tier1": false,
-     "direct": true,
+     "direct": false,
      "tickers": [
+      "COIN",
+      "HOOD",
       "CRCL"
      ]
     },
@@ -151,7 +153,7 @@
      ]
     }
    ],
-   "directCount": 2,
+   "directCount": 1,
    "total": 5,
    "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
   },
