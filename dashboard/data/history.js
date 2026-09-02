@@ -1,6 +1,15 @@
 window.HISTORY_DATA = {
   "runs": [
     {
+      "date": "2026-09-03",
+      "qqq": "red",
+      "finraYoY": 38.6,
+      "picks": 37,
+      "breakouts": 11,
+      "chartCheck": 10,
+      "theme": "Technology 16종목(43.2%) · Healthcare 10종목(27%) · Biotechnology 6종목(16.2%)"
+    },
+    {
       "date": "2026-09-02",
       "qqq": "red",
       "finraYoY": 38.6,

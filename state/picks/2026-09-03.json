@@ -1,0 +1,251 @@
+{
+  "date": "2026-09-03",
+  "count": 37,
+  "tickers": [
+    "MRNA",
+    "MGRT",
+    "AGL",
+    "TEAM",
+    "ELF",
+    "MXL",
+    "AMR",
+    "MNPR",
+    "INBX",
+    "DELL",
+    "TWST",
+    "BAND",
+    "CRCL",
+    "ANF",
+    "ORKA",
+    "TARS",
+    "WGS",
+    "PENG",
+    "XMTR",
+    "KYMR",
+    "SNDK",
+    "AUGO",
+    "EAT",
+    "HCC",
+    "FET",
+    "MU",
+    "ESTC",
+    "MRVL",
+    "QLYS",
+    "ALAB",
+    "MLAB",
+    "CTRN",
+    "ATEX",
+    "GWRE",
+    "NUTX",
+    "FROG",
+    "STX"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": true
+  },
+  "themes": [
+    {
+      "key": "Sector:Technology",
+      "level": "Sector",
+      "name": "Technology",
+      "count": 16,
+      "sharePct": 43.2,
+      "tickers": [
+        "MGRT",
+        "TEAM",
+        "MXL",
+        "DELL",
+        "BAND",
+        "PENG",
+        "SNDK",
+        "MU",
+        "ESTC",
+        "MRVL",
+        "QLYS",
+        "ALAB",
+        "MLAB",
+        "GWRE",
+        "FROG",
+        "STX"
+      ],
+      "concentration": "high"
+    },
+    {
+      "key": "Sector:Healthcare",
+      "level": "Sector",
+      "name": "Healthcare",
+      "count": 10,
+      "sharePct": 27,
+      "tickers": [
+        "MRNA",
+        "AGL",
+        "MNPR",
+        "INBX",
+        "TWST",
+        "ORKA",
+        "TARS",
+        "WGS",
+        "KYMR",
+        "NUTX"
+      ],
+      "concentration": "high"
+    },
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 6,
+      "sharePct": 16.2,
+      "tickers": [
+        "MRNA",
+        "MNPR",
+        "INBX",
+        "ORKA",
+        "TARS",
+        "KYMR"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Software - Application",
+      "level": "Industry",
+      "name": "Software - Application",
+      "count": 4,
+      "sharePct": 10.8,
+      "tickers": [
+        "TEAM",
+        "ESTC",
+        "GWRE",
+        "FROG"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Semiconductors",
+      "level": "Industry",
+      "name": "Semiconductors",
+      "count": 4,
+      "sharePct": 10.8,
+      "tickers": [
+        "MXL",
+        "MU",
+        "MRVL",
+        "ALAB"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Sector:Basic Materials",
+      "level": "Sector",
+      "name": "Basic Materials",
+      "count": 3,
+      "sharePct": 8.1,
+      "tickers": [
+        "AMR",
+        "AUGO",
+        "HCC"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Sector:Consumer Cyclical",
+      "level": "Sector",
+      "name": "Consumer Cyclical",
+      "count": 3,
+      "sharePct": 8.1,
+      "tickers": [
+        "ANF",
+        "EAT",
+        "CTRN"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Computer Hardware",
+      "level": "Industry",
+      "name": "Computer Hardware",
+      "count": 3,
+      "sharePct": 8.1,
+      "tickers": [
+        "DELL",
+        "SNDK",
+        "STX"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Information Technology Services",
+      "level": "Industry",
+      "name": "Information Technology Services",
+      "count": 2,
+      "sharePct": 5.4,
+      "tickers": [
+        "MGRT",
+        "PENG"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Medical Care Facilities",
+      "level": "Industry",
+      "name": "Medical Care Facilities",
+      "count": 2,
+      "sharePct": 5.4,
+      "tickers": [
+        "AGL",
+        "NUTX"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Coking Coal",
+      "level": "Industry",
+      "name": "Coking Coal",
+      "count": 2,
+      "sharePct": 5.4,
+      "tickers": [
+        "AMR",
+        "HCC"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Diagnostics & Research",
+      "level": "Industry",
+      "name": "Diagnostics & Research",
+      "count": 2,
+      "sharePct": 5.4,
+      "tickers": [
+        "TWST",
+        "WGS"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Software - Infrastructure",
+      "level": "Industry",
+      "name": "Software - Infrastructure",
+      "count": 2,
+      "sharePct": 5.4,
+      "tickers": [
+        "BAND",
+        "QLYS"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Apparel Retail",
+      "level": "Industry",
+      "name": "Apparel Retail",
+      "count": 2,
+      "sharePct": 5.4,
+      "tickers": [
+        "ANF",
+        "CTRN"
+      ],
+      "concentration": "low"
+    }
+  ]
+}
