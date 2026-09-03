@@ -4,7 +4,7 @@
  "industry": "Gold",
  "nameKo": "오라 미네랄스",
  "detail": {
-  "fetchedAt": "2026-09-02",
+  "fetchedAt": "2026-09-03",
   "nameKo": "오라 미네랄스",
   "nameEn": "AURA MINERALS INC (VG)",
   "infomaxCode": "NAS:AUGO",
@@ -13,6 +13,19 @@
    "ok": true,
    "ticker": "AUGO",
    "items": [
+    {
+     "title": "Wednesday 9/2 Insider Buying Report: AUGO, FTCI",
+     "url": "https://www.nasdaq.com/articles/wednesday-9-2-insider-buying-report-augo-ftci",
+     "date": "2026-09-02",
+     "publisher": "BNK Invest",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "AUGO",
+      "AUGO",
+      "FTCI"
+     ]
+    },
     {
      "title": "Wednesday 8/19 Insider Buying Report: AUGO, CODI",
      "url": "https://www.nasdaq.com/articles/wednesday-8-19-insider-buying-report-augo-codi",
@@ -94,21 +107,9 @@
      "tickers": [
       "AUGO"
      ]
-    },
-    {
-     "title": "Wheaton Precious Metals Corp. (WPM) Earnings Expected to Grow: Should You Buy?",
-     "url": "https://www.nasdaq.com/articles/wheaton-precious-metals-corp-wpm-earnings-expected-grow-should-you-buy",
-     "date": "2026-07-30",
-     "publisher": "Zacks",
-     "tier1": false,
-     "direct": false,
-     "tickers": [
-      "WPM",
-      "AUGO"
-     ]
     }
    ],
-   "directCount": 7,
+   "directCount": 8,
    "total": 9,
    "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
   },

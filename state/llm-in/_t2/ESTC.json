@@ -4,7 +4,7 @@
  "industry": "Software - Application",
  "nameKo": "엘라스틱",
  "detail": {
-  "fetchedAt": "2026-09-02",
+  "fetchedAt": "2026-09-03",
   "nameKo": "엘라스틱",
   "nameEn": "ELASTIC N V",
   "infomaxCode": "NYS:ESTC",
@@ -90,6 +90,17 @@
    "ticker": "ESTC",
    "items": [
     {
+     "title": "Can Elastic (ESTC) Run Higher on Rising Earnings Estimates?",
+     "url": "https://www.nasdaq.com/articles/can-elastic-estc-run-higher-rising-earnings-estimates",
+     "date": "2026-09-02",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "ESTC"
+     ]
+    },
+    {
      "title": "Is Elastic (ESTC) Stock Outpacing Its Computer and Technology Peers This Year?",
      "url": "https://www.nasdaq.com/articles/elastic-estc-stock-outpacing-its-computer-and-technology-peers-year",
      "date": "2026-09-01",
@@ -169,20 +180,9 @@
       "ESTC",
       "DOCU"
      ]
-    },
-    {
-     "title": "Elastic (ESTC) is a Top-Ranked Momentum Stock: Should You Buy?",
-     "url": "https://www.nasdaq.com/articles/elastic-estc-top-ranked-momentum-stock-should-you-buy",
-     "date": "2026-08-27",
-     "publisher": "Zacks",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "ESTC"
-     ]
     }
    ],
-   "directCount": 11,
+   "directCount": 10,
    "total": 11,
    "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
   },

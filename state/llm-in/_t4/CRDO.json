@@ -1,0 +1,199 @@
+{
+ "ticker": "CRDO",
+ "news": [
+  {
+   "title": "Credo Technology Group Holding Ltd. (CRDO) Q1 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/credo-technology-group-holding-ltd-crdo-q1-earnings-and-revenues-beat-estimates",
+   "date": "2026-09-01",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "CRDO",
+    "AMBA"
+   ]
+  },
+  {
+   "title": "Noteworthy Tuesday Option Activity: ALTG, CRDO, STEP",
+   "url": "https://www.nasdaq.com/articles/noteworthy-tuesday-option-activity-altg-crdo-step",
+   "date": "2026-09-01",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "ALTG",
+    "ALTG",
+    "CRDO"
+   ]
+  },
+  {
+   "title": "Wall Street Analysts Believe Credo Technology Group (CRDO) Could Rally 28.17%: Here's is How to Trade",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-credo-technology-group-crdo-could-rally-2817-heres-how-trade",
+   "date": "2026-09-01",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "CRDO"
+   ]
+  },
+  {
+   "title": "Why Credo Technology Stock Plunged 20% Today",
+   "url": "https://www.nasdaq.com/articles/why-credo-technology-stock-plunged-20-today",
+   "date": "2026-09-02",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "CRDO",
+    "CRDO"
+   ]
+  },
+  {
+   "title": "Credo Q1 Earnings Call Highlights Optics as the Next Growth Engine",
+   "url": "https://www.nasdaq.com/articles/credo-q1-earnings-call-highlights-optics-next-growth-engine",
+   "date": "2026-09-02",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "CRDO"
+   ]
+  },
+  {
+   "title": "Credo's Optical Bet: Is a $600M+ Revenue Opportunity Taking Shape?",
+   "url": "https://www.nasdaq.com/articles/credos-optical-bet-600m-revenue-opportunity-taking-shape",
+   "date": "2026-09-02",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "CRDO",
+    "MRVL",
+    "ALAB"
+   ]
+  },
+  {
+   "title": "Credo Technology Group Q1 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/credo-technology-group-q1-earnings-call-highlights",
+   "date": "2026-09-01",
+   "publisher": "MarketBeat",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "CRDO"
+   ]
+  },
+  {
+   "title": "Credo Technology Group Holding Q1 27 Earnings Conference Call At 5:00 PM ET",
+   "url": "https://www.nasdaq.com/articles/credo-technology-group-holding-q1-27-earnings-conference-call-5-00-pm-et",
+   "date": "2026-09-01",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "CRDO"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-01",
+   "reportDate": "2026-09-01",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/crdo-20260901.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-05-28",
+   "items": [
+    "2.02",
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026039474/crdo-20260528.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-13",
+   "reportDate": "2026-04-13",
+   "items": [
+    "3.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "3.02",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026024892/crdo-20260413.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-02",
+   "reportDate": "2026-03-02",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026013205/crdo-20260302.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-09",
+   "reportDate": "2026-02-09",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026006370/crdo-20260209.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-01",
+   "reportDate": "2025-12-01",
+   "items": [
+    "9.01"
+   ],
+   "itemsKo": [
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828025054428/crdo-20251201.htm",
+   "description": "8-K"
+  }
+ ]
+}

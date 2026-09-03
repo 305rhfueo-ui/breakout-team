@@ -1,7 +1,7 @@
 window.TEAM1_DATA = {
   "generated": "2026-09-03",
   "data_source": {
-    "rs_last_updated": "2026-09-02 23:31:45 UTC",
+    "rs_last_updated": "2026-09-03 00:01:14 UTC",
     "stale": false,
     "source": "live",
     "columns": 47
@@ -159,7 +159,7 @@ window.TEAM1_DATA = {
         "freeMargin": "D"
       }
     },
-    "fetched_at": "2026-09-02T23:58:10.708Z"
+    "fetched_at": "2026-09-03T00:10:31.467Z"
   },
   "leaders": {
     "stocks": [

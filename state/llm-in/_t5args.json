@@ -1,5 +1,5 @@
 {
- "date": "2026-09-02",
+ "date": "2026-09-03",
  "cap": 6,
  "industries": [
   {
@@ -13,68 +13,67 @@
     "m6": 8
    },
    "wrs": {
-    "m1": -0.04,
-    "m3": 0.0441,
-    "m6": 1.0943
+    "m1": 0.0085,
+    "m3": 0.0542,
+    "m6": 1.244
    },
    "final": {
-    "m1": 0.0191,
-    "m3": 0.0451,
-    "m6": 0.5231
+    "m1": 0.044,
+    "m3": 0.0376,
+    "m6": 0.5658
    },
    "rankPct": {
-    "m1": 65,
-    "m3": 42.14,
-    "m6": 0.71
+    "m1": 35.97,
+    "m3": 41.73,
+    "m6": 0.72
    },
    "members": [
     "DELL",
     "SNDK",
-    "SMCIP",
     "STX"
    ],
    "memberNews": [
     {
      "ticker": "DELL",
-     "date": "2026-08-27",
+     "date": "2026-09-02",
      "publisher": "The Motley Fool",
-     "title": "Prediction: Dell Technologies Stock Could Go Parabolic After Sept. 1. Here's Why.",
-     "url": "https://www.nasdaq.com/articles/prediction-dell-technologies-stock-could-go-parabolic-after-sept-1-heres-why"
+     "title": "Stock Market Today, Sept. 2: Dell Surges 16% on Soaring AI Backlog",
+     "url": "https://www.nasdaq.com/articles/stock-market-today-sept-2-dell-surges-16-soaring-ai-backlog"
     },
     {
      "ticker": "DELL",
-     "date": "2026-08-27",
+     "date": "2026-09-02",
      "publisher": "Zacks",
-     "title": "SNOW Benefits From Product Revenue Surge: Can It Beat DELL & ORCL?",
-     "url": "https://www.nasdaq.com/articles/snow-benefits-product-revenue-surge-can-it-beat-dell-orcl"
+     "title": "How Dell's AI Server Boom is Driving Hockey-Stick Growth",
+     "url": "https://www.nasdaq.com/articles/how-dells-ai-server-boom-driving-hockey-stick-growth"
     },
     {
      "ticker": "DELL",
-     "date": "2026-08-27",
+     "date": "2026-09-02",
      "publisher": "Zacks",
-     "title": "Dell Technologies (DELL) Q2 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
-     "url": "https://www.nasdaq.com/articles/dell-technologies-dell-q2-earnings-horizon-analysts-insights-key-performance-measures"
+     "title": "Is Dell Technologies (DELL) a Solid Growth Stock? 3 Reasons to Think &quot;Yes&quot;",
+     "url": "https://www.nasdaq.com/articles/dell-technologies-dell-solid-growth-stock-3-reasons-think-yes"
     },
     {
      "ticker": "SNDK",
-     "date": "2026-08-27",
-     "publisher": "Zacks",
-     "title": "KLAC vs. SNDK: Which Semiconductor Stock is a Better Buy Now?",
-     "url": "https://www.nasdaq.com/articles/klac-vs-sndk-which-semiconductor-stock-better-buy-now"
-    },
-    {
-     "ticker": "SNDK",
-     "date": "2026-08-27",
-     "publisher": "RTTNews",
-     "title": "Kioxia Plans Over $31 Bln Japan Investment With Sandisk",
-     "url": "https://www.nasdaq.com/articles/kioxia-plans-over-31-bln-japan-investment-sandisk"
-    },
-    {
-     "ticker": "SNDK",
-     "date": "2026-08-27",
+     "date": "2026-09-02",
      "publisher": "The Motley Fool",
-     "title": "This Hedge Fund Just Sold Sandisk and Bought Taiwan Semiconductor Manufacturing Stock. Does Wall Street Agree With the Move?",
-     "url": "https://www.nasdaq.com/articles/hedge-fund-just-sold-sandisk-and-bought-taiwan-semiconductor-manufacturing-stock-does-wall"
+     "title": "Data Centers Now Deliver a Third of Sandisk's Revenue -- $2.98 Billion in a Single Quarter",
+     "url": "https://www.nasdaq.com/articles/data-centers-now-deliver-third-sandisks-revenue-298-billion-single-quarter"
+    },
+    {
+     "ticker": "SNDK",
+     "date": "2026-09-02",
+     "publisher": "The Motley Fool",
+     "title": "Sandisk Stock: Buy, Sell, or Hold?",
+     "url": "https://www.nasdaq.com/articles/sandisk-stock-buy-sell-or-hold"
+    },
+    {
+     "ticker": "SNDK",
+     "date": "2026-09-02",
+     "publisher": "The Motley Fool",
+     "title": "ARM vs. Sandisk: Comparing Steady Historical Revenue Generation Against Rapid Sequential Revenue Expansion",
+     "url": "https://www.nasdaq.com/articles/arm-vs-sandisk-comparing-steady-historical-revenue-generation-against-rapid-sequential"
     },
     {
      "ticker": "STX",
@@ -100,29 +99,29 @@
    ]
   },
   {
-   "key": "Energy|Oil & Gas Refining & Marketing",
-   "sector": "Energy",
-   "industry": "Oil & Gas Refining & Marketing",
-   "count": 7,
+   "key": "Technology|Electronic Components",
+   "sector": "Technology",
+   "industry": "Electronic Components",
+   "count": 22,
    "counts": {
-    "m1": 7,
-    "m3": 7,
-    "m6": 7
+    "m1": 22,
+    "m3": 22,
+    "m6": 22
    },
    "wrs": {
-    "m1": 0.1974,
-    "m3": 0.4133,
-    "m6": 0.5918
+    "m1": 0.2108,
+    "m3": 0.2777,
+    "m6": 0.5993
    },
    "final": {
-    "m1": 0.1577,
-    "m3": 0.2945,
-    "m6": 0.3715
+    "m1": 0.0367,
+    "m3": 0.058,
+    "m6": 0.3987
    },
    "rankPct": {
-    "m1": 2.86,
-    "m3": 0.71,
-    "m6": 1.43
+    "m1": 2.88,
+    "m3": 3.6,
+    "m6": 1.44
    },
    "members": [],
    "memberNews": []
@@ -138,19 +137,19 @@
     "m6": 2
    },
    "wrs": {
-    "m1": 0.4244,
-    "m3": 0.0941,
-    "m6": 0.2525
+    "m1": 0.3923,
+    "m3": 0.117,
+    "m6": 0.2596
    },
    "final": {
-    "m1": 0.1322,
-    "m3": 0.0518,
-    "m6": 0.0861
+    "m1": 0.124,
+    "m3": 0.0564,
+    "m6": 0.0871
    },
    "rankPct": {
-    "m1": 0.71,
-    "m3": 27.14,
-    "m6": 13.57
+    "m1": 0.72,
+    "m3": 24.46,
+    "m6": 17.99
    },
    "members": [
     "AMR",
@@ -202,56 +201,32 @@
    ]
   },
   {
-   "key": "Basic Materials|Gold",
-   "sector": "Basic Materials",
-   "industry": "Gold",
-   "count": 8,
+   "key": "Energy|Oil & Gas Refining & Marketing",
+   "sector": "Energy",
+   "industry": "Oil & Gas Refining & Marketing",
+   "count": 7,
    "counts": {
-    "m1": 8,
-    "m3": 8,
-    "m6": 8
+    "m1": 7,
+    "m3": 7,
+    "m6": 7
    },
    "wrs": {
-    "m1": 0.2564,
-    "m3": 0.2167,
-    "m6": -0.0247
+    "m1": 0.2508,
+    "m3": 0.4175,
+    "m6": 0.5811
    },
    "final": {
-    "m1": 0.2339,
-    "m3": 0.2184,
-    "m6": 0.0133
+    "m1": 0.1934,
+    "m3": 0.2916,
+    "m6": 0.3542
    },
    "rankPct": {
-    "m1": 1.43,
-    "m3": 4.29,
-    "m6": 81.43
+    "m1": 1.44,
+    "m3": 0.72,
+    "m6": 2.88
    },
-   "members": [
-    "AUGO"
-   ],
-   "memberNews": [
-    {
-     "ticker": "AUGO",
-     "date": "2026-08-19",
-     "publisher": "BNK Invest",
-     "title": "Wednesday 8/19 Insider Buying Report: AUGO, CODI",
-     "url": "https://www.nasdaq.com/articles/wednesday-8-19-insider-buying-report-augo-codi"
-    },
-    {
-     "ticker": "AUGO",
-     "date": "2026-08-12",
-     "publisher": "The Motley Fool",
-     "title": "Aura Minerals (AUGO) Q2 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/aura-minerals-augo-q2-2026-earnings-call-transcript"
-    },
-    {
-     "ticker": "AUGO",
-     "date": "2026-08-06",
-     "publisher": "BNK Invest",
-     "title": "How To YieldBoost Aura Minerals From 4.7% To 24.2% Using Options",
-     "url": "https://www.nasdaq.com/articles/how-yieldboost-aura-minerals-47-242-using-options"
-    }
-   ]
+   "members": [],
+   "memberNews": []
   },
   {
    "key": "Healthcare|Biotechnology",
@@ -264,26 +239,27 @@
     "m6": 55
    },
    "wrs": {
-    "m1": 0.1905,
-    "m3": 0.345,
-    "m6": 0.3866
+    "m1": 0.1938,
+    "m3": 0.3767,
+    "m6": 0.4482
    },
    "final": {
-    "m1": 0.1933,
-    "m3": 0.3602,
-    "m6": 0.376
+    "m1": 0.1985,
+    "m3": 0.387,
+    "m6": 0.4164
    },
    "rankPct": {
-    "m1": 3.57,
-    "m3": 1.43,
-    "m6": 3.57
+    "m1": 4.32,
+    "m3": 1.44,
+    "m6": 4.32
    },
    "members": [
     "MRNA",
     "MNPR",
     "INBX",
     "ORKA",
-    "SYRE"
+    "TARS",
+    "KYMR"
    ],
    "memberNews": [
     {
@@ -323,6 +299,13 @@
     },
     {
      "ticker": "ORKA",
+     "date": "2026-08-28",
+     "publisher": "Zacks",
+     "title": "ORKA Stock Up More Than 60% in 3 Months: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/orka-stock-more-60-3-months-heres-what-you-should-know"
+    },
+    {
+     "ticker": "ORKA",
      "date": "2026-08-21",
      "publisher": "RTTNews",
      "title": "Show Me The Money: ORKA Makes A Splash With A 500%+ Gain; More Catalysts Ahead",
@@ -336,32 +319,46 @@
      "url": "https://www.nasdaq.com/articles/oruka-q2-net-loss-expands-expects-phase-2-everlast-28-week-data-orka-001-end-q3-2026"
     },
     {
-     "ticker": "ORKA",
-     "date": "2026-06-27",
+     "ticker": "TARS",
+     "date": "2026-08-13",
      "publisher": "The Motley Fool",
-     "title": "Oruka Stock Is Now Up Nearly 700%. Here's What a $687,000 Insider Sale Could Mean",
-     "url": "https://www.nasdaq.com/articles/oruka-stock-now-nearly-700-heres-what-687000-insider-sale-could-mean"
+     "title": "Tarsus (TARS) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/tarsus-tars-q2-2026-earnings-call-transcript"
     },
     {
-     "ticker": "SYRE",
-     "date": "2026-08-26",
+     "ticker": "TARS",
+     "date": "2026-08-07",
+     "publisher": "MarketBeat",
+     "title": "Tarsus Pharmaceuticals Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/tarsus-pharmaceuticals-q2-earnings-call-highlights"
+    },
+    {
+     "ticker": "TARS",
+     "date": "2026-08-06",
      "publisher": "RTTNews",
-     "title": "Spyre's SPY072 Shows Mixed Efficacy In Phase 2 RA Study, Fails Internal Bar For Monotherapy",
-     "url": "https://www.nasdaq.com/articles/spyres-spy072-shows-mixed-efficacy-phase-2-ra-study-fails-internal-bar-monotherapy"
+     "title": "Tarsus Pharmaceuticals To Acquire Alkeus Pharmaceuticals",
+     "url": "https://www.nasdaq.com/articles/tarsus-pharmaceuticals-acquire-alkeus-pharmaceuticals"
     },
     {
-     "ticker": "SYRE",
-     "date": "2026-08-24",
-     "publisher": "Zacks",
-     "title": "Is SYRE a Buy Now as Clinical Catalysts Clash With Valuation Risk?",
-     "url": "https://www.nasdaq.com/articles/syre-buy-now-clinical-catalysts-clash-valuation-risk"
+     "ticker": "KYMR",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool",
+     "title": "Kymera Therapeutics (KYMR) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-kymr-q2-2026-earnings-call-transcript"
     },
     {
-     "ticker": "SYRE",
-     "date": "2026-08-24",
+     "ticker": "KYMR",
+     "date": "2026-08-06",
      "publisher": "Zacks",
-     "title": "Can Spyre's SPY772 HS Study Broaden Its Growth Story Beyond Core IBD?",
-     "url": "https://www.nasdaq.com/articles/can-spyres-spy772-hs-study-broaden-its-growth-story-beyond-core-ibd"
+     "title": "KYMR Q2 Earnings and Revenues Top Estimates on Gilead, Sanofi Payments",
+     "url": "https://www.nasdaq.com/articles/kymr-q2-earnings-and-revenues-top-estimates-gilead-sanofi-payments"
+    },
+    {
+     "ticker": "KYMR",
+     "date": "2026-08-05",
+     "publisher": "MarketBeat",
+     "title": "Kymera Therapeutics Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-q2-earnings-call-highlights"
     }
    ]
   },
@@ -376,19 +373,19 @@
     "m6": 5
    },
    "wrs": {
-    "m1": -0.04,
-    "m3": 0.007,
-    "m6": 0.557
+    "m1": -0.0426,
+    "m3": 0.0077,
+    "m6": 0.5972
    },
    "final": {
-    "m1": -0.0014,
-    "m3": 0.0553,
-    "m6": 0.2852
+    "m1": -0.0037,
+    "m3": 0.0563,
+    "m6": 0.2993
    },
    "rankPct": {
-    "m1": 65,
-    "m3": 57.14,
-    "m6": 2.14
+    "m1": 69.78,
+    "m3": 62.59,
+    "m6": 2.16
    },
    "members": [],
    "memberNews": []

@@ -1,0 +1,78 @@
+{
+ "ticker": "NEE-T",
+ "news": [
+  {
+   "title": "Malaysia Stock Market May Extend Wednesday's Gains",
+   "url": "https://www.nasdaq.com/articles/malaysia-stock-market-may-extend-wednesdays-gains",
+   "date": "2026-09-02",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": null
+  },
+  {
+   "title": "Japan Stock Market Due For Support On Thursday",
+   "url": "https://www.nasdaq.com/articles/japan-stock-market-due-support-thursday",
+   "date": "2026-09-02",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": null
+  },
+  {
+   "title": "Rebound Expected For South Korea Shares",
+   "url": "https://www.nasdaq.com/articles/rebound-expected-south-korea-shares",
+   "date": "2026-09-02",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": null
+  },
+  {
+   "title": "Expectations of Tighter Global Supplies Boost Sugar Prices",
+   "url": "https://www.nasdaq.com/articles/expectations-tighter-global-supplies-boost-sugar-prices",
+   "date": "2026-09-02",
+   "publisher": "Barchart",
+   "tier1": false,
+   "direct": false,
+   "tickers": null
+  },
+  {
+   "title": "Cocoa Prices Tumble as Supplies Increase",
+   "url": "https://www.nasdaq.com/articles/cocoa-prices-tumble-supplies-increase",
+   "date": "2026-09-02",
+   "publisher": "Barchart",
+   "tier1": false,
+   "direct": false,
+   "tickers": null
+  },
+  {
+   "title": "Coffee Prices Finish Sharply Lower on Supply Pressures",
+   "url": "https://www.nasdaq.com/articles/coffee-prices-finish-sharply-lower-supply-pressures",
+   "date": "2026-09-02",
+   "publisher": "Barchart",
+   "tier1": false,
+   "direct": false,
+   "tickers": null
+  },
+  {
+   "title": "Hogs Continue Firmer Action on Wednesday",
+   "url": "https://www.nasdaq.com/articles/hogs-continue-firmer-action-wednesday",
+   "date": "2026-09-02",
+   "publisher": "Barchart",
+   "tier1": false,
+   "direct": false,
+   "tickers": null
+  },
+  {
+   "title": "Cattle Facing Tuesday Losses",
+   "url": "https://www.nasdaq.com/articles/cattle-facing-tuesday-losses",
+   "date": "2026-09-02",
+   "publisher": "Barchart",
+   "tier1": false,
+   "direct": false,
+   "tickers": null
+  }
+ ],
+ "filings": null
+}

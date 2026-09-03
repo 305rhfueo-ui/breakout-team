@@ -1,0 +1,147 @@
+{
+ "ticker": "APGE",
+ "news": [
+  {
+   "title": "Is Apogee Therapeutics Inc. (APGE) Stock Outpacing Its Medical Peers This Year?",
+   "url": "https://www.nasdaq.com/articles/apogee-therapeutics-inc-apge-stock-outpacing-its-medical-peers-year",
+   "date": "2026-07-28",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "APGE",
+    "IOVA"
+   ]
+  },
+  {
+   "title": "Should You Buy AbbVie Stock Hand Over Fist Before July 31?",
+   "url": "https://www.nasdaq.com/articles/should-you-buy-abbvie-stock-hand-over-fist-july-31",
+   "date": "2026-07-27",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "ABBV",
+    "ABBV",
+    "APGE"
+   ]
+  },
+  {
+   "title": "Should You Buy, Sell or Hold ABBV Stock After Its 9% YTD Rise?",
+   "url": "https://www.nasdaq.com/articles/should-you-buy-sell-or-hold-abbv-stock-after-its-9-ytd-rise",
+   "date": "2026-07-15",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "ABBV",
+    "JNJ",
+    "APGE"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-11",
+   "items": [
+    "5.02",
+    "5.07"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1974640/000114036126032231/ef20079870_form8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-10",
+   "reportDate": "2026-08-10",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1974640/000119312526341239/apge-20260810.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-22",
+   "reportDate": "2026-06-18",
+   "items": [
+    "1.01",
+    "5.07",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "주주총회 표결",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1974640/000114036126025844/ef20076505_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-22",
+   "reportDate": "2026-06-17",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1974640/000114036126025841/ef20076542_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-09",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1974640/000119312526269650/apge-20260609.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-27",
+   "reportDate": "2026-05-26",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1974640/000110465926066575/tm2615568d2_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "ticker": "FELE",
+ "news": [
+  {
+   "title": "Here is Why Growth Investors Should Buy Franklin Electric (FELE) Now",
+   "url": "https://www.nasdaq.com/articles/here-why-growth-investors-should-buy-franklin-electric-fele-now",
+   "date": "2026-08-19",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FELE"
+   ]
+  },
+  {
+   "title": "All You Need to Know About Franklin Electric (FELE) Rating Upgrade to Buy",
+   "url": "https://www.nasdaq.com/articles/all-you-need-know-about-franklin-electric-fele-rating-upgrade-buy",
+   "date": "2026-08-13",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FELE"
+   ]
+  },
+  {
+   "title": "Franklin Electric About To Put More Money In Your Pocket (FELE)",
+   "url": "https://www.nasdaq.com/articles/franklin-electric-about-put-more-money-your-pocket-fele",
+   "date": "2026-08-04",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FELE",
+    "FELE",
+    "AQWA"
+   ]
+  },
+  {
+   "title": "Looking for a Growth Stock? 3 Reasons Why Franklin Electric (FELE) is a Solid Choice",
+   "url": "https://www.nasdaq.com/articles/looking-growth-stock-3-reasons-why-franklin-electric-fele-solid-choice",
+   "date": "2026-08-03",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FELE"
+   ]
+  },
+  {
+   "title": "Franklin Electric (FELE) Tops Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/franklin-electric-fele-tops-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-28",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "FELE",
+    "ENS"
+   ]
+  },
+  {
+   "title": "ABB’s Rotork Deal Could Put These Flow Control Stocks Back in Focus",
+   "url": "https://www.nasdaq.com/articles/abbs-rotork-deal-could-put-these-flow-control-stocks-back-focus",
+   "date": "2026-08-01",
+   "publisher": "MarketBeat",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "FELE",
+    "FELE",
+    "WTS"
+   ]
+  },
+  {
+   "title": "Franklin Electric Q2 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/franklin-electric-q2-earnings-call-highlights",
+   "date": "2026-07-28",
+   "publisher": "MarketBeat",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "FELE"
+   ]
+  },
+  {
+   "title": "Franklin Electric Shares Gain On Q2 Profit Growth, Guidance",
+   "url": "https://www.nasdaq.com/articles/franklin-electric-shares-gain-q2-profit-growth-guidance",
+   "date": "2026-07-28",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "FELE"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000053/fele-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000051/fele-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-08",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000030/fele-20260508.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-05-04",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000028/fele-20260504.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000024/fele-20260428.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000022/fele-20260428.htm",
+   "description": "8-K"
+  }
+ ]
+}

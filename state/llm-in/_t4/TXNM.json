@@ -98,6 +98,24 @@
  "filings": [
   {
    "form": "8-K",
+   "filingDate": "2026-09-02",
+   "reportDate": "2026-09-02",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1108426/000110842626000058/pnm-20260902.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
    "filingDate": "2026-08-19",
    "reportDate": "2026-08-19",
    "items": [
@@ -178,20 +196,6 @@
    ],
    "isEarnings": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1108426/000110842626000040/pnm-20260706.htm",
-   "description": "8-K"
-  },
-  {
-   "form": "8-K",
-   "filingDate": "2026-06-11",
-   "reportDate": "2026-06-11",
-   "items": [
-    "5.07"
-   ],
-   "itemsKo": [
-    "주주총회 표결"
-   ],
-   "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1108426/000110842626000033/pnm-20260611.htm",
    "description": "8-K"
   }
  ]

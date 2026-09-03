@@ -1,0 +1,206 @@
+{
+ "ticker": "UTHR",
+ "news": [
+  {
+   "title": "United Therapeutics (UTHR) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/united-therapeutics-uthr-q2-2026-earnings-call-transcript",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "UTHR",
+    "UTHR"
+   ]
+  },
+  {
+   "title": "United Therapeutics (UTHR) Reports Q2 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/united-therapeutics-uthr-reports-q2-earnings-what-key-metrics-have-say",
+   "date": "2026-08-05",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "UTHR"
+   ]
+  },
+  {
+   "title": "United Therapeutics Announces FDA Acceptance Of SNDA For Nebulized Tyvaso In IPF",
+   "url": "https://www.nasdaq.com/articles/united-therapeutics-announces-fda-acceptance-snda-nebulized-tyvaso-ipf",
+   "date": "2026-09-02",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "UTHR"
+   ]
+  },
+  {
+   "title": "Can LQDA's Yutrepia Sustain Growth Amid Fierce PAH Competition?",
+   "url": "https://www.nasdaq.com/articles/can-lqdas-yutrepia-sustain-growth-amid-fierce-pah-competition",
+   "date": "2026-08-31",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "LQDA",
+    "UTHR",
+    "INSM"
+   ]
+  },
+  {
+   "title": "Will LQDA's Differentiated PAH Approach Drive Growth?",
+   "url": "https://www.nasdaq.com/articles/will-lqdas-differentiated-pah-approach-drive-growth",
+   "date": "2026-08-24",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "LQDA",
+    "JNJ",
+    "UTHR"
+   ]
+  },
+  {
+   "title": "United Therapeutics Says FDA Accepts NDA For Ralinepag To Treat Pulmonary Arterial Hypertension",
+   "url": "https://www.nasdaq.com/articles/united-therapeutics-says-fda-accepts-nda-ralinepag-treat-pulmonary-arterial-hypertension",
+   "date": "2026-08-24",
+   "publisher": "RTTNews",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "UTHR"
+   ]
+  },
+  {
+   "title": "Can Merck's New Drugs Offer Growth Cushion Ahead of Keytruda LOE?",
+   "url": "https://www.nasdaq.com/articles/can-mercks-new-drugs-offer-growth-cushion-ahead-keytruda-loe",
+   "date": "2026-08-21",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "MRK",
+    "JNJ",
+    "UTHR"
+   ]
+  },
+  {
+   "title": "Can Yutrepia's Strong Growth Drive Liquidia's PAH Expansion?",
+   "url": "https://www.nasdaq.com/articles/can-yutrepias-strong-growth-drive-liquidias-pah-expansion",
+   "date": "2026-08-19",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "LQDA",
+    "JNJ",
+    "UTHR"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1082554/000108255426000028/uthr-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-22",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1082554/000110465926086068/tm2620809d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-29",
+   "reportDate": "2026-06-26",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1082554/000110465926078865/tm2619258d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1082554/000108255426000021/uthr-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-30",
+   "reportDate": "2026-03-30",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1082554/000110465926036445/tm2610558d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-09",
+   "reportDate": "2026-03-09",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1082554/000110465926025331/tm268321d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ]
+}

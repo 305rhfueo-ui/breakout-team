@@ -104,7 +104,7 @@ window.TEAM2_DATA = {
       "nameKo": "모더나",
       "nameEn": "MODERNA INC",
       "detail": {
-        "fetchedAt": "2026-09-01",
+        "fetchedAt": "2026-09-03",
         "nameKo": "모더나",
         "nameEn": "MODERNA INC",
         "infomaxCode": "NAS:MRNA",
@@ -190,6 +190,18 @@ window.TEAM2_DATA = {
           "ticker": "MRNA",
           "items": [
             {
+              "title": "Moderna Stock More Than Doubled in August. Is the Stock a Buy, a Hold, or a Sell?",
+              "url": "https://www.nasdaq.com/articles/moderna-stock-more-doubled-august-stock-buy-hold-or-sell",
+              "date": "2026-09-01",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MRNA",
+                "MRNA"
+              ]
+            },
+            {
               "title": "Is It Too Late to Buy Moderna Stock After Its 127% Surge?",
               "url": "https://www.nasdaq.com/articles/it-too-late-buy-moderna-stock-after-its-127-surge",
               "date": "2026-08-30",
@@ -240,11 +252,33 @@ window.TEAM2_DATA = {
               ]
             }
           ],
-          "directCount": 2,
-          "total": 4,
+          "directCount": 3,
+          "total": 5,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-01",
+            "reportDate": "2026-08-27",
+            "items": [
+              "1.01",
+              "2.03",
+              "3.02",
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "2.03",
+              "3.02",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526378505/d108896d8k.htm",
+            "description": "8-K"
+          },
           {
             "form": "8-K",
             "filingDate": "2026-07-31",
@@ -326,22 +360,6 @@ window.TEAM2_DATA = {
             "isEarnings": false,
             "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000047/mrna-20260303.htm",
             "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-02-13",
-            "reportDate": "2026-02-13",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000015/mrna-20260213.htm",
-            "description": "8-K"
           }
         ],
         "krReports": {
@@ -354,8 +372,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-28",
               "summary": "- 20억 달러 전환사채 사모 발행 공시, 세부조건 미공개- 흑색종 3상 데이터 이후 주가 급등 시점에 조달- 현금여력 확대되지만 전환권 행사 시 희석 우려",
               "pages": "5",
-              "secureId": "eqlqlqkzlgiexqxgcgxcmce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqkzlgiexqxgcgxcmce.pdf",
+              "secureId": "eqlqlqkzlgiexqxgcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqkzlgiexqxgcgxcmci.pdf",
               "opinion": null
             },
             {
@@ -365,8 +383,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-26",
               "summary": "- 흑색종 백신 작동원리·비소세포폐암 등 확장 파이프라인 공개- 전체 생존율 데이터는 아직 미공개, 임상 불확실성 지속- 개인맞춤 생산 특성상 10~100배 증설 필요, 실행 리스크 부각",
               "pages": "5",
-              "secureId": "eqlqqcexmkclgzegcgxcmce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqqcexmkclgzegcgxcmce.pdf",
+              "secureId": "eqlqqcexmkclgzegcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqqcexmkclgzegcgxcmci.pdf",
               "opinion": null
             },
             {
@@ -376,8 +394,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-21",
               "summary": "- 코로나19 백신으로 mRNA 상업화에 성공한 바이오텍. mRNA 기반 암 치료제로는 세계 최초 3상 성공- 다만, 시장은 이미 흑색종 성공을 상당부분 선반영한 상태로 신장암, 방광암, 폐암 등 다른 암종으로 확장성에 주목",
               "pages": "7",
-              "secureId": "eqlqgxkklglmlgzgcgxcmce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqgxkklglmlgzgcgxcmce.pdf",
+              "secureId": "eqlqgxkklglmlgzgcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqgxkklglmlgzgcgxcmci.pdf",
               "opinion": null
             }
           ],
@@ -587,7 +605,7 @@ window.TEAM2_DATA = {
       "nameKo": "애질론 헬스",
       "nameEn": "AGILON HEALTH INC",
       "detail": {
-        "fetchedAt": "2026-08-31",
+        "fetchedAt": "2026-09-03",
         "nameKo": "애질론 헬스",
         "nameEn": "AGILON HEALTH INC",
         "infomaxCode": "NYS:AGL",
@@ -1694,7 +1712,7 @@ window.TEAM2_DATA = {
       "nameKo": "맥스리니어",
       "nameEn": "MAXLINEAR INC",
       "detail": {
-        "fetchedAt": "2026-08-31",
+        "fetchedAt": "2026-09-03",
         "nameKo": "맥스리니어",
         "nameEn": "MAXLINEAR INC",
         "infomaxCode": "NAS:MXL",
@@ -4628,7 +4646,7 @@ window.TEAM2_DATA = {
       "nameKo": "애버크롬비 앤드 피치",
       "nameEn": "ABERCROMBIE & FITCH CO",
       "detail": {
-        "fetchedAt": "2026-09-01",
+        "fetchedAt": "2026-09-03",
         "nameKo": "애버크롬비 앤드 피치",
         "nameEn": "ABERCROMBIE & FITCH CO",
         "infomaxCode": "NYS:ANF",
@@ -4714,6 +4732,42 @@ window.TEAM2_DATA = {
           "ticker": "ANF",
           "items": [
             {
+              "title": "Abercrombie & Fitch (ANF) Q2 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/abercrombie-fitch-anf-q2-2026-earnings-call-transcript",
+              "date": "2026-09-02",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ANF",
+                "ANF"
+              ]
+            },
+            {
+              "title": "Is Abercrombie & Fitch's Hot Streak Just Getting Started?",
+              "url": "https://www.nasdaq.com/articles/abercrombie-fitchs-hot-streak-just-getting-started",
+              "date": "2026-09-01",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ANF",
+                "ANF",
+                "TGT"
+              ]
+            },
+            {
+              "title": "Is Abercrombie (ANF) a Buy as Wall Street Analysts Look Optimistic?",
+              "url": "https://www.nasdaq.com/articles/abercrombie-anf-buy-wall-street-analysts-look-optimistic",
+              "date": "2026-09-01",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ANF"
+              ]
+            },
+            {
               "title": "Surging Earnings Estimates Signal Upside for Abercrombie (ANF) Stock",
               "url": "https://www.nasdaq.com/articles/surging-earnings-estimates-signal-upside-abercrombie-anf-stock",
               "date": "2026-08-31",
@@ -4768,45 +4822,9 @@ window.TEAM2_DATA = {
               "tickers": [
                 "ANF"
               ]
-            },
-            {
-              "title": "Are Retail-Wholesale Stocks Lagging  Abercrombie & Fitch (ANF) This Year?",
-              "url": "https://www.nasdaq.com/articles/are-retail-wholesale-stocks-lagging-abercrombie-fitch-anf-year",
-              "date": "2026-08-27",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "ANF"
-              ]
-            },
-            {
-              "title": "Abercrombie & Fitch Company (ANF) Hits Fresh High: Is There Still Room to Run?",
-              "url": "https://www.nasdaq.com/articles/abercrombie-fitch-company-anf-hits-fresh-high-there-still-room-run",
-              "date": "2026-08-27",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "ANF",
-                "BOOT"
-              ]
-            },
-            {
-              "title": "Why Abercrombie & Fitch Stock Surged 35% Today",
-              "url": "https://www.nasdaq.com/articles/why-abercrombie-fitch-stock-surged-35-today",
-              "date": "2026-08-26",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "ANF",
-                "ANF",
-                "TGT"
-              ]
             }
           ],
-          "directCount": 10,
+          "directCount": 11,
           "total": 11,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
@@ -4918,8 +4936,8 @@ window.TEAM2_DATA = {
               "date": "2025-11-27",
               "summary": "- 캐주얼 의류 브랜드사 (Hollister, Abercrombie)- 3Q26 실적은 매출과 EPS가 시장 기대치를 상회. Hollister가 매출 성장을 견인한 가운데, 재고 관리와 프로모션 축소로 관세 여파를 상쇄한 덕분- 주가는 선행 PER 9배 수준. 최근 주가 급등에도 밸류에이션 부담은 없음. 향후 실적 가시성 개선될 전망인 만큼, 주가 상승 여력이 커질 듯.",
               "pages": "4",
-              "secureId": "eqxkemzmcximczmgcgxcmce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkemzmcximczmgcgxcmce.pdf",
+              "secureId": "eqxkemzmcximczmgcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkemzmcximczmgcgxcmci.pdf",
               "opinion": null
             }
           ],
@@ -6472,7 +6490,7 @@ window.TEAM2_DATA = {
       "nameKo": "조메트리",
       "nameEn": "XOMETRY INC",
       "detail": {
-        "fetchedAt": "2026-08-31",
+        "fetchedAt": "2026-09-03",
         "nameKo": "조메트리",
         "nameEn": "XOMETRY INC",
         "infomaxCode": "NAS:XMTR",
@@ -7837,7 +7855,7 @@ window.TEAM2_DATA = {
       "nameKo": "브링커 인터내셔널",
       "nameEn": "BRINKER INTERNATIONAL",
       "detail": {
-        "fetchedAt": "2026-08-31",
+        "fetchedAt": "2026-09-03",
         "nameKo": "브링커 인터내셔널",
         "nameEn": "BRINKER INTERNATIONAL",
         "infomaxCode": "NYS:EAT",
@@ -7923,6 +7941,51 @@ window.TEAM2_DATA = {
           "ticker": "EAT",
           "items": [
             {
+              "title": "3 Reasons Why Growth Investors Shouldn't Overlook Brinker International (EAT)",
+              "url": "https://www.nasdaq.com/articles/3-reasons-why-growth-investors-shouldnt-overlook-brinker-international-eat",
+              "date": "2026-09-02",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "EAT"
+              ]
+            },
+            {
+              "title": "Here's Why Brinker International (EAT) is a Strong Momentum Stock",
+              "url": "https://www.nasdaq.com/articles/heres-why-brinker-international-eat-strong-momentum-stock-0",
+              "date": "2026-09-02",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "EAT"
+              ]
+            },
+            {
+              "title": "Is Brinker International (EAT) Stock Outpacing Its Retail-Wholesale Peers This Year?",
+              "url": "https://www.nasdaq.com/articles/brinker-international-eat-stock-outpacing-its-retail-wholesale-peers-year-0",
+              "date": "2026-09-02",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "EAT",
+                "TGT"
+              ]
+            },
+            {
+              "title": "Wall Street Analysts Think Brinker International (EAT) Is a Good Investment: Is It?",
+              "url": "https://www.nasdaq.com/articles/wall-street-analysts-think-brinker-international-eat-good-investment-it",
+              "date": "2026-09-02",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "EAT"
+              ]
+            },
+            {
               "title": "Here's Why Brinker International (EAT) is a Strong Growth Stock",
               "url": "https://www.nasdaq.com/articles/heres-why-brinker-international-eat-strong-growth-stock-1",
               "date": "2026-08-25",
@@ -7934,89 +7997,34 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Brinker (EAT) Q4 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/brinker-eat-q4-2026-earnings-call-transcript",
-              "date": "2026-08-19",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "EAT",
-                "EAT"
-              ]
-            },
-            {
-              "title": "Earnings Estimates Moving Higher for Brinker International (EAT): Time to Buy?",
-              "url": "https://www.nasdaq.com/articles/earnings-estimates-moving-higher-brinker-international-eat-time-buy",
-              "date": "2026-08-18",
+              "title": "CAKE Expands Restaurant Margins to a Decade High: More Upside Ahead?",
+              "url": "https://www.nasdaq.com/articles/cake-expands-restaurant-margins-decade-high-more-upside-ahead",
+              "date": "2026-09-02",
               "publisher": "Zacks",
               "tier1": false,
-              "direct": true,
+              "direct": false,
               "tickers": [
+                "CAKE",
+                "DRI",
                 "EAT"
               ]
             },
             {
-              "title": "Here's Why Brinker International (EAT) is a Strong Value Stock",
-              "url": "https://www.nasdaq.com/articles/heres-why-brinker-international-eat-strong-value-stock-3",
-              "date": "2026-08-18",
+              "title": "CAKE Stock Soars 70% in the Past 3 Months: Can the Rally Continue?",
+              "url": "https://www.nasdaq.com/articles/cake-stock-soars-70-past-3-months-can-rally-continue",
+              "date": "2026-08-31",
               "publisher": "Zacks",
               "tier1": false,
-              "direct": true,
+              "direct": false,
               "tickers": [
-                "EAT"
-              ]
-            },
-            {
-              "title": "Here's How Much You'd Have If You Invested $1000 in Brinker International a Decade Ago",
-              "url": "https://www.nasdaq.com/articles/heres-how-much-youd-have-if-you-invested-1000-brinker-international-decade-ago",
-              "date": "2026-08-18",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "EAT"
-              ]
-            },
-            {
-              "title": "Should You Worry That Another Brinker Executive Sold? Here's What Investors Should Know",
-              "url": "https://www.nasdaq.com/articles/should-you-worry-another-brinker-executive-sold-heres-what-investors-should-know",
-              "date": "2026-08-18",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "EAT",
-                "EAT"
-              ]
-            },
-            {
-              "title": "A Brinker Director Sold Near the Stock's Peak. Here's What to Know",
-              "url": "https://www.nasdaq.com/articles/brinker-director-sold-near-stocks-peak-heres-what-know",
-              "date": "2026-08-18",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "EAT",
-                "EAT"
-              ]
-            },
-            {
-              "title": "A Brinker Insider Ended the Day Owning More Stock. Here's What Long-Term Investors Should Know",
-              "url": "https://www.nasdaq.com/articles/brinker-insider-ended-day-owning-more-stock-heres-what-long-term-investors-should-know",
-              "date": "2026-08-18",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "EAT",
+                "CAKE",
+                "DRI",
                 "EAT"
               ]
             }
           ],
-          "directCount": 8,
-          "total": 9,
+          "directCount": 5,
+          "total": 7,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -8557,7 +8565,7 @@ window.TEAM2_DATA = {
       "nameKo": "포럼 에너지 테크놀로지스",
       "nameEn": "FORUM ENERGY TECHNOLOGIES INC",
       "detail": {
-        "fetchedAt": "2026-08-31",
+        "fetchedAt": "2026-09-03",
         "nameKo": "포럼 에너지 테크놀로지스",
         "nameEn": "FORUM ENERGY TECHNOLOGIES INC",
         "infomaxCode": "NYS:FET",
@@ -8702,17 +8710,6 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Forum Energy Technologies (FET) is a Great Momentum Stock: Should You Buy?",
-              "url": "https://www.nasdaq.com/articles/forum-energy-technologies-fet-great-momentum-stock-should-you-buy",
-              "date": "2026-08-07",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "FET"
-              ]
-            },
-            {
               "title": "Is Baytex Energy (BTE) Outperforming Other Oils-Energy Stocks This Year?",
               "url": "https://www.nasdaq.com/articles/baytex-energy-bte-outperforming-other-oils-energy-stocks-year",
               "date": "2026-08-21",
@@ -8735,13 +8732,40 @@ window.TEAM2_DATA = {
                 "GNRC",
                 "FET"
               ]
+            },
+            {
+              "title": "The Best &quot;Strong Buy&quot; Stocks to Buy Now and Heading into September",
+              "url": "https://www.nasdaq.com/articles/best-strong-buy-stocks-buy-now-and-heading-september",
+              "date": "2026-08-18",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "FET"
+              ]
             }
           ],
-          "directCount": 6,
-          "total": 10,
+          "directCount": 5,
+          "total": 9,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-31",
+            "reportDate": "2026-08-28",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000065/fet-20260828.htm",
+            "description": "8-K"
+          },
           {
             "form": "8-K",
             "filingDate": "2026-07-30",
@@ -8825,20 +8849,6 @@ window.TEAM2_DATA = {
             "isEarnings": false,
             "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000005/fet-20260204.htm",
             "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-01-12",
-            "reportDate": "2026-01-12",
-            "items": [
-              "5.02"
-            ],
-            "itemsKo": [
-              "임원 변동"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000002/fet-20260112.htm",
-            "description": "8-K"
           }
         ],
         "krReports": {
@@ -8921,7 +8931,7 @@ window.TEAM2_DATA = {
       "nameKo": "마이크론 테크놀로지",
       "nameEn": "MICRON TECHNOLOGY INC",
       "detail": {
-        "fetchedAt": "2026-08-31",
+        "fetchedAt": "2026-09-03",
         "nameKo": "마이크론 테크놀로지",
         "nameEn": "MICRON TECHNOLOGY INC",
         "infomaxCode": "NAS:MU",
@@ -9007,9 +9017,20 @@ window.TEAM2_DATA = {
           "ticker": "MU",
           "items": [
             {
-              "title": "Prediction: Micron Stock Will Go Parabolic After Sept. 30",
-              "url": "https://www.nasdaq.com/articles/prediction-micron-stock-will-go-parabolic-after-sept-30",
-              "date": "2026-08-30",
+              "title": "Micron (MU) Exceeds Market Returns: Some Facts to Consider",
+              "url": "https://www.nasdaq.com/articles/micron-mu-exceeds-market-returns-some-facts-consider",
+              "date": "2026-09-02",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MU"
+              ]
+            },
+            {
+              "title": "Billionaire Philippe Laffont Just Bought Micron Stock in Q2: Is the Artificial Intelligence (AI) Memory Winner a Buy for 2026?",
+              "url": "https://www.nasdaq.com/articles/billionaire-philippe-laffont-just-bought-micron-stock-q2-artificial-intelligence-ai-memory",
+              "date": "2026-09-02",
               "publisher": "The Motley Fool",
               "tier1": false,
               "direct": true,
@@ -9019,9 +9040,9 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Micron's Huge $250M AI Bet Signals a Critical Next Phase for Memory",
-              "url": "https://www.nasdaq.com/articles/microns-huge-250m-ai-bet-signals-critical-next-phase-memory",
-              "date": "2026-08-30",
+              "title": "Is the Memory Supercycle Peak Near for Micron and SK Hynix?",
+              "url": "https://www.nasdaq.com/articles/memory-supercycle-peak-near-micron-and-sk-hynix",
+              "date": "2026-09-02",
               "publisher": "The Motley Fool",
               "tier1": false,
               "direct": true,
@@ -9031,85 +9052,55 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Micron vs. Sandisk: 1 Artificial Intelligence (AI) Memory Stock Is Clearly the Better Buy Today",
-              "url": "https://www.nasdaq.com/articles/micron-vs-sandisk-1-artificial-intelligence-ai-memory-stock-clearly-better-buy-today",
-              "date": "2026-08-30",
-              "publisher": "The Motley Fool",
+              "title": "Why Micron (MU) is a Top Growth Stock for the Long-Term",
+              "url": "https://www.nasdaq.com/articles/why-micron-mu-top-growth-stock-long-term",
+              "date": "2026-09-02",
+              "publisher": "Zacks",
               "tier1": false,
               "direct": true,
               "tickers": [
-                "MU",
-                "MU",
-                "SNDK"
-              ]
-            },
-            {
-              "title": "Nvidia's CFO Just Explained Why the AI Boom Is Eating Its Gross Margin -- and It's a Green Light for Micron",
-              "url": "https://www.nasdaq.com/articles/nvidias-cfo-just-explained-why-ai-boom-eating-its-gross-margin-and-its-green-light-micron",
-              "date": "2026-08-29",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MU",
-                "MU",
-                "NVDA"
-              ]
-            },
-            {
-              "title": "Intel Sold Its NAND Memory Business for About $9 Billion. Micron Is Now Worth More Than Twice What Intel Is.",
-              "url": "https://www.nasdaq.com/articles/intel-sold-its-nand-memory-business-about-9-billion-micron-now-worth-more-twice-what-intel",
-              "date": "2026-08-29",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "INTC",
-                "INTC",
                 "MU"
               ]
             },
             {
-              "title": "Prediction: This Is What a $1,000 Investment in Micron Stock Will Be Worth by 2030",
-              "url": "https://www.nasdaq.com/articles/prediction-what-1000-investment-micron-stock-will-be-worth-2030",
-              "date": "2026-08-28",
-              "publisher": "The Motley Fool",
+              "title": "Brokers Suggest Investing in Micron (MU): Read This Before Placing a Bet",
+              "url": "https://www.nasdaq.com/articles/brokers-suggest-investing-micron-mu-read-placing-bet-0",
+              "date": "2026-09-02",
+              "publisher": "Zacks",
               "tier1": false,
               "direct": true,
               "tickers": [
-                "MU",
                 "MU"
               ]
             },
             {
-              "title": "A Once-in-a-Decade Buying Opportunity: Sandisk and Micron Shares Are Dirt Cheap and Look Primed to Skyrocket",
-              "url": "https://www.nasdaq.com/articles/once-decade-buying-opportunity-sandisk-and-micron-shares-are-dirt-cheap-and-look-primed",
-              "date": "2026-08-28",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MU",
-                "MU",
-                "SNDK"
-              ]
-            },
-            {
-              "title": "Nvidia Just Locked In a $279 Billion Bet on Memory Chips",
-              "url": "https://www.nasdaq.com/articles/nvidia-just-locked-279-billion-bet-memory-chips",
-              "date": "2026-08-29",
-              "publisher": "The Motley Fool",
+              "title": "Hewlett Packard Enterprise (HPE) Q3 Earnings and Revenues Surpass Estimates",
+              "url": "https://www.nasdaq.com/articles/hewlett-packard-enterprise-hpe-q3-earnings-and-revenues-surpass-estimates-0",
+              "date": "2026-09-02",
+              "publisher": "Zacks",
               "tier1": false,
               "direct": false,
               "tickers": [
-                "NVDA",
-                "NVDA",
+                "HPE",
                 "MU"
+              ]
+            },
+            {
+              "title": "S&P 500 Q3 Earnings Preview: Earnings and Revenue Growth Expected to Surge",
+              "url": "https://www.nasdaq.com/articles/sp-500-q3-earnings-preview-earnings-and-revenue-growth-expected-surge-0",
+              "date": "2026-09-02",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "MU",
+                "NVDA",
+                "GOOGL"
               ]
             }
           ],
-          "directCount": 7,
-          "total": 11,
+          "directCount": 5,
+          "total": 7,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -9211,8 +9202,19 @@ window.TEAM2_DATA = {
           }
         ],
         "krReports": {
-          "total": 18,
+          "total": 19,
           "reports": [
+            {
+              "title": "[마이크론 테크놀로지 (NAS:MU)] [Issue & News] 대만 노조 파업 초읽기 - AI 슈퍼사이클 이익배분 갈등 표면화",
+              "broker": "대신증권",
+              "analyst": "조재운",
+              "date": "2026-09-01",
+              "summary": "- 대만 노조 80%, 파업 찬성 설문 결과 공개- 영업이익 15% 분기 배분 신제도 요구- HBM4 핵심 거점, 파업 시 로드맵 변수",
+              "pages": "5",
+              "secureId": "eqllicxlicgcexmgcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllicxlicgcexmgcgxcmci.pdf",
+              "opinion": null
+            },
             {
               "title": "[마이크론 테크놀로지 (NAS:MU)] FY3Q26리뷰 (1) SCA, 장기 사이클의 초석",
               "broker": "메리츠증권",
@@ -9220,8 +9222,8 @@ window.TEAM2_DATA = {
               "date": "2026-06-26",
               "summary": "- 마이크론은 FY3Q26 실적 컨퍼런스 (=CY2Q26)를 통해 시장 기대치를 큰폭으로 능가하는 실적과 차분기 가이던스를 발표. 메모리 업황에 대한 높은 기대감으로 실적 눈높이 역시 크게 상향되어 왔음에도 실적과 가이던스는 그를 능가하는 서 프라이즈 수준. 아울러, 지난분기 공개된 SCA(Strategic Customer Agreement)의 구체적인 내용이 공개되면서, 장기 계약 기반의 업황 장기화 및 메모리 산업의 구 조적 변화를 선언- 동사는 이번 실적 설명회에서는 SCA의 구체적 내용을 소개하는 것에 중점. 과거 메모리 업체들이 체결했던 LTA(Long-Term Agreement)는 고객사들의 공급 우선 권을 부여하는 고객사의 입장을 대변했다면, SCA는 공급사 중심의 예수금 (Deposit)과 가격 밴드(Floor/Ceiling Price) 등을 포함한 강한 구속력을 가진 계 약이라는 것이 특징- 특히, SCA를 통해 메모리 공급사들에 제기되는 우려 요인(현수준의 실적 유지 가 능 여부와 공격적인 Capex 확대) 을 잠재우는 실적 발표회로 평가. SCA는 1) 장 기공급 물량 가시성과 매출 안정성을 확보하는 동시에, 2) Capex 투자 가시성을 제공하며, 3) 가격 밴드를 통한 수익성 안정화 장치의 역할을 할 뿐 아니라 4) 예 수금 정책을 통한 고객과의 기술 및 협력 강화 유도 장치로서 기능함을 강조",
               "pages": "8",
-              "secureId": "eqlgkzqzclxzmeggcgxclie",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgkzqzclxzmeggcgxclie.pdf",
+              "secureId": "eqlgkzqzclxzmeggcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgkzqzclxzmeggcgxcmci.pdf",
               "opinion": null
             },
             {
@@ -9231,8 +9233,8 @@ window.TEAM2_DATA = {
               "date": "2026-06-26",
               "summary": "- 2Q26CY 실적 및 3Q26CY 가이던스 모두 시장 컨센서스 크게 상회- 다만, 당사 예상치에는 대체로 부합했음- 메모리 반도체는 사이클 정점 부근에서, SCA 계약 비중 증가세",
               "pages": "6",
-              "secureId": "eqlgkgqkeqmeexmgcgxclie",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgkgqkeqmeexmgcgxclie.pdf",
+              "secureId": "eqlgkgqkeqmeexmgcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgkgqkeqmeexmgcgxcmci.pdf",
               "opinion": null
             },
             {
@@ -9242,8 +9244,8 @@ window.TEAM2_DATA = {
               "date": "2026-06-26",
               "summary": "- FY3Q26 Review: 서프라이즈- FY4Q26 가이던스: 긍정적 가격을 암시- 시장 참여자의 간지러운 곳을 긁어준 SCA 코멘트- DRAM 수요 전망 상향. 2027년 이후에도 공급 제약 지속. CAPEX 상향",
               "pages": "4",
-              "secureId": "eqlgkggieceiexegcgxclie",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgkggieceiexegcgxclie.pdf",
+              "secureId": "eqlgkggieceiexegcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgkggieceiexegcgxcmci.pdf",
               "opinion": null
             },
             {
@@ -9253,8 +9255,8 @@ window.TEAM2_DATA = {
               "date": "2026-06-25",
               "summary": "- 매출액 415억 달러(YoY +345.7%), 영업이익 337억 달러(YoY +1252.7%), EPS 25.11 달러(YoY +1,214.7%)로 각각 예상치 16.2%, 20.9%, 19.7% 상회. EPS 급증은 DRAM/NAND의 ASP 상승에 따른 GPM 개선에 기인- 영업현금흐름 254억 달러(YoY +113.4%), 조정 FCF 183억 달러(YoY +838.5%), 현금 및 투자자산 302억 달러- 어닝 서프라이즈와 컨센서스를 대폭 상회하는 가이던스 발표하며 시간 외 15.8% 상승",
               "pages": "1",
-              "secureId": "eqlgixzcmxilggcgcgxclie",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgixzcmxilggcgcgxclie.pdf",
+              "secureId": "eqlgixzcmxilggcgcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgixzcmxilggcgcgxcmci.pdf",
               "opinion": null
             },
             {
@@ -9264,8 +9266,8 @@ window.TEAM2_DATA = {
               "date": "2026-06-25",
               "summary": "- 연속적인 가격 인상 흐름 반영되며 기대 이상의 실적 달성. 3~5년 단위의 SCA(Strategic Customer Agreement) 16건 언급. FY3Q26 역대 최대 매출, 수익성 기록했으며 차분기 가이던스는 이를 재차 상회.- FY3Q26 매출 414.6억달러(+74%, 이하 전분기대비), EPS 25.11달러로 컨 센서스(358.5억달러, 20.70달러) 각각 15.6%, 21.3% 상회. 제품별 매출은 DRAM 313.3억달러(B/G +Low single%, ASP +Low 60%). NAND 99.4억 달러(B/G +Mid single%, ASP +Mid 80%), 기타 1.9억달러. 전 응용처에서 폭발적인 성장세 지속. 클라우드, 코어데이터 부문 합산 비중 61%(+5%p)- FY4Q26 가이던스(중간값) 매출 500억달러, EPS 31달러로 컨센서스(434억 달러, 24.95달러) 대폭 상회. FY2026 CapEx 270억달러로 20억달러 상향. FY2027 CapEx 추가 확대 계획. 초과 수요 환경 2027년에도 지속될 전망",
               "pages": "4",
-              "secureId": "eqlgixcqmekkmmggcgxclie",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgixcqmekkmmggcgxclie.pdf",
+              "secureId": "eqlgixcqmekkmmggcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgixcqmekkmmggcgxcmci.pdf",
               "opinion": null
             },
             {
@@ -9275,8 +9277,8 @@ window.TEAM2_DATA = {
               "date": "2026-03-20",
               "summary": "- FY2Q26 Review: 가격 상승을 기반으로 회계연도 2025년 연간 매출액 상회- FY3Q26 가이던스: 전분기대비 매출액 증가폭 40% 제시- DRAM과 NAND 모두 수요 전망 상향. 연간 CAPEX도 25% 상향 조정",
               "pages": "4",
-              "secureId": "eqqimcgzzigzqqlgcgxclie",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqimcgzzigzqqlgcgxclie.pdf",
+              "secureId": "eqqimcgzzigzqqlgcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqimcgzzigzqqlgcgxcmci.pdf",
               "opinion": null
             },
             {
@@ -9286,8 +9288,8 @@ window.TEAM2_DATA = {
               "date": "2026-03-19",
               "summary": "- 마이크론은 FY2Q26 실적 컨퍼런스 (=CY1Q26)를 통해 시장 기대치를 능가하는 실적과 차분기 가이던스를 발표. 명확히 개선되는 메모리 업황에 대한 기대감이 컸고, 실적 눈높이 역시 크게 상향되어 왔음에도 실적 가이던스는 그를 능가하는 서프라이즈 수준. 그럼에도 불구하고, 실적발표 전 주가가 사상최고치에 이른 상 황에서, 시장 내 막연한 고점 우려가 불거지며 동사의 시간외 주가는 3.9% 가량 하락- 마이크론은 이번 실적설명회를 통해 SCA (Strategic Customer Agreement, 전략적 고객 협약)을 소개함. 이는 판가 변동성이 큰 상품 성격의 메모리 공급 계 약을 1년 내외로 묶는 LTA (Long Term Agreement) 대비, 더욱 장기화 (3~5년) 하며 특별 합의가 포함된 협의라고 설명함. 이를 통해 주요 고객과 상호 중장기 사업 가시성을 확보할 수 있으리라 강조. 다만 과거 LTA 역시, 물량과 가격의 구 속력이 끝까지 못한 사례가 많았기에, 이번 SCA의 구속력에 대해 시장의 의구심 은 남아있는 상태. 차후 계약 조건이 서서히 공개되거나, SCA의 실적 파급력이 입 증될 경우 시장의 신뢰도는 올라갈 수 있음",
               "pages": "9",
-              "secureId": "eqqimxizmmmexezgcgxclie",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqimxizmmmexezgcgxclie.pdf",
+              "secureId": "eqqimxizmmmexezgcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqimxizmmmexezgcgxcmci.pdf",
               "opinion": null
             },
             {
@@ -9297,8 +9299,8 @@ window.TEAM2_DATA = {
               "date": "2026-03-19",
               "summary": "- 마이크론의 FY 2Q26 실적이 발표됐습니다. 실적과 가이던스 모두 컨센 서스 대비 양호했고, 매출액은 YoY 약 3배 수준으로 증가했습니다- 마이크론의 FY 2Q26 매출액은 239 달러(YoY +196.3%), EPS는 4.78 달러(YoY +682.1%)로 최고 실적을 경신했고, 각각 컨센서스를 20.9%, 35.6% 상회했다.- 마이크론은 FY 3Q26 가이던스로 중간값 기준 매출액 335억 달러 (YoY +260%, vs. 컨센서스 237억 달러), EPS 19.15 달러(YoY +903%, vs. 컨센서스 11.29 달러)를 제시했다.",
               "pages": "7",
-              "secureId": "eqqimcmlcexkexegcgxclie",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqimcmlcexkexegcgxclie.pdf",
+              "secureId": "eqqimcmlcexkexegcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqimcmlcexkexegcgxcmci.pdf",
               "opinion": null
             },
             {
@@ -9308,19 +9310,8 @@ window.TEAM2_DATA = {
               "date": "2026-03-19",
               "summary": "- 최대 실적 재차 경신. 고수익성 장기화되는 구조적 변화- FY2Q26 Review: 서프라이즈의 연속, 변함 없는 수요 강세 확인- 폭발적 가이던스, 수익성 개선 지속 전망. 출하 증가는 여전히 제한적",
               "pages": "4",
-              "secureId": "eqqimcxeqxzcmzqgcgxclie",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqimcxeqxzcmzqgcgxclie.pdf",
-              "opinion": null
-            },
-            {
-              "title": "[마이크론 테크놀로지 (NAS:MU)] 사이클 정점을 걱정하기 시작한 투자자들",
-              "broker": "키움증권",
-              "analyst": "박유악",
-              "date": "2026-03-19",
-              "summary": "- 1Q26CY 실적 및 2Q26CY 가이던스 모두 시장 컨센서스 크게 상회- 그러나 투자자들은 사이클 변곡점과 수익성 방어 가능 여부에 더욱 집중하는 모습- 메모리는 가격 상승에서 출하 증가 사이클로 전환. 긴 호흡에서 접근해야 할 시기",
-              "pages": "6",
-              "secureId": "eqqillgkgicxmizgcgxclie",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqillgkgicxmizgcgxclie.pdf",
+              "secureId": "eqqimcxeqxzcmzqgcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqimcxeqxzcmzqgcgxcmci.pdf",
               "opinion": null
             }
           ],
@@ -9765,7 +9756,7 @@ window.TEAM2_DATA = {
       "nameKo": "마벨 테크놀로지 그룹",
       "nameEn": "MARVELL TECHNOLOGY INC",
       "detail": {
-        "fetchedAt": "2026-09-01",
+        "fetchedAt": "2026-09-03",
         "nameKo": "마벨 테크놀로지 그룹",
         "nameEn": "MARVELL TECHNOLOGY INC",
         "infomaxCode": "NAS:MRVL",
@@ -9851,6 +9842,18 @@ window.TEAM2_DATA = {
           "ticker": "MRVL",
           "items": [
             {
+              "title": "Why Is Marvell Stock Falling, and is it a Generational Buying Opportunity?",
+              "url": "https://www.nasdaq.com/articles/why-marvell-stock-falling-and-it-generational-buying-opportunity",
+              "date": "2026-09-01",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MRVL",
+                "MRVL"
+              ]
+            },
+            {
               "title": "LITE's AI Optics Push Boosts Growth Prospects Against MRVL & NVDA",
               "url": "https://www.nasdaq.com/articles/lites-ai-optics-push-boosts-growth-prospects-against-mrvl-nvda",
               "date": "2026-08-31",
@@ -9864,90 +9867,21 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Wall Street Analysts Believe Marvell (MRVL) Could Rally 34.31%: Here's is How to Trade",
-              "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-marvell-mrvl-could-rally-3431-heres-how-trade",
-              "date": "2026-08-31",
+              "title": "Credo's Optical Bet: Is a $600M+ Revenue Opportunity Taking Shape?",
+              "url": "https://www.nasdaq.com/articles/credos-optical-bet-600m-revenue-opportunity-taking-shape",
+              "date": "2026-09-02",
               "publisher": "Zacks",
               "tier1": false,
-              "direct": true,
+              "direct": false,
               "tickers": [
-                "MRVL"
-              ]
-            },
-            {
-              "title": "Marvell (MRVL) Q2 2027 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/marvell-mrvl-q2-2027-earnings-call-transcript",
-              "date": "2026-08-31",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
+                "CRDO",
                 "MRVL",
-                "MRVL"
-              ]
-            },
-            {
-              "title": "Marvell (MRVL) International Revenue Performance Explored",
-              "url": "https://www.nasdaq.com/articles/marvell-mrvl-international-revenue-performance-explored",
-              "date": "2026-08-31",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MRVL"
-              ]
-            },
-            {
-              "title": "Is Marvell Stock a Buy on the Dip as AI Revenue Soars?",
-              "url": "https://www.nasdaq.com/articles/marvell-stock-buy-dip-ai-revenue-soars",
-              "date": "2026-08-31",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MRVL",
-                "MRVL"
-              ]
-            },
-            {
-              "title": "Marvell's AI Bookings Are Stellar. But Its Gross Margin Guide Is What Moved the Stock.",
-              "url": "https://www.nasdaq.com/articles/marvells-ai-bookings-are-stellar-its-gross-margin-guide-what-moved-stock",
-              "date": "2026-08-29",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MRVL",
-                "MRVL"
-              ]
-            },
-            {
-              "title": "Marvell (MRVL) Stock Falls 10% After Q2 Earnings: Buy the Dip?",
-              "url": "https://www.nasdaq.com/articles/marvell-mrvl-stock-falls-10-after-q2-earnings-buy-dip",
-              "date": "2026-08-28",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MRVL",
-                "GOOGL"
-              ]
-            },
-            {
-              "title": "Stock Market Today, Aug. 28: Marvell Slides 10% on Softer Fiscal 2028 Guidance and Google Deal Timing",
-              "url": "https://www.nasdaq.com/articles/stock-market-today-aug-28-marvell-slides-10-softer-fiscal-2028-guidance-and-google-deal",
-              "date": "2026-08-28",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MRVL",
-                "MRVL"
+                "ALAB"
               ]
             }
           ],
-          "directCount": 8,
-          "total": 8,
+          "directCount": 2,
+          "total": 3,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -10055,7 +9989,7 @@ window.TEAM2_DATA = {
           }
         ],
         "krReports": {
-          "total": 9,
+          "total": 8,
           "reports": [
             {
               "title": "[마벨 테크놀로지 그룹 (NAS:MRVL)] 10월 도파민이 필요하다",
@@ -10064,8 +9998,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-28",
               "summary": "- 단기 주가 약세 가능성. 10월 투자자의 날 행사가 중요- 컨센서스 상회한 FY 2Q27 실적- 시장 예상보다 강한 FY 3Q27 가이던스. 연간 매출 가이던스 상향",
               "pages": "6",
-              "secureId": "eqlqlmzgqimxqkcgcgxcmce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlmzgqimxqkcgcgxcmce.pdf",
+              "secureId": "eqlqlmzgqimxqkcgcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlmzgqimxqkcgcgxcmci.pdf",
               "opinion": null
             },
             {
@@ -10075,8 +10009,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-27",
               "summary": "- 매출 27.39억달러, DC +46%로 순차 13.3% 가속- FY27 120억·FY28 180억달러, 다섯 번째 상향- 3분기 총마진 58.0% 가이던스로 90bp 후퇴",
               "pages": "7",
-              "secureId": "eqlqlqkllqllkqxgcgxcmce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqkllqllkqxgcgxcmce.pdf",
+              "secureId": "eqlqlqkllqllkqxgcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqkllqllkqxgcgxcmci.pdf",
               "opinion": null
             },
             {
@@ -10086,8 +10020,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-19",
               "summary": "- 구글과 7월29일 커스텀 반도체 상업계약 체결- 워런트 최대 5,897만주, 행사가 206.58달러- 1년 확정베스팅 544만주뿐, 잔여조건 미공개",
               "pages": "5",
-              "secureId": "eqlqeqmkggkqgezgcgxcmce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqeqmkggkqgezgcgxcmce.pdf",
+              "secureId": "eqlqeqmkggkqgezgcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqeqmkggkqgezgcgxcmci.pdf",
               "opinion": null
             },
             {
@@ -10097,8 +10031,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-19",
               "summary": "- 마벨 8월 28일 실적, 핵심은 매출보다 성장 재가속 속도 확인- 이번 분기 매출 가이던스 27억달러로 전분기 대비 12% 성장, 성장 재가속 지속 여부가 핵심- 데이터센터 비중 75.7%, 인터커넥트 성장 목표 70% 이상으로 상향, 하반기 30억달러 매출의 선행 신호",
               "pages": "5",
-              "secureId": "eqlqcmizcxigmeggcgxcmce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcmizcxigmeggcgxcmce.pdf",
+              "secureId": "eqlqcmizcxigmeggcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcmizcxigmeggcgxcmci.pdf",
               "opinion": null
             },
             {
@@ -10108,8 +10042,8 @@ window.TEAM2_DATA = {
               "date": "2026-05-28",
               "summary": "- 단순 광 DSP 업체를 넘어, 광연결-스위칭-XPU를 결합한 AI 인프라 연결 플랫폼으로 진화. 12MF P/E 43배의 멀티플을 실적을 통해 입증할 전망- FY1Q27 매출액 24.2억(YoY+27.6%, 이하 전년동기대비), Non-GAAP 영업이익 8.5억달러(+30.8%)를 기록하며 컨센서스에 부합. 데이터센터향 매출이 18.3억달러(+27.2%)로 전체의 76%를 기록- AI 데이터센터 연결 병목 해결을 위해 핵심 기술들을 확보. 2월 Celestial AI 인수로 광 기반 포토닉 패브릭과 Scale-up 광연결 역량 확보. XConn 인수는 PCIe, *CXL 스위치와 UALink 스케일업 스위칭 로드맵 보강",
               "pages": "5",
-              "secureId": "eqqmmzqxzcxkqgcgcgxcmce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqmmzqxzcxkqgcgcgxcmce.pdf",
+              "secureId": "eqqmmzqxzcxkqgcgcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqmmzqxzcxkqgcgcgxcmci.pdf",
               "opinion": null
             },
             {
@@ -10119,8 +10053,8 @@ window.TEAM2_DATA = {
               "date": "2025-12-05",
               "summary": "- 3Q25CY 실적 기대치 부합, 4Q25CY 가이던스 역시 장 컨센서스 부합- 다만 커스텀 부문의 성장세가 가속화되며, 2027년 2배 수준의 성장을 보일 전망- ASIC 시장 성장과 함께, Marvell의 실적 성장 및 주가 상승세 이어질 것으로 판단",
               "pages": "6",
-              "secureId": "eqxkmekziimlmgxgcgxcmce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkmekziimlmgxgcgxcmce.pdf",
+              "secureId": "eqxkmekziimlmgxgcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkmekziimlmgxgcgxcmci.pdf",
               "opinion": null
             },
             {
@@ -10130,8 +10064,8 @@ window.TEAM2_DATA = {
               "date": "2025-12-03",
               "summary": "- 단기 실적 기대감은 높지 않겠으나 미래 성장 동력에 주목- FY3Q26 Review: 실적은 예상 부합, 중장기 사업 계획이 서프라이즈- 2023~28년 연평균성장률 +50% 언급. 데이터센터 애플리케이션 강화",
               "pages": "4",
-              "secureId": "eqxkqzqzckqcgzqgcgxcmce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkqzqzckqcgzqgcgxcmce.pdf",
+              "secureId": "eqxkqzqzckqcgzqgcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkqzqzckqcgzqgcgxcmci.pdf",
               "opinion": null
             },
             {
@@ -10141,19 +10075,8 @@ window.TEAM2_DATA = {
               "date": "2025-12-03",
               "summary": "- 매출액 20.8억 달러(YoY +36.8%)로 예상치 0.6% 상회, 가이던스 중간값 대비 1,500만 달러 높은 수치로 사상 최고치 기록- Non-GAAP 매출총이익률은 59.7%(YoY -0.8%p), 영업이익률은 36.3%(YoY +6.6%p) 기록- 2분기 연속 사상 최대 실적 달성. *예상을 상회하는 향후 2개 회계연도의 데이터센터 성장 전망 제시. 시간 외 8.7% 상승",
               "pages": "1",
-              "secureId": "eqxkqixmiqgqqmkgcgxcmce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkqixmiqgqqmkgcgxcmce.pdf",
-              "opinion": null
-            },
-            {
-              "title": "[마블 테크놀로지 그룹 (NAS:MRVL)] Custom Chip 부문 실적 부진 우려",
-              "broker": "키움증권",
-              "analyst": "박유악",
-              "date": "2025-09-01",
-              "summary": "- 2Q25CY 실적 기대치 부합, 3Q25 매출액 가이던스는 시장 컨센서스 소폭 하회- 그러나, Data Center 부문의 매출액 가이던스가 컨센서스를 크게 하회- 그 원인도 custom chip 실적 부진이라고 언급돼, 당분간 주가의 기간 조정 예상",
-              "pages": "5",
-              "secureId": "eqzxxmeczkikgzlgcgxcmce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzxxmeczkikgzlgcgxcmce.pdf",
+              "secureId": "eqxkqixmiqgqqmkgcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkqixmiqgqqmkgcgxcmci.pdf",
               "opinion": null
             }
           ],
@@ -10597,7 +10520,7 @@ window.TEAM2_DATA = {
       "nameKo": "아스테라 랩스",
       "nameEn": "ASTERA LABS INC",
       "detail": {
-        "fetchedAt": "2026-09-01",
+        "fetchedAt": "2026-09-03",
         "nameKo": "아스테라 랩스",
         "nameEn": "ASTERA LABS INC",
         "infomaxCode": "NAS:ALAB",
@@ -10683,6 +10606,19 @@ window.TEAM2_DATA = {
           "ticker": "ALAB",
           "items": [
             {
+              "title": "Better Artificial Intelligence Stock: Astera Labs vs. NVIDIA",
+              "url": "https://www.nasdaq.com/articles/better-artificial-intelligence-stock-astera-labs-vs-nvidia",
+              "date": "2026-09-02",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ALAB",
+                "ALAB",
+                "NVDA"
+              ]
+            },
+            {
               "title": "Is Astera Labs, Inc. (ALAB) Stock Outpacing Its Computer and Technology Peers This Year?",
               "url": "https://www.nasdaq.com/articles/astera-labs-inc-alab-stock-outpacing-its-computer-and-technology-peers-year",
               "date": "2026-08-28",
@@ -10745,6 +10681,19 @@ window.TEAM2_DATA = {
               ]
             },
             {
+              "title": "Credo's Optical Bet: Is a $600M+ Revenue Opportunity Taking Shape?",
+              "url": "https://www.nasdaq.com/articles/credos-optical-bet-600m-revenue-opportunity-taking-shape",
+              "date": "2026-09-02",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "CRDO",
+                "MRVL",
+                "ALAB"
+              ]
+            },
+            {
               "title": "Here's Why You Should Retain Broadridge Stock in Your Portfolio",
               "url": "https://www.nasdaq.com/articles/heres-why-you-should-retain-broadridge-stock-your-portfolio",
               "date": "2026-08-18",
@@ -10758,8 +10707,8 @@ window.TEAM2_DATA = {
               ]
             }
           ],
-          "directCount": 5,
-          "total": 6,
+          "directCount": 6,
+          "total": 8,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -10870,8 +10819,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-25",
               "summary": "- 2Q26 매출·EPS 및 3Q 가이던스 기대치 상회, 외형 성장과 이익 개선 동시 확인- ScorpioX 하반기 양산 본격화. PCIe Gen6 전환, 제품군 확대로 XPU당 콘텐츠 확대- UALink·Optical·CXL 등 신규 연결 영역 확대로 2027년 이후 성장축 다변화 전망",
               "pages": "7",
-              "secureId": "eqlqxmzmkczikxegcgxcmce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqxmzmkczikxegcgxcmce.pdf",
+              "secureId": "eqlqxmzmkczikxegcgxcmci",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqxmzmkczikxegcgxcmci.pdf",
               "opinion": null
             }
           ],

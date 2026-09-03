@@ -1,0 +1,202 @@
+{
+ "ticker": "DELL",
+ "news": [
+  {
+   "title": "Stock Market Today, Sept. 2: Dell Surges 16% on Soaring AI Backlog",
+   "url": "https://www.nasdaq.com/articles/stock-market-today-sept-2-dell-surges-16-soaring-ai-backlog",
+   "date": "2026-09-02",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DELL",
+    "DELL"
+   ]
+  },
+  {
+   "title": "How Dell's AI Server Boom is Driving Hockey-Stick Growth",
+   "url": "https://www.nasdaq.com/articles/how-dells-ai-server-boom-driving-hockey-stick-growth",
+   "date": "2026-09-02",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DELL"
+   ]
+  },
+  {
+   "title": "Is Dell Technologies (DELL) a Solid Growth Stock? 3 Reasons to Think &quot;Yes&quot;",
+   "url": "https://www.nasdaq.com/articles/dell-technologies-dell-solid-growth-stock-3-reasons-think-yes",
+   "date": "2026-09-02",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DELL"
+   ]
+  },
+  {
+   "title": "Dell's $95 Billion Backlog Answers the AI Question",
+   "url": "https://www.nasdaq.com/articles/dells-95-billion-backlog-answers-ai-question",
+   "date": "2026-09-02",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DELL"
+   ]
+  },
+  {
+   "title": "Why Dell Stock Rocketed Higher Wednesday Morning",
+   "url": "https://www.nasdaq.com/articles/why-dell-stock-rocketed-higher-wednesday-morning",
+   "date": "2026-09-02",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DELL",
+    "DELL"
+   ]
+  },
+  {
+   "title": "Dell Q2 Earnings Call Pairs AI Scale With Supply Constraints",
+   "url": "https://www.nasdaq.com/articles/dell-q2-earnings-call-pairs-ai-scale-supply-constraints",
+   "date": "2026-09-02",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "DELL"
+   ]
+  },
+  {
+   "title": "Is Lenovo's Cheap Valuation an Opportunity to Invest in the Stock?",
+   "url": "https://www.nasdaq.com/articles/lenovos-cheap-valuation-opportunity-invest-stock",
+   "date": "2026-09-02",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "HPQ",
+    "DELL"
+   ]
+  },
+  {
+   "title": "Apple's Shares Rise 2.6% as John Ternus Takes Over as CEO",
+   "url": "https://www.nasdaq.com/articles/apples-shares-rise-26-john-ternus-takes-over-ceo",
+   "date": "2026-09-02",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": false,
+   "tickers": [
+    "AAPL",
+    "HPQ",
+    "DELL"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-01",
+   "reportDate": "2026-09-01",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000039/dell-20260901.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-06",
+   "reportDate": "2026-07-02",
+   "items": [
+    "3.03",
+    "5.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "3.03",
+    "5.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526296224/d32716d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-01",
+   "reportDate": "2026-06-25",
+   "items": [
+    "3.03",
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "3.03",
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000036/dell-20260625.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-17",
+   "reportDate": "2026-06-11",
+   "items": [
+    "3.02"
+   ],
+   "itemsKo": [
+    "3.02"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000032/dell-20260611.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-16",
+   "reportDate": "2026-06-16",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526272720/d20600d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-11",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526269594/d131151d8k.htm",
+   "description": "8-K"
+  }
+ ]
+}

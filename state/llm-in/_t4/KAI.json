@@ -1,0 +1,204 @@
+{
+ "ticker": "KAI",
+ "news": [
+  {
+   "title": "Kadant Breaks Below 200-Day Moving Average - Notable for KAI",
+   "url": "https://www.nasdaq.com/articles/kadant-breaks-below-200-day-moving-average-notable-kai",
+   "date": "2026-08-25",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "KAI"
+   ]
+  },
+  {
+   "title": "Kadant (KAI) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/kadant-kai-q2-2026-earnings-call-transcript",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "KAI",
+    "KAI"
+   ]
+  },
+  {
+   "title": "Kadant (KAI) Surpasses Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/kadant-kai-surpasses-q2-earnings-and-revenue-estimates",
+   "date": "2026-08-04",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "KAI",
+    "AMTM"
+   ]
+  },
+  {
+   "title": "Notable Two Hundred Day Moving Average Cross - KAI",
+   "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-kai",
+   "date": "2026-07-07",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "KAI"
+   ]
+  },
+  {
+   "title": "Kadant VP Sells $451,000 in Stock — Is KAI Worth Watching?",
+   "url": "https://www.nasdaq.com/articles/kadant-vp-sells-451000-stock-kai-worth-watching",
+   "date": "2026-06-27",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "KAI",
+    "KAI"
+   ]
+  },
+  {
+   "title": "Kadant (KAI) Shares Cross Below 200 DMA",
+   "url": "https://www.nasdaq.com/articles/kadant-kai-shares-cross-below-200-dma-0",
+   "date": "2026-05-19",
+   "publisher": "BNK Invest",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "KAI"
+   ]
+  },
+  {
+   "title": "Kadant (KAI) Q1 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/kadant-kai-q1-2026-earnings-call-transcript",
+   "date": "2026-05-07",
+   "publisher": "The Motley Fool",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "KAI",
+    "KAI"
+   ]
+  },
+  {
+   "title": "Kadant (KAI) Tops Q1 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/kadant-kai-tops-q1-earnings-and-revenue-estimates",
+   "date": "2026-05-06",
+   "publisher": "Zacks",
+   "tier1": false,
+   "direct": true,
+   "tickers": [
+    "KAI",
+    "AMTM"
+   ]
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000049/kai-20260804.htm",
+   "description": "KAI FORM 8-K 08-04-2026"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-26",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000043/kai-20260520.htm",
+   "description": "FORM 8-K 2026 ANNUAL STOCKHOLDER MEETING"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000037/kai-20260505.htm",
+   "description": "KAI FORM 8-K 05-05-2026"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000034/kai-20260430.htm",
+   "description": "KAI FORM 8-K 04-30-2026"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-23",
+   "reportDate": "2026-02-23",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000015/kai-20260223.htm",
+   "description": "KAI FORM 8-K 02-23-2026"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-18",
+   "reportDate": "2026-02-18",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000011/kai-20260218.htm",
+   "description": "KAI FORM 8-K 2-18-2026"
+  }
+ ]
+}
