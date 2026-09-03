@@ -477,8 +477,274 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-09-03",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "브로드컴, AI 실적·가이던스 다 좋았는데 주가는 오히려 하락",
+        "easy": "브로드컴(AVGO)이 분기 실적을 발표하면서 앞으로도 AI 관련 매출이 잘 나올 거라고 자신 있게 말했습니다(가이던스 = 회사가 미리 알려주는 다음 분기 실적 예상치). CEO는 AI 연구소들과 함께 성장하고 있다고 강조했죠. 그런데 정작 주가는 떨어졌습니다. 시험을 90점 맞았는데 부모님이 '너는 원래 95점 맞잖아'라고 하는 상황과 비슷합니다. 시장이 이미 좋은 실적을 주가에 미리 반영해둬서, 좋은 뉴스가 나와도 더 오를 힘이 남아 있지 않은 겁니다.",
+        "whyMatters": "지금 주도 섹터에서 Technology가 15종목(30%)으로 두 번째로 큰 축인데, 그 축의 대표 주자가 '실적 좋아도 안 오르는' 상태라는 건 기술주 전반의 상승 연료가 약해졌다는 신호입니다. 특히 AI 반도체·네트워크칩 계열 보유 종목은 다음 실적이 좋아도 주가로 이어지지 않을 수 있으니, 실적 발표를 매수 근거로 삼는 전략은 위험합니다. QQQ가 10MA(712.4)가 20MA(717.56) 아래로 내려간 데드크로스 구간(D+3)이라 이런 '호재에도 하락' 패턴은 더 흔해질 수 있습니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Broadcom's stock falls despite upbeat earnings, extending a frustrating stretch for investors",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/broadcoms-stock-falls-despite-upbeat-earnings?mod=mw_rss_topstories",
+            "date": "2026-09-02",
+            "quote": "Broadcom's stock falls despite upbeat earnings, extending a frustrating stretch for investors",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "HPE도 델 뒤따라 AI 서버 붐 타고 실적 크게 상회",
+        "easy": "HPE(휴렛팩커드 엔터프라이즈)가 예상보다 훨씬 좋은 실적을 냈습니다. 이유는 AI 서버입니다. AI를 돌리려면 아주 강력한 컴퓨터가 데이터센터에 잔뜩 필요한데, 그 컴퓨터 본체를 만들어 파는 회사가 HPE와 델입니다. 금광이 터졌을 때 금을 캐는 사람보다 삽과 곡괭이를 파는 가게가 먼저 돈을 버는 것과 같습니다. 델에 이어 HPE까지 같은 결과가 나왔다는 건 AI 투자 지출이 우연이 아니라 실제로 계속되고 있다는 뜻입니다.",
+        "whyMatters": "AI 서버 하드웨어 체인(서버 조립, 전원·냉각, 네트워크 장비)에 실제 매출이 찍히고 있다는 확인이라, Technology 15종목(30%) 중에서도 '스토리'가 아닌 '주문서'로 움직이는 종목들이 상대적으로 버틸 가능성이 큽니다. 다만 서버 조립은 마진이 얇은 사업이라 매출이 커져도 이익률 논쟁이 붙기 쉽습니다. 또 데이터센터는 전력을 많이 먹기 때문에 Energy 4종목(8%) 쪽에도 수요 방향은 우호적입니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "HPE follows in Dell's footsteps as it rides the AI server boom to a big earnings beat",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/hpe-follows-in-dells-footsteps-as-it-rides-the-ai-server-boom-to-a-big-earnings-beat?mod=mw_rss_topstories",
+            "date": "2026-09-02",
+            "quote": "HPE follows in Dell's footsteps as it rides the AI server boom to a big earnings beat",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "엔비디아 주가 상승 — AI 고객층이 넓어진다는 확신이 붙었다",
+        "easy": "엔비디아 주가가 오르고 있습니다. 이유는 'AI 칩을 사가는 손님이 늘고 있다'는 믿음이 커졌기 때문입니다. 예전에는 큰 손님 서너 곳(대형 클라우드 회사)이 대부분을 사갔는데, 이제 그 밖의 회사들도 줄을 선다는 겁니다. 단골 몇 명한테만 팔던 가게에 새 손님이 계속 들어오면, 단골 하나가 발길을 끊어도 가게는 안 망하죠. 투자자들이 무서워하던 '큰 손님 하나 떨어지면 끝'이라는 위험이 줄어든 셈입니다.",
+        "whyMatters": "Technology 15종목(30%)의 심장이 엔비디아인데, 그 심장이 아직 뛰고 있다는 건 기술 섹터가 완전히 무너지지는 않았다는 뜻입니다. 다만 같은 날 브로드컴은 실적 호재에도 빠졌다는 점을 같이 봐야 합니다 — 돈이 기술주에서 빠져나가는 게 아니라 기술주 안에서 '확신이 있는 소수'로 몰리고 있다는 신호입니다. 즉 AI 대장주 한두 개는 버티고, 나머지 AI 관련주는 흔들리는 차별화 장세를 각오해야 합니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Nvidia's stock is climbing as investors get more confidence in an expanding base of AI customers",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/nvidias-stock-is-climbing-as-investors-get-more-confidence?mod=mw_rss_topstories",
+            "date": "2026-09-02",
+            "quote": "Nvidia's stock is climbing as investors get more confidence in an expanding base of AI customers",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "팔란티어 급락 — 채권금리와 구글이 범인으로 지목됐다",
+        "easy": "팔란티어(PLTR) 주가가 미끄러지고 있는데, 기사에서는 두 가지를 원인으로 꼽습니다. 하나는 채권금리 상승입니다(채권금리 = 나라나 회사에 돈을 빌려주면 받는 이자). 은행 이자가 높아지면 '먼 미래에 돈을 많이 벌 회사'보다 '지금 당장 이자 주는 안전한 곳'이 매력적으로 보여서, 비싼 성장주가 먼저 팔립니다. 다른 하나는 구글입니다 — 같은 일을 하는 경쟁자가 커지면 내 몫이 줄어들 수 있다는 걱정이죠. 반에서 1등이던 아이 옆자리에 전학생 우등생이 온 상황과 비슷합니다.",
+        "whyMatters": "팔란티어처럼 밸류에이션(주가가 이익 대비 몇 배인지)이 높은 소프트웨어 성장주는 금리가 오를 때 가장 먼저, 가장 크게 맞습니다. Technology 15종목(30%) 안에서도 '실적보다 기대감으로 오른' 종목을 들고 있다면 손절 기준을 먼저 정해두는 게 맞습니다. 반대로 이런 국면에서는 방어적 성격이 강한 Healthcare 19종목(38%) 쪽이 상대적으로 덜 흔들리는 경향이 있어, 포트폴리오 무게중심을 점검할 시점입니다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Palantir's stock is slumping. Why bond yields and Google may be to blame.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/palantirs-stock-is-slumping-why-bond-yields-and-google-may-be-to-blame?mod=mw_rss_topstories",
+            "date": "2026-09-02",
+            "quote": "Palantir's stock is slumping. Why bond yields and Google may be to blame.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "크레이머: \"기술주를 버리는 게 아니라 더 싼 기술주를 찾는 중\"",
+        "easy": "CNBC의 짐 크레이머가 지금 시장 분위기를 이렇게 설명했습니다 — 투자자들이 기술주를 통째로 내다 파는 게 아니라, 너무 비싸진 종목을 팔고 상대적으로 싼 기술주로 갈아타고 있다는 겁니다. 마트에서 장을 접고 나가는 게 아니라, 값이 오른 물건을 내려놓고 할인 코너로 이동하는 것과 같습니다. 돈은 여전히 시장 안에 있지만 자리를 옮기고 있다는 뜻입니다. 이런 국면에서는 지수가 크게 안 빠져도 내 종목만 유독 아플 수 있습니다.",
+        "whyMatters": "이 해석은 오늘 데이터와 잘 맞습니다 — 엔비디아는 오르고 브로드컴·팔란티어는 빠졌으니, 섹터 이탈이 아니라 섹터 내부의 순환입니다. Technology 15종목(30%)을 들고 있다면 '섹터가 좋다'는 이유만으로 버티지 말고 종목별로 봐야 합니다. 다만 QQQ가 데드크로스(10MA 712.4 < 20MA 717.56, D+3) 상태이므로, 순환이 '더 싼 기술주로'가 아니라 '기술주 밖으로' 바뀌는지 여부를 20MA 회복 여부로 확인해야 합니다.",
+        "impact": "neutral",
+        "sources": []
+      },
+      {
+        "headline": "마이크로소프트, 사업부 통합하며 애저 분기 매출을 따로 공개하기로",
+        "easy": "마이크로소프트가 앞으로 애저(Azure = 마이크로소프트의 클라우드 서비스, 남의 컴퓨터를 빌려 쓰는 사업)의 분기 매출을 따로 떼서 공개하겠다고 했습니다. 그동안은 다른 사업과 뭉뚱그려 발표해서 투자자들이 정확한 크기를 알기 어려웠습니다. 용돈 기입장을 '기타'로 퉁치던 아이가 항목별로 적기 시작한 것과 같습니다. 투명해지는 건 대체로 좋지만, 이제부터는 숫자가 나쁠 때 숨을 곳도 없어집니다.",
+        "whyMatters": "애저 숫자가 공개되면 AI 클라우드 수요가 실제로 얼마나 늘고 있는지를 시장 전체가 분기마다 검증하게 됩니다. 이 숫자는 마이크로소프트 하나가 아니라 엔비디아·브로드컴 같은 AI 반도체와 HPE 같은 서버 업체의 주문 전망을 좌우하는 기준점이 됩니다. Technology 15종목(30%)에 걸린 투자자라면 앞으로 이 발표일이 섹터 전체의 변동성 이벤트가 된다고 봐야 합니다.",
+        "impact": "neutral",
+        "sources": []
+      },
+      {
+        "headline": "오라클 '극도로 논란인' 주식 — 여기서 두 배 넘게 갈 수 있다는 시각",
+        "easy": "오라클(ORCL)을 두고 시장이 정면으로 갈라져 있습니다. 어떤 쪽은 AI 클라우드 계약 덕분에 주가가 지금에서 두 배 넘게 오를 수 있다고 보고, 다른 쪽은 너무 비싸고 위험하다고 봅니다. 기사 제목이 '극도로 논란(extremely controversial)'이라고 붙은 이유입니다. 같은 그림을 보고 누구는 오리, 누구는 토끼라고 하는 상황이죠. 이렇게 의견이 갈리는 종목은 방향이 정해질 때까지 위아래로 크게 흔들립니다.",
+        "whyMatters": "오라클은 AI 데이터센터를 빚을 내서 짓는 대표 사례로 거론되는 종목이라, 이 논쟁의 결말은 AI 인프라 투자 전체의 신뢰도와 연결됩니다. 만약 시장이 '너무 비싸다' 쪽으로 기울면 Technology 15종목(30%) 중 AI 인프라 관련주 전반이 함께 밀립니다. 게다가 지금은 마진부채 YoY +38.6%로 빚을 낸 자금이 시장에 많은 상태라, 논란주가 무너질 때 낙폭이 평소보다 커질 수 있습니다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "How Oracle's 'extremely controversial' stock could more than double from here",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/how-oracles-extremely-controversial-stock-could-more-than-double-from-here?mod=mw_rss_topstories",
+            "date": "2026-09-02",
+            "quote": "How Oracle's 'extremely controversial' stock could more than double from here",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "USTR 그리어 대표, 트럼프 무역 갈등 속 하원 공화당과 회동",
+        "easy": "미국 무역대표부(USTR = 미국의 무역 협상을 담당하는 정부 기관) 그리어 대표가 하원 공화당 의원들과 만났습니다. 배경은 트럼프 행정부의 무역 분쟁입니다. 관세(수입품에 붙이는 세금)를 어디에 얼마나 매길지는 정치권 합의에 따라 바뀌는데, 이 회동은 그 방향을 조율하는 자리입니다. 학교 규칙이 바뀔지 모른다는 소문이 도는 상황과 비슷해서, 확정 전까지는 기업들이 계획을 세우기 어렵습니다.",
+        "whyMatters": "관세는 부품을 해외에서 들여와 조립하는 업종의 원가를 직접 올립니다. AI 서버를 만드는 HPE·델 계열과 반도체 공급망에 걸린 Technology 15종목(30%)이 원가·납기 양쪽에서 영향을 받고, 원자재를 다루는 Basic Materials 3종목(6%)도 수입 관세 변화에 민감합니다. 반대로 매출 대부분이 국내에서 나오는 Healthcare 19종목(38%)은 상대적으로 무역 갈등의 직격을 덜 받는 편이라, 이 리스크가 커질수록 헬스케어의 상대 강도가 부각될 수 있습니다.",
+        "impact": "neutral",
+        "sources": []
+      },
+      {
+        "headline": "우버, 영국 첫 로보택시 서비스 시작 (단, 아직 운전자 동승)",
+        "easy": "우버(UBER)가 영국에서 처음으로 로보택시(스스로 운전하는 택시) 서비스를 시작했습니다. 다만 아직 완전 무인은 아니고 안전을 위해 운전자가 함께 탑니다. 자전거 보조바퀴를 아직 안 뗀 상태라고 보면 됩니다. 그래도 '실험실에서 나와 실제 도로에서 손님을 태운다'는 단계로 넘어간 건 의미가 큽니다. 자율주행이 언제 돈이 되느냐를 두고 몇 년째 말만 많았는데, 실제 서비스가 시작된 것이니까요.",
+        "whyMatters": "미국장 관점에서 이건 나스닥 상장사 우버의 사업 확장 뉴스이고, 동시에 자율주행에 들어가는 고성능 칩·센서 수요가 실제 서비스로 이어진다는 확인입니다. Technology 15종목(30%) 중 AI 연산·차량용 반도체 노출이 있는 종목에는 장기 수요 방향이 우호적입니다. 다만 운전자가 아직 타고 있다는 건 수익성 개선까지는 시간이 남았다는 뜻이라, 단기 실적 모멘텀으로 보기는 이릅니다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Uber launches UK's first robotaxis with a driver - here's what it's like to ride in one",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/business",
+            "date": "2026-09-02",
+            "quote": "Uber launches UK's first robotaxis with a driver - here's what it's like to ride in one",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "뉴저지주, 예측시장 문제를 연방대법원으로 끌고 갔다",
+        "easy": "뉴저지주가 '예측시장'을 두고 미국 연방대법원에 판단을 요청했습니다(예측시장 = 선거 결과나 경기 결과 같은 사건의 성패에 돈을 걸고 사고팔 수 있게 만든 시장). 쟁점은 이게 합법적인 금융상품이냐, 아니면 주(州)가 규제해야 할 도박이냐입니다. 같은 게임을 두고 '스포츠'냐 '내기'냐로 다투는 셈입니다. 대법원까지 갔다는 건 결론이 나면 전국 규칙이 한 번에 바뀐다는 뜻이라 파급이 큽니다.",
+        "whyMatters": "이 판결은 예측시장 기능을 붙인 온라인 증권·베팅 플랫폼의 사업 영역을 넓히거나 반대로 잘라낼 수 있습니다. 즉 소비자 대상 금융·플랫폼 쪽에 걸린 종목의 규제 리스크 이벤트인데, 오늘 주도 섹터인 Healthcare 19종목(38%)·Technology 15종목(30%)과는 직접 겹치지 않습니다. 지금 포트폴리오가 AI·헬스케어 중심이라면 당장 대응할 일은 아니고, 규제 뉴스가 시장 전반의 위험선호를 흔드는지 정도만 지켜보면 됩니다.",
+        "impact": "neutral",
+        "sources": []
+      }
+    ],
+    "marketNarrative": "오늘 시장은 \"기술주가 죽은 장\"이 아니라 \"기술주 안에서 편이 갈리는 장\"입니다. 엔비디아는 AI 고객이 늘고 있다는 확신으로 오르고 HPE는 AI 서버 수요로 실적을 크게 넘겼지만, 브로드컴은 실적과 가이던스가 좋았는데도 주가가 빠졌고 팔란티어는 금리와 경쟁 걱정으로 미끄러졌습니다. 짐 크레이머의 표현대로 투자자들이 기술주를 버리는 게 아니라 비싼 걸 팔고 싼 걸 사는 중이라는 해석이 오늘 움직임과 잘 맞습니다. 문제는 지수 쪽 신호입니다 — QQQ 종가 709.24가 MA10 712.4와 MA20 717.56 아래에 있고, 8월 28일 데드크로스 이후 D+3이라 쿨라매기 기준으로는 신규 진입을 멈추고 보유분 청산을 검토할 구간입니다(10MA가 20MA 아래 = 단기 흐름이 중기 흐름보다 약해진 상태). 여기에 FINRA 고객 마진부채가 YoY +38.6%로 +30% 경계선을 넘어, 빚내서 산 자금이 많은 상태라 조정이 오면 낙폭이 평소보다 커질 수 있습니다. 200일선 대비 +150%를 넘긴 과열 종목이 1개뿐이라 시장 전체가 광풍 수준은 아니지만, 지수는 약하고 자금은 소수 종목으로 몰리는 전형적인 '좁아지는 장'입니다.",
+    "keyRisks": [
+      "QQQ 데드크로스 진행 중(D+3): 종가 709.24가 MA10 712.4·MA20 717.56 모두 아래. 쿨라매기 원칙상 신규 진입 중단 구간이며, 20MA를 되찾기 전까지 돌파 매수는 실패 확률이 높다",
+      "마진부채 YoY +38.6%로 +30% 경계 초과: 빚으로 산 물량이 많다는 뜻. 지수가 밀리면 반대매매(강제 청산)가 하락을 증폭시켜 평소보다 낙폭이 커질 수 있다",
+      "'좋은 실적에도 하락' 패턴(브로드컴): 호재가 이미 주가에 반영된 상태라 실적 발표를 매수 근거로 쓰는 전략이 통하지 않는다. 실적 시즌 이벤트 베팅은 특히 위험",
+      "금리 상승 민감주 취약(팔란티어 사례): 이익 대비 주가가 비싼 성장 소프트웨어가 채권금리에 먼저 맞는다. 고밸류 기술주 비중이 크면 손절선을 미리 확정해둘 것",
+      "무역 정책 불확실성(USTR·트럼프 무역 갈등): 관세 방향이 정해지지 않아 부품을 수입해 조립하는 AI 서버·반도체 공급망과 Basic Materials 3종목(6%) 원가에 예측 불가한 변수",
+      "섹터 쏠림: Healthcare 19종목(38%) + Technology 15종목(30%)이 전체의 약 68%. 두 섹터 중 하나가 무너지면 분산 효과가 거의 없다"
+    ],
+    "easySummary": [
+      "지수는 약합니다 — QQQ가 10MA·20MA를 모두 밑돌고 데드크로스 3일째라, 오늘은 새로 사는 날이 아니라 들고 있는 걸 점검하는 날입니다.",
+      "기술주는 통째로 빠지는 게 아니라 편이 갈립니다 — 엔비디아·HPE는 AI 수요로 오르고, 브로드컴은 실적이 좋았는데도, 팔란티어는 금리 때문에 빠졌습니다.",
+      "빚이 많습니다 — 마진부채가 1년 전보다 +38.6% 늘어난 상태라, 조정이 시작되면 평소보다 빠르고 깊게 빠질 수 있으니 레버리지는 줄이는 게 안전합니다."
+    ],
+    "candidateCount": 14,
+    "verified": {
+      "checked": 249,
+      "ok": 254,
+      "unverified": 63,
+      "dead": 6,
+      "stripped": 7,
+      "removed": [
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.cnbc.com/2026/09/02/broadcom-avgo-earnings-report-q3-2026.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.cnbc.com/2026/09/02/cramer-investors-arent-ditching-tech-they-want-cheaper-stocks.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.cnbc.com/2026/09/02/microsoft-azure-quarterly-revenue-disclosure.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.cnbc.com/2026/09/02/ustr-greer-house-republicans-trump-trade.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.cnbc.com/2026/09/02/new-jersey-supreme-court-prediction-markets.html"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1707753/000170775325000053/estc-20251120.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://simplywall.st/stocks/us/software/nasdaq-frog/jfrog/news/jfrog-frog-stock-rallies-on-ai-growth-but-valuation-question"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.globenewswire.com/news-release/2026/08/04/3338170/0/en/xometry-reports-record-second-quarter-2026-results.html"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.dailypolitical.com/2026/05/27/forum-energy-technologies-nysefet-lowered-to-hold-rating-by-zacks-research.html"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1818331/000181833126000039/wgs-20260504.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1818331/000162828026051852/wgs-20260803.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026047743/ea028778201ex99-1.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026086933/ea030131201ex99-1.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026086933/ea030131201ex99-1.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.taipeitimes.com/News/biz/archives/2026/09/02/2003863518"
+        },
+        {
+          "reason": "URL 부적격(비http·example·검색결과)",
+          "url": "C:\\Users\\305le\\OneDrive\\바탕 화면\\클로드코드test\\breakout-team\\state\\llm-in\\_t4\\NEE-T.json"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.fool.com/investing/2026/09/02/why-credo-technology-stock-plunged-20-today/"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/crdo-20260901.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1974640/000119312526341239/apge-20260810.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/38725/000003872526000051/fele-20260728.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1604028/000160402826000034/wms-20260806.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-ai-powered-ems-stocks-134900634.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-highlights-te-141500342.html"
+        },
+        {
+          "reason": "미래 날짜(2026년 (정확한 게시일 확인 안 됨) > 2026-09-03)",
+          "url": "https://accuristech.com/blog/ai-data-center-electronic-component-supply/"
+        },
+        {
+          "reason": "미래 날짜(2026년 (정확한 게시일 확인 안 됨) > 2026-09-03)",
+          "url": "https://accuristech.com/blog/ai-data-center-electronic-component-supply/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://simplywall.st/stocks/us/materials/nyse-hcc/warrior-met-coal/news/why-warrior-met-coal-hcc-is-up-115-after-boosting-2026-sales"
+        },
+        {
+          "reason": "중복",
+          "url": "https://discoveryalert.com/coking-coal-prices-shanxi-mine-disaster-china-2026/"
+        }
+      ],
+      "noQuote": 7
+    },
+    "reusedFrom": null
   }
 };

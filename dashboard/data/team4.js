@@ -25,9 +25,92 @@ window.TEAM4_DATA = {
         "phaseKo": "봉 없음 — 판정불가"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "category": 5,
+        "categoryName": "매크로·정책·산업 돌파",
+        "ticker": "NEE-T",
+        "company": "넥스트에라 에너지(NextEra Energy)는 미국 최대 규모의 상장 전력회사입니다. 플로리다에서 요금규제를 받는 독점 전력망 사업을 하는 자회사 '플로리다 파워 앤 라이트(FPL)'와, 태양광·풍력·배터리저장 발전소를 짓고 전력을 도매로 파는 '넥스트에라 에너지 리소스(NextEra Energy Resources)' 두 축으로 돈을 벌며, 세계 최대 규모의 풍력·태양광 발전 사업자로 꼽힙니다.",
+        "volumeExplanation": "Node가 넘겨준 NEE-T 전용 자료(news 8건)에는 말레이시아·일본·한국 증시 전망, 설탕·코코아·커피·돼지·소 가격 기사만 있을 뿐 NEE-T를 직접 언급한 기사나 8-K 공시(filings)는 하나도 없었습니다(모두 direct:false, filings:null). 그래서 웹검색으로 확인해보니, 바로 오늘 2026년 9월 3일 오전 9시(미국 동부시간)에 넥스트에라 에너지 주주들이 화상으로 특별주주총회를 열어 도미니언 에너지(Dominion Energy) 인수를 위한 약 7억1,600만 주 신주 발행 안건에 투표합니다. 도미니언 에너지 주주들도 같은 날 오전 9시30분 별도 총회에서 같은 합병안에 투표합니다. 이 거래는 2026년 5월 18일 발표된 약 670억 달러 규모의 전액 주식+현금(도미니언 주식 1주당 넥스트에라 주식 0.8138주 + 현금 3억6,000만 달러 배분) 합병으로, 성사되면 세계 최대 규모의 규제형(요금규제) 전력회사가 탄생합니다. 여기에 8월 6일 버지니아 주지사 애비게일 스팬버거가 \"전례 없는\" 조치로 이 합병 심사에 직접 개입(intervene)하겠다고 선언해 전기요금·일자리 문제로 불확실성을 키웠고, 도미니언 주주 일부는 합병 반대 운동을 벌이고 있다는 보도(Blue Virginia, 8월)도 있습니다. 이런 대규모 M&A 표결일(주총 당일)에는 합병차익거래(merger arbitrage) 펀드와 지수 관련 자금이 대거 몰려 거래량이 급증하는 것이 일반적이며, 이것이 거래대금이 20일 평균의 5.59배(VOL_X 5.59), 당일 제외 5일 평균 대비 10.24배에 달하는 거래량 폭증을 설명해 줍니다.",
+        "isHighlight": true,
+        "confidence": "high",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "넥스트에라 에너지 특별주주총회가 2026년 9월 3일(오늘) 오전 9시 동부시간에 도미니언 에너지 인수를 위한 주식 발행 승인 안건 투표로 열린다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "NEXTERA ENERGY INC - Form 424B3 - FY2026",
+                "publisher": "U.S. Securities and Exchange Commission (SEC EDGAR)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0000753308/000110465926087576/tm2614888-19_424b3.htm",
+                "date": "2026",
+                "quote": "The special meeting of NextEra Energy shareholders will be held virtually via webcast at www.virtualshareholdermeeting.com/NEE2026SM, on September 3, 2026, at 9:00 a.m., Eastern Time.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "도미니언 에너지 주주들도 같은 날인 9월 3일 넥스트에라 합병안에 대해 투표한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dominion Energy Shareholders to Vote 9/3 on the NextEra Merger; There's a Shareholder Movement to Stop It",
+                "publisher": "Blue Virginia",
+                "url": "https://bluevirginia.us/2026/08/dominion-energy-shareholders-to-vote-9-3-on-the-nextera-merger-theres-a-shareholder-movement-to-stop-it/",
+                "date": "2026-08",
+                "quote": "Dominion Energy shareholders will vote September 3 on the NextEra Energy merger.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "버지니아 주지사 애비게일 스팬버거가 8월 초 전례 없는 조치로 이 합병 심사에 직접 개입하겠다고 선언했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Virginia governor Abigail Spanberger intervenes in $67B Dominion-NextEra merger",
+                "publisher": "WTVR (CBS 6 News)",
+                "url": "https://www.wtvr.com/news/local-news/spanberger-dominion-nextera-merger-aug-6-2026",
+                "date": "2026-08-06",
+                "quote": "I know this action is unprecedented by a Virginia governor — but so, too, is the size of this proposed merger and its potential impact on the commonwealth.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "이 합병은 도미니언 주주에게 주당 넥스트에라 주식 0.8138주와 현금 배분을 지급하는 구조이며, 총 3억6,000만 달러의 현금이 포함된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "NEXTERA ENERGY INC - Form S-4 - FY2026",
+                "publisher": "U.S. Securities and Exchange Commission (SEC EDGAR)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0000753308/000110465926082301/tm2614888-13_s4.htm",
+                "date": "2026",
+                "quote": "each share of Dominion Energy common stock issued and outstanding immediately prior to the effective time...will be automatically converted into the right to receive (i) its pro rata portion...of an aggregate amount equal to $360 million in cash, without interest, and (ii) 0.8138 (the \"exchange ratio\") shares of common stock, par value $0.01 per share, of NextEra Energy",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c5",
+            "statement": "근거 없음(출처 검증 실패로 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [],
+            "stripped": true
+          }
+        ],
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 claims가 출처(SEC 424B3, Blue Virginia, WTVR, SEC S-4)로 검증됨"
+        }
       }
     },
     {
@@ -50,9 +133,101 @@ window.TEAM4_DATA = {
         "rangePct": 273.82
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "DELL",
+        "category": 1,
+        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
+        "company": "델 테크놀로지스(Dell Technologies)는 개인용 PC·노트북부터 서버, 스토리지, 네트워크 장비까지 만드는 미국의 컴퓨터 하드웨어 회사다. 최근에는 기업·데이터센터용 AI 서버(엔비디아 GPU를 탑재한 고성능 서버)를 대량으로 만들어 파는 사업이 회사 성장의 핵심 축이 됐다. 즉 예전에는 개인용 PC 회사였지만, 지금은 'AI 인프라를 짓는 회사'에 가깝다.",
+        "volumeExplanation": "2026년 9월 1일 장 마감 후 델은 2027 회계연도 2분기 실적을 발표했고(SEC 공시 8-K, 공시 항목 2.02 = 실적발표, 제출일 2026-09-01), 이 실적에서 AI 서버 관련 수주잔고(주문은 받았지만 아직 납품하지 못한 물량, 백로그)가 950억 달러(약 95 Billion)에 달한다는 사실이 알려졌다. 이 소식에 다음날인 9월 2일 델 주가가 하루 만에 16% 급등했고, 이 실적발표와 AI 서버 수요 급증 뉴스가 거래대금을 20일 평균 대비 5.29배(VOL_X 5.29)로, 주간 거래량을 직전 5일 평균 대비 4.96배로 폭증시킨 직접적인 계기가 됐다. 종가강도(장중 저점~고점 구간에서 종가가 얼마나 높은 위치에서 마감했는지 보여주는 지표)가 91.19로 매우 높게 나와, 장중 오른 폭을 거의 그대로 지키며 마감할 만큼 매수세가 강했다는 것도 확인된다. 52주 최고가 대비 95.76%까지 근접했지만 60일 신고가 돌파는 아직 이루어지지 않은 상태(NO)로, 이번 거래량 폭증이 신고가 경신을 눈앞에 둔 강한 실적 모멘텀 구간에서 나왔다는 뜻이다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "델은 2026년 9월 1일 SEC에 8-K 공시(공시 항목 2.02 = 실적발표)를 제출해 분기 실적을 발표했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "8-K (Item 2.02 실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000039/dell-20260901.htm",
+                "date": "2026-09-01",
+                "quote": "form: 8-K, filingDate: 2026-09-01, items: [\"2.02\",\"9.01\"], itemsKo: [\"실적 발표\",\"재무제표·첨부\"], isEarnings: true",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적발표 다음날인 2026년 9월 2일, AI 서버 수주 호조 소식과 함께 델 주가가 16% 급등했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Stock Market Today, Sept. 2: Dell Surges 16% on Soaring AI Backlog",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/stock-market-today-sept-2-dell-surges-16-soaring-ai-backlog",
+                "date": "2026-09-02",
+                "quote": "Stock Market Today, Sept. 2: Dell Surges 16% on Soaring AI Backlog",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "델의 AI 서버 관련 수주잔고(백로그)가 950억 달러 규모에 달한다는 분석이 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dell's $95 Billion Backlog Answers the AI Question",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/dells-95-billion-backlog-answers-ai-question",
+                "date": "2026-09-02",
+                "quote": "Dell's $95 Billion Backlog Answers the AI Question",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "AI 서버 수요 급증이 델의 매출·실적을 가파르게 끌어올리고 있다는 분석(하키스틱 성장)이 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "How Dell's AI Server Boom is Driving Hockey-Stick Growth",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/how-dells-ai-server-boom-driving-hockey-stick-growth",
+                "date": "2026-09-02",
+                "quote": "How Dell's AI Server Boom is Driving Hockey-Stick Growth",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c5",
+            "statement": "실적발표 컨퍼런스콜에서 AI 사업 확장(스케일)과 공급 제약(supply constraints) 이슈가 함께 언급됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dell Q2 Earnings Call Pairs AI Scale With Supply Constraints",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/dell-q2-earnings-call-pairs-ai-scale-supply-constraints",
+                "date": "2026-09-02",
+                "quote": "Dell Q2 Earnings Call Pairs AI Scale With Supply Constraints",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "high",
+        "isHighlight": true,
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 claims가 출처(SEC EDGAR, Motley Fool, Zacks)로 검증됨"
+        }
       }
     },
     {
@@ -75,9 +250,92 @@ window.TEAM4_DATA = {
         "rangePct": 256.91
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CRDO",
+        "category": 1,
+        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
+        "company": "Credo Technology Group Holding Ltd(CRDO)는 반도체 설계 회사로, AI 데이터센터 안에서 서버와 스위치를 연결하는 초고속 데이터 전송용 반도체와 광통신(optical) 부품을 만들어 판다. 대표 제품은 능동형 전기케이블(AEC)용 칩과 광트랜시버에 들어가는 리타이머(신호 재생) 칩이며, 아마존·마이크로소프트 같은 대형 클라우드 기업(하이퍼스케일러)이 AI 서버를 연결하는 인프라에 이 부품을 채택하면서 매출이 급성장하고 있다.",
+        "volumeExplanation": "2026-09-01(화) 장 마감 후 Credo가 2027 회계연도 1분기 실적을 발표했다(미국 증권거래위원회 8-K 공시, item 2.02=실적발표, 제출일 2026-09-01). 매출은 4억7900만 달러로 전년동기 대비 115% 급증해 애널리스트 예상치 4억7177만 달러를 넘어섰고, 조정 주당순이익(EPS)은 1.20달러로 전년 0.52달러 대비 131% 늘어 컨센서스 1.17달러를 상회했다. 회사는 2분기 매출 가이던스를 약 5억3000만 달러(컨센서스 5억1700만 달러 상회)로 제시했고, 2026-09-02 Zacks 기사 제목대로 하반기에는 광통신(optical) 매출이 6억 달러(600M)를 넘어설 것이라는 전망도 내놨다. 실적과 가이던스 모두 시장 예상을 웃돌았음에도, 2026-09-02(수) 주가는 오히려 약 20% 폭락했다(2026-09-02 The Motley Fool 기사 제목 \"Why Credo Technology Stock Plunged 20% Today\"). 3대 고객사가 전체 매출의 74%를 차지하는 고객 집중 위험과 이미 높은 밸류에이션 부담이 부각되며 어닝 서프라이즈에도 매물이 쏟아진 것이다. 이 실적발표와 다음날의 급락성 매도가 겹치면서 거래대금은 20일 평균의 3.96배(VOL_X 3.96), 최근 5일 평균 대비로는 6.24배까지 치솟았다. 종가강도 11.43(0에 가까울수록 당일 저가권에서 마감했다는 뜻)이 보여주듯 주가는 하루 대부분을 저가권에서 마감했고, 현재 주가는 52주 고점 대비 53.53% 낮은 수준이며 150일 이동평균선 아래에 머물러 있다. 즉 이번 거래량 폭증은 상승 돌파가 아니라, 실적·가이던스 서프라이즈에도 불구하고 밸류에이션·고객집중 우려로 촉발된 급락성 거래량 폭발이다.",
+        "claims": [
+          {
+            "id": "earnings-beat",
+            "statement": "2026-09-01 발표된 2027 회계연도 1분기 실적에서 Credo는 매출·EPS 모두 시장 예상치를 상회했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Credo Technology Group Holding Ltd. (CRDO) Q1 Earnings and Revenues Beat Estimates",
+                "publisher": "Zacks (via Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/credo-technology-group-holding-ltd-crdo-q1-earnings-and-revenues-beat-estimates",
+                "date": "2026-09-01",
+                "quote": "Credo Technology Group Holding Ltd. (CRDO) Q1 Earnings and Revenues Beat Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "revenue-eps-detail",
+            "statement": "매출은 전년동기 대비 115% 늘어난 4억7900만 달러, 조정 EPS는 1.20달러로 전년 0.52달러 대비 131% 증가했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Credo Technology Stock Plunged 20% Today",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/investing/2026/09/02/why-credo-technology-stock-plunged-20-today/",
+                "date": "2026-09-02",
+                "quote": "Revenue more than doubled, with a 115% year-over-year jump to $479 million",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "stock-plunge-despite-beat",
+            "statement": "실적·가이던스 서프라이즈에도 불구하고 2026-09-02 주가는 약 20% 폭락했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Credo Technology Stock Plunged 20% Today",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/investing/2026/09/02/why-credo-technology-stock-plunged-20-today/",
+                "date": "2026-09-02",
+                "quote": "Why Credo Technology Stock Plunged 20% Today",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "optical-guidance",
+            "statement": "실적발표 콜에서 회사는 광통신(optical) 사업이 6억 달러(600M) 이상 규모의 매출 기회로 성장할 수 있다는 전망을 제시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Credo's Optical Bet: Is a $600M+ Revenue Opportunity Taking Shape?",
+                "publisher": "Zacks (via Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/credos-optical-bet-600m-revenue-opportunity-taking-shape",
+                "date": "2026-09-02",
+                "quote": "Credo's Optical Bet: Is a $600M+ Revenue Opportunity Taking Shape?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "sec-8k-earnings-filing",
+            "statement": "근거 없음(출처 검증 실패로 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [],
+            "stripped": true
+          }
+        ],
+        "confidence": "high",
+        "isHighlight": true,
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 claims가 출처(SEC EDGAR, Motley Fool, Zacks)로 검증됨. 단위 환산(479 million = 4억7900만) 정확함"
+        }
       }
     },
     {
@@ -100,9 +358,70 @@ window.TEAM4_DATA = {
         "rangePct": 107.13
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "APGE",
+        "category": 3,
+        "categoryName": "대형 기업 인수합병(M&A) — \"③ 대형 파트너십·공급계약\"에 준하는 대기업발 초대형 딜",
+        "company": "아포지 테라퓨틱스(Apogee Therapeutics)는 아직 승인된 제품이나 매출이 없는 임상단계 바이오테크 기업이다. 아토피 피부염, 천식, 호산구성 식도염(EoE), 만성폐쇄성폐질환(COPD) 같은 염증·면역질환을 겨냥한 항체 신약을 개발하며, 대표 파이프라인은 아토피 피부염 치료제 후보 주밀로키바트(zumilokibart, APG777)로 임상 2상 단계에 있다.",
+        "volumeExplanation": "2026년 6월 22일 대형 제약사 애브비(AbbVie)가 아포지를 주당 135.11달러 현금, 총 지분가치 약 109억 달러에 인수하는 확정 계약을 발표했다. 이후 종결조건이 하나씩 충족됐다 — 미국 반독점 심사(허트-스콧-로디노법 대기기간)가 8월 5일 밤 11시59분 만료됐고, 독일 경쟁당국은 7월 27일, 오스트리아는 8월 4일 각각 승인했다. 같은 시기인 8월 10일에는 2분기 실적발표(8-K, 항목 2.02)를 통해 임상 2상 관련 파이프라인 업데이트도 함께 공개됐다. 즉 이 종목은 이미 몇 달 전 발표된 인수합병 건이 3분기(2026년 9월 말) 마감을 앞두고 대부분의 종결조건을 충족한 상태다. 그 결과 주가는 인수가 135.11달러에 거의 못박힌 채(52주 고점 대비 99.99%) 움직이고 있고, 60일 신고가 돌파도 나오지 않는다 — 인수가가 사실상 천장 역할을 하기 때문이다. 이번 주 거래대금이 20일 평균의 3.59배(VOL_X), 주간 거래량이 5일 평균의 3.89배로 튄 것은 거래 종결이 임박했다고 보는 위험차익거래(merger arbitrage) 자금과 지수 편입·제외를 앞둔 기관 매매가 이 시점에 몰렸기 때문으로 추정된다. 다만 9월 1~3일 사이에 새로 나온 별도의 \"거래 최종 완료\" 발표 기사는 검색으로 확인하지 못했다 — 그래서 이 설명은 확정 사실이 아니라 정황상 가장 합리적인 추정이다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "2026년 6월 22일 애브비가 아포지 테라퓨틱스를 주당 135.11달러 현금, 총 지분가치 약 109억 달러에 인수하는 확정 계약(definitive agreement)을 체결했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AbbVie to Acquire Apogee Therapeutics, Deepening Immunology Portfolio",
+                "publisher": "AbbVie",
+                "url": "https://news.abbvie.com/2026-06-22-AbbVie-to-Acquire-Apogee-Therapeutics,-Deepening-Immunology-Portfolio",
+                "date": "2026-06-22",
+                "quote": "Under the terms of the definitive agreement, AbbVie will acquire all outstanding shares of Apogee for $135.11 per share in cash. The transaction values Apogee at a total equity value of approximately $10.9 billion.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "미국 반독점 심사(허트-스콧-로디노법) 대기기간이 2026년 8월 5일 밤 11시59분 만료되어, 미국 내에서 거래를 종결할 수 있는 조건이 충족됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AbbVie-Apogee deal cleared in US, Germany and Austria",
+                "publisher": "MLex",
+                "url": "https://www.mlex.com/mlex/mergers-acquisitions/articles/2510427",
+                "date": "2026-08-05",
+                "quote": "the Hart-Scott-Rodino Act waiting period for their merger expire at 11:59 p.m. on Aug. 5, allowing the deal to close in the United States",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "근거 없음(출처 검증 실패로 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [],
+            "stripped": true
+          },
+          {
+            "id": "c5",
+            "statement": "이번 주(9월 1~3일)의 구체적인 거래대금 급증을 직접 언급한 별도 뉴스는 검색으로 찾지 못했다 — 위 M&A 정황을 근거로 한 추정일 뿐 확정 근거는 아니다.",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "confidence": "medium",
+        "isHighlight": false,
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c3"
+          ],
+          "reason": "c3에서 '46,508,107표 찬성으로' 구체적 투표수가 TipRanks quote에 없으며, '승인되어' 및 '마지막 핵심 조건' 표현도 quote로 뒷받침되지 않음. TipRanks quote는 '투표하기 위해 열었다(to vote on)'만 명시",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "2026년 6월 22일 대형 제약사 애브비(AbbVie)가 아포지를 주당 135.11달러 현금, 총 지분가치 약 109억 달러에 인수하는 확정 계약을 발표했다. 이후 종결조건이 하나씩 충족됐다 — 미국 반독점 심사(허트-스콧-로디노법 대기기간)가 8월 5일 밤 11시59분 만료됐고, 독일 경쟁당국은 7월 27일, 오스트리아는 8월 4일 각각 승인했다. 8월 11일 임시주주총회에서는 주주들이 46,508,107표 찬성으로 합병안을 통과시켜 마지막 핵심 조건까지 채워졌다. 같은 시기인 8월 10일에는 2분기 실적발표(8-K, 항목 2.02)를 통해 임상 2상 관련 파이프라인 업데이트도 함께 공개됐다. 즉 이 종목은 이미 몇 달 전 발표된 인수합병 건이 3분기(2026년 9월 말) 마감을 앞두고 모든 걸림돌을 넘어선 상태다. 그 결과 주가는 인수가 135.11달러에 거의 못박힌 채(52주 고점 대비 99.99%) 움직이고 있고, 60일 신고가 돌파도 나오지 않는다 — 인수가가 사실상 천장 역할을 하기 때문이다. 이번 주 거래대금이 20일 평균의 3.59배(VOL_X), 주간 거래량이 5일 평균의 3.89배로 튄 것은 거래 종결이 임박했다고 보는 위험차익거래(merger arbitrage) 자금과 지수 편입·제외를 앞둔 기관 매매가 이 시점에 몰렸기 때문으로 추정된다. 다만 9월 1~3일 사이에 새로 나온 별도의 \"거래 최종 완료\" 발표 기사는 검색으로 확인하지 못했다 — 그래서 이 설명은 확정 사실이 아니라 정황상 가장 합리적인 추정이다."
       }
     },
     {
@@ -125,9 +444,100 @@ window.TEAM4_DATA = {
         "rangePct": 119.35
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MDB",
+        "category": 1,
+        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "2026년 9월 1일, MongoDB가 2분기(Q2) 실적을 발표(SEC 8-K, item 2.02 실적발표 공시)했고 매출과 EPS 모두 시장 예상치를 넘어섰다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "MongoDB (MDB) Surpasses Q2 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/mongodb-mdb-surpasses-q2-earnings-and-revenue-estimates",
+                "date": "2026-09-01",
+                "quote": "MongoDB (MDB) Surpasses Q2 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "이번 분기 매출이 전년 대비 30% 증가했고, 흑자(이익)를 기록했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "MongoDB Posts Q2 Profit, Revenue Rises 30%",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/mongodb-posts-q2-profit-revenue-rises-30",
+                "date": "2026-09-01",
+                "quote": "MongoDB Posts Q2 Profit, Revenue Rises 30%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "이번 실적은 시장 기대치를 뛰어넘는 '어닝 비트'였을 뿐 아니라 향후 가이던스도 상향 조정한 '비트 앤 레이즈'(beat and raise) 분기였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "MongoDB Just Delivered a Beat and Raise Quarter -- So Why Is the Stock Falling?",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/mongodb-just-delivered-beat-and-raise-quarter-so-why-stock-falling",
+                "date": "2026-09-02",
+                "quote": "MongoDB Just Delivered a Beat and Raise Quarter -- So Why Is the Stock Falling?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "실적 발표 컨퍼런스콜에서 클라우드 데이터베이스 서비스인 Atlas의 성장세와 AI(인공지능) 관련 사업 확대(AI Traction)가 강조됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "MongoDB Q2 Earnings Call Highlights Atlas Strength and AI Traction",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/mongodb-q2-earnings-call-highlights-atlas-strength-and-ai-traction",
+                "date": "2026-09-02",
+                "quote": "MongoDB Q2 Earnings Call Highlights Atlas Strength and AI Traction",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c5",
+            "statement": "실적 발표 다음 날인 9월 2일 오전, 실적 호조에도 불구하고 주가가 급락(crash)하는 움직임이 나타나 거래대금·거래량 급증에 매도세도 함께 반영됐을 가능성이 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why MongoDB Stock Crashed Wednesday Morning",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/why-mongodb-stock-crashed-wednesday-morning",
+                "date": "2026-09-02",
+                "quote": "Why MongoDB Stock Crashed Wednesday Morning",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "MongoDB(MDB)는 개발자들이 앱을 만들 때 쓰는 문서형(NoSQL) 데이터베이스 소프트웨어 회사입니다. 자체 서버에 까는 소프트웨어를 팔기도 하지만, 요즘 돈은 대부분 클라우드에서 데이터베이스를 대신 운영해주고 구독료를 받는 서비스인 'Atlas'에서 나옵니다. 최근에는 AI(인공지능) 애플리케이션 개발에 필요한 데이터 저장·검색 인프라로도 자리매김하며 AI 관련 수요를 흡수하고 있습니다.",
+        "volumeExplanation": "2026년 9월 1일, MongoDB가 2분기 실적을 발표(SEC 8-K, item 2.02)했고 매출이 전년 대비 30% 늘며 시장 예상치(컨센서스)를 웃도는 '어닝 비트'를 기록했습니다. 여기에 더해 향후 실적 가이던스까지 함께 상향한 '비트 앤 레이즈' 분기로 평가되면서, 실적 발표 당일과 다음 날(9월 2일)에 거래가 크게 몰렸습니다. 이 실적 발표 이벤트가 거래대금이 20일 평균의 3.52배(VOL_X 3.52), 주간 거래량이 최근 5일 평균의 3.84배로 폭증한 직접적인 계기입니다. 다만 흥미로운 점은 실적이 좋았음에도 불구하고 9월 2일 오전 주가가 급락했다는 보도가 함께 나왔다는 것으로, 실적 발표 후 통상적인 '뉴스 소화'(매수·매도 공방) 과정에서 거래량이 크게 늘어난 것으로 보입니다. 컨퍼런스콜에서는 클라우드 서비스 Atlas의 성장세와 AI 관련 매출 확대가 강조돼, 실적 호재의 핵심 근거로 뒷받침됩니다.",
+        "isHighlight": true,
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 claims가 출처(Zacks, RTTNews, Motley Fool)로 검증됨. 실적 발표 내용 및 주가 반응 모두 확인됨"
+        }
       }
     },
     {
@@ -150,9 +560,63 @@ window.TEAM4_DATA = {
         "rangePct": 57.67
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SENEB",
+        "category": 6,
+        "categoryName": "암묵적 호재 (뚜렷한 뉴스 근거 없음)",
+        "company": "세네카 푸즈(Seneca Foods Corporation)는 미국의 포장 과일·채소 가공업체다. 아운트 넬리스(Aunt Nellie's), 리비스(Libby's), 체리맨(Cherry man) 등의 자체 브랜드와 대형마트 자체상표(PB) 제품으로 통조림·냉동 채소를 판매해 돈을 번다. 2026년 3월에는 B&G 푸즈로부터 그린 자이언트(Green Giant) 미국 냉동식품 사업(냉동채소 재고, 애리조나주 유마 공장 포함)을 인수해 냉동 부문을 키웠다. SENEB는 이 회사의 클래스 B 보통주 티커다.",
+        "volumeExplanation": "Node가 확정한 수치대로 20일 평균 거래대금 대비 3.34배(VOL_X), 최근 5일 평균 대비 주간 거래량은 5.28배로 뛰었고, 150일선 위에서 60일 신고가를 돌파했으며 종가강도 100·52주 고점 대비 100%로 마감해 전형적인 강한 브레이크아웃 캔들 모습이다. 다만 Node가 제공한 SENEB.json 안의 news 항목 2건은 모두 2017년, 2019년 기사이고 SENEB를 직접 다룬 기사도 아니어서(direct: false) 오늘(2026-09-03) 거래량 폭증과는 무관하다. filings를 보면 가장 최근 8-K는 2026-08-11 접수 건인데 내용이 정기 주주총회 표결(item 5.07)과 재무제표 첨부(item 9.01)이지, 실적발표(item 2.02)가 아니다. 웹검색으로 확인한 가장 최근 실적발표는 2026년 6월 27일 마감 분기(2027 회계연도 1분기) 실적으로 2026년 8월 7일에 발표됐는데, 발표 시점이 오늘로부터 약 4주 전이라 오늘 거래량 폭증의 직접 방아쇠로 보기는 어렵다. 웹검색으로 2026년 9월 2~3일 전후의 SENEB 관련 새 보도자료나 뉴스를 찾지 못했고, 뉴스나 공시로 뒷받침되지 않는 이상 category 6(암묵적)으로 분류한다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "Node가 제공한 SENEB.json의 news 2건은 모두 SENEB를 직접 다룬 기사가 아니며(tickers 목록에 함께 언급된 수준), 날짜도 2017년·2019년으로 오늘(2026-09-03) 거래량 폭증과 시점이 맞지 않는다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Stocks That Fell to 3-Year Lows in the Week of July 28",
+                "publisher": "GuruFocus (Nasdaq.com 게재)",
+                "url": "https://www.nasdaq.com/articles/stocks-fell-3-year-lows-week-july-28-2017-07-29",
+                "date": "2017-07-29",
+                "quote": "Stocks That Fell to 3-Year Lows in the Week of July 28",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "가장 최근 8-K 공시(접수일 2026-08-11, 보고일 2026-08-06)는 실적발표(item 2.02)가 아니라 정기 주주총회 표결과 재무제표 첨부에 관한 건이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "FORM 8-K (Seneca Foods, filed 2026-08-11)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774926027008/senea20260806_8k.htm",
+                "date": "2026-08-11",
+                "quote": "주주총회 표결, 재무제표·첨부",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "웹검색으로 2026년 9월 2~3일 전후 SENEB 관련 신규 보도자료나 뉴스, 급등·거래량 폭증을 설명하는 기사를 찾지 못했다. 근거 없음.",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "confidence": "low",
+        "isHighlight": false,
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c3"
+          ],
+          "reason": "c3의 구체적 매출(4억 520만 달러)·희석주당순이익(2.85달러) 및 전년 비교 숫자들이 quote(제목만 제공됨)에 없음.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "Node가 확정한 수치대로 20일 평균 거래대금 대비 3.34배(VOL_X), 최근 5일 평균 대비 주간 거래량은 5.28배로 뛰었고, 150일선 위에서 60일 신고가를 돌파했으며 종가강도 100·52주 고점 대비 100%로 마감해 전형적인 강한 브레이크아웃 캔들 모습이다. 다만 Node가 제공한 SENEB.json 안의 news 항목 2건은 모두 2017년, 2019년 기사이고 SENEB를 직접 다룬 기사도 아니어서(direct: false) 오늘(2026-09-03) 거래량 폭증과는 무관하다. filings를 보면 가장 최근 8-K는 2026-08-11 접수 건인데 내용이 정기 주주총회 표결(item 5.07)과 재무제표 첨부(item 9.01)이지, 실적발표(item 2.02)가 아니다. 웹검색으로 확인한 가장 최근 실적발표는 2026년 6월 27일 마감 분기(2027 회계연도 1분기) 실적으로 2026년 8월 7일에 발표됐는데, 매출 4억 520만 달러(전년 동기 2억 9,750만 달러)·희석주당순이익 2.85달러(전년 2.14달러)로 견조했지만, 발표 시점이 오늘로부터 약 4주 전이라 오늘 거래량 폭증의 직접 방아쇠로 보기는 어렵다. 웹검색으로 2026년 9월 2~3일 전후의 SENEB 관련 새 보도자료나 뉴스를 찾지 못했고, 뉴스나 공시로 뒷받침되지 않는 이상 \"실적 서프라이즈\" 등으로 추정 판정하지 않고 category 6(암묵적)으로 분류한다."
       }
     },
     {
@@ -175,9 +639,59 @@ window.TEAM4_DATA = {
         "rangePct": 6.99
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "TXNM",
+        "category": 5,
+        "categoryName": "매크로·정책·산업 돌파 (M&A 규제승인 진행 + 자본조달)",
+        "company": "TXNM Energy(옛 이름 PNM Resources)는 뉴멕시코·텍사스에서 전기를 만들어 가정과 기업에 보내주는 규제 전력회사입니다. 자회사인 Public Service Company of New Mexico(PNM)와 Texas-New Mexico Power(TNMP)를 통해 전기요금을 받아서 돈을 벌고, 정부(전력 규제기관)가 요금을 승인해주는 구조라 실적이 비교적 안정적인 유틸리티 업종입니다.",
+        "volumeExplanation": "이 공모가 2026년 9월 2일 종결되면서(8-K 공시, item 7.01·8.01) 약 3억9600만달러의 자금이 회사로 들어와 4억달러 규모 단기대출을 갚는 데 쓰였습니다. 공모 종결 시점(9/2)이 거래대금이 20일 평균의 3.25배(VOL_X), 최근 5일 평균 대비로도 2.61배로 튄 시점과 정확히 겹칩니다. 신주 물량 소화와 인수 성사 기대(merger arbitrage) 매수세가 겹치면서 대량 거래가 발생한 것으로 보이며, 종가강도가 80.85로 높고 52주 고점 대비 98.27% 수준인 점도 이 흐름과 맞습니다.",
+        "claims": [
+          {
+            "id": "c2",
+            "statement": "이 공모는 2026년 9월 2일 종결됐고, 순조달액 약 3억9600만달러는 4억달러 규모 텀론(단기대출) 상환에 쓰인다 — 바로 이 8-K가 거래량 폭증 시점과 겹치는 공시다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "TXNM Energy Inc 8-K (2026-09-02)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1108426/000110842626000058/pnm-20260902.htm",
+                "date": "2026-09-02",
+                "quote": "The Offering closed on September 2, 2026. The Company received net proceeds from the Offering of approximately $396 million after deducting the underwriting discounts and commissions and estimated offering expenses. The Company intends to use the net proceeds from the Offering to repay borrowings under its $400 million term loan agreement.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c5",
+            "statement": "2026년 2월 22일 기사 제목대로 FERC가 블랙스톤의 TXNM 인수를 승인했다는 사실이 이번 인수 프로세스의 규제 이정표로 Node가 확보한 뉴스 목록에도 그대로 기록돼 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "FERC Approves Acquisition Of TXNM Energy By Blackstone Infrastructure",
+                "publisher": "RTTNews (via Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/ferc-approves-acquisition-txnm-energy-blackstone-infrastructure",
+                "date": "2026-02-22",
+                "quote": "FERC Approves Acquisition Of TXNM Energy By Blackstone Infrastructure",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "isHighlight": true,
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1",
+            "c3",
+            "c4"
+          ],
+          "reason": "c1: statement의 '706만9646주'(7,069,646)는 quote의 '7,079,646주'와 10,000주 불일치 / c3: '2025년 5월'이라는 날짜가 quote에 없음 / c4: '남은 건 원자력규제위원회(NRC)와 뉴멕시코 주규제기관(NMPRC) 승인이며'라는 내용이 quote에 명시되지 않음",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "TXNM 은 2025년 5월 18일 사모펀드 블랙스톤 인프라스트럭처(Blackstone Infrastructure)와 주당 61.25달러 현금에 회사 전체를 인수당하기로 계약했고, 2026년 2월 연방에너지규제위원회(FERC)와 텍사스 규제기관(PUCT)의 승인을 받은 뒤 연방통신위원회(FCC) 승인과 반독점 대기기간(HSR)까지 통과하며 인수 완료 가능성이 계속 높아지고 있습니다. 이런 가운데 2026년 8월 31일 TXNM은 웰스파고를 주관사로 신주 706만9646주를 주당 56.50달러에 파는 유상증자(공모)를 발표했고, 이 공모가 2026년 9월 2일 종결되면서(8-K 공시, item 7.01·8.01) 약 3억9600만달러의 자금이 회사로 들어와 4억달러 규모 단기대출을 갚는 데 쓰였습니다. 신주 706만주가 한꺼번에 시장에 풀리는 이 공모 종결 시점(9/2)이 바로 거래대금이 20일 평균의 3.25배(VOL_X), 최근 5일 평균 대비로도 2.61배로 튄 시점과 정확히 겹칩니다. 인수가($61.25)에 근접한 가격대에서 신주 물량 소화와 인수 성사 기대(merger arbitrage) 매수세가 겹치면서 대량 거래가 발생한 것으로 보이며, 종가강도가 80.85로 높고 52주 고점 대비 98.27% 수준인 점도 이 흐름과 맞습니다."
       }
     },
     {
@@ -201,8 +715,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -226,8 +739,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -251,8 +763,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -276,8 +787,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -299,8 +809,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -322,8 +831,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -347,8 +855,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -383,9 +890,58 @@ window.TEAM4_DATA = {
         "score": 20
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "UTHR",
+        "category": 2,
+        "categoryName": "바이오테크·헬스케어 — 임상 성공, FDA 승인",
+        "company": "United Therapeutics(유나이티드 세러퓨틱스)는 폐동맥고혈압(PAH)과 특발성 폐섬유증(IPF) 같은 희귀 폐질환 치료제를 만드는 바이오테크 기업이다. 흡입형 치료제 타이바소(Tyvaso), 주사제 레모둘린(Remodulin), 경구제 오레니트람(Orenitram) 등을 팔아서 돈을 벌고, 최근에는 돼지 장기를 사람에게 이식하는 이종장기이식(xenotransplantation) 연구도 진행 중이다.",
+        "volumeExplanation": "2026년 9월 2일 United Therapeutics는 미국 식품의약국(FDA)이 흡입형 타이바소(Nebulized Tyvaso)를 특발성 폐섬유증(IPF) 치료제로 쓰기 위한 보충 신약승인신청(sNDA)을 접수(수리)했다고 발표했다. 회사는 FDA의 심사 완료 예상 시점을 2027년 4월 말로 제시했다. 이 발표 다음 날인 오늘(9월 3일) 기준 거래대금이 20일 평균 대비 2.42배(VOL_X), 직전 5일 평균 대비로는 3.64배까지 치솟았는데, 이는 이 종목을 직접 지목한 최신 뉴스가 바로 이 FDA 접수 소식이라는 점과 시점이 정확히 맞아떨어진다. 다만 이는 정식 '승인'이 아니라 '심사 접수'일 뿐이고, 8월 5일 발표된 2분기 실적(8-K item 2.02)에서 주당순이익(EPS)은 7.27달러로 시장 예상치 7.09달러를 웃돌았지만 매출은 7억8330만 달러로 예상치 8억705만 달러에 못 미쳐(매출 부진, revenue miss) 이미 주가가 부담을 받고 있던 상황이었다. 표면적으로는 호재인 FDA 접수 소식에도 불구하고 종가강도가 45.5로 약세를 보이는 등 매수·매도 공방이 거세지며 거래량이 폭증한 것으로 보인다.",
+        "isHighlight": false,
+        "confidence": "high",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "2026년 9월 2일 FDA가 특발성 폐섬유증(IPF) 치료를 위한 흡입형 타이바소(Nebulized Tyvaso)의 보충 신약승인신청(sNDA)을 접수했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "United Therapeutics Announces FDA Acceptance Of SNDA For Nebulized Tyvaso In IPF",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/united-therapeutics-announces-fda-acceptance-snda-nebulized-tyvaso-ipf",
+                "date": "2026-09-02",
+                "quote": "the U.S. FDA has accepted its supplemental New Drug Application for nebulized Tyvaso Inhalation Solution to treat Idiopathic pulmonary fibrosis.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "2026년 8월 5일 발표된 2분기 실적에서 EPS는 예상치를 웃돌았지만 매출은 예상치를 밑돌았다(EPS beat, revenue miss).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Earnings call transcript: United Therapeutics posts Q2 2026 EPS beat, revenue miss",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-united-therapeutics-posts-q2-2026-eps-beat-revenue-miss-93CH-4837991",
+                "date": "2026-08-05",
+                "quote": "United Therapeutics reported second-quarter 2026 earnings of $7.27 a share, topping Wall Street's estimate of $7.09... revenue of $783.3 million fell short of the $807.05 million forecast",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2",
+            "c4"
+          ],
+          "reason": "c2: FVC 111.8mL 구체적 숫자가 quote에 없음. c4: 다른 회사(Liquidia) 뉴스를 근거로 사용하며, UTHR와의 직접 경쟁을 명시하지 않음.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "2026년 9월 2일 United Therapeutics는 미국 식품의약국(FDA)이 흡입형 타이바소(Nebulized Tyvaso)를 특발성 폐섬유증(IPF) 치료제로 쓰기 위한 보충 신약승인신청(sNDA)을 접수(수리)했다고 발표했다. 회사는 FDA의 심사 완료 예상 시점을 2027년 4월 말로 제시했고, 이 신청은 3상 임상시험 TETON-1·TETON-2에서 위약 대비 강제폐활량(FVC)이 52주차에 평균 111.8mL 개선됐다는 데이터를 근거로 한다. 이 발표 다음 날인 오늘(9월 3일) 기준 거래대금이 20일 평균 대비 2.42배(VOL_X), 직전 5일 평균 대비로는 3.64배까지 치솟았는데, 이는 이 종목을 직접 지목한 최신 뉴스가 바로 이 FDA 접수 소식이라는 점과 시점이 정확히 맞아떨어진다. 다만 이는 정식 '승인'이 아니라 '심사 접수'일 뿐이고, 8월 5일 발표된 2분기 실적(8-K item 2.02)에서 주당순이익(EPS)은 7.27달러로 시장 예상치 7.09달러를 웃돌았지만 매출은 7억8330만 달러로 예상치 8억705만 달러에 못 미쳐(매출 부진, revenue miss) 이미 주가가 부담을 받고 있던 상황이었다. 여기에 경쟁사 리퀴디아(Liquidia)의 유트레피아(Yutrepia)가 PAH 시장에서 치열하게 경쟁하고 있다는 8월 31일자 기사까지 겹치면서, 표면적으로는 호재인 FDA 접수 소식에도 불구하고 종가강도가 45.5로 약세를 보이는 등 매수·매도 공방이 거세지며 거래량이 폭증한 것으로 보인다."
       }
     },
     {
@@ -409,8 +965,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -434,8 +989,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -459,8 +1013,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -484,8 +1037,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -520,9 +1072,80 @@ window.TEAM4_DATA = {
         "score": 20
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "FELE",
+        "category": 1,
+        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
+        "company": "프랭클린 일렉트릭(Franklin Electric, FELE)은 지하수·유체 펌핑 시스템을 설계·제조·유통하는 산업기계 회사다. 수중 모터(submersible motor), 펌프, 전자제어장치 등을 만들어 농업용·주거용 지하수 취수, 정수처리, 주유소용 연료 펌핑 설비 등에 공급한다. 사업부는 크게 유통(Distribution), 글로벌 워터 시스템(Global Water Systems), 에너지 시스템(Energy Systems) 세 부문으로 나뉜다.",
+        "volumeExplanation": "이 실적 발표는 SEC 8-K 공시(item 2.02, 실적 발표)로 같은 날 제출됐고, 회사는 동시에 2026년 연간 매출 가이던스를 22억1,000만~22억9,000만달러로, 조정 EPS 가이던스를 4.50~4.70달러로 상향 조정했다. 이 소식에 주가는 발표 당일 장전 한때 16.7%까지 급등한 것으로 확인됐고(RTTNews, MarketBeat 보도), 곧이어 Baird 등 애널리스트가 목표주가를 118달러에서 124달러로 상향했다. 이후에도 Zacks가 8월 13일 등급을 '매수(Buy)'로 상향했다는 기사와 8월 19일 '성장주로서 지금 사야 한다'는 기사를 잇달아 내면서 실적 서프라이즈 이후 한 달 가까이 관심이 이어졌고, 이런 실적·가이던스 상향 모멘텀이 최근까지 20일 평균 거래대금의 2.21배(VOL_X), 직전 5일 평균 대비 주간 거래량 3.41배로 이어지는 거래량 증가의 근거로 판단된다. 다만 주가는 여전히 150일 이동평균선 아래, 52주 고점 대비 84.47% 수준에 머물러 있어 실적 호재가 주가를 완전한 신고가 돌파로까지는 끌어올리지 못한 상태다.",
+        "claims": [
+          {
+            "id": "c2",
+            "statement": "근거 없음(출처 검증 실패로 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [],
+            "stripped": true
+          },
+          {
+            "id": "c3",
+            "statement": "실적 발표 직후 주가가 상승했고, 회사는 2026년 실적 가이던스를 상향했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Franklin Electric Shares Gain On Q2 Profit Growth, Guidance",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/franklin-electric-shares-gain-q2-profit-growth-guidance",
+                "date": "2026-07-28",
+                "quote": "Franklin Electric Shares Gain On Q2 Profit Growth, Guidance",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "8월 13일 Zacks가 프랭클린 일렉트릭 등급을 '매수(Buy)'로 상향했다는 기사를 냈다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "All You Need to Know About Franklin Electric (FELE) Rating Upgrade to Buy",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/all-you-need-know-about-franklin-electric-fele-rating-upgrade-buy",
+                "date": "2026-08-13",
+                "quote": "All You Need to Know About Franklin Electric (FELE) Rating Upgrade to Buy",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c5",
+            "statement": "8월 19일까지도 Zacks가 프랭클린 일렉트릭을 성장주 매수 후보로 소개하는 기사를 이어갔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Here is Why Growth Investors Should Buy Franklin Electric (FELE) Now",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/here-why-growth-investors-should-buy-franklin-electric-fele-now",
+                "date": "2026-08-19",
+                "quote": "Here is Why Growth Investors Should Buy Franklin Electric (FELE) Now",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "isHighlight": true,
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reason": "Statement의 예상치 1.43~1.47달러, 18% 증가, 6% 증가 등의 구체적 숫자가 quote에 없음. Quote는 'Tops estimates'와 'adjusted EPS $1.55, revenue $622.9M'만 포함.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "2026년 7월 28일 프랭클린 일렉트릭이 2분기 실적을 발표하면서 조정 주당순이익(EPS)이 1.55달러로 시장 예상치 1.43~1.47달러를 웃돌았고, 이는 전년 동기 대비 18% 증가한 분기 사상 최고치였다. 매출도 6억2,290만달러로 전년 대비 6% 늘며 예상치를 소폭 상회했다. 이 실적 발표는 SEC 8-K 공시(item 2.02, 실적 발표)로 같은 날 제출됐고, 회사는 동시에 2026년 연간 매출 가이던스를 22억1,000만~22억9,000만달러로, 조정 EPS 가이던스를 4.50~4.70달러로 상향 조정했다. 이 소식에 주가는 발표 당일 장전 한때 16.7%까지 급등한 것으로 확인됐고(RTTNews, MarketBeat 보도), 곧이어 Baird 등 애널리스트가 목표주가를 118달러에서 124달러로 상향했다. 이후에도 Zacks가 8월 13일 등급을 '매수(Buy)'로 상향했다는 기사와 8월 19일 '성장주로서 지금 사야 한다'는 기사를 잇달아 내면서 실적 서프라이즈 이후 한 달 가까이 관심이 이어졌고, 이런 실적·가이던스 상향 모멘텀이 최근까지 20일 평균 거래대금의 2.21배(VOL_X), 직전 5일 평균 대비 주간 거래량 3.41배로 이어지는 거래량 증가의 근거로 판단된다. 다만 주가는 여전히 150일 이동평균선 아래, 52주 고점 대비 84.47% 수준에 머물러 있어 실적 호재가 주가를 완전한 신고가 돌파로까지는 끌어올리지 못한 상태다."
       }
     },
     {
@@ -546,8 +1169,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -571,8 +1193,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -596,8 +1217,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -621,8 +1241,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -646,8 +1265,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -682,9 +1300,61 @@ window.TEAM4_DATA = {
         "score": 50
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ACGL",
+        "category": 6,
+        "categoryName": "암묵적 호재 (뚜렷한 뉴스 없이 거래량만 터진 경우)",
+        "company": "아치 캐피탈 그룹(Arch Capital Group Ltd, ACGL)은 버뮤다에 본사를 둔 보험·재보험·모기지보험 전문 금융회사다. 기업과 개인의 각종 위험(재산, 상해, 특수 보험, 주택담보대출 부도 위험 등)을 인수해 보험료를 받고, 그 보험료를 운용해 수익을 내는 전형적인 보험지주회사 사업 모델을 가지고 있다.",
+        "volumeExplanation": "Node가 제시한 수치를 보면 거래대금이 20일 평균의 2.1배(VOL_X 2.1), 최근 일주일 거래량이 (당일 제외) 5일 평균의 1.51배로 늘었고, 주가는 150일 이동평균선 위에 있지만 60일 신고가는 돌파하지 못한 채 52주 고점 대비 91.71% 수준에서 6개월째 횡보(베이스폭 23.02%)하고 있다. 그런데 확보된 자료와 추가 웹검색을 종합하면 이 거래량 증가를 직접 설명할 만한 새 호재성 뉴스나 공시는 찾지 못했다. 가장 가까운 실적 공시는 2026-07-28에 낸 8-K(항목 2.02, 실적 발표)였는데, 이는 오늘(2026-09-03)로부터 한 달도 더 지난 일이고, Zacks 기사(2026-08-27)는 오히려 \"지난 실적 발표 이후 주가가 3.7% 하락했다\"고 보도해 실적이 주가에 긍정적으로 작용했다고 보기 어렵다. 또 다른 Zacks 기사(2026-08-25)는 \"ACGL의 보험 부문이 경쟁 및 마진 압박에 직면해 있다\"는 다소 부정적 톤의 내용이었다. 그 밖에 발견된 기사는 WEC 에너지그룹이 어떤 순위 목록에서 아치 캐피탈의 288위 자리를 대신 차지했다는 지수·순위 관련 단신(2026-09-01, BNK Invest)과, 계열 재보험사 RenaissanceRe의 ILS(보험연계증권) 플랫폼을 다룬 기사(2026-08-31)로, ACGL을 직접적인 주인공으로 다루지 않는다. 즉 최근 1~2주 사이 이 종목만을 겨냥한 실적 서프라이즈, 신제품, 대형 계약, 정책 변화 같은 뚜렷한 촉매는 확인되지 않았고, 오히려 있는 뉴스는 부정적이거나 종목과 간접적으로만 연결된다. 이런 이유로 이번 거래량 증가는 특정 뉴스로 설명되지 않는 '암묵적' 성격으로 분류한다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "2026-07-28 8-K 공시(item 2.02, 실적 발표)로 2분기 실적을 냈지만, 그 이후 오히려 주가가 3.7% 하락했다는 보도가 있다",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Is Arch Capital (ACGL) Down 3.7% Since Last Earnings Report?",
+                "publisher": "Zacks (Nasdaq.com)",
+                "url": "https://www.nasdaq.com/articles/why-arch-capital-acgl-down-37-last-earnings-report",
+                "date": "2026-08-27",
+                "quote": "Why Is Arch Capital (ACGL) Down 3.7% Since Last Earnings Report?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "보험 부문이 경쟁 심화와 마진 압박에 직면해 있다는 부정적 톤의 기사가 나왔다",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ACGL's Insurance Segment Faces Competitive and Margin Pressures",
+                "publisher": "Zacks (Nasdaq.com)",
+                "url": "https://www.nasdaq.com/articles/acgls-insurance-segment-faces-competitive-and-margin-pressures",
+                "date": "2026-08-25",
+                "quote": "ACGL's Insurance Segment Faces Competitive and Margin Pressures",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "최근 1~2주(2026-08-31~09-03) 이 종목만을 직접 겨냥해 거래량 급증을 설명할 만한 실적 서프라이즈·대형계약·정책 변화 뉴스는 검색되지 않았다",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "confidence": "medium",
+        "isHighlight": false,
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c3"
+          ],
+          "reason": "c3의 후반부 '이후 8-K는 2026-06-16, 06-09, 06-03(2건), 06-02 등 모두 실적과 무관한 임원변동·계약체결 등 항목이었다'는 내용이 제공된 quote에 없음"
+        }
       }
     },
     {
@@ -708,8 +1378,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -733,8 +1402,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -758,8 +1426,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -783,8 +1450,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -808,8 +1474,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -833,8 +1498,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -858,8 +1522,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -883,8 +1546,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -908,8 +1570,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -933,8 +1594,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -969,9 +1629,84 @@ window.TEAM4_DATA = {
         "score": 20
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "KAI",
+        "category": 6,
+        "categoryName": "암묵적 호재 (뚜렷한 상승 촉매 없음)",
+        "company": "케이던트(Kadant Inc, KAI)는 제지·펄프 가공 설비와 목재 가공 장비, 산업용 프로세스 장비를 만들어 파는 산업재(특수산업기계) 회사입니다. 종이·판지 공장에서 쓰는 여과·탈수·섬유처리 설비, 목재 가공용 장비 등을 팔아서 매출을 올립니다. 2026년 4월 30일에는 오스트리아 특수단면재(니어넷셰이프 압연) 업체인 뵐러 프로필(voestalpine BÖHLER Profil)을 약 1억5,700만 유로에 인수 완료하며 사업을 확장했습니다.",
+        "volumeExplanation": "2026년 9월 3일 기준으로 최근 거래일 근처에는 케이던트(KAI)를 직접 겨냥한 새로운 호재성 뉴스가 없습니다. 가장 최근의 실적 이벤트는 2026년 8월 4일 발표된 2026회계연도 2분기 실적으로, 주당순이익(EPS) 3.42달러·매출 3억1,300만 달러를 기록해 시장 예상치를 웃돌았습니다(어닝 서프라이즈). 하지만 회사는 같은 실적발표에서 2026년 3분기 가이던스를 EPS 2.90~3.00달러, 매출 2억9,700만~3억700만 달러로 2분기보다 낮게(보수적으로) 제시했고, 이 보수적 가이던스 때문에 실적 발표 이후 오히려 주가가 하락했습니다(Investing.com 2026년 8월 12일 기사 제목: \"Kadant tops Q2 2026 estimates but shares slip\"). 이어서 2026년 8월 25일에는 주가가 200일 이동평균선을 하회했다는 기술적 기사가 나왔고, 8월 28일 거래에서는 하루 중 303.32~307.55달러 사이에서 움직였으며 직전 90일 동안 주가가 6.0% 하락해 319달러 수준까지 밀린 상태였습니다. 이는 Node가 제공한 수치(150일선 아래, 60일 신고가 돌파 없음, 52주 고점 대비 83.53%, 6개월간 26.78% 폭의 횡보 베이스)와 정확히 맞아떨어지는 그림입니다. 즉, 최근 발생한 유일한 굵직한 뉴스(2분기 실적)는 오히려 주가 하락과 맞물린 사건이었고, 그 이후 9월 3일 현재까지 새로운 상승 촉매 뉴스는 확인되지 않습니다. 거래대금이 20일 평균 대비 1.66배(VOL_X), 최근 5일 거래량이 직전 평균 대비 2.02배로 다소 늘었지만, 이는 강세 재료에 의한 매수세 유입이라기보다 실적 이후 보수적 가이던스에 따른 매도·물량 소화 성격에 더 가까워 보입니다. 뚜렷한 호재가 확인되지 않으므로 6번 암묵적 분류로 판정합니다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "케이던트는 2026년 8월 4일 발표한 2분기 실적에서 EPS와 매출 모두 시장 예상치를 상회했다(어닝 서프라이즈 자체는 있었음).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Kadant (KAI) Surpasses Q2 Earnings and Revenue Estimates",
+                "publisher": "Zacks / Nasdaq",
+                "url": "https://www.nasdaq.com/articles/kadant-kai-surpasses-q2-earnings-and-revenue-estimates",
+                "date": "2026-08-04",
+                "quote": "Kadant (KAI) Surpasses Q2 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "KAI FORM 8-K 08-04-2026",
+                "publisher": "SEC EDGAR (Kadant Inc, 8-K item 2.02 실적 발표)",
+                "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000049/kai-20260804.htm",
+                "date": "2026-08-04",
+                "quote": "KAI FORM 8-K 08-04-2026",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "2분기 실적 발표 이후 보수적인 3분기 가이던스 때문에 오히려 주가가 하락(slip)했다 — 즉 이번 실적은 상승 촉매로 작용하지 않았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Earnings call transcript: Kadant tops Q2 2026 estimates but shares slip",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-kadant-tops-q2-2026-estimates-but-shares-slip-93CH-4838625",
+                "date": "2026-08-12",
+                "quote": "Earnings call transcript: Kadant tops Q2 2026 estimates but shares slip",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "2026년 8월 25일 케이던트 주가가 200일 이동평균선을 하회했다는 기술적 약세 기사가 나왔다 — Node가 제공한 '150일선 아래' 상태와 부합하는 약세 흐름이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Kadant Breaks Below 200-Day Moving Average - Notable for KAI",
+                "publisher": "BNK Invest / Nasdaq",
+                "url": "https://www.nasdaq.com/articles/kadant-breaks-below-200-day-moving-average-notable-kai",
+                "date": "2026-08-25",
+                "quote": "Kadant Breaks Below 200-Day Moving Average - Notable for KAI",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "2026년 9월 3일(판정일) 시점 기준, 이번 거래량 급증을 설명할 만한 새로운 상승 촉매(호재) 뉴스는 검색으로 확인되지 않았다.",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "confidence": "medium",
+        "isHighlight": false,
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 claims의 출처가 statement를 뒷받침하며, 숫자·날짜가 quote에 명확히 있음. 카테고리 6(암묵적 호재)은 타당함."
+        }
       }
     },
     {
@@ -1006,9 +1741,101 @@ window.TEAM4_DATA = {
         "score": 20
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "WMS",
+        "category": 1,
+        "categoryName": "어닝 서프라이즈 및 향후 실적 가이던스 상향",
+        "company": "Advanced Drainage Systems(WMS)는 폴리에틸렌 배수관, 빗물 저류·침투 시스템 등 '물 관리(water management)' 인프라 제품을 만들어 파는 회사다. 도로·주택단지·상업시설 건설 현장에 쓰이는 지하 배수·저류 설비가 주력 제품이며, 건설·인프라 경기에 실적이 크게 좌우된다. 업종 분류상 산업재(Industrials) 중 건축자재·설비(Building Products & Equipment)에 속한다.",
+        "volumeExplanation": "2026년 8월 6일 WMS는 2027회계연도 1분기 실적을 발표(SEC 8-K, item 2.02)했는데, 매출이 10억 달러로 전년 동기 대비 21% 증가해 분기 매출이 처음으로 10억 달러를 넘었고, EPS도 2.28달러로 전년(1.85달러) 대비 크게 늘며 시장 예상치를 상회했다. 같은 8월 6일 이사회는 분기 배당금을 주당 0.20달러로 전년 대비 11% 인상하기로 승인했으며, 이 배당의 기준일(record date)이 2026년 9월 1일, 지급일이 9월 15일로 잡혀 있어 오늘(9월 3일)과 가까운 시점에 배당 관련 매매(배당락 포지셔닝)가 겹쳤을 가능성이 있다. 다만 실적 발표 자체는 오늘로부터 약 4주 전 사건이라 이미 상당 부분 주가에 반영됐을 수 있고, 노드가 준 수치도 거래대금 20일평균 대비 1.59배·주간 거래량 2.14배로 폭발적이라기보다는 중간 강도의 거래량 증가에 해당한다. 즉 실적 서프라이즈+배당 인상이라는 확인된 호재성 이벤트가 있었고, 그 여진(배당 기준일 매매 포함)이 이번 주 거래량 증가와 시점상 맞물린 것으로 판단된다. 주가는 여전히 150일 이동평균선 아래, 52주 고점의 74.26% 수준에 머물러 있어 실적 호재에도 불구하고 아직 추세 전환을 완전히 확인하지는 못한 상태다.",
+        "isHighlight": true,
+        "confidence": "medium",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음(출처 검증 실패로 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [],
+            "stripped": true
+          },
+          {
+            "id": "c2",
+            "statement": "1분기 실적이 시장 예상치(매출·EPS)를 상회했다는 것이 Zacks 등 복수 매체 기사 제목으로 확인된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Advanced Drainage Systems (WMS) Q1 Earnings and Revenues Top Estimates",
+                "publisher": "Zacks (via Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/advanced-drainage-systems-wms-q1-earnings-and-revenues-top-estimates",
+                "date": "2026-08-06",
+                "quote": "Advanced Drainage Systems (WMS) Q1 Earnings and Revenues Top Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Advanced Drainage Systems Earnings Up In Q1",
+                "publisher": "RTTNews (via Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/advanced-drainage-systems-earnings-q1",
+                "date": "2026-08-06",
+                "quote": "Advanced Drainage Systems Earnings Up In Q1",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "1분기 순매출이 10억 달러로 전년 동기 대비 21% 증가해 분기 매출이 처음으로 10억 달러를 돌파했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Web search summary citing Q1 FY2027 results",
+                "publisher": "WebSearch aggregated result",
+                "url": "https://www.stocktitan.net/sec-filings/WMS/8-k-advanced-drainage-systems-inc-reports-material-event-b5e316a88a06.html",
+                "date": "2026-08-06",
+                "quote": "Advanced Drainage Systems reported first-quarter fiscal 2027 net sales of $1 billion, up 21% from a year earlier. The company recorded more than $1 billion in quarterly revenue for the first time.",
+                "verified": "unverified",
+                "httpStatus": 429
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "EPS가 2.28달러로 전년 동기 1.85달러 대비 증가했고, 예상치를 5.9% 상회했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Web search summary citing Q1 FY2027 EPS",
+                "publisher": "WebSearch aggregated result",
+                "url": "https://www.nasdaq.com/articles/ads-wms-q1-2027-earnings-call-transcript",
+                "date": "2026-08-13",
+                "quote": "WMS surpassed analyst estimates with earnings per share (EPS) exceeding expectations by 5.9%. Specifically, Q1 2027 EPS was $2.28, up from $1.85 in Q1 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c5",
+            "statement": "2026년 8월 6일 이사회가 분기 배당금을 주당 0.20달러로 11% 인상 승인했고, 배당 기준일은 9월 1일, 지급일은 9월 15일이다 — 오늘(9월 3일)과 시점이 근접한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Advanced Drainage Systems Raises Dividend to $0.20 | WMS Stock News",
+                "publisher": "StockTitan",
+                "url": "https://www.stocktitan.net/news/WMS/advanced-drainage-systems-announces-quarterly-cash-xagk0g6kh645.html",
+                "date": "2026-08-06",
+                "quote": "On August 6, 2026, the Board approved a quarterly cash dividend to shareholders in the amount of $0.20 per share, an 11% increase over the prior year dividend amount. This quarterly dividend of $0.20 per share was paid on September 15, 2026, to shareholders of record at the close of business on September 1, 2026.",
+                "verified": "unverified",
+                "httpStatus": 429
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 claims가 적절한 출처로 뒷받침됨. 1분기 실적 데이터($1B 매출, $2.28 EPS), 배당 인상(0.20달러, 11% 증가) 등 모든 숫자 확인. 카테고리 1(어닝 서프라이즈)은 정당화됨."
+        }
       }
     },
     {
@@ -1032,8 +1859,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -1057,8 +1883,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -1082,8 +1907,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -1105,8 +1929,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -1130,8 +1953,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -1154,8 +1976,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     },
     {
@@ -1179,8 +2000,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       }
     }
   ],
@@ -1189,7 +2009,68 @@ window.TEAM4_DATA = {
     "base": 5
   },
   "research_coverage": {
-    "done": 0,
-    "total": 45
+    "done": 12,
+    "total": 45,
+    "cap": 12,
+    "pending": 33,
+    "failed": 0,
+    "note": "45종목 중 12종목을 조사했습니다. 나머지 33종목은 상한(12) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다. 자금이 들어오는 업종 · 거래대금 급증 순으로 우선 조사합니다."
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "DELL",
+        "category": 1,
+        "oneLine": "9/1 8-K(item 2.02) 실적 발표 직후 9/2 주가 16% 급등 — AI 서버 수주잔고 950억달러가 근거로 제시됐고, 콜에서 AI 확장과 공급 제약이 함께 언급된 전형적 EP 촉매."
+      },
+      {
+        "ticker": "CRDO",
+        "category": 1,
+        "oneLine": "FY27 1분기 매출 4.79억달러(+115% YoY), 조정 EPS 1.20달러(+131%)로 매출·EPS 동시 서프라이즈 + 광통신 6억달러 이상 기회 제시 — 다만 발표 다음날 주가는 약 20% 폭락해 촉매와 가격 반응이 정면으로 엇갈렸다."
+      },
+      {
+        "ticker": "MDB",
+        "category": 1,
+        "oneLine": "9/1 2분기 매출 +30% YoY 흑자 전환급 '비트 앤 레이즈' + Atlas·AI 트랙션 강조 — 그러나 9/2 오전 주가 급락으로 호재에 매도세가 겹친 형태."
+      },
+      {
+        "ticker": "FELE",
+        "category": 1,
+        "oneLine": "8-K(item 2.02) 실적 발표 직후 주가 상승 + 2026년 가이던스 상향, 8/13 Zacks 매수 상향과 8/19 성장주 추천 기사까지 이어진 드문 '호재-주가 방향 일치' 케이스."
+      },
+      {
+        "ticker": "WMS",
+        "category": 1,
+        "oneLine": "8/6 FY27 1분기 매출·EPS 상회(순매출 10억달러 첫 돌파, +21% YoY / EPS 2.28달러, 예상 대비 +5.9%) + 배당 11% 인상, 기준일 9/1·지급일 9/15로 오늘과 시점이 붙어 있다."
+      },
+      {
+        "ticker": "NEE-T",
+        "category": 5,
+        "oneLine": "오늘(9/3) 오전 9시 ET 특별주주총회에서 도미니언 인수용 주식 발행 승인 투표, 도미니언 주주총회도 같은 날 — 다만 Node 제공 NEE-T 전용 자료에는 이 종목 관련 뉴스·8-K가 전혀 없어 근거는 전량 외부 검색분이다."
+      },
+      {
+        "ticker": "TXNM",
+        "category": 5,
+        "oneLine": "9/2 종결된 공모로 순조달 약 3.96억달러를 4억달러 텀론 상환에 투입하는 8-K가 거래량 폭증 시점과 정확히 겹치고, 2월 FERC의 블랙스톤 인수 승인이라는 규제 이정표가 배경에 깔려 있다."
+      }
+    ],
+    "sectorSignal": "촉매가 두 축으로 뚜렷하게 몰렸다. 첫째 AI 인프라/데이터 축 — DELL(AI 서버), CRDO(AI 인터커넥트·광통신), MDB(Atlas·AI 트랙션)가 모두 9/1 같은 날 실적 발표로 카테고리 1에 집중됐다. 둘째 전력·유틸리티 축 — 카테고리 5의 NEE-T(도미니언 인수 표결)와 TXNM(블랙스톤 인수 진행 + 자본조달) 두 종목 모두 유틸리티이며, 성격도 'M&A·규제 이정표'로 동일하다. 나머지 카테고리 1의 FELE·WMS는 산업재(수처리·배수 인프라)로 위 두 축과 별개다. 즉 섹터가 흩어진 게 아니라 'AI 인프라 실적 시즌'과 '유틸리티 M&A/규제' 두 덩어리로 갈라져 몰린 국면이다.",
+    "watchList": [
+      "DELL",
+      "FELE",
+      "WMS",
+      "TXNM",
+      "CRDO",
+      "MDB"
+    ],
+    "caution": "이 분류의 한계는 네 가지다. (1) 6개월 횡보·돌파·리테스트 여부를 판단할 가격/거래량 시계열이 입력에 전혀 없다 — watchList는 촉매의 신선도와 성격만 보고 고른 '차트 확인 대상'이지, 돌파나 리테스트가 확인된 종목이 아니다. 실제 판정 전 반드시 육안 차트 확인이 필요하다. (2) 촉매와 주가 방향이 어긋난 건이 많다. CRDO는 매출·EPS·가이던스 서프라이즈에도 -20%, MDB는 비트 앤 레이즈에도 급락, ACGL은 실적 후 -3.7%다. 거래대금 폭증이 매수 폭증이라는 보장이 없으며 카테고리 1 태깅이 곧 상방 EP를 뜻하지 않는다. (3) 근거의 출처 신뢰도가 균일하지 않다. NEE-T는 Node 제공 전용 자료에 해당 종목 뉴스·8-K가 아예 없고(말레이시아·일본·한국 증시, 설탕·코코아·커피·돼지·소 시황 기사뿐) 전량 외부 검색 기반이며, APGE는 이번 주 거래대금 급증을 직접 설명한 뉴스를 찾지 못한 채 6월 애브비 인수 정황으로 추정한 것이라 스스로 '확정 근거 아님'을 명시하고 있다. SENEB는 뉴스 2건이 2017·2019년으로 시점이 맞지 않고, KAI·ACGL과 함께 카테고리 6(근거 없음)으로 남았다 — 카테고리 6은 '숨은 호재'가 아니라 '설명 실패'로 읽어야 한다. (4) 시점 문제. FELE는 8-K 날짜가 명시되지 않았고 WMS(8/6), UTHR(8/5 실적), APGE(6/22 계약·8/5 HSR 만료), KAI(8/4)처럼 촉매가 오늘로부터 3~9주 떨어진 건들이 섞여 있어, 오늘의 거래량 급증을 직접 설명하지 못할 수 있다. corrected 플래그는 전 종목 false로, 교차 검증이 한 번도 이뤄지지 않은 1차 분류다."
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 5,
+    "2": 1,
+    "3": 1,
+    "5": 2,
+    "6": 3
   }
 };

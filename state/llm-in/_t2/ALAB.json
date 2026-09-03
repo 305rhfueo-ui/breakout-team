@@ -4,7 +4,7 @@
  "industry": "Semiconductors",
  "nameKo": "아스테라 랩스",
  "detail": {
-  "fetchedAt": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "nameKo": "아스테라 랩스",
   "nameEn": "ASTERA LABS INC",
   "infomaxCode": "NAS:ALAB",
@@ -90,6 +90,19 @@
    "ticker": "ALAB",
    "items": [
     {
+     "title": "Better Artificial Intelligence Stock: Astera Labs vs. NVIDIA",
+     "url": "https://www.nasdaq.com/articles/better-artificial-intelligence-stock-astera-labs-vs-nvidia",
+     "date": "2026-09-02",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "ALAB",
+      "ALAB",
+      "NVDA"
+     ]
+    },
+    {
      "title": "Is Astera Labs, Inc. (ALAB) Stock Outpacing Its Computer and Technology Peers This Year?",
      "url": "https://www.nasdaq.com/articles/astera-labs-inc-alab-stock-outpacing-its-computer-and-technology-peers-year",
      "date": "2026-08-28",
@@ -152,6 +165,19 @@
      ]
     },
     {
+     "title": "Credo's Optical Bet: Is a $600M+ Revenue Opportunity Taking Shape?",
+     "url": "https://www.nasdaq.com/articles/credos-optical-bet-600m-revenue-opportunity-taking-shape",
+     "date": "2026-09-02",
+     "publisher": "Zacks",
+     "tier1": false,
+     "direct": false,
+     "tickers": [
+      "CRDO",
+      "MRVL",
+      "ALAB"
+     ]
+    },
+    {
      "title": "Here's Why You Should Retain Broadridge Stock in Your Portfolio",
      "url": "https://www.nasdaq.com/articles/heres-why-you-should-retain-broadridge-stock-your-portfolio",
      "date": "2026-08-18",
@@ -165,8 +191,8 @@
      ]
     }
    ],
-   "directCount": 5,
-   "total": 6,
+   "directCount": 6,
+   "total": 8,
    "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
   },
   "filings": [
@@ -277,8 +303,8 @@
      "date": "2026-08-25",
      "summary": "- 2Q26 매출·EPS 및 3Q 가이던스 기대치 상회, 외형 성장과 이익 개선 동시 확인- ScorpioX 하반기 양산 본격화. PCIe Gen6 전환, 제품군 확대로 XPU당 콘텐츠 확대- UALink·Optical·CXL 등 신규 연결 영역 확대로 2027년 이후 성장축 다변화 전망",
      "pages": "7",
-     "secureId": "eqlqxmzmkczikxegcgxcmce",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqxmzmkczikxegcgxcmce.pdf",
+     "secureId": "eqlqxmzmkczikxegcgxcmci",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqxmzmkczikxegcgxcmci.pdf",
      "opinion": null
     }
    ],

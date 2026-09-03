@@ -264,6 +264,13 @@
    "memberNews": [
     {
      "ticker": "MRNA",
+     "date": "2026-09-01",
+     "publisher": "The Motley Fool",
+     "title": "Moderna Stock More Than Doubled in August. Is the Stock a Buy, a Hold, or a Sell?",
+     "url": "https://www.nasdaq.com/articles/moderna-stock-more-doubled-august-stock-buy-hold-or-sell"
+    },
+    {
+     "ticker": "MRNA",
      "date": "2026-08-30",
      "publisher": "The Motley Fool",
      "title": "Is It Too Late to Buy Moderna Stock After Its 127% Surge?",

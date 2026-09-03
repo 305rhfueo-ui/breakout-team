@@ -4,7 +4,7 @@
  "industry": "Semiconductors",
  "nameKo": "마벨 테크놀로지 그룹",
  "detail": {
-  "fetchedAt": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "nameKo": "마벨 테크놀로지 그룹",
   "nameEn": "MARVELL TECHNOLOGY INC",
   "infomaxCode": "NAS:MRVL",
@@ -90,6 +90,18 @@
    "ticker": "MRVL",
    "items": [
     {
+     "title": "Why Is Marvell Stock Falling, and is it a Generational Buying Opportunity?",
+     "url": "https://www.nasdaq.com/articles/why-marvell-stock-falling-and-it-generational-buying-opportunity",
+     "date": "2026-09-01",
+     "publisher": "The Motley Fool",
+     "tier1": false,
+     "direct": true,
+     "tickers": [
+      "MRVL",
+      "MRVL"
+     ]
+    },
+    {
      "title": "LITE's AI Optics Push Boosts Growth Prospects Against MRVL & NVDA",
      "url": "https://www.nasdaq.com/articles/lites-ai-optics-push-boosts-growth-prospects-against-mrvl-nvda",
      "date": "2026-08-31",
@@ -103,90 +115,21 @@
      ]
     },
     {
-     "title": "Wall Street Analysts Believe Marvell (MRVL) Could Rally 34.31%: Here's is How to Trade",
-     "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-marvell-mrvl-could-rally-3431-heres-how-trade",
-     "date": "2026-08-31",
+     "title": "Credo's Optical Bet: Is a $600M+ Revenue Opportunity Taking Shape?",
+     "url": "https://www.nasdaq.com/articles/credos-optical-bet-600m-revenue-opportunity-taking-shape",
+     "date": "2026-09-02",
      "publisher": "Zacks",
      "tier1": false,
-     "direct": true,
+     "direct": false,
      "tickers": [
-      "MRVL"
-     ]
-    },
-    {
-     "title": "Marvell (MRVL) Q2 2027 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/marvell-mrvl-q2-2027-earnings-call-transcript",
-     "date": "2026-08-31",
-     "publisher": "The Motley Fool",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
+      "CRDO",
       "MRVL",
-      "MRVL"
-     ]
-    },
-    {
-     "title": "Marvell (MRVL) International Revenue Performance Explored",
-     "url": "https://www.nasdaq.com/articles/marvell-mrvl-international-revenue-performance-explored",
-     "date": "2026-08-31",
-     "publisher": "Zacks",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "MRVL"
-     ]
-    },
-    {
-     "title": "Is Marvell Stock a Buy on the Dip as AI Revenue Soars?",
-     "url": "https://www.nasdaq.com/articles/marvell-stock-buy-dip-ai-revenue-soars",
-     "date": "2026-08-31",
-     "publisher": "The Motley Fool",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "MRVL",
-      "MRVL"
-     ]
-    },
-    {
-     "title": "Marvell's AI Bookings Are Stellar. But Its Gross Margin Guide Is What Moved the Stock.",
-     "url": "https://www.nasdaq.com/articles/marvells-ai-bookings-are-stellar-its-gross-margin-guide-what-moved-stock",
-     "date": "2026-08-29",
-     "publisher": "The Motley Fool",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "MRVL",
-      "MRVL"
-     ]
-    },
-    {
-     "title": "Marvell (MRVL) Stock Falls 10% After Q2 Earnings: Buy the Dip?",
-     "url": "https://www.nasdaq.com/articles/marvell-mrvl-stock-falls-10-after-q2-earnings-buy-dip",
-     "date": "2026-08-28",
-     "publisher": "Zacks",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "MRVL",
-      "GOOGL"
-     ]
-    },
-    {
-     "title": "Stock Market Today, Aug. 28: Marvell Slides 10% on Softer Fiscal 2028 Guidance and Google Deal Timing",
-     "url": "https://www.nasdaq.com/articles/stock-market-today-aug-28-marvell-slides-10-softer-fiscal-2028-guidance-and-google-deal",
-     "date": "2026-08-28",
-     "publisher": "The Motley Fool",
-     "tier1": false,
-     "direct": true,
-     "tickers": [
-      "MRVL",
-      "MRVL"
+      "ALAB"
      ]
     }
    ],
-   "directCount": 8,
-   "total": 8,
+   "directCount": 2,
+   "total": 3,
    "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
   },
   "filings": [
@@ -294,7 +237,7 @@
    }
   ],
   "krReports": {
-   "total": 9,
+   "total": 8,
    "reports": [
     {
      "title": "[마벨 테크놀로지 그룹 (NAS:MRVL)] 10월 도파민이 필요하다",
@@ -303,8 +246,8 @@
      "date": "2026-08-28",
      "summary": "- 단기 주가 약세 가능성. 10월 투자자의 날 행사가 중요- 컨센서스 상회한 FY 2Q27 실적- 시장 예상보다 강한 FY 3Q27 가이던스. 연간 매출 가이던스 상향",
      "pages": "6",
-     "secureId": "eqlqlmzgqimxqkcgcgxcmce",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlmzgqimxqkcgcgxcmce.pdf",
+     "secureId": "eqlqlmzgqimxqkcgcgxcmci",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlmzgqimxqkcgcgxcmci.pdf",
      "opinion": null
     },
     {
@@ -314,8 +257,8 @@
      "date": "2026-08-27",
      "summary": "- 매출 27.39억달러, DC +46%로 순차 13.3% 가속- FY27 120억·FY28 180억달러, 다섯 번째 상향- 3분기 총마진 58.0% 가이던스로 90bp 후퇴",
      "pages": "7",
-     "secureId": "eqlqlqkllqllkqxgcgxcmce",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqkllqllkqxgcgxcmce.pdf",
+     "secureId": "eqlqlqkllqllkqxgcgxcmci",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqkllqllkqxgcgxcmci.pdf",
      "opinion": null
     },
     {
@@ -325,8 +268,8 @@
      "date": "2026-08-19",
      "summary": "- 구글과 7월29일 커스텀 반도체 상업계약 체결- 워런트 최대 5,897만주, 행사가 206.58달러- 1년 확정베스팅 544만주뿐, 잔여조건 미공개",
      "pages": "5",
-     "secureId": "eqlqeqmkggkqgezgcgxcmce",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqeqmkggkqgezgcgxcmce.pdf",
+     "secureId": "eqlqeqmkggkqgezgcgxcmci",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqeqmkggkqgezgcgxcmci.pdf",
      "opinion": null
     },
     {
@@ -336,8 +279,8 @@
      "date": "2026-08-19",
      "summary": "- 마벨 8월 28일 실적, 핵심은 매출보다 성장 재가속 속도 확인- 이번 분기 매출 가이던스 27억달러로 전분기 대비 12% 성장, 성장 재가속 지속 여부가 핵심- 데이터센터 비중 75.7%, 인터커넥트 성장 목표 70% 이상으로 상향, 하반기 30억달러 매출의 선행 신호",
      "pages": "5",
-     "secureId": "eqlqcmizcxigmeggcgxcmce",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcmizcxigmeggcgxcmce.pdf",
+     "secureId": "eqlqcmizcxigmeggcgxcmci",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcmizcxigmeggcgxcmci.pdf",
      "opinion": null
     },
     {
@@ -347,8 +290,8 @@
      "date": "2026-05-28",
      "summary": "- 단순 광 DSP 업체를 넘어, 광연결-스위칭-XPU를 결합한 AI 인프라 연결 플랫폼으로 진화. 12MF P/E 43배의 멀티플을 실적을 통해 입증할 전망- FY1Q27 매출액 24.2억(YoY+27.6%, 이하 전년동기대비), Non-GAAP 영업이익 8.5억달러(+30.8%)를 기록하며 컨센서스에 부합. 데이터센터향 매출이 18.3억달러(+27.2%)로 전체의 76%를 기록- AI 데이터센터 연결 병목 해결을 위해 핵심 기술들을 확보. 2월 Celestial AI 인수로 광 기반 포토닉 패브릭과 Scale-up 광연결 역량 확보. XConn 인수는 PCIe, *CXL 스위치와 UALink 스케일업 스위칭 로드맵 보강",
      "pages": "5",
-     "secureId": "eqqmmzqxzcxkqgcgcgxcmce",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqmmzqxzcxkqgcgcgxcmce.pdf",
+     "secureId": "eqqmmzqxzcxkqgcgcgxcmci",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqmmzqxzcxkqgcgcgxcmci.pdf",
      "opinion": null
     },
     {
@@ -358,8 +301,8 @@
      "date": "2025-12-05",
      "summary": "- 3Q25CY 실적 기대치 부합, 4Q25CY 가이던스 역시 장 컨센서스 부합- 다만 커스텀 부문의 성장세가 가속화되며, 2027년 2배 수준의 성장을 보일 전망- ASIC 시장 성장과 함께, Marvell의 실적 성장 및 주가 상승세 이어질 것으로 판단",
      "pages": "6",
-     "secureId": "eqxkmekziimlmgxgcgxcmce",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkmekziimlmgxgcgxcmce.pdf",
+     "secureId": "eqxkmekziimlmgxgcgxcmci",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkmekziimlmgxgcgxcmci.pdf",
      "opinion": null
     },
     {
@@ -369,8 +312,8 @@
      "date": "2025-12-03",
      "summary": "- 단기 실적 기대감은 높지 않겠으나 미래 성장 동력에 주목- FY3Q26 Review: 실적은 예상 부합, 중장기 사업 계획이 서프라이즈- 2023~28년 연평균성장률 +50% 언급. 데이터센터 애플리케이션 강화",
      "pages": "4",
-     "secureId": "eqxkqzqzckqcgzqgcgxcmce",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkqzqzckqcgzqgcgxcmce.pdf",
+     "secureId": "eqxkqzqzckqcgzqgcgxcmci",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkqzqzckqcgzqgcgxcmci.pdf",
      "opinion": null
     },
     {
@@ -380,19 +323,8 @@
      "date": "2025-12-03",
      "summary": "- 매출액 20.8억 달러(YoY +36.8%)로 예상치 0.6% 상회, 가이던스 중간값 대비 1,500만 달러 높은 수치로 사상 최고치 기록- Non-GAAP 매출총이익률은 59.7%(YoY -0.8%p), 영업이익률은 36.3%(YoY +6.6%p) 기록- 2분기 연속 사상 최대 실적 달성. *예상을 상회하는 향후 2개 회계연도의 데이터센터 성장 전망 제시. 시간 외 8.7% 상승",
      "pages": "1",
-     "secureId": "eqxkqixmiqgqqmkgcgxcmce",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkqixmiqgqqmkgcgxcmce.pdf",
-     "opinion": null
-    },
-    {
-     "title": "[마블 테크놀로지 그룹 (NAS:MRVL)] Custom Chip 부문 실적 부진 우려",
-     "broker": "키움증권",
-     "analyst": "박유악",
-     "date": "2025-09-01",
-     "summary": "- 2Q25CY 실적 기대치 부합, 3Q25 매출액 가이던스는 시장 컨센서스 소폭 하회- 그러나, Data Center 부문의 매출액 가이던스가 컨센서스를 크게 하회- 그 원인도 custom chip 실적 부진이라고 언급돼, 당분간 주가의 기간 조정 예상",
-     "pages": "5",
-     "secureId": "eqzxxmeczkikgzlgcgxcmce",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzxxmeczkikgzlgcgxcmce.pdf",
+     "secureId": "eqxkqixmiqgqqmkgcgxcmci",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkqixmiqgqqmkgcgxcmci.pdf",
      "opinion": null
     }
    ],
