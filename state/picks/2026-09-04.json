@@ -1,0 +1,171 @@
+{
+  "date": "2026-09-04",
+  "count": 27,
+  "tickers": [
+    "AGL",
+    "MSTR",
+    "DELL",
+    "AMR",
+    "INBX",
+    "GWRE",
+    "MRVL",
+    "QLYS",
+    "HPE-C",
+    "HOOD",
+    "COIN",
+    "ALAB",
+    "SNDK",
+    "SPCX",
+    "EAT",
+    "MU",
+    "NUTX",
+    "DUOL",
+    "OKTA",
+    "MLAB",
+    "PVLA",
+    "AEHR",
+    "ARM",
+    "HUBS",
+    "STX",
+    "WDAY",
+    "ATLC"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": false
+  },
+  "themes": [
+    {
+      "key": "Sector:Technology",
+      "level": "Sector",
+      "name": "Technology",
+      "count": 16,
+      "sharePct": 59.3,
+      "tickers": [
+        "MSTR",
+        "DELL",
+        "GWRE",
+        "MRVL",
+        "QLYS",
+        "ALAB",
+        "SNDK",
+        "MU",
+        "DUOL",
+        "OKTA",
+        "MLAB",
+        "AEHR",
+        "ARM",
+        "HUBS",
+        "STX",
+        "WDAY"
+      ],
+      "concentration": "high"
+    },
+    {
+      "key": "Industry:Software - Application",
+      "level": "Industry",
+      "name": "Software - Application",
+      "count": 5,
+      "sharePct": 18.5,
+      "tickers": [
+        "MSTR",
+        "GWRE",
+        "DUOL",
+        "HUBS",
+        "WDAY"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Sector:Healthcare",
+      "level": "Sector",
+      "name": "Healthcare",
+      "count": 4,
+      "sharePct": 14.8,
+      "tickers": [
+        "AGL",
+        "INBX",
+        "NUTX",
+        "PVLA"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Semiconductors",
+      "level": "Industry",
+      "name": "Semiconductors",
+      "count": 4,
+      "sharePct": 14.8,
+      "tickers": [
+        "MRVL",
+        "ALAB",
+        "MU",
+        "ARM"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Sector:Financial Services",
+      "level": "Sector",
+      "name": "Financial Services",
+      "count": 3,
+      "sharePct": 11.1,
+      "tickers": [
+        "HOOD",
+        "COIN",
+        "ATLC"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Computer Hardware",
+      "level": "Industry",
+      "name": "Computer Hardware",
+      "count": 3,
+      "sharePct": 11.1,
+      "tickers": [
+        "DELL",
+        "SNDK",
+        "STX"
+      ],
+      "concentration": "mid"
+    },
+    {
+      "key": "Industry:Medical Care Facilities",
+      "level": "Industry",
+      "name": "Medical Care Facilities",
+      "count": 2,
+      "sharePct": 7.4,
+      "tickers": [
+        "AGL",
+        "NUTX"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 2,
+      "sharePct": 7.4,
+      "tickers": [
+        "INBX",
+        "PVLA"
+      ],
+      "concentration": "low"
+    },
+    {
+      "key": "Industry:Software - Infrastructure",
+      "level": "Industry",
+      "name": "Software - Infrastructure",
+      "count": 2,
+      "sharePct": 7.4,
+      "tickers": [
+        "QLYS",
+        "OKTA"
+      ],
+      "concentration": "low"
+    }
+  ]
+}

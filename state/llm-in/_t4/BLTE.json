@@ -1,0 +1,45 @@
+{
+ "ticker": "BLTE",
+ "news": [
+  {
+   "title": "Belite Bio Enters Oversold Territory (BLTE)",
+   "url": "https://www.nasdaq.com/articles/belite-bio-enters-oversold-territory-blte",
+   "date": "2026-05-22",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Belite Bio (BLTE) Q1 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/belite-bio-blte-q1-2026-earnings-transcript",
+   "date": "2026-05-20",
+   "publisher": "The Motley Fool"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0,
+  "saleNy": 0,
+  "epsCy": 27.71,
+  "epsNy": -172.59,
+  "cyTrend": -10.18,
+  "nyTrend": 126.78,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": null,
+   "updated": "2026-09-06 06:15:55"
+  }
+ }
+}

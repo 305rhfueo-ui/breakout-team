@@ -1,0 +1,257 @@
+{
+ "ticker": "HNGE",
+ "sector": "Healthcare",
+ "industry": "Health Information Services",
+ "nameKo": "힌지 헬스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 46.18,
+  "saleNy": 26.51,
+  "epsCy": -7.2,
+  "epsNy": 28.72,
+  "est": {
+   "cyCur": 2.43131,
+   "cy30": 2.59823,
+   "nyCur": 3.12962,
+   "ny30": 3.40131
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    53,
+    47.23,
+    null
+   ],
+   "ni": [
+    "흑자전환",
+    -71.96,
+    null
+   ],
+   "opm": [
+    19,
+    17.59,
+    15.96
+   ],
+   "updated": "2026-09-01 07:14:01"
+  },
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-09-04"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 1
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-07",
+  "nameKo": "힌지 헬스",
+  "nameEn": "HINGE HEALTH INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001673743&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 212817000,
+     "profit": 40440000,
+     "netIncome": 43690000,
+     "margin": 19,
+     "yoy": {
+      "revenue": 53,
+      "profit": 107,
+      "netIncome": 107.6,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 182307000,
+     "profit": 32069000,
+     "netIncome": 35128000,
+     "margin": 17.6,
+     "yoy": {
+      "revenue": 47.2,
+      "profit": 144.1,
+      "netIncome": 105,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 170726000,
+     "profit": 27256000,
+     "netIncome": 32095000,
+     "margin": 16,
+     "yoy": {
+      "revenue": 45.6,
+      "profit": 30.3,
+      "netIncome": 18.4,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 154211000,
+     "profit": -6093000,
+     "netIncome": -1844000,
+     "margin": -4,
+     "yoy": {
+      "revenue": 53.3,
+      "profit": -58.5,
+      "netIncome": -640.8,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Hinge Health Director Kristina Leslie Sells 1,200 Shares for $105,876",
+     "url": "https://www.nasdaq.com/articles/hinge-health-director-kristina-leslie-sells-1200-shares-105876",
+     "date": "2026-09-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Hinge Health Inc. (HNGE) Up 13.7% Since Last Earnings Report: Can It Continue?",
+     "url": "https://www.nasdaq.com/articles/hinge-health-inc-hnge-137-last-earnings-report-can-it-continue",
+     "date": "2026-09-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "One Platform, Every Ailment: Hinge Health's Gamble",
+     "url": "https://www.nasdaq.com/articles/one-platform-every-ailment-hinge-healths-gamble",
+     "date": "2026-08-20",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Is Hinge Health Stock a Buy as Growth Accelerates and Risks Rise?",
+     "url": "https://www.nasdaq.com/articles/hinge-health-stock-buy-growth-accelerates-and-risks-rise",
+     "date": "2026-08-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Hinge Health's Cylinder Deal Opens a $135B GI Care Growth Opportunity",
+     "url": "https://www.nasdaq.com/articles/hinge-healths-cylinder-deal-opens-135b-gi-care-growth-opportunity",
+     "date": "2026-08-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "HNGE Rallies 64.6% in 3 Months as Growth and Margins Gain Momentum",
+     "url": "https://www.nasdaq.com/articles/hnge-rallies-646-3-months-growth-and-margins-gain-momentum",
+     "date": "2026-08-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is the Options Market Predicting a Spike in Hinge Health Stock?",
+     "url": "https://www.nasdaq.com/articles/options-market-predicting-spike-hinge-health-stock",
+     "date": "2026-08-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Hinge Health (HNGE) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/hinge-health-hnge-q2-2026-earnings-call-transcript",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-21",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026058439/hnge-20260818.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026052558/hnge-20260729.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-09",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026041886/hnge-20260609.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-04",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026040802/hnge-20260603.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026030499/hnge-20260505.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-17",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026018710/hnge-20260316.htm"
+   }
+  ],
+  "krReports": {
+   "total": 2,
+   "reports": [
+    {
+     "date": "2025-11-06",
+     "broker": "키움증권",
+     "analyst": "신민수",
+     "title": "[힌지 헬스 (NYS:HNGE)] 안 아프게, 돈 덜 나가게, 위기는 아무렇지 않게",
+     "summary": "- 집에서 쓰는 근골격계 재활 관리 플랫폼, 앱을 운영하는 헬스케어 기업- 고객사 수, 청구액, 회원 전환율 등 주요 실적 지표 꾸준히 좋아지는 중- `25년 연간 실적 가이던스 대폭 상향하며 수익성 개선에 자신감 내비친 상황",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgileqxcceixcgcgxcmcq.pdf"
+    },
+    {
+     "date": "2025-09-12",
+     "broker": "iM증권",
+     "analyst": "정재원",
+     "title": "[힌지 헬스 (NYS:HNGE)] 집에서 만나는 나만의 물리치료사",
+     "summary": "- Hinge health는 2015년 설립, 2025년 5월 나스닥에 상장한 디지털 헬스케어 플랫폼과 원격 물리치료를 결합한 하이브리드 비즈니스 모델을 보유한 기업이다- 힌지헬스의 강점은 다양한 임상을 진행함으로써 성능의 우수성을 입증했고, 동사의 서비스를 사용하는 고용주 분석을 통해 실제 의료비 절감 효과를 확인했다는 점이다- 그 외에도 1만 명의 실제 진료받는 환자를 대상으로 12주 동안 추적관찰을 통해 평균 통증이 약 68%  감소하였음을 확인해 대규모에서의 재현성과 확장성을 입증했다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzqxigemxxgimlgcgxcmcq.pdf"
+    }
+   ]
+  }
+ }
+}

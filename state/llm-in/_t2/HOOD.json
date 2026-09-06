@@ -1,0 +1,287 @@
+{
+ "ticker": "HOOD",
+ "sector": "Financial Services",
+ "industry": "Capital Markets",
+ "nameKo": "로빈훗 마케츠",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 15.94,
+  "saleNy": 26.28,
+  "epsCy": 1.3,
+  "epsNy": 32.43,
+  "est": {
+   "cyCur": 2.07672,
+   "cy30": 2.05581,
+   "nyCur": 2.75017,
+   "ny30": 2.69202
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    32.25,
+    15.1,
+    26.53
+   ],
+   "ni": [
+    45.34,
+    4.17,
+    -33.95
+   ],
+   "opm": [
+    43.88,
+    38.52,
+    50.66
+   ],
+   "updated": "2026-08-26 03:35:34"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-09-04",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-04",
+  "nameKo": "로빈훗 마케츠",
+  "nameEn": "ROBINHOOD MARKETS INC",
+  "financials": {
+   "profitLabel": "세전이익",
+   "marginLabel": "세전이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001783879&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1308000000,
+     "profit": 709000000,
+     "netIncome": 561000000,
+     "margin": 54.2,
+     "yoy": {
+      "revenue": 32.3,
+      "profit": 60.4,
+      "netIncome": 45.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1067000000,
+     "profit": 411000000,
+     "netIncome": 350000000,
+     "margin": 38.5,
+     "yoy": {
+      "revenue": 15.1,
+      "profit": 10.8,
+      "netIncome": 4.2,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1283000000,
+     "profit": 661000000,
+     "netIncome": 605000000,
+     "margin": 51.5,
+     "yoy": {
+      "revenue": 26.5,
+      "profit": 18.5,
+      "netIncome": -34,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1274000000,
+     "profit": 634000000,
+     "netIncome": 556000000,
+     "margin": 49.8,
+     "yoy": {
+      "revenue": 100,
+      "profit": 314.4,
+      "netIncome": 270.7,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Scotiabank Initiates Coverage of Robinhood Markets (HOOD) at Sector Outperform",
+     "url": "https://www.nasdaq.com/articles/scotiabank-initiates-coverage-robinhood-markets-hood-sector-outperform",
+     "date": "2026-09-03",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Robinhood Earns Transaction Revenue Directly on Crypto. That Cuts Both Ways.",
+     "url": "https://www.nasdaq.com/articles/robinhood-earns-transaction-revenue-directly-crypto-cuts-both-ways",
+     "date": "2026-09-03",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Morgan Stanley Upgrades Robinhood Markets (HOOD)",
+     "url": "https://www.nasdaq.com/articles/morgan-stanley-upgrades-robinhood-markets-hood",
+     "date": "2026-09-01",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Robinhood's Tokenization Push: Can Chain and Stock Tokens Fuel Growth?",
+     "url": "https://www.nasdaq.com/articles/robinhoods-tokenization-push-can-chain-and-stock-tokens-fuel-growth",
+     "date": "2026-09-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Robinhood and Interactive Brokers Both Ride Retail Volume. Only One Earns on Idle Cash.",
+     "url": "https://www.nasdaq.com/articles/robinhood-and-interactive-brokers-both-ride-retail-volume-only-one-earns-idle-cash",
+     "date": "2026-08-30",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000113/hood-20260729.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-26",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000083/hood-20260625.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-25",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "3.02",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000077/hood-20260622.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-23",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000074/hood-20260622.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-16",
+    "itemsKo": [
+     "2.05"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000071/hood-20260616.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-03",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000068/hood-20260602.htm"
+   }
+  ],
+  "krReports": {
+   "total": 14,
+   "reports": [
+    {
+     "date": "2026-07-31",
+     "broker": "신한투자증권",
+     "analyst": "김유민",
+     "title": "[로빈훗 마케츠 (NAS:HOOD)] 실적은 증명, 크립토가 남은 변수",
+     "summary": "- 2Q26 매출액과 EPS 모두 컨센서스를 큰 폭 상회하는 서프라이즈 기록. 이벤트 컨트랙트·옵션·주식 거래대금 증가가 실적을 견인했고, 신용카드· Robinhood Legend가 연환산매출 1억달러를 넘어서며 사업 다각화가 지 속. 신사업 비용 반영에도 연간 비용 가이던스를 하향한 점도 긍정적- 매출 13.1억달러(+32%, 이하 전년동기대비), 조정 EPS 0.62달러(+48%)로 성장세 유지. 거래수익은 7.8억달러(+44%)로, 이벤트 계약 1.6억달러 (+1,260%), 옵션 3.4억달러(+29%), 주식 1.3억달러(+95%)가 견인했으나 크립토는 1.0억달러(-38%)로 역성장. 순이자수익은 3.9억달러(+9%), 기타 수익은 1.4억달러(+54%, 트럼프계좌 수익·Gold 구독료 증가 영향)- 조정 EBITDA는 7.41억달러(+35%, 마진 57%). 영업비용은 7.34억달러 (+33%)로, 마케팅 투자, 6월 구조조정 관련 일회성 비용, 트럼프계좌· Rothera 관련 비용 반영. Robinhood Chain 퍼블릭 메인넷 출시, 120개국 이상에서 주식 토큰 제공, Agentic Trading(5월 출시, 10만 계좌·AUC 1억달 러 돌파), Rothera 예측시장 거래소 가동, WonderFi 인수를 통한 캐나다 진출 등 신사업도 순항 중",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzkzgxiqigzmigcgxcmck.pdf"
+    },
+    {
+     "date": "2026-06-19",
+     "broker": "키움증권",
+     "analyst": "안영준",
+     "title": "[로빈훗 마케츠 (NAS:HOOD)] 월간 데이터 반등과 10% 인력 감축 발표로 주가 회복세 진입",
+     "summary": "- 거래수수료 무료를 표방하는 대표적인 개인투자자 대상 증권 거래 플랫폼 기업- 월간 수탁자산 증가와 인력 감축 발표로 최근 주가 반등- 암호화폐 시장 부진은 주가에 반영된 가운데 주식시장/예측시장 활황 수혜 기대",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlelgigiqgxieqgcgxcmck.pdf"
+    },
+    {
+     "date": "2026-05-07",
+     "broker": "신한투자증권",
+     "analyst": "김유민",
+     "title": "[로빈훗 마케츠 (NAS:HOOD)] 금융 슈퍼앱으로의 전환은 이제 시작",
+     "summary": "- 암호화폐 거래대금 급감에도 플랫폼 핵심 지표는 개선. 단순 리테일 브로 커에서 뱅킹, 자산관리, 예측시장, 크립토 인프라를 아우르는 금융 슈퍼앱 으로 빠르게 전환 중- 거래기반수익이 매출에서 차지하는 비중은 58%로 하락 추세. 순이자수익 (34%)과 기타수익(8%) 비중이 빠르게 확대 중- 트럼프 계좌 수탁기관 선정으로 18세 미만 미국 아동 전체(약 6,000만명) 에게 로빈후드 인프라가 노출되는 구조 구축. 18세가 됐을 때 IRA로의 롤 오버 유도가 핵심 장기 수익화 경로",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqleecqqxlmkqggcgxcmck.pdf"
+    },
+    {
+     "date": "2026-05-06",
+     "broker": "키움증권",
+     "analyst": "안영준",
+     "title": "[로빈훗 마케츠 (NAS:HOOD)] 1Q 실적 기대치 하회. 암호화폐 부진과 수탁자산 감소가 불러온 우려",
+     "summary": "- 거래수수료 무료를 표방하는 대표적인 개인투자자 대상 증권 거래 플랫폼 기업- 전년 말부터 주요 지표 성장세 둔화로 주가 조정이 이어지고 있는 상황- 주가 회복 조건은 암호화폐 시장 회복과 주식 토큰화 시장 선점",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlcgcmemleiligcgxcmck.pdf"
+    },
+    {
+     "date": "2026-04-30",
+     "broker": "신한투자증권",
+     "analyst": "최승환",
+     "title": "[로빈훗 마케츠 (NAS:HOOD)] 암호화폐 빠진 자리, 신사업이 채운다",
+     "summary": "- 1Q26 실적 발표 후 시간 외 주가는 9.3% 조정. 암호화폐 거래 급감과 증 권 대여 수익 악화가 원인. 순예치금 성장, 골드 구독자 수 증가, 트럼프계 좌 기관 선정 등 확장은 가속. 단기 실적 우려보다 신사업 모멘텀에 주목- 1Q26 총순매출 10.7억달러(+15%, 이하 전년동기대비), 조정 EPS 0.38달 러(+3%)로 성장세 유지. 거래 수익은 6.2억달러(+7%)로 소폭 증가. 옵션 2.6억달러(+8%), 주식 0.8억달러(+46%)가 선전, 암호화폐는 1.3억달러(- 47%)로 감소- 영업비용은 6.6억달러(+18% YoY), 트럼프계좌 비용 1,400만달러 및 CFO 교체 주식보상비용 1,300만달러 포함. 2026년 비용 가이던스는 트럼프 계 좌 구축 비용 반영해 27~28.3억달러로 상향. 원가+마진 방식으로 수익이 비용 초과 전망. 4월 주식·옵션 거래대금은 연중 최고 수준으로 반등",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqzckzzlzkkligcgxcmck.pdf"
+    },
+    {
+     "date": "2026-02-12",
+     "broker": "키움증권",
+     "analyst": "안영준",
+     "title": "[로빈훗 마케츠 (NAS:HOOD)] 역대 최대 영업이익에도 암호화폐 시장 우려가 끌어내린 주가",
+     "summary": "- 거래수수료 무료를 표방하는 대표적인 개인투자자 대상 증권 거래 플랫폼 기업- 증시 호조 수혜와 동시에 자산 토큰화와 예측시장 진출 등 성장 동력 마련- 2025년 4분기 역대 최대 영업이익에도 암호화폐 실적 악화 우려로 주가 하락- 향후 자산 토큰화 및 예측시장 선점에 대한 성장 모멘텀은 여전히 유효하다고 판단",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqclzicmzigkxqgcgxcmck.pdf"
+    },
+    {
+     "date": "2026-02-11",
+     "broker": "한화증권",
+     "analyst": "김유민",
+     "title": "[로빈훗 마케츠 (NAS:HOOD)] 사업 다각화를 통한 신규 성장 동력 확보",
+     "summary": "- 로빈후드의 FY 4Q25 매출은 12.8억 달러(YoY +26.5%)로 예상치를 5.0% 하회했다. 그 중 거래 매출은 7.8억 달러(YoY +15.5%) 규모로 옵션, 주식, 암호화폐 거래 수익은 각각 3.1억 달러(YoY +41.4%), 9,400만 달러(YoY +54.1%), 2.2억 달러(YoY -38.3%)를 기록했다- 순이자수익은 4.1억 달러(YoY +38.9%)로 컨센서스를 12.7% 하회했 다. 이자수익 자산 증가에도 불구하고 단기 금리가 하락하며 성장률을 일부 훼손했다- 마진 이자는 2.0억 달러로 전년 대비 115% 성장했으 며, 증권 대여 이익은 1.3억 달러로 89% 증가했다. 기타 수익은 9,600 만 달러(YoY +108.7%)로 시장 기대치를 18.2% 상회했다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcqmimlzgkgicgcgxcmck.pdf"
+    },
+    {
+     "date": "2025-12-12",
+     "broker": "키움증권",
+     "analyst": "안영준",
+     "title": "[로빈훗 마케츠 (NAS:HOOD)] 월간 데이터 부진이 차익 실현 심리를 자극",
+     "summary": "- 거래수수료 무료를 표방하는 대표적인 개인투자자 대상 증권 거래 플랫폼 기업- 고객수 및 수탁자산 증가세가 이어지며 양호한 실적을 기록하는 중- 11월 월간 데이터 발표, 성장세 둔화 우려로 주가 조정",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxzzgexikqckilgcgxcmck.pdf"
+    }
+   ]
+  }
+ }
+}

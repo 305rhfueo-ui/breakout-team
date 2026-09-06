@@ -1,0 +1,156 @@
+{
+ "ticker": "AMBA",
+ "news": [
+  {
+   "title": "Ambarella (AMBA) Q2 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/ambarella-amba-q2-earnings-and-revenues-surpass-estimates",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Strength Seen in Ambarella (AMBA): Can Its 16.1% Jump Turn into More Strength?",
+   "url": "https://www.nasdaq.com/articles/strength-seen-ambarella-amba-can-its-161-jump-turn-more-strength",
+   "date": "2026-08-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ambarella (AMBA) Upgraded to Buy: What Does It Mean for the Stock?",
+   "url": "https://www.nasdaq.com/articles/ambarella-amba-upgraded-buy-what-does-it-mean-stock",
+   "date": "2026-07-21",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-03",
+   "reportDate": "2026-09-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312526381923/d88952d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-01",
+   "reportDate": "2026-06-26",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312526292824/d139114d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312526245234/d130687d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-27",
+   "reportDate": "2026-02-23",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312526083175/d116451d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-26",
+   "reportDate": "2026-02-23",
+   "items": [
+    "2.02",
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312526076823/d108529d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-25",
+   "reportDate": "2025-11-24",
+   "items": [
+    "2.02",
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312525297233/d70593d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.99,
+  "saleNy": 14.22,
+  "epsCy": 27.46,
+  "epsNy": 45.18,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    16.87,
+    20.06,
+    31.21
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    -19.35,
+    -18.27,
+    -14.98
+   ],
+   "updated": "2026-08-26 03:04:55"
+  }
+ }
+}

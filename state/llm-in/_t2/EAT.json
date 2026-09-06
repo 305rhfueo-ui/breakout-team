@@ -1,0 +1,220 @@
+{
+ "ticker": "EAT",
+ "sector": "Consumer Cyclical",
+ "industry": "Restaurants",
+ "nameKo": "브링커 인터내셔널",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 7.82,
+  "saleNy": 2.91,
+  "epsCy": 0,
+  "epsNy": 34.55,
+  "est": {
+   "cyCur": 13.22086,
+   "cy30": 12.47655,
+   "nyCur": 14.48396,
+   "ny30": 13.57143
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.06,
+    3.16,
+    6.92
+   ],
+   "ni": [
+    22.52,
+    7.39,
+    8.44
+   ],
+   "opm": [
+    10.87,
+    11.33,
+    11.6
+   ],
+   "updated": "2026-08-25 06:39:39"
+  },
+  "qualifiedBy": [
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-08-12",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 17,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-04",
+  "nameKo": "브링커 인터내셔널",
+  "nameEn": "BRINKER INTERNATIONAL",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000703351&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-03-25",
+     "derived": false,
+     "revenue": 1470200000,
+     "profit": 166600000,
+     "netIncome": 127900000,
+     "margin": 11.3,
+     "yoy": {
+      "revenue": 3.2,
+      "profit": 6.2,
+      "netIncome": 7.4,
+      "priorEnd": "2025-03-26"
+     }
+    },
+    {
+     "periodEnd": "2025-12-24",
+     "derived": false,
+     "revenue": 1452200000,
+     "profit": 168400000,
+     "netIncome": 128500000,
+     "margin": 11.6,
+     "yoy": {
+      "revenue": 6.9,
+      "profit": 7.9,
+      "netIncome": 8.4,
+      "priorEnd": "2024-12-25"
+     }
+    },
+    {
+     "periodEnd": "2025-09-24",
+     "derived": false,
+     "revenue": 1349200000,
+     "profit": 117900000,
+     "netIncome": 99500000,
+     "margin": 8.7,
+     "yoy": {
+      "revenue": 18.5,
+      "profit": 109,
+      "netIncome": 158.4,
+      "priorEnd": "2024-09-25"
+     }
+    },
+    {
+     "periodEnd": "2025-06-25",
+     "derived": true,
+     "revenue": 1461900000,
+     "profit": 142700000,
+     "netIncome": 107000000,
+     "margin": 9.8,
+     "yoy": {
+      "revenue": 21,
+      "profit": 95.2,
+      "netIncome": 86.7,
+      "priorEnd": "2024-06-26"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "3 Reasons Why Growth Investors Shouldn't Overlook Brinker International (EAT)",
+     "url": "https://www.nasdaq.com/articles/3-reasons-why-growth-investors-shouldnt-overlook-brinker-international-eat",
+     "date": "2026-09-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Brinker International (EAT) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-brinker-international-eat-strong-momentum-stock-0",
+     "date": "2026-09-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Brinker International (EAT) Stock Outpacing Its Retail-Wholesale Peers This Year?",
+     "url": "https://www.nasdaq.com/articles/brinker-international-eat-stock-outpacing-its-retail-wholesale-peers-year-0",
+     "date": "2026-09-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Wall Street Analysts Think Brinker International (EAT) Is a Good Investment: Is It?",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-think-brinker-international-eat-good-investment-it",
+     "date": "2026-09-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Brinker International (EAT) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-brinker-international-eat-strong-growth-stock-1",
+     "date": "2026-08-25",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-12",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/703351/000070335126000026/eat-20260810.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-17",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/703351/000070335126000022/eat-20260616.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/703351/000070335126000013/eat-20260429.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-02",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/703351/000070335126000008/eat-20260226.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/703351/000070335126000004/eat-20260128.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-11-24",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/703351/000070335125000051/eat-20251120.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

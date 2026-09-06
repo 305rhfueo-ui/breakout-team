@@ -1,0 +1,164 @@
+{
+ "ticker": "FICO",
+ "news": [
+  {
+   "title": "Why Is Fair Isaac (FICO) Up 1.5% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-fair-isaac-fico-15-last-earnings-report",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is FICO Stock a Buy on the Dip?",
+   "url": "https://www.nasdaq.com/articles/fico-stock-buy-dip",
+   "date": "2026-08-24",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "FICO (FICO) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/fico-fico-q3-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Here's Why Fair Isaac (FICO) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-fair-isaac-fico-strong-growth-stock-0",
+   "date": "2026-08-03",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/814547/000081454726000031/fico-20260729.htm",
+   "description": "8-K EARNINGS RELEASES Q3-26"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-08",
+   "reportDate": "2026-06-05",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/814547/000119312526260817/d140061d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/814547/000081454726000020/fico-20260428.htm",
+   "description": "8-K EARNINGS RELEASES Q2-26"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-20",
+   "reportDate": "2026-03-20",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/814547/000119312526117936/d56220d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-11",
+   "reportDate": "2026-03-11",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/814547/000119312526102450/d92566d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-11",
+   "reportDate": "2026-03-11",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/814547/000119312526101201/d838805d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 27.72,
+  "saleNy": 13.94,
+  "epsCy": 43.82,
+  "epsNy": 23.47,
+  "cyTrend": -0.31,
+  "nyTrend": -0.84,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    25.68,
+    38.69,
+    16.36
+   ],
+   "ni": [
+    30.47,
+    62.63,
+    3.83
+   ],
+   "opm": [
+    53.79,
+    58.19,
+    45.72
+   ],
+   "updated": "2026-08-25 04:14:31"
+  }
+ }
+}

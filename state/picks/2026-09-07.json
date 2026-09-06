@@ -1,0 +1,496 @@
+{
+  "date": "2026-09-07",
+  "count": 44,
+  "tickers": [
+    "MGRT",
+    "MRNA",
+    "AGL",
+    "CRCL",
+    "TEAM",
+    "MXL",
+    "AMR",
+    "MNPR",
+    "SNDK",
+    "DELL",
+    "MSTR",
+    "ELF",
+    "PENG",
+    "TARS",
+    "TWST",
+    "BAND",
+    "INBX",
+    "ANF",
+    "HOOD",
+    "XMTR",
+    "AUGO",
+    "MRVL",
+    "ALAB",
+    "MRX",
+    "WGS",
+    "BXC",
+    "ATEX",
+    "MLAB",
+    "EAT",
+    "MU",
+    "CTRN",
+    "AEHR",
+    "QLYS",
+    "HPE-C",
+    "FET",
+    "PVLA",
+    "ORKA",
+    "PARR",
+    "OKTA",
+    "ESTC",
+    "AMBQ",
+    "STX",
+    "HNGE",
+    "KYMR"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": true
+  },
+  "themes": [
+    {
+      "key": "Sector:Technology",
+      "level": "Sector",
+      "name": "Technology",
+      "count": 18,
+      "sharePct": 40.9,
+      "tickers": [
+        "MGRT",
+        "TEAM",
+        "MXL",
+        "SNDK",
+        "DELL",
+        "MSTR",
+        "PENG",
+        "BAND",
+        "MRVL",
+        "ALAB",
+        "MLAB",
+        "MU",
+        "AEHR",
+        "QLYS",
+        "OKTA",
+        "ESTC",
+        "AMBQ",
+        "STX"
+      ],
+      "concentration": "high",
+      "periods": {
+        "m1": 5,
+        "m3": 3,
+        "m6": 14
+      }
+    },
+    {
+      "key": "Sector:Healthcare",
+      "level": "Sector",
+      "name": "Healthcare",
+      "count": 11,
+      "sharePct": 25,
+      "tickers": [
+        "MRNA",
+        "AGL",
+        "MNPR",
+        "TARS",
+        "TWST",
+        "INBX",
+        "WGS",
+        "PVLA",
+        "ORKA",
+        "HNGE",
+        "KYMR"
+      ],
+      "concentration": "high",
+      "periods": {
+        "m1": 3,
+        "m3": 6,
+        "m6": 5
+      }
+    },
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 7,
+      "sharePct": 15.9,
+      "tickers": [
+        "MRNA",
+        "MNPR",
+        "TARS",
+        "INBX",
+        "PVLA",
+        "ORKA",
+        "KYMR"
+      ],
+      "concentration": "mid",
+      "periods": {
+        "m1": 3,
+        "m3": 4,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Semiconductors",
+      "level": "Industry",
+      "name": "Semiconductors",
+      "count": 5,
+      "sharePct": 11.4,
+      "tickers": [
+        "MXL",
+        "MRVL",
+        "ALAB",
+        "MU",
+        "AMBQ"
+      ],
+      "concentration": "mid",
+      "periods": {
+        "m1": 0,
+        "m3": 0,
+        "m6": 5
+      }
+    },
+    {
+      "key": "Sector:Financial Services",
+      "level": "Sector",
+      "name": "Financial Services",
+      "count": 3,
+      "sharePct": 6.8,
+      "tickers": [
+        "CRCL",
+        "HOOD",
+        "MRX"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 3,
+        "m3": 0,
+        "m6": 1
+      }
+    },
+    {
+      "key": "Sector:Consumer Cyclical",
+      "level": "Sector",
+      "name": "Consumer Cyclical",
+      "count": 3,
+      "sharePct": 6.8,
+      "tickers": [
+        "ANF",
+        "EAT",
+        "CTRN"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 3,
+        "m6": 0
+      }
+    },
+    {
+      "key": "Industry:Capital Markets",
+      "level": "Industry",
+      "name": "Capital Markets",
+      "count": 3,
+      "sharePct": 6.8,
+      "tickers": [
+        "CRCL",
+        "HOOD",
+        "MRX"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 3,
+        "m3": 0,
+        "m6": 1
+      }
+    },
+    {
+      "key": "Industry:Software - Application",
+      "level": "Industry",
+      "name": "Software - Application",
+      "count": 3,
+      "sharePct": 6.8,
+      "tickers": [
+        "TEAM",
+        "MSTR",
+        "ESTC"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 3,
+        "m3": 2,
+        "m6": 1
+      }
+    },
+    {
+      "key": "Industry:Computer Hardware",
+      "level": "Industry",
+      "name": "Computer Hardware",
+      "count": 3,
+      "sharePct": 6.8,
+      "tickers": [
+        "SNDK",
+        "DELL",
+        "STX"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 0,
+        "m6": 3
+      }
+    },
+    {
+      "key": "Industry:Software - Infrastructure",
+      "level": "Industry",
+      "name": "Software - Infrastructure",
+      "count": 3,
+      "sharePct": 6.8,
+      "tickers": [
+        "BAND",
+        "QLYS",
+        "OKTA"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 1,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Sector:Basic Materials",
+      "level": "Sector",
+      "name": "Basic Materials",
+      "count": 2,
+      "sharePct": 4.5,
+      "tickers": [
+        "AMR",
+        "AUGO"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 1,
+        "m6": 0
+      }
+    },
+    {
+      "key": "Sector:Industrials",
+      "level": "Sector",
+      "name": "Industrials",
+      "count": 2,
+      "sharePct": 4.5,
+      "tickers": [
+        "XMTR",
+        "BXC"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 1,
+        "m6": 1
+      }
+    },
+    {
+      "key": "Sector:Energy",
+      "level": "Sector",
+      "name": "Energy",
+      "count": 2,
+      "sharePct": 4.5,
+      "tickers": [
+        "FET",
+        "PARR"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 1,
+        "m6": 0
+      }
+    },
+    {
+      "key": "Industry:Information Technology Services",
+      "level": "Industry",
+      "name": "Information Technology Services",
+      "count": 2,
+      "sharePct": 4.5,
+      "tickers": [
+        "MGRT",
+        "PENG"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 0,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Diagnostics & Research",
+      "level": "Industry",
+      "name": "Diagnostics & Research",
+      "count": 2,
+      "sharePct": 4.5,
+      "tickers": [
+        "TWST",
+        "WGS"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 2,
+        "m6": 1
+      }
+    },
+    {
+      "key": "Industry:Apparel Retail",
+      "level": "Industry",
+      "name": "Apparel Retail",
+      "count": 2,
+      "sharePct": 4.5,
+      "tickers": [
+        "ANF",
+        "CTRN"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 2,
+        "m6": 0
+      }
+    },
+    {
+      "key": "Industry:Industrial Distribution",
+      "level": "Industry",
+      "name": "Industrial Distribution",
+      "count": 2,
+      "sharePct": 4.5,
+      "tickers": [
+        "XMTR",
+        "BXC"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 1,
+        "m6": 1
+      }
+    }
+  ],
+  "byPeriod": {
+    "m1": [
+      "MRNA",
+      "CRCL",
+      "TEAM",
+      "AMR",
+      "SNDK",
+      "MSTR",
+      "TARS",
+      "INBX",
+      "ANF",
+      "HOOD",
+      "MRX",
+      "MLAB",
+      "PARR",
+      "ESTC"
+    ],
+    "m3": [
+      "MRNA",
+      "TEAM",
+      "MNPR",
+      "ELF",
+      "TWST",
+      "ANF",
+      "AUGO",
+      "WGS",
+      "BXC",
+      "EAT",
+      "CTRN",
+      "QLYS",
+      "FET",
+      "PVLA",
+      "ESTC",
+      "KYMR"
+    ],
+    "m6": [
+      "MGRT",
+      "MRNA",
+      "AGL",
+      "TEAM",
+      "MXL",
+      "SNDK",
+      "DELL",
+      "PENG",
+      "TWST",
+      "BAND",
+      "XMTR",
+      "MRVL",
+      "ALAB",
+      "MRX",
+      "ATEX",
+      "MU",
+      "AEHR",
+      "HPE-C",
+      "ORKA",
+      "OKTA",
+      "AMBQ",
+      "STX",
+      "HNGE"
+    ]
+  },
+  "cross": {
+    "persistent": [
+      "MRNA",
+      "TEAM"
+    ],
+    "newEntrants": [
+      "CRCL",
+      "AMR",
+      "MSTR",
+      "TARS",
+      "INBX",
+      "HOOD",
+      "MLAB",
+      "PARR"
+    ],
+    "midTerm": [
+      "MNPR",
+      "ELF",
+      "TWST",
+      "AUGO",
+      "WGS",
+      "BXC",
+      "EAT",
+      "CTRN",
+      "QLYS",
+      "FET",
+      "PVLA",
+      "KYMR"
+    ],
+    "fading": [
+      "MGRT",
+      "AGL",
+      "MXL",
+      "DELL",
+      "PENG",
+      "BAND",
+      "XMTR",
+      "MRVL",
+      "ALAB",
+      "ATEX",
+      "MU",
+      "AEHR",
+      "HPE-C",
+      "ORKA",
+      "OKTA",
+      "AMBQ",
+      "STX",
+      "HNGE"
+    ]
+  }
+}

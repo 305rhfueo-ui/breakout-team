@@ -1,0 +1,36 @@
+{
+ "ticker": "GRVY",
+ "news": [],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -17.14,
+    17.76,
+    -6.4
+   ],
+   "ni": [
+    60.61,
+    33.38,
+    -41.4
+   ],
+   "opm": [
+    17.04,
+    19.04,
+    10.72
+   ],
+   "updated": "2026-08-25 05:22:02"
+  }
+ }
+}

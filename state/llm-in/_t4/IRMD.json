@@ -1,0 +1,142 @@
+{
+ "ticker": "IRMD",
+ "news": [
+  {
+   "title": "IRadimed (IRMD) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/iradimed-irmd-q2-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "iRadimed (IRMD) Beats Q1 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/iradimed-irmd-beats-q1-earnings-and-revenue-estimates",
+   "date": "2026-05-01",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-31",
+   "reportDate": "2026-07-31",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1325618/000162828026051240/irmd-20260731.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-24",
+   "reportDate": "2026-06-24",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1325618/000162828026045059/irmd-20260624.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-05-01",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1325618/000162828026029125/irmd-20260501.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-10",
+   "reportDate": "2026-02-10",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1325618/000110465926012356/irmd-20260210x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-08",
+   "reportDate": "2025-12-05",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1325618/000110465925119090/irmd-20251205x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-03",
+   "reportDate": "2025-11-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1325618/000110465925105298/irmd-20251103x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.81,
+  "saleNy": 10.75,
+  "epsCy": 8.29,
+  "epsNy": 15.31,
+  "cyTrend": 0.72,
+  "nyTrend": 2.34,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    0.28,
+    12.65,
+    17.03
+   ],
+   "ni": [
+    -9.63,
+    24.13,
+    25.17
+   ],
+   "opm": [
+    31.23,
+    32.93,
+    31.26
+   ],
+   "updated": "2026-08-25 03:49:07"
+  }
+ }
+}

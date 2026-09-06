@@ -1,0 +1,211 @@
+{
+ "ticker": "OKTA",
+ "sector": "Technology",
+ "industry": "Software - Infrastructure",
+ "nameKo": "옥타",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 10.45,
+  "saleNy": 10.02,
+  "epsCy": 12.26,
+  "epsNy": 11.44,
+  "est": {
+   "cyCur": 3.92899,
+   "cy30": 3.84412,
+   "nyCur": 4.37848,
+   "ny30": 4.28251
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    11.19,
+    11.58,
+    11.58
+   ],
+   "ni": [
+    19.35,
+    173.91,
+    168.75
+   ],
+   "opm": [
+    7.32,
+    6.04,
+    3.1
+   ],
+   "updated": "2026-08-25 06:58:17"
+  },
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-09-04"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 1
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-07",
+  "nameKo": "옥타",
+  "nameEn": "OKTA INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001660134&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 765000000,
+     "profit": 56000000,
+     "netIncome": 74000000,
+     "margin": 7.3,
+     "yoy": {
+      "revenue": 11.2,
+      "profit": 43.6,
+      "netIncome": 19.4,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 761000000,
+     "profit": 46000000,
+     "netIncome": 63000000,
+     "margin": 6,
+     "yoy": {
+      "revenue": 11.6,
+      "profit": 475,
+      "netIncome": 173.9,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 742000000,
+     "profit": 23000000,
+     "netIncome": 43000000,
+     "margin": 3.1,
+     "yoy": {
+      "revenue": 11.6,
+      "profit": 243.8,
+      "netIncome": 168.8,
+      "priorEnd": "2024-10-31"
+     }
+    },
+    {
+     "periodEnd": "2025-07-31",
+     "derived": false,
+     "revenue": 728000000,
+     "profit": 41000000,
+     "netIncome": 67000000,
+     "margin": 5.6,
+     "yoy": {
+      "revenue": 12.7,
+      "profit": 315.8,
+      "netIncome": 131,
+      "priorEnd": "2024-07-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Okta (OKTA) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-okta-okta-top-momentum-stock-long-term",
+     "date": "2026-09-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Zacks Investment Ideas feature highlights: DICK'S Sporting Goods, Okta and CrowdStrike",
+     "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-dicks-sporting-goods-okta-and-crowdstrike",
+     "date": "2026-09-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "OKTA's AI Security Push Gains Momentum Against CRWD & MSFT",
+     "url": "https://www.nasdaq.com/articles/oktas-ai-security-push-gains-momentum-against-crwd-msft",
+     "date": "2026-08-31",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000068/okta-20260826.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-23",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000054/okta-20260618.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-28",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000050/okta-20260528.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-22",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1660134/000119312526170498/d118360d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-23",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000029/okta-20260319.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-11",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000024/okta-20260305.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

@@ -1,0 +1,273 @@
+{
+ "ticker": "DELL",
+ "sector": "Technology",
+ "industry": "Computer Hardware",
+ "nameKo": "델 테크놀로지스",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 70.66,
+  "saleNy": 12.32,
+  "epsCy": 151.65,
+  "epsNy": -10.43,
+  "est": {
+   "cyCur": 25.92015,
+   "cy30": 18.41304,
+   "nyCur": 23.21759,
+   "ny30": 19.4275
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    87.54,
+    39.48,
+    10.83
+   ],
+   "ni": [
+    256.27,
+    47.36,
+    31.74
+   ],
+   "opm": [
+    8.34,
+    9.26,
+    7.85
+   ],
+   "updated": "2026-08-25 02:57:53"
+  },
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "≤2026-06-08"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 60
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-07",
+  "nameKo": "델 테크놀로지스",
+  "nameEn": "DELL TECHNOLOGIES INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001571996&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-05-01",
+     "derived": false,
+     "revenue": 43842000000,
+     "profit": 3656000000,
+     "netIncome": 3438000000,
+     "margin": 8.3,
+     "yoy": {
+      "revenue": 87.5,
+      "profit": 213.8,
+      "netIncome": 256.3,
+      "priorEnd": "2025-05-02"
+     }
+    },
+    {
+     "periodEnd": "2026-01-30",
+     "derived": true,
+     "revenue": 33379000000,
+     "profit": 3092000000,
+     "netIncome": 2259000000,
+     "margin": 9.3,
+     "yoy": {
+      "revenue": 39.5,
+      "profit": 43.2,
+      "netIncome": 47.4,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 27005000000,
+     "profit": 2119000000,
+     "netIncome": 1548000000,
+     "margin": 7.8,
+     "yoy": {
+      "revenue": 10.8,
+      "profit": 23.1,
+      "netIncome": 31.7,
+      "priorEnd": "2024-11-01"
+     }
+    },
+    {
+     "periodEnd": "2025-08-01",
+     "derived": false,
+     "revenue": 29776000000,
+     "profit": 1773000000,
+     "netIncome": 1164000000,
+     "margin": 6,
+     "yoy": {
+      "revenue": 19,
+      "profit": 27.4,
+      "netIncome": 31.2,
+      "priorEnd": "2024-08-02"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Dell Technologies Inc. (DELL) Hit a 52 Week High, Can the Run Continue?",
+     "url": "https://www.nasdaq.com/articles/dell-technologies-inc-dell-hit-52-week-high-can-run-continue",
+     "date": "2026-09-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "AI Infrastructure Demand Remains Red-Hot: HPE, AVGO, DELL Deliver",
+     "url": "https://www.nasdaq.com/articles/ai-infrastructure-demand-remains-red-hot-hpe-avgo-dell-deliver",
+     "date": "2026-09-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Could Dell Be the Next Magnificent Seven Stock?",
+     "url": "https://www.nasdaq.com/articles/could-dell-be-next-magnificent-seven-stock",
+     "date": "2026-09-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Dell Earnings Surge: Is It the Next Big AI Stock to Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/dell-earnings-surge-it-next-big-ai-stock-buy-2026",
+     "date": "2026-09-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Zacks Investment Ideas feature highlights: Dell",
+     "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-dell",
+     "date": "2026-09-03",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-01",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000039/dell-20260901.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-06",
+    "itemsKo": [
+     "3.03",
+     "5.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526296224/d32716d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-01",
+    "itemsKo": [
+     "3.03",
+     "주주총회 표결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000036/dell-20260625.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-17",
+    "itemsKo": [
+     "3.02"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000032/dell-20260611.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-16",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526272720/d20600d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-12",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526269594/d131151d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 6,
+   "reports": [
+    {
+     "date": "2026-09-04",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+     "summary": "- Non-AI가 견인한 실적 서프라이즈와 GPM 개선으로 마진 희석 우려 해소- 연간 가이던스 상향 및 이익 급증으로 주가 급등에도 밸류에이션 매력 지속- 풍부한 AI 수주잔고 속 하반기 영업현금흐름 정상화와 마진 지속성이 핵심- 리스크 요인: 부품가 사이클 변동성, 수주 이행력, 그리고 현금흐름의 질",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxcmcq.pdf"
+    },
+    {
+     "date": "2026-06-02",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[델 테크놀로지스 (NYS:DELL)] 전통 서버의 부활과 Agentic AI가 이끄는 멀티플 리레이팅",
+     "summary": "- 매출 $43.8B(+88%), EPS $4.86(+214%)로 컨센서스 60% 이상 상회- AI 수요의 전통 IT 전방 확산 및 Agentic AI발 CPU TAM 구조적 확장- 주가 급등에도 Fwd P/E 22.8배로 업종(26.0배) 하회, 대규모 주주환원 안전판",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlciziegxilkkggcgxcmcq.pdf"
+    },
+    {
+     "date": "2026-05-29",
+     "broker": "신한투자증권",
+     "analyst": "고준혁",
+     "title": "[델 테크놀로지스 (NYS:DELL)] Go out and buy a Dell",
+     "summary": "- 실적발표 이후 40% 주가 상승. 단순 AI 서버 OEM에서 플랫폼 기업으로 확장. 기대를 서프라이즈 실적으로 증명. 커버리지 내 최선호주 제시- FY1Q27 매출액 438억달러(YoY+87.5%, 이하 전년동기대비), 영업이익 42억달러(+154.2%, OPM 9.7%)로 컨센서스를 각각 23.4%, 52.8% 상회. AI 서버 매출은 161억달러(+757%) 기록. 1분기 AI 서버 주문 244억달러, 백로그 513억달러 달성. FY27 AI 서버 매출 가이던스 600억달러로 상향- 전통 서버 매출도 85억달러(+92%) 기록. Agentic AI 확산으로 전통 서버 의 AI 추론 및 내부 워크로드 처리 역할 확대. 14세대 이하 서버 설치 기 반이 여전히 큰 상황에서, 18세대 서버는 14세대 13대 통합 효과 제공. 평 균단가 상승에도 비용 절감 효과가 커서 교체 수요 기반 매출 확대 전망. CSG 부문(+17%)도 점유율과 수익성 개선(+2.6%p)으로 하방을 뒷받침",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcciqxcilleikgcgxcmcq.pdf"
+    },
+    {
+     "date": "2026-04-27",
+     "broker": "신한투자증권",
+     "analyst": "고준혁",
+     "title": "[델 테크놀로지스 (NYS:DELL)] AI 인프라 기업으로 재평가",
+     "summary": "- 시장은 델을 AI 인프라 기업으로 바라보기 시작- PC와 전통 서버 판매에 AI가 더해졌다- 전통 PC OEM에서 AI 인프라 기업으로 멀티플 확장 국면 진입",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqglcgmceemikgcgxcmcq.pdf"
+    },
+    {
+     "date": "2026-02-27",
+     "broker": "한화증권",
+     "analyst": "임해인",
+     "title": "[델 테크놀로지스 (NYS:DELL)] AI 고성장, 메모리 가격은 관리 가능 수준",
+     "summary": "- 델의 FY 4Q26 매출액은 334억 달러(YoY +39.5%), EPS는 3.89 달러 (YoY +45.1%)를 기록해 컨센서스를 각각 5.2%, 10.5% 상회했다. 각 각 가이던스 상단(320억 달러, 3.50 달러)을 초과했다.- 델은 FY 1Q27 가이던스를 중간값 기준 매출액 352억 달러(YoY +50.6%, vs. 컨센서스 293억 달러), EPS 2.9 달러(YoY +87.1%, vs. 컨 센서스 2.4 달러)로 제시했다- 2027 연간으로는 매출액 1,400억 달러 (YoY +23.3%, vs. 컨센서스 1,263억 달러), EPS 12.90 달러(YoY +25.2%, vs. 컨센서스 11.56 달러)를 기록할 것으로 예상했다. 현재 AI 서버 수주잔고는 엔비디아 그레이스 블랙웰 제품 비중이 압도적이며, 차세대 베라루빈 아키텍처는 회계연도 하반기 출하가 예정돼 있다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgeligkiqmcgqgcgxcmcq.pdf"
+    },
+    {
+     "date": "2025-11-26",
+     "broker": "한화증권",
+     "analyst": "임해인",
+     "title": "[델 테크놀로지스 (NYS:DELL)] Earnings Flash",
+     "summary": "- 매출액 270억 달러(YoY +10.8%), 조정 EPS 2.59 달러(YoY +20.5%)로 각각 예상치 0.7% 하회, 4.9% 상회. AI 서버 출하량 증가 및 운영 효율성으로 3분기 기준 매출, EPS 최고치 경신- CSG: 상업용 클라이언트, 소비자 매출은 각각 106.2억 달러(YoY +4.8%), 18.6억 달러(YOY -6.8%). 상업용 클라이언트 부문은 5분기 연속 매출 성장, 중소기업 전반에서 강력한 수요 확인. 소비자 수요와 심리는 3년 만에 성장세로 전환- AI 서버 수요 증가에 기록적 출하액, 수주잔고 달성. 4Q26 가이던스 시장 예상 대폭 상회. 시간 외 3.5% 상승",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkeggxcizekzmgcgxcmcq.pdf"
+    }
+   ]
+  }
+ }
+}

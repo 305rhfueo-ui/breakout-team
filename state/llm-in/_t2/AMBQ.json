@@ -1,0 +1,237 @@
+{
+ "ticker": "AMBQ",
+ "sector": "Technology",
+ "industry": "Semiconductors",
+ "nameKo": "앰비크 마이크로",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 86.38,
+  "saleNy": 31.28,
+  "epsCy": -79.63,
+  "epsNy": -56.68,
+  "est": {
+   "cyCur": -0.53375,
+   "cy30": -1.11,
+   "nyCur": -0.2312,
+   "ny30": -0.7525
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    89.68,
+    59.29,
+    null
+   ],
+   "ni": [
+    "적자축소",
+    "적자확대",
+    null
+   ],
+   "opm": [
+    -25.74,
+    -46.64,
+    -57.66
+   ],
+   "updated": "2026-08-31 06:59:41"
+  },
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-09-04"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 1
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-07",
+  "nameKo": "앰비크 마이크로",
+  "nameEn": "AMBIQ MICRO  INC.",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001500412&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 33901000,
+     "profit": -8727000,
+     "netIncome": -7115000,
+     "margin": -25.7,
+     "yoy": {
+      "revenue": 89.7,
+      "profit": 0.8,
+      "netIncome": 16.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 25060000,
+     "profit": -11689000,
+     "netIncome": -10171000,
+     "margin": -46.6,
+     "yoy": {
+      "revenue": 59.3,
+      "profit": -33.7,
+      "netIncome": -22.8,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 20744000,
+     "profit": -11962000,
+     "netIncome": -10679000,
+     "margin": -57.7,
+     "yoy": {
+      "revenue": 2,
+      "profit": -15.3,
+      "netIncome": -4.8,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 18165000,
+     "profit": -10043000,
+     "netIncome": -9002000,
+     "margin": -55.3,
+     "yoy": {
+      "revenue": -10.4,
+      "profit": 0.5,
+      "netIncome": 4.6,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Does Ambiq Micro, Inc. (AMBQ) Have the Potential to Rally 40.96% as Wall Street Analysts Expect?",
+     "url": "https://www.nasdaq.com/articles/does-ambiq-micro-inc-ambq-have-potential-rally-4096-wall-street-analysts-expect",
+     "date": "2026-08-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Ambiq (AMBQ) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/ambiq-ambq-q2-2026-earnings-call-transcript",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Ambiq Micro Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/ambiq-micro-q2-earnings-call-highlights",
+     "date": "2026-08-11",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Ambiq Micro, Inc. (AMBQ) Reports Q2 Loss, Tops Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/ambiq-micro-inc-ambq-reports-q2-loss-tops-revenue-estimates",
+     "date": "2026-08-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Ambiq Micro, Inc. (AMBQ) May Report Negative Earnings: Know the Trend Ahead of Next Week's Release",
+     "url": "https://www.nasdaq.com/articles/ambiq-micro-inc-ambq-may-report-negative-earnings-know-trend-ahead-next-weeks-release",
+     "date": "2026-08-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Ambiq Micro, Inc. (AMBQ) Stock Outpacing Its Computer and Technology Peers This Year?",
+     "url": "https://www.nasdaq.com/articles/ambiq-micro-inc-ambq-stock-outpacing-its-computer-and-technology-peers-year",
+     "date": "2026-07-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Ambiq Atomiq and Apollo5 Could Drive AMBQ's Next Growth Wave",
+     "url": "https://www.nasdaq.com/articles/ambiq-atomiq-and-apollo5-could-drive-ambqs-next-growth-wave",
+     "date": "2026-06-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Should Investors Buy Ambiq Micro After Its Big Stock Rally?",
+     "url": "https://www.nasdaq.com/articles/should-investors-buy-ambiq-micro-after-its-big-stock-rally",
+     "date": "2026-06-15",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-11",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1500412/000119312526343443/ambq-20260811.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1500412/000119312526325025/d88803d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-08",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1500412/000119312526261248/ambq-20260608.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1500412/000119312526218189/ambq-20260512.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1500412/000119312526092653/ambq-20260305.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-21",
+    "itemsKo": [
+     "실적 발표"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1500412/000119312526017259/d937767d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

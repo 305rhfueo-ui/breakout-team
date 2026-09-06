@@ -1,0 +1,67 @@
+{
+ "ticker": "CNI",
+ "news": [
+  {
+   "title": "CNI Advances Hybrid Locomotive Program to Boost Efficiency",
+   "url": "https://www.nasdaq.com/articles/cni-advances-hybrid-locomotive-program-boost-efficiency",
+   "date": "2026-08-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Interesting CNI Put And Call Options For March 2027",
+   "url": "https://www.nasdaq.com/articles/interesting-cni-put-and-call-options-march-2027",
+   "date": "2026-07-27",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "CNI (CNI) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/cni-cni-q2-2026-earnings-call-transcript",
+   "date": "2026-07-25",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Compared to Estimates, CN (CNI) Q2 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-cn-cni-q2-earnings-look-key-metrics",
+   "date": "2026-07-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Canadian National (CNI) Q2 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/canadian-national-cni-q2-earnings-and-revenues-top-estimates",
+   "date": "2026-07-24",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.83,
+  "saleNy": 4.22,
+  "epsCy": 6.66,
+  "epsNy": 10.67,
+  "cyTrend": 0,
+  "nyTrend": 0.28,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    11.15,
+    4.1,
+    2.94
+   ],
+   "ni": [
+    6.47,
+    3.31,
+    9.31
+   ],
+   "opm": [
+    37.47,
+    35.37,
+    38.77
+   ],
+   "updated": "2026-08-25 05:11:52"
+  }
+ }
+}
