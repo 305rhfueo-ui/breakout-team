@@ -26,6 +26,8 @@
    `pending` / `no_source` / `판정불가` 상태를 임의로 채우지 마라.
 3. **상한 때문에 빠진 종목을 숨기지 마라.** 리서치 커버리지를 항상 알린다.
 4. **사용자가 최종 판단자다.** 단정적 매수 권유 대신 확인할 조건을 제시한다.
+5. **독자는 재무·회계 전공의 금융 실무자다** (2026-09-03 기준 변경). 비유·초보자용 풀이를 쓰지 않고,
+   원천 수치를 단위·기간과 함께 그대로 전달한다. 시스템 고유 지표(WRS·VOL_X·CLS_POS·F10d)만 처음 한 번 정의한다.
 
 ## 구조
 
@@ -70,8 +72,19 @@ dashboard/               breakout-room.html (8탭 + 팝업) · data/*.js · data
 - 워크플로 `agent()` 는 죽으면 **null 을 준다.** `.filter(Boolean)` 로 버리면 그 종목이 조용히 사라지고
   화면엔 "상한 초과"로 표시된다 → 각 워크플로의 `tryAgent` 래퍼를 쓰고 `failed` 로 반환할 것
 - 단일 에이전트 워크플로에서 `return {...result}` 는 실패 시 `{...null}` 이라 **오류 없이 빈 리포트**가 된다
-- 조사 대상은 `research-rotation.js` 가 순환시킨다. 상한을 올리지 말고 로테이션으로 커버리지를 채운다
-  (실측: detail 20/54 고정 → 3회 실행에 54/54)
+- 조사 대상은 `research-rotation.js` 가 순환시키고 **TTL(5거래일) 안이면 건너뛴다**(`selectForResearch`).
+  건너뛴 종목은 `run-breakout.js` 가 지난 결과를 이월한다(`research.carried` · `researchedOn`).
+  상한을 올리지 말 것. 에이전트가 적게 뜨는 게 정상이다 (2026-09-03 이전엔 2팀 68% 가 TTL 안 재조사였다)
+- 야후 봉은 거래일이 통째로 빠질 수 있다(2026-08-28 실측). `market-calendar.js` 로 대조해 `barsNotice` 로 표면화한다.
+  데드크로스 날짜·연속 이탈일수가 실행마다 바뀌면 이걸 먼저 의심할 것
+- 3팀 재편입은 `revertReentries` 가 배제 사유 재검사 후 확정한다. 이게 없으면 50일선 아래 종목이 매일 복귀·재배제되어
+  "오늘 배제" 와 차트확인 목록이 오염된다 (MXL·BAND·PENG 29회 churn 실측)
+- 4팀 후보에서 시총 N/A 티커(우선주·유닛)는 제외한다 — NEE-T 를 넥스트에라 보통주로 조사한 사고(2026-09-03)
+- 거래량 확인은 **돌파봉** 거래량(`breakVolRatio`)으로 한다. 마지막 봉 거래량으로 판정하면 8/31 돌파를 9/02 거래량으로 "확인"한다
+- 2팀 테마는 유니온 + **기간별 3세트(1M·3M·6M) + 교차(지속/신규/중기/퇴조)** 를 Node 가 확정한다(`detectThemesByPeriod`, `rs-entry.js`).
+  LLM 테마종합의 byPeriod/rotation 티커는 `build-chief-report` 가 Node 목록과 교집합으로 정제한다. 상세: `docs/PERIOD-THEMES-2026-09-07.md`
+- 사이트 `RS_Rank_Pct` 는 NaN 정렬 버그로 틀려 있다(2026-09-07 실측 1378/1392 불일치) → 자체 백분위(`__p`)만 쓴다. 사이트 PR 반영 후 재확인
+- 사이트 `market_condition`(사용자 시트 A1)은 QQQ 판정을 **덮어쓰지 않고 병기**한다. `fs_data.json` 은 `scripts/data/rs-fs-data.js`(하루 캐시)
 - `const CAP = (A && A.cap) || N` 은 `cap:0` 을 N 으로 둔갑시킨다 → `Number.isFinite` 로 판정
 - **NotebookLM `setup_auth` 는 세션 MCP 서버로는 절대 성공하지 못한다.** 서버가 `headless:true`
   로 떠 있어 로그인 창이 안 보인 채 죽는다. `HEADLESS=false` 로 서버를 따로 띄워 로그인만 끝낸다

@@ -1003,6 +1003,13 @@ function briefing(id){
     const cl=(t.themes.clusters||[]).filter(c=>c.concentration!=='low').slice(0,2);
     if(cl.length)P.push(`쏠림이 뚜렷합니다 — <b>${cl.map(c=>`${c.name} ${c.count}종목(${c.sharePct}%)`).join(', ')}</b>. 같은 테마 종목이 무더기로 나온다는 건 지금 시장의 돈이 그쪽으로 흐른다는 신호입니다.`);
     else P.push(`특정 테마 쏠림은 뚜렷하지 않습니다. 주도 테마가 없는 장이라는 뜻이라 종목 선별이 더 중요합니다.`);
+    // 기간별 3세트 + 교차 (2026-09-07) — 1M 신규 vs 6M 지속을 구분해 말한다
+    const BP=t.themes.byPeriod,CR=t.themes.cross;
+    if(BP&&CR&&CR.counts){
+      const top=(k)=>((BP[k]&&BP[k].topSectors)||[])[0];
+      const s1=top('m1'),s6=top('m6');
+      P.push(`기간을 나눠 보면 1개월 기준 상위 2%는 ${BP.m1.count}종목${s1?`(${s1.name} ${s1.count}종목 ${s1.sharePct}%)`:''}, 6개월 기준은 ${BP.m6.count}종목${s6?`(${s6.name} ${s6.count}종목 ${s6.sharePct}%)`:''}입니다. 세 기간 모두 상위 2%인 <b>지속 주도주 ${CR.counts.persistent}개</b>${CR.persistent.length?`(${CR.persistent.slice(0,6).join(', ')}${CR.persistent.length>6?' …':''})`:''}, 이번 달 새로 진입한 종목 <b>${CR.counts.newEntrants}개</b>${CR.newEntrants.length?`(${CR.newEntrants.slice(0,6).join(', ')}${CR.newEntrants.length>6?' …':''})`:''}, 6개월에만 남은 퇴조 ${CR.counts.fading}개입니다.`);
+    }
     if(t.research_coverage&&t.research_coverage.pending)P.push(`상승 이유는 ${t.research_coverage.done}종목만 조사했습니다. 나머지 ${t.research_coverage.pending}종목은 비용 상한 때문에 대기 중이고 며칠이면 채워집니다 — <b>빠진 걸 숨기지 않고 그대로 표시</b>합니다.`);
     return P.join(' ');
   }
@@ -1232,6 +1239,29 @@ function themeSection(t){
   }
   h+=`</div>`;
 
+  // 기간별 3세트 + 교차 (Node 확정) + LLM byPeriod/rotation (2026-09-07)
+  const BP=t.themes&&t.themes.byPeriod,CR=t.themes&&t.themes.cross,CD=(t.themes&&t.themes.crossDetail)||{};
+  if(BP&&CR){
+    const lab={m1:'1개월',m3:'3개월',m6:'6개월'};
+    const dN=(list,key)=>(list||[]).map(x=>{const st=x.streak&&x.streak[key];return `${esc(x.ticker)}${st?`<span class="dim">(D+${st})</span>`:''}`;}).join(' · ');
+    h+=`<div class="sec"><h4>①-2 기간별 상위 2% — 어느 기간의 강세인가</h4>
+      <p class="pi">한 종목이 여러 기간에 동시에 들어갈 수 있어 기간별 합은 전체보다 큽니다. 비중의 분모는 그 기간의 종목 수입니다.</p>`;
+    for(const k of ['m1','m3','m6']){
+      const b=BP[k]||{};const Lk=L&&L.byPeriod&&L.byPeriod[k];
+      h+=`<div class="themeCard"><div class="themeTop"><span class="tag">${lab[k]}</span> <b>${b.count||0}종목</b> — ${esc(b.headline||'')}</div>
+        ${(b.topSectors||[]).length?`<div class="note">섹터 ${b.topSectors.map(s=>`${esc(SECTOR_KO&&SECTOR_KO[s.name]?SECTOR_KO[s.name]+'('+s.name+')':s.name)} ${s.count}(${s.sharePct}%)`).join(' · ')}</div>`:''}
+        ${(b.topIndustries||[]).length?`<div class="note">업종 ${b.topIndustries.map(s=>`${esc(INDUSTRY_KO&&INDUSTRY_KO[s.name]?INDUSTRY_KO[s.name]+'('+s.name+')':s.name)} ${s.count}(${s.sharePct}%)`).join(' · ')}</div>`:''}
+        ${Lk&&Lk.name&&Lk.strength!=='none'?`<div class="note" style="margin-top:6px"><b>${esc(Lk.name)}</b> (${esc(Lk.strength||'')}) — ${esc(Lk.plainKo||'')}${(Lk.tickers||[]).length?` · ${Lk.tickers.map(esc).join(', ')}`:''}</div>`:(Lk?`<div class="note" style="margin-top:6px">이 기간엔 공통 테마 없음</div>`:'')}</div>`;
+    }
+    const C=CR.counts||{};
+    h+=`<div class="themeCard"><div class="themeTop"><span class="tag">교차</span> 전체 ${C.total??'—'} = 지속 ${C.persistent??0} + 신규 ${C.newEntrants??0} + 중기 ${C.midTerm??0} + 퇴조 ${C.fading??0} + 기타 ${C.other??0}</div>
+      <div class="note"><b style="color:var(--grn)">지속 주도</b>(1M·3M·6M 모두) ${CD.persistent?dN(CD.persistent,'m6'):(CR.persistent||[]).map(esc).join(' · ')||'—'}</div>
+      <div class="note"><b style="color:var(--blu)">신규 진입</b>(1M 만) ${CD.newEntrants?dN(CD.newEntrants,'m1'):(CR.newEntrants||[]).map(esc).join(' · ')||'—'}</div>
+      <div class="note"><b>중기</b>(3M) ${CD.midTerm?dN(CD.midTerm,'m3'):(CR.midTerm||[]).map(esc).join(' · ')||'—'}</div>
+      <div class="note"><b style="color:var(--org)">퇴조</b>(6M 만) ${CD.fading?dN(CD.fading,'m6'):(CR.fading||[]).map(esc).join(' · ')||'—'}</div>
+      ${L&&L.rotation&&L.rotation.narrative?`<div style="margin-top:8px">${clip(prose(L.rotation.narrative),4)}</div>`:''}
+      <div class="note">D+N = 그 기간 상위 2%에 연속 포함된 거래일 수(스냅샷 존재 평일 기준)</div></div></div>`;
+  }
   h+=`<div class="sec"><h4>② 공통 섹터 · 업종 — 어느 판에 몰려 있나</h4>
     <p class="pi"><b>섹터</b>는 큰 분류(기술·헬스케어처럼 11개), <b>업종(industry)</b>은 그 안을 더 잘게 나눈 분류입니다.
       예를 들어 <b>기술 섹터</b> 안에 <b>반도체</b>, <b>인프라 소프트웨어</b> 같은 업종이 들어 있습니다.
@@ -1253,6 +1283,9 @@ function bodyFor(id){
       ${rows([['QQQ 종가',n(q.price)],['MA10 / MA20 / MA50',`${n(q.ma10)} / ${n(q.ma20)} / ${n(q.ma50)}`],
         ['10MA 기울기',n(q.slope10Pct)+'%'],['골든크로스',esc(q.goldenCrossDate||'—')+(q.daysSinceGoldenCross!=null?` (D+${q.daysSinceGoldenCross})`:'')],
         ['데드크로스',esc(q.deathCrossDate||'—')+(q.daysSinceDeathCross!=null?` (D+${q.daysSinceDeathCross})`:'')]])}</div>`;
+    const ds=t.data_source||{};
+    if(ds.siteCondition||ds.apiCalled||ds.degraded)h+=`<div class="sec"><h4>RS 사이트 메타</h4>${rows([['사이트 시장국면(사용자 시트 A1)',ds.siteCondition?`<b>${esc(ds.siteCondition)}</b> — QQQ 판정과 별개로 병기`:'—'],
+      ['오늘 신규 조회',ds.apiCalled?`${ds.apiCalled.fresh}/${ds.apiCalled.total} (나머지 사이트 캐시)`:'—'],['발행 보류',ds.degraded?`<span style="color:var(--red)">예</span>${ds.degradedAt?` (${esc(ds.degradedAt)})`:''}`:'아니오']])}</div>`;
     h+=`<div class="sec"><h4>FINRA 고객 마진부채</h4><div class="ko">${esc(f.ko||'')}</div>
       ${f.latest?rows([['최신',`${esc(f.latest.month)} · ${f.latest.debit.toLocaleString()}M$`],
         ['전년동월',f.prior?`${esc(f.prior.month)} · ${f.prior.debit.toLocaleString()}M$`:'—'],['증가율',n(f.yoyPct,1)+'%']]):''}</div>`;
@@ -1260,6 +1293,10 @@ function bodyFor(id){
     if(st.length)h+=`<div class="sec"><h4>주도주 200일선 이격도</h4>
       ${rows(st.map(s=>[`${esc(s.ticker)} · ${esc(s.sector)}`,`${n(s.div200,1)}% ${esc(s.overheat.label)}`]))}</div>`;
     const nw=t.news||{};
+    // marketNarrative · keyRisks — 매일 생성·검증되는데 실장에게도 화면에도 안 가던 필드 (감사 3-2)
+    if(nw.marketNarrative)h+=`<div class="sec"><h4>시장 서사</h4>${clip(prose(nw.marketNarrative),4)}</div>`;
+    const kr=Array.isArray(nw.keyRisks)?nw.keyRisks.filter(Boolean):[];
+    if(kr.length)h+=`<div class="sec"><h4>핵심 리스크 ${kr.length}건</h4><ul class="plist">${kr.map(x=>`<li>${esc(typeof x==='string'?x:(x.ko||x.text||JSON.stringify(x)))}</li>`).join('')}</ul></div>`;
     if(nw.llm&&nw.digest&&nw.digest.length){
       h+=`<div class="sec"><h4>오늘의 시장 뉴스</h4>`+
         // 7건을 만들어놓고 4건만 그리고 있었다 (2026-08-14). 만든 건 다 보여준다.
@@ -1341,6 +1378,17 @@ function bodyFor(id){
       h+=`<div class="sec"><h4>★ 어닝 서프라이즈 · 산업 돌파</h4>`+
         t.llm.highlights.map(x=>`<div style="margin-bottom:8px"><b>${esc(x.ticker)}</b> <span class="chip">분류 ${x.category}</span>
           <div class="note">${esc(x.oneLine||'')}</div></div>`).join('')+`</div>`;
+    // sectorSignal · watchList · caution — 매일 생성되는데 어디에도 표시되지 않던 4팀 종합 (감사 3-2)
+    const L4=t.llm||{};
+    const wl=Array.isArray(L4.watchList)?L4.watchList.filter(Boolean):[];
+    if(L4.sectorSignal||wl.length||L4.caution){
+      h+=`<div class="sec"><h4>촉매 종합 — 섹터 신호 · 관찰 목록</h4>`;
+      if(L4.sectorSignal)h+=clip(prose(L4.sectorSignal),4);
+      if(wl.length)h+=`<div class="chips" style="margin-top:7px">${wl.map(x=>{const tk=typeof x==='string'?x:(x.ticker||'');const why=typeof x==='object'?(x.why||x.reason||''):'';
+        return `<span class="chip"><b>${esc(tk)}</b>${why?` <span class="dim">${esc(why)}</span>`:''}</span>`;}).join('')}</div>`;
+      if(L4.caution)h+=`<div class="nosrc" style="margin-top:8px">${esc(L4.caution)}</div>`;
+      h+=`</div>`;
+    }
     const nt=(t.items||[]).filter(i=>i.congestion&&i.congestion.phase!=='none').slice(0,8);
     if(nt.length)h+=`<div class="sec"><h4>Congestion 셋업</h4>
       ${rows(nt.map(i=>[`${esc(i.ticker)} · ${esc(i.congestion.phaseKo)}`,
@@ -1375,6 +1423,20 @@ function bodyFor(id){
       h+=`<div class="sec"><h4>WRS(${lab}) 상위 2% 업종</h4>
         ${rows(L.map(x=>[`${esc(x.industry)} (${x.count}종목)`,`${n(x.wrs[k],4)} · 상위 ${n(x.rankPct[k],2)}%`]))}</div>`;
     }
+    // rotationView · strongest · emerging · fading · caution — 매일 생성되는데 어디에도 표시되지 않던 5팀 종합 (감사 3-2)
+    const S5=t.llm&&t.llm.summary&&typeof t.llm.summary==='object'?t.llm.summary:null;
+    if(S5){
+      const li=(arr)=>Array.isArray(arr)?arr.filter(Boolean).map(x=>`<li>${esc(typeof x==='string'?x:[x.industry,x.why].filter(Boolean).join(' — ')||JSON.stringify(x))}</li>`).join(''):'';
+      const st=S5.strongest;
+      let b=`<div class="sec"><h4>섹터 순환 종합</h4>`;
+      if(S5.rotationView)b+=clip(prose(S5.rotationView),4);
+      if(st&&(typeof st==='string'||st.industry||st.why))b+=`<div class="note" style="color:var(--grn)"><b>가장 강한 업종</b>${typeof st==='string'?'':` — ${esc(st.industry||'')}`}</div>${typeof st==='string'?prose(st):(st.why?clip(prose(st.why),3):'')}`;
+      const em=li(S5.emerging),fd=li(S5.fading);
+      if(em)b+=`<div class="note" style="color:var(--blu)"><b>부상 중</b></div><ul class="plist">${em}</ul>`;
+      if(fd)b+=`<div class="note" style="color:var(--org)"><b>퇴조 중</b></div><ul class="plist">${fd}</ul>`;
+      if(S5.caution)b+=`<div class="nosrc" style="margin-top:8px">${esc(S5.caution)}</div>`;
+      h+=b+`</div>`;
+    }
     if(t.llm&&t.llm.industries&&t.llm.industries.length)
       h+=`<div class="sec"><h4>강세 사유 — 왜 강하고, 언제 꺾이나</h4>`+
         t.llm.industries.map(x=>{
@@ -1403,6 +1465,9 @@ function bodyFor(id){
       c.llm.todayFocus.map(f=>`<div style="margin-bottom:9px"><b>${esc(f.ticker)}</b>
         <div class="note">${esc(f.reason)}<br>→ ${esc(f.action)}</div></div>`).join('')+`</div>`;
     if(c.llm.chartCheckNote)h+=`<div class="sec"><h4>차트에서 확인할 것</h4><div class="note">${esc(c.llm.chartCheckNote)}</div></div>`;
+    // tomorrowWatch 는 리포트에만 있고 대시보드·리서치룸 어디에도 없었다 (감사 3-2)
+    if(c.llm.tomorrowWatch)h+=`<div class="sec"><h4>내일 볼 것</h4>${prose(c.llm.tomorrowWatch)}</div>`;
+    if(c.llm.caution)h+=`<div class="sec"><h4>주의 · 이 보고의 한계</h4><div class="nosrc">${esc(c.llm.caution)}</div></div>`;
   }
   const cc=(D.cc&&D.cc.items)||[];
   if(cc.length)h+=`<div class="sec"><h4>👁️ 오늘 차트를 봐야 할 종목</h4>`+

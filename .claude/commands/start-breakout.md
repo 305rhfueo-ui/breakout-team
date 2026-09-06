@@ -58,9 +58,11 @@ Workflow({ scriptPath: '<REPO>/scripts/workflows/team5-sector.js',   args: {...}
 
 4개는 서로 독립이므로 **한 메시지에서 병렬로** 띄운다.
 
-**조사 대상은 매일 순환한다.** `prepare-llm-args.js` 가 ① 오래 안 본 종목 → ② 돈이 들어오는
-업종 → ③ 지표 순으로 정렬하므로, 상한을 올리지 않아도 며칠이면 전량이 커버된다
-(`state/research-cache.json` 이 기록). 실행 로그의 `조사 순서` 줄로 오늘 누가 뽑혔는지 확인한다.
+**조사 대상은 매일 순환하고, TTL(5거래일) 안에 조사한 대상은 건너뛴다.** `prepare-llm-args.js` 가
+① 신규 ② TTL 경과 ③ 변화(오늘 돌파·차트확인 진입·최근 8-K 실적·국면 전환) 만 남기고, 나머지는
+`run-breakout.js` 가 지난 결과를 이월해 둔다(`researchedOn` 표기). 그래서 **2팀 에이전트가 20명보다 훨씬 적어도
+정상이다** — 실행 로그의 `조사 이유` / `이월` 줄로 확인한다. 5팀도 같은 방식으로 업종을 건너뛴다.
+(2026-09-03 감사: 이 로직이 없을 때 2팀 68%·5팀 87%가 TTL 안 재조사였다 — 하루 약 300만 토큰의 절반)
 
 **에이전트가 죽으면 워크플로가 1회 자동 재시도한다.** 그래도 실패하면 결과에 `failed: [티커]`
 (단일 에이전트 워크플로는 `error: 'agent_failed'`)가 담겨 오고, 화면에는 `대기`가 아니라
@@ -69,15 +71,16 @@ Workflow({ scriptPath: '<REPO>/scripts/workflows/team5-sector.js',   args: {...}
 
 ### 3. 실장 종합
 
-먼저 실장 인자를 **오늘 날짜로 새로 조립한다.** 5팀 결과 파일 경로를 넘긴다.
+먼저 실장 인자를 **오늘 날짜로 새로 조립한다.** 1·2·4·5팀 결과 파일을 전부 넘긴다
+(각 워크플로 결과를 `state/llm-in/_out/{team}.json` 에 저장해 두고 그 경로를 쓴다).
 
 ```bash
-node scripts/prepare-chief-args.js --team5=<5팀 워크플로 출력파일>
+node scripts/prepare-chief-args.js --team1=state/llm-in/_out/team1.json --team2=state/llm-in/_out/team2.json --team4=state/llm-in/_out/team4.json --team5=state/llm-in/_out/team5.json
 ```
 
-이게 세 가지를 합쳐 `state/llm-in/_chiefargs.json` 을 만든다 —
-`_args.json` 의 팀 요약, `chief.js` 의 `flowCross`(자금 유입 업종 × 그 안의 실제 종목),
-그리고 5팀이 조사한 강세 근거.
+이게 `state/llm-in/_chiefargs.json` 을 만든다 — `_args.json` 의 팀 요약, `chief.js` 의 `flowCross`
+(자금 유입 업종 × 그 안의 실제 종목), 1·2·4·5팀 LLM 결과(이월분 포함), 그리고 Node 가 센 개수
+(`llmResearchedCount` 등). ⚠️ `--team2/--team4` 를 빼면 실장이 "상승 이유 조사 안 됨"이라고 오보한다(2026-08-20 실제 발생).
 ⚠️ **이 단계를 건너뛰면 지난 실행분 인자가 그대로 남아 실장이 옛날 섹터 판정을 보고한다** (2026-08-11 실제 발생).
 
 그 다음 실장을 띄운다. 인자가 20KB 를 넘으므로 **파일 경로로 넘긴다** —
@@ -105,9 +108,12 @@ push 를 원하지 않으면 `node scripts/build-chief-report.js --no-git`.
 
 ### 5. 보고
 
-사용자에게 한국어로 보고한다. 반드시 포함할 것:
+사용자에게 한국어로 보고한다. **독자는 재무·회계 전공의 금융 실무자다** — 비유·초보자용 풀이를 쓰지 말고
+원천 수치(실적·RS·WRS·이격·거래량 배수)를 단위·기간과 함께 그대로 전달한다. 반드시 포함할 것:
+- ⚠️ `barsNotice`(야후 봉 누락·세션 불일치)·`dataNotice`(150일선 오염)가 있으면 맨 앞에
 - 🚦 시장 판정 (QQQ 쿨라매기 + FINRA 마진부채) — 🔴 면 흐리지 말고 그대로 전달
-- 2팀 퍼널 숫자와 테마 (공통 테마가 없으면 "없음"이라고)
+- 2팀 퍼널 숫자와 테마 (공통 테마가 없으면 "없음"이라고) — **기간별(1M·3M·6M) 테마와 교차(지속·신규·퇴조)를 구분해서**,
+  사이트 시장국면(`siteCondition`)은 QQQ 판정과 병기
 - 3팀 오늘 배제된 종목과 사유, 전고점 돌파 종목
 - 4팀 ①어닝서프라이즈 ⑤산업돌파 하이라이트
 - 👁️ **오늘 차트를 봐야 할 종목**과 각각 무엇을 확인할지

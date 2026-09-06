@@ -45,16 +45,20 @@ function pushHistory(item, dateStr, status, note) {
 }
 
 // 2팀 선정 결과를 누적 반영
+//
+// ⚠️ peak 는 여기서 정하지 않는다(null). RS 사이트 Price 는 분할 미조정 원본가라 야후 조정가와 섞이면
+//    액면분할 때 "고점 대비 -75%"로 오배제된다. evaluate 가 첫 평가 때 야후 종가로 초기화한다.
 function ingestPicks(state, picks, dateStr) {
   let added = 0, restored = 0, refreshed = 0;
+  const restoredTickers = [];
   for (const p of picks) {
     let it = findItem(state, p.ticker);
     if (!it) {
       it = {
         ticker: p.ticker, sector: p.sector, industry: p.industry,
         added: dateStr, lastPicked: dateStr, pickCount: 1,
-        status: STATUS.ACTIVE, peak: p.price ?? null, peakDate: dateStr,
-        addedReason: `RS 상위 ${round(100 - (p.bestPct || 0), 2)}% · ADR ${p.adr}% · 150일선 위`,
+        status: STATUS.ACTIVE, peak: null, peakDate: null,
+        addedReason: `RS 상위 ${p.bestPct == null ? '?' : round(100 - p.bestPct, 2)}% · ADR ${p.adr}% · 150일선 위`,
         manualHold: false, history: [],
       };
       pushHistory(it, dateStr, STATUS.ACTIVE, '신규 편입 (2팀 선정)');
@@ -68,12 +72,15 @@ function ingestPicks(state, picks, dateStr) {
         if (it.manualHold) {
           pushHistory(it, dateStr, it.status, '2팀 재선정됐으나 수동 배제 유지(manualHold)');
         } else {
+          // 재편입 후보. 배제 사유가 아직 살아 있으면 revertReentries 가 되돌린다 —
+          // 그래서 예전 배제 정보를 임시로 보관한다.
+          it._prevExcluded = { reason: it.excludedReason, at: it.excludedAt, asOf: it.excludedAsOf || null, firstAt: it.firstExcludedAt || it.excludedAt };
           it.status = STATUS.ACTIVE;
-          it.peak = p.price ?? null;          // ⚠️ peak 리셋 — 없으면 복귀 즉시 재배제된다
-          it.peakDate = dateStr;
-          it.excludedReason = null; it.excludedAt = null;
+          it.peak = null; it.peakDate = null;
+          it.excludedReason = null; it.excludedAt = null; it.excludedAsOf = null;
           pushHistory(it, dateStr, STATUS.ACTIVE, '재편입 (2팀 기준 재충족, peak 리셋)');
           restored++;
+          restoredTickers.push(it.ticker);
         }
       } else if (it.status === STATUS.DORMANT) {
         it.status = STATUS.ACTIVE;
@@ -82,7 +89,64 @@ function ingestPicks(state, picks, dateStr) {
       }
     }
   }
-  return { added, restored, refreshed };
+  return { added, restored, refreshed, restoredTickers };
+}
+
+// 배제 사유를 ctx 로 판정한다 (evaluate 와 revertReentries 가 공유)
+function exclusionReasons(it, c, o) {
+  const reasons = [];
+  // ① 50일선 아래 3일 이상 연속
+  if (c.belowMa50 && c.belowMa50.ok && c.belowMa50.days >= o.ma50BelowDays) {
+    reasons.push(`50일선 아래 ${c.belowMa50.days}일 연속(${c.belowMa50.firstBelowDate} ~ ${c.belowMa50.lastBarDate})`
+      + (c.barGap ? ' ⚠️봉 누락 — 연속일수 불확실' : ''));
+  }
+  // ② 고점 대비 -40%
+  const basis = o.drawdownBasis === 'high52' ? c.high52Price : it.peak;
+  if (basis && c.price != null) {
+    const dd = ((c.price - basis) / basis) * 100;
+    it.drawdownPct = round(dd);
+    if (dd <= -o.drawdownPct) reasons.push(`${o.drawdownBasis === 'high52' ? '52주 고점' : '편입 후 고점'}($${round(basis)}) 대비 ${round(dd)}%`);
+  }
+  // ③ 150일선 아래
+  if (c.aboveMa150 === false) reasons.push('종가가 150일선 아래');
+  return reasons;
+}
+
+// 재편입 → 즉시 재배제 churn 방지.
+//
+// 배경 (2026-09-03 실측): 2팀 기준엔 50일선이 없어서 50일선 아래인 RS 상위주가 매일 복귀 → 같은 날 재배제.
+//   MXL·BAND·PENG 복귀 29회/배제 29회. "오늘 배제 10건" 대부분이 이 churn 이었고, 차트확인 목록까지 오염됐다.
+//   복귀마다 peak 가 리셋돼 -40% 조건도 무력화됐다.
+// 여기서: 오늘 복귀한 종목 중 배제 사유가 여전히 성립하는 것은 **히스토리 없이** excluded 로 되돌리고
+//   reentryBlocked 만 남긴다. 되돌리지 않은 종목은 정상 재편입이다.
+function revertReentries(state, dateStr, ctx, tickers, opts = {}) {
+  const o = { ...DEFAULTS, ...opts };
+  const blocked = [];
+  for (const t of tickers || []) {
+    const it = findItem(state, t);
+    if (!it || it.status !== STATUS.ACTIVE || !it._prevExcluded) continue;
+    const c = ctx[t];
+    const prev = it._prevExcluded;
+    delete it._prevExcluded;
+    if (!c) continue;                       // 봉 없음 → 판정 보류, 재편입 유지 (조용한 오판 방지)
+    // 50일선 하향 이탈이나 150일선 이탈이 여전하면 복귀 무효. (-40% 은 peak 가 없으니 판정 불가)
+    const reasons = exclusionReasons(it, c, o).filter((r) => !r.startsWith('편입 후 고점'));
+    if (!reasons.length) continue;
+    it.status = STATUS.EXCLUDED;
+    it.excludedReason = prev.reason || reasons.join(' · ');
+    it.excludedAt = prev.at || dateStr;
+    it.excludedAsOf = prev.asOf || c.lastBarDate || null;
+    it.firstExcludedAt = prev.firstAt || prev.at || dateStr;
+    it.pickCount = Math.max(0, (it.pickCount || 1) - 1);
+    // 방금 push 한 "재편입" 히스토리를 걷어낸다 — 사실상 일어나지 않은 일이다
+    const h = it.history || [];
+    if (h.length && h[h.length - 1].date === dateStr && h[h.length - 1].status === STATUS.ACTIVE) h.pop();
+    it.reentryBlocked = { date: dateStr, reason: reasons.join(' · '), count: ((it.reentryBlocked || {}).count || 0) + 1 };
+    blocked.push({ ticker: t, reason: reasons.join(' · ') });
+  }
+  // 정상 재편입된 종목은 임시 필드를 정리한다
+  for (const it of state.items) if (it._prevExcluded) delete it._prevExcluded;
+  return blocked;
 }
 
 // 배제 판정 — ta 는 { belowMa50Days, price, ... }, row 는 RS 사이트 행
@@ -94,30 +158,20 @@ function evaluate(state, dateStr, ctx, opts = {}) {
     const c = ctx[it.ticker];
     if (!c) continue;   // 데이터 없음 → 상태 변경하지 않는다(조용한 오판 방지)
 
-    // peak 갱신
-    if (c.price != null && (it.peak == null || c.price > it.peak)) { it.peak = c.price; it.peakDate = dateStr; }
+    // peak 갱신 (야후 조정 종가 기준. 첫 평가면 여기서 초기화된다)
+    if (c.price != null && (it.peak == null || c.price > it.peak)) { it.peak = c.price; it.peakDate = c.lastBarDate || dateStr; }
 
-    const reasons = [];
-    // ① 50일선 아래 3일 이상 연속
-    if (c.belowMa50 && c.belowMa50.ok && c.belowMa50.days >= o.ma50BelowDays) {
-      reasons.push(`50일선 아래 ${c.belowMa50.days}일 연속(${c.belowMa50.firstBelowDate} ~ ${c.belowMa50.lastBarDate})`);
-    }
-    // ② 고점 대비 -40%
-    const basis = o.drawdownBasis === 'high52' ? c.high52Price : it.peak;
-    if (basis && c.price != null) {
-      const dd = ((c.price - basis) / basis) * 100;
-      it.drawdownPct = round(dd);
-      if (dd <= -o.drawdownPct) reasons.push(`${o.drawdownBasis === 'high52' ? '52주 고점' : '편입 후 고점'}($${round(basis)}) 대비 ${round(dd)}%`);
-    }
-    // ③ 150일선 아래
-    if (c.aboveMa150 === false) reasons.push('종가가 150일선 아래');
+    const reasons = exclusionReasons(it, c, o);
 
     if (reasons.length) {
       it.status = STATUS.EXCLUDED;
       it.excludedAt = dateStr;
+      // asOf = 판정 근거가 된 마지막 봉 날짜(ET). 실행일(KST)과 하루 어긋나므로 돌파일과 비교할 땐 이걸 쓴다.
+      it.excludedAsOf = c.lastBarDate || null;
+      if (!it.firstExcludedAt) it.firstExcludedAt = dateStr;
       it.excludedReason = reasons.join(' · ');
       pushHistory(it, dateStr, STATUS.EXCLUDED, it.excludedReason);
-      dropped.push({ ticker: it.ticker, reason: it.excludedReason });
+      dropped.push({ ticker: it.ticker, reason: it.excludedReason, asOf: it.excludedAsOf, firstExcludedAt: it.firstExcludedAt });
     }
   }
   return dropped;
@@ -187,6 +241,6 @@ function summary(state) {
 }
 
 module.exports = {
-  load, save, ingestPicks, evaluate, enforceCap,
+  load, save, ingestPicks, evaluate, enforceCap, revertReentries, exclusionReasons,
   manualExclude, manualRestore, summary, findItem, STATUS, DEFAULTS,
 };

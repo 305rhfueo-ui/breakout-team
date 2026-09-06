@@ -23,12 +23,20 @@ function normalize(raw) {
 }
 
 function extractMeta(raw) {
-  if (!raw || Array.isArray(raw)) return { wrs_data: [], market_condition: null, last_updated: null, total_count: null };
+  if (!raw || Array.isArray(raw)) return { wrs_data: [], market_condition: null, last_updated: null, total_count: null, degraded: false, data_quality: null, apiCalled: null };
+  const rows = Array.isArray(raw.data) ? raw.data : [];
+  const fresh = rows.filter((r) => r && r.api_called === true).length;
   return {
     wrs_data: Array.isArray(raw.wrs_data) ? raw.wrs_data : [],
-    market_condition: raw.market_condition != null ? raw.market_condition : null,
+    market_condition: raw.market_condition != null ? raw.market_condition : null,   // 사용자 구글시트 A1 (예: "BAD")
     last_updated: raw.last_updated || null,
     total_count: num(raw.total_count),
+    // 사이트 배치가 결측률 초과로 발행을 보류한 날 (fetch_and_save.py 가드 — 2026-09-07 계획). 없으면 false
+    degraded: raw.degraded === true,
+    degraded_at: raw.degraded_at || null,
+    data_quality: raw.data_quality && typeof raw.data_quality === 'object' ? raw.data_quality : null,
+    // api_called: 사이트가 오늘 yfinance 를 새로 조회한 행 수. 캐시 설계상 정상일에도 1/3 안팎만 true
+    apiCalled: rows.length ? { fresh, cached: rows.length - fresh, total: rows.length } : null,
   };
 }
 

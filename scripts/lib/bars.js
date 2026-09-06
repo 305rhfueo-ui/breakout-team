@@ -12,6 +12,17 @@ const fs = require('fs');
 const path = require('path');
 const { paths, ensureDir, readJson, writeJson, say } = require('./util');
 const { fetchBars, yahooSymbol } = require('./ta');
+const cal = require('./market-calendar');
+
+// 봉 목록의 품질 — 마지막 봉 날짜 · 최근 40봉 구간에서 빠진 거래일.
+// ⚠️ 야후가 날짜를 통째로 빼고 주는 일이 있다(2026-08-28). 그걸 조용히 통과시키면
+//    데드크로스 날짜·연속 이탈일수·거래량 판정이 전부 하루씩 어긋난다 → 반드시 표면화한다.
+function barQuality(bars, { lookback = 40 } = {}) {
+  if (!bars || !bars.length) return { lastBarDate: null, missing: [], gap: false };
+  const dates = bars.slice(-lookback).map((b) => barDateET(b.t));
+  const missing = cal.missingSessions(dates, { lookback });
+  return { lastBarDate: dates[dates.length - 1], missing, gap: missing.length > 0 };
+}
 
 // ── 뉴욕 현재 시각 (의존성 없이 Intl 로) ──
 function nowET() {
@@ -73,7 +84,8 @@ async function fetchBarsCached(ticker, opts = {}) {
   if (!opts.noCache) {
     const hit = readCache(file);
     if (hit && Array.isArray(hit.bars)) {
-      return { ticker, sym, bars: hit.bars, meta: hit.meta || null, ok: hit.bars.length > 0, error: null, cached: true };
+      return { ticker, sym, bars: hit.bars, meta: hit.meta || null, ok: hit.bars.length > 0, error: null, cached: true,
+               quality: barQuality(hit.bars) };
     }
   }
 
@@ -85,7 +97,8 @@ async function fetchBarsCached(ticker, opts = {}) {
   if (!res.ok) return { ticker, sym, bars: [], meta: null, ok: false, error: res.error, cached: false };
 
   const t = trimPartialBar(res.bars);
-  const out = { ticker, sym, bars: t.bars, meta: res.meta, ok: t.bars.length > 0, error: null, cached: false, trimmed: t.trimmed };
+  const out = { ticker, sym, bars: t.bars, meta: res.meta, ok: t.bars.length > 0, error: null, cached: false, trimmed: t.trimmed,
+                dropped: res.dropped || 0, quality: barQuality(t.bars) };
   try {
     ensureDir(path.dirname(file));
     writeJson(file, { bars: t.bars, meta: res.meta, fetched_at: new Date().toISOString() });
@@ -103,7 +116,7 @@ async function fetchMany(tickers, opts = {}) {
   const uniq = [...new Set(tickers.map((t) => String(t).trim().toUpperCase()).filter(Boolean))];
   const results = new Map();
   const started = Date.now();
-  let idx = 0, done = 0, netHits = 0, cacheHits = 0, failed = 0, budgetSkipped = 0;
+  let idx = 0, done = 0, netHits = 0, cacheHits = 0, failed = 0, budgetSkipped = 0, gapped = 0;
 
   async function worker() {
     while (idx < uniq.length) {
@@ -120,7 +133,7 @@ async function fetchMany(tickers, opts = {}) {
         if (r.ok) break;
         if (attempt < retries) await sleep(800 * Math.pow(3, attempt)); // 800ms → 2400ms
       }
-      if (r.ok) { if (r.cached) cacheHits++; else netHits++; } else { failed++; }
+      if (r.ok) { if (r.cached) cacheHits++; else netHits++; if (r.quality && r.quality.gap) gapped++; } else { failed++; }
       results.set(t, r);
       done++;
       if (onProgress && done % 20 === 0) onProgress(done, uniq.length);
@@ -132,17 +145,17 @@ async function fetchMany(tickers, opts = {}) {
 
   const stats = {
     requested: tickers.length, unique: uniq.length,
-    netHits, cacheHits, failed, budgetSkipped,
+    netHits, cacheHits, failed, budgetSkipped, gapped,
     elapsedMs: Date.now() - started,
     partial: budgetSkipped > 0,
   };
-  say('SYSTEM', `${label}: ${uniq.length}종목 · 네트워크 ${netHits} · 캐시 ${cacheHits} · 실패 ${failed}${budgetSkipped ? ` · 예산초과 스킵 ${budgetSkipped}` : ''} · ${(stats.elapsedMs / 1000).toFixed(1)}s`);
+  say('SYSTEM', `${label}: ${uniq.length}종목 · 네트워크 ${netHits} · 캐시 ${cacheHits} · 실패 ${failed}${budgetSkipped ? ` · 예산초과 스킵 ${budgetSkipped}` : ''}${gapped ? ` · ⚠️ 봉 누락 ${gapped}종목` : ''} · ${(stats.elapsedMs / 1000).toFixed(1)}s`);
   return { results, stats };
 }
 
 function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
 
-module.exports = { fetchBarsCached, fetchMany, trimPartialBar, nowET, barDateET, cachePath };
+module.exports = { fetchBarsCached, fetchMany, trimPartialBar, nowET, barDateET, cachePath, barQuality };
 
 if (require.main === module) {
   require('./util').loadEnv();

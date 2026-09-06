@@ -247,15 +247,21 @@ function isEtf(row) {
 //                2026-08-11 에 BMRN 이 실제로 그렇게 표시됐다 — 시도했다가 죽은 건데.
 //
 // done + failed + pending === total 이 항상 성립한다. tests/lib/coverage.test.js 가 고정한다.
-function coverageOf({ done, total, cap = null, unit = '종목', hint = '', failed = 0 }) {
+// carried: 오늘 새로 조사하지 않고 이전 실행 결과를 이월한 수 (done 에 포함)
+// ineligible: 조사 기준 자체에 못 드는 수 (4팀: 셋업·거래량 미달) — "순환 조사 대기"가 아니다
+function coverageOf({ done, total, cap = null, unit = '종목', hint = '', failed = 0, carried = 0, ineligible = 0, ineligibleWhy = '' }) {
   const d = Number(done) || 0;
   const t = Number(total) || 0;
-  const f = Math.max(0, Math.min(Number(failed) || 0, Math.max(0, t - d)));
-  const pending = Math.max(0, t - d - f);
+  const cf = Math.max(0, Math.min(Number(carried) || 0, d));
+  const ine = Math.max(0, Math.min(Number(ineligible) || 0, Math.max(0, t - d)));
+  const f = Math.max(0, Math.min(Number(failed) || 0, Math.max(0, t - d - ine)));
+  const pending = Math.max(0, t - d - f - ine);
 
   const parts = [];
-  if (pending || f) parts.push(`${t}${unit} 중 ${d}${unit}을 조사했습니다.`);
+  if (pending || f || ine) parts.push(`${t}${unit} 중 ${d}${unit}을 조사했습니다.`);
+  if (cf) parts.push(`그중 ${cf}${unit}은 최근 조사분을 이월했습니다(조사일 표기).`);
   if (f) parts.push(`${f}${unit}은 조사 중 오류로 실패했습니다 — 다음 실행에서 재시도합니다.`);
+  if (ine) parts.push(`${ine}${unit}은 ${ineligibleWhy || '조사 기준 미달'}로 조사 대상이 아닙니다.`);
   if (pending) {
     parts.push(`나머지 ${pending}${unit}은 상한(${cap ?? '?'}) 밖이라 아직 조사하지 않았습니다.`);
     // ⚠️ 로테이션이 실제로 구현된 뒤에만 이 약속을 한다.
@@ -265,8 +271,8 @@ function coverageOf({ done, total, cap = null, unit = '종목', hint = '', faile
   if (hint) parts.push(hint);
 
   return {
-    done: d, total: t, cap, pending, failed: f,
-    note: parts.length ? parts.join(' ') : `전 ${unit}(${t}) 조사 완료`,
+    done: d, total: t, cap, pending, failed: f, carried: cf, ineligible: ine,
+    note: parts.length ? parts.join(' ') : `전 ${unit}(${t}) 조사 완료${cf ? ` (이월 ${cf})` : ''}`,
   };
 }
 

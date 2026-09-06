@@ -76,10 +76,10 @@ for (const [who, file, v, countOf] of cases) {
       `total ${rc.total} 인데 실제 항목은 ${real}개다. 상한값이 total 을 덮어썼을 수 있다`);
   });
   ok(`${who} done ≤ total`, () => assert.ok(rc.done <= rc.total, `${rc.done}/${rc.total}`));
-  ok(`${who} done + failed + pending = total`, () => {
+  ok(`${who} done + failed + pending + ineligible = total`, () => {
     if (rc.pending == null) return;                    // 구버전 데이터는 통과
-    assert.strictEqual(rc.done + (rc.failed || 0) + rc.pending, rc.total,
-      `done ${rc.done} + failed ${rc.failed || 0} + pending ${rc.pending} ≠ total ${rc.total}`);
+    assert.strictEqual(rc.done + (rc.failed || 0) + rc.pending + (rc.ineligible || 0), rc.total,
+      `done ${rc.done} + failed ${rc.failed || 0} + pending ${rc.pending} + ineligible ${rc.ineligible || 0} ≠ total ${rc.total}`);
   });
 }
 
@@ -90,8 +90,8 @@ for (const [who, file, v, key] of [['2팀', 'team2.js', 'TEAM2_DATA', 'research'
   const d = load(file, v);
   if (!d) { console.log(`  ⏭️  ${who} — 데이터 없음`); continue; }
   const list = d.picks || d.items || [];
-  ok(`${who} 상태값이 done/failed/pending 셋 중 하나다`, () => {
-    const bad = list.filter((x) => x[key] && !['done', 'failed', 'pending', 'no_source'].includes(x[key].status));
+  ok(`${who} 상태값이 done/failed/pending/no_source/ineligible 중 하나다`, () => {
+    const bad = list.filter((x) => x[key] && !['done', 'failed', 'pending', 'no_source', 'ineligible'].includes(x[key].status));
     assert.strictEqual(bad.length, 0, `알 수 없는 상태: ${bad.map((x) => `${x.ticker}=${x[key].status}`).join(', ')}`);
   });
   ok(`${who} pending 안내문이 실패를 상한 탓으로 돌리지 않는다`, () => {

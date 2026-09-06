@@ -17,6 +17,7 @@ const TTL = {
   estimates: 1 * DAY,
   krReportList: 7 * DAY,     // 티커당 월 1.5~3건뿐 — 매일 조회할 이유가 없다
   krTickerMap: 30 * DAY,
+  rsFsData: 1 * DAY,         // 사이트 fs_data.json (14일 주기 갱신이라 하루 캐시면 충분)
   pdf: Infinity,             // secureId 단위 불변
 };
 

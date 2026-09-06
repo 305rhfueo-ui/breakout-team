@@ -19,20 +19,24 @@ const BIG = 9999;               // 정렬용 Infinity 대체 (Infinity 는 뺄�
 const FLOW_RANK = { leading: 0, inflow: 1, narrow: 2 };
 const FLOW_RANK_OTHER = 3;
 
+const BUCKETS = ['detail', 'team2', 'team4', 'team5'];
+
 function emptyCache() {
-  return { version: CACHE_VERSION, detail: {}, team2: {}, team4: {} };
+  return { version: CACHE_VERSION, detail: {}, team2: {}, team4: {}, team5: {} };
 }
 
 function loadCache(file = paths.researchCache) {
   const c = readJson(file, null);
   if (!c || c.version !== CACHE_VERSION) return emptyCache();
-  return { version: CACHE_VERSION, detail: c.detail || {}, team2: c.team2 || {}, team4: c.team4 || {} };
+  const out = emptyCache();
+  for (const b of BUCKETS) out[b] = c[b] || {};
+  return out;
 }
 
 // 오래된 항목을 정리하고 저장한다. today 를 주면 그 기준으로 자른다.
 function saveCache(cache, today, file = paths.researchCache) {
   const out = emptyCache();
-  for (const bucket of ['detail', 'team2', 'team4']) {
+  for (const bucket of BUCKETS) {
     for (const [ticker, v] of Object.entries(cache[bucket] || {})) {
       const last = typeof v === 'string' ? v : (v && v.last);
       if (!last) continue;
@@ -76,15 +80,58 @@ function stalenessOf(cache, bucket, ticker, today) {
 }
 
 // 조사 완료를 캐시에 찍는다. cache 를 제자리에서 수정하고 돌려준다.
-function recordResearched(cache, bucket, tickers, date) {
+// extra: 티커별 부가 정보 { [ticker]: {...} } — 4팀 category(⑥이면 재조사 제외), 5팀 rankPct 등
+function recordResearched(cache, bucket, tickers, date, extra = {}) {
   if (!cache[bucket]) cache[bucket] = {};
   for (const t of tickers || []) {
     if (!t) continue;
     const prev = cache[bucket][t];
     const count = (prev && typeof prev === 'object' && Number(prev.count)) || 0;
-    cache[bucket][t] = { last: date, count: count + 1 };
+    cache[bucket][t] = { last: date, count: count + 1, ...((extra && extra[t]) || {}) };
   }
   return cache;
+}
+
+function entryOf(cache, bucket, key) {
+  const v = (cache && cache[bucket] || {})[key];
+  return v && typeof v === 'object' ? v : null;
+}
+
+// 4팀 조사 적격 — Congestion 셋업이 있거나 거래대금이 특히 큰 종목만.
+// prepare-llm-args(선정)와 build-chief-report(커버리지 문구)가 같은 기준을 써야
+// "나머지 33종목은 순환 조사됩니다" 같은 거짓 문구가 안 나온다.
+const T4_PHASES = new Set(['bounce_trigger', 'retest', 'breakout', 'base', 'extended']);
+function team4Eligible(item) {
+  if (!item) return false;
+  const ph = item.congestion && item.congestion.phase;
+  return T4_PHASES.has(ph) || (Number(item.volx) || 0) >= 3;
+}
+
+// "TTL 안이면 건너뛴다" — 로테이션의 두 번째 절반.
+//
+// 배경 (2026-09-03 실측): orderForResearch 는 순서만 바꾸고 cap 을 항상 채웠다. 후보 37개를 하루 20개씩
+//   돌리니 모든 종목이 이틀에 한 번 처음부터 재조사됐다 (직전 5회 안 재조사 68%, WGS 16회).
+//   여기서는 정렬된 목록에서 ① TTL 지남 ② 한 번도 안 함 ③ 변화 있음(changed) 만 남긴다.
+//   cap 은 상한이지 목표가 아니다. 나머지는 어제 결과를 이월한다(run-breakout / build-chief-report).
+function selectForResearch(ordered, {
+  cache = emptyCache(), bucket = 'team2', today, ttl = 5, cap = 20,
+  keyOf: kf = (it) => it.ticker, changed = () => false, skip = () => false,
+} = {}) {
+  const picked = [], skipped = [], ineligible = [];
+  for (const it of ordered || []) {
+    const key = kf(it);
+    const stale = tradingDaysSince(lastResearched(cache, bucket, key), today);
+    const never = !lastResearched(cache, bucket, key);
+    let why = null;
+    if (skip(it, entryOf(cache, bucket, key))) { ineligible.push({ key, why: 'skip' }); continue; }
+    if (never) why = 'new';
+    else if (stale >= ttl) why = `stale ${stale}d`;
+    else { const c = changed(it, entryOf(cache, bucket, key)); if (c) why = `changed: ${c}`; }
+    if (!why) { skipped.push({ key, stale, last: lastResearched(cache, bucket, key) }); continue; }
+    if (picked.length >= cap) { skipped.push({ key, stale, last: lastResearched(cache, bucket, key), why: 'cap' }); continue; }
+    picked.push({ it, why });
+  }
+  return { picked: picked.map((p) => p.it), why: picked.map((p) => `${kf(p.it)}(${p.why})`), skipped, ineligible };
 }
 
 // computeFlow 결과 → Map(`${sector}|${industry}` → 0..3)
@@ -132,7 +179,7 @@ function orderForResearch(items, {
 
 module.exports = {
   loadCache, saveCache, emptyCache,
-  tradingDaysSince, lastResearched, stalenessOf, recordResearched,
-  flowRankOf, orderForResearch,
-  CACHE_VERSION, PRUNE_DAYS, FLOW_RANK,
+  tradingDaysSince, lastResearched, stalenessOf, recordResearched, entryOf,
+  flowRankOf, orderForResearch, selectForResearch, team4Eligible,
+  CACHE_VERSION, PRUNE_DAYS, FLOW_RANK, BUCKETS,
 };

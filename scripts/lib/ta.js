@@ -34,13 +34,16 @@ async function fetchBars(ticker, { range = '1y', interval = '1d', timeoutMs = 12
     const ts = r.timestamp || [];
     const q = (r.indicators && r.indicators.quote && r.indicators.quote[0]) || {};
     const bars = [];
+    // ⚠️ 종가 null 봉을 버린 개수를 센다. 야후가 특정 날짜를 통째로 빼고 주는 경우(2026-08-28)도 있어
+    //    "버린 봉"만으로는 누락을 다 못 잡는다 — 달력 대조는 bars.js / market-calendar.js 가 한다.
+    let dropped = 0;
     for (let i = 0; i < ts.length; i++) {
       const o = q.open && q.open[i], h = q.high && q.high[i], l = q.low && q.low[i];
       const c = q.close && q.close[i], v = q.volume && q.volume[i];
-      if (c == null || !isFinite(c)) continue;
+      if (c == null || !isFinite(c)) { dropped++; continue; }
       bars.push({ t: ts[i] * 1000, o, h, l, c, v: v || 0 });
     }
-    return { bars, meta: r.meta || null, ok: bars.length > 0, error: null };
+    return { bars, meta: r.meta || null, ok: bars.length > 0, error: null, dropped };
   } catch (e) {
     return { bars: [], meta: null, ok: false, error: e.message };
   }
@@ -163,6 +166,17 @@ function priorHighBreak(bars, { lookback = 40, exclude = 5 } = {}) {
   const tail = bars.slice(-exclude);
   let breakIdx = null;
   for (let i = 0; i < tail.length; i++) { if (tail[i].c > priorHigh) { breakIdx = i; break; } }
+  // ⚠️ 거래량 확인은 "돌파한 그 봉"의 거래량으로 한다.
+  //    예전엔 마지막 봉(오늘) 거래량으로 판정해서, 8/31 돌파 종목이 9/02 거래량으로 "확인"되거나
+  //    돌파 당일 3배였던 종목이 이틀 조용하면 "미확인"이 됐다 (2026-09-03 TARS·OKTA 실제 발생).
+  let breakVolRatio = null, breakVol = null;
+  if (breakIdx != null) {
+    const abs = bars.length - tail.length + breakIdx;
+    const before = bars.slice(Math.max(0, abs - 20), abs);
+    const avg = before.length >= 10 ? before.reduce((a, b) => a + (b.v || 0), 0) / before.length : null;
+    breakVol = bars[abs].v || 0;
+    breakVolRatio = avg ? round(breakVol / avg) : null;
+  }
   return {
     ok: true,
     priorHigh: round(priorHigh),
@@ -172,6 +186,8 @@ function priorHighBreak(bars, { lookback = 40, exclude = 5 } = {}) {
     closeAbovePct: round(((price - priorHigh) / priorHigh) * 100),
     breakDate: breakIdx == null ? null : new Date(tail[breakIdx].t).toISOString().slice(0, 10),
     barsSinceBreak: breakIdx == null ? null : tail.length - 1 - breakIdx,
+    breakVol,
+    breakVolRatio,   // 돌파봉 거래량 / 직전 20봉 평균
   };
 }
 

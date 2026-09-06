@@ -24,9 +24,34 @@ const teamBlocks = argsFile
 그 안의 ko 문장을 **marketVerdictKo 맨 앞과 caution 에 반드시 넣어라.**
 그날의 종목 목록은 걸러지지 않은 것이므로 "기준을 통과했다"고 말하면 안 된다.
 숨기거나 완곡하게 돌려 말하지 마라 — 사용자가 이걸 모르고 매매하면 안 된다.
-JSON 구조: \`teams.team1\`(시장환경) · \`teams.team2\`(종목선정) · \`teams.team3\`(추적) ·
-\`teams.team4\`(EP·촉매) · \`teams.team5\`(주도섹터 + \`llmIndustries\` 강세 근거) ·
-\`teams.chartCheck\`(오늘 차트 볼 종목) · \`teams.flowCross\`(자금이 들어오는 업종 × 그 안의 실제 종목).
+⚠️ **teams.barsNotice 가 있으면 야후 봉이 누락됐거나 RS 세션과 어긋난 날이다.** dataNotice 와 같이
+그 ko 문장을 marketVerdictKo 맨 앞과 caution 에 넣어라. 데드크로스 날짜·연속 이탈일수·돌파 거래량은 그날 신뢰도가 낮다.
+
+JSON 구조: \`teams.team1\`(시장환경 + \`news\` 1팀 LLM 뉴스 digest·marketNarrative·keyRisks + \`finra\` 절대금액) ·
+\`teams.team2\`(종목선정 + \`llmResearched\` 종목별 상승 이유·반대 근거·최근 분기 실적 \`financials\` + \`theme\` 테마 종합
+  — \`theme.byPeriod\`(1M·3M·6M 각각의 주도 테마)와 \`theme.rotation\`(지속·신규·퇴조 + narrative),
+  \`themeHeadlineByPeriod\`·\`crossCounts\`·\`crossTop\`(지속 주도 D+N 일수)·\`targetStatusCount\`·top[].qualifiedBy/targetStatus/saleCy/epsCy) ·
+\`teams.siteCondition\`(사용자 시트의 시장국면 문자열 — **QQQ 판정을 덮어쓰지 말고 나란히 보고**) · \`teams.apiCalled\`(사이트 오늘 신규 조회 수) · \`teams.siteDegraded\`(사이트 발행 보류일) ·
+\`teams.team3\`(추적 · \`dropped[]\` 오늘 배제 · \`unevaluated\` 봉 없어 미평가) ·
+\`teams.team4\`(EP·촉매 + \`llmItems\` 종목별 촉매 분류·근거 + \`summary\` sectorSignal·watchList·caution) ·
+\`teams.team5\`(주도섹터 + \`llmIndustries\` 강세 근거·risk + \`summary\` rotationView·emerging·fading) ·
+\`teams.chartCheck\`(오늘 차트 볼 종목, 상한 적용 — 전체 수는 \`chartCheckTotal\`) ·
+\`teams.flowCross\`(자금이 들어오는 업종 × 그 안의 실제 종목 · \`agreement\` 5팀 유출과 3팀 배제의 일치).
+
+⚠️ **돌파일보다 나중에 배제된 종목은 모순이 아니라 "실패한 돌파"다.**
+\`teams.team3.breakouts[].breakDate\` 와 \`teams.team3.dropped[].asOf\`(배제 판정의 기준 봉 날짜 — 실행일이 아니다)를 비교하라.
+돌파 뒤에 50·150일선을 잃은 것은 데이터 오류가 아니라 **그 돌파가 무너졌다는 뜻**이다 —
+"판단 보류"가 아니라 "돌파 실패, 후보에서 제외"라고 써라. 같은 날짜면 같은 세션의 일이다.
+
+⚠️ **개수는 직접 세지 마라. Node 가 센 값을 그대로 써라.**
+조사된 종목 수 = \`teams.team2.llmResearchedCount\` (그중 이월 = \`llmCarriedCount\`), 촉매 분류 수 = \`teams.team4.llmItemsCount\`,
+돌파 = \`teams.team3.breakoutTotal\` (목록은 \`breakoutShown\` 개만) · 거래량 확인 = \`breakoutVolumeConfirmed\`,
+차트확인 = \`teams.chartCheckTotal\`, 선정 종목 = \`teams.team2.picksTotal\`. 잘린 개수를 전체로 말하지 마라.
+
+⚠️ **\`llmResearched\` / \`llmItems\` 가 있으면 그 종목들은 이미 조사된 것이다.**
+"상승 이유는 조사되지 않았습니다" 라고 쓰지 마라 — 사실과 다르다. 조사 안 된 종목은
+\`llmFailed\` 에 있거나 애초에 이 목록에 없는 종목뿐이고, 그 구분을 그대로 전달하라.
+\`researchedOn\` 이 오늘이 아닌 항목은 그날 조사분을 이월한 것이다 — 필요하면 "N일 조사분"이라고 밝혀라.
 
 \`flowCross\` 는 이 리포트의 핵심이다. \`inflow\`(돈이 들어오는 업종) 각각에
 \`picks[]\` 가 붙어 있고 종목마다 \`d50\`(최근 두 달 평균 대비 이격) · \`d200\`(1년 평균 대비 이격) ·
@@ -56,12 +81,12 @@ ${JSON.stringify(T.chartCheck || [], null, 1).slice(0, 2000)}`
 
 const CHIEF = { type: 'object', properties: {
   headline: { type: 'string', description: '오늘을 한 줄로' },
-  marketVerdictKo: { type: 'string', description: '시장 환경 5~7문장, 쉬운 말로. 지금 시장이 어떤 상태인지 · 돈이 어디로 들어오고 어디서 빠지는지 · 그래서 지금 뭘 해야 하는지' },
+  marketVerdictKo: { type: 'string', description: '시장 국면 판단 + 자금 흐름(어디로 들어오고 어디서 빠지는지, 업종명과 종목 티커까지) + 포지션 지침. 문단 수·숫자 개수 제한 없음. 입력에 없는 사실로 채우지 마라' },
   todayFocus: { type: 'array', items: { type: 'object', properties: {
     ticker: { type: 'string' },
     reason: { type: 'string' },
-    action: { type: 'string', description: '지금 뭘 해야 하는지 (관찰/차트확인/트리거대기 등)' },
-  }, required: ['ticker', 'reason', 'action'] }, description: '오늘 가장 주목할 3~5종목' },
+    action: { type: 'string', description: '지금 뭘 해야 하는지 (관찰/차트확인/트리거대기/추격금지 등)' },
+  }, required: ['ticker', 'reason', 'action'] }, description: '오늘 가장 주목할 종목 0~5개. 🔴 이고 볼 만한 셋업이 없으면 비워도 된다' },
   teamSummaries: { type: 'object', properties: {
     team1: { type: 'string' }, team2: { type: 'string' }, team3: { type: 'string' },
     team4: { type: 'string' }, team5: { type: 'string' },
@@ -92,28 +117,31 @@ ${teamBlocks}
 1. **입력 JSON 에 없는 티커·숫자·뉴스를 새로 만들지 마라.** 이게 가장 중요하다.
 2. 근거가 '근거 없음'으로 표시된 항목은 그렇게 전달하라. 채워 넣지 마라.
 3. 시장이 🔴 면 그 사실을 흐리지 마라. 신규 진입 부적합이면 그렇게 말하라.
-4. todayFocus 는 3~5종목. 왜 주목하는지와 **지금 뭘 해야 하는지**를 함께.
+4. todayFocus 는 0~5종목. 왜 주목하는지와 **지금 뭘 해야 하는지**를 함께. 볼 만한 셋업이 없으면 비워라.
 5. chartCheckNote 는 "이 종목의 차트에서 무엇을 확인하라"를 구체적으로.
    (예: "PANW — 저항 $368.8 을 거래량 동반해 뚫는지, 뚫을 때 거래량이 20일 평균의 2배인지")
 6. 사용자가 최종 판단자다. 단정적 매수 권유 대신 확인할 조건을 제시하라.
-7. caution 에 이 리포트의 한계를 **2~4문장으로 솔직히** 적어라 (필수 항목이다).
-   조사되지 않은 종목 수, '근거 없음'으로 남은 항목, 데이터 결함(있다면)을 숨기지 마라.
-8. **marketVerdictKo 는 5~7문장이다.** "돈이 어디로 들어오고 어디서 빠지는지"를 반드시 넣어라.
-   길게 쓰되 **입력에 없는 사실로 분량을 채우지 마라** — 근거가 부족하면 짧게 끝내는 것이 낫다.
-   업종 이름 + 그 안에서 지금 강한 종목 티커 + 지금 사기 좋은 자리인지까지.
+7. caution 에 이 리포트의 한계를 **솔직히** 적어라 (필수 항목이다).
+   조사되지 않은 종목 수, '근거 없음'으로 남은 항목, 데이터 결함(dataNotice·barsNotice·unevaluated)을 숨기지 마라.
+8. **marketVerdictKo 에는 "돈이 어디로 들어오고 어디서 빠지는지"를 반드시 넣어라.**
+   업종 이름 + 그 안에서 지금 강한 종목 티커(flowCross.picks 의 d50·d200·stageKo 수치 그대로) + 지금 사기 좋은 자리인지까지.
    교차 결과가 비면 "이 업종에서 오늘 기준을 통과한 종목은 없습니다"라고 그대로 써라.
+   **입력에 없는 사실로 분량을 채우지 마라** — 근거가 부족하면 짧게 끝내는 것이 낫다.
+9. 1팀 news(digest·keyRisks)·2팀 theme·4팀 summary·5팀 summary 가 있으면 teamSummaries 에 그 내용을 반영하라 — 숫자만 보고 쓰지 마라.
+   2팀 테마는 **기간별 차이를 구분해** 써라: 1M 에 새로 진입한 곳(theme.byPeriod.m1 · rotation.newEntrants)과
+   6M 에만 남은 곳(byPeriod.m6 · rotation.fading), 세 기간 모두인 지속 주도(rotation.persistent, crossTop.persistent 의 D+N)를 나눠 말하라.
+   teams.siteCondition 이 있으면 "사이트 시장국면: X" 를 QQQ 판정 옆에 한 번 병기하라(둘이 다르면 다르다고).
+10. 업종 강도 변화율(F10d/F25d %)은 분모가 0 근처면 폭발한다. **크기가 아니라 순위 변동(frank25)으로 말하라.**
 
-## 말하는 방식 (사용자가 반복해서 요구한 것)
-- 영문 약어를 그냥 쓰지 마라. **뜻을 먼저 쓰고 이름은 괄호로**:
-  "1년 평균 가격보다 27% 위에 있습니다(200일선 이격)" — 그냥 "200DIV 27" 은 금지.
-  F10d·WRS·ADR·CLS_POS·BBWTHD 도 마찬가지다.
-- 한 문단에 숫자를 5개 이상 늘어놓지 마라.
-- "모멘텀 가속"·"리레이팅"·"밸류에이션 부담" 같은 업계 용어를 설명 없이 쓰지 마라.
-- 비유를 하나 이상 써라 (예: 1년 평균에서 얼마나 위로 떠 있나).
-- **매 문단 끝에 "그래서 뭘 하라는 건지"를 한 줄로** 붙여라.
-- 업종 강도 변화율(%)은 나누는 값이 0에 가까우면 숫자가 터진다. **크기가 아니라 순위 변동으로 말하라.**
-
-중학생도 이해할 수 있는 쉬운 한국어로 작성하세요.`,
+## 서술 기준 — 독자는 재무·회계 전공의 금융 실무자다
+1. 눈높이를 낮추지 마라. 비유·초보자용 요약·"쉽게 말해" 식 풀이는 쓰지 않는다.
+2. 표준 용어는 그대로 쓴다: YoY/QoQ, 가이던스, 컨센서스, EPS, FCF, 마진, 백로그, 크랙 스프레드, PIPE, 전환사채, 희석, 리레이팅, 밸류에이션, RS 백분위, ADR, 50/200일선 이격 등.
+3. 이 시스템 고유 지표(WRS·VOL_X·CLS_POS·BBWTHD·F10d·Congestion)는 처음 한 번만 정의를 붙이고 이후엔 이름만 쓴다.
+4. 원 수치를 생략하지 마라. 실적표·RS·WRS·이격·거래량 배수·가이던스 수치는 단위와 기간을 붙여 그대로 인용한다. 문단당 숫자 개수 제한은 없다.
+5. 숫자는 입력 JSON 에 실제로 있는 것만 쓴다.
+6. 구조: 결론 → 근거 → 반대 근거/리스크 → 확인할 조건. 매 문단 끝에 "그래서 무엇을 확인/실행할지"를 한 줄로.
+7. 판단 근거를 밝히되 매수·매도 권유는 하지 않는다. "무엇이 확인되면 논리가 성립/붕괴하는지"로 끝낸다.
+8. 한국어로 쓴다. 영문 고유명사·티커·지표명은 원문 그대로 둔다.`,
   { label: '실장종합', phase: '실장종합', schema: CHIEF, model: 'opus' }
 )
 

@@ -66,6 +66,20 @@ function pickRow(row) {
     maxRise1m: num(row.Max_Rise_1M_Pct), maxRise3m: num(row.Max_Rise_3M_Pct), maxRise6m: num(row.Max_Rise_6M_Pct),
     brk60d: yes(row.BRK_60D),
     clsPos: num(row.CLS_POS),
+    // ── 사이트 컬럼 중 2026-09-07 까지 안 쓰던 것 (감사 후 추가) ──
+    targetStatus: yes(row.Target_Status),            // CY·NY 전망 상향 ≥5% 둘 다 (utils.py)
+    est: {                                           // 컨센서스 EPS 원값: 현재 vs 30일 전
+      cyCur: num(row.CY_Current), cy30: num(row.CY_30Ago),
+      nyCur: num(row.NY_Current), ny30: num(row.NY_30Ago),
+    },
+    saleCy: num(row.SALE_CY), saleNy: num(row.SALE_NY),   // 컨센서스 매출성장 % (당해/차기)
+    epsCy: num(row.EPS_CY), epsNy: num(row.EPS_NY),       // 컨센서스 EPS 성장 % (당해/차기)
+    bbCenterBrk5d: yes(row.BB_Center_Breakout_5D),   // 볼린저 중심선 5일 내 돌파
+    newHigh52: yes(row.New_High_52W),                // 52주 신고가 (Y/N)
+    apiCalled: row.api_called === true,              // 사이트가 오늘 yfinance 를 새로 조회했는지 (캐시 아님)
+    siteRankPct6: num(row.RS_Rank_Pct),              // 사이트 6개월 순위 백분위 (낮을수록 상위)
+    fs: null,                                        // fs_data.json (최근 3분기) — run-breakout 이 채운다
+    top2Since: null, top2Streak: null,               // rs-entry.js 가 채운다
     // 야후로 나중에 채우는 칸 (기울기·연속이탈 등). 없으면 null 로 남겨 '판정불가' 표기
     ma150Slope: null,
     ta: null,
@@ -164,9 +178,10 @@ function group(items, field) {
     .sort((a, b) => b.count - a.count);
 }
 
-function detectThemes(qualified, { minCount = 2 } = {}) {
-  const bySector = group(qualified, 'sector');
-  const byIndustry = group(qualified, 'industry');
+// 클러스터링 본체 — 유니온(detectThemes)과 기간별(detectThemesByPeriod)이 공유한다
+function clusterOf(items, minCount = 2) {
+  const bySector = group(items, 'sector');
+  const byIndustry = group(items, 'industry');
 
   const clusters = [];
   for (const [level, list] of [['Sector', bySector], ['Industry', byIndustry]]) {
@@ -186,19 +201,74 @@ function detectThemes(qualified, { minCount = 2 } = {}) {
   // 공통 테마가 없으면 없다고 그대로 보고한다. 억지로 묶지 않는다.
   const meaningful = clusters.filter((c) => c.count >= Math.max(minCount, 3));
   let headline;
-  if (qualified.length === 0) {
+  if (items.length === 0) {
     headline = '자격 종목 없음';
   } else if (meaningful.length === 0) {
-    headline = `공통 테마 없음 — ${qualified.length}종목이 ${bySector.length}개 섹터에 분산 (최대 쏠림 ${bySector[0] ? bySector[0].name + ' ' + bySector[0].count + '종목' : '—'})`;
+    headline = `공통 테마 없음 — ${items.length}종목이 ${bySector.length}개 섹터에 분산 (최대 쏠림 ${bySector[0] ? bySector[0].name + ' ' + bySector[0].count + '종목' : '—'})`;
   } else {
-    const top = meaningful.slice(0, 3).map((c) => `${c.name} ${c.count}종목(${c.sharePct}%)`).join(' · ');
-    headline = `${top}`;
+    headline = meaningful.slice(0, 3).map((c) => `${c.name} ${c.count}종목(${c.sharePct}%)`).join(' · ');
   }
-
-  return { bySector, byIndustry, clusters, headline, minCount, total: qualified.length };
+  return { bySector, byIndustry, clusters, headline, total: items.length };
 }
 
-module.exports = { selectBreakoutCandidates, detectThemes, aboveMa150, aboveMa50, pickRow, DEFAULTS };
+const PERIODS = [['m1', '1mo'], ['m3', '3mo'], ['m6', '6mo']];
+
+function detectThemes(qualified, { minCount = 2 } = {}) {
+  const r = clusterOf(qualified, minCount);
+  // 유니온 클러스터마다 "멤버가 어느 기간으로 통과했나" 를 센다 — 같은 클러스터라도 1M 쏠림인지 6M 쏠림인지 구분
+  const byT = new Map(qualified.map((q) => [q.ticker, q.qualifiedBy || []]));
+  for (const c of r.clusters) {
+    c.periods = { m1: 0, m3: 0, m6: 0 };
+    for (const t of c.tickers) for (const [k, tag] of PERIODS) if ((byT.get(t) || []).includes(tag)) c.periods[k]++;
+  }
+  return { ...r, minCount };
+}
+
+// 기간별(1M·3M·6M 상위 2%) 테마 3세트 + 교차 집합.
+//
+// 배경 (2026-09-07 사용자 요청): 유니온에서만 테마를 뽑으면 "1개월 기준 새로 몰리는 곳"과
+//   "6개월 기준 오래 강한 곳"이 한 덩어리로 섞인다. 기간별로 나누고, 세 기간에 다 있는 지속 주도 /
+//   1M 에만 있는 신규 진입 / 6M 에만 있는 퇴조를 Node 가 확정한다. LLM 은 이 목록 안에서만 이름을 붙인다.
+// ⚠️ 한 종목이 여러 기간에 들어가므로 기간별 count 의 합 > 유니온. sharePct 분모는 "그 기간의 count" 다.
+//    cross.counts 의 합은 항상 qualified.length 와 같다 — 정합성 검사용.
+function detectThemesByPeriod(qualified, { minCount = 2, topN = 10 } = {}) {
+  const byPeriod = {};
+  for (const [k, tag] of PERIODS) {
+    const members = qualified.filter((q) => (q.qualifiedBy || []).includes(tag));
+    const r = clusterOf(members, minCount);
+    byPeriod[k] = {
+      count: members.length,
+      tickers: members.map((q) => q.ticker),
+      headline: r.headline,
+      clusters: r.clusters.slice(0, topN),
+      clustersTotal: r.clusters.length,
+      topSectors: r.bySector.filter((b) => b.name !== '미분류').slice(0, 3).map((b) => ({ name: b.name, count: b.count, sharePct: b.sharePct })),
+      topIndustries: r.byIndustry.filter((b) => b.name !== '미분류').slice(0, 3).map((b) => ({ name: b.name, count: b.count, sharePct: b.sharePct })),
+    };
+  }
+  const cross = { persistent: [], newEntrants: [], midTerm: [], fading: [], other: {}, counts: {} };
+  for (const q of qualified) {
+    const by = new Set(q.qualifiedBy || []);
+    const has1 = by.has('1mo'), has3 = by.has('3mo'), has6 = by.has('6mo');
+    if (has1 && has3 && has6) cross.persistent.push(q.ticker);
+    else if (has1 && !has3 && !has6) cross.newEntrants.push(q.ticker);
+    else if (has3 && !has1) cross.midTerm.push(q.ticker);          // 3mo(+6mo) — 1mo 는 아님
+    else if (has6 && !has1 && !has3) cross.fading.push(q.ticker);
+    else {                                                          // 1mo+3mo · 1mo+6mo
+      const key = [has1 && '1mo', has3 && '3mo', has6 && '6mo'].filter(Boolean).join('+');
+      (cross.other[key] = cross.other[key] || []).push(q.ticker);
+    }
+  }
+  const otherCount = Object.values(cross.other).reduce((a, b) => a + b.length, 0);
+  cross.counts = {
+    persistent: cross.persistent.length, newEntrants: cross.newEntrants.length, midTerm: cross.midTerm.length,
+    fading: cross.fading.length, other: otherCount, total: qualified.length,
+  };
+  cross.labels = { persistent: '지속 주도 (1M·3M·6M 모두 상위 2%)', newEntrants: '신규 진입 (1M 만)', midTerm: '중기 (3M 기준, 1M 은 아님)', fading: '퇴조 (6M 만)' };
+  return { byPeriod, cross };
+}
+
+module.exports = { selectBreakoutCandidates, detectThemes, detectThemesByPeriod, clusterOf, aboveMa150, aboveMa50, pickRow, DEFAULTS, PERIODS };
 
 if (require.main === module) {
   require('./util').loadEnv();
@@ -222,6 +292,20 @@ if (require.main === module) {
     for (const s of themes.bySector.slice(0, 6)) console.log(`  ${String(s.name).padEnd(24)} ${String(s.count).padStart(3)}종목 (${s.sharePct}%)`);
     console.log('\n업종 분포 (상위 8):');
     for (const s of themes.byIndustry.slice(0, 8)) console.log(`  ${String(s.name).padEnd(38)} ${String(s.count).padStart(3)}종목 (${s.sharePct}%)`);
+
+    const P = detectThemesByPeriod(qualified);
+    console.log('\n════════ 기간별 상위 2% ════════');
+    for (const [k, label] of [['m1', '1M'], ['m3', '3M'], ['m6', '6M']]) {
+      const b = P.byPeriod[k];
+      console.log(`${label}  ${b.count}종목 — ${b.headline}`);
+      console.log(`     섹터 ${b.topSectors.map((s) => `${s.name} ${s.count}(${s.sharePct}%)`).join(' · ') || '—'}`);
+      console.log(`     업종 ${b.topIndustries.map((s) => `${s.name} ${s.count}(${s.sharePct}%)`).join(' · ') || '—'}`);
+    }
+    const C = P.cross;
+    console.log(`교차  지속 ${C.counts.persistent}: ${C.persistent.join(',') || '—'}`);
+    console.log(`      신규(1M만) ${C.counts.newEntrants}: ${C.newEntrants.join(',') || '—'}`);
+    console.log(`      중기(3M) ${C.counts.midTerm}: ${C.midTerm.join(',') || '—'}`);
+    console.log(`      퇴조(6M만) ${C.counts.fading}: ${C.fading.join(',') || '—'}`);
 
     console.log('\n════════ 선정 종목 (상위 15) ════════');
     console.log('티커      best   1mo   3mo   6mo  ADR  52주  VOL_X 주간  200DIV 통과기간');
