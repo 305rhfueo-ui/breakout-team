@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-07",
+  "report": {
+    "checked": 140,
+    "ok": 174,
+    "unverified": 14,
+    "dead": 3,
+    "stripped": 6,
+    "removed": [
+      {
+        "reason": "중복",
+        "url": "https://rreport.einfomax.co.kr/report/eqlzkzgxiqigzmigcgxcmcq.pdf"
+      },
+      {
+        "reason": "링크 죽음(HTTP 404)",
+        "url": "https://www.sahmcapital.com/news/content/does-par-pacific-parr-prioritize-balance-sheet-strength-over-growth-with-its-new-loan-terms-and-2026-capex-2025-12-25"
+      },
+      {
+        "reason": "링크 죽음(HTTP 404)",
+        "url": "https://www.sahmcapital.com/news/content/par-pacific-holdings-parr-sees-2026-earnings-estimates-lifted-is-the-upside-already-priced-in-2026-07-20"
+      },
+      {
+        "reason": "링크 죽음(HTTP 404)",
+        "url": "https://www.sahmcapital.com/news/content/par-pacific-holdings-parr-sees-2026-earnings-estimates-lifted-is-the-upside-already-priced-in-2026-07-20"
+      },
+      {
+        "reason": "중복",
+        "url": "https://ca.finance.yahoo.com/news/bandwidth-stock-faces-growth-versus-171400038.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://ca.finance.yahoo.com/news/bandwidth-stock-faces-growth-versus-171400038.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/know-bandwidth-band-rating-upgrade-160003931.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514416&type=10-Q"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/know-bandwidth-band-rating-upgrade-160003931.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-circle-internet-group-inc-153038827.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-circle-internet-group-inc-153038827.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://rreport.einfomax.co.kr/report/eqlxczxiglleckkgcgxcmcq.pdf"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.tradingview.com/news/zacks:aa022a163094b:0-is-crcl-stock-worth-buying-as-growth-collides-with-premium-valuation/"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/strategy-mstr-sees-more-significant-215002026.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.fool.com/investing/2026/09/05/why-atlassian-stock-skyrocketed-92-higher-in-august-and-why-there-s-likely-more-to-come/"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.fool.com/investing/2026/09/05/why-atlassian-stock-skyrocketed-92-higher-in-august-and-why-there-s-likely-more-to-come/"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.tikr.com/blog/atlassian-stock-fell-8-in-a-day-heres-where-team-could-go-in-2026"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.tikr.com/blog/atlassian-stock-fell-8-in-a-day-heres-where-team-could-go-in-2026"
+      },
+      {
+        "reason": "인용문 없음",
+        "url": "https://www.sec.gov/Archives/edgar/data/1325618/000162828026051240/irmd-20260731.htm"
+      },
+      {
+        "reason": "인용문 없음",
+        "url": "https://www.sec.gov/Archives/edgar/data/1325618/000162828026045059/irmd-20260624.htm"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.ttnews.com/articles/diesel-crack-spread-record"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.ttnews.com/articles/diesel-crack-spread-record"
+      },
+      {
+        "reason": "미래 날짜(미상(확인 안됨) > 2026-09-07)",
+        "url": "https://www.stocktitan.net/sec-filings/AMR/8-k-alpha-metallurgical-resources-inc-reports-material-event-ae34d401ab17.html"
+      },
+      {
+        "reason": "미래 날짜(미상(확인 안됨) > 2026-09-07)",
+        "url": "https://www.stocktitan.net/sec-filings/AMR/8-k-alpha-metallurgical-resources-inc-reports-material-event-ae34d401ab17.html"
+      },
+      {
+        "reason": "미래 날짜(미상(확인 안됨) > 2026-09-07)",
+        "url": "https://simplywall.st/stocks/us/materials/nyse-amr/alpha-metallurgical-resources/news/alpha-metallurgical-resources-amr-valuation-check-after-2026/amp"
+      },
+      {
+        "reason": "중복",
+        "url": "https://247wallst.com/investing/2026/09/04/marvell-rises-6-as-beaten-down-ai-silicon-bounces-qualcomm-barely-budges/"
+      }
+    ],
+    "noQuote": 2
+  }
+}

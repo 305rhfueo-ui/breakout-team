@@ -5,14 +5,14 @@
  "nameKo": "델 테크놀로지스",
  "site": {
   "targetStatus": true,
-  "saleCy": 70.66,
-  "saleNy": 12.32,
-  "epsCy": 151.65,
-  "epsNy": -10.43,
+  "saleCy": 70.45,
+  "saleNy": 14.56,
+  "epsCy": 151.29,
+  "epsNy": -4.71,
   "est": {
-   "cyCur": 25.92015,
+   "cyCur": 25.88306,
    "cy30": 18.41304,
-   "nyCur": 23.21759,
+   "nyCur": 24.66365,
    "ny30": 19.4275
   },
   "newHigh52": false,

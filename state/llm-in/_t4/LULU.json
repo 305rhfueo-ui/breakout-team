@@ -124,12 +124,12 @@
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": -0.65,
-  "saleNy": 2.64,
-  "epsCy": -17.18,
-  "epsNy": 4.09,
-  "cyTrend": -0.59,
-  "nyTrend": -0.44,
+  "saleCy": -5.25,
+  "saleNy": 0.05,
+  "epsCy": -25.17,
+  "epsNy": -7.98,
+  "cyTrend": -10.11,
+  "nyTrend": -20.35,
   "newHigh52": false,
   "bbCenterBrk5d": true,
   "fs": {

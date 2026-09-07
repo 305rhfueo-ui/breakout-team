@@ -7,13 +7,13 @@
   "targetStatus": true,
   "saleCy": 5.01,
   "saleNy": 2.33,
-  "epsCy": 63.54,
-  "epsNy": -155.42,
+  "epsCy": 63.47,
+  "epsNy": -155.53,
   "est": {
-   "cyCur": -24.90762,
-   "cy30": -22.638,
-   "nyCur": 13.80412,
-   "ny30": 6.43067
+   "cyCur": -24.89662,
+   "cy30": -12.3984,
+   "nyCur": 13.82537,
+   "ny30": 5.19914
   },
   "newHigh52": false,
   "bbCenterBrk5d": false,

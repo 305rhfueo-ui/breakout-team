@@ -4,14 +4,14 @@
  "industry": "Computer Hardware",
  "nameKo": "시게이트 테크놀로지 홀딩스",
  "site": {
-  "targetStatus": true,
+  "targetStatus": false,
   "saleCy": 54.04,
   "saleNy": 33.65,
   "epsCy": 129.66,
   "epsNy": 54.75,
   "est": {
    "cyCur": 35.78091,
-   "cy30": 27.73976,
+   "cy30": 35.78091,
    "nyCur": 55.3714,
    "ny30": 43.44371
   },
