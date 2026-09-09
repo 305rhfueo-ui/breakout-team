@@ -220,6 +220,12 @@ batches.forEach((b, bi) => b.forEach((s, idx) => {
   // 근거가 지워졌으면 그 근거를 요약한 리드문도 같이 고친다. 원문은 남겨 대조할 수 있게 한다.
   const cl = String(r.correctedLead || '').trim()
   if (rm.size && cl.length > 20 && cl !== s.lead) { s.leadOriginal = s.lead; s.lead = cl; s.factcheck.leadFixed = true }
+  // 주장이 전부 지워졌는데 고친 리드문이 없으면 원래 리드문은 근거 없는 요약이다 — 남기지 않는다 (2026-09-09 5팀 실측).
+  else if (rm.size && s.whyRose[0].id === 'none') {
+    s.leadOriginal = s.lead
+    s.lead = `근거 없음 — 출처 검증을 통과한 상승 이유가 없다 (${rm.size}개 주장 제거)`
+    s.factcheck.leadFixed = true
+  }
 }))
 
 phase('테마종합')

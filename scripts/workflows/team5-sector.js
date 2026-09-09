@@ -213,6 +213,12 @@ for (const x of clean) {
   // 근거가 지워졌으면 그 근거를 요약한 리드문도 같이 고친다. 원문은 남겨 대조할 수 있게 한다.
   const cl = String(r.correctedLead || '').trim()
   if (rm.size && cl.length > 20 && cl !== x.lead) { x.leadOriginal = x.lead; x.lead = cl; x.factcheck.leadFixed = true }
+  // 주장이 전부 지워졌는데 고친 리드문이 없으면 원래 리드문은 근거 없는 요약이다 — 남기지 않는다 (2026-09-09 실측).
+  else if (rm.size && x.whyStrong[0].id === 'none') {
+    x.leadOriginal = x.lead
+    x.lead = `근거 없음 — 출처 검증을 통과한 강세 사유가 없다 (${rm.size}개 주장 제거: 숫자·날짜가 인용문에 없음)`
+    x.factcheck.leadFixed = true
+  }
 }
 
 phase('종합')

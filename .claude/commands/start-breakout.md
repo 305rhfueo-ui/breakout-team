@@ -69,6 +69,12 @@ Workflow({ scriptPath: '<REPO>/scripts/workflows/team5-sector.js',   args: {...}
 **`실패`** 로 표시된다. 수동으로 `resumeFromRunId` 를 돌릴 필요가 없다 —
 다음 날 실행이 그 종목을 우선순위 맨 앞으로 올린다.
 
+⚠️ **워크플로 자체가 죽어서(세션 429 등) `resumeFromRunId` 로 재개할 때는 처음과 똑같은 `args` 를 다시 넘겨야 한다.**
+args 없이 재개하면 스크립트가 빈 입력으로 재실행돼 캐시가 하나도 안 맞고
+`{date:"today", items:[]}` 같은 빈 결과가 오류 없이 나온다 (2026-09-07 실제 발생).
+그래서 워크플로를 띄우기 전에 팀별 args 를 scratchpad 에 `team2args.json` 등으로 저장해 둔다.
+아직 돌고 있는 run 은 `TaskStop` 으로 먼저 멈춰야 같은 runId 로 재개할 수 있다.
+
 ### 3. 실장 종합
 
 먼저 실장 인자를 **오늘 날짜로 새로 조립한다.** 1·2·4·5팀 결과 파일을 전부 넘긴다

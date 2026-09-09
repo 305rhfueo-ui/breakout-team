@@ -99,7 +99,8 @@ else {
       .filter((c) => c.evidence_level === 'sourced')
       .flatMap((c) => (c.sources || []).map((s) => s && s.url))).filter(Boolean);
     if (!urls.length) return;
-    const shown = urls.filter((u) => h4.includes(u)).length;
+    // href 는 HTML 이스케이프되므로 '&' 가 든 URL(SEC EDGAR 쿼리 등)은 이스케이프 형태로도 찾는다 (2026-09-09 실측 오탐)
+    const shown = urls.filter((u) => h4.includes(u) || h4.includes(E(u))).length;
     assert.strictEqual(shown, urls.length, `출처 ${urls.length}개 중 ${shown}개만 렌더됨`);
   });
 }
