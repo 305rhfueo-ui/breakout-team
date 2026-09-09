@@ -1,6 +1,27 @@
 window.HISTORY_DATA = {
   "runs": [
     {
+      "date": "2026-09-10",
+      "qqq": "red",
+      "finraYoY": 38.6,
+      "picks": 44,
+      "breakouts": 6,
+      "chartCheck": 24,
+      "droppedToday": 2,
+      "reentryBlocked": 8,
+      "barsNotice": null,
+      "crossCounts": {
+        "persistent": 1,
+        "newEntrants": 14,
+        "midTerm": 10,
+        "fading": 17,
+        "other": 2,
+        "total": 44
+      },
+      "siteCondition": "BAD",
+      "theme": "Technology 20종목(45.5%) · Semiconductors 8종목(18.2%) · Healthcare 7종목(15.9%)"
+    },
+    {
       "date": "2026-09-09",
       "qqq": "red",
       "finraYoY": 38.6,

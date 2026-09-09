@@ -1,5 +1,5 @@
 window.TEAM4_DATA = {
-  "generated": "2026-09-09",
+  "generated": "2026-09-10",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2
@@ -41,7 +41,7 @@ window.TEAM4_DATA = {
           "적자축소"
         ],
         "opm": null,
-        "updated": "2026-09-08 10:09:53"
+        "updated": "2026-09-09 07:27:47"
       },
       "congestion": {
         "ok": true,
@@ -117,7 +117,7 @@ window.TEAM4_DATA = {
         "categoryName": "바이오·FDA·임상",
         "isHighlight": false,
         "researchedOn": "2026-09-09",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -168,10 +168,10 @@ window.TEAM4_DATA = {
         "baseLow": 137.12,
         "baseBars": 126,
         "baseMonths": 6,
-        "rangePct": 19.96,
+        "rangePct": 19.95,
         "contraction": 0.89,
         "pivot": 164.48,
-        "distToPivotPct": -16.28,
+        "distToPivotPct": -16.42,
         "aboveMa150AtNow": false,
         "buyTrigger": {
           "price": 164.48,
@@ -260,7 +260,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-09-09",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -400,7 +400,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-09-09",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -473,7 +473,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-09-09",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -586,7 +586,7 @@ window.TEAM4_DATA = {
         "categoryName": "바이오·FDA·임상",
         "isHighlight": false,
         "researchedOn": "2026-09-09",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -690,7 +690,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-09-09",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -737,7 +737,7 @@ window.TEAM4_DATA = {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 434,
+        "bars": 435,
         "rangePct": 90.05
       },
       "catalyst": {
@@ -821,7 +821,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-09-09",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -872,8 +872,9 @@ window.TEAM4_DATA = {
         "rangePct": 43.93
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -924,8 +925,9 @@ window.TEAM4_DATA = {
         "rangePct": 98.98
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -962,7 +964,7 @@ window.TEAM4_DATA = {
           "적자확대"
         ],
         "opm": null,
-        "updated": "2026-09-08 07:14:29"
+        "updated": "2026-09-09 06:12:34"
       },
       "congestion": {
         "ok": true,
@@ -1112,8 +1114,9 @@ window.TEAM4_DATA = {
         "rangePct": 34.86
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1164,8 +1167,9 @@ window.TEAM4_DATA = {
         "rangePct": 113.07
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1216,8 +1220,9 @@ window.TEAM4_DATA = {
         "rangePct": 34.51
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1268,8 +1273,9 @@ window.TEAM4_DATA = {
         "rangePct": 201.51
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1321,9 +1327,9 @@ window.TEAM4_DATA = {
         "baseBars": 126,
         "baseMonths": 6,
         "rangePct": 33.51,
-        "contraction": 0.95,
+        "contraction": 0.89,
         "pivot": 235.81,
-        "distToPivotPct": -11.24,
+        "distToPivotPct": -11.29,
         "aboveMa150AtNow": true,
         "buyTrigger": {
           "price": 235.81,
@@ -1385,7 +1391,7 @@ window.TEAM4_DATA = {
         "categoryName": "매크로·정책·산업 돌파",
         "isHighlight": true,
         "researchedOn": "2026-09-09",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1436,8 +1442,9 @@ window.TEAM4_DATA = {
         "rangePct": 69.85
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1489,9 +1496,9 @@ window.TEAM4_DATA = {
         "baseBars": 126,
         "baseMonths": 6,
         "rangePct": 23.19,
-        "contraction": 0.97,
+        "contraction": 0.95,
         "pivot": 77.45,
-        "distToPivotPct": -9.92,
+        "distToPivotPct": -9.74,
         "aboveMa150AtNow": true,
         "buyTrigger": {
           "price": 77.45,
@@ -1580,7 +1587,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-09-09",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1621,7 +1628,7 @@ window.TEAM4_DATA = {
           30.94,
           27.57
         ],
-        "updated": "2026-08-25 06:37:37"
+        "updated": "2026-09-09 07:40:00"
       },
       "congestion": {
         "ok": true,
@@ -1632,11 +1639,11 @@ window.TEAM4_DATA = {
         "rangePct": 24.17,
         "breakoutDate": "2026-08-05",
         "breakoutVolX": 2.16,
-        "barsSinceBreakout": 23,
+        "barsSinceBreakout": 24,
         "aboveMa150AtBreak": true,
         "ma150AtBreak": 353.02,
         "pivot": 398,
-        "distToPivotPct": -1.21,
+        "distToPivotPct": -1.69,
         "retestDate": "2026-08-06",
         "retestVolRatio": 1.48,
         "dryUp": false,
@@ -1722,7 +1729,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-09-09",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1770,11 +1777,12 @@ window.TEAM4_DATA = {
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
         "bars": 501,
-        "rangePct": 63.66
+        "rangePct": 51.69
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1822,11 +1830,12 @@ window.TEAM4_DATA = {
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
         "bars": 501,
-        "rangePct": 42.98
+        "rangePct": 55.94
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1863,7 +1872,7 @@ window.TEAM4_DATA = {
           null
         ],
         "opm": null,
-        "updated": "2026-09-08 06:07:05"
+        "updated": "2026-09-09 05:54:40"
       },
       "congestion": {
         "ok": true,
@@ -1874,9 +1883,9 @@ window.TEAM4_DATA = {
         "baseBars": 126,
         "baseMonths": 6,
         "rangePct": 34.04,
-        "contraction": 0.95,
+        "contraction": 0.93,
         "pivot": 98.79,
-        "distToPivotPct": -11.68,
+        "distToPivotPct": -10.26,
         "aboveMa150AtNow": true,
         "buyTrigger": {
           "price": 98.79,
@@ -1949,7 +1958,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-09-09",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1997,11 +2006,12 @@ window.TEAM4_DATA = {
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
         "bars": 501,
-        "rangePct": 40.2
+        "rangePct": 43.81
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2052,8 +2062,9 @@ window.TEAM4_DATA = {
         "rangePct": 101.97
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2083,12 +2094,13 @@ window.TEAM4_DATA = {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 501,
+        "bars": 500,
         "rangePct": 58.64
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2139,8 +2151,9 @@ window.TEAM4_DATA = {
         "rangePct": 100.15
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2192,9 +2205,9 @@ window.TEAM4_DATA = {
         "baseBars": 126,
         "baseMonths": 6,
         "rangePct": 23.02,
-        "contraction": 0.92,
+        "contraction": 0.95,
         "pivot": 107.09,
-        "distToPivotPct": -10.63,
+        "distToPivotPct": -10.25,
         "aboveMa150AtNow": false,
         "buyTrigger": {
           "price": 107.09,
@@ -2204,7 +2217,8 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2245,7 +2259,7 @@ window.TEAM4_DATA = {
           -18.27,
           -14.98
         ],
-        "updated": "2026-08-26 03:04:55"
+        "updated": "2026-09-09 06:49:21"
       },
       "congestion": {
         "ok": true,
@@ -2383,8 +2397,9 @@ window.TEAM4_DATA = {
         "rangePct": 98.12
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2425,7 +2440,7 @@ window.TEAM4_DATA = {
           21.2,
           5.53
         ],
-        "updated": "2026-08-25 07:21:09"
+        "updated": "2026-09-09 07:16:14"
       },
       "congestion": {
         "ok": true,
@@ -2435,8 +2450,9 @@ window.TEAM4_DATA = {
         "rangePct": 22.61
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2487,8 +2503,9 @@ window.TEAM4_DATA = {
         "rangePct": 28.58
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2536,11 +2553,12 @@ window.TEAM4_DATA = {
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
         "bars": 501,
-        "rangePct": 32.64
+        "rangePct": 32.6
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2588,11 +2606,12 @@ window.TEAM4_DATA = {
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
         "bars": 501,
-        "rangePct": 40
+        "rangePct": 40.16
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2640,11 +2659,12 @@ window.TEAM4_DATA = {
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
         "bars": 501,
-        "rangePct": 225.97
+        "rangePct": 202.42
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2695,8 +2715,9 @@ window.TEAM4_DATA = {
         "rangePct": 67.59
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2747,8 +2768,9 @@ window.TEAM4_DATA = {
         "rangePct": 184.47
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2799,8 +2821,9 @@ window.TEAM4_DATA = {
         "rangePct": 31.18
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2851,8 +2874,9 @@ window.TEAM4_DATA = {
         "rangePct": 70.06
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -2904,11 +2928,11 @@ window.TEAM4_DATA = {
         "rangePct": 31.84,
         "breakoutDate": "2026-06-26",
         "breakoutVolX": 2.12,
-        "barsSinceBreakout": 50,
+        "barsSinceBreakout": 51,
         "aboveMa150AtBreak": true,
         "ma150AtBreak": 49.67,
         "pivot": 59.13,
-        "distToPivotPct": 11.89,
+        "distToPivotPct": 12.82,
         "retestDate": "2026-06-29",
         "retestVolRatio": 1.21,
         "dryUp": false,
@@ -2917,7 +2941,7 @@ window.TEAM4_DATA = {
         "score": 20,
         "buyTrigger": {
           "price": 59.13,
-          "note": "과확장(피봇 +11.89% > 3×ADR 7.77%) — 되돌림 대기"
+          "note": "과확장(피봇 +12.82% > 3×ADR 7.77%) — 되돌림 대기"
         }
       },
       "catalyst": {
@@ -2973,7 +2997,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-09-09",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -3024,8 +3048,9 @@ window.TEAM4_DATA = {
         "rangePct": 42.21
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -3066,7 +3091,7 @@ window.TEAM4_DATA = {
           34.42,
           28.03
         ],
-        "updated": "2026-08-25 07:36:18"
+        "updated": "2026-09-09 07:25:55"
       },
       "congestion": {
         "ok": true,
@@ -3076,8 +3101,9 @@ window.TEAM4_DATA = {
         "rangePct": 43.86
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -3128,8 +3154,9 @@ window.TEAM4_DATA = {
         "rangePct": 63.24
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -3176,12 +3203,13 @@ window.TEAM4_DATA = {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 363,
+        "bars": 364,
         "rangePct": 128.32
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -3232,8 +3260,9 @@ window.TEAM4_DATA = {
         "rangePct": 38.21
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -3285,19 +3314,20 @@ window.TEAM4_DATA = {
         "rangePct": 22.81,
         "breakoutDate": "2026-07-02",
         "breakoutVolX": 2.22,
-        "barsSinceBreakout": 46,
+        "barsSinceBreakout": 47,
         "aboveMa150AtBreak": true,
         "ma150AtBreak": 138.54,
         "pivot": 153.28,
-        "distToPivotPct": -10.04,
+        "distToPivotPct": -11.11,
         "phase": "failed",
         "phaseKo": "돌파 실패 (저항 아래 재이탈)",
-        "belowRun": 46,
+        "belowRun": 47,
         "score": 0
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -3348,8 +3378,9 @@ window.TEAM4_DATA = {
         "rangePct": 66.66
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -3400,8 +3431,9 @@ window.TEAM4_DATA = {
         "rangePct": 30.01
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -3452,8 +3484,9 @@ window.TEAM4_DATA = {
         "rangePct": 175.33
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -3504,8 +3537,9 @@ window.TEAM4_DATA = {
         "rangePct": 156.43
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -3556,8 +3590,9 @@ window.TEAM4_DATA = {
         "rangePct": 89.23
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -3608,8 +3643,9 @@ window.TEAM4_DATA = {
         "rangePct": 32.29
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -3646,17 +3682,18 @@ window.TEAM4_DATA = {
           null
         ],
         "opm": null,
-        "updated": "2026-09-08 06:51:40"
+        "updated": "2026-09-09 07:26:37"
       },
       "congestion": {
         "ok": false,
         "phase": "unknown",
         "phaseKo": "봉 부족 — 판정불가",
-        "bars": 66
+        "bars": 67
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -3704,11 +3741,12 @@ window.TEAM4_DATA = {
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
         "bars": 501,
-        "rangePct": 68
+        "rangePct": 64.5
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -3755,12 +3793,13 @@ window.TEAM4_DATA = {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 471,
+        "bars": 472,
         "rangePct": 234.47
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -3811,8 +3850,9 @@ window.TEAM4_DATA = {
         "rangePct": 207.42
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -3864,19 +3904,20 @@ window.TEAM4_DATA = {
         "rangePct": 25.01,
         "breakoutDate": "2026-07-31",
         "breakoutVolX": 2.99,
-        "barsSinceBreakout": 26,
+        "barsSinceBreakout": 27,
         "aboveMa150AtBreak": true,
         "ma150AtBreak": 51.62,
         "pivot": 59.33,
-        "distToPivotPct": -5.92,
+        "distToPivotPct": -4.5,
         "phase": "failed",
         "phaseKo": "돌파 실패 (저항 아래 재이탈)",
-        "belowRun": 18,
+        "belowRun": 19,
         "score": 0
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     }
   ],
@@ -3900,37 +3941,14 @@ window.TEAM4_DATA = {
   "research_coverage": {
     "done": 14,
     "total": 55,
-    "cap": 12,
+    "cap": null,
     "pending": 1,
     "failed": 0,
-    "carried": 2,
+    "carried": 14,
     "ineligible": 40,
-    "note": "55종목 중 14종목을 조사했습니다. 그중 2종목은 최근 조사분을 이월했습니다(조사일 표기). 40종목은 셋업·거래량 기준 미달로 조사 대상이 아닙니다. 나머지 1종목은 상한(12) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다. 자금이 들어오는 업종 · 거래대금 급증 순으로 우선 조사합니다."
+    "note": "55종목 중 14종목을 조사했습니다. 그중 14종목은 최근 조사분을 이월했습니다(조사일 표기). 40종목은 셋업·거래량 기준 미달로 조사 대상이 아닙니다. 나머지 1종목은 상한(?) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
   },
   "llmCarried": {
-    "highlights": [
-      {
-        "ticker": "GWRE",
-        "category": 1,
-        "oneLine": "FY26 4Q 비GAAP EPS $0.99(컨센서스 $0.94)·매출 $411.1M로 서프라이즈였으나, FY27 ARR 가이던스가 18%로 둔화(전년 19%)되고 1분기 매출 가이던스도 컨센서스 하회하며 다음날 주가 15~20% 급락 — '어닝 비트에도 가이던스가 주가를 결정'하는 역설적 사례."
-      },
-      {
-        "ticker": "AMBA",
-        "category": 1,
-        "oneLine": "2분기(FY27) 매출 $108.1M로 YoY +13.2% 성장, 3분기 가이던스도 $115.0~124.0M로 컨센서스 상회 평가를 받았으나 발표 직후 주가는 오히려 11% 하락 — 실적 호조가 주가에 반영되지 않은 디커플링 신호."
-      },
-      {
-        "ticker": "FICO",
-        "category": 5,
-        "oneLine": "FHFA 국장 Bill Pulte가 9/4 Fannie Mae·Freddie Mac에 VantageScore 즉시 승인을 지시해 모기지 신용평가 시장에 정책발 경쟁자가 공식 진입 — VantageScore 건당 $0.99 vs FICO $10+ 가격 격차가 부각되며 FICO 핵심 Scores 부문 수익성 훼손 우려가 부상."
-      }
-    ],
-    "sectorSignal": "촉매가 특정 섹터로 몰린 정황은 없음 — 신용평가·모기지 인프라(FICO), 보험 소프트웨어(GWRE), 반도체/엣지AI 카메라칩(AMBA), 안과 희귀질환 바이오(BLTE), 철도(CNI), 심장/의료기기(ITGR), 농업금융 GSE(AGM.A) 등 업종이 고르게 분산되어 있음. 다만 category 1의 두 사례(GWRE, AMBA)가 공통적으로 '컨센서스 상회에도 가이던스·향후 성장률 둔화 우려로 주가 급락'한 패턴을 보여, 현재 장세에서는 과거 실적보다 미래 가이던스에 대한 눈높이가 훨씬 까다로워졌다는 점이 유일하게 두드러진 공통 시그널임.",
-    "watchList": [],
-    "caution": "본 종합은 제공된 입력 텍스트(각 종목별 claims)만을 근거로 하며, 웹검색이나 별도 가격·거래량 차트 데이터는 확인하지 않았음. 따라서 '6개월 횡보 후 돌파·리테스트' 여부를 판단할 가격 히스토리 정보가 입력에 없어 watchList는 공란으로 둠 — 필요 시 차트 데이터를 별도로 받아야 함. 또한 LULU·DIT 두 종목은 claims에 corrected:true(원 주장이 정정됨) 표시가 있어 해당 항목 자체의 신뢰도가 낮으며, category 6(암묵적/뉴스 없는 거래량 급증) 종목들(AGM.A, IRMD, NEN, CNI, GRVY 등)은 다수가 '근거 없음' 또는 촉매-거래량 시점 불일치를 스스로 명시하고 있어 실질적 매매 근거로 삼기 어려움. category 1·5만 선별한 하이라이트도 표본이 3건에 불과해 통계적 유의성보다는 개별 이벤트 해석에 그침.",
-    "researchedOn": "2026-09-07"
-  },
-  "llm": {
     "highlights": [
       {
         "ticker": "NYAX",
@@ -3955,12 +3973,5 @@ window.TEAM4_DATA = {
     ],
     "caution": "이 분류는 제공된 claims 텍스트만을 근거로 한 것으로 웹검색 등 별도 검증을 거치지 않았다. corrected=false로 표시된 항목들도 아직 사실관계 재확인이 완료된 상태가 아니므로 원문 오류나 왜곡 가능성을 배제할 수 없다. TTAN처럼 동일 카테고리 내에서도 매출은 서프라이즈, 가이던스는 실망이라는 상반된 신호가 공존하는 경우가 있어 카테고리 라벨 하나로 방향성을 단정하면 안 된다. 카테고리 6(무뉴스 이상거래량)은 '뉴스가 없다'는 것이 실제로 촉매가 전무하다는 의미가 아니라 제공된 자료 범위에서 확인되지 않았다는 의미일 뿐이며, MOG.B처럼 근거 자체가 부재한 티커도 포함되어 있어 해당 종목의 거래량 이상 원인은 별도 확인이 필요하다. watchList는 claims에 등장한 '이동평균선 돌파'·'베이스 돌파' 등 기술적 문구만으로 추출한 것으로, 6개월 횡보 여부를 직접 확인한 근거는 원문에 명시돼 있지 않아 참고용으로만 활용해야 한다.",
     "researchedOn": "2026-09-09"
-  },
-  "reusedFrom": null,
-  "byCategory": {
-    "1": 3,
-    "2": 3,
-    "5": 1,
-    "6": 7
   }
 };
