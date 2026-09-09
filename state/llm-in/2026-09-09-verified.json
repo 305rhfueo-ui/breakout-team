@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-09",
+  "report": {
+    "checked": 86,
+    "ok": 98,
+    "unverified": 21,
+    "dead": 0,
+    "stripped": 1,
+    "removed": [
+      {
+        "reason": "중복",
+        "url": "https://www.investing.com/news/company-news/silicon-motion-q2-2026-slides-revenue-surges-127-ai-drives-growth-93CH-4824655"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/silicon-motion-surges-186-past-140700702.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rising-earnings-estimates-really-change-170646676.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://rreport.einfomax.co.kr/report/eqlxxcikklglkgqgcgxcmcm.pdf"
+      },
+      {
+        "reason": "URL 부적격(비http·example·검색결과)",
+        "url": "C:\\Users\\305le\\OneDrive\\바탕 화면\\클로드코드test\\breakout-team\\state\\llm-in\\_t2\\NBIS.json"
+      },
+      {
+        "reason": "URL 부적격(비http·example·검색결과)",
+        "url": "C:\\Users\\305le\\OneDrive\\바탕 화면\\클로드코드test\\breakout-team\\state\\llm-in\\_t2\\NBIS.json"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.sec.gov/Archives/edgar/data/724004/000143774926026769/ex_1000989.htm"
+      },
+      {
+        "reason": "인용문 없음",
+        "url": "https://www.sec.gov/Archives/edgar/data/11544/000001154426000033/wrb-20260720.htm"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/healthcare/articles/amgen-shares-fall-investors-assess-105208691.html"
+      }
+    ],
+    "noQuote": 1
+  }
+}

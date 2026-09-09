@@ -1,0 +1,240 @@
+{
+ "ticker": "ATEX",
+ "sector": "Communication Services",
+ "industry": "Telecom Services",
+ "nameKo": "안테릭스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 220.44,
+  "saleNy": -14.4,
+  "epsCy": -123.07,
+  "epsNy": -47.01,
+  "est": {
+   "cyCur": -1.11448,
+   "cy30": -1.5609,
+   "nyCur": -0.59054,
+   "ny30": 4.51
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    38.08,
+    40.96,
+    0.45
+   ],
+   "ni": [
+    -99.05,
+    101.13,
+    -185.62
+   ],
+   "opm": [
+    -12.56,
+    1013.02,
+    -576.03
+   ],
+   "updated": "2026-08-31 07:22:13"
+  },
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-06-19"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 54
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-09",
+  "nameKo": "안테릭스",
+  "nameEn": "ANTERIX INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001304492&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1958000,
+     "profit": -246000,
+     "netIncome": 240000,
+     "margin": -12.6,
+     "yoy": {
+      "revenue": 38.1,
+      "profit": -101.1,
+      "netIncome": -99,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": true,
+     "revenue": 1958000,
+     "profit": 19835000,
+     "netIncome": 18520000,
+     "margin": 1013,
+     "yoy": {
+      "revenue": 41,
+      "profit": 111.1,
+      "netIncome": 101.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 1573000,
+     "profit": -9061000,
+     "netIncome": -6601000,
+     "margin": -576,
+     "yoy": {
+      "revenue": 0.4,
+      "profit": -228.9,
+      "netIncome": -185.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1552000,
+     "profit": 60675000,
+     "netIncome": 53536000,
+     "margin": 3909.5,
+     "yoy": {
+      "revenue": 0.1,
+      "profit": 562.1,
+      "netIncome": 519.4,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Zacks Industry Outlook Highlights Bandwidth and Anterix",
+     "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-bandwidth-and-anterix-0",
+     "date": "2026-08-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Anterix (ATEX) Q1 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/anterix-atex-q1-2027-earnings-call-transcript",
+     "date": "2026-08-18",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Anterix Sees Scarce 900 MHz Spectrum Driving Utility Deals and Satellite Upside",
+     "url": "https://www.nasdaq.com/articles/anterix-sees-scarce-900-mhz-spectrum-driving-utility-deals-and-satellite-upside",
+     "date": "2026-08-13",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Anterix's Q1 Earnings Call Focuses on Spectrum Optionality",
+     "url": "https://www.nasdaq.com/articles/anterixs-q1-earnings-call-focuses-spectrum-optionality",
+     "date": "2026-08-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Anterix Q1 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/anterix-q1-earnings-call-highlights",
+     "date": "2026-08-12",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Anterix (ATEX) Reports Q1 Loss, Misses Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/anterix-atex-reports-q1-loss-misses-revenue-estimates",
+     "date": "2026-08-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Anterix Shareholders Approve Board, Pay and Expanded 2023 Stock Plan",
+     "url": "https://www.nasdaq.com/articles/anterix-shareholders-approve-board-pay-and-expanded-2023-stock-plan",
+     "date": "2026-08-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Anterix (ATEX) Up 31.2% Since Last Earnings Report: Can It Continue?",
+     "url": "https://www.nasdaq.com/articles/anterix-atex-312-last-earnings-report-can-it-continue",
+     "date": "2026-07-10",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-11",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1304492/000130449226000045/atex-20260811.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1304492/000130449226000041/atex-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-10",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1304492/000130449226000024/atex-20260610.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-21",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1304492/000130449226000019/atex-20260421.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-06",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1304492/000130449226000016/atex-20260331.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-01",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1304492/000130449226000014/atex-20260325.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

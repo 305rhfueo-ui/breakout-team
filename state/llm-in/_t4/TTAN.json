@@ -1,0 +1,156 @@
+{
+ "ticker": "TTAN",
+ "news": [
+  {
+   "title": "Compared to Estimates, ServiceTitan Inc. (TTAN) Q2 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-servicetitan-inc-ttan-q2-earnings-look-key-metrics",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ServiceTitan Inc. (TTAN) Q2 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/servicetitan-inc-ttan-q2-earnings-and-revenues-surpass-estimates",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Countdown to ServiceTitan Inc. (TTAN) Q2 Earnings: A Look at Estimates Beyond Revenue and EPS",
+   "url": "https://www.nasdaq.com/articles/countdown-servicetitan-inc-ttan-q2-earnings-look-estimates-beyond-revenue-and-eps",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ServiceTitan Inc. (TTAN) Stock Jumps 7.4%: Will It Continue to Soar?",
+   "url": "https://www.nasdaq.com/articles/servicetitan-inc-ttan-stock-jumps-74-will-it-continue-soar",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-08",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000093/ttan-20260908.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-17",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000067/ttan-20260617.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000044/ttan-20260604.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-12",
+   "reportDate": "2026-03-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000009/ttan-20260312.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-03",
+   "reportDate": "2026-01-30",
+   "items": [
+    "1.01",
+    "2.03"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1638826/000119312526035548/ttan-20260130.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-04",
+   "reportDate": "2025-12-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1638826/000119312525308075/ttan-20251204.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 18.44,
+  "saleNy": 14.62,
+  "epsCy": 28.55,
+  "epsNy": 25.17,
+  "cyTrend": 0.18,
+  "nyTrend": 0.29,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    24.63,
+    21.36,
+    25.03
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    -9.58,
+    -16.8,
+    -16.95
+   ],
+   "updated": "2026-09-07 07:31:15"
+  }
+ }
+}

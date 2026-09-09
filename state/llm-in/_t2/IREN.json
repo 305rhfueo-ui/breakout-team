@@ -1,0 +1,248 @@
+{
+ "ticker": "IREN",
+ "sector": "Financial Services",
+ "industry": "Capital Markets",
+ "nameKo": "IREN",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 298.77,
+  "saleNy": 155.54,
+  "epsCy": null,
+  "epsNy": -89.14,
+  "est": {
+   "cyCur": -2.44,
+   "cy30": -0.94,
+   "nyCur": -0.265,
+   "ny30": -0.2
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -26.73,
+    -0.02,
+    59.02
+   ],
+   "ni": [
+    -487.15,
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -585.97,
+    -64.47,
+    -45.84
+   ],
+   "updated": "2026-09-08 06:37:04"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-09-08",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-09",
+  "nameKo": "IREN",
+  "nameEn": "IREN LIMITED",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001878848&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": true,
+     "revenue": 137225000,
+     "profit": -620383000,
+     "netIncome": -683999000,
+     "margin": -452.1,
+     "yoy": {
+      "revenue": -26.7,
+      "profit": -3568.2,
+      "netIncome": -487.1,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 144795000,
+     "profit": -233523000,
+     "netIncome": -247827000,
+     "margin": -161.3,
+     "yoy": {
+      "revenue": 0,
+      "profit": -899.3,
+      "netIncome": -1435.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 184692000,
+     "profit": -116403000,
+     "netIncome": -155407000,
+     "margin": -63,
+     "yoy": {
+      "revenue": 59,
+      "profit": -772.5,
+      "netIncome": -610,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 240295000,
+     "profit": -76405000,
+     "netIncome": 384611000,
+     "margin": -31.8,
+     "yoy": {
+      "revenue": 355.4,
+      "profit": -62.3,
+      "netIncome": 843.9,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Analyzing Applied Digital vs. IREN: Accelerating Upward Trajectories vs. Sequential Contractions in Quarterly Revenue Generation",
+     "url": "https://www.nasdaq.com/articles/analyzing-applied-digital-vs-iren-accelerating-upward-trajectories-vs-sequential",
+     "date": "2026-09-06",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Applied Digital vs. IREN: Evaluating the Better Artificial Intelligence Stock to Buy for 2026",
+     "url": "https://www.nasdaq.com/articles/applied-digital-vs-iren-evaluating-better-artificial-intelligence-stock-buy-2026",
+     "date": "2026-09-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "IREN's Mining Exit Accelerates: Will AI Cloud Offset the Transition?",
+     "url": "https://www.nasdaq.com/articles/irens-mining-exit-accelerates-will-ai-cloud-offset-transition",
+     "date": "2026-09-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "IREN's CapEx Plan Accelerates: Can Funding Keep Up With Expansion?",
+     "url": "https://www.nasdaq.com/articles/irens-capex-plan-accelerates-can-funding-keep-expansion",
+     "date": "2026-09-01",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000051/iren-20260827.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-13",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126032638/ef20080141_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126031053/ny20079234x2_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-20",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126028871/ef20078253_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-01",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126027202/ef20077190_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126023427/ef20075181_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 4,
+   "reports": [
+    {
+     "date": "2026-08-31",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[IREN (NAS:IREN)] [Issue & News] Blue Owl Capital, 공랭식 엔비디아 인프라 구매자금 조달 참여 - FY27 자본지출-조달 갭 메우기의 연장선",
+     "summary": "- Blue Owl Capital 자금, 아이렌 공랭식 엔비디아 인프라 매입에 투입- 금액·조건 미공개, FY27 자본지출 250억~300억 달러 갭과 연결되는 흐름- 조달 다변화 신호로 방향성상 완만한 긍정, 규모 확인이 다음 과제",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllgeecegmgxmigcgxcmcm.pdf"
+    },
+    {
+     "date": "2026-08-27",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[IREN (NAS:IREN)] [26Q4 Review] AI 클라우드가 채굴을 처음 추월, 투자의견 매수 유지",
+     "summary": "- AI 클라우드가 채굴 매출 첫 추월, 비중 51.4%- 조정 EBITDA 1,920만 달러로 67.7% 감소- FY27 capex 250억~300억, 확약 재원은 140억",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqkmegmzlmqgcgxcmcm.pdf"
+    },
+    {
+     "date": "2026-08-19",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[IREN (NAS:IREN)] [26Q4 Preview] 채굴이 빠지는 속도를 AI가 따라잡을까, 투자의견 매수 유지",
+     "summary": "- 8월 28일, 전환의 저점을 지났는지 확인하는 자리- AI 클라우드 증가분이 채굴 감소분을 처음 넘어서는지가 관건- 마이너스로 돌아선 마진(이익률)의 복귀 여부가 진짜 시험대",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcmikzzmmiekgcgxcmcm.pdf"
+    },
+    {
+     "date": "2025-09-22",
+     "broker": "신한투자증권",
+     "analyst": "허성규",
+     "title": "[IREN (NAS:IREN)] 가늠할 수 없는 성장",
+     "summary": "- 비트코인 채굴로 시작해 AI 클라우드 사업으로 성공적으로 진출. 전력 계 약 용량은 3GW, 현재 가동량은 810MW. 비트코인 채굴 용량은 FY25 기준 50EH/s로 1위 업체인 마라 홀딩스 57EH/s 대비 차이가 크지 않은 편- 기확보 및 개발예정 AI 데이터센터 총 전력용량은 약 2.15GW 추정. 캐나 다 프린스 조지 50MW,  텍사스 Horizon1/2  총 100MW,  Sweetwater 2GW로 구성- 채굴 사업으로 연간 매출액 10억달러(50EH/s  기준), AI  사업으로 연간 2.5억달러 기대. 채굴 후 매일 매도하기 때문에 단기 가격 의존도 높은 편",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzlkmqxmqilxglgcgxcmcm.pdf"
+    }
+   ]
+  }
+ }
+}

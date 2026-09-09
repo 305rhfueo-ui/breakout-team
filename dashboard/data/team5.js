@@ -521,8 +521,43 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "carried",
+    "status": "done",
     "industries": [
+      {
+        "key": "Healthcare|Health Information Services",
+        "industry": "Health Information Services",
+        "lead": "근거 없음 — 출처 검증을 통과한 강세 사유가 없다 (3개 주장 제거: 숫자·날짜가 인용문에 없음)",
+        "whyStrong": [
+          {
+            "id": "none",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "driver": "earnings",
+        "durability": "cyclical",
+        "keyStocks": [
+          "DOCS",
+          "HQY",
+          "OMCL",
+          "CERT"
+        ],
+        "risk": "이 강세는 개별 기업의 분기 실적·가이던스 이벤트에 크게 의존하므로, 다음 실적 시즌에 Doximity 의 AI Search 매출 기여가 가이던스에 본격 반영되지 못하거나 HealthEquity·Omnicell 이 가이던스를 재차 상향하지 못하면 모멘텀이 꺾일 수 있다. 실제로 Certara 는 2026년 2분기 순손실이 확대되고 리더십 교체가 겹쳤고, Omnicell 은 컨센서스를 상회하고도 예약 가이던스 하단 확대와 일회성 관세 환급 이슈로 주가가 13.49% 하락한 바 있어 업종 내 실적 반응이 균질하지 않다. Node 지표상으로도 25거래일 기준 Final_WRS 순위변동이 -9, F25d 가 -5.51%로 최근 상대강도가 되돌림에 들어갔고(국면 ❄️ 조정 중), 200일선 이격 중앙값도 25거래일간 -5.24%p 축소돼 단기 과열 해소가 진행 중인지 확인이 필요하다. 상향 컨센서스 비율(65.8%, n=284)이 추가로 낮아지거나 다음 분기 가이던스가 하향 조정되면 이 업종의 RS 우위는 되돌려질 가능성이 높다.",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [
+            "doximity-ai-search",
+            "healthequity-guidance-raise",
+            "omnicell-earnings-beat"
+          ],
+          "reason": "",
+          "leadFixed": true
+        },
+        "leadOriginal": "Health Information Services 업종은 원격의료 플랫폼(Doximity), HSA 관리(HealthEquity), 조제자동화(Omnicell) 등 6개 종목으로 구성되며, 2026년 8월 실적시즌에 걸쳐 개별 종목의 AI 매출 기여·가이던스 상향이 집중되며 3개월 WRS 상위 1.45%까지 랭크됐다. Doximity 는 AI Search·Scribe 채택 확대를 근거로 FY27 매출 가이던스를 상향했고, HealthEquity 는 HSA 계좌 증가와 마진 확대로 FY27 매출·EBITDA 가이던스를 동시에 올렸으며, Omnicell 도 컨센서스를 상회하고 FY26 가이던스를 상향했다. 다만 이 강세는 개별 기업 실적 이벤트에 집중돼 업종 전반의 동시다발적 리레이팅으로 보기는 이르다.",
+        "researchedOn": "2026-09-09",
+        "carried": false
+      },
       {
         "key": "Technology|Computer Hardware",
         "industry": "Computer Hardware",
@@ -984,22 +1019,19 @@ window.TEAM5_DATA = {
       }
     ],
     "summary": {
-      "rotationView": "1개월 WRS 랭킹 기준 최상위는 Oil & Gas Refining & Marketing(0.71%)과 Coking Coal(1.43%)이고, 그 뒤를 Computer Hardware(2.86%)·Biotechnology(3.57%)가 잇는다. 세 기간(6개월→3개월→1개월) 비교로 로테이션 방향을 보면: Coking Coal은 21.43%→23.57%→1.43%로 최근 한 달 사이 중위권에서 최상위권으로 급부상해 신규 자금 유입의 전형을 보인다. 반대로 Semiconductors는 2.86%(6개월 기준 전체 최상위)→40.71%→46.43%로 하위권까지 밀려나며 가장 뚜렷하게 자금이 이탈했고, Electronics & Computer Distribution도 1.43%→40%→21.43%로 상위권을 이탈했다. Computer Hardware는 0.71%(6개월 전체 1위)→9.29%로 한 차례 눌렸다가 1개월 2.86%로 재상승했으나 6개월 대비로는 여전히 약화된 채다. Oil & Gas Refining & Marketing만 0.71%(1개월)와 0.71%(3개월)가 동일하고 6개월도 2.14%로, 세 구간 내내 순위 변동 없이 최상위권을 지킨 유일한 업종이다.",
+      "rotationView": "이번 확정 WRS 표본에는 업종이 Health Information Services 1개뿐이라, 업종 간 자금이 \"어디서 어디로\" 옮겨가는지 비교할 대상 자체가 없다. 이 업종 하나의 기간별 흐름만 보면: m3 WRS 0.3211(rankPct 1.45%), m6 WRS 0.3078(rankPct 10.87%)로 3개월·6개월 구간에서는 표본 최상위권을 유지했으나, m1 WRS는 0.0233(rankPct 23.19%)로 급격히 낮아졌다. 즉 6개월·3개월 동안 쌓아온 상대강도가 최근 1개월 들어 뚜렷이 꺾인 fading 패턴이며, 이를 대체할 신규 emerging 업종은 이번 데이터에 없다.",
       "strongest": {
-        "industry": "Oil & Gas Refining & Marketing",
-        "why": "1개월·3개월 WRS 랭킹이 나란히 0.71%(전체 공동 1위)이고 6개월도 2.14%로, 6개 업종 중 세 기간 모두 최상위권(2% 이내)을 유지한 유일한 업종이다. WRS 절대값도 1개월 0.2615, 3개월 0.4348로 6개 업종 중 가장 높다."
+        "industry": "Health Information Services",
+        "why": "표본 내 유일하게 조사된 업종이며 m3 WRS 0.3211(rankPct 1.45%), m6 WRS 0.3078(rankPct 10.87%)로 중기 구간 상대강도는 최상위. 다만 driver/durability/why 근거는 '근거 없음'으로 조사되어 강세의 원인은 서술할 수 없고, 순위상 최상위라는 사실만 확인 가능."
       },
-      "emerging": [
-        "Coking Coal"
-      ],
+      "emerging": [],
       "fading": [
-        "Semiconductors",
-        "Electronics & Computer Distribution",
-        "Computer Hardware"
+        "Health Information Services"
       ],
-      "caution": "Semiconductors의 1개월 랭킹(46.43%)은 조사 결과상 개별 기업 재료가 아니라 섹터 포지셔닝 되돌림으로 진단된 사례(Marvell 반등)에 기반해, 하루 단위로 다시 뒤집힐 여지가 있다. Coking Coal과 Oil & Gas Refining & Marketing은 각각 야금탄 가격·정제마진(크랙스프레드)이라는 원자재 가격에 연동된 업종으로, 조사 결과에도 durability가 'short_term'/'cyclical'로 표기되어 있어 로테이션이 빠르게 되돌아갈 수 있다. Computer Hardware는 SanDisk의 다년 AI 공급계약(구조적, durability: structural) 재료가 있어 다른 fading 업종과 성격이 다르며, 6개월 대비 랭킹이 눌렸을 뿐 1개월 기준으로는 여전히 상위 2.86%다. Biotechnology는 3개월(1.43%) 대비 1개월(3.57%)이 소폭 밀렸지만 emerging·fading 기준 어느 쪽에도 뚜렷이 들어맞지 않아 목록에서 제외했다. 위 서술은 모두 제공된 WRS 수치와 조사 결과 텍스트에만 근거했으며 추가 검색은 하지 않았다."
+      "caution": "표본이 업종 1개뿐이라 섹터 로테이션(자금이 어디서 어디로 이동)을 판단할 비교군이 없음 — 단일 종목 기간 비교로만 해석해야 함. 해당 업종의 driver=\"earnings\", durability=\"cyclical\"로 조사되었으나 why 항목은 \"근거 없음\"으로 비어 있어, 강세/약세의 원인(실적 서프라이즈, 정책 등)은 어떤 서술도 지어내지 않았고 지어내서도 안 됨. m1 WRS(0.0233)가 m3/m6 대비 낮아진 것은 수치상 사실이나 그 원인은 미확인."
     },
-    "summaryResearchedOn": "2026-09-07"
+    "summaryResearchedOn": "2026-09-09",
+    "reusedFrom": null
   },
   "flow": {
     "baseline": {
@@ -7242,5 +7274,15 @@ window.TEAM5_DATA = {
         ]
       }
     ]
+  },
+  "research_coverage": {
+    "done": 8,
+    "total": 12,
+    "cap": 6,
+    "pending": 4,
+    "failed": 0,
+    "carried": 7,
+    "ineligible": 0,
+    "note": "12업종 중 8업종을 조사했습니다. 그중 7업종은 최근 조사분을 이월했습니다(조사일 표기). 나머지 4업종은 상한(6) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
   }
 };

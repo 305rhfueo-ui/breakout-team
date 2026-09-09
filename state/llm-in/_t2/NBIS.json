@@ -1,0 +1,134 @@
+{
+ "ticker": "NBIS",
+ "sector": "Communication Services",
+ "industry": "Internet Content & Information",
+ "nameKo": "네비우스 그룹",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 530.99,
+  "saleNy": 258.2,
+  "epsCy": null,
+  "epsNy": 124.3,
+  "est": {
+   "cyCur": -2.51833,
+   "cy30": -2.13667,
+   "nyCur": -5.64857,
+   "ny30": -4.86714
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    454.04,
+    683.89,
+    579.7
+   ],
+   "ni": [
+    -132.58,
+    "흑자전환",
+    "적자확대"
+   ],
+   "opm": [
+    -30.21,
+    -32.08,
+    -109.79
+   ],
+   "updated": "2026-09-08 05:58:37"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-09-08",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-09",
+  "nameKo": "네비우스 그룹",
+  "nameEn": "NEBIUS GROUP N V",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Why Nebius Stock Jumped Today",
+     "url": "https://www.nasdaq.com/articles/why-nebius-stock-jumped-today",
+     "date": "2026-09-08",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Jensen Huang Just Said a 1-Gigawatt Facility Is Worth $50 Billion to $60 Billion. Here's What That Means for Neocloud Stocks Like Nebius.",
+     "url": "https://www.nasdaq.com/articles/jensen-huang-just-said-1-gigawatt-facility-worth-50-billion-60-billion-heres-what-means",
+     "date": "2026-09-07",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Will Nebius Group's Mega AI Deals Power Its 2027 Growth Story?",
+     "url": "https://www.nasdaq.com/articles/will-nebius-groups-mega-ai-deals-power-its-2027-growth-story",
+     "date": "2026-09-04",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 6,
+   "reports": [
+    {
+     "date": "2026-09-07",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "title": "[네비우스 그룹 (NAS:NBIS)] 성장과 안정성을 모두 잡다",
+     "summary": "- 고객 선수금 비중도 사상 최고치를 기록. 2분기 체결 계약의 약 70%에 선 수금 조건이 포함되었으며, 2026년 전체 선수금은 90억달러(연간 캐팩스 가이던스의 40% 수준)로 예상. 비중 높은 선수금 기반의 캐팩스 투자로 상 대적으로 안정적인 재무상태를 유지한다는 점이 네비우스가 받는 밸류에이 션 프리미엄의 핵심 근거- 2분기에는 10억달러 이상 규모 계약을 네 건 체결. 1~3년 단위 중기계약 ACV는 MW 당 2,000~2,500만달러 수준으로 장기계약 단가(1,200만달 러)   대비   70%   가까이   상승.  6개월   이내   단기   계약   ACV는   최대 4,000~5,000만달러까지 상승했으며 해당 단가로 첫 계약을 체결. 상당수 계약이 연말 가동 예정 용량에 배정되어 2027년부터 본격적인 실적 모멘텀 으로 이어질 전망- 급증하는 AI 컴퓨팅 수요로 GPU 렌탈가 상승세가 지속되고 있으나, 기존 5 년 단위 장기계약 구조에서는 가격 상승분 반영에 구조적 한계가 존재. 다만 최근 네오클라우드 업체들이 계약 형태를 다양화하며 MW 당 ACV 산정 기 준 자체가 구조적으로 재편되는 국면. ① 엄격한 선수금 전략으로 재무 건전 성을 확보하고 있고, ② 기존 캐파 대비 증분 캐파 비중이 높아 계약 믹스 전환의 레버리지 강도가 크며, ③ 모델 중립성과 Token Factory를 통해 오 픈웨이트 확산 수혜를 직접 수취할 수 있는 네비우스를 네오클라우드 업종 내 최선호주로 제시",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllqiqlqgzelkzgcgxcmcm.pdf"
+    },
+    {
+     "date": "2026-08-18",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[네비우스 그룹 (NAS:NBIS)] 단가 2배·전력 5GW·선수금 $9B, 2027년 실적 도약의 가시성 확보",
+     "summary": "- 단가 2배 급등 및 EBITDA 컨센서스 +35% 상회로 증명된 공급자 우위- 분기 OCF +$2.2B와 연 $9B+ 선수금 유입, 차입 피어 대비 압도적 건전성- 5GW 전력망과 $40B+ 백로그 확보, 고성장에 따른 가파른 멀티플 정상화",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcegqcmezgxegcgxcmcm.pdf"
+    },
+    {
+     "date": "2026-08-13",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[네비우스 그룹 (NAS:NBIS)] Earnings Flash",
+     "summary": "- 매출액 5.8억 달러(YoY +454%), 영업이익 -1.8억 달러(YoY -58.2%), 조정 EPS -0.12 달러(YoY +69.1%)로 각각 예상치 4.5%, 8.1%, 82.8% 상회- 컴퓨팅 용량 확보 경쟁 심화로, 선수금 지급이 표준적인 계약조건으로 자리 잡아 체결 계약의 약 70%에 선수금이 포함- 용량 경매를 통해 확인된 컴퓨팅 수요, 유상증자가 아닌 선수금을 통한 CAPEX 자금 총당 계획이 맞물려 34.1% 상승",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxxcikklglkgqgcgxcmcm.pdf"
+    },
+    {
+     "date": "2026-08-13",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "title": "[네비우스 그룹 (NAS:NBIS)] 네오클라우드 붐은 온다",
+     "summary": "- 네비우스의 2분기 그룹 매출은 5.82억달러(+454%yoy), AI Cloud 매출은 5.75억달러(+514%yoy)를 기록하며 컨센을 상회. AI 클라우드 수요 강세에 힘입어 ARR은 6월 말 기준 30억달러(+598%yoy)를 달성했으며, RPO는 400억달러를 기록.- 연간 가이던스는 그룹 매출 32억달러(+504%yoy), ARR 80억달러, EBITDA 마진 40%로 유지. 최근 바인랜드(Vineland) 데이터센터 지연 관 련 우려에도 가이던스 달성 의지를 재확인 점이 긍정적. 연간 계약용량 가이 던스는 전분기 실적발표 기준 4GW에서 5GW로 상향조정했으며, 연간 활 성용량 가이던스는 0.8~1GW 범위를 재확인. 연간 캐팩스 가이던스도 225 억달러로 유지- 고객 선수금 비중도 사상 최고치를 기록. 2분기 체결된 계약의 약 70%가 선수금 조건이 포함되었으며, 2026년 전체 선수금은 90억달러(연간 캐팩스 가이던스의 40% 수준)으로 예상. 선수금과 영업활동 현금흐름 기반의 캐팩 스 투자로, 상대적으로 안정적인 재무상태를 유지한다는 점이 네비우스가 받는 밸류에이션 프리미엄의 핵심 근거 중 하나로 판단",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxzlzeeccixmxgcgxcmcm.pdf"
+    },
+    {
+     "date": "2026-05-14",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "title": "[네비우스 그룹 (NAS:NBIS)] 네비우스 실적의 함의",
+     "summary": "- 네비우스의 1분기 실적은 매출 3.99억달러(+684% yoy), AI Cloud 매출은 3.90억달러(+841% yoy)로 전체 매출의 98%를 차지. 높은 가동률과 가격 책정 효과로 GPM은 74%로 개선되었으며, 조정 EBITDA는 1.3억달러로 안정적인 흑자를 기록하며 모든 주요 지표에서 컨센을 상회- 네비우스는 Meta와 5년간 최대 270억달러 규모의 AI 인프라 공급 계약을 체결했으며, 해당 계약에는 엔비디아 Vera Rubin 플랫폼의 대규모 컴퓨팅 공급이 포함- 다만 공격적인 AI 캐팩스 투자로 인한 재무 부담은 여전히 리스크 요인. 1분 기 GAAP 순이익은 ClickHouse 지분가치 재평가에 따른 비현금성 이익이 반영된 수치이며, 조정 순손실은 1억달러를 기록",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlqexxxkizkgigcgxcmcm.pdf"
+    },
+    {
+     "date": "2025-09-26",
+     "broker": "키움증권",
+     "analyst": "조민주",
+     "title": "[네비우스 그룹 (NAS:NBIS)] 엔비디아와 마이크로소프트가 선택한 기업",
+     "summary": "- 네덜란드 암스테르담에 본사를 둔 AI 인프라 기업- 엔비디아와 직접 연계된 네오클라우드 업체로 마이크로소프트와 대규모 계약 체결- 향후 타 빅테크와의 추가 계약 가능성 존재하며, 2026년까지 용량 5배 확장 계획",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzllkgxzemcglggcgxcmcm.pdf"
+    }
+   ]
+  }
+ }
+}

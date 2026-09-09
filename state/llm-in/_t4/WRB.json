@@ -1,0 +1,156 @@
+{
+ "ticker": "WRB",
+ "news": [
+  {
+   "title": "WRB Crosses Above Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/wrb-crosses-above-key-moving-average-level",
+   "date": "2026-09-03",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "WRB's Underwriting Discipline to Sustain Margins Amid Soft Pricing",
+   "url": "https://www.nasdaq.com/articles/wrbs-underwriting-discipline-sustain-margins-amid-soft-pricing",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why W.R. Berkley (WRB) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-wr-berkley-wrb-strong-value-stock-0",
+   "date": "2026-08-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is W.R. Berkley (WRB) Down 2.8% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-wr-berkley-wrb-down-28-last-earnings-report",
+   "date": "2026-08-19",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-20",
+   "reportDate": "2026-07-20",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/11544/000001154426000033/wrb-20260720.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-26",
+   "reportDate": "2026-06-26",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/11544/000001154426000030/wrb-20260626.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-11",
+   "reportDate": "2026-06-09",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/11544/000001154426000020/wrb-20260609.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-10",
+   "reportDate": "2026-06-09",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/11544/000001154426000016/wrb-20260609.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-05",
+   "reportDate": "2026-06-03",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/11544/000001154426000013/wrb-20260603.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-21",
+   "reportDate": "2026-04-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/11544/000001154426000008/wrb-20260421.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 2.8,
+  "saleNy": 3.83,
+  "epsCy": 12.56,
+  "epsNy": -0.68,
+  "cyTrend": 0.3,
+  "nyTrend": 0.22,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    1.23,
+    4.03,
+    1.47
+   ],
+   "ni": [
+    12.7,
+    23.38,
+    -21.97
+   ],
+   "opm": [
+    16.33,
+    17.55,
+    16.22
+   ],
+   "updated": "2026-09-08 08:39:14"
+  }
+ }
+}

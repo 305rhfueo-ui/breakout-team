@@ -1,0 +1,241 @@
+{
+ "ticker": "DAVE",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "데이브",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 31.7,
+  "saleNy": 21.93,
+  "epsCy": 31.46,
+  "epsNy": 26.87,
+  "est": {
+   "cyCur": 17.3259,
+   "cy30": 16.62295,
+   "nyCur": 21.98209,
+   "ny30": 21.06491
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    29.63,
+    46.71,
+    62.36
+   ],
+   "ni": [
+    -26.03,
+    101.08,
+    292.37
+   ],
+   "opm": [
+    30.59,
+    37.6,
+    39.39
+   ],
+   "updated": "2026-09-08 06:51:03"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-09-08",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-09",
+  "nameKo": "데이브",
+  "nameEn": "DAVE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001841408&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 170793000,
+     "profit": null,
+     "netIncome": 6687000,
+     "margin": null,
+     "yoy": {
+      "revenue": 29.6,
+      "profit": null,
+      "netIncome": -26,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 158414000,
+     "profit": null,
+     "netIncome": 57936000,
+     "margin": null,
+     "yoy": {
+      "revenue": 46.7,
+      "profit": null,
+      "netIncome": 101.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 163721000,
+     "profit": null,
+     "netIncome": 66076000,
+     "margin": null,
+     "yoy": {
+      "revenue": 62.4,
+      "profit": null,
+      "netIncome": 290.2,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 150725000,
+     "profit": null,
+     "netIncome": 92072000,
+     "margin": null,
+     "yoy": {
+      "revenue": 63,
+      "profit": null,
+      "netIncome": 19657.9,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "DAVE INC (DAVE) Up 7% Since Last Earnings Report: Can It Continue?",
+     "url": "https://www.nasdaq.com/articles/dave-inc-dave-7-last-earnings-report-can-it-continue",
+     "date": "2026-09-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Dave Raises ExtraCash Limits: Is Monetization Set to Accelerate?",
+     "url": "https://www.nasdaq.com/articles/dave-raises-extracash-limits-monetization-set-accelerate",
+     "date": "2026-08-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Dave Expands With Flex: Can It Become a Primary Spending Tool?",
+     "url": "https://www.nasdaq.com/articles/dave-expands-flex-can-it-become-primary-spending-tool",
+     "date": "2026-08-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Dave vs. dLocal: Which Fintech Stock Looks Better for Investors Now?",
+     "url": "https://www.nasdaq.com/articles/dave-vs-dlocal-which-fintech-stock-looks-better-investors-now",
+     "date": "2026-08-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Dave's Marketing Push Accelerates: Can CAC Stay Flat as Members Grow?",
+     "url": "https://www.nasdaq.com/articles/daves-marketing-push-accelerates-can-cac-stay-flat-members-grow",
+     "date": "2026-08-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Dave's CashAI V6: Can Smarter Underwriting Lift ARPU?",
+     "url": "https://www.nasdaq.com/articles/daves-cashai-v6-can-smarter-underwriting-lift-arpu",
+     "date": "2026-08-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Dave (DAVE) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/dave-dave-q2-2026-earnings-call-transcript",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Should You Buy Dave Stock After Its Q2 Earnings and Recent Pullback?",
+     "url": "https://www.nasdaq.com/articles/should-you-buy-dave-stock-after-its-q2-earnings-and-recent-pullback",
+     "date": "2026-08-10",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-14",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1841408/000119312526352390/dave-20260812.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1841408/000119312526335119/dave-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-02",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1841408/000119312526253774/dave-20260602.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1841408/000119312526206471/dave-20260505.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-09",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "3.02",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1841408/000119312526098802/d108294d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-06",
+    "itemsKo": [
+     "중요 계약 체결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1841408/000119312526094530/d55376d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

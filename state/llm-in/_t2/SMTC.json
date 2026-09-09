@@ -1,0 +1,243 @@
+{
+ "ticker": "SMTC",
+ "sector": "Technology",
+ "industry": "Semiconductors",
+ "nameKo": "셈텍",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 41.59,
+  "saleNy": 29.24,
+  "epsCy": 103.17,
+  "epsNy": 67.97,
+  "est": {
+   "cyCur": 3.47422,
+   "cy30": 2.65919,
+   "nyCur": 5.83561,
+   "ny30": 3.92176
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    32.72,
+    15.92,
+    9.3
+   ],
+   "ni": [
+    "흑자전환",
+    37.31,
+    -176.12
+   ],
+   "opm": [
+    16.31,
+    8.86,
+    -6.66
+   ],
+   "updated": "2026-09-08 10:19:05"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-09-08",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-09",
+  "nameKo": "셈텍",
+  "nameEn": "SEMTECH CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000088941&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-04-26",
+     "derived": false,
+     "revenue": 291018000,
+     "profit": 25791000,
+     "netIncome": 26563000,
+     "margin": 8.9,
+     "yoy": {
+      "revenue": 15.9,
+      "profit": -28.3,
+      "netIncome": 37.3,
+      "priorEnd": "2025-04-27"
+     }
+    },
+    {
+     "periodEnd": "2026-01-25",
+     "derived": true,
+     "revenue": 274355000,
+     "profit": -18267000,
+     "netIncome": -29795000,
+     "margin": -6.7,
+     "yoy": {
+      "revenue": 9.3,
+      "profit": -186,
+      "netIncome": -176.1,
+      "priorEnd": "2025-01-26"
+     }
+    },
+    {
+     "periodEnd": "2025-10-26",
+     "derived": false,
+     "revenue": 266971000,
+     "profit": 31057000,
+     "netIncome": -2862000,
+     "margin": 11.6,
+     "yoy": {
+      "revenue": 12.7,
+      "profit": 74.6,
+      "netIncome": 62.3,
+      "priorEnd": "2024-10-27"
+     }
+    },
+    {
+     "periodEnd": "2025-07-27",
+     "derived": false,
+     "revenue": 257589000,
+     "profit": -16192000,
+     "netIncome": -27064000,
+     "margin": -6.3,
+     "yoy": {
+      "revenue": 19.6,
+      "profit": -308.4,
+      "netIncome": 84.1,
+      "priorEnd": "2024-07-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Semtech (SMTC) Just Flashed Golden Cross Signal: Do You Buy?",
+     "url": "https://www.nasdaq.com/articles/semtech-smtc-just-flashed-golden-cross-signal-do-you-buy",
+     "date": "2026-09-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Semtech (SMTC) Just Overtook the 50-Day Moving Average",
+     "url": "https://www.nasdaq.com/articles/semtech-smtc-just-overtook-50-day-moving-average",
+     "date": "2026-09-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Zacks Industry Outlook Highlights MACOM Technology, Monolithic Power and Semtech",
+     "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-macom-technology-monolithic-power-and-semtech",
+     "date": "2026-09-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Semtech (SMTC) Q2 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/semtech-smtc-q2-2027-earnings-call-transcript",
+     "date": "2026-09-01",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Buy Analog-Mixed Signal Players MACOM, Monolithic & Semtech",
+     "url": "https://www.nasdaq.com/articles/buy-analog-mixed-signal-players-macom-monolithic-semtech",
+     "date": "2026-09-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Wall Street Analysts Predict a 56.44% Upside in Semtech (SMTC): Here's  What You Should Know",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-predict-5644-upside-semtech-smtc-heres-what-you-should-know",
+     "date": "2026-08-31",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's How Much a $1000 Investment in Semtech Made 10 Years Ago Would Be Worth Today",
+     "url": "https://www.nasdaq.com/articles/heres-how-much-1000-investment-semtech-made-10-years-ago-would-be-worth-today",
+     "date": "2026-08-31",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Semtech Stock Was Flying This Week",
+     "url": "https://www.nasdaq.com/articles/why-semtech-stock-was-flying-week",
+     "date": "2026-08-28",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-25",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000028/smtc-20260825.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-13",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/88941/000119312526347716/d123711d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-06",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000022/smtc-20260706.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-08",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000019/smtc-20260602.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-26",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000009/smtc-20260526.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-16",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000003/smtc-20260316.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

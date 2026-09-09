@@ -498,8 +498,289 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-09-09",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "퀄컴-아마존 칩 딜과 코닝 계약에 AI 인프라주 동반 랠리",
+        "easy": "CNBC는 퀄컴과 코닝의 딜 발표로 AI 인프라 관련주가 랠리했다고 보도했다. MarketWatch는 같은 날 퀄컴 주가 상승 요인을 아마존과의 칩 공급 계약으로 지목하며 이를 '오랜만의 호재(much-needed good news)'로 규정했다. 즉 이번 상승은 실적 서프라이즈가 아니라 하이퍼스케일러 발주라는 수주 이벤트에서 나온 것으로, 매출 인식 시점과 규모가 공개되지 않은 단계다. 후보 기사에는 계약 금액·기간·물량 수치가 없어 EPS 기여도는 산정 불가다. 지수 국면은 QQQ 10MA(714.83)가 20MA(717.39) 아래인 데드크로스 D+6 구간이라, 개별 호재가 지수 추세를 되돌린 상태는 아니다.",
+        "whyMatters": "주도 섹터 구성이 Technology 20종목(40%)으로 압도적인 만큼, 퀄컴·코닝처럼 AI 데이터센터 밸류체인에 직접 걸린 종목의 수주 뉴스는 리스트 상단 종목의 상대강도를 유지시키는 축이다. 퀄컴은 모바일 SoC·라이선싱 중심 구조에서 데이터센터 커스텀 실리콘으로 매출 구성을 넓히려는 국면이고, 아마존 딜은 그 전환의 첫 레퍼런스라는 성격이 강하다. 코닝은 광섬유·광커넥티비티 공급자로 데이터센터 캐펙스에 후행 연동되는 사업 모델이라, 딜 뉴스는 백로그 기대에 먼저 반영된다. 다만 데드크로스 국면에서 수주 헤드라인 랠리는 되돌림이 잦으므로, 계약 금액·납품 시점이 공시로 확인되는지가 리레이팅 지속의 분기점이다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "AI infrastructure stocks rally on deal announcements from Qualcomm, Corning",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/08/ai-infrastructure-stocks-rally-on-deal-from-qualcomm-and-corning.html",
+            "date": "2026-09-08",
+            "quote": "AI infrastructure stocks rally on deal announcements from Qualcomm, Corning",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Qualcomm's stock climbs as Amazon chip deal offers investors much-needed good news",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/qualcomms-stock-climbs-as-amazon-chip-deal-offers-investors-some-much-needed-good-news-5b6a95ca?mod=mw_rss_topstories",
+            "date": "2026-09-08",
+            "quote": "Qualcomm's stock climbs as Amazon chip deal offers investors much-needed good news",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "메모리가 AI 붐의 병목으로 — 마이크론 우위 지속 여부가 반도체 리더십 변수",
+        "easy": "MarketWatch는 메모리 칩이 AI 붐을 지배하게 됐고(Memory chips have come to rule the AI boom) 마이크론의 우위가 지속될 수 있다고 짚었다. 논지는 로직·가속기가 아니라 HBM·고용량 DRAM 공급이 AI 서버 구성의 제약 조건이 됐다는 것이다. 이 경우 가격 결정력이 공급자로 이동해 마진과 가이던스 상향 여지가 생긴다. 후보 기사에 ASP·빗그로스·계약가 인상률 수치는 제시되지 않아 마진 개선 폭은 정량화할 수 없다.",
+        "whyMatters": "Technology 20종목(40%)이 주도 섹터의 절반 가까이를 차지하는 구조에서, 리더십이 GPU·네트워킹에서 메모리로 확산되면 리스트 내부의 상대강도 순위 자체가 재편된다. 마이크론은 DRAM·NAND 단일 사이클 노출도가 높아 가격 국면이 곧 EPS인 사업 모델이라, 메모리 타이트니스가 유지되는 한 컨센서스 상향이 주가 논리의 중심이 된다. 반대로 마이크론 랠리가 메모리 가격 상승에서 나온 것이라면, 이는 서버·PC 세트 업체와 클라우드 사업자에게는 원가 상승 요인으로 작용해 같은 Technology 섹터 안에서도 방향이 갈린다. 계약가 인상이 다음 분기 가이던스로 확인되면 논리가 성립하고, 세트 수요 둔화로 재고가 재차 쌓이면 붕괴한다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Memory chips have come to rule the AI boom. Why Micron's reign could be here to stay.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/memory-chips-have-come-to-rule-the-ai-boom-why-microns-reign-could-be-here-to-stay-607a4622?mod=mw_rss_topstories",
+            "date": "2026-09-08",
+            "quote": "Memory chips have come to rule the AI boom. Why Micron's reign could be here to stay.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "오라클 주가 반등 — OpenAI 생태계 선호 회복",
+        "easy": "MarketWatch는 OpenAI 생태계가 다시 선호를 얻으며 오라클 주가가 부양됐다고 보도했다. 오라클은 OCI 기반 AI 학습·추론 캐파를 대형 고객에게 장기 계약으로 공급하는 구조여서, 주가가 백로그와 캐펙스 서사에 직접 연동된다. 이번 움직임은 실적 발표가 아니라 생태계 센티먼트 회복에 따른 것으로, 후보 기사에 계약 규모·RPO 수치는 없다. 같은 날 BBC는 OpenAI가 90년 된 수학 난제를 88시간 만에 풀었다고 주장했다고 전했는데, 이는 모델 역량 뉴스로 재무 수치와는 무관하다.",
+        "whyMatters": "오라클은 AI 캐펙스 사이클의 레버리지 대리 자산 성격이 강해, OpenAI 관련 센티먼트가 흔들릴 때 Technology 20종목(40%) 중에서도 변동성이 크게 확대되는 축이다. 데이터센터 임차·전력·광부품으로 이어지는 후방 수요가 오라클 캐펙스에 연동되므로, 코닝 같은 인프라 공급자와 방향이 같이 움직이는 경향이 있다. 다만 자체 현금흐름 대비 과도한 캐펙스는 FCF 훼손과 부채 확대라는 반대 근거를 동시에 만든다. RPO·캐펙스 가이던스가 다음 실적에서 상향되는지가 확인 조건이다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Oracle's stock gets a boost as the OpenAI ecosystem comes back into favor",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/oracles-stock-gets-a-boost-as-the-openai-ecosystem-comes-back-into-favor-f53c8024?mod=mw_rss_topstories",
+            "date": "2026-09-08",
+            "quote": "Oracle's stock gets a boost as the OpenAI ecosystem comes back into favor",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "OpenAI says it cracked 90-year-old maths problem in 88 hours",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cy7zygy3rl2o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-09-08",
+            "quote": "OpenAI says it cracked 90-year-old maths problem in 88 hours",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "인텔, 추가 가격 인상 여력 부각되며 주가 상승",
+        "easy": "MarketWatch는 인텔이 가격을 더 올릴 태세로 보이면서 주가가 오르고 있다고 보도했다. 가격 인상은 물량이 아니라 ASP를 통해 곧바로 매출총이익률에 반영되는 변수로, 파운드리 전환 국면의 적자 폭 축소 논리와 직결된다. 이는 수요 회복이 아니라 공급 타이트니스에 기반한 마진 서사라는 점에서 지속성 검증이 필요하다. 후보 기사에 인상률·적용 제품군 수치는 없다.",
+        "whyMatters": "메모리 가격 강세(마이크론)와 인텔의 CPU 가격 인상이 같은 날 함께 부각된 것은 반도체 전반의 가격 결정력이 공급자 쪽으로 기울고 있음을 시사하며, Technology 20종목(40%)의 이익 모멘텀 방향과 일치한다. 반대편에서 서버·PC OEM과 클라우드 사업자는 BOM 원가 상승을 떠안게 되어 마진 압박을 받는다. 인텔은 제품(CCG·DCAI)과 파운드리가 한 손익에 섞인 구조라, 가격 인상분이 파운드리 적자를 얼마나 상쇄하는지가 핵심이다. 다음 분기 총마진 가이던스가 상향되면 논리가 성립하고, 경쟁사 점유율 잠식이 재확인되면 붕괴한다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Intel's stock is rising as the company looks primed to boost prices even more",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/intels-stock-is-rising-as-the-company-looks-primed-to-boost-prices-even-more-8b8dfc99?mod=mw_rss_topstories",
+            "date": "2026-09-08",
+            "quote": "Intel's stock is rising as the company looks primed to boost prices even more",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "미군, 이란 유조선 5척 격침 — 호르무즈 리스크 재점화",
+        "easy": "CNBC는 Centcom 발표를 인용해 미 해군 함정에 대한 공격 시도 후 미군이 이란 유조선 5척을 파괴했다고 보도했으며, 기사 URL은 호르무즈 해협을 명시하고 있다. 물리적 교전이 해상 원유 수송로에서 발생했다는 점에서 유가에 지정학 프리미엄이 붙는 이벤트다. 후보 기사에 유가 변동폭·선복량 수치는 제시되지 않아 정량 평가는 불가하다. 지수 국면이 이미 QQQ 데드크로스 D+6인 상황에서 외생 변동성 요인이 하나 더 추가된 셈이다.",
+        "whyMatters": "주도 섹터에 Energy 4종목(8%)이 들어 있어, 유가 프리미엄은 이 그룹의 상대강도를 단기간에 끌어올리는 방향으로 작동한다. 반대로 항공·운송·화학처럼 연료비와 납사 원가가 손익에 직결되는 업종, 그리고 Industrials 4종목(8%)의 원가 구조에는 마진 압박 요인이다. 유가 상승이 헤드라인 인플레로 전이되면 금리 경로 기대가 다시 위로 밀리며 고밸류 Technology 20종목(40%)의 밸류에이션에 역풍이 된다. 교전이 일회성으로 종결되는지, 해협 통항 차질이 실제 물동량 지표로 확인되는지가 분기점이다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "U.S. military destroys five Iranian oil tankers after attempted attack on American warship, Centcom says",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/08/iran-us-sub-strait-hormuz.html",
+            "date": "2026-09-08",
+            "quote": "U.S. military destroys five Iranian oil tankers after attempted attack on American warship, Centcom says",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "캐나다 보복관세 CA$276억 발효, 미국은 캐나다 주류 수입금지 — 무역 분쟁 격화",
+        "easy": "CNBC는 CA$27.6 billion 규모의 캐나다 보복관세가 발효되며 미국과의 무역 균열이 깊어지고 있다고 보도했다. BBC는 같은 날 미국이 캐나다산 주류와 기타 품목에 수입 금지를 부과했다고 전해, 조치가 관세를 넘어 금수 단계로 확대됐음을 보여준다. 사포로가 관세 이후 캐나다 생산 물량 일부를 미국으로 옮기기로 한 것은 기업들이 이미 생산 재배치로 대응하기 시작했다는 실증 사례다. 관세·금수는 세율이 아니라 공급망 재편 비용으로 손익에 들어오며, 후보 기사에 개별 기업의 원가 영향 수치는 없다.",
+        "whyMatters": "국경 간 부품·완제품 이동에 의존하는 Industrials 4종목(8%)이 직접 노출 구간이고, 소비재·주류·식음료 유통 체인은 금수 품목 대체 조달 비용을 즉시 떠안는다. 사포로 사례처럼 대미 생산 이전이 확산되면 미국 내 설비투자·건설 수요에는 플러스이지만, 이전 기간의 이중 고정비는 단기 마진 훼손 요인이다. 관세는 최종재 가격에 전가될 경우 인플레 경로를 자극해, 이미 마진부채 YoY +38.6%로 레버리지가 확대된 시장의 금리 민감도를 키운다. 보복 범위가 추가 품목으로 넓어지는지, 협상 재개 신호가 나오는지가 확인 조건이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Canada's retaliatory tariffs worth CA$27.6 billion take effect as trade rift with U.S. deepens",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html",
+            "date": "2026-09-08",
+            "quote": "Canada's retaliatory tariffs worth CA$27.6 billion take effect as trade rift with U.S. deepens",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "US slaps import ban on Canadian alcohol and other goods",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-09-08",
+            "quote": "US slaps import ban on Canadian alcohol and other goods",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Sapporo to move some beer production from Canada to US after tariffs",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c87ve09pgqzo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-09-08",
+            "quote": "Sapporo to move some beer production from Canada to US after tariffs",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "봄바디어, 미국 내 생산 압박에 주가 하락 — 항공우주가 무역전쟁 다음 표적",
+        "easy": "MarketWatch는 미-캐나다 무역전쟁 심화로 봄바디어 주가가 하락했다고 보도했다. CNBC에 따르면 트럼프는 이 캐나다 항공우주 업체가 미국에서 생산하지 않으면 미국에 판매할 수 없다는 취지로 언급했고, 봄바디어는 자사의 미국 내 사업 규모(U.S. footprint)를 반박 근거로 제시했다. 즉 쟁점은 관세율이 아니라 시장 접근 자체를 생산 입지에 연동시키는 조건부 규제이며, 이는 백로그의 인도 가능성에 직결된다. 후보 기사에 백로그 금액·미국 매출 비중 수치는 제시되지 않았다.",
+        "whyMatters": "비즈니스 제트 밸류체인은 기체·엔진·항전 부품이 국경을 여러 번 넘는 구조라, 생산 입지 규제는 Industrials 4종목(8%)에 속한 항공우주 공급업체 전반의 리드타임과 원가에 영향을 준다. 미국 내 생산 이전이 강제되면 미국 항공우주 설비·공장 투자에는 수요가 생기지만, 캐나다 노출이 큰 부품사에는 매출 이탈 리스크다. 개별 기업의 조건부 규제 리스크가 커질수록 시장은 해당 종목에 밸류에이션 디스카운트를 적용한다. 규제가 실제 행정 조치로 문서화되는지, 봄바디어가 미국 생산 확대 계획을 공식화하는지가 분기점이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Bombardier's stock drops as the U.S.-Canada trade war intensifies. Here's what Trump is targeting next.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/bombardiers-stock-drops-as-the-u-s-canada-trade-war-intensifies-heres-what-trump-may-target-next-b389065e?mod=mw_rss_topstories",
+            "date": "2026-09-08",
+            "quote": "Bombardier's stock drops as the U.S.-Canada trade war intensifies. Here's what Trump is targeting next.",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Bombardier points out U.S. footprint after Trump says aerospace giant must build in America",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/07/trump-bombardier-cant-sell-in-us-unless-canada-aerospace-giant-builds-there.html",
+            "date": "2026-09-08",
+            "quote": "Bombardier points out U.S. footprint after Trump says aerospace giant must build in America",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "미 행정부, 포드의 중국 연계에 '심각한 우려' 표명",
+        "easy": "CNBC는 트럼프 행정부가 포드의 중국 연계에 대해 'profound concern'을 표명했다고 보도했으며, 기사 URL은 교통부(DOT)와 션 더피 장관을 지목하고 있다. 규제 당국이 특정 완성차 업체의 중국 관련 기술·공급망 연결을 문제 삼는 단계로, 관세와 달리 인허가·조달 자격에 영향을 주는 사안이다. 배터리·소프트웨어·커넥티드 차량 데이터 중 어느 축이 대상인지는 후보 기사만으로는 특정할 수 없다. 조치의 형태와 시한이 공개되지 않아 재무 영향 산정은 불가하다.",
+        "whyMatters": "자동차는 현재 주도 섹터 상위(Technology 40%·Healthcare 22%)에 들어 있지 않아 리스트 직접 타격은 제한적이지만, 중국 연계에 대한 규제 잣대가 확립되면 배터리 소재·전장 부품 등 중국 의존도가 높은 Industrials 4종목(8%) 계열로 판정 기준이 전이될 수 있다. 포드 입장에서는 중국 파트너십에 기반한 배터리 원가 절감 경로가 막히면 EV 부문 손익분기 시점이 뒤로 밀린다. 반대로 규제가 미국 내 배터리·부품 자립 투자에는 수요를 만든다. 실제 행정 조치나 조사 착수가 문서로 확인되는지가 확인 조건이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Trump administration expresses 'profound concern' over Ford's ties to China",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/08/ford-china-dot-sean-duffy.html",
+            "date": "2026-09-08",
+            "quote": "Trump administration expresses 'profound concern' over Ford's ties to China",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "블룸에너지 옵션 거래가 스페이스X를 상회 — 대체에너지 쏠림 신호",
+        "easy": "CNBC는 한 대체에너지 종목의 옵션 거래가 스페이스X보다 활발하다고 보도했고, 기사 URL은 그 종목이 블룸에너지임을 명시한다. 옵션 거래대금 집중은 현물 수급보다 앞서는 투기적 포지셔닝 지표이며, 감마 헤지에 따라 현물 변동성을 증폭시킨다. 후보 기사에 계약 수·미결제약정·내재변동성 수치는 제시되지 않았다. 이는 실적이 아니라 포지셔닝 뉴스라는 점을 구분해야 한다.",
+        "whyMatters": "블룸에너지는 연료전지 기반 상시 전력을 데이터센터·산업 고객에 공급하는 모델이라, AI 데이터센터 전력 병목 서사와 Energy 4종목(8%)의 상대강도를 동시에 잇는 접점에 있다. 옵션 쏠림은 마진부채 YoY +38.6%라는 레버리지 확대 환경과 결합될 때 되돌림 폭을 키우는 요인이다. 같은 논리로 데이터센터 전력 공급 체인(발전·전력기기)에 있는 종목들도 투기적 자금 유입과 이탈을 함께 겪을 가능성이 있다. 옵션 거래 집중이 실제 전력 공급 계약 체결로 뒷받침되는지가 논리 성립 조건이다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "This alternative energy stock is more popular than SpaceX in the options pits. Here's why",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/08/bloom-energy-is-trading-more-options-than-spacex.html",
+            "date": "2026-09-08",
+            "quote": "This alternative energy stock is more popular than SpaceX in the options pits. Here's why",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "S&P 500보다 훨씬 싼 강세장 — 미국 밖 밸류에이션으로의 분산 논의",
+        "easy": "MarketWatch는 S&P 500보다 훨씬 저렴하면서도 호황인 주식시장에 투자하는 방법을 다뤘다. 논지는 미국 대형주의 상대 밸류에이션이 부담스러운 구간에 들어섰다는 전제이며, 후보 기사에 해당 시장의 PER·PBR 수치는 제시되지 않았다. 이 논의는 QQQ 10MA(714.83)가 20MA(717.39)를 하회하는 데드크로스 D+6, 200일선 +150% 초과 종목 1개라는 국면과 맞물려 읽히는 성격의 기사다.",
+        "whyMatters": "밸류에이션 기준의 자금 이동이 실제로 일어나면 Technology 20종목(40%)에 집중된 현재 주도 섹터 구조가 가장 먼저 압력을 받고, 상대적으로 밸류에이션 부담이 낮은 Financial Services 3종목(6%)·Energy 4종목(8%) 쪽으로 상대강도가 옮겨갈 여지가 생긴다. 다만 이는 기사 한 건의 관점일 뿐 실제 자금 흐름 데이터로 확인된 사실이 아니므로, 현 시점 근거는 제한적이다. 미국 밖 지수의 상대 성과가 지속적으로 우위를 보이는지, 달러 방향이 이를 뒷받침하는지가 확인 조건이다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "How to invest in a booming stock market that's way cheaper than the S&P 500",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/how-to-invest-in-a-booming-stock-market-thats-way-cheaper-than-the-s-p-500-b2f5ef5d?mod=mw_rss_topstories",
+            "date": "2026-09-08",
+            "quote": "How to invest in a booming stock market that's way cheaper than the S&P 500",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "결론부터 쓰면 오늘은 개별 호재가 살아 있으나 지수 국면은 방어 우위다. QQQ 종가 718.36에서 10MA 714.83이 20MA 717.39를 하회하는 데드크로스가 2026-08-28 발생해 D+6이며, 쿨라매기 기준상 신규 진입 중단·보유분 청산 검토 구간이고 50MA 711.32가 아래에서 마지막 지지선 역할을 한다. 근거 측면에서 주도 섹터는 Technology 20종목(40%)·Healthcare 11종목(22%)·Industrials 4종목(8%)·Energy 4종목(8%)·Financial Services 3종목(6%)로 여전히 기술주 편중이 크고, 오늘 뉴스도 퀄컴-아마존 칩 딜, 코닝 계약, 마이크론 메모리 우위, 오라클의 OpenAI 생태계 재선호, 인텔 가격 인상 여력으로 그 편중을 강화하는 방향이었다. 반대 근거는 FINRA 고객 마진부채 YoY +38.6%로 +30% 기준을 크게 넘어선 레버리지 확대이며, 데드크로스와 겹칠 때 되돌림이 증폭되는 조합이다. 외생 리스크로는 CA$27.6 billion 규모 캐나다 보복관세 발효와 미국의 캐나다산 주류 수입 금지, 그리고 이란 유조선 5척 격침에 따른 호르무즈 지정학 프리미엄이 Industrials와 Energy 양방향으로 작동한다. 확인할 조건은 QQQ 10MA가 20MA를 다시 상향 돌파하는지, 50MA 711.32가 종가 기준으로 지켜지는지, 200일선 +150% 초과 종목이 1개에서 늘어나며 과열이 재확산되는지다.",
+    "keyRisks": [
+      "QQQ 데드크로스 D+6 지속 — 10MA 714.83이 20MA 717.39를 회복하지 못하면 신규 진입 중단 기조 유지, 50MA 711.32 이탈 시 손절 트리거",
+      "FINRA 고객 마진부채 YoY +38.6%로 +30% 기준 초과 — 레버리지 확대 구간에서 하락 시 강제 청산발 낙폭 확대 위험",
+      "주도 섹터 Technology 20종목(40%) 편중 — AI 인프라 뉴스플로우(퀄컴·코닝·마이크론·오라클·인텔)에 포트폴리오 전체 상관이 집중되어 단일 서사 훼손 시 동반 하락",
+      "미-캐나다 무역 분쟁 확대 — CA$27.6 billion 보복관세 발효, 캐나다산 주류 수입 금지, 봄바디어 대상 생산 입지 연동 압박으로 Industrials 4종목(8%) 원가·시장 접근 리스크",
+      "호르무즈 지정학 — 이란 유조선 5척 격침 이후 유가 프리미엄이 지속되면 Energy 4종목(8%)에는 순풍이나 운송·화학 원가와 금리 경로 기대에는 역풍",
+      "포지셔닝 쏠림 — 블룸에너지 옵션 거래가 스페이스X를 상회할 정도의 투기적 집중은 마진부채 확대 환경에서 되돌림 폭을 키움",
+      "규제 리스크 전이 — 포드의 중국 연계에 대한 행정부 'profound concern'이 중국 의존 공급망 전반의 판정 기준으로 확대될 가능성"
+    ],
+    "easySummary": [
+      "QQQ 718.36, 10MA 714.83 < 20MA 717.39 데드크로스 D+6 — 신규 진입 중단·보유분 청산 검토 구간이며 50MA 711.32가 남은 지지선.",
+      "뉴스플로우는 AI 인프라 일변도 — 퀄컴-아마존 칩 딜과 코닝 계약, 마이크론 메모리 우위, 오라클의 OpenAI 생태계 재선호, 인텔 가격 인상 여력이 Technology 20종목(40%) 편중을 더 키웠다.",
+      "리스크는 지수 밖에서 — 마진부채 YoY +38.6%의 레버리지 확대에 CA$27.6 billion 캐나다 보복관세·캐나다산 주류 수입 금지, 이란 유조선 5척 격침에 따른 호르무즈 프리미엄이 겹쳤다."
+    ],
+    "candidateCount": 24,
+    "verified": {
+      "checked": 86,
+      "ok": 98,
+      "unverified": 21,
+      "dead": 0,
+      "stripped": 1,
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://www.investing.com/news/company-news/silicon-motion-q2-2026-slides-revenue-surges-127-ai-drives-growth-93CH-4824655"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/silicon-motion-surges-186-past-140700702.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rising-earnings-estimates-really-change-170646676.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://rreport.einfomax.co.kr/report/eqlxxcikklglkgqgcgxcmcm.pdf"
+        },
+        {
+          "reason": "URL 부적격(비http·example·검색결과)",
+          "url": "C:\\Users\\305le\\OneDrive\\바탕 화면\\클로드코드test\\breakout-team\\state\\llm-in\\_t2\\NBIS.json"
+        },
+        {
+          "reason": "URL 부적격(비http·example·검색결과)",
+          "url": "C:\\Users\\305le\\OneDrive\\바탕 화면\\클로드코드test\\breakout-team\\state\\llm-in\\_t2\\NBIS.json"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.sec.gov/Archives/edgar/data/724004/000143774926026769/ex_1000989.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/11544/000001154426000033/wrb-20260720.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/healthcare/articles/amgen-shares-fall-investors-assess-105208691.html"
+        }
+      ],
+      "noQuote": 1
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-09-09"
   }
 };

@@ -1,0 +1,240 @@
+{
+ "ticker": "MLAB",
+ "sector": "Technology",
+ "industry": "Scientific & Technical Instruments",
+ "nameKo": "메사 래브러토리스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 2.48,
+  "saleNy": 5.86,
+  "epsCy": 19.25,
+  "epsNy": 3.22,
+  "est": {
+   "cyCur": 9.95,
+   "cy30": 11.62,
+   "nyCur": 10.27,
+   "ny30": 12.27
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    1,
+    2.56,
+    3.64
+   ],
+   "ni": [
+    -40.32,
+    "적자축소",
+    "흑자전환"
+   ],
+   "opm": [
+    11.69,
+    4.31,
+    12.25
+   ],
+   "updated": "2026-08-25 06:20:01"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-09-01",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 5,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-04",
+  "nameKo": "메사 래브러토리스",
+  "nameEn": "MESA LABORATORIES INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000724004&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 60138000,
+     "profit": 7031000,
+     "netIncome": 2830000,
+     "margin": 11.7,
+     "yoy": {
+      "revenue": 1,
+      "profit": 129.5,
+      "netIncome": -40.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": true,
+     "revenue": 63724000,
+     "profit": 2748000,
+     "netIncome": -4136000,
+     "margin": 4.3,
+     "yoy": {
+      "revenue": 2.6,
+      "profit": 87.1,
+      "netIncome": 41.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 65126000,
+     "profit": 7975000,
+     "netIncome": 3630000,
+     "margin": 12.2,
+     "yoy": {
+      "revenue": 3.6,
+      "profit": 38,
+      "netIncome": 316.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 60737000,
+     "profit": 4724000,
+     "netIncome": 2476000,
+     "margin": 7.8,
+     "yoy": {
+      "revenue": 5,
+      "profit": 34.7,
+      "netIncome": -27.8,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "MLAB Ex-Dividend Reminder - 8/31/26",
+     "url": "https://www.nasdaq.com/articles/mlab-ex-dividend-reminder-8-31-26",
+     "date": "2026-08-27",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Mesa Laboratories (MLAB) Q1 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/mesa-laboratories-mlab-q1-2027-earnings-call-transcript",
+     "date": "2026-08-17",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Mesa Laboratories Q1 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/mesa-laboratories-q1-earnings-call-highlights",
+     "date": "2026-08-11",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Why Mesa Laboratories Stock Is Getting Hit With a Huge Sell-Off Today",
+     "url": "https://www.nasdaq.com/articles/why-mesa-laboratories-stock-getting-hit-huge-sell-today",
+     "date": "2026-05-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Mesa Laboratories Inc. Q4 Loss Declines",
+     "url": "https://www.nasdaq.com/articles/mesa-laboratories-inc-q4-loss-declines",
+     "date": "2026-05-27",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "MLAB Makes Bullish Cross Above Critical Moving Average",
+     "url": "https://www.nasdaq.com/articles/mlab-makes-bullish-cross-above-critical-moving-average",
+     "date": "2026-03-17",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Wells Fargo Maintains Mesa Laboratories (MLAB) Equal-Weight Recommendation",
+     "url": "https://www.nasdaq.com/articles/wells-fargo-maintains-mesa-laboratories-mlab-equal-weight-recommendation",
+     "date": "2025-12-15",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Mesa Labs (MLAB) Stock Jumps 5.7%: Will It Continue to Soar?",
+     "url": "https://www.nasdaq.com/articles/mesa-labs-mlab-stock-jumps-57-will-it-continue-soar",
+     "date": "2025-09-22",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-10",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/724004/000143774926026769/mlab20260807_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "5.05",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/724004/000072400426000082/mlab20260729_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-15",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/724004/000072400426000056/mlab20260615_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/724004/000072400426000039/mlab20260526_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-23",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/724004/000072400426000030/mlab20260323_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-09",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/724004/000072400426000020/mlab20260309_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

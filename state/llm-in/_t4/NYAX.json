@@ -1,0 +1,61 @@
+{
+ "ticker": "NYAX",
+ "news": [
+  {
+   "title": "Nayax (NYAX) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/nayax-nyax-q2-2026-earnings-call-transcript",
+   "date": "2026-08-17",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Nayax (NYAX) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/nayax-nyax-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-08-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Nayax (NYAX) Q2 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/nayax-nyax-q2-earnings-and-revenues-surpass-estimates",
+   "date": "2026-08-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Nayax (NYAX) Expected to Beat Earnings Estimates: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/nayax-nyax-expected-beat-earnings-estimates-should-you-buy",
+   "date": "2026-08-03",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 28.54,
+  "saleNy": 22.74,
+  "epsCy": 33.07,
+  "epsNy": 70.11,
+  "cyTrend": 13.15,
+  "nyTrend": 15.7,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    28.25,
+    31.74,
+    34.28
+   ],
+   "ni": [
+    -186.83,
+    -82.11,
+    700.18
+   ],
+   "opm": [
+    -5.42,
+    3.87,
+    10.3
+   ],
+   "updated": "2026-09-08 07:34:56"
+  }
+ }
+}
