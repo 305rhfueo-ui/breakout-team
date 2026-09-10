@@ -1,0 +1,277 @@
+{
+ "ticker": "MRVL",
+ "sector": "Technology",
+ "industry": "Semiconductors",
+ "nameKo": "마벨 테크놀로지 그룹",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 46.97,
+  "saleNy": 51.28,
+  "epsCy": 47.92,
+  "epsNy": 59.98,
+  "est": {
+   "cyCur": 4.20105,
+   "cy30": 4.05553,
+   "nyCur": 6.72085,
+   "ny30": 6.24094
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    36.55,
+    27.57,
+    22.08
+   ],
+   "ni": [
+    58.11,
+    -80.61,
+    97.85
+   ],
+   "opm": [
+    16.78,
+    14.04,
+    18.23
+   ],
+   "updated": "2026-09-08 07:52:55"
+  },
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "≤2026-06-08"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 61
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-07",
+  "nameKo": "마벨 테크놀로지 그룹",
+  "nameEn": "MARVELL TECHNOLOGY INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001835632&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-05-02",
+     "derived": false,
+     "revenue": 2417800000,
+     "profit": 339400000,
+     "netIncome": 34500000,
+     "margin": 14,
+     "yoy": {
+      "revenue": 27.6,
+      "profit": 25.4,
+      "netIncome": -80.6,
+      "priorEnd": "2025-05-03"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 2218700000,
+     "profit": 404400000,
+     "netIncome": 396100000,
+     "margin": 18.2,
+     "yoy": {
+      "revenue": 22.1,
+      "profit": 71.9,
+      "netIncome": 97.9,
+      "priorEnd": "2025-02-01"
+     }
+    },
+    {
+     "periodEnd": "2025-11-01",
+     "derived": false,
+     "revenue": 2074500000,
+     "profit": 357800000,
+     "netIncome": 1901300000,
+     "margin": 17.2,
+     "yoy": {
+      "revenue": 36.8,
+      "profit": 150.9,
+      "netIncome": 381.1,
+      "priorEnd": "2024-11-02"
+     }
+    },
+    {
+     "periodEnd": "2025-08-02",
+     "derived": false,
+     "revenue": 2006100000,
+     "profit": 290100000,
+     "netIncome": 194800000,
+     "margin": 14.5,
+     "yoy": {
+      "revenue": 57.6,
+      "profit": 388.9,
+      "netIncome": 200.8,
+      "priorEnd": "2024-08-03"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Marvell Stock Rallied Today",
+     "url": "https://www.nasdaq.com/articles/why-marvell-stock-rallied-today",
+     "date": "2026-09-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Is Marvell Technology a Millionaire-Maker Stock?",
+     "url": "https://www.nasdaq.com/articles/marvell-technology-millionaire-maker-stock",
+     "date": "2026-09-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Best Semiconductor Stock to Buy: Marvell Stock or Qualcomm Stock?",
+     "url": "https://www.nasdaq.com/articles/best-semiconductor-stock-buy-marvell-stock-or-qualcomm-stock",
+     "date": "2026-09-04",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/mrvl-20260827.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-19",
+    "itemsKo": [
+     "중요 계약 체결",
+     "3.02",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526356217/d412696d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-09",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526299843/d82462d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-25",
+    "itemsKo": [
+     "주주총회 표결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026045564/mrvl-20260625.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526267688/d151562d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000014/mrvl-20260527.htm"
+   }
+  ],
+  "krReports": {
+   "total": 8,
+   "reports": [
+    {
+     "date": "2026-08-28",
+     "broker": "하나증권",
+     "analyst": "강재구",
+     "title": "[마벨 테크놀로지 그룹 (NAS:MRVL)] 10월 도파민이 필요하다",
+     "summary": "- 단기 주가 약세 가능성. 10월 투자자의 날 행사가 중요- 컨센서스 상회한 FY 2Q27 실적- 시장 예상보다 강한 FY 3Q27 가이던스. 연간 매출 가이던스 상향",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlmzgqimxqkcgcgxcmcq.pdf"
+    },
+    {
+     "date": "2026-08-27",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[마벨 테크놀로지 그룹 (NAS:MRVL)] [27Q2 Review] 데이터센터 재가속, 마진은 숙제, 투자의견 매수 유지",
+     "summary": "- 매출 27.39억달러, DC +46%로 순차 13.3% 가속- FY27 120억·FY28 180억달러, 다섯 번째 상향- 3분기 총마진 58.0% 가이던스로 90bp 후퇴",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqkllqllkqxgcgxcmcq.pdf"
+    },
+    {
+     "date": "2026-08-19",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[마벨 테크놀로지 그룹 (NAS:MRVL)] [Issue & News] 구글과 커스텀 반도체 상업 계약 체결, 워런트 5,897만 주 발행 - 대형 고객에 지분 인센티브 얹은 장기 록인",
+     "summary": "- 구글과 7월29일 커스텀 반도체 상업계약 체결- 워런트 최대 5,897만주, 행사가 206.58달러- 1년 확정베스팅 544만주뿐, 잔여조건 미공개",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqeqmkggkqgezgcgxcmcq.pdf"
+    },
+    {
+     "date": "2026-08-19",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[마벨 테크놀로지 그룹 (NAS:MRVL)] [27Q2 Preview] 150% 오른 주가, 이번엔 숫자가 따라올까, 투자의견 매수 하향",
+     "summary": "- 마벨 8월 28일 실적, 핵심은 매출보다 성장 재가속 속도 확인- 이번 분기 매출 가이던스 27억달러로 전분기 대비 12% 성장, 성장 재가속 지속 여부가 핵심- 데이터센터 비중 75.7%, 인터커넥트 성장 목표 70% 이상으로 상향, 하반기 30억달러 매출의 선행 신호",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcmizcxigmeggcgxcmcq.pdf"
+    },
+    {
+     "date": "2026-05-28",
+     "broker": "신한투자증권",
+     "analyst": "고준혁",
+     "title": "[마블 테크놀로지 그룹 (NAS:MRVL)] AI 네트워크 병목 공략 본격화",
+     "summary": "- 단순 광 DSP 업체를 넘어, 광연결-스위칭-XPU를 결합한 AI 인프라 연결 플랫폼으로 진화. 12MF P/E 43배의 멀티플을 실적을 통해 입증할 전망- FY1Q27 매출액 24.2억(YoY+27.6%, 이하 전년동기대비), Non-GAAP 영업이익 8.5억달러(+30.8%)를 기록하며 컨센서스에 부합. 데이터센터향 매출이 18.3억달러(+27.2%)로 전체의 76%를 기록- AI 데이터센터 연결 병목 해결을 위해 핵심 기술들을 확보. 2월 Celestial AI 인수로 광 기반 포토닉 패브릭과 Scale-up 광연결 역량 확보. XConn 인수는 PCIe, *CXL 스위치와 UALink 스케일업 스위칭 로드맵 보강",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqmmzqxzcxkqgcgcgxcmcq.pdf"
+    },
+    {
+     "date": "2025-12-05",
+     "broker": "키움증권",
+     "analyst": "박유악",
+     "title": "[마블 테크놀로지 그룹 (NAS:MRVL)] Custom Chip 부문 실적 강세 전환 예상",
+     "summary": "- 3Q25CY 실적 기대치 부합, 4Q25CY 가이던스 역시 장 컨센서스 부합- 다만 커스텀 부문의 성장세가 가속화되며, 2027년 2배 수준의 성장을 보일 전망- ASIC 시장 성장과 함께, Marvell의 실적 성장 및 주가 상승세 이어질 것으로 판단",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkmekziimlmgxgcgxcmcq.pdf"
+    },
+    {
+     "date": "2025-12-03",
+     "broker": "신한투자증권",
+     "analyst": "김형태, 송혜수",
+     "title": "[마블 테크놀로지 그룹 (NAS:MRVL)] 주목할 만한 비즈니스 로드맵",
+     "summary": "- 단기 실적 기대감은 높지 않겠으나 미래 성장 동력에 주목- FY3Q26 Review: 실적은 예상 부합, 중장기 사업 계획이 서프라이즈- 2023~28년 연평균성장률 +50% 언급. 데이터센터 애플리케이션 강화",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkqzqzckqcgzqgcgxcmcq.pdf"
+    },
+    {
+     "date": "2025-12-03",
+     "broker": "한화증권",
+     "analyst": "임해인",
+     "title": "[마블 테크놀로지 그룹 (NAS:MRVL)] Earnings Flash",
+     "summary": "- 매출액 20.8억 달러(YoY +36.8%)로 예상치 0.6% 상회, 가이던스 중간값 대비 1,500만 달러 높은 수치로 사상 최고치 기록- Non-GAAP 매출총이익률은 59.7%(YoY -0.8%p), 영업이익률은 36.3%(YoY +6.6%p) 기록- 2분기 연속 사상 최대 실적 달성. *예상을 상회하는 향후 2개 회계연도의 데이터센터 성장 전망 제시. 시간 외 8.7% 상승",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkqixmiqgqqmkgcgxcmcq.pdf"
+    }
+   ]
+  }
+ }
+}

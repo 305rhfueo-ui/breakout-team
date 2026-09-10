@@ -1,0 +1,249 @@
+{
+ "ticker": "ANF",
+ "sector": "Consumer Cyclical",
+ "industry": "Apparel Retail",
+ "nameKo": "애버크롬비 앤드 피치",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 4.97,
+  "saleNy": 4.34,
+  "epsCy": 29.05,
+  "epsNy": -3.49,
+  "est": {
+   "cyCur": 13.49873,
+   "cy30": 10.70594,
+   "nyCur": 13.02714,
+   "ny30": 11.87156
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    4.81,
+    1.5,
+    5.36
+   ],
+   "ni": [
+    29.94,
+    -16.51,
+    -8.06
+   ],
+   "opm": [
+    19.95,
+    7.97,
+    14.13
+   ],
+   "updated": "2026-09-08 09:20:51"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": "2026-08-27",
+   "m3": "2026-08-27",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 8,
+   "m3": 8,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-10",
+  "nameKo": "애버크롬비 앤드 피치",
+  "nameEn": "ABERCROMBIE & FITCH CO",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018840&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-05-02",
+     "derived": false,
+     "revenue": 1113821000,
+     "profit": 88797000,
+     "netIncome": 67134000,
+     "margin": 8,
+     "yoy": {
+      "revenue": 1.5,
+      "profit": -12.5,
+      "netIncome": -16.5,
+      "priorEnd": "2025-05-03"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 1669802000,
+     "profit": 235931000,
+     "netIncome": 172130000,
+     "margin": 14.1,
+     "yoy": {
+      "revenue": 5.4,
+      "profit": -7.9,
+      "netIncome": -2.9,
+      "priorEnd": "2025-02-01"
+     }
+    },
+    {
+     "periodEnd": "2025-11-01",
+     "derived": false,
+     "revenue": 1290619000,
+     "profit": 155021000,
+     "netIncome": 112995000,
+     "margin": 12,
+     "yoy": {
+      "revenue": 6.8,
+      "profit": -13.5,
+      "netIncome": -14.4,
+      "priorEnd": "2024-11-02"
+     }
+    },
+    {
+     "periodEnd": "2025-08-02",
+     "derived": false,
+     "revenue": 1208560000,
+     "profit": 206658000,
+     "netIncome": 141383000,
+     "margin": 17.1,
+     "yoy": {
+      "revenue": 6.6,
+      "profit": 17.7,
+      "netIncome": 6.2,
+      "priorEnd": "2024-08-03"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Abercrombie & Fitch COO Scott Lipesky Sells 5,000 Shares for $745,000",
+     "url": "https://www.nasdaq.com/articles/abercrombie-fitch-coo-scott-lipesky-sells-5000-shares-745000",
+     "date": "2026-09-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's Why Abercrombie & Fitch (ANF) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-abercrombie-fitch-anf-strong-momentum-stock",
+     "date": "2026-09-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's How Much a $1000 Investment in Abercrombie & Fitch Made 10 Years Ago Would Be Worth Today",
+     "url": "https://www.nasdaq.com/articles/heres-how-much-1000-investment-abercrombie-fitch-made-10-years-ago-would-be-worth-today",
+     "date": "2026-09-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ANF vs. TPR: Which Stock Is the Better Value Option?",
+     "url": "https://www.nasdaq.com/articles/anf-vs-tpr-which-stock-better-value-option",
+     "date": "2026-09-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Abercrombie & Fitch (ANF) is a Top Value Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-abercrombie-fitch-anf-top-value-stock-long-term",
+     "date": "2026-09-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Abercrombie & Fitch (ANF) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/abercrombie-fitch-anf-q2-2026-earnings-call-transcript",
+     "date": "2026-09-02",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Is Abercrombie & Fitch's Hot Streak Just Getting Started?",
+     "url": "https://www.nasdaq.com/articles/abercrombie-fitchs-hot-streak-just-getting-started",
+     "date": "2026-09-01",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Is Abercrombie (ANF) a Buy as Wall Street Analysts Look Optimistic?",
+     "url": "https://www.nasdaq.com/articles/abercrombie-anf-buy-wall-street-analysts-look-optimistic",
+     "date": "2026-09-01",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000041/anf-20260826.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-20",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000039/anf-20260818.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-04",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000034/anf-20260603.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000029/anf-20260527.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000006/anf-20260304.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-12",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000003/anf-20260112.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2025-11-27",
+     "broker": "키움증권",
+     "analyst": "조소정",
+     "title": "[애버크롬비 앤드 피치 (NYS:ANF)] 저점 통과, 점차 낮아지는 리스크",
+     "summary": "- 캐주얼 의류 브랜드사 (Hollister, Abercrombie)- 3Q26 실적은 매출과 EPS가 시장 기대치를 상회. Hollister가 매출 성장을 견인한 가운데, 재고 관리와 프로모션 축소로 관세 여파를 상쇄한 덕분- 주가는 선행 PER 9배 수준. 최근 주가 급등에도 밸류에이션 부담은 없음. 향후 실적 가시성 개선될 전망인 만큼, 주가 상승 여력이 커질 듯.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkemzmcximczmgcgxcmec.pdf"
+    }
+   ]
+  }
+ }
+}

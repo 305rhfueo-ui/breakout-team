@@ -1,55 +1,6 @@
 {
- "date": "2026-09-09",
+ "date": "2026-09-10",
  "cap": 6,
  "poolTotal": 12,
- "industries": [
-  {
-   "key": "Healthcare|Health Information Services",
-   "sector": "Healthcare",
-   "industry": "Health Information Services",
-   "count": 6,
-   "counts": {
-    "m1": 6,
-    "m3": 6,
-    "m6": 6
-   },
-   "wrs": {
-    "m1": 0.0233,
-    "m3": 0.3211,
-    "m6": 0.3078
-   },
-   "final": {
-    "m1": 0.069,
-    "m3": 0.14,
-    "m6": 0.2416
-   },
-   "rankPct": {
-    "m1": 23.19,
-    "m3": 1.45,
-    "m6": 10.87
-   },
-   "pickedBy": [
-    "m3"
-   ],
-   "members": [],
-   "memberNews": [],
-   "flow": {
-    "FRANK": 20,
-    "frank25": -9,
-    "f10": 10.269283432222739,
-    "f25": -5.514274540477112,
-    "d50": -2.8449999999999998,
-    "d200": 24.54,
-    "d200Delta": -5.240000000000002,
-    "cy": 0.09,
-    "ny": 0.86,
-    "upRatio": 65.84507042253522,
-    "coverage": 284,
-    "winRate": 0.8333,
-    "stage": "pullback",
-    "stageKo": "❄️ 조정 중",
-    "flow": "neutral"
-   }
-  }
- ]
+ "industries": []
 }

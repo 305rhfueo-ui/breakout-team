@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-10",
+  "report": {
+    "checked": 108,
+    "ok": 132,
+    "unverified": 13,
+    "dead": 0,
+    "stripped": 0,
+    "removed": [
+      {
+        "reason": "중복",
+        "url": "https://rreport.einfomax.co.kr/report/eqlxcczlkqixekegcgxcmec.pdf"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.fool.com/investing/2026/08/29/why-abercrombie-fitch-stock-skyrocketed-this-week/"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.fool.com/investing/2026/08/29/why-abercrombie-fitch-stock-skyrocketed-this-week/"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.fool.com/investing/2026/08/29/why-abercrombie-fitch-stock-skyrocketed-this-week/"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitchs-hot-streak-just-165000693.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/alpha-metallurgical-amr-reports-q2-124002637.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/09/01/semtech-smtc-q2-2027-earnings-call-transcript/"
+      }
+    ]
+  }
+}

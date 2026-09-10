@@ -521,7 +521,7 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "carried",
+    "status": "done",
     "industries": [
       {
         "key": "Healthcare|Health Information Services",
@@ -1030,7 +1030,8 @@ window.TEAM5_DATA = {
       ],
       "caution": "표본이 업종 1개뿐이라 섹터 로테이션(자금이 어디서 어디로 이동)을 판단할 비교군이 없음 — 단일 종목 기간 비교로만 해석해야 함. 해당 업종의 driver=\"earnings\", durability=\"cyclical\"로 조사되었으나 why 항목은 \"근거 없음\"으로 비어 있어, 강세/약세의 원인(실적 서프라이즈, 정책 등)은 어떤 서술도 지어내지 않았고 지어내서도 안 됨. m1 WRS(0.0233)가 m3/m6 대비 낮아진 것은 수치상 사실이나 그 원인은 미확인."
     },
-    "summaryResearchedOn": "2026-09-09"
+    "summaryResearchedOn": "2026-09-09",
+    "reusedFrom": null
   },
   "flow": {
     "baseline": {
@@ -7273,5 +7274,15 @@ window.TEAM5_DATA = {
         ]
       }
     ]
+  },
+  "research_coverage": {
+    "done": 8,
+    "total": 12,
+    "cap": 6,
+    "pending": 4,
+    "failed": 0,
+    "carried": 8,
+    "ineligible": 0,
+    "note": "12업종 중 8업종을 조사했습니다. 그중 8업종은 최근 조사분을 이월했습니다(조사일 표기). 나머지 4업종은 상한(6) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
   }
 };

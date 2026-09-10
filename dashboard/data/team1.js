@@ -498,8 +498,246 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-09-10",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "브렌트유 $100 재돌파 — 이란 전쟁 격화로 인플레이션 우려 재점화",
+        "easy": "MarketWatch는 이란 전쟁 격화로 브렌트유가 $100선을 다시 넘었고, 이것이 금리에 결정적인 시점에 새로운 인플레이션 우려를 촉발했다고 보도했다(2026-09-09). 같은 날 BBC는 이란 전쟁발 유가 상승으로 영국 소매 휘발유가가 일주일 새 5p 올랐다고 전했다 — 원유 상승이 이미 소매 단가로 전이되는 단계다. 원문 본문은 접근이 차단돼(403) 배럴당 정확한 호가·변동폭·선물 커브 형태는 확인하지 못했으므로 추가 수치는 근거 없음. 확인 가능한 사실은 (1) $100 재돌파, (2) 원인이 이란 전쟁, (3) 금리 논쟁의 중요 시점이라는 프레이밍 세 가지다. 이 국면에서 QQQ는 종가 716.31, MA10 715.38 < MA20 717.28의 데드크로스(2026-08-28, D+7) 상태다.",
+        "whyMatters": "주도 섹터에 Energy가 4종목(8%) 포함돼 있어 유가 상승은 E&P·정유의 크랙 스프레드와 캐시플로에 직접 플러스로 반영되는 반면, Technology 20종목(40%)에는 할인율 경로를 통한 역풍이다. 헤드라인 CPI의 에너지 기여도가 커지면 금리 인하 기대가 후퇴하고, 이는 장기 듀레이션 성장주 밸류에이션의 리레이팅을 되돌린다. Industrials 4종목(8%)은 연료비가 원가에 직접 들어가는 운송·물류 비중만큼 마진 압박을 받는다. 논리 성립 조건은 브렌트의 $100 상회 지속이며, 유가가 $100 아래로 되밀리면 인플레이션·금리 경로 논리는 곧바로 약화된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Oil's surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/brent-crude-reaches-100-as-war-in-iran-intensifies-b73832e2?mod=mw_rss_topstories",
+            "date": "2026-09-09",
+            "quote": "Oil's surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Petrol prices rise by 5p over a week as Iran war sends oil higher",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cj4jwlx77lro?at_medium=RSS&at_campaign=rss",
+            "date": "2026-09-09",
+            "quote": "Petrol prices rise by 5p over a week as Iran war sends oil higher",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "디젤 사상 최고가 — 운송비의 식품 물가 전이 경로",
+        "easy": "MarketWatch는 디젤 가격이 또다시 사상 최고치를 기록했으며 그 여파가 식료품 청구서로 이어질 것이라고 보도했다(2026-09-09). 디젤은 트럭·철도·농기계의 기초 연료라 원유 상승분이 헤드라인 에너지 항목뿐 아니라 근원 재화·식품 항목으로 시차를 두고 전이된다. 이는 위 브렌트 $100 재돌파와 같은 뿌리의 사건으로, 유가 충격이 일회성 에너지 항목에 그치지 않는다는 신호다. 본문 접근이 차단돼 갤런당 가격·전주 대비 상승률 등 구체 수치는 확인하지 못했다.",
+        "whyMatters": "연료비를 판가로 전가하지 못하는 Industrials 4종목(8%)의 운송·물류 계열이 1차 압박 대상이고, 식품 유통·필수소비재는 마진 방어를 위해 판가 인상에 나서면서 물가 지표를 재차 밀어올린다. 반대로 Energy 4종목(8%)의 정제 마진에는 우호적이다. 소비 여력 위축은 재량소비재 수요를 깎고, Technology 20종목(40%)에는 금리 경로를 통해 간접 부담이다. 확인할 조건은 디젤 가격의 고점 유지 여부와, 다음 CPI에서 식품·운송 항목이 실제로 올라오는지다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Diesel prices hit another record high. If you're shocked, wait until you see your grocery bill.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/diesel-prices-hit-another-record-high-if-youre-shocked-wait-until-you-see-your-grocery-bill-afee7076?mod=mw_rss_topstories",
+            "date": "2026-09-09",
+            "quote": "Diesel prices hit another record high. If you're shocked, wait until you see your grocery bill.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "트럼프 \"유가·가스값은 중간선거 '직후'에나 내린다\" — 정책 완화 기대 차단",
+        "easy": "CNBC는 트럼프 대통령이 유가와 가스 가격이 중간선거 '직후'까지는 내리지 않을 것이라고 말했다고 보도했다(2026-09-09). 발언 그대로면 행정부가 단기 유가 하락을 정책 목표로 제시하지 않는다는 뜻이며, 전략비축유 방출 같은 즉효성 개입 기대는 그만큼 후퇴한다. 위 브렌트 $100·디젤 최고가와 결합하면 에너지발 물가 압력이 최소 선거 국면까지 지속된다는 시나리오에 무게가 실린다. 본문을 읽지 못해 발언의 전체 맥락과 구체적 시점 언급은 확인하지 못했다.",
+        "whyMatters": "Energy 4종목(8%)에는 유가 고착 시나리오가 실적 가시성 측면에서 유리하게 작용하고, 정유·서비스 체인의 백로그 기대도 함께 간다. 반대로 유가 하락에 기대 인플레이션 둔화를 전제하던 금리 인하 시나리오가 약해지면서 Technology 20종목(40%)의 멀티플에 부담이다. 정치 일정이 가격 경로의 변수로 명시된 만큼 에너지 관련 정책 헤드라인의 변동성 자체가 커진다. 논리가 깨지는 조건은 행정부의 실제 공급 개입 조치 발표다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Trump says oil and gas prices won't fall until 'right after' midterm election",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/09/09/trump-oil-gas-prices-midterm-elections.html",
+            "date": "2026-09-09",
+            "quote": "Trump says oil and gas prices won't fall until 'right after' midterm election",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "베선트 재무장관의 정치 행보 — 채권시장 신뢰와 개입 리스크",
+        "easy": "CNBC는 베선트 재무장관의 공화당 전당대회 연설이 정치색을 띠면서 그의 채권시장 신뢰도가 시험대에 올랐다고 보도했다(2026-09-09). 같은 날 MarketWatch는 지금 강세장의 가장 큰 적이 베선트의 개입일 수 있다는 칼럼을 실었다. 두 기사 모두 재무부의 발행·개입 정책이 정치 일정에 종속될 수 있다는 우려를 지적하는 방향이며, 이는 텀 프리미엄 확대 요인이다. 본문 접근이 차단돼 국채 금리 수준, 바이백 규모 등 기사에 언급된 구체 수치는 확인하지 못했다 — 숫자 없이 방향만 기술한다.",
+        "whyMatters": "재무부 정책의 신뢰도 훼손은 장기물 금리의 상방 리스크로 나타나며, 이는 Technology 20종목(40%)과 Healthcare 11종목(22%) 같은 장기 듀레이션 자산의 할인율에 직접 얹힌다. 반대로 Financial Services 3종목(6%)은 금리 곡선의 스티프닝 국면에서 순이자마진 측면의 상쇄 요인을 갖는다. QQQ가 MA10 715.38 < MA20 717.28의 데드크로스 D+7 국면이라, 금리발 매도 압력은 20일선 회복 시도를 직접 방해한다. 확인할 조건은 실제 재무부 발행 계획·바이백 발표와 장기물 금리의 반응이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Bessent's political turn in GOP speech tests his bond-market credibility",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/09/09/bessent-treasury-yields-buybacks-republican-convention.html",
+            "date": "2026-09-09",
+            "quote": "Bessent's political turn in GOP speech tests his bond-market credibility",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "The bull market's biggest enemy right now could be Bessent's interventions",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-bull-markets-biggest-enemy-right-now-could-be-bessents-interventions-134bbe78?mod=mw_rss_topstories",
+            "date": "2026-09-09",
+            "quote": "The bull market's biggest enemy right now could be Bessent's interventions",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "앤스로픽 연구자 이탈과 'AI 실존 위험 10%' 발언 — AI 트레이드의 규제·심리 변수",
+        "easy": "CNBC와 BBC는 앤스로픽 소속 연구자가 AI가 '모든 인류를 죽일' 확률이 10%를 넘는다고 말했고, CNBC 기사 제목대로 전문가들이 이에 대해 의견을 내놓았다고 보도했다(2026-09-09). CNBC URL 슬러그는 해당 인물이 AI 안전 부문에서 사임했음을 명시하고 있다. 기술적 실적이나 가이던스와 무관한 사건이지만, AI 자본지출 사이클의 정당성을 다투는 규제·여론 리스크가 다시 헤드라인으로 올라왔다는 점이 핵심이다. 본문을 읽지 못했으므로 발언의 전제와 근거는 확인하지 못했고, 인용 가능한 수치는 '10% 초과'뿐이다.",
+        "whyMatters": "주도 섹터의 Technology 20종목(40%)은 대부분 AI 자본지출 서사에 밸류에이션이 연동돼 있어, 안전·규제 담론의 강화는 멀티플 방어에 부정적인 뉴스 플로우다. 실적 훼손 경로가 아니라 심리·정책 경로이므로 즉각적 EPS 영향은 근거 없음이며, 방향만 놓고 보면 AI 인프라·모델 관련 종목의 변동성 확대 요인이다. 마진부채 YoY +38.6%라는 레버리지 환경에서 주도주 심리 훼손은 청산 압력으로 증폭될 수 있다. 확인할 조건은 실제 규제 입법·청문 일정으로 이어지는지 여부다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Experts weigh in as researcher says AI has more than 10% chance of 'killing all humans'",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/09/09/anthropic-researcher-quits-ai-safety.html",
+            "date": "2026-09-09",
+            "quote": "Experts weigh in as researcher says AI has more than 10% chance of 'killing all humans'",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-09-09",
+            "quote": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "애플 신임 CEO의 첫 승부수 — 고가 폴더블 아이폰",
+        "easy": "BBC는 애플의 새 최고경영자가 비싼 첫 폴더블 아이폰에 큰 도박을 걸며 임기를 시작한다고 보도했다(2026-09-09). 애플은 아이폰 하드웨어 판매와 서비스 부문 수수료가 매출의 축을 이루는 구조라, 신규 폼팩터의 단가 상승은 ASP와 믹스 개선의 지렛대인 동시에 초기 수율·부품 원가에 따른 마진 희석 요인이기도 하다. 기사 제목이 명시한 것은 '첫 폴더블'과 '고가'라는 두 가지이며, 구체적 가격·출시일·CEO 이름은 본문 접근 차단으로 확인하지 못해 근거 없음. 신임 경영진의 첫 대형 제품 결정이라는 점에서 실행 리스크가 실적보다 먼저 평가되는 국면이다.",
+        "whyMatters": "Technology 20종목(40%)이 주도 섹터의 중심인 상황에서 애플의 신제품 사이클은 스마트폰 부품 공급망 — 디스플레이·힌지·메모리·파운드리 — 전반의 수주 기대를 좌우한다. 고가 전략이 통하면 ASP 상승을 통한 매출 성장과 서비스 부착률 개선이 리레이팅 근거가 되고, 실패하면 신임 CEO 리스크 프리미엄이 얹힌다. 방향만 말하면 부품 공급사에는 물량 기대가, 애플 자체에는 초기 마진 부담이 먼저 온다. 확인할 조건은 출시 후 초기 판매·리드타임 지표와 회사가 제시할 가이던스다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Apple's new boss starts with big gamble on costly first folding iPhone",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/clyjd1jnd03o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-09-09",
+            "quote": "Apple's new boss starts with big gamble on costly first folding iPhone",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "아마존, 케빈 맨디아 이사 선임 — 보안 거버넌스 강화",
+        "easy": "CNBC는 아마존이 구글을 떠난 지 2년 만에 사이버보안 베테랑 케빈 맨디아를 이사회에 합류시켰다고 보도했다(2026-09-09). 아마존은 AWS의 클라우드 인프라 매출과 리테일·광고가 결합된 구조로, 엔터프라이즈 고객의 보안 신뢰도가 곧 AWS 계약 유지와 직결된다. 이사회 인선 자체는 손익에 즉각 반영되지 않는 거버넌스 이벤트이며, 실적·가이던스 관련 언급은 기사 제목에 없어 근거 없음.",
+        "whyMatters": "Technology 20종목(40%) 안에서 클라우드·보안은 자본지출 축소 국면에서도 방어력이 상대적으로 높은 축이며, 보안 역량의 대외 시그널은 AWS 엔터프라이즈 수주 경쟁에서 정성적 플러스다. 사이버보안 업종 전반에는 대형 플랫폼이 보안 거버넌스를 강화한다는 수요 측 신호로 읽힌다. 다만 방향성 신호일 뿐 정량적 실적 영향은 확인되지 않는다. 확인할 조건은 AWS의 다음 분기 매출 성장률과 보안 관련 신규 서비스 발표다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Amazon adds cybersecurity veteran Kevin Mandia to board 2 years after he left Google",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/09/09/amazon-adds-cybersecurity-vet-ex-google-exec-kevin-mandia-to-board.html",
+            "date": "2026-09-09",
+            "quote": "Amazon adds cybersecurity veteran Kevin Mandia to board 2 years after he left Google",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "미국 주택보험료 사상 최고 — 보험사 요율과 가계 실질소득의 이중 신호",
+        "easy": "MarketWatch는 미국 주택보험료가 사상 최고치를 기록했고 지역별로 상승폭 편차가 컸다고 보도했다(2026-09-09). 보험료 상승은 손해보험사 입장에서 요율 인상 사이클의 지속을, 가계 입장에서는 비재량 지출 증가를 동시에 뜻한다. 위 유가·디젤 상승과 겹치면 가계의 비재량 지출 비중이 동시다발로 확대되는 구도다. 본문 접근 차단으로 평균 보험료 수준·상승률·지역명은 확인하지 못해 근거 없음.",
+        "whyMatters": "주도 섹터의 Financial Services 3종목(6%)에 속하는 손해보험 계열은 요율 인상이 수입보험료와 언더라이팅 마진에 우호적으로 반영되는 구조다. 반대로 주택 보유 비용 상승은 주택 거래와 주택건설·모기지 체인의 수요를 눌러 Industrials 4종목(8%)의 건자재·주택 관련 축에 부정적이다. 가계 실질 가처분소득 감소는 재량소비 수요를 추가로 깎는다. 확인할 조건은 손해율 추이로, 요율 인상이 손해율 상승에 뒤처지면 보험사 수혜 논리는 성립하지 않는다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Home-insurance premiums just hit a record high. Here's where they spiked the most.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/home-insurance-premiums-just-hit-a-record-high-heres-where-they-spiked-the-most-658ee4d9?mod=mw_rss_topstories",
+            "date": "2026-09-09",
+            "quote": "Home-insurance premiums just hit a record high. Here's where they spiked the most.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "헌터 바이든 밈코인 상장 몇 시간 만에 95% 급락 — 투기 수요의 질 점검",
+        "easy": "MarketWatch는 헌터 바이든의 밈코인이 출시 몇 시간 만에 95% 하락하며 실패했다고 보도했다(2026-09-09). 개별 토큰 사건 자체의 시장 규모는 확인되지 않았지만, 상장 직후 95% 소멸은 투기 자금의 진입-이탈 사이클이 극도로 짧아졌음을 보여주는 관측치다. 이 신호는 FINRA 고객 마진부채 YoY +38.6%라는 레버리지 확대 환경과 함께 읽어야 한다. 본문을 읽지 못해 시가총액·거래량 등 추가 수치는 근거 없음.",
+        "whyMatters": "위험선호의 최말단인 밈코인 구간이 먼저 붕괴하는 패턴은 통상 고베타 성장주와 무이익 소형주로 되돌아오며, 주도 섹터 Technology 20종목(40%)의 고밸류에이션 구간이 그 대상이다. 마진부채 YoY +38.6%는 하락 시 반대매매 연쇄를 키우는 증폭 장치이므로 레버리지 포지션의 취약성이 핵심이다. 200일선 +150% 초과 종목이 1개뿐이라는 점은 아직 지수 차원의 광범위한 과열 신호까지는 아니라는 반대 근거다. 확인할 조건은 다음 FINRA 마진부채 데이터의 증감 방향과 고베타 그룹의 상대강도 유지 여부다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Hunter Biden's memecoin flops, falling 95% just hours after launch",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/hunter-bidens-memecoin-flops-falling-95-just-hours-after-launch-3e9307d0?mod=mw_rss_topstories",
+            "date": "2026-09-09",
+            "quote": "Hunter Biden's memecoin flops, falling 95% just hours after launch",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "결론적으로 오늘 국면은 지수 추세와 매크로 헤드라인이 같은 방향으로 악화된 방어 국면이다 — QQQ는 종가 716.31에 MA10 715.38이 MA20 717.28을 하회하는 데드크로스(2026-08-28, D+7) 상태로 신규 진입 중단·보유분 청산 검토 구간이며, MA50 711.17이 바로 아래에서 1차 지지선 역할을 한다. 근거는 세 갈래다: 이란 전쟁 격화로 브렌트가 $100을 재돌파했고(MarketWatch), 디젤은 다시 사상 최고가를 찍었으며(MarketWatch), 트럼프는 유가·가스값이 중간선거 직후까지 내리지 않는다고 못박아 정책발 완화 기대까지 닫혔다(CNBC). 여기에 베선트 재무장관의 정치 행보가 채권시장 신뢰를 시험한다는 지적(CNBC)과 그의 개입이 강세장의 최대 적일 수 있다는 진단(MarketWatch)이 겹쳐 장기물 금리의 상방 리스크가 유지된다. 리스크 증폭 요인은 FINRA 고객 마진부채 YoY +38.6%로, +30% 기준선을 넘은 레버리지 확대 국면에서는 조정이 반대매매로 증폭되며, 헌터 바이든 밈코인의 상장 몇 시간 만의 95% 급락은 위험선호 말단이 이미 깨지고 있다는 관측치다. 반대 근거도 있다: 200일선 +150% 초과 종목은 1개에 불과해 지수 차원의 광범위한 과열은 확인되지 않고, 주도 섹터는 Technology 20종목(40%)·Healthcare 11종목(22%)에 더해 Energy 4종목(8%)이 포함돼 유가 상승분을 일부 흡수하는 구성이다. 확인할 조건은 (1) MA10 715.38의 MA20 717.28 재상향 돌파와 MA50 711.17 지지 유지, (2) 브렌트의 $100 하회 복귀, (3) 다음 FINRA 마진부채의 YoY 증가율 둔화 세 가지이며, 이 중 어느 것도 확인되지 않는 동안에는 방어 스탠스의 논리가 유지된다.",
+    "keyRisks": [
+      "에너지발 인플레이션 재점화: 브렌트 $100 재돌파와 디젤 사상 최고가가 헤드라인 CPI를 넘어 식품·운송 항목으로 전이될 경우 금리 인하 기대 후퇴 → Technology 20종목(40%)의 할인율 부담 확대",
+      "정책 완화 기대 차단: 트럼프의 '중간선거 직후에나 하락' 발언으로 단기 공급 개입 기대가 약화되어 유가 고착 시나리오가 길어질 위험",
+      "재무부 신뢰도 리스크: 베선트의 정치 행보와 개입 논란이 텀 프리미엄 확대로 이어지면 장기물 금리 상승이 QQQ의 20일선 회복 시도를 직접 방해",
+      "레버리지 증폭: FINRA 고객 마진부채 YoY +38.6%(+30% 초과) 상태에서 조정 시 반대매매 연쇄 위험 — 밈코인 상장 후 95% 급락은 위험선호 말단의 선행 균열",
+      "기술적 국면: QQQ MA10 715.38 < MA20 717.28 데드크로스 D+7 지속. MA50 711.17 이탈 시 지지 근거 소멸",
+      "AI 서사 리스크: 'AI가 인류를 절멸시킬 확률 10% 초과' 발언 확산이 규제·여론 경로로 AI 자본지출 서사의 멀티플 방어를 약화시킬 가능성",
+      "가계 비재량 지출 동시 증가: 연료비 + 사상 최고 주택보험료 조합이 재량소비 수요를 잠식",
+      "확인 불가 정보의 한계: 후보 기사 본문이 모두 접근 차단(403)되어 인용 수치는 제목에 명시된 값($100, 95%, 5p, 10%)과 Node 제공 지표로 한정됨"
+    ],
+    "easySummary": [
+      "QQQ는 종가 716.31로 MA10 715.38 < MA20 717.28 데드크로스(2026-08-28, D+7) 국면 — 신규 진입 중단·보유분 청산 검토 구간이며 MA50 711.17이 1차 지지선.",
+      "매크로 헤드라인은 일제히 인플레이션·금리 상방: 이란 전쟁발 브렌트 $100 재돌파, 디젤 사상 최고가, 트럼프의 '중간선거 직후에나 하락' 발언, 베선트발 채권시장 신뢰 논란.",
+      "FINRA 고객 마진부채 YoY +38.6%(+30% 초과)로 레버리지 증폭 위험. 다만 200일선 +150% 초과 종목은 1개뿐이라 지수 차원의 광범위 과열은 아직 미확인."
+    ],
+    "candidateCount": 24,
+    "verified": {
+      "checked": 108,
+      "ok": 132,
+      "unverified": 13,
+      "dead": 0,
+      "stripped": 0,
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://rreport.einfomax.co.kr/report/eqlxcczlkqixekegcgxcmec.pdf"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.fool.com/investing/2026/08/29/why-abercrombie-fitch-stock-skyrocketed-this-week/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.fool.com/investing/2026/08/29/why-abercrombie-fitch-stock-skyrocketed-this-week/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.fool.com/investing/2026/08/29/why-abercrombie-fitch-stock-skyrocketed-this-week/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitchs-hot-streak-just-165000693.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alpha-metallurgical-amr-reports-q2-124002637.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/09/01/semtech-smtc-q2-2027-earnings-call-transcript/"
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-09-10"
   }
 };

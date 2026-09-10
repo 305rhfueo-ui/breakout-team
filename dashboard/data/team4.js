@@ -872,9 +872,8 @@ window.TEAM4_DATA = {
         "rangePct": 43.93
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -925,9 +924,8 @@ window.TEAM4_DATA = {
         "rangePct": 98.98
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1114,9 +1112,8 @@ window.TEAM4_DATA = {
         "rangePct": 34.86
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1167,9 +1164,8 @@ window.TEAM4_DATA = {
         "rangePct": 113.07
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1220,9 +1216,8 @@ window.TEAM4_DATA = {
         "rangePct": 34.51
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1273,9 +1268,8 @@ window.TEAM4_DATA = {
         "rangePct": 201.51
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1442,9 +1436,8 @@ window.TEAM4_DATA = {
         "rangePct": 69.85
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1780,9 +1773,8 @@ window.TEAM4_DATA = {
         "rangePct": 51.69
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1833,9 +1825,8 @@ window.TEAM4_DATA = {
         "rangePct": 55.94
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -2009,9 +2000,8 @@ window.TEAM4_DATA = {
         "rangePct": 43.81
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -2062,9 +2052,8 @@ window.TEAM4_DATA = {
         "rangePct": 101.97
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -2098,9 +2087,8 @@ window.TEAM4_DATA = {
         "rangePct": 58.64
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -2151,9 +2139,8 @@ window.TEAM4_DATA = {
         "rangePct": 100.15
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -2216,9 +2203,87 @@ window.TEAM4_DATA = {
         "score": 50
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "category": 6,
+        "ticker": "ACGL",
+        "confidence": "medium",
+        "company": "ACGL는 버뮤다 소재 보험·재보험사로 Insurance·Reinsurance·Mortgage 3개 언더라이팅 세그먼트를 운영하며 미국·캐나다·유럽·호주·영국에서 사업을 영위한다. 손해보험 요율(premium) 인상 사이클이 특정 라인에서 정체·둔화되는 국면에 진입했고, Insurance 세그먼트는 경쟁 심화와 마진 압박에 직면했다는 평가가 나온다. 컨센서스 기준 CY 매출성장 -4.09%·EPS성장 -4.73%로 역성장이 예상되는 가운데 60일 신고가 돌파 없이 150일선 아래에서 6개월째 87.05~107.09 박스권(폭 23.02%)에 머물러 있다.",
+        "volumeExplanation": "VOL_X 2.28(거래대금 20일평균 대비)로 거래량이 터졌으나, 2026-09-03 marketbeat 기사는 전일 대비 46% 급증한 거래량 수치만 보도했을 뿐 구체적 원인은 제시하지 못했다. 같은 시기 Zacks 기사들은 오히려 직전 실적 발표(2026-07-28, 8-K item 2.02) 이후 주가가 3.7% 하락했고 Insurance 세그먼트가 경쟁·마진 압박에 직면했다는 부정적 논조를 전했다. 신규 호재성 뉴스나 가이던스 상향 없이 6개월 박스권 내에서 거래량만 튄 사례로 판단된다.",
+        "claims": [
+          {
+            "id": "volume_surge_unexplained",
+            "statement": "2026-09-03 marketbeat 기사는 ACGL 거래량이 전일 대비 46% 급증했다고 보도했으나 구체적 원인(호재)은 제시하지 않았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Arch Capital Group (NASDAQ:ACGL) Sees Large Volume Increase - Still a Buy?",
+                "publisher": "MarketBeat",
+                "url": "https://www.marketbeat.com/instant-alerts/price-arch-capital-group-nasdaq-acgl-sees-large-volume-increase-still-a-buy-2026-09-03/",
+                "date": "2026-09-03",
+                "quote": "3,065,816 shares traded hands during trading, an increase of 46% from the previous session's volume of 2,100,823 shares.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "post_earnings_decline",
+            "statement": "Zacks는 2026-08-27 기사에서 직전 실적 발표 이후 ACGL 주가가 3.7% 하락했다고 전했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Is Arch Capital (ACGL) Down 3.7% Since Last Earnings Report?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/why-arch-capital-acgl-down-37-last-earnings-report",
+                "date": "2026-08-27",
+                "quote": "Why Is Arch Capital (ACGL) Down 3.7% Since Last Earnings Report?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "insurance_margin_pressure",
+            "statement": "Zacks는 2026-08-25 기사에서 ACGL의 Insurance 세그먼트가 경쟁 심화 및 마진 압박에 직면했다고 평가했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ACGL's Insurance Segment Faces Competitive and Margin Pressures",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/acgls-insurance-segment-faces-competitive-and-margin-pressures",
+                "date": "2026-08-25",
+                "quote": "ACGL's Insurance Segment Faces Competitive and Margin Pressures",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "premium_softening",
+            "statement": "Yahoo Finance 기사(Baron Capital 코멘터리 인용)는 손해보험 특정 라인의 요율(premium)이 정체 또는 하락했다고 전했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Flattened Premiums Undermine Arch Capital Group Ltd.'s (ACGL) Consistent Gains",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/flattened-premiums-undermine-arch-capital-135907556.html",
+                "date": "2026-09-03",
+                "quote": "premium prices in certain lines have flattened or declined",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 claim의 statement가 source의 quote 또는 title과 정확히 일치. 날짜(2026-09-03, 2026-08-27, 2026-08-25), 수치(46%, 3.7%), 주요 사실(거래량 증가, 주가 하락, 마진 압박) 모두 검증됨. Category 6은 구체적 호재 없이 거래량만 급증한 사례를 정확히 분류."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-10",
+        "carried": false
       }
     },
     {
@@ -2397,9 +2462,8 @@ window.TEAM4_DATA = {
         "rangePct": 98.12
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -2450,9 +2514,8 @@ window.TEAM4_DATA = {
         "rangePct": 22.61
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -2503,9 +2566,8 @@ window.TEAM4_DATA = {
         "rangePct": 28.58
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -2556,9 +2618,8 @@ window.TEAM4_DATA = {
         "rangePct": 32.6
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -2609,9 +2670,8 @@ window.TEAM4_DATA = {
         "rangePct": 40.16
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -2662,9 +2722,8 @@ window.TEAM4_DATA = {
         "rangePct": 202.42
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -2715,9 +2774,8 @@ window.TEAM4_DATA = {
         "rangePct": 67.59
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -2768,9 +2826,8 @@ window.TEAM4_DATA = {
         "rangePct": 184.47
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -2821,9 +2878,8 @@ window.TEAM4_DATA = {
         "rangePct": 31.18
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -2874,9 +2930,8 @@ window.TEAM4_DATA = {
         "rangePct": 70.06
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -3048,9 +3103,8 @@ window.TEAM4_DATA = {
         "rangePct": 42.21
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -3101,9 +3155,8 @@ window.TEAM4_DATA = {
         "rangePct": 43.86
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -3154,9 +3207,8 @@ window.TEAM4_DATA = {
         "rangePct": 63.24
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -3207,9 +3259,8 @@ window.TEAM4_DATA = {
         "rangePct": 128.32
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -3260,9 +3311,8 @@ window.TEAM4_DATA = {
         "rangePct": 38.21
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -3325,9 +3375,8 @@ window.TEAM4_DATA = {
         "score": 0
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -3378,9 +3427,8 @@ window.TEAM4_DATA = {
         "rangePct": 66.66
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -3431,9 +3479,8 @@ window.TEAM4_DATA = {
         "rangePct": 30.01
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -3484,9 +3531,8 @@ window.TEAM4_DATA = {
         "rangePct": 175.33
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -3537,9 +3583,8 @@ window.TEAM4_DATA = {
         "rangePct": 156.43
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -3590,9 +3635,8 @@ window.TEAM4_DATA = {
         "rangePct": 89.23
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -3643,9 +3687,8 @@ window.TEAM4_DATA = {
         "rangePct": 32.29
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -3691,9 +3734,8 @@ window.TEAM4_DATA = {
         "bars": 67
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -3744,9 +3786,8 @@ window.TEAM4_DATA = {
         "rangePct": 64.5
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -3797,9 +3838,8 @@ window.TEAM4_DATA = {
         "rangePct": 234.47
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -3850,9 +3890,8 @@ window.TEAM4_DATA = {
         "rangePct": 207.42
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -3915,9 +3954,8 @@ window.TEAM4_DATA = {
         "score": 0
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     }
   ],
@@ -3939,14 +3977,14 @@ window.TEAM4_DATA = {
     "SMCIP"
   ],
   "research_coverage": {
-    "done": 14,
+    "done": 15,
     "total": 55,
-    "cap": null,
-    "pending": 1,
+    "cap": 1,
+    "pending": 0,
     "failed": 0,
     "carried": 14,
     "ineligible": 40,
-    "note": "55종목 중 14종목을 조사했습니다. 그중 14종목은 최근 조사분을 이월했습니다(조사일 표기). 40종목은 셋업·거래량 기준 미달로 조사 대상이 아닙니다. 나머지 1종목은 상한(?) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
+    "note": "55종목 중 15종목을 조사했습니다. 그중 14종목은 최근 조사분을 이월했습니다(조사일 표기). 40종목은 셋업·거래량 기준 미달로 조사 대상이 아닙니다. 자금이 들어오는 업종 · 거래대금 급증 순으로 우선 조사합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -3973,5 +4011,19 @@ window.TEAM4_DATA = {
     ],
     "caution": "이 분류는 제공된 claims 텍스트만을 근거로 한 것으로 웹검색 등 별도 검증을 거치지 않았다. corrected=false로 표시된 항목들도 아직 사실관계 재확인이 완료된 상태가 아니므로 원문 오류나 왜곡 가능성을 배제할 수 없다. TTAN처럼 동일 카테고리 내에서도 매출은 서프라이즈, 가이던스는 실망이라는 상반된 신호가 공존하는 경우가 있어 카테고리 라벨 하나로 방향성을 단정하면 안 된다. 카테고리 6(무뉴스 이상거래량)은 '뉴스가 없다'는 것이 실제로 촉매가 전무하다는 의미가 아니라 제공된 자료 범위에서 확인되지 않았다는 의미일 뿐이며, MOG.B처럼 근거 자체가 부재한 티커도 포함되어 있어 해당 종목의 거래량 이상 원인은 별도 확인이 필요하다. watchList는 claims에 등장한 '이동평균선 돌파'·'베이스 돌파' 등 기술적 문구만으로 추출한 것으로, 6개월 횡보 여부를 직접 확인한 근거는 원문에 명시돼 있지 않아 참고용으로만 활용해야 한다.",
     "researchedOn": "2026-09-09"
+  },
+  "llm": {
+    "highlights": [],
+    "sectorSignal": "오늘 입력된 후보는 ACGL(category 6, 암묵적 이상거래량) 1건뿐이며, category 1(어닝 서프라이즈/가이던스 상향) 또는 category 5(산업 기술 돌파)에 해당하는 티커는 없습니다. 따라서 하이라이트 대상 자체가 없고, 섹터 쏠림을 논할 만한 표본도 없습니다(단일 종목·보험 섹터뿐이며 이마저 호재성 촉매가 아님).",
+    "watchList": [],
+    "caution": "1) 오늘 입력에는 category 1·5 종목이 하나도 없어 highlights는 공란입니다 — 이는 실제 시장에 어닝/기술 촉매가 없었다는 뜻이 아니라, 제공된 스크리닝 결과에 그런 종목이 포함되지 않았다는 의미로만 해석해야 합니다. 2) ACGL은 category 6(뉴스 부재 상태의 거래량 급증, 2026-09-03 전일比 +46%)로 분류되어 있으나, 함께 제시된 사실관계는 오히려 부정적 방향입니다: 직전 실적 발표 후 주가 -3.7%(Zacks, 2026-08-27), Insurance 세그먼트 경쟁 심화·마진 압박(Zacks, 2026-08-25), 손해보험 특정 라인 요율 정체·하락(Yahoo Finance, Baron Capital 코멘터리). 거래량 급증의 원인이 명시되지 않은 만큼 공매도·기관 리밸런싱 등 비호재성 요인 가능성도 배제할 수 없어, 이 데이터만으로 매수 촉매로 단정하기는 위험합니다. 3) watchList(6개월 횡보 후 돌파·리테스트)를 판단할 가격 히스토리 데이터가 입력에 전혀 없어 공란으로 두었으며, 임의로 종목을 채우지 않았습니다.",
+    "researchedOn": "2026-09-10"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 3,
+    "2": 3,
+    "5": 1,
+    "6": 8
   }
 };

@@ -1,0 +1,190 @@
+{
+ "ticker": "INBX",
+ "sector": "Healthcare",
+ "industry": "Biotechnology",
+ "nameKo": "인히브릭스 바이오사이언시스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": -100,
+  "saleNy": 0,
+  "epsCy": 2.38,
+  "epsNy": -5.35,
+  "est": {
+   "cyCur": -9.255,
+   "cy30": -9.26,
+   "nyCur": -8.76,
+   "ny30": -6.3
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    "적자확대",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": null,
+   "updated": "2026-09-09 07:27:47"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-08-25",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 9,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-04",
+  "nameKo": "인히브릭스 바이오사이언시스",
+  "nameEn": "INHIBRX BIOSCIENCES  INC.",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002007919&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 0,
+     "profit": -32149000,
+     "netIncome": -36650000,
+     "margin": null,
+     "yoy": {
+      "revenue": -100,
+      "profit": -17.4,
+      "netIncome": -27.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 0,
+     "profit": -30923000,
+     "netIncome": -32834000,
+     "margin": null,
+     "yoy": {
+      "revenue": -100,
+      "profit": 38.1,
+      "netIncome": 31.4,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 0,
+     "profit": -33812000,
+     "netIncome": -35256000,
+     "margin": null,
+     "yoy": {
+      "revenue": null,
+      "profit": 27.7,
+      "netIncome": 19.6,
+      "priorEnd": "2024-09-30"
+     }
+    },
+    {
+     "periodEnd": "2025-06-30",
+     "derived": false,
+     "revenue": 1300000,
+     "profit": -27389000,
+     "netIncome": -28654000,
+     "margin": -2106.8,
+     "yoy": {
+      "revenue": 1200,
+      "profit": 83,
+      "netIncome": -101.5,
+      "priorEnd": "2024-06-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": []
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-13",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000044/inhibrx-20260813.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-16",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "3.02",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000037/inhibrx-20260715.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-15",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000033/inhibrx-20260615.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-03",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000030/inhibrx-20260603.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-14",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000028/inhibrx-20260514.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-11",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2007919/000200791926000020/inhibrx-20260511.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}
