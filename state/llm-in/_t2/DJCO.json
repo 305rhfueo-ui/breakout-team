@@ -1,0 +1,220 @@
+{
+ "ticker": "DJCO",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "데일리 저널",
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "est": {
+   "cyCur": null,
+   "cy30": null,
+   "nyCur": null,
+   "ny30": null
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    15.25,
+    24.98,
+    10.36
+   ],
+   "ni": [
+    -175.51,
+    -177.55,
+    -173.22
+   ],
+   "opm": [
+    19.52,
+    13.16,
+    2.44
+   ],
+   "updated": "2026-09-08 07:29:13"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-09-10",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-11",
+  "nameKo": "데일리 저널",
+  "nameEn": "DAILY JOURNAL CO",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000783412&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 26976000,
+     "profit": 5267000,
+     "netIncome": -10889000,
+     "margin": 19.5,
+     "yoy": {
+      "revenue": 15.3,
+      "profit": 63.4,
+      "netIncome": -175.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 22717000,
+     "profit": 2989000,
+     "netIncome": -34640000,
+     "margin": 13.2,
+     "yoy": {
+      "revenue": 25,
+      "profit": 210.4,
+      "netIncome": -177.5,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 19538000,
+     "profit": 477000,
+     "netIncome": -7977000,
+     "margin": 2.4,
+     "yoy": {
+      "revenue": 10.4,
+      "profit": -35.7,
+      "netIncome": -173.2,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": true,
+     "revenue": 28414000,
+     "profit": 4599000,
+     "netIncome": 42151000,
+     "margin": 16.2,
+     "yoy": {
+      "revenue": 43,
+      "profit": 166.8,
+      "netIncome": 57.7,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "DJCO Incurs Q3 Loss Due to Higher Costs, Weak Traditional Unit",
+     "url": "https://www.nasdaq.com/articles/djco-incurs-q3-loss-due-higher-costs-weak-traditional-unit",
+     "date": "2026-08-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Daily Journal Incurs Q2 Loss Due to Investment Losses, Rising Costs",
+     "url": "https://www.nasdaq.com/articles/daily-journal-incurs-q2-loss-due-investment-losses-rising-costs",
+     "date": "2026-05-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Notable Two Hundred Day Moving Average Cross - DJCO",
+     "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-djco",
+     "date": "2026-03-16",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "DJCO Stock Up 2% Despite Incurring Q1 Loss Due to Rising Costs",
+     "url": "https://www.nasdaq.com/articles/djco-stock-2-despite-incurring-q1-loss-due-rising-costs",
+     "date": "2026-02-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Zacks Investment Ideas feature highlights Motorsport and Daily Journal",
+     "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-motorsport-and-daily-journal",
+     "date": "2026-01-27",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/783412/000143774926027322/djco20260610_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-14",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/783412/000143774926017058/djco20260505_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-25",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/783412/000143774926005590/djco20260224_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-17",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/783412/000143774926004210/djco20260212_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-05",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/783412/000143774926003058/djco20260205_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-12-29",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/783412/000143774925038860/djco20251228_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

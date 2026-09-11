@@ -1,0 +1,168 @@
+{
+ "ticker": "AVAV",
+ "news": [
+  {
+   "title": "AeroVironment (AVAV) Q1 2027 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/aerovironment-avav-q1-2027-earnings-call-transcript",
+   "date": "2026-09-10",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "AVAV Q1 Earnings Call Centers on LOCUST Scale-Up & Second-Half Ramp-Up",
+   "url": "https://www.nasdaq.com/articles/avav-q1-earnings-call-centers-locust-scale-second-half-ramp",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Compared to Estimates, AeroVironment (AVAV) Q1 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-aerovironment-avav-q1-earnings-look-key-metrics",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "AeroVironment (AVAV) Q1 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/aerovironment-avav-q1-earnings-and-revenues-top-estimates",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-09",
+   "reportDate": "2026-09-09",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926106304/avav-20260909x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-07",
+   "reportDate": "2026-08-03",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926092413/tm2622497d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-23",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926087871/tm2621437d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-29",
+   "reportDate": "2026-06-29",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926078824/avav-20260629x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-25",
+   "reportDate": "2026-06-24",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926077575/tm2618946d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-22",
+   "reportDate": "2026-06-16",
+   "items": [
+    "4.02",
+    "5.02"
+   ],
+   "itemsKo": [
+    "4.02",
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926076140/avav-20260616x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 10.8,
+  "saleNy": 15.36,
+  "epsCy": -2.77,
+  "epsNy": 36.44,
+  "cyTrend": -0.72,
+  "nyTrend": -0.3,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    133.27,
+    143.41,
+    150.72
+   ],
+   "ni": [
+    279.1,
+    "적자확대",
+    -326.74
+   ],
+   "opm": [
+    8.87,
+    -65.79,
+    -6.4
+   ],
+   "updated": "2026-09-06 06:29:03"
+  }
+ }
+}

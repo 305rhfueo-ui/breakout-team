@@ -1,0 +1,239 @@
+{
+ "ticker": "SYRE",
+ "sector": "Healthcare",
+ "industry": "Biotechnology",
+ "nameKo": "스파이어 테라퓨틱스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0,
+  "saleNy": 0,
+  "epsCy": 45.63,
+  "epsNy": 22.19,
+  "est": {
+   "cyCur": -2.88341,
+   "cy30": -2.82776,
+   "nyCur": -3.52321,
+   "ny30": -3.28374
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    "적자축소",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": null,
+   "updated": "2026-09-10 05:55:38"
+  },
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-09-10"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 1
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-11",
+  "nameKo": "스파이어 테라퓨틱스",
+  "nameEn": "SPYRE THERAPEUTICS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001636282&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2024-12-31",
+     "derived": true,
+     "revenue": 0,
+     "profit": -61253000,
+     "netIncome": -56296000,
+     "margin": null,
+     "yoy": {
+      "revenue": null,
+      "profit": -33.4,
+      "netIncome": 10.9,
+      "priorEnd": "2023-12-31"
+     }
+    },
+    {
+     "periodEnd": "2024-09-30",
+     "derived": false,
+     "revenue": 0,
+     "profit": -55392000,
+     "netIncome": -69028000,
+     "margin": null,
+     "yoy": {
+      "revenue": null,
+      "profit": -202.1,
+      "netIncome": -72.1,
+      "priorEnd": "2023-09-30"
+     }
+    },
+    {
+     "periodEnd": "2024-06-30",
+     "derived": false,
+     "revenue": 0,
+     "profit": -44147000,
+     "netIncome": -38837000,
+     "margin": null,
+     "yoy": {
+      "revenue": -100,
+      "profit": 72.3,
+      "netIncome": 82.1,
+      "priorEnd": "2023-06-30"
+     }
+    },
+    {
+     "periodEnd": "2024-03-31",
+     "derived": false,
+     "revenue": 0,
+     "profit": -47774000,
+     "netIncome": -43857000,
+     "margin": null,
+     "yoy": {
+      "revenue": -100,
+      "profit": -154,
+      "netIncome": -138.1,
+      "priorEnd": "2023-03-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Spyre Therapeutics Reports Positive Phase 2 SPY003 Data In Ulcerative Colitis",
+     "url": "https://www.nasdaq.com/articles/spyre-therapeutics-reports-positive-phase-2-spy003-data-ulcerative-colitis",
+     "date": "2026-09-08",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Spyre Therapeutics (SYRE) Down 16.6% Since Last Earnings Report: Can It Rebound?",
+     "url": "https://www.nasdaq.com/articles/spyre-therapeutics-syre-down-166-last-earnings-report-can-it-rebound",
+     "date": "2026-09-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Spyre's SPY072 Shows Mixed Efficacy In Phase 2 RA Study, Fails Internal Bar For Monotherapy",
+     "url": "https://www.nasdaq.com/articles/spyres-spy072-shows-mixed-efficacy-phase-2-ra-study-fails-internal-bar-monotherapy",
+     "date": "2026-08-26",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Is SYRE a Buy Now as Clinical Catalysts Clash With Valuation Risk?",
+     "url": "https://www.nasdaq.com/articles/syre-buy-now-clinical-catalysts-clash-valuation-risk",
+     "date": "2026-08-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can Spyre's SPY772 HS Study Broaden Its Growth Story Beyond Core IBD?",
+     "url": "https://www.nasdaq.com/articles/can-spyres-spy772-hs-study-broaden-its-growth-story-beyond-core-ibd",
+     "date": "2026-08-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "SYRE Rallies 44.9% in 3 Months. Can Clinical Catalysts Sustain It?",
+     "url": "https://www.nasdaq.com/articles/syre-rallies-449-3-months-can-clinical-catalysts-sustain-it",
+     "date": "2026-08-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Spyre's CEO Sold Stock, but Kept 567,000 Shares. Here's What Long-Term Investors Should Know",
+     "url": "https://www.nasdaq.com/articles/spyres-ceo-sold-stock-kept-567000-shares-heres-what-long-term-investors-should-know",
+     "date": "2026-08-06",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "A Spyre Executive Sold Stock After a 500% Run. Here's What Long-Term Investors Should Know",
+     "url": "https://www.nasdaq.com/articles/spyre-executive-sold-stock-after-500-run-heres-what-long-term-investors-should-know",
+     "date": "2026-08-06",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-08",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000113/syre-20260908.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-25",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000105/syre-20260825.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000098/syre-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-15",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000083/syre-20260615.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-01",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000075/syre-20260529.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-29",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1636282/000163628226000056/syre-20260527.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

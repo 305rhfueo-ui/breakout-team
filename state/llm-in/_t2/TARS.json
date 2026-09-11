@@ -1,0 +1,245 @@
+{
+ "ticker": "TARS",
+ "sector": "Healthcare",
+ "industry": "Biotechnology",
+ "nameKo": "타서스 파머슈티컬스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 58.38,
+  "saleNy": 27.34,
+  "epsCy": 31.87,
+  "epsNy": -215.23,
+  "est": {
+   "cyCur": -2.09667,
+   "cy30": -2.132,
+   "nyCur": 2.416,
+   "ny30": 2.192
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    69.41,
+    106.87,
+    128.39
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    -11.45,
+    -3.78,
+    -5.26
+   ],
+   "updated": "2026-09-08 07:32:12"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-09-02",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 5,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-11",
+  "nameKo": "타서스 파머슈티컬스",
+  "nameEn": "TARSUS PHARMACEUTICALS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819790&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 173912000,
+     "profit": -19908000,
+     "netIncome": -18551000,
+     "margin": -11.4,
+     "yoy": {
+      "revenue": 69.4,
+      "profit": 10.3,
+      "netIncome": 8.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 162054000,
+     "profit": -6122000,
+     "netIncome": -6967000,
+     "margin": -3.8,
+     "yoy": {
+      "revenue": 106.9,
+      "profit": 76.7,
+      "netIncome": 72.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 151668000,
+     "profit": -7976000,
+     "netIncome": -7955000,
+     "margin": -5.3,
+     "yoy": {
+      "revenue": 128.4,
+      "profit": 67.3,
+      "netIncome": 66.2,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 118697000,
+     "profit": -14529000,
+     "netIncome": -12585000,
+     "margin": -12.2,
+     "yoy": {
+      "revenue": 146.7,
+      "profit": 42.3,
+      "netIncome": 46.3,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Tarsus Pharmaceuticals Completes Alkeus Acquisition; Adds Phase 3 Stargardt Disease Program",
+     "url": "https://www.nasdaq.com/articles/tarsus-pharmaceuticals-completes-alkeus-acquisition-adds-phase-3-stargardt-disease-program",
+     "date": "2026-09-04",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Tarsus (TARS) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/tarsus-tars-q2-2026-earnings-call-transcript",
+     "date": "2026-08-13",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Tarsus Pharmaceuticals Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/tarsus-pharmaceuticals-q2-earnings-call-highlights",
+     "date": "2026-08-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Tarsus Pharmaceuticals To Acquire Alkeus Pharmaceuticals",
+     "url": "https://www.nasdaq.com/articles/tarsus-pharmaceuticals-acquire-alkeus-pharmaceuticals",
+     "date": "2026-08-06",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Tarsus Pharmaceuticals, Inc. (TARS) Reports Q2 Loss, Tops Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/tarsus-pharmaceuticals-inc-tars-reports-q2-loss-tops-revenue-estimates",
+     "date": "2026-08-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Tarsus Pharmaceuticals, Inc. (TARS) May Report Negative Earnings: Know the Trend Ahead of Q2 Release",
+     "url": "https://www.nasdaq.com/articles/tarsus-pharmaceuticals-inc-tars-may-report-negative-earnings-know-trend-ahead-q2-release",
+     "date": "2026-07-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Tarsus Pharmaceuticals Enters Retina Market With iRenix Deal, Adds IRX-101 to Pipeline",
+     "url": "https://www.nasdaq.com/articles/tarsus-pharmaceuticals-enters-retina-market-irenix-deal-adds-irx-101-pipeline",
+     "date": "2026-07-11",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Tarsus Acquires IRenix In $75 Mln Deal; Plans To Advance IRX-101 Into Phase 3 In H1 2027",
+     "url": "https://www.nasdaq.com/articles/tarsus-acquires-irenix-75-mln-deal-plans-advance-irx-101-phase-3-h1-2027",
+     "date": "2026-07-09",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-10",
+    "itemsKo": [
+     "2.01",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1819790/000181979026000066/tars-20260904.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1819790/000181979026000063/tars-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "중요 계약 체결",
+     "3.02",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1819790/000181979026000062/tars-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "중요 계약 체결",
+     "3.02",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1819790/000181979026000060/tars-20260731.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-13",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1819790/000181979026000048/tars-20260713.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-08",
+    "itemsKo": [
+     "중요 계약 체결",
+     "3.02",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1819790/000181979026000046/tars-20260706.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

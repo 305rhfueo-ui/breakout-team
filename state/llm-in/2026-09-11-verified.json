@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-11",
+  "report": {
+    "checked": 99,
+    "ok": 106,
+    "unverified": 21,
+    "dead": 1,
+    "stripped": 1,
+    "removed": [
+      {
+        "reason": "중복",
+        "url": "https://www.globenewswire.com/news-release/2026/08/12/3344108/26116/en/daily-journal-corporation-announces-third-quarter-and-first-nine-months-fiscal-2026-financial-results.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.globenewswire.com/news-release/2026/08/12/3344108/26116/en/daily-journal-corporation-announces-third-quarter-and-first-nine-months-fiscal-2026-financial-results.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.theglobeandmail.com/investing/markets/stocks/DJCO/pressreleases/3936458/djco-incurs-q3-loss-due-to-higher-costs-weak-traditional-unit/"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.theglobeandmail.com/investing/markets/stocks/DJCO/pressreleases/3936458/djco-incurs-q3-loss-due-to-higher-costs-weak-traditional-unit/"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/healthcare/articles/syre-rallies-44-9-3-140900299.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/healthcare/articles/syre-rallies-44-9-3-140900299.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.stocktitan.net/sec-filings/TARS/8-k-tarsus-pharmaceuticals-inc-reports-material-event-93f050680b37.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.stocktitan.net/news/TARS/tarsus-pharmaceuticals-announces-oversubscribed-125-0-million-7b0xphvypkl3.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000041/q22026pressrelease.htm"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000041/q22026pressrelease.htm"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.stocktitan.net/news/COO/cooper-companies-announces-third-quarter-2026-t3b98dr77fnq.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.investing.com/news/earnings/cooper-companies-tumbles-on-weak-guidance-strategic-review-conclusion-4894507"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.insidearbitrage.com/2026/09/independence-realty-trust-to-acquire-centerspace-for-2-14-billion/"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.prnewswire.com/news-releases/pampa-energia-announces-six-month-period-and-second-quarter-2026-results-302843004.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.prnewswire.com/news-releases/pampa-energia-announces-six-month-period-and-second-quarter-2026-results-302843004.html"
+      },
+      {
+        "reason": "링크 죽음(HTTP 404)",
+        "url": "https://www.sahmcapital.com/news/content/bladex-announces-new-debt-issuance-in-the-mexican-capital-markets-2026-04-21"
+      }
+    ]
+  }
+}

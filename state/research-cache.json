@@ -138,8 +138,8 @@
       "count": 14
     },
     "OKTA": {
-      "last": "2026-09-07",
-      "count": 7
+      "last": "2026-09-11",
+      "count": 8
     },
     "P": {
       "last": "2026-08-28",
@@ -210,8 +210,8 @@
       "count": 12
     },
     "SNDK": {
-      "last": "2026-09-10",
-      "count": 16
+      "last": "2026-09-11",
+      "count": 17
     },
     "STX": {
       "last": "2026-09-07",
@@ -286,12 +286,12 @@
       "count": 9
     },
     "AEHR": {
-      "last": "2026-08-25",
-      "count": 6
+      "last": "2026-09-11",
+      "count": 7
     },
     "ORKA": {
-      "last": "2026-09-03",
-      "count": 10
+      "last": "2026-09-11",
+      "count": 11
     },
     "NBIS": {
       "last": "2026-09-10",
@@ -414,8 +414,8 @@
       "count": 2
     },
     "SYRE": {
-      "last": "2026-09-01",
-      "count": 5
+      "last": "2026-09-11",
+      "count": 6
     },
     "MU": {
       "last": "2026-09-10",
@@ -438,8 +438,8 @@
       "count": 6
     },
     "MNPR": {
-      "last": "2026-09-10",
-      "count": 6
+      "last": "2026-09-11",
+      "count": 7
     },
     "KNSA": {
       "last": "2026-08-25",
@@ -478,8 +478,8 @@
       "count": 1
     },
     "ANF": {
-      "last": "2026-09-10",
-      "count": 3
+      "last": "2026-09-11",
+      "count": 4
     },
     "FRPT": {
       "last": "2026-08-27",
@@ -494,8 +494,8 @@
       "count": 3
     },
     "XMTR": {
-      "last": "2026-09-03",
-      "count": 2
+      "last": "2026-09-11",
+      "count": 3
     },
     "MSTR": {
       "last": "2026-09-07",
@@ -510,8 +510,8 @@
       "count": 1
     },
     "TARS": {
-      "last": "2026-09-03",
-      "count": 1
+      "last": "2026-09-11",
+      "count": 2
     },
     "AMBQ": {
       "last": "2026-09-07",
@@ -526,8 +526,8 @@
       "count": 1
     },
     "PARR": {
-      "last": "2026-09-10",
-      "count": 2
+      "last": "2026-09-11",
+      "count": 3
     },
     "IREN": {
       "last": "2026-09-09",
@@ -543,6 +543,18 @@
     },
     "DAVE": {
       "last": "2026-09-09",
+      "count": 1
+    },
+    "CRM": {
+      "last": "2026-09-11",
+      "count": 1
+    },
+    "SWKS": {
+      "last": "2026-09-11",
+      "count": 1
+    },
+    "DJCO": {
+      "last": "2026-09-11",
       "count": 1
     }
   },
@@ -739,8 +751,9 @@
       "count": 1
     },
     "WSO.B": {
-      "last": "2026-08-19",
-      "count": 1
+      "last": "2026-09-11",
+      "count": 2,
+      "cat": 6
     },
     "BIDU": {
       "last": "2026-08-19",
@@ -1195,6 +1208,56 @@
       "last": "2026-09-09",
       "count": 1,
       "cat": 6
+    },
+    "COO": {
+      "last": "2026-09-11",
+      "count": 1,
+      "cat": 1
+    },
+    "AVAV": {
+      "last": "2026-09-11",
+      "count": 1,
+      "cat": 1
+    },
+    "SEDG": {
+      "last": "2026-09-11",
+      "count": 1,
+      "cat": 5
+    },
+    "CSR": {
+      "last": "2026-09-11",
+      "count": 1,
+      "cat": 3
+    },
+    "PAM": {
+      "last": "2026-09-11",
+      "count": 1,
+      "cat": 1
+    },
+    "LEN.B": {
+      "last": "2026-09-11",
+      "count": 1,
+      "cat": 6
+    },
+    "UBER": {
+      "last": "2026-09-11",
+      "count": 1,
+      "cat": 5
+    },
+    "BLX": {
+      "last": "2026-09-11",
+      "count": 1,
+      "cat": 6
+    },
+    "CALM": {
+      "last": "2026-09-11",
+      "count": 1,
+      "cat": 6
+    },
+    "BHF": {
+      "last": "2026-09-11",
+      "count": 1,
+      "cat": 6
     }
   },
   "team5": {
@@ -1214,9 +1277,9 @@
       "rankPct6": 2.14
     },
     "Basic Materials|Coking Coal": {
-      "last": "2026-09-07",
-      "count": 1,
-      "rankPct6": 21.43
+      "last": "2026-09-11",
+      "count": 2,
+      "rankPct6": 34.78
     },
     "Healthcare|Biotechnology": {
       "last": "2026-09-07",
@@ -1229,9 +1292,9 @@
       "rankPct6": 2.86
     },
     "Healthcare|Health Information Services": {
-      "last": "2026-09-09",
-      "count": 1,
-      "rankPct6": 10.87
+      "last": "2026-09-11",
+      "count": 2,
+      "rankPct6": 14.49
     }
   }
 }

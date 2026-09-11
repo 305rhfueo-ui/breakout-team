@@ -1,0 +1,61 @@
+{
+ "ticker": "PAM",
+ "news": [
+  {
+   "title": "PAM Crosses Below Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/pam-crosses-below-key-moving-average-level",
+   "date": "2026-07-09",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Pampa Energia Founder Buys 288,000 Shares. Does That Make PAM a Stock to Buy?",
+   "url": "https://www.nasdaq.com/articles/pampa-energia-founder-buys-288000-shares-does-make-pam-stock-buy",
+   "date": "2026-07-01",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "PAM or DTE: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/pam-or-dte-which-better-value-stock-right-now",
+   "date": "2026-06-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wall Street Analysts See a 38.31% Upside in Pampa (PAM): Can the Stock Really Move This High?",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-3831-upside-pampa-pam-can-stock-really-move-high",
+   "date": "2026-06-22",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 41.63,
+  "saleNy": 14.29,
+  "epsCy": 53.88,
+  "epsNy": 11.31,
+  "cyTrend": -0.51,
+  "nyTrend": -3.62,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    53.5,
+    38.41,
+    16.55
+   ],
+   "ni": [
+    330,
+    39.87,
+    53.33
+   ],
+   "opm": [
+    25.2,
+    19.55,
+    10.45
+   ],
+   "updated": "2026-09-08 08:02:59"
+  }
+ }
+}

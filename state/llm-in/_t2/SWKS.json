@@ -1,0 +1,235 @@
+{
+ "ticker": "SWKS",
+ "sector": "Technology",
+ "industry": "Semiconductors",
+ "nameKo": "스카이웍스 솔루션스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": -3.41,
+  "saleNy": 2.29,
+  "epsCy": -14.99,
+  "epsNy": -1.55,
+  "est": {
+   "cyCur": 5.0409,
+   "cy30": 5.04242,
+   "nyCur": 4.96265,
+   "ny30": 4.97325
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -3.13,
+    -1,
+    -3.1
+   ],
+   "ni": [
+    -67.71,
+    -48.18,
+    -51.11
+   ],
+   "opm": [
+    5.19,
+    4.46,
+    10.03
+   ],
+   "updated": "2026-09-08 09:06:18"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-09-10",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-11",
+  "nameKo": "스카이웍스 솔루션스",
+  "nameEn": "SKYWORKS SOLUTIONS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000004127&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-03",
+     "derived": false,
+     "revenue": 934800000,
+     "profit": 48500000,
+     "netIncome": 33900000,
+     "margin": 5.2,
+     "yoy": {
+      "revenue": -3.1,
+      "profit": -56.1,
+      "netIncome": -67.7,
+      "priorEnd": "2025-06-27"
+     }
+    },
+    {
+     "periodEnd": "2026-04-03",
+     "derived": false,
+     "revenue": 943700000,
+     "profit": 42100000,
+     "netIncome": 35600000,
+     "margin": 4.5,
+     "yoy": {
+      "revenue": -1,
+      "profit": -56.7,
+      "netIncome": -48.2,
+      "priorEnd": "2025-03-28"
+     }
+    },
+    {
+     "periodEnd": "2026-01-02",
+     "derived": false,
+     "revenue": 1035400000,
+     "profit": 103800000,
+     "netIncome": 79200000,
+     "margin": 10,
+     "yoy": {
+      "revenue": -3.1,
+      "profit": -42.7,
+      "netIncome": -51.1,
+      "priorEnd": "2024-12-27"
+     }
+    },
+    {
+     "periodEnd": "2025-10-03",
+     "derived": true,
+     "revenue": 1100200000,
+     "profit": 111000000,
+     "netIncome": 141400000,
+     "margin": 10.1,
+     "yoy": {
+      "revenue": 7.3,
+      "profit": 86.9,
+      "netIncome": 133.7,
+      "priorEnd": "2024-09-27"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Skyworks Solutions Takes Over #481 Spot From Pentair",
+     "url": "https://www.nasdaq.com/articles/skyworks-solutions-takes-over-481-spot-pentair",
+     "date": "2026-09-02",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Skyworks (SWKS) Up 8.9% Since Last Earnings Report: Can It Continue?",
+     "url": "https://www.nasdaq.com/articles/skyworks-swks-89-last-earnings-report-can-it-continue",
+     "date": "2026-08-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "SWKS Q3 Earnings Beat on Broad Markets, AI Data Center Growth",
+     "url": "https://www.nasdaq.com/articles/swks-q3-earnings-beat-broad-markets-ai-data-center-growth",
+     "date": "2026-07-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Skyworks Solutions Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/skyworks-solutions-q3-earnings-call-highlights",
+     "date": "2026-07-28",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Skyworks Solutions (SWKS) Q3 Earnings and Revenues Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/skyworks-solutions-swks-q3-earnings-and-revenues-beat-estimates",
+     "date": "2026-07-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Skyworks Solutions Inc. Profit Retreats In Q3",
+     "url": "https://www.nasdaq.com/articles/skyworks-solutions-inc-profit-retreats-q3",
+     "date": "2026-07-28",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Zacks Industry Outlook Highlights Skyworks and RF Industries",
+     "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-skyworks-and-rf-industries",
+     "date": "2026-07-23",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-02",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/4127/000110465926104395/tm2624606d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-10",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/4127/000110465926093355/tm2622643d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-03",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/4127/000110465926089397/tm2621905d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-03",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/4127/000110465926089381/tm2620808d3_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/4127/000000412726000047/swks-20260727.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/4127/000000412726000045/swks-20260728.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

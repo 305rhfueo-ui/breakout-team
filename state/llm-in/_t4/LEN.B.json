@@ -1,0 +1,135 @@
+{
+ "ticker": "LEN.B",
+ "news": [],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-12",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/920760/000119312526268580/d31288d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-11",
+   "reportDate": "2026-06-11",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/920760/000162828026042551/len-20260611.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-08",
+   "reportDate": "2026-06-05",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/920760/000162828026041334/len-20260605.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-13",
+   "reportDate": "2026-04-08",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/920760/000162828026024894/len-20260408.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-12",
+   "reportDate": "2026-03-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/920760/000162828026017308/len-20260312.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-16",
+   "reportDate": "2025-12-16",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/920760/000162828025057408/len-20251216.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -4.94,
+  "saleNy": 3.74,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -5.22,
+    -13.26,
+    -5.82
+   ],
+   "ni": [
+    -36.39,
+    -55.89,
+    -55.2
+   ],
+   "opm": [
+    5.27,
+    3.52,
+    7.12
+   ],
+   "updated": "2026-09-09 07:18:31"
+  }
+ }
+}

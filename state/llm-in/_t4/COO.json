@@ -1,0 +1,152 @@
+{
+ "ticker": "COO",
+ "news": [
+  {
+   "title": "Cooper (COO) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/cooper-coo-q3-2026-earnings-call-transcript",
+   "date": "2026-09-10",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "The Cooper Companies (COO) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/cooper-companies-coo-q3-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "The Cooper Companies (COO) Beats Q3 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/cooper-companies-coo-beats-q3-earnings-estimates",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-09",
+   "reportDate": "2026-09-09",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/711404/000162828026061155/coo-20260909.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-04",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/711404/000162828026040823/coo-20260604.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-05-04",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/711404/000162828026029853/coo-20260504.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-08",
+   "reportDate": "2026-04-07",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/711404/000162828026024273/coo-20260407.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-05",
+   "reportDate": "2026-03-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/711404/000162828026015231/coo-20260305.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-04",
+   "reportDate": "2026-02-03",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/711404/000119312526036476/d24828d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.23,
+  "saleNy": 4.88,
+  "epsCy": 12.29,
+  "epsNy": 7.98,
+  "cyTrend": -0.06,
+  "nyTrend": -0.17,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    7.9,
+    6.16,
+    4.59
+   ],
+   "ni": [
+    -188.83,
+    25.41,
+    -28
+   ],
+   "opm": [
+    -2.87,
+    20.78,
+    13.18
+   ],
+   "updated": "2026-09-08 05:51:29"
+  }
+ }
+}

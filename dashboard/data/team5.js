@@ -521,42 +521,121 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "carried",
+    "status": "done",
     "industries": [
       {
-        "key": "Healthcare|Health Information Services",
-        "industry": "Health Information Services",
-        "lead": "근거 없음 — 출처 검증을 통과한 강세 사유가 없다 (3개 주장 제거: 숫자·날짜가 인용문에 없음)",
+        "key": "Basic Materials|Coking Coal",
+        "industry": "Coking Coal",
+        "lead": "Coking Coal 업종은 미국 대표 프리미엄 야금탄(met coal) 생산업체인 Alpha Metallurgical Resources(AMR) 사실상 단일 종목이 지수를 대표하며, 8월 하순부터 9월 초까지 이사 Courtis의 연속 내부자 매수가 확인되었다.",
         "whyStrong": [
           {
-            "id": "none",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
+            "id": "insider_buying_cluster",
+            "statement": "AMR 이사 Courtis가 8월 25일 약 $1.1M, 9월 10일 약 $2.3M 규모의 자사주를 잇달아 매수했고, 9월 9일자 내부자매수 동향 리포트에도 AMR이 포함돼 약 3주 연속 내부자 매수 뉴스가 확인된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Alpha Metallurgical Resources Director Courtis Buys $2.3 Million Shares. Is it Time for You to Buy Too?",
+                "publisher": "The Motley Fool (via Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/alpha-metallurgical-resources-director-courtis-buys-23-million-shares-it-time-you-buy-too",
+                "date": "2026-09-10",
+                "quote": "Alpha Metallurgical Resources Director Courtis Buys $2.3 Million Shares. Is it Time for You to Buy Too?",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Wednesday 9/9 Insider Buying Report: INBX, AMR",
+                "publisher": "BNK Invest (via Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/wednesday-9-9-insider-buying-report-inbx-amr",
+                "date": "2026-09-09",
+                "quote": "Wednesday 9/9 Insider Buying Report: INBX, AMR",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Alpha Metallurgical Director Courtis Keeps Buying as He Adds Another $1.1 Million Shares",
+                "publisher": "The Motley Fool (via Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/alpha-metallurgical-director-courtis-keeps-buying-he-adds-another-11-million-shares",
+                "date": "2026-08-25",
+                "quote": "Alpha Metallurgical Director Courtis Keeps Buying as He Adds Another $1.1 Million Shares",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
           }
         ],
-        "driver": "earnings",
+        "driver": "commodity",
         "durability": "cyclical",
         "keyStocks": [
-          "DOCS",
-          "HQY",
-          "OMCL",
-          "CERT"
+          "AMR"
         ],
-        "risk": "이 강세는 개별 기업의 분기 실적·가이던스 이벤트에 크게 의존하므로, 다음 실적 시즌에 Doximity 의 AI Search 매출 기여가 가이던스에 본격 반영되지 못하거나 HealthEquity·Omnicell 이 가이던스를 재차 상향하지 못하면 모멘텀이 꺾일 수 있다. 실제로 Certara 는 2026년 2분기 순손실이 확대되고 리더십 교체가 겹쳤고, Omnicell 은 컨센서스를 상회하고도 예약 가이던스 하단 확대와 일회성 관세 환급 이슈로 주가가 13.49% 하락한 바 있어 업종 내 실적 반응이 균질하지 않다. Node 지표상으로도 25거래일 기준 Final_WRS 순위변동이 -9, F25d 가 -5.51%로 최근 상대강도가 되돌림에 들어갔고(국면 ❄️ 조정 중), 200일선 이격 중앙값도 25거래일간 -5.24%p 축소돼 단기 과열 해소가 진행 중인지 확인이 필요하다. 상향 컨센서스 비율(65.8%, n=284)이 추가로 낮아지거나 다음 분기 가이던스가 하향 조정되면 이 업종의 RS 우위는 되돌려질 가능성이 높다.",
+        "risk": "당해/차기연도 컨센서스 변화 중앙값이 각각 -85.585%/-19.175%이고 상향 비율은 20.83%(n=24), 승률은 1%에 불과해 실적 전망은 여전히 강하게 하향 조정되는 국면이므로, 현재의 RS 강세는 이익 개선이 아니라 가격·수급 모멘텀과 내부자 매수 심리에 크게 의존하고 있다. 50일선 이격 중앙값 18.95%, 200일선 이격 중앙값 14.515%(25거래일 기준 +30.91%p 확대)로 단기 과열 구간에 진입해 있어, 코킹콜 현물가격이 조정되거나 산시성 광산 가동 재개(6월 17일 기준 63% 복귀)가 더 빨라져 공급이 정상화되면 최근 가격 급등분이 되돌려질 수 있다. AMR 자체가 FY2025 순손실 -$61.7M, 희석EPS -$4.75로 여전히 적자인 만큼, 야금탄 가격 추가 하락이나 중국 조강생산 회복세 둔화가 확인되면 현재의 밸류에이션 재평가 논리는 약화된다. 확인할 조건은 코킹콜 스팟가격 추세의 지속 여부, 중국 코킹콜 수입·핫메탈 생산 후속 데이터, 내부자 매수의 추가 지속 여부, 컨센서스 상향 비율(현재 20.83%)의 반등 여부다.",
         "factcheck": {
-          "verdict": "reject",
+          "verdict": "partial",
           "removed": [
-            "doximity-ai-search",
-            "healthequity-guidance-raise",
-            "omnicell-earnings-beat"
+            "china_shanxi_supply_disruption",
+            "china_import_hotmetal_recovery",
+            "amr_fundamentals_rerating"
           ],
           "reason": "",
           "leadFixed": true
         },
-        "leadOriginal": "Health Information Services 업종은 원격의료 플랫폼(Doximity), HSA 관리(HealthEquity), 조제자동화(Omnicell) 등 6개 종목으로 구성되며, 2026년 8월 실적시즌에 걸쳐 개별 종목의 AI 매출 기여·가이던스 상향이 집중되며 3개월 WRS 상위 1.45%까지 랭크됐다. Doximity 는 AI Search·Scribe 채택 확대를 근거로 FY27 매출 가이던스를 상향했고, HealthEquity 는 HSA 계좌 증가와 마진 확대로 FY27 매출·EBITDA 가이던스를 동시에 올렸으며, Omnicell 도 컨센서스를 상회하고 FY26 가이던스를 상향했다. 다만 이 강세는 개별 기업 실적 이벤트에 집중돼 업종 전반의 동시다발적 리레이팅으로 보기는 이르다.",
-        "researchedOn": "2026-09-09",
-        "carried": true
+        "leadOriginal": "Coking Coal 업종은 미국 대표 프리미엄 야금탄(met coal) 생산업체인 Alpha Metallurgical Resources(AMR) 사실상 단일 종목이 지수를 대표하며, WRS 1개월이 상위 0.72%로 급등해 국면상 상승 초입에 진입했다. 8월 하순부터 9월 초까지 이어진 이사 Courtis의 연속 내부자 매수와, 5월 말 중국 산시성 광산사고 이후 공급 차질에 따른 코킹콜 현물가 급등·수입 수요 회복이 겹치며 단기 자금흐름 순위(FRANK)가 25거래일 만에 +42 급상승했다. 다만 3개월·6개월 WRS는 각각 상위 18.84%·34.78%로 중위권에 머물러 있어, 최근 1개월의 급격한 순위 상승이 신호의 핵심축이다.",
+        "researchedOn": "2026-09-11",
+        "carried": false
+      },
+      {
+        "driver": "technology",
+        "durability": "structural",
+        "industry": "Health Information Services",
+        "key": "Healthcare|Health Information Services",
+        "keyStocks": [
+          "VEEV",
+          "DOCS",
+          "HQY",
+          "OMCL",
+          "CERT",
+          "TDOC"
+        ],
+        "lead": "Health Information Services는 생명과학기업·의료기관 대상 클라우드 소프트웨어 및 헬스케어 데이터 분석을 제공하는 업종이다. 업종 내 최대 시가총액주인 VEEV(Veeva Systems)가 2026회계연도 2분기(8월 26일 발표) 매출 9.28억달러(YoY +18%)로 컨센서스를 상회하고 연간 가이던스를 상향했다.",
+        "risk": "Final_WRS 순위가 25거래일 새 7계단 하락(23위)했고 F10d -6.33%로 최근 10거래일간 상대강도 스코어가 약화되는 가운데, 50일선 이격 중앙값 -5.47%로 단기 조정 국면(❄️)에 진입했고 자금흐름도 outflow로 전환됐다 — 이 흐름이 추가 악화돼 200일선 이격(현재 +15.11%, 25거래일간 -5.715%p 축소)마저 훼손되면 3개월 구간의 상대강도 우위는 기술적으로 붕괴된 것으로 봐야 한다. VEEV의 다음 분기 실적에서 Vault CRM 신규 고객 확보 속도나 상업용 구독매출 성장률(현재 가이던스 YoY 약 13%)이 둔화되면 밸류에이션 프리미엄의 근거가 약화된다. DOCS의 AI Search 수익성(CEO가 언급한 운영비 대비 10배 수익) 주장이 다음 분기 매출·조정 EBITDA 지표(가이던스 중간값 3.19억달러)로 재확인되지 않으면 AI 수익화 스토리에 대한 재평가가 필요하다. 컨센서스 상향 비율(65.84%, n=284)과 승률(83.33%)이 반락 전환되는지가 구조적 강세 지속 여부를 가르는 확인 지표다.",
+        "whyStrong": [
+          {
+            "id": "veev-q2fy27-beat-guide-up",
+            "statement": "VEEV(Veeva Systems)는 2026회계연도 2분기(8월 26일 발표) 매출 9.28억달러, 비GAAP 영업이익 4.16억달러(영업이익률 44%대)로 컨센서스를 상회했고 연간 가이던스를 상향했다. Vault CRM 신규 고객으로 Eli Lilly, Biogen, Regeneron을 확보해 상위 20개 제약사 중 12곳이 Vault CRM으로 전환했다고 밝혔으며, 실적 발표 후 시간외 주가는 9.43% 상승해 268달러를 기록했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Earnings call transcript: Veeva Systems tops Q2 2026 estimates, shares jump after hours",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-veeva-systems-tops-q2-2026-estimates-shares-jump-after-hours-93CH-4878039",
+                "date": "2026-08-26",
+                "quote": "Veeva Systems reported fiscal 2027 second-quarter revenue of $928 million and non-GAAP operating income of $416 million, with results exceeding the company's guidance. This represented 18% year-over-year growth while maintaining robust operating margins above 44%.",
+                "verified": "unverified",
+                "httpStatus": 403
+              },
+              {
+                "title": "Veeva Q2'27 slides: revenue beats drive raised guidance, margins hold",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/company-news/veeva-q227-slides-revenue-beats-drive-raised-guidance-margins-hold-93CH-4878052",
+                "date": "2026-08-26",
+                "quote": "Management raised its full-year outlook, with commercial subscription revenue up approximately 13% year over year. The company highlighted record performance in CRM, where it won new business from Eli Lilly, Biogen and Regeneron. The quarter brought the total to 12 of the top 20 companies committed to Vault CRM. The strong results drove shares up 9.43% to $268 in after-hours trading.",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "docs-ai-search-margin-surge"
+          ],
+          "reason": "",
+          "leadFixed": true
+        },
+        "leadOriginal": "Health Information Services는 생명과학기업·의료기관 대상 클라우드 소프트웨어 및 헬스케어 데이터 분석을 제공하는 업종으로, 3개월 WRS 기준 전체 업종 중 상위 1.45%의 초과수익을 기록했다. 업종 내 최대 시가총액주인 VEEV(Veeva Systems)가 2026회계연도 2분기(8월 26일 발표) 매출 9.28억달러(YoY +18%)로 컨센서스를 상회하고 연간 가이던스를 상향했으며, DOCS(Doximity)는 신규 AI Search 도구의 높은 운영 수익성이 부각되며 실적 발표 직후 주가가 급등했다. 두 대형주의 AI 수익화(monetization) 스토리가 확인되며 업종 전체의 3개월 상대강도 우위를 견인한 것으로 파악된다.",
+        "researchedOn": "2026-09-11",
+        "carried": false
       },
       {
         "key": "Technology|Computer Hardware",
@@ -741,81 +820,6 @@ window.TEAM5_DATA = {
           "leadFixed": true
         },
         "leadOriginal": "Oil & Gas Refining & Marketing 업종은 정제마진(크랙 스프레드) 급등을 배경으로 WRS 1개월 0.2615(상위 0.71%)·3개월 0.4348(상위 0.71%)·6개월 0.6(상위 2.14%)의 초과수익률을 기록했다. 업종 대표주로 선정된 PARR은 2026년 2분기 정제 부문 마진과 순이익이 전년동기 대비 급증하는 실적을 냈고, 업종 전반의 벤치마크인 WTI 3-2-1 크랙 스프레드도 연초 대비 약 3배인 배럴당 $59 수준까지 상승했다. 다만 Final_WRS 순위는 6위로 25거래일 전보다 3계단 하락했으며 국면은 '후반 가속'으로 표시된다.",
-        "researchedOn": "2026-09-07",
-        "carried": true
-      },
-      {
-        "key": "Basic Materials|Coking Coal",
-        "industry": "Coking Coal",
-        "lead": "코킹콜(제철용 원료탄) 업종은 미국 상장 구성종목이 AMR 등 단 2개뿐인 협소한 업종으로, 최근 강세는 업종 전체의 펀더멘털 개선보다 AMR 한 종목의 이벤트에 좌우되고 있다. 이사진의 8월 말 사흘간 3건·총 약 720만 달러 규모 장내 매수, 2026년 물량의 48%·부산물 전량에 대한 계약가격 확정(국내 톤당 136.38달러, 수출 톤당 127.02달러), 2022년 이후 발행주식을 약 32% 축소한 자사주 매입 이력이 겹치며 Final_WRS 순위가 25거래일간 47계단 상승했다. 다만 주가는 최근 30거래일 급등에도 1년 기준으로는 여전히 마이너스이며 밸류에이션은 DCF 공정가치에 근접한 수준이다.",
-        "whyStrong": [
-          {
-            "id": "insider-buying",
-            "statement": "AMR 이사(Director) Courtis가 2026년 8월 22일부터 25일까지 사흘간 3건, 각각 110만 달러·290만 달러·320만 달러 규모의 자사주를 장내 매수했다(총 약 720만 달러).",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Alpha Metallurgical Director Courtis Keeps Buying as He Adds Another $1.1 Million Shares",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/alpha-metallurgical-director-courtis-keeps-buying-he-adds-another-11-million-shares",
-                "date": "2026-08-25",
-                "quote": "Alpha Metallurgical Director Courtis Keeps Buying as He Adds Another $1.1 Million Shares",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Alpha Metallurgical Resources Director Courtis Buys Again, This Time $3.2 Million in Shares. Is it Time for Investors to Buy Too?",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/alpha-metallurgical-resources-director-courtis-buys-again-time-32-million-shares-it-time",
-                "date": "2026-08-25",
-                "quote": "Alpha Metallurgical Resources Director Courtis Buys Again, This Time $3.2 Million in Shares.",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Alpha Metallurgical Resources Director Courtis Buys $2.9 Million Shares. What Does This Mean for Investors?",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/alpha-metallurgical-resources-director-courtis-buys-29-million-shares-what-does-mean",
-                "date": "2026-08-22",
-                "quote": "Alpha Metallurgical Resources Director Courtis Buys $2.9 Million Shares.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "2026-contract-pricing",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
-          },
-          {
-            "id": "buyback-track-record",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
-          },
-          {
-            "id": "valuation-snapshot",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
-          }
-        ],
-        "driver": "commodity",
-        "durability": "short_term",
-        "keyStocks": [
-          "AMR"
-        ],
-        "risk": "이사 개인의 장내 매수는 회사 펀더멘털 개선의 직접적 증거가 아니며, 추가 매수가 끊기거나 매도로 전환되면 이번 강세를 뒷받침하는 근거 중 하나가 사라진다. F10d가 -0.6265664160401008%로 이미 마이너스 전환해 F25d(+276.22222222222223%)로 대표되는 25거래일 모멘텀이 최근 10거래일에는 둔화되고 있어, 이 흐름이 이어지면 25거래일간 +47을 기록한 Final_WRS 순위 상승세가 꺾일 수 있다. 당해연도 컨센서스가 -85.58500000000001%, 차기연도가 -19.174999999999997%로 크게 하향되고 상향 비율이 21.73913043478261%(n=23)에 그치는 상황에서, 2026년 확정 계약가(국내 톤당 136.38달러·수출 톤당 127.02달러) 대비 스팟 가격이 추가로 밀리면 이익 전망 하향이 재개될 수 있다. 업종 구성종목이 2개뿐이고 Simply Wall St 기준 주가가 DCF 공정가치에 근접(1.2% 고평가)해 있어, 개별 종목 노이즈에 업종 지표 전체가 흔들리기 쉽고 추가 밸류에이션 재평가 여력도 제한적이라는 점을 확인해야 한다.",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
         "researchedOn": "2026-09-07",
         "carried": true
       },
@@ -1019,18 +1023,21 @@ window.TEAM5_DATA = {
       }
     ],
     "summary": {
-      "rotationView": "이번 확정 WRS 표본에는 업종이 Health Information Services 1개뿐이라, 업종 간 자금이 \"어디서 어디로\" 옮겨가는지 비교할 대상 자체가 없다. 이 업종 하나의 기간별 흐름만 보면: m3 WRS 0.3211(rankPct 1.45%), m6 WRS 0.3078(rankPct 10.87%)로 3개월·6개월 구간에서는 표본 최상위권을 유지했으나, m1 WRS는 0.0233(rankPct 23.19%)로 급격히 낮아졌다. 즉 6개월·3개월 동안 쌓아온 상대강도가 최근 1개월 들어 뚜렷이 꺾인 fading 패턴이며, 이를 대체할 신규 emerging 업종은 이번 데이터에 없다.",
+      "rotationView": "두 업종만 조사된 좁은 표본이지만 방향은 뚜렷하다. Health Information Services는 6개월 WRS 0.2726(상위 14.49%), 3개월 WRS 0.2739(상위 1.45%)로 최근까지 최상위권 주도주였으나 1개월 WRS가 -0.0089(상위 32.61%)로 꺾이며 자금이 빠지는 모습이고, 반대로 Coking Coal은 6개월 WRS 0.1137(상위 34.78%)·3개월 WRS 0.0896(상위 18.84%)로 중위권이었다가 1개월 WRS가 0.1587로 뛰어오르며 순위가 상위 0.72%까지 급상승했다. 즉 구조적 성장 테마(헬스케어 정보서비스)에서 경기민감 원자재(코킹콜)로 단기 자금이 옮겨가는 로테이션이 관측된다.",
       "strongest": {
-        "industry": "Health Information Services",
-        "why": "표본 내 유일하게 조사된 업종이며 m3 WRS 0.3211(rankPct 1.45%), m6 WRS 0.3078(rankPct 10.87%)로 중기 구간 상대강도는 최상위. 다만 driver/durability/why 근거는 '근거 없음'으로 조사되어 강세의 원인은 서술할 수 없고, 순위상 최상위라는 사실만 확인 가능."
+        "industry": "Coking Coal",
+        "why": "1개월 WRS 0.1587로 전체 업종 중 상위 0.72%에 위치해 조사된 두 업종 중 현재 시점 가장 강한 모멘텀을 보이며, AMR 이사 Courtis가 8월 25일 약 $1.1M, 9월 10일 약 $2.3M 규모로 자사주를 잇달아 매수했고 9월 9일자 내부자매수 동향 리포트에도 포함돼 약 3주 연속 내부자 매수가 확인된다."
       },
-      "emerging": [],
+      "emerging": [
+        "Coking Coal"
+      ],
       "fading": [
         "Health Information Services"
       ],
-      "caution": "표본이 업종 1개뿐이라 섹터 로테이션(자금이 어디서 어디로 이동)을 판단할 비교군이 없음 — 단일 종목 기간 비교로만 해석해야 함. 해당 업종의 driver=\"earnings\", durability=\"cyclical\"로 조사되었으나 why 항목은 \"근거 없음\"으로 비어 있어, 강세/약세의 원인(실적 서프라이즈, 정책 등)은 어떤 서술도 지어내지 않았고 지어내서도 안 됨. m1 WRS(0.0233)가 m3/m6 대비 낮아진 것은 수치상 사실이나 그 원인은 미확인."
+      "caution": "이번 조사는 Coking Coal, Health Information Services 단 두 업종에 국한된다. 다른 업종의 WRS나 순위는 입력에 없어 비교·서술이 불가하며, 위 로테이션 해석도 이 두 업종 간 상대 비교일 뿐 시장 전체 주도업종 지형을 대표하지 않는다. Coking Coal의 강세 근거(AMR 내부자 매수)는 특정 종목 이벤트이며 업종 전체의 구조적 강세를 의미하는지는 조사 범위 밖이다."
     },
-    "summaryResearchedOn": "2026-09-09"
+    "summaryResearchedOn": "2026-09-11",
+    "reusedFrom": null
   },
   "flow": {
     "baseline": {
@@ -7273,5 +7280,15 @@ window.TEAM5_DATA = {
         ]
       }
     ]
+  },
+  "research_coverage": {
+    "done": 8,
+    "total": 12,
+    "cap": 6,
+    "pending": 4,
+    "failed": 0,
+    "carried": 6,
+    "ineligible": 0,
+    "note": "12업종 중 8업종을 조사했습니다. 그중 6업종은 최근 조사분을 이월했습니다(조사일 표기). 나머지 4업종은 상한(6) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
   }
 };

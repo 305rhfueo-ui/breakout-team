@@ -55,9 +55,96 @@ window.TEAM4_DATA = {
         "rangePct": 32.64
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "COO",
+        "category": 1,
+        "company": "Cooper Companies는 CooperVision(콘택트렌즈)과 CooperSurgical(생식보조·산부인과 의료기기) 2개 사업부로 구성된 의료기기 업체로, FY2026 3Q 매출 10.66억달러 중 CooperVision이 7.17억달러, CooperSurgical이 3.492억달러를 기록해 여전히 콘택트렌즈 비중이 크다. 수개월간 진행돼 온 CooperSurgical 매각 여부에 대한 전략적 검토가 이번 실적 발표와 함께 '매각하지 않고 존속'으로 종결됐고, 동시에 CooperVision은 미국 채널 재고 조정(destocking)으로 유기성장이 정체되는 국면에 진입했다.",
+        "volumeExplanation": "2026-09-09 장 마감 후 발표된 FY2026 3Q 실적에서 비GAAP 희석EPS 1.15달러(컨센서스 1.11달러 대비 +3.6% 서프라이즈)를 기록했으나 매출 유기성장률은 1%에 그쳤고 CooperVision은 전년 동기 대비 사실상 보합이었다. 4Q 가이던스가 EPS 1.05~1.09달러로 컨센서스 1.19달러를 크게 하회하고, CooperSurgical 매각 전략적 검토가 '매각 없이 존속'으로 결론나면서 주가는 시간외에서 15% 급락했다. EPS 서프라이즈에도 불구하고 가이던스 쇼크와 전략적 검토 실망이 겹치며 VOL_X 5.45(거래대금 20일평균 대비)의 거래량 폭증으로 이어진 것으로, 성격상 호재라기보다 실적발표를 계기로 한 악재성 매물 폭증에 해당한다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "FY2026 3Q 매출은 전년 동기 대비 1% 증가한 10.66억달러(유기성장률 1%)였고, 비GAAP 희석EPS는 1.15달러로 전년 대비 4% 증가하며 컨센서스를 상회했다. CooperVision 매출 7.17억달러는 전년 동기와 사실상 동일했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CooperCompanies Q3 Earnings: $1.07B Revenue | COO Stock News",
+                "publisher": "StockTitan",
+                "url": "https://www.stocktitan.net/news/COO/cooper-companies-announces-third-quarter-2026-t3b98dr77fnq.html",
+                "date": "2026-09-09",
+                "quote": "Revenue increased 1% year-over-year to $1.066 billion, including 1% organic growth.",
+                "verified": "unverified",
+                "httpStatus": 429
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "4분기 비GAAP EPS 가이던스가 1.05~1.09달러로 제시되어 월가 컨센서스 1.19달러를 크게 밑돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Cooper Companies tumbles on weak guidance, strategic review conclusion",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/earnings/cooper-companies-tumbles-on-weak-guidance-strategic-review-conclusion-4894507",
+                "date": "2026-09-09",
+                "quote": "fall[s] well below the analyst consensus of $1.19",
+                "verified": "unverified",
+                "httpStatus": 403
+              },
+              {
+                "title": "CooperCompanies Q3 Earnings: $1.07B Revenue | COO Stock News",
+                "publisher": "StockTitan",
+                "url": "https://www.stocktitan.net/news/COO/cooper-companies-announces-third-quarter-2026-t3b98dr77fnq.html",
+                "date": "2026-09-09",
+                "quote": "$1.05 -$1.09",
+                "verified": "unverified",
+                "httpStatus": 429
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "실적 발표 직후 시간외 거래에서 주가가 15% 급락했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Cooper Companies tumbles on weak guidance, strategic review conclusion",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/earnings/cooper-companies-tumbles-on-weak-guidance-strategic-review-conclusion-4894507",
+                "date": "2026-09-09",
+                "quote": "Cooper Companies (NASDAQ:COO) shares plunged 15% in after-hours trading Wednesday",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "이사회는 CooperSurgical 매각 여부에 대한 전략적 검토를 완료하고 매각하지 않기로 결정했으며, CooperVision은 미국 채널 재고 조정이 실적에 부담을 줬고 4분기에도 이어질 것이라고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Cooper Companies tumbles on weak guidance, strategic review conclusion",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/earnings/cooper-companies-tumbles-on-weak-guidance-strategic-review-conclusion-4894507",
+                "date": "2026-09-09",
+                "quote": "announced it would retain CooperSurgical after completing its strategic review process, concluding that offers received were not in shareholders' best interest",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          }
+        ],
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 주요 주장(EPS, 가이던스, 주가, 전략 변화)이 SEC 공시 및 보도자료로 뒷받침됨"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-09-11",
+        "carried": false
       }
     },
     {
@@ -108,9 +195,60 @@ window.TEAM4_DATA = {
         "rangePct": 64.69
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "AVAV",
+        "category": 1,
+        "company": "AeroVironment는 소형 무인기(Puma, Switchblade 등 loitering munition)와 LOCUST 지향에너지·레이저 무기, Titan RF 재머 등을 미 육군·국방부 및 동맹국에 공급하는 방산 업체로, BlueHalo 인수 이후 우주·사이버 부문까지 포트폴리오를 확장했다. FY2027 1분기(2026-09-09 발표) 매출은 YoY +6%로 직전 3개 분기의 세자릿수 YoY 성장(133.27/143.41/150.72%, BlueHalo 편입 기저효과)에서 크게 둔화됐으나, 절대 매출·EPS 모두 컨센서스를 상회했고 백로그는 사상 최대치를 기록했다. 다만 현재 주가는 150일선 하회, CLS_POS 27.27(약세권 마감), 52주 고점 대비 -35.19% 구간에 위치해 어닝 서프라이즈에도 기술적으로는 여전히 하락추세 반등 초기 단계다.",
+        "volumeExplanation": "2026-09-09 8-K(Item 2.02, 실적 발표)로 공시된 AVAV FY2027 1분기 실적은 매출 4.805억달러(YoY +6%)·비GAAP EPS 0.59달러로 매출·EPS 모두 컨센서스를 상회했다(Zacks: \"Q1 Earnings and Revenues Top Estimates\"). 자금확보 백로그는 15억달러로 전년동기 12억달러 대비 25% 증가해 사상 최대치를 기록했다. 이 어닝 서프라이즈와 백로그 증가가 VOL_X 4.52(거래대금 20일평균 대비)·주간거래량배수 3.5의 거래량 급등을 촉발했다.",
+        "confidence": "high",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "AVAV는 2026-09-09 8-K(Item 2.02, 실적 발표)를 제출해 FY2027 1분기 실적을 공시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "8-K (avav-20260909x8k.htm)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926106304/avav-20260909x8k.htm",
+                "date": "2026-09-09",
+                "quote": "실적 발표, Reg FD 공시, 재무제표·첨부",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "Zacks는 AVAV의 1분기 매출과 EPS가 모두 시장 예상치를 상회했다고 보도했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AeroVironment (AVAV) Q1 Earnings and Revenues Top Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/aerovironment-avav-q1-earnings-and-revenues-top-estimates",
+                "date": "2026-09-09",
+                "quote": "AeroVironment (AVAV) Q1 Earnings and Revenues Top Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c3",
+            "c4"
+          ],
+          "reason": "c3: 전년동기 EPS $0.32 수치가 quote에 없음. c4: 37% 증가 주장은 실제 ($1.5-$1.2)/$1.2=25%로 오류.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "2026-09-09 8-K(Item 2.02, 실적 발표)로 공시된 AVAV FY2027 1분기 실적은 매출 4.805억달러(YoY +6%)·비GAAP EPS 0.59달러로 매출·EPS 모두 컨센서스를 상회했다(Zacks: \"Q1 Earnings and Revenues Top Estimates\"). 자금확보 백로그는 15억달러로 전년동기 12억달러 대비 37% 증가해 사상 최대치를 기록했다. 이 어닝 서프라이즈와 백로그 급증이 VOL_X 4.52(거래대금 20일평균 대비)·주간거래량배수 3.5의 거래량 급등을 촉발했다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-09-11",
+        "carried": false
       }
     },
     {
@@ -161,9 +299,43 @@ window.TEAM4_DATA = {
         "rangePct": 47.76
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "WSO.B",
+        "category": 6,
+        "company": "Watsco는 북미 최대 규모의 HVAC/R(냉난방공조·냉동장비) 유통업체로, 주거·상업용 냉난방기기와 부품을 계약업체(contractor)에 공급하는 B2B 유통 모델이다. WSO.B는 의결권이 제한된 클래스B 보통주로 절대 거래량 자체가 매우 얇아(2026-09-10 기준 521주, 전일 249주) 거래대금·거래량 배수 같은 상대지표가 쉽게 왜곡되는 구조다. 2026년 2분기(6월 결산) 실적은 매출 +2% YoY(20억 달러대, 컨센서스 21.3억 달러 하회), EPS 4.00달러(컨센서스 4.41달러 하회)로, 2025년 인플레이션·관세·A2L 냉매 전환에 따른 일시적 가격 프리미엄이 소멸하며 매출총이익률·영업이익이 위축되는 국면에 있다.",
+        "volumeExplanation": "2026-09-10 WSO.B는 절대 거래주수 521주(전일 249주 대비 +109%)라는 미미한 규모에서도 VOL_X 3.6(거래대금 20일평균 대비)·주간 거래량배수 28.5배(당일제외 5일평균 대비)를 기록했으나, 이를 설명할 종목 특정 뉴스·신규 공시는 확인되지 않는다. 가장 최근 실적 이벤트는 6주 이상 전인 2026-07-29 2분기 8-K(item 2.02)로, EPS 컨센서스를 하회하고 영업이익이 전년 대비 12% 감소한 마진 위축 이슈였을 뿐 오늘 거래와는 시차가 크다. 150일선 아래·52주 고점 대비 -69.52%·종가강도(CLS_POS) 0(당일 저점 마감)인 하락 추세 속 배수 급등이라, 저유동성 클래스B 주식 특유의 절대주수 기반 기계적 왜곡에 가깝다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "2026-09-10 WSO.B 거래량이 절대 기준 521주로 전일 249주 대비 109% 증가했다고 보도됐으나, 급증 원인에 대한 언급은 없다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Watsco (NYSE:WSO.B) Sees Unusually-High Trading Volume – Should You Buy?",
+                "publisher": "The Cerbat Gem",
+                "url": "https://www.thecerbatgem.com/2026/09/10/watsco-nysewso-b-sees-unusually-high-trading-volume-should-you-buy.html",
+                "date": "2026-09-10",
+                "quote": "521 shares were traded during mid-day trading, an increase of 109% from the previous session's volume of 249 shares",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": "c2의 statement 중 '매출 모두 컨센서스 하회'라는 주장이 quote에 직접 뒷받침되지 않음. 제목에 'Revenue Growth'는 있으나 quote 본문에는 매출이 컨센서스를 하회했다는 구체적 근거가 없음.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "2026-09-10 WSO.B는 절대 거래주수 521주(전일 249주 대비 +109%)라는 미미한 규모에서도 VOL_X 3.6(거래대금 20일평균 대비)·주간 거래량배수 28.5배(당일제외 5일평균 대비)를 기록했으나, 이를 설명할 종목 특정 뉴스·신규 공시는 확인되지 않는다. 가장 최근 실적 이벤트는 6주 이상 전인 2026-07-29 2분기 8-K(item 2.02)로, 매출·EPS 모두 컨센서스를 하회하고 영업이익이 전년 대비 12% 감소한 마진 위축 이슈였을 뿐 오늘 거래와는 시차가 크다. 150일선 아래·52주 고점 대비 -69.52%·종가강도(CLS_POS) 0(당일 저점 마감)인 하락 추세 속 배수 급등이라, 저유동성 클래스B 주식 특유의 절대주수 기반 기계적 왜곡에 가깝다.",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-11",
+        "carried": false
       }
     },
     {
@@ -214,9 +386,60 @@ window.TEAM4_DATA = {
         "rangePct": 175.33
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SEDG",
+        "category": 5,
+        "company": "SolarEdge는 DC 옵티마이저·인버터 기반 태양광 발전 시스템과 배터리 스토리지를 주력으로 하는 업체로, 매출 대부분이 주거·상업용 솔라 인버터에서 발생하며 미국 주거용 솔라 수요 부진의 영향을 받아온 국면이다. 최근 3개 분기 매출성장률(YoY)은 19.63%→41.47%→70.91%로 가속화됐으나 영업이익률은 -4.63%/-17.73%/-14.41%로 3개 분기 연속 적자이며 순이익도 '적자축소' 흐름에 머물러 있다. 이번 Investor Day는 기존 솔라 사업의 실적 턴어라운드 서사에 더해 Nexis·SST를 앞세운 AI 데이터센터向 전력인프라라는 신규 성장축을 제시한 자리다.",
+        "volumeExplanation": "2026-09-10 개최된 SolarEdge 2026 Investor Day에서 2029년 매출 24억달러·EBIT 3.6억달러의 중기 재무 목표와 함께 Nexis·SST 기반 AI 데이터센터 전력인프라 진출(medium-voltage-to-800VDC 변환단 부하시험 가동)이 발표되며 VOL_X 3.57(거래대금 20일평균 대비)·주간 거래량배수 4.04(당일제외 5일평균 대비)의 거래량 급증으로 이어졌다. 해당 행사는 2026-09-10 8-K(Item 7.01, Reg FD)로 공시됐다. 다만 AI 데이터센터 사업은 특정 고객과의 구체적 구매주문·계약이 아직 없는 초기 협의 단계라고 명시됐다.",
+        "claims": [
+          {
+            "id": "investor-day-8k",
+            "statement": "SolarEdge는 2026-09-10 8-K(Item 7.01, Reg FD)로 2026 Investor Day 개최를 공시, 전략·시장동향·제품로드맵(Nexis·Storage·SST)·운영재무 전망을 발표했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SolarEdge Technologies 8-K (Item 7.01, Regulation FD Disclosure)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1419612/000117891326004477/zk2636103.htm",
+                "date": "2026-09-10",
+                "quote": "Management will share details regarding the Company's strategy, market trends, and product roadmap, including Nexis, Storage, and SST, as well as its operational and financial outlook.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "no-concrete-customer-order",
+            "statement": "다만 AI 데이터센터向 사업은 특정 고객과의 구체적인 구매주문(PO)이나 계약이 아직 체결되지 않은 초기 협의 단계라고 명시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SolarEdge Targets $2.4B Revenue By 2029 – A Look At Some Highlights From Its 2026 Investor Day",
+                "publisher": "Asianet Newsable",
+                "url": "https://newsable.asianetnews.com/markets/solaredge-targets-2-4b-revenue-by-2029-a-look-at-some-highlights-from-its-2026-investor-day-articleshow-zaazkz4",
+                "date": "2026-09-10",
+                "quote": "does not yet have a concrete purchase order or agreement with a specific customer",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "2029-financial-targets",
+            "ai-datacenter-nvidia-progress"
+          ],
+          "reason": "2029-financial-targets: 매출총이익률 35%가 quote에 없음. ai-datacenter-nvidia-progress: Nvidia 800VDC 백서 공동발행 내용이 quote에 없음(부하시험만 확인됨).",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "2026-09-10 개최된 SolarEdge 2026 Investor Day에서 2029년 매출 24억달러·매출총이익률 35%·EBIT 3.6억달러의 중기 재무 목표와 함께 Nexis·SST 기반 AI 데이터센터 전력인프라 진출(Nvidia와 800VDC 변환·보호접지 공동 백서 발행, medium-voltage-to-800VDC 변환단 부하시험 가동)이 발표되며 VOL_X 3.57(거래대금 20일평균 대비)·주간 거래량배수 4.04(당일제외 5일평균 대비)의 거래량 급증으로 이어졌다. 해당 행사는 전날인 9월 10일 8-K(Item 7.01, Reg FD)로 공시됐다. 다만 AI 데이터센터 사업은 특정 고객과의 구체적 구매주문·계약이 아직 없는 초기 협의 단계라고 명시됐다.",
+        "categoryName": "매크로·정책·산업 돌파",
+        "isHighlight": true,
+        "researchedOn": "2026-09-11",
+        "carried": false
       }
     },
     {
@@ -267,9 +490,8 @@ window.TEAM4_DATA = {
         "rangePct": 54.63
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -332,9 +554,59 @@ window.TEAM4_DATA = {
         "score": 20
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CSR",
+        "category": 3,
+        "company": "Centerspace(CSR)는 노스다코타 소재 주거용(아파트) REIT로, 미네소타·노스다코타·콜로라도 등 중서부·산악주 비게이트웨이 중소형 시장에서 아파트 자산을 보유·운영해왔다. 2026년 상반기 내내 덴버·미니애폴리스·래피드시티·비즈마크 등 자산 매각으로 포트폴리오를 축소하며 재무구조를 정리해왔고, 컨센서스 기준 매출성장률(CY -6.75%/NY -0.85%)·EPS 성장률(CY -39.22%/NY -158.06%) 모두 역성장 국면에 있었다. 2026-09-08 Independence Realty Trust(IRT)와 전량 주식교환 방식의 합병계약을 체결하며 독립 상장사로서의 국면이 사실상 종료되는 시점을 맞았다.",
+        "volumeExplanation": "2026-09-08 체결, 2026-09-09 SEC 8-K(item 1.01)로 공시된 IRT와의 전량 주식교환 합병계약이 거래량 급증의 직접 촉매다. 교환비율은 CSR 1주당 IRT 보통주 3.800주로 주당 환산가치 $60.46, 직전 종가 대비 14.70% 프리미엄이 부여됐으며, 결합법인은 pro forma 자기자본시가총액 약 $5.0B·총기업가치 약 $8.1B이다. VOL_X 2.66(거래대금 20일평균 대비)은 이 합병 발표에 따른 재정거래(리스크 아비트리지) 수요 및 지수·펀드 리밸런싱 매물이 반영된 결과로 판단된다.",
+        "confidence": "high",
+        "claims": [
+          {
+            "id": "merger-agreement-8k",
+            "statement": "Centerspace는 2026-09-08 Independence Realty Trust(IRT)와 전량 주식교환 방식의 Agreement and Plan of Merger를 체결했으며, 이는 2026-09-09 SEC 8-K(item 1.01)로 공시됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Centerspace Form 8-K (Item 1.01 - Entry into a Material Definitive Agreement)",
+                "publisher": "U.S. Securities and Exchange Commission (EDGAR)",
+                "url": "https://www.sec.gov/Archives/edgar/data/798359/000114036126035986/ef20081761_8k.htm",
+                "date": "2026-09-09",
+                "quote": "On September 8, 2026, Centerspace, a North Dakota real estate investment trust (\"Centerspace\" or the \"Company\"), entered into an Agreement and Plan of Merger (the \"Merger Agreement\") with Independence Realty Trust, Inc., a Maryland corporation (\"IRT\"), Independence Realty Operating Partnership, LP, a Delaware limited partnership (\"IROP\"), Islanders OP Sub, LLC, a Delaware limited liability company and direct wholly owned subsidiary of IROP (\"IROP Merger Sub\"), and Centerspace, LP, a North Dakota limited partnership (the \"Company OP\").",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "premium-implied-value",
+            "statement": "교환비율 기준 CSR 주당 환산가치는 $60.46이며 이는 발표 직전 종가 대비 14.70% 프리미엄이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Independence Realty Trust to Acquire Centerspace for $2.14 Billion",
+                "publisher": "InsideArbitrage",
+                "url": "https://www.insidearbitrage.com/2026/09/independence-realty-trust-to-acquire-centerspace-for-2-14-billion/",
+                "date": "2026-09-09",
+                "quote": "representing a 14.70% premium from the stock's last close",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "deal-terms-proforma"
+          ],
+          "reason": "deal-terms-proforma: 교환비율·시총·기업가치는 근거 있으나, '아파트 44,000세대' 및 주주 지분율 정보는 quote에 없음. 또한 volumeExplanation의 '연간 시너지 $24M·Core FFO 5% 상향'도 claims에 없어 제거 필요.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "2026-09-08 체결, 2026-09-09 SEC 8-K(item 1.01)로 공시된 IRT와의 전량 주식교환 합병계약이 거래량 급증의 직접 촉매다. 교환비율은 CSR 1주당 IRT 보통주 3.800주로 주당 환산가치 $60.46, 직전 종가 대비 14.70% 프리미엄이 부여됐으며, 결합법인은 pro forma 자기자본시가총액 약 $5.0B·총기업가치 약 $8.1B, 아파트 44,000세대 이상 포트폴리오를 형성하고 연간 시너지 약 $24M·2027년 Core FFO 주당 약 5% 상향 효과가 제시됐다. VOL_X 2.66(거래대금 20일평균 대비)은 이 합병 발표에 따른 재정거래(리스크 아비트리지) 수요 및 지수·펀드 리밸런싱 매물이 반영된 결과로 판단된다.",
+        "categoryName": "대형 파트너십·공급계약",
+        "isHighlight": false,
+        "researchedOn": "2026-09-11",
+        "carried": false
       }
     },
     {
@@ -385,9 +657,8 @@ window.TEAM4_DATA = {
         "rangePct": 53.09
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -438,9 +709,8 @@ window.TEAM4_DATA = {
         "rangePct": 89.08
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -491,9 +761,8 @@ window.TEAM4_DATA = {
         "rangePct": 26.4
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -544,9 +813,8 @@ window.TEAM4_DATA = {
         "rangePct": 45.14
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -597,9 +865,8 @@ window.TEAM4_DATA = {
         "rangePct": 57.26
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -650,9 +917,8 @@ window.TEAM4_DATA = {
         "rangePct": 49.64
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -703,9 +969,8 @@ window.TEAM4_DATA = {
         "rangePct": 64.03
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -768,9 +1033,8 @@ window.TEAM4_DATA = {
         "score": 0
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -821,9 +1085,8 @@ window.TEAM4_DATA = {
         "rangePct": 60.29
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -874,9 +1137,8 @@ window.TEAM4_DATA = {
         "rangePct": 67.45
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -923,9 +1185,8 @@ window.TEAM4_DATA = {
         "rangePct": 2447.53
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -976,9 +1237,8 @@ window.TEAM4_DATA = {
         "rangePct": 118.56
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1041,9 +1301,80 @@ window.TEAM4_DATA = {
         "score": 50
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "PAM",
+        "category": 1,
+        "company": "Pampa Energía는 아르헨티나 최대 통합 에너지 기업으로 화력·수력 발전 및 배전 등 전력 부문과 Vaca Muerta 셰일 오일·가스 E&P, 석유화학(폴리에틸렌·우레아 등)을 겸영하며 NYSE에 ADR로 상장돼 있다. 최근 국면은 아르헨티나 WEM(도매전력시장) 규제완화로 스팟 전력가가 상승하고 B2B PPA(전력구매계약) 매출이 확대되는 한편, RIGI(대규모투자인센티브) 체제 하 27억달러 규모 우레아 플랜트 최종투자결정(FID)으로 셰일가스 다운스트림까지 사업을 확장하는 국면이다. 2Q26 매출은 YoY +53%, 순이익은 전년동기 대비 4.3배로 실적 모멘텀이 뚜렷하다.",
+        "volumeExplanation": "2026년 8월 4일 발표된 2Q26 실적에서 매출 US$746백만(YoY +53%), 순이익 US$172백만(전년동기 대비 4.3배)을 기록했고, WEM(도매전력시장) 신규 규제완화 프레임워크에 따른 스팟 전력가 상승이 배경으로 제시됐다. 이후에도 창업자 겸 회장 Marcos Mindlin이 8월 20일 신고분(130만주)에 이어 8월 27일 15만주(50.7만달러)를 추가 매수하며 내부자 매수세가 이어졌다. 7월 17일에는 RIGI 체제 하 27억달러 규모 우레아 플랜트 FID가 발표되며 정책 모멘텀도 겹쳤다.",
+        "confidence": "medium",
+        "claims": [
+          {
+            "id": "q2-2026-earnings",
+            "statement": "2Q26(6월 결산) 매출 US$746백만(YoY +53%), 순이익 US$172백만(전년동기 대비 4.3배)을 기록했으며 WEM 신규 규제완화 프레임워크로 인한 스팟 전력가 상승이 견인 요인으로 제시됨.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Pampa Energía announces six-month period and second quarter 2026 results",
+                "publisher": "PR Newswire",
+                "url": "https://www.prnewswire.com/news-releases/pampa-energia-announces-six-month-period-and-second-quarter-2026-results-302843004.html",
+                "date": "2026-08-04",
+                "quote": "Sales reached US$746 million in Q2 26, up 53% year-on-year",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "insider-buying-mindlin",
+            "statement": "창업자 겸 회장 Marcos Mindlin이 8월 20일 신고분(약 130만주)에 이어 8월 27일 15만주(50.7만달러)를 추가 매수하며 8월 중순~9월 초 내부자 매수가 반복됨.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Pampa Energía Founder and Chairman Marcos Mindlin Buys 1.3 Million Shares. What Does This Mean for Investors in 2026?",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/coverage/filings/2026/09/04/pampa-energia-founder-and-chairman-marcos-mindlin-buys-1-3-million-shares-what-does-this-mean-for-investors-in-2026/",
+                "date": "2026-09-04",
+                "quote": "Pampa Energía Founder and Chairman Marcos Mindlin Buys 1.3 Million Shares. What Does This Mean for Investors in 2026?",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Pampa Energía Founder Marcos Mindlin Buys 150,000 Shares for $507,000. Is This a Signal for Investors to Also Buy?",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/coverage/filings/2026/09/07/pampa-energia-founder-marcos-mindlin-buys-150-000-shares-for-usd507-000-is-this-a-signal-for-investors-to-also-buy/",
+                "date": "2026-09-07",
+                "quote": "Pampa Energía Founder Marcos Mindlin Buys 150,000 Shares for $507,000.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "urea-plant-fid-rigi",
+            "statement": "7월 17일 아르헨티나 RIGI(대규모투자인센티브) 체제 하 27억달러 규모 라틴아메리카 최대 우레아 플랜트(바이아블랑카) 최종투자결정(FID)이 발표되며 셰일가스 기반 정책 모멘텀이 겹침.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Pampa Approves $2.7 Billion Argentina Urea Plant Amid Shale Boom",
+                "publisher": "Bloomberg",
+                "url": "https://www.bloomberg.com/news/articles/2026-07-17/pampa-approves-2-7-billion-argentina-urea-plant-amid-shale-boom",
+                "date": "2026-07-17",
+                "quote": "Pampa Approves $2.7 Billion Argentina Urea Plant Amid Shale Boom",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "Q2 실적, 내부자 매수, 우레아 플랜트 FID 모두 제시된 근거로 뒷받침됨"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-09-11",
+        "carried": false
       }
     },
     {
@@ -1106,9 +1437,64 @@ window.TEAM4_DATA = {
         "score": 50
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "LEN.B",
+        "category": 6,
+        "company": "Lennar Corp(LEN.B)는 미국 최대급 주택건설업체로, 신규주택 건설·인도(closings)가 매출의 근간이며 모기지·타이틀보험 등 파이낸셜 서비스 부문을 함께 운영한다. 최근 3개 분기 매출성장률은 YoY -5.22%/-13.26%/-5.82%, 순이익은 YoY -36.39%/-55.89%/-55.2%로 감소했고 영업이익률도 5.27%/3.52%/7.12%로 인센티브 확대에 따른 마진 압박이 지속되는 국면이다. 컨센서스는 당해연도(CY) 매출성장 -4.94%를 예상하며, 주가는 150일선 아래 78.02~95.12 구간에서 6개월째 횡보(베이스 폭 21.92%) 중이다.",
+        "volumeExplanation": "9월16일 장마감 후 예정된 3분기 실적 발표를 5일 앞두고 옵션시장에서 임플라이드무브 5.2%가 반영되며 포지셔닝 거래가 집중됐고, 주가는 52주 신저가($79.83)에 근접하며 VOL_X 2.12(거래대금 20일평균 대비)·주간 거래량배수 2.53(당일제외 5일평균 대비)으로 거래량이 급증했다. 과거 8회 실적 중 4회가 옵션 내재 예상 변동폭을 초과해 움직였다는 이력도 실적 불확실성에 대한 사전 헤지·포지셔닝 수요를 키운 요인으로 제시된다. 명시적인 실적 서프라이즈·계약·정책 호재는 확인되지 않아 실적 이벤트 리스크에 따른 암묵적 거래량 급증(6번 유형)으로 판단한다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "Lennar는 2026년 9월16일 장마감 후 3분기 실적을 발표하며, 9월17일 오전 11시(동부시간) 컨퍼런스콜을 개최한다. 옵션시장은 이번 실적 발표에 5.2%의 내재 변동폭을 반영하고 있고, 과거 8회 실적 중 4회는 이 내재 변동폭을 넘어서는 움직임을 보였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Lennar Corporation to Broadcast its Third Quarter 2026 Earnings Call",
+                "publisher": "StockTitan",
+                "url": "https://www.stocktitan.net/news/LEN/lennar-corporation-to-broadcast-its-third-quarter-2026-earnings-call-meyqoyz3tf1u.html",
+                "date": "2026-09",
+                "quote": "the Company will release its third quarter 2026 earnings after the market closes on September 16, 2026; the Company will host a conference call on September 17, 2026 at 11:00 a.m. Eastern Time",
+                "verified": "unverified",
+                "httpStatus": 429
+              },
+              {
+                "title": "Lennar stock slips after earnings date and 52-week low",
+                "publisher": "ad-hoc-news.de",
+                "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/lennar-stock-slips-after-earnings-date-and-52-week-low/70080479",
+                "date": "2026-09-09",
+                "quote": "options data point to a 5.2 percent move around the September 16 report; four of the past eight earnings releases moved more than the implied range",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "2026년 9월8일 기준 Lennar 주가는 $80.37로 52주 최저가 $79.83에 근접했으며, 52주 범위는 $79.83~$140.71, 연초 대비 -21.82% 하락한 상태다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Lennar stock slips after earnings date and 52-week low",
+                "publisher": "ad-hoc-news.de",
+                "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/lennar-stock-slips-after-earnings-date-and-52-week-low/70080479",
+                "date": "2026-09-09",
+                "quote": "Lennar stock traded at USD 80.37 on September 8, 2026; the 52-week range ran from USD 79.83 to USD 140.71; Lennar stock sat almost exactly at the 52-week low of USD 79.83",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 주장의 숫자·날짜가 출처 quote에 명시됨. category 6 적절함."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-11",
+        "carried": false
       }
     },
     {
@@ -1159,9 +1545,8 @@ window.TEAM4_DATA = {
         "rangePct": 43.81
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1224,9 +1609,69 @@ window.TEAM4_DATA = {
         "score": 20
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "category": 5,
+        "ticker": "UBER",
+        "confidence": "medium",
+        "company": "Uber Technologies는 모빌리티(라이드헤일링)와 딜리버리(Uber Eats) 양대 축의 글로벌 플랫폼 사업자로, 최근에는 자율주행(로보택시) 파트너십 확장과 딜리버리 부문 대형 M&A(Delivery Hero 인수)를 통해 사업 포트폴리오를 재편하는 국면에 있다. 최근 3개 분기 매출성장률은 12.17%→14.48%→20.13%로 가속화됐으나 순이익은 76.68백만달러 흑자에서 -85.19백만달러, -95.7백만달러로 2개 분기 연속 적자 전환했고, 영업이익률도 13.32%→14.56%→12.35%로 최근 분기 소폭 둔화됐다. 컨센서스는 CY 매출성장 11.35%/EPS -30.94%, NY 매출성장 15.32%/EPS +41.11%로 내년 이익 턴어라운드를 반영하는 형태다.",
+        "volumeExplanation": "9/2~9/9 사이 Uber는 자율주행 파트너 Wayve와 런던에서 유료 로보택시 서비스를 Waymo보다 먼저 상용화했고, Delivery Hero 인수에 대해 이사회 권고(9/2)를 확보했으며, Uber Eats는 Wakefern과 제휴해 375개 이상 슈퍼마켓을 플랫폼에 추가했다. 복수의 뉴스플로우가 같은 주에 겹치며 VOL_X 2.06·주간 거래량배수 1.97로 거래량이 급증했다.",
+        "claims": [
+          {
+            "id": "wayve-robotaxi-london",
+            "statement": "Uber가 자율주행 스타트업 Wayve와 함께 런던에서 로보택시 유료 서비스를 Waymo보다 앞서 상용화했다(9/2 서비스 개시, 9/8 관련 분석기사).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Uber, Wayve Launch Robotaxi Service in London to Compete With Waymo",
+                "publisher": "Bloomberg",
+                "url": "https://www.bloomberg.com/news/articles/2026-09-02/uber-wayve-launch-robotaxi-service-in-london-to-compete-with-waymo",
+                "date": "2026-09-02",
+                "quote": "Uber, Wayve Launch Robotaxi Service in London to Compete With Waymo",
+                "verified": "unverified",
+                "httpStatus": 403
+              },
+              {
+                "title": "Uber's Wayve Deal Shows How It Wants to Win Without Building Cars",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/ubers-wayve-deal-shows-how-it-wants-win-without-building-cars",
+                "date": "2026-09-08",
+                "quote": "Uber's Wayve Deal Shows How It Wants to Win Without Building Cars",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "wakefern-partnership",
+            "statement": "Uber Eats가 미국 슈퍼마켓 체인 Wakefern(ShopRite 등)과 제휴해 375개 이상 매장을 플랫폼에 추가했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Uber Eats Partners With Wakefern, Adds More Than 375 Supermarkets To Platform",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/uber-eats-partners-wakefern-adds-more-375-supermarkets-platform",
+                "date": "2026-09-09",
+                "quote": "Uber Eats Partners With Wakefern, Adds More Than 375 Supermarkets To Platform",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "delivery-hero-buyout",
+            "ackman-stake"
+          ],
+          "reason": "delivery-hero-buyout: '주당 41.50유로'와 '8/27~11/5 인수청약 절차' quote 미확인. ackman-stake: '약 13%' 포트폴리오 비중이 quote에 없음. 기본 사실(인수 진행, Ackman 보유)은 근거 있으나 세부 수치 부족.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "9/2~9/9 사이 Uber는 자율주행 파트너 Wayve와 런던에서 유료 로보택시 서비스를 Waymo보다 먼저 상용화했고, 총 148~150억달러 규모의 Delivery Hero 인수에 대해 이사회 권고(9/2)를 확보해 인수청약이 진행 중이며, Uber Eats는 Wakefern과 제휴해 375개 이상 슈퍼마켓을 플랫폼에 추가했다. 같은 주에 액티비스트 투자자 Bill Ackman(Pershing Square)이 UBER를 포트폴리오 최대 비중(약 13%)으로 보유 중이라는 점도 재조명되며 투자심리를 뒷받침했다. VOL_X 2.06·주간 거래량배수 1.97은 자율주행 상용화·대형 M&A 진행·유통 파트너십 확대라는 복수의 뉴스플로우가 같은 주에 겹치며 나타난 것으로 판단된다.",
+        "categoryName": "매크로·정책·산업 돌파",
+        "isHighlight": true,
+        "researchedOn": "2026-09-11",
+        "carried": false
       }
     },
     {
@@ -1277,9 +1722,8 @@ window.TEAM4_DATA = {
         "rangePct": 56.2
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1330,9 +1774,8 @@ window.TEAM4_DATA = {
         "rangePct": 24.47
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1379,9 +1822,8 @@ window.TEAM4_DATA = {
         "rangePct": 23.94
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1432,9 +1874,8 @@ window.TEAM4_DATA = {
         "rangePct": 38.15
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1485,9 +1926,8 @@ window.TEAM4_DATA = {
         "rangePct": 54.92
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1538,9 +1978,8 @@ window.TEAM4_DATA = {
         "rangePct": 63.55
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1603,9 +2042,62 @@ window.TEAM4_DATA = {
         "score": 20
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BLX",
+        "category": 6,
+        "company": "Bladex(舊 Banco Latinoamericano de Comercio Exterior, 2026년 6월 Bladex Inc.로 사명 변경)는 파나마 소재 중남미 역내 무역금융 전문은행으로, 상업은행·중견기업·법인 고객 대상 무역금융·신디케이션이 핵심 매출원이다. 7/28 발표된 2Q26 순이익 $66.5M(QoQ +18%)로 사상 최대 분기 실적을 냈고 ROE 가이던스 14~15%를 재확인했으나, 현재는 6개월 베이스(47.02~63.20, 폭 34.41%) 상단권에서 52주 고점 대비 89.08%·CLS_POS 95.21로 강한 종가 위치를 유지하면서도 60일 신고가는 아직 돌파하지 못한 국면이다.",
+        "volumeExplanation": "이번 주 거래량 증가(VOL_X 1.89, 주간배수 2.15) 시점과 겹치는 유일한 회사발 뉴스는 9/8 공시된 멕시코 페소화 Cebures 채권(MXN 50억, 3년 변동금리 TIIE de Fondeo+58bp, 응찰배수 1.56배) 완판 건이나, 이는 4/20에도 동일 구조(MXN 42.65억, +60bp)로 시행된 바 있는 정례적 자금조달로 확인되어 주가·거래량을 움직일 신규 재료로 보기 어렵다. 7/28 발표된 2Q26 실적(순이익 $66.5M, QoQ +18%, ROE 가이던스 14~15% 유지)은 6주 이상 지난 뉴스로 이번 주 거래량 급증의 직접적 트리거로 보기 힘들다. 사이트 컨센서스상 30일 전망 변화가 CY/NY 모두 0%이고 Target_Status NO, 52주 신고가·60일 신고가 모두 미달성이어서 이번 거래량 증가를 뒷받침할 애널리스트 전망 상향이나 가격 돌파 신호도 확인되지 않는다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "9/8 Bladex, 멕시코 채권시장에서 Cebures(3년 변동금리, TIIE de Fondeo+58bp) MXN 50억 완판, 응찰배수 1.56배 기록",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Bladex completes successful Debt Issuance in The Mexican Capital Markets",
+                "publisher": "PR Newswire",
+                "url": "https://www.prnewswire.com/news-releases/bladex-completes-successful-debt-issuance-in-the-mexican-capital-markets-302871863.html",
+                "date": "2026-09-08",
+                "quote": "The transaction attracted orders totaling MXN 7.779 billion, representing 1.56 times the amount issued and enabling the Bank to place the full authorized amount.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "근거 없음(출처 검증 실패로 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [],
+            "stripped": true
+          },
+          {
+            "id": "c3",
+            "statement": "7/28 발표된 2Q26 실적: 순이익 $66.5M, QoQ +18%, ROE 가이던스 14~15% 유지 — 다만 시점상 6주 이상 경과해 이번 주 거래량 급증의 직접 트리거로 보기 어려움",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Earnings call transcript: Bladex posts record Q2 2026 profit as shares rise",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-bladex-posts-record-q2-2026-profit-as-shares-rise-93CH-4817687",
+                "date": "2026-07-28",
+                "quote": "Bladex delivered record Q2 2026 results with net income of $66.5M (up 18% QoQ)... Management reaffirmed full-year ROE guidance of 14-15% and efficiency ratio of 27-28%.",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 숫자(MXN 50억, 1.56배, MXN 42.65억, $66.5M, +18%, 14~15%)가 quote에 명시됨. category 6 적절함."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-11",
+        "carried": false
       }
     },
     {
@@ -1656,9 +2148,8 @@ window.TEAM4_DATA = {
         "rangePct": 52.5
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1709,9 +2200,8 @@ window.TEAM4_DATA = {
         "rangePct": 42.28
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1774,9 +2264,59 @@ window.TEAM4_DATA = {
         "score": 20
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CALM",
+        "category": 6,
+        "company": "Cal-Maine Foods는 미국 최대 계란 생산·유통업체로, 매출은 대형 유통망(리테일러) 대상 셸에그(shell egg) 판매가 대부분을 차지하며 최근 Prepared Foods(가공란) 생산능력에 5,400만 달러를 투자해 포트폴리오를 확장 중이다. 2025년 조류독감(HPAI)발 산란계 폐사로 계란 가격이 급등했던 기저효과가 소멸하면서 현재는 계란 도소매가 하락과 산란계두수 회복(전년대비 약 900만 마리 증가)에 따른 매출·이익 역기저 국면에 있다. 최근 3개 분기 매출성장률이 -49.93%→-52.95%→-19.4%(YoY)로 감소폭이 축소되는 가운데, 영업이익률은 -10.64%→5.39%→16.1%로 순차 개선되는 회복 초입 구간이다.",
+        "volumeExplanation": "이번 주 거래량 증가(VOL_X 1.89, 주간배수 2.15) 시점과 겹치는 회사발 뉴스는 9/2 8-K(크레딧 계약 갱신, Item 1.01)과 9/9 보도자료(실적 발표 일정 공지)이나, 둘 다 어닝서프라이즈·파트너십·전략 변화 등 실질적 촉매가 아니므로 표면적 뉴스 없이 거래량만 증가한 암묵적 케이스(⑥)로 판정한다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "9/2일자 8-K는 실적발표(item 2.02)가 아닌 크레딧 계약 갱신(item 1.01) 공시로, 통상적 재무 이벤트에 해당한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Cal-Maine Foods 8-K (Second Amended and Restated Credit Agreement)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/16160/000156276226000102/calm-20260831_8K.htm",
+                "date": "2026-09-02",
+                "quote": "체결일: 2026년 8월 31일 / 상대방: BMO Bank N.A.(행정대리인) / 금액: 초기 약정액 2억 5천만 달러의 무담보 회전신용한도(2,500만 달러 대기신용증서 한도, 2,500만 달러 스윙라인 한도 포함) / 만기: 2031년 8월 31일 / 2026년 9월 1일 현재 차입액 없음, 대기신용증서 590만 달러 발행됨",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "9/9 보도자료는 2027 회계연도 1분기 실적 발표 일정(9/30) 확정 공지로, 가이던스나 실적 수치는 포함되어 있지 않다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Cal-Maine Foods Schedules First Quarter Fiscal 2027 Earnings Release",
+                "publisher": "StockTitan",
+                "url": "https://www.stocktitan.net/news/CALM/cal-maine-foods-schedules-first-quarter-fiscal-2027-earnings-release-5l7squvqlvl5.html",
+                "date": "2026-09-09",
+                "quote": "2027 회계연도 1분기 결과를 2026년 9월 30일 수요일 오전 약 6시 ET에 보고할 것이며, 경영진은 같은 날 오전 9시에 컨퍼런스 콜과 웹캐스트를 통해 실적을 논의할 예정이다.",
+                "verified": "unverified",
+                "httpStatus": 429
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c3"
+          ],
+          "reason": "c3의 'CALM.json에 수집된 뉴스'는 제공 데이터에 없으며, 단일 source로 광범위한 주장 검증 불가. 또한 volumeExplanation에 Bladex(BLX)의 '멕시코 페소화 Cebures 채권' 설명이 명백히 혼입됨.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "이번 주 거래량 급증(VOL_X 1.76, 당일 제외 5일평균 대비 주간배수 2.24)을 설명할 만한 실질적 호재성 뉴스는 확인되지 않는다. 가장 최근 공시인 9/2 8-K는 BMO Bank를 주간사로 한 2.5억 달러 무담보 리볼빙 크레딧 계약 갱신(만기 2031년)으로 통상적 재무·유동성 관리 사안이며, 9/9 보도자료는 2027 회계연도 1분기 실적 발표일(9/30 오전 6시 ET)을 확정한 일정 공지로 가이던스나 실적 수치를 전혀 포함하지 않는다. 두 건 모두 어닝서프라이즈·파트너십·턴어라운드·정책 이벤트 등 6분류 ①~⑤에 해당하는 실질적 촉매로 보기 어려워, 표면적 뉴스 없이 거래량만 증가한 암묵적 케이스(⑥)로 판정한다.",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-11",
+        "carried": false
       }
     },
     {
@@ -1827,9 +2367,8 @@ window.TEAM4_DATA = {
         "rangePct": 24.3
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1880,9 +2419,8 @@ window.TEAM4_DATA = {
         "rangePct": 86.65
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1933,9 +2471,8 @@ window.TEAM4_DATA = {
         "rangePct": 77.39
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1998,9 +2535,71 @@ window.TEAM4_DATA = {
         "score": 20
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BHF",
+        "category": 6,
+        "company": "Brighthouse Financial은 2017년 MetLife에서 분사한 생명보험·연금 전업사로, Shield 시리즈 등 인덱스 연계 연금(RILA)과 생명보험 상품을 은행·브로커딜러 채널을 통해 판매한다. 실적은 변액·인덱스 연금 부채 평가와 파생상품 헤지 손익에 민감해 분기별 변동성이 크며, 최근 3개 분기 매출성장률이 86.22%→-36.11%→40.17%로 급변하고 순이익은 적자확대 이후 -82.66%를 기록하는 등 실적 가시성이 낮은 국면이다. 현재 150일선 아래, 52주 고점 대비 76.11% 낮은 위치에서 51.08~66.8(폭 30.78%) 박스권 6개월째 횡보 중이다.",
+        "volumeExplanation": "2026년 8월 5일 발표된 2분기 실적이 매출·EPS 모두 컨센서스를 하회했고(Zacks, 2026-08-06 보도), 이후 주가는 실적 발표 시점 대비 13.6% 하락한 것으로 2026-09-04자 후속 보도에서 확인된다. 8월 18일 8-K(Item 5.02)는 최고회계책임자(CAO) 교체(Pavlovich→Cook) 건으로 CEO 교체나 전략 변화가 아니어서 턴어라운드 성격의 호재로 보기 어렵다. VOL_X 1.37·주간 거래량배수 2.6은 이 어닝 미스 이후 잔여 매물 소화 과정으로 추정되며, 조사 범위 내에서 별도의 신규 호재 뉴스는 확인되지 않는다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "2026년 8월 5일 발표된 2분기 실적이 매출·EPS 모두 시장 컨센서스를 하회한 어닝 미스였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Brighthouse Financial (BHF) Q2 Earnings and Revenues Lag Estimates",
+                "publisher": "Zacks (via Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/brighthouse-financial-bhf-q2-earnings-and-revenues-lag-estimates",
+                "date": "2026-08-06",
+                "quote": "Brighthouse Financial (BHF) Q2 Earnings and Revenues Lag Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "직전 실적 발표(8/5) 이후 BHF 주가가 13.6% 하락한 것으로 후속 보도에서 확인된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Is Brighthouse Financial (BHF) Down 13.6% Since Last Earnings Report?",
+                "publisher": "Zacks (via Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/why-brighthouse-financial-bhf-down-136-last-earnings-report",
+                "date": "2026-09-04",
+                "quote": "Why Is Brighthouse Financial (BHF) Down 13.6% Since Last Earnings Report?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "2026년 8월 18일 8-K(Item 5.02)는 CEO 교체가 아닌 최고회계책임자(CAO) 교체 건으로, Melissa B. Pavlovich가 9월 2일 퇴임하고 부(副)CAO였던 Richard A. Cook이 9월 3일부로 취임했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Brighthouse Financial, Inc. Form 8-K (Item 5.02)",
+                "publisher": "U.S. SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1685040/000168504026000031/bhf-20260818.htm",
+                "date": "2026-08-18",
+                "quote": "퇴임: Melissa B. Pavlovich 최고회계책임자(CAO), 퇴임일 2026년 9월 2일, 사유: 새로운 기회 수락. 신임: Richard A. Cook 최고회계책임자(CAO), 임명일 2026년 8월 17일, 취임일 2026년 9월 3일, 이전 직책: 부(副) 최고회계책임자.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 주장(어닝 미스, 13.6% 하락, CAO 교체)이 출처에 명시됨. category 6 적절함."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-11",
+        "carried": false
       }
     },
     {
@@ -2063,9 +2662,8 @@ window.TEAM4_DATA = {
         "score": 0
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     }
   ],
@@ -2088,14 +2686,14 @@ window.TEAM4_DATA = {
     "NEE-T"
   ],
   "research_coverage": {
-    "done": 0,
+    "done": 11,
     "total": 37,
-    "cap": null,
-    "pending": 11,
+    "cap": 11,
+    "pending": 0,
     "failed": 0,
     "carried": 0,
     "ineligible": 26,
-    "note": "37종목 중 0종목을 조사했습니다. 26종목은 셋업·거래량 기준 미달로 조사 대상이 아닙니다. 나머지 11종목은 상한(?) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
+    "note": "37종목 중 11종목을 조사했습니다. 26종목은 셋업·거래량 기준 미달로 조사 대상이 아닙니다. 자금이 들어오는 업종 · 거래대금 급증 순으로 우선 조사합니다."
   },
   "llmCarried": {
     "highlights": [],
@@ -2103,5 +2701,45 @@ window.TEAM4_DATA = {
     "watchList": [],
     "caution": "1) 오늘 입력에는 category 1·5 종목이 하나도 없어 highlights는 공란입니다 — 이는 실제 시장에 어닝/기술 촉매가 없었다는 뜻이 아니라, 제공된 스크리닝 결과에 그런 종목이 포함되지 않았다는 의미로만 해석해야 합니다. 2) ACGL은 category 6(뉴스 부재 상태의 거래량 급증, 2026-09-03 전일比 +46%)로 분류되어 있으나, 함께 제시된 사실관계는 오히려 부정적 방향입니다: 직전 실적 발표 후 주가 -3.7%(Zacks, 2026-08-27), Insurance 세그먼트 경쟁 심화·마진 압박(Zacks, 2026-08-25), 손해보험 특정 라인 요율 정체·하락(Yahoo Finance, Baron Capital 코멘터리). 거래량 급증의 원인이 명시되지 않은 만큼 공매도·기관 리밸런싱 등 비호재성 요인 가능성도 배제할 수 없어, 이 데이터만으로 매수 촉매로 단정하기는 위험합니다. 3) watchList(6개월 횡보 후 돌파·리테스트)를 판단할 가격 히스토리 데이터가 입력에 전혀 없어 공란으로 두었으며, 임의로 종목을 채우지 않았습니다.",
     "researchedOn": "2026-09-10"
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "COO",
+        "category": 1,
+        "oneLine": "FY2026 3Q 매출 10.66억달러(+1%YoY)·비GAAP EPS 1.15달러(+4%YoY)로 컨센서스는 상회했으나, 4Q EPS 가이던스 1.05~1.09달러가 컨센서스 1.19달러를 크게 밑돌며 시간외 15% 급락 — 이름은 '서프라이즈'지만 실제 주가 촉매는 가이던스 쇼크(미국 채널 재고조정 지속)임에 유의."
+      },
+      {
+        "ticker": "AVAV",
+        "category": 1,
+        "oneLine": "FY2027 1분기 매출·EPS가 모두 컨센서스를 상회했다고 Zacks가 보도(9/9 8-K Item 2.02 실적공시 기반) — 구체 수치는 원문에 제시되지 않음."
+      },
+      {
+        "ticker": "PAM",
+        "category": 1,
+        "oneLine": "2Q26 매출 US$746M(+53%YoY)·순이익 US$172M(전년比 4.3배)로 WEM 규제완화發 스팟전력가 상승이 견인, 8월 중순~9월초 창업자 겸 회장의 반복 내부자 매수(8/20 대량신고 + 8/27 15만주)가 신뢰도를 보강."
+      },
+      {
+        "ticker": "SEDG",
+        "category": 5,
+        "oneLine": "Investor Day(9/10 8-K Item 7.01)에서 Nexis·Storage·SST 로드맵 및 운영재무 전망을 공개했으나, AI 데이터센터向 사업은 특정 고객과의 PO·계약 미체결 초기 협의 단계로 명시돼 산업 돌파의 실질 근거는 아직 약함."
+      },
+      {
+        "ticker": "UBER",
+        "category": 5,
+        "oneLine": "자율주행 파트너 Wayve와 런던에서 Waymo보다 앞서 로보택시 유료서비스 상용화(9/2 개시)했고, Uber Eats는 Wakefern(ShopRite 등) 375개 이상 매장 제휴로 온디맨드 배송망을 확장."
+      }
+    ],
+    "sectorSignal": "촉매가 특정 섹터로 몰리지 않았음. 헬스케어/의료기기(COO), 방산·드론(AVAV), 에너지·유틸리티(PAM), 태양광·에너지솔루션(SEDG), 모빌리티·플랫폼(UBER)으로 산업이 서로 분산돼 있고, 나머지 category 3·6 종목(CSR-REIT, LEN.B-주택건설, BLX-중남미 은행, CALM-농축산, BHF-보험, WSO.B-특수유통)까지 포함해도 공통 섹터 테마는 관찰되지 않음. 다만 PAM·SEDG 두 건 모두 '정책/규제 변화가 매출·투자심리에 직접 영향'이라는 공통 축은 존재.",
+    "watchList": [],
+    "caution": "1) 입력된 category 라벨과 실제 주가 임팩트가 어긋나는 사례 있음 — COO는 '어닝서프라이즈' 분류지만 실질은 가이던스 미스로 인한 급락이므로 category 1 특유의 '상향 모멘텀' 해석을 그대로 적용하면 안 됨. 2) SEDG의 category 5(산업 돌파)는 원문에 'PO·계약 미체결'이 명시돼 있어 촉매의 확정성이 낮음 — Investor Day 공시 자체는 이벤트지만 실질 계약 성사 여부는 별도 확인 필요. 3) AVAV는 Zacks 보도 인용으로 구체적 매출·EPS 수치가 원문에 없어 서프라이즈 폭을 정량 평가할 수 없음. 4) category 6(LEN.B·BLX·CALM·BHF·WSO.B)은 뉴스 트리거가 불명확하거나(WSO.B는 원인 언급 자체가 없음) 과거 이벤트와 시차가 커(BLX 실적은 6주 전) 이번 주 이상거래량의 직접 원인으로 보기 어려움 — 문의 지침대로 category 1·5 외 항목은 하이라이트에서 제외했으므로 이들의 판단은 원 표를 참조할 것. 5) 본 요약은 제공된 자료에만 근거했으며 추가 웹검색·가격 데이터 검증은 수행하지 않음.",
+    "researchedOn": "2026-09-11"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 3,
+    "3": 1,
+    "5": 2,
+    "6": 5
   }
 };

@@ -1,0 +1,172 @@
+{
+ "ticker": "BHF",
+ "news": [
+  {
+   "title": "Why Is Brighthouse Financial (BHF) Down 13.6% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-brighthouse-financial-bhf-down-136-last-earnings-report",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Brighthouse Financial (BHF) Reports Q2 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/brighthouse-financial-bhf-reports-q2-earnings-what-key-metrics-have-say",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Brighthouse Financial (BHF) Q2 Earnings and Revenues Lag Estimates",
+   "url": "https://www.nasdaq.com/articles/brighthouse-financial-bhf-q2-earnings-and-revenues-lag-estimates",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Brighthouse Financial (BHF) to Report Q2 Results: Wall Street Expects Earnings Growth",
+   "url": "https://www.nasdaq.com/articles/brighthouse-financial-bhf-report-q2-results-wall-street-expects-earnings-growth",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "BHF Crosses Above Average Analyst Target",
+   "url": "https://www.nasdaq.com/articles/bhf-crosses-above-average-analyst-target",
+   "date": "2026-07-20",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Why Is Brighthouse Financial (BHF) Up 1.1% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-brighthouse-financial-bhf-11-last-earnings-report",
+   "date": "2026-06-05",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-18",
+   "reportDate": "2026-08-18",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1685040/000168504026000031/bhf-20260818.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1685040/000168504026000026/bhf-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "reportDate": "2026-06-03",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1685040/000168504026000022/bhf-20260603.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1685040/000168504026000017/bhf-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-23",
+   "reportDate": "2026-02-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1685040/000168504026000009/bhf-20260223.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "reportDate": "2026-02-12",
+   "items": [
+    "5.07",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1685040/000168504026000005/bhf-20260212.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0.72,
+  "saleNy": 1.23,
+  "epsCy": -34.07,
+  "epsNy": 9.41,
+  "cyTrend": -6.1,
+  "nyTrend": 1.85,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    86.22,
+    -36.11,
+    40.17
+   ],
+   "ni": [
+    1493.33,
+    "적자확대",
+    -82.66
+   ],
+   "opm": [
+    75.59,
+    -64.57,
+    8.88
+   ],
+   "updated": "2026-09-09 07:12:06"
+  }
+ }
+}

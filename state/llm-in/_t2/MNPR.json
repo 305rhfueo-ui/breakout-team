@@ -16,7 +16,7 @@
    "ny30": -3.1375
   },
   "newHigh52": false,
-  "bbCenterBrk5d": true,
+  "bbCenterBrk5d": false,
   "fs": {
    "sale": [
     null,
@@ -29,7 +29,7 @@
     "적자축소"
    ],
    "opm": null,
-   "updated": "2026-09-09 06:12:14"
+   "updated": "2026-09-10 06:06:41"
   },
   "qualifiedBy": [
    "3mo"
@@ -41,7 +41,7 @@
   },
   "top2Streak": {
    "m1": 0,
-   "m3": 37,
+   "m3": 38,
    "m6": 0
   }
  },

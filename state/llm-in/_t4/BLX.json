@@ -1,0 +1,67 @@
+{
+ "ticker": "BLX",
+ "news": [
+  {
+   "title": "BLX Q1 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/blx-q1-2026-earnings-transcript",
+   "date": "2026-04-28",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Bladex (BLX) Q4 2025 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/bladex-blx-q4-2025-earnings-call-transcript",
+   "date": "2026-02-13",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "BLX Crosses Below Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/blx-crosses-below-key-moving-average-level",
+   "date": "2026-01-07",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Bladex (BLX) Q3 2025 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/bladex-blx-q3-2025-earnings-call-transcript",
+   "date": "2025-11-28",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Banco Latinoamericano de Comercio Exterior (BLX) Passes Through 6% Yield Mark",
+   "url": "https://www.nasdaq.com/articles/banco-latinoamericano-de-comercio-exterior-blx-passes-through-6-yield-mark",
+   "date": "2025-10-29",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.9,
+  "saleNy": 8.77,
+  "epsCy": 12.27,
+  "epsNy": 2.84,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    3.74,
+    -1.62,
+    0.04
+   ],
+   "ni": [
+    3.54,
+    8.94,
+    8.76
+   ],
+   "opm": [
+    33.38,
+    30.72,
+    21.9
+   ],
+   "updated": "2026-09-08 06:21:09"
+  }
+ }
+}

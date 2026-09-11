@@ -1,0 +1,228 @@
+{
+ "ticker": "AEHR",
+ "sector": "Technology",
+ "industry": "Semiconductor Equipment & Materials",
+ "nameKo": "에흐르 테스트 시스템스",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 172.51,
+  "saleNy": 48.11,
+  "epsCy": 2400,
+  "epsNy": 84.44,
+  "est": {
+   "cyCur": 0.75,
+   "cy30": 0.15,
+   "nyCur": 1.38333,
+   "ny30": 0.3
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    33.69,
+    -43.67,
+    -26.53
+   ],
+   "ni": [
+    "흑자전환",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -6.4,
+    -41.01,
+    -47.03
+   ],
+   "updated": "2026-09-01 06:10:13"
+  },
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-09-04"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 3
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-11",
+  "nameKo": "에흐르 테스트 시스템스",
+  "nameEn": "AEHR TEST SYSTEMS",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001040470&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-05-29",
+     "derived": true,
+     "revenue": 18835000,
+     "profit": -1206000,
+     "netIncome": 1391000,
+     "margin": -6.4,
+     "yoy": {
+      "revenue": 33.7,
+      "profit": 62.4,
+      "netIncome": 148,
+      "priorEnd": "2025-05-30"
+     }
+    },
+    {
+     "periodEnd": "2026-02-27",
+     "derived": false,
+     "revenue": 10313000,
+     "profit": -4229000,
+     "netIncome": -3203000,
+     "margin": -41,
+     "yoy": {
+      "revenue": -43.7,
+      "profit": -277.9,
+      "netIncome": -398.1,
+      "priorEnd": "2025-02-28"
+     }
+    },
+    {
+     "periodEnd": "2025-11-28",
+     "derived": false,
+     "revenue": 9884000,
+     "profit": -4648000,
+     "netIncome": -3230000,
+     "margin": -47,
+     "yoy": {
+      "revenue": -26.5,
+      "profit": -207.2,
+      "netIncome": -214.2,
+      "priorEnd": "2024-11-29"
+     }
+    },
+    {
+     "periodEnd": "2025-08-29",
+     "derived": false,
+     "revenue": 10969000,
+     "profit": -4066000,
+     "netIncome": -2084000,
+     "margin": -37.1,
+     "yoy": {
+      "revenue": -16.4,
+      "profit": -2657.2,
+      "netIncome": -415.8,
+      "priorEnd": "2024-08-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Can AEHR Turn AI Processor Tests Into Long-Term Revenue Streams?",
+     "url": "https://www.nasdaq.com/articles/can-aehr-turn-ai-processor-tests-long-term-revenue-streams",
+     "date": "2026-09-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Computer and Technology Stocks Lagging  Aehr Test Systems (AEHR) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-computer-and-technology-stocks-lagging-aehr-test-systems-aehr-year",
+     "date": "2026-09-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Aehr Test Systems Insider Sells $847,000 Worth of Stock",
+     "url": "https://www.nasdaq.com/articles/aehr-test-systems-insider-sells-847000-worth-stock",
+     "date": "2026-08-31",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "AEHR vs. COHU: Which Semiconductor Equipment Stock Is The Better Buy?",
+     "url": "https://www.nasdaq.com/articles/aehr-vs-cohu-which-semiconductor-equipment-stock-better-buy",
+     "date": "2026-08-31",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Aehr Test Systems Soars Again on Latest Orders, Jefferies Eyes Big-Time Upside Ahead",
+     "url": "https://www.nasdaq.com/articles/aehr-test-systems-soars-again-latest-orders-jefferies-eyes-big-time-upside-ahead",
+     "date": "2026-08-24",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?",
+     "url": "https://www.nasdaq.com/articles/can-aehr-turn-silicon-photonics-momentum-sustained-growth",
+     "date": "2026-08-19",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-14",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426006655/aehr_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-20",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426003746/aehr_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-08",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426003355/aehr_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-07",
+    "itemsKo": [
+     "실적 발표",
+     "5.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426003310/aehr_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-08",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426000197/aehr_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-11-07",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495425012704/aehr_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

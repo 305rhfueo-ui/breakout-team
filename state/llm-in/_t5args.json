@@ -1,6 +1,127 @@
 {
- "date": "2026-09-10",
+ "date": "2026-09-11",
  "cap": 6,
  "poolTotal": 12,
- "industries": []
+ "industries": [
+  {
+   "key": "Basic Materials|Coking Coal",
+   "sector": "Basic Materials",
+   "industry": "Coking Coal",
+   "count": 2,
+   "counts": {
+    "m1": 2,
+    "m3": 2,
+    "m6": 2
+   },
+   "wrs": {
+    "m1": 0.1587,
+    "m3": 0.0896,
+    "m6": 0.1137
+   },
+   "final": {
+    "m1": 0.0705,
+    "m3": 0.0505,
+    "m6": 0.054
+   },
+   "rankPct": {
+    "m1": 0.72,
+    "m3": 18.84,
+    "m6": 34.78
+   },
+   "pickedBy": [
+    "m1"
+   ],
+   "members": [
+    "AMR"
+   ],
+   "memberNews": [
+    {
+     "ticker": "AMR",
+     "date": "2026-09-10",
+     "publisher": "The Motley Fool",
+     "title": "Alpha Metallurgical Resources Director Courtis Buys $2.3 Million Shares. Is it Time for You to Buy Too?",
+     "url": "https://www.nasdaq.com/articles/alpha-metallurgical-resources-director-courtis-buys-23-million-shares-it-time-you-buy-too"
+    },
+    {
+     "ticker": "AMR",
+     "date": "2026-09-09",
+     "publisher": "BNK Invest",
+     "title": "Wednesday 9/9 Insider Buying Report: INBX, AMR",
+     "url": "https://www.nasdaq.com/articles/wednesday-9-9-insider-buying-report-inbx-amr"
+    },
+    {
+     "ticker": "AMR",
+     "date": "2026-08-25",
+     "publisher": "The Motley Fool",
+     "title": "Alpha Metallurgical Director Courtis Keeps Buying as He Adds Another  $1.1 Million Shares",
+     "url": "https://www.nasdaq.com/articles/alpha-metallurgical-director-courtis-keeps-buying-he-adds-another-11-million-shares"
+    }
+   ],
+   "flow": {
+    "FRANK": 89,
+    "frank25": 42,
+    "f10": -39.46188340807175,
+    "f25": 219.73392461197338,
+    "d50": 18.95,
+    "d200": 14.515,
+    "d200Delta": 30.91,
+    "cy": -85.58500000000001,
+    "ny": -19.174999999999997,
+    "upRatio": 20.833333333333336,
+    "coverage": 24,
+    "winRate": 1,
+    "stage": "early",
+    "stageKo": "⭐ 상승 초입",
+    "flow": "neutral"
+   }
+  },
+  {
+   "key": "Healthcare|Health Information Services",
+   "sector": "Healthcare",
+   "industry": "Health Information Services",
+   "count": 6,
+   "counts": {
+    "m1": 6,
+    "m3": 6,
+    "m6": 6
+   },
+   "wrs": {
+    "m1": -0.0089,
+    "m3": 0.2739,
+    "m6": 0.2726
+   },
+   "final": {
+    "m1": 0.0224,
+    "m3": 0.1139,
+    "m6": 0.2056
+   },
+   "rankPct": {
+    "m1": 32.61,
+    "m3": 1.45,
+    "m6": 14.49
+   },
+   "pickedBy": [
+    "m3"
+   ],
+   "members": [],
+   "memberNews": [],
+   "flow": {
+    "FRANK": 23,
+    "frank25": -7,
+    "f10": -6.332574031890658,
+    "f25": 4.631043256997454,
+    "d50": -5.470000000000001,
+    "d200": 15.11,
+    "d200Delta": -5.715,
+    "cy": 0.1,
+    "ny": 0.97,
+    "upRatio": 65.84507042253522,
+    "coverage": 284,
+    "winRate": 0.8333,
+    "stage": "pullback",
+    "stageKo": "❄️ 조정 중",
+    "flow": "outflow"
+   }
+  }
+ ]
 }

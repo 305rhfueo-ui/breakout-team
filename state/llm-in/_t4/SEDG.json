@@ -1,0 +1,160 @@
+{
+ "ticker": "SEDG",
+ "news": [
+  {
+   "title": "Why Is SolarEdge (SEDG) Up 3.5% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-solaredge-sedg-35-last-earnings-report",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SolarEdge (SEDG) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/solaredge-sedg-q2-2026-earnings-call-transcript",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Compared to Estimates, SolarEdge (SEDG) Q2 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-solaredge-sedg-q2-earnings-look-key-metrics",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SolarEdge Technologies (SEDG) Q2 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/solaredge-technologies-sedg-q2-earnings-and-revenues-beat-estimates",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SolarEdge Technologies (SEDG) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/solaredge-technologies-sedg-earnings-expected-grow-should-you-buy",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-10",
+   "reportDate": "2026-09-10",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1419612/000117891326004477/zk2636103.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1419612/000117891326003833/a2635832.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-25",
+   "reportDate": "2026-06-22",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1419612/000117891326003337/zk2635609.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-03",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1419612/000117891326003098/zk2635500.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-09",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1419612/000117891326002501/zk2635247.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1419612/000117891326002404/zk2635207.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.39,
+  "saleNy": 11.39,
+  "epsCy": -86.01,
+  "epsNy": -391.15,
+  "cyTrend": -485.11,
+  "nyTrend": -37.8,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    19.63,
+    41.47,
+    70.91
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    -4.63,
+    -17.73,
+    -14.41
+   ],
+   "updated": "2026-09-01 06:50:47"
+  }
+ }
+}

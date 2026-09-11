@@ -1,0 +1,244 @@
+{
+ "ticker": "CRM",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "세일스포스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.42,
+  "saleNy": 9.82,
+  "epsCy": 32.99,
+  "epsNy": -3.86,
+  "est": {
+   "cyCur": 16.65051,
+   "cy30": 14.13332,
+   "nyCur": 16.00824,
+   "ny30": 15.51229
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    10.83,
+    13.27,
+    12.09
+   ],
+   "ni": [
+    86.86,
+    36.73,
+    13.76
+   ],
+   "opm": [
+    20.55,
+    21.08,
+    16.69
+   ],
+   "updated": "2026-09-08 06:18:43"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": "2026-08-28",
+   "m3": "2026-09-04",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 8,
+   "m3": 3,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-11",
+  "nameKo": "세일스포스",
+  "nameEn": "SALESFORCE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001108524&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": false,
+     "revenue": 11345000000,
+     "profit": 2331000000,
+     "netIncome": 3526000000,
+     "margin": 20.5,
+     "yoy": {
+      "revenue": 10.8,
+      "profit": 0,
+      "netIncome": 86.9,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 11133000000,
+     "profit": 2347000000,
+     "netIncome": 2107000000,
+     "margin": 21.1,
+     "yoy": {
+      "revenue": 13.3,
+      "profit": 20.9,
+      "netIncome": 36.7,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 11201000000,
+     "profit": 1869000000,
+     "netIncome": 1943000000,
+     "margin": 16.7,
+     "yoy": {
+      "revenue": 12.1,
+      "profit": 2.7,
+      "netIncome": 13.8,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 10259000000,
+     "profit": 2188000000,
+     "netIncome": 2086000000,
+     "margin": 21.3,
+     "yoy": {
+      "revenue": 8.6,
+      "profit": 15.6,
+      "netIncome": 36.6,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Agentforce ARR Hits $1.5B: Can It Boost Salesforce's Revenue Growth?",
+     "url": "https://www.nasdaq.com/articles/agentforce-arr-hits-15b-can-it-boost-salesforces-revenue-growth",
+     "date": "2026-09-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Salesforce (CRM) is a Top Growth Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-salesforce-crm-top-growth-stock-long-term",
+     "date": "2026-09-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Salesforce Stock Skyrocketed 40% Last Month",
+     "url": "https://www.nasdaq.com/articles/why-salesforce-stock-skyrocketed-40-last-month",
+     "date": "2026-09-08",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Salesforce's Massive AI Agent Labor Market Could Drive New Upside",
+     "url": "https://www.nasdaq.com/articles/salesforces-massive-ai-agent-labor-market-could-drive-new-upside",
+     "date": "2026-09-07",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Why Salesforce (CRM) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-salesforce-crm-top-momentum-stock-long-term",
+     "date": "2026-09-07",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-04",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000197/crm-20260902.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000187/crm-20260826.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000160/crm-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-02",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000138/crm-20260527.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-01",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000131/crm-20260528.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000125/crm-20260527.htm"
+   }
+  ],
+  "krReports": {
+   "total": 3,
+   "reports": [
+    {
+     "date": "2026-05-12",
+     "broker": "현대차증권",
+     "analyst": "장문영",
+     "title": "[세일스포스 (NYS:CRM)] 내러티브는 흔들렸지만, 구조는 강화되고 있다",
+     "summary": "- 글로벌 CRM 시장 점유율 43%로 1위. M&A 통해 AI가 실제 업무 수행하는 엔터프라이즈 운영 플랫폼으로 진화 중- Agentforce와 Data 360 ARR $29억으로 급성장. 예약의 60%가 기존 고객에서 발생- 12M Fwd P/E 14배로 과거 평균 크게 하회하는 역사적 저점. 위험 대비 기대수익 유리한 진입 시점 평가",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlzkzemxqcgkigcgxcmee.pdf"
+    },
+    {
+     "date": "2026-03-04",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "title": "[세일스포스 (NYS:CRM)] 중기 이상 이익 성장성을 높일 필요 명확",
+     "summary": "- 거대 AI 백본을 보유한 글로벌 빅테크의 엔터프라이즈 영역 진입- 위 과정에 따른 경쟁강도 심화를 타개하기 위한 빅테크와 협력 요구- 동사 FY27E PER 및 3개년 EPS CAGR 기반 PEGR 1.2배 감안 필요",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgzqqixkmxlxmgcgxcmee.pdf"
+    },
+    {
+     "date": "2025-12-04",
+     "broker": "한화증권",
+     "analyst": "임해인",
+     "title": "[세일스포스 (NYS:CRM)] Earnings Flash",
+     "summary": "- 매출액 102.6억 달러(YoY +8.6%, 고정 통화 기준 +8%)로 2개 분기 연속 최고치 경신, 예상치 0.2% 하회- 분기 내 38억 달러 자사주 매입, 4억 달러 배당금 지급. 자사주 매입 프로그램 총 승인 금액(500억 달러) 중 누적 281억 달러 사용- 역사적 최저 밸류에이션∙강력한 AI 성장률에도 불구, AI의 매출 기여가 초기 단계에 머물러 주가 반응 제한적. 시간 외 +1.8%",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxklgkxzmegmimgcgxcmee.pdf"
+    }
+   ]
+  }
+ }
+}
