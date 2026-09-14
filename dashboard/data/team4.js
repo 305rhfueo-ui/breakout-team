@@ -1,172 +1,995 @@
 window.TEAM4_DATA = {
-  "generated": "2026-09-11",
+  "generated": "2026-09-14",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2
   },
-  "universeHits": 37,
-  "analyzed": 37,
+  "universeHits": 38,
+  "analyzed": 38,
   "items": [
     {
-      "ticker": "COO",
-      "sector": "Healthcare",
-      "industry": "Medical Instruments & Supplies",
-      "price": 54.16999816894531,
-      "marketCap": "12.38B",
-      "volx": 5.45,
-      "volSurgeWk": 5.14,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 71.49,
-      "high52": 60.3,
-      "adr": 2.53,
+      "ticker": "FEIM",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "price": 88.37999725341797,
+      "marketCap": "0.99B",
+      "volx": 6.78,
+      "volSurgeWk": 7.95,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 87.94,
+      "high52": 98.46,
+      "adr": 6.37,
       "targetStatus": false,
-      "saleCy": 5.23,
-      "saleNy": 4.88,
-      "epsCy": 12.29,
-      "epsNy": 7.98,
-      "cyTrend": -0.06,
-      "nyTrend": -0.17,
+      "saleCy": 29.69,
+      "saleNy": 26.77,
+      "epsCy": 1291.4,
+      "epsNy": 56.1,
+      "cyTrend": 32.26,
+      "nyTrend": 0,
       "newHigh52": false,
-      "bbCenterBrk5d": false,
+      "bbCenterBrk5d": true,
       "fs": {
         "sale": [
-          7.9,
-          6.16,
-          4.59
+          -22.96,
+          -10.76,
+          8.26
         ],
         "ni": [
-          -188.83,
-          25.41,
-          -28
+          -253.43,
+          -89.83,
+          -32.14
         ],
         "opm": [
-          -2.87,
-          20.78,
-          13.18
+          -41.23,
+          7.52,
+          10.01
         ],
-        "updated": "2026-09-08 05:51:29"
+        "updated": "2026-09-08 10:16:35"
       },
       "congestion": {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 32.64
+        "bars": 501,
+        "rangePct": 125.53
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "COO",
-        "category": 1,
-        "company": "Cooper Companies는 CooperVision(콘택트렌즈)과 CooperSurgical(생식보조·산부인과 의료기기) 2개 사업부로 구성된 의료기기 업체로, FY2026 3Q 매출 10.66억달러 중 CooperVision이 7.17억달러, CooperSurgical이 3.492억달러를 기록해 여전히 콘택트렌즈 비중이 크다. 수개월간 진행돼 온 CooperSurgical 매각 여부에 대한 전략적 검토가 이번 실적 발표와 함께 '매각하지 않고 존속'으로 종결됐고, 동시에 CooperVision은 미국 채널 재고 조정(destocking)으로 유기성장이 정체되는 국면에 진입했다.",
-        "volumeExplanation": "2026-09-09 장 마감 후 발표된 FY2026 3Q 실적에서 비GAAP 희석EPS 1.15달러(컨센서스 1.11달러 대비 +3.6% 서프라이즈)를 기록했으나 매출 유기성장률은 1%에 그쳤고 CooperVision은 전년 동기 대비 사실상 보합이었다. 4Q 가이던스가 EPS 1.05~1.09달러로 컨센서스 1.19달러를 크게 하회하고, CooperSurgical 매각 전략적 검토가 '매각 없이 존속'으로 결론나면서 주가는 시간외에서 15% 급락했다. EPS 서프라이즈에도 불구하고 가이던스 쇼크와 전략적 검토 실망이 겹치며 VOL_X 5.45(거래대금 20일평균 대비)의 거래량 폭증으로 이어진 것으로, 성격상 호재라기보다 실적발표를 계기로 한 악재성 매물 폭증에 해당한다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "FY2026 3Q 매출은 전년 동기 대비 1% 증가한 10.66억달러(유기성장률 1%)였고, 비GAAP 희석EPS는 1.15달러로 전년 대비 4% 증가하며 컨센서스를 상회했다. CooperVision 매출 7.17억달러는 전년 동기와 사실상 동일했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "CooperCompanies Q3 Earnings: $1.07B Revenue | COO Stock News",
-                "publisher": "StockTitan",
-                "url": "https://www.stocktitan.net/news/COO/cooper-companies-announces-third-quarter-2026-t3b98dr77fnq.html",
-                "date": "2026-09-09",
-                "quote": "Revenue increased 1% year-over-year to $1.066 billion, including 1% organic growth.",
-                "verified": "unverified",
-                "httpStatus": 429
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "4분기 비GAAP EPS 가이던스가 1.05~1.09달러로 제시되어 월가 컨센서스 1.19달러를 크게 밑돌았다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Cooper Companies tumbles on weak guidance, strategic review conclusion",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/earnings/cooper-companies-tumbles-on-weak-guidance-strategic-review-conclusion-4894507",
-                "date": "2026-09-09",
-                "quote": "fall[s] well below the analyst consensus of $1.19",
-                "verified": "unverified",
-                "httpStatus": 403
-              },
-              {
-                "title": "CooperCompanies Q3 Earnings: $1.07B Revenue | COO Stock News",
-                "publisher": "StockTitan",
-                "url": "https://www.stocktitan.net/news/COO/cooper-companies-announces-third-quarter-2026-t3b98dr77fnq.html",
-                "date": "2026-09-09",
-                "quote": "$1.05 -$1.09",
-                "verified": "unverified",
-                "httpStatus": 429
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "실적 발표 직후 시간외 거래에서 주가가 15% 급락했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Cooper Companies tumbles on weak guidance, strategic review conclusion",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/earnings/cooper-companies-tumbles-on-weak-guidance-strategic-review-conclusion-4894507",
-                "date": "2026-09-09",
-                "quote": "Cooper Companies (NASDAQ:COO) shares plunged 15% in after-hours trading Wednesday",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "c4",
-            "statement": "이사회는 CooperSurgical 매각 여부에 대한 전략적 검토를 완료하고 매각하지 않기로 결정했으며, CooperVision은 미국 채널 재고 조정이 실적에 부담을 줬고 4분기에도 이어질 것이라고 밝혔다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Cooper Companies tumbles on weak guidance, strategic review conclusion",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/earnings/cooper-companies-tumbles-on-weak-guidance-strategic-review-conclusion-4894507",
-                "date": "2026-09-09",
-                "quote": "announced it would retain CooperSurgical after completing its strategic review process, concluding that offers received were not in shareholders' best interest",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          }
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "AGM.A",
+      "sector": "Financial Services",
+      "industry": "Credit Services",
+      "price": 156.02000427246094,
+      "marketCap": "1.69B",
+      "volx": 3.66,
+      "volSurgeWk": 2.5,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 100,
+      "high52": 88.65,
+      "adr": 0.02,
+      "targetStatus": false,
+      "saleCy": 17.08,
+      "saleNy": 12.89,
+      "epsCy": null,
+      "epsNy": null,
+      "cyTrend": null,
+      "nyTrend": null,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": null,
+      "congestion": {
+        "ok": true,
+        "baseHigh": 147.61,
+        "baseLow": 115,
+        "baseBars": 126,
+        "baseMonths": 6,
+        "rangePct": 28.36,
+        "breakoutDate": "2026-07-06",
+        "breakoutVolX": 3.27,
+        "barsSinceBreakout": 48,
+        "aboveMa150AtBreak": true,
+        "ma150AtBreak": 132.17,
+        "pivot": 147.61,
+        "distToPivotPct": 5.7,
+        "retestDate": "2026-07-07",
+        "retestVolRatio": 2.12,
+        "dryUp": false,
+        "phase": "extended",
+        "phaseKo": "과확장 (추격 금지)",
+        "score": 45,
+        "buyTrigger": {
+          "price": 147.61,
+          "note": "과확장(피봇 +5.7% > 3×ADR 0.06%) — 되돌림 대기"
+        }
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "SPSC",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "price": 82.68000030517578,
+      "marketCap": "2.98B",
+      "volx": 3.62,
+      "volSurgeWk": 3.88,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 45.4,
+      "high52": 71.98,
+      "adr": 4.01,
+      "targetStatus": false,
+      "saleCy": 5.21,
+      "saleNy": 6.26,
+      "epsCy": 14.83,
+      "epsNy": 8.6,
+      "cyTrend": 0,
+      "nyTrend": 0,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          5.56,
+          5.82,
+          12.72
         ],
-        "confidence": "high",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "모든 주요 주장(EPS, 가이던스, 주가, 전략 변화)이 SEC 공시 및 보도자료로 뒷받침됨"
+        "ni": [
+          -65.22,
+          -11.11,
+          47.17
+        ],
+        "opm": [
+          4.25,
+          12.78,
+          18
+        ],
+        "updated": "2026-09-08 09:41:18"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 82.38
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "ORCL",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "price": 150.27999877929688,
+      "marketCap": "432.88B",
+      "volx": 2.97,
+      "volSurgeWk": 2.29,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 2.72,
+      "high52": 46.13,
+      "adr": 4.28,
+      "targetStatus": false,
+      "saleCy": 34.28,
+      "saleNy": 44.98,
+      "epsCy": 6.58,
+      "epsNy": 35.53,
+      "cyTrend": 0.98,
+      "nyTrend": 1.09,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          20.63,
+          21.66,
+          14.22
+        ],
+        "ni": [
+          23.23,
+          25.99,
+          94.7
+        ],
+        "opm": [
+          31.98,
+          31.79,
+          29.46
+        ],
+        "updated": "2026-09-08 06:01:51"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 118.56
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "ICLR",
+      "sector": "Healthcare",
+      "industry": "Diagnostics & Research",
+      "price": 169.30999755859375,
+      "marketCap": "13.06B",
+      "volx": 2.65,
+      "volSurgeWk": 2,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 36.48,
+      "high52": 83.03,
+      "adr": 3.94,
+      "targetStatus": false,
+      "saleCy": -1.6,
+      "saleNy": 3.74,
+      "epsCy": -15.51,
+      "epsNy": 12.18,
+      "cyTrend": 0.01,
+      "nyTrend": 0.04,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          1.2,
+          0.93,
+          10.56
+        ],
+        "ni": [
+          -64.34,
+          -34.86,
+          -166.14
+        ],
+        "opm": [
+          6.68,
+          8.54,
+          -4.72
+        ],
+        "updated": "2026-09-08 09:47:20"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 94.92
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "JDZG",
+      "sector": "Consumer Defensive",
+      "industry": "Education & Training Services",
+      "price": 3.5,
+      "marketCap": "0.02B",
+      "volx": 2.61,
+      "volSurgeWk": 4.88,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 0.34,
+      "adr": 12.4,
+      "targetStatus": false,
+      "saleCy": null,
+      "saleNy": null,
+      "epsCy": null,
+      "epsNy": null,
+      "cyTrend": null,
+      "nyTrend": null,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          null,
+          null,
+          null
+        ],
+        "ni": [
+          null,
+          null,
+          null
+        ],
+        "opm": null,
+        "updated": "2026-09-13 06:38:45"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 2447.53
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "MTN",
+      "sector": "Consumer Cyclical",
+      "industry": "Resorts & Casinos",
+      "price": 140.08999633789062,
+      "marketCap": "4.99B",
+      "volx": 2.59,
+      "volSurgeWk": 2.38,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 83.2,
+      "high52": 87.29,
+      "adr": 3.12,
+      "targetStatus": false,
+      "saleCy": -4.29,
+      "saleNy": 5.3,
+      "epsCy": -42.42,
+      "epsNy": 43.78,
+      "cyTrend": -0.22,
+      "nyTrend": -0.35,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          -6.98,
+          -4.69,
+          4.13
+        ],
+        "ni": [
+          -19.32,
+          -14.06,
+          "적자확대"
+        ],
+        "opm": [
+          41,
+          31.83,
+          -77.42
+        ],
+        "updated": "2026-09-09 06:36:20"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 35.42
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "IRMD",
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "price": 82.22000122070312,
+      "marketCap": "1.05B",
+      "volx": 2.58,
+      "volSurgeWk": 2.35,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 26.43,
+      "high52": 76.7,
+      "adr": 2.52,
+      "targetStatus": false,
+      "saleCy": 8.81,
+      "saleNy": 10.75,
+      "epsCy": 8.29,
+      "epsNy": 15.31,
+      "cyTrend": 0.72,
+      "nyTrend": 2.34,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          0.28,
+          12.65,
+          17.03
+        ],
+        "ni": [
+          -9.63,
+          24.13,
+          25.17
+        ],
+        "opm": [
+          31.23,
+          32.93,
+          31.26
+        ],
+        "updated": "2026-09-08 06:26:13"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 34.7
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "RH",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "price": 134.07000732421875,
+      "marketCap": "2.54B",
+      "volx": 2.57,
+      "volSurgeWk": 2.56,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 22.21,
+      "high52": 53.96,
+      "adr": 4.9,
+      "targetStatus": false,
+      "saleCy": 6.06,
+      "saleNy": 8.18,
+      "epsCy": -4.03,
+      "epsNy": 48.3,
+      "cyTrend": 26.15,
+      "nyTrend": -2.83,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          -1.67,
+          3.72,
+          8.88
+        ],
+        "ni": [
+          -270.38,
+          106.76,
+          9.34
+        ],
+        "opm": [
+          4.28,
+          11.46,
+          11.99
+        ],
+        "updated": "2026-09-08 09:48:38"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 89.08
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "DSGX",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "price": 76.04000091552734,
+      "marketCap": "6.51B",
+      "volx": 2.53,
+      "volSurgeWk": 2.64,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 79.3,
+      "high52": 70.72,
+      "adr": 3.72,
+      "targetStatus": false,
+      "saleCy": 13.85,
+      "saleNy": 12.6,
+      "epsCy": 2.41,
+      "epsNy": 12.86,
+      "cyTrend": -0.53,
+      "nyTrend": 1.24,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          14.75,
+          15.1,
+          11.21
+        ],
+        "ni": [
+          33.75,
+          22.04,
+          20.08
+        ],
+        "opm": [
+          32.3,
+          30.61,
+          30.15
+        ],
+        "updated": "2026-09-08 10:21:22"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 31.59
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "WF",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "price": 78.87000274658203,
+      "marketCap": "19.37B",
+      "volx": 2.53,
+      "volSurgeWk": 2.29,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 37.43,
+      "high52": 93.11,
+      "adr": 1.83,
+      "targetStatus": false,
+      "saleCy": 7.18,
+      "saleNy": 4.99,
+      "epsCy": 8.62,
+      "epsNy": 17.95,
+      "cyTrend": -1.26,
+      "nyTrend": 0.02,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          37.39,
+          8.7,
+          17.82
+        ],
+        "ni": [
+          14.16,
+          4.7,
+          89.47
+        ],
+        "opm": [
+          17.56,
+          12.77,
+          7.43
+        ],
+        "updated": "2026-09-08 08:03:59"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 44.57
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "ALNT",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "price": 98.66000366210938,
+      "marketCap": "1.68B",
+      "volx": 2.52,
+      "volSurgeWk": 3.02,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 55.05,
+      "high52": 83.17,
+      "adr": 4.74,
+      "targetStatus": true,
+      "saleCy": 8.52,
+      "saleNy": 8.72,
+      "epsCy": 26.14,
+      "epsNy": 21.24,
+      "cyTrend": 8.41,
+      "nyTrend": 7.17,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          10.17,
+          4.6,
+          17.49
+        ],
+        "ni": [
+          84.99,
+          50.6,
+          111.85
+        ],
+        "opm": [
+          10.15,
+          6.71,
+          7.92
+        ],
+        "updated": "2026-09-09 07:14:35"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 107.36
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "PFBC",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "price": 102.9800033569336,
+      "marketCap": "1.22B",
+      "volx": 2.5,
+      "volSurgeWk": 2.28,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 8.37,
+      "high52": 92.42,
+      "adr": 1.97,
+      "targetStatus": false,
+      "saleCy": 0.24,
+      "saleNy": 5.27,
+      "epsCy": 3.15,
+      "epsNy": 2.24,
+      "cyTrend": 0.39,
+      "nyTrend": -2.37,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          6.24,
+          -6.42,
+          null
+        ],
+        "ni": [
+          11.71,
+          3.05,
+          null
+        ],
+        "opm": [
+          38.56,
+          36.79,
+          null
+        ],
+        "updated": "2026-09-07 05:56:57"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 30.11
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "BGSI",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto & Truck Dealerships",
+      "price": 90.4000015258789,
+      "marketCap": "2.52B",
+      "volx": 2.37,
+      "volSurgeWk": 2.87,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 100,
+      "high52": 49.47,
+      "adr": 4.07,
+      "targetStatus": false,
+      "saleCy": 29.77,
+      "saleNy": 8.43,
+      "epsCy": 20.53,
+      "epsNy": 44.51,
+      "cyTrend": -10.35,
+      "nyTrend": -9.54,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          28.05,
+          5.52,
+          5.04
+        ],
+        "ni": [
+          "적자확대",
+          96.15,
+          274.61
+        ],
+        "opm": [
+          2.03,
+          3.41,
+          4.25
+        ],
+        "updated": "2026-09-08 07:27:40"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 215,
+        "rangePct": 102.31
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "AXSM",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "price": 220.75,
+      "marketCap": "11.56B",
+      "volx": 2.31,
+      "volSurgeWk": 2.63,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 48.37,
+      "high52": 84.84,
+      "adr": 3.2,
+      "targetStatus": false,
+      "saleCy": 51.33,
+      "saleNy": 61.67,
+      "epsCy": -24.1,
+      "epsNy": -290.92,
+      "cyTrend": 44.95,
+      "nyTrend": -13.19,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          45.54,
+          57.42,
+          65.03
+        ],
+        "ni": [
+          "적자확대",
+          "적자확대",
+          "적자축소"
+        ],
+        "opm": [
+          -22.73,
+          -33.14,
+          -13.75
+        ],
+        "updated": "2026-09-08 06:10:20"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 70.86
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "QRVO",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "price": 116.6500015258789,
+      "marketCap": "10.29B",
+      "volx": 2.31,
+      "volSurgeWk": 1.69,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 51.17,
+      "high52": 96.79,
+      "adr": 3.46,
+      "targetStatus": false,
+      "saleCy": -4.79,
+      "saleNy": 3.4,
+      "epsCy": 8.14,
+      "epsNy": 4.44,
+      "cyTrend": -1.45,
+      "nyTrend": -0.72,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          -4.15,
+          -7.04,
+          8.36
+        ],
+        "ni": [
+          235.24,
+          -5.21,
+          297.52
+        ],
+        "opm": [
+          12.33,
+          3.9,
+          19.35
+        ],
+        "updated": "2026-09-07 06:34:24"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 59.76
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "TRP",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "price": 60.880001068115234,
+      "marketCap": "63.42B",
+      "volx": 2.24,
+      "volSurgeWk": 1.82,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 29.65,
+      "high52": 85.87,
+      "adr": 2.13,
+      "targetStatus": false,
+      "saleCy": 5.17,
+      "saleNy": 5.21,
+      "epsCy": 6.43,
+      "epsNy": 4.89,
+      "cyTrend": 0.33,
+      "nyTrend": -0.07,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          5.59,
+          11.54,
+          222.32
+        ],
+        "ni": [
+          18.37,
+          -3.79,
+          2.71
+        ],
+        "opm": [
+          54.92,
+          56.23,
+          52.55
+        ],
+        "updated": "2026-09-09 07:23:21"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "base",
+        "phaseKo": "6개월 횡보 베이스 형성 중",
+        "baseHigh": 71.47,
+        "baseLow": 59.29,
+        "baseBars": 126,
+        "baseMonths": 6,
+        "rangePct": 20.54,
+        "contraction": 0.77,
+        "pivot": 71.47,
+        "distToPivotPct": -14.82,
+        "aboveMa150AtNow": false,
+        "buyTrigger": {
+          "price": 71.47,
+          "note": "$71.47(저항선) 거래량 동반 돌파 시 진입 검토"
         },
-        "categoryName": "어닝 서프라이즈/가이던스 상향",
-        "isHighlight": true,
-        "researchedOn": "2026-09-11",
-        "carried": false
+        "score": 50
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "JBTM",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "price": 114.37999725341797,
+      "marketCap": "5.93B",
+      "volx": 2.22,
+      "volSurgeWk": 2.55,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 74.88,
+      "high52": 67.36,
+      "adr": 3.12,
+      "targetStatus": false,
+      "saleCy": 5.85,
+      "saleNy": 5.11,
+      "epsCy": 25.56,
+      "epsNy": 15.44,
+      "cyTrend": -0.3,
+      "nyTrend": 0.34,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          4.92,
+          9.6,
+          115.55
+        ],
+        "ni": [
+          833.33,
+          "흑자전환",
+          "흑자전환"
+        ],
+        "opm": [
+          4.69,
+          7.26,
+          7.17
+        ],
+        "updated": "2026-09-11 06:32:59"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 35.71
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
       "ticker": "AVAV",
       "sector": "Industrials",
       "industry": "Aerospace & Defense",
-      "price": 147.06500244140625,
-      "marketCap": "7.16B",
-      "volx": 4.52,
-      "volSurgeWk": 3.5,
+      "price": 146.7100067138672,
+      "marketCap": "7.46B",
+      "volx": 2.19,
+      "volSurgeWk": 1.17,
       "aboveMa150": false,
       "brk60d": false,
-      "clsPos": 27.27,
-      "high52": 35.19,
-      "adr": 5.64,
+      "clsPos": 95.24,
+      "high52": 35.11,
+      "adr": 5.73,
       "targetStatus": false,
-      "saleCy": 10.8,
-      "saleNy": 15.36,
-      "epsCy": -2.77,
-      "epsNy": 36.44,
-      "cyTrend": -0.72,
-      "nyTrend": -0.3,
+      "saleCy": 11.35,
+      "saleNy": 15.26,
+      "epsCy": -1.69,
+      "epsNy": 37.12,
+      "cyTrend": 0.38,
+      "nyTrend": 1.31,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
@@ -191,7 +1014,7 @@ window.TEAM4_DATA = {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 500,
+        "bars": 501,
         "rangePct": 64.69
       },
       "catalyst": {
@@ -248,692 +1071,75 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-09-11",
-        "carried": false
+        "carried": true
       }
     },
     {
-      "ticker": "WSO.B",
-      "sector": "Industrials",
-      "industry": "Industrial Distribution",
-      "price": 312.4599914550781,
-      "marketCap": "13.04B",
-      "volx": 3.6,
-      "volSurgeWk": 28.5,
+      "ticker": "KBH",
+      "sector": "Consumer Cyclical",
+      "industry": "Residential Construction",
+      "price": 49.15999984741211,
+      "marketCap": "3.01B",
+      "volx": 2.19,
+      "volSurgeWk": 2.22,
       "aboveMa150": false,
       "brk60d": false,
-      "clsPos": 0,
-      "high52": 69.52,
-      "adr": 0.12,
+      "clsPos": 92.11,
+      "high52": 73.13,
+      "adr": 2.81,
       "targetStatus": false,
-      "saleCy": 4.31,
-      "saleNy": 5.4,
-      "epsCy": null,
-      "epsNy": null,
-      "cyTrend": null,
-      "nyTrend": null,
+      "saleCy": -18.1,
+      "saleNy": 7.42,
+      "epsCy": -45.99,
+      "epsNy": 36.04,
+      "cyTrend": -0.39,
+      "nyTrend": -1.92,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          2.06,
-          0.13,
-          -9.99
+          -27.27,
+          -22.62,
+          -15.28
         ],
         "ni": [
-          -10.99,
-          -2.54,
-          -20.6
+          -74.6,
+          -69.44,
+          -46.66
         ],
         "opm": [
-          11.32,
-          7.19,
-          6.43
+          3.01,
+          3.52,
+          7.37
         ],
-        "updated": "2026-09-08 09:11:12"
+        "updated": "2026-09-08 10:04:56"
       },
       "congestion": {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
         "bars": 501,
-        "rangePct": 47.76
+        "rangePct": 44.52
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "WSO.B",
-        "category": 6,
-        "company": "Watsco는 북미 최대 규모의 HVAC/R(냉난방공조·냉동장비) 유통업체로, 주거·상업용 냉난방기기와 부품을 계약업체(contractor)에 공급하는 B2B 유통 모델이다. WSO.B는 의결권이 제한된 클래스B 보통주로 절대 거래량 자체가 매우 얇아(2026-09-10 기준 521주, 전일 249주) 거래대금·거래량 배수 같은 상대지표가 쉽게 왜곡되는 구조다. 2026년 2분기(6월 결산) 실적은 매출 +2% YoY(20억 달러대, 컨센서스 21.3억 달러 하회), EPS 4.00달러(컨센서스 4.41달러 하회)로, 2025년 인플레이션·관세·A2L 냉매 전환에 따른 일시적 가격 프리미엄이 소멸하며 매출총이익률·영업이익이 위축되는 국면에 있다.",
-        "volumeExplanation": "2026-09-10 WSO.B는 절대 거래주수 521주(전일 249주 대비 +109%)라는 미미한 규모에서도 VOL_X 3.6(거래대금 20일평균 대비)·주간 거래량배수 28.5배(당일제외 5일평균 대비)를 기록했으나, 이를 설명할 종목 특정 뉴스·신규 공시는 확인되지 않는다. 가장 최근 실적 이벤트는 6주 이상 전인 2026-07-29 2분기 8-K(item 2.02)로, EPS 컨센서스를 하회하고 영업이익이 전년 대비 12% 감소한 마진 위축 이슈였을 뿐 오늘 거래와는 시차가 크다. 150일선 아래·52주 고점 대비 -69.52%·종가강도(CLS_POS) 0(당일 저점 마감)인 하락 추세 속 배수 급등이라, 저유동성 클래스B 주식 특유의 절대주수 기반 기계적 왜곡에 가깝다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "2026-09-10 WSO.B 거래량이 절대 기준 521주로 전일 249주 대비 109% 증가했다고 보도됐으나, 급증 원인에 대한 언급은 없다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Watsco (NYSE:WSO.B) Sees Unusually-High Trading Volume – Should You Buy?",
-                "publisher": "The Cerbat Gem",
-                "url": "https://www.thecerbatgem.com/2026/09/10/watsco-nysewso-b-sees-unusually-high-trading-volume-should-you-buy.html",
-                "date": "2026-09-10",
-                "quote": "521 shares were traded during mid-day trading, an increase of 109% from the previous session's volume of 249 shares",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "c2"
-          ],
-          "reason": "c2의 statement 중 '매출 모두 컨센서스 하회'라는 주장이 quote에 직접 뒷받침되지 않음. 제목에 'Revenue Growth'는 있으나 quote 본문에는 매출이 컨센서스를 하회했다는 구체적 근거가 없음.",
-          "narrativeFixed": true
-        },
-        "volumeExplanationOriginal": "2026-09-10 WSO.B는 절대 거래주수 521주(전일 249주 대비 +109%)라는 미미한 규모에서도 VOL_X 3.6(거래대금 20일평균 대비)·주간 거래량배수 28.5배(당일제외 5일평균 대비)를 기록했으나, 이를 설명할 종목 특정 뉴스·신규 공시는 확인되지 않는다. 가장 최근 실적 이벤트는 6주 이상 전인 2026-07-29 2분기 8-K(item 2.02)로, 매출·EPS 모두 컨센서스를 하회하고 영업이익이 전년 대비 12% 감소한 마진 위축 이슈였을 뿐 오늘 거래와는 시차가 크다. 150일선 아래·52주 고점 대비 -69.52%·종가강도(CLS_POS) 0(당일 저점 마감)인 하락 추세 속 배수 급등이라, 저유동성 클래스B 주식 특유의 절대주수 기반 기계적 왜곡에 가깝다.",
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-09-11",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "SEDG",
-      "sector": "Technology",
-      "industry": "Solar",
-      "price": 36.75,
-      "marketCap": "2.10B",
-      "volx": 3.57,
-      "volSurgeWk": 4.04,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 89.65,
-      "high52": 45.23,
-      "adr": 6.55,
-      "targetStatus": false,
-      "saleCy": 11.39,
-      "saleNy": 11.39,
-      "epsCy": -86.01,
-      "epsNy": -391.15,
-      "cyTrend": -485.11,
-      "nyTrend": -37.8,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          19.63,
-          41.47,
-          70.91
-        ],
-        "ni": [
-          "적자축소",
-          "적자축소",
-          "적자축소"
-        ],
-        "opm": [
-          -4.63,
-          -17.73,
-          -14.41
-        ],
-        "updated": "2026-09-01 06:50:47"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 175.33
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "SEDG",
-        "category": 5,
-        "company": "SolarEdge는 DC 옵티마이저·인버터 기반 태양광 발전 시스템과 배터리 스토리지를 주력으로 하는 업체로, 매출 대부분이 주거·상업용 솔라 인버터에서 발생하며 미국 주거용 솔라 수요 부진의 영향을 받아온 국면이다. 최근 3개 분기 매출성장률(YoY)은 19.63%→41.47%→70.91%로 가속화됐으나 영업이익률은 -4.63%/-17.73%/-14.41%로 3개 분기 연속 적자이며 순이익도 '적자축소' 흐름에 머물러 있다. 이번 Investor Day는 기존 솔라 사업의 실적 턴어라운드 서사에 더해 Nexis·SST를 앞세운 AI 데이터센터向 전력인프라라는 신규 성장축을 제시한 자리다.",
-        "volumeExplanation": "2026-09-10 개최된 SolarEdge 2026 Investor Day에서 2029년 매출 24억달러·EBIT 3.6억달러의 중기 재무 목표와 함께 Nexis·SST 기반 AI 데이터센터 전력인프라 진출(medium-voltage-to-800VDC 변환단 부하시험 가동)이 발표되며 VOL_X 3.57(거래대금 20일평균 대비)·주간 거래량배수 4.04(당일제외 5일평균 대비)의 거래량 급증으로 이어졌다. 해당 행사는 2026-09-10 8-K(Item 7.01, Reg FD)로 공시됐다. 다만 AI 데이터센터 사업은 특정 고객과의 구체적 구매주문·계약이 아직 없는 초기 협의 단계라고 명시됐다.",
-        "claims": [
-          {
-            "id": "investor-day-8k",
-            "statement": "SolarEdge는 2026-09-10 8-K(Item 7.01, Reg FD)로 2026 Investor Day 개최를 공시, 전략·시장동향·제품로드맵(Nexis·Storage·SST)·운영재무 전망을 발표했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "SolarEdge Technologies 8-K (Item 7.01, Regulation FD Disclosure)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1419612/000117891326004477/zk2636103.htm",
-                "date": "2026-09-10",
-                "quote": "Management will share details regarding the Company's strategy, market trends, and product roadmap, including Nexis, Storage, and SST, as well as its operational and financial outlook.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "no-concrete-customer-order",
-            "statement": "다만 AI 데이터센터向 사업은 특정 고객과의 구체적인 구매주문(PO)이나 계약이 아직 체결되지 않은 초기 협의 단계라고 명시했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "SolarEdge Targets $2.4B Revenue By 2029 – A Look At Some Highlights From Its 2026 Investor Day",
-                "publisher": "Asianet Newsable",
-                "url": "https://newsable.asianetnews.com/markets/solaredge-targets-2-4b-revenue-by-2029-a-look-at-some-highlights-from-its-2026-investor-day-articleshow-zaazkz4",
-                "date": "2026-09-10",
-                "quote": "does not yet have a concrete purchase order or agreement with a specific customer",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "2029-financial-targets",
-            "ai-datacenter-nvidia-progress"
-          ],
-          "reason": "2029-financial-targets: 매출총이익률 35%가 quote에 없음. ai-datacenter-nvidia-progress: Nvidia 800VDC 백서 공동발행 내용이 quote에 없음(부하시험만 확인됨).",
-          "narrativeFixed": true
-        },
-        "volumeExplanationOriginal": "2026-09-10 개최된 SolarEdge 2026 Investor Day에서 2029년 매출 24억달러·매출총이익률 35%·EBIT 3.6억달러의 중기 재무 목표와 함께 Nexis·SST 기반 AI 데이터센터 전력인프라 진출(Nvidia와 800VDC 변환·보호접지 공동 백서 발행, medium-voltage-to-800VDC 변환단 부하시험 가동)이 발표되며 VOL_X 3.57(거래대금 20일평균 대비)·주간 거래량배수 4.04(당일제외 5일평균 대비)의 거래량 급증으로 이어졌다. 해당 행사는 전날인 9월 10일 8-K(Item 7.01, Reg FD)로 공시됐다. 다만 AI 데이터센터 사업은 특정 고객과의 구체적 구매주문·계약이 아직 없는 초기 협의 단계라고 명시됐다.",
-        "categoryName": "매크로·정책·산업 돌파",
-        "isHighlight": true,
-        "researchedOn": "2026-09-11",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "YPF",
-      "sector": "Energy",
-      "industry": "Oil & Gas Integrated",
-      "price": 56.060001373291016,
-      "marketCap": "20.63B",
-      "volx": 2.81,
-      "volSurgeWk": 2.4,
-      "aboveMa150": true,
-      "brk60d": true,
-      "clsPos": 56.86,
-      "high52": 97.51,
-      "adr": 3.34,
-      "targetStatus": false,
-      "saleCy": 24.57,
-      "saleNy": -6.37,
-      "epsCy": -431.21,
-      "epsNy": -17.83,
-      "cyTrend": 8.14,
-      "nyTrend": -4.5,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          41.65,
-          7.34,
-          -4.1
-        ],
-        "ni": [
-          2302,
-          "흑자전환",
-          "적자확대"
-        ],
-        "opm": [
-          27.58,
-          17.75,
-          12.82
-        ],
-        "updated": "2026-08-31 07:51:54"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 54.63
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "CSR",
-      "sector": "Real Estate",
-      "industry": "REIT - Residential",
-      "price": 57.689998626708984,
-      "marketCap": "0.89B",
-      "volx": 2.66,
-      "volSurgeWk": 1.16,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 89.81,
-      "high52": 84.01,
-      "adr": 2.16,
-      "targetStatus": false,
-      "saleCy": -6.75,
-      "saleNy": -0.85,
-      "epsCy": -39.22,
-      "epsNy": -158.06,
-      "cyTrend": -159.47,
-      "nyTrend": -30.58,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          -4.04,
-          -3.02,
-          0.32
-        ],
-        "ni": [
-          "적자축소",
-          "적자확대",
-          "적자확대"
-        ],
-        "opm": [
-          13.35,
-          -8.29,
-          -15.95
-        ],
-        "updated": "2026-09-07 06:36:00"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "base",
-        "phaseKo": "6개월 횡보 베이스 형성 중",
-        "baseHigh": 69.61,
-        "baseLow": 52,
-        "baseBars": 126,
-        "baseMonths": 6,
-        "rangePct": 33.87,
-        "contraction": 0.99,
-        "pivot": 69.61,
-        "distToPivotPct": -17.6,
-        "aboveMa150AtNow": false,
-        "buyTrigger": {
-          "price": 69.61,
-          "note": "$69.61(저항선) 거래량 동반 돌파 시 진입 검토"
-        },
-        "score": 20
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "CSR",
-        "category": 3,
-        "company": "Centerspace(CSR)는 노스다코타 소재 주거용(아파트) REIT로, 미네소타·노스다코타·콜로라도 등 중서부·산악주 비게이트웨이 중소형 시장에서 아파트 자산을 보유·운영해왔다. 2026년 상반기 내내 덴버·미니애폴리스·래피드시티·비즈마크 등 자산 매각으로 포트폴리오를 축소하며 재무구조를 정리해왔고, 컨센서스 기준 매출성장률(CY -6.75%/NY -0.85%)·EPS 성장률(CY -39.22%/NY -158.06%) 모두 역성장 국면에 있었다. 2026-09-08 Independence Realty Trust(IRT)와 전량 주식교환 방식의 합병계약을 체결하며 독립 상장사로서의 국면이 사실상 종료되는 시점을 맞았다.",
-        "volumeExplanation": "2026-09-08 체결, 2026-09-09 SEC 8-K(item 1.01)로 공시된 IRT와의 전량 주식교환 합병계약이 거래량 급증의 직접 촉매다. 교환비율은 CSR 1주당 IRT 보통주 3.800주로 주당 환산가치 $60.46, 직전 종가 대비 14.70% 프리미엄이 부여됐으며, 결합법인은 pro forma 자기자본시가총액 약 $5.0B·총기업가치 약 $8.1B이다. VOL_X 2.66(거래대금 20일평균 대비)은 이 합병 발표에 따른 재정거래(리스크 아비트리지) 수요 및 지수·펀드 리밸런싱 매물이 반영된 결과로 판단된다.",
-        "confidence": "high",
-        "claims": [
-          {
-            "id": "merger-agreement-8k",
-            "statement": "Centerspace는 2026-09-08 Independence Realty Trust(IRT)와 전량 주식교환 방식의 Agreement and Plan of Merger를 체결했으며, 이는 2026-09-09 SEC 8-K(item 1.01)로 공시됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Centerspace Form 8-K (Item 1.01 - Entry into a Material Definitive Agreement)",
-                "publisher": "U.S. Securities and Exchange Commission (EDGAR)",
-                "url": "https://www.sec.gov/Archives/edgar/data/798359/000114036126035986/ef20081761_8k.htm",
-                "date": "2026-09-09",
-                "quote": "On September 8, 2026, Centerspace, a North Dakota real estate investment trust (\"Centerspace\" or the \"Company\"), entered into an Agreement and Plan of Merger (the \"Merger Agreement\") with Independence Realty Trust, Inc., a Maryland corporation (\"IRT\"), Independence Realty Operating Partnership, LP, a Delaware limited partnership (\"IROP\"), Islanders OP Sub, LLC, a Delaware limited liability company and direct wholly owned subsidiary of IROP (\"IROP Merger Sub\"), and Centerspace, LP, a North Dakota limited partnership (the \"Company OP\").",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "premium-implied-value",
-            "statement": "교환비율 기준 CSR 주당 환산가치는 $60.46이며 이는 발표 직전 종가 대비 14.70% 프리미엄이다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Independence Realty Trust to Acquire Centerspace for $2.14 Billion",
-                "publisher": "InsideArbitrage",
-                "url": "https://www.insidearbitrage.com/2026/09/independence-realty-trust-to-acquire-centerspace-for-2-14-billion/",
-                "date": "2026-09-09",
-                "quote": "representing a 14.70% premium from the stock's last close",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "deal-terms-proforma"
-          ],
-          "reason": "deal-terms-proforma: 교환비율·시총·기업가치는 근거 있으나, '아파트 44,000세대' 및 주주 지분율 정보는 quote에 없음. 또한 volumeExplanation의 '연간 시너지 $24M·Core FFO 5% 상향'도 claims에 없어 제거 필요.",
-          "narrativeFixed": true
-        },
-        "volumeExplanationOriginal": "2026-09-08 체결, 2026-09-09 SEC 8-K(item 1.01)로 공시된 IRT와의 전량 주식교환 합병계약이 거래량 급증의 직접 촉매다. 교환비율은 CSR 1주당 IRT 보통주 3.800주로 주당 환산가치 $60.46, 직전 종가 대비 14.70% 프리미엄이 부여됐으며, 결합법인은 pro forma 자기자본시가총액 약 $5.0B·총기업가치 약 $8.1B, 아파트 44,000세대 이상 포트폴리오를 형성하고 연간 시너지 약 $24M·2027년 Core FFO 주당 약 5% 상향 효과가 제시됐다. VOL_X 2.66(거래대금 20일평균 대비)은 이 합병 발표에 따른 재정거래(리스크 아비트리지) 수요 및 지수·펀드 리밸런싱 매물이 반영된 결과로 판단된다.",
-        "categoryName": "대형 파트너십·공급계약",
-        "isHighlight": false,
-        "researchedOn": "2026-09-11",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "VEON",
-      "sector": "Communication Services",
-      "industry": "Telecom Services",
-      "price": 69.16000366210938,
-      "marketCap": "4.42B",
-      "volx": 2.62,
-      "volSurgeWk": 1.58,
-      "aboveMa150": true,
-      "brk60d": true,
-      "clsPos": 93.58,
-      "high52": 99.51,
-      "adr": 3.39,
-      "targetStatus": false,
-      "saleCy": 15.38,
-      "saleNy": 7.8,
-      "epsCy": 35.97,
-      "epsNy": 21.88,
-      "cyTrend": -2.38,
-      "nyTrend": -0.26,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          16.93,
-          17.06,
-          17.33
-        ],
-        "ni": [
-          -79.5,
-          0,
-          -138.27
-        ],
-        "opm": [
-          27.46,
-          25.48,
-          27.41
-        ],
-        "updated": "2026-09-09 06:06:21"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 53.09
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "RH",
-      "sector": "Consumer Cyclical",
-      "industry": "Specialty Retail",
-      "price": 134.02000427246094,
-      "marketCap": "2.64B",
-      "volx": 2.6,
-      "volSurgeWk": 3.59,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 24.9,
-      "high52": 53.94,
-      "adr": 4.69,
-      "targetStatus": false,
-      "saleCy": 5.5,
-      "saleNy": 8.65,
-      "epsCy": -24.3,
-      "epsNy": 90.75,
-      "cyTrend": -0.16,
-      "nyTrend": -1.22,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          -1.67,
-          3.72,
-          8.88
-        ],
-        "ni": [
-          -270.38,
-          106.76,
-          9.34
-        ],
-        "opm": [
-          4.28,
-          11.46,
-          11.99
-        ],
-        "updated": "2026-09-08 09:48:38"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 89.08
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "KMB",
-      "sector": "Consumer Defensive",
-      "industry": "Household & Personal Products",
-      "price": 98.4800033569336,
-      "marketCap": "32.83B",
-      "volx": 2.56,
-      "volSurgeWk": 2.29,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 16.21,
-      "high52": 79.62,
-      "adr": 1.82,
-      "targetStatus": false,
-      "saleCy": 1.24,
-      "saleNy": 2.56,
-      "epsCy": -1.07,
-      "epsNy": 0.72,
-      "cyTrend": 0.6,
-      "nyTrend": -0.48,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          0.62,
-          2.69,
-          24.35
-        ],
-        "ni": [
-          -32.22,
-          17.28,
-          11.63
-        ],
-        "opm": [
-          15.11,
-          18.09,
-          12.43
-        ],
-        "updated": "2026-09-08 10:02:47"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 26.4
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "QRVO",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "price": 112.36000061035156,
-      "marketCap": "9.28B",
-      "volx": 2.5,
-      "volSurgeWk": 2.06,
-      "aboveMa150": true,
-      "brk60d": true,
-      "clsPos": 82.01,
-      "high52": 98.32,
-      "adr": 3.16,
-      "targetStatus": false,
-      "saleCy": -4.79,
-      "saleNy": 3.4,
-      "epsCy": 8.14,
-      "epsNy": 4.44,
-      "cyTrend": -1.45,
-      "nyTrend": -0.72,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          -4.15,
-          -7.04,
-          8.36
-        ],
-        "ni": [
-          235.24,
-          -5.21,
-          297.52
-        ],
-        "opm": [
-          12.33,
-          3.9,
-          19.35
-        ],
-        "updated": "2026-09-07 06:34:24"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 45.14
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "ORA",
-      "sector": "Utilities",
-      "industry": "Utilities - Renewable",
-      "price": 96.6500015258789,
-      "marketCap": "6.08B",
-      "volx": 2.49,
-      "volSurgeWk": 2.12,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 8.58,
-      "high52": 66.09,
-      "adr": 3.17,
-      "targetStatus": false,
-      "saleCy": 19.02,
-      "saleNy": -1.5,
-      "epsCy": 17.55,
-      "epsNy": -3.4,
-      "cyTrend": 1.55,
-      "nyTrend": -3.42,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          10.57,
-          75.8,
-          19.63
-        ],
-        "ni": [
-          -3.42,
-          9.18,
-          -23.19
-        ],
-        "opm": [
-          13.22,
-          19.87,
-          15.42
-        ],
-        "updated": "2026-09-08 07:35:34"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 57.26
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "ONC",
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "price": 341.79998779296875,
-      "marketCap": "39.71B",
-      "volx": 2.37,
-      "volSurgeWk": 2.78,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 56.07,
-      "high52": 88.73,
-      "adr": 2.1,
-      "targetStatus": false,
-      "saleCy": 26.33,
-      "saleNy": 14.36,
-      "epsCy": 200.3,
-      "epsNy": 35.36,
-      "cyTrend": 0.72,
-      "nyTrend": 1.33,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          29.63,
-          35.46,
-          32.84
-        ],
-        "ni": [
-          151.28,
-          17802.13,
-          "흑자전환"
-        ],
-        "opm": [
-          19.06,
-          16.51,
-          12.35
-        ],
-        "updated": "2026-09-08 10:46:37"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 49.64
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
       "ticker": "SWKS",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "price": 84.02999877929688,
-      "marketCap": "11.52B",
-      "volx": 2.27,
-      "volSurgeWk": 2.03,
+      "price": 88.3499984741211,
+      "marketCap": "13.29B",
+      "volx": 2.17,
+      "volSurgeWk": 1.75,
       "aboveMa150": true,
       "brk60d": true,
-      "clsPos": 83.24,
-      "high52": 95.44,
-      "adr": 4.82,
+      "clsPos": 52.69,
+      "high52": 95.72,
+      "adr": 5.22,
       "targetStatus": false,
       "saleCy": -3.41,
       "saleNy": 2.29,
@@ -965,143 +1171,134 @@ window.TEAM4_DATA = {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 64.03
+        "bars": 501,
+        "rangePct": 77.74
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "MCB",
-      "sector": "Financial Services",
-      "industry": "Banks - Regional",
-      "price": 90.6500015258789,
-      "marketCap": "1.12B",
-      "volx": 2.24,
-      "volSurgeWk": 2.51,
+      "ticker": "DCO",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "price": 172.72999572753906,
+      "marketCap": "2.61B",
+      "volx": 2.07,
+      "volSurgeWk": 2.54,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 86.07,
-      "high52": 89.17,
-      "adr": 1.93,
+      "clsPos": 94.74,
+      "high52": 82.1,
+      "adr": 3.6,
       "targetStatus": false,
-      "saleCy": 20.3,
-      "saleNy": 14.45,
-      "epsCy": 43.64,
-      "epsNy": 20.84,
-      "cyTrend": -9.18,
-      "nyTrend": -3.6,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          10.67,
-          12.34,
-          13.14
-        ],
-        "ni": [
-          2.43,
-          92.16,
-          34.74
-        ],
-        "opm": [
-          19.43,
-          32.28,
-          29.3
-        ],
-        "updated": "2026-09-08 07:37:55"
-      },
-      "congestion": {
-        "ok": true,
-        "baseHigh": 98.81,
-        "baseLow": 74.05,
-        "baseBars": 126,
-        "baseMonths": 6,
-        "rangePct": 33.44,
-        "breakoutDate": "2026-06-26",
-        "breakoutVolX": 4.28,
-        "barsSinceBreakout": 51,
-        "aboveMa150AtBreak": true,
-        "ma150AtBreak": 86,
-        "pivot": 98.81,
-        "distToPivotPct": -8.7,
-        "phase": "failed",
-        "phaseKo": "돌파 실패 (저항 아래 재이탈)",
-        "belowRun": 35,
-        "score": 0
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "KSPI",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "price": 97.1500015258789,
-      "marketCap": "18.46B",
-      "volx": 2.24,
-      "volSurgeWk": 2.47,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 14.17,
-      "high52": 88.37,
-      "adr": 3.17,
-      "targetStatus": false,
-      "saleCy": 17.34,
-      "saleNy": 17.09,
-      "epsCy": 6.81,
-      "epsNy": 11,
-      "cyTrend": 3.76,
-      "nyTrend": -0.83,
+      "saleCy": 7.13,
+      "saleNy": 9.58,
+      "epsCy": 16.81,
+      "epsNy": 22.43,
+      "cyTrend": 5.33,
+      "nyTrend": 4.69,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          20.7,
-          31.49,
-          40.96
+          11.8,
+          8.59,
+          11.06
         ],
         "ni": [
-          4.76,
-          -1.06,
-          -19.66
+          59.94,
+          607.28,
+          "흑자전환"
         ],
         "opm": [
-          29.49,
-          29.83,
-          30.68
+          12.62,
+          7.52,
+          9.87
         ],
-        "updated": "2026-09-09 07:01:59"
+        "updated": "2026-09-08 08:59:53"
       },
       "congestion": {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 60.29
+        "bars": 501,
+        "rangePct": 82
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "price": 252.22999572753906,
+      "marketCap": "100.26B",
+      "volx": 2.04,
+      "volSurgeWk": 1.78,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 77.74,
+      "high52": 68.01,
+      "adr": 3.41,
+      "targetStatus": false,
+      "saleCy": 11.9,
+      "saleNy": 8.99,
+      "epsCy": 16.87,
+      "epsNy": 12.87,
+      "cyTrend": 0.26,
+      "nyTrend": 0.49,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          12.69,
+          11.97,
+          10.49
+        ],
+        "ni": [
+          1.24,
+          4.31,
+          10.28
+        ],
+        "opm": [
+          33.82,
+          37.79,
+          36.5
+        ],
+        "updated": "2026-09-08 07:22:43"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 54.92
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
       "ticker": "SITE",
       "sector": "Industrials",
       "industry": "Industrial Distribution",
-      "price": 94.77999877929688,
-      "marketCap": "4.27B",
-      "volx": 2.22,
-      "volSurgeWk": 2.1,
+      "price": 92.81999969482422,
+      "marketCap": "4.05B",
+      "volx": 2.04,
+      "volSurgeWk": 1.67,
       "aboveMa150": false,
       "brk60d": false,
-      "clsPos": 24.07,
-      "high52": 56.23,
-      "adr": 2.72,
+      "clsPos": 2.36,
+      "high52": 55.07,
+      "adr": 2.82,
       "targetStatus": false,
       "saleCy": 4.11,
       "saleNy": 4.02,
@@ -1133,27 +1330,688 @@ window.TEAM4_DATA = {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 500,
+        "bars": 501,
         "rangePct": 67.45
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "JDZG",
-      "sector": "Consumer Defensive",
-      "industry": "Education & Training Services",
-      "price": 3.5299999713897705,
-      "marketCap": "0.02B",
-      "volx": 2.2,
-      "volSurgeWk": 10.49,
+      "ticker": "OKLO",
+      "sector": "Utilities",
+      "industry": "Utilities - Independent Power Producers",
+      "price": 36.220001220703125,
+      "marketCap": "6.74B",
+      "volx": 2.03,
+      "volSurgeWk": 2.36,
       "aboveMa150": false,
       "brk60d": false,
-      "clsPos": 21.95,
-      "high52": 0.35,
-      "adr": 12.69,
+      "clsPos": 0.67,
+      "high52": 18.69,
+      "adr": 6.01,
+      "targetStatus": true,
+      "saleCy": 0,
+      "saleNy": 271.57,
+      "epsCy": 35.36,
+      "epsNy": 1.29,
+      "cyTrend": 9.79,
+      "nyTrend": 9.54,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          null,
+          null,
+          null
+        ],
+        "ni": [
+          "적자확대",
+          "적자확대",
+          "적자확대"
+        ],
+        "opm": [
+          -6048.76,
+          null,
+          null
+        ],
+        "updated": "2026-09-13 06:39:05"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 125.14
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "KR",
+      "sector": "Consumer Defensive",
+      "industry": "Grocery Stores",
+      "price": 58.4900016784668,
+      "marketCap": "34.86B",
+      "volx": 2.01,
+      "volSurgeWk": 1.99,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 73.96,
+      "high52": 77.31,
+      "adr": 2.29,
+      "targetStatus": false,
+      "saleCy": 1.91,
+      "saleNy": 1.72,
+      "epsCy": 7.23,
+      "epsNy": 5.84,
+      "cyTrend": -0.17,
+      "nyTrend": -0.56,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          2.22,
+          1.22,
+          0.67
+        ],
+        "ni": [
+          4.27,
+          35.8,
+          -313.59
+        ],
+        "opm": [
+          3.05,
+          3.59,
+          -4.55
+        ],
+        "updated": "2026-09-08 09:53:12"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 40.11
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "JCI",
+      "sector": "Industrials",
+      "industry": "Building Products & Equipment",
+      "price": 146.00999450683594,
+      "marketCap": "88.44B",
+      "volx": 1.98,
+      "volSurgeWk": 2,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 62.32,
+      "high52": 92.96,
+      "adr": 2.13,
+      "targetStatus": false,
+      "saleCy": 8.31,
+      "saleNy": 7.88,
+      "epsCy": 34.68,
+      "epsNy": 19.46,
+      "cyTrend": -0.03,
+      "nyTrend": 0.85,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          9.29,
+          8.21,
+          6.84
+        ],
+        "ni": [
+          6.85,
+          28.24,
+          25.06
+        ],
+        "opm": [
+          14.92,
+          13.09,
+          13.21
+        ],
+        "updated": "2026-09-08 07:58:34"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "base",
+        "phaseKo": "6개월 횡보 베이스 형성 중",
+        "baseHigh": 157.06,
+        "baseLow": 125.91,
+        "baseBars": 126,
+        "baseMonths": 6,
+        "rangePct": 24.74,
+        "contraction": 0.74,
+        "pivot": 157.06,
+        "distToPivotPct": -7.04,
+        "aboveMa150AtNow": true,
+        "buyTrigger": {
+          "price": 157.06,
+          "note": "$157.06(저항선) 거래량 동반 돌파 시 진입 검토"
+        },
+        "score": 50
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "FLXS",
+      "sector": "Consumer Cyclical",
+      "industry": "Furnishings, Fixtures & Appliances",
+      "price": 81.4000015258789,
+      "marketCap": "0.33B",
+      "volx": 1.98,
+      "volSurgeWk": 2.39,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 48.04,
+      "high52": 91.99,
+      "adr": 5.54,
+      "targetStatus": false,
+      "saleCy": 3.6,
+      "saleNy": 4.64,
+      "epsCy": 7.09,
+      "epsNy": 14.37,
+      "cyTrend": 4.75,
+      "nyTrend": 4.67,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          0.66,
+          1.01,
+          9
+        ],
+        "ni": [
+          18.78,
+          "흑자전환",
+          -26.62
+        ],
+        "opm": [
+          14.17,
+          7.14,
+          7.61
+        ],
+        "updated": "2026-09-01 06:19:21"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 105.79
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "AVT",
+      "sector": "Technology",
+      "industry": "Electronics & Computer Distribution",
+      "price": 99.62999725341797,
+      "marketCap": "8.18B",
+      "volx": 1.89,
+      "volSurgeWk": 2.01,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 95.04,
+      "high52": 99.71,
+      "adr": 3.7,
+      "targetStatus": true,
+      "saleCy": 29.44,
+      "saleNy": 5.23,
+      "epsCy": 86.46,
+      "epsNy": 4.48,
+      "cyTrend": 33.96,
+      "nyTrend": 24.4,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          47.66,
+          33.95,
+          11.58
+        ],
+        "ni": [
+          1978.81,
+          7.29,
+          -29.25
+        ],
+        "opm": [
+          2.78,
+          2.89,
+          2.31
+        ],
+        "updated": "2026-09-07 07:22:36"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 72.29
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "CLX",
+      "sector": "Consumer Defensive",
+      "industry": "Household & Personal Products",
+      "price": 87.76000213623047,
+      "marketCap": "10.61B",
+      "volx": 1.85,
+      "volSurgeWk": 2.43,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 50.75,
+      "high52": 69.75,
+      "adr": 2.62,
+      "targetStatus": false,
+      "saleCy": 13.55,
+      "saleNy": 2.38,
+      "epsCy": 4.72,
+      "epsNy": 8.11,
+      "cyTrend": -0.31,
+      "nyTrend": -1.61,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          -2.01,
+          0.12,
+          -0.77
+        ],
+        "ni": [
+          -50.9,
+          0.54,
+          -18.65
+        ],
+        "opm": [
+          13.24,
+          17.31,
+          14.41
+        ],
+        "updated": "2026-09-09 05:58:07"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 33.55
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "CPA",
+      "sector": "Industrials",
+      "industry": "Airlines",
+      "price": 129.14999389648438,
+      "marketCap": "5.27B",
+      "volx": 1.77,
+      "volSurgeWk": 2.28,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 56.13,
+      "high52": 81.56,
+      "adr": 2.25,
+      "targetStatus": false,
+      "saleCy": 22.03,
+      "saleNy": 6.1,
+      "epsCy": 1.76,
+      "epsNy": 16.66,
+      "cyTrend": -2.3,
+      "nyTrend": -0.32,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          25.72,
+          17.04,
+          9.59
+        ],
+        "ni": [
+          -54.22,
+          20.2,
+          4.14
+        ],
+        "opm": [
+          8.65,
+          24.58,
+          21.77
+        ],
+        "updated": "2026-09-08 08:51:10"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 49.36
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "CNO",
+      "sector": "Financial Services",
+      "industry": "Insurance - Life",
+      "price": 54.939998626708984,
+      "marketCap": "5.08B",
+      "volx": 1.77,
+      "volSurgeWk": 2,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 28.81,
+      "high52": 95.71,
+      "adr": 1.83,
+      "targetStatus": false,
+      "saleCy": -10.48,
+      "saleNy": 2.54,
+      "epsCy": 6.14,
+      "epsNy": 7.67,
+      "cyTrend": 5.47,
+      "nyTrend": 1.7,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          11.61,
+          2.54,
+          4.18
+        ],
+        "ni": [
+          37.15,
+          75.35,
+          -49.21
+        ],
+        "opm": [
+          16.73,
+          9.64,
+          14.4
+        ],
+        "updated": "2026-08-31 07:32:02"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 46.61
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "TMDX",
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "price": 82.18000030517578,
+      "marketCap": "2.85B",
+      "volx": 1.76,
+      "volSurgeWk": 2.1,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 43.57,
+      "high52": 52.68,
+      "adr": 4.54,
+      "targetStatus": false,
+      "saleCy": 22.5,
+      "saleNy": 17.93,
+      "epsCy": -41.29,
+      "epsNy": 49.48,
+      "cyTrend": -1.07,
+      "nyTrend": 0,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          20.7,
+          21.18,
+          32.18
+        ],
+        "ni": [
+          -57.94,
+          -71.52,
+          1436.87
+        ],
+        "opm": [
+          12.5,
+          7.64,
+          13.23
+        ],
+        "updated": "2026-09-08 06:11:57"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 113.36
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "KAI",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "price": 266.29998779296875,
+      "marketCap": "3.14B",
+      "volx": 1.69,
+      "volSurgeWk": 2,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 0.69,
+      "high52": 75.38,
+      "adr": 3.64,
+      "targetStatus": false,
+      "saleCy": 13.94,
+      "saleNy": 5.75,
+      "epsCy": 29.99,
+      "epsNy": 12.25,
+      "cyTrend": 6.24,
+      "nyTrend": 3.25,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          22.57,
+          17.68,
+          10.92
+        ],
+        "ni": [
+          24.12,
+          6.01,
+          -0.03
+        ],
+        "opm": [
+          16.26,
+          14.25,
+          13.87
+        ],
+        "updated": "2026-09-09 06:36:02"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "base",
+        "phaseKo": "6개월 횡보 베이스 형성 중",
+        "baseHigh": 352.74,
+        "baseLow": 266.15,
+        "baseBars": 126,
+        "baseMonths": 6,
+        "rangePct": 32.53,
+        "contraction": 0.75,
+        "pivot": 352.74,
+        "distToPivotPct": -24.51,
+        "aboveMa150AtNow": false,
+        "buyTrigger": {
+          "price": 352.74,
+          "note": "$352.74(저항선) 거래량 동반 돌파 시 진입 검토"
+        },
+        "score": 20
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "FUL",
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "price": 51.599998474121094,
+      "marketCap": "2.78B",
+      "volx": 1.67,
+      "volSurgeWk": 2.26,
+      "aboveMa150": false,
+      "brk60d": false,
+      "clsPos": 10,
+      "high52": 75.83,
+      "adr": 3.13,
+      "targetStatus": false,
+      "saleCy": 4.71,
+      "saleNy": 7.85,
+      "epsCy": 14.83,
+      "epsNy": 9.35,
+      "cyTrend": 0,
+      "nyTrend": 0,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          5.81,
+          -2.26,
+          -3.09
+        ],
+        "ni": [
+          62.1,
+          58.85,
+          "흑자전환"
+        ],
+        "opm": [
+          12.34,
+          6.69,
+          11
+        ],
+        "updated": "2026-09-08 07:18:56"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 36.42
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "PDS",
+      "sector": "Energy",
+      "industry": "Oil & Gas Drilling",
+      "price": 89.7699966430664,
+      "marketCap": "1.15B",
+      "volx": 1.54,
+      "volSurgeWk": 2.08,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 84.08,
+      "high52": 86.48,
+      "adr": 3.23,
+      "targetStatus": false,
+      "saleCy": 10.42,
+      "saleNy": 5.12,
+      "epsCy": 30.98,
+      "epsNy": 81.85,
+      "cyTrend": -11.41,
+      "nyTrend": 1.14,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          -5.38,
+          14.91,
+          -4.06
+        ],
+        "ni": [
+          -103.59,
+          23.77,
+          -117.09
+        ],
+        "opm": [
+          3.28,
+          7.86,
+          9
+        ],
+        "updated": "2026-09-08 10:00:07"
+      },
+      "congestion": {
+        "ok": true,
+        "phase": "none",
+        "phaseKo": "해당 패턴 없음",
+        "bars": 501,
+        "rangePct": 44.33
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "FORTY",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "price": 122.61000061035156,
+      "marketCap": "1.88B",
+      "volx": 1.47,
+      "volSurgeWk": 3,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 70.94,
+      "adr": 0.09,
       "targetStatus": false,
       "saleCy": null,
       "saleNy": null,
@@ -1165,1544 +2023,118 @@ window.TEAM4_DATA = {
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          null,
-          null,
-          null
+          29.82,
+          19.2,
+          145.35
         ],
         "ni": [
-          null,
-          null,
-          null
+          54.58,
+          84.51,
+          2666.44
         ],
-        "opm": null,
-        "updated": "2026-09-10 06:16:24"
+        "opm": [
+          9.16,
+          11.11,
+          5.87
+        ],
+        "updated": "2026-09-08 10:48:59"
       },
       "congestion": {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 2447.53
+        "bars": 501,
+        "rangePct": 46.55
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "ORCL",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "price": 152.94000244140625,
-      "marketCap": "465.57B",
-      "volx": 2.18,
-      "volSurgeWk": 1.84,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 4.99,
-      "high52": 46.73,
-      "adr": 3.98,
-      "targetStatus": false,
-      "saleCy": 32.68,
-      "saleNy": 46.29,
-      "epsCy": 5.67,
-      "epsNy": 36.03,
-      "cyTrend": 0.14,
-      "nyTrend": 0.72,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          20.63,
-          21.66,
-          14.22
-        ],
-        "ni": [
-          23.23,
-          25.99,
-          94.7
-        ],
-        "opm": [
-          31.98,
-          31.79,
-          29.46
-        ],
-        "updated": "2026-09-08 06:01:51"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 118.56
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "PAM",
-      "sector": "Utilities",
-      "industry": "Utilities - Independent Power Producers",
-      "price": 88.44999694824219,
-      "marketCap": "4.74B",
-      "volx": 2.13,
-      "volSurgeWk": 2.1,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 92.96,
-      "high52": 93.6,
-      "adr": 2.79,
-      "targetStatus": false,
-      "saleCy": 41.63,
-      "saleNy": 14.29,
-      "epsCy": 53.88,
-      "epsNy": 11.31,
-      "cyTrend": -0.51,
-      "nyTrend": -3.62,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          53.5,
-          38.41,
-          16.55
-        ],
-        "ni": [
-          330,
-          39.87,
-          53.33
-        ],
-        "opm": [
-          25.2,
-          19.55,
-          10.45
-        ],
-        "updated": "2026-09-08 08:02:59"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "base",
-        "phaseKo": "6개월 횡보 베이스 형성 중",
-        "baseHigh": 90.3,
-        "baseLow": 77.54,
-        "baseBars": 126,
-        "baseMonths": 6,
-        "rangePct": 16.46,
-        "contraction": 0.92,
-        "pivot": 90.3,
-        "distToPivotPct": -4.86,
-        "aboveMa150AtNow": true,
-        "buyTrigger": {
-          "price": 90.3,
-          "note": "$90.3(저항선) 거래량 동반 돌파 시 진입 검토"
-        },
-        "score": 50
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "PAM",
-        "category": 1,
-        "company": "Pampa Energía는 아르헨티나 최대 통합 에너지 기업으로 화력·수력 발전 및 배전 등 전력 부문과 Vaca Muerta 셰일 오일·가스 E&P, 석유화학(폴리에틸렌·우레아 등)을 겸영하며 NYSE에 ADR로 상장돼 있다. 최근 국면은 아르헨티나 WEM(도매전력시장) 규제완화로 스팟 전력가가 상승하고 B2B PPA(전력구매계약) 매출이 확대되는 한편, RIGI(대규모투자인센티브) 체제 하 27억달러 규모 우레아 플랜트 최종투자결정(FID)으로 셰일가스 다운스트림까지 사업을 확장하는 국면이다. 2Q26 매출은 YoY +53%, 순이익은 전년동기 대비 4.3배로 실적 모멘텀이 뚜렷하다.",
-        "volumeExplanation": "2026년 8월 4일 발표된 2Q26 실적에서 매출 US$746백만(YoY +53%), 순이익 US$172백만(전년동기 대비 4.3배)을 기록했고, WEM(도매전력시장) 신규 규제완화 프레임워크에 따른 스팟 전력가 상승이 배경으로 제시됐다. 이후에도 창업자 겸 회장 Marcos Mindlin이 8월 20일 신고분(130만주)에 이어 8월 27일 15만주(50.7만달러)를 추가 매수하며 내부자 매수세가 이어졌다. 7월 17일에는 RIGI 체제 하 27억달러 규모 우레아 플랜트 FID가 발표되며 정책 모멘텀도 겹쳤다.",
-        "confidence": "medium",
-        "claims": [
-          {
-            "id": "q2-2026-earnings",
-            "statement": "2Q26(6월 결산) 매출 US$746백만(YoY +53%), 순이익 US$172백만(전년동기 대비 4.3배)을 기록했으며 WEM 신규 규제완화 프레임워크로 인한 스팟 전력가 상승이 견인 요인으로 제시됨.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Pampa Energía announces six-month period and second quarter 2026 results",
-                "publisher": "PR Newswire",
-                "url": "https://www.prnewswire.com/news-releases/pampa-energia-announces-six-month-period-and-second-quarter-2026-results-302843004.html",
-                "date": "2026-08-04",
-                "quote": "Sales reached US$746 million in Q2 26, up 53% year-on-year",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "insider-buying-mindlin",
-            "statement": "창업자 겸 회장 Marcos Mindlin이 8월 20일 신고분(약 130만주)에 이어 8월 27일 15만주(50.7만달러)를 추가 매수하며 8월 중순~9월 초 내부자 매수가 반복됨.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Pampa Energía Founder and Chairman Marcos Mindlin Buys 1.3 Million Shares. What Does This Mean for Investors in 2026?",
-                "publisher": "The Motley Fool",
-                "url": "https://www.fool.com/coverage/filings/2026/09/04/pampa-energia-founder-and-chairman-marcos-mindlin-buys-1-3-million-shares-what-does-this-mean-for-investors-in-2026/",
-                "date": "2026-09-04",
-                "quote": "Pampa Energía Founder and Chairman Marcos Mindlin Buys 1.3 Million Shares. What Does This Mean for Investors in 2026?",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Pampa Energía Founder Marcos Mindlin Buys 150,000 Shares for $507,000. Is This a Signal for Investors to Also Buy?",
-                "publisher": "The Motley Fool",
-                "url": "https://www.fool.com/coverage/filings/2026/09/07/pampa-energia-founder-marcos-mindlin-buys-150-000-shares-for-usd507-000-is-this-a-signal-for-investors-to-also-buy/",
-                "date": "2026-09-07",
-                "quote": "Pampa Energía Founder Marcos Mindlin Buys 150,000 Shares for $507,000.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "urea-plant-fid-rigi",
-            "statement": "7월 17일 아르헨티나 RIGI(대규모투자인센티브) 체제 하 27억달러 규모 라틴아메리카 최대 우레아 플랜트(바이아블랑카) 최종투자결정(FID)이 발표되며 셰일가스 기반 정책 모멘텀이 겹침.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Pampa Approves $2.7 Billion Argentina Urea Plant Amid Shale Boom",
-                "publisher": "Bloomberg",
-                "url": "https://www.bloomberg.com/news/articles/2026-07-17/pampa-approves-2-7-billion-argentina-urea-plant-amid-shale-boom",
-                "date": "2026-07-17",
-                "quote": "Pampa Approves $2.7 Billion Argentina Urea Plant Amid Shale Boom",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          }
-        ],
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "Q2 실적, 내부자 매수, 우레아 플랜트 FID 모두 제시된 근거로 뒷받침됨"
-        },
-        "categoryName": "어닝 서프라이즈/가이던스 상향",
-        "isHighlight": true,
-        "researchedOn": "2026-09-11",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "LEN.B",
-      "sector": "Consumer Cyclical",
-      "industry": "Residential Construction",
-      "price": 76.55999755859375,
-      "marketCap": "18.44B",
-      "volx": 2.12,
-      "volSurgeWk": 2.53,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 49.9,
-      "high52": 58.13,
-      "adr": 2.46,
-      "targetStatus": false,
-      "saleCy": -4.94,
-      "saleNy": 3.74,
-      "epsCy": null,
-      "epsNy": null,
-      "cyTrend": null,
-      "nyTrend": null,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          -5.22,
-          -13.26,
-          -5.82
-        ],
-        "ni": [
-          -36.39,
-          -55.89,
-          -55.2
-        ],
-        "opm": [
-          5.27,
-          3.52,
-          7.12
-        ],
-        "updated": "2026-09-09 07:18:31"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "base",
-        "phaseKo": "6개월 횡보 베이스 형성 중",
-        "baseHigh": 95.12,
-        "baseLow": 78.02,
-        "baseBars": 126,
-        "baseMonths": 6,
-        "rangePct": 21.92,
-        "contraction": 0.92,
-        "pivot": 95.12,
-        "distToPivotPct": -16.81,
-        "aboveMa150AtNow": false,
-        "buyTrigger": {
-          "price": 95.12,
-          "note": "$95.12(저항선) 거래량 동반 돌파 시 진입 검토"
-        },
-        "score": 50
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "LEN.B",
-        "category": 6,
-        "company": "Lennar Corp(LEN.B)는 미국 최대급 주택건설업체로, 신규주택 건설·인도(closings)가 매출의 근간이며 모기지·타이틀보험 등 파이낸셜 서비스 부문을 함께 운영한다. 최근 3개 분기 매출성장률은 YoY -5.22%/-13.26%/-5.82%, 순이익은 YoY -36.39%/-55.89%/-55.2%로 감소했고 영업이익률도 5.27%/3.52%/7.12%로 인센티브 확대에 따른 마진 압박이 지속되는 국면이다. 컨센서스는 당해연도(CY) 매출성장 -4.94%를 예상하며, 주가는 150일선 아래 78.02~95.12 구간에서 6개월째 횡보(베이스 폭 21.92%) 중이다.",
-        "volumeExplanation": "9월16일 장마감 후 예정된 3분기 실적 발표를 5일 앞두고 옵션시장에서 임플라이드무브 5.2%가 반영되며 포지셔닝 거래가 집중됐고, 주가는 52주 신저가($79.83)에 근접하며 VOL_X 2.12(거래대금 20일평균 대비)·주간 거래량배수 2.53(당일제외 5일평균 대비)으로 거래량이 급증했다. 과거 8회 실적 중 4회가 옵션 내재 예상 변동폭을 초과해 움직였다는 이력도 실적 불확실성에 대한 사전 헤지·포지셔닝 수요를 키운 요인으로 제시된다. 명시적인 실적 서프라이즈·계약·정책 호재는 확인되지 않아 실적 이벤트 리스크에 따른 암묵적 거래량 급증(6번 유형)으로 판단한다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "Lennar는 2026년 9월16일 장마감 후 3분기 실적을 발표하며, 9월17일 오전 11시(동부시간) 컨퍼런스콜을 개최한다. 옵션시장은 이번 실적 발표에 5.2%의 내재 변동폭을 반영하고 있고, 과거 8회 실적 중 4회는 이 내재 변동폭을 넘어서는 움직임을 보였다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Lennar Corporation to Broadcast its Third Quarter 2026 Earnings Call",
-                "publisher": "StockTitan",
-                "url": "https://www.stocktitan.net/news/LEN/lennar-corporation-to-broadcast-its-third-quarter-2026-earnings-call-meyqoyz3tf1u.html",
-                "date": "2026-09",
-                "quote": "the Company will release its third quarter 2026 earnings after the market closes on September 16, 2026; the Company will host a conference call on September 17, 2026 at 11:00 a.m. Eastern Time",
-                "verified": "unverified",
-                "httpStatus": 429
-              },
-              {
-                "title": "Lennar stock slips after earnings date and 52-week low",
-                "publisher": "ad-hoc-news.de",
-                "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/lennar-stock-slips-after-earnings-date-and-52-week-low/70080479",
-                "date": "2026-09-09",
-                "quote": "options data point to a 5.2 percent move around the September 16 report; four of the past eight earnings releases moved more than the implied range",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "2026년 9월8일 기준 Lennar 주가는 $80.37로 52주 최저가 $79.83에 근접했으며, 52주 범위는 $79.83~$140.71, 연초 대비 -21.82% 하락한 상태다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Lennar stock slips after earnings date and 52-week low",
-                "publisher": "ad-hoc-news.de",
-                "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/lennar-stock-slips-after-earnings-date-and-52-week-low/70080479",
-                "date": "2026-09-09",
-                "quote": "Lennar stock traded at USD 80.37 on September 8, 2026; the 52-week range ran from USD 79.83 to USD 140.71; Lennar stock sat almost exactly at the 52-week low of USD 79.83",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "모든 주장의 숫자·날짜가 출처 quote에 명시됨. category 6 적절함."
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-09-11",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "SIG",
-      "sector": "Consumer Cyclical",
-      "industry": "Luxury Goods",
-      "price": 97.70999908447266,
-      "marketCap": "3.74B",
-      "volx": 2.06,
-      "volSurgeWk": 1.06,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 29.31,
-      "high52": 89.36,
-      "adr": 4.05,
-      "targetStatus": false,
-      "saleCy": 0.41,
-      "saleNy": 1.61,
-      "epsCy": 12.69,
-      "epsNy": 13.87,
-      "cyTrend": 0.14,
-      "nyTrend": 0.18,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          0.78,
-          -0.32,
-          3.14
-        ],
-        "ni": [
-          -5.37,
-          148.51,
-          270.37
-        ],
-        "opm": [
-          2.38,
-          13.57,
-          1.72
-        ],
-        "updated": "2026-09-08 10:03:39"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 43.81
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "UBER",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "price": 72.55999755859375,
-      "marketCap": "145.19B",
-      "volx": 2.06,
-      "volSurgeWk": 1.97,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 78.3,
-      "high52": 71.14,
-      "adr": 3.37,
-      "targetStatus": false,
-      "saleCy": 11.35,
-      "saleNy": 15.32,
-      "epsCy": -30.94,
-      "epsNy": 41.11,
-      "cyTrend": 1.27,
-      "nyTrend": -0.41,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          12.17,
-          14.48,
-          20.13
-        ],
-        "ni": [
-          76.68,
-          -85.19,
-          -95.7
-        ],
-        "opm": [
-          13.32,
-          14.56,
-          12.35
-        ],
-        "updated": "2026-09-08 09:36:20"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "base",
-        "phaseKo": "6개월 횡보 베이스 형성 중",
-        "baseHigh": 82.36,
-        "baseLow": 65.41,
-        "baseBars": 126,
-        "baseMonths": 6,
-        "rangePct": 25.92,
-        "contraction": 0.92,
-        "pivot": 82.36,
-        "distToPivotPct": -13.7,
-        "aboveMa150AtNow": false,
-        "buyTrigger": {
-          "price": 82.36,
-          "note": "$82.36(저항선) 거래량 동반 돌파 시 진입 검토"
-        },
-        "score": 20
-      },
-      "catalyst": {
-        "status": "done",
-        "category": 5,
-        "ticker": "UBER",
-        "confidence": "medium",
-        "company": "Uber Technologies는 모빌리티(라이드헤일링)와 딜리버리(Uber Eats) 양대 축의 글로벌 플랫폼 사업자로, 최근에는 자율주행(로보택시) 파트너십 확장과 딜리버리 부문 대형 M&A(Delivery Hero 인수)를 통해 사업 포트폴리오를 재편하는 국면에 있다. 최근 3개 분기 매출성장률은 12.17%→14.48%→20.13%로 가속화됐으나 순이익은 76.68백만달러 흑자에서 -85.19백만달러, -95.7백만달러로 2개 분기 연속 적자 전환했고, 영업이익률도 13.32%→14.56%→12.35%로 최근 분기 소폭 둔화됐다. 컨센서스는 CY 매출성장 11.35%/EPS -30.94%, NY 매출성장 15.32%/EPS +41.11%로 내년 이익 턴어라운드를 반영하는 형태다.",
-        "volumeExplanation": "9/2~9/9 사이 Uber는 자율주행 파트너 Wayve와 런던에서 유료 로보택시 서비스를 Waymo보다 먼저 상용화했고, Delivery Hero 인수에 대해 이사회 권고(9/2)를 확보했으며, Uber Eats는 Wakefern과 제휴해 375개 이상 슈퍼마켓을 플랫폼에 추가했다. 복수의 뉴스플로우가 같은 주에 겹치며 VOL_X 2.06·주간 거래량배수 1.97로 거래량이 급증했다.",
-        "claims": [
-          {
-            "id": "wayve-robotaxi-london",
-            "statement": "Uber가 자율주행 스타트업 Wayve와 함께 런던에서 로보택시 유료 서비스를 Waymo보다 앞서 상용화했다(9/2 서비스 개시, 9/8 관련 분석기사).",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Uber, Wayve Launch Robotaxi Service in London to Compete With Waymo",
-                "publisher": "Bloomberg",
-                "url": "https://www.bloomberg.com/news/articles/2026-09-02/uber-wayve-launch-robotaxi-service-in-london-to-compete-with-waymo",
-                "date": "2026-09-02",
-                "quote": "Uber, Wayve Launch Robotaxi Service in London to Compete With Waymo",
-                "verified": "unverified",
-                "httpStatus": 403
-              },
-              {
-                "title": "Uber's Wayve Deal Shows How It Wants to Win Without Building Cars",
-                "publisher": "MarketBeat",
-                "url": "https://www.nasdaq.com/articles/ubers-wayve-deal-shows-how-it-wants-win-without-building-cars",
-                "date": "2026-09-08",
-                "quote": "Uber's Wayve Deal Shows How It Wants to Win Without Building Cars",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "wakefern-partnership",
-            "statement": "Uber Eats가 미국 슈퍼마켓 체인 Wakefern(ShopRite 등)과 제휴해 375개 이상 매장을 플랫폼에 추가했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Uber Eats Partners With Wakefern, Adds More Than 375 Supermarkets To Platform",
-                "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/uber-eats-partners-wakefern-adds-more-375-supermarkets-platform",
-                "date": "2026-09-09",
-                "quote": "Uber Eats Partners With Wakefern, Adds More Than 375 Supermarkets To Platform",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "delivery-hero-buyout",
-            "ackman-stake"
-          ],
-          "reason": "delivery-hero-buyout: '주당 41.50유로'와 '8/27~11/5 인수청약 절차' quote 미확인. ackman-stake: '약 13%' 포트폴리오 비중이 quote에 없음. 기본 사실(인수 진행, Ackman 보유)은 근거 있으나 세부 수치 부족.",
-          "narrativeFixed": true
-        },
-        "volumeExplanationOriginal": "9/2~9/9 사이 Uber는 자율주행 파트너 Wayve와 런던에서 유료 로보택시 서비스를 Waymo보다 먼저 상용화했고, 총 148~150억달러 규모의 Delivery Hero 인수에 대해 이사회 권고(9/2)를 확보해 인수청약이 진행 중이며, Uber Eats는 Wakefern과 제휴해 375개 이상 슈퍼마켓을 플랫폼에 추가했다. 같은 주에 액티비스트 투자자 Bill Ackman(Pershing Square)이 UBER를 포트폴리오 최대 비중(약 13%)으로 보유 중이라는 점도 재조명되며 투자심리를 뒷받침했다. VOL_X 2.06·주간 거래량배수 1.97은 자율주행 상용화·대형 M&A 진행·유통 파트너십 확대라는 복수의 뉴스플로우가 같은 주에 겹치며 나타난 것으로 판단된다.",
-        "categoryName": "매크로·정책·산업 돌파",
-        "isHighlight": true,
-        "researchedOn": "2026-09-11",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "ELV",
-      "sector": "Healthcare",
-      "industry": "Healthcare Plans",
-      "price": 416.5400085449219,
-      "marketCap": "86.08B",
-      "volx": 2.04,
-      "volSurgeWk": 1.66,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 62.41,
-      "high52": 95.48,
-      "adr": 2.27,
-      "targetStatus": false,
-      "saleCy": -0.68,
-      "saleNy": 2.12,
-      "epsCy": -10.33,
-      "epsNy": 9,
-      "cyTrend": -0.02,
-      "nyTrend": -0.09,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          1.4,
-          2.64,
-          9.47
-        ],
-        "ni": [
-          -16.06,
-          -19.19,
-          30.86
-        ],
-        "opm": [
-          4.56,
-          5.3,
-          1.17
-        ],
-        "updated": "2026-09-07 07:23:36"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 56.2
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "EXR",
-      "sector": "Real Estate",
-      "industry": "REIT - Industrial",
-      "price": 136.4499969482422,
-      "marketCap": "28.65B",
-      "volx": 2.04,
-      "volSurgeWk": 1.99,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 65.82,
-      "high52": 85.88,
-      "adr": 1.65,
-      "targetStatus": false,
-      "saleCy": 2.56,
-      "saleNy": 2.73,
-      "epsCy": 0.21,
-      "epsNy": 4.51,
-      "cyTrend": 1.76,
-      "nyTrend": 1.04,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          3.87,
-          4.39,
-          4.33
-        ],
-        "ni": [
-          5.5,
-          -11.06,
-          9.51
-        ],
-        "opm": [
-          44.86,
-          42.94,
-          43.25
-        ],
-        "updated": "2026-09-08 05:52:12"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 24.47
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "BTI",
-      "sector": "Consumer Defensive",
-      "industry": "Tobacco",
-      "price": 54.86000061035156,
-      "marketCap": "116.99B",
-      "volx": 2.04,
-      "volSurgeWk": 1.97,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 14.52,
-      "high52": 82.65,
-      "adr": 1.36,
-      "targetStatus": false,
-      "saleCy": 2.29,
-      "saleNy": 3.47,
-      "epsCy": 0.27,
-      "epsNy": 8.56,
-      "cyTrend": -0.26,
-      "nyTrend": 0.2,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          null,
-          null,
-          null
-        ],
-        "ni": [
-          null,
-          null,
-          null
-        ],
-        "opm": null,
-        "updated": "2026-09-10 05:44:40"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 23.94
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "VIST",
-      "sector": "Energy",
-      "industry": "Oil & Gas E&P",
-      "price": 78.94999694824219,
-      "marketCap": "8.25B",
-      "volx": 2,
-      "volSurgeWk": 1.72,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 83.81,
-      "high52": 96.94,
-      "adr": 3.94,
-      "targetStatus": false,
-      "saleCy": 66.72,
-      "saleNy": 4.54,
-      "epsCy": 173.09,
-      "epsNy": 9.74,
-      "cyTrend": -5.2,
-      "nyTrend": -4.84,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          102.26,
-          97.29,
-          52.56
-        ],
-        "ni": [
-          36.74,
-          30.1,
-          -8.61
-        ],
-        "opm": [
-          44.18,
-          24.92,
-          29.59
-        ],
-        "updated": "2026-09-08 09:14:45"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 38.15
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "ADBE",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "price": 248.8300018310547,
-      "marketCap": "101.31B",
-      "volx": 1.95,
-      "volSurgeWk": 2.09,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 20.9,
-      "high52": 67.1,
-      "adr": 3.43,
-      "targetStatus": false,
-      "saleCy": 11.66,
-      "saleNy": 9.02,
-      "epsCy": 16.58,
-      "epsNy": 12.64,
-      "cyTrend": 0,
-      "nyTrend": 0.04,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          12.69,
-          11.97,
-          10.49
-        ],
-        "ni": [
-          1.24,
-          4.31,
-          10.28
-        ],
-        "opm": [
-          33.82,
-          37.79,
-          36.5
-        ],
-        "updated": "2026-09-08 07:22:43"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 54.92
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "VOYA",
+      "ticker": "SII",
       "sector": "Financial Services",
-      "industry": "Financial Conglomerates",
-      "price": 102.66999816894531,
-      "marketCap": "9.30B",
-      "volx": 1.9,
-      "volSurgeWk": 2.18,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 52.23,
-      "high52": 97.19,
-      "adr": 2.01,
-      "targetStatus": false,
-      "saleCy": -5.14,
-      "saleNy": 4.91,
-      "epsCy": 3.16,
-      "epsNy": 24.44,
-      "cyTrend": -2.03,
-      "nyTrend": 0.43,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          -4.29,
-          3.15,
-          5.02
-        ],
-        "ni": [
-          -44.44,
-          18.71,
-          46.24
-        ],
-        "opm": [
-          1.79,
-          11.32,
-          8.01
-        ],
-        "updated": "2026-09-09 07:00:20"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 63.55
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "BLX",
-      "sector": "Financial Services",
-      "industry": "Banks - Regional",
-      "price": 55.630001068115234,
-      "marketCap": "2.06B",
-      "volx": 1.89,
-      "volSurgeWk": 2.15,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 95.21,
-      "high52": 89.08,
-      "adr": 2.03,
-      "targetStatus": false,
-      "saleCy": 11.9,
-      "saleNy": 8.77,
-      "epsCy": 12.27,
-      "epsNy": 2.84,
-      "cyTrend": 0,
-      "nyTrend": 0,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          3.74,
-          -1.62,
-          0.04
-        ],
-        "ni": [
-          3.54,
-          8.94,
-          8.76
-        ],
-        "opm": [
-          33.38,
-          30.72,
-          21.9
-        ],
-        "updated": "2026-09-08 06:21:09"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "base",
-        "phaseKo": "6개월 횡보 베이스 형성 중",
-        "baseHigh": 63.2,
-        "baseLow": 47.02,
-        "baseBars": 126,
-        "baseMonths": 6,
-        "rangePct": 34.41,
-        "contraction": 0.9,
-        "pivot": 63.2,
-        "distToPivotPct": -12.42,
-        "aboveMa150AtNow": true,
-        "buyTrigger": {
-          "price": 63.2,
-          "note": "$63.2(저항선) 거래량 동반 돌파 시 진입 검토"
-        },
-        "score": 20
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "BLX",
-        "category": 6,
-        "company": "Bladex(舊 Banco Latinoamericano de Comercio Exterior, 2026년 6월 Bladex Inc.로 사명 변경)는 파나마 소재 중남미 역내 무역금융 전문은행으로, 상업은행·중견기업·법인 고객 대상 무역금융·신디케이션이 핵심 매출원이다. 7/28 발표된 2Q26 순이익 $66.5M(QoQ +18%)로 사상 최대 분기 실적을 냈고 ROE 가이던스 14~15%를 재확인했으나, 현재는 6개월 베이스(47.02~63.20, 폭 34.41%) 상단권에서 52주 고점 대비 89.08%·CLS_POS 95.21로 강한 종가 위치를 유지하면서도 60일 신고가는 아직 돌파하지 못한 국면이다.",
-        "volumeExplanation": "이번 주 거래량 증가(VOL_X 1.89, 주간배수 2.15) 시점과 겹치는 유일한 회사발 뉴스는 9/8 공시된 멕시코 페소화 Cebures 채권(MXN 50억, 3년 변동금리 TIIE de Fondeo+58bp, 응찰배수 1.56배) 완판 건이나, 이는 4/20에도 동일 구조(MXN 42.65억, +60bp)로 시행된 바 있는 정례적 자금조달로 확인되어 주가·거래량을 움직일 신규 재료로 보기 어렵다. 7/28 발표된 2Q26 실적(순이익 $66.5M, QoQ +18%, ROE 가이던스 14~15% 유지)은 6주 이상 지난 뉴스로 이번 주 거래량 급증의 직접적 트리거로 보기 힘들다. 사이트 컨센서스상 30일 전망 변화가 CY/NY 모두 0%이고 Target_Status NO, 52주 신고가·60일 신고가 모두 미달성이어서 이번 거래량 증가를 뒷받침할 애널리스트 전망 상향이나 가격 돌파 신호도 확인되지 않는다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "9/8 Bladex, 멕시코 채권시장에서 Cebures(3년 변동금리, TIIE de Fondeo+58bp) MXN 50억 완판, 응찰배수 1.56배 기록",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Bladex completes successful Debt Issuance in The Mexican Capital Markets",
-                "publisher": "PR Newswire",
-                "url": "https://www.prnewswire.com/news-releases/bladex-completes-successful-debt-issuance-in-the-mexican-capital-markets-302871863.html",
-                "date": "2026-09-08",
-                "quote": "The transaction attracted orders totaling MXN 7.779 billion, representing 1.56 times the amount issued and enabling the Bank to place the full authorized amount.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
-          },
-          {
-            "id": "c3",
-            "statement": "7/28 발표된 2Q26 실적: 순이익 $66.5M, QoQ +18%, ROE 가이던스 14~15% 유지 — 다만 시점상 6주 이상 경과해 이번 주 거래량 급증의 직접 트리거로 보기 어려움",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Earnings call transcript: Bladex posts record Q2 2026 profit as shares rise",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-bladex-posts-record-q2-2026-profit-as-shares-rise-93CH-4817687",
-                "date": "2026-07-28",
-                "quote": "Bladex delivered record Q2 2026 results with net income of $66.5M (up 18% QoQ)... Management reaffirmed full-year ROE guidance of 14-15% and efficiency ratio of 27-28%.",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          }
-        ],
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "모든 숫자(MXN 50억, 1.56배, MXN 42.65억, $66.5M, +18%, 14~15%)가 quote에 명시됨. category 6 적절함."
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-09-11",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "MEOH",
-      "sector": "Basic Materials",
-      "industry": "Chemicals",
-      "price": 62.720001220703125,
-      "marketCap": "4.54B",
-      "volx": 1.87,
-      "volSurgeWk": 2.05,
-      "aboveMa150": true,
-      "brk60d": true,
-      "clsPos": 39.37,
-      "high52": 94.27,
-      "adr": 3.53,
-      "targetStatus": false,
-      "saleCy": 35.67,
-      "saleNy": -17.8,
-      "epsCy": 344.41,
-      "epsNy": -36,
-      "cyTrend": -0.5,
-      "nyTrend": 3.91,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          75.17,
-          8.62,
-          2.09
-        ],
-        "ni": [
-          207.13,
-          -112.24,
-          -296.91
-        ],
-        "opm": [
-          35.25,
-          8.56,
-          0.04
-        ],
-        "updated": "2026-09-08 08:57:09"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 52.5
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "MC",
-      "sector": "Financial Services",
-      "industry": "Capital Markets",
-      "price": 64.25,
-      "marketCap": "4.84B",
-      "volx": 1.81,
-      "volSurgeWk": 2.13,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 4.62,
-      "high52": 84.62,
-      "adr": 3.68,
-      "targetStatus": false,
-      "saleCy": 13.33,
-      "saleNy": 17.37,
-      "epsCy": 2.84,
-      "epsNy": 27.53,
-      "cyTrend": -0.14,
-      "nyTrend": 0.27,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          12.05,
-          4.3,
-          11.22
-        ],
-        "ni": [
-          16.98,
-          -23.54,
-          -1.72
-        ],
-        "opm": [
-          17.79,
-          12.66,
-          26.23
-        ],
-        "updated": "2026-09-08 05:49:50"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 42.28
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "CALM",
-      "sector": "Consumer Defensive",
-      "industry": "Farm Products",
-      "price": 73.70999908447266,
+      "industry": "Asset Management",
+      "price": 133.0500030517578,
       "marketCap": "3.42B",
-      "volx": 1.76,
-      "volSurgeWk": 2.24,
-      "aboveMa150": false,
+      "volx": 1.43,
+      "volSurgeWk": 2.32,
+      "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 2.1,
-      "high52": 67.89,
-      "adr": 2.85,
+      "clsPos": 80.97,
+      "high52": 78.95,
+      "adr": 3.75,
       "targetStatus": false,
-      "saleCy": -11.46,
-      "saleNy": 8.04,
-      "epsCy": -77.95,
-      "epsNy": 149.83,
-      "cyTrend": -53.41,
-      "nyTrend": 0,
+      "saleCy": 32.78,
+      "saleNy": -6.62,
+      "epsCy": 101.29,
+      "epsNy": 2.71,
+      "cyTrend": 0.11,
+      "nyTrend": -4.24,
       "newHigh52": false,
-      "bbCenterBrk5d": false,
+      "bbCenterBrk5d": true,
       "fs": {
         "sale": [
-          -49.93,
-          -52.95,
-          -19.4
+          23.09,
+          229.67,
+          161.47
         ],
         "ni": [
-          -110.48,
-          -90.08,
-          -53.09
+          153.74,
+          144.36,
+          145.96
         ],
         "opm": [
-          -10.64,
-          5.39,
-          16.1
+          56.77,
+          29.27,
+          35.85
         ],
-        "updated": "2026-09-08 09:50:14"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "base",
-        "phaseKo": "6개월 횡보 베이스 형성 중",
-        "baseHigh": 95.25,
-        "baseLow": 72.77,
-        "baseBars": 126,
-        "baseMonths": 6,
-        "rangePct": 30.89,
-        "contraction": 0.97,
-        "pivot": 95.25,
-        "distToPivotPct": -23.12,
-        "aboveMa150AtNow": false,
-        "buyTrigger": {
-          "price": 95.25,
-          "note": "$95.25(저항선) 거래량 동반 돌파 시 진입 검토"
-        },
-        "score": 20
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "CALM",
-        "category": 6,
-        "company": "Cal-Maine Foods는 미국 최대 계란 생산·유통업체로, 매출은 대형 유통망(리테일러) 대상 셸에그(shell egg) 판매가 대부분을 차지하며 최근 Prepared Foods(가공란) 생산능력에 5,400만 달러를 투자해 포트폴리오를 확장 중이다. 2025년 조류독감(HPAI)발 산란계 폐사로 계란 가격이 급등했던 기저효과가 소멸하면서 현재는 계란 도소매가 하락과 산란계두수 회복(전년대비 약 900만 마리 증가)에 따른 매출·이익 역기저 국면에 있다. 최근 3개 분기 매출성장률이 -49.93%→-52.95%→-19.4%(YoY)로 감소폭이 축소되는 가운데, 영업이익률은 -10.64%→5.39%→16.1%로 순차 개선되는 회복 초입 구간이다.",
-        "volumeExplanation": "이번 주 거래량 증가(VOL_X 1.89, 주간배수 2.15) 시점과 겹치는 회사발 뉴스는 9/2 8-K(크레딧 계약 갱신, Item 1.01)과 9/9 보도자료(실적 발표 일정 공지)이나, 둘 다 어닝서프라이즈·파트너십·전략 변화 등 실질적 촉매가 아니므로 표면적 뉴스 없이 거래량만 증가한 암묵적 케이스(⑥)로 판정한다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "9/2일자 8-K는 실적발표(item 2.02)가 아닌 크레딧 계약 갱신(item 1.01) 공시로, 통상적 재무 이벤트에 해당한다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Cal-Maine Foods 8-K (Second Amended and Restated Credit Agreement)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/16160/000156276226000102/calm-20260831_8K.htm",
-                "date": "2026-09-02",
-                "quote": "체결일: 2026년 8월 31일 / 상대방: BMO Bank N.A.(행정대리인) / 금액: 초기 약정액 2억 5천만 달러의 무담보 회전신용한도(2,500만 달러 대기신용증서 한도, 2,500만 달러 스윙라인 한도 포함) / 만기: 2031년 8월 31일 / 2026년 9월 1일 현재 차입액 없음, 대기신용증서 590만 달러 발행됨",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "9/9 보도자료는 2027 회계연도 1분기 실적 발표 일정(9/30) 확정 공지로, 가이던스나 실적 수치는 포함되어 있지 않다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Cal-Maine Foods Schedules First Quarter Fiscal 2027 Earnings Release",
-                "publisher": "StockTitan",
-                "url": "https://www.stocktitan.net/news/CALM/cal-maine-foods-schedules-first-quarter-fiscal-2027-earnings-release-5l7squvqlvl5.html",
-                "date": "2026-09-09",
-                "quote": "2027 회계연도 1분기 결과를 2026년 9월 30일 수요일 오전 약 6시 ET에 보고할 것이며, 경영진은 같은 날 오전 9시에 컨퍼런스 콜과 웹캐스트를 통해 실적을 논의할 예정이다.",
-                "verified": "unverified",
-                "httpStatus": 429
-              }
-            ]
-          }
-        ],
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "c3"
-          ],
-          "reason": "c3의 'CALM.json에 수집된 뉴스'는 제공 데이터에 없으며, 단일 source로 광범위한 주장 검증 불가. 또한 volumeExplanation에 Bladex(BLX)의 '멕시코 페소화 Cebures 채권' 설명이 명백히 혼입됨.",
-          "narrativeFixed": true
-        },
-        "volumeExplanationOriginal": "이번 주 거래량 급증(VOL_X 1.76, 당일 제외 5일평균 대비 주간배수 2.24)을 설명할 만한 실질적 호재성 뉴스는 확인되지 않는다. 가장 최근 공시인 9/2 8-K는 BMO Bank를 주간사로 한 2.5억 달러 무담보 리볼빙 크레딧 계약 갱신(만기 2031년)으로 통상적 재무·유동성 관리 사안이며, 9/9 보도자료는 2027 회계연도 1분기 실적 발표일(9/30 오전 6시 ET)을 확정한 일정 공지로 가이던스나 실적 수치를 전혀 포함하지 않는다. 두 건 모두 어닝서프라이즈·파트너십·턴어라운드·정책 이벤트 등 6분류 ①~⑤에 해당하는 실질적 촉매로 보기 어려워, 표면적 뉴스 없이 거래량만 증가한 암묵적 케이스(⑥)로 판정한다.",
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-09-11",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "LECO",
-      "sector": "Industrials",
-      "industry": "Tools & Accessories",
-      "price": 251.05999755859375,
-      "marketCap": "14.80B",
-      "volx": 1.71,
-      "volSurgeWk": 2.63,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 16.78,
-      "high52": 81.49,
-      "adr": 2.99,
-      "targetStatus": false,
-      "saleCy": 11.19,
-      "saleNy": 6.06,
-      "epsCy": 13.55,
-      "epsNy": 11.68,
-      "cyTrend": 2.57,
-      "nyTrend": 3.85,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          12.03,
-          11.65,
-          5.55
-        ],
-        "ni": [
-          10.55,
-          15.1,
-          -3
-        ],
-        "opm": [
-          18.09,
-          16.6,
-          17.09
-        ],
-        "updated": "2026-09-08 08:43:34"
+        "updated": "2026-09-09 07:10:56"
       },
       "congestion": {
         "ok": true,
         "phase": "none",
         "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 24.3
+        "bars": 501,
+        "rangePct": 59.36
       },
       "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "MOH",
-      "sector": "Healthcare",
-      "industry": "Healthcare Plans",
-      "price": 200.27999877929688,
-      "marketCap": "10.13B",
-      "volx": 1.66,
-      "volSurgeWk": 2.24,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 32.46,
-      "high52": 81.78,
-      "adr": 3.21,
-      "targetStatus": false,
-      "saleCy": -2.18,
-      "saleNy": 8.21,
-      "epsCy": -52.48,
-      "epsNy": 63.13,
-      "cyTrend": 1.73,
-      "nyTrend": 5.92,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          -4.84,
-          -3.15,
-          8.34
-        ],
-        "ni": [
-          -76.47,
-          -95.3,
-          -163.75
-        ],
-        "opm": [
-          1.33,
-          0.77,
-          -1.42
-        ],
-        "updated": "2026-09-09 07:23:43"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 86.65
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "MNDY",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "price": 85.16999816894531,
-      "marketCap": "3.43B",
-      "volx": 1.59,
-      "volSurgeWk": 2.01,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 99.33,
-      "high52": 38.57,
-      "adr": 5.8,
-      "targetStatus": true,
-      "saleCy": 19.38,
-      "saleNy": 15.2,
-      "epsCy": 24.23,
-      "epsNy": 22.27,
-      "cyTrend": 22.77,
-      "nyTrend": 24.19,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          21.94,
-          24.45,
-          24.59
-        ],
-        "ni": [
-          119.96,
-          2.22,
-          233.37
-        ],
-        "opm": [
-          -0.42,
-          5.62,
-          0.71
-        ],
-        "updated": "2026-09-08 08:42:52"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "none",
-        "phaseKo": "해당 패턴 없음",
-        "bars": 500,
-        "rangePct": 77.39
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
-      }
-    },
-    {
-      "ticker": "BHF",
-      "sector": "Financial Services",
-      "industry": "Insurance - Life",
-      "price": 50.84000015258789,
-      "marketCap": "2.94B",
-      "volx": 1.37,
-      "volSurgeWk": 2.6,
-      "aboveMa150": false,
-      "brk60d": false,
-      "clsPos": 53.28,
-      "high52": 76.11,
-      "adr": 3.07,
-      "targetStatus": false,
-      "saleCy": 0.72,
-      "saleNy": 1.23,
-      "epsCy": -34.07,
-      "epsNy": 9.41,
-      "cyTrend": -6.1,
-      "nyTrend": 1.85,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          86.22,
-          -36.11,
-          40.17
-        ],
-        "ni": [
-          1493.33,
-          "적자확대",
-          -82.66
-        ],
-        "opm": [
-          75.59,
-          -64.57,
-          8.88
-        ],
-        "updated": "2026-09-09 07:12:06"
-      },
-      "congestion": {
-        "ok": true,
-        "phase": "base",
-        "phaseKo": "6개월 횡보 베이스 형성 중",
-        "baseHigh": 66.8,
-        "baseLow": 51.08,
-        "baseBars": 126,
-        "baseMonths": 6,
-        "rangePct": 30.78,
-        "contraction": 0.8,
-        "pivot": 66.8,
-        "distToPivotPct": -23.43,
-        "aboveMa150AtNow": false,
-        "buyTrigger": {
-          "price": 66.8,
-          "note": "$66.8(저항선) 거래량 동반 돌파 시 진입 검토"
-        },
-        "score": 20
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "BHF",
-        "category": 6,
-        "company": "Brighthouse Financial은 2017년 MetLife에서 분사한 생명보험·연금 전업사로, Shield 시리즈 등 인덱스 연계 연금(RILA)과 생명보험 상품을 은행·브로커딜러 채널을 통해 판매한다. 실적은 변액·인덱스 연금 부채 평가와 파생상품 헤지 손익에 민감해 분기별 변동성이 크며, 최근 3개 분기 매출성장률이 86.22%→-36.11%→40.17%로 급변하고 순이익은 적자확대 이후 -82.66%를 기록하는 등 실적 가시성이 낮은 국면이다. 현재 150일선 아래, 52주 고점 대비 76.11% 낮은 위치에서 51.08~66.8(폭 30.78%) 박스권 6개월째 횡보 중이다.",
-        "volumeExplanation": "2026년 8월 5일 발표된 2분기 실적이 매출·EPS 모두 컨센서스를 하회했고(Zacks, 2026-08-06 보도), 이후 주가는 실적 발표 시점 대비 13.6% 하락한 것으로 2026-09-04자 후속 보도에서 확인된다. 8월 18일 8-K(Item 5.02)는 최고회계책임자(CAO) 교체(Pavlovich→Cook) 건으로 CEO 교체나 전략 변화가 아니어서 턴어라운드 성격의 호재로 보기 어렵다. VOL_X 1.37·주간 거래량배수 2.6은 이 어닝 미스 이후 잔여 매물 소화 과정으로 추정되며, 조사 범위 내에서 별도의 신규 호재 뉴스는 확인되지 않는다.",
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "2026년 8월 5일 발표된 2분기 실적이 매출·EPS 모두 시장 컨센서스를 하회한 어닝 미스였다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Brighthouse Financial (BHF) Q2 Earnings and Revenues Lag Estimates",
-                "publisher": "Zacks (via Nasdaq)",
-                "url": "https://www.nasdaq.com/articles/brighthouse-financial-bhf-q2-earnings-and-revenues-lag-estimates",
-                "date": "2026-08-06",
-                "quote": "Brighthouse Financial (BHF) Q2 Earnings and Revenues Lag Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "직전 실적 발표(8/5) 이후 BHF 주가가 13.6% 하락한 것으로 후속 보도에서 확인된다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Why Is Brighthouse Financial (BHF) Down 13.6% Since Last Earnings Report?",
-                "publisher": "Zacks (via Nasdaq)",
-                "url": "https://www.nasdaq.com/articles/why-brighthouse-financial-bhf-down-136-last-earnings-report",
-                "date": "2026-09-04",
-                "quote": "Why Is Brighthouse Financial (BHF) Down 13.6% Since Last Earnings Report?",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "2026년 8월 18일 8-K(Item 5.02)는 CEO 교체가 아닌 최고회계책임자(CAO) 교체 건으로, Melissa B. Pavlovich가 9월 2일 퇴임하고 부(副)CAO였던 Richard A. Cook이 9월 3일부로 취임했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Brighthouse Financial, Inc. Form 8-K (Item 5.02)",
-                "publisher": "U.S. SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1685040/000168504026000031/bhf-20260818.htm",
-                "date": "2026-08-18",
-                "quote": "퇴임: Melissa B. Pavlovich 최고회계책임자(CAO), 퇴임일 2026년 9월 2일, 사유: 새로운 기회 수락. 신임: Richard A. Cook 최고회계책임자(CAO), 임명일 2026년 8월 17일, 취임일 2026년 9월 3일, 이전 직책: 부(副) 최고회계책임자.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "모든 주장(어닝 미스, 13.6% 하락, CAO 교체)이 출처에 명시됨. category 6 적절함."
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-09-11",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "DKL",
-      "sector": "Energy",
-      "industry": "Oil & Gas Refining & Marketing",
-      "price": 57,
-      "marketCap": "2.96B",
-      "volx": 1.37,
-      "volSurgeWk": 3.19,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 93.99,
-      "high52": 94.46,
-      "adr": 1.97,
-      "targetStatus": true,
-      "saleCy": 38.5,
-      "saleNy": 1.42,
-      "epsCy": 5.73,
-      "epsNy": 24.86,
-      "cyTrend": 6.23,
-      "nyTrend": 16.09,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          56.18,
-          19.02,
-          21.87
-        ],
-        "ni": [
-          -35.23,
-          -17.12,
-          36.93
-        ],
-        "opm": [
-          16.09,
-          13.45,
-          14.25
-        ],
-        "updated": "2026-09-08 06:00:14"
-      },
-      "congestion": {
-        "ok": true,
-        "baseHigh": 59.33,
-        "baseLow": 47.46,
-        "baseBars": 126,
-        "baseMonths": 6,
-        "rangePct": 25.01,
-        "breakoutDate": "2026-07-31",
-        "breakoutVolX": 2.99,
-        "barsSinceBreakout": 27,
-        "aboveMa150AtBreak": true,
-        "ma150AtBreak": 51.62,
-        "pivot": 59.33,
-        "distToPivotPct": -4.5,
-        "phase": "failed",
-        "phaseKo": "돌파 실패 (저항 아래 재이탈)",
-        "belowRun": 19,
-        "score": 0
-      },
-      "catalyst": {
-        "status": "ineligible",
-        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     }
   ],
   "byPhase": {
-    "none": 28,
-    "base": 7,
-    "failed": 2
+    "none": 34,
+    "extended": 1,
+    "base": 3
   },
   "excludedEtf": [
-    "GLDI",
-    "SLVO"
+    "SLVO",
+    "VXZ"
   ],
   "excludedNoMarketCap": [
-    "USB-A",
-    "CMS-B",
+    "SLMBP",
+    "BA-A",
     "CTA-B",
-    "KIM-N",
-    "SPG-J",
-    "ORCL-D",
-    "NEE-T"
+    "CTA-A",
+    "GOOGM",
+    "SMCIP",
+    "BMNP"
   ],
   "research_coverage": {
-    "done": 11,
-    "total": 37,
-    "cap": 11,
-    "pending": 0,
+    "done": 1,
+    "total": 38,
+    "cap": null,
+    "pending": 6,
     "failed": 0,
-    "carried": 0,
-    "ineligible": 26,
-    "note": "37종목 중 11종목을 조사했습니다. 26종목은 셋업·거래량 기준 미달로 조사 대상이 아닙니다. 자금이 들어오는 업종 · 거래대금 급증 순으로 우선 조사합니다."
+    "carried": 1,
+    "ineligible": 31,
+    "note": "38종목 중 1종목을 조사했습니다. 그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 31종목은 셋업·거래량 기준 미달로 조사 대상이 아닙니다. 나머지 6종목은 상한(?) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
   },
   "llmCarried": {
-    "highlights": [],
-    "sectorSignal": "오늘 입력된 후보는 ACGL(category 6, 암묵적 이상거래량) 1건뿐이며, category 1(어닝 서프라이즈/가이던스 상향) 또는 category 5(산업 기술 돌파)에 해당하는 티커는 없습니다. 따라서 하이라이트 대상 자체가 없고, 섹터 쏠림을 논할 만한 표본도 없습니다(단일 종목·보험 섹터뿐이며 이마저 호재성 촉매가 아님).",
-    "watchList": [],
-    "caution": "1) 오늘 입력에는 category 1·5 종목이 하나도 없어 highlights는 공란입니다 — 이는 실제 시장에 어닝/기술 촉매가 없었다는 뜻이 아니라, 제공된 스크리닝 결과에 그런 종목이 포함되지 않았다는 의미로만 해석해야 합니다. 2) ACGL은 category 6(뉴스 부재 상태의 거래량 급증, 2026-09-03 전일比 +46%)로 분류되어 있으나, 함께 제시된 사실관계는 오히려 부정적 방향입니다: 직전 실적 발표 후 주가 -3.7%(Zacks, 2026-08-27), Insurance 세그먼트 경쟁 심화·마진 압박(Zacks, 2026-08-25), 손해보험 특정 라인 요율 정체·하락(Yahoo Finance, Baron Capital 코멘터리). 거래량 급증의 원인이 명시되지 않은 만큼 공매도·기관 리밸런싱 등 비호재성 요인 가능성도 배제할 수 없어, 이 데이터만으로 매수 촉매로 단정하기는 위험합니다. 3) watchList(6개월 횡보 후 돌파·리테스트)를 판단할 가격 히스토리 데이터가 입력에 전혀 없어 공란으로 두었으며, 임의로 종목을 채우지 않았습니다.",
-    "researchedOn": "2026-09-10"
-  },
-  "llm": {
     "highlights": [
       {
         "ticker": "COO",
@@ -2734,12 +2166,5 @@ window.TEAM4_DATA = {
     "watchList": [],
     "caution": "1) 입력된 category 라벨과 실제 주가 임팩트가 어긋나는 사례 있음 — COO는 '어닝서프라이즈' 분류지만 실질은 가이던스 미스로 인한 급락이므로 category 1 특유의 '상향 모멘텀' 해석을 그대로 적용하면 안 됨. 2) SEDG의 category 5(산업 돌파)는 원문에 'PO·계약 미체결'이 명시돼 있어 촉매의 확정성이 낮음 — Investor Day 공시 자체는 이벤트지만 실질 계약 성사 여부는 별도 확인 필요. 3) AVAV는 Zacks 보도 인용으로 구체적 매출·EPS 수치가 원문에 없어 서프라이즈 폭을 정량 평가할 수 없음. 4) category 6(LEN.B·BLX·CALM·BHF·WSO.B)은 뉴스 트리거가 불명확하거나(WSO.B는 원인 언급 자체가 없음) 과거 이벤트와 시차가 커(BLX 실적은 6주 전) 이번 주 이상거래량의 직접 원인으로 보기 어려움 — 문의 지침대로 category 1·5 외 항목은 하이라이트에서 제외했으므로 이들의 판단은 원 표를 참조할 것. 5) 본 요약은 제공된 자료에만 근거했으며 추가 웹검색·가격 데이터 검증은 수행하지 않음.",
     "researchedOn": "2026-09-11"
-  },
-  "reusedFrom": null,
-  "byCategory": {
-    "1": 3,
-    "3": 1,
-    "5": 2,
-    "6": 5
   }
 };
