@@ -1,1 +1,355 @@
-{"date":"2026-09-11","team":5,"industries":[{"key":"Basic Materials|Coking Coal","industry":"Coking Coal","lead":"Coking Coal 업종은 미국 대표 프리미엄 야금탄(met coal) 생산업체인 Alpha Metallurgical Resources(AMR) 사실상 단일 종목이 지수를 대표하며, 8월 하순부터 9월 초까지 이사 Courtis의 연속 내부자 매수가 확인되었다.","whyStrong":[{"id":"insider_buying_cluster","statement":"AMR 이사 Courtis가 8월 25일 약 $1.1M, 9월 10일 약 $2.3M 규모의 자사주를 잇달아 매수했고, 9월 9일자 내부자매수 동향 리포트에도 AMR이 포함돼 약 3주 연속 내부자 매수 뉴스가 확인된다.","evidence_level":"sourced","sources":[{"title":"Alpha Metallurgical Resources Director Courtis Buys $2.3 Million Shares. Is it Time for You to Buy Too?","publisher":"The Motley Fool (via Nasdaq)","url":"https://www.nasdaq.com/articles/alpha-metallurgical-resources-director-courtis-buys-23-million-shares-it-time-you-buy-too","date":"2026-09-10","quote":"Alpha Metallurgical Resources Director Courtis Buys $2.3 Million Shares. Is it Time for You to Buy Too?"},{"title":"Wednesday 9/9 Insider Buying Report: INBX, AMR","publisher":"BNK Invest (via Nasdaq)","url":"https://www.nasdaq.com/articles/wednesday-9-9-insider-buying-report-inbx-amr","date":"2026-09-09","quote":"Wednesday 9/9 Insider Buying Report: INBX, AMR"},{"title":"Alpha Metallurgical Director Courtis Keeps Buying as He Adds Another $1.1 Million Shares","publisher":"The Motley Fool (via Nasdaq)","url":"https://www.nasdaq.com/articles/alpha-metallurgical-director-courtis-keeps-buying-he-adds-another-11-million-shares","date":"2026-08-25","quote":"Alpha Metallurgical Director Courtis Keeps Buying as He Adds Another $1.1 Million Shares"}]}],"driver":"commodity","durability":"cyclical","keyStocks":["AMR"],"risk":"당해/차기연도 컨센서스 변화 중앙값이 각각 -85.585%/-19.175%이고 상향 비율은 20.83%(n=24), 승률은 1%에 불과해 실적 전망은 여전히 강하게 하향 조정되는 국면이므로, 현재의 RS 강세는 이익 개선이 아니라 가격·수급 모멘텀과 내부자 매수 심리에 크게 의존하고 있다. 50일선 이격 중앙값 18.95%, 200일선 이격 중앙값 14.515%(25거래일 기준 +30.91%p 확대)로 단기 과열 구간에 진입해 있어, 코킹콜 현물가격이 조정되거나 산시성 광산 가동 재개(6월 17일 기준 63% 복귀)가 더 빨라져 공급이 정상화되면 최근 가격 급등분이 되돌려질 수 있다. AMR 자체가 FY2025 순손실 -$61.7M, 희석EPS -$4.75로 여전히 적자인 만큼, 야금탄 가격 추가 하락이나 중국 조강생산 회복세 둔화가 확인되면 현재의 밸류에이션 재평가 논리는 약화된다. 확인할 조건은 코킹콜 스팟가격 추세의 지속 여부, 중국 코킹콜 수입·핫메탈 생산 후속 데이터, 내부자 매수의 추가 지속 여부, 컨센서스 상향 비율(현재 20.83%)의 반등 여부다.","factcheck":{"verdict":"partial","removed":["china_shanxi_supply_disruption","china_import_hotmetal_recovery","amr_fundamentals_rerating"],"reason":"","leadFixed":true},"leadOriginal":"Coking Coal 업종은 미국 대표 프리미엄 야금탄(met coal) 생산업체인 Alpha Metallurgical Resources(AMR) 사실상 단일 종목이 지수를 대표하며, WRS 1개월이 상위 0.72%로 급등해 국면상 상승 초입에 진입했다. 8월 하순부터 9월 초까지 이어진 이사 Courtis의 연속 내부자 매수와, 5월 말 중국 산시성 광산사고 이후 공급 차질에 따른 코킹콜 현물가 급등·수입 수요 회복이 겹치며 단기 자금흐름 순위(FRANK)가 25거래일 만에 +42 급상승했다. 다만 3개월·6개월 WRS는 각각 상위 18.84%·34.78%로 중위권에 머물러 있어, 최근 1개월의 급격한 순위 상승이 신호의 핵심축이다."},{"driver":"technology","durability":"structural","industry":"Health Information Services","key":"Healthcare|Health Information Services","keyStocks":["VEEV","DOCS","HQY","OMCL","CERT","TDOC"],"lead":"Health Information Services는 생명과학기업·의료기관 대상 클라우드 소프트웨어 및 헬스케어 데이터 분석을 제공하는 업종이다. 업종 내 최대 시가총액주인 VEEV(Veeva Systems)가 2026회계연도 2분기(8월 26일 발표) 매출 9.28억달러(YoY +18%)로 컨센서스를 상회하고 연간 가이던스를 상향했다.","risk":"Final_WRS 순위가 25거래일 새 7계단 하락(23위)했고 F10d -6.33%로 최근 10거래일간 상대강도 스코어가 약화되는 가운데, 50일선 이격 중앙값 -5.47%로 단기 조정 국면(❄️)에 진입했고 자금흐름도 outflow로 전환됐다 — 이 흐름이 추가 악화돼 200일선 이격(현재 +15.11%, 25거래일간 -5.715%p 축소)마저 훼손되면 3개월 구간의 상대강도 우위는 기술적으로 붕괴된 것으로 봐야 한다. VEEV의 다음 분기 실적에서 Vault CRM 신규 고객 확보 속도나 상업용 구독매출 성장률(현재 가이던스 YoY 약 13%)이 둔화되면 밸류에이션 프리미엄의 근거가 약화된다. DOCS의 AI Search 수익성(CEO가 언급한 운영비 대비 10배 수익) 주장이 다음 분기 매출·조정 EBITDA 지표(가이던스 중간값 3.19억달러)로 재확인되지 않으면 AI 수익화 스토리에 대한 재평가가 필요하다. 컨센서스 상향 비율(65.84%, n=284)과 승률(83.33%)이 반락 전환되는지가 구조적 강세 지속 여부를 가르는 확인 지표다.","whyStrong":[{"id":"veev-q2fy27-beat-guide-up","statement":"VEEV(Veeva Systems)는 2026회계연도 2분기(8월 26일 발표) 매출 9.28억달러, 비GAAP 영업이익 4.16억달러(영업이익률 44%대)로 컨센서스를 상회했고 연간 가이던스를 상향했다. Vault CRM 신규 고객으로 Eli Lilly, Biogen, Regeneron을 확보해 상위 20개 제약사 중 12곳이 Vault CRM으로 전환했다고 밝혔으며, 실적 발표 후 시간외 주가는 9.43% 상승해 268달러를 기록했다.","evidence_level":"sourced","sources":[{"title":"Earnings call transcript: Veeva Systems tops Q2 2026 estimates, shares jump after hours","publisher":"Investing.com","url":"https://www.investing.com/news/transcripts/earnings-call-transcript-veeva-systems-tops-q2-2026-estimates-shares-jump-after-hours-93CH-4878039","date":"2026-08-26","quote":"Veeva Systems reported fiscal 2027 second-quarter revenue of $928 million and non-GAAP operating income of $416 million, with results exceeding the company's guidance. This represented 18% year-over-year growth while maintaining robust operating margins above 44%."},{"title":"Veeva Q2'27 slides: revenue beats drive raised guidance, margins hold","publisher":"Investing.com","url":"https://www.investing.com/news/company-news/veeva-q227-slides-revenue-beats-drive-raised-guidance-margins-hold-93CH-4878052","date":"2026-08-26","quote":"Management raised its full-year outlook, with commercial subscription revenue up approximately 13% year over year. The company highlighted record performance in CRM, where it won new business from Eli Lilly, Biogen and Regeneron. The quarter brought the total to 12 of the top 20 companies committed to Vault CRM. The strong results drove shares up 9.43% to $268 in after-hours trading."}]}],"factcheck":{"verdict":"partial","removed":["docs-ai-search-margin-surge"],"reason":"","leadFixed":true},"leadOriginal":"Health Information Services는 생명과학기업·의료기관 대상 클라우드 소프트웨어 및 헬스케어 데이터 분석을 제공하는 업종으로, 3개월 WRS 기준 전체 업종 중 상위 1.45%의 초과수익을 기록했다. 업종 내 최대 시가총액주인 VEEV(Veeva Systems)가 2026회계연도 2분기(8월 26일 발표) 매출 9.28억달러(YoY +18%)로 컨센서스를 상회하고 연간 가이던스를 상향했으며, DOCS(Doximity)는 신규 AI Search 도구의 높은 운영 수익성이 부각되며 실적 발표 직후 주가가 급등했다. 두 대형주의 AI 수익화(monetization) 스토리가 확인되며 업종 전체의 3개월 상대강도 우위를 견인한 것으로 파악된다."}],"summary":{"rotationView":"두 업종만 조사된 좁은 표본이지만 방향은 뚜렷하다. Health Information Services는 6개월 WRS 0.2726(상위 14.49%), 3개월 WRS 0.2739(상위 1.45%)로 최근까지 최상위권 주도주였으나 1개월 WRS가 -0.0089(상위 32.61%)로 꺾이며 자금이 빠지는 모습이고, 반대로 Coking Coal은 6개월 WRS 0.1137(상위 34.78%)·3개월 WRS 0.0896(상위 18.84%)로 중위권이었다가 1개월 WRS가 0.1587로 뛰어오르며 순위가 상위 0.72%까지 급상승했다. 즉 구조적 성장 테마(헬스케어 정보서비스)에서 경기민감 원자재(코킹콜)로 단기 자금이 옮겨가는 로테이션이 관측된다.","strongest":{"industry":"Coking Coal","why":"1개월 WRS 0.1587로 전체 업종 중 상위 0.72%에 위치해 조사된 두 업종 중 현재 시점 가장 강한 모멘텀을 보이며, AMR 이사 Courtis가 8월 25일 약 $1.1M, 9월 10일 약 $2.3M 규모로 자사주를 잇달아 매수했고 9월 9일자 내부자매수 동향 리포트에도 포함돼 약 3주 연속 내부자 매수가 확인된다."},"emerging":["Coking Coal"],"fading":["Health Information Services"],"caution":"이번 조사는 Coking Coal, Health Information Services 단 두 업종에 국한된다. 다른 업종의 WRS나 순위는 입력에 없어 비교·서술이 불가하며, 위 로테이션 해석도 이 두 업종 간 상대 비교일 뿐 시장 전체 주도업종 지형을 대표하지 않는다. Coking Coal의 강세 근거(AMR 내부자 매수)는 특정 종목 이벤트이며 업종 전체의 구조적 강세를 의미하는지는 조사 범위 밖이다."},"failed":[],"coverage":{"done":2,"total":2,"cap":6,"failed":0}}
+{
+  "date": "2026-09-14",
+  "team": 5,
+  "industries": [
+    {
+      "key": "Technology|Computer Hardware",
+      "industry": "Computer Hardware",
+      "lead": "Technology|Computer Hardware 업종은 Final_WRS 기준 전체 업종 중 랭킹 1위(FRANK 1)를 유지하고 있다. 다만 50일선 이격 7.61%·200일선 이격 29.88%(25거래일 변화 -0.33%p)인 가운데 국면은 '중반이나 수축 중', 흐름은 outflow로 표기돼 있어 상승 탄력 둔화 신호도 동시에 관찰된다.",
+      "whyStrong": [
+        {
+          "id": "none",
+          "statement": "근거 없음",
+          "evidence_level": "no_source",
+          "sources": []
+        }
+      ],
+      "driver": "technology",
+      "durability": "cyclical",
+      "keyStocks": [
+        "DELL",
+        "SNDK"
+      ],
+      "risk": "Node 자금흐름 지표에서 Final_WRS는 업종 랭킹 1위(FRANK 1)를 유지하지만 10거래일 -6.82%·25거래일 -7.05% 하락했고 흐름은 outflow로 표기돼 있어, 국면이 '중반이나 수축 중'으로 상단 랠리 이후 자금 유입 강도가 둔화되는 신호가 확인된다. NAND 가격 상승률이 직전 분기 70~75%에서 이번 분기 10~15%로 뚜렷이 둔화되고 있어(The Motley Fool, 2026-08-23), 메모리 업사이클이 후반부에 진입할 경우 SNDK의 마진 확장 속도가 제약될 수 있다. DELL은 AI 서버 백로그(950억 달러)와 분기 수주(609억 달러)가 급증했지만 DRAM·NAND·CPU 등 부품 공급제약을 스스로 언급하고 있어, 수주-출하 간 갭이 실제 매출로 전환되는 속도가 지속 가능성의 관건이다. NAND 가격이 재차 급등하거나 반대로 공급 정상화로 급락 전환되는 시점, 그리고 Final_WRS의 25거래일 순위변동이 마이너스로 전환돼 랭킹 1위가 흔들리는 시점이 확인되면 이 업종의 상대강도 우위 논리는 약화된다.",
+      "factcheck": {
+        "verdict": "reject",
+        "removed": [
+          "dell-ai-backlog",
+          "sndk-nand-cycle"
+        ],
+        "reason": "dell-ai-backlog와 sndk-nand-cycle이 제시한 많은 핵심 수치(DELL의 AI 서버 매출 164억 달러, 신규 수주 609억 달러, ISG 부문 318억 달러, 컨센서스 4.87달러, AI 서버 가이던스 740억 달러; SNDK의 매출 89.7억 달러, 마진율 84.6%, 데이터센터 매출 및 가이던스 수치 등)가 제공된 인용문이나 출처 제목에 실제로 존재하지 않음",
+        "leadFixed": true
+      },
+      "leadOriginal": "Technology|Computer Hardware 업종은 Final_WRS 기준 전체 업종 중 랭킹 1위(FRANK 1)를 유지하고 있으며, AI 서버 수요 확대와 NAND 가격 사이클이라는 두 축이 업종 대표 종목 DELL과 SNDK의 실적을 동시에 견인하고 있다. DELL은 AI 서버 수주 잔고 급증과 가이던스 상향을, SNDK는 NAND 가격 급등에 따른 마진 정상화와 데이터센터 매출 급증을 실적으로 확인시켰다. 다만 50일선 이격 7.61%·200일선 이격 29.88%(25거래일 변화 -0.33%p)인 가운데 국면은 '중반이나 수축 중', 흐름은 outflow로 표기돼 있어 상승 탄력 둔화 신호도 동시에 관찰된다."
+    },
+    {
+      "driver": "technology",
+      "durability": "cyclical",
+      "industry": "Electronics & Computer Distribution",
+      "key": "Technology|Electronics & Computer Distribution",
+      "keyStocks": [
+        "SNX",
+        "ARW",
+        "AVT",
+        "NSIT",
+        "CNXN"
+      ],
+      "lead": "Electronics & Computer Distribution 업종은 서버·네트워크 장비 등 컴퓨팅 하드웨어를 OEM 및 기업 고객에 공급하는 유통업체 그룹으로, AI 데이터센터 인프라 구축 수요가 유통 물량과 이익추정치를 동시에 밀어올리고 있다. Avnet·TD Synnex·Arrow Electronics 등 업종 대형주가 잇달아 컨센서스를 상회하는 실적과 가이던스 상향을 내놓으며 주가가 동반 급등했고, Node 자금흐름 지표상 Final_WRS 순위도 4위(FRANK)로 25거래일간 8계단 상승했다. 다만 200일선 이격(32.9%)이 같은 기간 6.45%p 축소되는 등 단기 모멘텀 둔화 조짐도 함께 감지된다.",
+      "whyStrong": [
+        {
+          "id": "avnet-ai-datacenter-mix-shift",
+          "statement": "Avnet은 2026회계연도 3분기 매출이 71억달러로 전년동기 대비 34% 증가했고, AI·데이터센터 고객向 매출 비중이 종전 5~7%에서 10~15%로 확대되며 실적을 견인했다. 이를 반영해 주가는 연초 이후(YTD) 81.5% 상승했다.",
+          "evidence_level": "sourced",
+          "sources": [
+            {
+              "title": "Avnet Jumps 81.5% YTD: Should You Buy, Sell or Hold the Stock?",
+              "publisher": "Yahoo Finance (Zacks)",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/avnet-jumps-81-5-ytd-151500405.html",
+              "date": "2026-07-03",
+              "quote": "the company's direct exposure to AI and data center customers has increased from around 5-7% previously to nearly 10-15%"
+            },
+            {
+              "title": "Avnet Jumps 81.5% YTD: Should You Buy, Sell or Hold the Stock?",
+              "publisher": "Yahoo Finance (Zacks)",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/avnet-jumps-81-5-ytd-151500405.html",
+              "date": "2026-07-03",
+              "quote": "In the third quarter of fiscal 2026, the company reported revenues of $7.1 billion, up 34% year over year"
+            }
+          ]
+        },
+        {
+          "id": "td-synnex-guidance-raise",
+          "statement": "TD Synnex는 최근 분기 실적이 애널리스트 컨센서스를 상회했고 향후 분기 가이던스를 상향했으며, 클라우드·AI 인프라向 수요 확대를 반영해 최근 1년간 주가가 74.64% 상승했다.",
+          "evidence_level": "sourced",
+          "sources": [
+            {
+              "title": "TD Synnex (SNX) Shares Jump Over 50% on Cloud Growth and AI Infrastructure Demand",
+              "publisher": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/td-synnex-snx-shares-jump-145255769.html",
+              "date": "2026-09-08",
+              "quote": "The company reported strong earnings and easily beat analysts' consensus. Management also came out with increased guidance for the coming quarters."
+            },
+            {
+              "title": "TD Synnex (SNX) Shares Jump Over 50% on Cloud Growth and AI Infrastructure Demand",
+              "publisher": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/td-synnex-snx-shares-jump-145255769.html",
+              "date": "2026-09-08",
+              "quote": "TD Synnex Corporation (NYSE:SNX) returned 3.51%, and its shares are up 74.64% over the past year."
+            }
+          ]
+        },
+        {
+          "id": "arrow-electronics-earnings-beat-buyback",
+          "statement": "Arrow Electronics는 1분기 실적이 시장 예상치를 크게 상회했고 발행주식의 약 10%에 해당하는 대규모 자사주 매입 프로그램을 발표했으며, AI 인프라 구축에 따른 컴퓨팅 하드웨어 수요 확대 속에 해당 분기 주가가 약 50% 상승했다.",
+          "evidence_level": "sourced",
+          "sources": [
+            {
+              "title": "Arrow Electronics (ARW) Stock Rises Sharply Amid AI Infrastructure Surge",
+              "publisher": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/arrow-electronics-arw-stock-rises-145958037.html",
+              "date": "2026-09-08",
+              "quote": "Arrow reported first quarter earnings well in excess of expectations and announced a sizeable new share repurchase program totaling nearly 10% of outstanding shares."
+            },
+            {
+              "title": "Arrow Electronics (ARW) Stock Rises Sharply Amid AI Infrastructure Surge",
+              "publisher": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/arrow-electronics-arw-stock-rises-145958037.html",
+              "date": "2026-09-08",
+              "quote": "Arrow Electronics was also up nearly 50% in the quarter, benefiting from the buildout of AI infrastructure."
+            }
+          ]
+        }
+      ],
+      "risk": "1개월 WRS 상위 9.29%는 6개월 기준 상위 1.43%에 비해 최근 상대강도 개선폭이 눈에 띄게 둔화된 것이며, 200일선 이격(32.9%)도 최근 25거래일간 6.45%p 축소돼 단기 모멘텀 둔화 신호가 함께 나타난다. AI 데이터센터 capex는 하이퍼스케일러의 예산 재조정에 민감하고 유통업은 마진이 얇아 부품가격·재고 사이클이 반전되면 이익 변동성이 커질 수 있다. 당해/차기연도 컨센서스 상향비율이 95.56%(n=90)로 이미 높은 수준까지 반영돼, Avnet(YTD +81.5%)·Arrow(분기 중 +50%)·TD Synnex(1년 +74.64%) 등 큰 폭으로 리레이팅된 종목의 추가 상승은 실적 서프라이즈 지속 여부에 좌우된다. Node 국면 판정이 \"중반이나 수축 중\"(mid_flat)이고 흐름이 pending인 만큼, 향후 F10d·F25d의 추가 개선과 200일 이격의 재확대 여부가 확인돼야 이 강세 논리가 유지된다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reason": "avnet-ai-datacenter-mix-shift(매출 71억 달러/$7.1B, 34% 증가, AI·데이터센터 비중 5~7%→10~15%, 주가 YTD 81.5%), td-synnex-guidance-raise(실적 상회, 가이던스 상향, 주가 74.64% 1년 수익률), arrow-electronics-earnings-beat-buyback(실적 상회, 자사주 매입 약 10%, 주가 약 50% 상승)의 모든 주장이 제공된 인용문과 출처 제목으로 검증됨"
+      }
+    },
+    {
+      "driver": "commodity",
+      "durability": "cyclical",
+      "industry": "Coking Coal",
+      "key": "Basic Materials|Coking Coal",
+      "keyStocks": [
+        "AMR",
+        "HCC",
+        "METC"
+      ],
+      "lead": "코킹콜(제철용 원료탄) 업종은 1개월 WRS 기준 전체 업종 상위 0.71%(3개월 22.14%, 6개월 46.43%)로 랭킹이 급등했으며, 업종 내 뉴스 흐름이 확인되는 유일한 종목인 AMR(Alpha Metallurgical Resources)에서 그 배경이 뚜렷하게 잡힌다. AMR 이사 Kenneth Courtis 가 8~9월에 걸쳐 반복적으로 자사주를 매입했고, 같은 시기 Warrior Met Coal·Ramaco Resources 등 동종업체 전반이 동반 강세를 보이는 섹터 전체의 업턴이 함께 관찰된다.",
+      "risk": "2분기 실적은 매출 4억9,286만달러로 시장 컨센서스(5억7,723만달러)를 크게 하회했고 주당손실 0.96달러를 기록했으며, 회사는 DTA 하역설비(스태커 리클레이머) 파손과 이란 전쟁발 디젤가격 상승을 이유로 2026년 출하량 가이던스를 중간값 기준 100만톤(14.2~15.4백만톤) 낮추고 톤당 원가 가이던스 중간값은 7달러 상향(103~107달러)했다. Node 데이터상으로도 당해/차기연도 컨센서스 변화 중앙값이 각각 -85.585%/-19.175%이고 상향 비율은 20.83%(n=24), 승률 1%에 그쳐 애널리스트들은 여전히 실적 전망을 깎고 있는 국면이다. Courtis 의 매수는 내부자 신뢰 신호이지만 AMR 주가가 이미 1년 61% 상승한 이후의 추가 매수이며, Simply Wall St 는 일부 밸류에이션 지표가 내재가치 대비 고평가 영역을 시사한다고 지적한다. 코킹콜 가격이 재차 하락하거나 DTA 설비 복구가 지연되어 3분기 이후 출하량·원가 가이던스가 추가로 악화될 경우, 현재의 1개월 WRS 상위 0.71% 강세는 3개월(상위 22.14%)·6개월(상위 46.43%) 수준으로 되돌림될 개연성이 높다.",
+      "whyStrong": [
+        {
+          "id": "insider_buying",
+          "statement": "AMR 이사 Kenneth Courtis 가 8~9월에 걸쳐 반복적으로 자사주를 매입했다. 9월 8일에는 10,000주를 주당 223.85~229.39달러(가중평균 225.83달러)에 매입해 총 약 226~230만달러 규모였으며, 8월 25일에도 약 110만달러 규모 매수가 추가로 있었다.",
+          "evidence_level": "sourced",
+          "sources": [
+            {
+              "title": "Alpha Metallurgical Resources director Kenneth Courtis buys $2.26m in shares",
+              "publisher": "Investing.com",
+              "url": "https://www.investing.com/news/insider-trading-news/alpha-metallurgical-resources-director-kenneth-courtis-buys-226m-in-shares-93CH-4892666",
+              "date": "2026-09-10",
+              "quote": "Kenneth S. Courtis, a director at Alpha Metallurgical Resources (NASDAQ:AMR), purchased common stock valued at approximately $2.26 million...acquiring a total of 10,000 shares of the company's common stock. The purchases were executed at prices ranging from $223.85 to $229.39 per share. The transactions occurred on September 8, 2026."
+            },
+            {
+              "title": "Alpha Metallurgical Director Courtis Keeps Buying as He Adds Another $1.1 Million Shares",
+              "publisher": "The Motley Fool",
+              "url": "https://www.nasdaq.com/articles/alpha-metallurgical-director-courtis-keeps-buying-he-adds-another-11-million-shares",
+              "date": "2026-08-25",
+              "quote": "Alpha Metallurgical Director Courtis Keeps Buying as He Adds Another $1.1 Million Shares"
+            }
+          ]
+        },
+        {
+          "id": "sector_upswing",
+          "statement": "AMR 은 최근 며칠간 코킹콜 생산업체 전반의 업종 전체 강세에 동반 상승했으며, 개선된 야금탄(met coal) 투자심리가 Warrior Met Coal(HCC)·Ramaco Resources(METC) 등 동종업체와 함께 주가를 끌어올렸다.",
+          "evidence_level": "sourced",
+          "sources": [
+            {
+              "title": "Does Sector Upswing And Insider Buying Shift The Risk‑Reward Balance For Alpha Metallurgical (AMR)?",
+              "publisher": "Simply Wall St News",
+              "url": "https://simplywall.st/stocks/us/materials/nyse-amr/alpha-metallurgical-resources/news/does-sector-upswing-and-insider-buying-shift-the-riskreward",
+              "date": "2026-09",
+              "quote": "In recent days, Alpha Metallurgical Resources benefited from a sector-wide upswing in coking coal producers / improving sentiment toward metallurgical coal lifted the company alongside peers such as Warrior Met Coal and Ramaco Resources"
+            }
+          ]
+        },
+        {
+          "id": "met_coal_price_china_demand",
+          "statement": "역내 야금탄 벤치마크인 호주산 HCC(hard coking coal) 지수는 미중 정상회담 이후 개선된 중국측 심리와 차익거래 트레이더들의 이연 화물 매수세에 힘입어 톤당 약 240달러 부근까지 올랐다(2026년 5월 기준 데이터로, 9월 시점 최신 수치는 별도 확인 필요).",
+          "evidence_level": "sourced",
+          "sources": [
+            {
+              "title": "Global coal prices diverge as China and metallurgical coal strengthen",
+              "publisher": "The Coal Hub",
+              "url": "https://thecoalhub.com/global-coal-prices-diverge-as-china-and-metallurgical-coal-strengthen.html",
+              "date": "2026-05-19",
+              "quote": "Sentiment in China improved following the US-China leaders' meeting. Interest in buying deferred HCC cargoes from China remained active, particularly from arbitrage traders / Australia's HCC metallurgical coal index climbed to nearly 240 USD/t"
+            }
+          ]
+        }
+      ],
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reason": "insider_buying(Kenneth Courtis의 9월 8일 $2.26M, 8월 $1.1M 매입), sector_upswing(업종 전체 강세, HCC·METC 동반상승), met_coal_price_china_demand(미중 정상회담 후 심리 개선, 차익거래 매수, HCC 지수 $240/t 도달)의 모든 주장이 제공된 인용문과 출처 제목으로 검증됨"
+      }
+    },
+    {
+      "driver": "commodity",
+      "durability": "cyclical",
+      "industry": "Agricultural Inputs",
+      "key": "Basic Materials|Agricultural Inputs",
+      "keyStocks": [
+        "CF",
+        "NTR",
+        "MOS",
+        "UAN"
+      ],
+      "lead": "Basic Materials/Agricultural Inputs 업종은 WRS 1개월 상위 1.43%로 초강세를 보이지만 6개월 기준으로는 52.14%(중위권)에 그쳐, 최근 부각된 단기 로테이션 성격이 강하다. 이스라엘-이란 분쟁에 따른 중동發 천연가스 공급 차질이 요소·암모니아·UAN 등 질소계 비료 가격을 밀어올리면서 질소 비중이 큰 CF Industries·Nutrien의 이익 전망과 목표주가가 잇달아 상향된 반면, 칼리·인산염 비중이 큰 Mosaic은 상대적으로 소외되어 업종 내 종목간 편차가 크다.",
+      "risk": "DOJ가 CF Industries·Nutrien·Mosaic·Koch Industries·Yara International의 가격 담합 여부를 조사 중이며 상위 4개사가 질소 비료 시장의 약 75%를 장악하고 있어, 반독점 이슈가 현실화되면 최근 형성된 밸류에이션 프리미엄이 급격히 되돌려질 수 있다. Sen. Josh Hawley는 2026년 3월 12일 \"Sure looks to me like the giant fertilizer companies are price gouging farmers\"라며 공개 비판한 바 있어 정치적 리스크도 상존한다. 질소 가격 강세의 근본 원인이 중동 지정학 리스크(천연가스 공급 차질)이므로 이란-이스라엘 분쟁이 완화되거나 가스 공급이 정상화되면 요소·암모니아 가격이 빠르게 되돌림될 수 있다. Node 데이터상 업종 6개월 WRS 백분위가 52.14%로 중위권에 머물고 컨센서스 상향 비율도 32.47%(n=154)에 불과해, 최근 1개월 급등이 구조적 추세 전환인지 단기 반등인지는 향후 실적 시즌에서 이익 전망 상향이 종목 전반으로 확산되는지, 그리고 중동발 공급 차질이 지속되는지로 확인해야 한다.",
+      "whyStrong": [
+        {
+          "id": "iran_gas_disruption",
+          "statement": "이스라엘-이란 분쟁으로 중동發 천연가스 공급이 차질을 빚으며 질소 비료(요소·암모니아·UAN) 생산 원료 공급이 타이트해졌고, 이는 질소 비중이 큰 CF Industries·Nutrien의 가격결정력과 실적 전망을 끌어올리는 반면 칼리·인산염 비중이 큰 Mosaic에는 직접적 수혜가 없다.",
+          "evidence_level": "sourced",
+          "sources": [
+            {
+              "title": "Nitrogen surge to lift CF, Nutrien earnings; Mosaic faces headwinds",
+              "publisher": "Reuters (via Kitco News)",
+              "url": "https://www.kitco.com/news/off-the-wire/2026-05-05/nitrogen-surge-lift-cf-nutrien-earnings-mosaic-faces-headwinds",
+              "date": "2026-05-05",
+              "quote": "Nitrogen-focused producers such as CF Industries and Nutrien are expected to outperform fertilizer peers with heavier exposure to potash and phosphate, including Mosaic."
+            }
+          ]
+        },
+        {
+          "id": "urea_price_spike",
+          "statement": "요소(urea) 가격이 2026년 3월 12거래일 만에 약 32% 급등해 톤당 516달러에서 683달러까지 올랐고, 미주 비료 가격지수는 2025년 8월 고점 776.85달러를 넘어 810달러/톤에 도달했다.",
+          "evidence_level": "sourced",
+          "sources": [
+            {
+              "title": "Senator Hawley accuses CF Industries of price gouging as urea surges 32%",
+              "publisher": "Investing.com",
+              "url": "https://www.investing.com/news/stock-market-news/senator-hawley-accuses-cf-industries-of-price-gouging-as-urea-surges-32-4558554",
+              "date": "2026-03-12",
+              "quote": "12일간 약 32% 급등, 약 516달러/톤에서 683달러/톤으로 상승. 미주 비료 가격지수는 2025년 8월 최고치인 776.85달러를 넘어 810달러/톤에 도달."
+            }
+          ]
+        },
+        {
+          "id": "analyst_upgrades",
+          "statement": "질소 가격 강세를 근거로 IB들이 CF Industries 목표주가를 잇달아 상향했다. CIBC는 목표주가를 118달러에서 128달러로 올리며 중동 공급 차질에 따른 질소가격 추가 강세를 근거로 들었다.",
+          "evidence_level": "sourced",
+          "sources": [
+            {
+              "title": "CIBC Raises CF Industries (CF) Price Target on Stronger Nitrogen Pricing Outlook",
+              "publisher": "CIBC (via Yahoo Finance)",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/cibc-raises-cf-industries-cf-214923160.html",
+              "date": "2026-05-07",
+              "quote": "CIBC said it expects stronger nitrogen pricing because of supply disruptions in the Middle East. CIBC raised its price target to $128 from $118."
+            }
+          ]
+        },
+        {
+          "id": "cf_fundamentals_valuation",
+          "statement": "CF Industries는 최근 3개월 +59.4% 상승(Zacks Fertilizers 업종 +23.9%, S&P500 -5.7% 대비 아웃퍼폼)했고, 순이익률 27.1%·총마진 42.5%의 펀더멘털에 공정가치 대비 +14.1% 추가 상승여력이 있다는 평가로 Barclays는 Overweight, Nutrien은 공정가치 대비 +21.4%/애널리스트 컨센서스 +23.6% 상승여력에 JPMorgan Overweight를 유지했다.",
+          "evidence_level": "sourced",
+          "sources": [
+            {
+              "title": "CF Stock Rallies 59% in 3 Months: What Should Investors Do Now?",
+              "publisher": "Zacks (via Yahoo Finance)",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/cf-stock-rallies-59-3-163600917.html",
+              "date": "2026",
+              "quote": "CF Industries shares have rallied 59.4% in the past three months, outperforming the Zacks Fertilizers industry's growth of 23.9% and the S&P 500's decline of 5.7%."
+            },
+            {
+              "title": "CF Industries, Nutrien and Mosaic: best fertilizer stocks rated after earnings",
+              "publisher": "Investing.com",
+              "url": "https://www.investing.com/news/stock-market-news/cf-industries-nutrien-and-mosaic-best-fertilizer-stocks-rated-after-earnings-93CH-4849238",
+              "date": "2026-08-10",
+              "quote": "CF Industries YTD 수익률 +49.2%, 순이익률 27.1%, 총마진률 42.5%, 공정가치 대비 +14.1% 상승여력, Barclays Overweight. Nutrien은 공정가치 대비 +21.4% 상승여력, 애널리스트 컨센서스 +23.6% 상승, 배당수익률 3.4%, JPMorgan Overweight. Mosaic은 자유현금흐름 수익률 -12.9%, 순이익률 -5.2%로 회피 권고."
+            }
+          ]
+        }
+      ],
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reason": ""
+      }
+    },
+    {
+      "key": "Energy|Oil & Gas Refining & Marketing",
+      "industry": "Oil & Gas Refining & Marketing",
+      "lead": "Par Pacific Holdings(PARR)는 하와이·워싱턴·몬태나·와이오밍에 정제 자산을 보유한 다운스트림 정유사로, WRS 3개월 0.5574(상위 0.71%)·6개월 0.6084(상위 2.14%)를 기록하며 업종 내 자금 유입이 최상위권에 진입했다. 실적 발표 이후 목표주가 상향과 밸류에이션 매력이 이 흐름을 뒷받침하고 있다.",
+      "whyStrong": [
+        {
+          "id": "target-price-hikes",
+          "statement": "실적 발표 이후 목표주가 상향이 이어지고 있다. 골드만삭스는 목표주가를 $77에서 $92로 올리며 Buy 의견을 유지했고, 애널리스트 컨센서스 목표주가는 $81.57이다.",
+          "evidence_level": "sourced",
+          "sources": [
+            {
+              "title": "Par Pacific (NYSE:PARR) Shares Gap Up – Time to Buy?",
+              "publisher": "Daily Political",
+              "url": "https://www.dailypolitical.com/2026/09/12/par-pacific-nyseparr-shares-gap-up-time-to-buy.html",
+              "date": "2026-09-12",
+              "quote": "골드삭스: $77.00 → $92.00 (상향, Buy 등급); 컨센서스 목표주가: $81.57"
+            }
+          ]
+        },
+        {
+          "id": "valuation-still-cheap",
+          "statement": "지난 1년간 148% 급등했음에도 밸류에이션은 낮은 편이다. EV/EBITDA는 3.50배로 업계 평균을 하회하고, PER은 4.93배 수준이다.",
+          "evidence_level": "sourced",
+          "sources": [
+            {
+              "title": "Par Pacific Surges 148% in a Year: Should You Bet on the Momentum?",
+              "publisher": "Zacks (via Nasdaq)",
+              "url": "https://www.nasdaq.com/articles/par-pacific-surges-148-year-should-you-bet-momentum",
+              "date": "2026-09-11",
+              "quote": "Par Pacific Surges 148% in a Year: Should You Bet on the Momentum?"
+            },
+            {
+              "title": "Par Pacific (NYSE:PARR) Shares Gap Up – Time to Buy?",
+              "publisher": "Daily Political",
+              "url": "https://www.dailypolitical.com/2026/09/12/par-pacific-nyseparr-shares-gap-up-time-to-buy.html",
+              "date": "2026-09-12",
+              "quote": "EV/EBITDA: 3.50배 (업계 평균 이하); PER: 4.93배"
+            }
+          ]
+        }
+      ],
+      "driver": "commodity",
+      "durability": "cyclical",
+      "keyStocks": [
+        "PARR"
+      ],
+      "risk": "이번 강세의 핵심은 물량이 아니라 마진이다. 총 처리량은 전년대비 2.8% 줄어든 181.4천 배럴/일인 반면 배럴당 마진이 하와이 기준 $10.18→$57로 급등한 결과이므로, 지역 크랙 스프레드(Hawaii Index 등)가 이례적으로 낮았던 전년 기저 대비 정상화되면 EPS 레버리지가 역방향으로도 강하게 작동할 수 있다. Node 지표상으로도 국면이 \"후반 가속\"이며 25거래일 순위변동(FRANK)이 -2로 하락 전환했고, 최근에는 CEO 윌리엄 몬텔레오네가 9월 2일 40,000주(주당 $81.30)를 매도하는 등 내부자 매도가 이어져 경영진이 현 주가 수준에서 추가 상승 여력을 제한적으로 볼 가능성도 있다. 다음 분기 이후 Hawaii Index를 비롯한 지역별 크랙 스프레드가 배럴당 $40대 이상을 유지하는지, 그리고 FRANK 순위 하락이 추세로 굳어지는지가 이 강세의 지속 여부를 가늠할 핵심 변수다.",
+      "factcheck": {
+        "verdict": "partial",
+        "removed": [
+          "q2-earnings-beat",
+          "refining-margin-expansion"
+        ],
+        "reason": "",
+        "leadFixed": true
+      },
+      "leadOriginal": "Par Pacific Holdings(PARR)는 하와이·워싱턴·몬태나·와이오밍에 정제 자산을 보유한 다운스트림 정유사로, WRS 3개월 0.5574(상위 0.71%)·6개월 0.6084(상위 2.14%)를 기록하며 업종 내 자금 유입이 최상위권에 진입했다. 2026년 2분기 조정 EPS가 컨센서스를 크게 상회하고 전년동기 대비 급증했으며, 하와이를 중심으로 지역별 정제마진이 확대되면서 실적 서프라이즈가 주가 재평가를 이끌고 있다. 실적 발표 이후 목표주가 상향과 밸류에이션 매력이 이 흐름을 뒷받침하고 있다."
+    }
+  ],
+  "summary": {
+    "rotationView": "6개월 기준 최상위였던 두 기술 업종에서 1개월 사이 자금이 빠지고, 상품 성격의 두 업종으로 신규 자금이 들어오는 로테이션이 뚜렷하다. Computer Hardware는 m6 rankPct 0.71(1위권)에서 m1 rankPct 16.43으로, Electronics & Computer Distribution은 m6 1.43에서 m1 9.29로 각각 순위가 밀렸다. 반대로 Coking Coal은 m6 rankPct 46.43(중위권)에서 m1 rankPct 0.71로, Agricultural Inputs는 m6 52.14(중위권 이하)에서 m1 1.43으로 단기간에 최상위권으로 뛰어올랐다. 이 로테이션과 별개로 Oil & Gas Refining & Marketing은 m1·m3·m6 rankPct가 각각 2.86 / 0.71 / 2.14로 전 구간 상위 3% 이내를 유지하고 있어, 신흥·이탈 어느 쪽에도 속하지 않는 지속형 주도업종으로 분류된다.",
+    "strongest": {
+      "industry": "Oil & Gas Refining & Marketing",
+      "why": "1개월/3개월/6개월 rankPct가 2.86/0.71/2.14로 전 구간 상위 3% 이내를 유지해 단기 급등이 아닌 지속형 주도. 실적 발표 후 골드만삭스가 목표주가를 77달러에서 92달러로 상향하며 Buy를 유지했고 컨센서스 목표주가는 81.57달러. 최근 1년 148% 상승했음에도 EV/EBITDA 3.50배, PER 4.93배로 업계 평균 대비 밸류에이션 부담이 낮다."
+    },
+    "emerging": [
+      "Coking Coal",
+      "Agricultural Inputs"
+    ],
+    "fading": [
+      "Computer Hardware",
+      "Electronics & Computer Distribution"
+    ],
+    "caution": "Computer Hardware는 researched:false로 조사 근거가 전혀 없다. WRS 수치상 6개월 1위(rankPct 0.71)에서 1개월 16.43으로 급락한 로테이션 이탈은 확인되지만, 그 원인은 조사되지 않았으므로 서술하지 않았다. Electronics & Computer Distribution의 조사 근거(Avnet·TD Synnex·Arrow Electronics 실적)도 YTD·최근 1년·분기 단위 성과일 뿐 최근 1개월 rankPct 둔화(9.29)를 직접 설명하는 근거는 아니므로 로테이션 방향(수치)과 개별 종목 스토리(근거)를 분리해서 읽어야 한다."
+  },
+  "failed": [],
+  "coverage": {
+    "done": 5,
+    "total": 5,
+    "cap": 6,
+    "failed": 0
+  }
+}

@@ -55,9 +55,87 @@ window.TEAM4_DATA = {
         "rangePct": 125.53
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "FEIM",
+        "category": 1,
+        "company": "Frequency Electronics는 위성·항공우주 및 국방용 정밀 주파수·타이밍 제어 시스템과 GPS/GNSS 항재밍(anti-jam) 솔루션을 설계·제조하는 업체로, 매출 대부분이 미국 정부 및 방산 프라임 계약사 대상 수주 백로그에서 발생한다. FY2027 1분기(2026년 7월 마감)에 매출 2,350만달러(YoY +70%, QoQ +52%)로 분기 최고 기록을 경신했고, 펀디드 백로그도 1억2,900만달러(YoY +82%, QoQ +16%)로 확대되며 위성·우주 방산 프로그램 수주 사이클이 실적에 본격 반영되는 턴어라운드 국면에 있다.",
+        "volumeExplanation": "2026-09-10 8-K(item 2.02) 실적발표에서 FY2027 1분기 매출 2,350만달러(YoY +70%, QoQ +52%)와 희석EPS 0.41달러(전년동기 0.07달러)로 컨센서스를 크게 상회하는 어닝 서프라이즈가 확인됐고, 펀디드 백로그 1억2,900만달러(YoY +82%)와 영업이익률 22%대 진입까지 겹치며 VOL_X 6.78·주간 거래량배수 7.95의 거래량 급증으로 이어졌다. 컨센서스 EPS 성장률(CY 1291.4%)도 이번 실적 서프라이즈와 방향이 일치한다.",
+        "claims": [
+          {
+            "id": "earnings_beat",
+            "statement": "FY2027 1분기(7월 마감) 매출 2,350만달러로 분기 최고치 경신, YoY +70%·QoQ +52%",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "FORM 8-K (Item 2.02) Exhibit 99.1 - Frequency Electronics 실적 보도자료",
+                "publisher": "SEC EDGAR / Frequency Electronics, Inc.",
+                "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526003916/feimex99-1.htm",
+                "date": "2026-09-10",
+                "quote": "Record Quarterly Revenue of $23.5 Million, Up 70% Year-over-Year and 52% Sequentially",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "eps_beat",
+            "statement": "희석EPS 0.41달러로 전년동기 0.07달러 대비 대폭 개선",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "FORM 8-K (Item 2.02) Exhibit 99.1 - Frequency Electronics 실적 보도자료",
+                "publisher": "SEC EDGAR / Frequency Electronics, Inc.",
+                "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526003916/feimex99-1.htm",
+                "date": "2026-09-10",
+                "quote": "$0.41 per diluted share, compared to...$0.07 per diluted share",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "backlog_record",
+            "statement": "펀디드 백로그 1억2,900만달러로 사상 최대, YoY +82%·QoQ +16%",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "FORM 8-K (Item 2.02) Exhibit 99.1 - Frequency Electronics 실적 보도자료",
+                "publisher": "SEC EDGAR / Frequency Electronics, Inc.",
+                "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526003916/feimex99-1.htm",
+                "date": "2026-09-10",
+                "quote": "Record $129 Million Funded Backlog, up 82% Year-over-Year and 16% Sequentially",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "margin_expansion",
+            "statement": "매출총이익률 약 46%, 영업이익률 22% 이상으로 확대되며 수익성 턴어라운드 확인, 기존 FY2029 매출 1.5억달러 이상 목표를 조기 언급",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "FORM 8-K (Item 2.02) Exhibit 99.1 - Frequency Electronics 실적 보도자료",
+                "publisher": "SEC EDGAR / Frequency Electronics, Inc.",
+                "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526003916/feimex99-1.htm",
+                "date": "2026-09-10",
+                "quote": "Gross margin expanding to approximately 46% and operating margin exceeding 22%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "All four claims match exactly: revenue ($23.5M, +70% YoY, +52% QoQ), EPS ($0.41 vs $0.07), backlog ($129M, +82% YoY, +16% QoQ), margins (46% gross, 22%+ operating). Proper category 1 classification."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-09-14",
+        "carried": false
       }
     },
     {
@@ -109,9 +187,38 @@ window.TEAM4_DATA = {
         }
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "AGM.A",
+        "category": 6,
+        "company": "Federal Agricultural Mortgage Corporation(Farmer Mac)는 1988년 의회 특별법으로 설립된 GSE로, Farm & Ranch·USDA 보증·농촌 유틸리티 대출을 매입·보증해 2차 유동화 시장을 제공하는 신용서비스 업체다. 매출은 순이자마진과 보증·약정 수수료로 구성되며, 2026년 1분기 기준 미상환 사업량이 348억달러(YoY +17%)로 사상 최대치를 기록하는 등 대출 취급량 확대 국면에 있다. 최근 CEO 승계 완료와 신임 최고사업책임자(CBO) 선임 등 경영진 재편이 실적 확장과 병행되고 있다.",
+        "volumeExplanation": "2026-07-30 8-K(Item 2.02)로 2분기 실적이 공시되었으나, 이후의 KBW 목표주가 인상, Zacks 등급 변경, 배당 정보는 제공된 자료에서 검증되지 않음.",
+        "confidence": "medium",
+        "claims": [
+          {
+            "id": "q2-earnings-8k",
+            "statement": "근거 없음(출처 검증 실패로 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [],
+            "stripped": true
+          }
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "kbw-pt-hike",
+            "zacks-strong-buy",
+            "q3-dividend"
+          ],
+          "reason": "KBW PT numbers ($228→$255) not in source. Zacks 'Strong Buy' rating and 'Rank #1' not in quote. Dividend amount ($1.60) and ex-date (9/15) not in quote. With these recent catalysts removed, only 7/30 earnings remain—6+ weeks stale. Evidence is weak; should be category 6, not 1.",
+          "narrativeFixed": true
+        },
+        "originalCategory": 1,
+        "corrected": true,
+        "volumeExplanationOriginal": "2026-07-30 8-K(Item 2.02)로 공시된 2분기 실적 발표 이후 KBW가 목표주가를 228달러에서 255달러로 상향했고, Zacks는 3개월간 4.9% 상향된 컨센서스 이익 추정치를 근거로 등급을 Strong Buy(Rank #1)로 올렸다(8/12). 여기에 주당 1.60달러의 3분기 배당(ex-date 9/15)까지 겹치며 실적 재평가에 따른 매수세와 거래대금 유입이 최근까지 이어지고 있는 것으로 판단된다.",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-14",
+        "carried": false
       }
     },
     {
@@ -162,9 +269,87 @@ window.TEAM4_DATA = {
         "rangePct": 82.38
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SPSC",
+        "category": 4,
+        "company": "SPS Commerce는 클라우드 기반 EDI(전자문서교환)·공급망 네트워크 플랫폼 업체로, 소매업체·공급업체·물류업체 등 거래 파트너 간 주문·인보이스·재고 데이터를 자동화하는 구독형 SaaS 매출 구조(반복 네트워크 수수료 중심)를 갖는다. 매출성장률이 2025년 3분기 YoY 16%, 4분기 12.7%에서 2026년 1분기 5.8%, 2분기 5.6%로 둔화되며 밸류에이션 압박을 받아온 국면에서, 주가는 52주 고점 대비 71.98% 수준(고점 대비 약 65% 하락 구간)까지 눌린 상태였다. 이 저평가·성장둔화 구간에서 활동주의 펀드들이 지분을 확보하며 매각을 요구했고, 최근 사모펀드와의 인수 협상 보도가 나오며 리레이팅이 촉발됐다.",
+        "volumeExplanation": "9월 11일(금) 블룸버그가 시카고 소재 사모펀드 GTCR이 SPSC와 인수 관련 후반(advanced) 단계 협상을 진행 중이며 수 주 내 거래 성사 가능성이 있다고 보도하면서, 주가는 장중 최대 15.8%까지 급등한 뒤 종가 기준 +7.1%로 마감했다. 이는 7월 30일 실적 발표(8-K item 2.02, Q2 실적 컨센서스 상회) 이후 약 6주 만에 나온 별도의 M&A 촉매로, VOL_X 3.62·주간 거래량배수 3.88의 직접적인 트리거다. 배경에는 성장 둔화에 따른 주가 약세를 계기로 활동주의 펀드들이 지분을 확보하고 매각을 압박해온 정황이 있으며, 이는 앞서 회사가 매각을 검토 중이라는 보도와도 맥락이 이어진다.",
+        "claims": [
+          {
+            "id": "gtcr-advanced-talks",
+            "statement": "사모펀드 GTCR이 SPS Commerce와 인수 관련 후반 단계 협상을 진행 중이며 수 주 내 거래 성사 가능성이 있다는 블룸버그발 보도",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why SPS Commerce Rallied on Friday",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/investing/2026/09/11/why-sps-commerce-rallied-on-friday/",
+                "date": "2026-09-11",
+                "quote": "Bloomberg reported that a Chicago-based private equity firm, GTCR, was in advanced talks with SPS, and that a deal could potentially be consummated in the next few weeks",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "price-reaction",
+            "statement": "인수 협상 보도 당일 SPSC 주가는 장중 최대 15.8% 급등했다가 종가 기준 +7.1% 상승으로 마감",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why SPS Commerce Rallied on Friday",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/investing/2026/09/11/why-sps-commerce-rallied-on-friday/",
+                "date": "2026-09-11",
+                "quote": "Shares of e-commerce backend software company SPS Commerce (SPSC +7.06%) rallied as much as 15.8% before retreating to a 7.1% gain",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "activist-pressure",
+            "statement": "성장 둔화로 인한 주가 약세를 계기로 활동주의 펀드들이 지분을 확보하고 매각을 요구해온 배경이 이번 인수설의 토대",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why SPS Commerce Rallied on Friday",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/investing/2026/09/11/why-sps-commerce-rallied-on-friday/",
+                "date": "2026-09-11",
+                "quote": "The downturn in SPS stock attracted the interest of activist investors, with multiple activist firms taking stakes in the company. Those activists had reportedly been advocating for a sale",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "prior-sale-exploration",
+            "statement": "이번 GTCR 인수 협상 보도는 앞서 회사가 매각을 검토 중이라는 보도의 연장선이며, 애널리스트들은 거래 성사 가능성을 높게 보고 있음",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SPSC Looks 54.9% Undervalued on GF Value™ Amid Acquisition Talks",
+                "publisher": "GuruFocus",
+                "url": "https://www.gurufocus.com/news/9078107/spsc-looks-549-undervalued-on-gf-value-amid-acquisition-talks",
+                "date": "2026-09-12",
+                "quote": "This follows earlier reports that the company was exploring a sale, with analysts indicating a strong likelihood that a deal could materialize.",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          }
+        ],
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "All claims properly sourced with matching numbers from Motley Fool articles"
+        },
+        "categoryName": "기업 턴어라운드",
+        "isHighlight": false,
+        "researchedOn": "2026-09-14",
+        "carried": false
       }
     },
     {
@@ -215,9 +400,8 @@ window.TEAM4_DATA = {
         "rangePct": 118.56
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -268,9 +452,8 @@ window.TEAM4_DATA = {
         "rangePct": 94.92
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -317,9 +500,8 @@ window.TEAM4_DATA = {
         "rangePct": 2447.53
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -370,9 +552,8 @@ window.TEAM4_DATA = {
         "rangePct": 35.42
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -423,9 +604,8 @@ window.TEAM4_DATA = {
         "rangePct": 34.7
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -476,9 +656,8 @@ window.TEAM4_DATA = {
         "rangePct": 89.08
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -529,9 +708,8 @@ window.TEAM4_DATA = {
         "rangePct": 31.59
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -582,9 +760,8 @@ window.TEAM4_DATA = {
         "rangePct": 44.57
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -635,9 +812,8 @@ window.TEAM4_DATA = {
         "rangePct": 107.36
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -688,9 +864,8 @@ window.TEAM4_DATA = {
         "rangePct": 30.11
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -741,9 +916,8 @@ window.TEAM4_DATA = {
         "rangePct": 102.31
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -794,9 +968,8 @@ window.TEAM4_DATA = {
         "rangePct": 70.86
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -847,9 +1020,8 @@ window.TEAM4_DATA = {
         "rangePct": 59.76
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -912,9 +1084,75 @@ window.TEAM4_DATA = {
         "score": 50
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "TRP",
+        "category": 6,
+        "company": "TC Energy는 캐나다 NGTL 시스템·Canadian Mainline·Columbia Gas Transmission 등 규제형 천연가스 파이프라인과 Coastal GasLink, Bruce Power 원전 지분, 멕시코·미국 가스수송 자산을 보유한 북미 최대 미드스트림 인프라 기업이다. 매출 대부분이 take-or-pay 장기계약과 레이트베이스 기반 규제수익으로 구성되어 LDC·발전사·LNG 수출터미널에 공급하며, 최근에는 데이터센터發 가스수요 기대가 밸류에이션 내러티브에 반영되고 있다. 컨센서스 매출성장은 CY 5.17%/NY 5.21%, EPS성장은 CY 6.43%/NY 4.89%로 완만하며, 현재 주가는 52주 고점 대비 85.87% 수준에서 6개월째 59.29~71.47(폭 20.54%) 박스권 횡보 중이다.",
+        "volumeExplanation": "VOL_X 2.24(거래대금 20일평균 대비), 주간 거래량배수 1.82(당일제외 5일평균 대비)의 거래량 증가를 설명할 명확한 호재성 뉴스는 확인되지 않는다. 확보된 자료상 가장 최근 종목 관련 기사는 2026-09-10 이평선 하향 돌파 기사로 오히려 약세 신호이며, 실적 서프라이즈(Zacks, 2026-07-30)는 거래량 급증 시점과 6주 이상 떨어져 있어 직접적 촉매로 보기 어렵다. 웹검색으로 확인한 애널리스트 등급 변경(Morgan Stanley 관련 보도 9/9 전후)도 보도마다 방향과 날짜가 엇갈려 단일 인과관계로 확정할 수 없다.",
+        "claims": [
+          {
+            "id": "q2-earnings-beat-stale",
+            "statement": "TC Energy Q2 2026 실적이 컨센서스 매출·EPS를 상회했다고 Zacks가 보도했으나, 보도일이 2026-07-30로 거래량 급증 시점(2026-09-14 기준)과 6주 이상 간극이 있어 이번 주 거래량 급증의 직접 촉매로 보기 어렵다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "TC Energy (TRP) Q2 Earnings and Revenues Surpass Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/tc-energy-trp-q2-earnings-and-revenues-surpass-estimates",
+                "date": "2026-07-30",
+                "quote": "TC Energy (TRP) Q2 Earnings and Revenues Surpass Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "ma-crossdown-bearish",
+            "statement": "제공 자료 내 가장 최근 종목 뉴스는 이평선 하향 돌파를 보도한 기사로, 이번 거래량 급증이 호재가 아닌 약세 기술적 신호와 겹쳐 나타났음을 시사한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "TRP Crosses Below Key Moving Average Level",
+                "publisher": "BNK Invest",
+                "url": "https://www.nasdaq.com/articles/trp-crosses-below-key-moving-average-level",
+                "date": "2026-09-10",
+                "quote": "TRP Crosses Below Key Moving Average Level",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "morgan-stanley-mixed",
+            "statement": "Morgan Stanley 관련 보도는 2026-09-09 전후 Overweight 상향 보도와 밸류에이션을 이유로 한 Equalweight 하향(목표주가 C$103) 보도가 매체별로 엇갈려 나타나, 단일 방향의 촉매로 확정할 수 없다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Morgan Stanley downgrades TC Energy stock rating on valuation",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-downgrades-tc-energy-stock-rating-on-valuation-93CH-4734495",
+                "date": "2026-09 (정확한 일자 미상)",
+                "quote": "The company is nearing its estimated intrinsic fair value after recent stock performance.",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "jefferies-upgrade-early"
+          ],
+          "reason": "Jefferies claim states 'Hold→Buy, C$100→C$102' but provided quote only contains thematic language ('recent underperformance fundamentally unwarranted'). Specific target prices and rating change direction absent from quote. Category 6 remains correct.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "VOL_X 2.24(거래대금 20일평균 대비), 주간 거래량배수 1.82(당일제외 5일평균 대비)의 거래량 증가를 설명할 명확한 호재성 뉴스는 확인되지 않는다. 확보된 자료상 가장 최근 종목 관련 기사는 2026-09-10 이평선 하향 돌파 기사로 오히려 약세 신호이며, 실적 서프라이즈(Zacks, 2026-07-30)는 거래량 급증 시점과 6주 이상 떨어져 있어 직접적 촉매로 보기 어렵다. 웹검색으로 확인한 애널리스트 등급 변경(Jefferies 상향 9/1, Morgan Stanley 관련 보도 9/9 전후)도 보도마다 방향과 날짜가 엇갈려 단일 인과관계로 확정할 수 없다.",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-14",
+        "carried": false
       }
     },
     {
@@ -965,9 +1203,8 @@ window.TEAM4_DATA = {
         "rangePct": 35.71
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1122,9 +1359,8 @@ window.TEAM4_DATA = {
         "rangePct": 44.52
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1175,9 +1411,8 @@ window.TEAM4_DATA = {
         "rangePct": 77.74
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1228,9 +1463,8 @@ window.TEAM4_DATA = {
         "rangePct": 82
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1281,9 +1515,8 @@ window.TEAM4_DATA = {
         "rangePct": 54.92
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1334,9 +1567,8 @@ window.TEAM4_DATA = {
         "rangePct": 67.45
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1387,9 +1619,8 @@ window.TEAM4_DATA = {
         "rangePct": 125.14
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1440,9 +1671,8 @@ window.TEAM4_DATA = {
         "rangePct": 40.11
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1505,9 +1735,58 @@ window.TEAM4_DATA = {
         "score": 50
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "category": 6,
+        "ticker": "JCI",
+        "company": "Johnson Controls는 빌딩 HVAC·화재안전·보안 시스템을 제공하는 산업재 기업으로, 최근 데이터센터 써멀 매니지먼트 및 AI 인프라향 시스템 오더가 핵심 성장동력으로 부상했다. FY26 3분기(6월 마감)에 유기적 매출성장 10%, 조정 EPS $1.42(+35% YoY), 오더 +27%, 백로그 $21B(+32% YoY, 사상 최대)를 기록하며 FY26 가이던스를 재상향했다. 시총 88.44B, 150일선 위에서 6개월째 125.91~157.06(폭 24.74%) 박스권 베이스를 다지는 국면이며 52주 고점 대비 92.96% 수준이다.",
+        "volumeExplanation": "확보된 8-K(Item 2.02)와 뉴스는 2026-07-29 Q3 실적발표와 2026-08-08 어닝콜 트랜스크립트 보도에 그쳐 있어, VOL_X 1.98(거래대금 20일평균 대비)·주간 거래량배수 2가 관측된 9월 둘째주와는 5~6주 시차가 있다. 웹검색으로도 해당 시점에 부합하는 신규 계약·가이던스 변경·규제 이슈 등 단일 촉매는 확인되지 않았고, 2026-08-08 Zacks Research의 'strong-buy→hold' 다운그레이드 정도가 확인되는 가장 최근 애널리스트 이벤트다. 52주 신고가·60일 신고가 돌파가 모두 아니고 30일 전망 변화도 CY -0.03%/NY 0.85%로 미미해, 이번 거래량 증가를 설명할 표면적 근접 촉매는 특정되지 않는다.",
+        "confidence": "low",
+        "claims": [
+          {
+            "id": "earnings-call-transcript-news",
+            "statement": "제공된 종목 전용 자료의 유일한 뉴스 항목은 2026-08-08 Motley Fool의 Q3 실적콜 트랜스크립트 보도로, 이 역시 거래량 급증 시점보다 5주 이상 앞선다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Johnson Controls (JCI) Q3 2026 Earnings Call Transcript",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/johnson-controls-jci-q3-2026-earnings-call-transcript",
+                "date": "2026-08-08",
+                "quote": "Johnson Controls (JCI) Q3 2026 Earnings Call Transcript",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "zacks-downgrade",
+            "statement": "2026-08-08 Zacks Research가 JCI 투자의견을 'strong-buy'에서 'hold'로 하향 - 실적 서프라이즈 이후에도 밸류에이션 부담을 반영한 엇갈린 애널리스트 시그널이 존재.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Johnson Controls International (NYSE:JCI) Downgraded by Zacks Research to \"Hold\"",
+                "publisher": "Daily Political",
+                "url": "https://www.dailypolitical.com/2026/08/08/johnson-controls-international-nysejci-downgraded-by-zacks-research-to-hold.html",
+                "date": "2026-08-08",
+                "quote": "Johnson Controls International was downgraded by research analysts at Zacks Research from a \"strong-buy\" rating to a \"hold\" rating in early August 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "q3-earnings-beat",
+            "fy26-guidance-raise"
+          ],
+          "reason": "Q3 earnings claim omits '10% organic growth'—not in BigGo title/quote. Backlog growth '+32% YoY' specified in statement but title only says 'Record'. Q3 guidance claim includes 'FY26 ~8% organic growth', 'Q4 9-10% organic growth', 'Q4 $1.55 EPS'—none appear in provided quote ($5.05 and 35% mentioned, but no organic growth or Q4 details). Category 6 is appropriate; no identifiable recent catalyst."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-14",
+        "carried": false
       }
     },
     {
@@ -1558,9 +1837,8 @@ window.TEAM4_DATA = {
         "rangePct": 105.79
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1611,9 +1889,8 @@ window.TEAM4_DATA = {
         "rangePct": 72.29
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1664,9 +1941,8 @@ window.TEAM4_DATA = {
         "rangePct": 33.55
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1717,9 +1993,8 @@ window.TEAM4_DATA = {
         "rangePct": 49.36
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1770,9 +2045,8 @@ window.TEAM4_DATA = {
         "rangePct": 46.61
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1823,9 +2097,8 @@ window.TEAM4_DATA = {
         "rangePct": 113.36
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1888,9 +2161,55 @@ window.TEAM4_DATA = {
         "score": 20
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "KAI",
+        "category": 6,
+        "company": "Kadant Inc은 Flow Control·Industrial Processing·Material Handling 3개 부문으로 펄프/제지·목재가공·재활용 산업에 특수 산업기계 및 소모성 부품·시스템을 공급하는 기업으로, 부품·서비스 매출 비중이 높아 상대적으로 안정적인 캐시플로우를 낸다. Node 데이터 기준 최근 3개 분기 매출성장률이 22.57%→17.68%→10.92%로, 순이익성장률이 24.12%→6.01%→-0.03%로 연속 둔화되는 국면이며, 영업이익률도 16.26%→14.25%→13.87%로 슬립하고 있다. 현재 주가는 52주 고점 대비 75.38%, 150일선 아래, 6개월간 266.15~352.74 구간(폭 32.53%)에서 베이스를 형성 중이다.",
+        "volumeExplanation": "2026-09-10 8-K로 CEO 승계계획(현 CEO Powell은 2027-01-02까지 CEO 유지 후 회장 이동, Michael Colwell이 2026-10-01 COO 취임 후 2027-01-02 CEO 취임)이 공시됐으나, 시간외 주가는 오히려 1% 하락했고 다음날(9/11) \"과매도\" 진단 기사가 나올 정도로 약세가 이어졌다. VOL_X 1.69·주간 거래량배수 2는 이 승계 공시를 둘러싼 매물 소화 과정에서 나온 것으로 보이며, 실적 서프라이즈·대형계약·정책모멘텀 등 통상적 의미의 호재는 확인되지 않아 표면적 뉴스가 상승 촉매로 작용했다고 보기 어렵다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "2026-09-10 8-K로 CEO 승계계획 공시: Colwell이 2026-10-01 President&COO, 2027-01-02 President&CEO 취임, Powell은 2027-01-02 이후 Executive Chairman으로 이동",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Kadant Inc Form 8-K (CEO Succession Plan)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000055/kai-20260910.htm",
+                "date": "2026-09-10",
+                "quote": "the Board appointed Michael C. Colwell to serve as president and chief operating officer effective October 1, 2026, and president and chief executive officer effective January 2, 2027. Jeffrey L. Powell will continue to serve as president through September 30, 2026, and chief executive officer through January 2, 2027, at which time he will become executive chairman of the Board.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "CEO 승계 발표 직후 시간외 거래에서 KAI 주가는 오히려 하락했다",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Kadant stock slips on CEO succession plan announcement",
+                "publisher": "Investing.com",
+                "url": "https://ng.investing.com/news/stock-market-news/kadant-stock-slips-on-ceo-succession-plan-announcement-93CH-2692379",
+                "date": "2026-09-10",
+                "quote": "Kadant Inc. (NYSE:KAI) shares fell 1% in after-hours trading Thursday",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-14",
+        "carried": false
       }
     },
     {
@@ -1941,9 +2260,8 @@ window.TEAM4_DATA = {
         "rangePct": 36.42
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -1994,9 +2312,8 @@ window.TEAM4_DATA = {
         "rangePct": 44.33
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -2047,9 +2364,8 @@ window.TEAM4_DATA = {
         "rangePct": 46.55
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     },
     {
@@ -2100,9 +2416,8 @@ window.TEAM4_DATA = {
         "rangePct": 59.36
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "ineligible",
+        "note": "Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다"
       }
     }
   ],
@@ -2125,14 +2440,14 @@ window.TEAM4_DATA = {
     "BMNP"
   ],
   "research_coverage": {
-    "done": 1,
+    "done": 7,
     "total": 38,
-    "cap": null,
-    "pending": 6,
+    "cap": 6,
+    "pending": 0,
     "failed": 0,
     "carried": 1,
     "ineligible": 31,
-    "note": "38종목 중 1종목을 조사했습니다. 그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 31종목은 셋업·거래량 기준 미달로 조사 대상이 아닙니다. 나머지 6종목은 상한(?) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
+    "note": "38종목 중 7종목을 조사했습니다. 그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 31종목은 셋업·거래량 기준 미달로 조사 대상이 아닙니다. 자금이 들어오는 업종 · 거래대금 급증 순으로 우선 조사합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -2166,5 +2481,24 @@ window.TEAM4_DATA = {
     "watchList": [],
     "caution": "1) 입력된 category 라벨과 실제 주가 임팩트가 어긋나는 사례 있음 — COO는 '어닝서프라이즈' 분류지만 실질은 가이던스 미스로 인한 급락이므로 category 1 특유의 '상향 모멘텀' 해석을 그대로 적용하면 안 됨. 2) SEDG의 category 5(산업 돌파)는 원문에 'PO·계약 미체결'이 명시돼 있어 촉매의 확정성이 낮음 — Investor Day 공시 자체는 이벤트지만 실질 계약 성사 여부는 별도 확인 필요. 3) AVAV는 Zacks 보도 인용으로 구체적 매출·EPS 수치가 원문에 없어 서프라이즈 폭을 정량 평가할 수 없음. 4) category 6(LEN.B·BLX·CALM·BHF·WSO.B)은 뉴스 트리거가 불명확하거나(WSO.B는 원인 언급 자체가 없음) 과거 이벤트와 시차가 커(BLX 실적은 6주 전) 이번 주 이상거래량의 직접 원인으로 보기 어려움 — 문의 지침대로 category 1·5 외 항목은 하이라이트에서 제외했으므로 이들의 판단은 원 표를 참조할 것. 5) 본 요약은 제공된 자료에만 근거했으며 추가 웹검색·가격 데이터 검증은 수행하지 않음.",
     "researchedOn": "2026-09-11"
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "FEIM",
+        "category": 1,
+        "oneLine": "FY2027 1분기 매출 2,350만달러(YoY +70%)·EPS 0.41달러(전년 0.07달러)로 어닝 서프라이즈, 백로그 1.29억달러 사상 최대에 영업이익률 22%+로 확대되며 조기 FY2029 가이던스까지 언급."
+      }
+    ],
+    "sectorSignal": "카테고리 1(어닝 서프라이즈)에 해당하는 종목이 FEIM(방위산업 전자부품) 한 종목뿐이라 섹터 쏠림을 논하기에는 표본이 부족합니다. 카테고리 5(산업 기술 돌파)에 해당하는 종목은 이번 입력에 없습니다. 전체 6개 후보를 보면 소프트웨어(SPSC), 농업금융(AGM.A), 방위전자(FEIM), 에너지 인프라(TRP), 산업재/빌딩솔루션(JCI), 산업기계(KAI)로 업종이 서로 흩어져 있어, 오늘 후보군 전체로 봐도 특정 섹터에 촉매가 몰린 신호는 관찰되지 않습니다.\n",
+    "watchList": [],
+    "caution": "본 요약은 제공된 텍스트 클레임에만 근거하며 별도 웹검색은 수행하지 않았습니다. 요청하신 대로 하이라이트는 category 1·5만 추렸는데, 이번 후보군에는 category 5(산업 기술 돌파) 종목이 없어 FEIM 단독 하이라이트가 되었으며 이는 표본 편중이지 실제 호재 집중을 의미하지 않습니다. category 6(암묵적/뉴스 없는 이상거래량)으로 분류된 TRP·JCI·KAI·AGM.A는 거래량 급증의 원인이 확정되지 않은 사후 추정이며, 특히 TRP와 JCI는 자료상 가장 최근 종목 뉴스조차 거래량 급증 시점보다 5~6주 이상 앞서 있어 직접 촉매로 보기 어렵습니다. AGM.A는 corrected=true로 표기되어 있어 이전 분류에서 수정이 있었던 항목이므로 재확인이 필요합니다. SPSC(GTCR 인수설, category 4)는 아직 '후반 단계 협상' 보도 수준으로 거래 성사가 확정된 것은 아닙니다. watchList는 '6개월 횡보 후 돌파·리테스트' 패턴을 뒷받침할 차트/가격 데이터가 입력에 전혀 없어 임의로 채우지 않고 공란으로 두었습니다.\n",
+    "researchedOn": "2026-09-14"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 2,
+    "4": 1,
+    "6": 4
   }
 };

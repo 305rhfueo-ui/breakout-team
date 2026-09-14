@@ -1,0 +1,215 @@
+{
+ "ticker": "HUT",
+ "sector": "Financial Services",
+ "industry": "Capital Markets",
+ "nameKo": "허트 8",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 24.27,
+  "saleNy": 100.63,
+  "epsCy": -128.68,
+  "epsNy": -980.08,
+  "est": {
+   "cyCur": 0.59,
+   "cy30": 0.59,
+   "nyCur": -5.1925,
+   "ny30": -1.8575
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    81.44,
+    225.54,
+    179.21
+   ],
+   "ni": [
+    -209.22,
+    "적자확대",
+    -283.86
+   ],
+   "opm": [
+    -275.36,
+    -521.52,
+    -491.4
+   ],
+   "updated": "2026-09-07 06:54:13"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-09-11",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-14",
+  "nameKo": "허트 8",
+  "nameEn": "HUT 8 CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001964789&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 74932000,
+     "profit": -206330000,
+     "netIncome": -150191000,
+     "margin": -275.4,
+     "yoy": {
+      "revenue": 81.4,
+      "profit": -209.8,
+      "netIncome": -209.4,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 71017000,
+     "profit": -370370000,
+     "netIncome": -219849000,
+     "margin": -521.5,
+     "yoy": {
+      "revenue": 225.5,
+      "profit": -150.8,
+      "netIncome": -64.2,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 88494000,
+     "profit": -434858000,
+     "netIncome": -301532000,
+     "margin": -491.4,
+     "yoy": {
+      "revenue": 179.2,
+      "profit": -254.3,
+      "netIncome": -298.7,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 83510000,
+     "profit": 72655000,
+     "netIncome": 50109000,
+     "margin": 87,
+     "yoy": {
+      "revenue": 90.9,
+      "profit": 4730.7,
+      "netIncome": 7644.8,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Hut 8's CFO Sells 6,445 Shares for $508,000 After a One-Year Return of 240%",
+     "url": "https://www.nasdaq.com/articles/hut-8s-cfo-sells-6445-shares-508000-after-one-year-return-240",
+     "date": "2026-08-26",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Hut 8 (HUT) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/hut-8-hut-q2-2026-earnings-call-transcript",
+     "date": "2026-08-11",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Hut 8 Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/hut-8-q2-earnings-call-highlights",
+     "date": "2026-08-04",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Hut 8 (HUT) Reports Q2 Loss, Lags Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/hut-8-hut-reports-q2-loss-lags-revenue-estimates",
+     "date": "2026-08-04",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926090041/tm2621890d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-20",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926084862/tm2620835d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-12",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926073505/tm2617732d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-10",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926071952/tm2617190d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-05",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926070744/tm2616926d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-04",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926070393/tm2616869d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

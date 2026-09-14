@@ -8,12 +8,12 @@
   "saleCy": 0,
   "saleNy": 0,
   "epsCy": 62.48,
-  "epsNy": -34.13,
+  "epsNy": -36.27,
   "est": {
    "cyCur": -3.00591,
    "cy30": -2.90373,
-   "nyCur": -1.98,
-   "ny30": -3.1375
+   "nyCur": -1.91575,
+   "ny30": -3.135
   },
   "newHigh52": false,
   "bbCenterBrk5d": false,
@@ -29,7 +29,7 @@
     "적자축소"
    ],
    "opm": null,
-   "updated": "2026-09-10 06:06:41"
+   "updated": "2026-09-13 06:19:24"
   },
   "qualifiedBy": [
    "3mo"
@@ -41,7 +41,7 @@
   },
   "top2Streak": {
    "m1": 0,
-   "m3": 38,
+   "m3": 39,
    "m6": 0
   }
  },

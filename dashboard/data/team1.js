@@ -500,8 +500,278 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-09-14",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "Amodei의 'AI 감속' 제안, 중국 변수에 막히다 — Cramer는 정면 반박",
+        "easy": "Anthropic CEO Dario Amodei가 제안한 AI 개발 감속(slowdown)에 대해 본인이 중국이 '가장 어려운 딜레마'라고 인정했다고 CNBC가 보도했다. 같은 날 Jim Cramer는 그 감속 선언문(manifesto)에 의문을 제기하며 대안적 행동 계획을 제시했다. 쟁점은 미국 측의 자발적 속도 조절이 대중(對中) 경쟁에서 전략적 손실로 귀결되느냐이며, 이는 곧 AI 캡엑스 사이클에 붙는 정책 리스크 프리미엄의 재가격 문제다. 후보 기사 범위에서 구체적 수치는 확인되지 않으므로 수치 없이 서술한다. 프런티어 모델 기업 자신이 감속을 제안했다는 점에서 규제 논의의 주체가 외부(의회)에서 내부(업계)로 이동한 구도다.",
+        "whyMatters": "감속론이 실제 정책 문안으로 옮겨붙으면 AI 가속기·HBM·데이터센터 전력/냉각 등 밸류체인의 캡엑스 가정이 흔들리며, 현재 주도 섹터 1위인 Technology 20종목(40%)의 멀티플이 직접 압박을 받는다. 반대로 Cramer식 반박이 컨센서스로 굳으면 규제 할인이 축소돼 리레이팅 여지가 생기는 양방향 구조다. QQQ가 데드크로스 D+9(종가 714.88 < MA20 715.67) 상태라 Technology 40% 편중은 지수 전체를 단일 내러티브에 노출시킨다. 논리 확인 조건: 실제 법안이 학습 컴퓨트 상한·사전 보고 의무 같은 구속적 조항을 담는지, 아니면 자율규제 권고에 그치는지.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/13/china-dilemma-ai-slowdown-anthropic.html",
+            "date": "2026-09-13",
+            "quote": "Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Jim Cramer questions Anthropic CEO's slowdown manifesto and puts forth an action plan",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/13/cramer-questions-anthropic-ceos-slowdown-manifesto-puts-forth-an-action-plan.html",
+            "date": "2026-09-13",
+            "quote": "Jim Cramer questions Anthropic CEO's slowdown manifesto and puts forth an action plan",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "워싱턴 AI 입법 창구는 좁아지는데, 트럼프는 위험론을 평가절하",
+        "easy": "CNBC는 워싱턴이 AI 가드레일 요구에 대응하려 서두르고 있으나 입법이 가능한 창구는 닫혀가고 있다고 보도했다. 같은 날 BBC는 트럼프가 중국과의 경쟁을 이유로 AI 위험 경고를 평가절하했다고 전했다. 행정부의 완화 기조와 의회 내 규제 요구가 정면으로 엇갈리는 구도이며, 중간선거 일정을 감안하면 회기 내 처리 여력은 실제로 제한적이다. 후보 기사에 수치는 없다. 실무적으로 이는 '규제 도입'이 아니라 '규제 불확실성의 장기화'로 가격에 반영될 사안이다.",
+        "whyMatters": "규제 공백이 유지되면 AI 인프라 투자 사이클의 단기 가시성이 보전돼 Technology 20종목(40%)과 전력·설비 계열이 포함되는 Industrials 2종목(4%)에 우호적으로 작용한다. 반면 간헐적 규제 헤드라인이 반복되는 구조는 멀티플 변동성을 키워, 데드크로스 D+9·MA50 710.41과의 이격이 얇은 QQQ에는 불리한 조합이다. 논리 확인 조건: 회기 내 실제 법안 상정 여부와, 연방 입법 공백을 주(州) 단위 규제가 선점하며 컴플라이언스 비용을 파편화시키는지.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Washington scrambles to meet calls for AI guardrails while the window to act closes",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/13/ai-congress-anthropic-openai-crisis.html",
+            "date": "2026-09-13",
+            "quote": "Washington scrambles to meet calls for AI guardrails while the window to act closes",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Trump downplays warnings of AI risks, citing rivalry with China",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c7v48vp31mdo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-09-13",
+            "quote": "Trump downplays warnings of AI risks, citing rivalry with China",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "호르무즈 해협서 선박 피격 — 미·이란 외교 전망은 요원",
+        "easy": "UKMTO에 따르면 호르무즈 해협에서 선박 1척이 피격됐으며, 미국-이란 외교 재개 전망은 요원한 상태라고 CNBC가 보도했다. 호르무즈는 해상 원유 수송의 핵심 관문으로, 물리적 공격은 유가보다 먼저 전쟁위험보험료(war risk premium)와 용선료에 반영되는 경로를 갖는다. 외교 채널이 막힌 상태에서의 피격은 일회성 사고가 아니라 리스크 프리미엄의 구조적 재설정으로 해석될 소지가 크다. 후보 기사 범위에서 유가·물동량 수치는 확인되지 않았으므로 수치 없이 서술한다. 현재 주도 섹터에서 Energy가 8종목(16%)으로 3위를 차지하고 있다는 점과 직접 맞물린다.",
+        "whyMatters": "탐사생산(E&P)·정유(크랙 스프레드 확대)·유조선 탱커 선사에 상방이며, 주도 섹터 Energy 8종목(16%)의 상대강도를 지지하는 촉매다. 반대로 연료비가 원가의 큰 축인 항공·크루즈·육상물류에는 직접 하방이고, 유가발 헤드라인 인플레가 금리 기대를 자극하면 할인율 민감도가 가장 높은 Technology 20종목(40%)이 추가로 눌린다. Healthcare 11종목(22%)은 이 경로에서 상대적으로 중립적인 분산축이다. 논리 확인 조건: 추가 피격·통항 제한이 이어져 보험료와 운임 상승이 지속되는지, 아니면 단발로 종료돼 프리미엄이 되돌려지는지.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Vessel struck in Strait of Hormuz, UKMTO says, as prospects for U.S.-Iran diplomacy appear elusive",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/13/vessel-struck-strait-of-hormuz-ukmto.html",
+            "date": "2026-09-13",
+            "quote": "Vessel struck in Strait of Hormuz, UKMTO says, as prospects for U.S.-Iran diplomacy appear elusive",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "채권시장은 금리 인상을 밀어붙인다 — 유가는 못 잡아도",
+        "easy": "MarketWatch는 연준의 금리 인상이 휘발유 가격을 낮추지는 못하지만 채권시장은 그럼에도 인상을 압박하고 있다고 보도했다. 즉 현재 커브에 반영되는 것은 성장 둔화에 대한 완화가 아니라 인플레이션 재점화에 대한 정책 대응이며, 완화 기대에 기대온 롱듀레이션 자산의 전제가 흔들린다. 호르무즈 피격에 따른 에너지 리스크 프리미엄과 결합될 경우 이 압박은 강화되는 방향이다. 후보 기사에 구체 금리 수치는 확인되지 않는다.",
+        "whyMatters": "인상 기대는 할인율 경로를 통해 이익이 뒤에 실리는 Technology 20종목(40%)과 무이익 성장주에 가장 강하게 작용한다. FINRA 고객 마진부채 YoY +38.6%(경고선 +30% 초과) 환경에서는 조달금리 상승이 레버리지 포지션의 유지비를 직접 올려, 조정 시 강제청산 경로를 짧게 만든다. Energy 8종목(16%)은 유가 연동으로 상대적 방어력이 있고, Basic Materials 3종목(6%)은 달러 강세 시 역풍이다. 논리 확인 조건: 실제 국채 커브와 연준 커뮤니케이션이 인상 쪽으로 수렴하는지, 아니면 채권시장의 요구가 가격에만 머무는지.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Fed rate hikes won't bring down gas prices. Why the bond market is pushing for them anyway.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/fed-rate-hikes-wont-bring-down-gas-prices-why-the-bond-market-is-pushing-for-them-anyway-98f2c7e3?mod=mw_rss_topstories",
+            "date": "2026-09-13",
+            "quote": "Fed rate hikes won't bring down gas prices. Why the bond market is pushing for them anyway.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "Ellison, 최대 75억 달러 Oracle 지분 매각 계획 철회",
+        "easy": "Larry Ellison이 최대 75억 달러(up to $7.5 billion) 규모의 Oracle 주식 매각 계획을 철회했다고 CNBC가 보도했다. Oracle은 엔터프라이즈 데이터베이스·애플리케이션 소프트웨어와 클라우드 인프라(OCI)가 매출의 축이며, 최근 밸류에이션은 AI 학습·추론 캐파 계약과 백로그 확대를 전제로 형성돼 있다. 창업자 겸 최대주주의 대규모 매도 철회는 수급상 오버행(overhang) 제거이자 강한 시그널링 효과를 갖는다. 철회 사유와 대체 유동성 조달 방안은 후보 기사 범위 밖이므로 확인되지 않는다.",
+        "whyMatters": "직접적으로는 Oracle 자체의 공급 부담 제거이며, AI 데이터센터 캐파를 판매하는 동종 클라우드·인프라 업체 전반의 심리에 우호적으로 전이될 수 있다. Technology 20종목(40%)이 주도 섹터 1위인 국면에서 내부자 매도/철회 뉴스는 수급 민감도가 증폭되므로, 반대 방향(향후 매도 재개)의 충격도 같은 배율로 성립한다. 논리 확인 조건: 10b5-1 플랜의 재설정 여부와 이후 Form 4 상 실제 매도 재개 기록.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Larry Ellison nixes plan to offload up to $7.5 billion worth of Oracle stock",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/12/larry-ellison-nixes-plan-to-offload-up-to-7point5-billion-worth-of-oracle-stock-.html",
+            "date": "2026-09-12",
+            "quote": "Larry Ellison nixes plan to offload up to $7.5 billion worth of Oracle stock",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "AI 내부자 경고 vs 실리콘밸리의 냉담 — 업계 컨센서스 분열",
+        "easy": "전(前) Anthropic 연구자가 BBC에 AI 종사자들이 인류의 미래를 두고 '진심으로 두려워하고 있다'고 말했다. 다른 BBC 기사는 이런 극적인 내부자 경고가 실리콘밸리 일부에서는 반향을 얻지 못하고 있다고 전했다. 두 보도를 합치면 업계 내부 컨센서스가 안전 담론과 가속 담론으로 분열돼 있다는 것이 확인된다. 이는 실적 이벤트가 아니라 자금 배분에 영향을 주는 내러티브 리스크로 분류해야 한다. 후보 기사에 수치는 없다.",
+        "whyMatters": "안전 담론이 주류가 되면 프런티어 모델 기업과 그 공급망(AI 가속기, 메모리, 데이터센터 EPC)에 규제 할인이 붙어 Technology 20종목(40%)의 상대강도가 훼손된다. 반대로 실리콘밸리의 냉담한 반응은 자금 흐름이 아직 전환되지 않았다는 증거이며, 현시점에서 가격에 반영할 근거는 약하다. Healthcare 11종목(22%)과 Energy 8종목(16%)은 이 내러티브와 독립적이어서 분산 축으로 기능한다. 논리 확인 조건: 대형 기관·LP의 AI 익스포저 축소가 실제 수급 데이터로 나타나는지, 담론에 머무는지.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-09-13",
+            "quote": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cq635037g18o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-09-13",
+            "quote": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "시진핑, BRICS 내 AI·기술 협력 주도 선언",
+        "easy": "시진핑이 BRICS 국가 간 AI 및 기술 협력을 중국이 주도해 육성하겠다고 밝혔다고 CNBC가 보도했다. 미국 수출통제 체제 바깥에서 대체 AI 공급망과 표준 블록을 구성하려는 시도로 읽히는 사안이다. 동시에 이는 워싱턴 내 감속론에 대한 반박 논거('중국은 멈추지 않는다')로 즉시 소비될 수 있는 재료이기도 하다. 후보 기사에 투자 규모나 합의 문건 관련 수치는 없다.",
+        "whyMatters": "중장기적으로는 미국 반도체·클라우드 업체의 비(非)서방 시장 TAM을 잠식할 수 있어 Technology 20종목(40%)에 구조적 하방 변수로 작용한다. 단기적으로는 대중 경쟁 프레임을 강화해 미국 내 규제 완화 논리를 밀어주는 상방 효과가 겹치는 양면 구조다. 논리 확인 조건: 조달 계약·표준 채택이 문서로 구체화되는지, 정치적 선언에 그치는지.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Xi says China will take lead to foster AI, tech cooperation among BRICS countries",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/13/china-xi-ai-tech-brics.html",
+            "date": "2026-09-13",
+            "quote": "Xi says China will take lead to foster AI, tech cooperation among BRICS countries",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "트럼프, 아일랜드 위스키 관세 전면 철폐 방침 — 관세의 협상 카드화",
+        "easy": "트럼프가 이틀간의 아일랜드 방문을 마치며 아일랜드 위스키에 대한 관세를 전면 철폐하겠다고 밝혔다고 BBC가 보도했다. 품목 자체의 교역 규모보다, 관세가 정상외교 국면에서 즉시 철회 가능한 협상 카드로 다뤄진다는 신호가 시장에는 더 중요하다. 구체적 관세율과 발효 시점은 후보 기사 범위에서 확인되지 않는다.",
+        "whyMatters": "수입 증류주 포트폴리오를 보유한 주류 브랜드·유통 업체의 원가와 가격 전가 부담이 완화되는 직접 수혜 경로가 있다. 더 넓게는 관세 정책의 가역성이 확인되면서, 관세를 밸류에이션에 반영해온 소비재·산업재(Industrials 2종목, 4%)의 정책 리스크 할인이 축소될 여지가 생긴다. 아일랜드는 다국적 제약의 생산 거점이기도 하나, 후보 기사에 제약 관세 언급은 없으므로 그 연결에 대한 직접 근거는 없음. 논리 확인 조건: 행정명령·관보 고시로 실제 발효되는지, 다른 품목으로 철폐가 확대되는지.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cx2z79n0eeno?at_medium=RSS&at_campaign=rss",
+            "date": "2026-09-13",
+            "quote": "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "NFL 시즌·중간선거, 예측시장에 결정적 가을",
+        "easy": "CNBC는 NFL 시즌과 중간선거가 예측시장(prediction markets)에 결정적인 가을 시즌을 만들어준다고 보도했다. 스포츠 이벤트와 선거 이벤트가 동시에 거래량 촉매로 작동하는 드문 구간이며, 이벤트 계약 플랫폼의 수수료 매출은 명목 거래대금에 직접 연동된다. 다만 이벤트 계약의 규제 지위는 여전히 미결 변수다. 후보 기사에 거래량·수수료 수치는 없다.",
+        "whyMatters": "이벤트 계약 거래대금에 매출이 연동된 파생상품 거래소, 온라인 스포츠베팅 사업자, 리테일 브로커리지 플랫폼에 상방이다. 다만 현재 주도 섹터 상위 5개(Technology 40%, Healthcare 22%, Energy 16%, Basic Materials 6%, Industrials 4%)에 금융·소비자 재량 업종이 포함돼 있지 않아, 지수 레벨 기여는 제한적인 테마성 재료로 봐야 한다. 논리 확인 조건: CFTC·주 규제당국의 이벤트 계약 판정과, 4분기 실제 거래량 및 테이크레이트 공시.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "NFL and midterm elections set up prediction markets for a critical fall season",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/13/nfl-and-midterms-mark-key-fall-season-for-prediction-markets.html",
+            "date": "2026-09-13",
+            "quote": "NFL and midterm elections set up prediction markets for a critical fall season",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "QQQ는 2026-08-28 10MA의 20MA 하향 돌파 이후 D+9로, 종가 714.88이 MA10 714.49를 간신히 위에 두면서도 MA20 715.67 아래에 머무는 전형적 추세 훼손 구간이며 신규 진입 중단·보유분 청산 검토로 판정된다. MA50 710.41과의 이격은 약 +0.63%에 불과해 하방 완충이 사실상 없고, 이 선을 잃으면 데드크로스가 단순 눌림이 아닌 국면 전환으로 확정된다. FINRA 고객 마진부채는 YoY +38.6%로 경고선인 +30%를 상회해, 조정 시 강제청산이 가격 하락을 증폭시키는 구조적 취약성이 존재한다. 주도 섹터는 Technology 20종목(40%)에 뚜렷이 편중돼 있어 오늘의 지배 내러티브인 AI 규제·감속론 논쟁(Amodei의 감속 제안과 중국 딜레마, 워싱턴의 좁아지는 입법 창구, 트럼프의 위험론 평가절하)이 지수 리스크와 그대로 동조한다. 반대편에서 Energy 8종목(16%)은 호르무즈 해협 선박 피격이라는 별도 상방 촉매를 얻었으나, 이는 동시에 채권시장이 밀어붙이는 금리 인상 압박과 결합해 할인율 이중 충격의 경로를 만든다. 200일선 +150% 초과 종목이 1개에 불과하다는 점에서 현 국면은 광범위한 밸류에이션 버블이라기보다 레버리지 누적 + 추세 훼손 + 단일 내러티브 편중의 조합으로 규정하는 것이 정확하다.",
+    "keyRisks": [
+      "추세: QQQ 데드크로스 D+9, 종가 714.88이 MA20 715.67 아래. MA50 710.41 이탈 시 국면 전환 확정 — 이격 여유 약 +0.63%뿐",
+      "레버리지: FINRA 고객 마진부채 YoY +38.6%로 +30% 경고선 초과. 하락 구간에서 마진콜·강제청산이 낙폭을 증폭시키는 구조",
+      "집중도: 주도 섹터 Technology 20종목(40%) 편중. AI 규제·감속론 헤드라인 하나에 지수 전체가 통째로 노출",
+      "금리: 채권시장이 인상을 압박하는 국면(MarketWatch)에서 할인율 상승은 Technology 40%와 무이익 성장주에 가장 강하게 작용, 마진부채 유지비도 동반 상승",
+      "지정학: 호르무즈 피격에 따른 전쟁위험보험료·운임 상승이 유가발 인플레로 전이되면 금리 압박과 결합해 이중 충격. 추가 피격·통항 제한 여부가 분기점",
+      "정책 양면성: 규제 공백 지속은 AI 캡엑스에 우호적이나, 감속론이 구속적 법안 문안(컴퓨트 상한·사전 보고)으로 구체화되면 캡엑스 가정 자체가 훼손",
+      "과열 해석 주의: 200일선 +150% 초과 종목은 1개뿐 — 밸류에이션 익스트림보다 레버리지·추세 훼손이 주된 리스크 원천"
+    ],
+    "easySummary": [
+      "QQQ는 데드크로스 D+9, 종가 714.88이 MA20 715.67 아래·MA50 710.41과 이격 약 +0.63% — 신규 진입 중단, 보유분 청산 검토 구간.",
+      "FINRA 고객 마진부채 YoY +38.6%로 +30% 경고선 초과. 주도 섹터 Technology 20종목(40%) 편중과 겹쳐 조정 시 강제청산 증폭 리스크가 국면의 핵심 취약점.",
+      "오늘 뉴스는 두 축 — AI 규제·감속론 논쟁(Amodei·워싱턴 입법 창구·트럼프 평가절하)이 Technology 40%의 멀티플 변수로, 호르무즈 선박 피격은 Energy 8종목(16%) 상방이자 금리 인상 압박과 결합한 할인율 리스크로 작동."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 128,
+      "ok": 157,
+      "unverified": 19,
+      "dead": 0,
+      "stripped": 1,
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/08/12/aura-minerals-augo-q2-2026-earnings-call-transcript/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/08/12/aura-minerals-augo-q2-2026-earnings-call-transcript/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/aura-minerals-augo-q2-earnings-003516647.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://stockstotrade.com/news/hut-8-corp-hut-news-2026_09_11-2/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://stockstotrade.com/news/hut-8-corp-hut-news-2026_09_11-2/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort072926ex991pressrelease.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort072926ex991pressrelease.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1479681/000162828026059602/nutx-20260831.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.stocktitan.net/news/AGL/agilon-health-reports-second-quarter-2026-wwg0b27pf4tk.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.stocktitan.net/news/AGL/agilon-health-reports-second-quarter-2026-wwg0b27pf4tk.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://ca.finance.yahoo.com/news/bandwidth-stock-faces-growth-versus-171400038.html"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/845877/000084587726000122/agm-20260730.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/avnet-jumps-81-5-ytd-151500405.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/td-synnex-snx-shares-jump-145255769.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/arrow-electronics-arw-stock-rises-145958037.html"
+        }
+      ],
+      "noQuote": 2
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-09-14"
   }
 };

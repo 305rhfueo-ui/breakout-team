@@ -1,0 +1,213 @@
+{
+ "ticker": "SPSC",
+ "news": [
+  {
+   "title": "Why SPS Commerce Rallied on Friday",
+   "url": "https://www.nasdaq.com/articles/why-sps-commerce-rallied-friday",
+   "date": "2026-09-11",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Why SPS Commerce Stock Was a Winner on Wednesday",
+   "url": "https://www.nasdaq.com/articles/why-sps-commerce-stock-was-winner-wednesday",
+   "date": "2026-08-19",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "SPS Commerce (SPSC) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/sps-commerce-spsc-q2-2026-earnings-call-transcript-0",
+   "date": "2026-08-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "SPS Commerce Reaches Analyst Target Price",
+   "url": "https://www.nasdaq.com/articles/sps-commerce-reaches-analyst-target-price",
+   "date": "2026-08-03",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "SPS Commerce Q2 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/sps-commerce-q2-earnings-call-highlights",
+   "date": "2026-08-01",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Why SPS Commerce Stock Crushed it on Friday",
+   "url": "https://www.nasdaq.com/articles/why-sps-commerce-stock-crushed-it-friday",
+   "date": "2026-07-31",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "SPS Commerce (SPSC) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/sps-commerce-spsc-q2-2026-earnings-call-transcript",
+   "date": "2026-07-31",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "SPS Commerce (SPSC) Q2 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/sps-commerce-spsc-q2-earnings-and-revenues-beat-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1092699/000109269926000063/spsc-20260730.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1092699/000109269926000054/spsc-20260528.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1092699/000109269926000051/spsc-20260520.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1092699/000109269926000042/spsc-20260430.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-14",
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1092699/000109269926000028/spsc-20260410.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "itemsKo": [
+    "중요 계약 체결",
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1092699/000109269926000008/spsc-20260212.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001092699&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 197815000,
+    "profit": 8413000,
+    "netIncome": 6864000,
+    "margin": 4.3,
+    "yoy": {
+     "revenue": 5.6,
+     "profit": -68.2,
+     "netIncome": -65.2,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 192121000,
+    "profit": 24559000,
+    "netIncome": 19729000,
+    "margin": 12.8,
+    "yoy": {
+     "revenue": 5.8,
+     "profit": -5.4,
+     "netIncome": -11.1,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 192652000,
+    "profit": 34686000,
+    "netIncome": 25841000,
+    "margin": 18,
+    "yoy": {
+     "revenue": 12.7,
+     "profit": 40.2,
+     "netIncome": 47.2,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": false,
+    "revenue": 189904000,
+    "profit": 31191000,
+    "netIncome": 25569000,
+    "margin": 16.4,
+    "yoy": {
+     "revenue": 16,
+     "profit": 22,
+     "netIncome": 9,
+     "priorEnd": "2024-09-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.21,
+  "saleNy": 6.26,
+  "epsCy": 14.83,
+  "epsNy": 8.6,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    5.56,
+    5.82,
+    12.72
+   ],
+   "ni": [
+    -65.22,
+    -11.11,
+    47.17
+   ],
+   "opm": [
+    4.25,
+    12.78,
+    18
+   ],
+   "updated": "2026-09-08 09:41:18"
+  }
+ }
+}

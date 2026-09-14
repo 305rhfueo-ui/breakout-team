@@ -1,0 +1,73 @@
+{
+  "date": "2026-09-14",
+  "report": {
+    "checked": 128,
+    "ok": 157,
+    "unverified": 19,
+    "dead": 0,
+    "stripped": 1,
+    "removed": [
+      {
+        "reason": "중복",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/08/12/aura-minerals-augo-q2-2026-earnings-call-transcript/"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/08/12/aura-minerals-augo-q2-2026-earnings-call-transcript/"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/aura-minerals-augo-q2-earnings-003516647.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://stockstotrade.com/news/hut-8-corp-hut-news-2026_09_11-2/"
+      },
+      {
+        "reason": "중복",
+        "url": "https://stockstotrade.com/news/hut-8-corp-hut-news-2026_09_11-2/"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort072926ex991pressrelease.htm"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort072926ex991pressrelease.htm"
+      },
+      {
+        "reason": "인용문 없음",
+        "url": "https://www.sec.gov/Archives/edgar/data/1479681/000162828026059602/nutx-20260831.htm"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.stocktitan.net/news/AGL/agilon-health-reports-second-quarter-2026-wwg0b27pf4tk.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.stocktitan.net/news/AGL/agilon-health-reports-second-quarter-2026-wwg0b27pf4tk.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://ca.finance.yahoo.com/news/bandwidth-stock-faces-growth-versus-171400038.html"
+      },
+      {
+        "reason": "인용문 없음",
+        "url": "https://www.sec.gov/Archives/edgar/data/845877/000084587726000122/agm-20260730.htm"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/avnet-jumps-81-5-ytd-151500405.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/td-synnex-snx-shares-jump-145255769.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/arrow-electronics-arw-stock-rises-145958037.html"
+      }
+    ],
+    "noQuote": 2
+  }
+}
