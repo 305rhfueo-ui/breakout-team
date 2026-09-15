@@ -1,0 +1,226 @@
+{
+ "ticker": "ZS",
+ "sector": "Technology",
+ "industry": "Software - Infrastructure",
+ "nameKo": "지스케일러",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 17.27,
+  "saleNy": 16.41,
+  "epsCy": 16.6,
+  "epsNy": 14.07,
+  "est": {
+   "cyCur": 4.90886,
+   "cy30": 4.59551,
+   "nyCur": 5.59962,
+   "ny30": 5.44389
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    24.88,
+    25.43,
+    25.91
+   ],
+   "ni": [
+    "적자축소",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -1.72,
+    -3.49,
+    -6.35
+   ],
+   "updated": "2026-09-08 10:17:18"
+  },
+  "qualifiedBy": [
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-09-14",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 1,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-15",
+  "nameKo": "지스케일러",
+  "nameEn": "ZSCALER INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001713683&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": true,
+     "revenue": 898185000,
+     "profit": -15492000,
+     "netIncome": -3369000,
+     "margin": -1.7,
+     "yoy": {
+      "revenue": 24.9,
+      "profit": 52,
+      "netIncome": 80.8,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 850475000,
+     "profit": -29640000,
+     "netIncome": -13883000,
+     "margin": -3.5,
+     "yoy": {
+      "revenue": 25.4,
+      "profit": -16.6,
+      "netIncome": -236.6,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": false,
+     "revenue": 815751000,
+     "profit": -51773000,
+     "netIncome": -34312000,
+     "margin": -6.3,
+     "yoy": {
+      "revenue": 25.9,
+      "profit": -29,
+      "netIncome": -344.2,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 788112000,
+     "profit": -36362000,
+     "netIncome": -11615000,
+     "margin": -4.6,
+     "yoy": {
+      "revenue": 25.5,
+      "profit": -18.6,
+      "netIncome": 3.6,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Zscaler Conference: AI Agents, Agentic SOC Fuel Zero-Trust Growth Ambitions",
+     "url": "https://www.nasdaq.com/articles/zscaler-conference-ai-agents-agentic-soc-fuel-zero-trust-growth-ambitions",
+     "date": "2026-09-12",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Zscaler CEO Highlights AI Security Surge, Zero-Trust Momentum at Citi Conference",
+     "url": "https://www.nasdaq.com/articles/zscaler-ceo-highlights-ai-security-surge-zero-trust-momentum-citi-conference",
+     "date": "2026-09-12",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Zscaler (ZS) Q4 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/zscaler-zs-q4-2026-earnings-call-transcript",
+     "date": "2026-09-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Zscaler's Z-Flex Surges: Can Flexible Deals Boost Customer Adoption?",
+     "url": "https://www.nasdaq.com/articles/zscalers-z-flex-surges-can-flexible-deals-boost-customer-adoption",
+     "date": "2026-09-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Investors Heavily Search Zscaler, Inc. (ZS): Here is What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/investors-heavily-search-zscaler-inc-zs-here-what-you-need-know",
+     "date": "2026-09-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Palo Alto vs. Zscaler: Which Cybersecurity Stock Looks Stronger After Earnings?",
+     "url": "https://www.nasdaq.com/articles/palo-alto-vs-zscaler-which-cybersecurity-stock-looks-stronger-after-earnings",
+     "date": "2026-09-07",
+     "publisher": "MarketBeat"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-03",
+    "itemsKo": [
+     "실적 발표",
+     "2.05",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-20260901.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000095/zs-20260526.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-16",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000082/zs-20260415.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000047/zs-20260226.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-15",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000031/zs-20260112.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-11-25",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368325000203/zs-20251125.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

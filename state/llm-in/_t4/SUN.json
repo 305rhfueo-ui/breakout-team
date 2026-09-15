@@ -1,0 +1,190 @@
+{
+ "ticker": "SUN",
+ "news": [
+  {
+   "title": "Are You Looking for a Top Momentum Pick? Why Sunoco LP (SUN) is a Great Choice",
+   "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-sunoco-lp-sun-great-choice",
+   "date": "2026-09-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is Sunoco LP (SUN) Up 4.2% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-sunoco-lp-sun-42-last-earnings-report",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Should Value Investors Buy Sunoco (SUN) Stock?",
+   "url": "https://www.nasdaq.com/articles/should-value-investors-buy-sunoco-sun-stock",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Sunoco LP (SUN) a Buy as Wall Street Analysts Look Optimistic?",
+   "url": "https://www.nasdaq.com/articles/sunoco-lp-sun-buy-wall-street-analysts-look-optimistic",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Sunoco (SUN) Outperforming Other Oils-Energy Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/sunoco-sun-outperforming-other-oils-energy-stocks-year",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Investors Undervaluing Sunoco (SUN) Right Now?",
+   "url": "https://www.nasdaq.com/articles/are-investors-undervaluing-sunoco-sun-right-now",
+   "date": "2026-08-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Brokers Suggest Investing in Sunoco LP (SUN): Read This Before Placing a Bet",
+   "url": "https://www.nasdaq.com/articles/brokers-suggest-investing-sunoco-lp-sun-read-placing-bet",
+   "date": "2026-08-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Oils-Energy Stocks Lagging  Sunoco (SUN) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-oils-energy-stocks-lagging-sunoco-sun-year",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-10",
+   "reportDate": "2026-09-03",
+   "items": [
+    "3.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "상장규정 위반",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552275/000155227526000075/sun-20260903.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-10",
+   "reportDate": "2026-08-10",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552275/000155227526000065/sun-20260810.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552275/000155227526000052/sun-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552275/000155227526000039/sun-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-21",
+   "reportDate": "2026-04-21",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552275/000155227526000030/sun-20260421.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-09",
+   "reportDate": "2026-03-09",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552275/000119312526098465/d114219d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 88.44,
+  "saleNy": 0.73,
+  "epsCy": 316.36,
+  "epsNy": 6.49,
+  "cyTrend": -8.85,
+  "nyTrend": 3.88,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    164.55,
+    106.41,
+    63.22
+   ],
+   "ni": [
+    186.67,
+    136.14,
+    -86.41
+   ],
+   "opm": [
+    4.09,
+    8.1,
+    2.14
+   ],
+   "updated": "2026-09-09 06:45:16"
+  }
+ }
+}

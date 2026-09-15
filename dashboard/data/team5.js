@@ -521,8 +521,190 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "carried",
+    "status": "done",
     "industries": [
+      {
+        "driver": "earnings",
+        "durability": "cyclical",
+        "industry": "Department Stores",
+        "key": "Consumer Cyclical|Department Stores",
+        "keyStocks": [
+          "KSS"
+        ],
+        "lead": "Department Stores 업종은 Kohl's(KSS) 단일 종목이 견인하며 1개월 WRS가 상위 0.72%까지 급상승했다. 8월 26일 발표된 2분기 실적에서 EPS 서프라이즈와 연간 가이던스 상향이 확인된 데 이어 9월 2일에는 저평가된 백화점주로의 로테이션 매수가 겹쳤다. 6개월 WRS는 상위 31.65%에 머물러 있어 이번 강세가 최근 한 달 새 집중적으로 형성된 상승 초입 국면임을 시사한다.",
+        "risk": "comp 및 순매출은 여전히 YoY -0.9%로 역성장 중이며, 연간 조정 EPS 가이던스 밴드($1.80~$2.40)가 넓어 실적 가시성이 낮다. 9월 2일 랠리는 저평가 종목으로의 로테이션 성격이 강해(동일 기사에서 밸류에이션 갭이 모멘텀보다 더 크게 작용했다고 지적) 갭이 좁혀지면 동력이 약화될 수 있다. 6개월 WRS는 상위 31.65%에 그쳐 장기 추세 전환은 아직 확인되지 않았고, 마진 개선의 상당 부분이 관세 환급(분기 중 약 $150M, 이 중 약 $100M이 매출총이익 반영)이라는 일회성 요인에 기인한다. 다음 분기 comp·마진 실적이 가이던스 하단을 밑돌거나 로테이션 자금이 재차 모멘텀주로 이동하면 이번 상승 논리는 약화된다.",
+        "whyStrong": [
+          {
+            "id": "q2-guidance-raise",
+            "statement": "8월 26일 발표된 2026회계연도 2분기 실적에서 순매출과 comp는 각각 YoY -0.9% 감소했으나 조정 EPS $1.28로 시장 예상을 상회했고, 회사는 연간 순매출·comp 가이던스를 -1.5%~flat, 조정 EPS 가이던스를 $1.80~$2.40, 조정 영업마진 가이던스를 3.5~4.0%로 상향했다. 분기 중 관세 환급 약 $150M 중 약 $100M이 매출총이익에 반영돼 마진 개선에 기여했고 최대 $100M 규모의 자사주 매입도 재개됐다. Node 자금흐름 지표상으로도 Final_WRS 순위(FRANK)는 112위로 25거래일간 5계단 상승했고, 50일선 이격 중앙값 9.52%·200일선 이격 중앙값 7.91%(25거래일간 +4.92%p 확대)로 추세가 가속되고 있으며 당해/차기연도 컨센서스는 중앙값 +6.35%/+1.26%, 상향비율 100%(n=4)로 나타난다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Kohl's Reports Second Quarter Fiscal 2026 Financial Results",
+                "publisher": "StockTitan",
+                "url": "https://www.stocktitan.net/news/KSS/kohl-s-reports-second-quarter-fiscal-2026-financial-tr4no2ilp53h.html",
+                "date": "2026-08-26",
+                "quote": "Adjusted Diluted EPS: $1.80 to $2.40",
+                "verified": "unverified",
+                "httpStatus": 429
+              }
+            ]
+          },
+          {
+            "id": "rotation-rally",
+            "statement": "9월 2일에는 8월 실적 발표 이후 급락했던 물량이 되돌려지며 KSS가 장중 7% 급등(약 $19.03)했다. 저평가된 백화점주로 자금이 몰리는 로테이션 장세였으며, 동일 업종의 Macy's도 3% 동반 상승했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Kohl's Rallies 7% on Rotation Into Beaten-Down Retail, Macy's Climbs 3%, Abercrombie & Fitch Slips",
+                "publisher": "24/7 Wall St.",
+                "url": "https://247wallst.com/investing/2026/09/02/kohls-rallies-7-on-rotation-into-beaten-down-retail-macys-climbs-3-abercrombie-fitch-slips/",
+                "date": "2026-09-02",
+                "quote": "Buyers are piling into the retail sector's most beaten-down department store names this week, but the money has to come from somewhere, and one recent momentum winner is paying the price.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "citi-upgrade"
+          ],
+          "reason": ""
+        },
+        "researchedOn": "2026-09-15",
+        "carried": false
+      },
+      {
+        "driver": "earnings",
+        "durability": "structural",
+        "industry": "Health Information Services",
+        "key": "Healthcare|Health Information Services",
+        "keyStocks": [
+          "HNGE"
+        ],
+        "lead": "디지털 근골격계(MSK) 헬스케어 플랫폼 Hinge Health(HNGE)는 이 업종 내 유일한 편입 종목으로, 2026년 2분기 매출이 전년동기 대비 53% 증가한 2억1,280만 달러를 기록하며 직전 가이던스(2.00억~2.02억 달러)를 상회했다. 이에 따라 회사는 2026 회계연도 매출·조정영업이익 가이던스를 각각 상향했고, Stifel은 목표주가를 96달러에서 115달러로 올리며 매수(Buy) 의견을 유지했다.",
+        "risk": "Node 자금흐름 지표 기준 이 업종은 현재 국면이 ❄️ 조정 중이며 흐름은 outflow로, 50일선 대비 이격이 -4.73%이고 200일선 이격은 25거래일 동안 -6.95%p 축소됐다. 3개월 WRS 상위 1.44%(0.3587)라는 강한 중기 모멘텀과 달리 10거래일 전 대비 Final_WRS 순위 변화(F10d -3.25%)는 순위 하락 방향을 가리켜, 단기적으로 랠리가 숨 고르기에 들어갔을 가능성이 있다. Stifel의 목표주가 115달러도 2028년 FCF+SBC 기준 20배를 적용한 것으로 현재 22배 멀티플보다 낮아, 추가 리레이팅 여력이 제한적임을 시사한다. 업종 내 종목수는 6개이나 뉴스·2팀 선정 종목 모두 HNGE 한 종목에 집중돼 있어 업종 지표라기보다 단일 종목 이벤트 리스크에 가깝다는 점, 그리고 회사 이사(Director)가 최근 자사주 약 10.6만 달러를 매도했다는 공시(2026-09-04, The Motley Fool)도 참고할 부분이다. 3분기 가이던스(매출 2.23억~2.25억 달러, YoY +45%)가 실제로 충족되고 F10d·F25d 순위가 반등하면 논리가 유지되며, 반대로 outflow 국면이 장기화되고 3분기 실적이 가이던스를 하회하면 논리는 약화된다.",
+        "whyStrong": [
+          {
+            "id": "q2-earnings-beat",
+            "statement": "HNGE의 2026년 2분기 매출은 2억1,280만 달러로 전년동기 대비 53% 증가했고, 조정EPS는 59센트로 Zacks 컨센서스에 부합했다. 이는 직전 가이던스(2.00억~2.02억 달러, YoY +45%)를 상회하는 결과다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "HNGE Q2 Earnings Meet Estimates, Sales Top, '26 View Raised, Stock Up",
+                "publisher": "Zacks (via Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/hnge-q2-earnings-164000260.html",
+                "date": "2026-08(정확한 일자 미확인, 실적발표는 2026-08-11)",
+                "quote": "Hinge Health registered revenues of $212.8 million in the second quarter, up 53% year over year.",
+                "verified": "unverified",
+                "httpStatus": 404
+              }
+            ]
+          },
+          {
+            "id": "fy2026-guidance-raise",
+            "statement": "2분기 실적 발표와 함께 2026 회계연도 매출 가이던스를 기존 7.98억~8.04억 달러에서 8.56억~8.60억 달러로, 조정영업이익 가이던스를 기존 2.17억~2.27억 달러에서 2.36억~2.44억 달러로 각각 상향했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "HNGE Q2 Earnings Meet Estimates, Sales Top, '26 View Raised, Stock Up",
+                "publisher": "Zacks (via Yahoo Finance)",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/hnge-q2-earnings-164000260.html",
+                "date": "2026-08(정확한 일자 미확인)",
+                "quote": "HNGE now expects revenues in the range of $856 million-$860 million, up from the prior outlook of $798 million-$804 million.",
+                "verified": "unverified",
+                "httpStatus": 404
+              }
+            ]
+          },
+          {
+            "id": "stifel-upgrade",
+            "statement": "Stifel은 목표주가를 96달러에서 115달러로 상향하고 매수(Buy) 의견을 유지했다. 2027년 매출 성장률을 컨센서스 27%를 상회하는 33%+로 전망했으며, 전국 단위 페이어 2곳과의 인터뷰에서 Hinge가 참여도·효과 입증·통합 용이성·규모 면에서 최우수 MSK 솔루션으로 평가됐다고 밝혔다. 8월 앱 다운로드는 연중 두 번째로 높은 월간 실적을 기록했고 YTD 기준 전년대비 49% 증가했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Stifel raises Hinge Health stock price target on strong growth outlook",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/analyst-ratings/stifel-raises-hinge-health-stock-price-target-on-strong-growth-outlook-93CH-4891457",
+                "date": "2026-09 초(정확한 일자 미확인)",
+                "quote": "Stifel raised its price target on Hinge Health Inc (NYSE:HNGE) to $115 from $96 on Tuesday while maintaining a Buy rating",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "researchedOn": "2026-09-15",
+        "carried": false
+      },
+      {
+        "driver": "policy",
+        "durability": "cyclical",
+        "industry": "Healthcare Plans",
+        "key": "Healthcare|Healthcare Plans",
+        "keyStocks": [
+          "UNH",
+          "ELV",
+          "HUM",
+          "CI",
+          "CNC",
+          "CVS",
+          "MOH"
+        ],
+        "lead": "Healthcare Plans 업종은 CMS가 2027년 Medicare Advantage(MA) 요율을 예상보다 큰 폭인 2.48% 인상으로 확정하면서 UnitedHealth·Humana 등 주요 종목이 발표 당일 두 자릿수대 급등을 기록했다. 여기에 의료 이용률(utilization) 둔화와 의료손해율(MLR) 개선이 확인되며 2분기 실적 전망이 우호적으로 형성됐고, AI 기반 비용 효율화 기대까지 더해지며 랠리가 이어지고 있다.",
+        "risk": "의료비용 추세(medical cost trend)는 여전히 연 8% 안팎으로 높은 수준이며, GLP-1 계열 비만치료제 등 고가 약제 지출과 수입 의약품·의료기기 관세 리스크가 재가속 요인으로 남아 있어 MLR 개선이 되돌려질 수 있다. ACA 마켓플레이스의 프리미엄 세액공제(향상된 보조금)가 만료될 경우 가입자 이탈과 고위험군 비중 확대로 익스체인지 부문 마진이 재차 훼손될 수 있다. MA 요율은 매년 재산정되는 정책 변수이므로 행정부·CMS 기조 변화나 PBM·반독점 규제 재점화 시 이번 랠리의 근거가 반전될 수 있다. Node 지표상으로도 1개월·3개월 WRS 순위가 각각 상위 35.25%·49.64%로 6개월(상위 2.88%) 대비 모멘텀이 눈에 띄게 둔화돼 있어, 단기 상대강도의 재확인이 필요하다.",
+        "whyStrong": [
+          {
+            "id": "utilization-mlr-ai",
+            "statement": "의료 이용률(utilization) 둔화와 MLR 개선이 확인되고 있으며, AI 기반 비용 효율화가 관리형케어(managed care) 업체들의 EPS를 추가로 끌어올릴 것이라는 분석이 제기됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Humana Jumps 6%, UnitedHealth Climbs 5%, Cigna Rises 4% as Analysts Cheer Softer Medical Cost Trends",
+                "publisher": "24/7 Wall St. (Yahoo Finance 게재)",
+                "url": "https://finance.yahoo.com/sectors/healthcare/articles/humana-jumps-6-unitedhealth-climbs-173255187.html",
+                "date": "2026-06-04",
+                "quote": "utilization is moderating, medical loss ratios are improving, and artificial intelligence could unlock meaningful efficiency gains",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "favorable-earnings-setup",
+            "statement": "BofA 애널리스트는 개선되는 의료비 추세와 2026년 2분기 실적에 대한 우호적인 설정을 랠리의 근거로 제시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Humana Jumps 6%, UnitedHealth Climbs 5%, Cigna Rises 4% as Analysts Cheer Softer Medical Cost Trends",
+                "publisher": "24/7 Wall St. (Yahoo Finance 게재)",
+                "url": "https://finance.yahoo.com/sectors/healthcare/articles/humana-jumps-6-unitedhealth-climbs-173255187.html",
+                "date": "2026-06-04",
+                "quote": "improving medical cost trends and a favorable Q2 2026 earnings setup",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "cms-ma-rate-hike"
+          ],
+          "reason": ""
+        },
+        "researchedOn": "2026-09-15",
+        "carried": false
+      },
       {
         "key": "Technology|Computer Hardware",
         "industry": "Computer Hardware",
@@ -869,60 +1051,6 @@ window.TEAM5_DATA = {
         "carried": true
       },
       {
-        "driver": "technology",
-        "durability": "structural",
-        "industry": "Health Information Services",
-        "key": "Healthcare|Health Information Services",
-        "keyStocks": [
-          "VEEV",
-          "DOCS",
-          "HQY",
-          "OMCL",
-          "CERT",
-          "TDOC"
-        ],
-        "lead": "Health Information Services는 생명과학기업·의료기관 대상 클라우드 소프트웨어 및 헬스케어 데이터 분석을 제공하는 업종이다. 업종 내 최대 시가총액주인 VEEV(Veeva Systems)가 2026회계연도 2분기(8월 26일 발표) 매출 9.28억달러(YoY +18%)로 컨센서스를 상회하고 연간 가이던스를 상향했다.",
-        "risk": "Final_WRS 순위가 25거래일 새 7계단 하락(23위)했고 F10d -6.33%로 최근 10거래일간 상대강도 스코어가 약화되는 가운데, 50일선 이격 중앙값 -5.47%로 단기 조정 국면(❄️)에 진입했고 자금흐름도 outflow로 전환됐다 — 이 흐름이 추가 악화돼 200일선 이격(현재 +15.11%, 25거래일간 -5.715%p 축소)마저 훼손되면 3개월 구간의 상대강도 우위는 기술적으로 붕괴된 것으로 봐야 한다. VEEV의 다음 분기 실적에서 Vault CRM 신규 고객 확보 속도나 상업용 구독매출 성장률(현재 가이던스 YoY 약 13%)이 둔화되면 밸류에이션 프리미엄의 근거가 약화된다. DOCS의 AI Search 수익성(CEO가 언급한 운영비 대비 10배 수익) 주장이 다음 분기 매출·조정 EBITDA 지표(가이던스 중간값 3.19억달러)로 재확인되지 않으면 AI 수익화 스토리에 대한 재평가가 필요하다. 컨센서스 상향 비율(65.84%, n=284)과 승률(83.33%)이 반락 전환되는지가 구조적 강세 지속 여부를 가르는 확인 지표다.",
-        "whyStrong": [
-          {
-            "id": "veev-q2fy27-beat-guide-up",
-            "statement": "VEEV(Veeva Systems)는 2026회계연도 2분기(8월 26일 발표) 매출 9.28억달러, 비GAAP 영업이익 4.16억달러(영업이익률 44%대)로 컨센서스를 상회했고 연간 가이던스를 상향했다. Vault CRM 신규 고객으로 Eli Lilly, Biogen, Regeneron을 확보해 상위 20개 제약사 중 12곳이 Vault CRM으로 전환했다고 밝혔으며, 실적 발표 후 시간외 주가는 9.43% 상승해 268달러를 기록했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Earnings call transcript: Veeva Systems tops Q2 2026 estimates, shares jump after hours",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-veeva-systems-tops-q2-2026-estimates-shares-jump-after-hours-93CH-4878039",
-                "date": "2026-08-26",
-                "quote": "Veeva Systems reported fiscal 2027 second-quarter revenue of $928 million and non-GAAP operating income of $416 million, with results exceeding the company's guidance. This represented 18% year-over-year growth while maintaining robust operating margins above 44%.",
-                "verified": "unverified",
-                "httpStatus": 403
-              },
-              {
-                "title": "Veeva Q2'27 slides: revenue beats drive raised guidance, margins hold",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/company-news/veeva-q227-slides-revenue-beats-drive-raised-guidance-margins-hold-93CH-4878052",
-                "date": "2026-08-26",
-                "quote": "Management raised its full-year outlook, with commercial subscription revenue up approximately 13% year over year. The company highlighted record performance in CRM, where it won new business from Eli Lilly, Biogen and Regeneron. The quarter brought the total to 12 of the top 20 companies committed to Vault CRM. The strong results drove shares up 9.43% to $268 in after-hours trading.",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          }
-        ],
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "docs-ai-search-margin-surge"
-          ],
-          "reason": "",
-          "leadFixed": true
-        },
-        "leadOriginal": "Health Information Services는 생명과학기업·의료기관 대상 클라우드 소프트웨어 및 헬스케어 데이터 분석을 제공하는 업종으로, 3개월 WRS 기준 전체 업종 중 상위 1.45%의 초과수익을 기록했다. 업종 내 최대 시가총액주인 VEEV(Veeva Systems)가 2026회계연도 2분기(8월 26일 발표) 매출 9.28억달러(YoY +18%)로 컨센서스를 상회하고 연간 가이던스를 상향했으며, DOCS(Doximity)는 신규 AI Search 도구의 높은 운영 수익성이 부각되며 실적 발표 직후 주가가 급등했다. 두 대형주의 AI 수익화(monetization) 스토리가 확인되며 업종 전체의 3개월 상대강도 우위를 견인한 것으로 파악된다.",
-        "researchedOn": "2026-09-11",
-        "carried": true
-      },
-      {
         "key": "Healthcare|Biotechnology",
         "industry": "Biotechnology",
         "lead": "Healthcare/Biotechnology 업종은 우호적 FDA 기조와 M&A 활성화라는 섹터 차원의 순풍 위에 개별 종목 촉매가 겹쳐 있으며, Moderna·Merck의 흑색종 mRNA 백신 3상 성공이 확인된다.",
@@ -1122,22 +1250,22 @@ window.TEAM5_DATA = {
       }
     ],
     "summary": {
-      "rotationView": "6개월 기준 최상위였던 두 기술 업종에서 1개월 사이 자금이 빠지고, 상품 성격의 두 업종으로 신규 자금이 들어오는 로테이션이 뚜렷하다. Computer Hardware는 m6 rankPct 0.71(1위권)에서 m1 rankPct 16.43으로, Electronics & Computer Distribution은 m6 1.43에서 m1 9.29로 각각 순위가 밀렸다. 반대로 Coking Coal은 m6 rankPct 46.43(중위권)에서 m1 rankPct 0.71로, Agricultural Inputs는 m6 52.14(중위권 이하)에서 m1 1.43으로 단기간에 최상위권으로 뛰어올랐다. 이 로테이션과 별개로 Oil & Gas Refining & Marketing은 m1·m3·m6 rankPct가 각각 2.86 / 0.71 / 2.14로 전 구간 상위 3% 이내를 유지하고 있어, 신흥·이탈 어느 쪽에도 속하지 않는 지속형 주도업종으로 분류된다.",
       "strongest": {
-        "industry": "Oil & Gas Refining & Marketing",
-        "why": "1개월/3개월/6개월 rankPct가 2.86/0.71/2.14로 전 구간 상위 3% 이내를 유지해 단기 급등이 아닌 지속형 주도. 실적 발표 후 골드만삭스가 목표주가를 77달러에서 92달러로 상향하며 Buy를 유지했고 컨센서스 목표주가는 81.57달러. 최근 1년 148% 상승했음에도 EV/EBITDA 3.50배, PER 4.93배로 업계 평균 대비 밸류에이션 부담이 낮다."
+        "industry": "Department Stores",
+        "why": "Final_WRS 랭크퍼센타일이 m1 0.72%로 세 업종 중 최상위이며, m3(7.19%)·m6(31.65%) 대비 랭크가 단기로 갈수록 뚜렷이 개선됐다. WRS 값 자체도 m1 0.1632, m3 0.1682로 유지되는 가운데, KSS 2분기 실적(조정 EPS $1.28 비트, 연간 가이던스 상향, 최대 $100M 자사주 매입 재개, 관세 환급 $100M 마진 반영)과 9월 2일 KSS 장중 +7%·Macy's 동반 +3%의 저평가 백화점주 로테이션 매수세가 근거로 확인된다. FRANK 순위도 25거래일간 5계단 상승, 50일선/200일선 이격 중앙값이 각각 9.52%/7.91%로 확대되며 추세가 가속 중이다."
       },
       "emerging": [
-        "Coking Coal",
-        "Agricultural Inputs"
+        "Department Stores"
       ],
       "fading": [
-        "Computer Hardware",
-        "Electronics & Computer Distribution"
+        "Health Information Services",
+        "Healthcare Plans"
       ],
-      "caution": "Computer Hardware는 researched:false로 조사 근거가 전혀 없다. WRS 수치상 6개월 1위(rankPct 0.71)에서 1개월 16.43으로 급락한 로테이션 이탈은 확인되지만, 그 원인은 조사되지 않았으므로 서술하지 않았다. Electronics & Computer Distribution의 조사 근거(Avnet·TD Synnex·Arrow Electronics 실적)도 YTD·최근 1년·분기 단위 성과일 뿐 최근 1개월 rankPct 둔화(9.29)를 직접 설명하는 근거는 아니므로 로테이션 방향(수치)과 개별 종목 스토리(근거)를 분리해서 읽어야 한다."
+      "rotationView": "6개월 축에서는 Healthcare Plans(m6 wrs 0.4958, rankPct 2.88)와 Health Information Services(m6 wrs 0.3153, rankPct 10.07)가 최상위권이었지만, 1개월 축에서는 둘 다 wrs가 마이너스(-0.0054, -0.0025)로 전환되고 rankPct도 각각 35.25%·31.65%로 밀려났다 — 구조적/정책 드라이버 업종에서 자금이 빠지는 구간이다. 반대로 Department Stores는 m6 rankPct 31.65%에서 m1 0.72%로 순위가 가장 급격히 개선되며 자금이 새로 유입되는 모습이다. 다만 Department Stores의 m1 wrs(0.1632)는 m3(0.1682)와 비슷한 수준이라 절대 강도의 증가라기보다는 상대 순위(다른 업종 대비 랭크퍼센타일) 개선이 로테이션 신호의 핵심이다.",
+      "caution": "Healthcare Plans는 m3 wrs가 0.0089로 이미 m6 대비 크게 둔화된 뒤 m1에서 마이너스로 전환된 것으로, 2개월 연속 약화 흐름이다. Health Information Services와 Healthcare Plans의 조사 근거(실적 서프라이즈·가이던스 상향, MLR 개선·이용률 둔화)는 모두 6개월 강세 구간에 해당하는 서술이므로, 이를 근거로 현재(m1) 약세의 \"이유\"를 설명하지 않도록 주의. Department Stores의 driver는 durability \"cyclical\"(실적 서프라이즈+저가 매수 로테이션)로 분류돼 있어, Health Information Services의 \"structural\" 성장 스토리와는 지속성 성격이 다르다는 점도 함께 고려해야 한다."
     },
-    "summaryResearchedOn": "2026-09-14"
+    "summaryResearchedOn": "2026-09-15",
+    "reusedFrom": null
   },
   "flow": {
     "baseline": {
@@ -7416,5 +7544,15 @@ window.TEAM5_DATA = {
         ]
       }
     ]
+  },
+  "research_coverage": {
+    "done": 11,
+    "total": 12,
+    "cap": 6,
+    "pending": 1,
+    "failed": 0,
+    "carried": 8,
+    "ineligible": 0,
+    "note": "12업종 중 11업종을 조사했습니다. 그중 8업종은 최근 조사분을 이월했습니다(조사일 표기). 나머지 1업종은 상한(6) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
   }
 };

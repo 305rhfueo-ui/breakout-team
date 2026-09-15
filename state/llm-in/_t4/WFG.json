@@ -1,0 +1,73 @@
+{
+ "ticker": "WFG",
+ "news": [
+  {
+   "title": "West Fraser (WFG) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/west-fraser-wfg-q2-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "WFG Makes Notable Cross Below Critical Moving Average",
+   "url": "https://www.nasdaq.com/articles/wfg-makes-notable-cross-below-critical-moving-average",
+   "date": "2026-02-20",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "West Fraser Timber (WFG) Shares Cross Above 200 DMA",
+   "url": "https://www.nasdaq.com/articles/west-fraser-timber-wfg-shares-cross-above-200-dma",
+   "date": "2026-01-16",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "West Fraser Timber Becomes Oversold (WFG)",
+   "url": "https://www.nasdaq.com/articles/west-fraser-timber-becomes-oversold-wfg",
+   "date": "2025-10-29",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "TD Securities Maintains West Fraser Timber Co. (WFG) Buy Recommendation",
+   "url": "https://www.nasdaq.com/articles/td-securities-maintains-west-fraser-timber-co-wfg-buy-recommendation",
+   "date": "2025-10-25",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "RBC Capital Maintains West Fraser Timber Co. (WFG) Outperform Recommendation",
+   "url": "https://www.nasdaq.com/articles/rbc-capital-maintains-west-fraser-timber-co-wfg-outperform-recommendation",
+   "date": "2025-10-25",
+   "publisher": "Fintel"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 2.16,
+  "saleNy": 11.08,
+  "epsCy": -16.51,
+  "epsNy": -162.85,
+  "cyTrend": 22.45,
+  "nyTrend": 3.64,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -6.4,
+    -8.57,
+    -17.15
+   ],
+   "ni": [
+    "적자확대",
+    -547.62,
+    "적자확대"
+   ],
+   "opm": [
+    -5.16,
+    -15.74,
+    -80.07
+   ],
+   "updated": "2026-09-07 07:06:53"
+  }
+ }
+}

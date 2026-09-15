@@ -1,0 +1,180 @@
+{
+ "ticker": "RUSHB",
+ "news": [
+  {
+   "title": "Rush Enterprises About To Put More Money In Your Pocket (RUSHB)",
+   "url": "https://www.nasdaq.com/articles/rush-enterprises-about-put-more-money-your-pocket-rushb",
+   "date": "2026-09-08",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Wolfe Research Initiates Coverage of Rush Enterprises (RUSHB) with Outperform Recommendation",
+   "url": "https://www.nasdaq.com/articles/wolfe-research-initiates-coverage-rush-enterprises-rushb-outperform-recommendation",
+   "date": "2026-04-28",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Rush Enterprises (RUSHB) Price Target Increased by 12.88% to 80.22",
+   "url": "https://www.nasdaq.com/articles/rush-enterprises-rushb-price-target-increased-1288-8022",
+   "date": "2026-04-09",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Rush Enterprises (RUSHB) Price Target Increased by 17.93% to 71.06",
+   "url": "https://www.nasdaq.com/articles/rush-enterprises-rushb-price-target-increased-1793-7106",
+   "date": "2026-02-25",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "UBS Initiates Coverage of Rush Enterprises (RUSHB) with Neutral Recommendation",
+   "url": "https://www.nasdaq.com/articles/ubs-initiates-coverage-rush-enterprises-rushb-neutral-recommendation",
+   "date": "2026-01-29",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Stephens & Co. Maintains Rush Enterprises (RUSHB) Overweight Recommendation",
+   "url": "https://www.nasdaq.com/articles/stephens-co-maintains-rush-enterprises-rushb-overweight-recommendation",
+   "date": "2025-11-06",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Rush Enterprises Inc - Class B (RUSHB) Price Target Increased by 8.87% to 61.50",
+   "url": "https://www.nasdaq.com/articles/rush-enterprises-inc-class-b-rushb-price-target-increased-by-8.87-to-61.50",
+   "date": "2023-10-05",
+   "publisher": "Fintel"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-04",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1012019/000143774926025981/rusha20260805_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1012019/000143774926024701/rusha20260728_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1012019/000143774926024340/rusha20260723_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-30",
+   "reportDate": "2026-06-29",
+   "items": [
+    "5.02",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1012019/000143774926022156/rusha20260630_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-22",
+   "reportDate": "2026-06-15",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1012019/000143774926021338/rusha20260618_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-19",
+   "reportDate": "2026-05-19",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1012019/000143774926017816/rusha20260519_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.13,
+  "saleNy": 10.57,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -1.61,
+    -9,
+    -11.83
+   ],
+   "ni": [
+    0.45,
+    1.88,
+    -13.94
+   ],
+   "opm": [
+    5.12,
+    4.88,
+    5.17
+   ],
+   "updated": "2026-09-08 07:41:36"
+  }
+ }
+}

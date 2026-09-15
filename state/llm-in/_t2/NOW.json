@@ -1,0 +1,275 @@
+{
+ "ticker": "NOW",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "서비스나우",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 22.15,
+  "saleNy": 18.76,
+  "epsCy": 15.86,
+  "epsNy": 23.08,
+  "est": {
+   "cyCur": 4.06673,
+   "cy30": 4.06764,
+   "nyCur": 5.00551,
+   "ny30": 5.00619
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    24.01,
+    22.09,
+    20.66
+   ],
+   "ni": [
+    -22.6,
+    1.96,
+    4.43
+   ],
+   "opm": [
+    4.06,
+    13.34,
+    12.42
+   ],
+   "updated": "2026-09-08 09:49:19"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-09-14",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-15",
+  "nameKo": "서비스나우",
+  "nameEn": "SERVICENOW INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001373715&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 3987000000,
+     "profit": 162000000,
+     "netIncome": 298000000,
+     "margin": 4.1,
+     "yoy": {
+      "revenue": 24,
+      "profit": -54.7,
+      "netIncome": -22.6,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 3770000000,
+     "profit": 503000000,
+     "netIncome": 469000000,
+     "margin": 13.3,
+     "yoy": {
+      "revenue": 22.1,
+      "profit": 11.5,
+      "netIncome": 2,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 3568000000,
+     "profit": 443000000,
+     "netIncome": 401000000,
+     "margin": 12.4,
+     "yoy": {
+      "revenue": 20.7,
+      "profit": 18.4,
+      "netIncome": 4.4,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 3407000000,
+     "profit": 572000000,
+     "netIncome": 502000000,
+     "margin": 16.8,
+     "yoy": {
+      "revenue": 21.8,
+      "profit": 36.8,
+      "netIncome": 16.2,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Prediction: ServiceNow's AI Business Triples Before 2029",
+     "url": "https://www.nasdaq.com/articles/prediction-servicenows-ai-business-triples-2029",
+     "date": "2026-09-13",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "ServiceNow (NOW) Outperforms Broader Market: What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/servicenow-now-outperforms-broader-market-what-you-need-know-0",
+     "date": "2026-09-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ServiceNow AI Control Tower Targets Security, Governance and Enterprise ROI",
+     "url": "https://www.nasdaq.com/articles/servicenow-ai-control-tower-targets-security-governance-and-enterprise-roi",
+     "date": "2026-09-11",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "ServiceNow Maps AI Control Tower Strategy as Agents, Security Drive Growth",
+     "url": "https://www.nasdaq.com/articles/servicenow-maps-ai-control-tower-strategy-agents-security-drive-growth",
+     "date": "2026-09-10",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "ServiceNow, Inc. (NOW) Is a Trending Stock: Facts to Know Before Betting on It",
+     "url": "https://www.nasdaq.com/articles/servicenow-inc-now-trending-stock-facts-know-betting-it-0",
+     "date": "2026-09-09",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000072/now-20260722.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-22",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000065/now-20260521.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-15",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000119312526226644/d60522d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-22",
+    "itemsKo": [
+     "중요 계약 체결",
+     "실적 발표",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000054/now-20260417.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000030/now-20260401.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-17",
+    "itemsKo": [
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000014/now-20260213.htm"
+   }
+  ],
+  "krReports": {
+   "total": 6,
+   "reports": [
+    {
+     "date": "2026-08-04",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "title": "[서비스나우 (NYS:NOW)] 시장 경쟁강도 변화가 단기 수혜로 작동",
+     "summary": "- 프런티어 및 오픈웨이트 모델 간극 축소 기대감이 주가에 투영- 프런티어 업체와 전략적 제휴 강화를 통한 시장점유율 확대 필요- 동사 FY26E PER 및 3개년 EPS CAGR 기반시 PEGR 1.4배 수준",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqmxgxeixellgcgxcmez.pdf"
+    },
+    {
+     "date": "2026-07-24",
+     "broker": "현대차증권",
+     "analyst": "장문영",
+     "title": "[서비스나우 (NYS:NOW)] 멀티플 정상화는 시간 문제",
+     "summary": "- 2Q26 매출은 $39억 8,700만으로 YoY 24% 증가하며 컨센서스 상회. 특히 구독 매출 ($38억 7,700만)이 가이던스 상단을 150bp 상회. 신규 순수 ACV 호조와 美 연방정부향 온프레미스 매출이 3분기에서 2분기로 앞당겨진 효과가 동시에 작용- 갱신 고객의 첫 Agentic AI 구매 비중이 QoQ·YoY 2배 증가하며 기존 고객 기반 AI 채택이 확산 중. 즉 동일 고객 기반에서 계약 가치가 확대되는 업셀링 중심의 성장 구조가 강화. AI 기능을 탑재한 상위 SKU 20~30% 가격 인상 추진 역시 이를 뒷받침하며, $100만 이상 대형거래 YoY +40%, Agentic AI 실사용 고객 9개월간 9배 증가도 같은 방향",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlklziqxlzxqelgcgxcmez.pdf"
+    },
+    {
+     "date": "2026-05-18",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "title": "[서비스나우 (NYS:NOW)] 매니지먼트 의사결정 변수가 관건",
+     "summary": "- AI 에이전트 사업 내 동사가 주도권을 가져가려는 시도 포착- 프런티어 업체들과 고객 데이터를 기준으로 강결합 전략이 필요- 동사 FY26E PER 및 3개년 EPS CAGR 기반시 PEGR 1.1배 수준",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlmekgcgxmiixgcgxcmez.pdf"
+    },
+    {
+     "date": "2026-05-12",
+     "broker": "현대차증권",
+     "analyst": "장문영",
+     "title": "[서비스나우 (NYS:NOW)] AI 에이전트 시대, 대체되지 않는 플랫폼",
+     "summary": "- ITSM 기반에서 HR, 고객 서비스, 보안과 리스크까지 포트폴리오 확장하며 강한 락인 효과 형성- NOW Assist 중심 AI 기능 상업화 빠르게 진행, 좌석 기반에서 사용량 결합 하이브리드 과금 모델로 전환- 12M Fwd P/E 21.9배로 과거 5년 평균 대비 약 61% 할인. 펀더멘털 대비 디레이팅 폭 과도한 수준 해석",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlzkzcxmzqggmgcgxcmez.pdf"
+    },
+    {
+     "date": "2026-04-24",
+     "broker": "하나증권",
+     "analyst": "김재임",
+     "title": "[서비스나우 (NYS:NOW)] 확인이 필요한 과도기",
+     "summary": "- 중동 분쟁과 계절성 영향으로 2분기 가이던스 기대치 하회- M&A 영향으로 2026년 구독매출 가이던스 상향조정, 수익성 지표는 하향- 2026년 AI 매출 가이던스 10억에서 15억으로 상향",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxmleximmiglcgcgxcmez.pdf"
+    },
+    {
+     "date": "2026-03-04",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "title": "[서비스나우 (NYS:NOW)] 글로벌 AI 백본 빅테크와 강결합 필요",
+     "summary": "- 글로벌 메이저 백본을 보유한 오픈AI 및 앤트로픽 제휴는 긍정적- 해당 제휴가 동사 고객 데이터 등을 연계한 강결합으로 진화될 필요- 동사 FY26E PER 및 3개년 EPS CAGR 기반 PEGR 1.3배 감안 요구",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgzqqkklxmllmgcgxcmez.pdf"
+    }
+   ]
+  }
+ }
+}

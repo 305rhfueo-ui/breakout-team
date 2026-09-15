@@ -1,15 +1,43 @@
 {
   "date": "2026-09-15",
   "report": {
-    "checked": 32,
-    "ok": 32,
-    "unverified": 7,
-    "dead": 0,
-    "stripped": 0,
+    "checked": 121,
+    "ok": 122,
+    "unverified": 18,
+    "dead": 1,
+    "stripped": 1,
     "removed": [
       {
         "reason": "중복",
-        "url": "https://www.fool.com/investing/2026/09/05/why-atlassian-stock-skyrocketed-92-higher-in-august-and-why-there-s-likely-more-to-come/"
+        "url": "https://rreport.einfomax.co.kr/report/eqlqlekiglixclzgcgxcmez.pdf"
+      },
+      {
+        "reason": "링크 죽음(HTTP 404)",
+        "url": "https://www.sahmcapital.com/news/content/par-pacific-holdings-parr-sees-2026-earnings-estimates-lifted-is-the-upside-already-priced-in-2026-07-20"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.stocktitan.net/news/KSS/kohl-s-reports-second-quarter-fiscal-2026-financial-tr4no2ilp53h.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/hnge-q2-earnings-164000260.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/hnge-q2-earnings-164000260.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.investing.com/news/analyst-ratings/stifel-raises-hinge-health-stock-price-target-on-strong-growth-outlook-93CH-4891457"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.investing.com/news/analyst-ratings/stifel-raises-hinge-health-stock-price-target-on-strong-growth-outlook-93CH-4891457"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/humana-jumps-6-unitedhealth-climbs-173255187.html"
       }
     ]
   }

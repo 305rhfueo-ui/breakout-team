@@ -1,0 +1,164 @@
+{
+ "ticker": "NRP",
+ "news": [
+  {
+   "title": "NRP vs. EP: Which Energy Stock Offers Better Prospects?",
+   "url": "https://www.nasdaq.com/articles/nrp-vs-ep-which-energy-stock-offers-better-prospects",
+   "date": "2026-06-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "NRP Q1 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/nrp-q1-2026-earnings-call-transcript",
+   "date": "2026-05-06",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "NRP Q3 2024 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/nrp-q3-2024-earnings-call-transcript",
+   "date": "2026-04-22",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "NRP Q4 Earnings Decline Y/Y on Weak Coal, Soda Ash Prices",
+   "url": "https://www.nasdaq.com/articles/nrp-q4-earnings-decline-y-y-weak-coal-soda-ash-prices",
+   "date": "2026-03-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "NRP Stock Jumps 19.5% in 3 Months: Should You Stay Invested?",
+   "url": "https://www.nasdaq.com/articles/nrp-stock-jumps-195-3-months-should-you-stay-invested",
+   "date": "2026-02-12",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926025784/nrp20260512_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926015012/nrp20260302_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-27",
+   "reportDate": "2026-02-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926005980/nrp20251112_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-04",
+   "reportDate": "2025-11-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774925032873/nrp20250819_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-08-06",
+   "reportDate": "2025-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774925024952/nrp20250515_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-05-06",
+   "reportDate": "2025-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774925014619/nrp20250112_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -3.97,
+    -34.99,
+    -28.93
+   ],
+   "ni": [
+    -26.41,
+    -51.26,
+    -27.53
+   ],
+   "opm": [
+    54.52,
+    52.33,
+    68.84
+   ],
+   "updated": "2026-09-09 06:34:39"
+  }
+ }
+}

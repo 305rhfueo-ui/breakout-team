@@ -36,21 +36,22 @@
    "updated": "2026-09-07 07:51:00"
   },
   "qualifiedBy": [
+   "1mo",
    "6mo"
   ],
   "top2Since": {
-   "m1": null,
+   "m1": "2026-09-14",
    "m3": null,
    "m6": "2026-09-11"
   },
   "top2Streak": {
-   "m1": 0,
+   "m1": 1,
    "m3": 0,
-   "m6": 1
+   "m6": 2
   }
  },
  "detail": {
-  "fetchedAt": "2026-09-14",
+  "fetchedAt": "2026-09-15",
   "nameKo": "뉴텍스 헬스",
   "nameEn": "NUTEX HEALTH INC",
   "financials": {

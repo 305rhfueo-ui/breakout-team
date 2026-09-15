@@ -1,0 +1,302 @@
+{
+ "ticker": "COIN",
+ "sector": "Financial Services",
+ "industry": "Financial Data & Stock Exchanges",
+ "nameKo": "코인베이스 글로벌",
+ "site": {
+  "targetStatus": false,
+  "saleCy": -26.2,
+  "saleNy": 27.69,
+  "epsCy": -144.26,
+  "epsNy": -239,
+  "est": {
+   "cyCur": -1.96974,
+   "cy30": -1.98697,
+   "nyCur": 2.7379,
+   "ny30": 3.02282
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -18.51,
+    -30.54,
+    -21.59
+   ],
+   "ni": [
+    -125.16,
+    -700.71,
+    -151.64
+   ],
+   "opm": [
+    -9.3,
+    -1.52,
+    15.37
+   ],
+   "updated": "2026-09-09 06:38:54"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-09-14",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-15",
+  "nameKo": "코인베이스 글로벌",
+  "nameEn": "COINBASE GLOBAL INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001679788&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1220068000,
+     "profit": -113488000,
+     "netIncome": -359468000,
+     "margin": -9.3,
+     "yoy": {
+      "revenue": -18.5,
+      "profit": -360.4,
+      "netIncome": -125.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1412982000,
+     "profit": -21421000,
+     "netIncome": -394117000,
+     "margin": -1.5,
+     "yoy": {
+      "revenue": -30.5,
+      "profit": -103,
+      "netIncome": -700.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1781129000,
+     "profit": 273753000,
+     "netIncome": -627060000,
+     "margin": 15.4,
+     "yoy": {
+      "revenue": -21.6,
+      "profit": -73.5,
+      "netIncome": -147.8,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1868693000,
+     "profit": 480532000,
+     "netIncome": 432552000,
+     "margin": 25.7,
+     "yoy": {
+      "revenue": 55.1,
+      "profit": 183.5,
+      "netIncome": 473,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Compass Point Upgrades Coinbase Global to Neutral from Sell",
+     "url": "https://www.nasdaq.com/articles/compass-point-upgrades-coinbase-global-neutral-sell",
+     "date": "2026-09-14",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Coinbase Expands Stablecoin Reach Through Community Banks",
+     "url": "https://www.nasdaq.com/articles/coinbase-expands-stablecoin-reach-through-community-banks",
+     "date": "2026-09-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Coinbase CEO Brian Armstrong Says $400,000 Is Within Reach for Bitcoin. Here's Why He's Right.",
+     "url": "https://www.nasdaq.com/articles/coinbase-ceo-brian-armstrong-says-400000-within-reach-bitcoin-heres-why-hes-right",
+     "date": "2026-09-14",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Coinbase Is Pushing to Bring Stablecoins to 1,000 Community Banks. Here's Why Everyone Is Talking About Stablecoins Right Now.",
+     "url": "https://www.nasdaq.com/articles/coinbase-pushing-bring-stablecoins-1000-community-banks-heres-why-everyone-talking-about",
+     "date": "2026-09-11",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Coinbase Global Maps ‘Everything Exchange’ Push Beyond Crypto Trading",
+     "url": "https://www.nasdaq.com/articles/coinbase-global-maps-everything-exchange-push-beyond-crypto-trading",
+     "date": "2026-09-11",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Coinbase Global Maps ‘Everything Exchange’ Push at Citi Conference",
+     "url": "https://www.nasdaq.com/articles/coinbase-global-maps-everything-exchange-push-citi-conference",
+     "date": "2026-09-11",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Why Coinbase Global, Inc. (COIN) Dipped More Than Broader Market Today",
+     "url": "https://www.nasdaq.com/articles/why-coinbase-global-inc-coin-dipped-more-broader-market-today",
+     "date": "2026-09-10",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Trending Stock Coinbase Global, Inc. (COIN) a Buy Now?",
+     "url": "https://www.nasdaq.com/articles/trending-stock-coinbase-global-inc-coin-buy-now-0",
+     "date": "2026-09-09",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-02",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000101/coin-20260901.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000087/coin-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-23",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000080/coin-20260722.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-09",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000119312526299667/d74758d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000075/coin-20260616.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000053/coin-20260507.htm"
+   }
+  ],
+  "krReports": {
+   "total": 11,
+   "reports": [
+    {
+     "date": "2026-08-03",
+     "broker": "신한투자증권",
+     "analyst": "김유민",
+     "title": "[코인베이스 글로벌 (NAS:COIN)] 다운사이클에서 확인된 확장성",
+     "summary": "- 2Q26 매출과 eps 모두 컨센서스 하회. 시장 부진으로 거래대금 감소했으 나 비용, 점유율, 신사업 등 회사가 통제 가능한 영역에서는 개선세가 뚜 렷. 거래대금 점유율은 사상 최고치를 3분기 연속 경신.- 매출 12.2억달러(-19% YoY), 조정 eps -0.40달러(적자전환) 기록. 크립토 현물거래대금은 전분기 대비 25% 감소, 시가총액은 11% 하락, 변동성 지 수는 14% 하락- 구독·서비스 수익은 5.55억달러(-5% QoQ)로 예상치를 6.6% 하회. USDC 이자 및 스테이킹 수익 둔화가 원인. 조정비용이 10.3억달러(-9% QoQ)로 가이던스 중간값을 하회. 5월 발표한 14% 인력 감축 효과 본격 반영",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqecqqzegmxegcgxcmez.pdf"
+    },
+    {
+     "date": "2026-05-11",
+     "broker": "신한투자증권",
+     "analyst": "김유민",
+     "title": "[코인베이스 글로벌 (NAS:COIN)] 하반기 비용 개선 기대",
+     "summary": "- 크립토 시장 약세로 거래 수익이 압박을 받았으나, 역대 최고 시장점유율 과 USDC 잔고 신기록 등 펀더멘털은 견고. 인력 감축은 비용 효율화와 AI 네이티브 전환 전략으로 마진 개선 시그널- 1Q26 매출 14.1억달러(-31% YoY), 순손실 3.9억달러 기록. 각각 컨센서 스 대비 5.8%, 69.6% 하회. 순손실은 대부분 크립토 평가 손실이 차지. 시 장 거래대금 28% 감소에도 거래수익(-23% QoQ)은 낙폭 대비 선방- Everything Exchange 성과 가시화 단계. 파생상품 연환산 2억달러 이상 성장. 2월 론칭한 예측시장은 두 달 만에 연환산 1억달러 돌파. 에이전트 커머스에서는 x402 프로토콜 결제 1억건 돌파",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlkzgmezxkmxkgcgxcmez.pdf"
+    },
+    {
+     "date": "2026-05-07",
+     "broker": "신한투자증권",
+     "analyst": "김유민",
+     "title": "[코인베이스 글로벌 (NAS:COIN)] 금융 슈퍼앱으로의 전환은 이제 시작",
+     "summary": "- 거래량 역풍 속 구독·파생상품이 버티는 플랫폼- 파생상품 포트폴리오 완성, 온체인 인프라 본격 수익화- 크립토 포트폴리오 완성, 밸류에이션 확대 기대",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqleecxkelzxxzgcgxcmez.pdf"
+    },
+    {
+     "date": "2026-02-13",
+     "broker": "한화증권",
+     "analyst": "김유민",
+     "title": "[코인베이스 글로벌 (NAS:COIN)] 예상된 부진, 이제 비용 효율화와 성장의 시간",
+     "summary": "- 코인베이스의 FY 4Q25 매출은 17.8억 달러(YoY -21.6%)로 예상치를 2.7% 하회했다. 그 중 거래 매출은 9.8억 달러 규모로 전년 대비 36.8% 감소했다- 개인 고객 매출은 7.3억 달러로 전 분기 대비 13% 감소했다. Advanced Trading* 매출 비중이 높아졌고, 수수료 면제 혜 택이 있는 Coinbase One 구독자의 거래 비중이 증가하면서 매출이 줄 었다. 4분기 시장 부진으로 거래량이 감소한 점도 작용했다- 구독 및 서비스 매출은 7.3억 달러로 전년 대비 13.5% 확대됐다. 그 중 스테이블코인 매출은 3.6억 달러로 전분기 대비 2% 늘었다. 코인베 이스 플랫폼 내 USDC 보유량이 전분기 대비 18% 증가한 178억 달러 로 역대 최고치를 기록했다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqeieqeemcgmiqgcgxcmez.pdf"
+    },
+    {
+     "date": "2025-12-19",
+     "broker": "한화증권",
+     "analyst": "김유민",
+     "title": "[코인베이스 글로벌 (NAS:COIN)] 금융 슈퍼앱의 탄생",
+     "summary": "- 12월 17일, 코인베이스는 Everything Exchange를 내세우며 주식 거래, 예측시장, 무기한 선물 시장 진출을 발표했다. 암호화폐 + 주식 + 예 측시장 + 파생상품 + DEX + 토큰 세일이 하나의 앱 안에서 모두 가 능해진다.- 증권은 자회사인 Coinbase Capital Markets Corp(브로커딜 러, FINRA/SIPC 회원)가 제공하고, 집행/청산/수탁은 APEX Clearing 이 담당한다- 예측시장 서비스를 지원한다. 암호화폐 가격뿐만 아니라 스포츠, 엔터 테인먼트, 선거, 정책, 경제 성과 등 다양한 이벤트에 대한 계약을 제공 한다. 예측시장 플랫폼인 칼시와의 협력을 통해 거래를 개시했다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxxegikeqkzkkqgcgxcmez.pdf"
+    },
+    {
+     "date": "2025-12-19",
+     "broker": "키움증권",
+     "analyst": "안영준",
+     "title": "[코인베이스 글로벌 (NAS:COIN)] 이제, 수수료 없이 24시간 동안 주식 거래가 가능합니다",
+     "summary": "- 미국 내 가장 높은 점유율을 기록 중인 암호화폐 플랫폼- 미국 정부가 주도하는 암호화폐 시장에서 가장 주요한 사업자로 자리매김 중- 시스템 업데이트를 통해 주식 거래 지원 계획 발표",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxxecmqlxmzeizgcgxcmez.pdf"
+    },
+    {
+     "date": "2025-11-03",
+     "broker": "신한투자증권",
+     "analyst": "최승환",
+     "title": "[코인베이스 글로벌 (NAS:COIN)] 3Q25 Review, 거래대금 반등과 플랫폼 확장",
+     "summary": "- 미국 금리인하 이후 암호화폐 시장은 기대했던 강세장은 아닌, 정중동 상 태 유지 중. 암호화폐 시장 전망을 중립으로 보더라도, 코인베이스는 연말 이후 암호화폐 규제 명확화, 플랫폼 확장에 따른 성장 전망 긍정적- 3Q25 매출액 18.7억달러(+55.1% YoY)로 컨센서스 4% 상회, non-GAAP EPS 1.44달러로 컨센서스 23% 상회. 거래수익 1.05억달러로 전분기대비 36.9% 증가- 구독 및 서비스스수익 7.5억달러로 전분기대비 13.9% 증가. 암호화폐 가 격 상승과 Coinbase One 가입자 증가에 의한 것. 서비스수익 4Q25 가이 던스는 7.1~7.9억달러로 제시하며 무난한 수준",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgezixqkxcqqcgcgxcmez.pdf"
+    },
+    {
+     "date": "2025-10-31",
+     "broker": "키움증권",
+     "analyst": "안영준",
+     "title": "[코인베이스 글로벌 (NAS:COIN)] 거래대금 증가로 실적 호조, USDC 생태계 확장 수혜도 가시화",
+     "summary": "- 미국 내 가장 높은 점유율을 기록 중인 암호화폐 플랫폼- 미국 정부가 주도하는 스테이블코인 시장에서 가장 주요한 사업자로 자리매김 중- 3분기 암호화폐 거래량 증가로 호실적 기록, USDC 생태계 확장 중",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgcmxzmzeezgxgcgxcmez.pdf"
+    }
+   ]
+  }
+ }
+}
