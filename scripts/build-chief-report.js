@@ -130,8 +130,8 @@ function researchSection(t2, dateStr) {
     }
     if (theme.rotation) {
       const r = theme.rotation;
-      S.push('', '**로테이션 (지속 · 신규 · 퇴조)**');
-      S.push(`- 지속 주도: ${(r.persistent || []).join(', ') || '—'} · 신규 진입(1M): ${(r.newEntrants || []).join(', ') || '—'} · 퇴조(6M만): ${(r.fading || []).join(', ') || '—'}`);
+      S.push('', '**로테이션 (지속 · 신규 · 중기 · 퇴조)**');
+      S.push(`- 지속 주도: ${(r.persistent || []).join(', ') || '—'} · 신규 진입(1M): ${(r.newEntrants || []).join(', ') || '—'} · 중기(3M): ${(r.midTerm || []).join(', ') || '—'} · 퇴조(6M만): ${(r.fading || []).join(', ') || '—'}`);
       if (r.narrative) S.push('', r.narrative);
     }
     if (theme.sanitized && theme.sanitized.removed && theme.sanitized.removed.length) S.push('', `> 정제: Node 목록에 없어 제거한 티커 ${theme.sanitized.removed.length}개 (${theme.sanitized.removed.slice(0, 8).join(', ')})`);
@@ -317,7 +317,7 @@ async function main() {
         };
         const BPn = (d.themes && d.themes.byPeriod) || null, CRn = (d.themes && d.themes.cross) || null;
         if (th.byPeriod && BPn) for (const k of ['m1', 'm3', 'm6']) if (th.byPeriod[k]) th.byPeriod[k].tickers = keepOnly(th.byPeriod[k].tickers, BPn[k] && BPn[k].tickers, `byPeriod.${k}`);
-        if (th.rotation && CRn) for (const k of ['persistent', 'newEntrants', 'fading']) th.rotation[k] = keepOnly(th.rotation[k], CRn[k], `rotation.${k}`);
+        if (th.rotation && CRn) for (const k of ['persistent', 'newEntrants', 'midTerm', 'fading']) th.rotation[k] = keepOnly(th.rotation[k], CRn[k], `rotation.${k}`);
         if (removed.length) { th.sanitized = { removed }; say('WARN', `2팀 테마종합: Node 목록에 없는 티커 ${removed.length}개 제거 — ${removed.slice(0, 8).join(', ')}`); }
         d.themes = { ...(d.themes || {}), llm: th, reusedFrom: reuse.team2 || null };
       }
@@ -351,7 +351,10 @@ async function main() {
         else it.catalyst = { status: 'pending', note: '아직 조사하지 않았습니다 (순환 조사 대기)' };
       }
       recordResearched(rc, 'team4', [...byTicker.keys()], dateStr, extra);
-      if (payload.team4.summary) d.llm = { ...payload.team4.summary, researchedOn: dateStr };
+      // 오늘 조사한 종목이 0이면 LLM 종합은 빈 입력을 보고 "데이터 없음"이라고 쓴 문구다 (2026-09-15 실측).
+      // 그걸 이월된 지난 종합 위에 덮어쓰면 화면이 퇴행하므로 신규 결과가 있을 때만 받는다.
+      const t4Summary = byTicker.size ? payload.team4.summary : null;
+      if (t4Summary) d.llm = { ...t4Summary, researchedOn: dateStr };
       else if (d.llmCarried) d.llm = d.llmCarried;
       d.reusedFrom = reuse.team4 || null;
       const byCategory = {};
@@ -383,8 +386,10 @@ async function main() {
       const extra = {};
       for (const x of fresh) extra[x.key] = { rankPct6: (((args && args.team5args && args.team5args.industries) || []).find((i) => i.key === x.key) || {}).rankPct?.m6 ?? null };
       recordResearched(rc, 'team5', fresh.map((x) => x.key), dateStr, extra);
-      const summary = payload.team5.summary || (d.llm && d.llm.summary) || null;
-      const summaryResearchedOn = payload.team5.summary ? dateStr : (d.llm && d.llm.summaryResearchedOn) || null;
+      // 신규 조사 업종이 0이면 LLM 종합은 빈 입력을 보고 쓴 "데이터 없음" 문구다 — 이월 종합을 지킨다 (2026-09-15 실측).
+      const t5Summary = fresh.length ? payload.team5.summary : null;
+      const summary = t5Summary || (d.llm && d.llm.summary) || null;
+      const summaryResearchedOn = t5Summary ? dateStr : (d.llm && d.llm.summaryResearchedOn) || null;
       d.llm = { status: 'done', industries: all, summary, summaryResearchedOn, reusedFrom: reuse.team5 || null };
       const poolTotal = (args && args.team5args && args.team5args.poolTotal) || all.length;
       d.research_coverage = coverageOf({ done: all.length, carried: carriedInds.length, total: poolTotal, cap: (payload.team5.coverage || {}).cap ?? 6, unit: '업종' });

@@ -255,9 +255,10 @@ const THEME = { type: 'object', properties: {
   rotation: { type: 'object', properties: {
     persistent: { type: 'array', items: { type: 'string' }, description: 'Node 교차 목록의 지속 주도(1M·3M·6M 모두) 중 해석에 쓴 티커' },
     newEntrants: { type: 'array', items: { type: 'string' }, description: 'Node 교차 목록의 신규 진입(1M 만) 중 해석에 쓴 티커' },
+    midTerm: { type: 'array', items: { type: 'string' }, description: 'Node 교차 목록의 중기(3M 기준, 1M 은 아님) 중 해석에 쓴 티커' },
     fading: { type: 'array', items: { type: 'string' }, description: 'Node 교차 목록의 퇴조(6M 만) 중 해석에 쓴 티커' },
-    narrative: { type: 'string', description: '1M 에 새로 들어오는 곳과 6M 에만 남은 곳의 차이를 최대 4문장으로. 기간별 클러스터 수치를 그대로 인용' },
-  }, required: ['persistent', 'newEntrants', 'fading', 'narrative'] },
+    narrative: { type: 'string', description: '1M 신규 · 3M 중기 · 6M 퇴조 세 층이 어떻게 다른지 최대 4문장으로. 기간별 클러스터 수치(섹터·업종)를 그대로 인용' },
+  }, required: ['persistent', 'newEntrants', 'midTerm', 'fading', 'narrative'] },
 }, required: ['leadingTheme', 'subThemes', 'crossCuttingDriver', 'byPeriod', 'rotation'] }
 
 const periodBlock = themesByPeriod ? `
@@ -285,8 +286,8 @@ ${JSON.stringify(clean.map((x) => ({ ticker: x.ticker, themeTags: x.themeTags, w
 - subThemes: 2~3개 종목 수준의 소규모 공통점도 잡아라. 전원 공통일 필요 없다.
 - byPeriod: 1M·3M·6M **각각의 상위 2% 안에서** 주도 테마를 따로 붙여라. 그 기간 클러스터에 있는 티커만 넣고,
   그 기간에 공통 테마가 없으면 strength:"none". 유니온 테마를 복사하지 마라 — 기간마다 달라야 정상이다.
-- rotation: Node 교차 목록(지속·신규·퇴조) 안의 티커만 써서 "1M 에 새로 들어오는 곳 vs 6M 에만 남은 곳" 의 차이를 narrative 로.
-  기간별 클러스터 수치(N종목, %)를 그대로 인용하라. 교차 목록이 비면 그렇다고 써라.
+- rotation: Node 교차 목록(지속·신규·중기·퇴조) 안의 티커만 써서 "1M 신규 · 3M 중기 · 6M 퇴조" 세 층의 차이를 narrative 로.
+  기간별 클러스터 수치(N종목, %)를 섹터와 업종 둘 다 그대로 인용하라. 어느 층이 비면 그렇다고 써라.
 - plainKo 와 why 는 역할이 다르다 — plainKo 는 결론 요약, why 는 출처 딸린 근거. 섞지 마라.
 - 근거는 위 리서치에 있는 것만 쓴다. 웹검색은 하지 않는다. 입력에 없는 티커·사실을 만들지 마라.
 ${STYLE}`,
