@@ -3,27 +3,21 @@
   "stale": false,
   "source": "live",
   "latest": {
-    "month": "2026-07",
-    "debit": 1417225,
-    "freeCreditCash": 205132,
-    "freeCreditMargin": 217305
+    "month": "2026-08",
+    "debit": 1453832,
+    "freeCreditCash": 207641,
+    "freeCreditMargin": 217499
   },
   "prior": {
-    "month": "2025-07",
-    "debit": 1022548,
-    "freeCreditCash": 194712,
-    "freeCreditMargin": 186672
+    "month": "2025-08",
+    "debit": 1059723,
+    "freeCreditCash": 188221,
+    "freeCreditMargin": 181563
   },
-  "yoyPct": 38.6,
+  "yoyPct": 37.2,
   "level": "warn",
-  "ko": "⚠️ 마진부채 YoY +38.6% — +30% 초과, 레버리지 확대 주의",
+  "ko": "⚠️ 마진부채 YoY +37.2% — +30% 초과, 레버리지 확대 주의",
   "series13": [
-    {
-      "month": "2025-07",
-      "debit": 1022548,
-      "freeCreditCash": 194712,
-      "freeCreditMargin": 186672
-    },
     {
       "month": "2025-08",
       "debit": 1059723,
@@ -95,12 +89,18 @@
       "debit": 1417225,
       "freeCreditCash": 205132,
       "freeCreditMargin": 217305
+    },
+    {
+      "month": "2026-08",
+      "debit": 1453832,
+      "freeCreditCash": 207641,
+      "freeCreditMargin": 217499
     }
   ],
-  "months": 355,
+  "months": 356,
   "range": {
     "from": "1997-01",
-    "to": "2026-07"
+    "to": "2026-08"
   },
   "unit": "백만 달러 (USD millions)",
   "source_url": "https://www.finra.org/rules-guidance/key-topics/margin-accounts/margin-statistics",
@@ -118,5 +118,5 @@
       "freeMargin": "D"
     }
   },
-  "fetched_at": "2026-09-14T00:45:30.319Z"
+  "fetched_at": "2026-09-15T00:50:38.691Z"
 }

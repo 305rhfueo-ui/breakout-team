@@ -1,5 +1,5 @@
 window.TEAM3_DATA = {
-  "generated": "2026-09-14",
+  "generated": "2026-09-15",
   "summary": {
     "active": 70,
     "dormant": 0,
@@ -8,7 +8,7 @@ window.TEAM3_DATA = {
     "unevaluated": [
       "HPE-C"
     ],
-    "reentryBlocked": 5
+    "reentryBlocked": 0
   },
   "items": [
     {
@@ -451,14 +451,7 @@ window.TEAM3_DATA = {
         "reason": "50일선 아래 26일 연속(2026-08-06 ~ 2026-09-11)",
         "count": 6
       },
-      "live": {
-        "price": 89.77,
-        "lastBarDate": "2026-09-11",
-        "barGap": false,
-        "belowMa50Days": 26,
-        "eyeScore": 5,
-        "congestion": "none"
-      }
+      "live": null
     },
     {
       "ticker": "HURN",
@@ -1924,14 +1917,7 @@ window.TEAM3_DATA = {
         "reason": "50일선 아래 18일 연속(2026-08-18 ~ 2026-09-11)",
         "count": 6
       },
-      "live": {
-        "price": 51.16,
-        "lastBarDate": "2026-09-11",
-        "barGap": false,
-        "belowMa50Days": 18,
-        "eyeScore": 4,
-        "congestion": "none"
-      }
+      "live": null
     },
     {
       "ticker": "ALAB",
@@ -2217,14 +2203,7 @@ window.TEAM3_DATA = {
         "reason": "50일선 아래 27일 연속(2026-08-05 ~ 2026-09-11)",
         "count": 6
       },
-      "live": {
-        "price": 291.22,
-        "lastBarDate": "2026-09-11",
-        "barGap": false,
-        "belowMa50Days": 27,
-        "eyeScore": 2,
-        "congestion": "none"
-      }
+      "live": null
     },
     {
       "ticker": "ORKA",
@@ -2270,14 +2249,7 @@ window.TEAM3_DATA = {
         "reason": "50일선 아래 10일 연속(2026-08-28 ~ 2026-09-11)",
         "count": 6
       },
-      "live": {
-        "price": 92.38,
-        "lastBarDate": "2026-09-11",
-        "barGap": false,
-        "belowMa50Days": 10,
-        "eyeScore": 3,
-        "congestion": "none"
-      }
+      "live": null
     },
     {
       "ticker": "IT",
@@ -2782,14 +2754,7 @@ window.TEAM3_DATA = {
         "reason": "50일선 아래 41일 연속(2026-07-16 ~ 2026-09-11)",
         "count": 6
       },
-      "live": {
-        "price": 63.52,
-        "lastBarDate": "2026-09-11",
-        "barGap": false,
-        "belowMa50Days": 41,
-        "eyeScore": 2,
-        "congestion": "none"
-      }
+      "live": null
     },
     {
       "ticker": "AXTI",
@@ -3856,14 +3821,7 @@ window.TEAM3_DATA = {
       "excludedReason": "50일선 아래 4일 연속(2026-09-08 ~ 2026-09-11)",
       "excludedAsOf": "2026-09-11",
       "firstExcludedAt": "2026-09-14",
-      "live": {
-        "price": 350.71,
-        "lastBarDate": "2026-09-11",
-        "barGap": false,
-        "belowMa50Days": 4,
-        "eyeScore": 3,
-        "congestion": "none"
-      }
+      "live": null
     },
     {
       "ticker": "NBIS",
@@ -4286,14 +4244,7 @@ window.TEAM3_DATA = {
       "excludedReason": "50일선 아래 3일 연속(2026-09-09 ~ 2026-09-11)",
       "excludedAsOf": "2026-09-11",
       "firstExcludedAt": "2026-09-14",
-      "live": {
-        "price": 60.62,
-        "lastBarDate": "2026-09-11",
-        "barGap": false,
-        "belowMa50Days": 3,
-        "eyeScore": 0,
-        "congestion": "none"
-      }
+      "live": null
     },
     {
       "ticker": "QLYS",
@@ -6787,14 +6738,7 @@ window.TEAM3_DATA = {
       "excludedAsOf": "2026-09-11",
       "firstExcludedAt": "2026-09-14",
       "excludedReason": "50일선 아래 3일 연속(2026-09-09 ~ 2026-09-11)",
-      "live": {
-        "price": 86.11,
-        "lastBarDate": "2026-09-11",
-        "barGap": false,
-        "belowMa50Days": 3,
-        "eyeScore": 2,
-        "congestion": "none"
-      }
+      "live": null
     },
     {
       "ticker": "TARS",
@@ -7250,48 +7194,8 @@ window.TEAM3_DATA = {
       }
     }
   ],
-  "dropped_today": [
-    {
-      "ticker": "DAVE",
-      "reason": "50일선 아래 4일 연속(2026-09-08 ~ 2026-09-11)",
-      "asOf": "2026-09-11",
-      "firstExcludedAt": "2026-09-14"
-    },
-    {
-      "ticker": "CTRN",
-      "reason": "50일선 아래 3일 연속(2026-09-09 ~ 2026-09-11)",
-      "asOf": "2026-09-11",
-      "firstExcludedAt": "2026-09-14"
-    },
-    {
-      "ticker": "XMTR",
-      "reason": "50일선 아래 3일 연속(2026-09-09 ~ 2026-09-11)",
-      "asOf": "2026-09-11",
-      "firstExcludedAt": "2026-09-14"
-    }
-  ],
-  "reentryBlocked": [
-    {
-      "ticker": "AGL",
-      "reason": "50일선 아래 26일 연속(2026-08-06 ~ 2026-09-11)"
-    },
-    {
-      "ticker": "PENG",
-      "reason": "50일선 아래 18일 연속(2026-08-18 ~ 2026-09-11)"
-    },
-    {
-      "ticker": "AMBQ",
-      "reason": "50일선 아래 41일 연속(2026-07-16 ~ 2026-09-11)"
-    },
-    {
-      "ticker": "ALAB",
-      "reason": "50일선 아래 27일 연속(2026-08-05 ~ 2026-09-11)"
-    },
-    {
-      "ticker": "ORKA",
-      "reason": "50일선 아래 10일 연속(2026-08-28 ~ 2026-09-11)"
-    }
-  ],
+  "dropped_today": [],
+  "reentryBlocked": [],
   "breakouts": [
     {
       "ticker": "BE",
@@ -7421,20 +7325,13 @@ window.TEAM3_DATA = {
     }
   ],
   "ingest": {
-    "added": 2,
-    "restored": 8,
+    "added": 0,
+    "restored": 0,
     "refreshed": 0,
-    "restoredTickers": [
-      "AGL",
-      "MSTR",
-      "MXL",
-      "BAND",
-      "PENG",
-      "AMBQ",
-      "ALAB",
-      "ORKA"
-    ],
-    "blocked": 5
+    "restoredTickers": [],
+    "held": 38,
+    "heldReason": "사이트 발행 보류일 — 신규 편입 보류",
+    "blocked": 0
   },
   "cap": {
     "dormant": 0,

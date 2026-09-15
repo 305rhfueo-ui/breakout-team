@@ -1,5 +1,5 @@
 window.TEAM5_DATA = {
-  "generated": "2026-09-14",
+  "generated": "2026-09-15",
   "note": "WRS(1MO)/(3MO) 는 사이트에 없어 공식대로 자체 계산한 값입니다 (WRS_6mo 는 사이트와 대조 검증 통과)",
   "validation": {
     "comparable": 135,
@@ -521,7 +521,7 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "done",
+    "status": "carried",
     "industries": [
       {
         "key": "Technology|Computer Hardware",
@@ -553,7 +553,7 @@ window.TEAM5_DATA = {
         },
         "leadOriginal": "Technology|Computer Hardware 업종은 Final_WRS 기준 전체 업종 중 랭킹 1위(FRANK 1)를 유지하고 있으며, AI 서버 수요 확대와 NAND 가격 사이클이라는 두 축이 업종 대표 종목 DELL과 SNDK의 실적을 동시에 견인하고 있다. DELL은 AI 서버 수주 잔고 급증과 가이던스 상향을, SNDK는 NAND 가격 급등에 따른 마진 정상화와 데이터센터 매출 급증을 실적으로 확인시켰다. 다만 50일선 이격 7.61%·200일선 이격 29.88%(25거래일 변화 -0.33%p)인 가운데 국면은 '중반이나 수축 중', 흐름은 outflow로 표기돼 있어 상승 탄력 둔화 신호도 동시에 관찰된다.",
         "researchedOn": "2026-09-14",
-        "carried": false
+        "carried": true
       },
       {
         "driver": "technology",
@@ -625,7 +625,7 @@ window.TEAM5_DATA = {
           "reason": "avnet-ai-datacenter-mix-shift(매출 71억 달러/$7.1B, 34% 증가, AI·데이터센터 비중 5~7%→10~15%, 주가 YTD 81.5%), td-synnex-guidance-raise(실적 상회, 가이던스 상향, 주가 74.64% 1년 수익률), arrow-electronics-earnings-beat-buyback(실적 상회, 자사주 매입 약 10%, 주가 약 50% 상승)의 모든 주장이 제공된 인용문과 출처 제목으로 검증됨"
         },
         "researchedOn": "2026-09-14",
-        "carried": false
+        "carried": true
       },
       {
         "driver": "commodity",
@@ -704,7 +704,7 @@ window.TEAM5_DATA = {
           "reason": "insider_buying(Kenneth Courtis의 9월 8일 $2.26M, 8월 $1.1M 매입), sector_upswing(업종 전체 강세, HCC·METC 동반상승), met_coal_price_china_demand(미중 정상회담 후 심리 개선, 차익거래 매수, HCC 지수 $240/t 도달)의 모든 주장이 제공된 인용문과 출처 제목으로 검증됨"
         },
         "researchedOn": "2026-09-14",
-        "carried": false
+        "carried": true
       },
       {
         "driver": "commodity",
@@ -800,7 +800,7 @@ window.TEAM5_DATA = {
           "reason": ""
         },
         "researchedOn": "2026-09-14",
-        "carried": false
+        "carried": true
       },
       {
         "key": "Energy|Oil & Gas Refining & Marketing",
@@ -866,7 +866,7 @@ window.TEAM5_DATA = {
         },
         "leadOriginal": "Par Pacific Holdings(PARR)는 하와이·워싱턴·몬태나·와이오밍에 정제 자산을 보유한 다운스트림 정유사로, WRS 3개월 0.5574(상위 0.71%)·6개월 0.6084(상위 2.14%)를 기록하며 업종 내 자금 유입이 최상위권에 진입했다. 2026년 2분기 조정 EPS가 컨센서스를 크게 상회하고 전년동기 대비 급증했으며, 하와이를 중심으로 지역별 정제마진이 확대되면서 실적 서프라이즈가 주가 재평가를 이끌고 있다. 실적 발표 이후 목표주가 상향과 밸류에이션 매력이 이 흐름을 뒷받침하고 있다.",
         "researchedOn": "2026-09-14",
-        "carried": false
+        "carried": true
       },
       {
         "driver": "technology",
@@ -1137,8 +1137,7 @@ window.TEAM5_DATA = {
       ],
       "caution": "Computer Hardware는 researched:false로 조사 근거가 전혀 없다. WRS 수치상 6개월 1위(rankPct 0.71)에서 1개월 16.43으로 급락한 로테이션 이탈은 확인되지만, 그 원인은 조사되지 않았으므로 서술하지 않았다. Electronics & Computer Distribution의 조사 근거(Avnet·TD Synnex·Arrow Electronics 실적)도 YTD·최근 1년·분기 단위 성과일 뿐 최근 1개월 rankPct 둔화(9.29)를 직접 설명하는 근거는 아니므로 로테이션 방향(수치)과 개별 종목 스토리(근거)를 분리해서 읽어야 한다."
     },
-    "summaryResearchedOn": "2026-09-14",
-    "reusedFrom": null
+    "summaryResearchedOn": "2026-09-14"
   },
   "flow": {
     "baseline": {
@@ -7453,15 +7452,5 @@ window.TEAM5_DATA = {
         ]
       }
     ]
-  },
-  "research_coverage": {
-    "done": 9,
-    "total": 13,
-    "cap": 6,
-    "pending": 4,
-    "failed": 0,
-    "carried": 4,
-    "ineligible": 0,
-    "note": "13업종 중 9업종을 조사했습니다. 그중 4업종은 최근 조사분을 이월했습니다(조사일 표기). 나머지 4업종은 상한(6) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
   }
 };
