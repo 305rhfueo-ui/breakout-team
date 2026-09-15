@@ -521,7 +521,7 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "carried",
+    "status": "done",
     "industries": [
       {
         "key": "Technology|Computer Hardware",
@@ -1137,7 +1137,8 @@ window.TEAM5_DATA = {
       ],
       "caution": "Computer Hardware는 researched:false로 조사 근거가 전혀 없다. WRS 수치상 6개월 1위(rankPct 0.71)에서 1개월 16.43으로 급락한 로테이션 이탈은 확인되지만, 그 원인은 조사되지 않았으므로 서술하지 않았다. Electronics & Computer Distribution의 조사 근거(Avnet·TD Synnex·Arrow Electronics 실적)도 YTD·최근 1년·분기 단위 성과일 뿐 최근 1개월 rankPct 둔화(9.29)를 직접 설명하는 근거는 아니므로 로테이션 방향(수치)과 개별 종목 스토리(근거)를 분리해서 읽어야 한다."
     },
-    "summaryResearchedOn": "2026-09-14"
+    "summaryResearchedOn": "2026-09-14",
+    "reusedFrom": null
   },
   "flow": {
     "baseline": {
@@ -7452,5 +7453,15 @@ window.TEAM5_DATA = {
         ]
       }
     ]
+  },
+  "research_coverage": {
+    "done": 9,
+    "total": 13,
+    "cap": 6,
+    "pending": 4,
+    "failed": 0,
+    "carried": 9,
+    "ineligible": 0,
+    "note": "13업종 중 9업종을 조사했습니다. 그중 9업종은 최근 조사분을 이월했습니다(조사일 표기). 나머지 4업종은 상한(6) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
   }
 };

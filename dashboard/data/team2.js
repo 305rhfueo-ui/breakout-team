@@ -1615,53 +1615,20 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "done",
-        "ticker": "TEAM",
-        "company": "Atlassian은 Jira·Confluence·Trello·Bitbucket 등 소프트웨어 개발·협업 도구를 구독형 클라우드 SaaS로 제공하는 기업으로, FY2026 4분기(2026-06-30 종료) 기준 subscription ARR $6,606M(YoY +23%), 클라우드 매출 $1,213M(YoY +31%)을 기록했다. 핵심 고객은 소프트웨어 개발팀·엔터프라이즈 IT/운영 조직이며, 서버·데이터센터에서 클라우드로의 마이그레이션이 상당 부분 마무리된 국면에서 AI 어시스턴트 Rovo와 Teamwork Graph 기반의 좌석 확장·크로스셀이 다음 성장 동력으로 부상하고 있다.",
-        "lead": "TEAM은 2026-08-06 발표 직후 주가가 급등한 뒤 8월 한 달간 92% 폭등하며 6개월 수익률 143.73%의 랠리로 이어졌다. Rovo AI 어시스턴트 채택 확대에 대한 기대가 랠리를 뒷받침하고 있다.",
+        "company": "아틀라시언은 Jira·Confluence·Trello·Bitbucket 등 소프트웨어 개발팀·IT팀 대상 협업·업무관리 툴을 제공하는 SaaS 기업으로, 매출은 클라우드 구독형이 중심이며 FY2026 4분기 클라우드 매출은 전년동기 대비 31% 증가한 $1.2B를 기록했다. Rovo·Teamwork Graph·MCP서버 등 AI 에이전트 기능을 제품 전반에 결합해 기존 개발팀 중심 고객군을 전사 협업 영역으로 확장 중이며 ARR $3M 이상 대형 고객군의 ARR 성장률이 전사 평균을 크게 상회한다. 분기별 GAAP 흑자·적자가 반복되던 구간에서 FY2026 4분기(2026-06-30 마감)에 영업이익률 11.9%의 GAAP 흑자 전환을 기록한 국면이다.",
+        "lead": "TEAM은 최근 6개월 143.73%, 3개월 104.32%, 1개월 8.27% 상승했으며 RS 백분위가 1M 7.0%/3M 0.1%/6M 1.2%로 전 구간 상위권, 52주 고점 대비 90.48%, 200일선 대비 63.5% 이격된 상태다. 8월 한 달간 주가가 92% 급등했는데, 이는 FY2026 4분기(6월 마감) 실적이 컨센서스를 큰 폭 상회하고 AI가 SaaS 수요를 잠식할 것이라는 우려를 반박하는 지표가 확인됐기 때문이다(The Motley Fool, 2026-09-05).",
         "whyRose": [
           {
-            "id": "w2",
-            "statement": "2026-08-06 실적 발표 직후 주가가 30% 급등.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Atlassian's Chief Accounting Officer Sells Over 1,000 Shares as the Stock Surges 30% After Earnings",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/atlassians-chief-accounting-officer-sells-over-1000-shares-stock-surges-30-after-earnings",
-                "date": "2026-08-24",
-                "quote": "Atlassian's Chief Accounting Officer Sells Over 1,000 Shares as the Stock Surges 30% After Earnings",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
             "id": "w3",
-            "statement": "8월 한 달간 주가가 92% 폭등하며 추가 상승 여력이 있다는 시장 논평이 나옴.",
+            "statement": "AI 기능(Rovo) 채택이 'AI가 SaaS 수요를 대체한다'는 시장 우려를 반박하는 근거로 작용했다. Rovo 지원 액션이 QoQ +50% 증가했고 Rovo 이용자는 비이용자 대비 Jira 작업 처리량이 20% 많고 Confluence 페이지 생성·편집이 25% 많다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "Why Atlassian Stock Skyrocketed 92% Higher in August and Why There's Likely More to Come",
                 "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/why-atlassian-stock-skyrocketed-92-higher-august-and-why-theres-likely-more-come",
+                "url": "https://www.fool.com/investing/2026/09/05/why-atlassian-stock-skyrocketed-92-higher-in-august-and-why-there-s-likely-more-to-come/",
                 "date": "2026-09-05",
-                "quote": "Why Atlassian Stock Skyrocketed 92% Higher in August and Why There's Likely More to Come",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w4",
-            "statement": "AI 어시스턴트 Rovo 채택 확대가 ARR 성장 가속 기대로 이어짐.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Can Rising Adoption of Rovo Help Atlassian Accelerate Its ARR Growth?",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/can-rising-adoption-rovo-help-atlassian-accelerate-its-arr-growth",
-                "date": "2026-08-25",
-                "quote": "Can Rising Adoption of Rovo Help Atlassian Accelerate Its ARR Growth?",
+                "quote": "Rovo-assisted actions surged 50% quarter over quarter, with Rovo users completing 20% more work items in Jira than non-users",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -1671,49 +1638,15 @@ window.TEAM2_DATA = {
         "counterpoint": [
           {
             "id": "c1",
-            "statement": "실적 발표 이후 주가 급등 국면에서 회계책임자(Chief Accounting Officer) Gene Liu가 두 차례에 걸쳐 자사주를 매도, 내부자 매도가 랠리와 겹쳐 나타남.",
+            "statement": "실적 서프라이즈에도 불구하고 회사가 제시한 향후 가이던스는 매출 성장 13%, 클라우드 성장 25.5%, 구독 ARR 성장 18%로, 최근 분기 실제 YoY 매출 성장률(27.6%~31.7%)에 비해 상당한 둔화를 내포한다. 6개월 143.73% 급등 이후 52주 고점 대비 90.48%, 200일선 대비 63.5% 이격이라는 기술적 과열 위에서 이 둔화 가이던스가 보수적 눈높이인지, 실제 성장 둔화의 신호인지가 리레이팅 지속 여부를 가른다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Atlassian's Chief Accounting Officer Sells Over 1,000 Shares as the Stock Surges 30% After Earnings",
+                "title": "Why Atlassian Stock Skyrocketed 92% Higher in August and Why There's Likely More to Come",
                 "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/atlassians-chief-accounting-officer-sells-over-1000-shares-stock-surges-30-after-earnings",
-                "date": "2026-08-24",
-                "quote": "Atlassian's Chief Accounting Officer Sells Over 1,000 Shares as the Stock Surges 30% After Earnings",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Atlassian Chief Accounting Officer Gene Liu Sells 939 Shares",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/atlassian-chief-accounting-officer-gene-liu-sells-939-shares",
-                "date": "2026-09-09",
-                "quote": "Atlassian Chief Accounting Officer Gene Liu Sells 939 Shares",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "GAAP 영업이익률(12%)과 Non-GAAP 영업이익률(36%) 간 괴리가 크고, 직전 3개 분기(2025-09-30 -6.7%, 2025-12-31 -3.0%, 2026-03-31 -3.1%) 연속 GAAP 영업손실을 기록하다 최근 분기에 급반전한 구조여서 이익의 질(스톡옵션비용 등 조정 폭)에 대한 검증이 필요.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Atlassian Q4 Earnings: Revenue $1.77B, Up 28% | TEAM Stock News",
-                "publisher": "StockTitan",
-                "url": "https://www.stocktitan.net/news/TEAM/atlassian-announces-fourth-quarter-and-fiscal-year-2026-u2n9sve5wan8.html",
-                "date": "2026-08-06",
-                "quote": "Quarterly GAAP operating margin of 12% and non-GAAP operating margin of 36%",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Atlassian Corp - 10-Q filings (SEC EDGAR)",
-                "publisher": "SEC",
-                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001650372&type=10-Q",
-                "date": "2026-09-09",
-                "quote": "periodEnd 2025-09-30 margin -6.7, periodEnd 2025-12-31 margin -3.0, periodEnd 2026-03-31 margin -3.1 (opm, %)",
+                "url": "https://www.fool.com/investing/2026/09/05/why-atlassian-stock-skyrocketed-92-higher-in-august-and-why-there-s-likely-more-to-come/",
+                "date": "2026-09-05",
+                "quote": "company forecast total revenue growth of 13%, cloud growth of 25.5%, and subscription ARR growth of 18%",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -1721,28 +1654,59 @@ window.TEAM2_DATA = {
           }
         ],
         "estimateRevisions": {
-          "direction": "unknown",
-          "claims": []
+          "direction": "mixed",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "FY2026 4분기 실적은 컨센서스를 큰 폭 상회했다. 매출 $1.77B(컨센서스 $1.66B), 조정 EPS $1.87(컨센서스 $1.50)로 어닝서프라이즈가 확인됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Why Atlassian Stock Skyrocketed 92% Higher in August and Why There's Likely More to Come",
+                  "publisher": "The Motley Fool",
+                  "url": "https://www.fool.com/investing/2026/09/05/why-atlassian-stock-skyrocketed-92-higher-in-august-and-why-there-s-likely-more-to-come/",
+                  "date": "2026-09-05",
+                  "quote": "analysts' consensus estimates called for revenue of $1.66 billion and EPS of $1.50",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "e2",
+              "statement": "다만 회사의 향후 가이던스(매출 성장 13%, 클라우드 성장 25.5%, 구독 ARR 성장 18%)는 최근 실제 성장률보다 낮아, 컨센서스 추정치가 실적 서프라이즈만큼 상향되지 않을 가능성을 시사한다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Why Atlassian Stock Skyrocketed 92% Higher in August and Why There's Likely More to Come",
+                  "publisher": "The Motley Fool",
+                  "url": "https://www.fool.com/investing/2026/09/05/why-atlassian-stock-skyrocketed-92-higher-in-august-and-why-there-s-likely-more-to-come/",
+                  "date": "2026-09-05",
+                  "quote": "company forecast total revenue growth of 13%, cloud growth of 25.5%, and subscription ARR growth of 18%",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
         },
         "themeTags": [
-          "AI 생산성 소프트웨어",
-          "클라우드 SaaS 전환",
-          "DevOps 협업툴"
+          "AI 에이전틱 협업툴",
+          "SaaS 클라우드 전환",
+          "엔터프라이즈 협업 소프트웨어"
         ],
         "confidence": "medium",
+        "ticker": "TEAM",
         "factcheck": {
           "verdict": "partial",
           "removed": [
-            "w1"
+            "w1",
+            "w2"
           ],
-          "reasons": [
-            "w1: Statement의 'YoY +27.6%'와 quote의 'up 28%'가 불일치하며, 클라우드 매출 $1,213M, ARR $6,606M 등 구체적 수치가 quote에 없음"
-          ],
-          "leadFixed": true
+          "reasons": []
         },
-        "leadOriginal": "TEAM은 2026-08-06 발표된 FY2026 4분기 실적에서 매출 $1,766M(YoY +27.6%), GAAP 영업이익률 11.9%(직전 분기 -3.1%에서 급반전)를 기록하며 컨센서스를 상회했고, 발표 직후 주가가 급등한 뒤 8월 한 달간 92% 폭등하며 6개월 수익률 143.73%의 랠리로 이어졌다. Rovo AI 어시스턴트 채택 확대에 대한 기대가 랠리를 뒷받침하고 있다.",
-        "researchedOn": "2026-09-14",
-        "carried": true
+        "researchedOn": "2026-09-15",
+        "carried": false
       },
       "nameKo": "아틀라시언",
       "nameEn": "ATLASSIAN CORP",
@@ -3248,37 +3212,37 @@ window.TEAM2_DATA = {
       "research": {
         "status": "done",
         "ticker": "MNPR",
-        "company": "Monopar Therapeutics는 임상단계 희귀질환 전문 바이오제약기업으로, 매출은 전무하며 Wilson disease(윌슨병) 치료 후보물질 ALXN1840(bis-choline tetrathiomolybdate, 알부민 삼중복합체 활성화제) 단일 파이프라인에 기업가치가 사실상 집중돼 있다. ALXN1840은 Phase 3 FoCus 임상에서 주요 평가변수를 충족했고 Fast Track·Orphan Drug·희귀소아질환(RPD) 지정을 확보한 뒤 2026년 7월 FDA에 rolling NDA 제출을 개시해 승인 심사 국면에 진입했다. 향후 상업화 시 핵심 고객은 Wilson disease 환자를 진료하는 간질환·신경과 전문의 및 병원이 될 전망이나, 현재는 승인 전 프리레버뉴 단계로 분기마다 영업손실이 이어지는 국면이다.",
-        "lead": "Monopar Therapeutics는 ALXN1840의 Wilson disease 치료제 rolling NDA 제출 개시(2026-07-22)와 FDA 희귀소아질환 지정 획득(2026-06-30)을 계기로 FDA 승인 국면 진입 기대가 부각되며 주가가 3개월 +76.84%, 6개월 +99.71% 급등했다. 8월에는 신임 Medical Affairs 총괄 선임과 평균 애널리스트 목표주가 상회 보도가 이어지며 심사 임박 기대가 재확인됐다.",
+        "company": "Monopar Therapeutics는 희귀질환 치료제에 집중하는 규제단계 바이오텍으로, 핵심 파이프라인은 Wilson병(윌슨병) 치료 후보물질 ALXN1840이며 2026년 7월 22일 FDA에 rolling NDA(신약승인신청) 제출을 개시해 수개월 내 제출 완료를 목표로 하고 있다. 상업화 이전 단계로 보고된 전 분기 매출은 모두 0이며, 2026년 6월 30일 기준 현금·투자자산 1억 3,430만달러를 보유해 2027년 12월 31일까지 운영자금을 확보했다고 공시했다. 방사성의약품 후보 MNPR-101 등 초기 파이프라인도 병행 개발 중이나, 현 밸류에이션은 사실상 ALXN1840의 FDA 승인 여부에 연동된 이벤트 드리븐 구조다.",
+        "lead": "ALXN1840에 대한 FDA rolling NDA 제출이 2026년 7월 22일 개시돼 진행 중인 가운데, 6월 30일에는 FDA 희귀소아질환 지정까지 확보하며 Wilson병 치료제 파이프라인의 규제 모멘텀이 강화됐다. 4~5월 발표된 Phase 3 FoCus 및 Phase 2 데이터에서 구리(copper) 감소 등 우호적 분석 결과가 잇따라 확인됐고, 8월 20일에는 주가가 평균 애널리스트 목표주가를 상회했다는 보도가 나왔다. NDA 제출 완료가 임박한 가운데 신임 Medical Affairs 총괄 선임 등 상업화 준비 움직임도 병행되고 있다.",
         "whyRose": [
           {
-            "id": "w1",
-            "statement": "ALXN1840의 Wilson disease 치료제 rolling NDA 제출을 2026-07-22 개시하며 FDA 승인 심사 국면 진입 기대가 형성됨",
+            "id": "nda_rolling",
+            "statement": "ALXN1840에 대한 FDA rolling NDA 제출이 2026년 7월 22일 개시돼 진행 중이며, 회사는 수개월 내 제출 완료를 목표로 하고 있다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Monopar Initiates Rolling NDA Submission for ALXN1840 in Wilson Disease",
-                "publisher": "BioSpace",
-                "url": "https://www.biospace.com/press-releases/monopar-initiates-rolling-nda-submission-for-alxn1840-in-wilson-disease",
-                "date": "2026-07-22",
-                "quote": "Monopar has initiated the rolling submission of a New Drug Application (\"NDA\") to the U.S. Food and Drug Administration (\"FDA\") for ALXN1840",
-                "verified": "ok",
-                "httpStatus": 200
+                "title": "Monopar Therapeutics Reports Second Quarter 2026 Financial Results and Provides Business Updates",
+                "publisher": "GlobeNewswire",
+                "url": "https://www.globenewswire.com/news-release/2026/08/12/3343777/0/en/monopar-therapeutics-reports-second-quarter-2026-financial-results-and-provides-business-updates.html",
+                "date": "2026-08-12",
+                "quote": "On July 22, 2026, Monopar announced it had initiated the rolling submission of a New Drug Application (NDA)... The Company anticipates completing the NDA submission within the next few months.",
+                "verified": "unverified",
+                "httpStatus": 0
               },
               {
-                "title": "8-K (Reg FD 공시, 재무제표·첨부)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1645469/000143774926024041/mnpr20260721_8k.htm",
-                "date": "2026-07-22",
-                "quote": "Reg FD 공시, 재무제표·첨부",
+                "title": "Monopar Q2 Net Loss Widens; Rolling NDA Submission For ALXN1840 In Wilson Disease Underway",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/monopar-q2-net-loss-widens-rolling-nda-submission-alxn1840-wilson-disease-underway",
+                "date": "2026-08-12",
+                "quote": "Monopar Q2 Net Loss Widens; Rolling NDA Submission For ALXN1840 In Wilson Disease Underway",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "w2",
-            "statement": "FDA로부터 ALXN1840의 Wilson disease 치료 관련 희귀소아질환(RPD) 지정을 2026-06-30 획득, 승인 시 소아우선심사바우처(PRV) 확보 가능성이 부각됨",
+            "id": "rpdd",
+            "statement": "ALXN1840이 Wilson병 적응증으로 FDA 희귀소아질환 지정(Rare Pediatric Disease Designation)을 획득했다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -3289,37 +3253,37 @@ window.TEAM2_DATA = {
                 "quote": "Monopar's ALXN1840 Gets FDA's Rare Pediatric Disease Designation For Wilson Disease",
                 "verified": "ok",
                 "httpStatus": 200
-              },
-              {
-                "title": "Monopar Therapeutics Granted Rare Pediatric Disease Designation To ALXN1840 To Treat Wilson Disease",
-                "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/monopar-therapeutics-granted-rare-pediatric-disease-designation-alxn1840-treat-wilson",
-                "date": "2026-06-30",
-                "quote": "Monopar Therapeutics Granted Rare Pediatric Disease Designation To ALXN1840 To Treat Wilson Disease",
-                "verified": "ok",
-                "httpStatus": 200
               }
             ]
           },
           {
-            "id": "w3",
-            "statement": "2026-08-19 신임 Medical Affairs 총괄 선임 발표로 ALXN1840의 FDA 심사 임박 국면이 재부각됨",
+            "id": "ph23_data",
+            "statement": "Phase 3 FoCus 임상 및 Phase 2 데이터에서 구리(copper) 감소 등 우호적 분석 결과가 4~5월에 걸쳐 발표됐다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "MNPR Names New Medical Affairs Head As ALXN1840 Advances Toward FDA Decision",
+                "title": "Monopar Reports Promising Analyses From Phase 3 FoCus Trial For ALXN1840 In Treating Wilson Disease",
                 "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/mnpr-names-new-medical-affairs-head-alxn1840-advances-toward-fda-decision",
-                "date": "2026-08-19",
-                "quote": "MNPR Names New Medical Affairs Head As ALXN1840 Advances Toward FDA Decision",
+                "url": "https://www.nasdaq.com/articles/monopar-reports-promising-analyses-phase-3-focus-trial-alxn1840-treating-wilson-disease",
+                "date": "2026-04-20",
+                "quote": "Monopar Reports Promising Analyses From Phase 3 FoCus Trial For ALXN1840 In Treating Wilson Disease",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Monopar's ALXN1840 Shows Significant Copper Reduction In Phase 2 Trial For Wilson Disease",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/monopars-alxn1840-shows-significant-copper-reduction-phase-2-trial-wilson-disease",
+                "date": "2026-05-20",
+                "quote": "Monopar's ALXN1840 Shows Significant Copper Reduction In Phase 2 Trial For Wilson Disease",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "w4",
-            "statement": "주가가 평균 애널리스트 목표주가를 상회했다는 보도와 대형 랠리 가능성을 제기한 월가 코멘트가 8월 들어 확산되며 매수세를 자극함",
+            "id": "target_price",
+            "statement": "8월 20일 주가가 평균 애널리스트 목표주가를 상회했다는 보도가 나왔다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -3330,39 +3294,70 @@ window.TEAM2_DATA = {
                 "quote": "MNPR Crosses Above Average Analyst Target",
                 "verified": "ok",
                 "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "loss_widening",
+            "statement": "2026년 2분기 순손실이 530만달러(주당 -0.62달러)로 전년동기 250만달러(주당 -0.35달러) 대비 확대됐고, 직전 분기(2026년 3월 말) 영업손실도 522만달러(전년동기대비 -62.2%), 순손실 389만달러(-48.3%)로 적자 폭이 커졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Monopar Therapeutics Reports Second Quarter 2026 Financial Results and Provides Business Updates",
+                "publisher": "GlobeNewswire",
+                "url": "https://www.globenewswire.com/news-release/2026/08/12/3343777/0/en/monopar-therapeutics-reports-second-quarter-2026-financial-results-and-provides-business-updates.html",
+                "date": "2026-08-12",
+                "quote": "Net loss for the second quarter of 2026 was $5.3 million, or $0.62 per share, compared to net loss of $2.5 million, or $0.35 per share, for the second quarter of 2025.",
+                "verified": "unverified",
+                "httpStatus": 0
               },
               {
-                "title": "Wall Street Analysts Believe Monopar Therapeutics (MNPR) Could Rally 88.92%: Here's is How to Trade",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-monopar-therapeutics-mnpr-could-rally-8892-heres-how-trade",
-                "date": "2026-06-15",
-                "quote": "Wall Street Analysts Believe Monopar Therapeutics (MNPR) Could Rally 88.92%",
+                "title": "SEC EDGAR - Monopar Therapeutics 10-Q filings",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001645469&type=10-Q",
+                "date": "2026-03-31",
+                "quote": "profit: -5,225,253 USD (yoy -62.2%); netIncome: -3,893,050 USD (yoy -48.3%)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "pre_revenue",
+            "statement": "보고된 전 분기 매출이 모두 0으로 상업화 이전 단계이며, 밸류에이션이 ALXN1840의 규제 승인 성패에 전적으로 연동된 이벤트 드리븐 구조다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC EDGAR - Monopar Therapeutics 10-Q filings",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001645469&type=10-Q",
+                "date": "2026-03-31",
+                "quote": "revenue: 0 (2026-03-31, 2019-12-31, 2019-09-30, 2019-06-30 전 분기 공통)",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           }
         ],
-        "counterpoint": [],
         "estimateRevisions": {
           "direction": "unknown",
           "claims": []
         },
         "themeTags": [
-          "희귀질환 치료제",
-          "윌슨병(구리대사이상)",
-          "FDA NDA 심사모멘텀"
+          "Wilson병 치료제(ALXN1840)",
+          "희귀질환(오퍼판 드럭)",
+          "FDA NDA 심사 촉매"
         ],
         "confidence": "medium",
         "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "c1"
-          ],
+          "verdict": "pass",
+          "removed": [],
           "reasons": []
         },
-        "researchedOn": "2026-09-14",
-        "carried": true
+        "researchedOn": "2026-09-15",
+        "carried": false
       },
       "nameKo": "모노파 테라퓨틱스",
       "nameEn": "MONOPAR THERAPEUTICS INC",
@@ -7138,23 +7133,31 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "done",
-        "company": "코셉트 테라퓨틱스는 코르티솔(글루코코르티코이드) 수용체 길항 기전에 특화된 특수제약(specialty pharma) 기업으로, 쿠싱증후군 치료제 Korlym(mifepristone)이 오랜 기간 매출의 근간이었다. 2026년 3월 FDA가 동일 계열 물질인 relacorilant(제품명 Lifyorli)를 백금저항성 난소암 치료제로 승인하면서 매출원이 종양학으로 확장됐고, 현재는 relacorilant를 쿠싱증후군 적응증으로 재제출한 NDA에 대한 FDA 심사 결과(PDUFA 2026년 12월 17일)를 앞두고 있어 단일 제품 구조에서 다중 적응증 플랫폼으로 전환하는 국면이다. 주 고객군은 쿠싱증후군·고코르티솔혈증·부인암을 다루는 전문의와 특수약국(specialty pharmacy) 유통망이다.",
-        "lead": "코셉트 테라퓨틱스는 2026년 2분기(6월 결산) 매출이 2.561억 달러로 전년동기 대비 +31.7% 증가하며 컨센서스를 상회했고, GAAP EPS(0.36달러)도 전년 0.29달러를 웃돌며 시장 예상을 크게 상회했다. 이에 힘입어 회사는 2026년 연간 매출 가이던스를 11억~12억 달러로 상향 조정했다. 여기에 relacorilant의 쿠싱증후군 적응증 재제출 NDA에 대한 FDA 심사 결정일(2026년 12월 17일)이 확정되며 추가 승인 모멘텀 기대가 겹쳤다.",
+        "ticker": "CORT",
+        "company": "코셉트 테라퓨틱스는 내인성 쿠싱증후군(Cushing's Syndrome) 치료제 코르림(Korlym, mifepristone) 단일 제품이 매출 대부분을 차지하는 스페셜티 바이오제약사로, 미국 내 제한된 전문 처방 채널을 통해 코르티솔 과다 환자군에 직접 유통한다. 차세대 선택적 코르티솔 조절제 후보물질(렐라코릴란트 등)을 쿠싱증후군 외 적응증으로 확장 중이며, 2026년 들어 분기별 매출 성장 가속과 연간 가이던스 상향이 겹치며 실적 모멘텀 국면에 진입했다.",
+        "lead": "2026년 2분기 매출 2억5,614.7만달러(전년동기대비 +31.7%, 보도자료 기준 +32%)로 컨센서스를 상회했다. 회사는 동시에 2026년 연간 매출 가이던스를 11.0~12.0억달러로 상향했으며, Zacks는 이를 실적·매출의 컨센서스 상회와 장기 모멘텀 상위 종목으로 각각 보도했다.",
         "whyRose": [
           {
-            "id": "w1",
-            "statement": "2026년 2분기 매출이 2.561억 달러로 전년동기(1.944억 달러) 대비 +31.7% 증가했고, GAAP EPS도 0.36달러로 전년 0.29달러를 상회했다. 영업이익률도 16.1%로 개선됐다(직전 분기 -30.1%).",
+            "id": "w2",
+            "statement": "회사는 2026년 연간 매출 가이던스를 기존 대비 11.0~12.0억달러로 상향 조정했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Corcept Therapeutics Announces Second Quarter 2026 Financial Results and Provides Corporate Update (Exhibit 99.1)",
-                "publisher": "Corcept Therapeutics / SEC 8-K",
+                "title": "Corcept Therapeutics 2026년 2분기 실적 보도자료(8-K Exhibit 99.1)",
+                "publisher": "Corcept Therapeutics / SEC EDGAR",
                 "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort072926ex991pressrelease.htm",
                 "date": "2026-07-29",
-                "quote": "Corcept's second quarter 2026 revenue was $256.1 million, compared to $194.4 million in the second quarter of 2025.",
+                "quote": "Increase in 2026 revenue guidance to $1.1 – $1.2 billion",
                 "verified": "ok",
                 "httpStatus": 200
-              },
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "Zacks는 2분기 실적 발표 직후 매출과 EPS가 컨센서스를 상회했다고 보도했다.",
+            "evidence_level": "sourced",
+            "sources": [
               {
                 "title": "Corcept Therapeutics (CORT) Q2 Earnings and Revenues Surpass Estimates",
                 "publisher": "Zacks (Nasdaq.com)",
@@ -7167,67 +7170,34 @@ window.TEAM2_DATA = {
             ]
           },
           {
-            "id": "w2",
-            "statement": "2026년 연간 매출 가이던스를 11억~12억 달러로 상향 조정했다.",
+            "id": "w4",
+            "statement": "Zacks는 같은 시기 CORT를 장기 모멘텀 상위 종목으로 분류했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Corcept Therapeutics Announces Second Quarter 2026 Financial Results and Provides Corporate Update (Exhibit 99.1)",
-                "publisher": "Corcept Therapeutics / SEC 8-K",
-                "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort072926ex991pressrelease.htm",
-                "date": "2026-07-29",
-                "quote": "Increase in 2026 revenue guidance to $1.1 – $1.2 billion",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w3",
-            "statement": "relacorilant의 쿠싱증후군 적응증 재제출 NDA에 대한 FDA 심사 결정일이 2026년 12월 17일로 확정되며 추가 승인 모멘텀 기대가 반영됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Corcept Therapeutics Announces Second Quarter 2026 Financial Results and Provides Corporate Update (Exhibit 99.1)",
-                "publisher": "Corcept Therapeutics / SEC 8-K",
-                "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort072926ex991pressrelease.htm",
-                "date": "2026-07-29",
-                "quote": "We resubmitted our New Drug Application (NDA) for relacorilant in Cushing's syndrome in June. Relacorilant has the potential to help many patients and it's important it is available as quickly as possible. We expect a decision on our NDA by December 17, 2026.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "counterpoint": [
-          {
-            "id": "c2",
-            "statement": "2분기 실적 서프라이즈와 가이던스 상향에도 불구하고 직전 실적 발표 이후 주가가 -1.2% 하락한 시점이 있었던 것으로 보도돼, 랠리가 일방적으로만 진행되지는 않았음을 시사한다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Why Is Corcept (CORT) Down 1.2% Since Last Earnings Report?",
+                "title": "Why Corcept Therapeutics (CORT) is a Top Momentum Stock for the Long-Term",
                 "publisher": "Zacks (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/why-corcept-cort-down-12-last-earnings-report",
-                "date": "2026-08-28",
-                "quote": "Why Is Corcept (CORT) Down 1.2% Since Last Earnings Report?",
+                "url": "https://www.nasdaq.com/articles/why-corcept-therapeutics-cort-top-momentum-stock-long-term",
+                "date": "2026-08-05",
+                "quote": "Why Corcept Therapeutics (CORT) is a Top Momentum Stock for the Long-Term",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           }
         ],
+        "counterpoint": [],
         "estimateRevisions": {
           "direction": "raised",
           "claims": [
             {
               "id": "e1",
-              "statement": "셀사이드 컨센서스 추정치 자체의 상향 근거는 원문으로 확인되지 않았으나, 회사가 2026년 연간 매출 가이던스를 11억~12억 달러로 상향 조정한 것은 확인된다(직전 가이던스 대비 상향이라는 점만 원문에서 명시되며, 구체적 이전 구간 수치는 1차 자료로 재확인하지 못함).",
+              "statement": "회사가 2026년 연간 매출 가이던스를 11.0~12.0억달러로 상향 조정한 점이 컨센서스 추정치 상향의 근거가 된다. 다만 이는 회사 자체 가이던스이며 국내 증권사 리포트(krReports 0건)나 외부 애널리스트 컨센서스 수정치에 대한 직접 확인은 이번 자료 범위에서 이루어지지 않았다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "Corcept Therapeutics Announces Second Quarter 2026 Financial Results and Provides Corporate Update (Exhibit 99.1)",
-                  "publisher": "Corcept Therapeutics / SEC 8-K",
+                  "title": "Corcept Therapeutics 2026년 2분기 실적 보도자료(8-K Exhibit 99.1)",
+                  "publisher": "Corcept Therapeutics / SEC EDGAR",
                   "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort072926ex991pressrelease.htm",
                   "date": "2026-07-29",
                   "quote": "Increase in 2026 revenue guidance to $1.1 – $1.2 billion",
@@ -7239,38 +7209,23 @@ window.TEAM2_DATA = {
           ]
         },
         "themeTags": [
-          "쿠싱증후군 치료제",
-          "코르티솔 수용체 조절 기전",
-          "부인과 종양학(난소암)"
+          "Cushing's Syndrome 치료제",
+          "특수의약품(스페셜티 파마)",
+          "코르티솔 조절제 플랫폼"
         ],
-        "upcomingCatalyst": {
-          "date": "2026-12-17",
-          "what": "relacorilant(쿠싱증후군 적응증) 재제출 NDA에 대한 FDA PDUFA 심사 결정",
-          "sources": [
-            {
-              "title": "Corcept Therapeutics Announces Second Quarter 2026 Financial Results and Provides Corporate Update (Exhibit 99.1)",
-              "publisher": "Corcept Therapeutics / SEC 8-K",
-              "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort072926ex991pressrelease.htm",
-              "date": "2026-07-29",
-              "quote": "We resubmitted our New Drug Application (NDA) for relacorilant in Cushing's syndrome in June. Relacorilant has the potential to help many patients and it's important it is available as quickly as possible. We expect a decision on our NDA by December 17, 2026.",
-              "verified": "ok",
-              "httpStatus": 200
-            }
-          ]
-        },
         "confidence": "medium",
-        "ticker": "CORT",
         "factcheck": {
           "verdict": "partial",
           "removed": [
+            "w1",
             "c1"
           ],
-          "reasons": [
-            "c1의 출처 데이터가 '2025-03-31'(2025년 Q1)인데 청구문은 '2026년 1분기'를 주장하여 시간 불일치"
-          ]
+          "reasons": [],
+          "leadFixed": true
         },
-        "researchedOn": "2026-09-14",
-        "carried": true
+        "leadOriginal": "2026년 2분기 매출 2억5,614.7만달러(전년동기대비 +31.7%, 보도자료 기준 +32%)로 컨센서스를 상회했고, 영업이익률은 직전 분기 -30.1%에서 16.1%로 흑자전환했다. 회사는 동시에 2026년 연간 매출 가이던스를 11.0~12.0억달러로 상향했으며, Zacks는 이를 실적·매출의 컨센서스 상회와 장기 모멘텀 상위 종목으로 각각 보도했다.",
+        "researchedOn": "2026-09-15",
+        "carried": false
       },
       "nameKo": "코셉트 테라퓨틱스",
       "nameEn": "CORCEPT THERAPEUTICS INC",
@@ -9272,30 +9227,29 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "done",
-        "ticker": "PARR",
-        "company": "Par Pacific Holdings는 하와이·태평양 북서부·로키산맥 지역에 정유시설과 물류·소매 자산을 보유한 독립계 정유사로, 가솔린·디젤·항공유 등 정제유의 도소매 판매가 매출의 핵심이며 항공사·유통업체·소매 소비자를 주요 고객으로 한다. 2026년 2분기(6월 30일 종료) 매출 29.69억달러(YoY +56.8%), 영업이익률 21.4%를 기록하며 정제마진 확대 국면에 진입했고, 동시에 차입조건 개선을 통한 재무구조 안정화를 병행하고 있다.",
-        "lead": "차입조건 개선 등 재무구조 강화가 다음 성장 국면의 발판이 될 수 있다는 분석이 제기되며 리레이팅 기대가 형성됐다.",
+        "company": "Par Pacific Holdings는 하와이·몬태나·와이오밍·워싱턴 4개 정제소를 보유한 독립계 정유·마케팅 업체로, 정제(Refining)·물류(Logistics)·소매(Retail) 세그먼트로 매출을 구성하며 하와이 등 아일랜드 마켓과 로키마운틴 권역 소비자·상업 고객을 핵심 고객으로 한다. 2026년 2분기 기준 시스템 전체 정제마진 캡처율 125%, 하와이 세그먼트 캡처율 124%로 정제마진 호황 국면에 진입해 있으며, 하와이 SAF(지속가능항공유) 설비 가동이 최근 이익 구조 개선에 기여하고 있다.",
+        "lead": "PARR는 2026년 2분기(6월30일 마감) 매출은 YoY +56.8% 증가한 29.69억 달러, 순이익은 YoY +677.2% 증가한 4.62억 달러(영업이익률 21.4%)로 컨센서스를 상회했다.",
         "whyRose": [
           {
-            "id": "w2",
-            "statement": "차입조건 개선 등 재무구조 강화가 다음 성장 국면의 동력이 될 수 있다는 분석이 나왔으며, 이는 2026년 5월 14일 8-K(Item 2.03, 금융채무 관련 중요 계약 체결) 공시와 시기적으로 맞물린다.",
+            "id": "wr1",
+            "statement": "2026년 2분기(6월30일 마감) 매출이 YoY +56.8% 증가한 29.69억 달러, 영업이익은 YoY +555.8% 증가한 6.35억 달러(영업이익률 21.4%), 순이익은 YoY +677.2% 증가한 4.62억 달러를 기록하며 컨센서스를 상회하는 실적 서프라이즈를 냈다. 조정 EPS는 10.10달러로 Zacks 컨센서스 8.20달러를 23.2% 상회했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Can Par Pacific's Stronger Balance Sheet Fuel Its Next Growth Phase?",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/can-par-pacifics-stronger-balance-sheet-fuel-its-next-growth-phase",
-                "date": "2026-09-02",
-                "quote": "Can Par Pacific's Stronger Balance Sheet Fuel Its Next Growth Phase?",
+                "title": "Par Pacific Holdings Form 8-K (2026년 2분기 실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/821483/000162828026052766/parr-20260804.htm",
+                "date": "2026-08-05",
+                "quote": "revenue 2,968,869,000 USD (YoY +56.8%), operating profit 634,553,000 USD (YoY +555.8%), net income 462,131,000 USD (YoY +677.2%), margin 21.4%",
                 "verified": "ok",
                 "httpStatus": 200
               },
               {
-                "title": "Par Pacific Holdings 8-K (중요 계약 체결)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/821483/000119312526224142/d176382d8k.htm",
-                "date": "2026-05-14",
-                "quote": "Item 2.03 Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant",
+                "title": "PARR Q2 Earnings Beat Estimates on Refining Margin Strength",
+                "publisher": "Zacks (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/energy/articles/parr-q2-earnings-beat-estimates-143500280.html",
+                "date": "2026-08",
+                "quote": "second-quarter 2026 adjusted earnings of $10.10 per share, surging 555.8% from $1.54 a year ago, beating the Zacks Consensus Estimate of $8.20 by 23.2%",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -9304,29 +9258,32 @@ window.TEAM2_DATA = {
         ],
         "counterpoint": [],
         "estimateRevisions": {
-          "direction": "unknown",
+          "direction": "raised",
           "claims": []
         },
         "themeTags": [
-          "정유·정제마진",
-          "재무구조 개선(디레버리징)"
+          "정제마진/크랙 스프레드",
+          "다운스트림 정유·마케팅",
+          "지속가능항공유(SAF)"
         ],
         "confidence": "medium",
+        "ticker": "PARR",
         "factcheck": {
           "verdict": "partial",
           "removed": [
-            "w1",
-            "c1"
+            "wr2",
+            "wr3",
+            "wr4",
+            "cp1",
+            "cp2",
+            "er1"
           ],
-          "reasons": [
-            "w1: statement의 구체적인 실적 수치(매출 29.69억달러, YoY +56.8%, 영업이익 6.35억달러, 순이익 4.62억달러, 영업이익률 21.4%)가 제공된 quotes에 나타나지 않음",
-            "c1: 영업이익률 변화의 숫자는 quote에 있으나, '정제마진(크랙 스프레드) 변동'이 그 원인이라는 인과관계와 '리스크'라는 평가가 근거 없이 추론됨"
-          ],
+          "reasons": [],
           "leadFixed": true
         },
-        "leadOriginal": "PARR는 2026년 2분기 매출 29.69억달러(YoY +56.8%), 영업이익 6.35억달러(YoY +555.8%), 순이익 4.62억달러(YoY +677.2%), 영업이익률 21.4%(직전 분기 3.6%에서 큰 폭 개선)를 기록하며 실적이 급격히 개선됐고, 실적 발표 이후 주가가 14.7% 상승했다는 평가가 나왔다. 동시에 차입조건 개선 등 재무구조 강화가 다음 성장 국면의 발판이 될 수 있다는 분석이 제기되며 리레이팅 기대가 형성됐다.",
-        "researchedOn": "2026-09-11",
-        "carried": true
+        "leadOriginal": "PARR는 최근 1년간 주가가 148% 상승했고, RS 백분위 기준 3개월 상위 0.6%(3개월 절대수익률 61.15%)로 스크리닝 전 구간 중 가장 강한 모멘텀을 나타내고 있다. 2026년 2분기(6월30일 마감) 매출은 YoY +56.8% 증가한 29.69억 달러, 순이익은 YoY +677.2% 증가한 4.62억 달러(영업이익률 21.4%)로 컨센서스를 상회했으며, 정제마진 강세와 함께 2026회계연도 EPS 컨센서스도 최근 30일간 상향 조정됐다.",
+        "researchedOn": "2026-09-15",
+        "carried": false
       },
       "nameKo": "파 퍼시픽 홀딩스",
       "nameEn": "PAR PACIFIC HOLDINGS INC",
@@ -17347,178 +17304,62 @@ window.TEAM2_DATA = {
         "count": 50
       },
       "research": {
-        "status": "done",
-        "company": "Workday는 인사관리(HCM)와 재무관리(Financials) 클라우드 SaaS가 핵심이며 매출 대부분이 구독(subscription) 매출에서 발생하고, Fortune 500 등 대형 엔터프라이즈·공공기관을 핵심 고객으로 한다. 2026-07-31 마감 2분기 매출은 26.49억달러(YoY +12.8%), 영업이익 3.13억달러(YoY +26.2%)로 신규 ACV(연간계약가치)의 25% 이상을 AI 제품이 견인하며 순수 HCM/ERP를 넘어선 TAM 확장 국면에 진입했다. 영업이익률은 2025-10-31 10.6%에서 2026-07-31 11.8%로 확대되는 추세다.",
-        "lead": "WDAY는 최근 3개월 RS 상위 1.7%(절대상승률 +46.49%)의 강한 모멘텀을 보였으나 1개월은 -10.05%로 조정받아 52주 고점 대비 74.32%까지 밀린 상태다. 2026-08-27 발표된 2분기 실적에서 매출·영업이익이 컨센서스를 상회했고 AI 신규 ACV 비중이 25%를 넘어서며 구독매출·영업이익률 가이던스가 동시에 상향됐다. 다만 밸류에이션 부담론이 함께 제기되며 상승분의 일부를 되돌리는 조정이 이어지고 있다.",
+        "status": "no_source",
+        "ticker": "WDAY",
+        "company": "워크데이는 HCM(인적자본관리)과 재무관리 클라우드 SaaS를 핵심으로 하는 엔터프라이즈 소프트웨어 업체로, 매출 대부분이 구독 계약에서 발생하며 대기업·정부기관이 핵심 고객이다. FY2027 2분기(2026-07-31 마감) 매출 26.49억 달러(YoY +12.8%), 구독매출 24.71억 달러(YoY +13.9%)를 기록했고, AI 신제품(Agentic AI 등)이 신규 계약가치(ACV) 확대의 축으로 부상하며 AI 제품 믹스 전환 국면에 있다.",
+        "lead": "근거 없음 — 출처 검증을 통과한 상승 이유가 없다 (6개 주장 제거)",
         "whyRose": [
           {
-            "id": "earnings_beat",
-            "statement": "2026-07-31 마감 2분기 매출 2,649백만달러(YoY +12.8%), 영업이익 313백만달러(YoY +26.2%), 순이익 632백만달러(YoY +177.2%)로 견조한 서프라이즈를 기록했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "WORKDAY INC 10-Q Filings (SEC EDGAR)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327811&type=10-Q",
-                "date": "2026-07-31",
-                "quote": "revenue 2,649,000,000 USD (YoY +12.8%), profit 313,000,000 USD (YoY +26.2%), netIncome 632,000,000 USD (YoY +177.2%)",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "ai_guidance_raise",
-            "statement": "AI 제품이 신규 ACV의 25% 이상을 견인한 가운데 회사는 FY2027 구독매출 가이던스를 99.4~99.5억달러(YoY +13%)로, 비GAAP 영업이익률 가이던스를 31.0%로 상향했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Workday Announces Fiscal 2027 Second Quarter Financial Results",
-                "publisher": "Workday Newsroom",
-                "url": "https://newsroom.workday.com/2026-08-27-Workday-Announces-Fiscal-2027-Second-Quarter-Financial-Results",
-                "date": "2026-08-27",
-                "quote": "AI driving more than 25% of our new ACV",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "WDAY Q2 Earnings Beat Estimates on Subscription Growth, Margin Gains",
-                "publisher": "Yahoo Finance",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/wday-q2-earnings-beat-estimates-143300884.html",
-                "date": "2026-08-28",
-                "quote": "Workday raised its non-GAAP operating margin outlook to 31%.",
-                "verified": "unverified",
-                "httpStatus": 500
-              }
-            ]
-          },
-          {
-            "id": "margin_expansion",
-            "statement": "영업이익률이 2025-10-31 분기 10.6%에서 2026-07-31 11.8%로 확대 추세이며, 회사는 비GAAP 영업이익률 가이던스도 31.0%로 상향했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "WORKDAY INC 10-Q Filings (SEC EDGAR)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327811&type=10-Q",
-                "date": "2026-07-31",
-                "quote": "margin 11.8 (2026-07-31), margin 10.6 (2025-10-31)",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Workday Announces Fiscal 2027 Second Quarter Financial Results",
-                "publisher": "Workday Newsroom",
-                "url": "https://newsroom.workday.com/2026-08-27-Workday-Announces-Fiscal-2027-Second-Quarter-Financial-Results",
-                "date": "2026-08-27",
-                "quote": "Non-GAAP operating margin of 31.0%",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "ai_agent_adoption",
-            "statement": "유기(organic) AI 에이전트를 사용하는 고객이 5,500개사를 넘어서며 전분기 대비 35% 이상 증가했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Workday Announces Fiscal 2027 Second Quarter Financial Results",
-                "publisher": "Workday Newsroom",
-                "url": "https://newsroom.workday.com/2026-08-27-Workday-Announces-Fiscal-2027-Second-Quarter-Financial-Results",
-                "date": "2026-08-27",
-                "quote": "More than 5,500 customers now use one or more of Workday's organic agents, up more than 35% from last quarter",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
+            "id": "none",
+            "statement": "검증을 통과한 상승 이유 근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
           }
         ],
-        "counterpoint": [
-          {
-            "id": "valuation_premium",
-            "statement": "PER 기준 밸류에이션이 시장 추정 공정가치를 상회한다는 지적이 있다. 2026-08-07 기준 주가 179.64달러가 공정가치 추정치 165.60달러를 상회한다는 분석(‘약 8.5% 고평가’ 내러티브)이 제기됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Workday (WDAY) Faces Valuation Questions, Is The Stock Fully Priced?",
-                "publisher": "Simply Wall St News",
-                "url": "https://simplywall.st/stocks/us/software/nasdaq-wday/workday/news/workday-wday-faces-valuation-questions-is-the-stock-fully-pr/amp",
-                "date": "2026-08-07",
-                "quote": "the current share price of $179.64 sits above a fair value estimate of $165.60",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "insider_selling",
-            "statement": "실적 발표 이후 CFO의 지분 매도 공시가 있었다(2026-09-10).",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Workday CFO Sells Over 2,800 Shares Worth More Than Half a Million Dollars",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/workday-cfo-sells-over-2800-shares-worth-more-half-million-dollars",
-                "date": "2026-09-10",
-                "quote": "Workday CFO Sells Over 2,800 Shares Worth More Than Half a Million Dollars",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
+        "counterpoint": [],
         "estimateRevisions": {
           "direction": "raised",
           "claims": [
             {
-              "id": "opm_guidance_raise",
-              "statement": "회사는 FY2027 비GAAP 영업이익률 가이던스를 31.0%로 상향했다.",
+              "id": "guidance_raise_fy27",
+              "statement": "회사가 FY2027 자체 가이던스에서 구독매출 전망을 99.40~99.50억 달러(YoY +13%)로, 비GAAP 영업이익률 전망을 31.0%로 상향 조정했다. 다만 이는 회사 자체 가이던스 상향이며, 국내 증권사 리포트(krReports)는 확보되지 않아 셀사이드 컨센서스 EPS/매출 추정치 변화 자체는 확인되지 않았다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "WDAY Q2 Earnings Beat Estimates on Subscription Growth, Margin Gains",
-                  "publisher": "Yahoo Finance",
-                  "url": "https://finance.yahoo.com/markets/stocks/articles/wday-q2-earnings-beat-estimates-143300884.html",
-                  "date": "2026-08-28",
-                  "quote": "Workday raised its non-GAAP operating margin outlook to 31%.",
-                  "verified": "unverified",
-                  "httpStatus": 500
-                }
-              ]
-            },
-            {
-              "id": "subscription_guidance_raise",
-              "statement": "FY2027 구독매출 가이던스가 99.4~99.5억달러(YoY +13%)로 상향됐다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "WDAY Q2 Earnings Beat Estimates on Subscription Growth, Margin Gains",
-                  "publisher": "Yahoo Finance",
-                  "url": "https://finance.yahoo.com/markets/stocks/articles/wday-q2-earnings-beat-estimates-143300884.html",
-                  "date": "2026-08-28",
-                  "quote": "subscription revenues are forecast at $9.94-$9.95 billion, up 13%",
-                  "verified": "unverified",
-                  "httpStatus": 500
+                  "title": "Workday Announces Fiscal 2027 Second Quarter Financial Results",
+                  "publisher": "Workday Newsroom",
+                  "url": "https://newsroom.workday.com/2026-08-27-Workday-Announces-Fiscal-2027-Second-Quarter-Financial-Results",
+                  "date": "2026-08-27",
+                  "quote": "increasing our fiscal 2027 non-GAAP operating margin guidance to 31.0%",
+                  "verified": "ok",
+                  "httpStatus": 200
                 }
               ]
             }
           ]
         },
         "themeTags": [
-          "AI 에이전트",
-          "HR·재무관리 SaaS",
+          "Agentic AI",
+          "HCM SaaS",
           "엔터프라이즈 소프트웨어"
         ],
         "confidence": "medium",
-        "ticker": "WDAY",
         "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reasons": []
+          "verdict": "reject",
+          "removed": [
+            "q2_beat_margin",
+            "guidance_raise",
+            "margin_trend",
+            "ai_momentum_3m",
+            "insider_selling",
+            "valuation_mixed"
+          ],
+          "reasons": [],
+          "leadFixed": true
         },
-        "researchedOn": "2026-09-14",
-        "carried": true
+        "leadOriginal": "WDAY는 최근 3개월 +46.49%(RS 3개월 상위 1.7%), 6개월 +36.58%(RS 6개월 상위 19.2%) 상승하며 AI 모멘텀 부각 구간에 진입했다. FY2027 2분기(2026-07-31 마감) 매출이 전년동기대비 12.8% 증가한 26.49억 달러, 비GAAP 영업이익률이 31.1%로 나타나며 실적 서프라이즈를 기록했고, 회사는 FY2027 구독매출 가이던스를 99.40~99.50억 달러(YoY +13%)로, 비GAAP 영업마진 가이던스를 31.0%로 각각 상향했다.",
+        "researchedOn": "2026-09-15",
+        "carried": false
       },
       "nameKo": "워크데이",
       "nameEn": "WORKDAY INC",
@@ -18582,39 +18423,56 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "done",
-        "company": "Nutex Health는 텍사스 휴스턴 소재로, 응급실에 소수의 입원병상·약국·영상장비를 결합한 자립형(freestanding) 마이크로병원 27개(12개 주)를 운영하는 Hospital Division과 가치기반진료를 지원하는 Population Health Management Division으로 구성된다. 수익모델은 순수 비네트워크(out-of-network) 청구 구조이며, No Surprises Act상의 연방 IDR(독립분쟁해결) 절차를 통해 민간보험사와의 중재로 수가를 확보하기 때문에 분기 실적이 중재 승률·비용률에 따라 크게 출렁인다. 최근 HaloMD 계약 재조정과 CMS 행정수수료 인하로 IDR 관련 비용이 구조적으로 줄며 수익성이 급격히 개선되는 국면이다.",
-        "lead": "NUTX는 2026년 2분기(6월 결산) 실적에서 IDR 관련 계약서비스 비용 급감으로 이익이 개선되었다. 회사는 컨퍼런스콜에서 향후 중재 비용률이 구조적으로 낮아질 것이라 밝혔고, 이 실적 개선 이후 이익추정치가 상향되며 Zacks 등에서 매수 후보로 조명됐다.",
+        "ticker": "NUTX",
+        "company": "Nutex Health는 미국에서 프리스탠딩 응급실(FED) 및 마이크로병원 네트워크를 운영하며, Medical Care Facilities 산업에 속한다. 매출은 보험사와의 비계약(out-of-network) 청구와 No Surprises Act상 IDR(독립분쟁해결) 정산 비중이 커 분기별 변동성이 크고, 2026년 2분기 기준 매출은 2억1,075만달러(YoY -13.6%)로 오히려 역성장했음에도 영업이익률이 57.8%까지 확대되는 등 매출보다 비용·정산 구조가 실적을 좌우하는 국면이다. 최근에는 실적 모멘텀과 함께 2026년 8월 말 공시된 사이버보안 사고가 병행 진행 중이다.",
+        "lead": "NUTX는 최근 1개월 7.19%·3개월 39.02%·6개월 125.01% 상승했고 RS 백분위 1개월 8.4%·3개월 2.6%·6개월 1.9%로 상위권을 유지하며 52주 고점 대비 98.16%, 200일선 이격 +40.43%를 기록 중이다. Zacks 등에서 모멘텀·트렌드 투자 관점의 기사가 8월 말부터 9월 초까지 연이어 게재되며 주가 상승을 뒷받침했다.",
         "whyRose": [
           {
-            "id": "structural-arbitration-cost-guidance",
-            "statement": "회사는 컨퍼런스콜에서 과거 24~26%대였던 중재 관련 비용률이 향후 10%대 후반~20%대 초반으로 구조적으로 낮아질 것으로 예상한다고 밝혀, 이번 마진 개선이 일회성이 아닐 가능성을 시사했다.",
+            "id": "analyst_upside",
+            "statement": "같은 날 Zacks는 월가 애널리스트 목표주가 컨센서스가 현재가 대비 47.12% 상승 여력을 시사한다고 보도해 밸류에이션 리레이팅 기대를 뒷받침했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Nutex Health (NUTX) Q2 2026 Earnings Call Transcript",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/nutex-health-nutx-q2-2026-earnings-call-transcript",
-                "date": "2026-08-13",
-                "quote": "Nutex Health (NUTX) Q2 2026 Earnings Call Transcript",
+                "title": "Wall Street Analysts See a 47.12% Upside in Nutex Health (NUTX): Can the Stock Really Move This High?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-4712-upside-nutex-health-nutx-can-stock-really-move-high",
+                "date": "2026-08-25",
+                "quote": "Wall Street Analysts See a 47.12% Upside in Nutex Health (NUTX): Can the Stock Really Move This High?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "momentum_coverage",
+            "statement": "8월 말부터 9월 초까지 '모멘텀 종목', '트렌드 투자' 관점의 Zacks 기사가 연이어 게재되며 스크리닝·모멘텀 자금 유입을 뒷받침하는 서사가 반복 형성됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Nutex Health Inc. (NUTX) is a Great Momentum Stock: Should You Buy?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/nutex-health-inc-nutx-great-momentum-stock-should-you-buy",
+                "date": "2026-08-31",
+                "quote": "Nutex Health Inc. (NUTX) is a Great Momentum Stock: Should You Buy?",
                 "verified": "ok",
                 "httpStatus": 200
               },
               {
-                "title": "Earnings call transcript: Nutex Health tops Q2 2026 profit estimates",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-nutex-health-tops-q2-2026-profit-estimates-93CH-4847159",
-                "date": "2026-08-13",
-                "quote": "The historical arbitration cost rate was in the mid-24% to 26% range... expects that specific piece to be down into the high teens to low 20s.",
-                "verified": "unverified",
-                "httpStatus": 403
+                "title": "What Makes Nutex Health (NUTX) a Good Fit for 'Trend Investing'",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/what-makes-nutex-health-nutx-good-fit-trend-investing",
+                "date": "2026-09-11",
+                "quote": "What Makes Nutex Health (NUTX) a Good Fit for 'Trend Investing'",
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           }
         ],
         "counterpoint": [
           {
-            "id": "data-breach-litigation",
-            "statement": "8월 24일 비정상 네트워크 활동을 공시한 데 이어 8월 31일 Form 8-K Item 1.05(중대 사이버보안사고)를 통해 제3자에 의한 데이터 탈취를 공식 확인했다. 이후 집단소송이 제기됐고 로펌들의 데이터프라이버시 조사가 진행 중이며, 환자·직원 정보·provider 자격정보·재무정보 유출 가능성이 거론된다. 법적 비용·평판 리스크·잠재적 배상 부담이 마진 개선 스토리에 대한 반대 재료다.",
+            "id": "cyber_incident",
+            "statement": "2026-08-31 8-K(Item 1.05, 중대 사이버보안 사고)로 사고가 공시된 이후 2026-09-02 RTTNews가 데이터 유출에 따른 법적 검토 가능성을 보도했고, 2026-09-11 후속 8-K에서도 관련 업데이트 보도자료 발표가 재확인되는 등 소송·평판 리스크가 아직 종결되지 않았다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -18627,27 +18485,27 @@ window.TEAM2_DATA = {
                 "httpStatus": 200
               },
               {
-                "title": "Nutex Health Data Breach: Edelson Lechtzin LLP Investigates Theft of Patient and Employee Data",
-                "publisher": "PR Newswire",
-                "url": "https://www.prnewswire.com/news-releases/nutex-health-data-breach-edelson-lechtzin-llp-investigates-theft-of-patient-and-employee-data-302867007.html",
-                "date": "2026-09-01",
-                "quote": "Edelson Lechtzin LLP...is investigating data privacy claims arising from a cyberattack on Nutex Health Inc. (NASDAQ: NUTX).",
+                "title": "Nutex Health Inc. Form 8-K (2026-09-10 press release update)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1479681/000162828026061432/nutx-20260910.htm",
+                "date": "2026-09-11",
+                "quote": "On September 10, 2026, we issued a press release containing an update on a previously announced cyber security event.",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "reimbursement-model-regulatory-risk",
-            "statement": "Nutex의 수익구조는 순수 비네트워크 청구와 연방 IDR 중재를 통해 민간보험 대비 높은 수가를 받아내는 모델에 전적으로 의존하는데, 이 관행에 대한 주정부 차원의 규제 강화 조짐이 있다. 실제로 한 아이다호 보험사 사례에서 요로감염 치료의 통상 수가가 $521인데 Nutex는 $3,187를 청구한 것으로 지적됐고, 이런 청구 관행을 제한하려는 주 법안이 통과된 바 있어 규제가 확산될 경우 핵심 수익모델이 훼손될 수 있다.",
+            "id": "revenue_not_growing",
+            "statement": "최근 마진 확대는 매출 성장이 아니라 IDR 정산·비용 구조 변화가 주도한 결과다. 매출 YoY는 2026년 2분기 -13.6%, 1분기 +2.2%(사실상 정체), 2025년 4분기 -41.1%로 분기별 진폭이 매우 커, 마진 개선의 지속가능성을 매출 추세만으로 확인하기 어렵다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Nutex Health: Adeptus 2.0 or a legit micro hospital network strategy?",
-                "publisher": "Hospitalogy",
-                "url": "https://hospitalogy.com/articles/2025-07-03/nutex-health-adeptus-2-microhospital-strategy/",
-                "date": "2025-07-03",
-                "quote": "One Idaho insurer found that where the going rate for treating a urinary tract infection was $521, Nutex was seeking $3,187.",
+                "title": "Nutex Health Inc. 10-Q filings (SEC EDGAR, Node 실적표 집계)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001479681&type=10-Q",
+                "date": "2026-09-07",
+                "quote": "revenue 210752000 / yoy revenue -13.6 (2026-06-30); revenue 216485000 / yoy revenue 2.2 (2026-03-31); revenue 151679000 / yoy revenue -41.1 (2025-12-31)",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -18656,36 +18514,43 @@ window.TEAM2_DATA = {
         ],
         "estimateRevisions": {
           "direction": "raised",
-          "claims": []
+          "claims": [
+            {
+              "id": "eps_rev2",
+              "statement": "Zacks는 월가 애널리스트 목표주가 컨센서스가 현재가 대비 47.12% 상승 여력을 내포한다고 보도해, 이익 추정치 상향과 함께 목표가 측면에서도 상방 조정 정서가 확인된다. 다만 국내 증권사 리포트는 확인되지 않는다(krReports.total=0).",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Wall Street Analysts See a 47.12% Upside in Nutex Health (NUTX): Can the Stock Really Move This High?",
+                  "publisher": "Zacks",
+                  "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-4712-upside-nutex-health-nutx-can-stock-really-move-high",
+                  "date": "2026-08-25",
+                  "quote": "Wall Street Analysts See a 47.12% Upside in Nutex Health (NUTX): Can the Stock Really Move This High?",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
         },
         "themeTags": [
-          "마이크로병원/자립형 응급실",
-          "No Surprises Act·IDR 중재",
-          "사이버보안 사고"
+          "응급의료 IDR 정산",
+          "헬스케어 모멘텀주"
         ],
         "confidence": "medium",
-        "ticker": "NUTX",
         "factcheck": {
           "verdict": "partial",
           "removed": [
-            "q2-margin-surge",
-            "estimate-revision-attention",
-            "momentum-technical-strength",
-            "cy-eps-revision-up",
-            "ny-eps-revision-up"
+            "q2_margin",
+            "eps_est_up",
+            "eps_rev1"
           ],
-          "reasons": [
-            "q2-margin-surge: 매출 $210.75M, 영업이익 $121.72M, 순이익 $65.84M, 마진 57.8%, 성장률 -13.6%/+261.4%/+472.1% 등 핵심 재무 수치가 인용문에 없음",
-            "estimate-revision-attention: +165.21% EPS 성장률이 인용문에 없음",
-            "momentum-technical-strength: RS 백분위(1.9%, 8.4%, 2.6%, 79.5%), 절대수익률(7.19%, 39.02%, 125.01%), ADR 4.99% 등의 기술 지표가 인용문에 없음",
-            "cy-eps-revision-up: $21.52→$27.794 구체적 EPS 수치와 +165.21% 성장률이 인용문에 없음",
-            "ny-eps-revision-up: $23.03→$27.872 구체적 EPS 수치와 +10.57% 성장률이 인용문에 없음"
-          ],
+          "reasons": [],
           "leadFixed": true
         },
-        "leadOriginal": "NUTX는 2026년 2분기(6월 결산) 실적에서 매출이 YoY -13.6% 감소했음에도 IDR 관련 계약서비스 비용 급감으로 영업이익률이 57.8%까지 상승했고 순이익은 YoY +472.1% 급증했다. 회사는 컨퍼런스콜에서 향후 중재 비용률이 구조적으로 낮아질 것이라 밝혔고, 이 어닝 서프라이즈 이후 이익추정치가 상향되며 Zacks 등의 모멘텀·추세추종 스크리닝에 반복 노출됐다. 이 흐름 속에 주가는 최근 6개월 125.01% 상승했고 RS 6개월 백분위 1.9%로 최상위권을 유지 중이다.",
-        "researchedOn": "2026-09-14",
-        "carried": true
+        "leadOriginal": "NUTX는 최근 1개월 7.19%·3개월 39.02%·6개월 125.01% 상승했고 RS 백분위 1개월 8.4%·3개월 2.6%·6개월 1.9%로 상위권을 유지하며 52주 고점 대비 98.16%, 200일선 이격 +40.43%를 기록 중이다. 2026년 2분기(6월 결산) 실적에서 매출은 YoY -13.6% 감소했음에도 IDR 비용 절감에 힘입어 영업이익률이 57.8%로 확대되고 영업이익·순이익이 각각 YoY +261.4%·+472.1% 증가했다. Zacks 등에서 이익 추정치 상향과 모멘텀·트렌드 투자 관점의 기사가 8월 말부터 9월 초까지 연이어 게재되며 주가 상승을 뒷받침했다.",
+        "researchedOn": "2026-09-15",
+        "carried": false
       },
       "nameKo": "뉴텍스 헬스",
       "nameEn": "NUTEX HEALTH INC",
@@ -22325,7 +22190,154 @@ window.TEAM2_DATA = {
         }
       ],
       "researchedOn": "2026-09-14"
-    }
+    },
+    "llm": {
+      "byPeriod": {
+        "m1": {
+          "name": "Technology (다극화된 신규진입, 단일 쏠림 약함)",
+          "plainKo": "1M 상위 2% 12종목 중 Technology 섹터가 4종목(33.3%)으로 최다이나 Healthcare·Basic Materials·Financial Services 가 각 2종목(16.7%)으로 근접해 있어 특정 테마 쏠림은 약하다. Semiconductors(SWKS, SMTC)·Capital Markets(CRCL, HUT)·Biotechnology(MRNA, TARS)가 동률로 병존해 단일 주도 서사보다는 다극화된 신규 진입 국면에 가깝다.",
+          "tickers": [
+            "MGRT",
+            "MSTR",
+            "SWKS",
+            "SMTC"
+          ],
+          "strength": "emerging"
+        },
+        "m3": {
+          "name": "Software-Application 중심 Technology (Agentic SaaS)",
+          "plainKo": "3M 상위 2% 11종목 중 Technology 가 4종목(36.4%)으로 최다이며, 그 중 3종목(TEAM, SPSC, WDAY)이 Software-Application 산업(27.3%, high 집중)에 겹쳐 엔터프라이즈 SaaS/Agentic AI 서사가 핵심 축이다. Healthcare 도 3종목(27.3%)으로 근접해 완전한 단일 테마 지배는 아니다.",
+          "tickers": [
+            "MGRT",
+            "TEAM",
+            "SPSC",
+            "WDAY"
+          ],
+          "strength": "strong"
+        },
+        "m6": {
+          "name": "반도체 주도 Technology 지속 강세",
+          "plainKo": "6M 상위 2% 23종목 중 Technology 가 15종목(65.2%, high 집중)으로 압도적이며, 그 안에서 Semiconductors 산업이 8종목(34.8%, high 집중)으로 최대 하위군을 형성해 장기간 지속된 반도체 중심 강세를 보여준다. Healthcare 는 6종목(26.1%)으로 2위지만 Technology 와 격차가 크다.",
+          "tickers": [
+            "MGRT",
+            "TEAM",
+            "MXL",
+            "BAND",
+            "DELL",
+            "SMTC",
+            "PENG",
+            "AEHR",
+            "MRVL",
+            "AMBQ",
+            "ALAB",
+            "INTC",
+            "SIMO",
+            "MU",
+            "SNDK"
+          ],
+          "strength": "strong"
+        }
+      },
+      "caution": "제공된 리서치는 38개 교차 종목 중 6종목(TEAM, WDAY, PARR, MNPR, CORT, NUTX)에만 있어, union 클러스터 최대 하위군인 Semiconductors(9종목, 23.7%, m6 기준 8종목 34.8%)는 개별 상승 근거 없이 공동 등장 빈도(co-occurrence)만으로 '주도'로 묶인다는 한계가 있다. WDAY 도 Software-Application 서브클러스터에 포함되지만 검증 통과한 상승 근거는 없다. CORT·NUTX 는 리서치상 8월 하순~9월 초 가이던스 상향·목표주가 상향 촉매가 확인됨에도 Node 교차 분류상 fading(6M 만) 트랙에 속해 최근 1M/3M 상위 2% 스크린에서는 빠져 있어, '주도 테마'와 '최근 모멘텀' 해석이 완전히 일치하지 않는다. Technology 와 Healthcare 를 묶는 단일 거시 공통 동인은 리서치에서 확인되지 않으므로 두 섹터를 하나의 서사로 묶는 것은 근거 과잉이며, 이는 아래 crossCuttingDriver 에서도 명시했다.",
+      "crossCuttingDriver": "제공된 리서치 기준으로는 Technology 와 Healthcare 를 관통하는 단일 거시 동인은 확인되지 않는다. Technology 내부에서는 AI 기능 채택이 'AI 가 SaaS 수요를 대체한다'는 우려를 반박하는 근거(TEAM 의 Rovo 지표)로 나타나지만, Semiconductors 하위군(MXL, MRVL, ALAB, INTC, SIMO, MU, SNDK, AMBQ 등)에 대한 개별 상승 근거는 리서치에 없어 근거 없음이다. Healthcare 는 CORT 의 가이던스 상향, MNPR 의 FDA NDA 롤링 제출, NUTX 의 애널리스트 목표주가 상향 컨센서스처럼 종목별 규제·실적 촉매가 개별적으로 작용했을 뿐 섹터 공통의 거시 동인으로 묶이지 않는다. 두 섹터를 묶는 공통점은 각 종목이 Node 의 상위 2% 스크리닝을 통과했다는 구조적 사실뿐이다.",
+      "leadingTheme": {
+        "name": "반도체 편중 Technology 섹터, 1M·3M 은 Agentic SaaS 서사 결합",
+        "plainKo": "Technology 섹터가 전체 38종목 유니버스 중 19종목(50%, high 집중)을 차지하며 1M·3M·6M 전 기간에서 최상위 섹터 지위를 유지해 가장 뚜렷한 주도 테마다. 6M 기준 비중이 65.2%까지 확대되고 그 안에서 Semiconductors 산업이 8종목(34.8%)으로 핵심 하위 구조를 이루는 반면, 1M·3M 구간에서는 TEAM·WDAY·SPSC 중심의 Agentic AI/SaaS 서사가 결합돼 있다.",
+        "why": "Technology 섹터는 Node 클러스터에서 count 19 / sharePct 50%로 전체 유니버스의 압도적 비중을 차지하며 concentration 은 high 로 표시됐다. 하위 Industry 로는 Semiconductors 가 count 9 / sharePct 23.7%로 가장 크고, Software-Application 이 count 4 / sharePct 10.5%로 뒤따른다. 검증된 리서치 근거는 이 중 TEAM(Software-Application)에만 있다: AI 에이전틱 기능 Rovo 의 지원 액션이 QoQ +50% 증가했고, Rovo 이용자는 비이용자 대비 Jira 작업 처리량이 20% 많고 Confluence 페이지 생성·편집이 25% 많다는 데이터가 'AI 가 SaaS 수요를 대체한다'는 우려를 반박하는 근거로 작용했다. WDAY 는 같은 Software-Application 클러스터에 속하나 검증 통과한 상승 근거는 없다. Semiconductors 산업 소속 종목(MXL, SWKS, SMTC, MRVL, AMBQ, ALAB, INTC, SIMO, MU 등)에 대해서는 제공된 리서치에 개별 상승 사유가 없어 근거 없음 — 이 부분은 Node 클러스터 수치(공동 등장 빈도)로만 뒷받침된다.",
+        "tickers": [
+          "MGRT",
+          "TEAM",
+          "MSTR",
+          "MXL",
+          "BAND",
+          "DELL",
+          "SWKS",
+          "SMTC",
+          "PENG",
+          "AEHR",
+          "MRVL",
+          "AMBQ",
+          "ALAB",
+          "SPSC",
+          "INTC",
+          "SIMO",
+          "MU",
+          "WDAY",
+          "SNDK"
+        ],
+        "strength": "strong"
+      },
+      "rotation": {
+        "persistent": [
+          "MGRT",
+          "MRNA"
+        ],
+        "newEntrants": [
+          "MSTR",
+          "AMR",
+          "SWKS",
+          "CRCL",
+          "HUT",
+          "AUGO",
+          "BE",
+          "TARS"
+        ],
+        "midTerm": [
+          "TEAM",
+          "MNPR",
+          "FET",
+          "TWST",
+          "PARR",
+          "SPSC",
+          "WDAY",
+          "ELF"
+        ],
+        "fading": [
+          "MXL",
+          "MRVL",
+          "ALAB",
+          "INTC",
+          "SIMO",
+          "MU",
+          "SNDK",
+          "AMBQ",
+          "CORT",
+          "NUTX"
+        ],
+        "narrative": "1M 신규 진입 8종목(MSTR, AMR, SWKS, CRCL, HUT, AUGO, BE, TARS)은 1M 클러스터 통계상 Technology 4종목(33.3%), Financial Services·Capital Markets 각 2종목(16.7%), Basic Materials 2종목(16.7%), Biotechnology 2종목(16.7%)에 걸쳐 분산돼 있어 단일 산업으로 수렴하지 않는 다극화된 신규 유입이다. 3M 중기 8종목(TEAM, MNPR, FET, TWST, PARR, SPSC, WDAY, ELF) 중 TEAM·SPSC·WDAY 는 Software-Application 3종목(27.3%, high 집중)에 몰려 있고 MNPR·TWST 는 Healthcare 3종목(27.3%) 중 Biotechnology 2종목(18.2%)에 속해, 1M 의 분산 국면과 달리 SaaS/Agentic AI 와 바이오텍 두 축으로 응축되는 모습이다. 6M 퇴조 18종목 중 MXL·MRVL·ALAB·INTC·SIMO·MU·SNDK·AMBQ 등은 6M Semiconductors 8종목(34.8%, high 집중) 블록에 속했던 이름들로, 대형 반도체 클러스터가 최근 1M·3M 상위 2% 스크린에서는 빠졌음을 시사한다. 같은 fading 트랙의 CORT·NUTX 는 검증 리서치상 8월 하순~9월 초 가이던스 상향·목표주가 상향 촉매가 확인됨에도 6M 트랙에서만 잡혀 최근 스크린에서는 이탈한 상태다. 지속 주도 2종목(MGRT, MRNA)만이 1M·3M·6M 모두에서 상위 2%를 유지해 진짜 '지속' 신호는 극히 제한적이다."
+      },
+      "subThemes": [
+        {
+          "name": "Agentic AI 엔터프라이즈 SaaS (Software-Application)",
+          "plainKo": "Software-Application 산업 내 TEAM·WDAY 는 AI 에이전트 기능이 SaaS 수요를 잠식한다는 우려를 반박하는 서사로 함께 묶이나, 정량 검증 근거는 TEAM 에만 있다.",
+          "why": "TEAM 은 Rovo 지원 액션이 QoQ +50% 증가했고 Rovo 이용자는 비이용자 대비 Jira 작업 처리량 20%↑, Confluence 페이지 생성·편집 25%↑ 라는 근거로 AI 채택이 오히려 사용량을 늘린다는 서사를 뒷받침했다. WDAY 는 검증 통과한 상승 근거 없음.",
+          "tickers": [
+            "TEAM",
+            "WDAY"
+          ]
+        },
+        {
+          "name": "FDA/가이던스 촉매 스페셜티 바이오텍",
+          "plainKo": "둘 다 Biotechnology 산업 소속으로, 규제 촉매(MNPR)와 실적·가이던스 상향(CORT)이 각각 개별적으로 주가 상승을 뒷받침했다.",
+          "why": "MNPR 은 ALXN1840 의 FDA rolling NDA 제출이 2026-07-22 개시돼 진행 중이고 Wilson병 적응증 희귀소아질환 지정을 획득했으며, Phase 3 FoCus·Phase 2 데이터에서 구리 감소 등 우호적 결과가 4~5월 발표됐다. CORT 는 2026년 연간 매출 가이던스를 11.0~12.0억달러로 상향했고 2분기 실적이 매출·EPS 모두 컨센서스를 상회했다.",
+          "tickers": [
+            "MNPR",
+            "CORT"
+          ]
+        },
+        {
+          "name": "헬스케어 애널리스트 리레이팅·모멘텀 서사",
+          "plainKo": "두 종목 모두 Zacks 등 셀사이드발 모멘텀·목표주가 상향 기사가 반복 게재되며 리레이팅 기대가 형성됐다.",
+          "why": "CORT 는 Zacks 가 2분기 실적 발표 직후 매출·EPS 컨센서스 상회를 보도하고 장기 모멘텀 상위 종목으로 분류했다. NUTX 는 Zacks 가 애널리스트 목표주가 컨센서스 기준 현재가 대비 47.12% 상승 여력을 보도했고, 8월 말~9월 초 '모멘텀 종목'·'트렌드 투자' 관점 기사가 연이어 게재됐다.",
+          "tickers": [
+            "CORT",
+            "NUTX"
+          ]
+        }
+      ],
+      "researchedOn": "2026-09-15"
+    },
+    "reusedFrom": null
   },
   "fs_coverage": {
     "have": 37,
@@ -22334,12 +22346,12 @@ window.TEAM2_DATA = {
   "research_coverage": {
     "done": 38,
     "total": 38,
-    "cap": null,
+    "cap": 20,
     "pending": 0,
     "failed": 0,
-    "carried": 38,
+    "carried": 32,
     "ineligible": 0,
-    "note": "그중 38종목은 최근 조사분을 이월했습니다(조사일 표기)."
+    "note": "그중 32종목은 최근 조사분을 이월했습니다(조사일 표기)."
   },
   "detail_coverage": {
     "done": 38,

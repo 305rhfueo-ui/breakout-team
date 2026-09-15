@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-15",
+  "report": {
+    "checked": 32,
+    "ok": 32,
+    "unverified": 7,
+    "dead": 0,
+    "stripped": 0,
+    "removed": [
+      {
+        "reason": "중복",
+        "url": "https://www.fool.com/investing/2026/09/05/why-atlassian-stock-skyrocketed-92-higher-in-august-and-why-there-s-likely-more-to-come/"
+      }
+    ]
+  }
+}
