@@ -2,6 +2,16 @@ window.CHARTCHECK_DATA = {
   "generated": "2026-09-15",
   "items": [
     {
+      "ticker": "CZFS",
+      "score": 20,
+      "source": "T4",
+      "reasons": [
+        "🎯 리테스트 반등 — 매수 트리거 · 횡보 6개월"
+      ],
+      "resistance": 76,
+      "price": 82.47000122070312
+    },
+    {
       "ticker": "MNPR",
       "score": 10,
       "source": "T3",
@@ -31,10 +41,10 @@ window.CHARTCHECK_DATA = {
       "source": "T3",
       "reasons": [
         "10봉 진폭이 직전 대비 0.71배로 수축",
-        "볼밴 폭 0.11 (60일 최저 0.11 근처) — 에너지 응축",
+        "볼밴 폭 0.1 (60일 최저 0.1 근처) — 에너지 응축",
         "저항 $151.18 대비 -0.69% — 돌파 임박권",
         "최근 10일 종가 변동 1.59% — 타이트",
-        "52주 고점 대비 93.03%"
+        "52주 고점 대비 94%"
       ],
       "flags": [
         "contract10",
@@ -68,6 +78,46 @@ window.CHARTCHECK_DATA = {
       "barGap": false
     },
     {
+      "ticker": "FET",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "볼밴 폭 0.13 (60일 최저 0.1 근처) — 에너지 응축",
+        "저항 $84.16 대비 -1.35% — 돌파 임박권",
+        "최근 10일 종가 변동 1.32% — 타이트",
+        "52주 고점 대비 92.3%"
+      ],
+      "flags": [
+        "bbSqueeze",
+        "nearResist",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": null,
+      "price": 83.02,
+      "barGap": false
+    },
+    {
+      "ticker": "ZBRA",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "볼밴 폭 0.09 (60일 최저 0.07 근처) — 에너지 응축",
+        "저항 $352.66 대비 -0.65% — 돌파 임박권",
+        "최근 10일 종가 변동 1.78% — 타이트",
+        "52주 고점 대비 91.09%"
+      ],
+      "flags": [
+        "bbSqueeze",
+        "nearResist",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": null,
+      "price": 350.37,
+      "barGap": false
+    },
+    {
       "ticker": "PARR",
       "score": 6,
       "source": "T3",
@@ -75,7 +125,7 @@ window.CHARTCHECK_DATA = {
         "볼밴 폭 0.17 (60일 최저 0.15 근처) — 에너지 응축",
         "저항 $87.03 대비 -2.73% — 돌파 임박권",
         "최근 10일 종가 변동 2.27% — 타이트",
-        "52주 고점 대비 97.27%"
+        "52주 고점 대비 93.88%"
       ],
       "flags": [
         "bbSqueeze",
@@ -93,7 +143,7 @@ window.CHARTCHECK_DATA = {
       "source": "T3",
       "reasons": [
         "10봉 진폭이 직전 대비 0.76배로 수축",
-        "볼밴 폭 0.37 (60일 최저 0.37 근처) — 에너지 응축",
+        "볼밴 폭 0.3 (60일 최저 0.3 근처) — 에너지 응축",
         "저항 $229.47 대비 -2.14% — 돌파 임박권"
       ],
       "flags": [
@@ -110,10 +160,10 @@ window.CHARTCHECK_DATA = {
       "score": 6,
       "source": "T3",
       "reasons": [
-        "볼밴 폭 0.09 (60일 최저 0.09 근처) — 에너지 응축",
+        "볼밴 폭 0.1 (60일 최저 0.09 근처) — 에너지 응축",
         "저항 $91.5 대비 -3.18% — 돌파 임박권",
         "최근 10일 종가 변동 2.14% — 타이트",
-        "52주 고점 대비 92.7%"
+        "52주 고점 대비 99.18%"
       ],
       "flags": [
         "bbSqueeze",
@@ -123,26 +173,6 @@ window.CHARTCHECK_DATA = {
       ],
       "resistance": null,
       "price": 88.59,
-      "barGap": false
-    },
-    {
-      "ticker": "NUTX",
-      "score": 6,
-      "source": "T3",
-      "reasons": [
-        "볼밴 폭 0.09 (60일 최저 0.08 근처) — 에너지 응축",
-        "저항 $204 대비 -1.84% — 돌파 임박권",
-        "최근 10일 종가 변동 2.26% — 타이트",
-        "52주 고점 대비 98.16%"
-      ],
-      "flags": [
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": null,
-      "price": 200.24,
       "barGap": false
     },
     {
@@ -162,52 +192,20 @@ window.CHARTCHECK_DATA = {
       "resistance": null,
       "price": 112.79,
       "barGap": false
-    },
-    {
-      "ticker": "TEAM",
-      "score": 5,
-      "source": "T3",
-      "reasons": [
-        "볼밴 폭 0.24 (60일 최저 0.22 근처) — 에너지 응축",
-        "저항 $184 대비 -2.34% — 돌파 임박권",
-        "52주 고점 대비 90.48%"
-      ],
-      "flags": [
-        "bbSqueeze",
-        "nearResist",
-        "high52"
-      ],
-      "resistance": null,
-      "price": 179.7,
-      "barGap": false
-    },
-    {
-      "ticker": "BXC",
-      "score": 5,
-      "source": "T3",
-      "reasons": [
-        "볼밴 폭 0.16 (60일 최저 0.15 근처) — 에너지 응축",
-        "저항 $81.02 대비 -1.56% — 돌파 임박권",
-        "최근 10일 종가 변동 2.88% — 타이트"
-      ],
-      "flags": [
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses"
-      ],
-      "resistance": null,
-      "price": 79.76,
-      "barGap": false
     }
   ],
-  "total": 16,
+  "total": 20,
   "shown": 10,
   "cap": 10,
   "beyondCap": [
+    "TEAM(5)",
+    "BXC(5)",
+    "PAYC(5)",
     "WGS(5)",
     "TPC(5)",
     "AUGO(5)",
     "ANF(5)",
+    "MANH(5)",
     "RGEN(5)",
     "KYMR(5)"
   ]

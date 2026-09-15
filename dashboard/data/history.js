@@ -4,22 +4,22 @@ window.HISTORY_DATA = {
       "date": "2026-09-15",
       "qqq": "red",
       "finraYoY": 37.2,
-      "picks": 38,
-      "breakouts": 7,
-      "chartCheck": 16,
+      "picks": 41,
+      "breakouts": 9,
+      "chartCheck": 20,
       "droppedToday": 0,
-      "reentryBlocked": 0,
-      "barsNotice": null,
+      "reentryBlocked": 4,
+      "barsNotice": "critical",
       "crossCounts": {
-        "persistent": 2,
-        "newEntrants": 8,
-        "midTerm": 8,
-        "fading": 18,
-        "other": 2,
-        "total": 38
+        "persistent": 4,
+        "newEntrants": 10,
+        "midTerm": 7,
+        "fading": 17,
+        "other": 3,
+        "total": 41
       },
       "siteCondition": "BAD",
-      "theme": "Technology 19종목(50%) · Semiconductors 9종목(23.7%) · Healthcare 8종목(21.1%)"
+      "theme": "Technology 21종목(51.2%) · Healthcare 11종목(26.8%) · Biotechnology 6종목(14.6%)"
     },
     {
       "date": "2026-09-14",

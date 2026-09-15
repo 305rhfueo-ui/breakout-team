@@ -1,14 +1,14 @@
 window.TEAM3_DATA = {
   "generated": "2026-09-15",
   "summary": {
-    "active": 70,
+    "active": 75,
     "dormant": 0,
-    "excluded": 51,
-    "total": 121,
+    "excluded": 47,
+    "total": 122,
     "unevaluated": [
       "HPE-C"
     ],
-    "reentryBlocked": 0
+    "reentryBlocked": 4
   },
   "items": [
     {
@@ -16,8 +16,8 @@ window.TEAM3_DATA = {
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-14",
-      "pickCount": 34,
+      "lastPicked": "2026-09-15",
+      "pickCount": 35,
       "status": "excluded",
       "peak": 109.89,
       "peakDate": "2026-08-05",
@@ -50,8 +50,8 @@ window.TEAM3_DATA = {
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-14",
-      "pickCount": 28,
+      "lastPicked": "2026-09-15",
+      "pickCount": 29,
       "status": "active",
       "peak": 123.57,
       "peakDate": "2026-08-26",
@@ -91,8 +91,8 @@ window.TEAM3_DATA = {
       "sector": "Technology",
       "industry": "Information Technology Services",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-14",
-      "pickCount": 37,
+      "lastPicked": "2026-09-15",
+      "pickCount": 38,
       "status": "active",
       "peak": 120.43,
       "peakDate": "2026-09-11",
@@ -132,8 +132,8 @@ window.TEAM3_DATA = {
       "sector": "Energy",
       "industry": "Oil & Gas Equipment & Services",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-14",
-      "pickCount": 37,
+      "lastPicked": "2026-09-15",
+      "pickCount": 38,
       "status": "active",
       "peak": 83.02,
       "peakDate": "2026-09-11",
@@ -164,7 +164,7 @@ window.TEAM3_DATA = {
         "lastBarDate": "2026-09-11",
         "barGap": false,
         "belowMa50Days": 0,
-        "eyeScore": 4,
+        "eyeScore": 6,
         "congestion": "none"
       }
     },
@@ -232,7 +232,7 @@ window.TEAM3_DATA = {
       "sector": "Healthcare",
       "industry": "Medical Care Facilities",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-14",
+      "lastPicked": "2026-09-15",
       "pickCount": 30,
       "status": "excluded",
       "peak": null,
@@ -447,11 +447,18 @@ window.TEAM3_DATA = {
       "excludedAsOf": "2026-09-04",
       "firstExcludedAt": "2026-09-03",
       "reentryBlocked": {
-        "date": "2026-09-14",
+        "date": "2026-09-15",
         "reason": "50일선 아래 26일 연속(2026-08-06 ~ 2026-09-11)",
-        "count": 6
+        "count": 7
       },
-      "live": null
+      "live": {
+        "price": 89.77,
+        "lastBarDate": "2026-09-11",
+        "barGap": false,
+        "belowMa50Days": 26,
+        "eyeScore": 5,
+        "congestion": "none"
+      }
     },
     {
       "ticker": "HURN",
@@ -490,7 +497,7 @@ window.TEAM3_DATA = {
         "lastBarDate": "2026-09-11",
         "barGap": false,
         "belowMa50Days": 0,
-        "eyeScore": 2,
+        "eyeScore": 4,
         "congestion": "none"
       }
     },
@@ -557,8 +564,8 @@ window.TEAM3_DATA = {
       "sector": "Technology",
       "industry": "Computer Hardware",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-14",
-      "pickCount": 38,
+      "lastPicked": "2026-09-15",
+      "pickCount": 39,
       "status": "active",
       "peak": 567.29,
       "peakDate": "2026-09-11",
@@ -586,8 +593,8 @@ window.TEAM3_DATA = {
       "sector": "Technology",
       "industry": "Semiconductors",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-14",
-      "pickCount": 33,
+      "lastPicked": "2026-09-15",
+      "pickCount": 34,
       "status": "active",
       "peak": 74.57,
       "peakDate": "2026-09-11",
@@ -905,7 +912,7 @@ window.TEAM3_DATA = {
         "lastBarDate": "2026-09-11",
         "barGap": false,
         "belowMa50Days": 0,
-        "eyeScore": 2,
+        "eyeScore": 4,
         "congestion": "none"
       }
     },
@@ -946,7 +953,7 @@ window.TEAM3_DATA = {
         "lastBarDate": "2026-09-11",
         "barGap": false,
         "belowMa50Days": 0,
-        "eyeScore": 4,
+        "eyeScore": 6,
         "congestion": "none"
       }
     },
@@ -1081,8 +1088,8 @@ window.TEAM3_DATA = {
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-14",
-      "pickCount": 36,
+      "lastPicked": "2026-09-15",
+      "pickCount": 37,
       "status": "active",
       "peak": 117.57,
       "peakDate": "2026-09-02",
@@ -1132,8 +1139,8 @@ window.TEAM3_DATA = {
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-14",
-      "pickCount": 30,
+      "lastPicked": "2026-09-15",
+      "pickCount": 31,
       "status": "active",
       "peak": 56.87,
       "peakDate": "2026-09-11",
@@ -1451,7 +1458,7 @@ window.TEAM3_DATA = {
         "lastBarDate": "2026-09-11",
         "barGap": false,
         "belowMa50Days": 0,
-        "eyeScore": 0,
+        "eyeScore": 2,
         "congestion": "none"
       }
     },
@@ -1535,8 +1542,8 @@ window.TEAM3_DATA = {
       "sector": "Energy",
       "industry": "Oil & Gas Refining & Marketing",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-14",
-      "pickCount": 12,
+      "lastPicked": "2026-09-15",
+      "pickCount": 13,
       "status": "active",
       "peak": 84.65,
       "peakDate": "2026-09-11",
@@ -1577,11 +1584,11 @@ window.TEAM3_DATA = {
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-01",
-      "pickCount": 27,
-      "status": "excluded",
-      "peak": 396,
-      "peakDate": "2026-08-14",
+      "lastPicked": "2026-09-15",
+      "pickCount": 28,
+      "status": "active",
+      "peak": 373.94,
+      "peakDate": "2026-09-14",
       "addedReason": "RS 상위 0.61% · ADR 4.93% · 150일선 위",
       "manualHold": false,
       "history": [
@@ -1594,21 +1601,33 @@ window.TEAM3_DATA = {
           "date": "2026-09-07",
           "status": "excluded",
           "note": "50일선 아래 3일 연속(2026-09-02 ~ 2026-09-04)"
+        },
+        {
+          "date": "2026-09-15",
+          "status": "active",
+          "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -15.84,
-      "excludedAt": "2026-09-07",
-      "excludedAsOf": "2026-09-04",
+      "drawdownPct": 0,
+      "excludedAt": null,
+      "excludedAsOf": null,
       "firstExcludedAt": "2026-09-07",
-      "excludedReason": "50일선 아래 3일 연속(2026-09-02 ~ 2026-09-04)",
-      "live": null
+      "excludedReason": null,
+      "live": {
+        "price": 373.94,
+        "lastBarDate": "2026-09-14",
+        "barGap": false,
+        "belowMa50Days": 0,
+        "eyeScore": 3,
+        "congestion": "none"
+      }
     },
     {
       "ticker": "PENG",
       "sector": "Technology",
       "industry": "Information Technology Services",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-14",
+      "lastPicked": "2026-09-15",
       "pickCount": 32,
       "status": "excluded",
       "peak": null,
@@ -1913,11 +1932,18 @@ window.TEAM3_DATA = {
       "excludedAsOf": "2026-09-04",
       "firstExcludedAt": "2026-09-03",
       "reentryBlocked": {
-        "date": "2026-09-14",
+        "date": "2026-09-15",
         "reason": "50일선 아래 18일 연속(2026-08-18 ~ 2026-09-11)",
-        "count": 6
+        "count": 7
       },
-      "live": null
+      "live": {
+        "price": 51.16,
+        "lastBarDate": "2026-09-11",
+        "barGap": false,
+        "belowMa50Days": 18,
+        "eyeScore": 6,
+        "congestion": "none"
+      }
     },
     {
       "ticker": "ALAB",
@@ -2210,7 +2236,7 @@ window.TEAM3_DATA = {
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-14",
+      "lastPicked": "2026-09-15",
       "pickCount": 32,
       "status": "excluded",
       "peak": null,
@@ -2245,11 +2271,18 @@ window.TEAM3_DATA = {
       "excludedAsOf": "2026-09-04",
       "firstExcludedAt": "2026-09-03",
       "reentryBlocked": {
-        "date": "2026-09-14",
+        "date": "2026-09-15",
         "reason": "50일선 아래 10일 연속(2026-08-28 ~ 2026-09-11)",
-        "count": 6
+        "count": 7
       },
-      "live": null
+      "live": {
+        "price": 92.38,
+        "lastBarDate": "2026-09-11",
+        "barGap": false,
+        "belowMa50Days": 10,
+        "eyeScore": 3,
+        "congestion": "none"
+      }
     },
     {
       "ticker": "IT",
@@ -2285,8 +2318,8 @@ window.TEAM3_DATA = {
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-11",
-      "pickCount": 29,
+      "lastPicked": "2026-09-15",
+      "pickCount": 30,
       "status": "active",
       "peak": 173.04,
       "peakDate": "2026-09-01",
@@ -2545,7 +2578,7 @@ window.TEAM3_DATA = {
       "sector": "Technology",
       "industry": "Semiconductors",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-14",
+      "lastPicked": "2026-09-15",
       "pickCount": 19,
       "status": "excluded",
       "peak": null,
@@ -2750,11 +2783,18 @@ window.TEAM3_DATA = {
       "excludedAsOf": "2026-09-04",
       "firstExcludedAt": "2026-08-12",
       "reentryBlocked": {
-        "date": "2026-09-14",
+        "date": "2026-09-15",
         "reason": "50일선 아래 41일 연속(2026-07-16 ~ 2026-09-11)",
-        "count": 6
+        "count": 7
       },
-      "live": null
+      "live": {
+        "price": 63.52,
+        "lastBarDate": "2026-09-11",
+        "barGap": false,
+        "belowMa50Days": 41,
+        "eyeScore": 2,
+        "congestion": "none"
+      }
     },
     {
       "ticker": "AXTI",
@@ -2947,8 +2987,8 @@ window.TEAM3_DATA = {
       "sector": "Technology",
       "industry": "Semiconductors",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-14",
-      "pickCount": 38,
+      "lastPicked": "2026-09-15",
+      "pickCount": 39,
       "status": "active",
       "peak": 236.1,
       "peakDate": "2026-09-11",
@@ -3268,8 +3308,8 @@ window.TEAM3_DATA = {
       "sector": "Technology",
       "industry": "Computer Hardware",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-14",
-      "pickCount": 25,
+      "lastPicked": "2026-09-15",
+      "pickCount": 26,
       "status": "active",
       "peak": 1764.17,
       "peakDate": "2026-09-09",
@@ -3930,8 +3970,8 @@ window.TEAM3_DATA = {
       "sector": "Healthcare",
       "industry": "Diagnostics & Research",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-14",
-      "pickCount": 36,
+      "lastPicked": "2026-09-15",
+      "pickCount": 37,
       "status": "active",
       "peak": 153.1,
       "peakDate": "2026-08-28",
@@ -4251,8 +4291,8 @@ window.TEAM3_DATA = {
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-10",
-      "pickCount": 35,
+      "lastPicked": "2026-09-15",
+      "pickCount": 36,
       "status": "active",
       "peak": 188.59,
       "peakDate": "2026-08-28",
@@ -4292,8 +4332,8 @@ window.TEAM3_DATA = {
       "sector": "Healthcare",
       "industry": "Health Information Services",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-07",
-      "pickCount": 26,
+      "lastPicked": "2026-09-15",
+      "pickCount": 27,
       "status": "active",
       "peak": 92.85,
       "peakDate": "2026-08-28",
@@ -4379,8 +4419,8 @@ window.TEAM3_DATA = {
       "sector": "Technology",
       "industry": "Semiconductors",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-14",
-      "pickCount": 25,
+      "lastPicked": "2026-09-15",
+      "pickCount": 26,
       "status": "active",
       "peak": 1027.77,
       "peakDate": "2026-09-09",
@@ -4530,11 +4570,11 @@ window.TEAM3_DATA = {
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "added": "2026-08-05",
-      "lastPicked": "2026-08-19",
-      "pickCount": 13,
-      "status": "excluded",
-      "peak": 225.53,
-      "peakDate": "2026-08-14",
+      "lastPicked": "2026-09-15",
+      "pickCount": 14,
+      "status": "active",
+      "peak": 235.38,
+      "peakDate": "2026-09-14",
       "addedReason": "RS 상위 1.63% · ADR 5.3% · 150일선 위",
       "manualHold": false,
       "history": [
@@ -4547,12 +4587,25 @@ window.TEAM3_DATA = {
           "date": "2026-08-25",
           "status": "excluded",
           "note": "50일선 아래 3일 연속(2026-08-20 ~ 2026-08-24)"
+        },
+        {
+          "date": "2026-09-15",
+          "status": "active",
+          "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -15.45,
-      "excludedAt": "2026-08-25",
-      "excludedReason": "50일선 아래 3일 연속(2026-08-20 ~ 2026-08-24)",
-      "live": null
+      "drawdownPct": 0,
+      "excludedAt": null,
+      "excludedReason": null,
+      "excludedAsOf": null,
+      "live": {
+        "price": 235.38,
+        "lastBarDate": "2026-09-14",
+        "barGap": false,
+        "belowMa50Days": 0,
+        "eyeScore": 1,
+        "congestion": "none"
+      }
     },
     {
       "ticker": "ARM",
@@ -4875,8 +4928,8 @@ window.TEAM3_DATA = {
       "sector": "Technology",
       "industry": "Software - Application",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-14",
-      "pickCount": 38,
+      "lastPicked": "2026-09-15",
+      "pickCount": 39,
       "status": "active",
       "peak": 194.17,
       "peakDate": "2026-09-01",
@@ -4987,7 +5040,7 @@ window.TEAM3_DATA = {
         "lastBarDate": "2026-09-11",
         "barGap": false,
         "belowMa50Days": 0,
-        "eyeScore": 4,
+        "eyeScore": 5,
         "congestion": "none"
       }
     },
@@ -4996,8 +5049,8 @@ window.TEAM3_DATA = {
       "sector": "Healthcare",
       "industry": "Diagnostics & Research",
       "added": "2026-08-08",
-      "lastPicked": "2026-09-07",
-      "pickCount": 27,
+      "lastPicked": "2026-09-15",
+      "pickCount": 28,
       "status": "active",
       "peak": 90.29,
       "peakDate": "2026-08-27",
@@ -5095,8 +5148,8 @@ window.TEAM3_DATA = {
       "sector": "Consumer Defensive",
       "industry": "Household & Personal Products",
       "added": "2026-08-08",
-      "lastPicked": "2026-09-14",
-      "pickCount": 32,
+      "lastPicked": "2026-09-15",
+      "pickCount": 33,
       "status": "active",
       "peak": 109.67,
       "peakDate": "2026-09-04",
@@ -5342,7 +5395,7 @@ window.TEAM3_DATA = {
         "lastBarDate": "2026-09-11",
         "barGap": false,
         "belowMa50Days": 0,
-        "eyeScore": 2,
+        "eyeScore": 4,
         "congestion": "none"
       }
     },
@@ -5380,8 +5433,8 @@ window.TEAM3_DATA = {
       "sector": "Basic Materials",
       "industry": "Gold",
       "added": "2026-08-11",
-      "lastPicked": "2026-09-14",
-      "pickCount": 19,
+      "lastPicked": "2026-09-15",
+      "pickCount": 20,
       "status": "active",
       "peak": 90.47,
       "peakDate": "2026-08-26",
@@ -5549,8 +5602,8 @@ window.TEAM3_DATA = {
       "sector": "Technology",
       "industry": "Semiconductors",
       "added": "2026-08-12",
-      "lastPicked": "2026-09-14",
-      "pickCount": 7,
+      "lastPicked": "2026-09-15",
+      "pickCount": 8,
       "status": "active",
       "peak": 106.24,
       "peakDate": "2026-09-09",
@@ -5611,8 +5664,8 @@ window.TEAM3_DATA = {
       "sector": "Consumer Cyclical",
       "industry": "Apparel Retail",
       "added": "2026-08-12",
-      "lastPicked": "2026-09-14",
-      "pickCount": 13,
+      "lastPicked": "2026-09-15",
+      "pickCount": 14,
       "status": "active",
       "peak": 152.08,
       "peakDate": "2026-09-09",
@@ -5753,11 +5806,11 @@ window.TEAM3_DATA = {
       "sector": "Technology",
       "industry": "Software - Application",
       "added": "2026-08-14",
-      "lastPicked": "2026-09-03",
-      "pickCount": 10,
-      "status": "excluded",
-      "peak": 104.03,
-      "peakDate": "2026-08-28",
+      "lastPicked": "2026-09-15",
+      "pickCount": 11,
+      "status": "active",
+      "peak": 93,
+      "peakDate": "2026-09-14",
       "addedReason": "RS 상위 1.19% · ADR 6.93% · 150일선 위",
       "manualHold": false,
       "history": [
@@ -5790,14 +5843,26 @@ window.TEAM3_DATA = {
           "date": "2026-09-10",
           "status": "excluded",
           "note": "50일선 아래 3일 연속(2026-09-04 ~ 2026-09-09)"
+        },
+        {
+          "date": "2026-09-15",
+          "status": "active",
+          "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -16.06,
-      "excludedAt": "2026-09-10",
-      "excludedReason": "50일선 아래 3일 연속(2026-09-04 ~ 2026-09-09)",
-      "excludedAsOf": "2026-09-09",
+      "drawdownPct": 0,
+      "excludedAt": null,
+      "excludedReason": null,
+      "excludedAsOf": null,
       "firstExcludedAt": "2026-09-10",
-      "live": null
+      "live": {
+        "price": 93,
+        "lastBarDate": "2026-09-14",
+        "barGap": false,
+        "belowMa50Days": 0,
+        "eyeScore": 2,
+        "congestion": "none"
+      }
     },
     {
       "ticker": "SN",
@@ -6089,8 +6154,8 @@ window.TEAM3_DATA = {
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "added": "2026-08-21",
-      "lastPicked": "2026-09-14",
-      "pickCount": 15,
+      "lastPicked": "2026-09-15",
+      "pickCount": 16,
       "status": "active",
       "peak": 158.83,
       "peakDate": "2026-08-26",
@@ -6138,7 +6203,7 @@ window.TEAM3_DATA = {
         "lastBarDate": "2026-09-11",
         "barGap": false,
         "belowMa50Days": 0,
-        "eyeScore": 4,
+        "eyeScore": 5,
         "congestion": "none"
       }
     },
@@ -6147,8 +6212,8 @@ window.TEAM3_DATA = {
       "sector": "Technology",
       "industry": "Software - Application",
       "added": "2026-08-21",
-      "lastPicked": "2026-08-21",
-      "pickCount": 1,
+      "lastPicked": "2026-09-15",
+      "pickCount": 2,
       "status": "active",
       "peak": 147.99,
       "peakDate": "2026-09-01",
@@ -6256,7 +6321,7 @@ window.TEAM3_DATA = {
         "lastBarDate": "2026-09-11",
         "barGap": false,
         "belowMa50Days": 0,
-        "eyeScore": 0,
+        "eyeScore": 2,
         "congestion": "none"
       }
     },
@@ -6265,8 +6330,8 @@ window.TEAM3_DATA = {
       "sector": "Basic Materials",
       "industry": "Coking Coal",
       "added": "2026-08-25",
-      "lastPicked": "2026-09-14",
-      "pickCount": 14,
+      "lastPicked": "2026-09-15",
+      "pickCount": 15,
       "status": "active",
       "peak": 235.7,
       "peakDate": "2026-09-01",
@@ -6323,8 +6388,8 @@ window.TEAM3_DATA = {
       "sector": "Financial Services",
       "industry": "Capital Markets",
       "added": "2026-08-25",
-      "lastPicked": "2026-09-14",
-      "pickCount": 14,
+      "lastPicked": "2026-09-15",
+      "pickCount": 15,
       "status": "active",
       "peak": 102.05,
       "peakDate": "2026-09-04",
@@ -6381,8 +6446,8 @@ window.TEAM3_DATA = {
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "added": "2026-08-26",
-      "lastPicked": "2026-09-10",
-      "pickCount": 11,
+      "lastPicked": "2026-09-15",
+      "pickCount": 12,
       "status": "active",
       "peak": 126.7,
       "peakDate": "2026-09-01",
@@ -6575,8 +6640,8 @@ window.TEAM3_DATA = {
       "sector": "Healthcare",
       "industry": "Medical Care Facilities",
       "added": "2026-08-27",
-      "lastPicked": "2026-09-14",
-      "pickCount": 5,
+      "lastPicked": "2026-09-15",
+      "pickCount": 6,
       "status": "active",
       "peak": 200.24,
       "peakDate": "2026-09-11",
@@ -6595,7 +6660,7 @@ window.TEAM3_DATA = {
         "lastBarDate": "2026-09-11",
         "barGap": false,
         "belowMa50Days": 0,
-        "eyeScore": 6,
+        "eyeScore": 4,
         "congestion": "none"
       }
     },
@@ -6745,8 +6810,8 @@ window.TEAM3_DATA = {
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "added": "2026-09-03",
-      "lastPicked": "2026-09-14",
-      "pickCount": 8,
+      "lastPicked": "2026-09-15",
+      "pickCount": 9,
       "status": "active",
       "peak": 90.78,
       "peakDate": "2026-09-04",
@@ -6774,8 +6839,8 @@ window.TEAM3_DATA = {
       "sector": "Technology",
       "industry": "Scientific & Technical Instruments",
       "added": "2026-09-03",
-      "lastPicked": "2026-09-10",
-      "pickCount": 6,
+      "lastPicked": "2026-09-15",
+      "pickCount": 7,
       "status": "active",
       "peak": 130.65,
       "peakDate": "2026-09-03",
@@ -6803,8 +6868,8 @@ window.TEAM3_DATA = {
       "sector": "Technology",
       "industry": "Software - Application",
       "added": "2026-09-07",
-      "lastPicked": "2026-09-14",
-      "pickCount": 5,
+      "lastPicked": "2026-09-15",
+      "pickCount": 6,
       "status": "active",
       "peak": 130.97,
       "peakDate": "2026-09-11",
@@ -6846,8 +6911,8 @@ window.TEAM3_DATA = {
       "sector": "Financial Services",
       "industry": "Capital Markets",
       "added": "2026-09-07",
-      "lastPicked": "2026-09-11",
-      "pickCount": 5,
+      "lastPicked": "2026-09-15",
+      "pickCount": 6,
       "status": "active",
       "peak": 122.11,
       "peakDate": "2026-09-04",
@@ -6895,7 +6960,7 @@ window.TEAM3_DATA = {
         "lastBarDate": "2026-09-11",
         "barGap": false,
         "belowMa50Days": 0,
-        "eyeScore": 4,
+        "eyeScore": 3,
         "congestion": "none"
       }
     },
@@ -6982,7 +7047,7 @@ window.TEAM3_DATA = {
         "lastBarDate": "2026-09-11",
         "barGap": false,
         "belowMa50Days": 0,
-        "eyeScore": 3,
+        "eyeScore": 2,
         "congestion": "none"
       }
     },
@@ -7022,11 +7087,11 @@ window.TEAM3_DATA = {
       "sector": "Financial Services",
       "industry": "Financial Data & Stock Exchanges",
       "added": "2026-09-09",
-      "lastPicked": "2026-09-10",
-      "pickCount": 2,
-      "status": "excluded",
-      "peak": 178.94,
-      "peakDate": "2026-09-08",
+      "lastPicked": "2026-09-15",
+      "pickCount": 3,
+      "status": "active",
+      "peak": 191.45,
+      "peakDate": "2026-09-14",
       "addedReason": "RS 상위 1.99% · ADR 5.55% · 150일선 위",
       "manualHold": false,
       "history": [
@@ -7039,14 +7104,26 @@ window.TEAM3_DATA = {
           "date": "2026-09-11",
           "status": "excluded",
           "note": "종가가 150일선 아래"
+        },
+        {
+          "date": "2026-09-15",
+          "status": "active",
+          "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -2.36,
-      "excludedAt": "2026-09-11",
-      "excludedAsOf": "2026-09-09",
+      "drawdownPct": 0,
+      "excludedAt": null,
+      "excludedAsOf": null,
       "firstExcludedAt": "2026-09-11",
-      "excludedReason": "종가가 150일선 아래",
-      "live": null
+      "excludedReason": null,
+      "live": {
+        "price": 191.45,
+        "lastBarDate": "2026-09-14",
+        "barGap": false,
+        "belowMa50Days": 0,
+        "eyeScore": 2,
+        "congestion": "none"
+      }
     },
     {
       "ticker": "CRM",
@@ -7102,7 +7179,7 @@ window.TEAM3_DATA = {
         "lastBarDate": "2026-09-11",
         "barGap": false,
         "belowMa50Days": 0,
-        "eyeScore": 3,
+        "eyeScore": 2,
         "congestion": "none"
       }
     },
@@ -7192,11 +7269,93 @@ window.TEAM3_DATA = {
         "eyeScore": 4,
         "congestion": "none"
       }
+    },
+    {
+      "ticker": "ZS",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "added": "2026-09-15",
+      "lastPicked": "2026-09-15",
+      "pickCount": 1,
+      "status": "active",
+      "peak": 191.73,
+      "peakDate": "2026-09-14",
+      "addedReason": "RS 상위 1.86% · ADR 5.23% · 150일선 위",
+      "manualHold": false,
+      "history": [
+        {
+          "date": "2026-09-15",
+          "status": "active",
+          "note": "신규 편입 (2팀 선정)"
+        }
+      ],
+      "drawdownPct": 0,
+      "live": {
+        "price": 191.73,
+        "lastBarDate": "2026-09-14",
+        "barGap": false,
+        "belowMa50Days": 0,
+        "eyeScore": 0,
+        "congestion": "none"
+      }
     }
   ],
   "dropped_today": [],
-  "reentryBlocked": [],
+  "reentryBlocked": [
+    {
+      "ticker": "AGL",
+      "reason": "50일선 아래 26일 연속(2026-08-06 ~ 2026-09-11)"
+    },
+    {
+      "ticker": "PENG",
+      "reason": "50일선 아래 18일 연속(2026-08-18 ~ 2026-09-11)"
+    },
+    {
+      "ticker": "AMBQ",
+      "reason": "50일선 아래 41일 연속(2026-07-16 ~ 2026-09-11)"
+    },
+    {
+      "ticker": "ORKA",
+      "reason": "50일선 아래 10일 연속(2026-08-28 ~ 2026-09-11)"
+    }
+  ],
   "breakouts": [
+    {
+      "ticker": "ZS",
+      "priorHigh": 190.97,
+      "priorHighDate": "2026-08-18",
+      "closeAbovePct": 0.4,
+      "breakDate": "2026-09-14",
+      "breakVolRatio": 2.51,
+      "breakVol": 7543400,
+      "volx": 2.5,
+      "volSurgeWk": 1.88,
+      "volRatio5": 1.88,
+      "volumeConfirmed": true,
+      "volumeBasis": "돌파봉/20일평균",
+      "congestion": "none",
+      "congestionKo": "해당 패턴 없음",
+      "baseMonths": null,
+      "barGap": false
+    },
+    {
+      "ticker": "CRWD",
+      "priorHigh": 233.88,
+      "priorHighDate": "2026-08-31",
+      "closeAbovePct": 0.64,
+      "breakDate": "2026-09-14",
+      "breakVolRatio": 2.44,
+      "breakVol": 25306700,
+      "volx": 2.48,
+      "volSurgeWk": 3.48,
+      "volRatio5": 3.48,
+      "volumeConfirmed": true,
+      "volumeBasis": "돌파봉/20일평균",
+      "congestion": "none",
+      "congestionKo": "해당 패턴 없음",
+      "baseMonths": null,
+      "barGap": false
+    },
     {
       "ticker": "BE",
       "priorHigh": 253.31,
@@ -7205,8 +7364,8 @@ window.TEAM3_DATA = {
       "breakDate": "2026-09-08",
       "breakVolRatio": 2.29,
       "breakVol": 27500100,
-      "volx": 1.25,
-      "volSurgeWk": 0.82,
+      "volx": 1.24,
+      "volSurgeWk": 0.91,
       "volRatio5": 0.82,
       "volumeConfirmed": true,
       "volumeBasis": "돌파봉/20일평균",
@@ -7223,8 +7382,8 @@ window.TEAM3_DATA = {
       "breakDate": "2026-09-08",
       "breakVolRatio": 1.53,
       "breakVol": 4860500,
-      "volx": 0.9,
-      "volSurgeWk": 0.87,
+      "volx": 0.94,
+      "volSurgeWk": 1,
       "volRatio5": 0.87,
       "volumeConfirmed": false,
       "volumeBasis": "돌파봉/20일평균",
@@ -7241,8 +7400,8 @@ window.TEAM3_DATA = {
       "breakDate": "2026-09-11",
       "breakVolRatio": 0.92,
       "breakVol": 137000,
-      "volx": 0.98,
-      "volSurgeWk": 0.88,
+      "volx": 1.81,
+      "volSurgeWk": 1.62,
       "volRatio5": 0.88,
       "volumeConfirmed": false,
       "volumeBasis": "돌파봉/20일평균",
@@ -7259,8 +7418,8 @@ window.TEAM3_DATA = {
       "breakDate": "2026-09-04",
       "breakVolRatio": 0.88,
       "breakVol": 4805300,
-      "volx": 2.17,
-      "volSurgeWk": 1.75,
+      "volx": 1.82,
+      "volSurgeWk": 1.44,
       "volRatio5": 1.75,
       "volumeConfirmed": false,
       "volumeBasis": "돌파봉/20일평균",
@@ -7277,8 +7436,8 @@ window.TEAM3_DATA = {
       "breakDate": "2026-09-08",
       "breakVolRatio": 0.8,
       "breakVol": 6662500,
-      "volx": 1.89,
-      "volSurgeWk": 1.4,
+      "volx": 1.09,
+      "volSurgeWk": 1.01,
       "volRatio5": 1.4,
       "volumeConfirmed": false,
       "volumeBasis": "돌파봉/20일평균",
@@ -7295,8 +7454,8 @@ window.TEAM3_DATA = {
       "breakDate": "2026-09-11",
       "breakVolRatio": 0.74,
       "breakVol": 50300,
-      "volx": 0.82,
-      "volSurgeWk": 0.86,
+      "volx": 1.31,
+      "volSurgeWk": 1.41,
       "volRatio5": 0.86,
       "volumeConfirmed": false,
       "volumeBasis": "돌파봉/20일평균",
@@ -7313,8 +7472,8 @@ window.TEAM3_DATA = {
       "breakDate": "2026-09-04",
       "breakVolRatio": 0.71,
       "breakVol": 203500,
-      "volx": 1.19,
-      "volSurgeWk": 1.26,
+      "volx": 1.39,
+      "volSurgeWk": 1.42,
       "volRatio5": 1.26,
       "volumeConfirmed": false,
       "volumeBasis": "돌파봉/20일평균",
@@ -7325,13 +7484,20 @@ window.TEAM3_DATA = {
     }
   ],
   "ingest": {
-    "added": 0,
-    "restored": 0,
+    "added": 1,
+    "restored": 8,
     "refreshed": 0,
-    "restoredTickers": [],
-    "held": 38,
-    "heldReason": "사이트 발행 보류일 — 신규 편입 보류",
-    "blocked": 0
+    "restoredTickers": [
+      "AGL",
+      "COIN",
+      "PENG",
+      "AMBQ",
+      "ORKA",
+      "PANW",
+      "CRWD",
+      "FROG"
+    ],
+    "blocked": 4
   },
   "cap": {
     "dormant": 0,
