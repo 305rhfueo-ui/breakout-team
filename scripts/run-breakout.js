@@ -16,7 +16,7 @@ const { rankPercentiles, bestPct } = require('./lib/percentile');
 const { computeWrsAll, validateAgainstSite } = require('./lib/wrs');
 const { selectBreakoutCandidates, detectThemes, detectThemesByPeriod } = require('./lib/screen');
 const { yes } = require('./lib/util');
-const { checkMaColumns, aboveMa150Of } = require('./lib/ma-guard');
+const { checkMaColumns, aboveMa150Of, rsQualityGate } = require('./lib/ma-guard');
 const { fetchMany, fetchBarsCached, barDateET } = require('./lib/bars');
 const cal = require('./lib/market-calendar');
 const { analyze, consecutiveDaysBelowMA, maSlope, priorHighBreak, volumeExpansion } = require('./lib/ta');
@@ -29,10 +29,11 @@ const { saveChart } = require('./lib/chart');
 const { fetchFinraMargin } = require('./data/finra-margin');
 
 function parseArgs(argv) {
-  const a = { teams: null, git: true, png: true, date: null, yahoo: true, offline: false };
+  const a = { teams: null, git: true, png: true, date: null, yahoo: true, offline: false, force: false };
   for (const s of argv) {
     if (s.startsWith('--teams=')) a.teams = s.slice(8).split(',').map(Number);
     else if (s === '--no-git') a.git = false;
+    else if (s === '--force') a.force = true;      // RS 결측률·degraded 게이트를 무시하고 강행
     else if (s === '--no-png') a.png = false;
     else if (s === '--no-yahoo') a.yahoo = false;
     else if (s === '--offline') a.offline = true;
@@ -95,9 +96,15 @@ async function main() {
   if (!rows || !rows.length) {
     throw new Error(`RS 데이터 0종목 (source=${source}) — 사이트 장애이거나 샘플 파일이 없습니다. 실행을 중단합니다.`);
   }
-  // 사이트가 결측률 초과로 발행을 보류한 날엔 result.json 이 전날 데이터다 → 배제 판정·신규 편입을 건너뛴다
-  const siteDegraded = !!meta.degraded;
-  if (siteDegraded) say('WARN', `⚠️ RS 사이트가 오늘 발행을 보류했습니다 (degraded_at ${meta.degraded_at || '?'} · ${JSON.stringify(meta.data_quality || {})}) — 전날 데이터로 실행합니다`);
+  // 결측률 게이트 — 사이트가 보류한 날(전날 데이터)이거나 결측률이 10% 를 넘으면 아무것도 쓰지 않고 멈춘다.
+  // 아직 파일을 하나도 안 쓴 시점이라 대시보드·state 가 더럽혀지지 않는다.
+  const gate = rsQualityGate(meta, rows);
+  say('SYSTEM', `RS 결측률 ${(gate.nullRate * 100).toFixed(1)}% (빈 행 ${gate.blank}/${gate.total} · 상한 ${gate.max * 100}%)`);
+  if (gate.block) {
+    if (!args.force) throw new Error(`⛔ start breakout 중단 — ${gate.block}. 강행하려면 --force`);
+    say('WARN', `⚠️ ${gate.block} — --force 로 강행합니다 (배제 판정·신규 편입은 건너뜁니다)`);
+  }
+  const siteDegraded = gate.degraded;
   const staleData = (stale !== null && stale >= 4) || siteDegraded;
   const keyCount = Object.keys(rows[0] || {}).length;
   // RS 데이터가 가리키는 세션일(ET 마지막 거래일). last_updated 는 렌더 시각(UTC)이라 그대로 쓰면
@@ -279,6 +286,7 @@ async function main() {
         // 사이트 메타 (2026-09-07): 사용자 시트의 시장국면 · 오늘 새로 조회한 행 수 · 발행 보류 여부 · 품질
         siteCondition: meta.market_condition || null, apiCalled: meta.apiCalled || null,
         degraded: siteDegraded, degradedAt: meta.degraded_at || null, dataQuality: meta.data_quality || null,
+        rsQuality: { ...gate, forced: !!args.force },   // 상단 칩 + 개시 게이트 결과
       },
       qqq: { ...regime, chart_svg: chart ? chart.svg : null, chart_png: chart ? chart.png : null,
              index_dip: qa ? indexDip(qa.distMA200) : { status: 'unknown' } },
@@ -844,6 +852,8 @@ function buildReport({ dateStr, chief, team1, team2, team3, team4, team5 }) {
   L.push('> 스크리닝·추적 자료이며 투자 조언이 아닙니다. 최종 판단은 본인의 차트 확인으로 하세요.');
   if (chief.barsNotice) { L.push(''); L.push(`> ${chief.barsNotice.ko}`); }
   if (team2 && team2.dataNotice) { L.push(''); L.push(`> ${team2.dataNotice.ko}`); }
+  const rq = team1 && team1.data_source.rsQuality;
+  if (rq) { L.push(''); L.push(`> RS 결측률 ${(rq.nullRate * 100).toFixed(1)}% (빈 행 ${rq.blank}/${rq.total})${rq.forced && rq.block ? ` — ⚠️ 상한 초과 강행: ${rq.block}` : ''}`); }
   L.push('');
   if (team1 && !team1.weekly_question.answered) {
     L.push(`## ❓ 이번 주 질문 (미응답)`);

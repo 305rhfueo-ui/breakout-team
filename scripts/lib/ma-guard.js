@@ -108,4 +108,20 @@ function checkMaColumns(rows) {
   return { ok: true, reason: '정상', stats };
 }
 
-module.exports = { checkMaColumns, isBlankRow, aboveMa150Of, CONTRA_DIV200, CONTRA_MAX, MIN_ABOVE_PCT, BLANK_MAX };
+// ── start breakout 개시 게이트 (2026-09-16 사용자 결정) ──
+// 사이트는 결측률 >15% 면 발행을 보류하고 전날 result.json 을 degraded:true 로 남긴다.
+// 여기서는 그보다 엄격하게 10% 를 넘거나 degraded 면 실행 자체를 안 한다 (--force 로만 강행).
+const NULL_RATE_MAX = 0.10;
+// @returns { nullRate, blank, total, from:'site'|'rows', degraded, max, block:null|string }
+function rsQualityGate(meta, rows, max = NULL_RATE_MAX) {
+  const dq = (meta && meta.data_quality) || {};
+  let blank = num(dq.blank_rows), total = num(dq.total), from = 'site';
+  if (blank == null || !total) { blank = (rows || []).filter(isBlankRow).length; total = (rows || []).length; from = 'rows'; }
+  const nullRate = total ? blank / total : 1;
+  const degraded = !!(meta && meta.degraded);
+  const block = degraded ? `RS 사이트가 오늘 발행을 보류해 전날 데이터입니다 (degraded_at ${meta.degraded_at || '?'})`
+    : nullRate > max ? `RS 결측률 ${(nullRate * 100).toFixed(1)}% (${blank}/${total}) 가 상한 ${max * 100}% 를 넘었습니다` : null;
+  return { nullRate: +nullRate.toFixed(4), blank, total, from, degraded, max, block };
+}
+
+module.exports = { checkMaColumns, isBlankRow, aboveMa150Of, rsQualityGate, CONTRA_DIV200, CONTRA_MAX, MIN_ABOVE_PCT, BLANK_MAX, NULL_RATE_MAX };

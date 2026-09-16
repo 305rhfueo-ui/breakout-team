@@ -9,7 +9,7 @@
 
 const assert = require('assert');
 const cal = require('../../scripts/lib/market-calendar');
-const { checkMaColumns, aboveMa150Of, isBlankRow } = require('../../scripts/lib/ma-guard');
+const { checkMaColumns, aboveMa150Of, isBlankRow, rsQualityGate } = require('../../scripts/lib/ma-guard');
 const tracking = require('../../scripts/lib/tracking');
 const rot = require('../../scripts/lib/research-rotation');
 
@@ -56,6 +56,29 @@ ok('빈 행이 소수면 통과한다', () => {
     ? { Ticker: `B${i}`, Above_150_SMA: 'X', '200DIV': null, '50DIV': null, RS_6mo: null, RS_3mo: null }
     : { Ticker: `G${i}`, Above_150_SMA: i % 3 ? 'O' : 'X', '200DIV': i % 3 ? 15 : -5, '50DIV': 1, RS_6mo: 0.1, RS_3mo: 0.1 }));
   assert.strictEqual(checkMaColumns(rows).ok, true);
+});
+
+console.log('\n[2b] ma-guard — 결측률 개시 게이트 (상한 10% · degraded)');
+const blankRow = (i) => ({ Ticker: `B${i}`, Above_150_SMA: 'X', '200DIV': null, '50DIV': null, RS_6mo: null, RS_3mo: null });
+const goodRow = (i) => ({ Ticker: `G${i}`, Above_150_SMA: 'O', '200DIV': 10, '50DIV': 1, RS_6mo: 0.1, RS_3mo: 0.1 });
+ok('사이트 data_quality 가 있으면 그 값을 쓴다', () => {
+  const g = rsQualityGate({ data_quality: { total: 1412, blank_rows: 30, null_rate: 0.0212 } }, [goodRow(1)]);
+  assert.strictEqual(g.from, 'site'); assert.strictEqual(g.blank, 30); assert.strictEqual(g.total, 1412);
+  assert.strictEqual(g.nullRate, 0.0212); assert.strictEqual(g.block, null);
+});
+ok('data_quality 가 없으면 isBlankRow 로 직접 센다', () => {
+  const rows = Array.from({ length: 50 }, (_, i) => (i < 3 ? blankRow(i) : goodRow(i)));
+  const g = rsQualityGate({}, rows);
+  assert.strictEqual(g.from, 'rows'); assert.strictEqual(g.blank, 3); assert.strictEqual(g.total, 50); assert.strictEqual(g.block, null);
+});
+ok('10% 초과면 막고, 이하면 통과', () => {
+  assert.ok(/상한 10%/.test(rsQualityGate({ data_quality: { total: 1000, blank_rows: 105 } }, []).block));
+  assert.strictEqual(rsQualityGate({ data_quality: { total: 1000, blank_rows: 90 } }, []).block, null);
+  assert.strictEqual(rsQualityGate({ data_quality: { total: 1000, blank_rows: 100 } }, []).block, null);   // 정확히 10% 는 통과
+});
+ok('degraded 면 결측률이 낮아도 막는다 (전날 데이터)', () => {
+  const g = rsQualityGate({ degraded: true, degraded_at: '2026-09-15 05:33', data_quality: { total: 1412, blank_rows: 10 } }, []);
+  assert.strictEqual(g.degraded, true); assert.ok(/보류/.test(g.block));
 });
 
 console.log('\n[3] tracking — 재편입 churn 방지');

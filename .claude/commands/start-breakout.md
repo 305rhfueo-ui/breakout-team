@@ -27,7 +27,9 @@ node scripts/run-breakout.js
 ```
 
 - `state/rs-snapshots` 가 비어 있다는 경고가 나오면 먼저 `node scripts/backfill-history.js` 를 1회 실행 (약 25초)
-- 출력에서 다음을 읽어둔다: QQQ 판정 · FINRA YoY · 2팀 퍼널 · 3팀 활성/배제 · 4팀 후보(150일선 위)·제외 수 · 차트확인 종목
+- **`⛔ start breakout 중단`** 이 찍히면(RS 결측률 >10% 또는 사이트 degraded) **여기서 멈춘다.** 워크플로를 띄우지 말고
+  결측률·사유를 사용자에게 보고한다. 사용자가 강행을 원할 때만 `node scripts/run-breakout.js --force`.
+- 출력에서 다음을 읽어둔다: RS 결측률 · QQQ 판정 · FINRA YoY · 2팀 퍼널 · 3팀 활성/배제 · 4팀 후보(150일선 위)·제외 수 · 차트확인 종목
 
 `light` 인자가 주어지면 여기서 멈추고 결과만 보고한다.
 
@@ -119,6 +121,7 @@ push 를 원하지 않으면 `node scripts/build-chief-report.js --no-git`.
 사용자에게 한국어로 보고한다. **독자는 재무·회계 전공의 금융 실무자다** — 비유·초보자용 풀이를 쓰지 말고
 원천 수치(실적·RS·WRS·이격·거래량 배수)를 단위·기간과 함께 그대로 전달한다. 반드시 포함할 것:
 - ⚠️ `barsNotice`(야후 봉 누락·세션 불일치)·`dataNotice`(150일선 오염)가 있으면 맨 앞에
+- RS 결측률 x.x% (빈 행 b/t) — `--force` 강행이었다면 그 사실도
 - 🚦 시장 판정 (QQQ 쿨라매기 + FINRA 마진부채) — 🔴 면 흐리지 말고 그대로 전달
 - 2팀 퍼널 숫자와 테마 (공통 테마가 없으면 "없음"이라고) — **기간별(1M·3M·6M) 테마와 교차(지속·신규·퇴조)를 구분해서**,
   사이트 시장국면(`siteCondition`)은 QQQ 판정과 병기

@@ -177,9 +177,12 @@ function hud(){
   const c=D.chief; if(!c){$('hud').innerHTML='<span class="chip">데이터 없음 — run-breakout 실행 필요</span>';return;}
   const m=c.market||{},k=c.counts||{};
   const v={green:'🟢',yellow:'🟡',red:'🔴'}[m.verdict]||'⚪';
+  const rq=D.t1&&D.t1.data_source&&D.t1.data_source.rsQuality;
+  const rqChip=rq?`<span class="chip" title="빈 행 ${rq.blank}/${rq.total} · 상한 ${rq.max*100}%">RS 결측률 <b>${rq.degraded?'🔴 사이트 보류':(rq.nullRate*100).toFixed(1)+'%'}</b>${rq.forced&&rq.block?' ⚠️강행':''}</span>`:'';
   $('hud').innerHTML=[
     `<span class="chip">QQQ <b>${v} ${esc(m.verdict||'?')}</b></span>`,
     `<span class="chip">마진부채 <b>${esc(m.finra||'?')}</b></span>`,
+    rqChip,
     `<span class="chip">선정 <b>${k.picks??'—'}</b></span>`,
     `<span class="chip">추적 <b>${k.tracking?k.tracking.active:'—'}</b> (배제 ${k.tracking?k.tracking.excluded:'—'})</span>`,
     `<span class="chip">돌파 <b>${k.breakouts??'—'}</b></span>`,

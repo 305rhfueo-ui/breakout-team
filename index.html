@@ -380,9 +380,19 @@ function board(){
   const m=c.market||{};
   const cls={green:'b-green',yellow:'b-yellow',red:'b-red'}[m.verdict]||'b-gray';
   const face={green:'🟢',yellow:'🟡',red:'🔴'}[m.verdict]||'⚪';
+  /* RS 사이트 결측률 — 10% 초과·degraded 면 run-breakout 이 개시를 막는다 (--force 로만 강행) */
+  const rq=D.t1&&D.t1.data_source&&D.t1.data_source.rsQuality;
+  let rqBadge='';
+  if(rq){
+    const p=rq.nullRate*100;
+    const rcls=rq.degraded||p>rq.max*100?'b-red':p>5?'b-yellow':'b-green';
+    const label=rq.degraded?'RS 사이트 보류(전날 데이터)':`RS 결측률 ${p.toFixed(1)}%`;
+    rqBadge=`<span class="badge ${rcls}" title="빈 행 ${rq.blank}/${rq.total} · 상한 ${rq.max*100}%">${label}${rq.forced&&rq.block?' ⚠️강행':''}</span>`;
+  }
   $('board').innerHTML=
     `<div><span class="badge ${cls}">${face} 시장 ${esc(m.verdict||'?')}</span>
       <span class="badge ${m.finra==='danger'?'b-red':m.finra==='warn'?'b-yellow':'b-gray'}">마진부채 ${esc(m.finra||'?')}</span>
+      ${rqBadge}
       <span class="badge b-gray">${esc(c.generated||'')}</span></div>
      <div class="ko" style="margin-top:10px">${esc(m.ko||'')}</div>
      ${m.finraKo?`<div class="ko" style="color:var(--dim);font-size:13.5px">${esc(m.finraKo)}</div>`:''}`;
