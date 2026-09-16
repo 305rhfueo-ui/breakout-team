@@ -25,6 +25,16 @@ window.TEAM1_DATA = {
       "api_called_count": 56,
       "duration_s": 881.1,
       "threshold": 0.15
+    },
+    "rsQuality": {
+      "nullRate": 0.0212,
+      "blank": 30,
+      "total": 1412,
+      "from": "site",
+      "degraded": false,
+      "max": 0.1,
+      "block": null,
+      "forced": false
     }
   },
   "qqq": {
@@ -180,7 +190,7 @@ window.TEAM1_DATA = {
         "freeMargin": "D"
       }
     },
-    "fetched_at": "2026-09-16T04:54:40.891Z"
+    "fetched_at": "2026-09-16T05:52:43.836Z"
   },
   "leaders": {
     "stocks": [
