@@ -1,0 +1,170 @@
+{
+ "ticker": "QRVO",
+ "news": [
+  {
+   "title": "Here's Why Qorvo (QRVO) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-qorvo-qrvo-strong-value-stock",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Qorvo (QRVO) Up 6.3% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/qorvo-qrvo-63-last-earnings-report-can-it-continue",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Qorvo (QRVO) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-qorvo-qrvo-strong-momentum-stock",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "QRVO Earnings Beat Highlights a Changing Profitability Story",
+   "url": "https://www.nasdaq.com/articles/qrvo-earnings-beat-highlights-changing-profitability-story",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Should Investors Buy QRVO or Wait for More Visibility?",
+   "url": "https://www.nasdaq.com/articles/should-investors-buy-qrvo-or-wait-more-visibility",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "QRVO Rises 11.6% in the Past Month: Can the Rally Continue?",
+   "url": "https://www.nasdaq.com/articles/qrvo-rises-116-past-month-can-rally-continue",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Qorvo (QRVO) is a Top Value Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-qorvo-qrvo-top-value-stock-long-term",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-12",
+   "reportDate": "2026-08-11",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1604778/000162828026056169/rfmd-20260811.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1604778/000162828026050149/rfmd-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-11",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1604778/000095010326008888/dp248325_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-09",
+   "reportDate": "2026-06-04",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1604778/000095010326008680/dp248142_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1604778/000162828026030523/rfmd-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-11",
+   "reportDate": "2026-02-11",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1604778/000095010326001983/dp241413_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -4.79,
+  "saleNy": 3.4,
+  "epsCy": 8.14,
+  "epsNy": 4.44,
+  "cyTrend": -1.45,
+  "nyTrend": -0.72,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -4.15,
+    -7.04,
+    8.36
+   ],
+   "ni": [
+    235.24,
+    -5.21,
+    297.52
+   ],
+   "opm": [
+    12.33,
+    3.9,
+    19.35
+   ],
+   "updated": "2026-09-07 06:34:24"
+  }
+ }
+}

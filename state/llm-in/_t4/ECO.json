@@ -1,0 +1,85 @@
+{
+ "ticker": "ECO",
+ "news": [
+  {
+   "title": "Here's Why Investors Should Bet on ECO Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/heres-why-investors-should-bet-eco-stock-right-now",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Has Okeanis Eco Tankers Corp. (ECO) Outpaced Other Transportation Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/has-okeanis-eco-tankers-corp-eco-outpaced-other-transportation-stocks-year-0",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are You Looking for a Top Momentum Pick? Why Okeanis Eco Tankers Corp. (ECO) is a Great Choice",
+   "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-okeanis-eco-tankers-corp-eco-great-choice",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Okeanis Eco Tankers Corp. (ECO) is an Incredible Growth Stock: 3 Reasons Why",
+   "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-incredible-growth-stock-3-reasons-why",
+   "date": "2026-08-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Okeanis Eco Tankers Corp. (ECO) Hits Fresh High: Is There Still Room to Run?",
+   "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-hits-fresh-high-there-still-room-run-0",
+   "date": "2026-08-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Okeanis Eco Tankers (ECO) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-eco-q2-2026-earnings-call-transcript",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "3 Reasons Growth Investors Will Love Okeanis Eco Tankers Corp. (ECO)",
+   "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-okeanis-eco-tankers-corp-eco",
+   "date": "2026-08-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Okeanis Eco Tankers Q2 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-q2-earnings-call-highlights",
+   "date": "2026-08-08",
+   "publisher": "MarketBeat"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 203.29,
+  "saleNy": -45.93,
+  "epsCy": 306.63,
+  "epsNy": -61.32,
+  "cyTrend": 60.86,
+  "nyTrend": 7.04,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    239.4,
+    112.31,
+    48.91
+   ],
+   "ni": [
+    756.59,
+    603.4,
+    350.62
+   ],
+   "opm": [
+    74.97,
+    57.62,
+    54.07
+   ],
+   "updated": "2026-09-15 06:32:53"
+  }
+ }
+}

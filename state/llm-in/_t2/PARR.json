@@ -45,12 +45,12 @@
   },
   "top2Streak": {
    "m1": 0,
-   "m3": 4,
+   "m3": 5,
    "m6": 0
   }
  },
  "detail": {
-  "fetchedAt": "2026-09-14",
+  "fetchedAt": "2026-09-16",
   "nameKo": "파 퍼시픽 홀딩스",
   "nameEn": "PAR PACIFIC HOLDINGS INC",
   "financials": {
@@ -120,6 +120,12 @@
   "news": {
    "items": [
     {
+     "title": "Can Par Pacific's Distillate-Focused Refining Model Drive Growth?",
+     "url": "https://www.nasdaq.com/articles/can-par-pacifics-distillate-focused-refining-model-drive-growth",
+     "date": "2026-09-14",
+     "publisher": "Zacks"
+    },
+    {
      "title": "Par Pacific Surges 148% in a Year: Should You Bet on the Momentum?",
      "url": "https://www.nasdaq.com/articles/par-pacific-surges-148-year-should-you-bet-momentum",
      "date": "2026-09-11",
@@ -135,24 +141,6 @@
      "title": "Can Par Pacific's Diversified Downstream Platform Drive Growth?",
      "url": "https://www.nasdaq.com/articles/can-par-pacifics-diversified-downstream-platform-drive-growth",
      "date": "2026-09-10",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Are Oils-Energy Stocks Lagging  Par Pacific (PARR) This Year?",
-     "url": "https://www.nasdaq.com/articles/are-oils-energy-stocks-lagging-par-pacific-parr-year",
-     "date": "2026-09-09",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Eni Partners With PETRONAS to Explore New Bio-Gasoline Production",
-     "url": "https://www.nasdaq.com/articles/eni-partners-petronas-explore-new-bio-gasoline-production",
-     "date": "2026-09-08",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Should Value Investors Buy Par Pacific (PARR) Stock?",
-     "url": "https://www.nasdaq.com/articles/should-value-investors-buy-par-pacific-parr-stock-2",
-     "date": "2026-09-07",
      "publisher": "Zacks"
     }
    ]

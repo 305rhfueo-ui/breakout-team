@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "items": [
     {
       "ticker": "AEHR",
@@ -39,8 +39,8 @@
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
-      "pickCount": 29,
+      "lastPicked": "2026-09-16",
+      "pickCount": 32,
       "status": "active",
       "peak": 123.57,
       "peakDate": "2026-08-26",
@@ -63,7 +63,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -8.72,
+      "drawdownPct": -10.32,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -72,8 +72,8 @@
       "sector": "Technology",
       "industry": "Information Technology Services",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
-      "pickCount": 38,
+      "lastPicked": "2026-09-16",
+      "pickCount": 41,
       "status": "active",
       "peak": 120.43,
       "peakDate": "2026-09-11",
@@ -96,7 +96,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": 0,
+      "drawdownPct": -0.36,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -105,8 +105,8 @@
       "sector": "Energy",
       "industry": "Oil & Gas Equipment & Services",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
-      "pickCount": 38,
+      "lastPicked": "2026-09-16",
+      "pickCount": 41,
       "status": "active",
       "peak": 83.02,
       "peakDate": "2026-09-11",
@@ -129,7 +129,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": 0,
+      "drawdownPct": -1.31,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -196,7 +196,7 @@
       "sector": "Healthcare",
       "industry": "Medical Care Facilities",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
+      "lastPicked": "2026-09-16",
       "pickCount": 30,
       "status": "excluded",
       "peak": null,
@@ -411,9 +411,9 @@
       "excludedAsOf": "2026-09-04",
       "firstExcludedAt": "2026-09-03",
       "reentryBlocked": {
-        "date": "2026-09-15",
-        "reason": "50일선 아래 26일 연속(2026-08-06 ~ 2026-09-11)",
-        "count": 7
+        "date": "2026-09-16",
+        "reason": "50일선 아래 28일 연속(2026-08-06 ~ 2026-09-15)",
+        "count": 10
       }
     },
     {
@@ -445,7 +445,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -7.79,
+      "drawdownPct": -5.2,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -468,7 +468,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -2.49
+      "drawdownPct": -4.27
     },
     {
       "ticker": "NVEC",
@@ -503,8 +503,8 @@
       "sector": "Technology",
       "industry": "Computer Hardware",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
-      "pickCount": 39,
+      "lastPicked": "2026-09-16",
+      "pickCount": 42,
       "status": "active",
       "peak": 567.29,
       "peakDate": "2026-09-11",
@@ -517,15 +517,15 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": 0
+      "drawdownPct": -4.19
     },
     {
       "ticker": "MXL",
       "sector": "Technology",
       "industry": "Semiconductors",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
-      "pickCount": 34,
+      "lastPicked": "2026-09-16",
+      "pickCount": 37,
       "status": "active",
       "peak": 74.57,
       "peakDate": "2026-09-11",
@@ -828,7 +828,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": 0,
+      "drawdownPct": -9.99,
       "excludedAt": null,
       "excludedReason": null,
       "excludedAsOf": null,
@@ -868,7 +868,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -6.82,
+      "drawdownPct": -8.86,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -1002,11 +1002,11 @@
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
-      "pickCount": 37,
-      "status": "active",
-      "peak": 117.57,
-      "peakDate": "2026-09-02",
+      "lastPicked": "2026-09-16",
+      "pickCount": 38,
+      "status": "excluded",
+      "peak": null,
+      "peakDate": null,
       "addedReason": "RS 상위 0.47% · ADR 8.48% · 150일선 위",
       "manualHold": false,
       "history": [
@@ -1034,19 +1034,31 @@
           "date": "2026-08-25",
           "status": "active",
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
+        },
+        {
+          "date": "2026-09-16",
+          "status": "excluded",
+          "note": "50일선 아래 4일 연속(2026-09-10 ~ 2026-09-15)"
         }
       ],
-      "drawdownPct": -6.22,
-      "excludedAt": null,
-      "excludedReason": null
+      "drawdownPct": -11.26,
+      "excludedAt": "2026-09-16",
+      "excludedReason": "50일선 아래 4일 연속(2026-09-10 ~ 2026-09-15)",
+      "excludedAsOf": "2026-09-15",
+      "firstExcludedAt": "2026-09-16",
+      "reentryBlocked": {
+        "date": "2026-09-16",
+        "reason": "50일선 아래 4일 연속(2026-09-10 ~ 2026-09-15)",
+        "count": 2
+      }
     },
     {
       "ticker": "BAND",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
-      "pickCount": 31,
+      "lastPicked": "2026-09-16",
+      "pickCount": 34,
       "status": "active",
       "peak": 56.87,
       "peakDate": "2026-09-11",
@@ -1349,7 +1361,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": 0,
+      "drawdownPct": -11.94,
       "excludedAt": null,
       "excludedReason": null,
       "excludedAsOf": null,
@@ -1438,8 +1450,8 @@
       "sector": "Energy",
       "industry": "Oil & Gas Refining & Marketing",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
-      "pickCount": 13,
+      "lastPicked": "2026-09-16",
+      "pickCount": 16,
       "status": "active",
       "peak": 84.65,
       "peakDate": "2026-09-11",
@@ -1462,7 +1474,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": 0,
+      "drawdownPct": -1.24,
       "excludedAt": null,
       "excludedReason": null,
       "excludedAsOf": null
@@ -1472,11 +1484,11 @@
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
-      "pickCount": 28,
+      "lastPicked": "2026-09-16",
+      "pickCount": 31,
       "status": "active",
-      "peak": 373.94,
-      "peakDate": "2026-09-14",
+      "peak": 375.09,
+      "peakDate": "2026-09-15",
       "addedReason": "RS 상위 0.61% · ADR 4.93% · 150일선 위",
       "manualHold": false,
       "history": [
@@ -1507,7 +1519,7 @@
       "sector": "Technology",
       "industry": "Information Technology Services",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
+      "lastPicked": "2026-09-16",
       "pickCount": 32,
       "status": "excluded",
       "peak": null,
@@ -1812,9 +1824,9 @@
       "excludedAsOf": "2026-09-04",
       "firstExcludedAt": "2026-09-03",
       "reentryBlocked": {
-        "date": "2026-09-15",
-        "reason": "50일선 아래 18일 연속(2026-08-18 ~ 2026-09-11)",
-        "count": 7
+        "date": "2026-09-16",
+        "reason": "50일선 아래 20일 연속(2026-08-18 ~ 2026-09-15)",
+        "count": 10
       }
     },
     {
@@ -2107,11 +2119,11 @@
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
-      "pickCount": 32,
-      "status": "excluded",
-      "peak": null,
-      "peakDate": null,
+      "lastPicked": "2026-09-16",
+      "pickCount": 35,
+      "status": "active",
+      "peak": 92.2,
+      "peakDate": "2026-09-15",
       "addedReason": "RS 상위 0.69% · ADR 5.92% · 150일선 위",
       "manualHold": false,
       "history": [
@@ -2134,12 +2146,17 @@
           "date": "2026-09-03",
           "status": "excluded",
           "note": "50일선 아래 3일 연속(2026-08-31 ~ 2026-09-02)"
+        },
+        {
+          "date": "2026-09-16",
+          "status": "active",
+          "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
       "drawdownPct": 0,
-      "excludedAt": "2026-09-03",
-      "excludedReason": "50일선 아래 3일 연속(2026-08-31 ~ 2026-09-02)",
-      "excludedAsOf": "2026-09-04",
+      "excludedAt": null,
+      "excludedReason": null,
+      "excludedAsOf": null,
       "firstExcludedAt": "2026-09-03",
       "reentryBlocked": {
         "date": "2026-09-15",
@@ -2166,18 +2183,18 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -11.44
+      "drawdownPct": -3.53
     },
     {
       "ticker": "OKTA",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
-      "pickCount": 30,
+      "lastPicked": "2026-09-16",
+      "pickCount": 33,
       "status": "active",
-      "peak": 173.04,
-      "peakDate": "2026-09-01",
+      "peak": 190.45,
+      "peakDate": "2026-09-15",
       "addedReason": "RS 상위 0.76% · ADR 5.49% · 150일선 위",
       "manualHold": false,
       "history": [
@@ -2197,7 +2214,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -3.78,
+      "drawdownPct": 0,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -2424,7 +2441,7 @@
       "sector": "Technology",
       "industry": "Semiconductors",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
+      "lastPicked": "2026-09-16",
       "pickCount": 19,
       "status": "excluded",
       "peak": null,
@@ -2629,9 +2646,9 @@
       "excludedAsOf": "2026-09-04",
       "firstExcludedAt": "2026-08-12",
       "reentryBlocked": {
-        "date": "2026-09-15",
-        "reason": "50일선 아래 41일 연속(2026-07-16 ~ 2026-09-11)",
-        "count": 7
+        "date": "2026-09-16",
+        "reason": "50일선 아래 43일 연속(2026-07-16 ~ 2026-09-15)",
+        "count": 10
       }
     },
     {
@@ -2821,8 +2838,8 @@
       "sector": "Technology",
       "industry": "Semiconductors",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
-      "pickCount": 39,
+      "lastPicked": "2026-09-16",
+      "pickCount": 42,
       "status": "active",
       "peak": 236.1,
       "peakDate": "2026-09-11",
@@ -3095,7 +3112,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": 0,
+      "drawdownPct": -6.1,
       "excludedAt": null,
       "excludedReason": null,
       "excludedAsOf": null
@@ -3119,15 +3136,15 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -11.9
+      "drawdownPct": -16.16
     },
     {
       "ticker": "SNDK",
       "sector": "Technology",
       "industry": "Computer Hardware",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
-      "pickCount": 26,
+      "lastPicked": "2026-09-16",
+      "pickCount": 29,
       "status": "active",
       "peak": 1764.17,
       "peakDate": "2026-09-09",
@@ -3320,7 +3337,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -7.42,
+      "drawdownPct": -13.22,
       "excludedAt": null,
       "excludedReason": null,
       "excludedAsOf": null
@@ -3414,8 +3431,8 @@
       "sector": "N/A",
       "industry": "N/A",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-14",
-      "pickCount": 26,
+      "lastPicked": "2026-09-16",
+      "pickCount": 29,
       "status": "active",
       "peak": 135.6699981689453,
       "peakDate": "2026-08-05",
@@ -3756,7 +3773,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -7.93,
+      "drawdownPct": -14.97,
       "excludedAt": null,
       "excludedReason": null,
       "excludedAsOf": null
@@ -3766,8 +3783,8 @@
       "sector": "Healthcare",
       "industry": "Diagnostics & Research",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
-      "pickCount": 37,
+      "lastPicked": "2026-09-16",
+      "pickCount": 40,
       "status": "active",
       "peak": 153.1,
       "peakDate": "2026-08-28",
@@ -3790,7 +3807,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -16.9,
+      "drawdownPct": -9.8,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -4077,8 +4094,8 @@
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
-      "pickCount": 36,
+      "lastPicked": "2026-09-16",
+      "pickCount": 39,
       "status": "active",
       "peak": 188.59,
       "peakDate": "2026-08-28",
@@ -4101,7 +4118,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -20.31,
+      "drawdownPct": -1.71,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -4110,8 +4127,8 @@
       "sector": "Healthcare",
       "industry": "Health Information Services",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
-      "pickCount": 27,
+      "lastPicked": "2026-09-16",
+      "pickCount": 30,
       "status": "active",
       "peak": 92.85,
       "peakDate": "2026-08-28",
@@ -4124,7 +4141,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -4.59
+      "drawdownPct": -0.5
     },
     {
       "ticker": "UFPT",
@@ -4187,8 +4204,8 @@
       "sector": "Technology",
       "industry": "Semiconductors",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
-      "pickCount": 26,
+      "lastPicked": "2026-09-16",
+      "pickCount": 29,
       "status": "active",
       "peak": 1027.77,
       "peakDate": "2026-09-09",
@@ -4321,7 +4338,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -5.11,
+      "drawdownPct": -9.75,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -4330,11 +4347,11 @@
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
-      "pickCount": 14,
+      "lastPicked": "2026-09-16",
+      "pickCount": 17,
       "status": "active",
-      "peak": 235.38,
-      "peakDate": "2026-09-14",
+      "peak": 242.49,
+      "peakDate": "2026-09-15",
       "addedReason": "RS 상위 1.63% · ADR 5.3% · 150일선 위",
       "manualHold": false,
       "history": [
@@ -4676,8 +4693,8 @@
       "sector": "Technology",
       "industry": "Software - Application",
       "added": "2026-08-05",
-      "lastPicked": "2026-09-15",
-      "pickCount": 39,
+      "lastPicked": "2026-09-16",
+      "pickCount": 42,
       "status": "active",
       "peak": 194.17,
       "peakDate": "2026-09-01",
@@ -4690,7 +4707,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -7.45
+      "drawdownPct": -2.25
     },
     {
       "ticker": "BXC",
@@ -4731,7 +4748,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -4.48,
+      "drawdownPct": -7.93,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -4764,7 +4781,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -8.44,
+      "drawdownPct": -5.16,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -4773,11 +4790,11 @@
       "sector": "Healthcare",
       "industry": "Diagnostics & Research",
       "added": "2026-08-08",
-      "lastPicked": "2026-09-15",
-      "pickCount": 28,
+      "lastPicked": "2026-09-16",
+      "pickCount": 31,
       "status": "active",
-      "peak": 90.29,
-      "peakDate": "2026-08-27",
+      "peak": 94.64,
+      "peakDate": "2026-09-15",
       "addedReason": "RS 상위 0.4% · ADR 8.59% · 150일선 위",
       "manualHold": false,
       "history": [
@@ -4797,7 +4814,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -5.57,
+      "drawdownPct": 0,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -4848,7 +4865,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -10.27
+      "drawdownPct": -7.41
     },
     {
       "ticker": "ELF",
@@ -4869,7 +4886,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -11.63
+      "drawdownPct": -12.95
     },
     {
       "ticker": "VAC",
@@ -4928,7 +4945,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": 0,
+      "drawdownPct": -2.81,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -4979,7 +4996,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -10.07
+      "drawdownPct": -14.09
     },
     {
       "ticker": "DNTH",
@@ -5066,7 +5083,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -2,
+      "drawdownPct": -7.42,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -5089,7 +5106,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -10.05
+      "drawdownPct": -7.64
     },
     {
       "ticker": "AUGO",
@@ -5130,7 +5147,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -3.75,
+      "drawdownPct": -5.2,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -5153,7 +5170,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -5.35
+      "drawdownPct": -6.37
     },
     {
       "ticker": "TWLO",
@@ -5202,7 +5219,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -16.91
+      "drawdownPct": -17.93
     },
     {
       "ticker": "AXON",
@@ -5239,8 +5256,8 @@
       "sector": "Technology",
       "industry": "Semiconductors",
       "added": "2026-08-12",
-      "lastPicked": "2026-09-15",
-      "pickCount": 8,
+      "lastPicked": "2026-09-16",
+      "pickCount": 11,
       "status": "active",
       "peak": 106.24,
       "peakDate": "2026-09-09",
@@ -5283,7 +5300,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -3.11,
+      "drawdownPct": -8.57,
       "excludedAt": null,
       "excludedReason": null,
       "excludedAsOf": null
@@ -5293,8 +5310,8 @@
       "sector": "Consumer Cyclical",
       "industry": "Apparel Retail",
       "added": "2026-08-12",
-      "lastPicked": "2026-09-15",
-      "pickCount": 14,
+      "lastPicked": "2026-09-16",
+      "pickCount": 17,
       "status": "active",
       "peak": 152.08,
       "peakDate": "2026-09-09",
@@ -5317,7 +5334,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -4.5,
+      "drawdownPct": -11.12,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -5386,7 +5403,7 @@
       "added": "2026-08-14",
       "lastPicked": "2026-09-07",
       "pickCount": 14,
-      "status": "active",
+      "status": "excluded",
       "peak": 253.94,
       "peakDate": "2026-08-25",
       "addedReason": "RS 상위 0.97% · ADR 4.46% · 150일선 위",
@@ -5406,22 +5423,29 @@
           "date": "2026-08-18",
           "status": "active",
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
+        },
+        {
+          "date": "2026-09-16",
+          "status": "excluded",
+          "note": "50일선 아래 3일 연속(2026-09-11 ~ 2026-09-15)"
         }
       ],
-      "drawdownPct": -16.32,
-      "excludedAt": null,
-      "excludedReason": null
+      "drawdownPct": -19.87,
+      "excludedAt": "2026-09-16",
+      "excludedReason": "50일선 아래 3일 연속(2026-09-11 ~ 2026-09-15)",
+      "excludedAsOf": "2026-09-15",
+      "firstExcludedAt": "2026-09-16"
     },
     {
       "ticker": "FROG",
       "sector": "Technology",
       "industry": "Software - Application",
       "added": "2026-08-14",
-      "lastPicked": "2026-09-15",
-      "pickCount": 11,
+      "lastPicked": "2026-09-16",
+      "pickCount": 14,
       "status": "active",
-      "peak": 93,
-      "peakDate": "2026-09-14",
+      "peak": 94.8,
+      "peakDate": "2026-09-15",
       "addedReason": "RS 상위 1.19% · ADR 6.93% · 150일선 위",
       "manualHold": false,
       "history": [
@@ -5524,7 +5548,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": -14.52,
+      "drawdownPct": -12.7,
       "excludedAt": null,
       "excludedReason": null
     },
@@ -5573,7 +5597,7 @@
       "added": "2026-08-14",
       "lastPicked": "2026-09-10",
       "pickCount": 14,
-      "status": "active",
+      "status": "excluded",
       "peak": 904.38,
       "peakDate": "2026-09-08",
       "addedReason": "RS 상위 1.91% · ADR 8.27% · 150일선 위",
@@ -5663,12 +5687,17 @@
           "date": "2026-09-09",
           "status": "active",
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
+        },
+        {
+          "date": "2026-09-16",
+          "status": "excluded",
+          "note": "50일선 아래 3일 연속(2026-09-11 ~ 2026-09-15)"
         }
       ],
-      "drawdownPct": -8.21,
-      "excludedAt": null,
-      "excludedReason": null,
-      "excludedAsOf": null,
+      "drawdownPct": -14.66,
+      "excludedAt": "2026-09-16",
+      "excludedReason": "50일선 아래 3일 연속(2026-09-11 ~ 2026-09-15)",
+      "excludedAsOf": "2026-09-15",
       "firstExcludedAt": "2026-09-03",
       "reentryBlocked": {
         "date": "2026-09-07",
@@ -5737,8 +5766,8 @@
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "added": "2026-08-21",
-      "lastPicked": "2026-09-15",
-      "pickCount": 16,
+      "lastPicked": "2026-09-16",
+      "pickCount": 19,
       "status": "active",
       "peak": 158.83,
       "peakDate": "2026-08-26",
@@ -5751,7 +5780,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -9.36
+      "drawdownPct": -9.48
     },
     {
       "ticker": "MANH",
@@ -5772,15 +5801,15 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -9.81
+      "drawdownPct": -6.32
     },
     {
       "ticker": "NOW",
       "sector": "Technology",
       "industry": "Software - Application",
       "added": "2026-08-21",
-      "lastPicked": "2026-09-15",
-      "pickCount": 2,
+      "lastPicked": "2026-09-16",
+      "pickCount": 5,
       "status": "active",
       "peak": 147.99,
       "peakDate": "2026-09-01",
@@ -5793,7 +5822,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -10.45
+      "drawdownPct": -4.12
     },
     {
       "ticker": "GWRE",
@@ -5844,7 +5873,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -9.26
+      "drawdownPct": -4.01
     },
     {
       "ticker": "CAKE",
@@ -5865,7 +5894,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -10.97
+      "drawdownPct": -16.14
     },
     {
       "ticker": "AMR",
@@ -5886,7 +5915,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -11.15
+      "drawdownPct": -19.97
     },
     {
       "ticker": "KNSA",
@@ -5907,7 +5936,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -4.9
+      "drawdownPct": -6.3
     },
     {
       "ticker": "CRCL",
@@ -5916,7 +5945,7 @@
       "added": "2026-08-25",
       "lastPicked": "2026-09-15",
       "pickCount": 15,
-      "status": "active",
+      "status": "excluded",
       "peak": 102.05,
       "peakDate": "2026-09-04",
       "addedReason": "RS 상위 1.99% · ADR 6.98% · 150일선 위",
@@ -5926,9 +5955,18 @@
           "date": "2026-08-25",
           "status": "active",
           "note": "신규 편입 (2팀 선정)"
+        },
+        {
+          "date": "2026-09-16",
+          "status": "excluded",
+          "note": "종가가 150일선 아래"
         }
       ],
-      "drawdownPct": -11.22
+      "drawdownPct": -15.43,
+      "excludedAt": "2026-09-16",
+      "excludedAsOf": "2026-09-15",
+      "firstExcludedAt": "2026-09-16",
+      "excludedReason": "종가가 150일선 아래"
     },
     {
       "ticker": "GKOS",
@@ -5949,7 +5987,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -9.61
+      "drawdownPct": -7.22
     },
     {
       "ticker": "INBX",
@@ -5970,7 +6008,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -13.76
+      "drawdownPct": -16.65
     },
     {
       "ticker": "MP",
@@ -6019,7 +6057,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -9.22
+      "drawdownPct": -10.65
     },
     {
       "ticker": "LITE",
@@ -6040,7 +6078,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -6.26
+      "drawdownPct": -15.17
     },
     {
       "ticker": "DOCN",
@@ -6109,7 +6147,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -7.86
+      "drawdownPct": -7.37
     },
     {
       "ticker": "NUTX",
@@ -6119,8 +6157,8 @@
       "lastPicked": "2026-09-15",
       "pickCount": 6,
       "status": "active",
-      "peak": 200.24,
-      "peakDate": "2026-09-11",
+      "peak": 215.33,
+      "peakDate": "2026-09-15",
       "addedReason": "RS 상위 1.91% · ADR 7.42% · 150일선 위",
       "manualHold": false,
       "history": [
@@ -6139,7 +6177,7 @@
       "added": "2026-08-27",
       "lastPicked": "2026-08-28",
       "pickCount": 2,
-      "status": "active",
+      "status": "excluded",
       "peak": 74.89,
       "peakDate": "2026-08-27",
       "addedReason": "RS 상위 1.99% · ADR 4.38% · 150일선 위",
@@ -6149,9 +6187,18 @@
           "date": "2026-08-27",
           "status": "active",
           "note": "신규 편입 (2팀 선정)"
+        },
+        {
+          "date": "2026-09-16",
+          "status": "excluded",
+          "note": "50일선 아래 3일 연속(2026-09-11 ~ 2026-09-15) · 종가가 150일선 아래"
         }
       ],
-      "drawdownPct": -14.89
+      "drawdownPct": -16.29,
+      "excludedAt": "2026-09-16",
+      "excludedAsOf": "2026-09-15",
+      "firstExcludedAt": "2026-09-16",
+      "excludedReason": "50일선 아래 3일 연속(2026-09-11 ~ 2026-09-15) · 종가가 150일선 아래"
     },
     {
       "ticker": "SIMO",
@@ -6192,7 +6239,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": 0,
+      "drawdownPct": -15.92,
       "excludedAt": null,
       "excludedReason": null,
       "excludedAsOf": null
@@ -6216,7 +6263,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -9.91
+      "drawdownPct": -15.6
     },
     {
       "ticker": "XMTR",
@@ -6267,15 +6314,15 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -12.63
+      "drawdownPct": -13.82
     },
     {
       "ticker": "MLAB",
       "sector": "Technology",
       "industry": "Scientific & Technical Instruments",
       "added": "2026-09-03",
-      "lastPicked": "2026-09-15",
-      "pickCount": 7,
+      "lastPicked": "2026-09-16",
+      "pickCount": 10,
       "status": "active",
       "peak": 130.65,
       "peakDate": "2026-09-03",
@@ -6288,15 +6335,15 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -7.49
+      "drawdownPct": -2.68
     },
     {
       "ticker": "MSTR",
       "sector": "Technology",
       "industry": "Software - Application",
       "added": "2026-09-07",
-      "lastPicked": "2026-09-15",
-      "pickCount": 6,
+      "lastPicked": "2026-09-16",
+      "pickCount": 9,
       "status": "active",
       "peak": 130.97,
       "peakDate": "2026-09-11",
@@ -6319,7 +6366,7 @@
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
         }
       ],
-      "drawdownPct": 0,
+      "drawdownPct": -1.05,
       "excludedAt": null,
       "excludedAsOf": null,
       "firstExcludedAt": "2026-09-11",
@@ -6344,7 +6391,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -7.81
+      "drawdownPct": -9.55
     },
     {
       "ticker": "MRX",
@@ -6365,7 +6412,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -6.73
+      "drawdownPct": -12.61
     },
     {
       "ticker": "PVLA",
@@ -6386,7 +6433,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -4.52
+      "drawdownPct": -3.83
     },
     {
       "ticker": "BE",
@@ -6407,7 +6454,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": -0.53
+      "drawdownPct": -6.45
     },
     {
       "ticker": "SMTC",
@@ -6428,7 +6475,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": 0
+      "drawdownPct": -9.76
     },
     {
       "ticker": "IREN",
@@ -6467,7 +6514,7 @@
       "added": "2026-09-09",
       "lastPicked": "2026-09-15",
       "pickCount": 3,
-      "status": "active",
+      "status": "excluded",
       "peak": 191.45,
       "peakDate": "2026-09-14",
       "addedReason": "RS 상위 1.99% · ADR 5.55% · 150일선 위",
@@ -6487,13 +6534,18 @@
           "date": "2026-09-15",
           "status": "active",
           "note": "재편입 (2팀 기준 재충족, peak 리셋)"
+        },
+        {
+          "date": "2026-09-16",
+          "status": "excluded",
+          "note": "종가가 150일선 아래"
         }
       ],
-      "drawdownPct": 0,
-      "excludedAt": null,
-      "excludedAsOf": null,
+      "drawdownPct": -10.1,
+      "excludedAt": "2026-09-16",
+      "excludedAsOf": "2026-09-15",
       "firstExcludedAt": "2026-09-11",
-      "excludedReason": null
+      "excludedReason": "종가가 150일선 아래"
     },
     {
       "ticker": "CRM",
@@ -6503,8 +6555,8 @@
       "lastPicked": "2026-09-11",
       "pickCount": 1,
       "status": "active",
-      "peak": 247.72,
-      "peakDate": "2026-09-11",
+      "peak": 255.65,
+      "peakDate": "2026-09-15",
       "addedReason": "RS 상위 0.61% · ADR 4.05% · 150일선 위",
       "manualHold": false,
       "history": [
@@ -6521,11 +6573,11 @@
       "sector": "Technology",
       "industry": "Semiconductors",
       "added": "2026-09-11",
-      "lastPicked": "2026-09-14",
-      "pickCount": 2,
+      "lastPicked": "2026-09-16",
+      "pickCount": 5,
       "status": "active",
-      "peak": 88.35,
-      "peakDate": "2026-09-11",
+      "peak": 90,
+      "peakDate": "2026-09-15",
       "addedReason": "RS 상위 0.9% · ADR 4.82% · 150일선 위",
       "manualHold": false,
       "history": [
@@ -6542,11 +6594,11 @@
       "sector": "Technology",
       "industry": "Software - Application",
       "added": "2026-09-11",
-      "lastPicked": "2026-09-11",
-      "pickCount": 1,
+      "lastPicked": "2026-09-16",
+      "pickCount": 4,
       "status": "active",
-      "peak": 661.9,
-      "peakDate": "2026-09-11",
+      "peak": 687.66,
+      "peakDate": "2026-09-15",
       "addedReason": "RS 상위 1.48% · ADR 4.85% · 150일선 위",
       "manualHold": false,
       "history": [
@@ -6577,7 +6629,7 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": 0
+      "drawdownPct": -11.67
     },
     {
       "ticker": "SPSC",
@@ -6598,23 +6650,128 @@
           "note": "신규 편입 (2팀 선정)"
         }
       ],
-      "drawdownPct": 0
+      "drawdownPct": -0.82
     },
     {
       "ticker": "ZS",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "added": "2026-09-15",
-      "lastPicked": "2026-09-15",
-      "pickCount": 1,
+      "lastPicked": "2026-09-16",
+      "pickCount": 4,
       "status": "active",
-      "peak": 191.73,
-      "peakDate": "2026-09-14",
+      "peak": 193.89,
+      "peakDate": "2026-09-15",
       "addedReason": "RS 상위 1.86% · ADR 5.23% · 150일선 위",
       "manualHold": false,
       "history": [
         {
           "date": "2026-09-15",
+          "status": "active",
+          "note": "신규 편입 (2팀 선정)"
+        }
+      ],
+      "drawdownPct": 0
+    },
+    {
+      "ticker": "EPAM",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "added": "2026-09-16",
+      "lastPicked": "2026-09-16",
+      "pickCount": 3,
+      "status": "active",
+      "peak": 123.51,
+      "peakDate": "2026-09-15",
+      "addedReason": "RS 상위 0.54% · ADR 4.07% · 150일선 위",
+      "manualHold": false,
+      "history": [
+        {
+          "date": "2026-09-16",
+          "status": "active",
+          "note": "신규 편입 (2팀 선정)"
+        }
+      ],
+      "drawdownPct": 0
+    },
+    {
+      "ticker": "DUOL",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "added": "2026-09-16",
+      "lastPicked": "2026-09-16",
+      "pickCount": 3,
+      "status": "active",
+      "peak": 153.92,
+      "peakDate": "2026-09-15",
+      "addedReason": "RS 상위 1.27% · ADR 4.86% · 150일선 위",
+      "manualHold": false,
+      "history": [
+        {
+          "date": "2026-09-16",
+          "status": "active",
+          "note": "신규 편입 (2팀 선정)"
+        }
+      ],
+      "drawdownPct": 0
+    },
+    {
+      "ticker": "SIG",
+      "sector": "Consumer Cyclical",
+      "industry": "Luxury Goods",
+      "added": "2026-09-16",
+      "lastPicked": "2026-09-16",
+      "pickCount": 3,
+      "status": "active",
+      "peak": 99.87,
+      "peakDate": "2026-09-15",
+      "addedReason": "RS 상위 1.63% · ADR 4.09% · 150일선 위",
+      "manualHold": false,
+      "history": [
+        {
+          "date": "2026-09-16",
+          "status": "active",
+          "note": "신규 편입 (2팀 선정)"
+        }
+      ],
+      "drawdownPct": 0
+    },
+    {
+      "ticker": "FLXS",
+      "sector": "Consumer Cyclical",
+      "industry": "Furnishings, Fixtures & Appliances",
+      "added": "2026-09-16",
+      "lastPicked": "2026-09-16",
+      "pickCount": 3,
+      "status": "active",
+      "peak": 82.11,
+      "peakDate": "2026-09-15",
+      "addedReason": "RS 상위 1.7% · ADR 5.24% · 150일선 위",
+      "manualHold": false,
+      "history": [
+        {
+          "date": "2026-09-16",
+          "status": "active",
+          "note": "신규 편입 (2팀 선정)"
+        }
+      ],
+      "drawdownPct": 0
+    },
+    {
+      "ticker": "FTNT",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "added": "2026-09-16",
+      "lastPicked": "2026-09-16",
+      "pickCount": 3,
+      "status": "active",
+      "peak": 172.37,
+      "peakDate": "2026-09-15",
+      "addedReason": "RS 상위 1.93% · ADR 4.29% · 150일선 위",
+      "manualHold": false,
+      "history": [
+        {
+          "date": "2026-09-16",
           "status": "active",
           "note": "신규 편입 (2팀 선정)"
         }

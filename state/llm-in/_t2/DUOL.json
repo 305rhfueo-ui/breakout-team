@@ -1,0 +1,239 @@
+{
+ "ticker": "DUOL",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "듀오링고",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 16.34,
+  "saleNy": 13.28,
+  "epsCy": -43.8,
+  "epsNy": 15.52,
+  "est": {
+   "cyCur": 6.61264,
+   "cy30": 6.68781,
+   "nyCur": 7.63905,
+   "ny30": 7.84666
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    18.31,
+    26.53,
+    34.99
+   ],
+   "ni": [
+    -25.96,
+    23.69,
+    201.68
+   ],
+   "opm": [
+    11.37,
+    15.25,
+    15.36
+   ],
+   "updated": "2026-09-08 07:50:58"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-09-15",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-16",
+  "nameKo": "듀오링고",
+  "nameEn": "DUOLINGO INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001562088&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 298454000,
+     "profit": 33945000,
+     "netIncome": 33158000,
+     "margin": 11.4,
+     "yoy": {
+      "revenue": 18.3,
+      "profit": 1.7,
+      "netIncome": -26,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 291967000,
+     "profit": 44527000,
+     "netIncome": 43460000,
+     "margin": 15.3,
+     "yoy": {
+      "revenue": 26.5,
+      "profit": 88.7,
+      "netIncome": 23.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 282868000,
+     "profit": 43454000,
+     "netIncome": 41956000,
+     "margin": 15.4,
+     "yoy": {
+      "revenue": 35,
+      "profit": 213,
+      "netIncome": 208.2,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 271713000,
+     "profit": 35159000,
+     "netIncome": 292195000,
+     "margin": 12.9,
+     "yoy": {
+      "revenue": 41.1,
+      "profit": 159,
+      "netIncome": 1150.8,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Duolingo's General Counsel Sells Over 8,000 Shares for $1.2 Million After the Stock's 51% One-Year Decline",
+     "url": "https://www.nasdaq.com/articles/duolingos-general-counsel-sells-over-8000-shares-12-million-after-stocks-51-one-year",
+     "date": "2026-09-16",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Investors Heavily Search Duolingo, Inc. (DUOL): Here is What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/investors-heavily-search-duolingo-inc-duol-here-what-you-need-know-0",
+     "date": "2026-09-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "The Green Owl Is Ending Duolingo's Own Cash Cow. Here's Why That's Good News For Users and Investors.",
+     "url": "https://www.nasdaq.com/articles/green-owl-ending-duolingos-own-cash-cow-heres-why-thats-good-news-users-and-investors",
+     "date": "2026-09-14",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Duolingo, Inc. (DUOL) Stock Declines While Market Improves: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/duolingo-inc-duol-stock-declines-while-market-improves-some-information-investors",
+     "date": "2026-09-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "A Duolingo Director Sells 10,000 Shares for $1.5 Million Amid a 46% One-Year Decline in the Stock",
+     "url": "https://www.nasdaq.com/articles/duolingo-director-sells-10000-shares-15-million-amid-46-one-year-decline-stock",
+     "date": "2026-09-11",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Can DUOL's 23% Daily User Growth Sustain Its Momentum?",
+     "url": "https://www.nasdaq.com/articles/can-duols-23-daily-user-growth-sustain-its-momentum",
+     "date": "2026-09-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Duolingo the Next Netflix-Style Comeback Story?",
+     "url": "https://www.nasdaq.com/articles/duolingo-next-netflix-style-comeback-story",
+     "date": "2026-09-05",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Duolingo (DUOL) Up 29.6% Since Last Earnings Report: Can It Continue?",
+     "url": "https://www.nasdaq.com/articles/duolingo-duol-296-last-earnings-report-can-it-continue",
+     "date": "2026-09-04",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-19",
+    "itemsKo": [
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026057818/duol-20260818.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-10",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026055015/duol-20260810.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026053299/duol-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-05",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026041280/duol-20260603.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026029790/duol-20260504.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-26",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026012246/duol-20260226.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "ticker": "FITB",
+ "news": [
+  {
+   "title": "Why Fifth Third Bancorp (FITB) is a Great Dividend Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/why-fifth-third-bancorp-fitb-great-dividend-stock-right-now-1",
+   "date": "2026-09-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "FITB Bets Big on Texas: Can Its Planned $1B Investment Drive Growth?",
+   "url": "https://www.nasdaq.com/articles/fitb-bets-big-texas-can-its-planned-1b-investment-drive-growth",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Will FITB's Branch Expansion & Comerica Deal Pay Off for Investors?",
+   "url": "https://www.nasdaq.com/articles/will-fitbs-branch-expansion-comerica-deal-pay-investors",
+   "date": "2026-08-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Fifth Third Bancorp (FITB) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/fifth-third-bancorp-fitb-could-be-great-choice-1",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Fifth Third Bancorp (FITB) is a Great Dividend Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/why-fifth-third-bancorp-fitb-great-dividend-stock-right-now-0",
+   "date": "2026-07-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Fifth Third (FITB) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/fifth-third-fitb-q2-2026-earnings-call-transcript",
+   "date": "2026-07-18",
+   "publisher": "The Motley Fool"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-14",
+   "reportDate": "2026-09-14",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000219/fitb-20260914.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-21",
+   "reportDate": "2026-08-21",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000209/fitb-20260821.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000197/fitb-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-17",
+   "reportDate": "2026-07-17",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000193/fitb-20260717.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-10",
+   "reportDate": "2026-06-08",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/35527/000119312526265928/d129179d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-09",
+   "reportDate": "2026-06-09",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000190/fitb-20260609.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 42.16,
+  "saleNy": 8.65,
+  "epsCy": -13.09,
+  "epsNy": 59.48,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    37.01,
+    23.7,
+    0.49
+   ],
+   "ni": [
+    29.1,
+    -73.22,
+    20.1
+   ],
+   "opm": [
+    23.38,
+    5.35,
+    27.85
+   ],
+   "updated": "2026-09-06 06:11:38"
+  }
+ }
+}

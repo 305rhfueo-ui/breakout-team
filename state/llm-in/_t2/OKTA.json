@@ -46,13 +46,13 @@
    "m6": "2026-09-14"
   },
   "top2Streak": {
-   "m1": 1,
-   "m3": 1,
-   "m6": 1
+   "m1": 2,
+   "m3": 2,
+   "m6": 2
   }
  },
  "detail": {
-  "fetchedAt": "2026-09-15",
+  "fetchedAt": "2026-09-16",
   "nameKo": "옥타",
   "nameEn": "OKTA INC",
   "financials": {
@@ -162,12 +162,6 @@
      "url": "https://www.nasdaq.com/articles/okta-cfo-dumps-80000-company-shares-worth-129-million-after-stock-hit-52-week-high",
      "date": "2026-09-07",
      "publisher": "The Motley Fool"
-    },
-    {
-     "title": "Why Okta (OKTA) is a Top Momentum Stock for the Long-Term",
-     "url": "https://www.nasdaq.com/articles/why-okta-okta-top-momentum-stock-long-term",
-     "date": "2026-09-04",
-     "publisher": "Zacks"
     }
    ]
   },

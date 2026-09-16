@@ -1,0 +1,156 @@
+{
+ "ticker": "GH",
+ "news": [
+  {
+   "title": "Guardant Health (GH) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/guardant-health-gh-q2-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Guardant Health (GH) Reports Q2 Loss, Tops Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/guardant-health-gh-reports-q2-loss-tops-revenue-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Guardant Health (GH) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "url": "https://www.nasdaq.com/articles/guardant-health-gh-q2-earnings-how-key-metrics-compare-wall-street-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wall Street's Insights Into Key Metrics Ahead of Guardant Health (GH) Q2 Earnings",
+   "url": "https://www.nasdaq.com/articles/wall-streets-insights-key-metrics-ahead-guardant-health-gh-q2-earnings",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1576280/000157628026000036/gh-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-17",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1576280/000119312526275864/d166199d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1576280/000157628026000024/gh-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-27",
+   "reportDate": "2026-04-27",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1576280/000119312526182391/d122370d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-19",
+   "reportDate": "2026-02-19",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1576280/000157628026000012/gh-20260219.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-12",
+   "reportDate": "2026-01-11",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1576280/000157628026000004/gh-20260111.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 38.25,
+  "saleNy": 35.51,
+  "epsCy": -19.52,
+  "epsNy": -72.82,
+  "cyTrend": 0.7,
+  "nyTrend": -11.57,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    44.33,
+    48.26,
+    39.37
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -38.55,
+    -40.23,
+    -42.95
+   ],
+   "updated": "2026-09-07 07:28:02"
+  }
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "ticker": "AAMI",
+ "news": [
+  {
+   "title": "Is Acadian Asset Management Inc. (AAMI) Outperforming Other Finance Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/acadian-asset-management-inc-aami-outperforming-other-finance-stocks-year-0",
+   "date": "2026-08-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Acadian Asset Management (AAMI) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/acadian-asset-management-aami-q2-2026-earnings-call-transcript-0",
+   "date": "2026-08-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Acadian Asset Management (AAMI) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/acadian-asset-management-aami-q2-2026-earnings-call-transcript",
+   "date": "2026-07-31",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Acadian Asset Management (AAMI) Reports Next Week: Wall Street Expects Earnings Growth",
+   "url": "https://www.nasdaq.com/articles/acadian-asset-management-aami-reports-next-week-wall-street-expects-earnings-growth-0",
+   "date": "2026-07-23",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1748824/000162828026050801/aami-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-11",
+   "reportDate": "2026-06-11",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1748824/000162828026042520/aami-20260611.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-19",
+   "reportDate": "2026-05-19",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1748824/000162828026036160/aami-20260519.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1748824/000162828026028588/aami-20260430.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "reportDate": "2026-02-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1748824/000162828026005619/aami-20260205.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-25",
+   "reportDate": "2025-11-25",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1748824/000162828025054025/aami-20251125.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 40.9,
+  "saleNy": 17.72,
+  "epsCy": 64.92,
+  "epsNy": 20.65,
+  "cyTrend": -0.28,
+  "nyTrend": -0.72,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    45.29,
+    39.28,
+    2.62
+   ],
+   "ni": [
+    170.3,
+    20.9,
+    -18.35
+   ],
+   "opm": [
+    17.5,
+    25.09,
+    33.33
+   ],
+   "updated": "2026-09-08 09:55:45"
+  }
+ }
+}

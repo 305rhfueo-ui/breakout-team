@@ -1,132 +1,12 @@
 {
- "date": "2026-09-15",
+ "date": "2026-09-16",
  "cap": 6,
  "poolTotal": 12,
  "industries": [
   {
-   "key": "Consumer Cyclical|Department Stores",
-   "sector": "Consumer Cyclical",
-   "industry": "Department Stores",
-   "count": 1,
-   "counts": {
-    "m1": 1,
-    "m3": 1,
-    "m6": 1
-   },
-   "wrs": {
-    "m1": 0.1632,
-    "m3": 0.1682,
-    "m6": 0.1479
-   },
-   "final": {
-    "m1": 0.0218,
-    "m3": 0.0224,
-    "m6": 0.0197
-   },
-   "rankPct": {
-    "m1": 0.72,
-    "m3": 7.19,
-    "m6": 31.65
-   },
-   "pickedBy": [
-    "m1"
-   ],
-   "members": [],
-   "memberNews": [],
-   "flow": {
-    "FRANK": 112,
-    "frank25": 5,
-    "f10": 107.36842105263158,
-    "f25": 458.1818181818182,
-    "d50": 9.52,
-    "d200": 7.91,
-    "d200Delta": 4.92,
-    "cy": 6.35,
-    "ny": 1.26,
-    "upRatio": 100,
-    "coverage": 4,
-    "winRate": 1,
-    "stage": "early",
-    "stageKo": "⭐ 상승 초입",
-    "flow": "narrow"
-   }
-  },
-  {
-   "key": "Healthcare|Health Information Services",
-   "sector": "Healthcare",
-   "industry": "Health Information Services",
-   "count": 6,
-   "counts": {
-    "m1": 6,
-    "m3": 6,
-    "m6": 6
-   },
-   "wrs": {
-    "m1": -0.0025,
-    "m3": 0.3587,
-    "m6": 0.3153
-   },
-   "final": {
-    "m1": 0.0249,
-    "m3": 0.1567,
-    "m6": 0.2378
-   },
-   "rankPct": {
-    "m1": 31.65,
-    "m3": 1.44,
-    "m6": 10.07
-   },
-   "pickedBy": [
-    "m3"
-   ],
-   "members": [
-    "HNGE"
-   ],
-   "memberNews": [
-    {
-     "ticker": "HNGE",
-     "date": "2026-09-04",
-     "publisher": "The Motley Fool",
-     "title": "Hinge Health Director Kristina Leslie Sells 1,200 Shares for $105,876",
-     "url": "https://www.nasdaq.com/articles/hinge-health-director-kristina-leslie-sells-1200-shares-105876"
-    },
-    {
-     "ticker": "HNGE",
-     "date": "2026-09-03",
-     "publisher": "Zacks",
-     "title": "Hinge Health Inc. (HNGE) Up 13.7% Since Last Earnings Report: Can It Continue?",
-     "url": "https://www.nasdaq.com/articles/hinge-health-inc-hnge-137-last-earnings-report-can-it-continue"
-    },
-    {
-     "ticker": "HNGE",
-     "date": "2026-08-20",
-     "publisher": "MarketBeat",
-     "title": "One Platform, Every Ailment: Hinge Health's Gamble",
-     "url": "https://www.nasdaq.com/articles/one-platform-every-ailment-hinge-healths-gamble"
-    }
-   ],
-   "flow": {
-    "FRANK": 18,
-    "frank25": 0,
-    "f10": -3.2546786004881936,
-    "f25": 6.160714285714289,
-    "d50": -4.73,
-    "d200": 18.575000000000003,
-    "d200Delta": -6.949999999999996,
-    "cy": 0.1,
-    "ny": 0.97,
-    "upRatio": 65.38461538461539,
-    "coverage": 286,
-    "winRate": 0.8333,
-    "stage": "pullback",
-    "stageKo": "❄️ 조정 중",
-    "flow": "outflow"
-   }
-  },
-  {
-   "key": "Healthcare|Healthcare Plans",
-   "sector": "Healthcare",
-   "industry": "Healthcare Plans",
+   "key": "Basic Materials|Agricultural Inputs",
+   "sector": "Basic Materials",
+   "industry": "Agricultural Inputs",
    "count": 7,
    "counts": {
     "m1": 7,
@@ -134,41 +14,41 @@
     "m6": 7
    },
    "wrs": {
-    "m1": -0.0054,
-    "m3": 0.0089,
-    "m6": 0.4958
+    "m1": 0.1211,
+    "m3": 0.168,
+    "m6": 0.042
    },
    "final": {
-    "m1": 0.0769,
-    "m3": 0.0943,
-    "m6": 0.3275
+    "m1": 0.1086,
+    "m3": 0.1254,
+    "m6": 0.0762
    },
    "rankPct": {
-    "m1": 35.25,
-    "m3": 49.64,
-    "m6": 2.88
+    "m1": 1.45,
+    "m3": 9.42,
+    "m6": 60.14
    },
    "pickedBy": [
-    "top10"
+    "m1"
    ],
    "members": [],
    "memberNews": [],
    "flow": {
-    "FRANK": 8,
-    "frank25": -2,
-    "f10": 16.341030195381897,
-    "f25": 9.166666666666675,
-    "d50": 2.93,
-    "d200": 18.41,
-    "d200Delta": 0.08999999999999986,
-    "cy": 0,
-    "ny": 0,
-    "upRatio": 62.65664160401002,
-    "coverage": 399,
-    "winRate": 1,
-    "stage": "mid_up",
-    "stageKo": "📈 상승 중반 (확장 중)",
-    "flow": "neutral"
+    "FRANK": 81,
+    "frank25": 4,
+    "f10": 2.972972972972983,
+    "f25": 42.16417910447762,
+    "d50": 0.25,
+    "d200": 7.42,
+    "d200Delta": 5.095,
+    "cy": -0.03,
+    "ny": -0.14,
+    "upRatio": 32.467532467532465,
+    "coverage": 154,
+    "winRate": 0.5714,
+    "stage": "early",
+    "stageKo": "⭐ 상승 초입",
+    "flow": "narrow"
    }
   }
  ]

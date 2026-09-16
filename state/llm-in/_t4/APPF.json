@@ -1,0 +1,176 @@
+{
+ "ticker": "APPF",
+ "news": [
+  {
+   "title": "AppFolio (APPF) Just Overtook the 20-Day Moving Average",
+   "url": "https://www.nasdaq.com/articles/appfolio-appf-just-overtook-20-day-moving-average",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "AppFolio (APPF) Beats Stock Market Upswing: What Investors Need to Know",
+   "url": "https://www.nasdaq.com/articles/appfolio-appf-beats-stock-market-upswing-what-investors-need-know",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why AppFolio (APPF) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-appfolio-appf-strong-momentum-stock-0",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "AppFolio (APPF) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+   "url": "https://www.nasdaq.com/articles/appfolio-appf-sees-more-significant-dip-broader-market-some-facts-know",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Brokers Suggest Investing in AppFolio (APPF): Read This Before Placing a Bet",
+   "url": "https://www.nasdaq.com/articles/brokers-suggest-investing-appfolio-appf-read-placing-bet",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "AppFolio (APPF) Just Flashed Golden Cross Signal: Do You Buy?",
+   "url": "https://www.nasdaq.com/articles/appfolio-appf-just-flashed-golden-cross-signal-do-you-buy",
+   "date": "2026-09-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "3 Reasons Growth Investors Will Love AppFolio (APPF)",
+   "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-appfolio-appf",
+   "date": "2026-08-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is It Worth Investing in AppFolio (APPF) Based on Wall Street's Bullish Views?",
+   "url": "https://www.nasdaq.com/articles/it-worth-investing-appfolio-appf-based-wall-streets-bullish-views",
+   "date": "2026-08-19",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1433195/000143319526000056/appf-20260723.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-01",
+   "reportDate": "2026-06-26",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1433195/000143319526000040/appf-20260626.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-15",
+   "reportDate": "2026-06-12",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1433195/000143319526000034/appf-20260612.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "2.02"
+   ],
+   "itemsKo": [
+    "실적 발표"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1433195/000143319526000021/appf-20260423.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-10",
+   "reportDate": "2026-04-09",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1433195/000143319526000016/appf-20260409.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-29",
+   "reportDate": "2026-01-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1433195/000143319526000006/appf-20260129.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 18.19,
+  "saleNy": 17.45,
+  "epsCy": 30.39,
+  "epsNy": 22.23,
+  "cyTrend": 0.02,
+  "nyTrend": 0.12,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    19.34,
+    20.45,
+    21.86
+   ],
+   "ni": [
+    15.46,
+    35.18,
+    -61.15
+   ],
+   "opm": [
+    18.84,
+    19.35,
+    17.56
+   ],
+   "updated": "2026-09-08 08:14:40"
+  }
+ }
+}
