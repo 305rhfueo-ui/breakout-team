@@ -8,7 +8,7 @@ argument-hint: "[light | full]  (기본 full)"
 `breakout-team/` 의 5팀 시스템을 실행한다. 사용자가 `start breakout`, `브레이크아웃 실행`,
 `/start-breakout` 중 무엇으로 부르든 이 절차를 따른다.
 
-REPO 경로: `c:\Users\305le\OneDrive\바탕 화면\클로드코드test\breakout-team`
+REPO 경로: `c:\Users\305le\OneDrive\바탕 화면\AI 관련\클로드코드test\breakout-team`
 
 ## 최우선 원칙
 
@@ -22,12 +22,12 @@ REPO 경로: `c:\Users\305le\OneDrive\바탕 화면\클로드코드test\breakout
 ### 1. Node 파이프라인 (필수, 약 10~20초)
 
 ```bash
-cd "c:\Users\305le\OneDrive\바탕 화면\클로드코드test\breakout-team"
+cd "c:\Users\305le\OneDrive\바탕 화면\AI 관련\클로드코드test\breakout-team"
 node scripts/run-breakout.js
 ```
 
 - `state/rs-snapshots` 가 비어 있다는 경고가 나오면 먼저 `node scripts/backfill-history.js` 를 1회 실행 (약 25초)
-- 출력에서 다음을 읽어둔다: QQQ 판정 · FINRA YoY · 2팀 퍼널 · 3팀 활성/배제 · 4팀 국면 · 차트확인 종목
+- 출력에서 다음을 읽어둔다: QQQ 판정 · FINRA YoY · 2팀 퍼널 · 3팀 활성/배제 · 4팀 후보(150일선 위)·제외 수 · 차트확인 종목
 
 `light` 인자가 주어지면 여기서 멈추고 결과만 보고한다.
 
@@ -59,9 +59,11 @@ Workflow({ scriptPath: '<REPO>/scripts/workflows/team5-sector.js',   args: {...}
 4개는 서로 독립이므로 **한 메시지에서 병렬로** 띄운다.
 
 **조사 대상은 매일 순환하고, TTL(5거래일) 안에 조사한 대상은 건너뛴다.** `prepare-llm-args.js` 가
-① 신규 ② TTL 경과 ③ 변화(오늘 돌파·차트확인 진입·최근 8-K 실적·국면 전환) 만 남기고, 나머지는
+① 신규 ② TTL 경과 ③ 변화(오늘 돌파·차트확인 진입·최근 8-K 실적) 만 남기고, 나머지는
 `run-breakout.js` 가 지난 결과를 이월해 둔다(`researchedOn` 표기). 그래서 **2팀 에이전트가 20명보다 훨씬 적어도
 정상이다** — 실행 로그의 `조사 이유` / `이월` 줄로 확인한다. 5팀도 같은 방식으로 업종을 건너뛴다.
+**4팀은 다르다(2026-09-16)**: 150일선 위 후보 전원이 대상이고 상한이 없다. 5거래일 안에 같은 자료(뉴스·8-K URL 집합)로
+조사한 종목만 이월한다. 그래서 4팀 에이전트는 하루 20~30명이 정상이다.
 (2026-09-03 감사: 이 로직이 없을 때 2팀 68%·5팀 87%가 TTL 안 재조사였다 — 하루 약 300만 토큰의 절반)
 
 **에이전트가 죽으면 워크플로가 1회 자동 재시도한다.** 그래도 실패하면 결과에 `failed: [티커]`

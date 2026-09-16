@@ -7,9 +7,12 @@
 //    조사한 종목을 68% 다시 조사했고 5팀은 같은 업종을 87% 다시 조사했다(하루 약 300만 토큰의 절반).
 //    이제 TTL 안이면 건너뛰고(run-breakout 이 지난 결과를 이월), 신규·TTL 경과·변화(돌파·8-K·차트확인) 만 조사한다.
 //    cap 은 상한이지 목표가 아니다 — 에이전트 수가 줄어드는 것이 정상이다.
+// ⚠️ 4팀은 예외 (2026-09-16 사용자 결정): 국면 필터·VOL_X≥3·상한 없이 150일선 위 후보 전원이 대상이다.
+//    남는 건 "자료 지문 이월" 하나 — 5거래일 안에 조사했고 뉴스·8-K URL 집합이 그대로면 어제 결과를 쓴다.
 
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 const { paths, loadEnv, ensureDir, say, readJson } = require('./lib/util');
 const rot = require('./lib/research-rotation');
 const cal = require('./lib/market-calendar');
@@ -137,27 +140,20 @@ async function main() {
     picksTotal: (t2.picks || []).length,
   };
 
-  // ── 4팀 — 셋업·거래량 적격 종목만, 그 안에서 로테이션. ⑥(촉매 없음) 판정은 TTL 안 재조사 제외 ──
-  const t4elig = (t4.items || []).filter(rot.team4Eligible);
-  const t4Ordered = rot.orderForResearch(t4elig, { flowRank, cache: rc, bucket: 'team4', today: date, ttl: TTL, metric: (i) => i.volx || 0 });
-  const t4cap = Number(process.env.CATALYST_CAP || 12);
-  const changed4 = (i) => {
-    const ph = i.congestion && i.congestion.phase;
-    if (['retest', 'bounce_trigger', 'breakout'].includes(ph)) return `국면 ${ph}`;
-    if (!i.catalyst || i.catalyst.status !== 'done') return '이월분 없음';
-    return null;
-  };
-  const skip4 = (i, entry) => !!(entry && entry.cat === 6 && rot.tradingDaysSince(entry.last, date) < TTL);
-  const sel4 = rot.selectForResearch(t4Ordered, { cache: rc, bucket: 'team4', today: date, ttl: TTL, cap: t4cap, changed: changed4, skip: skip4 });
-  const epPick = sel4.picked;
-
+  // ── 4팀 — 150일선 위 거래량 급증 종목 전원. 국면 필터·VOL_X≥3·상한 없음 (2026-09-16 사용자 결정) ──
+  //    남는 건 "자료 지문 이월" 하나: 5거래일 안에 조사했고 Node 가 모은 뉴스 URL·8-K URL 집합이 그대로면
+  //    같은 입력 → 같은 출력이므로 어제 결과를 이월한다. 판정이 아니라 동일 입력 재실행 방지다.
+  //    그래서 선별보다 자료 수집이 먼저다 — 후보 전원의 뉴스·공시를 모아 지문을 만든 뒤 고른다.
   // 2팀 detail 재사용 + 없는 티커만 새로 수집. news 는 direct 만.
   const detailByTicker = new Map((t2.picks || []).filter((p) => p.detail).map((p) => [p.ticker, p.detail]));
   const { getTickerNews } = require('./data/news-rss');
   const { getFilings } = require('./data/sec-edgar');
-  const t4items = [];
+  const evidOf = (news, filings) => crypto.createHash('sha1')
+    .update((news || []).map((x) => x && x.url).filter(Boolean).sort().join('\n') + '|' + (filings || []).map((f) => f && f.url).filter(Boolean).sort().join('\n'))
+    .digest('hex').slice(0, 16);
+  const t4all = [];
   let reused = 0, fetched = 0;
-  for (const i of epPick) {
+  for (const i of (t4.items || [])) {
     const d = detailByTicker.get(i.ticker);
     let news = null, filings = null, financials = null, krReports = null;
     if (d) {
@@ -169,29 +165,33 @@ async function main() {
       try { const fl = await getFilings(i.ticker, { forms: ['8-K'], limit: 6 }); if (fl.ok) filings = fl.filings; } catch (e) { /* noop */ }
       fetched++;
     }
-    t4items.push({
+    t4all.push({
       ticker: i.ticker, sector: i.sector, industry: i.industry, marketCap: i.marketCap || null,
       volx: i.volx, volSurgeWk: i.volSurgeWk, aboveMa150: i.aboveMa150,
       brk60d: i.brk60d, clsPos: i.clsPos, high52: i.high52,
       targetStatus: i.targetStatus ?? null, saleCy: i.saleCy ?? null, saleNy: i.saleNy ?? null, epsCy: i.epsCy ?? null, epsNy: i.epsNy ?? null,
       cyTrend: i.cyTrend ?? null, nyTrend: i.nyTrend ?? null, newHigh52: i.newHigh52 ?? null, bbCenterBrk5d: i.bbCenterBrk5d ?? null, fs: i.fs || null,
-      congestion: i.congestion, news, filings, financials: financials || (i.fs ? null : null), krReports,
+      evid: evidOf(news, filings), news, filings, financials: financials || null, krReports,
     });
   }
   say('SYSTEM', `4팀 근거: 2팀 재사용 ${reused}종목 · 신규 수집 ${fetched}종목`);
+  // 캐시 항목에 지문이 없으면(처음이거나 예전 방식으로 조사한 것) 무엇으로 조사했는지 모르므로 "변경"으로 본다.
+  const changed4 = (i, entry) => (entry && entry.evid && entry.evid === i.evid ? null : (entry ? '자료 변경' : null));
+  const sel4 = rot.selectForResearch(t4all, { cache: rc, bucket: 'team4', today: date, ttl: TTL, cap: Infinity, changed: changed4 });
+  const epPick = sel4.picked;
   const t4dir = path.join(paths.llmInDir, '_t4');
   ensureDir(t4dir);
   for (const f of fs.readdirSync(t4dir)) fs.unlinkSync(path.join(t4dir, f));
-  for (const it of t4items) {
+  for (const it of epPick) {
     fs.writeFileSync(path.join(t4dir, `${it.ticker}.json`),
       JSON.stringify({ ticker: it.ticker, news: it.news, filings: it.filings, financials: it.financials, krReports: it.krReports,
         site: { targetStatus: it.targetStatus, saleCy: it.saleCy, saleNy: it.saleNy, epsCy: it.epsCy, epsNy: it.epsNy, cyTrend: it.cyTrend, nyTrend: it.nyTrend, newHigh52: it.newHigh52, bbCenterBrk5d: it.bbCenterBrk5d, fs: it.fs } }, null, 1), 'utf8');
   }
   out.team4args = {
     date, cap: epPick.length, argsDir: t4dir,
-    items: t4items.map(({ news, filings, financials, krReports, ...light }) => light),   // 뉴스·공시는 파일에서 읽는다
-    eligibleTotal: t4elig.length, universeTotal: (t4.items || []).length,
-    skipped: sel4.skipped.map((s) => s.key), skippedCat6: sel4.ineligible.map((s) => s.key),
+    items: epPick.map(({ news, filings, financials, krReports, ...light }) => light),   // 뉴스·공시는 파일에서 읽는다. evid 는 build-chief-report 가 캐시에 기록한다
+    universeTotal: (t4.items || []).length,
+    skipped: sel4.skipped.map((s) => s.key),
   };
 
   // ── 5팀 — 후보 업종 풀 → TTL 안이면 건너뛴다. 순위가 크게 움직였으면 재조사 ──
@@ -286,11 +286,10 @@ async function main() {
       breakouts: (t3.breakouts || []).slice(0, 15).map((b) => ({ ticker: b.ticker, priorHigh: b.priorHigh, breakDate: b.breakDate, closeAbovePct: b.closeAbovePct,
         breakVolRatio: b.breakVolRatio, volx: b.volx, volumeConfirmed: b.volumeConfirmed, volumeBasis: b.volumeBasis, congestionKo: b.congestionKo })),
     },
-    team4: { universeHits: t4.universeHits, byPhase: t4.byPhase, excludedNoMarketCap: t4.excludedNoMarketCap || [],
-             notableTotal: (t4.items || []).filter((i) => !['none', 'unknown'].includes(i.congestion.phase)).length,
-             notable: (t4.items || []).filter((i) => !['none', 'unknown'].includes(i.congestion.phase)).slice(0, 10)
-               .map((i) => ({ ticker: i.ticker, phase: i.congestion.phaseKo, months: i.congestion.baseMonths, volx: i.volx,
-                 baseHigh: i.congestion.baseHigh, baseLow: i.congestion.baseLow, distToPivotPct: i.congestion.distToPivotPct, score: i.congestion.score, trigger: i.congestion.buyTrigger })) },
+    // 4팀은 국면 판정을 하지 않는다 (2026-09-16). 게이트 통과·제외 집계만 넘긴다.
+    team4: { universeHits: t4.universeHits, analyzed: t4.analyzed, filter: t4.filter || null,
+             excludedNoMarketCap: t4.excludedNoMarketCap || [], excludedEtf: t4.excludedEtf || [],
+             excludedBelowMa150: t4.excludedBelowMa150 || [], excludedMa150Unknown: t4.excludedMa150Unknown || [] },
     team5: { top2m6: (t5.strictTop2.m6 || []).map((x) => ({ industry: x.industry, wrs: x.wrs, rankPct: x.rankPct })),
              sectors: (t5.sectors || []).slice(0, 8) },
     chartCheck: cc.items,
@@ -307,7 +306,7 @@ async function main() {
   if (BP) console.log(`  기간별     1M ${BP.m1.count} · 3M ${BP.m3.count} · 6M ${BP.m6.count} · 교차 지속 ${CR.counts.persistent}/신규 ${CR.counts.newEntrants}/중기 ${CR.counts.midTerm}/퇴조 ${CR.counts.fading}`);
   console.log(`  조사 이유  ${sel2.why.join(', ') || '없음'}`);
   if (sel2.skipped.length) console.log(`  이월       ${sel2.skipped.map((s) => `${s.key}@${s.last}`).join(', ')}`);
-  console.log(`4팀 종목     조사 ${epPick.length}개 (상한 ${t4cap}) · 적격 ${t4elig.length}/${(t4.items || []).length} · 이월 ${sel4.skipped.length} · ⑥재조사 제외 ${sel4.ineligible.length}`);
+  console.log(`4팀 종목     조사 ${epPick.length}개 (상한 없음) · 후보 ${(t4.items || []).length}(150일선 위) · 이월 ${sel4.skipped.length}(자료 동일)`);
   console.log(`  조사 이유  ${sel4.why.join(', ') || '없음'}`);
   console.log(`5팀 업종     조사 ${sel5.picked.length}개 · 이월 ${sel5.skipped.length} · 후보 풀 ${uniqAll.length}`);
   console.log(`  조사 이유  ${sel5.why.join(', ') || '없음'}`);

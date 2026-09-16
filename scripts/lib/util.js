@@ -262,7 +262,10 @@ function coverageOf({ done, total, cap = null, unit = '종목', hint = '', faile
   if (cf) parts.push(`그중 ${cf}${unit}은 최근 조사분을 이월했습니다(조사일 표기).`);
   if (f) parts.push(`${f}${unit}은 조사 중 오류로 실패했습니다 — 다음 실행에서 재시도합니다.`);
   if (ine) parts.push(`${ine}${unit}은 ${ineligibleWhy || '조사 기준 미달'}로 조사 대상이 아닙니다.`);
-  if (pending) {
+  if (pending && cap === Infinity) {
+    // 상한이 없는 팀(4팀, 2026-09-16): 남은 종목은 이번 실행의 LLM 단계에서 전부 조사된다. 순환 약속을 하면 거짓이다.
+    parts.push(`나머지 ${pending}${unit}은 이번 실행의 LLM 단계에서 조사합니다.`);
+  } else if (pending) {
     parts.push(`나머지 ${pending}${unit}은 상한(${cap ?? '?'}) 밖이라 아직 조사하지 않았습니다.`);
     // ⚠️ 로테이션이 실제로 구현된 뒤에만 이 약속을 한다.
     //    예전 문구("캐시가 쌓이면 며칠 안에 전량 커버됩니다")는 순환 로직이 없어서 거짓이었다.

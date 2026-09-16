@@ -164,6 +164,23 @@ ok('4팀 EP 후보에 ETF·ETN 이 없다', () => {
     `ETF 가 섞였다: ${etf.map((x) => x.ticker).join(', ')} — 4팀은 개별 종목의 실적 촉매를 찾는 팀이라 `
     + 'ETF 는 실적 발표가 없어 6분류가 성립하지 않는다');
 });
+// (2026-09-16) 4팀 게이트: 150일선 위만 남기고, 국면 판정은 하지 않는다. 제외 집계의 합이 후보 수와 맞아야 조용한 배제가 없다.
+ok('4팀 후보는 전원 150일선 위이고 congestion 판정이 없다', () => {
+  const d = load('team4.js', 'TEAM4_DATA');
+  if (!d) return;
+  const notAbove = (d.items || []).filter((i) => i.aboveMa150 !== true).map((i) => i.ticker);
+  assert.strictEqual(notAbove.length, 0, `150일선 위가 아닌 종목이 섞였다: ${notAbove.join(', ')}`);
+  const withCong = (d.items || []).filter((i) => 'congestion' in i).map((i) => i.ticker);
+  assert.strictEqual(withCong.length, 0, `congestion 키가 남아 있다: ${withCong.slice(0, 5).join(', ')}`);
+  assert.ok(!('byPhase' in d), 'byPhase 가 남아 있다');
+});
+ok('4팀 제외 집계의 합 = 거래량 급증 후보 수 (조용한 배제 없음)', () => {
+  const d = load('team4.js', 'TEAM4_DATA');
+  if (!d || d.universeHits == null) return;
+  const n = (a) => (Array.isArray(a) ? a.length : 0);
+  const sum = (d.items || []).length + n(d.excludedEtf) + n(d.excludedNoMarketCap) + n(d.excludedBelowMa150) + n(d.excludedMa150Unknown);
+  assert.strictEqual(sum, d.universeHits, `items ${d.items.length} + ETF ${n(d.excludedEtf)} + 시총 ${n(d.excludedNoMarketCap)} + 150아래 ${n(d.excludedBelowMa150)} + 판정불가 ${n(d.excludedMa150Unknown)} = ${sum} ≠ universeHits ${d.universeHits}`);
+});
 ok('2팀 선정 종목에 ETF·ETN 이 없다', () => {
   // 2026-08-13: GDXU(3배 레버리지 금광 ETN)가 2팀 리서치 슬롯을 하나 먹었다.
   // 2팀은 "왜 올랐나 + 증권사 실적 전망 조정"을 조사하는데 ETN 은 실적도 커버리지도 없다.

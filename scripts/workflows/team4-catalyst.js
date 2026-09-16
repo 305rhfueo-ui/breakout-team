@@ -9,7 +9,8 @@ export const meta = {
   ],
 }
 // 사용법: Workflow({ scriptPath:'<abs>/scripts/workflows/team4-catalyst.js',
-//   args:{ date, items:[{ticker,volx,volSurgeWk,congestion,...}], cap } })
+//   args:{ date, items:[{ticker,volx,volSurgeWk,aboveMa150,evid,...}], cap } })
+//   (2026-09-16) congestion 국면은 더 이상 넘기지 않는다 — 4팀은 차트 모양을 판정하지 않는다.
 
 let A = args
 if (typeof A === 'string') { try { A = JSON.parse(A) } catch (e) { A = null } }
@@ -104,8 +105,7 @@ ${STYLE}`
 phase('촉매분류')
 const targets = items.slice(0, CAP)
 const classified = await parallel(targets.map((it) => () => {
-  const c = it.congestion || {}
-  const news = (it.news || []).slice(0, 6).map((x) => `- ${x.date} [${x.publisher}] ${x.title}\n  ${x.url}`).join('\n') || '없음'
+  const news =(it.news || []).slice(0, 6).map((x) => `- ${x.date} [${x.publisher}] ${x.title}\n  ${x.url}`).join('\n') || '없음'
   const fil = (it.filings || []).slice(0, 4).map((f) => `- ${f.filingDate} ${(f.itemsKo || []).join(',')}${f.isEarnings ? ' ★실적발표(8-K item 2.02)' : ''} ${f.url}`).join('\n') || '없음'
   return tryAgent(
     `당신은 Episodic Pivot 촉매를 판별하는 트레이더입니다. 독자는 금융 실무자입니다. 오늘은 ${date}. 종목: ${it.ticker} (${it.sector} / ${it.industry})
@@ -114,7 +114,6 @@ const classified = await parallel(targets.map((it) => () => {
 VOL_X ${it.volx} (거래대금 20일평균 대비) · 주간 거래량배수 ${it.volSurgeWk} (당일제외 5일평균 대비)${it.marketCap ? ` · 시총 ${it.marketCap}` : ''}
 컨센서스(사이트 yfinance): 매출성장 CY ${it.saleCy ?? '—'}% / NY ${it.saleNy ?? '—'}% · EPS 성장 CY ${it.epsCy ?? '—'}% / NY ${it.epsNy ?? '—'}% · 30일 전망 변화 CY ${it.cyTrend ?? '—'}% / NY ${it.nyTrend ?? '—'}% · Target_Status ${it.targetStatus === true ? 'YES(당해·차기 전망 둘 다 +5% 이상 상향)' : it.targetStatus === false ? 'NO' : '—'} · 52주 신고가 ${it.newHigh52 === true ? 'Y' : it.newHigh52 === false ? 'N' : '—'}${it.fs ? ` · 최근 3분기(q0/q1/q2) 매출성장 ${(it.fs.sale || []).map((x) => x ?? '—').join('/')}% · 순이익 ${(it.fs.ni || []).map((x) => x ?? '—').join('/')}${it.fs.opm ? ` · 영업이익률 ${it.fs.opm.map((x) => x ?? '—').join('/')}%` : ''}` : ''}
 150일선 ${it.aboveMa150 ? '위' : '아래'} · 60일 신고가 돌파 ${it.brk60d ? 'YES' : 'NO'} · 종가강도(CLS_POS) ${it.clsPos} · 52주 고점 대비 ${it.high52}%
-Congestion: ${c.phaseKo || '판정불가'}${c.baseMonths ? ` · 횡보 ${c.baseMonths}개월 · 베이스 ${c.baseLow}~${c.baseHigh} (폭 ${c.rangePct}%)` : ''}${c.breakoutDate ? ` · 돌파 ${c.breakoutDate} 거래량 ${c.breakoutVolX}배` : ''}
 
 ${evidenceBlock(it.ticker, news, fil)}
 

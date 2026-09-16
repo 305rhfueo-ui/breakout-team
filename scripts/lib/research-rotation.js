@@ -97,15 +97,8 @@ function entryOf(cache, bucket, key) {
   return v && typeof v === 'object' ? v : null;
 }
 
-// 4팀 조사 적격 — Congestion 셋업이 있거나 거래대금이 특히 큰 종목만.
-// prepare-llm-args(선정)와 build-chief-report(커버리지 문구)가 같은 기준을 써야
-// "나머지 33종목은 순환 조사됩니다" 같은 거짓 문구가 안 나온다.
-const T4_PHASES = new Set(['bounce_trigger', 'retest', 'breakout', 'base', 'extended']);
-function team4Eligible(item) {
-  if (!item) return false;
-  const ph = item.congestion && item.congestion.phase;
-  return T4_PHASES.has(ph) || (Number(item.volx) || 0) >= 3;
-}
+// (2026-09-16) 4팀 적격 필터(team4Eligible: 국면 있거나 VOL_X≥3)는 삭제했다 — 사용자가 요청한 적 없는 선별이었다.
+// 4팀은 150일선 위 후보 전원을 대상으로 하고, 자료 지문(evid)이 같을 때만 이월한다 (prepare-llm-args.js).
 
 // "TTL 안이면 건너뛴다" — 로테이션의 두 번째 절반.
 //
@@ -180,6 +173,6 @@ function orderForResearch(items, {
 module.exports = {
   loadCache, saveCache, emptyCache,
   tradingDaysSince, lastResearched, stalenessOf, recordResearched, entryOf,
-  flowRankOf, orderForResearch, selectForResearch, team4Eligible,
+  flowRankOf, orderForResearch, selectForResearch,
   CACHE_VERSION, PRUNE_DAYS, FLOW_RANK, BUCKETS,
 };

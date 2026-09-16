@@ -5,7 +5,7 @@ argument-hint: "[없음 | 돌파 TICKER | 배제 TICKER 사유]"
 
 # 차트 확인
 
-REPO: `c:\Users\305le\OneDrive\바탕 화면\클로드코드test\breakout-team`
+REPO: `c:\Users\305le\OneDrive\바탕 화면\AI 관련\클로드코드test\breakout-team`
 
 ## 인자 없이 부른 경우 — 오늘 봐야 할 종목 보고
 
@@ -18,7 +18,7 @@ REPO: `c:\Users\305le\OneDrive\바탕 화면\클로드코드test\breakout-team`
 - 거래량이 마르고 있는지 (5일/20일 평균비)
 
 Finviz·TradingView 링크도 함께 준다.
-`dashboard/data/team3.js` 의 `breakouts` 와 `team4.js` 의 congestion `retest`/`bounce_trigger` 도 함께 짚는다.
+`dashboard/data/team3.js` 의 `breakouts` 도 함께 짚는다. (4팀은 2026-09-16부터 차트 국면을 판정하지 않으므로 차트확인 후보를 내지 않는다.)
 
 ## "돌파 TICKER" — 육안 판정 기록
 

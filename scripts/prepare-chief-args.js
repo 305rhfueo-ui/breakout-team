@@ -101,7 +101,7 @@ function main() {
     if (!x) continue;
     llmItems.push({ ticker: it.ticker, carried: !todayCat.has(it.ticker), researchedOn: todayCat.has(it.ticker) ? date : (it.catalyst.researchedOn || null),
       category: x.categoryName || x.category, isHighlight: !!x.isHighlight, top: ((x.claims || [])[0] || {}).statement || '근거 없음',
-      volx: it.volx, phase: it.congestion && it.congestion.phaseKo });
+      volx: it.volx });
   }
   teams.team4 = { ...teams.team4, llmItems, llmItemsCount: llmItems.length, llmFailed: (t4r && t4r.failed) || [],
     summary: (t4r && t4r.summary) || (t4 && (t4.llm || t4.llmCarried)) || null };

@@ -125,10 +125,20 @@ ok('skip 조건(4팀 ⑥ 재조사 제외)이 먼저 적용된다', () => {
   assert.deepStrictEqual(r.picked.map((x) => x.ticker), ['Y']);
   assert.deepStrictEqual(r.ineligible.map((x) => x.key), ['X']);
 });
-ok('team4Eligible — 셋업 있거나 VOL_X≥3', () => {
-  assert.strictEqual(rot.team4Eligible({ congestion: { phase: 'base' }, volx: 2 }), true);
-  assert.strictEqual(rot.team4Eligible({ congestion: { phase: 'none' }, volx: 3.1 }), true);
-  assert.strictEqual(rot.team4Eligible({ congestion: { phase: 'none' }, volx: 2.5 }), false);
+// (2026-09-16) team4Eligible 은 삭제됐다 — 4팀은 150일선 위 후보 전원을 조사하고 자료 지문이 같을 때만 이월한다.
+ok('team4Eligible 이 더 이상 export 되지 않는다', () => {
+  assert.strictEqual(typeof rot.team4Eligible, 'undefined');
+});
+ok('4팀 이월 — 캐시 지문이 같으면 TTL 안 이월, 다르면(자료 변경) 재조사, 지문 없으면 재조사', () => {
+  const c4 = { version: 1, detail: {}, team2: {}, team4: {
+    SAME: { last: '2026-09-02', count: 1, cat: 1, evid: 'aaa' },
+    DIFF: { last: '2026-09-02', count: 1, cat: 6, evid: 'aaa' },
+    NOEV: { last: '2026-09-02', count: 1, cat: 1 } }, team5: {} };
+  const items = [{ ticker: 'SAME', evid: 'aaa' }, { ticker: 'DIFF', evid: 'bbb' }, { ticker: 'NOEV', evid: 'aaa' }, { ticker: 'NEW', evid: 'ccc' }];
+  const changed4 = (i, e) => (e && e.evid && e.evid === i.evid ? null : (e ? '자료 변경' : null));
+  const r = rot.selectForResearch(items, { cache: c4, bucket: 'team4', today: '2026-09-03', ttl: 5, cap: Infinity, changed: changed4 });
+  assert.deepStrictEqual(r.picked.map((x) => x.ticker).sort(), ['DIFF', 'NEW', 'NOEV']);
+  assert.deepStrictEqual(r.skipped.map((s) => s.key), ['SAME']);
 });
 
 console.log(`\n${fail ? '❌' : '✅'} 통과 ${pass} · 실패 ${fail}`);

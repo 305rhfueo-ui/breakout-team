@@ -8,19 +8,20 @@ description: 4팀 EP·촉매 상세 보고 — breakout-team
 
 ## 자료 위치
 
-REPO: `c:\Users\305le\OneDrive\바탕 화면\클로드코드test\breakout-team`
+REPO: `c:\Users\305le\OneDrive\바탕 화면\AI 관련\클로드코드test\breakout-team`
 
 1. `dashboard/data/team4.js` 의 `TEAM4_DATA (dashboard/data/team4.js)` 를 읽는다 (`window.TEAM4_DATA = {...};` 형태)
 2. `analysis/reports/{오늘날짜}-breakout.md` 의 4팀 섹션도 함께 참고한다
 
 파일이 없거나 오래됐으면 먼저 실행한다:
 ```bash
-cd "c:\Users\305le\OneDrive\바탕 화면\클로드코드test\breakout-team" && node scripts/run-breakout.js
+cd "c:\Users\305le\OneDrive\바탕 화면\AI 관련\클로드코드test\breakout-team" && node scripts/run-breakout.js
 ```
 
 ## 보고 내용
 
-거래량 급증 종목(VOL_X≥2 또는 주간 2배), 호재 6분류(①어닝서프라이즈 ⑤산업돌파 강조), Congestion 국면과 횡보 개월수, 돌파 시점 150일선 위 여부, 매수 트리거 가격
+거래량 급증 종목(VOL_X≥2 또는 주간 2배, 150일선 위, ETF·시총 미확인 제외), 호재 6분류(①어닝서프라이즈 ⑤산업돌파 강조), 150일선 아래·판정불가로 제외된 종목 수.
+차트 국면(횡보·돌파·리테스트·매수 트리거)은 4팀이 판정하지 않는다 — 보고에 넣지 말 것 (2026-09-16).
 
 ## 보고 규칙
 

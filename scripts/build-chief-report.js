@@ -13,7 +13,7 @@ const path = require('path');
 const fs = require('fs');
 const { paths, loadEnv, today, readJson, writeJson, writeWindowData, say, coverageOf, round } = require('./lib/util');
 const { verifyPayload } = require('./lib/verify-claims');
-const { loadCache, saveCache, recordResearched, team4Eligible } = require('./lib/research-rotation');
+const { loadCache, saveCache, recordResearched } = require('./lib/research-rotation');
 
 function loadWindowData(file, varName) {
   try {
@@ -174,7 +174,7 @@ function catalystSection(t4, dateStr) {
   for (const i of items.slice().sort((a, b) => (order[a.catalyst.category] ?? 9) - (order[b.catalyst.category] ?? 9))) {
     const C = i.catalyst;
     S.push(`#### ${i.ticker} — ${C.isHighlight ? '★ ' : ''}${C.categoryName || `분류 ${C.category}`}${C.corrected ? ` (팩트체크가 ${C.originalCategory}→${C.category} 정정)` : ''}${dateTag(C.researchedOn, dateStr)}`);
-    S.push(`VOL_X ${v(i.volx)} · 주간 ${v(i.volSurgeWk)} · 종가강도 ${v(i.clsPos)} · 52주% ${v(i.high52)} · 국면 ${i.congestion ? i.congestion.phaseKo : '—'}${C.confidence ? ` · 근거 충실도 ${C.confidence}` : ''}`);
+    S.push(`VOL_X ${v(i.volx)} · 주간 ${v(i.volSurgeWk)} · 종가강도 ${v(i.clsPos)} · 52주% ${v(i.high52)} · 150일선 ${i.aboveMa150 ? '위' : '아래'}${C.confidence ? ` · 근거 충실도 ${C.confidence}` : ''}`);
     if (C.company) S.push('', C.company);
     if (C.volumeExplanation) S.push('', C.volumeExplanation);
     const cl = (C.claims || []).filter((c) => c.evidence_level === 'sourced' && (c.sources || []).length);
@@ -338,17 +338,20 @@ async function main() {
       guardDate(d, '4팀');
       const byTicker = new Map((payload.team4.items || []).map((x) => [x.ticker, x]));
       const failedSet = new Set(payload.team4.failed || []);
-      let done = 0, failedCount = 0, carried = 0, ineligible = 0;
+      // 자료 지문(evid) — prepare-llm-args 가 _args.json 의 team4args.items[] 에 넣어 둔 값을 캐시에 기록한다.
+      // 다음 날 prepare-llm-args 가 이 값과 오늘 지문을 비교해 같으면 이월한다 (2026-09-16).
+      const args4 = readJson(path.join(paths.llmInDir, '_args.json'), null);
+      const evidByT = new Map((((args4 || {}).team4args || {}).items || []).map((x) => [x.ticker, x.evid || null]));
+      let done = 0, failedCount = 0, carried = 0;
       const extra = {};
       for (const it of d.items || []) {
         const c = byTicker.get(it.ticker);
-        if (c) { it.catalyst = { status: 'done', ...c, researchedOn: dateStr, carried: false }; done++; extra[it.ticker] = { cat: c.category }; }
+        if (c) { it.catalyst = { status: 'done', ...c, researchedOn: dateStr, carried: false }; done++; extra[it.ticker] = { cat: c.category, evid: evidByT.get(it.ticker) || null }; }
         else if (failedSet.has(it.ticker)) {
           it.catalyst = { status: 'failed', note: 'LLM 촉매 분류 실패 (에이전트 오류) — 다음 실행에서 우선 재시도합니다' };
           failedCount++;
         } else if (it.catalyst && it.catalyst.status === 'done' && it.catalyst.carried) { done++; carried++; }
-        else if (!team4Eligible(it)) { it.catalyst = { status: 'ineligible', note: 'Congestion 셋업이 없고 VOL_X < 3 — 촉매 조사 대상이 아닙니다' }; ineligible++; }
-        else it.catalyst = { status: 'pending', note: '아직 조사하지 않았습니다 (순환 조사 대기)' };
+        else it.catalyst = { status: 'pending', note: '아직 조사하지 않았습니다' };
       }
       recordResearched(rc, 'team4', [...byTicker.keys()], dateStr, extra);
       // 오늘 조사한 종목이 0이면 LLM 종합은 빈 입력을 보고 "데이터 없음"이라고 쓴 문구다 (2026-09-15 실측).
@@ -361,9 +364,9 @@ async function main() {
       for (const it of d.items || []) if (it.catalyst && it.catalyst.status === 'done') byCategory[it.catalyst.category] = (byCategory[it.catalyst.category] || 0) + 1;
       d.byCategory = byCategory;
       d.research_coverage = coverageOf({
-        done, failed: failedCount, carried, ineligible, ineligibleWhy: '셋업·거래량 기준 미달', total: (d.items || []).length,
+        done, failed: failedCount, carried, total: (d.items || []).length,
         cap: (payload.team4.coverage || {}).cap ?? null,
-        hint: '자금이 들어오는 업종 · 거래대금 급증 순으로 우선 조사합니다.',
+        hint: '150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다.',
       });
       writeWindowData(f, 'TEAM4_DATA', d);
       merged.push(`team4(촉매 ${done}${carried ? ` · 이월 ${carried}` : ''}${failedCount ? ` · 실패 ${failedCount}` : ''})`);

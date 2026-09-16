@@ -280,7 +280,7 @@ const AGENTS=[
    duty:'한 번 뽑힌 종목을 계속 따라다니며 상태를 기록합니다. ①50일선 아래로 3일 연속 내려가거나 ②고점 대비 40% 넘게 빠지거나 ③150일선을 깨면 목록에서 뺍니다. 뺀 뒤에도 사유와 함께 남겨두고, 다시 기준을 충족하면 자동으로 되돌립니다. 전고점을 거래량까지 실어 뚫은 종목도 찾아 알려 드립니다.',
    look:{skin:'#f7dcc4',hair:'#4a2f2a',style:'bun',  shirt:'#a86ee0'}},
   {id:'t4',emoji:'⚡',name:'재민',role:'4팀 · EP·촉매',tab:'t4',job:'급등 포착',
-   duty:'오늘 갑자기 거래량이 평소의 2배 넘게 터진 종목을 잡아냅니다. 그리고 그게 왜 터졌는지 이유를 여섯 갈래로 분류합니다 — ①실적 서프라이즈 ②바이오·FDA ③대형 계약 ④턴어라운드 ⑤산업 돌파 ⑥이유 못 찾음. 뉴스를 못 찾으면 지어내지 않고 ⑥으로 두고 "근거 없음"이라 적습니다. 몇 달을 옆으로 기다가 뚫었는지도 계산합니다.',
+   duty:'오늘 갑자기 거래량이 평소의 2배 넘게 터진 종목 중 150일선 위에 있는 것만 잡아냅니다. 그리고 그게 왜 터졌는지 이유를 여섯 갈래로 분류합니다 — ①실적 서프라이즈 ②바이오·FDA ③대형 계약 ④턴어라운드 ⑤산업 돌파 ⑥이유 못 찾음. 뉴스를 못 찾으면 지어내지 않고 ⑥으로 두고 "근거 없음"이라 적습니다. 차트 모양(횡보·돌파·되돌림)은 판정하지 않습니다 — 그건 직접 차트를 보고 결정하세요.',
    look:{skin:'#e0b087',hair:'#241d1a',style:'spiky',shirt:'#f08a3c'}},
   {id:'t5',emoji:'🗺️',name:'미르',role:'5팀 · 주도섹터',tab:'t5',job:'업종 지도',
    duty:'개별 종목이 아니라 "판" 전체를 봅니다. 140개 업종의 강도를 직접 계산해 <b>돈이 지금 어디로 들어오고 어디서 빠지는지</b>를 판정합니다. 세 가지를 같이 봅니다 — ①업종 순위가 최근 25거래일 새 몇 계단 올랐나(자금 유입) ②애널리스트들이 실적 전망을 올리고 있나(관심 집중) ③업종 안에서 몇 종목이 올랐나(쏠림의 폭). 여기에 주가가 1년 평균·두 달 평균에서 얼마나 떠 있는지를 더해 <b>상승 초입인지 이미 많이 온 건지</b>를 가릅니다. 참고하는 RS 사이트는 계산 오류가 세 군데 있어(오늘·과거에 서로 다른 공식 적용, 기준일에 주말 복제본 섞임, 일부 그룹 값 깨짐) 원자료에서 다시 계산하고, 사이트 화면값도 나란히 띄워 대조하실 수 있게 합니다.',
@@ -413,7 +413,7 @@ function _dd(id){
     const t=D.t4;
     const hl=t&&t.llm&&t.llm.highlights?t.llm.highlights.length:0;
     return {stat:t?t.universeHits:'—',statl:'거래량 급증 포착',
-      line:t?`분석 ${t.analyzed}종목${hl?` · ★촉매 ${hl}건`:''}<br>${Object.entries(t.byPhase||{}).filter(([k])=>k!=='none').map(([k,v])=>k+' '+v).join(' · ')||'셋업 없음'}`:'대기 중',
+      line:t?`150일선 위 ${t.analyzed}종목${hl?` · ★촉매 ${hl}건`:''}<br>조사 ${(t.research_coverage||{}).done??0} · 이월 ${(t.research_coverage||{}).carried??0}`:'대기 중',
       busy:!!t};
   }
   if(id==='t5'){
@@ -462,8 +462,6 @@ function dialog(){
   if(hl.length)L.push({who:'t4',t:`<b>${hl.map(x=>esc(x.ticker)).join(', ')}</b> 가 어닝 서프라이즈예요. 쿨라매기가 제일 좋아하는 호재입니다.`});
   const ea=(t4.items||[]).find(i=>i.catalyst&&/인수|상장폐지|M&A/.test(i.catalyst.categoryName||''));
   if(ea)L.push({who:'t4',t:`아 근데 <b>${esc(ea.ticker)}</b> 는 인수 상장폐지 물량이었어요. 거래량만 보고 사면 안 됩니다.`});
-  const tg=(t4.items||[]).filter(i=>i.congestion&&i.congestion.phase==='bounce_trigger');
-  if(tg.length)L.push({who:'t4',t:`<b>${tg.map(i=>esc(i.ticker)).join(', ')}</b> 는 리테스트 반등 — 우리가 노리는 바로 그 자리입니다.`});
 
   const top=(t5.strictTop2&&t5.strictTop2.m6||[])[0];
   if(top)L.push({who:'t5',t:`업종은 <b>${esc(top.industry)}</b> 가 1위예요. 상위 ${n(top.rankPct.m6,2)}%입니다.`});
@@ -1034,13 +1032,9 @@ function briefing(id){
   }
   if(id==='t4'){
     const t=D.t4; if(!t)return '';
-    P.push(`거래량이 갑자기 터진 종목 <b>${t.universeHits}개</b>를 찾아 상위 ${t.analyzed}개를 뜯어봤습니다.`);
-    const ph=t.byPhase||{};
-    const setups=Object.entries(ph).filter(([k])=>k!=='none').map(([k,v])=>`${k} ${v}`);
-    if(ph.bounce_trigger)P.push(`이 중 <b>${ph.bounce_trigger}종목이 매수 트리거</b> 상태입니다 — 6개월 횡보 → 거래량 동반 돌파 → 저항선 되돌림 → 반등, 우리가 노리는 바로 그 자리예요.`);
-    if(ph.retest)P.push(`${ph.retest}종목은 돌파 후 저항선까지 되돌아온 리테스트 구간입니다. 여기서 거래량이 마르면서 버티면 다음 반등이 진입 자리입니다.`);
-    if(ph.extended)P.push(`${ph.extended}종목은 이미 너무 올라 <b>추격 금지</b>입니다. 되돌림을 기다리세요.`);
-    if(!setups.length)P.push(`다만 6개월 횡보 패턴에 해당하는 셋업은 오늘 없습니다. 거래량이 터졌다고 다 살 자리는 아니에요.`);
+    P.push(`거래량이 갑자기 터진 종목 <b>${t.universeHits}개</b> 중 150일선 위 <b>${t.analyzed}개</b>를 뜯어봤습니다. 차트 모양(횡보·돌파·되돌림)은 제가 판정하지 않습니다 — 차트는 직접 확인하세요.`);
+    const exB=(t.excludedBelowMa150||[]).length, exU=(t.excludedMa150Unknown||[]).length;
+    if(exB||exU)P.push(`150일선 아래 ${exB}개${exU?`, 판정불가 ${exU}개`:''}는 뺐습니다.`);
     const hl=(t.llm&&t.llm.highlights)||[];
     if(hl.length)P.push(`촉매 분석에서 <b>${hl.map(x=>x.ticker).join(', ')}</b> 가 어닝 서프라이즈·산업 돌파에 해당합니다 — 쿨라매기가 가장 선호하는 호재입니다.`);
     else P.push(`뉴스를 못 찾은 종목은 억지로 이유를 만들지 않고 '암묵적(뉴스 없는 이상거래량)'으로 분류합니다.`);
@@ -1085,8 +1079,6 @@ function briefing(id){
   const bk=(t3.breakouts||[]).filter(b=>b.volumeConfirmed);
   const note=[];
   if(bk.length)note.push(`전고점을 <b>거래량까지 실어서</b> 뚫은 종목이 ${bk.length}개 있습니다 — ${bk.slice(0,5).map(b=>b.ticker).join(', ')}. 거래량 없는 돌파 ${(t3.breakouts||[]).length-bk.length}개는 가짜일 수 있어 제외했습니다`);
-  const trig=(t4.items||[]).filter(i=>i.congestion&&i.congestion.phase==='bounce_trigger');
-  if(trig.length)note.push(`4팀에서 <b>${trig.map(i=>i.ticker).join(', ')}</b> 가 매수 트리거 상태입니다 (6개월 횡보 → 돌파 → 되돌림 → 반등)`);
   const hl=(t4.llm&&t4.llm.highlights)||[];
   if(hl.length)note.push(`촉매가 확인된 종목: <b>${hl.map(x=>x.ticker).join(', ')}</b> (어닝 서프라이즈·산업 돌파)`);
   const th=t2.themes&&t2.themes.llm&&t2.themes.llm.leadingTheme;
@@ -1391,10 +1383,6 @@ function bodyFor(id){
       if(L4.caution)h+=`<div class="nosrc" style="margin-top:8px">${esc(L4.caution)}</div>`;
       h+=`</div>`;
     }
-    const nt=(t.items||[]).filter(i=>i.congestion&&i.congestion.phase!=='none').slice(0,8);
-    if(nt.length)h+=`<div class="sec"><h4>Congestion 셋업</h4>
-      ${rows(nt.map(i=>[`${esc(i.ticker)} · ${esc(i.congestion.phaseKo)}`,
-        `횡보 ${n(i.congestion.baseMonths,1)}개월 · VOL_X ${n(i.volx,1)}`]))}</div>`;
     const cat=(t.items||[]).filter(i=>i.catalyst&&i.catalyst.status==='done');
     if(cat.length)h+=`<div class="sec"><h4>촉매 분류 — 왜 거래량이 터졌나</h4>`+
       cat.map(i=>{

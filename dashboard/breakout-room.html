@@ -784,42 +784,16 @@ function renderT4(){
   const exMC=Array.isArray(t.excludedNoMarketCap)?t.excludedNoMarketCap.filter(Boolean):[];
   let h=reuseBadge(t.reusedFrom)+`<div class="card"><h2>Episodic Pivot 후보</h2>
     <div class="funnel"><span>거래량 급증 <b>${t.universeHits??'—'}</b>종목</span><span class="arrow">→</span>
-      <span>국면 분석 <b>${t.analyzed??'—'}</b>개${t.analyzed<t.universeHits?` <span class="b b-yel">${t.universeHits-t.analyzed}개 제외</span>`:''}</span>
+      <span>150일선 위 <b>${t.analyzed??'—'}</b>개${t.analyzed<t.universeHits?` <span class="b b-yel">${t.universeHits-t.analyzed}개 제외</span>`:''}</span>
       <span class="arrow">→</span>
       <span>촉매 조사 <b>${rc.done??0}</b>개${rc.pending?` <span class="b b-yel">${rc.pending}개 미조사</span>`:''}${inelN!=null?` <span class="b b-dim" title="로테이션 대상이 아닌 종목 — 우선주·유닛·시총 미확인·5거래일 내 ⑥ 판정 등">부적격 ${inelN}</span>`:''}${rc.failed?` <span class="b b-red">실패 ${rc.failed}</span>`:''}</span></div>
     <div class="note">필터: VOL_X ≥ ${fl.volXMin??'2'}(거래대금/20일평균) <b>또는</b> 주간 거래량배수 ≥ ${fl.volSurgeWkMin??'2'}(주식수/당일제외 5일평균)
     ${rc.note?`<br>${esc(rc.note)}`:''}
     ${Array.isArray(inel)&&inel.length?`<br>조사 부적격 ${inel.length}종목: ${inel.map(x=>esc(typeof x==='string'?x:(x.ticker||''))+(typeof x==='object'&&x.reason?`(${esc(x.reason)})`:'')).join(', ')}`:(inel&&typeof inel==='object'&&!Array.isArray(inel)&&inel.note?`<br>${esc(inel.note)}`:'')}</div>
     ${exMC.length?`<div class="note" style="color:var(--yel)">시총 미확인(우선주·유닛 등) 제외 ${exMC.length}종목: ${exMC.map(x=>esc(typeof x==='string'?x:(x.ticker||''))).join(', ')} — 보통주가 아니라 뉴스·촉매 조사 대상에서 뺐습니다.</div>`:''}
-    <div class="chips" style="margin-top:9px">`+
-    Object.entries(t.byPhase||{}).map(([k,v])=>`<span class="chip"><b>${esc(PHASE_KO[k]||k)}</b> ${v}${PHASE_KO[k]?` <span class="reason">${esc(k)}</span>`:''}</span>`).join('')+`</div></div>`;
-  const notable=(t.items||[]).filter(i=>i.congestion&&['bounce_trigger','retest','breakout','base','extended','failed'].includes(i.congestion.phase));
-  h+=`<div class="card"><h2>Congestion 셋업 ${notable.length}종목</h2>`+
-    (notable.length?table([
-      {h:'종목',l:1,f:r=>`<span class="tk" data-t="${esc(r.ticker)}">${esc(r.ticker)}</span>`,s:r=>r.ticker},
-      {h:'국면',l:1,f:r=>`<span class="b ${r.congestion.phase==='bounce_trigger'?'b-grn':r.congestion.phase==='extended'||r.congestion.phase==='failed'?'b-red':'b-yel'}">${esc(r.congestion.phaseKo||PHASE_KO[r.congestion.phase]||r.congestion.phase)}</span>`,s:r=>r.congestion.phase},
-      {h:'score',f:r=>r.congestion.score??'—',s:r=>r.congestion.score},
-      {h:'현재가',f:r=>money(r.price),s:r=>r.price},
-      {h:'피봇',f:r=>money(r.congestion.pivot),s:r=>r.congestion.pivot},
-      {h:'피봇거리%',f:r=>r.congestion.distToPivotPct==null?'—':`<span class="b ${r.congestion.distToPivotPct>=0?'b-grn':'b-dim'}">${r.congestion.distToPivotPct>0?'+':''}${n(r.congestion.distToPivotPct,1)}</span>`,s:r=>r.congestion.distToPivotPct},
-      {h:'베이스 고',f:r=>money(r.congestion.baseHigh),s:r=>r.congestion.baseHigh},
-      {h:'베이스 저',f:r=>money(r.congestion.baseLow),s:r=>r.congestion.baseLow},
-      {h:'횡보(개월)',f:r=>n(r.congestion.baseMonths,1)+(r.congestion.baseBars!=null?` <span class="reason">${r.congestion.baseBars}봉</span>`:''),s:r=>r.congestion.baseMonths},
-      {h:'베이스폭%',f:r=>n(r.congestion.rangePct,1),s:r=>r.congestion.rangePct},
-      {h:'수축',f:r=>n(r.congestion.contraction,2),s:r=>r.congestion.contraction},
-      {h:'돌파거래량',f:r=>n(r.congestion.breakoutVolX,1),s:r=>r.congestion.breakoutVolX},
-      {h:'돌파시 150MA',l:1,f:r=>r.congestion.aboveMa150AtBreak==null?'—':(r.congestion.aboveMa150AtBreak?'<span class="b b-grn">위</span>':'<span class="b b-red">아래</span>'),s:r=>r.congestion.aboveMa150AtBreak?1:0},
-      {h:'현재 150MA',l:1,f:r=>r.congestion.aboveMa150AtNow==null?'—':(r.congestion.aboveMa150AtNow?'<span class="b b-grn">위</span>':'<span class="b b-red">아래</span>'),s:r=>r.congestion.aboveMa150AtNow?1:0},
-      {h:'VOL_X',f:r=>n(r.volx,1),s:r=>r.volx},
-      {h:'주간배수',f:r=>n(r.volSurgeWk,1),s:r=>r.volSurgeWk},
-      {h:'ADR',f:r=>n(r.adr,1),s:r=>r.adr},
-      {h:'매수 트리거',l:1,f:r=>`<span class="reason">${esc(r.congestion.buyTrigger?r.congestion.buyTrigger.note:'—')}</span>`,s:r=>0},
-      // ⚠️ 예전엔 여기가 '⏳대기' 로 하드코딩돼 있어, 촉매 분류가 끝난 종목도 대기로 보였다.
-      //    그리고 '대기'는 곧 채워질 것처럼 들리는데 상한 밖 종목은 오늘 안 채워진다 → '미조사'.
-      {h:'촉매',l:1,f:r=>catBadge(r.catalyst),s:r=>r.catalyst&&r.catalyst.status==='done'?(r.catalyst.category||9):99},
-    ],notable):'<div class="empty">Congestion 셋업 해당 종목 없음</div>')+
-    `<div class="note">6개월 횡보 → 거래량 2배 돌파 → 저항선 리테스트(거래량 고갈) → 반등 시 매수. 돌파 시점 일봉이 150일선 위여야 합니다.
-    · <b>베이스 저</b> = 손절 후보(베이스 하단). 피봇거리% = (현재가 − 피봇)/피봇, 음수면 아직 피봇 아래. 수축 = 최근 구간 진폭 ÷ 직전 구간 진폭 (1 미만이면 변동성 축소).</div></div>`;
+    ${Array.isArray(t.excludedBelowMa150)&&t.excludedBelowMa150.length?`<div class="note">150일선 아래 제외 ${t.excludedBelowMa150.length}종목: ${t.excludedBelowMa150.map(x=>esc(x)).join(', ')}</div>`:''}
+    ${Array.isArray(t.excludedMa150Unknown)&&t.excludedMa150Unknown.length?`<div class="note" style="color:var(--yel)">150일선 판정불가(결측 행) 제외 ${t.excludedMa150Unknown.length}종목: ${t.excludedMa150Unknown.map(x=>esc(x)).join(', ')} — "아래"가 아니라 판정할 수 없어 뺐습니다.</div>`:''}
+    <div class="note">4팀은 차트 국면(횡보·돌파·리테스트·매수 트리거)을 판정하지 않습니다 — 차트 모양은 직접 확인하세요 (2026-09-16 변경). 후보 기준: VOL_X ≥ 2 또는 주간 배수 ≥ 2 · 150일선 위 · ETF·시총 미확인 제외.</div></div>`;
   // ⚠️ 예전엔 데이터가 있어도 무조건 "LLM 촉매 분류 대기" 안내문만 띄웠다.
   //    리서치룸은 제대로 보여주는데 여기만 안 보여줘서 조사한 걸 버리고 있었다.
   h+=cat6Card(t);
@@ -1249,16 +1223,10 @@ function openModal(t){
       (tr.history||[]).slice(-8).reverse().map(x=>`<div class="reason">${esc(x.date)} · ${esc(x.status)} · ${esc(x.note)}</div>`).join('')+
       `</div></div>`;
   }
-  if(ep&&ep.congestion){
-    const c=ep.congestion;
-    h+=`<div class="card"><h2>Congestion 국면${c.score!=null?` <span class="b b-pur">score ${c.score}</span>`:''}</h2>
-      <div class="verdict ${c.phase==='bounce_trigger'?'v-green':c.phase==='extended'||c.phase==='failed'?'v-red':'v-yellow'}">${esc(c.phaseKo||PHASE_KO[c.phase]||c.phase||'—')}</div>
-      <div class="note">횡보 ${n(c.baseMonths,1)}개월${c.baseBars!=null?` (${c.baseBars}봉)`:''} · 베이스 폭 ${n(c.rangePct,1)}% · 피봇 ${money(c.pivot)}${c.distToPivotPct!=null?` (현재가 대비 ${c.distToPivotPct>0?'+':''}${n(c.distToPivotPct,1)}%)`:''}
-      ${c.baseHigh!=null||c.baseLow!=null?`<br>베이스 상단 ${money(c.baseHigh)} · 하단 ${money(c.baseLow)} <span class="reason">(하단 = 손절 후보)</span>`:''}
-      ${c.contraction!=null?` · 수축 ${n(c.contraction,2)}`:''}${c.aboveMa150AtNow!=null?` · 현재 150일선 ${c.aboveMa150AtNow?'위':'<span style="color:var(--red)">아래</span>'}`:''}
-      ${c.breakoutDate?`<br>돌파 ${esc(c.breakoutDate)} 거래량 ${n(c.breakoutVolX,1)}배${c.aboveMa150AtBreak!=null?` · 돌파 시 150일선 ${c.aboveMa150AtBreak?'위':'아래'}`:''}`:''}
-      ${c.buyTrigger?`<br>→ ${esc(c.buyTrigger.note)}`:''}</div>
-      ${ep.volx!=null||ep.clsPos!=null?`<div class="note">VOL_X ${n(ep.volx,1)} · 주간배수 ${n(ep.volSurgeWk,1)}${ep.clsPos!=null?` · CLS_POS ${n(ep.clsPos,0)}`:''}${ep.brk60d!=null?` · 60일 돌파 ${ep.brk60d?'O':'X'}`:''}${ep.high52!=null?` · 52주 ${n(ep.high52,1)}%`:''}${ep.adr!=null?` · ADR ${n(ep.adr,1)}%`:''}</div>`:''}</div>`;
+  // (2026-09-16) 4팀 Congestion 국면 카드는 뺐다 — 차트 모양은 사용자가 직접 본다. 거래량·위치 지표만 남긴다.
+  if(ep&&(ep.volx!=null||ep.clsPos!=null)){
+    h+=`<div class="card"><h2>Episodic Pivot 지표</h2>
+      <div class="note">VOL_X ${n(ep.volx,1)} · 주간배수 ${n(ep.volSurgeWk,1)}${ep.clsPos!=null?` · CLS_POS ${n(ep.clsPos,0)}`:''}${ep.brk60d!=null?` · 60일 돌파 ${ep.brk60d?'O':'X'}`:''}${ep.high52!=null?` · 52주 ${n(ep.high52,1)}%`:''}${ep.adr!=null?` · ADR ${n(ep.adr,1)}%`:''}${ep.aboveMa150!=null?` · 150일선 ${ep.aboveMa150?'위':'<span style="color:var(--red)">아래</span>'}`:''}</div></div>`;
   }
   if(ld)h+=`<div class="card"><h2>주도주 200DIV</h2><span class="b ${ld.overheat.status==='overheat'?'b-red':'b-dim'}">${esc(ld.overheat.label)}</span>
     <div class="note">임계 +${ld.overheat.threshold}% · ${esc(ld.overheat.note||'')}</div></div>`;

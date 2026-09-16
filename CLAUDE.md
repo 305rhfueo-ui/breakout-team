@@ -75,6 +75,9 @@ dashboard/               breakout-room.html (8탭 + 팝업) · data/*.js · data
 - 조사 대상은 `research-rotation.js` 가 순환시키고 **TTL(5거래일) 안이면 건너뛴다**(`selectForResearch`).
   건너뛴 종목은 `run-breakout.js` 가 지난 결과를 이월한다(`research.carried` · `researchedOn`).
   상한을 올리지 말 것. 에이전트가 적게 뜨는 게 정상이다 (2026-09-03 이전엔 2팀 68% 가 TTL 안 재조사였다)
+  **4팀은 예외(2026-09-16 사용자 결정)** — 국면 필터·VOL_X≥3·상한 없이 150일선 위 후보 전원을 조사한다.
+  남는 건 자료 지문(`evid` = 뉴스 URL+8-K URL 해시) 이월 하나: 5거래일 안에 같은 지문으로 조사했으면 이월.
+  4팀은 차트 국면(congestion)을 판정하지 않는다 — 차트 모양은 사용자가 직접 본다. congestion.js 는 3팀 전용
 - 야후 봉은 거래일이 통째로 빠질 수 있다(2026-08-28 실측). `market-calendar.js` 로 대조해 `barsNotice` 로 표면화한다.
   데드크로스 날짜·연속 이탈일수가 실행마다 바뀌면 이걸 먼저 의심할 것
 - 3팀 재편입은 `revertReentries` 가 배제 사유 재검사 후 확정한다. 이게 없으면 50일선 아래 종목이 매일 복귀·재배제되어

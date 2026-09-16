@@ -10,7 +10,6 @@ const {
   paths, loadEnv, today, isoWeek, num, round, say, ensureDir,
   readJson, writeJson, writeText, writeWindowData, isEtf, coverageOf,
 } = require('./lib/util');
-const { team4Eligible } = require('./lib/research-rotation');
 const cache = require('./lib/cache');
 const { fetchRsData } = require('./fetch-rs-data');
 const { rankPercentiles, bestPct } = require('./lib/percentile');
@@ -177,11 +176,17 @@ async function main() {
   const epAll = rows.filter((r) => (num(r.VOL_X) ?? 0) >= 2.0 || (num(r.Vol_Surge_Wk) ?? 0) >= 2.0);
   const epEtf = epAll.filter(isEtf);
   const epNoMc = epAll.filter((r) => !isEtf(r) && !hasMarketCap(r));
-  const epRows = epAll.filter((r) => !isEtf(r) && hasMarketCap(r));
+  // 150일선 위 (2026-09-16 사용자 결정 — EP 전략 본래 요구조건). 3팀과 같은 ma-guard 방식을 쓴다.
+  // ⚠️ 원시 `Above_150_SMA === 'O'` 비교는 결측 행(RS·DIV 전부 null)을 "아래"로 오판한다 — 2026-08-13·09-04 조용한 배제 사고.
+  //    true → 후보 · false → 150일선 아래로 제외 · null(빈 행·컬럼 신뢰 불가) → "판정불가"로 따로 센다. 판정불가는 아래가 아니다.
+  const ma150Of = (r) => (maTrusted ? aboveMa150Of(r) : null);
+  const epBase = epAll.filter((r) => !isEtf(r) && hasMarketCap(r));
+  const epBelowMa = epBase.filter((r) => ma150Of(r) === false);
+  const epMaUnknown = epBase.filter((r) => ma150Of(r) === null);
+  const epRows = epBase.filter((r) => ma150Of(r) === true);
   // ⚠️ 예전엔 상위 40개만 분석했다(EP_CAP). 그런데 그 40개를 VOL_X(거래대금/20일평균)로만
   //    골라서, 거래대금은 낮지만 주식 수 기준 거래량이 폭증한 종목이 조용히 잘려나갔다.
   //    두 지표는 단위가 달라(거래대금 vs 주식 수) 하나로 줄세우는 것 자체가 틀렸다.
-  //    congestion 판정은 봉만 있으면 되고 LLM 을 쓰지 않는다 — 26종목 추가에 약 2초다.
   //    그래서 정렬 기준을 고민하는 대신 상한을 없애 선택 편향을 통째로 제거한다.
   //    (여전히 제한하고 싶으면 EP_CAP 환경변수로 지정할 수 있다)
   const epCap = Number(process.env.EP_CAP || 0);
@@ -190,6 +195,8 @@ async function main() {
   say('T4', `거래량 급증 ${epAll.length}종목 (VOL_X≥2 또는 주간 2배)`
     + (epEtf.length ? ` → ETF ${epEtf.length}개 제외(${epEtf.map((r) => r.Ticker).join(',')})` : '')
     + (epNoMc.length ? ` → 시총 미확인(우선주·유닛) ${epNoMc.length}개 제외(${epNoMc.map((r) => r.Ticker).join(',')})` : '')
+    + (epBelowMa.length ? ` → 150일선 아래 ${epBelowMa.length}개 제외` : '')
+    + (epMaUnknown.length ? ` → 150일선 판정불가 ${epMaUnknown.length}개 제외(${epMaUnknown.map((r) => r.Ticker).join(',')})` : '')
     + ` → ${epTop.length}개 분석`
     + (epCap > 0 ? ` (EP_CAP=${epCap} — ${epRows.length - epTop.length}종목 추가 제외)` : ' (전량)'));
 
@@ -468,39 +475,35 @@ async function main() {
       .filter((i) => i.catalyst && i.catalyst.status === 'done')
       .map((i) => [i.ticker, { ...i.catalyst, researchedOn: i.catalyst.researchedOn || prev4.generated, carried: true }]));
     let carriedCat = 0;
+    // 차트 국면(횡보·돌파·리테스트) 판정은 4팀에서 뺐다 (2026-09-16 사용자 결정 — 차트 모양은 사람이 본다).
+    // 실측(09-15): 돌파봉 3조건은 정확했지만 "횡보였는가"는 검사가 없어 +39% 추세(CZFS)를 횡보로 표시했다.
+    // 3팀은 congestion 을 계속 쓴다 — 여기서만 제거.
     for (const r of epTop) {
       const t = r.Ticker;
-      const b = barsOf(t);
       const adr = num(r.ADR_20D);
-      let c = b ? detectCongestion(b, { adr }) : { ok: false, phase: 'unknown', phaseKo: '봉 없음 — 판정불가' };
-      // ⚠️ 봉 부족(<70)은 "패턴 없음"이 아니라 "판정불가"다. none 에 합산하면 40 이 어느 쪽인지 알 수 없다.
-      if (!c.ok && c.phase === 'none') c = { ...c, phase: 'unknown' };
       const cat = prevCat.get(t);
       if (cat) carriedCat++;
       items.push({
         ticker: t, sector: r.Sector, industry: r.Industry, price: num(r.Price), marketCap: r['Market Cap'] || null,
         volx: num(r.VOL_X), volSurgeWk: num(r.Vol_Surge_Wk),
-        aboveMa150: String(r.Above_150_SMA || '').toUpperCase() === 'O',
+        aboveMa150: ma150Of(r),   // 게이트를 통과한 행이라 항상 true
         brk60d: String(r.BRK_60D || '').toUpperCase() === 'YES',
         clsPos: num(r.CLS_POS), high52: num(r.High_52W_Pct), adr,
         // 사이트 컨센서스·신고가·BB (2026-09-07 추가)
         targetStatus: yes(r.Target_Status), saleCy: num(r.SALE_CY), saleNy: num(r.SALE_NY), epsCy: num(r.EPS_CY), epsNy: num(r.EPS_NY),
         cyTrend: num(r.CY_Trend), nyTrend: num(r.NY_Trend), newHigh52: yes(r.New_High_52W), bbCenterBrk5d: yes(r.BB_Center_Breakout_5D),
         fs: fsMap ? fsOf(fsMap, t) : null,
-        congestion: c,
         catalyst: cat || { status: 'pending', category: null, note: 'LLM 촉매 분류 대기' },
       });
     }
-    const byPhase = {};
-    for (const i of items) byPhase[i.congestion.phase] = (byPhase[i.congestion.phase] || 0) + 1;
-    team4 = { generated: dateStr, filter: { volXMin: 2.0, volSurgeWkMin: 2.0 },
-              universeHits: epRows.length, analyzed: items.length, items, byPhase,
+    team4 = { generated: dateStr, filter: { volXMin: 2.0, volSurgeWkMin: 2.0, aboveMa150: true },
+              universeHits: epAll.length, analyzed: items.length, items,
               excludedEtf: epEtf.map((r) => r.Ticker), excludedNoMarketCap: epNoMc.map((r) => r.Ticker),
-              research_coverage: coverageOf({ done: carriedCat, carried: carriedCat, total: items.length,
-                ineligible: items.filter((i) => !team4Eligible(i) && !(prevCat.has(i.ticker))).length, ineligibleWhy: '셋업·거래량 기준 미달' }) };
+              excludedBelowMa150: epBelowMa.map((r) => r.Ticker), excludedMa150Unknown: epMaUnknown.map((r) => r.Ticker),
+              research_coverage: coverageOf({ done: carriedCat, carried: carriedCat, total: items.length, cap: Infinity,
+                hint: '150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다.' }) };
     if (carriedCat) say('T4', `촉매 분류 이월 ${carriedCat}종목`);
     if (prev4 && prev4.llm) team4.llmCarried = { ...prev4.llm, researchedOn: prev4.generated };
-    say('T4', `Congestion 국면: ${Object.entries(byPhase).map(([k, v]) => `${k} ${v}`).join(' · ')}`);
   }
 
   // ── 12) 5팀 주도 섹터/업종 (WRS) ──
@@ -715,15 +718,7 @@ async function main() {
       }
     }
   }
-  if (team4) {
-    for (const i of team4.items) {
-      if (['retest', 'bounce_trigger'].includes(i.congestion.phase)) {
-        chartCheck.push({ ticker: i.ticker, score: i.congestion.score || 0, source: 'T4',
-          reasons: [`${i.congestion.phaseKo} · 횡보 ${i.congestion.baseMonths ?? '—'}개월`],
-          resistance: i.congestion.pivot ?? null, price: i.price });
-      }
-    }
-  }
+  // 4팀은 차트확인 후보를 내지 않는다 — 국면 판정을 뺐으므로 (2026-09-16).
   const seen = new Set();
   const chartCheckAll = chartCheck.filter((c) => !seen.has(c.ticker) && seen.add(c.ticker)).sort((a, b) => b.score - a.score);
   // ⚠️ 상한 10 을 걸되 총량을 같이 쓴다. 안 쓰면 history 에 매일 "정확히 10" 만 남고 잘린 티가 안 난다 (실측 21 → 10).
@@ -1033,20 +1028,21 @@ function buildReport({ dateStr, chief, team1, team2, team3, team4, team5 }) {
   // ── 4팀 ──
   if (team4) {
     L.push('## 4팀 · Episodic Pivot');
-    L.push(`- 거래량 급증 ${team4.universeHits}종목 → ${team4.analyzed}개 분석`
+    L.push(`- 거래량 급증 ${team4.universeHits}종목 → 150일선 위 ${team4.analyzed}개 분석`
       + (team4.excludedNoMarketCap && team4.excludedNoMarketCap.length ? ` · 시총 미확인(우선주·유닛) 제외 ${team4.excludedNoMarketCap.length}: ${team4.excludedNoMarketCap.join(', ')}` : '')
-      + (team4.excludedEtf && team4.excludedEtf.length ? ` · ETF 제외 ${team4.excludedEtf.length}` : ''));
-    L.push(`- 국면: ${Object.entries(team4.byPhase).map(([k, val]) => `${k} ${val}`).join(' · ')} (unknown = 봉 부족으로 판정불가)`);
+      + (team4.excludedEtf && team4.excludedEtf.length ? ` · ETF 제외 ${team4.excludedEtf.length}` : '')
+      + (team4.excludedBelowMa150 && team4.excludedBelowMa150.length ? ` · 150일선 아래 제외 ${team4.excludedBelowMa150.length}` : '')
+      + (team4.excludedMa150Unknown && team4.excludedMa150Unknown.length ? ` · 150일선 판정불가 제외 ${team4.excludedMa150Unknown.length}: ${team4.excludedMa150Unknown.join(', ')}` : ''));
+    L.push('- 차트 국면(횡보·돌파·리테스트)은 4팀이 판정하지 않는다 — 차트는 직접 확인한다 (2026-09-16).');
     L.push('');
     L.push(`### 거래량 급증 ${team4.items.length}종목 (전량)`);
-    L.push('| 종목 | 업종 | 시총 | 가격 | VOL_X | 주간 | 종가강도 | 52주% | 60일 신고가 | 52주 신고가 | Target | 매출성장 CY | EPS성장 CY | 150MA | 국면 | 횡보(개월) | 베이스 상단/하단 | 수축비 | 피봇까지 | 점수 | 매수 트리거 |');
-    L.push('|---|---|---:|---:|---:|---:|---:|---:|---|---|---|---:|---:|---|---|---:|---|---:|---:|---:|---|');
+    L.push('| 종목 | 업종 | 시총 | 가격 | VOL_X | 주간 | 종가강도 | 52주% | 60일 신고가 | 52주 신고가 | Target | 매출성장 CY | EPS성장 CY | ADR |');
+    L.push('|---|---|---:|---:|---:|---:|---:|---:|---|---|---|---:|---:|---:|');
     for (const i of team4.items) {
-      const c = i.congestion || {};
-      L.push(`| ${i.ticker} | ${i.industry} | ${v(i.marketCap)} | ${v(round(i.price))} | ${v(i.volx)} | ${v(i.volSurgeWk)} | ${v(i.clsPos)} | ${v(i.high52)} | ${i.brk60d ? 'YES' : '—'} | ${i.newHigh52 ? 'Y' : '—'} | ${i.targetStatus ? 'YES' : '—'} | ${pct(i.saleCy)} | ${pct(i.epsCy)} | ${i.aboveMa150 ? '위' : '아래'} | ${c.phaseKo || c.phase} | ${v(c.baseMonths)} | ${c.baseHigh != null ? `${c.baseHigh} / ${c.baseLow}` : '—'} | ${v(c.contraction)} | ${c.distToPivotPct != null ? c.distToPivotPct + '%' : '—'} | ${v(c.score)} | ${c.buyTrigger ? c.buyTrigger.note : '—'} |`);
+      L.push(`| ${i.ticker} | ${i.industry} | ${v(i.marketCap)} | ${v(round(i.price))} | ${v(i.volx)} | ${v(i.volSurgeWk)} | ${v(i.clsPos)} | ${v(i.high52)} | ${i.brk60d ? 'YES' : '—'} | ${i.newHigh52 ? 'Y' : '—'} | ${i.targetStatus ? 'YES' : '—'} | ${pct(i.saleCy)} | ${pct(i.epsCy)} | ${v(i.adr)} |`);
     }
     L.push('');
-    L.push('용어: 종가강도(CLS_POS) = 당일 저가~고가 구간에서 종가 위치(0~100) · 수축비 = 최근 10봉 진폭 / 직전 10봉 진폭 · 피봇 = 베이스 상단 저항선.');
+    L.push('용어: 종가강도(CLS_POS) = 당일 저가~고가 구간에서 종가 위치(0~100). 전 종목 150일선 위.');
     L.push('');
   }
 
