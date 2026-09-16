@@ -145,8 +145,8 @@
       "count": 15
     },
     "OKTA": {
-      "last": "2026-09-15",
-      "count": 9
+      "last": "2026-09-16",
+      "count": 10
     },
     "P": {
       "last": "2026-08-28",
@@ -165,8 +165,8 @@
       "count": 3
     },
     "CRWD": {
-      "last": "2026-09-15",
-      "count": 6
+      "last": "2026-09-16",
+      "count": 7
     },
     "TEAM": {
       "last": "2026-09-15",
@@ -185,8 +185,8 @@
       "count": 9
     },
     "WGS": {
-      "last": "2026-09-15",
-      "count": 17
+      "last": "2026-09-16",
+      "count": 18
     },
     "PAYC": {
       "last": "2026-08-20",
@@ -285,8 +285,8 @@
       "count": 2
     },
     "FET": {
-      "last": "2026-09-15",
-      "count": 10
+      "last": "2026-09-16",
+      "count": 11
     },
     "CORT": {
       "last": "2026-09-15",
@@ -353,8 +353,8 @@
       "count": 7
     },
     "INTC": {
-      "last": "2026-09-09",
-      "count": 2
+      "last": "2026-09-16",
+      "count": 3
     },
     "IONQ": {
       "last": "2026-08-18",
@@ -365,8 +365,8 @@
       "count": 3
     },
     "HNGE": {
-      "last": "2026-09-15",
-      "count": 6
+      "last": "2026-09-16",
+      "count": 7
     },
     "HURN": {
       "last": "2026-08-19",
@@ -453,8 +453,8 @@
       "count": 1
     },
     "HPE-C": {
-      "last": "2026-09-14",
-      "count": 3
+      "last": "2026-09-16",
+      "count": 4
     },
     "LQDA": {
       "last": "2026-08-25",
@@ -533,8 +533,8 @@
       "count": 1
     },
     "PARR": {
-      "last": "2026-09-15",
-      "count": 5
+      "last": "2026-09-16",
+      "count": 6
     },
     "IREN": {
       "last": "2026-09-09",
@@ -557,12 +557,12 @@
       "count": 1
     },
     "SWKS": {
-      "last": "2026-09-11",
-      "count": 1
+      "last": "2026-09-16",
+      "count": 2
     },
     "DJCO": {
-      "last": "2026-09-11",
-      "count": 1
+      "last": "2026-09-16",
+      "count": 2
     },
     "SPSC": {
       "last": "2026-09-14",
@@ -577,7 +577,27 @@
       "count": 1
     },
     "ZS": {
-      "last": "2026-09-15",
+      "last": "2026-09-16",
+      "count": 2
+    },
+    "DUOL": {
+      "last": "2026-09-16",
+      "count": 1
+    },
+    "EPAM": {
+      "last": "2026-09-16",
+      "count": 1
+    },
+    "SIG": {
+      "last": "2026-09-16",
+      "count": 1
+    },
+    "FLXS": {
+      "last": "2026-09-16",
+      "count": 1
+    },
+    "FTNT": {
+      "last": "2026-09-16",
       "count": 1
     }
   },
@@ -673,8 +693,10 @@
       "count": 5
     },
     "FORTY": {
-      "last": "2026-08-14",
-      "count": 5
+      "last": "2026-09-16",
+      "count": 6,
+      "cat": 1,
+      "evid": "8c4426f1c9ab8f2c"
     },
     "FSV": {
       "last": "2026-08-14",
@@ -1306,9 +1328,10 @@
       "cat": 6
     },
     "RUSHB": {
-      "last": "2026-09-15",
-      "count": 1,
-      "cat": 1
+      "last": "2026-09-16",
+      "count": 2,
+      "cat": 4,
+      "evid": "04c838c954e3965a"
     },
     "WFG": {
       "last": "2026-09-15",
@@ -1329,6 +1352,144 @@
       "last": "2026-09-15",
       "count": 1,
       "cat": 6
+    },
+    "MEOH": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "6f57986a170ca7b2"
+    },
+    "XMTR": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 1,
+      "evid": "94865d2c0580f12c"
+    },
+    "RDNT": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "2c171436965d1232"
+    },
+    "AAMI": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "3e9e949298e29784"
+    },
+    "ECO": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 1,
+      "evid": "3678a475373bcbbf"
+    },
+    "RVTY": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 1,
+      "evid": "10001ec31624f751"
+    },
+    "QRVO": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 5,
+      "evid": "2a71816a9a86a0cd"
+    },
+    "ZBH": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 4,
+      "evid": "412c8fa01ce9e2d6"
+    },
+    "SWKS": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 4,
+      "evid": "d17add8be4b43831"
+    },
+    "ZION": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "db00705da95d6bf0"
+    },
+    "GRAL": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 2,
+      "evid": "e530b858384f8df5"
+    },
+    "JPM": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 5,
+      "evid": "bdc1e79d4d140d96"
+    },
+    "KOF": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "edce651f782d0a88"
+    },
+    "WST": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 1,
+      "evid": "dc8bd686b51fb7b7"
+    },
+    "FITB": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "e5b7e46fc29b93c1"
+    },
+    "GEF.B": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "5c99b715e7d6f6a6"
+    },
+    "BIO": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 1,
+      "evid": "62996f4ef9d9747f"
+    },
+    "FMX": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 4,
+      "evid": "6ea83d56f057eb15"
+    },
+    "ESNT": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "cdc01cefe0b1759a"
+    },
+    "HCC": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 5,
+      "evid": "f6a4900fa8ecb030"
+    },
+    "GH": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 2,
+      "evid": "d379204acad901f8"
+    },
+    "IOSP": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "1503f5bf797915e8"
+    },
+    "APPF": {
+      "last": "2026-09-16",
+      "count": 1,
+      "cat": 1,
+      "evid": "661f36a89d96cc3c"
     }
   },
   "team5": {
@@ -1368,9 +1529,9 @@
       "rankPct6": 10.07
     },
     "Basic Materials|Agricultural Inputs": {
-      "last": "2026-09-14",
-      "count": 1,
-      "rankPct6": 52.14
+      "last": "2026-09-16",
+      "count": 2,
+      "rankPct6": 60.14
     },
     "Consumer Cyclical|Department Stores": {
       "last": "2026-09-15",

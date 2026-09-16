@@ -2097,158 +2097,81 @@ window.TEAM2_DATA = {
       "research": {
         "status": "done",
         "ticker": "OKTA",
-        "company": "옥타는 SaaS 기반 신원접근관리(IAM) 플랫폼 기업으로, Workforce Identity(SSO·MFA·Universal Directory)와 Customer Identity(Auth0) 두 축의 구독 매출이 핵심이며 대형 엔터프라이즈 고객 기반에 의존한다. FY27 2분기(2026-07-31 마감) 매출 8.05억달러(YoY +10.6%), 영업이익 1.07억달러(마진 13.3%)로 매출 성장과 마진 확장이 동시에 진행 중이다. AI 에이전트발 신원보안 수요를 신성장 동력으로 제시하며 주가는 최근 6개월간 129.9% 상승, 52주 고점 대비 98.28% 수준에서 거래되고 있다.",
-        "lead": "옥타 주가는 9/14 장중 최대 11.8%, 오전 11:32(ET) 기준 11.2% 급등하며 52주 신고가 랠리를 이어갔다. 8/27 발표된 FY27 2분기 실적에서 비GAAP EPS 1.05달러(컨센서스 0.96달러 상회)·매출 8.05억달러(YoY +10.6%)를 기록하고 FY27 매출 가이던스를 약 11% 성장(32억달러)으로 제시한 이후, AI 에이전트 확산에 따른 신원보안 수요 부각과 사이버보안 업종 전반에 대한 투자심리 개선이 겹치며 상승폭을 키웠다.",
+        "company": "옥타는 SaaS 기반 독립계 아이덴티티·접근관리(IAM) 기업으로, 임직원용 워크포스 아이덴티티(SSO·MFA)와 Auth0 기반 고객 아이덴티티(CIC) 두 축의 구독형 제품을 대기업·개발자 고객에 공급한다. FY2027 2분기(2026-07-31 마감) 매출 8.05억달러(YoY +10.6%) 중 구독매출이 7.93억달러(+12%)로 대부분을 차지하며, 영업이익률이 직전 4개 분기 3.1%→6.0%→7.3%→13.3%로 레버리지 구간에 진입했다. 최근에는 AI 에이전트 신원확인·거버넌스를 아이덴티티 보안의 신규 성장축으로 제시하며 사이버보안·AI 인프라 테마에 편입되는 국면이다.",
+        "lead": "옥타는 8월26일 발표한 FY2027 2분기 실적을 기반으로 8월 한 달 주가가 22% 급등했다. 이어 9월14일에는 Anthropic CEO 다리오 아모데이의 AI 개발 속도조절·보안 거버넌스 강화 촉구 발언을 계기로 사이버보안·아이덴티티 섹터 전반이 동반 랠리하며 주가가 하루 만에 약 12% 추가 상승했다.",
         "whyRose": [
           {
-            "id": "earnings_beat",
-            "statement": "FY27 2분기(2026-07-31 마감) 비GAAP EPS 1.05달러로 컨센서스 0.96달러를 상회했고, 매출은 8.05억달러(YoY +10.6%)로 시장 예상치(약 7.93억달러)를 웃돌았다.",
+            "id": "w3",
+            "statement": "3분기 가이던스로 매출 8.15억달러(+10%), 조정EPS 0.93달러(+13%), 유동RPO 약 26억달러(+12%)를 제시하며 성장 모멘텀 지속을 시사했다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "Why Okta Stock Soared 22% in August and Why There's More Upside Ahead",
                 "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/why-okta-stock-soared-22-august-and-why-theres-more-upside-ahead",
+                "url": "https://www.fool.com/investing/2026/09/08/why-okta-stock-soared-22-in-august-and-why-theres/",
                 "date": "2026-09-08",
-                "quote": "Okta recorded a non-GAAP profit of $1.05 per share on sales of $805 million, beating the average analyst estimate's call for adjusted earnings of $0.96 per share on sales of roughly $793 million.",
+                "quote": "revenue of $815 million and adjusted EPS of $0.93, up 10% and 13%, respectively",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "guidance_raise",
-            "statement": "FY27 매출 가이던스를 약 11% 성장한 32억달러, 비GAAP EPS 3.90~3.94달러, FCF 9.10~9.30억달러로 제시했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Why Okta Stock Soared 22% in August and Why There's More Upside Ahead",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/why-okta-stock-soared-22-august-and-why-theres-more-upside-ahead",
-                "date": "2026-09-08",
-                "quote": "Okta forecasts its full-year revenue to grow by roughly 11% to $3.2 billion, with management projecting adjusted earnings per share of $3.90 to $3.94 and free cash flow of $910 million to $930 million.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "ai_agent_security_demand",
-            "statement": "AI 에이전트 확산에 따른 신원보안 수요를 정조준한 포지셔닝이 부각됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Okta Targets AI Agent Confusion With Identity Security Push",
-                "publisher": "MarketBeat",
-                "url": "https://www.nasdaq.com/articles/okta-targets-ai-agent-confusion-identity-security-push",
-                "date": "2026-09-12",
-                "quote": "Okta Targets AI Agent Confusion With Identity Security Push",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "rally_0914",
-            "statement": "9/14 AI 개발 속도조절을 요구하는 업계 인사 발언(Anthropic CEO)이 확산되며 사이버보안·신원인증 관련주 전반에 매수세가 유입, 옥타는 장중 최대 11.8%, 오전 11:32(ET) 기준 11.2% 상승했다.",
+            "id": "w4",
+            "statement": "9월14일 Anthropic CEO 다리오 아모데이가 AI 리스크와 보안 거버넌스 강화 필요성을 언급하는 발언을 내놓으며 아이덴티티·사이버보안 섹터 전반이 동반 랠리했고, 옥타 주가는 당일 약 12% 급등해 186.45달러를 기록했다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "Why Okta Stock Rocketed Higher Today",
                 "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/why-okta-stock-rocketed-higher-today",
+                "url": "https://www.fool.com/investing/2026/09/14/why-okta-stock-rocketed-higher-today/",
                 "date": "2026-09-14",
-                "quote": "Shares of Okta charged out of the gate Monday, gaining as much as 11.8%, and as of 11:32 a.m. ET, the stock was still up 11.2%. The catalyst that sent the cybersecurity specialist higher was the calls by prominent industry insiders for a slowdown in artificial intelligence (AI) development.",
+                "quote": "AI brings risks, and because it is such a powerful technology, these risks are serious",
                 "verified": "ok",
                 "httpStatus": 200
+              },
+              {
+                "title": "Okta Inc (OKTA) Stock Up 12.0% but GF Value Says Overvalued -- GF Score: 71/100",
+                "publisher": "GuruFocus",
+                "url": "https://www.gurufocus.com/news/9080316/okta-inc-okta-stock-up-120-but-gf-value-says-overvalued-gf-score-71100",
+                "date": "2026-09-14",
+                "quote": "On September 14, 2026, Okta Inc [OKTA] shares experienced a significant surge, rising 12.0% to a current price of $186.45.",
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           }
         ],
-        "counterpoint": [
-          {
-            "id": "insider_selling",
-            "statement": "CFO Brett Tighe가 9/2 가중평균 160.97달러에 8만주(1,287만7,468달러 상당)를 매도했다. Rule 10b5-1 사전 매매계획에 따른 비재량적 처분이지만, 8/27 52주 신고가(174.85달러) 직후 시점에 이루어졌다는 점은 내부자 차익실현 신호로 해석될 여지가 있다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Okta CFO Dumps 80,000 Company Shares Worth $12.9 Million After the Stock Hit a 52-Week High",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/okta-cfo-dumps-80000-company-shares-worth-129-million-after-stock-hit-52-week-high",
-                "date": "2026-09-07",
-                "quote": "Tighe sold 80,000 shares of the company's Class A Common Stock for a total value of $12,877,468.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "revenue_deceleration",
-            "statement": "최근 4개 분기 매출 YoY 성장률이 11.6%(2025-10-31)→11.6%(2026-01-31)→11.2%(2026-04-30)→10.6%(2026-07-31)로 완만히 둔화되는 추세다. 6개월 129.9% 급등, 52주 고점 대비 98.28%, 200일선 대비 78.96% 이격이라는 기술적 과열 구간에서 이 둔화 추세가 이어질 경우 밸류에이션 리레이팅의 지속가능성이 시험대에 오를 수 있다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Okta Inc 분기별 매출·이익 데이터(10-Q/8-K 기반)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001660134&type=10-Q",
-                "date": "2026-09-08",
-                "quote": "revenue yoy 10.6 (periodEnd 2026-07-31), 11.2 (2026-04-30), 11.6 (2026-01-31), 11.6 (2025-10-31)",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
+        "counterpoint": [],
         "estimateRevisions": {
-          "direction": "raised",
-          "claims": [
-            {
-              "id": "eps_cq_revision",
-              "statement": "당분기 EPS 컨센서스가 최근 30일간 +8.6% 상향 조정됐다(주당순이익 0.96달러 전망, 전년동기 대비 +5.5%).",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Okta, Inc. (OKTA) is Attracting Investor Attention: Here is What You Should Know",
-                  "publisher": "Zacks",
-                  "url": "https://www.nasdaq.com/articles/okta-inc-okta-attracting-investor-attention-here-what-you-should-know",
-                  "date": "2026-09-11",
-                  "quote": "For the current quarter, Okta is expected to post earnings of $0.96 per share, indicating a change of +5.5% from the year-ago quarter, with the Zacks Consensus Estimate having changed +8.6% over the last 30 days.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "eps_fy_revision",
-              "statement": "회계연도 EPS 컨센서스도 최근 30일간 +8.1% 상향됐다(주당순이익 3.83달러 전망, 전년 대비 +9.4%). 제공된 스크리닝 수치(현재 회계연도 EPS 컨센서스 3.92899달러 vs 30일 전 3.84412달러, 차기연도 4.37848달러 vs 4.28251달러)와 방향이 일치한다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Okta, Inc. (OKTA) is Attracting Investor Attention: Here is What You Should Know",
-                  "publisher": "Zacks",
-                  "url": "https://www.nasdaq.com/articles/okta-inc-okta-attracting-investor-attention-here-what-you-should-know",
-                  "date": "2026-09-11",
-                  "quote": "For the current fiscal year, the consensus earnings estimate of $3.83 points to a change of +9.4% from the prior year, with this estimate having changed +8.1% over the last 30 days.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ]
+          "direction": "unknown",
+          "claims": []
         },
         "themeTags": [
           "사이버보안",
-          "신원접근관리(IAM)",
+          "아이덴티티 보안",
           "AI 에이전트 보안"
         ],
-        "confidence": "high",
+        "confidence": "medium",
         "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reasons": []
+          "verdict": "partial",
+          "removed": [
+            "w1",
+            "w2",
+            "c1",
+            "c2"
+          ],
+          "reasons": [
+            "w1: quote에 조정EPS 1.05달러, YoY +15%, 82% 조정 이익률 없음",
+            "w2: quote에 cRPO 25.9억달러(+14%), 영업현금흐름·FCF 수치(2.34억·2.27억달러, +40%) 없음",
+            "c1: quote에 주식수(8만주), 가중평균단가(160.97달러), 거래액(1,290만달러) 없음",
+            "c2: quote에 TTM P/E 112.3배, 5년 중앙값 100.5배, 내부자 매수/매도 액수 없음"
+          ],
+          "leadFixed": true
         },
-        "researchedOn": "2026-09-15",
-        "carried": true
+        "leadOriginal": "옥타는 8월26일 발표한 FY2027 2분기 실적에서 매출 8.05억달러(YoY +10.6%)·조정EPS 1.05달러(+15%)를 기록하고 잔여계약의무(RPO) 48.6억달러(+17%)·유동RPO 25.9억달러(+14%)를 제시하며 8월 한 달 주가가 22% 급등했다. 이어 9월14일에는 Anthropic CEO 다리오 아모데이의 AI 개발 속도조절·보안 거버넌스 강화 촉구 발언을 계기로 사이버보안·아이덴티티 섹터 전반이 동반 랠리하며 주가가 하루 만에 약 12% 추가 상승했다.",
+        "researchedOn": "2026-09-16",
+        "carried": false
       },
       "nameKo": "옥타",
       "nameEn": "OKTA INC",
@@ -3210,8 +3133,63 @@ window.TEAM2_DATA = {
         "count": 42
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "SWKS",
+        "company": "Skyworks Solutions는 RF(무선주파수) 프런트엔드·아날로그 반도체를 설계하는 팹라이트 업체로, 매출 구성이 모바일(핵심 고객 Apple) 부문에 크게 편중되어 있고 자동차·산업·IoT·데이터센터를 포괄하는 Broad Markets 부문으로 다각화를 병행하고 있다. 최근 분기(2026-07-03 마감) 매출은 9억3,480만달러(YoY -3.1%), 영업이익 4,850만달러(YoY -56.1%), 순이익 3,390만달러(YoY -67.7%)로 수익성 위축이 지속되는 국면이다. 현재는 총 $22B 규모의 Qorvo 인수합병이 규제 승인 최종 단계(잔여 2개 관할권)에 진입해 연내 종결을 목표로 하고 있다.",
+        "lead": "최근 SWKS의 주가 상승은 실적 개선보다 Qorvo와의 $22B 합병 완결 임박 기대가 주도했다. CEO Phil Brace가 9월11일 투자자 컨퍼런스에서 규제 승인이 두 관할권만 남았다고 밝히자 주가는 당일 최대 9.8% 급등했고, RS 1M 상위 0.3%·3M 상위 10.1%, ADR 5.99%로 강한 모멘텀을 보이고 있다. 반면 52주 고점 대비 97.51%, 200일선 이격 40.75%는 이미 단기 과열 구간에 근접했음을 시사한다.",
+        "whyRose": [
+          {
+            "id": "3",
+            "statement": "직전 분기(2026-07-03 마감) 실적 발표에서 Broad Markets(자동차·산업·데이터센터) 부문과 AI 데이터센터向 수요가 컨센서스 대비 실적 호조 요인으로 거론되었고, 실적 발표 이후 8월 한 달간 주가가 추가로 8.9% 상승한 바 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SWKS Q3 Earnings Beat on Broad Markets, AI Data Center Growth",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/swks-q3-earnings-beat-broad-markets-ai-data-center-growth",
+                "date": "2026-07-29",
+                "quote": "SWKS Q3 Earnings Beat on Broad Markets, AI Data Center Growth",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Skyworks (SWKS) Up 8.9% Since Last Earnings Report: Can It Continue?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/skyworks-swks-89-last-earnings-report-can-it-continue",
+                "date": "2026-08-27",
+                "quote": "Skyworks (SWKS) Up 8.9% Since Last Earnings Report: Can It Continue?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [],
+        "estimateRevisions": {
+          "direction": "lowered",
+          "claims": []
+        },
+        "themeTags": [
+          "RF 프론트엔드 반도체",
+          "반도체 M&A(Qorvo 합병)",
+          "AI 데이터센터",
+          "모바일(Apple 공급망)"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "1",
+            "2"
+          ],
+          "reasons": [
+            "whyRose 1: quote에 거래 구조($32.50/주 현금, 0.96주 교환비율)와 COGS·OPEX 분할 없음",
+            "whyRose 2: quote에 절대 상승률 수치(1개월 32.88%·3개월 24.22%·6개월 63.98%) 없음",
+            "counterpoint 1: quote에 현재 주가($88.35), 목표주가($68.35), trailing P/E 46배 없음"
+          ]
+        },
+        "researchedOn": "2026-09-16",
+        "carried": false
       },
       "nameKo": "스카이웍스 솔루션스",
       "nameEn": "SKYWORKS SOLUTIONS INC",
@@ -6990,8 +6968,128 @@ window.TEAM2_DATA = {
         "count": 17
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "company": "EPAM Systems는 금융서비스, 유통·소비재, 생명과학·헬스케어 등 엔터프라이즈 고객을 대상으로 소프트웨어 엔지니어링·클라우드·디지털 트랜스포메이션 컨설팅을 제공하는 글로벌 IT 서비스 기업이다. 매출 구조는 대형 다년 계약 기반의 엔지니어링 인력 아웃소싱이 주축이며, 최근에는 AI-native 서비스(에이전틱 AI 도입·레거시 모더나이제이션)로 매출 믹스를 전환하는 국면이다. 2Q26(2026-06-30 마감) 매출 YoY +4.5%로 3Q25 +19.4%→4Q25 +12.8%→1Q26 +7.6%로 이어진 성장률 둔화 추세가 지속되는 가운데, North America 수요 부진이 겹치며 성장 재가속을 모색하고 있다.",
+        "lead": "EPAM은 2026년 8월 6일 발표한 2분기 실적 이후 AI-native 매출이 $1.6억(전체의 11%+)으로 6개 분기 연속 두 자릿수 순성장을 이어가며 반등 동력을 제공했다. 3분기 가이던스가 컨센서스를 하회해 실적 발표 당일 주가가 6.8% 급락했음에도 이후 한 달간 모멘텀이 살아나며 9월 15일에는 주가가 18개 애널리스트 평균 목표주가($263.22)를 상회했다. 그 결과 최근 1개월 +25.1%·3개월 +61.16% 급등하며 RS 6M 백분위 80.5%까지 올라섰다.",
+        "whyRose": [
+          {
+            "id": "ai-native-growth",
+            "statement": "AI-native 매출이 2Q26 기준 $1.6억, 전체 매출의 11% 이상으로 확대되며 6개 분기 연속 두 자릿수 순성장(QoQ)을 이어갔고, 회사는 FY26 AI-native 매출 $6억 달성 궤도에 있다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "EPAM (EPAM) Q2 2026 Earnings Call Transcript",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/earnings/call-transcripts/2026/08/06/epam-epam-q2-2026-earnings-call-transcript/",
+                "date": "2026-08-06",
+                "quote": "AI Native Revenue -- $160 million, representing over 11% of total revenue after six consecutive quarters of double-digit sequential growth.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "crosses-analyst-target",
+            "statement": "9월 15일 주가가 18개 애널리스트 평균 12개월 목표주가 $263.22를 상회하는 $264.26에 거래되며 목표주가 상향 기대가 부각됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "EPAM Crosses Above Average Analyst Target",
+                "publisher": "BNK Invest (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/epam-crosses-above-average-analyst-target",
+                "date": "2026-09-15",
+                "quote": "EPAM Systems, Inc. (Symbol: EPAM) has crossed above the average analyst 12-month target price of $263.22, changing hands for $264.26/share.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "post-earnings-drop-6m-negative",
+            "statement": "3분기 매출 가이던스($14.2억)가 컨센서스를 1.8% 밑돌면서 실적 발표 당일 주가가 6.8% 급락했다. 이후 급반등에도 불구하고 6개월 절대수익률은 -7.16%로 여전히 마이너스여서, 가이던스 하향에 따른 밸류에이션 우려가 완전히 해소됐는지는 추가 확인이 필요하다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "EPAM's (NYSE:EPAM) Q2 CY2026 Sales Beat Estimates But Stock Drops",
+                "publisher": "StockStory / FinancialContent",
+                "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-6-epams-nyseepam-q2-cy2026-sales-beat-estimates-but-stock-drops",
+                "date": "2026-08-06",
+                "quote": "The stock traded down 6.8% to $102.57 immediately after reporting.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "mixed",
+          "claims": [
+            {
+              "id": "revenue-guidance-lowered",
+              "statement": "FY26 매출 성장 가이던스가 리포티드 기준 3.2%~4.2%, 오가닉 상수통화 기준 2%~3%로 하향 조정됐다. North America 수요 둔화가 반영된 결과다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "EPAM Systems, Inc. - Form 8-K, Exhibit 99.1 (2Q26 실적 발표 보도자료)",
+                  "publisher": "EPAM Systems / SEC EDGAR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001352010/000135201026000043/exhibit99_q2x2026.htm",
+                  "date": "2026-08-06",
+                  "quote": "The Company now expects the year-over-year revenue growth rate to be in the range of 3.2% to 4.2% for 2026",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "EPAM (EPAM) Q2 2026 Earnings Call Transcript",
+                  "publisher": "The Motley Fool",
+                  "url": "https://www.fool.com/earnings/call-transcripts/2026/08/06/epam-epam-q2-2026-earnings-call-transcript/",
+                  "date": "2026-08-06",
+                  "quote": "3.2% to 4.2% on a reported basis, with organic constant currency growth adjusted to 2% to 3%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "eps-guidance-raised",
+              "statement": "반면 조정 EPS 가이던스는 소폭 상향돼 연간 중간값 $13.16로 제시됐다 — 매출 성장 둔화를 가격 정책·비용 통제에 따른 마진 개선으로 상쇄하는 구도로, Node 스크리닝 EPS 컨센서스(당해년 $13.15, 30일 전 $13.04)의 완만한 상향 흐름과도 부합한다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "EPAM's (NYSE:EPAM) Q2 CY2026 Sales Beat Estimates But Stock Drops",
+                  "publisher": "StockStory / FinancialContent",
+                  "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-6-epams-nyseepam-q2-cy2026-sales-beat-estimates-but-stock-drops",
+                  "date": "2026-08-06",
+                  "quote": "Management slightly raised its full-year Adjusted EPS guidance to $13.16 at the midpoint",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "AI 네이티브 전환",
+          "디지털 엔지니어링·IT 컨설팅"
+        ],
+        "confidence": "medium",
+        "ticker": "EPAM",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "q2-earnings-beat",
+            "na-weakness-guidance-cut"
+          ],
+          "reasons": [
+            "q2-earnings-beat: Quote contains only vague statement 'better than expected', lacks specific numbers ($14.148억 YoY +4.5%, 10.8% margin, +17% net income)",
+            "na-weakness-guidance-cut: Quotes do not contain the specific guidance numbers claimed (3.2%~4.2% reported, 2%~3% organic constant currency)"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "EPAM은 2026년 8월 6일 발표한 2분기 실적에서 매출 $14.15억(YoY +4.5%)과 영업이익률 10.8%(1Q26 8.3%에서 개선)로 예상보다 양호한 실적을 냈고, AI-native 매출이 $1.6억(전체의 11%+)으로 6개 분기 연속 두 자릿수 순성장을 이어가며 반등 동력을 제공했다. 3분기 가이던스가 컨센서스를 하회해 실적 발표 당일 주가가 6.8% 급락했음에도 이후 한 달간 모멘텀이 살아나며 9월 15일에는 주가가 18개 애널리스트 평균 목표주가($263.22)를 상회했다. 그 결과 최근 1개월 +25.1%·3개월 +61.16% 급등하며 RS 6M 백분위 80.5%까지 올라섰다.",
+        "researchedOn": "2026-09-16",
+        "carried": false
       },
       "nameKo": "이팸 시스템스",
       "nameEn": "EPAM SYS INC",
@@ -7994,61 +8092,53 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "done",
-        "company": "GeneDx Holdings(WGS, 진DX 홀딩스)는 전장 엑솜/게놈 시퀀싱(WES/WGS) 기반으로 신생아·소아 중증질환 및 희귀유전질환을 진단하는 검사 서비스 기업이다. 매출의 핵심은 Exome/Genome 시퀀싱 검사이며(2026년 2분기 매출 $114.4백만 중 Exome/Genome이 $100.3백만), 핵심 고객은 검사를 의뢰하는 병원·의료시스템과 이를 커버하는 상업보험사(엑솜 상업 커버리지 약 98%, 게놈 약 87%)다. 현재는 검사량(2분기 30,785건, YoY +32%)과 매출이 고성장하면서 GAAP 영업적자 폭은 점진적으로 줄어드는 손익분기 접근 국면에 있다.",
-        "lead": "2026년 8월 3일 발표된 2분기(FY26) 실적에서 매출과 이익이 시장 컨센서스를 상회했으며, 매출은 전년 대비 +11% 성장했고 회사는 3분기 매출 가이던스 $122~124백만과 FY26 연간 매출 가이던스 $475~490백만을 재확인했다. 소아 중증질환 대상 게놈시퀀싱의 병원 전체 도입을 지지하는 연구 결과 보도와 이사진·헤지펀드의 지분 매수 뉴스가 이어지며 상승 모멘텀을 뒷받침했다.",
+        "ticker": "WGS",
+        "company": "GeneDx Holdings는 전장 엑솜·유전체 시퀀싱(WES/WGS) 기반 희귀질환 진단 전문기업으로, 소아·NICU 환자를 핵심 고객군으로 검사 매출을 창출하며 보험 커버리지 지역 확장에 따른 검사 물량(Q) 증가와 보험 지급률 상승에 따른 판가(P) 개선이 동시에 진행 중이다. 분기 매출은 2025년 3분기 1억1,674만달러에서 2026년 2분기 1억1,444만달러 수준(엑솜·유전체 검사량 3만785건, YoY +32%)으로 확대됐으나 GAAP 기준으로는 여전히 영업적자·순손실 구간에 머물러 있다. 진단 과정에서 축적되는 유전체 데이터를 신약 개발(드러그 디스커버리) 파트너십으로 연계하는 전략을 병행하고 있다.",
+        "lead": "WGS는 최근 1개월 +22.29%, 3개월 +60.38%, 6개월 +37.82% 상승하며 RS 백분위 상위권(1M 0.8%·3M 1.3%·6M 15.0%)에 진입했다. 8월 3일 발표된 2026회계연도 2분기 실적에서 매출이 컨센서스를 상회하고 조정 EPS가 흑자로 전환된 데 이어 이익 추정치 상향과 Zacks Rank #1(Strong Buy) 승격, 5월 이사진의 대규모 장내 매수가 겹치며 모멘텀이 강화됐다.",
         "whyRose": [
           {
-            "id": "w1",
-            "statement": "2026년 8월 3일 발표된 2분기(FY26) 실적에서 매출과 이익이 시장 컨센서스를 상회했다는 평가가 나오며 상승 모멘텀에 힘을 더했다.",
+            "id": "q2-beat",
+            "statement": "8월 3일 발표된 2026회계연도 2분기 실적에서 매출 1억1,444만달러로 컨센서스(약 1억1,101만달러)를 상회했고, 조정 EPS는 0.01달러로 컨센서스 -0.19달러 대비 0.20달러의 큰 폭 서프라이즈를 기록했다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "GeneDx Holdings Corp. (WGS) Q2 Earnings and Revenues Surpass Estimates",
-                "publisher": "Zacks (Nasdaq.com)",
+                "publisher": "Zacks",
                 "url": "https://www.nasdaq.com/articles/genedx-holdings-corp-wgs-q2-earnings-and-revenues-surpass-estimates",
                 "date": "2026-08-03",
-                "quote": "GeneDx Holdings Corp. (WGS) Q2 Earnings and Revenues Surpass Estimates",
+                "quote": "the company reporting $0.01 earnings per share for the quarter, beating the consensus estimate of ($0.19) by $0.20, and the firm had revenue of $114.44 million during the quarter, compared to the consensus estimate of $111.01 million.",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "w3",
-            "statement": "소아 중증질환 대상 신속 게놈시퀀싱의 병원 전체 도입을 뒷받침하는 연구 결과가 보도되며 임상적 근거 확대에 따른 긍정적 뉴스 흐름이 이어졌다.",
+            "id": "estimate-momentum",
+            "statement": "실적 발표 이후 당해 회계연도 EPS 컨센서스가 상향 조정되며 Zacks Rank #1(Strong Buy)로 상향돼, 이익 추정치 모멘텀이 주가 상승을 뒷받침했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "GeneDx Study Supports Hospital-Wide Adoption Of Rapid Genome Sequencing In Pediatric Care",
-                "publisher": "RTTNews (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/genedx-study-supports-hospital-wide-adoption-rapid-genome-sequencing-pediatric-care",
-                "date": "2026-08-24",
-                "quote": "GeneDx Study Supports Hospital-Wide Adoption Of Rapid Genome Sequencing In Pediatric Care",
+                "title": "Can GENEDX HOLDINGS (WGS) Run Higher on Rising Earnings Estimates?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/can-genedx-holdings-wgs-run-higher-rising-earnings-estimates",
+                "date": "2026-08-19",
+                "quote": "the consensus estimate increase 59% for the current year... Thanks to promising estimate revisions, GENEDX HOLDINGS currently carries a Zacks Rank #1 (Strong Buy).",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "w4",
-            "statement": "이사진의 대규모 지분 매수와 대형 헤지펀드의 매집 뉴스가 이어지며 내부자·기관 신뢰 시그널로 해석되었다.",
+            "id": "insider-buy",
+            "statement": "5월 13~15일 이사(director) Keith A. Meister가 약 1,377만달러 규모(35만1,273주, 가중평균단가 39.19달러)를 장내 매수하며 내부자 신뢰 신호가 부각됐다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "Is GeneDx Stock a Buys After a Company Director Purchased Over 350,000 Shares?",
-                "publisher": "The Motley Fool (Nasdaq.com)",
+                "publisher": "The Motley Fool",
                 "url": "https://www.nasdaq.com/articles/genedx-stock-buys-after-company-director-purchased-over-350000-shares",
                 "date": "2026-05-21",
-                "quote": "Is GeneDx Stock a Buys After a Company Director Purchased Over 350,000 Shares?",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Hedge Funder Eli Casdin Is Loading up on GeneDx Shares",
-                "publisher": "The Motley Fool (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/hedge-funder-eli-casdin-loading-genedx-shares",
-                "date": "2026-06-11",
-                "quote": "Hedge Funder Eli Casdin Is Loading up on GeneDx Shares",
+                "quote": "Director Keith A. Meister acquired 351,273 shares for a total transaction value of approximately $13.77 million over three trading days in May 2026...at a weighted average price of $39.19 per share, as disclosed in an SEC Form 4 filing.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -8057,32 +8147,32 @@ window.TEAM2_DATA = {
         ],
         "counterpoint": [
           {
-            "id": "c1",
-            "statement": "같은 시기 한 내부자의 약 $227,000 규모 매도 소식도 함께 보도되어, 이사진 매수와 엇갈리는 시그널로 해석될 여지가 있다.",
+            "id": "revenue-deceleration",
+            "statement": "분기별 매출 YoY 성장률이 2025년 3분기 +51.9%에서 4분기 +26.5%, 2026년 1분기 +17.4%, 2분기 +11.4%로 4개 분기 연속 둔화되고 있어, 최근 주가 급등과 달리 톱라인 모멘텀 자체는 약화되는 추세다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "What a $227,000 GeneDx Insider Sale Means as Revenue Climbs 17%",
-                "publisher": "The Motley Fool (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/what-227000-genedx-insider-sale-means-revenue-climbs-17",
-                "date": "2026-06-23",
-                "quote": "What a $227,000 GeneDx Insider Sale Means as Revenue Climbs 17%",
+                "title": "WGS 10-Q 분기 실적 데이터",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001818331&type=10-Q",
+                "date": "2026-09-09",
+                "quote": "revenue yoy: 2025-09-30 +51.9%, 2025-12-31 +26.5%, 2026-03-31 +17.4%, 2026-06-30 +11.4%",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "c2",
-            "statement": "GAAP 기준으로는 여전히 대규모 적자다. 2026년 2분기(6월 결산) 영업손실 -$17.455백만(영업이익률 -15.3%), 순손실 -$17.740백만으로 전년동기 순손실 대비 -264.1% 확대됐고, 직전 분기(2026년 3월 결산)는 영업이익률 -56.2%, 순손실 -$63.316백만(YoY -869.8%)에 달해 손익분기 시점은 아직 가시화되지 않았다.",
+            "id": "gaap-loss-widening",
+            "statement": "조정 EPS는 흑자전환했으나 GAAP 순손실은 오히려 확대되는 구간을 거쳤다. 2026년 1분기 순손실 6,331.6만달러(YoY -869.8%), 2분기 순손실 1,774만달러(YoY -264.1%)로 적자 기조가 이어지고 있어 조정지표 개선과 GAAP 실적 간 괴리가 존재한다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "GeneDx Holdings Corp. 10-Q Filings (SEC EDGAR)",
-                "publisher": "SEC EDGAR",
+                "title": "WGS 분기 재무 데이터",
+                "publisher": "SEC EDGAR (10-Q)",
                 "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001818331&type=10-Q",
-                "date": "2026-06-30",
-                "quote": "periodEnd 2026-06-30: revenue 114,440,000 / profit -17,455,000 / netIncome -17,740,000 / margin -15.3% / yoy netIncome -264.1%; periodEnd 2026-03-31: margin -56.2% / netIncome -63,316,000 / yoy netIncome -869.8%",
+                "date": "2026-09-09",
+                "quote": "netIncome: 2026-03-31 -63,316,000 (yoy -869.8%), 2026-06-30 -17,740,000 (yoy -264.1%)",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -8090,46 +8180,28 @@ window.TEAM2_DATA = {
           }
         ],
         "estimateRevisions": {
-          "direction": "raised",
-          "claims": [
-            {
-              "id": "e1",
-              "statement": "2분기 실적 발표 이후 애널리스트 이익추정치 상향 가능성을 다룬 기사가 나오며 추정치 상향 흐름이 감지된다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Can GENEDX HOLDINGS (WGS) Run Higher on Rising Earnings Estimates?",
-                  "publisher": "Zacks (Nasdaq.com)",
-                  "url": "https://www.nasdaq.com/articles/can-genedx-holdings-wgs-run-higher-rising-earnings-estimates",
-                  "date": "2026-08-19",
-                  "quote": "Can GENEDX HOLDINGS (WGS) Run Higher on Rising Earnings Estimates?",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ]
+          "direction": "mixed",
+          "claims": []
         },
         "themeTags": [
-          "희귀질환 유전자 진단",
-          "전장 엑솜/게놈 시퀀싱(WES/WGS)",
-          "소아 정밀의료"
+          "유전체 진단",
+          "희귀질환",
+          "차세대 시퀀싱(NGS)"
         ],
-        "ticker": "WGS",
         "confidence": "medium",
         "factcheck": {
           "verdict": "partial",
           "removed": [
-            "w2"
+            "cy-eps-up",
+            "ny-eps-down"
           ],
           "reasons": [
-            "w2: Exome/Genome 시퀀싱 매출 $100.3백만 +17% 정보가 quote에 명시되지 않음. Quote에는 '총 매출 $114.4백만 +11%'만 있고, 핵심 라인 세부정보는 없음"
-          ],
-          "leadFixed": true
+            "cy-eps-up: quote의 '59% 상향'과 statement의 '0.11→0.1275달러' 수치 불일치 (실제 환산: 0.11×1.59≈0.175≠0.1275)",
+            "ny-eps-down: evidence_level이 'no_source'이고 sources 배열이 공란 (근거 부재)"
+          ]
         },
-        "leadOriginal": "2026년 8월 3일 발표된 2분기(FY26) 실적에서 매출과 이익이 시장 컨센서스를 상회했으며, 매출은 전년 대비 +11%(Exome/Genome +17%) 성장했고 회사는 3분기 매출 가이던스 $122~124백만과 FY26 연간 매출 가이던스 $475~490백만을 재확인했다. 소아 중증질환 대상 게놈시퀀싱의 병원 전체 도입을 지지하는 연구 결과 보도와 이사진·헤지펀드의 지분 매수 뉴스가 이어지며 상승 모멘텀을 뒷받침했다.",
-        "researchedOn": "2026-09-15",
-        "carried": true
+        "researchedOn": "2026-09-16",
+        "carried": false
       },
       "nameKo": "진DX 홀딩스",
       "nameEn": "GENEDX HOLDINGS CORP",
@@ -9079,35 +9151,18 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "done",
-        "ticker": "CRWD",
-        "company": "CrowdStrike는 클라우드 네이티브 Falcon 플랫폼 기반의 사이버보안 SaaS 기업으로, 엔드포인트 보안(EDR/XDR)에서 출발해 AIDR(AI 탐지·대응), SIEM, 아이덴티티 보안 등으로 모듈을 확장한 구독형 매출 구조를 갖는다. 매출의 핵심은 연간 반복 매출(ARR)이며, 최근에는 소비형 라이선스 모델인 Falcon Flex를 통한 기존 고객 교차판매가 ARR 순증의 주요 동력으로 부상했다. FY2Q27(2026-07-31 마감) 기준 분기 매출 14.709억 달러(YoY +25.8%)로 성장이 재가속되는 국면이며, AI 보안 수요 확대를 신성장축으로 삼아 실적과 가이던스를 동반 상향하고 있다.",
-        "lead": "CRWD는 8/26 발표된 FY2Q27 실적에서 매출이 YoY +25.8% 증가(14.709억 달러)하고 순이익이 흑자전환(530.6만 달러, YoY +107.6%)했으며, 신규 ARR 3.33억 달러가 가이던스 상단을 16% 상회하면서 FY27 가이던스가 큰 폭으로 상향됐다. AIDR 등 AI 보안 수요 가속과 Falcon Flex 기반 ARR 확대가 실적 재가속의 핵심 동력으로 지목되며 국내 증권사 리포트들의 우호적 코멘트가 이어지고 있다.",
+        "company": "CrowdStrike는 클라우드 네이티브 Falcon 플랫폼으로 엔드포인트 보안·아이덴티티 보안·SIEM·클라우드 보안을 통합 제공하는 사이버보안 SaaS 기업으로, 매출은 구독형 ARR 기반이며 Falcon Flex 번들을 통해 교차판매를 확대하고 글로벌 대기업·정부기관 IT보안 조직을 핵심 고객으로 한다. FY2Q27(2026-07-31 마감) 매출은 14.71억달러(YoY +25.8%)를 기록했고 AIDR(AI 탐지·대응) ARR이 전분기 대비 3배 증가하는 등 AI 보안을 새로운 성장축으로 편입시키는 국면이며, GAAP 영업이익률은 -2.3%로 여전히 적자이나 순이익은 최근 3개 분기 연속 흑자전환했다. RS 백분위 1개월 3.1%·3개월 3.4%·6개월 0.8%로 상위권에 위치하고 52주 고점 대비 99.39%, 200일선 이격 66.96%로 추세가 크게 연장된 상태다.",
+        "lead": "CRWD는 2026-09-14 장중 AI 업계 리더들의 개발 속도 조절 경고가 역설적으로 사이버보안 수요를 부각시키며 급등했다. 직전 발표된 FY2Q27 실적에서 매출이 YoY +25.8% 증가하고 신규 ARR이 3.33억달러로 사상 최대를 기록하며 가이던스 상단을 16% 상회한 점이 상승 모멘텀의 배경이 됐다. AIDR ARR이 전분기 대비 3배, Falcon Flex 기반 ARR이 +101% 증가한 점도 AI 보안 수요 확산을 뒷받침했다.",
         "whyRose": [
           {
-            "id": "wr1",
-            "statement": "FY2Q27(2026-07-31 마감분기) 매출이 14.709억 달러로 YoY +25.8% 증가했고, 순이익은 530.6만 달러로 흑자전환하며 YoY +107.6%를 기록해 실적 모멘텀이 재가속됐다. 영업손실은 -3,323.2만 달러(마진 -2.3%)로 전년 동기 대비 68.5% 개선됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "CrowdStrike Holdings 8-K (실적 발표, 재무제표·첨부)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000029/crwd-20260826.htm",
-                "date": "2026-08-26",
-                "quote": "periodEnd 2026-07-31: revenue 1,470,897,000 USD (yoy +25.8%), operating profit -33,232,000 USD (yoy +68.5%), net income 5,306,000 USD (yoy +107.6%), margin -2.3%",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "wr2",
-            "statement": "FY27 2분기 신규 ARR이 3.33억 달러로 사상 최대치를 기록했고, 이는 가이던스 상단을 16% 상회한 결과다.",
+            "id": "fy2q27-arr-beat",
+            "statement": "FY2Q27 신규 ARR이 3.33억달러로 사상 최대치를 기록하며 가이던스 상단을 16% 상회",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] AI 막는 AI : AIDR",
                 "publisher": "키움증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqlqlxqliemlxeqgcgxcmez.pdf",
+                "url": "https://rreport.einfomax.co.kr/report/eqlqlxqliemlxeqgcgxcmex.pdf",
                 "date": "2026-08-27",
                 "quote": "FY27 2Q 신규 ARR 3.33억 달러로 사상 최대, 가이던스 상단을 16% 상회",
                 "verified": "ok",
@@ -9116,32 +9171,32 @@ window.TEAM2_DATA = {
             ]
           },
           {
-            "id": "wr3",
-            "statement": "2분기 실적이 컨센서스를 상회(Beat)하며 FY27 가이던스가 큰 폭으로 상향됐고, AIDR(AI 보안) ARR은 전분기 대비 3배, Falcon Flex 기반 ARR은 +101% 증가했다.",
+            "id": "aidr-flex-growth",
+            "statement": "AIDR(AI 탐지·대응) ARR이 전분기 대비 3배 증가, Falcon Flex 기반 ARR은 +101% 증가",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] AI 보안 수요, 내러티브에서 숫자로",
                 "publisher": "하나증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqlqlekiglixclzgcgxcmez.pdf",
+                "url": "https://rreport.einfomax.co.kr/report/eqlqlekiglixclzgcgxcmex.pdf",
                 "date": "2026-08-27",
-                "quote": "2Q Beat & FY27년 가이던스 큰 폭으로 상향, 향후 추가적인 상향 조정 가능성",
+                "quote": "AIDR(AI보안) ARR 1분기 대비 3배 증가, Flex 모델 기반 ARR +101%",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "wr4",
-            "statement": "9/14 언론에서 CRWD 주가 급등이 보도되며 단기 모멘텀 뉴스플로우가 형성됐다.",
+            "id": "broad-segment-strength",
+            "statement": "엔드포인트·AIDR·SIEM·아이덴티티 등 전 부문에서 고른 호조",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Why CrowdStrike Stock Rocketed Higher Today",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/why-crowdstrike-stock-rocketed-higher-today",
-                "date": "2026-09-14",
-                "quote": "Why CrowdStrike Stock Rocketed Higher Today",
+                "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] AI 보안 수요의 시급성이 모멘텀 지지",
+                "publisher": "신한투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlqlxxzikleqzxgcgxcmex.pdf",
+                "date": "2026-08-27",
+                "quote": "엔드포인트, AIDR, SIEM, 아이덴티티 등 부문 전반의 호조",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -9150,32 +9205,32 @@ window.TEAM2_DATA = {
         ],
         "counterpoint": [
           {
-            "id": "cp1",
-            "statement": "순이익은 흑자전환했으나 GAAP 영업이익은 여전히 적자(-2.3% 마진)로, 이익 구조의 완전한 흑자전환은 아직 확인되지 않았다.",
+            "id": "valuation-scalability",
+            "statement": "AI 보안 수요는 고무적이나 제한적 확장성과 높은 밸류에이션이 여전히 부담 요인으로 지적됨",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "CrowdStrike Holdings 8-K (실적 발표, 재무제표·첨부)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000029/crwd-20260826.htm",
-                "date": "2026-08-26",
-                "quote": "periodEnd 2026-07-31: operating profit -33,232,000 USD, margin -2.3%",
+                "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] 시험대에 오르다",
+                "publisher": "키움증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqxkllxkqlxxclxgcgxcmex.pdf",
+                "date": "2025-12-04",
+                "quote": "AI 도입에 따른 보안 수요는 고무적이나 제한적 확장성 및 높은 밸류는 여전히 부담",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "cp2",
-            "statement": "AI 보안 수요 확대는 긍정적이나 제한적 확장성과 높은 밸류에이션 부담이 지속적으로 지적됐다.",
+            "id": "gaap-operating-loss",
+            "statement": "매출 고성장에도 GAAP 영업이익은 최근 분기까지 연속 적자로, FY2Q27 영업이익 -3,323만달러(마진 -2.3%)를 기록",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] 시험대에 오르다",
-                "publisher": "키움증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqxkllxkqlxxclxgcgxcmez.pdf",
-                "date": "2025-12-04",
-                "quote": "AI 도입에 따른 보안 수요는 고무적이나 제한적 확장성 및 높은 밸류는 여전히 부담",
+                "title": "CrowdStrike Holdings 8-K (실적 발표, FY2Q27)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000029/crwd-20260826.htm",
+                "date": "2026-08-26",
+                "quote": "revenue 1,470,897,000 USD (YoY +25.8%), operating profit -33,232,000 USD (margin -2.3%, YoY +68.5%)",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -9186,14 +9241,14 @@ window.TEAM2_DATA = {
           "direction": "raised",
           "claims": [
             {
-              "id": "er1",
-              "statement": "2분기 실적 발표 후 FY27 가이던스가 큰 폭으로 상향됐고, 추가 상향 여지도 제기됐다.",
+              "id": "guidance-raised-hana",
+              "statement": "FY27 가이던스가 2Q 실적 발표와 함께 큰 폭으로 상향, 향후 추가 상향 조정 가능성도 제기됨",
               "evidence_level": "sourced",
               "sources": [
                 {
                   "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] AI 보안 수요, 내러티브에서 숫자로",
                   "publisher": "하나증권",
-                  "url": "https://rreport.einfomax.co.kr/report/eqlqlekiglixclzgcgxcmez.pdf",
+                  "url": "https://rreport.einfomax.co.kr/report/eqlqlekiglixclzgcgxcmex.pdf",
                   "date": "2026-08-27",
                   "quote": "2Q Beat & FY27년 가이던스 큰 폭으로 상향, 향후 추가적인 상향 조정 가능성",
                   "verified": "ok",
@@ -9202,14 +9257,14 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "id": "er2",
-              "statement": "신규 ARR이 가이던스 상단을 16% 상회하는 서프라이즈를 기록하며 추정치 상향의 근거가 됐다.",
+              "id": "guidance-beat-kiwoom",
+              "statement": "FY2Q27 신규 ARR이 가이던스 상단을 16% 상회하며 실적·가이던스 모두 컨센서스를 웃돎",
               "evidence_level": "sourced",
               "sources": [
                 {
                   "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] AI 막는 AI : AIDR",
                   "publisher": "키움증권",
-                  "url": "https://rreport.einfomax.co.kr/report/eqlqlxqliemlxeqgcgxcmez.pdf",
+                  "url": "https://rreport.einfomax.co.kr/report/eqlqlxqliemlxeqgcgxcmex.pdf",
                   "date": "2026-08-27",
                   "quote": "FY27 2Q 신규 ARR 3.33억 달러로 사상 최대, 가이던스 상단을 16% 상회",
                   "verified": "ok",
@@ -9220,18 +9275,25 @@ window.TEAM2_DATA = {
           ]
         },
         "themeTags": [
-          "AI 보안",
-          "사이버보안 플랫폼",
-          "SaaS 구독"
+          "AI 보안(AIDR)",
+          "사이버보안 통합 플랫폼",
+          "SaaS 구독모델"
         ],
         "confidence": "high",
+        "ticker": "CRWD",
         "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reasons": []
+          "verdict": "partial",
+          "removed": [
+            "ai-risk-catalyst"
+          ],
+          "reasons": [
+            "ai-risk-catalyst: quote에 '15%대' 급등의 구체적 상승률 수치 없음 ('rocketed higher' 표현만 있음)"
+          ],
+          "leadFixed": true
         },
-        "researchedOn": "2026-09-15",
-        "carried": true
+        "leadOriginal": "CRWD는 2026-09-14 장중 AI 업계 리더들의 개발 속도 조절 경고가 역설적으로 사이버보안 수요를 부각시키며 15%대 급등했다. 직전 발표된 FY2Q27 실적에서 매출이 YoY +25.8% 증가하고 신규 ARR이 3.33억달러로 사상 최대를 기록하며 가이던스 상단을 16% 상회한 점이 상승 모멘텀의 배경이 됐다. AIDR ARR이 전분기 대비 3배, Falcon Flex 기반 ARR이 +101% 증가한 점도 AI 보안 수요 확산을 뒷받침했다.",
+        "researchedOn": "2026-09-16",
+        "carried": false
       },
       "nameKo": "크라우드스트라이크 홀딩스",
       "nameEn": "CROWDSTRIKE HOLDINGS INC",
@@ -10378,68 +10440,52 @@ window.TEAM2_DATA = {
       "research": {
         "status": "done",
         "ticker": "PARR",
-        "company": "Par Pacific Holdings는 정유(Refining)·리테일 연료유통·로지스틱스 부문에서 매출을 창출하는 독립계 다운스트림 에너지기업이다(업종: Oil & Gas Refining & Marketing). 2026년 2분기(6월 마감) 매출은 전년동기 대비 +56.8% 증가한 29억 6,887만달러, 영업이익은 +555.8% 급증한 6억 3,455만달러(영업이익률 21.4%), 순이익은 +677.2% 늘어난 4억 6,213만달러를 기록하며 정제마진 강세 국면을 통과하고 있다. 직전 분기(1분기, 3월 마감)는 영업이익률 3.6%에 그쳤던 것과 비교하면 2분기 들어 마진이 큰 폭으로 확대된 흐름이다.",
-        "lead": "PARR는 1개월 RS 상위 20.4%, 6개월 RS 상위 12.1%, 200일 이동평균선 대비 43.39% 괴리(ADR 5.84%, 52주 고점 대비 93.88%)로 강한 상승 모멘텀 국면에 있다. 2026년 2분기 매출이 전년동기 대비 +56.8% 증가한 29억 6,887만달러, 순이익이 +677.2% 급증한 4억 6,213만달러로 정제마진 호조에 따른 실적 서프라이즈가 확인됐고, Zacks 등 매체는 최근 1년간 148% 주가 상승 모멘텀의 지속 가능성을 조명하고 있다.",
+        "company": "Par Pacific Holdings는 하와이·워싱턴주·와이오밍주 등에 정유소를 보유하고 로지스틱스·리테일(하와이 Hele 주유소·편의점망 등) 채널까지 통합한 독립계 다운스트림 에너지 기업으로, 매출의 핵심은 원유를 정제해 가솔린·디젤 등으로 판매하는 과정의 마진, 즉 크랙 스프레드다. 실적은 정제마진 변동성에 크게 좌우되는 구조로, 2026년 1분기 영업이익률 3.6%에서 2분기 21.4%로 급등한 사례가 이를 보여준다. 현재는 견조한 정제마진과 타이트한 연료 재고를 배경으로 이익 모멘텀이 확대되는 국면이다.",
+        "lead": "PARR는 정제마진(크랙 스프레드) 강세가 랠리를 뒷받침했고, RS 1개월 20.5%·6개월 17.3%로 상승 모멘텀이 이어지며 52주 고점 대비 96.06%, 200일선 대비 46.23% 이격된 채 거래되고 있다. 최근 1년간 주가 상승률이 동종 업종 대비 크게 앞서며(142.9% vs 업종 84.9%), Zacks 등 매체가 연속으로 다루면서 시장의 관심도 집중되는 국면이다.",
         "whyRose": [
           {
-            "id": "w1",
-            "statement": "2026년 2분기(6월 마감) 매출 YoY +56.8%, 영업이익 YoY +555.8%, 순이익 YoY +677.2%로 정제마진 호조에 따른 실적 서프라이즈가 발생했다(영업이익률 21.4%, 직전 1분기 3.6% 대비 큰 폭 확대).",
+            "id": "wr2",
+            "statement": "정제마진(크랙 스프레드) 자체가 견조해 7월 기준 정제 인덱스가 배럴당 31.34달러로 높은 수준을 유지했고, 연료 수요와 재고 상황도 우호적이었다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Par Pacific Holdings Inc — Form 10-Q filings (SEC EDGAR)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000821483&type=10-Q",
-                "date": "2026-06-30",
-                "quote": "periodEnd 2026-06-30: revenue 2,968,869,000 / profit(영업이익) 634,553,000 / netIncome 462,131,000 / margin 21.4% / yoy revenue +56.8% / yoy profit +555.8% / yoy netIncome +677.2%",
+                "title": "Will Refining Business Strength Continue to Support Par Pacific?",
+                "publisher": "Zacks (via TradingView)",
+                "url": "https://www.tradingview.com/news/zacks:22b6635f9094b:0-will-refining-business-strength-continue-to-support-par-pacific/",
+                "date": "2026-09(정확한 게재일 미상)",
+                "quote": "Its refining index, which is a rough measure of how profitable it is to turn crude oil into products like gasoline and diesel, was still very high in July at $31.34 per barrel",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "w2",
-            "statement": "2분기 실적이 8-K 공시(Item 2.02 실적발표)를 통해 2026-08-05 공식 발표됐다.",
+            "id": "wr3",
+            "statement": "최근 1년간 주가 상승률이 동종 업종 대비 크게 앞서며(142.9% vs 업종 84.9%) 모멘텀 스토리로 부각됐다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Par Pacific Holdings 8-K (2026-08-05)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/821483/000162828026052766/parr-20260804.htm",
-                "date": "2026-08-05",
-                "quote": "실적 발표, 재무제표·첨부",
+                "title": "Will Refining Business Strength Continue to Support Par Pacific?",
+                "publisher": "Zacks (via TradingView)",
+                "url": "https://www.tradingview.com/news/zacks:22b6635f9094b:0-will-refining-business-strength-continue-to-support-par-pacific/",
+                "date": "2026-09(정확한 게재일 미상)",
+                "quote": "Shares of PARR have gained 142.9% over the past year compared with the industry's growth of 84.9%",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "w3",
-            "statement": "최근 1년간 주가가 148% 상승했다는 보도로 모멘텀 지속 여부가 시장의 관심사로 부각됐다.",
+            "id": "wr4",
+            "statement": "Zacks가 디스틸레이트(경유 등) 중심 정제 모델의 성장 잠재력을 조명하는 등 리파이닝 사업모델 자체에 대한 매체 관심이 연속으로 이어졌다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Par Pacific Surges 148% in a Year: Should You Bet on the Momentum?",
-                "publisher": "Zacks (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/par-pacific-surges-148-year-should-you-bet-momentum",
-                "date": "2026-09-11",
-                "quote": "Par Pacific Surges 148% in a Year: Should You Bet on the Momentum?",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w4",
-            "statement": "에너지 섹터 내에서도 PARR가 동종업종 대비 부진하지 않고 강세를 보이는 종목으로 다뤄졌다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Are Oils-Energy Stocks Lagging Par Pacific (PARR) This Year?",
-                "publisher": "Zacks (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/are-oils-energy-stocks-lagging-par-pacific-parr-year",
-                "date": "2026-09-09",
-                "quote": "Are Oils-Energy Stocks Lagging Par Pacific (PARR) This Year?",
+                "title": "Can Par Pacific's Distillate-Focused Refining Model Drive Growth?",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/can-par-pacifics-distillate-focused-refining-model-drive-growth",
+                "date": "2026-09-14",
+                "quote": "Can Par Pacific's Distillate-Focused Refining Model Drive Growth?",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -10448,16 +10494,22 @@ window.TEAM2_DATA = {
         ],
         "counterpoint": [
           {
-            "id": "c2",
-            "statement": "주가 급등 국면에서 내부자(임원) 매도 사례가 보도됐다.",
+            "id": "cp1",
+            "statement": "52주 고점 대비 96.06% 수준, 200일 이동평균선 대비 46.23% 이격되어 있고 ADR 5.83%로 일중 변동성도 높아 기술적으로는 과열·단기 되돌림 리스크가 상존한다.",
+            "evidence_level": "no_source",
+            "sources": []
+          },
+          {
+            "id": "cp2",
+            "statement": "Zacks 자체도 '모멘텀에 베팅해야 하는가'라는 회의적 제목의 기사를 낼 만큼, 1년간 142.9~148% 급등한 랠리의 지속 가능성에 대해 시장에서 의문이 제기되고 있다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Timothy Clossey Sells 10,970 Shares of Par Pacific (NYSE:PARR) Stock",
-                "publisher": "Daily Political",
-                "url": "https://www.dailypolitical.com/2026/09/11/timothy-clossey-sells-10970-shares-of-par-pacific-nyseparr-stock.html",
+                "title": "Par Pacific Surges 148% in a Year: Should You Bet on the Momentum?",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/par-pacific-surges-148-year-should-you-bet-momentum",
                 "date": "2026-09-11",
-                "quote": "Timothy Clossey Sells 10,970 Shares of Par Pacific (NYSE:PARR) Stock",
+                "quote": "Par Pacific Surges 148% in a Year: Should You Bet on the Momentum?",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -10468,30 +10520,32 @@ window.TEAM2_DATA = {
           "direction": "raised",
           "claims": [
             {
-              "id": "e1",
-              "statement": "근거 없음(출처 검증 실패로 제거됨)",
+              "id": "er1",
+              "statement": "당해연도(CY) EPS 컨센서스가 30일 전 19.83에서 현재 20.95로, 익년도(NY) EPS 컨센서스는 11.91에서 13.51로 각각 상향 조정되어 이익 추정치 리비전 방향은 상향이다.",
               "evidence_level": "no_source",
-              "sources": [],
-              "stripped": true
+              "sources": []
             }
           ]
         },
         "themeTags": [
-          "정제마진 강세",
-          "다운스트림 정유"
+          "정유/다운스트림",
+          "크랙 스프레드 강세",
+          "실적 모멘텀"
         ],
         "confidence": "medium",
         "factcheck": {
           "verdict": "partial",
           "removed": [
-            "c1"
+            "wr1"
           ],
           "reasons": [
-            "c1 counterpoint은 '정제마진 지속가능성에 대한 불확실성' 주장이나, 제시된 quote는 기사 제목만 있고 구체적 근거·데이터 없음. 구체적 내용 없이 제목으로만 주장을 뒷받침하려는 지어낸 반대 근거로 판단"
-          ]
+            "wr1의 quote에 statement의 구체적 숫자(29.69억 달러, YoY +56.8%, 순이익 4.62억 달러, 677.2% 급증)가 명시되지 않음 (단순 '발표했다'는 사실만 기재)"
+          ],
+          "leadFixed": true
         },
-        "researchedOn": "2026-09-15",
-        "carried": true
+        "leadOriginal": "PARR는 2026년 2분기(6월 결산) 매출 29.69억 달러(YoY +56.8%), 순이익 4.62억 달러(YoY +677.2%, 마진 21.4%)의 어닝 서프라이즈를 냈고, 정제마진(크랙 스프레드) 강세가 이를 뒷받침했다. RS 1개월 20.5%·6개월 17.3%로 상승 모멘텀이 이어지며 52주 고점 대비 96.06%, 200일선 대비 46.23% 이격된 채 거래되고 있다. Zacks 등 매체가 연속으로 다루면서 시장의 관심도 집중되는 국면이다.",
+        "researchedOn": "2026-09-16",
+        "carried": false
       },
       "nameKo": "파 퍼시픽 홀딩스",
       "nameEn": "PAR PACIFIC HOLDINGS INC",
@@ -13172,8 +13226,161 @@ window.TEAM2_DATA = {
         "count": 50
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "DUOL",
+        "company": "듀오링고는 게이미피케이션 기반 언어학습 애플리케이션을 운영하며, 매출은 구독(Super Duolingo/Duolingo Max), 광고, Duolingo English Test(DET) 자격시험 세 축으로 구성된다. 핵심 고객층은 전 세계 개인 학습자이며 DAU 증가율이 성장 스토리를 뒷받침하는 핵심 KPI로 작동한다. 2026년 2분기(6월 마감) 매출은 YoY +18.3%로 두 자릿수 성장을 유지했으나 직전 3개 분기(YoY +41.1%→+35.0%→+26.5%)와 비교하면 성장률 둔화가 뚜렷해진 국면이다.",
+        "lead": "DUOL은 최근 1개월 +18.25%·3개월 +22.59%·6개월 +57.58% 상승하며 RS 순위 1개월 상위 1.3%·3개월 상위 11.3%·6개월 상위 7.5%에 올랐고 ADR 4.86%·200일선 대비 +17.89% 이격을 나타내지만, 52주 고점 대비로는 여전히 -43.6% 낮은 상태다. 8월 5일 발표된 2026년 2분기(6월 마감) 실적 이후 주가는 직전 실적 발표 대비 29.6% 상승했고, DAU 23% 증가가 랠리의 핵심 근거로 제시된다. 다만 이번 반등은 지난 1년간 46~51% 급락 이후의 되돌림 성격이 강하며, 매출 YoY 성장률은 41.1%→35.0%→26.5%→18.3%로 4개 분기 연속 둔화되는 중이다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "8월 5일 발표된 2026년 2분기(6월 마감) 실적(매출 2억9,845만달러, YoY +18.3%) 이후 주가가 직전 실적 발표 대비 29.6% 상승했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Duolingo (DUOL) Up 29.6% Since Last Earnings Report: Can It Continue?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/duolingo-duol-296-last-earnings-report-can-it-continue",
+                "date": "2026-09-04",
+                "quote": "Duolingo (DUOL) Up 29.6% Since Last Earnings Report: Can It Continue?",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Duolingo, Inc. 8-K (실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026053299/duol-20260805.htm",
+                "date": "2026-08-05",
+                "quote": "periodEnd 2026-06-30, revenue 298,454천달러, yoy revenue +18.3%, margin 11.4%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "DAU(일간 활성 사용자) 23% 증가가 모멘텀 지속 가능성의 핵심 근거로 제시되고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Can DUOL's 23% Daily User Growth Sustain Its Momentum?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/can-duols-23-daily-user-growth-sustain-its-momentum",
+                "date": "2026-09-07",
+                "quote": "Can DUOL's 23% Daily User Growth Sustain Its Momentum?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "지난 1년간의 급락 이후 최근 반등을 두고 넷플릭스 스타일의 '턴어라운드' 서사가 시장에서 형성되고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Is Duolingo the Next Netflix-Style Comeback Story?",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/duolingo-next-netflix-style-comeback-story",
+                "date": "2026-09-05",
+                "quote": "Is Duolingo the Next Netflix-Style Comeback Story?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "자사의 기존 캐시카우 사업(제품 라인)을 스스로 종료하는 전략 전환이 사용자·투자자 모두에 긍정적이라는 평가가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "The Green Owl Is Ending Duolingo's Own Cash Cow. Here's Why That's Good News For Users and Investors.",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/green-owl-ending-duolingos-own-cash-cow-heres-why-thats-good-news-users-and-investors",
+                "date": "2026-09-14",
+                "quote": "The Green Owl Is Ending Duolingo's Own Cash Cow. Here's Why That's Good News For Users and Investors.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "General Counsel과 이사가 최근 각각 8,000주(120만달러)·10,000주(150만달러) 규모의 주식을 매도했으며, 이는 지난 1년간 각각 51%·46% 하락한 주가 국면에서 나온 내부자 매도다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Duolingo's General Counsel Sells Over 8,000 Shares for $1.2 Million After the Stock's 51% One-Year Decline",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/duolingos-general-counsel-sells-over-8000-shares-12-million-after-stocks-51-one-year",
+                "date": "2026-09-16",
+                "quote": "Duolingo's General Counsel Sells Over 8,000 Shares for $1.2 Million After the Stock's 51% One-Year Decline",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "A Duolingo Director Sells 10,000 Shares for $1.5 Million Amid a 46% One-Year Decline in the Stock",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/duolingo-director-sells-10000-shares-15-million-amid-46-one-year-decline-stock",
+                "date": "2026-09-11",
+                "quote": "A Duolingo Director Sells 10,000 Shares for $1.5 Million Amid a 46% One-Year Decline in the Stock",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "매출 YoY 성장률이 41.1%(3Q25)→35.0%(4Q25)→26.5%(1Q26)→18.3%(2Q26)로 4개 분기 연속 둔화됐고, 순이익 YoY도 1Q26 +23.7%에서 2Q26 -26%로 역전됐으며 영업이익률은 15.3~15.4%에서 11.4%로 하락했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Duolingo, Inc. 8-K (실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026053299/duol-20260805.htm",
+                "date": "2026-08-05",
+                "quote": "2Q26(2026-06-30) revenue yoy +18.3%, profit yoy +1.7%, netIncome yoy -26%, margin 11.4%; 1Q26(2026-03-31) revenue yoy +26.5%, netIncome yoy +23.7%, margin 15.3%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "에듀테크",
+          "구독형 모바일 앱",
+          "AI 러닝",
+          "실적 턴어라운드"
+        ],
+        "upcomingCatalyst": {
+          "date": "2026-11-11",
+          "what": "3분기(2026년 9월 마감) 실적 발표",
+          "sources": [
+            {
+              "title": "Duolingo Earnings Date & Report",
+              "publisher": "Investing.com",
+              "url": "https://www.investing.com/equities/duolingo-earnings",
+              "date": "2026-09-16",
+              "quote": "Duolingo will release its next earnings report on Nov 11, 2026.",
+              "verified": "unverified",
+              "httpStatus": 403
+            }
+          ]
+        },
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "researchedOn": "2026-09-16",
+        "carried": false
       },
       "nameKo": "듀오링고",
       "nameEn": "DUOLINGO INC",
@@ -14279,67 +14486,33 @@ window.TEAM2_DATA = {
       "research": {
         "status": "done",
         "ticker": "FET",
-        "company": "FET(포럼 에너지 테크놀로지스)는 유전·가스전 시추(Drilling & Downhole)와 완결(Completions) 장비를 설계·제조·유통하는 오일필드 서비스업체로, 북미 및 해외 E&P사·유정서비스업체를 주 고객으로 한다. 2025년 매출 약 7.91억달러 기준에서 2030년까지 매출 1B~1.6B달러, EBITDA 4배·FCF 3배 확대를 목표로 하는 'FET 2030' 성장전략을 2026년 8월 발표했으며, 순부채/EBITDA를 과거 약 4.0배에서 1.1배로 낮추는 등 재무구조 개선이 병행되고 있다. 분기 실적은 2025년 3분기 영업적자(마진 -3.1%)를 기록한 이후 4분기·2026년 1분기 연속 흑자로 전환하며 반등 국면에 있다.",
-        "lead": "FET는 3개월 RS 상위 1.3%, 6개월 RS 17.0%로 스크리닝 상위권에 오른 가운데, 2026년 8월 발표한 'FET 2030' 5개년 성장전략(2030년 매출 최대 1.6B달러, EBITDA 4배 확대 목표)이 주가 상승의 핵심 촉매로 지목된다. 여기에 2026년 5월 공시된 1분기(2026-03-31 마감) 실적에서 매출 YoY +8%, 영업이익 YoY +25%, 순이익 YoY +300.4%의 뚜렷한 이익 개선이 확인됐다. Zacks 등 언론은 최근 1년간 207%에 달하는 주가 상승과 최근 가격 강도(price strength) 유지 가능성을 잇달아 조명했다.",
+        "company": "포럼 에너지 테크놀로지스(FET)는 시추·완결(drilling & completion) 및 생산단계 오일필드 장비·기술을 상류(E&P) 및 유전서비스사에 공급하는 미국 업체다. 2026년 8월 EnerCom 컨퍼런스에서 2030년까지 매출 16억달러 달성을 목표로 하는 5개년 성장 계획을 공개했으며, 2026년 1분기(2026-03-31 마감)에는 매출 2억870만달러(YoY +8%)·영업이익 1,100.5만달러(YoY +25%, 영업이익률 5.3%)·순이익 449.2만달러(YoY +300.4%, 흑자전환)를 기록하며 직전 2025년 9월 마감 분기의 적자에서 회복하는 국면이다.",
+        "lead": "FET 주가는 최근 3개월 +59.03%, 6개월 +35.13% 상승하며 RS 상위 3개월 1.4%·6개월 17.8%의 강한 상대강도를 보였고, 이는 \"최근 1년간 207% 급등\"이라는 내러티브(Zacks, 2026-09-07)와 2026년 1분기 순이익 흑자전환(YoY +300.4%) 등 실적 개선이 맞물린 결과로 해석된다. 회사는 2026년 8월 EnerCom 컨퍼런스에서 2030년까지 매출 16억달러를 목표로 하는 5개년 성장 계획을 공개하며 중장기 스토리를 보강했다. 다만 최근 1개월은 -5.07% 조정되며 RS 1개월 상위 52.6%로 모멘텀이 둔화된 상태다.",
         "whyRose": [
           {
-            "id": "wr1",
-            "statement": "2026년 8월 'FET 2030' 5개년 성장전략을 공개, 2030년 매출 목표를 베이스라인 10억달러~시장성장 시나리오 16억달러로 제시하고 EBITDA 4배·FCF 3배 확대 목표를 내걸었다.",
+            "id": "q1-earnings-turnaround",
+            "statement": "2026년 1분기(2026-03-31 마감) 매출 2억870만달러(YoY +8%), 영업이익 1,100.5만달러(YoY +25%, 영업이익률 5.3%), 순이익 449.2만달러(전년 동기 대비 흑자전환, YoY +300.4%)를 기록하며 실적이 개선됐다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Forum Energy Technologies Targets $1.6B Revenue by 2030 in Five-Year Growth Plan",
-                "publisher": "MarketBeat",
-                "url": "https://www.nasdaq.com/articles/forum-energy-technologies-targets-16b-revenue-2030-five-year-growth-plan",
-                "date": "2026-08-27",
-                "quote": "Forum Energy Technologies Targets $1.6B Revenue by 2030 in Five-Year Growth Plan",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Forum Energy Technologies Targets $1.6B Revenue Path by 2030 at EnerCom Conference",
-                "publisher": "MarketBeat",
-                "url": "https://www.nasdaq.com/articles/forum-energy-technologies-targets-16b-revenue-path-2030-enercom-conference",
-                "date": "2026-08-21",
-                "quote": "Forum Energy Technologies Targets $1.6B Revenue Path by 2030 at EnerCom Conference",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Forum Energy Technologies Touts 2026 EBITDA Growth, Buybacks and $1B-$1.6B 2030 Revenue Goal at Conference",
-                "publisher": "MarketBeat (instant-alerts)",
-                "url": "https://marketbeat.com/instant-alerts/event-forum-energy-technologies-targets-16b-revenue-by-2030-in-five-year-growth-plan-2026-08-27/?amp=",
-                "date": "2026-08-27",
-                "quote": "Forum Energy Technologies' five-year plan, called FET 2030, targets $1.6 billion in revenue, quadruple EBITDA and triple free cash flow.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "wr2",
-            "statement": "2026년 5월 공시된 1분기(2026-03-31 마감) 실적에서 매출 208,700,000달러(YoY +8%), 영업이익 11,005,000달러(YoY +25%), 순이익 4,492,000달러(YoY +300.4%)로 이익 개선 폭이 확대됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "FORUM ENERGY TECHNOLOGIES, INC. 8-K (Q1 2026 실적 발표)",
-                "publisher": "SEC EDGAR",
+                "title": "Forum Energy Technologies Q1 2026 실적 발표(8-K)",
+                "publisher": "SEC EDGAR (Forum Energy Technologies 8-K)",
                 "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000030/fet-20260430.htm",
                 "date": "2026-05-01",
-                "quote": "revenue 208,700,000 USD (YoY +8%); operating profit 11,005,000 USD (YoY +25%); net income 4,492,000 USD (YoY +300.4%), periodEnd 2026-03-31",
+                "quote": "revenue 208700000 / profit(영업이익) 11005000 / netIncome 4492000 / margin 5.3 / yoy: revenue +8%, profit +25%, netIncome +300.4% (periodEnd 2026-03-31)",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "wr3",
-            "statement": "Zacks 는 최근 1년간 FET 주가가 207% 급등했다는 점을 조명하며 추가 상승 여력을 다룬 기사를 게재했다.",
+            "id": "momentum-207",
+            "statement": "최근 1년간 주가 207% 급등 내러티브가 반복 보도되며 모멘텀 매수세에 대한 시장 관심이 유지되고 있다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "Should Investors Buy FET Stock After Its Massive 207% One-Year Run?",
-                "publisher": "Zacks",
+                "publisher": "Zacks (Nasdaq.com)",
                 "url": "https://www.nasdaq.com/articles/should-investors-buy-fet-stock-after-its-massive-207-one-year-run",
                 "date": "2026-09-07",
                 "quote": "Should Investors Buy FET Stock After Its Massive 207% One-Year Run?",
@@ -14349,16 +14522,32 @@ window.TEAM2_DATA = {
             ]
           },
           {
-            "id": "wr4",
-            "statement": "Zacks 는 FET의 최근 가격 강도(price strength) 유지 요인을 별도로 분석하며 모멘텀 지속 가능성에 주목했다.",
+            "id": "growth-plan-2030",
+            "statement": "2026년 8월 EnerCom 컨퍼런스에서 2030년까지 매출 16억달러를 목표로 하는 5개년 성장 계획을 공개하며 중장기 리레이팅 스토리를 제시했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Here's What Could Help Forum Energy (FET) Maintain Its Recent Price Strength",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/heres-what-could-help-forum-energy-fet-maintain-its-recent-price-strength",
-                "date": "2026-08-24",
-                "quote": "Here's What Could Help Forum Energy (FET) Maintain Its Recent Price Strength",
+                "title": "Forum Energy Technologies Targets $1.6B Revenue by 2030 in Five-Year Growth Plan",
+                "publisher": "MarketBeat (Nasdaq.com)",
+                "url": "https://www.nasdaq.com/articles/forum-energy-technologies-targets-16b-revenue-2030-five-year-growth-plan",
+                "date": "2026-08-27",
+                "quote": "Forum Energy Technologies Targets $1.6B Revenue by 2030 in Five-Year Growth Plan",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "beat-market-strategy",
+            "statement": "Zacks가 FET의 \"Beat the Market\" 전략을 성장 가속화 핵심 요인으로 조명하며 최근 주가 강세에 대한 관심을 뒷받침했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Is FET's \"Beat the Market\" Strategy Its Key to Faster Growth?",
+                "publisher": "Zacks (Nasdaq.com)",
+                "url": "https://www.nasdaq.com/articles/fets-beat-market-strategy-its-key-faster-growth",
+                "date": "2026-09-14",
+                "quote": "Is FET's \"Beat the Market\" Strategy Its Key to Faster Growth?",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -14367,16 +14556,16 @@ window.TEAM2_DATA = {
         ],
         "counterpoint": [
           {
-            "id": "cp1",
-            "statement": "직전 최근 4개 분기 중 2025년 3분기(2025-09-30 마감)는 매출 YoY -5.6%, 영업손실 -6,106,000달러(적자전환, YoY -168.5%), 순손실 -20,554,000달러(YoY -38.7%)를 기록해 최근의 흑자 기조가 아직 짧은 구간(2개 분기)의 반등인지 확인이 필요하다.",
+            "id": "prior-quarter-loss",
+            "statement": "직전 3개 분기 전인 2025년 9월 30일 마감 분기에는 매출이 YoY -5.6% 감소했고 영업손실 610.6만달러(마진 -3.1%), 순손실 2,055.4만달러(YoY -38.7%)를 기록한 바 있어, 최근 흑자전환이 구조적 개선인지 업스트림 자본지출 사이클에 따른 반등인지는 추가 분기로 확인이 필요하다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "FORUM ENERGY TECHNOLOGIES INC — Form 10-Q filings",
+                "title": "Forum Energy Technologies 분기 실적(2025-09-30 마감분기)",
                 "publisher": "SEC EDGAR",
                 "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001401257&type=10-Q",
                 "date": "2025-09-30",
-                "quote": "revenue 196,231,000 USD (YoY -5.6%); operating profit -6,106,000 USD (YoY -168.5%); net income -20,554,000 USD (YoY -38.7%), periodEnd 2025-09-30",
+                "quote": "revenue 196231000 (YoY -5.6%), profit(영업손실) -6106000 (margin -3.1%), netIncome -20554000 (YoY -38.7%), periodEnd 2025-09-30",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -14388,9 +14577,8 @@ window.TEAM2_DATA = {
           "claims": []
         },
         "themeTags": [
-          "오일필드 서비스",
-          "FET 2030 성장전략",
-          "저베타 에너지주"
+          "유전 장비·서비스",
+          "업스트림 실적 턴어라운드"
         ],
         "confidence": "medium",
         "factcheck": {
@@ -14398,8 +14586,8 @@ window.TEAM2_DATA = {
           "removed": [],
           "reasons": []
         },
-        "researchedOn": "2026-09-15",
-        "carried": true
+        "researchedOn": "2026-09-16",
+        "carried": false
       },
       "nameKo": "포럼 에너지 테크놀로지스",
       "nameEn": "FORUM ENERGY TECHNOLOGIES INC",
@@ -15408,69 +15596,52 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "done",
-        "ticker": "HNGE",
-        "company": "힌지헬스는 웨어러블 센서·AI 기반 코칭·원격 물리치료 인력을 결합한 근골격계(MSK) 디지털 재활 플랫폼 기업으로, 대형 고용주와 건강보험사(payer)와의 B2B2C 계약을 통해 매출을 인식한다. 2026년 2분기 매출 2억1,282만달러(YoY +53%), 영업이익률 19%로 4개 분기 연속 마진이 개선되며 흑자 기조가 정착되는 국면이고, Cylinder 인수를 통해 위장관(GI) 케어 등 인접 만성질환 영역으로 플랫폼을 확장 중이다.",
-        "lead": "힌지헬스는 2026년 2분기 매출이 전년동기대비 53% 증가한 2억1,282만달러를 기록했고 영업이익률이 19%로 4개 분기 연속 개선됐다는 점이 최근 주가 강세의 핵심 근거다. 3개월간 64.6% 상승했다는 보도와 함께 Cylinder 인수를 통한 GI care 신시장(약 $135B) 진출 기대가 겹치며 모멘텀이 이어지고 있다. 8월 실적 발표 이후에도 주가가 13.7% 추가 상승했다는 후속 보도가 나오는 등 상승 흐름이 지속되는 국면이다.",
+        "company": "힌지 헬스는 가정 기반 근골격계(MSK) 재활·통증관리 디지털 헬스 플랫폼으로, 웨어러블 센서와 원격 물리치료사·코치 프로그램을 고용주 및 건강보험사에 B2B2C 구조로 판매하며 기업 후원 헬스플랜의 회원당 청구액을 매출로 인식한다. 2025년 상장 이후 매출 고성장이 이어지는 가운데 2025-12-31 분기부터 영업이익·순이익이 흑자전환하며 수익성 레버리지 구간에 진입했고, 최근 Cylinder 인수로 MSK 단일 적응증에서 위장관(GI) 질환 관리로 플랫폼 적용범위를 넓히는 국면이다.",
+        "lead": "HNGE는 RS 상위 1M 12.2%/3M 5.5%/6M 1.6%, 52주 고점 대비 96.67%, 200일선 이격 58.82%로 강한 모멘텀을 유지하며 6개월 절대 수익률은 125.84%에 달한다. 2026년 2분기(2026-06-30 마감) 매출이 YoY 53% 증가한 2억1,282만달러, Non-GAAP 영업이익이 YoY 136% 증가한 6,150만달러를 기록하며 회사는 2026 회계연도 매출 가이던스를 8억5,600만~8억6,000만달러(YoY +46%)로, Non-GAAP 영업이익 가이던스를 2억3,600만~2억4,400만달러로 상향했다.",
         "whyRose": [
           {
-            "id": "wr1",
-            "statement": "2026년 2분기 매출 YoY +53%, 영업이익률 19%(4개 분기 연속 개선), 순이익 흑자 폭 확대(YoY +107.6%)가 확인됨",
+            "id": "q2-revenue-opex",
+            "statement": "2026년 2분기(2026-06-30 마감) 매출이 전년동기대비 53% 증가한 2억1,282만달러를 기록했고, Non-GAAP 영업이익은 136% 증가한 6,150만달러로 마진 레버리지가 뚜렷해졌다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Hinge Health, Inc. Form 8-K (실적 발표)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026052558/hnge-20260729.htm",
+                "title": "Hinge Health Reports Second Quarter 2026 Financial Results (Exhibit 99.1)",
+                "publisher": "SEC EDGAR (8-K, 2026-08-04)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026052558/hnge-q2202684xex991.htm",
                 "date": "2026-08-04",
-                "quote": "2026-06-30 분기: 매출 212,817천달러(YoY +53%), 영업이익 40,440천달러(YoY +107%, 영업이익률 19%), 순이익 43,690천달러(YoY +107.6%)",
+                "quote": "Revenue increased 53% year-over-year to $213 million",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "wr2",
-            "statement": "3개월간 주가 64.6% 상승, 성장률과 마진 개선이 동반되고 있다는 보도",
+            "id": "fy2026-guidance-raise",
+            "statement": "회사는 2026 회계연도 매출 가이던스를 8억5,600만~8억6,000만달러(YoY +46%)로, Non-GAAP 영업이익 가이던스를 2억3,600만~2억4,400만달러로 상향 조정했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "HNGE Rallies 64.6% in 3 Months as Growth and Margins Gain Momentum",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/hnge-rallies-646-3-months-growth-and-margins-gain-momentum",
-                "date": "2026-08-12",
-                "quote": "HNGE Rallies 64.6% in 3 Months as Growth and Margins Gain Momentum",
+                "title": "Hinge Health Reports Second Quarter 2026 Financial Results (Exhibit 99.1)",
+                "publisher": "SEC EDGAR (8-K, 2026-08-04)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026052558/hnge-q2202684xex991.htm",
+                "date": "2026-08-04",
+                "quote": "We are raising our revenue guidance to be between $856 million and $860 million, reflecting year-over-year growth of 46%",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "wr3",
-            "statement": "Cylinder 인수를 통해 GI care 시장(약 $135B) 진출 기회를 확보했다는 보도",
+            "id": "gaap-eps-turnaround",
+            "statement": "GAAP 기준 희석주당순이익이 0.52달러로 흑자전환했다(전년동기 주당 -13.10달러 손실).",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Hinge Health's Cylinder Deal Opens a $135B GI Care Growth Opportunity",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/hinge-healths-cylinder-deal-opens-135b-gi-care-growth-opportunity",
-                "date": "2026-08-12",
-                "quote": "Hinge Health's Cylinder Deal Opens a $135B GI Care Growth Opportunity",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "wr4",
-            "statement": "8월 실적 발표 이후에도 주가가 13.7% 추가 상승했다는 후속 보도",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Hinge Health Inc. (HNGE) Up 13.7% Since Last Earnings Report: Can It Continue?",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/hinge-health-inc-hnge-137-last-earnings-report-can-it-continue",
-                "date": "2026-09-03",
-                "quote": "Hinge Health Inc. (HNGE) Up 13.7% Since Last Earnings Report: Can It Continue?",
+                "title": "Hinge Health Reports Second Quarter 2026 Financial Results (Exhibit 99.1)",
+                "publisher": "SEC EDGAR (8-K, 2026-08-04)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026052558/hnge-q2202684xex991.htm",
+                "date": "2026-08-04",
+                "quote": "GAAP diluted net income per share was $0.52 compared to a GAAP diluted net loss per share of $13.10",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -15479,13 +15650,13 @@ window.TEAM2_DATA = {
         ],
         "counterpoint": [
           {
-            "id": "cp1",
-            "statement": "이사(Director) Kristina Leslie가 보유주식 1,200주를 $105,876에 매도(내부자 매도)",
+            "id": "insider-sale",
+            "statement": "이사(Director) Kristina Leslie가 보유주식 1,200주를 105,876달러에 매도한 내부자 매도 이력이 있다(금액 자체는 크지 않아 시그널 강도는 제한적).",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "Hinge Health Director Kristina Leslie Sells 1,200 Shares for $105,876",
-                "publisher": "The Motley Fool",
+                "publisher": "The Motley Fool (via Nasdaq)",
                 "url": "https://www.nasdaq.com/articles/hinge-health-director-kristina-leslie-sells-1200-shares-105876",
                 "date": "2026-09-04",
                 "quote": "Hinge Health Director Kristina Leslie Sells 1,200 Shares for $105,876",
@@ -15495,13 +15666,13 @@ window.TEAM2_DATA = {
             ]
           },
           {
-            "id": "cp2",
-            "statement": "성장 가속 국면에서도 리스크가 커지고 있다는 지적이 제기됨(밸류에이션·경쟁 등 추가 확인 필요)",
+            "id": "growth-vs-risk",
+            "statement": "성장 가속과 동시에 리스크도 함께 커지고 있다는 평가가 제기된 바 있어, 밸류에이션 부담과 실행 리스크를 짚는 시각이 존재한다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "Is Hinge Health Stock a Buy as Growth Accelerates and Risks Rise?",
-                "publisher": "Zacks",
+                "publisher": "Zacks (via Nasdaq)",
                 "url": "https://www.nasdaq.com/articles/hinge-health-stock-buy-growth-accelerates-and-risks-rise",
                 "date": "2026-08-12",
                 "quote": "Is Hinge Health Stock a Buy as Growth Accelerates and Risks Rise?",
@@ -15515,16 +15686,16 @@ window.TEAM2_DATA = {
           "direction": "raised",
           "claims": [
             {
-              "id": "er1",
-              "statement": "키움증권(2025-11-06)은 힌지헬스가 FY25 연간 실적 가이던스를 대폭 상향하며 수익성 개선에 자신감을 내비쳤다고 평가함. 이후 실제 분기 실적에서도 영업이익률이 16%(FY25 4Q)→17.6%(FY26 1Q)→19%(FY26 2Q)로 개선 추세가 이어짐",
+              "id": "fy26-guide-raise",
+              "statement": "2026년 2분기 실적 발표에서 2026 회계연도 매출·Non-GAAP 영업이익 가이던스를 모두 상향했다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "[힌지 헬스 (NYS:HNGE)] 안 아프게, 돈 덜 나가게, 위기는 아무렇지 않게",
-                  "publisher": "키움증권",
-                  "url": "https://rreport.einfomax.co.kr/report/eqxgileqxcceixcgcgxcmez.pdf",
-                  "date": "2025-11-06",
-                  "quote": "`25년 연간 실적 가이던스 대폭 상향하며 수익성 개선에 자신감 내비친 상황",
+                  "title": "Hinge Health Reports Second Quarter 2026 Financial Results (Exhibit 99.1)",
+                  "publisher": "SEC EDGAR (8-K, 2026-08-04)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1673743/000162828026052558/hnge-q2202684xex991.htm",
+                  "date": "2026-08-04",
+                  "quote": "Building on this momentum, we're raising our revenue and profitability expectations for the remainder of 2026",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -15535,16 +15706,25 @@ window.TEAM2_DATA = {
         "themeTags": [
           "디지털 헬스케어",
           "MSK 재활 플랫폼",
-          "만성질환 플랫폼 확장(GI care)"
+          "GI care 확장"
         ],
-        "confidence": "medium",
+        "confidence": "high",
+        "ticker": "HNGE",
         "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reasons": []
+          "verdict": "partial",
+          "removed": [
+            "cylinder-gi-expansion",
+            "kiwoom-guide-raise-2025"
+          ],
+          "reasons": [
+            "cylinder-gi-expansion: statement의 '135억달러'는 quote의 '$135B'를 잘못 환산 (135 billion = 1,350억 달러, 135억 달러 아님)",
+            "kiwoom-guide-raise-2025: date 2025-11-06은 10개월 전 (6개월 초과 올드 정보) + 국내 리포트 URL 접근성 미확인"
+          ],
+          "leadFixed": true
         },
-        "researchedOn": "2026-09-15",
-        "carried": true
+        "leadOriginal": "HNGE는 RS 상위 1M 12.2%/3M 5.5%/6M 1.6%, 52주 고점 대비 96.67%, 200일선 이격 58.82%로 강한 모멘텀을 유지하며 6개월 절대 수익률은 125.84%에 달한다. 2026년 2분기(2026-06-30 마감) 매출이 YoY 53% 증가한 2억1,282만달러, Non-GAAP 영업이익이 YoY 136% 증가한 6,150만달러를 기록하며 회사는 2026 회계연도 매출 가이던스를 8억5,600만~8억6,000만달러(YoY +46%)로, Non-GAAP 영업이익 가이던스를 2억3,600만~2억4,400만달러로 상향했다. 여기에 Cylinder 인수를 통한 135억달러 규모 GI care 시장 진출 기대가 겹치며 상승이 이어지고 있다.",
+        "researchedOn": "2026-09-16",
+        "carried": false
       },
       "nameKo": "힌지 헬스",
       "nameEn": "HINGE HEALTH INC",
@@ -15975,8 +16155,205 @@ window.TEAM2_DATA = {
         "count": 2
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "SIG",
+        "company": "Signet Jewelers는 Kay, Zales, Jared, Piercing Pagoda 등 복수 브랜드를 보유한 북미 최대 주얼리 리테일체인으로, 매출의 핵심축은 약혼반지·브라이덜 카테고리다. 직전 분기(2026-08-01 마감) 매출 15억2,810만 달러(YoY -0.5%)에 영업이익 8,750만 달러(YoY +3,025%, 영업이익률 5.7%)를 기록했으며, 2,000달러 이상 고가 브라이덜 라인이 매출 성장을 견인하고 저가 제품군은 정체된 가격대 양극화 국면에 있다.",
+        "lead": "Signet Jewelers는 2026-09-09 발표한 FY2027 2분기(8월1일 마감) 실적에서 조정 EPS가 컨센서스를 상회하고 연간 EPS 가이던스를 10% 이상 상향하면서 주가가 급등했다. 이 여파로 1개월 RS 백분위 상위 1.6%(3개월 상위 22.7%) 진입, 200일선 대비 +13.14% 이격을 형성했으며 복수 셀사이드가 목표주가를 상향했다. 다만 52주 고점 대비로는 아직 91.34% 수준(-8.66%p)으로 신고가는 아니며, 상승 구간은 최근 1개월(top2Since m1: 2026-09-15)에 처음 형성됐다.",
+        "whyRose": [
+          {
+            "id": "earnings-beat-guidance-raise",
+            "statement": "FY2027 2분기 실적에서 매출은 YoY -0.5%로 소폭 감소했으나 영업이익이 8,750만 달러(YoY +3,025%, 영업이익률 5.7%)로 급증했고, 회사는 연간 조정 EPS 가이던스를 10% 이상 상향($10.45~$12.15)했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC EDGAR 10-Q filings — Signet Jewelers Ltd (CIK 0000832988)",
+                "publisher": "SEC",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000832988&type=10-Q",
+                "date": "2026-09-09",
+                "quote": "periodEnd 2026-08-01, revenue 1,528,100,000, profit 87,500,000(YoY +3025%), netIncome 52,100,000(YoY +672.5%), margin 5.7%",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Signet Jewelers Q2 Earnings: FY27 EPS Guidance Up Over 10% | SIG Stock News",
+                "publisher": "StockTitan",
+                "url": "https://www.stocktitan.net/news/SIG/signet-jewelers-reports-second-quarter-fiscal-2027-72ww1446bk0z.html",
+                "date": "2026-09-09",
+                "quote": "Signet raised full-year EPS guidance more than 10% to $10.45 to $12.15, with gross margin expanding 80 basis points to 39.4% on tariff refunds and lower distribution costs.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "stock-surge-day",
+            "statement": "실적 발표 직후 거래일 주가가 급등했고, 언론은 이익 가이던스 상향이 매출 가이던스 둔화 우려를 압도했다고 평가했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Signet Jewelers Surges 14% as Raised Profit Outlook Overrides Flat Sales Guidance, Tapestry Holds Steady",
+                "publisher": "24/7 Wall St.",
+                "url": "https://247wallst.com/investing/2026/09/09/signet-jewelers-surges-14-as-raised-profit-outlook-overrides-flat-sales-guidance-tapestry-holds-steady/",
+                "date": "2026-09-09",
+                "quote": "Signet Jewelers Surges 14% as Raised Profit Outlook Overrides Flat Sales Guidance",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Signet Jewelers Stock Jumps 20%",
+                "publisher": "Motley Fool via Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/signet-jewelers-stock-jumps-20-144942586.html",
+                "date": "2026-09-09",
+                "quote": "Shares of Signet Jewelers surged 24% on Wednesday after the world's leading retailer of diamond jewelry boosted its full-year profit forecast.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "price-target-raised",
+            "statement": "실적 발표 이후 컨센서스 목표주가가 10.32% 상향돼 $124.34로 집계됐고, Citigroup·UBS 등이 개별 목표주가를 상향했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Signet Jewelers Consensus Price Target Raised 10.32% to $124.34",
+                "publisher": "Fintel (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/signet-jewelers-consensus-price-target-raised-1032-12434",
+                "date": "2026-09-15",
+                "quote": "Signet Jewelers Consensus Price Target Raised 10.32% to $124.34",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Signet Jewelers (NYSE:SIG) Price Target Raised to $140.00",
+                "publisher": "MarketBeat",
+                "url": "https://www.marketbeat.com/instant-alerts/analyst-signet-jewelers-nyse-sig-price-target-raised-to-14000-2026-09-10/",
+                "date": "2026-09-10",
+                "quote": "Citigroup increased their price objective on Signet Jewelers from $120.00 to $140.00 and gave the stock a \"buy\" rating",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "momentum-quant-rank",
+            "statement": "Zacks 등 퀀트 스크리닝에서 SIG가 장기 모멘텀 상위 종목으로 분류됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Signet (SIG) is a Top Momentum Stock for the Long-Term",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/why-signet-sig-top-momentum-stock-long-term",
+                "date": "2026-09-14",
+                "quote": "Why Signet (SIG) is a Top Momentum Stock for the Long-Term",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "flat-sales-guidance",
+            "statement": "이익 가이던스는 상향됐지만 매출 가이던스는 완만한 수준에 그쳐, 이번 상승이 매출 성장보다 마진 레버리지에 의존하고 있다는 지적이 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Signet Jewelers Surges 14% as Raised Profit Outlook Overrides Flat Sales Guidance, Tapestry Holds Steady",
+                "publisher": "24/7 Wall St.",
+                "url": "https://247wallst.com/investing/2026/09/09/signet-jewelers-surges-14-as-raised-profit-outlook-overrides-flat-sales-guidance-tapestry-holds-steady/",
+                "date": "2026-09-09",
+                "quote": "Signet Jewelers Surges 14% as Raised Profit Outlook Overrides Flat Sales Guidance",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "low-price-tier-weak-tariff-cost-risk",
+            "statement": "2,000달러 이상 고가 브라이덜 제품군은 견조했으나 저가 제품군 수요는 부진하며, 관세 환급이 연간 관세 비용 증가분을 완전히 상쇄하지 못하는 등 비용 구조 리스크가 남아있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Signet Jewelers delivers 'quality' quarter, raises full-year outlook",
+                "publisher": "Retail Dive",
+                "url": "https://www.retaildive.com/news/signet-raises-guidance-kay-jared-zales/829896/",
+                "date": "2026-09-09",
+                "quote": "The company's performance is heavily reliant on higher price points, with high single-digit comp growth at price points over $2,000, while lower-priced items continue to struggle.",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Signet Jewelers (SIG) Lifts Guidance on Tariff Refunds and Cost Discipline",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/signet-jewelers-sig-lifts-guidance-100950018.html",
+                "date": "2026-09-09",
+                "quote": "Signet's tariff refunds did not fully offset the current-year impact of incremental tariffs, with Signet expecting about $30 million in tariff refunds for the full year, including $15 million recognized in the second quarter.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "guidance-raised-fy27",
+              "statement": "회사가 FY2027 조정 EPS 가이던스를 10% 넘게 상향($10.45~$12.15, 매출총이익률 80bp 개선 39.4%)했고, 이에 연동해 셀사이드 목표주가가 잇달아 상향됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Signet Jewelers Q2 Earnings: FY27 EPS Guidance Up Over 10% | SIG Stock News",
+                  "publisher": "StockTitan",
+                  "url": "https://www.stocktitan.net/news/SIG/signet-jewelers-reports-second-quarter-fiscal-2027-72ww1446bk0z.html",
+                  "date": "2026-09-09",
+                  "quote": "Signet raised full-year EPS guidance more than 10% to $10.45 to $12.15, with gross margin expanding 80 basis points to 39.4% on tariff refunds and lower distribution costs.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "analyst-pt-multiple-raises",
+              "statement": "Citigroup($120→$140), UBS($122→$136) 등 복수 셀사이드가 실적 발표 직후 목표주가를 상향했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Signet Jewelers (NYSE:SIG) Price Target Raised to $140.00",
+                  "publisher": "MarketBeat",
+                  "url": "https://www.marketbeat.com/instant-alerts/analyst-signet-jewelers-nyse-sig-price-target-raised-to-14000-2026-09-10/",
+                  "date": "2026-09-10",
+                  "quote": "Citigroup increased their price objective on Signet Jewelers from $120.00 to $140.00 and gave the stock a \"buy\" rating",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "Signet Jewelers (NYSE:SIG) Price Target Raised to $136.00",
+                  "publisher": "The Cerbat Gem",
+                  "url": "https://www.thecerbatgem.com/2026/09/13/signet-jewelers-nysesig-price-target-raised-to-136-00.html",
+                  "date": "2026-09-13",
+                  "quote": "UBS Group lifted its price objective from $122.00 to $136.00",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "주얼리 리테일",
+          "브라이덜/약혼반지",
+          "가격대 프리미엄화"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "researchedOn": "2026-09-16",
+        "carried": false
       },
       "nameKo": "시그넷 주얼러스",
       "nameEn": "SIGNET JEWELERS LTD",
@@ -16467,6 +16844,151 @@ window.TEAM2_DATA = {
           ],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
+      },
+      "research": {
+        "status": "done",
+        "company": "HPE-C는 Hewlett Packard Enterprise(HPE)가 2024년 9월 Juniper Networks 인수 자금 조달을 위해 발행한 7.625% Series C 의무전환우선주(청산우선권 $50/주)로, 2027년 9월 1일경 보유자 의사와 무관하게 HPE 보통주 2.5352~3.1056주로 강제전환된다(전환비율은 전환 직전 20거래일 VWAP 기준 확정). 발행사인 HPE 본체는 서버·스토리지·네트워킹(Juniper 통합)·하이브리드클라우드를 공급하는 엔터프라이즈 IT 인프라 기업이며, 최근 실적의 성장축은 AI 서버와 Juniper 통합 네트워킹 부문이다. 전환 구조상 HPE-C의 가격 흐름은 사실상 기초자산인 HPE 보통주 가치에 연동되어 있어, 이번 랠리도 HPE 보통주의 AI 인프라 실적 서프라이즈를 그대로 반영한 결과다.",
+        "lead": "HPE-C는 기초자산인 HPE 보통주가 AI 서버·네트워킹(Juniper 통합) 수요 급증에 힘입어 FY26 3분기 매출 34% 증가($12.2B)를 발표하면서 의무전환우선주 구조상 동반 급등했다. 경영진이 Cloud & AI·네트워킹을 성장 엔진으로 지목하고 하이퍼스케일러향 $3.5B 규모 추론 인프라 수주를 공개하면서 랠리에 힘을 실었다. FY27에도 매출성장 13%~17%, EPS성장 16%~20% 가이던스를 신규 제시하며 모멘텀이 이어지는 국면이다.",
+        "whyRose": [
+          {
+            "id": "w2",
+            "statement": "이번 분기 EPS가 가이던스를 상회했고, 경영진은 네트워킹(Juniper 통합)과 Cloud & AI 부문을 실적 성장의 핵심 엔진으로 지목했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "HPE Stock Rallies As AI And Networking Guidance Soars",
+                "publisher": "StocksToTrade",
+                "url": "https://stockstotrade.com/news/hewlett-packard-enterprise-company-hpe-news-2026_09_11/",
+                "date": "2026-09-11",
+                "quote": "EPS beat guidance, and management called out Networking plus Cloud & AI as the engines",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "하이퍼스케일 클라우드 고객을 대상으로 한 $3.5B 규모 추론(inference) 인프라 수주가 공개되며 AI 인프라 수요가 실제 계약 규모로 확인됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "HPE Stock Rallies As AI And Networking Guidance Soars",
+                "publisher": "StocksToTrade",
+                "url": "https://stockstotrade.com/news/hewlett-packard-enterprise-company-hpe-news-2026_09_11/",
+                "date": "2026-09-11",
+                "quote": "a disclosed $3.5B inferencing contract with a hyperscale cloud customer",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "경영진은 FY27 가이던스로 매출성장 13%~17%, EPS성장 16%~20%, 마진 14%~15%, 잉여현금흐름(FCF) 최소 $5B를 신규 제시하며 향후 이익 성장 경로를 구체화했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "HPE Stock Rallies As AI And Networking Guidance Soars",
+                "publisher": "StocksToTrade",
+                "url": "https://stockstotrade.com/news/hewlett-packard-enterprise-company-hpe-news-2026_09_11/",
+                "date": "2026-09-11",
+                "quote": "FY27 revenue growth 13%–17%, 16%–20% EPS growth, 14%–15% margins, and at least $5B in free cash flow",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "HPE-C는 의무전환 구조상 전환비율이 2.5352~3.1056주로 상하한이 걸려 있어, HPE 보통주가 전환가 상단을 넘어 추가 상승하더라도 우선주 보유자는 최소 전환비율(2.5352주)로만 참여하게 되는 구조적 상승 제한(캡)을 안고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Hewlett Packard Enterprise Co - Form 8-K - FY2024",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1645590/000114036124041069/ef20035817_ex99-2.htm",
+                "date": "2024-09",
+                "quote": "between 2.5352 and 3.1056 shares of common stock",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "HPE는 FY26 매출성장률 가이던스를 34%~37%로 상향했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "HPE Stock Rallies As AI And Networking Guidance Soars",
+                  "publisher": "StocksToTrade",
+                  "url": "https://stockstotrade.com/news/hewlett-packard-enterprise-company-hpe-news-2026_09_11/",
+                  "date": "2026-09-11",
+                  "quote": "34%–37% revenue growth",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "e2",
+              "statement": "FY27에 대해서도 매출성장 13%~17%, EPS성장 16%~20%, 마진 14%~15%, FCF 최소 $5B 가이던스를 신규 제시했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "HPE Stock Rallies As AI And Networking Guidance Soars",
+                  "publisher": "StocksToTrade",
+                  "url": "https://stockstotrade.com/news/hewlett-packard-enterprise-company-hpe-news-2026_09_11/",
+                  "date": "2026-09-11",
+                  "quote": "FY27 revenue growth 13%–17%, 16%–20% EPS growth, 14%–15% margins, and at least $5B in free cash flow",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "AI 서버/인프라",
+          "네트워킹(Juniper 통합)",
+          "의무전환우선주"
+        ],
+        "upcomingCatalyst": {
+          "date": "2027-09-01",
+          "what": "Series C 의무전환우선주가 HPE 보통주 2.5352~3.1056주로 강제전환되는 예정 시점(전환 직전 20거래일 HPE 보통주 VWAP 기준으로 최종 전환비율 확정)",
+          "sources": [
+            {
+              "title": "Hewlett Packard Enterprise Co - Form 8-K - FY2024",
+              "publisher": "SEC EDGAR",
+              "url": "https://www.sec.gov/Archives/edgar/data/1645590/000114036124041069/ef20035817_ex99-2.htm",
+              "date": "2024-09",
+              "quote": "on or around September 1, 2027",
+              "verified": "ok",
+              "httpStatus": 200
+            }
+          ]
+        },
+        "ticker": "HPE-C",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1"
+          ],
+          "reasons": [
+            "w1: statement의 'FY26 EPS 가이던스 $3.75~$3.85' 수치가 quote에 명시되지 않음"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "HPE-C는 기초자산인 HPE 보통주가 AI 서버·네트워킹(Juniper 통합) 수요 급증에 힘입어 FY26 3분기 매출 34% 증가($12.2B)와 EPS 가이던스 상향($3.75~$3.85)을 발표하면서 의무전환우선주 구조상 동반 급등했다. 경영진이 Cloud & AI·네트워킹을 성장 엔진으로 지목하고 하이퍼스케일러향 $3.5B 규모 추론 인프라 수주를 공개하면서 랠리에 힘을 실었다. FY27에도 매출성장 13%~17%, EPS성장 16%~20% 가이던스를 신규 제시하며 모멘텀이 이어지는 국면이다.",
+        "researchedOn": "2026-09-16",
+        "carried": false
       }
     },
     {
@@ -16589,8 +17111,128 @@ window.TEAM2_DATA = {
         "count": 6
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "FLXS",
+        "company": "플렉스스틸 인더스트리스는 리클라이너·소파·RTA(Ready-to-Assemble) 가구를 생산·유통하는 컨슈머 사이클리컬 가구업체로, 백화점·전문 리테일러·전자상거래 채널을 통해 판매한다. FY26 4분기(2026-06-30 마감) 매출 1억1,536.5만 달러(YoY +0.7%), 영업이익 1,634.4만 달러(YoY +17%), 순이익 1,271.2만 달러(YoY +18.8%), 영업이익률 14.2%로 직전 3개 분기(7.1%→7.6%→8.1%) 대비 마진이 급격히 확대되는 국면이다. 헬스&웰니스 신제품군과 장기 매출 7.5억 달러·영업이익률 8%+ 목표를 축으로 한 리레이팅 스토리가 진행 중이다.",
+        "lead": "FLXS는 FY26 4분기(2026-06-30 마감) EPS 1.33달러(컨센서스 1.15달러, 서프라이즈 +15.65%)와 매출 1억1,537만 달러(컨센서스 대비 +1.17%)로 어닝 비트를 기록했다. Zacks 컨센서스는 FY2027 EPS 추정치를 5.05달러에서 5.29달러로 상향했고, 경영진은 매출 7.5억 달러·영업이익률 8%+ 장기 목표와 헬스&웰니스 신제품 비중 확대(내년 약 12%)를 제시하며 시장점유율 확대 스토리를 강조했다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "FY26 4분기(2026-06-30 마감) EPS 1.33달러로 Zacks 컨센서스 1.15달러를 상회(서프라이즈 +15.65%)했고, 매출 1억1,537만 달러로 컨센서스 대비 +1.17% 상회했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Flexsteel Industries (FLXS) Q4 Earnings and Revenues Top Estimates",
+                "publisher": "Zacks",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/flexsteel-industries-flxs-q4-earnings-212002250.html",
+                "date": "2026-08-17",
+                "quote": "Flexsteel Industries (FLXS) came out with quarterly earnings of $1.33 per share, beating the Zacks Consensus Estimate of $1.15 per share.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "경영진은 장기 목표로 매출 7.5억 달러, 영업이익률 8% 이상을 제시하며 유기적 성장과 M&A를 병행하겠다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Flexsteel Eyes $750M Revenue Goal as Innovation Fuels Market Share Gains",
+                "publisher": "MarketBeat",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/flexsteel-eyes-750m-revenue-goal-010201643.html",
+                "date": "2026-08-30",
+                "quote": "Over the longer term, Flexsteel aspires to grow revenue to $750 million",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "헬스&웰니스 라인(Zecliner·Zen 등) 매출 비중이 내년 약 12%까지 확대될 전망이며, 최근 3년 내 출시 신제품이 당해연도 매출의 절반 이상을 차지해 제품 혁신이 점유율 확대의 핵심 동력으로 부각됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Flexsteel Eyes $750M Revenue Goal as Innovation Fuels Market Share Gains",
+                "publisher": "MarketBeat",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/flexsteel-eyes-750m-revenue-goal-010201643.html",
+                "date": "2026-08-30",
+                "quote": "health and wellness products will account for about 12% of revenue in the coming year",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "경영진은 원자재·소싱 완제품·내륙운송·인바운드 해상운임 전반의 인플레이션을 지목했고, 공급망 인플레이션 심각도와 완화 조치 효과에 따라 향후 매출총이익률·영업이익률이 압박받을 수 있다고 언급해 최근 마진 개선의 지속가능성에 유의할 필요가 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Flexsteel Industries Q4 Earnings Call Highlights",
+                "publisher": "MarketBeat",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/flexsteel-industries-q4-earnings-call-140436920.html",
+                "date": "2026-08-18",
+                "quote": "inflation affecting raw materials, sourced finished goods, domestic transportation and inbound ocean freight",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "FY26 3분기 주문(orders)이 전년 대비 약 2.4% 감소했고 made-to-order·RTA·case goods 카테고리에서 물량 약세가 두드러졌다는 보도가 있어, 헤드라인 실적 비트와 별개로 기초 수요 모멘텀은 여전히 불균일하다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Can Flexsteel Navigate Uneven Demand After Orders Decline 2.4%?",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/flexsteel-navigate-uneven-demand-orders-145000601.html",
+                "date": "2026-07-08",
+                "quote": "Orders declined approximately 2.4% in the third quarter of fiscal 2026",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "Zacks 컨센서스 기준 FY2027 EPS 추정치가 최근 30일간 5.05달러에서 5.29달러로 상향 조정됐다(Node 확보 site 데이터 cyCur 5.29 / cy30 5.05와 일치).",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Zacks Industry Outlook Highlights Flexsteel Industries and Bassett Furniture Industries",
+                  "publisher": "Zacks",
+                  "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-flexsteel-industries-and-bassett-furniture-industries",
+                  "date": "2026-09-03",
+                  "quote": "The Zacks Consensus Estimate for FLXS' fiscal 2027 earnings has increased to $5.29 from $5.05 per share over the past 30 days.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "가구/홈퍼니싱",
+          "헬스&웰니스 가구",
+          "마진 턴어라운드"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "researchedOn": "2026-09-16",
+        "carried": false
       },
       "nameKo": "플렉스스틸 인더스트리스",
       "nameEn": "FLEXSTEEL INDUSTRIES INC",
@@ -17017,60 +17659,28 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "done",
-        "company": "지스케일러는 SASE(Secure Access Service Edge) 아키텍처 기반 제로트러스트 보안 플랫폼(ZIA/ZPA/ZDX)을 구독형 SaaS로 제공하는 클라우드 네이티브 보안기업이다. FY2026 4분기(периodEnd 2026-07-31) 매출 8억9,818.5만달러(YoY +24.9%), ARR 38억달러(YoY +25%)를 기록했고 연 ARR 100만달러 초과 고객이 785개(YoY +18%)에 달하며, GenAI 보안 제품 라인업을 1개에서 6개로 확장하고 Agentic SecOps를 신규 출시하는 등 AI 보안으로 매출원을 다변화하는 국면이다.",
-        "lead": "지스케일러는 2026-09-03 발표한 FY2026 4분기 실적에서 매출 8억9,818.5만달러(YoY +24.9%)와 비GAAP EPS 1.19달러를 각각 컨센서스(매출 8억7,736만달러, EPS 1.08달러) 대비 상회했고, FY2027 매출 가이던스를 39.08억~39.38억달러(+16.6~17.5%), ARR 가이던스를 43.96억~44.26억달러(+약 17%)로 제시했다. 이에 Needham·Stephens·Barclays·Scotiabank 등 다수 애널리스트가 실적 발표 직후 목표주가를 일제히 상향(평균 206~207달러 클러스터)했으며, CEO 제이 차우드리는 Citi 컨퍼런스에서 AI 보안 제품 포트폴리오 확장과 Agentic SecOps 신제품 출시를 강조했다.",
+        "company": "Zscaler는 클라우드 네이티브 제로트러스트 보안 플랫폼(Zscaler Internet Access·Private Access·Digital Experience)을 SaaS 구독 모델로 제공하며, 레거시 VPN·방화벽에서 SASE/SSE로 전환하는 대기업 고객이 핵심 매출원이다. FY2026 4분기(7월 결산) 매출은 8억9,818.5만 달러(+24.9% YoY)를 기록했으나 4개 분기 연속 GAAP 영업적자를 지속 중이며(영업이익률 –1.7%~–6.3%), 최근에는 AI 에이전트 기반 보안(Agentic SOC)과 Z-Flex 유연 소비형 계약을 신성장 축으로 제시하는 국면이다. 3% 인력 구조조정(비용 3,000만~3,300만 달러)으로 AI 부문에 자원을 재배치하는 동시에 FY2027 매출성장률 가이던스는 16.6~17.5%로 최근 분기 대비 둔화를 반영했다.",
+        "lead": "Zscaler는 2026년 9월 3일 발표한 FY2026 4분기 실적에서 매출 8억9,818.5만 달러(+24.9% YoY)로 컨센서스를 상회했고 영업손실 폭도 축소되며 시장 예상을 웃돌았다. 실적 발표 직후 주요 증권사들이 목표주가를 일제히 상향했으며, Citi 컨퍼런스에서 CEO가 AI 보안 성장 모멘텀을 강조하면서 매수세가 이어졌다. Z-Flex 유연 계약 확산에 따른 고객 채택 기대까지 겹치며 주가 상승을 뒷받침했다.",
         "whyRose": [
           {
-            "id": "earnings_beat",
-            "statement": "FY2026 4분기 매출과 비GAAP EPS가 나란히 컨센서스를 상회하는 서프라이즈를 기록하며 주가 상승의 직접적 촉매가 됐다.",
+            "id": "w1",
+            "statement": "FY2026 4분기(2026-07-31 결산) 매출이 8억9,818.5만 달러로 전년동기 대비 24.9% 증가했고, 영업손실은 –1,549.2만 달러(영업이익률 –1.7%)로 전분기(–3.5%)·전전분기(–6.3%) 대비 적자 폭이 축소됐다. 순손실도 YoY 80.8% 개선됐다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Zscaler Analysts Boost Their Forecasts After Better-Than-Expected Q4 Earnings",
-                "publisher": "Benzinga",
-                "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61627559/zscaler-analysts-boost-their-forecasts-after-better-than-expected-q4-earnings",
-                "date": "2026-09",
-                "quote": "The company reported fourth-quarter revenue of $898.16 million, beating the consensus estimate of $877.36 million, and posted adjusted earnings of $1.19 per share, beating analyst estimates of $1.08 per share.",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "fy27_guidance",
-            "statement": "FY2027 매출 및 ARR 가이던스를 예상보다 강하게 제시하며 성장 지속 신뢰를 높였다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Zscaler (ZS) Q4 2026 Earnings Call Transcript",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/zscaler-zs-q4-2026-earnings-call-transcript",
-                "date": "2026-09-09",
-                "quote": "Zscaler expects fiscal 2027 revenue of $3.908 billion to $3.938 billion, reflecting growth of 16.6% to 17.5%, with ARR guidance of $4.396 billion to $4.426 billion, indicating growth of approximately 17% year over year.",
+                "title": "Zscaler Inc 10-Q Filings (SEC EDGAR)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001713683&type=10-Q",
+                "date": "2026-07-31",
+                "quote": "periodEnd 2026-07-31, revenue 898185000, profit -15492000, netIncome -3369000, margin -1.7, yoy revenue 24.9, yoy profit 52, yoy netIncome 80.8",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "analyst_pt_hike",
-            "statement": "실적 발표 이후 다수 셀사이드 하우스가 목표주가를 일제히 상향하며 리레이팅 기대를 뒷받침했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Zscaler Analysts Boost Their Forecasts After Better-Than-Expected Q4 Earnings",
-                "publisher": "Benzinga",
-                "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61627559/zscaler-analysts-boost-their-forecasts-after-better-than-expected-q4-earnings",
-                "date": "2026-09",
-                "quote": "Needham analyst Mike Cikos raised the price target from $180 to $215... Major firms including Stephens, BMO, RBC, Citi, Barclays, Needham, and Macquarie all raised Zscaler price targets, clustering around a $206–$207 mean.",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "ai_security_momentum",
-            "statement": "CEO가 Citi 컨퍼런스에서 AI 에이전트·데이터 보안 중심 제품 포트폴리오 확장을 강조하며 AI 보안 테마 모멘텀을 부각시켰다.",
+            "id": "w3",
+            "statement": "Citi 컨퍼런스에서 CEO가 AI 보안 수요 급증과 제로트러스트 모멘텀을 강조하며 성장 스토리를 재확인했다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -17078,7 +17688,23 @@ window.TEAM2_DATA = {
                 "publisher": "MarketBeat",
                 "url": "https://www.nasdaq.com/articles/zscaler-ceo-highlights-ai-security-surge-zero-trust-momentum-citi-conference",
                 "date": "2026-09-12",
-                "quote": "Chaudhry said Zscaler's platform now spans zero trust for users, branches, devices, workloads and agents. The company also expanded its AI-security lineup from one product a year ago, GenAI Security, to six integrated products... 70% of AI-security deals closed in the fourth quarter also included data-security products.",
+                "quote": "Zscaler CEO Highlights AI Security Surge, Zero-Trust Momentum at Citi Conference",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "Z-Flex 유연 소비형 계약 확산이 고객 채택을 확대할 신규 성장 동력으로 부각됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Zscaler's Z-Flex Surges: Can Flexible Deals Boost Customer Adoption?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/zscalers-z-flex-surges-can-flexible-deals-boost-customer-adoption",
+                "date": "2026-09-08",
+                "quote": "Zscaler's Z-Flex Surges: Can Flexible Deals Boost Customer Adoption?",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -17087,32 +17713,32 @@ window.TEAM2_DATA = {
         ],
         "counterpoint": [
           {
-            "id": "post_earnings_drop",
-            "statement": "실적과 가이던스가 컨센서스를 상회했음에도 발표 직후 주가는 오히려 하락했다가 이후 반등한 것으로 확인돼, 서프라이즈가 사전에 상당 부분 선반영됐을 가능성을 시사한다.",
+            "id": "c1",
+            "statement": "회사가 제시한 FY2027 매출성장률 가이던스가 16.6~17.5%(ARR 성장률 16.6~17.4%)로 최근 4개 분기의 24.9~25.9% YoY 성장 대비 뚜렷한 둔화를 시사하면서, 실적 서프라이즈에도 불구하고 발표 당일 주가가 약 4% 하락하는 반응이 나왔다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Zscaler Stock Drops After Earnings, But Analysts See More Upside",
-                "publisher": "Benzinga",
-                "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61635946/zscaler-stock-drops-after-earnings-but-analysts-see-more-upside",
-                "date": "2026-09",
-                "quote": "Interestingly, despite these positive analyst actions, shares fell 4.1% initially after the earnings announcement, though the stock recovered significantly in the following days.",
-                "verified": "unverified",
-                "httpStatus": 403
+                "title": "Zscaler Falls 4% as FY2027 Growth Guidance Overshadows Earnings Beat; CrowdStrike Slips, Palo Alto Holds Steady",
+                "publisher": "24/7 Wall St.",
+                "url": "https://247wallst.com/investing/2026/09/04/zscaler-falls-4-as-fy2027-growth-guidance-overshadows-earnings-beat-crowdstrike-slips-palo-alto-holds-steady/",
+                "date": "2026-09-04",
+                "quote": "Zscaler Falls 4% as FY2027 Growth Guidance Overshadows Earnings Beat; Fiscal 2027 guidance calls for revenue growth of 16.6% to 17.5% and ARR growth of 16.6% to 17.4%.",
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
           {
-            "id": "opex_margin_negative",
-            "statement": "영업이익률은 최근 4개 분기(2025-10-31~2026-07-31) 동안 -4.6%→-6.3%→-3.5%→-1.7%로 적자를 지속하고 있어, 적자폭 축소 추세는 확인되나 GAAP 기준 흑자 전환은 아직 미확인이다.",
+            "id": "c2",
+            "statement": "3% 인력 감축에 따른 3,000만~3,300만 달러 구조조정 비용이 FY2027 상반기에 대부분 반영될 예정이며, 회사는 여전히 GAAP 기준 4개 분기 연속 영업적자·순손실 상태다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Zscaler Inc 10-Q Filings (SEC EDGAR)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001713683&type=10-Q",
-                "date": "2026-09-08",
-                "quote": "periodEnd 2026-07-31: profit -15,492,000, margin -1.7%, yoy profit +52%; periodEnd 2026-04-30: margin -3.5%; periodEnd 2026-01-31: margin -6.3%; periodEnd 2025-10-31: margin -4.6%",
+                "title": "Zscaler (ZS) Reported Revenue and ARR Growth While Planning Workforce Reduction",
+                "publisher": "Yahoo Finance / Insider Monkey",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/zscaler-zs-reported-revenue-arr-012446981.html",
+                "date": "2026-09-04",
+                "quote": "Zscaler announced a workforce restructuring charge of $30 million to $33 million, related to a 3% reduction in headcount to reallocate resources to AI initiatives. Zscaler expects to recognize most of the $30 million to $33 million of charges during the first half of fiscal 2027.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -17120,28 +17746,63 @@ window.TEAM2_DATA = {
           }
         ],
         "estimateRevisions": {
-          "direction": "raised",
-          "claims": []
+          "direction": "mixed",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "Q4 실적 서프라이즈 이후 주요 증권사들의 목표주가가 일제히 상향(평균 206~207달러대로 수렴)되며 이익 추정치 개선 기대를 반영했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Zscaler Analysts Boost Their Forecasts After Better-Than-Expected Q4 Earnings",
+                  "publisher": "Benzinga",
+                  "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61627559/zscaler-analysts-boost-their-forecasts-after-better-than-expected-q4-earnings",
+                  "date": "2026-09",
+                  "quote": "Major firms including Stephens, BMO, RBC, Citi, Barclays, Needham, and Macquarie all raised Zscaler price targets, clustering around a $206–$207 mean.",
+                  "verified": "unverified",
+                  "httpStatus": 403
+                }
+              ]
+            },
+            {
+              "id": "e2",
+              "statement": "반면 회사 자체의 FY2027 매출성장률 가이던스(16.6~17.5%)는 최근 분기 24%대 성장 대비 둔화되는 수치로, 톱라인 성장 추정에는 하향 압력으로 작용했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Zscaler Falls 4% as FY2027 Growth Guidance Overshadows Earnings Beat; CrowdStrike Slips, Palo Alto Holds Steady",
+                  "publisher": "24/7 Wall St.",
+                  "url": "https://247wallst.com/investing/2026/09/04/zscaler-falls-4-as-fy2027-growth-guidance-overshadows-earnings-beat-crowdstrike-slips-palo-alto-holds-steady/",
+                  "date": "2026-09-04",
+                  "quote": "Fiscal 2027 guidance calls for revenue growth of 16.6% to 17.5% and ARR growth of 16.6% to 17.4%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
         },
         "themeTags": [
-          "제로트러스트",
-          "AI 보안",
-          "SASE",
+          "제로트러스트 보안",
+          "SASE/SSE",
+          "AI 보안(에이전틱 SOC)",
           "클라우드 보안"
         ],
-        "confidence": "high",
+        "confidence": "medium",
         "ticker": "ZS",
         "factcheck": {
           "verdict": "partial",
           "removed": [
-            "pt_hikes_post_earnings"
+            "w2"
           ],
           "reasons": [
-            "estimateRevisions claim에서 Stephens(200→225), Barclays(192→200), Scotiabank(175→200)의 구체적 숫자가 quote에 없음. Quote에는 'Needham 180→215'만 명시됨"
-          ]
+            "w2: statement의 6개 증권사 목표주가 중 Needham/Baird/Citi만 quote에 명시, Stephens($200→$225), Barclays($192→$200), Scotiabank($175→$200)은 quote에서 검증 불가"
+          ],
+          "leadFixed": true
         },
-        "researchedOn": "2026-09-15",
-        "carried": true
+        "leadOriginal": "Zscaler는 2026년 9월 3일 발표한 FY2026 4분기 실적에서 매출 8억9,818.5만 달러(+24.9% YoY)로 컨센서스를 상회했고 영업손실 폭도 축소되며 시장 예상을 웃돌았다. 실적 발표 직후 주요 증권사들이 목표주가를 일제히 상향했고, Citi 컨퍼런스에서 CEO가 AI 보안·에이전틱 SOC 성장 모멘텀을 강조하면서 매수세가 이어졌다. 여기에 Z-Flex 유연 계약 확산에 따른 고객 채택 기대까지 겹치며 주가 상승을 뒷받침했다.",
+        "researchedOn": "2026-09-16",
+        "carried": false
       },
       "nameKo": "지스케일러",
       "nameEn": "ZSCALER INC",
@@ -18097,69 +18758,36 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "done",
-        "ticker": "INTC",
-        "company": "인텔은 PC용 CPU를 공급하는 클라이언트컴퓨팅그룹(CCPG), 서버·AI 반도체를 담당하는 데이터센터&AI그룹(DCAI), 위탁생산을 수행하는 파운드리(IFS) 3개 사업부로 구성되며, 2026년 2분기(6월 27일 마감) 매출 161.28억 달러(YoY+25.4%) 중 CCPG 89억 달러(+13%), DCAI 63억 달러(+59%), 파운드리 58억 달러(+31%)를 각각 기록했다. 구글 등 하이퍼스케일러와 제온 서버 CPU 장기공급계약(LTA)을 체결하고 18A 공정 기반 Xeon 6+·Panther Lake를 양산하며 자체 파운드리 전환을 추진 중인 국면이다. 다만 영업이익은 17.96억 달러(마진 11.1%, YoY+156.5%)로 개선됐음에도 순손실은 110.33억 달러로 오히려 전년동기 대비 확대(YoY-278.1%)되며 손익 구조상 괴리가 큰 상태다.",
-        "lead": "9월 8일 Northland Securities가 인텔 목표주가를 120달러로 상향하며 Market Perform에서 Outperform으로 등급을 올렸고, 같은 날 PC용 CPU 가격을 10% 추가 인상한다는 보도가 겹치며 주가가 반응했다. 앞서 9월 5일에는 AI 에이전트 워크로드 확산에 따라 GPU 중심 연산에서 CPU 비중이 재확대될 것이라는 전망이 부각되며 주간 기준 7% 넘게 상승했다. 배경에는 2분기(6월 27일 마감) DCAI 매출이 전년동기 대비 59% 급증하며 컨센서스를 상회한 실적 서프라이즈가 자리한다.",
+        "company": "인텔은 PC용 클라이언트 CPU(CCPG)와 서버용 CPU·AI 가속기(DCAI)를 설계·생산하는 종합반도체기업(IDM)으로, 최근에는 18A/14A 공정 기반 자체 파운드리를 외부 고객에 개방해 TSMC와 경쟁하는 파운드리 서비스로 사업을 확장하고 있다. 2026년 2분기 매출 161.28억 달러(YoY +25.4%) 중 DCAI가 YoY +59%로 실적을 견인했고, 구글 등 하이퍼스케일러가 제온 CPU 장기공급계약(LTA)을 체결하는 등 서버 CPU 수요가 구조적으로 확대되는 국면이다. 미국 정부가 CHIPS Act 보조금을 주식으로 전환해 9.9% 지분을 확보했고, 2026년 8월에는 파운드리 투자 재원 마련을 위해 대규모 유상증자를 단행했다.",
+        "lead": "INTC는 최근 6개월 120.47% 급등했지만 1개월 -6.14%, 3개월 -27.5%로 조정받아 RS 순위가 1개월 58.4%·3개월 91.6%에서 6개월 기준 1.8%로 크게 낮아졌다. 2분기 DCAI 매출 YoY +59% 서프라이즈가 상반기 랠리를 이끌었으나, 8월 주당 95달러 유상증자에 따른 희석 부담이 최근 조정의 배경으로 꼽힌다. 9월 들어서는 서버 CPU 10% 가격 인상 관측과 Citigroup·UBS·Northland의 목표주가 상향이 반등 시도를 뒷받침하고 있다.",
         "whyRose": [
           {
-            "id": "w1",
-            "statement": "Northland Securities가 인텔 목표주가를 120달러로 상향하며 Market Perform에서 Outperform으로 등급을 올렸고, 이는 직전 종가 대비 약 25%의 상승 여력을 제시했다.",
+            "id": "dcai-surprise",
+            "statement": "2026년 2분기 DCAI(데이터센터·AI) 매출이 YoY +59% 급증하며 전사 매출 161억 달러(YoY +25.4%)로 컨센서스를 크게 상회하는 실적 서프라이즈를 기록, 상반기 주가 급등의 핵심 동력이 됐다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Why Intel Stock Rallied Tuesday Morning",
-                "publisher": "The Motley Fool",
-                "url": "https://www.fool.com/investing/2026/09/08/why-intel-stock-rallied-tuesday-morning/",
-                "date": "2026-09-08",
-                "quote": "Northland Securities analyst Gus Richard upgraded Intel to outperform (buy), from market perform (hold), with a price target of $120",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w2",
-            "statement": "인텔이 PC용 CPU 가격을 연내 10% 추가 인상할 것이라는 보도가 나오며, 점유율보다 매출총이익률 방어를 우선하는 가격전략에 대한 기대가 부각됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Why Intel Stock Rallied Tuesday Morning",
-                "publisher": "The Motley Fool",
-                "url": "https://www.fool.com/investing/2026/09/08/why-intel-stock-rallied-tuesday-morning/",
-                "date": "2026-09-08",
-                "quote": "Intel is expected to increase the price of its CPUs by another 10% later this year",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w3",
-            "statement": "AI 에이전트 워크로드 확산에 따라 GPU 중심 연산 수요가 CPU로 재분배될 것이라는 애널리스트 리포트가 나오며 주간 상승을 이끌었다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Why Intel Stock Climbed This Week",
-                "publisher": "The Motley Fool",
-                "url": "https://www.fool.com/investing/2026/09/05/why-intel-stock-climbed-this-week/",
-                "date": "2026-09-05",
-                "quote": "Shares of Intel rose over 7% this past week after an analyst report highlighted the chipmaker's enormous artificial intelligence (AI)-driven growth potential.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w4",
-            "statement": "2분기(6월 27일 마감) 매출 161.2억 달러(YoY+25.4%), DCAI 매출 62.6억 달러(YoY+59%)로 컨센서스를 크게 상회한 실적 서프라이즈가 파운드리·서버 CPU 턴어라운드 기대의 기반이 되고 있다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "[인텔 (NAS:INTC)] CPU가 끌고, 파운드리가 민다",
-                "publisher": "유진투자증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqlzckkmkeilzizgcgxcmcm.pdf",
+                "title": "[인텔 (NAS:INTC)] 쇼티지 수혜 이후, 증명이 필요한 시점",
+                "publisher": "신한투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlzckxxkigglkggcgxcmex.pdf",
                 "date": "2026-07-24",
-                "quote": "인텔의 2분기 실적은 매출 161.2억달러(+25.4% yoy), GPM 41.8%, EPS 0.42달러를 기록하며 컨센서스를 상회. AI Agent 확산에 따른 서버 CPU 수요 강세로 DCAI 매출은 62.6억달러(+59% yoy)를 기록했으며",
+                "quote": "2Q26 매출액 161억달러(YoY+25.4%, 이하 전년동기대비), 영업이익 28 억달러(흑자전환, OPM 17.2%)로 컨센서스를 각각 11.7%, 73% 상회. 부문 별 매출은 CCPG 89억달러(+13%), DCAI 63억달러(+59%), 파운드리 58 억달러(+31%) 기록",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "price-hike-upgrades",
+            "statement": "9월 들어 서버용 CPU 가격을 약 10% 인상한다는 미확인 보도가 나오며 공급 타이트 국면에서 마진 개선 기대가 부각됐고, Citigroup 신규 매수 커버리지 개시, UBS의 Hold→Buy 상향, Northland Securities의 목표주가 120달러(당시 대비 약 20% 상승여력) 제시 등 셀사이드 목표주가 상향이 이어졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Intel's Price Hikes Could Put $120 Back in Play",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/intels-price-hikes-could-put-120-back-play",
+                "date": "2026-09-14",
+                "quote": "Intel shares rallied on unconfirmed reports of a 10% CPU price hike amid tight server chip supply, prompting analyst upgrades... Citigroup initiated coverage with a Buy rating, UBS Group upgraded the stock from Hold to Buy, and Northland Securities upgraded Intel to Outperform with a $120 price target.",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -18168,32 +18796,41 @@ window.TEAM2_DATA = {
         ],
         "counterpoint": [
           {
-            "id": "c1",
-            "statement": "7분기 연속 가이던스를 상회했음에도 NTM PER 73배 수준의 밸류에이션 부담이 지속되고 있다는 지적이 나온다.",
+            "id": "dilution-offering",
+            "statement": "2026년 8월 인텔은 주당 95달러에 보통주 2억1,053만주(초과배정옵션 3,158만주 전량 행사 포함 총 약 2억4,211만주)를 발행하는 유상증자를 단행해 파운드리 투자 재원을 확충했으나, 발표 당시 용처·발행가가 공개되지 않아 고밸류 국면에서의 희석 부담이 지적됐다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[인텔 (NAS:INTC)] [26Q2 Review] DCAI +59%가 이끈 서프라이즈, 매수 유지",
+                "title": "[인텔 (NAS:INTC)] [Issue & News] 150억 달러 보통주 발행 추진",
                 "publisher": "대신증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqlzcqckkzggkmegcgxcmcm.pdf",
-                "date": "2026-07-23",
-                "quote": "7분기 연속 가이던스 beat, NTM PE 73x 부담 지속",
+                "url": "https://rreport.einfomax.co.kr/report/eqlximmexkxglmqgcgxcmex.pdf",
+                "date": "2026-08-10",
+                "quote": "인텔, 150억 달러 보통주 발행 계획 발표- 용처·발행가 미공개, 파운드리 투자 자금 조달 추정- 고밸류 국면의 자본 확충, 희석 부담 상존",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Intel Corp 8-K (Item 7.01, 8.01)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312526346806/d117670d8k.htm",
+                "date": "2026-08-12",
+                "quote": "210,526,315 shares of common stock, $0.001 par value, at $95.00 per share; underwriters' option for an additional 31,578,947 shares exercised in full the following day.",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "c2",
-            "statement": "인텔은 파운드리 투자 부담 완화를 위해 150억 달러 규모 보통주 발행을 추진 중이며, 용처와 발행가가 미공개인 상태에서 고밸류 국면의 자본 확충에 따른 희석 우려가 상존한다.",
+            "id": "valuation-and-pullback",
+            "statement": "7분기 연속 가이던스를 상회했음에도 NTM PE가 73배에 달해 밸류에이션 부담이 지속된다는 지적이 있었고, 실제로 최근 1개월 -6.14%, 3개월 -27.5%로 조정받아 RS 6개월 순위가 1.8%까지 낮아졌다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[인텔 (NAS:INTC)] [Issue & News] 150억 달러 보통주 발행 추진 - 확대되는 파운드리 투자 부담에 대한 선제적 자본 확충",
+                "title": "[인텔 (NAS:INTC)] [26Q2 Review] DCAI +59%가 이끈 서프라이즈, 매수 유지",
                 "publisher": "대신증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqlximmexkxglmqgcgxcmcm.pdf",
-                "date": "2026-08-10",
-                "quote": "인텔, 150억 달러 보통주 발행 계획 발표- 용처·발행가 미공개, 파운드리 투자 자금 조달 추정- 고밸류 국면의 자본 확충, 희석 부담 상존",
+                "url": "https://rreport.einfomax.co.kr/report/eqlzcqckkzggkmegcgxcmex.pdf",
+                "date": "2026-07-23",
+                "quote": "7분기 연속 가이던스 beat, NTM PE 73x 부담 지속",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -18204,25 +18841,32 @@ window.TEAM2_DATA = {
           "direction": "raised",
           "claims": [
             {
-              "id": "e1",
-              "statement": "3분기 매출 163억 달러·GPM 42%·EPS 0.38달러 가이던스가 컨센서스를 상회했고, 2026년 연간 CAPEX 가이던스도 200억 달러로 상향 조정되며 7분기 연속 가이던스 상회 흐름이 이어지고 있다.",
+              "id": "q3-guidance-above-cons",
+              "statement": "2분기 실적 발표 시 3분기 매출 가이던스 163억 달러·GPM 42%·EPS 0.38달러를 제시했으며 이는 컨센서스를 상회하는 수치로, 실적·가이던스가 잇달아 컨센서스를 웃돌며 눈높이가 상향되는 흐름이다.",
               "evidence_level": "sourced",
               "sources": [
                 {
                   "title": "[인텔 (NAS:INTC)] CPU가 끌고, 파운드리가 민다",
                   "publisher": "유진투자증권",
-                  "url": "https://rreport.einfomax.co.kr/report/eqlzckkmkeilzizgcgxcmcm.pdf",
+                  "url": "https://rreport.einfomax.co.kr/report/eqlzckkmkeilzizgcgxcmex.pdf",
                   "date": "2026-07-24",
-                  "quote": "3분기 가이던스도 매출 163억달러, GPM 42%, EPS 0.38달러로 컨센서스를 상회. 고객 수요 강세에 대응하기 위해 2026년 연간 CAPEX 가이던스를 200억달러로 상향 조정했으며",
+                  "quote": "3분기 가이던스도 매출 163억달러, GPM 42%, EPS 0.38달러로 컨센서스를 상회",
                   "verified": "ok",
                   "httpStatus": 200
-                },
+                }
+              ]
+            },
+            {
+              "id": "sellside-target-hikes",
+              "statement": "9월 들어 Citigroup이 신규 매수 커버리지를 개시하고 UBS가 Hold에서 Buy로, Northland Securities가 목표주가 120달러로 상향하는 등 셀사이드 목표주가 상향이 이어졌다.",
+              "evidence_level": "sourced",
+              "sources": [
                 {
-                  "title": "[인텔 (NAS:INTC)] [26Q2 Review] DCAI +59%가 이끈 서프라이즈, 매수 유지",
-                  "publisher": "대신증권",
-                  "url": "https://rreport.einfomax.co.kr/report/eqlzcqckkzggkmegcgxcmcm.pdf",
-                  "date": "2026-07-23",
-                  "quote": "7분기 연속 가이던스 beat, NTM PE 73x 부담 지속",
+                  "title": "Intel's Price Hikes Could Put $120 Back in Play",
+                  "publisher": "MarketBeat",
+                  "url": "https://www.nasdaq.com/articles/intels-price-hikes-could-put-120-back-play",
+                  "date": "2026-09-14",
+                  "quote": "Citigroup initiated coverage with a Buy rating, UBS Group upgraded the stock from Hold to Buy, and Northland Securities upgraded Intel to Outperform with a $120 price target.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -18231,18 +18875,25 @@ window.TEAM2_DATA = {
           ]
         },
         "themeTags": [
-          "AI 인프라",
-          "서버 CPU",
-          "파운드리"
+          "파운드리(18A/14A)",
+          "서버 CPU·AI 인프라",
+          "미국 정부 지분(CHIPS Act)"
         ],
         "confidence": "medium",
+        "ticker": "INTC",
         "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reasons": []
+          "verdict": "partial",
+          "removed": [
+            "gov-stake-reprice"
+          ],
+          "reasons": [
+            "gov-stake-reprice: Quote verifies only the valuation change ($8.9B→$43.9B, 395% gain) but lacks specific numbers for share price ($20.47), stake percentage (9.9%), and share count (약 4억3,330만주) that are claimed in statement"
+          ],
+          "leadFixed": true
         },
-        "researchedOn": "2026-09-09",
-        "carried": true
+        "leadOriginal": "INTC는 최근 6개월 120.47% 급등했지만 1개월 -6.14%, 3개월 -27.5%로 조정받아 RS 순위가 1개월 58.4%·3개월 91.6%에서 6개월 기준 1.8%로 크게 낮아졌다. 2분기 DCAI 매출 YoY +59% 서프라이즈와 미국 정부의 CHIPS Act 지분 전환(9.9%, 정부 스테이크 평가액 89억→439억 달러)이 상반기 랠리를 이끌었으나, 8월 주당 95달러 유상증자에 따른 희석 부담이 최근 조정의 배경으로 꼽힌다. 9월 들어서는 서버 CPU 10% 가격 인상 관측과 Citigroup·UBS·Northland의 목표주가 상향이 반등 시도를 뒷받침하고 있다.",
+        "researchedOn": "2026-09-16",
+        "carried": false
       },
       "nameKo": "인텔",
       "nameEn": "INTEL CORP",
@@ -18720,8 +19371,87 @@ window.TEAM2_DATA = {
         "count": 50
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "DJCO",
+        "company": "데일리 저널(Daily Journal Corp.)은 캘리포니아 등 서부 주 법조계 대상 법률신문을 발행하는 Traditional 부문과, 법원·검찰 등 공공기관에 사법행정 소프트웨어를 공급하는 Journal Technologies(소프트웨어) 부문을 함께 운영한다. 매출은 소프트웨어 라이선스·유지보수·구현 매출이 성장을 견인하는 반면 Traditional 인쇄·구독 매출은 정체·둔화 국면이다. 동시에 찰리 멍거가 구축한 대규모 상장주식 포트폴리오(BYD·BofA 등)를 보유해 GAAP 순이익이 마크투마켓 평가손익에 크게 좌우되는 특수한 손익구조를 가진다.",
+        "lead": "2026-06-30 마감 분기 매출이 전년동기 대비 15.3% 늘고 영업이익률이 19.5%까지 확대되는 등 Journal Technologies 부문 중심의 영업실적 개선이 이어지는 가운데, 9월 10일 임시주주총회에서 누적투표권 폐지 정관개정과 발행주식 약 2.5%(최대 3만5000주)에 달하는 자사주 매입이 승인되었다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "2026회계연도 3분기(2026-06-30 마감) 매출 2,697.6만달러(YoY +15.3%), 영업이익 526.7만달러(YoY +63.4%)를 기록하며 영업이익률이 19.5%로 확대됐다. 직전 두 분기 영업이익률은 각각 13.2%(2026-03-31 마감), 2.4%(2025-12-31 마감)로, 3개 분기 연속 마진이 개선되는 추세다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "DJCO 2026 회계연도 3분기 실적 발표 8-K",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/783412/000143774926027322/djco20260610_8k.htm",
+                "date": "2026-08-12",
+                "quote": "revenue 26,976,000 / profit(영업이익) 5,267,000 / margin 19.5% / yoy revenue +15.3%, profit +63.4% (periodEnd 2026-06-30)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "9월 10일 임시주주총회에서 누적투표권을 폐지하는 정관 개정안이 찬성 80만4,436표로 가결됐고, 9월11일 발효와 함께 이사회는 9월30일까지 발행주식의 약 2.5%에 해당하는 최대 3만5,000주 자사주 매입을 승인했다. 프록시 접근권 신설 등 지배구조 변경도 함께 이뤄졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Daily Journal Corp 8-K (2026-09-11)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/783412/000143774926030183/djco20260908_8k.htm",
+                "date": "2026-09-11",
+                "quote": "정관 개정안 (제안 1): 찬성 804,436표, 반대 21,786표, 기권 1,672표 / 자사주 매입: 9월 30일까지 최대 35,000주 매입 승인",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c2",
+            "statement": "이익 적자 상태에서 주가가 급등해 P/E가 -81.89로 밸류에이션 지표로서 의미를 갖기 어려운 구간에 있고, Weiss Ratings는 'hold(c-)'로, Wall Street Zen은 'hold'에서 'sell'로 각각 투자의견을 하향해 컨센서스는 'Hold'에 머물러 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Daily Journal Corp. (S.C.) (NASDAQ:DJCO) Reaches New 52-Week High - Here's Why",
+                "publisher": "MarketBeat",
+                "url": "https://www.marketbeat.com/instant-alerts/price-daily-journal-corp-sc-nasdaq-djco-reaches-new-52-week-high-heres-why-2026-09-14/",
+                "date": "2026-09-14",
+                "quote": "P/E 비율: -81.89 / Weiss Ratings: \"hold (c-)\" 등급으로 하향 조정 / Wall Street Zen: \"hold\"에서 \"sell\"로 하향 조정 / 컨센서스: \"Hold\"",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "법원·사법 정보시스템 SaaS(Journal Technologies)",
+          "자사주 매입·지배구조 변경",
+          "멍거 포트폴리오 연계 순이익 변동성"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w3",
+            "c1"
+          ],
+          "reasons": [
+            "w3: statement의 상승률 수치(1개월 15.39%·3개월 29.98%·6개월 40.91%)가 quote에 명시되지 않음",
+            "c1: GAAP 순손실 금액(1,088.9만달러, -7.90달러 주당) 및 구체적 수치가 quote에 없음"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "데일리 저널(DJCO)은 최근 1개월 15.39%·3개월 29.98%·6개월 40.91% 상승하며 52주 고점 대비 99.9% 수준까지 올라섰고 200일선 대비 25.75% 이격된 상태다. 2026-06-30 마감 분기 매출이 전년동기 대비 15.3% 늘고 영업이익률이 19.5%까지 확대되는 등 Journal Technologies 부문 중심의 영업실적 개선이 이어지는 가운데, 9월 10일 임시주주총회에서 누적투표권 폐지 정관개정과 발행주식 약 2.5%(최대 3만5000주)에 달하는 자사주 매입이 승인되며 주가는 9월 15일 675.50달러로 52주 신고가를 갱신했다.",
+        "researchedOn": "2026-09-16",
+        "carried": false
       },
       "nameKo": "데일리 저널",
       "nameEn": "DAILY JOURNAL CO",
@@ -20285,8 +21015,162 @@ window.TEAM2_DATA = {
         "count": 33
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "company": "포티넷은 FortiGate 방화벽을 축으로 SD-WAN·SASE·SecOps를 통합한 네트워크 보안 플랫폼 업체로, 매출은 어플라이언스 제품 판매와 지원·구독형 서비스로 구성되며 고객군은 대기업부터 SMB까지 아우르는 글로벌 엔터프라이즈다. 2025회계연도에는 방화벽 리프레시 사이클 둔화로 순이익이 역성장(FY25 3분기 YoY -12.2%, 4분기 YoY -3.8%)했으나, 2026회계연도 들어 매출·영업이익 성장이 재가속하며 반등 국면에 진입했다.",
+        "lead": "FTNT는 2026-09-15 전후로 20일선·50일선을 잇달아 상향 돌파하며 1개월 RS 상위 5.2%, 6개월 절대 수익률 117.25%를 기록해 52주 고점 대비 99.03%까지 근접했다. 2026회계연도 2분기(periodEnd 2026-06-30) 매출이 전년동기 대비 25.6%, 영업이익이 50.5% 증가하며 수익성 가속이 확인됐고, AI·네오클라우드 인프라 확산에 따른 네트워크 보안 수요 기대가 맞물려 있다. 다만 성장 재료 부각과 함께 셀사이드 컨센서스는 여전히 'Hold'에 머물러 있어 눈높이가 완전히 따라잡지는 못한 상태다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "2026-09-15 전후로 20일 이동평균선과 50일 이동평균선을 연이어 상향 돌파하는 기술적 신호가 포착되며 모멘텀 트레이더들의 관심을 끌었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Fortinet (FTNT) Recently Broke Out Above the 20-Day Moving Average",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/fortinet-ftnt-recently-broke-out-above-20-day-moving-average",
+                "date": "2026-09-15",
+                "quote": "Fortinet (FTNT) Recently Broke Out Above the 20-Day Moving Average",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Fortinet (FTNT) Just Overtook the 50-Day Moving Average",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/fortinet-ftnt-just-overtook-50-day-moving-average",
+                "date": "2026-09-15",
+                "quote": "Fortinet (FTNT) Just Overtook the 50-Day Moving Average",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "2026회계연도 2분기(periodEnd 2026-06-30) 실적에서 매출 20억 4,790만 달러(YoY +25.6%), 영업이익 6억 8,930만 달러(YoY +50.5%), 순이익 6억 630만 달러(YoY +37.8%), 영업이익률 33.7%를 기록해 최근 4개 분기 중 가장 강한 이익 가속을 보였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Fortinet Inc 8-K (FY2026 2분기 실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000018/ftnt-20260729.htm",
+                "date": "2026-07-29",
+                "quote": "periodEnd 2026-06-30, revenue 2,047,900,000 USD (yoy +25.6%), profit 689,300,000 USD (yoy +50.5%), netIncome 606,300,000 USD (yoy +37.8%), margin 33.7%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "AI 데이터센터·네오클라우드 인프라 확산이 네트워크 보안 수요를 자극하고 있다는 시장 해석이 제기됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Fortinet Sees AI, Neocloud Buildout Fueling Network Security Demand",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/fortinet-sees-ai-neocloud-buildout-fueling-network-security-demand",
+                "date": "2026-09-13",
+                "quote": "Fortinet Sees AI, Neocloud Buildout Fueling Network Security Demand",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "성장주로서의 강세 재료가 언론에 부각되며 가격 모멘텀에 우호적인 뉴스 흐름이 형성됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Fortinet (FTNT) is an Incredible Growth Stock: 3 Reasons Why",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/fortinet-ftnt-incredible-growth-stock-3-reasons-why",
+                "date": "2026-09-14",
+                "quote": "Fortinet (FTNT) is an Incredible Growth Stock: 3 Reasons Why",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "셀사이드 컨센서스는 44명 애널리스트 기준 'Hold'이며, 평균 목표주가 163.12달러는 2026-09-15 종가 172.37달러 대비 5.36% 낮아 최근 급등분을 목표주가가 아직 따라잡지 못했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Fortinet, Inc.: Target Price Consensus and Analysts Recommendations",
+                "publisher": "MarketScreener",
+                "url": "https://www.marketscreener.com/quote/stock/FORTINET-INC-60103137/consensus/",
+                "date": "2026-09-15",
+                "quote": "The average target is 5.36% below the current price, indicating analysts expect modest downside.",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "2025회계연도 3, 4분기에는 순이익이 각각 전년동기 대비 -12.2%, -3.8% 역성장했던 만큼, 현재의 이익 가속은 상대적으로 낮은 기저 위에서 나온 반등이라는 점을 감안할 필요가 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Fortinet Inc 8-K (FY2025 3분기 실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203925000036/ftnt-20251105.htm",
+                "date": "2025-11-05",
+                "quote": "periodEnd 2025-09-30, revenue yoy +14.4%, profit yoy +16.2%, netIncome yoy -12.2%",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Fortinet Inc 8-K (FY2025 4분기 실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000003/ftnt-20260205.htm",
+                "date": "2026-02-05",
+                "quote": "periodEnd 2025-12-31, revenue yoy +14.8%, profit yoy +9.0%, netIncome yoy -3.8%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "FY2026 컨센서스 매출은 81.2억 달러(전년 대비 +19.41%), EPS는 3.45달러(전년 대비 +25.00%)로, 주요 지표에서 'Upgrade' 표시와 함께 최근 상향 조정 흐름이 확인된다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Fortinet (FTNT) Stock Forecast & Analyst Price Targets",
+                  "publisher": "StockAnalysis.com",
+                  "url": "https://stockanalysis.com/stocks/ftnt/forecast/",
+                  "date": "2026-09-10",
+                  "quote": "Revenue Estimate: $8.12 billion, representing a 19.41% increase from the prior year's $6.80 billion. EPS Estimate: $3.45, up 25.00% from the previous year's $2.76.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "사이버보안",
+          "AI 인프라 보안",
+          "네트워크 보안 리프레시 사이클"
+        ],
+        "confidence": "high",
+        "ticker": "FTNT",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "researchedOn": "2026-09-16",
+        "carried": false
       },
       "nameKo": "포티넷",
       "nameEn": "FORTINET INC",
@@ -22048,21 +22932,179 @@ window.TEAM2_DATA = {
         }
       ],
       "asOf": "2026-09-15"
-    }
+    },
+    "llm": {
+      "byPeriod": {
+        "m1": {
+          "name": "Software - Application 신규 랠리",
+          "plainKo": "최근 1개월 상위 2% 15종목 중 Software-Application 업종이 5종목(33.3%)으로 최대 하위 클러스터를 이루며, TEAM을 제외한 MSTR·NOW·DUOL·DJCO 전원이 신규 진입 종목이다. Technology 섹터 전체는 10종목(66.7%)으로 압도적 비중을 유지했다.",
+          "tickers": [
+            "TEAM",
+            "MSTR",
+            "NOW",
+            "DUOL",
+            "DJCO"
+          ],
+          "strength": "emerging"
+        },
+        "m3": {
+          "name": "Software - Infrastructure (사이버보안) 중기 리더십",
+          "plainKo": "최근 3개월 상위 2% 13종목 중 Software-Infrastructure 업종이 OKTA·QLYS·ZS 3종목(23.1%, high concentration)으로 가장 응집된 하위 클러스터를 형성했다. Technology(46.2%)와 Healthcare(30.8%)가 상위 두 섹터를 양분한 가운데 사이버보안이 그 안에서 두드러졌다.",
+          "tickers": [
+            "OKTA",
+            "QLYS",
+            "ZS"
+          ],
+          "strength": "strong"
+        },
+        "m6": {
+          "name": "반도체 6개월 레거시 리더십 (AI 데이터센터)",
+          "plainKo": "최근 6개월 상위 2% 23종목 중 Semiconductors 업종이 MXL·MRVL·AMBQ·MU·INTC 5종목(21.7%, high concentration)으로 Software-Infrastructure와 공동 2위를 기록하며 6개월 내내 장기 리더십을 보였다. 다만 이 5종목 전원이 교차 분석상 '퇴조' 그룹에 속해 최근 1개월·3개월 상위 2%에서는 이탈한 상태다.",
+          "tickers": [
+            "MXL",
+            "MRVL",
+            "AMBQ",
+            "MU",
+            "INTC"
+          ],
+          "strength": "strong"
+        }
+      },
+      "caution": "리딩 테마는 Node 클러스터의 섹터·업종 집계에 기반한 통계적 공기(共起)이며, Technology 섹터 내부에도 사이버보안·반도체·엔터프라이즈 SaaS 등 사업모델이 상이한 하위 그룹이 혼재해 있다. 제공된 리서치는 교차 목록 39개 티커 중 일부(OKTA·CRWD·FTNT·ZS·SWKS·INTC·EPAM·DUOL·SIG·FLXS·WGS·HNGE·PARR·FET·HPE-C 등)에만 존재하며, MGRT·TEAM·MSTR·MLAB·NOW·QLYS·MNPR·TWST·MXL·MRVL·AMBQ·MU 등 다수 종목은 근거 문서가 없어 'AI 수요 확산'이라는 공통 서사에 개별적으로 부합하는지 확인되지 않았다. m6 반도체 그룹은 6개월 내내 상위 2%를 유지했지만 교차 분석상 전원 '퇴조'로 분류돼, 현재 시점에서는 후행 지표일 가능성을 배제할 수 없다.",
+      "crossCuttingDriver": "이번 상위 2% 클러스터를 관통하는 공통 동인은 AI 수요의 전방위 확산이다. 보안 소프트웨어(OKTA·CRWD·FTNT·ZS)에서는 AI 에이전트·에이전틱 SOC 보안 수요가, 반도체(SWKS·INTC)에서는 AI 데이터센터向 수요가, 애플리케이션 소프트웨어(EPAM·DUOL)에서는 AI-네이티브 전환과 AI 러닝 제품이 실적과 주가를 동시에 견인하고 있다. 9월 14일 Anthropic CEO의 AI 리스크·보안 거버넌스 발언이 아이덴티티·사이버보안 섹터 전반의 동반 랠리(OKTA 당일 약 +12%)를 촉발한 사례가 이 연결고리를 가장 직접적으로 보여준다.",
+      "leadingTheme": {
+        "name": "Technology 섹터 전방위 강세 (AI 수요 확산)",
+        "plainKo": "합집합 상위 2% 클러스터 39종목 중 25종목(64.1%)이 Technology 섹터에 속해 기간 전반(1M 66.7%·3M 46.2%·6M 69.6%)에 걸쳐 압도적 비중을 유지했다. 사이버보안·반도체·엔터프라이즈 소프트웨어 등 하위 업종에서 공통적으로 AI 관련 수요 확대가 실적과 주가 모멘텀의 근거로 제시됐다.",
+        "why": "EPAM은 AI-native 매출이 2Q26 기준 1.6억달러(전체 매출 11% 이상)로 6개 분기 연속 두 자릿수 QoQ 순성장을 기록했고 FY26 AI-native 매출 6억달러 달성 궤도에 있다고 밝혔다. DUOL은 2026년 2분기 매출 2억9,845만달러(YoY +18.3%)와 DAU 23% 증가를 기록하며 직전 실적 발표 대비 주가가 29.6% 상승했다. 사이버보안에서는 OKTA(9월14일 Anthropic CEO 발언 이후 당일 약 +12%·186.45달러, 3분기 가이던스 매출 8.15억달러 +10%·조정EPS 0.93달러 +13%), CRWD(FY2Q27 신규 ARR 3.33억달러 사상 최대·가이던스 상단 16% 상회, AIDR ARR 전분기 대비 3배 증가), FTNT(2Q26 매출 20억4,790만달러 YoY +25.6%·영업이익률 33.7%), ZS(FY2026 4분기 매출 8억9,818.5만달러 YoY +24.9%, CEO가 Citi 컨퍼런스에서 AI 보안 수요 급증 강조)가 AI 보안 수요를 공통 근거로 들었다. 반도체에서는 INTC의 DCAI 매출 YoY +59%·전사 매출 161억달러(YoY +25.4%)와 SWKS의 AI 데이터센터向 수요 호조·실적 발표 후 8월 추가 +8.9% 상승이 확인됐다.",
+        "tickers": [
+          "TEAM",
+          "MGRT",
+          "OKTA",
+          "MXL",
+          "SWKS",
+          "MSTR",
+          "DELL",
+          "BAND",
+          "EPAM",
+          "PENG",
+          "QLYS",
+          "CRWD",
+          "NOW",
+          "MRVL",
+          "AMBQ",
+          "MLAB",
+          "PANW",
+          "DUOL",
+          "MU",
+          "ZS",
+          "FROG",
+          "INTC",
+          "DJCO",
+          "SNDK",
+          "FTNT"
+        ],
+        "strength": "strong"
+      },
+      "rotation": {
+        "persistent": [
+          "MRNA",
+          "TEAM",
+          "MGRT",
+          "OKTA"
+        ],
+        "newEntrants": [
+          "SWKS",
+          "MSTR",
+          "NOW",
+          "MLAB",
+          "DUOL",
+          "SIG",
+          "FLXS",
+          "DJCO"
+        ],
+        "midTerm": [
+          "TWST",
+          "QLYS",
+          "PARR",
+          "FET",
+          "ZS",
+          "MNPR"
+        ],
+        "fading": [
+          "CRWD",
+          "INTC",
+          "FTNT",
+          "HNGE",
+          "HPE-C"
+        ],
+        "narrative": "1M 신규 진입 8종목(SWKS·MSTR·NOW·MLAB·DUOL·SIG·FLXS·DJCO)은 1개월 상위 2% 15종목 중 Software-Application 5종목(33.3%)·Consumer Cyclical 3종목(20%) 급증을 이끌며 등장했다. 3M 중기 그룹(TWST·QLYS·PARR·FET·ZS·MNPR)은 3개월 상위 2% 13종목에서 Healthcare 4종목(30.8%)·Software-Infrastructure 3종목(23.1%)·Energy 2종목(15.4%)을 형성하는 핵심 축이다. 6M 퇴조 그룹은 CRWD·INTC·FTNT·HNGE·HPE-C를 포함한 18종목으로, 6개월 상위 2% 23종목의 Technology 16종목(69.6%)·Semiconductors 5종목(21.7%)·Software-Infrastructure 5종목(21.7%) 구성의 상당 부분을 차지했던 종목들이 최근 1M·3M 목록에서는 이탈했다. 반면 MRNA·TEAM·MGRT·OKTA 4종목만 세 기간 모두에 걸쳐 유지되며 유일한 지속 주도 그룹을 이룬다."
+      },
+      "subThemes": [
+        {
+          "name": "사이버보안 AI 수요",
+          "plainKo": "옥타·크라우드스트라이크·포티넷·지스케일러 4종목은 AI 에이전트·AI 데이터센터 확산에 따른 보안 수요 증가를 공통 동력으로 공유한다.",
+          "why": "OKTA는 9월14일 Anthropic CEO 다리오 아모데이의 AI 리스크·보안 거버넌스 발언 이후 아이덴티티·사이버보안 섹터 전반이 동반 랠리하며 당일 약 12% 급등(186.45달러)했고, 3분기 가이던스로 매출 8.15억달러(+10%)·조정EPS 0.93달러(+13%)·유동RPO 약 26억달러(+12%)를 제시했다. CRWD는 FY2Q27 신규 ARR 3.33억달러(사상 최대, 가이던스 상단 16% 상회)를 기록했고 AIDR ARR이 전분기 대비 3배 증가했다. FTNT는 2Q26 매출 20억4,790만달러(YoY +25.6%)·영업이익률 33.7%를 기록했고 AI 데이터센터·네오클라우드 인프라 확산이 네트워크 보안 수요를 자극한다는 해석이 제기됐다. ZS는 FY2026 4분기 매출 8억9,818.5만달러(YoY +24.9%)를 기록했고 CEO가 Citi 컨퍼런스에서 AI 보안 수요 급증과 제로트러스트 모멘텀을 강조했다.",
+          "tickers": [
+            "OKTA",
+            "CRWD",
+            "FTNT",
+            "ZS"
+          ]
+        },
+        {
+          "name": "반도체 AI 데이터센터 수요",
+          "plainKo": "스카이웍스와 인텔은 AI 데이터센터向 반도체 수요 확대를 공통 근거로 최근 실적·가이던스 개선이 확인됐다.",
+          "why": "SWKS는 2026-07-03 마감 분기 실적에서 Broad Markets(자동차·산업·데이터센터) 부문과 AI 데이터센터向 수요가 컨센서스 대비 호조 요인으로 거론됐고, 실적 발표 이후 8월 한 달간 주가가 추가로 8.9% 상승했다. INTC는 2026년 2분기 DCAI 매출이 YoY +59% 급증하며 전사 매출 161억달러(YoY +25.4%)로 컨센서스를 크게 상회했고, 9월 들어 서버용 CPU 가격 약 10% 인상 보도와 함께 Citigroup 신규 매수 개시·UBS Hold→Buy 상향·Northland Securities 목표주가 120달러 제시 등 셀사이드 목표주가 상향이 이어졌다.",
+          "tickers": [
+            "SWKS",
+            "INTC"
+          ]
+        },
+        {
+          "name": "소비재 리테일 마진 턴어라운드",
+          "plainKo": "시그넷 주얼러스와 플렉스틸은 매출 성장보다 이익률 개선이 두드러진 실적 서프라이즈로 주가가 반응했다는 공통점이 있다.",
+          "why": "SIG는 FY2027 2분기 매출이 YoY -0.5%로 소폭 감소했음에도 영업이익이 8,750만달러(YoY +3,025%, 영업이익률 5.7%)로 급증했고 연간 조정 EPS 가이던스를 10% 이상 상향($10.45~$12.15)했으며, 실적 발표 이후 컨센서스 목표주가가 10.32% 상향돼 $124.34로 집계됐다. FLXS는 FY26 4분기 EPS 1.33달러로 Zacks 컨센서스 1.15달러를 상회(서프라이즈 +15.65%)했고 매출도 컨센서스 대비 +1.17% 상회했으며, 경영진은 장기 목표로 매출 7.5억달러·영업이익률 8% 이상을 제시했다.",
+          "tickers": [
+            "SIG",
+            "FLXS"
+          ]
+        },
+        {
+          "name": "에너지 업스트림·다운스트림 실적 개선",
+          "plainKo": "PARR과 FET는 정제마진 강세와 업스트림 서비스 실적 개선을 배경으로 한 에너지 업종 내 개별 모멘텀 스토리다.",
+          "why": "PARR은 정제마진(크랙 스프레드)이 7월 기준 배럴당 31.34달러로 견조했고 최근 1년 주가 상승률이 142.9%로 업종 평균 84.9%를 상회했다. FET는 2026년 1분기 매출 2억870만달러(YoY +8%)·영업이익률 5.3%·순이익 흑자전환(YoY +300.4%)을 기록했고, 최근 1년 주가가 207% 급등했으며 2030년까지 매출 16억달러를 목표로 하는 5개년 성장 계획을 공개했다.",
+          "tickers": [
+            "PARR",
+            "FET"
+          ]
+        },
+        {
+          "name": "헬스케어 실적 서프라이즈·마진 개선",
+          "plainKo": "웨스트게이트 지노믹스(WGS)와 힌지헬스(HNGE)는 사업모델은 다르지만 실적 서프라이즈와 마진 레버리지가 동시에 확인됐다는 공통점이 있다.",
+          "why": "WGS는 2026회계연도 2분기 매출 1억1,444만달러로 컨센서스(약 1억1,101만달러)를 상회했고 조정 EPS 0.01달러로 컨센서스 -0.19달러 대비 0.20달러의 서프라이즈를 기록해 Zacks Rank #1로 상향됐다. HNGE는 2026년 2분기 매출이 YoY 53% 증가한 2억1,282만달러, Non-GAAP 영업이익이 136% 증가한 6,150만달러를 기록했고 GAAP 기준 희석 EPS가 0.52달러로 흑자전환했다.",
+          "tickers": [
+            "WGS",
+            "HNGE"
+          ]
+        }
+      ],
+      "researchedOn": "2026-09-16"
+    },
+    "reusedFrom": null
   },
   "fs_coverage": {
     "have": 38,
     "total": 39
   },
   "research_coverage": {
-    "done": 31,
+    "done": 39,
     "total": 39,
-    "cap": null,
-    "pending": 8,
+    "cap": 20,
+    "pending": 0,
     "failed": 0,
-    "carried": 31,
+    "carried": 23,
     "ineligible": 0,
-    "note": "39종목 중 31종목을 조사했습니다. 그중 31종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 8종목은 상한(?) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
+    "note": "그중 23종목은 최근 조사분을 이월했습니다(조사일 표기)."
   },
   "detail_coverage": {
     "done": 39,

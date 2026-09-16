@@ -521,8 +521,82 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "carried",
+    "status": "done",
     "industries": [
+      {
+        "driver": "commodity",
+        "durability": "cyclical",
+        "industry": "Agricultural Inputs",
+        "key": "Basic Materials|Agricultural Inputs",
+        "keyStocks": [
+          "CF",
+          "NTR",
+          "MOS"
+        ],
+        "lead": "Agricultural Inputs 업종은 이란의 연간 요소(urea) 수출 약 800만톤 이탈과 호르무즈 해협발 에너지 공급 차질로 질소 비료 가격이 급등한다. CF Industries는 질소 가격 상승을 바탕으로 최근 3개월 주가가 업종·시장 대비 큰 폭으로 앞서갔다. 여기에 강한 엘니뇨 발생 가능성이 제기되며 작황 방어용 비료 수요 기대도 더해지고 있다.",
+        "risk": "이번 강세는 이란-호르무즈발 공급 차질이라는 지정학적 이벤트에 크게 의존하고 있어, 분쟁이 완화되거나 이란산 요소 수출이 재개되면 질소 프리미엄이 빠르게 축소될 수 있다. 컨센서스 상향 비율이 32.47%(n=154)에 그치고 당해·차기연도 EPS 추정치 중앙값이 각각 -0.03%/-0.14%로 여전히 하향 조정되고 있다는 점은, 주가 모멘텀 대비 이익 추정 개선이 뒤따르지 못하고 있음을 시사한다. 6개월 WRS 순위는 상위 60.14%로 중위권에 머물러 있어 최근 1개월 급등(상위 1.45%)이 구조적 리레이팅인지 단기 스파이크인지 아직 확인되지 않았다. 확인할 조건은 분기 실적에서 컨센서스 상향 비율의 개선, 이란 관련 공급 차질의 지속 여부, WRS 3·6개월 구간으로의 확산이다.",
+        "whyStrong": [
+          {
+            "id": "iran-nitrogen-supply-shock",
+            "statement": "이란의 연간 요소(urea) 수출 약 800만톤이 시장에서 이탈하고 호르무즈 해협발 에너지 흐름 차질까지 겹치며 글로벌 질소 비료 공급이 타이트해졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CF Industries, Nutrien and Mosaic: fertilizer stocks and the Iran supply shock",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/stock-market-news/cf-industries-nutrien-and-mosaic-fertilizer-stocks-and-the-iran-supply-shock-93CH-4814662",
+                "date": "2026-07-27",
+                "quote": "Iran exported ~8M tonnes of urea/year",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "el-nino-demand-outlook",
+            "statement": "NOAA 기준 2026년 말까지 강한 엘니뇨 발생 확률이 81%로 제시되며, 작황 방어를 위한 비료 수요 증가 기대가 반영되고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CF Industries, Nutrien and Mosaic: fertilizer stocks and the Iran supply shock",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/stock-market-news/cf-industries-nutrien-and-mosaic-fertilizer-stocks-and-the-iran-supply-shock-93CH-4814662",
+                "date": "2026-07-27",
+                "quote": "81% chance of a very strong El Niño through late 2026",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "cf-industries-price-momentum",
+            "statement": "CF Industries는 질소 가격 상승과 실적 개선을 바탕으로 최근 3개월 주가가 59.4% 상승해 비료업종 평균(23.9%)과 S&P 500(-5.7%)을 크게 상회했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CF Stock Rallies 59% in 3 Months: What Should Investors Do Now?",
+                "publisher": "Zacks (via TradingView)",
+                "url": "https://www.tradingview.com/news/zacks:398c8594d094b:0-cf-stock-rallies-59-in-3-months-what-should-investors-do-now/",
+                "date": "2026",
+                "quote": "CF stock has rallied 59.4% over the past three months against the industry's growth of 23.9% and the S&P 500's decline of 5.7%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "nutrien-potash-ebitda-expansion"
+          ],
+          "reason": "Claim 4 (nutrien-potash-ebitda-expansion)에서 핵심 수치인 '톤당 $266 판매가격'이 인용문에 존재하지 않음. 또한 EBITDA 수치도 statement의 12.36억달러와 quote의 $1.24 billion(12.4억달러) 간 불일치 발생.",
+          "leadFixed": true
+        },
+        "leadOriginal": "Agricultural Inputs 업종은 이란의 연간 요소(urea) 수출 약 800만톤 이탈과 호르무즈 해협발 에너지 공급 차질로 질소 비료 가격이 급등하며 최근 1개월 WRS 기준 업종 상위 1.45%까지 올라섰다. CF Industries는 질소 가격 상승과 실적 서프라이즈를 바탕으로 최근 3개월 주가가 업종·시장 대비 큰 폭으로 앞서갔고, Nutrien은 칼리(potash) 판매가격과 생산량 증가로 부문 조정 EBITDA가 확대됐다. 여기에 강한 엘니뇨 발생 가능성이 제기되며 작황 방어용 비료 수요 기대도 더해지고 있다.",
+        "researchedOn": "2026-09-16",
+        "carried": false
+      },
       {
         "driver": "earnings",
         "durability": "cyclical",
@@ -889,102 +963,6 @@ window.TEAM5_DATA = {
         "carried": true
       },
       {
-        "driver": "commodity",
-        "durability": "cyclical",
-        "industry": "Agricultural Inputs",
-        "key": "Basic Materials|Agricultural Inputs",
-        "keyStocks": [
-          "CF",
-          "NTR",
-          "MOS",
-          "UAN"
-        ],
-        "lead": "Basic Materials/Agricultural Inputs 업종은 WRS 1개월 상위 1.43%로 초강세를 보이지만 6개월 기준으로는 52.14%(중위권)에 그쳐, 최근 부각된 단기 로테이션 성격이 강하다. 이스라엘-이란 분쟁에 따른 중동發 천연가스 공급 차질이 요소·암모니아·UAN 등 질소계 비료 가격을 밀어올리면서 질소 비중이 큰 CF Industries·Nutrien의 이익 전망과 목표주가가 잇달아 상향된 반면, 칼리·인산염 비중이 큰 Mosaic은 상대적으로 소외되어 업종 내 종목간 편차가 크다.",
-        "risk": "DOJ가 CF Industries·Nutrien·Mosaic·Koch Industries·Yara International의 가격 담합 여부를 조사 중이며 상위 4개사가 질소 비료 시장의 약 75%를 장악하고 있어, 반독점 이슈가 현실화되면 최근 형성된 밸류에이션 프리미엄이 급격히 되돌려질 수 있다. Sen. Josh Hawley는 2026년 3월 12일 \"Sure looks to me like the giant fertilizer companies are price gouging farmers\"라며 공개 비판한 바 있어 정치적 리스크도 상존한다. 질소 가격 강세의 근본 원인이 중동 지정학 리스크(천연가스 공급 차질)이므로 이란-이스라엘 분쟁이 완화되거나 가스 공급이 정상화되면 요소·암모니아 가격이 빠르게 되돌림될 수 있다. Node 데이터상 업종 6개월 WRS 백분위가 52.14%로 중위권에 머물고 컨센서스 상향 비율도 32.47%(n=154)에 불과해, 최근 1개월 급등이 구조적 추세 전환인지 단기 반등인지는 향후 실적 시즌에서 이익 전망 상향이 종목 전반으로 확산되는지, 그리고 중동발 공급 차질이 지속되는지로 확인해야 한다.",
-        "whyStrong": [
-          {
-            "id": "iran_gas_disruption",
-            "statement": "이스라엘-이란 분쟁으로 중동發 천연가스 공급이 차질을 빚으며 질소 비료(요소·암모니아·UAN) 생산 원료 공급이 타이트해졌고, 이는 질소 비중이 큰 CF Industries·Nutrien의 가격결정력과 실적 전망을 끌어올리는 반면 칼리·인산염 비중이 큰 Mosaic에는 직접적 수혜가 없다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Nitrogen surge to lift CF, Nutrien earnings; Mosaic faces headwinds",
-                "publisher": "Reuters (via Kitco News)",
-                "url": "https://www.kitco.com/news/off-the-wire/2026-05-05/nitrogen-surge-lift-cf-nutrien-earnings-mosaic-faces-headwinds",
-                "date": "2026-05-05",
-                "quote": "Nitrogen-focused producers such as CF Industries and Nutrien are expected to outperform fertilizer peers with heavier exposure to potash and phosphate, including Mosaic.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "urea_price_spike",
-            "statement": "요소(urea) 가격이 2026년 3월 12거래일 만에 약 32% 급등해 톤당 516달러에서 683달러까지 올랐고, 미주 비료 가격지수는 2025년 8월 고점 776.85달러를 넘어 810달러/톤에 도달했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Senator Hawley accuses CF Industries of price gouging as urea surges 32%",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/stock-market-news/senator-hawley-accuses-cf-industries-of-price-gouging-as-urea-surges-32-4558554",
-                "date": "2026-03-12",
-                "quote": "12일간 약 32% 급등, 약 516달러/톤에서 683달러/톤으로 상승. 미주 비료 가격지수는 2025년 8월 최고치인 776.85달러를 넘어 810달러/톤에 도달.",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "analyst_upgrades",
-            "statement": "질소 가격 강세를 근거로 IB들이 CF Industries 목표주가를 잇달아 상향했다. CIBC는 목표주가를 118달러에서 128달러로 올리며 중동 공급 차질에 따른 질소가격 추가 강세를 근거로 들었다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "CIBC Raises CF Industries (CF) Price Target on Stronger Nitrogen Pricing Outlook",
-                "publisher": "CIBC (via Yahoo Finance)",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/cibc-raises-cf-industries-cf-214923160.html",
-                "date": "2026-05-07",
-                "quote": "CIBC said it expects stronger nitrogen pricing because of supply disruptions in the Middle East. CIBC raised its price target to $128 from $118.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "cf_fundamentals_valuation",
-            "statement": "CF Industries는 최근 3개월 +59.4% 상승(Zacks Fertilizers 업종 +23.9%, S&P500 -5.7% 대비 아웃퍼폼)했고, 순이익률 27.1%·총마진 42.5%의 펀더멘털에 공정가치 대비 +14.1% 추가 상승여력이 있다는 평가로 Barclays는 Overweight, Nutrien은 공정가치 대비 +21.4%/애널리스트 컨센서스 +23.6% 상승여력에 JPMorgan Overweight를 유지했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "CF Stock Rallies 59% in 3 Months: What Should Investors Do Now?",
-                "publisher": "Zacks (via Yahoo Finance)",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/cf-stock-rallies-59-3-163600917.html",
-                "date": "2026",
-                "quote": "CF Industries shares have rallied 59.4% in the past three months, outperforming the Zacks Fertilizers industry's growth of 23.9% and the S&P 500's decline of 5.7%.",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "CF Industries, Nutrien and Mosaic: best fertilizer stocks rated after earnings",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/stock-market-news/cf-industries-nutrien-and-mosaic-best-fertilizer-stocks-rated-after-earnings-93CH-4849238",
-                "date": "2026-08-10",
-                "quote": "CF Industries YTD 수익률 +49.2%, 순이익률 27.1%, 총마진률 42.5%, 공정가치 대비 +14.1% 상승여력, Barclays Overweight. Nutrien은 공정가치 대비 +21.4% 상승여력, 애널리스트 컨센서스 +23.6% 상승, 배당수익률 3.4%, JPMorgan Overweight. Mosaic은 자유현금흐름 수익률 -12.9%, 순이익률 -5.2%로 회피 권고.",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          }
-        ],
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "researchedOn": "2026-09-14",
-        "carried": true
-      },
-      {
         "key": "Energy|Oil & Gas Refining & Marketing",
         "industry": "Oil & Gas Refining & Marketing",
         "lead": "Par Pacific Holdings(PARR)는 하와이·워싱턴·몬태나·와이오밍에 정제 자산을 보유한 다운스트림 정유사로, WRS 3개월 0.5574(상위 0.71%)·6개월 0.6084(상위 2.14%)를 기록하며 업종 내 자금 유입이 최상위권에 진입했다. 실적 발표 이후 목표주가 상향과 밸류에이션 매력이 이 흐름을 뒷받침하고 있다.",
@@ -1250,21 +1228,19 @@ window.TEAM5_DATA = {
       }
     ],
     "summary": {
-      "strongest": {
-        "industry": "Department Stores",
-        "why": "Final_WRS 랭크퍼센타일이 m1 0.72%로 세 업종 중 최상위이며, m3(7.19%)·m6(31.65%) 대비 랭크가 단기로 갈수록 뚜렷이 개선됐다. WRS 값 자체도 m1 0.1632, m3 0.1682로 유지되는 가운데, KSS 2분기 실적(조정 EPS $1.28 비트, 연간 가이던스 상향, 최대 $100M 자사주 매입 재개, 관세 환급 $100M 마진 반영)과 9월 2일 KSS 장중 +7%·Macy's 동반 +3%의 저평가 백화점주 로테이션 매수세가 근거로 확인된다. FRANK 순위도 25거래일간 5계단 상승, 50일선/200일선 이격 중앙값이 각각 9.52%/7.91%로 확대되며 추세가 가속 중이다."
-      },
+      "caution": "입력에 업종이 Agricultural Inputs 단 1개만 제공되어 업종 간 비교(로테이션 전체 지도)는 그릴 수 없다. emerging/fading 판정도 이 한 업종에 대한 기간별 WRS 변화만 근거로 한 것이며, 다른 업종과의 상대 비교가 아니다. researched:true 이므로 \"why\"는 조사 결과를 그대로 인용했다.",
       "emerging": [
-        "Department Stores"
+        "Agricultural Inputs"
       ],
-      "fading": [
-        "Health Information Services",
-        "Healthcare Plans"
-      ],
-      "rotationView": "6개월 축에서는 Healthcare Plans(m6 wrs 0.4958, rankPct 2.88)와 Health Information Services(m6 wrs 0.3153, rankPct 10.07)가 최상위권이었지만, 1개월 축에서는 둘 다 wrs가 마이너스(-0.0054, -0.0025)로 전환되고 rankPct도 각각 35.25%·31.65%로 밀려났다 — 구조적/정책 드라이버 업종에서 자금이 빠지는 구간이다. 반대로 Department Stores는 m6 rankPct 31.65%에서 m1 0.72%로 순위가 가장 급격히 개선되며 자금이 새로 유입되는 모습이다. 다만 Department Stores의 m1 wrs(0.1632)는 m3(0.1682)와 비슷한 수준이라 절대 강도의 증가라기보다는 상대 순위(다른 업종 대비 랭크퍼센타일) 개선이 로테이션 신호의 핵심이다.",
-      "caution": "Healthcare Plans는 m3 wrs가 0.0089로 이미 m6 대비 크게 둔화된 뒤 m1에서 마이너스로 전환된 것으로, 2개월 연속 약화 흐름이다. Health Information Services와 Healthcare Plans의 조사 근거(실적 서프라이즈·가이던스 상향, MLR 개선·이용률 둔화)는 모두 6개월 강세 구간에 해당하는 서술이므로, 이를 근거로 현재(m1) 약세의 \"이유\"를 설명하지 않도록 주의. Department Stores의 driver는 durability \"cyclical\"(실적 서프라이즈+저가 매수 로테이션)로 분류돼 있어, Health Information Services의 \"structural\" 성장 스토리와는 지속성 성격이 다르다는 점도 함께 고려해야 한다."
+      "fading": [],
+      "rotationView": "Agricultural Inputs의 WRS는 6개월 0.042(랭크 하위 60.14%)에서 3개월 0.168(랭크 상위 9.42%), 1개월 0.1211(랭크 상위 1.45%)로 움직였다. 6개월 구간에서는 중하위권이었던 업종이 최근 1개월 구간에서 전체 업종 중 상위 1.45%까지 올라온 것으로, 자금이 최근 들어 이 업종으로 새로 유입되고 있는 패턴이다. 근거로는 이란산 요소(연 약 800만톤) 수출 이탈과 호르무즈 해협발 에너지 흐름 차질에 따른 질소 비료 공급 타이트화, NOAA 기준 2026년 말까지 강한 엘니뇨 발생 확률 81% 전망에 따른 비료 수요 기대, CF Industries 최근 3개월 주가 59.4% 상승(업종 평균 23.9%, S&P500 -5.7% 대비 초과)이 제시되어 있다.",
+      "strongest": {
+        "industry": "Agricultural Inputs",
+        "why": "1개월 WRS 0.1211(랭크 상위 1.45%)로 조사 대상 중 가장 강하다. 이란 요소 수출 이탈과 호르무즈 해협 리스크로 질소 비료 공급이 타이트해졌고, NOAA는 2026년 말까지 강한 엘니뇨 발생 확률을 81%로 제시하며 비료 수요 증가 기대를 뒷받침한다. CF Industries는 최근 3개월 주가 59.4% 상승으로 업종 평균 23.9%, S&P500 -5.7%를 크게 상회했다."
+      }
     },
-    "summaryResearchedOn": "2026-09-15"
+    "summaryResearchedOn": "2026-09-16",
+    "reusedFrom": null
   },
   "flow": {
     "baseline": {
@@ -7507,5 +7483,15 @@ window.TEAM5_DATA = {
         ]
       }
     ]
+  },
+  "research_coverage": {
+    "done": 11,
+    "total": 12,
+    "cap": 6,
+    "pending": 1,
+    "failed": 0,
+    "carried": 10,
+    "ineligible": 0,
+    "note": "12업종 중 11업종을 조사했습니다. 그중 10업종은 최근 조사분을 이월했습니다(조사일 표기). 나머지 1업종은 상한(6) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
   }
 };
