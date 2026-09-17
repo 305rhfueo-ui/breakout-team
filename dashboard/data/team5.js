@@ -521,8 +521,119 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "carried",
+    "status": "done",
     "industries": [
+      {
+        "driver": "earnings",
+        "durability": "short_term",
+        "industry": "Publishing",
+        "key": "Communication Services|Publishing",
+        "keyStocks": [
+          "NYT"
+        ],
+        "lead": "Communication Services|Publishing 업종은 Node 분류상 The New York Times Co(NYT) 단일 종목으로 구성되며, 디지털 구독과 디지털 광고가 핵심 매출원인 신문·미디어 퍼블리셔다. 1개월 WRS 0.1306(상위 1.43%)로 QQQ 대비 강한 초과수익을 냈다.",
+        "whyStrong": [
+          {
+            "id": "digital-ad-accel",
+            "statement": "디지털 광고 매출이 전년 대비 +20.7% 증가한 1억1,400만달러를 기록하며 광고주 수요 강세와 광고 인벤토리 확대에 힘입어 가속했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "The New York Times Q2 Earnings Beat Estimates as Digital Ads Rise",
+                "publisher": "Yahoo Finance (Zacks)",
+                "url": "https://finance.yahoo.com/media-advertising/articles/york-times-q2-earnings-beat-152700443.html",
+                "date": "2026-08-05",
+                "quote": "Digital advertising revenues jumped 20.7% to $114 million, benefiting from strong marketer demand and continued growth in advertising supply.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "risk": "3분기 가이던스가 디지털 전용 구독매출 성장률을 16.4%→12~15%, 총 구독매출 성장률을 11.2%→9~11%로 낮춰 제시한 만큼, 실제 3분기 실적이 가이던스 하단에 근접하면 '낮아진 베이스 대비 반등' 논리가 재차 흔들릴 수 있다. Node 데이터 기준 50일선 이격 중앙값은 +3.65%로 단기 반등은 확인되나 200일선 이격 중앙값은 여전히 -1.36%(25거래일간 +9.27%p 개선에 그침)로 장기 추세 복귀는 미확정이다. 당해년도 컨센서스 변화 중앙값이 -1.17%(상향 비율 26.09%, n=23)로 여전히 하향 우세이고 승률 0%로 나타나, 가격 모멘텀 대비 이익 추정치 개선은 아직 뒤따르지 않고 있다. 업종 내 종목이 NYT 1개뿐이라 구독 해지율·가이던스 등 개별 종목 리스크가 곧 업종 리스크와 동일하다는 점도 확인이 필요한 조건이다.",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [
+            "q2-beat",
+            "sub-adds",
+            "guidance-selloff-rebound"
+          ],
+          "reason": "",
+          "leadFixed": true
+        },
+        "leadOriginal": "Communication Services|Publishing 업종은 Node 분류상 The New York Times Co(NYT) 단일 종목으로 구성되며, 디지털 구독과 디지털 광고가 핵심 매출원인 신문·미디어 퍼블리셔다. 1개월 WRS 0.1306(상위 1.43%)로 QQQ 대비 강한 초과수익을 냈지만 6개월 WRS는 -0.345(하위 5%권)로 봄철 고점 대비 낙폭이 크며, 이는 8월 5일 2분기 실적 발표 직후 3분기 가이던스 둔화 우려로 급락했던 주가가 디지털 광고·구독 성장세를 바탕으로 최근 한 달 반등한 결과다.",
+        "researchedOn": "2026-09-17",
+        "carried": false
+      },
+      {
+        "driver": "technology",
+        "durability": "structural",
+        "industry": "Semiconductors",
+        "key": "Technology|Semiconductors",
+        "keyStocks": [
+          "MXL",
+          "SWKS",
+          "QRVO",
+          "MRVL"
+        ],
+        "lead": "반도체 업종은 6개월 WRS 0.2308(업종 내 상위 2.86%)를 기록했으나, 최근 1개월(-0.005, 상위 41.43%)·3개월(-0.0487, 상위 78.57%) WRS는 뚜렷이 둔화됐다. 개별 종목 단에서는 SWKS-QRVO의 220억 달러 합병이 연내 종결 기대 속 진행 중이고, MXL은 AI 광인터커넥트 인프라 매출 급증이 최근 강세 재료로 작용했다.",
+        "risk": "Node 지표상 Final_WRS 순위는 25거래일 만에 5계단 밀렸고(F10d -52.03%, F25d -56.08%) 자금흐름은 outflow, 국면은 조정 중으로 분류되어 6개월간의 강세가 최근 급속히 식고 있음을 시사한다. 50일선 이격 중앙값이 -8.38%로 단기 추세가 무너졌고, 200일선 이격도 8.045%p로 25거래일간 9.935%p 축소되며 장기 추세대 이탈이 가까워지고 있다. SOX 지수는 6월 고점 대비 최대 29% 조정을 겪었으며, 브로드컴의 부진한 AI 칩 가이던스·유가 및 채권금리 상승·중국의 경쟁 심화가 동시에 겹친 결과로 보도됐다. Final_WRS 순위의 반등, SWKS-QRVO 딜의 실제 클로징(일부 보도는 2027년 초로 지연 가능성 제기), SOX의 6월 고점 재돌파 여부가 확인되어야 이 업종의 구조적 강세 논리가 다시 성립한다.",
+        "whyStrong": [
+          {
+            "id": "swks-qrvo-merger-final-stage",
+            "statement": "SWKS는 QRVO와의 220억 달러 합병이 두 개 관할 승인만 남은 최종 단계에 진입했다는 소식에 9월 11일 9.8% 급등(2009년 이후 최고 주간 상승)했고, 연내 딜 종결과 5억 달러 규모 비용 시너지(24~36개월 내)를 목표로 제시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Skyworks Solutions Sees Qorvo Deal Closing This Year, Targets $500M in Synergies",
+                "publisher": "Yahoo Finance (MarketBeat 경유)",
+                "url": "https://finance.yahoo.com/technology/articles/skyworks-solutions-sees-qorvo-deal-140319451.html",
+                "date": "2026-09-11",
+                "quote": "Skyworks Solutions Sees Qorvo Deal Closing This Year, Targets $500M in Synergies",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Skyworks (SWKS) Rockets 9.8% on Looming $22B Qorvo Merger Nod",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/skyworks-swks-rockets-9-8-014200183.html",
+                "date": "2026-09-11",
+                "quote": "Skyworks Solutions stock jumped 9.79% on September 11, 2026, amid increasing optimism over approval for its $22 billion planned merger with Qorvo Inc.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "mxl-ai-optical-infra-growth",
+            "statement": "MXL은 2026년 2분기에 인프라(AI 네트워킹·광인터커넥트) 부문이 전년동기 대비 145% 급증하며 최대 매출 카테고리로 부상했고, 2026년 광 데이터센터 매출 가이던스를 2.1억~2.3억 달러로 상향했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Infrastructure Takes Center Stage for MaxLinear: What Lies Ahead?",
+                "publisher": "Yahoo Finance (Zacks 경유)",
+                "url": "https://finance.yahoo.com/technology/articles/infrastructure-takes-center-stage-maxlinear-125700785.html",
+                "date": "2026-08-26",
+                "quote": "infrastructure became MaxLinear's largest revenue category, surging 145% year over year as hyperscale customers ramped deployments of its optical data center platforms",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "sox-q2-record-rally",
+            "mrvl-ai-custom-silicon-reval"
+          ],
+          "reason": "",
+          "leadFixed": true
+        },
+        "leadOriginal": "반도체 업종은 6개월 WRS 0.2308(업종 내 상위 2.86%)로 2026년 2분기 AI 인프라 랠리의 수혜를 크게 받았으나, 최근 1개월(-0.005, 상위 41.43%)·3개월(-0.0487, 상위 78.57%) WRS는 뚜렷이 둔화됐다. 개별 종목 단에서는 SWKS-QRVO의 220억 달러 합병이 연내 종결 기대 속 마무리 단계에 들어섰고, MRVL은 커스텀 AI 실리콘 기회에 대한 재평가, MXL은 AI 광인터커넥트 인프라 매출 급증이 최근 강세 재료로 작용했다.",
+        "researchedOn": "2026-09-17",
+        "carried": false
+      },
       {
         "driver": "commodity",
         "durability": "cyclical",
@@ -1086,52 +1197,6 @@ window.TEAM5_DATA = {
         "carried": true
       },
       {
-        "key": "Technology|Semiconductors",
-        "industry": "Semiconductors",
-        "lead": "Technology|Semiconductors 업종에서는 Marvell의 9월 초 반등이 개별 재료보다 업종 전반의 포지셔닝 되돌림 성격이 짙다는 진단이 나왔다.",
-        "whyStrong": [
-          {
-            "id": "marvell-sector-flow-bounce",
-            "statement": "9월 4일 Marvell 주가가 6% 반등(220.54달러)했는데, 이는 특정 기업 뉴스 없이 발생한 반등으로 개별 종목 재료가 아니라 업종 전체의 포지셔닝 되돌림(섹터 플로우) 성격으로 진단됐다. 다만 그 투자 논리 자체는 소수의 초대형 하이퍼스케일러向 커스텀 실리콘·데이터센터 커넥티비티 수요에 근거한다고 지적됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Marvell Rises 6% as Beaten-Down AI Silicon Bounces, Qualcomm Barely Budges",
-                "publisher": "24/7 Wall St.",
-                "url": "https://247wallst.com/investing/2026/09/04/marvell-rises-6-as-beaten-down-ai-silicon-bounces-qualcomm-barely-budges/",
-                "date": "2026-09-04",
-                "quote": "Marvell announced no company-specific news this morning, and today's action reads as a sector flow story.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "driver": "technology",
-        "durability": "structural",
-        "keyStocks": [
-          "MU",
-          "MRVL",
-          "ALAB",
-          "MXL",
-          "AMBQ"
-        ],
-        "risk": "이 업종의 강세는 HBM4/DRAM 공급 부족과 하이퍼스케일러의 커스텀 실리콘 발주라는 구조적 요인에 의존하는데, Node 지표상 1개월 WRS -0.33%(상위 46.43%)·3개월 WRS +6.01%(상위 40.71%)로 단기 초과수익은 이미 둔화됐고 50일선 이격 중앙값 -6.07%로 조정(❄️) 국면에 진입해 있다. Astera Labs 사례처럼 실적 서프라이즈가 나와도 이미 반영된 프리미엄 밸류에이션(P/S 40배대)이 되돌림을 유발할 수 있고, Marvell의 반등마저 \"섹터 플로우\" 성격으로 진단될 만큼 개별 펀더멘털보다 포지셔닝에 좌우되는 구간이다. Micron의 실제 9월 실적·가이던스가 HBM4 수율·가격 전제를 충족하지 못하거나 Marvell의 커스텀 실리콘 매출이 제시된 FY2027 115억 달러 궤도에서 이탈하면, 그리고 FRANK 순위(현재 2위)·F25d(+26.9%)가 재차 악화되면 현재의 강세 논리는 약화된다.",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "micron-hbm4-supply",
-            "marvell-google-custom-silicon",
-            "astera-labs-beat-raise-but-derate"
-          ],
-          "reason": "",
-          "leadFixed": true
-        },
-        "leadOriginal": "Technology|Semiconductors 업종은 Nvidia Vera Rubin向 HBM4 양산 램프에 따른 메모리 공급 부족(Micron)과, Google을 대상으로 한 Marvell의 초대형 커스텀 실리콘(XPU) 워런트 딜이 겹치며 최근 강세 흐름을 형성했다. 다만 Astera Labs는 실적 자체는 어닝비트·가이던스 상향에도 밸류에이션 부담으로 주가가 조정받았고, Marvell의 9월 초 반등도 개별 재료보다 업종 전반의 포지셔닝 되돌림 성격이 짙었다는 진단이 나왔다.",
-        "researchedOn": "2026-09-07",
-        "carried": true
-      },
-      {
         "key": "Technology|Electronic Components",
         "industry": "Electronic Components",
         "lead": "Technology 섹터의 전자부품(Electronic Components) 업종은 커넥터, 인쇄회로기판(PCB), 광통신 부품, 전자제조서비스(EMS) 등을 만들어 AI 서버·데이터센터에 공급하는 업체들로 구성된다. 이 업종의 강도(WRS, 지수 대비 초과수익률의 시총가중 평균)는 1개월 0.2108(상위 2.88%), 3개월 0.2777(상위 3.6%), 6개월 0.5993(상위 1.44%)으로 세 구간 모두 상위 4% 안에 들 만큼 뚜렷하다. Celestica는 2026년 매출 전망을 기존 170억 달러에서 약 190억 달러로, 조정 주당순이익 전망을 8.75달러에서 10.15달러로 상향했고(2026-05-14 보도), Fabrinet은 2026 회계연도 3분기 매출 가이던스로 전년 대비 약 35% 성장을 제시했다(2026-04-29 보도). TTM Technologies는 2027년까지 연 15~20% 성장을, TE Connectivity는 두 사업부문 모두 기록적인 수주를 바탕으로 성장세가 이어질 것으로 전망됐다. 이는 상위 5개 하이퍼스케일러(아마존·마이크로소프트·구글·메타·오라클)의 2026년 인프라 투자가 6000억 달러를 넘어서고 반도체 리드타임이 2026년 3월 기준 40주까지 늘어나는 등 AI 데이터센터발 부품 수요 확대와 맞물려 있다.",
@@ -1228,18 +1293,21 @@ window.TEAM5_DATA = {
       }
     ],
     "summary": {
-      "caution": "입력에 업종이 Agricultural Inputs 단 1개만 제공되어 업종 간 비교(로테이션 전체 지도)는 그릴 수 없다. emerging/fading 판정도 이 한 업종에 대한 기간별 WRS 변화만 근거로 한 것이며, 다른 업종과의 상대 비교가 아니다. researched:true 이므로 \"why\"는 조사 결과를 그대로 인용했다.",
+      "caution": "업종 표본이 Publishing·Semiconductors 단 2개뿐이라 전체 시장 로테이션을 대표하긴 어렵다. Publishing의 강세는 driver=earnings, durability=short_term으로 표시돼 있어 광고 매출 서프라이즈성 이벤트일 가능성이 크고 6개월 WRS(-0.345, 95%ile)가 여전히 바닥권이라 추세 전환이 아닌 단발성 스파이크일 수 있다. Semiconductors는 driver=technology, durability=structural로 구조적 성장 근거(SWKS-QRVO 합병, MXL 광인터커넥트 145% 성장)가 있는데도 1개월 WRS가 순위상 하락한 건 모멘텀 지표와 펀더멘털 사이 괴리이니 단일 지표로 이탈 확정하지 말 것.",
       "emerging": [
-        "Agricultural Inputs"
+        "Publishing"
       ],
-      "fading": [],
-      "rotationView": "Agricultural Inputs의 WRS는 6개월 0.042(랭크 하위 60.14%)에서 3개월 0.168(랭크 상위 9.42%), 1개월 0.1211(랭크 상위 1.45%)로 움직였다. 6개월 구간에서는 중하위권이었던 업종이 최근 1개월 구간에서 전체 업종 중 상위 1.45%까지 올라온 것으로, 자금이 최근 들어 이 업종으로 새로 유입되고 있는 패턴이다. 근거로는 이란산 요소(연 약 800만톤) 수출 이탈과 호르무즈 해협발 에너지 흐름 차질에 따른 질소 비료 공급 타이트화, NOAA 기준 2026년 말까지 강한 엘니뇨 발생 확률 81% 전망에 따른 비료 수요 기대, CF Industries 최근 3개월 주가 59.4% 상승(업종 평균 23.9%, S&P500 -5.7% 대비 초과)이 제시되어 있다.",
+      "fading": [
+        "Semiconductors"
+      ],
+      "rotationView": "1개월 기준 랭킹이 완전히 뒤바뀌었다. Publishing은 1개월 WRS 0.1306(상위 1.43%ile)로 전체 업종 중 최상위권에 올라섰지만 6개월 WRS는 -0.345(95%ile)로 최하위권이었다 — 6개월 내내 소외됐던 업종에 최근 한 달 급격히 자금이 유입된 전형적 로테이션-인 패턴이다. 반대로 Semiconductors는 6개월 WRS 0.2308(상위 2.86%ile)로 지난 반년의 주도주였지만 1개월 WRS는 -0.005(41.43%ile)로 중위권까지 밀려났다 — 6개월 주도주에서 자금이 빠져나가는 로테이션-아웃 신호다. 종합하면 이번 한 달은 반도체 같은 장기 구조적 성장주에서 나온 자금이 Publishing 같은 실적 모멘텀주로 단기 이동한 모습이다.",
       "strongest": {
-        "industry": "Agricultural Inputs",
-        "why": "1개월 WRS 0.1211(랭크 상위 1.45%)로 조사 대상 중 가장 강하다. 이란 요소 수출 이탈과 호르무즈 해협 리스크로 질소 비료 공급이 타이트해졌고, NOAA는 2026년 말까지 강한 엘니뇨 발생 확률을 81%로 제시하며 비료 수요 증가 기대를 뒷받침한다. CF Industries는 최근 3개월 주가 59.4% 상승으로 업종 평균 23.9%, S&P500 -5.7%를 크게 상회했다."
+        "industry": "Publishing",
+        "why": "1개월 WRS 0.1306으로 전체 업종 중 상위 1.43%ile에 위치해 오늘 기준 가장 강한 모멘텀을 보였다. 조사된 근거로는 디지털 광고 매출이 전년 대비 +20.7% 증가한 1억1,400만달러를 기록하며 광고주 수요 강세와 인벤토리 확대에 힘입어 가속한 점이 있다(driver=earnings, durability=short_term)."
       }
     },
-    "summaryResearchedOn": "2026-09-16"
+    "summaryResearchedOn": "2026-09-17",
+    "reusedFrom": null
   },
   "flow": {
     "baseline": {
@@ -7554,5 +7622,15 @@ window.TEAM5_DATA = {
         ]
       }
     ]
+  },
+  "research_coverage": {
+    "done": 12,
+    "total": 12,
+    "cap": 6,
+    "pending": 0,
+    "failed": 0,
+    "carried": 10,
+    "ineligible": 0,
+    "note": "그중 10업종은 최근 조사분을 이월했습니다(조사일 표기)."
   }
 };

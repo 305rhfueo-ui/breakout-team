@@ -509,8 +509,270 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-09-17",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "Fed, 3년 만의 첫 금리 인상 단행 — 추가 인상 가능성까지 예고",
+        "easy": "연준이 3년 만에 처음으로 정책금리를 인상했고, 시장은 한 차례 추가 인상을 더 가격에 반영하는 국면으로 넘어갔다. 인하 사이클을 전제로 짜여 있던 듀레이션·성장주 포지션의 할인율 가정이 정면으로 뒤집힌 이벤트다. 무위험 금리 상단이 올라가면 이익 성장의 현재가치가 뒤로 밀리는 고멀티플 구간이 먼저 리레이팅 압력을 받는다. 오늘 제공된 QQQ 종가 704.72는 MA10 712.25·MA20 712.67·MA50 709.88을 모두 하회하고 있어, 금리 이벤트가 이미 훼손된 추세 위에 얹힌 형태다. 인상 자체보다 '한 번 더'가 컨센서스가 되는지 여부가 다음 국면을 가른다.",
+        "whyMatters": "주도 섹터가 Technology 25종목(50%)으로 절반을 차지하는 현재 구성은 금리 상단 상승에 가장 취약한 조합이다. 반대로 금리 인상 국면에서 상대적으로 방어력이 거론되는 Healthcare 11종목(22%)·Energy 6종목(12%)의 비중이 리스트 내에서 상대적으로 부각될 수 있다. FINRA 고객 마진부채 YoY +37.2%라는 레버리지 확대 상태에서 자금 조달 비용이 오르면 마진콜 경로를 통한 강제 매도 민감도가 커진다. 추가 인상이 실제 컨센서스로 굳는지, 그리고 QQQ가 MA20 712.67을 회복하는지가 이 논리의 성립/붕괴 조건이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "As Fed rolls out its first interest-rate hike in 3 years, market braces for more increases",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/warshs-fed-rolls-out-first-interest-rate-hike-in-3-years-with-one-more-increase-expected-cde3060d?mod=mw_rss_topstories",
+            "date": "2026-09-16",
+            "quote": "As Fed rolls out its first interest-rate hike in 3 years, market braces for more increases",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "US interest rates raised for first time in three years",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-09-16",
+            "quote": "US interest rates raised for first time in three years",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Dow 600포인트 하락 — 인상이 불확실성을 해소하지 못했다",
+        "easy": "금리 인상 발표 이후에도 시장은 진정되지 않았고 Dow가 600포인트 하락했으며, 주식·채권 양쪽에서 추가 변동성이 예상된다는 진단이다. 이벤트 소멸(event passed) 후 안도 랠리가 나오지 않았다는 것은 인상 자체보다 경로 불확실성이 지배 변수라는 뜻이다. 주식과 채권이 같은 방향으로 흔들리면 60/40형 포지션의 분산 효과가 약해져 리스크 예산 축소가 뒤따른다. 오늘 QQQ 판정은 10MA가 20MA 아래인 데드크로스(2026-08-28, D+12) 상태이고, 이 기사 흐름은 그 판정과 방향이 일치한다.",
+        "whyMatters": "변동성 확대 국면에서는 주도 섹터 내 Technology 25종목(50%)처럼 베타가 높은 쪽의 낙폭이 지수 대비 확대되는 경향이 있다. 마진부채 YoY +37.2% 환경에서 급락일의 청산 압력은 고베타·저유동성 종목에 비대칭적으로 작용한다. 다만 200일선 +150% 초과 종목수 0은 과열 꼭지 특유의 극단적 이격이 아직 없음을 의미해, 개별 종목발 붕괴보다 지수·금리발 조정에 가깝다. 확인 조건은 급락 다음 세션의 낙폭 축소 여부와 QQQ의 MA50 709.88 방어다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/fed-rate-hike-fails-to-calm-troubled-markets-as-dow-falls-600-points-expect-more-sharp-swings-in-stocks-and-bonds-5ffb55fe?mod=mw_rss_topstories",
+            "date": "2026-09-16",
+            "quote": "Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "Trump, Warsh 의장 신임 유지하면서 '1% 이하' 금리 요구",
+        "easy": "인상 당일 백악관이 Fed 의장 Warsh에 대한 신임은 유지한다고 하면서도 1% 이하 금리를 요구했다. 정책금리를 올린 당일에 최고 수준의 정치적 인하 압력이 공개적으로 가해진 구도다. 중앙은행 독립성에 대한 의문은 단기 금리보다 기간 프리미엄과 인플레이션 기대에 먼저 반영되는 경향이 있다. 즉 이 뉴스는 '완화 기대'로 읽히기보다 장기물 변동성 요인으로 읽히는 쪽이 실무적으로 안전하다.",
+        "whyMatters": "기간 프리미엄이 확대되면 장기 할인율에 민감한 Technology 25종목(50%) 중심 구성이 재차 압력을 받는다. 반면 정치 리스크 헤지 수요는 금·원자재 연동 자산과 Energy 6종목(12%) 쪽 상대 성과로 나타날 여지가 있다. 이 논리는 실제 장기물 금리가 정책 발언에 어떻게 반응하는지로 검증된다. 발언 이후에도 장기금리가 안정적이면 시장이 압력을 무시하고 있다는 뜻이다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Trump says he still has confidence in Fed Chair Warsh, demands 1% or lower interest rates",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/16/trump-fed-interest-rate-warsh.html",
+            "date": "2026-09-16",
+            "quote": "Trump says he still has confidence in Fed Chair Warsh, demands 1% or lower interest rates",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Apollo, 하이퍼스케일러 부채를 경고 신호로 지목",
+        "easy": "Apollo가 하이퍼스케일러의 부채 증가를 경고 신호로 제시했다. AI 데이터센터 capex가 영업현금흐름 범위를 넘어 채권 발행으로 조달되기 시작하면, 자금조달 비용이 오르는 국면에서 FCF와 신용 스프레드가 동시에 눌린다. 금리 인상과 겹치면 '성장 스토리'가 아니라 '조달 구조' 문제로 프레임이 바뀐다는 점이 핵심이다. 크레딧 쪽 경고가 주식에 선행하는 사례가 드물지 않다.",
+        "whyMatters": "영향은 하이퍼스케일러 자체보다 그 capex에 매출을 의존하는 공급망 전체로 퍼진다 — 반도체·네트워크 장비를 포함한 Technology 25종목(50%)과 데이터센터 전력 체인이 직접 노출된다. 같은 날 Generac·Lumentum·Coherent 급등이 보여주듯 AI 전력·광통신 밸류에이션은 capex 지속성을 전제로 매겨져 있다. capex 가이던스가 유지되면 이 경고는 소음이 되고, 발행 스프레드가 벌어지면 AI 공급망 전반의 리레이팅으로 이어진다. 확인 조건은 하이퍼스케일러의 채권 발행 조건과 다음 분기 capex 가이던스다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Hyperscaler debt signals warning sign, Apollo cautions",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/16/hyperscaler-debt-signals-warning-sign-apollo-cautions.html",
+            "date": "2026-09-16",
+            "quote": "Hyperscaler debt signals warning sign, Apollo cautions",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Amazon, Generac 지분 매입 권리 확보 — 주가 30~40% 급등",
+        "easy": "Amazon이 Generac 주식을 매입할 수 있는 권리(워런트 성격)를 확보했고, Generac 주가가 하루에 30% 이상, CNBC 기준으로는 40%를 넘게 급등했다. Generac은 백업·분산 발전 설비 업체로, 데이터센터 전력 수요 확대의 수혜 경로에 직접 들어섰다는 것이 이번 재평가의 근거다. 앵커 고객 확보는 매출 가시성을 높이지만, 워런트 구조 자체는 향후 희석 요인이라는 점을 함께 봐야 한다. 두 매체의 상승률 표기가 30% 초과와 40% 초과로 다르므로 인용 시 출처를 구분해야 한다.",
+        "whyMatters": "이 거래는 AI 전력 체인 — 발전·배전·전력장비 — 을 Industrials 5종목(10%)과 Energy 6종목(12%) 영역에서 재평가시키는 이벤트다. 하이퍼스케일러가 전력 공급자와 직접 지분 연계를 맺는 패턴이 반복되면, 개별 계약 발표만으로 유사 업체들이 동반 리레이팅되는 국면이 이어진다. 다만 Apollo의 하이퍼스케일러 부채 경고와 같은 날 나온 뉴스라는 점에서, 이 테마의 전제는 capex 자금조달 지속성이다. 실제 납품·매출 인식 규모가 공개되기 전까지는 멀티플 확장이 근거의 대부분이다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Amazon obtains right to buy stock in Generac, boosting power company's share price by over 40%",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/16/amazon-obtains-right-to-buy-up-to-340m-of-generac-boosting-stock-.html",
+            "date": "2026-09-16",
+            "quote": "Amazon obtains right to buy stock in Generac, boosting power company's share price by over 40%",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Generac's stock soars more than 30% after Amazon deal cements company's status as an AI power player",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/generacs-stock-soars-more-than-30-after-amazon-deal-cements-its-status-as-ai-power-player-a842b0dc?mod=mw_rss_topstories",
+            "date": "2026-09-16",
+            "quote": "Generac's stock soars more than 30% after Amazon deal cements its status as an AI power player",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "Lumentum·Coherent, S&P 500 상승률 1·2위 — 광통신 수요 재확인",
+        "easy": "광통신 부품 업체 Lumentum과 Coherent가 당일 S&P 500 최대 상승 종목이었다. 두 회사는 데이터센터 인터커넥트용 광트랜시버·레이저 부품을 공급하며, 매출이 하이퍼스케일러 네트워크 capex에 직결된다. 지수가 하락한 날 이 조합이 상단을 차지했다는 것은 조정 국면에서도 자금이 AI 인프라 하위 체인으로 선별 집중되고 있음을 보여준다. 다만 이런 종목별 쏠림은 지수 방향과 분리된 좁은 주도력이라는 점에서 건전한 브레드스보다 취약하다.",
+        "whyMatters": "직접 수혜는 Technology 25종목(50%) 내 광부품·네트워크 하위 섹터이며, 같은 capex 전제를 공유하는 Generac형 전력 체인과 상관이 높아진다. 지수가 데드크로스(D+12) 상태인데 개별 테마만 급등하는 구도는 리스크 예산이 소수 종목에 몰리는 전형적 후반 패턴이다. 200일선 +150% 초과 종목수 0이라는 점은 아직 극단적 이격까지는 가지 않았다는 반대 근거다. 확인할 것은 광부품 업체들의 수주·백로그 코멘트가 실제 가이던스로 확인되는지 여부다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Why optical stocks Lumentum and Coherent were the day's biggest S&P 500 gainers",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/why-optical-stocks-lumentum-and-coherent-were-the-days-biggest-gainers-051af440?mod=mw_rss_topstories",
+            "date": "2026-09-16",
+            "quote": "Why optical stocks Lumentum and Coherent were the day's biggest S&P 500 gainers",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "Intel 주가 상승 — 메모리 사업이 턴어라운드 다음 단계로 거론",
+        "easy": "Intel 주가가 상승했고, 그 근거로 메모리 칩이 턴어라운드의 다음 단계가 될 수 있다는 기대가 지목됐다. Intel은 CPU·파운드리 중심 구조에서 AI 수요에 대응할 수 있는 제품 라인 확보가 리레이팅의 전제였는데, 메모리는 그 공백을 메우는 선택지로 읽힌다. 다만 기사 시점에서 확인된 것은 '기대'이며 제품·수주 수치는 근거 없음. 기대 기반 상승은 로드맵과 capex 계획이 공개되기 전까지 되돌림 위험이 크다.",
+        "whyMatters": "영향 범위는 Technology 25종목(50%) 내 반도체 하위 섹터이며, 메모리 진입이 구체화되면 기존 메모리 공급자들의 경쟁 강도 전망이 함께 조정된다. 메모리는 자본집약도가 매우 높아, 금리 상단이 올라간 오늘 환경에서는 조달 비용이 밸류에이션 할인 요인으로 작용한다. 즉 같은 뉴스가 제품 기대로는 상방, 자금조달로는 하방이라는 양면을 가진다. 로드맵·capex 규모·고객사 확보가 공개되는지가 논리 성립 조건이다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Intel's stock rises as investors hope memory chips can mark the next step in its turnaround",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/intels-stock-rises-as-investors-hope-memory-chips-can-mark-the-next-step-in-its-turnaround-a276608f?mod=mw_rss_topstories",
+            "date": "2026-09-16",
+            "quote": "Intel's stock rises as investors hope memory chips can mark the next step in its turnaround",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "OpenAI, 3월 이후 '우려되는 모델 행동' 6건 추가 보고",
+        "easy": "OpenAI가 3월 이후 우려되는 모델 행동 사례 6건을 새로 보고했다. 자발적 공개이지만, AI 안전 이슈가 누적되면 규제 논의와 엔터프라이즈 도입 승인 절차가 길어지는 경로로 연결된다. 도입 지연은 AI 소프트웨어 매출 인식 시점을 뒤로 미루고, 결과적으로 AI capex의 회수 기간 가정을 건드린다. 현 시점에서 매출·계약에 미친 영향은 근거 없음.",
+        "whyMatters": "직접 노출은 Technology 25종목(50%) 내 AI 소프트웨어·모델 API 의존 업체이며, 규제 강화 시 도입 사이클이 긴 금융·의료 고객군에서 먼저 체감된다. 주도 섹터에서 Healthcare 11종목(22%)이 두 번째 비중인 만큼, 의료 AI 적용 관련 승인 지연은 이 섹터의 성장 가정에도 걸린다. 반대 근거는 자발적 공시가 신뢰 구축으로 작용해 오히려 규제 리스크를 낮출 수 있다는 점이다. 확인 조건은 실제 규제 조치나 대형 고객의 도입 보류가 나오는지 여부다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "OpenAI reports 6 new instances of 'concerning model behavior' since March",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/16/openai-6-new-instances-of-concerning-model-behavior-since-march.html",
+            "date": "2026-09-16",
+            "quote": "OpenAI reports 6 new instances of 'concerning model behavior' since March",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Boeing CEO: 737 Max 생산 안정화가 예상보다 지연",
+        "easy": "Boeing CEO가 737 Max 생산 안정화에 예상보다 시간이 조금 더 걸린다고 밝혔다. 생산율(rate)은 Boeing의 매출 인식과 현금흐름 전환 속도를 직접 결정하는 변수이며, 지연은 인도 스케줄과 운전자본 부담으로 이어진다. 기사에서 구체적인 월간 생산 대수나 인도 목표 수치는 근거 없음. 경영진이 지연을 스스로 인정한 톤이라는 점이 가이던스 리스크의 신호다.",
+        "whyMatters": "직접 영향은 Industrials 5종목(10%) 축의 항공기 OEM과 그 공급망(엔진·동체·부품 협력사)이며, 생산율이 낮게 유지되면 협력사 매출 인식도 함께 지연된다. 금리 인상 국면에서 재고·운전자본이 늘어나는 것은 조달 비용 증가와 직결돼 FCF 전환 시점을 더 밀어낸다. 항공사 측에서는 인도 지연이 좌석 공급 제약으로 작용해 Consumer Cyclical 쪽 여행 수요 대응에도 영향을 준다. 확인 조건은 다음 실적에서 월 생산율과 인도 대수가 회복 경로에 올라오는지다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Boeing CEO: 737 Max production taking 'a little bit longer' to stabilize than expected",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/16/boeing-ceo-737-max-production.html",
+            "date": "2026-09-16",
+            "quote": "Boeing CEO: 737 Max production taking 'a little bit longer' to stabilize than expected",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "하원, 대러 제재 법안 통과 — 대통령 서명 단계로",
+        "easy": "미 하원이 광범위한 러시아 제재 법안을 통과시켜 대통령에게 이송했다. 제재 범위가 에너지·금융 거래에 미칠 경우 원자재 공급 프리미엄과 거래 상대방 리스크가 동시에 재산정된다. 현 시점에서 제재 대상 품목·기업의 구체 범위는 근거 없음. 서명 여부와 시행 세칙이 실제 가격 영향을 결정한다.",
+        "whyMatters": "제재가 에너지 공급을 제약하는 방향이면 주도 섹터의 Energy 6종목(12%)에는 크랙 스프레드·유가 상방 요인으로 작용한다. 반대로 방산 수요와 연결되는 Industrials 5종목(10%)에는 수주 환경 개선 쪽으로 읽히는 경로가 있다. 에너지 가격 상승은 인플레이션 경로를 통해 오늘의 금리 인상 스토리를 강화하므로, Technology 25종목(50%)에는 간접적 역풍이 된다. 확인 조건은 서명 시점과 제재 대상에 에너지 수출이 포함되는지 여부다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "House passes sweeping Russia sanctions bill honoring Lindsey Graham, sends to Trump",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/16/russia-sanctions-bill-lindsey-graham-congress.html",
+            "date": "2026-09-16",
+            "quote": "House passes sweeping Russia sanctions bill honoring Lindsey Graham, sends to Trump",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "결론부터: 추세는 이미 훼손된 상태에서 금리 이벤트가 겹쳤고, 지수 레벨의 리스크는 종목 과열이 아니라 할인율과 레버리지에서 나온다. 근거는 QQQ 종가 704.72가 MA10 712.25·MA20 712.67·MA50 709.88을 모두 하회하고 10MA가 20MA 아래인 데드크로스(2026-08-28, D+12) 상태라는 점, 그리고 Fed가 3년 만에 첫 인상을 단행했음에도 Dow가 600포인트 하락하며 시장이 진정되지 않았다는 점이다. 구조적 취약점은 FINRA 고객 마진부채 YoY +37.2%로 +30% 기준선을 넘어선 레버리지이며, 조달 비용이 오르는 국면에서 급락일 강제 청산 민감도를 키운다. 반대 근거는 200일선 +150% 초과 종목수 0으로, 과열 꼭지 특유의 극단적 이격은 아직 형성되지 않았다는 것이다. 주도 섹터는 Technology 25종목(50%)·Healthcare 11종목(22%)·Energy 6종목(12%)·Industrials 5종목(10%)·Consumer Cyclical 2종목(4%)으로, 금리 상단 상승에 가장 민감한 쪽에 절반이 몰려 있다. 확인할 조건은 추가 인상이 컨센서스로 굳는지, QQQ가 MA20 712.67을 회복하는지, 그리고 Apollo가 지적한 하이퍼스케일러 부채 경고가 capex 가이던스 하향으로 이어지는지다.",
+    "keyRisks": [
+      "금리 경로 리스크: 3년 만의 첫 인상 이후 시장이 한 차례 추가 인상을 반영하는 중 — 고멀티플 Technology 25종목(50%) 중심 구성에 할인율 역풍",
+      "레버리지 리스크: FINRA 고객 마진부채 YoY +37.2%(+30% 초과) 상태에서 급락일 마진콜발 강제 매도 민감도 상승",
+      "추세 리스크: QQQ 704.72가 MA10 712.25·MA20 712.67·MA50 709.88을 모두 하회, 데드크로스 D+12 — 신규 진입 중단·보유분 청산 검토 판정",
+      "AI capex 자금조달 리스크: Apollo가 하이퍼스케일러 부채를 경고 신호로 지목 — Generac·Lumentum·Coherent 등 AI 전력·광통신 체인의 리레이팅 전제가 흔들릴 수 있음",
+      "정책 독립성 리스크: 인상 당일 '1% 이하' 금리 요구가 공개됨 — 기간 프리미엄·인플레이션 기대 경로의 변동성 요인",
+      "제조·공급망 리스크: Boeing 737 Max 생산 안정화 지연으로 Industrials 축 협력사 매출 인식 이연 가능",
+      "지정학 리스크: 대러 제재 법안이 대통령 서명 단계 — 에너지 가격 경로를 통해 인플레이션·금리 스토리를 재차 자극할 여지"
+    ],
+    "easySummary": [
+      "Fed가 3년 만에 첫 금리 인상을 단행했지만 Dow는 600포인트 하락 — 인상 자체보다 추가 인상 경로의 불확실성이 시장을 지배했다.",
+      "QQQ는 종가 704.72로 MA10 712.25·MA20 712.67·MA50 709.88을 모두 하회, 데드크로스 D+12 상태이며 마진부채 YoY +37.2%로 레버리지 부담이 겹쳐 있다.",
+      "개별 테마에서는 Amazon-Generac 딜(+30~40%)과 Lumentum·Coherent 급등으로 AI 전력·광통신 체인에 자금이 몰렸지만, Apollo의 하이퍼스케일러 부채 경고가 같은 날 나오며 그 전제가 되는 capex 자금조달을 문제 삼았다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 162,
+      "ok": 175,
+      "unverified": 24,
+      "dead": 0,
+      "stripped": 1,
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://www.fool.com/investing/2026/09/04/heres-how-rubrik-stock-gained-286-last-month/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/technology/ai/articles/pengs-backlog-keeps-growing-revenue-150600326.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.tipranks.com/news/catalyst/penguin-solutions-stock-sinks-as-ai-euphoria-fades"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/genedx-holdings-corp-wgs-q2-214506086.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/genedx-holdings-wgs-run-higher-162002920.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.stocktitan.net/news/HNGE/hinge-health-to-acquire-cylinder-health-expanding-into-xwgs9jla34az.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://stockanalysis.com/stocks/hnge/statistics/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/forum-energy-technologies-touts-2026-231047324.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.thecerbatgem.com/2026/09/15/revvity-nyservty-sets-new-12-month-high-time-to-buy.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.globenewswire.com/news-release/2026/08/19/3348003/0/en/first-capital-inc-announces-quarterly-dividend.html"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1070296/000110465926086673/fcap-20260724x8k.htm"
+        }
+      ],
+      "noQuote": 1
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-09-17"
   }
 };

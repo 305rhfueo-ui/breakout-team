@@ -1,0 +1,214 @@
+{
+ "ticker": "AGCO",
+ "sector": "Industrials",
+ "industry": "Farm & Heavy Construction Machinery",
+ "nameKo": "애그코",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0.93,
+  "saleNy": 5.55,
+  "epsCy": 6.52,
+  "epsNy": 29.92,
+  "est": {
+   "cyCur": 5.62441,
+   "cy30": 5.62441,
+   "nyCur": 7.30739,
+   "ny30": 7.30739
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -0.96,
+    14.26,
+    1.14
+   ],
+   "ni": [
+    -75.48,
+    423.81,
+    "흑자전환"
+   ],
+   "opm": [
+    5.39,
+    3.44,
+    7.9
+   ],
+   "updated": "2026-09-09 07:39:43"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-09-04",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 7,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-17",
+  "nameKo": "애그코",
+  "nameEn": "AGCO CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000880266&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 2609700000,
+     "profit": 140700000,
+     "netIncome": 77200000,
+     "margin": 5.4,
+     "yoy": {
+      "revenue": -1,
+      "profit": -14.2,
+      "netIncome": -75.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 2342900000,
+     "profit": 80700000,
+     "netIncome": 55000000,
+     "margin": 3.4,
+     "yoy": {
+      "revenue": 14.3,
+      "profit": 63.4,
+      "netIncome": 423.8,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 2920200000,
+     "profit": 230700000,
+     "netIncome": 95500000,
+     "margin": 7.9,
+     "yoy": {
+      "revenue": 1.1,
+      "profit": 185.8,
+      "netIncome": 137.3,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 2476300000,
+     "profit": 151600000,
+     "netIncome": 305700000,
+     "margin": 6.1,
+     "yoy": {
+      "revenue": -4.7,
+      "profit": 32.1,
+      "netIncome": 919,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "AGCO Reaches Analyst Target Price",
+     "url": "https://www.nasdaq.com/articles/agco-reaches-analyst-target-price",
+     "date": "2026-09-02",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Is the Options Market Predicting a Spike in AGCO Stock?",
+     "url": "https://www.nasdaq.com/articles/options-market-predicting-spike-agco-stock",
+     "date": "2026-09-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "AGCO Crosses Above Key Moving Average Level",
+     "url": "https://www.nasdaq.com/articles/agco-crosses-above-key-moving-average-level",
+     "date": "2026-08-31",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "AGCO About To Put More Money In Your Pocket (AGCO)",
+     "url": "https://www.nasdaq.com/articles/agco-about-put-more-money-your-pocket-agco",
+     "date": "2026-08-13",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-03",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/880266/000110465926089477/tm2621829d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/880266/000088026626000066/agco-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-10",
+    "itemsKo": [
+     "5.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/880266/000088026626000064/agco-20260708.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/880266/000088026626000054/agco-20260505.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-24",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/880266/000088026626000036/agco-20260423.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-06",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/880266/000088026626000014/agco-20260303.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

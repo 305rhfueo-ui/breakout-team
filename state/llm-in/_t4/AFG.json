@@ -1,0 +1,172 @@
+{
+ "ticker": "AFG",
+ "news": [
+  {
+   "title": "American Financial (AFG) Down 2.8% Since Last Earnings Report: Can It Rebound?",
+   "url": "https://www.nasdaq.com/articles/american-financial-afg-down-28-last-earnings-report-can-it-rebound",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "American Financial Group (AFG) is a Top-Ranked Momentum Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/american-financial-group-afg-top-ranked-momentum-stock-should-you-buy-0",
+   "date": "2026-08-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why American Financial Group (AFG) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-american-financial-group-afg-strong-momentum-stock",
+   "date": "2026-08-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "AFG (AFG) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/afg-afg-q2-2026-earnings-call-transcript",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "American Financial (AFG) Reports Q2 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/american-financial-afg-reports-q2-earnings-what-key-metrics-have-say",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "American Financial Group (AFG) Q2 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/american-financial-group-afg-q2-earnings-and-revenues-beat-estimates",
+   "date": "2026-08-04",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1042046/000119312526333957/d124182d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1042046/000114036126022469/ef20074635_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-29",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1042046/000119312526193922/d133743d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-18",
+   "reportDate": "2026-02-13",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1042046/000114036126006031/ef20065940_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-04",
+   "reportDate": "2026-02-03",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1042046/000119312526036749/d32393d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-05",
+   "reportDate": "2025-12-03",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1042046/000114036125044459/ef20060710_8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 2.65,
+  "saleNy": 6,
+  "epsCy": 20.38,
+  "epsNy": -2.01,
+  "cyTrend": 6.81,
+  "nyTrend": 0.65,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    5.51,
+    -0.11,
+    -4
+   ],
+   "ni": [
+    42.53,
+    24.03,
+    17.25
+   ],
+   "opm": [
+    15.57,
+    12.89,
+    18.37
+   ],
+   "updated": "2026-09-08 06:02:52"
+  }
+ }
+}

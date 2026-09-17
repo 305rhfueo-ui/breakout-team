@@ -1,0 +1,67 @@
+{
+ "ticker": "STNG",
+ "news": [
+  {
+   "title": "Scorpio Tankers (STNG) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/scorpio-tankers-stng-q2-2026-earnings-call-transcript-0",
+   "date": "2026-08-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Scorpio Tankers (STNG) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/scorpio-tankers-stng-q2-2026-earnings-call-transcript",
+   "date": "2026-07-31",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Scorpio Tankers (STNG) Beats Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/scorpio-tankers-stng-beats-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Scorpio Tankers (STNG) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://www.nasdaq.com/articles/scorpio-tankers-stng-earnings-expected-grow-what-know-ahead-next-weeks-release",
+   "date": "2026-07-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Scorpio Tankers (STNG) Price Target Increased by 14.71% to 99.85",
+   "url": "https://www.nasdaq.com/articles/scorpio-tankers-stng-price-target-increased-1471-9985",
+   "date": "2026-05-14",
+   "publisher": "Fintel"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 33.86,
+  "saleNy": -30.32,
+  "epsCy": 107.49,
+  "epsNy": -52.75,
+  "cyTrend": -0.95,
+  "nyTrend": -6.82,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    77.54,
+    46.21,
+    23.87
+   ],
+   "ni": [
+    427.2,
+    271.5,
+    86.88
+   ],
+   "opm": [
+    97.45,
+    70.16,
+    52.66
+   ],
+   "updated": "2026-09-09 06:09:57"
+  }
+ }
+}

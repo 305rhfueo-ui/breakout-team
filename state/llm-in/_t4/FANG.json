@@ -1,0 +1,144 @@
+{
+ "ticker": "FANG",
+ "news": [
+  {
+   "title": "Here's Why Diamondback Energy (FANG) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-diamondback-energy-fang-strong-growth-stock-0",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Diamondback Energy (FANG) Gains As Market Dips: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/diamondback-energy-fang-gains-market-dips-what-you-should-know",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-08-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1539838/000153983826000137/fang-20260803.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-13",
+   "reportDate": "2026-07-13",
+   "items": [
+    "2.02"
+   ],
+   "itemsKo": [
+    "실적 발표"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1539838/000153983826000134/fang-20260713.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-15",
+   "reportDate": "2026-06-12",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1539838/000110465926074049/tm2617786d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-20",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.02",
+    "5.07"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1539838/000153983826000090/fang-20260520.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-05-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1539838/000153983826000073/fang-20260504.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-13",
+   "reportDate": "2026-04-13",
+   "items": [
+    "2.02"
+   ],
+   "itemsKo": [
+    "실적 발표"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1539838/000153983826000070/fang-20260413.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 23.05,
+  "saleNy": -7.08,
+  "epsCy": 54.61,
+  "epsNy": -10.87,
+  "cyTrend": 2.16,
+  "nyTrend": 2.54,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    51.22,
+    4.74,
+    -9.03
+   ],
+   "ni": [
+    169.24,
+    -98.22,
+    -235.75
+   ],
+   "opm": [
+    45.16,
+    2.74,
+    -82.41
+   ],
+   "updated": "2026-09-08 06:05:15"
+  }
+ }
+}

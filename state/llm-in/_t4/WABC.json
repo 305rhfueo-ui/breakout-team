@@ -1,0 +1,156 @@
+{
+ "ticker": "WABC",
+ "news": [
+  {
+   "title": "WABC Ex-Dividend Reminder - 5/4/26",
+   "url": "https://www.nasdaq.com/articles/wabc-ex-dividend-reminder-5-4-26",
+   "date": "2026-05-01",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "WABC Makes Bullish Cross Above Critical Moving Average",
+   "url": "https://www.nasdaq.com/articles/wabc-makes-bullish-cross-above-critical-moving-average-0",
+   "date": "2026-01-05",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "WABC Makes Bullish Cross Above Critical Moving Average",
+   "url": "https://www.nasdaq.com/articles/wabc-makes-bullish-cross-above-critical-moving-average",
+   "date": "2025-12-10",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "WABC Crosses Above Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/wabc-crosses-above-key-moving-average-level",
+   "date": "2025-08-22",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/311094/000117184326004853/f8k_072326.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-16",
+   "reportDate": "2026-07-16",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/311094/000117184326004727/f8k_071626.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-27",
+   "reportDate": "2026-04-24",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/311094/000117184326002737/f8k_042726.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-24",
+   "reportDate": "2026-04-24",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/311094/000117184326002706/f8k_042426.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/311094/000117184326002678/f8k_042326.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-16",
+   "reportDate": "2026-04-16",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/311094/000117184326002511/f8k_041626.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -2.79,
+  "saleNy": -1.67,
+  "epsCy": 2.54,
+  "epsNy": 0.86,
+  "cyTrend": 4.27,
+  "nyTrend": 8.85,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -2.49,
+    -6.35,
+    -8.55
+   ],
+   "ni": [
+    -5.78,
+    -11.86,
+    -12.28
+   ],
+   "opm": [
+    55.58,
+    55.79,
+    56.66
+   ],
+   "updated": "2026-09-09 07:00:58"
+  }
+ }
+}

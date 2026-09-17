@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-17",
+  "report": {
+    "checked": 162,
+    "ok": 175,
+    "unverified": 24,
+    "dead": 0,
+    "stripped": 1,
+    "removed": [
+      {
+        "reason": "중복",
+        "url": "https://www.fool.com/investing/2026/09/04/heres-how-rubrik-stock-gained-286-last-month/"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/technology/ai/articles/pengs-backlog-keeps-growing-revenue-150600326.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.tipranks.com/news/catalyst/penguin-solutions-stock-sinks-as-ai-euphoria-fades"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/genedx-holdings-corp-wgs-q2-214506086.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/genedx-holdings-wgs-run-higher-162002920.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.stocktitan.net/news/HNGE/hinge-health-to-acquire-cylinder-health-expanding-into-xwgs9jla34az.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://stockanalysis.com/stocks/hnge/statistics/"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/forum-energy-technologies-touts-2026-231047324.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.thecerbatgem.com/2026/09/15/revvity-nyservty-sets-new-12-month-high-time-to-buy.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.globenewswire.com/news-release/2026/08/19/3348003/0/en/first-capital-inc-announces-quarterly-dividend.html"
+      },
+      {
+        "reason": "인용문 없음",
+        "url": "https://www.sec.gov/Archives/edgar/data/1070296/000110465926086673/fcap-20260724x8k.htm"
+      }
+    ],
+    "noQuote": 1
+  }
+}

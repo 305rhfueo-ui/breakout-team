@@ -1,0 +1,240 @@
+{
+ "ticker": "RBRK",
+ "sector": "Technology",
+ "industry": "Software - Infrastructure",
+ "nameKo": "루브릭",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 28.45,
+  "saleNy": 21.49,
+  "epsCy": -5132.5,
+  "epsNy": 52.54,
+  "est": {
+   "cyCur": 0.50325,
+   "cy30": 0.31475,
+   "nyCur": 0.76765,
+   "ny30": 0.65065
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    37.89,
+    38.99,
+    46.33
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    -16.83,
+    -13.6,
+    -21.81
+   ],
+   "updated": "2026-09-08 06:15:40"
+  },
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-09-16"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 1
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-17",
+  "nameKo": "루브릭",
+  "nameEn": "RUBRIK INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001943896&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": false,
+     "revenue": 427260000,
+     "profit": -71902000,
+     "netIncome": -61777000,
+     "margin": -16.8,
+     "yoy": {
+      "revenue": 37.9,
+      "profit": 23.9,
+      "netIncome": 35.6,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 387068000,
+     "profit": -52634000,
+     "netIncome": -41853000,
+     "margin": -13.6,
+     "yoy": {
+      "revenue": 39,
+      "profit": 43.5,
+      "netIncome": 59,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 377684000,
+     "profit": -82379000,
+     "netIncome": 261512000,
+     "margin": -21.8,
+     "yoy": {
+      "revenue": 46.3,
+      "profit": 29.1,
+      "netIncome": -74.8,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 350166000,
+     "profit": -75483000,
+     "netIncome": -63829000,
+     "margin": -21.6,
+     "yoy": {
+      "revenue": 48.3,
+      "profit": 39.5,
+      "netIncome": 51.2,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Rubrik Consensus Price Target Increased by 11.53% to $122.31",
+     "url": "https://www.nasdaq.com/articles/rubrik-consensus-price-target-increased-1153-12231",
+     "date": "2026-09-15",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Why Rubrik Stock Soared 15% Today",
+     "url": "https://www.nasdaq.com/articles/why-rubrik-stock-soared-15-today",
+     "date": "2026-09-14",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Rubrik Stock Analysis: A Cybersecurity Stock You Need to Buy as AI Agents Proliferate?",
+     "url": "https://www.nasdaq.com/articles/rubrik-stock-analysis-cybersecurity-stock-you-need-buy-ai-agents-proliferate",
+     "date": "2026-09-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's How Rubrik Stock Gained 28.6% Last Month",
+     "url": "https://www.nasdaq.com/articles/heres-how-rubrik-stock-gained-286-last-month",
+     "date": "2026-09-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's Why Rubrik, Inc. (RBRK) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-rubrik-inc-rbrk-strong-momentum-stock",
+     "date": "2026-09-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Rubrik (RBRK) Q2 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/rubrik-rbrk-q2-2027-earnings-call-transcript",
+     "date": "2026-08-31",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Rubrik’s AI Security Bet Could Power the Next Leg Higher",
+     "url": "https://www.nasdaq.com/articles/rubriks-ai-security-bet-could-power-next-leg-higher",
+     "date": "2026-08-30",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Rubrik Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/rubrik-q2-earnings-call-highlights",
+     "date": "2026-08-29",
+     "publisher": "MarketBeat"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-27",
+    "itemsKo": [
+     "실적 발표",
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000055/rbrk-20260826.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-05",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000049/rbrk-20260603.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000041/rbrk-20260604.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000004/rbrk-20260312.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-04",
+    "itemsKo": [
+     "실적 발표",
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1943896/000119312526037791/d52441d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-12-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1943896/000194389625000050/rbrk-20251204.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

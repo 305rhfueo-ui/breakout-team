@@ -1,0 +1,180 @@
+{
+ "ticker": "FCAP",
+ "news": [
+  {
+   "title": "Upcoming Dividend Run For FCAP?",
+   "url": "https://www.nasdaq.com/articles/upcoming-dividend-run-fcap",
+   "date": "2026-08-27",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "First Capital (FCAP) Declares $0.27 Dividend",
+   "url": "https://www.nasdaq.com/articles/first-capital-fcap-declares-$0.27-dividend",
+   "date": "2023-05-27",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "First Capital, Inc. (FCAP) Ex-Dividend Date Scheduled for December 15, 2021",
+   "url": "https://www.nasdaq.com/articles/first-capital-inc.-fcap-ex-dividend-date-scheduled-for-december-15-2021",
+   "date": "2021-12-14",
+   "publisher": "NASDAQ.com"
+  },
+  {
+   "title": "First Capital, Inc. (FCAP) Ex-Dividend Date Scheduled for September 15, 2021",
+   "url": "https://www.nasdaq.com/articles/first-capital-inc.-fcap-ex-dividend-date-scheduled-for-september-15-2021-2021-09-14",
+   "date": "2021-09-14",
+   "publisher": "NASDAQ.com"
+  },
+  {
+   "title": "Why You Might Be Interested In First Capital, Inc. (NASDAQ:FCAP) For Its Upcoming Dividend",
+   "url": "https://www.nasdaq.com/articles/why-you-might-be-interested-in-first-capital-inc.-nasdaq:fcap-for-its-upcoming-dividend",
+   "date": "2021-09-11",
+   "publisher": "Simply Wall St"
+  },
+  {
+   "title": "With EPS Growth And More, First Capital (NASDAQ:FCAP) Is Interesting",
+   "url": "https://www.nasdaq.com/articles/with-eps-growth-and-more-first-capital-nasdaq:fcap-is-interesting-2021-08-18",
+   "date": "2021-08-18",
+   "publisher": "Simply Wall St"
+  },
+  {
+   "title": "First Capital, Inc. (FCAP) Ex-Dividend Date Scheduled for June 15, 2021",
+   "url": "https://www.nasdaq.com/articles/first-capital-inc.-fcap-ex-dividend-date-scheduled-for-june-15-2021-2021-06-14",
+   "date": "2021-06-14",
+   "publisher": "NASDAQ.com"
+  },
+  {
+   "title": "We Think Shareholders May Consider Being More Generous With First Capital, Inc.'s (NASDAQ:FCAP) CEO Compensation Package",
+   "url": "https://www.nasdaq.com/articles/we-think-shareholders-may-consider-being-more-generous-with-first-capital-inc.s-nasdaq",
+   "date": "2021-05-20",
+   "publisher": "Simply Wall St"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "reportDate": "2026-07-24",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1070296/000110465926086673/fcap-20260724x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-18",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1070296/000110465926065684/tm2615400d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-24",
+   "reportDate": "2026-04-24",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1070296/000110465926048657/fcap-20260424x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-19",
+   "reportDate": "2026-02-19",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1070296/000117184326000944/f8k_021926.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-23",
+   "reportDate": "2026-01-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1070296/000110465926006268/fcap-20260123x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-10-24",
+   "reportDate": "2025-10-24",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1070296/000110465925102178/fcap-20251024x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    11.02,
+    11.7,
+    13.02
+   ],
+   "ni": [
+    26.15,
+    33.85,
+    49.57
+   ],
+   "opm": [
+    33.74,
+    31.6,
+    34.05
+   ],
+   "updated": "2026-09-07 06:26:55"
+  }
+ }
+}

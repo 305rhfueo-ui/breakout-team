@@ -1,0 +1,176 @@
+{
+ "ticker": "SBR",
+ "news": [
+  {
+   "title": "Notable Two Hundred Day Moving Average Cross - SBR",
+   "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-sbr",
+   "date": "2026-07-09",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Sabine Royalty Trust (SBR) Shares Cross Below 200 DMA",
+   "url": "https://www.nasdaq.com/articles/sabine-royalty-trust-sbr-shares-cross-below-200-dma",
+   "date": "2026-06-15",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Sabine Royalty Trust (SBR) Shares Cross Above 200 DMA",
+   "url": "https://www.nasdaq.com/articles/sabine-royalty-trust-sbr-shares-cross-above-200-dma",
+   "date": "2026-01-28",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "SBR Crosses Below Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/sbr-crosses-below-key-moving-average-level",
+   "date": "2025-12-12",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Sabine Royalty Trust (SBR) Shares Cross Above 200 DMA",
+   "url": "https://www.nasdaq.com/articles/sabine-royalty-trust-sbr-shares-cross-above-200-dma",
+   "date": "2024-05-28",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Sabine Royalty Trust - Unit (SBR) Declares $0.30 Dividend",
+   "url": "https://www.nasdaq.com/articles/sabine-royalty-trust-unit-sbr-declares-$0.30-dividend",
+   "date": "2023-08-14",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Sabine Royalty Trust - Unit (SBR) Declares $0.32 Dividend",
+   "url": "https://www.nasdaq.com/articles/sabine-royalty-trust-unit-sbr-declares-$0.32-dividend",
+   "date": "2023-07-11",
+   "publisher": "Fintel"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-04",
+   "reportDate": "2026-09-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/710752/000119312526383179/2026-09_sabine_8-k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-07",
+   "reportDate": "2026-08-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/710752/000119312526339317/2026-08_sabine_8-k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-02",
+   "reportDate": "2026-07-02",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/710752/000119312526293624/2026-07_sabine_8-k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-05",
+   "reportDate": "2026-06-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/710752/000119312526258874/2026-06_sabine_8-k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/710752/000119312526205699/2026-05_sabine_8-k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-02",
+   "reportDate": "2026-04-02",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/710752/000119312526139513/2026-04_sabine_8-k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    16.53,
+    -26.85,
+    -30.17
+   ],
+   "ni": [
+    17.2,
+    -28.13,
+    -31.32
+   ],
+   "opm": [
+    95.66,
+    91.43,
+    93.45
+   ],
+   "updated": "2026-09-08 07:58:15"
+  }
+ }
+}

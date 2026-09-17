@@ -1,0 +1,188 @@
+{
+ "ticker": "SYBT",
+ "news": [
+  {
+   "title": "Stock Yards (SYBT) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/stock-yards-sybt-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Stock Yards Bancorp (SYBT) Beats Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/stock-yards-bancorp-sybt-beats-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Stock Yards Bancorp (SYBT) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/stock-yards-bancorp-sybt-earnings-expected-grow-should-you-buy",
+   "date": "2026-07-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Stock Yards (SYBT) Upgraded to Buy: Here's What You Should Know",
+   "url": "https://www.nasdaq.com/articles/stock-yards-sybt-upgraded-buy-heres-what-you-should-know",
+   "date": "2026-06-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Stock Yards Bancorp (SYBT) Q1 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/stock-yards-bancorp-sybt-q1-earnings-and-revenues-top-estimates",
+   "date": "2026-04-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Stock Yards Bancorp (SYBT) is a Top Dividend Stock Right Now: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/stock-yards-bancorp-sybt-top-dividend-stock-right-now-should-you-buy",
+   "date": "2026-03-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Hovde Group Upgrades Stock Yards Bancorp (SYBT)",
+   "url": "https://www.nasdaq.com/articles/hovde-group-upgrades-stock-yards-bancorp-sybt",
+   "date": "2026-03-07",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Stock Yards Bancorp (SYBT) Passes Through 2% Yield Mark",
+   "url": "https://www.nasdaq.com/articles/stock-yards-bancorp-sybt-passes-through-2-yield-mark",
+   "date": "2026-02-27",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-19",
+   "reportDate": "2026-08-19",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/835324/000117184326005642/f8k_081826.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/835324/000117184326004978/f8k_072826.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-05-01",
+   "items": [
+    "5.02",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/835324/000117184326002914/f8k_043026.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-23",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/835324/000143774926013763/sybt20260428_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/835324/000117184326002634/f8k_042126.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-27",
+   "reportDate": "2026-01-27",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/835324/000143774926002223/sybt20260127_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 15.07,
+  "saleNy": 8.32,
+  "epsCy": 12.21,
+  "epsNy": 6.6,
+  "cyTrend": 4.31,
+  "nyTrend": 2.25,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    11.27,
+    6.02,
+    9.31
+   ],
+   "ni": [
+    17.73,
+    9.99,
+    15.52
+   ],
+   "opm": [
+    34.21,
+    32.44,
+    32.76
+   ],
+   "updated": "2026-09-08 06:01:10"
+  }
+ }
+}

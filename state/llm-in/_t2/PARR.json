@@ -5,15 +5,15 @@
  "nameKo": "파 퍼시픽 홀딩스",
  "site": {
   "targetStatus": true,
-  "saleCy": 19.16,
-  "saleNy": -16.84,
-  "epsCy": 177.17,
-  "epsNy": -35.55,
+  "saleCy": 19.71,
+  "saleNy": -16.98,
+  "epsCy": 184.89,
+  "epsNy": -35.74,
   "est": {
-   "cyCur": 20.95403,
-   "cy30": 19.82667,
-   "nyCur": 13.5057,
-   "ny30": 11.90833
+   "cyCur": 21.53736,
+   "cy30": 18.54338,
+   "nyCur": 13.83903,
+   "ny30": 11.97388
   },
   "newHigh52": false,
   "bbCenterBrk5d": false,
@@ -45,12 +45,12 @@
   },
   "top2Streak": {
    "m1": 0,
-   "m3": 5,
+   "m3": 6,
    "m6": 0
   }
  },
  "detail": {
-  "fetchedAt": "2026-09-16",
+  "fetchedAt": "2026-09-17",
   "nameKo": "파 퍼시픽 홀딩스",
   "nameEn": "PAR PACIFIC HOLDINGS INC",
   "financials": {
@@ -120,27 +120,21 @@
   "news": {
    "items": [
     {
+     "title": "Par Petroleum (PARR) Is Up 4.09% in One Week: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/par-petroleum-parr-409-one-week-what-you-should-know",
+     "date": "2026-09-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Par Petroleum (PARR) is a Top Growth Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-par-petroleum-parr-top-growth-stock-long-term-0",
+     "date": "2026-09-16",
+     "publisher": "Zacks"
+    },
+    {
      "title": "Can Par Pacific's Distillate-Focused Refining Model Drive Growth?",
      "url": "https://www.nasdaq.com/articles/can-par-pacifics-distillate-focused-refining-model-drive-growth",
      "date": "2026-09-14",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Par Pacific Surges 148% in a Year: Should You Bet on the Momentum?",
-     "url": "https://www.nasdaq.com/articles/par-pacific-surges-148-year-should-you-bet-momentum",
-     "date": "2026-09-11",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "What Does the Future Hold for Par Pacific's Refining Business?",
-     "url": "https://www.nasdaq.com/articles/what-does-future-hold-par-pacifics-refining-business",
-     "date": "2026-09-10",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Can Par Pacific's Diversified Downstream Platform Drive Growth?",
-     "url": "https://www.nasdaq.com/articles/can-par-pacifics-diversified-downstream-platform-drive-growth",
-     "date": "2026-09-10",
      "publisher": "Zacks"
     }
    ]

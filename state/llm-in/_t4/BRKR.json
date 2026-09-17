@@ -1,0 +1,168 @@
+{
+ "ticker": "BRKR",
+ "news": [
+  {
+   "title": "Why Is Bruker (BRKR) Up 12.5% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-bruker-brkr-125-last-earnings-report",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Bruker (BRKR) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/bruker-brkr-q2-2026-earnings-call-transcript",
+   "date": "2026-08-11",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Bruker (BRKR) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/bruker-brkr-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-08-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Bruker (BRKR) Q2 Earnings Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/bruker-brkr-q2-earnings-beat-estimates",
+   "date": "2026-08-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ex-Div Reminder for Bruker (BRKR)",
+   "url": "https://www.nasdaq.com/articles/ex-div-reminder-bruker-brkr",
+   "date": "2026-06-18",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Bruker (BRKR) Up 37.1% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/bruker-brkr-371-last-earnings-report-can-it-continue",
+   "date": "2026-06-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Bruker (BRKR) Q1 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/bruker-brkr-q1-2026-earnings-transcript",
+   "date": "2026-05-07",
+   "publisher": "The Motley Fool"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-14",
+   "reportDate": "2026-08-14",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1109354/000119312526352279/brkr-20260814.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1109354/000119312526331511/brkr-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1109354/000119312526326150/brkr-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1109354/000119312526234630/brkr-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-15",
+   "reportDate": "2026-05-15",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1109354/000119312526226767/brkr-20260515.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1109354/000119312526207498/brkr-20260506.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 3.5,
+  "saleNy": 4.06,
+  "epsCy": 15.98,
+  "epsNy": 12.59,
+  "cyTrend": 0.04,
+  "nyTrend": -0.7,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    5.15,
+    2.75,
+    -0.24
+   ],
+   "ni": [
+    -927.63,
+    -79.89,
+    8.76
+   ],
+   "opm": [
+    -7.79,
+    1.24,
+    7.81
+   ],
+   "updated": "2026-09-15 06:51:43"
+  }
+ }
+}
