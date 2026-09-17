@@ -1,55 +1,6 @@
 {
- "date": "2026-09-16",
+ "date": "2026-09-17",
  "cap": 6,
  "poolTotal": 12,
- "industries": [
-  {
-   "key": "Basic Materials|Agricultural Inputs",
-   "sector": "Basic Materials",
-   "industry": "Agricultural Inputs",
-   "count": 7,
-   "counts": {
-    "m1": 7,
-    "m3": 7,
-    "m6": 7
-   },
-   "wrs": {
-    "m1": 0.1211,
-    "m3": 0.168,
-    "m6": 0.042
-   },
-   "final": {
-    "m1": 0.1086,
-    "m3": 0.1254,
-    "m6": 0.0762
-   },
-   "rankPct": {
-    "m1": 1.45,
-    "m3": 9.42,
-    "m6": 60.14
-   },
-   "pickedBy": [
-    "m1"
-   ],
-   "members": [],
-   "memberNews": [],
-   "flow": {
-    "FRANK": 81,
-    "frank25": 4,
-    "f10": 2.972972972972983,
-    "f25": 42.16417910447762,
-    "d50": 0.25,
-    "d200": 7.42,
-    "d200Delta": 5.095,
-    "cy": -0.03,
-    "ny": -0.14,
-    "upRatio": 32.467532467532465,
-    "coverage": 154,
-    "winRate": 0.5714,
-    "stage": "early",
-    "stageKo": "⭐ 상승 초입",
-    "flow": "narrow"
-   }
-  }
- ]
+ "industries": []
 }

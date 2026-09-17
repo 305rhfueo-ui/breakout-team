@@ -1,28 +1,48 @@
 {
-  "generated": "2026-09-16",
+  "generated": "2026-09-17",
   "items": [
     {
-      "ticker": "RVMD",
-      "score": 10,
+      "ticker": "WDAY",
+      "score": 9,
       "source": "T3",
       "reasons": [
-        "10봉 진폭이 직전 대비 0.73배로 수축",
-        "거래량 5일/20일 0.69배 — 매물 고갈",
-        "볼밴 폭 0.09 (60일 최저 0.07 근처) — 에너지 응축",
-        "저항 $213 대비 -3.82% — 돌파 임박권",
-        "최근 10일 종가 변동 1.34% — 타이트",
-        "52주 고점 대비 91.33%"
+        "10봉 진폭이 직전 대비 0.76배로 수축",
+        "최근 5봉 진폭 0.59배 — 수축 가속",
+        "거래량 5일/20일 0.62배 — 매물 고갈",
+        "볼밴 폭 0.13 (60일 최저 0.13 근처) — 에너지 응축",
+        "저항 $194.01 대비 -3.22% — 돌파 임박권"
       ],
       "flags": [
         "contract10",
+        "contract5",
         "volDry",
+        "bbSqueeze",
+        "nearResist"
+      ],
+      "resistance": 194.01,
+      "price": 187.76,
+      "barGap": false
+    },
+    {
+      "ticker": "RGEN",
+      "score": 8,
+      "source": "T3",
+      "reasons": [
+        "10봉 진폭이 직전 대비 0.79배로 수축",
+        "볼밴 폭 0.15 (60일 최저 0.12 근처) — 에너지 응축",
+        "저항 $174.01 대비 -0.63% — 돌파 임박권",
+        "최근 10일 종가 변동 2.13% — 타이트",
+        "52주 고점 대비 91.62%"
+      ],
+      "flags": [
+        "contract10",
         "bbSqueeze",
         "nearResist",
         "tightCloses",
         "high52"
       ],
-      "resistance": null,
-      "price": 204.86,
+      "resistance": 174.01,
+      "price": 172.91,
       "barGap": false
     },
     {
@@ -30,10 +50,10 @@
       "score": 8,
       "source": "T3",
       "reasons": [
-        "10봉 진폭이 직전 대비 0.64배로 수축",
+        "10봉 진폭이 직전 대비 0.67배로 수축",
         "볼밴 폭 0.1 (60일 최저 0.1 근처) — 에너지 응축",
-        "저항 $157.93 대비 -4.25% — 돌파 임박권",
-        "최근 10일 종가 변동 1.53% — 타이트",
+        "저항 $157.93 대비 -4.12% — 돌파 임박권",
+        "최근 10일 종가 변동 1.49% — 타이트",
         "52주 고점 대비 93.7%"
       ],
       "flags": [
@@ -43,72 +63,68 @@
         "tightCloses",
         "high52"
       ],
-      "resistance": null,
-      "price": 151.22,
+      "resistance": 157.93,
+      "price": 151.43,
       "barGap": false
     },
     {
-      "ticker": "FLXS",
-      "score": 8,
+      "ticker": "PLPC",
+      "score": 7,
       "source": "T3",
       "reasons": [
-        "10봉 진폭이 직전 대비 0.71배로 수축",
-        "볼밴 폭 0.08 (60일 최저 0.08 근처) — 에너지 응축",
-        "저항 $84.47 대비 -2.79% — 돌파 임박권",
-        "최근 10일 종가 변동 1.72% — 타이트",
-        "52주 고점 대비 92.79%"
+        "10봉 진폭이 직전 대비 0.8배로 수축",
+        "볼밴 폭 0.13 (60일 최저 0.11 근처) — 에너지 응축",
+        "저항 $414.35 대비 -4.23% — 돌파 임박권",
+        "최근 10일 종가 변동 2.49% — 타이트"
       ],
       "flags": [
         "contract10",
         "bbSqueeze",
         "nearResist",
-        "tightCloses",
-        "high52"
+        "tightCloses"
       ],
-      "resistance": null,
-      "price": 82.11,
+      "resistance": 414.35,
+      "price": 396.81,
       "barGap": false
     },
     {
-      "ticker": "WDAY",
+      "ticker": "AUGO",
       "score": 7,
       "source": "T3",
       "reasons": [
-        "최근 5봉 진폭 0.52배 — 수축 가속",
-        "거래량 5일/20일 0.63배 — 매물 고갈",
-        "볼밴 폭 0.13 (60일 최저 0.13 근처) — 에너지 응축",
-        "저항 $194.01 대비 -1.72% — 돌파 임박권"
+        "10봉 진폭이 직전 대비 0.79배로 수축",
+        "볼밴 폭 0.11 (60일 최저 0.11 근처) — 에너지 응축",
+        "저항 $89.19 대비 -3.62% — 돌파 임박권",
+        "최근 10일 종가 변동 1.21% — 타이트"
       ],
       "flags": [
-        "contract5",
-        "volDry",
-        "bbSqueeze",
-        "nearResist"
-      ],
-      "resistance": null,
-      "price": 190.67,
-      "barGap": false
-    },
-    {
-      "ticker": "RGEN",
-      "score": 7,
-      "source": "T3",
-      "reasons": [
-        "최근 5봉 진폭 0.67배 — 수축 가속",
-        "볼밴 폭 0.15 (60일 최저 0.12 근처) — 에너지 응축",
-        "저항 $175.77 대비 -0.59% — 돌파 임박권",
-        "최근 10일 종가 변동 1.98% — 타이트",
-        "52주 고점 대비 92.58%"
-      ],
-      "flags": [
-        "contract5",
+        "contract10",
         "bbSqueeze",
         "nearResist",
-        "tightCloses",
+        "tightCloses"
+      ],
+      "resistance": 89.19,
+      "price": 85.96,
+      "barGap": false
+    },
+    {
+      "ticker": "RBRK",
+      "score": 7,
+      "source": "T3",
+      "reasons": [
+        "10봉 진폭이 직전 대비 0.78배로 수축",
+        "볼밴 폭 0.25 (60일 최저 0.21 근처) — 에너지 응축",
+        "저항 $106.5 대비 -1.43% — 돌파 임박권",
+        "52주 고점 대비 97.28%"
+      ],
+      "flags": [
+        "contract10",
+        "bbSqueeze",
+        "nearResist",
         "high52"
       ],
-      "resistance": null,
-      "price": 174.73,
+      "resistance": 106.5,
+      "price": 104.98,
       "barGap": false
     },
     {
@@ -117,9 +133,9 @@
       "source": "T3",
       "reasons": [
         "볼밴 폭 0.11 (60일 최저 0.1 근처) — 에너지 응축",
-        "저항 $84.16 대비 -2.65% — 돌파 임박권",
-        "최근 10일 종가 변동 1.31% — 타이트",
-        "52주 고점 대비 93.72%"
+        "저항 $84.16 대비 -3.02% — 돌파 임박권",
+        "최근 10일 종가 변동 1.26% — 타이트",
+        "52주 고점 대비 93.37%"
       ],
       "flags": [
         "bbSqueeze",
@@ -127,8 +143,8 @@
         "tightCloses",
         "high52"
       ],
-      "resistance": null,
-      "price": 81.93,
+      "resistance": 84.16,
+      "price": 81.62,
       "barGap": false
     },
     {
@@ -137,9 +153,9 @@
       "source": "T3",
       "reasons": [
         "볼밴 폭 0.18 (60일 최저 0.15 근처) — 에너지 응축",
-        "저항 $87.03 대비 -3.94% — 돌파 임박권",
-        "최근 10일 종가 변동 1.84% — 타이트",
-        "52주 고점 대비 96.06%"
+        "저항 $87.03 대비 -2.45% — 돌파 임박권",
+        "최근 10일 종가 변동 1.83% — 타이트",
+        "52주 고점 대비 97.55%"
       ],
       "flags": [
         "bbSqueeze",
@@ -147,8 +163,8 @@
         "tightCloses",
         "high52"
       ],
-      "resistance": null,
-      "price": 83.6,
+      "resistance": 87.03,
+      "price": 84.9,
       "barGap": false
     },
     {
@@ -157,9 +173,9 @@
       "source": "T3",
       "reasons": [
         "볼밴 폭 0.1 (60일 최저 0.09 근처) — 에너지 응축",
-        "저항 $93.13 대비 -0.79% — 돌파 임박권",
-        "최근 10일 종가 변동 2.17% — 타이트",
-        "52주 고점 대비 96.67%"
+        "저항 $95.57 대비 -1.93% — 돌파 임박권",
+        "최근 10일 종가 변동 2.25% — 타이트",
+        "52주 고점 대비 98.02%"
       ],
       "flags": [
         "bbSqueeze",
@@ -167,65 +183,47 @@
         "tightCloses",
         "high52"
       ],
-      "resistance": null,
-      "price": 92.39,
+      "resistance": 95.57,
+      "price": 93.73,
       "barGap": false
     },
     {
-      "ticker": "THC",
+      "ticker": "ESTC",
       "score": 6,
       "source": "T3",
       "reasons": [
-        "볼밴 폭 0.09 (60일 최저 0.08 근처) — 에너지 응축",
-        "저항 $262.68 대비 -0.7% — 돌파 임박권",
-        "최근 10일 종가 변동 1.21% — 타이트",
-        "52주 고점 대비 92.16%"
+        "10봉 진폭이 직전 대비 0.79배로 수축",
+        "거래량 5일/20일 0.68배 — 매물 고갈",
+        "저항 $87.16 대비 -2.44% — 돌파 임박권"
       ],
       "flags": [
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses",
-        "high52"
+        "contract10",
+        "volDry",
+        "nearResist"
       ],
-      "resistance": null,
-      "price": 260.85,
-      "barGap": false
-    },
-    {
-      "ticker": "MANH",
-      "score": 6,
-      "source": "T3",
-      "reasons": [
-        "볼밴 폭 0.14 (60일 최저 0.14 근처) — 에너지 응축",
-        "저항 $215 대비 -2.5% — 돌파 임박권",
-        "최근 10일 종가 변동 2.96% — 타이트",
-        "52주 고점 대비 92.33%"
-      ],
-      "flags": [
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": null,
-      "price": 209.62,
+      "resistance": 87.16,
+      "price": 85.03,
       "barGap": false
     }
   ],
-  "total": 21,
+  "total": 25,
   "shown": 10,
   "cap": 10,
   "beyondCap": [
+    "MRNA(6)",
+    "MANH(6)",
+    "RVMD(6)",
+    "MLAB(6)",
     "CRM(6)",
+    "FLXS(6)",
     "HURN(5)",
     "ZBRA(5)",
-    "PLPC(5)",
     "TEAM(5)",
     "BXC(5)",
     "PAYC(5)",
-    "TPC(5)",
-    "AUGO(5)",
     "P(5)",
-    "SPSC(5)"
+    "KYMR(5)",
+    "SPSC(5)",
+    "EPAM(5)"
   ]
 }
