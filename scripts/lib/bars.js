@@ -74,6 +74,22 @@ function readCache(file, maxAgeMs = 24 * 3600 * 1000) {
   }
 }
 
+// 지금 시점에 완성돼 있어야 할 마지막 세션(ET). 16:00 ET 전이면 전 거래일이다.
+function expectedLastSession() {
+  const et = nowET();
+  return cal.lastTradingDayOnOrBefore(et.hour >= 16 ? et.date : cal.addDays(et.date, -1));
+}
+
+// ⚠️ 캐시 키가 KST 날짜라 한 KST일 안에서 ET 세션이 바뀐다 — 새벽(ET 장중)에 만든 캐시를 저녁(ET 마감 후)에 재사용하면
+//    하루 전 봉으로 판정한다 (2026-09-15 실측: 같은 디렉토리에 09-11 종료 114개 · 09-14 종료 43개 혼재).
+//    마지막 봉이 기대 세션보다 이르면 캐시를 버리고 다시 받는다.
+function cacheStale(bars) {
+  if (!bars || !bars.length) return true;
+  const last = barDateET(bars[bars.length - 1].t);
+  const expect = expectedLastSession();
+  return !!expect && last < expect;
+}
+
 async function fetchBarsCached(ticker, opts = {}) {
   const range = opts.range || '1y';
   const interval = opts.interval || '1d';
@@ -83,7 +99,7 @@ async function fetchBarsCached(ticker, opts = {}) {
 
   if (!opts.noCache) {
     const hit = readCache(file);
-    if (hit && Array.isArray(hit.bars)) {
+    if (hit && Array.isArray(hit.bars) && !cacheStale(hit.bars)) {
       return { ticker, sym, bars: hit.bars, meta: hit.meta || null, ok: hit.bars.length > 0, error: null, cached: true,
                quality: barQuality(hit.bars) };
     }

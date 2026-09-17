@@ -12,6 +12,7 @@
 const path = require('path');
 const fs = require('fs');
 const { paths, loadEnv, today, readJson, writeJson, writeWindowData, say, coverageOf, round } = require('./lib/util');
+const { chartVerdictLeaks } = require('./lib/chart-verdict');
 const { verifyPayload } = require('./lib/verify-claims');
 const { loadCache, saveCache, recordResearched } = require('./lib/research-rotation');
 
@@ -169,7 +170,6 @@ function catalystSection(t4, dateStr) {
   S.push('', '### 4팀 촉매 분류 (LLM) — 거래량이 왜 터졌나', '');
   const L4 = t4.llm || t4.llmCarried;
   if (L4 && L4.sectorSignal) S.push(`섹터 신호: ${L4.sectorSignal}`, '');
-  if (L4 && Array.isArray(L4.watchList) && L4.watchList.length) S.push(`관찰 목록: ${L4.watchList.join(', ')}`, '');
   const order = { 1: 0, 5: 1, 2: 2, 3: 3, 4: 4, 6: 5 };
   for (const i of items.slice().sort((a, b) => (order[a.catalyst.category] ?? 9) - (order[b.catalyst.category] ?? 9))) {
     const C = i.catalyst;
@@ -450,6 +450,7 @@ async function main() {
 
     if (payload.chief) {
       const c = payload.chief;
+      for (const w of chartVerdictLeaks(c)) say('WARN', `⚠️ 실장 차트 결론 어휘: ${w} — 봉을 받지 않은 판정이다. 보고에 옮기지 마세요`);
       const L = [];
       L.push('', '---', '', '## 🧑‍💼 실장 종합 (LLM)', '');
       L.push(`> **${c.headline || ''}**`, '');

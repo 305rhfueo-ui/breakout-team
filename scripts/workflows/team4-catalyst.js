@@ -234,7 +234,7 @@ const SUM = { type: 'object', properties: {
     ticker: { type: 'string' }, category: { type: 'number' }, oneLine: { type: 'string' },
   }, required: ['ticker', 'category', 'oneLine'] } },
   sectorSignal: { type: 'string', description: '촉매가 특정 섹터·업종에 몰렸는지. 몰리지 않았으면 그렇게 쓴다' },
-  watchList: { type: 'array', items: { type: 'string' }, description: '6개월 횡보 후 돌파·리테스트 국면이라 지켜볼 종목' },
+  // watchList("6개월 횡보 후 돌파·리테스트") 는 2026-09-17 삭제 — 가격 히스토리를 주지 않으면서 차트 국면을 묻던 잔재
   caution: { type: 'string', description: '이 분류의 한계' },
 }, required: ['highlights', 'sectorSignal'] }
 
@@ -245,7 +245,7 @@ ${JSON.stringify(clean.map((x) => ({ ticker: x.ticker, category: x.category, cat
 
 - highlights: **category 1(어닝 서프라이즈/가이던스 상향)과 5(산업 기술 돌파)** 만 골라 한 줄씩.
   쿨라매기가 가장 선호하는 호재이므로 이 둘만 강조한다.
-- sectorSignal · watchList · caution 은 스키마 설명대로.
+- sectorSignal · caution 은 스키마 설명대로. 차트 국면(횡보·돌파·리테스트)은 판정하지 않는다 — 가격 데이터를 받지 않았다.
 
 입력에 없는 티커나 사실을 만들지 마라. 웹검색은 하지 않는다. 한글로.`,
   { label: '촉매종합', phase: '종합', schema: SUM, model: 'sonnet' }

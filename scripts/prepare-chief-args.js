@@ -103,8 +103,10 @@ function main() {
       category: x.categoryName || x.category, isHighlight: !!x.isHighlight, top: ((x.claims || [])[0] || {}).statement || '근거 없음',
       volx: it.volx });
   }
+  // watchList(차트 국면 관찰 목록)는 실장에게 넘기지 않는다 — 2026-09-17, 4팀은 차트를 판정하지 않는다
+  const { watchList: _wl, ...t4Summary } = (t4r && t4r.summary) || (t4 && (t4.llm || t4.llmCarried)) || {};
   teams.team4 = { ...teams.team4, llmItems, llmItemsCount: llmItems.length, llmFailed: (t4r && t4r.failed) || [],
-    summary: (t4r && t4r.summary) || (t4 && (t4.llm || t4.llmCarried)) || null };
+    summary: Object.keys(t4Summary).length ? t4Summary : null };
 
   // ── 5팀 — 오늘 조사분 + 이월분 ──
   const t5r = readResult(arg('team5'));

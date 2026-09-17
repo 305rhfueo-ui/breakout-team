@@ -284,7 +284,8 @@ async function main() {
       breakoutShown: Math.min((t3.breakouts || []).length, 15),
       breakoutVolumeConfirmed: (t3.breakouts || []).filter((b) => b.volumeConfirmed).length,
       breakouts: (t3.breakouts || []).slice(0, 15).map((b) => ({ ticker: b.ticker, priorHigh: b.priorHigh, breakDate: b.breakDate, closeAbovePct: b.closeAbovePct,
-        breakVolRatio: b.breakVolRatio, volx: b.volx, volumeConfirmed: b.volumeConfirmed, volumeBasis: b.volumeBasis, congestionKo: b.congestionKo })),
+        // congestionKo 는 넘기지 않는다 (2026-09-17) — 거의 항상 '해당 패턴 없음' 이고 정의가 없어 실장이 뜻을 지어냈다
+        breakVolRatio: b.breakVolRatio, volx: b.volx, volumeConfirmed: b.volumeConfirmed, volumeBasis: b.volumeBasis })),
     },
     // 4팀은 국면 판정을 하지 않는다 (2026-09-16). 게이트 통과·제외 집계만 넘긴다.
     team4: { universeHits: t4.universeHits, analyzed: t4.analyzed, filter: t4.filter || null,

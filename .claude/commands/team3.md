@@ -8,19 +8,21 @@ description: 3팀 추적 상세 보고 — breakout-team
 
 ## 자료 위치
 
-REPO: `c:\Users\305le\OneDrive\바탕 화면\클로드코드test\breakout-team`
+REPO: `c:\Users\305le\OneDrive\바탕 화면\AI 관련\클로드코드test\breakout-team`
 
 1. `dashboard/data/team3.js` 의 `TEAM3_DATA (dashboard/data/team3.js)` 를 읽는다 (`window.TEAM3_DATA = {...};` 형태)
 2. `analysis/reports/{오늘날짜}-breakout.md` 의 3팀 섹션도 함께 참고한다
 
 파일이 없거나 오래됐으면 먼저 실행한다:
 ```bash
-cd "c:\Users\305le\OneDrive\바탕 화면\클로드코드test\breakout-team" && node scripts/run-breakout.js
+cd "c:\Users\305le\OneDrive\바탕 화면\AI 관련\클로드코드test\breakout-team" && node scripts/run-breakout.js
 ```
 
 ## 보고 내용
 
-누적 추적 표(활성/휴면/배제), 오늘 배제된 종목과 사유(50일선 3일 이탈/고점 -40%/150일선 아래), 재편입 이력, 전고점 돌파 종목과 거래량 확인(VOL_X 또는 주간 2배), Congestion 국면, 사용자 육안 판정 기록
+누적 추적 표(활성/휴면/배제), 오늘 배제된 종목과 사유(50일선 3일 이탈/고점 -40%/150일선 아래), 재편입 이력, 7주 고점 상향 마감 종목과 거래량 확인(돌파봉 거래량 ÷ 20일 평균 ≥ 2), 사용자 육안 판정 기록
+
+⚠️ "돌파" 는 35봉(약 7주) 고점을 종가가 넘었다는 뜻일 뿐이다. 횡보·베이스·되돌림 같은 **차트 모양은 판정하지 않는다** — 사용자가 직접 본다 (2026-09-17).
 
 ## 보고 규칙
 

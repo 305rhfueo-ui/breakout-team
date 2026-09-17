@@ -458,7 +458,8 @@ async function main() {
       }
     }
     breakouts.sort((a, b) => (b.volumeConfirmed - a.volumeConfirmed) || ((b.breakVolRatio ?? 0) - (a.breakVolRatio ?? 0)));
-    if (breakouts.length) say('T3', `전고점 돌파 ${breakouts.length}종목 (돌파봉 거래량 확인 ${breakouts.filter((b) => b.volumeConfirmed).length})`);
+    // "돌파" = 35봉(약 7주) 고점을 종가가 넘음. 횡보·베이스·되돌림은 검사하지 않는다 — 이름도 그만큼만 말한다 (2026-09-17)
+    if (breakouts.length) say('T3', `7주 고점 상향 마감 ${breakouts.length}종목 (돌파봉 거래량 확인 ${breakouts.filter((b) => b.volumeConfirmed).length})`);
 
     team3 = {
       generated: dateStr, summary: sum,
@@ -721,7 +722,8 @@ async function main() {
       if (!_isActive3(t)) continue;   // 오늘 배제된 종목은 차트를 볼 이유가 없다
       if (c.eye && c.eye.eyeCheck) {
         chartCheck.push({ ticker: t, score: c.eye.score, source: 'T3', reasons: c.eye.reasons,
-          flags: c.eye.flags || null, resistance: c.congestion && c.congestion.pivot ? c.congestion.pivot : null,
+          // 저항은 eyeCheck 이 본 값(스윙 고점) — 예전엔 congestion.pivot 을 써서 거의 항상 null 이었다 (2026-09-17)
+          flags: c.eye.flags || null, resistance: (c.eye.metrics && c.eye.metrics.resistance) ?? null,
           price: c.price, barGap: c.barGap });
       }
     }
@@ -1014,22 +1016,23 @@ function buildReport({ dateStr, chief, team1, team2, team3, team4, team5 }) {
     }
     if (team3.breakouts.length) {
       L.push('');
-      L.push(`### 전고점 돌파 ${team3.breakouts.length}건 (돌파봉 거래량 확인 ${team3.breakouts.filter((b) => b.volumeConfirmed).length})`);
-      L.push('| 종목 | 직전고점 | 돌파일 | 초과% | 돌파봉 거래량/20일평균 | VOL_X | 주간 | 거래량확인 | 판정 근거 | Congestion |');
-      L.push('|---|---|---|---:|---:|---:|---:|---|---|---|');
+      L.push(`### 7주 고점 상향 마감 ${team3.breakouts.length}건 (돌파봉 거래량 확인 ${team3.breakouts.filter((b) => b.volumeConfirmed).length})`);
+      L.push('> 35봉(약 7주) 고점을 종가가 넘은 종목. 횡보·베이스·되돌림 같은 차트 모양은 판정하지 않는다 — 직접 보세요.');
+      L.push('| 종목 | 직전고점 | 돌파일 | 초과% | 돌파봉 거래량/20일평균 | VOL_X | 주간 | 거래량확인 | 판정 근거 |');
+      L.push('|---|---|---|---:|---:|---:|---:|---|---|');
       for (const b of team3.breakouts) {
-        L.push(`| ${b.ticker} | $${b.priorHigh} (${b.priorHighDate}) | ${v(b.breakDate)} | ${b.closeAbovePct}% | ${v(b.breakVolRatio)} | ${v(b.volx)} | ${v(b.volSurgeWk)} | ${b.volumeConfirmed ? '✅' : '—'} | ${v(b.volumeBasis)} | ${b.congestionKo}${b.barGap ? ' ⚠️봉누락' : ''} |`);
+        L.push(`| ${b.ticker} | $${b.priorHigh} (${b.priorHighDate}) | ${v(b.breakDate)} | ${b.closeAbovePct}% | ${v(b.breakVolRatio)} | ${v(b.volx)} | ${v(b.volSurgeWk)} | ${b.volumeConfirmed ? '✅' : '—'} | ${v(b.volumeBasis)}${b.barGap ? ' ⚠️봉누락' : ''} |`);
       }
     }
     const act = team3.items.filter((it) => it.status === 'active');
     if (act.length) {
       L.push('');
       L.push(`### 활성 추적 ${act.length}종목`);
-      L.push('| 종목 | 업종 | 편입 | 최근 선정 | 선정 횟수 | 현재가 | 편입 후 고점 | 고점일 | 고점 대비 | 50일선 아래 연속 | eyeScore | Congestion |');
-      L.push('|---|---|---|---|---:|---:|---:|---|---:|---:|---:|---|');
+      L.push('| 종목 | 업종 | 편입 | 최근 선정 | 선정 횟수 | 현재가 | 편입 후 고점 | 고점일 | 고점 대비 | 50일선 아래 연속 | eyeScore |');
+      L.push('|---|---|---|---|---:|---:|---:|---|---:|---:|---:|');
       for (const it of act.sort((a, b) => (b.live ? b.live.eyeScore : -1) - (a.live ? a.live.eyeScore : -1))) {
         const lv = it.live || {};
-        L.push(`| ${it.ticker} | ${it.industry || ''} | ${it.added} | ${it.lastPicked} | ${it.pickCount} | ${v(lv.price)} | ${v(it.peak)} | ${v(it.peakDate)} | ${it.drawdownPct != null ? it.drawdownPct + '%' : '—'} | ${v(lv.belowMa50Days)} | ${v(lv.eyeScore)} | ${v(lv.congestion)}${lv.barGap ? ' ⚠️' : ''} |`);
+        L.push(`| ${it.ticker} | ${it.industry || ''} | ${it.added} | ${it.lastPicked} | ${it.pickCount} | ${v(lv.price)} | ${v(it.peak)} | ${v(it.peakDate)} | ${it.drawdownPct != null ? it.drawdownPct + '%' : '—'} | ${v(lv.belowMa50Days)} | ${v(lv.eyeScore)}${lv.barGap ? ' ⚠️' : ''} |`);
       }
     }
     L.push('');

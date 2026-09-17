@@ -416,7 +416,7 @@ function _dd(id){
   if(id==='t3'){
     const s=(D.t3&&D.t3.summary)||{};
     return {stat:s.active??'—',statl:'추적 활성 종목',
-      line:D.t3?`배제 ${s.excluded} · 오늘 탈락 ${(D.t3.dropped_today||[]).length}<br>전고점 돌파 ${(D.t3.breakouts||[]).length}종목`:'대기 중',
+      line:D.t3?`배제 ${s.excluded} · 오늘 탈락 ${(D.t3.dropped_today||[]).length}<br>7주 고점 상향 ${(D.t3.breakouts||[]).length}종목`:'대기 중',
       busy:!!D.t3};
   }
   if(id==='t4'){
@@ -462,10 +462,10 @@ function dialog(){
   const dr=(t3.dropped_today||[]);
   if(dr.length){
     const w=[...dr].map(d=>({t:d.ticker,n:parseInt((String(d.reason).match(/아래\s*(\d+)일/)||[])[1]||0,10)})).sort((a,b)=>b.n-a.n)[0];
-    L.push({who:'t3',t:`저는 오늘 <b>${dr.length}종목</b> 뺐어요${w&&w.n?` — ${w.t}는 50일선 아래 ${w.n}일 연속이라 추세가 완전히 꺾였습니다`:''}.`});
+    L.push({who:'t3',t:`저는 오늘 <b>${dr.length}종목</b> 뺐어요${w&&w.n?` — ${w.t}는 50일선 아래 ${w.n}일 연속입니다`:''}.`});
   } else L.push({who:'t3',t:`오늘 뺀 종목은 없습니다. 추적 ${(t3.summary||{}).active}종목 유지 중이에요.`});
   const bk=(t3.breakouts||[]),ok=bk.filter(b=>b.volumeConfirmed);
-  if(bk.length)L.push({who:'t3',t:`전고점 뚫은 건 ${bk.length}종목인데 거래량까지 실린 건 <b>${ok.length}개</b>뿐이에요. 나머지는 가짜일 수 있습니다.`});
+  if(bk.length)L.push({who:'t3',t:`7주 고점을 종가로 넘은 건 ${bk.length}종목인데 돌파봉 거래량이 20일 평균 2배 이상인 건 <b>${ok.length}개</b>예요. 차트 모양은 제가 판정하지 않습니다.`});
 
   if(t4.universeHits)L.push({who:'t4',t:`거래량 터진 종목 <b>${t4.universeHits}개</b> 잡았습니다. 상위 ${t4.analyzed}개 뜯어봤어요.`});
   const hl=(t4.llm&&t4.llm.highlights)||[];
@@ -879,7 +879,7 @@ function chiefFlowLines(c){
       `서로 다른 방법으로 본 두 판정이 같은 곳을 가리키고 있습니다.`);
   }
   if(fc.breakoutsInInflow&&fc.breakoutsInInflow.length){
-    H.push(`거래량까지 실린 진짜 돌파 종목 중 <b>${fc.breakoutsInInflow.map(t=>esc(t)).join(', ')}</b> 는 돈이 들어오는 업종에 속해 있습니다.`);
+    H.push(`돌파봉 거래량이 확인된 7주 고점 상향 종목 중 <b>${fc.breakoutsInInflow.map(t=>esc(t)).join(', ')}</b> 는 돈이 들어오는 업종에 속해 있습니다.`);
   }
 
   const withPicks=(fc.inflow||[]).filter(i=>i.picks&&i.picks.length);
@@ -897,11 +897,11 @@ function chiefFlowLines(c){
   H.push(`<b>[돈이 몰리는 곳의 강세 종목]</b> 도윤이 뽑은 종목이 있는 업종 중 돈이 가장 빨리 들어온 곳은 <b>${esc(window.indKo?window.indKo(g.industry):g.industry)}</b> 입니다. `+
     `이 업종에서 도윤이 뽑은 종목은 ${g.picks.map(p=>esc(p.ticker)).join('·')} ${g.picks.length}개이고, `+
     (buy.length
-      ? `그중 지금 볼 만한 자리는 <b>${buy.map(p=>esc(p.ticker)).join(', ')}</b> 입니다.`
-      : `<b>그런데 지금 바로 사기 좋은 자리는 하나도 없습니다.</b> 솔직히 말씀드립니다 — 전부 단기로 뻗어 있거나 이미 이탈했습니다.`)+
-    `<table class="ctab" style="margin-top:9px"><thead><tr><th>종목</th><th>두 달 평균 대비</th><th>1년 평균 대비</th><th>판정</th></tr></thead><tbody>${rows}</tbody></table>`+
-    `<div class="note">두 달 평균(50일선) 대비가 30%를 넘으면 단기 과열, 음수면 이탈입니다. `+
-    `1년 평균(200일선) 대비가 낮을수록 상승 사이클 초입이라 위로 갈 여지가 남아 있습니다.</div>`);
+      ? `그중 이격이 낮고 컨센서스가 오르는 종목은 <b>${buy.map(p=>esc(p.ticker)).join(', ')}</b> 입니다.`
+      : `<b>이격이 낮으면서 컨센서스가 오르는 종목은 없습니다.</b> 전부 두 달 평균에서 많이 떠 있거나 이미 50일선 아래입니다.`)+
+    `<table class="ctab" style="margin-top:9px"><thead><tr><th>종목</th><th>두 달 평균 대비</th><th>1년 평균 대비</th><th>이격·컨센서스 분류</th></tr></thead><tbody>${rows}</tbody></table>`+
+    `<div class="note">두 달 평균(50일선) 대비가 30%를 넘으면 단기 과열, 음수면 이탈로 분류합니다. `+
+    `1년 평균(200일선) 대비가 낮고 컨센서스가 오르면 초입으로 분류합니다. 이격과 컨센서스 컬럼만 본 분류이고 차트 모양은 보지 않았습니다.</div>`);
 
   const dip=g.picks.filter(p=>p.stage==='dip'&&p.tracking==='dropped');
   if(dip.length)H.push(`⚠️ ${dip.map(p=>esc(p.ticker)).join(', ')} 는 실적 기대가 살아 있지만 두 달 평균선을 3일 이상 연속 이탈해 수아가 추적에서 뺐습니다. <b>규칙을 어기고 지금 사라는 뜻이 아닙니다</b> — 다시 올라오면 자동으로 재편입됩니다.`);
@@ -939,7 +939,7 @@ function mirBrief(){
     const lead=inflow[0];
     P.push(`<b>돈이 들어오는 곳은 ${nm(lead)}입니다.</b> ${rank(lead)}. ${cnt(lead)}이라 `+
       (lead.winRate>=0.7?`몇 개가 끌어올린 게 아니라 업종 전체가 같이 움직였습니다`:`업종 전체가 아니라 일부만 오른 겁니다`)+
-      `. ${gap(lead)}. 지금은 <b>${esc(lead.stageKo)}</b> 국면이에요.`+
+      `. ${gap(lead)}. 이격·컨센서스 기준으로는 <b>${esc(lead.stageKo)}</b> 로 분류됩니다.`+
       (inflow[1]?` ${nm(inflow[1])}도 ${rank(inflow[1])}.`:''));
   } else P.push(`<b>오늘은 뚜렷하게 돈이 들어오는 업종이 없습니다.</b> 억지로 고르지 않겠습니다.`);
 
@@ -1029,15 +1029,20 @@ function briefing(id){
     P.push(`현재 <b>${s.active}종목</b>을 매일 지켜보고 있습니다(누적 ${s.total}종목 중).`);
     if(dr.length){
       const worst=[...dr].map(d=>({t:d.ticker,n:parseInt((String(d.reason).match(/아래\s*(\d+)일/)||[])[1]||0,10)})).sort((a,b)=>b.n-a.n)[0];
-      P.push(`오늘 <b>${dr.length}종목을 뺐습니다.</b> 전부 50일선 아래로 3일 넘게 내려간 종목이에요${worst&&worst.n?` — 특히 ${worst.t}는 ${worst.n}일 연속이라 단기 추세가 완전히 꺾였습니다`:''}. 나중에 2팀이 다시 뽑으면 자동으로 돌아옵니다.`);
+      /* 배제 사유는 셋(50일선 3일·편입 후 고점 -40%·150일선 아래) — 예전엔 전부 "50일선" 문장으로 나갔다 (2026-09-17) */
+      const rc={ma50:0,dd:0,ma150:0};
+      for(const d of dr){const r=String(d.reason);if(/50일선/.test(r))rc.ma50++;if(/고점.*대비/.test(r))rc.dd++;if(/150일선/.test(r))rc.ma150++;}
+      const why=[rc.ma50?`50일선 아래 3일 이상 ${rc.ma50}개`:'',rc.dd?`편입 후 고점 대비 -40% ${rc.dd}개`:'',rc.ma150?`150일선 아래 ${rc.ma150}개`:''].filter(Boolean).join(' · ');
+      P.push(`오늘 <b>${dr.length}종목을 뺐습니다.</b> 사유: ${why||'기록 없음'}${worst&&worst.n?` — ${worst.t}는 50일선 아래 ${worst.n}일 연속`:''}. 나중에 2팀이 다시 뽑으면 자동으로 돌아옵니다.`);
     } else P.push(`오늘 배제된 종목은 없습니다.`);
     if(bk.length){
       const ok=bk.filter(b=>b.volumeConfirmed).length;
-      P.push(`전고점을 뚫은 종목이 <b>${bk.length}개</b>인데, 그중 거래량까지 실린 건 <b>${ok}개</b>뿐입니다.`);
-      if(bk.length-ok>0)P.push(`나머지 ${bk.length-ok}개는 거래량 없이 올라간 거라 <b>가짜 돌파일 수 있습니다.</b> 쿨라매기는 거래량 없는 돌파를 신뢰하지 않아요.`);
+      P.push(`7주(35봉) 고점을 종가로 넘은 종목이 <b>${bk.length}개</b>이고, 그중 돌파봉 거래량이 20일 평균의 2배 이상인 건 <b>${ok}개</b>입니다.`);
+      if(bk.length-ok>0)P.push(`나머지 ${bk.length-ok}개는 거래량 확인이 안 된 종목입니다.`);
       const names=bk.filter(b=>b.volumeConfirmed).slice(0,4).map(b=>b.ticker);
       if(names.length)P.push(`거래량까지 확인된 <b>${names.join(', ')}</b> 를 먼저 보세요.`);
-    } else P.push(`오늘 전고점을 뚫은 종목은 없습니다.`);
+    } else P.push(`오늘 7주 고점을 넘은 종목은 없습니다.`);
+    P.push(`차트 모양(횡보·베이스·돌파의 질)은 제가 판정하지 않습니다 — 직접 보세요.`);
     return P.join(' ');
   }
   if(id==='t4'){
@@ -1088,7 +1093,7 @@ function briefing(id){
   // ④ 눈여겨볼 것
   const bk=(t3.breakouts||[]).filter(b=>b.volumeConfirmed);
   const note=[];
-  if(bk.length)note.push(`전고점을 <b>거래량까지 실어서</b> 뚫은 종목이 ${bk.length}개 있습니다 — ${bk.slice(0,5).map(b=>b.ticker).join(', ')}. 거래량 없는 돌파 ${(t3.breakouts||[]).length-bk.length}개는 가짜일 수 있어 제외했습니다`);
+  if(bk.length)note.push(`7주 고점을 <b>돌파봉 거래량 2배 이상</b>으로 넘은 종목이 ${bk.length}개 있습니다 — ${bk.slice(0,5).map(b=>b.ticker).join(', ')}. 거래량 확인이 안 된 ${(t3.breakouts||[]).length-bk.length}개는 제외했습니다`);
   const hl=(t4.llm&&t4.llm.highlights)||[];
   if(hl.length)note.push(`촉매가 확인된 종목: <b>${hl.map(x=>x.ticker).join(', ')}</b> (어닝 서프라이즈·산업 돌파)`);
   const th=t2.themes&&t2.themes.llm&&t2.themes.llm.leadingTheme;
@@ -1100,7 +1105,7 @@ function briefing(id){
     H.push(`<b>[사장님이 하실 일]</b> 오늘 <b>직접 차트를 봐야 할 종목이 ${cc.length}개</b>입니다 — ${cc.map(x=>x.ticker).join(', ')}. `+
       `시스템이 "변동성이 줄고 거래량이 마르면서 저항선에 붙었다"고 판단한 종목들입니다. `+
       `차트에서 <b>①횡보 폭이 점점 좁아지는지 ②거래량 막대가 줄고 있는지 ③저항선을 거래량 터뜨리며 뚫는지</b> 이 세 가지를 확인해 주세요. `+
-      `돌파를 확인하시면 저에게 알려주시면 기록해 두겠습니다.`);
+      `차트 모양은 제가 판정하지 않습니다 — 숫자만 골랐습니다. 돌파를 확인하시면 저에게 알려주시면 기록해 두겠습니다.`);
   } else {
     H.push(`<b>[사장님이 하실 일]</b> 오늘은 수렴 조건을 만족하는 종목이 없어 따로 확인하실 차트가 없습니다. 쉬셔도 됩니다.`);
   }
@@ -1368,7 +1373,7 @@ function bodyFor(id){
     if((t.dropped_today||[]).length)h+=`<div class="sec"><h4>오늘 배제</h4>
       ${rows(t.dropped_today.slice(0,8).map(d=>[esc(d.ticker),`<span class="note">${esc(d.reason)}</span>`]))}</div>`;
     const b=(t.breakouts||[]).slice(0,10);
-    if(b.length)h+=`<div class="sec"><h4>전고점 돌파 ${t.breakouts.length}종목</h4>
+    if(b.length)h+=`<div class="sec"><h4>7주 고점 상향 마감 ${t.breakouts.length}종목</h4>
       ${rows(b.map(x=>[`${esc(x.ticker)}${x.volumeConfirmed?' ✅':''}`,`${n(x.closeAbovePct,1)}% · VOL_X ${n(x.volx,1)}`]))}
       <div class="note">✅ = 거래량 확인 (VOL_X ≥ 2.0 또는 주간 배수 ≥ 2.0)</div></div>`;
     return h;
@@ -1476,7 +1481,7 @@ function bodyFor(id){
       <div class="note">${(x.reasons||[]).map(esc).join(' · ')}</div></div>`).join('')+`</div>`;
   const k=c.counts||{};
   h+=`<div class="sec"><h4>오늘의 숫자</h4>${rows([['유니버스',k.universe],['2팀 선정',k.picks],
-    ['추적 활성',k.tracking?k.tracking.active:'—'],['전고점 돌파',k.breakouts],['거래량 급증',k.epCandidates]])}</div>`;
+    ['추적 활성',k.tracking?k.tracking.active:'—'],['7주 고점 상향',k.breakouts],['거래량 급증',k.epCandidates]])}</div>`;
   if(c.llm&&c.llm.verified)h+=`<div class="sec"><h4>출처 검증</h4>
     ${rows([['검사한 URL',c.llm.verified.checked],['생존',c.llm.verified.ok],
       ['미검증(봇차단)',c.llm.verified.unverified],['죽은 링크 제거',c.llm.verified.dead],['근거없음 강등',c.llm.verified.stripped]])}

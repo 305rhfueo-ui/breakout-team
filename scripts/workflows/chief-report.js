@@ -33,15 +33,15 @@ JSON 구조: \`teams.team1\`(시장환경 + \`news\` 1팀 LLM 뉴스 digest·mar
   \`themeHeadlineByPeriod\`·\`crossCounts\`·\`crossTop\`(지속 주도 D+N 일수)·\`targetStatusCount\`·top[].qualifiedBy/targetStatus/saleCy/epsCy) ·
 \`teams.siteCondition\`(사용자 시트의 시장국면 문자열 — **QQQ 판정을 덮어쓰지 말고 나란히 보고**) · \`teams.apiCalled\`(사이트 오늘 신규 조회 수) · \`teams.siteDegraded\`(사이트 발행 보류일) ·
 \`teams.team3\`(추적 · \`dropped[]\` 오늘 배제 · \`unevaluated\` 봉 없어 미평가) ·
-\`teams.team4\`(EP·촉매 + \`llmItems\` 종목별 촉매 분류·근거 + \`summary\` sectorSignal·watchList·caution) ·
+\`teams.team4\`(EP·촉매 + \`llmItems\` 종목별 촉매 분류·근거 + \`summary\` sectorSignal·caution) ·
 \`teams.team5\`(주도섹터 + \`llmIndustries\` 강세 근거·risk + \`summary\` rotationView·emerging·fading) ·
 \`teams.chartCheck\`(오늘 차트 볼 종목, 상한 적용 — 전체 수는 \`chartCheckTotal\`) ·
 \`teams.flowCross\`(자금이 들어오는 업종 × 그 안의 실제 종목 · \`agreement\` 5팀 유출과 3팀 배제의 일치).
 
 ⚠️ **돌파일보다 나중에 배제된 종목은 모순이 아니라 "실패한 돌파"다.**
 \`teams.team3.breakouts[].breakDate\` 와 \`teams.team3.dropped[].asOf\`(배제 판정의 기준 봉 날짜 — 실행일이 아니다)를 비교하라.
-돌파 뒤에 50·150일선을 잃은 것은 데이터 오류가 아니라 **그 돌파가 무너졌다는 뜻**이다 —
-"판단 보류"가 아니라 "돌파 실패, 후보에서 제외"라고 써라. 같은 날짜면 같은 세션의 일이다.
+돌파 뒤에 50·150일선을 잃은 것은 데이터 오류가 아니다 — "판단 보류"가 아니라 **"돌파 후 배제(50일선 3일 이탈 등 Node 사유 그대로)"** 라고 써라.
+차트 해석(되돌림·갭·리테스트 실패 같은 말)은 붙이지 마라. 같은 날짜면 같은 세션의 일이다.
 
 ⚠️ **개수는 직접 세지 마라. Node 가 센 값을 그대로 써라.**
 조사된 종목 수 = \`teams.team2.llmResearchedCount\` (그중 이월 = \`llmCarriedCount\`), 촉매 분류 수 = \`teams.team4.llmItemsCount\`,
@@ -55,9 +55,10 @@ JSON 구조: \`teams.team1\`(시장환경 + \`news\` 1팀 LLM 뉴스 digest·mar
 
 \`flowCross\` 는 이 리포트의 핵심이다. \`inflow\`(돈이 들어오는 업종) 각각에
 \`picks[]\` 가 붙어 있고 종목마다 \`d50\`(최근 두 달 평균 대비 이격) · \`d200\`(1년 평균 대비 이격) ·
-\`stageKo\`(초입/선도/관성/눌림/과열/이탈) · \`tracking\` · \`breakout\` 이 있다.
-**"돈이 몰리는 섹터에서 지금 어떤 종목이 강한지, 그런데 지금 사기 좋은 자리인지"를
-반드시 이 데이터로 말하라.** \`outflow\` 는 돈이 빠지는 업종, \`pending\` 은 기대만 오른 업종이다.`
+\`stageKo\`(Node 가 이격·컨센서스 컬럼으로 붙인 분류 — 초입/선도/관성/눌림 후보/과열/이탈) · \`tracking\` · \`breakout\` 이 있다.
+**"돈이 몰리는 업종에서 지금 어떤 종목이 강한지"를 이 데이터로 말하되, d50·d200·stageKo 는 그대로 인용만 하라.**
+매수 위치("자리"·"눌림을 기다려라"·"추격 불리") 판단은 쓰지 마라 — 봉을 받지 않았고, 차트는 사용자가 본다.
+\`outflow\` 는 돈이 빠지는 업종, \`pending\` 은 기대만 오른 업종이다.`
   : `## 1팀 시장환경
 ${JSON.stringify(T.team1 || {}, null, 1).slice(0, 4000)}
 
@@ -85,13 +86,13 @@ const CHIEF = { type: 'object', properties: {
   todayFocus: { type: 'array', items: { type: 'object', properties: {
     ticker: { type: 'string' },
     reason: { type: 'string' },
-    action: { type: 'string', description: '지금 뭘 해야 하는지 (관찰/차트확인/트리거대기/추격금지 등)' },
-  }, required: ['ticker', 'reason', 'action'] }, description: '오늘 가장 주목할 종목 0~5개. 🔴 이고 볼 만한 셋업이 없으면 비워도 된다' },
+    action: { type: 'string', description: 'Node 수치로 된 확인 조건만 (예: "기준선 $X 종가 유지 여부 · 거래량이 20일 평균 2배인지 · QQQ MA20 713 회복 여부"). 차트 결론 금지 — 돌파 실패로 처리·리테스트·지지로 전환·눌림·갭·셋업·자리·추격 같은 말을 쓰지 마라' },
+  }, required: ['ticker', 'reason', 'action'] }, description: '오늘 가장 주목할 종목 0~5개 — Node 신호(거래량 확인 돌파·차트확인 목록·유입 업종 통과)가 있는 종목만. 없으면 비워라' },
   teamSummaries: { type: 'object', properties: {
     team1: { type: 'string' }, team2: { type: 'string' }, team3: { type: 'string' },
     team4: { type: 'string' }, team5: { type: 'string' },
   }, required: ['team1', 'team2', 'team3', 'team4', 'team5'] },
-  chartCheckNote: { type: 'string', description: '오늘 눈으로 차트를 봐야 할 종목과 무엇을 볼지' },
+  chartCheckNote: { type: 'string', description: '오늘 눈으로 차트를 봐야 할 종목과, 시스템 플래그(reasons)를 그대로 옮긴 "확인할 것". 플래그에 없는 방향(상방/하방)·매물·소진 추론 금지' },
   tomorrowWatch: { type: 'string' },
   // ⚠️ 프롬프트 규칙 7번은 caution 을 필수라고 말하는데 스키마에선 선택이었다. 어긋나 있었다.
   caution: { type: 'string', description: '이 리포트의 한계·불확실성 2~4문장. 조사 안 된 종목 · 근거 없는 항목 · 데이터 결함을 솔직히' },
@@ -117,14 +118,16 @@ ${teamBlocks}
 1. **입력 JSON 에 없는 티커·숫자·뉴스를 새로 만들지 마라.** 이게 가장 중요하다.
 2. 근거가 '근거 없음'으로 표시된 항목은 그렇게 전달하라. 채워 넣지 마라.
 3. 시장이 🔴 면 그 사실을 흐리지 마라. 신규 진입 부적합이면 그렇게 말하라.
-4. todayFocus 는 0~5종목. 왜 주목하는지와 **지금 뭘 해야 하는지**를 함께. 볼 만한 셋업이 없으면 비워라.
-5. chartCheckNote 는 "이 종목의 차트에서 무엇을 확인하라"를 구체적으로.
-   (예: "PANW — 저항 $368.8 을 거래량 동반해 뚫는지, 뚫을 때 거래량이 20일 평균의 2배인지")
+4. todayFocus 는 0~5종목. 왜 주목하는지(Node 신호)와 **무엇이 확인되면 논리가 성립/붕괴하는지**를 Node 수치로만.
+   Node 신호가 없으면 비워라. "돌파 실패로 처리하라·리테스트·지지로 바뀌는지·눌림을 기다려라·추격 금지" 같은 차트 결론은 쓰지 마라.
+5. chartCheckNote 는 chartCheck[].reasons 의 플래그를 그대로 옮긴다.
+   (예: "PANW — 시스템 플래그: 볼밴 폭 60일 최저 근처 · 저항 $368.8 대비 -3.8%. 차트에서 이 두 가지가 실제로 보이는지 확인")
+   플래그에 없는 방향(상방/하방)·매물·소진 추론은 쓰지 마라.
 6. 사용자가 최종 판단자다. 단정적 매수 권유 대신 확인할 조건을 제시하라.
 7. caution 에 이 리포트의 한계를 **솔직히** 적어라 (필수 항목이다).
    조사되지 않은 종목 수, '근거 없음'으로 남은 항목, 데이터 결함(dataNotice·barsNotice·unevaluated)을 숨기지 마라.
 8. **marketVerdictKo 에는 "돈이 어디로 들어오고 어디서 빠지는지"를 반드시 넣어라.**
-   업종 이름 + 그 안에서 지금 강한 종목 티커(flowCross.picks 의 d50·d200·stageKo 수치 그대로) + 지금 사기 좋은 자리인지까지.
+   업종 이름 + 그 안에서 지금 강한 종목 티커(flowCross.picks 의 d50·d200·stageKo 수치 그대로). 매수 위치 판단은 쓰지 않는다.
    교차 결과가 비면 "이 업종에서 오늘 기준을 통과한 종목은 없습니다"라고 그대로 써라.
    **입력에 없는 사실로 분량을 채우지 마라** — 근거가 부족하면 짧게 끝내는 것이 낫다.
 9. 1팀 news(digest·keyRisks)·2팀 theme·4팀 summary·5팀 summary 가 있으면 teamSummaries 에 그 내용을 반영하라 — 숫자만 보고 쓰지 마라.
@@ -132,11 +135,13 @@ ${teamBlocks}
    6M 에만 남은 곳(byPeriod.m6 · rotation.fading), 세 기간 모두인 지속 주도(rotation.persistent, crossTop.persistent 의 D+N)를 나눠 말하라.
    teams.siteCondition 이 있으면 "사이트 시장국면: X" 를 QQQ 판정 옆에 한 번 병기하라(둘이 다르면 다르다고).
 10. 업종 강도 변화율(F10d/F25d %)은 분모가 0 근처면 폭발한다. **크기가 아니라 순위 변동(frank25)으로 말하라.**
+11. **차트 모양(횡보·베이스·돌파의 질·되돌림·갭·리테스트)은 판정하지 않는다.** 당신은 봉을 받지 않았다.
+    3팀 표의 "돌파" 는 35봉(약 7주) 고점을 종가가 넘었다는 뜻이고 "거래량 확인" 은 돌파봉/20일 평균 비율일 뿐이다. 그 이상을 말하지 마라.
 
 ## 서술 기준 — 독자는 재무·회계 전공의 금융 실무자다
 1. 눈높이를 낮추지 마라. 비유·초보자용 요약·"쉽게 말해" 식 풀이는 쓰지 않는다.
 2. 표준 용어는 그대로 쓴다: YoY/QoQ, 가이던스, 컨센서스, EPS, FCF, 마진, 백로그, 크랙 스프레드, PIPE, 전환사채, 희석, 리레이팅, 밸류에이션, RS 백분위, ADR, 50/200일선 이격 등.
-3. 이 시스템 고유 지표(WRS·VOL_X·CLS_POS·BBWTHD·F10d·Congestion)는 처음 한 번만 정의를 붙이고 이후엔 이름만 쓴다.
+3. 이 시스템 고유 지표(WRS·VOL_X·CLS_POS·BBWTHD·F10d)는 처음 한 번만 정의를 붙이고 이후엔 이름만 쓴다. 입력에 없는 지표는 정의하지 마라.
 4. 원 수치를 생략하지 마라. 실적표·RS·WRS·이격·거래량 배수·가이던스 수치는 단위와 기간을 붙여 그대로 인용한다. 문단당 숫자 개수 제한은 없다.
 5. 숫자는 입력 JSON 에 실제로 있는 것만 쓴다.
 6. 구조: 결론 → 근거 → 반대 근거/리스크 → 확인할 조건. 매 문단 끝에 "그래서 무엇을 확인/실행할지"를 한 줄로.
