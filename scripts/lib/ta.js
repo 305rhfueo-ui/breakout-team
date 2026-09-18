@@ -34,16 +34,38 @@ async function fetchBars(ticker, { range = '1y', interval = '1d', timeoutMs = 12
     const ts = r.timestamp || [];
     const q = (r.indicators && r.indicators.quote && r.indicators.quote[0]) || {};
     const bars = [];
+    // ⚠️ 야후는 마감 후 몇 시간 동안 마지막 일봉의 close 만 null 로 준다(o/h/l/volume 은 정상).
+    //    2026-09-17 실측: QQQ o716.05 h718.04 l713.32 c null, meta.regularMarketPrice 716.92(16:00 ET 확정).
+    //    그대로 버리면 그날 봉이 통째로 사라져 3팀 돌파·50일선 판정이 하루 밀린다 → 마지막 봉만 메타 종가로 메운다.
+    let filledLast = 0;
+    const closeOf = (i) => {
+      const c = q.close && q.close[i];
+      if (c != null && isFinite(c)) return c;
+      if (i !== ts.length - 1) return null;                       // 중간 구멍은 메우지 않는다
+      const m = r.meta || {};
+      const p = m.regularMarketPrice, mt = m.regularMarketTime;
+      if (!isFinite(p) || !mt) return null;
+      const et = (ms) => new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', hour12: false }).formatToParts(new Date(ms))
+        .reduce((a, x) => (a[x.type] = x.value, a), {});
+      const bar = et(ts[i] * 1000), mk = et(mt * 1000);
+      const sameDay = bar.year === mk.year && bar.month === mk.month && bar.day === mk.day;
+      const closed = Number(mk.hour === '24' ? 0 : mk.hour) >= 16;
+      const lo = q.low && q.low[i], hi = q.high && q.high[i];
+      const inRange = isFinite(lo) && isFinite(hi) && p >= lo * 0.999 && p <= hi * 1.001;
+      if (!sameDay || !closed || !inRange) return null;
+      filledLast++;
+      return p;
+    };
     // ⚠️ 종가 null 봉을 버린 개수를 센다. 야후가 특정 날짜를 통째로 빼고 주는 경우(2026-08-28)도 있어
     //    "버린 봉"만으로는 누락을 다 못 잡는다 — 달력 대조는 bars.js / market-calendar.js 가 한다.
     let dropped = 0;
     for (let i = 0; i < ts.length; i++) {
       const o = q.open && q.open[i], h = q.high && q.high[i], l = q.low && q.low[i];
-      const c = q.close && q.close[i], v = q.volume && q.volume[i];
+      const c = closeOf(i), v = q.volume && q.volume[i];
       if (c == null || !isFinite(c)) { dropped++; continue; }
       bars.push({ t: ts[i] * 1000, o, h, l, c, v: v || 0 });
     }
-    return { bars, meta: r.meta || null, ok: bars.length > 0, error: null, dropped };
+    return { bars, meta: r.meta || null, ok: bars.length > 0, error: null, dropped, filledLast };
   } catch (e) {
     return { bars: [], meta: null, ok: false, error: e.message };
   }
