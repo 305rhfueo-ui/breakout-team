@@ -521,8 +521,174 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "carried",
+    "status": "done",
     "industries": [
+      {
+        "driver": "macro",
+        "durability": "short_term",
+        "industry": "Marine Shipping",
+        "key": "Industrials|Marine Shipping",
+        "keyStocks": [
+          "FRO",
+          "STNG",
+          "INSW",
+          "SBLK",
+          "GOGL",
+          "GNK"
+        ],
+        "lead": "Marine Shipping 업종은 원유 탱커(VLCC·Suezmax·LR2)와 벌크선(케이프사이즈 등)을 통해 해상운임을 수취하는 업종으로, 9월 들어 탱커·벌크 운임이 동시에 사상 최고 수준으로 급등하며 랠리를 주도하고 있다. 배경은 중동(호르무즈 해협·바브엘만데브 인근)에서 선박 피격·나포 사례가 100건을 넘어선 군사적 긴장 격화이며, 유가는 배럴당 $100를 상회했다.",
+        "risk": "호르무즈·바브엘만데브 일대 군사적 긴장이 완화되거나 정전·휴전이 타결되면 탱커 운임의 지정학 프리미엄이 단기간에 급격히 빠질 수 있다. 러시아·이란·베네수엘라向 제재가 완화되어 다크플릿 선박이 합법 시장으로 복귀하면 가용 선복 부족이 해소되며 VLCC·Suezmax 운임이 정상화될 수 있다. 발틱운임지수 상승은 철광석·석탄向 케이프사이즈 수요와 선복 부족에 의존하므로, 중국 제철 수요 둔화나 신조선 인도 증가로 벌크선 공급이 늘면 BDI 랠리가 꺾일 수 있다. Node F10d가 -2.01%로 최근 10거래일 기준 랭크가 소폭 후퇴한 점은 25거래일 급등(+44.23%p, FRANK +12단계) 이후 모멘텀 둔화의 조기 신호일 수 있어 후속 랭킹 추이 확인이 필요하다.",
+        "whyStrong": [
+          {
+            "id": "middle_east_escalation",
+            "statement": "탱커 운임 급등의 직접 원인은 중동 해상 군사적 충돌 격화로, 걸프 해역에서 피격·나포된 선박이 100건을 넘어섰고 예멘 후티 세력이 바브엘만데브 인근 도시를 장악했으며 유가는 배럴당 $100를 상회했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Crude Tanker Rates Reach Record Levels",
+                "publisher": "Cyprus Shipping News",
+                "url": "https://cyprusshippingnews.com/2026/09/16/crude-tanker-rates-reach-record-levels/",
+                "date": "2026-09-16",
+                "quote": "8 ships were reported damaged in the Gulf (bringing total ships reported damaged / arrested to >100)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "tanker_rate_record",
+            "bdi_five_year_high"
+          ],
+          "reason": "tanker_rate_record: Statement의 '9월 12일' 기준 날짜가 제공된 Quote(2026-09-16)에 명시되지 않음. bdi_five_year_high: 케이프사이즈 지수(7.1% 급등, 6,042포인트) 및 '2021년 10월 이후' 연도 표현이 Quote에 없음.",
+          "leadFixed": true
+        },
+        "leadOriginal": "Marine Shipping 업종은 원유 탱커(VLCC·Suezmax·LR2)와 벌크선(케이프사이즈 등)을 통해 해상운임을 수취하는 업종으로, 9월 들어 탱커·벌크 운임이 동시에 사상 최고 수준으로 급등하며 랠리를 주도하고 있다. VLCC 평균 운임은 주간 68% 급등해 $451,000/일로, Suezmax는 94% 급등해 $343,000/일로 각각 사상 최고치를 경신했고(9월 12일 기준), 발틱운임지수(BDI)도 2021년 10월 이후 최고치인 3,488포인트까지 올랐다. 배경은 중동(호르무즈 해협·바브엘만데브 인근)에서 선박 피격·나포 사례가 100건을 넘어선 군사적 긴장 격화이며, 유가는 배럴당 $100를 상회했다.",
+        "researchedOn": "2026-09-18",
+        "carried": false
+      },
+      {
+        "driver": "earnings",
+        "durability": "structural",
+        "industry": "Diagnostics & Research",
+        "key": "Healthcare|Diagnostics & Research",
+        "keyStocks": [
+          "TWST",
+          "WGS",
+          "BLLN",
+          "ILMN"
+        ],
+        "lead": "Diagnostics & Research 업종은 유전체 시퀀싱·합성DNA·분자진단 기업들의 실적 가속과 개별 종목의 재평가 이벤트가 겹치며 강세를 보이고 있다. TWST는 3분기 매출이 전년 대비 23% 증가하며 FY2026 가이던스를 상향했고, WGS(GeneDx)는 병원 전체 신속 유전체 시퀀싱 도입을 뒷받침하는 연구 결과를 발표했다. BLLN은 Canaccord Genuity가 매수 의견으로 커버리지를 개시했다.",
+        "whyStrong": [
+          {
+            "id": "wgs-genedx-adoption",
+            "statement": "GeneDx(WGS)는 Seattle Children's와 협력한 연구로 병원 전체 1차 신속 유전체 시퀀싱(rGS) 도입을 뒷받침하는 임상 근거를 발표했고, 이익 추정치 상향 흐름도 함께 나타나고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "GeneDx Study Supports Hospital-Wide Adoption Of Rapid Genome Sequencing In Pediatric Care",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/genedx-study-supports-hospital-wide-adoption-rapid-genome-sequencing-pediatric-care",
+                "date": "2026-08-24",
+                "quote": "GeneDx Study Supports Hospital-Wide Adoption Of Rapid Genome Sequencing In Pediatric Care",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "GeneDx Announces Transformative Study Supporting Hospital-Wide Adoption of Rapid Genomic Sequencing at Seattle Children's",
+                "publisher": "BioSpace",
+                "url": "https://www.biospace.com/press-releases/genedx-announces-transformative-study-supporting-hospital-wide-adoption-of-rapid-genomic-sequencing-at-seattle-childrens",
+                "date": "2026-08-24",
+                "quote": "GeneDx Announces Transformative Study Supporting Hospital-Wide Adoption of Rapid Genomic Sequencing at Seattle Children's",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Can GENEDX HOLDINGS (WGS) Run Higher on Rising Earnings Estimates?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/can-genedx-holdings-wgs-run-higher-rising-earnings-estimates",
+                "date": "2026-08-19",
+                "quote": "Can GENEDX HOLDINGS (WGS) Run Higher on Rising Earnings Estimates?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "twst-q3-guidance-raise",
+            "statement": "TWST는 3분기 매출이 전년 대비 23% 증가했고 FY2026 매출 가이던스를 상향하며, 합성DNA·therapeutics 수요 확대를 실적으로 확인시켰다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Twist Bioscience (TWST): Q3 Revenue Jumps 23% As FY2026 Guidance Raised",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/twist-bioscience-twst-q3-revenue-jumps-23-fy2026-guidance-raised",
+                "date": "2026-08-19",
+                "quote": "Twist Bioscience (TWST): Q3 Revenue Jumps 23% As FY2026 Guidance Raised",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Twist Bioscience signals $123M-$124M Q4 revenue as fiscal 2026 outlook rises to $456M-$457M",
+                "publisher": "Seeking Alpha",
+                "url": "https://seekingalpha.com/news/4623894-twist-bioscience-signals-123m-124m-q4-revenue-as-fiscal-2026-outlook-rises-to-456m-457m",
+                "date": "2026-08-10",
+                "quote": "Twist Bioscience signals $123M-$124M Q4 revenue as fiscal 2026 outlook rises to $456M-$457M",
+                "verified": "unverified",
+                "httpStatus": 403
+              },
+              {
+                "title": "Twist Bioscience Reports Q3 FY2026 Revenue $118.4M, Gross Margin 52.8%, Raises FY26 Revenue Guide",
+                "publisher": "TradingView",
+                "url": "https://www.tradingview.com/news/tradingview:2afd996e36fd7:0-twist-bioscience-reports-q3-fy2026-revenue-118-4m-gross-margin-52-8-raises-fy26-revenue-guide/",
+                "date": "2026-08-10",
+                "quote": "Twist Bioscience Reports Q3 FY2026 Revenue $118.4M, Gross Margin 52.8%, Raises FY26 Revenue Guide",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "blln-canaccord-initiation",
+            "statement": "BLLN은 Canaccord Genuity가 매수 의견으로 커버리지를 개시하며 목표주가 120달러를 제시, 진단 신사업 확장에 대한 애널리스트 낙관이 부각됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Canaccord Genuity Initiates Coverage of BillionToOne (BLLN) with Buy Rating",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/canaccord-genuity-initiates-coverage-billiontoone-blln-buy-rating",
+                "date": "2026-09-03",
+                "quote": "Canaccord Genuity Initiates Coverage of BillionToOne (BLLN) with Buy Rating",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Canaccord Genuity Initiates BillionToOne at Buy With $120 Price Target",
+                "publisher": "MarketScreener",
+                "url": "https://www.marketscreener.com/news/canaccord-genuity-initiates-billiontoone-at-buy-with-120-price-target-ce7858d2de8afe20",
+                "date": "2026-09-03",
+                "quote": "Canaccord Genuity Initiates BillionToOne at Buy With $120 Price Target",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          }
+        ],
+        "risk": "ILMN 강세의 상당 부분은 9월 21일 S&P500 편입에 따른 패시브 자금 유입이라는 일회성 기술적 요인과 겹쳐 있어, 편입에 따른 지수 추종 매수가 소진되면 되돌림이 나올 수 있다. BLLN은 Canaccord Genuity의 매수 커버리지 개시와 별개로 CEO가 보유 지분 전량을 300만 달러에 매각하고 공동창업자도 지분 100만 달러를 매도하는 등 내부자 매도가 이어져 부담이다. TWST는 BWS Financial이 Sell, UBS가 Neutral로 초기 커버리지를 개시해 밸류에이션에 대한 이견도 병존한다. GeneDx 이익 추정치 상향과 TWST therapeutics 부문 성장이 다음 분기 실적에서도 재확인되는지, ILMN 편입 이후 거래량과 RS 순위가 유지되는지가 이 업종 강세 지속 여부를 가늠할 핵심 관찰 포인트다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "ilmn-sp500-ubs-upgrade"
+          ],
+          "reason": "ilmn-sp500-ubs-upgrade: Statement의 '9월 21일 S&P500 편입이 확정'이라는 구체적 날짜가 제공된 Quote에 없음. Source는 2026-09-04에 발행되었으며 'in September' 또는 'Set to Join'만 표기됨.",
+          "leadFixed": true
+        },
+        "leadOriginal": "Diagnostics & Research 업종은 유전체 시퀀싱·합성DNA·분자진단 기업들의 실적 가속과 개별 종목의 재평가 이벤트가 겹치며 강세를 보이고 있다. TWST는 3분기 매출이 전년 대비 23% 증가하며 FY2026 가이던스를 상향했고, WGS(GeneDx)는 병원 전체 신속 유전체 시퀀싱 도입을 뒷받침하는 연구 결과를 발표했다. ILMN은 UBS의 투자의견 매수 상향과 S&P500 편입이 겹쳤고, BLLN은 Canaccord Genuity가 매수 의견으로 커버리지를 개시했다.",
+        "researchedOn": "2026-09-18",
+        "carried": false
+      },
       {
         "driver": "earnings",
         "durability": "short_term",
@@ -1293,20 +1459,21 @@ window.TEAM5_DATA = {
       }
     ],
     "summary": {
-      "caution": "업종 표본이 Publishing·Semiconductors 단 2개뿐이라 전체 시장 로테이션을 대표하긴 어렵다. Publishing의 강세는 driver=earnings, durability=short_term으로 표시돼 있어 광고 매출 서프라이즈성 이벤트일 가능성이 크고 6개월 WRS(-0.345, 95%ile)가 여전히 바닥권이라 추세 전환이 아닌 단발성 스파이크일 수 있다. Semiconductors는 driver=technology, durability=structural로 구조적 성장 근거(SWKS-QRVO 합병, MXL 광인터커넥트 145% 성장)가 있는데도 1개월 WRS가 순위상 하락한 건 모멘텀 지표와 펀더멘털 사이 괴리이니 단일 지표로 이탈 확정하지 말 것.",
+      "rotationView": "오늘 확정 업종은 Marine Shipping과 Diagnostics & Research 둘뿐이다. Marine Shipping은 1개월 랭크가 1.43%(WRS 0.099)로 전체 업종 최상위이며, 3개월 5%(0.2247)→6개월 6.43%(0.3819) 대비 갈수록 랭크가 개선돼 최근 들어 자금이 가속 유입되는 그림이다. 반대로 Diagnostics & Research는 3개월 랭크 1.43%(WRS 0.3279)로 정점을 찍었다가 1개월 랭크가 7.86%(0.049)로 밀리며 모멘텀이 꺾였고, 6개월 랭크 5.71%(0.4081)는 아직 준수해 완전히 빠진 건 아니지만 단기 힘은 빠지는 중이다. 즉 오늘 하루의 로테이션은 해운(매크로 이벤트성) 쪽으로 단기 자금이 몰리고, 진단/리서치(실적 기반) 쪽은 3개월 고점 이후 숨고르기 국면으로 읽힌다.",
+      "strongest": {
+        "industry": "Marine Shipping",
+        "why": "1개월 랭크 1.43%로 조사된 업종 중 오늘 가장 강하고, 3개월 5%·6개월 6.43%에서 랭크가 계속 개선되는 추세다. 조사 근거상 탱커 운임 급등은 중동 해상 군사 충돌 격화가 직접 원인으로, 걸프 해역에서 피격·나포된 선박이 100건을 넘었고 후티 세력이 바브엘만데브 인근 도시를 장악했으며 유가는 배럴당 $100를 상회했다."
+      },
       "emerging": [
-        "Publishing"
+        "Marine Shipping"
       ],
       "fading": [
-        "Semiconductors"
+        "Diagnostics & Research"
       ],
-      "rotationView": "1개월 기준 랭킹이 완전히 뒤바뀌었다. Publishing은 1개월 WRS 0.1306(상위 1.43%ile)로 전체 업종 중 최상위권에 올라섰지만 6개월 WRS는 -0.345(95%ile)로 최하위권이었다 — 6개월 내내 소외됐던 업종에 최근 한 달 급격히 자금이 유입된 전형적 로테이션-인 패턴이다. 반대로 Semiconductors는 6개월 WRS 0.2308(상위 2.86%ile)로 지난 반년의 주도주였지만 1개월 WRS는 -0.005(41.43%ile)로 중위권까지 밀려났다 — 6개월 주도주에서 자금이 빠져나가는 로테이션-아웃 신호다. 종합하면 이번 한 달은 반도체 같은 장기 구조적 성장주에서 나온 자금이 Publishing 같은 실적 모멘텀주로 단기 이동한 모습이다.",
-      "strongest": {
-        "industry": "Publishing",
-        "why": "1개월 WRS 0.1306으로 전체 업종 중 상위 1.43%ile에 위치해 오늘 기준 가장 강한 모멘텀을 보였다. 조사된 근거로는 디지털 광고 매출이 전년 대비 +20.7% 증가한 1억1,400만달러를 기록하며 광고주 수요 강세와 인벤토리 확대에 힘입어 가속한 점이 있다(driver=earnings, durability=short_term)."
-      }
+      "caution": "Marine Shipping은 driver가 macro, durability가 short_term으로 조사돼 있다. 중동 해상 충돌·유가 급등이라는 이벤트성 요인이 되돌려지면 랭크도 빠르게 되밀릴 수 있는 강세이니, 구조적 추세로 확대 해석하지 말 것. Diagnostics & Research는 driver가 earnings·durability가 structural로 GeneDx·TWST·BLLN 등 실적/애널리스트 근거가 뚜렷하지만, 1개월 랭크 하락이 단순 숨고르기인지 추세 전환인지는 오늘 데이터만으로 판단할 수 없다. 오늘 조사된 업종이 2개뿐이라 이 결과는 전체 시장 로테이션의 일부 단면일 뿐이며, researched:false 업종이 있었다면 그 업종의 강세 사유는 절대 추정하지 않았다."
     },
-    "summaryResearchedOn": "2026-09-17"
+    "summaryResearchedOn": "2026-09-18",
+    "reusedFrom": null
   },
   "flow": {
     "baseline": {
@@ -7621,5 +7788,15 @@ window.TEAM5_DATA = {
         ]
       }
     ]
+  },
+  "research_coverage": {
+    "done": 14,
+    "total": 10,
+    "cap": 6,
+    "pending": 0,
+    "failed": 0,
+    "carried": 12,
+    "ineligible": 0,
+    "note": "그중 12업종은 최근 조사분을 이월했습니다(조사일 표기)."
   }
 };

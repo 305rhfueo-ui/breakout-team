@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-18",
+  "report": {
+    "checked": 135,
+    "ok": 148,
+    "unverified": 20,
+    "dead": 1,
+    "stripped": 0,
+    "removed": [
+      {
+        "reason": "중복",
+        "url": "https://ng.investing.com/news/stock-market-news/canaccord-initiates-billiontoone-stock-coverage-with-buy-rating-93CH-2682633"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.investing.com/news/insider-trading-news/billiontoone-ceo-oguzhan-atay-sells-25m-in-company-stock-93CH-4904708"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.sec.gov/Archives/edgar/data/1697500/000119312526385257/d441137d8k.htm"
+      },
+      {
+        "reason": "링크 죽음(HTTP 404)",
+        "url": "https://www.nasdaq.com/articles/feim-stock-13-despite-incurring-q4-loss-restructuring-costs"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-anf-upgraded-buy-heres-160003218.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.fool.com/coverage/moneyball/2026/09/16/abercrombies-2026-outlook-omnichannel-strategy-drives-disciplined-growth/"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.fool.com/investing/2026/09/16/strategy-is-buying-bitcoin-again/"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/technology/ai/articles/hpe-raises-fiscal-2026-sales-123515660.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/technology/ai/articles/hpe-raises-fiscal-2026-sales-123515660.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/forum-energy-technologies-fet-stock-134004361.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.marketbeat.com/instant-alerts/event-forum-energy-technologies-targets-16b-revenue-by-2030-in-five-year-growth-plan-2026-08-27/"
+      },
+      {
+        "reason": "중복",
+        "url": "https://stockanalysis.com/stocks/fet/statistics/"
+      },
+      {
+        "reason": "인용문 없음",
+        "url": "https://www.sec.gov/Archives/edgar/data/932696/000093269626000067/nsit-20260806.htm"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.globenewswire.com/news-release/2026/09/17/3364316/3872/en/credit-acceptance-reaches-resolution-with-state-attorneys-general.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.globenewswire.com/news-release/2026/09/15/3362627/3872/en/credit-acceptance-announces-extension-of-revolving-secured-warehouse-facility-and-extension-of-500-0-million-asset-backed-financing.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.globenewswire.com/news-release/2026/09/15/3362627/3872/en/credit-acceptance-announces-extension-of-revolving-secured-warehouse-facility-and-extension-of-500-0-million-asset-backed-financing.html"
+      },
+      {
+        "reason": "중복",
+        "url": "https://cyprusshippingnews.com/2026/09/16/crude-tanker-rates-reach-record-levels/"
+      }
+    ],
+    "noQuote": 1
+  }
+}

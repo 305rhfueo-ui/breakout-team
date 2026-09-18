@@ -224,16 +224,16 @@
       "count": 12
     },
     "SNDK": {
-      "last": "2026-09-11",
-      "count": 17
+      "last": "2026-09-18",
+      "count": 18
     },
     "STX": {
       "last": "2026-09-07",
       "count": 14
     },
     "WDAY": {
-      "last": "2026-09-15",
-      "count": 12
+      "last": "2026-09-18",
+      "count": 13
     },
     "FROG": {
       "last": "2026-09-15",
@@ -268,8 +268,8 @@
       "count": 5
     },
     "FEIM": {
-      "last": "2026-08-14",
-      "count": 2
+      "last": "2026-09-18",
+      "count": 3
     },
     "W": {
       "last": "2026-08-20",
@@ -292,8 +292,8 @@
       "count": 2
     },
     "FET": {
-      "last": "2026-09-17",
-      "count": 12
+      "last": "2026-09-18",
+      "count": 13
     },
     "CORT": {
       "last": "2026-09-15",
@@ -332,8 +332,8 @@
       "count": 2
     },
     "ALAB": {
-      "last": "2026-09-10",
-      "count": 7
+      "last": "2026-09-18",
+      "count": 8
     },
     "AMD": {
       "last": "2026-08-28",
@@ -360,8 +360,8 @@
       "count": 7
     },
     "INTC": {
-      "last": "2026-09-16",
-      "count": 3
+      "last": "2026-09-18",
+      "count": 4
     },
     "IONQ": {
       "last": "2026-08-18",
@@ -372,8 +372,8 @@
       "count": 3
     },
     "HNGE": {
-      "last": "2026-09-17",
-      "count": 8
+      "last": "2026-09-18",
+      "count": 9
     },
     "HURN": {
       "last": "2026-08-19",
@@ -460,8 +460,8 @@
       "count": 1
     },
     "HPE-C": {
-      "last": "2026-09-16",
-      "count": 4
+      "last": "2026-09-18",
+      "count": 5
     },
     "LQDA": {
       "last": "2026-08-25",
@@ -492,8 +492,8 @@
       "count": 1
     },
     "ANF": {
-      "last": "2026-09-11",
-      "count": 4
+      "last": "2026-09-18",
+      "count": 5
     },
     "FRPT": {
       "last": "2026-08-27",
@@ -512,8 +512,8 @@
       "count": 4
     },
     "MSTR": {
-      "last": "2026-09-14",
-      "count": 3
+      "last": "2026-09-18",
+      "count": 4
     },
     "MLAB": {
       "last": "2026-09-15",
@@ -540,16 +540,16 @@
       "count": 1
     },
     "PARR": {
-      "last": "2026-09-17",
-      "count": 7
+      "last": "2026-09-18",
+      "count": 8
     },
     "IREN": {
       "last": "2026-09-09",
       "count": 1
     },
     "BE": {
-      "last": "2026-09-14",
-      "count": 3
+      "last": "2026-09-18",
+      "count": 4
     },
     "SMTC": {
       "last": "2026-09-17",
@@ -626,6 +626,14 @@
     "RBRK": {
       "last": "2026-09-17",
       "count": 1
+    },
+    "BLLN": {
+      "last": "2026-09-18",
+      "count": 1
+    },
+    "SEI": {
+      "last": "2026-09-18",
+      "count": 1
     }
   },
   "team4": {
@@ -700,8 +708,10 @@
       "count": 4
     },
     "NBIS": {
-      "last": "2026-08-13",
-      "count": 3
+      "last": "2026-09-18",
+      "count": 4,
+      "cat": 3,
+      "evid": "3eb416223e9e69e6"
     },
     "DKL": {
       "last": "2026-08-17",
@@ -783,9 +793,10 @@
       "count": 3
     },
     "MOG.B": {
-      "last": "2026-09-09",
-      "count": 4,
-      "cat": 6
+      "last": "2026-09-18",
+      "count": 5,
+      "cat": 6,
+      "evid": "ce54437f75527403"
     },
     "NEE-S": {
       "last": "2026-08-25",
@@ -1634,6 +1645,84 @@
       "count": 1,
       "cat": 6,
       "evid": "d6a65b9cda9d5475"
+    },
+    "ESEA": {
+      "last": "2026-09-18",
+      "count": 1,
+      "cat": 1,
+      "evid": "2ed3dee0976da864"
+    },
+    "NSIT": {
+      "last": "2026-09-18",
+      "count": 1,
+      "cat": 1,
+      "evid": "30f36987cdb59edb"
+    },
+    "JXN": {
+      "last": "2026-09-18",
+      "count": 1,
+      "cat": 6,
+      "evid": "7a23f4dd6b7d9d81"
+    },
+    "TMO": {
+      "last": "2026-09-18",
+      "count": 1,
+      "cat": 1,
+      "evid": "e9e6cb48052cdeda"
+    },
+    "TWST": {
+      "last": "2026-09-18",
+      "count": 1,
+      "cat": 3,
+      "evid": "aaaac5e7996b3f61"
+    },
+    "ITT": {
+      "last": "2026-09-18",
+      "count": 1,
+      "cat": 6,
+      "evid": "13905b852041ce06"
+    },
+    "LAD": {
+      "last": "2026-09-18",
+      "count": 1,
+      "cat": 6,
+      "evid": "cb8143d66827a032"
+    },
+    "PGR": {
+      "last": "2026-09-18",
+      "count": 1,
+      "cat": 6,
+      "evid": "c107b15725b91dfc"
+    },
+    "CROX": {
+      "last": "2026-09-18",
+      "count": 1,
+      "cat": 6,
+      "evid": "37a834673b59da9d"
+    },
+    "ATLC": {
+      "last": "2026-09-18",
+      "count": 1,
+      "cat": 4,
+      "evid": "355f0a999b4d5de2"
+    },
+    "CACC": {
+      "last": "2026-09-18",
+      "count": 1,
+      "cat": 5,
+      "evid": "24831c3cf216a6bf"
+    },
+    "SEZL": {
+      "last": "2026-09-18",
+      "count": 1,
+      "cat": 5,
+      "evid": "2e7f2dffaa67475f"
+    },
+    "MNPR": {
+      "last": "2026-09-18",
+      "count": 1,
+      "cat": 2,
+      "evid": "4df1eca39800003c"
     }
   },
   "team5": {
@@ -1691,6 +1780,16 @@
       "last": "2026-09-17",
       "count": 1,
       "rankPct6": 95
+    },
+    "Industrials|Marine Shipping": {
+      "last": "2026-09-18",
+      "count": 1,
+      "rankPct6": 6.43
+    },
+    "Healthcare|Diagnostics & Research": {
+      "last": "2026-09-18",
+      "count": 1,
+      "rankPct6": 5.71
     }
   }
 }

@@ -508,8 +508,267 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-09-18",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "젠슨 황 \"내년 칩 판매량 2배\" — AI 사이클 정점론에 대한 정면 반박",
+        "easy": "Nvidia CEO 젠슨 황이 내년 칩 판매량이 올해의 두 배가 될 것이라고 밝혔다(CNBC, 2026-09-17). 기사에 제시된 것은 수량 기준 가이던스 성격의 발언이며 매출·마진·백로그 수치는 제시되지 않았다. AI 캐펙스 피크아웃 논쟁이 반복되는 국면에서 공급 최상단 업체가 물량 배증을 공개 언급한 것 자체가 컨센서스 하향 압력을 되돌리는 재료다. 다만 회사 공식 가이던스 문서가 아니라 인터뷰 성격이므로, 분기 실적 발표에서 동일한 톤이 유지되는지가 검증 지점이다.",
+        "whyMatters": "주도 섹터가 Technology 28종목(56%)으로 편중된 현 시장에서 Nvidia 발 물량 가이던스는 반도체·AI 인프라 전반의 이익 추정 기저를 끌어올리는 방향으로 작동한다. 같은 날 기사군의 Micron·Intel 등 메모리·로직 체인도 물량 배증 시나리오의 수혜 방향에 놓인다. 반대로 Technology 비중이 56%인 만큼 이 서사가 훼손되면 지수 전체가 단일 테마 리스크에 노출된다. 실적 발표에서 출하량 2배 발언이 공식 가이던스로 재확인되면 논리가 성립하고, 톤이 후퇴하면 붕괴한다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Jensen Huang says Nvidia will sell twice as many chips next year",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/17/nvidia-huang-ai-chip-guidance.html",
+            "date": "2026-09-17",
+            "quote": "Jensen Huang says Nvidia will sell twice as many chips next year",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Micron·Intel 등 반도체주 반등 연장 — 소외주 캐치업 구간",
+        "easy": "Micron, Intel을 포함한 반도체 종목들이 강한 반등 흐름을 이어가고 있다(MarketWatch, 2026-09-17). 기사에는 수익률·밸류에이션 수치가 제시되지 않아 반등 폭은 확인되지 않는다. 주목할 점은 AI 대장주가 아니라 그간 소외됐던 메모리·레거시 로직 쪽에서 반등이 나오고 있다는 구조다. 섹터 내 자금이 상단에서 하단으로 확산되는 국면과 단순 숏커버링 국면 양쪽 해석이 모두 가능하다.",
+        "whyMatters": "Technology 28종목(56%)이 주도 섹터를 장악한 가운데 캐치업 랠리는 주도주 폭을 넓혀 지수 하방을 지지하는 방향으로 작동한다. 다만 QQQ는 10MA 712.25가 20MA 712.67 아래에 놓인 데드크로스(2026-08-28, D+12) 상태이고 종가 704.72는 50MA 709.88도 하회한다. 개별 반도체 반등이 아직 지수 회복으로 전이되지 못하고 있다는 뜻이다. 반도체 반등이 이어지며 QQQ 10MA가 20MA를 재상향 돌파하는지가 확산 국면 여부의 확인 조건이다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Micron, Intel and other chip stocks are furthering their strong comebacks",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/micron-intel-and-other-chip-stocks-are-furthering-their-strong-comebacks-14b1ecac?mod=mw_rss_topstories",
+            "date": "2026-09-17",
+            "quote": "Micron, Intel and other chip stocks are furthering their strong comebacks",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "10년물 국채, 100년 만의 최악 구간 — 그럼에도 매수세 유입",
+        "easy": "10년 만기 미국 국채가 100년 이상 만에 최악의 구간을 지나고 있으나 투자자들은 오히려 매수에 나서고 있다(MarketWatch, 2026-09-17). 기사에 구체적 금리 레벨이나 총수익률 수치는 제시되지 않았다. 장기채 가격 부진이 누적된 상태에서 자금이 유입된다는 것은 듀레이션 리스크를 감수할 만큼 캐리가 두터워졌다는 판단이 형성되고 있다는 신호다. 반대로 장기금리의 구조적 상승이 아직 종료되지 않았다는 반대 근거도 동시에 유효하다.",
+        "whyMatters": "장기금리 레벨은 할인율을 통해 Technology 28종목(56%) 중심의 장기 듀레이션 자산 밸류에이션에 직접 반영된다. 금리 상승 지속은 멀티플 축소 압력으로, 매수세 유입에 따른 금리 안정은 리레이팅 여지로 작동한다. FINRA 고객 마진부채 YoY +37.2%라는 레버리지 확대 국면에서는 금리 급등이 마진콜 경로를 통해 증폭된다. 장기금리 안정이 확인되면 기술주 멀티플 방어 논리가 성립하고, 재차 급등하면 붕괴한다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-bond-market-is-seeing-trouble-why-investors-are-buying-now-anyway-065a2f9f?mod=mw_rss_topstories",
+            "date": "2026-09-17",
+            "quote": "The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "이란 리스크에 'TACO 트레이드' 베팅 — 전제 실패 시 지정학 프리미엄 재가격",
+        "easy": "월가는 트럼프 대통령이 이란 문제에서 물러설 것이라는 이른바 TACO 트레이드에 베팅하고 있으나, 이번에는 그 전제가 어긋날 가능성이 제기된다(MarketWatch, 2026-09-17). 기사에 옵션 포지셔닝이나 변동성 지표 수치는 제시되지 않았다. 핵심은 시장이 지정학 헤지를 저평가한 상태로 포지션을 구성하고 있다는 점이다. 전제가 깨지면 리스크 프리미엄이 일시에 되돌려지는 비대칭 손실 구조가 된다.",
+        "whyMatters": "Energy 6종목(12%)은 지정학 프리미엄 확대 시 직접 수혜 방향이고, Technology 28종목(56%)은 위험자산 디레버리징의 직접 피해 방향이다. 마진부채 YoY +37.2% 국면에서 급격한 변동성 확대는 강제 청산을 통해 주도주에 비대칭적으로 작용한다. QQQ가 이미 10MA·20MA·50MA를 모두 하회해 완충 구간이 얇다. 이란 관련 정책 결정이 실제 완화 쪽으로 확인되면 현 포지셔닝이 성립하고, 반대면 붕괴한다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Wall Street is betting Trump backs down on Iran — but what if the 'TACO' trade fails this time?",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/wall-street-is-betting-trump-backs-down-on-iran-but-what-if-the-taco-trade-fails-this-time-53845c77?mod=mw_rss_topstories",
+            "date": "2026-09-17",
+            "quote": "Wall Street is betting Trump backs down on Iran — but what if the 'TACO' trade fails this time?",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "사우디, 호르무즈 해협 경유 원유 수출 확대 추진",
+        "easy": "사우디아라비아가 호르무즈 해협을 통한 원유 수출 물량을 늘리려 하고 있다(MarketWatch, 2026-09-17). 기사에 증량 규모나 목표 시점 수치는 제시되지 않았다. 공급 측면만 보면 증량은 유가 하방 요인이지만, 운송 경로가 호르무즈에 더 집중된다는 점에서 지정학 사고 시 공급 중단 민감도는 오히려 높아진다. 이란 관련 기사와 같은 날 나왔다는 점에서 두 재료는 상쇄와 증폭이 공존하는 관계다.",
+        "whyMatters": "Energy 6종목(12%)의 실적은 유가와 크랙 스프레드를 통해 직접 연동되며, 증량은 마진 압박, 경로 리스크 확대는 프리미엄 확대라는 상반된 힘을 동시에 만든다. 정유와 E&P 간에도 방향이 갈려 섹터 내 종목별 분산이 커지는 국면이다. Industrials 4종목(8%)에 속하는 운송 관련 업종은 경로 리스크 상승 시 운임 측면 수혜 방향이다. 실제 선적량 증가가 데이터로 확인되면 공급 논리가, 통항 차질이 확인되면 프리미엄 논리가 성립한다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Saudi Arabia is now pushing to export more oil through the Strait of Hormuz",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/saudi-arabia-is-now-pushing-to-export-more-oil-through-the-strait-of-hormuz-bcce044b?mod=mw_rss_topstories",
+            "date": "2026-09-17",
+            "quote": "Saudi Arabia is now pushing to export more oil through the Strait of Hormuz",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "AI 규제 압력 동시 부상 — '연구소 국유화' 발언과 입법 공백",
+        "easy": "Palantir의 Alex Karp는 선도 AI 연구소들의 위험이 너무 커서 국유화가 필요할 수 있다고 CNBC에 말했다(2026-09-17). 같은 날 하원은 긴급한 AI 대응 요구 속에서 선거 운동을 위해 휴회에 들어갔다(CNBC, 2026-09-17). 규제 필요성 담론은 최고조인데 입법 공백은 길어지는 비대칭 상태다. 규제 불확실성은 즉각적 실적보다 멀티플 측면의 할인 요인으로 먼저 반영된다.",
+        "whyMatters": "Technology 28종목(56%)과 Communication Services 2종목(4%)에 걸친 AI 밸류체인이 규제 헤드라인의 직접 노출 대상이다. 국유화 같은 극단적 선택지가 공개 논의된다는 사실 자체가 AI 모델 개발사와 그에 연동된 인프라·전력 수요 서사에 정책 리스크 프리미엄을 붙인다. 반면 입법이 실제로 지연되면 단기적으로는 규제 공백이 유지돼 현 캐펙스 사이클에 제동이 걸리지 않는다. 회기 재개 후 실제 법안 상정 여부가 논리의 성립·붕괴를 가르는 조건이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Leading AI labs may need to be nationalized because risks are so high, Palantir's Karp tells CNBC",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/17/ai-safety-palantir-karp.html",
+            "date": "2026-09-17",
+            "quote": "Leading AI labs may need to be nationalized because risks are so high, Palantir's Karp tells CNBC",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "House heads home to campaign amid calls for urgent AI action",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/17/ai-crisis-congress-regulation.html",
+            "date": "2026-09-17",
+            "quote": "House heads home to campaign amid calls for urgent AI action",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "규제당국, 토큰화 미국 주식 거래 일부 승인 — Securitize 급등",
+        "easy": "규제당국이 일부 토큰화된 미국 주식 거래를 승인하면서 Securitize 주가가 급등했다(CNBC, 2026-09-17). 기사에 승인 범위나 상승률 수치는 제시되지 않았다. 핵심은 전통 주식의 온체인 표현물에 대해 규제 인가라는 전제가 처음으로 충족되기 시작했다는 점이다. 이는 결제·청산·보관 밸류체인의 수수료 구조에 중장기 변수를 만든다.",
+        "whyMatters": "직접 수혜는 토큰화 인프라 사업자이고, 구조적 압력은 기존 거래소·청산기관·증권 보관 서비스의 수수료 마진 쪽으로 향한다. Technology 28종목(56%) 중 금융 인프라 소프트웨어 성격의 종목에는 신규 TAM 확대 방향의 재료다. 다만 승인 범위가 제한적이면 실제 거래량으로 이어지기까지 시차가 크다. 승인 범위 확대와 실거래량 데이터가 확인되면 논리가 성립하고, 파일럿 수준에 머물면 붕괴한다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Securitize jumps after regulators greenlight some tokenized U.S. stock trading",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/17/securitize-jumps-after-regulators-greenlight-tokenized-us-stocks.html",
+            "date": "2026-09-17",
+            "quote": "Securitize jumps after regulators greenlight some tokenized U.S. stock trading",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Tesla 신제품 러시, 기대 대비 실망 가능성 제기",
+        "easy": "Tesla의 예정된 신제품 공세가 투자자에게 실망을 안길 수 있다는 분석이 제기됐다(MarketWatch, 2026-09-17). 기사에 인도량·ASP·마진 등 구체 수치는 제시되지 않았다. 논지는 이벤트 드리븐 기대가 선반영된 상태에서 실제 제품 스펙과 출시 시점이 그 기대를 충족하지 못할 위험이다. 이벤트 전 기대 프리미엄이 이벤트 후 되돌려지는 전형적 구조에 대한 경고다.",
+        "whyMatters": "Tesla는 대형 기술주 지수 내 변동성 기여도가 큰 종목이라, 개별 이벤트 실망이 Technology 28종목(56%) 중심 지수의 일간 변동성으로 전이되기 쉽다. 마진부채 YoY +37.2%로 레버리지가 확대된 국면에서는 고베타 종목의 갭 하락이 포지션 청산을 유발하는 경로가 짧아진다. QQQ가 이미 10MA 712.25·20MA 712.67 아래에 있어 완충이 얇다는 점도 같은 방향이다. 실제 제품 발표 내용과 출시 일정이 확인되면 기대 프리미엄의 정당성 여부가 판정된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Tesla's upcoming product frenzy could leave investors disappointed",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/teslas-upcoming-product-frenzy-could-leave-investors-disappointed-18619fb3?mod=mw_rss_topstories",
+            "date": "2026-09-17",
+            "quote": "Tesla's upcoming product frenzy could leave investors disappointed",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "감세안 수혜 귀속 논쟁 재점화 — 재정·세제 정책 리스크",
+        "easy": "공화당이 트럼프의 이른바 'big beautiful bill'을 내세우는 가운데, 감세 혜택이 실제로 누구에게 가장 돌아갔는지에 대한 분석이 제기됐다(CNBC, 2026-09-17). 기사에 세목별 귀속 비율 수치는 제시되지 않았다. 감세 귀속 논쟁은 선거 국면에서 세제 재조정 논의로 이어질 수 있는 정치 변수다. 기업 실효세율과 배당·자사주 정책의 전제가 여기에 걸린다.",
+        "whyMatters": "법인 실효세율 변수는 Technology 28종목(56%)처럼 해외 이익 비중이 큰 업종의 세후 EPS에 직접 반영된다. Healthcare 9종목(18%)은 세제와 별개로 정책 헤드라인 민감도가 높아 재정 논의 확대 시 변동성이 함께 커지는 쪽이다. 동시에 재정적자 경로는 장기금리를 통해 10년물 재료와 연결된다. 실제 세법 개정 절차가 개시되는지가 확인 조건이며, 논쟁에 머물면 시장 영향은 헤드라인 수준에 그친다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "As Republicans tout Trump's 'big beautiful bill,' here's who the tax breaks benefited most",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/17/tax-breaks-trump-big-beautiful-bill.html",
+            "date": "2026-09-17",
+            "quote": "As Republicans tout Trump's 'big beautiful bill,' here's who the tax breaks benefited most",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "결론: 개별 재료는 AI·반도체 쪽으로 우호적이지만 지수 국면은 여전히 방어 구간이다. 근거는 QQQ 종가 704.72가 MA10 712.25, MA20 712.67, MA50 709.88을 모두 하회하고, 10MA가 20MA 아래로 내려간 데드크로스가 2026-08-28 이후 D+12째 유지되고 있다는 점이다(쿨라매기 판정 🔴 — 신규 진입 중단, 보유분 청산 검토). 재료 측면에서는 Nvidia의 내년 칩 판매량 2배 발언과 Micron·Intel 등 반도체 반등이 Technology 28종목(56%) 중심 주도 섹터를 지지하지만, 지수 레벨로는 아직 전이되지 않았다. 리스크는 FINRA 고객 마진부채 YoY +37.2%로 +30% 기준선을 넘어선 레버리지 확대, 10년물 국채의 100년 만의 최악 구간이라는 장기금리 불안, 이란 관련 TACO 트레이드가 어긋날 경우의 지정학 프리미엄 재가격이다. 반대 근거로는 200일선 +150% 초과 종목이 0개로 개별 종목 단의 과열 신호는 아직 관찰되지 않는다는 점이 있다. 확인할 조건은 QQQ 10MA의 20MA 재상향 돌파와 종가의 50MA 709.88 회복 여부이며, 그 전까지는 반도체 캐치업 랠리를 지수 추세 전환의 근거로 삼기 어렵다.",
+    "keyRisks": [
+      "FINRA 고객 마진부채 YoY +37.2%로 +30% 기준선 초과 — 변동성 확대 시 강제 청산 경로가 짧아짐",
+      "QQQ 데드크로스 D+12 지속(10MA 712.25 < 20MA 712.67), 종가 704.72가 50MA 709.88도 하회 — 하방 완충 부재",
+      "10년물 국채 100년 만의 최악 구간 — 장기금리 재급등 시 Technology 28종목(56%) 중심 듀레이션 자산 멀티플 축소",
+      "이란 관련 TACO 트레이드 전제 실패 시 지정학 프리미엄 일시 재가격, Energy 6종목(12%)과 여타 섹터 간 방향 분기",
+      "AI 규제 담론 최고조와 입법 공백 병존 — 회기 재개 후 법안 상정 시 AI 밸류체인에 정책 할인 반영",
+      "Technology 56% 편중으로 단일 테마 훼손 시 지수 전반으로 전이될 위험"
+    ],
+    "easySummary": [
+      "QQQ는 데드크로스 D+12로 종가 704.72가 MA10 712.25·MA20 712.67·MA50 709.88을 모두 하회, 방어 구간 유지.",
+      "Nvidia의 내년 칩 물량 2배 발언과 Micron·Intel 반등으로 반도체 재료는 우호적이나 지수 레벨 전이는 미확인.",
+      "마진부채 YoY +37.2%, 10년물 100년 만의 최악 구간, 이란 지정학 베팅 실패 가능성이 3대 하방 리스크."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 135,
+      "ok": 148,
+      "unverified": 20,
+      "dead": 1,
+      "stripped": 0,
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://ng.investing.com/news/stock-market-news/canaccord-initiates-billiontoone-stock-coverage-with-buy-rating-93CH-2682633"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.investing.com/news/insider-trading-news/billiontoone-ceo-oguzhan-atay-sells-25m-in-company-stock-93CH-4904708"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.sec.gov/Archives/edgar/data/1697500/000119312526385257/d441137d8k.htm"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.nasdaq.com/articles/feim-stock-13-despite-incurring-q4-loss-restructuring-costs"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-anf-upgraded-buy-heres-160003218.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.fool.com/coverage/moneyball/2026/09/16/abercrombies-2026-outlook-omnichannel-strategy-drives-disciplined-growth/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.fool.com/investing/2026/09/16/strategy-is-buying-bitcoin-again/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/technology/ai/articles/hpe-raises-fiscal-2026-sales-123515660.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/technology/ai/articles/hpe-raises-fiscal-2026-sales-123515660.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/forum-energy-technologies-fet-stock-134004361.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.marketbeat.com/instant-alerts/event-forum-energy-technologies-targets-16b-revenue-by-2030-in-five-year-growth-plan-2026-08-27/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://stockanalysis.com/stocks/fet/statistics/"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/932696/000093269626000067/nsit-20260806.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.globenewswire.com/news-release/2026/09/17/3364316/3872/en/credit-acceptance-reaches-resolution-with-state-attorneys-general.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.globenewswire.com/news-release/2026/09/15/3362627/3872/en/credit-acceptance-announces-extension-of-revolving-secured-warehouse-facility-and-extension-of-500-0-million-asset-backed-financing.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.globenewswire.com/news-release/2026/09/15/3362627/3872/en/credit-acceptance-announces-extension-of-revolving-secured-warehouse-facility-and-extension-of-500-0-million-asset-backed-financing.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://cyprusshippingnews.com/2026/09/16/crude-tanker-rates-reach-record-levels/"
+        }
+      ],
+      "noQuote": 1
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-09-18"
   }
 };

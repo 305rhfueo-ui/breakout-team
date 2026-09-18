@@ -51,7 +51,7 @@
   }
  },
  "detail": {
-  "fetchedAt": "2026-09-17",
+  "fetchedAt": "2026-09-18",
   "nameKo": "애버크롬비 앤드 피치",
   "nameEn": "ABERCROMBIE & FITCH CO",
   "financials": {
@@ -121,6 +121,30 @@
   "news": {
    "items": [
     {
+     "title": "Abercrombie & Fitch (ANF) Just Overtook the 20-Day Moving Average",
+     "url": "https://www.nasdaq.com/articles/abercrombie-fitch-anf-just-overtook-20-day-moving-average",
+     "date": "2026-09-17",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is It Worth Investing in Abercrombie (ANF) Based on Wall Street's Bullish Views?",
+     "url": "https://www.nasdaq.com/articles/it-worth-investing-abercrombie-anf-based-wall-streets-bullish-views",
+     "date": "2026-09-17",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Investors Heavily Search Abercrombie & Fitch Company (ANF): Here is What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/investors-heavily-search-abercrombie-fitch-company-anf-here-what-you-need-know",
+     "date": "2026-09-17",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Abercrombie & Fitch Chief HR Officer Sells 5,000 Shares",
+     "url": "https://www.nasdaq.com/articles/abercrombie-fitch-chief-hr-officer-sells-5000-shares",
+     "date": "2026-09-17",
+     "publisher": "The Motley Fool"
+    },
+    {
      "title": "Abercrombie's 2026 Outlook: Omnichannel Strategy Drives Disciplined Growth",
      "url": "https://www.nasdaq.com/articles/abercrombies-2026-outlook-omnichannel-strategy-drives-disciplined-growth",
      "date": "2026-09-16",
@@ -130,12 +154,6 @@
      "title": "Are Investors Undervaluing Abercrombie & Fitch (ANF) Right Now?",
      "url": "https://www.nasdaq.com/articles/are-investors-undervaluing-abercrombie-fitch-anf-right-now",
      "date": "2026-09-15",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Has Abercrombie & Fitch (ANF) Outpaced Other Retail-Wholesale Stocks This Year?",
-     "url": "https://www.nasdaq.com/articles/has-abercrombie-fitch-anf-outpaced-other-retail-wholesale-stocks-year",
-     "date": "2026-09-14",
      "publisher": "Zacks"
     }
    ]
@@ -211,7 +229,7 @@
      "analyst": "조소정",
      "title": "[애버크롬비 앤드 피치 (NYS:ANF)] 저점 통과, 점차 낮아지는 리스크",
      "summary": "- 캐주얼 의류 브랜드사 (Hollister, Abercrombie)- 3Q26 실적은 매출과 EPS가 시장 기대치를 상회. Hollister가 매출 성장을 견인한 가운데, 재고 관리와 프로모션 축소로 관세 여파를 상쇄한 덕분- 주가는 선행 PER 9배 수준. 최근 주가 급등에도 밸류에이션 부담은 없음. 향후 실적 가시성 개선될 전망인 만큼, 주가 상승 여력이 커질 듯.",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkemzmcximczmgcgxcmeq.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkemzmcximczmgcgxcmel.pdf"
     }
    ]
   }
