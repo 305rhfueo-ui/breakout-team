@@ -1,0 +1,36 @@
+{
+ "ticker": "NBIS",
+ "news": [],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 531.06,
+  "saleNy": 260.86,
+  "epsCy": null,
+  "epsNy": 124.3,
+  "cyTrend": 17.86,
+  "nyTrend": 16.06,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    454.04,
+    683.89,
+    579.7
+   ],
+   "ni": [
+    -132.58,
+    "흑자전환",
+    "적자확대"
+   ],
+   "opm": [
+    -30.21,
+    -32.08,
+    -109.79
+   ],
+   "updated": "2026-09-08 05:58:37"
+  }
+ }
+}

@@ -1,683 +1,95 @@
 {
- "date": "2026-09-17",
+ "date": "2026-09-18",
  "team": 4,
  "items": [
   {
-   "ticker": "MSGE",
    "category": 1,
-   "company": "MSGE는 뉴욕 매디슨스퀘어가든 아레나를 중심으로 콘서트·이벤트 프로모션, MSG스포츠(닉스·레인저스)向 아레나 임대, 프리미엄 스위트·F&B 매출을 축(軸)으로 하는 라이브 엔터테인먼트 회사다. FY26(6월 결산) 전체 매출 10.6억달러로 닉스 챔피언십 시즌과 콘서트 수요 호조가 핵심 드라이버였고, 현재는 Harry Styles의 30회 레지던시(2026.8.26~10.31)가 가든 부킹을 FY27까지 채우는 국면이다. 52주 고점 대비 87.72%로 신고가권은 아니며 60일 신고가 돌파는 아직 없는 재평가 초입 단계다.",
-   "volumeExplanation": "2026-08-12 Q4 실적에서 매출이 컨센서스를 상회(YoY +27%)했다. 이후 BofA(80→96달러)가 목표가를 상향했고, 이는 컨센서스 EPS 성장률(CY 53.99%)·30일 추정치 상향(CY +9.31%)과 궤를 같이한다. 다만 이 촉매는 8월 실적발표 시점 기준이라 VOL_X 2.82·주간 거래량배수 2.11이 포착한 9/17 현재 시점 거래량 급증과는 약 한 달의 시차가 있어, 인과관계는 확정적 동시성보다는 재평가 흐름의 지속으로 보는 것이 타당하다.",
+   "ticker": "ESEA",
+   "company": "Euroseas Ltd는 그리스 마루시 소재 피더·중형 컨테이너선(21척, 61,144 TEU) 소유·운용사로, 라이너 선사에 정기용선 형태로 선박을 대선하며 매출을 인식한다. 2026년 용선 커버리지 약 97%(2027년 86%, 2028년 50%)에 계약매출 백로그 약 6.5억 달러를 확보했고, 2028~2029년 인도 예정 뉴빌딩 10척을 더해 33척·97,396 TEU 체제로 확장 중이다. 2분기(2026Q2) 순매출 5,650만 달러·순이익 3,322만 달러(EPS 4.74달러)로 어닝 서프라이즈를 기록한 직후 52주 고점 근접 국면이다.",
+   "volumeExplanation": "2026-08-13 2분기 실적이 매출·EPS 모두 컨센서스를 상회했으며 실적 가시성에 대한 재평가 매수가 이어진 것으로 판단된다.",
+   "confidence": "medium",
    "claims": [
     {
      "id": "c1",
-     "statement": "2026년 8월 12일 Q4 실적에서 매출이 컨센서스를 상회했고 순손실(주당 -0.21달러)은 시장 예상 -0.49달러 대비 손실폭이 축소됐다. 4분기 매출은 전년 1억5414만달러에서 YoY +27% 증가한 것으로 보도됐다.",
+     "statement": "2026년 2분기 매출·EPS가 시장 컨센서스를 상회하는 어닝 서프라이즈를 기록했다.",
      "evidence_level": "sourced",
      "sources": [
       {
-       "title": "Madison Square Garden Entertainment (MSGE) Reports Q4 Loss, Tops Revenue Estimates",
-       "publisher": "Zacks (Nasdaq)",
-       "url": "https://www.nasdaq.com/articles/madison-square-garden-entertainment-msge-reports-q4-loss-tops-revenue-estimates",
-       "date": "2026-08-12",
-       "quote": "Madison Square Garden Entertainment (MSGE) Reports Q4 Loss, Tops Revenue Estimates"
-      },
-      {
-       "title": "Madison Square Garden Stock Hits 52-Week High - Here's Why",
-       "publisher": "Benzinga",
-       "url": "https://www.benzinga.com/markets/earnings/26/08/61143333/madison-square-garden-entertainment-tops-1-billion-in-annual-revenue",
-       "date": "2026-08",
-       "quote": "Fourth-quarter revenue rose 27% year over year from $154.14 million, driven by stronger entertainment, arena leasing and food and beverage sales."
+       "title": "Euroseas Ltd. (ESEA) Q2 Earnings and Revenues Surpass Estimates",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/euroseas-ltd-esea-q2-earnings-and-revenues-surpass-estimates",
+       "date": "2026-08-13",
+       "quote": "Euroseas Ltd. (ESEA) Q2 Earnings and Revenues Surpass Estimates"
       }
      ]
-    },
+    }
+   ],
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "c2",
+     "c3",
+     "c4"
+    ],
+    "reason": "C1은 충분히 근거됨. C2의 '26,000달러', '97%'; C3의 '0.80달러', '9/9', '9/16'; C4의 '4척', '5억', '6.5억'이 제공된 quote/제목에 명시되지 않아 제거. 제목은 관련성을 보이지만 구체적 수치는 미확인.",
+    "narrativeFixed": true
+   },
+   "volumeExplanationOriginal": "2026-08-13 2분기 실적이 매출·EPS 모두 컨센서스를 상회했고, 2026-08-25 피더선 Jonathan P 2년 용선 연장계약($26,000/day, EBITDA 약 1,270만 달러 기여)으로 2026년 용선 커버리지가 약 97%까지 확인되면서 실적 가시성에 대한 재평가 매수가 이어진 것으로 판단된다. 여기에 주당 0.80달러 분기배당 지급(2026-09-16)이 겹쳐 배당·펀더멘털 수급이 함께 작용한 것으로 보이나, VOL_X·주간거래량배수가 급등한 9월 중순 시점에 정확히 맞아떨어지는 신규 뉴스는 확인되지 않아 8월 재료의 후행적 확산 성격이 크다.",
+   "categoryName": "어닝 서프라이즈/가이던스 상향",
+   "isHighlight": true
+  },
+  {
+   "ticker": "NSIT",
+   "category": 1,
+   "company": "Insight Enterprises는 기업 고객 대상 IT 하드웨어·소프트웨어 유통 및 클라우드·데이터센터·AI 인프라 관련 전문 서비스를 제공하는 Solutions Integrator다. 매출의 상당 부분이 기업 IT 조달(디바이스·서버·네트워크 장비 재판매)과 클라우드·AI 인프라 구축 서비스에서 발생하며, 최근 분기 매출성장률이 14.73%→1.16%→-1.18%(q0/q1/q2)로 둔화되던 국면에서 2분기 실적이 재가속하며 밸류에이션 리레이팅이 진행 중이다.",
+   "volumeExplanation": "2026년 8월 6일 발표된 2분기 실적에서 EPS 3.86달러(컨센서스 2.93달러 상회)와 매출 24.0억 달러(+14.7% YoY)를 기록하며 시장 예상을 크게 상회했다(SEC 8-K item 2.02, 2026-08-06). 이후 9월 들어 Zacks Strong Buy 상향, Needham Overweight 상향, JPMorgan·Raymond James의 목표주가 인상 등 애널리스트 전망 상향이 이어지며, VOL_X 3.44·주간 거래량배수 3.43의 거래량 급증이 나타났다.",
+   "claims": [
     {
-     "id": "c2",
-     "statement": "2026-08-12 SEC 8-K(Item 2.02 실적 발표, 9.01 재무제표·첨부)로 Q4 실적이 공시됐다.",
+     "id": "c1",
+     "statement": "2026년 8월 6일(8-K, item 2.02) 2분기 실적 발표: EPS 3.86달러(컨센서스 2.93달러 상회), 매출 24.0억 달러(+14.7% YoY)로 어닝 서프라이즈 기록",
      "evidence_level": "sourced",
      "sources": [
       {
-       "title": "MSGE 8-K",
+       "title": "Insight Enterprises (NSIT) Hits New 12-Month High",
+       "publisher": "MarketBeat",
+       "url": "https://www.marketbeat.com/instant-alerts/price-insight-enterprises-nasdaq-nsit-sets-new-12-month-high-whats-next-2026-09-17/",
+       "date": "2026-09-17",
+       "quote": "reported earnings of $3.86 per share versus a $2.93 consensus estimate and revenue of $2.40 billion, representing 14.7% year-over-year growth"
+      },
+      {
+       "title": "INSIGHT ENTERPRISES INC - Form 8-K",
        "publisher": "SEC EDGAR",
-       "url": "https://www.sec.gov/Archives/edgar/data/1952073/000162828026055960/msge-20260812.htm",
-       "date": "2026-08-12",
-       "quote": "Items: 2.02, 9.01"
-      }
-     ]
-    }
-   ],
-   "confidence": "medium",
-   "factcheck": {
-    "verdict": "pass",
-    "removed": [
-     "c3"
-    ],
-    "reason": "Revenue beat (YoY +27%, $154.14M) supported by Benzinga quote. 8-K filing verified. BofA upgrade (80→96) supported. However, Guggenheim (82→103), Susquehanna (80→103), JPMorgan (75→83) lack evidence in quote - only BofA mentioned.",
-    "narrativeFixed": true
-   },
-   "volumeExplanationOriginal": "2026-08-12 Q4 실적에서 매출이 컨센서스를 상회(YoY +27%)했고 주당손실도 시장 예상(-0.49달러)보다 축소된 -0.21달러를 기록했다. 이후 BofA(80→96달러)·Guggenheim(82→103달러)·Susquehanna(80→103달러)·JPMorgan(75→83달러) 등 복수 하우스가 목표가를 일제히 상향했고, 이는 컨센서스 EPS 성장률(CY 53.99%)·30일 추정치 상향(CY +9.31%)과 궤를 같이한다. 다만 이 촉매는 8월 실적발표 시점 기준이라 VOL_X 2.82·주간 거래량배수 2.11이 포착한 9/17 현재 시점 거래량 급증과는 약 한 달의 시차가 있어, 인과관계는 확정적 동시성보다는 재평가 흐름의 지속으로 보는 것이 타당하다.",
-   "categoryName": "어닝 서프라이즈/가이던스 상향",
-   "isHighlight": true
-  },
-  {
-   "ticker": "WOR",
-   "category": 5,
-   "company": "Worthington Enterprises는 Metal Fabrication 업종의 산업재 기업으로, 건설·냉난방용 스틸 제품(탱크·실린더 등)과 소비자·특수 솔루션 제품을 두 개 보고부문으로 운영한다. 최근 데이터센터 액체냉각용 물탱크 공급이 부각되며 전통적 금속가공 업체에서 AI 인프라 익스포저 종목으로 재해석되는 국면에 있다. 직전 분기(2026년 6월 발표)는 컨센서스 EPS·매출을 하회했으나 최근 3개 분기 매출성장률(YoY)은 16.85%/24.35%/19.49%로 두 자릿수를 유지하고 있다.",
-   "volumeExplanation": "9월 15일 8-K(Item 7.01)로 11월 10일 투자자·애널리스트 데이 개최와 함께 두 보고부문 명칭을 Building Performance Solutions/Trade & Specialty Solutions로 변경한다고 공시했고, 여기에 데이터센터 액체냉각용 물탱크 제품이 포함되면서 시장은 이를 \"under-the-radar data center play\"로 해석했다. 이 소식에 WOR 주가는 9월 17일 장중 10.1% 급등했으며, 이는 VOL_X 2.55·주간 거래량배수 2.31 급증과 맞물린다. 6월 Q4 실적 발표 당시에도 데이터센터향 성장이 이미 언급된 바 있어 이번 재편이 기존 테마를 재점화한 성격이다.",
-   "claims": [
-    {
-     "id": "investor-day-announcement",
-     "statement": "9월 15일 8-K(Item 7.01)로 11월 10일 투자자·애널리스트 데이 개최를 공시했고, 시장은 이 변화를 긍정적으로 받아들였다.",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Why Worthington Enterprises Stock Jumped 10%",
-       "publisher": "Yahoo Finance",
-       "url": "https://finance.yahoo.com/markets/stocks/articles/why-worthington-enterprises-stock-jumped-170210616.html",
-       "date": "2026-09-17",
-       "quote": "That will be discussed directly at an Investor and Analyst Day in November. Investors are already cheering the change, though."
-      }
-     ]
-    },
-    {
-     "id": "segment-rename-datacenter",
-     "statement": "회사는 데이터센터 액체냉각용 물탱크 제품을 포함해 보고부문을 Building Performance Solutions로 재편성했다.",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Why Worthington Enterprises Stock Jumped 10%",
-       "publisher": "Yahoo Finance",
-       "url": "https://finance.yahoo.com/markets/stocks/articles/why-worthington-enterprises-stock-jumped-170210616.html",
-       "date": "2026-09-17",
-       "quote": "That includes water tanks used for liquid cooling in data centers, where momentum continues to build. Those products will now be grouped under Worthington's Building Performance Solutions business segment."
-      }
-     ]
-    },
-    {
-     "id": "market-reframes-as-datacenter-play",
-     "statement": "투자자들은 이번 재편을 계기로 Worthington을 '숨은 데이터센터 플레이'로 재해석했고, 이에 주가가 급등했다.",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Why Worthington Enterprises Stock Jumped 10%",
-       "publisher": "Yahoo Finance",
-       "url": "https://finance.yahoo.com/markets/stocks/articles/why-worthington-enterprises-stock-jumped-170210616.html",
-       "date": "2026-09-17",
-       "quote": "The company wants investors to know that it has a sharp focus on its high-demand construction, heating, and cooling products. That includes demand from data center construction, making some investors see Worthington as an under-the-radar data center play."
-      }
-     ]
-    }
-   ],
-   "confidence": "medium",
-   "factcheck": {
-    "verdict": "pass",
-    "removed": [
-     "risk-prior-earnings-miss"
-    ],
-    "reason": "Investor day (Nov 10), segment rename to Building Performance Solutions, datacenter focus all supported by Yahoo Finance quote. However, risk claim citing '30일 전망 변화 CY -1.07%/NY -1.21%' lacks evidence."
-   },
-   "categoryName": "매크로·정책·산업 돌파",
-   "isHighlight": true
-  },
-  {
-   "ticker": "STNG",
-   "category": 1,
-   "company": "Scorpio Tankers는 LR2 34척·MR 42척·Handymax 14척 등 90척의 정제유 제품 탱커를 운용하는 해운사로, 매출은 스팟·풀 운임 및 용선 계약의 TCE(Time Charter Equivalent) 수익에서 발생한다. 최근 3개 분기 매출성장률이 77.54%→46.21%→23.87%(YoY)로 둔화되고 있음에도 여전히 두 자릿수 후반대를 유지 중이며, 컨센서스는 CY EPS성장 107.49%·CY 매출성장 33.86%로 당해년도 실적 서프라이즈 국면이 이어지는 반면 NY(익년) EPS -52.75%·매출 -30.32%로 탱커 운임 정상화(하강 사이클)를 선반영하고 있다.",
-   "volumeExplanation": "2026-09-03 3분기 TCE 운임 갱신 공시와 장기 용선계약 체결이 향후 매출 가시성을 높였다. 여기에 7월 30일 Q2 실적이 매출·EPS 컨센서스를 상회한 서프라이즈가 겹쳤다. 주가가 52주 신고가까지 상승하며 VOL_X 2.41·주간 거래량배수 1.97의 거래량 급증으로 연결됐다. 다만 노드 데이터상 60일 신고가 돌파는 NO·52주 신고가는 N으로 표기돼 외부 기사(마켓비트)의 \"신고가\" 주장과는 산출 기준 차이가 있다.",
-   "claims": [
-    {
-     "id": "c2",
-     "statement": "3분기 현재까지 LR2 평균 일일 TCE $64,900, MR $30,000으로 풀·스팟 운임 강세 지속",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Scorpio Tankers Inc. Announces Updates on Third Quarter 2026 TCE Rates and Time Charter-Out Agreements",
-       "publisher": "GlobeNewswire",
-       "url": "https://www.globenewswire.com/news-release/2026/09/03/3355735/0/en/scorpio-tankers-inc-announces-updates-on-third-quarter-2026-tce-rates-and-time-charter-out-agreements.html",
-       "date": "2026-09-03",
-       "quote": "Average Daily TCE Revenue of $64,900 with 1,249 expected revenue days"
-      }
-     ]
-    },
-    {
-     "id": "c4",
-     "statement": "7월 30일 STNG가 Q2 실적에서 컨센서스 매출·EPS를 상회했다고 Zacks가 보도",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Scorpio Tankers (STNG) Beats Q2 Earnings and Revenue Estimates",
-       "publisher": "Zacks",
-       "url": "https://www.nasdaq.com/articles/scorpio-tankers-stng-beats-q2-earnings-and-revenue-estimates",
-       "date": "2026-07-30",
-       "quote": "Scorpio Tankers (STNG) Beats Q2 Earnings and Revenue Estimates"
-      }
-     ]
-    }
-   ],
-   "confidence": "high",
-   "factcheck": {
-    "verdict": "pass",
-    "removed": [
-     "c1",
-     "c3"
-    ],
-    "reason": "c1 charter rates: only $40,188 supported, $42,500 and $23,900 lack quote evidence. c3 stock price $87.49 supported but EPS $4.68 and YoY +77.5% lack MarketBeat/Zacks quote. c4 Q2 earnings beat supported by Zacks title.",
-    "narrativeFixed": true
-   },
-   "volumeExplanationOriginal": "2026-09-03 3분기 LR2/MR TCE 운임 갱신 공시(LR2 $64,900/일, MR $30,000/일)와 STI Gladiator·STI Jermyn·STI Pontiac 3척의 3년물 장기 용선계약(각 $40,188·$42,500·$23,900/일) 체결이 향후 매출 가시성을 높였다. 여기에 7월 30일 Q2 실적이 매출·EPS 컨센서스를 상회(YoY 매출 +77.5%, EPS $4.68)한 서프라이즈가 겹치며 주가가 9월 16일 52주 신고가 $87.49까지 상승, VOL_X 2.41·주간 거래량배수 1.97의 거래량 급증으로 연결됐다. 다만 노드 데이터상 60일 신고가 돌파는 NO·52주 신고가는 N으로 표기돼 외부 기사(마켓비트)의 \"신고가\" 주장과는 산출 기준 차이가 있다.",
-   "categoryName": "어닝 서프라이즈/가이던스 상향",
-   "isHighlight": true
-  },
-  {
-   "ticker": "USB",
-   "category": 5,
-   "company": "U.S. Bancorp는 시총 97.66B의 대형 지역은행지주사로 예대업무, 결제처리(Elavon), 자산관리·신탁, 기업금융을 겸영하며 최근 Sun Belt 지역 중심으로 Business Banking 부문을 확장 중이다. 최근 3개 분기 매출성장률은 3.75%→4.67%→2.93%(YoY), 순이익률 21.06%→14.85%→24.29%, 영업이익률 24.9%→22.33%→23.08%로 완만한 수익성 등락을 보이고 있다. 150일선 위에서 거래되지만 60일 신고가는 아니며 52주 고점 대비 90.39% 수준에서 가격이 형성돼 있다.",
-   "volumeExplanation": "2026-09-16 FOMC가 기준금리를 25bp 인상해 3.75~4.00%로 올렸다(2023년 이후 첫 인상). 같은 날 USB CFO John Stern이 Barclays 24th Annual Global Financial Services Conference에서 3분기 순이자이익(NII) 성장 가이던스(4~6% 밴드) 상단, 수수료수익 성장 가이던스(12~14% 밴드) 상단 혹은 그 이상, 그리고 내년까지 순이자마진(NIM) 3%대 진입 경로를 재확인하는 발언을 했다. 9월 17일부로 프라임레이트를 6.75%→7.00%로 인상 발표하며 정책 변화가 실제 대출금리에 반영됐다. VOL_X 2.4(거래대금 20일평균 대비), 주간 거래량배수 2.74(당일제외 5일평균 대비)는 이 매크로·컨퍼런스 가이던스 조합에 대한 시장 반응으로 해석된다.",
-   "claims": [
-    {
-     "id": "c1",
-     "statement": "FOMC가 2026년 9월 정책금리를 25bp 인상해 3.75~4.00%로 올렸으며 2023년 이후 첫 인상이다",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Fed rate decision September 2026: Rates rise to 3.75%-4%",
-       "publisher": "CNBC",
-       "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
-       "date": "2026-09-16",
-       "quote": "Inflation remains elevated... Today's policy action will support a timelier return to the Committee's 2 percent goal."
+       "url": "https://www.sec.gov/Archives/edgar/data/932696/000093269626000067/nsit-20260806.htm",
+       "date": "2026-08-06",
+       "quote": "실적 발표"
       }
      ]
     },
     {
      "id": "c2",
-     "statement": "USB CFO John Stern이 Barclays 컨퍼런스에서 3분기 NII 성장 가이던스 상단 도달을 예상한다고 밝혔다",
+     "statement": "9월 들어 Zacks Strong Buy 상향, Needham Overweight 상향, JPMorgan·Raymond James 목표주가 인상 등 애널리스트 전망 상향이 연이어 발생",
      "evidence_level": "sourced",
      "sources": [
       {
-       "title": "U.S. Bancorp at Barclays conference: fee growth and margin gains",
-       "publisher": "Investing.com",
-       "url": "https://www.investing.com/news/transcripts/us-bancorp-at-barclays-conference-fee-growth-and-margin-gains-93CH-4904020",
-       "date": "2026-09-16",
-       "quote": "We anticipate being on the high end of that range on a year-over-year basis"
-      }
-     ]
-    },
-    {
-     "id": "c3",
-     "statement": "수수료수익 성장도 12~14% 밴드 상단 혹은 그 이상을 예상하며, 내년까지 NIM 3%대 진입 경로가 유효하다고 언급했다",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "U.S. Bancorp at Barclays conference: fee growth and margin gains",
-       "publisher": "Investing.com",
-       "url": "https://www.investing.com/news/transcripts/us-bancorp-at-barclays-conference-fee-growth-and-margin-gains-93CH-4904020",
-       "date": "2026-09-16",
-       "quote": "We again expect to be on the high end of the range and maybe even above that, depending on some of the capital markets transactions.; we continue to see a path on 3% net interest margin"
-      }
-     ]
-    },
-    {
-     "id": "c4",
-     "statement": "U.S. Bank이 프라임레이트를 6.75%에서 7.00%로 인상했으며 2026년 9월 17일부로 전 지점에 적용된다",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "U.S. Bank Raises Prime Rate to 7.00% Sept. 17",
-       "publisher": "StockTitan",
-       "url": "https://www.stocktitan.net/news/USB/u-s-bank-increases-prime-lending-rate-to-7-00-uzmg2axqwgpl.html",
-       "date": "2026-09-16",
-       "quote": "U.S. Bancorp announced it has increased its prime lending rate to 7.00 percent from 6.75 percent effective tomorrow, September 17, 2026, at all U.S. Bank locations"
-      }
-     ]
-    }
-   ],
-   "confidence": "high",
-   "factcheck": {
-    "verdict": "pass",
-    "removed": [],
-    "reason": "FOMC rate change to 3.75-4% supported by CNBC title. CFO guidance on NII, fees, NIM supported by Investing.com. Prime rate increase to 7.00% supported by StockTitan. However, '25bp increase' and 'first hike since 2023' not explicitly in provided quotes."
-   },
-   "categoryName": "매크로·정책·산업 돌파",
-   "isHighlight": true
-  },
-  {
-   "category": 4,
-   "ticker": "UNM",
-   "company": "Unum Group은 미국 고용주 채널을 통해 단체장애·생명보험 및 보충형 건강보험(Employee Benefits)을 판매하고 Colonial Life 브랜드와 영국·폴란드 해외법인을 보유한 생명보험사다. 현재는 장기요양보험(LTC) 익스포저를 재보험 거래로 축소하는 디리스킹 국면에 있으며, 그룹장애·그룹생명 손해율 개선과 함께 자사주 매입·배당을 통한 자본환원을 확대하고 있다.",
-   "volumeExplanation": "2026-08-26 이사회가 10억달러 규모 자사주 매입 프로그램을 승인했고, 이 실행이 거래량에 지속적으로 반영되고 있다. 2026-09-09 KBW Insurance Conference에서 McKenney CEO가 기존 실적 가이던스를 재확인했으며, 그룹장애·그룹생명 손해율 개선 및 LTC 디리스킹 진행 상황도 공유했다. VOL_X 2.26·주간 거래량배수 1.73은 단일 급등이라기보다 이 자사주매입 실행과 컨퍼런스 발언이 겹친 구간의 누적된 거래 증가로 해석된다.",
-   "claims": [
-    {
-     "id": "buyback",
-     "statement": "2026-08-26 이사회가 10억달러 규모 신규 자사주매입 프로그램을 승인했고 2026-09-01부터 기존 프로그램을 대체해 개시됐다.",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Unum Group Authorizes $1B Share Buyback Program | UNM Stock News",
-       "publisher": "StockTitan",
-       "url": "https://www.stocktitan.net/news/UNM/unum-group-s-board-of-directors-authorizes-1-billion-share-9l97s9z8fhbn.html",
-       "date": "2026-08-26",
-       "quote": "The timing and amount of share repurchases under the new program will be determined by management based on its evaluation of market conditions and other considerations."
-      }
-     ]
-    },
-    {
-     "id": "underwriting",
-     "statement": "그룹장애 손해율은 상반기 65%로 목표범위(62~64%) 대비 소폭 높았고, 그룹생명 손해율은 66~67%(high 60s)로 예상했던 약 70% 대비 개선됐다고 컨퍼런스에서 밝혔다.",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Unum at KBW Insurance Conference 2026: growth, risk cuts and pricing",
-       "publisher": "Investing.com",
-       "url": "https://www.investing.com/news/transcripts/unum-at-kbw-insurance-conference-2026-growth-risk-cuts-and-pricing-93CH-4894594",
-       "date": "2026-09-09",
-       "quote": "Group Disability: 65% benefit ratio (first half), slightly above 62-64% target range... Group Life: High 60s performance (66-67%), better than anticipated ~70% expectation"
-      }
-     ]
-    },
-    {
-     "id": "earnings_context",
-     "statement": "직전 실적발표(2026-07-28, 8-K item 2.02)는 컨센서스를 상회했다고 보도됐으나 발표일 자체는 이번 거래량 급등일(9/17)과 3주 이상 떨어져 있어 직접 촉매로 보기는 어렵다.",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Unum (UNM) Beats Q2 Earnings and Revenue Estimates",
-       "publisher": "Zacks (Nasdaq)",
-       "url": "https://www.nasdaq.com/articles/unum-unm-beats-q2-earnings-and-revenue-estimates",
-       "date": "2026-07-28",
-       "quote": "Unum (UNM) Beats Q2 Earnings and Revenue Estimates"
-      }
-     ]
-    }
-   ],
-   "confidence": "medium",
-   "factcheck": {
-    "verdict": "pass",
-    "removed": [
-     "kbw_guidance"
-    ],
-    "reason": "$1B buyback authorization (8-26) supported by StockTitan title. Group disability/life loss ratios (65%, 66-67%) supported by Investing.com quote. However, kbw_guidance claim's specific dividend ($300M) and buyback breakdown lack quote evidence.",
-    "narrativeFixed": true
-   },
-   "volumeExplanationOriginal": "2026-08-26 이사회가 9월 1일부터 개시되는 10억달러 규모 자사주 매입 프로그램을 승인했고, 이 실행이 거래량에 지속적으로 반영되고 있다. 2026-09-09 KBW Insurance Conference에서 McKenney CEO가 배당 3억달러+자사주매입 10억달러 합산 약 13억달러 규모의 주주환원 계획과 기존 실적 가이던스를 재확인했으며, 그룹장애·그룹생명 손해율 개선 및 LTC 디리스킹 진행 상황도 공유했다. VOL_X 2.26·주간 거래량배수 1.73은 단일 급등이라기보다 이 자사주매입 실행과 컨퍼런스 발언이 겹친 구간의 누적된 거래 증가로 해석된다.",
-   "categoryName": "기업 턴어라운드",
-   "isHighlight": false
-  },
-  {
-   "ticker": "SYBT",
-   "category": 6,
-   "company": "Stock Yards Bancorp는 켄터키·인디애나·오하이오 지역 상업은행 지주회사로 자산 $10.37B, 예대마진과 자산관리·신탁 수수료가 핵심 수익원이다. 2026년 1월 Field & Main Bancorp 인수(올스톡, 거래가치 약 $105.7M, 교환비율 0.6550주)를 발표해 5월 1일 완료하며 대출·예금 기반을 확장한 상태다. 최근 3개 분기 매출성장률은 11.27%→6.02%→9.31%, 순이익성장률은 17.73%→9.99%→15.52%로 성장률이 둔화와 재가속을 반복하는 국면이다.",
-   "volumeExplanation": "가장 최근 SYBT 고유 이벤트는 8월 19일 분기배당 주당 $0.33 인상 발표이나 거래량 급증 시점(9/17)과 약 4주 간격이 있어 직접적 트리거로 보기 어렵다. 7월 29일 Q2 실적이 컨센서스를 상회했다는 보도가 있었지만 이 역시 7주 이상 지난 이벤트다. 9월 16일 FOMC가 정책금리를 25bp 인상(3.75~4%)한 매크로 이벤트가 같은 주에 있었지만 SYBT를 개별 지목한 보도는 확인되지 않는다.",
-   "claims": [
-    {
-     "id": "c1",
-     "statement": "8월 19일 SYBT 이사회가 분기배당을 주당 $0.33로 인상한다고 발표했다(지급일 10/1, 기준일 9/21, 8-K item 8.01). 거래량 급증 시점과 약 한 달 간격이 있어 단독 촉매로 보기는 어렵다.",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Stock Yards Bancorp Increases Quarterly Cash Dividend to $0.33 per Common Share",
-       "publisher": "Nasdaq (press release)",
-       "url": "https://www.nasdaq.com/press-release/stock-yards-bancorp-increases-quarterly-cash-dividend-033-common-share-2026-08-19",
-       "date": "2026-08-19",
-       "quote": "Stock Yards Bancorp Increases Quarterly Cash Dividend to $0.33 per Common Share"
-      }
-     ]
-    },
-    {
-     "id": "c2",
-     "statement": "7월 29일 SYBT의 Q2 실적이 컨센서스 매출·EPS 추정치를 상회했다는 보도가 있었다(8-K item 2.02, 7/29 제출). 실적 발표일과 거래량 급증 시점 사이 약 7주 간격이 있어 당일 급등의 직접 원인으로 보기 어렵다.",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Stock Yards Bancorp (SYBT) Beats Q2 Earnings and Revenue Estimates",
-       "publisher": "Zacks (Nasdaq)",
-       "url": "https://www.nasdaq.com/articles/stock-yards-bancorp-sybt-beats-q2-earnings-and-revenue-estimates",
-       "date": "2026-07-29",
-       "quote": "Stock Yards Bancorp (SYBT) Beats Q2 Earnings and Revenue Estimates"
-      }
-     ]
-    },
-    {
-     "id": "c3",
-     "statement": "9월 16일 FOMC가 정책금리를 25bp 인상해 3.75~4%로 올린 매크로 이벤트가 거래량 급증 주간과 겹치지만, 이는 지역은행 섹터 전반에 해당하는 이벤트로 SYBT를 개별 지목한 보도는 없다.",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Fed rate decision September 2026: Rates rise to 3.75%-4%",
-       "publisher": "CNBC",
-       "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
-       "date": "2026-09-16",
-       "quote": "Fed rate decision September 2026: Rates rise to 3.75%-4%"
-      }
-     ]
-    }
-   ],
-   "confidence": "medium",
-   "factcheck": {
-    "verdict": "pass",
-    "removed": [],
-    "reason": ""
-   },
-   "categoryName": "암묵적(뉴스 없는 이상거래량)",
-   "isHighlight": false
-  },
-  {
-   "ticker": "PRLB",
-   "category": 6,
-   "company": "Proto Labs는 3D프린팅·CNC가공·사출성형 기반 온디맨드 디지털 제조 서비스업체로, 소량·시제품 부품의 자동화된 견적·생산이 핵심 사업모델이다. 매출은 산업재·의료기기·항공우주 고객군의 시제품 및 저볼륨 생산 수요에 좌우되며, 최근 3개 분기 매출성장률(YoY)은 10.57%→10.4%→12.11%로 완만히 재가속했으나 영업이익률은 7.61%→7.06%→4.98%로 오히려 하락하는 국면이다. 시총 1.99B, 150일선 위에서 거래되지만 52주 고점 대비 89.51%로 신고가권과는 거리가 있고 60일 신고가 돌파도 없는 상태(NO)다.",
-   "volumeExplanation": "2026-09-16 장중 PRLB 주가가 6.3% 상승했지만, marketbeat와 dailypolitical 등 복수 매체는 상승을 설명할 구체적 촉매를 명시하지 못했다. 두 매체 모두 해당 세션 거래량(144,582주)이 일평균(192,725주) 대비 25% 낮았다고 보도했고, 언급된 유일한 실적 근거는 이미 7월 31일 8-K로 공시된 2분기 EPS $0.60(컨센서스 $0.53 상회)로 신규 재료가 아니었다. VOL_X 2.15(거래대금 20일평균 대비)·주간 거래량배수 2.25로 확인되는 이번 거래량 급증을 설명할 기업 고유의 신규 뉴스·공시는 확인되지 않았다.",
-   "claims": [
-    {
-     "id": "c1",
-     "statement": "2026-09-16 PRLB는 장중 6.3% 상승했으나 두 매체 모두 상승을 설명할 구체적 촉매를 명시하지 않음",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Proto Labs (NYSE:PRLB) Trading 6.3% Higher - Time to Buy?",
+       "title": "Insight Enterprises (NSIT) Hits New 12-Month High",
        "publisher": "MarketBeat",
-       "url": "https://www.marketbeat.com/instant-alerts/price-proto-labs-nyse-prlb-trading-63-higher-time-to-buy-2026-09-16/",
-       "date": "2026-09-16",
-       "quote": "Proto Labs, Inc. (NYSE:PRLB – Get Free Report) shot up 6.3% during mid-day trading on Wednesday."
-      },
-      {
-       "title": "Proto Labs (NYSE:PRLB) Trading Up 6.3% – What's Next?",
-       "publisher": "Daily Political",
-       "url": "https://www.dailypolitical.com/2026/09/16/proto-labs-nyseprlb-trading-up-6-3-whats-next.html",
-       "date": "2026-09-16",
-       "quote": "shot up 6.3% during mid-day trading on Wednesday"
-      }
-     ]
-    },
-    {
-     "id": "c2",
-     "statement": "두 매체가 언급한 유일한 실적 근거는 이미 7월 31일 8-K로 공시된 2분기 EPS $0.60(컨센서스 $0.53 상회)이며 신규 뉴스가 아님",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Proto Labs (NYSE:PRLB) Trading 6.3% Higher - Time to Buy?",
-       "publisher": "MarketBeat",
-       "url": "https://www.marketbeat.com/instant-alerts/price-proto-labs-nyse-prlb-trading-63-higher-time-to-buy-2026-09-16/",
-       "date": "2026-09-16",
-       "quote": "The industrial products company reported $0.60 earnings per share for the quarter, topping the consensus estimate of $0.53 by $0.07."
-      },
-      {
-       "title": "Proto Labs (NYSE:PRLB) Trading Up 6.3% – What's Next?",
-       "publisher": "Daily Political",
-       "url": "https://www.dailypolitical.com/2026/09/16/proto-labs-nyseprlb-trading-up-6-3-whats-next.html",
-       "date": "2026-09-16",
-       "quote": "reported $0.60 earnings per share for the quarter, topping the consensus estimate of $0.53"
-      }
-     ]
-    },
-    {
-     "id": "c3",
-     "statement": "동일 기사들이 인용한 9/16 세션 거래량은 144,582주로 일평균 192,725주 대비 25% 낮다고 명시되어, 언론이 포착한 거래량과 VOL_X·주간 거래량배수 스파이크가 정합되지 않음",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Proto Labs (NYSE:PRLB) Trading 6.3% Higher - Time to Buy?",
-       "publisher": "MarketBeat",
-       "url": "https://www.marketbeat.com/instant-alerts/price-proto-labs-nyse-prlb-trading-63-higher-time-to-buy-2026-09-16/",
-       "date": "2026-09-16",
-       "quote": "Approximately 144,582 shares changed hands during trading, a decline of 25% from the average session volume of 192,725 shares."
-      },
-      {
-       "title": "Proto Labs (NYSE:PRLB) Trading Up 6.3% – What's Next?",
-       "publisher": "Daily Political",
-       "url": "https://www.dailypolitical.com/2026/09/16/proto-labs-nyseprlb-trading-up-6-3-whats-next.html",
-       "date": "2026-09-16",
-       "quote": "Approximately 144,582 shares changed hands during trading, a decline of 25% from the average session volume of 192,725 shares."
-      }
-     ]
-    }
-   ],
-   "confidence": "medium",
-   "factcheck": {
-    "verdict": "pass",
-    "removed": [],
-    "reason": ""
-   },
-   "categoryName": "암묵적(뉴스 없는 이상거래량)",
-   "isHighlight": false
-  },
-  {
-   "ticker": "AFG",
-   "category": 6,
-   "company": "AFG는 Great American Insurance Group을 통해 특수 상업라인 중심 손해보험(P&C)을 영위하는 지주회사로, 2026년 2분기 매출·EPS 모두 컨센서스를 상회했으나 최근 3개 분기 순이익 증가율은 42.53%→24.03%→17.25%로 둔화되고 매출성장률은 5.51%→-0.11%→-4%로 최근 분기 역성장 전환했다. 컨센서스 기준 EPS 성장률도 CY 20.38%에서 NY -2.01%로 꺾일 것으로 전망되어 실적 모멘텀 자체는 둔화 국면이다. 주가는 150일선 위, 52주 고점 대비 96.15% 수준까지 올라와 있으나 60일 신고가는 아직 돌파하지 못한 상태다.",
-   "volumeExplanation": "VOL_X 2.13(거래대금 20일 평균 대비), 주간 거래량배수 1.82로 거래량이 터졌으나 이를 설명할 신규 뉴스나 공시는 확인되지 않는다. 가장 최근의 실질 이벤트는 8월 4~5일 2분기 실적 발표(8-K item 2.02, 컨센서스 상회)와 9월 9~11일 KBW 보험 컨퍼런스 IR 미팅·슬라이드 공개이며, 이후 9월 17일까지 추가 공시나 가이던스 변경은 확인되지 않는다. 거래량 급증 시점과 일치하는 표면적 촉매가 없어 암묵적 호재(6번 분류)로 판단한다.",
-   "claims": [
-    {
-     "id": "c1",
-     "statement": "2026년 2분기 매출·EPS 모두 컨센서스 상회(8월 4일 발표, 8월 5일 8-K item 2.02 공시)",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "American Financial Group (AFG) Q2 Earnings and Revenues Beat Estimates",
-       "publisher": "Zacks",
-       "url": "https://www.nasdaq.com/articles/american-financial-group-afg-q2-earnings-and-revenues-beat-estimates",
-       "date": "2026-08-04",
-       "quote": "American Financial Group (AFG) Q2 Earnings and Revenues Beat Estimates"
-      }
-     ]
-    },
-    {
-     "id": "c2",
-     "statement": "실적 발표 이후 주가는 오히려 2.8% 하락, 반등 여부가 불확실하다는 9월 3일자 후속 기사가 최근 뉴스 중 가장 마지막",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "American Financial (AFG) Down 2.8% Since Last Earnings Report: Can It Rebound?",
-       "publisher": "Zacks",
-       "url": "https://www.nasdaq.com/articles/american-financial-afg-down-28-last-earnings-report-can-it-rebound",
-       "date": "2026-09-03",
-       "quote": "American Financial (AFG) Down 2.8% Since Last Earnings Report: Can It Rebound?"
-      }
-     ]
-    },
-    {
-     "id": "c3",
-     "statement": "9월 9일 경영진(공동 CEO, CFO)이 KBW 보험 컨퍼런스에 참석해 투자자 미팅을 진행, 별도 신규 가이던스 발표는 없었음",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "American Financial Group, Inc. Management to Participate in the 2026 Keefe, Bruyette & Woods Insurance Conference",
-       "publisher": "Nasdaq",
-       "url": "https://www.nasdaq.com/press-release/american-financial-group-inc-management-participate-2026-keefe-bruyette-woods",
-       "date": "2026-09-09",
-       "quote": "American Financial Group, Inc. Management to Participate in the 2026 Keefe, Bruyette & Woods Insurance Conference"
+       "url": "https://www.marketbeat.com/instant-alerts/price-insight-enterprises-nasdaq-nsit-sets-new-12-month-high-whats-next-2026-09-17/",
+       "date": "2026-09-17",
+       "quote": "Zacks Research upgraded to \"Strong Buy\", Needham elevated to \"Overweight\", JPMorgan Chase raised its price target to $160, Raymond James maintained an \"Outperform\" rating with a $175 target"
       }
      ]
     },
     {
      "id": "c4",
-     "statement": "9월 11일 KBW 컨퍼런스 발표자료(슬라이드)가 공개된 것이 거래량 급증(9/17) 이전 마지막 확인 가능한 이벤트",
+     "statement": "9월 17일 신고가 경신과 함께 거래량 증가가 보도됨(다만 Node 확정 지표상 52주 신고가 항목은 N으로 표시되어 매체 보도와 상충하는 부분이 있어 리스크로 병기)",
      "evidence_level": "sourced",
      "sources": [
       {
-       "title": "American Financial Group, Inc. (AFG) Presents at KBW Insurance Conference 2026 - Slideshow",
-       "publisher": "Seeking Alpha",
-       "url": "https://seekingalpha.com/article/4945691-american-financial-group-inc-afg-presents-at-kbw-insurance-conference-2026-slideshow",
-       "date": "2026-09-11",
-       "quote": "American Financial Group, Inc. (AFG) Presents at KBW Insurance Conference 2026 - Slideshow"
-      }
-     ]
-    }
-   ],
-   "confidence": "medium",
-   "factcheck": {
-    "verdict": "pass",
-    "removed": [],
-    "reason": ""
-   },
-   "categoryName": "암묵적(뉴스 없는 이상거래량)",
-   "isHighlight": false
-  },
-  {
-   "ticker": "CBU",
-   "category": 6,
-   "company": "Community Financial System은 자회사 Community Bank, N.A.를 통해 예대마진 중심의 지방은행업을 영위하며, 자산관리·보험 수수료 및 베네핏플랜 관리(BPA) 사업이 비이자수익을 보완하는 구조다. 2026년 초 ClearPoint Federal Bank & Trust(신탁관리) 인수, 2025년 말 Santander 지점 7곳(예금 약 5.53억달러) 편입으로 비유기적 성장을 이어왔다. 현재는 2분기(7/28 발표) 실적이 컨센서스를 하회한 이후 30일 전망 변화가 CY -3.55%/NY -3.2%로 하향 조정되고, 9/9에는 주요 이동평균선 하향 이탈 기사가 나온 국면이다.",
-   "volumeExplanation": "제공 자료(뉴스·8-K)와 웹검색 모두에서 9월 중 CBU를 직접 겨냥한 신규 호재성 뉴스나 실적 서프라이즈, 파트너십·정책 이벤트가 확인되지 않는다. 가장 최근 종목 관련 기사(9/9)는 이동평균선 하향 돌파를 다룬 기술적 약세 신호이며, 8/21 8-K는 Item 7.01 Reg FD 공시로 구체적 내용이 특정되지 않는다. 따라서 VOL_X 2.11·주간 거래량배수 1.83의 거래량 증가를 설명할 표면적 호재 근거는 없다.",
-   "claims": [
-    {
-     "id": "c1",
-     "statement": "근거 없음",
-     "evidence_level": "no_source",
-     "sources": []
-    }
-   ],
-   "confidence": "medium",
-   "factcheck": {
-    "verdict": "pass",
-    "removed": [],
-    "reason": ""
-   },
-   "categoryName": "암묵적(뉴스 없는 이상거래량)",
-   "isHighlight": false
-  },
-  {
-   "ticker": "WRB",
-   "category": 6,
-   "company": "W.R. Berkley Corporation은 미국 상업용 Property & Casualty 보험 인수를 주력으로 하는 지주회사로, Insurance 부문과 Reinsurance & Monoline Excess 부문 두 축으로 매출을 구성한다. 최근 Verus Specialty Insurance와 Vela Insurance Services를 통합한 전문보험 자회사 Berkley Meridian을 신설(8/18)했고, 3분기 실적은 10/19 발표 예정이다. 직전 분기(q2) 순이익은 YoY -21.97%로 둔화됐고 컨센서스상 NY EPS 성장률도 -0.68%로 역성장이 전망되는 국면이다.",
-   "volumeExplanation": "VOL_X 2.06(거래대금 20일평균 대비), 주간 거래량배수 1.51의 거래량 증가를 설명할 만한 뉴스·공시성 촉매는 확인되지 않았다. 최근 뉴스는 Zacks의 정형화된 밸류/모멘텀 스코어 기사와 9/10 정기 분기배당($0.10, ex-date 9/21) 발표뿐으로 신규 촉매성이 없고, 마지막 실적발표(8-K, item 2.02, 7/20)는 한 달 넘게 지났으며 다음 실적은 10/19다. 웹검색으로 확인한 2026년 허리케인 시즌 전망도 평년 이하로 업종 전반의 악재성 매크로 이벤트는 없었다.",
-   "claims": [
-    {
-     "id": "c1",
-     "statement": "근거 없음",
-     "evidence_level": "no_source",
-     "sources": []
-    }
-   ],
-   "confidence": "medium",
-   "factcheck": {
-    "verdict": "pass",
-    "removed": [],
-    "reason": ""
-   },
-   "categoryName": "암묵적(뉴스 없는 이상거래량)",
-   "isHighlight": false
-  },
-  {
-   "category": 6,
-   "claims": [
-    {
-     "id": "no-source",
-     "statement": "근거 없음",
-     "evidence_level": "no_source",
-     "sources": []
-    }
-   ],
-   "company": "Westamerica Bancorporation은 캘리포니아 San Rafael에 본사를 둔 Westamerica Bank의 지주회사로, 중북부 캘리포니아 상업·개인 고객 대상 전통적 예대마진 기반 지역은행이다. 최근 3개 분기 매출성장률이 -2.49% → -6.35% → -8.55%(YoY)로 감속폭이 확대되고 순이익도 -5.78% → -11.86% → -12.28%로 동반 위축되는 국면이며, 다만 영업이익률은 55.58~56.66%로 고마진을 유지하고 있다. 컨센서스(yfinance)도 CY 매출성장 -2.79%/NY -1.67%로 역성장 전망을 반영한다.",
-   "confidence": "medium",
-   "volumeExplanation": "제공된 WABC 전용 자료(news·filings)와 웹검색 모두에서 2026-09-17 시점의 거래량 급증(VOL_X 2.06, 주간 거래량배수 1.59)을 직접 설명할 뉴스·공시를 찾지 못했다. news 항목은 배당락 안내(2026-05-01)와 이동평균선 돌파 기술적 기사(2025-08~2026-01)뿐이고, filings 상 가장 최근 실적발표(item 2.02, 2026-07-16)는 스팟 대비 약 2개월 전으로 당일 거래량을 설명하기엔 시차가 크다. 웹검색에서도 자사주 매입 확대(2026년 4월)·1분기 실적 등 과거 이벤트만 확인되고 최근 수일 내 촉매성 뉴스는 확인되지 않아 암묵적 거래량 급증(category 6)으로 분류한다.",
-   "ticker": "WABC",
-   "factcheck": {
-    "verdict": "pass",
-    "removed": [],
-    "reason": "근거 없음 claim은 category 6 암묵적 거래량 급증으로 정상 분류됨"
-   },
-   "categoryName": "암묵적(뉴스 없는 이상거래량)",
-   "isHighlight": false
-  },
-  {
-   "ticker": "BRKR",
-   "category": 5,
-   "company": "Bruker는 질량분석·NMR·X선회절·형광현미경 등 과학기기(BSI 부문)를 제약·바이오텍·학계·산업 R&D 고객에 공급하는 메디컬디바이스 기업이며, 최근 에너지·초전도기술 유닛(BEST)을 통해 MRI·핵융합용 초전도선재 공급으로 사업영역을 확장하고 있다. 최근 3개 분기 YoY 매출성장이 5.15%→2.75%→-0.24%로 둔화된 반면 영업이익률은 -7.79%→1.24%→7.81%로 개선되며 마진 회복 국면에 진입했다. 컨센서스는 CY 매출성장 3.5%·EPS성장 15.98%로 저성장·수익성 반등 스토리를 반영한다.",
-   "volumeExplanation": "9/16 UBS가 BRKR 목표주가를 $45→$65로 상향(Neutral 등급 유지)한 것과 동시에, 에너지·초전도 부문(BEST)이 Luvata와 핵융합로용 RRP 니오븀-주석 초전도선재 산업화 공급계약을 체결했다는 뉴스가 겹치며 거래량이 확대됐다(VOL_X 2.05, 주간 거래량배수 1.61). 여기에 8/4 2분기 실적에서 EPS가 컨센서스를 상회했다는 Zacks 보도(\"Q2 Earnings Beat Estimates\")와 실적발표 이후 주가가 12.5% 상승했다는 후속 기사(9/3)가 이어지며 실적 모멘텀과 신규 기술 테마 뉴스가 동시에 작용한 것으로 보인다.",
-   "claims": [
-    {
-     "id": "c1",
-     "statement": "UBS가 9/16 BRKR 목표주가를 $45에서 $65로 상향했으며 등급은 Neutral을 유지했다.",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "BRKR Stock Pulls Back As Fusion Bet And UBS Target Collide",
-       "publisher": "Timothy Sykes",
-       "url": "https://www.timothysykes.com/news/bruker-corporation-brkr-news-2026_09_16/",
-       "date": "2026-09-16",
-       "quote": "raised its target from $45 to $65 while sticking with Neutral"
-      }
-     ]
-    },
-    {
-     "id": "c2",
-     "statement": "Bruker의 에너지·초전도기술 유닛(BEST)이 Luvata와 협력해 고성능 RRP 니오븀-주석 초전도선재의 산업 생산량을 확대하는 계약을 맺었으며, 이는 핵융합(magnetic confinement fusion) 프로젝트 공급을 겨냥한 것이다.",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "BRKR Stock Pulls Back As Fusion Bet And UBS Target Collide",
-       "publisher": "Timothy Sykes",
-       "url": "https://www.timothysykes.com/news/bruker-corporation-brkr-news-2026_09_16/",
-       "date": "2026-09-16",
-       "quote": "BEST unit teamed up with Luvata to ramp industrial output of high‑performance RRP niobium‑tin superconducting wires."
-      }
-     ]
-    },
-    {
-     "id": "c3",
-     "statement": "8/4 발표된 2분기 실적에서 EPS가 시장 컨센서스를 상회했다.",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Bruker (BRKR) Q2 Earnings Beat Estimates",
-       "publisher": "Zacks",
-       "url": "https://www.nasdaq.com/articles/bruker-brkr-q2-earnings-beat-estimates",
-       "date": "2026-08-04",
-       "quote": "Bruker (BRKR) Q2 Earnings Beat Estimates"
-      }
-     ]
-    },
-    {
-     "id": "c4",
-     "statement": "2분기 실적발표(8/4) 이후 BRKR 주가는 9/3 기준 12.5% 상승한 상태였다.",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Why Is Bruker (BRKR) Up 12.5% Since Last Earnings Report?",
-       "publisher": "Zacks",
-       "url": "https://www.nasdaq.com/articles/why-bruker-brkr-125-last-earnings-report",
-       "date": "2026-09-03",
-       "quote": "Why Is Bruker (BRKR) Up 12.5% Since Last Earnings Report?"
-      }
-     ]
-    }
-   ],
-   "confidence": "medium",
-   "factcheck": {
-    "verdict": "pass",
-    "removed": [],
-    "reason": "모든 claims가 출처의 quote에 의해 검증됨. c2의 'magnetic confinement fusion'은 제목의 'Fusion Bet'으로 뒷받침"
-   },
-   "categoryName": "매크로·정책·산업 돌파",
-   "isHighlight": true
-  },
-  {
-   "ticker": "MELI",
-   "category": 6,
-   "company": "MercadoLibre는 라틴아메리카 최대 이커머스·핀테크 플랫폼으로, Mercado Envios(물류)와 Mercado Pago(결제·대출)가 핵심 매출축이며 브라질·아르헨티나·멕시코가 주력 시장이다. 최근 3개 분기 매출성장률은 49.76%→49.03%→44.56%(YoY)로 여전히 40%대 후반 고성장을 유지하나 영업이익률은 10.15%→6.91%→6.72%로 최근 분기일수록 낮아졌고 순이익은 세 분기 연속 적자(-10.9/-15.59/-12.52)다. 직전 실적 발표는 2026-08-05(8-K item 2.02)로 이미 한 달 넘게 지난 시점이라 이번 거래량 급증의 직접 촉매는 아니다.",
-   "volumeExplanation": "VOL_X 2.04, 주간 거래량배수 2.01로 거래량이 급증한 구간(9월 둘째 주)에 실제 공시된 8-K는 10억달러 규모 2036년 만기 5.850% 선순위 무담보채권 발행(2026-09-09 계약, 09-14 마감)으로, 실적이나 가이던스와 무관한 통상적 채무조달 이벤트다. 그 외에는 Zacks의 일반적 주가동향·브로커 추천 요약 기사(9/11) 정도만 확인되며 실적 서프라이즈·대형 파트너십·경영진 교체·정책 모멘텀 등 6분류 ①~⑤에 해당하는 구체적 호재 뉴스는 확인되지 않는다. 따라서 이번 거래량 급증은 명시적 촉매가 특정되지 않는 암묵적 케이스로 판단한다.",
-   "claims": [
-    {
-     "id": "bond-offering",
-     "statement": "거래량 급증 구간에 유일하게 확인되는 공시는 10억달러 2036년 만기 5.850% 선순위 무담보채권 발행 완료로, 실적·가이던스와는 무관한 채무조달 이벤트다.",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Mercado Libre Successfully Issues USD 1,000 million of 2036 Senior Unsecured Notes",
-       "publisher": "SEC EDGAR (MercadoLibre 8-K Ex-99.1)",
-       "url": "https://www.sec.gov/Archives/edgar/data/1099590/000114036126036136/ef20081842_8k.htm",
-       "date": "2026-09-10",
-       "quote": "Mercado Libre, Inc. (\"Mercado Libre\") announces the successful issuance of its 2036 senior unsecured notes for a total amount of USD 1,000 million. Title of Securities: 5.850% Notes due 2036."
-      }
-     ]
-    },
-    {
-     "id": "zacks-broker-sentiment",
-     "statement": "거래량 급증 직전 확인되는 또 다른 기사는 브로커들의 매수 추천을 다루는 일반적 투자 의견 기사로, 구체적 촉매 이벤트를 담고 있지 않다.",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Brokers Suggest Investing in MercadoLibre (MELI): Read This Before Placing a Bet",
-       "publisher": "Zacks (Nasdaq.com)",
-       "url": "https://www.nasdaq.com/articles/brokers-suggest-investing-mercadolibre-meli-read-placing-bet",
-       "date": "2026-09-11",
-       "quote": "Brokers Suggest Investing in MercadoLibre (MELI): Read This Before Placing a Bet"
+       "title": "Insight Enterprises (NSIT) Hits New 12-Month High",
+       "publisher": "MarketBeat",
+       "url": "https://www.marketbeat.com/instant-alerts/price-insight-enterprises-nasdaq-nsit-sets-new-12-month-high-whats-next-2026-09-17/",
+       "date": "2026-09-17",
+       "quote": "On September 17, 2026, Insight Enterprises reached a new 52-week high, with the stock trading as high as $167.95 and closing at $165.19, up from a prior close of $160.72. Trading volume was 408,517 shares."
       }
      ]
     }
@@ -686,67 +98,74 @@
    "factcheck": {
     "verdict": "partial",
     "removed": [
-     "zacks-post-earnings-drift"
+     "c3"
     ],
-    "reason": "statement의 '직전 실적발표(8/5)' 중 8/5가 quote에 없음. quote는 'Last Earnings Report'만 기재",
+    "reason": "C1, C2, C4는 quote에 구체적 수치 명시. C3의 '9월 17일'은 quote/제목에 없고 date 필드에만 있어 제거. MarketBeat 기사(date 2026-09-17)의 본문 인용문에서 신고가 및 거래량 정보 확인.",
     "narrativeFixed": true
    },
-   "volumeExplanationOriginal": "VOL_X 2.04, 주간 거래량배수 2.01로 거래량이 급증한 구간(9월 둘째 주)에 실제 공시된 8-K는 10억달러 규모 2036년 만기 5.850% 선순위 무담보채권 발행(2026-09-09 계약, 09-14 마감)으로, 실적이나 가이던스와 무관한 통상적 채무조달 이벤트다. 그 외에는 Zacks의 일반적 주가동향·브로커 추천 요약 기사(9/4, 9/11) 정도만 확인되며 실적 서프라이즈·대형 파트너십·경영진 교체·정책 모멘텀 등 6분류 ①~⑤에 해당하는 구체적 호재 뉴스는 확인되지 않는다. 따라서 이번 거래량 급증은 명시적 촉매가 특정되지 않는 암묵적 케이스로 판단한다.",
-   "categoryName": "암묵적(뉴스 없는 이상거래량)",
-   "isHighlight": false
+   "volumeExplanationOriginal": "2026년 8월 6일 발표된 2분기 실적에서 EPS 3.86달러(컨센서스 2.93달러 상회)와 매출 24.0억 달러(+14.7% YoY)를 기록하며 시장 예상을 크게 상회했다(SEC 8-K item 2.02, 2026-08-06). 이후 9월 들어 Zacks Strong Buy 상향, Needham Overweight 상향, JPMorgan·Raymond James의 목표주가 인상 등 애널리스트 전망 상향이 이어지며, 9월 17일 주가가 평균 애널리스트 목표주가를 상회했다는 보도와 함께 VOL_X 3.44·주간 거래량배수 3.43의 거래량 급증이 나타났다.",
+   "categoryName": "어닝 서프라이즈/가이던스 상향",
+   "isHighlight": true
   },
   {
-   "ticker": "RVTY",
-   "category": 1,
-   "company": "Revvity(구 PerkinElmer)는 생명과학 시약·기기와 진단 솔루션을 제약·바이오텍·학술기관·임상검사기관에 공급하는 Healthcare/Diagnostics & Research 기업이다. Sigma-Aldrich 진단사업 인수 이후 포트폴리오 재편과 원가구조 개선을 통한 마진 확장이 현재 핵심 국면이며, 최근 분기 영업이익률은 12.24%→10.67%→14.47%로 반등 추세를 보이고 있다.",
-   "volumeExplanation": "2026-09-15 Global Healthcare Conference에서 경영진이 2026년까지 영업마진 20%대 후반, 잉여현금흐름 전환율 90% 이상이라는 중장기 마진 목표를 제시하면서 주가가 9.1% 급등해 52주 신고가를 경신했고 이것이 VOL_X 2.01(거래대금 20일평균 대비)의 배경이다. 직전 2026-08-04 발표된 2분기 실적에서도 EPS 1.41달러가 컨센서스 1.21달러를 0.20달러 상회하며 우호적 분위기를 뒷받침했다. Zacks 등 복수 매체가 익일(9/16)까지 이 급등을 후속 보도했다.",
+   "ticker": "JXN",
+   "category": 6,
+   "company": "Jackson Financial은 개인 투자자 대상 변액연금·정액연금을 판매하는 생명보험지주사로, Retail Annuities·Institutional Products·Closed Life and Annuity Blocks 세 부문으로 매출이 구성되며 핵심 영업자회사는 Jackson National Life(JNL)다. 2026년 8월 2분기 실적 발표(8-K item 2.02, 2026-08-03)에서 매출 흑자전환(직전분기 대비 YoY +783.56%)·영업이익률 395.83%를 기록하며 컨센서스 대비 실적 모멘텀을 보였고 목표주가(Target_Status YES)도 상향됐으나, 9월 들어 캡티브 재보험 자회사의 회계 구조를 문제 삼은 숏셀러 리포트로 국면이 급변했다.",
+   "volumeExplanation": "이번 거래량 급증은 호재가 아니라 악재다. 2026-09-17 숏셀러 리서치 The Bear Cave가 QVT Financial의 분석을 인용해 JXN의 캡티브 재보험사 Brooke Life Reinsurance Co.(Brooke Re)의 유동성·솔벤시 우려와 불투명한 보험회계 관행을 지적하는 \"Jackson National and Brooke Re: Pay Me Back Whenever\" 리포트를 발표했다. 리포트는 헤지손실 이연 채권 약 68억 달러가 JNL 법정잉여금의 137%에 달한다고 주장했고 이에 JXN 주가는 당일 4.3~4.7% 급락했으며, VOL_X 3.31·주간 거래량배수 3.49의 이상 거래량과 CLS_POS 34.77(약세 마감)·60일 신고가 불발은 이 매도세와 부합한다.",
    "claims": [
     {
      "id": "c1",
-     "statement": "2026-09-15 Global Healthcare Conference에서 경영진이 2026년까지 영업마진 상위 20%대, FCF 전환율 90%+ 목표를 제시했고 이것이 주가 급등의 직접 촉매였다.",
+     "statement": "2026-09-17 The Bear Cave가 QVT Financial 분석을 인용해 Jackson National Life의 캡티브 재보험사 Brooke Re를 둘러싼 불투명한 보험회계·솔벤시 우려를 제기하는 리포트를 발표했다.",
      "evidence_level": "sourced",
      "sources": [
       {
-       "title": "Revvity stock heads into the open after a 9.1% jump to a new high",
-       "publisher": "ad-hoc-news.de",
-       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/revvity-stock-heads-into-the-open-after-a-9-1-percent-jump-to-a-new-high/70108837",
-       "date": "2026-09-15",
-       "quote": "Revvity shares climbed after management used a global healthcare conference to outline a more profitable future, including targeted operating margins in the upper 20s percent range by 2026 and cash flow conversion above 90 percent."
+       "title": "Jackson Financial Stock Falls After Bear Cave Report Flags Reinsurer Concerns",
+       "publisher": "Benzinga",
+       "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61851608/jackson-financial-stock-falls-after-bear-cave-report-flags-reinsurer-concerns",
+       "date": "2026-09-17",
+       "quote": "The report alleges that Jackson relies on opaque insurance-accounting mechanisms and optimistic actuarial assumptions to artificially bolster its solvency and fund aggressive dividends and buybacks."
       }
      ]
     },
     {
      "id": "c2",
-     "statement": "RVTY는 2026-09-15 장중 52주 신고가를 경신했으며, 직전 2분기(8/4 발표) 실적에서 EPS 1.41달러로 컨센서스 1.21달러를 0.20달러 상회했다.",
+     "statement": "QVT Financial은 JNL이 캡티브 재보험사 Brooke Re에 막대한 익스포저를 갖고 있으며 Brooke Re가 유동성·솔벤시 문제에 직면했다고 지적했다.",
      "evidence_level": "sourced",
      "sources": [
       {
-       "title": "Revvity (NYSE:RVTY) Sets New 12-Month High – Time to Buy?",
-       "publisher": "The Cerbat Gem",
-       "url": "https://www.thecerbatgem.com/2026/09/15/revvity-nyservty-sets-new-12-month-high-time-to-buy.html",
-       "date": "2026-09-15",
-       "quote": "Shares of Revvity Inc. reached a new 52-week high during mid-day trading on Tuesday. The company traded as high as $134.37"
-      },
-      {
-       "title": "Revvity (NYSE:RVTY) Sets New 12-Month High – Time to Buy?",
-       "publisher": "The Cerbat Gem",
-       "url": "https://www.thecerbatgem.com/2026/09/15/revvity-nyservty-sets-new-12-month-high-time-to-buy.html",
-       "date": "2026-09-15",
-       "quote": "reported $1.41 EPS for the quarter, beating analysts' consensus estimates of $1.21 by $0.20"
+       "title": "QVT Financial LP Issues Report Highlighting Significant Liquidity and Solvency Challenges Facing Key Jackson Financial (JXN) Subsidiary Brooke Life Reinsurance Co.",
+       "publisher": "StockTitan",
+       "url": "https://www.stocktitan.net/news/JXN/qvt-financial-lp-issues-report-highlighting-significant-liquidity-an4kl3cw9x86.html",
+       "date": "2026-09-17",
+       "quote": "JNL has an enormous exposure to JXN's captive reinsurer, Brooke Life Reinsurance Co."
       }
      ]
     },
     {
      "id": "c3",
-     "statement": "Zacks 등 매체가 9.1% 급등에 대해 익일까지 후속 기사를 통해 모멘텀 지속 가능성을 다뤘다.",
+     "statement": "리포트는 헤지손실 이연에 따른 약 68억 달러 규모 채권이 JNL 법정잉여금의 137%에 해당한다고 주장했다.",
      "evidence_level": "sourced",
      "sources": [
       {
-       "title": "Strength Seen in Revvity (RVTY): Can Its 9.1% Jump Turn into More Strength?",
-       "publisher": "Zacks",
-       "url": "https://www.nasdaq.com/articles/strength-seen-revvity-rvty-can-its-91-jump-turn-more-strength",
-       "date": "2026-09-16",
-       "quote": "Strength Seen in Revvity (RVTY): Can Its 9.1% Jump Turn into More Strength?"
+       "title": "Jackson Financial stock falls after short-seller raises concerns",
+       "publisher": "Investing.com",
+       "url": "https://www.investing.com/news/stock-market-news/jackson-financial-stock-falls-after-shortseller-raises-concerns-93CH-4906023",
+       "date": "2026-09-17",
+       "quote": "137% of JNL's $4.971 billion statutory surplus"
+      }
+     ]
+    },
+    {
+     "id": "c4",
+     "statement": "리포트 발표 당일 JXN 주가는 4.3% 하락했다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Jackson Financial (NYSE:JXN) Shares Down 4.3% – What's Next?",
+       "publisher": "The Cerbat Gem",
+       "url": "https://www.thecerbatgem.com/2026/09/17/jackson-financial-nysejxn-shares-down-4-3-whats-next.html",
+       "date": "2026-09-17",
+       "quote": "The stock fell 4.3% during trading on Thursday (September 17th), with the company trading as low as $128.87 and last trading at $131.2470."
       }
      ]
     }
@@ -755,56 +174,273 @@
    "factcheck": {
     "verdict": "pass",
     "removed": [],
-    "reason": "모든 claims가 출처의 quote에 의해 검증됨. category 1 어닝 분류는 c2에서 실적 발표 근거(8/4) 확인"
+    "reason": "C1-C4 모두 quote에 구체적 근거 명시. C3의 '137%'는 Investing.com quote에 명확히 있고, C4의 '4.3% 하락'도 The Cerbat Gem quote에 명확히 있음. 숏셀러 리포트 기반이지만 인용된 수치들이 모두 명시됨."
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "ticker": "TMO",
+   "category": 1,
+   "company": "Thermo Fisher Scientific은 생명과학 연구·진단 장비, 시약, 위탁개발생산(CDMO), 실험실 소모품을 아우르는 라이프사이언스 툴 대기업으로, Life Sciences Solutions·Analytical Instruments·Specialty Diagnostics·Laboratory Products & Biopharma Services 4개 부문에서 매출이 발생하며 제약·바이오텍, 학계, 정부 연구기관, 병원 진단 분야가 핵심 고객이다. 2025년 부진했던 유기적 매출성장이 2026년 2분기 들어 반등하며 업황이 저점을 지나 회복 국면으로 전환되는 모습을 보이고 있다.",
+   "volumeExplanation": "2026년 7월23일 발표된 2분기 실적에서 조정 EPS가 컨센서스를 5.6% 상회했고 매출도 컨센서스를 2.7% 상회하며 2026년 매출·EPS 가이던스가 동반 상향됐다. 이후 9월9일 UBS가 목표주가를 35% 인상하며 투자의견을 Buy로 상향했고, 9월15일 Morgan Stanley 헬스케어 컨퍼런스에서 경영진이 \"업황이 더 강한 국면에 진입했다\"며 수주가 매출을 앞지르고 있다고 언급해 주가가 당일 약 3% 상승했다. 실적 서프라이즈·가이던스 상향과 연이은 애널리스트 상향·컨퍼런스 발언이 겹치며 VOL_X 2.28, 주간 거래량배수 1.99를 견인한 것으로 판단된다.",
+   "claims": [
+    {
+     "id": "q2-earnings-beat-guidance-raise",
+     "statement": "2026년 2분기 조정 EPS $6.03(YoY +13%, 컨센서스 +5.6% 상회), 매출 $11.99B(YoY +10%, 컨센서스 +2.7% 상회), 유기적성장 5%로 반등하며 2026년 매출 가이던스를 $47.4B-$48.1B, EPS 가이던스를 $24.93-$25.33로 상향했다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Thermo Fisher Raises 2026 Outlook After Strong Second-Quarter Results",
+       "publisher": "Yahoo Finance / Zacks",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/thermo-fisher-raises-2026-outlook-153700819.html",
+       "date": "2026-07-23",
+       "quote": "Adjusted earnings increased 13% year over year to $6.03 per share, topping the Zacks Consensus Estimate by 5.6%. Revenues rose 10% to $11.99 billion and beat the consensus mark by 2.7%, while organic revenue growth reached 5%. Management lifted its 2026 revenue forecast to $47.4 billion-$48.1 billion and adjusted earnings guidance to $24.93-$25.33 per share."
+      }
+     ]
+    },
+    {
+     "id": "ubs-upgrade-sep9",
+     "statement": "UBS가 2026년 9월9일 Thermo Fisher를 Neutral에서 Buy로 상향하고 목표주가를 $540에서 $730로 $190(약 35%) 인상했다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Thermo Fisher stock gains on UBS upgrade and solid Q2 growth",
+       "publisher": "ad-hoc-news.de",
+       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/thermo-fisher-stock-gains-on-ubs-upgrade-and-solid-q2-growth/70086594",
+       "date": "2026-09-09",
+       "quote": "UBS upgraded Thermo Fisher Scientific from Neutral to Buy on September 9, 2026 and raised its price target by 190 dollars, from 540 dollars to 730 dollars."
+      }
+     ]
+    },
+    {
+     "id": "healthcare-conference-sep15",
+     "statement": "9월15일 Morgan Stanley 24th Annual Global Healthcare Conference에서 경영진이 업황이 더 강한 국면에 진입했다며 수주가 매출 증가를 앞서고 있다고 밝혔고, 2026년 약 4%의 유기적 매출성장 가이던스를 재확인하며 주가가 약 3% 상승했다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Thermo Fisher stock gains as conference outlook and dividend support valuation",
+       "publisher": "ad-hoc-news.de",
+       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/thermo-fisher-stock-gains-as-conference-outlook-and-dividend-support/70107373",
+       "date": "2026-09-15",
+       "quote": "Thermo Fisher stock rose around 3 percent on September 15, 2026, as management reiterated stronger growth and a full-year organic revenue outlook of about 4 percent. Orders are running ahead of revenue, supporting future growth."
+      }
+     ]
+    },
+    {
+     "id": "clsa-coverage-initiation",
+     "statement": "CLSA가 Thermo Fisher Scientific에 대해 Outperform 투자의견으로 커버리지를 개시했다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "CLSA Initiates Coverage of Thermo Fisher Scientific (TMO) at Outperform",
+       "publisher": "Fintel",
+       "url": "https://www.nasdaq.com/articles/clsa-initiates-coverage-thermo-fisher-scientific-tmo-outperform",
+       "date": "2026-09-04",
+       "quote": "CLSA Initiates Coverage of Thermo Fisher Scientific (TMO) at Outperform"
+      }
+     ]
+    }
+   ],
+   "confidence": "high",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": "모든 claim(q2-earnings-beat-guidance-raise, ubs-upgrade-sep9, healthcare-conference-sep15, clsa-coverage-initiation)의 숫자·날짜·사실이 제공된 quote에 구체적으로 명시되어 있음. EPS $6.03, 매출 $11.99B, 가이던스, UBS 목표주가 인상 금액, Morgan Stanley 컨퍼런스 발언 모두 quote에 있음."
    },
    "categoryName": "어닝 서프라이즈/가이던스 상향",
    "isHighlight": true
   },
   {
-   "ticker": "FBNC",
-   "category": 6,
-   "company": "First Bancorp(NC)는 노스캐롤라이나·사우스캐롤라이나 지역 기반 자회사 First Bank를 통해 상업·소비자 대출 및 예금을 취급하는 전통적 커뮤니티뱅킹 모델의 지역은행지주회사다. 시총 2.59B, 150일선 위에서 거래 중이며 52주 고점 대비 93.77% 수준이나 60일 신고가 돌파·52주 신고가는 아직 나오지 않았다. 최근 3개 분기 매출성장(YoY)은 8.82%→8.23%→11.13%로 완만하고, 영업이익률은 38.56%→37.44%→13.96%로 최근 분기 큰 폭 하락했다.",
-   "volumeExplanation": "가장 최근 8-K(9/15)는 주당 $0.24 현금배당 선언이라는 경상적 공시일 뿐 실적가이던스·신규계약·M&A 내용이 없다. 직전 실적 촉매인 Q2 어닝비트(7/22, item 2.02)는 거래량 급등 시점과 약 2개월 이격돼 있어 직접 연결짓기 어렵고, 9월 중 신규 애널리스트 등급 상향이나 목표주가 변경도 확인되지 않았다. VOL_X 2.01·주간거래량배수 1.79를 설명할 만한 호재성 뉴스는 발견되지 않았다.",
+   "category": 3,
+   "company": "Twist Bioscience는 실리콘 칩 기반 DNA 합성 플랫폼을 통해 NGS(차세대 시퀀싱) 타깃 패널·시약과 항체 라이브러리를 제약·바이오텍·진단 고객사에 공급하는 합성생물학 기업이다. Q3 FY2026(2026-06-30 마감) 매출은 YoY +23.2%로 14분기 연속 성장세를 이어갔으나 영업이익률은 -30.65%로 여전히 적자 구간이며, 이번에는 대형 제약사와의 AI 신약개발 파트너십으로 밸류에이션 리레이팅을 시도하는 국면이다.",
+   "volumeExplanation": "2026-09-16 Eli Lilly의 TuneLab AI 신약개발 플랫폼에 항체 특성분석 데이터 공급사로 참여한다는 파트너십이 공시되었고, 이틀 뒤인 9/18 현재 VOL_X 2.23·주간 거래량배수 2.13과 60일 신고가 돌파가 맞물렸다. 다만 같은 시기 CEO의 Rule 144 매도 신고와 Sell/Neutral 신규 커버리지 개시가 리스크로 병존한다.",
+   "confidence": "medium",
    "claims": [
     {
-     "id": "c1",
-     "statement": "9/15 8-K는 주당 $0.24 현금배당 선언(지급일 10/23, 기준일 9/30)이 유일한 내용이며 실적·가이던스·계약 언급 없음",
+     "id": "lilly-tunelab-partnership",
+     "statement": "2026-09-16 Twist Bioscience가 Eli Lilly의 TuneLab AI 항체 신약개발 플랫폼에 선호 항체 데이터 공급사로 참여하는 파트너십을 발표했다. Wet-lab 데이터를 Lilly의 AI 예측모델(AbLab 등)과 연동하는 구조로, 대형 제약사 공급계약형 호재(카테고리 ③)에 해당한다.",
      "evidence_level": "sourced",
      "sources": [
       {
-       "title": "First Bancorp 8-K (Item 8.01)",
-       "publisher": "SEC EDGAR / First Bancorp",
-       "url": "https://www.sec.gov/Archives/edgar/data/811589/000081158926000155/fbnc-20260915.htm",
-       "date": "2026-09-15",
-       "quote": "its board of directors had declared a cash dividend of $0.24 per share on its common stock payable on October 23, 2026"
+       "title": "Twist Bioscience Joins Lilly TuneLab to Advance Antibody Drug Discovery",
+       "publisher": "StockTitan",
+       "url": "https://www.stocktitan.net/news/TWST/twist-bioscience-joins-lilly-tune-lab-to-advance-antibody-drug-denym8glkqmx.html",
+       "date": "2026-09-16",
+       "quote": "Twist Bioscience becomes a preferred antibody data provider to Lilly's TuneLab AI platform, linking its wet lab output to Lilly-trained discovery models."
+      }
+     ]
+    },
+    {
+     "id": "ceo-rule144-sale-risk",
+     "statement": "파트너십 발표 직후인 2026-09-17 CEO Emily M. Leproust가 보통주 295,037주(시가 약 4,467.7만 달러)에 대한 Rule 144 매도 신고를 제출해, 주가 강세 국면에서 내부자 매도 리스크가 병존한다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Twist Bioscience holder proposes $44.7M share sale | TWST SEC Filing - Form 144",
+       "publisher": "StockTitan",
+       "url": "https://www.stocktitan.net/sec-filings/TWST/144-twist-bioscience-corp-sec-filing-815e8e973f18.html",
+       "date": "2026-09-17",
+       "quote": "Filer Name: Emily M. Leproust; Number of Shares: 295,037 shares of common stock; Dollar Amount: $44,677,452.91 (aggregate market value); Proposed Sale Date: September 17, 2026"
+      }
+     ]
+    },
+    {
+     "id": "mixed-analyst-coverage",
+     "statement": "9월 초 신규 개시된 애널리스트 커버리지는 우호적이지 않다: BWS Financial은 Sell, UBS는 Neutral로 커버리지를 개시해 밸류에이션 부담에 대한 시각이 엇갈린다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "BWS Financial Initiates Coverage of Twist Bioscience with Sell Rating",
+       "publisher": "Fintel",
+       "url": "https://www.nasdaq.com/articles/bws-financial-initiates-coverage-twist-bioscience-sell-rating",
+       "date": "2026-09-10",
+       "quote": "BWS Financial Initiates Coverage of Twist Bioscience with Sell Rating"
+      },
+      {
+       "title": "UBS Initiates Coverage of Twist Bioscience with Neutral Rating",
+       "publisher": "Fintel",
+       "url": "https://www.nasdaq.com/articles/ubs-initiates-coverage-twist-bioscience-neutral-rating",
+       "date": "2026-09-09",
+       "quote": "UBS Initiates Coverage of Twist Bioscience with Neutral Rating"
+      }
+     ]
+    }
+   ],
+   "ticker": "TWST",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "q3-earnings-beat-guidance-raise"
+    ],
+    "reason": "C1(lilly-tunelab-partnership)은 quote에 명확히 있음. Q3-earnings의 '23.2%'는 quote에 '23%'로만 표시되어 정확도 미충족. CEO Rule 144 매도(c3)와 신규 커버리지(c4)는 quote에 구체적 명시. Category 3은 주 호재(파트너십)로 적절하지만, 실적 수치 근거 부족으로 부분 제거.",
+    "narrativeFixed": true
+   },
+   "volumeExplanationOriginal": "2026-09-16 Eli Lilly의 TuneLab AI 신약개발 플랫폼에 항체 특성분석 데이터 공급사로 참여한다는 파트너십이 공시되었고, 이틀 뒤인 9/18 현재 VOL_X 2.23·주간 거래량배수 2.13과 60일 신고가 돌파가 맞물렸다. 배경에는 Q3 매출 YoY +23.2%·가이던스 상향이라는 실적 모멘텀이 깔려 있다. 다만 같은 시기 CEO의 Rule 144 매도 신고와 Sell/Neutral 신규 커버리지 개시가 리스크로 병존한다.",
+   "categoryName": "대형 파트너십·공급계약",
+   "isHighlight": false
+  },
+  {
+   "category": 6,
+   "ticker": "ITT",
+   "company": "ITT는 Motion Technologies(마찰재·EV 브레이크 패드), Industrial Process(펌프·밸브, 에너지·화학 플랜트향), Connect & Control Technologies(항공우주·방산·산업용 커넥터) 3개 세그먼트로 구성된 다각화 산업재 제조업체다. 완성차 OEM(EV 브레이크 마찰재), 에너지·화학 플랜트, 항공우주·방산 고객을 기반으로 하며, 최근 3개 분기 매출성장률(YoY)이 51.49%→32.74%→13.46%로 둔화되는 국면에서 영업이익률은 12.24%→11.65%→16.95%로 최근 분기 레버리지가 개선된 모습이다.",
+   "volumeExplanation": "2026년 8월6일 2Q26 실적(8-K item 2.02)에서 매출·EPS 서프라이즈와 FY26 가이던스 상향으로 주가가 5.4% 상승했으나, 이는 이번 VOL_X(2.12) 측정 시점(9월 중순)과 6주 이상 시차가 있어 직접 촉매로 보기 어렵다. 9월 들어 나온 뉴스는 동종업계 대비 주가·밸류에이션을 비교하는 Zacks 기사 정도로, 신규 실적·계약·정책 발표 같은 명확한 단일 촉매는 확인되지 않는다. 8월6일 실적 발표 이후 추가 8-K 공시도 없어 VOL_X 2.12·주간 거래량배수 1.95를 설명할 뚜렷한 표면적 뉴스는 없다.",
+   "claims": [
+    {
+     "id": "q2-earnings-beat-stale",
+     "statement": "2026년 8월6일 2Q26 실적에서 매출·EPS가 컨센서스를 상회했고 FY26 가이던스가 상향되며 당일 주가는 5.4% 상승했으나, 9월 중순 거래량 급증 시점과는 6주 이상 시차가 있다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "ITT Boosts FY26 Outlook; Stock Up 5.4% - Update",
+       "publisher": "RTTNews",
+       "url": "https://www.nasdaq.com/articles/itt-boosts-fy26-outlook-stock-54-update",
+       "date": "2026-08-06",
+       "quote": "ITT Boosts FY26 Outlook; Stock Up 5.4% - Update"
+      },
+      {
+       "title": "ITT Inc 8-K (2026-08-06)",
+       "publisher": "SEC EDGAR",
+       "url": "https://www.sec.gov/Archives/edgar/data/216228/000021622826000061/itt-20260806.htm",
+       "date": "2026-08-06",
+       "quote": "Item 2.02 실적 발표"
+      }
+     ]
+    },
+    {
+     "id": "recent-news-peer-comparison-only",
+     "statement": "9월 들어 나온 가장 최근 뉴스는 동종업계 대비 주가·밸류에이션을 비교하는 Zacks 기사로, 신규 펀더멘털 정보나 이벤트를 담고 있지 않다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Is ITT (ITT) Stock Outpacing Its Conglomerates Peers This Year?",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/itt-itt-stock-outpacing-its-conglomerates-peers-year",
+       "date": "2026-09-11",
+       "quote": "Is ITT (ITT) Stock Outpacing Its Conglomerates Peers This Year?"
+      },
+      {
+       "title": "CIB or ITT: Which Is the Better Value Stock Right Now?",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/cib-or-itt-which-better-value-stock-right-now",
+       "date": "2026-09-07",
+       "quote": "CIB or ITT: Which Is the Better Value Stock Right Now?"
+      }
+     ]
+    },
+    {
+     "id": "no-fresh-8k-since-earnings",
+     "statement": "8월6일 실적 발표(8-K item 2.02) 이후 신규 8-K 공시가 없어, 최근 거래량 급증을 설명할 추가 공시 이벤트가 확인되지 않는다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "ITT Inc 8-K (2026-08-06)",
+       "publisher": "SEC EDGAR",
+       "url": "https://www.sec.gov/Archives/edgar/data/216228/000021622826000061/itt-20260806.htm",
+       "date": "2026-08-06",
+       "quote": "Item 2.02 실적 발표"
+      }
+     ]
+    }
+   ],
+   "confidence": "medium",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "wolfe-research-reiterate-not-upgrade"
+    ],
+    "reason": "Claim c3: 목표주가 $272가 quote나 제목에 없음. Quote는 '36.38% upside'만 제시",
+    "narrativeFixed": true
+   },
+   "volumeExplanationOriginal": "2026년 8월6일 2Q26 실적(8-K item 2.02)에서 매출·EPS 서프라이즈와 FY26 가이던스 상향으로 주가가 5.4% 상승했으나, 이는 이번 VOL_X(2.12) 측정 시점(9월 중순)과 6주 이상 시차가 있어 직접 촉매로 보기 어렵다. 9월 들어 나온 뉴스는 동종업계 대비 주가·밸류에이션을 비교하는 Zacks 기사와 9월15일 Wolfe Research의 Outperform 등급 재확인(목표주가 $272, 전일 종가 대비 36.38% 상승여력 제시) 정도로, 신규 실적·계약·정책 발표 같은 명확한 단일 촉매는 확인되지 않는다. 8월6일 실적 발표 이후 추가 8-K 공시도 없어 VOL_X 2.12·주간 거래량배수 1.95를 설명할 뚜렷한 표면적 뉴스는 없다.",
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "ticker": "LAD",
+   "category": 6,
+   "company": "Lithia & Driveway(LAD)는 미국 최대 자동차 딜러 그룹으로, 신차·중고차 판매와 F&I(금융·보험) 상품을 아우르는 Vehicle Operations, 할부금융을 담당하는 Financing Operations 두 세그먼트로 매출을 구성한다. 최근 3개 분기 매출성장률이 2.17%→1.01%→0.26%로 둔화되고 순이익 증가율은 -52.08%, -35.61%를 기록했으며 영업이익률도 4.58%→3.62%→3.71%로 압축되는 국면이다. 딜러망 인수(M&A)와 자사주 매입을 병행하는 성숙기 통합형 자동차 리테일러다.",
+   "volumeExplanation": "VOL_X 2.1(거래대금 20일평균 대비)·주간 거래량배수 2.11 급증을 설명할 LAD 고유의 신규 촉매는 확인되지 않는다. 가장 최근 재료인 2Q26 어닝비트(7/29 발표)는 이미 7주 이상 지난 사건이고, 8/28 기사는 오히려 실적 발표 이후 주가가 반등하지 못하고 8.4% 하락했다고 전한다. 9월 들어 확인되는 것은 최고행정책임자(CAO)의 소규모 지분 매도 정도로, 거래량 급증에 대한 설명력이 낮다.",
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "2026-07-29 발표된 2분기 실적이 매출·EPS 모두 컨센서스를 상회했으나, 이는 오늘(9/18) 기준 7주 전 사건으로 현재 거래량 급증의 직접 트리거로 보기 어렵다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Lithia Motors (LAD) Q2 Earnings and Revenues Top Estimates",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/lithia-motors-lad-q2-earnings-and-revenues-top-estimates",
+       "date": "2026-07-29",
+       "quote": "Lithia Motors (LAD) Q2 Earnings and Revenues Top Estimates"
       }
      ]
     },
     {
      "id": "c2",
-     "statement": "직전 실적 촉매인 Q2 어닝비트(8-K item 2.02)는 7/22 발생, 현재 거래량 급등 시점과 약 2개월 이격",
+     "statement": "실적 발표 이후에도 주가는 반등하지 못하고 오히려 8.4% 하락했다는 후속 기사가 있어, 어닝비트 모멘텀이 현재까지 이어지고 있다고 보기 어렵다.",
      "evidence_level": "sourced",
      "sources": [
       {
-       "title": "First Bancorp (FBNC) Q2 Earnings and Revenues Beat Estimates",
-       "publisher": "Zacks (via Nasdaq)",
-       "url": "https://www.nasdaq.com/articles/first-bancorp-fbnc-q2-earnings-and-revenues-beat-estimates",
-       "date": "2026-07-22",
-       "quote": "First Bancorp (FBNC) Q2 Earnings and Revenues Beat Estimates"
+       "title": "Lithia Motors (LAD) Down 8.4% Since Last Earnings Report: Can It Rebound?",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/lithia-motors-lad-down-84-last-earnings-report-can-it-rebound",
+       "date": "2026-08-28",
+       "quote": "Lithia Motors (LAD) Down 8.4% Since Last Earnings Report: Can It Rebound?"
       }
      ]
     },
     {
      "id": "c3",
-     "statement": "9월 중 신규 애널리스트 등급 상향·목표주가 상향 뉴스는 확인되지 않음(가장 최근 등급 상향은 6/3 Buy 상향)",
+     "statement": "9월 들어 확인되는 유일한 회사 관련 이벤트는 최고행정책임자(CAO) David Stork의 소규모 지분 매도(약 11만9천 달러 규모)로, 호재성 촉매로 보기 어렵다.",
      "evidence_level": "sourced",
      "sources": [
       {
-       "title": "First Bancorp (FBNC) Upgraded to Buy: What Does It Mean for the Stock?",
-       "publisher": "Zacks (via Nasdaq)",
-       "url": "https://www.nasdaq.com/articles/first-bancorp-fbnc-upgraded-buy-what-does-it-mean-stock",
-       "date": "2026-06-03",
-       "quote": "First Bancorp (FBNC) Upgraded to Buy: What Does It Mean for the Stock?"
+       "title": "Insider Transaction: David Stork Sells $119K Worth Of Lithia Motors Shares - (LAD)",
+       "publisher": "Benzinga",
+       "url": "https://www.benzinga.com/news/26/09/61742651/insider-transaction-david-stork-sells-119k-worth-lithia-motors-shares",
+       "date": "2026-09-10",
+       "quote": "Insider Transaction: David Stork Sells $119K Worth Of Lithia Motors Shares"
       }
      ]
     }
@@ -813,114 +449,344 @@
    "factcheck": {
     "verdict": "pass",
     "removed": [],
-    "reason": "모든 claims가 출처의 quote에 의해 검증됨. 배당 공시와 2개월 전 실적이 현재 거래량을 설명하지 못하므로 category 6은 적절"
+    "reason": "모든 claim의 숫자·날짜가 quote/제목에서 확인됨"
    },
    "categoryName": "암묵적(뉴스 없는 이상거래량)",
    "isHighlight": false
   },
   {
-   "ticker": "GFF",
    "category": 6,
-   "company": "Griffon Corporation은 Home & Building Products(차고문 브랜드 Clopay·IDEAL·Holmes, 천장선풍기 Hunter·Casablanca)와 Specialty Building Products 두 축으로 구성된 산업재 기업이며, 최근 AMES 북미 툴 사업을 ONCAP과의 조인트벤처(Veritage Brands)로 이관하는 포트폴리오 재편을 마무리했다. 최근 3개 분기 매출성장률은 7.04%→-1.13%→2.64%로 등락하고 영업이익률은 23.99%→20.7%→17.46%로 둔화 추세이며, 순이익은 흑자전환 이후 -65.97%, -9.12%로 변동성이 크다. 컨센서스 상 CY 매출성장은 -27.01%(NY +3.32%)로 급격한 역성장이 반영돼 있는데, JV 이관에 따른 연결범위 축소 효과가 상당 부분을 차지할 가능성이 있어 확인이 필요하다.",
-   "volumeExplanation": "이번 주 VOL_X 1.82(거래대금 20일평균 대비)·주간 거래량배수 2.07을 직접 설명할 신규 공시나 기사는 확인되지 않았다. 8/5 발표된 FY26 3분기 실적(8-K item 2.02)이 가장 최근의 실질적 재료였으나 이미 한 달 이상 지난 사안이고, 이후로는 애널리스트 목표주가 재확인 기사(Zacks, 9/2)와 9/16 지급된 정기 분기배당($0.22)만 확인됐다. 60일 신고가 미돌파·CLS_POS 45.37·52주 고점 대비 86.04%로 가격 측면에서 뚜렷한 돌파 신호가 동반되지 않아 특정 호재보다는 저모멘텀 구간의 거래 활성화로 판단된다.",
+   "ticker": "PGR",
+   "confidence": "medium",
+   "company": "Progressive는 개인용 자동차·상업용 자동차 중심의 P&C 손해보험사로, 다이렉트·에이전트 이원 채널과 텔레매틱스 기반 UBI(Snapshot) 언더라이팅이 핵심 경쟁우위다. 최근 3개 분기 매출성장 YoY는 7.29→8.72→12.18%로 가속됐고 순이익 증가율도 4.28→9.78→25.25%로 확대됐으나, 영업이익률은 18.9→17.01→17.09%로 소폭 둔화되는 국면이다. 현재가는 150일선 위·52주 고점 대비 90.35% 수준에서 60일 신고가는 아직 돌파하지 못했다.",
+   "volumeExplanation": "9/17 Zacks 기사는 PGR을 'Most-Watched Stock'으로 소개했지만 Zacks Rank #3(Hold)에 그쳤고 최근 1개월 수익률은 -2.3%로 S&P500 +2.6% 대비 오히려 열위였다. 가장 최근 실적발표(item 2.02) 8-K는 7/15로 이번 거래량 급증 시점과 2개월 가까이 떨어져 있고, 8월 이후 8-K는 모두 item 7.01 Reg FD 공시일 뿐 실적발표가 아니다. VOL_X 2·주간 거래량배수 2.41의 증가는 뉴스·공시상 확인되는 구체적 촉매 없이 나타났으며, Target_Status NO·60일 신고가 돌파 NO 등 기술적 신호도 뚜렷한 브레이크아웃을 뒷받침하지 않는다.",
    "claims": [
     {
      "id": "c1",
-     "statement": "가장 최근의 실질적 재료는 8/5 발표된 FY26 3분기 실적(8-K item 2.02)이며, 관련 컨퍼런스콜 트랜스크립트가 8/12에 보도됐다. 이는 현재 거래량 급증 시점(9/17)과 4주 이상 시차가 있다.",
+     "statement": "9/17 Zacks 기사에서 PGR은 'Most-Watched Stock'으로 언급됐으나 Zacks Rank #3(Hold)이고 최근 1개월 수익률이 -2.3%로 S&P500(+2.6%) 대비 열위였다 — 즉 이 기사 자체는 상승 촉매가 아니라 일상적 트렌딩 종목 소개 기사다.",
      "evidence_level": "sourced",
      "sources": [
       {
-       "title": "Griffon (GFF) Q3 2026 Earnings Call Transcript",
-       "publisher": "The Motley Fool",
-       "url": "https://www.nasdaq.com/articles/griffon-gff-q3-2026-earnings-call-transcript",
-       "date": "2026-08-12",
-       "quote": "Griffon (GFF) Q3 2026 Earnings Call Transcript"
+       "title": "Is Most-Watched Stock The Progressive Corporation (PGR) Worth Betting on Now?",
+       "publisher": "Zacks (via Nasdaq/Yahoo Finance)",
+       "url": "https://www.nasdaq.com/articles/most-watched-stock-progressive-corporation-pgr-worth-betting-now",
+       "date": "2026-09-17",
+       "quote": "shares of this insurer have returned -2.3% over the past month versus the Zacks S&P 500 composite's +2.6% change. Its Zacks Rank #3 does suggest that it may perform in line with the broader market in the near term."
       }
      ]
     },
     {
      "id": "c2",
-     "statement": "9/2 보도된 Zacks 기사는 애널리스트 목표주가(상승여력 27.77%) 재확인성 기사로, 신규 재료라기보다 기존 실적 발표 이후의 모멘텀 재탕 콘텐츠다.",
+     "statement": "제공된 SEC 8-K 목록상 실적발표(item 2.02)는 2026-07-15가 마지막이며, 그 이후(8/7, 8/19) 8-K는 모두 item 7.01 Reg FD 공시로 실적발표가 아니다 — 오늘(9/18) 거래량 급증 시점에 실적 관련 공시가 근접해 있지 않다.",
      "evidence_level": "sourced",
      "sources": [
       {
-       "title": "Wall Street Analysts Predict a 27.77% Upside in Griffon (GFF): Here's  What You Should Know",
-       "publisher": "Zacks",
-       "url": "https://www.nasdaq.com/articles/wall-street-analysts-predict-2777-upside-griffon-gff-heres-what-you-should-know",
-       "date": "2026-09-02",
-       "quote": "Wall Street Analysts Predict a 27.77% Upside in Griffon (GFF): Here's  What You Should Know"
+       "title": "PROGRESSIVE CORP/OH/ - Form 8-K (2026-07-15, item 2.02 실적 발표)",
+       "publisher": "SEC EDGAR",
+       "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000262/pgr-20260715.htm",
+       "date": "2026-07-15",
+       "quote": "items: [\"2.02\",\"9.01\"], itemsKo: [\"실적 발표\",\"재무제표·첨부\"], isEarnings: true"
+      },
+      {
+       "title": "PROGRESSIVE CORP/OH/ - Form 8-K (2026-08-19, item 7.01 Reg FD)",
+       "publisher": "SEC EDGAR",
+       "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000315/pgr-20260819.htm",
+       "date": "2026-08-19",
+       "quote": "items: [\"7.01\",\"9.01\"], itemsKo: [\"Reg FD 공시\",\"재무제표·첨부\"], isEarnings: false"
+      }
+     ]
+    }
+   ],
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": "모든 claim의 숫자·날짜(-2.3%, +2.6%, Rank #3, 2026-07-15, 8/7, 8/19 등)가 quote/제목에서 확인됨"
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "category": 6,
+   "ticker": "CROX",
+   "company": "Crocs, Inc.는 클로그(clog) 슈즈를 핵심으로 한 Crocs 브랜드와 2022년 인수한 HEYDUDE 브랜드를 도매·직판(DTC) 채널로 판매하는 풋웨어 업체다. 최근 3개 분기 매출성장률이 2.62% → -1.69% → -3.25%(YoY)로 역성장 전환했고 영업이익률도 24.22% → 21.8% → 15.29%로 뚜렷이 축소되는 국면으로, 성장 둔화와 마진 압박이 동시에 진행 중이다. 컨센서스도 CY 매출성장 1.48%·NY 2.41%로 저성장을 반영하고 있다.",
+   "volumeExplanation": "제공된 1차 자료(뉴스 7건·8-K 6건)에 이번 거래량 증가(VOL_X 2, 주간 거래량배수 1.77)를 설명할 실적 서프라이즈·가이던스 변화·파트너십·승인·CEO 교체 등 촉매성 뉴스가 없다. 뉴스는 전부 Zacks의 밸류주 비교·동종업종 대비 등락 기사이고, 가장 최근 8-K(2026-07-30, item 2.02 실적)는 이번 거래량 급증 시점과 무관하게 지나간 분기 실적 발표다. 추가 웹검색에서도 Piper Sandler 컨퍼런스 참석과 이사 1인의 소액(약 9.9만 달러) 내부자 매수만 확인됐을 뿐, 가격을 움직일 만한 애널리스트 목표가 변경이나 정책·산업 이벤트는 확인되지 않았다.",
+   "confidence": "medium",
+   "claims": [
+    {
+     "id": "none",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "factcheck": {
+    "verdict": "reject",
+    "removed": [
+     "c1"
+    ],
+    "reason": "유일한 claim c1이 statement='근거 없음'이고 sources=[]로 표시됨. 어떤 촉매도 주장되지 않았으나 volumeExplanation에는 Piper Sandler 컨퍼런스, $99K 내부자 매수 등 구체적 사실이 있어 데이터 불일치"
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "category": 3,
+   "ticker": "NBIS",
+   "confidence": "high",
+   "company": "Nebius Group N.V.는 Yandex 클라우드 사업에서 분사된 AI 특화 클라우드 인프라 기업으로, GPU 기반 컴퓨트 임대와 AI 클라우드 플랫폼을 엔터프라이즈·AI 랩 고객에 공급해 매출을 낸다. 최근 3개 분기 매출성장률이 454.04%→683.89%→579.7%(YoY)로 초고속 확장 국면이나 영업이익률은 -30.21%~-109.79%로 데이터센터·GPU 확보에 따른 대규모 손실이 지속되는 하이퍼그로스·적자 병행 구간에 있다. 컨센서스는 CY 매출성장 531.06%·NY 260.86%를 전망하며 Target_Status YES로 최근 30일간 CY +17.86%/NY +16.06% 이익 전망이 상향됐다.",
+   "volumeExplanation": "2026-09-08 Palantir이 Nebius를 선호(preferred) 주권형(sovereign) AI 인프라 파트너로 지정하고 Nebius의 컴퓨트·추론 엔드포인트를 Palantir 엔터프라이즈 경계 내부에 통합하는 파트너십을 발표했으며, 발표 당일 NBIS 주가는 7.7% 상승해 $243.88로 마감했다. 9월 17일에도 시장이 Palantir의 상업 고객을 Nebius 컴퓨트·클라우드로 유입시킬 것이라는 전망을 재조명하며 주가가 추가로 7~11% 급등, 이 흐름이 VOL_X 1.98(거래대금 20일평균 대비)과 주간 거래량배수 2.45로 이어졌다.",
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "2026-09-08 Palantir이 Nebius를 선호 주권형 AI 인프라 파트너로 지정, Nebius의 컴퓨트·추론 엔드포인트를 Palantir 엔터프라이즈 경계 내부에 통합하는 파트너십을 발표했다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Palantir and Nebius partner to deliver a complete sovereign AI stack to Palantir customers",
+       "publisher": "Nebius Newsroom",
+       "url": "https://nebius.com/newsroom/palantir-and-nebius-partner-to-deliver-a-complete-sovereign-ai-stack-to-palantir-customers",
+       "date": "2026-09-08",
+       "quote": "Nebius' compute infrastructure powers your ability to run your own AI models under conditions you control."
       }
      ]
     },
     {
      "id": "c3",
-     "statement": "9/16에 정기 분기배당($0.22/주, 기준일 8/31)이 지급됐다. 통상적 배당 이벤트로 대규모 거래량을 유발할 재료로 보기는 어렵다.",
+     "statement": "9월 17일에도 시장이 Palantir 파트너십의 상업 고객 유입 효과를 재조명하며 NBIS 주가가 7~11% 추가 급등했다.",
      "evidence_level": "sourced",
      "sources": [
       {
-       "title": "Griffon Corporation Declares Quarterly Dividend",
-       "publisher": "Nasdaq",
-       "url": "https://www.nasdaq.com/press-release/griffon-corporation-declares-quarterly-dividend-2026-08-05",
-       "date": "2026-08-05",
-       "quote": "The Board of Directors of Griffon Corporation declared a regular quarterly cash dividend of $0.22 per share, payable on September 16, 2026 to shareholders of record as of August 31, 2026."
+       "title": "NBIS Stock Jumps As Nebius Lands Palantir AI Deal",
+       "publisher": "StocksToTrade",
+       "url": "https://stockstotrade.com/news/nebius-group-nv-nbis-news-2026_09_17-3/",
+       "date": "2026-09-17",
+       "quote": "Shares of NBIS ripped higher, gaining roughly 7–11% after Nebius Group N.V. announced a strategic AI infrastructure partnership with Palantir."
       }
      ]
     }
    ],
-   "confidence": "low",
    "factcheck": {
-    "verdict": "pass",
-    "removed": [],
-    "reason": "모든 근거가 유효함"
+    "verdict": "partial",
+    "removed": [
+     "c2"
+    ],
+    "reason": "Claim c2: 애널리스트 목표주가 $289.43과 유도된 약 26% 상승여력이 quote('NBIS stock gained 7.7% to close at $243.88')에 없음. 7.7%과 $243.88는 sourced이나 $289.43은 unsourced",
+    "narrativeFixed": true
    },
-   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "volumeExplanationOriginal": "2026-09-08 Palantir이 Nebius를 선호(preferred) 주권형(sovereign) AI 인프라 파트너로 지정하고 Nebius의 컴퓨트·추론 엔드포인트를 Palantir 엔터프라이즈 경계 내부에 통합하는 파트너십을 발표했으며, 발표 당일 NBIS 주가는 7.7% 상승해 $243.88로 마감했고 애널리스트 평균 목표주가($289.43) 대비 약 26% 상승여력이 부각됐다. 9월 17일에도 시장이 Palantir의 상업 고객을 Nebius 컴퓨트·클라우드로 유입시킬 것이라는 전망을 재조명하며 주가가 추가로 7~11% 급등, 이 흐름이 VOL_X 1.98(거래대금 20일평균 대비)과 주간 거래량배수 2.45로 이어졌다.",
+   "categoryName": "대형 파트너십·공급계약",
    "isHighlight": false
   },
   {
-   "ticker": "PRK",
-   "category": 1,
-   "company": "Park National Corp(NYSE:PRK)는 오하이오 기반 지방은행지주사로 자회사 Park National Bank을 통해 상업·소매 대출, 예수금, 자산관리 서비스를 제공하는 Banks-Regional 업종 종목이다. 시총 3.39B. 2026년 7월 27일 발표한 2분기 실적에서 매출·EPS 모두 컨센서스를 상회했고, 이후 애널리스트들의 목표주가 상향과 모멘텀 종목 재조명이 이어졌다.",
-   "volumeExplanation": "2026년 7월 27일 2분기 실적 발표(8-K item 2.02)에서 매출·EPS가 시장 예상치를 상회했고, Zacks는 이를 \"Tops Q2 Earnings and Revenue Estimates\"로 보도했다. 8월 5일 Zacks는 PRK를 \"Great Momentum Stock\"으로 재조명했다. VOL_X 1.81·주간 거래량배수 2.05는 이러한 실적 서프라이즈 이후 지속된 기관 매수·모멘텀 관심의 잔여 효과로 해석되나, 9월 중순 시점에 부합하는 신규 뉴스 트리거는 확인되지 않았다.",
+   "category": 4,
    "claims": [
     {
      "id": "c1",
-     "statement": "2026년 7월 27일 2분기 실적이 매출·EPS 컨센서스를 상회했고 SEC 8-K(item 2.02)로 공시됨",
+     "statement": "ATLC는 2026-09-17 8-K(Item 8.01)로 CAR Auto Finance 사업부를 비계열 제3자에 매각 완료했다고 공시했다.",
      "evidence_level": "sourced",
      "sources": [
       {
-       "title": "Park National (PRK) Tops Q2 Earnings and Revenue Estimates",
-       "publisher": "Zacks (Nasdaq)",
-       "url": "https://www.nasdaq.com/articles/park-national-prk-tops-q2-earnings-and-revenue-estimates",
-       "date": "2026-07-27",
-       "quote": "Park National (PRK) Tops Q2 Earnings and Revenue Estimates"
+       "title": "Atlanticus Holdings Corporation 8-K",
+       "publisher": "SEC EDGAR",
+       "url": "https://www.sec.gov/Archives/edgar/data/1464343/000143774926030605/atlc20260915_8k.htm",
+       "date": "2026-09-17",
+       "quote": "completed the sale of its CAR Auto Finance operations to an unaffiliated third party"
       }
      ]
     },
     {
      "id": "c2",
-     "statement": "2026-07-27 SEC 8-K 실적발표 공시(item 2.02, isEarnings=true)",
+     "statement": "총 대가는 약 $71.2M(현금 $56.2M + 셀러노트 $15.0M)이며, CAR은 Auto Finance 세그먼트 매출의 100%를 차지해 거래 완료 이후 회사는 Auto Finance 세그먼트를 더 이상 운영하지 않는다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Atlanticus Completes Sale of CAR Auto Finance Operations",
+       "publisher": "GlobeNewswire",
+       "url": "https://www.globenewswire.com/news-release/2026/09/17/3363878/0/en/atlanticus-completes-sale-of-car-auto-finance-operations.html",
+       "date": "2026-09-17",
+       "quote": "Total consideration to Atlanticus was approximately $71.2 million, consisting of $56.2 million in cash and a $15.0 million seller note. CAR comprised 100% of the Company's Auto Finance segment. Following the transaction, Atlanticus will no longer operate an Auto Finance segment."
+      }
+     ]
+    },
+    {
+     "id": "c3",
+     "statement": "경영진은 이번 매각이 대차대조표를 강화하고 자본·경영자원을 장기 성장 기회가 큰 소비자신용 상품에 집중시키기 위한 것이라고 설명했다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Atlanticus Completes Sale of CAR Auto Finance Operations",
+       "publisher": "GlobeNewswire",
+       "url": "https://www.globenewswire.com/news-release/2026/09/17/3363878/0/en/atlanticus-completes-sale-of-car-auto-finance-operations.html",
+       "date": "2026-09-17",
+       "quote": "The transaction strengthens our balance sheet and allows us to concentrate our capital and management resources on the consumer credit products where we see the greatest opportunities for long-term value creation and growth."
+      }
+     ]
+    },
+    {
+     "id": "c4",
+     "statement": "회사는 매각 현금 대금을 부채 축소와 고성장 제품 라인 투자에 사용할 계획이라고 밝혔다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Atlanticus Completes Sale of CAR Auto Finance Operations",
+       "publisher": "GlobeNewswire",
+       "url": "https://www.globenewswire.com/news-release/2026/09/17/3363878/0/en/atlanticus-completes-sale-of-car-auto-finance-operations.html",
+       "date": "2026-09-17",
+       "quote": "Atlanticus expects to use the cash proceeds from the sale to reduce debt and invest in higher-growth product lines."
+      }
+     ]
+    }
+   ],
+   "company": "Atlanticus Holdings는 프라이빗라벨·범용 신용카드 등 소비자신용 상품을 취급하는 스페셜티 파이낸스 지주회사로, 최근 3개 분기 매출성장률이 88.84%→96.89%→107.75%(YoY)로 고성장을 이어온 반면 순이익 성장률은 67.23%→49.81%→24.87%로, 영업이익률은 8.87%→8.66%→6.29%로 각각 둔화·압축되는 국면에 있었다. 2026-09-17 8-K를 통해 Auto Finance 세그먼트 전체(CAR)를 $71.2M에 매각 완료하며 오토파이낸스 사업에서 완전히 철수, 소비자신용 핵심 사업으로 자본을 재배분하는 구조조정을 단행했다.",
+   "confidence": "medium",
+   "ticker": "ATLC",
+   "volumeExplanation": "2026-09-17 8-K(Item 8.01)로 CAR Auto Finance 사업부 매각 완료가 공시됐다. 대가는 현금 $56.2M과 셀러노트 $15.0M 합산 약 $71.2M이며, 이로써 Auto Finance 세그먼트는 완전히 종료됐다. 경영진은 매각 대금을 부채 축소와 고성장 소비자신용 제품 투자에 쓰겠다고 밝혔고, 이 공시 시점이 VOL_X 1.59·주간 거래량배수 2.47 급증 시점과 일치한다.",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": "모든 claim의 숫자, 날짜, 사실이 quote 및 출처와 일치함"
+   },
+   "categoryName": "기업 턴어라운드",
+   "isHighlight": false
+  },
+  {
+   "ticker": "CACC",
+   "category": 5,
+   "company": "Credit Acceptance는 신용등급이 낮은(서브프라임) 소비자 대상 중고차 구매자금을 딜러 네트워크를 통해 간접 대출·서비싱하는 전문 여신회사로, 매출은 할부계약 금융수익과 딜러 수수료에서 발생한다. 최근 3개 분기 매출성장률은 0.62%→1.56%→2.47%로 개선세지만 순이익은 55.49→27.75→-19.68(전년비 %)로 둔화·적자전환 흐름을 보였고, 영업이익률은 49~52% 밴드를 유지하고 있다. 2020년 시작된 multistate 조사와 2023년 뉴욕주 검찰총장(NYAG) 소송이라는 장기 규제 리스크가 CFPB의 2025년 4월 철수 이후에도 NYAG·41개주 차원에서 이어져 왔다.",
+   "volumeExplanation": "2026-09-17 뉴욕주 검찰총장 및 40개주 법무장관과 합의(consent judgment)에 도달해 2023년 제기된 소송과 2020년 시작된 multistate 조사가 동시에 종결됐다. $60M 소비자구제기금과 $15.5M 조사비용 지급, 일부 고객 채무 탕감이 포함되지만 기존 충당금 내에서 처리돼 추가 손상 없이 마무리됐다. 바로 이틀 전인 9/15에는 $500M 리볼빙 담보 warehouse facility 만기를 2027→2028년으로 연장하며 금리를 SOFR+185bp에서 +175bp로 낮췄고, 별도 $500M term ABS도 리볼브 종료일을 2028년까지 연장(금리는 5.43%→5.83%로 상향)해 조달 측면 뉴스까지 겹치며 거래량이 함께 증가했다.",
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "2026-09-17 CACC가 뉴욕주 검찰총장 및 40개주 법무장관과 합의에 도달해 2023년 NYAG 소송과 2020년 multistate 조사를 모두 종결했다. $60M 소비자구제기금과 $15.5M 조사비용을 지급하되 기존 충당금 이상의 추가 비용은 발생하지 않는다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Credit Acceptance Reaches Resolution With State Attorneys General",
+       "publisher": "GlobeNewswire",
+       "url": "https://www.globenewswire.com/news-release/2026/09/17/3364316/3872/en/credit-acceptance-reaches-resolution-with-state-attorneys-general.html",
+       "date": "2026-09-17",
+       "quote": "the Company will pay $60 million to a consumer relief fund, pay $15.5 million to the participating attorneys general"
+      },
+      {
+       "title": "Credit Acceptance Reaches Resolution With State Attorneys General",
+       "publisher": "GlobeNewswire",
+       "url": "https://www.globenewswire.com/news-release/2026/09/17/3364316/3872/en/credit-acceptance-reaches-resolution-with-state-attorneys-general.html",
+       "date": "2026-09-17",
+       "quote": "will not require the Company to record additional charges beyond amounts previously accrued"
+      }
+     ]
+    },
+    {
+     "id": "c2",
+     "statement": "2026-09-15 CACC가 $500.0M 리볼빙 담보 warehouse facility의 만기(cease-to-revolve)를 2027-09-20에서 2028-09-15로 연장하고 금리를 SOFR+185bp에서 SOFR+175bp로 인하했다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Credit Acceptance Announces Extension of Revolving Secured Warehouse Facility and Extension of $500.0 Million Asset-Backed Financing",
+       "publisher": "GlobeNewswire",
+       "url": "https://www.globenewswire.com/news-release/2026/09/15/3362627/3872/en/credit-acceptance-announces-extension-of-revolving-secured-warehouse-facility-and-extension-of-500-0-million-asset-backed-financing.html",
+       "date": "2026-09-15",
+       "quote": "the date on which our $500.0 million revolving secured warehouse facility (the \"Facility\") will cease to revolve from September 20, 2027 to September 15, 2028"
+      },
+      {
+       "title": "Credit Acceptance Announces Extension of Revolving Secured Warehouse Facility and Extension of $500.0 Million Asset-Backed Financing",
+       "publisher": "GlobeNewswire",
+       "url": "https://www.globenewswire.com/news-release/2026/09/15/3362627/3872/en/credit-acceptance-announces-extension-of-revolving-secured-warehouse-facility-and-extension-of-500-0-million-asset-backed-financing.html",
+       "date": "2026-09-15",
+       "quote": "The interest rate on borrowings under the Facility has been decreased from the Secured Overnight Financing Rate (\"SOFR\") plus 185 basis points to SOFR plus 175 basis points"
+      }
+     ]
+    },
+    {
+     "id": "c3",
+     "statement": "동시에 별도의 $500M term ABS(비소구 자산유동화)도 리볼브 종료일을 2026-09-15에서 2028-09-15로 연장했으며, 이 건의 금리는 5.43%에서 5.83%로 오히려 상향됐다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Credit Acceptance Announces Extension of Revolving Secured Warehouse Facility and Extension of $500.0 Million Asset-Backed Financing",
+       "publisher": "GlobeNewswire",
+       "url": "https://www.globenewswire.com/news-release/2026/09/15/3362627/3872/en/credit-acceptance-announces-extension-of-revolving-secured-warehouse-facility-and-extension-of-500-0-million-asset-backed-financing.html",
+       "date": "2026-09-15",
+       "quote": "the date on which the Financing will cease to revolve has been extended from September 15, 2026 to September 15, 2028"
+      },
+      {
+       "title": "Credit Acceptance Announces Extension of Revolving Secured Warehouse Facility and Extension of $500.0 Million Asset-Backed Financing",
+       "publisher": "GlobeNewswire",
+       "url": "https://www.globenewswire.com/news-release/2026/09/15/3362627/3872/en/credit-acceptance-announces-extension-of-revolving-secured-warehouse-facility-and-extension-of-500-0-million-asset-backed-financing.html",
+       "date": "2026-09-15",
+       "quote": "The amendment also increased the interest rate under the Financing from 5.43% to 5.83%"
+      }
+     ]
+    },
+    {
+     "id": "c4",
+     "statement": "제공된 SEC 8-K(2026-09-04, item 5.02)는 CFO Jay D. Martin의 사임 관련 내용으로, 2026-07-27 CFO 임기 종료 후 무급 자문역 전환이며 신임 CFO 선임 내용은 포함돼 있지 않아 이번 거래량 급증과 직접적 연관성은 낮다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Credit Acceptance Corporation 8-K (Item 5.02)",
+       "publisher": "SEC EDGAR",
+       "url": "https://www.sec.gov/Archives/edgar/data/885550/000088555026000189/cacc-20260903.htm",
+       "date": "2026-09-04",
+       "quote": "unsalaried employee advisor"
+      }
+     ]
+    }
+   ],
+   "confidence": "medium",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": "모든 claim의 숫자, 날짜, 사실이 quote 및 출처와 일치함"
+   },
+   "categoryName": "매크로·정책·산업 돌파",
+   "isHighlight": true
+  },
+  {
+   "category": 5,
+   "ticker": "SEZL",
+   "company": "Sezzle Inc.는 BNPL(선구매 후결제) 할부결제를 제공하는 핀테크로, 가맹점 수수료와 Sezzle Up·Sezzle Anywhere 등 구독형 상품이 매출원이며 GMV·활성구독자 증가가 실적의 핵심 동력이다. 2026년 2분기 실적에서 매출·순이익 고성장을 이어가며 FY26 가이던스를 상향했고, 현재는 각 주(州)별로 강화되는 BNPL 규제를 피하기 위해 기존 ILC(산업대출회사) 인가 계획을 접고 OCC 국가은행 인가로 전략을 전환하는 국면이다.",
+   "volumeExplanation": "2026-08-28 8-K(Item 8.01)로 공시된 대로 Sezzle이 ILC 인가 대신 OCC 국가은행 인가를 9월 말까지 신청하기로 전략을 전환했고, 이는 뉴욕·일리노이·오리건 등 주(州) 단위 BNPL 규제 강화를 회피하는 정책 대응 성격의 촉매다. 이 이슈는 9/15 Oppenheimer·FT Partners, 9/17 BTIG 컨퍼런스에서 재차 노출됐다. VOL_X 1.44·주간 거래량배수 2.02로 스파이크 강도는 완만해, 단일 대형 이벤트보다 정책 전환 뉴스와 컨퍼런스 시즌이 겹친 결과로 해석된다.",
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "Sezzle이 ILC 인가 계획을 철회하고 OCC 국가은행 인가를 9월 말까지 신청하기로 전환, CEO는 이를 \"가장 강력한 해결책\"이라 언급",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Sezzle pivots to national bank charter",
+       "publisher": "Banking Dive",
+       "url": "https://www.bankingdive.com/news/sezzle-pivots-national-bank-charter-occ-ilc/827810/",
+       "date": "2026-08-13",
+       "quote": "CEO Charlie Youakim은 \"연방 규칙에는 만족하지만, 주(state) 정치인들에 대해서는 덜 편하다\"며 \"국가 은행 인가가 가장 강력한 해결책\"이라고 밝혔습니다. 회사는 OCC(통화감독청) 인가 신청을 \"9월 말까지\" 제출할 계획입니다."
+      }
+     ]
+    },
+    {
+     "id": "c2",
+     "statement": "위 국가은행 인가 전환 건이 2026-08-28 8-K(Item 8.01, 기타 중요사건)로 공식 공시됨",
      "evidence_level": "sourced",
      "sources": [
       {
        "title": "8-K",
        "publisher": "SEC EDGAR",
-       "url": "https://www.sec.gov/Archives/edgar/data/805676/000080567626000057/prk-20260727.htm",
-       "date": "2026-07-27",
-       "quote": "items: 2.02, 7.01, 8.01, 9.01 / isEarnings: true"
+       "url": "https://www.sec.gov/Archives/edgar/data/1662991/000166299126000148/sezl-20260828.htm",
+       "date": "2026-08-28",
+       "quote": "form: 8-K, items: [\"8.01\"], itemsKo: [\"기타 중요사건\"], filingDate: 2026-08-28"
       }
      ]
     },
     {
      "id": "c3",
-     "statement": "실적 발표 이후 Zacks가 PRK를 모멘텀 매수 종목으로 재조명",
+     "statement": "Sezzle 경영진이 9/15 Oppenheimer·FT Partners, 9/17 BTIG 등 투자자 컨퍼런스에 연이어 참석 (측정일 직전)",
      "evidence_level": "sourced",
      "sources": [
       {
-       "title": "Here's Why Park National (PRK) is a Great Momentum Stock to Buy",
-       "publisher": "Zacks (Nasdaq)",
-       "url": "https://www.nasdaq.com/articles/heres-why-park-national-prk-great-momentum-stock-buy",
-       "date": "2026-08-05",
-       "quote": "Here's Why Park National (PRK) is a Great Momentum Stock to Buy"
+       "title": "Sezzle to Announce Second Quarter 2026 Results and Participate in Upcoming Investor Conferences",
+       "publisher": "GlobeNewswire",
+       "url": "https://www.globenewswire.com/news-release/2026/07/14/3327238/0/en/Sezzle-to-Announce-Second-Quarter-2026-Results-and-Participate-in-Upcoming-Investor-Conferences.html",
+       "date": "2026-07-14",
+       "quote": "9월 15일 (오전): Oppenheimer FinTech Leaders Conference / 9월 15일 (오후): FT Partners FinTech Conference / 9월 17일: BTIG Consumer Finance Conference"
       }
      ]
     }
@@ -931,199 +797,72 @@
     "removed": [
      "c4"
     ],
-    "reason": "c4의 statement에서 '목표주가를 $180에서 $205로 상향'이라고 했으나 quote와 title에 $180이 없음. 또한 volumeExplanation의 '25.6% YoY, 22.1% YoY, 34.39%' 수치들이 claims에서 근거되지 않음.",
+    "reason": "c4의 '9/7~9/8 연속으로' 부분이 근거에 없음 (date는 2026-09-08 한 편만 확인됨)",
     "narrativeFixed": true
    },
-   "volumeExplanationOriginal": "2026년 7월 27일 2분기 실적 발표(8-K item 2.02)에서 매출·EPS가 시장 예상치를 상회했고(q0 매출성장 25.6% YoY, 순이익성장 22.1% YoY, 영업이익률 34.39%), Zacks는 이를 \"Tops Q2 Earnings and Revenue Estimates\"로 보도했다. 이어 8월 1일 Keefe Bruyette가 목표주가를 $180→$205로 상향했고, 8월 5일 Zacks는 PRK를 \"Great Momentum Stock\"으로 재조명했다. VOL_X 1.81·주간 거래량배수 2.05는 이러한 실적 서프라이즈 이후 지속된 기관 매수·모멘텀 관심의 잔여 효과로 해석되나, 9월 중순 시점에 부합하는 신규 뉴스 트리거는 확인되지 않았다.",
-   "categoryName": "어닝 서프라이즈/가이던스 상향",
+   "volumeExplanationOriginal": "2026-08-28 8-K(Item 8.01)로 공시된 대로 Sezzle이 ILC 인가 대신 OCC 국가은행 인가를 9월 말까지 신청하기로 전략을 전환했고, 이는 뉴욕·일리노이·오리건 등 주(州) 단위 BNPL 규제 강화를 회피하는 정책 대응 성격의 촉매다. 이 이슈는 9/15 Oppenheimer·FT Partners, 9/17 BTIG 컨퍼런스에서 재차 노출됐고, 9/7~9/8 Zacks의 \"Top Growth Stock\" 기사가 연속 게재되며 관심이 이어졌다. VOL_X 1.44·주간 거래량배수 2.02로 스파이크 강도는 완만해, 단일 대형 이벤트보다 정책 전환 뉴스와 컨퍼런스 시즌이 겹친 결과로 해석된다.",
+   "categoryName": "매크로·정책·산업 돌파",
    "isHighlight": true
   },
   {
-   "ticker": "FCAP",
-   "category": 6,
-   "company": "First Capital, Inc.는 인디애나·켄터키 접경 지역에서 17개 지점을 운영하는 First Harrison Bank의 지주회사로, 시가총액 0.21B의 소형 지역은행주다. 최근 3개 분기(q0~q2) 매출성장률은 YoY 11.02%→11.7%→13.02%, 순이익성장률은 26.15%→33.85%→49.57%, 영업이익률은 33.74%→31.6%→34.05%로 이익 증가세가 매출 증가세를 앞서는 구간이다. 150일선 위에서 거래 중이나 60일 신고가는 아직 돌파하지 못했고(52주 고점 대비 87.88%), CLS_POS 61.29로 종가강도는 중간 수준이다.",
-   "volumeExplanation": "FCAP는 2026-08-19 이사회에서 주당 $0.32 분기 현금배당을 결의했고 기준일 2026-09-11·지급일 2026-09-25로 예정돼 있으며, 2026-08-27자 BNK Invest 기사는 이 배당 기준일을 앞둔 \"dividend run\" 가능성을 제기한 바 있다. 다만 가장 최근 실적 관련 8-K(item 2.02)는 2026-07-24 제출로 현재 시점과 약 8주 괴리가 있어 이번 주 거래량 급증의 직접 트리거로 보기 어렵고, 웹검색으로도 파트너십·정책·경영진 교체 등 추가 촉매는 확인되지 않았다. VOL_X 1.8·주간 거래량배수 2.15는 완만한 수준으로, 배당 관련 수급 외에 ①~⑤에 해당할 만한 명확한 뉴스 촉매가 확인되지 않아 암묵적 호재로 분류한다.",
-   "confidence": "low",
-   "claims": [
-    {
-     "id": "dividend-declaration",
-     "statement": "2026-08-19 이사회가 주당 $0.32 분기 현금배당을 결의, 기준일 2026-09-11·지급일 2026-09-25로 예정",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "First Capital, Inc. Announces Quarterly Dividend",
-       "publisher": "GlobeNewswire",
-       "url": "https://www.globenewswire.com/news-release/2026/08/19/3348003/0/en/first-capital-inc-announces-quarterly-dividend.html",
-       "date": "2026-08-19",
-       "quote": "a quarterly cash dividend of $0.32 (thirty-two cents) per share of common stock"
-      },
-      {
-       "title": "First Capital, Inc. Announces Quarterly Dividend",
-       "publisher": "GlobeNewswire",
-       "url": "https://www.globenewswire.com/news-release/2026/08/19/3348003/0/en/first-capital-inc-announces-quarterly-dividend.html",
-       "date": "2026-08-19",
-       "quote": "September 11, 2026 ... September 25, 2026"
-      }
-     ]
-    },
-    {
-     "id": "dividend-run-note",
-     "statement": "2026-08-27 BNK Invest 기사가 FCAP 배당 기준일을 앞둔 'dividend run' 가능성을 제기",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Upcoming Dividend Run For FCAP?",
-       "publisher": "BNK Invest",
-       "url": "https://www.nasdaq.com/articles/upcoming-dividend-run-fcap",
-       "date": "2026-08-27",
-       "quote": "Upcoming Dividend Run For FCAP?"
-      }
-     ]
-    },
-    {
-     "id": "stale-earnings-8k",
-     "statement": "가장 최근 실적 관련 8-K(item 2.02)는 2026-07-24 제출로, 이번 거래량 급증 시점(2026-09-17)과 약 8주 시차가 있어 직접적 트리거로 보기 어려움",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "8-K",
-       "publisher": "SEC EDGAR",
-       "url": "https://www.sec.gov/Archives/edgar/data/1070296/000110465926086673/fcap-20260724x8k.htm",
-       "date": "2026-07-24",
-       "quote": "실적 발표"
-      }
-     ]
-    }
-   ],
-   "factcheck": {
-    "verdict": "pass",
-    "removed": [],
-    "reason": "모든 근거가 유효함"
-   },
-   "categoryName": "암묵적(뉴스 없는 이상거래량)",
-   "isHighlight": false
-  },
-  {
-   "ticker": "SBR",
-   "category": 6,
-   "company": "Sabine Royalty Trust는 텍사스·루이지애나·오클라호마·플로리다·미시시피 등지의 원유·가스 로열티 지분을 보유한 비영업 로열티 트러스트로, 자체 생산·자본지출 없이 매달 원유·가스 생산량과 가격에 연동한 순로열티 수입을 단위당 현금분배금으로 지급한다. 매출·순이익은 트러스트 특성상 곧 분배가능수입과 사실상 동일하며, 최근 3개 분기 매출성장률이 16.53%→-26.85%→-30.17%로 둔화 추세다. 성장주가 아닌 상품가격·생산량 패스스루(pass-through) 구조라 실적 서프라이즈·가이던스·파트너십 같은 촉매 자체가 구조적으로 존재하지 않는다.",
-   "volumeExplanation": "2026-09-04 8-K(item 2.02)로 9월분 월간 현금분배금 $0.331680/unit을 발표했는데, 이는 전월 $0.619430 대비 큰 폭 감소로 원유·가스 생산량 감소와 유가 하락이 원인이다. 최근 뉴스 흐름도 200일선 상향·하향 돌파 같은 기술적 기사와 정기 분배금 공시뿐, 실적 서프라이즈·대형 계약·정책 모멘텀 등 펀더멘털 호재는 확인되지 않는다. VOL_X 1.51·주간 거래량배수 2.08은 9/15 기준일을 낀 정기 공시 트레이딩과 분배금 감소 반응으로 설명되며, 뚜렷한 호재성 촉매는 없다.",
+   "ticker": "MNPR",
+   "category": 2,
+   "company": "Monopar Therapeutics는 임상단계 바이오제약사로 매출이 없는 전임상~허가단계 파이프라인 기업이며(컨센서스 매출성장 CY 0%/NY 0%), 핵심 자산은 윌슨병 치료제 ALXN1840(bis-choline tetrathiomolybdate)이고 FDA 롤링 NDA 제출이 진행 중이다. 순이익은 최근 3개 분기 기준 적자확대→적자확대→적자축소(q0/q1/q2) 흐름으로 적자 규모가 최근 분기 들어 줄어드는 국면이며, EPS 성장 컨센서스는 CY +62.48%(적자 축소 반영)·NY -36.27%로 갈린다. 시총 0.68B의 소형 바이오텍으로, 규제 이벤트(FDA 지정·NDA 진행상황) 뉴스플로우가 주가 변동의 주된 트리거로 작동하는 구조다.",
+   "volumeExplanation": "ALXN1840의 FDA 허가 경로가 최근 두 달간 연속적으로 진전됐다: 6월30일 FDA 희귀소아질환(RPD) 지정, 7월22일 NDA 롤링 제출 개시, 8월19일에는 신임 Medical Affairs 총괄 영입 소식과 함께 \"ALXN1840이 FDA 결정을 향해 진전 중\"이라는 기사가 나왔다. 8월20일에는 주가가 평균 애널리스트 목표가를 상회했다는 기사도 이어졌고, 8월12일 2분기 실적(8-K item 2.02) 발표도 이 시기에 있었다. VOL_X 1.33·주간 거래량배수 2.21은 특정 단일 이벤트에 의한 급등이라기보다, 8~9월에 걸친 파이프라인·규제 뉴스플로우 누적에 따른 완만한 거래량 증가로 해석된다.",
    "claims": [
     {
      "id": "c1",
-     "statement": "2026-09-04 8-K(item 2.02)로 9월분 분배금 $0.331680/unit 발표, 지급일 9/29, 기준일 9/15",
+     "statement": "Monopar는 2026-07-22 ALXN1840 NDA 롤링 제출을 개시했다.",
      "evidence_level": "sourced",
      "sources": [
       {
-       "title": "Sabine Royalty Trust Announces Monthly Cash Distribution for September 2026",
-       "publisher": "PR Newswire",
-       "url": "https://www.prnewswire.com/news-releases/sabine-royalty-trust-announces-monthly-cash-distribution-for-september-2026-302869626.html",
-       "date": "2026-09-04",
-       "quote": "declared a cash distribution to the holders of its units of beneficial interest of $0.331680 per unit, payable on September 29, 2026, to unit holders of record on September 15, 2026"
+       "title": "Monopar Initiates Rolling NDA Submission for ALXN1840 in Wilson Disease",
+       "publisher": "Yahoo Finance / Nasdaq",
+       "url": "https://finance.yahoo.com/healthcare/articles/monopar-initiates-rolling-nda-submission-120000060.html",
+       "date": "2026-07-22",
+       "quote": "initiated the rolling submission of a New Drug Application (\"NDA\") to the U.S. Food and Drug Administration"
       }
      ]
     },
     {
      "id": "c2",
-     "statement": "9월 분배금 감소 원인은 원유·가스 생산량 감소와 유가 하락, 가스가격 소폭 상승으로 일부 상쇄",
+     "statement": "2026-06-30 FDA가 ALXN1840에 희귀소아질환(Rare Pediatric Disease) 지정을 부여했다(같은 날 8-K Reg FD 공시).",
      "evidence_level": "sourced",
      "sources": [
       {
-       "title": "Sabine Royalty Trust Announces Monthly Cash Distribution for September 2026",
-       "publisher": "PR Newswire",
-       "url": "https://www.prnewswire.com/news-releases/sabine-royalty-trust-announces-monthly-cash-distribution-for-september-2026-302869626.html",
-       "date": "2026-09-04",
-       "quote": "This month's distribution is lower than the previous month's primarily due to a decrease in oil and natural gas production along with lower oil pricing, slightly offset by higher natural gas pricing"
-      }
-     ]
-    },
-    {
-     "id": "c4",
-     "statement": "최근 뉴스는 200일 이동평균선 상향·하향 돌파 등 기술적 이슈뿐으로 펀더멘털 호재 기사 없음",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Notable Two Hundred Day Moving Average Cross - SBR",
-       "publisher": "BNK Invest (Nasdaq)",
-       "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-sbr",
-       "date": "2026-07-09",
-       "quote": "Notable Two Hundred Day Moving Average Cross - SBR"
-      }
-     ]
-    }
-   ],
-   "confidence": "medium",
-   "factcheck": {
-    "verdict": "partial",
-    "removed": [
-     "c3"
-    ],
-    "reason": "c3의 statement에서 '유가 $98.43/bbl 기준'이라고 했으나 quote에 없음. 또한 volumeExplanation의 '$98.43→이번 $79.10/bbl' 유가 수치가 claims에서 근거되지 않음.",
-    "narrativeFixed": true
-   },
-   "volumeExplanationOriginal": "2026-09-04 8-K(item 2.02)로 9월분 월간 현금분배금 $0.331680/unit을 발표했는데, 이는 전월 $0.619430 대비 큰 폭 감소로 원유·가스 생산량 감소와 유가 하락(전월 $98.43→이번 $79.10/bbl)이 원인이다. 최근 뉴스 흐름도 200일선 상향·하향 돌파 같은 기술적 기사와 정기 분배금 공시뿐, 실적 서프라이즈·대형 계약·정책 모멘텀 등 펀더멘털 호재는 확인되지 않는다. VOL_X 1.51·주간 거래량배수 2.08은 9/15 기준일을 낀 정기 공시 트레이딩과 분배금 감소 반응으로 설명되며, 뚜렷한 호재성 촉매는 없다.",
-   "categoryName": "암묵적(뉴스 없는 이상거래량)",
-   "isHighlight": false
-  },
-  {
-   "ticker": "FANG",
-   "category": 5,
-   "company": "Diamondback Energy는 텍사스 퍼미안 분지(Permian Basin)에 집중된 순수 상류(E&P) 기업으로, 매출 대부분이 원유·NGL·천연가스 생산·판매에서 발생해 크루드 가격 변동에 직접 노출된다. 최근 3개 분기 매출성장률은 51.22% → 4.74% → -9.03%(YoY)로 둔화 국면이었고 순이익도 169.24 → -98.22 → -235.75로 적자 전환된 상태에서, 이번 주 국제유가 급등이라는 외생 변수로 다시 주목받는 국면이다. 주가는 150일선 위, 52주 고점($216.90, 2026-08-20 기록) 대비 97.52% 수준을 유지 중이나 60일 신고가는 아직 돌파하지 못했다.",
-   "volumeExplanation": "이번 주 거래량 급증(주간 배수 8.44배, 당일 제외 5일 평균 대비)의 핵심 트리거는 중동발 지정학적 공급 충격이다. 이란 배후 세력으로 지목된 이라크 내 민병대가 사우디아라비아의 동서(East-West) 송유관을 공격해 가동이 중단되면서 WTI가 배럴당 $100을 넘어섰고 Brent는 $108선까지 상승했다(2026-09-14~15). Diamondback은 퍼미안 순수 상류 기업으로 유가 상승분이 실적 레버리지로 직결되는 구조여서, Zacks가 9/15~9/16 연속으로 FANG의 상대강도·성장주 특성을 다룬 기사를 냈고 이 기간 거래량이 크게 실렸다.",
-   "claims": [
-    {
-     "id": "c1",
-     "statement": "사우디아라비아 동서 송유관이 이란 배후 민병대 공격으로 폐쇄되며 유가가 급등, E&P 섹터 전반의 트리거가 됨",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Saudi Arabia built the East-West pipeline in the 1980s in case Iran closed Hormuz. Tehran-backed militias still blasted it, sending oil prices up",
-       "publisher": "Fortune",
-       "url": "https://fortune.com/2026/09/14/saudi-arabia-east-west-pipeline-iran-hormuz-militias-iraq-oil-prices/",
-       "date": "2026-09-14",
-       "quote": "Saudi Arabia built the East-West pipeline in the 1980s in case Iran closed Hormuz. Tehran-backed militias still blasted it, sending oil prices up"
-      }
-     ]
-    },
-    {
-     "id": "c2",
-     "statement": "WTI 원유가 배럴당 $100을 돌파하며 추가 상승 가능성이 제기됨(2026-09-15)",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "WTI Crude Oil Smashes $100: Next Stop $105? – 15 September 2026",
-       "publisher": "NewsBreak",
-       "url": "https://www.newsbreak.com/news/4888015527207-wti-crude-oil-smashes-100-next-stop-105-15-september-2026",
-       "date": "2026-09-15",
-       "quote": "WTI Crude Oil Smashes $100: Next Stop $105?"
+       "title": "Monopar Therapeutics Receives FDA Rare Pediatric Disease Designation for ALXN1840 for the Treatment of Wilson Disease",
+       "publisher": "BioSpace",
+       "url": "https://www.biospace.com/press-releases/monopar-therapeutics-receives-fda-rare-pediatric-disease-designation-for-alxn1840-for-the-treatment-of-wilson-disease",
+       "date": "2026-06-30",
+       "quote": "Monopar Therapeutics Receives FDA Rare Pediatric Disease Designation for ALXN1840 for the Treatment of Wilson Disease"
       }
      ]
     },
     {
      "id": "c3",
-     "statement": "Zacks가 FANG을 상대강도 높은 성장주로 보도(2026-09-16), 유가 상승 국면에서 종목별 주목도 상승을 뒷받침",
+     "statement": "2026-08-19 기사에서 신임 Medical Affairs 총괄 영입과 함께 ALXN1840의 FDA 결정 임박이 언급됐다.",
      "evidence_level": "sourced",
      "sources": [
       {
-       "title": "Here's Why Diamondback Energy (FANG) is a Strong Growth Stock",
-       "publisher": "Zacks",
-       "url": "https://www.nasdaq.com/articles/heres-why-diamondback-energy-fang-strong-growth-stock-0",
-       "date": "2026-09-16",
-       "quote": "Here's Why Diamondback Energy (FANG) is a Strong Growth Stock"
+       "title": "MNPR Names New Medical Affairs Head As ALXN1840 Advances Toward FDA Decision",
+       "publisher": "RTTNews (Nasdaq)",
+       "url": "https://www.nasdaq.com/articles/mnpr-names-new-medical-affairs-head-alxn1840-advances-toward-fda-decision",
+       "date": "2026-08-19",
+       "quote": "MNPR Names New Medical Affairs Head As ALXN1840 Advances Toward FDA Decision"
       }
      ]
     },
     {
      "id": "c4",
-     "statement": "시장 조정(하락) 국면에서도 FANG 주가가 상승해 상대적 강세를 보임(2026-09-15)",
+     "statement": "2026-08-20 MNPR 주가가 평균 애널리스트 목표가를 상회했다는 기사가 나왔다.",
      "evidence_level": "sourced",
      "sources": [
       {
-       "title": "Diamondback Energy (FANG) Gains As Market Dips: What You Should Know",
-       "publisher": "Zacks",
-       "url": "https://www.nasdaq.com/articles/diamondback-energy-fang-gains-market-dips-what-you-should-know",
-       "date": "2026-09-15",
-       "quote": "Diamondback Energy (FANG) Gains As Market Dips: What You Should Know"
+       "title": "MNPR Crosses Above Average Analyst Target",
+       "publisher": "BNK Invest (Nasdaq)",
+       "url": "https://www.nasdaq.com/articles/mnpr-crosses-above-average-analyst-target",
+       "date": "2026-08-20",
+       "quote": "MNPR Crosses Above Average Analyst Target"
       }
      ]
     }
@@ -1132,114 +871,30 @@
    "factcheck": {
     "verdict": "pass",
     "removed": [],
-    "reason": "모든 근거가 유효함"
-   },
-   "categoryName": "매크로·정책·산업 돌파",
-   "isHighlight": true
-  },
-  {
-   "ticker": "RVMD",
-   "category": 2,
-   "company": "Revolution Medicines는 RAS(ON) 억제제 플랫폼을 보유한 정밀종양학 바이오텍으로, 핵심 파이프라인은 RAS 변이 종양을 표적하는 daraxonrasib(RASONQUE)를 포함한 RAS(ON) 다중선택적 억제제 계열이다. 2026-08-26 FDA가 RASONQUE를 이전 전신치료 경험이 있거나 병용 전신요법에 부적합한 전이성 췌장선암(PDAC) 성인 환자 치료제로 정식 승인하면서 순수 임상단계에서 상업화 초기 단계로 전환했으며, 30일분 도매공급가(WAC)는 $39,800이다. 사이트 컨센서스 기준 매출성장은 CY 0% / NY 633.56%, EPS 성장은 CY 63.6% / NY -38.85%로 출시 첫해 저기저(low base) 급증 구조이나, 최근 3개 분기 순이익은 모두 '적자확대'로 R&D·상업화 비용 부담이 지속되고 있다.",
-   "volumeExplanation": "2026-08-26 FDA가 RASONQUE(daraxonrasib)를 전이성 췌장선암 2차 이상 치료제로 정식 승인한 데 이어, 2026-09-14 동일 약물의 1차 치료 병용요법(GnP, 젬시타빈+nab-파클리탁셀)에 대해 FDA가 Breakthrough Therapy Designation을 부여했다. 두 이벤트 모두 정식 온-티커 FDA 규제 뉴스로, 주간 거래량 배수 2.55배가 형성된 최근 거래주 직전~직중에 순차적으로 발생한 카테고리 ② 임상·FDA 촉매에 해당한다.",
-   "claims": [
-    {
-     "id": "1",
-     "statement": "2026-08-26 FDA가 RASONQUE(daraxonrasib)를 이전 전신치료 경험이 있거나 병용 전신요법에 부적합한 전이성 췌장선암 성인 환자 치료제로 정식 승인(8-K Item 8.01 공시, RASolute 302 3상 데이터 근거, 1일 1회 경구, 30일분 WAC $39,800)",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Revolution Medicines, Inc. Form 8-K (Item 8.01, 2026-08-26)",
-       "publisher": "SEC EDGAR",
-       "url": "https://www.sec.gov/Archives/edgar/data/1628171/000119312526366931/rvmd-20260826.htm",
-       "date": "2026-08-26",
-       "quote": "On August 26, 2026, the U.S. Food and Drug Administration approved RASONQUE™ (daraxonrasib) for the treatment of adult patients with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy"
-      }
-     ]
-    },
-    {
-     "id": "2",
-     "statement": "2026-09-14 FDA가 RASONQUE의 1차 치료 병용요법(GnP)에 대해 Breakthrough Therapy Designation 부여, 미치료 전이성 췌장선암(PDAC) 대상, RASolute 302 후속 확장 적응증 근거로 Phase1/2 RMC-GI-102 및 진행중인 글로벌 Phase 3 시험 데이터 인용",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Revolution Medicines Announces U.S. FDA Breakthrough Therapy Designation for RASONQUE™ (daraxonrasib) in Combination with Chemotherapy for First Line Metastatic Pancreatic Cancer",
-       "publisher": "GlobeNewswire",
-       "url": "https://www.globenewswire.com/news-release/2026/09/14/3361540/0/en/revolution-medicines-announces-u-s-fda-breakthrough-therapy-designation-for-rasonque-daraxonrasib-in-combination-with-chemotherapy-for-first-line-metastatic-pancreatic-cancer.html",
-       "date": "2026-09-14",
-       "quote": "the U.S. Food and Drug Administration (FDA) has granted Breakthrough Therapy Designation to RASONQUE (daraxonrasib), the company's RAS(ON) multi-selective inhibitor, for treatment-naïve metastatic pancreatic adenocarcinoma (PDAC) in combination with gemcitabine and nab-paclitaxel (GnP)"
-      }
-     ]
-    }
-   ],
-   "confidence": "high",
-   "factcheck": {
-    "verdict": "partial",
-    "removed": [],
-    "reason": "FDA 승인(8/26)과 Breakthrough Designation(9/14)이라는 핵심 사실은 근거되나, 세부사항(WAC $39,800, RASolute 302 시험명, 투약량, 임상시험 단계 정보)은 제공된 quote에 명시되지 않음. 이들은 보도자료의 보충 정보일 수 있으나 주어진 quote에는 없음."
+    "reason": "모든 claim의 숫자, 날짜, 사실이 quote 및 출처와 일치함"
    },
    "categoryName": "바이오·FDA·임상",
    "isHighlight": false
   },
   {
+   "ticker": "MOG.B",
    "category": 6,
-   "company": "Palomar Holdings는 지진·인랜드마린·일반배상책임·프론팅·작물보험 등 특수 P&C 라인을 다루는 스페셜티 보험사로, 2026년 1월 Gray Casualty & Surety 인수(약 3.11억 달러, $450M 신용공여 조달)로 슈어티 라인을 추가해 사업 다각화를 진행 중이다. 2026년 2분기 매출 3.144억 달러(YoY +54.7%), 비GAAP EPS 2.36달러로 컨센서스를 6.6% 상회했고, 사이트 컨센서스 기준 CY 매출성장 46.91%·EPS성장 28.52%로 여전히 고성장 프로파일을 유지하고 있다. 다만 해당 실적(8/4 발표)은 이미 6주 이상 지난 뉴스로 최근 거래대금 급등의 직접 트리거는 아니다.",
-   "volumeExplanation": "이번 주(9/17 기준) 거래량 배수 2.38배를 설명할 만한 새로운 펀더멘털 촉매는 확인되지 않는다. 가장 최근 실적 이후 주가는 약세를 보여, 거래량 급등이 실적 서프라이즈의 연장선이 아님을 시사한다. 9/9자 Gray Surety 인수 기사는 완료된 딜을 재조명한 리캡 기사다. 실제로 눈에 띄는 것은 9/15자 \"50일 이동평균선 상향 돌파\" 기사 정도로, 기술적 모멘텀 매수 성격에 가깝다.",
-   "confidence": "medium",
-   "ticker": "PLMR",
    "claims": [
     {
-     "id": "c1",
-     "statement": "9/15자 기사는 PLMR이 50일 이동평균선을 상향 돌파했다는 기술적 이벤트만 보도했으며, 이를 촉발한 펀더멘털 뉴스는 언급되지 않는다.",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Palomar (PLMR) Just Overtook the 50-Day Moving Average",
-       "publisher": "Zacks (Nasdaq)",
-       "url": "https://www.nasdaq.com/articles/palomar-plmr-just-overtook-50-day-moving-average",
-       "date": "2026-09-15",
-       "quote": "Palomar (PLMR) Just Overtook the 50-Day Moving Average"
-      }
-     ]
-    },
-    {
-     "id": "c2",
-     "statement": "가장 최근 실적(8/4 발표) 이후 주가는 약세를 보여, 이번 거래량 급등이 실적 서프라이즈의 연장선이 아님을 시사한다.",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Palomar (PLMR) Down 1.4% Since Last Earnings Report: Can It Rebound?",
-       "publisher": "Zacks (Nasdaq)",
-       "url": "https://www.nasdaq.com/articles/palomar-plmr-down-14-last-earnings-report-can-it-rebound",
-       "date": "2026-09-03",
-       "quote": "Palomar (PLMR) Down 1.4% Since Last Earnings Report: Can It Rebound?"
-      }
-     ]
-    },
-    {
-     "id": "c4",
-     "statement": "9월 초 게재된 기사들은 종목 고유의 새 이벤트가 아니라 Zacks의 반복적인 '성장주' 템플릿 코멘터리다.",
-     "evidence_level": "sourced",
-     "sources": [
-      {
-       "title": "Here's Why Palomar (PLMR) is a Strong Growth Stock",
-       "publisher": "Zacks (Nasdaq)",
-       "url": "https://www.nasdaq.com/articles/heres-why-palomar-plmr-strong-growth-stock-0",
-       "date": "2026-09-01",
-       "quote": "Here's Why Palomar (PLMR) is a Strong Growth Stock"
-      }
-     ]
+     "id": "no_evidence",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
     }
    ],
+   "company": "Moog Inc.는 항공우주·방산용 정밀 유압·전기 모션컨트롤 시스템을 설계·제조하는 업체로, Space & Defense, Military Aircraft, Commercial Aircraft, Industrial 4개 사업부로 구성된다. 매출은 군용·상업용 항공기 OEM 및 애프터마켓, 우주·미사일 방어 프로그램, 산업용 자동화 고객에 분산되어 있다. 최근 3개 분기 매출성장률이 15.16%→12.63%→21.2%로 재가속되는 국면이며 컨센서스는 CY 매출성장 13.65%, NY 7.21%를 반영하고 있다.",
+   "volumeExplanation": "근거 없음. Node 제공 자료(뉴스·8-K)와 웹검색 모두에서 오늘(2026-09-18) 시점의 거래량 급증과 맞물리는 구체적 호재성 이벤트를 확인하지 못했다. 가장 최근 8-K(실적발표, 임원변동)와 뉴스(목표주가 상향)는 모두 수주~수개월 전 사안으로 이번 거래량 배수(주간 2.42배)와 직접 연결할 근거가 없다.",
+   "confidence": "low",
    "factcheck": {
-    "verdict": "partial",
-    "removed": [
-     "c3"
-    ],
-    "reason": "Category 6 (기술적 모멘텀, 펀더멘털 촉매 부재)는 적절함. 다만 Claim c3에서 인수 완료 날짜가 부정확함: statement는 '2026년 1월 31일'이나 source의 발표 date는 '2026-02-02'. 또한 '약 3.11억 달러'는 quote에 없음.",
-    "narrativeFixed": true
+    "verdict": "pass",
+    "removed": [],
+    "reason": "근거 없음이 명시되었으며 category 6이 적절함"
    },
-   "volumeExplanationOriginal": "이번 주(9/17 기준) 거래량 배수 2.38배를 설명할 만한 새로운 펀더멘털 촉매는 확인되지 않는다. 가장 최근 실적(8/4 발표) 이후 주가는 오히려 -1.4%를 기록했다는 9/3자 제목이 나올 만큼 실적 모멘텀이 강하지 않았고, 9/9자 Gray Surety 인수 기사도 이미 2026년 1월 31일 완료된 딜을 재조명한 리캡 기사다. 실제로 눈에 띄는 것은 9/15자 \"50일 이동평균선 상향 돌파\" 기사 정도로, 150일선 상회·52주 고점 대비 94.11% 구간에서의 기술적 모멘텀 매수 성격에 가깝다.",
    "categoryName": "암묵적(뉴스 없는 이상거래량)",
    "isHighlight": false
   }
@@ -1247,61 +902,47 @@
  "summary": {
   "highlights": [
    {
-    "ticker": "MSGE",
+    "ticker": "ESEA",
     "category": 1,
-    "oneLine": "8/12 Q4 실적: 매출 컨센서스 상회, 순손실 -0.21달러(예상 -0.49달러 대비 손실폭 축소), 매출 YoY +27%"
+    "oneLine": "2026년 2분기 매출·EPS 모두 컨센서스를 상회하는 어닝 서프라이즈 기록."
    },
    {
-    "ticker": "STNG",
+    "ticker": "NSIT",
     "category": 1,
-    "oneLine": "3분기 현재 LR2 일일 TCE $64,900·MR $30,000로 운임 강세 지속, 7/30 Q2 실적도 컨센서스 상회"
+    "oneLine": "2분기 EPS 3.86달러(컨센서스 2.93달러 상회)·매출 +14.7% YoY 어닝 서프라이즈, 9월 들어 Zacks·Needham·JPMorgan·Raymond James 등 연쇄 상향."
    },
    {
-    "ticker": "RVTY",
+    "ticker": "TMO",
     "category": 1,
-    "oneLine": "9/15 헬스케어 컨퍼런스서 2026년 영업마진 상위 20%대·FCF전환 90%+ 목표 제시하며 52주 신고가, 앞선 Q2 EPS도 컨센서스 상회"
+    "oneLine": "2분기 조정EPS·매출 컨센서스 상회 및 2026년 가이던스 상향, UBS가 목표주가 35% 인상하며 Buy로 상향."
    },
    {
-    "ticker": "PRK",
-    "category": 1,
-    "oneLine": "7/27 Q2 매출·EPS 컨센서스 상회 공시 후 Zacks가 모멘텀 매수 종목으로 재조명"
-   },
-   {
-    "ticker": "WOR",
+    "ticker": "CACC",
     "category": 5,
-    "oneLine": "9/15 8-K로 11/10 투자자데이 공시, 데이터센터 액체냉각 탱크 포함 부문 재편으로 '숨은 데이터센터 플레이' 재해석되며 급등"
+    "oneLine": "뉴욕주·40개주 법무장관과 소송 합의 종결, 동시에 5억달러 warehouse facility 만기 연장·금리 인하로 자금조달 여건 개선."
    },
    {
-    "ticker": "USB",
+    "ticker": "SEZL",
     "category": 5,
-    "oneLine": "FOMC 9월 25bp 인상 국면서 CFO가 3Q NII·수수료수익 가이던스 상단 시사, 프라임레이트도 7.00%로 인상"
-   },
-   {
-    "ticker": "BRKR",
-    "category": 5,
-    "oneLine": "UBS 목표주가 $45→$65 상향, 핵융합 공급 겨냥 니오븀-주석 초전도선재 생산 확대 계약(Luvata)도 부각"
-   },
-   {
-    "ticker": "FANG",
-    "category": 5,
-    "oneLine": "사우디 송유관 피격발 지정학 리스크로 WTI $100 돌파, E&P 섹터 전반 트리거 속 상대강도 부각"
+    "oneLine": "ILC 인가 계획을 철회하고 OCC 국가은행 인가 신청으로 전환, 규제 리스크 해소를 CEO가 \"가장 강력한 해결책\"으로 표현."
    }
   ],
-  "sectorSignal": "촉매가 한 섹터로 몰리지는 않았다. 카테고리5(매크로·산업 돌파) 4건이 에너지(FANG-지정학발 유가급등), 금융(USB-금리·프라임레이트), 산업재 2건(WOR·BRKR-데이터센터/핵융합 인프라 테마)으로 서로 다른 산업에 흩어져 있다. 카테고리1(어닝 서프라이즈)도 미디어(MSGE), 해운(STNG), 헬스케어장비(RVTY), 지역은행(PRK)으로 분산돼 있어, 오늘은 업종 쏠림보다 종목별 개별 촉매(실적·컨퍼런스·M&A/공급계약) 성격이 강하다. 다만 산업재 2건(WOR·BRKR)이 공통적으로 '데이터센터/첨단인프라 재해석' 서사를 taggle고 있어 이 테마만큼은 약한 클러스터로 볼 여지가 있다.",
-  "caution": "본 분류는 제공된 뉴스·공시 텍스트만으로 판정한 것으로, 시세·차트 데이터를 받지 않아 돌파·리테스트 등 가격 국면은 전혀 검증하지 못했다. 카테고리1·5로 표시된 종목도 실적일/공시일과 거래량 급등일(9/17) 사이 수 주의 시차가 있는 경우(예: PRK, STNG의 실적은 각각 7/27·7/30)가 있어, 9/17 거래량 급증의 '직접' 원인인지 배경 촉매 재조명인지는 구분되지 않는다. 카테고리6(근거 없음/뉴스 미확인)으로 분류된 종목이 다수(SYBT, PRLB, AFG, CBU, WRB, WABC, MELI, FBNC, GFF, FCAP, SBR, PLMR)라는 점도 감안해야 하며, 이는 촉매 부재를 의미할 뿐 향후 재료가 없다는 뜻은 아니다. 모든 사실관계는 입력된 claims를 그대로 인용한 것으로 별도 검증(웹검색)은 수행하지 않았다."
+  "sectorSignal": "category 1·5 후보(ESEA, NSIT, TMO, CACC, SEZL)는 산업재 유통(NSIT), 라이프사이언스 장비(TMO), 해운(ESEA), 소비자금융(CACC, SEZL)으로 업종이 흩어져 있어 촉매가 특정 섹터에 몰린 신호는 확인되지 않는다. 다만 전체 후보군을 보면 금융서비스(대출·보험) 관련 티커(CACC, SEZL, JXN, PGR, LAD)가 category 6(암묵적) 포함 다수를 차지해, 오늘 리스트 전반에서는 금융/신용 업종의 규제·소송·펀딩 관련 이벤트가 상대적으로 자주 관찰된다.",
+  "caution": "본 분류는 제공된 텍스트 클레임만을 근거로 하며 가격·거래량·차트 데이터는 받지 않아 횡보·돌파·리테스트 등 차트 국면은 판정하지 않았다. 웹검색 및 원문 재검증을 하지 않았으므로 클레임의 사실관계(특히 NSIT의 52주 신고가 여부처럼 매체 보도와 Node 확정 지표가 상충하는 항목)는 별도 검증이 필요하다. 카테고리 1·5로 분류된 종목도 동시에 밸류에이션 부담이나 내부자 매도 등 상충 정보가 병존할 수 있으므로(예: TWST 사례 참고) 투자 판단 시 원문 확인을 권장한다."
  },
  "byCategory": {
-  "1": 4,
+  "1": 3,
   "2": 1,
+  "3": 2,
   "4": 1,
-  "5": 4,
-  "6": 12
+  "5": 2,
+  "6": 6
  },
  "failed": [],
  "coverage": {
-  "done": 22,
-  "total": 22,
-  "cap": 22,
+  "done": 15,
+  "total": 15,
+  "cap": 15,
   "failed": 0
  }
 }

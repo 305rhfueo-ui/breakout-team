@@ -1,0 +1,168 @@
+{
+ "ticker": "LAD",
+ "news": [
+  {
+   "title": "Lithia Motors (LAD) Down 8.4% Since Last Earnings Report: Can It Rebound?",
+   "url": "https://www.nasdaq.com/articles/lithia-motors-lad-down-84-last-earnings-report-can-it-rebound",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Lithia Motors (LAD) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/lithia-motors-lad-q2-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Here's Why Lithia Motors (LAD) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-lithia-motors-lad-strong-momentum-stock",
+   "date": "2026-07-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Lithia Motors (LAD) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/lithia-motors-lad-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Lithia Motors (LAD) Q2 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/lithia-motors-lad-q2-earnings-and-revenues-top-estimates",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1023128/000102312826000047/lad-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-04-30",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1023128/000102312826000039/lad-20260430.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1023128/000102312826000031/lad-20260429.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-04",
+   "reportDate": "2026-02-27",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1023128/000102312826000020/lad-20260227.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-20",
+   "reportDate": "2026-02-19",
+   "items": [
+    "5.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1023128/000102312826000010/lad-20260219.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-13",
+   "reportDate": "2026-02-13",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1023128/000102312826000006/lad-20260213.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 2.01,
+  "saleNy": 3.51,
+  "epsCy": 8.45,
+  "epsNy": 16.31,
+  "cyTrend": 5.09,
+  "nyTrend": 3.58,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    2.17,
+    1.01,
+    0.26
+   ],
+   "ni": [
+    1.52,
+    -52.08,
+    -35.61
+   ],
+   "opm": [
+    4.58,
+    3.62,
+    3.71
+   ],
+   "updated": "2026-09-08 07:23:22"
+  }
+ }
+}

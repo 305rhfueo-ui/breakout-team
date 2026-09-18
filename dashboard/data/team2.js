@@ -124,12 +124,12 @@ window.TEAM2_DATA = {
         "m3": 1,
         "m6": 60
       },
-      "ma150Slope": 21.72,
+      "ma150Slope": 21.71,
       "ta": {
-        "price": 118.01,
-        "resistance": 167.02,
+        "price": 118,
+        "resistance": 138.98,
         "support": 116,
-        "contraction": 1.71,
+        "contraction": 0.94,
         "trend": "up"
       },
       "top2Gaps": {
@@ -400,12 +400,12 @@ window.TEAM2_DATA = {
         "m3": 19,
         "m6": 19
       },
-      "ma150Slope": 25.56,
+      "ma150Slope": 24.92,
       "ta": {
-        "price": 145.62,
-        "resistance": 156.41,
-        "support": 52.66,
-        "contraction": 0.44,
+        "price": 158.07,
+        "resistance": 176.66,
+        "support": 130.38,
+        "contraction": 0.61,
         "trend": "up"
       },
       "top2Gaps": {
@@ -991,12 +991,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 1
       },
-      "ma150Slope": 7.08,
+      "ma150Slope": 7.3,
       "ta": {
-        "price": 167.55,
-        "resistance": 172.36,
+        "price": 178.19,
+        "resistance": null,
         "support": 148.9,
-        "contraction": 1.02,
+        "contraction": 1.18,
         "trend": "up"
       },
       "top2Gaps": {
@@ -1522,12 +1522,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 60
       },
-      "ma150Slope": 16.7,
+      "ma150Slope": 16.68,
       "ta": {
-        "price": 89.66,
-        "resistance": 90.48,
+        "price": 89.17,
+        "resistance": 90,
         "support": 85.9,
-        "contraction": 0.92,
+        "contraction": 0.96,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -2058,12 +2058,12 @@ window.TEAM2_DATA = {
         "m3": 13,
         "m6": 12
       },
-      "ma150Slope": 9.31,
+      "ma150Slope": 9.79,
       "ta": {
-        "price": 190.28,
+        "price": 192.53,
         "resistance": 195.95,
-        "support": 187.84,
-        "contraction": 0.84,
+        "support": 190.46,
+        "contraction": 0.92,
         "trend": "up"
       },
       "top2Gaps": {
@@ -2569,13 +2569,13 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 60
       },
-      "ma150Slope": 11.55,
+      "ma150Slope": 11.57,
       "ta": {
-        "price": 69.51,
+        "price": 74.99,
         "resistance": 89,
         "support": 67.77,
-        "contraction": 1.15,
-        "trend": "mixed"
+        "contraction": 1.38,
+        "trend": "up"
       },
       "top2Gaps": {
         "m1": 0,
@@ -3126,11 +3126,11 @@ window.TEAM2_DATA = {
         "m3": 32,
         "m6": 28
       },
-      "ma150Slope": 18.69,
+      "ma150Slope": 18.54,
       "ta": {
-        "price": 143.07,
-        "resistance": 155.44,
-        "support": 115.28,
+        "price": 155.56,
+        "resistance": null,
+        "support": 120.19,
         "contraction": 0.95,
         "trend": "up"
       },
@@ -3688,12 +3688,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 67
       },
-      "ma150Slope": 18.61,
+      "ma150Slope": 18.83,
       "ta": {
-        "price": 563.29,
+        "price": 588.4,
         "resistance": null,
         "support": 424,
-        "contraction": 1.52,
+        "contraction": 1.24,
         "trend": "up"
       },
       "top2Gaps": {
@@ -3881,7 +3881,7 @@ window.TEAM2_DATA = {
       "nameKo": "델 테크놀로지스",
       "nameEn": "DELL TECHNOLOGIES INC",
       "detail": {
-        "fetchedAt": "2026-09-17",
+        "fetchedAt": "2026-09-18",
         "nameKo": "델 테크놀로지스",
         "nameEn": "DELL TECHNOLOGIES INC",
         "infomaxCode": "NYS:DELL",
@@ -4016,16 +4016,15 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Why Dell Stock Climbed to a New All-Time High This Week",
-              "url": "https://www.nasdaq.com/articles/why-dell-stock-climbed-new-all-time-high-week",
-              "date": "2026-09-14",
-              "publisher": "The Motley Fool",
+              "title": "Lenovo, MemryX Partnership to Expand Sovereign Edge AI in Saudi Arabia",
+              "url": "https://www.nasdaq.com/articles/lenovo-memryx-partnership-expand-sovereign-edge-ai-saudi-arabia",
+              "date": "2026-09-17",
+              "publisher": "Zacks",
               "tier1": false,
-              "direct": true,
+              "direct": false,
               "tickers": [
-                "DELL",
-                "DELL",
-                "RY"
+                "HPQ",
+                "DELL"
               ]
             },
             {
@@ -4065,8 +4064,8 @@ window.TEAM2_DATA = {
               ]
             }
           ],
-          "directCount": 5,
-          "total": 10,
+          "directCount": 4,
+          "total": 9,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -4183,8 +4182,8 @@ window.TEAM2_DATA = {
               "date": "2026-09-07",
               "summary": "- 델의  2분기  매출은  470억달러(+58%yoy), GPM 21.1%, OPM 12.6%, EPS 7.04로 컨센을 상회. AI 서버발 탑라인 성장으로 인한 영업 레버리지, 스토리지 믹스 개선으로 수익성 개선이 두드러짐. 3분기 가이던스도 매출 490억달러(+81%yoy), EPS 6.5달러를 제시하며 컨센을 상회했으며, F27 연간 가이던스는 매출 1,920억달러, EPS 25.5달러로 상향 조정- AI 서버 매출은 164억달러(+100%yoy)를 기록하며 탑라인 성장을 견인. 전방위적 AI 수요 강세로 인해 델이 강점을 가진 네오클라우드·엔터프라이 즈·소버린이 가파르게 성장 중. AI 서버 주문은 609억달러로 전분기 대비 150% 증가하며 역대 최고치를 달성했고, 분기말 AI 서버 백로그는 950억 달러로 전년비 7배 이상 증가- 델의 12M Fwd PER은 18.6배 수준으로 경쟁사(HPE, SMCI 등) 대비 높은 밸류에이션을 받고 있음. 델 역시 서버 ODM의 고질적 리스크인 메모리 인 플레이션으로 인한 잠재적 마진 부담, 백로그 이행 속도 등에서 자유롭지는 못함. 다만 견조한 대형 AI 고객사의 캐팩스 투자와 더불어 엔터프라이즈향 오픈웨이트 모델 확산 수혜에 가장 크게 노출되어 있다고 판단하며, 리스크 에도 불구하고 가장 높은 성장 포텐셜을 보유하였다고 판단.",
               "pages": "6",
-              "secureId": "eqllqiqlqlgmmxqgcgxcmeq",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxcmeq.pdf",
+              "secureId": "eqllqiqlqlgmmxqgcgxcmel",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxcmel.pdf",
               "opinion": null
             },
             {
@@ -4194,8 +4193,8 @@ window.TEAM2_DATA = {
               "date": "2026-09-04",
               "summary": "- Non-AI가 견인한 실적 서프라이즈와 GPM 개선으로 마진 희석 우려 해소- 연간 가이던스 상향 및 이익 급증으로 주가 급등에도 밸류에이션 매력 지속- 풍부한 AI 수주잔고 속 하반기 영업현금흐름 정상화와 마진 지속성이 핵심- 리스크 요인: 부품가 사이클 변동성, 수주 이행력, 그리고 현금흐름의 질",
               "pages": "6",
-              "secureId": "eqllkqkqezillqegcgxcmeq",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxcmeq.pdf",
+              "secureId": "eqllkqkqezillqegcgxcmel",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxcmel.pdf",
               "opinion": null
             },
             {
@@ -4205,8 +4204,8 @@ window.TEAM2_DATA = {
               "date": "2026-06-02",
               "summary": "- 매출 $43.8B(+88%), EPS $4.86(+214%)로 컨센서스 60% 이상 상회- AI 수요의 전통 IT 전방 확산 및 Agentic AI발 CPU TAM 구조적 확장- 주가 급등에도 Fwd P/E 22.8배로 업종(26.0배) 하회, 대규모 주주환원 안전판",
               "pages": "6",
-              "secureId": "eqlciziegxilkkggcgxcmeq",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlciziegxilkkggcgxcmeq.pdf",
+              "secureId": "eqlciziegxilkkggcgxcmel",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlciziegxilkkggcgxcmel.pdf",
               "opinion": null
             },
             {
@@ -4216,8 +4215,8 @@ window.TEAM2_DATA = {
               "date": "2026-05-29",
               "summary": "- 실적발표 이후 40% 주가 상승. 단순 AI 서버 OEM에서 플랫폼 기업으로 확장. 기대를 서프라이즈 실적으로 증명. 커버리지 내 최선호주 제시- FY1Q27 매출액 438억달러(YoY+87.5%, 이하 전년동기대비), 영업이익 42억달러(+154.2%, OPM 9.7%)로 컨센서스를 각각 23.4%, 52.8% 상회. AI 서버 매출은 161억달러(+757%) 기록. 1분기 AI 서버 주문 244억달러, 백로그 513억달러 달성. FY27 AI 서버 매출 가이던스 600억달러로 상향- 전통 서버 매출도 85억달러(+92%) 기록. Agentic AI 확산으로 전통 서버 의 AI 추론 및 내부 워크로드 처리 역할 확대. 14세대 이하 서버 설치 기 반이 여전히 큰 상황에서, 18세대 서버는 14세대 13대 통합 효과 제공. 평 균단가 상승에도 비용 절감 효과가 커서 교체 수요 기반 매출 확대 전망. CSG 부문(+17%)도 점유율과 수익성 개선(+2.6%p)으로 하방을 뒷받침",
               "pages": "5",
-              "secureId": "eqlcciqxcilleikgcgxcmeq",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcciqxcilleikgcgxcmeq.pdf",
+              "secureId": "eqlcciqxcilleikgcgxcmel",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcciqxcilleikgcgxcmel.pdf",
               "opinion": null
             },
             {
@@ -4227,8 +4226,8 @@ window.TEAM2_DATA = {
               "date": "2026-04-27",
               "summary": "- 시장은 델을 AI 인프라 기업으로 바라보기 시작- PC와 전통 서버 판매에 AI가 더해졌다- 전통 PC OEM에서 AI 인프라 기업으로 멀티플 확장 국면 진입",
               "pages": "22",
-              "secureId": "eqqqglcgmceemikgcgxcmeq",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqglcgmceemikgcgxcmeq.pdf",
+              "secureId": "eqqqglcgmceemikgcgxcmel",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqglcgmceemikgcgxcmel.pdf",
               "opinion": null
             },
             {
@@ -4238,8 +4237,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-27",
               "summary": "- 델의 FY 4Q26 매출액은 334억 달러(YoY +39.5%), EPS는 3.89 달러 (YoY +45.1%)를 기록해 컨센서스를 각각 5.2%, 10.5% 상회했다. 각 각 가이던스 상단(320억 달러, 3.50 달러)을 초과했다.- 델은 FY 1Q27 가이던스를 중간값 기준 매출액 352억 달러(YoY +50.6%, vs. 컨센서스 293억 달러), EPS 2.9 달러(YoY +87.1%, vs. 컨 센서스 2.4 달러)로 제시했다- 2027 연간으로는 매출액 1,400억 달러 (YoY +23.3%, vs. 컨센서스 1,263억 달러), EPS 12.90 달러(YoY +25.2%, vs. 컨센서스 11.56 달러)를 기록할 것으로 예상했다. 현재 AI 서버 수주잔고는 엔비디아 그레이스 블랙웰 제품 비중이 압도적이며, 차세대 베라루빈 아키텍처는 회계연도 하반기 출하가 예정돼 있다",
               "pages": "7",
-              "secureId": "eqqgeligkiqmcgqgcgxcmeq",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgeligkiqmcgqgcgxcmeq.pdf",
+              "secureId": "eqqgeligkiqmcgqgcgxcmel",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgeligkiqmcgqgcgxcmel.pdf",
               "opinion": null
             },
             {
@@ -4249,8 +4248,8 @@ window.TEAM2_DATA = {
               "date": "2025-11-26",
               "summary": "- 매출액 270억 달러(YoY +10.8%), 조정 EPS 2.59 달러(YoY +20.5%)로 각각 예상치 0.7% 하회, 4.9% 상회. AI 서버 출하량 증가 및 운영 효율성으로 3분기 기준 매출, EPS 최고치 경신- CSG: 상업용 클라이언트, 소비자 매출은 각각 106.2억 달러(YoY +4.8%), 18.6억 달러(YOY -6.8%). 상업용 클라이언트 부문은 5분기 연속 매출 성장, 중소기업 전반에서 강력한 수요 확인. 소비자 수요와 심리는 3년 만에 성장세로 전환- AI 서버 수요 증가에 기록적 출하액, 수주잔고 달성. 4Q26 가이던스 시장 예상 대폭 상회. 시간 외 3.5% 상승",
               "pages": "1",
-              "secureId": "eqxkeggxcizekzmgcgxcmeq",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkeggxcizekzmgcgxcmeq.pdf",
+              "secureId": "eqxkeggxcizekzmgcgxcmel",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkeggxcizekzmgcgxcmel.pdf",
               "opinion": null
             }
           ],
@@ -4351,12 +4350,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": 5.35,
+      "ma150Slope": 5.52,
       "ta": {
-        "price": 270.02,
+        "price": 280.76,
         "resistance": 283.83,
         "support": 249.1,
-        "contraction": 1.18,
+        "contraction": 1.17,
         "trend": "up"
       },
       "top2Gaps": {
@@ -4888,12 +4887,12 @@ window.TEAM2_DATA = {
         "m3": 4,
         "m6": 4
       },
-      "ma150Slope": 9.63,
+      "ma150Slope": 9.96,
       "ta": {
-        "price": 188.12,
+        "price": 190.02,
         "resistance": null,
         "support": 134.37,
-        "contraction": 1,
+        "contraction": 0.97,
         "trend": "up"
       },
       "top2Gaps": {
@@ -4996,7 +4995,7 @@ window.TEAM2_DATA = {
       "nameKo": "옥타",
       "nameEn": "OKTA INC",
       "detail": {
-        "fetchedAt": "2026-09-17",
+        "fetchedAt": "2026-09-18",
         "nameKo": "옥타",
         "nameEn": "OKTA INC",
         "infomaxCode": "NAS:OKTA",
@@ -5150,22 +5149,10 @@ window.TEAM2_DATA = {
               "tickers": [
                 "OKTA"
               ]
-            },
-            {
-              "title": "Okta CFO Dumps 80,000 Company Shares Worth $12.9 Million After the Stock Hit a 52-Week High",
-              "url": "https://www.nasdaq.com/articles/okta-cfo-dumps-80000-company-shares-worth-129-million-after-stock-hit-52-week-high",
-              "date": "2026-09-07",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "OKTA",
-                "OKTA"
-              ]
             }
           ],
-          "directCount": 7,
-          "total": 7,
+          "directCount": 6,
+          "total": 6,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -5271,8 +5258,20 @@ window.TEAM2_DATA = {
           }
         ],
         "krReports": {
-          "total": 0,
-          "reports": [],
+          "total": 1,
+          "reports": [
+            {
+              "title": "[옥타 (NAS:OKTA)] AI 에이전트 시대가 여는 기회",
+              "broker": "키움증권",
+              "analyst": "김승혁",
+              "date": "2026-09-17",
+              "summary": "- Okta는 기업용 Identity 보안 플랫폼, 벤더 중립성과 폭넓은 연동 생태계가 강점- 대형 고객 강세와 OIG 중심 신제품 판매 증가로 Q2 호실적 및 cRPO 성장 재가속- AI 에이전트는 초기 대형 계약과 개방형 표준 선점 진행 중, 중장기 성장 동력 기대",
+              "pages": "6",
+              "secureId": "eqlmxlzgkgmikeggcgxcmel",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxlzgkgmikeggcgxcmel.pdf",
+              "opinion": null
+            }
+          ],
           "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
         }
       }
@@ -5371,9 +5370,9 @@ window.TEAM2_DATA = {
         "m3": 7,
         "m6": 0
       },
-      "ma150Slope": 10.11,
+      "ma150Slope": 10.19,
       "ta": {
-        "price": 113.97,
+        "price": 116.62,
         "resistance": null,
         "support": 91.38,
         "contraction": 1.08,
@@ -5488,7 +5487,7 @@ window.TEAM2_DATA = {
       "nameKo": "HF 싱클레어",
       "nameEn": "HF SINCLAIR CORPORATION",
       "detail": {
-        "fetchedAt": "2026-09-17",
+        "fetchedAt": "2026-09-18",
         "nameKo": "HF 싱클레어",
         "nameEn": "HF SINCLAIR CORPORATION",
         "infomaxCode": "NYS:DINO",
@@ -5607,15 +5606,27 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "HF Sinclair Corporation (DINO) Hits Fresh High: Is There Still Room to Run?",
-              "url": "https://www.nasdaq.com/articles/hf-sinclair-corporation-dino-hits-fresh-high-there-still-room-run",
-              "date": "2026-09-03",
+              "title": "Phillips 66: Resilient Refining Meets Midstream Stability",
+              "url": "https://www.nasdaq.com/articles/phillips-66-resilient-refining-meets-midstream-stability",
+              "date": "2026-09-17",
               "publisher": "Zacks",
               "tier1": false,
-              "direct": true,
+              "direct": false,
               "tickers": [
-                "DINO",
-                "VLO"
+                "PSX",
+                "PARR",
+                "DINO"
+              ]
+            },
+            {
+              "title": "Here's How Much a $1000 Investment in HF Sinclair Made 10 Years Ago Would Be Worth Today",
+              "url": "https://www.nasdaq.com/articles/heres-how-much-1000-investment-hf-sinclair-made-10-years-ago-would-be-worth-today",
+              "date": "2026-09-17",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "DINO"
               ]
             },
             {
@@ -5653,23 +5664,10 @@ window.TEAM2_DATA = {
                 "PARR",
                 "DINO"
               ]
-            },
-            {
-              "title": "How High-Return Refinery Investment Strengthens MPC's Long-Term Margins",
-              "url": "https://www.nasdaq.com/articles/how-high-return-refinery-investment-strengthens-mpcs-long-term-margins",
-              "date": "2026-09-09",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "MPC",
-                "VLO",
-                "DINO"
-              ]
             }
           ],
-          "directCount": 4,
-          "total": 8,
+          "directCount": 3,
+          "total": 9,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -5870,12 +5868,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 36
       },
-      "ma150Slope": 16.41,
+      "ma150Slope": 16.17,
       "ta": {
-        "price": 111.81,
+        "price": 114.86,
         "resistance": 117.33,
         "support": 108.25,
-        "contraction": 1.13,
+        "contraction": 0.96,
         "trend": "up"
       },
       "top2Gaps": {
@@ -6036,7 +6034,7 @@ window.TEAM2_DATA = {
       "nameKo": "코셉트 테라퓨틱스",
       "nameEn": "CORCEPT THERAPEUTICS INC",
       "detail": {
-        "fetchedAt": "2026-09-17",
+        "fetchedAt": "2026-09-18",
         "nameKo": "코셉트 테라퓨틱스",
         "nameEn": "CORCEPT THERAPEUTICS INC",
         "infomaxCode": "NAS:CORT",
@@ -6388,12 +6386,12 @@ window.TEAM2_DATA = {
         "m3": 4,
         "m6": 0
       },
-      "ma150Slope": -2.08,
+      "ma150Slope": -1.67,
       "ta": {
-        "price": 97.42,
-        "resistance": 98.87,
+        "price": 104.95,
+        "resistance": 106.73,
         "support": 87.88,
-        "contraction": 1.19,
+        "contraction": 1.26,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -6977,12 +6975,12 @@ window.TEAM2_DATA = {
         "m3": 5,
         "m6": 0
       },
-      "ma150Slope": 1.51,
+      "ma150Slope": 1.77,
       "ta": {
-        "price": 187.76,
-        "resistance": 194.01,
-        "support": 183.54,
-        "contraction": 0.76,
+        "price": 199.28,
+        "resistance": 211.83,
+        "support": 188.05,
+        "contraction": 0.9,
         "trend": "up"
       },
       "top2Gaps": {
@@ -7392,12 +7390,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": 3.08,
+      "ma150Slope": 3.26,
       "ta": {
-        "price": 85.59,
-        "resistance": 90.9,
-        "support": 82.13,
-        "contraction": 2.24,
+        "price": 91.32,
+        "resistance": 93.12,
+        "support": 87.33,
+        "contraction": 1.94,
         "trend": "up"
       },
       "top2Gaps": {
@@ -7480,7 +7478,7 @@ window.TEAM2_DATA = {
       "nameKo": "스카이웍스 솔루션스",
       "nameEn": "SKYWORKS SOLUTIONS INC",
       "detail": {
-        "fetchedAt": "2026-09-17",
+        "fetchedAt": "2026-09-18",
         "nameKo": "스카이웍스 솔루션스",
         "nameEn": "SKYWORKS SOLUTIONS INC",
         "infomaxCode": "NAS:SWKS",
@@ -7869,12 +7867,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 60
       },
-      "ma150Slope": 12.6,
+      "ma150Slope": 12.5,
       "ta": {
-        "price": 48.93,
+        "price": 50.51,
         "resistance": 55.62,
         "support": 48.15,
-        "contraction": 1.29,
+        "contraction": 1.3,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -8043,7 +8041,7 @@ window.TEAM2_DATA = {
       "nameKo": "밴드위스",
       "nameEn": "BANDWIDTH INC",
       "detail": {
-        "fetchedAt": "2026-09-17",
+        "fetchedAt": "2026-09-18",
         "nameKo": "밴드위스",
         "nameEn": "BANDWIDTH INC",
         "infomaxCode": "NAS:BAND",
@@ -8439,12 +8437,12 @@ window.TEAM2_DATA = {
         "m3": 14,
         "m6": 0
       },
-      "ma150Slope": 5.26,
+      "ma150Slope": 5.59,
       "ta": {
-        "price": 139.89,
+        "price": 138.6,
         "resistance": 148.7,
         "support": 134.5,
-        "contraction": 0.82,
+        "contraction": 0.81,
         "trend": "up"
       },
       "top2Gaps": {
@@ -8600,7 +8598,7 @@ window.TEAM2_DATA = {
       "nameKo": "애버크롬비 앤드 피치",
       "nameEn": "ABERCROMBIE & FITCH CO",
       "detail": {
-        "fetchedAt": "2026-09-17",
+        "fetchedAt": "2026-09-18",
         "nameKo": "애버크롬비 앤드 피치",
         "nameEn": "ABERCROMBIE & FITCH CO",
         "infomaxCode": "NYS:ANF",
@@ -8686,6 +8684,51 @@ window.TEAM2_DATA = {
           "ticker": "ANF",
           "items": [
             {
+              "title": "Abercrombie & Fitch (ANF) Just Overtook the 20-Day Moving Average",
+              "url": "https://www.nasdaq.com/articles/abercrombie-fitch-anf-just-overtook-20-day-moving-average",
+              "date": "2026-09-17",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ANF"
+              ]
+            },
+            {
+              "title": "Is It Worth Investing in Abercrombie (ANF) Based on Wall Street's Bullish Views?",
+              "url": "https://www.nasdaq.com/articles/it-worth-investing-abercrombie-anf-based-wall-streets-bullish-views",
+              "date": "2026-09-17",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ANF"
+              ]
+            },
+            {
+              "title": "Investors Heavily Search Abercrombie & Fitch Company (ANF): Here is What You Need to Know",
+              "url": "https://www.nasdaq.com/articles/investors-heavily-search-abercrombie-fitch-company-anf-here-what-you-need-know",
+              "date": "2026-09-17",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ANF"
+              ]
+            },
+            {
+              "title": "Abercrombie & Fitch Chief HR Officer Sells 5,000 Shares",
+              "url": "https://www.nasdaq.com/articles/abercrombie-fitch-chief-hr-officer-sells-5000-shares",
+              "date": "2026-09-17",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ANF",
+                "ANF"
+              ]
+            },
+            {
               "title": "Abercrombie's 2026 Outlook: Omnichannel Strategy Drives Disciplined Growth",
               "url": "https://www.nasdaq.com/articles/abercrombies-2026-outlook-omnichannel-strategy-drives-disciplined-growth",
               "date": "2026-09-16",
@@ -8706,18 +8749,6 @@ window.TEAM2_DATA = {
               "direct": true,
               "tickers": [
                 "ANF"
-              ]
-            },
-            {
-              "title": "Has Abercrombie & Fitch (ANF) Outpaced Other Retail-Wholesale Stocks This Year?",
-              "url": "https://www.nasdaq.com/articles/has-abercrombie-fitch-anf-outpaced-other-retail-wholesale-stocks-year",
-              "date": "2026-09-14",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "ANF",
-                "ROST"
               ]
             },
             {
@@ -8745,48 +8776,10 @@ window.TEAM2_DATA = {
                 "ANF",
                 "AEO"
               ]
-            },
-            {
-              "title": "Is VSXY Worth Buying as Growth Improves but Valuation Stays Rich?",
-              "url": "https://www.nasdaq.com/articles/vsxy-worth-buying-growth-improves-valuation-stays-rich",
-              "date": "2026-09-14",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "VSXY",
-                "ANF",
-                "AEO"
-              ]
-            },
-            {
-              "title": "VSXY Dips 10% in the Past Month: Is the Pullback an Opportunity?",
-              "url": "https://www.nasdaq.com/articles/vsxy-dips-10-past-month-pullback-opportunity",
-              "date": "2026-09-14",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "VSXY",
-                "ANF",
-                "AEO"
-              ]
-            },
-            {
-              "title": "Best Momentum Stocks to Buy for September 14th",
-              "url": "https://www.nasdaq.com/articles/best-momentum-stocks-buy-september-14th",
-              "date": "2026-09-14",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "CAT",
-                "ANF"
-              ]
             }
           ],
-          "directCount": 3,
-          "total": 8,
+          "directCount": 6,
+          "total": 9,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -8897,8 +8890,8 @@ window.TEAM2_DATA = {
               "date": "2025-11-27",
               "summary": "- 캐주얼 의류 브랜드사 (Hollister, Abercrombie)- 3Q26 실적은 매출과 EPS가 시장 기대치를 상회. Hollister가 매출 성장을 견인한 가운데, 재고 관리와 프로모션 축소로 관세 여파를 상쇄한 덕분- 주가는 선행 PER 9배 수준. 최근 주가 급등에도 밸류에이션 부담은 없음. 향후 실적 가시성 개선될 전망인 만큼, 주가 상승 여력이 커질 듯.",
               "pages": "4",
-              "secureId": "eqxkemzmcximczmgcgxcmeq",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkemzmcximczmgcgxcmeq.pdf",
+              "secureId": "eqxkemzmcximczmgcgxcmel",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkemzmcximczmgcgxcmel.pdf",
               "opinion": null
             }
           ],
@@ -8999,12 +8992,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": -2.37,
+      "ma150Slope": -2,
       "ta": {
-        "price": 126.18,
+        "price": 132.25,
         "resistance": 136.25,
         "support": 118.4,
-        "contraction": 0.89,
+        "contraction": 1.03,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -9449,12 +9442,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 23
       },
-      "ma150Slope": 12.37,
+      "ma150Slope": 12.19,
       "ta": {
-        "price": 1519.97,
-        "resistance": 1600,
-        "support": 1485.02,
-        "contraction": 0.87,
+        "price": 1614.39,
+        "resistance": 1696.37,
+        "support": 1514.36,
+        "contraction": 0.93,
         "trend": "up"
       },
       "top2Gaps": {
@@ -10093,12 +10086,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": 2.77,
+      "ma150Slope": 3.11,
       "ta": {
-        "price": 84.6,
+        "price": 83.82,
         "resistance": null,
         "support": 62.33,
-        "contraction": 1.07,
+        "contraction": 1.34,
         "trend": "up"
       },
       "top2Gaps": {
@@ -10507,12 +10500,12 @@ window.TEAM2_DATA = {
         "m3": 7,
         "m6": 0
       },
-      "ma150Slope": 9.57,
+      "ma150Slope": 9.58,
       "ta": {
-        "price": 84.9,
+        "price": 86.49,
         "resistance": 87.03,
         "support": 72.09,
-        "contraction": 0.91,
+        "contraction": 0.93,
         "trend": "up"
       },
       "top2Gaps": {
@@ -10685,7 +10678,7 @@ window.TEAM2_DATA = {
       "nameKo": "파 퍼시픽 홀딩스",
       "nameEn": "PAR PACIFIC HOLDINGS INC",
       "detail": {
-        "fetchedAt": "2026-09-17",
+        "fetchedAt": "2026-09-18",
         "nameKo": "파 퍼시픽 홀딩스",
         "nameEn": "PAR PACIFIC HOLDINGS INC",
         "infomaxCode": "NYS:PARR",
@@ -10771,6 +10764,17 @@ window.TEAM2_DATA = {
           "ticker": "PARR",
           "items": [
             {
+              "title": "Why Par Petroleum (PARR) is a Top Momentum Stock for the Long-Term",
+              "url": "https://www.nasdaq.com/articles/why-par-petroleum-parr-top-momentum-stock-long-term",
+              "date": "2026-09-17",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PARR"
+              ]
+            },
+            {
               "title": "Par Petroleum (PARR) Is Up 4.09% in One Week: What You Should Know",
               "url": "https://www.nasdaq.com/articles/par-petroleum-parr-409-one-week-what-you-should-know",
               "date": "2026-09-16",
@@ -10806,6 +10810,32 @@ window.TEAM2_DATA = {
               ]
             },
             {
+              "title": "Equinor Eyes LNG Expansion Amid Global Supply Disruptions",
+              "url": "https://www.nasdaq.com/articles/equinor-eyes-lng-expansion-amid-global-supply-disruptions",
+              "date": "2026-09-17",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "VLO",
+                "PARR",
+                "EQNR"
+              ]
+            },
+            {
+              "title": "Phillips 66: Resilient Refining Meets Midstream Stability",
+              "url": "https://www.nasdaq.com/articles/phillips-66-resilient-refining-meets-midstream-stability",
+              "date": "2026-09-17",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "PSX",
+                "PARR",
+                "DINO"
+              ]
+            },
+            {
               "title": "Can Crude Flexibility and Gulf Coast Exposure Aid VLO's Outlook?",
               "url": "https://www.nasdaq.com/articles/can-crude-flexibility-and-gulf-coast-exposure-aid-vlos-outlook",
               "date": "2026-09-16",
@@ -10829,48 +10859,10 @@ window.TEAM2_DATA = {
                 "PBF",
                 "PARR"
               ]
-            },
-            {
-              "title": "Best Value Stocks to Buy for September 16th",
-              "url": "https://www.nasdaq.com/articles/best-value-stocks-buy-september-16th",
-              "date": "2026-09-16",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "THC",
-                "KMT",
-                "PARR"
-              ]
-            },
-            {
-              "title": "Saipem Lands $350M Contract for West Hub Tails Project in Angola",
-              "url": "https://www.nasdaq.com/articles/saipem-lands-350m-contract-west-hub-tails-project-angola",
-              "date": "2026-09-15",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "VLO",
-                "PARR"
-              ]
-            },
-            {
-              "title": "What Does the Future Hold for Valero Energy's Refining Business?",
-              "url": "https://www.nasdaq.com/articles/what-does-future-hold-valero-energys-refining-business",
-              "date": "2026-09-15",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "VLO",
-                "PSX",
-                "PARR"
-              ]
             }
           ],
-          "directCount": 3,
-          "total": 11,
+          "directCount": 4,
+          "total": 12,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -11075,12 +11067,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 2
       },
-      "ma150Slope": 11.88,
+      "ma150Slope": 11.56,
       "ta": {
-        "price": 84.25,
+        "price": 90.55,
         "resistance": 102.48,
-        "support": 76.76,
-        "contraction": 0.92,
+        "support": 86.58,
+        "contraction": 1.09,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -11227,7 +11219,7 @@ window.TEAM2_DATA = {
       "nameKo": "에흐르 테스트 시스템스",
       "nameEn": "AEHR TEST SYSTEMS",
       "detail": {
-        "fetchedAt": "2026-09-17",
+        "fetchedAt": "2026-09-18",
         "nameKo": "에흐르 테스트 시스템스",
         "nameEn": "AEHR TEST SYSTEMS",
         "infomaxCode": "NAS:AEHR",
@@ -11616,12 +11608,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": 3.2,
+      "ma150Slope": 3.33,
       "ta": {
-        "price": 113.97,
+        "price": 119.51,
         "resistance": null,
         "support": 99.05,
-        "contraction": 2.25,
+        "contraction": 1.99,
         "trend": "up"
       },
       "top2Gaps": {
@@ -11751,7 +11743,7 @@ window.TEAM2_DATA = {
       "nameKo": "코보",
       "nameEn": "QORVO INC",
       "detail": {
-        "fetchedAt": "2026-09-17",
+        "fetchedAt": "2026-09-18",
         "nameKo": "코보",
         "nameEn": "QORVO INC",
         "infomaxCode": "NAS:QRVO",
@@ -12125,12 +12117,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 60
       },
-      "ma150Slope": 10.32,
+      "ma150Slope": 10.28,
       "ta": {
-        "price": 48.24,
+        "price": 52.55,
         "resistance": 53.24,
         "support": 45.62,
-        "contraction": 0.78,
+        "contraction": 0.96,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -12294,7 +12286,7 @@ window.TEAM2_DATA = {
       "nameKo": "펭귄 솔루션스",
       "nameEn": "PENGUIN SOLUTIONS INC",
       "detail": {
-        "fetchedAt": "2026-09-17",
+        "fetchedAt": "2026-09-18",
         "nameKo": "펭귄 솔루션스",
         "nameEn": "PENGUIN SOLUTIONS INC",
         "infomaxCode": "NAS:PENG",
@@ -12694,12 +12686,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 1
       },
-      "ma150Slope": 6.58,
+      "ma150Slope": 6.68,
       "ta": {
-        "price": 269.18,
+        "price": 293.56,
         "resistance": 310.14,
-        "support": 266.31,
-        "contraction": 1.31,
+        "support": 289.6,
+        "contraction": 1.54,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -13126,12 +13118,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": 0.06,
+      "ma150Slope": 0.03,
       "ta": {
-        "price": 119.89,
-        "resistance": 120.86,
+        "price": 121.57,
+        "resistance": 122.61,
         "support": 113.89,
-        "contraction": 1.43,
+        "contraction": 1.19,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -13262,7 +13254,7 @@ window.TEAM2_DATA = {
       "nameKo": "애그코",
       "nameEn": "AGCO CORP",
       "detail": {
-        "fetchedAt": "2026-09-17",
+        "fetchedAt": "2026-09-18",
         "nameKo": "애그코",
         "nameEn": "AGCO CORP",
         "infomaxCode": "NYS:AGCO",
@@ -13348,6 +13340,19 @@ window.TEAM2_DATA = {
           "ticker": "AGCO",
           "items": [
             {
+              "title": "Bear of the Day: AGCO (AGCO)",
+              "url": "https://www.nasdaq.com/articles/bear-day-agco-agco",
+              "date": "2026-09-17",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AGCO",
+                "DE",
+                "CNH"
+              ]
+            },
+            {
               "title": "AGCO Reaches Analyst Target Price",
               "url": "https://www.nasdaq.com/articles/agco-reaches-analyst-target-price",
               "date": "2026-09-02",
@@ -13378,19 +13383,6 @@ window.TEAM2_DATA = {
               "direct": true,
               "tickers": [
                 "AGCO"
-              ]
-            },
-            {
-              "title": "AGCO About To Put More Money In Your Pocket (AGCO)",
-              "url": "https://www.nasdaq.com/articles/agco-about-put-more-money-your-pocket-agco",
-              "date": "2026-08-13",
-              "publisher": "BNK Invest",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "AGCO",
-                "AGCO",
-                "BTAL"
               ]
             },
             {
@@ -13644,12 +13636,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 8
       },
-      "ma150Slope": 7.07,
+      "ma150Slope": 7.13,
       "ta": {
-        "price": 59.9,
+        "price": 62.35,
         "resistance": 66.08,
         "support": 56.39,
-        "contraction": 1.06,
+        "contraction": 1.2,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -13787,7 +13779,7 @@ window.TEAM2_DATA = {
       "nameKo": "앰비크 마이크로",
       "nameEn": "AMBIQ MICRO  INC.",
       "detail": {
-        "fetchedAt": "2026-09-17",
+        "fetchedAt": "2026-09-18",
         "nameKo": "앰비크 마이크로",
         "nameEn": "AMBIQ MICRO  INC.",
         "infomaxCode": "NYS:AMBQ",
@@ -14166,12 +14158,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 4
       },
-      "ma150Slope": 9.52,
+      "ma150Slope": 9.75,
       "ta": {
-        "price": 241.36,
+        "price": 245.7,
         "resistance": null,
         "support": 181.24,
-        "contraction": 0.8,
+        "contraction": 0.84,
         "trend": "up"
       },
       "top2Gaps": {
@@ -14788,12 +14780,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 1
       },
-      "ma150Slope": 7.51,
+      "ma150Slope": 7.6,
       "ta": {
-        "price": 101.05,
-        "resistance": 106.69,
-        "support": 98.33,
-        "contraction": 1.13,
+        "price": 108.8,
+        "resistance": 126.64,
+        "support": 102.4,
+        "contraction": 1.37,
         "trend": "up"
       },
       "top2Gaps": {
@@ -15283,12 +15275,12 @@ window.TEAM2_DATA = {
         "m3": 12,
         "m6": 0
       },
-      "ma150Slope": 8.55,
+      "ma150Slope": 8.42,
       "ta": {
-        "price": 81.62,
+        "price": 82.29,
         "resistance": 84.16,
         "support": 77.1,
-        "contraction": 1.03,
+        "contraction": 1.02,
         "trend": "up"
       },
       "top2Gaps": {
@@ -15813,12 +15805,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 67
       },
-      "ma150Slope": 12.18,
+      "ma150Slope": 12.13,
       "ta": {
-        "price": 229.71,
-        "resistance": 241.88,
+        "price": 240.76,
+        "resistance": 254.6,
         "support": 200.62,
-        "contraction": 0.79,
+        "contraction": 0.9,
         "trend": "up"
       },
       "top2Gaps": {
@@ -16417,12 +16409,12 @@ window.TEAM2_DATA = {
         "m3": 4,
         "m6": 0
       },
-      "ma150Slope": 5.5,
+      "ma150Slope": 5.57,
       "ta": {
-        "price": 183.06,
+        "price": 178.08,
         "resistance": 190.99,
         "support": 140.31,
-        "contraction": 1.47,
+        "contraction": 1.24,
         "trend": "up"
       },
       "top2Gaps": {
@@ -16939,12 +16931,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": 1.36,
+      "ma150Slope": 1.57,
       "ta": {
-        "price": 103.61,
-        "resistance": 107,
+        "price": 110.67,
+        "resistance": 138.7,
         "support": 89.78,
-        "contraction": 1.09,
+        "contraction": 1.17,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -17358,12 +17350,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": 6.54,
+      "ma150Slope": 6.83,
       "ta": {
-        "price": 228.93,
-        "resistance": 231.81,
+        "price": 245.18,
+        "resistance": null,
         "support": 186.64,
-        "contraction": 0.9,
+        "contraction": 1,
         "trend": "up"
       },
       "top2Gaps": {
@@ -17834,12 +17826,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 4
       },
-      "ma150Slope": 10.03,
+      "ma150Slope": 10.09,
       "ta": {
-        "price": 375.65,
+        "price": 375.06,
         "resistance": 387.33,
         "support": 321.39,
-        "contraction": 0.91,
+        "contraction": 0.86,
         "trend": "up"
       },
       "top2Gaps": {
@@ -18439,12 +18431,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": -0.66,
+      "ma150Slope": -0.56,
       "ta": {
-        "price": 102.94,
-        "resistance": 103.48,
+        "price": 101.45,
+        "resistance": 102.88,
         "support": 95.59,
-        "contraction": 1.67,
+        "contraction": 1.77,
         "trend": "up"
       },
       "top2Gaps": {
@@ -19043,12 +19035,12 @@ window.TEAM2_DATA = {
         "m3": 4,
         "m6": 0
       },
-      "ma150Slope": -1.92,
+      "ma150Slope": -1.67,
       "ta": {
-        "price": 191.58,
+        "price": 197.47,
         "resistance": 203.03,
-        "support": 186.67,
-        "contraction": 1.02,
+        "support": 194.64,
+        "contraction": 1.08,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -19601,12 +19593,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 4
       },
-      "ma150Slope": 12.43,
+      "ma150Slope": 12.55,
       "ta": {
-        "price": 93.73,
+        "price": 94.72,
         "resistance": 95.57,
         "support": 85.75,
-        "contraction": 0.89,
+        "contraction": 0.88,
         "trend": "up"
       },
       "top2Gaps": {
@@ -20345,12 +20337,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 0
       },
-      "ma150Slope": 0.67,
+      "ma150Slope": 0.77,
       "ta": {
-        "price": 64.6,
-        "resistance": 66.09,
-        "support": 63.2,
-        "contraction": 1.16,
+        "price": 69.22,
+        "resistance": 70.17,
+        "support": 67.99,
+        "contraction": 1.13,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -20773,12 +20765,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 2
       },
-      "ma150Slope": 5.01,
+      "ma150Slope": 5.12,
       "ta": {
-        "price": 93.15,
+        "price": 95.26,
         "resistance": 96.35,
         "support": 88.52,
-        "contraction": 0.92,
+        "contraction": 1,
         "trend": "up"
       },
       "top2Gaps": {
@@ -21312,12 +21304,12 @@ window.TEAM2_DATA = {
         "m3": 0,
         "m6": 2
       },
-      "ma150Slope": 8.77,
+      "ma150Slope": 8.68,
       "ta": {
-        "price": 241.14,
+        "price": 253.3,
         "resistance": 272,
-        "support": 239.15,
-        "contraction": 1.1,
+        "support": 245,
+        "contraction": 1.15,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -23191,169 +23183,6 @@ window.TEAM2_DATA = {
         }
       ],
       "asOf": "2026-09-17"
-    },
-    "llmCarried": {
-      "byPeriod": {
-        "m1": {
-          "name": "Technology 확산 · 업종 3분할(SW-Application·진단·반도체)",
-          "plainKo": "1M 상위 2%는 Technology 10종목(55.6%)이 압도했지만 업종 단위로는 Software-Application·Diagnostics & Research·Semiconductors가 각각 3종목(16.7%)으로 3분할돼 단일 업종 주도가 아니다. 신규 진입(SWKS·SMTC·QRVO·NOW·DUOL·MLAB)이 다수를 차지해 아직 방향이 굳지 않은 초기 국면이다.",
-          "tickers": [
-            "MGRT",
-            "TEAM",
-            "OKTA",
-            "SWKS",
-            "SMTC",
-            "QRVO",
-            "NOW",
-            "DUOL",
-            "EPAM",
-            "MLAB"
-          ],
-          "strength": "emerging"
-        },
-        "m3": {
-          "name": "사이버보안(Software-Infrastructure) 집중",
-          "plainKo": "3M 상위 2%는 Technology 6종목(46.2%)·Healthcare 3종목(23.1%)·Energy 3종목(23.1%)이 나눠 가진 가운데, 업종 차원에서는 Software-Infrastructure(OKTA·QLYS·ZS) 3종목(23.1%, high concentration)이 최상위 클러스터였다. QLYS·ZS는 9/14부터 막 진입한 신규 클러스터다.",
-          "tickers": [
-            "OKTA",
-            "QLYS",
-            "ZS"
-          ],
-          "strength": "strong"
-        },
-        "m6": {
-          "name": "사이버보안·반도체 복합(Software-Infrastructure + Semiconductors)",
-          "plainKo": "6M 상위 2%는 Technology 16종목(69.6%)이 장악했고, 업종으로는 Software-Infrastructure(OKTA·BAND·CRWD·PANW·RBRK·FTNT) 6종목(26.1%)과 Semiconductors(MXL·AMBQ·MRVL·SIMO) 4종목(17.4%)이 양대 축이었다. 다만 이 10종목은 모두 Node 교차 분류상 '퇴조'(6M 만)로, 1M·3M 상위 2%에서는 이탈한 상태다.",
-          "tickers": [
-            "OKTA",
-            "BAND",
-            "CRWD",
-            "PANW",
-            "RBRK",
-            "FTNT",
-            "MXL",
-            "AMBQ",
-            "MRVL",
-            "SIMO"
-          ],
-          "strength": "strong"
-        }
-      },
-      "caution": "Technology 섹터 63.4%(union)라는 큰 틀은 세 기간 모두 유지되지만, 그 안의 실제 주도 업종은 6M 사이버보안·반도체 → 3M 사이버보안 집중 → 1M 3분할 로 계속 바뀌어 '하나의 테마'로 단순화하면 실제 로테이션을 감춘다. 또한 leadingTheme·사이버보안 subTheme에 포함된 OKTA·BAND·QLYS·CRWD·PANW·ZS·FTNT는 Node 클러스터에는 있으나 개별 검증 리서치가 없어 RBRK 1건의 사이버보안 섹터 급등 보도로 전체 업종 움직임을 추론한 것이다 — 개별 종목별 상승 사유는 확인되지 않았다. persistent(3기간 지속) 4종목(MRNA·TEAM·OKTA·TWST)은 섹터가 제각각(바이오·SW·보안·진단)이라 공통 테마로 묶이지 않는다.",
-      "crossCuttingDriver": "AI 자본지출 사이클이 데이터센터向 반도체·메모리·광인터커넥트(MRVL·SMTC·SIMO·AEHR·PENG)의 실적 서프라이즈를 이끌었고, 9/14 Dario Amodei의 AI 안전 위험 경고는 역설적으로 사이버보안(RBRK 등 Software-Infrastructure 클러스터)에 대한 매수를 촉발했다. 여기에 개별 종목 차원의 가이던스 상향·숏커버링(IT)과 M&A 진전(QRVO-Skyworks 합병)이 겹치며 Technology 섹터가 union 기준 63.4%, 1M 55.6%·3M 46.2%·6M 69.6%로 전 기간 최상위 비중을 유지했다. 다만 이 안에서 실제 주도 서브테마는 반도체→사이버보안→개별 실적 순으로 순환매하고 있다.",
-      "leadingTheme": {
-        "name": "Technology 섹터 주도, 핵심 동력은 AI 데이터센터 반도체·사이버보안",
-        "plainKo": "Technology 섹터가 union 기준 26종목(63.4%)으로 6개월 내내 압도적 비중을 유지했고, 1M 55.6%·3M 46.2%·6M 69.6%로 매 기간 최상위 섹터 자리를 지켰다. 다만 구체적 주도주는 6M의 사이버보안·반도체(Software-Infrastructure 26.1%·Semiconductors 17.4%)에서 3M 사이버보안 집중(23.1%)을 거쳐 1M에는 반도체·SW·진단이 16.7%씩 3분할되는 식으로 계속 로테이션했다. 'Technology 강세'라는 큰 틀은 유지되나 그 안의 리더십은 AI 데이터센터 반도체 → 사이버보안(AI 안전 트레이드) → 개별 실적 서프라이즈 순으로 바뀌는 순환매 장세다.",
-        "why": "MRVL은 FY2Q27(2026-08-01 마감) 매출 27.39억달러(YoY+36.5%)에 데이터센터 매출 비중 75.7%, FY27 120억·FY28 180억달러로 가이던스를 다섯 번째 상향했고 구글과 커스텀 반도체 상업계약을 체결했다. SMTC는 FY27 2Q 매출 $341.9M(QoQ+17%/YoY+33%), 데이터센터 매출 레코드 $100M(QoQ+39%/YoY+91%)를 기록했고 800G FiberEdge 점유율이 약 18%에서 50% 이상으로 확대됐다. SIMO는 2Q26 매출 4.51억달러(YoY+127%/QoQ+32%)로 컨센서스($4.036억)를 상회했고 MonTitan 엔터프라이즈 SSD 컨트롤러가 2개 Tier1 고객向 양산에 진입했다. AEHR은 매출 YoY+33.7%(1,883.5만달러), 순이익 흑자전환(YoY+148%)을 기록했다. PENG은 FY26 3Q 매출 YoY+47.6%, AI 매출 비중 74%(YoY+104%)였다. RBRK는 9/14 Dario Amodei의 AI 안전 위험 경고 여파로 사이버보안 섹터 전반이 급등한 날 당일 +15.3% 상승했고 Citi($96→130)·Wedbush($90→120) 목표주가 상향과 Fintel 컨센서스 11.53% 상향($122.31)이 뒤따랐다. IT는 FY2026 EPS 가이던스를 13.25달러에서 14달러로 상향했고 숏커버링이 랠리를 증폭시켰다는 분석이 제기됐다. QRVO는 Skyworks와의 220억달러 합병이 'final stages'라는 소식에 5% 상승(118.04달러)했다.",
-        "tickers": [
-          "MRVL",
-          "SMTC",
-          "SIMO",
-          "AEHR",
-          "PENG",
-          "RBRK",
-          "IT",
-          "QRVO"
-        ],
-        "strength": "strong"
-      },
-      "rotation": {
-        "persistent": [
-          "MRNA",
-          "TEAM",
-          "OKTA",
-          "TWST"
-        ],
-        "newEntrants": [
-          "SWKS",
-          "SMTC",
-          "QRVO",
-          "AGCO",
-          "ILMN",
-          "SIG",
-          "NOW",
-          "DUOL",
-          "MLAB"
-        ],
-        "midTerm": [
-          "QLYS",
-          "PARR",
-          "FET",
-          "ZS",
-          "IT"
-        ],
-        "fading": [
-          "AGL",
-          "MXL",
-          "DELL",
-          "BAND",
-          "CORT",
-          "PENG",
-          "CRWD",
-          "PANW",
-          "AMBQ",
-          "MRVL",
-          "HNGE",
-          "XMTR",
-          "RBRK",
-          "SIMO",
-          "SNDK",
-          "FTNT",
-          "NUTX",
-          "AEHR"
-        ],
-        "narrative": "1M 신규 진입 9종목(SWKS·SMTC·QRVO·AGCO·ILMN·SIG·NOW·DUOL·MLAB)은 Technology 10종목(55.6%)·Healthcare 4종목(22.2%) 강세 속에 Semiconductors(16.7%)·Diagnostics & Research(16.7%)·Software-Application(16.7%) 세 업종에 고르게 분산됐다. 3M 중기 5종목(QLYS·PARR·FET·ZS·IT)은 Technology 6종목(46.2%)과 Energy 3종목(23.1%)이 양분하는 가운데 Software-Infrastructure(23.1%)·Oil & Gas Refining & Marketing(15.4%)이 핵심 업종으로 부상했다. 6M 퇴조 18종목은 Technology 16종목(69.6%)·Software-Infrastructure 6종목(26.1%)·Semiconductors 4종목(17.4%)이 만들어낸 과거 강세가 최근 1M·3M 상위 2%에서는 이탈했음을 보여준다. 세 기간 모두 남은 지속 종목은 MRNA·TEAM·OKTA·TWST 4개뿐이라, 섹터·업종 로테이션과 무관하게 유지되는 핵심 종목군은 극히 제한적이다."
-      },
-      "subThemes": [
-        {
-          "name": "AI 데이터센터 인프라 반도체",
-          "plainKo": "AI 데이터센터向 반도체·메모리·광인터커넥트 수요가 실적으로 확인되며 관련 5종목의 매출이 YoY 두 자릿수~세 자릿수로 급증했다.",
-          "tickers": [
-            "MRVL",
-            "SMTC",
-            "SIMO",
-            "AEHR",
-            "PENG"
-          ],
-          "why": "MRVL 데이터센터 매출 비중 75.7%·가이던스 5차 상향(FY27 120억·FY28 180억달러), SMTC 800G 데이터센터 매출 QoQ+39%·점유율 50%+, SIMO 엔터프라이즈 SSD Tier1 고객 2곳 양산 진입, AEHR 순이익 흑자전환(YoY+148%), PENG AI 매출 비중 74%(YoY+104%)."
-        },
-        {
-          "name": "사이버보안 AI-안전 트레이드",
-          "plainKo": "9/14 AI 안전 위험 경고를 계기로 사이버보안 업종 전반이 동반 급등했고, Software-Infrastructure 비중은 6M 26.1%·3M 23.1%로 확대됐다.",
-          "tickers": [
-            "OKTA",
-            "BAND",
-            "QLYS",
-            "CRWD",
-            "PANW",
-            "RBRK",
-            "ZS",
-            "FTNT"
-          ],
-          "why": "RBRK는 해당일 +15.3% 상승했고 목표주가가 Citi 96→130달러, Wedbush 90→120달러로 상향(Fintel 컨센서스도 9/15 기준 11.53% 상향된 122.31달러)됐다. OKTA·BAND·QLYS·CRWD·PANW·ZS·FTNT는 Node 클러스터에 함께 포함돼 있으나 개별 검증 리서치는 RBRK 외에는 확보되지 않았다."
-        },
-        {
-          "name": "정유 정제마진 업사이클",
-          "plainKo": "3-2-1 크랙 스프레드 강세를 배경으로 정유·오일필드서비스 3종목이 3M 상위 2%의 23.1%를 차지했다.",
-          "tickers": [
-            "DINO",
-            "PARR",
-            "FET"
-          ],
-          "why": "DINO는 3-2-1 크랙 스프레드가 배럴당 $64.58로 사상 최고치를 기록했고 Lubricants 부문 스핀오프도 발표했다. PARR는 2Q26 영업이익률이 21.4%(영업이익 YoY+555.8%)로 확대됐고 TD Cowen(78→100달러)·Goldman(77→92달러)·Mizuho(58→79달러, Outperform 상향)·UBS(60→65달러)가 목표주가를 올렸다. FET는 2026년 가이던스로 매출 약 8.4억달러·조정 EBITDA 약 1억달러(전년 대비 +16%)를 제시했고 발행주식수를 10% 축소했다."
-        },
-        {
-          "name": "유전체 진단/합성DNA",
-          "plainKo": "정밀의료·유전체 시퀀싱 3종목이 1M 상위 2%에서 Diagnostics & Research 16.7%를 형성했다.",
-          "tickers": [
-            "WGS",
-            "TWST",
-            "ILMN"
-          ],
-          "why": "WGS는 2Q26 EPS $0.01로 컨센서스(-$0.19) 대비 +105.26% 서프라이즈를 기록했고 매출은 1억1,444만달러(YoY+11.4%)였다. TWST는 3Q(6월 마감) 매출 1억1,838만달러(YoY+23.2%)로 FY2026 매출 가이던스를 4.56억~4.57억달러로 상향했다. ILMN은 UBS가 9/9 Neutral→Buy로, Zacks가 9/7 Buy로 등급을 상향했다."
-        }
-      ],
-      "researchedOn": "2026-09-17"
     }
   },
   "fs_coverage": {

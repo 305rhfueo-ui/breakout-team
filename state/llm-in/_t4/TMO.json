@@ -1,0 +1,146 @@
+{
+ "ticker": "TMO",
+ "news": [
+  {
+   "title": "CLSA Initiates Coverage of Thermo Fisher Scientific (TMO) at Outperform",
+   "url": "https://www.nasdaq.com/articles/clsa-initiates-coverage-thermo-fisher-scientific-tmo-outperform",
+   "date": "2026-09-04",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "See Which Recent 13F Filers Hold TMO",
+   "url": "https://www.nasdaq.com/articles/see-which-recent-13f-filers-hold-tmo",
+   "date": "2026-08-21",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000138/tmo-20260723.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-26",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000117/tmo-20260520.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000086/tmo-20260423.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-24",
+   "reportDate": "2026-03-24",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000066/tmo-20260324.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "reportDate": "2026-02-09",
+   "items": [
+    "1.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97745/000114036126005014/ef20065513_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-29",
+   "reportDate": "2026-01-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000012/tmo-20260129.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.45,
+  "saleNy": 5.12,
+  "epsCy": 9.89,
+  "epsNy": 9.55,
+  "cyTrend": 0.05,
+  "nyTrend": 0.07,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    10.49,
+    6.18,
+    7.2
+   ],
+   "ni": [
+    7.36,
+    9.56,
+    7.38
+   ],
+   "opm": [
+    17.4,
+    16.94,
+    18.46
+   ],
+   "updated": "2026-09-07 06:34:44"
+  }
+ }
+}

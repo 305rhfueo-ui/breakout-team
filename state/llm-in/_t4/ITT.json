@@ -1,0 +1,182 @@
+{
+ "ticker": "ITT",
+ "news": [
+  {
+   "title": "Is ITT (ITT) Stock Outpacing Its Conglomerates Peers This Year?",
+   "url": "https://www.nasdaq.com/articles/itt-itt-stock-outpacing-its-conglomerates-peers-year",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CIB or ITT: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/cib-or-itt-which-better-value-stock-right-now",
+   "date": "2026-09-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CIB vs. ITT: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/cib-vs-itt-which-stock-better-value-option-0",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ITT (ITT) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/itt-itt-q2-2026-earnings-call-transcript",
+   "date": "2026-08-13",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "ITT Q2 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/itt-q2-earnings-call-highlights",
+   "date": "2026-08-08",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "ITT (ITT) Tops Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/itt-itt-tops-q2-earnings-and-revenue-estimates",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ITT (ITT) Reports Q2 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/itt-itt-reports-q2-earnings-what-key-metrics-have-say",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ITT Boosts FY26 Outlook; Stock Up 5.4% - Update",
+   "url": "https://www.nasdaq.com/articles/itt-boosts-fy26-outlook-stock-54-update",
+   "date": "2026-08-06",
+   "publisher": "RTTNews"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/216228/000021622826000061/itt-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-29",
+   "reportDate": "2026-06-29",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/216228/000021622826000055/itt-20260629.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-26",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/216228/000021622826000043/itt-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-02",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/216228/000021622826000039/itt-20260502.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/216228/000021622826000034/itt-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-02",
+   "reportDate": "2026-03-02",
+   "items": [
+    "1.01",
+    "2.01",
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.01",
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/216228/000021622826000020/itt-20260302.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 40.15,
+  "saleNy": 9.02,
+  "epsCy": 22.83,
+  "epsNy": 16.37,
+  "cyTrend": 4.28,
+  "nyTrend": 3.8,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    51.49,
+    32.74,
+    13.46
+   ],
+   "ni": [
+    -29.83,
+    -28.04,
+    3.62
+   ],
+   "opm": [
+    12.24,
+    11.65,
+    16.95
+   ],
+   "updated": "2026-09-08 10:06:49"
+  }
+ }
+}

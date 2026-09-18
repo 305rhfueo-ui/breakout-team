@@ -1,0 +1,79 @@
+{
+ "ticker": "ESEA",
+ "news": [
+  {
+   "title": "Upcoming Dividend Run For ESEA?",
+   "url": "https://www.nasdaq.com/articles/upcoming-dividend-run-esea",
+   "date": "2026-08-25",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Euroseas Ltd. (ESEA) Q2 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/euroseas-ltd-esea-q2-earnings-and-revenues-surpass-estimates",
+   "date": "2026-08-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Should Value Investors Buy Euroseas (ESEA) Stock?",
+   "url": "https://www.nasdaq.com/articles/should-value-investors-buy-euroseas-esea-stock",
+   "date": "2026-07-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Euroseas (ESEA) Stock Outpacing Its Transportation Peers This Year?",
+   "url": "https://www.nasdaq.com/articles/euroseas-esea-stock-outpacing-its-transportation-peers-year-0",
+   "date": "2026-07-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Momentum in Euroseas (ESEA) Should Keep going",
+   "url": "https://www.nasdaq.com/articles/heres-why-momentum-euroseas-esea-should-keep-going",
+   "date": "2026-07-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "2 Top-Rated Shipping Stocks to Buy Now: Euroseas (ESEA) & Okeanis ECO Tankers (ECO)",
+   "url": "https://www.nasdaq.com/articles/2-top-rated-shipping-stocks-buy-now-euroseas-esea-okeanis-eco-tankers-eco",
+   "date": "2026-07-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Transportation Stocks Lagging  Euroseas (ESEA) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-transportation-stocks-lagging-euroseas-esea-year-0",
+   "date": "2026-07-06",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -1.13,
+  "saleNy": 6.21,
+  "epsCy": 8.36,
+  "epsNy": -15.21,
+  "cyTrend": 5.22,
+  "nyTrend": 3.99,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -1.28,
+    -0.9,
+    7.65
+   ],
+   "ni": [
+    11.23,
+    -11.9,
+    66.02
+   ],
+   "opm": [
+    59.18,
+    61.24,
+    75.16
+   ],
+   "updated": "2026-09-08 10:10:54"
+  }
+ }
+}

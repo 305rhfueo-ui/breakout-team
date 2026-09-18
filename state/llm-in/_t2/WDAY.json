@@ -1,0 +1,237 @@
+{
+ "ticker": "WDAY",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "워크데이",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.67,
+  "saleNy": 10.46,
+  "epsCy": 20.05,
+  "epsNy": 19.32,
+  "est": {
+   "cyCur": 11.08076,
+   "cy30": 10.76117,
+   "nyCur": 13.22143,
+   "ny30": 12.64386
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    12.82,
+    13.48,
+    14.52
+   ],
+   "ni": [
+    177.19,
+    226.47,
+    54.26
+   ],
+   "opm": [
+    11.82,
+    13.3,
+    6.91
+   ],
+   "updated": "2026-09-07 06:41:39"
+  },
+  "qualifiedBy": [
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-09-11",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 5,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-18",
+  "nameKo": "워크데이",
+  "nameEn": "WORKDAY INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327811&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": false,
+     "revenue": 2649000000,
+     "profit": 313000000,
+     "netIncome": 632000000,
+     "margin": 11.8,
+     "yoy": {
+      "revenue": 12.8,
+      "profit": 26.2,
+      "netIncome": 177.2,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 2542000000,
+     "profit": 338000000,
+     "netIncome": 222000000,
+     "margin": 13.3,
+     "yoy": {
+      "revenue": 13.5,
+      "profit": 766.7,
+      "netIncome": 226.5,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 2532000000,
+     "profit": 174000000,
+     "netIncome": 145000000,
+     "margin": 6.9,
+     "yoy": {
+      "revenue": 14.5,
+      "profit": 132,
+      "netIncome": 54.3,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 2432000000,
+     "profit": 259000000,
+     "netIncome": 252000000,
+     "margin": 10.6,
+     "yoy": {
+      "revenue": 12.6,
+      "profit": 57,
+      "netIncome": 30.6,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Workday Consensus Price Target Increased 11.84% to $209.42",
+     "url": "https://www.nasdaq.com/articles/workday-consensus-price-target-increased-1184-20942",
+     "date": "2026-09-16",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Workday CFO Sells Over 2,800 Shares Worth More Than Half a Million Dollars",
+     "url": "https://www.nasdaq.com/articles/workday-cfo-sells-over-2800-shares-worth-more-half-million-dollars",
+     "date": "2026-09-10",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Workday's Q2 Beat and AI Gains Raise the Stakes for Fiscal 2028 Growth",
+     "url": "https://www.nasdaq.com/articles/workdays-q2-beat-and-ai-gains-raise-stakes-fiscal-2028-growth",
+     "date": "2026-09-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Workday a Buy as AI Growth Rises but Valuation Sends Mixed Signals?",
+     "url": "https://www.nasdaq.com/articles/workday-buy-ai-growth-rises-valuation-sends-mixed-signals",
+     "date": "2026-09-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "WDAY Jumps 49.7% in 3 Months as AI Momentum Builds: Can it Continue?",
+     "url": "https://www.nasdaq.com/articles/wday-jumps-497-3-months-ai-momentum-builds-can-it-continue",
+     "date": "2026-09-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Workday (WDAY) is a Top Growth Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-workday-wday-top-growth-stock-long-term-0",
+     "date": "2026-08-31",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "WDAY's Operating Margin Expands: Will the Improvement Continue?",
+     "url": "https://www.nasdaq.com/articles/wdays-operating-margin-expands-will-improvement-continue",
+     "date": "2026-08-31",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Workday (WDAY) Q2 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/workday-wday-q2-2027-earnings-call-transcript",
+     "date": "2026-08-31",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-27",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000042/wday-20260827.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-22",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000031/wday-20260616.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-21",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000024/wday-20260521.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-24",
+    "itemsKo": [
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000019/wday-20260420.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-06",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000016/wday-20260305.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-24",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000010/wday-20260224.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

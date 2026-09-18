@@ -1,0 +1,275 @@
+{
+ "ticker": "INTC",
+ "sector": "Technology",
+ "industry": "Semiconductors",
+ "nameKo": "인텔",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 19.28,
+  "saleNy": 13.96,
+  "epsCy": 260.62,
+  "epsNy": 35,
+  "est": {
+   "cyCur": 1.51462,
+   "cy30": 1.5129,
+   "nyCur": 2.04479,
+   "ny30": 2.04013
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    25.42,
+    7.18,
+    -4.11
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    11.14,
+    -23.1,
+    4.24
+   ],
+   "updated": "2026-09-08 08:00:29"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": "2026-09-17",
+   "m3": null,
+   "m6": "2026-09-17"
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 1
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-18",
+  "nameKo": "인텔",
+  "nameEn": "INTEL CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000050863&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-27",
+     "derived": false,
+     "revenue": 16128000000,
+     "profit": 1796000000,
+     "netIncome": -11033000000,
+     "margin": 11.1,
+     "yoy": {
+      "revenue": 25.4,
+      "profit": 156.5,
+      "netIncome": -278.1,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2026-03-28",
+     "derived": false,
+     "revenue": 13577000000,
+     "profit": -3136000000,
+     "netIncome": -3728000000,
+     "margin": -23.1,
+     "yoy": {
+      "revenue": 7.2,
+      "profit": -941.9,
+      "netIncome": -354.1,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodEnd": "2025-12-27",
+     "derived": true,
+     "revenue": 13674000000,
+     "profit": 580000000,
+     "netIncome": -591000000,
+     "margin": 4.2,
+     "yoy": {
+      "revenue": -4.1,
+      "profit": 40.8,
+      "netIncome": -369,
+      "priorEnd": "2024-12-28"
+     }
+    },
+    {
+     "periodEnd": "2025-09-27",
+     "derived": false,
+     "revenue": 13653000000,
+     "profit": 683000000,
+     "netIncome": 4063000000,
+     "margin": 5,
+     "yoy": {
+      "revenue": 2.8,
+      "profit": 107.5,
+      "netIncome": 124.4,
+      "priorEnd": "2024-09-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Intel Stock Jumped 7.6% Today",
+     "url": "https://www.nasdaq.com/articles/why-intel-stock-jumped-76-today",
+     "date": "2026-09-17",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Stock Market Today, Sept. 17: Intel Surges 8% on Rumored SK Hynix Talks",
+     "url": "https://www.nasdaq.com/articles/stock-market-today-sept-17-intel-surges-8-rumored-sk-hynix-talks",
+     "date": "2026-09-17",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Can INTC's AI Inference Advancements Strengthen Its Growth Prospects?",
+     "url": "https://www.nasdaq.com/articles/can-intcs-ai-inference-advancements-strengthen-its-growth-prospects",
+     "date": "2026-09-17",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-12",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312526346806/d117670d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-23",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000155/intc-20260723.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-15",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000118/intc-20260513.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312526197845/d143782d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-24",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000083/intc-20260424.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-23",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000077/intc-20260423.htm"
+   }
+  ],
+  "krReports": {
+   "total": 15,
+   "reports": [
+    {
+     "date": "2026-09-16",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[인텔 (NAS:INTC)] SK하이닉스와 미국 내 메모리 생산 협상 - 파운드리 외부 고객·오하이오 가동률 리스크 완화 신호",
+     "summary": "- SK하이닉스, 인텔과 美 메모리 생산 협상 진행- 오하이오 공장 임대 또는 합작법인 두 시나리오 거론- 파운드리 외부고객 리스크 완화 신호, 확정은 아직",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxcqqmzicmgzgcgxcmel.pdf"
+    },
+    {
+     "date": "2026-08-10",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[인텔 (NAS:INTC)] [Issue & News] 150억 달러 보통주 발행 추진 - 확대되는 파운드리 투자 부담에 대한 선제적 자본 확충",
+     "summary": "- 인텔, 150억 달러 보통주 발행 계획 발표- 용처·발행가 미공개, 파운드리 투자 자금 조달 추정- 고밸류 국면의 자본 확충, 희석 부담 상존",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlximmexkxglmqgcgxcmel.pdf"
+    },
+    {
+     "date": "2026-07-24",
+     "broker": "신한투자증권",
+     "analyst": "고준혁",
+     "title": "[인텔 (NAS:INTC)] 쇼티지 수혜 이후, 증명이 필요한 시점",
+     "summary": "- 전례없는 컴퓨팅 수요 확인. CPU, ASIC, EMIB, 파운드리 전반에서 수혜 기대되나, 반등을 위해 CPU 점유율과 구체적인 파운드리 고객 정보 필요- 2Q26 매출액 161억달러(YoY+25.4%, 이하 전년동기대비), 영업이익 28 억달러(흑자전환, OPM 17.2%)로 컨센서스를 각각 11.7%, 73% 상회. 부문 별 매출은 CCPG 89억달러(+13%), DCAI 63억달러(+59%), 파운드리 58 억달러(+31%) 기록- 파운드리도 팬서 레이크 일부 제품에 High NA-EUV 도입으로 대량 양산 예정. 18A 기반 서버급 제품 Xeon 6+ 출시. 18A-P도 시범 생산에 진입. 14A PDK 0.5 완료, 26년 10월 PDK 0.9 제공. 27년 하반기 시범 생산 목표",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzckxxkigglkggcgxcmel.pdf"
+    },
+    {
+     "date": "2026-07-24",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "title": "[인텔 (NAS:INTC)] CPU가 끌고, 파운드리가 민다",
+     "summary": "- 인텔의 2분기 실적은 매출 161.2억달러(+25.4% yoy), GPM 41.8%, EPS 0.42달러를 기록하며 컨센서스를 상회. AI Agent 확산에 따른 서버 CPU 수요 강세로 DCAI 매출은 62.6억달러(+59% yoy)를 기록했으며, CPU ASP 상승과 고사양 제품 중심의 믹스 개선이 동시에 나타나며 DCAI OPM 도 39.5%로 시장 예상치를 크게 상회- 3분기 가이던스도 매출 163억달러, GPM 42%, EPS 0.38달러로 컨센서스 를 상회. 고객 수요 강세에 대응하기 위해 2026년 연간 CAPEX 가이던스 를 200억달러로 상향 조정했으며, 대부분의 투자는 장비 확보에 사용될 예 정- 18A 공정의 수율 및 원가 개선이 예상보다 빠르게 진행되는 것으로 파악. 18A가 적용되는 Panther Lake의 생산비용은 연초 대비 약 50% 절감됐 으며, 연말까지 추가로 약 20%의 비용 절감이 가능할 것으로 언급",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzckkmkeilzizgcgxcmel.pdf"
+    },
+    {
+     "date": "2026-07-24",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[인텔 (NAS:INTC)] Earnings Flash",
+     "summary": "- 매출액 161억 달러(YoY +25.4%), EPS 0.42달러(혹자 전환)로 각각 예상치 +11.8%, +96.3% 상회. 견조한 AI 서버 수요에 팹 수율 상승·생산 사이클타임 단축으로 미충족 수요를 실제 출하·매출로 전환하며, 15년 만에 최대 매출 성장률 달성- Intel 18A 기반 첫 서버용 CPU 제품 Xeon 6+를 출시했으며, 성능·전력 효율을 개선한 18A-P도 리스크 생산에 진입- 어닝 서프라이즈로 시간외 12%대 급등했으나, 이후 상승폭은 5% 안판으로 축소",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlklxxlcimcmmlgcgxcmel.pdf"
+    },
+    {
+     "date": "2026-07-24",
+     "broker": "SK증권",
+     "analyst": "박제민",
+     "title": "[인텔 (NAS:INTC)] CPU 대장은 바로 나",
+     "summary": "- 이익률에서 명확한 CPU 쇼티지 효과 포착- 18A 에 이어 14A 까지- 파운드리 고객사 힌트",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlklxcclxmgciqgcgxcmel.pdf"
+    },
+    {
+     "date": "2026-07-23",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[인텔 (NAS:INTC)] [26Q2 Review] DCAI +59%가 이끈 서프라이즈, 매수 유지",
+     "summary": "- DCAI +59% YoY $6.3B가 매출 $16.1B 견인- Non-GAAP EPS $0.42, 가이던스 $0.20 대비 +110%- 7분기 연속 가이던스 beat, NTM PE 73x 부담 지속",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzcqckkzggkmegcgxcmel.pdf"
+    },
+    {
+     "date": "2026-06-19",
+     "broker": "SK증권",
+     "analyst": "박제민",
+     "title": "[인텔 (NAS:INTC)] 미국 Foundry 기업의 탄생",
+     "summary": "- Signal: 인텔 파운드리에 유리한 정치적 배경 조성- Key: 서사 완성의 핵심, 18A 서버향 수율 순항- Step: CPU 쇼티지는 이제 시작",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlelgikiikmxqzgcgxcmel.pdf"
+    }
+   ]
+  }
+ }
+}

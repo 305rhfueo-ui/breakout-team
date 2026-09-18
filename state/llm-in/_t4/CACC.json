@@ -1,0 +1,166 @@
+{
+ "ticker": "CACC",
+ "news": [
+  {
+   "title": "Credit Acceptance (CACC) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/credit-acceptance-cacc-q2-2026-earnings-call-transcript",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "All You Need to Know About Credit Acceptance (CACC) Rating Upgrade to Buy",
+   "url": "https://www.nasdaq.com/articles/all-you-need-know-about-credit-acceptance-cacc-rating-upgrade-buy",
+   "date": "2026-08-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CACC Q2 Earnings Beat as Expenses & Provisions Decline, Revenues Rise",
+   "url": "https://www.nasdaq.com/articles/cacc-q2-earnings-beat-expenses-provisions-decline-revenues-rise",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Credit Acceptance (CACC) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-credit-acceptance-cacc-strong-momentum-stock",
+   "date": "2026-06-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Credit Acceptance (CACC) Up 0.3% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/credit-acceptance-cacc-03-last-earnings-report-can-it-continue",
+   "date": "2026-06-04",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-04",
+   "reportDate": "2026-09-03",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/885550/000088555026000189/cacc-20260903.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-25",
+   "reportDate": "2026-08-20",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/885550/000088555026000185/cacc-20260820.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/885550/000088555026000181/cacc-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "reportDate": "2026-07-20",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/885550/000088555026000173/cacc-20260720.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-21",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/885550/000088555026000170/cacc-20260721.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-15",
+   "reportDate": "2026-06-09",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/885550/000088555026000147/cacc-20260609.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -7.78,
+  "saleNy": 7.13,
+  "epsCy": 16.32,
+  "epsNy": 14.83,
+  "cyTrend": 0.81,
+  "nyTrend": -0.03,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    0.62,
+    1.56,
+    2.47
+   ],
+   "ni": [
+    55.49,
+    27.75,
+    -19.68
+   ],
+   "opm": [
+    50.07,
+    51.59,
+    49.66
+   ],
+   "updated": "2026-09-08 06:33:17"
+  }
+ }
+}

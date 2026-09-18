@@ -2,14 +2,14 @@ window.HISTORY_DATA = {
   "runs": [
     {
       "date": "2026-09-18",
-      "qqq": "red",
+      "qqq": "yellow",
       "finraYoY": 37.2,
       "picks": 42,
-      "breakouts": 12,
-      "chartCheck": 25,
-      "droppedToday": 1,
+      "breakouts": 15,
+      "chartCheck": 20,
+      "droppedToday": 2,
       "reentryBlocked": 7,
-      "barsNotice": "critical",
+      "barsNotice": null,
       "crossCounts": {
         "persistent": 3,
         "newEntrants": 10,
