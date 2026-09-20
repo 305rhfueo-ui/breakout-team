@@ -1,16 +1,36 @@
 window.CHARTCHECK_DATA = {
-  "generated": "2026-09-18",
+  "generated": "2026-09-21",
   "items": [
+    {
+      "ticker": "MRNA",
+      "score": 8,
+      "source": "T3",
+      "reasons": [
+        "10봉 진폭이 직전 대비 0.71배로 수축",
+        "거래량 5일/20일 0.61배 — 매물 고갈",
+        "볼밴 폭 0.19 (60일 최저 0.19 근처) — 에너지 응축",
+        "저항 $156.41 대비 -1.52% — 돌파 임박권"
+      ],
+      "flags": [
+        "contract10",
+        "volDry",
+        "bbSqueeze",
+        "nearResist"
+      ],
+      "resistance": 156.41,
+      "price": 154.04,
+      "barGap": false
+    },
     {
       "ticker": "RGEN",
       "score": 8,
       "source": "T3",
       "reasons": [
-        "10봉 진폭이 직전 대비 0.77배로 수축",
-        "볼밴 폭 0.15 (60일 최저 0.12 근처) — 에너지 응축",
-        "저항 $182.52 대비 -2.37% — 돌파 임박권",
-        "최근 10일 종가 변동 2.66% — 타이트",
-        "52주 고점 대비 94.42%"
+        "10봉 진폭이 직전 대비 0.76배로 수축",
+        "볼밴 폭 0.14 (60일 최저 0.12 근처) — 에너지 응축",
+        "저항 $182.52 대비 -3.08% — 돌파 임박권",
+        "최근 10일 종가 변동 2.99% — 타이트",
+        "52주 고점 대비 93.73%"
       ],
       "flags": [
         "contract10",
@@ -20,7 +40,7 @@ window.CHARTCHECK_DATA = {
         "high52"
       ],
       "resistance": 182.52,
-      "price": 178.19,
+      "price": 176.89,
       "barGap": false
     },
     {
@@ -28,11 +48,11 @@ window.CHARTCHECK_DATA = {
       "score": 8,
       "source": "T3",
       "reasons": [
-        "10봉 진폭이 직전 대비 0.71배로 수축",
-        "볼밴 폭 0.1 (60일 최저 0.1 근처) — 에너지 응축",
-        "저항 $157.93 대비 -2.29% — 돌파 임박권",
-        "최근 10일 종가 변동 1.54% — 타이트",
-        "52주 고점 대비 95.63%"
+        "10봉 진폭이 직전 대비 0.74배로 수축",
+        "볼밴 폭 0.09 (60일 최저 0.09 근처) — 에너지 응축",
+        "저항 $157.93 대비 -4.67% — 돌파 임박권",
+        "최근 10일 종가 변동 1.43% — 타이트",
+        "52주 고점 대비 93.3%"
       ],
       "flags": [
         "contract10",
@@ -42,7 +62,49 @@ window.CHARTCHECK_DATA = {
         "high52"
       ],
       "resistance": 157.93,
-      "price": 154.32,
+      "price": 150.56,
+      "barGap": false
+    },
+    {
+      "ticker": "PLTR",
+      "score": 7,
+      "source": "T3",
+      "reasons": [
+        "10봉 진폭이 직전 대비 0.68배로 수축",
+        "볼밴 폭 0.14 (60일 최저 0.12 근처) — 에너지 응축",
+        "저항 $185.75 대비 -4.37% — 돌파 임박권",
+        "최근 10일 종가 변동 2.22% — 타이트"
+      ],
+      "flags": [
+        "contract10",
+        "bbSqueeze",
+        "nearResist",
+        "tightCloses"
+      ],
+      "resistance": 185.75,
+      "price": 177.64,
+      "barGap": false
+    },
+    {
+      "ticker": "KYMR",
+      "score": 7,
+      "source": "T3",
+      "reasons": [
+        "최근 5봉 진폭 0.61배 — 수축 가속",
+        "볼밴 폭 0.11 (60일 최저 0.11 근처) — 에너지 응축",
+        "저항 $119.83 대비 -1.74% — 돌파 임박권",
+        "최근 10일 종가 변동 1.39% — 타이트",
+        "52주 고점 대비 90.54%"
+      ],
+      "flags": [
+        "contract5",
+        "bbSqueeze",
+        "nearResist",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": 119.83,
+      "price": 117.75,
       "barGap": false
     },
     {
@@ -51,9 +113,9 @@ window.CHARTCHECK_DATA = {
       "source": "T3",
       "reasons": [
         "볼밴 폭 0.11 (60일 최저 0.1 근처) — 에너지 응축",
-        "저항 $84.16 대비 -2.22% — 돌파 임박권",
-        "최근 10일 종가 변동 1.26% — 타이트",
-        "52주 고점 대비 93.37%"
+        "저항 $84.16 대비 -2.47% — 돌파 임박권",
+        "최근 10일 종가 변동 1.28% — 타이트",
+        "52주 고점 대비 93.89%"
       ],
       "flags": [
         "bbSqueeze",
@@ -62,27 +124,7 @@ window.CHARTCHECK_DATA = {
         "high52"
       ],
       "resistance": 84.16,
-      "price": 82.29,
-      "barGap": false
-    },
-    {
-      "ticker": "ZBRA",
-      "score": 6,
-      "source": "T3",
-      "reasons": [
-        "볼밴 폭 0.09 (60일 최저 0.07 근처) — 에너지 응축",
-        "저항 $352.66 대비 -1.38% — 돌파 임박권",
-        "최근 10일 종가 변동 1.96% — 타이트",
-        "52주 고점 대비 90.05%"
-      ],
-      "flags": [
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 352.66,
-      "price": 347.81,
+      "price": 82.08,
       "barGap": false
     },
     {
@@ -91,9 +133,9 @@ window.CHARTCHECK_DATA = {
       "source": "T3",
       "reasons": [
         "볼밴 폭 0.18 (60일 최저 0.15 근처) — 에너지 응축",
-        "저항 $87.03 대비 -0.62% — 돌파 임박권",
-        "최근 10일 종가 변동 1.98% — 타이트",
-        "52주 고점 대비 97.55%"
+        "저항 $87.03 대비 -3.06% — 돌파 임박권",
+        "최근 10일 종가 변동 1.92% — 타이트",
+        "52주 고점 대비 96.18%"
       ],
       "flags": [
         "bbSqueeze",
@@ -102,7 +144,7 @@ window.CHARTCHECK_DATA = {
         "high52"
       ],
       "resistance": 87.03,
-      "price": 86.49,
+      "price": 84.37,
       "barGap": false
     },
     {
@@ -110,10 +152,10 @@ window.CHARTCHECK_DATA = {
       "score": 6,
       "source": "T3",
       "reasons": [
-        "볼밴 폭 0.11 (60일 최저 0.09 근처) — 에너지 응축",
-        "저항 $95.57 대비 -0.89% — 돌파 임박권",
-        "최근 10일 종가 변동 2.47% — 타이트",
-        "52주 고점 대비 97.99%"
+        "볼밴 폭 0.1 (60일 최저 0.09 근처) — 에너지 응축",
+        "저항 $95.57 대비 -0.7% — 돌파 임박권",
+        "최근 10일 종가 변동 2.6% — 타이트",
+        "52주 고점 대비 98.18%"
       ],
       "flags": [
         "bbSqueeze",
@@ -122,18 +164,18 @@ window.CHARTCHECK_DATA = {
         "high52"
       ],
       "resistance": 95.57,
-      "price": 94.72,
+      "price": 94.9,
       "barGap": false
     },
     {
-      "ticker": "THC",
+      "ticker": "PAYC",
       "score": 6,
       "source": "T3",
       "reasons": [
-        "볼밴 폭 0.09 (60일 최저 0.08 근처) — 에너지 응축",
-        "저항 $270.61 대비 -3.22% — 돌파 임박권",
-        "최근 10일 종가 변동 1.05% — 타이트",
-        "52주 고점 대비 92.53%"
+        "볼밴 폭 0.14 (60일 최저 0.14 근처) — 에너지 응축",
+        "저항 $227.49 대비 -0.53% — 돌파 임박권",
+        "최근 10일 종가 변동 2.43% — 타이트",
+        "52주 고점 대비 92.37%"
       ],
       "flags": [
         "bbSqueeze",
@@ -141,37 +183,19 @@ window.CHARTCHECK_DATA = {
         "tightCloses",
         "high52"
       ],
-      "resistance": 270.61,
-      "price": 261.9,
+      "resistance": 227.49,
+      "price": 226.28,
       "barGap": false
     },
     {
-      "ticker": "MRNA",
+      "ticker": "NSIT",
       "score": 6,
       "source": "T3",
       "reasons": [
-        "10봉 진폭이 직전 대비 0.61배로 수축",
-        "거래량 5일/20일 0.48배 — 매물 고갈",
-        "볼밴 폭 0.25 (60일 최저 0.21 근처) — 에너지 응축"
-      ],
-      "flags": [
-        "contract10",
-        "volDry",
-        "bbSqueeze"
-      ],
-      "resistance": 176.66,
-      "price": 158.07,
-      "barGap": false
-    },
-    {
-      "ticker": "MANH",
-      "score": 6,
-      "source": "T3",
-      "reasons": [
-        "볼밴 폭 0.12 (60일 최저 0.12 근처) — 에너지 응축",
-        "저항 $215 대비 -1.94% — 돌파 임박권",
-        "최근 10일 종가 변동 2.68% — 타이트",
-        "52주 고점 대비 92.86%"
+        "볼밴 폭 0.13 (60일 최저 0.1 근처) — 에너지 응축",
+        "저항 $157.35 대비 -1.55% — 돌파 임박권",
+        "최근 10일 종가 변동 2.56% — 타이트",
+        "52주 고점 대비 91.93%"
       ],
       "flags": [
         "bbSqueeze",
@@ -179,44 +203,23 @@ window.CHARTCHECK_DATA = {
         "tightCloses",
         "high52"
       ],
-      "resistance": 215,
-      "price": 210.82,
-      "barGap": false
-    },
-    {
-      "ticker": "KYMR",
-      "score": 6,
-      "source": "T3",
-      "reasons": [
-        "볼밴 폭 0.11 (60일 최저 0.11 근처) — 에너지 응축",
-        "저항 $119.83 대비 -1.13% — 돌파 임박권",
-        "최근 10일 종가 변동 1.36% — 타이트",
-        "52주 고점 대비 91.1%"
-      ],
-      "flags": [
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 119.83,
-      "price": 118.48,
+      "resistance": 157.35,
+      "price": 154.91,
       "barGap": false
     }
   ],
-  "total": 20,
+  "total": 19,
   "shown": 10,
   "cap": 10,
   "beyondCap": [
+    "THC(6)",
+    "MANH(6)",
     "MLAB(6)",
     "HURN(5)",
-    "MU(5)",
+    "ZBRA(5)",
+    "ORKA(5)",
+    "PLPC(5)",
     "TEAM(5)",
-    "PAYC(5)",
-    "AUGO(5)",
-    "INBX(5)",
-    "CRM(5)",
-    "SPSC(5)",
-    "EPAM(5)"
+    "AUGO(5)"
   ]
 };
