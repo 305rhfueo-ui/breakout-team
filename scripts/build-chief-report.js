@@ -229,6 +229,105 @@ function sectorSection(t5, dateStr) {
   return S;
 }
 
+// ── 📌 오늘의 요약 — 리포트 md 맨 위에 붙는 한 화면짜리 요약 ──
+// 채팅 보고(start-breakout.md §5)와 같은 순서다. LLM 을 부르지 않고 이미 계산된 숫자만 조립한다.
+// 실장 산문은 headline 한 줄과 todayFocus 티커만 쓴다 — 차트 결론 어휘가 새는 경로를 늘리지 않는다.
+const DIGEST_RE = /<!-- digest:start -->[\s\S]*?<!-- digest:end -->\n*/g;
+
+function digestSection({ t1, t2, t3, t4, t5, c, chief, report, leaks }) {
+  const L = ['<!-- digest:start -->', '## 📌 오늘의 요약', ''];
+  const tickers = (arr) => (arr || []).map((x) => x.ticker).join(' · ');
+
+  if (c && c.barsNotice) L.push(`> ${c.barsNotice.ko}`, '');
+  if (t2 && t2.dataNotice) L.push(`> ${t2.dataNotice.ko}`, '');
+
+  if (t1) {
+    const ds = t1.data_source || {}, rq = ds.rsQuality, q = t1.qqq || {};
+    L.push(`- **데이터**: RS 세션 ${v(ds.sessionDate)}`
+      + (rq ? ` · RS 결측률 ${(rq.nullRate * 100).toFixed(1)}% (빈 행 ${rq.blank}/${rq.total})${rq.forced && rq.block ? ' — ⚠️ 상한 초과 강행' : ''}` : '')
+      + (ds.siteCondition ? ` · 사이트 시장국면 ${ds.siteCondition}` : ''));
+    L.push(`- **🚦 시장**: ${v(q.ko)} — QQQ ${v(q.price)} · MA10 ${v(q.ma10)} / MA20 ${v(q.ma20)} / MA50 ${v(q.ma50)}`
+      + (q.slope10Pct != null ? ` · 기울기 10일 ${pct(q.slope10Pct)} / 20일 ${pct(q.slope20Pct)}` : '')
+      + (q.goldenCrossDate ? ` · 골든크로스 ${q.goldenCrossDate}` : '') + (q.deathCrossDate ? ` · 데드크로스 ${q.deathCrossDate}` : ''));
+    if (t1.finra && t1.finra.ko) L.push(`- **FINRA**: ${t1.finra.ko}`);
+  }
+
+  if (t2 && t2.stats) {
+    const s = t2.stats, rc = t2.research_coverage;
+    L.push(`- **2팀 퍼널**: ${s.universe} → 상위 2% ${s.unionTop} → ETF 제외 ${s.afterEtf} → ADR ${s.afterAdr} → 150일선 위 ${s.afterMa150}`
+      + (rc ? ` · 리서치 ${rc.done}/${rc.total} (이월 ${rc.carried || 0} · 대기 ${rc.pending || 0} · 실패 ${rc.failed || 0})` : ''));
+    const sec = ((t2.themes && t2.themes.bySector) || []).slice(0, 3).map((x) => `${x.name} ${x.count}종목(${x.sharePct}%)`);
+    if (sec.length) L.push(`  - 섹터 분포: ${sec.join(' · ')}`);
+  }
+
+  if (t3) {
+    const br = t3.breakouts || [];
+    const ratio = (b) => `${b.ticker} ${v(b.breakVolRatio)}×`;
+    const yes = br.filter((b) => b.volumeConfirmed), no = br.filter((b) => !b.volumeConfirmed);
+    L.push(`- **3팀 7주 고점 상향 마감**: ${br.length}건 · 거래량 확인 ${yes.length}건${yes.length ? ` (${yes.map(ratio).join(' · ')})` : ''}`);
+    if (no.length) L.push(`  - 거래량 미확인: ${no.map(ratio).join(' · ')}`);
+    const dr = t3.dropped_today || [];
+    L.push(`  - 오늘 배제: ${dr.length ? dr.map((d) => `${d.ticker}(${d.reason})`).join(' · ') : '없음'}`);
+    if ((t3.reentryBlocked || []).length) L.push(`  - 재편입 차단: ${tickers(t3.reentryBlocked)}`);
+  }
+
+  if (t4) {
+    const rc = t4.research_coverage, bc = t4.byCategory;
+    L.push(`- **4팀 촉매**: 분석 ${v(t4.analyzed)}종목`
+      + (rc ? ` · 조사 ${rc.done}/${rc.total} (이월 ${rc.carried || 0} · 대기 ${rc.pending || 0} · 실패 ${rc.failed || 0})` : '')
+      + (bc ? ` · 분류 ${Object.entries(bc).map(([k, n]) => `${k}:${n}`).join(' ')}` : ''));
+    for (const h of ((t4.llm && t4.llm.highlights) || []).filter((x) => x.category === 1 || x.category === 5)) {
+      L.push(`  - ${h.category === 1 ? '①' : '⑤'} **${h.ticker}** — ${h.oneLine}`);
+    }
+    const none = (t4.items || []).filter((i) => i.catalyst && i.catalyst.category === 6);
+    if (none.length) L.push(`  - ⑥ 근거 없음 ${none.length}종목: ${tickers(none)}`);
+  }
+
+  const fc = c && c.flowCross;
+  if (fc) {
+    const ind = (x) => `${x.industry}(frank25 ${x.frank25 > 0 ? '+' : ''}${v(x.frank25)} · ${v(x.stageKo)}) → ${(x.picks || []).length ? tickers(x.picks) : '통과 종목 없음'}`;
+    L.push('- **5팀 자금흐름**');
+    for (const [k, label] of [['inflow', '유입'], ['outflow', '유출'], ['pending', '보류']]) {
+      if ((fc[k] || []).length) L.push(`  - ${label}: ${fc[k].map(ind).join(' / ')}`);
+    }
+    if (fc.agreement) L.push(`  - 오늘 배제 ${fc.agreement.droppedTotal}종목 중 유출 업종 소속 ${fc.agreement.inOutflowIndustries}건`
+      + ((fc.breakoutsInInflow || []).length ? ` · 유입 업종 내 돌파: ${fc.breakoutsInInflow.map((x) => x.ticker || x).join(' · ')}` : ''));
+  }
+  const sum = t5 && t5.llm && t5.llm.summary;
+  if (sum) {
+    const nm = (x) => (x && typeof x === 'object' ? x.industry : x);
+    const parts = [sum.strongest && `가장 강함 ${nm(sum.strongest)}`,
+      (sum.emerging || []).length && `부상 ${sum.emerging.map(nm).join(' · ')}`,
+      (sum.fading || []).length && `퇴조 ${sum.fading.map(nm).join(' · ')}`].filter(Boolean);
+    if (parts.length) L.push(`  - 5팀 LLM: ${parts.join(' / ')}`);
+  }
+
+  if (c && c.counts) {
+    const cc = Array.isArray(c.chartCheck) ? c.chartCheck : [];
+    L.push(`- **👁️ 차트확인**: ${v(c.counts.chartCheckShown)}/${v(c.counts.chartCheck)}종목 — 차트 모양은 어느 팀도 판정하지 않는다. 직접 확인`);
+    for (const x of cc) L.push(`  - ${x.ticker}(${x.score}) — ${(x.reasons || []).join(' · ')}`);
+  }
+
+  if (chief) {
+    if (chief.headline) L.push(`- **실장**: ${chief.headline}`);
+    if ((chief.todayFocus || []).length) L.push(`  - 관찰 종목: ${tickers(chief.todayFocus)}`);
+  }
+
+  if (report) L.push(`- **출처 검증**: URL ${report.checked}개 · 생존 ${report.ok} · 미검증(봇차단) ${report.unverified} · 죽음 ${report.dead} · 근거없음 강등 ${report.stripped}`);
+  for (const w of leaks || []) L.push(`- ⚠️ 차트 결론 어휘 WARN: ${w} (보고에 옮기지 않음)`);
+
+  L.push('', '<!-- digest:end -->');
+  return L;
+}
+
+// 첫 '## ' 절 앞에 끼운다. 재실행해도 한 개만 남는다.
+function insertDigest(md, lines) {
+  const body = md.replace(DIGEST_RE, '');
+  const block = lines.join('\n') + '\n\n';
+  const at = body.indexOf('\n## ');
+  return at < 0 ? body.replace(/\s*$/, '\n\n') + block : body.slice(0, at + 1) + block + body.slice(at + 1);
+}
+
 async function main() {
   loadEnv();
   const dateStr = arg('date', today());
@@ -422,6 +521,9 @@ async function main() {
     const t2 = loadWindowData(path.join(paths.dashboardData, 'team2.js'), 'TEAM2_DATA');
     const t4 = loadWindowData(path.join(paths.dashboardData, 'team4.js'), 'TEAM4_DATA');
     const t5 = loadWindowData(path.join(paths.dashboardData, 'team5.js'), 'TEAM5_DATA');
+    const t3 = loadWindowData(path.join(paths.dashboardData, 'team3.js'), 'TEAM3_DATA');
+    const cNode = loadWindowData(path.join(paths.dashboardData, 'chief.js'), 'CHIEF_DATA');
+    const leaks = payload.chief ? chartVerdictLeaks(payload.chief) : [];
     let md = fs.readFileSync(mdFile, 'utf8');
 
     if (t2 && t2.research_coverage) {
@@ -450,7 +552,7 @@ async function main() {
 
     if (payload.chief) {
       const c = payload.chief;
-      for (const w of chartVerdictLeaks(c)) say('WARN', `⚠️ 실장 차트 결론 어휘: ${w} — 봉을 받지 않은 판정이다. 보고에 옮기지 마세요`);
+      for (const w of leaks) say('WARN', `⚠️ 실장 차트 결론 어휘: ${w} — 봉을 받지 않은 판정이다. 보고에 옮기지 마세요`);
       const L = [];
       L.push('', '---', '', '## 🧑‍💼 실장 종합 (LLM)', '');
       L.push(`> **${c.headline || ''}**`, '');
@@ -479,6 +581,8 @@ async function main() {
       out += (S.length ? '\n' : '') + L.join('\n');
       merged.push('리포트.md(실장)');
     }
+    out = insertDigest(out, digestSection({ t1, t2, t3, t4, t5, c: cNode, chief: payload.chief, report, leaks }));
+    merged.push('리포트.md(요약)');
     fs.writeFileSync(mdFile, out, 'utf8');
   }
 
@@ -511,4 +615,4 @@ async function main() {
 }
 
 if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });
-module.exports = { main };
+module.exports = { main, digestSection, insertDigest };
