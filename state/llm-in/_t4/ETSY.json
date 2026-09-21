@@ -1,0 +1,192 @@
+{
+ "ticker": "ETSY",
+ "news": [
+  {
+   "title": "Is Etsy (ETSY) Stock Outpacing Its Retail-Wholesale Peers This Year?",
+   "url": "https://www.nasdaq.com/articles/etsy-etsy-stock-outpacing-its-retail-wholesale-peers-year-0",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Oppenheimer Upgrades Etsy to Outperform from Perform",
+   "url": "https://www.nasdaq.com/articles/oppenheimer-upgrades-etsy-outperform-perform",
+   "date": "2026-09-15",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Etsy Director Frederick Wilson Sells 20,000 Shares for $1.6 Million",
+   "url": "https://www.nasdaq.com/articles/etsy-director-frederick-wilson-sells-20000-shares-16-million",
+   "date": "2026-09-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Insider Alert: Etsy Executive Chair Josh Silverman Sells 13,367 Shares for $1.1 Million",
+   "url": "https://www.nasdaq.com/articles/insider-alert-etsy-executive-chair-josh-silverman-sells-13367-shares-11-million",
+   "date": "2026-09-10",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Etsy (ETSY) Down 0.3% Since Last Earnings Report: Can It Rebound?",
+   "url": "https://www.nasdaq.com/articles/etsy-etsy-down-03-last-earnings-report-can-it-rebound",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Retail-Wholesale Stocks Lagging  Etsy (ETSY) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-retail-wholesale-stocks-lagging-etsy-etsy-year-0",
+   "date": "2026-09-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Better Buy Right Now: eBay Stock or Etsy Stock?",
+   "url": "https://www.nasdaq.com/articles/better-buy-right-now-ebay-stock-or-etsy-stock",
+   "date": "2026-09-01",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Etsy Director Charles Ballard Sells 4,500 Shares for $368,325",
+   "url": "https://www.nasdaq.com/articles/etsy-director-charles-ballard-sells-4500-shares-368325",
+   "date": "2026-08-30",
+   "publisher": "The Motley Fool"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-03",
+   "items": [
+    "2.02",
+    "2.05",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "2.05",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1370637/000137063726000079/etsy-20260803.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "1.01",
+    "2.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.01",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1370637/000137063726000071/etsy-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-16",
+   "reportDate": "2026-07-12",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1370637/000137063726000066/etsy-20260712.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-09",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1370637/000137063726000058/etsy-20260609.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-21",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1370637/000137063726000054/etsy-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1370637/000137063726000042/etsy-20260429.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -1.16,
+  "saleNy": 4.6,
+  "epsCy": 143.51,
+  "epsNy": 34.47,
+  "cyTrend": -1.66,
+  "nyTrend": 1.27,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.23,
+    3.12,
+    13.14
+   ],
+   "ni": [
+    -261.75,
+    "흑자전환",
+    -14.76
+   ],
+   "opm": [
+    18.74,
+    18.98,
+    9.67
+   ],
+   "updated": "2026-09-08 06:54:50"
+  }
+ }
+}

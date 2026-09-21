@@ -1,0 +1,162 @@
+{
+ "ticker": "GDDY",
+ "news": [
+  {
+   "title": "Here's Why GoDaddy (GDDY) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-godaddy-gddy-strong-growth-stock-1",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why GoDaddy (GDDY) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-godaddy-gddy-top-momentum-stock-long-term",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why GoDaddy (GDDY) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-godaddy-gddy-strong-value-stock-0",
+   "date": "2026-08-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "GoDaddy Breaks Below 200-Day Moving Average - Notable for GDDY",
+   "url": "https://www.nasdaq.com/articles/godaddy-breaks-below-200-day-moving-average-notable-gddy",
+   "date": "2026-08-26",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-07-31",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1609711/000160971126000092/gddy-20260731.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1609711/000160971126000087/gddy-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-05",
+   "reportDate": "2026-06-03",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1609711/000160971126000058/gddy-20260603.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1609711/000160971126000035/gddy-20260430.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-24",
+   "reportDate": "2026-02-24",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1609711/000160971126000008/gddy-20260224.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-10-30",
+   "reportDate": "2025-10-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1609711/000160971125000206/gddy-20251030.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.77,
+  "saleNy": 5.27,
+  "epsCy": 19,
+  "epsNy": 24.19,
+  "cyTrend": 3.91,
+  "nyTrend": 2.42,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.6,
+    6.08,
+    6.82
+   ],
+   "ni": [
+    20.11,
+    -2.23,
+    23.41
+   ],
+   "opm": [
+    26.39,
+    24.51,
+    24.88
+   ],
+   "updated": "2026-09-07 06:21:38"
+  }
+ }
+}

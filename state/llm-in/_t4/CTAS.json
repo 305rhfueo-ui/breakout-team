@@ -1,0 +1,170 @@
+{
+ "ticker": "CTAS",
+ "news": [
+  {
+   "title": "Unlocking Q1 Potential of Cintas (CTAS): Exploring Wall Street Estimates for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/unlocking-q1-potential-cintas-ctas-exploring-wall-street-estimates-key-metrics",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cintas (CTAS) Reports Next Week: Wall Street Expects Earnings Growth",
+   "url": "https://www.nasdaq.com/articles/cintas-ctas-reports-next-week-wall-street-expects-earnings-growth",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Cintas (CTAS) is Poised to Beat Earnings Estimates Again",
+   "url": "https://www.nasdaq.com/articles/why-cintas-ctas-poised-beat-earnings-estimates-again",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Cintas (CTAS) Outperforming Other Consumer Discretionary Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/cintas-ctas-outperforming-other-consumer-discretionary-stocks-year",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Nasdaq-100® Inside the Index: Cintas Corporation (CTAS)",
+   "url": "https://www.nasdaq.com/articles/global-indexes/inside-the-index/ctas",
+   "date": "2026-09-10",
+   "publisher": "Nasdaq Index Insights Team"
+  },
+  {
+   "title": "SGC or CTAS: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/sgc-or-ctas-which-better-value-stock-right-now-0",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-27",
+   "reportDate": "2026-08-26",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/723254/000095010326013001/dp252376_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-08-03",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/723254/000095010326011666/dp251069_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-15",
+   "reportDate": "2026-07-15",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/723254/000072325426000025/ctas-20260715.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-11",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/723254/000095010326008890/dp248355_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-31",
+   "reportDate": "2026-03-27",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/723254/000072325426000010/ctas-20260327.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-25",
+   "reportDate": "2026-03-25",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/723254/000072325426000006/ctas-20260325.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.43,
+  "saleNy": 7.47,
+  "epsCy": 11.84,
+  "epsNy": 11.06,
+  "cyTrend": 0.1,
+  "nyTrend": 0.08,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    8.9,
+    8.9,
+    9.3
+   ],
+   "ni": [
+    14.05,
+    8.45,
+    10.48
+   ],
+   "opm": [
+    23.17,
+    23.22,
+    23.42
+   ],
+   "updated": "2026-09-20 06:14:00"
+  }
+ }
+}

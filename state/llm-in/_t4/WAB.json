@@ -1,0 +1,164 @@
+{
+ "ticker": "WAB",
+ "news": [
+  {
+   "title": "AER or WAB: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/aer-or-wab-which-better-value-stock-right-now-0",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wabtec (WAB) Down 1.9% Since Last Earnings Report: Can It Rebound?",
+   "url": "https://www.nasdaq.com/articles/wabtec-wab-down-19-last-earnings-report-can-it-rebound",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "AER vs. WAB: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/aer-vs-wab-which-stock-better-value-option-1",
+   "date": "2026-08-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "3 Reasons Why Growth Investors Shouldn't Overlook Wabtec (WAB)",
+   "url": "https://www.nasdaq.com/articles/3-reasons-why-growth-investors-shouldnt-overlook-wabtec-wab",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/943452/000162828026049105/wab-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-15",
+   "reportDate": "2026-05-12",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/943452/000114036126021657/ef20073674_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-22",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/943452/000162828026026384/wab-20260422.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-03",
+   "reportDate": "2026-03-03",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/943452/000114036126007441/ef20066964_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-11",
+   "reportDate": "2026-02-11",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/943452/000162828026007113/wab-20260211.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-10-22",
+   "reportDate": "2025-10-22",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/943452/000162828025045773/wab-20251022.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.3,
+  "saleNy": 7.1,
+  "epsCy": 21.1,
+  "epsNy": 14.54,
+  "cyTrend": 0.22,
+  "nyTrend": 0.58,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    17.48,
+    13.03,
+    14.79
+   ],
+   "ni": [
+    17.56,
+    12.42,
+    -4.72
+   ],
+   "opm": [
+    18.87,
+    17.53,
+    12.01
+   ],
+   "updated": "2026-09-08 07:09:38"
+  }
+ }
+}

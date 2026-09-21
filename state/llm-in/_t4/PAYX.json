@@ -1,0 +1,162 @@
+{
+ "ticker": "PAYX",
+ "news": [
+  {
+   "title": "Paychex (PAYX) Q1 Earnings Preview: What You Should Know Beyond the Headline Estimates",
+   "url": "https://www.nasdaq.com/articles/paychex-payx-q1-earnings-preview-what-you-should-know-beyond-headline-estimates",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Nasdaq-100® Inside the Index: Paychex Inc. (PAYX)",
+   "url": "https://www.nasdaq.com/articles/global-indexes/inside-the-index/payx",
+   "date": "2026-09-10",
+   "publisher": "Nasdaq Index Insights Team"
+  },
+  {
+   "title": "PAYX Stock Rises 30% in 6 Months: Here's What You Should Know",
+   "url": "https://www.nasdaq.com/articles/payx-stock-rises-30-6-months-heres-what-you-should-know",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Paychex (PAYX) is a Top Growth Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-paychex-payx-top-growth-stock-long-term-0",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-21",
+   "reportDate": "2026-07-16",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/723531/000119312526310277/payx-20260716.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-24",
+   "reportDate": "2026-06-24",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/723531/000119312526280314/payx-20260624.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-25",
+   "reportDate": "2026-03-25",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/723531/000119312526122887/payx-20260325.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-26",
+   "reportDate": "2026-01-23",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/723531/000119312526021794/payx-20260123.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-20",
+   "reportDate": "2026-01-16",
+   "items": [
+    "5.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/723531/000119312526016044/payx-20260116.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-19",
+   "reportDate": "2025-12-19",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/723531/000119312525325838/payx-20251219.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.44,
+  "saleNy": 5.52,
+  "epsCy": 8.16,
+  "epsNy": 7.29,
+  "cyTrend": -0.36,
+  "nyTrend": 0.15,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    12.49,
+    19.87,
+    18.28
+   ],
+   "ni": [
+    41.52,
+    7.9,
+    -4.35
+   ],
+   "opm": [
+    37.66,
+    43.78,
+    36.72
+   ],
+   "updated": "2026-09-07 07:11:01"
+  }
+ }
+}

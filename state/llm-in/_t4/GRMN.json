@@ -1,0 +1,152 @@
+{
+ "ticker": "GRMN",
+ "news": [
+  {
+   "title": "Garmin (GRMN) Upgraded to Strong Buy: Here's What You Should Know",
+   "url": "https://www.nasdaq.com/articles/garmin-grmn-upgraded-strong-buy-heres-what-you-should-know",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "DAKT or GRMN: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/dakt-or-grmn-which-better-value-stock-right-now-2",
+   "date": "2026-09-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Garmin (GRMN) Down 2.6% Since Last Earnings Report: Can It Rebound?",
+   "url": "https://www.nasdaq.com/articles/garmin-grmn-down-26-last-earnings-report-can-it-rebound",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1121788/000119312526322113/grmn-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-08",
+   "reportDate": "2026-06-05",
+   "items": [
+    "5.07",
+    "8.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1121788/000119312526261987/grmn-20260605.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1121788/000119312526188907/grmn-20260429.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-18",
+   "reportDate": "2026-02-18",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1121788/000119312526056025/grmn-20260218.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-10-29",
+   "reportDate": "2025-10-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1121788/000119312525254600/grmn-20251029.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-07-30",
+   "reportDate": "2025-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1121788/000095017025099874/grmn-20250730.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.79,
+  "saleNy": 10.7,
+  "epsCy": 18.3,
+  "epsNy": 8.68,
+  "cyTrend": 0.67,
+  "nyTrend": 1.22,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    11.44,
+    14.23,
+    16.59
+   ],
+   "ni": [
+    35.2,
+    21.73,
+    21.33
+   ],
+   "opm": [
+    30.44,
+    24.62,
+    28.9
+   ],
+   "updated": "2026-09-08 09:03:42"
+  }
+ }
+}

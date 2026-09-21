@@ -1,0 +1,156 @@
+{
+ "ticker": "INCY",
+ "news": [
+  {
+   "title": "INCY Stock Gains 23% Year to Date: Buy, Sell or Hold?",
+   "url": "https://www.nasdaq.com/articles/incy-stock-gains-23-year-date-buy-sell-or-hold",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Incyte (INCY) Up 0.8% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/incyte-incy-08-last-earnings-report-can-it-continue",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "REGN or INCY: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/regn-or-incy-which-better-value-stock-right-now",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Incyte (INCY) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-incyte-incy-strong-momentum-stock-0",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Incyte (INCY) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-incyte-incy-strong-growth-stock-1",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-31",
+   "reportDate": "2026-08-31",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/879169/000087916926000058/incy-20260831.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/879169/000087916926000053/incy-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-06",
+   "reportDate": "2026-07-06",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/879169/000087916926000048/incy-20260706.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-22",
+   "reportDate": "2026-06-22",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/879169/000087916926000046/incy-20260622.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-09",
+   "reportDate": "2026-06-08",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/879169/000087916926000043/incy-20260608.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-08",
+   "reportDate": "2026-06-08",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/879169/000087916926000040/incy-20260608.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 15.57,
+  "saleNy": 5.44,
+  "epsCy": -49.18,
+  "epsNy": 157.13,
+  "cyTrend": -2.81,
+  "nyTrend": 0.04,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    37.72,
+    20.87,
+    27.84
+   ],
+   "ni": [
+    44.59,
+    91.73,
+    48.74
+   ],
+   "opm": [
+    41.69,
+    23.66,
+    22.29
+   ],
+   "updated": "2026-09-07 07:10:23"
+  }
+ }
+}

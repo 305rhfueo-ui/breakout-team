@@ -1,0 +1,172 @@
+{
+ "ticker": "ARE",
+ "news": [
+  {
+   "title": "Alexandria Real Estate Equities (ARE) Up 5.7% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/alexandria-real-estate-equities-are-57-last-earnings-report-can-it-continue",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ARE Dividend Yield Pushes Past 6%",
+   "url": "https://www.nasdaq.com/articles/are-dividend-yield-pushes-past-6",
+   "date": "2026-08-05",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "ARE's Q2 FFO Beats Estimates on Leasing Momentum, Rental Rates Improve",
+   "url": "https://www.nasdaq.com/articles/ares-q2-ffo-beats-estimates-leasing-momentum-rental-rates-improve",
+   "date": "2026-08-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Alexandria Real Estate Equities (ARE) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "url": "https://www.nasdaq.com/articles/alexandria-real-estate-equities-are-q2-earnings-how-key-metrics-compare-wall-street",
+   "date": "2026-08-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Alexandria Real Estate Equities (ARE) Q2 FFO and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/alexandria-real-estate-equities-are-q2-ffo-and-revenues-top-estimates",
+   "date": "2026-08-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ARE Crosses Below Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/are-crosses-below-key-moving-average-level",
+   "date": "2026-07-31",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-21",
+   "reportDate": "2026-08-21",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035443/000110465926099706/tm2623699d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-14",
+   "reportDate": "2026-08-12",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035443/000110465926097337/tm2622485d5_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-08-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035443/000103544326000067/are-20260803.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-09",
+   "reportDate": "2026-07-09",
+   "items": [
+    "1.01",
+    "2.03"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035443/000103544326000058/are-20260709.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-14",
+   "reportDate": "2026-05-13",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035443/000103544326000054/are-20260513.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-27",
+   "reportDate": "2026-04-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035443/000103544326000045/are-20260427.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -13.07,
+  "saleNy": -4.13,
+  "epsCy": -117.32,
+  "epsNy": -155.41,
+  "cyTrend": -29.12,
+  "nyTrend": -7.95,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -13.03,
+    -11.49,
+    -4.38
+   ],
+   "ni": [
+    "적자축소",
+    "흑자전환",
+    "적자확대"
+   ],
+   "opm": [
+    17.23,
+    15.91,
+    22.77
+   ],
+   "updated": "2026-09-08 10:44:12"
+  }
+ }
+}

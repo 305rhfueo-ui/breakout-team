@@ -1,0 +1,182 @@
+{
+ "ticker": "CATY",
+ "news": [
+  {
+   "title": "Cathay General (CATY) is a Top Dividend Stock Right Now: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/cathay-general-caty-top-dividend-stock-right-now-should-you-buy-0",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cathay General (CATY) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/cathay-general-caty-could-be-great-choice-0",
+   "date": "2026-08-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Reminder - Cathay General Bancorp (CATY) Goes Ex-Dividend Soon",
+   "url": "https://www.nasdaq.com/articles/reminder-cathay-general-bancorp-caty-goes-ex-dividend-soon",
+   "date": "2026-08-26",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Why Cathay General (CATY) is a Great Dividend Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/why-cathay-general-caty-great-dividend-stock-right-now",
+   "date": "2026-07-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cathay General (CATY) Q2 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/cathay-general-caty-q2-earnings-and-revenues-surpass-estimates",
+   "date": "2026-07-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cathay General (CATY) Is Up 1.92% in One Week: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/cathay-general-caty-192-one-week-what-you-should-know",
+   "date": "2026-07-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Cathay General (CATY) is a Top Dividend Stock for Your Portfolio",
+   "url": "https://www.nasdaq.com/articles/why-cathay-general-caty-top-dividend-stock-your-portfolio",
+   "date": "2026-07-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cathay (CATY) Upgraded to Buy: Here's What You Should Know",
+   "url": "https://www.nasdaq.com/articles/cathay-caty-upgraded-buy-heres-what-you-should-know",
+   "date": "2026-06-29",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/861842/000143774926024142/caty20260722_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-19",
+   "reportDate": "2026-05-18",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/861842/000143774926017795/caty20260519_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/861842/000143774926013200/caty20260423_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-22",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/861842/000143774926013036/caty20260422_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "reportDate": "2026-02-04",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/861842/000143774926003217/caty20260204_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-23",
+   "reportDate": "2026-01-23",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/861842/000143774926001931/caty20260123_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.96,
+  "saleNy": 4.53,
+  "epsCy": 21.76,
+  "epsNy": 7.27,
+  "cyTrend": 0.91,
+  "nyTrend": 0.44,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    3.12,
+    3.92,
+    4.37
+   ],
+   "ni": [
+    19.06,
+    25.01,
+    12.86
+   ],
+   "opm": [
+    34.04,
+    32,
+    31.47
+   ],
+   "updated": "2026-09-07 06:03:56"
+  }
+ }
+}

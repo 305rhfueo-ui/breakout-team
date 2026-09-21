@@ -2,6 +2,12 @@
  "ticker": "CACC",
  "news": [
   {
+   "title": "What's Next for CACC After Its Multistate Lending Settlement?",
+   "url": "https://www.nasdaq.com/articles/whats-next-cacc-after-its-multistate-lending-settlement",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
    "title": "Credit Acceptance (CACC) Q2 2026 Earnings Call Transcript",
    "url": "https://www.nasdaq.com/articles/credit-acceptance-cacc-q2-2026-earnings-call-transcript",
    "date": "2026-08-12",
@@ -33,6 +39,24 @@
   }
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-18",
+   "reportDate": "2026-09-17",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/885550/000088555026000192/cacc-20260917.htm",
+   "description": "8-K"
+  },
   {
    "form": "8-K",
    "filingDate": "2026-09-04",
@@ -110,38 +134,18 @@
    "isEarnings": false,
    "url": "https://www.sec.gov/Archives/edgar/data/885550/000088555026000170/cacc-20260721.htm",
    "description": "8-K"
-  },
-  {
-   "form": "8-K",
-   "filingDate": "2026-06-15",
-   "reportDate": "2026-06-09",
-   "items": [
-    "1.01",
-    "2.03",
-    "8.01",
-    "9.01"
-   ],
-   "itemsKo": [
-    "중요 계약 체결",
-    "2.03",
-    "기타 중요사건",
-    "재무제표·첨부"
-   ],
-   "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/885550/000088555026000147/cacc-20260609.htm",
-   "description": "8-K"
   }
  ],
  "financials": null,
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": -7.78,
-  "saleNy": 7.13,
+  "saleCy": -7.79,
+  "saleNy": 7.17,
   "epsCy": 16.32,
   "epsNy": 14.83,
-  "cyTrend": 0.81,
-  "nyTrend": -0.03,
+  "cyTrend": 0.02,
+  "nyTrend": -1.16,
   "newHigh52": false,
   "bbCenterBrk5d": false,
   "fs": {

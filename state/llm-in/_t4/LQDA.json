@@ -1,0 +1,180 @@
+{
+ "ticker": "LQDA",
+ "news": [
+  {
+   "title": "LQDA Loses 13.9% in a Month: Should Investors Avoid the Stock Now?",
+   "url": "https://www.nasdaq.com/articles/lqda-loses-139-month-should-investors-avoid-stock-now",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Can a Potential Label Expansion of Yutrepia Boost LQDA's Portfolio?",
+   "url": "https://www.nasdaq.com/articles/can-potential-label-expansion-yutrepia-boost-lqdas-portfolio",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Can LQDA's Yutrepia Sustain Growth Amid Fierce PAH Competition?",
+   "url": "https://www.nasdaq.com/articles/can-lqdas-yutrepia-sustain-growth-amid-fierce-pah-competition",
+   "date": "2026-08-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Will LQDA's Differentiated PAH Approach Drive Growth?",
+   "url": "https://www.nasdaq.com/articles/will-lqdas-differentiated-pah-approach-drive-growth",
+   "date": "2026-08-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Liquidia (LQDA) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/liquidia-lqda-q2-2026-earnings-call-transcript",
+   "date": "2026-08-19",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "LQDA Stock Down Post Q2 Earnings Release: What Should Investors Do Now?",
+   "url": "https://www.nasdaq.com/articles/lqda-stock-down-post-q2-earnings-release-what-should-investors-do-now",
+   "date": "2026-08-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "LQDA Q2 Earnings Top, Strong Yutrepia Sales Fuel Top-Line Growth",
+   "url": "https://www.nasdaq.com/articles/lqda-q2-earnings-top-strong-yutrepia-sales-fuel-top-line-growth",
+   "date": "2026-08-13",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-03",
+   "reportDate": "2026-09-03",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1819576/000110465926104929/tm2624724d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-12",
+   "reportDate": "2026-08-12",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1819576/000110465926094411/tm2622888d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-17",
+   "reportDate": "2026-06-16",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1819576/000110465926075177/tm2618171d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-08",
+   "reportDate": "2026-06-08",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1819576/000110465926071407/tm2617139d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-11",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1819576/000110465926058234/tm2614109d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-05",
+   "reportDate": "2026-03-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1819576/000110465926023794/tm267579d3_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 366.74,
+  "saleNy": 65.9,
+  "epsCy": -502.5,
+  "epsNy": 75.47,
+  "cyTrend": -7.47,
+  "nyTrend": -2.72,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    1842.73,
+    4158.49,
+    3054.65
+   ],
+   "ni": [
+    "흑자전환",
+    "흑자전환",
+    "흑자전환"
+   ],
+   "opm": [
+    49.81,
+    46.29,
+    21.5
+   ],
+   "updated": "2026-09-15 06:30:21"
+  }
+ }
+}

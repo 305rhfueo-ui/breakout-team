@@ -1,0 +1,170 @@
+{
+ "ticker": "PRI",
+ "news": [
+  {
+   "title": "Why Is Primerica (PRI) Down 8.8% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-primerica-pri-down-88-last-earnings-report",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Primerica About To Put More Money In Your Pocket (PRI)",
+   "url": "https://www.nasdaq.com/articles/primerica-about-put-more-money-your-pocket-pri",
+   "date": "2026-08-19",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Primerica (PRI) Reports Q2 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/primerica-pri-reports-q2-earnings-what-key-metrics-have-say",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Primerica (PRI) Tops Q2 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/primerica-pri-tops-q2-earnings-estimates",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Primerica (PRI) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/primerica-pri-earnings-expected-grow-should-you-buy",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526335260/pri-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-02",
+   "reportDate": "2026-06-02",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526253592/pri-20260602.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-27",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526241894/pri-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526209032/pri-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-23",
+   "reportDate": "2026-02-20",
+   "items": [
+    "5.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526064018/pri-20260220.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-11",
+   "reportDate": "2026-02-11",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526046650/pri-20260211.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.25,
+  "saleNy": 5.17,
+  "epsCy": 10.13,
+  "epsNy": 7.64,
+  "cyTrend": 2.43,
+  "nyTrend": 1.63,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    9.04,
+    8.43,
+    8.32
+   ],
+   "ni": [
+    13.42,
+    12.45,
+    17.94
+   ],
+   "opm": [
+    29.85,
+    28.58,
+    28.94
+   ],
+   "updated": "2026-09-07 06:16:40"
+  }
+ }
+}

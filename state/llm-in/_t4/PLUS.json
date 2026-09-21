@@ -1,0 +1,172 @@
+{
+ "ticker": "PLUS",
+ "news": [
+  {
+   "title": "ePlus (PLUS) Q4 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/eplus-plus-q4-2026-earnings-transcript",
+   "date": "2026-05-28",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "ePlus (PLUS) Shares Cross Below 200 DMA",
+   "url": "https://www.nasdaq.com/articles/eplus-plus-shares-cross-below-200-dma",
+   "date": "2026-02-25",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "ePlus (PLUS) Price Target Increased by 16.67% to 128.52",
+   "url": "https://www.nasdaq.com/articles/eplus-plus-price-target-increased-1667-12852",
+   "date": "2026-02-25",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "ePlus (PLUS) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/eplus-plus-q3-2026-earnings-call-transcript",
+   "date": "2026-02-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "ePlus (PLUS) Price Target Increased by 17.39% to 110.16",
+   "url": "https://www.nasdaq.com/articles/eplus-plus-price-target-increased-1739-11016",
+   "date": "2025-11-17",
+   "publisher": "Fintel"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-14",
+   "reportDate": "2026-09-10",
+   "items": [
+    "5.03",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1022408/000102240826000084/plus-20260910.htm",
+   "description": "CURRENT REPORT FILING"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1022408/000114036126031282/plus-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-06",
+   "reportDate": "2026-07-06",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1022408/000102240826000064/plus-20260706.htm",
+   "description": "CURRENT REPORT FILING"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-28",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1022408/000114036126023148/ef20075008_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-17",
+   "reportDate": "2026-02-17",
+   "items": [
+    "5.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1022408/000102240826000021/8k.htm",
+   "description": "EPLUS INC FORM 8-K 2-17-2026"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-04",
+   "reportDate": "2026-02-04",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1022408/000102240826000017/8k.htm",
+   "description": "EPLUS INC FORM 8-K 2-4-2026"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.67,
+  "saleNy": 4.89,
+  "epsCy": 1.58,
+  "epsNy": 8.77,
+  "cyTrend": 2.72,
+  "nyTrend": 2.58,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    0.99,
+    20.56,
+    24.64
+   ],
+   "ni": [
+    -28.89,
+    -7.56,
+    45.25
+   ],
+   "opm": [
+    5.98,
+    5.36,
+    7.07
+   ],
+   "updated": "2026-09-08 08:18:06"
+  }
+ }
+}

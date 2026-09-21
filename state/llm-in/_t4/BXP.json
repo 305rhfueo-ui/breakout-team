@@ -1,0 +1,176 @@
+{
+ "ticker": "BXP",
+ "news": [
+  {
+   "title": "Notable Two Hundred Day Moving Average Cross - BXP",
+   "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-bxp",
+   "date": "2026-09-10",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Why Boston Properties (BXP) is a Top Value Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-boston-properties-bxp-top-value-stock-long-term",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is Boston Properties (BXP) Down 3.7% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-boston-properties-bxp-down-37-last-earnings-report",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is BXP Stock Worth Buying as Leasing Improves but Risks Stay High?",
+   "url": "https://www.nasdaq.com/articles/bxp-stock-worth-buying-leasing-improves-risks-stay-high",
+   "date": "2026-08-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "BXP's $1.2 Billion 343 Madison Loan Advances a Major Growth Project",
+   "url": "https://www.nasdaq.com/articles/bxps-12-billion-343-madison-loan-advances-major-growth-project",
+   "date": "2026-08-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Boston Properties (BXP) is a Top-Ranked Value Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/boston-properties-bxp-top-ranked-value-stock-should-you-buy",
+   "date": "2026-08-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Franklin Resources Takes Over #476 Spot From BXP",
+   "url": "https://www.nasdaq.com/articles/franklin-resources-takes-over-476-spot-bxp",
+   "date": "2026-08-05",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-31",
+   "reportDate": "2026-08-31",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037540/000103754026000037/bxp-20260831.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037540/000103754026000031/bxp-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-29",
+   "reportDate": "2026-05-27",
+   "items": [
+    "2.06",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.06",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037540/000103754026000026/bxp-20260527.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037540/000103754026000022/bxp-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037540/000103754026000015/bxp-20260428.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-06",
+   "reportDate": "2026-03-06",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037540/000119312526096974/d96551d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 2.03,
+  "saleNy": 2.63,
+  "epsCy": null,
+  "epsNy": 6.01,
+  "cyTrend": 8.13,
+  "nyTrend": 6.26,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    3.14,
+    0.8,
+    2.16
+   ],
+   "ni": [
+    -22.94,
+    66.04,
+    "흑자전환"
+   ],
+   "opm": [
+    28.91,
+    26.12,
+    36.87
+   ],
+   "updated": "2026-09-08 08:59:16"
+  }
+ }
+}

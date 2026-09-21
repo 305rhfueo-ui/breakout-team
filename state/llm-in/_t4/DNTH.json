@@ -1,0 +1,168 @@
+{
+ "ticker": "DNTH",
+ "news": [
+  {
+   "title": "Dianthus Therapeutics, Inc. (DNTH) Reports Q2 Loss, Tops Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/dianthus-therapeutics-inc-dnth-reports-q2-loss-tops-revenue-estimates",
+   "date": "2026-08-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Dianthus Therapeutics, Inc. (DNTH) Reports Q1 Loss, Lags Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/dianthus-therapeutics-inc-dnth-reports-q1-loss-lags-revenue-estimates",
+   "date": "2026-05-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Dianthus Therapeutics' (DNTH) CFO Sold 8,224 Shares for $739,000",
+   "url": "https://www.nasdaq.com/articles/dianthus-therapeutics-dnth-cfo-sold-8224-shares-739000",
+   "date": "2026-04-19",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Wolfe Research Initiates Coverage of Dianthus Therapeutics (DNTH) with Outperform Recommendation",
+   "url": "https://www.nasdaq.com/articles/wolfe-research-initiates-coverage-dianthus-therapeutics-dnth-outperform-recommendation",
+   "date": "2026-04-10",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Strength Seen in Dianthus Therapeutics, Inc. (DNTH): Can Its 5.6% Jump Turn into More Strength?",
+   "url": "https://www.nasdaq.com/articles/strength-seen-dianthus-therapeutics-inc-dnth-can-its-56-jump-turn-more-strength",
+   "date": "2026-04-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Dianthus Therapeutics (DNTH) Price Target Increased by 70.00% to 130.48",
+   "url": "https://www.nasdaq.com/articles/dianthus-therapeutics-dnth-price-target-increased-7000-13048",
+   "date": "2026-03-27",
+   "publisher": "Fintel"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000033/dnth-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-12",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000029/dnth-20260612.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000026/dnth-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000021/dnth-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-26",
+   "reportDate": "2026-03-26",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1690585/000169058526000010/dnth-20260326.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-12",
+   "reportDate": "2026-03-10",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1690585/000119312526103053/d43448d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -8.7,
+  "saleNy": -4.35,
+  "epsCy": -9.19,
+  "epsNy": 20.89,
+  "cyTrend": -2.7,
+  "nyTrend": -2.79,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    294.3,
+    -60.19,
+    -78.58
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -8079.11,
+    -10050.32,
+    -24486.27
+   ],
+   "updated": "2026-09-08 06:05:55"
+  }
+ }
+}

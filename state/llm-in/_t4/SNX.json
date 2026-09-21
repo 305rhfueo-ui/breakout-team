@@ -1,0 +1,158 @@
+{
+ "ticker": "SNX",
+ "news": [
+  {
+   "title": "Wall Street Analysts Think TD SYNNEX (SNX) Could Surge 27.96%: Read This Before Placing a Bet",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-think-td-synnex-snx-could-surge-2796-read-placing-bet",
+   "date": "2026-08-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SNX or DT: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/snx-or-dt-which-better-value-stock-right-now",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wall Street Analysts Believe TD SYNNEX (SNX) Could Rally 31.32%: Here's is How to Trade",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-td-synnex-snx-could-rally-3132-heres-how-trade-0",
+   "date": "2026-07-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Despite Fast-paced Momentum, TD SYNNEX (SNX) Is Still a Bargain Stock",
+   "url": "https://www.nasdaq.com/articles/despite-fast-paced-momentum-td-synnex-snx-still-bargain-stock",
+   "date": "2026-07-31",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-07-28",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1177394/000162828026051808/snx-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-16",
+   "reportDate": "2026-07-10",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1177394/000162828026048449/snx-20260710.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-02",
+   "reportDate": "2026-06-26",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1177394/000162828026046896/snx-20260626.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-29",
+   "reportDate": "2026-06-29",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1177394/000119312526286967/d270750d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-25",
+   "reportDate": "2026-06-25",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1177394/000162828026045349/snx-20260625.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-22",
+   "reportDate": "2026-06-17",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1177394/000162828026044641/snx-20260617.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 19.87,
+  "saleNy": 7.26,
+  "epsCy": 44.63,
+  "epsNy": 13.31,
+  "cyTrend": 0.54,
+  "nyTrend": 0.94,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    30.97,
+    18.09,
+    9.69
+   ],
+   "ni": [
+    80.67,
+    95.13,
+    27.52
+   ],
+   "opm": [
+    2.65,
+    2.85,
+    2.29
+   ],
+   "updated": "2026-09-08 09:40:35"
+  }
+ }
+}

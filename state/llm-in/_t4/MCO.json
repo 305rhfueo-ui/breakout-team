@@ -1,0 +1,164 @@
+{
+ "ticker": "MCO",
+ "news": [
+  {
+   "title": "Can MCO's PhilRatings Investment Bolster Its Asia-Pacific Presence?",
+   "url": "https://www.nasdaq.com/articles/can-mcos-philratings-investment-bolster-its-asia-pacific-presence",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "MCO Makes Notable Cross Below Critical Moving Average",
+   "url": "https://www.nasdaq.com/articles/mco-makes-notable-cross-below-critical-moving-average",
+   "date": "2026-09-10",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "VIRT vs. MCO: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/virt-vs-mco-which-stock-better-value-option",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Moody's (MCO) Up 5.6% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/moodys-mco-56-last-earnings-report-can-it-continue",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-12",
+   "reportDate": "2026-08-11",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1059556/000105955626000038/mco-20260811.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1059556/000162828026049104/mco-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-22",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1059556/000162828026026383/mco-20260422.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-16",
+   "reportDate": "2026-04-14",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1059556/000105955626000031/mco-20260414.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-15",
+   "reportDate": "2026-04-15",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1059556/000105955626000028/mco-20260415.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-18",
+   "reportDate": "2026-02-18",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1059556/000162828026008788/mco-20260218.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.39,
+  "saleNy": 7.24,
+  "epsCy": 13.57,
+  "epsNy": 11.53,
+  "cyTrend": -0.03,
+  "nyTrend": 0.06,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    15.12,
+    8.06,
+    12.98
+   ],
+   "ni": [
+    51.9,
+    5.76,
+    54.43
+   ],
+   "opm": [
+    47.87,
+    44.35,
+    40.76
+   ],
+   "updated": "2026-09-08 08:39:57"
+  }
+ }
+}

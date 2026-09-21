@@ -1,0 +1,148 @@
+{
+ "ticker": "ROST",
+ "news": [
+  {
+   "title": "Wall Street Analysts Think Ross Stores (ROST) Is a Good Investment: Is It?",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-think-ross-stores-rost-good-investment-it",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Ross Stores (ROST) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-ross-stores-rost-strong-growth-stock-0",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-17",
+   "reportDate": "2026-09-11",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/745732/000074573226000043/rost-20260911.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-20",
+   "reportDate": "2026-08-20",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/745732/000074573226000038/rost-20260820.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-27",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/745732/000074573226000027/rost-20260520.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/745732/000074573226000025/rost-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-03",
+   "reportDate": "2026-03-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/745732/000074573226000003/rost-20260303.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-24",
+   "reportDate": "2025-11-19",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/745732/000074573225000058/rost-20251119.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.87,
+  "saleNy": 6.82,
+  "epsCy": 30.5,
+  "epsNy": 3.32,
+  "cyTrend": 10.23,
+  "nyTrend": 3.6,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    13.31,
+    20.57,
+    12.23
+   ],
+   "ni": [
+    67.58,
+    35.62,
+    10.07
+   ],
+   "opm": [
+    17.62,
+    13.38,
+    12.27
+   ],
+   "updated": "2026-09-07 05:54:42"
+  }
+ }
+}

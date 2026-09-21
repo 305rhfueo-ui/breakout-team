@@ -1,0 +1,166 @@
+{
+ "ticker": "SEIC",
+ "news": [
+  {
+   "title": "SEIC Shares Hit a New 52-Week High: Is There Further Upside Potential?",
+   "url": "https://www.nasdaq.com/articles/seic-shares-hit-new-52-week-high-there-further-upside-potential",
+   "date": "2026-08-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is SEI (SEIC) Up 11.2% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-sei-seic-112-last-earnings-report",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Earnings Estimates Moving Higher for SEI (SEIC): Time to Buy?",
+   "url": "https://www.nasdaq.com/articles/earnings-estimates-moving-higher-sei-seic-time-buy",
+   "date": "2026-07-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SEI (SEIC) Reports Q2 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/sei-seic-reports-q2-earnings-what-key-metrics-have-say",
+   "date": "2026-07-23",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/350894/000035089426000044/seic-20260722.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-27",
+   "items": [
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/350894/000035089426000033/seic-20260527.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-22",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/350894/000035089426000026/seic-20260422.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-02",
+   "reportDate": "2026-03-02",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/350894/000035089426000015/seic-20260302.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-28",
+   "reportDate": "2026-01-28",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/350894/000035089426000003/seic-20260128.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-15",
+   "reportDate": "2026-01-13",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/350894/000092963826000165/a8k.htm",
+   "description": null
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.33,
+  "saleNy": 7.64,
+  "epsCy": 10.82,
+  "epsNy": 10.86,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    14.66,
+    12.85,
+    9.11
+   ],
+   "ni": [
+    -13.84,
+    15.16,
+    10.74
+   ],
+   "opm": [
+    30.71,
+    30.46,
+    26.59
+   ],
+   "updated": "2026-09-20 06:51:29"
+  }
+ }
+}

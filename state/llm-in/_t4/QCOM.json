@@ -1,0 +1,134 @@
+{
+ "ticker": "QCOM",
+ "news": [
+  {
+   "title": "Qualcomm (QCOM) Outpaces Stock Market Gains: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/qualcomm-qcom-outpaces-stock-market-gains-what-you-should-know",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-03",
+   "items": [
+    "3.02"
+   ],
+   "itemsKo": [
+    "3.02"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926105718/tm2623289d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-31",
+   "reportDate": "2026-07-31",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926089234/tm2621612d2_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000085/qcom-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-24",
+   "reportDate": "2026-06-21",
+   "items": [
+    "3.02"
+   ],
+   "itemsKo": [
+    "3.02"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926077071/tm2618522d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000060/qcom-20260429.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-19",
+   "reportDate": "2026-03-17",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000041/qcom-20260317.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -2.86,
+  "saleNy": 4.75,
+  "epsCy": -12.85,
+  "epsNy": -2.67,
+  "cyTrend": -0.37,
+  "nyTrend": 0.02,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -4.03,
+    -3.46,
+    5
+   ],
+   "ni": [
+    -24.91,
+    162.09,
+    -5.53
+   ],
+   "opm": [
+    16.35,
+    21.79,
+    27.47
+   ],
+   "updated": "2026-09-08 07:19:54"
+  }
+ }
+}

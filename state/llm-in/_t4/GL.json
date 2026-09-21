@@ -1,0 +1,142 @@
+{
+ "ticker": "GL",
+ "news": [
+  {
+   "title": "Globe Life (GL) Down 0.3% Since Last Earnings Report: Can It Rebound?",
+   "url": "https://www.nasdaq.com/articles/globe-life-gl-down-03-last-earnings-report-can-it-rebound",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Compared to Estimates, Globe Life (GL) Q2 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-globe-life-gl-q2-earnings-look-key-metrics",
+   "date": "2026-07-22",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-07",
+   "reportDate": "2026-08-07",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/320335/000032033526000218/gl-20260807.htm",
+   "description": "8-K (DIRECTOR RETIREMENT)"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/320335/000032033526000203/gl-20260722.htm",
+   "description": "8-K (Q2 2026 EARNINGS RELEASE)"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-29",
+   "reportDate": "2026-06-29",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/320335/000032033526000198/gl-20260629.htm",
+   "description": "8-K (2026 CREDIT AGREEMENT_TERM LOAN)"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-05-04",
+   "items": [
+    "5.02",
+    "5.07"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/320335/000032033526000160/gl-20260504.htm",
+   "description": "8-K (ANNUAL MEETING RESULTS 2026)"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/320335/000032033526000143/gl-20260422.htm",
+   "description": "8-K (Q1 2026 EARNINGS RELEASE)"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-27",
+   "reportDate": "2026-02-27",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/320335/000032033526000105/gl-20260227.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.77,
+  "saleNy": 6.52,
+  "epsCy": 8.2,
+  "epsNy": 5.14,
+  "cyTrend": 0.05,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    8,
+    5.35,
+    3.64
+   ],
+   "ni": [
+    13.85,
+    6.27,
+    4.27
+   ],
+   "opm": [
+    24.44,
+    23.6,
+    24
+   ],
+   "updated": "2026-09-08 08:19:54"
+  }
+ }
+}

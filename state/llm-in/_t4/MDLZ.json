@@ -1,0 +1,146 @@
+{
+ "ticker": "MDLZ",
+ "news": [
+  {
+   "title": "DANOY or MDLZ: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/danoy-or-mdlz-which-better-value-stock-right-now",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is Mondelez (MDLZ) Down 3.1% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-mondelez-mdlz-down-31-last-earnings-report",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026050157/mdlz-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-15",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026044384/mdlz-20260615.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-26",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026038064/mdlz-20260520.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026027915/mdlz-20260428.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-18",
+   "reportDate": "2026-02-18",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026009018/mdlz-20260218.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-03",
+   "reportDate": "2026-02-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026005016/mdlz-20260203.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.12,
+  "saleNy": 2.94,
+  "epsCy": 4.4,
+  "epsNy": 10.27,
+  "cyTrend": 0.09,
+  "nyTrend": 0.04,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    4.13,
+    8.24,
+    9.29
+   ],
+   "ni": [
+    141.5,
+    39.3,
+    -61.89
+   ],
+   "opm": [
+    20.8,
+    8.02,
+    9.07
+   ],
+   "updated": "2026-09-07 06:36:20"
+  }
+ }
+}

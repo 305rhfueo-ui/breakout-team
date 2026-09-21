@@ -1,0 +1,180 @@
+{
+ "ticker": "CHRD",
+ "news": [
+  {
+   "title": "Why Chord Energy Corporation (CHRD) is a Top Growth Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-chord-energy-corporation-chrd-top-growth-stock-long-term",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Chord Energy Corporation (CHRD) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-chord-energy-corporation-chrd-top-momentum-stock-long-term",
+   "date": "2026-09-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Chord Energy Corporation (CHRD) Up 11.7% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/chord-energy-corporation-chrd-117-last-earnings-report-can-it-continue",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Seaport Global Initiates Coverage of Chord Energy (CHRD) at Neutral",
+   "url": "https://www.nasdaq.com/articles/seaport-global-initiates-coverage-chord-energy-chrd-neutral",
+   "date": "2026-09-03",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "CHRD Jumps 14.1% in a Month, but Can the Rally Keep Running Higher?",
+   "url": "https://www.nasdaq.com/articles/chrd-jumps-141-month-can-rally-keep-running-higher",
+   "date": "2026-08-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Chord Energy (CHRD) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/chord-energy-chrd-q2-2026-earnings-call-transcript",
+   "date": "2026-08-13",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Chord Energy Corporation (CHRD) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "url": "https://www.nasdaq.com/articles/chord-energy-corporation-chrd-q2-earnings-how-key-metrics-compare-wall-street-estimates",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Chord Energy Corporation (CHRD) Q2 Earnings Lag Estimates",
+   "url": "https://www.nasdaq.com/articles/chord-energy-corporation-chrd-q2-earnings-lag-estimates",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-02",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1486159/000148615926000031/chrd-20260802.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1486159/000148615926000029/oas-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1486159/000148615926000017/oas-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-04-29",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1486159/000148615926000015/chrd-20260429.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-25",
+   "reportDate": "2026-02-25",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1486159/000148615926000004/oas-20260225.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-04",
+   "reportDate": "2025-11-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1486159/000148615925000042/oas-20251104.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 36.44,
+  "saleNy": -15.87,
+  "epsCy": 113.68,
+  "epsNy": -24.39,
+  "cyTrend": 8.21,
+  "nyTrend": 12.11,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    84.04,
+    37.08,
+    -19.61
+   ],
+   "ni": [
+    "흑자전환",
+    -50.7,
+    -60.58
+   ],
+   "opm": [
+    27.74,
+    20.01,
+    7.85
+   ],
+   "updated": "2026-09-08 10:38:43"
+  }
+ }
+}

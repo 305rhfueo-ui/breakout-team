@@ -1,0 +1,166 @@
+{
+ "ticker": "IQV",
+ "news": [
+  {
+   "title": "Why IQVIA Holdings (IQV) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-iqvia-holdings-iqv-top-momentum-stock-long-term",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is IQVIA (IQV) Up 5.6% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-iqvia-iqv-56-last-earnings-report",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "IQV Stock Gains 42% in 3 Months: Here's What You Should Know",
+   "url": "https://www.nasdaq.com/articles/iqv-stock-gains-42-3-months-heres-what-you-should-know",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why IQVIA Holdings (IQV) is a Top Value Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-iqvia-holdings-iqv-top-value-stock-long-term-1",
+   "date": "2026-08-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "IQVIA Holdings (IQV) is a Top-Ranked Momentum Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/iqvia-holdings-iqv-top-ranked-momentum-stock-should-you-buy",
+   "date": "2026-08-07",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-09",
+   "reportDate": "2026-09-09",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1478242/000119312526386633/d516985d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1478242/000162828026049923/iqv-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-11",
+   "reportDate": "2026-06-11",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1478242/000119312526267763/d157492d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-04",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1478242/000119312526257730/d107340d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "reportDate": "2026-06-03",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1478242/000119312526255635/d42817d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1478242/000119312526212463/d114471d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.77,
+  "saleNy": 6.06,
+  "epsCy": 8.77,
+  "epsNy": 11.53,
+  "cyTrend": 0.02,
+  "nyTrend": 0.13,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    8.74,
+    8.41,
+    10.26
+   ],
+   "ni": [
+    -3.76,
+    10.04,
+    17.62
+   ],
+   "opm": [
+    11.58,
+    12.38,
+    14.37
+   ],
+   "updated": "2026-09-08 08:24:58"
+  }
+ }
+}

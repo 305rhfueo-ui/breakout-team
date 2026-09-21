@@ -1,0 +1,186 @@
+{
+ "ticker": "DASH",
+ "news": [
+  {
+   "title": "New Analyst Forecast: $DASH Given $275.0 Price Target",
+   "url": "https://www.nasdaq.com/articles/new-analyst-forecast-dash-given-2750-price-target",
+   "date": "2025-07-21",
+   "publisher": "Quiver Quantitative"
+  },
+  {
+   "title": "New Analyst Forecast: $DASH Given $295.0 Price Target",
+   "url": "https://www.nasdaq.com/articles/new-analyst-forecast-dash-given-2950-price-target",
+   "date": "2025-07-14",
+   "publisher": "Quiver Quantitative"
+  },
+  {
+   "title": "Insider Sale: Director at $DASH Sells 1,250 Shares",
+   "url": "https://www.nasdaq.com/articles/insider-sale-director-dash-sells-1250-shares",
+   "date": "2025-07-11",
+   "publisher": "Quiver Quantitative"
+  },
+  {
+   "title": "$DASH stock is up 2% today. Here's what we see in our data.",
+   "url": "https://www.nasdaq.com/articles/dash-stock-2-today-heres-what-we-see-our-data",
+   "date": "2025-07-09",
+   "publisher": "Quiver Quantitative"
+  },
+  {
+   "title": "DoorDash, Inc. (DASH) Opinions on Recent Stock Surge and Analyst Upgrades",
+   "url": "https://www.nasdaq.com/articles/doordash-inc-dash-opinions-recent-stock-surge-and-analyst-upgrades",
+   "date": "2025-07-06",
+   "publisher": "Quiver Quantitative"
+  },
+  {
+   "title": "New Analyst Forecast: $DASH Given 'Overweight' Rating",
+   "url": "https://www.nasdaq.com/articles/new-analyst-forecast-dash-given-overweight-rating",
+   "date": "2025-06-26",
+   "publisher": "Quiver Quantitative"
+  },
+  {
+   "title": "New Analyst Forecast: $DASH Given $198.0 Price Target",
+   "url": "https://www.nasdaq.com/articles/new-analyst-forecast-dash-given-1980-price-target",
+   "date": "2025-06-11",
+   "publisher": "Quiver Quantitative"
+  },
+  {
+   "title": "Insider Sale: Director at $DASH Sells 63 Shares",
+   "url": "https://www.nasdaq.com/articles/insider-sale-director-dash-sells-63-shares",
+   "date": "2025-06-06",
+   "publisher": "Quiver Quantitative"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-18",
+   "reportDate": "2026-09-18",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1792789/000114036126037109/ef20081998_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-06",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1792789/000114036126032235/ef20079912_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1792789/000179278926000048/dash-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-10",
+   "items": [
+    "5.07",
+    "8.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1792789/000179278926000040/dash-20260610.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1792789/000179278926000036/dash-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-18",
+   "reportDate": "2026-02-18",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1792789/000179278926000012/dash-20260218.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 30.05,
+  "saleNy": 20.64,
+  "epsCy": 21.33,
+  "epsNy": 73,
+  "cyTrend": 1.16,
+  "nyTrend": 0.33,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    35.63,
+    33.11,
+    37.66
+   ],
+   "ni": [
+    -29.82,
+    -4.66,
+    51.06
+   ],
+   "opm": [
+    3.5,
+    3.74,
+    3.72
+   ],
+   "updated": "2026-09-07 07:24:59"
+  }
+ }
+}

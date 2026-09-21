@@ -1,0 +1,158 @@
+{
+ "ticker": "AFL",
+ "news": [
+  {
+   "title": "Aflac (AFL) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/aflac-afl-q2-2026-earnings-call-transcript",
+   "date": "2026-08-14",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "AFLAC (AFL) Shares Cross 2% Yield Mark",
+   "url": "https://www.nasdaq.com/articles/aflac-afl-shares-cross-2-yield-mark",
+   "date": "2026-08-10",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Aflac (AFL) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/aflac-afl-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Aflac (AFL) Q2 Earnings Lag Estimates",
+   "url": "https://www.nasdaq.com/articles/aflac-afl-q2-earnings-lag-estimates",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/4977/000162828026054333/afl-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-30",
+   "reportDate": "2026-06-30",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4977/000162828026046124/afl-20260630.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-21",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4977/000110465926067551/tm2614650d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-14",
+   "reportDate": "2026-05-11",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4977/000110465926061314/tm2614650d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-04",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4977/000162828026032022/afl-20260504.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/4977/000162828026028396/afl-20260429.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -3.63,
+  "saleNy": 1.38,
+  "epsCy": -6.34,
+  "epsNy": 7.5,
+  "cyTrend": -0.04,
+  "nyTrend": -0.07,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -1.03,
+    27.9,
+    -9.96
+   ],
+   "ni": [
+    37.73,
+    3413.79,
+    -27.5
+   ],
+   "opm": [
+    24.17,
+    28.19,
+    32.31
+   ],
+   "updated": "2026-09-09 07:09:59"
+  }
+ }
+}

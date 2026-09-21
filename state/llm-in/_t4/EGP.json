@@ -1,0 +1,182 @@
+{
+ "ticker": "EGP",
+ "news": [
+  {
+   "title": "GLPI or EGP: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/glpi-or-egp-which-better-value-stock-right-now",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "DOC vs. EGP: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/doc-vs-egp-which-stock-better-value-option",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CUZ or EGP: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/cuz-or-egp-which-better-value-stock-right-now",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "PINE vs. EGP: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/pine-vs-egp-which-stock-better-value-option",
+   "date": "2026-07-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "EastGroup Properties (EGP) Q2 FFO and Revenues Lag Estimates",
+   "url": "https://www.nasdaq.com/articles/eastgroup-properties-egp-q2-ffo-and-revenues-lag-estimates",
+   "date": "2026-07-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CUZ vs. EGP: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/cuz-vs-egp-which-stock-better-value-option",
+   "date": "2026-07-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CUZ vs. EGP: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/cuz-vs-egp-which-stock-should-value-investors-buy-now",
+   "date": "2026-06-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "HPP vs. EGP: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/hpp-vs-egp-which-stock-should-value-investors-buy-now",
+   "date": "2026-06-05",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/49600/000004960026000040/egp-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-26",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/49600/000004960026000034/egp-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/49600/000004960026000028/egp-20260422.htm",
+   "description": "FORM 8-K 04/22/2026"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-04",
+   "reportDate": "2026-02-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/49600/000004960026000003/egp-20260204.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-16",
+   "reportDate": "2025-12-12",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/49600/000004960025000120/egp-20251212.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-05",
+   "reportDate": "2025-12-05",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/49600/000114036125044567/ef20060746_8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.84,
+  "saleNy": 8.45,
+  "epsCy": 8.59,
+  "epsNy": 5.01,
+  "cyTrend": -5.6,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    9.05,
+    9.06,
+    14.28
+   ],
+   "ni": [
+    19.31,
+    59.24,
+    15.51
+   ],
+   "opm": [
+    40.76,
+    40.15,
+    40.52
+   ],
+   "updated": "2026-09-11 06:04:58"
+  }
+ }
+}

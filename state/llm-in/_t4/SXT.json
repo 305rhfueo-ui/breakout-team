@@ -1,0 +1,166 @@
+{
+ "ticker": "SXT",
+ "news": [
+  {
+   "title": "Sensient (SXT) Upgraded to Strong Buy: Here's Why",
+   "url": "https://www.nasdaq.com/articles/sensient-sxt-upgraded-strong-buy-heres-why",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Sensient (SXT) Upgraded to Strong Buy: Here's What You Should Know",
+   "url": "https://www.nasdaq.com/articles/sensient-sxt-upgraded-strong-buy-heres-what-you-should-know",
+   "date": "2026-07-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Basic Materials Stocks Lagging  Sensient Technologies (SXT) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-basic-materials-stocks-lagging-sensient-technologies-sxt-year",
+   "date": "2026-07-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Sensient Technologies (SXT) Surpasses Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/sensient-technologies-sxt-surpasses-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-24",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-02",
+   "reportDate": "2026-08-31",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/310142/000114036126035504/ef20081499_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "reportDate": "2026-07-24",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/310142/000114036126029501/ef20078569_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-23",
+   "reportDate": "2026-06-18",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/310142/000114036126026110/ef20076497_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-23",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/310142/000114036126017292/ef20071607_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-24",
+   "reportDate": "2026-04-24",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/310142/000114036126016575/ef20071195_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-13",
+   "reportDate": "2026-02-13",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/310142/000114036126005177/ef20065512_8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 11.8,
+  "saleNy": 13.16,
+  "epsCy": 20.17,
+  "epsNy": 18.58,
+  "cyTrend": 6.65,
+  "nyTrend": 5.46,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    11.55,
+    11.09,
+    4.52
+   ],
+   "ni": [
+    36.64,
+    28.17,
+    -15.35
+   ],
+   "opm": [
+    16.6,
+    15.31,
+    9.71
+   ],
+   "updated": "2026-09-08 08:33:05"
+  }
+ }
+}

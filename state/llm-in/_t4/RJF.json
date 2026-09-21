@@ -1,0 +1,140 @@
+{
+ "ticker": "RJF",
+ "news": [
+  {
+   "title": "Truist Securities Initiates Coverage of Raymond James Financial (RJF) with Hold Recommendation",
+   "url": "https://www.nasdaq.com/articles/truist-securities-initiates-coverage-raymond-james-financial-rjf-hold-recommendation",
+   "date": "2026-09-02",
+   "publisher": "Fintel"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-01",
+   "reportDate": "2026-08-26",
+   "items": [
+    "5.02",
+    "7.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/720005/000072000526000075/rjf-20260826.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-19",
+   "reportDate": "2026-08-19",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/720005/000072000526000073/rjf-20260819.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/720005/000072000526000066/rjf-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-24",
+   "reportDate": "2026-06-24",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/720005/000072000526000063/rjf-20260624.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-27",
+   "reportDate": "2026-05-27",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/720005/000072000526000060/rjf-20260527.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-20",
+   "reportDate": "2026-05-20",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/720005/000072000526000058/rjf-20260520.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.91,
+  "saleNy": 10.99,
+  "epsCy": 13.77,
+  "epsNy": 17.06,
+  "cyTrend": 0.04,
+  "nyTrend": 0.11,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    13.53,
+    10.85,
+    3.49
+   ],
+   "ni": [
+    36.55,
+    9.94,
+    -6.18
+   ],
+   "opm": [
+    26.55,
+    26.82,
+    27.92
+   ],
+   "updated": "2026-09-08 08:35:04"
+  }
+ }
+}

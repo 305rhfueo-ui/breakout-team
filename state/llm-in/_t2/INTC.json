@@ -5,14 +5,14 @@
  "nameKo": "인텔",
  "site": {
   "targetStatus": false,
-  "saleCy": 19.28,
-  "saleNy": 13.96,
-  "epsCy": 260.62,
-  "epsNy": 35,
+  "saleCy": 19.34,
+  "saleNy": 14.16,
+  "epsCy": 261.97,
+  "epsNy": 35.64,
   "est": {
-   "cyCur": 1.51462,
+   "cyCur": 1.52026,
    "cy30": 1.5129,
-   "nyCur": 2.04479,
+   "nyCur": 2.06208,
    "ny30": 2.04013
   },
   "newHigh52": false,
@@ -45,9 +45,9 @@
    "m6": "2026-09-17"
   },
   "top2Streak": {
-   "m1": 1,
+   "m1": 2,
    "m3": 0,
-   "m6": 1
+   "m6": 2
   }
  },
  "detail": {

@@ -1,0 +1,172 @@
+{
+ "ticker": "ARW",
+ "news": [
+  {
+   "title": "Why Arrow Electronics (ARW) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-arrow-electronics-arw-top-momentum-stock-long-term",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Should Value Investors Buy Arrow Electronics (ARW) Stock?",
+   "url": "https://www.nasdaq.com/articles/should-value-investors-buy-arrow-electronics-arw-stock-1",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "All You Need to Know About Arrow Electronics (ARW) Rating Upgrade to Strong Buy",
+   "url": "https://www.nasdaq.com/articles/all-you-need-know-about-arrow-electronics-arw-rating-upgrade-strong-buy",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Arrow Electronics (ARW) is a Top Value Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-arrow-electronics-arw-top-value-stock-long-term",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Investors Undervaluing Arrow Electronics (ARW) Right Now?",
+   "url": "https://www.nasdaq.com/articles/are-investors-undervaluing-arrow-electronics-arw-right-now",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-04",
+   "reportDate": "2026-09-02",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/7536/000110465926105516/tm2624328d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/7536/000000753626000127/arw-20260806x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-13",
+   "reportDate": "2026-05-12",
+   "items": [
+    "5.03",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/7536/000110465926060235/tm2614085d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/7536/000000753626000077/arw-20260507x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "reportDate": "2026-02-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/7536/000000753626000004/arw-20260205x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-10-30",
+   "reportDate": "2025-10-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/7536/000000753625000029/arw-20251030x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 29.79,
+  "saleNy": 7.79,
+  "epsCy": 96.32,
+  "epsNy": 10.58,
+  "cyTrend": 9.23,
+  "nyTrend": 12.19,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    31.82,
+    39.03,
+    20.1
+   ],
+   "ni": [
+    45.25,
+    194.91,
+    96.16
+   ],
+   "opm": [
+    3.78,
+    3.82,
+    3.36
+   ],
+   "updated": "2026-09-08 10:14:34"
+  }
+ }
+}

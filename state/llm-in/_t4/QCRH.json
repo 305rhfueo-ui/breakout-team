@@ -1,0 +1,184 @@
+{
+ "ticker": "QCRH",
+ "news": [
+  {
+   "title": "QCR Holdings (QCRH) Is Up 2.59% in One Week: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/qcr-holdings-qcrh-259-one-week-what-you-should-know",
+   "date": "2026-08-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "QCR Holdings, Inc. (QCRH) Hit a 52 Week High, Can the Run Continue?",
+   "url": "https://www.nasdaq.com/articles/qcr-holdings-inc-qcrh-hit-52-week-high-can-run-continue",
+   "date": "2026-08-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are You Looking for a Top Momentum Pick? Why QCR Holdings (QCRH) is a Great Choice",
+   "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-qcr-holdings-qcrh-great-choice",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "All You Need to Know About QCR Holdings (QCRH) Rating Upgrade to Buy",
+   "url": "https://www.nasdaq.com/articles/all-you-need-know-about-qcr-holdings-qcrh-rating-upgrade-buy",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "QCR Holdings, Inc. (QCRH) Hits Fresh High: Is There Still Room to Run?",
+   "url": "https://www.nasdaq.com/articles/qcr-holdings-inc-qcrh-hits-fresh-high-there-still-room-run",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "QCR Holdings (QCRH) Reports Q2 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/qcr-holdings-qcrh-reports-q2-earnings-what-key-metrics-have-say",
+   "date": "2026-07-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "QCR Holdings (QCRH) Beats Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/qcr-holdings-qcrh-beats-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Qcr (QCRH) Q1 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/qcr-qcrh-q1-2026-earnings-call-transcript",
+   "date": "2026-04-23",
+   "publisher": "The Motley Fool"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-24",
+   "reportDate": "2026-08-24",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/906465/000117184326005713/f8k_082126.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/906465/000110465926085796/qcrh-20260722x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/906465/000110465926085795/qcrh-20260722x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-26",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/906465/000117184326003697/f8k_052626.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-22",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/906465/000110465926046812/qcrh-20260422x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/906465/000110465926046805/qcrh-20260422x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.29,
+  "saleNy": 5.5,
+  "epsCy": 11.68,
+  "epsNy": 4.88,
+  "cyTrend": 4.51,
+  "nyTrend": 2.99,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.68,
+    7.1,
+    9.12
+   ],
+   "ni": [
+    24.92,
+    29.41,
+    18
+   ],
+   "opm": [
+    26.24,
+    25.04,
+    23.27
+   ],
+   "updated": "2026-09-08 10:06:29"
+  }
+ }
+}

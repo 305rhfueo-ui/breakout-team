@@ -1,0 +1,144 @@
+{
+ "ticker": "MRSH",
+ "news": [
+  {
+   "title": "Notable Two Hundred Day Moving Average Cross - MRSH",
+   "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-mrsh",
+   "date": "2026-09-09",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Why Is Marsh (MRSH) Up 7.5% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-marsh-mrsh-75-last-earnings-report",
+   "date": "2026-08-20",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-21",
+   "reportDate": "2026-07-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/62709/000006270926000193/mmc-20260721.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-02",
+   "items": [
+    "1.01",
+    "1.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/62709/000006270926000167/mmc-20260602.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/62709/000006270926000128/a2026mmcagmresultsform8-k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-16",
+   "reportDate": "2026-04-16",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/62709/000006270926000096/mmc-20260416.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-14",
+   "reportDate": "2026-04-08",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/62709/000095010326005674/dp245126_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-10",
+   "reportDate": "2026-03-10",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/62709/000006270926000071/asouthappointment03102026.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.85,
+  "saleNy": 4.86,
+  "epsCy": 7.2,
+  "epsNy": 9.17,
+  "cyTrend": 0.01,
+  "nyTrend": 0.04,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.17,
+    7.59,
+    8.7
+   ],
+   "ni": [
+    4.54,
+    -17.02,
+    4.19
+   ],
+   "opm": [
+    25.65,
+    23.09,
+    18.48
+   ],
+   "updated": "2026-09-08 07:25:59"
+  }
+ }
+}

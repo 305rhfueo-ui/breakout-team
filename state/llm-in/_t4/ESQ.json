@@ -1,0 +1,188 @@
+{
+ "ticker": "ESQ",
+ "news": [
+  {
+   "title": "Esquire Financial (ESQ) Upgraded to Buy: Here's What You Should Know",
+   "url": "https://www.nasdaq.com/articles/esquire-financial-esq-upgraded-buy-heres-what-you-should-know",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Esquire Financial Holdings, Inc. (ESQ) is a Great Momentum Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/esquire-financial-holdings-inc-esq-great-momentum-stock-should-you-buy",
+   "date": "2026-08-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's What Key Metrics Tell Us About Esquire Financial (ESQ) Q2 Earnings",
+   "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-esquire-financial-esq-q2-earnings",
+   "date": "2026-07-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Esquire Financial Holdings, Inc. (ESQ) Surpasses Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/esquire-financial-holdings-inc-esq-surpasses-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Esquire Financial (ESQ) Soars 5.2%: Is Further Upside Left in the Stock?",
+   "url": "https://www.nasdaq.com/articles/esquire-financial-esq-soars-52-further-upside-left-stock",
+   "date": "2026-07-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Esquire Financial Holdings, Inc. (ESQ) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://www.nasdaq.com/articles/esquire-financial-holdings-inc-esq-earnings-expected-grow-what-know-ahead-next-weeks",
+   "date": "2026-07-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Compared to Estimates, Esquire Financial (ESQ) Q1 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-esquire-financial-esq-q1-earnings-look-key-metrics",
+   "date": "2026-04-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Esquire Financial Holdings, Inc. (ESQ) Surpasses Q1 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/esquire-financial-holdings-inc-esq-surpasses-q1-earnings-and-revenue-estimates",
+   "date": "2026-04-23",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-08-01",
+   "items": [
+    "2.01",
+    "5.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.01",
+    "임원 변동",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1531031/000110465926089537/tm2621793d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1531031/000110465926088725/esq-20260730x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1531031/000110465926086092/esq-20260723x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-24",
+   "reportDate": "2026-06-23",
+   "items": [
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1531031/000110465926077082/tm2618659d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-09",
+   "reportDate": "2026-06-09",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1531031/000110465926071835/tm2617366d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-28",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1531031/000094337426000216/form8k_052826.htm",
+   "description": "ESQUIRE FINANCIAL HOLDINGS, INC. FORM 8-K MAY 28, 2026"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 48.71,
+  "saleNy": 45.36,
+  "epsCy": 17.55,
+  "epsNy": 24.64,
+  "cyTrend": 1.32,
+  "nyTrend": -0.58,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    18.87,
+    20.77,
+    20.03
+   ],
+   "ni": [
+    9.15,
+    7.05,
+    14.59
+   ],
+   "opm": [
+    38.01,
+    37.6,
+    39.3
+   ],
+   "updated": "2026-09-08 06:23:13"
+  }
+ }
+}

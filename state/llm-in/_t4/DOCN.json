@@ -1,0 +1,164 @@
+{
+ "ticker": "DOCN",
+ "news": [
+  {
+   "title": "Why Is DigitalOcean (DOCN) Down 15.7% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-digitalocean-docn-down-157-last-earnings-report",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "DigitalOcean Holdings, Inc. (DOCN) Just Overtook the 20-Day Moving Average",
+   "url": "https://www.nasdaq.com/articles/digitalocean-holdings-inc-docn-just-overtook-20-day-moving-average",
+   "date": "2026-08-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "DigitalOcean (DOCN) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/digitalocean-docn-q2-2026-earnings-call-transcript",
+   "date": "2026-08-11",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "OSPN or DOCN: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/ospn-or-docn-which-better-value-stock-right-now",
+   "date": "2026-08-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wall Street Analysts Believe DigitalOcean (DOCN) Could Rally 32.64%: Here's is How to Trade",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-digitalocean-docn-could-rally-3264-heres-how-trade",
+   "date": "2026-08-11",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-10",
+   "reportDate": "2026-09-10",
+   "items": [
+    "1.01",
+    "2.03",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1582961/000110465926106704/tm2625205d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1582961/000162828026052135/docn-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "reportDate": "2026-07-23",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1582961/000110465926086652/tm2621138d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1582961/000110465926086342/tm2621138d2_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-07",
+   "reportDate": "2026-07-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296126000055/docn-20260707.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-17",
+   "reportDate": "2026-06-15",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296126000051/docn-20260615.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 30.75,
+  "saleNy": 53.74,
+  "epsCy": -31.28,
+  "epsNy": 26.4,
+  "cyTrend": 18,
+  "nyTrend": -0.86,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    28.57,
+    22.4,
+    18.28
+   ],
+   "ni": [
+    -4.29,
+    -58.72,
+    40.48
+   ],
+   "opm": [
+    10.45,
+    14.18,
+    16.01
+   ],
+   "updated": "2026-09-08 09:25:36"
+  }
+ }
+}

@@ -1,0 +1,168 @@
+{
+ "ticker": "CGON",
+ "news": [
+  {
+   "title": "CG Oncology, Inc. (CGON) Reports Q2 Loss, Misses Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/cg-oncology-inc-cgon-reports-q2-loss-misses-revenue-estimates",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Tuesday 6/30 Insider Buying Report: CGON, NXST",
+   "url": "https://www.nasdaq.com/articles/tuesday-6-30-insider-buying-report-cgon-nxst",
+   "date": "2026-06-30",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Wolfe Research Initiates Coverage of CG Oncology (CGON) with Peer Perform Recommendation",
+   "url": "https://www.nasdaq.com/articles/wolfe-research-initiates-coverage-cg-oncology-cgon-peer-perform-recommendation",
+   "date": "2026-05-19",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "CG Oncology, Inc. (CGON) Reports Q1 Loss, Tops Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/cg-oncology-inc-cgon-reports-q1-loss-tops-revenue-estimates",
+   "date": "2026-05-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wall Street Analysts Think CG Oncology, Inc. (CGON) Could Surge 29.78%: Read This Before Placing a Bet",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-think-cg-oncology-inc-cgon-could-surge-2978-read-placing-bet",
+   "date": "2026-05-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CG Oncology, Inc. (CGON) Upgraded to Buy: Here's What You Should Know",
+   "url": "https://www.nasdaq.com/articles/cg-oncology-inc-cgon-upgraded-buy-heres-what-you-should-know",
+   "date": "2026-05-01",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1991792/000119312526336886/ck0001991792-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-08",
+   "reportDate": "2026-06-04",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1991792/000119312526261670/d54487d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-26",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1991792/000119312526237908/ck0001991792-20260520.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-08",
+   "reportDate": "2026-05-08",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1991792/000119312526213440/ck0001991792-20260508.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-13",
+   "reportDate": "2026-04-13",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1991792/000119312526152044/ck0001991792-20260413.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-27",
+   "reportDate": "2026-02-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1991792/000119312526079452/ck0001991792-20260227.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 10.64,
+  "saleNy": 1768.48,
+  "epsCy": 54.07,
+  "epsNy": -5.74,
+  "cyTrend": -0.52,
+  "nyTrend": 4.03,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    null,
+    1982.69,
+    409.21
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -7467.68,
+    -6130.1,
+    -2097.33
+   ],
+   "updated": "2026-09-20 06:54:51"
+  }
+ }
+}

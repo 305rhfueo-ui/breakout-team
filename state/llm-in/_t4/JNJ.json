@@ -1,0 +1,154 @@
+{
+ "ticker": "JNJ",
+ "news": [
+  {
+   "title": "JNJ Announces CHMP's Recommendation For Approval Of TECVAYLI",
+   "url": "https://www.nasdaq.com/articles/jnj-announces-chmps-recommendation-approval-tecvayli",
+   "date": "2026-09-18",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Johnson & Johnson (JNJ) Increases Yet Falls Behind Market: What Investors Need to Know",
+   "url": "https://www.nasdaq.com/articles/johnson-johnson-jnj-increases-yet-falls-behind-market-what-investors-need-know",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Dow Analyst Moves: JNJ",
+   "url": "https://www.nasdaq.com/articles/dow-analyst-moves-jnj-0",
+   "date": "2026-09-15",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000167/jnj-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000163/jnj-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-27",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000155/jnj-20260727.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-15",
+   "reportDate": "2026-07-15",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000146/jnj-20260715.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-23",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000089/jnj-20260423.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-14",
+   "reportDate": "2026-04-14",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000076/jnj-20260414.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.47,
+  "saleNy": 7.66,
+  "epsCy": 2.55,
+  "epsNy": 11.03,
+  "cyTrend": 0.11,
+  "nyTrend": -0.18,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    6.6,
+    9.91,
+    9.08
+   ],
+   "ni": [
+    -0.05,
+    -52.4,
+    49.11
+   ],
+   "opm": [
+    26.66,
+    24.89,
+    20.22
+   ],
+   "updated": "2026-09-08 06:49:29"
+  }
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "ticker": "TPC",
+ "news": [
+  {
+   "title": "Tutor Perini (TPC) Registers a Bigger Fall Than the Market: Important Facts to Note",
+   "url": "https://www.nasdaq.com/articles/tutor-perini-tpc-registers-bigger-fall-market-important-facts-note",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Should Value Investors Buy Tutor Perini (TPC) Stock?",
+   "url": "https://www.nasdaq.com/articles/should-value-investors-buy-tutor-perini-tpc-stock",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Tutor Perini Corporation (TPC) Is a Trending Stock: Facts to Know Before Betting on It",
+   "url": "https://www.nasdaq.com/articles/tutor-perini-corporation-tpc-trending-stock-facts-know-betting-it",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Can TPC's $4.6B Indo-Pacific Pipeline Fuel Its Next Growth Leg?",
+   "url": "https://www.nasdaq.com/articles/can-tpcs-46b-indo-pacific-pipeline-fuel-its-next-growth-leg",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-14",
+   "reportDate": "2026-08-11",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000193/tpc-20260811.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000184/tpc-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-06",
+   "reportDate": "2026-07-02",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000163/tpc-20260702.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-22",
+   "reportDate": "2026-06-22",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000156/tpc-20260622.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-26",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.02",
+    "5.07"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000141/tpc-20260520.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000112/tpc-20260506.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 15.1,
+  "saleNy": 12.66,
+  "epsCy": 256.02,
+  "epsNy": 12.84,
+  "cyTrend": 6.04,
+  "nyTrend": 0.72,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    19.17,
+    11.46,
+    41.19
+   ],
+   "ni": [
+    229.14,
+    -8.22,
+    "흑자전환"
+   ],
+   "opm": [
+    7.19,
+    4.26,
+    3.32
+   ],
+   "updated": "2026-09-08 07:48:38"
+  }
+ }
+}

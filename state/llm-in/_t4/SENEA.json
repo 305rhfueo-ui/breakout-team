@@ -1,0 +1,142 @@
+{
+ "ticker": "SENEA",
+ "news": [
+  {
+   "title": "SENEA vs. CAG: Which Packaged Foods Stock Is the Smarter Buy Now?",
+   "url": "https://www.nasdaq.com/articles/senea-vs-cag-which-packaged-foods-stock-smarter-buy-now",
+   "date": "2026-03-04",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-06",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774926027008/senea20260806_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-08-12",
+   "reportDate": "2025-08-07",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774925026194/senea20250811_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2024-12-30",
+   "reportDate": "2024-12-23",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774924038531/senea20241212_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2024-08-12",
+   "reportDate": "2024-08-08",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774924026057/senea20240809_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2024-03-08",
+   "reportDate": "2024-03-08",
+   "items": [
+    "1.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774924007174/senea20240308_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2023-11-13",
+   "reportDate": "2023-11-07",
+   "items": [
+    "4.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "4.01",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/88948/000143774923031611/senea20231113_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 14.06,
+  "saleNy": 2.32,
+  "epsCy": -16.64,
+  "epsNy": 5.35,
+  "cyTrend": -6.81,
+  "nyTrend": 4.59,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    36.21,
+    13.88,
+    1.09
+   ],
+   "ni": [
+    31.05,
+    4255.79,
+    205.61
+   ],
+   "opm": [
+    6.47,
+    6.03,
+    11.8
+   ],
+   "updated": "2026-09-08 08:33:43"
+  }
+ }
+}

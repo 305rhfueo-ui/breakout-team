@@ -1,0 +1,164 @@
+{
+ "ticker": "URBN",
+ "news": [
+  {
+   "title": "Is Urban Outfitters (URBN) Outperforming Other Retail-Wholesale Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/urban-outfitters-urbn-outperforming-other-retail-wholesale-stocks-year",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Urban Outfitters (URBN) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-urban-outfitters-urbn-top-momentum-stock-long-term",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "URBN or ZGN: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/urbn-or-zgn-which-better-value-stock-right-now-2",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Investors Undervaluing Urban Outfitters (URBN) Right Now?",
+   "url": "https://www.nasdaq.com/articles/are-investors-undervaluing-urban-outfitters-urbn-right-now-0",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Urban Outfitters (URBN) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-urban-outfitters-urbn-strong-growth-stock",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-27",
+   "reportDate": "2026-08-26",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/912615/000119312526369924/urbn-20260826.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-05",
+   "reportDate": "2026-06-03",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/912615/000119312526259496/d158763d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-26",
+   "reportDate": "2026-05-19",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/912615/000119312526239316/d147336d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-20",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/912615/000119312526233928/urbn-20260520.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-26",
+   "reportDate": "2026-02-25",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/912615/000119312526074606/urbn-20260225.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-12",
+   "reportDate": "2026-01-12",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/912615/000119312526010089/urbn-20260112.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.5,
+  "saleNy": 6.85,
+  "epsCy": 36.92,
+  "epsNy": -1.54,
+  "cyTrend": 12.29,
+  "nyTrend": 2.26,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    10.44,
+    11.42,
+    10.12
+   ],
+   "ni": [
+    67.28,
+    6.79,
+    -19.98
+   ],
+   "opm": [
+    17.37,
+    9.43,
+    8.81
+   ],
+   "updated": "2026-09-07 07:41:44"
+  }
+ }
+}

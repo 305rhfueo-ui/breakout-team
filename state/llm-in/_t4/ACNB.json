@@ -1,0 +1,184 @@
+{
+ "ticker": "ACNB",
+ "news": [
+  {
+   "title": "ACNB (ACNB) is a Top Dividend Stock Right Now: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/acnb-acnb-top-dividend-stock-right-now-should-you-buy-0",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "This is Why  ACNB (ACNB) is a Great Dividend Stock",
+   "url": "https://www.nasdaq.com/articles/why-acnb-acnb-great-dividend-stock",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Upcoming Dividend Run For ACNB?",
+   "url": "https://www.nasdaq.com/articles/upcoming-dividend-run-acnb",
+   "date": "2026-08-17",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "ACNB (ACNB) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/acnb-acnb-could-be-great-choice",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is ACNB (ACNB) Outperforming Other Finance Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/acnb-acnb-outperforming-other-finance-stocks-year",
+   "date": "2026-07-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ACNB Corporation (ACNB) Hit a 52 Week High, Can the Run Continue?",
+   "url": "https://www.nasdaq.com/articles/acnb-corporation-acnb-hit-52-week-high-can-run-continue",
+   "date": "2026-07-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Options Traders Betting on a Big Move in ACNB Stock?",
+   "url": "https://www.nasdaq.com/articles/are-options-traders-betting-big-move-acnb-stock",
+   "date": "2026-07-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ACNB (ACNB) Surpasses Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/acnb-acnb-surpasses-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-23",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-28",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/715579/000162828026050410/acnb-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/715579/000162828026049299/acnb-20260723.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-05",
+   "items": [
+    "5.07",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/715579/000162828026030938/acnb-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-28",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/715579/000162828026028132/acnb-20260428.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/715579/000162828026026708/acnb-20260423.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-18",
+   "reportDate": "2026-03-13",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/715579/000162828026019066/acnb-20260313.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.18,
+  "saleNy": 2.91,
+  "epsCy": 11.17,
+  "epsNy": 0.53,
+  "cyTrend": 4.86,
+  "nyTrend": 3.93,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    4.47,
+    16.18,
+    42.2
+   ],
+   "ni": [
+    30.61,
+    "흑자전환",
+    63.84
+   ],
+   "opm": [
+    36.66,
+    34.18,
+    27.92
+   ],
+   "updated": "2026-09-08 08:26:46"
+  }
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "ticker": "EXPO",
+ "news": [
+  {
+   "title": "Are Business Services Stocks Lagging  Exponent (EXPO) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-business-services-stocks-lagging-exponent-expo-year",
+   "date": "2026-08-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Exponent (EXPO) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/exponent-expo-q2-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Wall Street Analysts Predict a 25.65% Upside in Exponent (EXPO): Here's  What You Should Know",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-predict-2565-upside-exponent-expo-heres-what-you-should-know",
+   "date": "2026-08-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Exponent (EXPO) Surpasses Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/exponent-expo-surpasses-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Upcoming Dividend Run For EXPO?",
+   "url": "https://www.nasdaq.com/articles/upcoming-dividend-run-expo",
+   "date": "2026-05-21",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Exponent (EXPO) Surpasses Q1 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/exponent-expo-surpasses-q1-earnings-and-revenue-estimates",
+   "date": "2026-04-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Exponent EXPO Q1 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/exponent-expo-q1-2026-earnings-call-transcript",
+   "date": "2026-04-30",
+   "publisher": "The Motley Fool"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326005081/f8k_073026.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-10",
+   "reportDate": "2026-06-04",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326004036/f8k_061026.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326002896/f8k_043026.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-06",
+   "reportDate": "2026-04-06",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326002263/f8k_040626.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "reportDate": "2026-02-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184326000654/f8k_020526.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-10-30",
+   "reportDate": "2025-10-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/851520/000117184325006835/f8k_103025.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.92,
+  "saleNy": 8.57,
+  "epsCy": 21.36,
+  "epsNy": 12.97,
+  "cyTrend": 1.76,
+  "nyTrend": 2.82,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    20.89,
+    14.29,
+    7.79
+   ],
+   "ni": [
+    10.7,
+    10.95,
+    4.97
+   ],
+   "opm": [
+    16.33,
+    24.88,
+    19.77
+   ],
+   "updated": "2026-09-08 06:21:30"
+  }
+ }
+}

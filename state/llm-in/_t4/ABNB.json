@@ -1,0 +1,164 @@
+{
+ "ticker": "ABNB",
+ "news": [
+  {
+   "title": "LTH or ABNB: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/lth-or-abnb-which-better-value-stock-right-now",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Airbnb, Inc. (ABNB) Laps the Stock Market: Here's Why",
+   "url": "https://www.nasdaq.com/articles/airbnb-inc-abnb-laps-stock-market-heres-why",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Investors Heavily Search Airbnb, Inc. (ABNB): Here is What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/investors-heavily-search-airbnb-inc-abnb-here-what-you-need-know",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Airbnb, Inc. (ABNB) Just Overtook the 20-Day Moving Average",
+   "url": "https://www.nasdaq.com/articles/airbnb-inc-abnb-just-overtook-20-day-moving-average",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Rosenblatt Initiates Coverage of Airbnb (ABNB) with Buy Recommendation",
+   "url": "https://www.nasdaq.com/articles/rosenblatt-initiates-coverage-airbnb-abnb-buy-recommendation",
+   "date": "2026-09-01",
+   "publisher": "Fintel"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526337928/d70413d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-11",
+   "reportDate": "2026-06-05",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000018/abnb-20260605.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526211816/d23351d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-16",
+   "reportDate": "2026-03-12",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526108514/d106317d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "reportDate": "2026-02-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526048670/d58192d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-21",
+   "reportDate": "2025-11-18",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525291024/d41935d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 15.76,
+  "saleNy": 11.58,
+  "epsCy": 31.85,
+  "epsNy": 17.53,
+  "cyTrend": 0.44,
+  "nyTrend": 1.04,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    16.54,
+    17.87,
+    12.02
+   ],
+   "ni": [
+    27.1,
+    3.9,
+    -26.03
+   ],
+   "opm": [
+    21.01,
+    3.21,
+    9.68
+   ],
+   "updated": "2026-09-07 05:58:13"
+  }
+ }
+}

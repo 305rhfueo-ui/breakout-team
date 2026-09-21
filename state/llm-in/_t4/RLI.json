@@ -1,0 +1,148 @@
+{
+ "ticker": "RLI",
+ "news": [
+  {
+   "title": "RLI's NII Growth Remains Sustainable Despite Potential Rate Declines",
+   "url": "https://www.nasdaq.com/articles/rlis-nii-growth-remains-sustainable-despite-potential-rate-declines",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is RLI Corp. (RLI) Up 6.4% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-rli-corp-rli-64-last-earnings-report",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "RLI's Underwriting Discipline Supports Consistent Profitability",
+   "url": "https://www.nasdaq.com/articles/rlis-underwriting-discipline-supports-consistent-profitability",
+   "date": "2026-08-17",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-13",
+   "reportDate": "2026-08-13",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/84246/000110465926095914/rli-20260813x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-23",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/84246/000008424626000016/rli-20260723x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/84246/000110465926085815/rli-20260722x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-15",
+   "reportDate": "2026-07-15",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/84246/000110465926083885/rli-20260715x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-25",
+   "reportDate": "2026-06-22",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/84246/000110465926077770/rli-20260622x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-20",
+   "reportDate": "2026-05-14",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/84246/000110465926064543/rli-20260514x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 1.73,
+  "saleNy": 1.61,
+  "epsCy": -18.05,
+  "epsNy": -5.21,
+  "cyTrend": 2.25,
+  "nyTrend": -0.26,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    15.15,
+    3.98,
+    6.05
+   ],
+   "ni": [
+    35.14,
+    -13.18,
+    123.14
+   ],
+   "opm": [
+    36.86,
+    15.94,
+    27.03
+   ],
+   "updated": "2026-09-08 09:27:18"
+  }
+ }
+}

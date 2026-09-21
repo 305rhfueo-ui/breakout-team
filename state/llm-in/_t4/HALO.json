@@ -1,0 +1,148 @@
+{
+ "ticker": "HALO",
+ "news": [
+  {
+   "title": "3 Reasons Why Growth Investors Shouldn't Overlook Halozyme Therapeutics (HALO)",
+   "url": "https://www.nasdaq.com/articles/3-reasons-why-growth-investors-shouldnt-overlook-halozyme-therapeutics-halo",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Halozyme Therapeutics (HALO) a Solid Growth Stock? 3 Reasons to Think &quot;Yes&quot;",
+   "url": "https://www.nasdaq.com/articles/halozyme-therapeutics-halo-solid-growth-stock-3-reasons-think-yes",
+   "date": "2026-08-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are You Looking for a Top Momentum Pick? Why Halozyme Therapeutics (HALO) is a Great Choice",
+   "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-halozyme-therapeutics-halo-great-choice-0",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-18",
+   "reportDate": "2026-09-17",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000126/halo-20260917.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-16",
+   "reportDate": "2026-09-16",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000121/halo-20260916.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-18",
+   "reportDate": "2026-08-14",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000106/halo-20260814.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000103/halo-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-02",
+   "reportDate": "2026-06-30",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000088/halo-20260630.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-11",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000067/halo-20260511.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 32.72,
+  "saleNy": 10.61,
+  "epsCy": 106.67,
+  "epsNy": 21.17,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    47.67,
+    42.23,
+    51.6
+   ],
+   "ni": [
+    39.21,
+    27.06,
+    -203.34
+   ],
+   "opm": [
+    59.8,
+    48.98,
+    -20.56
+   ],
+   "updated": "2026-09-09 07:25:34"
+  }
+ }
+}

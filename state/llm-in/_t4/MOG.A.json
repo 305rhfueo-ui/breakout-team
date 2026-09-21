@@ -1,0 +1,168 @@
+{
+ "ticker": "MOG.A",
+ "news": [
+  {
+   "title": "3 Reasons Growth Investors Will Love Moog (MOG.A)",
+   "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-moog-moga",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Moog Inc. (MOG.A) Hit a 52 Week High, Can the Run Continue?",
+   "url": "https://www.nasdaq.com/articles/moog-inc-moga-hit-52-week-high-can-run-continue",
+   "date": "2026-08-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "3 Reasons Why Growth Investors Shouldn't Overlook Moog (MOG.A)",
+   "url": "https://www.nasdaq.com/articles/3-reasons-why-growth-investors-shouldnt-overlook-moog-moga",
+   "date": "2026-08-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Moog (MOG.A) Q3 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/moog-moga-q3-earnings-and-revenues-beat-estimates",
+   "date": "2026-07-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Moog (MOG.A) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://www.nasdaq.com/articles/moog-moga-earnings-expected-grow-what-know-ahead-next-weeks-release",
+   "date": "2026-07-24",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-31",
+   "reportDate": "2026-07-31",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026051250/mog-20260731.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-06",
+   "reportDate": "2026-07-01",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026047105/mog-20260701.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-24",
+   "reportDate": "2026-04-24",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026027030/mog-20260424.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-03",
+   "reportDate": "2026-04-03",
+   "items": [
+    "1.02"
+   ],
+   "itemsKo": [
+    "1.02"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026023542/mog-20260403.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-24",
+   "reportDate": "2026-03-24",
+   "items": [
+    "1.01",
+    "2.03",
+    "2.04"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "2.04"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026020809/mog-20260324.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-10",
+   "reportDate": "2026-03-10",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026016411/mog-20260310.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 13.7,
+  "saleNy": 7.33,
+  "epsCy": 32.08,
+  "epsNy": 4.58,
+  "cyTrend": 0.57,
+  "nyTrend": 1.71,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    15.16,
+    12.63,
+    21.2
+   ],
+   "ni": [
+    159.93,
+    49.86,
+    37.07
+   ],
+   "opm": [
+    14.41,
+    11.7,
+    10.83
+   ],
+   "updated": "2026-09-08 10:35:51"
+  }
+ }
+}

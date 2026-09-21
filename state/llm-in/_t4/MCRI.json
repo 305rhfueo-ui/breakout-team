@@ -1,0 +1,168 @@
+{
+ "ticker": "MCRI",
+ "news": [
+  {
+   "title": "Monarch Casino (MCRI) Q2 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/monarch-casino-mcri-q2-earnings-and-revenues-top-estimates",
+   "date": "2026-07-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Monarch Casino (MCRI) Is Up 1.27% in One Week: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/monarch-casino-mcri-127-one-week-what-you-should-know",
+   "date": "2026-06-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Monarch Casino & Resort About To Put More Money In Your Pocket (MCRI)",
+   "url": "https://www.nasdaq.com/articles/monarch-casino-resort-about-put-more-money-your-pocket-mcri",
+   "date": "2026-05-28",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Are Consumer Discretionary Stocks Lagging  Monarch Casino & Resort (MCRI) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-consumer-discretionary-stocks-lagging-monarch-casino-resort-mcri-year",
+   "date": "2026-05-25",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "3 Reasons Why Growth Investors Shouldn't Overlook Monarch Casino (MCRI)",
+   "url": "https://www.nasdaq.com/articles/3-reasons-why-growth-investors-shouldnt-overlook-monarch-casino-mcri",
+   "date": "2026-05-12",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-21",
+   "reportDate": "2026-07-20",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/907242/000117184326004783/f8k_072026.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-29",
+   "reportDate": "2026-05-27",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/907242/000110465926068313/mcri-20260527x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-21",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/907242/000117184326002629/f8k_042126.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-04",
+   "reportDate": "2026-02-04",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/907242/000117184326000627/f8k_020426.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-19",
+   "reportDate": "2025-12-19",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/907242/000110465925123193/mcri-20251219x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-10-22",
+   "reportDate": "2025-10-21",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/907242/000117184325006575/f8k_102125.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.78,
+  "saleNy": 1.9,
+  "epsCy": 14.12,
+  "epsNy": 3.84,
+  "cyTrend": -0.45,
+  "nyTrend": 1.25,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    4.15,
+    8.9,
+    4.08
+   ],
+   "ni": [
+    20.42,
+    38.9,
+    444.86
+   ],
+   "opm": [
+    27.09,
+    25.59,
+    20.79
+   ],
+   "updated": "2026-09-08 09:04:20"
+  }
+ }
+}

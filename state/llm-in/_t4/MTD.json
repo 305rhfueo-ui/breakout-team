@@ -1,0 +1,174 @@
+{
+ "ticker": "MTD",
+ "news": [
+  {
+   "title": "Mettler-Toledo International Breaks Above 200-Day Moving Average - Bullish for MTD",
+   "url": "https://www.nasdaq.com/articles/mettler-toledo-international-breaks-above-200-day-moving-average-bullish-mtd",
+   "date": "2026-09-15",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Rothschild & Co Initiates Coverage of Mettler-Toledo International (MTD) at Sell",
+   "url": "https://www.nasdaq.com/articles/rothschild-co-initiates-coverage-mettler-toledo-international-mtd-sell",
+   "date": "2026-09-03",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "RBC Capital Initiates Coverage of Mettler-Toledo International (MTD) with Sector Perform Recommendation",
+   "url": "https://www.nasdaq.com/articles/rbc-capital-initiates-coverage-mettler-toledo-international-mtd-sector-perform",
+   "date": "2026-09-02",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Mettler-Toledo (MTD) Upgraded to Buy: Here's Why",
+   "url": "https://www.nasdaq.com/articles/mettler-toledo-mtd-upgraded-buy-heres-why",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Mettler-Toledo (MTD) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/mettler-toledo-mtd-q2-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "MTD Second Quarter Earnings Beat Estimates on China-Led Sales Growth",
+   "url": "https://www.nasdaq.com/articles/mtd-second-quarter-earnings-beat-estimates-china-led-sales-growth",
+   "date": "2026-08-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's What Key Metrics Tell Us About Mettler-Toledo (MTD) Q2 Earnings",
+   "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-mettler-toledo-mtd-q2-earnings",
+   "date": "2026-07-31",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-07-30",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037646/000103764626000054/mtd-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037646/000103764626000049/mtd-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-13",
+   "reportDate": "2026-05-07",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037646/000103764626000026/mtd-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-07",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037646/000103764626000024/mtd-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037646/000103764626000019/mtd-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "reportDate": "2026-02-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037646/000103764626000008/mtd-20260205.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.23,
+  "saleNy": 4.72,
+  "epsCy": 10.79,
+  "epsNy": 9.2,
+  "cyTrend": -0.01,
+  "nyTrend": 0.01,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    4.48,
+    7.17,
+    8.1
+   ],
+   "ni": [
+    15.1,
+    3.59,
+    13.26
+   ],
+   "opm": [
+    30.61,
+    23.93,
+    30.39
+   ],
+   "updated": "2026-09-07 07:44:54"
+  }
+ }
+}

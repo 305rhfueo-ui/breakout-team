@@ -1,0 +1,180 @@
+{
+ "ticker": "CQP",
+ "news": [
+  {
+   "title": "Why Cheniere Energy Partners, L.P. (CQP) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-cheniere-energy-partners-lp-cqp-top-momentum-stock-long-term",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CQP Rises 10.8% in a Month: Can Its Recent Momentum Continue?",
+   "url": "https://www.nasdaq.com/articles/cqp-rises-108-month-can-its-recent-momentum-continue",
+   "date": "2026-08-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cheniere Energy Partners, L.P. (CQP) is a Top-Ranked Momentum Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/cheniere-energy-partners-lp-cqp-top-ranked-momentum-stock-should-you-buy",
+   "date": "2026-08-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cheniere Energy Partners, L.P. (CQP) Reports Q2 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/cheniere-energy-partners-lp-cqp-reports-q2-earnings-what-key-metrics-have-say",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Oils-Energy Stocks Lagging  Cheniere Energy Partners, L.P. (CQP) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-oils-energy-stocks-lagging-cheniere-energy-partners-lp-cqp-year",
+   "date": "2026-07-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CQP Q1 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/cqp-q1-2026-earnings-transcript",
+   "date": "2026-06-01",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Reminder - Cheniere Energy Partners (CQP) Goes Ex-Dividend Soon",
+   "url": "https://www.nasdaq.com/articles/reminder-cheniere-energy-partners-cqp-goes-ex-dividend-soon-0",
+   "date": "2026-05-07",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1383650/000138365026000031/cqp-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1383650/000138365026000025/cqp-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-14",
+   "reportDate": "2026-07-14",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1383650/000138365026000023/cqp-20260714.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-09",
+   "reportDate": "2026-06-09",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1383650/000119312526263864/d76657d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-22",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1383650/000138365026000019/cqp-20260522.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-27",
+   "reportDate": "2026-05-26",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1383650/000119312526240542/d130636d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.67,
+  "saleNy": 0.85,
+  "epsCy": 4.51,
+  "epsNy": -5.12,
+  "cyTrend": 9.12,
+  "nyTrend": 2.1,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.21,
+    20.44,
+    18.29
+   ],
+   "ni": [
+    109.95,
+    -70.98,
+    364.74
+   ],
+   "opm": [
+    51.88,
+    10.03,
+    50.48
+   ],
+   "updated": "2026-09-07 07:53:53"
+  }
+ }
+}

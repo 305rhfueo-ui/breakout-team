@@ -1,0 +1,156 @@
+{
+ "ticker": "BFH",
+ "news": [
+  {
+   "title": "BFH vs. FUTU: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/bfh-vs-futu-which-stock-better-value-option",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "BFH or HASI: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/bfh-or-hasi-which-better-value-stock-right-now",
+   "date": "2026-09-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cash Dividend On The Way From Bread Financial Holdings (BFH)",
+   "url": "https://www.nasdaq.com/articles/cash-dividend-way-bread-financial-holdings-bfh",
+   "date": "2026-08-27",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-15",
+   "reportDate": "2026-09-15",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121526000084/bfh-20260915.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-03",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121526000081/bfh-20260903.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-17",
+   "reportDate": "2026-08-17",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121526000076/bfh-20260817.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121526000069/bfh-20260723.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121526000068/bfh-20260723.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-14",
+   "reportDate": "2026-07-08",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121526000065/bfh-20260708.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 3.98,
+  "saleNy": 3.81,
+  "epsCy": 0.61,
+  "epsNy": 9.36,
+  "cyTrend": 0.1,
+  "nyTrend": 0.07,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    3.39,
+    1.34,
+    1.47
+   ],
+   "ni": [
+    3.6,
+    29.71,
+    562.5
+   ],
+   "opm": [
+    76.43,
+    77.37,
+    75.23
+   ],
+   "updated": "2026-09-08 10:36:10"
+  }
+ }
+}

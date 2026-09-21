@@ -1,0 +1,184 @@
+{
+ "ticker": "FLEX",
+ "news": [
+  {
+   "title": "Flex, Axiom Separation To Be Completed In Q1; Amy Schwetz To Serve As Flex CFO Following Separation",
+   "url": "https://www.nasdaq.com/articles/flex-axiom-separation-be-completed-q1-amy-schwetz-serve-flex-cfo-following-separation",
+   "date": "2026-09-15",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Flex's $4.4B EPC Power Buyout: A Bigger Bet on AI Data Center Growth?",
+   "url": "https://www.nasdaq.com/articles/flexs-44b-epc-power-buyout-bigger-bet-ai-data-center-growth",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Flex (FLEX) is a Top Value Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-flex-flex-top-value-stock-long-term",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Flex Agrees To Buy EPC Power For $4.4 Bln",
+   "url": "https://www.nasdaq.com/articles/flex-agrees-buy-epc-power-44-bln",
+   "date": "2026-09-03",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Why Is Flex (FLEX) Up 3% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-flex-flex-3-last-earnings-report",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Flex's Integrated AI Infrastructure Model a Major Competitive Edge?",
+   "url": "https://www.nasdaq.com/articles/flexs-integrated-ai-infrastructure-model-major-competitive-edge",
+   "date": "2026-08-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Flex vs. Celestica: Which AI Infrastructure Stock is the Better Buy?",
+   "url": "https://www.nasdaq.com/articles/flex-vs-celestica-which-ai-infrastructure-stock-better-buy",
+   "date": "2026-08-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Can Industrial Strength Keep FLEX's RMS Growth on a Steady Track?",
+   "url": "https://www.nasdaq.com/articles/can-industrial-strength-keep-flexs-rms-growth-steady-track",
+   "date": "2026-08-18",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-15",
+   "reportDate": "2026-09-11",
+   "items": [
+    "5.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/866374/000086637426000036/flex-20260911.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-04",
+   "reportDate": "2026-09-03",
+   "items": [
+    "1.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/866374/000119312526382492/d108491d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-07",
+   "reportDate": "2026-08-05",
+   "items": [
+    "5.07",
+    "8.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/866374/000086637426000033/flex-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/866374/000086637426000027/flex-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/866374/000086637426000026/flex-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-11",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/866374/000086637426000016/flex-20260611.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 24.03,
+  "saleNy": 29.92,
+  "epsCy": 43.16,
+  "epsNy": 50.52,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    20.58,
+    16.86,
+    7.66
+   ],
+   "ni": [
+    48.44,
+    12.61,
+    -9.13
+   ],
+   "opm": [
+    4.94,
+    4.98,
+    5.51
+   ],
+   "updated": "2026-09-08 06:08:43"
+  }
+ }
+}

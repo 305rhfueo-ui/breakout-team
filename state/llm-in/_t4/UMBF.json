@@ -1,0 +1,182 @@
+{
+ "ticker": "UMBF",
+ "news": [
+  {
+   "title": "UMB (UMBF) Loses 8.2% in 4 Weeks, Here's Why a Trend Reversal May be Around the Corner",
+   "url": "https://www.nasdaq.com/articles/umb-umbf-loses-82-4-weeks-heres-why-trend-reversal-may-be-around-corner",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why UMB Financial (UMBF) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-umb-financial-umbf-strong-value-stock-1",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cash Dividend On The Way From UMB Financial (UMBF)",
+   "url": "https://www.nasdaq.com/articles/cash-dividend-way-umb-financial-umbf",
+   "date": "2026-09-08",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Is UMB Financial (UMBF) Stock Undervalued Right Now?",
+   "url": "https://www.nasdaq.com/articles/umb-financial-umbf-stock-undervalued-right-now",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "UMB (UMBF) Down 3.3% Since Last Earnings Report: Can It Rebound?",
+   "url": "https://www.nasdaq.com/articles/umb-umbf-down-33-last-earnings-report-can-it-rebound",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why UMB Financial (UMBF) is a Top Value Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-umb-financial-umbf-top-value-stock-long-term-1",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why UMB Financial (UMBF) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-umb-financial-umbf-strong-value-stock",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-01",
+   "reportDate": "2026-09-01",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/101382/000119312526378379/umbf-20260901.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/101382/000119312526320980/umbf-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-28",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/101382/000119312526197753/umbf-20260428.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/101382/000119312526186932/umbf-20260428.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-10",
+   "reportDate": "2026-02-09",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/101382/000119312526044638/umbf-20260209.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-27",
+   "reportDate": "2026-01-27",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/101382/000119312526024400/umbf-20260127.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.38,
+  "saleNy": 5.83,
+  "epsCy": 16.75,
+  "epsNy": 5.25,
+  "cyTrend": 0.3,
+  "nyTrend": -0.02,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    4.12,
+    18.55,
+    50.69
+   ],
+   "ni": [
+    26.17,
+    222.27,
+    74.62
+   ],
+   "opm": [
+    31.37,
+    30.91,
+    24.91
+   ],
+   "updated": "2026-09-08 08:07:00"
+  }
+ }
+}

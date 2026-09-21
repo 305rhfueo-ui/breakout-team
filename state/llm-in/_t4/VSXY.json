@@ -1,0 +1,174 @@
+{
+ "ticker": "VSXY",
+ "news": [
+  {
+   "title": "Why Victoria's Secret (VSXY) is a Top Value Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-victorias-secret-vsxy-top-value-stock-long-term-0",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "VSXY Raises 2026 Outlook as Brand Momentum and Margins Strengthen",
+   "url": "https://www.nasdaq.com/articles/vsxy-raises-2026-outlook-brand-momentum-and-margins-strengthen",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is VSXY Worth Buying as Growth Improves but Valuation Stays Rich?",
+   "url": "https://www.nasdaq.com/articles/vsxy-worth-buying-growth-improves-valuation-stays-rich",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "VSXY Dips 10% in the Past Month: Is the Pullback an Opportunity?",
+   "url": "https://www.nasdaq.com/articles/vsxy-dips-10-past-month-pullback-opportunity",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Victoria's Secret (VSXY) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-victorias-secret-vsxy-strong-growth-stock-1",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "VS&Co (VSXY) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/vsco-vsxy-q2-2026-earnings-call-transcript",
+   "date": "2026-09-09",
+   "publisher": "The Motley Fool"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-03",
+   "reportDate": "2026-09-03",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000019/vsco-20260903.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-20",
+   "reportDate": "2026-08-18",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000017/vsco-20260818.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-15",
+   "reportDate": "2026-06-11",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000015/vsco-20260611.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-02",
+   "reportDate": "2026-06-02",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000011/vsco-20260602.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-21",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000007/vsco-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-10",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1856437/000119312526217065/d152704d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.51,
+  "saleNy": 5.14,
+  "epsCy": 56.9,
+  "epsNy": 19.36,
+  "cyTrend": 1.84,
+  "nyTrend": 2.86,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    10.4,
+    15.3,
+    7.69
+   ],
+   "ni": [
+    1044.05,
+    "흑자전환",
+    -4.66
+   ],
+   "opm": [
+    15.93,
+    4.87,
+    10.09
+   ],
+   "updated": "2026-09-07 07:26:19"
+  }
+ }
+}

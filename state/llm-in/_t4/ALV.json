@@ -1,0 +1,170 @@
+{
+ "ticker": "ALV",
+ "news": [
+  {
+   "title": "Is ALV Stock a Buy Now or a Hold as Margin Risks Build in 2026?",
+   "url": "https://www.nasdaq.com/articles/alv-stock-buy-now-or-hold-margin-risks-build-2026",
+   "date": "2026-07-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Compared to Estimates, Autoliv (ALV) Q2 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-autoliv-alv-q2-earnings-look-key-metrics",
+   "date": "2026-07-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Autoliv, Inc. (ALV) Q2 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/autoliv-inc-alv-q2-earnings-and-revenues-top-estimates",
+   "date": "2026-07-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Autoliv, Inc. (ALV) Reports Next Week: Wall Street Expects Earnings Growth",
+   "url": "https://www.nasdaq.com/articles/autoliv-inc-alv-reports-next-week-wall-street-expects-earnings-growth",
+   "date": "2026-07-10",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-17",
+   "reportDate": "2026-07-17",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1034670/000119312526306698/alv-20260717.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-30",
+   "reportDate": "2026-06-24",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1034670/000119312526289515/alv-20260624.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.05",
+    "2.06",
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.05",
+    "2.06",
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1034670/000119312526216107/alv-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-17",
+   "reportDate": "2026-04-17",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1034670/000119312526160203/alv-20260417.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-11",
+   "reportDate": "2026-03-06",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1034670/000119312526101158/alv-20260306.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-20",
+   "reportDate": "2026-02-19",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1034670/000119312526060246/alv-20260219.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 2.58,
+  "saleNy": 2.73,
+  "epsCy": 4.11,
+  "epsNy": 15.25,
+  "cyTrend": 0.23,
+  "nyTrend": 0.12,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    3.28,
+    6.79,
+    7.72
+   ],
+   "ni": [
+    -40.12,
+    -15.57,
+    -7.38
+   ],
+   "opm": [
+    6.89,
+    8.57,
+    11.36
+   ],
+   "updated": "2026-09-08 08:32:04"
+  }
+ }
+}

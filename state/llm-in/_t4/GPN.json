@@ -1,0 +1,152 @@
+{
+ "ticker": "GPN",
+ "news": [
+  {
+   "title": "Global Payments (GPN) Up 4.7% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/global-payments-gpn-47-last-earnings-report-can-it-continue",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Global Payments (GPN) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/global-payments-gpn-q2-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Global Payments (GPN) Beats Q2 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/global-payments-gpn-beats-q2-earnings-estimates",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000082/gpn-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-06",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000110465926056781/tm2613880d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000070/gpn-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-04-30",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000110465926054479/tm2613397d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-12",
+   "reportDate": "2026-03-12",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000110465926027067/tm268658d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-11",
+   "reportDate": "2026-03-05",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000110465926026460/tm266812d2_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 32.53,
+  "saleNy": 5.29,
+  "epsCy": 11.69,
+  "epsNy": 17.15,
+  "cyTrend": -0.35,
+  "nyTrend": 0.36,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    68.63,
+    63.14,
+    41.69
+   ],
+   "ni": [
+    -94.63,
+    -688.71,
+    -61.65
+   ],
+   "opm": [
+    10.15,
+    -0.53,
+    11.07
+   ],
+   "updated": "2026-09-08 08:48:14"
+  }
+ }
+}

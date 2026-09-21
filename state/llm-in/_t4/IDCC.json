@@ -1,0 +1,152 @@
+{
+ "ticker": "IDCC",
+ "news": [
+  {
+   "title": "Wall Street Analysts See a 26.24% Upside in InterDigital (IDCC): Can the Stock Really Move This High?",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-2624-upside-interdigital-idcc-can-stock-really-move-high",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is IDCC Stock a Buy After Strong Earnings and Higher Revenue Guidance?",
+   "url": "https://www.nasdaq.com/articles/idcc-stock-buy-after-strong-earnings-and-higher-revenue-guidance",
+   "date": "2026-07-31",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1405495/000140549526000065/idcc-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-15",
+   "reportDate": "2026-06-10",
+   "items": [
+    "5.03",
+    "5.07"
+   ],
+   "itemsKo": [
+    "5.03",
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1405495/000140549526000055/idcc-20260610.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1405495/000140549526000034/idcc-20260430.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "reportDate": "2026-02-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1405495/000140549526000010/idcc-20260205.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-07",
+   "reportDate": "2026-01-07",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1405495/000162828026001101/idcc-20260107.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-10-30",
+   "reportDate": "2025-10-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1405495/000140549525000062/idcc-20251030.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -4.51,
+  "saleNy": -5.28,
+  "epsCy": -24.53,
+  "epsNy": 0.28,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -13.45,
+    -2.42,
+    -37.41
+   ],
+   "ni": [
+    -35.55,
+    -34.84,
+    -67.72
+   ],
+   "opm": [
+    53.52,
+    40.05,
+    30.2
+   ],
+   "updated": "2026-09-07 06:23:43"
+  }
+ }
+}

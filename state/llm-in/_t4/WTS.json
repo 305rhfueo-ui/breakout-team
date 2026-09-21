@@ -1,0 +1,174 @@
+{
+ "ticker": "WTS",
+ "news": [
+  {
+   "title": "Why Is Watts Water (WTS) Down 5.7% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-watts-water-wts-down-57-last-earnings-report",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Watts Water Technologies (WTS) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/watts-water-technologies-wts-q2-2026-earnings-call-transcript",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Watts Water (WTS) Is Up 13.43% in One Week: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/watts-water-wts-1343-one-week-what-you-should-know",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Unlocking Watts Water (WTS) International Revenues: Trends, Surprises, and Prospects",
+   "url": "https://www.nasdaq.com/articles/unlocking-watts-water-wts-international-revenues-trends-surprises-and-prospects",
+   "date": "2026-08-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is WTS Worth Buying as Fast Growth Collides With Premium Valuation?",
+   "url": "https://www.nasdaq.com/articles/wts-worth-buying-fast-growth-collides-premium-valuation",
+   "date": "2026-08-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Watts Water (WTS) Tops Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/watts-water-wts-tops-q2-earnings-and-revenue-estimates",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Watts Water (WTS) Reports Q2 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/watts-water-wts-reports-q2-earnings-what-key-metrics-have-say",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/795403/000110465926091165/wts-20260805x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-20",
+   "reportDate": "2026-05-19",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/795403/000110465926064461/wts-20260519x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/795403/000110465926056325/wts-20260506x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-11",
+   "reportDate": "2026-02-11",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/795403/000110465926013437/wts-20260211x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-17",
+   "reportDate": "2025-11-14",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/795403/000110465925112999/wts-20251114x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-10",
+   "reportDate": "2025-11-09",
+   "items": [
+    "1.01",
+    "5.02"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/795403/000110465925109203/wts-20251109x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 16.01,
+  "saleNy": 5.81,
+  "epsCy": 21.53,
+  "epsNy": 9.17,
+  "cyTrend": 6.43,
+  "nyTrend": 6.39,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    18.56,
+    21.38,
+    15.67
+   ],
+   "ni": [
+    17.24,
+    34.59,
+    24
+   ],
+   "opm": [
+    20.18,
+    19.64,
+    18.19
+   ],
+   "updated": "2026-09-08 08:40:13"
+  }
+ }
+}

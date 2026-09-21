@@ -1,0 +1,148 @@
+{
+ "ticker": "ANET",
+ "news": [
+  {
+   "title": "Bull of the Day: Arista Networks, Inc. (ANET)",
+   "url": "https://www.nasdaq.com/articles/bull-day-arista-networks-inc-anet",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why the Market Dipped But Arista Networks (ANET) Gained Today",
+   "url": "https://www.nasdaq.com/articles/why-market-dipped-arista-networks-anet-gained-today",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000174/anet-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-02",
+   "reportDate": "2026-05-29",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000118/anet-20260529.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000074/anet-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "reportDate": "2026-02-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000010/anet-20260212.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-04",
+   "reportDate": "2025-11-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000284/anet-20251104.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-09-08",
+   "reportDate": "2025-09-05",
+   "items": [
+    "5.02",
+    "5.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "5.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000258/anet-20250905.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 40.64,
+  "saleNy": 27.56,
+  "epsCy": 38.01,
+  "epsNy": 25.47,
+  "cyTrend": -0.01,
+  "nyTrend": 0.01,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    37.69,
+    35.13,
+    28.87
+   ],
+   "ni": [
+    36.46,
+    25.69,
+    19.33
+   ],
+   "opm": [
+    45.39,
+    42.74,
+    41.52
+   ],
+   "updated": "2026-09-08 08:12:22"
+  }
+ }
+}

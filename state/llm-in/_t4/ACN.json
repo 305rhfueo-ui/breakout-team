@@ -1,0 +1,170 @@
+{
+ "ticker": "ACN",
+ "news": [
+  {
+   "title": "Accenture (ACN) Stock Sinks As Market Gains: Here's Why",
+   "url": "https://www.nasdaq.com/articles/accenture-acn-stock-sinks-market-gains-heres-why",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Accenture (ACN) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-accenture-acn-strong-growth-stock",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Trending Stock Accenture PLC (ACN) a Buy Now?",
+   "url": "https://www.nasdaq.com/articles/trending-stock-accenture-plc-acn-buy-now",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Accenture (ACN) Fell More Than Broader Market",
+   "url": "https://www.nasdaq.com/articles/heres-why-accenture-acn-fell-more-broader-market",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Accenture (ACN) Dips More Than Broader Market: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/accenture-acn-dips-more-broader-market-what-you-should-know-0",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-10",
+   "reportDate": "2026-07-10",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1467373/000119312526300813/d181172d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-23",
+   "reportDate": "2026-06-23",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000035/acn-20260623.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-18",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000031/acn-20260618.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-24",
+   "reportDate": "2026-04-22",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000019/acn-20260422.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-19",
+   "reportDate": "2026-03-19",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000013/acn-20260319.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-28",
+   "reportDate": "2026-01-28",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000005/acn-20260128.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.59,
+  "saleNy": 4.09,
+  "epsCy": 7.23,
+  "epsNy": 5.85,
+  "cyTrend": -0.05,
+  "nyTrend": 0.04,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.59,
+    8.31,
+    5.95
+   ],
+   "ni": [
+    6.44,
+    2.08,
+    -2.95
+   ],
+   "opm": [
+    16.96,
+    13.82,
+    15.33
+   ],
+   "updated": "2026-09-08 07:11:42"
+  }
+ }
+}

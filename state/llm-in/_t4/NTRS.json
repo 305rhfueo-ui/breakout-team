@@ -1,0 +1,162 @@
+{
+ "ticker": "NTRS",
+ "news": [
+  {
+   "title": "NTRS Deepens APAC Asset Servicing Reach With Perpetual Tie-Up",
+   "url": "https://www.nasdaq.com/articles/ntrs-deepens-apac-asset-servicing-reach-perpetual-tie",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "USB or NTRS: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/usb-or-ntrs-which-better-value-stock-right-now-1",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Finance Stocks Lagging  Northern Trust (NTRS) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-finance-stocks-lagging-northern-trust-ntrs-year",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Northern Trust Corporation (NTRS) Is Up 0.93% in One Week: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/northern-trust-corporation-ntrs-093-one-week-what-you-should-know",
+   "date": "2026-08-03",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-08-03",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000051/ntrs-20260803.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000043/ntrs-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-21",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000031/ntrs-20260421.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-21",
+   "reportDate": "2026-04-21",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000029/ntrs-20260421.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-21",
+   "reportDate": "2026-04-21",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000028/ntrs-20260421.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-10",
+   "reportDate": "2026-02-10",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000007/ntrs-20260210.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 13.72,
+  "saleNy": 2.35,
+  "epsCy": 45.97,
+  "epsNy": -1.59,
+  "cyTrend": 0.15,
+  "nyTrend": 0.07,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    16.99,
+    7.77,
+    -1.84
+   ],
+   "ni": [
+    89.49,
+    35.63,
+    2.14
+   ],
+   "opm": [
+    25.28,
+    18.51,
+    17.57
+   ],
+   "updated": "2026-09-08 07:12:24"
+  }
+ }
+}

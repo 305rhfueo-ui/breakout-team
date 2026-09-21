@@ -1,0 +1,172 @@
+{
+ "ticker": "WMK",
+ "news": [
+  {
+   "title": "WMK Crosses Below Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/wmk-crosses-below-key-moving-average-level",
+   "date": "2026-08-14",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "WMK Makes Notable Cross Below Critical Moving Average",
+   "url": "https://www.nasdaq.com/articles/wmk-makes-notable-cross-below-critical-moving-average",
+   "date": "2026-04-24",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Weis Markets (WMK) Shares Cross Above 200 DMA",
+   "url": "https://www.nasdaq.com/articles/weis-markets-wmk-shares-cross-above-200-dma",
+   "date": "2026-04-02",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Weis Markets is Now Oversold (WMK)",
+   "url": "https://www.nasdaq.com/articles/weis-markets-now-oversold-wmk",
+   "date": "2026-03-09",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "WMK Crosses Above Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/wmk-crosses-above-key-moving-average-level",
+   "date": "2026-02-02",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Weis Markets (WMK) Passes Through 2% Yield Mark",
+   "url": "https://www.nasdaq.com/articles/weis-markets-wmk-passes-through-2-yield-mark",
+   "date": "2026-01-16",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Weis Markets (WMK) Passes Through 2% Yield Mark",
+   "url": "https://www.nasdaq.com/articles/weis-markets-wmk-passes-through-2-yield-mark",
+   "date": "2025-10-09",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/105418/000010541826000048/wmk-20260804x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/105418/000010541826000037/wmk-20260506x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/105418/000010541826000032/wmk-20260430x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-13",
+   "reportDate": "2026-03-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/105418/000010541826000028/wmk-20260312x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-25",
+   "reportDate": "2026-02-25",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/105418/000010541826000015/wmk-20260225x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-20",
+   "reportDate": "2026-02-19",
+   "items": [
+    "4.02"
+   ],
+   "itemsKo": [
+    "4.02"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/105418/000010541826000009/wmk-20260219x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    4.64,
+    4.59,
+    5.04
+   ],
+   "ni": [
+    -9.58,
+    42.48,
+    -0.42
+   ],
+   "opm": [
+    2.28,
+    2.84,
+    3.03
+   ],
+   "updated": "2026-09-08 08:51:32"
+  }
+ }
+}

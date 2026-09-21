@@ -1,0 +1,172 @@
+{
+ "ticker": "EFSC",
+ "news": [
+  {
+   "title": "Enterprise Financial Services (EFSC) Q2 Earnings and Revenues Miss Estimates",
+   "url": "https://www.nasdaq.com/articles/enterprise-financial-services-efsc-q2-earnings-and-revenues-miss-estimates",
+   "date": "2026-07-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Compared to Estimates, Enterprise Financial Services (EFSC) Q2 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-enterprise-financial-services-efsc-q2-earnings-look-key-metrics",
+   "date": "2026-07-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Analysts Estimate Enterprise Financial Services (EFSC) to Report a Decline in Earnings: What to Look Out for",
+   "url": "https://www.nasdaq.com/articles/analysts-estimate-enterprise-financial-services-efsc-report-decline-earnings-what-look-out",
+   "date": "2026-07-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Enterprise Financial Services (EFSC) is a Great Dividend Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/why-enterprise-financial-services-efsc-great-dividend-stock-right-now",
+   "date": "2026-06-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Enterprise Financial Services (EFSC) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/enterprise-financial-services-efsc-could-be-great-choice",
+   "date": "2026-06-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Enterprise Financial Services (EFSC) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/enterprise-financial-services-efsc-could-be-great-choice-2",
+   "date": "2026-05-25",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-20",
+   "reportDate": "2026-08-20",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1025835/000102583526000182/efsc-20260820.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-27",
+   "reportDate": "2026-07-27",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1025835/000102583526000143/efsc-20260727.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-20",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1025835/000102583526000141/efsc-20260720.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-17",
+   "reportDate": "2026-06-12",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1025835/000110465926075113/tm2618148d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-09",
+   "reportDate": "2026-06-09",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1025835/000102583526000119/efsc-20260609.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-15",
+   "reportDate": "2026-05-13",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1025835/000102583526000116/efsc-20260513.htm",
+   "description": "8-K ANNUAL MEETING VOTING RESULTS"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.45,
+  "saleNy": 4.25,
+  "epsCy": 1.37,
+  "epsNy": 11.18,
+  "cyTrend": -4.52,
+  "nyTrend": -0.34,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    1.34,
+    6.04,
+    9.18
+   ],
+   "ni": [
+    -20.73,
+    -1.22,
+    12.44
+   ],
+   "opm": [
+    21.52,
+    25.74,
+    27.09
+   ],
+   "updated": "2026-09-09 06:43:45"
+  }
+ }
+}

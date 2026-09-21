@@ -1,0 +1,194 @@
+{
+ "ticker": "MMSI",
+ "news": [
+  {
+   "title": "Should You Buy MMSI as Growth Improves but Valuation Stays Elevated?",
+   "url": "https://www.nasdaq.com/articles/should-you-buy-mmsi-growth-improves-valuation-stays-elevated",
+   "date": "2026-08-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Can MMSI Sustain Its 22.2% Gain in the Past Month as Growth Improves?",
+   "url": "https://www.nasdaq.com/articles/can-mmsi-sustain-its-222-gain-past-month-growth-improves",
+   "date": "2026-08-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "COO vs. MMSI: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/coo-vs-mmsi-which-stock-better-value-option",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Merit Medical (MMSI) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-merit-medical-mmsi-strong-momentum-stock",
+   "date": "2026-08-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Merit Medical (MMSI) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/merit-medical-mmsi-q2-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "COO vs. MMSI: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/coo-vs-mmsi-which-stock-should-value-investors-buy-now",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Merit Medical (MMSI) Surpasses Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/merit-medical-mmsi-surpasses-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Merit Medical (MMSI) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/merit-medical-mmsi-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-20",
+   "reportDate": "2026-08-14",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/856982/000085698226000047/mmsi-20260814x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/856982/000085698226000042/mmsi-20260730x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-19",
+   "reportDate": "2026-05-13",
+   "items": [
+    "5.02",
+    "5.03",
+    "5.07",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "5.03",
+    "주주총회 표결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/856982/000085698226000030/mmsi-20260513x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/856982/000085698226000023/mmsi-20260430x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-13",
+   "reportDate": "2026-04-13",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/856982/000085698226000020/mmsi-20260413x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-01",
+   "reportDate": "2026-04-01",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/856982/000085698226000018/mmsi-20260401x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.95,
+  "saleNy": 6.07,
+  "epsCy": 12.33,
+  "epsNy": 7.19,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    9.51,
+    7.46,
+    10.92
+   ],
+   "ni": [
+    19.1,
+    35.98,
+    35.99
+   ],
+   "opm": [
+    14.42,
+    11.56,
+    13.76
+   ],
+   "updated": "2026-09-08 07:54:37"
+  }
+ }
+}

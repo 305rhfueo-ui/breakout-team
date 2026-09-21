@@ -1,0 +1,190 @@
+{
+ "ticker": "CORT",
+ "news": [
+  {
+   "title": "Will Korlym Continue to Aid CORT's Growth Through the Rest of 2026?",
+   "url": "https://www.nasdaq.com/articles/will-korlym-continue-aid-corts-growth-through-rest-2026",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is Corcept (CORT) Down 1.2% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-corcept-cort-down-12-last-earnings-report",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Corcept Therapeutics (CORT) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-corcept-therapeutics-cort-top-momentum-stock-long-term",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Corcept Therapeutics (CORT) Q2 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/corcept-therapeutics-cort-q2-earnings-and-revenues-surpass-estimates",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort-20260729.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-17",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526274258/d159941d8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526254622/d103585d8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026038793/cort-20260521.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026028892/cort-20260430.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-25",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526123543/d123475d8k.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001088856&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 256147000,
+    "profit": 41300000,
+    "netIncome": 42987000,
+    "margin": 16.1,
+    "yoy": {
+     "revenue": 31.7,
+     "profit": 54.8,
+     "netIncome": 22.3,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 164903000,
+    "profit": -49601000,
+    "netIncome": -31761000,
+    "margin": -30.1,
+    "yoy": {
+     "revenue": 4.9,
+     "profit": -1552,
+     "netIncome": -254.6,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 202125000,
+    "profit": 4487000,
+    "netIncome": 24288000,
+    "margin": 2.2,
+    "yoy": {
+     "revenue": 11.1,
+     "profit": -82.2,
+     "netIncome": -21,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": false,
+    "revenue": 207638000,
+    "profit": 10219000,
+    "netIncome": 19668000,
+    "margin": 4.9,
+    "yoy": {
+     "revenue": 13.7,
+     "profit": -78.1,
+     "netIncome": -58.3,
+     "priorEnd": "2024-09-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": true,
+  "saleCy": 50.53,
+  "saleNy": 48.75,
+  "epsCy": 162.2,
+  "epsNy": 104.77,
+  "cyTrend": 286.23,
+  "nyTrend": 37.29,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    31.74,
+    4.89,
+    11.12
+   ],
+   "ni": [
+    21.76,
+    -253.8,
+    -21.36
+   ],
+   "opm": [
+    16.12,
+    -30.08,
+    2.22
+   ],
+   "updated": "2026-09-16 05:50:49"
+  }
+ }
+}

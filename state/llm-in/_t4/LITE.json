@@ -1,0 +1,144 @@
+{
+ "ticker": "LITE",
+ "news": [
+  {
+   "title": "Here's Why Lumentum (LITE) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-lumentum-lite-strong-momentum-stock",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Lumentum (LITE) is a Top Growth Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-lumentum-lite-top-growth-stock-long-term",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-11",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite-20260811.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-27",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026051078/lite-20260727.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-05-29",
+   "items": [
+    "3.02"
+   ],
+   "itemsKo": [
+    "3.02"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526249535/d112771d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026030530/lite-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-08",
+   "reportDate": "2026-04-07",
+   "items": [
+    "3.02"
+   ],
+   "itemsKo": [
+    "3.02"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526146256/d13152d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-02",
+   "reportDate": "2026-03-02",
+   "items": [
+    "3.02",
+    "5.03",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "3.02",
+    "5.03",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526085412/d41019d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 109.58,
+  "saleNy": 52.19,
+  "epsCy": 149.95,
+  "epsNy": 83.22,
+  "cyTrend": 0.22,
+  "nyTrend": 20.27,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    109.34,
+    90.12,
+    65.46
+   ],
+   "ni": [
+    -3456.77,
+    "흑자전환",
+    "흑자전환"
+   ],
+   "opm": [
+    27.76,
+    21.59,
+    9.66
+   ],
+   "updated": "2026-09-08 10:19:47"
+  }
+ }
+}

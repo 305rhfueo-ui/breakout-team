@@ -1,0 +1,174 @@
+{
+ "ticker": "KFY",
+ "news": [
+  {
+   "title": "Are Investors Undervaluing KornFerry International (KFY) Right Now?",
+   "url": "https://www.nasdaq.com/articles/are-investors-undervaluing-kornferry-international-kfy-right-now-0",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Korn Ferry (KFY) Q1 2027 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/korn-ferry-kfy-q1-2027-earnings-call-transcript",
+   "date": "2026-09-10",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Korn/Ferry (KFY) Q1 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/korn-ferry-kfy-q1-earnings-and-revenues-top-estimates",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Korn/Ferry (KFY) is a Great Dividend Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/why-korn-ferry-kfy-great-dividend-stock-right-now",
+   "date": "2026-08-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Korn/Ferry International (KFY) Hit a 52 Week High, Can the Run Continue?",
+   "url": "https://www.nasdaq.com/articles/korn-ferry-international-kfy-hit-52-week-high-can-run-continue",
+   "date": "2026-08-20",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-15",
+   "reportDate": "2026-09-15",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/56679/000005667926000035/kfy-20260915.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-09",
+   "reportDate": "2026-09-09",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/56679/000005667926000033/kfy-20260909_d2.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-09",
+   "reportDate": "2026-09-09",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/56679/000005667926000029/kfy-20260909.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-08",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/56679/000005667926000023/kfy-20260908.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-01",
+   "reportDate": "2026-09-01",
+   "items": [
+    "2.01",
+    "3.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.01",
+    "3.02",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/56679/000119312526378508/d122525d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-19",
+   "reportDate": "2026-08-18",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/56679/000119312526357084/d417124d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 20.62,
+  "saleNy": 11.32,
+  "epsCy": 8.81,
+  "epsNy": 12.03,
+  "cyTrend": -0.6,
+  "nyTrend": 1.83,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.73,
+    7.17,
+    7.02
+   ],
+   "ni": [
+    13.75,
+    11.79,
+    19.14
+   ],
+   "opm": [
+    13.21,
+    12.55,
+    13.53
+   ],
+   "updated": "2026-09-09 07:20:08"
+  }
+ }
+}

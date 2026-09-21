@@ -1,0 +1,176 @@
+{
+ "ticker": "CWST",
+ "news": [
+  {
+   "title": "Casella Waste Systems (CWST) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/casella-waste-systems-cwst-q2-2026-earnings-call-transcript",
+   "date": "2026-08-14",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Casella (CWST) Surpasses Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/casella-cwst-surpasses-q2-earnings-and-revenue-estimates",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Earnings Preview: Casella (CWST) Q2 Earnings Expected to Decline",
+   "url": "https://www.nasdaq.com/articles/earnings-preview-casella-cwst-q2-earnings-expected-decline",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Will Casella (CWST) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/will-casella-cwst-beat-estimates-again-its-next-earnings-report",
+   "date": "2026-07-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Barclays Upgrades Casella Waste Systems (CWST)",
+   "url": "https://www.nasdaq.com/articles/barclays-upgrades-casella-waste-systems-cwst",
+   "date": "2026-05-05",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Casella (CWST) Q1 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/casella-cwst-q1-2026-earnings-call-transcript",
+   "date": "2026-05-01",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Casella (CWST) Tops Q1 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/casella-cwst-tops-q1-earnings-estimates",
+   "date": "2026-04-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Casella (CWST) Expected to Beat Earnings Estimates: What to Know Ahead of Q1 Release",
+   "url": "https://www.nasdaq.com/articles/casella-cwst-expected-beat-earnings-estimates-what-know-ahead-q1-release",
+   "date": "2026-04-23",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/911177/000091117726000041/cwst-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-01",
+   "reportDate": "2026-06-26",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/911177/000091117726000035/cwst-20260626.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-08",
+   "reportDate": "2026-06-04",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/911177/000091117726000033/cwst-20260604.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-06-01",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/911177/000091117726000030/cwst-20260601.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-27",
+   "reportDate": "2026-05-27",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/911177/000091117726000028/cwst-20260527.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-11",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/911177/000091117726000024/cwst-20260511.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 14.4,
+  "saleNy": 7.15,
+  "epsCy": -0.97,
+  "epsNy": 16.66,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    16.85,
+    9.64,
+    9.72
+   ],
+   "ni": [
+    -27.61,
+    "적자확대",
+    -151.5
+   ],
+   "opm": [
+    3.67,
+    1.06,
+    2.53
+   ],
+   "updated": "2026-09-08 08:16:43"
+  }
+ }
+}

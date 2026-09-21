@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-21",
+  "report": {
+    "checked": 179,
+    "ok": 191,
+    "unverified": 24,
+    "dead": 2,
+    "stripped": 3,
+    "removed": [
+      {
+        "reason": "중복",
+        "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxcmel.pdf"
+      },
+      {
+        "reason": "링크 죽음(HTTP 404)",
+        "url": "https://www.sahmcapital.com/news/content/ambiq-micro-inc-nyseambq-just-reported-second-quarter-earnings-and-analysts-are-lifting-their-estimates-2026-08-14"
+      },
+      {
+        "reason": "링크 죽음(HTTP 404)",
+        "url": "https://www.sahmcapital.com/news/content/ambiq-micro-inc-nyseambq-just-reported-second-quarter-earnings-and-analysts-are-lifting-their-estimates-2026-08-14"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.timothysykes.com/news/illumina-inc-ilmn-news-2026_09_15/"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.tradingkey.com/news/market-movers/262173925-market-movers-ilmn-20260917"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.tradingkey.com/news/market-movers/262173925-market-movers-ilmn-20260917"
+      },
+      {
+        "reason": "인용문 없음",
+        "url": "https://www.sec.gov/Archives/edgar/data/11544/000001154426000033/wrb-20260720.htm"
+      },
+      {
+        "reason": "인용문 없음",
+        "url": "https://www.sec.gov/Archives/edgar/data/1005731/000143774926028388/idt20260814_8k.htm"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.wallstreetzen.com/industries/best-electronics-computer-distribution-stocks"
+      },
+      {
+        "reason": "중복",
+        "url": "https://www.wallstreetzen.com/industries/best-electronics-computer-distribution-stocks"
+      }
+    ],
+    "noQuote": 2
+  }
+}

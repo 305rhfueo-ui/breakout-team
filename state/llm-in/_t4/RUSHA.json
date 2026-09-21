@@ -1,0 +1,174 @@
+{
+ "ticker": "RUSHA",
+ "news": [
+  {
+   "title": "Wolfe Research Initiates Coverage of Rush Enterprises (RUSHA) with Outperform Recommendation",
+   "url": "https://www.nasdaq.com/articles/wolfe-research-initiates-coverage-rush-enterprises-rusha-outperform-recommendation",
+   "date": "2026-04-28",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Rush Enterprises (RUSHA) Price Target Increased by 21.03% to 80.24",
+   "url": "https://www.nasdaq.com/articles/rush-enterprises-rusha-price-target-increased-2103-8024",
+   "date": "2026-02-25",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Rush Enterprises (RUSHA) Price Target Increased by 13.04% to 66.30",
+   "url": "https://www.nasdaq.com/articles/rush-enterprises-rusha-price-target-increased-1304-6630",
+   "date": "2026-02-04",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "UBS Initiates Coverage of Rush Enterprises (RUSHA) with Neutral Recommendation",
+   "url": "https://www.nasdaq.com/articles/ubs-initiates-coverage-rush-enterprises-rusha-neutral-recommendation",
+   "date": "2026-01-29",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Rush Enterprises (RUSHA) Shares Cross Above 200 DMA",
+   "url": "https://www.nasdaq.com/articles/rush-enterprises-rusha-shares-cross-above-200-dma",
+   "date": "2025-12-02",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Notable Two Hundred Day Moving Average Cross - RUSHA",
+   "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-rusha",
+   "date": "2025-09-29",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-04",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1012019/000143774926025981/rusha20260805_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1012019/000143774926024701/rusha20260728_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1012019/000143774926024340/rusha20260723_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-30",
+   "reportDate": "2026-06-29",
+   "items": [
+    "5.02",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1012019/000143774926022156/rusha20260630_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-22",
+   "reportDate": "2026-06-15",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1012019/000143774926021338/rusha20260618_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-19",
+   "reportDate": "2026-05-19",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1012019/000143774926017816/rusha20260519_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.13,
+  "saleNy": 10.57,
+  "epsCy": 13.11,
+  "epsNy": 24.04,
+  "cyTrend": -0.93,
+  "nyTrend": -0.06,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -1.61,
+    -9,
+    -11.83
+   ],
+   "ni": [
+    0.45,
+    1.88,
+    -13.94
+   ],
+   "opm": [
+    5.12,
+    4.88,
+    5.17
+   ],
+   "updated": "2026-09-06 06:00:33"
+  }
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "ticker": "WHD",
+ "news": [
+  {
+   "title": "Cactus (WHD) Up 10.5% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/cactus-whd-105-last-earnings-report-can-it-continue",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Cactus, Inc. (WHD) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-cactus-inc-whd-top-momentum-stock-long-term-0",
+   "date": "2026-08-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cactus, Inc. (WHD) Is Up 7.92% in One Week: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/cactus-inc-whd-792-one-week-what-you-should-know",
+   "date": "2026-08-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cactus, Inc. (WHD) Hits Fresh High: Is There Still Room to Run?",
+   "url": "https://www.nasdaq.com/articles/cactus-inc-whd-hits-fresh-high-there-still-room-run",
+   "date": "2026-08-20",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-08",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1699136/000162828026060938/whd-20260908.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1699136/000162828026050657/whd-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-02",
+   "reportDate": "2026-05-29",
+   "items": [
+    "1.01",
+    "2.03",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1699136/000162828026039880/whd-20260529.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-12",
+   "reportDate": "2026-05-12",
+   "items": [
+    "5.02",
+    "5.07",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1699136/000162828026034225/whd-20260512.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1699136/000162828026031637/whd-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-27",
+   "reportDate": "2026-03-24",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1699136/000162828026021756/whd-20260324.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 58.48,
+  "saleNy": 4.07,
+  "epsCy": 10.03,
+  "epsNy": 22.42,
+  "cyTrend": 0.97,
+  "nyTrend": 0.57,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    64.32,
+    38.54,
+    -4.01
+   ],
+   "ni": [
+    21.49,
+    -209.9,
+    -14.67
+   ],
+   "opm": [
+    18.59,
+    12.75,
+    22.91
+   ],
+   "updated": "2026-09-09 07:14:57"
+  }
+ }
+}

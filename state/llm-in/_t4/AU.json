@@ -1,0 +1,49 @@
+{
+ "ticker": "AU",
+ "news": [
+  {
+   "title": "AngloGold Ashanti (AU) Surpasses Market Returns: Some Facts Worth Knowing",
+   "url": "https://www.nasdaq.com/articles/anglogold-ashanti-au-surpasses-market-returns-some-facts-worth-knowing",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is AngloGold Ashanti (AU) a Buy as Wall Street Analysts Look Optimistic?",
+   "url": "https://www.nasdaq.com/articles/anglogold-ashanti-au-buy-wall-street-analysts-look-optimistic",
+   "date": "2026-09-07",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 27.31,
+  "saleNy": 8.42,
+  "epsCy": 61.98,
+  "epsNy": 16.88,
+  "cyTrend": 0.86,
+  "nyTrend": 2.13,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    26.95,
+    64.85,
+    null
+   ],
+   "ni": [
+    49.78,
+    189.16,
+    null
+   ],
+   "opm": [
+    50.77,
+    55.93,
+    null
+   ],
+   "updated": "2026-09-08 06:25:53"
+  }
+ }
+}

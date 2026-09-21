@@ -1,0 +1,184 @@
+{
+ "ticker": "CVLT",
+ "news": [
+  {
+   "title": "Is It Worth Investing in Commvault (CVLT) Based on Wall Street's Bullish Views?",
+   "url": "https://www.nasdaq.com/articles/it-worth-investing-commvault-cvlt-based-wall-streets-bullish-views",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Commvault Systems (CVLT) Rises As Market Takes a Dip: Key Facts",
+   "url": "https://www.nasdaq.com/articles/commvault-systems-cvlt-rises-market-takes-dip-key-facts",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Commvault Systems (CVLT) Declines More Than Market: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/commvault-systems-cvlt-declines-more-market-some-information-investors",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Commvault Systems (CVLT) Beats Stock Market Upswing: What Investors Need to Know",
+   "url": "https://www.nasdaq.com/articles/commvault-systems-cvlt-beats-stock-market-upswing-what-investors-need-know",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Commvault (CVLT) a Buy as Wall Street Analysts Look Optimistic?",
+   "url": "https://www.nasdaq.com/articles/commvault-cvlt-buy-wall-street-analysts-look-optimistic",
+   "date": "2026-08-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is Commvault (CVLT) Up 11.6% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-commvault-cvlt-116-last-earnings-report",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "3 Reasons Why Growth Investors Shouldn't Overlook Commvault (CVLT)",
+   "url": "https://www.nasdaq.com/articles/3-reasons-why-growth-investors-shouldnt-overlook-commvault-cvlt",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "All You Need to Know About Commvault (CVLT) Rating Upgrade to Buy",
+   "url": "https://www.nasdaq.com/articles/all-you-need-know-about-commvault-cvlt-rating-upgrade-buy",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1169561/000116956126000027/cvlt-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1169561/000116956126000020/cvlt-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1169561/000116956126000013/cvlt-20260428.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-13",
+   "reportDate": "2026-04-08",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1169561/000116956126000008/cvlt-20260408.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-27",
+   "reportDate": "2026-01-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1169561/000116956126000003/cvlt-20260127.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-04",
+   "reportDate": "2025-11-30",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1169561/000116956125000094/cvlt-20251130.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 10.32,
+  "saleNy": 11.32,
+  "epsCy": 25.42,
+  "epsNy": 13.65,
+  "cyTrend": 0.04,
+  "nyTrend": 0.77,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    11.4,
+    13.33,
+    19.5
+   ],
+   "ni": [
+    -10.03,
+    -52.73,
+    61.35
+   ],
+   "opm": [
+    8.19,
+    5.34,
+    6.3
+   ],
+   "updated": "2026-09-08 10:48:39"
+  }
+ }
+}

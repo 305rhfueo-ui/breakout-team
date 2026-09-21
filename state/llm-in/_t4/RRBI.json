@@ -1,0 +1,178 @@
+{
+ "ticker": "RRBI",
+ "news": [
+  {
+   "title": "Red River Bancshares (RRBI) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/red-river-bancshares-rrbi-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Red River Bancshares (RRBI) Q2 Earnings Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/red-river-bancshares-rrbi-q2-earnings-beat-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Red River Bancshares (RRBI) to Report Q2 Results: Wall Street Expects Earnings Growth",
+   "url": "https://www.nasdaq.com/articles/red-river-bancshares-rrbi-report-q2-results-wall-street-expects-earnings-growth",
+   "date": "2026-07-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Red River Bancshares (RRBI) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/red-river-bancshares-rrbi-q1-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-04-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Red River Bancshares (RRBI) Q1 Earnings Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/red-river-bancshares-rrbi-q1-earnings-surpass-estimates",
+   "date": "2026-04-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wednesday 2/4 Insider Buying Report: KMI, RRBI",
+   "url": "https://www.nasdaq.com/articles/wednesday-2-4-insider-buying-report-kmi-rrbi",
+   "date": "2026-02-04",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Red River Bancshares (RRBI) Price Target Increased by 14.49% to 95.37",
+   "url": "https://www.nasdaq.com/articles/red-river-bancshares-rrbi-price-target-increased-1449-9537",
+   "date": "2026-02-04",
+   "publisher": "Fintel"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-03",
+   "reportDate": "2026-09-03",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1071236/000107123626000062/rrbi-20260903.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-27",
+   "reportDate": "2026-08-27",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1071236/000107123626000059/rrbi-20260827.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1071236/000107123626000053/rrbi-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-28",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1071236/000107123626000050/rrbi-20260528.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-28",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1071236/000107123626000048/rrbi-20260528.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-14",
+   "reportDate": "2026-05-14",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1071236/000107123626000045/rrbi-20260514.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.29,
+  "saleNy": 5.48,
+  "epsCy": 14.37,
+  "epsNy": 5.39,
+  "cyTrend": 0.18,
+  "nyTrend": 0.96,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.3,
+    6.32,
+    8.67
+   ],
+   "ni": [
+    15.37,
+    15.64,
+    22.66
+   ],
+   "opm": [
+    33.29,
+    34.2,
+    32.14
+   ],
+   "updated": "2026-09-07 06:50:45"
+  }
+ }
+}

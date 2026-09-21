@@ -1,0 +1,182 @@
+{
+ "ticker": "CF",
+ "news": [
+  {
+   "title": "Keybanc Initiates Coverage of CF Industries Holdings at Underweight",
+   "url": "https://www.nasdaq.com/articles/keybanc-initiates-coverage-cf-industries-holdings-underweight",
+   "date": "2026-09-11",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Reddit Now #388 Largest Company, Surpassing CF Industries Holdings",
+   "url": "https://www.nasdaq.com/articles/reddit-now-388-largest-company-surpassing-cf-industries-holdings",
+   "date": "2026-09-11",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "CF (CF) Up 18.1% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/cf-cf-181-last-earnings-report-can-it-continue",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CF Industries & Partners Break Ground on Low-Carbon Ammonia Plant",
+   "url": "https://www.nasdaq.com/articles/cf-industries-partners-break-ground-low-carbon-ammonia-plant",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CF Industries (CF) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/cf-industries-cf-q2-2026-earnings-call-transcript",
+   "date": "2026-08-13",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "CF Industries Q2 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/cf-industries-q2-earnings-call-highlights",
+   "date": "2026-08-08",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "CF Q2 Earnings Call Highlights Higher Mid-Cycle Earnings Power",
+   "url": "https://www.nasdaq.com/articles/cf-q2-earnings-call-highlights-higher-mid-cycle-earnings-power",
+   "date": "2026-08-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CF Q2 Earnings Miss Estimates Despite Strong Nitrogen Pricing",
+   "url": "https://www.nasdaq.com/articles/cf-q2-earnings-miss-estimates-despite-strong-nitrogen-pricing",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-03",
+   "reportDate": "2026-08-31",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1324404/000110465926105054/tm2624720d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1324404/000110465926091275/tm2622111d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1324404/000132440426000017/cf-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1324404/000110465926056338/tm2613543d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1324404/000132440426000011/cf-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1324404/000110465926055680/tm2613451d2_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 16.72,
+  "saleNy": -11.76,
+  "epsCy": 67.93,
+  "epsNy": -27.87,
+  "cyTrend": 0,
+  "nyTrend": 1.98,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    17.57,
+    19.42,
+    22.83
+   ],
+   "ni": [
+    88.34,
+    97.12,
+    23.17
+   ],
+   "opm": [
+    50.45,
+    43.45,
+    32.96
+   ],
+   "updated": "2026-09-09 06:54:25"
+  }
+ }
+}

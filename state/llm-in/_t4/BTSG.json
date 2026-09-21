@@ -1,0 +1,162 @@
+{
+ "ticker": "BTSG",
+ "news": [
+  {
+   "title": "BTSG Faces $200M IRA Hit but Efficiency May Protect Profitability",
+   "url": "https://www.nasdaq.com/articles/btsg-faces-200m-ira-hit-efficiency-may-protect-profitability",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "BTSG Gains More Than 54% YTD: Should You Buy, Hold or Sell?",
+   "url": "https://www.nasdaq.com/articles/btsg-gains-more-54-ytd-should-you-buy-hold-or-sell",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "BTSG's Specialty Pharmacy Sales Up 30%: Will the Growth Continue?",
+   "url": "https://www.nasdaq.com/articles/btsgs-specialty-pharmacy-sales-30-will-growth-continue",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Can BTSG Outgrow the $20B Acute Infusion Market on Volume Growth?",
+   "url": "https://www.nasdaq.com/articles/can-btsg-outgrow-20b-acute-infusion-market-volume-growth",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-31",
+   "reportDate": "2026-07-31",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1865782/000119312526326654/btsg-20260731.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-11",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1865782/000119312526269360/btsg-20260611.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-05",
+   "reportDate": "2026-06-03",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1865782/000119312526259531/btsg-20260603.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1865782/000119312526234435/btsg-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-05-01",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1865782/000119312526198983/btsg-20260501.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-31",
+   "reportDate": "2026-03-30",
+   "items": [
+    "2.01",
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.01",
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1865782/000119312526133307/btsg-20260330.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 19,
+  "saleNy": 13.41,
+  "epsCy": 81.94,
+  "epsNy": 25.22,
+  "cyTrend": 7.65,
+  "nyTrend": 6.8,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    23.05,
+    25.56,
+    29.26
+   ],
+   "ni": [
+    198.82,
+    403.58,
+    381.78
+   ],
+   "opm": [
+    3.37,
+    3.36,
+    3.04
+   ],
+   "updated": "2026-09-15 06:53:44"
+  }
+ }
+}

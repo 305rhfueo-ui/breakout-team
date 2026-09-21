@@ -1,0 +1,152 @@
+{
+ "ticker": "CBSH",
+ "news": [
+  {
+   "title": "Will CBSH's Expansion Initiatives Accelerate Top-Line Growth?",
+   "url": "https://www.nasdaq.com/articles/will-cbshs-expansion-initiatives-accelerate-top-line-growth",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Do Options Traders Know Something About CBSH Stock We Don't?",
+   "url": "https://www.nasdaq.com/articles/do-options-traders-know-something-about-cbsh-stock-we-dont",
+   "date": "2026-09-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Commerce Bancshares (CBSH) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-commerce-bancshares-cbsh-strong-value-stock-1",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Commerce (CBSH) Moves to Buy: Rationale Behind the Upgrade",
+   "url": "https://www.nasdaq.com/articles/commerce-cbsh-moves-buy-rationale-behind-upgrade",
+   "date": "2026-07-21",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-16",
+   "reportDate": "2026-07-16",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/22356/000002235626000176/cbsh-20260716.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-06",
+   "reportDate": "2026-07-01",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/22356/000002235626000169/cbsh-20260701.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-12",
+   "reportDate": "2026-05-12",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/22356/000002235626000137/cbsh-20260512.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/22356/000002235626000131/cbsh-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-24",
+   "items": [
+    "5.02",
+    "5.07",
+    "8.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/22356/000002235626000128/cbsh-20260424.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-27",
+   "reportDate": "2026-04-27",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/22356/000002235626000125/cbsh-20260427.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.25,
+  "saleNy": 3.68,
+  "epsCy": 6.55,
+  "epsNy": 6.45,
+  "cyTrend": 0.37,
+  "nyTrend": 0.09,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    12.33,
+    13.24,
+    3.22
+   ],
+   "ni": [
+    4.88,
+    7.65,
+    3.55
+   ],
+   "opm": [
+    34.1,
+    31.72,
+    33.77
+   ],
+   "updated": "2026-09-08 09:22:52"
+  }
+ }
+}

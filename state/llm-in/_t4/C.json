@@ -1,0 +1,154 @@
+{
+ "ticker": "C",
+ "news": [
+  {
+   "title": "Citigroup (C) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/citigroup-c-could-be-great-choice",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "C's Banamex Exit Nears Deconsolidation: Is $9B Charge Concerning?",
+   "url": "https://www.nasdaq.com/articles/cs-banamex-exit-nears-deconsolidation-9b-charge-concerning",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Citigroup (C) Suffers a Larger Drop Than the General Market: Key Insights",
+   "url": "https://www.nasdaq.com/articles/citigroup-c-suffers-larger-drop-general-market-key-insights",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-14",
+   "reportDate": "2026-07-14",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/831001/000110465926083383/c-20260714x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/831001/000110465926065155/c-20260520x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-14",
+   "reportDate": "2026-04-14",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/831001/000110465926042942/c-20260414x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-03",
+   "reportDate": "2026-04-03",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/831001/000110465926039663/c-20260403x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "reportDate": "2026-02-11",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/831001/000110465926014378/c-20260211x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "reportDate": "2026-02-11",
+   "items": [
+    "5.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/831001/000119312526048689/d881338d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.39,
+  "saleNy": 3.93,
+  "epsCy": 48.15,
+  "epsNy": 15.5,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.97,
+    7.65,
+    0.19
+   ],
+   "ni": [
+    47.87,
+    44.6,
+    -2.63
+   ],
+   "opm": [
+    17.72,
+    16.93,
+    9.31
+   ],
+   "updated": "2026-09-08 06:08:20"
+  }
+ }
+}

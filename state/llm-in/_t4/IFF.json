@@ -1,0 +1,174 @@
+{
+ "ticker": "IFF",
+ "news": [
+  {
+   "title": "Cash Dividend On The Way From International Flavors & Fragrances (IFF)",
+   "url": "https://www.nasdaq.com/articles/cash-dividend-way-international-flavors-fragrances-iff",
+   "date": "2026-09-17",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "International Flavors (IFF) Down 1.3% Since Last Earnings Report: Can It Rebound?",
+   "url": "https://www.nasdaq.com/articles/international-flavors-iff-down-13-last-earnings-report-can-it-rebound",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "IFF (IFF) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/iff-iff-q2-2026-earnings-call-transcript",
+   "date": "2026-08-11",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Don't Overlook International Flavors (IFF) International Revenue Trends While Assessing the Stock",
+   "url": "https://www.nasdaq.com/articles/dont-overlook-international-flavors-iff-international-revenue-trends-while-assessing-stock",
+   "date": "2026-08-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "International Flavors (IFF) Misses Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/international-flavors-iff-misses-q2-earnings-and-revenue-estimates",
+   "date": "2026-08-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "International Flavors (IFF) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/international-flavors-iff-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-08-04",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/51253/000005125326000032/iff-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/51253/000005125326000028/iff-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-23",
+   "reportDate": "2026-06-23",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/51253/000114036126026107/ef20076605_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-05-28",
+   "items": [
+    "1.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/51253/000119312526249963/d118591d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/51253/000005125326000015/iff-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-04-29",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/51253/000114036126018910/ef20072401_8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -30.36,
+  "saleNy": 3.35,
+  "epsCy": -22,
+  "epsNy": 20.9,
+  "cyTrend": 1.03,
+  "nyTrend": 0.13,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    1.82,
+    -3.59,
+    23.93
+   ],
+   "ni": [
+    -91.65,
+    "흑자전환",
+    "흑자전환"
+   ],
+   "opm": [
+    8.09,
+    9.96,
+    4.46
+   ],
+   "updated": "2026-09-07 06:27:52"
+  }
+ }
+}

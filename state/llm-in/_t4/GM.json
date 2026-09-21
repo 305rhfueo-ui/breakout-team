@@ -1,0 +1,176 @@
+{
+ "ticker": "GM",
+ "news": [
+  {
+   "title": "Should You Buy Ford Stock Instead of GM Stock?",
+   "url": "https://www.nasdaq.com/articles/should-you-buy-ford-stock-instead-gm-stock",
+   "date": "2026-09-19",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "GM Unveils New Infotainment System With Enhanced Customization And CarPlay Integration",
+   "url": "https://www.nasdaq.com/articles/gm-unveils-new-infotainment-system-enhanced-customization-and-carplay-integration",
+   "date": "2026-09-15",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "General Motors (GM) Registers a Bigger Fall Than the Market: Important Facts to Note",
+   "url": "https://www.nasdaq.com/articles/general-motors-gm-registers-bigger-fall-market-important-facts-note-0",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "GM Launches Next-Gen User Interface On 2027 Silverado And Sierra Light-duty Pickup Trucks",
+   "url": "https://www.nasdaq.com/articles/gm-launches-next-gen-user-interface-2027-silverado-and-sierra-light-duty-pickup-trucks",
+   "date": "2026-09-15",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Is Trending Stock General Motors Company (GM) a Buy Now?",
+   "url": "https://www.nasdaq.com/articles/trending-stock-general-motors-company-gm-buy-now",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why General Motors (GM) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-general-motors-gm-strong-value-stock",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-07",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312526344698/d145571d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-21",
+   "reportDate": "2026-07-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000049/gm-20260721.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-02",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000044/gm-20260602.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-26",
+   "reportDate": "2026-05-26",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312526239340/d110158d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000033/gm-20260428.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-23",
+   "reportDate": "2026-03-23",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312526119684/d114837d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0.39,
+  "saleNy": 2.42,
+  "epsCy": 26.41,
+  "epsNy": 10.76,
+  "cyTrend": 0.09,
+  "nyTrend": 0.92,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    1.92,
+    -0.9,
+    -5.06
+   ],
+   "ni": [
+    -30.99,
+    -22.23,
+    "적자확대"
+   ],
+   "opm": [
+    3.04,
+    6.71,
+    -8.05
+   ],
+   "updated": "2026-09-09 07:02:19"
+  }
+ }
+}

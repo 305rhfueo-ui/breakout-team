@@ -1,0 +1,160 @@
+{
+ "ticker": "CNR",
+ "news": [
+  {
+   "title": "Core Natural Resources (CNR) Is Up 6.13% in One Week: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/core-natural-resources-cnr-613-one-week-what-you-should-know",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are You Looking for a Top Momentum Pick? Why Core Natural Resources (CNR) is a Great Choice",
+   "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-core-natural-resources-cnr-great-choice",
+   "date": "2026-08-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Earnings Estimates Moving Higher for Core Natural Resources (CNR): Time to Buy?",
+   "url": "https://www.nasdaq.com/articles/earnings-estimates-moving-higher-core-natural-resources-cnr-time-buy",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Core Natural Resources (CNR) Q2 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/core-natural-resources-cnr-q2-earnings-and-revenues-beat-estimates",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-19",
+   "reportDate": "2026-08-18",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1710366/000119312526356186/d113945d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1710366/000171036626000053/cnr-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-04",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1710366/000171036626000048/cnr-20260604.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-19",
+   "reportDate": "2026-05-13",
+   "items": [
+    "1.04"
+   ],
+   "itemsKo": [
+    "1.04"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1710366/000171036626000045/cnr-20260513.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1710366/000171036626000040/cnr-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-04-29",
+   "items": [
+    "1.04"
+   ],
+   "itemsKo": [
+    "1.04"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1710366/000171036626000034/cnr-20260429.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.13,
+  "saleNy": 1.86,
+  "epsCy": -270.78,
+  "epsNy": 28.73,
+  "cyTrend": 86.03,
+  "nyTrend": -1.59,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    3.51,
+    6.57,
+    81.75
+   ],
+   "ni": [
+    "흑자전환",
+    "흑자전환",
+    -356.26
+   ],
+   "opm": [
+    13.65,
+    3.02,
+    -9.31
+   ],
+   "updated": "2026-09-09 07:10:16"
+  }
+ }
+}

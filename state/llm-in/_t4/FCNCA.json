@@ -1,0 +1,190 @@
+{
+ "ticker": "FCNCA",
+ "news": [
+  {
+   "title": "Ex-Div Reminder for First Citizens BancShares (FCNCA)",
+   "url": "https://www.nasdaq.com/articles/ex-div-reminder-first-citizens-bancshares-fcnca",
+   "date": "2026-08-28",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "First Citizens (FCNCA) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates",
+   "url": "https://www.nasdaq.com/articles/first-citizens-fcnca-q2-earnings-how-key-metrics-compare-wall-street-estimates",
+   "date": "2026-07-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "First Citizens BancShares (FCNCA) Q2 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/first-citizens-bancshares-fcnca-q2-earnings-and-revenues-top-estimates",
+   "date": "2026-07-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "First Citizens (FCNCA) Q2 Earnings Preview: What You Should Know Beyond the Headline Estimates",
+   "url": "https://www.nasdaq.com/articles/first-citizens-fcnca-q2-earnings-preview-what-you-should-know-beyond-headline-estimates",
+   "date": "2026-07-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why First Citizens (FCNCA) is Poised to Beat Earnings Estimates Again",
+   "url": "https://www.nasdaq.com/articles/why-first-citizens-fcnca-poised-beat-earnings-estimates-again",
+   "date": "2026-07-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "First Citizens BancShares (FCNCA) Expected to Beat Earnings Estimates: What to Know Ahead of Q2 Release",
+   "url": "https://www.nasdaq.com/articles/first-citizens-bancshares-fcnca-expected-beat-earnings-estimates-what-know-ahead-q2",
+   "date": "2026-07-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wednesday 5/13 Insider Buying Report: FOUR, FCNCA",
+   "url": "https://www.nasdaq.com/articles/wednesday-5-13-insider-buying-report-four-fcnca",
+   "date": "2026-05-13",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Compared to Estimates, First Citizens (FCNCA) Q1 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-first-citizens-fcnca-q1-earnings-look-key-metrics",
+   "date": "2026-04-23",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-14",
+   "reportDate": "2026-09-11",
+   "items": [
+    "3.03",
+    "5.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "3.03",
+    "5.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/798941/000119312526390576/d505182d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-08",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/798941/000079894126000034/fcnca-20260908.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/798941/000079894126000027/fcnca-20260723.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-04",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/798941/000079894126000020/fcnca-20260504.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/798941/000079894126000018/fcnca-20260423.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-03",
+   "reportDate": "2026-03-03",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/798941/000119312526088346/d41512d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0.18,
+  "saleNy": 4.84,
+  "epsCy": 8.37,
+  "epsNy": 2.47,
+  "cyTrend": 0.01,
+  "nyTrend": 0.11,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    0.11,
+    -1.47,
+    -1.22
+   ],
+   "ni": [
+    14.08,
+    8.55,
+    -17.37
+   ],
+   "opm": [
+    27.54,
+    23.09,
+    25.14
+   ],
+   "updated": "2026-09-08 09:55:22"
+  }
+ }
+}

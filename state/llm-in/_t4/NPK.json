@@ -1,0 +1,162 @@
+{
+ "ticker": "NPK",
+ "news": [
+  {
+   "title": "NPK Makes Bullish Cross Above Critical Moving Average",
+   "url": "https://www.nasdaq.com/articles/npk-makes-bullish-cross-above-critical-moving-average",
+   "date": "2026-08-03",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "National Presto Industries Breaks Below 200-Day Moving Average - Notable for NPK",
+   "url": "https://www.nasdaq.com/articles/national-presto-industries-breaks-below-200-day-moving-average-notable-npk",
+   "date": "2026-07-02",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "NPK's 2025 Earnings Fall Y/Y Due to Housewares Unit Weakness",
+   "url": "https://www.nasdaq.com/articles/npks-2025-earnings-fall-y-y-due-housewares-unit-weakness",
+   "date": "2026-03-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "NPK Q2 Earnings Down Y/Y As Tariffs Weigh, Sales up 42%",
+   "url": "https://www.nasdaq.com/articles/npk-q2-earnings-down-y-y-tariffs-weigh-sales-42",
+   "date": "2025-07-31",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-14",
+   "reportDate": "2026-08-13",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80172/000143774926028014/npk20260814_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-07-31",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/80172/000143774926025460/npk20260803_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-16",
+   "reportDate": "2026-06-15",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80172/000143774926020791/npk20260611_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-19",
+   "items": [
+    "5.03",
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80172/000143774926018109/npk20260521_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-01",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/80172/000143774926014873/npk20260504_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-27",
+   "reportDate": "2026-03-26",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80172/000143774926010087/npk20260327_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    21.71,
+    14.48,
+    21.74
+   ],
+   "ni": [
+    207.88,
+    -12.93,
+    -27.62
+   ],
+   "opm": [
+    13.24,
+    6.77,
+    11.38
+   ],
+   "updated": "2026-09-08 10:17:58"
+  }
+ }
+}

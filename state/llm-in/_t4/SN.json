@@ -1,0 +1,182 @@
+{
+ "ticker": "SN",
+ "news": [
+  {
+   "title": "SharkNinja, Inc. (SN) Stock Sinks As Market Gains: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/sharkninja-inc-sn-stock-sinks-market-gains-what-you-should-know-0",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SharkNinja, Inc. (SN) Stock Sinks As Market Gains: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/sharkninja-inc-sn-stock-sinks-market-gains-what-you-should-know",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SharkNinja, Inc. (SN) Down 2.6% Since Last Earnings Report: Can It Rebound?",
+   "url": "https://www.nasdaq.com/articles/sharkninja-inc-sn-down-26-last-earnings-report-can-it-rebound",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why SharkNinja, Inc. (SN) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-sharkninja-inc-sn-strong-momentum-stock-0",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SharkNinja, Inc. (SN) Is Considered a Good Investment by Brokers: Is That True?",
+   "url": "https://www.nasdaq.com/articles/sharkninja-inc-sn-considered-good-investment-brokers-true",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "BMRRY vs. SN: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/bmrry-vs-sn-which-stock-better-value-option",
+   "date": "2026-08-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wall Street Analysts See SharkNinja, Inc. (SN) as a Buy: Should You Invest?",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-sharkninja-inc-sn-buy-should-you-invest",
+   "date": "2026-08-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is SN Stock Worth Buying as Growth Collides With a Rich Valuation?",
+   "url": "https://www.nasdaq.com/articles/sn-stock-worth-buying-growth-collides-rich-valuation",
+   "date": "2026-08-14",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1957132/000195713226000047/sharkninja-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-13",
+   "reportDate": "2026-07-13",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1957132/000110465926082783/tm2620293d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-18",
+   "items": [
+    "5.03",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1957132/000195713226000040/sharkninja-20260618.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1957132/000195713226000033/sharkninja-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-11",
+   "reportDate": "2026-02-11",
+   "items": [
+    "2.02",
+    "8.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1957132/000195713226000009/sharkninja-20260211.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-20",
+   "reportDate": "2026-01-19",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1957132/000195713226000005/sharkninja-20260119.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 17.31,
+  "saleNy": 12.94,
+  "epsCy": 24.86,
+  "epsNy": 16.21,
+  "cyTrend": 6.63,
+  "nyTrend": 7.43,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    22.19,
+    15.55,
+    17.58
+   ],
+   "ni": [
+    -7.01,
+    3.08,
+    98.28
+   ],
+   "opm": [
+    10.16,
+    11.65,
+    16.36
+   ],
+   "updated": "2026-09-08 06:22:32"
+  }
+ }
+}

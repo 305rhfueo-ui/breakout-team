@@ -1,0 +1,174 @@
+{
+ "ticker": "STLD",
+ "news": [
+  {
+   "title": "Steel Dynamics (STLD) Recently Broke Out Above the 50-Day Moving Average",
+   "url": "https://www.nasdaq.com/articles/steel-dynamics-stld-recently-broke-out-above-50-day-moving-average",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Steel Dynamics (STLD) Rises Higher Than Market: Key Facts",
+   "url": "https://www.nasdaq.com/articles/steel-dynamics-stld-rises-higher-market-key-facts",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Steel Dynamics (STLD) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-steel-dynamics-stld-top-momentum-stock-long-term",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Steel Dynamics (STLD) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-steel-dynamics-stld-strong-value-stock",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Steel Dynamics (STLD) Dips More Than Broader Market: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/steel-dynamics-stld-dips-more-broader-market-what-you-should-know-0",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Steel Dynamics (STLD) Dips More Than Broader Market: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/steel-dynamics-stld-dips-more-broader-market-what-you-should-know",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-18",
+   "reportDate": "2026-09-17",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1022671/000110465926108777/tm2625690d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-14",
+   "reportDate": "2026-08-14",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1022671/000110465926096861/tm2623292d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-03",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1022671/000110465926090129/tm2622182d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-21",
+   "reportDate": "2026-07-20",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1022671/000110465926085277/tm2620920d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-17",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1022671/000110465926075470/tm2618235d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-08",
+   "reportDate": "2026-05-06",
+   "items": [
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1022671/000110465926057616/tm2613966d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 30.93,
+  "saleNy": 0.56,
+  "epsCy": 118.25,
+  "epsNy": 12.25,
+  "cyTrend": 4.03,
+  "nyTrend": 2.92,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    33.44,
+    19.13,
+    14
+   ],
+   "ni": [
+    78.79,
+    85.79,
+    28.34
+   ],
+   "opm": [
+    11.5,
+    10.34,
+    7.03
+   ],
+   "updated": "2026-09-08 08:46:32"
+  }
+ }
+}

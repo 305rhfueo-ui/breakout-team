@@ -1,0 +1,180 @@
+{
+ "ticker": "SOLV",
+ "news": [
+  {
+   "title": "Here's Why Solventum (SOLV) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-solventum-solv-strong-value-stock",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Solventum (SOLV) is a Top Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-solventum-solv-top-stock-long-term-1",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Solventum (SOLV) Up 11.4% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/solventum-solv-114-last-earnings-report-can-it-continue",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Should Investors Buy SOLV as Growth Improves but Debt Risks Persist?",
+   "url": "https://www.nasdaq.com/articles/should-investors-buy-solv-growth-improves-debt-risks-persist",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Earnings Growth & Price Strength Make Solventum (SOLV) a Stock to Watch",
+   "url": "https://www.nasdaq.com/articles/earnings-growth-price-strength-make-solventum-solv-stock-watch-1",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Solventum (SOLV) is a Top Value Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-solventum-solv-top-value-stock-long-term",
+   "date": "2026-08-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Solventum (SOLV) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/solventum-solv-q2-2026-earnings-call-transcript",
+   "date": "2026-08-13",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Here's Why Solventum (SOLV) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-solventum-solv-strong-momentum-stock",
+   "date": "2026-08-10",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000045/solv-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000043/solv-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-20",
+   "reportDate": "2026-07-16",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000038/solv-20260716.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-05",
+   "reportDate": "2026-06-02",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000036/solv-20260602.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-27",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000031/solv-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-20",
+   "reportDate": "2026-05-15",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000027/solv-20260515.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -1.15,
+  "saleNy": 3.49,
+  "epsCy": 16.93,
+  "epsNy": 1.23,
+  "cyTrend": -0.54,
+  "nyTrend": 0.16,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    2.22,
+    -3.04,
+    -3.71
+   ],
+   "ni": [
+    2.22,
+    -90.51,
+    103.23
+   ],
+   "opm": [
+    8.19,
+    3.99,
+    6.26
+   ],
+   "updated": "2026-09-09 06:41:41"
+  }
+ }
+}

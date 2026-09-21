@@ -1,0 +1,164 @@
+{
+ "ticker": "TGTX",
+ "news": [
+  {
+   "title": "TG Therapeutics (TGTX) Up 15.1% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/tg-therapeutics-tgtx-151-last-earnings-report-can-it-continue",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "TG Therapeutics (TGTX) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/tg-therapeutics-tgtx-q2-2026-earnings-call-transcript",
+   "date": "2026-08-11",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Here's What Key Metrics Tell Us About TG Therapeutics (TGTX) Q2 Earnings",
+   "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-tg-therapeutics-tgtx-q2-earnings",
+   "date": "2026-08-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "TG Therapeutics (TGTX) Misses Q2 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/tg-therapeutics-tgtx-misses-q2-earnings-estimates",
+   "date": "2026-08-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "TG Therapeutics (TGTX) to Report Q2 Results: Wall Street Expects Earnings Growth",
+   "url": "https://www.nasdaq.com/articles/tg-therapeutics-tgtx-report-q2-results-wall-street-expects-earnings-growth",
+   "date": "2026-07-27",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-08-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001316/000143774926025304/tgtx20260730_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-11",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001316/000143774926020491/tgtx20260612_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "reportDate": "2026-06-03",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001316/000143774926019262/tgtx20260602_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-27",
+   "reportDate": "2026-05-27",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001316/000143774926018586/tgtx20260527_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001316/000143774926015013/tgtx20260227_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-20",
+   "reportDate": "2026-03-18",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001316/000143774926009253/tgtx20260319_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 55.8,
+  "saleNy": 37.28,
+  "epsCy": -65.7,
+  "epsNy": 212.11,
+  "cyTrend": -39.58,
+  "nyTrend": -9.63,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    70.27,
+    69.56,
+    78
+   ],
+   "ni": [
+    -72.4,
+    290.85,
+    -1.26
+   ],
+   "opm": [
+    9.02,
+    16.98,
+    26.22
+   ],
+   "updated": "2026-09-16 06:19:51"
+  }
+ }
+}

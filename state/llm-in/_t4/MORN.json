@@ -1,0 +1,148 @@
+{
+ "ticker": "MORN",
+ "news": [
+  {
+   "title": "Prediction: Morningstar (MORN) Stock Will Be Worth More Than $13 Billion by 2031 -- 73% Higher Than Its Recent Value. Here's the Math.",
+   "url": "https://www.nasdaq.com/articles/prediction-morningstar-morn-stock-will-be-worth-more-13-billion-2031-73-higher-its-recent",
+   "date": "2026-09-11",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Cash Dividend On The Way From Morningstar (MORN)",
+   "url": "https://www.nasdaq.com/articles/cash-dividend-way-morningstar-morn",
+   "date": "2026-07-09",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-18",
+   "reportDate": "2026-09-18",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1289419/000128941926000046/morn-20260918.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-25",
+   "reportDate": "2026-08-25",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1289419/000128941926000044/morn-20260825.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1289419/000128941926000042/morn-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-25",
+   "reportDate": "2026-06-25",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1289419/000128941926000035/morn-20260625.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-18",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1289419/000128941926000033/morn-20260618.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-22",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1289419/000128941926000031/morn-20260522.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.31,
+  "saleNy": 5.75,
+  "epsCy": 24.91,
+  "epsNy": 13.17,
+  "cyTrend": 3.32,
+  "nyTrend": 3.58,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    9.6,
+    10.81,
+    8.48
+   ],
+   "ni": [
+    21.12,
+    36.43,
+    -1.54
+   ],
+   "opm": [
+    24.22,
+    24.18,
+    24.89
+   ],
+   "updated": "2026-09-08 07:02:18"
+  }
+ }
+}

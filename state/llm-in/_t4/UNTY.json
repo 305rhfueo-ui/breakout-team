@@ -1,0 +1,180 @@
+{
+ "ticker": "UNTY",
+ "news": [
+  {
+   "title": "Unity Bancorp (UNTY) Upgraded to Buy: Here's What You Should Know",
+   "url": "https://www.nasdaq.com/articles/unity-bancorp-unty-upgraded-buy-heres-what-you-should-know",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Compared to Estimates, Unity Bancorp (UNTY) Q2 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-unity-bancorp-unty-q2-earnings-look-key-metrics",
+   "date": "2026-07-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Unity Bancorp (UNTY) Misses Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/unity-bancorp-unty-misses-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "DA Davidson Initiates Coverage of Unity Bancorp (UNTY) with Buy Recommendation",
+   "url": "https://www.nasdaq.com/articles/da-davidson-initiates-coverage-unity-bancorp-unty-buy-recommendation",
+   "date": "2026-05-16",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Unity Bancorp (UNTY) Surpasses Q1 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/unity-bancorp-unty-surpasses-q1-earnings-and-revenue-estimates",
+   "date": "2026-04-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Piper Sandler Maintains Unity Bancorp (UNTY) Overweight Recommendation",
+   "url": "https://www.nasdaq.com/articles/piper-sandler-maintains-unity-bancorp-unty-overweight-recommendation",
+   "date": "2025-10-16",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Unity Bancorp (UNTY) Reports Q3 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/unity-bancorp-unty-reports-q3-earnings-what-key-metrics-have-say",
+   "date": "2025-10-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Unity Bancorp (UNTY) Q3 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/unity-bancorp-unty-q3-earnings-and-revenues-surpass-estimates",
+   "date": "2025-10-14",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-10",
+   "reportDate": "2026-09-10",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/920427/000119312526387834/unty-20260910.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-20",
+   "reportDate": "2026-08-20",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/920427/000119312526359162/unty-20260820.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-07",
+   "reportDate": "2026-08-07",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/920427/000092042726000048/unty-20260807.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-14",
+   "reportDate": "2026-07-14",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/920427/000119312526302425/unty-20260714.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-21",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/920427/000092042726000040/unty-20260521x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/920427/000092042726000034/unty-20260423x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.19,
+  "saleNy": 10.42,
+  "epsCy": 3.95,
+  "epsNy": 7.87,
+  "cyTrend": 0.82,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    0.29,
+    12.01,
+    17.98
+   ],
+   "ni": [
+    -12.24,
+    23.19,
+    34.48
+   ],
+   "opm": [
+    38.41,
+    38.47,
+    39.58
+   ],
+   "updated": "2026-09-09 07:23:01"
+  }
+ }
+}

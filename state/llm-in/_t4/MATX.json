@@ -1,0 +1,180 @@
+{
+ "ticker": "MATX",
+ "news": [
+  {
+   "title": "Has Matson (MATX) Outpaced Other Transportation Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/has-matson-matx-outpaced-other-transportation-stocks-year",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Recent Price Trend in Matson (MATX) is Your Friend, Here's Why",
+   "url": "https://www.nasdaq.com/articles/recent-price-trend-matson-matx-your-friend-heres-why",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Transportation Stocks Lagging  Matson (MATX) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-transportation-stocks-lagging-matson-matx-year",
+   "date": "2026-08-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Matson (MATX) Is a Great Choice for 'Trend' Investors, Here's Why",
+   "url": "https://www.nasdaq.com/articles/matson-matx-great-choice-trend-investors-heres-why",
+   "date": "2026-08-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Matson (MATX) Stock Outpacing Its Transportation Peers This Year?",
+   "url": "https://www.nasdaq.com/articles/matson-matx-stock-outpacing-its-transportation-peers-year",
+   "date": "2026-08-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Momentum in Matson (MATX) Should Keep going",
+   "url": "https://www.nasdaq.com/articles/heres-why-momentum-matson-matx-should-keep-going",
+   "date": "2026-08-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Matson (MATX) Upgraded to Strong Buy: Here's Why",
+   "url": "https://www.nasdaq.com/articles/matson-matx-upgraded-strong-buy-heres-why",
+   "date": "2026-08-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wall Street Analysts Believe Matson (MATX) Could Rally 27.33%: Here's is How to Trade",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-matson-matx-could-rally-2733-heres-how-trade",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-08-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/3453/000110465926089794/matx-20260803x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-15",
+   "reportDate": "2026-07-15",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/3453/000110465926083946/matx-20260715x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-05-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/3453/000110465926054889/matx-20260504x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-27",
+   "reportDate": "2026-04-23",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/3453/000110465926049459/matx-20260423x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-24",
+   "reportDate": "2026-04-23",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/3453/000110465926048053/matx-20260423x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-12",
+   "reportDate": "2026-03-09",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/3453/000110465926027171/matx-20260309x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 9,
+  "saleNy": 3.28,
+  "epsCy": 16.24,
+  "epsNy": 4.03,
+  "cyTrend": 7.02,
+  "nyTrend": 8.22,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    16.72,
+    -3.09,
+    -4.31
+   ],
+   "ni": [
+    36.64,
+    -21.72,
+    11.8
+   ],
+   "opm": [
+    16.39,
+    8.1,
+    16.87
+   ],
+   "updated": "2026-09-08 07:53:58"
+  }
+ }
+}

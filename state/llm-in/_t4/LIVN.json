@@ -1,0 +1,162 @@
+{
+ "ticker": "LIVN",
+ "news": [
+  {
+   "title": "LivaNova (LIVN) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/livanova-livn-q2-2026-earnings-call-transcript",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "LivaNova (LIVN) Reports Q2 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/livanova-livn-reports-q2-earnings-what-key-metrics-have-say",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "LivaNova PLC (LIVN) Hits Fresh High: Is There Still Room to Run?",
+   "url": "https://www.nasdaq.com/articles/livanova-plc-livn-hits-fresh-high-there-still-room-run",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "LivaNova (LIVN) Q2 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/livanova-livn-q2-earnings-and-revenues-beat-estimates",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "LivaNova PLC (LIVN) Hit a 52 Week High, Can the Run Continue?",
+   "url": "https://www.nasdaq.com/articles/livanova-plc-livn-hit-52-week-high-can-run-continue",
+   "date": "2026-07-07",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1639691/000163969126000085/livn-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-11",
+   "reportDate": "2026-06-10",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1639691/000163969126000053/livn-20260610.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1639691/000163969126000031/livn-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-25",
+   "reportDate": "2026-02-25",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1639691/000163969126000006/livn-20260225.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-14",
+   "reportDate": "2026-01-12",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1639691/000163969126000002/livn-20260112.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-05",
+   "reportDate": "2025-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1639691/000163969125000146/livn-20251105.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.65,
+  "saleNy": 7.11,
+  "epsCy": 11.68,
+  "epsNy": 7.37,
+  "cyTrend": 2.46,
+  "nyTrend": 0.94,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    10.8,
+    14.33,
+    12.15
+   ],
+   "ni": [
+    299.72,
+    "흑자전환",
+    -44.7
+   ],
+   "opm": [
+    12.67,
+    11.45,
+    11.8
+   ],
+   "updated": "2026-09-08 06:36:43"
+  }
+ }
+}

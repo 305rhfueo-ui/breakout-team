@@ -1,0 +1,158 @@
+{
+ "ticker": "BRK.B",
+ "news": [
+  {
+   "title": "Berkshire Hathaway B (BRK.B) Stock Declines While Market Improves: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/berkshire-hathaway-b-brkb-stock-declines-while-market-improves-some-information-investors",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Investors Heavily Search Berkshire Hathaway Inc. (BRK.B): Here is What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/investors-heavily-search-berkshire-hathaway-inc-brkb-here-what-you-need-know",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Berkshire Hathaway B (BRK.B) Down 3% Since Last Earnings Report: Can It Rebound?",
+   "url": "https://www.nasdaq.com/articles/berkshire-hathaway-b-brkb-down-3-last-earnings-report-can-it-rebound",
+   "date": "2026-09-07",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-08",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526344495/d159922d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-02",
+   "items": [
+    "2.02",
+    "5.02",
+    "5.03",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "임원 변동",
+    "5.03",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526212148/d74313d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-16",
+   "reportDate": "2026-04-16",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526159326/d903301d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-05",
+   "reportDate": "2026-03-04",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526092557/d82599d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-02",
+   "reportDate": "2026-02-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526085801/d117283d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-11",
+   "reportDate": "2025-12-08",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525314935/d10933d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.62,
+  "saleNy": 1.19,
+  "epsCy": 7.92,
+  "epsNy": -0.27,
+  "cyTrend": 6.97,
+  "nyTrend": 3.16,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    10.04,
+    4.4,
+    -0.72
+   ],
+   "ni": [
+    107.49,
+    119.55,
+    -2.51
+   ],
+   "opm": [
+    33.73,
+    15.27,
+    34.06
+   ],
+   "updated": "2026-09-08 06:39:26"
+  }
+ }
+}

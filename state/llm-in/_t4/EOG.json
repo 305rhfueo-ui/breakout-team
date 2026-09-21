@@ -1,0 +1,178 @@
+{
+ "ticker": "EOG",
+ "news": [
+  {
+   "title": "EOG Resources (EOG) is a Top-Ranked Value Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/eog-resources-eog-top-ranked-value-stock-should-you-buy",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "The Zacks Analyst Blog Highlights  JPMorgan Chase, EOG Resources and Bloom Energy",
+   "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-jpmorgan-chase-eog-resources-and-bloom-energy",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Stocks to Consider Before the Fed's September Decision: JPM, EOG, BE",
+   "url": "https://www.nasdaq.com/articles/stocks-consider-feds-september-decision-jpm-eog-be",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is EOG Resources (EOG) Up 11% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-eog-resources-eog-11-last-earnings-report",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "EOG Stock Is Up 14.8% in 3 Months: Can Its Strong Rally Keep Going?",
+   "url": "https://www.nasdaq.com/articles/eog-stock-148-3-months-can-its-strong-rally-keep-going",
+   "date": "2026-08-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why EOG Resources (EOG) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-eog-resources-eog-strong-value-stock",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "EOG Resources (EOG) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/eog-resources-eog-q2-2026-earnings-call-transcript",
+   "date": "2026-08-11",
+   "publisher": "The Motley Fool"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/821189/000082118926000147/eog-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-09",
+   "reportDate": "2026-07-09",
+   "items": [
+    "2.02"
+   ],
+   "itemsKo": [
+    "실적 발표"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/821189/000082118926000140/eog-20260709.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.07",
+    "8.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/821189/000082118926000107/eog-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/821189/000082118926000102/eog-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-09",
+   "reportDate": "2026-04-09",
+   "items": [
+    "2.02"
+   ],
+   "itemsKo": [
+    "실적 발표"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/821189/000082118926000078/eog-20260409.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-24",
+   "reportDate": "2026-02-24",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/821189/000082118926000052/eog-20260224.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 32.75,
+  "saleNy": -8.76,
+  "epsCy": 67.15,
+  "epsNy": -12.83,
+  "cyTrend": 2.56,
+  "nyTrend": 1.85,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    57.36,
+    22.09,
+    0.95
+   ],
+   "ni": [
+    102.53,
+    35.34,
+    -43.96
+   ],
+   "opm": [
+    40.93,
+    37.54,
+    16.73
+   ],
+   "updated": "2026-09-08 07:51:41"
+  }
+ }
+}

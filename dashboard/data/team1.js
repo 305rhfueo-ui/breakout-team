@@ -511,8 +511,222 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-09-21",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "관세·연료비·금리 3중 비용 압박, 미국 기업 마진 훼손 구간 진입",
+        "easy": "CNBC는 관세, 급등한 연료비, 높아진 금리가 동시에 미국 기업을 압박하고 있다고 보도했다. 세 항목은 각각 매출원가(관세·연료), 판관비·물류비(연료), 이자비용(금리)으로 손익계산서의 서로 다른 라인을 동시에 때리기 때문에 전가력이 약한 기업일수록 영업마진 하락 폭이 커진다. 기사 본문 수치는 확인하지 못했으므로 구체적 마진 훼손 폭은 근거 없음. 지수 레벨에서는 QQQ 종가 721.45로 MA10 713.4·MA20 713.24·MA50 709.95를 모두 상회해 가격 추세는 훼손되지 않은 상태다. 즉 비용 압박은 지수가 아니라 개별 기업 마진·가이던스 레벨에서 먼저 드러날 이슈다.",
+        "whyMatters": "주도 섹터의 절반을 차지하는 Technology 25종목(50%)은 원가에서 연료·운임 비중이 낮아 상대적으로 방어적이지만, Industrials 4종목(8%)과 Consumer Cyclical 2종목(4%)은 관세·운임·이자비용이 직접 원가로 들어와 컨센서스 대비 마진 하향 리스크가 크다. 특히 Consumer Cyclical은 비용 상승분을 가격에 전가할 경우 수요가 꺾이는 구조라 매출·마진 양쪽에서 압박을 받는다. Energy 7종목(14%)은 같은 연료비 상승의 수혜 측이라 섹터 간 손익 방향이 갈린다. 다음 분기 실적에서 가이던스 하향이 Industrials·Consumer Cyclical에 집중되는지가 이 논리의 확인 조건이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "'It's awful': How tariffs, soaring fuel costs and higher interest rates are squeezing American companies",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html",
+            "date": "2026-09-20",
+            "quote": "'It's awful': How tariffs, soaring fuel costs and higher interest rates are squeezing American companies",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "기록적 디젤 가격, 정제 마진과 운송 원가를 동시에 움직이는 변수",
+        "easy": "MarketWatch는 기록적 디젤 가격이 주식시장과 실물경제의 취약 지점을 드러내고 있다고 보도했다. 디젤은 트럭·철도·농업·건설 장비의 연료이자 정유사 크랙 스프레드의 핵심 구성 항목이라, 같은 가격 상승이 한쪽에는 원가 충격, 다른 쪽에는 마진 확대로 작용한다. 기사 본문 접근이 차단돼 구체적 가격 수준·전년 대비 상승률은 확인하지 못했다 — 근거 없음. 따라서 여기서는 방향성만 정리한다. 상류 원유가 아니라 디젤 크랙이 주도하는 상승이라는 점이 정제 설비 측 병목 가능성을 시사한다.",
+        "whyMatters": "Energy 7종목(14%)은 디젤 크랙 스프레드 확대의 직접 수혜 구간에 놓이며, 이는 유가 자체보다 정제 마진에 레버리지가 큰 다운스트림 쪽에 유리하다. 반대로 Industrials 4종목(8%) 중 운송·물류 비중이 높은 이름은 연료비가 매출총이익률을 직접 깎는다. Consumer Cyclical 2종목(4%)도 배송비 전가 실패 시 마진이 눌린다. 디젤 크랙이 유지되는 가운데 Energy 섹터의 RS 순위가 추가로 올라가는지가 확인 조건이고, 크랙이 정상화되면 이 논리는 무너진다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Record diesel prices are exposing pain points in the stock market and economy",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/record-diesel-prices-are-exposing-pain-points-in-the-stock-market-and-economy-a2079b04?mod=mw_rss_topstories",
+            "date": "2026-09-20",
+            "quote": "Record diesel prices are exposing pain points in the stock market and economy",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "미 국무부 중동 여행 재고 권고 — 이란 긴장·호르무즈 리스크 프리미엄",
+        "easy": "미국이 이란 관련 긴장 고조를 이유로 자국민에게 중동 여행 재고를 권고했다. 정부의 여행 경보 상향은 통상 에너지 공급 차질 시나리오에 대한 리스크 프리미엄을 선반영시키는 이벤트다. 호르무즈 해협이 거론되는 국면이라면 원유·정제품 운임과 보험료가 함께 반응하며, 이는 앞의 디젤 가격 이슈와 같은 방향으로 작동한다. 실제 공급 차질 발생 여부는 확인된 바 없으며 현재까지는 경보 단계다. QQQ는 종가 721.45로 MA10 713.4·MA20 713.24·MA50 709.95 위에 있어 지정학 리스크가 아직 지수 추세에 반영되지는 않았다.",
+        "whyMatters": "Energy 7종목(14%)에는 유가·운임 프리미엄이 붙는 상방 요인이지만, 원가 측인 Industrials 4종목(8%)의 운송 비중 기업과 Consumer Cyclical 2종목(4%)에는 하방 요인이다. Technology 25종목(50%)에는 직접 원가 영향이 작으나, 지정학 이벤트가 커지면 밸류에이션 배수가 높은 쪽부터 멀티플 압축이 일어나는 경로로 간접 노출된다. 실제 해협 봉쇄나 선박 피격 같은 물리적 차질이 확인되면 이 리스크는 프리미엄에서 실제 수급 충격으로 전환된다. 반대로 외교적 완화 신호가 나오면 에너지 프리미엄이 빠르게 되돌려진다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "U.S. urges Americans to reconsider Middle East travel as Iran tensions rise",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/20/us-middle-east-travel-warning-iran-war-hormuz.html",
+            "date": "2026-09-20",
+            "quote": "U.S. urges Americans to reconsider Middle East travel as Iran tensions rise",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Bessent–허리펑 회동, Trump-Xi 정상회담 앞둔 관세 협상 채널 재가동",
+        "easy": "재무장관 Bessent가 Trump-Xi 정상회담에 앞서 중국 국무원 부총리 허리펑과 회동했다. 정상회담 직전 실무급 접촉은 통상 합의 문안의 사전 조율 성격이라, 관세율·수출통제 항목의 조정 가능성을 시장이 선반영하게 만든다. 첫 번째 기사에서 지적된 관세 비용 압박과 직결되는 이벤트이며, 협상 진전 시 그 비용 압박의 일부가 되돌려질 수 있다. 회동의 구체적 의제·합의 내용은 공개되지 않았다 — 근거 없음. 현 시점 판단 근거는 '채널이 열려 있다'는 사실 자체에 국한된다.",
+        "whyMatters": "관세 완화 시나리오의 직접 수혜는 중국 매출·중국 생산 비중이 큰 Technology 25종목(50%)과 수입 원가 부담이 큰 Consumer Cyclical 2종목(4%)이다. 반도체 수출통제 완화가 의제에 포함되는지가 Technology 섹터 내부의 승패를 가르는 핵심 변수다. 반대로 정상회담이 결렬되거나 추가 관세로 귀결되면 첫 번째 항목의 마진 훼손 시나리오가 강화된다. 확인 조건은 정상회담 결과 발표에서 관세율·수출통제 항목의 구체적 변경이 명시되는지 여부다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Bessent meets China Vice Premier He Lifeng ahead of Trump-Xi summit",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/20/bessent-he-lifeng-trump-xi-summit.html",
+            "date": "2026-09-20",
+            "quote": "Bessent meets China Vice Premier He Lifeng ahead of Trump-Xi summit",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Jensen Huang, AI 안전 규제 논쟁에서 행정부 측 핵심 우군으로 부상",
+        "easy": "CNBC는 Nvidia CEO Jensen Huang이 AI 안전 논쟁에서 Trump 행정부의 최우선 우군으로 부상했다고 보도했다. AI 규제 강도는 데이터센터 투자 사이클의 속도를 결정하는 정책 변수이며, 규제 완화 기조는 가속기 수요의 가시성을 높이는 방향으로 작동한다. BBC는 같은 시기 AI 업계 종사자 전원이 기술의 실존적 위험론에 동의하지는 않는다고 보도해, 업계 내부의 규제 여론이 단일하지 않음을 보여준다. 다만 두 기사 모두 구체적 정책 문안이나 시행 일정을 제시하지 않았다 — 근거 없음. 현재로서는 규제 방향의 기대치 변화에 그친다.",
+        "whyMatters": "주도 섹터 구성이 Technology 25종목(50%)으로 이미 절반을 차지하는 국면에서, AI 규제 완화 기대는 이 쏠림을 되돌리기보다 강화하는 쪽으로 작동한다. 수혜 방향은 AI 가속기·데이터센터 인프라·전력 공급망에 걸친 체인이며, Industrials 4종목(8%) 중 전력·설비 관련 이름도 같은 방향의 파생 수혜를 받는다. 동시에 이는 200일선 +150% 초과 종목수 1과 마진부채 YoY +37.2%가 가리키는 레버리지 쏠림 리스크를 키우는 요인이기도 하다. 규제 완화가 실제 행정명령·법안 형태로 문서화되는지가 확인 조건이며, 반대로 안전 규제가 강화되면 데이터센터 캡엑스 가이던스부터 흔들린다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html",
+            "date": "2026-09-20",
+            "quote": "Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Not all AI workers think the tech could kill everyone",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cm5y7qj54klpo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-09-19",
+            "quote": "Not all AI workers think the tech could kill everyone",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "주간 관전 포인트 3가지 — 이벤트 드리븐 구간의 체크리스트",
+        "easy": "CNBC가 이번 주 증시에서 주시할 3가지를 정리했다. 기사 본문 접근이 차단돼 3개 항목의 구체적 내용은 확인하지 못했다 — 근거 없음. 다만 같은 날 후보군에 Trump-Xi 정상회담 사전 접촉, 중동 긴장, 비용 인플레이션이 동시에 걸려 있어 이번 주가 이벤트 드리븐 구간임은 분명하다. 기술적으로는 QQQ 종가 721.45가 MA10 713.4·MA20 713.24·MA50 709.95를 모두 상회하며 골든크로스 직후(D+1) 상태다. 통계적으로 약 1주 뒤가 최적 구간이라는 판정이므로, 이번 주 이벤트 결과가 그 1주 구간의 질을 결정한다.",
+        "whyMatters": "골든크로스 D+1에서 MA10과 MA20이 713.4 대 713.24로 사실상 붙어 있다는 점은 추세 전환 직후의 밀집 구간이라는 뜻이고, 이 상태에서는 이벤트 헤드라인 하나에 방향이 크게 흔들린다. Technology 25종목(50%) 쏠림이 유지되는 한 QQQ 방향은 사실상 이 섹터의 이벤트 반응에 연동된다. 정상회담·중동 두 이벤트 중 하나만 악화돼도 MA20 713.24 하향 이탈로 골든크로스 판정이 무효화될 수 있다. 확인 조건은 이번 주 종가가 MA20 위에서 유지되는지다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Here are the 3 big things we're watching in the stock market this week",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/20/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html",
+            "date": "2026-09-20",
+            "quote": "Here are the 3 big things we're watching in the stock market this week",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "중국의 SpaceX 추격과 글로벌 우주경제 진입 — 방산·우주 밸류체인 변수",
+        "easy": "MarketWatch는 중국이 SpaceX를 추격하며 글로벌 우주경제를 겨냥하고 있다고 보도했다. 발사 서비스는 재사용 발사체 확보 여부가 단가를 결정하는 산업이라, 경쟁자 진입은 발사 단가 하락과 위성 통신·관측 사업의 원가 구조 변화로 이어진다. 동시에 미국 측에서는 전략 산업 방어 명분의 정부 예산·수주 확대 논리로 연결되는 양면성이 있다. 기사 본문의 구체적 발사 횟수·시장 규모 수치는 확인하지 못했다 — 근거 없음.",
+        "whyMatters": "Industrials 4종목(8%)에 속하는 항공우주·방산 밸류체인이 직접 노출 구간이며, 방향은 '정부 예산 확대 수혜'와 '상업 발사 단가 경쟁 심화'가 상쇄되는 구조다. 위성 통신 서비스를 원가로 쓰는 쪽에는 발사 단가 하락이 중장기 마진 개선 요인이다. 현재 주도 섹터에서 Industrials 비중이 8%로 제한적이라 지수 레벨 임팩트는 크지 않다. 확인 조건은 미국 측 우주 관련 예산·수주 공시가 실제로 증액되는지 여부다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "China is chasing SpaceX and setting its sights on the global space economy",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/china-is-chasing-spacex-and-setting-its-sights-on-the-global-space-economy-3b9e37ff?mod=mw_rss_topstories",
+            "date": "2026-09-20",
+            "quote": "China is chasing SpaceX and setting its sights on the global space economy",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "Williams-Sonoma, 부진한 주택시장에서 주가 강세 — 소비재 내 차별화 사례",
+        "easy": "CNBC는 주택시장이 부진한 가운데 Williams-Sonoma 주가가 급등하며 월가를 설득했다고 보도했다. 홈퍼니싱은 주택 거래량에 민감한 업종이라 거래 부진 국면에서 매출 역성장이 기본값인데, 여기서 주가가 오른 것은 매출 성장보다 마진·재고 관리에 의한 리레이팅일 가능성이 높다. 다만 기사 본문의 실적 수치·가이던스는 확인하지 못했으므로 구체적 마진 개선 폭은 근거 없음. 판단 가능한 것은 소비재 내부에서 매크로 역풍과 개별 실적이 분리되고 있다는 사실이다.",
+        "whyMatters": "Consumer Cyclical은 주도 섹터에서 2종목(4%)에 불과해 섹터 전반의 강세는 아니며, 이 사례는 업종 베타가 아니라 종목 알파로 해석해야 한다. 앞선 관세·연료비·금리 3중 압박이 소비재 원가를 때리는 국면에서, 전가력과 재고 회전으로 마진을 지킨 기업만 리레이팅을 받는 구조가 확인된 셈이다. 같은 논리라면 주택 연관 소비재 중 원가 전가력이 약한 쪽은 반대 방향으로 벌어진다. 확인 조건은 다음 실적에서 매출 역성장에도 영업마진이 유지되는지 여부다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Williams-Sonoma's stock has soared in a sluggish housing market. Here's how it won over Wall Street",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/20/williams-sonoma-stock-rises-housing-market.html",
+            "date": "2026-09-20",
+            "quote": "Williams-Sonoma's stock has soared in a sluggish housing market. Here's how it won over Wall Street",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "추세는 살아 있으나 진입 타이밍은 아직 아니고, 레버리지 지표가 먼저 경고를 켠 국면이다. QQQ 종가 721.45는 MA10 713.4·MA20 713.24·MA50 709.95를 모두 상회하며 골든크로스 직후(D+1)로, 통계적 최적 구간은 약 1주 뒤이므로 현재는 관찰 단계다. 주도 섹터는 Technology 25종목(50%)·Healthcare 8종목(16%)·Energy 7종목(14%)·Industrials 4종목(8%)·Consumer Cyclical 2종목(4%)으로 기술주 쏠림이 절반을 차지하며, 200일선 +150% 초과 종목수는 1에 그쳐 과열은 폭이 아니라 깊이로 진행 중이다. 반대 근거는 FINRA 고객 마진부채 YoY +37.2%로, +30% 초과 구간은 레버리지 확대 경고 영역이며 조정 시 청산 압력이 가격 하락을 증폭시킨다. 매크로 측면에서는 관세·연료비·금리의 3중 비용 압박과 중동 긴장이 마진과 에너지 프리미엄에 동시에 작용해, 지수보다 개별 기업의 가이던스 레벨에서 먼저 균열이 드러날 가능성이 높다. 확인할 조건은 이번 주 QQQ 종가가 MA20 713.24 위에서 유지되는지, Trump-Xi 정상회담에서 관세·수출통제 항목의 구체적 변경이 나오는지, 그리고 마진부채 증가율이 +30% 아래로 되돌려지는지다.",
+    "keyRisks": [
+      "FINRA 고객 마진부채 YoY +37.2% — +30% 초과 구간으로, 조정 발생 시 마진콜 청산이 하락을 증폭시키는 구조적 취약점",
+      "골든크로스 D+1에서 MA10 713.4와 MA20 713.24가 사실상 붙어 있어, 이벤트 헤드라인 하나로 MA20 하향 이탈 시 추세 판정이 무효화될 수 있음",
+      "Technology 25종목(50%) 단일 섹터 쏠림 — AI 규제·수출통제 방향이 바뀌면 지수 방향이 이 섹터 하나에 연동됨",
+      "관세·연료비·금리 3중 비용 압박이 Industrials(8%)·Consumer Cyclical(4%)의 영업마진과 가이던스를 컨센서스 아래로 밀어낼 위험",
+      "이란 긴장·호르무즈 리스크가 프리미엄에서 실제 공급 차질로 전환될 경우, 기록적 디젤 가격이 추가 상승하며 운송 원가 충격이 확산",
+      "후보 기사 본문 대부분에 접근하지 못해 개별 수치·가이던스 검증이 불가 — 기사 제목 수준의 정보만으로 판단한 항목이 다수"
+    ],
+    "easySummary": [
+      "QQQ 721.45로 MA10 713.4·MA20 713.24·MA50 709.95를 모두 상회, 골든크로스 직후(D+1) — 통계적 최적 구간은 약 1주 뒤이므로 지금은 관찰.",
+      "FINRA 고객 마진부채 YoY +37.2%로 +30% 경고선 초과, Technology 25종목(50%) 쏠림과 겹쳐 조정 시 증폭 위험이 큼.",
+      "관세·연료비·금리 3중 비용 압박과 중동 긴장이 Industrials·Consumer Cyclical 마진을 때리고 Energy에는 크랙 스프레드 수혜로 작용, 섹터 간 방향이 갈림."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 179,
+      "ok": 191,
+      "unverified": 24,
+      "dead": 2,
+      "stripped": 3,
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxcmel.pdf"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.sahmcapital.com/news/content/ambiq-micro-inc-nyseambq-just-reported-second-quarter-earnings-and-analysts-are-lifting-their-estimates-2026-08-14"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.sahmcapital.com/news/content/ambiq-micro-inc-nyseambq-just-reported-second-quarter-earnings-and-analysts-are-lifting-their-estimates-2026-08-14"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.timothysykes.com/news/illumina-inc-ilmn-news-2026_09_15/"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.tradingkey.com/news/market-movers/262173925-market-movers-ilmn-20260917"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.tradingkey.com/news/market-movers/262173925-market-movers-ilmn-20260917"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/11544/000001154426000033/wrb-20260720.htm"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1005731/000143774926028388/idt20260814_8k.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.wallstreetzen.com/industries/best-electronics-computer-distribution-stocks"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.wallstreetzen.com/industries/best-electronics-computer-distribution-stocks"
+        }
+      ],
+      "noQuote": 2
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-09-21"
   }
 };

@@ -1,0 +1,150 @@
+{
+ "ticker": "UHS",
+ "news": [
+  {
+   "title": "Why Is Universal Health Services (UHS) Up 5.7% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-universal-health-services-uhs-57-last-earnings-report",
+   "date": "2026-08-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "UHS Adds Talkspace to Accelerate Virtual Behavioral Health Growth",
+   "url": "https://www.nasdaq.com/articles/uhs-adds-talkspace-accelerate-virtual-behavioral-health-growth",
+   "date": "2026-08-18",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-21",
+   "reportDate": "2026-08-20",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/352915/000119312526359953/d329184d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-17",
+   "reportDate": "2026-08-17",
+   "items": [
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/352915/000119312526354078/uhs-20260817.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-13",
+   "reportDate": "2026-08-11",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/352915/000119312526348057/d177070d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/352915/000119312526318940/uhs-20260727.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-21",
+   "reportDate": "2026-07-20",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/352915/000119312526310330/uhs-20260720.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/352915/000119312526235480/uhs-20260520.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.15,
+  "saleNy": 4.79,
+  "epsCy": 3.62,
+  "epsNy": 6.21,
+  "cyTrend": -0.16,
+  "nyTrend": -1.04,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    8.27,
+    9.65,
+    9.05
+   ],
+   "ni": [
+    1.48,
+    10.11,
+    34.16
+   ],
+   "opm": [
+    11.14,
+    11.19,
+    11.53
+   ],
+   "updated": "2026-09-07 06:25:19"
+  }
+ }
+}

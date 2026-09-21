@@ -1,0 +1,182 @@
+{
+ "ticker": "SMBC",
+ "news": [
+  {
+   "title": "Raymond James Initiates Coverage of Southern Missouri Bancorp (SMBC) with Market Perform Recommendation",
+   "url": "https://www.nasdaq.com/articles/raymond-james-initiates-coverage-southern-missouri-bancorp-smbc-market-perform",
+   "date": "2026-09-02",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Ex-Div Reminder for Southern Missouri Bancorp (SMBC)",
+   "url": "https://www.nasdaq.com/articles/ex-div-reminder-southern-missouri-bancorp-smbc",
+   "date": "2026-08-12",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Southern Missouri Bancorp (SMBC) Tops Q4 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/southern-missouri-bancorp-smbc-tops-q4-earnings-and-revenue-estimates",
+   "date": "2026-07-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "What Makes Southern Missouri Bancorp (SMBC) a Strong Momentum Stock: Buy Now?",
+   "url": "https://www.nasdaq.com/articles/what-makes-southern-missouri-bancorp-smbc-strong-momentum-stock-buy-now",
+   "date": "2026-06-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Southern Missouri Bancorp (SMBC) Upgraded to Buy: Here's What You Should Know",
+   "url": "https://www.nasdaq.com/articles/southern-missouri-bancorp-smbc-upgraded-buy-heres-what-you-should-know",
+   "date": "2026-06-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SMBC Q1 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/smbc-q1-2026-earnings-transcript",
+   "date": "2026-05-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Southern Missouri Bancorp (SMBC) Beats Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/southern-missouri-bancorp-smbc-beats-q3-earnings-and-revenue-estimates-0",
+   "date": "2026-04-22",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-27",
+   "reportDate": "2026-07-27",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/916907/000110465926087102/smbc-20260727x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-21",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/916907/000110465926085879/smbc-20260721x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-04",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/916907/000110465926055074/smbc-20260504x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-21",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/916907/000110465926046973/smbc-20260421x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-10",
+   "reportDate": "2026-02-09",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/916907/000110465926012198/smbc-20260209x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-22",
+   "reportDate": "2026-01-20",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/916907/000110465926005459/smbc-20260120x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.23,
+  "saleNy": 4.46,
+  "epsCy": 4.2,
+  "epsNy": 5.22,
+  "cyTrend": -0.37,
+  "nyTrend": -1.4,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    1.9,
+    3.56,
+    6.78
+   ],
+   "ni": [
+    13.25,
+    23.84,
+    25.71
+   ],
+   "opm": [
+    28.11,
+    28.73,
+    24.42
+   ],
+   "updated": "2026-09-08 10:33:38"
+  }
+ }
+}

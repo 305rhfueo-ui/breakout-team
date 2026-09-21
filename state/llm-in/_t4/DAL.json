@@ -1,0 +1,150 @@
+{
+ "ticker": "DAL",
+ "news": [
+  {
+   "title": "Delta Air Lines (DAL) Dips More Than Broader Market: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/delta-air-lines-dal-dips-more-broader-market-what-you-should-know-2",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is It Worth Investing in Delta (DAL) Based on Wall Street's Bullish Views?",
+   "url": "https://www.nasdaq.com/articles/it-worth-investing-delta-dal-based-wall-streets-bullish-views",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Delta Air Lines (DAL) Declines More Than Market: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/delta-air-lines-dal-declines-more-market-some-information-investors",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-10",
+   "reportDate": "2026-07-10",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/27904/000002790426000029/dal-20260710.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-22",
+   "reportDate": "2026-06-18",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/27904/000168316826005025/delta_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-11",
+   "items": [
+    "1.01",
+    "2.03"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/27904/000168316826004816/delta_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-08",
+   "reportDate": "2026-04-08",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/27904/000002790426000020/dal-20260408.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-17",
+   "reportDate": "2026-03-17",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/27904/000168316826001875/delta_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-05",
+   "reportDate": "2026-02-27",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/27904/000168316826001510/delta_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 15.79,
+  "saleNy": 2.05,
+  "epsCy": 8.49,
+  "epsNy": 35.14,
+  "cyTrend": -4.78,
+  "nyTrend": -2.94,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    18.67,
+    12.92,
+    2.85
+   ],
+   "ni": [
+    -24.69,
+    -220.42,
+    44.48
+   ],
+   "opm": [
+    9.43,
+    3.16,
+    9.17
+   ],
+   "updated": "2026-09-08 09:51:56"
+  }
+ }
+}

@@ -1,0 +1,168 @@
+{
+ "ticker": "FTI",
+ "news": [
+  {
+   "title": "FMC Technologies (FTI) is a Top-Ranked Growth Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/fmc-technologies-fti-top-ranked-growth-stock-should-you-buy",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why FMC Technologies (FTI) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-fmc-technologies-fti-top-momentum-stock-long-term",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why FMC Technologies (FTI) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-fmc-technologies-fti-strong-growth-stock-0",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ex-Div Reminder for TechnipFMC (FTI)",
+   "url": "https://www.nasdaq.com/articles/ex-div-reminder-technipfmc-fti",
+   "date": "2026-08-14",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Here's Why FMC Technologies (FTI) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-fmc-technologies-fti-strong-momentum-stock-0",
+   "date": "2026-08-14",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1681459/000168145926000040/fti-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-05-29",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1681459/000168145926000035/fti-20260529.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-05-01",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1681459/000168145926000027/fti-20260501.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1681459/000168145926000023/fti-20260430.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-19",
+   "reportDate": "2026-02-19",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1681459/000168145926000006/fti-20260219.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-10-23",
+   "reportDate": "2025-10-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1681459/000168145925000109/fti-20251023.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.97,
+  "saleNy": 6.45,
+  "epsCy": 27.66,
+  "epsNy": 15.02,
+  "cyTrend": 1.02,
+  "nyTrend": 0.57,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    9.01,
+    11.6,
+    6.32
+   ],
+   "ni": [
+    34.58,
+    83.45,
+    8.01
+   ],
+   "opm": [
+    17.54,
+    14.08,
+    10.54
+   ],
+   "updated": "2026-09-08 09:14:07"
+  }
+ }
+}

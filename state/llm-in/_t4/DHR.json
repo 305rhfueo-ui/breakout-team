@@ -1,0 +1,154 @@
+{
+ "ticker": "DHR",
+ "news": [
+  {
+   "title": "ELV or DHR: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/elv-or-dhr-which-better-value-stock-right-now",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "DHR Makes Bullish Cross Above Critical Moving Average",
+   "url": "https://www.nasdaq.com/articles/dhr-makes-bullish-cross-above-critical-moving-average",
+   "date": "2026-08-07",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-07-31",
+   "items": [
+    "5.02",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000119312526330652/d161342d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-21",
+   "reportDate": "2026-07-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000163/dhr-20260721.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "reportDate": "2026-06-03",
+   "items": [
+    "2.03",
+    "8.01"
+   ],
+   "itemsKo": [
+    "2.03",
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000119312526255555/d63873d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-05",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000127/dhr-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-22",
+   "items": [
+    "1.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000119312526191608/d107133d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-21",
+   "reportDate": "2026-04-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000109/dhr-20260421.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.2,
+  "saleNy": 8.04,
+  "epsCy": 9.07,
+  "epsNy": 9.29,
+  "cyTrend": -0.02,
+  "nyTrend": -0.01,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    5.54,
+    3.66,
+    4.59
+   ],
+   "ni": [
+    56.76,
+    7.86,
+    10.22
+   ],
+   "opm": [
+    17.99,
+    22.58,
+    21.97
+   ],
+   "updated": "2026-09-09 06:57:45"
+  }
+ }
+}

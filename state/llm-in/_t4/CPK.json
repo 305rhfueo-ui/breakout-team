@@ -1,0 +1,192 @@
+{
+ "ticker": "CPK",
+ "news": [
+  {
+   "title": "Chesapeake Utilities (CPK) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/chesapeake-utilities-cpk-q2-2026-earnings-call-transcript",
+   "date": "2026-08-13",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Chesapeake Utilities (CPK) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/chesapeake-utilities-cpk-could-be-great-choice-0",
+   "date": "2026-06-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cash Dividend On The Way From Chesapeake Utilities (CPK)",
+   "url": "https://www.nasdaq.com/articles/cash-dividend-way-chesapeake-utilities-cpk",
+   "date": "2026-06-12",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "MDU vs. CPK: Which Gas Distributor Stock Delivers Better Returns?",
+   "url": "https://www.nasdaq.com/articles/mdu-vs-cpk-which-gas-distributor-stock-delivers-better-returns",
+   "date": "2026-06-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Chesapeake Utilities (CPK) is a Great Dividend Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/why-chesapeake-utilities-cpk-great-dividend-stock-right-now",
+   "date": "2026-05-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wells Fargo Initiates Coverage of Chesapeake Utilities (CPK) with Equal-Weight Recommendation",
+   "url": "https://www.nasdaq.com/articles/wells-fargo-initiates-coverage-chesapeake-utilities-cpk-equal-weight-recommendation",
+   "date": "2026-05-12",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "CPK Q1 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/cpk-q1-2026-earnings-transcript",
+   "date": "2026-05-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Why Chesapeake Utilities (CPK) is a Top Dividend Stock for Your Portfolio",
+   "url": "https://www.nasdaq.com/articles/why-chesapeake-utilities-cpk-top-dividend-stock-your-portfolio",
+   "date": "2026-05-06",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-01",
+   "reportDate": "2026-08-28",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/19745/000119312526377589/d641124d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/19745/000162828026054425/cpk-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-13",
+   "reportDate": "2026-07-13",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/19745/000162828026047964/cpk-20260713.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-08",
+   "reportDate": "2026-05-06",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/19745/000162828026032722/cpk-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/19745/000162828026031368/cpk-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-24",
+   "reportDate": "2026-03-24",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/19745/000162828026020829/cpk-20260324.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.8,
+  "saleNy": 4.54,
+  "epsCy": 7.15,
+  "epsNy": 13.91,
+  "cyTrend": 0.16,
+  "nyTrend": 0.12,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    4.72,
+    18.21,
+    20.42
+   ],
+   "ni": [
+    6.28,
+    16.5,
+    25.61
+   ],
+   "opm": [
+    26.2,
+    28.15,
+    28.51
+   ],
+   "updated": "2026-09-08 06:47:06"
+  }
+ }
+}

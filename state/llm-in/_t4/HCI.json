@@ -1,0 +1,176 @@
+{
+ "ticker": "HCI",
+ "news": [
+  {
+   "title": "Wall Street Analysts See HCI Group (HCI) as a Buy: Should You Invest?",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-hci-group-hci-buy-should-you-invest",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wall Street Analysts See a 25.18% Upside in HCI Group (HCI): Can the Stock Really Move This High?",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-2518-upside-hci-group-hci-can-stock-really-move-high",
+   "date": "2026-09-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Should You Invest in HCI Group (HCI) Based on Bullish Wall Street Views?",
+   "url": "https://www.nasdaq.com/articles/should-you-invest-hci-group-hci-based-bullish-wall-street-views",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Earnings Estimates Rising for HCI Group (HCI): Will It Gain?",
+   "url": "https://www.nasdaq.com/articles/earnings-estimates-rising-hci-group-hci-will-it-gain",
+   "date": "2026-08-25",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wall Street Analysts Think HCI Group (HCI) Could Surge 25.78%: Read This Before Placing a Bet",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-think-hci-group-hci-could-surge-2578-read-placing-bet",
+   "date": "2026-08-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is It Worth Investing in HCI Group (HCI) Based on Wall Street's Bullish Views?",
+   "url": "https://www.nasdaq.com/articles/it-worth-investing-hci-group-hci-based-wall-streets-bullish-views",
+   "date": "2026-08-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "HCI Group Q2 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/hci-group-q2-earnings-call-highlights",
+   "date": "2026-08-08",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "HCI Group (HCI) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/hci-group-hci-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-08-07",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1400810/000119312526338133/hci-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-15",
+   "reportDate": "2026-06-11",
+   "items": [
+    "1.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1400810/000119312526271159/hci-20260611.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-10",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1400810/000119312526268579/hci-20260610.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-06-01",
+   "items": [
+    "1.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1400810/000119312526249754/hci-20260601.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1400810/000119312526209071/hci-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-25",
+   "reportDate": "2026-02-25",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1400810/000119312526071719/hci-20260225.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.99,
+  "saleNy": 6.47,
+  "epsCy": -8.89,
+  "epsNy": -4.83,
+  "cyTrend": 6.61,
+  "nyTrend": 0.6,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    11.15,
+    12.22,
+    52.12
+   ],
+   "ni": [
+    11.54,
+    5.36,
+    "흑자전환"
+   ],
+   "opm": [
+    44.99,
+    47.51,
+    58.48
+   ],
+   "updated": "2026-09-08 10:36:27"
+  }
+ }
+}

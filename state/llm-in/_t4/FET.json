@@ -1,0 +1,202 @@
+{
+ "ticker": "FET",
+ "news": [
+  {
+   "title": "FET vs. NOV: Which Energy Equipment Company Has an Edge?",
+   "url": "https://www.nasdaq.com/articles/fet-vs-nov-which-energy-equipment-company-has-edge",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Momentum in Forum Energy (FET) Should Keep going",
+   "url": "https://www.nasdaq.com/articles/heres-why-momentum-forum-energy-fet-should-keep-going",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "NESR vs. FET: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/nesr-vs-fet-which-stock-should-value-investors-buy-now",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is FET's &quot;Beat the Market&quot; Strategy Its Key to Faster Growth?",
+   "url": "https://www.nasdaq.com/articles/fets-beat-market-strategy-its-key-faster-growth",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Forum Energy Technologies (FET) Stock Outpacing Its Oils-Energy Peers This Year?",
+   "url": "https://www.nasdaq.com/articles/forum-energy-technologies-fet-stock-outpacing-its-oils-energy-peers-year-0",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Should Investors Buy FET Stock After Its Massive 207% One-Year Run?",
+   "url": "https://www.nasdaq.com/articles/should-investors-buy-fet-stock-after-its-massive-207-one-year-run",
+   "date": "2026-09-07",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-31",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000065/fet-20260828.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000049/fet-20260730.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-12",
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000039/fet-20260508.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000030/fet-20260430.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-20",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000010/fet8-kearningsreleaseq42025.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1401257/000140125726000005/fet-20260204.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001401257&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 208700000,
+    "profit": 11005000,
+    "netIncome": 4492000,
+    "margin": 5.3,
+    "yoy": {
+     "revenue": 8,
+     "profit": 25,
+     "netIncome": 300.4,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 202200000,
+    "profit": 12764000,
+    "netIncome": 2072000,
+    "margin": 6.3,
+    "yoy": {
+     "revenue": 0.6,
+     "profit": 111.9,
+     "netIncome": 102,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": false,
+    "revenue": 196231000,
+    "profit": -6106000,
+    "netIncome": -20554000,
+    "margin": -3.1,
+    "yoy": {
+     "revenue": -5.6,
+     "profit": -168.5,
+     "netIncome": -38.7,
+     "priorEnd": "2024-09-30"
+    }
+   },
+   {
+    "periodEnd": "2025-06-30",
+    "derived": false,
+    "revenue": 199764000,
+    "profit": 14683000,
+    "netIncome": 7700000,
+    "margin": 7.4,
+    "yoy": {
+     "revenue": -2.7,
+     "profit": 85.1,
+     "netIncome": 215,
+     "priorEnd": "2024-06-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": true,
+  "saleCy": 12.04,
+  "saleNy": 5.92,
+  "epsCy": 536.51,
+  "epsNy": 23.69,
+  "cyTrend": 85.65,
+  "nyTrend": 80.04,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    13.24,
+    7.98,
+    0.59
+   ],
+   "ni": [
+    61.13,
+    300.36,
+    "흑자전환"
+   ],
+   "opm": [
+    9.07,
+    5.27,
+    6.31
+   ],
+   "updated": "2026-09-15 06:31:26"
+  }
+ }
+}

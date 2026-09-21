@@ -1,0 +1,190 @@
+{
+ "ticker": "ULTA",
+ "news": [
+  {
+   "title": "S&P 500 Analyst Moves: ULTA",
+   "url": "https://www.nasdaq.com/articles/sp-500-analyst-moves-ulta",
+   "date": "2026-09-17",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Ulta Beauty Takes Over #88 Spot From Casey's General Stores",
+   "url": "https://www.nasdaq.com/articles/ulta-beauty-takes-over-88-spot-caseys-general-stores",
+   "date": "2026-09-17",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Wells Fargo Upgrades Ulta Beauty to Equal-Weight from Underweight",
+   "url": "https://www.nasdaq.com/articles/wells-fargo-upgrades-ulta-beauty-equal-weight-underweight",
+   "date": "2026-09-15",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Why Ulta Beauty (ULTA) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-ulta-beauty-ulta-top-momentum-stock-long-term",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ulta Beauty Sees Resilient Demand, Eyes Fragrance, Wellness Growth After Target Exit",
+   "url": "https://www.nasdaq.com/articles/ulta-beauty-sees-resilient-demand-eyes-fragrance-wellness-growth-after-target-exit",
+   "date": "2026-09-13",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "BMO Capital Initiates Coverage of Ulta Beauty with Market Perform Rating",
+   "url": "https://www.nasdaq.com/articles/bmo-capital-initiates-coverage-ulta-beauty-market-perform-rating",
+   "date": "2026-09-09",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "WOOF or ULTA: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/woof-or-ulta-which-better-value-stock-right-now",
+   "date": "2026-09-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ulta Beauty’s Earnings Beat Was Stronger Than the Stock’s Reaction",
+   "url": "https://www.nasdaq.com/articles/ulta-beautys-earnings-beat-was-stronger-stocks-reaction",
+   "date": "2026-09-02",
+   "publisher": "MarketBeat"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-27",
+   "reportDate": "2026-08-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1403568/000110465926102438/ulta-20260827x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-17",
+   "reportDate": "2026-08-13",
+   "items": [
+    "5.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1403568/000110465926097497/ulta-20260813x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-14",
+   "reportDate": "2026-07-14",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1403568/000110465926083524/ulta-20260714x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-09",
+   "reportDate": "2026-06-09",
+   "items": [
+    "5.02",
+    "5.03",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "5.03",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1403568/000110465926071896/ulta-20260609x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-02",
+   "reportDate": "2026-06-02",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1403568/000110465926069464/ulta-20260602x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-12",
+   "reportDate": "2026-03-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1403568/000110465926027061/ulta-20260312x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.12,
+  "saleNy": 5.16,
+  "epsCy": 12.92,
+  "epsNy": 10.48,
+  "cyTrend": 0.53,
+  "nyTrend": 0.36,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    8.87,
+    11.08,
+    11.78
+   ],
+   "ni": [
+    8.1,
+    11.61,
+    -9.3
+   ],
+   "opm": [
+    12.51,
+    14.17,
+    12.23
+   ],
+   "updated": "2026-09-09 06:50:02"
+  }
+ }
+}

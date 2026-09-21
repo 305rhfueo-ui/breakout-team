@@ -1,0 +1,172 @@
+{
+ "ticker": "MEDP",
+ "news": [
+  {
+   "title": "Medpace (MEDP) Ascends While Market Falls: Some Facts to Note",
+   "url": "https://www.nasdaq.com/articles/medpace-medp-ascends-while-market-falls-some-facts-note-0",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CON vs. MEDP: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/con-vs-medp-which-stock-better-value-option",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Medpace (MEDP) is a Top Growth Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-medpace-medp-top-growth-stock-long-term-0",
+   "date": "2026-09-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CON vs. MEDP: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/con-vs-medp-which-stock-should-value-investors-buy-now",
+   "date": "2026-08-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is Medpace (MEDP) Up 1.1% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-medpace-medp-11-last-earnings-report",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Medpace (MEDP) is an Incredible Growth Stock: 3 Reasons Why",
+   "url": "https://www.nasdaq.com/articles/medpace-medp-incredible-growth-stock-3-reasons-why",
+   "date": "2026-08-18",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000166839726000023/medp-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-01",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000119312526257387/d162455d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-19",
+   "reportDate": "2026-05-15",
+   "items": [
+    "5.03",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000119312526230425/d101911d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-21",
+   "items": [
+    "2.02",
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000166839726000017/medp-20260421.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-09",
+   "reportDate": "2026-02-09",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000166839726000004/medp-20260209.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-10-22",
+   "reportDate": "2025-10-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1668397/000166839725000108/medp-20251022.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.71,
+  "saleNy": 6.14,
+  "epsCy": 15.87,
+  "epsNy": 9.07,
+  "cyTrend": 3.45,
+  "nyTrend": 2.92,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    17.24,
+    26.5,
+    32.03
+   ],
+   "ni": [
+    34.46,
+    8.09,
+    15.44
+   ],
+   "opm": [
+    20.76,
+    20.03,
+    21.63
+   ],
+   "updated": "2026-09-08 08:14:02"
+  }
+ }
+}

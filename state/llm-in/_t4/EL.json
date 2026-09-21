@@ -1,0 +1,158 @@
+{
+ "ticker": "EL",
+ "news": [
+  {
+   "title": "Why Estee Lauder (EL) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-estee-lauder-el-top-momentum-stock-long-term",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Estee Lauder (EL) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-estee-lauder-el-strong-momentum-stock",
+   "date": "2026-08-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Estée Lauder (EL) Q4 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/estee-lauder-el-q4-2026-earnings-call-transcript",
+   "date": "2026-08-26",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "EL Q4 Earnings Call Signals Higher Margins and Broader Growth",
+   "url": "https://www.nasdaq.com/articles/el-q4-earnings-call-signals-higher-margins-and-broader-growth",
+   "date": "2026-08-20",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-08",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000045/el-20260908.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-19",
+   "reportDate": "2026-08-19",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000038/el-20260819.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "reportDate": "2026-07-20",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000033/el-20260720.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-05-01",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000017/el-20260501.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-24",
+   "reportDate": "2026-03-23",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000010/el-20260323.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "reportDate": "2026-02-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000004/el-20260205.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.3,
+  "saleNy": 4.32,
+  "epsCy": 32.41,
+  "epsNy": 17.76,
+  "cyTrend": 4.38,
+  "nyTrend": 2.23,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.33,
+    4.56,
+    5.62
+   ],
+   "ni": [
+    "적자축소",
+    -44.03,
+    "흑자전환"
+   ],
+   "opm": [
+    -1.08,
+    6.71,
+    9.48
+   ],
+   "updated": "2026-09-08 07:40:37"
+  }
+ }
+}

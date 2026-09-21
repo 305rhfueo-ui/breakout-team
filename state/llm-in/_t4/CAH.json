@@ -1,0 +1,182 @@
+{
+ "ticker": "CAH",
+ "news": [
+  {
+   "title": "Can CAH Navigate IRA Pricing Changes Risk Without Margin Pressure?",
+   "url": "https://www.nasdaq.com/articles/can-cah-navigate-ira-pricing-changes-risk-without-margin-pressure",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cardinal Health (CAH) Registers a Bigger Fall Than the Market: Important Facts to Note",
+   "url": "https://www.nasdaq.com/articles/cardinal-health-cah-registers-bigger-fall-market-important-facts-note",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CAH Gains More Than 29% in 4 Months: Will the Uptrend Continue?",
+   "url": "https://www.nasdaq.com/articles/cah-gains-more-29-4-months-will-uptrend-continue",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cardinal (CAH) Up 2.5% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/cardinal-cah-25-last-earnings-report-can-it-continue",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cardinal Health (CAH) Declines More Than Market: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/cardinal-health-cah-declines-more-market-some-information-investors-0",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Cardinal Health (CAH) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-cardinal-health-cah-strong-value-stock-1",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cardinal Health (CAH) is a Top-Ranked Growth Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/cardinal-health-cah-top-ranked-growth-stock-should-you-buy",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-11",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/721371/000072137126000037/cah-20260811.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-07",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/721371/000072137126000036/cah-20260807.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-04",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/721371/000072137126000026/cah-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/721371/000072137126000017/cah-20260430.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-23",
+   "reportDate": "2026-03-17",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/721371/000072137126000013/cah-20260317.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-05",
+   "reportDate": "2026-03-02",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/721371/000072137126000010/cah-20260302.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.51,
+  "saleNy": 6.05,
+  "epsCy": 14.76,
+  "epsNy": 12.02,
+  "cyTrend": 4.06,
+  "nyTrend": 3.57,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.84,
+    11.05,
+    18.75
+   ],
+   "ni": [
+    66.53,
+    -21.15,
+    16.75
+   ],
+   "opm": [
+    1.14,
+    0.84,
+    1.08
+   ],
+   "updated": "2026-09-08 07:09:00"
+  }
+ }
+}

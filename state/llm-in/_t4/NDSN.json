@@ -1,0 +1,162 @@
+{
+ "ticker": "NDSN",
+ "news": [
+  {
+   "title": "Nordson (NDSN) Down 6.9% Since Last Earnings Report: Can It Rebound?",
+   "url": "https://www.nasdaq.com/articles/nordson-ndsn-down-69-last-earnings-report-can-it-rebound",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "MWA or NDSN: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/mwa-or-ndsn-which-better-value-stock-right-now-0",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "MWA vs. NDSN: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/mwa-vs-ndsn-which-stock-better-value-option",
+   "date": "2026-08-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "What Makes Nordson (NDSN) a Strong Momentum Stock: Buy Now?",
+   "url": "https://www.nasdaq.com/articles/what-makes-nordson-ndsn-strong-momentum-stock-buy-now",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-19",
+   "reportDate": "2026-08-19",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/72331/000007233126000052/ndsn-20260819.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "reportDate": "2026-06-02",
+   "items": [
+    "2.03"
+   ],
+   "itemsKo": [
+    "2.03"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/72331/000007233126000034/ndsn-20260602.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-20",
+   "reportDate": "2026-05-20",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/72331/000007233126000022/ndsn-20260520.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-04",
+   "reportDate": "2026-03-02",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/72331/000007233126000017/ndsn-20260302.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-18",
+   "reportDate": "2026-02-18",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/72331/000007233126000011/ndsn-20260218.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-02",
+   "reportDate": "2026-01-30",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/72331/000007233126000005/ndsn-20260130.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.51,
+  "saleNy": 5.15,
+  "epsCy": 16.66,
+  "epsNy": 8.68,
+  "cyTrend": 3.08,
+  "nyTrend": 3.43,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    10.27,
+    8.48,
+    8.78
+   ],
+   "ni": [
+    21.51,
+    4.37,
+    40.92
+   ],
+   "opm": [
+    27.28,
+    26.62,
+    24.86
+   ],
+   "updated": "2026-09-07 06:11:11"
+  }
+ }
+}

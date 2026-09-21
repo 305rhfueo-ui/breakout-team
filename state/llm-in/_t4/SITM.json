@@ -1,0 +1,178 @@
+{
+ "ticker": "SITM",
+ "news": [
+  {
+   "title": "Why Is SiTime (SITM) Down 16.4% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-sitime-sitm-down-164-last-earnings-report",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "How Much Upside is Left in SiTime (SITM)? Wall Street Analysts Think 37.15%",
+   "url": "https://www.nasdaq.com/articles/how-much-upside-left-sitime-sitm-wall-street-analysts-think-3715",
+   "date": "2026-08-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Earnings Estimates Moving Higher for SiTime (SITM): Time to Buy?",
+   "url": "https://www.nasdaq.com/articles/earnings-estimates-moving-higher-sitime-sitm-time-buy",
+   "date": "2026-08-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SiTime (SITM) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/sitime-sitm-q2-2026-earnings-call-transcript",
+   "date": "2026-08-13",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "SITM Q2 Earnings Call Points to AI Growth and TPD Upside",
+   "url": "https://www.nasdaq.com/articles/sitm-q2-earnings-call-points-ai-growth-and-tpd-upside",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SiTime (SITM) Q2 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/sitime-sitm-q2-earnings-and-revenues-beat-estimates",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1451809/000145180926000059/sitm-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-01",
+   "reportDate": "2026-06-30",
+   "items": [
+    "1.01",
+    "2.01",
+    "2.03",
+    "3.02",
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.01",
+    "2.03",
+    "3.02",
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1451809/000119312526291561/d71116d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-29",
+   "reportDate": "2026-05-29",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1451809/000145180926000050/sitm-20260529.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-19",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1451809/000119312526237180/d47334d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-19",
+   "reportDate": "2026-05-19",
+   "items": [
+    "9.01"
+   ],
+   "itemsKo": [
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1451809/000145180926000045/sitm-20260519.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-08",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1451809/000119312526215879/d56344d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 165.96,
+  "saleNy": 56.06,
+  "epsCy": 248.65,
+  "epsNy": 33.75,
+  "cyTrend": 0.37,
+  "nyTrend": 0.1,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    126.54,
+    88.29,
+    66.32
+   ],
+   "ni": [
+    "흑자전환",
+    "적자축소",
+    "흑자전환"
+   ],
+   "opm": [
+    5.22,
+    -10.86,
+    1.56
+   ],
+   "updated": "2026-09-08 10:25:26"
+  }
+ }
+}

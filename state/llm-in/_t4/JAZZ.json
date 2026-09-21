@@ -1,0 +1,184 @@
+{
+ "ticker": "JAZZ",
+ "news": [
+  {
+   "title": "Should You Buy Jazz Pharmaceuticals Stock After Its Actio Acquisition?",
+   "url": "https://www.nasdaq.com/articles/should-you-buy-jazz-pharmaceuticals-stock-after-its-actio-acquisition",
+   "date": "2026-09-18",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Jazz Pharmaceuticals Completes $820M Acquisition Of Actio Biosciences; Adds KCNT1 Epilepsy Therapy",
+   "url": "https://www.nasdaq.com/articles/jazz-pharmaceuticals-completes-820m-acquisition-actio-biosciences-adds-kcnt1-epilepsy",
+   "date": "2026-09-15",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Why Is Jazz (JAZZ) Down 6.9% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-jazz-jazz-down-69-last-earnings-report",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Jazz's Ziihera + Chemotherapy Shows Statistically Significant Survival Benefit In HER2+ Advanced GEA",
+   "url": "https://www.nasdaq.com/articles/jazzs-ziihera-chemotherapy-shows-statistically-significant-survival-benefit-her2-advanced",
+   "date": "2026-08-31",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Jazz Prices Upsized $1.1 Bln Exchangeable Notes Offering, Plans $225 Mln Share Repurchase",
+   "url": "https://www.nasdaq.com/articles/jazz-prices-upsized-11-bln-exchangeable-notes-offering-plans-225-mln-share-repurchase",
+   "date": "2026-08-27",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Jazz Pharmaceuticals Plans $1 Bln Notes Offering, Concurrent $225 Mln Share Buyback",
+   "url": "https://www.nasdaq.com/articles/jazz-pharmaceuticals-plans-1-bln-notes-offering-concurrent-225-mln-share-buyback",
+   "date": "2026-08-26",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Jazz Pharmaceuticals Launches Ziihera After FDA Nod in HER2-Positive GEA",
+   "url": "https://www.nasdaq.com/articles/jazz-pharmaceuticals-launches-ziihera-after-fda-nod-her2-positive-gea",
+   "date": "2026-08-26",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Jazz Receives FDA Approval For Ziihera Regimens In First-Line HER2+ Gastroesophageal Cancer",
+   "url": "https://www.nasdaq.com/articles/jazz-receives-fda-approval-ziihera-regimens-first-line-her2-gastroesophageal-cancer",
+   "date": "2026-08-25",
+   "publisher": "RTTNews"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-15",
+   "reportDate": "2026-09-15",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1232524/000162828026061978/jazz-20260915.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-31",
+   "reportDate": "2026-08-26",
+   "items": [
+    "1.01",
+    "2.03",
+    "3.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "3.02",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1232524/000119312526377073/d127542d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-25",
+   "reportDate": "2026-08-25",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1232524/000162828026058864/jazz-20260825.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-10",
+   "reportDate": "2026-08-10",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1232524/000119312526342667/d151973d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-10",
+   "reportDate": "2026-08-10",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1232524/000119312526341270/d106596d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-08-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1232524/000123252426000044/jazz-20260803.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 10.65,
+  "saleNy": 6.03,
+  "epsCy": 198.72,
+  "epsNy": 2.97,
+  "cyTrend": -0.07,
+  "nyTrend": 0.02,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    15.55,
+    19.06,
+    10.09
+   ],
+   "ni": [
+    "흑자전환",
+    "흑자전환",
+    0.77
+   ],
+   "opm": [
+    20.54,
+    31.49,
+    21.25
+   ],
+   "updated": "2026-09-19 05:43:19"
+  }
+ }
+}

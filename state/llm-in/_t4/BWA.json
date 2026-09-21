@@ -1,0 +1,180 @@
+{
+ "ticker": "BWA",
+ "news": [
+  {
+   "title": "Are Auto-Tires-Trucks Stocks Lagging  BorgWarner (BWA) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-auto-tires-trucks-stocks-lagging-borgwarner-bwa-year",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is BorgWarner (BWA) Stock Undervalued Right Now?",
+   "url": "https://www.nasdaq.com/articles/borgwarner-bwa-stock-undervalued-right-now",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why BorgWarner (BWA) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-borgwarner-bwa-strong-growth-stock-2",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is BorgWarner (BWA) Down 0.1% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-borgwarner-bwa-down-01-last-earnings-report",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "RBC Capital Initiates Coverage of BorgWarner (BWA) with Outperform Recommendation",
+   "url": "https://www.nasdaq.com/articles/rbc-capital-initiates-coverage-borgwarner-bwa-outperform-recommendation",
+   "date": "2026-09-01",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Here's Why BorgWarner (BWA) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-borgwarner-bwa-strong-value-stock-1",
+   "date": "2026-09-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why BorgWarner (BWA) is a Top Growth Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-borgwarner-bwa-top-growth-stock-long-term-1",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Monday 8/24 Insider Buying Report: ELAN, BWA",
+   "url": "https://www.nasdaq.com/articles/monday-8-24-insider-buying-report-elan-bwa",
+   "date": "2026-08-24",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-04",
+   "reportDate": "2026-09-04",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/908255/000110465926105519/tm2624838d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-10",
+   "reportDate": "2026-08-10",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/908255/000090825526000054/bwa-20260810.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/908255/000090825526000049/bwa-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-31",
+   "reportDate": "2026-07-30",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/908255/000090825526000045/bwa-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-26",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/908255/000090825526000037/bwa-20260526.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/908255/000090825526000023/bwa-20260506.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -0.76,
+  "saleNy": 4.62,
+  "epsCy": 6.32,
+  "epsNy": 13.76,
+  "cyTrend": 0.03,
+  "nyTrend": -0.02,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    0.27,
+    0.51,
+    3.87
+   ],
+   "ni": [
+    23.66,
+    54.14,
+    "적자축소"
+   ],
+   "opm": [
+    10.14,
+    9.51,
+    -6.66
+   ],
+   "updated": "2026-09-07 07:37:41"
+  }
+ }
+}

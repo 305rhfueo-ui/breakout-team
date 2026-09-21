@@ -1,0 +1,156 @@
+{
+ "ticker": "MSGS",
+ "news": [
+  {
+   "title": "Madison Square Garden (MSGS) Beats Q4 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/madison-square-garden-msgs-beats-q4-earnings-and-revenue-estimates",
+   "date": "2026-08-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Strength Seen in Madison Square Garden (MSGS): Can Its 3.8% Jump Turn into More Strength?",
+   "url": "https://www.nasdaq.com/articles/strength-seen-madison-square-garden-msgs-can-its-38-jump-turn-more-strength",
+   "date": "2026-06-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Buy MSGE or MSGS Stock After the Knicks' First Championship in 53 Years?",
+   "url": "https://www.nasdaq.com/articles/buy-msge-or-msgs-stock-after-knicks-first-championship-53-years",
+   "date": "2026-06-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Madison Square Garden (MSGS) Reports Q3 Loss, Tops Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/madison-square-garden-msgs-reports-q3-loss-tops-revenue-estimates",
+   "date": "2026-05-08",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-13",
+   "reportDate": "2026-08-13",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1636519/000162828026056478/msgs-20260813.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-08",
+   "reportDate": "2026-05-08",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1636519/000162828026032551/msgs-20260508.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-04-28",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1636519/000119312526204017/d76768d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-18",
+   "reportDate": "2026-02-17",
+   "items": [
+    "5.02",
+    "8.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1636519/000119312526056081/d286117d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "reportDate": "2026-02-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1636519/000162828026005609/msgs-20260205.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-09",
+   "reportDate": "2025-12-08",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1636519/000119312525312756/d59755d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": -6.22,
+  "saleNy": 3.79,
+  "epsCy": -402.69,
+  "epsNy": 89.1,
+  "cyTrend": 63.14,
+  "nyTrend": 1516.36,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    36.67,
+    1.89,
+    12.76
+   ],
+   "ni": [
+    "흑자전환",
+    "적자확대",
+    648.64
+   ],
+   "opm": [
+    11.53,
+    0.45,
+    5.5
+   ],
+   "updated": "2026-09-08 07:55:36"
+  }
+ }
+}

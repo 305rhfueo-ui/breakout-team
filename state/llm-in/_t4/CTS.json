@@ -1,0 +1,182 @@
+{
+ "ticker": "CTS",
+ "news": [
+  {
+   "title": "Do Options Traders Know Something About CTS Stock We Don't?",
+   "url": "https://www.nasdaq.com/articles/do-options-traders-know-something-about-cts-stock-we-dont",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CTS vs. LFUS: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/cts-vs-lfus-which-stock-should-value-investors-buy-now",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Lake Street Initiates Coverage of CTS (CTS) with Buy Recommendation",
+   "url": "https://www.nasdaq.com/articles/lake-street-initiates-coverage-cts-cts-buy-recommendation",
+   "date": "2026-09-03",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "CTS or LFUS: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/cts-or-lfus-which-better-value-stock-right-now",
+   "date": "2026-08-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why CTS (CTS) Is a Great 'Buy the Bottom' Stock Now",
+   "url": "https://www.nasdaq.com/articles/heres-why-cts-cts-great-buy-bottom-stock-now",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is CTS (CTS) Outperforming Other Computer and Technology Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/cts-cts-outperforming-other-computer-and-technology-stocks-year",
+   "date": "2026-08-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CTS vs. LFUS: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/cts-vs-lfus-which-stock-better-value-option",
+   "date": "2026-08-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CTS (CTS) is a Great Momentum Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/cts-cts-great-momentum-stock-should-you-buy",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/26058/000119312526318919/cts-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/26058/000119312526318911/cts-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-25",
+   "reportDate": "2026-06-25",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/26058/000119312526282712/cts-20260625.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-19",
+   "reportDate": "2026-05-14",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/26058/000119312526230702/cts-20260514.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/26058/000119312526189091/cts-20260429.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/26058/000119312526189074/cts-20260429.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.95,
+  "saleNy": 6.07,
+  "epsCy": 18.98,
+  "epsNy": 8.04,
+  "cyTrend": -2.45,
+  "nyTrend": -3.8,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    7,
+    10.7,
+    8.55
+   ],
+   "ni": [
+    3.44,
+    28.65,
+    70.7
+   ],
+   "opm": [
+    18.51,
+    15.79,
+    16.53
+   ],
+   "updated": "2026-09-08 05:44:00"
+  }
+ }
+}

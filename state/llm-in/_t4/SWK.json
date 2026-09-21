@@ -1,0 +1,170 @@
+{
+ "ticker": "SWK",
+ "news": [
+  {
+   "title": "Cash Dividend On The Way From Stanley Black & Decker (SWK)",
+   "url": "https://www.nasdaq.com/articles/cash-dividend-way-stanley-black-decker-swk",
+   "date": "2026-09-04",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Here's Why Stanley Black & Decker (SWK) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-stanley-black-decker-swk-strong-value-stock-0",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is Stanley Black & Decker (SWK) Up 3.9% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-stanley-black-decker-swk-39-last-earnings-report",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SWK Crosses Above Average Analyst Target",
+   "url": "https://www.nasdaq.com/articles/swk-crosses-above-average-analyst-target-0",
+   "date": "2026-08-27",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "SWK vs. TTNDY: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/swk-vs-ttndy-which-stock-should-value-investors-buy-now",
+   "date": "2026-08-20",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-04",
+   "reportDate": "2026-09-01",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/93556/000119312526383511/d493257d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/93556/000009355626000028/swk-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-24",
+   "reportDate": "2026-06-18",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/93556/000119312526281077/d49687d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/93556/000009355626000013/swk-20260429.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-27",
+   "reportDate": "2026-04-24",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/93556/000119312526182041/d930480d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-20",
+   "reportDate": "2026-04-20",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/93556/000119312526162675/d76531d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0.08,
+  "saleNy": 1.81,
+  "epsCy": 19.95,
+  "epsNy": 13.89,
+  "cyTrend": -0.05,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    0.39,
+    2.72,
+    -0.96
+   ],
+   "ni": [
+    244.75,
+    -34.07,
+    -18.83
+   ],
+   "opm": [
+    14.1,
+    4.18,
+    8.4
+   ],
+   "updated": "2026-09-08 09:58:03"
+  }
+ }
+}

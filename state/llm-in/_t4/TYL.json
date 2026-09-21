@@ -1,0 +1,176 @@
+{
+ "ticker": "TYL",
+ "news": [
+  {
+   "title": "Why Tyler Technologies (TYL) is a Top Growth Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-tyler-technologies-tyl-top-growth-stock-long-term",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Tyler Technologies (TYL) Up 14.4% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/tyler-technologies-tyl-144-last-earnings-report-can-it-continue",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "TYL Crosses Above Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/tyl-crosses-above-key-moving-average-level",
+   "date": "2026-08-27",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Does Tyler Technologies (TYL) Have the Potential to Rally 34.51% as Wall Street Analysts Expect?",
+   "url": "https://www.nasdaq.com/articles/does-tyler-technologies-tyl-have-potential-rally-3451-wall-street-analysts-expect",
+   "date": "2026-08-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Tyler Technologies (TYL) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/tyler-technologies-tyl-q2-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Tyler Technologies (TYL) Tops Q2 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/tyler-technologies-tyl-tops-q2-earnings-estimates",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-15",
+   "reportDate": "2026-09-15",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/860731/000086073126000052/tyl-20260915.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "8.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/860731/000086073126000048/tyl-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-12",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/860731/000086073126000044/tyl-20260612.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-29",
+   "reportDate": "2026-05-29",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/860731/000086073126000042/tyl-20260529.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-14",
+   "reportDate": "2026-05-14",
+   "items": [
+    "1.01",
+    "2.03",
+    "3.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "3.02",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/860731/000086073126000040/tyl-20260514.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-12",
+   "reportDate": "2026-05-12",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/860731/000086073126000038/tyl-20260512.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.53,
+  "saleNy": 9.91,
+  "epsCy": 15.82,
+  "epsNy": 17.2,
+  "cyTrend": 1.53,
+  "nyTrend": 3.5,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    8.22,
+    8.55,
+    6.29
+   ],
+   "ni": [
+    10.5,
+    0.16,
+    0.48
+   ],
+   "opm": [
+    14.74,
+    16.27,
+    13.04
+   ],
+   "updated": "2026-09-09 06:12:53"
+  }
+ }
+}

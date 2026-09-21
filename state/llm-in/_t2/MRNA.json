@@ -16,7 +16,7 @@
    "ny30": -4.90677
   },
   "newHigh52": false,
-  "bbCenterBrk5d": false,
+  "bbCenterBrk5d": true,
   "fs": {
    "sale": [
     2.11,
@@ -36,23 +36,22 @@
    "updated": "2026-09-15 06:06:31"
   },
   "qualifiedBy": [
-   "1mo",
    "3mo",
    "6mo"
   ],
   "top2Since": {
-   "m1": "2026-08-19",
+   "m1": null,
    "m3": "2026-08-19",
    "m6": "2026-08-19"
   },
   "top2Streak": {
-   "m1": 19,
-   "m3": 19,
-   "m6": 19
+   "m1": 0,
+   "m3": 20,
+   "m6": 20
   }
  },
  "detail": {
-  "fetchedAt": "2026-09-18",
+  "fetchedAt": "2026-09-21",
   "nameKo": "모더나",
   "nameEn": "MODERNA INC",
   "financials": {
@@ -122,6 +121,12 @@
   "news": {
    "items": [
     {
+     "title": "Axsome Therapeutics vs. Moderna: Which Healthcare Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/axsome-therapeutics-vs-moderna-which-healthcare-stock-better-buy-2026",
+     "date": "2026-09-18",
+     "publisher": "The Motley Fool"
+    },
+    {
      "title": "Moderna (MRNA) Ascends While Market Falls: Some Facts to Note",
      "url": "https://www.nasdaq.com/articles/moderna-mrna-ascends-while-market-falls-some-facts-note",
      "date": "2026-09-14",
@@ -143,12 +148,6 @@
      "title": "Amgen vs. Moderna: Which Healthcare Stock Is a Better Buy in 2026?",
      "url": "https://www.nasdaq.com/articles/amgen-vs-moderna-which-healthcare-stock-better-buy-2026",
      "date": "2026-09-10",
-     "publisher": "The Motley Fool"
-    },
-    {
-     "title": "If You'd Invested in Moderna (MRNA) Stock 5 Years Ago, Here's How Much You'd Have Today (Hint: You'd Be Disappointed -- But Not If You Bought It 1 Year Ago.)",
-     "url": "https://www.nasdaq.com/articles/if-youd-invested-moderna-mrna-stock-5-years-ago-heres-how-much-youd-have-today-hint-youd",
-     "date": "2026-09-06",
      "publisher": "The Motley Fool"
     }
    ]
@@ -228,7 +227,7 @@
      "analyst": "조재운",
      "title": "[모더나 (NAS:MRNA)] [Issue & News] 20억 달러 전환사채 사모 발행 추진 - 흑색종 데이터發 주가 급등을 활용한 자본조달",
      "summary": "- 20억 달러 전환사채 사모 발행 공시, 세부조건 미공개- 흑색종 3상 데이터 이후 주가 급등 시점에 조달- 현금여력 확대되지만 전환권 행사 시 희석 우려",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqkzlgiexqxgcgxcmel.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqkzlgiexqxgcgxcmge.pdf"
     },
     {
      "date": "2026-08-26",
@@ -236,7 +235,7 @@
      "analyst": "조재운",
      "title": "[모더나 (NAS:MRNA)] [Issue & News] 머크 공동 흑색종 백신 작동원리·생산과제 상세 공개",
      "summary": "- 흑색종 백신 작동원리·비소세포폐암 등 확장 파이프라인 공개- 전체 생존율 데이터는 아직 미공개, 임상 불확실성 지속- 개인맞춤 생산 특성상 10~100배 증설 필요, 실행 리스크 부각",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqqcexmkclgzegcgxcmel.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqqcexmkclgzegcgxcmge.pdf"
     },
     {
      "date": "2026-08-21",
@@ -244,7 +243,7 @@
      "analyst": "허혜민",
      "title": "[모더나 (NAS:MRNA)] mRNA 기반 암 치료제 최초 3상 성공",
      "summary": "- 코로나19 백신으로 mRNA 상업화에 성공한 바이오텍. mRNA 기반 암 치료제로는 세계 최초 3상 성공- 다만, 시장은 이미 흑색종 성공을 상당부분 선반영한 상태로 신장암, 방광암, 폐암 등 다른 암종으로 확장성에 주목",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqgxkklglmlgzgcgxcmel.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqgxkklglmlgzgcgxcmge.pdf"
     }
    ]
   }

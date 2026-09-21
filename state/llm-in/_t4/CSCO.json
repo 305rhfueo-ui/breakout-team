@@ -1,0 +1,140 @@
+{
+ "ticker": "CSCO",
+ "news": [
+  {
+   "title": "CSCO's Splunk AI Push Gains Momentum: Can It Outpace DDOG & CRWD?",
+   "url": "https://www.nasdaq.com/articles/cscos-splunk-ai-push-gains-momentum-can-it-outpace-ddog-crwd",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-12",
+   "reportDate": "2026-08-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000106/csco-20260812.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-13",
+   "reportDate": "2026-05-13",
+   "items": [
+    "2.02",
+    "2.05",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "2.05",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000075/csco-20260513.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-04-27",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000057/csco-20260427.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-06",
+   "reportDate": "2026-03-31",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000048/csco-20260331.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-11",
+   "reportDate": "2026-02-11",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000006/csco-20260211.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-17",
+   "reportDate": "2025-12-16",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000199/csco-20251216.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 15.54,
+  "saleNy": 6.33,
+  "epsCy": 18.77,
+  "epsNy": 8.94,
+  "cyTrend": 7.52,
+  "nyTrend": 6.1,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    17.58,
+    11.96,
+    9.71
+   ],
+   "ni": [
+    51.33,
+    35.41,
+    30.77
+   ],
+   "opm": [
+    24.72,
+    25,
+    24.63
+   ],
+   "updated": "2026-09-08 06:18:04"
+  }
+ }
+}

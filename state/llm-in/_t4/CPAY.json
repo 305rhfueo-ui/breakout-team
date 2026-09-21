@@ -1,0 +1,176 @@
+{
+ "ticker": "CPAY",
+ "news": [
+  {
+   "title": "Why Is Corpay (CPAY) Up 5.4% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-corpay-cpay-54-last-earnings-report",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Scotiabank Initiates Coverage of Corpay (CPAY) with Sector Outperform Recommendation",
+   "url": "https://www.nasdaq.com/articles/scotiabank-initiates-coverage-corpay-cpay-sector-outperform-recommendation",
+   "date": "2026-09-03",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "CPAY Stock Rises 15% in 3 Months: Here's What You Should Know",
+   "url": "https://www.nasdaq.com/articles/cpay-stock-rises-15-3-months-heres-what-you-should-know",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Corpay (CPAY) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-corpay-cpay-top-momentum-stock-long-term",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Corpay (CPAY) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/corpay-cpay-q2-2026-earnings-call-transcript",
+   "date": "2026-08-13",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Here's Why Corpay (CPAY) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-corpay-cpay-strong-value-stock",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Corpay (CPAY) is a Top-Ranked Momentum Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/corpay-cpay-top-ranked-momentum-stock-should-you-buy",
+   "date": "2026-08-11",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000045/flt-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "reportDate": "2026-07-22",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000042/flt-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-21",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000040/flt-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-12",
+   "reportDate": "2026-05-12",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000036/flt-20260512.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-12",
+   "reportDate": "2026-05-07",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000034/flt-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000029/flt-20260507.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 17.4,
+  "saleNy": 8.69,
+  "epsCy": 28.12,
+  "epsNy": 14.8,
+  "cyTrend": 2.32,
+  "nyTrend": 2.79,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    21.49,
+    25.39,
+    20.67
+   ],
+   "ni": [
+    -13.62,
+    42.7,
+    6.93
+   ],
+   "opm": [
+    35.28,
+    50.45,
+    45.22
+   ],
+   "updated": "2026-09-07 07:02:36"
+  }
+ }
+}

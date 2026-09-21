@@ -1,0 +1,170 @@
+{
+ "ticker": "VEEV",
+ "news": [
+  {
+   "title": "Investors Heavily Search Veeva Systems Inc. (VEEV): Here is What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/investors-heavily-search-veeva-systems-inc-veev-here-what-you-need-know",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Veeva Systems (VEEV) Just Flashed Golden Cross Signal: Do You Buy?",
+   "url": "https://www.nasdaq.com/articles/veeva-systems-veev-just-flashed-golden-cross-signal-do-you-buy",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Veeva Systems (VEEV) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-veeva-systems-veev-top-momentum-stock-long-term",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Veeva Systems (VEEV) is a Top Growth Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-veeva-systems-veev-top-growth-stock-long-term-0",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "VEEV Raises FY27 Outlook as Vault CRM and AI Momentum Accelerate Fast",
+   "url": "https://www.nasdaq.com/articles/veev-raises-fy27-outlook-vault-crm-and-ai-momentum-accelerate-fast",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Veeva (VEEV) Q2 2027 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/veeva-veev-q2-2027-earnings-call-transcript",
+   "date": "2026-08-31",
+   "publisher": "The Motley Fool"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-26",
+   "reportDate": "2026-08-26",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000032/veev-20260826.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-20",
+   "reportDate": "2026-08-18",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000121390026092096/ea0302765-8k_veeva.htm",
+   "description": "CURRENT REPORT"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-17",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000029/veev-20260617.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "reportDate": "2026-06-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000022/veev-20260603.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-20",
+   "reportDate": "2026-04-20",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000018/veev-20260420.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-04",
+   "reportDate": "2026-03-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000007/veev-20260304.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 15.46,
+  "saleNy": 12.29,
+  "epsCy": 14.02,
+  "epsNy": 10.99,
+  "cyTrend": 1.91,
+  "nyTrend": 2.16,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    17.6,
+    16.32,
+    15.96
+   ],
+   "ni": [
+    36.5,
+    14.35,
+    24.83
+   ],
+   "opm": [
+    29.64,
+    30.93,
+    29.41
+   ],
+   "updated": "2026-09-08 09:08:19"
+  }
+ }
+}

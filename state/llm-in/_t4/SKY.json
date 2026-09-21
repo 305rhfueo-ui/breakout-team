@@ -1,0 +1,160 @@
+{
+ "ticker": "SKY",
+ "news": [
+  {
+   "title": "Champion Homes (SKY) Q1 Earnings Lag Estimates",
+   "url": "https://www.nasdaq.com/articles/champion-homes-sky-q1-earnings-lag-estimates",
+   "date": "2026-08-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Champion Homes Breaks Below 200-Day Moving Average - Notable for SKY",
+   "url": "https://www.nasdaq.com/articles/champion-homes-breaks-below-200-day-moving-average-notable-sky",
+   "date": "2026-07-08",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Champion Homes (SKY) Q4 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/champion-homes-sky-q4-2026-earnings-transcript",
+   "date": "2026-05-26",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Champion Homes (SKY) Tops Q4 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/champion-homes-sky-tops-q4-earnings-and-revenue-estimates",
+   "date": "2026-05-26",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-26",
+   "reportDate": "2026-08-24",
+   "items": [
+    "5.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526368465/sky-20260824.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526332837/sky-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-07-30",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526330664/sky-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "reportDate": "2026-06-01",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526253964/sky-20260601.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-05-31",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526249679/d80225d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-26",
+   "reportDate": "2026-05-26",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526237809/sky-20260526.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.81,
+  "saleNy": 7.58,
+  "epsCy": -9.66,
+  "epsNy": 22.59,
+  "cyTrend": 2.38,
+  "nyTrend": 6.08,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    1.27,
+    4.62,
+    1.81
+   ],
+   "ni": [
+    -24.01,
+    -18.36,
+    -11.7
+   ],
+   "opm": [
+    8.49,
+    5.79,
+    9.51
+   ],
+   "updated": "2026-09-08 05:59:33"
+  }
+ }
+}

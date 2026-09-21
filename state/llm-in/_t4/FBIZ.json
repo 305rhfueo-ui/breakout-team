@@ -1,0 +1,186 @@
+{
+ "ticker": "FBIZ",
+ "news": [
+  {
+   "title": "FBIZ Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/fbiz-q2-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "All You Need to Know About First Business Financial Services (FBIZ) Rating Upgrade to Buy",
+   "url": "https://www.nasdaq.com/articles/all-you-need-know-about-first-business-financial-services-fbiz-rating-upgrade-buy",
+   "date": "2026-08-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "First Business Financial Services (FBIZ) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/first-business-financial-services-fbiz-q2-earnings-taking-look-key-metrics-versus",
+   "date": "2026-07-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "First Business Financial Services (FBIZ) Q2 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/first-business-financial-services-fbiz-q2-earnings-and-revenues-top-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "First Business Financial Services (FBIZ) is a Top Dividend Stock Right Now: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/first-business-financial-services-fbiz-top-dividend-stock-right-now-should-you-buy",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "First Business Financial Services (FBIZ) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/first-business-financial-services-fbiz-could-be-great-choice",
+   "date": "2026-07-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why First Business Financial Services (FBIZ) is a Great Dividend Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/why-first-business-financial-services-fbiz-great-dividend-stock-right-now-1",
+   "date": "2026-06-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "First Business Financial Services (FBIZ) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/first-business-financial-services-fbiz-could-be-great-choice-1",
+   "date": "2026-05-25",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-20",
+   "reportDate": "2026-08-20",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1521951/000119312526359419/fbiz-20260820.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1521951/000119312526326079/fbiz-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-22",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1521951/000119312526245166/fbiz-20260522.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1521951/000119312526204998/fbiz-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-24",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1521951/000119312526191442/fbiz-20260424.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "2.02",
+    "7.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1521951/000119312526173671/fbiz-20260423.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 10.06,
+  "saleNy": 6.97,
+  "epsCy": 9.97,
+  "epsNy": 6.03,
+  "cyTrend": 5.05,
+  "nyTrend": 3.31,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    7.37,
+    5.31,
+    3.08
+   ],
+   "ni": [
+    37.58,
+    9.76,
+    -7.05
+   ],
+   "opm": [
+    22.82,
+    20.35,
+    25.09
+   ],
+   "updated": "2026-09-08 10:40:45"
+  }
+ }
+}

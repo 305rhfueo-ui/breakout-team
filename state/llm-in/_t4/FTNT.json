@@ -1,0 +1,148 @@
+{
+ "ticker": "FTNT",
+ "news": [
+  {
+   "title": "Fortinet (FTNT) Stock Declines While Market Improves: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/fortinet-ftnt-stock-declines-while-market-improves-some-information-investors",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Can Palo Alto Networks' SASE Push Help It Challenge FTNT and ZS?",
+   "url": "https://www.nasdaq.com/articles/can-palo-alto-networks-sase-push-help-it-challenge-ftnt-and-zs",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Fortinet (FTNT) Recently Broke Out Above the 20-Day Moving Average",
+   "url": "https://www.nasdaq.com/articles/fortinet-ftnt-recently-broke-out-above-20-day-moving-average",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000018/ftnt-20260729.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-16",
+   "reportDate": "2026-06-12",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000015/ftnt-20260612.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000010/ftnt-20260506.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "reportDate": "2026-02-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000003/ftnt-20260205.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-05",
+   "reportDate": "2025-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203925000036/ftnt-20251105.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-08-22",
+   "reportDate": "2025-08-21",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203925000033/ftnt-20250821.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 19.41,
+  "saleNy": 11.35,
+  "epsCy": 25,
+  "epsNy": 9.5,
+  "cyTrend": 0.32,
+  "nyTrend": 0.48,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    25.64,
+    20.13,
+    14.75
+   ],
+   "ni": [
+    37.76,
+    23.33,
+    -3.84
+   ],
+   "opm": [
+    33.66,
+    31.36,
+    32.84
+   ],
+   "updated": "2026-09-08 06:58:42"
+  }
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "ticker": "VCTR",
+ "news": [
+  {
+   "title": "Victory Capital Holdings About To Put More Money In Your Pocket (VCTR)",
+   "url": "https://www.nasdaq.com/articles/victory-capital-holdings-about-put-more-money-your-pocket-vctr",
+   "date": "2026-09-08",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Victory Capital Holdings (VCTR) Is Up 2.32% in One Week: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/victory-capital-holdings-vctr-232-one-week-what-you-should-know",
+   "date": "2026-08-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Victory Capital Holdings, Inc. (VCTR) Hits Fresh High: Is There Still Room to Run?",
+   "url": "https://www.nasdaq.com/articles/victory-capital-holdings-inc-vctr-hits-fresh-high-there-still-room-run",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "3 Reasons Growth Investors Will Love Victory Capital (VCTR)",
+   "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-victory-capital-vctr",
+   "date": "2026-08-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Victory Capital (VCTR) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/victory-capital-vctr-q2-2026-earnings-call-transcript",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Here is Why Growth Investors Should Buy Victory Capital (VCTR) Now",
+   "url": "https://www.nasdaq.com/articles/here-why-growth-investors-should-buy-victory-capital-vctr-now",
+   "date": "2026-08-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Victory Capital Holdings, Inc. (VCTR) Hit a 52 Week High, Can the Run Continue?",
+   "url": "https://www.nasdaq.com/articles/victory-capital-holdings-inc-vctr-hit-52-week-high-can-run-continue",
+   "date": "2026-08-10",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-11",
+   "reportDate": "2026-09-11",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1570827/000119312526388709/vctr-20260911.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-31",
+   "reportDate": "2026-08-25",
+   "items": [
+    "1.01",
+    "3.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "3.02",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1570827/000110465926103936/tm2624030d6_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-26",
+   "reportDate": "2026-08-26",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1570827/000110465926101533/tm2624030d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-12",
+   "reportDate": "2026-08-12",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1570827/000119312526346020/vctr-20260812.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1570827/000119312526335319/vctr-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-22",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1570827/000119312526314260/vctr-20260722.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 25.89,
+  "saleNy": 5.47,
+  "epsCy": 25.29,
+  "epsNy": 7.08,
+  "cyTrend": 6.9,
+  "nyTrend": 4.9,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    23.96,
+    76.68,
+    61
+   ],
+   "ni": [
+    128.79,
+    38,
+    14.09
+   ],
+   "opm": [
+    44.5,
+    41.03,
+    40.94
+   ],
+   "updated": "2026-09-08 08:33:24"
+  }
+ }
+}

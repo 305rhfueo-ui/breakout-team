@@ -1,0 +1,168 @@
+{
+ "ticker": "ARCB",
+ "news": [
+  {
+   "title": "Here's Why ArcBest (ARCB) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-arcbest-arcb-strong-value-stock-0",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is ArcBest (ARCB) Down 2.1% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-arcbest-arcb-down-21-last-earnings-report",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why ArcBest (ARCB) is a Top Value Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-arcbest-arcb-top-value-stock-long-term",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why ArcBest (ARCB) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-arcbest-arcb-strong-value-stock",
+   "date": "2026-08-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ArcBest (ARCB) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/arcbest-arcb-q2-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "ArcBest (ARCB) Is Attractively Priced Despite Fast-paced Momentum",
+   "url": "https://www.nasdaq.com/articles/arcbest-arcb-attractively-priced-despite-fast-paced-momentum",
+   "date": "2026-08-03",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-08",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/894405/000110465926105900/arcb-20260908x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/894405/000110465926087722/arcb-20260729x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "reportDate": "2026-07-24",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/894405/000110465926086560/arcb-20260724x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-16",
+   "reportDate": "2026-07-16",
+   "items": [
+    "2.05",
+    "2.06",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.05",
+    "2.06",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/894405/000110465926084248/arcb-20260716x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-04",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/894405/000110465926070593/arcb-20260604x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-18",
+   "reportDate": "2026-05-18",
+   "items": [
+    "1.02"
+   ],
+   "itemsKo": [
+    "1.02"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/894405/000110465926063183/arcb-20260518x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.05,
+  "saleNy": 7.67,
+  "epsCy": 86.43,
+  "epsNy": 38.4,
+  "cyTrend": 1.26,
+  "nyTrend": 0.56,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    15.87,
+    3.28,
+    -2.89
+   ],
+   "ni": [
+    -153.56,
+    -133.12,
+    -127.95
+   ],
+   "opm": [
+    -1.74,
+    0.34,
+    -0.85
+   ],
+   "updated": "2026-09-07 07:21:02"
+  }
+ }
+}

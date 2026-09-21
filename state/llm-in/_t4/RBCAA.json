@@ -1,0 +1,166 @@
+{
+ "ticker": "RBCAA",
+ "news": [
+  {
+   "title": "RBCAA Ex-Dividend Reminder - 3/20/26",
+   "url": "https://www.nasdaq.com/articles/rbcaa-ex-dividend-reminder-3-20-26",
+   "date": "2026-03-18",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Republic Bancorp (RBCAA) Q4 Earnings Miss Estimates",
+   "url": "https://www.nasdaq.com/articles/republic-bancorp-rbcaa-q4-earnings-miss-estimates",
+   "date": "2026-01-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Republic Bancorp Breaks Below 200-Day Moving Average - Notable for RBCAA",
+   "url": "https://www.nasdaq.com/articles/republic-bancorp-breaks-below-200-day-moving-average-notable-rbcaa",
+   "date": "2026-01-27",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "RBCAA Crosses Below Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/rbcaa-crosses-below-key-moving-average-level",
+   "date": "2025-12-26",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Republic Bancorp (RBCAA) Upgraded to Buy: Here's Why",
+   "url": "https://www.nasdaq.com/articles/republic-bancorp-rbcaa-upgraded-buy-heres-why",
+   "date": "2025-11-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Republic Bancorp (RBCAA) Surpasses Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/republic-bancorp-rbcaa-surpasses-q3-earnings-and-revenue-estimates",
+   "date": "2025-10-17",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "reportDate": "2026-07-24",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926086487/rbcaa-20260724x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-20",
+   "reportDate": "2026-07-16",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926085103/rbcaa-20260716x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-15",
+   "reportDate": "2026-07-15",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926083868/rbcaa-20260715x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-20",
+   "reportDate": "2026-05-20",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926064475/rbcaa-20260520x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-24",
+   "reportDate": "2026-04-23",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926048535/rbcaa-20260423x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/921557/000110465926047386/rbcaa-20260423x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -0.5,
+  "saleNy": 3.2,
+  "epsCy": 2.55,
+  "epsNy": 1.32,
+  "cyTrend": -2.3,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    1.88,
+    -11.81,
+    1.25
+   ],
+   "ni": [
+    4.39,
+    -9.94,
+    20.01
+   ],
+   "opm": [
+    34.85,
+    38.53,
+    23.25
+   ],
+   "updated": "2026-09-08 06:25:36"
+  }
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "ticker": "ASML",
+ "news": [
+  {
+   "title": "KLAC Gains From AI Infrastructure: Can It Outpace AMAT & ASML?",
+   "url": "https://www.nasdaq.com/articles/klac-gains-ai-infrastructure-can-it-outpace-amat-asml",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ASML Rides on Strength in Installed Base Business: Will it Sustain?",
+   "url": "https://www.nasdaq.com/articles/asml-rides-strength-installed-base-business-will-it-sustain",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ASML Holding N.V. (ASML) is Attracting Investor Attention: Here is What You Should Know",
+   "url": "https://www.nasdaq.com/articles/asml-holding-nv-asml-attracting-investor-attention-here-what-you-should-know",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ASML vs. Taiwan Semiconductor Manufacturing: Which Tech Stock Is a Better Buy in 2026?",
+   "url": "https://www.nasdaq.com/articles/asml-vs-taiwan-semiconductor-manufacturing-which-tech-stock-better-buy-2026",
+   "date": "2026-09-16",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "ASML (ASML) Gains As Market Dips: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/asml-asml-gains-market-dips-what-you-should-know",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 31.08,
+  "saleNy": 27.2,
+  "epsCy": 55.1,
+  "epsNy": 34.96,
+  "cyTrend": 0.78,
+  "nyTrend": 0.58,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    24.19,
+    25.81,
+    13.94
+   ],
+   "ni": [
+    30.48,
+    30.05,
+    14.78
+   ],
+   "opm": [
+    37.06,
+    36.02,
+    35.37
+   ],
+   "updated": "2026-09-08 08:40:31"
+  }
+ }
+}

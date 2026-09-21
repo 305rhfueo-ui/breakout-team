@@ -1,0 +1,67 @@
+{
+ "ticker": "TIGO",
+ "news": [
+  {
+   "title": "Millicom (TIGO) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/millicom-tigo-q2-2026-earnings-call-transcript",
+   "date": "2026-08-07",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Millicom International Cellular SA (TIGO) Beats Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/millicom-international-cellular-sa-tigo-beats-q2-earnings-and-revenue-estimates",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Millicom (TIGO) Q1 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/millicom-tigo-q1-2026-earnings-transcript",
+   "date": "2026-05-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Millicom International Cellular SA (TIGO) Q1 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/millicom-international-cellular-sa-tigo-q1-earnings-and-revenues-top-estimates",
+   "date": "2026-05-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Millicom International Cellular (TIGO) Price Target Increased by 15.24% to 68.55",
+   "url": "https://www.nasdaq.com/articles/millicom-international-cellular-tigo-price-target-increased-1524-6855",
+   "date": "2026-03-27",
+   "publisher": "Fintel"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 50.58,
+  "saleNy": 4.25,
+  "epsCy": 16.69,
+  "epsNy": 55.12,
+  "cyTrend": -3.73,
+  "nyTrend": -4.07,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    59.4,
+    45.1,
+    16.53
+   ],
+   "ni": [
+    -83.88,
+    -43.52,
+    687.5
+   ],
+   "opm": [
+    21.2,
+    20.86,
+    28.55
+   ],
+   "updated": "2026-09-07 06:36:41"
+  }
+ }
+}

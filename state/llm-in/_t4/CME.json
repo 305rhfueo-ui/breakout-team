@@ -1,0 +1,156 @@
+{
+ "ticker": "CME",
+ "news": [
+  {
+   "title": "CME vs. Morningstar: Which Financial Stock Is a Better Buy in 2026?",
+   "url": "https://www.nasdaq.com/articles/cme-vs-morningstar-which-financial-stock-better-buy-2026",
+   "date": "2026-09-16",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "CME Group Promotes Jack Tobin To CFO",
+   "url": "https://www.nasdaq.com/articles/cme-group-promotes-jack-tobin-cfo",
+   "date": "2026-09-09",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "CME Group To Take Over European Energy Exchange's European Dairy Business",
+   "url": "https://www.nasdaq.com/articles/cme-group-take-over-european-energy-exchanges-european-dairy-business",
+   "date": "2026-09-08",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Phillips 66 Now #112 Largest Company, Surpassing CME Group",
+   "url": "https://www.nasdaq.com/articles/phillips-66-now-112-largest-company-surpassing-cme-group",
+   "date": "2026-09-03",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-09",
+   "reportDate": "2026-09-09",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1156375/000119312526386091/d157844d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-11",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1156375/000115637526000051/cme-20260811.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1156375/000115637526000042/cme-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-17",
+   "reportDate": "2026-06-16",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1156375/000119312526273442/d129556d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-10",
+   "reportDate": "2026-06-09",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1156375/000115637526000035/cme-20260609.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-19",
+   "reportDate": "2026-05-14",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1156375/000115637526000028/cme-20260514.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.75,
+  "saleNy": 4.68,
+  "epsCy": 9.38,
+  "epsNy": 5.52,
+  "cyTrend": -0.13,
+  "nyTrend": -0.06,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    0.84,
+    14.48,
+    8.09
+   ],
+   "ni": [
+    2.92,
+    23.7,
+    35.23
+   ],
+   "opm": [
+    64.89,
+    69.66,
+    61.84
+   ],
+   "updated": "2026-09-08 10:00:44"
+  }
+ }
+}

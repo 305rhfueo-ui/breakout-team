@@ -1,0 +1,162 @@
+{
+ "ticker": "SAFT",
+ "news": [
+  {
+   "title": "SAFT Dividend Yield Pushes Above 5%",
+   "url": "https://www.nasdaq.com/articles/saft-dividend-yield-pushes-above-5",
+   "date": "2026-03-06",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Notable Two Hundred Day Moving Average Cross - SAFT",
+   "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-saft-0",
+   "date": "2026-03-03",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Notable Two Hundred Day Moving Average Cross - SAFT",
+   "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-saft",
+   "date": "2025-12-04",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "SAFT Crosses Above Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/saft-crosses-above-key-moving-average-level",
+   "date": "2025-11-10",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Monday 9/8 Insider Buying Report: SAFT, NTST",
+   "url": "https://www.nasdaq.com/articles/monday-9-8-insider-buying-report-saft-ntst",
+   "date": "2025-09-08",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-15",
+   "reportDate": "2026-09-14",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1172052/000110465926107960/tm2625481d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1172052/000117205226000021/saft-20260805x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "reportDate": "2026-07-23",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1172052/000110465926086488/tm2621207d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1172052/000110465926086331/tm2621207d3_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-15",
+   "reportDate": "2026-06-09",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1172052/000117205226000019/saft-20260609x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-14",
+   "reportDate": "2026-05-13",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1172052/000117205226000017/saft-20260513x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    2.95,
+    4.39,
+    11.38
+   ],
+   "ni": [
+    19.24,
+    -165.41,
+    149.02
+   ],
+   "opm": [
+    13.69,
+    -5.48,
+    8.13
+   ],
+   "updated": "2026-09-08 09:07:57"
+  }
+ }
+}

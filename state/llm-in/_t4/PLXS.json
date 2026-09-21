@@ -1,0 +1,186 @@
+{
+ "ticker": "PLXS",
+ "news": [
+  {
+   "title": "Plexus (PLXS) Up 1.4% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/plexus-plxs-14-last-earnings-report-can-it-continue",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Can Plexus (PLXS) Climb 25.22% to Reach the Level Wall Street Analysts Expect?",
+   "url": "https://www.nasdaq.com/articles/can-plexus-plxs-climb-2522-reach-level-wall-street-analysts-expect",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Earnings Estimates Rising for Plexus (PLXS): Will It Gain?",
+   "url": "https://www.nasdaq.com/articles/earnings-estimates-rising-plexus-plxs-will-it-gain",
+   "date": "2026-08-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Plexus (PLXS) Is Up 7.56% in One Week: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/plexus-plxs-756-one-week-what-you-should-know",
+   "date": "2026-08-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Plexus (PLXS) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/plexus-plxs-q3-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Should Investors Buy PLXS as Growth Accelerates but Cash Flow Weakens?",
+   "url": "https://www.nasdaq.com/articles/should-investors-buy-plxs-growth-accelerates-cash-flow-weakens",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's What Key Metrics Tell Us About Plexus (PLXS) Q3 Earnings",
+   "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-plexus-plxs-q3-earnings",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Plexus (PLXS) Surpasses Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/plexus-plxs-surpasses-q3-earnings-and-revenue-estimates",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-24",
+   "reportDate": "2026-08-24",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/785786/000078578626000057/plxs-20260824.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/785786/000078578626000049/plxs-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-08",
+   "reportDate": "2026-06-05",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/785786/000078578626000038/plxs-20260605.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/785786/000078578626000028/plxs-20260428.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-19",
+   "reportDate": "2026-02-18",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/785786/000078578626000021/plxs-20260218.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-28",
+   "reportDate": "2026-01-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/785786/000078578626000005/plxs-20260128.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 21.43,
+  "saleNy": 13.7,
+  "epsCy": 16.96,
+  "epsNy": 15.86,
+  "cyTrend": 5.21,
+  "nyTrend": 6.29,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    28.13,
+    18.73,
+    9.6
+   ],
+   "ni": [
+    -4.71,
+    27.48,
+    10.51
+   ],
+   "opm": [
+    4.7,
+    5.31,
+    5.09
+   ],
+   "updated": "2026-09-08 07:24:04"
+  }
+ }
+}

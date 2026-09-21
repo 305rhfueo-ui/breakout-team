@@ -1,0 +1,162 @@
+{
+ "ticker": "VLTO",
+ "news": [
+  {
+   "title": "Strategic Buyouts & Strong Cash Profile Aid VLTO Amid Stiff Rivalry",
+   "url": "https://www.nasdaq.com/articles/strategic-buyouts-strong-cash-profile-aid-vlto-amid-stiff-rivalry",
+   "date": "2026-09-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is Veralto (VLTO) Down 0.1% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-veralto-vlto-down-01-last-earnings-report",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is VLTO Worth Buying as Growth Improves but Valuation Stays Rich?",
+   "url": "https://www.nasdaq.com/articles/vlto-worth-buying-growth-improves-valuation-stays-rich",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "VLTO Climbs 13.2% in 3 Months: Will Its Momentum Keep Building Now?",
+   "url": "https://www.nasdaq.com/articles/vlto-climbs-132-3-months-will-its-momentum-keep-building-now",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Veralto (VLTO) Upgraded to Buy: Here's Why",
+   "url": "https://www.nasdaq.com/articles/veralto-vlto-upgraded-buy-heres-why",
+   "date": "2026-08-03",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000043/vlto-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-05-27",
+   "items": [
+    "1.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000034/vlto-20260527.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-14",
+   "reportDate": "2026-05-13",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000028/vlto-20260513.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02"
+   ],
+   "itemsKo": [
+    "실적 발표"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000023/vlto-20260428.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-03",
+   "reportDate": "2026-02-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000003/vlto-20260203.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-25",
+   "reportDate": "2025-11-25",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768025000143/vlto-20251125.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.42,
+  "saleNy": 5.44,
+  "epsCy": 12.85,
+  "epsNy": 8.38,
+  "cyTrend": 0.2,
+  "nyTrend": -0.12,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    7.51,
+    6.76,
+    3.79
+   ],
+   "ni": [
+    8.56,
+    12.89,
+    11.89
+   ],
+   "opm": [
+    21.37,
+    23.77,
+    22.64
+   ],
+   "updated": "2026-09-08 07:08:18"
+  }
+ }
+}

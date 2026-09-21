@@ -1,0 +1,190 @@
+{
+ "ticker": "HBCP",
+ "news": [
+  {
+   "title": "HBCP Ex-Dividend Reminder - 8/3/26",
+   "url": "https://www.nasdaq.com/articles/hbcp-ex-dividend-reminder-8-3-26",
+   "date": "2026-07-31",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Home Bancorp (HBCP) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/home-bancorp-hbcp-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-07-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Home Bancorp (HBCP) Beats Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/home-bancorp-hbcp-beats-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Curious about Home Bancorp (HBCP) Q2 Performance? Explore Wall Street Estimates for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/curious-about-home-bancorp-hbcp-q2-performance-explore-wall-street-estimates-key-metrics",
+   "date": "2026-07-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Home Bancorp (HBCP) Upgraded to Buy: Here's What You Should Know",
+   "url": "https://www.nasdaq.com/articles/home-bancorp-hbcp-upgraded-buy-heres-what-you-should-know",
+   "date": "2026-06-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Home Bancorp (HBCP) is a Great Dividend Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/why-home-bancorp-hbcp-great-dividend-stock-right-now",
+   "date": "2026-04-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Home Bancorp (HBCP) Q1 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/home-bancorp-hbcp-q1-2026-earnings-transcript",
+   "date": "2026-04-21",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Home Bancorp (HBCP) Q4 2025 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/home-bancorp-hbcp-q4-2025-earnings-transcript",
+   "date": "2026-04-21",
+   "publisher": "The Motley Fool"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-20",
+   "reportDate": "2026-07-20",
+   "items": [
+    "2.02",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1436425/000162828026048827/hbcp-20260720.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-06",
+   "reportDate": "2026-07-02",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1436425/000162828026047052/hbcp-20260702.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-26",
+   "reportDate": "2026-06-26",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1436425/000162828026045769/hbcp-20260626.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1436425/000162828026037637/hbcp-20260520.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-14",
+   "reportDate": "2026-05-12",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1436425/000162828026034923/hbcp-20260512.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-20",
+   "reportDate": "2026-04-20",
+   "items": [
+    "2.02",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1436425/000162828026026028/hbcp-20260420.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.81,
+  "saleNy": 4.44,
+  "epsCy": 1.49,
+  "epsNy": 6.17,
+  "cyTrend": 0.13,
+  "nyTrend": 1.04,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    1.51,
+    0.52,
+    2.5
+   ],
+   "ni": [
+    2.52,
+    3.61,
+    17.97
+   ],
+   "opm": [
+    27.11,
+    27.89,
+    27.54
+   ],
+   "updated": "2026-09-08 07:48:17"
+  }
+ }
+}

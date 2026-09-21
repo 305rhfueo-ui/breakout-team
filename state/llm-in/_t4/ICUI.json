@@ -1,0 +1,178 @@
+{
+ "ticker": "ICUI",
+ "news": [
+  {
+   "title": "ICU Medical (ICUI) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/icu-medical-icui-q2-2026-earnings-call-transcript",
+   "date": "2026-08-13",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "ICU Medical (ICUI) Reports Q2 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/icu-medical-icui-reports-q2-earnings-what-key-metrics-have-say",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ICU Medical (ICUI) Tops Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/icu-medical-icui-tops-q2-earnings-and-revenue-estimates",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ICUI vs. SYK: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/icui-vs-syk-which-stock-should-value-investors-buy-now",
+   "date": "2026-07-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ICUI or MDLN: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/icui-or-mdln-which-better-value-stock-right-now",
+   "date": "2026-06-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Needham Upgrades ICU Medical (ICUI)",
+   "url": "https://www.nasdaq.com/articles/needham-upgrades-icu-medical-icui",
+   "date": "2026-05-27",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "ICU Medical (ICUI) Q1 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/icu-medical-icui-q1-2026-earnings-transcript",
+   "date": "2026-05-08",
+   "publisher": "The Motley Fool"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/883984/000088398426000040/icui-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-18",
+   "reportDate": "2026-05-13",
+   "items": [
+    "5.03",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/883984/000088398426000031/icui-20260513.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/883984/000088398426000028/icui-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-20",
+   "reportDate": "2026-02-20",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/883984/000088398426000010/icui-20260220.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-19",
+   "reportDate": "2026-02-19",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/883984/000088398426000007/icui-20260219.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-06",
+   "reportDate": "2025-11-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/883984/000088398425000034/icui-20251106.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -0.98,
+  "saleNy": 4.44,
+  "epsCy": 12.79,
+  "epsNy": 10.21,
+  "cyTrend": 7.29,
+  "nyTrend": 3.7,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    0.51,
+    -12.32,
+    -14.15
+   ],
+   "ni": [
+    -45.99,
+    "흑자전환",
+    "적자축소"
+   ],
+   "opm": [
+    7.09,
+    2.56,
+    1.04
+   ],
+   "updated": "2026-09-08 05:46:43"
+  }
+ }
+}

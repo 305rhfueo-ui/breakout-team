@@ -1,0 +1,170 @@
+{
+ "ticker": "EAT",
+ "news": [
+  {
+   "title": "Brinker International (EAT) Stock Sinks As Market Gains: Here's Why",
+   "url": "https://www.nasdaq.com/articles/brinker-international-eat-stock-sinks-market-gains-heres-why",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Brinker International (EAT) is a Top-Ranked Growth Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/brinker-international-eat-top-ranked-growth-stock-should-you-buy",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "EAT Revamps Kids Menu: Can Chili's Use Young Families to Aid Traffic?",
+   "url": "https://www.nasdaq.com/articles/eat-revamps-kids-menu-can-chilis-use-young-families-aid-traffic",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Brinker International (EAT) Stock Declines While Market Improves: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/brinker-international-eat-stock-declines-while-market-improves-some-information-investors",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Brinker International (EAT) Down 10% Since Last Earnings Report: Can It Rebound?",
+   "url": "https://www.nasdaq.com/articles/brinker-international-eat-down-10-last-earnings-report-can-it-rebound",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here is What to Know Beyond Why Brinker International, Inc. (EAT) is a Trending Stock",
+   "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-brinker-international-inc-eat-trending-stock-0",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-17",
+   "reportDate": "2026-09-17",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/703351/000070335126000032/eat-20260917.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-12",
+   "reportDate": "2026-08-10",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/703351/000070335126000026/eat-20260810.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-17",
+   "reportDate": "2026-06-16",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/703351/000070335126000022/eat-20260616.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/703351/000070335126000013/eat-20260429.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-02",
+   "reportDate": "2026-02-26",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/703351/000070335126000008/eat-20260226.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-28",
+   "reportDate": "2026-01-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/703351/000070335126000004/eat-20260128.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.16,
+  "saleNy": 3.01,
+  "epsCy": 23.36,
+  "epsNy": 10.12,
+  "cyTrend": 0.14,
+  "nyTrend": 0.51,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.06,
+    3.16,
+    6.92
+   ],
+   "ni": [
+    22.52,
+    7.39,
+    8.44
+   ],
+   "opm": [
+    10.87,
+    11.33,
+    11.6
+   ],
+   "updated": "2026-09-08 09:06:59"
+  }
+ }
+}

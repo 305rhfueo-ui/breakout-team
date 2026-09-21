@@ -1,0 +1,186 @@
+{
+ "ticker": "PB",
+ "news": [
+  {
+   "title": "Why Prosperity Bancshares (PB) is a Great Dividend Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/why-prosperity-bancshares-pb-great-dividend-stock-right-now",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "PB or CFR: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/pb-or-cfr-which-better-value-stock-right-now",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Prosperity Bancshares (PB) is a Top Dividend Stock for Your Portfolio",
+   "url": "https://www.nasdaq.com/articles/why-prosperity-bancshares-pb-top-dividend-stock-your-portfolio",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "PB vs. CFR: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/pb-vs-cfr-which-stock-better-value-option",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Prosperity Bancshares (PB) is a Top Dividend Stock Right Now: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/prosperity-bancshares-pb-top-dividend-stock-right-now-should-you-buy",
+   "date": "2026-08-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Prosperity Bancshares (PB) Q2 2026 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/prosperity-bancshares-pb-q2-2026-earnings-call",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Prosperity Bancshares (PB) Upgraded to Buy: What Does It Mean for the Stock?",
+   "url": "https://www.nasdaq.com/articles/prosperity-bancshares-pb-upgraded-buy-what-does-it-mean-stock",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "PB vs. CFR: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/pb-vs-cfr-which-stock-should-value-investors-buy-now",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1068851/000119312526322053/pb-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-01",
+   "reportDate": "2026-07-01",
+   "items": [
+    "2.01",
+    "2.03",
+    "5.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.01",
+    "2.03",
+    "임원 변동",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1068851/000119312526291486/d109409d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1068851/000119312526188851/pb-20260429.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-21",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1068851/000119312526171838/pb-20260421.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-22",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1068851/000119312526168540/pb-20260422.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-02",
+   "reportDate": "2026-02-02",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1068851/000119312526033776/pb-20260202.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 39.58,
+  "saleNy": 17.42,
+  "epsCy": 12.59,
+  "epsNy": 14.41,
+  "cyTrend": 0.16,
+  "nyTrend": 0.12,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    19.38,
+    12.47,
+    -4.74
+   ],
+   "ni": [
+    24.73,
+    -10.72,
+    7.56
+   ],
+   "opm": [
+    41.49,
+    39.5,
+    41.75
+   ],
+   "updated": "2026-09-08 07:05:15"
+  }
+ }
+}

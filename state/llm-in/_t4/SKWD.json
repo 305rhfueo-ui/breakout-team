@@ -1,0 +1,170 @@
+{
+ "ticker": "SKWD",
+ "news": [
+  {
+   "title": "Why Is Skyward (SKWD) Down 10.7% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-skyward-skwd-down-107-last-earnings-report",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Strong ROE, Lower Costs, Bigger Apollo: What Comes Next for SKWD?",
+   "url": "https://www.nasdaq.com/articles/strong-roe-lower-costs-bigger-apollo-what-comes-next-skwd",
+   "date": "2026-08-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Skyward Specialty Insurance (SKWD) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-skyward-specialty-insurance-skwd-strong-momentum-stock-0",
+   "date": "2026-08-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Skyward Specialty (SKWD) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/skyward-specialty-skwd-q2-2026-earnings-call-transcript",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Here's What Key Metrics Tell Us About Skyward (SKWD) Q2 Earnings",
+   "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-skyward-skwd-q2-earnings",
+   "date": "2026-08-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Skyward Specialty Insurance (SKWD) Surpasses Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/skyward-specialty-insurance-skwd-surpasses-q2-earnings-and-revenue-estimates",
+   "date": "2026-08-04",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-20",
+   "reportDate": "2026-08-20",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1519449/000151944926000056/skwd-20260820.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1519449/000151944926000047/skwd-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-15",
+   "reportDate": "2026-07-15",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1519449/000151944926000044/skwd-20260715.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-11",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1519449/000151944926000041/skwd-20260511.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "reportDate": "2026-05-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1519449/000151944926000032/skwd-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-26",
+   "reportDate": "2026-02-26",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1519449/000151944926000009/skwd-20260226.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 39.35,
+  "saleNy": 6.63,
+  "epsCy": 25.64,
+  "epsNy": 9.97,
+  "cyTrend": 2.93,
+  "nyTrend": 0.86,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    53.03,
+    44.85,
+    26.67
+   ],
+   "ni": [
+    26.26,
+    18.24,
+    200.08
+   ],
+   "opm": [
+    12.98,
+    13.04,
+    14.17
+   ],
+   "updated": "2026-09-15 06:29:22"
+  }
+ }
+}

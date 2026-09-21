@@ -1,0 +1,152 @@
+{
+ "ticker": "WSM",
+ "news": [
+  {
+   "title": "ALH vs. WSM: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/alh-vs-wsm-which-stock-better-value-option",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here is What to Know Beyond Why Williams-Sonoma, Inc. (WSM) is a Trending Stock",
+   "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-williams-sonoma-inc-wsm-trending-stock-0",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Williams-Sonoma (WSM) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/williams-sonoma-wsm-q2-2026-earnings-call-transcript",
+   "date": "2026-08-31",
+   "publisher": "The Motley Fool"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-26",
+   "reportDate": "2026-08-26",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/719955/000071995526000203/wsm-20260826.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-22",
+   "reportDate": "2026-06-18",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/719955/000071995526000164/wsm-20260618.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/719955/000071995526000126/wsm-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-18",
+   "reportDate": "2026-03-18",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/719955/000071995526000030/wsm-20260318.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-19",
+   "reportDate": "2025-11-19",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/719955/000071995525000043/wsm-20251119.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-08-27",
+   "reportDate": "2025-08-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/719955/000071995525000006/wsm-20250827.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.95,
+  "saleNy": 5.26,
+  "epsCy": 11.43,
+  "epsNy": 6.66,
+  "cyTrend": 5.03,
+  "nyTrend": 2.56,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.7,
+    4.35,
+    -4.27
+   ],
+   "ni": [
+    36.58,
+    0.04,
+    -10.4
+   ],
+   "opm": [
+    22.9,
+    16.16,
+    20.27
+   ],
+   "updated": "2026-09-08 09:20:31"
+  }
+ }
+}

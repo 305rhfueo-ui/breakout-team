@@ -1,0 +1,174 @@
+{
+ "ticker": "NHC",
+ "news": [
+  {
+   "title": "NHC Breaks Above 2% Yield Territory",
+   "url": "https://www.nasdaq.com/articles/nhc-breaks-above-2-yield-territory",
+   "date": "2025-11-13",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "NHC Crosses Above Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/nhc-crosses-above-key-moving-average-level",
+   "date": "2025-08-11",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "NHC Revenue Jumps 25%",
+   "url": "https://www.nasdaq.com/articles/nhc-revenue-jumps-25",
+   "date": "2025-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "National Healthcare Enters Oversold Territory (NHC)",
+   "url": "https://www.nasdaq.com/articles/national-healthcare-enters-oversold-territory-nhc",
+   "date": "2025-07-15",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "NHC Makes Bullish Cross Above Critical Moving Average",
+   "url": "https://www.nasdaq.com/articles/nhc-makes-bullish-cross-above-critical-moving-average",
+   "date": "2025-06-24",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-06",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1047335/000143774926026960/nhc20260806_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1047335/000143774926026957/nhc20260806c_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-01",
+   "reportDate": "2026-06-29",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.01",
+    "2.03",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.01",
+    "2.03",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1047335/000143774926022306/nhc20260630_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-27",
+   "reportDate": "2026-05-27",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1047335/000143774926018604/nhc20260527_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-15",
+   "reportDate": "2026-05-15",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1047335/000143774926017374/nhc20260515_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-13",
+   "reportDate": "2026-05-07",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1047335/000143774926016571/nhc20260512_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    8.83,
+    2.17,
+    4.65
+   ],
+   "ni": [
+    69.96,
+    11.34,
+    308.63
+   ],
+   "opm": [
+    11.99,
+    8.45,
+    8.57
+   ],
+   "updated": "2026-09-08 10:39:23"
+  }
+ }
+}

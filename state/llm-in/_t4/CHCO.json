@@ -1,0 +1,180 @@
+{
+ "ticker": "CHCO",
+ "news": [
+  {
+   "title": "City Holding (CHCO) Upgraded to Buy: What Does It Mean for the Stock?",
+   "url": "https://www.nasdaq.com/articles/city-holding-chco-upgraded-buy-what-does-it-mean-stock",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why City Holding (CHCO) is a Great Dividend Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/why-city-holding-chco-great-dividend-stock-right-now-0",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why City Holding (CHCO) is a Top Dividend Stock for Your Portfolio",
+   "url": "https://www.nasdaq.com/articles/why-city-holding-chco-top-dividend-stock-your-portfolio-0",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "City Holding (CHCO) is a Top Dividend Stock Right Now: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/city-holding-chco-top-dividend-stock-right-now-should-you-buy-0",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why City Holding (CHCO) is a Great Momentum Stock to Buy",
+   "url": "https://www.nasdaq.com/articles/heres-why-city-holding-chco-great-momentum-stock-buy",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "City Holding (CHCO) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/city-holding-chco-could-be-great-choice-0",
+   "date": "2026-07-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wednesday 7/22 Insider Buying Report: NMM, CHCO",
+   "url": "https://www.nasdaq.com/articles/wednesday-7-22-insider-buying-report-nmm-chco",
+   "date": "2026-07-22",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "City Holding (CHCO) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/city-holding-chco-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-07-22",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/726854/000072685426000160/chco-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-28",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/726854/000072685426000139/chco-20260528.htm",
+   "description": "8-K, CHCO DIV 07 2026"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-27",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/726854/000072685426000136/chco-20260527.htm",
+   "description": "8-K, BUMGARNER APPOINTMENT"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/726854/000072685426000115/chco-20260429.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/726854/000072685426000113/chco-20260429.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/726854/000072685426000103/chco-20260423.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.08,
+  "saleNy": 2.65,
+  "epsCy": 3.74,
+  "epsNy": 3.41,
+  "cyTrend": -0.28,
+  "nyTrend": 1.29,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    1.16,
+    2.37,
+    6.16
+   ],
+   "ni": [
+    -0.08,
+    4.47,
+    10.12
+   ],
+   "opm": [
+    40.92,
+    39.9,
+    39.23
+   ],
+   "updated": "2026-09-08 10:10:12"
+  }
+ }
+}

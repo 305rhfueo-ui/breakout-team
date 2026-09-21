@@ -1,0 +1,184 @@
+{
+ "ticker": "ARES",
+ "news": [
+  {
+   "title": "Ares, PSP Investments Establish JV In The U.S.",
+   "url": "https://www.nasdaq.com/articles/ares-psp-investments-establish-jv-us",
+   "date": "2026-09-17",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Ares Management Up 28.8% in 6 Months: How to Approach the Stock Now",
+   "url": "https://www.nasdaq.com/articles/ares-management-288-6-months-how-approach-stock-now",
+   "date": "2026-09-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Ares Management on Track to Hit Its $750B AUM Target by 2028?",
+   "url": "https://www.nasdaq.com/articles/ares-management-track-hit-its-750b-aum-target-2028",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Vulcan Materials Achieves #112 Analyst Rank, Surpassing Ares Management",
+   "url": "https://www.nasdaq.com/articles/vulcan-materials-achieves-112-analyst-rank-surpassing-ares-management",
+   "date": "2026-08-28",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Ares (ARES) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/ares-ares-q2-2026-earnings-call-transcript",
+   "date": "2026-08-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "ARES Crosses Above Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/ares-crosses-above-key-moving-average-level",
+   "date": "2026-08-03",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Ares Management Q2 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/ares-management-q2-earnings-call-highlights",
+   "date": "2026-07-31",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Ares Management Q2 Earnings Meet Estimates, AUM Rises Y/Y",
+   "url": "https://www.nasdaq.com/articles/ares-management-q2-earnings-meet-estimates-aum-rises-y-y",
+   "date": "2026-07-31",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-31",
+   "reportDate": "2026-07-31",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1176948/000162828026051191/ares-20260731.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-10",
+   "reportDate": "2026-07-10",
+   "items": [
+    "2.02",
+    "7.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1176948/000162828026047830/ares-20260710.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-11",
+   "reportDate": "2026-06-08",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1176948/000162828026042576/ares-20260608.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-21",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1176948/000162828026038606/ares-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-05-01",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1176948/000162828026029083/ares-20260501.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-31",
+   "reportDate": "2026-03-31",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1176948/000162828026022430/ares-20260331.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 16.27,
+  "saleNy": 17.15,
+  "epsCy": 22.61,
+  "epsNy": 23.25,
+  "cyTrend": -0.23,
+  "nyTrend": 0.1,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.81,
+    28.25,
+    19.53
+   ],
+   "ni": [
+    12.15,
+    436.56,
+    -81.28
+   ],
+   "opm": [
+    17.4,
+    16.33,
+    17.03
+   ],
+   "updated": "2026-09-07 05:52:12"
+  }
+ }
+}

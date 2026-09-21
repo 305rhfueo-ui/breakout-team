@@ -1,0 +1,184 @@
+{
+ "ticker": "INDB",
+ "news": [
+  {
+   "title": "Independent Bank Corp. (INDB) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/independent-bank-corp-indb-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-07-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Independent Bank Corp. (INDB) Misses Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/independent-bank-corp-indb-misses-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Seeking Clues to Independent Bank Corp. (INDB) Q2 Earnings? A Peek Into Wall Street Projections for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/seeking-clues-independent-bank-corp-indb-q2-earnings-peek-wall-street-projections-key",
+   "date": "2026-07-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Independent Bank Corp. (INDB) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://www.nasdaq.com/articles/independent-bank-corp-indb-earnings-expected-grow-what-know-ahead-next-weeks-release",
+   "date": "2026-07-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ex-Div Reminder for Independent Bank (INDB)",
+   "url": "https://www.nasdaq.com/articles/ex-div-reminder-independent-bank-indb",
+   "date": "2026-06-25",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Independent Bank Corp. (INDB) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/independent-bank-corp-indb-could-be-great-choice",
+   "date": "2026-06-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Independent Bank Corp. (INDB) is a Great Dividend Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/why-independent-bank-corp-indb-great-dividend-stock-right-now",
+   "date": "2026-05-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Hovde Group Initiates Coverage of Independent Bank (INDB) with Outperform Recommendation",
+   "url": "https://www.nasdaq.com/articles/hovde-group-initiates-coverage-independent-bank-indb-outperform-recommendation",
+   "date": "2026-05-16",
+   "publisher": "Fintel"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-17",
+   "reportDate": "2026-09-17",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000143/indb-20260917.htm",
+   "description": "8-K - Q3 2026 COMMON DIVIDEND"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-08",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000140/indb-20260908.htm",
+   "description": "8-K RAYMOND JAMES INVESTOR PRESENTATION"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-27",
+   "reportDate": "2026-07-27",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000126/indb-20260727.htm",
+   "description": "8-K - INVESTOR PRESENTATION"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-16",
+   "reportDate": "2026-07-16",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000121/indb-20260716.htm",
+   "description": "8-K - Q2 2026 EARNINGS RELEASE"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-18",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000113/indb-20260618.htm",
+   "description": "8-K - Q2 2026 COMMON DIVIDEND"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-16",
+   "reportDate": "2026-06-16",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/776901/000077690126000110/indb-20260616.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 20.6,
+  "saleNy": 5.17,
+  "epsCy": 27.11,
+  "epsNy": 15.94,
+  "cyTrend": -2.09,
+  "nyTrend": -0.37,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    31.36,
+    35.21,
+    36.4
+   ],
+   "ni": [
+    60.15,
+    79.9,
+    50.57
+   ],
+   "opm": [
+    32.2,
+    32.47,
+    31.61
+   ],
+   "updated": "2026-09-08 05:57:18"
+  }
+ }
+}

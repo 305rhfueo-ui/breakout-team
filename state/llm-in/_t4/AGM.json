@@ -1,0 +1,158 @@
+{
+ "ticker": "AGM",
+ "news": [
+  {
+   "title": "AGM or UWMC: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/agm-or-uwmc-which-better-value-stock-right-now",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "All You Need to Know About Farmer Mac (AGM) Rating Upgrade to Strong Buy",
+   "url": "https://www.nasdaq.com/articles/all-you-need-know-about-farmer-mac-agm-rating-upgrade-strong-buy",
+   "date": "2026-08-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Federal Agricultural Mortgage (AGM) Q2 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/federal-agricultural-mortgage-agm-q2-earnings-and-revenues-surpass-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-14",
+   "reportDate": "2026-08-12",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/845877/000084587726000129/agm-20260812.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-12",
+   "reportDate": "2026-08-12",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/845877/000084587726000125/agm-20260812.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/845877/000084587726000122/agm-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-16",
+   "reportDate": "2026-07-16",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/845877/000084587726000118/agm-20260716.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-08",
+   "reportDate": "2026-06-03",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/845877/000084587726000116/agm-20260603.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "reportDate": "2026-06-03",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/845877/000084587726000113/agm-20260603.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 17.08,
+  "saleNy": 12.89,
+  "epsCy": 25.33,
+  "epsNy": 10.82,
+  "cyTrend": 6.97,
+  "nyTrend": 8.38,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    12.93,
+    10.11,
+    3.9
+   ],
+   "ni": [
+    19.74,
+    17.84,
+    -20.08
+   ],
+   "opm": [
+    17.9,
+    16.86,
+    14.42
+   ],
+   "updated": "2026-09-09 05:51:06"
+  }
+ }
+}

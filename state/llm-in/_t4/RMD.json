@@ -1,0 +1,154 @@
+{
+ "ticker": "RMD",
+ "news": [
+  {
+   "title": "Bullish Two Hundred Day Moving Average Cross - RMD",
+   "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-rmd",
+   "date": "2026-09-15",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "ResMed (RMD) Q4 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/resmed-rmd-q4-2026-earnings-call-transcript",
+   "date": "2026-08-14",
+   "publisher": "The Motley Fool"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-01",
+   "reportDate": "2026-08-31",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/943819/000119312526378487/d530283d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-17",
+   "reportDate": "2026-08-13",
+   "items": [
+    "4.01",
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "4.01",
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/943819/000119312526354154/d292919d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/943819/000119312526337962/d158732d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-07",
+   "reportDate": "2026-06-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/943819/000119312526297658/d88958d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-24",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/943819/000119312526197282/d50610d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/943819/000119312526197192/d146862d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 2.79,
+  "saleNy": 6.52,
+  "epsCy": 8.14,
+  "epsNy": 9.48,
+  "cyTrend": -0.13,
+  "nyTrend": -0.13,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    8.58,
+    10.81,
+    10.98
+   ],
+   "ni": [
+    0.98,
+    9.23,
+    13.92
+   ],
+   "opm": [
+    30.66,
+    34.92,
+    34.56
+   ],
+   "updated": "2026-09-08 07:30:14"
+  }
+ }
+}

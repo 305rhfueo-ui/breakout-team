@@ -1,0 +1,162 @@
+{
+ "ticker": "IEX",
+ "news": [
+  {
+   "title": "Is IDEX (IEX) Stock Outpacing Its Industrial Products Peers This Year?",
+   "url": "https://www.nasdaq.com/articles/idex-iex-stock-outpacing-its-industrial-products-peers-year",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is Idex (IEX) Up 0.1% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-idex-iex-01-last-earnings-report",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Idex (IEX) Upgraded to Buy: Here's Why",
+   "url": "https://www.nasdaq.com/articles/idex-iex-upgraded-buy-heres-why",
+   "date": "2026-08-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "IDEX (IEX) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/idex-iex-q2-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Are You Looking for a Top Momentum Pick? Why Idex (IEX) is a Great Choice",
+   "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-idex-iex-great-choice",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-03",
+   "reportDate": "2026-09-03",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/832101/000119312526381880/d421581d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-17",
+   "reportDate": "2026-08-13",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/832101/000119312526354040/d371988d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/832101/000083210126000019/iex-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-08",
+   "reportDate": "2026-05-06",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/832101/000083210126000012/iex-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/832101/000083210126000007/iex-20260429.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-09",
+   "reportDate": "2026-02-04",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/832101/000119312526042918/d103123d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.74,
+  "saleNy": 5.99,
+  "epsCy": 11.02,
+  "epsNy": 9.06,
+  "cyTrend": 0.02,
+  "nyTrend": 1.2,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.38,
+    8.92,
+    4.2
+   ],
+   "ni": [
+    8.97,
+    25.65,
+    4.14
+   ],
+   "opm": [
+    21.71,
+    19.44,
+    20.42
+   ],
+   "updated": "2026-09-07 07:48:56"
+  }
+ }
+}

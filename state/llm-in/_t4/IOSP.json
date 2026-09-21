@@ -1,0 +1,164 @@
+{
+ "ticker": "IOSP",
+ "news": [
+  {
+   "title": "Innospec (IOSP) Up 2% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/innospec-iosp-2-last-earnings-report-can-it-continue",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Innospec (IOSP) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/innospec-iosp-q2-2026-earnings-call-transcript",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "IOSP's Q2 Earnings Surpass Estimates on Broad-Based Growth",
+   "url": "https://www.nasdaq.com/articles/iosps-q2-earnings-surpass-estimates-broad-based-growth",
+   "date": "2026-08-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Innospec (IOSP) Stock Outpacing Its Basic Materials Peers This Year?",
+   "url": "https://www.nasdaq.com/articles/innospec-iosp-stock-outpacing-its-basic-materials-peers-year",
+   "date": "2026-08-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Innospec (IOSP) Tops Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/innospec-iosp-tops-q2-earnings-and-revenue-estimates",
+   "date": "2026-08-04",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1054905/000119312526333724/iosp-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-02",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1054905/000119312526257531/iosp-20260602.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-13",
+   "reportDate": "2026-05-08",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1054905/000119312526220407/iosp-20260508.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-08",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1054905/000119312526213160/iosp-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-18",
+   "reportDate": "2026-02-17",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1054905/000119312526055921/d88769d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-05",
+   "reportDate": "2025-11-04",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1054905/000119312525265585/d88595d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.08,
+  "saleNy": 5.94,
+  "epsCy": -6.33,
+  "epsNy": 24.58,
+  "cyTrend": 3.28,
+  "nyTrend": 1.26,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    11.76,
+    2.81,
+    -2.4
+   ],
+   "ni": [
+    31.06,
+    -7.32,
+    "흑자전환"
+   ],
+   "opm": [
+    8.08,
+    8.05,
+    10.27
+   ],
+   "updated": "2026-09-08 10:44:33"
+  }
+ }
+}

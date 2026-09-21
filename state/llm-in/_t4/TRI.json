@@ -1,0 +1,43 @@
+{
+ "ticker": "TRI",
+ "news": [
+  {
+   "title": "ABM vs. TRI: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/abm-vs-tri-which-stock-should-value-investors-buy-now",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.59,
+  "saleNy": 7.67,
+  "epsCy": 11.48,
+  "epsNy": 14.58,
+  "cyTrend": 0.04,
+  "nyTrend": 0.04,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    9.47,
+    9.84,
+    5.24
+   ],
+   "ni": [
+    43.13,
+    5.76,
+    -43.37
+   ],
+   "opm": [
+    28.56,
+    30.62,
+    26.88
+   ],
+   "updated": "2026-09-07 07:58:24"
+  }
+ }
+}

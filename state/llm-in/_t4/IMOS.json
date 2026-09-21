@@ -1,0 +1,67 @@
+{
+ "ticker": "IMOS",
+ "news": [
+  {
+   "title": "ChipMOS TECHNOLOGIES INC. - Depositary Receipt (IMOS) Price Target Increased by 22.60% to 49.23",
+   "url": "https://www.nasdaq.com/articles/chipmos-technologies-inc-depositary-receipt-imos-price-target-increased-2260-4923",
+   "date": "2026-04-15",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "ChipMOS TECHNOLOGIES INC. - Depositary Receipt (IMOS) Price Target Increased by 13.87% to 40.16",
+   "url": "https://www.nasdaq.com/articles/chipmos-technologies-inc-depositary-receipt-imos-price-target-increased-1387-4016",
+   "date": "2026-04-09",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "ChipMOS TECHNOLOGIES INC. - Depositary Receipt (IMOS) Price Target Increased by 30.00% to 36.84",
+   "url": "https://www.nasdaq.com/articles/chipmos-technologies-inc-depositary-receipt-imos-price-target-increased-3000-3684",
+   "date": "2026-02-04",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "ChipMOS TECHNOLOGIES INC. - Depositary Receipt (IMOS) Price Target Increased by 39.62% to 31.17",
+   "url": "https://www.nasdaq.com/articles/chipmos-technologies-inc-depositary-receipt-imos-price-target-increased-3962-3117",
+   "date": "2025-11-17",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "ChipMOS TECHNOLOGIES INC. - Depositary Receipt (IMOS) Price Target Increased by 12.58% to 21.82",
+   "url": "https://www.nasdaq.com/articles/chipmos-technologies-inc-depositary-receipt-imos-price-target-increased-1258-2182",
+   "date": "2025-10-29",
+   "publisher": "Fintel"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 26.59,
+  "saleNy": 16.41,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    33.44,
+    9.08,
+    3.84
+   ],
+   "ni": [
+    162.02,
+    26.74,
+    -224.43
+   ],
+   "opm": [
+    9.77,
+    6.02,
+    0.37
+   ],
+   "updated": "2026-09-15 06:21:52"
+  }
+ }
+}

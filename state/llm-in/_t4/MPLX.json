@@ -1,0 +1,156 @@
+{
+ "ticker": "MPLX",
+ "news": [
+  {
+   "title": "MPLX LP (MPLX) Suffers a Larger Drop Than the General Market: Key Insights",
+   "url": "https://www.nasdaq.com/articles/mplx-lp-mplx-suffers-larger-drop-general-market-key-insights",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is MPLX LP (MPLX) Down 0.5% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-mplx-lp-mplx-down-05-last-earnings-report",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Energy Transfer vs. MPLX: Which Midstream Stock Has an Edge?",
+   "url": "https://www.nasdaq.com/articles/energy-transfer-vs-mplx-which-midstream-stock-has-edge",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-24",
+   "reportDate": "2026-08-24",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552000/000119312526362680/d178331d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552000/000155200026000035/mplx-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552000/000155200026000023/mplx-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-13",
+   "reportDate": "2026-04-07",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "실적 발표",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552000/000155200026000017/mplx-20260407.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-18",
+   "reportDate": "2026-03-16",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552000/000155200026000012/mplx-20260316.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "reportDate": "2026-02-12",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1552000/000119312526048352/d81435d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 1.08,
+  "saleNy": 7.24,
+  "epsCy": 0.9,
+  "epsNy": 10.4,
+  "cyTrend": 1.19,
+  "nyTrend": 0.63,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    10.29,
+    -2.75,
+    6.17
+   ],
+   "ni": [
+    2.77,
+    -19.01,
+    9.15
+   ],
+   "opm": [
+    41.61,
+    39.96,
+    45.6
+   ],
+   "updated": "2026-09-08 07:16:15"
+  }
+ }
+}

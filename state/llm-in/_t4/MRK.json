@@ -1,0 +1,144 @@
+{
+ "ticker": "MRK",
+ "news": [
+  {
+   "title": "Merck (MRK) Outperforms Broader Market: What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/merck-mrk-outperforms-broader-market-what-you-need-know-0",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "MRK Banks on Growing Pipeline & New Drugs to Offset Keytruda LOE",
+   "url": "https://www.nasdaq.com/articles/mrk-banks-growing-pipeline-new-drugs-offset-keytruda-loe",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000110465926090045/tm2621496d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-26",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000110465926067509/tm2615833d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-22",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000162828026037738/mrk-20260522.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000110465926052081/tm2612241d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-03",
+   "reportDate": "2026-02-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000110465926009495/tm264564d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-04",
+   "reportDate": "2025-12-04",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000162828025055388/mrk-20251204.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 3.3,
+  "saleNy": 4.7,
+  "epsCy": -69.43,
+  "epsNy": 247.91,
+  "cyTrend": -0.04,
+  "nyTrend": -0.04,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.07,
+    4.87,
+    4.97
+   ],
+   "ni": [
+    -130.16,
+    -183.48,
+    -20.84
+   ],
+   "opm": [
+    -2.61,
+    -19.65,
+    24.78
+   ],
+   "updated": "2026-09-09 05:56:20"
+  }
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "ticker": "ETN",
+ "news": [
+  {
+   "title": "Eaton Corporation, PLC (ETN) Is a Trending Stock: Facts to Know Before Betting on It",
+   "url": "https://www.nasdaq.com/articles/eaton-corporation-plc-etn-trending-stock-facts-know-betting-it",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Eaton (ETN) Advances While Market Declines: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/eaton-etn-advances-while-market-declines-some-information-investors",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Eaton (ETN) Dipped More Than Broader Market Today",
+   "url": "https://www.nasdaq.com/articles/why-eaton-etn-dipped-more-broader-market-today",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Eaton (ETN) Suffers a Larger Drop Than the General Market: Key Insights",
+   "url": "https://www.nasdaq.com/articles/eaton-etn-suffers-larger-drop-general-market-key-insights",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "VWDRY vs. ETN: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/vwdry-vs-etn-which-stock-better-value-option-1",
+   "date": "2026-09-07",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-31",
+   "reportDate": "2026-07-31",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000027/etn-20260731.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-11",
+   "reportDate": "2026-06-10",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1551182/000095014226001733/eh260792115_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000010/etn-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-22",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126016399/ef20071273_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-10",
+   "reportDate": "2026-03-06",
+   "items": [
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126008836/ef20067414_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-02",
+   "reportDate": "2026-02-25",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126007362/ef20066947_8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 18.94,
+  "saleNy": 12.03,
+  "epsCy": 12.29,
+  "epsNy": 19.03,
+  "cyTrend": 0.36,
+  "nyTrend": 0.7,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    21.39,
+    16.84,
+    13.06
+   ],
+   "ni": [
+    -16.4,
+    -10.17,
+    16.48
+   ],
+   "opm": [
+    16.32,
+    15.73,
+    19.63
+   ],
+   "updated": "2026-09-08 09:31:01"
+  }
+ }
+}

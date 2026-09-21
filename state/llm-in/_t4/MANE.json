@@ -1,0 +1,158 @@
+{
+ "ticker": "MANE",
+ "news": [
+  {
+   "title": "Can Veradermics (MANE) Climb 27.65% to Reach the Level Wall Street Analysts Expect?",
+   "url": "https://www.nasdaq.com/articles/can-veradermics-mane-climb-2765-reach-level-wall-street-analysts-expect",
+   "date": "2026-06-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Veradermics (MANE) Price Target Increased by 39.48% to 128.52",
+   "url": "https://www.nasdaq.com/articles/veradermics-mane-price-target-increased-3948-12852",
+   "date": "2026-05-14",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Veradermics (MANE) Price Target Increased by 15.32% to 92.14",
+   "url": "https://www.nasdaq.com/articles/veradermics-mane-price-target-increased-1532-9214",
+   "date": "2026-04-29",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Friday 2/6 Insider Buying Report: MANE, HYT",
+   "url": "https://www.nasdaq.com/articles/friday-2-6-insider-buying-report-mane-hyt",
+   "date": "2026-02-06",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-11",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000028/mane-20260811.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-15",
+   "reportDate": "2026-07-15",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000023/mane-20260715.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-12",
+   "reportDate": "2026-05-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000016/mane-20260512.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-05-01",
+   "items": [
+    "1.01",
+    "3.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "3.02",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1827635/000162828026029376/mane-20260501.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-27",
+   "reportDate": "2026-04-27",
+   "items": [
+    "2.02"
+   ],
+   "itemsKo": [
+    "실적 발표"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1827635/000162828026027629/mane-20260427.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-27",
+   "reportDate": "2026-04-27",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1827635/000162828026027354/mane-20260427.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0,
+  "saleNy": 0,
+  "epsCy": -97.37,
+  "epsNy": -8.58,
+  "cyTrend": 4.52,
+  "nyTrend": -11.55,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    "적자확대",
+    null,
+    null
+   ],
+   "opm": null,
+   "updated": "2026-09-20 06:13:18"
+  }
+ }
+}

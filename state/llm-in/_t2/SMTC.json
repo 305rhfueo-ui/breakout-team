@@ -11,9 +11,9 @@
   "epsNy": 67.97,
   "est": {
    "cyCur": 3.47422,
-   "cy30": 2.65919,
+   "cy30": 2.65303,
    "nyCur": 5.83561,
-   "ny30": 3.92176
+   "ny30": 3.94535
   },
   "newHigh52": false,
   "bbCenterBrk5d": false,
@@ -45,13 +45,13 @@
    "m6": "2026-09-17"
   },
   "top2Streak": {
-   "m1": 2,
+   "m1": 3,
    "m3": 0,
-   "m6": 1
+   "m6": 2
   }
  },
  "detail": {
-  "fetchedAt": "2026-09-18",
+  "fetchedAt": "2026-09-21",
   "nameKo": "셈텍",
   "nameEn": "SEMTECH CORP",
   "financials": {

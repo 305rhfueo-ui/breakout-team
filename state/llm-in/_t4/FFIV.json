@@ -1,0 +1,182 @@
+{
+ "ticker": "FFIV",
+ "news": [
+  {
+   "title": "BILL vs. FFIV: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/bill-vs-ffiv-which-stock-better-value-option",
+   "date": "2026-09-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "F5 (FFIV) Down 5.1% Since Last Earnings Report: Can It Rebound?",
+   "url": "https://www.nasdaq.com/articles/f5-ffiv-down-51-last-earnings-report-can-it-rebound",
+   "date": "2026-08-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "DV or FFIV: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/dv-or-ffiv-which-better-value-stock-right-now",
+   "date": "2026-08-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Unlocking F5 (FFIV) International Revenues: Trends, Surprises, and Prospects",
+   "url": "https://www.nasdaq.com/articles/unlocking-f5-ffiv-international-revenues-trends-surprises-and-prospects",
+   "date": "2026-08-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "F5 (FFIV) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/f5-ffiv-q3-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-08-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "PD vs. FFIV: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/pd-vs-ffiv-which-stock-better-value-option-0",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "F5 Networks (FFIV) Beats Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/f5-networks-ffiv-beats-q3-earnings-and-revenue-estimates",
+   "date": "2026-07-27",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-27",
+   "reportDate": "2026-07-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1048695/000104869526000063/ffiv-20260727.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-23",
+   "reportDate": "2026-06-17",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1048695/000104869526000059/ffiv-20260617.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-24",
+   "items": [
+    "5.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1048695/000104869526000044/ffiv-20260424.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1048695/000104869526000042/ffiv-20260428.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-13",
+   "reportDate": "2026-03-12",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1048695/000104869526000036/ffiv-20260312.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-27",
+   "reportDate": "2026-01-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1048695/000104869526000018/ffiv-20260127.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.59,
+  "saleNy": 7.64,
+  "epsCy": 9.62,
+  "epsNy": 4.3,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    10.85,
+    11.02,
+    7.3
+   ],
+   "ni": [
+    9.63,
+    1.53,
+    8.18
+   ],
+   "opm": [
+    24.65,
+    22.05,
+    26.04
+   ],
+   "updated": "2026-09-08 06:19:22"
+  }
+ }
+}

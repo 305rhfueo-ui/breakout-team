@@ -1,0 +1,168 @@
+{
+ "ticker": "MKTX",
+ "news": [
+  {
+   "title": "MarketAxess (MKTX) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/marketaxess-mktx-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "NMR vs. MKTX: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/nmr-vs-mktx-which-stock-better-value-option",
+   "date": "2026-07-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "NMR or MKTX: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/nmr-or-mktx-which-better-value-stock-right-now",
+   "date": "2026-06-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "MarketAxess (MKTX) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/marketaxess-mktx-could-be-great-choice",
+   "date": "2026-06-05",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1278021/000119312526324950/d121662d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-29",
+   "items": [
+    "1.01",
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1278021/000119312526324933/d159148d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-10",
+   "reportDate": "2026-06-10",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1278021/000119312526265854/mktx-20260610.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1278021/000119312526210216/mktx-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-17",
+   "reportDate": "2026-02-16",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1278021/000119312526055003/mktx-20260216.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-06",
+   "reportDate": "2026-02-04",
+   "items": [
+    "1.01",
+    "2.02",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "실적 발표",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1278021/000119312526040253/mktx-20260204.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.71,
+  "saleNy": 6.8,
+  "epsCy": 7.96,
+  "epsNy": 9.67,
+  "cyTrend": 0.03,
+  "nyTrend": -0.01,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -0.48,
+    11.89,
+    3.46
+   ],
+   "ni": [
+    -4.28,
+    416.97,
+    41.6
+   ],
+   "opm": [
+    41.15,
+    43.24,
+    36.3
+   ],
+   "updated": "2026-09-08 09:08:35"
+  }
+ }
+}

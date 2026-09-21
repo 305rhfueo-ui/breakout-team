@@ -1,0 +1,158 @@
+{
+ "ticker": "TRGP",
+ "news": [
+  {
+   "title": "Here's Why Targa Resources, Inc. (TRGP) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-targa-resources-inc-trgp-strong-growth-stock",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Targa Resources, Inc. (TRGP) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-targa-resources-inc-trgp-strong-momentum-stock",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Targa Resources, Inc. (TRGP) is a Top Growth Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-targa-resources-inc-trgp-top-growth-stock-long-term",
+   "date": "2026-09-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Targa Resources, Inc. (TRGP) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-targa-resources-inc-trgp-top-momentum-stock-long-term",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-25",
+   "reportDate": "2026-08-19",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1389170/000119312526364099/d135085d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1389170/000119312526336525/trgp-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-17",
+   "reportDate": "2026-07-16",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1389170/000119312526306591/d125510d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-06",
+   "reportDate": "2026-07-01",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1389170/000119312526296255/d116740d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1389170/000119312526237018/d13203d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1389170/000119312526210165/trgp-20260507.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.6,
+  "saleNy": 23.34,
+  "epsCy": 27.82,
+  "epsNy": 5.07,
+  "cyTrend": 2.6,
+  "nyTrend": 1.25,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    4.23,
+    -10.23,
+    -7.94
+   ],
+   "ni": [
+    21.68,
+    139.99,
+    73.51
+   ],
+   "opm": [
+    27.8,
+    20.68,
+    22.62
+   ],
+   "updated": "2026-09-08 10:27:09"
+  }
+ }
+}

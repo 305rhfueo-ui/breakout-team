@@ -1,0 +1,162 @@
+{
+ "ticker": "BHE",
+ "news": [
+  {
+   "title": "Benchmark Electronics (BHE) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/benchmark-electronics-bhe-q2-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Benchmark Electronics (BHE) Price Target Increased by 36.33% to 85.17",
+   "url": "https://www.nasdaq.com/articles/benchmark-electronics-bhe-price-target-increased-3633-8517",
+   "date": "2026-05-14",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Benchmark (BHE) Q1 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/benchmark-bhe-q1-2026-earnings-transcript",
+   "date": "2026-04-29",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Benchmark (BHE) Q2 2025 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/benchmark-bhe-q2-2025-earnings-transcript",
+   "date": "2026-04-28",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Cash Dividend On The Way From Benchmark Electronics (BHE)",
+   "url": "https://www.nasdaq.com/articles/cash-dividend-way-benchmark-electronics-bhe",
+   "date": "2026-03-30",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-08",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/863436/000119312526385235/bhe-20260908.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/863436/000119312526324117/bhe-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-08",
+   "reportDate": "2026-06-08",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/863436/000119312526261721/bhe-20260608.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-29",
+   "reportDate": "2026-05-28",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/863436/000119312526247979/bhe-20260528.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/863436/000119312526191967/bhe-20260429.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-16",
+   "reportDate": "2026-03-16",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/863436/000119312526108398/bhe-20260316.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 12.94,
+  "saleNy": 7.05,
+  "epsCy": 22.64,
+  "epsNy": 12.34,
+  "cyTrend": 7.03,
+  "nyTrend": 6.55,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    17.69,
+    7.2,
+    7.22
+   ],
+   "ni": [
+    1945.47,
+    257.38,
+    -63.18
+   ],
+   "opm": [
+    4,
+    3.23,
+    2.86
+   ],
+   "updated": "2026-09-08 08:23:58"
+  }
+ }
+}

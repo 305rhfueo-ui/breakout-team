@@ -1,0 +1,168 @@
+{
+ "ticker": "CFR",
+ "news": [
+  {
+   "title": "PB or CFR: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/pb-or-cfr-which-better-value-stock-right-now",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cullen/Frost Bankers (CFR) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/cullen-frost-bankers-cfr-could-be-great-choice-0",
+   "date": "2026-09-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "PB vs. CFR: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/pb-vs-cfr-which-stock-better-value-option",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are You Looking for a Top Momentum Pick? Why Cullen/Frost Bankers (CFR) is a Great Choice",
+   "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-cullen-frost-bankers-cfr-great-choice",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "PB vs. CFR: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/pb-vs-cfr-which-stock-should-value-investors-buy-now",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cullen/Frost Bankers (CFR) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/cullen-frost-bankers-cfr-could-be-great-choice-1",
+   "date": "2026-07-31",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-17",
+   "reportDate": "2026-08-17",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/39263/000003926326000049/cfr-20260817.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/39263/000003926326000045/cfr-20260730.htm",
+   "description": "8-K - 2Q26 PRESS RELEASE"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/39263/000003926326000033/cfr-20260430.htm",
+   "description": "8-K - 1Q26 PRESS RELEASE"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/39263/000003926326000031/cfr-20260429.htm",
+   "description": "8-K - 2026 PROXY VOTE RESULTS"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-11",
+   "reportDate": "2026-02-11",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/39263/000003926326000014/cfr-20260211.htm",
+   "description": "8-K - 4Q25 INVESTOR PRESENTATION"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-30",
+   "reportDate": "2026-01-28",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/39263/000003926326000007/cfr-20260128.htm",
+   "description": "8-K - DIRECTOR APPOINTMENT"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 3.77,
+  "saleNy": 5.89,
+  "epsCy": 7.5,
+  "epsNy": 6.85,
+  "cyTrend": 0.03,
+  "nyTrend": 0.42,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    0.53,
+    0.73,
+    3.07
+   ],
+   "ni": [
+    9.69,
+    13.44,
+    6.45
+   ],
+   "opm": [
+    28.29,
+    28.34,
+    26.55
+   ],
+   "updated": "2026-09-07 06:51:44"
+  }
+ }
+}

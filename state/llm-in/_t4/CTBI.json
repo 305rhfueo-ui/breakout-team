@@ -1,0 +1,182 @@
+{
+ "ticker": "CTBI",
+ "news": [
+  {
+   "title": "Community Trust Bancorp (CTBI) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/community-trust-bancorp-ctbi-could-be-great-choice-1",
+   "date": "2026-08-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Community Trust Bancorp (CTBI) Upgraded to Buy: Here's What You Should Know",
+   "url": "https://www.nasdaq.com/articles/community-trust-bancorp-ctbi-upgraded-buy-heres-what-you-should-know-0",
+   "date": "2026-08-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Community Trust Bancorp (CTBI) is a Great Dividend Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/why-community-trust-bancorp-ctbi-great-dividend-stock-right-now-0",
+   "date": "2026-07-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Community Trust Bancorp (CTBI) is a Great Momentum Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/community-trust-bancorp-ctbi-great-momentum-stock-should-you-buy",
+   "date": "2026-07-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Community Trust Bancorp (CTBI) Upgraded to Buy: Here's Why",
+   "url": "https://www.nasdaq.com/articles/community-trust-bancorp-ctbi-upgraded-buy-heres-why",
+   "date": "2026-07-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Community Trust Bancorp (CTBI) Q2 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/community-trust-bancorp-ctbi-q2-earnings-and-revenues-beat-estimates",
+   "date": "2026-07-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Community Trust Bancorp (CTBI) is a Top Dividend Stock for Your Portfolio",
+   "url": "https://www.nasdaq.com/articles/why-community-trust-bancorp-ctbi-top-dividend-stock-your-portfolio-0",
+   "date": "2026-07-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Community Trust Bancorp (CTBI) to Report Q2 Results: Wall Street Expects Earnings Growth",
+   "url": "https://www.nasdaq.com/articles/community-trust-bancorp-ctbi-report-q2-results-wall-street-expects-earnings-growth",
+   "date": "2026-07-08",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-09",
+   "reportDate": "2026-06-30",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/350852/000035085226000072/ctb0926invpres8k.htm",
+   "description": "CURRENT REPORT FILING"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-28",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/350852/000035085226000066/ctbi-20260729.htm",
+   "description": "CURRENT REPORT FILING"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-15",
+   "reportDate": "2026-06-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/350852/000035085226000061/ctbi-20260715.htm",
+   "description": "CURRENT REPORT FILING"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-04-29",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/350852/000035085226000056/retirementofneo.htm",
+   "description": "RETIREMENT OF BANK PRESIDENT 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-28",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/350852/000035085226000044/proxyvote2026.htm",
+   "description": "PROXY VOTE 2026 FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-03-31",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/350852/000035085226000041/ctbi2026shrpres8k.htm",
+   "description": "CTBI 2026 SHAREHOLDERS' PRESENTATION 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 10.44,
+  "saleNy": 4.55,
+  "epsCy": 17.5,
+  "epsNy": 1.88,
+  "cyTrend": -0.1,
+  "nyTrend": 0.41,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.97,
+    6.41,
+    8.15
+   ],
+   "ni": [
+    18.97,
+    23.76,
+    21.26
+   ],
+   "opm": [
+    35.23,
+    34.26,
+    33.32
+   ],
+   "updated": "2026-09-07 06:53:14"
+  }
+ }
+}

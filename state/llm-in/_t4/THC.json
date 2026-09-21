@@ -1,0 +1,182 @@
+{
+ "ticker": "THC",
+ "news": [
+  {
+   "title": "Tenet Healthcare (THC) is a Top-Ranked Value Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/tenet-healthcare-thc-top-ranked-value-stock-should-you-buy",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Investors Undervaluing Tenet Healthcare (THC) Right Now?",
+   "url": "https://www.nasdaq.com/articles/are-investors-undervaluing-tenet-healthcare-thc-right-now-1",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Tenet Healthcare (THC) Registers a Bigger Fall Than the Market: Important Facts to Note",
+   "url": "https://www.nasdaq.com/articles/tenet-healthcare-thc-registers-bigger-fall-market-important-facts-note",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Tenet (THC) a Solid Growth Stock? 3 Reasons to Think &quot;Yes&quot;",
+   "url": "https://www.nasdaq.com/articles/tenet-thc-solid-growth-stock-3-reasons-think-yes",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wall Street Analysts Think Tenet (THC) Is a Good Investment: Is It?",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-think-tenet-thc-good-investment-it",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Tenet Healthcare (THC) is a Top Growth Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-tenet-healthcare-thc-top-growth-stock-long-term-0",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Tenet Healthcare (THC) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-tenet-healthcare-thc-top-momentum-stock-long-term",
+   "date": "2026-09-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Fast-paced Momentum Stock Tenet (THC) Is Still Trading at a Bargain",
+   "url": "https://www.nasdaq.com/articles/fast-paced-momentum-stock-tenet-thc-still-trading-bargain-0",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-08",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000040/thc-20260908.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000032/thc-20260723.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-29",
+   "reportDate": "2026-05-27",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000028/thc-20260527.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000023/thc-20260430.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-10",
+   "reportDate": "2026-04-09",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000019/thc-20260409.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-30",
+   "reportDate": "2026-03-25",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70318/000007031826000015/thc-20260325.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.31,
+  "saleNy": 0.38,
+  "epsCy": 26.49,
+  "epsNy": -0.67,
+  "cyTrend": 0.08,
+  "nyTrend": 1.14,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    14.61,
+    10.68,
+    8.95
+   ],
+   "ni": [
+    186.81,
+    72.91,
+    16.67
+   ],
+   "opm": [
+    24.85,
+    22.42,
+    15.43
+   ],
+   "updated": "2026-09-08 06:03:11"
+  }
+ }
+}

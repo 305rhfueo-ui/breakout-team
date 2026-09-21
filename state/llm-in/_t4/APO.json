@@ -1,0 +1,138 @@
+{
+ "ticker": "APO",
+ "news": [
+  {
+   "title": "December 2028 Options Now Available For Apollo Global Management (APO)",
+   "url": "https://www.nasdaq.com/articles/december-2028-options-now-available-apollo-global-management-apo",
+   "date": "2026-09-04",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Why Is Apollo Global Management (APO) Up 2% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-apollo-global-management-apo-2-last-earnings-report",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-24",
+   "reportDate": "2026-08-24",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000048/apo-20260824.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-13",
+   "reportDate": "2026-08-13",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000046/apo-20260813.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-11",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000043/apo-20260811.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000036/apo-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-01",
+   "reportDate": "2026-07-01",
+   "items": [
+    "2.02",
+    "7.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000033/apo-20260701.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-09",
+   "reportDate": "2026-06-08",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1858681/000095014226001692/eh260791516_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 21.23,
+  "saleNy": 17.04,
+  "epsCy": 4.6,
+  "epsNy": 22.48,
+  "cyTrend": -0.02,
+  "nyTrend": 0.02,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    63.68,
+    -8.81,
+    86.71
+   ],
+   "ni": [
+    120.83,
+    -561.72,
+    -54.86
+   ],
+   "opm": [
+    21.63,
+    7.51,
+    17.29
+   ],
+   "updated": "2026-09-08 08:19:34"
+  }
+ }
+}

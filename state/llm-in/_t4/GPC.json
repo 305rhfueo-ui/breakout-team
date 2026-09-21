@@ -1,0 +1,170 @@
+{
+ "ticker": "GPC",
+ "news": [
+  {
+   "title": "DRVN or GPC: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/drvn-or-gpc-which-better-value-stock-right-now",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cash Dividend On The Way From Genuine Parts (GPC)",
+   "url": "https://www.nasdaq.com/articles/cash-dividend-way-genuine-parts-gpc",
+   "date": "2026-09-02",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Why Is Genuine Parts (GPC) Up 11.8% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-genuine-parts-gpc-118-last-earnings-report",
+   "date": "2026-08-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Upcoming Dividend Run For GPC?",
+   "url": "https://www.nasdaq.com/articles/upcoming-dividend-run-gpc",
+   "date": "2026-08-20",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Genuine Parts (GPC)'s Technical Outlook is Bright After Key Golden Cross",
+   "url": "https://www.nasdaq.com/articles/genuine-parts-gpcs-technical-outlook-bright-after-key-golden-cross",
+   "date": "2026-08-13",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-09",
+   "reportDate": "2026-09-04",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40987/000119312526385959/d136093d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-11",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40987/000004098726000035/gpc-20260811.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-21",
+   "reportDate": "2026-07-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/40987/000004098726000031/gpc-20260721.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-27",
+   "items": [
+    "1.01",
+    "2.03",
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40987/000004098726000021/gpc-20260427.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-21",
+   "reportDate": "2026-04-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/40987/000004098726000015/gpc-20260421.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-20",
+   "reportDate": "2026-03-18",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40987/000119312526116742/d67777d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.1,
+  "saleNy": 3.47,
+  "epsCy": 5.01,
+  "epsNy": 7.31,
+  "cyTrend": 0.49,
+  "nyTrend": -1.11,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.04,
+    6.8,
+    4.15
+   ],
+   "ni": [
+    -10.72,
+    -3.01,
+    -558.08
+   ],
+   "opm": [
+    5.15,
+    4.57,
+    -0.64
+   ],
+   "updated": "2026-09-08 08:15:01"
+  }
+ }
+}

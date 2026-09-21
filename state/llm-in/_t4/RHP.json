@@ -1,0 +1,170 @@
+{
+ "ticker": "RHP",
+ "news": [
+  {
+   "title": "Why Ryman Hospitality Properties (RHP) is a Great Dividend Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/why-ryman-hospitality-properties-rhp-great-dividend-stock-right-now-0",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ryman Hospitality Properties (RHP) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/ryman-hospitality-properties-rhp-could-be-great-choice",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "RHP Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/rhp-q2-2026-earnings-call-transcript",
+   "date": "2026-08-14",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "RHP or PSA: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/rhp-or-psa-which-better-value-stock-right-now",
+   "date": "2026-08-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "3 Reasons Why Growth Investors Shouldn't Overlook Ryman Hospitality Properties (RHP)",
+   "url": "https://www.nasdaq.com/articles/3-reasons-why-growth-investors-shouldnt-overlook-ryman-hospitality-properties-rhp",
+   "date": "2026-08-10",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-15",
+   "reportDate": "2026-09-15",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1040829/000110465926107949/tm2625282d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-01",
+   "reportDate": "2026-09-01",
+   "items": [
+    "2.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.01",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1040829/000110465926104349/tm2624390d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-25",
+   "reportDate": "2026-08-25",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1040829/000110465926100822/tm2623756d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-12",
+   "reportDate": "2026-08-10",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1040829/000110465926094901/tm2622522d6_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-10",
+   "reportDate": "2026-08-10",
+   "items": [
+    "1.01",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1040829/000110465926092958/tm2622522d4_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-07",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1040829/000110465926092380/tmb-20260806x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 13.25,
+  "saleNy": 12.2,
+  "epsCy": -1.29,
+  "epsNy": 13.03,
+  "cyTrend": -0.47,
+  "nyTrend": 0.85,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    13.56,
+    13.16,
+    13.92
+   ],
+   "ni": [
+    29.26,
+    11.93,
+    7.36
+   ],
+   "opm": [
+    23.3,
+    20.73,
+    19.36
+   ],
+   "updated": "2026-09-08 07:09:18"
+  }
+ }
+}

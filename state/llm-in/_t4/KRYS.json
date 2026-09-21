@@ -1,0 +1,148 @@
+{
+ "ticker": "KRYS",
+ "news": [
+  {
+   "title": "Krystal Biotech (KRYS) Up 12% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/krystal-biotech-krys-12-last-earnings-report-can-it-continue",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Krystal Biotech (KRYS) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/krystal-biotech-krys-q2-2026-earnings-call-transcript",
+   "date": "2026-08-11",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Krystal Biotech, Inc. (KRYS) Q2 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/krystal-biotech-inc-krys-q2-earnings-and-revenues-beat-estimates",
+   "date": "2026-08-03",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-08-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1711279/000171127926000058/krys-20260803.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-21",
+   "reportDate": "2026-07-21",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1711279/000171127926000050/krys-20260721.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-20",
+   "reportDate": "2026-05-15",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1711279/000171127926000047/krys-20260515.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-05-04",
+   "items": [
+    "9.01"
+   ],
+   "itemsKo": [
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1711279/000171127926000044/krys-20260504.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-17",
+   "reportDate": "2026-02-17",
+   "items": [
+    "2.02"
+   ],
+   "itemsKo": [
+    "실적 발표"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1711279/000171127926000018/krys-20260217.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-12",
+   "reportDate": "2026-01-11",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1711279/000171127926000008/krys-20260111.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 31.73,
+  "saleNy": 27.69,
+  "epsCy": 14.99,
+  "epsNy": 19.49,
+  "cyTrend": 1.4,
+  "nyTrend": -2.4,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    24.14,
+    31.95,
+    17.52
+   ],
+   "ni": [
+    42.87,
+    56.53,
+    13.02
+   ],
+   "opm": [
+    49,
+    46.14,
+    41.33
+   ],
+   "updated": "2026-09-08 05:56:57"
+  }
+ }
+}

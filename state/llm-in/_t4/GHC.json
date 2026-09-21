@@ -1,0 +1,166 @@
+{
+ "ticker": "GHC",
+ "news": [
+  {
+   "title": "Graham Holdings (GHC) Shares Cross Below 200 DMA",
+   "url": "https://www.nasdaq.com/articles/graham-holdings-ghc-shares-cross-below-200-dma",
+   "date": "2026-09-01",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "GHC Makes Notable Cross Below Critical Moving Average",
+   "url": "https://www.nasdaq.com/articles/ghc-makes-notable-cross-below-critical-moving-average",
+   "date": "2026-05-15",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Bullish Two Hundred Day Moving Average Cross - GHC",
+   "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-ghc",
+   "date": "2026-03-13",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Graham Holdings (GHC) Price Target Increased by 20.38% to 963.90",
+   "url": "https://www.nasdaq.com/articles/graham-holdings-ghc-price-target-increased-2038-96390",
+   "date": "2025-10-29",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "GHC Crosses Below Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/ghc-crosses-below-key-moving-average-level",
+   "date": "2025-10-10",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Graham Holdings Enters Oversold Territory (GHC)",
+   "url": "https://www.nasdaq.com/articles/graham-holdings-enters-oversold-territory-ghc",
+   "date": "2025-10-09",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/104889/000162828026053479/ghc-20260805.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/104889/000162828026050829/ghc-20260730.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/104889/000162828026030685/ghc-20260505.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-05-01",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/104889/000162828026029369/ghc-20260501.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/104889/000162828026028610/ghc-20260430.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-25",
+   "reportDate": "2026-02-25",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/104889/000162828026011410/ghc-20260225.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.98,
+  "saleNy": 4.03,
+  "epsCy": 33.98,
+  "epsNy": -2.9,
+  "cyTrend": 4.15,
+  "nyTrend": 1.52,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    7.13,
+    6.01,
+    0.42
+   ],
+   "ni": [
+    664.93,
+    21.81,
+    -80.19
+   ],
+   "opm": [
+    6.42,
+    4.68,
+    3.8
+   ],
+   "updated": "2026-09-07 07:27:17"
+  }
+ }
+}

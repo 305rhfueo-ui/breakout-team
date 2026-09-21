@@ -1,0 +1,178 @@
+{
+ "ticker": "MTN",
+ "news": [
+  {
+   "title": "MTN Makes Notable Cross Below Critical Moving Average",
+   "url": "https://www.nasdaq.com/articles/mtn-makes-notable-cross-below-critical-moving-average",
+   "date": "2026-08-31",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "MCS vs. MTN: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/mcs-vs-mtn-which-stock-better-value-option",
+   "date": "2026-08-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "LTH vs. MTN: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/lth-vs-mtn-which-stock-better-value-option",
+   "date": "2026-07-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Vail Resorts (MTN) Up 9.1% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/vail-resorts-mtn-91-last-earnings-report-can-it-continue",
+   "date": "2026-07-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "LTH vs. MTN: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/lth-vs-mtn-which-stock-should-value-investors-buy-now-0",
+   "date": "2026-07-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Vail Resorts (MTN) Shares Cross Above 200 DMA",
+   "url": "https://www.nasdaq.com/articles/vail-resorts-mtn-shares-cross-above-200-dma",
+   "date": "2026-06-18",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Is MTN Stock a Value Trap or Income Play After a Tough Ski Year?",
+   "url": "https://www.nasdaq.com/articles/mtn-stock-value-trap-or-income-play-after-tough-ski-year",
+   "date": "2026-06-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "MTN Shows How Ski Demand Trends Are Shifting Beyond Snowfall",
+   "url": "https://www.nasdaq.com/articles/mtn-shows-how-ski-demand-trends-are-shifting-beyond-snowfall",
+   "date": "2026-06-16",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-02",
+   "reportDate": "2026-09-02",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/812011/000081201126000035/mtn-20260902.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-29",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/812011/000081201126000032/mtn-20260729.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-24",
+   "reportDate": "2026-06-23",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/812011/000081201126000029/mtn-20260623.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-08",
+   "reportDate": "2026-06-08",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/812011/000081201126000025/mtn-20260608.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/812011/000081201126000024/mtn-20260423.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-17",
+   "reportDate": "2026-03-17",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/812011/000081201126000019/mtn-20260317.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -4.36,
+  "saleNy": 5.38,
+  "epsCy": -42.81,
+  "epsNy": 44.45,
+  "cyTrend": -0.67,
+  "nyTrend": -0.21,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -6.98,
+    -4.69,
+    4.13
+   ],
+   "ni": [
+    -19.32,
+    -14.06,
+    "적자확대"
+   ],
+   "opm": [
+    41,
+    31.83,
+    -77.42
+   ],
+   "updated": "2026-09-09 06:36:20"
+  }
+ }
+}

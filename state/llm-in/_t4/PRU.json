@@ -1,0 +1,166 @@
+{
+ "ticker": "PRU",
+ "news": [
+  {
+   "title": "Prudential (PRU) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/prudential-pru-could-be-great-choice-0",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "PRU's Investment Income Poised to Benefit From Higher Rates",
+   "url": "https://www.nasdaq.com/articles/prus-investment-income-poised-benefit-higher-rates",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "PRU Stock Lags Industry, Trades at a Discount: Time to Hold?",
+   "url": "https://www.nasdaq.com/articles/pru-stock-lags-industry-trades-discount-time-hold",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Prudential (PRU) Down 0.3% Since Last Earnings Report: Can It Rebound?",
+   "url": "https://www.nasdaq.com/articles/prudential-pru-down-03-last-earnings-report-can-it-rebound",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Prudential Financial About To Put More Money In Your Pocket (PRU)",
+   "url": "https://www.nasdaq.com/articles/prudential-financial-about-put-more-money-your-pocket-pru",
+   "date": "2026-08-24",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000170/pru-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "reportDate": "2026-07-24",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1137774/000119312526314987/d41476d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-15",
+   "reportDate": "2026-07-15",
+   "items": [
+    "2.02",
+    "7.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000157/pru-20260715.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-04",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1137774/000119312526257475/d225577d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-12",
+   "reportDate": "2026-05-12",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1137774/000119312526219846/d117087d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000093/pru-20260505.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 3.09,
+  "saleNy": 1.75,
+  "epsCy": -0.04,
+  "epsNy": 3.01,
+  "cyTrend": 0.74,
+  "nyTrend": 0.98,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    14.1,
+    15.26,
+    25.29
+   ],
+   "ni": [
+    84.8,
+    -15.56,
+    "흑자전환"
+   ],
+   "opm": [
+    7.52,
+    4.72,
+    7.74
+   ],
+   "updated": "2026-09-07 07:33:20"
+  }
+ }
+}

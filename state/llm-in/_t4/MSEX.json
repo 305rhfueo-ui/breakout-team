@@ -1,0 +1,142 @@
+{
+ "ticker": "MSEX",
+ "news": [
+  {
+   "title": "MSEX Makes Bullish Cross Above Critical Moving Average",
+   "url": "https://www.nasdaq.com/articles/msex-makes-bullish-cross-above-critical-moving-average",
+   "date": "2026-04-20",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "MSEX Trading Below Director's Recent Buy Price",
+   "url": "https://www.nasdaq.com/articles/msex-trading-below-directors-recent-buy-price",
+   "date": "2026-03-04",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/66004/000162828026051031/msex-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-20",
+   "reportDate": "2026-05-19",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/66004/000162828026036878/msex-20260519.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/66004/000162828026028862/msex-20260430.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-26",
+   "reportDate": "2026-03-26",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/66004/000162828026021412/msex-20260326.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-24",
+   "reportDate": "2026-02-20",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/66004/000162828026011115/msex-20260220.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-19",
+   "reportDate": "2026-02-19",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/66004/000162828026009722/msex-20260219.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.79,
+  "saleNy": 9.17,
+  "epsCy": 13.14,
+  "epsNy": 11.99,
+  "cyTrend": 3.49,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    14.26,
+    9.96,
+    -0.27
+   ],
+   "ni": [
+    37.13,
+    11.95,
+    -2.18
+   ],
+   "opm": [
+    32.35,
+    26.9,
+    23.85
+   ],
+   "updated": "2026-09-09 06:18:45"
+  }
+ }
+}

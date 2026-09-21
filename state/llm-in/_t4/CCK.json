@@ -1,0 +1,180 @@
+{
+ "ticker": "CCK",
+ "news": [
+  {
+   "title": "Should Value Investors Buy Crown Holdings (CCK) Stock?",
+   "url": "https://www.nasdaq.com/articles/should-value-investors-buy-crown-holdings-cck-stock-2",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Crown Holdings (CCK) is a Top Growth Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-crown-holdings-cck-top-growth-stock-long-term-0",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Crown Holdings (CCK) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-crown-holdings-cck-strong-value-stock-2",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Crown Holdings (CCK) Outperforming Other Industrial Products Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/crown-holdings-cck-outperforming-other-industrial-products-stocks-year",
+   "date": "2026-08-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Investors Undervaluing Crown Holdings (CCK) Right Now?",
+   "url": "https://www.nasdaq.com/articles/are-investors-undervaluing-crown-holdings-cck-right-now",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Crown Holdings (CCK) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-crown-holdings-cck-strong-growth-stock",
+   "date": "2026-08-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Should Value Investors Buy Crown Holdings (CCK) Stock?",
+   "url": "https://www.nasdaq.com/articles/should-value-investors-buy-crown-holdings-cck-stock-1",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Crown Holdings (CCK) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-crown-holdings-cck-strong-value-stock-1",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-04",
+   "reportDate": "2026-09-03",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1219601/000119312526383800/d181528d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-20",
+   "reportDate": "2026-07-20",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1219601/000162828026048820/cck-20260720.htm",
+   "description": "2026 SECOND QUARTER EARNINGS RELEASE"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-27",
+   "reportDate": "2026-04-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1219601/000162828026027502/cck-20260427.htm",
+   "description": "2026 FIRST QUARTER EARNINGS RELEASE"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-31",
+   "reportDate": "2026-03-26",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1219601/000162828026022389/cck-20260326.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-23",
+   "reportDate": "2026-03-17",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1219601/000119312526119866/d71735d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-04",
+   "reportDate": "2026-02-26",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1219601/000162828026014426/cck-20260226.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 10.75,
+  "saleNy": 2.03,
+  "epsCy": 7.87,
+  "epsNy": 7.66,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    16.48,
+    12.89,
+    7.72
+   ],
+   "ni": [
+    35.36,
+    -9.33,
+    -58.1
+   ],
+   "opm": [
+    12.65,
+    11.2,
+    11.96
+   ],
+   "updated": "2026-09-08 09:42:19"
+  }
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "ticker": "SPG",
+ "news": [
+  {
+   "title": "SPG Makes Notable Cross Below Critical Moving Average",
+   "url": "https://www.nasdaq.com/articles/spg-makes-notable-cross-below-critical-moving-average",
+   "date": "2026-09-16",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Interesting SPG Put And Call Options For January 2029",
+   "url": "https://www.nasdaq.com/articles/interesting-spg-put-and-call-options-january-2029",
+   "date": "2026-09-14",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Simon Property (SPG) Down 3.5% Since Last Earnings Report: Can It Rebound?",
+   "url": "https://www.nasdaq.com/articles/simon-property-spg-down-35-last-earnings-report-can-it-rebound",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SPG April 2027 Options Begin Trading",
+   "url": "https://www.nasdaq.com/articles/spg-april-2027-options-begin-trading",
+   "date": "2026-08-20",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Interesting SPG Put And Call Options For September 2027",
+   "url": "https://www.nasdaq.com/articles/interesting-spg-put-and-call-options-september-2027",
+   "date": "2026-08-19",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Simon Property Group (SPG) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/simon-property-group-spg-q2-2026-earnings-call-transcript",
+   "date": "2026-08-17",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "SPG's Q2 FFO Top Estimates on Leasing Strength, Guidance Raised",
+   "url": "https://www.nasdaq.com/articles/spgs-q2-ffo-top-estimates-leasing-strength-guidance-raised",
+   "date": "2026-08-11",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-10",
+   "reportDate": "2026-08-10",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1063761/000110465926093361/tm2620726d2_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-15",
+   "reportDate": "2026-05-13",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1063761/000110465926062012/tm2614706d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-11",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1063761/000110465926058646/tm2611645d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-24",
+   "reportDate": "2026-03-22",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1063761/000110465926033931/tm269613d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-05",
+   "reportDate": "2026-03-05",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1063761/000110465926024152/tm268081d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "reportDate": "2026-02-05",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1063761/000110465926010999/tm265229d2_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 14.17,
+  "saleNy": 3.82,
+  "epsCy": 6.67,
+  "epsNy": 9.02,
+  "cyTrend": -4.54,
+  "nyTrend": 2.49,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    19.5,
+    19.29,
+    13.22
+   ],
+   "ni": [
+    -13.13,
+    15.92,
+    356.85
+   ],
+   "opm": [
+    46.02,
+    43.38,
+    49.72
+   ],
+   "updated": "2026-09-08 10:03:17"
+  }
+ }
+}

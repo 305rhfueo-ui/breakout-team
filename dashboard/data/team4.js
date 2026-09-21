@@ -49,9 +49,77 @@ window.TEAM4_DATA = {
         "updated": "2026-09-19 05:48:14"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "P",
+        "category": 1,
+        "company": "Everpure(P)는 AI 데이터센터向 올플래시 스토리지 시스템을 공급하는 Technology/Computer Hardware 기업으로, Motley Fool은 이를 'AI Storage Stock'으로 지칭하며 Micron·Sandisk와 비교했다. 시가총액 32.53B, 150일선 위에서 거래 중이나 60일 신고가는 아직 돌파하지 못했고(NO), 52주 고점 대비 87.44%, 종가강도(CLS_POS, 당일 저가~고가 구간 내 종가 위치) 32.52로 상단 대비 위축된 국면이다.",
+        "volumeExplanation": "2026-08-26 8-K(item 2.02)로 공시된 2분기 실적이 매출·EPS 컨센서스를 상회했다. 이 실적 모멘텀 위에서 2026-09-09 RTTNews·Motley Fool·Zacks 등 복수 매체가 일제히 이 종목의 S&P 500 편입을 보도했다. VOL_X 11.2(거래대금 20일평균 대비), 주간 거래량배수 25.87(당일제외 5일평균 대비)의 급등은 이 편입 이슈에 따른 패시브 자금 리밸런싱 매수와 겹친 것으로 판단된다.",
+        "claims": [
+          {
+            "id": "c2",
+            "statement": "2026-09-09 복수 매체가 이 종목의 S&P 500 편입을 일제히 보도했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Everpure To Join S&P 500",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/everpure-join-sp-500",
+                "date": "2026-09-09",
+                "quote": "Everpure To Join S&P 500",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "This Little-Known AI Storage Stock Will Join the S&P 500 (Not Micron or Sandisk). History Says This Will Happen Next.",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/little-known-ai-storage-stock-will-join-sp-500-not-micron-or-sandisk-history-says-will",
+                "date": "2026-09-09",
+                "quote": "This Little-Known AI Storage Stock Will Join the S&P 500 (Not Micron or Sandisk). History Says This Will Happen Next.",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "3 Stocks Soon Joining the S&P 500",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/3-stocks-soon-joining-sp-500",
+                "date": "2026-09-09",
+                "quote": "3 Stocks Soon Joining the S&P 500",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "2분기 실적 세부지표를 컨센서스와 비교 분석한 보도가 이어졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Compared to Estimates, Everpure (P) Q2 Earnings: A Look at Key Metrics",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/compared-estimates-everpure-p-q2-earnings-look-key-metrics",
+                "date": "2026-08-26",
+                "quote": "Compared to Estimates, Everpure (P) Q2 Earnings: A Look at Key Metrics",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reason": "c1 contains unverified consensus change percentages (+14.17%, +17.89%, 5%p 이상) not found in source quotes. Only the general earnings beat claim is verifiable from 8-K and Zacks title.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "2026-08-26 8-K(item 2.02)로 공시된 2분기 실적이 매출·EPS 컨센서스를 상회했고, 이후 컨센서스가 당해·차기 전망 모두 5%p 이상 상향됐다(Target_Status YES, 30일 전망 변화 CY +14.17%/NY +17.89%). 이 실적 모멘텀 위에서 2026-09-09 RTTNews·Motley Fool·Zacks 등 복수 매체가 일제히 이 종목의 S&P 500 편입을 보도했다. VOL_X 11.2(거래대금 20일평균 대비), 주간 거래량배수 25.87(당일제외 5일평균 대비)의 급등은 이 편입 이슈에 따른 패시브 자금 리밸런싱 매수와 겹친 것으로 판단된다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -95,9 +163,87 @@ window.TEAM4_DATA = {
         "updated": "2026-09-16 05:50:49"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CORT",
+        "category": 2,
+        "company": "Corcept Therapeutics는 코르티솔 매개 질환 치료제 전문 제약사로, 주력 제품 Korlym(mifepristone)이 쿠싱증후군 적응증 매출 기반이며 2026년 2분기(6월 30일 마감) 매출 2억 5,615만 달러(YoY +31.7%), 영업이익률 16.1%를 기록했다. 파이프라인 핵심 자산인 selective cortisol modulator relacorilant(Lifyorli)는 미국 FDA 승인을 받은 데 이어 백금저항성 난소암(platinum-resistant ovarian cancer) 적응증으로 EU 마케팅 승인 절차가 진행 중이다. 컨센서스 기준 CY 매출성장률 50.53%·EPS 성장률 162.2%로 고성장 국면에 있으며 30일 전망 변화 CY 286.23%로 Target_Status YES(당해·차기 전망 둘 다 +5% 이상 상향)가 확인된다.",
+        "volumeExplanation": "2026-09-18 유럽의약품청 CHMP가 relacorilant와 nab-paclitaxel 병용요법의 백금저항성 난소암 EU 마케팅승인을 권고했고, 최종 승인 여부는 2026년 4분기 EC 심사에서 결정될 예정이다. 동시에 2026-09-04 발표된 S&P Dow Jones Indices 정기 리밸런싱에 따라 CORT가 2026-09-21(오늘) S&P MidCap 400에 신규 편입되며 패시브 자금의 강제 매수 수요가 겹쳤다. 다만 직전 세션 주가는 -3.98%(30일 -8.89%)로 조정을 보여 CLS_POS 19.81과 함께 거래량 급증이 단순 매수 우위를 뜻하지는 않는다.",
+        "claims": [
+          {
+            "id": "chmp_opinion",
+            "statement": "CHMP가 relacorilant+nab-paclitaxel 병용요법의 백금저항성 난소암 EU 마케팅승인을 권고했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Corcept Gets CHMP Recommendation for Relacorilant | CORT Stock News",
+                "publisher": "StockTitan",
+                "url": "https://www.stocktitan.net/news/CORT/corcept-announces-chmp-opinion-recommending-eu-marketing-87cxkep6bjvt.html",
+                "date": "2026-09-18",
+                "quote": "The CHMP has recommended that the European Commission should approve relacorilant, combined with nab-paclitaxel, for platinum-resistant ovarian cancer treatment.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "ec_decision_timeline",
+            "statement": "유럽위원회(EC)의 최종 승인 결정은 2026년 4분기로 예정되어 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Corcept Gets CHMP Recommendation for Relacorilant | CORT Stock News",
+                "publisher": "StockTitan",
+                "url": "https://www.stocktitan.net/news/CORT/corcept-announces-chmp-opinion-recommending-eu-marketing-87cxkep6bjvt.html",
+                "date": "2026-09-18",
+                "quote": "The EC will review the CHMP's opinion and issue a final decision regarding approval in the fourth quarter of 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "sp400_addition",
+            "statement": "CORT가 2026-09-21자로 S&P MidCap 400 지수에 신규 편입됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Bloom Energy, Illumina, and Everpure Set to Join S&P 500; Others to Join S&P 100, S&P MidCap 400, and S&P SmallCap 600",
+                "publisher": "S&P Global (S&P Dow Jones Indices)",
+                "url": "https://press.spglobal.com/2026-09-04-Bloom-Energy,-Illumina,-and-Everpure-Set-to-Join-S-P-500-Others-to-Join-S-P-100,-S-P-MidCap-400,-and-S-P-SmallCap-600",
+                "date": "2026-09-04",
+                "quote": "Sept 21, 2026 | S&P MidCap 400 | Addition | Corcept Therapeutics | CORT | Health Care",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "price_pullback",
+            "statement": "거래량 급증에도 직전 세션 주가는 -3.98%, 30일 기준 -8.89%로 조정 국면이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Corcept Therapeutics (CORT) Dropped, So What Is Behind The Latest Attention?",
+                "publisher": "Simply Wall St News",
+                "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-cort/corcept-therapeutics/news/corcept-therapeutics-cort-dropped-so-what-is-behind-the-late",
+                "date": "2026-09-19",
+                "quote": "Corcept Therapeutics down 3.98% over the last session and 8.89% over 30 days.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "All four claims verified: CHMP recommendation (quote exact match), EC Q4 2026 timeline (confirmed), S&P MidCap 400 addition on 2026-09-21 (date and index in quote), and price pullback percentages (-3.98%, -8.89% match quote exactly)."
+        },
+        "categoryName": "바이오·FDA·임상",
+        "isHighlight": false,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -141,9 +287,82 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:05:37"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ILMN",
+        "category": 4,
+        "company": "Illumina는 차세대 시퀀싱(NGS) 플랫폼 및 시약·소모품을 공급하는 유전체 분석 장비업체로, 매출 구성상 시퀀서 하드웨어 판매보다 소모품 재구매(consumables) 매출 비중이 크며 병원·유전체센터·제약/바이오텍이 핵심 고객이다. GRAIL 분사 이후 핵심 시퀀싱 사업에 집중하는 국면이며, 최근 3개 분기 순이익 성장률이 -11.91%→2.29%→79.57%(YoY)로 급격히 가속되는 동시에 영업이익률은 21.14%→19.16%→17.43%로 하락 추세를 보여, 매출성장 둔화(9.44%→4.8%→4.98%)와 마진 방어 부담이 공존하는 국면이다. 150일선 위에서 거래되고 있으나 60일 신고가는 아직 돌파하지 못한 상태다.",
+        "volumeExplanation": "S&P 500이 2026-09-21자로 Illumina를 Builders FirstSource 대체 편입종목으로 확정하면서 패시브 자금의 기계적 매수 수요가 유발됐고, 이에 앞서 UBS(목표주가 $260, Buy 상향)·Argus($235 상향)의 투자의견·목표주가 상향이 겹치며 9월17일 주가가 전일 대비 +7.10% 급등했다. 이 결과 VOL_X 9.44(거래대금 20일평균 대비), 주간 거래량배수 11.11(당일제외 5일평균 대비)로 거래량이 폭발했다. 같은 시기 Zacks도 9/7 투자의견 상향, 9/11 모멘텀 상위 종목 기사를 게재해 같은 방향의 센티먼트를 반영했다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "Illumina가 2026-09-21자로 S&P MidCap 400에서 S&P 500으로 편입되며 Builders FirstSource를 대체, 지수 재조정에 따른 패시브 자금의 기계적 매수 수요가 발생했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Illumina (ILMN) Stock Draws Bullish Targets As S&P 500 Inclusion Nears",
+                "publisher": "Timothy Sykes",
+                "url": "https://www.timothysykes.com/news/illumina-inc-ilmn-news-2026_09_15/",
+                "date": "2026-09-15",
+                "quote": "ILMN will join the S&P 500 on 2026/09/21, triggering index‑driven demand and cementing its large‑cap healthcare status.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "9월17일 ILMN은 +7.10% 급등했으며, 원인으로 S&P 500 편입 발표에 따른 매수세와 분기 실적 서프라이즈·마진 확대·가이던스 상향 등 펀더멘털 강세가 함께 지목됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Illumina Inc Stock (ILMN) Closed Up by 7.10% on Sep 17: What Investors Need To Know",
+                "publisher": "TradingKey",
+                "url": "https://www.tradingkey.com/news/market-movers/262173925-market-movers-ilmn-20260917",
+                "date": "2026-09-17",
+                "quote": "Illumina Inc (ILMN) closed up by 7.10%.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "Zacks가 9/7 투자의견 상향, 9/11 모멘텀 상위 종목으로 각각 보도하며 같은 방향의 센티먼트 흐름을 확인했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Illumina (ILMN) Upgraded to Buy: What Does It Mean for the Stock?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/illumina-ilmn-upgraded-buy-what-does-it-mean-stock",
+                "date": "2026-09-07",
+                "quote": "Illumina (ILMN) Upgraded to Buy: What Does It Mean for the Stock?",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Illumina (ILMN) is a Top-Ranked Momentum Stock: Should You Buy?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/illumina-ilmn-top-ranked-momentum-stock-should-you-buy",
+                "date": "2026-09-11",
+                "quote": "Illumina (ILMN) is a Top-Ranked Momentum Stock: Should You Buy?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": "c2 statement includes unverified consensus price (~$194) not in source quotes. UBS ($260) and Argus ($235) target prices are verified, but the consensus comparison cannot be confirmed from provided evidence."
+        },
+        "categoryName": "기업 턴어라운드",
+        "isHighlight": false,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -188,8 +407,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -233,9 +451,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:00:14"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "DKL",
+        "category": 6,
+        "company": "Delek Logistics Partners(DKL)는 Delek US Holdings(DK) 계열 중류(midstream) MLP로, 퍼미안 분지·걸프코스트 일대에서 원유·가스·용수 집하·저장·파이프라인 및 도매마케팅 자산을 운영하며 최대 고객은 모기업 DK의 정제소다. 2026년 2분기 조정 EBITDA가 $143.5백만(전년 $127.4백만 대비 증가)으로 사상 최대치를 기록했고 퍼미안 원유·가스·용수 처리물량이 전방위로 늘었으며, 2026년 전체 조정 EBITDA 가이던스 $520백만~$560백만은 재확인된 상태다. 54분기 연속 분배금 인상(분기 $1.135/유닛)을 이어가며 150일선 위, 52주 고점 대비 95.64% 구간에서 강세를 지속 중이다.",
+        "volumeExplanation": "제공된 8-K·뉴스 자료(2026-07-22~08-14)와 웹검색 모두 2026-09-21 시점 VOL_X 7.52, 주간 거래량배수 7.43배 급증을 직접 설명하는 최근 재료를 확인하지 못했다. 실적발표 8-K(item 2.02, 2026-08-05)와 분배금 인상·유상증자 관련 8-K는 모두 한 달 이상 지난 사안으로 당일 거래량 폭증의 표면적 근거로 보기 어렵다. 근거 없음으로 암묵적 호재(⑥)로 분류한다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "Correctly classified as category 6 (unconfirmed catalyst). No direct evidence provided, appropriately marked as '근거 없음'."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -262,9 +500,29 @@ window.TEAM4_DATA = {
       "bbCenterBrk5d": true,
       "fs": null,
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "AGM.A",
+        "category": 6,
+        "company": "Federal Agricultural Mortgage Corporation(Farmer Mac)은 1988년 Agricultural Credit Act에 의해 설립된 연방 인가 GSE로, 농업·농촌 부동산 및 주택 모기지의 2차 시장을 조성해 유동성을 공급한다. Farm & Ranch, Corporate AgFinance, Power & Utilities, Broadband Infrastructure, Renewable Energy, Funding, Investments 등 7개 세그먼트로 사업을 운영하며 분기배당(3분기 주당 1.60달러, 기준일 2026-09-15, 지급일 2026-09-30)을 유지하는 안정형 이자수익 기반 사업모델이다.",
+        "volumeExplanation": "제공된 1차 자료(뉴스 2건, 8-K 6건)와 웹검색 어디에서도 2026-09-21 시점 거래량 급증과 시기적으로 부합하는 직접적 촉매를 확인하지 못했다. 최근 8-K들(실적발표 07-30, 임원변동 08-14/06-08, 배당공시 08-12, 기타사건 06-03)은 모두 조사일로부터 수 주 전 이벤트로 당일 거래량 폭증과 직접 연결할 근거가 없다. 150일선 위에서 거래되나 60일 신고가 미돌파(CLS_POS 0, 52주 고점 대비 86.11%)라는 기술적 정황과 함께, 근거 없는 이례적 거래량 급증으로 판단해 암묵적 호재(category 6)로 분류한다.",
+        "claims": [
+          {
+            "id": "no_catalyst",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "Correctly classified as category 6 (unconfirmed catalyst). No verifiable catalyst identified in timeline; appropriately marked as '근거 없음' despite volume spike."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -308,9 +566,68 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:39:14"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "category": 6,
+        "confidence": "medium",
+        "ticker": "WRB",
+        "company": "W.R. Berkley Corporation은 초과·잉여보험(E&S) 및 전문종목 중심의 상업용 손해보험(P&C) 지주회사로, 약 50개 이상의 분권화된 언더라이팅 유닛을 통해 니치 상품을 인수·판매한다. 최근 3개 분기 매출성장률은 1.23%→4.03%→1.47%(YoY)로 둔화되었고 순이익성장률은 12.7%→23.38%→-21.97%로 최근 분기 역성장했으나, 영업이익률은 16.33%→17.55%→16.22%로 소프트 프라이싱 국면에서도 마진을 방어하고 있다.",
+        "volumeExplanation": "최근 8-K 실적발표(item 2.02)는 2026-07-20이 마지막으로 오늘 시점 어닝 이벤트가 없다. 확보된 뉴스 6건도 Zacks/BNK Invest의 정기 팩터 스크리닝(밸류·모멘텀 종목 분류)과 이동평균선 돌파, 마진 방어 논평에 그쳐 실적 서프라이즈·파트너십·정책 변화 등 통상적 호재로 볼 근거가 없다. VOL_X 6.06·주간 거래량배수 5.85를 설명할 구체적 촉매가 뉴스·공시 어디에서도 확인되지 않아 암묵적 거래량 급증으로 판단한다.",
+        "claims": [
+          {
+            "id": "no_recent_earnings_event",
+            "statement": "근거 없음(출처 검증 실패로 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [],
+            "stripped": true
+          },
+          {
+            "id": "news_generic_screening",
+            "statement": "제공된 뉴스 6건은 모두 Zacks/BNK Invest의 정기 팩터 스크리닝(밸류·모멘텀 스타일 분류)·기술적 이동평균 돌파·마진 방어 논평으로, 실적 서프라이즈·파트너십·정책 변화 등 통상적 촉매를 보도하지 않는다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Here's Why W.R. Berkley (WRB) is a Strong Value Stock",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/heres-why-wr-berkley-wrb-strong-value-stock-1",
+                "date": "2026-09-11",
+                "quote": "Here's Why W.R. Berkley (WRB) is a Strong Value Stock",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "WRB's Underwriting Discipline to Sustain Margins Amid Soft Pricing",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/wrbs-underwriting-discipline-sustain-margins-amid-soft-pricing",
+                "date": "2026-08-28",
+                "quote": "WRB's Underwriting Discipline to Sustain Margins Amid Soft Pricing",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "WRB Crosses Above Key Moving Average Level",
+                "publisher": "BNK Invest",
+                "url": "https://www.nasdaq.com/articles/wrb-crosses-above-key-moving-average-level",
+                "date": "2026-09-03",
+                "quote": "WRB Crosses Above Key Moving Average Level",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "dividend_routine"
+          ],
+          "reason": "Claim 'dividend_routine' contains unsourced details: record date (2026-09-21) and prior announcement date (2026-06-02) with 11.1% increase percentage are not present in the provided source quote. While the core fact ($0.10 regular quarterly dividend) is sourced, the historical details cannot be verified.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "2026-09-21은 주당 $0.10 정기 분기배당의 락일이나, 이는 2026년 6월 공시된 배당정책의 연장일 뿐 신규 자본배분 이벤트가 아니며, 최근 8-K 실적발표(item 2.02)는 2026-07-20이 마지막으로 오늘 시점 어닝 이벤트가 없다. 확보된 뉴스 6건도 Zacks/BNK Invest의 정기 팩터 스크리닝(밸류·모멘텀 종목 분류)과 이동평균선 돌파, 마진 방어 논평에 그쳐 실적 서프라이즈·파트너십·정책 변화 등 통상적 호재로 볼 근거가 없다. VOL_X 6.06·주간 거래량배수 5.85를 설명할 구체적 촉매가 뉴스·공시 어디에서도 확인되지 않아 암묵적 거래량 급증으로 판단한다.",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -354,9 +671,31 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:51:32"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "WMK",
+        "category": 6,
+        "claims": [
+          {
+            "id": "none",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Weis Markets는 펜실베이니아 기반 지역 슈퍼마켓 체인으로 PA·MD·NY·NJ·WV·DE 등 중대서양 지역에서 식료품·약국·주유소를 겸영한다. 매출은 동일점포 매출(comparable store sales)과 연료 판매 비중이 크고, 최근 분기 매출성장률은 4.64%/4.59%/5.04%(q0/q1/q2 YoY)로 완만한 저성장 국면이다. 영업이익률은 2.28%/2.84%/3.03%로 그로서리 업종 특유의 박마진 구조를 유지하고 있다.",
+        "volumeExplanation": "제공된 WMK.json 내 news 는 모두 이동평균선 교차·과매도 등 기술적 시그널 기사이며 최신 항목도 2026-08-14로 거래대금이 터진 시점(2026-09-21 전후)과 직접 연결되지 않는다. filings 상 가장 최근 실적 발표(8-K item 2.02)는 2026-08-04로 한 달 이상 지난 사건이라 당일 VOL_X 5.7·주간 거래량배수 6.58 을 설명하는 근거로 보기 어렵다. 웹검색으로도 2026년 9월 시점에 WMK 를 직접 겨냥한 실적·계약·정책·경영진 교체 등 구체적 촉매 뉴스를 확인하지 못했다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reason": "Claim 'c1' only states '근거 없음' with empty sources array—tautological statement that doesn't substantively support evidence assessment. Category 6 is correct given lack of concrete catalysts."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -400,9 +739,59 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:06:59"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "EAT",
+        "category": 6,
+        "company": "Brinker International은 Chili's Grill & Bar와 Maggiano's Little Italy를 운영하는 캐주얼 다이닝 체인으로, 매출은 직영점 매출과 프랜차이즈 로열티로 구성된다. 최근 3개 분기 매출성장률(YoY)은 5.06%→3.16%→6.92%로 변동을 보였고 영업이익률은 10.87%→11.33%→11.6%로 완만히 개선되는 국면이다. 직전 실적(2026-08-12 발표) 이후 주가는 10% 하락한 상태에서 오늘(2026-09-21) S&P MidCap 400 편입이 발효됐다.",
+        "volumeExplanation": "오늘(2026-09-21) 발효로 EAT가 S&P MidCap 400에 신규 편입되며 동시에 S&P SmallCap 600에서는 제외됐고(ILMN 자리를 대체), 이는 인덱스 추종 패시브 펀드의 기계적 매수(MidCap 400 트래커)·매도(SmallCap 600 트래커)가 동시에 발생함을 의미한다. VOL_X 5.66, 주간 거래량배수 6.25(당일제외 5일평균 대비)로 나타난 거래량 급증 시점은 이 리밸런싱 발효일과 정확히 일치한다. 직전 실적발표는 한달 이상 경과했고 그 이후 주가는 10% 하락한 상태였으며, 제공된 뉴스 역시 재크스의 일반 랭킹·시황 기사뿐으로 실적 서프라이즈·파트너십·정책성 펀더멘털 촉매는 확인되지 않는다.",
+        "confidence": "medium",
+        "claims": [
+          {
+            "id": "sp400-inclusion",
+            "statement": "EAT는 2026-09-21 발효로 S&P MidCap 400에 신규 편입되며 S&P SmallCap 600에서는 제외됐다(ILMN 자리 대체) — 실적·산업 촉매가 아닌 패시브 자금 리밸런싱에 따른 기계적 매수·매도 물량 동시발생 이벤트다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Bloom Energy, Illumina, and Everpure Set to Join S&P 500; Others to Join S&P 100, S&P MidCap 400, and S&P SmallCap 600",
+                "publisher": "PR Newswire / S&P Dow Jones Indices",
+                "url": "https://www.prnewswire.com/news-releases/bloom-energy-illumina-and-everpure-set-to-join-sp-500-others-to-join-sp-100-sp-midcap-400-and-sp-smallcap-600-302870517.html",
+                "date": "2026-09-04",
+                "quote": "Sept 21, 2026 | S&P MidCap 400 | Addition | Brinker Intl | EAT | Consumer Discretionary",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "no-fundamental-news",
+            "statement": "제공된 뉴스는 모두 재크스의 일반 시황·랭킹 기사(성장주 랭킹, 키즈메뉴 개편 등)로, 실적 서프라이즈·파트너십·정책 변화 등 펀더멘털 촉매는 담고 있지 않다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Brinker International (EAT) is a Top-Ranked Growth Stock: Should You Buy?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/brinker-international-eat-top-ranked-growth-stock-should-you-buy",
+                "date": "2026-09-16",
+                "quote": "Brinker International (EAT) is a Top-Ranked Growth Stock: Should You Buy?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "stale-earnings"
+          ],
+          "reason": "Claim 'stale-earnings' references specific earnings date '2026-08-12' not present in source quote or title. The concept (stale earnings ~1 month old) is supported by the title 'Down 10% Since Last Earnings Report,' but the specific date is unverified.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "오늘(2026-09-21) 발효로 EAT가 S&P MidCap 400에 신규 편입되며 동시에 S&P SmallCap 600에서는 제외됐고(ILMN 자리를 대체), 이는 인덱스 추종 패시브 펀드의 기계적 매수(MidCap 400 트래커)·매도(SmallCap 600 트래커)가 동시에 발생함을 의미한다. VOL_X 5.66, 주간 거래량배수 6.25(당일제외 5일평균 대비)로 나타난 거래량 급증 시점은 이 리밸런싱 발효일과 정확히 일치한다. 직전 실적발표(2026-08-12)는 한달 이상 경과했고 그 이후 주가는 10% 하락한 상태였으며, 제공된 뉴스 역시 재크스의 일반 랭킹·시황 기사뿐으로 실적 서프라이즈·파트너십·정책성 펀더멘털 촉매는 확인되지 않는다.",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -446,9 +835,60 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:13:40"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "TSEM",
+        "category": 5,
+        "company": "Tower Semiconductor는 이스라엘 소재 특화 파운드리로 아날로그·혼성신호, RF, SiGe BiCMOS, 실리콘 포토닉스(SiPho) 공정을 전문으로 하며 매출은 통신·산업·자동차 및 최근 비중이 커진 AI 데이터센터 광인터커넥트향 고객사의 웨이퍼 생산 수주에서 발생한다. 현재 PH18DA SiPho 플랫폼을 앞세워 AI 클러스터용 NPO/CPO 및 800G~1.6T 광엔진 양산 램프업 국면에 진입해 있으며, 파운드리 업종 내 AI 병목 해소 수혜주로 리레이팅받는 흐름이다.",
+        "volumeExplanation": "VOL_X 5.53(거래대금 20일평균 대비), 주간 거래량배수 5.77(당일제외 5일평균 대비)로 거래량이 급증한 가운데, 9/17 주가가 8.89% 급등한 것이 직접적 계기다. 이는 AI 데이터센터향 실리콘 포토닉스·SiGe BiCMOS 플랫폼에 대한 낙관적 심리와 $314.88 컨센서스 목표주가(현재가 약 $220 대비 상회)가 모멘텀을 뒷받침했다.",
+        "confidence": "medium",
+        "claims": [
+          {
+            "id": "surge-0917",
+            "statement": "9/17 TSEM 주가가 8.89% 급등했으며, AI 반도체 제조 전망에 대한 낙관적 심리가 배경으로 지목됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Tower Semiconductor Ltd (TSEM) News",
+                "publisher": "StocksToTrade",
+                "url": "https://stockstotrade.com/news/tower-semiconductor-ltd-tsem-news-2026_09_17/",
+                "date": "2026-09-17",
+                "quote": "Tower Semiconductor Ltd. stocks have been trading up by 8.89 percent amid optimistic sentiment over its advanced chipmaking prospects.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "consensus-target",
+            "statement": "FactSet 기준 컨센서스 목표주가는 $314.88로 현재가 약 $220 대비 상회하는 수준이며, 애널리스트 평균 등급은 Buy다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Tower Semiconductor Ltd (TSEM) News",
+                "publisher": "StocksToTrade",
+                "url": "https://stockstotrade.com/news/tower-semiconductor-ltd-tsem-news-2026_09_17/",
+                "date": "2026-09-17",
+                "quote": "consensus price target of $314.88 versus current prices near $220",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "stifel-initiation",
+            "ecoc-2026"
+          ],
+          "reason": "Claim 'stifel-initiation': Date '9/4' not in source quote or title (source date 2026-09-17 is when news published, not initiation date). Claim 'ecoc-2026': Specific dates (9/21~23) and location (Malaga) not in provided source text, only 'ECOC 2026' conference name confirmed. After removals, category 5 remains supported by 9/17 surge on AI sentiment and $314.88 consensus target.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "VOL_X 5.53(거래대금 20일평균 대비), 주간 거래량배수 5.77(당일제외 5일평균 대비)로 거래량이 급증한 가운데, 9/17 주가가 8.89% 급등한 것이 직접적 계기다. 이는 AI 데이터센터향 실리콘 포토닉스·SiGe BiCMOS 플랫폼에 대한 낙관적 심리와 9/21~23 ECOC 2026 전시 예정 소식에 기인하며, 9/4 Stifel 의 Buy(목표주가 $270) 커버리지 개시와 $314.88 컨센서스 목표주가(현재가 약 $220 대비 상회)가 모멘텀을 뒷받침했다.",
+        "categoryName": "매크로·정책·산업 돌파",
+        "isHighlight": true,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -492,9 +932,87 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 07:01:19"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "VVX",
+        "category": 3,
+        "company": "V2X는 미 국방부(공군·해병대 등)를 상대로 병참지원(CLS)·정비·기술현대화 서비스를 제공하는 항공우주·방위 서비스 기업으로, 매출 대부분이 장기 sustainment형 IDIQ·태스크오더 계약에서 발생하며 2026년 2분기 기준 총 백로그는 12.7B달러다. 최근 3개 분기 매출성장률은 16.54%→23.45%→5.26%로 둔화되고 순이익증가율은 14.06%→133.44%→-9%로 최근분기 역성장을 기록해, 신규 계약 수주로 백로그를 쌓으며 성장 둔화를 방어하는 국면이다.",
+        "volumeExplanation": "2026-08-04 미 공군 C-12 병참지원 IDIQ(상한 500M달러) 수주, 2026-09-15 B-52 LRSO(장거리 스탠드오프 순항미사일) 탑재장비 생산 계약 참여 등 최근 한 달 반 동안 국방 계약 수주 뉴스가 이어졌다. 여기에 2026-08-03 2분기 실적이 컨센서스를 상회(SEC 8-K item 2.02 실적발표)하며 가이던스 상향으로 이어졌고, 2026-09-10 Jefferies Global Industrials Conference 참가로 기관 관심이 재점화됐을 가능성이 있다. 개별 계약 규모(C-12 500M달러, B-52 46M달러)는 시총 2.36B달러 대비 단일 대형계약은 아니지만, 연속적인 수주 뉴스플로우가 거래량 급증(VOL_X 5.53, 거래대금 20일평균 대비)의 배경으로 추정된다.",
+        "claims": [
+          {
+            "id": "b52-lrso-contract",
+            "statement": "2026-09-15 V2X가 B-52 스트래토포트리스 탑재 LRSO(장거리 스탠드오프 순항미사일) 프로그램의 탑재장비 생산 계약에 참여하는 것으로 발표됐다(계약가 약 46M달러).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "V2X Awarded Position on US Air Force Contract for B-52 Long Range Standoff Cruise Missile Program",
+                "publisher": "Bitget News",
+                "url": "https://www.bitget.com/news/detail/12560605836926",
+                "date": "2026-09-15",
+                "quote": "V2X (VVX) was awarded a position on a $46 million US Air Force contract for the Long Range Standoff cruise missile program for the B-52 Stratofortress aircraft on September 15, 2026. Under the contract, V2X will provide carriage equipment production supporting the integration of the Long Range Standoff weapon system on the B-52.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c12-500m-contract",
+            "statement": "2026-08-04 미 공군이 V2X에 C-12 항공기 병참지원(CLS) IDIQ 계약(상한 500M달러, 2031년 6월까지)을 수여했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "V2X Wins $500M U.S. Air Force C-12 Contract | VVX Stock News",
+                "publisher": "StockTitan / PR Newswire",
+                "url": "https://www.stocktitan.net/news/VVX/v2x-awarded-500-million-u-s-air-force-c-12-sustainment-contract-n97w25s51ccw.html",
+                "date": "2026-08-04",
+                "quote": "V2X Inc. (NYSE: VVX) was awarded an indefinite-delivery/indefinite-quantity contract with a $500 million ceiling value by the U.S. Air Force on August 4, 2026, to continue providing Contractor Logistics Support for the Air Force's C-12 aircraft fleet. Under the contract, V2X will continue delivering comprehensive maintenance, supply chain, engineering and logistics support for the globally deployed fleet through June 2031.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2-earnings-beat",
+            "statement": "2026-08-03 V2X 2분기 실적이 매출·EPS 모두 컨센서스를 상회했다(SEC 8-K item 2.02 실적발표 공시).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "V2X (VVX) Q2 Earnings and Revenues Beat Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/v2x-vvx-q2-earnings-and-revenues-beat-estimates",
+                "date": "2026-08-03",
+                "quote": "V2X (VVX) Q2 Earnings and Revenues Beat Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "jefferies-conference",
+            "statement": "2026-09-10 V2X 경영진이 Jefferies Global Industrials Conference에 참가해 기관투자자 대상 발표를 진행했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "V2X to Address Jefferies Conference Sept. 10 | VVX Stock News",
+                "publisher": "StockTitan",
+                "url": "https://www.stocktitan.net/news/VVX/v2x-to-participate-in-the-2026-jefferies-global-industrials-7tdsg4ek8czu.html",
+                "date": "2026-09-10",
+                "quote": "V2X management was scheduled to present on Thursday, September 10, 2026, at 12:10 p.m. Eastern time as part of the Jefferies Global Industrials Conference agenda for institutional investors.",
+                "verified": "unverified",
+                "httpStatus": 429
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "All claims well-sourced: B-52 LRSO contract ($46M, September 15, 2026), C-12 IDIQ contract ($500M ceiling, August 4, 2026 through June 2031), Q2 earnings beat (2026-08-03), and Jefferies conference (September 10, 2026)—all dates and amounts verified in provided quotes. Category 3 (corporate events) appropriately supported."
+        },
+        "categoryName": "대형 파트너십·공급계약",
+        "isHighlight": false,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -538,9 +1056,73 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 07:25:34"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "HALO",
+        "category": 1,
+        "company": "Halozyme Therapeutics는 자체 개발한 피하주사 약물전달 플랫폼 ENHANZE를 Roche, Janssen(J&J), Pfizer 등 대형 제약사에 라이선스하고 그 판매실적에 연동된 로열티·마일스톤을 수취하는 사업모델이다. 매출은 파트너사 제품 매출 증가에 연동되어 구조적으로 레버리지가 큰 로열티 수익 모델이며, 최근 분기 매출성장률이 YoY 40%대 후반~50%대 구간에서 유지되고 있다. 최근에는 기존 2027·2028만기 전환사채를 2033년만기 신규 전환사채로 리파이낸싱하며 만기구조를 장기화하는 자본조달을 진행 중이다.",
+        "volumeExplanation": "2026년 8월 6일 발표된 2분기 실적에서 조정EPS·매출 모두 컨센서스를 큰 폭 상회했고(조정EPS $2.28 vs 컨센서스 $1.82, 매출 $4.81억 vs 컨센서스 $4.043억), 이후 회사는 연간 매출 가이던스 중간값을 $18.7억, 조정EPS 가이던스 중간값을 $8.83으로 상향했다. 이 실적 모멘텀이 9월까지 이어지며 60일 신고가를 돌파하고 52주 신고가($111.80) 부근까지 상승했고, 9월 16~17일 최대 $13억 규모의 2033년만기 전환사채(표면금리 1.50%) 발행이 프라이싱되며 컨버트 관련 헤지·차익거래 물량이 겹쳐 주간 거래량이 크게 늘었다. 전환사채 프라이싱 소식 이후 주가는 시간외에서 오히려 소폭 상승해 물량 부담보다는 실적 모멘텀이 거래량 급증의 주된 배경으로 해석된다.",
+        "claims": [
+          {
+            "id": "earnings_beat_guidance",
+            "statement": "2026년 8월 6일(8-K, item 2.02) 발표된 2분기 실적에서 조정EPS $2.28(컨센서스 $1.82)·매출 $4.81억(컨센서스 $4.043억)으로 서프라이즈를 기록했고, YoY 매출성장 47.7%를 달성하며 연간 가이던스를 매출 중간값 $18.7억, 조정EPS 중간값 $8.83으로 상향했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Halozyme Therapeutics (HALO) Shares Skyrocket, What You Need To Know",
+                "publisher": "StockStory",
+                "url": "https://stockstory.org/us/stocks/nasdaq/halo/news/why-up-down/halozyme-therapeutics-halo-shares-skyrocket-what-you-need-to-know",
+                "date": "2026-08-07",
+                "quote": "실적: 조정 주당순이익 $2.28 (예상 $1.82), 매출 $481백만 (예상 $404.3백만) / 성장: 전년 대비 매출 47.7% 증가 / 가이던스 상향: 연간 매출 예상을 $1.87억으로, 조정 주당순이익을 $8.83으로 상향 조정",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "fifty_two_week_high",
+            "statement": "9월 18일 기준 HALO는 52주 신고가 $111.80을 기록했으며(52주 저점 $61.23), 8월 실적 서프라이즈 이후 지속된 상승 모멘텀이 확인된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "52-Week High Alert: Trading today's movement in HALOZYME THERAPEUTICS $HALO",
+                "publisher": "Quantcha",
+                "url": "https://ideas.quantcha.com/2026/09/18/52-week-high-alert-trading-todays-movement-in-halozyme-therapeutics-halo/",
+                "date": "2026-09-18",
+                "quote": "최근에 52주 고점인 $111.80에 도달했음 / 지난 1년간 $61.23~$111.15 범위에서 거래",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "convert_terms_no_selloff",
+            "statement": "전환사채 조건은 전환가 $139.84(9월17일 종가 대비 27.5% 프리미엄), 캡드콜 행사가 약 $208.39로 희석 부담이 제한적이며, 프라이싱 발표 이후 주가는 시간외에서 1.3% 상승했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Halozyme Prices Upsized $1.3 Billion Convertible Notes Offering",
+                "publisher": "TipRanks",
+                "url": "https://www.tipranks.com/news/company-announcements/halozyme-prices-upsized-1-3-billion-convertible-notes-offering",
+                "date": "2026-09-17",
+                "quote": "The notes carry a conversion price of about $139.84 per share, a 27.5% premium to the company's September 17 closing price, and are supported by capped call transactions with a cap initially set around $208.39 per share... Following this news, HALO shares rose 1.3% in after-hours trading.",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "convertible_notes_filing"
+          ],
+          "reason": "convertible_notes_filing claim contains unsourced maximum offering amounts ($12.55억 and $14.71억) not confirmed in provided source quotes. Sources show $10.5억 + $1.5억 option = $12억 and $13억 base, not the stated maximums."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -584,9 +1166,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-15 06:31:07"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "AMBQ",
+        "category": 6,
+        "company": "Ambiq Micro는 웨어러블·헬스모니터링·스마트글라스 등 엣지 디바이스向 초저전력 SoC(Apollo/SPOT 플랫폼)를 설계하는 팹리스 반도체 업체로, 출하 제품 다수가 온디바이스 AI 추론을 수행하는 엣지 AI 익스포저가 핵심 투자 포인트다. 2026년 들어 분기 매출 YoY 60~90%대 고성장을 이어가고 있으나 영업이익률은 여전히 -25%~-58%대 적자 구간이며, 올해만 두 차례 유상증자(1월, 6월)를 거친 성장 초기 단계 상장사다.",
+        "volumeExplanation": "제공된 1차 자료(뉴스·8-K·SEC 실적표)와 6회 이내 웹검색을 모두 확인했으나, VOL_X 5.5·주간 거래량배수 7.21에 해당하는 이번 주(2026-09-21 전후) 시점과 맞아떨어지는 신규 뉴스·공시·이벤트를 찾지 못했다. 확보된 뉴스 중 가장 최근 항목(2026-09-10)도 8/11 실적 발표 이후 주가 흐름을 다루는 후행 기사일 뿐, 촉매성 발표가 아니다. 표면적으로 확인되는 호재성 뉴스 없이 거래량만 비정상적으로 급증한 경우로 판단한다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "Category 6 classification appropriately identifies lack of specific catalyst; no supporting evidence found for volume spike"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -631,8 +1233,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -676,9 +1277,78 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:48:59"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "IDT",
+        "category": 6,
+        "company": "IDT Corporation은 National Retail Solutions(NRS, 리테일 POS·핀테크), BOSS Money(디지털 송금), net2phone(클라우드 커뮤니케이션), 전통 도매통신(International Calling)의 4개 사업부로 구성된 핀테크·통신 복합기업이다. 최근 3개 분기 매출성장률은 4.55%→5.66%→4.26%, 영업이익률은 9.44%→8.5%→9.58%로 완만한 개선 흐름을 보이고 있으며, 주가는 150일선 위·52주 고점 대비 96.83%(CLS_POS 86.51)의 강한 기술적 구간에서 9월 28일 4분기·FY2026 연간 실적발표를 앞두고 있다.",
+        "volumeExplanation": "제공 자료와 웹검색을 확인한 결과 VOL_X 5.14·주간 거래량배수 5.18을 직접 설명할 단일 호재성 촉매는 확인되지 않았다. 확보된 뉴스는 9/14 4분기 실적발표일(9/28) 공시, 8/29 net2phone 분할 연기 및 성장동력 강조 기사, 8/18 8-K 중요계약체결 공시 정도이며 이들은 시기·강도 면에서 5배 이상의 거래량 급증을 설명하기에 부족하다. 따라서 표면적 뉴스 없이 거래량만 급등한 암묵적 호재(카테고리 6)로 분류한다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "IDT는 9/14 GlobeNewswire를 통해 7월 31일 마감 4분기 및 FY2026 연간 실적을 9월 28일(월) 발표한다고 공시했다. 이는 절차적 일정 공시로 그 자체가 실적 서프라이즈나 가이던스 변경을 담고 있지 않다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "IDT Corporation to Report Fourth Quarter and Fiscal Year 2026 Results",
+                "publisher": "GlobeNewswire",
+                "url": "https://www.globenewswire.com/news-release/2026/09/14/3361077/33173/en/idt-corporation-to-report-fourth-quarter-and-fiscal-year-2026-results.html",
+                "date": "2026-09-14",
+                "quote": "IDT Corporation (IDT) will report financial and operational results for its fourth quarter and full fiscal year 2026 (three and twelve months ended July 31, 2026) on Monday, September 28, 2026.",
+                "verified": "unverified",
+                "httpStatus": 0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "8/29 기사는 IDT가 성장동력을 강조하면서도 net2phone 스핀오프를 시장 여건 개선 시까지 연기한다고 보도했다. 스핀오프 지연은 촉매라기보다 기존 분할 계획의 불확실성 연장에 가깝다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "IDT Highlights Growth Engines, Delays net2phone Spin-Off Until Markets Improve",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/idt-highlights-growth-engines-delays-net2phone-spin-until-markets-improve",
+                "date": "2026-08-29",
+                "quote": "IDT Highlights Growth Engines, Delays net2phone Spin-Off Until Markets Improve",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "근거 없음(출처 검증 실패로 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [],
+            "stripped": true
+          },
+          {
+            "id": "c4",
+            "statement": "직전 실적(FY26 Q3, 6/3 발표)은 성장 부문이 이익을 견인하며 주가 상승으로 이어졌으나 이는 현재 시점(9/21) 기준 약 3개월 전 이벤트로 금번 거래량 급증의 직접 촉매로 보기 어렵다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "IDT Stock Gains Post Q3 Earnings as Growth Segments Boost Profit",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/idt-stock-gains-post-q3-earnings-growth-segments-boost-profit",
+                "date": "2026-06-08",
+                "quote": "IDT Stock Gains Post Q3 Earnings as Growth Segments Boost Profit",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "Category 6 classification appropriately identifies lack of specific catalyst; all claims accurately reflect insufficient evidence for volume explanation"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -722,9 +1392,82 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:45:16"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SUN",
+        "category": 5,
+        "company": "Sunoco LP는 북미·카리브해·유럽 32개국에서 연료유통(Fuel Distribution)·파이프라인·정제(Refinery)·터미널 4개 부문을 운영하는 MLP다. 최근 3개 분기 매출 YoY 성장률은 164.55%→106.41%→63.22%로 둔화 중이나 여전히 두 자릿수 후반~세 자릿수 수준이며, 같은 기간 순이익 성장률은 186.67%→136.14%→-86.41%, 영업이익률은 4.09%→8.1%→2.14%로 최근 분기 수익성이 급격히 악화됐다. 2026년 9월 3일 NYSE 상장을 자진 철회하고 텍사스증권거래소(TXSE)로 이전 상장하기로 결의했으며 10월 2일 NYSE 거래 종료 후 10월 5일부터 TXSE에서 동일 티커로 거래될 예정이다.",
+        "volumeExplanation": "거래량 급증(VOL_X 5.12, 주간 거래량배수 5.14)은 이란 전쟁에 따른 글로벌 원유 공급 차질로 미국 오일·가스 종목 전반이 사상 최고 수준의 랠리를 지속하는 매크로 국면(카테고리⑤)에서 비롯된 것으로 판단된다. Sunoco는 2026년 들어 주가가 50% 이상 상승했고 Zacks는 9월 초까지 이 종목을 모멘텀 상위 종목으로 반복 조명했다. 여기에 9월 10일 공시된 NYSE→TXSE 상장 이전 결정도 투자자 관심을 끄는 추가 요인으로 겹쳤다.",
+        "claims": [
+          {
+            "id": "macro_iran_supply",
+            "statement": "이란 전쟁으로 인한 글로벌 원유 공급 차질로 미국 오일·가스 종목들이 사상 최고 수준의 한 해를 보내고 있으며, Sunoco(SUN) 주가도 2026년 들어 50% 이상 상승했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Sunoco (SUN) Following Oil Supply Disruption Looks Close To Fair Value",
+                "publisher": "Simply Wall St",
+                "url": "https://simplywall.st/stocks/us/energy/nyse-sun/sunoco/news/sunoco-sun-following-oil-supply-disruption-looks-close-to-fa",
+                "date": "2026-09-16",
+                "quote": "U.S.-based oil and gas stocks are having a record year as the war in Iran disrupts global supplies, and Sunoco (SUN) has joined the move, with the stock up more than 50% in 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "nyse_txse_listing_transfer",
+            "statement": "Sunoco LP는 2026년 9월 3일 NYSE 상장을 자진 철회하고 텍사스증권거래소(TXSE)로 이전 상장하기로 결의했으며, 9월 10일 8-K로 공시했다. 10월 2일 NYSE 거래 종료 후 10월 5일부터 TXSE에서 동일 티커(SUN)로 거래가 시작될 예정이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Sunoco LP Reports Material Event (8-K): NYSE to TXSE Listing Transfer",
+                "publisher": "StockTitan (SEC 8-K)",
+                "url": "https://www.stocktitan.net/sec-filings/SUN/8-k-sunoco-lp-reports-material-event-4665a2c7d7e6.html",
+                "date": "2026-09-10",
+                "quote": "the Partnership approved the voluntary withdrawal of the common units representing limited partner interests from listing on the New York Stock Exchange, and the transfer of the listing to the Texas Stock Exchange",
+                "verified": "unverified",
+                "httpStatus": 429
+              }
+            ]
+          },
+          {
+            "id": "zacks_momentum",
+            "statement": "Zacks는 9월 7일 Sunoco를 모멘텀 상위 종목(Top Momentum Pick)으로 조명했고, 9월 3일에는 직전 실적 발표 이후 주가가 4.2% 상승했다는 점을 짚었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Are You Looking for a Top Momentum Pick? Why Sunoco LP (SUN) is a Great Choice",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-sunoco-lp-sun-great-choice",
+                "date": "2026-09-07",
+                "quote": "Are You Looking for a Top Momentum Pick? Why Sunoco LP (SUN) is a Great Choice",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Why Is Sunoco LP (SUN) Up 4.2% Since Last Earnings Report?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/why-sunoco-lp-sun-42-last-earnings-report",
+                "date": "2026-09-03",
+                "quote": "Why Is Sunoco LP (SUN) Up 4.2% Since Last Earnings Report?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "nyse_tsxe_listing_transfer"
+          ],
+          "reason": "nyse_tsxe_listing_transfer claim contains unsourced dates (Sept 3 decision date and Oct 2-5 transfer dates) not confirmed in provided source quotes. Only Sept 10 8-K filing date is sourced."
+        },
+        "categoryName": "매크로·정책·산업 돌파",
+        "isHighlight": true,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -768,9 +1511,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:43:45"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "EFSC",
+        "category": 6,
+        "company": "EFSC(Enterprise Financial Services Corp)는 미주리 세인트루이스를 거점으로 애리조나·캘리포니아·캔자스 등으로 확장한 지역은행지주사로, C&I 대출과 SBA 대출을 핵심 축으로 하며 지점 인수를 통한 저비용 예금 기반 확장을 병행해왔다. 최근 3개 분기 매출성장률은 1.34%→6.04%→9.18%로 가속하고 순이익은 -20.73→-1.22→12.44로 흑자 전환, 영업이익률은 21.52%→25.74%→27.09%로 개선되는 국면이나, 다음 실적 발표는 2026-10-26 예정으로 이번 거래량 급증 시점에는 실적 공시가 없다.",
+        "volumeExplanation": "확보된 1차 자료(뉴스·8-K)와 웹검색을 통해서도 오늘 거래량 급증(VOL_X 4.94, 주간거래량배수 4.59)을 설명할 구체적 촉매를 확인하지 못했다. 가장 최근 실적 관련 8-K(2.02)는 2026-07-22 공시로 당시 컨센서스 하회(Zacks) 였고, 그 이후 공시는 2026-08-20 이사 사임(5.02) 뿐이며 오늘 시점과 직접 연결되는 뉴스·공시가 없다. 근거 없음.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "Category 6 classification appropriately identifies lack of specific catalyst; no supporting evidence found for volume spike"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -814,9 +1577,75 @@ window.TEAM4_DATA = {
         "updated": "2026-09-20 06:02:25"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CVX",
+        "category": 1,
+        "company": "Chevron은 업스트림(원유·가스 탐사·생산)과 다운스트림(정제·마케팅)을 아우르는 미국 대형 통합 에너지 메이저로, Permian, 카자흐스탄 TCO, 베네수엘라 JV 등 글로벌 자산을 보유하며 2026년 Hess Corp 인수 완결로 가이아나 Stabroek 광구 지분이 더해져 생산 볼륨이 구조적으로 확대되는 국면이다. 현재 미국 내 생산량이 분기 기준 사상 최대치를 경신하며 비용절감 프로그램도 목표를 조기 달성한 상태로, 실적 모멘텀이 이어지는 가운데 베트남 등 신규 파트너십으로 성장 축을 넓히고 있다.",
+        "volumeExplanation": "2026-09-17 Goldman Sachs가 목표주가를 $225→$240로 상향하며 업스트림 생산량 QoQ 5%+ 증가, 미국 생산량 약 210만 boe/d 사상 최대치, 30억 달러 비용절감 목표 6개월 조기 달성을 근거로 실적 모멘텀에 대한 확신을 재확인했다. 같은 날 베트남 국빈 방미를 계기로 한 파트너십 계약 체결 소식과 Zacks의 모멘텀 종목 부각 기사까지 겹치며 해당 주간 거래량이 5.78배(당일 제외 5일평균 대비)로 급증했다.",
+        "claims": [
+          {
+            "id": "goldman-target-hike",
+            "statement": "Goldman Sachs가 2026-09-17 Chevron 목표주가를 $225에서 $240로 상향했으며, 경영진 미팅 후 실적 모멘텀에 대한 확신과 업스트림 생산 5%+ QoQ 증가, 미국 생산 약 210만 boe/d 사상 최대치, 30억달러 비용절감 목표 6개월 조기 달성을 근거로 들었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Chevron Stock Gets a Boost in Price Target by Goldman Sachs on Production Expansion",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/chevron-stock-gets-boost-price-135512713.html",
+                "date": "2026-09-17",
+                "quote": "Goldman Sachs analyst Neil Mehta kept his Buy rating on Chevron stock after a series of meetings with company leadership, citing confidence in Chevron's earnings momentum. Global upstream production grew more than 5% quarter-over-quarter, with U.S. production hitting a new record of nearly 2.1 million barrels of oil equivalent per day. [Chevron] hit its $3 billion cost-reduction target six months early.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "vietnam-partnership",
+            "statement": "2026-09-17 베트남 국가주석 방미를 계기로 Chevron이 베트남 기업들과 파트너십 계약 체결을 준비 중이라는 소식이 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Chevron (CVX) Set To Unveil Vietnam Partnership Deals During US Visit",
+                "publisher": "Simply Wall St News",
+                "url": "https://simplywall.st/stocks/us/energy/nyse-cvx/chevron/news/chevron-cvx-set-to-unveil-vietnam-partnership-deals-during-u",
+                "date": "2026-09-17",
+                "quote": "Chevron is preparing to sign partnership agreements with Vietnamese companies during President To Lam's visit to the US on September 17, 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "zacks-momentum",
+            "statement": "2026-09-17 Zacks가 Chevron을 강한 모멘텀 종목으로 소개하는 기사를 게재해 기술적 관심을 더했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Here's Why Chevron (CVX) is a Strong Momentum Stock",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/heres-why-chevron-cvx-strong-momentum-stock-0",
+                "date": "2026-09-17",
+                "quote": "Here's Why Chevron (CVX) is a Strong Momentum Stock",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "q2-earnings"
+          ],
+          "reason": "q2-earnings claim의 숫자(56.3%, 384.82%, 23.82%)가 quote에 없어 검증 불가. 하지만 SEC 8-K item 2.02는 실적 공시 근거로 확인. 나머지 goldman-target-hike, vietnam-partnership, zacks-momentum은 모두 검증됨.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "2026-07-31 8-K(item 2.02) 실적 발표에서 확인된 최근 분기 매출성장 56.3%·순이익성장 384.82%의 실적 모멘텀이 이어지는 가운데, 2026-09-17 Goldman Sachs가 목표주가를 $225→$240로 상향하며 업스트림 생산량 QoQ 5%+ 증가, 미국 생산량 약 210만 boe/d 사상 최대치, 30억 달러 비용절감 목표 6개월 조기 달성을 근거로 실적 모멘텀에 대한 확신을 재확인했다. 같은 날 베트남 국빈 방미를 계기로 한 파트너십 계약 체결 소식과 Zacks의 모멘텀 종목 부각 기사까지 겹치며 해당 주간 거래량이 5.78배(당일 제외 5일평균 대비)로 급증했다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -860,9 +1689,87 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:12:34"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BE",
+        "category": 5,
+        "company": "Bloom Energy는 고체산화물연료전지(SOFC) 기반 온사이트 발전 시스템을 데이터센터·산업체에 공급하며, 매출 대부분은 제품(SOFC 시스템) 판매에서 나온다. 엔드 커스터머가 오프테이크 계약을 맺고 Brookfield 등 파이낸서가 장비를 구매·소유하는 구조로, 최근 AI 데이터센터 전력 수요를 타고 오라클 등 하이퍼스케일러·네오클라우드로 고객 기반을 확대해왔다. 2Q26 매출 165.52% YoY 성장, 영업이익률 11.26%(직전 분기 9.61%에서 개선)로 실적 모멘텀이 이어지는 국면이다.",
+        "volumeExplanation": "S&P Dow Jones Indices가 2026-09-04 BE의 S&P500 신규 편입을 발표했고, 2026-09-21 개장 전 Molson Coors Beverage(TAP)를 대체해 정식 편입됐다 — VOL_X 4.79·주간 거래량배수 5.48이 관측된 바로 그 날짜다. 발표 당일(9/4) 주가는 +7.35% 급등했고, 이후에도 편입 효력발생일을 앞두고 패시브 인덱스펀드의 기계적 매수 수요가 주가·거래량을 밀어올렸다. 이 편입은 2Q26 어닝 서프라이즈(매출 컨센서스 대비 +27%, 비GAAP EPS 컨센서스 대비 +63%)로 확보한 시가총액·유동성 기반 위에서 이뤄졌다.",
+        "confidence": "high",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "S&P Dow Jones Indices가 2026-09-04 발표를 통해 BE를 S&P500에 신규 편입하며, 효력발생일은 2026-09-21 개장 전이고 Molson Coors Beverage(TAP)를 대체한다고 명시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Bloom Energy, Illumina, and Everpure Set to Join S&P 500; Others to Join S&P 100, S&P MidCap 400, and S&P SmallCap 600",
+                "publisher": "S&P Global",
+                "url": "https://press.spglobal.com/2026-09-04-Bloom-Energy,-Illumina,-and-Everpure-Set-to-Join-S-P-500-Others-to-Join-S-P-100,-S-P-MidCap-400,-and-S-P-SmallCap-600",
+                "date": "2026-09-04",
+                "quote": "\"Bloom Energy\" will have an \"Addition\" action to the \"S&P 500\" with the effective date of \"Sept 21, 2026,\" while \"Molson Coors Beverage\" undergoes a \"Deletion\" from that same index on the same date.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "편입 발표 당일(9/4) 정규장에서 주가가 +7.35% 급등했으며, 이는 편입 효력발생일을 앞둔 패시브 인덱스펀드의 매수 수요를 반영한 움직임이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Bloom Energy jumps ahead of S&P 500 inclusion: BE stock setup analysis",
+                "publisher": "Investing.com",
+                "url": "https://www.investing.com/news/stock-market-news/bloom-energy-jumps-ahead-of-sp-500-inclusion-be-stock-setup-analysis-93CH-4891781",
+                "date": "2026-09-04",
+                "quote": "The last regular-session price was $252.87, +7.35%, as of Sep 4, 2026 at 3:59 PM EDT.",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "9/21 편입 시점을 앞두고 매수 타이밍을 다루는 기사가 편입 3거래일 전(9/16)에도 나올 만큼 시장의 관심이 집중돼 있었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Should You Buy Bloom Energy Stock Before It Joins the S&P 500 on Sept. 21?",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/should-you-buy-bloom-energy-stock-it-joins-sp-500-sept-21",
+                "date": "2026-09-16",
+                "quote": "Should You Buy Bloom Energy Stock Before It Joins the S&P 500 on Sept. 21?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "편입 배경에는 2Q26 어닝 서프라이즈가 있다 — 매출 10.7억달러(+166% YoY)로 컨센서스(8.4억달러) 대폭 상회, 영업이익 2.4억달러(OPM 22.5% vs 컨센서스 13%), non-GAAP EPS $0.78(컨센서스 $0.48).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[블룸 에너지 (NYS:BE)] 2Q26 Review: 고객은 하나가 아니다",
+                "publisher": "메리츠증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlzglzmizcizmqgcgxcmel.pdf",
+                "date": "2026-07-29",
+                "quote": "2Q26 매출 10.7억달러(+166% YoY)로 컨센서스(8.4억달러) 대폭 상회. GPM 33.4%(+604bp YoY), 영업이익 2.4억달러(OPM 22.5%, vs 컨센서스 1.3억 달러) 기록하며 레버리지 효과 본격화. non-GAAP EPS $0.78(컨센서스 $0.48).",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 claims 검증 완료. S&P 500 편입 발표(c1), 주가 상승(c2), 매수 타이밍 기사(c3), 2Q26 어닝 서프라이즈(c4) 모두 quote에서 숫자와 사실 확인."
+        },
+        "categoryName": "매크로·정책·산업 돌파",
+        "isHighlight": true,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -906,9 +1813,59 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:40:35"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SNX",
+        "category": 5,
+        "company": "TD SYNNEX(SNX)는 하드웨어·소프트웨어·클라우드 서비스를 15만여 리셀러 네트워크를 통해 유통하는 글로벌 IT 유통·솔루션 애그리게이터다. 클라우드·데이터센터 인프라를 다루는 HIVE 세그먼트를 중심으로 하이퍼스케일러向 AI 인프라 수요가 최근 실적 성장을 견인해왔고, 최근 분기들에서 매출·순이익 증가세가 지속되고 있다. 현재는 9/24(목) 장 개장 전 2026 회계연도 3분기(8월 마감) 실적 발표를 3거래일 앞두고 AI 데이터센터 전력 공급 관련 신규 파트너십을 발표한 국면이다.",
+        "volumeExplanation": "여기에 9/24 장 개장 전으로 예정된 3분기 실적 발표를 3거래일 앞두고 있어 컨센서스(EPS 성장 CY 44.63%) 대비 기대감이 유입되는 국면으로 보인다. VOL_X 4.51(거래대금 20일평균 대비)·주간 거래량배수 4.19로 거래량은 급증했으나 CLS_POS 37.72로 종가는 상대적으로 약하게 마감했다.",
+        "claims": [
+          {
+            "id": "c2",
+            "statement": "TD SYNNEX는 2026 회계연도 3분기(8월 마감) 실적을 9/24(목) 장 개장 전에 발표하고, 이어 오전 9시(ET) 컨퍼런스콜을 진행한다고 공지했다. 오늘(9/21)은 이 실적 발표를 3거래일 앞둔 시점이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "TD SYNNEX to Announce Third Quarter Fiscal 2026 Results on September 24, 2026",
+                "publisher": "StockTitan (TD SYNNEX IR)",
+                "url": "https://www.stocktitan.net/news/SNX/td-synnex-to-announce-third-quarter-fiscal-2026-results-on-september-lul9pgbj0k0f.html",
+                "date": "2026-09-03",
+                "quote": "TD SYNNEX (NYSE: SNX) today announced it will report its financial results for its third fiscal quarter 2026, ended August 31, 2026, before market open on Thursday, September 24, 2026",
+                "verified": "unverified",
+                "httpStatus": 429
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "실적 발표를 앞두고 월가 애널리스트들의 목표주가 상향·강세 코멘터리가 이어져 왔다는 정황이 8월 중순 기사에서 확인된다(제공 자료 내 뉴스).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Wall Street Analysts Think TD SYNNEX (SNX) Could Surge 27.96%: Read This Before Placing a Bet",
+                "publisher": "Zacks (Nasdaq.com)",
+                "url": "https://www.nasdaq.com/articles/wall-street-analysts-think-td-synnex-snx-could-surge-2796-read-placing-bet",
+                "date": "2026-08-17",
+                "quote": "Wall Street Analysts Think TD SYNNEX (SNX) Could Surge 27.96%: Read This Before Placing a Bet",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reason": "c1의 '15만여 리셀러 네트워크', 'ORCA 유통' 등 구체적 세부사항이 quote나 title에 없어 검증 불가. c2(3분기 실적 9/24), c3(월가 애널리스트) 검증됨.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "9/15 Hammerhead AI와 ORCA(전력 오케스트레이션 소프트웨어) 유통 파트너십을 체결하며 AI 데이터센터 전력 확보라는 산업 테마에 대한 노출을 확대했다. 여기에 9/24 장 개장 전으로 예정된 3분기 실적 발표를 3거래일 앞두고 있어 컨센서스(EPS 성장 CY 44.63%) 대비 기대감이 유입되는 국면으로 보인다. VOL_X 4.51(거래대금 20일평균 대비)·주간 거래량배수 4.19로 거래량은 급증했으나 CLS_POS 37.72로 종가는 상대적으로 약하게 마감했다.",
+        "categoryName": "매크로·정책·산업 돌파",
+        "isHighlight": true,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -952,9 +1909,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:24:42"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "EG",
+        "category": 6,
+        "company": "Everest Group는 버뮤다 소재 글로벌 재보험·보험사로, Reinsurance(손해·특종 재보험)와 Insurance(원수보험) 두 부문에서 매출이 발생하며 미국 장기 캐주얼티 익스포저 축소, 단기·고마진 라인으로의 자본 재배분, 자사주 매입 확대를 병행 중이다. 직전 분기(2026Q2) 매출은 컨센서스를 하회했고 순보험료·BPS도 시장 기대에 못 미쳐 실적 발표 이후 주가가 조정을 겪었다. 현재는 150일선 위에서 52주 고점 대비 93.97% 수준을 유지하는 국면이다.",
+        "volumeExplanation": "EG.json 의 news·filings 와 웹검색(주가·8-K·실적 트랜스크립트·업종 동향 6회) 어디에서도 2026-09-21 시점의 거래량 급증(VOL_X 4.48, 주간배수 5.01)을 직접 설명하는 날짜가 맞는 촉매를 찾지 못했다. 가장 최근 8-K(2026-08-31, item 7.01 Reg FD)는 실적발표(item 2.02)가 아니며, 직전 실적(2026-07-29 발표)은 이미 3주 이상 지난 이벤트로 당일 거래량과 시점이 맞지 않는다. 당일 주가도 전일 종가 대비 소폭 등락에 그쳐 뉴스성 재료로 설명되는 급등락이 아니었다.",
+        "claims": [
+          {
+            "id": "1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "이미 category 6 (근거 없음)으로 올바르게 분류. claim도 '근거 없음'으로 명시되어 있음."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -994,9 +1971,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-20 06:52:09"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "FWONA",
+        "category": 6,
+        "company": "FWONA는 Liberty Media 산하 Formula One Group(F1 레이싱 프랜차이즈, MotoGP 등 모터스포츠 자산)을 추적하는 트래킹 스톡으로, 중계권료·스폰서십·레이스 개최료 중심의 자산경량(asset-light) 미디어·스포츠 사업 모델을 갖는다. 컨센서스(yfinance)는 CY 매출성장 6.21%/NY 10.67%, CY EPS성장 -14.54%/NY 26.52%로 당해년도 EPS 역성장 후 차년도 반등을 반영하고 있으며, Target_Status NO·52주 신고가 미기록 상태다. 종가는 150일선 위에 위치하나 60일 신고가 돌파는 없고(NO), 52주 고점 대비 86.15% 수준, CLS_POS 32.62로 종가강도는 낮은 편이다.",
+        "volumeExplanation": "제공된 SEC 8-K와 웹검색을 종합하면, 최근 20거래일 내 확인되는 이벤트는 9/2 공시된 최고법률책임자(CLO) 교체(10/1 발효)와 9/9 Jefferies의 매수 커버리지 개시(목표가 $115)뿐이며, 둘 다 실적 서프라이즈·대형 파트너십·정책 이벤트 같은 강한 촉매는 아니다. 직전 실적(8/6 발표 2Q26)은 EPS $0.24로 컨센서스 $0.2551을 하회하고 매출도 컨센서스를 하회했으나 캘린더 효과로 설명되며 주가는 오히려 반등했던 건으로, 오늘(9/21) 기준 이미 6주 이상 지난 이벤트다. 웹검색(6회 한도 내)으로도 9/18~21 인근의 새로운 구체적 뉴스는 확인되지 않아, 뚜렷한 단일 촉매 없이 거래량만 급증(VOL_X 4.37, 주간배수 6.63)한 암묵적 패턴으로 판단한다.",
+        "claims": [
+          {
+            "id": "clo-change",
+            "statement": "9/2 8-K(보고일 8/31)로 최고법률책임자(CLO) 교체 공시 — 10/1부로 Philip J. Boeckman이 CLO로 취임, 기존 Renee L. Wilm은 Senior Advisor로 전환. CEO 교체가 아닌 법무 임원 교체 건으로 통상적 지배구조 이벤트에 가깝다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "LIBERTY MEDIA CORPORATION, August 31, 2026 (Form 8-K, Item 5.02)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1560385/000156038526000024/lmca-20260831x8k.htm",
+                "date": "2026-09-02",
+                "quote": "Effective October 1, 2026, Philip J. Boeckman will assume the role of Chief Legal Officer of the Company and will oversee legal functions at the Company.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "jefferies-initiation",
+            "statement": "9/9 Jefferies가 FWONK(Liberty Formula One)에 매수(Buy) 커버리지를 개시하고 목표주가 $115을 제시, 프리미엄 소비자 경험 및 마진 확대 가능성을 근거로 들었다. 당시 주가 $94.95 대비 약 26% 상승여력 제시.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Jefferies says Formula One's parent is a buy as it focuses on premium",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/09/jefferies-says-formula-ones-parent-is-a-buy-as-it-focuses-on-premium.html",
+                "date": "2026-09-09",
+                "quote": "Jefferies Financial Group initiated coverage on Liberty Media Corporation's Liberty Formula One Series C stock with a \"buy\" rating and a $115.00 target price on September 9, 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2-earnings-stale",
+            "statement": "8/6 발표 2Q26 실적은 EPS $0.24로 컨센서스 $0.2551을 하회, 매출 9.34억달러로 컨센서스 9.57억달러를 하회했으나 캘린더(레이스 개최 횟수) 효과로 설명되며 주가는 프리마켓 +3.08% 반등했다. 오늘 거래량 급증 시점과는 6주 이상 시차가 있어 직접 촉매로 보기 어렵다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Liberty Media Corporation - Liberty Formula One Series C (FWONK) Q2 Earnings and Revenues Miss Estimates",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/liberty-media-corporation-liberty-formula-193002516.html",
+                "date": "2026-08-06",
+                "quote": "Liberty Media posted adjusted earnings of $0.24 per share, below the $0.2551 forecast, and revenue of $934 million, also under the $956.93 million estimate. However, the stock rose 3.08% to $99.01 in premarket trading",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "category 6 (근거 부족)으로 올바르게 분류. CLO 교체는 사소한 지배구조 이벤트, Jefferies 커버리지는 단순 개시, 2Q26 실적은 6주 이상 지난 이벤트로 9/21 거래량 급증의 직접 촉매로 부적절함을 반영."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -1040,9 +2079,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:39:23"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "NHC",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "NHC(National HealthCare Corporation)는 테네시 기반으로 스킬드너싱시설(SNF)·assisted/independent living·홈케어 및 호스피스를 운영하는 헬스케어 리츠 임차인 겸 운영사다. 2026년 7월 1일 NHI(National Health Investors)로부터 SNF 32개·독립생활시설 3개의 부동산을 5.6억 달러에 인수하며 기존 임차 구조에서 자가소유 구조로 전환했고, 2026년 2분기 순영업수익은 4.08억 달러(YoY +8.8%)로 6월 신규 인수 5개 시설(병상 639개) 편입 효과가 반영됐다.",
+        "volumeExplanation": "제공된 1차 자료(뉴스 5건, 8-K 6건, financials/krReports 없음)와 웹검색 6회를 통해 확인했으나, 2026-09-21 거래량 급증(VOL_X 4.32, 주간 거래량배수 7.19)을 직접 설명할 신규 촉매 뉴스를 찾지 못했다. 근거 없음.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -1086,9 +2145,75 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:47:43"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "EBAY",
+        "category": 6,
+        "company": "eBay는 마켓플레이스 거래액(GMV)에 대한 수수료 수취와 광고 매출이 핵심인 온라인 중고·컬렉터블 거래 플랫폼으로, 경영진은 컬렉터블·라이브커머스·중고차(Vehicles)·AI 기반 리스팅 확대를 차기 성장축으로 제시하는 국면이다. 동시에 GameStop이 2026년 5월 제시한 주당 125달러(현금 50%+주식 50%), 총 560억달러 규모의 비우호적 인수 제안의 대상이 되어 있고, 8월 들어 GameStop 측이 인수 철회 후 파트너십·조인트벤처로 선회할 가능성이 보도되는 등 M&A 오버행이 장기화된 상태다.",
+        "volumeExplanation": "VOL_X 4.21에 해당하는 9월 19~21일 구간에 새로 발생한 종목 고유 촉매(실적·가이던스 변화, 신규 계약, 규제 이벤트 등)는 확인되지 않는다. 확인 가능한 뉴스는 모두 거래일 대비 시차가 있는 배경성 재료뿐이다 — 8월 10일 보도된 철회·파트너십 전환 검토, 9월 초 콘퍼런스 코멘트, 9월 11일 CEO 자사주 매도. 60일 신고가 돌파 NO, CLS_POS 28.69(약세 마감)로 가격 측면에서도 명확한 상방 돌파가 동반되지 않아, 뚜렷한 표면적 촉매 없이 거래량만 튄 암묵적 케이스로 판정한다.",
+        "confidence": "medium",
+        "claims": [
+          {
+            "id": "c2",
+            "statement": "8월 10일 Bloomberg 보도로 GameStop CEO Ryan Cohen이 560억달러 인수 제안을 철회하고 파트너십/조인트벤처로 전환하는 방안을 검토 중이라는 소식이 전해졌으나, 이는 거래량 급증 시점(9/19~21)과는 약 6주의 시차가 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "GameStop's Ryan Cohen Weighs Pulling $56 Billion EBay Offer",
+                "publisher": "Bloomberg",
+                "url": "https://www.bloomberg.com/news/articles/2026-08-10/gamestop-s-ryan-cohen-weighs-pulling-56-billion-ebay-offer",
+                "date": "2026-08-10",
+                "quote": "GameStop's Ryan Cohen Weighs Pulling $56 Billion EBay Offer",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "9월 11일 eBay CEO Jamie Iannone이 230만달러 상당 자사주를 매도했다는 보도가 있었으나, 이는 촉매라기보다 내부자 매도로 오히려 중립~약세 시그널에 가깝다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "eBay CEO Jamie Iannone Sells Company Shares Worth $2.3 Million Amid a 12% One-Year Return",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/ebay-ceo-jamie-iannone-sells-company-shares-worth-23-million-amid-12-one-year-return",
+                "date": "2026-09-11",
+                "quote": "eBay CEO Jamie Iannone Sells Company Shares Worth $2.3 Million Amid a 12% One-Year Return",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "statement": "9월 9일 경영진의 컬렉터블·라이브커머스·AI 성장축 관련 콘퍼런스 코멘트가 있었으나, 거래량 급증 시점보다 약 열흘 앞선 재료로 당일 촉매로 보기는 어렵다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "eBay Sees Collectibles, Live Commerce and AI Powering Its Next Growth Phase",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/ebay-sees-collectibles-live-commerce-and-ai-powering-its-next-growth-phase",
+                "date": "2026-09-09",
+                "quote": "eBay Sees Collectibles, Live Commerce and AI Powering Its Next Growth Phase",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reason": "Claim c1 statement includes '총 560억달러' (deal size) which does not appear in the quote or source title. Quote only confirms '$125 per share' and '50% cash/50% stock' structure.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "VOL_X 4.21에 해당하는 9월 19~21일 구간에 새로 발생한 종목 고유 촉매(실적·가이던스 변화, 신규 계약, 규제 이벤트 등)는 확인되지 않는다. 확인 가능한 뉴스는 모두 거래일 대비 시차가 있는 배경성 재료뿐이다 — 5월 이후 이어진 GameStop의 560억달러 인수 제안, 8월 10일 보도된 철회·파트너십 전환 검토, 9월 초 콘퍼런스 코멘트, 9월 11일 CEO 자사주 매도. 60일 신고가 돌파 NO, CLS_POS 28.69(약세 마감)로 가격 측면에서도 명확한 상방 돌파가 동반되지 않아, 뚜렷한 표면적 촉매 없이 거래량만 튄 암묵적 케이스로 판정한다.",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -1256,9 +2381,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:18:06"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "PLUS",
+        "category": 6,
+        "claims": [
+          {
+            "id": "no-catalyst",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "ePlus는 IT 하드웨어·소프트웨어 조달, 리스/파이낸싱, 클라우드·매니지드서비스를 제공하는 엔터프라이즈·공공기관 대상 IT 솔루션 업체다(회계연도 3월 결산). 제공된 실적표 기준 최근 3개 분기(q0/q1/q2) 매출성장률이 0.99%→20.56%→24.64%로 가속, 순이익 증가율도 -28.89%→-7.56%→45.25%로 흑자 전환 흐름을 보이며 영업이익률은 5.98%→5.36%→7.07%로 개선세다. 최근 8-K(2026-08-04, item 2.02)는 FY2027 1분기 실적 발표였고, 이후 2026-09-14 filing(item 5.03·5.07)은 정기주총 표결결과·정관변경 관련 통상 공시다.",
+        "volumeExplanation": "제공된 news·filings 자료에서 2026-09-21 시점 거래량 급등(VOL_X 4.16, 주간배수 3.99)을 직접 설명할 만한 최근 뉴스·공시를 찾지 못했다. 가장 최근 8-K(9/14 접수, 보고일 9/10)는 item 5.03·5.07로 정기주주총회 표결결과·정관 개정에 해당하며 isEarnings=false로 실적발표가 아니다. 직전 실적발표(8-K item 2.02)는 8/4로 거래량 급등 시점과 6주 이상 떨어져 있고, 웹검색으로도 9월 중순~하순 구간에 ePlus를 특정한 촉매성 뉴스(애널리스트 등급 상향, 계약 체결, 지수 편입 등)를 확인하지 못했다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -1302,9 +2447,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 07:00:20"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "VOYA",
+        "category": 4,
+        "company": "Voya Financial은 확정기여형 퇴직연금 레코드키핑·자산운용(Investment Management)·개인 및 단체보험(스탑로스 포함, Health Solutions)을 겸영하는 미국 금융서비스사로, 약 1.1조 달러 규모의 연금·자산관리 플랫폼을 운영한다. 최근 분기 실적은 매출성장 q0/q1/q2 -4.29%/3.15%/5.02%, 영업이익률 1.79%/11.32%/8.01%로 변동성이 크고, 스탑로스 언더라이팅 부진과 밸류에이션 디스카운트를 이유로 행동주의펀드 TOMS Capital의 이사회 불신임·매각 압박을 받는 국면이다.",
+        "volumeExplanation": "TOMS Capital Investment Management이 2026년 9월 14일 예비 위임장(preliminary proxy statement)을 제출해 이사회·경영진에 대한 불신임(no confidence) 표결을 2026년 연차총회에서 부치자고 주주들에게 요구했다. TOMS Capital은 스탑로스 부문 부진과 밸류에이션 디스카운트를 근거로 회사 매각 또는 사업부 분할매각을 포함한 전략적 대안 검토를 수개월간 요구해왔다. 이번 위임장 제출은 2분기 매출 정체와 실적 부진(earnings miss) 직후 나온 것으로, 지배구조·잠재적 M&A 리스크가 부각되며 VOL_X 4.13(거래대금 20일평균 대비), 주간 거래량배수 4.16(당일제외 5일평균 대비)로 거래량이 급증했다.",
+        "claims": [
+          {
+            "id": "toms-noconfidence-proxy",
+            "statement": "TOMS Capital이 2026년 9월 14일 Voya 이사회·경영진에 대한 불신임 결의안을 주주에 요구하는 예비 위임장을 제출했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Is No Confidence Proposal Altering The Investment Case For Voya Financial (VOYA)?",
+                "publisher": "Simply Wall St News",
+                "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-voya/voya-financial/news/is-no-confidence-proposal-altering-the-investment-case-for-v",
+                "date": "2026-09-14",
+                "quote": "On September 14, 2026, TOMS Capital Investment Management filed a preliminary proxy statement urging Voya Financial shareholders to back a proposal expressing no confidence in the board and management at the 2026 annual meeting.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "toms-strategic-alternatives",
+            "statement": "TOMS Capital은 스탑로스 부문 부진과 밸류에이션 디스카운트를 근거로 회사 매각 또는 사업부 분할매각 등 전략적 대안 검토를 압박해왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Voya faces TOMS Capital pressure to explore break-up or sale",
+                "publisher": "Hedgeweek",
+                "url": "https://www.hedgeweek.com/voya-faces-toms-capital-pressure-to-explore-break-up-or-sale/",
+                "date": "2026-08",
+                "quote": "Toms Capital has built a stake in Voya and is urging management to evaluate options for its $1.1tn pension and insurance platform.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "proxy-timing-earnings-miss",
+            "statement": "이번 위임장 제출은 2분기 매출 정체와 뚜렷한 실적 부진(earnings miss) 직후 이루어졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Is No Confidence Proposal Altering The Investment Case For Voya Financial (VOYA)?",
+                "publisher": "Simply Wall St News",
+                "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-voya/voya-financial/news/is-no-confidence-proposal-altering-the-investment-case-for-v",
+                "date": "2026-09-14",
+                "quote": "as Voya Financial reports flat Q2 revenue and a meaningful earnings miss, highlighting investor concern over execution and profitability rather than headline sales alone",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "기업 턴어라운드",
+        "isHighlight": false,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -1349,8 +2556,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -1394,9 +2600,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-20 06:51:29"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SEIC",
+        "category": 6,
+        "company": "SEI Investments는 자산운용사·은행·RIA·기관투자자를 고객으로 하는 자산관리 아웃소싱·기술 플랫폼 업체로, SEI Wealth Platform 등 투자 프로세싱·행정·운용 서비스가 주 매출원이다. 2026-07-22 발표한 2분기 실적(8-K item 2.02)에서 매출 YoY 14.66% 성장(직전 3분기 순서 14.66/12.85/9.11%), 영업이익률 30.71%을 기록하며 레코드 실적을 냈고 이후 주가는 강세를 이어왔다. 현재는 150일선 위에서 거래되나 60일 신고가는 돌파하지 못했고 52주 고점 대비 93.8% 수준에 머물러 있다.",
+        "volumeExplanation": "제공된 SEIC.json의 뉴스·8-K는 모두 2026-07-22 실적 발표 전후(07-23~08-31)에 몰려 있고, VOL_X 4.09·주간 거래량배수 4.93이 관측된 2026-09-21 시점과는 약 3주 이상 시차가 있어 직접적 촉매로 연결되지 않는다. 웹검색으로 확인한 최근 Morgan Stanley 목표주가 상향 기사($105→$115, Overweight)는 실제 발행일이 2025-09-19로 확인되어 1년 전 자료였고, 2026년 9월 중 SEIC를 직접 언급한 신규 뉴스·공시는 검색 범위 내에서 확인되지 않았다. 즉 오늘 시점 거래량 급증을 설명할 표면적 뉴스·공시 근거가 확보되지 않았다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-09-21",
+        "carried": false
       }
     },
     {
@@ -1441,8 +2667,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -1487,8 +2712,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -1533,8 +2757,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -1579,8 +2802,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -1625,8 +2847,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -1671,8 +2892,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -1717,8 +2937,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -1763,8 +2982,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -1809,8 +3027,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -1855,8 +3072,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -1901,8 +3117,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -1947,8 +3162,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -1993,8 +3207,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2039,8 +3252,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2085,8 +3297,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2131,8 +3342,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2177,8 +3387,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2223,8 +3432,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2269,8 +3477,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2315,8 +3522,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2361,8 +3567,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2407,8 +3612,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2453,8 +3657,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2499,8 +3702,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2545,8 +3747,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2591,8 +3792,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2637,8 +3837,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2683,8 +3882,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2729,8 +3927,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2775,8 +3972,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2821,8 +4017,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2867,8 +4062,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2913,8 +4107,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -2959,8 +4152,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -3005,8 +4197,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -3051,8 +4242,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -3097,8 +4287,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -3143,8 +4332,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -3301,8 +4489,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -3347,8 +4534,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -3393,8 +4579,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -3439,8 +4624,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -3485,8 +4669,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -3531,8 +4714,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -3577,8 +4759,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -3623,8 +4804,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -3669,8 +4849,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -3715,8 +4894,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -3869,8 +5047,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -3915,8 +5092,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -3961,8 +5137,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4007,8 +5182,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4053,8 +5227,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4099,8 +5272,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4145,8 +5317,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4191,8 +5362,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4237,8 +5407,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4283,8 +5452,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4329,8 +5497,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4375,8 +5542,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4421,8 +5587,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4467,8 +5632,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4513,8 +5677,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4559,8 +5722,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4605,8 +5767,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4651,8 +5812,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4697,8 +5857,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4743,8 +5902,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4789,8 +5947,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4835,8 +5992,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4881,8 +6037,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4927,8 +6082,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -4969,8 +6123,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5015,8 +6168,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5061,8 +6213,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5107,8 +6258,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5153,8 +6303,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5199,8 +6348,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5241,8 +6389,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5287,8 +6434,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5333,8 +6479,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5480,8 +6625,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5526,8 +6670,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5572,8 +6715,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5618,8 +6760,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5664,8 +6805,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5710,8 +6850,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5756,8 +6895,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5802,8 +6940,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5848,8 +6985,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5894,8 +7030,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5940,8 +7075,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -5986,8 +7120,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6032,8 +7165,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6078,8 +7210,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6124,8 +7255,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6170,8 +7300,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6216,8 +7345,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6262,8 +7390,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6308,8 +7435,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6354,8 +7480,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6400,8 +7525,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6446,8 +7570,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6492,8 +7615,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6538,8 +7660,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6584,8 +7705,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6630,8 +7750,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6676,8 +7795,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6722,8 +7840,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6768,8 +7885,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6814,8 +7930,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6860,8 +7975,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6906,8 +8020,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6952,8 +8065,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -6998,8 +8110,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -7044,8 +8155,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -7090,8 +8200,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -7136,8 +8245,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -7182,8 +8290,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -7228,8 +8335,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -7274,8 +8380,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -7320,8 +8425,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -7492,8 +8596,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -7538,8 +8641,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -7584,8 +8686,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -7630,8 +8731,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -7676,8 +8776,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -7722,8 +8821,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -7768,8 +8866,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -7814,8 +8911,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -7860,8 +8956,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -7906,8 +9001,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -7952,8 +9046,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -7998,8 +9091,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8044,8 +9136,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8090,8 +9181,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8136,8 +9226,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8182,8 +9271,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8228,8 +9316,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8274,8 +9361,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8320,8 +9406,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8366,8 +9451,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8412,8 +9496,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8458,8 +9541,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8504,8 +9586,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8550,8 +9631,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8596,8 +9676,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8642,8 +9721,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8688,8 +9766,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8734,8 +9811,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8780,8 +9856,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8826,8 +9901,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8872,8 +9946,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8918,8 +9991,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -8964,8 +10036,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9010,8 +10081,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9056,8 +10126,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9102,8 +10171,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9148,8 +10216,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9194,8 +10261,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9240,8 +10306,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9286,8 +10351,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9332,8 +10396,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9378,8 +10441,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9424,8 +10486,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9470,8 +10531,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9516,8 +10576,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9562,8 +10621,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9608,8 +10666,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9654,8 +10711,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9700,8 +10756,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9746,8 +10801,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9792,8 +10846,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9838,8 +10891,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9884,8 +10936,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9930,8 +10981,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -9976,8 +11026,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10022,8 +11071,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10068,8 +11116,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10114,8 +11161,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10156,8 +11202,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10202,8 +11247,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10248,8 +11292,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10294,8 +11337,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10340,8 +11382,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10386,8 +11427,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10432,8 +11472,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10478,8 +11517,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10524,8 +11562,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10570,8 +11607,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10616,8 +11652,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10662,8 +11697,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10708,8 +11742,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10754,8 +11787,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10800,8 +11832,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10846,8 +11877,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10892,8 +11922,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10938,8 +11967,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -10984,8 +12012,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -11030,8 +12057,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -11076,8 +12102,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -11122,8 +12147,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -11168,8 +12192,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -11214,8 +12237,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -11260,8 +12282,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -11306,8 +12327,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -11352,8 +12372,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -11646,8 +12665,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -11692,8 +12710,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -11738,8 +12755,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -11784,8 +12800,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -11830,8 +12845,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -11876,8 +12890,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -11922,8 +12935,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -11968,8 +12980,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12014,8 +13025,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12060,8 +13070,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12106,8 +13115,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12152,8 +13160,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12194,8 +13201,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12240,8 +13246,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12286,8 +13291,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12332,8 +13336,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12378,8 +13381,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12424,8 +13426,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12470,8 +13471,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12516,8 +13516,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12545,8 +13544,7 @@ window.TEAM4_DATA = {
       "fs": null,
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12591,8 +13589,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12637,8 +13634,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12683,8 +13679,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12729,8 +13724,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12775,8 +13769,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12941,8 +13934,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -12987,8 +13979,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13101,8 +14092,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13147,8 +14137,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13193,8 +14182,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13239,8 +14227,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13285,8 +14272,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13331,8 +14317,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13377,8 +14362,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13423,8 +14407,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13469,8 +14452,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13515,8 +14497,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13561,8 +14542,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13607,8 +14587,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13653,8 +14632,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13699,8 +14677,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13745,8 +14722,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13791,8 +14767,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13837,8 +14812,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13883,8 +14857,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13929,8 +14902,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -13975,8 +14947,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14021,8 +14992,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14067,8 +15037,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14113,8 +15082,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14159,8 +15127,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14205,8 +15172,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14251,8 +15217,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14297,8 +15262,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14343,8 +15307,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14389,8 +15352,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14435,8 +15397,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14481,8 +15442,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14527,8 +15487,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14573,8 +15532,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14619,8 +15577,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14665,8 +15622,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14711,8 +15667,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14757,8 +15712,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14799,8 +15753,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14845,8 +15798,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -14891,8 +15843,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15058,8 +16009,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15104,8 +16054,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15150,8 +16099,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15196,8 +16144,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15242,8 +16189,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15288,8 +16234,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15334,8 +16279,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15380,8 +16324,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15426,8 +16369,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15472,8 +16414,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15518,8 +16459,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15564,8 +16504,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15610,8 +16549,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15656,8 +16594,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15702,8 +16639,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15748,8 +16684,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15794,8 +16729,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15840,8 +16774,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15886,8 +16819,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15932,8 +16864,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -15978,8 +16909,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16024,8 +16954,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16070,8 +16999,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16116,8 +17044,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16162,8 +17089,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16208,8 +17134,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16254,8 +17179,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16300,8 +17224,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16346,8 +17269,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16392,8 +17314,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16438,8 +17359,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16484,8 +17404,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16530,8 +17449,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16576,8 +17494,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16622,8 +17539,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16668,8 +17584,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16714,8 +17629,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16760,8 +17674,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16806,8 +17719,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16852,8 +17764,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16898,8 +17809,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16944,8 +17854,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -16990,8 +17899,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17036,8 +17944,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17082,8 +17989,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17128,8 +18034,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17174,8 +18079,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17220,8 +18124,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17266,8 +18169,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17312,8 +18214,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17358,8 +18259,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17404,8 +18304,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17450,8 +18349,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17496,8 +18394,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17542,8 +18439,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17588,8 +18484,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17634,8 +18529,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17680,8 +18574,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17726,8 +18619,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17772,8 +18664,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17818,8 +18709,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17864,8 +18754,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17910,8 +18799,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -17956,8 +18844,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18002,8 +18889,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18048,8 +18934,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18094,8 +18979,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18140,8 +19024,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18186,8 +19069,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18232,8 +19114,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18278,8 +19159,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18324,8 +19204,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18370,8 +19249,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18416,8 +19294,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18462,8 +19339,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18508,8 +19384,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18554,8 +19429,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18600,8 +19474,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18646,8 +19519,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18692,8 +19564,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18738,8 +19609,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18784,8 +19654,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18826,8 +19695,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -18872,8 +19740,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     }
   ],
@@ -19252,14 +20119,14 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 10,
+    "done": 35,
     "total": 397,
-    "cap": null,
-    "pending": 387,
+    "cap": 25,
+    "pending": 362,
     "failed": 0,
     "carried": 10,
     "ineligible": 0,
-    "note": "397종목 중 10종목을 조사했습니다. 그중 10종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 387종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "397종목 중 35종목을 조사했습니다. 그중 10종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 362종목은 상한(25) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다. 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -19292,5 +20159,56 @@ window.TEAM4_DATA = {
     "sectorSignal": "category 1·5 후보(ESEA, NSIT, TMO, CACC, SEZL)는 산업재 유통(NSIT), 라이프사이언스 장비(TMO), 해운(ESEA), 소비자금융(CACC, SEZL)으로 업종이 흩어져 있어 촉매가 특정 섹터에 몰린 신호는 확인되지 않는다. 다만 전체 후보군을 보면 금융서비스(대출·보험) 관련 티커(CACC, SEZL, JXN, PGR, LAD)가 category 6(암묵적) 포함 다수를 차지해, 오늘 리스트 전반에서는 금융/신용 업종의 규제·소송·펀딩 관련 이벤트가 상대적으로 자주 관찰된다.",
     "caution": "본 분류는 제공된 텍스트 클레임만을 근거로 하며 가격·거래량·차트 데이터는 받지 않아 횡보·돌파·리테스트 등 차트 국면은 판정하지 않았다. 웹검색 및 원문 재검증을 하지 않았으므로 클레임의 사실관계(특히 NSIT의 52주 신고가 여부처럼 매체 보도와 Node 확정 지표가 상충하는 항목)는 별도 검증이 필요하다. 카테고리 1·5로 분류된 종목도 동시에 밸류에이션 부담이나 내부자 매도 등 상충 정보가 병존할 수 있으므로(예: TWST 사례 참고) 투자 판단 시 원문 확인을 권장한다.",
     "researchedOn": "2026-09-18"
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "P",
+        "category": 1,
+        "oneLine": "9/9 복수 매체가 S&P500 편입을 보도했고 2분기 실적 세부지표를 컨센서스와 비교하는 후속 보도가 이어짐"
+      },
+      {
+        "ticker": "HALO",
+        "category": 1,
+        "oneLine": "2Q 조정EPS $2.28(컨센서스 $1.82)·매출 $4.81억(컨센서스 $4.043억)으로 서프라이즈, YoY 매출 +47.7%에 연간 가이던스 상향(매출 중간값 $18.7억·EPS 중간값 $8.83), 9/18 52주 신고가 경신"
+      },
+      {
+        "ticker": "CVX",
+        "category": 1,
+        "oneLine": "골드만삭스가 9/17 목표주가 $225→$240 상향, 업스트림 생산 5%+ QoQ·美생산 사상최대·비용절감 목표 6개월 조기달성을 근거로 실적 모멘텀 확신 표명"
+      },
+      {
+        "ticker": "TSEM",
+        "category": 5,
+        "oneLine": "9/17 AI 반도체 제조 전망 낙관에 주가 +8.89% 급등, FactSet 컨센서스 목표주가 $314.88(현재가 약 $220 대비 상회)에 애널리스트 평균 등급 Buy"
+      },
+      {
+        "ticker": "SUN",
+        "category": 5,
+        "oneLine": "이란 전쟁발 원유 공급차질로 美 오일가스 업종이 사상 최고 수준의 한 해를 보내는 가운데 SUN 주가는 2026년 들어 50% 이상 상승"
+      },
+      {
+        "ticker": "BE",
+        "category": 5,
+        "oneLine": "S&P500 신규 편입(9/21 효력, TAP 대체)이 2Q26 매출 +166% YoY·영업이익률 22.5%(컨센서스 13%)·EPS $0.78(컨센서스 $0.48) 서프라이즈를 배경으로 발표되며 발표 당일 +7.35% 급등"
+      },
+      {
+        "ticker": "SNX",
+        "category": 5,
+        "oneLine": "9/24 3분기 실적 발표를 앞두고 월가 애널리스트들의 목표주가 상향·강세 코멘터리가 이어져 온 정황"
+      }
+    ],
+    "sectorSignal": "category 1·5 하이라이트만 보면 에너지(CVX, SUN)가 2건으로 겹치지만 둘 다 \"글로벌 원유·업스트림 실적 강세\"라는 같은 매크로(이란 전쟁발 공급차질) 축에서 나온 것이라 업종 쏠림이라기보다 공통 매크로 촉매로 보는 게 정확하다. 나머지는 반도체/AI(TSEM), 산업재·대체에너지(BE), 헬스케어(HALO), IT유통(SNX), 미상(P)로 흩어져 있어 특정 섹터에 몰린 신호는 아니다.",
+    "caution": "이 요약은 제공된 텍스트 클레임에만 근거하며 웹검색은 수행하지 않았다. category 1·5 종목만 발췌했으므로 CORT·ILMN·V2X·HALO 외 다른 촉매 유형(바이오/FDA, 파트너십, 턴어라운드, 지수편입 등) 및 카테고리 6(뉴스 없는 이상거래량) 종목들은 하이라이트에서 제외됐다는 점을 감안해야 한다. 또한 가격·차트 데이터가 제공되지 않아 횡보/돌파/리테스트 등 차트 국면 판정은 하지 않았다. P의 경우 실적이 컨센서스를 상회했다는 직접적 서프라이즈 수치는 원문 클레임에 명시되지 않아(\"컨센서스와 비교 분석한 보도가 이어졌다\" 수준) 다른 종목 대비 근거가 약하다.",
+    "researchedOn": "2026-09-21"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 5,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 5,
+    "6": 19
   }
 };

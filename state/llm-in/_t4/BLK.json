@@ -1,0 +1,156 @@
+{
+ "ticker": "BLK",
+ "news": [
+  {
+   "title": "AMG or BLK: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/amg-or-blk-which-better-value-stock-right-now-0",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "BlackRock (BLK) Declines More Than Market: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/blackrock-blk-declines-more-market-some-information-investors-1",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "BlackRock (BLK) Declines More Than Market: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/blackrock-blk-declines-more-market-some-information-investors-0",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-15",
+   "reportDate": "2026-07-15",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526304013/blk-20260715.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-30",
+   "reportDate": "2026-06-30",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526290830/d108689d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526237027/d30456d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-14",
+   "reportDate": "2026-04-14",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526153768/blk-20260414.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-03",
+   "reportDate": "2026-03-31",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526142112/d101747d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-27",
+   "reportDate": "2026-01-27",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526024549/d281445d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 20.93,
+  "saleNy": 11.78,
+  "epsCy": 17.04,
+  "epsNy": 14.26,
+  "cyTrend": 0.09,
+  "nyTrend": 0.25,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    30.63,
+    26.95,
+    23.45
+   ],
+   "ni": [
+    20.15,
+    46.49,
+    -32.51
+   ],
+   "opm": [
+    34.74,
+    42.01,
+    23.7
+   ],
+   "updated": "2026-09-09 06:20:57"
+  }
+ }
+}

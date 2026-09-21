@@ -1,0 +1,158 @@
+{
+ "ticker": "IESC",
+ "news": [
+  {
+   "title": "IES Holdings (IESC) Price Target Increased by 52.84% to 714.00",
+   "url": "https://www.nasdaq.com/articles/ies-holdings-iesc-price-target-increased-5284-71400",
+   "date": "2026-05-15",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Director Sells $3.8 Million in IESC Shares After a 150% Run-Up -- Should Investors Pay Attention?",
+   "url": "https://www.nasdaq.com/articles/director-sells-38-million-iesc-shares-after-150-run-should-investors-pay-attention",
+   "date": "2026-03-23",
+   "publisher": "The Motley Fool"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-07",
+   "items": [
+    "1.01",
+    "3.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "3.02",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1048268/000149315226036976/form8-k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-31",
+   "reportDate": "2026-07-31",
+   "items": [
+    "2.02",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826826000131/iesc-20260731.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-05-01",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826826000087/iesc-20260501.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-20",
+   "reportDate": "2026-02-19",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826826000055/iesc-20260219.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-30",
+   "reportDate": "2026-01-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826826000038/iesc-20260130.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-21",
+   "reportDate": "2025-11-21",
+   "items": [
+    "2.02",
+    "5.02",
+    "7.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "임원 변동",
+    "Reg FD 공시"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826825000175/iesc-20251121.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 25.64,
+  "saleNy": 48.14,
+  "epsCy": 54.06,
+  "epsNy": 16.77,
+  "cyTrend": 0,
+  "nyTrend": 0.37,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    39.6,
+    16.83,
+    16.2
+   ],
+   "ni": [
+    99.4,
+    55.56,
+    65.02
+   ],
+   "opm": [
+    14.37,
+    11.52,
+    11.22
+   ],
+   "updated": "2026-09-08 10:25:05"
+  }
+ }
+}

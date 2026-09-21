@@ -1,0 +1,166 @@
+{
+ "ticker": "FAF",
+ "news": [
+  {
+   "title": "Why First American Financial (FAF) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-first-american-financial-faf-top-momentum-stock-long-term",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why First American Financial (FAF) is a Top Value Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-first-american-financial-faf-top-value-stock-long-term-0",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Should Value Investors Buy First American Financial (FAF) Stock?",
+   "url": "https://www.nasdaq.com/articles/should-value-investors-buy-first-american-financial-faf-stock-1",
+   "date": "2026-08-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why First American Financial (FAF) is a Top Dividend Stock for Your Portfolio",
+   "url": "https://www.nasdaq.com/articles/why-first-american-financial-faf-top-dividend-stock-your-portfolio-0",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "First American Financial (FAF) Up 4.4% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/first-american-financial-faf-44-last-earnings-report-can-it-continue",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1472787/000119312526312415/faf-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-15",
+   "reportDate": "2026-05-12",
+   "items": [
+    "3.03",
+    "5.03",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "3.03",
+    "5.03",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1472787/000119312526226782/faf-20260512.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1472787/000119312526191548/faf-20260429.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1472787/000119312526170438/faf-20260422.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-11",
+   "reportDate": "2026-02-11",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1472787/000119312526046587/faf-20260211.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-21",
+   "reportDate": "2026-01-21",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1472787/000119312526017981/faf-20260121.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.74,
+  "saleNy": 4.06,
+  "epsCy": 18.06,
+  "epsNy": 3.44,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    14.99,
+    16.16,
+    21.64
+   ],
+   "ni": [
+    49.56,
+    68.6,
+    192.68
+   ],
+   "opm": [
+    16.6,
+    12.23,
+    17.28
+   ],
+   "updated": "2026-09-09 07:13:55"
+  }
+ }
+}

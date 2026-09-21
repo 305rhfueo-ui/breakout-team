@@ -1,0 +1,180 @@
+{
+ "ticker": "FIVE",
+ "news": [
+  {
+   "title": "Is FIVE Stock Still Worth Buying as Growth Meets a Premium Valuation?",
+   "url": "https://www.nasdaq.com/articles/five-stock-still-worth-buying-growth-meets-premium-valuation",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "FIVE Raises 2026 Outlook as Traffic and Margins Drive Earnings Higher",
+   "url": "https://www.nasdaq.com/articles/five-raises-2026-outlook-traffic-and-margins-drive-earnings-higher",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "FIVE Stock Jumps 26.9% in 3 Months: Can the Rally Continue Higher?",
+   "url": "https://www.nasdaq.com/articles/five-stock-jumps-269-3-months-can-rally-continue-higher",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Five Below CHRO Maureen Gellerman Sells 1,610 Shares for $401,000",
+   "url": "https://www.nasdaq.com/articles/five-below-chro-maureen-gellerman-sells-1610-shares-401000",
+   "date": "2026-09-17",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Five Below's 2026 Outlook: Proven Store Expansion Strategy Targets Long-Term Growth",
+   "url": "https://www.nasdaq.com/articles/five-belows-2026-outlook-proven-store-expansion-strategy-targets-long-term-growth",
+   "date": "2026-09-16",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Is Five Below (FIVE) a Solid Growth Stock? 3 Reasons to Think &quot;Yes&quot;",
+   "url": "https://www.nasdaq.com/articles/five-below-five-solid-growth-stock-3-reasons-think-yes",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Five Below CMOO Sells 818 Shares at $248.88",
+   "url": "https://www.nasdaq.com/articles/five-below-cmoo-sells-818-shares-24888",
+   "date": "2026-09-15",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Five Below Consensus Price Target Raised by 14.22% to $310.19",
+   "url": "https://www.nasdaq.com/articles/five-below-consensus-price-target-raised-1422-31019",
+   "date": "2026-09-15",
+   "publisher": "Fintel"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-02",
+   "reportDate": "2026-09-02",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1177609/000117760926000023/five-20260902.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-14",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1177609/000119312526312573/d19155d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-16",
+   "reportDate": "2026-06-16",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1177609/000119312526272704/d97348d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "reportDate": "2026-06-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1177609/000117760926000015/five-20260603.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-18",
+   "reportDate": "2026-03-18",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1177609/000117760926000006/five-20260318.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-09",
+   "reportDate": "2026-02-03",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1177609/000119312526042901/d25218d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 19.86,
+  "saleNy": 9.26,
+  "epsCy": 53.62,
+  "epsNy": 7.97,
+  "cyTrend": 11.65,
+  "nyTrend": 11.77,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    22.85,
+    32.46,
+    24.27
+   ],
+   "ni": [
+    417.74,
+    199.06,
+    27.08
+   ],
+   "opm": [
+    21.83,
+    12,
+    17.99
+   ],
+   "updated": "2026-09-09 06:32:04"
+  }
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "ticker": "TMP",
+ "news": [
+  {
+   "title": "Tompkins Financial (TMP) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/tompkins-financial-tmp-could-be-great-choice-0",
+   "date": "2026-08-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Cash Dividend On The Way From Tompkins Financial (TMP)",
+   "url": "https://www.nasdaq.com/articles/cash-dividend-way-tompkins-financial-tmp",
+   "date": "2026-08-05",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Tompkins Financial (TMP) Beats Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/tompkins-financial-tmp-beats-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Tompkins Financial (TMP) is a Great Dividend Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/why-tompkins-financial-tmp-great-dividend-stock-right-now",
+   "date": "2026-07-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Tompkins Financial (TMP) is a Top Dividend Stock for Your Portfolio",
+   "url": "https://www.nasdaq.com/articles/why-tompkins-financial-tmp-top-dividend-stock-your-portfolio",
+   "date": "2026-07-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Tompkins Financial (TMP) is a Top Dividend Stock Right Now: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/tompkins-financial-tmp-top-dividend-stock-right-now-should-you-buy",
+   "date": "2026-06-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "This is Why  Tompkins Financial (TMP) is a Great Dividend Stock",
+   "url": "https://www.nasdaq.com/articles/why-tompkins-financial-tmp-great-dividend-stock",
+   "date": "2026-06-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Tompkins Financial (TMP) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/tompkins-financial-tmp-could-be-great-choice",
+   "date": "2026-05-15",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1005817/000100581726000105/tmp-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-24",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1005817/000100581726000087/tmp-20260723.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-26",
+   "reportDate": "2026-05-19",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1005817/000199937126011418/tmp-8k_051926.htm",
+   "description": "CURRENT REPORT"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-19",
+   "reportDate": "2026-05-19",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1005817/000199937126011044/tmp-8k_051926.htm",
+   "description": "CURRENT REPORT"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-27",
+   "reportDate": "2026-04-27",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1005817/000199937126009123/tmp_8k-042726.htm",
+   "description": "CURRENT REPORT"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-24",
+   "reportDate": "2026-04-23",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1005817/000100581726000045/tmp-20260423.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -21.29,
+  "saleNy": 7.96,
+  "epsCy": 23.85,
+  "epsNy": 6.46,
+  "cyTrend": 3.85,
+  "nyTrend": 2.09,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    2.51,
+    0.01,
+    104.48
+   ],
+   "ni": [
+    36.48,
+    32.5,
+    389.61
+   ],
+   "opm": [
+    32.37,
+    30.1,
+    61.64
+   ],
+   "updated": "2026-09-08 07:52:07"
+  }
+ }
+}

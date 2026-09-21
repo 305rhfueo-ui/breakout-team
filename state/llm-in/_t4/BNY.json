@@ -1,0 +1,168 @@
+{
+ "ticker": "BNY",
+ "news": [
+  {
+   "title": "BNY Sees Cross-Selling and AI Investments Fueling Its Next Growth Phase",
+   "url": "https://www.nasdaq.com/articles/bny-sees-cross-selling-and-ai-investments-fueling-its-next-growth-phase",
+   "date": "2026-09-19",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "USB vs. BNY: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/usb-vs-bny-which-stock-should-value-investors-buy-now",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "BNY Mellon Oversees $62 Trillion in Client Assets. Custody Is the Quietest Fee Machine in Finance.",
+   "url": "https://www.nasdaq.com/articles/bny-mellon-oversees-62-trillion-client-assets-custody-quietest-fee-machine-finance",
+   "date": "2026-09-06",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "BNY Gains 35.4% YTD: Should You Add the Stock to Your Portfolio Now?",
+   "url": "https://www.nasdaq.com/articles/bny-gains-354-ytd-should-you-add-stock-your-portfolio-now",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is BNY (BNY) Up 0.9% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-bny-bny-09-last-earnings-report",
+   "date": "2026-08-14",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-20",
+   "reportDate": "2026-08-20",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526358252/d417322d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-13",
+   "reportDate": "2026-08-11",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526349341/d342446d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-12",
+   "reportDate": "2026-08-12",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526347061/d175057d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-22",
+   "items": [
+    "3.03",
+    "5.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "3.03",
+    "5.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526314242/d126055d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-15",
+   "reportDate": "2026-07-15",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000071/bk-20260715.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-24",
+   "reportDate": "2026-06-24",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526281160/d137058d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 10.89,
+  "saleNy": 4.64,
+  "epsCy": 23.34,
+  "epsNy": 10.79,
+  "cyTrend": 0,
+  "nyTrend": 0.03,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -2.25,
+    1.1,
+    0.2
+   ],
+   "ni": [
+    21.93,
+    35.94,
+    26.28
+   ],
+   "opm": [
+    22.24,
+    20.44,
+    18.2
+   ],
+   "updated": "2026-09-06 06:06:59"
+  }
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "ticker": "SPB",
+ "news": [
+  {
+   "title": "Here's Why Spectrum Brands (SPB) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-spectrum-brands-spb-strong-value-stock",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Spectrum Brands (SPB) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-spectrum-brands-spb-top-momentum-stock-long-term",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Spectrum Brands (SPB) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/spectrum-brands-spb-q3-2026-earnings-call-transcript",
+   "date": "2026-08-14",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Why Spectrum Brands (SPB) is a Top Value Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-spectrum-brands-spb-top-value-stock-long-term",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Upcoming Dividend Run For SPB?",
+   "url": "https://www.nasdaq.com/articles/upcoming-dividend-run-spb",
+   "date": "2026-08-10",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Spectrum (SPB) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/spectrum-spb-q3-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-08-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Spectrum Brands (SPB) Tops Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/spectrum-brands-spb-tops-q3-earnings-and-revenue-estimates",
+   "date": "2026-08-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Spectrum Brands (SPB) Reports Next Week: Wall Street Expects Earnings Growth",
+   "url": "https://www.nasdaq.com/articles/spectrum-brands-spb-reports-next-week-wall-street-expects-earnings-growth-0",
+   "date": "2026-07-31",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-07",
+   "reportDate": "2026-08-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/109177/000010917726000038/spb-20260807.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/109177/000010917726000035/spb-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/109177/000010917726000018/spb-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-05-01",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/109177/000010917726000013/spb-20260501.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "reportDate": "2026-02-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/109177/000010917726000007/spb-20260205.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-13",
+   "reportDate": "2025-11-13",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/109177/000010917725000039/spb-20251113.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 1.99,
+  "saleNy": 1.36,
+  "epsCy": 15.26,
+  "epsNy": -10.45,
+  "cyTrend": 19.05,
+  "nyTrend": 2.81,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    7.68,
+    4.91,
+    -3.31
+   ],
+   "ni": [
+    -234.67,
+    2355.56,
+    20.85
+   ],
+   "opm": [
+    2.11,
+    6.14,
+    4
+   ],
+   "updated": "2026-09-08 05:57:38"
+  }
+ }
+}

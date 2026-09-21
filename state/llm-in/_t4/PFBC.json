@@ -1,0 +1,85 @@
+{
+ "ticker": "PFBC",
+ "news": [
+  {
+   "title": "Why Preferred Bank (PFBC) is a Top Dividend Stock for Your Portfolio",
+   "url": "https://www.nasdaq.com/articles/why-preferred-bank-pfbc-top-dividend-stock-your-portfolio",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Preferred Bank (PFBC) is a Top Dividend Stock Right Now: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/preferred-bank-pfbc-top-dividend-stock-right-now-should-you-buy",
+   "date": "2026-08-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "This is Why  Preferred Bank (PFBC) is a Great Dividend Stock",
+   "url": "https://www.nasdaq.com/articles/why-preferred-bank-pfbc-great-dividend-stock",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Preferred Bank (PFBC) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/preferred-bank-pfbc-could-be-great-choice-0",
+   "date": "2026-07-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's What Key Metrics Tell Us About Preferred Bank (PFBC) Q2 Earnings",
+   "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-preferred-bank-pfbc-q2-earnings",
+   "date": "2026-07-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Preferred Bank (PFBC) Q2 Earnings Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/preferred-bank-pfbc-q2-earnings-surpass-estimates",
+   "date": "2026-07-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Preferred Bank (PFBC) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/preferred-bank-pfbc-earnings-expected-grow-should-you-buy",
+   "date": "2026-07-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Preferred Bank (PFBC) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/preferred-bank-pfbc-could-be-great-choice",
+   "date": "2026-07-09",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0.24,
+  "saleNy": 5.27,
+  "epsCy": 3.15,
+  "epsNy": 2.24,
+  "cyTrend": 0.39,
+  "nyTrend": -2.37,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    6.24,
+    -6.42,
+    null
+   ],
+   "ni": [
+    11.71,
+    3.05,
+    null
+   ],
+   "opm": [
+    38.56,
+    36.79,
+    null
+   ],
+   "updated": "2026-09-07 05:56:57"
+  }
+ }
+}

@@ -1,0 +1,186 @@
+{
+ "ticker": "ITRI",
+ "news": [
+  {
+   "title": "Itron (ITRI) Stock Falls Amid Market Uptick: What Investors Need to Know",
+   "url": "https://www.nasdaq.com/articles/itron-itri-stock-falls-amid-market-uptick-what-investors-need-know",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Itron (ITRI) a Buy as Wall Street Analysts Look Optimistic?",
+   "url": "https://www.nasdaq.com/articles/itron-itri-buy-wall-street-analysts-look-optimistic",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Itron (ITRI) Stock Undervalued Right Now?",
+   "url": "https://www.nasdaq.com/articles/itron-itri-stock-undervalued-right-now",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is Itron (ITRI) Down 3.4% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-itron-itri-down-34-last-earnings-report",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Brokers Suggest Investing in Itron (ITRI): Read This Before Placing a Bet",
+   "url": "https://www.nasdaq.com/articles/brokers-suggest-investing-itron-itri-read-placing-bet",
+   "date": "2026-08-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Itron (ITRI) Upgraded to Buy: Here's Why",
+   "url": "https://www.nasdaq.com/articles/itron-itri-upgraded-buy-heres-why",
+   "date": "2026-08-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wall Street Analysts Think Itron (ITRI) Could Surge 27.12%: Read This Before Placing a Bet",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-think-itron-itri-could-surge-2712-read-placing-bet",
+   "date": "2026-08-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Should Value Investors Buy Itron (ITRI) Stock?",
+   "url": "https://www.nasdaq.com/articles/should-value-investors-buy-itron-itri-stock",
+   "date": "2026-08-17",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/780571/000117184326004912/f8k_072826.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-08",
+   "reportDate": "2026-05-06",
+   "items": [
+    "5.07",
+    "8.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/780571/000078057126000116/itri-20260506.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/780571/000117184326002750/f8k_042826.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-24",
+   "reportDate": "2026-04-13",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/780571/000119312526175249/d125229d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-26",
+   "reportDate": "2026-02-23",
+   "items": [
+    "1.01",
+    "2.03",
+    "3.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "3.02",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/780571/000119312526076749/d925789d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-17",
+   "reportDate": "2026-02-17",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/780571/000117184326000850/f8k_021426.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 0.92,
+  "saleNy": 6.58,
+  "epsCy": -9.94,
+  "epsNy": 7.71,
+  "cyTrend": 7.5,
+  "nyTrend": 5.48,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -7.23,
+    -3.32,
+    -6.72
+   ],
+   "ni": [
+    -22.05,
+    -18.35,
+    74.9
+   ],
+   "opm": [
+    13.51,
+    11.51,
+    13.76
+   ],
+   "updated": "2026-09-09 05:48:55"
+  }
+ }
+}

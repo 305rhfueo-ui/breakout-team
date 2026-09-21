@@ -1,0 +1,158 @@
+{
+ "ticker": "SSB",
+ "news": [
+  {
+   "title": "Cash Dividend On The Way From SouthState Bank (SSB)",
+   "url": "https://www.nasdaq.com/articles/cash-dividend-way-southstate-bank-ssb",
+   "date": "2026-08-05",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "SouthState (SSB) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/southstate-ssb-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-07-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Seeking Clues to SouthState (SSB) Q2 Earnings? A Peek Into Wall Street Projections for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/seeking-clues-southstate-ssb-q2-earnings-peek-wall-street-projections-key-metrics",
+   "date": "2026-07-22",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/764038/000110465926086278/ssb-20260723x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-13",
+   "reportDate": "2026-07-09",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/764038/000110465926082912/ssb-20260709x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-06",
+   "reportDate": "2026-07-06",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/764038/000110465926080628/ssb-20260706x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "2.02",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/764038/000110465926047690/ssb-20260423x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-15",
+   "reportDate": "2026-04-15",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/764038/000110465926043739/ssb-20260415x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-03",
+   "reportDate": "2026-04-03",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/764038/000110465926039475/ssb-20260403x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 1.72,
+  "saleNy": 6.61,
+  "epsCy": -0.27,
+  "epsNy": 9.43,
+  "cyTrend": -0.02,
+  "nyTrend": -0.07,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    0.83,
+    2.49,
+    51.66
+   ],
+   "ni": [
+    6.88,
+    153.5,
+    71.82
+   ],
+   "opm": [
+    31.98,
+    31.78,
+    30.49
+   ],
+   "updated": "2026-09-08 09:32:38"
+  }
+ }
+}

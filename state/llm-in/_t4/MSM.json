@@ -1,0 +1,150 @@
+{
+ "ticker": "MSM",
+ "news": [
+  {
+   "title": "Is MSC (MSM) Stock Outpacing Its Industrial Products Peers This Year?",
+   "url": "https://www.nasdaq.com/articles/msc-msm-stock-outpacing-its-industrial-products-peers-year",
+   "date": "2026-07-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are You Looking for a Top Momentum Pick? Why MSC Industrial (MSM) is a Great Choice",
+   "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-msc-industrial-msm-great-choice",
+   "date": "2026-07-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ex-Div Reminder for MSC Industrial Direct (MSM)",
+   "url": "https://www.nasdaq.com/articles/ex-div-reminder-msc-industrial-direct-msm",
+   "date": "2026-07-06",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-08",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1003078/000100307826000094/msm-20260908.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-19",
+   "reportDate": "2026-08-13",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1003078/000100307826000091/msm-20260813.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-01",
+   "reportDate": "2026-07-01",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1003078/000100307826000078/msm-20260701.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-16",
+   "reportDate": "2026-06-16",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1003078/000100307826000071/msm-20260616.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-15",
+   "reportDate": "2026-04-10",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1003078/000100307826000064/msm-20260410.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-01",
+   "reportDate": "2026-04-01",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1003078/000100307826000059/msm-20260401.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.89,
+  "saleNy": 6.73,
+  "epsCy": 22.43,
+  "epsNy": 18.3,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    7.82,
+    2.92,
+    4.01
+   ],
+   "ni": [
+    41.37,
+    8.06,
+    11.11
+   ],
+   "opm": [
+    10.19,
+    7.06,
+    7.89
+   ],
+   "updated": "2026-09-08 06:06:15"
+  }
+ }
+}

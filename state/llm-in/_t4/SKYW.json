@@ -1,0 +1,182 @@
+{
+ "ticker": "SKYW",
+ "news": [
+  {
+   "title": "SkyWest (SKYW) Advances While Market Declines: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/skywest-skyw-advances-while-market-declines-some-information-investors-0",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SkyWest (SKYW) Declines More Than Market: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/skywest-skyw-declines-more-market-some-information-investors",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why SkyWest (SKYW) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-skywest-skyw-strong-value-stock",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here is What to Know Beyond Why SkyWest, Inc. (SKYW) is a Trending Stock",
+   "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-skywest-inc-skyw-trending-stock",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SkyWest (SKYW) Increases Despite Market Slip: Here's What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/skywest-skyw-increases-despite-market-slip-heres-what-you-need-know",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SkyWest Jumps 11% in Past Month. Can SKYW Keep the Momentum Going?",
+   "url": "https://www.nasdaq.com/articles/skywest-jumps-11-past-month-can-skyw-keep-momentum-going",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why SkyWest (SKYW) is a Top Value Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-skywest-skyw-top-value-stock-long-term",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Investors Heavily Search SkyWest, Inc. (SKYW): Here is What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/investors-heavily-search-skywest-inc-skyw-here-what-you-need-know",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/793733/000110465926086251/skyw-20260723x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-05",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/793733/000110465926057092/skyw-20260505x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/793733/000110465926047674/skyw-20260423x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-29",
+   "reportDate": "2026-01-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/793733/000110465926007962/skyw-20260129x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-10-30",
+   "reportDate": "2025-10-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/793733/000110465925104349/skyw-20251030x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-07-24",
+   "reportDate": "2025-07-24",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/793733/000155837025009532/skyw-20250724x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.66,
+  "saleNy": 4.86,
+  "epsCy": 4.84,
+  "epsNy": 12.63,
+  "cyTrend": -0.51,
+  "nyTrend": 1.02,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.52,
+    6.82,
+    8.48
+   ],
+   "ni": [
+    -16.27,
+    1.13,
+    -6.39
+   ],
+   "opm": [
+    14.13,
+    12.21,
+    13.1
+   ],
+   "updated": "2026-09-07 07:05:51"
+  }
+ }
+}

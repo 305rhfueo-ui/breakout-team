@@ -1,0 +1,213 @@
+{
+ "ticker": "FEIM",
+ "news": [
+  {
+   "title": "FEIM Stock Climbs 34% as Q1 Earnings Surge Year Over Year",
+   "url": "https://www.nasdaq.com/articles/feim-stock-climbs-34-q1-earnings-surge-year-over-year",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Frequency Electronics (FEIM) Q1 2027 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/frequency-electronics-feim-q1-2027-earnings-call-transcript",
+   "date": "2026-09-11",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Frequency Electronics Q1 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/frequency-electronics-q1-earnings-call-highlights",
+   "date": "2026-09-10",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "FEIM Secures $18 Million in New Aerospace Contract Awards",
+   "url": "https://www.nasdaq.com/articles/feim-secures-18-million-new-aerospace-contract-awards",
+   "date": "2026-07-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Frequency Electronics (FEIM) Q4 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/frequency-electronics-feim-q4-2026-earnings-call-transcript",
+   "date": "2026-07-23",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "FEIM Stock Up 13% Despite Incurring Q4 Loss Due to Restructuring Costs",
+   "url": "https://www.nasdaq.com/articles/feim-stock-13-despite-incurring-q4-loss-due-restructuring-costs",
+   "date": "2026-07-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Frequency Electronics Stock Is Plummeting Today",
+   "url": "https://www.nasdaq.com/articles/why-frequency-electronics-stock-plummeting-today",
+   "date": "2026-07-16",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Frequency Electronics Q4 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/frequency-electronics-q4-earnings-call-highlights",
+   "date": "2026-07-15",
+   "publisher": "MarketBeat"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-10",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526003916/feim8k091026.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526003285/feim8k080526.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526003177/feim8k072926.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-15",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526002982/feim8k071526.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526002498/feim8k061226.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-11",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526000840/feim8k031126.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000039020&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-07-31",
+    "derived": false,
+    "revenue": 23451000,
+    "profit": 5200000,
+    "netIncome": 4216000,
+    "margin": 22.2,
+    "yoy": {
+     "revenue": 69.8,
+     "profit": 1328.6,
+     "netIncome": 565,
+     "priorEnd": "2025-07-31"
+    }
+   },
+   {
+    "periodEnd": "2026-04-30",
+    "derived": true,
+    "revenue": 15398000,
+    "profit": -6350000,
+    "netIncome": -4002903,
+    "margin": -41.2,
+    "yoy": {
+     "revenue": -23,
+     "profit": -293.7,
+     "netIncome": -225.2,
+     "priorEnd": "2025-04-30"
+    }
+   },
+   {
+    "periodEnd": "2026-01-31",
+    "derived": false,
+    "revenue": 16890000,
+    "profit": 1270000,
+    "netIncome": 1567000,
+    "margin": 7.5,
+    "yoy": {
+     "revenue": -10.8,
+     "profit": -63.4,
+     "netIncome": -89.8,
+     "priorEnd": "2025-01-31"
+    }
+   },
+   {
+    "periodEnd": "2025-10-31",
+    "derived": false,
+    "revenue": 17127000,
+    "profit": 1714000,
+    "netIncome": 1801000,
+    "margin": 10,
+    "yoy": {
+     "revenue": 8.3,
+     "profit": -34.5,
+     "netIncome": -32.1,
+     "priorEnd": "2024-10-31"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 30.8,
+  "saleNy": 26.18,
+  "epsCy": 1291.4,
+  "epsNy": 56.1,
+  "cyTrend": 32.26,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -22.96,
+    -10.76,
+    8.26
+   ],
+   "ni": [
+    -253.43,
+    -89.83,
+    -32.14
+   ],
+   "opm": [
+    -41.23,
+    7.52,
+    10.01
+   ],
+   "updated": "2026-09-08 10:16:35"
+  }
+ }
+}

@@ -1,0 +1,170 @@
+{
+ "ticker": "MCY",
+ "news": [
+  {
+   "title": "Can MCY Sustain Policy Growth Amid Rising Auto Competition?",
+   "url": "https://www.nasdaq.com/articles/can-mcy-sustain-policy-growth-amid-rising-auto-competition",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Mercury General (MCY) Stock Undervalued Right Now?",
+   "url": "https://www.nasdaq.com/articles/mercury-general-mcy-stock-undervalued-right-now-1",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ex-Div Reminder for Mercury General (MCY)",
+   "url": "https://www.nasdaq.com/articles/ex-div-reminder-mercury-general-mcy",
+   "date": "2026-09-08",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Why Is Mercury General (MCY) Down 6.1% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-mercury-general-mcy-down-61-last-earnings-report",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Should Value Investors Buy Mercury General (MCY) Stock?",
+   "url": "https://www.nasdaq.com/articles/should-value-investors-buy-mercury-general-mcy-stock-3",
+   "date": "2026-08-26",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-26",
+   "reportDate": "2026-08-26",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/64996/000006499626000024/mcy-20260826.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/64996/000119312526332781/d61051d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-24",
+   "reportDate": "2026-06-24",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/64996/000119312526281118/d811201d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-12",
+   "reportDate": "2026-06-09",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/64996/000119312526269392/d146636d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-09",
+   "reportDate": "2026-06-09",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/64996/000119312526263041/d26636d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-14",
+   "reportDate": "2026-05-13",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/64996/000006499626000017/mcy-20260513.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.41,
+  "saleNy": 6.66,
+  "epsCy": 70.89,
+  "epsNy": -9.26,
+  "cyTrend": 14.89,
+  "nyTrend": 2.08,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    13.8,
+    10.47,
+    12.41
+   ],
+   "ni": [
+    58.29,
+    "흑자전환",
+    100.41
+   ],
+   "opm": [
+    19.93,
+    15.75,
+    16.66
+   ],
+   "updated": "2026-09-08 09:21:53"
+  }
+ }
+}

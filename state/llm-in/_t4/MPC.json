@@ -1,0 +1,154 @@
+{
+ "ticker": "MPC",
+ "news": [
+  {
+   "title": "Marathon Petroleum (MPC) Exceeds Market Returns: Some Facts to Consider",
+   "url": "https://www.nasdaq.com/articles/marathon-petroleum-mpc-exceeds-market-returns-some-facts-consider-0",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Marathon Petroleum (MPC) Outperforming Other Oils-Energy Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/marathon-petroleum-mpc-outperforming-other-oils-energy-stocks-year",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Marathon Petroleum (MPC) Is Considered a Good Investment by Brokers: Is That True?",
+   "url": "https://www.nasdaq.com/articles/marathon-petroleum-mpc-considered-good-investment-brokers-true",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-29",
+   "reportDate": "2026-06-26",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000055/mpc-20260626.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000039/mpc-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-04-29",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000033/mpc-20260429.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-13",
+   "reportDate": "2026-04-07",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "실적 발표",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000029/mpc-20260407.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-03",
+   "reportDate": "2026-02-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000003/mpc-20260203.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 23.65,
+  "saleNy": -12.44,
+  "epsCy": 414.47,
+  "epsNy": -22.5,
+  "cyTrend": 9.58,
+  "nyTrend": 32.49,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    53.83,
+    8.51,
+    -1.7
+   ],
+   "ni": [
+    322.53,
+    "흑자전환",
+    313.75
+   ],
+   "opm": [
+    14.08,
+    4.11,
+    8.27
+   ],
+   "updated": "2026-09-08 10:31:37"
+  }
+ }
+}

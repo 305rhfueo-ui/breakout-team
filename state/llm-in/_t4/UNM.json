@@ -1,0 +1,164 @@
+{
+ "ticker": "UNM",
+ "news": [
+  {
+   "title": "Why Is Unum (UNM) Up 9.4% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-unum-unm-94-last-earnings-report",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Unum (UNM) Reports Q2 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/unum-unm-reports-q2-earnings-what-key-metrics-have-say",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Unum (UNM) Beats Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/unum-unm-beats-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Unum (UNM) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/unum-unm-could-be-great-choice",
+   "date": "2026-07-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Unum Group About To Put More Money In Your Pocket (UNM)",
+   "url": "https://www.nasdaq.com/articles/unum-group-about-put-more-money-your-pocket-unm",
+   "date": "2026-07-22",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-26",
+   "reportDate": "2026-08-26",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/5513/000000551326000082/unm-20260826.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/5513/000000551326000073/unm-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-06",
+   "reportDate": "2026-07-02",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/5513/000000551326000069/unm-20260702.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-01",
+   "reportDate": "2026-07-01",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/5513/000000551326000066/unm-20260701.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/5513/000000551326000053/unm-20260521.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-21",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/5513/000000551326000051/unm-20260521.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -7.77,
+  "saleNy": 4.6,
+  "epsCy": 6.71,
+  "epsNy": 9.03,
+  "cyTrend": -1.31,
+  "nyTrend": -2.16,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    0.26,
+    8.53,
+    0.23
+   ],
+   "ni": [
+    -23.45,
+    22.69,
+    -50.07
+   ],
+   "opm": [
+    9.78,
+    9.02,
+    6.73
+   ],
+   "updated": "2026-09-09 07:38:26"
+  }
+ }
+}

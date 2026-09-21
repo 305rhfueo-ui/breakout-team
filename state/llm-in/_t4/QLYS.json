@@ -1,0 +1,195 @@
+{
+ "ticker": "QLYS",
+ "news": [
+  {
+   "title": "Qualys Reaches Analyst Target Price",
+   "url": "https://www.nasdaq.com/articles/qualys-reaches-analyst-target-price",
+   "date": "2026-09-16",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Zacks Investment Ideas feature highlights: Fortinet and Qualys",
+   "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-fortinet-and-qualys",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "2 Top Cybersecurity Stocks to Buy Amid AI Safety Fears: FTNT, QLYS",
+   "url": "https://www.nasdaq.com/articles/2-top-cybersecurity-stocks-buy-amid-ai-safety-fears-ftnt-qlys",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Qualys (QLYS) Could Find a Support Soon, Here's Why You Should Buy the Stock Now",
+   "url": "https://www.nasdaq.com/articles/qualys-qlys-could-find-support-soon-heres-why-you-should-buy-stock-now",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is Qualys (QLYS) Down 6.8% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-qualys-qlys-down-68-last-earnings-report",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000034/qlys-20260804.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-11",
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000024/qlys-20260610.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000013/qlys-20260505.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784326000004/qlys-20260205.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-04",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784325000037/qlys-20251104.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-08-05",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1107843/000110784325000030/qlys-20250805.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001107843&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 182175000,
+    "profit": 61902000,
+    "netIncome": 52405000,
+    "margin": 34,
+    "yoy": {
+     "revenue": 11,
+     "profit": 20.4,
+     "netIncome": 10.8,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 175638000,
+    "profit": 60885000,
+    "netIncome": 50643000,
+    "margin": 34.7,
+    "yoy": {
+     "revenue": 9.8,
+     "profit": 17.6,
+     "netIncome": 6.5,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 175282000,
+    "profit": 58835000,
+    "netIncome": 53130000,
+    "margin": 33.6,
+    "yoy": {
+     "revenue": 10.1,
+     "profit": 19.1,
+     "netIncome": 20.8,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": false,
+    "revenue": 169882000,
+    "profit": 59955000,
+    "netIncome": 50346000,
+    "margin": 35.3,
+    "yoy": {
+     "revenue": 10.4,
+     "profit": 33.4,
+     "netIncome": 8.9,
+     "priorEnd": "2024-09-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.85,
+  "saleNy": 8.1,
+  "epsCy": 10.24,
+  "epsNy": 8.15,
+  "cyTrend": 0.15,
+  "nyTrend": 0.17,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    11.04,
+    9.84,
+    10.11
+   ],
+   "ni": [
+    10.82,
+    6.54,
+    20.89
+   ],
+   "opm": [
+    33.98,
+    34.67,
+    33.57
+   ],
+   "updated": "2026-09-07 05:57:33"
+  }
+ }
+}

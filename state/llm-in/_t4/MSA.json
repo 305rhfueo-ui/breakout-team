@@ -1,0 +1,180 @@
+{
+ "ticker": "MSA",
+ "news": [
+  {
+   "title": "MSA Safety Chairman Vartanian Sells 20,000 Shares for $3.9 Million -- Should Investors Be Worried?",
+   "url": "https://www.nasdaq.com/articles/msa-safety-chairman-vartanian-sells-20000-shares-39-million-should-investors-be-worried",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "MSA Safety (MSA) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/msa-safety-msa-q2-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "MSA Safety Incorporporated Q2 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/msa-safety-incorporporated-q2-earnings-call-highlights",
+   "date": "2026-07-31",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "MSA Safety Q2 26 Earnings Conference Call At 10:00 AM ET",
+   "url": "https://www.nasdaq.com/articles/msa-safety-q2-26-earnings-conference-call-10-00-am-et",
+   "date": "2026-07-31",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "MSA Safety (MSA) Surpasses Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/msa-safety-msa-surpasses-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "MSA Safety (MSA) Reports Q2 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/msa-safety-msa-reports-q2-earnings-what-key-metrics-have-say",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "MSA Safety Inc. Profit Advances In Q2",
+   "url": "https://www.nasdaq.com/articles/msa-safety-inc-profit-advances-q2",
+   "date": "2026-07-30",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Bullish Two Hundred Day Moving Average Cross - MSA",
+   "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-msa",
+   "date": "2026-06-29",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/66570/000006657026000025/msa-20260730.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-21",
+   "reportDate": "2026-07-21",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/66570/000006657026000022/msa-20260721.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-09",
+   "reportDate": "2026-07-09",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/66570/000006657026000019/msa-20260709.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-08",
+   "reportDate": "2026-05-08",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/66570/000006657026000014/msa-20260508.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/66570/000114036126019007/ny20072200x1_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-05-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/66570/000006657026000010/msa-20260504.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.28,
+  "saleNy": 9.05,
+  "epsCy": 15.46,
+  "epsNy": 9.58,
+  "cyTrend": -0.29,
+  "nyTrend": 0.19,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.16,
+    10.04,
+    2.24
+   ],
+   "ni": [
+    37.32,
+    19.57,
+    -1.16
+   ],
+   "opm": [
+    22.24,
+    20.06,
+    22.29
+   ],
+   "updated": "2026-09-08 07:47:27"
+  }
+ }
+}

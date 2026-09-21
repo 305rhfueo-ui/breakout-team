@@ -1,194 +1,431 @@
 {
- "date": "2026-09-18",
+ "date": "2026-09-21",
  "cap": 6,
  "poolTotal": 10,
  "industries": [
   {
-   "key": "Industrials|Marine Shipping",
-   "sector": "Industrials",
-   "industry": "Marine Shipping",
-   "count": 6,
+   "key": "Technology|Computer Hardware",
+   "sector": "Technology",
+   "industry": "Computer Hardware",
+   "count": 9,
    "counts": {
-    "m1": 6,
-    "m3": 6,
-    "m6": 6
+    "m1": 9,
+    "m3": 9,
+    "m6": 9
    },
    "wrs": {
-    "m1": 0.099,
-    "m3": 0.2247,
-    "m6": 0.3819
+    "m1": 0.1194,
+    "m3": 0.0673,
+    "m6": 1.4537
    },
    "final": {
-    "m1": 0.1165,
-    "m3": 0.1928,
-    "m6": 0.2677
+    "m1": 0.1227,
+    "m3": 0.0652,
+    "m6": 0.6428
    },
    "rankPct": {
     "m1": 1.43,
-    "m3": 5,
-    "m6": 6.43
+    "m3": 25.71,
+    "m6": 0.71
    },
    "pickedBy": [
+    "m6",
     "m1",
+    "top10"
+   ],
+   "members": [
+    "DELL",
+    "SNDK"
+   ],
+   "memberNews": [
+    {
+     "ticker": "DELL",
+     "date": "2026-09-16",
+     "publisher": "The Motley Fool",
+     "title": "Prediction: Dell's AI Server Backlog Makes It a Sneaky Way to Play the Nvidia Supercycle",
+     "url": "https://www.nasdaq.com/articles/prediction-dells-ai-server-backlog-makes-it-sneaky-way-play-nvidia-supercycle"
+    },
+    {
+     "ticker": "DELL",
+     "date": "2026-09-15",
+     "publisher": "Fintel",
+     "title": "Dell Technologies Consensus Price Target Increased by 13.95% to $582.33",
+     "url": "https://www.nasdaq.com/articles/dell-technologies-consensus-price-target-increased-1395-58233"
+    },
+    {
+     "ticker": "DELL",
+     "date": "2026-09-15",
+     "publisher": "Zacks",
+     "title": "The Zacks Analyst Blog Highlights United Health, Dell Technologies and The Goldman Sachs",
+     "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-united-health-dell-technologies-and-goldman-sachs"
+    },
+    {
+     "ticker": "SNDK",
+     "date": "2026-09-17",
+     "publisher": "The Motley Fool",
+     "title": "Prediction: A $5,000 Investment Split Between Micron and Sandisk Will Triple Before 2028",
+     "url": "https://www.nasdaq.com/articles/prediction-5000-investment-split-between-micron-and-sandisk-will-triple-2028"
+    },
+    {
+     "ticker": "SNDK",
+     "date": "2026-09-17",
+     "publisher": "The Motley Fool",
+     "title": "Sandisk Is Up More Than 1,700% in a Year and Still 33% Off Its Peak. History Says This is What Happens Next.",
+     "url": "https://www.nasdaq.com/articles/sandisk-more-1700-year-and-still-33-its-peak-history-says-what-happens-next"
+    },
+    {
+     "ticker": "SNDK",
+     "date": "2026-09-17",
+     "publisher": "Zacks",
+     "title": "The Memory Shortage Is Not Over: More Upside for Micron and Sandisk?",
+     "url": "https://www.nasdaq.com/articles/memory-shortage-not-over-more-upside-micron-and-sandisk"
+    }
+   ],
+   "flow": {
+    "FRANK": 1,
+    "frank25": 0,
+    "f10": 13.609049133969615,
+    "f25": 19.679761683113018,
+    "d50": 6.32,
+    "d200": 32.72,
+    "d200Delta": -1.4100000000000037,
+    "cy": 4.720000000000001,
+    "ny": 13.535,
+    "upRatio": 86.98630136986301,
+    "coverage": 438,
+    "winRate": 0.8889,
+    "stage": "mid_flat",
+    "stageKo": "🔶 중반이나 수축 중",
+    "flow": "pending"
+   }
+  },
+  {
+   "key": "Technology|Electronics & Computer Distribution",
+   "sector": "Technology",
+   "industry": "Electronics & Computer Distribution",
+   "count": 5,
+   "counts": {
+    "m1": 5,
+    "m3": 5,
+    "m6": 5
+   },
+   "wrs": {
+    "m1": 0.0716,
+    "m3": 0.0296,
+    "m6": 0.7124
+   },
+   "final": {
+    "m1": 0.1066,
+    "m3": 0.0726,
+    "m6": 0.3468
+   },
+   "rankPct": {
+    "m1": 4.29,
+    "m3": 37.14,
+    "m6": 1.43
+   },
+   "pickedBy": [
+    "m6",
     "top10"
    ],
    "members": [],
    "memberNews": [],
    "flow": {
-    "FRANK": 14,
-    "frank25": 12,
-    "f10": -2.013177159590046,
-    "f25": 44.23491379310345,
-    "d50": 10.66,
-    "d200": 34.19,
-    "d200Delta": 12.879999999999999,
-    "cy": 6.119999999999999,
-    "ny": 2.56,
-    "upRatio": 79.62962962962963,
-    "coverage": 54,
+    "FRANK": 8,
+    "frank25": 2,
+    "f10": 15.87036418309388,
+    "f25": 23.41637010676155,
+    "d50": 6.14,
+    "d200": 28.42,
+    "d200Delta": -1.9499999999999993,
+    "cy": 9.23,
+    "ny": 7.79,
+    "upRatio": 95.55555555555556,
+    "coverage": 90,
     "winRate": 1,
-    "stage": "mid_up",
-    "stageKo": "📈 상승 중반 (확장 중)",
+    "stage": "mid_flat",
+    "stageKo": "🔶 중반이나 수축 중",
     "flow": "pending"
    }
   },
   {
-   "key": "Healthcare|Diagnostics & Research",
-   "sector": "Healthcare",
-   "industry": "Diagnostics & Research",
-   "count": 22,
+   "key": "Energy|Oil & Gas Refining & Marketing",
+   "sector": "Energy",
+   "industry": "Oil & Gas Refining & Marketing",
+   "count": 7,
    "counts": {
-    "m1": 22,
-    "m3": 22,
-    "m6": 22
+    "m1": 7,
+    "m3": 7,
+    "m6": 7
    },
    "wrs": {
-    "m1": 0.049,
-    "m3": 0.3279,
-    "m6": 0.4081
+    "m1": 0.1765,
+    "m3": 0.6757,
+    "m6": 0.5966
    },
    "final": {
-    "m1": 0.1388,
-    "m3": 0.3394,
-    "m6": 0.4226
+    "m1": 0.1796,
+    "m3": 0.4084,
+    "m6": 0.3486
+   },
+   "rankPct": {
+    "m1": 0.71,
+    "m3": 0.71,
+    "m6": 2.86
+   },
+   "pickedBy": [
+    "m1",
+    "m3",
+    "top10"
+   ],
+   "members": [
+    "DINO",
+    "PARR"
+   ],
+   "memberNews": [
+    {
+     "ticker": "DINO",
+     "date": "2026-09-15",
+     "publisher": "Zacks",
+     "title": "Are You Looking for a Top Momentum Pick? Why HF Sinclair (DINO) is a Great Choice",
+     "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-hf-sinclair-dino-great-choice"
+    },
+    {
+     "ticker": "DINO",
+     "date": "2026-09-15",
+     "publisher": "Zacks",
+     "title": "Here's Why HF Sinclair (DINO) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-hf-sinclair-dino-strong-momentum-stock"
+    },
+    {
+     "ticker": "DINO",
+     "date": "2026-09-08",
+     "publisher": "Zacks",
+     "title": "Why HF Sinclair (DINO) is a Top Growth Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-hf-sinclair-dino-top-growth-stock-long-term-0"
+    },
+    {
+     "ticker": "PARR",
+     "date": "2026-09-17",
+     "publisher": "Zacks",
+     "title": "Why Par Petroleum (PARR) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-par-petroleum-parr-top-momentum-stock-long-term"
+    },
+    {
+     "ticker": "PARR",
+     "date": "2026-09-16",
+     "publisher": "Zacks",
+     "title": "Par Petroleum (PARR) Is Up 4.09% in One Week: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/par-petroleum-parr-409-one-week-what-you-should-know"
+    },
+    {
+     "ticker": "PARR",
+     "date": "2026-09-16",
+     "publisher": "Zacks",
+     "title": "Why Par Petroleum (PARR) is a Top Growth Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-par-petroleum-parr-top-growth-stock-long-term-0"
+    }
+   ],
+   "flow": {
+    "FRANK": 6,
+    "frank25": -3,
+    "f10": -1.581027667984188,
+    "f25": -9.360374414976592,
+    "d50": 19.19,
+    "d200": 54.82,
+    "d200Delta": 15.049999999999997,
+    "cy": 8.16,
+    "ny": 16.92,
+    "upRatio": 84.32203389830508,
+    "coverage": 236,
+    "winRate": 1,
+    "stage": "late_up",
+    "stageKo": "⚠️ 후반 가속",
+    "flow": "pending"
+   }
+  },
+  {
+   "key": "Technology|Software - Infrastructure",
+   "sector": "Technology",
+   "industry": "Software - Infrastructure",
+   "count": 33,
+   "counts": {
+    "m1": 33,
+    "m3": 33,
+    "m6": 33
+   },
+   "wrs": {
+    "m1": 0.0416,
+    "m3": 0.3128,
+    "m6": 0.4897
+   },
+   "final": {
+    "m1": 0.1137,
+    "m3": 0.2822,
+    "m6": 0.4557
    },
    "rankPct": {
     "m1": 7.86,
     "m3": 1.43,
-    "m6": 5.71
+    "m6": 3.57
    },
    "pickedBy": [
     "m3",
     "top10"
    ],
    "members": [
-    "TWST",
-    "WGS",
-    "BLLN",
-    "ILMN"
+    "OKTA",
+    "BAND",
+    "CRWD",
+    "PLTR",
+    "ZS",
+    "PANW",
+    "QLYS"
    ],
    "memberNews": [
     {
-     "ticker": "TWST",
-     "date": "2026-09-10",
-     "publisher": "Fintel",
-     "title": "BWS Financial Initiates Coverage of Twist Bioscience with Sell Rating",
-     "url": "https://www.nasdaq.com/articles/bws-financial-initiates-coverage-twist-bioscience-sell-rating"
-    },
-    {
-     "ticker": "TWST",
-     "date": "2026-09-09",
-     "publisher": "Fintel",
-     "title": "UBS Initiates Coverage of Twist Bioscience with Neutral Rating",
-     "url": "https://www.nasdaq.com/articles/ubs-initiates-coverage-twist-bioscience-neutral-rating"
-    },
-    {
-     "ticker": "TWST",
-     "date": "2026-08-19",
-     "publisher": "RTTNews",
-     "title": "Twist Bioscience (TWST): Q3 Revenue Jumps 23% As FY2026 Guidance Raised",
-     "url": "https://www.nasdaq.com/articles/twist-bioscience-twst-q3-revenue-jumps-23-fy2026-guidance-raised"
-    },
-    {
-     "ticker": "WGS",
-     "date": "2026-08-24",
-     "publisher": "RTTNews",
-     "title": "GeneDx Study Supports Hospital-Wide Adoption Of Rapid Genome Sequencing In Pediatric Care",
-     "url": "https://www.nasdaq.com/articles/genedx-study-supports-hospital-wide-adoption-rapid-genome-sequencing-pediatric-care"
-    },
-    {
-     "ticker": "WGS",
-     "date": "2026-08-19",
-     "publisher": "Zacks",
-     "title": "Can GENEDX HOLDINGS (WGS) Run Higher on Rising Earnings Estimates?",
-     "url": "https://www.nasdaq.com/articles/can-genedx-holdings-wgs-run-higher-rising-earnings-estimates"
-    },
-    {
-     "ticker": "WGS",
-     "date": "2026-08-11",
+     "ticker": "OKTA",
+     "date": "2026-09-14",
      "publisher": "The Motley Fool",
-     "title": "GeneDx (WGS) Q2 2026 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/genedx-wgs-q2-2026-earnings-call-transcript"
+     "title": "Why Okta Stock Rocketed Higher Today",
+     "url": "https://www.nasdaq.com/articles/why-okta-stock-rocketed-higher-today"
     },
     {
-     "ticker": "BLLN",
-     "date": "2026-09-17",
-     "publisher": "The Motley Fool",
-     "title": "BillionToOne CEO Liquidates Entire Directly-Held Stake in the Company for $3 Million",
-     "url": "https://www.nasdaq.com/articles/billiontoone-ceo-liquidates-entire-directly-held-stake-company-3-million"
+     "ticker": "OKTA",
+     "date": "2026-09-12",
+     "publisher": "MarketBeat",
+     "title": "Okta Targets AI Agent Confusion With Identity Security Push",
+     "url": "https://www.nasdaq.com/articles/okta-targets-ai-agent-confusion-identity-security-push"
     },
     {
-     "ticker": "BLLN",
-     "date": "2026-09-03",
-     "publisher": "Fintel",
-     "title": "Canaccord Genuity Initiates Coverage of BillionToOne (BLLN) with Buy Rating",
-     "url": "https://www.nasdaq.com/articles/canaccord-genuity-initiates-coverage-billiontoone-blln-buy-rating"
-    },
-    {
-     "ticker": "BLLN",
-     "date": "2026-08-28",
-     "publisher": "The Motley Fool",
-     "title": "BillionToOne's Co-Founder Sells 10,000 Shares for $1 Million",
-     "url": "https://www.nasdaq.com/articles/billiontoones-co-founder-sells-10000-shares-1-million"
-    },
-    {
-     "ticker": "ILMN",
+     "ticker": "OKTA",
      "date": "2026-09-11",
      "publisher": "Zacks",
-     "title": "Illumina (ILMN) is a Top-Ranked Momentum Stock: Should You Buy?",
-     "url": "https://www.nasdaq.com/articles/illumina-ilmn-top-ranked-momentum-stock-should-you-buy"
+     "title": "Okta, Inc. (OKTA) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/okta-inc-okta-attracting-investor-attention-here-what-you-should-know"
     },
     {
-     "ticker": "ILMN",
-     "date": "2026-09-09",
-     "publisher": "Fintel",
-     "title": "UBS Upgrades Illumina to Buy from Neutral",
-     "url": "https://www.nasdaq.com/articles/ubs-upgrades-illumina-buy-neutral"
+     "ticker": "BAND",
+     "date": "2026-09-11",
+     "publisher": "The Motley Fool",
+     "title": "Bandwidth Controller Sells 3,074 Shares as Stock Surges 239%",
+     "url": "https://www.nasdaq.com/articles/bandwidth-controller-sells-3074-shares-stock-surges-239"
     },
     {
-     "ticker": "ILMN",
-     "date": "2026-09-07",
+     "ticker": "BAND",
+     "date": "2026-08-28",
      "publisher": "Zacks",
-     "title": "Illumina (ILMN) Upgraded to Buy: What Does It Mean for the Stock?",
-     "url": "https://www.nasdaq.com/articles/illumina-ilmn-upgraded-buy-what-does-it-mean-stock"
+     "title": "Why Is Bandwidth (BAND) Up 33.5% Since Last Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/why-bandwidth-band-335-last-earnings-report"
+    },
+    {
+     "ticker": "BAND",
+     "date": "2026-08-19",
+     "publisher": "Zacks",
+     "title": "Zacks Industry Outlook Highlights Bandwidth and Anterix",
+     "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-bandwidth-and-anterix-0"
+    },
+    {
+     "ticker": "CRWD",
+     "date": "2026-09-16",
+     "publisher": "Zacks",
+     "title": "CSCO's Splunk AI Push Gains Momentum: Can It Outpace DDOG & CRWD?",
+     "url": "https://www.nasdaq.com/articles/cscos-splunk-ai-push-gains-momentum-can-it-outpace-ddog-crwd"
+    },
+    {
+     "ticker": "PLTR",
+     "date": "2026-09-20",
+     "publisher": "The Motley Fool",
+     "title": "Palantir Nearly Doubled Its Revenue. Its Stock Stood Still. Is It Time to Buy the Stock?",
+     "url": "https://www.nasdaq.com/articles/palantir-nearly-doubled-its-revenue-its-stock-stood-still-it-time-buy-stock"
+    },
+    {
+     "ticker": "PLTR",
+     "date": "2026-09-18",
+     "publisher": "Zacks",
+     "title": "PLTR's 110% Commercial Revenue Surge Defines Its Q2 Growth",
+     "url": "https://www.nasdaq.com/articles/pltrs-110-commercial-revenue-surge-defines-its-q2-growth"
+    },
+    {
+     "ticker": "PLTR",
+     "date": "2026-09-18",
+     "publisher": "The Motley Fool",
+     "title": "Forget Michael Burry's Short Thesis. Here's the Bull Case for Palantir He's Not Talking About.",
+     "url": "https://www.nasdaq.com/articles/forget-michael-burrys-short-thesis-heres-bull-case-palantir-hes-not-talking-about"
+    },
+    {
+     "ticker": "ZS",
+     "date": "2026-09-17",
+     "publisher": "Zacks",
+     "title": "Can Palo Alto Networks' SASE Push Help It Challenge FTNT and ZS?",
+     "url": "https://www.nasdaq.com/articles/can-palo-alto-networks-sase-push-help-it-challenge-ftnt-and-zs"
+    },
+    {
+     "ticker": "ZS",
+     "date": "2026-09-16",
+     "publisher": "Zacks",
+     "title": "Here's Why Zscaler (ZS) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-zscaler-zs-strong-momentum-stock"
+    },
+    {
+     "ticker": "ZS",
+     "date": "2026-09-12",
+     "publisher": "MarketBeat",
+     "title": "Zscaler Conference: AI Agents, Agentic SOC Fuel Zero-Trust Growth Ambitions",
+     "url": "https://www.nasdaq.com/articles/zscaler-conference-ai-agents-agentic-soc-fuel-zero-trust-growth-ambitions"
+    },
+    {
+     "ticker": "PANW",
+     "date": "2026-09-18",
+     "publisher": "The Motley Fool",
+     "title": "Why Palo Alto Networks Stock Dropped Today",
+     "url": "https://www.nasdaq.com/articles/why-palo-alto-networks-stock-dropped-today"
+    },
+    {
+     "ticker": "PANW",
+     "date": "2026-09-17",
+     "publisher": "Zacks",
+     "title": "Can Palo Alto Networks' SASE Push Help It Challenge FTNT and ZS?",
+     "url": "https://www.nasdaq.com/articles/can-palo-alto-networks-sase-push-help-it-challenge-ftnt-and-zs"
+    },
+    {
+     "ticker": "QLYS",
+     "date": "2026-09-16",
+     "publisher": "BNK Invest",
+     "title": "Qualys Reaches Analyst Target Price",
+     "url": "https://www.nasdaq.com/articles/qualys-reaches-analyst-target-price"
+    },
+    {
+     "ticker": "QLYS",
+     "date": "2026-09-15",
+     "publisher": "Zacks",
+     "title": "Zacks Investment Ideas feature highlights: Fortinet and Qualys",
+     "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-fortinet-and-qualys"
+    },
+    {
+     "ticker": "QLYS",
+     "date": "2026-09-14",
+     "publisher": "Zacks",
+     "title": "2 Top Cybersecurity Stocks to Buy Amid AI Safety Fears: FTNT, QLYS",
+     "url": "https://www.nasdaq.com/articles/2-top-cybersecurity-stocks-buy-amid-ai-safety-fears-ftnt-qlys"
     }
    ],
    "flow": {
     "FRANK": 4,
-    "frank25": 8,
-    "f10": 1.5377222489187798,
-    "f25": 64.62797039345539,
-    "d50": 7.55,
-    "d200": 18.495,
-    "d200Delta": 2.7900000000000027,
-    "cy": 0.01,
-    "ny": 0.025,
-    "upRatio": 69.82310093652445,
-    "coverage": 961,
-    "winRate": 0.9545,
-    "stage": "mid_up",
-    "stageKo": "📈 상승 중반 (확장 중)",
-    "flow": "inflow"
+    "frank25": 0,
+    "f10": 36.80576403482437,
+    "f25": 28.61981371718882,
+    "d50": 4,
+    "d200": 16.63,
+    "d200Delta": -0.07000000000000028,
+    "cy": 0.29,
+    "ny": 0.48,
+    "upRatio": 79.09738717339667,
+    "coverage": 2105,
+    "winRate": 0.8788,
+    "stage": "mid_flat",
+    "stageKo": "🔶 중반이나 수축 중",
+    "flow": "pending"
    }
   }
  ]

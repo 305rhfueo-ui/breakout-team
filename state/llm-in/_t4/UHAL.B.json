@@ -1,0 +1,129 @@
+{
+ "ticker": "UHAL.B",
+ "news": [
+  {
+   "title": "U-Haul Holding Company - Series N (UHAL.B) Price Target Increased by 7.30% to 65.84",
+   "url": "https://www.nasdaq.com/articles/u-haul-holding-company-series-n-uhal.b-price-target-increased-by-7.30-to-65.84",
+   "date": "2023-08-31",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "U-Haul Holding Company - Series N (UHAL.B) Declares $0.04 Dividend",
+   "url": "https://www.nasdaq.com/articles/u-haul-holding-company-series-n-uhal.b-declares-$0.04-dividend",
+   "date": "2023-06-09",
+   "publisher": "Fintel"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-24",
+   "reportDate": "2026-08-20",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4457/000119312526363558/uhal-20260820.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/4457/000119312526335076/uhal-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-27",
+   "reportDate": "2026-05-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/4457/000119312526241898/uhal-20260527.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-04",
+   "reportDate": "2026-02-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/4457/000119312526037727/uhal-20260204.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-10",
+   "reportDate": "2025-12-10",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4457/000119312525314441/uhal-20251210.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-05",
+   "reportDate": "2025-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/4457/000119312525267105/uhal-20251105.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.24,
+  "saleNy": 5.34,
+  "epsCy": null,
+  "epsNy": 96.43,
+  "cyTrend": 0,
+  "nyTrend": 1.85,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": null
+ }
+}

@@ -1,0 +1,188 @@
+{
+ "ticker": "HSIC",
+ "news": [
+  {
+   "title": "Are Investors Undervaluing Henry Schein (HSIC) Right Now?",
+   "url": "https://www.nasdaq.com/articles/are-investors-undervaluing-henry-schein-hsic-right-now-0",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "What Makes Henry Schein (HSIC) a New Buy Stock",
+   "url": "https://www.nasdaq.com/articles/what-makes-henry-schein-hsic-new-buy-stock",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "HSIC or SAUHY: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/hsic-or-sauhy-which-better-value-stock-right-now-0",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Henry Schein (HSIC) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-henry-schein-hsic-strong-value-stock",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Henry Schein (HSIC) is an Incredible Growth Stock: 3 Reasons Why",
+   "url": "https://www.nasdaq.com/articles/henry-schein-hsic-incredible-growth-stock-3-reasons-why",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Is Henry Schein (HSIC) Up 0.9% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-henry-schein-hsic-09-last-earnings-report",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Henry Schein (HSIC) is a Top Growth Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-henry-schein-hsic-top-growth-stock-long-term",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Henry Schein (HSIC) Stock Undervalued Right Now?",
+   "url": "https://www.nasdaq.com/articles/henry-schein-hsic-stock-undervalued-right-now-0",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1000228/000100022826000043/hsic-20260804.htm",
+   "description": "CURRENT REPORT FILING"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-07-27",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1000228/000119312526324857/d55491d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-22",
+   "reportDate": "2026-05-21",
+   "items": [
+    "5.07",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1000228/000119312526235496/d21093d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1000228/000100022826000021/hsic-20260505.htm",
+   "description": "CURRENT REPORT FILING"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-24",
+   "reportDate": "2026-02-24",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1000228/000100022826000010/hsic-20260224.htm",
+   "description": "HENRY SCHEIN 4Q 2025 QUARTERLY 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-12",
+   "reportDate": "2026-01-09",
+   "items": [
+    "5.02",
+    "5.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "5.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1000228/000119312526009725/d52378d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.14,
+  "saleNy": 4.07,
+  "epsCy": 8.18,
+  "epsNy": 11.57,
+  "cyTrend": 0.61,
+  "nyTrend": 1.59,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.73,
+    6.31,
+    7.71
+   ],
+   "ni": [
+    9.3,
+    -2.73,
+    7.45
+   ],
+   "opm": [
+    4.95,
+    5.4,
+    4.74
+   ],
+   "updated": "2026-09-08 09:45:09"
+  }
+ }
+}

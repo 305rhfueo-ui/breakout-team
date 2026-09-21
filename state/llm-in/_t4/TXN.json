@@ -1,0 +1,146 @@
+{
+ "ticker": "TXN",
+ "news": [
+  {
+   "title": "MCHP's Analog AI Deal Gains Momentum: Can It Outpace NXPI & TXN?",
+   "url": "https://www.nasdaq.com/articles/mchps-analog-ai-deal-gains-momentum-can-it-outpace-nxpi-txn",
+   "date": "2026-09-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Texas Instruments (TXN) Dipped More Than Broader Market Today",
+   "url": "https://www.nasdaq.com/articles/why-texas-instruments-txn-dipped-more-broader-market-today-0",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "TXN's Data Center Sales Double: Will This Growth Rate Continue in 2026?",
+   "url": "https://www.nasdaq.com/articles/txns-data-center-sales-double-will-growth-rate-continue-2026",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-17",
+   "reportDate": "2026-09-17",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000095010326014118/dp253473_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000148/txn-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-02",
+   "reportDate": "2026-05-27",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000095010326008325/dp247795_8k.htm",
+   "description": "FORM 8K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000097/txn-20260422.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-17",
+   "reportDate": "2026-04-16",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000094/txn-20260416.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-25",
+   "reportDate": "2026-03-25",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000119312526124057/d136885d8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 23.93,
+  "saleNy": 13.76,
+  "epsCy": 56.07,
+  "epsNy": 18.75,
+  "cyTrend": 0.07,
+  "nyTrend": 0.66,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    22.82,
+    18.58,
+    10.38
+   ],
+   "ni": [
+    52.9,
+    31.04,
+    -4.67
+   ],
+   "opm": [
+    42.28,
+    37.47,
+    33.3
+   ],
+   "updated": "2026-09-07 07:04:52"
+  }
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "ticker": "DCO",
+ "news": [
+  {
+   "title": "Ducommun (DCO) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/ducommun-dco-q2-2026-earnings-call-transcript",
+   "date": "2026-08-13",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Ducommun (DCO) Q2 Earnings and Revenues Surpass Estimates",
+   "url": "https://www.nasdaq.com/articles/ducommun-dco-q2-earnings-and-revenues-surpass-estimates",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ducommun (DCO) Soars 4.3%: Is Further Upside Left in the Stock?",
+   "url": "https://www.nasdaq.com/articles/ducommun-dco-soars-43-further-upside-left-stock",
+   "date": "2026-06-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Ducommun (DCO) Q1 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/ducommun-dco-q1-2026-earnings-transcript",
+   "date": "2026-05-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Ducommun (DCO) Beats Q1 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/ducommun-dco-beats-q1-earnings-and-revenue-estimates",
+   "date": "2026-05-12",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/30305/000162828026053775/dco-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-12",
+   "reportDate": "2026-05-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/30305/000162828026033833/dco-20260512.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "reportDate": "2026-05-04",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/30305/000119312526204253/d105242d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-05-01",
+   "items": [
+    "4.02"
+   ],
+   "itemsKo": [
+    "4.02"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/30305/000119312526201719/d131456d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-29",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/30305/000119312526197612/d19813d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-26",
+   "reportDate": "2026-02-26",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/30305/000162828026011949/dco-20260226.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.13,
+  "saleNy": 9.58,
+  "epsCy": 16.81,
+  "epsNy": 22.43,
+  "cyTrend": 5.33,
+  "nyTrend": 4.69,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    11.8,
+    8.59,
+    11.06
+   ],
+   "ni": [
+    59.94,
+    607.28,
+    "흑자전환"
+   ],
+   "opm": [
+    12.62,
+    7.52,
+    9.87
+   ],
+   "updated": "2026-09-08 08:59:53"
+  }
+ }
+}

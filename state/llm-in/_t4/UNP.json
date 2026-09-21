@@ -1,0 +1,146 @@
+{
+ "ticker": "UNP",
+ "news": [
+  {
+   "title": "Why Union Pacific (UNP) is a Great Dividend Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/why-union-pacific-unp-great-dividend-stock-right-now",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "All You Need to Know About Union Pacific (UNP) Rating Upgrade to Buy",
+   "url": "https://www.nasdaq.com/articles/all-you-need-know-about-union-pacific-unp-rating-upgrade-buy",
+   "date": "2026-09-02",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000249/unp-20260723.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-18",
+   "reportDate": "2026-05-14",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000174/unp-20260514.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000154/unp-20260423.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-27",
+   "reportDate": "2026-01-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000032/unp-20260127.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-19",
+   "reportDate": "2025-12-19",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088525000347/unp-20251219.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-12",
+   "reportDate": "2025-12-12",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088525000345/unp-20251212.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.27,
+  "saleNy": 4.31,
+  "epsCy": 11.97,
+  "epsNy": 8.52,
+  "cyTrend": 0.03,
+  "nyTrend": 0.09,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    11.54,
+    3.15,
+    -0.59
+   ],
+   "ni": [
+    6.24,
+    4.61,
+    4.88
+   ],
+   "opm": [
+    40.25,
+    39.54,
+    39.46
+   ],
+   "updated": "2026-09-09 06:07:49"
+  }
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "ticker": "ABT",
+ "news": [
+  {
+   "title": "Is Abbott (ABT) a Buy as Wall Street Analysts Look Optimistic?",
+   "url": "https://www.nasdaq.com/articles/abbott-abt-buy-wall-street-analysts-look-optimistic",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Abbott (ABT) Rises As Market Takes a Dip: Key Facts",
+   "url": "https://www.nasdaq.com/articles/abbott-abt-rises-market-takes-dip-key-facts",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Investors Heavily Search Abbott Laboratories (ABT): Here is What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/investors-heavily-search-abbott-laboratories-abt-here-what-you-need-know",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "NVST or ABT: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/nvst-or-abt-which-better-value-stock-right-now-0",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-20",
+   "reportDate": "2026-08-20",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1800/000110465926099247/tm2623675d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-16",
+   "reportDate": "2026-07-16",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1800/000162828026048377/abt-20260716.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-27",
+   "reportDate": "2026-04-24",
+   "items": [
+    "5.02",
+    "5.03",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "5.03",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1800/000110465926049434/tm2612318d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-17",
+   "reportDate": "2026-04-10",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1800/000110465926044892/tm2611915d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-16",
+   "reportDate": "2026-04-16",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1800/000162828026025365/abt-20260416.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-23",
+   "reportDate": "2026-03-23",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1800/000110465926033079/tm268709d2_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 13.26,
+  "saleNy": 8.61,
+  "epsCy": 7.18,
+  "epsNy": 9.89,
+  "cyTrend": 0.03,
+  "nyTrend": 0.03,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    13.02,
+    7.78,
+    4.42
+   ],
+   "ni": [
+    -47.84,
+    -18.72,
+    -80.76
+   ],
+   "opm": [
+    13.44,
+    12.05,
+    19.64
+   ],
+   "updated": "2026-09-07 06:32:07"
+  }
+ }
+}

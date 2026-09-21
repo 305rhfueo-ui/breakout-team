@@ -1,0 +1,184 @@
+{
+ "ticker": "PFG",
+ "news": [
+  {
+   "title": "Principal Financial (PFG) is a Top Dividend Stock Right Now: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/principal-financial-pfg-top-dividend-stock-right-now-should-you-buy-0",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Principal Financial (PFG) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-principal-financial-pfg-top-momentum-stock-long-term-0",
+   "date": "2026-09-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Principal Financial (PFG) Moves 6.5% Higher: Will This Strength Last?",
+   "url": "https://www.nasdaq.com/articles/principal-financial-pfg-moves-65-higher-will-strength-last",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "PFG Acquires Beam Benefits to Accelerate Specialty Benefits Growth",
+   "url": "https://www.nasdaq.com/articles/pfg-acquires-beam-benefits-accelerate-specialty-benefits-growth",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Principal Financial (PFG) is a Top Value Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-principal-financial-pfg-top-value-stock-long-term-0",
+   "date": "2026-08-31",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Principal Financial (PFG) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/principal-financial-pfg-could-be-great-choice-1",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Principal Financial (PFG) Down 2.2% Since Last Earnings Report: Can It Rebound?",
+   "url": "https://www.nasdaq.com/articles/principal-financial-pfg-down-22-last-earnings-report-can-it-rebound",
+   "date": "2026-08-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Principal Financial (PFG) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-principal-financial-pfg-strong-momentum-stock-0",
+   "date": "2026-08-11",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-10",
+   "reportDate": "2026-09-09",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1126328/000110465926106416/tm2625118d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-27",
+   "reportDate": "2026-07-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1126328/000110465926087091/tm2621379d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-20",
+   "reportDate": "2026-07-20",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1126328/000110465926085051/tm2620875d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-05-27",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1126328/000110465926068908/tm2614965d5_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-20",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1126328/000110465926064476/tm2615128d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1126328/000110465926047680/tm2612531d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 1.41,
+  "saleNy": 8.65,
+  "epsCy": 15.45,
+  "epsNy": 8.82,
+  "cyTrend": -0.2,
+  "nyTrend": -0.07,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.39,
+    -4.51,
+    -3.69
+   ],
+   "ni": [
+    -0.69,
+    782.74,
+    -42.9
+   ],
+   "opm": [
+    12.71,
+    13.65,
+    13.89
+   ],
+   "updated": "2026-09-08 09:34:19"
+  }
+ }
+}

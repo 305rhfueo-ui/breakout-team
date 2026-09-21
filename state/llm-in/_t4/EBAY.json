@@ -1,0 +1,184 @@
+{
+ "ticker": "EBAY",
+ "news": [
+  {
+   "title": "eBay CEO Jamie Iannone Sells Company Shares Worth $2.3 Million Amid a 12% One-Year Return",
+   "url": "https://www.nasdaq.com/articles/ebay-ceo-jamie-iannone-sells-company-shares-worth-23-million-amid-12-one-year-return",
+   "date": "2026-09-11",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "GameStop’s Comeback Case Is Getting Interesting, But eBay Still Looks Stronger",
+   "url": "https://www.nasdaq.com/articles/gamestops-comeback-case-getting-interesting-ebay-still-looks-stronger",
+   "date": "2026-09-10",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "eBay Sees Collectibles, Live Commerce and AI Powering Its Next Growth Phase",
+   "url": "https://www.nasdaq.com/articles/ebay-sees-collectibles-live-commerce-and-ai-powering-its-next-growth-phase",
+   "date": "2026-09-09",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Why Is eBay (EBAY) Down 3.9% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-ebay-ebay-down-39-last-earnings-report",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Better Buy Right Now: eBay Stock or Etsy Stock?",
+   "url": "https://www.nasdaq.com/articles/better-buy-right-now-ebay-stock-or-etsy-stock",
+   "date": "2026-09-01",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Executive Sells Nearly 2,300 Shares of eBay Stock, Valued at More Than $235,000",
+   "url": "https://www.nasdaq.com/articles/executive-sells-nearly-2300-shares-ebay-stock-valued-more-235000",
+   "date": "2026-08-29",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Up 22% in 2026, Is eBay Stock a Buy Right Now?",
+   "url": "https://www.nasdaq.com/articles/22-2026-ebay-stock-buy-right-now",
+   "date": "2026-08-28",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "What Does eBay Chief Legal Officer's Sale of 970 Shares Worth Over $100,000 Mean for Investors?",
+   "url": "https://www.nasdaq.com/articles/what-does-ebay-chief-legal-officers-sale-970-shares-worth-over-100000-mean-investors",
+   "date": "2026-08-22",
+   "publisher": "The Motley Fool"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000174/ebay-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-17",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000135/ebay-20260617.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-12",
+   "reportDate": "2026-05-12",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065088/000155278126000322/e26249_ebay-8k.htm",
+   "description": null
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-04",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065088/000155278126000302/e26238_ebay-8k.htm",
+   "description": null
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000092/ebay-20260429.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-24",
+   "reportDate": "2026-03-19",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000060/ebay-20260319.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.65,
+  "saleNy": 6.72,
+  "epsCy": 11.02,
+  "epsNy": 9.68,
+  "cyTrend": 0.09,
+  "nyTrend": -0.05,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    14.8,
+    19.5,
+    14.97
+   ],
+   "ni": [
+    51.1,
+    2.61,
+    -21.06
+   ],
+   "opm": [
+    21.57,
+    19.78,
+    20.61
+   ],
+   "updated": "2026-09-08 10:47:43"
+  }
+ }
+}

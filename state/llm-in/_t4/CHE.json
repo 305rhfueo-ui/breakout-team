@@ -1,0 +1,170 @@
+{
+ "ticker": "CHE",
+ "news": [
+  {
+   "title": "Chemed (CHE) Up 1.7% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/chemed-che-17-last-earnings-report-can-it-continue",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "OPCH or CHE: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/opch-or-che-which-better-value-stock-right-now",
+   "date": "2026-08-25",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "AVAH vs. CHE: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/avah-vs-che-which-stock-should-value-investors-buy-now",
+   "date": "2026-08-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Chemed (CHE) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-chemed-che-top-momentum-stock-long-term",
+   "date": "2026-08-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Chemed (CHE) Tops Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/chemed-che-tops-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CHE Crosses Below Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/che-crosses-below-key-moving-average-level",
+   "date": "2026-06-11",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/19584/000001958426000018/che-20260728x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-19",
+   "reportDate": "2026-05-18",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/19584/000001958426000014/che-20260518x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/19584/000001958426000010/che-20260423x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-13",
+   "reportDate": "2026-04-10",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/19584/000001958426000008/che-20260410x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-25",
+   "reportDate": "2026-02-25",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/19584/000001958426000002/che-20260225x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-10-28",
+   "reportDate": "2025-10-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/19584/000001958425000004/che-20251028x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.54,
+  "saleNy": 5.95,
+  "epsCy": 18.07,
+  "epsNy": 7.26,
+  "cyTrend": -0.3,
+  "nyTrend": -0.84,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    8.8,
+    1.63,
+    -0.1
+   ],
+   "ni": [
+    28.98,
+    -7.6,
+    -15.02
+   ],
+   "opm": [
+    13.25,
+    12.86,
+    15.74
+   ],
+   "updated": "2026-09-07 06:56:54"
+  }
+ }
+}

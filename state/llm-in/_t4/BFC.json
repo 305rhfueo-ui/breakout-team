@@ -1,0 +1,166 @@
+{
+ "ticker": "BFC",
+ "news": [
+  {
+   "title": "Bank First Corporation (BFC) Upgraded to Strong Buy: What Does It Mean for the Stock?",
+   "url": "https://www.nasdaq.com/articles/bank-first-corporation-bfc-upgraded-strong-buy-what-does-it-mean-stock",
+   "date": "2026-07-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Bank First Corporation (BFC) Tops Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/bank-first-corporation-bfc-tops-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "BFC Ex-Dividend Reminder - 6/24/26",
+   "url": "https://www.nasdaq.com/articles/bfc-ex-dividend-reminder-6-24-26",
+   "date": "2026-06-23",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Friday 4/24 Insider Buying Report: BFC, NTHI",
+   "url": "https://www.nasdaq.com/articles/friday-4-24-insider-buying-report-bfc-nthi",
+   "date": "2026-04-24",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Bank First Corporation (BFC) Q1 Earnings and Revenues Lag Estimates",
+   "url": "https://www.nasdaq.com/articles/bank-first-corporation-bfc-q1-earnings-and-revenues-lag-estimates",
+   "date": "2026-04-16",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-21",
+   "reportDate": "2026-07-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1746109/000110465926085400/tm2620919d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-23",
+   "reportDate": "2026-06-23",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1746109/000110465926076688/tm2618556d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-17",
+   "items": [
+    "5.02",
+    "5.07",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1746109/000110465926075710/tm2618200d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-19",
+   "reportDate": "2026-05-19",
+   "items": [
+    "1.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1746109/000110465926063919/tm2615088d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-22",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1746109/000110465926046797/tm2612470-1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-16",
+   "reportDate": "2026-04-16",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1746109/000110465926044352/tm2611895d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 52.75,
+  "saleNy": 29.03,
+  "epsCy": 33.96,
+  "epsNy": 20.02,
+  "cyTrend": 0.61,
+  "nyTrend": -0.83,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    44.08,
+    36.51,
+    5.37
+   ],
+   "ni": [
+    46.38,
+    9.58,
+    4.37
+   ],
+   "opm": [
+    35.74,
+    29.35,
+    37.32
+   ],
+   "updated": "2026-09-08 10:22:41"
+  }
+ }
+}
