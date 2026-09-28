@@ -1542,7 +1542,7 @@ window.TEAM2_DATA = {
       "nameKo": "애질론 헬스",
       "nameEn": "AGILON HEALTH INC",
       "detail": {
-        "fetchedAt": "2026-09-18",
+        "fetchedAt": "2026-09-28",
         "nameKo": "애질론 헬스",
         "nameEn": "AGILON HEALTH INC",
         "infomaxCode": "NYS:AGL",
@@ -1628,6 +1628,17 @@ window.TEAM2_DATA = {
           "ticker": "AGL",
           "items": [
             {
+              "title": "Agilon Health is Now Oversold (AGL)",
+              "url": "https://www.nasdaq.com/articles/agilon-health-now-oversold-agl",
+              "date": "2026-09-24",
+              "publisher": "BNK Invest",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "AGL"
+              ]
+            },
+            {
               "title": "Is Agilon Health (AGL) Outperforming Other Medical Stocks This Year?",
               "url": "https://www.nasdaq.com/articles/agilon-health-agl-outperforming-other-medical-stocks-year",
               "date": "2026-08-28",
@@ -1707,21 +1718,10 @@ window.TEAM2_DATA = {
               "tickers": [
                 "AGL"
               ]
-            },
-            {
-              "title": "Agilon Health (AGL) Is Up 0.79% in One Week: What You Should Know",
-              "url": "https://www.nasdaq.com/articles/agilon-health-agl-079-one-week-what-you-should-know",
-              "date": "2026-06-26",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "AGL"
-              ]
             }
           ],
           "directCount": 10,
-          "total": 12,
+          "total": 11,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -3567,7 +3567,7 @@ window.TEAM2_DATA = {
       "nameKo": "트위스트 바이오사이언스",
       "nameEn": "TWIST BIOSCIENCE CORPORATION",
       "detail": {
-        "fetchedAt": "2026-09-21",
+        "fetchedAt": "2026-09-28",
         "nameKo": "트위스트 바이오사이언스",
         "nameEn": "TWIST BIOSCIENCE CORPORATION",
         "infomaxCode": "NAS:TWST",
@@ -3746,7 +3746,7 @@ window.TEAM2_DATA = {
             }
           ],
           "directCount": 8,
-          "total": 10,
+          "total": 8,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -4077,7 +4077,7 @@ window.TEAM2_DATA = {
       "nameKo": "프리퀀시 일렉트로닉스",
       "nameEn": "FREQUENCY ELECTRONICS INC",
       "detail": {
-        "fetchedAt": "2026-09-18",
+        "fetchedAt": "2026-09-28",
         "nameKo": "프리퀀시 일렉트로닉스",
         "nameEn": "FREQUENCY ELECTRONICS INC",
         "infomaxCode": "NAS:FEIM",
@@ -5181,7 +5181,7 @@ window.TEAM2_DATA = {
       "nameKo": "솔라리스 에너지 인프라스트럭처",
       "nameEn": "SOLARIS ENERGY INFRASTRUCTURE INC",
       "detail": {
-        "fetchedAt": "2026-09-18",
+        "fetchedAt": "2026-09-28",
         "nameKo": "솔라리스 에너지 인프라스트럭처",
         "nameEn": "SOLARIS ENERGY INFRASTRUCTURE INC",
         "infomaxCode": "NYS:SEI",
@@ -5267,6 +5267,28 @@ window.TEAM2_DATA = {
           "ticker": "SEI",
           "items": [
             {
+              "title": "Surging Earnings Estimates Signal Upside for Solaris Energy Infrastructure, Inc. (SEI) Stock",
+              "url": "https://www.nasdaq.com/articles/surging-earnings-estimates-signal-upside-solaris-energy-infrastructure-inc-sei-stock",
+              "date": "2026-09-21",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "SEI"
+              ]
+            },
+            {
+              "title": "Wall Street Analysts Think Solaris Energy Infrastructure, Inc. (SEI) Could Surge 32.97%: Read This Before Placing a Bet",
+              "url": "https://www.nasdaq.com/articles/wall-street-analysts-think-solaris-energy-infrastructure-inc-sei-could-surge-3297-read",
+              "date": "2026-09-21",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "SEI"
+              ]
+            },
+            {
               "title": "Thursday 9/10 Insider Buying Report: SEI, GRCE",
               "url": "https://www.nasdaq.com/articles/thursday-9-10-insider-buying-report-sei-grce",
               "date": "2026-09-10",
@@ -5328,45 +5350,60 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Solaris Energy Infrastructure (SEI) Q2 2026 Earnings Call Transcript",
-              "url": "https://www.nasdaq.com/articles/solaris-energy-infrastructure-sei-q2-2026-earnings-call-transcript",
-              "date": "2026-08-13",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "SEI",
-                "SEI"
-              ]
-            },
-            {
-              "title": "Solaris Energy Infrastructure Q2 Earnings Call Highlights",
-              "url": "https://www.nasdaq.com/articles/solaris-energy-infrastructure-q2-earnings-call-highlights",
-              "date": "2026-08-09",
-              "publisher": "MarketBeat",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "SEI"
-              ]
-            },
-            {
-              "title": "Solaris Energy Infrastructure, Inc. (SEI) Reports Q2 Earnings: What Key Metrics Have to Say",
-              "url": "https://www.nasdaq.com/articles/solaris-energy-infrastructure-inc-sei-reports-q2-earnings-what-key-metrics-have-say",
-              "date": "2026-08-07",
+              "title": "Buy These 3 Momentum Stocks to Profit From the Oil Surge",
+              "url": "https://www.nasdaq.com/articles/buy-these-3-momentum-stocks-profit-oil-surge",
+              "date": "2026-09-25",
               "publisher": "Zacks",
               "tier1": false,
-              "direct": true,
+              "direct": false,
               "tickers": [
+                "MPC",
+                "BKR",
                 "SEI"
               ]
             }
           ],
-          "directCount": 10,
-          "total": 12,
+          "directCount": 7,
+          "total": 11,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-23",
+            "reportDate": "2026-09-22",
+            "items": [
+              "1.01",
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1697500/000119312526399432/d61421d8k.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-22",
+            "reportDate": "2026-09-22",
+            "items": [
+              "7.01",
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "Reg FD 공시",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1697500/000119312526397255/d182097d8k.htm",
+            "description": "8-K"
+          },
           {
             "form": "8-K",
             "filingDate": "2026-09-08",
@@ -5435,44 +5472,6 @@ window.TEAM2_DATA = {
             ],
             "isEarnings": false,
             "url": "https://www.sec.gov/Archives/edgar/data/1697500/000119312526230786/d227891d8k.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-12",
-            "reportDate": "2026-05-12",
-            "items": [
-              "1.01",
-              "1.02",
-              "2.03",
-              "9.01"
-            ],
-            "itemsKo": [
-              "중요 계약 체결",
-              "1.02",
-              "2.03",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1697500/000119312526219852/d112244d8k.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-06",
-            "reportDate": "2026-05-05",
-            "items": [
-              "1.01",
-              "8.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "중요 계약 체결",
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1697500/000119312526209192/d132159d8k.htm",
             "description": "8-K"
           }
         ],
@@ -5772,7 +5771,7 @@ window.TEAM2_DATA = {
       "nameKo": "밴드위스",
       "nameEn": "BANDWIDTH INC",
       "detail": {
-        "fetchedAt": "2026-09-18",
+        "fetchedAt": "2026-09-28",
         "nameKo": "밴드위스",
         "nameEn": "BANDWIDTH INC",
         "infomaxCode": "NAS:BAND",
@@ -8748,7 +8747,7 @@ window.TEAM2_DATA = {
       "nameKo": "블룸 에너지",
       "nameEn": "BLOOM ENERGY CORPORATION",
       "detail": {
-        "fetchedAt": "2026-09-18",
+        "fetchedAt": "2026-09-28",
         "nameKo": "블룸 에너지",
         "nameEn": "BLOOM ENERGY CORPORATION",
         "infomaxCode": "NYS:BE",
@@ -8834,9 +8833,22 @@ window.TEAM2_DATA = {
           "ticker": "BE",
           "items": [
             {
-              "title": "Should You Buy Bloom Energy Stock Before It Joins the S&P 500 on Sept. 21?",
-              "url": "https://www.nasdaq.com/articles/should-you-buy-bloom-energy-stock-it-joins-sp-500-sept-21",
-              "date": "2026-09-16",
+              "title": "GE Vernova vs. Bloom Energy: Which AI Power Stock Has the Edge?",
+              "url": "https://www.nasdaq.com/articles/ge-vernova-vs-bloom-energy-which-ai-power-stock-has-edge",
+              "date": "2026-09-27",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "GEV",
+                "GEV",
+                "BE"
+              ]
+            },
+            {
+              "title": "Bloom Energy's Backlog Is 5 Times This Year's Expected Revenue. Here's How Fast It Can Actually Build.",
+              "url": "https://www.nasdaq.com/articles/bloom-energys-backlog-5-times-years-expected-revenue-heres-how-fast-it-can-actually-build",
+              "date": "2026-09-25",
               "publisher": "The Motley Fool",
               "tier1": false,
               "direct": true,
@@ -8846,9 +8858,9 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Bloom Energy Isn't Selling Power. It's Selling Time.",
-              "url": "https://www.nasdaq.com/articles/bloom-energy-isnt-selling-power-its-selling-time",
-              "date": "2026-09-15",
+              "title": "This $267 Stock Could Be Your Ticket to Millionaire Status",
+              "url": "https://www.nasdaq.com/articles/267-stock-could-be-your-ticket-millionaire-status",
+              "date": "2026-09-24",
               "publisher": "The Motley Fool",
               "tier1": false,
               "direct": true,
@@ -8858,83 +8870,70 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Bloom Energy vs. NANO Nuclear Energy: Which Stock Is a Better Buy in 2026?",
-              "url": "https://www.nasdaq.com/articles/bloom-energy-vs-nano-nuclear-energy-which-stock-better-buy-2026",
-              "date": "2026-09-15",
+              "title": "Bloom Energy COO Chitoori Satish Sells Shares for $775,072",
+              "url": "https://www.nasdaq.com/articles/bloom-energy-coo-chitoori-satish-sells-shares-775072",
+              "date": "2026-09-24",
               "publisher": "The Motley Fool",
               "tier1": false,
               "direct": true,
               "tickers": [
                 "BE",
-                "BE",
-                "NNE"
+                "BE"
               ]
             },
             {
-              "title": "Bloom Energy vs. GE Vernova: Which Stock Is a Better Buy in 2026?",
-              "url": "https://www.nasdaq.com/articles/bloom-energy-vs-ge-vernova-which-stock-better-buy-2026",
-              "date": "2026-09-15",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "BE",
-                "BE",
-                "GEV"
-              ]
-            },
-            {
-              "title": "Bloom Energy vs. Diamondback Energy: Which Industrials Stock Is a Better Buy in 2026?",
-              "url": "https://www.nasdaq.com/articles/bloom-energy-vs-diamondback-energy-which-industrials-stock-better-buy-2026",
-              "date": "2026-09-15",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "BE",
-                "BE",
-                "FANG"
-              ]
-            },
-            {
-              "title": "Bloom Energy vs. Oklo: Which Industrials Stock Is a Better Buy in 2026?",
-              "url": "https://www.nasdaq.com/articles/bloom-energy-vs-oklo-which-industrials-stock-better-buy-2026",
-              "date": "2026-09-15",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "BE",
-                "BE",
-                "OKLO"
-              ]
-            },
-            {
-              "title": "Bloom Energy (BE) Declines More Than Market: Some Information for Investors",
-              "url": "https://www.nasdaq.com/articles/bloom-energy-be-declines-more-market-some-information-investors-0",
-              "date": "2026-09-14",
+              "title": "Plug Power vs. Bloom Energy: Which Clean Energy Stock Has More Upside?",
+              "url": "https://www.nasdaq.com/articles/plug-power-vs-bloom-energy-which-clean-energy-stock-has-more-upside",
+              "date": "2026-09-23",
               "publisher": "Zacks",
               "tier1": false,
               "direct": true,
               "tickers": [
+                "PLUG",
                 "BE"
               ]
             },
             {
-              "title": "Bloom Energy Is Up Big This Year. Is It Too Late to Buy?",
-              "url": "https://www.nasdaq.com/articles/bloom-energy-big-year-it-too-late-buy",
-              "date": "2026-09-14",
+              "title": "FLNC or BE: Which Alternative Energy Stock Is Worth Buying Now?",
+              "url": "https://www.nasdaq.com/articles/flnc-or-be-which-alternative-energy-stock-worth-buying-now",
+              "date": "2026-09-23",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BE",
+                "FLNC"
+              ]
+            },
+            {
+              "title": "Bloom Energy vs. NextEra Energy: Which Renewable Energy Stock Is a Better Buy in 2026?",
+              "url": "https://www.nasdaq.com/articles/bloom-energy-vs-nextera-energy-which-renewable-energy-stock-better-buy-2026",
+              "date": "2026-09-22",
               "publisher": "The Motley Fool",
               "tier1": false,
               "direct": true,
               "tickers": [
                 "BE",
-                "BE"
+                "BE",
+                "NEE"
+              ]
+            },
+            {
+              "title": "Bloom Energy vs. Eos Energy Enterprises: Which Energy Storage Stock Is a Better Buy in 2026?",
+              "url": "https://www.nasdaq.com/articles/bloom-energy-vs-eos-energy-enterprises-which-energy-storage-stock-better-buy-2026-0",
+              "date": "2026-09-22",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BE",
+                "BE",
+                "EOSE"
               ]
             }
           ],
-          "directCount": 9,
-          "total": 13,
+          "directCount": 8,
+          "total": 9,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -9040,7 +9039,7 @@ window.TEAM2_DATA = {
           }
         ],
         "krReports": {
-          "total": 17,
+          "total": 16,
           "reports": [
             {
               "title": "[블룸 에너지 (NYS:BE)] 노이즈를 압도한 실적의 실체, 어닝 리비전은 여전히 진행형",
@@ -9049,8 +9048,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-18",
               "summary": "- 2Q26 호실적과 가이던스 상향으로 입증된 강력한 외형 성장 및 영업 레버리지- Time-to-Power 경쟁우위와 $25B 금융 셸프 기반의 안정적 수주 전환- 공매도 노이즈 완화 및 밸류에이션 부담 축소 속 어닝 리비전 지속",
               "pages": "10",
-              "secureId": "eqlqcclmezzxzmegcgxcmel",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcclmezzxzmegcgxcmel.pdf",
+              "secureId": "eqlqcclmezzxzmegcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcclmezzxzmegcgxcmgl.pdf",
               "opinion": null
             },
             {
@@ -9060,8 +9059,8 @@ window.TEAM2_DATA = {
               "date": "2026-07-30",
               "summary": "- 27년까지 30~40GW의 신규 데이터센터 가동 예정이지만 지난 3년간 미 국의 연평균 신규 발전소 설치량은 10GW(24시간 가동 기준) 수준. 데이 터센터 사업자들의 블룸 의존도는 더욱 높아질 것이며, 블룸 생산능력 확 장은 가속화될 전망. 주가 하락에도 중장기 방향성에 집중할 필요- SO 방식의 연료전지 제조사인 블룸에너지의 2분기 실적은 매출액 10.6억 달러(+166 YoY, 이하 YoY), Adj-OPM +22.5%(+15.4%p), Adj-EPS 0.78 달러(+680%)로 컨센대비 각각 +27%, +6.8%p, +94% 기록- 주요 고객사인 Oracle의 2.5GW 데이터센터 프로젝트 지연으로 블룸 주가 는 낙폭을 확대. 하지만 금번 컨콜에서 미국 모든 주요 하이퍼스케일러, 12 곳 이상의 네오클라우드 등으로 고객사 확대됐다 언급",
               "pages": "3",
-              "secureId": "eqlzixzgxlzxgzxgcgxcmel",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzixzgxlzxgzxgcgxcmel.pdf",
+              "secureId": "eqlzixzgxlzxgzxgcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzixzgxlzxgzxgcgxcmgl.pdf",
               "opinion": null
             },
             {
@@ -9071,8 +9070,8 @@ window.TEAM2_DATA = {
               "date": "2026-07-29",
               "summary": "- 매출액 10.7억 달러(YoY +165.5%), 조정 EPS 0.78달러(YoY +680%)로 각각 예상치 27%, 94% 상회.- 사업부별 매출액: 1제품 부문은 9.4억 달러(YoY +215.4%)로 전체 매출의 88% 차지하며 성장 주도- 어닝 서프라이즈와 연간 가이던스 대폭 상향으로 시간의 12%대 급등",
               "pages": "1",
-              "secureId": "eqlziezcigimigkgcgxcmel",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlziezcigimigkgcgxcmel.pdf",
+              "secureId": "eqlziezcigimigkgcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlziezcigimigkgcgxcmgl.pdf",
               "opinion": null
             },
             {
@@ -9082,8 +9081,8 @@ window.TEAM2_DATA = {
               "date": "2026-07-29",
               "summary": "- 2Q26 매출 10.7억달러(+166% YoY)로 컨센서스(8.4억달러) 대폭 상회. GPM 33.4%(+604bp YoY), 영업이익 2.4억달러(OPM 22.5%, vs 컨센서스 1.3억 달러) 기록하며 레버리지 효과 본격화. non-GAAP EPS $0.78(컨센서스 $0.48).- 매출 구조(엔드 커스터머 오프테이크 계약 → 파이낸서(Brookfield 등)가 장비 구 매·소유 → Bloom 매출 인식)를 명확히 공개. 이 구조하에서 프로젝트 지연 시 파 이낸서는 Bloom으로부터의 장비 인도 의무를 부담. Oracle Project Jupiter 파이프 라인 인허가 반려에도 단기 매출 영향이 제한적일 전망. 동사는 1)Fungibility(사 이트 간 재배치 용이성), 2)고객사 다변화를 콜 전반에 걸쳐 강조. 특히 모든 미국 하이퍼스케일러 및 12개 이상의 네오클라우드 코로케이션 사업자가 Bloom 솔루 션 승인을 완료했다는 코멘트가 인상적. Nebius는 오프테이커 중 하나로 공개",
               "pages": "3",
-              "secureId": "eqlzglzmizcizmqgcgxcmel",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzglzmizcizmqgcgxcmel.pdf",
+              "secureId": "eqlzglzmizcizmqgcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzglzmizcizmqgcgxcmgl.pdf",
               "opinion": null
             },
             {
@@ -9093,8 +9092,8 @@ window.TEAM2_DATA = {
               "date": "2026-04-30",
               "summary": "- 세 자릿수 매출 성장과 압도적 이익 증가율로 질적·양적 성장을 동시 입증- AI 수요 기반 연간 매출 약 80% 성장 전망 및 생산 역량에 대한 자신감 피력- '프로젝트 주피터'를 통한 역대 최대 규모 레퍼런스로 전력 인프라 표준을 선점- Bloom Energy-Oracle 파트너십 분석: AI 전력 공급의 표준으로 도약- 2026~2027 년에 걸쳐 배포될 1.2GW 의 물량이 확정",
               "pages": "5",
-              "secureId": "eqqqzckcgxkillqgcgxcmel",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqzckcgxkillqgcgxcmel.pdf",
+              "secureId": "eqqqzckcgxkillqgcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqzckcgxkillqgcgxcmgl.pdf",
               "opinion": null
             },
             {
@@ -9104,8 +9103,8 @@ window.TEAM2_DATA = {
               "date": "2026-04-30",
               "summary": "- 1Q26 가이던스 큰 폭으로 상회하며 26년 연간 가이던스 상향- 그린필드 투자 없이 5GW까지 CAPA 확장 가능- 5GW 비전은 국내 부품 공급사의 구조적 수혜로 이어질 전망",
               "pages": "2",
-              "secureId": "eqqqzcigemllizxgcgxcmel",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqzcigemllizxgcgxcmel.pdf",
+              "secureId": "eqqqzcigemllizxgcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqzcigemllizxgcgxcmgl.pdf",
               "opinion": null
             },
             {
@@ -9115,8 +9114,8 @@ window.TEAM2_DATA = {
               "date": "2026-04-29",
               "summary": "- 5GW의 생산능력으로 가능한 매출은 제품 150억달러, 서비스 및 기타 20~30억달러 예상. 서비스는 누적 출하량 쌓일수록 매출액 확대되는 구조 로 추가 성장 가능.- SO 방식의 연료전지 제조사인 블룸에너지의 1분기 실적은 매출액 7.5억달 러(+130 YoY, 이하 YoY), Adj-OPM +17.3%(+13.3%p), Adj-EPS 0.44달 러(+1,366%)로 컨센대비 각각 +40%, +11.1%p, +425% 기록- 연료전지 Capa에 대한 기존 계획은 25년 1GW에서 26년 말 2GW. 블룸 은 이러한 계단식 성장에서 지속적인 Capa 확장 전략으로 선회. 앞으로 수백 MW 단위로 수요에 맞춰 확대 예정이며, 현재 부지에서 5GW까지 확대 가능",
               "pages": "3",
-              "secureId": "eqqqkkmqzzqcliegcgxcmel",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqkkmqzzqcliegcgxcmel.pdf",
+              "secureId": "eqqqkkmqzzqcliegcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqkkmqzzqcliegcgxcmgl.pdf",
               "opinion": null
             },
             {
@@ -9126,8 +9125,8 @@ window.TEAM2_DATA = {
               "date": "2026-04-15",
               "summary": "- Signal: Oracle과 최대 2.8GW 규모의 SOFC 공급 MSA 체결- Key: 26년 CAPA 증설 가속화 및 가이던스 상향 모니터링 필요- Step: 향후 CAPA증설은 국내 공급망 기업 수혜로 이어질 전망",
               "pages": "3",
-              "secureId": "eqqxgcmklekmxgqgcgxcmel",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxgcmklekmxgqgcgxcmel.pdf",
+              "secureId": "eqqxgcmklekmxgqgcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxgcmklekmxgqgcgxcmgl.pdf",
               "opinion": null
             },
             {
@@ -9137,8 +9136,8 @@ window.TEAM2_DATA = {
               "date": "2026-04-14",
               "summary": "- 현금흐름으로 보는 증설 가능성- Oracle 추가 계약 발표, 총 2.8GW- 블룸 수주잔고 25년말 1.9GW -> 현재 4.0GW",
               "pages": "3",
-              "secureId": "eqqxemmkilieilxgcgxcmel",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxemmkilieilxgcgxcmel.pdf",
+              "secureId": "eqqxemmkilieilxgcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxemmkilieilxgcgxcmgl.pdf",
               "opinion": null
             },
             {
@@ -9148,8 +9147,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-09",
               "summary": "- Signal: 하이퍼스케일러 및 C&I 모두 성장- Key: 800VDC 기술변화에 SOFC 대응 가능- Step: 향후 CAPA증설은 일상적인 운영 판단",
               "pages": "2",
-              "secureId": "eqqczmekkglkczegcgxcmel",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqczmekkglkczegcgxcmel.pdf",
+              "secureId": "eqqczmekkglkczegcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqczmekkglkczegcgxcmgl.pdf",
               "opinion": null
             }
           ],
@@ -9938,7 +9937,7 @@ window.TEAM2_DATA = {
       "nameKo": "코셉트 테라퓨틱스",
       "nameEn": "CORCEPT THERAPEUTICS INC",
       "detail": {
-        "fetchedAt": "2026-09-18",
+        "fetchedAt": "2026-09-28",
         "nameKo": "코셉트 테라퓨틱스",
         "nameEn": "CORCEPT THERAPEUTICS INC",
         "infomaxCode": "NAS:CORT",
@@ -10024,6 +10023,30 @@ window.TEAM2_DATA = {
           "ticker": "CORT",
           "items": [
             {
+              "title": "CHMP Backs CORT's Lifyorli Combo in Platinum-Resistant Ovarian Cancer",
+              "url": "https://www.nasdaq.com/articles/chmp-backs-corts-lifyorli-combo-platinum-resistant-ovarian-cancer",
+              "date": "2026-09-21",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "CORT",
+                "RGEN",
+                "PGEN"
+              ]
+            },
+            {
+              "title": "Corcept's Lifyorli Gets Positive EU Opinion For Platinum-Resistant Ovarian Cancer",
+              "url": "https://www.nasdaq.com/articles/corcepts-lifyorli-gets-positive-eu-opinion-platinum-resistant-ovarian-cancer",
+              "date": "2026-09-18",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "CORT"
+              ]
+            },
+            {
               "title": "Will Korlym Continue to Aid CORT's Growth Through the Rest of 2026?",
               "url": "https://www.nasdaq.com/articles/will-korlym-continue-aid-corts-growth-through-rest-2026",
               "date": "2026-09-16",
@@ -10059,18 +10082,6 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Corcept Therapeutics (CORT) Q2 Earnings and Revenues Surpass Estimates",
-              "url": "https://www.nasdaq.com/articles/corcept-therapeutics-cort-q2-earnings-and-revenues-surpass-estimates",
-              "date": "2026-07-29",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "CORT",
-                "MDGL"
-              ]
-            },
-            {
               "title": "United Therapeutics (UTHR) Down 8% Since Last Earnings Report: Can It Rebound?",
               "url": "https://www.nasdaq.com/articles/united-therapeutics-uthr-down-8-last-earnings-report-can-it-rebound",
               "date": "2026-09-04",
@@ -10083,11 +10094,29 @@ window.TEAM2_DATA = {
               ]
             }
           ],
-          "directCount": 4,
-          "total": 5,
+          "directCount": 5,
+          "total": 6,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-23",
+            "reportDate": "2026-09-22",
+            "items": [
+              "5.02",
+              "7.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "임원 변동",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526398561/d148256d8k.htm",
+            "description": "8-K"
+          },
           {
             "form": "8-K",
             "filingDate": "2026-07-29",
@@ -10170,22 +10199,6 @@ window.TEAM2_DATA = {
             ],
             "isEarnings": true,
             "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026028892/cort-20260430.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-03-25",
-            "reportDate": "2026-03-25",
-            "items": [
-              "8.01",
-              "9.01"
-            ],
-            "itemsKo": [
-              "기타 중요사건",
-              "재무제표·첨부"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526123543/d123475d8k.htm",
             "description": "8-K"
           }
         ],
@@ -10888,7 +10901,7 @@ window.TEAM2_DATA = {
       "nameKo": "펭귄 솔루션스",
       "nameEn": "PENGUIN SOLUTIONS INC",
       "detail": {
-        "fetchedAt": "2026-09-18",
+        "fetchedAt": "2026-09-28",
         "nameKo": "펭귄 솔루션스",
         "nameEn": "PENGUIN SOLUTIONS INC",
         "infomaxCode": "NAS:PENG",
@@ -10973,6 +10986,18 @@ window.TEAM2_DATA = {
           "ok": true,
           "ticker": "PENG",
           "items": [
+            {
+              "title": "Penguin Solutions Is Heating Up, But It's Still Down 30% From Its All-Time High. Here's What Investors Should Know Before It Reports Earnings in Early October.",
+              "url": "https://www.nasdaq.com/articles/penguin-solutions-heating-its-still-down-30-its-all-time-high-heres-what-investors-should",
+              "date": "2026-09-24",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "PENG",
+                "PENG"
+              ]
+            },
             {
               "title": "Penguin Edge Wind-Down Pressures Revenue: Can AI Drive PENG's Growth?",
               "url": "https://www.nasdaq.com/articles/penguin-edge-wind-down-pressures-revenue-can-ai-drive-pengs-growth",
@@ -11060,22 +11085,10 @@ window.TEAM2_DATA = {
                 "SMCI",
                 "HPE"
               ]
-            },
-            {
-              "title": "Oddity Tech (ODD) Beats Q2 Earnings and Revenue Estimates",
-              "url": "https://www.nasdaq.com/articles/oddity-tech-odd-beats-q2-earnings-and-revenue-estimates",
-              "date": "2026-09-09",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "ODD",
-                "PENG"
-              ]
             }
           ],
-          "directCount": 7,
-          "total": 9,
+          "directCount": 8,
+          "total": 11,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -11319,7 +11332,300 @@ window.TEAM2_DATA = {
         "note": "LLM 리서치 대기"
       },
       "nameKo": "빌리언투원",
-      "nameEn": "BILLIONTOONE INC"
+      "nameEn": "BILLIONTOONE INC",
+      "detail": {
+        "fetchedAt": "2026-09-28",
+        "nameKo": "빌리언투원",
+        "nameEn": "BILLIONTOONE INC",
+        "infomaxCode": "NAS:BLLN",
+        "financials": {
+          "ok": true,
+          "ticker": "BLLN",
+          "cik": "0002070849",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-04-01",
+              "periodEnd": "2026-06-30",
+              "derived": false,
+              "revenue": 109448000,
+              "profit": 5503000,
+              "netIncome": 8054000,
+              "margin": 5,
+              "yoy": {
+                "revenue": 64.4,
+                "profit": 438.2,
+                "netIncome": 3374,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodStart": "2026-01-01",
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 108388000,
+              "profit": 17834000,
+              "netIncome": 17970000,
+              "margin": 16.5,
+              "yoy": {
+                "revenue": 83.8,
+                "profit": 870.4,
+                "netIncome": 550.6,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodStart": "2025-09-30",
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 96053000,
+              "profit": 10332000,
+              "netIncome": 5977000,
+              "margin": 10.8,
+              "yoy": {
+                "revenue": 113.1,
+                "profit": 188.4,
+                "netIncome": 152.1,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodStart": "2025-07-01",
+              "periodEnd": "2025-09-30",
+              "derived": false,
+              "revenue": 83523000,
+              "profit": 9633000,
+              "netIncome": 5711000,
+              "margin": 11.5,
+              "yoy": {
+                "revenue": 117.4,
+                "profit": 176.2,
+                "netIncome": 138.3,
+                "priorEnd": "2024-09-30"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002070849&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "BLLN",
+          "items": [
+            {
+              "title": "BLLN Crosses Above Average Analyst Target",
+              "url": "https://www.nasdaq.com/articles/blln-crosses-above-average-analyst-target",
+              "date": "2026-09-25",
+              "publisher": "BNK Invest",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BLLN"
+              ]
+            },
+            {
+              "title": "BillionToOne SVP Sells 1,416 Shares",
+              "url": "https://www.nasdaq.com/articles/billiontoone-svp-sells-1416-shares",
+              "date": "2026-09-21",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BLLN",
+                "BLLN"
+              ]
+            },
+            {
+              "title": "BillionToOne CEO Liquidates Entire Directly-Held Stake in the Company for $3 Million",
+              "url": "https://www.nasdaq.com/articles/billiontoone-ceo-liquidates-entire-directly-held-stake-company-3-million",
+              "date": "2026-09-17",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BLLN",
+                "BLLN"
+              ]
+            },
+            {
+              "title": "Canaccord Genuity Initiates Coverage of BillionToOne (BLLN) with Buy Rating",
+              "url": "https://www.nasdaq.com/articles/canaccord-genuity-initiates-coverage-billiontoone-blln-buy-rating",
+              "date": "2026-09-03",
+              "publisher": "Fintel",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BLLN"
+              ]
+            },
+            {
+              "title": "BillionToOne's Co-Founder Sells 10,000 Shares for $1 Million",
+              "url": "https://www.nasdaq.com/articles/billiontoones-co-founder-sells-10000-shares-1-million",
+              "date": "2026-08-28",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BLLN",
+                "BLLN"
+              ]
+            },
+            {
+              "title": "BillionToOne (BLLN) Q2 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/billiontoone-blln-q2-2026-earnings-call-transcript",
+              "date": "2026-08-12",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BLLN",
+                "BLLN"
+              ]
+            },
+            {
+              "title": "BillionToOne (BLLN) Reports Q2 Earnings: What Key Metrics Have to Say",
+              "url": "https://www.nasdaq.com/articles/billiontoone-blln-reports-q2-earnings-what-key-metrics-have-say",
+              "date": "2026-08-06",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BLLN"
+              ]
+            },
+            {
+              "title": "Billiontoone Q2 Earnings Call Highlights",
+              "url": "https://www.nasdaq.com/articles/billiontoone-q2-earnings-call-highlights",
+              "date": "2026-08-05",
+              "publisher": "MarketBeat",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "BLLN"
+              ]
+            }
+          ],
+          "directCount": 13,
+          "total": 14,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-05",
+            "reportDate": "2026-08-05",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/2070849/000207084926000048/blln-20260805.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-29",
+            "reportDate": "2026-06-23",
+            "items": [
+              "1.01",
+              "2.03",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "2.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/2070849/000207084926000042/blln-20260623.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-16",
+            "reportDate": "2026-06-10",
+            "items": [
+              "1.01",
+              "2.03",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "2.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/2070849/000207084926000040/blln-20260610.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-06",
+            "reportDate": "2026-05-06",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/2070849/000207084926000029/blln-20260506.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-03-04",
+            "reportDate": "2026-03-04",
+            "items": [
+              "2.02",
+              "5.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "임원 변동",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/2070849/000207084926000013/blln-20260304.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-01-12",
+            "reportDate": "2026-01-12",
+            "items": [
+              "2.02",
+              "7.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "Reg FD 공시"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/2070849/000207084926000010/blln-20260112.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
+      }
     },
     {
       "ticker": "CRWD",
@@ -14180,7 +14486,289 @@ window.TEAM2_DATA = {
         "note": "LLM 리서치 대기"
       },
       "nameKo": "시그넷 주얼러스",
-      "nameEn": "SIGNET JEWELERS LTD"
+      "nameEn": "SIGNET JEWELERS LTD",
+      "detail": {
+        "fetchedAt": "2026-09-28",
+        "nameKo": "시그넷 주얼러스",
+        "nameEn": "SIGNET JEWELERS LTD",
+        "infomaxCode": "NYS:SIG",
+        "financials": {
+          "ok": true,
+          "ticker": "SIG",
+          "cik": "0000832988",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-05-03",
+              "periodEnd": "2026-08-01",
+              "derived": false,
+              "revenue": 1528100000,
+              "profit": 87500000,
+              "netIncome": 52100000,
+              "margin": 5.7,
+              "yoy": {
+                "revenue": -0.5,
+                "profit": 3025,
+                "netIncome": 672.5,
+                "priorEnd": "2025-08-02"
+              }
+            },
+            {
+              "periodStart": "2026-02-01",
+              "periodEnd": "2026-05-02",
+              "derived": false,
+              "revenue": 1553600000,
+              "profit": 36900000,
+              "netIncome": 31700000,
+              "margin": 2.4,
+              "yoy": {
+                "revenue": 0.8,
+                "profit": -23.3,
+                "netIncome": -5.4,
+                "priorEnd": "2025-05-03"
+              }
+            },
+            {
+              "periodStart": "2025-11-01",
+              "periodEnd": "2026-01-31",
+              "derived": true,
+              "revenue": 2345100000,
+              "profit": 318300000,
+              "netIncome": 250000000,
+              "margin": 13.6,
+              "yoy": {
+                "revenue": -0.3,
+                "profit": 108.6,
+                "netIncome": 148.5,
+                "priorEnd": "2025-02-01"
+              }
+            },
+            {
+              "periodStart": "2025-08-03",
+              "periodEnd": "2025-11-01",
+              "derived": false,
+              "revenue": 1391800000,
+              "profit": 23900000,
+              "netIncome": 20000000,
+              "margin": 1.7,
+              "yoy": {
+                "revenue": 3.1,
+                "profit": 159.8,
+                "netIncome": 185.7,
+                "priorEnd": "2024-11-02"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000832988&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "SIG",
+          "items": [
+            {
+              "title": "Zacks.com featured highlights include ITT, Signet Jewelers and Urban Outfitters",
+              "url": "https://www.nasdaq.com/articles/zackscom-featured-highlights-include-itt-signet-jewelers-and-urban-outfitters",
+              "date": "2026-09-21",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ITT",
+                "URBN",
+                "SIG"
+              ]
+            },
+            {
+              "title": "Signet Jewelers Consensus Price Target Raised 10.32% to $124.34",
+              "url": "https://www.nasdaq.com/articles/signet-jewelers-consensus-price-target-raised-1032-12434",
+              "date": "2026-09-15",
+              "publisher": "Fintel",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "SIG"
+              ]
+            },
+            {
+              "title": "Are Retail-Wholesale Stocks Lagging  Signet Jewelers (SIG) This Year?",
+              "url": "https://www.nasdaq.com/articles/are-retail-wholesale-stocks-lagging-signet-jewelers-sig-year",
+              "date": "2026-09-15",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "SIG",
+                "BLMN"
+              ]
+            },
+            {
+              "title": "SIG vs. CFRUY: Which Stock Should Value Investors Buy Now?",
+              "url": "https://www.nasdaq.com/articles/sig-vs-cfruy-which-stock-should-value-investors-buy-now",
+              "date": "2026-09-14",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "SIG"
+              ]
+            },
+            {
+              "title": "Why Signet (SIG) is a Top Momentum Stock for the Long-Term",
+              "url": "https://www.nasdaq.com/articles/why-signet-sig-top-momentum-stock-long-term",
+              "date": "2026-09-14",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "SIG"
+              ]
+            },
+            {
+              "title": "Are Investors Undervaluing Signet Jewelers (SIG) Right Now?",
+              "url": "https://www.nasdaq.com/articles/are-investors-undervaluing-signet-jewelers-sig-right-now-0",
+              "date": "2026-09-14",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "SIG"
+              ]
+            },
+            {
+              "title": "Why Signet Jewelers Stock Pulled Back Today",
+              "url": "https://www.nasdaq.com/articles/why-signet-jewelers-stock-pulled-back-today",
+              "date": "2026-09-10",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "SIG",
+                "SIG"
+              ]
+            },
+            {
+              "title": "Signet (SIG) Q2 2027 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/signet-sig-q2-2027-earnings-call-transcript",
+              "date": "2026-09-10",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "SIG",
+                "SIG"
+              ]
+            }
+          ],
+          "directCount": 8,
+          "total": 11,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-14",
+            "reportDate": "2026-09-10",
+            "items": [
+              "8.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000231/sig-20260910.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-09",
+            "reportDate": "2026-09-04",
+            "items": [
+              "1.01",
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000227/sig-20260904.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-02",
+            "reportDate": "2026-07-02",
+            "items": [
+              "5.02"
+            ],
+            "itemsKo": [
+              "임원 변동"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000185/sig-20260702.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-30",
+            "reportDate": "2026-06-26",
+            "items": [
+              "5.07"
+            ],
+            "itemsKo": [
+              "주주총회 표결"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000173/sig-20260626.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-08",
+            "reportDate": "2026-06-08",
+            "items": [
+              "8.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000161/sig-20260608.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-02",
+            "reportDate": "2026-06-02",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000158/sig-20260602.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
+      }
     },
     {
       "ticker": "HPE-C",
@@ -16749,7 +17337,7 @@ window.TEAM2_DATA = {
       "nameKo": "마벨 테크놀로지 그룹",
       "nameEn": "MARVELL TECHNOLOGY INC",
       "detail": {
-        "fetchedAt": "2026-09-21",
+        "fetchedAt": "2026-09-28",
         "nameKo": "마벨 테크놀로지 그룹",
         "nameEn": "MARVELL TECHNOLOGY INC",
         "infomaxCode": "NAS:MRVL",
@@ -16835,74 +17423,88 @@ window.TEAM2_DATA = {
           "ticker": "MRVL",
           "items": [
             {
-              "title": "APH's AI Datacom Strength Grows: Can It Challenge TEL & MRVL?",
-              "url": "https://www.nasdaq.com/articles/aphs-ai-datacom-strength-grows-can-it-challenge-tel-mrvl",
-              "date": "2026-09-18",
+              "title": "The Zacks Analyst Blog Highlights Marvell Technology and NVIDIA",
+              "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-marvell-technology-and-nvidia",
+              "date": "2026-09-25",
               "publisher": "Zacks",
               "tier1": false,
               "direct": true,
               "tickers": [
-                "APH",
-                "MRVL",
-                "TEL"
-              ]
-            },
-            {
-              "title": "Can MRVL's Data Center Business Sustain Its Growth in 2027?",
-              "url": "https://www.nasdaq.com/articles/can-mrvls-data-center-business-sustain-its-growth-2027",
-              "date": "2026-09-17",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MRVL",
-                "AMD",
-                "AVGO"
-              ]
-            },
-            {
-              "title": "Marvell Technology, Inc. (MRVL) is Attracting Investor Attention: Here is What You Should Know",
-              "url": "https://www.nasdaq.com/articles/marvell-technology-inc-mrvl-attracting-investor-attention-here-what-you-should-know",
-              "date": "2026-09-17",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
+                "NVDA",
                 "MRVL"
               ]
             },
             {
-              "title": "GlobalFoundries, Marvell Expand Partnership For Next-Gen Optical Connectivity",
-              "url": "https://www.nasdaq.com/articles/globalfoundries-marvell-expand-partnership-next-gen-optical-connectivity",
-              "date": "2026-09-17",
-              "publisher": "RTTNews",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "GFS",
-                "GFS",
-                "MRVL"
-              ]
-            },
-            {
-              "title": "Applied Materials vs. Marvell Technology: Which Tech Stock Is a Better Buy in 2026?",
-              "url": "https://www.nasdaq.com/articles/applied-materials-vs-marvell-technology-which-tech-stock-better-buy-2026",
-              "date": "2026-09-17",
+              "title": "Astera Labs vs. Marvell Technology: Which Tech Stock Is a Better Buy in 2026?",
+              "url": "https://www.nasdaq.com/articles/astera-labs-vs-marvell-technology-which-tech-stock-better-buy-2026",
+              "date": "2026-09-25",
               "publisher": "The Motley Fool",
               "tier1": false,
               "direct": true,
               "tickers": [
-                "AMAT",
-                "AMAT",
+                "ALAB",
+                "ALAB",
                 "MRVL"
+              ]
+            },
+            {
+              "title": "Marvell vs. NVIDIA: One AI Stock Looks Like the Better Buy Now",
+              "url": "https://www.nasdaq.com/articles/marvell-vs-nvidia-one-ai-stock-looks-better-buy-now",
+              "date": "2026-09-24",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "NVDA",
+                "MRVL"
+              ]
+            },
+            {
+              "title": "Seaport Global Initiates Coverage of Marvell Technology with Buy Rating",
+              "url": "https://www.nasdaq.com/articles/seaport-global-initiates-coverage-marvell-technology-buy-rating",
+              "date": "2026-09-24",
+              "publisher": "Fintel",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MRVL"
+              ]
+            },
+            {
+              "title": "2 Semiconductor Stocks That Could Help Set You Up for Life",
+              "url": "https://www.nasdaq.com/articles/2-semiconductor-stocks-could-help-set-you-life",
+              "date": "2026-09-26",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "MRVL",
+                "MRVL",
+                "ASML"
               ]
             }
           ],
-          "directCount": 5,
+          "directCount": 4,
           "total": 5,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-25",
+            "reportDate": "2026-09-25",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026063592/mrvl-20260925.htm",
+            "description": "8-K"
+          },
           {
             "form": "8-K",
             "filingDate": "2026-08-27",
@@ -16988,22 +17590,6 @@ window.TEAM2_DATA = {
             "isEarnings": false,
             "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526267688/d151562d8k.htm",
             "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-27",
-            "reportDate": "2026-05-27",
-            "items": [
-              "2.02",
-              "9.01"
-            ],
-            "itemsKo": [
-              "실적 발표",
-              "재무제표·첨부"
-            ],
-            "isEarnings": true,
-            "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000014/mrvl-20260527.htm",
-            "description": "FORM 8-K"
           }
         ],
         "krReports": {
@@ -17016,8 +17602,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-28",
               "summary": "- 단기 주가 약세 가능성. 10월 투자자의 날 행사가 중요- 컨센서스 상회한 FY 2Q27 실적- 시장 예상보다 강한 FY 3Q27 가이던스. 연간 매출 가이던스 상향",
               "pages": "6",
-              "secureId": "eqlqlmzgqimxqkcgcgxcmge",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlmzgqimxqkcgcgxcmge.pdf",
+              "secureId": "eqlqlmzgqimxqkcgcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlmzgqimxqkcgcgxcmgl.pdf",
               "opinion": null
             },
             {
@@ -17027,8 +17613,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-27",
               "summary": "- 매출 27.39억달러, DC +46%로 순차 13.3% 가속- FY27 120억·FY28 180억달러, 다섯 번째 상향- 3분기 총마진 58.0% 가이던스로 90bp 후퇴",
               "pages": "7",
-              "secureId": "eqlqlqkllqllkqxgcgxcmge",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqkllqllkqxgcgxcmge.pdf",
+              "secureId": "eqlqlqkllqllkqxgcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqkllqllkqxgcgxcmgl.pdf",
               "opinion": null
             },
             {
@@ -17038,8 +17624,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-19",
               "summary": "- 구글과 7월29일 커스텀 반도체 상업계약 체결- 워런트 최대 5,897만주, 행사가 206.58달러- 1년 확정베스팅 544만주뿐, 잔여조건 미공개",
               "pages": "5",
-              "secureId": "eqlqeqmkggkqgezgcgxcmge",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqeqmkggkqgezgcgxcmge.pdf",
+              "secureId": "eqlqeqmkggkqgezgcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqeqmkggkqgezgcgxcmgl.pdf",
               "opinion": null
             },
             {
@@ -17049,8 +17635,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-19",
               "summary": "- 마벨 8월 28일 실적, 핵심은 매출보다 성장 재가속 속도 확인- 이번 분기 매출 가이던스 27억달러로 전분기 대비 12% 성장, 성장 재가속 지속 여부가 핵심- 데이터센터 비중 75.7%, 인터커넥트 성장 목표 70% 이상으로 상향, 하반기 30억달러 매출의 선행 신호",
               "pages": "5",
-              "secureId": "eqlqcmizcxigmeggcgxcmge",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcmizcxigmeggcgxcmge.pdf",
+              "secureId": "eqlqcmizcxigmeggcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcmizcxigmeggcgxcmgl.pdf",
               "opinion": null
             },
             {
@@ -17060,8 +17646,8 @@ window.TEAM2_DATA = {
               "date": "2026-05-28",
               "summary": "- 단순 광 DSP 업체를 넘어, 광연결-스위칭-XPU를 결합한 AI 인프라 연결 플랫폼으로 진화. 12MF P/E 43배의 멀티플을 실적을 통해 입증할 전망- FY1Q27 매출액 24.2억(YoY+27.6%, 이하 전년동기대비), Non-GAAP 영업이익 8.5억달러(+30.8%)를 기록하며 컨센서스에 부합. 데이터센터향 매출이 18.3억달러(+27.2%)로 전체의 76%를 기록- AI 데이터센터 연결 병목 해결을 위해 핵심 기술들을 확보. 2월 Celestial AI 인수로 광 기반 포토닉 패브릭과 Scale-up 광연결 역량 확보. XConn 인수는 PCIe, *CXL 스위치와 UALink 스케일업 스위칭 로드맵 보강",
               "pages": "5",
-              "secureId": "eqqmmzqxzcxkqgcgcgxcmge",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqmmzqxzcxkqgcgcgxcmge.pdf",
+              "secureId": "eqqmmzqxzcxkqgcgcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqmmzqxzcxkqgcgcgxcmgl.pdf",
               "opinion": null
             },
             {
@@ -17071,8 +17657,8 @@ window.TEAM2_DATA = {
               "date": "2025-12-05",
               "summary": "- 3Q25CY 실적 기대치 부합, 4Q25CY 가이던스 역시 장 컨센서스 부합- 다만 커스텀 부문의 성장세가 가속화되며, 2027년 2배 수준의 성장을 보일 전망- ASIC 시장 성장과 함께, Marvell의 실적 성장 및 주가 상승세 이어질 것으로 판단",
               "pages": "6",
-              "secureId": "eqxkmekziimlmgxgcgxcmge",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkmekziimlmgxgcgxcmge.pdf",
+              "secureId": "eqxkmekziimlmgxgcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkmekziimlmgxgcgxcmgl.pdf",
               "opinion": null
             },
             {
@@ -17082,8 +17668,8 @@ window.TEAM2_DATA = {
               "date": "2025-12-03",
               "summary": "- 단기 실적 기대감은 높지 않겠으나 미래 성장 동력에 주목- FY3Q26 Review: 실적은 예상 부합, 중장기 사업 계획이 서프라이즈- 2023~28년 연평균성장률 +50% 언급. 데이터센터 애플리케이션 강화",
               "pages": "4",
-              "secureId": "eqxkqzqzckqcgzqgcgxcmge",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkqzqzckqcgzqgcgxcmge.pdf",
+              "secureId": "eqxkqzqzckqcgzqgcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkqzqzckqcgzqgcgxcmgl.pdf",
               "opinion": null
             },
             {
@@ -17093,8 +17679,8 @@ window.TEAM2_DATA = {
               "date": "2025-12-03",
               "summary": "- 매출액 20.8억 달러(YoY +36.8%)로 예상치 0.6% 상회, 가이던스 중간값 대비 1,500만 달러 높은 수치로 사상 최고치 기록- Non-GAAP 매출총이익률은 59.7%(YoY -0.8%p), 영업이익률은 36.3%(YoY +6.6%p) 기록- 2분기 연속 사상 최대 실적 달성. *예상을 상회하는 향후 2개 회계연도의 데이터센터 성장 전망 제시. 시간 외 8.7% 상승",
               "pages": "1",
-              "secureId": "eqxkqixmiqgqqmkgcgxcmge",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkqixmiqgqqmkgcgxcmge.pdf",
+              "secureId": "eqxkqixmiqgqqmkgcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkqixmiqgqqmkgcgxcmgl.pdf",
               "opinion": null
             }
           ],
@@ -18455,7 +19041,7 @@ window.TEAM2_DATA = {
       "nameKo": "실리콘 모션 테크놀로지(ADR)",
       "nameEn": "SILICON MOTION TECHNOLOGY CORP SPONS ADR EACH REP 4 COM USD0",
       "detail": {
-        "fetchedAt": "2026-09-21",
+        "fetchedAt": "2026-09-28",
         "nameKo": "실리콘 모션 테크놀로지(ADR)",
         "nameEn": "SILICON MOTION TECHNOLOGY CORP SPONS ADR EACH REP 4 COM USD0",
         "infomaxCode": "NAS:SIMO",
@@ -18464,6 +19050,17 @@ window.TEAM2_DATA = {
           "ok": true,
           "ticker": "SIMO",
           "items": [
+            {
+              "title": "Silicon Motion (SIMO) Stock Slides as Market Rises: Facts to Know Before You Trade",
+              "url": "https://www.nasdaq.com/articles/silicon-motion-simo-stock-slides-market-rises-facts-know-you-trade",
+              "date": "2026-09-21",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "SIMO"
+              ]
+            },
             {
               "title": "Here is What to Know Beyond Why Silicon Motion Technology Corporation (SIMO) is a Trending Stock",
               "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-silicon-motion-technology-corporation-simo-trending-stock",
@@ -18524,44 +19121,32 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Silicon Motion Surges 186% in Past Year: Reason to Buy the Stock?",
-              "url": "https://www.nasdaq.com/articles/silicon-motion-surges-186-past-year-reason-buy-stock",
-              "date": "2026-09-04",
+              "title": "How to Find Strong Buy Computer and Technology Stocks Using the Zacks Rank",
+              "url": "https://www.nasdaq.com/articles/how-find-strong-buy-computer-and-technology-stocks-using-zacks-rank-8",
+              "date": "2026-09-23",
               "publisher": "Zacks",
               "tier1": false,
-              "direct": true,
+              "direct": false,
               "tickers": [
-                "SIMO",
-                "AMD",
-                "IBM"
-              ]
-            },
-            {
-              "title": "Is Silicon Motion Technology Stock a Buy Now?",
-              "url": "https://www.nasdaq.com/articles/silicon-motion-technology-stock-buy-now",
-              "date": "2026-09-03",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "SIMO",
                 "SIMO"
               ]
             },
             {
-              "title": "Should You Invest in Silicon Motion (SIMO) Based on Bullish Wall Street Views?",
-              "url": "https://www.nasdaq.com/articles/should-you-invest-silicon-motion-simo-based-bullish-wall-street-views",
-              "date": "2026-09-01",
+              "title": "ASML Bets Big on AI & Capacity Expansion: Should You Buy the Stock?",
+              "url": "https://www.nasdaq.com/articles/asml-bets-big-ai-capacity-expansion-should-you-buy-stock",
+              "date": "2026-09-07",
               "publisher": "Zacks",
               "tier1": false,
-              "direct": true,
+              "direct": false,
               "tickers": [
-                "SIMO"
+                "ASML",
+                "SIMO",
+                "AEIS"
               ]
             }
           ],
-          "directCount": 8,
-          "total": 10,
+          "directCount": 6,
+          "total": 9,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [],
@@ -18696,7 +19281,251 @@ window.TEAM2_DATA = {
         "note": "LLM 리서치 대기"
       },
       "nameKo": "일루미나",
-      "nameEn": "ILLUMINA INC"
+      "nameEn": "ILLUMINA INC",
+      "detail": {
+        "fetchedAt": "2026-09-28",
+        "nameKo": "일루미나",
+        "nameEn": "ILLUMINA INC",
+        "infomaxCode": "NAS:ILMN",
+        "financials": {
+          "ok": true,
+          "ticker": "ILMN",
+          "cik": "0001110803",
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "profitIsOperating": true,
+          "tags": {
+            "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "profit": "OperatingIncomeLoss",
+            "netIncome": "NetIncomeLoss"
+          },
+          "quarters": [
+            {
+              "periodStart": "2026-03-30",
+              "periodEnd": "2026-06-28",
+              "derived": false,
+              "revenue": 1159000000,
+              "profit": 245000000,
+              "netIncome": 207000000,
+              "margin": 21.1,
+              "yoy": {
+                "revenue": 9.4,
+                "profit": 14.5,
+                "netIncome": -11.9,
+                "priorEnd": "2025-06-29"
+              }
+            },
+            {
+              "periodStart": "2025-12-29",
+              "periodEnd": "2026-03-29",
+              "derived": false,
+              "revenue": 1091000000,
+              "profit": 209000000,
+              "netIncome": 134000000,
+              "margin": 19.2,
+              "yoy": {
+                "revenue": 4.8,
+                "profit": 27.4,
+                "netIncome": 2.3,
+                "priorEnd": "2025-03-30"
+              }
+            },
+            {
+              "periodStart": "2025-09-28",
+              "periodEnd": "2025-12-28",
+              "derived": true,
+              "revenue": 1159000000,
+              "profit": 201000000,
+              "netIncome": 334000000,
+              "margin": 17.3,
+              "yoy": {
+                "revenue": 5,
+                "profit": 14.9,
+                "netIncome": 79.6,
+                "priorEnd": "2024-12-29"
+              }
+            },
+            {
+              "periodStart": "2025-06-30",
+              "periodEnd": "2025-09-28",
+              "derived": false,
+              "revenue": 1084000000,
+              "profit": 227000000,
+              "netIncome": 150000000,
+              "margin": 20.9,
+              "yoy": {
+                "revenue": 0.4,
+                "profit": -69.4,
+                "netIncome": -78.7,
+                "priorEnd": "2024-09-29"
+              }
+            }
+          ],
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001110803&type=10-Q"
+        },
+        "news": {
+          "ok": true,
+          "ticker": "ILMN",
+          "items": [
+            {
+              "title": "Illumina (ILMN) is a Top-Ranked Momentum Stock: Should You Buy?",
+              "url": "https://www.nasdaq.com/articles/illumina-ilmn-top-ranked-momentum-stock-should-you-buy",
+              "date": "2026-09-11",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ILMN"
+              ]
+            },
+            {
+              "title": "UBS Upgrades Illumina to Buy from Neutral",
+              "url": "https://www.nasdaq.com/articles/ubs-upgrades-illumina-buy-neutral",
+              "date": "2026-09-09",
+              "publisher": "Fintel",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "ILMN"
+              ]
+            },
+            {
+              "title": "Is Brookdale Senior Living (BKD) Outperforming Other Medical Stocks This Year?",
+              "url": "https://www.nasdaq.com/articles/brookdale-senior-living-bkd-outperforming-other-medical-stocks-year",
+              "date": "2026-09-17",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "BKD",
+                "ILMN"
+              ]
+            },
+            {
+              "title": "3 Stocks Soon Joining the S&P 500",
+              "url": "https://www.nasdaq.com/articles/3-stocks-soon-joining-sp-500",
+              "date": "2026-09-09",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "ILMN",
+                "P",
+                "BE"
+              ]
+            }
+          ],
+          "directCount": 2,
+          "total": 4,
+          "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-17",
+            "reportDate": "2026-08-17",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1110803/000119312526354010/d51146d8k.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-13",
+            "reportDate": "2026-08-13",
+            "items": [
+              "1.01",
+              "1.02",
+              "2.03",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "1.02",
+              "2.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1110803/000095015726000888/form8-k.htm",
+            "description": "CURRENT REPORT"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-12",
+            "reportDate": "2026-08-10",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1110803/000119312526345802/d141344d8k.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-07",
+            "reportDate": "2026-08-07",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000168/ilmn-20260807.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-30",
+            "reportDate": "2026-07-30",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000155/ilmn-20260730.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-23",
+            "reportDate": "2026-06-16",
+            "items": [
+              "5.02"
+            ],
+            "itemsKo": [
+              "임원 변동"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000138/ilmn-20260616.htm",
+            "description": "8-K"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": [],
+          "note": "연합인포맥스 Global Market Monitor 피드 · 미래에셋·한국투자·삼성·NH 자사 리포트는 미포함"
+        }
+      }
     },
     {
       "ticker": "XMTR",
@@ -24202,138 +25031,6 @@ window.TEAM2_DATA = {
         }
       ],
       "asOf": "2026-09-25"
-    },
-    "llmCarried": {
-      "byPeriod": {
-        "m1": {
-          "name": "AI 인프라 반도체·하드웨어",
-          "plainKo": "1M 상위 2%(18종목)는 Technology 11종목(61.1%)·Semiconductors 5종목(27.8%)에 집중되며, 그중 SMTC·MXL·DELL·INTC는 AI 데이터센터·서버·인터커넥트 수요 확대라는 공통 실적 근거를 갖는다. 나머지 반도체 신규 진입(SWKS·QRVO·FEIM)은 클러스터 편입만 확인되고 개별 근거는 없다.",
-          "tickers": [
-            "SMTC",
-            "MXL",
-            "DELL",
-            "INTC"
-          ],
-          "strength": "strong"
-        },
-        "m3": {
-          "name": "엔터프라이즈 소프트웨어/AI 플랫폼",
-          "plainKo": "3M 상위 2%(17종목)는 Technology 8종목(47.1%)·Software-Infrastructure 4종목(23.5%)로 재편되며, 이 중 PLTR만 2Q26 매출 YoY+92.8%·FY26 가이던스 상향이라는 구체적 실적 근거를 갖고 나머지(MGRT·MSTR·TEAM·OKTA·WDAY·ZS·QLYS)는 클러스터 소속 외 근거가 확인되지 않는다. Software-Application 3종목(17.6%, MSTR·TEAM·WDAY) 역시 개별 근거 없이 업종 분류만 공유한다.",
-          "tickers": [
-            "MGRT",
-            "MSTR",
-            "TEAM",
-            "OKTA",
-            "WDAY",
-            "PLTR",
-            "ZS",
-            "QLYS"
-          ],
-          "strength": "emerging"
-        },
-        "m6": {
-          "name": "AI 인프라 반도체 사이클",
-          "plainKo": "6M 상위 2%(24종목)는 Technology 17종목(70.8%)·Semiconductors 7종목(29.2%)으로 전 기간 중 최고 집중도를 보이며, SMTC·MXL·DELL·AMBQ·INTC의 AI 데이터센터/서버향 실적 개선과 BAND의 AI 음성 에이전트 모멘텀이 공통 근거로 확인된다. 다만 ALAB·MRVL·SIMO 등 나머지 Semiconductors 편입 종목은 개별 근거가 없다.",
-          "tickers": [
-            "SMTC",
-            "MXL",
-            "DELL",
-            "AMBQ",
-            "INTC",
-            "BAND"
-          ],
-          "strength": "strong"
-        }
-      },
-      "caution": "AI 인프라 리딩테마는 Technology 25종목 중 실제 개별 근거가 확인된 7종목(SMTC·MXL·DELL·INTC·AMBQ·PLTR·BAND)에 기반하며, MGRT·TEAM·OKTA·SWKS·FEIM·SNDK·WDAY·AEHR·CRWD·ALAB·MRVL·QRVO·ZS·SIMO·PANW·QLYS·PENG 등 나머지 다수는 클러스터 편입만 확인되고 종목별 근거가 없어 섹터 전체를 AI 인프라로 일반화하면 과대해석 위험이 있다. 3M 구간의 Software-Infrastructure 클러스터(OKTA·PLTR·ZS·QLYS)도 PLTR 외에는 개별 촉매가 확인되지 않아 업종 분류 유사성만으로 공통 테마를 단정하기 어렵다.",
-      "crossCuttingDriver": "리서치가 확보된 종목들을 관통하는 공통 원인은 AI 데이터센터 자본지출 확대다 — DELL(AI 서버 백로그 역대 최고, 매출 YoY+87.5%)·SMTC·MXL(AI 광인터커넥트, 매출 YoY 각 +33%·+55.2%)·INTC(AI 추론용 DCAI 매출 YoY+59%, SK하이닉스 美 메모리 협상)·AMBQ(엣지 AI SoC, 매출 YoY+89.7%)가 반도체·하드웨어단에서, PLTR·BAND가 엔터프라이즈 AI 소프트웨어/에이전트단에서 동일한 수요 확대를 실적으로 증명하고 있다. 이 흐름과 별개로 MSTR·HOOD는 비트코인가 회복과 토큰화·예측시장 규제 완화라는 크립토 정책 모멘텀이, MRNA·TWST는 신약 파이프라인 임상·계약 뉴스가, AGL·HNGE·FET·PARR은 개별 업종의 마진·흑자전환 턴어라운드가 각각 독립적인 구동 요인으로 작동해 전 종목을 관통하는 단일 드라이버는 아니다.",
-      "leadingTheme": {
-        "name": "AI 인프라 자본지출 사이클",
-        "plainKo": "전 기간 클러스터에서 Technology 섹터가 25종목·59.5%로 압도적 비중을 차지하며, 그 안에서 AI 데이터센터·서버·엣지 반도체와 엔터프라이즈 AI 플랫폼 수요 확대가 SMTC·MXL·DELL·INTC·AMBQ·PLTR·BAND의 공통 상승 동력으로 확인된다. Semiconductors 9종목(21.4%)·Software-Infrastructure 7종목(16.7%)이 Technology 내 최대 두 업종 클러스터로, AI 인프라 테마가 반도체와 소프트웨어 양쪽에서 동시에 작동하고 있음을 뒷받침한다.",
-        "why": "SMTC는 FY2027 2Q(2026-07-26 마감) 매출 $341.9M(QoQ+17%, YoY+33%)로 사상 최대 실적을 기록했고 Non-GAAP EPS $0.71(YoY+73%), 2026-09-03 골든크로스가 발생했다. MXL은 2Q26(6월 결산) 매출 $168.847M(YoY+55.2%)·순이익 흑자전환(YoY+106.6%)으로 AI 광인터커넥트 수요 확대를 실적으로 증명했다. DELL은 FY1Q27(2026-05-01 마감) 매출 YoY+87.5%·영업이익 YoY+213.8%·순이익 YoY+256.3%를 기록했고 AI 서버 백로그가 역대 최고 수준이며 컨센서스 목표주가가 13.95% 상향돼 $582.33로 재산정됐다. INTC는 SK하이닉스와의 美 메모리 생산 협상 소식(9/17)에 주가가 7~8% 급등했고 2Q26 DCAI 매출 YoY+59%로 AI 추론 수요 증가가 확인됐다. AMBQ는 2Q26(6월 마감) 매출 $33.901M(YoY+89.7%)로 컨센서스를 상회했고 영업이익률이 -46.6%→-25.7%로 개선됐으며 경영진은 하반기 매출 2배 성장을 목표로 제시했다. PLTR은 2Q26 매출 $19.35억(YoY+92.8%)·영업이익률 47.1%·FY26 가이던스 $8.15B로 상향(14분기 연속 가이던스 상회), Rule of 40 155%를 기록했다. BAND는 Salesforce Agentforce 연계 AI 음성 에이전트 기회가 부각되며 Piper Sandler가 목표주가를 $38→$52로 상향(2026-08-19)했고 Q2 매출 YoY+22%, Q3 가이던스 매출 YoY 약+21%를 제시했다. 리스크: Technology 클러스터 25종목 중 위 7종목을 제외한 MGRT·TEAM·OKTA·SWKS·FEIM·SNDK·WDAY·AEHR·CRWD·ALAB·MRVL·QRVO·ZS·SIMO·PANW·QLYS 등 다수는 개별 리서치가 제공되지 않아 동일한 AI 인프라 촉매로 확대 해석할 근거가 부족하다. 확인 조건: 이들 미검증 종목의 실적·가이던스에서도 AI 데이터센터向 매출 비중 확대가 확인되면 테마의 폭이 넓어진 것으로, 그렇지 않으면 소수 종목 주도의 협의의 랠리로 판단해야 한다.",
-        "tickers": [
-          "SMTC",
-          "MXL",
-          "DELL",
-          "INTC",
-          "AMBQ",
-          "PLTR",
-          "BAND"
-        ],
-        "strength": "strong"
-      },
-      "rotation": {
-        "persistent": [
-          "MGRT",
-          "OKTA",
-          "TWST"
-        ],
-        "newEntrants": [
-          "BE",
-          "SWKS",
-          "FEIM",
-          "SEI",
-          "HOOD",
-          "QRVO"
-        ],
-        "midTerm": [
-          "MRNA",
-          "TEAM",
-          "FET",
-          "PARR",
-          "WDAY",
-          "PLTR",
-          "ZS",
-          "AUGO",
-          "QLYS",
-          "ELF"
-        ],
-        "fading": [
-          "AGL",
-          "PENG",
-          "BAND"
-        ],
-        "narrative": "1M 상위 2%(18종목, Technology 11종목·61.1%, Semiconductors 5종목·27.8%)에는 BE·SWKS·FEIM·SEI·HOOD·QRVO 6개 신규 진입 종목이 나타났고, 그중 HOOD는 9/18 SEC 토큰화 규제 완화 보도와 진입일이 일치해 근거가 뚜렷하나 나머지는 클러스터 편입 외 개별 근거가 없다. 3M 상위 2%(17종목, Technology 8종목·47.1%, Software-Infrastructure 4종목·23.5%, Energy 3종목·17.6%)의 중기 10종목 중 PLTR(2Q26 매출 YoY+92.8%)·FET·PARR(정제마진·오일필드 턴어라운드)·AUGO·ELF·MRNA는 고유 촉매가 확인되지만 TEAM·WDAY·ZS·QLYS는 클러스터 소속만 확인된다. 6M 상위 2%(24종목, Technology 17종목·70.8%, Semiconductors 7종목·29.2%)에서는 AGL·PENG·BAND 등 14종목이 6M에만 남아 퇴조했는데, 이는 6/19~9월 초 장기 스트릭(예: PENG·BAND 61일)을 쌓았던 종목들이 최근 1M·3M 상위 2%에서 밀려났다는 뜻이다. 세 기간 모두에 남은 지속 주도는 MGRT·OKTA·TWST 3종목뿐으로, OKTA는 세 기간 모두 진입일 2026-09-14·스트릭 5일로 동일하고 TWST는 Eli Lilly TuneLab 계약을 촉매로 3M 33일·6M 29일 스트릭을 이어가는 반면 MGRT는 근거 없이 클러스터 편입만 유지된다."
-      },
-      "subThemes": [
-        {
-          "name": "디지털자산 리레이팅",
-          "plainKo": "비트코인 현물가 회복과 토큰화·예측시장 등 크립토 인프라 확장 기대가 MSTR·HOOD의 공통 상승 동력이다. 두 종목 모두 정책·규제 모멘텀에 직접 연동돼 단기 변동성이 크다.",
-          "tickers": [
-            "MSTR",
-            "HOOD"
-          ],
-          "why": "MSTR은 비트코인이 파생시장 숏커버링과 함께 8만달러선을 회복하며 9/18 하루 16% 급등했고, 하원 금융서비스위원회가 9/16 연방 전략 비트코인 비축 법안(H.R.8957)을 28대21로 통과시키며 정책 모멘텀이 형성됐다. 월가 목표주가도 B.Riley $175, Canaccord $175, Alliance Global 신규 $217로 상향되며 평균 목표주가가 직전 종가 대비 48% 프리미엄인 $229로 형성됐다. HOOD는 2026-09-18 SEC의 토큰화 주식 규제 완화 보도가 스크리닝 진입일과 정확히 일치해 1개월 RS 25.99% 급등의 직접 트리거로 판단되며, Robinhood Chain 메인넷 출시·Rothera 예측시장 가동·WonderFi 인수 등 신사업 확장이 밸류에이션 리레이팅 근거로 제시됐다."
-        },
-        {
-          "name": "바이오텍 파이프라인 모멘텀",
-          "plainKo": "신약 파이프라인의 임상적 유효성 입증과 대형 제약사와의 협업 계약이 MRNA·TWST 두 종목의 공통 상승 동력이다. 두 종목 모두 실적 서프라이즈보다 파이프라인 뉴스가 주가를 견인했다.",
-          "tickers": [
-            "MRNA",
-            "TWST"
-          ],
-          "why": "MRNA는 머크와 공동 개발한 mRNA-4157 흑색종 항암백신이 세계 최초로 3상에서 유효성을 입증했고, 이를 활용해 20억달러 규모 전환사채 사모 발행을 추진했다. TWST는 9월 중순 Eli Lilly의 AI 신약개발 플랫폼 TuneLab에 항체 특성분석 데이터를 공급하는 계약을 체결한 이후 6거래일 연속 상승·누적 23.9% 상승, 시가총액 약 19억달러 증가를 기록했고, FY2026 3분기 매출이 YoY+23.2%로 컨센서스를 상회하며 가이던스도 상향됐다."
-        },
-        {
-          "name": "헬스케어 서비스 실적 턴어라운드",
-          "plainKo": "적자 국면에서 벗어난 헬스케어 서비스 기업의 흑자전환·마진 개선이 AGL·HNGE의 공통 상승 동력이다. 두 종목 모두 최근 분기 실적에서 컨센서스를 상회했다.",
-          "tickers": [
-            "AGL",
-            "HNGE"
-          ],
-          "why": "AGL은 2026년 2분기 매출 $1,494.7M(YoY+7.2%)·영업이익 $11.77M(YoY+110.1%, 흑자전환)로 2025년 3~4분기 대규모 적자(영업이익률 각 -9.1%, -12.3%)에서 2개 분기 연속 흑자로 반전했다. HNGE는 FY26 2분기 매출 $212.8M(YoY+53%)·영업이익 $40.44M(마진 19%, YoY+107%)·순이익 YoY+107.6%를 기록했고 최근 3개월간 주가가 64.6% 급등했으며 Cylinder 제휴로 약 $135B 규모 GI 케어 시장 진출을 발표했다."
-        },
-        {
-          "name": "에너지 실적 턴어라운드",
-          "plainKo": "오일필드 서비스·정제 부문의 마진 회복이 FET·PARR의 공통 상승 동력이다. 두 종목 모두 최근 2분기 연속 흑자전환·영업이익 급증을 기록했다.",
-          "tickers": [
-            "FET",
-            "PARR"
-          ],
-          "why": "FET는 2026년 1분기 매출 $208.7M(YoY+8%)·영업이익 $11.005M(YoY+25%)·순이익 $4.492M(YoY+300.4%, 흑자전환)로 영업이익률이 5.3%까지 개선됐고, 직전 분기(2025년 4분기)에도 영업이익 YoY+111.9%로 2개 분기 연속 회복이 확인됐다. PARR은 정제 조정총마진이 $680.4M로 확대되며 Refining 세그먼트 영업이익이 $81.3M→$629.9M, 조정 EBITDA가 $108.4M→$552M로 급증했고, UBS가 목표주가를 $60→$65로 상향(2026-07-08)했으며 Zacks가 9/16~9/17 Top Momentum/Growth Stock으로 조명했다."
-        }
-      ],
-      "researchedOn": "2026-09-21"
     }
   },
   "fs_coverage": {
@@ -24351,9 +25048,9 @@ window.TEAM2_DATA = {
     "note": "46종목 중 32종목을 조사했습니다. 그중 32종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 14종목은 상한(?) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
   },
   "detail_coverage": {
-    "done": 43,
+    "done": 46,
     "freshToday": 20,
-    "carried": 23,
+    "carried": 26,
     "total": 46,
     "cap": 20
   }

@@ -7,7 +7,7 @@ window.HISTORY_DATA = {
       "picks": 46,
       "breakouts": 26,
       "chartCheck": 22,
-      "plansWatch": 5,
+      "plansWatch": 6,
       "droppedToday": 5,
       "reentryBlocked": 1,
       "barsNotice": null,
