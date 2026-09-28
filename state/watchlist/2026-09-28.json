@@ -1,0 +1,113 @@
+{
+  "date": "2026-09-28",
+  "sessionDate": "2026-09-25",
+  "rulesVersion": "0.2",
+  "regime": "green",
+  "items": [
+    {
+      "ticker": "FEIM",
+      "grade": "A",
+      "pivot": 89.76,
+      "stopPre": 82.13,
+      "adrPct": 5.75,
+      "weightPct": 5.9,
+      "price": 88.43,
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "score": 68.5,
+      "reasons": [
+        "선행 상승 +82%",
+        "베이스 2주",
+        "깊이 12.7%",
+        "저점 상승 1회",
+        "진폭 1.07배 · 10일 종가폭 1 ADR",
+        "10일선 +0.6 ADR · 20일선 +2.7 ADR",
+        "20일선 기울기 +9.28%"
+      ]
+    },
+    {
+      "ticker": "SIG",
+      "grade": "A",
+      "pivot": 104.75,
+      "stopPre": 98.51,
+      "adrPct": 4.07,
+      "weightPct": 8.4,
+      "price": 102.26,
+      "sector": "Consumer Cyclical",
+      "industry": "Luxury Goods",
+      "score": 67.6,
+      "reasons": [
+        "선행 상승 +33%",
+        "베이스 1.4주",
+        "깊이 6.6%",
+        "저점 상승 1회",
+        "진폭 0.9배 · 10일 종가폭 1 ADR",
+        "10일선 +0.4 ADR · 20일선 +1.9 ADR",
+        "20일선 기울기 +4.83%"
+      ]
+    },
+    {
+      "ticker": "HNGE",
+      "grade": "B",
+      "pivot": 96.66,
+      "stopPre": 89.97,
+      "adrPct": 4.66,
+      "weightPct": 7.2,
+      "price": 95.57,
+      "sector": "Healthcare",
+      "industry": "Health Information Services",
+      "score": 58.9,
+      "reasons": [
+        "선행 상승 +42%",
+        "베이스 1.2주",
+        "깊이 7.1%",
+        "✗ 저점 상승 0회",
+        "진폭 0.88배 · 10일 종가폭 0.8 ADR",
+        "10일선 +0.4 ADR · 20일선 +0.7 ADR",
+        "20일선 기울기 +0.92%"
+      ]
+    },
+    {
+      "ticker": "NUTX",
+      "grade": "B",
+      "pivot": 224.28,
+      "stopPre": 206.34,
+      "adrPct": 5.43,
+      "weightPct": 6.3,
+      "price": 220.11,
+      "sector": "Healthcare",
+      "industry": "Medical Care Facilities",
+      "score": 58.1,
+      "reasons": [
+        "선행 상승 +60%",
+        "베이스 1.4주",
+        "깊이 11.6%",
+        "✗ 저점 상승 0회",
+        "진폭 1.24배 · 10일 종가폭 1.6 ADR",
+        "10일선 +0.8 ADR · 20일선 +1.5 ADR",
+        "20일선 기울기 +2.16%"
+      ]
+    },
+    {
+      "ticker": "ZBRA",
+      "grade": "B",
+      "pivot": 386.23,
+      "stopPre": 369.45,
+      "adrPct": 3.02,
+      "weightPct": 11.5,
+      "price": 370.04,
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "score": 55.8,
+      "reasons": [
+        "선행 상승 +82%",
+        "베이스 6.2주",
+        "깊이 12.9%",
+        "저점 상승 1회",
+        "✗ 진폭 0.95배 · 10일 종가폭 2.7 ADR",
+        "10일선 +1.4 ADR · 20일선 +1.5 ADR",
+        "20일선 기울기 +0.08%"
+      ]
+    }
+  ]
+}
