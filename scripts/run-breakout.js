@@ -887,6 +887,18 @@ async function main() {
     commitAndPush(dateStr, `선정 ${qualified.length} · 돌파 ${chief.counts.breakouts} · 차트확인 ${chartCheckTop.length}${team6 ? ` · 매수 관심 ${team6.counts.watch}` : ''}`);
   }
 
+  // 아침 알림 — 오늘 밤 관심 종목 (텔레그램 설정이 있을 때만. 같은 날 두 번 돌려도 한 번만 보낸다)
+  if (team6 && args.git && !staleData) {
+    const nt = require('./lib/notify');
+    const flag = path.join(paths.cacheDir, 'notified-watch.json');   // 저장소 밖 — 기기마다 따로 센다
+    if (nt.configured() && readJson(flag, {}).date !== dateStr) {
+      const acct6 = account(loadRules());
+      const r = await nt.notify(nt.watchMessage(team6, (p) => team6lib.sharesFor(p, acct6.usd)));
+      if (r.ok) { writeJson(flag, { date: dateStr }); say('T6', '오늘 밤 관심 종목을 텔레그램으로 보냈습니다'); }
+      else say('WARN', `텔레그램 전송 실패: ${r.error}`);
+    }
+  }
+
   cache.report('외부API 캐시');
   const secs = ((Date.now() - t0) / 1000).toFixed(1);
   console.log('\n═══════════════════════════════════════════════');

@@ -93,20 +93,8 @@ function replayProvider(sessionDate, source) {
   };
 }
 
-// ── 알림 (텔레그램). 수량은 여기서만 계산한다 ──
-async function tg(method, body) {
-  const c = new AbortController(); const timer = setTimeout(() => c.abort(), 8000);
-  try {
-    const res = await fetch(`https://api.telegram.org/bot${process.env.TELEGRAM_TOKEN}/${method}`, { method: 'POST', signal: c.signal,
-      headers: { 'content-type': 'application/json' }, body: JSON.stringify(body || {}) });
-    const j = await res.json().catch(() => ({}));
-    return j.ok ? { ok: true, result: j.result } : { ok: false, error: j.description || `HTTP ${res.status}` };
-  } catch (e) { return { ok: false, error: e.name === 'AbortError' ? 'timeout' : e.message }; } finally { clearTimeout(timer); }
-}
-async function notify(text) {
-  if (!process.env.TELEGRAM_TOKEN || !process.env.TELEGRAM_CHAT_ID) return { ok: false, error: 'not configured' };
-  return tg('sendMessage', { chat_id: process.env.TELEGRAM_CHAT_ID, text, disable_web_page_preview: true });
-}
+// ── 알림 (텔레그램). 수량은 알림에서만 계산한다 ──
+const { tg, notify } = require('./lib/notify');
 
 // node scripts/paper-trader.js --test-notify — 알림 설정을 확인한다. chat_id 를 모르면 찾아서 알려 준다.
 async function testNotify() {
@@ -116,7 +104,7 @@ async function testNotify() {
   }
   if (!process.env.TELEGRAM_CHAT_ID) {
     const u = await tg('getUpdates');
-    if (!u.ok) { console.log(`토큰이 맞지 않습니다: ${u.error}`); return; }
+    if (!u.ok) { console.log(/Unauthorized|Not Found/i.test(u.error) ? `토큰이 맞지 않습니다: ${u.error}` : `텔레그램에 연결하지 못했습니다(${u.error}). 잠시 뒤 다시 실행하세요.`); return; }
     const ids = [...new Set((u.result || []).map((x) => x.message && x.message.chat && x.message.chat.id).filter(Boolean))];
     console.log(ids.length
       ? `.env 에 아래 줄을 넣고 다시 실행하세요:\n  TELEGRAM_CHAT_ID=${ids[ids.length - 1]}`

@@ -46,6 +46,7 @@ scripts/
                          ·sector-flow·flow-cross·research-rotation
                          ·kis(한투 시세) ·rules ·setup-grade ·team6 ·earnings
                          ·orh(장중 트리거) ·intraday ·paper(자체 원장)          ← 6팀
+                         ·paper-publish(일지 데이터) ·notify(텔레그램 알림)
   paper-trader.js        6팀 밤 루프 한 틱 (--status · --prep · --replay=날짜)
   night-loop.js          장이 열려 있는 동안 5분마다 paper-trader 를 부른다
   paper-review.js        주간 리뷰 (구간별 성적 · Claude 소견 채점)
