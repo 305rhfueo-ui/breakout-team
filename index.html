@@ -9,6 +9,7 @@
 <script src="dashboard/data/team3.js"      onerror="window.__NO_T3=1"></script>
 <script src="dashboard/data/team4.js"      onerror="window.__NO_T4=1"></script>
 <script src="dashboard/data/team5.js"      onerror="window.__NO_T5=1"></script>
+<script src="dashboard/data/team6.js"      onerror="window.__NO_T6=1"></script>
 <script src="dashboard/data/chartcheck.js" onerror="window.__NO_CC=1"></script>
 <script src="dashboard/data/industry-ko.js"></script>
 
@@ -260,7 +261,7 @@ background:#0c121d;color:var(--dim);font-size:12px;line-height:1.6;font-style:it
 
 <script>
 const D={chief:window.CHIEF_DATA,t1:window.TEAM1_DATA,t2:window.TEAM2_DATA,t3:window.TEAM3_DATA,
-         t4:window.TEAM4_DATA,t5:window.TEAM5_DATA,cc:window.CHARTCHECK_DATA};
+         t4:window.TEAM4_DATA,t5:window.TEAM5_DATA,t6:window.TEAM6_DATA,cc:window.CHARTCHECK_DATA};
 const $=i=>document.getElementById(i);
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const n=(v,d=2)=>v==null||Number.isNaN(Number(v))?'—':Number(v).toFixed(d);
@@ -285,6 +286,9 @@ const AGENTS=[
   {id:'t5',emoji:'🗺️',name:'미르',role:'5팀 · 주도섹터',tab:'t5',job:'업종 지도',
    duty:'개별 종목이 아니라 "판" 전체를 봅니다. 140개 업종의 강도를 직접 계산해 <b>돈이 지금 어디로 들어오고 어디서 빠지는지</b>를 판정합니다. 세 가지를 같이 봅니다 — ①업종 순위가 최근 25거래일 새 몇 계단 올랐나(자금 유입) ②애널리스트들이 실적 전망을 올리고 있나(관심 집중) ③업종 안에서 몇 종목이 올랐나(쏠림의 폭). 여기에 주가가 1년 평균·두 달 평균에서 얼마나 떠 있는지를 더해 <b>상승 초입인지 이미 많이 온 건지</b>를 가릅니다. 참고하는 RS 사이트는 계산 오류가 세 군데 있어(오늘·과거에 서로 다른 공식 적용, 기준일에 주말 복제본 섞임, 일부 그룹 값 깨짐) 원자료에서 다시 계산하고, 사이트 화면값도 나란히 띄워 대조하실 수 있게 합니다.',
    look:{skin:'#f0cdae',hair:'#5a3a2e',style:'bob',  shirt:'#2fb3ba'}},
+  {id:'t6',emoji:'💹',name:'서준',role:'6팀 · 매매',tab:'t6',job:'매수 계획',
+   duty:'다른 팀이 고른 후보를 <b>실제 거래 계획</b>으로 바꿉니다. 아침에는 "큰 상승 뒤 고점 아래에서 쉬고 있는 종목"을 찾아 <b>어디를 넘으면 사고(피벗), 어디서 자르고(손절), 계좌의 몇 %를 넣을지(비중)</b>를 숫자로 내놓습니다. 밤에 미국 장이 열리면 그 종목이 <b>거래량을 실어 피벗과 장 초반 고점을 넘는 순간</b>을 잡아 모의로 사고, 손절·익절·10일선 이탈 규칙대로 팝니다. 전부 정해진 규칙으로만 움직이고 <b>실제 주문은 내지 않습니다</b> — 체결은 자체 장부에만 적어 이 전략이 실제로 통하는지 성적으로 보여 드립니다. 시장이 빨간불이면 새로 사지 않고, 실적 발표 직전 종목도 사지 않습니다. 차트 모양은 판정하지 않습니다.',
+   look:{skin:'#edc9a6',hair:'#2a2220',style:'short',shirt:'#e0566f',glasses:true}},
   {id:'chief',emoji:'🧑‍💼',name:'실장',role:'종합 · 오늘의 지시',tab:'chief',wide:true,job:'총괄 보고',
    duty:'다섯 팀의 결과를 하나로 모아 사장님께 보고합니다. 단순히 나열하지 않고 <b>팀끼리 말이 맞는지 어긋나는지</b>를 짚습니다 — 예를 들어 미르가 "돈이 빠진다"고 한 업종과 수아가 오늘 뺀 종목이 겹치면 그게 판정의 근거가 됩니다. <b>돈이 몰리는 업종 안에서 실제로 어느 종목이 지금 볼 만한 자리인지</b>까지 표로 내려주고, 무엇보다 <b>오늘 직접 차트를 봐야 할 종목</b>을 골라 드립니다. 인용한 모든 출처 링크는 실제로 접속해 살아 있는지 확인하고, 죽은 링크가 붙은 주장은 "근거 없음"으로 내립니다.',
    look:{skin:'#eec7a4',hair:'#2b2320',style:'part', shirt:'#3a4560',tie:'#c0392b',glasses:true}},
@@ -434,6 +438,13 @@ function _dd(id){
       line:t?(top?`1위 ${esc(top.industry)}<br>WRS ${n(top.wrs&&top.wrs.m6,3)} · 상위 ${n(top.rankPct&&top.rankPct.m6,2)}%`:'해당 업종 없음'):'대기 중',
       busy:!!t};
   }
+  if(id==='t6'){
+    const t=D.t6,c=(t&&t.counts)||{},w=((t&&t.plans)||[]).filter(p=>p.watch);
+    const s=t&&t.stats;
+    return {stat:t?c.watch:'—',statl:'오늘 밤 매수 관심 종목',
+      line:t?`${w.length?w.slice(0,5).map(p=>esc(p.ticker)).join(' · '):'피벗 근처 종목 없음'}<br>${s&&s.n?`모의 ${s.n}건 · 승률 ${n(s.winPct,0)}% · 평균 ${n(s.avgR)}R`:`A ${c.A} · B ${c.B} · 이미 돌파 ${c.post}`}`:'대기 중',
+      busy:!!t};
+  }
   const cc=(D.cc&&D.cc.items)||[];
   return {stat:cc.length,statl:'👁️ 오늘 차트를 봐야 할 종목',
     line:cc.length?cc.map(x=>esc(x.ticker)).join(' · '):'오늘은 수렴 조건 만족 종목 없음',
@@ -478,6 +489,15 @@ function dialog(){
   const ind=(t5.llm&&t5.llm.industries||[])[0];
   if(ind&&ind.whyStrong&&ind.whyStrong[0])L.push({who:'t5',t:`이유는 확인했어요. ${esc(String(ind.whyStrong[0].statement).split(/[.。]/)[0]).slice(0,90)}…`});
 
+  const t6=D.t6;
+  if(t6){
+    const w=(t6.plans||[]).filter(p=>p.watch);
+    if(t6.regime==='red')L.push({who:'t6',t:`시장이 빨간불이라 오늘 밤은 <b>새로 사지 않습니다</b>. 들고 있는 것만 규칙대로 관리할게요.`});
+    else if(w.length)L.push({who:'t6',t:`오늘 밤 볼 종목은 <b>${w.slice(0,5).map(p=>esc(p.ticker)).join(', ')}</b> ${w.length}개예요. ${esc(w[0].ticker)} 는 <b>$${n(w[0].pivot)}</b> 를 거래량 실어 넘으면 삽니다.`});
+    else L.push({who:'t6',t:`오늘은 고점 바로 아래에서 쉬고 있는 종목이 없어요. 억지로 사지 않습니다.`});
+    if(t6.stats&&t6.stats.n)L.push({who:'t6',t:`지금까지 모의 <b>${t6.stats.n}건</b>, 승률 ${n(t6.stats.winPct,0)}%, 평균 ${n(t6.stats.avgR)}R 입니다.`});
+  }
+
   const m=(D.chief.market||{});
   L.push({who:'chief',t:m.verdict==='red'
     ? `정리하죠. 오늘은 <b>사지 않는 날</b>입니다. 관심종목만 정리해 둡시다.`
@@ -503,9 +523,10 @@ const ORG={x:362,y:152};           // 격자 원점 — 방이 무대에 꽉 차
 const iso=(gx,gy)=>[ORG.x+(gx-gy)*TW/2, ORG.y+(gx+gy)*TH/2];
 
 /* 자리 (격자 좌표) */
-const DESK={t1:[1.2,0.4],t2:[3.6,0.4],t3:[6.0,0.4],t4:[8.4,0.4],t5:[10.8,0.4]};
-const HOME ={t1:[1.95,1.7],t2:[4.35,1.7],t3:[6.75,1.7],t4:[9.15,1.7],t5:[11.55,1.7],chief:[1.5,6.3]};
-const STAGE={t1:[4.6,4.2],t2:[5.8,6.6],t3:[7.0,2.5],t4:[8.4,6.6],t5:[9.6,4.2],chief:[3.2,6.6]};
+/* 6팀(매매)은 뒷줄이 꽉 차서 오른쪽 앞에 따로 앉는다 — 러그(4.6~9.6) 밖, 커피 코너·소파 위쪽 빈자리 */
+const DESK={t1:[1.2,0.4],t2:[3.6,0.4],t3:[6.0,0.4],t4:[8.4,0.4],t5:[10.8,0.4],t6:[11.5,4.0]};
+const HOME ={t1:[1.95,1.7],t2:[4.35,1.7],t3:[6.75,1.7],t4:[9.15,1.7],t5:[11.55,1.7],t6:[12.25,5.3],chief:[1.5,6.3]};
+const STAGE={t1:[4.6,4.2],t2:[5.8,6.6],t3:[7.0,2.5],t4:[8.4,6.6],t5:[9.6,4.2],t6:[10.3,5.6],chief:[3.2,6.6]};
 const TABLE=[7.0,4.6];
 /* 회의가 끝난 뒤 서성일 곳 — 자리 근처만 맴돌면 어색하다.
    커피 코너·창가·프린터·화이트보드처럼 '갈 이유가 있는' 지점으로 보낸다. */
@@ -683,7 +704,7 @@ function office(){
   addEventListener('resize',fitStage);
 
   // KPI 는 바닥에서 빼내 아래 카드로. 사무실이 표처럼 보이지 않게.
-  const AC={t1:'#58a6ff',t2:'#3fb27f',t3:'#c084fc',t4:'#f5a524',t5:'#2fb3ba',chief:'#e3b341'};
+  const AC={t1:'#58a6ff',t2:'#3fb27f',t3:'#c084fc',t4:'#f5a524',t5:'#2fb3ba',t6:'#e0566f',chief:'#e3b341'};
   $('stats').innerHTML=AGENTS.map(a=>{
     const d=_dd(a.id);
     return `<div class="stat" data-id="${a.id}" style="--ac:${AC[a.id]}">
@@ -1056,6 +1077,25 @@ function briefing(id){
     return P.join(' ');
   }
   if(id==='t5')return mirBrief();
+  if(id==='t6'){
+    const t=D.t6; if(!t)return '';
+    const c=t.counts||{},w=(t.plans||[]).filter(p=>p.watch);
+    if(t.regime==='red')P.push(`시장이 빨간불이라 <b>오늘 밤은 새로 사지 않습니다.</b> 아래 목록은 참고용이고, 들고 있는 종목만 규칙대로 관리합니다.`);
+    else if(t.regime==='yellow')P.push(`시장이 노란불이라 <b>종목당 위험을 평소의 절반</b>으로 줄였습니다.`);
+    P.push(`후보 ${c.evaluated}종목을 재 봤습니다. 고점(피벗) 아래 ${t.nearPct}% 안에서 쉬고 있는 건 ${c.near}종목이고, 그중 <b>오늘 밤 지켜볼 종목은 ${c.watch}개</b>(A ${c.A} · B ${c.B})입니다.`);
+    if(w.length){
+      const p=w[0];
+      P.push(`맨 위는 <b>${esc(p.ticker)}</b> 입니다. 지금 ${n(p.price)}달러이고 <b>${n(p.pivot)}달러를 넘으면</b> 삽니다(현재 ${n(p.distToPivotPct,1)}%). 미리 잡아둔 손절은 ${n(p.stop)}달러, 넣는 돈은 계좌의 ${n(p.weightPct,1)}%입니다. 실제로 살 때는 그 시각까지의 당일 저가를 손절로 씁니다.`);
+    } else P.push(`고점 바로 아래에서 쉬고 있는 종목이 없습니다. 조건이 안 맞으면 사지 않습니다.`);
+    if(c.post)P.push(`이미 고점을 넘은 종목이 ${c.post}개 있는데, 이건 밤에 따라 사지 않습니다 — 넘은 뒤에 사는 건 추격입니다.`);
+    if(c.blocked)P.push(`${c.blocked}종목은 등급 미달·실적 발표 임박·거래대금 부족으로 뺐습니다.`);
+    if(!t.earningsOk)P.push(`<b>실적 달력을 받지 못해</b> 발표 직전 종목을 걸러내지 못했습니다. 사기 전에 실적일을 직접 확인하세요.`);
+    const s=t.stats;
+    if(s&&s.n)P.push(`지금까지 모의로 ${s.n}번 거래했고 ${n(s.winPct,0)}%를 이겼습니다. 한 번에 평균 ${n(s.avgR)}R 을 벌었습니다(1R = 손절까지의 거리).${s.n<30?` 아직 ${s.n}건이라 <b>성적을 믿을 단계가 아닙니다</b> — 30건이 모일 때까지 규칙을 바꾸지 않습니다.`:''}`);
+    else P.push(`모의 거래는 아직 없습니다. 등급이 높다고 더 잘 오른다는 증거도 아직 없습니다 — 성적이 쌓이면 등급별로 따로 보여 드립니다.`);
+    P.push(`차트 모양은 제가 판정하지 않습니다. 잰 숫자만 말합니다.`);
+    return P.join(' ');
+  }
   /* 실장 — 사장께 올리는 보고 */
   const c=D.chief; if(!c)return '';
   const k=c.counts||{},m=c.market||{},cc=(D.cc&&D.cc.items)||[];
@@ -1458,6 +1498,37 @@ function bodyFor(id){
             +clip(`<div class="pi">${esc(x.risk)}</div>`,4);
           return b+'</div>';
         }).join('')+`</div>`;
+    return h;
+  }
+  if(id==='t6'){
+    const t=D.t6; if(!t)return '<div class="empty">데이터 없음</div>';
+    const sg=v=>v==null?'—':(v>0?'+':'')+n(v,1);
+    const FL={leading:'주도',inflow:'유입',narrow:'소수종목',pending:'대기',outflow:'유출'};
+    const card=p=>`<div style="margin-bottom:12px"><b>${esc(p.ticker)}</b>${p.name?` <span class="note" style="display:inline">${esc(p.name)}</span>`:''}
+      <span class="chip">${esc(p.grade)}등급</span>${p.catalyst&&p.catalyst.category?`<span class="chip">촉매 ${'①②③④⑤⑥'[p.catalyst.category-1]||''}</span>`:''}${p.flow?`<span class="chip">업종 ${esc(FL[p.flow.flow]||p.flow.flow)}</span>`:''}
+      <a href="https://finviz.com/quote.ashx?t=${esc(p.ticker)}" target="_blank" style="font-size:12px">차트 ↗</a>
+      ${rows([['현재가 → 피벗',`${n(p.price)} → <b>${n(p.pivot)}</b> (${sg(p.distToPivotPct)}%)`],
+        ['예비 손절 · 위험',`${n(p.stop)} · ${n(p.riskPerSharePct,1)}%`],
+        ['비중(계좌 대비)',`${n(p.weightPct,1)}%${p.weightCapped?' (상한)':''}`],
+        ['10일선 이격',`${sg(p.extensionAdr)} ADR`]])}
+      <div class="note">${(p.reasons||[]).map(esc).join(' · ')}</div>
+      ${p.lastRead?`<div class="note" style="color:var(--blu)">🤖 클로드 차트 소견 (${esc(p.lastRead.date)}) — ${esc(p.lastRead.note||p.lastRead.verdict)}</div>`:''}
+      ${p.blocked?`<div class="nosrc">⛔ ${esc(p.blocked)}</div>`:''}</div>`;
+    const w=(t.plans||[]).filter(p=>p.watch),b=(t.plans||[]).filter(p=>!p.watch);
+    let h=`<div class="sec"><h4>오늘 밤 관심 종목 ${w.length}개</h4>`+(w.length?w.map(card).join(''):`<div class="empty">피벗 근처에서 쉬는 종목 없음</div>`)+`</div>`;
+    if(b.length)h+=`<div class="sec"><h4>피벗 근처지만 뺀 종목 ${b.length}개</h4>`+b.map(card).join('')+`</div>`;
+    if((t.post||[]).length)h+=`<div class="sec"><h4>이미 피벗을 넘은 종목 ${t.postTotal}개</h4>
+      ${rows(t.post.map(p=>[`${esc(p.ticker)} <span class="chip">${esc(p.grade)}</span>`,`${esc(p.breakDate)} 돌파 · ${p.barsSinceBreak}봉 전 · 피벗 대비 ${sg(p.distToPivotPct)}% · 이격 ${sg(p.extensionAdr)} ADR`]))}
+      <div class="note">넘은 뒤에 사는 건 추격이라 밤 관심 목록에 넣지 않습니다.</div></div>`;
+    if((t.triggers||[]).length)h+=`<div class="sec"><h4>지난밤 트리거</h4>${rows(t.triggers.slice(0,12).map(x=>[`${esc(x.ticker)} ${esc(x.at||'')}`,esc(x.ko||'')]))}</div>`;
+    if((t.positions||[]).length)h+=`<div class="sec"><h4>모의 보유 ${t.positions.length}종목</h4>${rows(t.positions.map(x=>[`${esc(x.ticker)}`,`진입 ${n(x.entry)} (${esc(x.entryDate)}) · 손절 ${n(x.stop)} · 현재 ${sg(x.R)}R`]))}</div>`;
+    const s=t.stats;
+    if(s&&s.n)h+=`<div class="sec"><h4>모의투자 성적</h4>${rows([['거래',s.n+'건'],['승률',n(s.winPct,1)+'%'],['평균',n(s.avgR)+'R'],
+      ['손익비',s.profitFactor==null?'—':n(s.profitFactor)],['누적',sg(s.equityPct)+'%'],['최대 낙폭',n(s.mdd,1)+'%']])}
+      <div class="note">체결은 실제 주문이 아니라 자체 장부의 계산입니다(슬리피지 ${n(t.slipPct,1)}% 가정).</div></div>`;
+    h+=`<div class="sec"><h4>규칙</h4>${rows([['규칙 버전','v'+esc(t.rulesVersion)],['시장',esc(t.regime)],['종목당 위험',n(t.riskPct,2)+'%'],
+      ['예비 손절',`피벗 − ${n(t.stopAdr,1)} ADR`],['실적 달력',t.earningsOk?'확인':'⚠️ 못 받음'],
+      ['루프 상태',t.health?`${esc(t.health.at||'')} · ${esc(t.health.status||'')}`:'아직 돌지 않음']])}</div>`;
     return h;
   }
   /* 실장 */

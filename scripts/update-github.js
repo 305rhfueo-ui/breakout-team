@@ -49,6 +49,17 @@ function commitAndPush(dateStr = today(), summary = '', { push = true } = {}) {
     }
 
     const br = currentBranch() || 'master';
+    // ⚠️ PC 와 맥미니 두 곳에서 쓰면 원격이 앞서 있을 수 있다. 받아서 위에 얹은 뒤 push 한다.
+    //    충돌하면 되돌리고 멈춘다 — 산출물을 억지로 덮어쓰지 않는다 (2026-09-28).
+    try {
+      git(['pull', '--rebase', '--autostash', '-q', 'origin', br], { quiet: true });
+    } catch (e) {
+      try { git(['rebase', '--abort'], { quiet: true }); } catch (_) { /* 진행 중인 rebase 가 없으면 무시 */ }
+      const m = String(e.stderr || e.message || e).split('\n')[0];
+      result.error = 'pull --rebase 실패: ' + m;
+      say('WARN', `GitHub: 원격과 충돌해 push 하지 않았습니다 (${m}) — 다른 기기가 같은 파일을 썼는지 확인하세요`);
+      return result;
+    }
     git(['push', '-q', 'origin', br], { quiet: true });
     result.pushed = true;
     say('SYSTEM', `GitHub: push 완료 (${br}) — Pages 는 1~2분 뒤 갱신됩니다`);

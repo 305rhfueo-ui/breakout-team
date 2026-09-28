@@ -1,6 +1,7 @@
 # breakout-team — Claude 작업 지침
 
-쿨라매기 Break-out + Episodic Pivot 전략을 실행하는 5팀 + 실장 시스템.
+쿨라매기 Break-out + Episodic Pivot 전략을 실행하는 6팀 + 실장 시스템.
+1~5팀이 후보를 만들고, 6팀(매매)이 그걸 매수 계획·모의 거래로 바꾼다 (2026-09-28 추가).
 기존 `../investment-agent-team/`(모의투자)와는 **별개 repo**이며 그쪽은 건드리지 않는다.
 
 ## 자연어 트리거 매핑
@@ -15,6 +16,7 @@
 | `3팀`, `추적` | `/team3` |
 | `4팀`, `EP`, `촉매` | `/team4` |
 | `5팀`, `섹터`, `WRS` | `/team5` |
+| `6팀`, `매매`, `매수 계획`, `오늘 뭐 사` | `/team6` |
 | `차트 볼 종목`, `오늘 뭐 봐야 해` | `/chart-check` |
 | `XXX 돌파했어`, `XXX 배제해` | `/chart-check` 의 해당 절 |
 
@@ -40,10 +42,14 @@ scripts/
   lib/                   util·ta·bars·percentile·wrs·screen·tracking·congestion·vcp
                          ·leaders·regime·chart/·xlsx/·history-series·verify-claims·cache
                          ·sector-flow·flow-cross·research-rotation
+                         ·kis(한투 시세) ·rules ·setup-grade ·team6 ·earnings   ← 6팀
+  backtest-daily.js      6팀 규칙 일봉 백테스트 → docs/BACKTEST-{날짜}.md
   data/                  finra-margin · sec-edgar · kr-reports · news-rss
   workflows/             team1-news · team2-research · team4-catalyst · team5-sector · chief-report
 state/                   tracking·picks·weekly-question·chart-check·breakout-log·llm-in·history
-dashboard/               breakout-room.html (8탭 + 팝업) · data/*.js · data/series/ · charts/
+                         ·watchlist(6팀 아침 관심 목록) ·paper(자체 원장) ·orh(밤 트리거)
+config/rules.json        6팀 매매 규칙 (버전 관리 — 바꾸면 version 을 올리고 docs/STRATEGY-LOG.md 에 근거)
+dashboard/               breakout-room.html (9탭 + 팝업) · data/*.js · data/series/ · charts/
 ```
 
 캐시(스냅샷·야후봉·PDF·API)는 **OneDrive 밖** `%LOCALAPPDATA%\breakout-team` 에 있다.
@@ -59,6 +65,8 @@ dashboard/               breakout-room.html (8탭 + 팝업) · data/*.js · data
 | 마진부채 | FINRA `margin-statistics.xlsx` | ZIP 직접 파싱 |
 | 국내 증권사 리포트 | 연합인포맥스 `bizrpt/reportlist` | 티커 검색은 `NAS:NVDA` 형태 |
 | 티커별 뉴스 | Nasdaq RSS | `<nasdaq:tickers>` ≤3 + 제목 매칭으로 관련성 판별 |
+| 장중 시세·분봉 (6팀) | 한투 KIS `openapi.koreainvestment.com:9443` | **시세 전용**. 호출 간격 700ms. 점 티커는 `BRK.B→BRK/B`. 키는 `.env` |
+| 실적 발표일 (6팀) | Nasdaq `api.nasdaq.com/api/calendar/earnings?date=` | 야후 quoteSummary 는 crumb 401 |
 
 ## 알려진 함정 (다시 밟지 말 것)
 
@@ -97,6 +105,20 @@ dashboard/               breakout-room.html (8탭 + 팝업) · data/*.js · data
 - **NotebookLM `get_health` 의 `authenticated` 를 믿지 마라.** 로그인에 성공해도 false 로 남는다
   (서버가 `notebooklm.google.com` 을 기다리는데 실제로는 `notebook.google.com` 에 도달한다).
   가용 여부는 `ask_question` 을 한 번 던져 확인한다. 자세한 내용은 `.notebooklm-local.md`
+
+## 6팀 · 매매 (2026-09-28)
+
+- **6팀은 LLM 이 아니다.** `setup-grade.js` 가 일봉에서 숫자를 재고 `config/rules.json` 문턱으로 등급을 매긴다.
+  등급 = 검사 7개 중 실패 수. 차트 모양 판정이 아니며 그렇게 말하지도 않는다.
+- **주문 코드는 없다.** `kis.js` 는 시세만 읽는다. 체결은 자체 원장(`state/paper/`)의 계산이다.
+  실전 주문 기능을 붙이자는 요청이 오면 별도 파일 + `KIS_MODE=live` + 별도 승인 플래그 + 주문 상한을 모두 갖춰야 한다.
+- **저장소는 공개다.** 금액·수량·계좌 규모를 `state/`·`dashboard/`·`analysis/` 에 쓰지 마라. 비중(%)과 R 로만 쓴다.
+  수량은 터미널·알림에서만 계산한다(`sharesFor`). 한투 시세 원본(분봉·호가)도 게시하지 않는다.
+- **밤 관심 목록은 아직 피벗 아래에 있는 종목(`state:'pre'`)만.** 이미 넘은 종목(`post`)을 넣으면 오르는 날마다 추격 매수한다.
+- **미래 봉을 보지 마라.** `gradeSetup` 은 넘겨받은 봉의 마지막을 "오늘"로 본다. 백테스트는 날짜마다 `slice` 해서 넘긴다.
+  `swingHighs`/`swingLows` 는 앞뒤 N봉을 보므로 피벗·손절에 확정 스윙을 쓰면 늦거나 새어 나간다.
+- **표본 30건 전에는 모의 성적으로 규칙을 바꾸지 않는다.** 바꿀 땐 한 번에 하나, 버전을 올리고, 근거를 `docs/STRATEGY-LOG.md` 에.
+- 등급이 높다고 더 잘 오른다는 증거는 아직 없다(백테스트 A 5건 0승 · B 10건 5승). 등급을 추천 강도처럼 말하지 마라.
 
 ## 검증된 골든값 (회귀 확인용)
 

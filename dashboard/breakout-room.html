@@ -9,6 +9,7 @@
 <script src="data/team3.js"      onerror="window.__NO_T3=1"></script>
 <script src="data/team4.js"      onerror="window.__NO_T4=1"></script>
 <script src="data/team5.js"      onerror="window.__NO_T5=1"></script>
+<script src="data/team6.js"      onerror="window.__NO_T6=1"></script>
 <script src="data/chartcheck.js" onerror="window.__NO_CC=1"></script>
 <script src="data/industry-ko.js"></script>
 <script src="data/history.js"    onerror="window.__NO_HIST=1"></script>
@@ -125,6 +126,7 @@ svg{display:block}
 <div class="pane" id="p-t3"></div>
 <div class="pane" id="p-t4"></div>
 <div class="pane" id="p-t5"></div>
+<div class="pane" id="p-t6"></div>
 <div class="pane" id="p-cc"></div>
 <div class="pane" id="p-hist"></div>
 </div>
@@ -133,7 +135,7 @@ svg{display:block}
 
 <script>
 const D={chief:window.CHIEF_DATA,t1:window.TEAM1_DATA,t2:window.TEAM2_DATA,t3:window.TEAM3_DATA,
-         t4:window.TEAM4_DATA,t5:window.TEAM5_DATA,cc:window.CHARTCHECK_DATA,hist:window.HISTORY_DATA};
+         t4:window.TEAM4_DATA,t5:window.TEAM5_DATA,t6:window.TEAM6_DATA,cc:window.CHARTCHECK_DATA,hist:window.HISTORY_DATA};
 const $=id=>document.getElementById(id);
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const n=(v,d=2)=>v==null||v===''||Number.isNaN(Number(v))?'—':Number(v).toFixed(d);
@@ -170,7 +172,7 @@ const sgn=(v,d)=>v==null||!isFinite(v)?'—':`<span class="b ${v>0?'b-grn':v<0?'
 const rsv=(p,k,f)=>p&&p.rs&&p.rs[k]?p.rs[k][f]:null;   // rs.m1.pct / rs.m1.v — rs 가 없어도 안전
 
 const TABS=[['chief','📊 종합'],['t1','1️⃣ 시장환경'],['t2','2️⃣ 종목선정'],['t3','3️⃣ 추적'],
-            ['t4','4️⃣ EP·촉매'],['t5','5️⃣ 주도섹터'],['cc','👁️ 차트확인'],['hist','📅 히스토리']];
+            ['t4','4️⃣ EP·촉매'],['t5','5️⃣ 주도섹터'],['t6','6️⃣ 매매'],['cc','👁️ 차트확인'],['hist','📅 히스토리']];
 
 /* ── 헤더 HUD ── */
 function hud(){
@@ -187,6 +189,7 @@ function hud(){
     `<span class="chip">추적 <b>${k.tracking?k.tracking.active:'—'}</b> (배제 ${k.tracking?k.tracking.excluded:'—'})</span>`,
     `<span class="chip">돌파 <b>${k.breakouts??'—'}</b></span>`,
     `<span class="chip">차트확인 <b>${k.chartCheck??'—'}</b></span>`,
+    k.plans?`<span class="chip">매수 관심 <b>${k.plans.watch}</b></span>`:'',
     `<span class="chip">${esc(c.generated||'')}${c.stale?' ⚠️오래된데이터':''}</span>`].join('');
 }
 
@@ -902,6 +905,84 @@ function renderT5(){
 }
 
 /* ── 차트확인 ── */
+/* ── 6팀 매매 ── 아침 매수 계획 · 밤 트리거 · 모의 보유 · 성적.
+   금액·수량은 싣지 않는다(공개 페이지). 비중(%)과 R 로만 말한다. */
+function renderT6(){
+  const t=D.t6; if(!t){$('p-t6').innerHTML='<div class="empty">6팀 데이터 없음 — run-breakout 실행 필요</div>';return;}
+  const c=t.counts||{},sg=(v,d=1)=>v==null?'—':(v>0?'+':'')+n(v,d);
+  const FL={leading:'🟢 주도',inflow:'📈 유입',narrow:'⚠️ 소수종목',pending:'⭐ 대기',outflow:'📉 유출'};
+  const rg={green:'🟢 신규 매수 가능',yellow:'🟡 종목당 위험 절반',red:'🔴 신규 매수 중단'}[t.regime]||esc(t.regime||'—');
+  const hl=t.health;
+  const tk=p=>'<span class="tk" data-t="'+esc(p.ticker)+'">'+esc(p.ticker)+'</span>';
+  let h='<div class="card"><h2>오늘 밤 매수 계획 — 관심 '+c.watch+'종목 (A '+c.A+' · B '+c.B+')</h2>'
+    +'<div class="note">시장 <b>'+rg+'</b> · 규칙 v'+esc(t.rulesVersion)+' · 기준 봉 '+esc(t.sessionDate||'—')+' · 종목당 위험 '+n(t.riskPct,2)+'% · 실적 달력 '+(t.earningsOk?'확인':'<b style="color:var(--yel)">못 받음</b>')
+    +' · 루프 '+(hl?esc(hl.at||'')+' '+esc(hl.status||''):'아직 돌지 않음')+'</div>'
+    +'<div class="note">후보 '+c.evaluated+' → 피벗 −'+t.nearPct+'% 이내 '+c.near+' → 관심 '+c.watch+' · 뺀 것 '+c.blocked+' · 이미 돌파 '+c.post+' · 피벗에서 멂 '+c.far+' · 쉬는 구간 없음 '+c.noBase+'</div>'
+    +'<div class="note">피벗 = 베이스 구간 최고가. 밤에 <b>거래량을 실어 피벗과 장 초반 고점을 같이 넘는 순간</b>에만 삽니다. 예비 손절은 피벗 − '+n(t.stopAdr,1)+' ADR 이고 실제로 살 때는 당일 저가로 바뀝니다. 등급은 검사 7개 중 실패 수입니다 — <b>차트 모양은 판정하지 않습니다.</b></div></div>';
+  const cols=[
+    {h:'종목',l:1,f:tk,s:p=>p.ticker},
+    {h:'등급',f:p=>`<span class="b ${p.grade==='A'?'b-grn':p.grade==='B'?'b-pur':'b-dim'}">${esc(p.grade)}</span>`,s:p=>p.grade},
+    {h:'현재가',f:p=>n(p.price),s:p=>p.price},
+    {h:'피벗',f:p=>`<b>${n(p.pivot)}</b>`,s:p=>p.pivot},
+    {h:'피벗까지',f:p=>sg(p.distToPivotPct)+'%',s:p=>p.distToPivotPct},
+    {h:'예비 손절',f:p=>n(p.stop),s:p=>p.stop},
+    {h:'위험/주',f:p=>n(p.riskPerSharePct,1)+'%',s:p=>p.riskPerSharePct},
+    {h:'비중',f:p=>n(p.weightPct,1)+'%'+(p.weightCapped?'*':''),s:p=>p.weightPct},
+    {h:'이격(ADR)',f:p=>sg(p.extensionAdr),s:p=>p.extensionAdr},
+    {h:'ADR',f:p=>n(p.adrPct,1)+'%',s:p=>p.adrPct},
+    {h:'4팀',f:p=>p.catalyst&&p.catalyst.category?'①②③④⑤⑥'[p.catalyst.category-1]:'—',s:p=>p.catalyst?p.catalyst.category:null},
+    {h:'5팀 업종',l:1,f:p=>p.flow?(FL[p.flow.flow]||esc(p.flow.flow)):'—',s:p=>p.flow?p.flow.flow:''},
+    {h:'실적',f:p=>p.earnings==='unknown'?'?':p.earnings?esc(String(p.earnings).slice(5)):'—',s:p=>p.earnings||''},
+    {h:'상태',l:1,f:p=>p.watch?'<span class="b b-grn">👀 관심</span>':'<span class="b b-dim">⛔ '+esc(p.blocked||'')+'</span>',s:p=>p.watch?1:0},
+  ];
+  const plans=t.plans||[];
+  h+='<div class="card"><h2>돌파 대기 '+plans.length+'종목'+(t.plansTotal>plans.length?' (전체 '+t.plansTotal+')':'')+'</h2>'
+    +(plans.length?table(cols,plans.slice()):'<div class="empty">피벗 가까이에서 쉬고 있는 종목이 없습니다.</div>')
+    +'<div class="note">* 비중이 상한(20%)에 걸린 종목.</div>'
+    +plans.filter(p=>p.watch).map(p=>'<div class="note" style="margin-top:8px"><b>'+esc(p.ticker)+'</b> — '+(p.reasons||[]).map(esc).join(' · ')
+      +(p.lastRead?'<br><span style="color:var(--blu)">🤖 클로드 차트 소견 ('+esc(p.lastRead.date)+') — '+esc(p.lastRead.note||p.lastRead.verdict)+'</span>':'')+'</div>').join('')
+    +'</div>';
+  const post=t.post||[];
+  if(post.length)h+='<div class="card"><h2>이미 피벗을 넘은 종목 '+t.postTotal+'개</h2><div class="note">넘은 뒤에 사는 건 추격이라 밤 관심 목록에 넣지 않습니다. 이격이 3 ADR 이상이면 ⚠️.</div>'
+    +table([
+      {h:'종목',l:1,f:tk,s:p=>p.ticker},
+      {h:'등급',f:p=>esc(p.grade),s:p=>p.grade},
+      {h:'돌파일',f:p=>esc(p.breakDate),s:p=>p.breakDate},
+      {h:'경과(봉)',f:p=>p.barsSinceBreak,s:p=>p.barsSinceBreak},
+      {h:'피벗',f:p=>n(p.pivot),s:p=>p.pivot},
+      {h:'현재가',f:p=>n(p.price),s:p=>p.price},
+      {h:'피벗 대비',f:p=>sg(p.distToPivotPct)+'%',s:p=>p.distToPivotPct},
+      {h:'이격(ADR)',f:p=>sg(p.extensionAdr)+(p.chase?' ⚠️':''),s:p=>p.extensionAdr},
+    ],post.slice())+'</div>';
+  const tr=t.triggers||[];
+  if(tr.length)h+='<div class="card"><h2>밤 트리거 기록 '+tr.length+'건</h2>'+table([
+      {h:'시각(ET)',l:1,f:x=>esc(x.at||''),s:x=>x.at||''},{h:'종목',l:1,f:tk,s:x=>x.ticker},
+      {h:'결과',l:1,f:x=>x.fired?'<span class="b b-grn">진입</span>':'<span class="b b-dim">대기</span>',s:x=>x.fired?1:0},
+      {h:'내용',l:1,f:x=>esc(x.ko||''),s:x=>x.ko||''}],tr.slice())+'</div>';
+  const ps=t.positions||[];
+  if(ps.length)h+='<div class="card"><h2>모의 보유 '+ps.length+'종목</h2>'+table([
+      {h:'종목',l:1,f:tk,s:x=>x.ticker},
+      {h:'진입일',f:x=>esc(x.entryDate),s:x=>x.entryDate},{h:'진입가',f:x=>n(x.entry),s:x=>x.entry},
+      {h:'손절',f:x=>n(x.stop),s:x=>x.stop},{h:'현재가',f:x=>n(x.last),s:x=>x.last},
+      {h:'현재 R',f:x=>sg(x.R,2),s:x=>x.R},{h:'남은 비중',f:x=>n((x.left||0)*100,0)+'%',s:x=>x.left},
+      {h:'등급',f:x=>esc(x.grade||''),s:x=>x.grade||''}],ps.slice())+'</div>';
+  const td=t.trades||[];
+  if(td.length)h+='<div class="card"><h2>모의 거래 '+td.length+'건</h2>'+table([
+      {h:'종목',l:1,f:tk,s:x=>x.ticker},
+      {h:'진입',f:x=>esc(x.entryDate),s:x=>x.entryDate},{h:'청산',f:x=>esc(x.exitDate),s:x=>x.exitDate},
+      {h:'보유일',f:x=>x.days,s:x=>x.days},{h:'R',f:x=>sg(x.R,2),s:x=>x.R},
+      {h:'청산 사유',l:1,f:x=>esc(x.why||''),s:x=>x.why||''},{h:'등급',f:x=>esc(x.grade||''),s:x=>x.grade||''},
+      {h:'규칙',f:x=>`v${esc(x.ruleVersion||'')}`,s:x=>x.ruleVersion||''}],td.slice())+'</div>';
+  const s=t.stats;
+  h+='<div class="card"><h2>모의투자 성적</h2>'+(s&&s.n
+    ?'<div class="note">거래 <b>'+s.n+'</b>건 · 승률 <b>'+n(s.winPct,1)+'%</b> · 평균 <b>'+n(s.avgR)+'R</b> · 손익비 '+(s.profitFactor==null?'—':n(s.profitFactor))+' · 누적 '+sg(s.equityPct)+'% · 최대 낙폭 '+n(s.mdd,1)+'%</div>'
+      +(s.n<30?'<div class="note" style="color:var(--yel)">아직 '+s.n+'건입니다. 30건이 모일 때까지는 성적을 믿을 단계가 아니고 규칙도 바꾸지 않습니다.</div>':'')
+    :'<div class="empty">아직 모의 거래가 없습니다.</div>')
+    +'<div class="note">체결은 실제 주문이 아니라 자체 장부의 계산입니다 (매수·매도 각 '+n(t.slipPct,1)+'% 불리하게 가정). 1R = 진입가에서 손절까지의 거리.</div></div>';
+  $('p-t6').innerHTML=h;
+  bindTk();
+}
+
 function renderCC(){
   const t=D.cc; const items=(t&&t.items)||[];
   // 상한(10)에 잘린 총량을 숨기지 않는다 (감사 1-10)
@@ -1458,7 +1539,7 @@ document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{
   b.classList.add('on');$('p-'+b.dataset.k).classList.add('on');
 });
 
-hud();renderChief();renderT1();renderT2();renderT3();renderT4();renderT5();renderCC();renderHist();
+hud();renderChief();renderT1();renderT2();renderT3();renderT4();renderT5();renderT6();renderCC();renderHist();
 
 /* 리서치룸에서 #t1 같은 해시로 들어오면 해당 탭을 연다 */
 function openTabFromHash(){

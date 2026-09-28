@@ -1,0 +1,60 @@
+{
+  "version": "0.2",
+  "note": "6팀 매매 규칙. 값을 바꾸면 version 을 올린다 — 원장의 모든 체결에 version 이 찍혀 버전별 성적을 따로 센다. 0.x = 표본 30건 전(관찰 단계). 변경 근거는 docs/STRATEGY-LOG.md.",
+  "setup": {
+    "lookbackBars": 60,
+    "minBaseBars": 5,
+    "maxBaseBars": 60,
+    "priorMoveBars": 60,
+    "priorMoveMinPct": 30,
+    "maxDepthPct": 25,
+    "minHigherLows": 1,
+    "maxContraction": 0.9,
+    "maxCloseRange10Adr": 2.5,
+    "surfMaxAdr": 1.5,
+    "preMaxBelowPivotPct": 5,
+    "postMaxBars": 10
+  },
+  "risk": {
+    "riskPct": 0.5,
+    "yellowRiskMult": 0.5,
+    "maxPositionPct": 20,
+    "stopAdr": 1.5,
+    "minStopAdr": 0.5,
+    "maxExtensionAdr": 3,
+    "minDollarVol20": 20000000,
+    "earningsBlockDays": 5
+  },
+  "entry": {
+    "orhMinutes": [
+      5,
+      15,
+      60
+    ],
+    "paceMin": 2,
+    "entryWindowMin": 120,
+    "maxNewPerDay": 3,
+    "maxPositions": 8,
+    "maxPerSector": 3
+  },
+  "exit": {
+    "trailMa": 10,
+    "partialAfterDays": 3,
+    "partialMinR": 1,
+    "partialFraction": 0.3333,
+    "breakevenAfterPartial": true
+  },
+  "fill": {
+    "buySlipPct": 0.2,
+    "sellSlipPct": 0.2
+  },
+  "backtest": {
+    "breakVolMin": 1.5
+  },
+  "shadow": {
+    "label": "20일선 트레일",
+    "patch": {
+      "exit.trailMa": 20
+    }
+  }
+}

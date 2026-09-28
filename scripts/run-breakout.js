@@ -27,6 +27,9 @@ const { eyeCheckScore } = require('./lib/vcp');
 const tracking = require('./lib/tracking');
 const { saveChart } = require('./lib/chart');
 const { fetchFinraMargin } = require('./data/finra-margin');
+const { loadRules, account } = require('./lib/rules');
+const team6lib = require('./lib/team6');
+const { upcomingEarnings } = require('./lib/earnings');
 
 function parseArgs(argv) {
   const a = { teams: null, git: true, png: true, date: null, yahoo: true, offline: false, force: false };
@@ -739,6 +742,47 @@ async function main() {
   writeJson(paths.chartCheck, chartCheckOut);
   if (chartCheckTop.length) say('CHIEF', `👁️ 오늘 차트 볼 종목 ${chartCheckTop.length}개${chartCheckAll.length > chartCheckTop.length ? ` (전체 ${chartCheckAll.length}, 상한 ${CC_CAP})` : ''}: ${chartCheckTop.map((c) => c.ticker).join(', ')}`);
 
+  // ── 13b) 6팀 매수 계획 (돌파 대기 목록) ──
+  // 2팀 통과 · 3팀 추적 활성 · 4팀 촉매 확인(①⑤) 종목에 셋업 등급을 매긴다. 봉은 7) 에서 이미 받았다.
+  let team6 = null;
+  if (wants(args, 6) && args.yahoo) {
+    const rules = loadRules();
+    const acct = account(rules);
+    const regime = team1 ? team1.qqq.verdict : 'unknown';
+    const cat4 = new Map(((team4 && team4.items) || []).filter((i) => i.catalyst && i.catalyst.status === 'done')
+      .map((i) => [i.ticker, { category: i.catalyst.category, researchedOn: i.catalyst.researchedOn || null }]));
+    const flowByKey6 = new Map(((team5 && team5.flow && team5.flow.industries) || []).map((i) => [i.key, { flow: i.flow, stageKo: i.stageKo, frank25: i.frank25 }]));
+    const names = new Map(qualified.map((p) => [p.ticker, p.nameKo || p.nameEn || null]));
+    const tickers = [...qualified.map((q) => q.ticker), ...activeTickers,
+      ...[...cat4].filter(([, c]) => c.category === 1 || c.category === 5).map(([t]) => t)];
+    const earnings = args.offline ? { ok: false, map: new Map() } : await upcomingEarnings(sessionDate || dateStr, rules.risk.earningsBlockDays);
+    if (!earnings.ok) say('WARN', '실적 달력을 받지 못했습니다 — 6팀이 실적 직전 종목을 걸러내지 못합니다');
+    const built = team6lib.buildPlans({
+      tickers, barsOf, rules, regime, riskPct: acct.riskPct, earnings,
+      rowOf: (t) => rowByTicker.get(t),
+      catOf: (t) => cat4.get(t) || null,
+      flowOf: (s, i) => flowByKey6.get(`${s}|${i}`) || null,
+      nameOf: (t) => names.get(t) || null,
+    });
+    // 밤 루프(paper-trader)가 채우는 칸은 지난 파일에서 이어받는다
+    const prev6 = readPrevWindow('team6.js', 'TEAM6_DATA') || {};
+    team6 = {
+      generated: dateStr, sessionDate, rulesVersion: rules.version, regime,
+      riskPct: acct.riskPct, stopAdr: rules.risk.stopAdr, nearPct: rules.setup.preMaxBelowPivotPct,
+      slipPct: rules.fill.buySlipPct, earningsOk: !!earnings.ok,
+      ...built,
+      triggers: prev6.triggers || [], positions: prev6.positions || [], trades: prev6.trades || [],
+      stats: prev6.stats || null, health: prev6.health || null,
+    };
+    writeJson(path.join(paths.watchlistDir, `${dateStr}.json`), team6lib.watchlistOf(team6));
+    const c6 = team6.counts;
+    say('T6', `매수 계획: 후보 ${c6.evaluated} → 피벗 근처 ${c6.near} → 오늘 밤 관심 ${c6.watch} (A ${c6.A} · B ${c6.B}) · 이미 돌파 ${c6.post}${regime === 'red' ? ' · 🔴 신규 매수 중단' : ''}`);
+    for (const p of team6.plans.filter((x) => x.watch).slice(0, 10)) {
+      const sh = team6lib.sharesFor(p, acct.usd);   // 수량은 터미널에만 — 파일에 쓰지 않는다
+      say('T6', `  ${p.ticker.padEnd(6)} ${p.grade} · 피벗 $${p.pivot} (${p.distToPivotPct}%) · 예비 손절 $${p.stop} · 리스크 ${p.riskPerSharePct}% · 비중 ${p.weightPct}%${sh != null ? ` · ${sh}주` : ''}`);
+    }
+  }
+
   // ── 14) 실장 종합 + 대시보드 데이터 ──
   const chief = {
     generated: dateStr,
@@ -751,6 +795,7 @@ async function main() {
       epCandidates: epRows.length,
       chartCheck: chartCheckAll.length,
       chartCheckShown: chartCheckTop.length,
+      plans: team6 ? team6.counts : null,
     },
     theme: themes.headline,
     chartCheck: chartCheckTop,
@@ -773,6 +818,7 @@ async function main() {
   if (team3) writeWindowData(path.join(paths.dashboardData, 'team3.js'), 'TEAM3_DATA', team3);
   if (team4) writeWindowData(path.join(paths.dashboardData, 'team4.js'), 'TEAM4_DATA', team4);
   if (team5) writeWindowData(path.join(paths.dashboardData, 'team5.js'), 'TEAM5_DATA', team5);
+  if (team6) writeWindowData(path.join(paths.dashboardData, 'team6.js'), 'TEAM6_DATA', team6);
   writeWindowData(path.join(paths.dashboardData, 'chief.js'), 'CHIEF_DATA', chief);
   writeWindowData(path.join(paths.dashboardData, 'chartcheck.js'), 'CHARTCHECK_DATA', chartCheckOut);
 
@@ -816,6 +862,7 @@ async function main() {
   prevHist.runs = [{ date: dateStr, qqq: chief.market ? chief.market.verdict : null,
     finraYoY: team1 && team1.finra.ok ? team1.finra.yoyPct : null,
     picks: qualified.length, breakouts: chief.counts.breakouts, chartCheck: chartCheckAll.length,
+    plansWatch: team6 ? team6.counts.watch : null,
     droppedToday: team3 ? team3.dropped_today.length : null, reentryBlocked: team3 ? team3.reentryBlocked.length : null,
     barsNotice: barsNotice ? barsNotice.level : null,
     crossCounts: themes.cross ? themes.cross.counts : null, siteCondition: meta.market_condition || null,
@@ -823,14 +870,14 @@ async function main() {
   writeWindowData(histFile, 'HISTORY_DATA', prevHist);
 
   // 마크다운 리포트
-  writeText(path.join(paths.reportsDir, `${dateStr}-breakout.md`), buildReport({ dateStr, chief, team1, team2, team3, team4, team5 }));
+  writeText(path.join(paths.reportsDir, `${dateStr}-breakout.md`), buildReport({ dateStr, chief, team1, team2, team3, team4, team5, team6 }));
 
   // ── 15) GitHub 반영 (Pages 웹사이트 갱신) ──
   // ⚠️ LLM 리서치는 이 시점에 아직 안 붙어 있다. start breakout 흐름에서는
   //    build-chief-report.js 가 병합한 뒤 다시 push 하므로 최종본이 올라간다.
   if (args.git) {
     const { commitAndPush } = require('./update-github');
-    commitAndPush(dateStr, `선정 ${qualified.length} · 돌파 ${chief.counts.breakouts} · 차트확인 ${chartCheckTop.length}`);
+    commitAndPush(dateStr, `선정 ${qualified.length} · 돌파 ${chief.counts.breakouts} · 차트확인 ${chartCheckTop.length}${team6 ? ` · 매수 관심 ${team6.counts.watch}` : ''}`);
   }
 
   cache.report('외부API 캐시');
@@ -840,7 +887,7 @@ async function main() {
   console.log('═══════════════════════════════════════════════\n');
 }
 
-function buildReport({ dateStr, chief, team1, team2, team3, team4, team5 }) {
+function buildReport({ dateStr, chief, team1, team2, team3, team4, team5, team6 }) {
   // 독자는 금융 실무자다. 원 수치를 생략하지 않는다 — 계산된 것은 표로 싣는다.
   const L = [];
   const v = (x, d = '—') => (x === null || x === undefined || Number.isNaN(x) ? d : x);
@@ -1100,6 +1147,9 @@ function buildReport({ dateStr, chief, team1, team2, team3, team4, team5 }) {
       L.push('');
     }
   }
+
+  // ── 6팀 ──
+  if (team6) L.push(...team6lib.reportSection(team6));
 
   // ── 차트확인 ──
   if (chief.chartCheck.length) {

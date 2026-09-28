@@ -234,7 +234,7 @@ function sectorSection(t5, dateStr) {
 // 실장 산문은 headline 한 줄과 todayFocus 티커만 쓴다 — 차트 결론 어휘가 새는 경로를 늘리지 않는다.
 const DIGEST_RE = /<!-- digest:start -->[\s\S]*?<!-- digest:end -->\n*/g;
 
-function digestSection({ t1, t2, t3, t4, t5, c, chief, report, leaks }) {
+function digestSection({ t1, t2, t3, t4, t5, t6, c, chief, report, leaks }) {
   const L = ['<!-- digest:start -->', '## 📌 오늘의 요약', ''];
   const tickers = (arr) => (arr || []).map((x) => x.ticker).join(' · ');
 
@@ -301,6 +301,9 @@ function digestSection({ t1, t2, t3, t4, t5, c, chief, report, leaks }) {
       (sum.fading || []).length && `퇴조 ${sum.fading.map(nm).join(' · ')}`].filter(Boolean);
     if (parts.length) L.push(`  - 5팀 LLM: ${parts.join(' / ')}`);
   }
+
+  const d6 = require('./lib/team6').digestLine(t6);
+  if (d6) L.push(...d6);
 
   if (c && c.counts) {
     const cc = Array.isArray(c.chartCheck) ? c.chartCheck : [];

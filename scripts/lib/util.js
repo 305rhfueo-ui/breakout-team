@@ -33,6 +33,10 @@ const paths = {
   chartCheck: path.join(ROOT, 'state', 'chart-check.json'),
   researchCache: path.join(ROOT, 'state', 'research-cache.json'),
   breakoutLog: path.join(ROOT, 'state', 'breakout-log.json'),
+  watchlistDir: path.join(ROOT, 'state', 'watchlist'),   // 6팀 아침 관심 목록 (밤 트리거가 읽는다)
+  paperDir: path.join(ROOT, 'state', 'paper'),           // 6팀 자체 원장 (모의 체결)
+  orhDir: path.join(ROOT, 'state', 'orh'),               // 6팀 장중 트리거 기록
+  chartViews: path.join(ROOT, 'state', 'chart-views'),   // 차트 PNG 옆에 두는 숫자 사이드카
   llmInDir: path.join(ROOT, 'state', 'llm-in'),
   historyTicker: path.join(ROOT, 'state', 'history', 'ticker'),
   historyIndustry: path.join(ROOT, 'state', 'history', 'industry'),
@@ -207,6 +211,7 @@ const TEAM_COLORS = {
   T3: '\x1b[33m',      // 추적
   T4: '\x1b[32m',      // EP·촉매
   T5: '\x1b[34m',      // 주도섹터
+  T6: '[96m',      // 매매
   CHIEF: '\x1b[91m',   // 실장
   SYSTEM: '\x1b[90m',
   WARN: '\x1b[93m',

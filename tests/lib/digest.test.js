@@ -48,6 +48,18 @@ ok('WARN 은 싣고, 실장 산문(marketVerdictKo)은 싣지 않는다', () => 
   assert.ok(text.includes('관찰 종목: MSTR'));
 });
 
+ok('6팀 매수 계획 — 관심 종목만, 금액·수량 없이', () => {
+  const t6 = { regime: 'green', counts: { watch: 1, A: 1, B: 0, post: 2 },
+    plans: [{ ticker: 'FEIM', grade: 'A', watch: true, pivot: 89.76, stop: 82.13, distToPivotPct: -1.48, weightPct: 5.9 },
+      { ticker: 'MRVL', grade: 'C', watch: false, pivot: 274.95, stop: 256.91, distToPivotPct: -4.73, weightPct: 7.6 }] };
+  const t = digestSection({ ...fx, t6 }).join('\n');
+  assert.ok(t.includes('6팀 매수 계획**: 관심 1종목 (A 1 · B 0) · 이미 돌파 2'), t);
+  assert.ok(t.includes('FEIM(A) 피벗 $89.76'));
+  assert.ok(!t.includes('MRVL'));
+  const line = t.split('\n').find((l) => l.includes('FEIM(A)'));
+  assert.ok(!/\d\s*주/.test(line), '수량이 실리면 안 된다: ' + line);
+});
+
 console.log('\n[2] 삽입');
 const md = '# 제목\n\n> RS 결측률 0.0%\n\n## 1팀\n- 본문\n';
 ok('첫 절 앞에 들어가고, 두 번 넣어도 한 개', () => {
