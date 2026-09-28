@@ -1934,6 +1934,13 @@ window.TEAM6_DATA = {
   "triggers": [],
   "positions": [],
   "trades": [],
-  "stats": null,
+  "stats": {
+    "n": 0,
+    "open": 0,
+    "openPct": 0,
+    "totalPct": 0,
+    "observing": true,
+    "minSample": 30
+  },
   "health": null
 };

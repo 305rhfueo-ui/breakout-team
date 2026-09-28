@@ -15018,7 +15018,7 @@ window.TEAM2_DATA = {
         "carried": true
       },
       "detail": {
-        "fetchedAt": "2026-09-18",
+        "fetchedAt": "2026-09-28",
         "nameKo": null,
         "nameEn": null,
         "infomaxCode": null,
@@ -15028,80 +15028,80 @@ window.TEAM2_DATA = {
           "ticker": "HPE-C",
           "items": [
             {
-              "title": "Hogs Face Modest Weakness on Thursday",
-              "url": "https://www.nasdaq.com/articles/hogs-face-modest-weakness-thursday",
-              "date": "2026-09-18",
+              "title": "Corn Rallies off Early Lows on Friday with Trade Details to Come Monday",
+              "url": "https://www.nasdaq.com/articles/corn-rallies-early-lows-friday-trade-details-come-monday",
+              "date": "2026-09-28",
               "publisher": "Barchart",
               "tier1": false,
               "direct": false,
               "tickers": null
             },
             {
-              "title": "Cattle Fall Back as Another Border Opening Announced",
-              "url": "https://www.nasdaq.com/articles/cattle-fall-back-another-border-opening-announced",
-              "date": "2026-09-18",
+              "title": "Soybeans Rally Off Early Lows as Traders Eye Monday Trade Announcement",
+              "url": "https://www.nasdaq.com/articles/soybeans-rally-early-lows-traders-eye-monday-trade-announcement",
+              "date": "2026-09-28",
               "publisher": "Barchart",
               "tier1": false,
               "direct": false,
               "tickers": null
             },
             {
-              "title": "Cotton Falls on Thursday with Slow Export Business",
-              "url": "https://www.nasdaq.com/articles/cotton-falls-thursday-slow-export-business",
-              "date": "2026-09-18",
+              "title": "Dollar Falls as Crude Prices Decline and Stocks Gain",
+              "url": "https://www.nasdaq.com/articles/dollar-falls-crude-prices-decline-and-stocks-gain",
+              "date": "2026-09-28",
               "publisher": "Barchart",
               "tier1": false,
               "direct": false,
               "tickers": null
             },
             {
-              "title": "Corn Faces Pressure on Thursday",
-              "url": "https://www.nasdaq.com/articles/corn-faces-pressure-thursday",
-              "date": "2026-09-18",
-              "publisher": "Barchart",
-              "tier1": false,
-              "direct": false,
-              "tickers": null
-            },
-            {
-              "title": "Cotton Faces Thursday Weakness, Following Slow Export Business",
-              "url": "https://www.nasdaq.com/articles/cotton-faces-thursday-weakness-following-slow-export-business",
-              "date": "2026-09-18",
-              "publisher": "Barchart",
-              "tier1": false,
-              "direct": false,
-              "tickers": null
-            },
-            {
-              "title": "Wheat Popping Off Early Losses on Thursday",
-              "url": "https://www.nasdaq.com/articles/wheat-popping-early-losses-thursday",
-              "date": "2026-09-18",
-              "publisher": "Barchart",
-              "tier1": false,
-              "direct": false,
-              "tickers": null
-            },
-            {
-              "title": "Win Streak May Continue For Taiwan Stock Market",
-              "url": "https://www.nasdaq.com/articles/win-streak-may-continue-taiwan-stock-market",
-              "date": "2026-09-18",
+              "title": "Akeso Enrolls First Patient In Phase 3 Cadonilimab Head-To-Head Gastric Cancer Trial",
+              "url": "https://www.nasdaq.com/articles/akeso-enrolls-first-patient-phase-3-cadonilimab-head-head-gastric-cancer-trial",
+              "date": "2026-09-28",
               "publisher": "RTTNews",
               "tier1": false,
               "direct": false,
               "tickers": null
             },
             {
-              "title": "Wheat Weakness Pushes to Thursday",
-              "url": "https://www.nasdaq.com/articles/wheat-weakness-pushes-thursday-0",
-              "date": "2026-09-18",
-              "publisher": "Barchart",
+              "title": "Indian Shares Deep In Red As Financials Drag",
+              "url": "https://www.nasdaq.com/articles/indian-shares-deep-red-financials-drag",
+              "date": "2026-09-28",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": false,
+              "tickers": null
+            },
+            {
+              "title": "XtalPi Submits FDA IND Application For KQTD-126 In Chronic Intestinal Pain",
+              "url": "https://www.nasdaq.com/articles/xtalpi-submits-fda-ind-application-kqtd-126-chronic-intestinal-pain",
+              "date": "2026-09-28",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": false,
+              "tickers": null
+            },
+            {
+              "title": "Australian Market Extends Early Gains In Mid-market",
+              "url": "https://www.nasdaq.com/articles/australian-market-extends-early-gains-mid-market-1",
+              "date": "2026-09-28",
+              "publisher": "RTTNews",
+              "tier1": false,
+              "direct": false,
+              "tickers": null
+            },
+            {
+              "title": "Asian Markets Trade Mixed",
+              "url": "https://www.nasdaq.com/articles/asian-markets-trade-mixed-8",
+              "date": "2026-09-28",
+              "publisher": "RTTNews",
               "tier1": false,
               "direct": false,
               "tickers": null
             }
           ],
           "directCount": 0,
-          "total": 9,
+          "total": 8,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "krReports": {
@@ -15114,8 +15114,8 @@ window.TEAM2_DATA = {
               "date": "2026-06-11",
               "summary": "- 2025년 트럼프 당선 이후 글로벌 경제의 화두는 축적(accumulation). 에너지와 AI관련 경쟁 우위를 위해 역사적 규모의 투자 및 지정학적 갈등마저 불가피- 2026년 현재 에너지와 AI 관련 사재기는 비용(cost)이라고 하는 문제를 유발. 막대한 자금조달에 따른 금리상승과 원자재 가격급등(유가&반도체)의 부담 해소해야 할 상황- 하반기 축적에서 비용으로 화두가 전환되면, 과도했던 위험선호에 대한 고민 깊어질 것",
               "pages": "11",
-              "secureId": "eqleeiglqemkezegcgxcmel",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqleeiglqemkezegcgxcmel.pdf",
+              "secureId": "eqleeiglqemkezegcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqleeiglqemkezegcgxcmgl.pdf",
               "opinion": null
             },
             {
@@ -15125,8 +15125,8 @@ window.TEAM2_DATA = {
               "date": "2026-04-09",
               "summary": "- 미국에서 활동하는 발전소 운영 중심 IPP- PPA 가격 상승으로 인해, 전력 판매 수익성 개선 지속- 안정적인 현금 흐름을 바탕으로, 높은 배당 성장률과 배당수익률 매력 보유",
               "pages": "2",
-              "secureId": "eqqzxmkkmlmglixgcgxcmel",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqzxmkkmlmglixgcgxcmel.pdf",
+              "secureId": "eqqzxmkkmlmglixgcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqzxmkkmlmglixgcgxcmgl.pdf",
               "opinion": null
             },
             {
@@ -15136,8 +15136,8 @@ window.TEAM2_DATA = {
               "date": "2025-11-06",
               "summary": "- P-CAB 치료제를 팔기 위해 Takeda가 설립한 JV 회사로, 보유 제품은 ‘Voquezna’- 처방이 잘 되고, 5월부터 바꾼 경영 전략으로 비용 통제 효과 발휘되는 중- `26년 연간 영업 흑자 전환 및 자금 조달하지 않겠다는 내용 선언",
               "pages": "11",
-              "secureId": "eqxgileqlzxqmqlgcgxcmel",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgileqlzxqmqlgcgxcmel.pdf",
+              "secureId": "eqxgileqlzxqmqlgcgxcmgl",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgileqlzxqmqlgcgxcmgl.pdf",
               "opinion": null
             }
           ],
@@ -15908,7 +15908,7 @@ window.TEAM2_DATA = {
       "nameKo": "HF 싱클레어",
       "nameEn": "HF SINCLAIR CORPORATION",
       "detail": {
-        "fetchedAt": "2026-09-18",
+        "fetchedAt": "2026-09-28",
         "nameKo": "HF 싱클레어",
         "nameEn": "HF SINCLAIR CORPORATION",
         "infomaxCode": "NYS:DINO",
@@ -15994,6 +15994,29 @@ window.TEAM2_DATA = {
           "ticker": "DINO",
           "items": [
             {
+              "title": "Here's Why HF Sinclair (DINO) is a Strong Growth Stock",
+              "url": "https://www.nasdaq.com/articles/heres-why-hf-sinclair-dino-strong-growth-stock-0",
+              "date": "2026-09-24",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "DINO"
+              ]
+            },
+            {
+              "title": "HF Sinclair Corporation (DINO) Hit a 52 Week High, Can the Run Continue?",
+              "url": "https://www.nasdaq.com/articles/hf-sinclair-corporation-dino-hit-52-week-high-can-run-continue-0",
+              "date": "2026-09-21",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "DINO",
+                "PARR"
+              ]
+            },
+            {
               "title": "Are You Looking for a Top Momentum Pick? Why HF Sinclair (DINO) is a Great Choice",
               "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-hf-sinclair-dino-great-choice",
               "date": "2026-09-15",
@@ -16016,55 +16039,46 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Why HF Sinclair (DINO) is a Top Growth Stock for the Long-Term",
-              "url": "https://www.nasdaq.com/articles/why-hf-sinclair-dino-top-growth-stock-long-term-0",
-              "date": "2026-09-08",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "DINO"
-              ]
-            },
-            {
-              "title": "Phillips 66: Resilient Refining Meets Midstream Stability",
-              "url": "https://www.nasdaq.com/articles/phillips-66-resilient-refining-meets-midstream-stability",
-              "date": "2026-09-17",
+              "title": "Oil Prices Remain High, But These 2 Refiners Keep Outperforming",
+              "url": "https://www.nasdaq.com/articles/oil-prices-remain-high-these-2-refiners-keep-outperforming",
+              "date": "2026-09-25",
               "publisher": "Zacks",
               "tier1": false,
               "direct": false,
               "tickers": [
-                "PSX",
                 "PARR",
                 "DINO"
               ]
             },
             {
-              "title": "Here's How Much a $1000 Investment in HF Sinclair Made 10 Years Ago Would Be Worth Today",
-              "url": "https://www.nasdaq.com/articles/heres-how-much-1000-investment-hf-sinclair-made-10-years-ago-would-be-worth-today",
-              "date": "2026-09-17",
+              "title": "Will Par Pacific's Retail Expansion Boost Earnings Stability Ahead?",
+              "url": "https://www.nasdaq.com/articles/will-par-pacifics-retail-expansion-boost-earnings-stability-ahead",
+              "date": "2026-09-22",
               "publisher": "Zacks",
               "tier1": false,
               "direct": false,
               "tickers": [
+                "PARR",
+                "PSX",
                 "DINO"
               ]
             },
             {
-              "title": "The Zacks Rank Explained: How to Find Strong Buy Oils and Energy Stocks",
-              "url": "https://www.nasdaq.com/articles/zacks-rank-explained-how-find-strong-buy-oils-and-energy-stocks-5",
-              "date": "2026-09-16",
+              "title": "Delek vs. HF Sinclair: Which Refining Stock Has More Upside Potential?",
+              "url": "https://www.nasdaq.com/articles/delek-vs-hf-sinclair-which-refining-stock-has-more-upside-potential",
+              "date": "2026-09-22",
               "publisher": "Zacks",
               "tier1": false,
               "direct": false,
               "tickers": [
+                "DK",
                 "DINO"
               ]
             },
             {
-              "title": "HF Sinclair Rises 113.9% in a Year: Should You Buy, Hold or Sell?",
-              "url": "https://www.nasdaq.com/articles/hf-sinclair-rises-1139-year-should-you-buy-hold-or-sell",
-              "date": "2026-09-14",
+              "title": "Does HF Sinclair's Diversified Refining Base Enhance Its Resilience?",
+              "url": "https://www.nasdaq.com/articles/does-hf-sinclairs-diversified-refining-base-enhance-its-resilience",
+              "date": "2026-09-22",
               "publisher": "Zacks",
               "tier1": false,
               "direct": false,
@@ -16073,22 +16087,10 @@ window.TEAM2_DATA = {
                 "MPC",
                 "PSX"
               ]
-            },
-            {
-              "title": "Oil Prices are High, But These 2 Refining Stocks are Still Crushing It",
-              "url": "https://www.nasdaq.com/articles/oil-prices-are-high-these-2-refining-stocks-are-still-crushing-it",
-              "date": "2026-09-11",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "PARR",
-                "DINO"
-              ]
             }
           ],
-          "directCount": 3,
-          "total": 9,
+          "directCount": 4,
+          "total": 11,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
