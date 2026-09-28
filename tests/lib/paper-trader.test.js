@@ -146,6 +146,24 @@ const run = (ledger, hm, opts = {}) => tick({ nowMs: at(hm), sessionDate: D, led
     assert.strictEqual(b.eod, undefined);
     assert.strictEqual(L.equity.length, 1);
   });
+  await ok('알림 — 매수 · 장 마감 요약 · 부분 익절 · 손절', async () => {
+    const L = tmp(), ev = [];
+    await run(L, '0941', { events: ev });
+    assert.ok(ev.some((e) => /🟢 AAA\(B\) 모의 매수/.test(e) && /손절 99/.test(e)), ev.join(' | '));
+    await run(L, '1605', { events: ev });
+    assert.ok(ev.some((e) => /📋 2026-09-25 장 마감/.test(e) && /오늘 매수 1건/.test(e) && /보유 1종목/.test(e)), ev.join(' | '));
+    // 3일 지난 것으로 만들고 이익 중인 종가로 마감 처리 → 부분 익절 알림
+    const p = L.main()[0];
+    p.days = 2; p.entryDate = '2026-09-22'; L.meta.lastEod = null;
+    const ev2 = [];
+    await run(L, '1606', { events: ev2, prov: provider(today(), 106) });
+    assert.ok(ev2.some((e) => /🟡 AAA 부분 익절/.test(e) && /본전/.test(e)), ev2.join(' | '));
+    // 손절
+    const L2 = tmp(), ev3 = [], pv = provider(today(6));
+    await run(L2, '0941', { prov: pv });
+    await run(L2, '1006', { prov: pv, events: ev3 });
+    assert.ok(ev3.some((e) => /🔻 AAA 청산 — 당일 손절/.test(e)), ev3.join(' | '));
+  });
   await ok('하루 신규 진입 상한', async () => {
     const L = tmp(), w = watchOf();
     w.items = ['AAA', 'BBB', 'CCC', 'DDD'].map((t, i) => ({ ...w.items[0], ticker: t, sector: 'S' + i }));

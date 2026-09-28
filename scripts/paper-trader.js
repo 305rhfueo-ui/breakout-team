@@ -4,6 +4,7 @@
 //   node scripts/paper-trader.js                  한 번 돈다 (스케줄러가 5분마다 부른다). 장 시간이 아니면 바로 끝난다
 //   node scripts/paper-trader.js --status         사지 않고 지금 상태만 본다
 //   node scripts/paper-trader.js --prep           개장 전에 거래량 프로필을 미리 받아 둔다
+//   node scripts/paper-trader.js --test-notify    텔레그램 알림 설정을 확인한다 (chat_id 를 모르면 찾아 준다)
 //   node scripts/paper-trader.js --replay=2026-09-25 [--tickers=ZS,MRNA] [--source=yahoo|kis]
 //                                                 지난 세션을 5분 단위로 다시 돌려 본다 (임시 원장 — 실제 원장을 건드리지 않는다)
 //   --no-git   결과를 올리지 않는다
@@ -93,15 +94,37 @@ function replayProvider(sessionDate, source) {
 }
 
 // ── 알림 (텔레그램). 수량은 여기서만 계산한다 ──
-async function notify(text) {
-  const tok = process.env.TELEGRAM_TOKEN, chat = process.env.TELEGRAM_CHAT_ID;
-  if (!tok || !chat) return false;
+async function tg(method, body) {
+  const c = new AbortController(); const timer = setTimeout(() => c.abort(), 8000);
   try {
-    const c = new AbortController(); const timer = setTimeout(() => c.abort(), 8000);
-    try { await fetch(`https://api.telegram.org/bot${tok}/sendMessage`, { method: 'POST', signal: c.signal,
-      headers: { 'content-type': 'application/json' }, body: JSON.stringify({ chat_id: chat, text, disable_web_page_preview: true }) }); } finally { clearTimeout(timer); }
-    return true;
-  } catch (e) { return false; }
+    const res = await fetch(`https://api.telegram.org/bot${process.env.TELEGRAM_TOKEN}/${method}`, { method: 'POST', signal: c.signal,
+      headers: { 'content-type': 'application/json' }, body: JSON.stringify(body || {}) });
+    const j = await res.json().catch(() => ({}));
+    return j.ok ? { ok: true, result: j.result } : { ok: false, error: j.description || `HTTP ${res.status}` };
+  } catch (e) { return { ok: false, error: e.name === 'AbortError' ? 'timeout' : e.message }; } finally { clearTimeout(timer); }
+}
+async function notify(text) {
+  if (!process.env.TELEGRAM_TOKEN || !process.env.TELEGRAM_CHAT_ID) return { ok: false, error: 'not configured' };
+  return tg('sendMessage', { chat_id: process.env.TELEGRAM_CHAT_ID, text, disable_web_page_preview: true });
+}
+
+// node scripts/paper-trader.js --test-notify — 알림 설정을 확인한다. chat_id 를 모르면 찾아서 알려 준다.
+async function testNotify() {
+  if (!process.env.TELEGRAM_TOKEN) {
+    console.log('텔레그램 설정이 없습니다.\n 1) 텔레그램에서 @BotFather 에게 /newbot → 봇 이름을 정하면 토큰을 줍니다\n 2) .env 에  TELEGRAM_TOKEN=받은토큰  한 줄을 넣고 이 명령을 다시 실행하세요');
+    return;
+  }
+  if (!process.env.TELEGRAM_CHAT_ID) {
+    const u = await tg('getUpdates');
+    if (!u.ok) { console.log(`토큰이 맞지 않습니다: ${u.error}`); return; }
+    const ids = [...new Set((u.result || []).map((x) => x.message && x.message.chat && x.message.chat.id).filter(Boolean))];
+    console.log(ids.length
+      ? `.env 에 아래 줄을 넣고 다시 실행하세요:\n  TELEGRAM_CHAT_ID=${ids[ids.length - 1]}`
+      : '봇에게 온 메시지가 없습니다. 텔레그램에서 만든 봇을 찾아 아무 말이나 한 번 보낸 뒤 이 명령을 다시 실행하세요.');
+    return;
+  }
+  const r = await notify('✅ 서준(6팀) 알림 테스트 — 이 메시지가 보이면 설정이 끝난 것입니다.\n매수·부분 익절·손절·청산·장 마감 요약이 여기로 옵니다.');
+  console.log(r.ok ? '보냈습니다. 텔레그램을 확인하세요.' : `보내지 못했습니다: ${r.error}`);
 }
 
 // ── 한 틱 ──
@@ -202,7 +225,16 @@ async function tick({ nowMs, sessionDate, ledger, watch, rules, acct, prov, dry 
         const trail = p.book === 'trail20' ? 20 : rules.exit.trailMa;
         const cm = intraday.closeAndMa(d.bars, sessionDate, trail);
         if (!cm) { out.errors.push(`${t}: ${sessionDate} 일봉이 아직 없음`); done = false; continue; }
-        if (!dry) for (const tr of paper.onClose(p, { date: sessionDate, close: cm.close, ma: cm.ma, rules, trailMa: trail })) closeTrade(tr);
+        if (dry) continue;
+        const wasPartial = p.partial, leftBefore = p.left;
+        const closed = paper.onClose(p, { date: sessionDate, close: cm.close, ma: cm.ma, rules, trailMa: trail });
+        // 부분 익절은 포지션이 남아 있어 거래 기록이 안 나온다 — 알림은 따로 낸다
+        if (p.book === 'main' && !wasPartial && p.partial) {
+          const f = p.fills.find((x) => x.why === '부분 익절');
+          const r = f ? round((f.px - p.entry) / p.risk) : null;
+          events.push(`🟡 ${p.ticker} 부분 익절 — ${round((leftBefore - Math.max(p.left, 0)) * 100, 0) || round(rules.exit.partialFraction * 100, 0)}% 를 ${f ? f.px : round(cm.close)} 에 매도 (${r > 0 ? '+' : ''}${r}R · 보유 ${p.days}일)\n손절을 본전 ${p.entry} 로 올렸습니다`);
+        }
+        for (const tr of closed) closeTrade(tr);
       }
     }
     if (done && !dry) {
@@ -211,6 +243,13 @@ async function tick({ nowMs, sessionDate, ledger, watch, rules, acct, prov, dry 
       ledger.equity = [...ledger.equity.filter((e) => e.date !== sessionDate), { date: sessionDate, pct }].sort((a, b) => (a.date < b.date ? -1 : 1));
       ledger.meta.lastEod = sessionDate;
       out.eod = true;
+      // 장 마감 요약 — 하루 한 번. 아무 일 없던 날에도 온다 (루프가 살아 있다는 확인)
+      const mainT = ledger.trades.filter((t) => t.book === 'main');
+      const today = mainT.filter((t) => t.exitDate === sessionDate);
+      const wins = mainT.filter((t) => t.R > 0).length;
+      events.push(`📋 ${sessionDate} 장 마감\n오늘 매수 ${day.newMain}건 · 청산 ${today.length}건${today.length ? ` (${today.map((t) => `${t.ticker} ${t.R > 0 ? '+' : ''}${t.R}R`).join(', ')})` : ''}\n`
+        + `보유 ${ledger.main().length}종목${ledger.main().length ? ` (${ledger.main().map((p) => `${p.ticker} ${paper.curR(p) > 0 ? '+' : ''}${paper.curR(p)}R`).join(', ')})` : ''}\n`
+        + `누적 ${pct > 0 ? '+' : ''}${pct}% · 끝난 거래 ${mainT.length}건${mainT.length ? ` · 승률 ${round(wins / mainT.length * 100, 0)}%` : ''}`);
     }
   }
   return out;
@@ -302,7 +341,11 @@ async function live(argv) {
   writeJson(logFile, prevLog);
   writeJson(path.join(paths.paperDir, 'health.json'), health);
   publish(ledger, rules, { triggers, health });
-  for (const e of events) { say('T6', e.replace(/\n/g, ' · ')); await notify(e); }
+  for (const e of events) {
+    say('T6', e.replace(/\n/g, ' · '));
+    const r = await notify(e);
+    if (!r.ok && r.error !== 'not configured') say('WARN', `텔레그램 전송 실패: ${r.error}`);
+  }
   say('T6', `${et.hm} ET · ${res.phase} · 관심 ${health.watch} · 신규 ${res.fired.length} · 청산 ${res.closed.length} · 보유 ${ledger.main().length}${res.eod ? ' · 마감 처리 완료' : ''}`);
 
   // 올리는 건 일이 있었을 때만 — 5분마다 커밋하지 않는다
@@ -355,5 +398,5 @@ module.exports = { tick, Ledger, loadWatch, summary, etParts, nextSession };
 if (require.main === module) {
   loadEnv();
   const argv = process.argv.slice(2);
-  (arg(argv, 'replay') ? replay(argv) : live(argv)).catch((e) => { console.error('6팀 루프 오류:', e); process.exit(1); });
+  (argv.includes('--test-notify') ? testNotify() : arg(argv, 'replay') ? replay(argv) : live(argv)).catch((e) => { console.error('6팀 루프 오류:', e); process.exit(1); });
 }
