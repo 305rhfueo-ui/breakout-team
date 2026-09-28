@@ -235,11 +235,17 @@ function summary(ledger, rules) {
     entry: t.entry, stop0: t.stop0, exit: t.exit, R: t.R, pct: t.pct, why: t.why, ruleVersion: t.ruleVersion });
   const books = {};
   for (const b of ['trail20', 'nextOpen', 'gradeC', 'far']) books[b] = paper.stats(ledger.trades.filter((t) => t.book === b));
-  return { positions: ledger.main().map(paper.view), trades: main.slice(0, 60).map(pub),
-    stats: { ...paper.stats(main, { equity: ledger.equity }), byGrade: paper.groupStats(main, (t) => t.grade), books, slipPct: rules.fill.buySlipPct } };
+  const openMain = ledger.main();
+  return { positions: openMain.map(paper.view), trades: main.slice(0, 60).map(pub),
+    stats: { ...paper.stats(main, { equity: ledger.equity }), byGrade: paper.groupStats(main, (t) => t.grade), books, slipPct: rules.fill.buySlipPct,
+      open: openMain.length,
+      totalPct: round(main.reduce((s, t) => s + (t.pct || 0), 0) + openMain.reduce((s, p) => s + paper.curPct(p), 0)) } };
 }
 
 function publish(ledger, rules, { triggers, health }) {
+  // 모의투자 일지(paper.html) 데이터 — team6.js 가 없어도 쓴다
+  const pp = require('./lib/paper-publish');
+  pp.writePaper(pp.buildPaper({ positions: ledger.positions, trades: ledger.trades, equity: ledger.equity }, rules, { health }));
   const file = path.join(paths.dashboardData, 'team6.js');
   let data = null;
   try { const m = fs.readFileSync(file, 'utf8').match(/window\.TEAM6_DATA\s*=\s*([\s\S]*);\s*$/); data = m ? JSON.parse(m[1]) : null; } catch (e) { /* 없으면 만들지 않는다 */ }

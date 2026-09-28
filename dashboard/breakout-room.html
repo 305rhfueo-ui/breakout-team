@@ -915,6 +915,7 @@ function renderT6(){
   const hl=t.health;
   const tk=p=>'<span class="tk" data-t="'+esc(p.ticker)+'">'+esc(p.ticker)+'</span>';
   let h='<div class="card"><h2>오늘 밤 매수 계획 — 관심 '+c.watch+'종목 (A '+c.A+' · B '+c.B+')</h2>'
+    +'<div class="note"><a href="../paper.html">💹 모의투자 일지 보기 →</a> (누적 수익률 곡선 · 매매 기록 · 비교 장부)</div>'
     +'<div class="note">시장 <b>'+rg+'</b> · 규칙 v'+esc(t.rulesVersion)+' · 기준 봉 '+esc(t.sessionDate||'—')+' · 종목당 위험 '+n(t.riskPct,2)+'% · 실적 달력 '+(t.earningsOk?'확인':'<b style="color:var(--yel)">못 받음</b>')
     +' · 루프 '+(hl?esc(hl.at||'')+' '+esc(hl.status||''):'아직 돌지 않음')+'</div>'
     +'<div class="note">후보 '+c.evaluated+' → 피벗 '+t.nearAdr+' ADR 이내 '+c.near+' → 관심 '+c.watch+' · 뺀 것 '+c.blocked+' · 이미 돌파 '+c.post+' · 피벗에서 멂 '+c.far+' · 쉬는 구간 없음 '+c.noBase+'</div>'

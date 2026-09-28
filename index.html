@@ -10,6 +10,7 @@
 <script src="dashboard/data/team4.js"      onerror="window.__NO_T4=1"></script>
 <script src="dashboard/data/team5.js"      onerror="window.__NO_T5=1"></script>
 <script src="dashboard/data/team6.js"      onerror="window.__NO_T6=1"></script>
+<script src="dashboard/data/paper.js"      onerror="window.__NO_PAPER=1"></script>
 <script src="dashboard/data/chartcheck.js" onerror="window.__NO_CC=1"></script>
 <script src="dashboard/data/industry-ko.js"></script>
 
@@ -28,6 +29,12 @@ h1{font-size:26px;margin:0 0 4px}
 
 .board{background:var(--room);border:1px solid var(--bd);border-radius:14px;padding:14px 16px;margin:18px 0}
 .board .ko{font-size:15px;line-height:1.7}
+/* 서준 모의투자 요약 띠 — 누르면 일지(paper.html)로 간다 */
+.paper{display:flex;flex-wrap:wrap;align-items:center;gap:6px 18px;background:var(--room);border:1px solid var(--bd);border-left:3px solid #e0566f;
+  border-radius:14px;padding:11px 16px;margin:-6px 0 18px;color:var(--tx);text-decoration:none;font-size:14px}
+.paper:hover{border-color:#e0566f}
+.paper .pt{font-weight:700}.paper .pk{color:var(--dim);font-size:12.5px;margin-right:5px}.paper .pv{font-weight:700;font-size:16px}
+.paper .go{margin-left:auto;color:#8ab4ff;font-size:13px}
 .badge{display:inline-block;padding:3px 12px;border-radius:99px;font-size:13px;font-weight:700;margin-right:8px}
 .b-green{background:#0f2a17;color:var(--grn);border:1px solid #1f5c2e}
 .b-red{background:#2b1414;color:var(--red);border:1px solid #5c2626}
@@ -227,10 +234,11 @@ background:#0c121d;color:var(--dim);font-size:12px;line-height:1.6;font-style:it
 <div class="wrap">
 <header>
   <h1>📈 브레이크아웃 리서치룸</h1>
-  <div class="sub">쿨라매기 Break-out + Episodic Pivot · 5팀 + 실장</div>
+  <div class="sub">쿨라매기 Break-out + Episodic Pivot · 6팀 + 실장</div>
 </header>
 
 <div class="board" id="board"></div>
+<a class="paper" id="paper" href="paper.html"></a>
 
 <div class="floor" id="floor">
   <div class="stage" id="stage">
@@ -248,6 +256,7 @@ background:#0c121d;color:var(--dim);font-size:12px;line-height:1.6;font-style:it
 
 <div class="actions">
   <a class="btn" href="dashboard/breakout-room.html">📊 대시보드 전체 보기</a>
+  <a class="btn btn2" href="paper.html">💹 모의투자 일지</a>
   <a class="btn btn2" href="https://github.com/305rhfueo-ui/breakout-team">소스 코드</a>
 </div>
 
@@ -400,6 +409,22 @@ function board(){
       <span class="badge b-gray">${esc(c.generated||'')}</span></div>
      <div class="ko" style="margin-top:10px">${esc(m.ko||'')}</div>
      ${m.finraKo?`<div class="ko" style="color:var(--dim);font-size:13.5px">${esc(m.finraKo)}</div>`:''}`;
+}
+
+/* ── 서준 모의투자 요약 — 누적 수익률·승률만. 자세한 건 paper.html ── */
+function paperStrip(){
+  const p=window.PAPER_DATA,t=D.t6,box=$('paper');
+  if(!p&&!t){box.style.display='none';return;}
+  const s=(p&&p.stats)||(t&&t.stats)||{},done=s.n||0,sg=v=>(v>0?'+':'')+n(v);
+  const w=((t&&t.plans)||[]).filter(x=>x.watch).length;
+  box.innerHTML=`<span class="pt">💹 서준 모의투자</span>
+    <span><span class="pk">누적</span><span class="pv">${sg(s.totalPct??0)}%</span></span>
+    <span><span class="pk">승률</span><span class="pv">${done?n(s.winPct,1)+'%':'—'}</span></span>
+    <span><span class="pk">끝난 거래</span><span class="pv">${done}건</span></span>
+    <span><span class="pk">보유</span><span class="pv">${s.open??0}</span></span>
+    <span><span class="pk">오늘 밤 관심</span><span class="pv">${w}</span></span>
+    ${done<(p&&p.minSample||30)?`<span class="pk">관찰 단계 ${done}/${(p&&p.minSample)||30}</span>`:''}
+    <span class="go">일지 보기 →</span>`;
 }
 
 /* ── 각 자리에 표시할 핵심 수치 ── */
@@ -1580,6 +1605,6 @@ function closeM(){$('modal').classList.remove('on');}
 $('modal').onclick=e=>{if(e.target.id==='modal')closeM();};
 document.onkeydown=e=>{if(e.key==='Escape')closeM();};
 
-board();office();
+board();paperStrip();office();
 $('replay').onclick=runDialog;
 </script>

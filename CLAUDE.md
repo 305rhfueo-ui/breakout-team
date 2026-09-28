@@ -59,6 +59,8 @@ state/                   tracking·picks·weekly-question·chart-check·breakout
                          ·watchlist(6팀 아침 관심 목록) ·paper(자체 원장) ·orh(밤 트리거)
 config/rules.json        6팀 매매 규칙 (버전 관리 — 바꾸면 version 을 올리고 docs/STRATEGY-LOG.md 에 근거)
 dashboard/               breakout-room.html (9탭 + 팝업) · data/*.js · data/series/ · charts/
+paper.html               서준의 모의투자 일지 (누적 수익률 곡선 · 매매 기록 · 비교 장부) ← dashboard/data/paper.js
+                         리서치룸 첫 화면의 요약 띠에서 이어진다. 데이터는 lib/paper-publish.js 가 아침·밤 양쪽에서 쓴다
 ```
 
 캐시(스냅샷·야후봉·PDF·API)는 **OneDrive 밖** `%LOCALAPPDATA%\breakout-team` 에 있다.

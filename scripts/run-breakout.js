@@ -779,6 +779,9 @@ async function main() {
       stats: prev6.stats || null, health: prev6.health || null,
     };
     writeJson(path.join(paths.watchlistDir, `${dateStr}.json`), team6lib.watchlistOf(team6));
+    // 모의투자 일지(paper.html) — 거래가 없는 날에도 페이지가 비지 않게 아침마다 다시 쓴다
+    const paperData = require('./lib/paper-publish').publishFromDisk(rules, { health: prev6.health || null });
+    team6.stats = { ...(team6.stats || {}), ...paperData.stats, observing: paperData.observing, minSample: paperData.minSample };
     const c6 = team6.counts;
     say('T6', `매수 계획: 후보 ${c6.evaluated} → 피벗 근처 ${c6.near} → 오늘 밤 관심 ${c6.watch} (A ${c6.A} · B ${c6.B}) · 이미 돌파 ${c6.post}${regime === 'red' ? ' · 🔴 신규 매수 중단' : ''}`);
     for (const p of team6.plans.filter((x) => x.watch).slice(0, 10)) {

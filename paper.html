@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>서준의 모의투자 일지 — 브레이크아웃 팀</title>
+
+<!-- file:// 와 GitHub Pages 양쪽에서 동작하도록 window 전역 .js 로 로드 -->
+<script src="dashboard/data/paper.js" onerror="window.__NO_PAPER=1"></script>
+<script src="dashboard/data/team6.js" onerror="window.__NO_T6=1"></script>
+
+<style>
+:root{--bg:#141c2a;--card:#1c2435;--bd:#36415a;--grid:#2a3448;--tx:#e7eef8;--dim:#9dabc0;--mut:#7c8aa3;
+  /* 이익 빨강 · 손실 파랑 (사용자 매매일지와 같은 약속). 색약 구분 검사 통과 — 방향은 기준선 위·아래와 부호로도 읽힌다 */
+  --gain:#e0524f;--loss:#3987e5;--line:#9085e9;--yel:#e3b341}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1300px 700px at 50% -12%,#25314a,var(--bg));color:var(--tx);
+  font:15px/1.6 -apple-system,"Segoe UI","Malgun Gothic",sans-serif;min-height:100vh}
+.wrap{max-width:1120px;margin:0 auto;padding:22px 16px 60px}
+a{color:#8ab4ff;text-decoration:none}a:hover{text-decoration:underline}
+header h1{font-size:23px;margin:0 0 2px}
+header .sub{color:var(--dim);font-size:13.5px}
+.nav{margin:10px 0 18px;display:flex;gap:8px;flex-wrap:wrap}
+.nav a{border:1px solid var(--bd);border-radius:8px;padding:5px 12px;font-size:13px;color:var(--tx);background:#ffffff08}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px 18px;margin-bottom:14px}
+.card h2{font-size:15.5px;margin:0 0 4px}
+.note{color:var(--dim);font-size:13px;margin:2px 0 10px}
+.banner{border-left:3px solid var(--yel);background:#e3b34114;padding:9px 13px;border-radius:0 10px 10px 0;font-size:13.5px;margin-bottom:14px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(138px,1fr));gap:10px;margin-bottom:14px}
+.kpi{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:13px 15px}
+.kpi .lab{color:var(--dim);font-size:12.5px}
+.kpi .val{font-size:27px;font-weight:650;line-height:1.25;margin-top:2px}
+.kpi .val.hero{font-size:48px;line-height:1.1}
+.kpi .sub{color:var(--mut);font-size:12px}
+.kpi.lead{grid-column:span 2}
+@media(max-width:560px){.kpi.lead{grid-column:span 1}.kpi .val.hero{font-size:40px}}
+.mark{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:6px;vertical-align:1px}
+.chart{position:relative}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart svg:focus{outline:1px solid #8ab4ff55;outline-offset:4px;border-radius:6px}
+.tip{position:absolute;pointer-events:none;background:#0d1320f2;border:1px solid var(--bd);border-radius:9px;padding:7px 10px;
+  font-size:12.5px;line-height:1.45;min-width:120px;max-width:260px;transform:translate(-50%,-100%);display:none;z-index:5}
+.tip b{font-size:14px;display:block}
+.tip span{color:var(--dim)}
+.legend{display:flex;gap:14px;color:var(--dim);font-size:12.5px;margin:0 0 6px}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13px;white-space:nowrap}
+th,td{padding:7px 10px;border-bottom:1px solid #ffffff12;text-align:right;font-variant-numeric:tabular-nums}
+th{color:var(--dim);font-weight:500;font-size:12.5px}
+th.l,td.l{text-align:left}
+td.w{white-space:normal;min-width:240px;color:var(--dim);font-size:12.5px}
+.b{display:inline-block;border:1px solid var(--bd);border-radius:999px;padding:0 8px;font-size:12px;color:var(--dim)}
+.empty{color:var(--mut);text-align:center;padding:26px 0;font-size:13.5px}
+details{margin-top:8px}summary{cursor:pointer;color:var(--dim);font-size:13px}
+footer{color:var(--mut);font-size:12.5px;margin-top:18px;line-height:1.7}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>💹 서준의 모의투자 일지</h1>
+    <div class="sub" id="sub">6팀 · 매매 — 쿨라매기 돌파 셋업을 정해진 규칙으로 돌린 기록</div>
+  </header>
+  <div class="nav">
+    <a href="index.html">← 리서치룸</a>
+    <a href="dashboard/breakout-room.html#t6">6️⃣ 매매 탭 (오늘 밤 계획)</a>
+  </div>
+  <div id="app"><div class="empty">데이터를 불러오는 중…</div></div>
+  <footer id="foot"></footer>
+</div>
+
+<script>
+const P=window.PAPER_DATA,T6=window.TEAM6_DATA;
+const $=i=>document.getElementById(i);
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const n=(v,d=2)=>v==null||Number.isNaN(Number(v))?'—':Number(v).toFixed(d);
+const sg=(v,d=2)=>v==null||Number.isNaN(Number(v))?'—':(Number(v)>0?'+':'')+Number(v).toFixed(d);
+const mark=v=>v==null||v===0?'':`<span class="mark" style="background:var(${v>0?'--gain':'--loss'})"></span>`;
+const md=d=>d?String(d).slice(5).replace('-','/'):'—';
+const hm=t=>!t?'':t==='close'?'종가':/^\d{4}$/.test(t)?t.slice(0,2)+':'+t.slice(2):t;
+const REG={green:'🟢 초록',yellow:'🟡 노랑',red:'🔴 빨강'};
+const SVG='http://www.w3.org/2000/svg';
+const el=(tag,attrs,parent)=>{const e=document.createElementNS(SVG,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);if(parent)parent.appendChild(e);return e;};
+
+/* 보기 좋은 눈금: 1 / 2 / 2.5 / 5 × 10^n */
+function ticks(lo,hi,count=4){
+  if(!(hi>lo))return[lo];
+  const raw=(hi-lo)/count,mag=Math.pow(10,Math.floor(Math.log10(raw))),nm=raw/mag;
+  const step=(nm<=1?1:nm<=2?2:nm<=2.5?2.5:nm<=5?5:10)*mag,out=[];
+  for(let v=Math.ceil(lo/step)*step;v<=hi+step*1e-9;v+=step)out.push(+v.toFixed(10));
+  return out;
+}
+function tipBox(host){
+  const t=document.createElement('div');t.className='tip';host.appendChild(t);
+  return {show(x,y,title,rows){
+      t.textContent='';
+      const b=document.createElement('b');b.textContent=title;t.appendChild(b);
+      for(const r of rows){const s=document.createElement('span');s.textContent=r;t.appendChild(s);t.appendChild(document.createElement('br'));}
+      t.style.display='block';
+      const w=host.clientWidth,half=t.offsetWidth/2;
+      t.style.left=Math.max(half+2,Math.min(w-half-2,x))+'px';t.style.top=Math.max(t.offsetHeight+4,y-10)+'px';
+    },hide(){t.style.display='none';}};
+}
+
+/* ── 누적 수익률 곡선 (한 계열 · 선 + 옅은 면) ── */
+function equityChart(host,data){
+  host.textContent='';
+  if(!data.length){host.innerHTML='<div class="empty">첫 세션이 끝나면 곡선이 그려집니다.</div>';return;}
+  const W=1040,H=300,m={l:54,r:64,t:14,b:30},pw=W-m.l-m.r,ph=H-m.t-m.b;
+  const pts=[{date:'시작',pct:0},...data];
+  const vals=pts.map(p=>p.pct);let lo=Math.min(0,...vals),hi=Math.max(0,...vals);
+  if(hi-lo<1){hi+=0.5;lo-=0.5;}
+  const pad=(hi-lo)*0.08;lo-=pad;hi+=pad;
+  const x=i=>m.l+(pts.length===1?pw/2:i*pw/(pts.length-1)),y=v=>m.t+ph-(v-lo)/(hi-lo)*ph;
+  const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img',tabindex:0,'aria-label':`누적 수익률 곡선. 마지막 값 ${sg(vals[vals.length-1])}%`},host);
+  for(const v of ticks(lo,hi)){
+    el('line',{x1:m.l,x2:m.l+pw,y1:y(v),y2:y(v),stroke:v===0?'#5b6b8a':'var(--grid)','stroke-width':1},svg);
+    const tx=el('text',{x:m.l-8,y:y(v)+4,'text-anchor':'end',fill:'var(--mut)','font-size':11.5},svg);tx.textContent=sg(v,Math.abs(hi-lo)<4?1:0)+'%';
+  }
+  const step=Math.max(1,Math.ceil(pts.length/8));
+  pts.forEach((p,i)=>{if(i%step&&i!==pts.length-1)return;const tx=el('text',{x:x(i),y:H-8,'text-anchor':'middle',fill:'var(--mut)','font-size':11.5},svg);tx.textContent=i===0?'시작':md(p.date);});
+  const d=pts.map((p,i)=>`${i?'L':'M'}${x(i).toFixed(1)} ${y(p.pct).toFixed(1)}`).join(' ');
+  el('path',{d:`${d} L${x(pts.length-1)} ${y(0)} L${x(0)} ${y(0)} Z`,fill:'var(--line)',opacity:.1},svg);
+  el('path',{d,fill:'none',stroke:'var(--line)','stroke-width':2,'stroke-linejoin':'round','stroke-linecap':'round'},svg);
+  const L=pts.length-1;
+  el('circle',{cx:x(L),cy:y(pts[L].pct),r:4,fill:'var(--line)',stroke:'var(--card)','stroke-width':2},svg);
+  const end=el('text',{x:x(L)+9,y:y(pts[L].pct)+4,fill:'var(--tx)','font-size':13,'font-weight':600},svg);end.textContent=sg(pts[L].pct)+'%';
+  const cross=el('line',{y1:m.t,y2:m.t+ph,stroke:'#8ab4ff',  'stroke-width':1,opacity:0},svg);
+  const dot=el('circle',{r:4,fill:'var(--line)',stroke:'var(--card)','stroke-width':2,opacity:0},svg);
+  const tip=tipBox(host);let cur=L;
+  const at=i=>{cur=Math.max(0,Math.min(L,i));const p=pts[cur],k=host.clientWidth/W;
+    cross.setAttribute('x1',x(cur));cross.setAttribute('x2',x(cur));cross.setAttribute('opacity',.55);
+    dot.setAttribute('cx',x(cur));dot.setAttribute('cy',y(p.pct));dot.setAttribute('opacity',1);
+    tip.show(x(cur)*k,y(p.pct)*k,sg(p.pct)+'%',[p.date==='시작'?'시작':p.date,'계좌 대비 누적']);};
+  const off=()=>{cross.setAttribute('opacity',0);dot.setAttribute('opacity',0);tip.hide();};
+  const hit=el('rect',{x:m.l,y:m.t,width:pw,height:ph,fill:'transparent'},svg);
+  hit.addEventListener('pointermove',e=>{const r=svg.getBoundingClientRect(),px=(e.clientX-r.left)/r.width*W;at(Math.round((px-m.l)/pw*L));});
+  hit.addEventListener('pointerleave',off);
+  svg.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'){at(cur-1);e.preventDefault();}if(e.key==='ArrowRight'){at(cur+1);e.preventDefault();}});
+  svg.addEventListener('focus',()=>at(cur));svg.addEventListener('blur',off);
+}
+
+/* ── 거래별 R (기준선 위 = 이익, 아래 = 손실) ── */
+function tradeBars(host,trades){
+  host.textContent='';
+  if(!trades.length){host.innerHTML='<div class="empty">끝난 거래가 생기면 막대가 그려집니다.</div>';return;}
+  const list=trades.slice().sort((a,b)=>(`${a.exitDate} ${a.ticker}`<`${b.exitDate} ${b.ticker}`?-1:1)).slice(-40);
+  const W=1040,H=260,m={l:54,r:20,t:14,b:34},pw=W-m.l-m.r,ph=H-m.t-m.b;
+  let lo=Math.min(0,...list.map(t=>t.R)),hi=Math.max(0,...list.map(t=>t.R));
+  if(hi-lo<2){hi=Math.max(hi,1);lo=Math.min(lo,-1);}
+  const pad=(hi-lo)*0.1;lo-=pad;hi+=pad;
+  const band=pw/list.length,bw=Math.min(24,Math.max(3,band-2)),y=v=>m.t+ph-(v-lo)/(hi-lo)*ph;
+  const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':`거래별 손익. 최근 ${list.length}건`},host);
+  for(const v of ticks(lo,hi)){
+    el('line',{x1:m.l,x2:m.l+pw,y1:y(v),y2:y(v),stroke:v===0?'#5b6b8a':'var(--grid)','stroke-width':1},svg);
+    const tx=el('text',{x:m.l-8,y:y(v)+4,'text-anchor':'end',fill:'var(--mut)','font-size':11.5},svg);tx.textContent=sg(v,1)+'R';
+  }
+  const tip=tipBox(host);
+  list.forEach((t,i)=>{
+    const cx=m.l+band*i+band/2,x0=cx-bw/2,y0=y(0),y1=y(t.R),up=t.R>=0,h=Math.max(1,Math.abs(y1-y0)),r=Math.min(4,bw/2,h);
+    /* 기준선 쪽은 각지게, 값 쪽 끝만 둥글게 */
+    const d=up?`M${x0} ${y0}V${y0-h+r}Q${x0} ${y0-h} ${x0+r} ${y0-h}H${x0+bw-r}Q${x0+bw} ${y0-h} ${x0+bw} ${y0-h+r}V${y0}Z`
+              :`M${x0} ${y0}V${y0+h-r}Q${x0} ${y0+h} ${x0+r} ${y0+h}H${x0+bw-r}Q${x0+bw} ${y0+h} ${x0+bw} ${y0+h-r}V${y0}Z`;
+    const bar=el('path',{d,fill:up?'var(--gain)':'var(--loss)'},svg);
+    if(list.length<=20){const tx=el('text',{x:cx,y:H-12,'text-anchor':'middle',fill:'var(--mut)','font-size':11},svg);tx.textContent=t.ticker;}
+    const hit=el('rect',{x:cx-Math.max(band,24)/2,y:m.t,width:Math.max(band,24),height:ph,fill:'transparent',tabindex:0},svg);
+    const on=()=>{bar.setAttribute('opacity',.75);const k=host.clientWidth/W;
+      tip.show(cx*k,Math.min(y0,y1)*k,`${sg(t.R)}R`,[`${t.ticker} · ${t.grade||'—'}등급`,`${md(t.entryDate)} → ${md(t.exitDate)} (${t.days}일)`,t.why||'']);};
+    const offf=()=>{bar.setAttribute('opacity',1);tip.hide();};
+    hit.addEventListener('pointerenter',on);hit.addEventListener('pointerleave',offf);hit.addEventListener('focus',on);hit.addEventListener('blur',offf);
+  });
+}
+
+const tbl=(cols,rows)=>`<div class="scroll"><table><thead><tr>${cols.map(c=>`<th class="${c.l?'l':''}">${esc(c.h)}</th>`).join('')}</tr></thead>
+  <tbody>${rows.map(r=>`<tr>${cols.map(c=>`<td class="${c.l?'l':''} ${c.w?'w':''}">${c.f(r)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+const statRow=(k,s)=>[k,s&&s.n?s.n:0,s&&s.n?n(s.winPct,1)+'%':'—',s&&s.n?sg(s.avgR):'—',s&&s.n&&s.profitFactor!=null?n(s.profitFactor):'—',s&&s.n?sg(s.equityPct)+'%':'—'];
+const statTbl=(rows)=>`<div class="scroll"><table><thead><tr><th class="l">구분</th><th>끝난 거래</th><th>승률</th><th>평균 R</th><th>손익비</th><th>누적(계좌 %)</th></tr></thead>
+  <tbody>${rows.map(r=>`<tr><td class="l">${r[0]}</td>${r.slice(1).map(v=>`<td>${v}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+
+function render(){
+  if(!P){$('app').innerHTML='<div class="card"><div class="empty">아직 데이터가 없습니다. <code>node scripts/run-breakout.js</code> 를 한 번 실행하면 만들어집니다.</div></div>';return;}
+  const s=P.stats||{},h=P.health,done=s.n||0;
+  $('sub').textContent=`6팀 · 매매 — 규칙 v${P.rulesVersion} · ${h?`마지막 루프 ${h.atKst} (${h.status})`:'밤 루프가 아직 돌지 않았습니다'}`;
+  let H='';
+  if(P.observing)H+=`<div class="banner"><b>관찰 단계</b> — 끝난 거래 ${done}건 / ${P.minSample}건. 표본이 작아 아래 성적은 아직 믿을 단계가 아니고, 이 숫자로 규칙을 바꾸지 않습니다.</div>`;
+
+  H+=`<div class="kpis">
+    <div class="kpi lead"><div class="lab">누적 수익률 (계좌 대비)</div><div class="val hero">${mark(s.totalPct)}${sg(s.totalPct??0)}%</div>
+      <div class="sub">끝난 거래 ${sg(s.equityPct??0)}% + 보유 평가 ${sg(s.openPct??0)}%</div></div>
+    <div class="kpi"><div class="lab">승률</div><div class="val">${done?n(s.winPct,1)+'%':'—'}</div><div class="sub">끝난 거래 ${done}건</div></div>
+    <div class="kpi"><div class="lab">거래당 평균</div><div class="val">${done?sg(s.avgR)+'R':'—'}</div><div class="sub">1R = 진입가에서 손절까지</div></div>
+    <div class="kpi"><div class="lab">손익비</div><div class="val">${done&&s.profitFactor!=null?n(s.profitFactor):'—'}</div><div class="sub">${done?`이익 ${sg(s.avgWinR)}R / 손실 ${sg(s.avgLossR)}R`:'총이익 ÷ 총손실'}</div></div>
+    <div class="kpi"><div class="lab">최대 낙폭</div><div class="val">${s.mdd!=null?n(s.mdd,1)+'%':'—'}</div><div class="sub">고점 대비 가장 깊었던 하락</div></div>
+    <div class="kpi"><div class="lab">보유 중</div><div class="val">${s.open??0}</div><div class="sub">종목</div></div>
+  </div>`;
+
+  H+=`<div class="card"><h2>누적 수익률</h2><div class="note">세션이 끝날 때마다 한 점. 끝난 거래의 손익과 보유 종목의 평가 손익을 더한 값입니다.</div>
+    <div class="chart" id="c-eq"></div>
+    ${(P.equity||[]).length?`<details><summary>표로 보기</summary>${tbl([{h:'세션',l:1,f:r=>esc(r.date)},{h:'누적(계좌 %)',f:r=>sg(r.pct)+'%'}],P.equity.slice().reverse())}</details>`:''}</div>`;
+
+  H+=`<div class="card"><h2>거래별 손익</h2><div class="legend"><span><span class="mark" style="background:var(--gain)"></span>이익 (기준선 위)</span>
+    <span><span class="mark" style="background:var(--loss)"></span>손실 (기준선 아래)</span></div>
+    <div class="note">끝난 순서대로 최근 40건. 막대 위에 올리면 종목과 청산 사유가 나옵니다. 전체는 아래 표에 있습니다.</div>
+    <div class="chart" id="c-tr"></div></div>`;
+
+  const pos=P.positions||[];
+  H+=`<div class="card"><h2>보유 종목 ${pos.length}개</h2><div class="note">비중은 계좌 대비 %. 실제로 사는 것이 아니라 자체 장부에 적은 것입니다.</div>`+(pos.length?tbl([
+    {h:'종목',l:1,f:p=>`<b>${esc(p.ticker)}</b> <span class="b">${esc(p.grade||'—')}</span>`},
+    {h:'매수',f:p=>`${md(p.entryDate)} ${hm(p.entryAt)}`},{h:'진입가',f:p=>n(p.entry)},{h:'손절',f:p=>n(p.stop)+(p.partial?' (본전)':'')},
+    {h:'현재가',f:p=>n(p.last)},{h:'현재',f:p=>mark(p.R)+sg(p.R)+'R'},{h:'계좌 %',f:p=>sg(p.pct)+'%'},
+    {h:'비중',f:p=>n(p.weightPct*p.left,1)+'%'},{h:'보유일',f:p=>p.days},{h:'매수 근거',l:1,w:1,f:p=>esc(p.entered)}],pos)
+    :'<div class="empty">지금 들고 있는 종목이 없습니다.</div>')+`</div>`;
+
+  const fills=P.fills||[];
+  H+=`<div class="card"><h2>매매 기록</h2><div class="note">매수·매도 한 건이 한 줄. 최근 것이 위.</div>`+(fills.length?tbl([
+    {h:'일시 (뉴욕)',l:1,f:f=>`${esc(f.date)} ${hm(f.at)}`},
+    {h:'구분',l:1,f:f=>f.side==='buy'?'매수':'매도'},{h:'종목',l:1,f:f=>`<b>${esc(f.ticker)}</b>`},{h:'체결가',f:f=>n(f.px)},
+    {h:'비중',f:f=>n(f.weightPct,1)+'%'},{h:'실현',f:f=>f.R==null?'—':mark(f.R)+sg(f.R)+'R'},
+    {h:'근거',l:1,w:1,f:f=>esc(f.why)}],fills)
+    :'<div class="empty">아직 매매가 없습니다.</div>')+`</div>`;
+
+  const tr=(P.trades||[]);
+  H+=`<div class="card"><h2>끝난 거래 ${tr.length}건</h2>`+(tr.length?tbl([
+    {h:'종목',l:1,f:t=>`<b>${esc(t.ticker)}</b> <span class="b">${esc(t.grade||'—')}</span>`},
+    {h:'매수',f:t=>md(t.entryDate)},{h:'청산',f:t=>md(t.exitDate)},{h:'보유일',f:t=>t.days},
+    {h:'진입가',f:t=>n(t.entry)},{h:'첫 손절',f:t=>n(t.stop0)},{h:'청산가',f:t=>n(t.exit)},
+    {h:'결과',f:t=>mark(t.R)+sg(t.R)+'R'},{h:'계좌 %',f:t=>sg(t.pct)+'%'},
+    {h:'가장 좋았을 때 / 나빴을 때',f:t=>`${sg(t.mfeR,1)}R / ${sg(t.maeR,1)}R`},
+    {h:'청산 사유',l:1,f:t=>esc(t.why)},{h:'시장',l:1,f:t=>REG[t.regime]||'—'},{h:'규칙',f:t=>'v'+esc(t.ruleVersion)}],tr)
+    :'<div class="empty">끝난 거래가 아직 없습니다.</div>')+`</div>`;
+
+  const g=P.byGrade||{},rg=P.byRegime||{},wy=P.byWhy||{};
+  if(done)H+=`<div class="card"><h2>나눠서 보기</h2><div class="note">표본이 10건이 안 되는 줄은 참고만 하세요.</div>
+    ${statTbl([...Object.entries(g).sort().map(([k,v])=>statRow(`${esc(k)}등급`,v)),
+      ...Object.entries(rg).map(([k,v])=>statRow(`살 때 시장 ${REG[k]||esc(k)}`,v)),
+      ...Object.entries(wy).map(([k,v])=>statRow(`청산: ${esc(k)}`,v))])}</div>`;
+
+  const bk=P.books||{};
+  H+=`<div class="card"><h2>비교 장부</h2><div class="note">같은 신호를 다른 규칙으로 돌려 본 것입니다. 실제 장부의 성적에는 들어가지 않습니다 — 규칙을 바꿀지 판단할 때 씁니다.</div>
+    ${statTbl([statRow('<b>실제 규칙</b> (돌파 순간 · 10일선)',s),...Object.entries(bk).map(([k,v])=>statRow(esc(v.ko)+(v.open?` <span class="b">보유 ${v.open}</span>`:''),v))])}</div>`;
+
+  if(T6){
+    const w=(T6.plans||[]).filter(p=>p.watch),tg=T6.triggers||[];
+    H+=`<div class="card"><h2>오늘 밤 관심 종목 ${w.length}개</h2><div class="note">${esc(T6.generated||'')} 아침 기준 · 시장 ${REG[T6.regime]||esc(T6.regime||'—')} · 자세한 계획은 <a href="dashboard/breakout-room.html#t6">6️⃣ 매매 탭</a></div>`+(w.length?tbl([
+      {h:'종목',l:1,f:p=>`<b>${esc(p.ticker)}</b> <span class="b">${esc(p.grade)}</span>`},{h:'현재가',f:p=>n(p.price)},{h:'피벗',f:p=>`<b>${n(p.pivot)}</b>`},
+      {h:'피벗까지',f:p=>sg(p.distToPivotPct,1)+'%'},{h:'예비 손절',f:p=>n(p.stop)},{h:'비중',f:p=>n(p.weightPct,1)+'%'},
+      {h:'클로드 차트 소견',l:1,w:1,f:p=>p.lastRead?esc(({keep:'유지',hold:'보류',drop:'제외'}[p.lastRead.verdict]||p.lastRead.verdict)+' — '+p.lastRead.note):'—'}],w)
+      :'<div class="empty">오늘은 고점 바로 아래에서 쉬고 있는 종목이 없습니다.</div>')+
+      (tg.length?`<details><summary>지난 밤 트리거 기록 ${tg.length}건</summary>${tbl([{h:'종목',l:1,f:x=>`<b>${esc(x.ticker)}</b>`},{h:'시각(뉴욕)',l:1,f:x=>hm(x.at)},
+        {h:'결과',l:1,f:x=>x.fired?'진입':'대기'},{h:'내용',l:1,w:1,f:x=>esc(x.ko)}],tg)}</details>`:'')+`</div>`;
+  }
+  $('app').innerHTML=H;
+  equityChart($('c-eq'),P.equity||[]);
+  tradeBars($('c-tr'),P.trades||[]);
+  $('foot').innerHTML=`<b>읽는 법</b> — 이 페이지의 매매는 <b>실제 주문이 아닙니다.</b> 서준(6팀)이 정해진 규칙대로 "샀다고 치고" 자체 장부에 적은 것입니다.
+    체결가는 매수·매도 모두 ${n(P.slipPct,1)}% 불리하게 잡았습니다. 실제 매매는 체결 실패와 더 큰 미끄러짐이 있을 수 있습니다.<br>
+    금액 대신 <b>계좌 대비 비중(%)</b>과 <b>R</b>(진입가에서 손절까지의 거리를 1로 본 배수)로 적습니다. 한 종목에 거는 위험은 계좌의 ${n(P.riskPct,2)}%, 한 종목 비중은 최대 ${n(P.maxPositionPct,0)}%입니다.<br>
+    쿨라매기 방식은 승률이 30%대여도 큰 이익 몇 건이 전체를 만드는 구조입니다. 몇 번 졌다고 규칙을 바꾸지 않습니다.<br>
+    교육용 기록이며 투자 조언이 아닙니다. 갱신 ${esc(String(P.generated||'').replace('T',' ').slice(0,16))} UTC`;
+}
+render();
+addEventListener('resize',()=>{document.querySelectorAll('.tip').forEach(t=>t.style.display='none');});
+</script>
+</html>
