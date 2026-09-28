@@ -166,14 +166,14 @@ function simulate(data, rules, { variant = 'intraday', grades = ['A', 'B'], pick
       const bi = t.idx.get(d);
       if (bi == null || bi < WARMUP) continue;
       const b = t.bars[bi];
-      // 싼 사전 필터: 최근 60봉 고점에서 너무 멀면 등급을 잴 필요가 없다
+      // 싼 사전 필터: 피벗을 찾는 구간의 고점에서 너무 멀면 등급을 잴 필요가 없다
       let hi = 0;
-      for (let k = bi - 59; k <= bi; k++) if (t.bars[k].h > hi) hi = t.bars[k].h;
-      if (b.c < hi * (1 - rules.setup.preMaxBelowPivotPct / 100)) continue;
+      for (let k = bi - rules.setup.lookbackBars + 1; k <= bi; k++) if (t.bars[k].h > hi) hi = t.bars[k].h;
+      if (b.c < hi * 0.7) continue;
       const sub = t.bars.slice(bi - WARMUP + 1, bi + 1);
-      if (!picks) {   // 2팀 필터의 근사 — ADR ≥ 4 · 150일선 위
+      if (!picks) {   // 2팀 필터의 근사 — ADR ≥ rules.risk.minAdrPct · 150일선 위
         const a = adrPct(sub), m150 = sma(sub, 150);
-        if (a == null || a < 4 || m150 == null || b.c < m150) continue;
+        if (a == null || a < (rules.risk.minAdrPct || 0) || m150 == null || b.c < m150) continue;
       }
       const g = gradeSetup(sub, { rules, regime });
       if (!g.ok || !g.near || !g.liquid || g.chase || !grades.includes(g.grade)) continue;
@@ -266,10 +266,14 @@ async function main() {
 
   if (!argv.includes('--no-grid')) {
     const grid = [
-      ['베이스 최소 5봉', { 'setup.minBaseBars': 5 }], ['베이스 최소 15봉', { 'setup.minBaseBars': 15 }],
+      ['피벗 구간 15봉', { 'setup.lookbackBars': 15 }], ['피벗 구간 20봉', { 'setup.lookbackBars': 20 }], ['피벗 구간 30봉', { 'setup.lookbackBars': 30 }], ['피벗 구간 40봉', { 'setup.lookbackBars': 40 }],
+      ['베이스 최소 10봉', { 'setup.minBaseBars': 10 }], ['베이스 최소 15봉', { 'setup.minBaseBars': 15 }],
       ['선행 상승 ≥20%', { 'setup.priorMoveMinPct': 20 }], ['선행 상승 ≥50%', { 'setup.priorMoveMinPct': 50 }],
       ['깊이 ≤15%', { 'setup.maxDepthPct': 15 }], ['깊이 ≤35%', { 'setup.maxDepthPct': 35 }],
       ['피벗 −3% 이내', { 'setup.preMaxBelowPivotPct': 3 }], ['피벗 −8% 이내', { 'setup.preMaxBelowPivotPct': 8 }],
+      ['피벗 1 ADR 이내', { 'setup.preMaxBelowPivotAdr': 1 }], ['피벗 1.5 ADR 이내', { 'setup.preMaxBelowPivotAdr': 1.5 }], ['피벗 2 ADR 이내', { 'setup.preMaxBelowPivotAdr': 2 }], ['피벗 3 ADR 이내', { 'setup.preMaxBelowPivotAdr': 3 }],
+      ['조합: 2 ADR 이내 + 피벗 구간 20봉', { 'setup.preMaxBelowPivotAdr': 2, 'setup.lookbackBars': 20 }],
+      ['조합: 2 ADR 이내 + 피벗 구간 15봉', { 'setup.preMaxBelowPivotAdr': 2, 'setup.lookbackBars': 15 }],
       ['거래량 ≥1.5×', { 'backtest.breakVolMin': 1.5 }], ['거래량 ≥3×', { 'backtest.breakVolMin': 3 }], ['거래량 조건 없음', { 'backtest.breakVolMin': 0 }],
       ['손절 0.5 ADR', { 'risk.stopAdr': 0.5 }], ['손절 1.5 ADR', { 'risk.stopAdr': 1.5 }], ['손절 2 ADR', { 'risk.stopAdr': 2 }],
       ['20일선 트레일', { 'exit.trailMa': 20 }], ['부분 익절 2R', { 'exit.partialMinR': 2 }],

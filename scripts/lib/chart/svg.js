@@ -56,6 +56,12 @@ function renderSvg(m, opts = {}) {
     p.push(`<path d="${d}" fill="none" stroke="${HEX(ma.color)}" stroke-width="1.8" stroke-linejoin="round"/>`);
   }
 
+  // 수평선 (피벗·손절)
+  for (const h of m.hlines || []) {
+    p.push(`<line x1="${m.plot.x}" y1="${h.y.toFixed(1)}" x2="${m.plot.x + m.plot.w}" y2="${h.y.toFixed(1)}" stroke="${HEX(h.color)}" stroke-width="1.2" stroke-dasharray="7 4"/>`);
+    p.push(`<text x="${m.plot.x + 6}" y="${(h.y - 4).toFixed(1)}" fill="${HEX(h.color)}" font-size="10">${esc(h.label)}</text>`);
+  }
+
   // 거래량
   if (m.volPane) {
     p.push(`<text x="${m.plot.x}" y="${m.volPane.y - 6}" fill="${HEX(C.textDim)}" font-size="10">VOLUME</text>`);

@@ -17,6 +17,8 @@
 | `4팀`, `EP`, `촉매` | `/team4` |
 | `5팀`, `섹터`, `WRS` | `/team5` |
 | `6팀`, `매매`, `매수 계획`, `오늘 뭐 사` | `/team6` |
+| `차트 읽어줘`, `차트 분석` | `/chart-read` |
+| `리뷰`, `주간 리뷰`, `모의투자 성적` | `/review` |
 | `차트 볼 종목`, `오늘 뭐 봐야 해` | `/chart-check` |
 | `XXX 돌파했어`, `XXX 배제해` | `/chart-check` 의 해당 절 |
 
@@ -42,8 +44,15 @@ scripts/
   lib/                   util·ta·bars·percentile·wrs·screen·tracking·congestion·vcp
                          ·leaders·regime·chart/·xlsx/·history-series·verify-claims·cache
                          ·sector-flow·flow-cross·research-rotation
-                         ·kis(한투 시세) ·rules ·setup-grade ·team6 ·earnings   ← 6팀
+                         ·kis(한투 시세) ·rules ·setup-grade ·team6 ·earnings
+                         ·orh(장중 트리거) ·intraday ·paper(자체 원장)          ← 6팀
+  paper-trader.js        6팀 밤 루프 한 틱 (--status · --prep · --replay=날짜)
+  night-loop.js          장이 열려 있는 동안 5분마다 paper-trader 를 부른다
+  paper-review.js        주간 리뷰 (구간별 성적 · Claude 소견 채점)
+  render-charts.js       후보 차트 PNG (Claude 가 Read 로 본다 · 저장소 밖 캐시)
   backtest-daily.js      6팀 규칙 일봉 백테스트 → docs/BACKTEST-{날짜}.md
+  backtest-intraday.js   6팀 규칙 5분봉 백테스트 → docs/BACKTEST-INTRADAY-{날짜}.md
+deploy/macmini/          맥미니 24시간 구동 (install.sh · launchd plist 2개)
   data/                  finra-margin · sec-edgar · kr-reports · news-rss
   workflows/             team1-news · team2-research · team4-catalyst · team5-sector · chief-report
 state/                   tracking·picks·weekly-question·chart-check·breakout-log·llm-in·history
@@ -119,6 +128,14 @@ dashboard/               breakout-room.html (9탭 + 팝업) · data/*.js · data
   `swingHighs`/`swingLows` 는 앞뒤 N봉을 보므로 피벗·손절에 확정 스윙을 쓰면 늦거나 새어 나간다.
 - **표본 30건 전에는 모의 성적으로 규칙을 바꾸지 않는다.** 바꿀 땐 한 번에 하나, 버전을 올리고, 근거를 `docs/STRATEGY-LOG.md` 에.
 - 등급이 높다고 더 잘 오른다는 증거는 아직 없다(백테스트 A 5건 0승 · B 10건 5승). 등급을 추천 강도처럼 말하지 마라.
+- **규칙의 기본값은 쿨라매기 공식 글을 따른다** (손절은 ADR 보다 넓지 않게 · 베이스 2주~2개월 · 3~5일 뒤 1/3 익절 후 본전 · 10일선 종가 이탈).
+  백테스트 하나로 공식을 뒤집지 마라 — 2026-09-28 에 일봉 백테스트만 보고 손절을 1.5 ADR 로 넓혔다가 되돌렸다.
+  공식에 없는 우리 추가분은 `config/rules.json` 의 `ours` 에 적혀 있다.
+- **피벗까지의 거리는 ADR 배수로 잰다.** ADR 8% 종목에게 5% 는 하루치도 안 된다.
+  2026-09 의 MSTR·TWST·GRAL·P 는 전부 피벗 8~12% 아래에서 하루 만에 넘었다.
+- **백테스트와 실전은 같은 함수를 쓴다** (`orh.evaluate` · `paper.*` · `gradeSetup`). 조건을 두 군데 따로 쓰면 한쪽이 빠진다.
+- 트리거는 완성된 5분봉의 종가로 판정하고 체결가도 그 종가다. 다음 봉 시가를 쓰면 실전과 백테스트의 체결가가 달라진다.
+- 차트 PNG 는 저장소에 넣지 않는다(`CACHE_DIR/charts`). 매일 40장이면 git 이 1년에 200MB 가까이 분다.
 
 ## 검증된 골든값 (회귀 확인용)
 

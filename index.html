@@ -1082,7 +1082,7 @@ function briefing(id){
     const c=t.counts||{},w=(t.plans||[]).filter(p=>p.watch);
     if(t.regime==='red')P.push(`시장이 빨간불이라 <b>오늘 밤은 새로 사지 않습니다.</b> 아래 목록은 참고용이고, 들고 있는 종목만 규칙대로 관리합니다.`);
     else if(t.regime==='yellow')P.push(`시장이 노란불이라 <b>종목당 위험을 평소의 절반</b>으로 줄였습니다.`);
-    P.push(`후보 ${c.evaluated}종목을 재 봤습니다. 고점(피벗) 아래 ${t.nearPct}% 안에서 쉬고 있는 건 ${c.near}종목이고, 그중 <b>오늘 밤 지켜볼 종목은 ${c.watch}개</b>(A ${c.A} · B ${c.B})입니다.`);
+    P.push(`후보 ${c.evaluated}종목을 재 봤습니다. 고점(피벗) 아래 ${t.nearAdr} ADR 안에서 쉬고 있는 건 ${c.near}종목이고, 그중 <b>오늘 밤 지켜볼 종목은 ${c.watch}개</b>(A ${c.A} · B ${c.B})입니다.`);
     if(w.length){
       const p=w[0];
       P.push(`맨 위는 <b>${esc(p.ticker)}</b> 입니다. 지금 ${n(p.price)}달러이고 <b>${n(p.pivot)}달러를 넘으면</b> 삽니다(현재 ${n(p.distToPivotPct,1)}%). 미리 잡아둔 손절은 ${n(p.stop)}달러, 넣는 돈은 계좌의 ${n(p.weightPct,1)}%입니다. 실제로 살 때는 그 시각까지의 당일 저가를 손절로 씁니다.`);

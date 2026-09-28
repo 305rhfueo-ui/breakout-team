@@ -764,11 +764,15 @@ async function main() {
       flowOf: (s, i) => flowByKey6.get(`${s}|${i}`) || null,
       nameOf: (t) => names.get(t) || null,
     });
+    // Claude 가 차트 PNG 를 보고 남긴 소견(최근 5거래일) — 숫자 옆에 나란히 싣는다
+    const reads = require('./mark-breakout').latestReads(readJson(paths.breakoutLog, { entries: [] }),
+      { sinceDate: cal.addDays(dateStr, -7) });
+    for (const p of [...built.plans, ...built.post]) { const r = reads.get(p.ticker); if (r) p.lastRead = r; }
     // 밤 루프(paper-trader)가 채우는 칸은 지난 파일에서 이어받는다
     const prev6 = readPrevWindow('team6.js', 'TEAM6_DATA') || {};
     team6 = {
       generated: dateStr, sessionDate, rulesVersion: rules.version, regime,
-      riskPct: acct.riskPct, stopAdr: rules.risk.stopAdr, nearPct: rules.setup.preMaxBelowPivotPct,
+      riskPct: acct.riskPct, stopAdr: rules.risk.stopAdr, nearAdr: rules.setup.preMaxBelowPivotAdr, paceMin: rules.entry.paceMin,
       slipPct: rules.fill.buySlipPct, earningsOk: !!earnings.ok,
       ...built,
       triggers: prev6.triggers || [], positions: prev6.positions || [], trades: prev6.trades || [],

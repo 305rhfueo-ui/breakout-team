@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.breakout.daily</string>
+  <!-- 아침 스캔 → 6팀 매수 계획 → 리포트 → push. RS 사이트가 06:50 KST 에 갱신되므로 07:10 에 돈다.
+       미국 장이 없던 날 아침에도 돌지만 해롭지 않다 (관심 목록의 기준일이 같아 밤 루프가 새로 사지 않는다). -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/caffeinate</string><string>-s</string>
+    <string>__NODE__</string><string>__REPO__/scripts/run-breakout.js</string>
+  </array>
+  <key>WorkingDirectory</key><string>__REPO__</string>
+  <key>StartCalendarInterval</key>
+  <dict><key>Hour</key><integer>7</integer><key>Minute</key><integer>10</integer></dict>
+  <key>StandardOutPath</key><string>__LOGS__/daily.log</string>
+  <key>StandardErrorPath</key><string>__LOGS__/daily.err.log</string>
+  <key>EnvironmentVariables</key>
+  <dict><key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string></dict>
+</dict>
+</plist>

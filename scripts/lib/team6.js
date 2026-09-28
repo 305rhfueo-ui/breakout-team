@@ -31,7 +31,8 @@ function buildPlans({ tickers, barsOf, rowOf, rules, regime, riskPct, earnings, 
       grade: g.grade, state: g.state, asOf: g.asOf, price: g.price,
       pivot: g.pivot, pivotDate: g.pivotDate, stop: g.stop, riskPerSharePct: g.riskPerSharePct,
       weightPct: g.weightPct, weightCapped: g.weightCapped,
-      distToPivotPct: g.distToPivotPct, extensionAdr: g.extensionAdr, chase: g.chase, adrPct: g.adrPct,
+      distToPivotPct: g.distToPivotPct, distToPivotAdr: g.distToPivotAdr, extensionAdr: g.extensionAdr, chase: g.chase, adrPct: g.adrPct,
+      ma10: g.ma10,
       dollarVol20M: g.dollarVol20 == null ? null : round(g.dollarVol20 / 1e6, 1), liquid: g.liquid,
       reasons: g.reasons, fails: g.fails, metrics: g.metrics,
       catalyst: cat, flow, earnings: earn,
@@ -41,10 +42,14 @@ function buildPlans({ tickers, barsOf, rowOf, rules, regime, riskPct, earnings, 
     // 막는 사유는 하나만 적는다 — 위에서부터 먼저 걸린 것
     item.blocked = regime === 'red' ? '시장 빨간불 — 신규 매수 중단'
       : (typeof earn === 'string' && earn !== 'unknown') ? `실적 발표 ${earn} — 발표 전 진입 금지`
+      : (rules.risk.minAdrPct && g.adrPct < rules.risk.minAdrPct) ? `ADR ${g.adrPct}% — 기준(${rules.risk.minAdrPct}%) 미달`
       : !g.liquid ? `거래대금 ${item.dollarVol20M}M — 기준 미달`
       : g.chase ? `이격 ${g.extensionAdr} ADR — 추격 금지`
       : g.grade === 'C' ? '등급 C'
+      : (rules.setup.mainMaxBelowPivotAdr && g.distToPivotAdr < -rules.setup.mainMaxBelowPivotAdr) ? `피벗까지 ${Math.abs(g.distToPivotAdr)} ADR — ${rules.setup.mainMaxBelowPivotAdr} ADR 넘게 떨어져 있음`
       : null;
+    // 실제 장부에서는 안 사지만 그림자 장부로 같이 돌리는 것 — 그 조건이 성적을 가르는지 보려면 결과가 필요하다
+    item.shadowBook = item.blocked === '등급 C' ? 'gradeC' : (item.blocked && item.blocked.startsWith('피벗까지')) ? 'far' : null;
     item.watch = !item.blocked;
     item.score = round((7 - g.fails.length) * 10
       + (cat && (cat.category === 1 || cat.category === 5) ? 5 : 0)
@@ -68,8 +73,11 @@ function buildPlans({ tickers, barsOf, rowOf, rules, regime, riskPct, earnings, 
 function watchlistOf(team6) {
   return {
     date: team6.generated, sessionDate: team6.sessionDate, rulesVersion: team6.rulesVersion, regime: team6.regime,
-    items: team6.plans.filter((p) => p.watch).map((p) => ({
+    // 등급 C 는 실제 장부에서는 안 사지만 그림자 장부(gradeC)로 같이 돌린다 — 등급이 성적을 가르는지 보려면 C 의 결과도 필요하다
+    items: team6.plans.filter((p) => p.watch || p.shadowBook).map((p) => ({
+      shadowOnly: !p.watch, shadowBook: p.shadowBook || null,
       ticker: p.ticker, grade: p.grade, pivot: p.pivot, stopPre: p.stop, adrPct: p.adrPct, weightPct: p.weightPct,
+      ma10: p.ma10, metrics: p.metrics, catalyst: p.catalyst, flow: p.flow,
       price: p.price, sector: p.sector, industry: p.industry, score: p.score, reasons: p.reasons,
     })),
   };
@@ -84,7 +92,7 @@ function reportSection(t6) {
   const L = ['## 6팀 · 매매 (돌파 대기 · 매수 계획)'];
   const c = t6.counts;
   L.push(`- 규칙 v${t6.rulesVersion} · 시장 ${t6.regime}${t6.regime === 'red' ? ' — **신규 매수 중단**' : t6.regime === 'yellow' ? ' — 종목당 리스크 절반' : ''} · 기준 봉 ${t6.sessionDate || '—'}`);
-  L.push(`- 후보 ${c.evaluated}종목 → 피벗 −${t6.nearPct}% 이내 ${c.near} → **오늘 밤 관심 ${c.watch}** (A ${c.A} · B ${c.B}) · 막힘 ${c.blocked} · 이미 돌파 ${c.post} · 피벗에서 멂 ${c.far} · 쉬는 구간 없음 ${c.noBase}`);
+  L.push(`- 후보 ${c.evaluated}종목 → 피벗 ${t6.nearAdr} ADR 이내 ${c.near} → **오늘 밤 관심 ${c.watch}** (A ${c.A} · B ${c.B}) · 막힘 ${c.blocked} · 이미 돌파 ${c.post} · 피벗에서 멂 ${c.far} · 쉬는 구간 없음 ${c.noBase}`);
   L.push(`- 실적 달력: ${t6.earningsOk ? '확인' : '⚠️ 못 받음 — 실적 직전 여부를 걸러내지 못했다'}`);
   L.push('- 피벗 = 베이스 구간 최고가 · 예비 손절 = 피벗 − ' + t6.stopAdr + ' ADR(밤에 사면 당일 저가로 바뀐다) · 비중 = 계좌 대비 %, 종목당 리스크 ' + t6.riskPct + '% 기준 · 이격 = (종가 − 10일선) ÷ ADR');
   L.push('- 등급은 검사 7개 중 실패 수(0=A, 1=B, 2 이상=C)다. 차트 모양은 판정하지 않는다.');

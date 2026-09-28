@@ -57,6 +57,14 @@ function renderPng(m) {
     }
   }
 
+  // 수평선 (피벗·손절) — 캔들 위에 그려야 보인다
+  for (const h of m.hlines || []) {
+    const y = Math.round(h.y);
+    r.dashedH(m.plot.x, m.plot.x + m.plot.w, y, h.color, 7, 4);
+    r.dashedH(m.plot.x, m.plot.x + m.plot.w, y + 1, h.color, 7, 4);
+    r.text(m.plot.x + 6, y - 10, h.label, h.color, 1);
+  }
+
   // 거래량
   if (m.volPane) {
     r.text(m.plot.x, m.volPane.y - 12, 'VOLUME', C.textDim, 1);

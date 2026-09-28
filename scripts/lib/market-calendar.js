@@ -20,6 +20,9 @@ const HOLIDAYS = new Set([
   '2027-07-05', '2027-09-06', '2027-11-25', '2027-12-24',
 ]);
 
+// 조기 폐장(13:00 ET) — 추수감사절 다음 날 · 크리스마스이브 · 독립기념일 전날(해에 따라)
+const EARLY_CLOSE = new Set(['2026-11-27', '2026-12-24', '2027-11-26']);
+
 function isTradingDay(iso) {
   const d = new Date(`${iso}T00:00:00Z`);
   if (Number.isNaN(d.getTime())) return false;
@@ -87,6 +90,6 @@ function sessionDateFromUtc(utcIso) {
 }
 
 module.exports = {
-  HOLIDAYS, isTradingDay, addDays, lastTradingDayOnOrBefore, prevTradingDay,
+  HOLIDAYS, EARLY_CLOSE, isTradingDay, addDays, lastTradingDayOnOrBefore, prevTradingDay,
   tradingDaysBetween, missingSessions, sessionDateFromUtc,
 };

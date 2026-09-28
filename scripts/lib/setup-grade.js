@@ -91,6 +91,7 @@ function gradeSetup(bars, opts = {}) {
     ok: true, asOf: isoOf(last), price: round(last.c), adrPct: round(adrNow), extensionAdr: round(extensionAdr),
     chase: extensionAdr != null && extensionAdr >= R.maxExtensionAdr,
     dollarVol20: dv == null ? null : Math.round(dv), liquid, ep,
+    ma10: round(ma10Now),   // 밤 트리거가 이격을 다시 잴 때 쓴다
   };
   if (base.state === 'none') return { ...common, state: 'none', grade: null, reasons: [base.why], watch: false };
 
@@ -100,16 +101,26 @@ function gradeSetup(bars, opts = {}) {
   const adrEnd = adrPct(sub);
   const adrUsd = end.c * adrEnd / 100;
   const pivot = base.pivot;
-  const baseBars = base.endIdx - base.peakIdx;
-  const inBase = sub.slice(base.peakIdx);
+  // 베이스의 시작 — 고점을 찍은 봉이 아니라 "피벗 아래 상자 안에 머문" 첫 봉.
+  //   좁은 범위에서 고가를 조금씩 높이면 고점 봉이 계속 뒤로 밀려 베이스가 짧게 세어진다
+  //   (2026-09-28 HNGE: 그림에서는 4주를 쉬었는데 마지막 고가 이후 6봉만 세었다).
+  //   상자 = 고가가 피벗 이하이고 종가가 피벗 − boxAdr × ADR 이상인 연속 구간.
+  let boxStart = base.peakIdx;
+  const floor = pivot - (S.boxAdr || 0) * adrUsd;
+  if (S.boxAdr) {
+    const lim = Math.max(0, base.endIdx - S.maxBaseBars);
+    for (let i = base.peakIdx - 1; i >= lim; i--) { if (sub[i].h > pivot * 1.0001 || sub[i].c < floor) break; boxStart = i; }
+  }
+  const baseBars = base.endIdx - boxStart;
+  const inBase = sub.slice(boxStart);
   const baseLow = Math.min(...inBase.map((b) => b.l));
   const depthPct = (pivot - baseLow) / pivot * 100;
-  const before = sub.slice(Math.max(0, base.peakIdx - S.priorMoveBars), base.peakIdx + 1);
+  const before = sub.slice(Math.max(0, boxStart - S.priorMoveBars), boxStart + 1);
   const lowBefore = Math.min(...before.map((b) => b.l));
   const priorMovePct = lowBefore > 0 ? (pivot / lowBefore - 1) * 100 : null;
 
   // 저점 상승 — 베이스 안의 스윙 저점이 끝에서부터 몇 번 연속 높아졌나
-  const lows = swingLows(sub, 3).filter((s) => s.idx > base.peakIdx);
+  const lows = swingLows(sub, 3).filter((s) => s.idx > boxStart);
   let higherLows = 0;
   for (let i = lows.length - 1; i >= 1; i--) { if (lows[i].price > lows[i - 1].price) higherLows++; else break; }
   if (lows.length < 2 && inBase.length >= 6) {
@@ -130,7 +141,8 @@ function gradeSetup(bars, opts = {}) {
 
   const checks = [
     { key: 'priorMove', ok: priorMovePct != null && priorMovePct >= S.priorMoveMinPct, ko: `선행 상승 ${sign(priorMovePct, 0)}%` },
-    { key: 'baseLen', ok: baseBars >= S.minBaseBars && baseBars <= S.maxBaseBars, ko: `베이스 ${round(baseBars / 5, 1)}주` },
+    // 공식 기준은 2주~2개월. 그보다 짧은 쉼(5~9봉)도 후보에는 넣되 이 검사에서 감점한다 — 짧은 베이스의 성적을 따로 세기 위해서다
+    { key: 'baseLen', ok: baseBars >= (S.officialMinBaseBars || S.minBaseBars) && baseBars <= S.maxBaseBars, ko: `베이스 ${round(baseBars / 5, 1)}주` },
     { key: 'depth', ok: depthPct <= S.maxDepthPct, ko: `깊이 ${round(depthPct, 1)}%` },
     { key: 'higherLows', ok: higherLows >= S.minHigherLows, ko: `저점 상승 ${higherLows}회` },
     { key: 'tight', ok: (contraction != null && contraction <= S.maxContraction) || (closeRange10Adr != null && closeRange10Adr <= S.maxCloseRange10Adr),
@@ -153,7 +165,10 @@ function gradeSetup(bars, opts = {}) {
   const weightPct = Math.min(riskAccountPct / riskPerSharePct * 100, R.maxPositionPct);
   const distToPivotPct = (last.c - pivot) / pivot * 100;
 
-  const near = base.state === 'pre' && distToPivotPct >= -S.preMaxBelowPivotPct;
+  // 피벗까지의 거리는 ADR 배수로 잰다. ADR 8% 종목에게 5% 는 하루치 움직임도 안 된다 —
+  //   2026-09 의 MSTR·TWST·GRAL·P 는 전부 피벗 8~12% 아래에서 하루 만에 넘었다 (고정 5% 기준이면 후보에도 못 든다).
+  const nearPct = Math.max(S.preMaxBelowPivotPct || 0, (S.preMaxBelowPivotAdr || 0) * adrNow);
+  const near = base.state === 'pre' && distToPivotPct >= -nearPct;
   return {
     ...common,
     state: base.state,
@@ -162,7 +177,7 @@ function gradeSetup(bars, opts = {}) {
     pivot: round(pivot), pivotDate: isoOf(bars[base.peakIdx]),
     stop: round(stop), riskPerSharePct: round(riskPerSharePct), weightPct: round(weightPct, 1),
     weightCapped: riskAccountPct / riskPerSharePct * 100 > R.maxPositionPct,
-    distToPivotPct: round(distToPivotPct),
+    distToPivotPct: round(distToPivotPct), distToPivotAdr: round(distToPivotPct / adrNow), nearPct: round(nearPct, 1),
     breakDate: base.state === 'post' ? isoOf(bars[base.breakIdx]) : null,
     barsSinceBreak: base.state === 'post' ? base.barsSinceBreak : null,
     metrics: {

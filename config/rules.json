@@ -1,10 +1,10 @@
 {
-  "version": "0.2",
-  "note": "6팀 매매 규칙. 값을 바꾸면 version 을 올린다 — 원장의 모든 체결에 version 이 찍혀 버전별 성적을 따로 센다. 0.x = 표본 30건 전(관찰 단계). 변경 근거는 docs/STRATEGY-LOG.md.",
+  "version": "0.3",
+  "note": "6팀 매매 규칙. 기본값은 쿨라매기 공식 글(qullamaggie.com/my-3-timeless-setups…)을 따른다. 공식에 없는 우리 추가분은 ours 에 적는다. 값을 바꾸면 version 을 올리고 docs/STRATEGY-LOG.md 에 근거를 남긴다.",
   "setup": {
-    "lookbackBars": 60,
+    "lookbackBars": 40,
     "minBaseBars": 5,
-    "maxBaseBars": 60,
+    "maxBaseBars": 40,
     "priorMoveBars": 60,
     "priorMoveMinPct": 30,
     "maxDepthPct": 25,
@@ -12,17 +12,22 @@
     "maxContraction": 0.9,
     "maxCloseRange10Adr": 2.5,
     "surfMaxAdr": 1.5,
-    "preMaxBelowPivotPct": 5,
-    "postMaxBars": 10
+    "preMaxBelowPivotPct": 0,
+    "preMaxBelowPivotAdr": 1.5,
+    "mainMaxBelowPivotAdr": 1,
+    "postMaxBars": 10,
+    "officialMinBaseBars": 10,
+    "boxAdr": 2.5
   },
   "risk": {
     "riskPct": 0.5,
     "yellowRiskMult": 0.5,
     "maxPositionPct": 20,
-    "stopAdr": 1.5,
+    "stopAdr": 1,
     "minStopAdr": 0.5,
     "maxExtensionAdr": 3,
     "minDollarVol20": 20000000,
+    "minAdrPct": 4,
     "earningsBlockDays": 5
   },
   "entry": {
@@ -31,7 +36,7 @@
       15,
       60
     ],
-    "paceMin": 2,
+    "paceMin": 1.5,
     "entryWindowMin": 120,
     "maxNewPerDay": 3,
     "maxPositions": 8,
@@ -40,7 +45,7 @@
   "exit": {
     "trailMa": 10,
     "partialAfterDays": 3,
-    "partialMinR": 1,
+    "partialMinR": 0,
     "partialFraction": 0.3333,
     "breakevenAfterPartial": true
   },
@@ -56,5 +61,12 @@
     "patch": {
       "exit.trailMa": 20
     }
-  }
+  },
+  "ours": [
+    "entry.paceMin — 공식 돌파 셋업에는 거래량 수치 규칙이 없다. 일봉 백테스트에서 거래량 확인이 없으면 기대값이 음수였다",
+    "risk.minStopAdr — 손절이 너무 가까우면 수량이 폭발한다. 공식에는 종목당 비중 상한만 있다",
+    "setup.preMaxBelowPivotAdr · mainMaxBelowPivotAdr — 관심 목록을 만드는 거리 기준(1.5 ADR 까지 지켜보되 실제 장부는 1 ADR 이내만). 공식에 없다",
+    "risk.minDollarVol20 · risk.earningsBlockDays · entry.entryWindowMin — 운영상 안전장치",
+    "setup.boxAdr — 베이스 길이를 재는 상자의 높이. 공식에 없다"
+  ]
 }

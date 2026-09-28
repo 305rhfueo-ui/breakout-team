@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.breakout.night</string>
+  <!-- 밤 루프. 22:20 KST 에 켜지면 개장(서머타임 22:30 · 겨울 23:30 KST)까지 기다렸다가
+       5분마다 돌고, 장 마감 처리를 끝내면 스스로 꺼진다. 미국 장이 안 열리는 날이면 바로 끝난다.
+       시각 판단은 전부 뉴욕 시간으로 한다 — 서머타임이 바뀌어도 이 파일을 고칠 필요가 없다. -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/caffeinate</string><string>-s</string>
+    <string>__NODE__</string><string>__REPO__/scripts/night-loop.js</string>
+  </array>
+  <key>WorkingDirectory</key><string>__REPO__</string>
+  <key>StartCalendarInterval</key>
+  <dict><key>Hour</key><integer>22</integer><key>Minute</key><integer>20</integer></dict>
+  <key>StandardOutPath</key><string>__LOGS__/night.log</string>
+  <key>StandardErrorPath</key><string>__LOGS__/night.err.log</string>
+  <key>EnvironmentVariables</key>
+  <dict><key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string></dict>
+</dict>
+</plist>

@@ -39,6 +39,7 @@ function buildChartModel(opts) {
   const {
     bars, maPeriods = [10, 20, 50], width = 960, height = 560,
     title = 'CHART', subtitle = '', displayBars = 63, showVolume = true,
+    hlines = [],   // [{ price, label, color:[r,g,b] }] — 피벗·손절 같은 수평선. 라벨은 영문/숫자만(PNG 폰트)
   } = opts;
 
   if (!bars || bars.length < 2) return null;
@@ -65,6 +66,10 @@ function buildChartModel(opts) {
       if (v < lo) lo = v; if (v > hi) hi = v;
     }
   }
+  // 수평선도 화면 안에 들어오게 한다 — 단 봉 범위의 절반 이상 벗어난 값은 축을 망가뜨리므로 그리지 않는다
+  const span = hi - lo;
+  const lines = (hlines || []).filter((h) => Number.isFinite(h.price) && h.price > lo - span * 0.5 && h.price < hi + span * 0.5);
+  for (const h of lines) { if (h.price < lo) lo = h.price; if (h.price > hi) hi = h.price; }
   const pad = (hi - lo) * 0.05 || 1;
   lo -= pad; hi += pad;
 
@@ -121,6 +126,7 @@ function buildChartModel(opts) {
   return {
     w: width, h: height, plot, volPane,
     candles, volBars, maLines, yTicks, xTicks,
+    hlines: lines.map((h) => ({ price: h.price, y: yOf(h.price), label: `${h.label || ''} ${fmtPrice(h.price)}`.trim(), color: h.color || COLORS.text })),
     title, subtitle,
     lastPrice: last.c,
     lastDate: new Date(last.t).toISOString().slice(0, 10),

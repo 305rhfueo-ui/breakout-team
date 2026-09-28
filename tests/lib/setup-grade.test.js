@@ -32,7 +32,18 @@ ok('pre 상태 · 피벗은 베이스 위 최고가(상승 마지막 봉의 고�
   assert.strictEqual(g.ok, true);
   assert.strictEqual(g.state, 'pre');
   assert.strictEqual(g.pivot, +(80 * 1.02).toFixed(2));
-  assert.strictEqual(g.metrics.baseBars, 20);
+  // 베이스는 고점 봉이 아니라 "피벗 아래 상자에 들어온 첫 봉"부터 센다 — 상승 끝의 몇 봉이 상자 안에 든다
+  assert.ok(g.metrics.baseBars >= 20 && g.metrics.baseBars <= 26, 'baseBars ' + g.metrics.baseBars);
+});
+ok('좁은 범위에서 고가를 조금씩 높여도 베이스를 짧게 세지 않는다', () => {
+  // 20봉을 77.8~79.5 에서 쉬다가 6봉 전에 고가 82.2 를 한 번 찍었다 (그 전 최고가 81.6 을 살짝 넘음)
+  const creep = [78, 78.5, 78, 77.8, 78.2, 78.6, 78.4, 78, 78.3, 78.8, 79, 78.6, 78.4, 79.5, 79, 78.6, 78.8, 79, 78.7, 79.2];
+  const b3 = mk([...flat, ...run, ...creep], half, 40e6);
+  b3[b3.length - 7].h = 82.2;
+  const c = gradeSetup(b3, { rules, riskPct: 0.5 });
+  assert.strictEqual(c.state, 'pre');
+  assert.strictEqual(c.pivot, 82.2);
+  assert.ok(c.metrics.baseBars >= 15, '고점 봉 이후 6봉이 아니라 상자에 머문 기간을 센다: ' + c.metrics.baseBars);
 });
 ok('선행 상승·깊이·저점 상승을 잰다', () => {
   assert.ok(g.metrics.priorMovePct > 60 && g.metrics.priorMovePct < 70, 'priorMove ' + g.metrics.priorMovePct);
