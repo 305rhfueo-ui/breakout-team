@@ -53,6 +53,7 @@ ALLOWED=(
   "Workflow" "Agent" "Skill"
 )
 
+HEAD0="$(git rev-parse HEAD 2>/dev/null)"     # 끝난 뒤 커밋이 늘었는지 본다 — 안 늘었으면 새로 만든 것이 없다
 OUT="$LOGS/$JOB-$(date +%F).log"
 STARTED="$(date '+%m/%d %H:%M')"
 echo "=== $JOB 시작 $STARTED  ($CLAUDE, opus-5, 최대 ${MAX_MIN}분)" >> "$OUT"
@@ -77,6 +78,10 @@ $(tail -3 "$OUT" | cut -c1-300)
 elif grep -q '⛔' "$OUT"; then
   tg "⛔ $TITLE 중단 ($STARTED) — RS 결측률이 높거나 사이트가 발행을 보류한 날입니다. 강행하려면 Claude Code 에서 start breakout 을 직접 돌리고 --force 여부를 정하세요.
 $(grep '⛔' "$OUT" | tail -1 | cut -c1-200)"
+elif [ "$JOB" = research ] && [ "$(git rev-parse HEAD 2>/dev/null)" = "$HEAD0" ]; then
+  # 2026-09-29 첫 시험: 오늘 분이 이미 있어 Claude 가 재실행하지 않았는데 "업데이트 완료"라고 알렸다. 구분한다.
+  tg "ℹ️ $TITLE — 새로 만든 것 없음 ($STARTED → $ENDED). 오늘 분이 이미 있어 다시 만들지 않았습니다.
+$URL"
 else
   tg "$TITLE 업데이트 완료 ($STARTED → $ENDED)
 $URL"
