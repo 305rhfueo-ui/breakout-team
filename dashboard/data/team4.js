@@ -1,52 +1,98 @@
 window.TEAM4_DATA = {
-  "generated": "2026-09-28",
+  "generated": "2026-09-29",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2,
     "aboveMa150": true
   },
-  "universeHits": 25,
-  "analyzed": 8,
+  "universeHits": 35,
+  "analyzed": 9,
   "items": [
     {
-      "ticker": "NATH",
-      "sector": "Consumer Cyclical",
-      "industry": "Restaurants",
-      "price": 101.55000305175781,
-      "marketCap": "0.42B",
-      "volx": 5.08,
-      "volSurgeWk": 4.07,
+      "ticker": "HHH",
+      "sector": "Real Estate",
+      "industry": "Real Estate - Development",
+      "price": 73.94999694824219,
+      "marketCap": "4.09B",
+      "volx": 2.71,
+      "volSurgeWk": 2.04,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 43.75,
-      "high52": 92.94,
-      "adr": 1.2,
-      "targetStatus": false,
-      "saleCy": null,
-      "saleNy": null,
-      "epsCy": null,
-      "epsNy": null,
-      "cyTrend": null,
-      "nyTrend": null,
+      "clsPos": 93.41,
+      "high52": 81.2,
+      "adr": 3.22,
+      "targetStatus": true,
+      "saleCy": 70.68,
+      "saleNy": -17.31,
+      "epsCy": 114.77,
+      "epsNy": -3.71,
+      "cyTrend": 92.32,
+      "nyTrend": 7.07,
       "newHigh52": false,
-      "bbCenterBrk5d": true,
+      "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          15.03,
-          13.9,
-          8.86
+          330.21,
+          18.36,
+          -36.51
         ],
         "ni": [
-          -1.11,
-          -33.67,
-          -31.22
+          "흑자전환",
+          -21.9,
+          -96.16
         ],
         "opm": [
-          23.43,
-          13.35,
-          14.94
+          21.35,
+          21.48,
+          4.19
         ],
-        "updated": "2026-09-21 07:04:37"
+        "updated": "2026-09-08 09:05:02"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "ATKR",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "price": 94.5999984741211,
+      "marketCap": "3.19B",
+      "volx": 2.44,
+      "volSurgeWk": 3.52,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 30.3,
+      "high52": 99.88,
+      "adr": 0.23,
+      "targetStatus": false,
+      "saleCy": 4.04,
+      "saleNy": 4.06,
+      "epsCy": -5.67,
+      "epsNy": 12.05,
+      "cyTrend": 0.38,
+      "nyTrend": 0.82,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          8.13,
+          4.23,
+          -0.91
+        ],
+        "ni": [
+          -98.24,
+          "적자확대",
+          -67.33
+        ],
+        "opm": [
+          8.05,
+          1.42,
+          3.06
+        ],
+        "updated": "2026-09-07 07:34:16"
       },
       "catalyst": {
         "status": "pending",
@@ -58,15 +104,15 @@ window.TEAM4_DATA = {
       "ticker": "CM",
       "sector": "Financial Services",
       "industry": "Banks - Diversified",
-      "price": 113.5999984741211,
+      "price": 112.1500015258789,
       "marketCap": "103.14B",
-      "volx": 3.78,
-      "volSurgeWk": 3.4,
+      "volx": 2.27,
+      "volSurgeWk": 1.43,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 95.77,
-      "high52": 90.98,
-      "adr": 1.89,
+      "clsPos": 19.83,
+      "high52": 90.42,
+      "adr": 1.8,
       "targetStatus": false,
       "saleCy": 13.64,
       "saleNy": 3.76,
@@ -75,7 +121,7 @@ window.TEAM4_DATA = {
       "cyTrend": 2.95,
       "nyTrend": 2.13,
       "newHigh52": false,
-      "bbCenterBrk5d": true,
+      "bbCenterBrk5d": false,
       "fs": {
         "sale": [
           4.52,
@@ -101,67 +147,110 @@ window.TEAM4_DATA = {
       }
     },
     {
-      "ticker": "AGM.A",
-      "sector": "Financial Services",
-      "industry": "Credit Services",
-      "price": 146.5800018310547,
-      "marketCap": "1.59B",
-      "volx": 2.85,
-      "volSurgeWk": 2.37,
+      "ticker": "MDT",
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "price": 89.5,
+      "marketCap": "114.48B",
+      "volx": 2.07,
+      "volSurgeWk": 2.02,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 0,
-      "high52": 84.15,
-      "adr": 0.14,
+      "clsPos": 98.51,
+      "high52": 86.96,
+      "adr": 2.29,
       "targetStatus": false,
-      "saleCy": 17.08,
-      "saleNy": 12.89,
-      "epsCy": null,
-      "epsNy": null,
-      "cyTrend": null,
-      "nyTrend": null,
+      "saleCy": 7.54,
+      "saleNy": 3.41,
+      "epsCy": 8.03,
+      "epsNy": 7.24,
+      "cyTrend": 0.43,
+      "nyTrend": 0.08,
       "newHigh52": false,
       "bbCenterBrk5d": false,
-      "fs": null,
-      "catalyst": {
-        "status": "done",
-        "ticker": "AGM.A",
-        "category": 6,
-        "company": "Federal Agricultural Mortgage Corporation(Farmer Mac)은 1988년 Agricultural Credit Act에 의해 설립된 연방 인가 GSE로, 농업·농촌 부동산 및 주택 모기지의 2차 시장을 조성해 유동성을 공급한다. Farm & Ranch, Corporate AgFinance, Power & Utilities, Broadband Infrastructure, Renewable Energy, Funding, Investments 등 7개 세그먼트로 사업을 운영하며 분기배당(3분기 주당 1.60달러, 기준일 2026-09-15, 지급일 2026-09-30)을 유지하는 안정형 이자수익 기반 사업모델이다.",
-        "volumeExplanation": "제공된 1차 자료(뉴스 2건, 8-K 6건)와 웹검색 어디에서도 2026-09-21 시점 거래량 급증과 시기적으로 부합하는 직접적 촉매를 확인하지 못했다. 최근 8-K들(실적발표 07-30, 임원변동 08-14/06-08, 배당공시 08-12, 기타사건 06-03)은 모두 조사일로부터 수 주 전 이벤트로 당일 거래량 폭증과 직접 연결할 근거가 없다. 150일선 위에서 거래되나 60일 신고가 미돌파(CLS_POS 0, 52주 고점 대비 86.11%)라는 기술적 정황과 함께, 근거 없는 이례적 거래량 급증으로 판단해 암묵적 호재(category 6)로 분류한다.",
-        "claims": [
-          {
-            "id": "no_catalyst",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
+      "fs": {
+        "sale": [
+          13.73,
+          9.87,
+          8.74
         ],
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "Correctly classified as category 6 (unconfirmed catalyst). No verifiable catalyst identified in timeline; appropriately marked as '근거 없음' despite volume spike."
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-09-21",
-        "carried": true
+        "ni": [
+          41.35,
+          17.8,
+          -11.67
+        ],
+        "opm": [
+          18.08,
+          19.1,
+          16.22
+        ],
+        "updated": "2026-09-08 09:59:26"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "ODC",
-      "sector": "Basic Materials",
-      "industry": "Specialty Chemicals",
-      "price": 88.5999984741211,
-      "marketCap": "1.28B",
-      "volx": 2.23,
-      "volSurgeWk": 2.41,
+      "ticker": "TRNS",
+      "sector": "Industrials",
+      "industry": "Specialty Business Services",
+      "price": 85.94999694824219,
+      "marketCap": "0.82B",
+      "volx": 2.01,
+      "volSurgeWk": 1.73,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 9.3,
-      "high52": 83,
-      "adr": 2.67,
+      "clsPos": 66.58,
+      "high52": 85.95,
+      "adr": 3.59,
+      "targetStatus": false,
+      "saleCy": 12.37,
+      "saleNy": 6.64,
+      "epsCy": 2.99,
+      "epsNy": 14.38,
+      "cyTrend": -0.52,
+      "nyTrend": 0,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          21.62,
+          15.8,
+          25.62
+        ],
+        "ni": [
+          -59.18,
+          -56.38,
+          -146.71
+        ],
+        "opm": [
+          4,
+          4.85,
+          0.1
+        ],
+        "updated": "2026-09-08 08:12:05"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "CFFI",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "price": 94.69000244140625,
+      "marketCap": "0.31B",
+      "volx": 1.95,
+      "volSurgeWk": 2.03,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 94.31,
+      "high52": 97.55,
+      "adr": 2.75,
       "targetStatus": false,
       "saleCy": null,
       "saleNy": null,
@@ -170,24 +259,24 @@ window.TEAM4_DATA = {
       "cyTrend": null,
       "nyTrend": null,
       "newHigh52": false,
-      "bbCenterBrk5d": false,
+      "bbCenterBrk5d": true,
       "fs": {
         "sale": [
-          9.37,
-          0.7,
-          -5.83
+          10.31,
+          9.49,
+          9.9
         ],
         "ni": [
-          25.21,
-          -2.72,
-          -5.62
+          11.34,
+          25.69,
+          11
         ],
         "opm": [
-          13.53,
-          13.33,
-          14.07
+          20.85,
+          17.49,
+          16.97
         ],
-        "updated": "2026-09-09 06:35:20"
+        "updated": "2026-09-08 10:23:02"
       },
       "catalyst": {
         "status": "pending",
@@ -196,90 +285,44 @@ window.TEAM4_DATA = {
       }
     },
     {
-      "ticker": "CTBI",
-      "sector": "Financial Services",
-      "industry": "Banks - Regional",
-      "price": 75.55999755859375,
-      "marketCap": "1.37B",
-      "volx": 2.06,
-      "volSurgeWk": 1.73,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 73.29,
-      "high52": 95.41,
-      "adr": 1.77,
-      "targetStatus": false,
-      "saleCy": 10.44,
-      "saleNy": 4.55,
-      "epsCy": 17.5,
-      "epsNy": 1.88,
-      "cyTrend": -0.1,
-      "nyTrend": 0.41,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          6.97,
-          6.41,
-          8.15
-        ],
-        "ni": [
-          18.97,
-          23.76,
-          21.26
-        ],
-        "opm": [
-          35.23,
-          34.26,
-          33.32
-        ],
-        "updated": "2026-09-07 06:53:14"
-      },
-      "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
-      }
-    },
-    {
-      "ticker": "HUM",
+      "ticker": "ITGR",
       "sector": "Healthcare",
-      "industry": "Healthcare Plans",
-      "price": 397.92999267578125,
-      "marketCap": "47.78B",
-      "volx": 2.03,
-      "volSurgeWk": 1.88,
+      "industry": "Medical Devices",
+      "price": 126.37999725341797,
+      "marketCap": "4.30B",
+      "volx": 1.91,
+      "volSurgeWk": 2.42,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 41.77,
-      "high52": 92.78,
-      "adr": 3.32,
+      "clsPos": 100,
+      "high52": 99.67,
+      "adr": 0.22,
       "targetStatus": false,
-      "saleCy": 25.5,
-      "saleNy": 3.48,
-      "epsCy": -46.59,
-      "epsNy": 81.24,
-      "cyTrend": 0.02,
-      "nyTrend": 0.15,
+      "saleCy": -1.77,
+      "saleNy": 5.96,
+      "epsCy": -3.71,
+      "epsNy": 11.45,
+      "cyTrend": 1.32,
+      "nyTrend": 0.9,
       "newHigh52": false,
-      "bbCenterBrk5d": true,
+      "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          26.18,
-          23.47,
-          11.3
+          -2.6,
+          0.5,
+          5.02
         ],
         "ni": [
-          27.34,
-          -4.66,
-          "적자확대"
+          -36.22,
+          "흑자전환",
+          48.63
         ],
         "opm": [
-          3.33,
-          4.42,
-          -2.49
+          7.44,
+          7.25,
+          11.85
         ],
-        "updated": "2026-09-08 07:11:21"
+        "updated": "2026-09-08 07:47:44"
       },
       "catalyst": {
         "status": "pending",
@@ -288,73 +331,90 @@ window.TEAM4_DATA = {
       }
     },
     {
-      "ticker": "STRD",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "price": 73.72000122070312,
-      "marketCap": "0.87B",
-      "volx": 1.93,
-      "volSurgeWk": 2.02,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 87.28,
-      "high52": 98.36,
-      "adr": 1.89,
-      "targetStatus": false,
-      "saleCy": 5.01,
-      "saleNy": 2.33,
-      "epsCy": null,
-      "epsNy": null,
-      "cyTrend": null,
-      "nyTrend": null,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": null,
-      "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
-      }
-    },
-    {
-      "ticker": "ZS",
+      "ticker": "MDB",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "price": 193.0500030517578,
-      "marketCap": "31.48B",
-      "volx": 1.79,
-      "volSurgeWk": 2.19,
+      "price": 410.44000244140625,
+      "marketCap": "33.06B",
+      "volx": null,
+      "volSurgeWk": 12.47,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 2.03,
-      "high52": 57.29,
-      "adr": 5.06,
-      "targetStatus": false,
-      "saleCy": 17.27,
-      "saleNy": 16.42,
-      "epsCy": 16.58,
-      "epsNy": 14.14,
-      "cyTrend": 6.75,
-      "nyTrend": 3.37,
+      "clsPos": 0,
+      "high52": 86.76,
+      "adr": 4.98,
+      "targetStatus": true,
+      "saleCy": 22.87,
+      "saleNy": 17.97,
+      "epsCy": 31.85,
+      "epsNy": 18.92,
+      "cyTrend": 6.86,
+      "nyTrend": 6.15,
       "newHigh52": false,
-      "bbCenterBrk5d": false,
+      "bbCenterBrk5d": true,
       "fs": {
         "sale": [
-          24.88,
-          25.43,
-          25.91
+          30.5,
+          25.25,
+          26.75
         ],
         "ni": [
-          "적자축소",
-          "적자확대",
-          "적자확대"
+          "흑자전환",
+          "흑자전환",
+          -1.87
         ],
         "opm": [
-          -1.72,
-          -3.49,
-          -6.35
+          3.68,
+          -3.61,
+          0.04
         ],
-        "updated": "2026-09-08 10:17:18"
+        "updated": "2026-09-09 06:59:22"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "AEM",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "price": 194.47999572753906,
+      "marketCap": "98.48B",
+      "volx": null,
+      "volSurgeWk": 2.38,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 76.55,
+      "adr": 2.94,
+      "targetStatus": false,
+      "saleCy": 30.03,
+      "saleNy": 3.28,
+      "epsCy": 45.71,
+      "epsNy": 2.86,
+      "cyTrend": -0.23,
+      "nyTrend": -0.32,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          35.04,
+          66.09,
+          60.27
+        ],
+        "ni": [
+          49.76,
+          108.1,
+          199.08
+        ],
+        "opm": [
+          60.25,
+          62.71,
+          58.16
+        ],
+        "updated": "2026-09-09 05:53:38"
       },
       "catalyst": {
         "status": "pending",
@@ -364,37 +424,46 @@ window.TEAM4_DATA = {
     }
   ],
   "excludedEtf": [
-    "SLVO",
-    "FNGS",
     "MLPR",
     "DULL"
   ],
   "excludedNoMarketCap": [
-    "WFC-L",
-    "USB-A",
-    "BMNP",
-    "SLMBP",
+    "BAC-L",
+    "BRKRP",
+    "CMS-B",
+    "BA-A",
+    "CTA-B",
+    "ALB-A",
+    "NOVTU",
     "CTA-A",
-    "NEE-T"
+    "NEE-T",
+    "AFJKU"
   ],
   "excludedBelowMa150": [
-    "COST",
-    "AKAM",
-    "FORTY",
-    "CVS",
-    "ACM",
-    "DRUG",
-    "JDZG"
+    "KAI",
+    "MOD",
+    "BA",
+    "LMB",
+    "VECO",
+    "SBR",
+    "CCB",
+    "COOK",
+    "TRP",
+    "CVNA",
+    "JEF",
+    "CENX",
+    "JDZG",
+    "POR"
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 1,
-    "total": 8,
+    "done": 0,
+    "total": 9,
     "cap": null,
-    "pending": 7,
+    "pending": 9,
     "failed": 0,
-    "carried": 1,
+    "carried": 0,
     "ineligible": 0,
-    "note": "8종목 중 1종목을 조사했습니다. 그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 7종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "9종목 중 0종목을 조사했습니다. 나머지 9종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   }
 };
