@@ -5,14 +5,8 @@
 // ⚠️ 수량(주)은 알림에만 실린다. 파일·대시보드에는 쓰지 않는다 — 받는 사람이 본인뿐이기 때문이다.
 // 절대 throw 하지 않는다. 알림이 실패해도 스캔과 매매는 계속된다.
 
-// 맥미니 2026-09-29 — Node 의 fetch 만 api.telegram.org 에서 ETIMEDOUT 이 났다 (curl 과 순수 TCP 는 정상).
-// 원인: 텔레그램 IPv4 서버까지 첫 연결에 350ms~2s 가 걸리는데 Node 의 Happy Eyeballs 기본 제한이 250ms 다.
-// IPv4 가 붙기 전에 포기하고 IPv6(이 회선에는 경로가 없다)로 넘어가 둘 다 실패로 처리됐다.
-// 알림은 실패해도 조용히 넘어가는 설계라 꺼진 줄도 모르고 있었다. 첫 연결을 더 기다리게 한다.
-const net = require('net');
-if (typeof net.setDefaultAutoSelectFamilyAttemptTimeout === 'function') {
-  net.setDefaultAutoSelectFamilyAttemptTimeout(3000);
-}
+// 첫 연결 대기(Happy Eyeballs 250ms)는 lib/util.js 에서 늘린다 — 이 파일보다 util 이 먼저 불려야 한다.
+require('./util');
 
 async function tg(method, body) {
   const c = new AbortController();

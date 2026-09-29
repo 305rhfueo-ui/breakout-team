@@ -5,6 +5,16 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 
+// ── 첫 연결 대기 ──
+// Node 의 Happy Eyeballs 는 주소 하나당 250ms 만 기다린다. IPv4 연결이 그보다 느리면 IPv6 로 넘어가는데,
+// IPv6 경로가 없는 회선에서는 둘 다 실패로 끝난다 (curl 은 되는데 node 만 ETIMEDOUT).
+// 맥미니 실측 2026-09-29: api.telegram.org 256ms → 실패. 다른 서버는 15~180ms 라 통과했지만 느려지는 날 똑같이 죽는다.
+// 모든 진입 스크립트가 이 파일을 가장 먼저 불러오므로 여기 한 곳에만 둔다.
+const net = require('net');
+if (typeof net.setDefaultAutoSelectFamilyAttemptTimeout === 'function') {
+  net.setDefaultAutoSelectFamilyAttemptTimeout(3000);
+}
+
 const ROOT = path.resolve(__dirname, '..', '..');
 
 // ── 캐시 디렉터리 ──

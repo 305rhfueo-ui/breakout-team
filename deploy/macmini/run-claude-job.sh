@@ -50,7 +50,7 @@ ALLOWED=(
   "Bash(launchctl list*)" "Bash(ls *)" "Bash(cat *)" "Bash(tail *)" "Bash(head *)" "Bash(grep *)"
   "Read" "Write" "Edit" "Glob" "Grep"
   "WebFetch" "WebSearch"
-  "Workflow" "Agent" "Skill"
+  "Workflow" "Agent" "Skill" "TaskStop"      # TaskStop: start-breakout 이 죽은 워크플로를 재개하기 전에 쓴다
 )
 
 HEAD0="$(git rev-parse HEAD 2>/dev/null)"     # 끝난 뒤 커밋이 늘었는지 본다 — 안 늘었으면 새로 만든 것이 없다
@@ -70,7 +70,8 @@ wait "$PID"; RC=$?
 kill "$WATCH" 2>/dev/null; wait "$WATCH" 2>/dev/null
 [ -f "$RUN.timeout" ] && { TIMED_OUT=1; rm -f "$RUN.timeout"; echo "=== ${MAX_MIN}분 초과로 강제 종료" >> "$RUN"; }
 cat "$RUN" >> "$OUT"
-HEADLINE="$(grep -v '^[[:space:]]*$' "$RUN" | head -4 | cut -c1-280)"   # Claude 가 맨 위에 쓴 요약 — 사유를 그대로 보여 준다
+# Claude 가 맨 위에 쓴 결론 한 줄 — 사유를 그대로 보여 준다 (마크다운 기호는 텔레그램에서 지저분해 뺀다)
+HEADLINE="$(grep -v '^[[:space:]]*$' "$RUN" | grep -v '^=== ' | head -1 | tr -d '*`' | cut -c1-300)"
 rm -f "$RUN"
 
 ENDED="$(date '+%H:%M')"
