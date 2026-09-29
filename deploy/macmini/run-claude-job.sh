@@ -54,20 +54,27 @@ ALLOWED=(
 )
 
 HEAD0="$(git rev-parse HEAD 2>/dev/null)"     # 끝난 뒤 커밋이 늘었는지 본다 — 안 늘었으면 새로 만든 것이 없다
-OUT="$LOGS/$JOB-$(date +%F).log"
+OUT="$LOGS/$JOB-$(date +%F).log"              # 하루치 누적 로그
+RUN="$(mktemp)"                                # 이번 실행분만 — 판정은 여기서만 한다 (앞 실행의 글자에 오염되지 않게)
 STARTED="$(date '+%m/%d %H:%M')"
 echo "=== $JOB 시작 $STARTED  ($CLAUDE, opus-5, 최대 ${MAX_MIN}분)" >> "$OUT"
 
 # -p: 비대화(헤드리스) 실행. 감시 프로세스가 MAX_MIN 뒤에 강제 종료한다.
-"$CLAUDE" -p "$PROMPT" --model claude-opus-5 --allowedTools "${ALLOWED[@]}" >> "$OUT" 2>&1 &
+# --add-dir: 작업 폴더 밖이라 막히던 로그 폴더를 읽게 한다 (daily.log · daily.err.log — 07:10 스캔의 출력과 ⛔).
+TIMED_OUT=0
+"$CLAUDE" -p "$PROMPT" --model claude-opus-5 --add-dir "$LOGS" --allowedTools "${ALLOWED[@]}" > "$RUN" 2>&1 &
 PID=$!
-( sleep $((MAX_MIN * 60)); kill "$PID" 2>/dev/null && echo "=== ${MAX_MIN}분 초과로 강제 종료" >> "$OUT" ) &
+( sleep $((MAX_MIN * 60)); kill "$PID" 2>/dev/null && touch "$RUN.timeout" ) &
 WATCH=$!
 wait "$PID"; RC=$?
 kill "$WATCH" 2>/dev/null; wait "$WATCH" 2>/dev/null
+[ -f "$RUN.timeout" ] && { TIMED_OUT=1; rm -f "$RUN.timeout"; echo "=== ${MAX_MIN}분 초과로 강제 종료" >> "$RUN"; }
+cat "$RUN" >> "$OUT"
+HEADLINE="$(grep -v '^[[:space:]]*$' "$RUN" | head -4 | cut -c1-280)"   # Claude 가 맨 위에 쓴 요약 — 사유를 그대로 보여 준다
+rm -f "$RUN"
 
 ENDED="$(date '+%H:%M')"
-if grep -q '강제 종료' "$OUT"; then
+if [ "$TIMED_OUT" = 1 ]; then
   tg "⏱ $TITLE 시간 초과 ($STARTED 시작, ${MAX_MIN}분 넘어 중단) — 로그: $OUT"
   exit 124
 elif [ "$RC" -ne 0 ]; then
@@ -75,12 +82,13 @@ elif [ "$RC" -ne 0 ]; then
 $(tail -3 "$OUT" | cut -c1-300)
 로그: $OUT"
   exit "$RC"
-elif grep -q '⛔' "$OUT"; then
-  tg "⛔ $TITLE 중단 ($STARTED) — RS 결측률이 높거나 사이트가 발행을 보류한 날입니다. 강행하려면 Claude Code 에서 start breakout 을 직접 돌리고 --force 여부를 정하세요.
-$(grep '⛔' "$OUT" | tail -1 | cut -c1-200)"
 elif [ "$JOB" = research ] && [ "$(git rev-parse HEAD 2>/dev/null)" = "$HEAD0" ]; then
-  # 2026-09-29 첫 시험: 오늘 분이 이미 있어 Claude 가 재실행하지 않았는데 "업데이트 완료"라고 알렸다. 구분한다.
-  tg "ℹ️ $TITLE — 새로 만든 것 없음 ($STARTED → $ENDED). 오늘 분이 이미 있어 다시 만들지 않았습니다.
+  # 판정은 글자가 아니라 사실로 한다: 끝에 push 하는 작업인데 커밋이 늘지 않았으면 새로 만든 것이 없다.
+  #   2026-09-29 시험 1: 오늘 분이 이미 있어 재실행하지 않았는데 "업데이트 완료"라고 알렸다.
+  #   2026-09-29 시험 2: 출력에서 ⛔ 글자를 찾았더니 "⛔ 중단은 없었다"는 문장까지 중단으로 읽었다.
+  # 이유(이미 있음 / ⛔ 결측률 / 그 밖)는 추측하지 않고 Claude 가 쓴 첫 줄을 그대로 붙인다.
+  tg "ℹ️ $TITLE — 새로 만든 것 없음 ($STARTED → $ENDED)
+$HEADLINE
 $URL"
 else
   tg "$TITLE 업데이트 완료 ($STARTED → $ENDED)
