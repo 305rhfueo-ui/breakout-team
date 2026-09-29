@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.breakout.research</string>
+  <!-- start breakout — 2·4·5팀 LLM 조사 + 실장 리포트. 매매에는 쓰이지 않는 읽기용 리포트라 07:10 스캔 뒤 09:00 에 돈다.
+       미국 장 마감이 KST 화~토 새벽이므로 화·수·목·금·토만 돈다 (일·월은 금요일 데이터의 재탕).
+       Weekday: 0=일 1=월 2=화 3=수 4=목 5=금 6=토. 시각은 맥의 시스템 시간대(서울, 섬머타임 없음) 기준.
+       claude CLI 가 필요하다 — install.sh 는 CLI 가 있을 때만 이 작업을 등록한다. run-claude-job.sh 가 결과를 텔레그램으로 보낸다. -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/caffeinate</string><string>-s</string>
+    <string>/bin/bash</string><string>__REPO__/deploy/macmini/run-claude-job.sh</string><string>research</string>
+  </array>
+  <key>WorkingDirectory</key><string>__REPO__</string>
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Weekday</key><integer>2</integer><key>Hour</key><integer>9</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Weekday</key><integer>3</integer><key>Hour</key><integer>9</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Weekday</key><integer>4</integer><key>Hour</key><integer>9</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Weekday</key><integer>5</integer><key>Hour</key><integer>9</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Weekday</key><integer>6</integer><key>Hour</key><integer>9</integer><key>Minute</key><integer>0</integer></dict>
+  </array>
+  <key>StandardOutPath</key><string>__LOGS__/research.log</string>
+  <key>StandardErrorPath</key><string>__LOGS__/research.err.log</string>
+  <key>EnvironmentVariables</key>
+  <dict><key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string></dict>
+</dict>
+</plist>

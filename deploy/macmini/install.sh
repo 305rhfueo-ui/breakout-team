@@ -14,9 +14,13 @@ REPO="$(cd "$(dirname "$0")/../.." && pwd)"
 AGENTS="$HOME/Library/LaunchAgents"
 LOGS="$HOME/Library/Logs/breakout-team"
 JOBS="com.breakout.daily com.breakout.night"
+# Claude 가 돌아야 하는 작업 — claude CLI 가 있을 때만 등록한다 (run-claude-job.sh 참고)
+#   com.breakout.research  화~토 09:00  start breakout (LLM 조사 + 실장 리포트, Opus 5)
+#   com.breakout.review    일   09:00  /review (모의투자 주간 리뷰)
+CLAUDE_JOBS="com.breakout.research com.breakout.review"
 
 if [ "$1" = "remove" ]; then
-  for j in $JOBS; do launchctl unload "$AGENTS/$j.plist" 2>/dev/null || true; rm -f "$AGENTS/$j.plist"; done
+  for j in $JOBS $CLAUDE_JOBS; do launchctl unload "$AGENTS/$j.plist" 2>/dev/null || true; rm -f "$AGENTS/$j.plist"; done
   echo "등록을 해제했습니다."
   exit 0
 fi
@@ -52,6 +56,16 @@ for j in $JOBS; do
   launchctl load "$AGENTS/$j.plist"
   echo "등록: $j"
 done
+if command -v claude >/dev/null 2>&1 || [ -x /usr/local/bin/claude ] || [ -x /opt/homebrew/bin/claude ]; then
+  for j in $CLAUDE_JOBS; do
+    sed -e "s|__REPO__|$REPO|g" -e "s|__LOGS__|$LOGS|g" "$REPO/deploy/macmini/$j.plist" > "$AGENTS/$j.plist"
+    launchctl unload "$AGENTS/$j.plist" 2>/dev/null || true
+    launchctl load "$AGENTS/$j.plist"
+    echo "등록: $j"
+  done
+else
+  echo "claude CLI 가 없어 research/review 작업은 건너뜁니다.  npm install -g @anthropic-ai/claude-code && claude login  뒤에 다시 실행하세요."
+fi
 
 echo
 echo "✅ 설치 완료"

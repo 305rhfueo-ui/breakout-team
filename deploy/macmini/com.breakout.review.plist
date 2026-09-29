@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.breakout.review</string>
+  <!-- /review — 6팀 모의투자 주간 리뷰. 토요일 새벽에 금요일 장이 끝나 한 주가 완결되므로 일요일 09:00 에 돈다.
+       결과는 docs/STRATEGY-LOG.md 에 붙고 텔레그램으로 링크가 간다. 거래 30건이 쌓이기 전에는 성적으로 규칙을 바꾸지 않는다.
+       Weekday 0 = 일요일. claude CLI 가 필요하다. -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/caffeinate</string><string>-s</string>
+    <string>/bin/bash</string><string>__REPO__/deploy/macmini/run-claude-job.sh</string><string>review</string>
+  </array>
+  <key>WorkingDirectory</key><string>__REPO__</string>
+  <key>StartCalendarInterval</key>
+  <dict><key>Weekday</key><integer>0</integer><key>Hour</key><integer>9</integer><key>Minute</key><integer>0</integer></dict>
+  <key>StandardOutPath</key><string>__LOGS__/review.log</string>
+  <key>StandardErrorPath</key><string>__LOGS__/review.err.log</string>
+  <key>EnvironmentVariables</key>
+  <dict><key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string></dict>
+</dict>
+</plist>
