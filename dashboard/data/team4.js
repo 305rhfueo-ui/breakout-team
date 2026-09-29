@@ -1,5 +1,5 @@
 window.TEAM4_DATA = {
-  "generated": "2026-09-29",
+  "generated": "2026-09-30",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2,
@@ -113,7 +113,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-09-29",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -223,7 +223,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-09-29",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -289,7 +289,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-09-29",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -355,7 +355,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-09-29",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -421,7 +421,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-09-29",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -487,7 +487,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-09-29",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -588,7 +588,7 @@ window.TEAM4_DATA = {
         "categoryName": "대형 파트너십·공급계약",
         "isHighlight": false,
         "researchedOn": "2026-09-29",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -696,7 +696,7 @@ window.TEAM4_DATA = {
         "categoryName": "기업 턴어라운드",
         "isHighlight": false,
         "researchedOn": "2026-09-29",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -762,7 +762,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-09-29",
-        "carried": false
+        "carried": true
       }
     }
   ],
@@ -802,23 +802,17 @@ window.TEAM4_DATA = {
   "research_coverage": {
     "done": 9,
     "total": 9,
-    "cap": 9,
+    "cap": null,
     "pending": 0,
     "failed": 0,
-    "carried": 0,
+    "carried": 9,
     "ineligible": 0,
-    "note": "150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 9종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
-  "llm": {
+  "llmCarried": {
     "highlights": [],
     "sectorSignal": "촉매가 특정 섹터·업종에 몰리지 않았다. 입력 9개 종목 중 6개가 카테고리 6(뉴스 없는 이상거래량)이고, 나머지도 M&A(ATKR·ITGR, 인수 딜), CEO 교체(MDB), 내부자 매수(HHH)로 업종이 제각각이다. 근거가 있는 종목만 보면 인수합병 관련이 ATKR(Prysmian 인수)과 ITGR(KKR 인수 기사) 두 건이다. 그러나 이 둘은 서로 무관한 개별 딜이라 섹터 테마로 보기 어렵다.",
     "caution": "이번 입력에는 카테고리 1(어닝 서프라이즈·가이던스 상향)이나 5(산업 기술 돌파)로 분류된 종목이 없어 강조할 후보가 없다. 근거가 붙은 종목은 HHH, ATKR, ITGR, MDB 4개뿐이고, CM·MDT·TRNS·CFFI·AEM은 '근거 없음'으로 촉매를 확인하지 못했다. ATKR은 인수가 $95.00 현금 딜이라 주가가 딜 가격에 묶일 가능성이 크다. 같은 날 실적이 컨센서스를 상회했으나 딜 프라이싱이 지배한다고 했으므로, 이 종목의 실적은 에피소딕 피벗 신호로 보기 어렵다. ITGR은 KKR 인수 기사 본문을 열람하지 못해 딜 가격·프리미엄·클로징 조건이 미확인이다. ITGR의 Q2 실적 상회와 20.2% 급등(8/3)은 오늘 거래량과 시차가 있다. MDB는 급등락의 방향이 자료로 확인되지 않았다. 이 분류는 제공된 뉴스·공시 텍스트에만 근거한다. 차트 국면(횡보·돌파·리테스트)은 가격 데이터를 받지 않아 판정하지 않았고, 웹검색으로 보완하지도 않았다.",
     "researchedOn": "2026-09-29"
-  },
-  "reusedFrom": null,
-  "byCategory": {
-    "3": 1,
-    "4": 1,
-    "6": 7
   }
 };

@@ -1,5 +1,5 @@
 window.TEAM5_DATA = {
-  "generated": "2026-09-29",
+  "generated": "2026-09-30",
   "note": "WRS(1MO)/(3MO) 는 사이트에 없어 공식대로 자체 계산한 값입니다 (WRS_6mo 는 사이트와 대조 검증 통과)",
   "validation": {
     "comparable": 140,
@@ -521,7 +521,7 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "done",
+    "status": "carried",
     "industries": [
       {
         "key": "Technology|Computer Hardware",
@@ -556,7 +556,7 @@ window.TEAM5_DATA = {
         },
         "leadOriginal": "Computer Hardware(9종목)는 AI 인프라 지출이 서버(DELL)·스토리지(P)·NAND(SNDK)로 번지며 WRS(업종 내 시총가중 평균 RS, QQQ 대비 초과수익률) 1개월 0.1263(상위 0.71%)·6개월 1.2681(상위 0.71%), FRANK 1위로 leading 국면(상승 중반)이다. 서버 백로그, 스토리지 중기 가이던스, 메모리 수급 타이트 전망이 근거다. 다만 9/28 메모리 동반 조정이 나와 Micron 실적(9/30)이 단기 분기점이다.",
         "researchedOn": "2026-09-29",
-        "carried": false
+        "carried": true
       },
       {
         "key": "Technology|Semiconductors",
@@ -623,7 +623,7 @@ window.TEAM5_DATA = {
           "reason": ""
         },
         "researchedOn": "2026-09-29",
-        "carried": false
+        "carried": true
       },
       {
         "key": "Industrials|Electrical Equipment & Parts",
@@ -665,7 +665,7 @@ window.TEAM5_DATA = {
         },
         "leadOriginal": "Electrical Equipment & Parts는 12종목 업종으로, 1개월 WRS 0.0867(QQQ 대비 시총가중 초과수익률, 상위 1.43%)·6개월 WRS 0.3847(상위 6.43%)로 강하지만 3개월 WRS -0.0932(상위 77.14%)라 강세가 중간에 끊겼다가 재개된 형태다. 2팀 선정 종목 BE(Bloom Energy)의 AI 데이터센터 온사이트 전력 수요와 백로그 기사가 memberNews의 중심이다. 자금흐름은 Final_WRS 순위 11위(25거래일 +15)로 개선됐으나 국면은 미형성·pending이다.",
         "researchedOn": "2026-09-29",
-        "carried": false
+        "carried": true
       },
       {
         "key": "Energy|Oil & Gas Refining & Marketing",
@@ -710,7 +710,7 @@ window.TEAM5_DATA = {
         },
         "leadOriginal": "Oil & Gas Refining & Marketing(업종 내 7종목, 2팀 선정 DINO·VLO)은 원유를 정제해 휘발유·디젤을 판매하는 정유 업종으로, 3개월 WRS(업종 내 시총가중 평균 RS, QQQ 대비 초과수익률) 0.4501(상위 0.71%), 6개월 0.5547(상위 2.14%)로 중장기 상대강도가 최상위다. 디젤 크랙 스프레드가 사상 최고 수준이라는 보도가 강세 논리의 중심이다. 다만 1개월 WRS는 0.0826(상위 2.86%)로 둔화됐고 Final_WRS 순위(FRANK) 6에 25거래일 순위변동 -4, 흐름 outflow, 국면 후반 수축이어서 모멘텀은 정점 이후 국면으로 읽힌다.",
         "researchedOn": "2026-09-29",
-        "carried": false
+        "carried": true
       },
       {
         "key": "Technology|Software - Infrastructure",
@@ -798,7 +798,7 @@ window.TEAM5_DATA = {
         },
         "leadOriginal": "Software - Infrastructure(33종목)는 보안·아이덴티티·네트워크 엣지 등 기업 IT 인프라 소프트웨어 업종으로, WRS(업종 내 시총가중 평균 RS, QQQ 대비 초과수익률) 3개월 0.2865(상위 1.43%)·6개월 0.4722(상위 3.57%)로 중기 강세가 뚜렷하다. 1개월 WRS는 0.0161(상위 15.71%)로 단기 모멘텀은 둔화돼 있으나 Final_WRS 순위(FRANK)는 4위, 25거래일 순위변동 +1이며 국면은 상승 중반(leading)이다. 강세 논리는 AI 관련 보안·아이덴티티 수요 기사와 컨센서스 상향 비율 79.10%(n=2105)로 뒷받침되나, 웹 원문 열람이 시간 초과로 실패해 기사 본문 수치는 확인하지 못했다.",
         "researchedOn": "2026-09-29",
-        "carried": false
+        "carried": true
       },
       {
         "key": "Technology|Electronics & Computer Distribution",
@@ -872,7 +872,7 @@ window.TEAM5_DATA = {
         },
         "leadOriginal": "Electronics & Computer Distribution은 전자부품·IT 하드웨어 유통(Arrow, Avnet, TD SYNNEX 등)으로, 업종 내 5종목의 시총가중 WRS(QQQ 대비 초과수익률)가 1개월 0.0651·3개월 0.1207·6개월 0.5541이다(6개월 상위 2.86%). 주요 유통사 3곳이 직전 분기 매출 YoY +32~48%와 컨센서스 상회 가이던스를 제시했고, 컨센서스 상향 비율 93.18%(n=88)가 이를 뒷받침한다. 다만 F10d -5.88%로 단기 모멘텀은 둔화 중이며 국면은 상승 중반(확장 중)이다.",
         "researchedOn": "2026-09-29",
-        "carried": false
+        "carried": true
       },
       {
         "driver": "macro",
@@ -1588,8 +1588,7 @@ window.TEAM5_DATA = {
       ],
       "caution": "Computer Hardware는 researched:true이나 근거가 '근거 없음'이라 강세 이유를 확인할 수 없다. Semiconductors 서사(MXL, ALAB, MRVL)는 기사 제목 기준이며 수치 근거가 없고, Software - Infrastructure의 AI 보안 테마와 Electrical Equipment 가이던스는 원문 미열람 상태다. 6개 업종 모두 durability가 cyclical이며, Oil & Gas Refining은 commodity 드라이버라 크랙 스프레드 변동에 민감하다."
     },
-    "summaryResearchedOn": "2026-09-29",
-    "reusedFrom": null
+    "summaryResearchedOn": "2026-09-29"
   },
   "flow": {
     "baseline": {
@@ -7904,15 +7903,5 @@ window.TEAM5_DATA = {
         ]
       }
     ]
-  },
-  "research_coverage": {
-    "done": 16,
-    "total": 10,
-    "cap": 6,
-    "pending": 0,
-    "failed": 0,
-    "carried": 10,
-    "ineligible": 0,
-    "note": "그중 10업종은 최근 조사분을 이월했습니다(조사일 표기)."
   }
 };
