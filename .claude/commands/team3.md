@@ -8,14 +8,14 @@ description: 3팀 추적 상세 보고 — breakout-team
 
 ## 자료 위치
 
-REPO: `c:\Users\305le\OneDrive\바탕 화면\AI 관련\클로드코드test\breakout-team`
+REPO: `~/AI/breakout-team`
 
 1. `dashboard/data/team3.js` 의 `TEAM3_DATA (dashboard/data/team3.js)` 를 읽는다 (`window.TEAM3_DATA = {...};` 형태)
 2. `analysis/reports/{오늘날짜}-breakout.md` 의 3팀 섹션도 함께 참고한다
 
 파일이 없거나 오래됐으면 먼저 실행한다:
 ```bash
-cd "c:\Users\305le\OneDrive\바탕 화면\AI 관련\클로드코드test\breakout-team" && node scripts/run-breakout.js
+cd "~/AI/breakout-team" && node scripts/run-breakout.js
 ```
 
 ## 보고 내용

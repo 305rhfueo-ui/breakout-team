@@ -7,7 +7,7 @@ argument-hint: "[없음 | TICKER,TICKER | watch]"
 
 사용자가 `차트 읽어줘`, `차트 분석`, `/chart-read` 라고 하면 실행한다.
 
-REPO: `c:\Users\305le\OneDrive\바탕 화면\AI 관련\클로드코드test\breakout-team`
+REPO: `~/AI/breakout-team`
 
 ## 왜 이건 되고 팀 에이전트는 안 되나
 

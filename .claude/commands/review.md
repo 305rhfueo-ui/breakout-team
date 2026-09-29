@@ -6,7 +6,7 @@ description: 6팀 모의투자 주간 리뷰 — 성적을 구간별로 세고 C
 
 사용자가 `리뷰`, `주간 리뷰`, `모의투자 성적`, `/review` 라고 하면 실행한다.
 
-REPO: `c:\Users\305le\OneDrive\바탕 화면\AI 관련\클로드코드test\breakout-team`
+REPO: `~/AI/breakout-team`
 
 ## 절차
 

@@ -5,7 +5,7 @@ argument-hint: "[없음 | 돌파 TICKER | 배제 TICKER 사유]"
 
 # 차트 확인
 
-REPO: `c:\Users\305le\OneDrive\바탕 화면\AI 관련\클로드코드test\breakout-team`
+REPO: `~/AI/breakout-team`
 
 ## 인자 없이 부른 경우 — 오늘 봐야 할 종목 보고
 

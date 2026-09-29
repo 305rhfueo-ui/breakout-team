@@ -8,7 +8,7 @@ argument-hint: "[light | full]  (기본 full)"
 `breakout-team/` 의 5팀 시스템을 실행한다. 사용자가 `start breakout`, `브레이크아웃 실행`,
 `/start-breakout` 중 무엇으로 부르든 이 절차를 따른다.
 
-REPO 경로: `c:\Users\305le\OneDrive\바탕 화면\AI 관련\클로드코드test\breakout-team`
+REPO 경로: `~/AI/breakout-team`
 
 ## 최우선 원칙
 
@@ -28,7 +28,7 @@ REPO 경로: `c:\Users\305le\OneDrive\바탕 화면\AI 관련\클로드코드tes
 ### 1. Node 파이프라인 (필수, 약 1분)
 
 ```bash
-cd "c:\Users\305le\OneDrive\바탕 화면\AI 관련\클로드코드test\breakout-team"
+cd "~/AI/breakout-team"
 node scripts/run-breakout.js
 ```
 
