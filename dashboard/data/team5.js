@@ -521,232 +521,170 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "carried",
+    "status": "done",
     "industries": [
       {
-        "driver": "technology",
-        "durability": "cyclical",
-        "industry": "Computer Hardware",
         "key": "Technology|Computer Hardware",
+        "industry": "Computer Hardware",
+        "lead": "근거 없음 — 출처 검증을 통과한 강세 사유가 없다 (4개 주장 제거: 숫자·날짜가 인용문에 없음)",
+        "whyStrong": [
+          {
+            "id": "none",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "driver": "earnings",
+        "durability": "cyclical",
+        "risk": "Micron FY4Q(9/30) 실적·가이던스가 메모리 공급과잉 우려(9/28 삼성전자 -5.4%, SK Hynix -5.1%)를 키우면 SNDK 리레이팅이 훼손된다. DELL은 $95B 백로그의 인도 속도와 GPU 등 공급망 제약이 마진에 반영되지 않으면 논리가 약해진다. 미 10년물 금리가 5.22% 부근인 상태에서 200일선 이격 중앙값 37.37%의 과열은 조정 폭을 키울 수 있다. 컨센서스 상향 비율 86.99%가 꺾이고 FRANK가 1위에서 이탈하면 강세 논리가 붕괴한 것으로 본다.",
         "keyStocks": [
+          "P",
           "DELL",
           "SNDK"
         ],
-        "lead": "Technology/Computer Hardware 업종은 6개월 WRS 상위 0.71%, Final_WRS 순위 1위로 Node 자금흐름 지표상 최상단에 있으며, 이 강세는 Dell의 AI 서버 백로그 급증과 Sandisk를 중심으로 한 NAND 메모리 공급부족·가격 급등이라는 두 축에서 비롯된다. Dell은 AI 서버 백로그가 950억달러로 사상 최대치를 기록하며 컨센서스 목표주가가 13.95% 상향됐고, Sandisk는 NAND 가격 급등에 힘입어 매출이 QoQ +51% 증가하며 주가가 최근 12개월간 1,700% 올랐다.",
-        "risk": "NAND 가격 급등은 반도체 메모리 업계 특유의 boom-bust 사이클 초입일 가능성이 있으며, Sandisk 자체가 6월25일 고점(2,335달러) 대비 33% 낮은 수준에서 거래되고 있어 가격 사이클이 정점을 지날 경우 밸류에이션 리레이팅이 되돌려질 수 있다. Dell의 AI 서버 백로그(950억달러)는 수주 기준 수치로, 실제 매출 인식·마진 전환 시점과 GPU 등 부품 공급 제약이 FY2027 AI 서버 매출 3배 성장(740억달러) 가이던스의 이행 여부를 좌우한다. Node 지표상 1개월 WRS(상위 1.43%)가 3개월 WRS(상위 25.71%)보다 훨씬 강해 최근 단기 자금 쏠림이 반영됐을 가능성이 있으므로, 이 랭크의 지속 여부는 25거래일 순위변동(현재 0)과 F10d 13.61%·F25d 19.68% 추이로 확인해야 한다. IDC가 전망한 2026년 NAND·DRAM 공급 증가율(각 17%·16%)과 실제 반도체 업체들의 캐펙스 집행이 어긋나면 공급부족 전제 자체가 흔들릴 수 있다.",
-        "whyStrong": [
-          {
-            "id": "dell_backlog",
-            "statement": "Dell은 회계 2분기(7월31일 마감) 말 기준 AI 서버 백로그가 950억달러로 사상 최대치를 기록했으며, 분기 중 신규 AI 서버 수주가 609억달러(1분기 240억달러 대비 급증)에 달했다. Dell은 FY2027 AI 서버 매출이 3배 증가한 740억달러에 이를 것으로 전망했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Dell's AI Server Orders Reached $61 Billion in the Second Quarter, and the Pipeline Keeps Growing",
-                "publisher": "Yahoo Finance / The Motley Fool",
-                "url": "https://finance.yahoo.com/technology/ai/articles/dells-ai-server-orders-reached-150500215.html",
-                "date": "2026-09-16",
-                "quote": "Dell exited its fiscal second quarter (ended July 31, 2026) with a record $95 billion backlog after receiving $60.9 billion of new AI server orders. Dell Technologies booked $61 billion in artificial intelligence server orders during Q2, up from $24 billion in Q1.",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Prediction: Dell's AI Server Backlog Makes It a Sneaky Way to Play the Nvidia Supercycle",
-                "publisher": "The Motley Fool",
-                "url": "https://www.fool.com/investing/2026/09/16/prediction-dells-ai-server-backlog-makes-it-a-snea/",
-                "date": "2026-09-16",
-                "quote": "Dell now expects its AI server revenue to increase 3x in fiscal 2027 to $74 billion, which exceeds the overall AI server market's growth rate.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "dell_consensus_target",
-            "statement": "Dell의 평균 목표주가는 8월25일 511.05달러에서 9월15일 582.33달러로 13.95% 상향됐으며(범위 469.65~735달러), RBC Capital(9/10, Outperform 신규 커버리지)과 Evercore ISI(9/9, Outperform 유지)가 뒤따랐다. 9월1일 기준 총 35건의 애널리스트 추천 중 71.4%가 매수(긍정) 의견이다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Dell Technologies Consensus Price Target Increased by 13.95% to $582.33",
-                "publisher": "Fintel (Nasdaq 경유)",
-                "url": "https://www.nasdaq.com/articles/dell-technologies-consensus-price-target-increased-1395-58233",
-                "date": "2026-09-15",
-                "quote": "Dell Technologies' average one-year price target has been revised to $582.33 per share from $511.05 on August 25, 2026, an increase of 13.95%... RBC Capital initiating coverage on September 10, 2026, with an Outperform rating, and Evercore ISI Group maintaining an Outperform rating on September 9, 2026. As of the September 1, 2026 recommendation period, the company had 35 total recommendations, with 71.4% positive and 28.6% hold recommendations.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "sndk_nand_shortage",
-            "statement": "SanDisk의 FY4분기(7월 초 마감) 매출은 89.7억달러로 QoQ +51%를 기록했고, 증가분의 약 3분의2가 가격 상승, 3분의1이 물량 증가에서 비롯됐다. 경영진은 2026년 NAND 시장 규모가 전년 대비 약 3배인 3000억달러를 넘어설 것으로 보고 있으며, IDC는 2026년 NAND 공급 증가율을 약 17%(DRAM 약 16%)로 예상해 AI 수요 증가 속도를 밑돈다고 지적한다. Zacks는 이번 분기 NAND 가격이 순차적으로 60%, 다음 분기 추가 25% 오를 것으로 전망한다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "The Memory Shortage Is Not Over: More Upside for Micron and Sandisk?",
-                "publisher": "Zacks Investment Research (Yahoo Finance 경유)",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/memory-shortage-not-over-more-180200318.html",
-                "date": "2026-09-17",
-                "quote": "IDC expects 2026 supply growth of only about 16% for DRAM and 17% for NAND, well below what AI demand requires. NAND flash, the storage used in SSDs, is up about 3x over the same stretch of the first nine months of 2026... In its fiscal fourth quarter, which ended in early July, revenue reached $8.97 billion, up 51% sequentially. Roughly two-thirds of that increase came from higher pricing and another third from higher volumes. Management believes the total NAND market could exceed $300 billion in 2026, roughly triple last year's level... Hosseini forecasting a 60% sequential increase this quarter and a further 25% rise in the following quarter.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "sndk_rerating",
-            "statement": "Sandisk 주가는 최근 12개월간 약 1,700% 상승했으나 6월25일 고점(2,335달러) 대비로는 약 33% 낮은 수준(9월15일 종가 1,552달러)이다. 2025년 2월13일 스핀오프 당시 35달러에서 출발해 누적 수익률은 약 4,334%에 달하며, 현재 밸류에이션은 후행 PER 22배·선행 PER 7배 수준이다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Sandisk Is Up More Than 1,700% in a Year and Still 33% Off Its Peak. History Says This is What Happens Next.",
-                "publisher": "The Motley Fool",
-                "url": "https://www.fool.com/investing/2026/09/17/sandisk-is-up-more-than-1700-in-a-year-and-still-3/",
-                "date": "2026-09-17",
-                "quote": "Sandisk started trading at $35 per share on February 13, 2025, and as of September 15, 2026, it's trading at $1,552 per share, representing a total return of 4,334%... Over the past 12 months, Sandisk has returned a staggering 1,700%, but the stock is down about 33% from its peak, which closed at $2,335 per share on June 25... trading at 22 times earnings and just 7 times forward earnings.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
         "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "researchedOn": "2026-09-21",
-        "carried": true
-      },
-      {
-        "driver": "technology",
-        "durability": "structural",
-        "industry": "Electronics & Computer Distribution",
-        "key": "Technology|Electronics & Computer Distribution",
-        "keyStocks": [
-          "ARW",
-          "AVT",
-          "SNX",
-          "NSIT",
-          "CNXN"
-        ],
-        "lead": "Electronics & Computer Distribution 업종은 반도체·전자부품 유통업체들이 AI 인프라 구축 수요 급증을 실적으로 흡수하며 강세를 보이고 있다. 이에 따라 업종 대형주들의 최근 1년 주가 수익률도 70%대를 기록하는 등 실적과 주가 모멘텀이 동반되고 있다.",
-        "risk": "이 업종은 재고·가격 사이클에 민감한 유통 비즈니스 모델이라는 구조적 리스크를 안고 있으며, Arrow·Avnet·TD Synnex 모두 30%대 매출 성장을 보고했지만 ARW의 Global ECS 부문 영업이익은 오히려 -12% YoY 감소해 부품 유통과 솔루션 사업 간 수익성 괴리가 존재한다. Node 지표상 200일선 이격 중앙값이 28.42%로 여전히 높지만 최근 25거래일간 -1.95%p 축소됐고, 3개월 WRS가 상위 37.14%에 그쳐 6개월(상위 1.43%)·1개월(상위 4.29%) 대비 상대적으로 둔화된 구간을 거쳤다는 점, 국면 태그가 \"중반이나 수축 중\"으로 표시된 점은 초과수익 모멘텀의 연속성이 아직 확정적이지 않음을 시사한다. 하이퍼스케일러 CapEx 가이던스가 둔화되거나 반도체 재고 정상화(디스톡킹) 신호가 나타나는지 확인이 필요하다. Node 백테스트 승률이 1%로 낮게 나타난 현 진입구간에서 F10d·F25d 기준 순위 상승(+15.87%~+23.42%)이 아직 pending 상태인 자금흐름(flow) 신호로 실제 확인되는지가 관찰 포인트다.",
-        "whyStrong": [
-          {
-            "id": "sector_wide_outperformance",
-            "statement": "업종 내 대형주들의 주가 성과도 실적 모멘텀과 궤를 같이한다. Avnet은 최근 1년간 +79.19%, Arrow Electronics는 +78.53% 상승했고(2026년 9월 조회 기준), 업종 내 상위등급(A등급) 종목들의 연평균 수익률은 +28.50%로 집계됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Electronics & Computer Distribution Stocks - Industry List",
-                "publisher": "WallStreetZen",
-                "url": "https://www.wallstreetzen.com/industries/best-electronics-computer-distribution-stocks",
-                "date": "2026-09-21",
-                "quote": "AVT | Avnet Inc | NASDAQ | A | $7.89B | $96.12 | +3.22% | 23.62x | +79.19% YoY",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "factcheck": {
-          "verdict": "partial",
+          "verdict": "reject",
           "removed": [
-            "arw_backlog_growth",
-            "avt_ai_exposure_rise",
-            "snx_hyve_ai_demand"
+            "w1",
+            "w2",
+            "w3",
+            "w4"
           ],
           "reason": "",
           "leadFixed": true
         },
-        "leadOriginal": "Electronics & Computer Distribution 업종은 반도체·전자부품 유통업체들이 AI 인프라 구축 수요 급증을 실적으로 흡수하며 강세를 보이고 있다. Arrow Electronics와 Avnet은 각각 2026회계연도 분기 매출이 전년동기대비 32%, 34% 증가했고 AI·데이터센터向 매출 비중이 확대되고 있다고 밝혔으며, TD Synnex는 AI 서버 위탁생산 자회사 Hyve의 청구액이 117% 급증하며 사상 최대 분기 실적을 기록했다. 이에 따라 업종 대형주들의 최근 1년 주가 수익률도 70%대를 기록하는 등 실적과 주가 모멘텀이 동반되고 있다.",
-        "researchedOn": "2026-09-21",
-        "carried": true
+        "leadOriginal": "Computer Hardware(9종목)는 AI 인프라 지출이 서버(DELL)·스토리지(P)·NAND(SNDK)로 번지며 WRS(업종 내 시총가중 평균 RS, QQQ 대비 초과수익률) 1개월 0.1263(상위 0.71%)·6개월 1.2681(상위 0.71%), FRANK 1위로 leading 국면(상승 중반)이다. 서버 백로그, 스토리지 중기 가이던스, 메모리 수급 타이트 전망이 근거다. 다만 9/28 메모리 동반 조정이 나와 Micron 실적(9/30)이 단기 분기점이다.",
+        "researchedOn": "2026-09-29",
+        "carried": false
+      },
+      {
+        "key": "Technology|Semiconductors",
+        "industry": "Semiconductors",
+        "lead": "Semiconductors(43종목)는 WRS(업종 내 시총가중 평균 RS, QQQ 대비 초과수익률) 6개월 0.6148로 상위 1.43%, 1개월 0.0651(상위 5.71%), 3개월 0.0603(상위 18.57%)이며 Final_WRS 순위(FRANK)는 2위로 25거래일간 +1 상승했다. 200일선 이격 중앙값은 14.755%(25거래일 +2.035%p), 50일선 이격은 4.31%로 국면은 상승 초입·leading이다. 강세의 실체는 AI 인프라 연결·광 소재 종목군과 RF 업종 재편(Skyworks-Qorvo)이며, 컨센서스 상향 비율 79.24%(n=2076)가 뒷받침한다.",
+        "whyStrong": [
+          {
+            "id": "w1",
+            "statement": "자금흐름 지표가 6개월 강세의 확산과 가속을 보여준다. Final_WRS 10일 전 대비 +17.66%, 25일 전 대비 +33.20%이며 FRANK 2위. 단 1·3개월 WRS(0.0651/0.0603)는 6개월(0.6148)보다 낮아 초과수익의 상당 부분이 과거 구간에 누적된 것으로 읽힌다. Node 확정 수치이며 외부 출처 없음.",
+            "evidence_level": "no_source",
+            "sources": []
+          },
+          {
+            "id": "w2",
+            "statement": "AI 인프라 연결·광 관련 종목(MXL, ALAB, MRVL)이 업종 서사를 주도한다. 제공된 기사 제목 기준으로 MXL은 AI 광(optical) 성장 가속 논의 대상이며, ALAB·MRVL은 AVGO 등과 비교되는 AI 반도체 후보로 다뤄진다. 기사 본문은 열람하지 못해 수치 근거는 없다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "MXL's AI Optical Growth Accelerates: Can It Challenge AVGO & MRVL?",
+                "publisher": "Zacks (nasdaq.com 게재)",
+                "url": "https://www.nasdaq.com/articles/mxls-ai-optical-growth-accelerates-can-it-challenge-avgo-mrvl",
+                "date": "2026-08-26",
+                "quote": "MXL's AI Optical Growth Accelerates: Can It Challenge AVGO & MRVL?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "RF 부문 재편: Skyworks가 Qorvo 인수 건을 연내 종결로 전망하고 $500M 시너지를 목표로 제시했다. SWKS·QRVO 두 종목이 모두 선정 종목에 포함되어 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Skyworks Solutions Sees Qorvo Deal Closing This Year, Targets $500M in Synergies",
+                "publisher": "MarketBeat (nasdaq.com 게재)",
+                "url": "https://www.nasdaq.com/articles/skyworks-solutions-sees-qorvo-deal-closing-year-targets-500m-synergies",
+                "date": "2026-09-11",
+                "quote": "Skyworks Solutions Sees Qorvo Deal Closing This Year, Targets $500M in Synergies",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "earnings",
+        "durability": "cyclical",
+        "keyStocks": [
+          "MRVL",
+          "ALAB",
+          "MXL",
+          "SMTC",
+          "SWKS",
+          "QRVO",
+          "INTC",
+          "QCOM"
+        ],
+        "risk": "1·3개월 WRS(0.0651/0.0603)가 6개월(0.6148)을 크게 하회하므로 최근 초과수익이 둔화되어 6개월 수치가 과거 랠리에 의존할 수 있다. 당해 연도 컨센서스 변화 중앙값 0%, 차기 0.165%로 상향 폭이 작아 실적 상향이 주가를 뒷받침하지 못하면 논리가 약해진다. 승률 0.9302%, 200일선 이격 14.755%는 이미 확장된 구간이라는 점도 확인 대상이다. 200일선 이격 확대가 멈추고 FRANK가 하락 전환하거나 SWKS-QRVO 종결이 지연되면 이 강세 논리는 붕괴한다. INTC가 9/28 시장 대비 약세를 보인 점(Zacks 제목 기준)은 업종 내 분산의 신호로 확인해야 한다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w4"
+          ],
+          "reason": ""
+        },
+        "researchedOn": "2026-09-29",
+        "carried": false
+      },
+      {
+        "key": "Industrials|Electrical Equipment & Parts",
+        "industry": "Electrical Equipment & Parts",
+        "lead": "Electrical Equipment & Parts는 BE(Bloom Energy)의 2026 가이던스(매출 $3.1B-3.3B, 이익 2배 증가)로 강세를 보이고 있다.",
+        "whyStrong": [
+          {
+            "id": "w2",
+            "statement": "BE 2026 가이던스는 매출 31~33억 달러(YoY 50% 초과), non-GAAP 매출총이익률 약 32%, 조정 EPS 1.33~1.48달러로 이익이 약 2배 증가하는 구조다. 가이던스 출처는 검색 요약으로만 확인했고 원문 페이지를 열람하지 못했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Bloom Energy Corp - Form 8-K - FY2026",
+                "publisher": "SEC (원출처: 회사 8-K 보충자료)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026005798/q4-2025xsupplementalxdec.htm",
+                "date": "2026-02",
+                "quote": "total revenue of $3.1B - $3.3B with over 50% year-over-year growth, non-GAAP gross margin of approximately 32% (up 200 basis points), non-GAAP operating income of $425M - $475M (approximately doubling), and adjusted EPS of $1.33 - $1.48 (approximately doubling)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "earnings",
+        "durability": "cyclical",
+        "keyStocks": [
+          "BE"
+        ],
+        "risk": "3개월 WRS -0.0932(상위 77.14%)가 보여주듯 강세가 지속적이지 않았고, 업종 12종목 중 근거 자료가 BE 한 종목에 치우쳐 있어 업종 전체의 강세로 일반화하기 어렵다. 논리가 깨지는 조건은 BE의 백로그 매출 전환이 가이던스(매출 31~33억 달러, 매출총이익률 약 32%)를 밑돌거나 2GW 증설이 지연되는 경우, 그리고 컨센서스 상향 비율(90.33%)이 꺾이는 경우다. 50일선 이격 1.445%로 추세 여유가 작아 이탈 시 국면이 미형성에서 회복되지 못할 수 있다. 승률 0.75%도 확인이 필요한 지표다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1",
+            "w3",
+            "w4"
+          ],
+          "reason": "",
+          "leadFixed": true
+        },
+        "leadOriginal": "Electrical Equipment & Parts는 12종목 업종으로, 1개월 WRS 0.0867(QQQ 대비 시총가중 초과수익률, 상위 1.43%)·6개월 WRS 0.3847(상위 6.43%)로 강하지만 3개월 WRS -0.0932(상위 77.14%)라 강세가 중간에 끊겼다가 재개된 형태다. 2팀 선정 종목 BE(Bloom Energy)의 AI 데이터센터 온사이트 전력 수요와 백로그 기사가 memberNews의 중심이다. 자금흐름은 Final_WRS 순위 11위(25거래일 +15)로 개선됐으나 국면은 미형성·pending이다.",
+        "researchedOn": "2026-09-29",
+        "carried": false
       },
       {
         "key": "Energy|Oil & Gas Refining & Marketing",
         "industry": "Oil & Gas Refining & Marketing",
-        "lead": "Oil & Gas Refining & Marketing 업종은 정제마진(크랙 스프레드) 급등을 배경으로 강세다. HF Sinclair(DINO)는 2026년 2분기 조정 정제마진이 배럴당 $25.95로 전년 동기 $16.50 대비 57%($9.45/bbl) 급증했고, Par Pacific(PARR)은 시스템 전체 정제 캡처율 125%(정상화 기준 112%)에 조정순이익 주당 $10.10(전년 대비 +555.8%)을 기록했다. 3-2-1 크랙 스프레드가 배럴당 $64.58로 사상 최고치를 경신하는 등 업종 전반의 마진 환경이 우호적이다.",
+        "lead": "Oil & Gas Refining & Marketing(업종 내 7종목, 2팀 선정 DINO·VLO)은 원유를 정제해 휘발유·디젤을 판매하는 정유 업종으로, 3개월 WRS(업종 내 시총가중 평균 RS, QQQ 대비 초과수익률) 0.4501(상위 0.71%), 6개월 0.5547(상위 2.14%)로 중장기 상대강도가 최상위다. 다만 1개월 WRS는 0.0826(상위 2.86%)로 둔화됐고 Final_WRS 순위(FRANK) 6에 25거래일 순위변동 -4, 흐름 outflow, 국면 후반 수축이어서 모멘텀은 정점 이후 국면으로 읽힌다.",
         "whyStrong": [
           {
-            "id": "crack_spread_record",
-            "statement": "3-2-1 크랙 스프레드가 7월 초 배럴당 $64.58로 사상 최고치를 기록했으며, 타이트한 지역 연료 공급과 디스틸레이트 강세가 이를 뒷받침하고 있다.",
+            "id": "w4",
+            "statement": "밸류에이션 논쟁: 일부 분석은 크랙 스프레드가 지속 불가능하다며 Valero를 Hold로 하향했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "HF Sinclair earnings on deck as crack spreads hit record highs",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/earnings/hf-sinclair-earnings-on-deck-as-crack-spreads-hit-record-highs-93CH-4814476",
-                "date": "2026-07-27",
-                "quote": "The benchmark 3-2-1 crack spread—a key measure of refining profitability—hit a record $64.58 per barrel earlier this month",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "dino_margin_surge",
-            "statement": "HF Sinclair(DINO)의 2026년 2분기 조정 정제마진은 배럴당 $25.95로 전년 동기 $16.50 대비 57% 급증했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "HF Sinclair Corp 2Q 2026: Revenue $10.39B, EPS $4.93— 10-Q Summary",
-                "publisher": "TradingView",
-                "url": "https://www.tradingview.com/news/tradingview:8fa5f3b5668d5:0-hf-sinclair-corp-2q-2026-revenue-10-39b-eps-4-93-10-q-summary/",
-                "date": "2026-07-30",
-                "quote": "Refining performance improved materially with adjusted refinery gross margin at $25.95 per barrel in Q2 versus $16.50 the prior year",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "parr_earnings_beat",
-            "statement": "Par Pacific(PARR)의 2026년 2분기 시스템 전체 정제 캡처율은 125%(정상화 기준 112%)를 기록했고, 조정순이익은 주당 $10.10으로 전년 $1.54 대비 555.8% 증가해 Zacks 컨센서스 $8.20을 23.2% 상회했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Par Pacific Holdings Inc (PARR) (Q2 2026) Earnings Call Highlights: Record Refining Margins and Strategic Debt Reduction Fuel Strong Quarter",
-                "publisher": "GuruFocus",
-                "url": "https://www.gurufocus.com/news/9007599/par-pacific-holdings-inc-parr-q2-2026-earnings-call-highlights-record-refining-margins-and-strategic-debt-reduction-fuel-strong-quarter",
-                "date": "2026-08-05",
-                "quote": "System-Wide Refining Capture: 125%, or 112% on a normalized basis.",
-                "verified": "unverified",
-                "httpStatus": 403
-              },
-              {
-                "title": "PARR Q2 Earnings Beat Estimates on Refining Margin Strength",
-                "publisher": "Zacks (via Yahoo Finance)",
-                "url": "https://finance.yahoo.com/energy/articles/parr-q2-earnings-beat-estimates-143500280.html",
-                "date": "2026-08",
-                "quote": "reported adjusted earnings of $10.10 per share, surging 555.8% from $1.54 a year ago, beating the Zacks Consensus Estimate of $8.20 by 23.2%",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "structural_supply_tightness",
-            "statement": "2025년 미국 정제설비 폐쇄(필립스66 윌밍턴, 발레로 베니시아 등)와 소비 증가가 겹치며 2026년 3대 수송연료(휘발유·디스틸레이트·제트유) 재고가 2000년 이후 최저 수준(약 3억7,500만 배럴)까지 감소할 것으로 전망된다. 9월 11일 기준 정제가동률은 97.8%, 디스틸레이트 재고는 5년 평균 대비 13% 낮아 크랙 스프레드를 구조적으로 지지하고 있다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Refinery closures and rising consumption will reduce U.S. petroleum inventories in 2026",
-                "publisher": "U.S. Energy Information Administration (EIA)",
-                "url": "https://www.eia.gov/todayinenergy/detail.php?id=64644",
+                "title": "Valero: Downgrading To Hold, Unsustainable Crack Spreads Create A Challenging Setup",
+                "publisher": "Seeking Alpha",
+                "url": "https://seekingalpha.com/article/4938206-valero-downgrading-to-hold-unsustainable-crack-spreads-create-challenging-setup",
                 "date": "2026",
-                "quote": "inventories of the three largest transportation fuels are forecast to fall to their lowest levels since 2000, ending at 375 million barrels",
+                "quote": "Valero: Downgrading To Hold, Unsustainable Crack Spreads Create A Challenging Setup",
                 "verified": "unverified",
-                "httpStatus": 0
-              },
-              {
-                "title": "Elevated crack spreads and crude oil prices contribute to higher prices at the pump",
-                "publisher": "U.S. Energy Information Administration (EIA)",
-                "url": "https://www.eia.gov/todayinenergy/detail.php?id=68104",
-                "date": "2026-09-11",
-                "quote": "U.S. refinery utilization is at 97.8 percent and distillate stocks are 13 percent below the five-year average",
-                "verified": "unverified",
-                "httpStatus": 0
+                "httpStatus": 403
               }
             ]
           }
@@ -754,78 +692,187 @@ window.TEAM5_DATA = {
         "driver": "commodity",
         "durability": "cyclical",
         "keyStocks": [
+          "VLO",
           "DINO",
-          "PARR"
+          "MPC",
+          "PSX"
         ],
-        "risk": "크랙 스프레드는 본질적으로 상품 스프레드로 역사적으로 평균회귀하는 경향이 있으며, 애널리스트들 사이에서도 \"2025년 이후 개선된 정유설비 신뢰도가 구조적인지 단순히 사이클에 편승한 것인지\"가 핵심 쟁점으로 남아있다(Investing.com, 2026-07-27). Node 자금흐름 지표상 이 업종은 국면 \"⚠️ 후반 가속\"으로 분류되며 Final_WRS 순위가 25거래일간 3계단 하락(FRANK 6, frank25 -3)했고 F10d -1.58%·F25d -9.36%로 최근 자금 유입 모멘텀이 이미 꺾이는 조짐을 보인다. 200일선 이격 중앙값이 54.82%(25거래일간 +15.05%p 확대)까지 벌어져 있어 기술적 과열에 따른 되돌림 리스크가 존재한다. PARR은 3분기 하와이 정제소 터너라운드로 가동률이 55,000~65,000bpd로 낮아지고 하와이 원유 디퍼렌셜이 배럴당 $11.50~13.50로 확대될 것이라는 가이던스를 제시해, 개별사 실적 변동성이 업종 전체 강세 서사와 상충할 수 있다.",
+        "risk": "디젤 크랙이 정상화되면 논리가 깨진다. 강세의 핵심이 정제능력 감소에 따른 스프레드 확대인데, 러시아 설비 복구나 미국 설비 재가동으로 공급이 회복되거나 수요가 꺾이면 컨센서스 상향(당해 +11.42%, 차기 +20.33%)이 되돌려질 수 있다. Node 지표는 이미 선행 신호를 준다: FRANK 6에 25거래일 -4, F10d -3.80%, F25d -19.34%, 200일선 이격 중앙값 42.52%(25거래일 -3.76%p)로 후반 수축·outflow 국면이며, CNBC 표제도 이 랠리가 곧 끝날 수 있다고 경고한다. 확인할 조건은 크랙 스프레드의 추가 하락 여부, FRANK 순위 반등 여부, 3분기 실적의 가이던스 수정이다.",
         "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
+          "verdict": "partial",
+          "removed": [
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "reason": "",
+          "leadFixed": true
         },
-        "researchedOn": "2026-09-21",
-        "carried": true
+        "leadOriginal": "Oil & Gas Refining & Marketing(업종 내 7종목, 2팀 선정 DINO·VLO)은 원유를 정제해 휘발유·디젤을 판매하는 정유 업종으로, 3개월 WRS(업종 내 시총가중 평균 RS, QQQ 대비 초과수익률) 0.4501(상위 0.71%), 6개월 0.5547(상위 2.14%)로 중장기 상대강도가 최상위다. 디젤 크랙 스프레드가 사상 최고 수준이라는 보도가 강세 논리의 중심이다. 다만 1개월 WRS는 0.0826(상위 2.86%)로 둔화됐고 Final_WRS 순위(FRANK) 6에 25거래일 순위변동 -4, 흐름 outflow, 국면 후반 수축이어서 모멘텀은 정점 이후 국면으로 읽힌다.",
+        "researchedOn": "2026-09-29",
+        "carried": false
       },
       {
-        "driver": "technology",
-        "durability": "structural",
-        "industry": "Software - Infrastructure",
         "key": "Technology|Software - Infrastructure",
-        "keyStocks": [
-          "OKTA",
-          "BAND",
-          "CRWD",
-          "PLTR",
-          "ZS",
-          "PANW",
-          "QLYS"
-        ],
-        "lead": "Technology|Software - Infrastructure 업종은 신원·네트워크 보안과 AI 데이터플랫폼을 아우르는 33개 종목 그룹으로, PLTR·ZS·OKTA·QLYS 등 대표 종목이 엔터프라이즈 AI 에이전트 도입을 축으로 매출 성장과 신제품 파이프라인을 확대하고 있다. PLTR은 2026회계연도 2분기 매출이 전년 대비 93% 증가하고 미국 상업부문이 149% 급증하며 FY26 가이던스를 상향했고, ZS와 OKTA는 각각 AI 에이전트 보안(Agentic SOC)과 AI 에이전트발 아이덴티티 리스크 대응 신제품을 출시했다. QLYS를 포함한 사이버보안 종목들은 AI 안전 우려가 부각되는 국면에서 방어적 수요 편입 후보로 거론되고 있다.",
+        "industry": "Software - Infrastructure",
+        "lead": "Software - Infrastructure(33종목)는 보안·아이덴티티·네트워크 엣지 등 기업 IT 인프라 소프트웨어 업종으로, WRS(업종 내 시총가중 평균 RS, QQQ 대비 초과수익률) 3개월 0.2865(상위 1.43%)·6개월 0.4722(상위 3.57%)로 중기 강세가 뚜렷하다. 1개월 WRS는 0.0161(상위 15.71%)로 단기 모멘텀은 둔화돼 있으나 Final_WRS 순위(FRANK)는 4위, 25거래일 순위변동 +1이며 국면은 상승 중반(leading)이다. 강세 논리는 AI 관련 보안·아이덴티티 수요 기사와 주요 종목의 강한 실적 반응으로 뒷받침된다.",
         "whyStrong": [
           {
-            "id": "okta-ai-agent-identity",
-            "statement": "OKTA는 AI 에이전트가 정당한 사용자인지 구분하기 어려운 'AI 에이전트 혼선' 문제에 대응하는 아이덴티티 보안 신제품을 출시하며 수요선을 확장하고 있다.",
+            "id": "w3",
+            "statement": "AI 보안 수요 테마가 대표 종목 기사에 반복된다. CRWD·NET·OKTA 관련 최근 기사가 AI 취약성, AI 보안 수요에 따른 Zero Trust/SASE, AI 에이전트 아이덴티티 시장을 다룬다. 기사 본문의 수치·가이던스는 열람 실패로 확인하지 못했다(제목 기준).",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Okta Targets AI Agent Confusion With Identity Security Push",
-                "publisher": "MarketBeat",
-                "url": "https://www.nasdaq.com/articles/okta-targets-ai-agent-confusion-identity-security-push",
-                "date": "2026-09-12",
-                "quote": "Okta Targets AI Agent Confusion With Identity Security Push",
+                "title": "Can AI Security Demand Boost Cloudflare's Zero Trust & SASE Growth?",
+                "publisher": "Zacks (nasdaq.com 게재)",
+                "url": "https://www.nasdaq.com/articles/can-ai-security-demand-boost-cloudflares-zero-trust-sase-growth",
+                "date": "2026-09-28",
+                "quote": "Can AI Security Demand Boost Cloudflare's Zero Trust & SASE Growth?",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Okta Sees AI Agent Identity Market Outgrowing Traditional IAM at Oktane 2026",
+                "publisher": "MarketBeat (nasdaq.com 게재)",
+                "url": "https://www.nasdaq.com/articles/okta-sees-ai-agent-identity-market-outgrowing-traditional-iam-oktane-2026",
+                "date": "2026-09-23",
+                "quote": "Okta Sees AI Agent Identity Market Outgrowing Traditional IAM at Oktane 2026",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Will Rising AI Vulnerabilities Boost CrowdStrike's Exposure Business?",
+                "publisher": "Zacks (nasdaq.com 게재)",
+                "url": "https://www.nasdaq.com/articles/will-rising-ai-vulnerabilities-boost-crowdstrikes-exposure-business",
+                "date": "2026-09-28",
+                "quote": "Will Rising AI Vulnerabilities Boost CrowdStrike's Exposure Business?",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "qlys-ai-safety-defensive-demand",
-            "statement": "QLYS는 AI 안전성 우려가 부각되는 국면에서 FTNT와 함께 매수 후보로 거론되며, 업종 내 사이버보안 종목에 대한 방어적 수요 유입 근거로 제시됐다.",
+            "id": "w4",
+            "statement": "실적 발표 이후 주가 반응이 강했던 종목이 있다. Okta는 직전 실적 이후 19.5% 상승, Bandwidth는 직전 실적 이후 33.5% 상승했다(각 기사 제목 기준, 실적 세부 수치 미확인).",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "2 Top Cybersecurity Stocks to Buy Amid AI Safety Fears: FTNT, QLYS",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/2-top-cybersecurity-stocks-buy-amid-ai-safety-fears-ftnt-qlys",
-                "date": "2026-09-14",
-                "quote": "2 Top Cybersecurity Stocks to Buy Amid AI Safety Fears: FTNT, QLYS",
+                "title": "Okta (OKTA) Up 19.5% Since Last Earnings Report: Can It Continue?",
+                "publisher": "Zacks (nasdaq.com 게재)",
+                "url": "https://www.nasdaq.com/articles/okta-okta-195-last-earnings-report-can-it-continue",
+                "date": "2026-09-25",
+                "quote": "Okta (OKTA) Up 19.5% Since Last Earnings Report: Can It Continue?",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Why Is Bandwidth (BAND) Up 33.5% Since Last Earnings Report?",
+                "publisher": "Zacks (nasdaq.com 게재)",
+                "url": "https://www.nasdaq.com/articles/why-bandwidth-band-335-last-earnings-report",
+                "date": "2026-08-28",
+                "quote": "Why Is Bandwidth (BAND) Up 33.5% Since Last Earnings Report?",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           }
         ],
-        "risk": "PANW는 2026년 9월 18일 주가가 하락했다는 보도가 있었는데(하락 사유는 해당 기사 내에서 구체적으로 확인되지 않음), 이는 업종 대표 종목 간 주가 흐름이 이미 분화되고 있음을 시사한다. CSCO의 Splunk 기반 AI 보안 제품이 DDOG·CRWD의 경쟁 포지션을 잠식할 수 있다는 지적이 나오고 있어 개별 종목 차원의 점유율 리스크가 존재한다. PLTR에 대해서는 Michael Burry의 공매도 논지가 시장에 여전히 남아 있어 고밸류에이션 종목의 리레이팅 리스크가 상존한다. Node 지표상 200일선 이격 중앙값이 16.63%로 최근 25거래일간 거의 변화가 없고(-0.07%p) 국면이 '중반이나 수축 중'으로 표기돼 있어, 추가적인 컨센서스 상향(당해/차기 상향 비율 79.10%, n=2105)이나 Final_WRS 순위(현재 4위) 개선이 확인되지 않고 정체가 지속되면 로테이션 편입 논리가 약화될 수 있다.",
+        "driver": "earnings",
+        "durability": "cyclical",
+        "keyStocks": [
+          "CRWD",
+          "PANW",
+          "NET",
+          "OKTA",
+          "BAND"
+        ],
+        "risk": "1개월 WRS가 상위 15.71%로 3개월(상위 1.43%) 대비 밀려 있어 단기 모멘텀 소진이 먼저 확인될 수 있다. 컨센서스 변화 중앙값이 당해 +0.29%·차기 +0.43%로 작아, 상향 비율(79.10%)이 꺾이거나 하향 전환하면 논리가 약해진다. FRANK 4위에서 순위가 하락하고 200일선 이격 18.43%가 축소되는 조합, 또는 PANW처럼 시장 상승 시 약세를 보이는 종목이 늘어나는 경우 확산이 훼손된 신호다. 본 분석은 기사 본문 열람 실패로 제목 수준 근거에 의존한다.",
         "factcheck": {
           "verdict": "partial",
           "removed": [
-            "pltr-q2-earnings",
-            "zs-agentic-soc"
+            "w1",
+            "w2"
           ],
-          "reason": ""
+          "reason": "",
+          "leadFixed": true
         },
-        "researchedOn": "2026-09-21",
-        "carried": true
+        "leadOriginal": "Software - Infrastructure(33종목)는 보안·아이덴티티·네트워크 엣지 등 기업 IT 인프라 소프트웨어 업종으로, WRS(업종 내 시총가중 평균 RS, QQQ 대비 초과수익률) 3개월 0.2865(상위 1.43%)·6개월 0.4722(상위 3.57%)로 중기 강세가 뚜렷하다. 1개월 WRS는 0.0161(상위 15.71%)로 단기 모멘텀은 둔화돼 있으나 Final_WRS 순위(FRANK)는 4위, 25거래일 순위변동 +1이며 국면은 상승 중반(leading)이다. 강세 논리는 AI 관련 보안·아이덴티티 수요 기사와 컨센서스 상향 비율 79.10%(n=2105)로 뒷받침되나, 웹 원문 열람이 시간 초과로 실패해 기사 본문 수치는 확인하지 못했다.",
+        "researchedOn": "2026-09-29",
+        "carried": false
+      },
+      {
+        "key": "Technology|Electronics & Computer Distribution",
+        "industry": "Electronics & Computer Distribution",
+        "lead": "Electronics & Computer Distribution은 전자부품·IT 하드웨어 유통(Arrow, Avnet, TD SYNNEX 등)으로, 업종 내 5종목의 시총가중 WRS(QQQ 대비 초과수익률)가 1개월 0.0651·3개월 0.1207·6개월 0.5541이다(6개월 상위 2.86%). 주요 유통사 3곳이 직전 분기 매출 YoY +32~48%와 컨센서스 상회 가이던스를 제시했다. 다만 F10d -5.88%로 단기 모멘텀은 둔화 중이며 국면은 상승 중반(확장 중)이다.",
+        "whyStrong": [
+          {
+            "id": "w1",
+            "statement": "Avnet 회계 4분기(FY2026) 매출 $8.3B로 YoY +48%, 조정 EPS $2.28(+182% YoY). 차기 분기 가이던스 매출 $9.00B–$9.30B, 조정 EPS $2.80–$2.90으로 추가 증가를 제시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Avnet 8-K Ex.99.1 (FY2026 4Q results)",
+                "publisher": "SEC EDGAR (Avnet 원문 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0000008858/000000885826000066/avt-20260805xex99d1.htm",
+                "date": "2026-08-05",
+                "quote": "Record quarterly sales of $8.3 billion with nearly 50% year-over-year sales growth",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "Arrow Electronics 2Q26 매출 $10.0B(+32% YoY), 비GAAP EPS $5.45로 가이던스 상단 상회. 3Q 가이던스 매출 $9.60B–$10.20B, 비GAAP EPS $4.83–$5.03.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Arrow Electronics 8-K Ex.99.1 (2Q26 results)",
+                "publisher": "SEC EDGAR (Arrow 원문 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0000007536/000000753626000127/arw-20260806xex99d1.htm",
+                "date": "2026-08-06",
+                "quote": "Total Revenue of $10.0 billion, up 32% Year-over-Year, Above High End of Guidance",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "TD SYNNEX 3Q FY26 매출 $21.6B(+37.7% YoY), 비GAAP EPS $5.68(+58.7% YoY). 4Q 가이던스 매출 $21.8–22.6B, 비GAAP EPS $5.65–$6.15로 제시.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "TD SYNNEX 8-K Ex.99.1 (3Q FY2026 results)",
+                "publisher": "SEC EDGAR (TD SYNNEX 원문 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001177394/000162828026063314/ex991-fy26q3pressrelease.htm",
+                "date": "2026-09-24",
+                "quote": "Revenue of $21.6 billion, an increase of 37.7% year over year",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "earnings",
+        "durability": "cyclical",
+        "keyStocks": [
+          "ARW",
+          "AVT",
+          "SNX"
+        ],
+        "risk": "유통 업종 특성상 매출 급증이 재고 축적·수요 선반영(가수요)에 기인했다면 다음 분기 가이던스 하향이나 재고조정으로 논리가 깨진다. Avnet 차기 매출 가이던스($9.00B–$9.30B)와 Arrow 3Q 가이던스($9.60B–$10.20B) 대비 실적이 미달하거나 컨센서스 상향 비율(93.18%)이 꺾이면 이 논리는 약해진다. 200일선 이격 중앙값 31.34%로 가격이 이미 크게 확장돼 있어 실적이 기대를 못 채울 경우 리레이팅 되돌림 폭이 클 수 있다. 또 F10d -5.88%와 흐름 pending은 단기 자금 유입 둔화 신호로, FRANK 8위 유지 여부를 확인해야 한다. 이번 조사에서 memberNews가 비어 있어 종목별 뉴스 근거는 확보하지 못했다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w4"
+          ],
+          "reason": "",
+          "leadFixed": true
+        },
+        "leadOriginal": "Electronics & Computer Distribution은 전자부품·IT 하드웨어 유통(Arrow, Avnet, TD SYNNEX 등)으로, 업종 내 5종목의 시총가중 WRS(QQQ 대비 초과수익률)가 1개월 0.0651·3개월 0.1207·6개월 0.5541이다(6개월 상위 2.86%). 주요 유통사 3곳이 직전 분기 매출 YoY +32~48%와 컨센서스 상회 가이던스를 제시했고, 컨센서스 상향 비율 93.18%(n=88)가 이를 뒷받침한다. 다만 F10d -5.88%로 단기 모멘텀은 둔화 중이며 국면은 상승 중반(확장 중)이다.",
+        "researchedOn": "2026-09-29",
+        "carried": false
       },
       {
         "driver": "macro",
@@ -1032,75 +1079,6 @@ window.TEAM5_DATA = {
           "leadFixed": true
         },
         "leadOriginal": "Communication Services|Publishing 업종은 Node 분류상 The New York Times Co(NYT) 단일 종목으로 구성되며, 디지털 구독과 디지털 광고가 핵심 매출원인 신문·미디어 퍼블리셔다. 1개월 WRS 0.1306(상위 1.43%)로 QQQ 대비 강한 초과수익을 냈지만 6개월 WRS는 -0.345(하위 5%권)로 봄철 고점 대비 낙폭이 크며, 이는 8월 5일 2분기 실적 발표 직후 3분기 가이던스 둔화 우려로 급락했던 주가가 디지털 광고·구독 성장세를 바탕으로 최근 한 달 반등한 결과다.",
-        "researchedOn": "2026-09-17",
-        "carried": true
-      },
-      {
-        "driver": "technology",
-        "durability": "structural",
-        "industry": "Semiconductors",
-        "key": "Technology|Semiconductors",
-        "keyStocks": [
-          "MXL",
-          "SWKS",
-          "QRVO",
-          "MRVL"
-        ],
-        "lead": "반도체 업종은 6개월 WRS 0.2308(업종 내 상위 2.86%)를 기록했으나, 최근 1개월(-0.005, 상위 41.43%)·3개월(-0.0487, 상위 78.57%) WRS는 뚜렷이 둔화됐다. 개별 종목 단에서는 SWKS-QRVO의 220억 달러 합병이 연내 종결 기대 속 진행 중이고, MXL은 AI 광인터커넥트 인프라 매출 급증이 최근 강세 재료로 작용했다.",
-        "risk": "Node 지표상 Final_WRS 순위는 25거래일 만에 5계단 밀렸고(F10d -52.03%, F25d -56.08%) 자금흐름은 outflow, 국면은 조정 중으로 분류되어 6개월간의 강세가 최근 급속히 식고 있음을 시사한다. 50일선 이격 중앙값이 -8.38%로 단기 추세가 무너졌고, 200일선 이격도 8.045%p로 25거래일간 9.935%p 축소되며 장기 추세대 이탈이 가까워지고 있다. SOX 지수는 6월 고점 대비 최대 29% 조정을 겪었으며, 브로드컴의 부진한 AI 칩 가이던스·유가 및 채권금리 상승·중국의 경쟁 심화가 동시에 겹친 결과로 보도됐다. Final_WRS 순위의 반등, SWKS-QRVO 딜의 실제 클로징(일부 보도는 2027년 초로 지연 가능성 제기), SOX의 6월 고점 재돌파 여부가 확인되어야 이 업종의 구조적 강세 논리가 다시 성립한다.",
-        "whyStrong": [
-          {
-            "id": "swks-qrvo-merger-final-stage",
-            "statement": "SWKS는 QRVO와의 220억 달러 합병이 두 개 관할 승인만 남은 최종 단계에 진입했다는 소식에 9월 11일 9.8% 급등(2009년 이후 최고 주간 상승)했고, 연내 딜 종결과 5억 달러 규모 비용 시너지(24~36개월 내)를 목표로 제시했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Skyworks Solutions Sees Qorvo Deal Closing This Year, Targets $500M in Synergies",
-                "publisher": "Yahoo Finance (MarketBeat 경유)",
-                "url": "https://finance.yahoo.com/technology/articles/skyworks-solutions-sees-qorvo-deal-140319451.html",
-                "date": "2026-09-11",
-                "quote": "Skyworks Solutions Sees Qorvo Deal Closing This Year, Targets $500M in Synergies",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Skyworks (SWKS) Rockets 9.8% on Looming $22B Qorvo Merger Nod",
-                "publisher": "Yahoo Finance",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/skyworks-swks-rockets-9-8-014200183.html",
-                "date": "2026-09-11",
-                "quote": "Skyworks Solutions stock jumped 9.79% on September 11, 2026, amid increasing optimism over approval for its $22 billion planned merger with Qorvo Inc.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "mxl-ai-optical-infra-growth",
-            "statement": "MXL은 2026년 2분기에 인프라(AI 네트워킹·광인터커넥트) 부문이 전년동기 대비 145% 급증하며 최대 매출 카테고리로 부상했고, 2026년 광 데이터센터 매출 가이던스를 2.1억~2.3억 달러로 상향했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Infrastructure Takes Center Stage for MaxLinear: What Lies Ahead?",
-                "publisher": "Yahoo Finance (Zacks 경유)",
-                "url": "https://finance.yahoo.com/technology/articles/infrastructure-takes-center-stage-maxlinear-125700785.html",
-                "date": "2026-08-26",
-                "quote": "infrastructure became MaxLinear's largest revenue category, surging 145% year over year as hyperscale customers ramped deployments of its optical data center platforms",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "sox-q2-record-rally",
-            "mrvl-ai-custom-silicon-reval"
-          ],
-          "reason": "",
-          "leadFixed": true
-        },
-        "leadOriginal": "반도체 업종은 6개월 WRS 0.2308(업종 내 상위 2.86%)로 2026년 2분기 AI 인프라 랠리의 수혜를 크게 받았으나, 최근 1개월(-0.005, 상위 41.43%)·3개월(-0.0487, 상위 78.57%) WRS는 뚜렷이 둔화됐다. 개별 종목 단에서는 SWKS-QRVO의 220억 달러 합병이 연내 종결 기대 속 마무리 단계에 들어섰고, MRVL은 커스텀 AI 실리콘 기회에 대한 재평가, MXL은 AI 광인터커넥트 인프라 매출 급증이 최근 강세 재료로 작용했다.",
         "researchedOn": "2026-09-17",
         "carried": true
       },
@@ -1593,21 +1571,25 @@ window.TEAM5_DATA = {
       }
     ],
     "summary": {
-      "rotationView": "전반적으로 자금은 에너지 정제로 새로 들어오고, 기술 섹터 내부에서는 방향이 갈린다. Oil & Gas Refining & Marketing은 m1·m3 랭크가 나란히 0.71%로 m6 랭크 2.86%보다 뚜렷이 개선돼 4개 업종 중 로테이션 유입이 가장 뚜렷하다. 반대로 Software - Infrastructure는 m6 랭크 3.57%에서 m3 랭크 1.43%로 반짝 개선됐다가 m1 랭크 7.86%로 꺾여, 6개월 대비 -4.29%p로 4개 업종 중 가장 큰 폭의 이탈을 보였다. Electronics & Computer Distribution도 m6 랭크 1.43%(최상위권)에서 m3 랭크 37.14%까지 급락한 뒤 m1 랭크 4.29%로 일부만 회복해, 여전히 6개월 수준을 밑도는 자금 이탈 상태다. Computer Hardware는 m6 랭크 0.71%(최상위)와 m1 랭크 1.43%가 모두 최상위권을 유지한 채 m3 랭크만 25.71%로 일시 흔들린 구간이라, 로테이션 이탈이라기보다 구간 내 노이즈에 가깝다.",
+      "rotationView": "Rankpct 기준 6개월 상위권(m6 순위 0.71~6.43%)에 6개 업종이 모두 몰려 있고, 자금은 Technology 내에서 Computer Hardware(WRS m1 0.1263 / m3 0.1139 / m6 1.2681)를 축으로 하드웨어·반도체(m1 0.0651 / m6 0.6148)·전자부품 유통(m1 0.0651 / m6 0.5541)으로 이어지고 있다. 3개월 구간에서는 Oil & Gas Refining & Marketing(m3 0.4501, 순위 0.71%)과 Software - Infrastructure(m3 0.2865, 순위 1.43%)가 주도했으나, 1개월에서는 각각 0.0826(2.86%)과 0.0161(15.71%)로 Refining은 상위를 유지하고 Software는 둔화됐다. 1개월에서 새로 앞서 나오는 곳은 Electrical Equipment & Parts(m1 0.0867, 순위 1.43%)로 m3가 -0.0932(77.14%)까지 밀렸다가 급반전한 형태다. 실적 근거가 확인된 곳은 Electronics & Computer Distribution(Avnet 매출 YoY +48%, Arrow +32%, TD SYNNEX +37.7%와 가이던스 상향)과 Electrical Equipment(BE 2026 가이던스 매출 31~33억 달러). Computer Hardware는 조사 근거가 없어 순위 외 서술은 하지 않는다.",
       "strongest": {
-        "industry": "Oil & Gas Refining & Marketing",
-        "why": "m1·m3 랭크가 0.71%로 동률 최상위, m6 랭크도 2.86%로 세 구간 모두 상위 3% 이내를 유지한 유일한 업종이다. 3-2-1 크랙 스프레드가 7월초 배럴당 $64.58로 사상 최고치를 기록했고, HF Sinclair(DINO)의 2분기 조정 정제마진은 배럴당 $25.95(전년 $16.50 대비 +57%), Par Pacific(PARR)은 정제 캡처율 125%·조정 EPS $10.10(전년 $1.54 대비 +555.8%, 컨센서스 $8.20 대비 +23.2%)을 기록했다. 2025년 정제설비 폐쇄(필립스66 윌밍턴, 발레로 베니시아 등)와 소비 증가로 2026년 3대 수송연료 재고가 2000년 이후 최저(약 3억7,500만 배럴) 전망이며, 9월11일 기준 가동률 97.8%·디스틸레이트 재고 5년평균 대비 -13%로 구조적 지지가 확인된다."
+        "industry": "Computer Hardware",
+        "why": "WRS가 m1 0.1263, m3 0.1139, m6 1.2681로 전 구간 양(+)이며 순위도 m1 0.71%, m6 0.71%로 1개월·6개월 모두 최상위다. 다만 조사 결과에 근거가 없어 강세 이유는 서술하지 않는다."
       },
       "emerging": [
-        "Oil & Gas Refining & Marketing"
+        "Electrical Equipment & Parts: m1 0.0867(순위 1.43%)이 m3 -0.0932(77.14%)에서 급반전. 단 m6 0.3847보다는 낮아 6개월 대비 우위는 아니며, 3개월 대비 신규 유입이다. BE 2026 가이던스 매출 31~33억 달러(YoY 50% 초과), 조정 EPS 1.33~1.48달러.",
+        "Computer Hardware: m1 0.1263이 m3 0.1139보다 높아 3개월 대비 가속(m6 1.2681에는 못 미침). 사유는 근거 없음."
       ],
       "fading": [
-        "Software - Infrastructure",
-        "Electronics & Computer Distribution"
+        "Software - Infrastructure: m6 0.4722(3.57%), m3 0.2865(1.43%)에서 m1 0.0161(15.71%)로 급감.",
+        "Oil & Gas Refining & Marketing: m3 0.4501(0.71%), m6 0.5547 대비 m1 0.0826으로 낮아졌으나 순위는 2.86%로 상위 유지. 크랙 스프레드 지속 불가 논쟁으로 Valero Hold 하향 분석 존재.",
+        "Semiconductors: m1 0.0651, m3 0.0603이 m6 0.6148보다 크게 낮아 초과수익 대부분이 과거 구간에 누적. 다만 Final_WRS 10일 전 대비 +17.66%, 25일 전 대비 +33.20%로 자금흐름 지표는 확산 중.",
+        "Electronics & Computer Distribution: m1 0.0651이 m6 0.5541보다 낮음. 단 m1 순위 5.71%로 상위권."
       ],
-      "caution": "비교 대상이 4개 업종뿐이라 전체 로테이션 지형을 일반화하기엔 표본이 작다. Electronics & Computer Distribution의 근거는 최근 1년 주가 수익률(Avnet +79.19%, Arrow Electronics +78.53%, A등급 종목 평균 +28.50%)뿐이라 다른 업종 대비 정성적 근거가 얇다. Computer Hardware(m3 랭크 25.71%)와 Electronics & Computer Distribution(m3 랭크 37.14%)의 3개월 구간 급락이 일시적 노이즈인지 추세 전환인지는 이번 자료만으로는 판단할 수 없다."
+      "caution": "Computer Hardware는 researched:true이나 근거가 '근거 없음'이라 강세 이유를 확인할 수 없다. Semiconductors 서사(MXL, ALAB, MRVL)는 기사 제목 기준이며 수치 근거가 없고, Software - Infrastructure의 AI 보안 테마와 Electrical Equipment 가이던스는 원문 미열람 상태다. 6개 업종 모두 durability가 cyclical이며, Oil & Gas Refining은 commodity 드라이버라 크랙 스프레드 변동에 민감하다."
     },
-    "summaryResearchedOn": "2026-09-21"
+    "summaryResearchedOn": "2026-09-29",
+    "reusedFrom": null
   },
   "flow": {
     "baseline": {
@@ -7922,5 +7904,15 @@ window.TEAM5_DATA = {
         ]
       }
     ]
+  },
+  "research_coverage": {
+    "done": 16,
+    "total": 10,
+    "cap": 6,
+    "pending": 0,
+    "failed": 0,
+    "carried": 10,
+    "ineligible": 0,
+    "note": "그중 10업종은 최근 조사분을 이월했습니다(조사일 표기)."
   }
 };

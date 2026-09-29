@@ -1,0 +1,178 @@
+{
+ "date": "2026-09-29",
+ "team": 1,
+ "digest": [
+  {
+   "headline": "미·이란, 별도 중재 협상 진행 중 중동 원유 수출은 전시 최고치",
+   "easy": "미국과 이란이 각각 중재자를 통해 협상을 진행하고 있고, 같은 시점에 중동 원유 수출이 전쟁 중 최고 수준에 올랐다. 협상 병행과 수출 물량 증가가 겹치면 원유 공급 리스크 프리미엄이 줄어들 수 있다. 본문을 읽지 못해 구체 물량·유가 수치는 근거 없음.",
+   "whyMatters": "주도 섹터 중 Energy 5종목(10%)에는 유가 리스크 프리미엄이 빠지는 방향이라 E&P·정유 모멘텀에 부담이다. 반대로 Industrials 4종목(8%)과 항공·운송은 투입원가 부담이 줄어드는 방향이다. 협상 결렬이나 Hormuz 관련 긴장 재부각 시 방향이 뒤집힌다.",
+   "impact": "neutral",
+   "sources": [
+    {
+     "title": "U.S., Iran hold separate mediator talks as Mideast oil exports hit war-time high",
+     "publisher": "CNBC Top News",
+     "url": "https://www.cnbc.com/2026/09/29/us-iran-war-trump-hormuz-.html",
+     "date": "2026-09-29",
+     "quote": "U.S., Iran hold separate mediator talks as Mideast oil exports hit war-time high"
+    }
+   ]
+  },
+  {
+   "headline": "Nvidia, 역대급 1,500억 달러 자사주 매입 발표",
+   "easy": "Nvidia가 1,500억 달러 규모의 자사주 매입을 발표했고, 기사 제목은 이를 historic이라고 표현했다. 대규모 FCF를 주주환원으로 돌린다는 것은 경영진이 현재 밸류에이션에서도 자사주가 싸다고 본다는 신호로 읽힌다. 매입 기간·집행 방식은 본문을 읽지 못해 근거 없음.",
+   "whyMatters": "Technology 27종목(54%)이 주도하는 장에서 섹터 내 시가총액 최대 종목의 수급을 떠받치는 재료이고, QQQ 골든크로스 D+7 구간의 지수 하방을 받쳐준다. 반도체 장비·AI 인프라 밸류체인(AMD 등)에는 설비투자 사이클이 꺾이지 않았다는 심리적 근거가 된다. 다만 자사주 매입이 성장 투자 둔화의 신호로 해석되면 리레이팅 효과는 제한된다.",
+   "impact": "up",
+   "sources": [
+    {
+     "title": "Nvidia makes a statement with historic $150 billion buyback announcement",
+     "publisher": "MarketWatch",
+     "url": "https://www.marketwatch.com/story/nvidia-makes-a-statement-with-historic-150-billion-buyback-announcement-bfab5a22?mod=mw_rss_topstories",
+     "date": "2026-09-28",
+     "quote": "Nvidia makes a statement with historic $150 billion buyback announcement"
+    }
+   ]
+  },
+  {
+   "headline": "AMD, World Labs 인수로 차세대 AI에 대규모 베팅",
+   "easy": "AMD가 World Labs를 인수해 차세대 AI 영역에 들어간다. GPU 하드웨어 공급을 넘어 모델·소프트웨어 역량을 내재화하려는 수직계열화 시도로 볼 수 있다. 인수가·희석 규모는 본문 미확인이라 근거 없음.",
+   "whyMatters": "Technology 섹터 내 AMD에는 Nvidia 대비 소프트웨어 생태계 열위를 줄이려는 전략 재료다. 인수 대금이 주식 발행이면 EPS 희석, 현금이면 FCF 부담이 생기므로 조달 구조 확인이 필요하다. 딜 조건이 공개되고 시장이 이를 리레이팅 재료로 받는지 확인해야 한다.",
+   "impact": "neutral",
+   "sources": [
+    {
+     "title": "AMD makes a big bet on the next era of AI with World Labs acquisition",
+     "publisher": "MarketWatch",
+     "url": "https://www.marketwatch.com/story/amd-makes-a-big-bet-on-the-next-era-of-ai-7f8a3b3c?mod=mw_rss_topstories",
+     "date": "2026-09-29",
+     "quote": "AMD makes a big bet on the next era of AI with World Labs acquisition"
+    }
+   ]
+  },
+  {
+   "headline": "Samsung, Nvidia·KKR이 투자한 AI 인프라 기업에 10억 달러 투입",
+   "easy": "Samsung이 Nvidia와 KKR이 투자한 AI 인프라 기업(URL상 Helix Digital)에 10억 달러를 투자한다. 메모리 공급사가 데이터센터 인프라 자본까지 들어간다는 것은 AI 설비투자 수요가 여전히 확장 국면이라는 신호다.",
+   "whyMatters": "Technology 섹터의 AI 인프라 체인(Nvidia 등 GPU, 메모리, 네트워킹)에 수요 지속성 근거를 더한다. Nvidia 1,500억 달러 자사주 매입과 함께 AI capex 사이클 둔화 우려를 누그러뜨리는 방향이다. 데이터센터 전력 수요 측면에서 Industrials 4종목(8%)의 전력기기 쪽에도 우호적이다.",
+   "impact": "up",
+   "sources": [
+    {
+     "title": "Samsung to inject $1 billion into Nvidia- and KKR-backed AI infrastructure firm",
+     "publisher": "CNBC Top News",
+     "url": "https://www.cnbc.com/2026/09/29/samsung-investment-nvidia-kkr-ai-helix-digital.html",
+     "date": "2026-09-29",
+     "quote": "Samsung to inject $1 billion into Nvidia- and KKR-backed AI infrastructure firm"
+    }
+   ]
+  },
+  {
+   "headline": "OpenAI, 안전성 우려로 신규 모델 출시 계획 철회",
+   "easy": "OpenAI가 안전 우려가 커졌다며 예정된 신규 모델 출시를 철회했다(CNBC 9/28, BBC 9/29 동시 보도). 선두 모델 개발사가 출시를 멈춘 것은 AI 규제 리스크와 모델 교체 주기 지연 가능성을 보여준다.",
+   "whyMatters": "Technology 27종목(54%)에 쏠린 AI 내러티브에 규제·제품 로드맵 불확실성을 더한다. 모델 출시 지연이 곧바로 GPU 수요 감소로 이어진다는 근거는 없으나, Microsoft 등 OpenAI 협력 소프트웨어 쪽의 제품 모멘텀 기대는 늦춰질 수 있다. 규제 당국의 후속 조치가 나오는지가 확인 조건이다.",
+   "impact": "down",
+   "sources": [
+    {
+     "title": "OpenAI abandons plan to release upcoming model as safety concerns escalate",
+     "publisher": "CNBC Top News",
+     "url": "https://www.cnbc.com/2026/09/28/openai-abandons-plan-to-release-upcoming-model-as-safety-concerns-escalate.html",
+     "date": "2026-09-28",
+     "quote": "OpenAI abandons plan to release upcoming model as safety concerns escalate"
+    },
+    {
+     "title": "OpenAI scraps rollout of new model over safety concerns",
+     "publisher": "BBC Business",
+     "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
+     "date": "2026-09-29",
+     "quote": "OpenAI scraps rollout of new model over safety concerns"
+    }
+   ]
+  },
+  {
+   "headline": "Anthropic, 최대 2조 달러 IPO 가능성과 단서 조항",
+   "easy": "Anthropic의 IPO가 최대 2조 달러 밸류에이션으로 거론되며, 기사는 여기에 붙은 단서(fine print)를 짚는다. 구체 조건은 본문 미확인으로 근거 없음. 이 규모의 상장이 실현되면 AI 섹터로 향하는 신규 공급 물량이 크게 늘어난다.",
+   "whyMatters": "대형 IPO는 Technology 섹터 내 기존 AI 종목에서 자금을 빨아들이는 공급 요인이 될 수 있다. 동시에 AI 기업의 상장 밸류에이션이 기존 상장사 멀티플의 기준점이 되어 리레이팅 재료가 될 수도 있다. 마진부채 YoY +37.2%인 상황에서 과열 신호로 읽힐 여지도 있다.",
+   "impact": "neutral",
+   "sources": [
+    {
+     "title": "Anthropic’s potential $2 trillion IPO comes with the following fine print",
+     "publisher": "MarketWatch",
+     "url": "https://www.marketwatch.com/story/anthropics-potential-2-trillion-ipo-comes-with-the-following-fine-print-99d3cb90?mod=mw_rss_topstories",
+     "date": "2026-09-29",
+     "quote": "Anthropic&#x2019;s potential $2 trillion IPO comes with the following fine print"
+    }
+   ]
+  },
+  {
+   "headline": "MongoDB 주가 약 20% 급락, CEO가 Meta로 이직",
+   "easy": "MongoDB CEO가 Meta로 떠나며 주가가 20% 가까이 떨어졌다. 경영진 공백은 가이던스 신뢰도와 전략 연속성에 대한 할인으로 곧바로 반영됐다.",
+   "whyMatters": "Technology 섹터 안에서도 AI 인프라 하드웨어와 달리 소프트웨어(데이터베이스·SaaS)는 인력 유출과 AI 대체 우려에 취약하다는 점을 드러낸다. Meta가 빅테크의 AI 인재 흡수 경쟁을 이어가고 있다는 신호이기도 하다. 후임 CEO 선임과 가이던스 유지 여부가 확인 조건이다.",
+   "impact": "down",
+   "sources": [
+    {
+     "title": "MongoDB’s stock is down nearly 20% as CEO decamps to Meta",
+     "publisher": "MarketWatch",
+     "url": "https://www.marketwatch.com/story/mongodbs-stock-is-down-more-than-20-as-ceo-decamps-to-meta-ad66a942?mod=mw_rss_topstories",
+     "date": "2026-09-28",
+     "quote": "MongoDB&#x2019;s stock is down nearly 20% as CEO decamps to Meta"
+    }
+   ]
+  },
+  {
+   "headline": "미국의 캐나다산 주류·유제품 수입 금지 발효, 무역전쟁 장기화",
+   "easy": "미국의 캐나다산 주류·유제품 수입 금지가 발효됐다. 미·캐나다 무역 분쟁이 관세를 넘어 품목 금지 단계로 이어지고 있다.",
+   "whyMatters": "직접 영향은 주류·식품 유통 등 소비재에 한정되지만, 캐나다의 보복 조치가 나오면 미국 수출 기업 전반의 리스크로 번질 수 있다. 주도 섹터(Technology·Healthcare)에 직접 영향은 근거 없음. 보복 품목과 범위가 확인 조건이다.",
+   "impact": "down",
+   "sources": [
+    {
+     "title": "US ban on Canadian alcohol and dairy comes into effect as trade war drags on",
+     "publisher": "BBC Business",
+     "url": "https://www.bbc.co.uk/news/articles/cm1j43y146d2o?at_medium=RSS&at_campaign=rss",
+     "date": "2026-09-29",
+     "quote": "US ban on Canadian alcohol and dairy comes into effect as trade war drags on"
+    }
+   ]
+  },
+  {
+   "headline": "Trump, 미국 역사상 최대인 150억 달러 제철소 건설 계획 발표",
+   "easy": "Trump가 Iowa에 150억 달러 규모 제철소 건설 계획을 발표했다. 실현되면 미국 역사상 최대 규모다. 사업 주체와 일정은 본문 미확인으로 근거 없음.",
+   "whyMatters": "Industrials 4종목(8%)과 건설·엔지니어링, 전력 설비 쪽에는 수주 기대가 생기는 방향이다. 국내 철강 공급이 늘어나면 기존 미국 철강사의 가격 결정력에는 중장기 부담이다. 발표가 실제 투자 집행과 수주로 이어지는지가 확인 조건이다.",
+   "impact": "neutral",
+   "sources": [
+    {
+     "title": "Trump announces plan for $15 billion steel plant, would be largest in U.S. history",
+     "publisher": "CNBC Top News",
+     "url": "https://www.cnbc.com/2026/09/28/trump-steel-plant-iowa.html",
+     "date": "2026-09-28",
+     "quote": "Trump announces plan for $15 billion steel plant, would be largest in U.S. history"
+    }
+   ]
+  },
+  {
+   "headline": "영국, 미국의 디젤 수출 금지 저지 시도",
+   "easy": "미국의 디젤 수출 금지 조치를 영국이 막으려 하고 있다. 수출 금지가 시행되면 미국 내 디젤 공급이 늘어 국내 가격은 내리고, 해외 가격은 오르는 방향이다.",
+   "whyMatters": "Energy 5종목(10%) 중 정유사에는 수출 판로가 막혀 크랙 스프레드가 압박받는 방향이다. 반대로 트럭·철도 등 운송 Industrials에는 연료비 부담이 줄어든다. 금지 조치의 범위·기간이 확인 조건이다.",
+   "impact": "down",
+   "sources": [
+    {
+     "title": "UK tries to stop Trump's diesel export ban",
+     "publisher": "BBC Business",
+     "url": "https://www.bbc.co.uk/news/articles/cmx2z3vgy5xwo?at_medium=RSS&at_campaign=rss",
+     "date": "2026-09-28",
+     "quote": "UK tries to stop Trump's diesel export ban"
+    }
+   ]
+  }
+ ],
+ "marketNarrative": "결론은 추세 진입 구간이지만 레버리지가 과열이라는 것이다. QQQ는 골든크로스 D+7에 10MA·20MA가 함께 오르고 있어(2% / 1.01%) 쿨라매기 최적 진입 구간으로 판정됐다. 종가 736.53은 MA10 729.99, MA20 721.88, MA50 713.48 위에 정배열로 놓여 있다. 주도 섹터는 Technology 27종목(54%)이 압도적이고 Healthcare 10종목(20%)·Energy 5종목(10%)·Industrials 4종목(8%)이 뒤를 잇는다. Nvidia의 1,500억 달러 자사주 매입과 Samsung의 AI 인프라 10억 달러 투자가 이런 기술주 쏠림을 뒷받침한다. 리스크는 FINRA 마진부채 YoY +37.2%로 +30%를 넘는 레버리지 확대, 그리고 OpenAI 모델 출시 철회·Anthropic 대형 IPO로 대표되는 AI 규제·공급 부담이다. 200일선 대비 +150%를 넘는 종목은 1개로 극단적 과열 종목은 아직 제한적이다. 확인할 조건은 QQQ가 MA10(729.99)을 지키는지, 그리고 마진부채 증가세가 더 빨라지지 않는지다.",
+ "keyRisks": [
+  "FINRA 마진부채 YoY +37.2%(+30% 초과) — 조정 시 강제 청산으로 낙폭이 커질 수 있음",
+  "주도 섹터가 Technology 27종목(54%)에 쏠려 있어 AI 내러티브가 흔들리면 지수 전체가 취약함",
+  "OpenAI 신규 모델 출시 철회로 드러난 AI 안전·규제 리스크",
+  "Anthropic 최대 2조 달러 IPO 가능성 — AI 섹터 신규 공급 물량 부담",
+  "미·캐나다 무역전쟁 장기화와 미국 디젤 수출 금지 등 정책발 공급망 변동",
+  "미·이란 협상 결과에 따라 유가 방향이 급변할 수 있고 Energy 섹터(5종목, 10%) 변동성이 큼"
+ ],
+ "easySummary": [
+  "QQQ는 골든크로스 D+7에 10MA·20MA가 함께 올라 쿨라매기 최적 진입 구간이고, 종가 736.53은 MA10 729.99 위에 있다.",
+  "Nvidia 1,500억 달러 자사주 매입, Samsung AI 인프라 10억 달러 투자로 Technology(54%) 주도가 이어지고 있다.",
+  "마진부채 YoY +37.2%로 레버리지가 과열이고, OpenAI 출시 철회·무역 분쟁이 하방 리스크다."
+ ],
+ "candidateCount": 22
+}

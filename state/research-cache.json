@@ -151,24 +151,24 @@
       "count": 11
     },
     "BAND": {
-      "last": "2026-09-21",
-      "count": 14
+      "last": "2026-09-29",
+      "count": 15
     },
     "DELL": {
-      "last": "2026-09-21",
-      "count": 19
+      "last": "2026-09-29",
+      "count": 20
     },
     "OKTA": {
-      "last": "2026-09-16",
-      "count": 10
+      "last": "2026-09-29",
+      "count": 11
     },
     "P": {
-      "last": "2026-08-28",
-      "count": 12
+      "last": "2026-09-29",
+      "count": 13
     },
     "PANW": {
-      "last": "2026-09-15",
-      "count": 11
+      "last": "2026-09-29",
+      "count": 12
     },
     "TWLO": {
       "last": "2026-08-12",
@@ -179,8 +179,8 @@
       "count": 3
     },
     "CRWD": {
-      "last": "2026-09-16",
-      "count": 7
+      "last": "2026-09-29",
+      "count": 8
     },
     "TEAM": {
       "last": "2026-09-15",
@@ -231,8 +231,8 @@
       "count": 12
     },
     "SNDK": {
-      "last": "2026-09-18",
-      "count": 18
+      "last": "2026-09-29",
+      "count": 19
     },
     "STX": {
       "last": "2026-09-07",
@@ -287,8 +287,8 @@
       "count": 12
     },
     "MXL": {
-      "last": "2026-09-21",
-      "count": 13
+      "last": "2026-09-29",
+      "count": 14
     },
     "AXTI": {
       "last": "2026-08-18",
@@ -319,8 +319,8 @@
       "count": 9
     },
     "MRVL": {
-      "last": "2026-09-17",
-      "count": 8
+      "last": "2026-09-29",
+      "count": 9
     },
     "CTRN": {
       "last": "2026-09-10",
@@ -331,16 +331,16 @@
       "count": 7
     },
     "ALNT": {
-      "last": "2026-08-14",
-      "count": 2
+      "last": "2026-09-29",
+      "count": 3
     },
     "NSIT": {
       "last": "2026-08-14",
       "count": 2
     },
     "ALAB": {
-      "last": "2026-09-18",
-      "count": 8
+      "last": "2026-09-29",
+      "count": 9
     },
     "AMD": {
       "last": "2026-08-28",
@@ -367,8 +367,8 @@
       "count": 11
     },
     "INTC": {
-      "last": "2026-09-21",
-      "count": 8
+      "last": "2026-09-29",
+      "count": 9
     },
     "IONQ": {
       "last": "2026-08-18",
@@ -507,8 +507,8 @@
       "count": 1
     },
     "SIMO": {
-      "last": "2026-09-17",
-      "count": 4
+      "last": "2026-09-29",
+      "count": 5
     },
     "HCC": {
       "last": "2026-09-03",
@@ -535,8 +535,8 @@
       "count": 2
     },
     "AMBQ": {
-      "last": "2026-09-21",
-      "count": 6
+      "last": "2026-09-29",
+      "count": 7
     },
     "HOOD": {
       "last": "2026-09-21",
@@ -559,8 +559,8 @@
       "count": 4
     },
     "SMTC": {
-      "last": "2026-09-21",
-      "count": 8
+      "last": "2026-09-29",
+      "count": 9
     },
     "DAVE": {
       "last": "2026-09-09",
@@ -571,8 +571,8 @@
       "count": 1
     },
     "SWKS": {
-      "last": "2026-09-16",
-      "count": 2
+      "last": "2026-09-29",
+      "count": 3
     },
     "DJCO": {
       "last": "2026-09-16",
@@ -619,8 +619,8 @@
       "count": 1
     },
     "QRVO": {
-      "last": "2026-09-17",
-      "count": 1
+      "last": "2026-09-29",
+      "count": 2
     },
     "AGCO": {
       "last": "2026-09-17",
@@ -640,6 +640,18 @@
     },
     "SEI": {
       "last": "2026-09-18",
+      "count": 1
+    },
+    "VICR": {
+      "last": "2026-09-29",
+      "count": 1
+    },
+    "QCOM": {
+      "last": "2026-09-29",
+      "count": 1
+    },
+    "NET": {
+      "last": "2026-09-29",
       "count": 1
     }
   },
@@ -987,8 +999,10 @@
       "count": 1
     },
     "CFFI": {
-      "last": "2026-09-01",
-      "count": 5
+      "last": "2026-09-29",
+      "count": 6,
+      "cat": 6,
+      "evid": "1406be326cd4e781"
     },
     "CW": {
       "last": "2026-08-25",
@@ -1133,9 +1147,10 @@
       "count": 2
     },
     "ITGR": {
-      "last": "2026-09-07",
-      "count": 2,
-      "cat": 3
+      "last": "2026-09-29",
+      "count": 3,
+      "cat": 3,
+      "evid": "ec650b957aa179ab"
     },
     "TXNM": {
       "last": "2026-09-03",
@@ -1186,8 +1201,10 @@
       "count": 1
     },
     "MDB": {
-      "last": "2026-09-03",
-      "count": 1
+      "last": "2026-09-29",
+      "count": 2,
+      "cat": 4,
+      "evid": "243576cb178efc0f"
     },
     "UTHR": {
       "last": "2026-09-03",
@@ -1855,23 +1872,59 @@
       "count": 4,
       "cat": 6,
       "evid": "28aa0dc36f085cee"
+    },
+    "HHH": {
+      "last": "2026-09-29",
+      "count": 1,
+      "cat": 6,
+      "evid": "1573549e636762ff"
+    },
+    "ATKR": {
+      "last": "2026-09-29",
+      "count": 1,
+      "cat": 6,
+      "evid": "1d76dcfae673fef1"
+    },
+    "CM": {
+      "last": "2026-09-29",
+      "count": 1,
+      "cat": 6,
+      "evid": "56a418f583ac969d"
+    },
+    "MDT": {
+      "last": "2026-09-29",
+      "count": 1,
+      "cat": 6,
+      "evid": "ab4aaa2888048afb"
+    },
+    "TRNS": {
+      "last": "2026-09-29",
+      "count": 1,
+      "cat": 6,
+      "evid": "d46b0aedc0a4af4d"
+    },
+    "AEM": {
+      "last": "2026-09-29",
+      "count": 1,
+      "cat": 6,
+      "evid": "c24a3471fd3f5d50"
     }
   },
   "team5": {
     "Technology|Computer Hardware": {
-      "last": "2026-09-21",
-      "count": 6,
+      "last": "2026-09-29",
+      "count": 7,
       "rankPct6": 0.71
     },
     "Technology|Electronics & Computer Distribution": {
-      "last": "2026-09-21",
-      "count": 6,
-      "rankPct6": 1.43
+      "last": "2026-09-29",
+      "count": 7,
+      "rankPct6": 2.86
     },
     "Energy|Oil & Gas Refining & Marketing": {
-      "last": "2026-09-21",
-      "count": 6,
-      "rankPct6": 2.86
+      "last": "2026-09-29",
+      "count": 7,
+      "rankPct6": 2.14
     },
     "Basic Materials|Coking Coal": {
       "last": "2026-09-14",
@@ -1884,9 +1937,9 @@
       "rankPct6": 5.71
     },
     "Technology|Semiconductors": {
-      "last": "2026-09-17",
-      "count": 2,
-      "rankPct6": 2.86
+      "last": "2026-09-29",
+      "count": 3,
+      "rankPct6": 1.43
     },
     "Healthcare|Health Information Services": {
       "last": "2026-09-15",
@@ -1924,9 +1977,14 @@
       "rankPct6": 5.71
     },
     "Technology|Software - Infrastructure": {
-      "last": "2026-09-21",
-      "count": 4,
+      "last": "2026-09-29",
+      "count": 5,
       "rankPct6": 3.57
+    },
+    "Industrials|Electrical Equipment & Parts": {
+      "last": "2026-09-29",
+      "count": 1,
+      "rankPct6": 6.43
     }
   }
 }

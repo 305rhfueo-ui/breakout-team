@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-29",
+  "report": {
+    "checked": 109,
+    "ok": 132,
+    "unverified": 8,
+    "dead": 0,
+    "stripped": 1,
+    "removed": [
+      {
+        "reason": "인용문 없음",
+        "url": "https://www.sec.gov/Archives/edgar/data/1604778/000162828026056169/rfmd-20260811.htm"
+      }
+    ],
+    "noQuote": 1
+  }
+}
