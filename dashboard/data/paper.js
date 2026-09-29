@@ -1,5 +1,5 @@
 window.PAPER_DATA = {
-  "generated": "2026-09-29T05:11:07.025Z",
+  "generated": "2026-09-29T20:00:20.060Z",
   "rulesVersion": "0.3",
   "slipPct": 0.2,
   "minSample": 30,
@@ -37,9 +37,24 @@ window.PAPER_DATA = {
       "open": 0
     }
   },
-  "equity": [],
+  "equity": [
+    {
+      "date": "2026-09-29",
+      "pct": 0
+    }
+  ],
   "positions": [],
   "trades": [],
   "fills": [],
-  "health": null
+  "health": {
+    "at": "2026-09-29T20:00:20.045Z",
+    "atKst": "2026-09-30 05:00 KST",
+    "atEt": "2026-09-29 1600",
+    "phase": "post",
+    "source": "kis",
+    "status": "정상",
+    "watch": 10,
+    "checked": 0,
+    "errors": []
+  }
 };

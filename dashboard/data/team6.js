@@ -1810,16 +1810,130 @@ window.TEAM6_DATA = {
   "noBars": [
     "HPE-C"
   ],
-  "triggers": [],
+  "triggers": [
+    {
+      "ticker": "ALNT",
+      "at": "1125",
+      "fired": false,
+      "grade": "C",
+      "ko": "대기 — 진입 창(120분) 종료 — 기준선 118.67 미돌파 (종가 110.99) (1125 ET 기준)",
+      "pace": 0.78,
+      "level": 118.67
+    },
+    {
+      "ticker": "DELL",
+      "at": "1125",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 진입 창(120분) 종료 — 기준선 595.51 미돌파 (종가 540.94) (1125 ET 기준)",
+      "pace": 0.47,
+      "level": 595.51
+    },
+    {
+      "ticker": "FEIM",
+      "at": "1125",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 진입 창(120분) 종료 — 기준선 89.76 미돌파 (종가 82.45) (1125 ET 기준)",
+      "pace": 0.59,
+      "level": 89.76
+    },
+    {
+      "ticker": "FORM",
+      "at": "1125",
+      "fired": false,
+      "grade": "C",
+      "ko": "대기 — 진입 창(120분) 종료 — 기준선 139.8 미돌파 (종가 134.5) (1125 ET 기준)",
+      "pace": 1.17,
+      "level": 139.8
+    },
+    {
+      "ticker": "HNGE",
+      "at": "1125",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 진입 창(120분) 종료 — 기준선 97.95 미돌파 (종가 91.85) (1125 ET 기준)",
+      "pace": 1.55,
+      "level": 97.95
+    },
+    {
+      "ticker": "NUTX",
+      "at": "1125",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 진입 창(120분) 종료 — 기준선 224.28 미돌파 (종가 212.63) (1125 ET 기준)",
+      "pace": 0.33,
+      "level": 224.28
+    },
+    {
+      "ticker": "PANW",
+      "at": "1125",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 진입 창(120분) 종료 — 기준선 398.88 미돌파 (종가 382.84) (1125 ET 기준)",
+      "pace": 0.81,
+      "level": 398.88
+    },
+    {
+      "ticker": "SIG",
+      "at": "1125",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 진입 창(120분) 종료 — 기준선 104.75 미돌파 (종가 103.74) (1125 ET 기준)",
+      "pace": 0.37,
+      "level": 104.75
+    },
+    {
+      "ticker": "SIMO",
+      "at": "1125",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 진입 창(120분) 종료 — 기준선 291.16 미돌파 (종가 275.95) (1125 ET 기준)",
+      "pace": 0.92,
+      "level": 291.16
+    },
+    {
+      "ticker": "SMTC",
+      "at": "1125",
+      "fired": false,
+      "grade": "C",
+      "ko": "대기 — 진입 창(120분) 종료 — 기준선 190.64 미돌파 (종가 181.91) (1125 ET 기준)",
+      "pace": 1.28,
+      "level": 190.64
+    }
+  ],
   "positions": [],
   "trades": [],
   "stats": {
     "n": 0,
+    "byGrade": {},
+    "books": {
+      "trail20": {
+        "n": 0
+      },
+      "nextOpen": {
+        "n": 0
+      },
+      "gradeC": {
+        "n": 0
+      },
+      "far": {
+        "n": 0
+      }
+    },
+    "slipPct": 0.2,
     "open": 0,
-    "openPct": 0,
-    "totalPct": 0,
-    "observing": true,
-    "minSample": 30
+    "totalPct": 0
   },
-  "health": null
+  "health": {
+    "at": "2026-09-29T20:00:20.045Z",
+    "atKst": "2026-09-30 05:00 KST",
+    "atEt": "2026-09-29 1600",
+    "phase": "post",
+    "source": "kis",
+    "status": "정상",
+    "watch": 10,
+    "checked": 0,
+    "errors": []
+  }
 };
