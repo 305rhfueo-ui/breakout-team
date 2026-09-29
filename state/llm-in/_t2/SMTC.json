@@ -5,15 +5,15 @@
  "nameKo": "셈텍",
  "site": {
   "targetStatus": true,
-  "saleCy": 41.59,
+  "saleCy": 41.57,
   "saleNy": 29.24,
-  "epsCy": 103.17,
-  "epsNy": 67.97,
+  "epsCy": 103.36,
+  "epsNy": 67.82,
   "est": {
-   "cyCur": 3.47422,
-   "cy30": 2.65303,
-   "nyCur": 5.83561,
-   "ny30": 3.94535
+   "cyCur": 3.47749,
+   "cy30": 2.64853,
+   "nyCur": 5.8359,
+   "ny30": 3.89497
   },
   "newHigh52": false,
   "bbCenterBrk5d": false,
@@ -36,22 +36,21 @@
    "updated": "2026-09-08 10:19:05"
   },
   "qualifiedBy": [
-   "1mo",
-   "6mo"
+   "1mo"
   ],
   "top2Since": {
    "m1": "2026-09-16",
    "m3": null,
-   "m6": "2026-09-17"
+   "m6": null
   },
   "top2Streak": {
-   "m1": 3,
+   "m1": 9,
    "m3": 0,
-   "m6": 2
+   "m6": 0
   }
  },
  "detail": {
-  "fetchedAt": "2026-09-21",
+  "fetchedAt": "2026-09-29",
   "nameKo": "셈텍",
   "nameEn": "SEMTECH CORP",
   "financials": {
@@ -121,6 +120,30 @@
   "news": {
    "items": [
     {
+     "title": "The Zacks Analyst Blog Highlights Analog Devices, Semtech, Taiwan Semiconductor and ASM",
+     "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-analog-devices-semtech-taiwan-semiconductor-and-asm",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Semtech (SMTC) Up 20.3% Since Last Earnings Report: Can It Continue?",
+     "url": "https://www.nasdaq.com/articles/semtech-smtc-203-last-earnings-report-can-it-continue",
+     "date": "2026-09-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Seaport Global Initiates Coverage of Semtech with Buy",
+     "url": "https://www.nasdaq.com/articles/seaport-global-initiates-coverage-semtech-buy",
+     "date": "2026-09-23",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Semtech (SMTC) is a Great Momentum Stock: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/semtech-smtc-great-momentum-stock-should-you-buy",
+     "date": "2026-09-22",
+     "publisher": "Zacks"
+    },
+    {
      "title": "Does Semtech (SMTC) Have the Potential to Rally 36.99% as Wall Street Analysts Expect?",
      "url": "https://www.nasdaq.com/articles/does-semtech-smtc-have-potential-rally-3699-wall-street-analysts-expect",
      "date": "2026-09-16",
@@ -136,36 +159,6 @@
      "title": "Semtech (SMTC) Just Flashed Golden Cross Signal: Do You Buy?",
      "url": "https://www.nasdaq.com/articles/semtech-smtc-just-flashed-golden-cross-signal-do-you-buy",
      "date": "2026-09-03",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Semtech (SMTC) Just Overtook the 50-Day Moving Average",
-     "url": "https://www.nasdaq.com/articles/semtech-smtc-just-overtook-50-day-moving-average",
-     "date": "2026-09-03",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Zacks Industry Outlook Highlights MACOM Technology, Monolithic Power and Semtech",
-     "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-macom-technology-monolithic-power-and-semtech",
-     "date": "2026-09-02",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Semtech (SMTC) Q2 2027 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/semtech-smtc-q2-2027-earnings-call-transcript",
-     "date": "2026-09-01",
-     "publisher": "The Motley Fool"
-    },
-    {
-     "title": "Buy Analog-Mixed Signal Players MACOM, Monolithic & Semtech",
-     "url": "https://www.nasdaq.com/articles/buy-analog-mixed-signal-players-macom-monolithic-semtech",
-     "date": "2026-09-01",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Wall Street Analysts Predict a 56.44% Upside in Semtech (SMTC): Here's  What You Should Know",
-     "url": "https://www.nasdaq.com/articles/wall-street-analysts-predict-5644-upside-semtech-smtc-heres-what-you-should-know",
-     "date": "2026-08-31",
      "publisher": "Zacks"
     }
    ]

@@ -1,0 +1,109 @@
+{
+ "ticker": "SIMO",
+ "sector": "Technology",
+ "industry": "Semiconductors",
+ "nameKo": "실리콘 모션 테크놀로지(ADR)",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 111.65,
+  "saleNy": 29.64,
+  "epsCy": 213.67,
+  "epsNy": 42.54,
+  "est": {
+   "cyCur": 11.13541,
+   "cy30": 11.13541,
+   "nyCur": 15.87274,
+   "ny30": 15.87274
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    127,
+    105.48,
+    45.67
+   ],
+   "ni": [
+    734.48,
+    243.21,
+    121.38
+   ],
+   "opm": [
+    22.42,
+    15.26,
+    11.39
+   ],
+   "updated": "2026-09-08 09:46:48"
+  },
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-09-16"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 9
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-29",
+  "nameKo": "실리콘 모션 테크놀로지(ADR)",
+  "nameEn": "SILICON MOTION TECHNOLOGY CORP SPONS ADR EACH REP 4 COM USD0",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Silicon Motion's 2026 Outlook: Enterprise Storage Pivot Powers Margin Expansion to 50%",
+     "url": "https://www.nasdaq.com/articles/silicon-motions-2026-outlook-enterprise-storage-pivot-powers-margin-expansion-50",
+     "date": "2026-09-28",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Silicon Motion (SIMO) Stock Slides as Market Rises: Facts to Know Before You Trade",
+     "url": "https://www.nasdaq.com/articles/silicon-motion-simo-stock-slides-market-rises-facts-know-you-trade",
+     "date": "2026-09-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here is What to Know Beyond Why Silicon Motion Technology Corporation (SIMO) is a Trending Stock",
+     "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-silicon-motion-technology-corporation-simo-trending-stock",
+     "date": "2026-09-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why the Market Dipped But Silicon Motion (SIMO) Gained Today",
+     "url": "https://www.nasdaq.com/articles/why-market-dipped-silicon-motion-simo-gained-today-0",
+     "date": "2026-09-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why the Market Dipped But Silicon Motion (SIMO) Gained Today",
+     "url": "https://www.nasdaq.com/articles/why-market-dipped-silicon-motion-simo-gained-today",
+     "date": "2026-09-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Sanmina vs. Silicon Motion: Which AI Stock Has More Upside Now?",
+     "url": "https://www.nasdaq.com/articles/sanmina-vs-silicon-motion-which-ai-stock-has-more-upside-now",
+     "date": "2026-09-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can Silicon Motion's CRA Compliance Efforts Drive Future Growth?",
+     "url": "https://www.nasdaq.com/articles/can-silicon-motions-cra-compliance-efforts-drive-future-growth",
+     "date": "2026-09-07",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

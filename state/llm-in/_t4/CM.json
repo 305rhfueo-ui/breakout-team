@@ -1,0 +1,85 @@
+{
+ "ticker": "CM",
+ "news": [
+  {
+   "title": "Ex-Div Reminder for Canadian Imperial Bank Of Commerce (CM)",
+   "url": "https://www.nasdaq.com/articles/ex-div-reminder-canadian-imperial-bank-commerce-cm",
+   "date": "2026-09-24",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "WF or CM: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/wf-or-cm-which-better-value-stock-right-now",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CIBC (CM) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/cibc-cm-q3-2026-earnings-call-transcript",
+   "date": "2026-08-28",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "UBS vs. CM: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/ubs-vs-cm-which-stock-better-value-option",
+   "date": "2026-08-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Will Canadian Imperial Bank (CM) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/will-canadian-imperial-bank-cm-beat-estimates-again-its-next-earnings-report-0",
+   "date": "2026-08-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ITUB or CM: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/itub-or-cm-which-better-value-stock-right-now",
+   "date": "2026-07-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ITUB vs. CM: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/itub-vs-cm-which-stock-better-value-option",
+   "date": "2026-07-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "CM Ex-Dividend Reminder - 6/29/26",
+   "url": "https://www.nasdaq.com/articles/cm-ex-dividend-reminder-6-29-26",
+   "date": "2026-06-25",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 13.64,
+  "saleNy": 3.76,
+  "epsCy": 22.79,
+  "epsNy": 7.68,
+  "cyTrend": 2.95,
+  "nyTrend": 2.13,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    4.52,
+    4.78,
+    0.62
+   ],
+   "ni": [
+    11.09,
+    26.42,
+    47.64
+   ],
+   "opm": [
+    19.2,
+    20.97,
+    22.03
+   ],
+   "updated": "2026-09-09 06:54:05"
+  }
+ }
+}

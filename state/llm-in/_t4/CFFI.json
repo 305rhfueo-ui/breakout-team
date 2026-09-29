@@ -2,6 +2,12 @@
  "ticker": "CFFI",
  "news": [
   {
+   "title": "CFFI Gains 35% in a Year: Is More Upside Ahead for the Stock?",
+   "url": "https://www.nasdaq.com/articles/cffi-gains-35-year-more-upside-ahead-stock",
+   "date": "2026-09-22",
+   "publisher": "Zacks"
+  },
+  {
    "title": "CFFI Q2 Earnings Rise Y/Y on Loan Growth & Margin Gains",
    "url": "https://www.nasdaq.com/articles/cffi-q2-earnings-rise-y-y-loan-growth-margin-gains",
    "date": "2026-07-24",
@@ -125,7 +131,7 @@
   "cyTrend": null,
   "nyTrend": null,
   "newHigh52": false,
-  "bbCenterBrk5d": false,
+  "bbCenterBrk5d": true,
   "fs": {
    "sale": [
     10.31,

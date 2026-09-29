@@ -16,7 +16,7 @@
    "ny30": -0.7525
   },
   "newHigh52": false,
-  "bbCenterBrk5d": true,
+  "bbCenterBrk5d": false,
   "fs": {
    "sale": [
     89.68,
@@ -46,11 +46,11 @@
   "top2Streak": {
    "m1": 0,
    "m3": 0,
-   "m6": 9
+   "m6": 15
   }
  },
  "detail": {
-  "fetchedAt": "2026-09-18",
+  "fetchedAt": "2026-09-29",
   "nameKo": "앰비크 마이크로",
   "nameEn": "AMBIQ MICRO  INC.",
   "financials": {

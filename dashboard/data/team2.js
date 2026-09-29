@@ -22428,7 +22428,7 @@ window.TEAM2_DATA = {
       "nameKo": "얼라이언트",
       "nameEn": "ALLIENT INC",
       "detail": {
-        "fetchedAt": "2026-09-28",
+        "fetchedAt": "2026-09-29",
         "nameKo": "얼라이언트",
         "nameEn": "ALLIENT INC",
         "infomaxCode": "NAS:ALNT",
@@ -22941,7 +22941,7 @@ window.TEAM2_DATA = {
       "nameKo": "코보",
       "nameEn": "QORVO INC",
       "detail": {
-        "fetchedAt": "2026-09-28",
+        "fetchedAt": "2026-09-29",
         "nameKo": "코보",
         "nameEn": "QORVO INC",
         "infomaxCode": "NAS:QRVO",

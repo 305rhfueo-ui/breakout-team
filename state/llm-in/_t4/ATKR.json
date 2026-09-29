@@ -1,0 +1,168 @@
+{
+ "ticker": "ATKR",
+ "news": [
+  {
+   "title": "Atkore Inc. (ATKR) is a Great Momentum Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/atkore-inc-atkr-great-momentum-stock-should-you-buy",
+   "date": "2026-08-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Atkore (ATKR) Outperforming Other Industrial Products Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/atkore-atkr-outperforming-other-industrial-products-stocks-year",
+   "date": "2026-08-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ATKR Crosses Above Average Analyst Target",
+   "url": "https://www.nasdaq.com/articles/atkr-crosses-above-average-analyst-target",
+   "date": "2026-08-04",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Atkore Inc. (ATKR) Q3 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/atkore-inc-atkr-q3-earnings-and-revenues-top-estimates",
+   "date": "2026-08-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here Is Why Bargain Hunters Would Love Fast-paced Mover Atkore (ATKR)",
+   "url": "https://www.nasdaq.com/articles/here-why-bargain-hunters-would-love-fast-paced-mover-atkore-atkr",
+   "date": "2026-06-01",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-15",
+   "reportDate": "2026-09-15",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1666138/000166613826000027/atkr-20260915.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-08-03",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1666138/000162828026051510/atkr-20260803.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-08-03",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1666138/000166613826000016/atkr-20260803.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-04",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1666138/000166613826000014/atkr-20260604.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1666138/000162828026030054/atkr-20260505.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-29",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1666138/000166613826000010/atkr-20260429.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.04,
+  "saleNy": 4.06,
+  "epsCy": -5.67,
+  "epsNy": 12.05,
+  "cyTrend": 0.38,
+  "nyTrend": 0.82,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    8.13,
+    4.23,
+    -0.91
+   ],
+   "ni": [
+    -98.24,
+    "적자확대",
+    -67.33
+   ],
+   "opm": [
+    8.05,
+    1.42,
+    3.06
+   ],
+   "updated": "2026-09-07 07:34:16"
+  }
+ }
+}

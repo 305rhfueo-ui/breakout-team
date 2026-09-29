@@ -16,7 +16,7 @@
    "ny30": 2.58305
   },
   "newHigh52": false,
-  "bbCenterBrk5d": true,
+  "bbCenterBrk5d": false,
   "fs": {
    "sale": [
     55.17,
@@ -45,13 +45,13 @@
    "m6": "2026-06-19"
   },
   "top2Streak": {
-   "m1": 1,
+   "m1": 7,
    "m3": 0,
-   "m6": 61
+   "m6": 67
   }
  },
  "detail": {
-  "fetchedAt": "2026-09-18",
+  "fetchedAt": "2026-09-29",
   "nameKo": "맥스리니어",
   "nameEn": "MAXLINEAR INC",
   "financials": {
@@ -148,12 +148,6 @@
      "title": "The Zacks Analyst Blog Highlights MaxLinear, Marvell Technology and Broadcom",
      "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-maxlinear-marvell-technology-and-broadcom",
      "date": "2026-07-28",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "MaxLinear Rides on AI Infrastructure Momentum: More Upside Ahead?",
-     "url": "https://www.nasdaq.com/articles/maxlinear-rides-ai-infrastructure-momentum-more-upside-ahead",
-     "date": "2026-07-27",
      "publisher": "Zacks"
     }
    ]

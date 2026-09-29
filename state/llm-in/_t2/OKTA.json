@@ -1,0 +1,233 @@
+{
+ "ticker": "OKTA",
+ "sector": "Technology",
+ "industry": "Software - Infrastructure",
+ "nameKo": "옥타",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 10.45,
+  "saleNy": 10.02,
+  "epsCy": 12.26,
+  "epsNy": 11.44,
+  "est": {
+   "cyCur": 3.92899,
+   "cy30": 3.84412,
+   "nyCur": 4.37848,
+   "ny30": 4.28569
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    10.58,
+    11.19,
+    11.58
+   ],
+   "ni": [
+    73.13,
+    19.35,
+    173.91
+   ],
+   "opm": [
+    13.29,
+    7.32,
+    6.04
+   ],
+   "updated": "2026-09-08 08:34:04"
+  },
+  "qualifiedBy": [
+   "3mo",
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-09-28",
+   "m6": "2026-09-14"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 1,
+   "m6": 11
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-29",
+  "nameKo": "옥타",
+  "nameEn": "OKTA INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001660134&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": false,
+     "revenue": 805000000,
+     "profit": 107000000,
+     "netIncome": 116000000,
+     "margin": 13.3,
+     "yoy": {
+      "revenue": 10.6,
+      "profit": 161,
+      "netIncome": 73.1,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 765000000,
+     "profit": 56000000,
+     "netIncome": 74000000,
+     "margin": 7.3,
+     "yoy": {
+      "revenue": 11.2,
+      "profit": 43.6,
+      "netIncome": 19.4,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 761000000,
+     "profit": 46000000,
+     "netIncome": 63000000,
+     "margin": 6,
+     "yoy": {
+      "revenue": 11.6,
+      "profit": 475,
+      "netIncome": 173.9,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 742000000,
+     "profit": 23000000,
+     "netIncome": 43000000,
+     "margin": 3.1,
+     "yoy": {
+      "revenue": 11.6,
+      "profit": 243.8,
+      "netIncome": 168.8,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "CrowdStrike vs. Okta: Which Cybersecurity Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/crowdstrike-vs-okta-which-cybersecurity-stock-better-buy-2026",
+     "date": "2026-09-28",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Okta (OKTA) Up 19.5% Since Last Earnings Report: Can It Continue?",
+     "url": "https://www.nasdaq.com/articles/okta-okta-195-last-earnings-report-can-it-continue",
+     "date": "2026-09-25",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Okta Sees AI Agent Identity Market Outgrowing Traditional IAM at Oktane 2026",
+     "url": "https://www.nasdaq.com/articles/okta-sees-ai-agent-identity-market-outgrowing-traditional-iam-oktane-2026",
+     "date": "2026-09-23",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Okta Unveils AI Agent Security Blueprint Alliance at Oktane",
+     "url": "https://www.nasdaq.com/articles/okta-unveils-ai-agent-security-blueprint-alliance-oktane",
+     "date": "2026-09-23",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Okta, Inc. (OKTA) Is a Trending Stock: Facts to Know Before Betting on It",
+     "url": "https://www.nasdaq.com/articles/okta-inc-okta-trending-stock-facts-know-betting-it",
+     "date": "2026-09-22",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-18",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000072/okta-20260914.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000068/okta-20260826.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-23",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000054/okta-20260618.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-28",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000050/okta-20260528.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-22",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1660134/000119312526170498/d118360d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-23",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000029/okta-20260319.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-09-17",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[옥타 (NAS:OKTA)] AI 에이전트 시대가 여는 기회",
+     "summary": "- Okta는 기업용 Identity 보안 플랫폼, 벤더 중립성과 폭넓은 연동 생태계가 강점- 대형 고객 강세와 OIG 중심 신제품 판매 증가로 Q2 호실적 및 cRPO 성장 재가속- AI 에이전트는 초기 대형 계약과 개방형 표준 선점 진행 중, 중장기 성장 동력 기대",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxlzgkgmikeggcgxcmgm.pdf"
+    }
+   ]
+  }
+ }
+}

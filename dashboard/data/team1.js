@@ -190,7 +190,7 @@ window.TEAM1_DATA = {
         "freeMargin": "D"
       }
     },
-    "fetched_at": "2026-09-29T05:04:37.864Z"
+    "fetched_at": "2026-09-29T05:11:01.736Z"
   },
   "leaders": {
     "stocks": [

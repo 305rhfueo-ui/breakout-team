@@ -11,9 +11,9 @@
   "epsNy": 35.64,
   "est": {
    "cyCur": 1.52026,
-   "cy30": 1.5129,
+   "cy30": 1.51264,
    "nyCur": 2.06208,
-   "ny30": 2.04013
+   "ny30": 2.04058
   },
   "newHigh52": false,
   "bbCenterBrk5d": false,
@@ -45,13 +45,13 @@
    "m6": "2026-09-17"
   },
   "top2Streak": {
-   "m1": 2,
+   "m1": 8,
    "m3": 0,
-   "m6": 2
+   "m6": 8
   }
  },
  "detail": {
-  "fetchedAt": "2026-09-18",
+  "fetchedAt": "2026-09-29",
   "nameKo": "인텔",
   "nameEn": "INTEL CORP",
   "financials": {
@@ -121,22 +121,46 @@
   "news": {
    "items": [
     {
-     "title": "Why Intel Stock Jumped 7.6% Today",
-     "url": "https://www.nasdaq.com/articles/why-intel-stock-jumped-76-today",
-     "date": "2026-09-17",
+     "title": "Intel vs. Nvidia: Which Semiconductor Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/intel-vs-nvidia-which-semiconductor-stock-better-buy-2026",
+     "date": "2026-09-28",
      "publisher": "The Motley Fool"
     },
     {
-     "title": "Stock Market Today, Sept. 17: Intel Surges 8% on Rumored SK Hynix Talks",
-     "url": "https://www.nasdaq.com/articles/stock-market-today-sept-17-intel-surges-8-rumored-sk-hynix-talks",
-     "date": "2026-09-17",
-     "publisher": "The Motley Fool"
-    },
-    {
-     "title": "Can INTC's AI Inference Advancements Strengthen Its Growth Prospects?",
-     "url": "https://www.nasdaq.com/articles/can-intcs-ai-inference-advancements-strengthen-its-growth-prospects",
-     "date": "2026-09-17",
+     "title": "Here's Why Intel (INTC) Fell More Than Broader Market",
+     "url": "https://www.nasdaq.com/articles/heres-why-intel-intc-fell-more-broader-market-0",
+     "date": "2026-09-28",
      "publisher": "Zacks"
+    },
+    {
+     "title": "Intel vs. Qualcomm: Which Chip Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/intel-vs-qualcomm-which-chip-stock-better-buy-2026",
+     "date": "2026-09-28",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "SKHY Likely to Gain From a Potential Intel Partnership: Worth a Buy?",
+     "url": "https://www.nasdaq.com/articles/skhy-likely-gain-potential-intel-partnership-worth-buy",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "History Says Intel's Best Years Have Been Hard to Follow. 2026 Is Its Best in More Than 4 Decades.",
+     "url": "https://www.nasdaq.com/articles/history-says-intels-best-years-have-been-hard-follow-2026-its-best-more-4-decades",
+     "date": "2026-09-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Intel Stock Surged Over 40% in September. History Shows What's Next.",
+     "url": "https://www.nasdaq.com/articles/intel-stock-surged-over-40-september-history-shows-whats-next",
+     "date": "2026-09-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Intel CEO Lip-Bu Tan Has Incredible News for AMD Stock Investors",
+     "url": "https://www.nasdaq.com/articles/intel-ceo-lip-bu-tan-has-incredible-news-amd-stock-investors",
+     "date": "2026-09-27",
+     "publisher": "The Motley Fool"
     }
    ]
   },
@@ -211,7 +235,7 @@
      "analyst": "조재운",
      "title": "[인텔 (NAS:INTC)] SK하이닉스와 미국 내 메모리 생산 협상 - 파운드리 외부 고객·오하이오 가동률 리스크 완화 신호",
      "summary": "- SK하이닉스, 인텔과 美 메모리 생산 협상 진행- 오하이오 공장 임대 또는 합작법인 두 시나리오 거론- 파운드리 외부고객 리스크 완화 신호, 확정은 아직",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxcqqmzicmgzgcgxcmel.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxcqqmzicmgzgcgxcmgm.pdf"
     },
     {
      "date": "2026-08-10",
@@ -219,7 +243,7 @@
      "analyst": "조재운",
      "title": "[인텔 (NAS:INTC)] [Issue & News] 150억 달러 보통주 발행 추진 - 확대되는 파운드리 투자 부담에 대한 선제적 자본 확충",
      "summary": "- 인텔, 150억 달러 보통주 발행 계획 발표- 용처·발행가 미공개, 파운드리 투자 자금 조달 추정- 고밸류 국면의 자본 확충, 희석 부담 상존",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlximmexkxglmqgcgxcmel.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlximmexkxglmqgcgxcmgm.pdf"
     },
     {
      "date": "2026-07-24",
@@ -227,7 +251,7 @@
      "analyst": "고준혁",
      "title": "[인텔 (NAS:INTC)] 쇼티지 수혜 이후, 증명이 필요한 시점",
      "summary": "- 전례없는 컴퓨팅 수요 확인. CPU, ASIC, EMIB, 파운드리 전반에서 수혜 기대되나, 반등을 위해 CPU 점유율과 구체적인 파운드리 고객 정보 필요- 2Q26 매출액 161억달러(YoY+25.4%, 이하 전년동기대비), 영업이익 28 억달러(흑자전환, OPM 17.2%)로 컨센서스를 각각 11.7%, 73% 상회. 부문 별 매출은 CCPG 89억달러(+13%), DCAI 63억달러(+59%), 파운드리 58 억달러(+31%) 기록- 파운드리도 팬서 레이크 일부 제품에 High NA-EUV 도입으로 대량 양산 예정. 18A 기반 서버급 제품 Xeon 6+ 출시. 18A-P도 시범 생산에 진입. 14A PDK 0.5 완료, 26년 10월 PDK 0.9 제공. 27년 하반기 시범 생산 목표",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzckxxkigglkggcgxcmel.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzckxxkigglkggcgxcmgm.pdf"
     },
     {
      "date": "2026-07-24",
@@ -235,7 +259,7 @@
      "analyst": "박재환",
      "title": "[인텔 (NAS:INTC)] CPU가 끌고, 파운드리가 민다",
      "summary": "- 인텔의 2분기 실적은 매출 161.2억달러(+25.4% yoy), GPM 41.8%, EPS 0.42달러를 기록하며 컨센서스를 상회. AI Agent 확산에 따른 서버 CPU 수요 강세로 DCAI 매출은 62.6억달러(+59% yoy)를 기록했으며, CPU ASP 상승과 고사양 제품 중심의 믹스 개선이 동시에 나타나며 DCAI OPM 도 39.5%로 시장 예상치를 크게 상회- 3분기 가이던스도 매출 163억달러, GPM 42%, EPS 0.38달러로 컨센서스 를 상회. 고객 수요 강세에 대응하기 위해 2026년 연간 CAPEX 가이던스 를 200억달러로 상향 조정했으며, 대부분의 투자는 장비 확보에 사용될 예 정- 18A 공정의 수율 및 원가 개선이 예상보다 빠르게 진행되는 것으로 파악. 18A가 적용되는 Panther Lake의 생산비용은 연초 대비 약 50% 절감됐 으며, 연말까지 추가로 약 20%의 비용 절감이 가능할 것으로 언급",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzckkmkeilzizgcgxcmel.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzckkmkeilzizgcgxcmgm.pdf"
     },
     {
      "date": "2026-07-24",
@@ -243,7 +267,7 @@
      "analyst": "박제인",
      "title": "[인텔 (NAS:INTC)] Earnings Flash",
      "summary": "- 매출액 161억 달러(YoY +25.4%), EPS 0.42달러(혹자 전환)로 각각 예상치 +11.8%, +96.3% 상회. 견조한 AI 서버 수요에 팹 수율 상승·생산 사이클타임 단축으로 미충족 수요를 실제 출하·매출로 전환하며, 15년 만에 최대 매출 성장률 달성- Intel 18A 기반 첫 서버용 CPU 제품 Xeon 6+를 출시했으며, 성능·전력 효율을 개선한 18A-P도 리스크 생산에 진입- 어닝 서프라이즈로 시간외 12%대 급등했으나, 이후 상승폭은 5% 안판으로 축소",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlklxxlcimcmmlgcgxcmel.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlklxxlcimcmmlgcgxcmgm.pdf"
     },
     {
      "date": "2026-07-24",
@@ -251,7 +275,7 @@
      "analyst": "박제민",
      "title": "[인텔 (NAS:INTC)] CPU 대장은 바로 나",
      "summary": "- 이익률에서 명확한 CPU 쇼티지 효과 포착- 18A 에 이어 14A 까지- 파운드리 고객사 힌트",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlklxcclxmgciqgcgxcmel.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlklxcclxmgciqgcgxcmgm.pdf"
     },
     {
      "date": "2026-07-23",
@@ -259,7 +283,7 @@
      "analyst": "조재운",
      "title": "[인텔 (NAS:INTC)] [26Q2 Review] DCAI +59%가 이끈 서프라이즈, 매수 유지",
      "summary": "- DCAI +59% YoY $6.3B가 매출 $16.1B 견인- Non-GAAP EPS $0.42, 가이던스 $0.20 대비 +110%- 7분기 연속 가이던스 beat, NTM PE 73x 부담 지속",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzcqckkzggkmegcgxcmel.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzcqckkzggkmegcgxcmgm.pdf"
     },
     {
      "date": "2026-06-19",
@@ -267,7 +291,7 @@
      "analyst": "박제민",
      "title": "[인텔 (NAS:INTC)] 미국 Foundry 기업의 탄생",
      "summary": "- Signal: 인텔 파운드리에 유리한 정치적 배경 조성- Key: 서사 완성의 핵심, 18A 서버향 수율 순항- Step: CPU 쇼티지는 이제 시작",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlelgikiikmxqzgcgxcmel.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlelgikiikmxqzgcgxcmgm.pdf"
     }
    ]
   }

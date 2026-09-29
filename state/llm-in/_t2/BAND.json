@@ -5,18 +5,18 @@
  "nameKo": "밴드위스",
  "site": {
   "targetStatus": false,
-  "saleCy": 20.18,
-  "saleNy": 4.47,
-  "epsCy": 22.52,
-  "epsNy": 10.62,
+  "saleCy": 20.17,
+  "saleNy": 4.45,
+  "epsCy": 22.38,
+  "epsNy": 9.62,
   "est": {
-   "cyCur": 1.752,
-   "cy30": 1.75,
-   "nyCur": 1.938,
-   "ny30": 1.896
+   "cyCur": 1.75,
+   "cy30": 1.752,
+   "nyCur": 1.91833,
+   "ny30": 1.926
   },
   "newHigh52": false,
-  "bbCenterBrk5d": true,
+  "bbCenterBrk5d": false,
   "fs": {
    "sale": [
     22.16,
@@ -36,21 +36,22 @@
    "updated": "2026-09-15 06:28:41"
   },
   "qualifiedBy": [
+   "1mo",
    "6mo"
   ],
   "top2Since": {
-   "m1": null,
+   "m1": "2026-09-28",
    "m3": null,
    "m6": "2026-06-19"
   },
   "top2Streak": {
-   "m1": 0,
+   "m1": 1,
    "m3": 0,
-   "m6": 61
+   "m6": 67
   }
  },
  "detail": {
-  "fetchedAt": "2026-09-18",
+  "fetchedAt": "2026-09-29",
   "nameKo": "밴드위스",
   "nameEn": "BANDWIDTH INC",
   "financials": {
