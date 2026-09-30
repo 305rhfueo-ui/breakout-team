@@ -1,15 +1,15 @@
 window.CHARTCHECK_DATA = {
-  "generated": "2026-09-30",
+  "generated": "2026-10-01",
   "items": [
     {
       "ticker": "CORT",
       "score": 8,
       "source": "T3",
       "reasons": [
-        "거래량 5일/20일 0.53배 — 매물 고갈",
+        "거래량 5일/20일 0.55배 — 매물 고갈",
         "볼밴 폭 0.08 (60일 최저 0.08 근처) — 에너지 응축",
-        "저항 $117.33 대비 -2.21% — 돌파 임박권",
-        "최근 10일 종가 변동 2.2% — 타이트",
+        "저항 $117.33 대비 -1.79% — 돌파 임박권",
+        "최근 10일 종가 변동 2.02% — 타이트",
         "52주 고점 대비 91.49%"
       ],
       "flags": [
@@ -20,29 +20,51 @@ window.CHARTCHECK_DATA = {
         "high52"
       ],
       "resistance": 117.33,
-      "price": 114.74,
+      "price": 115.23,
       "barGap": false
     },
     {
-      "ticker": "SWKS",
+      "ticker": "FET",
       "score": 8,
       "source": "T3",
       "reasons": [
-        "10봉 진폭이 직전 대비 0.71배로 수축",
-        "거래량 5일/20일 0.55배 — 매물 고갈",
-        "저항 $90.9 대비 -3.15% — 돌파 임박권",
-        "최근 10일 종가 변동 2% — 타이트",
-        "52주 고점 대비 94.39%"
+        "10봉 진폭이 직전 대비 0.78배로 수축",
+        "볼밴 폭 0.05 (60일 최저 0.05 근처) — 에너지 응축",
+        "저항 $84.16 대비 -3.81% — 돌파 임박권",
+        "최근 10일 종가 변동 1.33% — 타이트",
+        "52주 고점 대비 94.93%"
       ],
       "flags": [
         "contract10",
-        "volDry",
+        "bbSqueeze",
         "nearResist",
         "tightCloses",
         "high52"
       ],
-      "resistance": 90.9,
-      "price": 88.04,
+      "resistance": 84.16,
+      "price": 80.95,
+      "barGap": false
+    },
+    {
+      "ticker": "WDAY",
+      "score": 8,
+      "source": "T3",
+      "reasons": [
+        "최근 5봉 진폭 0.64배 — 수축 가속",
+        "거래량 5일/20일 0.66배 — 매물 고갈",
+        "볼밴 폭 0.12 (60일 최저 0.12 근처) — 에너지 응축",
+        "저항 $194.01 대비 -1.83% — 돌파 임박권",
+        "최근 10일 종가 변동 1.72% — 타이트"
+      ],
+      "flags": [
+        "contract5",
+        "volDry",
+        "bbSqueeze",
+        "nearResist",
+        "tightCloses"
+      ],
+      "resistance": 194.01,
+      "price": 190.46,
       "barGap": false
     },
     {
@@ -50,10 +72,10 @@ window.CHARTCHECK_DATA = {
       "score": 8,
       "source": "T3",
       "reasons": [
-        "10봉 진폭이 직전 대비 0.77배로 수축",
+        "10봉 진폭이 직전 대비 0.7배로 수축",
         "거래량 5일/20일 0.56배 — 매물 고갈",
-        "저항 $106.28 대비 -1.84% — 돌파 임박권",
-        "최근 10일 종가 변동 1.72% — 타이트",
+        "저항 $102.88 대비 -0.53% — 돌파 임박권",
+        "최근 10일 종가 변동 1.67% — 타이트",
         "52주 고점 대비 94.47%"
       ],
       "flags": [
@@ -63,48 +85,8 @@ window.CHARTCHECK_DATA = {
         "tightCloses",
         "high52"
       ],
-      "resistance": 106.28,
-      "price": 104.32,
-      "barGap": false
-    },
-    {
-      "ticker": "MGRT",
-      "score": 7,
-      "source": "T3",
-      "reasons": [
-        "10봉 진폭이 직전 대비 0.34배로 수축",
-        "거래량 5일/20일 0.49배 — 매물 고갈",
-        "저항 $121.98 대비 -1.62% — 돌파 임박권",
-        "최근 10일 종가 변동 1.43% — 타이트"
-      ],
-      "flags": [
-        "contract10",
-        "volDry",
-        "nearResist",
-        "tightCloses"
-      ],
-      "resistance": 121.98,
-      "price": 120,
-      "barGap": false
-    },
-    {
-      "ticker": "QLYS",
-      "score": 7,
-      "source": "T3",
-      "reasons": [
-        "10봉 진폭이 직전 대비 0.69배로 수축",
-        "거래량 5일/20일 0.69배 — 매물 고갈",
-        "저항 $187 대비 -4.63% — 돌파 임박권",
-        "최근 10일 종가 변동 2.46% — 타이트"
-      ],
-      "flags": [
-        "contract10",
-        "volDry",
-        "nearResist",
-        "tightCloses"
-      ],
-      "resistance": 187,
-      "price": 178.35,
+      "resistance": 102.88,
+      "price": 102.33,
       "barGap": false
     },
     {
@@ -112,10 +94,10 @@ window.CHARTCHECK_DATA = {
       "score": 7,
       "source": "T3",
       "reasons": [
-        "최근 5봉 진폭 0.59배 — 수축 가속",
+        "최근 5봉 진폭 0.62배 — 수축 가속",
         "볼밴 폭 0.09 (60일 최저 0.09 근처) — 에너지 응축",
-        "저항 $157.35 대비 -1.09% — 돌파 임박권",
-        "최근 10일 종가 변동 2% — 타이트",
+        "저항 $157.35 대비 -0.65% — 돌파 임박권",
+        "최근 10일 종가 변동 1.09% — 타이트",
         "52주 고점 대비 92.56%"
       ],
       "flags": [
@@ -126,27 +108,27 @@ window.CHARTCHECK_DATA = {
         "high52"
       ],
       "resistance": 157.35,
-      "price": 155.64,
+      "price": 156.32,
       "barGap": false
     },
     {
-      "ticker": "WDAY",
+      "ticker": "MANH",
       "score": 7,
       "source": "T3",
       "reasons": [
-        "거래량 5일/20일 0.63배 — 매물 고갈",
-        "볼밴 폭 0.12 (60일 최저 0.12 근처) — 에너지 응축",
-        "저항 $194.01 대비 -2.49% — 돌파 임박권",
-        "최근 10일 종가 변동 1.82% — 타이트"
+        "10봉 진폭이 직전 대비 0.77배로 수축",
+        "볼밴 폭 0.11 (60일 최저 0.11 근처) — 에너지 응축",
+        "저항 $204.09 대비 -2.64% — 돌파 임박권",
+        "최근 10일 종가 변동 2.28% — 타이트"
       ],
       "flags": [
-        "volDry",
+        "contract10",
         "bbSqueeze",
         "nearResist",
         "tightCloses"
       ],
-      "resistance": 194.01,
-      "price": 189.17,
+      "resistance": 204.09,
+      "price": 198.7,
       "barGap": false
     },
     {
@@ -154,10 +136,10 @@ window.CHARTCHECK_DATA = {
       "score": 7,
       "source": "T3",
       "reasons": [
-        "10봉 진폭이 직전 대비 0.63배로 수축",
+        "10봉 진폭이 직전 대비 0.67배로 수축",
         "볼밴 폭 0.1 (60일 최저 0.1 근처) — 에너지 응축",
-        "저항 $84.12 대비 -2.34% — 돌파 임박권",
-        "최근 10일 종가 변동 1.05% — 타이트"
+        "저항 $84.12 대비 -2% — 돌파 임박권",
+        "최근 10일 종가 변동 1.12% — 타이트"
       ],
       "flags": [
         "contract10",
@@ -166,18 +148,18 @@ window.CHARTCHECK_DATA = {
         "tightCloses"
       ],
       "resistance": 84.12,
-      "price": 82.15,
+      "price": 82.44,
       "barGap": false
     },
     {
-      "ticker": "FET",
+      "ticker": "PAYC",
       "score": 6,
       "source": "T3",
       "reasons": [
-        "볼밴 폭 0.05 (60일 최저 0.05 근처) — 에너지 응축",
-        "저항 $84.16 대비 -4.38% — 돌파 임박권",
-        "최근 10일 종가 변동 1.27% — 타이트",
-        "52주 고점 대비 94.93%"
+        "볼밴 폭 0.13 (60일 최저 0.13 근처) — 에너지 응축",
+        "저항 $226.12 대비 -3.75% — 돌파 임박권",
+        "최근 10일 종가 변동 1.46% — 타이트",
+        "52주 고점 대비 90.04%"
       ],
       "flags": [
         "bbSqueeze",
@@ -185,19 +167,39 @@ window.CHARTCHECK_DATA = {
         "tightCloses",
         "high52"
       ],
-      "resistance": 84.16,
-      "price": 80.47,
+      "resistance": 226.12,
+      "price": 217.65,
       "barGap": false
     },
     {
-      "ticker": "HNGE",
+      "ticker": "PLTR",
       "score": 6,
       "source": "T3",
       "reasons": [
-        "볼밴 폭 0.09 (60일 최저 0.09 근처) — 에너지 응축",
-        "저항 $96.66 대비 -1.5% — 돌파 임박권",
-        "최근 10일 종가 변동 1.37% — 타이트",
-        "52주 고점 대비 95.64%"
+        "10봉 진폭이 직전 대비 0.78배로 수축",
+        "저항 $188.2 대비 -0.61% — 돌파 임박권",
+        "최근 10일 종가 변동 2.94% — 타이트",
+        "52주 고점 대비 90.34%"
+      ],
+      "flags": [
+        "contract10",
+        "nearResist",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": 188.2,
+      "price": 187.05,
+      "barGap": false
+    },
+    {
+      "ticker": "THC",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "볼밴 폭 0.07 (60일 최저 0.06 근처) — 에너지 응축",
+        "저항 $262.68 대비 -2.71% — 돌파 임박권",
+        "최근 10일 종가 변동 1.52% — 타이트",
+        "52주 고점 대비 91.13%"
       ],
       "flags": [
         "bbSqueeze",
@@ -205,27 +207,25 @@ window.CHARTCHECK_DATA = {
         "tightCloses",
         "high52"
       ],
-      "resistance": 96.66,
-      "price": 95.21,
+      "resistance": 262.68,
+      "price": 255.56,
       "barGap": false
     }
   ],
-  "total": 23,
+  "total": 21,
   "shown": 10,
   "cap": 10,
   "beyondCap": [
-    "PAYC(6)",
-    "THC(6)",
-    "MANH(6)",
-    "SIMO(6)",
+    "SWKS(6)",
     "DELL(5)",
-    "IT(5)",
     "PLPC(5)",
-    "PLTR(5)",
+    "SNDK(5)",
+    "QLYS(5)",
+    "FROG(5)",
     "NOW(5)",
     "LITE(5)",
+    "SIMO(5)",
     "TARS(5)",
-    "HOOD(5)",
     "AGCO(5)"
   ]
 };
