@@ -1267,8 +1267,91 @@ window.TEAM2_DATA = {
         "count": 22
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "GRAL",
+        "company": "GRAIL(前 Illumina 자회사, 2024년 분사)는 다중암 조기검진(MCED) 혈액검사 Galleri를 상용화한 단계의 적자 진단기업으로, 매출은 검사 판매 중심이며 2026-06-30 분기 매출 $44.687M(YoY +25.7%), 영업이익 -$173.783M(영업이익률 -388.9%)이다. NHS-Galleri 임상은 1차 평가지표(3-4기 환자 감소)를 달성하지 못했으나 2차 지표에서 4기 진단 감소가 확인됐다는 것이 신한투자증권 시각이다. 현 국면은 매출 성장보다 임상·규제·파트너십 이벤트가 주가를 좌우하는 국면이다.",
+        "lead": "GRAL은 RS 상위 1M 0.0% / 3M 0.2% / 6M 0.9%, 절대 상승률 1M +65.79% · 3M +91.91% · 6M +169.85%로 52주 고점 대비 98.67%, 200일선 이격 +82.23%까지 올라와 있다. 제공된 자료에서 확인되는 근거는 분기 매출 YoY +25.7%이며, 9월 급등의 직접 촉매를 특정할 자료는 없다. 영업이익률 -388.9%의 대규모 적자가 지속돼 상용화 기대가 꺾이면 밸류에이션 부담이 큰 구간이다.",
+        "whyRose": [
+          {
+            "id": "w2",
+            "statement": "2026-06-30 분기 매출 $44.687M으로 YoY +25.7%, 직전 2026-03-31 분기 $40.785M(YoY +28.1%)로 20%대 중반 성장이 유지됐다. 영업손실은 -$173.783M으로 YoY -9.4%(확대)다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "GRAIL 10-Q 최근 분기 실적(SEC 기준 Node 수집)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001699031&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "periodEnd 2026-06-30 revenue 44687000 profit -173783000 netIncome -110247000 margin -388.9 yoy revenue 25.7",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "2026-09 하순 급등(RS 상위 1M 0.0%, top2 진입 2026-09-23)의 직접 촉매는 제공된 뉴스·8-K에서 확인되지 않는다. 제공 뉴스는 모두 2025년 이전 기사다.",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "NHS-Galleri는 1차 평가지표(3-4기 환자 감소) 달성에 실패했고, 3-4기 전체 환자 비중은 증가했다. 임상 해석이 갈리는 상태에서 200일선 이격 +82.23%까지 선반영됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[그레일 (NAS:GRAL)] MCED 진단기기 선도기업",
+                "publisher": "신한투자증권 (연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqlkexgegcliczzgcgxcmgl.pdf",
+                "date": "2026-07-16",
+                "quote": "영국보건당국(NHS)과 공동 진행하는 임상(NHS-Galleri)의 1차 평가지표(3-4기 환자 감소) 달성에는 실패했으나 2차 평가지표 양호",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "영업손실이 분기 -$173.783M(영업이익률 -388.9%)로 YoY 확대됐다. 자금 조달에 따른 희석 여부는 제공 자료에서 확인되지 않아 근거 없음.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "GRAIL 10-Q 최근 분기 실적(SEC 기준 Node 수집)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001699031&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "periodEnd 2026-06-30 revenue 44687000 profit -173783000 netIncome -110247000 margin -388.9",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "MCED 조기암진단",
+          "진단·바이오테크",
+          "임상 이벤트 드리븐"
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1"
+          ],
+          "reasons": [
+            "w1: Statement claims ASCO trial efficacy numbers (12개 암의 4기 검진 비율 -14%, 1-2기 발견 +16%) that do not appear in the provided source quote"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "GRAL은 RS 상위 1M 0.0% / 3M 0.2% / 6M 0.9%, 절대 상승률 1M +65.79% · 3M +91.91% · 6M +169.85%로 52주 고점 대비 98.67%, 200일선 이격 +82.23%까지 올라와 있다. 제공된 자료에서 확인되는 근거는 Galleri의 ASCO 임상 데이터에 대한 신한투자증권의 상용화 기대 평가와 분기 매출 YoY +25.7%이며, 9월 급등의 직접 촉매를 특정할 자료는 없다. 영업이익률 -388.9%의 대규모 적자가 지속돼 임상·상용화 기대가 꺾이면 밸류에이션 부담이 큰 구간이다.",
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "그레일",
       "nameEn": "GRAIL INC",
@@ -2173,20 +2256,37 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "done",
-        "company": "아틀라시언은 Jira·Confluence·Trello·Bitbucket 등 소프트웨어 개발팀·IT팀 대상 협업·업무관리 툴을 제공하는 SaaS 기업으로, 매출은 클라우드 구독형이 중심이며 FY2026 4분기 클라우드 매출은 전년동기 대비 31% 증가한 $1.2B를 기록했다. Rovo·Teamwork Graph·MCP서버 등 AI 에이전트 기능을 제품 전반에 결합해 기존 개발팀 중심 고객군을 전사 협업 영역으로 확장 중이며 ARR $3M 이상 대형 고객군의 ARR 성장률이 전사 평균을 크게 상회한다. 분기별 GAAP 흑자·적자가 반복되던 구간에서 FY2026 4분기(2026-06-30 마감)에 영업이익률 11.9%의 GAAP 흑자 전환을 기록한 국면이다.",
-        "lead": "TEAM은 최근 6개월 143.73%, 3개월 104.32%, 1개월 8.27% 상승했으며 RS 백분위가 1M 7.0%/3M 0.1%/6M 1.2%로 전 구간 상위권, 52주 고점 대비 90.48%, 200일선 대비 63.5% 이격된 상태다. 8월 한 달간 주가가 92% 급등했는데, 이는 FY2026 4분기(6월 마감) 실적이 컨센서스를 큰 폭 상회하고 AI가 SaaS 수요를 잠식할 것이라는 우려를 반박하는 지표가 확인됐기 때문이다(The Motley Fool, 2026-09-05).",
+        "ticker": "TEAM",
+        "company": "Atlassian(Jira·Confluence·Rovo 등 팀 협업/개발 워크플로 SaaS)은 클라우드 구독 중심 소프트웨어 업체로, 2026-06 분기 매출은 USD 1.766B(YoY +27.6%)이다. 직전 3개 분기는 영업손실(마진 -3.0~-6.7%)이었으나 2026-06 분기에 영업이익 USD 210.7M(마진 11.9%)으로 흑자 전환했다. 매출 구성·핵심 고객 비중은 제공 자료에 없어 근거 없음이다.",
+        "lead": "TEAM은 3M +112.95%·6M +175.4% 상승했으나 1M은 -6.24%로 단기 조정 중이며, 52주 고점 대비 89.27%·200일선 이격 +59.52%다. 상승의 근거는 2026-06 분기 매출 YoY +27.6%, AI(Rovo) 채택 확대 기사다. 반면 1M RS 상위 61.4%로 단기 모멘텀은 이탈했고, 이격이 커서 변동성 부담이 있다.",
         "whyRose": [
           {
-            "id": "w3",
-            "statement": "AI 기능(Rovo) 채택이 'AI가 SaaS 수요를 대체한다'는 시장 우려를 반박하는 근거로 작용했다. Rovo 지원 액션이 QoQ +50% 증가했고 Rovo 이용자는 비이용자 대비 Jira 작업 처리량이 20% 많고 Confluence 페이지 생성·편집이 25% 많다.",
+            "id": "w2",
+            "statement": "8월 한 달간 주가가 92% 급등했다는 기사가 있어 실적 발표 이후 리레이팅이 3M/6M 상승의 대부분을 차지한 것으로 보인다(RS 3M/6M 상위 진입은 8/28, 8/31부터).",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "Why Atlassian Stock Skyrocketed 92% Higher in August and Why There's Likely More to Come",
                 "publisher": "The Motley Fool",
-                "url": "https://www.fool.com/investing/2026/09/05/why-atlassian-stock-skyrocketed-92-higher-in-august-and-why-there-s-likely-more-to-come/",
+                "url": "https://www.nasdaq.com/articles/why-atlassian-stock-skyrocketed-92-higher-august-and-why-theres-likely-more-come",
                 "date": "2026-09-05",
-                "quote": "Rovo-assisted actions surged 50% quarter over quarter, with Rovo users completing 20% more work items in Jira than non-users",
+                "quote": "Why Atlassian Stock Skyrocketed 92% Higher in August and Why There's Likely More to Come",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "AI 에이전트 Rovo 채택과 클라우드 성장 가속이 내러티브로 작용. 기사 본문 수치는 미확인이라 제목 수준의 근거만 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Atlassian Says AI Tailwind Is Building as Cloud Growth and Rovo Adoption Accelerate",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/atlassian-says-ai-tailwind-building-cloud-growth-and-rovo-adoption-accelerate",
+                "date": "2026-09-15",
+                "quote": "Atlassian Says AI Tailwind Is Building as Cloud Growth and Rovo Adoption Accelerate",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -2196,15 +2296,31 @@ window.TEAM2_DATA = {
         "counterpoint": [
           {
             "id": "c1",
-            "statement": "실적 서프라이즈에도 불구하고 회사가 제시한 향후 가이던스는 매출 성장 13%, 클라우드 성장 25.5%, 구독 ARR 성장 18%로, 최근 분기 실제 YoY 매출 성장률(27.6%~31.7%)에 비해 상당한 둔화를 내포한다. 6개월 143.73% 급등 이후 52주 고점 대비 90.48%, 200일선 대비 63.5% 이격이라는 기술적 과열 위에서 이 둔화 가이던스가 보수적 눈높이인지, 실제 성장 둔화의 신호인지가 리레이팅 지속 여부를 가른다.",
+            "statement": "흑자 전환은 1개 분기(derived)뿐이고, 직전 3개 분기는 영업손실(마진 -3.0~-6.7%)이다. 사이트 CY EPS 추정도 -5.94로 음수여서 이익 지속성은 확인이 필요하다. 매출 성장률도 2026-03 분기 +31.7%에서 2026-06 분기 +27.6%로 둔화했다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Why Atlassian Stock Skyrocketed 92% Higher in August and Why There's Likely More to Come",
+                "title": "SEC EDGAR 분기 실적표",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001650372&type=10-Q",
+                "date": "2026-09-21",
+                "quote": "periodEnd 2026-03-31, revenue 1786971000, profit -56284000, margin -3.1, yoy revenue 31.7",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "1M -6.24%로 최근 한 달은 하락 중이며, 200일선 이격 +59.52%·6M +175.4% 상승 후라 밸류에이션·과열 부담이 있다. 임원(CAO) 주식 매도 기사도 있으나 규모가 작다(939주).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Atlassian Chief Accounting Officer Gene Liu Sells 939 Shares",
                 "publisher": "The Motley Fool",
-                "url": "https://www.fool.com/investing/2026/09/05/why-atlassian-stock-skyrocketed-92-higher-in-august-and-why-there-s-likely-more-to-come/",
-                "date": "2026-09-05",
-                "quote": "company forecast total revenue growth of 13%, cloud growth of 25.5%, and subscription ARR growth of 18%",
+                "url": "https://www.nasdaq.com/articles/atlassian-chief-accounting-officer-gene-liu-sells-939-shares",
+                "date": "2026-09-09",
+                "quote": "Atlassian Chief Accounting Officer Gene Liu Sells 939 Shares",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -2212,59 +2328,28 @@ window.TEAM2_DATA = {
           }
         ],
         "estimateRevisions": {
-          "direction": "mixed",
-          "claims": [
-            {
-              "id": "e1",
-              "statement": "FY2026 4분기 실적은 컨센서스를 큰 폭 상회했다. 매출 $1.77B(컨센서스 $1.66B), 조정 EPS $1.87(컨센서스 $1.50)로 어닝서프라이즈가 확인됐다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Why Atlassian Stock Skyrocketed 92% Higher in August and Why There's Likely More to Come",
-                  "publisher": "The Motley Fool",
-                  "url": "https://www.fool.com/investing/2026/09/05/why-atlassian-stock-skyrocketed-92-higher-in-august-and-why-there-s-likely-more-to-come/",
-                  "date": "2026-09-05",
-                  "quote": "analysts' consensus estimates called for revenue of $1.66 billion and EPS of $1.50",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "e2",
-              "statement": "다만 회사의 향후 가이던스(매출 성장 13%, 클라우드 성장 25.5%, 구독 ARR 성장 18%)는 최근 실제 성장률보다 낮아, 컨센서스 추정치가 실적 서프라이즈만큼 상향되지 않을 가능성을 시사한다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Why Atlassian Stock Skyrocketed 92% Higher in August and Why There's Likely More to Come",
-                  "publisher": "The Motley Fool",
-                  "url": "https://www.fool.com/investing/2026/09/05/why-atlassian-stock-skyrocketed-92-higher-in-august-and-why-there-s-likely-more-to-come/",
-                  "date": "2026-09-05",
-                  "quote": "company forecast total revenue growth of 13%, cloud growth of 25.5%, and subscription ARR growth of 18%",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ]
+          "direction": "unknown",
+          "claims": []
         },
         "themeTags": [
-          "AI 에이전틱 협업툴",
-          "SaaS 클라우드 전환",
-          "엔터프라이즈 협업 소프트웨어"
+          "AI 소프트웨어",
+          "클라우드 SaaS",
+          "협업/개발 툴"
         ],
         "confidence": "medium",
-        "ticker": "TEAM",
         "factcheck": {
           "verdict": "partial",
           "removed": [
-            "w1",
-            "w2"
+            "w1"
           ],
-          "reasons": []
+          "reasons": [
+            "w1 statement에 '직전 분기 -56.3M(마진 -3.1%)'이 있으나 quote에는 2026-06-30 분기만 있고 직전 분기 데이터 없음"
+          ],
+          "leadFixed": true
         },
-        "researchedOn": "2026-09-15",
-        "carried": true
+        "leadOriginal": "TEAM은 3M +112.95%·6M +175.4% 상승했으나 1M은 -6.24%로 단기 조정 중이며, 52주 고점 대비 89.27%·200일선 이격 +59.52%다. 상승의 근거는 2026-06 분기 매출 YoY +27.6%와 영업이익 흑자 전환, AI(Rovo) 채택 확대 기사다. 반면 1M RS 상위 61.4%로 단기 모멘텀은 이탈했고, 이격이 커서 변동성 부담이 있다.",
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "아틀라시언",
       "nameEn": "ATLASSIAN CORP",
@@ -2682,28 +2767,12 @@ window.TEAM2_DATA = {
       "research": {
         "status": "done",
         "ticker": "MGRT",
-        "company": "MGRT(메가 포춘)는 홍콩 Sha Tin에 본사를 둔 IoT 솔루션 업체로, IoT 통합 컨설팅·구축·분석·유지보수, BPO 및 기술 컨설팅, 하드웨어 트레이딩을 겸업한다. 2025년 7월 IPO(공모가 $4.00~5.00, 375만주 발행으로 $15M 조달) 이후 홍콩 단일 지역 매출에 의존하는 초소형주로 상장했으며, TTM 매출 약 $11.09M·순이익 $1.79M(EPS $0.17) 규모의 마이크로캡이다. 시가총액은 약 $1.88억 수준으로, 동종업계 P/B 평균 2.6~3.9배 대비 121배에 달하는 고밸류에이션 국면에 있다.",
-        "lead": "올해 초 $7.51였던 주가가 4월 초 $118.00까지 치솟았으며, 이 구간에서 4월 초 모틀리풀은 \"한 주간 세 배\" 급등을, 6월 BNK Invest는 과매도 반등 시그널을 각각 보도했다.",
+        "company": "Mega Fortune Company Limited(MGRT)는 2025-07 IPO(조달 $15 million)로 나스닥에 상장한 Information Technology Services 업종 소형주다. 제공 자료에는 매출 구성·핵심 고객·재무제표가 없다(SEC 실적표는 \"매출 태그 없음\"으로 조회 실패, 8-K 0건, 국내 리포트 0건). 사업 모델과 현 국면은 근거 없음.",
+        "lead": "MGRT는 RS 상위 1M 2.9% / 3M 1.5% / 6M 0.2%, 6M 절대 상승률 326.76%의 극단적 모멘텀 종목이나, 이를 설명할 펀더멘털 자료(실적·공시·컨센서스)는 확보되지 않았다. 확인되는 것은 2026-04 \"일주일 새 3배\" 급등 기사와 2026-06 과매도 기사뿐이며, 52주 고점 대비 69.41%·200일선 이격 87.79%로 변동성이 매우 크다.",
         "whyRose": [
           {
             "id": "w1",
-            "statement": "2025년 7월 IPO(공모가 $4~5) 이후 낮은 유동주식을 기반으로 마이크로캡 특유의 단기 급등이 반복되며, 올해 초 $7.51에서 2026년 4월 초 $118.00까지 연초 대비 1,471.2% 상승하는 극단적 모멘텀 장세가 이어졌다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Mega Fortune (MGRT) Stock Price, News & Analysis $MGRT",
-                "publisher": "MarketBeat",
-                "url": "https://www.marketbeat.com/instant-alerts/mega-fortune-nasdaqmgrt-stock-price-up-898-heres-why-2026-04-02/",
-                "date": "2026-04-02",
-                "quote": "연초 대비 상승률: 1,471.2%, 연초 가격: $7.51, 현재 가격: $118.00",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w2",
-            "statement": "2026-04-09 The Motley Fool은 MGRT 주가가 한 주 만에 세 배로 뛰었다고 보도했다.",
+            "statement": "2026-04 주간 주가가 3배가 된 급등 이력이 있다(기사 제목 기준). 급등 사유는 본문을 열람하지 못해 근거 없음. 이후 6M 절대 상승률 326.76%, 3M 44.11%, 1M 18.59%로 상승이 이어졌다(Node 수치).",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -2718,8 +2787,16 @@ window.TEAM2_DATA = {
             ]
           },
           {
-            "id": "w3",
-            "statement": "2026-06-11 BNK Invest는 MGRT를 과매도(oversold) 국면으로 지목했으며, 이후 이어진 기술적 반등이 현재 1M·3M 구간 RS 상위권(0.7%·3.5% 백분위) 진입의 배경 중 하나로 추정된다.",
+            "id": "w2",
+            "statement": "펀더멘털·촉매 근거 없음. 8-K, 실적표, 국내 리포트 모두 비어 있어 상승을 실적·가이던스로 설명할 수 없다.",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "2026-06 시점에 과매도 기사가 나온 바 있고, 현재 52주 고점 대비 69.41%, 200일선 이격 87.79%로 급등 후 변동성이 크다. 급등 원인이 확인되지 않아 되돌림 위험을 평가할 근거가 없다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -2732,22 +2809,20 @@ window.TEAM2_DATA = {
                 "httpStatus": 200
               }
             ]
-          }
-        ],
-        "counterpoint": [
+          },
           {
             "id": "c2",
-            "statement": "현금 여력이 얇고 영업현금흐름이 마이너스인 점이 재무 건전성 리스크로 지적된다. 순현금 포지션이 주당 사실상 0에 가깝고, 이익의 비현금성 비중을 나타내는 발생액 비율(accrual ratio)이 163%로 높아 이익이 실제 현금 창출로 이어지지 않을 가능성이 있다.",
+            "statement": "IPO 규모 $15 million의 초소형 종목으로 유동성·희석 이력 확인 불가. 이후 증자 여부는 근거 없음.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Mega Fortune (MGRT) Balance Sheet & Financial Health Metrics",
-                "publisher": "Simply Wall St",
-                "url": "https://simplywall.st/stocks/us/software/nasdaq-mgrt/mega-fortune/health",
-                "date": "2026-09",
-                "quote": "$764,761 in cash and $699,872 in debt, net cash position of $64,889 ($0.00 per share); 163% accrual ratio; negative operating cash flow",
-                "verified": "unverified",
-                "httpStatus": 403
+                "title": "Mega Fortune Company Limited Completes Initial Public Offering, Raising $15 Million",
+                "publisher": "Quiver Quantitative",
+                "url": "https://www.nasdaq.com/articles/mega-fortune-company-limited-completes-initial-public-offering-raising-15-million",
+                "date": "2025-07-17",
+                "quote": "Mega Fortune Company Limited Completes Initial Public Offering, Raising $15 Million",
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           }
@@ -2756,24 +2831,17 @@ window.TEAM2_DATA = {
           "direction": "unknown",
           "claims": []
         },
-        "themeTags": [
-          "IoT",
-          "마이크로캡 모멘텀주"
-        ],
+        "themeTags": [],
         "confidence": "low",
         "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "c1"
-          ],
+          "verdict": "pass",
+          "removed": [],
           "reasons": [
-            "c1의 연매출 수치('약 $1,109만 달러')가 출처의 quote('P/B 121x 과대평가')에 없음"
-          ],
-          "leadFixed": true
+            "모든 주장에서 '근거 없음'을 명시했으므로 지어낸 근거 없음"
+          ]
         },
-        "leadOriginal": "MGRT는 2025년 7월 IPO(공모가 $4~5) 이후 낮은 유동주식을 기반으로 극단적 변동성 장세를 이어온 홍콩 IoT 마이크로캡으로, 6개월 절대 상승률 1407.15%(RS 6M 백분위 상위 0.0%)와 함께 1M·3M 구간에서도 RS 상위 0.7%·3.5%를 기록 중이다. 올해 초 $7.51였던 주가가 4월 초 $118.00까지 치솟았으며, 이 구간에서 4월 초 모틀리풀은 \"한 주간 세 배\" 급등을, 6월 BNK Invest는 과매도 반등 시그널을 각각 보도했다. 다만 52주 고점 대비로는 여전히 69.42% 낮은 수준으로, 급등과 급락이 반복된 궤적 위에 있다.",
-        "researchedOn": "2026-09-17",
-        "carried": true
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "메가 포춘",
       "nameEn": "MEGA FORTUNE COMPANY LIMITED",
@@ -2958,80 +3026,23 @@ window.TEAM2_DATA = {
       "research": {
         "status": "done",
         "ticker": "TWST",
-        "company": "Twist Bioscience는 실리콘 기반 DNA 합성 플랫폼을 핵심 기술로, SynBio(합성 유전자·올리고 라이브러리), Biopharma(항체 발견 라이브러리·NGS 타겟 패널), Data Storage(DNA 기반 데이터 저장, 초기 단계) 3개 부문에서 매출을 내는 합성생물학 기업이며 핵심 고객은 제약·바이오텍 R&D 조직이다. 최근 Eli Lilly의 AI 신약개발 플랫폼 TuneLab에 항체 특성분석 데이터를 공급하는 계약을 체결하며 AI 신약개발向 데이터 공급자로 사업을 확장했다. 매출은 최근 4개 분기 연속 YoY 두 자릿수 성장(16.9%→16.9%→19.3%→23.2%)을 이어가는 반면 영업이익률은 -30%대에서 벗어나지 못하는 고성장·지속적자 국면이다.",
-        "lead": "TWST는 최근 1개월 22.49%·3개월 82.8%·6개월 275.01% 상승하며 RS 상위 1M 1.2%/3M 0.2%/6M 0.2%에 진입했고 52주 고점 대비 99.96%, 200일선 이격 139.64%로 극단적 과열 구간에 있다. 8월 FY2026 3분기 실적에서 매출이 YoY 23.2% 증가하고 가이던스가 상향된 데 이어, 9월 중순 Eli Lilly AI 신약개발 플랫폼 TuneLab과의 데이터 공급 계약 소식이 겹치며 6거래일 연속 상승·누적 23.9%의 추가 급등이 발생했다.",
+        "company": "합성 DNA(NGS 타깃 패널·유전자·항체 라이브러리 등)를 실리콘 기반 플랫폼으로 제조해 연구·제약 고객에 공급하는 Healthcare(Diagnostics & Research) 업체다. 직전 분기(2026-06-30 종료) 매출 118.4M USD로 YoY +23.2%, 영업이익 -36.3M USD(영업이익률 -30.6%)로 적자 상태이며 순이익 -35.1M USD이다. 제품별 매출 구성과 핵심 고객은 제공 자료에 없어 근거 없음.",
+        "lead": "TWST는 3M·6M 절대 상승률 +80.98%·+258.34%로 RS 상위 1% 부근에서 52주 고점 대비 95.6%, 200일선 이격 +142.99%까지 올라와 있다. 8월 초 $300M 규모 증자가 있었으며, 영업적자가 지속되는 상태에서의 주가 급등이라 밸류에이션·희석 부담을 확인해야 한다.",
         "whyRose": [
           {
-            "id": "w1",
-            "statement": "9월 중순 Eli Lilly의 AI 신약개발 플랫폼 TuneLab에 항체 특성분석(antibody characterization) 데이터를 공급하는 계약 체결 소식에 투자심리가 개선되며 단기 급등이 촉발됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "TWST Surges As Twist Bioscience Wins Eli Lilly AI Deal",
-                "publisher": "Timothy Sykes News Wire",
-                "url": "https://www.timothysykes.com/news/twistbiosciencecorporation-twst-news-2026_09_19/",
-                "date": "2026-09-19",
-                "quote": "Twist Bioscience Corporation stocks have been trading up by 7.1 percent amid investor optimism over its latest breakthrough developments",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w2",
-            "statement": "2026년 8월 발표된 FY2026 3분기(6월 마감) 실적에서 매출이 전년동기 대비 23.2% 증가했고, 시장 컨센서스 대비 매출이 상회한 것으로 보도됐다(순손실은 지속).",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Twist Bioscience (TWST) Reports Q3 Loss, Beats Revenue Estimates",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/twist-bioscience-twst-reports-q3-loss-beats-revenue-estimates",
-                "date": "2026-08-03",
-                "quote": "Twist Bioscience (TWST) Reports Q3 Loss, Beats Revenue Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
             "id": "w3",
-            "statement": "동일 실적 발표에서 FY2026 매출 가이던스가 상향 조정됐다고 보도됐다.",
+            "statement": "9월 중순 주간 급등 보도와 UBS(Neutral)·BWS Financial(Sell) 커버리지 개시로 수급·관심이 확대됐다. 급등의 구체 원인은 본문을 열람하지 못해 근거 없음.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Twist Bioscience (TWST): Q3 Revenue Jumps 23% As FY2026 Guidance Raised",
-                "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/twist-bioscience-twst-q3-revenue-jumps-23-fy2026-guidance-raised",
-                "date": "2026-08-19",
-                "quote": "Twist Bioscience (TWST): Q3 Revenue Jumps 23% As FY2026 Guidance Raised",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w4",
-            "statement": "TuneLab 계약 소식 이후 주가가 6거래일 연속 상승하며 누적 23.9% 올랐고 시가총액이 약 19억 달러 증가한 것으로 집계됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Twist Bioscience Stock: 6 Straight Green Days, Up 24%",
-                "publisher": "Trefis",
-                "url": "https://www.trefis.com/stock/twst/articles/615808/twist-bioscience-stock-6-straight-green-days-up-24/2026-09-18",
+                "title": "Why Twist Bioscience Stock Skyrocketed This Week",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/why-twist-bioscience-stock-skyrocketed-week",
                 "date": "2026-09-18",
-                "quote": "6개 연속 거래일 동안 누적 상승률은 23.9%",
+                "quote": "Why Twist Bioscience Stock Skyrocketed This Week",
                 "verified": "ok",
                 "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "counterpoint": [
-          {
-            "id": "c1",
-            "statement": "이번 급등 직전인 9월 9~10일 UBS는 Neutral, BWS Financial은 Sell로 커버리지를 개시해 밸류에이션에 대한 신중론이 이미 제기된 상태였다.",
-            "evidence_level": "sourced",
-            "sources": [
+              },
               {
                 "title": "UBS Initiates Coverage of Twist Bioscience with Neutral Rating",
                 "publisher": "Fintel",
@@ -3040,50 +3051,17 @@ window.TEAM2_DATA = {
                 "quote": "UBS Initiates Coverage of Twist Bioscience with Neutral Rating",
                 "verified": "ok",
                 "httpStatus": 200
-              },
-              {
-                "title": "BWS Financial Initiates Coverage of Twist Bioscience with Sell Rating",
-                "publisher": "Fintel",
-                "url": "https://www.nasdaq.com/articles/bws-financial-initiates-coverage-twist-bioscience-sell-rating",
-                "date": "2026-09-10",
-                "quote": "BWS Financial Initiates Coverage of Twist Bioscience with Sell Rating",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "2026년 6월 마감 분기 순손실이 전년동기 대비 271.9% 확대(영업이익률 -30.6%)됐고, 8월 5일 3억 달러 규모의 증액된 공모 증자를 발표해 희석 부담이 존재한다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "TWST.json detail.financials — periodEnd 2026-06-30",
-                "publisher": "SEC EDGAR 10-Q 기반 집계",
-                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001581280&type=10-Q",
-                "date": "2026-09-15",
-                "quote": "netIncome yoy: -271.9, margin: -30.6",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Twist Announces Pricing Of $300 Mln Underwritten Upsized Public Offering",
-                "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/twist-announces-pricing-300-mln-underwritten-upsized-public-offering",
-                "date": "2026-08-05",
-                "quote": "Twist Announces Pricing Of $300 Mln Underwritten Upsized Public Offering",
-                "verified": "ok",
-                "httpStatus": 200
               }
             ]
           }
         ],
+        "counterpoint": [],
         "estimateRevisions": {
           "direction": "raised",
           "claims": [
             {
               "id": "e1",
-              "statement": "국내 증권사 리포트는 확보되지 않았으나(krReports 0건), 2026년 8월 3분기 실적 발표에서 FY2026 매출 가이던스가 상향됐다는 현지 매체 보도가 확인된다.",
+              "statement": "FY2026 가이던스 상향(세부 수치 미확인). 국내 증권사 리포트는 0건.",
               "evidence_level": "sourced",
               "sources": [
                 {
@@ -3100,18 +3078,29 @@ window.TEAM2_DATA = {
           ]
         },
         "themeTags": [
-          "합성생물학(SynBio)",
-          "AI 신약개발",
-          "DNA 합성/유전자 신테시스"
+          "합성생물학",
+          "NGS 툴/진단 소재"
         ],
-        "confidence": "medium",
+        "confidence": "low",
         "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reasons": []
+          "verdict": "partial",
+          "removed": [
+            "w1",
+            "w2",
+            "c1",
+            "c2"
+          ],
+          "reasons": [
+            "w1: Specific quarterly revenue (118.4M USD), operating margin details (-41.4% to -30.6%), and prior quarter growth (+19.3%) are unsupported by headline quote alone",
+            "w2: Statement explicitly acknowledges guidance raise details are not verified in source content (구체 수치는 본문 미확인); FY2026 guidance raise is only mentioned in title without supporting detail",
+            "c1: Operating loss figure (-36.3M USD) does not appear in provided source quote",
+            "c2: Net income YoY decline figure (-271.9%) is not present in the provided source quotes"
+          ],
+          "leadFixed": true
         },
-        "researchedOn": "2026-09-21",
-        "carried": true
+        "leadOriginal": "TWST는 3M·6M 절대 상승률 +80.98%·+258.34%로 RS 상위 1% 부근에서 52주 고점 대비 95.6%, 200일선 이격 +142.99%까지 올라와 있다. 매출 성장이 4분기 연속 YoY +16.9%~+23.2%로 가속됐고 FY2026 가이던스가 상향됐다는 보도가 있으나, 8월 초 $300M 규모 증자도 있었다. 영업적자가 지속되는 상태에서의 주가 급등이라 밸류에이션·희석 부담을 확인해야 한다.",
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "트위스트 바이오사이언스",
       "nameEn": "TWIST BIOSCIENCE CORPORATION",
@@ -3527,29 +3516,20 @@ window.TEAM2_DATA = {
       "research": {
         "status": "done",
         "ticker": "SEI",
-        "company": "솔라리스 에너지 인프라스트럭처(SEI)는 오일가스 장비·서비스 섹터에서 이동식 천연가스 터빈 발전 솔루션과 프로판트(모래) 물류 서비스를 두 축으로 하는 회사로, E&P 운영사 대상 유전 현장 인프라 임대·서비스가 핵심 매출원이다. 2026년 9월 1일 Omega Foundation Services를 Class A 보통주 3,599,199주와 약 7,700만 달러 현금으로 인수 완료(8-K, 2026-09-08 공시)하며 기초공사(foundation) 역량을 내재화해 EPC 밸류체인 쪽으로 사업을 확장하는 국면이다. 2026년 2분기 매출 1억 1,368만 달러(YoY +30%)·영업이익률 49.7%로 수익성 확장이 이어지고 있다.",
-        "lead": "SEI는 최근 1개월 RS 상위 1.7%로 스크리닝 최상위권에 진입했으나 3개월 절대수익률은 -11.02%(RS 3M 상위 77.1%)로, 8월 초 실적 발표 이후 주가가 눌렸다가 9월 들어 급반등하는 경로를 보였다. 이 반등의 배경에는 2026년 9월 1일 종결된 Omega Foundation Services 인수(주식+현금 약 7,700만 달러 이상 규모)와 director의 자사주 매입(9월 9일, 약 8,000주·50만 달러 이상), 그리고 2분기 매출 +30% YoY·영업이익 +58.9% YoY의 실적 개선이 자리한다. 다만 52주 고점 대비 80.47%, 200일선 이격 +15.17% 구간에서 밸류에이션 부담을 지적하는 시각도 병존한다.",
+        "company": "Solaris Energy Infrastructure(SEI)는 Energy 섹터 Oil & Gas Equipment & Services 업종으로, 제공 자료상 2026-09-02 Omega Foundation Services 인수 기사와 9/8 8-K(Item 2.01)가 확인된다. 사업부별 매출 구성과 핵심 고객은 제공 자료에 없어 근거 없음. 2026-06-30 분기 매출 113.68M USD(YoY +30%), 영업이익 56.51M USD로 성장 국면이며 RS 1M 상위 0.2%에 진입했다.",
+        "lead": "SEI 는 RS 상위 1M 0.2%(3M 30.7%, 6M 23.5%), 1M 절대 상승률 38.88%로 단기 모멘텀이 집중된 종목이다. 2026-06-30 분기 매출 YoY +30%, 영업이익 YoY +58.9%의 실적과 이후 컨센서스 상향, 이사 자사주 매수, 인수 공시가 겹쳤다. 3M 상승률은 3.12%에 그쳐 상승은 최근 1개월에 몰려 있고 52주 고점 대비 80.39% 수준이다.",
         "whyRose": [
           {
             "id": "w1",
-            "statement": "2026년 2분기(6월 말 기준) 매출 1억 1,368.2만 달러(YoY +30%), 영업이익 5,651.3만 달러(YoY +58.9%), 순이익 2,048.6만 달러(YoY +71.4%), 영업이익률 49.7%로 실적 성장이 가속됐다.",
+            "statement": "2026-06-30 분기(Q2) 매출 113.68M USD(YoY +30%), 영업이익 56.51M USD(YoY +58.9%, 영업이익률 49.7%), 순이익 20.49M USD(YoY +71.4%). 직전 분기(2026-03-31) 매출 90.88M USD(YoY +4.2%) 대비 성장률이 가속됐다. 실적 발표 8-K 는 2026-08-05.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Solaris Energy Infrastructure, Inc. (SEI) Reports Q2 Earnings: What Key Metrics Have to Say",
-                "publisher": "Zacks (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/solaris-energy-infrastructure-inc-sei-reports-q2-earnings-what-key-metrics-have-say",
-                "date": "2026-08-07",
-                "quote": "Solaris Energy Infrastructure, Inc. (SEI) Reports Q2 Earnings: What Key Metrics Have to Say",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "SEI 10-Q 실적 데이터 (EDGAR)",
+                "title": "SEC EDGAR SEI 10-Q (Node 수집 SEC 실적표)",
                 "publisher": "SEC EDGAR",
                 "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001697500&type=10-Q",
-                "date": "2026-09-07",
-                "quote": "periodEnd 2026-06-30: revenue $113,682,000 (YoY +30%), profit $56,513,000 (YoY +58.9%), netIncome $20,486,000 (YoY +71.4%), margin 49.7%",
+                "date": "2026-06-30",
+                "quote": "periodEnd 2026-06-30 revenue 113682000 profit 56513000 netIncome 20486000 margin 49.7 yoy revenue 30 profit 58.9 netIncome 71.4",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -3557,15 +3537,24 @@ window.TEAM2_DATA = {
           },
           {
             "id": "w2",
-            "statement": "직전 분기(2026년 1분기)에도 매출 9,087.5만 달러(YoY +4.2%)에 비해 영업이익은 5,055.9만 달러(YoY +129.2%), 순이익은 2,143.8만 달러(YoY +303%)로 마진이 25.3%→55.6%로 급격히 확장돼 수익성 레버리지가 뚜렷하다.",
+            "statement": "이익 추정치 상향 기사(Zacks, 9/21)와 애널리스트 평균 목표가 상단 여력 32.97% 기사가 같은 날 나왔다. 사이트 컨센서스 값도 30일 전 대비 올라 있다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "SEI 10-Q 실적 데이터 (EDGAR)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001697500&type=10-Q",
-                "date": "2026-09-07",
-                "quote": "periodEnd 2026-03-31: revenue $90,875,000 (YoY +4.2%), profit $50,559,000 (YoY +129.2%), netIncome $21,438,000 (YoY +303%), margin 55.6%",
+                "title": "Surging Earnings Estimates Signal Upside for Solaris Energy Infrastructure, Inc. (SEI) Stock",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/surging-earnings-estimates-signal-upside-solaris-energy-infrastructure-inc-sei-stock",
+                "date": "2026-09-21",
+                "quote": "Surging Earnings Estimates Signal Upside for Solaris Energy Infrastructure, Inc. (SEI) Stock",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Wall Street Analysts Think Solaris Energy Infrastructure, Inc. (SEI) Could Surge 32.97%",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/wall-street-analysts-think-solaris-energy-infrastructure-inc-sei-could-surge-3297-read",
+                "date": "2026-09-21",
+                "quote": "Wall Street Analysts Think Solaris Energy Infrastructure, Inc. (SEI) Could Surge 32.97%: Read This Before Placing a Bet",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -3573,15 +3562,15 @@ window.TEAM2_DATA = {
           },
           {
             "id": "w3",
-            "statement": "2026년 9월 1일 Omega Foundation Services 인수를 종결하며 Class A 보통주 3,599,199주와 약 7,700만 달러 현금을 대가로 지급, 기초공사 역량을 내재화해 사업 영역을 확장했다.",
+            "statement": "9/9 이사가 약 8,000주(50만 달러 초과)를 매수했고 9/10 내부자 매수 리포트에도 SEI 가 올랐다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Solaris Energy Infrastructure 8-K (2026-09-08)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1697500/000119312526385257/d441137d8k.htm",
-                "date": "2026-09-08",
-                "quote": "3,599,199 shares of Class A common stock",
+                "title": "A Solaris Energy Director Buys Nearly 8,000 Company Shares Worth Over $500,000",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/solaris-energy-director-buys-nearly-8000-company-shares-worth-over-500000",
+                "date": "2026-09-09",
+                "quote": "A Solaris Energy Director Buys Nearly 8,000 Company Shares Worth Over $500,000",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -3589,24 +3578,15 @@ window.TEAM2_DATA = {
           },
           {
             "id": "w4",
-            "statement": "9월 초 이사(director)의 자사주 매입 등 내부자 매수가 잇달아 보도되며 경영진의 자신감 신호로 받아들여졌다.",
+            "statement": "9/2 Omega Foundation Services 인수(가격 비공개), 9/8 8-K(중요 계약·Item 2.01 자산 인수 완료), 9/23 8-K(중요 계약 체결)로 사업 확장 재료가 이어졌다. 공시 본문은 미열람이라 계약 내용·규모는 근거 없음.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "A Solaris Energy Director Buys Nearly 8,000 Company Shares Worth Over $500,000",
-                "publisher": "The Motley Fool (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/solaris-energy-director-buys-nearly-8000-company-shares-worth-over-500000",
-                "date": "2026-09-09",
-                "quote": "A Solaris Energy Director Buys Nearly 8,000 Company Shares Worth Over $500,000",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Thursday 9/10 Insider Buying Report: SEI, GRCE",
-                "publisher": "BNK Invest (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/thursday-9-10-insider-buying-report-sei-grce",
-                "date": "2026-09-10",
-                "quote": "Thursday 9/10 Insider Buying Report: SEI, GRCE",
+                "title": "Solaris Energy Infrastructure Acquires Omega Foundation Services At Undisclosed Price",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/solaris-energy-infrastructure-acquires-omega-foundation-services-undisclosed-price",
+                "date": "2026-09-02",
+                "quote": "Solaris Energy Infrastructure Acquires Omega Foundation Services At Undisclosed Price",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -3616,12 +3596,21 @@ window.TEAM2_DATA = {
         "counterpoint": [
           {
             "id": "c1",
-            "statement": "직전 실적 발표 이후 주가가 6.7% 하락했다는 보도가 있어, 이번 실적 개선이 곧바로 주가에 반영되지 않았던 구간이 존재한다.",
+            "statement": "밸류에이션 부담: Zacks 는 성장 가속에도 밸류에이션이 높다고 평가했다. 또 실적 발표(8/5) 후 9/4 까지 주가가 6.7% 하락했던 이력이 있어 실적 호재의 주가 반영이 일관되지 않았다.",
             "evidence_level": "sourced",
             "sources": [
               {
+                "title": "Is SEI Worth Buying as Growth Accelerates but Valuation Stays High?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/sei-worth-buying-growth-accelerates-valuation-stays-high",
+                "date": "2026-08-26",
+                "quote": "Is SEI Worth Buying as Growth Accelerates but Valuation Stays High?",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
                 "title": "Why Is Solaris Energy Infrastructure, Inc. (SEI) Down 6.7% Since Last Earnings Report?",
-                "publisher": "Zacks (Nasdaq.com)",
+                "publisher": "Zacks",
                 "url": "https://www.nasdaq.com/articles/why-solaris-energy-infrastructure-inc-sei-down-67-last-earnings-report",
                 "date": "2026-09-04",
                 "quote": "Why Is Solaris Energy Infrastructure, Inc. (SEI) Down 6.7% Since Last Earnings Report?",
@@ -3632,15 +3621,15 @@ window.TEAM2_DATA = {
           },
           {
             "id": "c2",
-            "statement": "성장 가속에도 불구하고 밸류에이션 부담을 지적하는 시각이 존재한다.",
+            "statement": "희석 가능성: 9/8 및 7/6 8-K 에 Item 3.02(미등록 지분증권 매각)가 포함돼 있다. 규모·조건은 본문 미확인이라 희석률은 근거 없음.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Is SEI Worth Buying as Growth Accelerates but Valuation Stays High?",
-                "publisher": "Zacks (Nasdaq.com)",
-                "url": "https://www.nasdaq.com/articles/sei-worth-buying-growth-accelerates-valuation-stays-high",
-                "date": "2026-08-26",
-                "quote": "Is SEI Worth Buying as Growth Accelerates but Valuation Stays High?",
+                "title": "SEI 8-K 2026-09-08 (Item 2.01, 3.02)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1697500/000119312526385257/d441137d8k.htm",
+                "date": "2026-09-08",
+                "quote": "itemsKo: 중요 계약 체결, 2.01, 3.02, Reg FD 공시, 재무제표·첨부",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -3648,13 +3637,30 @@ window.TEAM2_DATA = {
           }
         ],
         "estimateRevisions": {
-          "direction": "unknown",
-          "claims": []
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "Zacks 가 이익 추정치 급등을 지적했다(9/21). 사이트 컨센서스 필드는 올해 30일 전 1.00746 → 현재 1.3431, 내년 1.85009 → 3.40745 로 상향돼 있다(단위는 사이트 필드 그대로). 국내 증권사 리포트는 0건.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Surging Earnings Estimates Signal Upside for Solaris Energy Infrastructure, Inc. (SEI) Stock",
+                  "publisher": "Zacks",
+                  "url": "https://www.nasdaq.com/articles/surging-earnings-estimates-signal-upside-solaris-energy-infrastructure-inc-sei-stock",
+                  "date": "2026-09-21",
+                  "quote": "Surging Earnings Estimates Signal Upside for Solaris Energy Infrastructure, Inc. (SEI) Stock",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
         },
         "themeTags": [
-          "오일가스 장비·서비스",
-          "이동식 발전 솔루션",
-          "M&A/사업다각화"
+          "에너지 인프라",
+          "전력 공급 인프라",
+          "오일가스 장비·서비스"
         ],
         "confidence": "medium",
         "factcheck": {
@@ -3662,8 +3668,8 @@ window.TEAM2_DATA = {
           "removed": [],
           "reasons": []
         },
-        "researchedOn": "2026-09-18",
-        "carried": true
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "솔라리스 에너지 인프라스트럭처",
       "nameEn": "SOLARIS ENERGY INFRASTRUCTURE INC",
@@ -6463,8 +6469,101 @@ window.TEAM2_DATA = {
         "count": 23
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "COHU",
+        "company": "Cohu는 반도체 후공정 테스트 핸들러·컨택터·검사 장비를 공급하는 장비사로 추정되나, 매출 구성·핵심 고객 비중은 제공 자료에 없어 근거 없음. 2026-06-27 종료 분기 매출 149.0M USD(YoY +38.4%), 영업이익 0.29M USD(영업이익률 0.2%)로 직전 3개 분기 영업적자에서 흑자 전환했으나 순이익은 -0.16M USD로 아직 적자다.",
+        "lead": "COHU는 2026-06 분기에 매출 YoY +38.4%, 영업이익률이 손익분기를 넘으며 개선됐고, RS 상위 1M 0.5%·1M 절대 상승률 37.65%로 단기 모멘텀이 집중됐다. 3M 상승률은 11.47%로 상승이 최근 한 달에 몰려 있으며, 순이익은 여전히 소폭 적자이고 CEO 지분 매도 기사도 나와 있다.",
+        "whyRose": [
+          {
+            "id": "w2",
+            "statement": "2분기 실적 발표(8-K, 2026-07-30) 이후 애널리스트 목표가 상단 여력 기사(Zacks, 2026-08-05). 기사 본문의 수치는 열람하지 않아 여력 %는 제목 기준.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "How Much Upside is Left in Cohu (COHU)? Wall Street Analysts Think 28.27%",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/how-much-upside-left-cohu-cohu-wall-street-analysts-think-2827",
+                "date": "2026-08-05",
+                "quote": "How Much Upside is Left in Cohu (COHU)? Wall Street Analysts Think 28.27%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "AI 테스트 장비 수요 관련 동종 비교 기사(Teradyne 대비)에 COHU가 반복 언급돼 테마 관심이 유지. 다만 기사 본문 근거는 확인하지 않았고 9월 중순 이후 1M 급등의 직접 촉매는 제공 자료에 없어 근거 없음.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Teradyne Strengthens AI Test Portfolio: Can It Beat KLAC & COHU?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/teradyne-strengthens-ai-test-portfolio-can-it-beat-klac-cohu",
+                "date": "2026-09-24",
+                "quote": "Teradyne Strengthens AI Test Portfolio: Can It Beat KLAC & COHU?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "수익성은 손익분기 수준에 불과하다: 영업이익률 0.2%, 순이익 -0.16M USD. 사이트 컨센서스 EPS는 CY 0.95, NY 1.84625로 실적 대비 기대가 앞서 있고, 분기 손익이 한 분기 흑자로 추세 전환이 확정된 것은 아니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Cohu 10-Q 실적 (SEC EDGAR)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000021535&type=10-Q",
+                "date": "2026-06-27",
+                "quote": "revenue 149002000 profit 292000 netIncome -159000 margin 0.2",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "CEO Luis Muller의 3.3M USD 지분 매도 기사(2026-09-23). 1M +37.65% 급등 구간 매도이며, 계획매매 여부 등 세부는 확인하지 않음. 또 200일선 이격 +53.97%로 과열 구간이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Cohu CEO Luis Muller Sells Shares for $3.3 Million",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/cohu-ceo-luis-muller-sells-shares-33-million",
+                "date": "2026-09-23",
+                "quote": "Cohu CEO Luis Muller Sells Shares for $3.3 Million",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "반도체 후공정 장비",
+          "AI 테스트",
+          "턴어라운드"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1"
+          ],
+          "reasons": [
+            "w1: Statement includes extensive unsourced prior quarter data: operating losses (-11.2M USD, -15.5M USD), margin history (-8.9%, -12.7%), and four-quarter sequential revenue growth metrics (32.4%, 29.9%, 29.3%, 38.4%) that do not appear in provided source quote"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "COHU는 2026-06 분기에 매출 YoY +38.4%, 영업이익률 -8.9%(직전 분기)에서 +0.2%로 돌아서며 손익분기를 넘겼고, RS 상위 1M 0.5%·1M 절대 상승률 37.65%로 단기 모멘텀이 집중됐다. 3M 상승률은 11.47%로 상승이 최근 한 달에 몰려 있으며, 순이익은 여전히 소폭 적자이고 CEO 지분 매도 기사도 나와 있다.",
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "코후",
       "nameEn": "COHU INC",
@@ -7408,28 +7507,12 @@ window.TEAM2_DATA = {
       "research": {
         "status": "done",
         "ticker": "FEIM",
-        "company": "Frequency Electronics는 GPS/GNSS 위성항법 및 우주항공·국방용 정밀 주파수·타이밍 시스템(원자시계, 발진기)을 설계·제조하며, 주요 고객은 미 국방부 우주군 산하 프로그램과 위성 프라임 컨트랙터다. FY2027 1분기(2026-07-31 마감) 매출 2345.1만 달러(YoY +69.8%, QoQ +52%)로 사상 최고치를 기록했고 영업이익률 22.2%(총마진 약 46%)를 내며 직전 분기(2026-04-30 마감, 구조조정 비용으로 영업이익률 -41.2%)의 적자 국면에서 급반전했다. 펀디드 백로그가 분기 말 1억2900만 달러(YoY +82%)로 사상 최대치를 기록하며 확산형(proliferated) 위성 프로그램向 신규 수주가 이어지는 국면이다.",
-        "lead": "FEIM은 2026-09-10 발표한 FY2027 1분기 실적에서 매출 2345.1만 달러(YoY +69.8%, 사상 최고치)로 기록했고, 실적 발표 이후 주가는 약 33.6~34% 급등했다. 7월에는 총 1800만 달러 규모의 신규 항공우주·위성 계약을 수주하며 수요 모멘텀을 확인시켰다.",
+        "company": "Frequency Electronics(FEIM)는 원자시계·정밀 발진기·위성 페이로드용 주파수 제어 모듈을 방산·항공우주 고객에게 공급하는 Communication Equipment 업체다. 2026-04-30 분기에 구조조정 비용으로 영업손실 -6.35M USD(영업이익률 -41.2%)를 기록했으나, 2026-07-31 분기(FY27 Q1)는 매출 23.45M USD(YoY +69.8%), 영업이익 5.2M USD(영업이익률 22.2%)로 급반전했다. 고객별 매출 구성은 제공 자료에 없어 근거 없음.",
+        "lead": "FEIM은 1M 절대 상승률 36.44%, RS 1M 상위 0.5%까지 올랐다. 7월 항공우주 계약 수주 뉴스가 선행 재료였다. 컨센서스 추정 변화는 확인되지 않아, 1개 분기 반등이 지속되는지가 관건이다.",
         "whyRose": [
           {
-            "id": "w2",
-            "statement": "실적 발표 이후 주가가 약 33.6~34% 급등했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "FEIM Stock Climbs 34% as Q1 Earnings Surge Year Over Year",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/feim-stock-climbs-34-q1-earnings-surge-year-over-year",
-                "date": "2026-09-16",
-                "quote": "FEIM Stock Climbs 34% as Q1 Earnings Surge Year Over Year",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w4",
-            "statement": "7월 중 확산형 위성 프로그램向 1100만 달러 계약을 포함해 총 1800만 달러 규모의 신규 항공우주·위성 계약을 수주했다.",
+            "id": "w3",
+            "statement": "7월 23일 18M USD 규모 신규 항공우주 계약 수주가 백로그 기대를 뒷받침했고, 7/30 중요계약 8-K도 공시됐다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -7446,24 +7529,8 @@ window.TEAM2_DATA = {
         ],
         "counterpoint": [
           {
-            "id": "c1",
-            "statement": "직전 분기(2026-04-30 마감)는 구조조정 비용으로 영업이익률이 -41.2%까지 악화되며 순손실(-400.3만 달러)을 기록했다. 최근 1개 분기의 마진 정상화가 구조적 개선인지, 방산·우주 부품 특유의 수주-인도 인식 시차에 따른 일시적 반등인지는 다음 분기 확인이 필요하다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Frequency Electronics 10-Q/10-K 재무제표 (periodEnd 2026-04-30)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000039020&type=10-Q",
-                "date": "2026-04-30",
-                "quote": "revenue 15,398,000; operating profit -6,350,000; margin -41.2%; yoy revenue -23%",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
             "id": "c2",
-            "statement": "직전 분기 실적 발표 전후로도 주가 변동성이 컸다(7월 중순 급락 보도 이후 실적 발표를 거쳐 재상승). 방산·우주 부품주 특유의 실적발 급등락 패턴이 반복될 가능성을 배제할 수 없다.",
+            "statement": "1M +36.44%, 200일선 이격 +37.87%로 단기 과열 구간이며, 7/16 급락 기사 이력이 있어 변동성이 크다. 국내 증권사 리포트는 0건이라 외부 컨센서스 검증이 없다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -7483,26 +7550,28 @@ window.TEAM2_DATA = {
           "claims": []
         },
         "themeTags": [
-          "우주항공·국방",
-          "위성 타이밍/GNSS",
-          "정밀 주파수 제어"
+          "방산·항공우주 전자",
+          "위성 통신",
+          "실적 턴어라운드"
         ],
         "confidence": "medium",
         "factcheck": {
           "verdict": "partial",
           "removed": [
             "w1",
-            "w3"
+            "w2",
+            "c1"
           ],
           "reasons": [
-            "w1: Earnings figures (net income $4.216M, earnings YoY +565%, EPS $0.41) not present in provided quote; only revenue data verified",
-            "w3: Backlog YoY growth rate (+82%) not present in provided quote; only dollar amount ($129M) verified"
+            "w1: Quote lacks specific earnings figures (23.45M USD, YoY +69.8%, operating profit 5.2M, etc.) needed to verify statement",
+            "w2: Quote lacks numeric specifics (RS 상위 0.5%, top2 연속 8일) claimed in statement",
+            "c1: Quote lacks historical earnings decline figures (YoY -23%, -10.8%, -63.4%) needed to verify counterpoint"
           ],
           "leadFixed": true
         },
-        "leadOriginal": "FEIM은 2026-09-10 발표한 FY2027 1분기 실적에서 매출 2345.1만 달러(YoY +69.8%, 사상 최고치), 순이익 421.6만 달러(YoY +565%, EPS $0.41)로 어닝 서프라이즈를 기록했고, 실적 발표 이후 주가는 약 33.6~34% 급등했다. 펀디드 백로그는 1억2900만 달러로 YoY +82% 늘었고, 7월에는 확산형 위성 프로그램向 1100만 달러 계약을 포함해 총 1800만 달러 규모의 신규 항공우주·위성 계약을 잇달아 수주하며 수요 모멘텀을 확인시켰다. 직전 분기(2026-04-30 마감)의 구조조정발 영업적자(마진 -41.2%)를 딛고 마진이 급격히 정상화된 점이 상승의 핵심 배경이다.",
-        "researchedOn": "2026-09-18",
-        "carried": true
+        "leadOriginal": "FEIM은 9/10 FY27 Q1 실적(매출 YoY +69.8%, 영업이익률 22.2%)이 구조조정 손실 분기 직후 급반전으로 확인되며 1M 절대 상승률 36.44%, RS 1M 상위 0.5%까지 올랐다. 7월 항공우주 계약 수주 뉴스가 선행 재료였다. 다만 직전 3개 분기 YoY가 부진했고 컨센서스 추정 변화는 확인되지 않아, 1개 분기 반등이 지속되는지가 관건이다.",
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "프리퀀시 일렉트로닉스",
       "nameEn": "FREQUENCY ELECTRONICS INC",
@@ -10238,29 +10307,30 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "done",
-        "company": "코셉트 테라퓨틱스는 코티솔(당질코르티코이드) 수용체를 표적으로 하는 신약을 개발하는 바이오텍으로, 주력 제품인 쿠싱증후군 치료제 Korlym(mifepristone)과 그 authorized generic이 기존 매출 기반을 이뤄왔다. 2026년 신규 승인된 온콜로지 신약 Lifyorli(relacorilant)가 출시 첫 풀 분기(2026년 2분기)에 4760만달러 매출을 내며 성장축이 Cushing 단일 프랜차이즈 의존에서 항암 파이프라인으로 확장되는 국면이다. 2분기 매출은 2억5615만달러(YoY +31.7%)로 회사는 2026 회계연도 매출 가이던스를 11억~12억달러로 상향했다.",
-        "lead": "CORT는 2026년 2분기(6월 마감) 실적에서 매출 2억5615만달러(YoY +31.7%)로 Zacks 컨센서스를 18.38% 상회했고 EPS 0.36달러가 컨센서스 0.04달러를 크게 웃돌며 서프라이즈를 기록했다. 신규 항암제 Lifyorli가 첫 풀 분기 4760만달러 매출을 내며 회사는 2026 연간 가이던스를 11억~12억달러로 상향했다. 이 실적·가이던스 모멘텀에 힘입어 6개월 RS 상위 0.3%, 절대수익률 +232.44%를 기록하며 200일선 대비 +65.01% 이격까지 확대됐다.",
+        "ticker": "CORT",
+        "company": "Corcept Therapeutics는 코르티솔 조절제 Korlym(쿠싱증후군 고코르티솔증)을 핵심 매출원으로 하는 바이오 기업이며, 릴라코란트(Lifyorli)의 난소암 적응증을 확장 중이다. 2026년 2분기 매출은 256.1M USD(YoY +31.7%), 영업이익 41.3M USD(영업이익률 16.1%)로, 1분기 영업손실(-49.6M USD, 마진 -30.1%)에서 흑자 전환했다. 매출 구성·핵심 고객 세부는 제공 자료에 없어 근거 없음.",
+        "lead": "CORT는 6개월 절대 상승률 177.36%, RS 6M 상위 0.7%로 중기 모멘텀이 강하지만 1M 상승률은 1.54%로 둔화했다. 9월 CHMP의 Lifyorli 긍정 의견이 상승 논리의 축이다. 52주 고점 대비 91.49%, 200일선 이격 66.71%로 이미 많이 오른 구간이다.",
         "whyRose": [
           {
-            "id": "w1",
-            "statement": "2026년 2분기(2026-06-30 마감) 매출이 2억5615만달러로 전년동기대비 +31.7% 증가했고 Zacks 컨센서스를 18.38% 상회했으며, EPS는 0.36달러로 컨센서스 0.04달러를 크게 웃돌아 서프라이즈 +670.9%를 기록했다. 영업이익률은 16.1%(YoY 영업이익 +54.8%, 순이익 +22.3%)였다.",
+            "id": "w2",
+            "statement": "2026-09-18~21 EU CHMP가 Lifyorli 병용요법의 백금저항성 난소암 적응증에 긍정 의견을 냈다. 유럽 승인 기대가 촉매로 작용했다. 다만 1M 상승률은 1.54%에 그쳐 이 뉴스 이후 급등은 확인되지 않는다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Corcept Therapeutics files Q2 FY2026 8-K (Item 2.02 실적 발표)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort-20260729.htm",
-                "date": "2026-07-29",
-                "quote": "periodEnd 2026-06-30: revenue 256,147,000 (YoY +31.7%), profit(영업이익) 41,300,000 (YoY +54.8%), netIncome 42,987,000 (YoY +22.3%), margin 16.1%",
+                "title": "Corcept's Lifyorli Gets Positive EU Opinion For Platinum-Resistant Ovarian Cancer",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/corcepts-lifyorli-gets-positive-eu-opinion-platinum-resistant-ovarian-cancer",
+                "date": "2026-09-18",
+                "quote": "Corcept's Lifyorli Gets Positive EU Opinion For Platinum-Resistant Ovarian Cancer",
                 "verified": "ok",
                 "httpStatus": 200
               },
               {
-                "title": "Corcept Therapeutics (CORT) Q2 Earnings and Revenues Surpass Estimates",
-                "publisher": "Zacks (via Yahoo Finance)",
-                "url": "https://ca.finance.yahoo.com/news/corcept-therapeutics-cort-q2-earnings-222507577.html",
-                "date": "2026-07-29",
-                "quote": "Corcept posted revenues of $256.15 million for the quarter ended June 2026, surpassing the Zacks Consensus Estimate by 18.38%.",
+                "title": "CHMP Backs CORT's Lifyorli Combo in Platinum-Resistant Ovarian Cancer",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/chmp-backs-corts-lifyorli-combo-platinum-resistant-ovarian-cancer",
+                "date": "2026-09-21",
+                "quote": "CHMP Backs CORT's Lifyorli Combo in Platinum-Resistant Ovarian Cancer",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -10268,23 +10338,7 @@ window.TEAM2_DATA = {
           },
           {
             "id": "w3",
-            "statement": "회사는 온콜로지 신약 출시와 기존 Cushing 프랜차이즈의 기록적 신규처방 증가에 힘입어 2026 회계연도 매출 가이던스를 11억~12억달러로 상향했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Corcept Therapeutics (NASDAQ: CORT) lifts 2026 outlook after $256M Q2 sales",
-                "publisher": "StockTitan",
-                "url": "https://www.stocktitan.net/sec-filings/CORT/8-k-corcept-therapeutics-inc-reports-material-event-1a3048304a4c.html",
-                "date": "2026-07-29",
-                "quote": "The company raised full-year guidance to $1.1 billion to $1.2 billion on the strength of both the oncology launch and record new prescriptions in its core Cushing's syndrome franchise.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w4",
-            "statement": "Zacks는 2026-08-05 CORT를 장기 모멘텀 상위 종목으로 지목했다.",
+            "statement": "Zacks가 8월 초 CORT를 장기 모멘텀 상위 종목으로 분류했고, 9월에는 Korlym이 2026년 잔여 기간 성장을 지지할지 다룬 기사가 나왔다. 정량 근거는 제공 자료에 없다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -10302,15 +10356,31 @@ window.TEAM2_DATA = {
         "counterpoint": [
           {
             "id": "c1",
-            "statement": "직전 분기(2026년 1분기, 2026-03-31 마감)는 영업손실 -4960만달러(영업이익률 -30.1%), 순손실 -3176만달러(순이익 YoY -254.6%)를 기록해 분기별 수익성 변동성이 크다. 2분기 서프라이즈가 온콜로지 신약 출시 초기 비용 구조의 일시적 효과인지, 추세적 마진 개선인지는 추가 분기 확인이 필요하다.",
+            "statement": "실적 변동성이 크다. 2026년 1분기는 영업손실 -49.6M USD(마진 -30.1%), 2025년 4분기 영업이익 4.5M USD(YoY -82.2%), 2025년 3분기 영업이익 10.2M USD(YoY -78.1%)였다. 2분기 흑자가 지속되는지는 3분기 결과로 확인해야 한다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Corcept Therapeutics files Q1 FY2026 8-K (Item 2.02 실적 발표)",
+                "title": "Corcept 10-Q 분기 실적 (SEC EDGAR)",
                 "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026028892/cort-20260430.htm",
-                "date": "2026-04-30",
-                "quote": "periodEnd 2026-03-31: revenue 164,903,000 (YoY +4.9%), profit(영업이익) -49,601,000 (YoY -1552%), netIncome -31,761,000 (YoY -254.6%), margin -30.1%",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001088856&type=10-Q",
+                "date": "2026-03-31",
+                "quote": "revenue 164903000, profit -49601000, netIncome -31761000, margin -30.1",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "200일선 이격 66.71%로 과열 구간이고, 실적 발표(7/29) 이후 주가는 Zacks 기준 1.2% 하락했다. 실적 호조가 추가 상승으로 이어지지 않았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Is Corcept (CORT) Down 1.2% Since Last Earnings Report?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/why-corcept-cort-down-12-last-earnings-report",
+                "date": "2026-08-28",
+                "quote": "Why Is Corcept (CORT) Down 1.2% Since Last Earnings Report?",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -10318,60 +10388,28 @@ window.TEAM2_DATA = {
           }
         ],
         "estimateRevisions": {
-          "direction": "raised",
-          "claims": [
-            {
-              "id": "e1",
-              "statement": "회사가 2026 회계연도 매출 가이던스를 11억~12억달러로 상향 제시했다(직전 대비 상향).",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Corcept Therapeutics (NASDAQ: CORT) lifts 2026 outlook after $256M Q2 sales",
-                  "publisher": "StockTitan",
-                  "url": "https://www.stocktitan.net/sec-filings/CORT/8-k-corcept-therapeutics-inc-reports-material-event-1a3048304a4c.html",
-                  "date": "2026-07-29",
-                  "quote": "The company raised full-year guidance to $1.1 billion to $1.2 billion on the strength of both the oncology launch and record new prescriptions in its core Cushing's syndrome franchise.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "e2",
-              "statement": "2분기 EPS 0.36달러가 컨센서스 0.04달러를 크게 상회(서프라이즈 +670.9%)하며 실적 서프라이즈가 발생, 향후 컨센서스 추정치 상향 조정의 근거가 되었다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Corcept Therapeutics (CORT) Q2 Earnings and Revenues Surpass Estimates",
-                  "publisher": "Zacks (via Yahoo Finance)",
-                  "url": "https://ca.finance.yahoo.com/news/corcept-therapeutics-cort-q2-earnings-222507577.html",
-                  "date": "2026-07-29",
-                  "quote": "Corcept delivered EPS of $0.36 versus an estimate of $0.04, representing a +670.9% beat.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ]
+          "direction": "unknown",
+          "claims": []
         },
         "themeTags": [
-          "코티솔 조절제(HPA축)",
-          "쿠싱증후군 치료제",
-          "온콜로지 파이프라인 확장"
+          "바이오/제약",
+          "희귀질환",
+          "항암 파이프라인"
         ],
         "confidence": "medium",
-        "ticker": "CORT",
         "factcheck": {
           "verdict": "partial",
           "removed": [
-            "w2"
+            "w1"
           ],
           "reasons": [
-            "w2 statement의 'Korlym+AG 코어 프랜차이즈(2억860만달러)' 수치가 제시된 quote에 없음. Quote는 Lifyorli $47.6M과 1,300명 환자만 포함하며, 나머지 매출 구조(2억860만달러) 근거 부재"
-          ]
+            "w1 statement에 YoY(+31.7%, +54.8%, +22.3%) 여러 수치와 '1분기 영업손실(-49.601M USD)'이 있으나 quote에는 2026-06-30 분기만 있음"
+          ],
+          "leadFixed": true
         },
-        "researchedOn": "2026-09-15",
-        "carried": true
+        "leadOriginal": "CORT는 6개월 절대 상승률 177.36%, RS 6M 상위 0.7%로 중기 모멘텀이 강하지만 1M 상승률은 1.54%로 둔화했다. 2분기 매출 YoY +31.7%와 영업이익 흑자 전환, 9월 CHMP의 Lifyorli 긍정 의견이 상승 논리의 축이다. 52주 고점 대비 91.49%, 200일선 이격 66.71%로 이미 많이 오른 구간이다.",
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "코셉트 테라퓨틱스",
       "nameEn": "CORCEPT THERAPEUTICS INC",
@@ -10768,8 +10806,121 @@ window.TEAM2_DATA = {
         "count": 51
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "ESTC",
+        "company": "Elastic N.V.는 Elasticsearch 기반 검색·관측(Observability)·보안 소프트웨어를 구독형(클라우드·셀프매니지드)으로 공급하는 애플리케이션 소프트웨어 업체다. 최근 분기(FQ1, 2026-07-31 종료) 매출은 4.78억 달러로 YoY +15.1%, 4개 분기 연속 YoY +15.9~17.7% 성장이다. 영업이익은 -2,357만 달러(영업이익률 -4.9%)로 직전 분기(-3.6%)보다 적자폭이 커졌고, 매출 구성·고객 집중도는 제공 자료에 근거 없음.",
+        "lead": "ESTC는 3M 절대 상승률 +51.52%(RS 3M 백분위 0.7%대 상위 구간에서 4일 연속 유지)로 올라왔으며, 매출 YoY +15~18% 성장 유지, 컨센서스 EPS 상향, 컨센서스 목표가 상향(+32.39%, $110.86)이 상승 근거다. 다만 실적 지속성 확인이 필요하다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "매출 성장이 4개 분기 연속 YoY +15.1~17.7%로 유지됐다. 최근 분기(2026-07-31 종료) 매출 4.78억 달러, YoY +15.1%. 직전 2026-04-30 분기 4.51억 달러(+16.0%), 2026-01-31 분기 4.50억 달러(+17.7%).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Elastic N.V. 10-Q/실적 (SEC EDGAR companyfacts 기반 Node 수집)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001707753&type=10-Q",
+                "date": "2026-09-28",
+                "quote": "periodEnd 2026-07-31 revenue 478113000 yoy revenue 15.1",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "컨센서스 목표가가 32.39% 상향되어 $110.86가 됐다(2026-09-15 보도). 같은 날 Zacks는 월가 목표가 기준 29.62% 상승여력을 언급했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Elastic N.V. Consensus Price Target Increased 32.39% to $110.86",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/elastic-nv-consensus-price-target-increased-3239-11086",
+                "date": "2026-09-15",
+                "quote": "Elastic N.V. Consensus Price Target Increased 32.39% to $110.86",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Wall Street Analysts See a 29.62% Upside in Elastic (ESTC): Can the Stock Really Move This High?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-2962-upside-elastic-estc-can-stock-really-move-high",
+                "date": "2026-09-15",
+                "quote": "Wall Street Analysts See a 29.62% Upside in Elastic (ESTC): Can the Stock Really Move This High?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "AI 검색 통합에 따른 엔터프라이즈 고객 유지 기대와 신제품(AI 시대 메트릭 플랫폼) 발표가 9월 뉴스 흐름의 중심이다. 수치·효과의 검증은 제공 자료에 없다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Elastic's 2026 Outlook: AI Search Integration Fuels Enterprise Customer Retention",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/elastics-2026-outlook-ai-search-integration-fuels-enterprise-customer-retention",
+                "date": "2026-09-08",
+                "quote": "Elastic's 2026 Outlook: AI Search Integration Fuels Enterprise Customer Retention",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Elastic Unveils AI-Era Metrics Platform, Claims Major Speed and Storage Gains",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/elastic-unveils-ai-era-metrics-platform-claims-major-speed-and-storage-gains",
+                "date": "2026-09-25",
+                "quote": "Elastic Unveils AI-Era Metrics Platform, Claims Major Speed and Storage Gains",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "Zacks는 상향되는 이익 추정치를 근거로 주가 상승 가능성을 논했고(9/02), 컨센서스 목표가는 +32.39% 상향됐다(9/15). 국내 증권사 리포트는 0건이며 EPS 추정 변화폭 수치는 근거 없음.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Can Elastic (ESTC) Run Higher on Rising Earnings Estimates?",
+                  "publisher": "Zacks",
+                  "url": "https://www.nasdaq.com/articles/can-elastic-estc-run-higher-rising-earnings-estimates",
+                  "date": "2026-09-02",
+                  "quote": "Can Elastic (ESTC) Run Higher on Rising Earnings Estimates?",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "AI 검색",
+          "관측·보안 소프트웨어",
+          "SaaS"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1",
+            "c2"
+          ],
+          "reasons": [
+            "c1: Historical quarter comparisons (2026-01-31, 2026-04-30 margins) not in 2026-07-31 quarter quote",
+            "c2: All technical/price metrics (1M -11.98%, 52-week high 81.43%, moving average data) unverifiable from SEC filing sources"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "ESTC는 3M 절대 상승률 +51.52%(RS 3M 백분위 0.7%대 상위 구간에서 4일 연속 유지)로 올라왔으나 1M은 -11.98%로 되돌림 중이며 52주 고점 대비 81.43% 수준이다. 상승 근거는 매출 YoY +15~18% 성장 유지, 컨센서스 EPS 상향, 컨센서스 목표가 상향(+32.39%, $110.86)이며, 최근 분기 영업적자 확대와 1M 조정이 반대 근거다.",
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "엘라스틱",
       "nameEn": "ELASTIC N V",
@@ -11561,8 +11712,87 @@ window.TEAM2_DATA = {
         "count": 22
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "BLLN",
+        "company": "BillionToOne(BLLN)은 Diagnostics & Research 업종의 분자진단 업체로, 제공된 자료에는 제품별 매출 구성·핵심 고객 정보가 없다(근거 없음). 2026-06-30 분기 매출 USD 109.448M(YoY +64.4%), 영업이익 USD 5.503M(영업이익률 5%), 순이익 USD 8.054M이며, 직전 분기(2026-03-31)는 매출 USD 108.388M·영업이익 USD 17.834M(영업이익률 16.5%)였다. 현 국면은 고성장 지속 속에 QoQ 마진이 급락한 상태이며, 임원 지분 매각 보도와 신규 애널리스트 커버리지 개시가 겹쳐 있다.",
+        "lead": "BLLN은 1M 절대 상승률 +30.54%(RS 상위 1M 1.0%)로 급등했으나 3M은 +1.14%에 그쳐 최근 한 달에 집중된 상승이다. 배경은 Q2 매출 YoY +64.4% 성장, Canaccord Buy 커버리지 개시, 주가가 평균 목표주가를 상회했다는 보도다. 반면 CEO·임원 지분 매각이 이어져 상승 지속 여부는 매물 소화에 달려 있다.",
+        "whyRose": [
+          {
+            "id": "w2",
+            "statement": "Canaccord Genuity가 Buy 등급으로 커버리지를 개시(9/3)해 신규 수급·밸류에이션 재평가 계기가 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Canaccord Genuity Initiates Coverage of BillionToOne (BLLN) with Buy Rating",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/canaccord-genuity-initiates-coverage-billiontoone-blln-buy-rating",
+                "date": "2026-09-03",
+                "quote": "Canaccord Genuity Initiates Coverage of BillionToOne (BLLN) with Buy Rating",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "9/25 주가가 애널리스트 평균 목표주가를 상회했다는 보도가 나왔고, 같은 날 1M RS 상위 2% 이내에 진입했다(top2Since m1 2026-09-25, 연속 2일).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "BLLN Crosses Above Average Analyst Target",
+                "publisher": "BNK Invest",
+                "url": "https://www.nasdaq.com/articles/blln-crosses-above-average-analyst-target",
+                "date": "2026-09-25",
+                "quote": "BLLN Crosses Above Average Analyst Target",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "분자진단",
+          "산전검사(NIPT)",
+          "헬스케어 IPO"
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "내부자 매도가 연속 보도됐다. CEO가 직접 보유 지분 전량을 처분(약 USD 3M)했고 SVP·공동창업자도 매도했다. 목표주가 상회와 겹쳐 상단 부담 신호로 읽힌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "BillionToOne CEO Liquidates Entire Directly-Held Stake in the Company for $3 Million",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/billiontoone-ceo-liquidates-entire-directly-held-stake-company-3-million",
+                "date": "2026-09-17",
+                "quote": "BillionToOne CEO Liquidates Entire Directly-Held Stake in the Company for $3 Million",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1",
+            "c2"
+          ],
+          "reasons": [
+            "w1: Operating profit YoY +438.2% and prior quarter data (3월 분기 YoY +83.8%, 영업이익률 16.5%) are not present in provided source quotes",
+            "c2: Prior quarter financial figures ($17.834M profit, $108.388M revenue, 16.5% margin) do not appear in the SEC quote provided"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "BLLN은 1M 절대 상승률 +30.54%(RS 상위 1M 1.0%)로 급등했으나 3M은 +1.14%에 그쳐 최근 한 달에 집중된 상승이다. 배경은 Q2 매출 YoY +64.4% 성장, Canaccord Buy 커버리지 개시, 주가가 평균 목표주가를 상회했다는 보도다. 반면 Q2 영업이익률이 QoQ 16.5%에서 5%로 낮아졌고 CEO·임원 지분 매각이 이어져 상승 지속 여부는 마진 회복과 매물 소화에 달려 있다.",
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "빌리언투원",
       "nameEn": "BILLIONTOONE INC",
@@ -11982,68 +12212,36 @@ window.TEAM2_DATA = {
       "research": {
         "status": "done",
         "ticker": "PENG",
-        "company": "Penguin Solutions는 AI Infrastructure(서버·랙 통합 솔루션)와 Integrated Memory(SGH 인수 기반 메모리 모듈) 두 세그먼트가 매출의 핵심이며, 과거 고마진이었던 Penguin Edge(엣지 컴퓨팅) 사업은 FY2026 내 사실상 종료 수순이다. 고객은 하이퍼스케일러·AI 인프라 업체 중심이고, AI 관련 매출이 전체의 74%(YoY +104%)를 차지할 만큼 매출 믹스가 AI 쪽으로 급속 재편됐다. 현재는 Edge 축소에 따른 매출 믹스 전환·마진 희석 부담을 Integrated Memory·AI Infrastructure 고성장이 상쇄하는 국면이다.",
-        "lead": "PENG는 최근 6개월 161.61% 급등한 뒤 1개월 -17.34%, 3개월 -29% 조정을 거쳐 52주 고점 대비 53.68% 하락했으나 200일선 대비로는 여전히 27.98% 위에 위치한다. FY26 3분기(2026-05-29 마감) 매출이 YoY 47.6% 증가하고 영업이익률이 10.6%(YoY +416.7%)로 개선되는 등 Integrated Memory·AI Infrastructure 고성장이 실적을 견인했다. 다만 최근에는 AI 랠리 차익실현 매도와 Edge 사업 축소에 따른 매출·마진 우려가 겹치며 주가가 조정 국면에 진입했다.",
+        "company": "Penguin Solutions(구 SMART Global)는 AI·HPC 클러스터 통합(Advanced Computing), 통합 메모리(Integrated Memory), 레거시 Penguin Edge 사업을 운영하며, ClusterWareAI·MemoryAI 등 AI 인프라 플랫폼으로 사업 축을 옮기는 중이다. 2026-05-29 종료 분기 매출 478.7M USD(YoY +47.6%), 영업이익 50.9M USD(영업이익률 10.6%)로 직전 3개 분기 대비 급격히 개선됐다. Penguin Edge 축소가 매출에 부담으로 언급되며, 다음 실적은 10월 초로 보도됐다.",
+        "lead": "6M 절대 상승률 +166.5%와 6M RS 상위 구간 연속 67일(2026-06-19~)이 이어지는 종목으로, 최근 상승의 배경은 AI Factory 플랫폼·MemoryAI를 통한 추론 수요 공략이다. 다만 3M은 -10.6%, 52주 고점 대비 61.2% 수준이라 6M 강세 후 조정 국면이며, 최근 1M은 +11.1%로 반등했다. 10월 초 실적이 다음 확인 지점이다.",
         "whyRose": [
           {
-            "id": "q3_earnings_beat",
-            "statement": "FY26 3분기(2026-05-29 마감) 매출 478,713천달러(YoY +47.6%), 영업이익 50,863천달러(마진 10.6%, YoY +416.7%), 순이익 YoY +1,579.4%를 기록하며 큰 폭의 실적 서프라이즈를 보였다.",
+            "id": "w2",
+            "statement": "백로그 증가로 매출 가시성이 개선되고 있다는 보도가 있다(Zacks, 2026-08-26).",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Penguin Solutions 8-K (실적 발표)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000041/peng-20260707.htm",
-                "date": "2026-07-07",
-                "quote": "revenue 478,713,000 USD (YoY +47.6%), profit(영업이익) 50,863,000 USD (margin 10.6%, YoY +416.7%), netIncome YoY +1,579.4%",
+                "title": "PENG's Backlog Keeps Growing: Is Revenue Visibility Improving?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/pengs-backlog-keeps-growing-revenue-visibility-improving",
+                "date": "2026-08-26",
+                "quote": "PENG's Backlog Keeps Growing: Is Revenue Visibility Improving?",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "integrated_memory_growth",
-            "statement": "Integrated Memory 매출이 YoY 111% 이상 증가해 2.75억달러를 기록, AI 인프라향 메모리 수요가 실적 성장의 핵심 동력으로 작용했다.",
+            "id": "w3",
+            "statement": "AI Factory 플랫폼·MemoryAI를 통한 추론 수요 공략과 파트너 네트워크 확대가 8월 기사들의 주된 서사다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "PENG's Backlog Keeps Growing: Is Revenue Visibility Improving?",
-                "publisher": "Zacks (Yahoo Finance)",
-                "url": "https://finance.yahoo.com/technology/ai/articles/pengs-backlog-keeps-growing-revenue-150600326.html",
-                "date": "2026-08-27",
-                "quote": "Integrated Memory revenues jumped more than 111% year over year to $275 million",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "ai_revenue_mix",
-            "statement": "AI 관련 매출이 전체 매출의 74%를 차지하며 YoY 104% 성장, 사업 믹스가 AI 인프라 중심으로 급속 재편됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "PENG's Backlog Keeps Growing: Is Revenue Visibility Improving?",
-                "publisher": "Zacks (Yahoo Finance)",
-                "url": "https://finance.yahoo.com/technology/ai/articles/pengs-backlog-keeps-growing-revenue-150600326.html",
-                "date": "2026-08-27",
-                "quote": "AI-driven businesses represented 74% of total revenues and grew 104%",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "backlog_visibility",
-            "statement": "3분기 말 기준 백로그가 매우 견조하며 경영진이 FY2027 상반기까지 '괜찮은 가시성(pretty good visibility)'을 확보했다고 언급했고, FY2026 가이던스 상향과 FY2027 예비 매출 성장률 약 30% 전망도 제시됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "PENG's Backlog Keeps Growing: Is Revenue Visibility Improving?",
-                "publisher": "Zacks (Yahoo Finance)",
-                "url": "https://finance.yahoo.com/technology/ai/articles/pengs-backlog-keeps-growing-revenue-150600326.html",
-                "date": "2026-08-27",
-                "quote": "The company exited the third quarter of fiscal 2026 with a very strong backlog",
+                "title": "Penguin Solutions Highlights AI Factory Platform, MemoryAI for Inference Growth",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/penguin-solutions-highlights-ai-factory-platform-memoryai-inference-growth",
+                "date": "2026-08-17",
+                "quote": "Penguin Solutions Highlights AI Factory Platform, MemoryAI for Inference Growth",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -12052,24 +12250,8 @@ window.TEAM2_DATA = {
         ],
         "counterpoint": [
           {
-            "id": "profit_taking_selloff",
-            "statement": "AI 랠리에 따른 차익실현 매도가 확산되며 기술·반도체 섹터 전반의 약세, 마진 축소 우려, 내부자 매도가 겹쳐 최근 주가 조정을 심화시켰다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Penguin Solutions Stock Sinks As AI Euphoria Fades",
-                "publisher": "TipRanks",
-                "url": "https://www.tipranks.com/news/catalyst/penguin-solutions-stock-sinks-as-ai-euphoria-fades",
-                "date": "2026-08-24",
-                "quote": "Penguin Solutions shares are sliding as investors lock in earlier AI-fueled gains, triggering heavy profit-taking after a strong run-up.",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "edge_winddown_pressure",
-            "statement": "Edge 사업 축소가 매출 성장률에 구조적 부담으로 작용하고 있다는 우려가 9월 중순까지도 이어지고 있다.",
+            "id": "c1",
+            "statement": "Penguin Edge 축소(wind-down)가 매출을 압박한다는 지적이 있고, 2026-02-27 분기 매출은 YoY -6.2%였다. 성장의 지속성은 10월 초 실적에서 확인해야 한다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -12082,42 +12264,62 @@ window.TEAM2_DATA = {
                 "httpStatus": 200
               }
             ]
+          },
+          {
+            "id": "c2",
+            "statement": "주가는 사상 최고가 대비 약 30% 낮은 상태라는 보도가 있고, 3M 절대 수익률은 -10.56%로 6M 급등 후 조정 중이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Penguin Solutions Is Heating Up, But It's Still Down 30% From Its All-Time High.",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/penguin-solutions-heating-its-still-down-30-its-all-time-high-heres-what-investors-should",
+                "date": "2026-09-24",
+                "quote": "Penguin Solutions Is Heating Up, But It's Still Down 30% From Its All-Time High. Here's What Investors Should Know Before It Reports Earnings in Early October.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
           }
         ],
         "estimateRevisions": {
-          "direction": "raised",
-          "claims": [
-            {
-              "id": "eps_consensus_raised",
-              "statement": "Zacks 컨센서스 EPS가 FY2026 2.60달러, FY2027 3.40달러로 제시되며(YoY +36.84%/+30.77% 시사) 최근 60일간 두 추정치 모두 상향 조정됐다. 이는 Node 스크리닝의 EPS 컨센서스 변화(cyCur 2.61 vs cy30 2.28, nyCur 3.34 vs ny30 2.81, 모두 상향)와 방향이 일치한다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "PENG's Backlog Keeps Growing: Is Revenue Visibility Improving?",
-                  "publisher": "Zacks (Yahoo Finance)",
-                  "url": "https://finance.yahoo.com/technology/ai/articles/pengs-backlog-keeps-growing-revenue-150600326.html",
-                  "date": "2026-08-27",
-                  "quote": "The Zacks Consensus Estimate for PENG's fiscal 2026 and fiscal 2027 earnings is pegged at $2.60 and $3.40 per share, implying year-over-year growth of approximately 36.84% and 30.77%, respectively. Both estimates have moved higher over the past 60 days.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ]
+          "direction": "unknown",
+          "claims": []
         },
         "themeTags": [
           "AI 인프라",
-          "메모리 반도체",
-          "데이터센터"
+          "AI 메모리",
+          "HPC 클러스터"
         ],
+        "upcomingCatalyst": {
+          "date": "2026-10 초(일자 미확정)",
+          "what": "회계 3분기 실적 발표 (보도상 10월 초)",
+          "sources": [
+            {
+              "title": "Penguin Solutions Is Heating Up, But It's Still Down 30% From Its All-Time High.",
+              "publisher": "The Motley Fool",
+              "url": "https://www.nasdaq.com/articles/penguin-solutions-heating-its-still-down-30-its-all-time-high-heres-what-investors-should",
+              "date": "2026-09-24",
+              "quote": "Here's What Investors Should Know Before It Reports Earnings in Early October.",
+              "verified": "ok",
+              "httpStatus": 200
+            }
+          ]
+        },
         "confidence": "medium",
         "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reasons": []
+          "verdict": "partial",
+          "removed": [
+            "w1"
+          ],
+          "reasons": [
+            "w1 statement에 '직전 4개 분기 중 최고(3.7%→5.7%→7.5%→10.6%)'와 'YoY +416.7%'가 있으나 quote에는 2026-05-29 분기만 있음"
+          ],
+          "leadFixed": true
         },
-        "researchedOn": "2026-09-17",
-        "carried": true
+        "leadOriginal": "6M 절대 상승률 +166.5%와 6M RS 상위 구간 연속 67일(2026-06-19~)이 이어지는 종목으로, 직전 분기 매출 YoY +47.6%·영업이익률 10.6%가 근거다. 다만 3M은 -10.6%, 52주 고점 대비 61.2% 수준이라 6M 강세 후 조정 국면이며, 최근 1M은 +11.1%로 반등했다. 10월 초 실적이 다음 확인 지점이다.",
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "펭귄 솔루션스",
       "nameEn": "PENGUIN SOLUTIONS INC",
@@ -13626,36 +13828,29 @@ window.TEAM2_DATA = {
       "research": {
         "status": "done",
         "ticker": "DINO",
-        "company": "HF Sinclair는 로키마운틴·사우스웨스트·중부·퍼시픽노스웨스트 지역에 정유설비를 보유한 통합 정유사로, 정제(Refining)·마케팅·리뉴어블디젤(HEP)·Lubricants & Specialties(윤활유) 부문으로 매출이 구성되며 2026년 2분기 매출 $10,390백만 중 대부분이 정제 부문에서 발생했다. 현재 3-2-1 크랙 스프레드가 사상 최고 수준($64.58/bbl)을 기록하는 정제마진 업사이클 국면에서 실적 레버리지를 극대화하고 있으며, 동시에 Lubricants & Specialties 부문을 12~18개월 내 별도 상장사로 분사하는 사업구조 재편을 추진 중이다.",
-        "lead": "DINO는 2026년 2분기 매출 $10,390백만(YoY +53.2%)을 사상 최고치 크랙 스프레드($64.58/bbl) 환경에서 달성했다. 이사회는 8월 $15억 규모 신규 자사주매입 프로그램 승인으로 주주환원을 확대했고, RS 1M 1.4%·3M 0.3%·6M 3.4%의 상위권 모멘텀 속에 최근 6개월 89.61% 상승했다.",
+        "company": "HF Sinclair는 미국 독립 정유·마케팅 업체로 정제 마진(크랙 스프레드)이 이익을 좌우하는 Energy 섹터 종목이다. 제공된 SEC 실적표상 2026-06-30 분기 매출 103.9억 달러(YoY +53.2%), 영업이익 11.68억 달러(YoY +324.7%), 영업이익률 11.2%다. 제품별 매출 구성과 핵심 고객은 제공 자료에 없어 근거 없음이다.",
+        "lead": "DINO는 2026-06-30 분기 영업이익이 11.68억 달러(YoY +324.7%)로 급증했다. 3M RS 백분위 1.0%(상위, 3M 절대 상승률 47.38%)로 스크리닝을 통과했고 3M 기준 상위권을 14일 연속 유지 중이다. 다만 200일선 이격이 53.32%로 크고 1M RS는 10.6%로 최근 상승 속도는 둔화됐다.",
         "whyRose": [
           {
             "id": "w2",
-            "statement": "3-2-1 크랙 스프레드가 배럴당 $64.58로 사상 최고치를 기록하는 등 정제마진 업사이클이 이번 실적 서프라이즈의 핵심 배경이 되고 있다.",
+            "statement": "2026-07-28 실적 발표 8-K 이후 52주 고점 경신 및 모멘텀 스크리닝 기사가 이어졌다(9/15 모멘텀 픽, 9/21 52주 고점, 9/24 성장주 스크린). 기사 본문은 확인하지 않았고 제목만 근거이며, Zacks 스크리닝 성격의 기사다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "HF Sinclair earnings on deck as crack spreads hit record highs",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/earnings/hf-sinclair-earnings-on-deck-as-crack-spreads-hit-record-highs-93CH-4814476",
-                "date": "2026-07-27",
-                "quote": "The benchmark 3-2-1 crack spread—a key measure of refining profitability—hit a record $64.58 per barrel earlier this month",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          },
-          {
-            "id": "w4",
-            "statement": "Lubricants & Specialties 부문을 향후 12~18개월 내 별도의 상장회사로 분사하는 구조개편 계획을 발표했으며, 온타리오 미시소거의 기유(base oil) 정제자산은 2027년까지 폐쇄할 예정이다.",
-            "evidence_level": "sourced",
-            "sources": [
+                "title": "HF Sinclair Corporation (DINO) Hit a 52 Week High, Can the Run Continue?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/hf-sinclair-corporation-dino-hit-52-week-high-can-run-continue-0",
+                "date": "2026-09-21",
+                "quote": "HF Sinclair Corporation (DINO) Hit a 52 Week High, Can the Run Continue?",
+                "verified": "ok",
+                "httpStatus": 200
+              },
               {
-                "title": "HF Sinclair (NYSE: DINO) boosts Q2 earnings, eyes Lubricants spin-off",
-                "publisher": "StockTitan (SEC 8-K 요약)",
-                "url": "https://www.stocktitan.net/sec-filings/DINO/8-k-hf-sinclair-corp-reports-material-event-907627fb559b.html",
-                "date": "2026-07-28",
-                "quote": "separate its Lubricants & Specialties segment through the capital markets into an independent, publicly traded company",
+                "title": "Here's Why HF Sinclair (DINO) is a Strong Growth Stock",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/heres-why-hf-sinclair-dino-strong-growth-stock-0",
+                "date": "2026-09-24",
+                "quote": "Here's Why HF Sinclair (DINO) is a Strong Growth Stock",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -13665,51 +13860,39 @@ window.TEAM2_DATA = {
         "counterpoint": [
           {
             "id": "c1",
-            "statement": "2분기 실적 발표 직전(7월 27일) 기준 컨센서스 목표주가($83.27)가 당시 주가($88.30)를 밑돌아, 정제마진 호황이 이미 주가에 상당 부분 선반영되어 있었다는 밸류에이션 부담이 존재했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "HF Sinclair earnings on deck as crack spreads hit record highs",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/earnings/hf-sinclair-earnings-on-deck-as-crack-spreads-hit-record-highs-93CH-4814476",
-                "date": "2026-07-27",
-                "quote": "Analysts rate the stock a Buy, though the consensus price target of $83.27 sits below the current price of $88.30",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
+            "statement": "이익 회복이 저점 대비 착시일 수 있다. 2025-12-31 분기 영업이익은 0.07억 달러(영업이익률 0.1%)였고 YoY 증가율은 낮은 기준 효과가 크다. 사이트 컨센서스 기준 내년 매출 성장률 -9.28%, EPS 성장률 -26%로 내년 이익 역성장이 반영돼 있다(이 수치의 별도 URL 출처는 없음).",
+            "evidence_level": "no_source",
+            "sources": []
+          },
+          {
+            "id": "c2",
+            "statement": "200일선 이격 53.32%, 52주 고점 대비 89.7%로 가격이 이미 크게 확장돼 있어 정제 마진 정상화 시 되돌림 위험이 있다. 다만 마진 사이클 전망에 대한 외부 근거는 확보하지 못했다.",
+            "evidence_level": "no_source",
+            "sources": []
           }
         ],
         "estimateRevisions": {
-          "direction": "raised",
+          "direction": "unknown",
           "claims": []
         },
         "themeTags": [
-          "정유 정제마진 업사이클",
-          "크랙 스프레드",
-          "자사주매입·주주환원",
-          "Lubricants 스핀오프"
+          "정유·크랙 스프레드",
+          "에너지 실적 턴어라운드"
         ],
-        "confidence": "medium",
+        "confidence": "low",
         "factcheck": {
           "verdict": "partial",
           "removed": [
-            "w1",
-            "w3",
-            "c2",
-            "e1"
+            "w1"
           ],
           "reasons": [
-            "w1: net income $892M, EPS $4.93, adjusted EBITDA not in quote",
-            "w3: dividend $0.525 conflicts with quote $0.50; 5% increase not in quote",
-            "c2: evidence_level no_source with empty sources array",
-            "e1: evidence_level no_source with empty sources array"
+            "w1 statement에 '직전 분기 8.47억 달러', '2025-12-31 분기 0.07억 달러' 등 여러 분기 데이터가 있으나 quote에는 2026-06-30 분기만 있음"
           ],
           "leadFixed": true
         },
-        "leadOriginal": "DINO는 2026년 2분기 매출 $10,390백만(YoY +53.2%), 순이익 $892백만(주당 $4.93, YoY +328.8%), 조정 EBITDA $1,482백만(전년동기 $665백만)의 어닝 서프라이즈를 사상 최고치 크랙 스프레드($64.58/bbl) 환경에서 달성했다. 이사회는 8월 $15억 규모 신규 자사주매입 프로그램 승인과 배당 5% 인상으로 주주환원을 확대했고, RS 1M 1.4%·3M 0.3%·6M 3.4%의 상위권 모멘텀 속에 최근 6개월 89.61% 상승했다.",
-        "researchedOn": "2026-09-17",
-        "carried": true
+        "leadOriginal": "DINO는 2026-06-30 분기 영업이익이 11.68억 달러(YoY +324.7%)로 급증했고, 직전 분기(2026-03-31)도 8.47억 달러로 이어지며 실적 회복이 확인된다. 3M RS 백분위 1.0%(상위, 3M 절대 상승률 47.38%)로 스크리닝을 통과했고 3M 기준 상위권을 14일 연속 유지 중이다. 다만 200일선 이격이 53.32%로 크고 1M RS는 10.6%로 최근 상승 속도는 둔화됐다.",
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "HF 싱클레어",
       "nameEn": "HF SINCLAIR CORPORATION",
@@ -14709,8 +14892,83 @@ window.TEAM2_DATA = {
         "count": 23
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "FORM",
+        "company": "FormFactor는 반도체 웨이퍼 프로브카드와 테스트·측정 시스템을 공급하는 장비·소재 업체다. 제공 자료에는 매출 구성·핵심 고객 정보가 없어 근거 없음. 2026-06-27 분기 매출은 $258.2M(YoY +31.9%), 영업이익 $57.8M, 영업이익률 22.4%로 2개 분기 연속 매출 +30%대 성장했고, 직전 분기 마진 7.4%에서 급반등한 국면이다.",
+        "lead": "최근 1M 절대 상승률 +28.78%(RS 상위 1M 1.2%)는 2026-06 분기 실적의 매출 +31.9% YoY와 영업이익률 22.4% 회복이 배경으로 보이나, 제공 자료에는 이번 한 달 급등을 직접 설명하는 뉴스·공시가 없다. 3M(+5.97%)은 약하고 1M만 급등해 실적 반영이 늦게 나타난 형태이며, 8월 이후 임원 매도 보도가 이어진 점은 부담이다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "2026-06-27 분기 매출 $258.2M(YoY +31.9%), 영업이익 $57.8M(YoY +369.7%), 영업이익률 22.4%, 순이익 $56.2M(YoY +518.6%). 직전 분기(2026-03-28) 매출 $226.1M(YoY +32.0%), 영업이익률 7.4%에서 QoQ 15%p 확대. 실적 발표 8-K는 2026-07-29 제출.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "FormFactor 8-K (실적 발표, 2026-07-29)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000030/form-20260729.htm",
+                "date": "2026-07-29",
+                "quote": "periodEnd 2026-06-27, revenue 258242000, profit 57799000, netIncome 56207000, margin 22.4, yoy revenue 31.9",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "실적 발표 후 주가는 완만하게 반응했다. Zacks는 8월 말 시점에 실적 이후 +4.6%로 집계했다. 1M +28.78% 급등분은 이후 9월 구간에서 나온 것으로 추정되나 촉매를 특정하는 자료는 없음(근거 없음).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "FormFactor (FORM) Up 4.6% Since Last Earnings Report: Can It Continue?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/formfactor-form-46-last-earnings-report-can-it-continue",
+                "date": "2026-08-28",
+                "quote": "FormFactor (FORM) Up 4.6% Since Last Earnings Report: Can It Continue?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "임원 매도가 급등 구간과 겹친다. CEO Mike Slessor가 2026-09-22 17,510주를 매도했고 이사 1명이 2026-09-09 2,100주를 매도했다. 계획 매도 여부는 제공 자료로 확인되지 않는다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "FormFactor CEO Mike Slessor Sells 17,510 Shares",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/formfactor-ceo-mike-slessor-sells-17510-shares",
+                "date": "2026-09-22",
+                "quote": "FormFactor CEO Mike Slessor Sells 17,510 Shares",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "반도체 장비",
+          "웨이퍼 테스트·프로브카드"
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reasons": [
+            "2025-09-27 quarterly financial data not in provided quote",
+            "Price metrics (3M +5.97%, 52-week high 81.72%) not verifiable from SEC filing sources"
+          ]
+        },
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "폼팩터",
       "nameEn": "FORMFACTOR INC",
@@ -16230,14 +16488,24 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "done",
-        "company": "Xometry는 AI 기반 온디맨드 제조 마켓플레이스로, CNC 가공·3D프린팅·사출성형·판금 등 다양한 제조 공정을 글로벌 공급업체 네트워크와 연결해 부품 조달을 중개하며 마켓플레이스 거래 수수료가 매출의 핵심을 이룬다. 항공우주·방위·산업재 등 엔지니어링 집약적 기업을 핵심 고객으로 하며, 최근 분기 매출은 YoY 40%대 고성장을 이어가는 동시에 영업손실률은 -6.1%(2025Q3)에서 -2.4%(2026Q2)로 점진 축소되는 외형 성장·손익 개선 병행 국면에 있다.",
-        "lead": "2026년 8월 4일 발표된 2분기(2026-06-30 마감) 실적에서 컨센서스를 상회했고, 이를 계기로 Zacks 등급이 Buy로 상향 조정됐다. AI 기업가의 이사회 합류 후 400만 달러 규모 자사주 매수 소식도 겹치며 상승을 뒷받침했다.",
+        "ticker": "XMTR",
+        "company": "Xometry(조메트리)는 주문제작 부품(CNC·판금·3D프린팅 등)의 수요와 제조 공급자 네트워크를 매칭하는 온디맨드 마켓플레이스로, 산업재/Industrial Distribution 분류다. 매출 구성·핵심 고객 상세는 제공 자료에 없어 근거 없음. 2026년 6월 분기(2Q) 매출은 229.28M USD로 YoY +41.1%, 영업이익은 -5.545M USD(영업이익률 -2.4%)로 적자 폭이 줄어드는 국면이다.",
+        "lead": "6M 절대 상승률 +144.12%, 200일선 이격 +44.2%, 52주 고점 대비 95.56%로 추세가 강하고, RS 상위 6M 기준 1.3% 구간에서 9일 연속 상위 2% 안에 머물렀다. 최근 실적(2Q)이 매출·EPS 컨센서스를 상회했고 Zacks 투자의견이 Buy로 상향됐다. 다만 1M 상승률은 +9.6%로 둔화됐고 영업이익은 아직 적자다.",
         "whyRose": [
           {
-            "id": "w2",
-            "statement": "2분기 실적 발표 직후 Zacks 등급이 Buy로 상향 조정됐다.",
+            "id": "w3",
+            "statement": "2Q 실적이 매출·EPS 컨센서스를 상회했고(2026-08-04 발표) 이후 Zacks 투자의견이 Buy로 상향됐다.",
             "evidence_level": "sourced",
             "sources": [
+              {
+                "title": "Xometry (XMTR) Beats Q2 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/xometry-xmtr-beats-q2-earnings-and-revenue-estimates",
+                "date": "2026-08-04",
+                "quote": "Xometry (XMTR) Beats Q2 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
               {
                 "title": "All You Need to Know About Xometry (XMTR) Rating Upgrade to Buy",
                 "publisher": "Zacks",
@@ -16248,52 +16516,20 @@ window.TEAM2_DATA = {
                 "httpStatus": 200
               }
             ]
-          },
-          {
-            "id": "w3",
-            "statement": "AI 기업가가 이사회 합류 직후 400만 달러 규모 자사주를 매수하며 내부자 매수 시그널이 발생했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "AI Entreprenuer Buys $4 Million Xometry Shares After Joining Board",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/ai-entreprenuer-buys-4-million-xometry-shares-after-joining-board",
-                "date": "2026-06-08",
-                "quote": "AI Entreprenuer Buys $4 Million Xometry Shares After Joining Board",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w4",
-            "statement": "2분기 실적 컨퍼런스콜에서 나온 하이라이트가 긍정적으로 조명됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Xometry Q2 Earnings Call Highlights",
-                "publisher": "MarketBeat",
-                "url": "https://www.nasdaq.com/articles/xometry-q2-earnings-call-highlights",
-                "date": "2026-08-04",
-                "quote": "Xometry Q2 Earnings Call Highlights",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
           }
         ],
         "counterpoint": [
           {
             "id": "c1",
-            "statement": "매출 고성장에도 불구하고 2025Q3~2026Q2 4개 분기 연속 영업적자가 이어지고 있어(영업이익률 -6.1%→-4.6%→-2.5%→-2.4%) 흑자 전환 시점은 아직 확인되지 않았다.",
+            "statement": "영업이익·순이익이 여전히 적자다(2Q 영업 -5.545M USD, 순손실 -5.314M USD). 흑자 전환 시점은 제공 자료에 근거 없음. 밸류에이션은 매출 성장 지속에 의존한다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Xometry Inc 10-Q Filings (EDGAR)",
+                "title": "SEC EDGAR Xometry 10-Q (Node 수집 실적표)",
                 "publisher": "SEC EDGAR",
                 "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001657573&type=10-Q",
                 "date": "2026-06-30",
-                "quote": "revenue 229280000, profit -5545000, margin -2.4 (2026-06-30); revenue 205138000, profit -5220000, margin -2.5 (2026-03-31); revenue 192397000, profit -8776000, margin -4.6 (2025-12-31); revenue 180715000, profit -11059000, margin -6.1 (2025-09-30)",
+                "quote": "periodEnd 2026-06-30 profit -5545000 netIncome -5314000 margin -2.4",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -16301,15 +16537,15 @@ window.TEAM2_DATA = {
           },
           {
             "id": "c2",
-            "statement": "2026년 6월 주가가 애널리스트 평균 목표주가를 상회했다는 보도가 있었던 만큼, 6개월 123.76% 급등 이후 목표주가 대비 추가 상승 여력에 대한 밸류에이션 부담이 존재할 수 있다.",
+            "statement": "이사의 10,000주 매도 보도가 있었다(2026-09-17). 규모·성격 등 세부는 제공 자료에 없어 해석은 근거 없음. 1M 상승률 +9.6%로 6M(+144.12%) 대비 모멘텀이 둔화됐다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "XMTR Crosses Above Average Analyst Target",
-                "publisher": "BNK Invest",
-                "url": "https://www.nasdaq.com/articles/xmtr-crosses-above-average-analyst-target-0",
-                "date": "2026-06-19",
-                "quote": "XMTR Crosses Above Average Analyst Target",
+                "title": "Xometry Director Sells 10,000 Shares",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/xometry-director-sells-10000-shares",
+                "date": "2026-09-17",
+                "quote": "Xometry Director Sells 10,000 Shares",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -16317,45 +16553,29 @@ window.TEAM2_DATA = {
           }
         ],
         "estimateRevisions": {
-          "direction": "raised",
-          "claims": [
-            {
-              "id": "e1",
-              "statement": "Zacks 등급이 Buy로 상향 조정됐는데, Zacks Rank는 이익 추정치(EPS estimate) 상향 추세를 핵심 산출 기준으로 하므로 컨센서스 이익 추정치가 개선되는 흐름을 시사한다. 다만 국내 증권사 리포트는 확보되지 않아(krReports 0건) 추정치 변동폭을 직접 확인하지는 못했다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "All You Need to Know About Xometry (XMTR) Rating Upgrade to Buy",
-                  "publisher": "Zacks",
-                  "url": "https://www.nasdaq.com/articles/all-you-need-know-about-xometry-xmtr-rating-upgrade-buy",
-                  "date": "2026-08-12",
-                  "quote": "All You Need to Know About Xometry (XMTR) Rating Upgrade to Buy",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ]
+          "direction": "unknown",
+          "claims": []
         },
         "themeTags": [
-          "AI 제조 마켓플레이스",
-          "온디맨드 제조"
+          "온디맨드 제조 마켓플레이스",
+          "적자 축소 성장주"
         ],
         "confidence": "medium",
-        "ticker": "XMTR",
         "factcheck": {
           "verdict": "partial",
           "removed": [
-            "w1"
+            "w1",
+            "w2"
           ],
           "reasons": [
-            "w1의 구체적 수치(매출 $229.28M, 영업손실률 -2.4%)가 제공된 quote에 없음"
+            "w1 statement에 여러 분기 YoY(+27.5%, +29.5%, +35.9%, +41.1%)가 있으나 quote에는 2026-06월만 있음",
+            "w2 statement에 여러 분기 마진(-6.1%, -4.6%, -2.5%, -2.4%)이 있으나 quote에는 2026-06월만 있음"
           ],
           "leadFixed": true
         },
-        "leadOriginal": "XMTR은 최근 6개월 절대수익률 123.76%로 급등하며 RS 3개월 백분위 43.1%, ADR 4.87%, 200일선 대비 +33.39% 이격을 나타내는 강한 상승 모멘텀 국면에 있다. 2026년 8월 4일 발표된 2분기(2026-06-30 마감) 실적에서 매출이 2억2,928만 달러(YoY +41.1%)로 컨센서스를 상회했고 영업손실률도 -2.4%로 전분기(-2.5%) 대비 축소됐다. 이 실적을 계기로 Zacks 등급이 Buy로 상향 조정됐고, AI 기업가의 이사회 합류 후 400만 달러 규모 자사주 매수 소식도 겹치며 상승을 뒷받침했다.",
-        "researchedOn": "2026-09-17",
-        "carried": true
+        "leadOriginal": "6M 절대 상승률 +144.12%, 200일선 이격 +44.2%, 52주 고점 대비 95.56%로 추세가 강하고, RS 상위 6M 기준 1.3% 구간에서 9일 연속 상위 2% 안에 머물렀다. 배경은 매출 YoY 성장 가속(2025-09 분기 +27.5% → 2026-06 분기 +41.1%)과 영업적자 축소다. 다만 1M 상승률은 +9.6%로 둔화됐고 영업이익은 아직 적자다.",
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "조메트리",
       "nameEn": "XOMETRY INC",
@@ -16769,8 +16989,85 @@ window.TEAM2_DATA = {
         "count": 22
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "ILMN",
+        "company": "Illumina는 NGS 시퀀싱 장비·소모품(시약)·서비스를 공급하는 Diagnostics & Research 업체로, 제공 자료에는 매출 구성·핵심 고객 세부가 없다(근거 없음). 2026-06-28 분기 매출 $1,159M(YoY +9.4%), 영업이익 $245M(영업이익률 21.1%)로 매출 성장이 직전 분기(+4.8%)보다 가속됐다. 현 국면은 RS 1M·3M 상위 2% 안팎에 진입한 모멘텀 국면이다.",
+        "lead": "ILMN은 RS 상위 1M 1.4% / 3M 1.6% / 6M 2.1%, 52주 고점 대비 97.82%, 200일선 이격 +69.95%로 신고가권에서 강한 모멘텀을 보인다. 9/09 UBS의 Buy 상향이 있었으며, 순이익은 YoY -11.9%로 성장이 엇갈리면서 상승 대부분은 리레이팅 성격이다.",
+        "whyRose": [
+          {
+            "id": "w2",
+            "statement": "UBS가 Illumina를 Neutral에서 Buy로 상향(2026-09-09). 목표주가·논거는 제공 자료에 없다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "UBS Upgrades Illumina to Buy from Neutral",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/ubs-upgrades-illumina-buy-neutral",
+                "date": "2026-09-09",
+                "quote": "UBS Upgrades Illumina to Buy from Neutral",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "Zacks가 ILMN을 Top-Ranked Momentum Stock으로 소개(2026-09-11). 가격 모멘텀에 대한 사후 확인 성격이며 펀더멘털 신규 정보는 제공 자료에 없다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Illumina (ILMN) is a Top-Ranked Momentum Stock: Should You Buy?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/illumina-ilmn-top-ranked-momentum-stock-should-you-buy",
+                "date": "2026-09-11",
+                "quote": "Illumina (ILMN) is a Top-Ranked Momentum Stock: Should You Buy?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "이익 질이 엇갈린다. 6/28 분기 순이익은 $207M로 YoY -11.9%인 반면 영업이익은 +14.5%였다(비영업 항목 영향 추정, 제공 자료에 원인 없음). 3M 절대 상승률 +44.11%, 6M +115.04%, 200일선 이격 +69.95%로 이미 크게 오른 상태라 기대치가 선반영돼 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Illumina 10-Q 분기 실적 (SEC EDGAR)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000155/ilmn-20260730.htm",
+                "date": "2026-07-30",
+                "quote": "periodEnd 2026-06-28, netIncome 207000000, yoy netIncome -11.9",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "유전체·NGS 시퀀싱",
+          "헬스케어 진단·리서치 툴",
+          "모멘텀 리레이팅"
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1"
+          ],
+          "reasons": [
+            "w1: Statement includes prior quarter comparisons (3/29 분기 매출 YoY +4.8%, 영업이익 YoY +27.4%, 마진 19.2%) not supported by the provided source quote, which only confirms 6/28 period data"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "ILMN은 RS 상위 1M 1.4% / 3M 1.6% / 6M 2.1%, 52주 고점 대비 97.82%, 200일선 이격 +69.95%로 신고가권에서 강한 모멘텀을 보인다. 6/28 분기 매출 YoY +9.4%·영업이익 YoY +14.5%로 성장이 가속됐고, 9/09 UBS의 Buy 상향이 겹쳤다. 다만 순이익은 YoY -11.9%이고 컨센서스 EPS는 30일간 사실상 불변이라 상승 대부분은 리레이팅 성격이다.",
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "일루미나",
       "nameEn": "ILLUMINA INC",
@@ -17692,8 +17989,71 @@ window.TEAM2_DATA = {
         "count": 7
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "no_source",
+        "ticker": "VLO",
+        "company": "Valero는 업스트림·석유화학이 없는 순수 정유사로, 미국 정제능력 약 250만b/d(미국 설비의 약 15%)를 운영하며 Gulf Coast 집중도가 61%로 경쟁사(20~40%)보다 높다. 사업부는 정유가 중심이고 재생디젤·에탄올이 보조하며, 2Q26 영업이익 $5.2bn 중 정유가 $4.5bn(신한 리포트)이다. 2Q26 매출 $44.5bn(+48.8% YoY), 영업이익률 11.7%로 사이클 정점 국면이며, 주주환원 목표는 EBITDA의 50% 이상이다.",
+        "lead": "VLO는 3M 절대수익률 +44.25%, RS 3M 상위 1.5%로 올라와 있으나, 사이트 컨센서스는 내년 EPS -20.06% 감소를 가리켜 사이클 정점 논쟁이 리스크다.",
+        "whyRose": [
+          {
+            "id": "none",
+            "statement": "검증을 통과한 상승 이유 근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "사이클 정점 리스크: 사이트 컨센서스상 내년 EPS -20.06%, 매출 -13.51% 감소 전망. 마진이 중동·러시아 공급차질 등 일시 요인에 의존하며 정상화 시 이익이 빠르게 축소될 수 있음. 52주 고점 대비 92.4%, 200일선 이격 52.9%로 가격 부담도 큼.",
+            "evidence_level": "no_source",
+            "sources": []
+          },
+          {
+            "id": "c2",
+            "statement": "경영진 스스로 극단적 경고를 동반한 가이던스를 제시했고, 유럽 고비용 정유사 가동률이 오르면 시장 가격 기준이 달라질 수 있다는 점이 변수.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "2Q26 Review: More Bullish Outlook",
+                "publisher": "메리츠증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlzqezcmxglmzxgcgxcmgl.pdf",
+                "date": "2026-07-31",
+                "quote": "Valero는 전일 실적 설명회에서 극단적 경고를 동반한 낙관적 업황 가이던스를 제시.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "정유/정제마진",
+          "에너지",
+          "주주환원"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "reasons": [
+            "w1: Operating profit YoY growth statement (+421.2%) contradicts source quote (+200%)",
+            "w2: Unverified $23.62/barrel margin and diesel margin >$100 claims",
+            "w3: Refinery utilization 98% and 10-year low inventory not in source quote",
+            "w4: Share count reduction 27% since 2021 not verifiable"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "VLO는 3M 절대수익률 +44.25%, RS 3M 상위 1.5%로 정제마진 급등에 따른 실적 레버리지를 주가에 반영하는 중이다. 2Q26 영업이익 $5.2bn(+421% YoY)과 미국 3-2-1 정제마진 사상 최고치가 핵심 근거다. 다만 사이트 컨센서스는 내년 EPS -20.06% 감소를 가리켜 사이클 정점 논쟁이 리스크다.",
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "발레로 에너지",
       "nameEn": "VALERO ENERGY CORP",
@@ -18217,8 +18577,143 @@ window.TEAM2_DATA = {
         "count": 23
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "AXTI",
+        "company": "AXT(Technology / Semiconductor Equipment & Materials)는 화합물반도체용 기판을 만드는 업체로, 자료상 InP 기판 캐파 증설과 공급계약 확대가 뉴스 헤드라인에 반복 등장한다. 2026-06-30 분기 매출은 $47.589M(YoY +164.8%), 영업이익 $10.423M(영업이익률 21.9%)으로 직전 분기 영업적자($-1.585M)에서 흑자전환했다. 제공 자료에는 매출 구성·핵심 고객 수치가 없어 \"근거 없음\"이며, 현 국면은 AI 관련 수요 기대와 실적 턴어라운드가 겹친 구간이다.",
+        "lead": "AXTI는 올해 EPS 컨센서스가 30일 전 0.298에서 0.868로 상향됐으며, 3M 절대 상승률 30.11%·6M 62.05%에 1M 25.65%로 RS 상위권에 올라와 있다. 다만 52주 고점 대비 51.46% 수준이고 ADR 8.56%로 변동성이 크며 실적 지속 여부가 관건이다.",
+        "whyRose": [
+          {
+            "id": "w2",
+            "statement": "실적 발표 8-K(2026-07-30) 전후로 중요 계약 체결 8-K가 2건(2026-07-02, 2026-07-29) 제출됐다. 계약 내용은 제공 자료에 없어 규모는 근거 없음. 뉴스 헤드라인은 공급계약 확대가 매출 성장을 뒷받침하는지를 다룬다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AXT's Supply Agreements Expand: Can They Strengthen Revenue Growth?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/axts-supply-agreements-expand-can-they-strengthen-revenue-growth",
+                "date": "2026-08-27",
+                "quote": "AXT's Supply Agreements Expand: Can They Strengthen Revenue Growth?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "InP 캐파 증설과 유동성이 다뤄진다(2026-09-09). 이 기간 Zacks의 강세 성격 기사(Bull of the Day 2026-09-18, Amkor 대비 비교 2026-09-24)가 이어져 1M 상승 국면과 시기가 겹친다. 인과는 근거 없음.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AXT's Liquidity Supports InP Capacity Expansion: Can Growth Continue?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/axts-liquidity-supports-inp-capacity-expansion-can-growth-continue",
+                "date": "2026-09-09",
+                "quote": "AXT's Liquidity Supports InP Capacity Expansion: Can Growth Continue?",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Bull of the Day: AXT (AXTI)",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/bull-day-axt-axti",
+                "date": "2026-09-18",
+                "quote": "Bull of the Day: AXT (AXTI)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "컨센서스 상향: 올해(CY) EPS 추정치가 30일 전 0.298에서 현재 0.868로 올랐고, 내년은 2.226에서 2.25로 소폭 상향됐다. 올해 상향폭이 크다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "RS 사이트 컨센서스 컬럼 (Node 수집)",
+                "publisher": "RS_Investment result.json",
+                "url": "https://305rhfueo-ui.github.io/RS_Investment/static/result.json",
+                "date": "2026-09-30",
+                "quote": "est: cyCur 0.868, cy30 0.298, nyCur 2.25, ny30 2.226",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "실적 개선이 한 분기에 집중돼 있다. 최근 4개 분기 중 앞선 3개는 영업적자(2025-09 -4.0%, 2025-12 -16.6%, 2026-03 -5.9%)였고 2025-12 분기 매출은 YoY -8.2%였다. 2026-06 분기의 흑자가 일회성인지 반복 가능한지는 다음 분기에서 확인해야 한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AXT 10-Q 기반 분기 실적 (Node 수집 SEC companyfacts)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001051627&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "periodEnd 2025-12-31, revenue 23041000, profit -3833000, margin -16.6, yoy revenue -8.2",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "2026-07-29 8-K에 Item 3.03·5.03(정관·주주권리 변경)이 있고 2026-07-08 8-K는 Item 2.04다. 내용은 제공 자료에 없어 희석 여부 등은 근거 없음이며 원문 확인이 필요하다. 52주 고점 대비 51.46% 수준으로 고점 회복 전이고 ADR 8.56%의 변동성도 감안해야 한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AXT 8-K (Item 3.03, 5.03)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926024882/axti20260729_8k.htm",
+                "date": "2026-07-29",
+                "quote": "form 8-K, filingDate 2026-07-29, items 3.03, 5.03",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "올해(CY) EPS 컨센서스가 30일 전 0.298에서 0.868로 상향됐고, 내년 EPS는 2.226에서 2.25로 소폭 상향됐다. 국내 증권사 리포트는 0건이라 국내 근거는 없다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "RS 사이트 컨센서스 컬럼 (Node 수집)",
+                  "publisher": "RS_Investment result.json",
+                  "url": "https://305rhfueo-ui.github.io/RS_Investment/static/result.json",
+                  "date": "2026-09-30",
+                  "quote": "est: cyCur 0.868, cy30 0.298, nyCur 2.25, ny30 2.226",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "AI 인프라",
+          "화합물반도체 기판",
+          "InP"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1"
+          ],
+          "reasons": [
+            "Prior quarter revenue ($26.924M) and operating margin (-5.9%) claimed as context but not verifiable from quote; only current quarter data is confirmed"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "AXTI는 2026-06-30 분기에 매출 $47.589M(YoY +164.8%)·영업이익률 21.9%로 흑자전환했고, 올해 EPS 컨센서스가 30일 전 0.298에서 0.868로 상향됐다. 3M 절대 상승률 30.11%·6M 62.05%에 1M 25.65%가 더해졌고, RS 상위 1M 1.5%로 1M 기준 2026-09-28부터 최상위권에 진입했다. 다만 52주 고점 대비 51.46% 수준이고 ADR 8.56%로 변동성이 커서, 실적 지속 여부 확인이 관건이다.",
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "AXT",
       "nameEn": "AXT INC",
@@ -19253,8 +19748,118 @@ window.TEAM2_DATA = {
         "count": 2
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "SIG",
+        "company": "Signet Jewelers는 북미·영국 중심의 다이아몬드·주얼리 소매업체로, 분기 매출은 약 14~23억 달러 규모이며 4분기(1월 마감, 연휴 시즌)에 영업이익이 집중되는 계절성이 강하다. 최근 4개 분기 매출은 YoY -0.5%~+3.1%로 정체 구간이며, 이익 변동은 매출이 아니라 마진 레버리지에서 나온다. 브랜드별·고객별 매출 구성은 제공 자료에 없어 근거 없음.",
+        "lead": "SIG는 2026-08-01 마감 분기(FQ2)에 매출이 YoY -0.5%로 정체됐음에도 영업이익 87.5M USD(영업이익률 5.7%)로 전년 대비 크게 개선되며 이익 모멘텀이 확인됐고, 컨센서스 목표가도 상향됐다. 가격은 1M +24.91%로 RS 1M 상위 1.5%에 들어왔다. 상승은 매출 성장이 아니라 비용·마진 개선에 대한 리레이팅 성격이다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "FQ2(2026-08-01 마감) 영업이익 87.5M USD, 영업이익률 5.7%, 순이익 52.1M USD. 매출 1,528.1M USD는 YoY -0.5%로 감소했으나 영업이익은 YoY +3,025%(전년 기저 극히 낮음), 순이익 +672.5%. 매출 정체 하의 마진 레버리지가 핵심이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC EDGAR SIG 10-Q 분기 실적(Node 수집)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000832988&type=10-Q",
+                "date": "2026-09-28",
+                "quote": "periodEnd 2026-08-01, revenue 1528100000, profit 87500000, netIncome 52100000, margin 5.7, yoy revenue -0.5, profit 3025, netIncome 672.5",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "FQ2 실적 8-K가 2026-09-09 제출됐고 이후 컨센서스 목표가가 10.32% 상향된 $124.34로 집계됐다. 실적 이후 애널리스트 눈높이 상향이 1M 강세와 시기가 겹친다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Signet Jewelers Consensus Price Target Raised 10.32% to $124.34",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/signet-jewelers-consensus-price-target-raised-1032-12434",
+                "date": "2026-09-15",
+                "quote": "Signet Jewelers Consensus Price Target Raised 10.32% to $124.34",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "Zacks가 모멘텀·밸류 스크린에서 SIG를 반복 언급했다(9/14 모멘텀 종목, 저평가 종목, 9/21 추천 종목). 퀀트 스크린 기반 수급 유입 가능성이 있으나 인과는 확인되지 않는다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Signet (SIG) is a Top Momentum Stock for the Long-Term",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/why-signet-sig-top-momentum-stock-long-term",
+                "date": "2026-09-14",
+                "quote": "Why Signet (SIG) is a Top Momentum Stock for the Long-Term",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c2",
+            "statement": "실적 발표 직후인 9/10 주가가 하락(pull back)한 이력이 있다. 원인 세부는 본문 미확인으로 근거 없음.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Signet Jewelers Stock Pulled Back Today",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/why-signet-jewelers-stock-pulled-back-today",
+                "date": "2026-09-10",
+                "quote": "Why Signet Jewelers Stock Pulled Back Today",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "컨센서스 목표가가 10.32% 상향되어 $124.34. 국내 증권사 리포트는 0건이라 국내 추정 변경은 근거 없음.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Signet Jewelers Consensus Price Target Raised 10.32% to $124.34",
+                  "publisher": "Fintel",
+                  "url": "https://www.nasdaq.com/articles/signet-jewelers-consensus-price-target-raised-1032-12434",
+                  "date": "2026-09-15",
+                  "quote": "Signet Jewelers Consensus Price Target Raised 10.32% to $124.34",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "리테일 턴어라운드",
+          "마진 개선",
+          "저평가 가치주"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reasons": [
+            "c1: Statement references 직전 4분기 -0.3% revenue YoY, but this figure does not appear in the provided quote (only -0.5% for FQ2 and +0.8% for FQ1 are verified)"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "SIG는 2026-08-01 마감 분기(FQ2)에 매출이 YoY -0.5%로 정체됐음에도 영업이익 87.5M USD(영업이익률 5.7%)로 전년 대비 크게 개선되며 이익 모멘텀이 확인됐고, 컨센서스 목표가도 상향됐다. 가격은 1M +24.91%로 RS 1M 상위 1.5%에 들어왔지만 3M RS는 상위 7.1%, 6M은 30.5%로 중기 강도는 상대적으로 낮다. 상승은 매출 성장이 아니라 비용·마진 개선에 대한 리레이팅 성격이다.",
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "시그넷 주얼러스",
       "nameEn": "SIGNET JEWELERS LTD",
@@ -20577,8 +21182,146 @@ window.TEAM2_DATA = {
         "count": 51
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "DDOG",
+        "company": "Datadog은 클라우드·애플리케이션 인프라를 모니터링하는 옵저버빌리티 SaaS로, 사용량 기반 과금과 업셀 구조를 갖고 있다. 제공 자료상 ARR $10만 이상 고객이 전체 매출의 90%를 차지한다(현대차증권 2026-05-12). 2026-06-30 분기 매출은 $1,121.5M(YoY +35.6%)이고 영업이익은 $5.5M(영업이익률 0.5%)로 성장 가속과 낮은 GAAP 마진이 함께 나타나는 국면이다.",
+        "lead": "DDOG는 분기 매출 YoY 성장률이 4개 분기 연속 높아졌다(28.4% → 29.2% → 32.2% → 35.6%). 6개월 절대 상승률 +130.15%로 RS 6M 상위 1.7%에 올라 있다. 반면 12M Fwd P/E 83배(현대차증권, 5월 기준)의 밸류에이션 부담과 GAAP 영업이익률 0.5%는 확인할 부분이다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "매출 성장 가속: 분기 매출 YoY가 2025-09 +28.4%, 2025-12 +29.2%, 2026-03 +32.2%, 2026-06 +35.6%로 4개 분기 연속 높아졌다. 2026-06-30 분기 매출은 $1,121.5M이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC EDGAR 분기 실적표 (Node 수집)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001561550&type=10-Q",
+                "date": "2026-09-28",
+                "quote": "\"periodEnd\": \"2026-06-30\", \"revenue\": 1121454000, \"yoy\": {\"revenue\": 35.6",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "GAAP 이익 전환: 2026-06 분기 영업이익 $5.5M(YoY +115.4%, 영업이익률 0.5%), 순이익 $44.6M로 2025-09 분기 영업적자(-$5.8M)에서 흑자 기조로 이어졌다. 키움증권은 FY25에서 순이익 YoY가 처음 (+)로 전환됐다고 짚었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[데이터도그 (NAS:DDOG)] ‘성장’ 구간을 넘어 ‘이익’ 구간으로",
+                "publisher": "키움증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqqclkmmkqqmcmlgcgxcmgl.pdf",
+                "date": "2026-02-12",
+                "quote": "FY4Q25 매출은 YoY +29% 성장했고, FY25에서 순이익 YoY가 처음 (+)로 전환됨",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "SaaS 약세 우려(사스포칼립스) 완화 해석: 키움증권은 사용량 과금·업셀·락인 구조상 사스포칼립스와 별개로 견조한 사업이라고 평가했다. 이는 9월 중순 이후 재평가 논리와 맞닿는다(주가 반응과의 인과는 근거 없음).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[데이터도그 (NAS:DDOG)] 사스포칼립스는 기우였나",
+                "publisher": "키움증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqqlzkzkkzmigqigcgxcmgl.pdf",
+                "date": "2026-09-17",
+                "quote": "사용량 과금·업셀·락인 구조상 사스포칼립스와 별개로 견조한 사업",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "엔터프라이즈 고객 확장과 글로벌 확장 관련 기사가 9월 중순~하순에 이어졌다(본문 미열람, 제목 기준).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Datadog's Enterprise Customer Expansion Accelerates: What's Ahead?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/datadogs-enterprise-customer-expansion-accelerates-whats-ahead",
+                "date": "2026-09-17",
+                "quote": "Datadog's Enterprise Customer Expansion Accelerates: What's Ahead?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "밸류에이션 부담: 현대차증권은 12M Fwd P/E 83배로 부담이 있다고 명시했다(5월 시점). 이후 주가는 6개월 +130% 올라 200일선 이격 47.55%여서 기대치가 더 높아진 상태다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[데이터도그 (NAS:DDOG)] 복잡해질수록 중요해진다",
+                "publisher": "현대차증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqqclkmmkqqmcmlgcgxcmgl.pdf",
+                "date": "2026-05-12",
+                "quote": "12M Fwd P/E 83배로 밸류에이션 부담 존재하나 견조한 성장과 플랫폼 확장 감안 시 장기 성장 프리미엄 유효",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "최대 고객 제외 성장 지속 여부 미확인: 키움증권은 최대 고객 제외 사업의 가속 지속 여부를 확인해야 하는 구간으로 봤다. 또한 GAAP 영업이익률은 0.5%로 낮아 마진 확장이 아직 확인되지 않았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[데이터도그 (NAS:DDOG)] 사스포칼립스는 기우였나",
+                "publisher": "키움증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqqlzkzkkzmigqigcgxcmgl.pdf",
+                "date": "2026-09-17",
+                "quote": "최대 고객 제외 사업 가속 지속 여부 확인이 필요한 구간",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "none",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "사이트 컨센서스 EPS 추정치는 최근 30일간 사실상 변화가 없다. 당해 연도 2.52724 → 2.52736, 내년 2.96847 → 2.97347로 소폭 상향에 그쳤다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "RS 사이트 컨센서스 (Node 수집, state/llm-in/_t2/DDOG.json)",
+                  "publisher": "RS_Investment",
+                  "url": "https://305rhfueo-ui.github.io/RS_Investment/static/result.json",
+                  "date": "2026-09-30",
+                  "quote": "\"cyCur\": 2.52736, \"cy30\": 2.52724, \"nyCur\": 2.97347, \"ny30\": 2.96847",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "옵저버빌리티",
+          "클라우드 인프라 SaaS",
+          "AI 인프라 수혜"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": [
+            "All key financial metrics verified against SEC EDGAR and research sources"
+          ]
+        },
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "데이터도그",
       "nameEn": "DATADOG INC",
@@ -21016,8 +21759,129 @@ window.TEAM2_DATA = {
         "count": 51
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "SNOW",
+        "company": "Snowflake는 클라우드에 데이터를 모아 저장·분석하고 AI 활용을 지원하는 데이터 플랫폼 기업으로, 소비(사용량) 기반 과금 구조의 제품 매출이 중심이다. 제공 자료에 매출 구성·핵심 고객 세부 수치는 없다. FY2Q27(2026-07-31 종료) 매출은 $1,546.8M(+35.1% YoY)로 최근 4개 분기 성장률이 28.7%→30.1%→33.5%→35.1%로 가속 중이며, 영업손실은 $263.0M(영업이익률 -17%)으로 적자폭이 축소되고 있다.",
+        "lead": "SNOW는 6M 기준 RS 상위권(2026-09-25부터 연속 2일)에 올라와 있고, 컨센서스 EPS가 30일 전 대비 상향되며 Zacks 등급이 상향됐다. 다만 다음 가이던스가 가속 지속 여부를 결정하는 중요한 이벤트다.",
+        "whyRose": [
+          {
+            "id": "w2",
+            "statement": "FY1Q27 실적 발표(2026-05-27) 후 성장 재가속과 가이던스 상향이 확인되며 주가가 급등했고, 이후 6M 절대 상승률 124.89%의 출발점이 됐다. 키움증권은 고객 확보 속도 증가 등 우호적 흐름을 전망했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[스노우플레이크 (NYS:SNOW)] SNOW의 시간은 거꾸로 간다",
+                "publisher": "키움증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlcgxlggimzelmgcgxcmgl.pdf",
+                "date": "2026-06-01",
+                "quote": "FY1Q27 실적은 성장률 재가속과 가이던스 상향 등 긍정적. 발표 후 주가 +36%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "컨센서스 추정치가 상향되고 있다. 사이트 데이터상 당해 EPS 추정치는 30일 전 1.937에서 현재 2.217로, 차기 연도는 2.706에서 3.014로 올랐으며, Zacks는 추정치 상향을 근거로 9월 중순~하순 등급을 상향(Buy)했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Snowflake (SNOW) Moves to Buy: Rationale Behind the Upgrade",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/snowflake-snow-moves-buy-rationale-behind-upgrade",
+                "date": "2026-09-23",
+                "quote": "Snowflake (SNOW) Moves to Buy: Rationale Behind the Upgrade",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Surging Earnings Estimates Signal Upside for Snowflake (SNOW) Stock",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/surging-earnings-estimates-signal-upside-snowflake-snow-stock",
+                "date": "2026-09-18",
+                "quote": "Surging Earnings Estimates Signal Upside for Snowflake (SNOW) Stock",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "9월 중순 사상 최고가 경신 보도가 나왔고, 제품 매출 가속 관련 기사가 이어졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Snowflake Surging to All-Time Highs",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/snowflake-surging-all-time-highs",
+                "date": "2026-09-17",
+                "quote": "Snowflake Surging to All-Time Highs",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c2",
+            "statement": "과거 실적 호조에도 가이던스가 기대에 못 미쳐 주가가 급락한 전례가 있고, FY27 성장 둔화 및 RPO 단기 인식 비중 하락이 지적된 바 있다. 다음 가이던스가 현 가속 국면의 지속 여부를 가른다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[스노우플레이크 (NYS:SNOW)] 사실은 괜찮은 실적",
+                "publisher": "신한투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqxklllckxqgkxqgcgxcmgl.pdf",
+                "date": "2025-12-05",
+                "quote": "FY3Q26은 호실적 달성에도 불구하고 4Q 가이던스를 아쉽게 제시하며 직후 주가 급락",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "사이트 컨센서스 EPS가 30일 전 대비 상향: 당해 1.937→2.217, 차기 2.706→3.014. Zacks도 추정치 급등을 언급했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Surging Earnings Estimates Signal Upside for Snowflake (SNOW) Stock",
+                  "publisher": "Zacks",
+                  "url": "https://www.nasdaq.com/articles/surging-earnings-estimates-signal-upside-snowflake-snow-stock",
+                  "date": "2026-09-18",
+                  "quote": "Surging Earnings Estimates Signal Upside for Snowflake (SNOW) Stock",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "AI 데이터 인프라",
+          "엔터프라이즈 소프트웨어",
+          "클라우드 데이터 플랫폼"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1",
+            "c1"
+          ],
+          "reasons": [
+            "w1: Prior quarter YoY growth progression (28.7%→35.1%) only final quarter verifiable in quote",
+            "c1: Price/technical metrics (1M return 2.08%, 52-week high 87.36%) not in SEC filing sources"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "SNOW는 4개 분기 연속 매출 성장률 가속(YoY 28.7%→35.1%)과 영업적자율 축소(-27.2%→-17%)를 배경으로 6M 기준 RS 상위권(2026-09-25부터 연속 2일)에 올라와 있다. 컨센서스 EPS도 30일 전 대비 상향되며 Zacks 등급 상향이 이어졌다. 다만 1M 상승률은 2.08%로 둔화됐고 52주 고점 대비 87.36%로 고점 아래이며 GAAP 적자는 지속 중이다.",
+        "researchedOn": "2026-09-30",
+        "carried": false
       },
       "nameKo": "스노우플레이크",
       "nameEn": "SNOWFLAKE INC",
@@ -25288,21 +26152,192 @@ window.TEAM2_DATA = {
       },
       "caution": "Technology 편중은 시장 전체의 섹터 비중·베타를 통제하지 않은 수치라 테마 강도를 과대평가할 수 있다. 1M 신규 다수가 D+1~D+2(FORM·AXTI·VICR·COHU 등)로 연속성 미검증이며, SWKS·QRVO 는 M&A 딜 프리미엄, PANW 는 선반영된 리레이팅(선행 PER 75배)일 수 있다. Healthcare 지속 3종목(MRNA·GRAL·TWST)은 제공 리서치에 상승 원인 근거가 없어 테마 판단에서 제외했다. 6M 퇴조 종목이 실제 약세인지 단순 순위 이탈인지는 데이터에 없다.",
       "researchedOn": "2026-09-29"
-    }
+    },
+    "llm": {
+      "leadingTheme": {
+        "name": "반도체·반도체 장비 중심 Technology 모멘텀 (AI 인프라·소프트웨어 병행), 기간별로 구성 상이",
+        "plainKo": "상위 2% 46종목 중 Technology 31종목(67.4%), Semiconductors 10종목(21.7%)으로 Technology 쏠림은 높다. 다만 1M은 반도체·반도체 장비, 3M은 소프트웨어, 6M은 반도체·소프트웨어 인프라가 나뉘어 하나의 지속 테마로 묶이지는 않고 강도는 emerging 수준이다.",
+        "why": "Node 클러스터: Sector Technology 31종목(67.4%, 1M 15 · 3M 7 · 6M 17), Industry Semiconductors 10종목(21.7%, 1M 6 · 3M 0 · 6M 6), Semiconductor Equipment & Materials 3종목(1M 3). 리서치 근거: FORM 2026-06-27 분기 매출 $258.2M(YoY +31.9%), 영업이익률 22.4%(직전 분기 7.4%). AXTI는 CY EPS 추정치가 30일 전 0.298에서 0.868로 상향, InP 캐파 증설. COHU는 AI 테스트 장비 관련 언급이나 9월 급등의 직접 촉매는 근거 없음. 반대 근거: Semiconductors는 3M 0종목으로 중기 층에 없고, 3기간 모두 포함된 지속 종목(MRNA·GRAL·TWST)은 전부 Healthcare다. 9월 급등분의 촉매를 특정하는 자료는 다수 종목에서 근거 없음이다.",
+        "tickers": [
+          "MXL",
+          "SMTC",
+          "SWKS",
+          "INTC",
+          "QCOM",
+          "QRVO",
+          "COHU",
+          "FORM",
+          "AXTI",
+          "AMBQ",
+          "MRVL",
+          "SIMO",
+          "ALAB"
+        ],
+        "strength": "emerging"
+      },
+      "subThemes": [
+        {
+          "name": "진단·리서치 툴 (Diagnostics & Research)",
+          "plainKo": "GRAL·TWST·BLLN·ILMN 4종목이 1M 17.4%, 3M 21.4%를 차지하며 GRAL·TWST는 3기간 모두 포함이다. 촉매는 ILMN의 UBS 상향(2026-09-09), BLLN의 Canaccord 커버리지 개시 정도이고 GRAL·TWST는 급등 원인 근거 없음이다.",
+          "why": "GRAL 2026-06-30 분기 매출 $44.687M(YoY +25.7%), 영업손실 -$173.783M. ILMN UBS Neutral→Buy(2026-09-09). BLLN Canaccord Buy 개시(9/3), 1M 진입 2026-09-25. TWST는 UBS Neutral·BWS Financial Sell 개시 보도, 급등 원인 근거 없음.",
+          "tickers": [
+            "GRAL",
+            "TWST",
+            "BLLN",
+            "ILMN"
+          ]
+        },
+        {
+          "name": "Software - Application/Infrastructure (3M 중기·6M)",
+          "plainKo": "3M에서 Software - Application 3종목(21.4%), Infrastructure 2종목(14.3%)이고 6M에서 Infrastructure 4종목(16%), Application 3종목(12%)이다. DDOG·SNOW·ESTC는 컨센서스와 매출 성장 근거가 있으나 DDOG·SNOW는 6M 층에서 퇴조 구간이다.",
+          "why": "DDOG 분기 매출 YoY 2025-09 +28.4% → 2026-06 +35.6%(4분기 연속 가속), 매출 $1,121.5M. SNOW 당해 EPS 추정치 1.937→2.217, 6M 절대 상승률 124.89%. ESTC 매출 YoY +15.1%, 컨센서스 목표가 32.39% 상향($110.86). TEAM은 8월 한 달 92% 급등 보도, 본문 수치 미확인.",
+          "tickers": [
+            "TEAM",
+            "ESTC",
+            "DDOG",
+            "SNOW",
+            "OKTA",
+            "NET",
+            "CRWD",
+            "PANW",
+            "BAND"
+          ]
+        },
+        {
+          "name": "정유·에너지 (3M 중기)",
+          "plainKo": "DINO·VLO가 3M Oil & Gas Refining & Marketing 2종목(14.3%)을 이룬다. VLO는 검증된 상승 이유 근거 없음이고 DINO는 스크리닝 기사 수준이다.",
+          "why": "DINO 2026-07-28 실적 8-K 이후 52주 고점 경신 기사(9/15, 9/21, 9/24), 제목 기준. VLO 근거 없음. SEI(에너지 인프라)는 1M 신규로 Q2 매출 $113.68M(YoY +30%)이나 정제 업종과는 별개.",
+          "tickers": [
+            "DINO",
+            "VLO",
+            "SEI"
+          ]
+        }
+      ],
+      "crossCuttingDriver": "공통 원인으로 확정할 자료는 없다. AI 인프라 수요(AXTI·COHU·PENG·DDOG), 실적 후 컨센서스 상향(SNOW·ESTC·AXTI·SEI), 애널리스트 커버리지 개시·상향(ILMN·BLLN·TWST)이 종목별로 산재하며, GRAL·MGRT·VLO 등은 상승 이유 근거 없음이다. 금리·정책 등 매크로 요인은 입력 자료에 없어 판단하지 않는다.",
+      "byPeriod": {
+        "m1": {
+          "name": "반도체 및 반도체 장비 + 진단 툴",
+          "plainKo": "1M 상위 2% 23종목 중 Technology 15종목(65.2%), Semiconductors 6종목(26.1%), Semiconductor Equipment & Materials 3종목(13%), Healthcare 5종목(21.7%), Diagnostics & Research 4종목(17.4%)이다. 반도체 계열이 9종목으로 가장 크나 다수가 streak 1~10일의 신규 진입이다.",
+          "tickers": [
+            "MXL",
+            "SMTC",
+            "SWKS",
+            "INTC",
+            "QCOM",
+            "QRVO",
+            "COHU",
+            "FORM",
+            "AXTI",
+            "GRAL",
+            "TWST",
+            "BLLN",
+            "ILMN"
+          ],
+          "strength": "emerging"
+        },
+        "m3": {
+          "name": "소프트웨어 + 진단 툴 (반도체는 없음)",
+          "plainKo": "3M 14종목 중 Technology 7종목(50%), Healthcare 4종목(28.6%), Diagnostics & Research 3종목(21.4%), Software - Application 3종목(21.4%), Software - Infrastructure 2종목(14.3%)이다. Semiconductors는 3M에 0종목이다.",
+          "tickers": [
+            "TEAM",
+            "MSTR",
+            "ESTC",
+            "OKTA",
+            "NET",
+            "GRAL",
+            "TWST",
+            "ILMN",
+            "MRNA"
+          ],
+          "strength": "weak"
+        },
+        "m6": {
+          "name": "반도체·소프트웨어 인프라 + 헬스케어",
+          "plainKo": "6M 25종목 중 Technology 17종목(68%), Healthcare 6종목(24%), Semiconductors 6종목(24%), Software - Infrastructure 4종목(16%), Software - Application 3종목(12%)이다. 다만 ALAB·CRWD·AMBQ·PANW 등 상당수의 6M 진입 streak이 2~15일로 짧다.",
+          "tickers": [
+            "MXL",
+            "ALAB",
+            "INTC",
+            "AMBQ",
+            "MRVL",
+            "SIMO",
+            "BAND",
+            "OKTA",
+            "CRWD",
+            "PANW",
+            "TEAM",
+            "DDOG",
+            "SNOW",
+            "MRNA",
+            "GRAL",
+            "TWST",
+            "CORT"
+          ],
+          "strength": "emerging"
+        }
+      },
+      "rotation": {
+        "persistent": [
+          "MRNA",
+          "GRAL",
+          "TWST"
+        ],
+        "newEntrants": [
+          "SWKS",
+          "QRVO",
+          "SMTC",
+          "COHU",
+          "FORM",
+          "AXTI",
+          "QCOM",
+          "BLLN",
+          "SEI",
+          "FEIM",
+          "VICR",
+          "ALNT"
+        ],
+        "midTerm": [
+          "TEAM",
+          "ESTC",
+          "OKTA",
+          "NET",
+          "DINO",
+          "VLO"
+        ],
+        "fading": [
+          "DELL",
+          "ALAB",
+          "CRWD",
+          "AMBQ",
+          "SNDK",
+          "MRVL",
+          "SIMO",
+          "PANW",
+          "DDOG",
+          "SNOW",
+          "PENG"
+        ],
+        "narrative": "지속 층은 MRNA·GRAL·TWST 3종목으로 전부 Healthcare다. 1M 신규 층(14종목)은 1M 23종목 기준 Technology 15종목(65.2%), Semiconductors 6종목(26.1%), Semiconductor Equipment & Materials 3종목(13%)의 반도체 계열이다. 3M 중기 층(8종목)은 3M 14종목 기준 Technology 7종목(50%), Software - Application 3종목(21.4%), Oil & Gas Refining 2종목(14.3%)으로 소프트웨어·정유다. 6M 퇴조 층(15종목)은 6M 25종목 기준 Technology 17종목(68%), Semiconductors 6종목(24%), Software - Infrastructure 4종목(16%)으로, 반도체·소프트웨어 인프라(DELL·MRVL·CRWD 등)에서 1M 신규 반도체·장비 종목으로 주도가 넘어가는 모양이다."
+      },
+      "caution": "클러스터는 RS 상위 2% 동시 포함 여부일 뿐 인과가 아니다. 다수 종목의 9월 급등 촉매가 근거 없음이고, 신규 층 종목 다수는 streak 1~2일이라 이탈 가능성이 높다. 3기간 지속 종목(MRNA·GRAL·TWST)은 Technology 테마와 무관하다. 반도체 계열이 1M 우위라는 해석은 3M에서 반도체 0종목이라는 사실로 반증될 수 있다. 차트 모양은 판정하지 않았다.",
+      "researchedOn": "2026-09-30"
+    },
+    "reusedFrom": null
   },
   "fs_coverage": {
     "have": 45,
     "total": 46
   },
   "research_coverage": {
-    "done": 35,
+    "done": 46,
     "total": 46,
-    "cap": null,
-    "pending": 11,
+    "cap": 20,
+    "pending": 0,
     "failed": 0,
-    "carried": 35,
+    "carried": 26,
     "ineligible": 0,
-    "note": "46종목 중 35종목을 조사했습니다. 그중 35종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 11종목은 상한(?) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
+    "note": "그중 26종목은 최근 조사분을 이월했습니다(조사일 표기)."
   },
   "detail_coverage": {
     "done": 46,

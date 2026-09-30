@@ -1,0 +1,245 @@
+{
+ "ticker": "GRAL",
+ "sector": "Healthcare",
+ "industry": "Diagnostics & Research",
+ "nameKo": "그레일",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 22.94,
+  "saleNy": 25.32,
+  "epsCy": -35.67,
+  "epsNy": 18.61,
+  "est": {
+   "cyCur": -7.52188,
+   "cy30": -7.675,
+   "nyCur": -8.92176,
+   "ny30": -9.87
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    25.72,
+    28.11,
+    13.97
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자확대"
+   ],
+   "opm": [
+    -388.89,
+    -332.88,
+    -285.37
+   ],
+   "updated": "2026-09-08 08:36:46"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "3mo",
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": "2026-09-23",
+   "m3": "2026-09-23",
+   "m6": "2026-09-25"
+  },
+  "top2Streak": {
+   "m1": 4,
+   "m3": 4,
+   "m6": 2
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-28",
+  "nameKo": "그레일",
+  "nameEn": "GRAIL INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001699031&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 44687000,
+     "profit": -173783000,
+     "netIncome": -110247000,
+     "margin": -388.9,
+     "yoy": {
+      "revenue": 25.7,
+      "profit": -9.4,
+      "netIncome": 3.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 40785000,
+     "profit": -135765000,
+     "netIncome": -93187000,
+     "margin": -332.9,
+     "yoy": {
+      "revenue": 28.1,
+      "profit": 11.6,
+      "netIncome": 12.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 43597000,
+     "profit": -124411000,
+     "netIncome": -99176000,
+     "margin": -285.4,
+     "yoy": {
+      "revenue": 14,
+      "profit": 9.1,
+      "netIncome": -2.2,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 36194000,
+     "profit": -125291000,
+     "netIncome": -88977000,
+     "margin": -346.2,
+     "yoy": {
+      "revenue": 26.3,
+      "profit": 31.7,
+      "netIncome": 29.2,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Insider Sale: Chief Financial Officer of $GRAL Sells 8,000 Shares",
+     "url": "https://www.nasdaq.com/articles/insider-sale-chief-financial-officer-gral-sells-8000-shares",
+     "date": "2025-07-17",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "GRAIL Earnings Results: $GRAL Reports Quarterly Earnings",
+     "url": "https://www.nasdaq.com/articles/grail-earnings-results-gral-reports-quarterly-earnings",
+     "date": "2025-05-13",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "Lobbying Update: $500,000 of GRAIL INC. (FORMERLY GRAIL LLC) lobbying was just disclosed",
+     "url": "https://www.nasdaq.com/articles/lobbying-update-500000-grail-inc-formerly-grail-llc-lobbying-was-just-disclosed",
+     "date": "2025-05-05",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "New Analyst Forecast: $GRAL Given $32.0 Price Target",
+     "url": "https://www.nasdaq.com/articles/new-analyst-forecast-gral-given-320-price-target",
+     "date": "2025-04-23",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "Lobbying Update: $30,000 of GRAIL INC. lobbying was just disclosed",
+     "url": "https://www.nasdaq.com/articles/lobbying-update-30000-grail-inc-lobbying-was-just-disclosed",
+     "date": "2025-01-22",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "Lobbying Update: $50,000 of GRAIL INC. lobbying was just disclosed",
+     "url": "https://www.nasdaq.com/articles/lobbying-update-50000-grail-inc-lobbying-was-just-disclosed",
+     "date": "2025-01-17",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "Illumina (NASDAQ:ILMN) to Face Significant Loss from Grail Spin-Off",
+     "url": "https://www.nasdaq.com/articles/illumina-nasdaq-ilmn-face-significant-loss-grail-spin",
+     "date": "2024-06-18",
+     "publisher": "TipRanks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1699031/000162828026053341/gral-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-22",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1699031/000162828026044693/gral-20260618.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-01",
+    "itemsKo": [
+     "임원 변동",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1699031/000162828026039461/gral-20260601.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1699031/000162828026030495/gral-20260505.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-19",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1699031/000169903126000009/gral-20260219.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1699031/000162828026001786/gral-20260112.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-07-16",
+     "broker": "신한투자증권",
+     "analyst": "하헌호",
+     "title": "[그레일 (NAS:GRAL)] MCED 진단기기 선도기업",
+     "summary": "- 다중암 진단기기(MCED, Multi-Cancer Early Detection) 시장의 선도기업. 아직 상용화에 진입하지 못했으나 ASCO에서 대표 제품의 양호한 임상 데이터로 가능성 입증. 추가 임상, 파트너십 등 호재 빠르게 반영할 전망- 대표 MCED 진단기기 갤러리가 ASCO에서 구체적 성과를 입증해 상용화 기대감 점증. 영국보건당국(NHS)과 공동 진행하는 임상(NHS-Galleri)의 1차 평가지표(3-4기 환자 감소) 달성에는 실패했으나 2차 평가지표 양호- 3-4기 전체 환자 비중 증가했으나 4기 진단은 뚜렷하게 감소. 12개 암의 4기 검진 비율이 14% 줄었고 2차, 3차 검진에서 각 22%, 26% 감소해 치 명적인 병기 발견의 감소 효과 증명. 1-2기에서 발견된 환자는 16% 늘어 갤러리 사용을 통한 조기 진단 및 예후도 개선 가능성 입증",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkexgegcliczzgcgxcmgl.pdf"
+    }
+   ]
+  }
+ }
+}

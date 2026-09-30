@@ -507,8 +507,205 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-09-30",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "30년 미 국채 금리가 2002년 이후 최고 — 장기 할인율이 다시 상승 압력",
+        "easy": "CNBC는 2026-09-29 30년 국채 수익률이 2002년 이후 최고 수준으로 올랐다고 보도했다. 본문은 403으로 접근하지 못해 정확한 금리 레벨·상승 폭은 확인하지 못했다 — 근거 없음. 가격 추세 쪽은 반대 방향으로, Node 판정은 QQQ 🟢 골든크로스 D+8 · 10MA·20MA 동반 상승(2.06% / 0.87%)이고 종가 737.93 은 MA10 733.33 · MA20 722.94 · MA50 714.31 을 모두 위에 두고 있다. 즉 장기 할인율 상승과 지수 추세가 갈라져 있는 국면이며, 둘 중 하나가 곧 접힌다. 여기에 FINRA 고객 마진부채 YoY +37.2% 가 겹쳐 레버리지 민감도가 평시보다 높다.",
+        "whyMatters": "주도 섹터가 Technology 27종목(54%)으로 현금흐름 듀레이션이 긴 구성이어서, 장기금리가 더 오르면 멀티플 압축이 이 그룹에 먼저 온다. Healthcare 10종목(20%)은 금리 민감도가 상대적으로 낮고, Energy 5종목(10%)은 금리보다 수요·스프레드에 좌우되므로 금리 충격 시 상대 강도가 뒤바뀔 수 있다. 마진부채 +37.2% YoY 상태에서 장기금리 급등은 강제 디레버리징의 트리거가 되기 쉽다. 30년물 상승세가 멈추는지, QQQ 가 MA10 733.33 을 종가로 지키는지가 논리의 성립/붕괴 지점이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "30-year Treasury bond yield scales to highest level since 2002",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/29/treasury-yields-bonds.html",
+            "date": "2026-09-29",
+            "quote": "30-year Treasury bond yield scales to highest level since 2002",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "연준 핵심 물가지표 PCE 수요일 발표 — 금리 경로의 다음 분기점",
+        "easy": "CNBC는 연준이 주로 보는 물가 지표가 수요일에 공개된다고 전했다. 컨센서스 헤드라인·코어 PCE 수치는 본문 접근이 막혀 확인하지 못했다 — 근거 없음. 다만 30년물이 2002년 이후 최고로 올라온 직후의 발표라는 점에서, 상방 서프라이즈는 장기금리를 한 번 더 밀어 올리는 경로가 된다. QQQ 는 골든크로스 D+8 로 추세 초입 판정이어서, 발표가 그 초입을 확인하거나 무효화하는 첫 이벤트다.",
+        "whyMatters": "코어 PCE 가 컨센서스를 웃돌면 듀레이션이 긴 Technology 27종목(54%) 쪽 밸류에이션이 먼저 눌리고, 반대로 하회하면 같은 그룹이 리레이팅 수혜를 가장 크게 받는다. Energy 5종목(10%)은 물가 지표가 높게 나와도 원자재 연동 매출로 상대적 방어가 가능하다. 실무 관점에서는 발표 당일 신규 진입 비중을 이벤트 이후로 미루는 선택이 규칙과 충돌하지 않는다. 발표 후 QQQ 가 MA20 722.94 위에서 마감하는지가 확인 조건이다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "The Fed's main inflation measure will be released Wednesday. Here's what to expect",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/29/the-feds-main-inflation-measure-will-be-released-wednesday-heres-what-to-expect.html",
+            "date": "2026-09-29",
+            "quote": "The Fed's main inflation measure will be released Wednesday. Here's what to expect",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "30조 달러 국채시장의 헤지펀드 보유 비중이 기록적 수준 — 유동성 구조 리스크",
+        "easy": "CNBC는 헤지펀드가 30조 달러 규모 미 국채시장에서 기록적인 비중을 보유하고 있다고 보도했다. 구체 비중·레버리지 배수는 본문 미확보로 확인하지 못했다 — 근거 없음. 베이시스 트레이드류 레버리지 보유가 커진 시장은 금리 급변 시 마진콜 → 투매 → 담보가치 하락의 되먹임이 빠르다. 장기금리가 2002년 이후 최고로 올라온 국면과 겹치면 국채발 변동성이 주식으로 전이되는 경로가 열린다.",
+        "whyMatters": "국채 유동성 사고는 섹터를 가리지 않고 지수 전체의 변동성을 끌어올리므로, 주도 섹터 Technology 27종목(54%) 같은 고베타 묶음에서 손절 폭이 먼저 벌어진다. FINRA 마진부채 YoY +37.2% 는 주식 쪽에도 같은 종류의 레버리지가 쌓여 있음을 보여주는 별개 증거다. 200일선 +150% 초과 종목이 1개뿐이라는 점은 개별 과열은 아직 제한적이라는 반대 근거다. 국채 변동성 지표와 스프레드가 안정되는지가 확인 조건이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Hedge funds now hold a record share of the $30 trillion Treasury market. What could go wrong?",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/30/us-treasury-market-is-relying-more-on-hedge-funds.html",
+            "date": "2026-09-29",
+            "quote": "Hedge funds now hold a record share of the $30 trillion Treasury market. What could go wrong?",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "파라마운트의 워너브러더스 인수 자금조달이 금리 벽에 부딪혔다 — 레버리지 파이낸싱 창구 경직",
+        "easy": "MarketWatch 는 파라마운트가 워너브러더스 인수 자금을 조달하는 과정에서 대형 부채 거래가 높아진 금리라는 벽에 막혔다고 보도했다. 조달 금액·스프레드·트랑슈 구성은 본문 미확보로 확인하지 못했다 — 근거 없음. 개별 딜 이슈가 아니라, 장기금리 상승이 실제 자금조달 비용으로 전가되기 시작했다는 관측치로서 의미가 있다. 30년물 최고치 보도와 같은 날 나온 신호라는 점에서 방향이 일치한다.",
+        "whyMatters": "레버리지 파이낸싱 창구가 좁아지면 미디어·통신처럼 부채로 인수합병을 굴리는 업종의 딜 프리미엄이 먼저 줄고, 차환 스케줄이 몰린 고레버리지 기업의 이자비용 가이던스가 상향된다. 주도 섹터에서는 Industrials 4종목(8%)처럼 설비투자를 차입으로 조달하는 쪽이 Technology 27종목(54%)의 무차입 캐시플로우 기업보다 불리하다. 반대 근거로, 하이일드 신규 발행이 재개되면 이 경직은 일시적 수급 문제로 축소 해석된다. 확인할 조건은 후속 딜의 발행 성사 여부와 가산금리 수준이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Hollywood's big debt deal hits a wall of higher yields as Paramount finances Warner Bros. buyout",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/hollywoods-big-debt-deal-hits-a-wall-of-higher-yields-as-paramount-finances-warner-bros-buyout-6ee6e3b8?mod=mw_rss_topstories",
+            "date": "2026-09-29",
+            "quote": "Hollywood's big debt deal hits a wall of higher yields as Paramount finances Warner Bros. buyout",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "AMD의 World Labs 80억 달러 인수 — AI 반도체 경쟁이 모델·소프트웨어 레이어로 확장",
+        "easy": "MarketWatch 는 AMD 의 80억 달러 규모 World Labs 인수에서 진짜 핵심은 예상과 다른 곳에 있다고 보도했다. 대가 구성(현금·주식 비율)과 희석 규모는 본문 미확보로 확인하지 못했다 — 근거 없음. 반도체 기업이 모델·소프트웨어 자산에 80억 달러를 쓴다는 것은 경쟁축이 칩 단품 성능에서 스택 전체로 이동했다는 신호다. 인수 규모가 크면 단기 EPS 희석과 무형자산 상각이 마진 지표에 남는다.",
+        "whyMatters": "주도 섹터 Technology 27종목(54%)의 내부 구성이 반도체 중심인 국면에서, AI 스택 내재화 경쟁은 GPU·가속기 공급사와 AI 소프트웨어 사이의 마진 배분을 바꾼다. 인수 대가가 주식 비중이 크면 해당 기업 주주는 희석을, 경쟁사는 밸류에이션 기준점 상향을 각각 받는다. 후보 기사에 없는 개별 종목의 실적·수주는 확인 불가이므로 방향만 적는다. 확인할 조건은 인수 대가 구성 공시와 첫 통합 실적에서의 영업마진·상각비 규모다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "The real prize in AMD's $8 billion World Labs acquisition isn't what you'd think",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-real-prize-in-amds-8-billion-world-labs-acquisition-isnt-what-youd-think-6f609d0f?mod=mw_rss_topstories",
+            "date": "2026-09-29",
+            "quote": "The real prize in AMD's $8 billion World Labs acquisition isn't what you'd think",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "3분기 IPO 연기가 가속 — Oura 를 넘어선 발행시장 위축",
+        "easy": "CNBC 는 3분기에 IPO 연기가 가속되고 있으며 Oura 외의 사례까지 번지고 있다고 보도했다. 연기 건수·철회 금액은 본문 미확보로 확인하지 못했다 — 근거 없음. 지수가 골든크로스 D+8 로 강세 판정인데 발행시장은 닫히는 조합은 드물고, 통상 밸류에이션 괴리나 금리 부담이 원인이다. 30년물 최고치·부채 조달 경직 보도와 같은 방향의 증거로 읽힌다.",
+        "whyMatters": "IPO 창구가 막히면 상장 전 단계 자금이 필요한 바이오텍이 가장 먼저 압박을 받는데, 주도 섹터에 Healthcare 10종목(20%)이 들어 있어 이 그룹 내부의 자금조달 의존 종목과 현금흐름 흑자 종목의 격차가 벌어진다. 투자은행 수수료 수익 라인(ECM)도 직접 타격이다. 반대 근거는 지수 추세가 유지되는 동안 연기된 딜이 재개될 여지가 있다는 점이다. 확인할 조건은 10월 이후 신규 S-1 접수와 가격 결정 밴드 하향 여부다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "IPO postponements are accelerating in third quarter, even beyond Oura",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/29/ipo-postponements-are-accelerating-in-third-quarter-even-beyond-oura.html",
+            "date": "2026-09-29",
+            "quote": "IPO postponements are accelerating in third quarter, even beyond Oura",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Target 의 가격 인하 — 애널리스트는 강점, 투자자는 마진 훼손으로 읽었다",
+        "easy": "MarketWatch 는 일부 애널리스트가 Target 의 가격 인하를 강점의 신호로 보지만 투자자는 동의하지 않는다고 보도했다. 인하 품목 수·매출총이익률 영향은 본문 미확보로 확인하지 못했다 — 근거 없음. 같은 사실을 두고 점유율 확대(볼륨)와 마진 희생(가격)으로 해석이 갈린 전형적 구도다. 소비재에서 가격 인하가 확산되면 물가 지표 쪽에는 하방 요인으로 작동한다.",
+        "whyMatters": "대형 리테일의 가격 인하는 소비재·유통 업종 전반의 매출총이익률 가이던스에 하향 압력을 주고, 동시에 PCE 재화 항목에는 디스인플레이션 기여로 들어간다. 주도 섹터에 Consumer 계열이 없다는 점(Technology 54% · Healthcare 20% · Energy 10% · Industrials 8%)은 현재 자금이 소비재를 피해 있다는 방증이다. 판단 근거는 후보 기사 한 건뿐이므로 업종 확산 여부는 미확인이다. 확인할 조건은 다른 대형 유통업체의 동조 인하와 분기 매출총이익률 실제치다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Target's price cuts are a sign of strength, some analysts say. Investors disagree.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/targets-price-cuts-are-a-sign-of-strength-some-analysts-say-investors-disagree-6a6f0717?mod=mw_rss_topstories",
+            "date": "2026-09-29",
+            "quote": "Target's price cuts are a sign of strength, some analysts say. Investors disagree.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "Citi, SpaceX 가치 12조 달러 시나리오 제시 — Starship 진전을 근거로",
+        "easy": "MarketWatch 는 Citi 가 Starship 의 진전을 근거로 SpaceX 가 언젠가 12조 달러 가치에 도달할 수 있다는 시각을 냈다고 보도했다. 산정 전제·할인율·시계는 본문 미확보로 확인하지 못했다 — 근거 없음. 비상장사 가치 산정이라 직접 거래 가능한 대상이 아니고, 발사 비용 하락이 위성·우주 밸류체인의 총시장 가정을 키우는 논거로 쓰인다는 점이 실무적 의미다. 이런 초장기 시나리오 리포트가 나오는 것 자체가 위험선호가 살아 있다는 국면 지표이기도 하다.",
+        "whyMatters": "발사 단가 하락 가정은 위성 통신·방산 부품·우주 인프라 쪽 Industrials 4종목(8%) 계열의 총시장 전망을 상향시키는 방향으로 작동한다. 반대로 기존 발사·위성 사업자의 경쟁 압력은 커진다. 후보 기사에 개별 상장사 실적·수주는 없으므로 방향만 적는다. 확인할 조건은 Starship 의 실제 재사용 성공 빈도와 발사 단가 공시다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Could SpaceX be worth $12 trillion one day? Citi says Starship gets it a step closer.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/could-spacex-be-worth-12-trillion-one-day-citi-says-starship-gets-it-a-step-closer-6ce44961?mod=mw_rss_topstories",
+            "date": "2026-09-29",
+            "quote": "Could SpaceX be worth $12 trillion one day? Citi says Starship gets it a step closer.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "중국 AI 도구가 생물무기 제조법을 안내 — AI 규제 리스크가 다시 부각",
+        "easy": "BBC 는 중국 AI 도구가 연구진에게 생물무기 제조 방법을 알려줬다고 보도했다. 어느 모델·어떤 평가 방식이었는지는 본문 미확보로 확인하지 못했다 — 근거 없음. 안전성 사고 보도는 통상 모델 배포 제약·수출 통제·감사 의무 같은 규제 논의를 앞당긴다. 별건으로 CNBC 는 트럼프가 AI 를 'super intelligence' 로 개칭하려 한다는 보도를 냈고, 여론 지표가 부정적이라는 대목이 규제 방향의 정치적 변수다.",
+        "whyMatters": "규제 강화는 모델 배포로 매출을 인식하는 AI 소프트웨어 기업에 컴플라이언스 비용과 출시 지연으로, 반도체 쪽에는 수출 통제 확대 경로로 각각 작용한다 — 주도 섹터 Technology 27종목(54%)의 양쪽이 모두 노출된다. 반면 안전성 검증·보안 관련 수요는 늘어나는 방향이다. 후보 기사에 특정 상장사는 없으므로 종목 단위 영향은 미확인이다. 확인할 조건은 실제 규제 초안 발표와 수출 통제 품목 확대 여부다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Chinese AI tool told researchers how to make bioweapons",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cmrergq3j7lgo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-09-29",
+            "quote": "Chinese AI tool told researchers how to make bioweapons",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Trump Accounts 자동 가입으로 최대 6,000만 계좌 — 장기 패시브 자금 유입 구조",
+        "easy": "CNBC 는 재무부 발표를 인용해 Trump Accounts 가 아동을 자동 가입시키며 최대 6,000만 개 계좌가 추가될 수 있다고 보도했다. 계좌당 초기 납입액·투자 가능 상품·개시 시점은 본문 미확보로 확인하지 못했다 — 근거 없음. 계좌 수가 이 규모면 지수형 상품으로의 정기 유입이 구조적으로 생기고, 운용보수 기반 사업의 AUM 전망이 상향된다. 다만 장기 수급 이야기이므로 금리·물가 같은 당면 변수를 상쇄하지는 않는다.",
+        "whyMatters": "수혜는 인덱스 ETF 운용사와 계좌 관리·기록관리(recordkeeping) 사업자, 리테일 브로커의 계좌 수 기반 매출 라인에 집중된다. 지수 편입 상위 비중이 큰 Technology 27종목(54%)은 패시브 유입의 가중 수혜를 자동으로 받는다. 후보 기사에 상장 운용사 이름은 없으므로 종목 지정은 하지 않는다. 확인할 조건은 시행 시점·연간 납입 한도와 디폴트 투자상품 지정 내용이다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Trump Accounts will auto-enroll children, potentially adding 60 million accounts: Treasury",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/09/29/trump-accounts-auto-enroll.html",
+            "date": "2026-09-29",
+            "quote": "Trump Accounts will auto-enroll children, potentially adding 60 million accounts: Treasury",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "가격 추세는 강세, 자금조달 환경은 경직 — 두 신호가 갈라진 국면이다. 근거는 Node 판정 쪽에서 QQQ 🟢 골든크로스 D+8 · 10MA·20MA 동반 상승(2.06% / 0.87%) · 종가 737.93 이 MA10 733.33 · MA20 722.94 · MA50 714.31 을 모두 위에 둔 정렬이고, 뉴스 쪽에서는 30년 국채 금리가 2002년 이후 최고(CNBC 2026-09-29) · 파라마운트의 워너브러더스 인수 부채 조달이 금리 벽에 막힘(MarketWatch) · 3분기 IPO 연기 가속(CNBC)이 같은 방향으로 겹친다. 주도 섹터는 Technology 27종목(54%) · Healthcare 10종목(20%) · Energy 5종목(10%) · Industrials 4종목(8%) · N/A 1종목(2%)으로 듀레이션이 긴 구성이라 장기금리 재상승에 대한 지수 민감도가 높다. 리스크는 레버리지 쪽이 크다 — FINRA 고객 마진부채 YoY +37.2% 로 +30% 초과 구간이고, 헤지펀드가 30조 달러 국채시장에서 기록적 비중을 보유(CNBC)한 상태라 금리 급변이 양쪽 레버리지를 동시에 흔들 수 있다. 반대 근거로 200일선 +150% 초과 종목이 1개뿐이라 개별 종목 과열은 아직 제한적이다. 확인할 조건은 수요일 PCE 발표 후 30년물 상승세가 멈추는지, 그리고 QQQ 가 MA10 733.33 위에서 종가를 지키는지다.",
+    "keyRisks": [
+      "장기금리: 30년물이 2002년 이후 최고 — 듀레이션이 긴 Technology 54% 구성에 멀티플 압축 압력. 본문 403 으로 정확한 금리 레벨은 미확인",
+      "레버리지: FINRA 고객 마진부채 YoY +37.2% (+30% 초과 경고 구간) + 헤지펀드의 30조 달러 국채시장 기록적 보유 비중 — 금리 급변 시 마진콜 연쇄 경로",
+      "이벤트: 수요일 PCE 발표. 컨센서스 수치는 기사 본문 미확보로 근거 없음 — 상방 서프라이즈 시 장기금리 재상승",
+      "자금조달: 파라마운트 WBD 인수 부채 조달 난항 + 3분기 IPO 연기 가속 — 고레버리지·조달 의존 기업(특히 Healthcare 10% 내 자금조달 의존 종목)에 선행 압박",
+      "규제: 중국 AI 도구 생물무기 안내 보도 → AI 배포 제약·수출 통제 확대 논의가 Technology 주도 섹터 양쪽(소프트웨어 컴플라이언스, 반도체 수출)에 노출",
+      "추세 훼손 기준: QQQ 종가가 MA10 733.33 이탈 시 골든크로스 D+8 초입 논리가 약화 — 숫자는 Node 확정치이며 임의 해석 금지"
+    ],
+    "easySummary": [
+      "QQQ 는 골든크로스 D+8 · 10MA·20MA 동반 상승(2.06% / 0.87%) · 종가 737.93 이 MA10 733.33 · MA20 722.94 · MA50 714.31 위 — 추세 자체는 최적 진입 구간 판정.",
+      "반대편에 30년 국채 금리 2002년 이후 최고 · 대형 인수 부채 조달 난항 · 3분기 IPO 연기 가속이 겹쳐, 자금조달 환경은 이미 조이고 있다.",
+      "레버리지가 취약점 — 마진부채 YoY +37.2%, 헤지펀드의 30조 달러 국채시장 기록적 비중. 확인할 것은 수요일 PCE 이후 30년물 방향과 QQQ 의 MA10 733.33 종가 사수."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 86,
+      "ok": 91,
+      "unverified": 4,
+      "dead": 0,
+      "stripped": 0,
+      "removed": []
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-09-30"
   }
 };

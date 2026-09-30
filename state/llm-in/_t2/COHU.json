@@ -1,0 +1,238 @@
+{
+ "ticker": "COHU",
+ "sector": "Technology",
+ "industry": "Semiconductor Equipment & Materials",
+ "nameKo": "코후",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 35.26,
+  "saleNy": 25.65,
+  "epsCy": -531.82,
+  "epsNy": 94.34,
+  "est": {
+   "cyCur": 0.95,
+   "cy30": 0.95,
+   "nyCur": 1.84625,
+   "ny30": 1.84625
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    38.37,
+    29.26,
+    29.86
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자확대"
+   ],
+   "opm": [
+    0.2,
+    -8.91,
+    -12.67
+   ],
+   "updated": "2026-09-15 06:48:11"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-09-25",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 2,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-09-28",
+  "nameKo": "코후",
+  "nameEn": "COHU INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000021535&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-27",
+     "derived": false,
+     "revenue": 149002000,
+     "profit": 292000,
+     "netIncome": -159000,
+     "margin": 0.2,
+     "yoy": {
+      "revenue": 38.4,
+      "profit": 101.7,
+      "netIncome": 99.1,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2026-03-28",
+     "derived": false,
+     "revenue": 125119000,
+     "profit": -11154000,
+     "netIncome": -12068000,
+     "margin": -8.9,
+     "yoy": {
+      "revenue": 29.3,
+      "profit": 59.2,
+      "netIncome": 60.8,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodEnd": "2025-12-27",
+     "derived": true,
+     "revenue": 122230000,
+     "profit": -15491000,
+     "netIncome": -22488000,
+     "margin": -12.7,
+     "yoy": {
+      "revenue": 29.9,
+      "profit": 28.4,
+      "netIncome": -5.3,
+      "priorEnd": "2024-12-28"
+     }
+    },
+    {
+     "periodEnd": "2025-09-27",
+     "derived": false,
+     "revenue": 126249000,
+     "profit": -9716000,
+     "netIncome": -4101000,
+     "margin": -7.7,
+     "yoy": {
+      "revenue": 32.4,
+      "profit": 38.4,
+      "netIncome": 77.3,
+      "priorEnd": "2024-09-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Teradyne Strengthens AI Test Portfolio: Can It Beat KLAC & COHU?",
+     "url": "https://www.nasdaq.com/articles/teradyne-strengthens-ai-test-portfolio-can-it-beat-klac-cohu",
+     "date": "2026-09-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cohu CEO Luis Muller Sells Shares for $3.3 Million",
+     "url": "https://www.nasdaq.com/articles/cohu-ceo-luis-muller-sells-shares-33-million",
+     "date": "2026-09-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Teradyne Rides on Strong UltraFLEXplus Demand: Can It Beat KLAC & COHU?",
+     "url": "https://www.nasdaq.com/articles/teradyne-rides-strong-ultraflexplus-demand-can-it-beat-klac-cohu",
+     "date": "2026-09-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "AEHR vs. COHU: Which Semiconductor Equipment Stock Is The Better Buy?",
+     "url": "https://www.nasdaq.com/articles/aehr-vs-cohu-which-semiconductor-equipment-stock-better-buy",
+     "date": "2026-08-31",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Teradyne Drives Robotics With AI: Can It Outpace KLAC and COHU?",
+     "url": "https://www.nasdaq.com/articles/teradyne-drives-robotics-ai-can-it-outpace-klac-and-cohu",
+     "date": "2026-08-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "How Much Upside is Left in Cohu (COHU)? Wall Street Analysts Think 28.27%",
+     "url": "https://www.nasdaq.com/articles/how-much-upside-left-cohu-cohu-wall-street-analysts-think-2827",
+     "date": "2026-08-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cohu (COHU) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/cohu-cohu-q2-2026-earnings-call-transcript-0",
+     "date": "2026-08-04",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/21535/000143774926025053/cohu20260728_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-15",
+    "itemsKo": [
+     "5.03",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/21535/000143774926017386/cohu20260512_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/21535/000143774926014188/cohu20260428_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/21535/000143774926003937/cohu20260211_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/21535/000143774925032182/cohu20251028_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-09-29",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "3.02",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/21535/000143774925030026/cohu20250927_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

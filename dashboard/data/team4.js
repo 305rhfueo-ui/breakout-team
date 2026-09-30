@@ -344,18 +344,18 @@ window.TEAM4_DATA = {
             "sources": []
           }
         ],
-        "company": "Medtronic은 심혈관·신경조절·수술로봇·당뇨 등을 아우르는 대형 의료기기 업체로, 시총 114.48B, 컨센서스 기준 매출성장 CY 7.54% / NY 3.41%, EPS 성장 CY 8.03% / NY 7.24%의 저~중간 성장 국면이다. 최근 3분기 매출성장은 13.73/9.87/8.74%로 둔화, 순이익은 41.35/17.8/-11.67%, 영업이익률은 18.08/19.1/16.22%로 최근 분기 마진이 하락했다. 직전 실적발표(8-K item 2.02)는 2026-09-01이다.",
-        "volumeExplanation": "VOL_X 2.07(거래대금 20일 평균 대비), 주간 거래량배수 2.02(당일 제외 5일 평균 대비)로 거래량은 증가했으나, 제공된 뉴스·8-K에서 이를 설명할 촉매는 확인되지 않았다. 최근 기사는 9/23 시장 대비 하락(Zacks)과 이동평균 하향 이탈(BNK Invest), 9/17 BSX 비교 기사에 그치며, 9/17 8-K는 item 8.01/9.01로 내용이 확인되지 않았다. 실적 8-K(9/1)는 거래일 기준 4주 전이라 당일 거래량과 직결된다는 근거가 없어 암묵적 호재(⑥)로 분류한다. 확인 조건은 종가강도(CLS_POS) 98.51의 강한 마감이 후속 거래일에도 유지되는지와 공식 재료 공시 여부다.",
+        "company": "Medtronic(MDT)은 심혈관·신경과학·메드서지컬·당뇨 부문을 가진 대형 의료기기 업체로, 시총 114.48B이다. 최근 3분기 매출성장은 13.73/9.87/8.74%, 영업이익률은 18.08/19.1/16.22%이고 순이익 증감은 41.35/17.8/-11.67%로 최근 분기에 둔화했다. 마지막 실적 8-K(item 2.02)는 2026-09-01이다.",
+        "volumeExplanation": "2026-09-30 VOL_X 2.07(거래대금 20일 평균 대비), 주간 거래량배수 2.02, CLS_POS 98.51로 거래량이 증가했다. 제공된 뉴스(9/17~9/29)는 주가 하락·이동평균 하향 이탈·경쟁사 비교 기사이고, 8-K는 9/17(item 8.01)과 9/1(실적)뿐이라 당일 거래량을 설명하는 촉매를 확인하지 못했다. 따라서 암묵적 호재(⑥)로 분류하며 원인은 근거 없음이다.",
         "confidence": "low",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
-          "reason": "Appropriate classification ⑥ with no specific catalyst identified. c1 correctly states 'No basis'. Reasoning properly explains why considered events (9/23 Zacks, 9/17 8-K items 8.01/9.01, 9/1 earnings) do not support today's volume. Classification sound."
+          "reason": "이미 근거 없음으로 명시되어 암묵적 호재(⑥)로 적절히 분류됨"
         },
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
-        "researchedOn": "2026-09-29",
-        "carried": true
+        "researchedOn": "2026-09-30",
+        "carried": false
       }
     },
     {
@@ -634,69 +634,35 @@ window.TEAM4_DATA = {
       "catalyst": {
         "status": "done",
         "ticker": "MDB",
-        "category": 4,
-        "company": "MongoDB는 문서형 NoSQL 데이터베이스(Atlas 클라우드 DBaaS 중심 + Enterprise Advanced 온프렘 라이선스)를 구독 모델로 판매하는 Software-Infrastructure 업체로, 시총 33.06B. 최근 3분기 매출성장률은 q0/q1/q2 30.5/25.25/26.75%, 영업이익률 3.68/-3.61/0.04%로 마진은 손익분기 부근이며, 컨센서스는 CY 매출 +22.87%·EPS +31.85%, 30일 전망 변화 CY +6.86%/NY +6.15%(Target_Status YES). 현 국면은 9/1 FQ2 실적(8-K 2.02) 이후 추정치 상향 구간에서 CEO CJ Desai 사임(9/24 통보, 9/28 효력)과 Dev Ittycheria 임시 CEO 복귀가 겹친 경영진 교체기이며, 52주 고점 대비 86.76%로 150일선 위이나 60일 신고가 돌파는 아니다.",
-        "volumeExplanation": "9/28 제출된 8-K(Item 5.02)로 CEO CJ Desai의 사임(9/28 효력)과 Dev Ittycheria의 임시 CEO 선임이 공시되었고, 9/29 Investor Day가 예고되어 있다. 주간 거래량배수 12.47(당일 제외 5일 평균 대비)은 이 경영진 교체·이벤트 국면과 시기가 일치하는 것으로 보이나, 제공 자료에 당일 주가 방향이나 거래량과의 직접 인과를 서술한 기사는 없어 시기 일치에 근거한 해석이다. 실적 추정치 상향(Target_Status YES)은 배경 요인이다.",
+        "category": 6,
         "claims": [
           {
-            "id": "c1",
-            "statement": "CEO CJ Desai가 9/24 사임 의사를 통보(9/28 효력)했고, 이사회가 9/26 Dev Ittycheria를 임시 President 겸 CEO로 선임(9/28 효력). 경영진 교체 = 턴어라운드/신임 CEO 계열 촉매(④).",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "MongoDB 8-K (Items 5.02, 7.01, 9.01)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026063657/mdb-20260924.htm",
-                "date": "2026-09-28",
-                "quote": "On September 26, 2026, the Board appointed Dev Ittycheria as the Company's Interim President and Chief Executive Officer, effective September 28, 2026.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "Item 7.01로 9/29 뉴욕 Investor Day(11:00~15:15 ET)가 공지되어 당일 거래량을 키울 이벤트가 존재했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "MongoDB 8-K (Items 5.02, 7.01, 9.01)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026063657/mdb-20260924.htm",
-                "date": "2026-09-28",
-                "quote": "the Company will host an Investor Day in New York City on September 29, 2026, from 11:00 a.m. to 3:15 p.m. Eastern Time.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "실적 추정치 상향 흐름이 병행: Zacks가 MDB를 Strong Buy로 상향(9/24), 추정치 상향 기사(9/23). 반대 근거로 CEO 교체는 불확실성 요인이며 이번 급등락의 방향은 자료로 확인되지 않음.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "MongoDB (MDB) Moves to Strong Buy: Rationale Behind the Upgrade",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/mongodb-mdb-moves-strong-buy-rationale-behind-upgrade",
-                "date": "2026-09-24",
-                "quote": "MongoDB (MDB) Moves to Strong Buy: Rationale Behind the Upgrade",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
+            "id": "none",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
           }
         ],
+        "company": "MongoDB 는 도큐먼트 DB(Atlas 클라우드 관리형 + 엔터프라이즈 라이선스)를 구독형으로 판매하는 인프라 소프트웨어 업체로, 매출 대부분이 Atlas 소비 기반이다. 최근 3분기 매출성장은 30.5/25.25/26.75%, 영업이익률은 3.68/-3.61/0.04%로 흑자 경계에 있고, 컨센서스는 CY 매출 +22.87%·EPS +31.85%, Target_Status YES 다. 현 국면은 CEO 교체(Ittycheria 임시 복귀)와 Investor Day, 자사주 매입 증액이 겹친 경영 전환 구간이다.",
+        "volumeExplanation": "주간 거래량배수 12.47(당일제외 5일평균 대비)이 발생했으나, 검증 가능한 촉매 근거가 없다. CLS_POS 0, 60일 신고가 돌파 NO, 52주 고점 대비 86.76%로 종가는 저가권이다. 따라서 암묵적 호재(⑥)로 재분류한다.",
         "confidence": "medium",
         "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "CEO 사임(9/28 효력), Dev Ittycheria 임시 CEO 선임(9/28 효력), 9/29 Investor Day(11:00~15:15 ET) 모두 8-K로 명확히 확인. 모든 인용문과 날짜 정확. category 4(경영진 변화) 적절."
+          "verdict": "reject",
+          "removed": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "reason": "c1: Ittycheria 임시 CEO 복귀는 제시된 quote에 미기재. c2: reportDate 2026-09-25인데 statement는 09-29라 날짜 불일치, 총액/잔여액은 quote에 미기재. c3: statement 자체에서 '거래량의 직접 원인이 아님'을 명시하므로 촉매로 부적절",
+          "narrativeFixed": true
         },
-        "categoryName": "기업 턴어라운드",
+        "originalCategory": 4,
+        "corrected": true,
+        "volumeExplanationOriginal": "2026-09-28 Desai CEO 사임·Ittycheria 임시 CEO 복귀 공시와 09-29 Investor Day 및 $1.0B 자사주 매입 증액 공시가 이어지며 주간 거래량배수 12.47(당일제외 5일평균 대비)이 발생했다. 경영진 교체는 ④ 턴어라운드(신임 CEO) 유형으로 분류한다. 다만 CLS_POS 0, 60일 신고가 돌파 NO, 52주 고점 대비 86.76% 로 종가는 당일 저가권이라 호재 방향의 반응이었는지는 확인되지 않는다. 임시 CEO 라는 점과 사임 배경 미공개는 리스크다. 후임 CEO 확정, Investor Day 중장기 목표(가이던스) 수치, 매입 집행 속도가 확인되면 논리가 성립하고, 종가 강도가 계속 약하면 붕괴한다.",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
-        "researchedOn": "2026-09-29",
-        "carried": true
+        "researchedOn": "2026-09-30",
+        "carried": false
       }
     },
     {
@@ -751,18 +717,18 @@ window.TEAM4_DATA = {
             "sources": []
           }
         ],
-        "company": "Agnico Eagle Mines(AEM)는 금 채굴 대형사(Basic Materials / Gold, 시총 98.48B)로, 제공 자료상 최근 3분기(q0/q1/q2) 매출성장 35.04/66.09/60.27%, 순이익 49.76/108.1/199.08, 영업이익률 60.25/62.71/58.16%로 실적 모멘텀이 강한 국면이다. 컨센서스는 매출성장 CY 30.03% / NY 3.28%, EPS 성장 CY 45.71% / NY 2.86%로 내년 성장률이 급격히 둔화되며, 30일 전망 변화는 CY -0.23% / NY -0.32%로 하향 기조다. 주가는 150일선 위이나 52주 고점 대비 76.55%, 60일 신고가 돌파 NO, 52주 신고가 N 상태다.",
-        "volumeExplanation": "주간 거래량배수 2.38(당일 제외 5일 평균 대비)로 거래량이 증가했으나, 제공된 뉴스 8건은 모두 Zacks·BNK Invest의 일일 주가 등락 및 200일선 하향 이탈(2026-09-28) 기사이며 실적발표·8-K(filings 비어 있음)·계약·정책 등 개별 촉매는 확인되지 않았다. 종가강도(CLS_POS) 0으로 당일 저가권 마감이라, 상승 촉매보다는 하락·이탈 국면의 수급 변동으로 보이나 원인 자료는 없어 암묵적 호재(⑥)로 분류한다. 이 분류는 촉매 부재에 따른 것이며 재료의 존재를 주장하지 않는다.",
+        "company": "Agnico Eagle Mines(AEM)는 캐나다 중심의 금 채굴 대형사(Basic Materials / Gold)이며 시총은 98.48B이다. 제공된 최근 3분기(q0/q1/q2) 매출성장은 35.04/66.09/60.27%, 순이익은 49.76/108.1/199.08, 영업이익률은 60.25/62.71/58.16%이다. 현 국면은 150일선 위이나 60일 신고가 돌파는 NO, 52주 신고가도 N이고 52주 고점 대비 76.55% 수준이다.",
+        "volumeExplanation": "주간 거래량배수 2.38(당일제외 5일평균 대비)이며 VOL_X는 null이다. 제공된 뉴스(2026-09-17~09-29)는 Zacks의 주가 등락 요약과 비교 기사, \"200 DMA 하향 이탈\" 기사뿐이고 8-K(filings)·실적표(financials)·국내 리포트도 비어 있다. 거래량을 설명할 촉매 근거가 없어 암묵적 호재(⑥)로 분류한다.",
         "confidence": "low",
         "factcheck": {
-          "verdict": "partial",
+          "verdict": "pass",
           "removed": [],
-          "reason": "volumeExplanation에서 claims에 근거하지 않는 구체적 뉴스/사실 언급('Zacks·BNK Invest 8건', '200일선 하향 이탈')을 제거해야 함. category 6과 claim c1('근거 없음')은 일치함."
+          "reason": "근거 없음으로 명시되어 암묵적 호재(⑥)로 적절히 분류됨"
         },
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
-        "researchedOn": "2026-09-29",
-        "carried": true
+        "researchedOn": "2026-09-30",
+        "carried": false
       }
     }
   ],
@@ -802,17 +768,28 @@ window.TEAM4_DATA = {
   "research_coverage": {
     "done": 9,
     "total": 9,
-    "cap": null,
+    "cap": 3,
     "pending": 0,
     "failed": 0,
-    "carried": 9,
+    "carried": 6,
     "ineligible": 0,
-    "note": "그중 9종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 6종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [],
     "sectorSignal": "촉매가 특정 섹터·업종에 몰리지 않았다. 입력 9개 종목 중 6개가 카테고리 6(뉴스 없는 이상거래량)이고, 나머지도 M&A(ATKR·ITGR, 인수 딜), CEO 교체(MDB), 내부자 매수(HHH)로 업종이 제각각이다. 근거가 있는 종목만 보면 인수합병 관련이 ATKR(Prysmian 인수)과 ITGR(KKR 인수 기사) 두 건이다. 그러나 이 둘은 서로 무관한 개별 딜이라 섹터 테마로 보기 어렵다.",
     "caution": "이번 입력에는 카테고리 1(어닝 서프라이즈·가이던스 상향)이나 5(산업 기술 돌파)로 분류된 종목이 없어 강조할 후보가 없다. 근거가 붙은 종목은 HHH, ATKR, ITGR, MDB 4개뿐이고, CM·MDT·TRNS·CFFI·AEM은 '근거 없음'으로 촉매를 확인하지 못했다. ATKR은 인수가 $95.00 현금 딜이라 주가가 딜 가격에 묶일 가능성이 크다. 같은 날 실적이 컨센서스를 상회했으나 딜 프라이싱이 지배한다고 했으므로, 이 종목의 실적은 에피소딕 피벗 신호로 보기 어렵다. ITGR은 KKR 인수 기사 본문을 열람하지 못해 딜 가격·프리미엄·클로징 조건이 미확인이다. ITGR의 Q2 실적 상회와 20.2% 급등(8/3)은 오늘 거래량과 시차가 있다. MDB는 급등락의 방향이 자료로 확인되지 않았다. 이 분류는 제공된 뉴스·공시 텍스트에만 근거한다. 차트 국면(횡보·돌파·리테스트)은 가격 데이터를 받지 않아 판정하지 않았고, 웹검색으로 보완하지도 않았다.",
     "researchedOn": "2026-09-29"
+  },
+  "llm": {
+    "highlights": [],
+    "sectorSignal": "촉매가 특정 섹터에 몰렸다고 볼 근거 없음. 입력 3건(MDT·MDB·AEM)은 모두 category 6(뉴스 없는 이상거래량)이고 촉매 근거는 \"근거 없음\"이며, 업종이 서로 달라 섹터 쏠림을 판단할 자료가 없다.",
+    "caution": "오늘 입력 3건은 전부 category 6(암묵적, 뉴스 없는 이상거래량)이라 category 1(어닝 서프라이즈/가이던스 상향)과 5(산업 기술 돌파)에 해당하는 종목이 없어 highlights는 비어 있다. 3건 모두 촉매 근거가 \"근거 없음\"이므로 거래량 이상만으로 EP 후보로 보기 어렵고, 사용자가 원천 공시·뉴스를 직접 확인해야 한다. MDB는 분류가 정정(corrected)된 건이다. 가격·차트 데이터를 받지 않아 차트 국면(횡보·돌파·리테스트)은 판정하지 않았다.",
+    "researchedOn": "2026-09-30"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "3": 1,
+    "6": 8
   }
 };
