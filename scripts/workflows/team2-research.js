@@ -229,26 +229,39 @@ batches.forEach((b, bi) => b.forEach((s, idx) => {
 }))
 
 phase('테마종합')
+// 2026-10-02 사용자 요청: 테마 글은 "일반인도 쉽게". 섹터는 빼고 업종·테마 두 가지로만 묶는다.
+//   이전 글은 "Technology 쏠림", "Node 클러스터: Sector:Technology 30종목(65.2%, 기간별 1M 14…)" 처럼
+//   내부 계산 기록과 영어가 그대로 화면에 나왔다. 종목별 리서치(위 STYLE)는 그대로 둔다.
+const THEME_STYLE = `
+## 서술 기준 — 독자는 주식 투자를 하는 일반인이다
+1. 짧게. 한 문장에 한 가지 내용, 60자 안팎. 칸마다 정해진 문장 수를 넘기지 마라.
+2. 묶는 단위는 업종과 테마 두 가지뿐이다. 섹터(기술·헬스케어 같은 큰 분류)로 묶거나 섹터 이름을 쓰지 마라.
+3. 업종 이름은 한국어로 쓴다 (Semiconductors → 반도체, Diagnostics & Research → 진단·연구). 티커는 원문 그대로.
+4. 테마 이름은 "무엇 때문에 오르는지"가 보이게 짓는다. "○○ 쏠림", "○○ 중심 Technology" 같은 이름은 금지.
+5. 숫자는 "N종목" 정도만. 퍼센트·기간별 개수(1M 14·3M 7…)를 나열하지 마라 — 그 표는 화면에 따로 있다.
+6. 작업 과정은 쓰지 않는다. "Node", "클러스터", "합집합", "제공 리서치", "출처 검증" 같은 말은 금지.
+7. 이유가 확인 안 된 종목은 지어내지 말고 "이유 확인 안 됨: A·B" 로 한 번만 모아 쓴다.
+8. 한국어로 쓴다. 영어 문장을 섞지 마라.`
 // ⚠️ plainKo 라는 이름은 대시보드가 읽는다. 이름은 두고 설명만 바꾼다.
 const THEME = { type: 'object', properties: {
   leadingTheme: { type: 'object', properties: {
-    name: { type: 'string' },
-    plainKo: { type: 'string', description: '한 문단 요약 최대 3문장. 화면 맨 위에 굵게 보여줄 결론 — 이 종목들이 왜 같이 오르는지. URL·원문 인용·(1)(2) 번호 금지' },
-    why: { type: 'string', description: '출처 딸린 상세 근거. URL·원문 인용은 여기에만' },
+    name: { type: 'string', description: '테마 이름 20자 안팎, 한국어. "~ 쏠림" 대신 무엇 때문에 오르는지가 보이게. 예: "AI 데이터센터 전력 수요"' },
+    plainKo: { type: 'string', description: '최대 2문장. 이 종목들이 왜 같이 오르는지 결론만. 숫자는 "N종목" 하나면 충분' },
+    why: { type: 'string', description: '근거 최대 3문장. 종목별로 무슨 일이 있었는지 한 줄씩. 근거가 없는 종목은 이름만 모아 "이유 확인 안 됨: A·B" 한 번' },
     tickers: { type: 'array', items: { type: 'string' } },
     strength: { type: 'string', enum: ['strong', 'emerging', 'weak', 'none'] },
   }, required: ['name', 'plainKo', 'why', 'tickers', 'strength'] },
   subThemes: { type: 'array', items: { type: 'object', properties: {
-    name: { type: 'string' },
-    plainKo: { type: 'string', description: '한 문단 요약 최대 2문장. URL 넣지 마라' },
+    name: { type: 'string', description: '테마 이름 20자 안팎, 한국어' },
+    plainKo: { type: 'string', description: '최대 2문장. 왜 같이 오르는지' },
     tickers: { type: 'array', items: { type: 'string' } }, why: { type: 'string' },
   }, required: ['name', 'plainKo', 'tickers'] } },
-  crossCuttingDriver: { type: 'string', description: '종목들을 관통하는 공통 원인 한 문단 (예: 금리, AI 자본지출, 정책)' },
-  caution: { type: 'string', description: '이 테마 해석의 한계·반증 가능성' },
+  crossCuttingDriver: { type: 'string', description: '테마 전체를 꿰는 공통 원인 최대 2문장 (예: 금리, AI 투자, 정책). 없으면 "뚜렷한 공통 원인은 없다" 한 문장' },
+  caution: { type: 'string', description: '이 해석이 틀릴 수 있는 이유 한 문장' },
   // 기간별 3세트 — 각 기간의 상위 2% 안에서만 테마를 붙인다. 티커는 Node 클러스터에 있는 것만 (build-chief-report 가 교집합으로 정제)
   byPeriod: { type: 'object', properties: Object.fromEntries(['m1', 'm3', 'm6'].map((k) => [k, { type: 'object', properties: {
     name: { type: 'string', description: '이 기간 상위 2% 의 주도 테마 이름. 없으면 "공통 테마 없음"' },
-    plainKo: { type: 'string', description: '최대 2문장 결론. URL 금지' },
+    plainKo: { type: 'string', description: '최대 2문장. 이 기간에 무엇이 강했는지 결론. 퍼센트는 쓰지 말고 "N종목"만' },
     tickers: { type: 'array', items: { type: 'string' }, description: '이 기간 클러스터에 실제로 있는 티커만' },
     strength: { type: 'string', enum: ['strong', 'emerging', 'weak', 'none'] },
   }, required: ['name', 'plainKo', 'tickers', 'strength'] }])), required: ['m1', 'm3', 'm6'] },
@@ -257,7 +270,7 @@ const THEME = { type: 'object', properties: {
     newEntrants: { type: 'array', items: { type: 'string' }, description: 'Node 교차 목록의 신규 진입(1M 만) 중 해석에 쓴 티커' },
     midTerm: { type: 'array', items: { type: 'string' }, description: 'Node 교차 목록의 중기(3M 기준, 1M 은 아님) 중 해석에 쓴 티커' },
     fading: { type: 'array', items: { type: 'string' }, description: 'Node 교차 목록의 퇴조(6M 만) 중 해석에 쓴 티커' },
-    narrative: { type: 'string', description: '1M 신규 · 3M 중기 · 6M 퇴조 세 층이 어떻게 다른지 최대 4문장으로. 기간별 클러스터 수치(섹터·업종)를 그대로 인용' },
+    narrative: { type: 'string', description: '최대 3문장. 오래 강한 것 / 새로 떠오르는 것 / 힘이 빠지는 것이 각각 어느 업종인지' },
   }, required: ['persistent', 'newEntrants', 'midTerm', 'fading', 'narrative'] },
 }, required: ['leadingTheme', 'subThemes', 'crossCuttingDriver', 'byPeriod', 'rotation'] }
 
@@ -287,10 +300,10 @@ ${JSON.stringify(clean.map((x) => ({ ticker: x.ticker, themeTags: x.themeTags, w
 - byPeriod: 1M·3M·6M **각각의 상위 2% 안에서** 주도 테마를 따로 붙여라. 그 기간 클러스터에 있는 티커만 넣고,
   그 기간에 공통 테마가 없으면 strength:"none". 유니온 테마를 복사하지 마라 — 기간마다 달라야 정상이다.
 - rotation: Node 교차 목록(지속·신규·중기·퇴조) 안의 티커만 써서 "1M 신규 · 3M 중기 · 6M 퇴조" 세 층의 차이를 narrative 로.
-  기간별 클러스터 수치(N종목, %)를 섹터와 업종 둘 다 그대로 인용하라. 어느 층이 비면 그렇다고 써라.
+  업종 이름(한국어)으로 말하라. 어느 층이 비면 그렇다고 써라.
 - plainKo 와 why 는 역할이 다르다 — plainKo 는 결론 요약, why 는 출처 딸린 근거. 섞지 마라.
 - 근거는 위 리서치에 있는 것만 쓴다. 웹검색은 하지 않는다. 입력에 없는 티커·사실을 만들지 마라.
-${STYLE}`,
+${THEME_STYLE}`,
   { label: '테마종합', phase: '테마종합', schema: THEME, model: 'sonnet' }
 )
 

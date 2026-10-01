@@ -36,9 +36,14 @@ ok('sharePct 분모는 그 기간의 count 다', () => {
   const semi6 = P.byPeriod.m6.clusters.find((c) => c.key === 'Industry:Semiconductors');
   assert.strictEqual(semi6.sharePct, 40);       // 2/5
 });
-ok('topSectors/topIndustries 는 미분류를 뺀 상위 3', () => {
-  assert.ok(P.byPeriod.m3.topSectors.every((s) => s.name !== '미분류'));
-  assert.deepStrictEqual(P.byPeriod.m1.topSectors[0], { name: 'Technology', count: 3, sharePct: 60 });
+ok('topIndustries 는 미분류를 뺀 상위 3', () => {
+  assert.ok(P.byPeriod.m3.topIndustries.every((s) => s.name !== '미분류'));
+  assert.deepStrictEqual(P.byPeriod.m1.topIndustries[0], { name: 'Semiconductors', count: 2, sharePct: 40 });
+});
+ok('공통점은 업종으로만 묶는다 — 섹터 클러스터는 없다 (2026-10-02)', () => {
+  assert.strictEqual(P.byPeriod.m1.topSectors, undefined);
+  for (const k of ['m1', 'm3', 'm6']) assert.ok(P.byPeriod[k].clusters.every((c) => c.level === 'Industry'), k);
+  assert.ok(detectThemes(Q).clusters.every((c) => c.level === 'Industry'));
 });
 ok('교차 4집합 + other, counts 합 = 전체', () => {
   const C = P.cross;

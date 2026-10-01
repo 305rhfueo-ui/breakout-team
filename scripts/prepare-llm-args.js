@@ -125,7 +125,7 @@ async function main() {
     clusters: (t2.themes.clusters || []).slice(0, 14),
     // 기간별 3세트 + 교차 — Node 확정. 테마종합 에이전트 1명이 받는다 (사용자 결정 2026-09-07)
     themesByPeriod: BP ? Object.fromEntries(Object.entries(BP).map(([k, b]) => [k, {
-      count: b.count, headline: b.headline, topSectors: b.topSectors, topIndustries: b.topIndustries,
+      count: b.count, headline: b.headline, topIndustries: b.topIndustries,
       clusters: (b.clusters || []).slice(0, 10), tickers: b.tickers }])) : null,
     cross: CR ? { persistent: CR.persistent, newEntrants: CR.newEntrants, midTerm: CR.midTerm, fading: CR.fading, other: CR.other, counts: CR.counts, labels: CR.labels } : null,
     crossDetail: t2.themes.crossDetail || null,

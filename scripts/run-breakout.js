@@ -1029,7 +1029,6 @@ function buildReport({ dateStr, chief, team1, team2, team3, team4, team5, team6 
         const b = BP[k];
         L.push(`#### ${label} 상위 2% — ${b.count}종목 · ${b.headline}`);
         if (b.count) {
-          L.push(`- 섹터: ${b.topSectors.map((s) => `${s.name} ${s.count}(${s.sharePct}%)`).join(' · ') || '—'}`);
           L.push(`- 업종: ${b.topIndustries.map((s) => `${s.name} ${s.count}(${s.sharePct}%)`).join(' · ') || '—'}`);
           for (const c of b.clusters.slice(0, 5)) L.push(`- ${c.level === 'Sector' ? '섹터' : '업종'} **${c.name}** ${c.count}종목(${c.sharePct}%): ${c.tickers.join(', ')}`);
           L.push(`- 종목: ${b.tickers.join(', ')}`);

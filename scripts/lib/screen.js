@@ -183,8 +183,10 @@ function clusterOf(items, minCount = 2) {
   const bySector = group(items, 'sector');
   const byIndustry = group(items, 'industry');
 
+  // 공통점은 업종(industry)으로만 찾는다 — 섹터(11개)는 "기술주가 세다"처럼 너무 넓어 테마를 흐린다 (2026-10-02 사용자 결정).
+  // 테마(같은 이유로 오르는 묶음)는 2팀 LLM 이 이 업종 묶음 위에 붙인다. bySector 는 CLI 참고용으로만 남긴다.
   const clusters = [];
-  for (const [level, list] of [['Sector', bySector], ['Industry', byIndustry]]) {
+  for (const [level, list] of [['Industry', byIndustry]]) {
     for (const b of list) {
       if (b.name === '미분류') continue;          // 미분류는 테마가 아니다
       if (b.count < minCount) continue;
@@ -204,7 +206,8 @@ function clusterOf(items, minCount = 2) {
   if (items.length === 0) {
     headline = '자격 종목 없음';
   } else if (meaningful.length === 0) {
-    headline = `공통 테마 없음 — ${items.length}종목이 ${bySector.length}개 섹터에 분산 (최대 쏠림 ${bySector[0] ? bySector[0].name + ' ' + bySector[0].count + '종목' : '—'})`;
+    const ind = byIndustry.filter((b) => b.name !== '미분류');
+    headline = `공통 업종 없음 — ${items.length}종목이 ${ind.length}개 업종에 흩어져 있음 (가장 많은 곳 ${ind[0] ? ind[0].name + ' ' + ind[0].count + '종목' : '—'})`;
   } else {
     headline = meaningful.slice(0, 3).map((c) => `${c.name} ${c.count}종목(${c.sharePct}%)`).join(' · ');
   }
@@ -242,7 +245,6 @@ function detectThemesByPeriod(qualified, { minCount = 2, topN = 10 } = {}) {
       headline: r.headline,
       clusters: r.clusters.slice(0, topN),
       clustersTotal: r.clusters.length,
-      topSectors: r.bySector.filter((b) => b.name !== '미분류').slice(0, 3).map((b) => ({ name: b.name, count: b.count, sharePct: b.sharePct })),
       topIndustries: r.byIndustry.filter((b) => b.name !== '미분류').slice(0, 3).map((b) => ({ name: b.name, count: b.count, sharePct: b.sharePct })),
     };
   }

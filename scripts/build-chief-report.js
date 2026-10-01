@@ -256,8 +256,8 @@ function digestSection({ t1, t2, t3, t4, t5, t6, c, chief, report, leaks }) {
     const s = t2.stats, rc = t2.research_coverage;
     L.push(`- **2팀 퍼널**: ${s.universe} → 상위 2% ${s.unionTop} → ETF 제외 ${s.afterEtf} → ADR ${s.afterAdr} → 150일선 위 ${s.afterMa150}`
       + (rc ? ` · 리서치 ${rc.done}/${rc.total} (이월 ${rc.carried || 0} · 대기 ${rc.pending || 0} · 실패 ${rc.failed || 0})` : ''));
-    const sec = ((t2.themes && t2.themes.bySector) || []).slice(0, 3).map((x) => `${x.name} ${x.count}종목(${x.sharePct}%)`);
-    if (sec.length) L.push(`  - 섹터 분포: ${sec.join(' · ')}`);
+    const ind = ((t2.themes && t2.themes.byIndustry) || []).filter((x) => x.name !== '미분류').slice(0, 3).map((x) => `${x.name} ${x.count}종목(${x.sharePct}%)`);
+    if (ind.length) L.push(`  - 업종 분포: ${ind.join(' · ')}`);
   }
 
   if (t3) {
