@@ -292,7 +292,7 @@ const AGENTS=[
   {id:'t4',emoji:'⚡',name:'재민',role:'4팀 · EP·촉매',tab:'t4',job:'급등 포착',
    duty:'오늘 갑자기 거래량이 평소의 2배 넘게 터진 종목 중 150일선 위에 있는 것만 잡아냅니다. 그리고 그게 왜 터졌는지 이유를 여섯 갈래로 분류합니다 — ①실적 서프라이즈 ②바이오·FDA ③대형 계약 ④턴어라운드 ⑤산업 돌파 ⑥이유 못 찾음. 뉴스를 못 찾으면 지어내지 않고 ⑥으로 두고 "근거 없음"이라 적습니다. 차트 모양(횡보·돌파·되돌림)은 판정하지 않습니다 — 그건 직접 차트를 보고 결정하세요.',
    look:{skin:'#e0b087',hair:'#241d1a',style:'spiky',shirt:'#f08a3c'}},
-  {id:'t5',emoji:'🗺️',name:'미르',role:'5팀 · 주도섹터',tab:'t5',job:'업종 지도',
+  {id:'t5',emoji:'🗺️',name:'미르',role:'5팀 · 업종 흐름',tab:'t5',job:'업종 지도',
    duty:'개별 종목이 아니라 "판" 전체를 봅니다. 140개 업종의 강도를 직접 계산해 <b>돈이 지금 어디로 들어오고 어디서 빠지는지</b>를 판정합니다. 세 가지를 같이 봅니다 — ①업종 순위가 최근 25거래일 새 몇 계단 올랐나(자금 유입) ②애널리스트들이 실적 전망을 올리고 있나(관심 집중) ③업종 안에서 몇 종목이 올랐나(쏠림의 폭). 여기에 주가가 1년 평균·두 달 평균에서 얼마나 떠 있는지를 더해 <b>상승 초입인지 이미 많이 온 건지</b>를 가릅니다. 참고하는 RS 사이트는 계산 오류가 세 군데 있어(오늘·과거에 서로 다른 공식 적용, 기준일에 주말 복제본 섞임, 일부 그룹 값 깨짐) 원자료에서 다시 계산하고, 사이트 화면값도 나란히 띄워 대조하실 수 있게 합니다.',
    look:{skin:'#f0cdae',hair:'#5a3a2e',style:'bob',  shirt:'#2fb3ba'}},
   {id:'t6',emoji:'💹',name:'서준',role:'6팀 · 매매',tab:'t6',job:'매수 계획',
@@ -943,11 +943,11 @@ function chiefFlowLines(c){
   H.push(`<b>[돈이 몰리는 곳의 강세 종목]</b> 도윤이 뽑은 종목이 있는 업종 중 돈이 가장 빨리 들어온 곳은 <b>${esc(window.indKo?window.indKo(g.industry):g.industry)}</b> 입니다. `+
     `이 업종에서 도윤이 뽑은 종목은 ${g.picks.map(p=>esc(p.ticker)).join('·')} ${g.picks.length}개이고, `+
     (buy.length
-      ? `그중 이격이 낮고 컨센서스가 오르는 종목은 <b>${buy.map(p=>esc(p.ticker)).join(', ')}</b> 입니다.`
-      : `<b>이격이 낮으면서 컨센서스가 오르는 종목은 없습니다.</b> 전부 두 달 평균에서 많이 떠 있거나 이미 50일선 아래입니다.`)+
-    `<table class="ctab" style="margin-top:9px"><thead><tr><th>종목</th><th>두 달 평균 대비</th><th>1년 평균 대비</th><th>이격·컨센서스 분류</th></tr></thead><tbody>${rows}</tbody></table>`+
+      ? `그중 평균 가격에서 많이 안 떠 있고 실적 전망이 오르는 종목은 <b>${buy.map(p=>esc(p.ticker)).join(', ')}</b> 입니다.`
+      : `<b>평균 가격에서 많이 안 떠 있으면서 실적 전망이 오르는 종목은 없습니다.</b> 전부 두 달 평균에서 많이 떠 있거나 이미 두 달 평균선(50일선) 아래입니다.`)+
+    `<table class="ctab" style="margin-top:9px"><thead><tr><th>종목</th><th>두 달 평균 대비</th><th>1년 평균 대비</th><th>분류</th></tr></thead><tbody>${rows}</tbody></table>`+
     `<div class="note">두 달 평균(50일선) 대비가 30%를 넘으면 단기 과열, 음수면 이탈로 분류합니다. `+
-    `1년 평균(200일선) 대비가 낮고 컨센서스가 오르면 초입으로 분류합니다. 이격과 컨센서스 컬럼만 본 분류이고 차트 모양은 보지 않았습니다.</div>`);
+    `1년 평균(200일선) 대비가 낮고 실적 전망(증권사 예상치)이 오르면 초입으로 분류합니다. 평균 대비 거리와 실적 전망만 본 분류이고 차트 모양은 보지 않았습니다.</div>`);
 
   const dip=g.picks.filter(p=>p.stage==='dip'&&p.tracking==='dropped');
   if(dip.length)H.push(`⚠️ ${dip.map(p=>esc(p.ticker)).join(', ')} 는 실적 기대가 살아 있지만 두 달 평균선을 3일 이상 연속 이탈해 수아가 추적에서 뺐습니다. <b>규칙을 어기고 지금 사라는 뜻이 아닙니다</b> — 다시 올라오면 자동으로 재편입됩니다.`);
@@ -985,7 +985,7 @@ function mirBrief(){
     const lead=inflow[0];
     P.push(`<b>돈이 들어오는 곳은 ${nm(lead)}입니다.</b> ${rank(lead)}. ${cnt(lead)}이라 `+
       (lead.winRate>=0.7?`몇 개가 끌어올린 게 아니라 업종 전체가 같이 움직였습니다`:`업종 전체가 아니라 일부만 오른 겁니다`)+
-      `. ${gap(lead)}. 이격·컨센서스 기준으로는 <b>${esc(lead.stageKo)}</b> 로 분류됩니다.`+
+      `. ${gap(lead)}. 평균 대비 거리와 실적 전망으로 보면 <b>${esc(lead.stageKo)}</b> 입니다.`+
       (inflow[1]?` ${nm(inflow[1])}도 ${rank(inflow[1])}.`:''));
   } else P.push(`<b>오늘은 뚜렷하게 돈이 들어오는 업종이 없습니다.</b> 억지로 고르지 않겠습니다.`);
 
@@ -1041,7 +1041,7 @@ function briefing(id){
     } else if(q.verdict==='green'){
       P.push(`진입 가능한 구간입니다. 10일선이 20일선 위에 있고 둘 다 우상향이에요${q.sweetSpot?` — 특히 골든크로스 D+${q.daysSinceGoldenCross}로 통계적 최적 구간입니다`:''}.`);
     } else if(q.verdict==='yellow'){
-      P.push(`애매한 구간입니다. 강하게 베팅할 자리는 아니고 <b>포지션을 줄이거나 확실한 셋업만</b> 고르세요.`);
+      P.push(`애매한 구간입니다. 강하게 베팅할 때는 아니고 <b>넣는 돈을 줄이거나 확실한 종목만</b> 고르세요.`);
     }
     if(f.level==='danger')P.push(`그리고 <b>빚내서 산 돈이 너무 많습니다.</b> 마진부채가 1년 전보다 ${n(f.yoyPct,1)}% 늘었어요(경고선 +40%). 이런 상태에서 하락이 시작되면 강제청산이 연쇄로 터져 낙폭이 평소보다 훨씬 커집니다. 손절선을 평소보다 타이트하게 잡으세요.`);
     else if(f.level==='warn')P.push(`마진부채가 ${n(f.yoyPct,1)}%로 주의 구간(+30% 초과)입니다. 레버리지 사용은 줄이는 게 좋습니다.`);
@@ -1055,8 +1055,8 @@ function briefing(id){
     const s=t.stats||{};
     P.push(`오늘 ${s.universe}종목을 훑어서 <b>${s.afterMa150}종목</b>을 골랐습니다. RS 상위 2%에 든 ${s.unionTop}종목 중 변동성(ADR) 4% 이상이 ${s.afterAdr}종목이었고, 거기서 150일선 위에 있는 것만 남겼어요.`);
     const cl=(t.themes.clusters||[]).filter(c=>c.concentration!=='low').slice(0,2);
-    if(cl.length)P.push(`쏠림이 뚜렷합니다 — <b>${cl.map(c=>`${c.name} ${c.count}종목(${c.sharePct}%)`).join(', ')}</b>. 같은 테마 종목이 무더기로 나온다는 건 지금 시장의 돈이 그쪽으로 흐른다는 신호입니다.`);
-    else P.push(`특정 테마 쏠림은 뚜렷하지 않습니다. 주도 테마가 없는 장이라는 뜻이라 종목 선별이 더 중요합니다.`);
+    if(cl.length)P.push(`한 업종에 몰려 있습니다 — <b>${cl.map(c=>`${koName(INDUSTRY_KO,c.name)} ${c.count}종목(${c.sharePct}%)`).join(', ')}</b>. 같은 업종 종목이 무더기로 나온다는 건 지금 시장의 돈이 그쪽으로 흐른다는 신호입니다.`);
+    else P.push(`특정 업종에 몰리지는 않았습니다. 시장을 끄는 업종이 없다는 뜻이라 종목 하나하나를 더 잘 골라야 합니다.`);
     // 기간별 3세트 + 교차 (2026-09-07). 2026-10-02: 섹터를 빼고 업종만 — 섹터는 너무 넓어 테마를 흐린다(사용자 결정).
     const BP=t.themes.byPeriod,CR=t.themes.cross;
     if(BP&&CR&&CR.counts){
@@ -1088,7 +1088,7 @@ function briefing(id){
       const names=bk.filter(b=>b.volumeConfirmed).slice(0,4).map(b=>b.ticker);
       if(names.length)P.push(`거래량까지 확인된 <b>${names.join(', ')}</b> 를 먼저 보세요.`);
     } else P.push(`오늘 7주 고점을 넘은 종목은 없습니다.`);
-    P.push(`차트 모양(횡보·베이스·돌파의 질)은 제가 판정하지 않습니다 — 직접 보세요.`);
+    P.push(`차트 모양(횡보·돌파의 질)은 제가 판정하지 않습니다 — 직접 보세요.`);
     return P.join(' ');
   }
   if(id==='t4'){
@@ -1107,7 +1107,7 @@ function briefing(id){
     const c=t.counts||{},w=(t.plans||[]).filter(p=>p.watch);
     if(t.regime==='red')P.push(`시장이 빨간불이라 <b>오늘 밤은 새로 사지 않습니다.</b> 아래 목록은 참고용이고, 들고 있는 종목만 규칙대로 관리합니다.`);
     else if(t.regime==='yellow')P.push(`시장이 노란불이라 <b>종목당 위험을 평소의 절반</b>으로 줄였습니다.`);
-    P.push(`후보 ${c.evaluated}종목을 재 봤습니다. 최근 고점(넘으면 사는 선) 바로 아래에서 쉬고 있는 건 ${c.near}종목이고, 그중 <b>오늘 밤 지켜볼 종목은 ${c.watch}개</b>(A ${c.A} · B ${c.B})입니다.`);
+    P.push(`후보 ${c.evaluated}종목을 살펴봤습니다. 최근 고점(넘으면 사는 선) 바로 아래에서 쉬고 있는 건 ${c.near}종목이고, 그중 <b>오늘 밤 지켜볼 종목은 ${c.watch}개</b>(A ${c.A} · B ${c.B})입니다.`);
     if(w.length){
       const p=w[0];
       P.push(`맨 위는 <b>${esc(p.ticker)}</b> 입니다. 지금 ${n(p.price)}달러이고 <b>${n(p.pivot)}달러를 넘으면</b> 삽니다(현재 ${n(p.distToPivotPct,1)}%). 미리 잡아둔 손절은 ${n(p.stop)}달러, 넣는 돈은 계좌의 ${n(p.weightPct,1)}%입니다. 실제로 살 때는 그 시각까지의 당일 저가를 손절로 씁니다.`);
@@ -1133,8 +1133,8 @@ function briefing(id){
     m.verdict==='red'
       ? `오늘은 <b>신규 매수를 하지 않는 날</b>입니다. 관심종목만 정리하고 기다리시는 걸 권합니다.`
       : m.verdict==='green'
-      ? `오늘은 <b>준비된 셋업을 실행해도 되는 날</b>입니다.`
-      : `오늘은 <b>확실한 것만 골라야 하는 날</b>입니다. 평소보다 포지션을 줄이세요.`));
+      ? `오늘은 <b>준비한 종목을 사도 되는 날</b>입니다.`
+      : `오늘은 <b>확실한 것만 골라야 하는 날</b>입니다. 평소보다 넣는 돈을 줄이세요.`));
 
   // ② 왜 그런지 — 근거 2개
   const why=[];
@@ -1451,7 +1451,7 @@ function bodyFor(id){
     const L4=t.llm||{};
     const wl=Array.isArray(L4.watchList)?L4.watchList.filter(Boolean):[];
     if(L4.sectorSignal||wl.length||L4.caution){
-      h+=`<div class="sec"><h4>촉매 종합 — 섹터 신호 · 관찰 목록</h4>`;
+      h+=`<div class="sec"><h4>촉매 종합 — 업종 신호 · 관찰 목록</h4>`;
       if(L4.sectorSignal)h+=clip(prose(L4.sectorSignal),4);
       if(wl.length)h+=`<div class="chips" style="margin-top:7px">${wl.map(x=>{const tk=typeof x==='string'?x:(x.ticker||'');const why=typeof x==='object'?(x.why||x.reason||''):'';
         return `<span class="chip"><b>${esc(tk)}</b>${why?` <span class="dim">${esc(why)}</span>`:''}</span>`;}).join('')}</div>`;
@@ -1493,7 +1493,7 @@ function bodyFor(id){
     if(S5){
       const li=(arr)=>Array.isArray(arr)?arr.filter(Boolean).map(x=>`<li>${esc(typeof x==='string'?x:[x.industry,x.why].filter(Boolean).join(' — ')||JSON.stringify(x))}</li>`).join(''):'';
       const st=S5.strongest;
-      let b=`<div class="sec"><h4>섹터 순환 종합</h4>`;
+      let b=`<div class="sec"><h4>업종 순환 종합</h4>`;
       if(S5.rotationView)b+=clip(prose(S5.rotationView),4);
       if(st&&(typeof st==='string'||st.industry||st.why))b+=`<div class="note" style="color:var(--grn)"><b>가장 강한 업종</b>${typeof st==='string'?'':` — ${esc(st.industry||'')}`}</div>${typeof st==='string'?prose(st):(st.why?clip(prose(st.why),3):'')}`;
       const em=li(S5.emerging),fd=li(S5.fading);

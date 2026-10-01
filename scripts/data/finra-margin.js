@@ -103,9 +103,9 @@ function levelOf(yoy) {
 function koOf(yoy, level, latest) {
   if (yoy === null) return `마진부채 ${latest ? latest.month : '?'} · 전년 동월 데이터 없음 — 증가율 산출 불가`;
   const s = `${yoy >= 0 ? '+' : ''}${yoy.toFixed(1)}%`;
-  if (level === 'danger') return `🔴 마진부채 YoY ${s} — +40% 초과, 레버리지 과열 경고 (역사적으로 시장 과열 국면)`;
-  if (level === 'warn') return `⚠️ 마진부채 YoY ${s} — +30% 초과, 레버리지 확대 주의`;
-  return `🟢 마진부채 YoY ${s} — 정상 범위`;
+  if (level === 'danger') return `🔴 빚내서 산 주식(마진부채)이 1년 전보다 ${s} — 경고선 +40% 초과, 과거 과열장에서 보던 수준`;
+  if (level === 'warn') return `⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 ${s} — 주의선 +30% 초과`;
+  return `🟢 빚내서 산 주식(마진부채)이 1년 전보다 ${s} — 정상 범위`;
 }
 
 async function fetchFinraMargin(opts = {}) {

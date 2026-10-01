@@ -125,10 +125,10 @@ targets.forEach((t, i) => { if (analyzed[i]) { analyzed[i].key = t.key; analyzed
 
 const SUM = { type: 'object', properties: {
   rotationView: { type: 'string', description: '지금 돈이 어느 업종에서 어느 업종으로 옮겨 가는지 최대 3문장. 업종 이름은 한국어' },
-  strongest: { type: 'object', properties: { industry: { type: 'string' }, why: { type: 'string' } }, required: ['industry', 'why'] },
-  emerging: { type: 'array', items: { type: 'string' }, description: '1개월 WRS 가 6개월보다 좋은 신흥 강세 업종' },
-  fading: { type: 'array', items: { type: 'string' }, description: '6개월은 좋은데 1개월이 꺾인 업종' },
-  caution: { type: 'string' },
+  strongest: { type: 'object', properties: { industry: { type: 'string', description: '업종 이름, 한국어' }, why: { type: 'string', description: '왜 가장 강한지 최대 2문장' } }, required: ['industry', 'why'] },
+  emerging: { type: 'array', items: { type: 'string' }, description: '새로 돈이 들어오는 업종(1개월 강도가 6개월보다 좋은 곳). 업종 이름은 한국어' },
+  fading: { type: 'array', items: { type: 'string' }, description: '힘이 빠지는 업종(6개월은 좋은데 1개월이 꺾인 곳). 업종 이름은 한국어' },
+  caution: { type: 'string', description: '이 해석이 틀릴 수 있는 이유 한 문장' },
 }, required: ['rotationView', 'strongest'] }
 
 const clean = analyzed.filter(Boolean)

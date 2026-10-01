@@ -45,12 +45,12 @@ function eyeCheckScore(bars, row = {}, opts = {}) {
   const c10 = contractionRatio(bars, 10);
   if (c10 !== null && c10 < 0.8) {
     score += w.contract10; flags.push('contract10');
-    reasons.push(`10봉 진폭이 직전 대비 ${round(c10)}배로 수축`);
+    reasons.push(`최근 2주 가격 흔들림이 그 전 2주의 ${round(c10)}배로 줄었다`);
   }
   const c5 = contractionRatio(bars, 5);
   if (c5 !== null && c5 < 0.7) {
     score += w.contract5; flags.push('contract5');
-    reasons.push(`최근 5봉 진폭 ${round(c5)}배 — 수축 가속`);
+    reasons.push(`최근 1주는 더 조용하다(그 전 1주의 ${round(c5)}배)`);
   }
 
   // 2) 거래량 고갈
@@ -59,14 +59,14 @@ function eyeCheckScore(bars, row = {}, opts = {}) {
   const dryRatio = (v5 && v20) ? v5 / v20 : null;
   if (dryRatio !== null && dryRatio <= 0.7) {
     score += w.volDry; flags.push('volDry');
-    reasons.push(`거래량 5일/20일 ${round(dryRatio)}배 — 매물 고갈`);
+    reasons.push(`최근 1주 거래량이 한 달 평균의 ${round(dryRatio)}배로 줄었다(팔 사람이 줄어듦)`);
   }
 
   // 3) 볼린저 스퀴즈 (RS 사이트 값 사용)
   const bb = num(row.BBWTHD), bbLow = num(row.BBWTHD_LOW);
   if (bb !== null && bbLow !== null && bbLow > 0 && bb <= bbLow * 1.3) {
     score += w.bbSqueeze; flags.push('bbSqueeze');
-    reasons.push(`볼밴 폭 ${bb} (60일 최저 ${bbLow} 근처) — 에너지 응축`);
+    reasons.push(`가격 변동폭이 최근 석 달 중 가장 좁은 수준(${bb}, 최저 ${bbLow})`);
   }
 
   // 4) 저항 근접
@@ -74,7 +74,7 @@ function eyeCheckScore(bars, row = {}, opts = {}) {
     const distPct = ((last.c - a.resistance) / a.resistance) * 100;
     if (distPct >= -5 && distPct <= 0) {
       score += w.nearResist; flags.push('nearResist');
-      reasons.push(`저항 $${a.resistance} 대비 ${round(distPct)}% — 돌파 임박권`);
+      reasons.push(`넘어야 할 선 $${a.resistance} 바로 아래(${round(distPct)}%)`);
     }
   }
 
@@ -84,14 +84,14 @@ function eyeCheckScore(bars, row = {}, opts = {}) {
   const cv = mean > 0 ? (stdev(closes) / mean) * 100 : null;
   if (cv !== null && cv <= 3) {
     score += w.tightCloses; flags.push('tightCloses');
-    reasons.push(`최근 10일 종가 변동 ${round(cv)}% — 타이트`);
+    reasons.push(`최근 2주 종가가 ${round(cv)}% 안에서만 움직였다`);
   }
 
   // 6) 52주 고점권
   const h52 = num(row.High_52W_Pct);
   if (h52 !== null && h52 >= 90) {
     score += w.high52; flags.push('high52');
-    reasons.push(`52주 고점 대비 ${h52}%`);
+    reasons.push(`1년 최고가의 ${h52}% 자리`);
   }
 
   return {

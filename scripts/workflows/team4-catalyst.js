@@ -235,7 +235,7 @@ for (const s of clean) for (const k of Object.keys(s)) if (!KEEP.has(k)) delete 
 phase('종합')
 const SUM = { type: 'object', properties: {
   highlights: { type: 'array', items: { type: 'object', properties: {
-    ticker: { type: 'string' }, category: { type: 'number' }, oneLine: { type: 'string' },
+    ticker: { type: 'string' }, category: { type: 'number' }, oneLine: { type: 'string', description: '무슨 호재였는지 한 문장, 60자 안팎. 쉬운 말로' },
   }, required: ['ticker', 'category', 'oneLine'] } },
   sectorSignal: { type: 'string', description: '호재가 특정 업종에 몰렸는지 최대 2문장. category 번호를 쓰지 말고 "실적 호재 2건"처럼 말로' },
   // watchList("6개월 횡보 후 돌파·리테스트") 는 2026-09-17 삭제 — 가격 히스토리를 주지 않으면서 차트 국면을 묻던 잔재
@@ -251,7 +251,7 @@ ${JSON.stringify(clean.map((x) => ({ ticker: x.ticker, category: x.category, cat
   쿨라매기가 가장 선호하는 호재이므로 이 둘만 강조한다.
 - sectorSignal · caution 은 스키마 설명대로. 차트 국면(횡보·돌파·리테스트)은 판정하지 않는다 — 가격 데이터를 받지 않았다.
 
-입력에 없는 티커나 사실을 만들지 마라. 웹검색은 하지 않는다. 한글로.`,
+입력에 없는 티커나 사실을 만들지 마라. 웹검색은 하지 않는다. 한국어로, 쉬운 말로 — 전문 용어는 처음 나올 때 괄호로 풀어라.`,
   { label: '촉매종합', phase: '종합', schema: SUM, model: 'sonnet' }
 )
 

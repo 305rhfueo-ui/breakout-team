@@ -169,7 +169,7 @@ function catalystSection(t4, dateStr) {
   const S = [];
   S.push('', '### 4팀 촉매 분류 (LLM) — 거래량이 왜 터졌나', '');
   const L4 = t4.llm || t4.llmCarried;
-  if (L4 && L4.sectorSignal) S.push(`섹터 신호: ${L4.sectorSignal}`, '');
+  if (L4 && L4.sectorSignal) S.push(`업종 신호: ${L4.sectorSignal}`, '');
   const order = { 1: 0, 5: 1, 2: 2, 3: 3, 4: 4, 6: 5 };
   for (const i of items.slice().sort((a, b) => (order[a.catalyst.category] ?? 9) - (order[b.catalyst.category] ?? 9))) {
     const C = i.catalyst;
@@ -203,7 +203,7 @@ function sectorSection(t5, dateStr) {
   const dur = { structural: '구조적', cyclical: '경기순환', short_term: '단기', unknown: '불명' };
   const sum = L5.summary;
   if (sum && sum.rotationView) {
-    S.push(`**섹터 순환 종합**${L5.summaryResearchedOn ? dateTag(L5.summaryResearchedOn, dateStr) : ''}: ${sum.rotationView}`);
+    S.push(`**업종 순환 종합**${L5.summaryResearchedOn ? dateTag(L5.summaryResearchedOn, dateStr) : ''}: ${sum.rotationView}`);
     if (sum.strongest) S.push(`- 가장 강한 업종: ${typeof sum.strongest === 'string' ? sum.strongest : `${sum.strongest.industry} — ${sum.strongest.why || ''}`}`);
     if (Array.isArray(sum.emerging) && sum.emerging.length) S.push(`- 부상: ${sum.emerging.join(' · ')}`);
     if (Array.isArray(sum.fading) && sum.fading.length) S.push(`- 퇴조: ${sum.fading.join(' · ')}`);

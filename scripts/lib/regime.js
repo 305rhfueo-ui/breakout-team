@@ -70,28 +70,28 @@ function qullamaggieRegime(bars, opts = {}) {
     const turning = base.priceAboveAll && up10;
     if (turning) {
       verdict = 'yellow';
-      ko = `🟡 10MA가 아직 20MA 아래(D+${dSinceDeath ?? '?'})지만 주가가 3개 이동평균선 위로 올라섰고 10MA가 상승 전환(${base.slope10Pct}%) — 골든크로스 임박 관찰 구간`;
+      ko = `🟡 10일선이 아직 20일선 아래(${dSinceDeath ?? '?'}일째)지만 주가가 평균선 셋을 다 넘었고 10일선이 돌아서는 중 — 10일선이 20일선을 넘는지 지켜볼 때`;
       actions = ['신규 진입은 골든크로스 확인 후', '이미 보유분은 유지하되 손절 상향', '크로스 발생 시 D+3~15 구간을 노릴 것'];
     } else {
       verdict = 'red';
-      ko = `🔴 10MA가 20MA 아래(데드크로스 ${base.deathCrossDate ?? '?'}, D+${dSinceDeath ?? '?'}) — 신규 진입 중단, 보유분 청산 검토`;
+      ko = `🔴 10일선이 20일선 아래 ${dSinceDeath ?? '?'}일째(${base.deathCrossDate ?? '?'}부터) — 새로 사지 않고, 들고 있는 것도 정리 검토`;
       actions = ['신규 매수 전면 보류', '보유 종목 손절 라인 점검', '현금 비중 확대'];
     }
   } else if (up10 && up20 && base.sweetSpot) {
     verdict = 'green';
-    ko = `🟢 골든크로스 D+${dSinceGolden} · 10MA·20MA 동반 상승(${base.slope10Pct}% / ${base.slope20Pct}%) — 쿨라매기 최적 진입 구간`;
+    ko = `🟢 10일선이 20일선을 넘은 지 ${dSinceGolden}일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간`;
     actions = ['적극적으로 셋업 진입', '포지션 사이징 정상', '돌파 종목 우선'];
   } else if (up10 && up20) {
     verdict = 'green';
-    ko = `🟢 정배열 · 10MA·20MA 동반 상승(${base.slope10Pct}% / ${base.slope20Pct}%)${dSinceGolden !== null ? ` · 골든크로스 D+${dSinceGolden}(성숙 구간)` : ''} — 진입 가능하나 신규는 선별적으로`;
+    ko = `🟢 10일선이 20일선 위, 둘 다 오르는 중${dSinceGolden !== null ? ` (넘은 지 ${dSinceGolden}일째)` : ''} — 사도 되지만 골라서`;
     actions = ['선별적 진입', '과확장 종목 회피', '리테스트 셋업 선호'];
   } else if (dSinceGolden !== null && dSinceGolden < 3) {
     verdict = 'yellow';
-    ko = `🟡 골든크로스 직후(D+${dSinceGolden}) — 통계적으로 약 1주 뒤가 최적. 지금은 관찰`;
+    ko = `🟡 10일선이 20일선을 막 넘음(${dSinceGolden}일째) — 보통 1주쯤 뒤가 더 좋았다. 지금은 지켜볼 때`;
     actions = ['관찰 우선', 'D+3~15 진입 준비', '후보군 정리'];
   } else {
     verdict = 'yellow';
-    ko = `🟡 정배열이나 기울기 둔화(10MA ${base.slope10Pct}% / 20MA ${base.slope20Pct}%) — 진입 강도 축소`;
+    ko = `🟡 10일선이 20일선 위지만 오르는 힘이 약해짐 — 넣는 돈을 줄일 때`;
     actions = ['포지션 크기 축소', '확실한 셋업만', '손절 타이트하게'];
   }
 

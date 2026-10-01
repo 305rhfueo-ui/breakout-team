@@ -130,7 +130,7 @@ const researched = await parallel(targets.map((p) => () => {
   const filings = (d.filings || []).slice(0, 4).map((f) => `- ${f.filingDate} ${f.itemsKo.join(',')}${f.isEarnings ? ' ★실적' : ''} ${f.url}`).join('\n') || '없음'
 
   return tryAgent(
-    `당신은 미국 주식 리서치 애널리스트입니다. 오늘은 ${date}. 종목: ${p.ticker} (${p.nameKo || d.nameKo || ''} / ${p.sector} / ${p.industry})
+    `당신은 미국 주식이 왜 올랐는지 조사하는 담당자입니다. 독자는 일반 투자자입니다. 오늘은 ${date}. 종목: ${p.ticker} (${p.nameKo || d.nameKo || ''} / ${p.sector} / ${p.industry})
 
 ## Node 가 확정한 수치 (바꾸지 마라)
 스크리닝: RS 상위 1M ${(100 - (p.rs?.m1?.pct ?? 0)).toFixed(1)}% / 3M ${(100 - (p.rs?.m3?.pct ?? 0)).toFixed(1)}% / 6M ${(100 - (p.rs?.m6?.pct ?? 0)).toFixed(1)}% · ADR ${p.adr}% · 52주 고점 대비 ${p.high52}% · 200일선 이격 ${p.div200}%
@@ -288,7 +288,7 @@ ${JSON.stringify({ counts: cross && cross.counts, persistent: cross && cross.per
 (streaks 의 D+N = 그 기간 상위 2% 에 연속 포함된 거래일 수)` : ''
 
 const theme = await tryAgent(
-  `당신은 주도 테마를 판별하는 전략가입니다. 오늘은 ${date}.
+  `당신은 오늘 강한 종목들의 공통점(업종·테마)을 찾는 담당자입니다. 독자는 일반 투자자입니다. 오늘은 ${date}.
 
 ## Node 가 확정한 클러스터 — 전 기간 합집합 (이 숫자는 절대 바꾸지 마라)
 ${clusters.length ? JSON.stringify(clusters, null, 1) : '(클러스터 없음 — 테마를 만들지 마세요)'}
