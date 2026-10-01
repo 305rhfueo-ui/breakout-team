@@ -1,6 +1,55 @@
 {
- "date": "2026-09-30",
+ "date": "2026-10-01",
  "cap": 6,
- "poolTotal": 10,
- "industries": []
+ "poolTotal": 11,
+ "industries": [
+  {
+   "key": "Consumer Cyclical|Department Stores",
+   "sector": "Consumer Cyclical",
+   "industry": "Department Stores",
+   "count": 1,
+   "counts": {
+    "m1": 1,
+    "m3": 1,
+    "m6": 1
+   },
+   "wrs": {
+    "m1": 0.0994,
+    "m3": 0.2462,
+    "m6": 0.1867
+   },
+   "final": {
+    "m1": 0.0133,
+    "m3": 0.0328,
+    "m6": 0.0249
+   },
+   "rankPct": {
+    "m1": 1.43,
+    "m3": 2.14,
+    "m6": 17.86
+   },
+   "pickedBy": [
+    "m1"
+   ],
+   "members": [],
+   "memberNews": [],
+   "flow": {
+    "FRANK": 92,
+    "frank25": 23,
+    "f10": 38.333333333333336,
+    "f25": 654.5454545454545,
+    "d50": 9.98,
+    "d200": 12.84,
+    "d200Delta": 9.35,
+    "cy": 6.35,
+    "ny": 1.26,
+    "upRatio": 100,
+    "coverage": 4,
+    "winRate": 1,
+    "stage": "early",
+    "stageKo": "⭐ 상승 초입",
+    "flow": "narrow"
+   }
+  }
+ ]
 }

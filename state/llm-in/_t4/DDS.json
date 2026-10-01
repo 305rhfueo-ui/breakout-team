@@ -1,0 +1,168 @@
+{
+ "ticker": "DDS",
+ "news": [
+  {
+   "title": "Reminder - Dillard's (DDS) Goes Ex-Dividend Soon",
+   "url": "https://www.nasdaq.com/articles/reminder-dillards-dds-goes-ex-dividend-soon",
+   "date": "2026-09-29",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Why Dillard's (DDS) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-dillards-dds-top-momentum-stock-long-term-0",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Dillard's (DDS) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-dillards-dds-strong-momentum-stock",
+   "date": "2026-08-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "2 Top Stocks to Buy After Crushing Earnings Expectations: Dillard's (DDS) and Lenovo (LNVGY)",
+   "url": "https://www.nasdaq.com/articles/2-top-stocks-buy-after-crushing-earnings-expectations-dillards-dds-and-lenovo-lnvgy",
+   "date": "2026-08-17",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Dillard's (DDS) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/dillards-dds-q2-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-08-13",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-18",
+   "reportDate": "2026-09-17",
+   "items": [
+    "3.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "상장규정 위반",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/28917/000110465926108945/tm2625597d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-13",
+   "reportDate": "2026-08-13",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/28917/000002891726000024/dds-20260813x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "reportDate": "2026-06-04",
+   "items": [
+    "2.01",
+    "3.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "2.01",
+    "3.02",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/28917/000110465926070529/tm2616894d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-01",
+   "reportDate": "2026-05-28",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/28917/000002891726000015/dds-20260514x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-14",
+   "reportDate": "2026-05-14",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/28917/000002891726000009/dds-20260514x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-20",
+   "reportDate": "2026-03-20",
+   "items": [
+    "1.01",
+    "3.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "3.02",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/28917/000110465926032749/tm269181d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0.5,
+  "saleNy": 1.07,
+  "epsCy": 2.09,
+  "epsNy": -4.14,
+  "cyTrend": 6.35,
+  "nyTrend": 1.26,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -0.36,
+    2.69,
+    -3.03
+   ],
+   "ni": [
+    34.14,
+    52.95,
+    -4.96
+   ],
+   "opm": [
+    8.45,
+    14.3,
+    10.39
+   ],
+   "updated": "2026-09-07 07:51:41"
+  }
+ }
+}

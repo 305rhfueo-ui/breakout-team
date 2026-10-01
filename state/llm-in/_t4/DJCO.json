@@ -1,0 +1,154 @@
+{
+ "ticker": "DJCO",
+ "news": [
+  {
+   "title": "DJCO Incurs Q3 Loss Due to Higher Costs, Weak Traditional Unit",
+   "url": "https://www.nasdaq.com/articles/djco-incurs-q3-loss-due-higher-costs-weak-traditional-unit",
+   "date": "2026-08-19",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Notable Two Hundred Day Moving Average Cross - DJCO",
+   "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-djco",
+   "date": "2026-03-16",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "DJCO Stock Up 2% Despite Incurring Q1 Loss Due to Rising Costs",
+   "url": "https://www.nasdaq.com/articles/djco-stock-2-despite-incurring-q1-loss-due-rising-costs",
+   "date": "2026-02-23",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-11",
+   "reportDate": "2026-09-10",
+   "items": [
+    "5.03",
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "5.03",
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/783412/000143774926030183/djco20260908_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-12",
+   "reportDate": "2026-08-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/783412/000143774926027322/djco20260610_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-14",
+   "reportDate": "2026-05-14",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/783412/000143774926017058/djco20260505_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-25",
+   "reportDate": "2026-02-24",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/783412/000143774926005590/djco20260224_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-17",
+   "reportDate": "2026-02-17",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/783412/000143774926004210/djco20260212_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "reportDate": "2026-02-04",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/783412/000143774926003058/djco20260205_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    15.25,
+    24.98,
+    10.36
+   ],
+   "ni": [
+    -175.51,
+    -177.55,
+    -173.22
+   ],
+   "opm": [
+    19.52,
+    13.16,
+    2.44
+   ],
+   "updated": "2026-09-08 07:29:13"
+  }
+ }
+}

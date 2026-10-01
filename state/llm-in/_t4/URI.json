@@ -1,0 +1,164 @@
+{
+ "ticker": "URI",
+ "news": [
+  {
+   "title": "Why United Rentals (URI) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-united-rentals-uri-top-momentum-stock-long-term-0",
+   "date": "2026-09-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why United Rentals (URI) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-united-rentals-uri-strong-growth-stock-1",
+   "date": "2026-09-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why United Rentals (URI) is a Top Value Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-united-rentals-uri-top-value-stock-long-term",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why United Rentals (URI) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-united-rentals-uri-strong-growth-stock-0",
+   "date": "2026-09-03",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-08",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067701/000119312526385238/uri-20260908.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067701/000106770126000028/uri-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-18",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067701/000110465926075708/tm2618215d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-08",
+   "reportDate": "2026-05-08",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067701/000119312526214719/uri-20260508.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-22",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067701/000106770126000018/uri-20260422.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-10",
+   "reportDate": "2026-02-10",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067701/000119312526044873/uri-20260210.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 10.23,
+  "saleNy": 8.76,
+  "epsCy": 17.18,
+  "epsNy": 16.29,
+  "cyTrend": 0.1,
+  "nyTrend": 0.23,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    11.84,
+    7.15,
+    2.76
+   ],
+   "ni": [
+    21.06,
+    2.51,
+    -5.22
+   ],
+   "opm": [
+    25.8,
+    21.81,
+    25
+   ],
+   "updated": "2026-09-09 07:35:43"
+  }
+ }
+}

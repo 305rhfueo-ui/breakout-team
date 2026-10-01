@@ -1,0 +1,180 @@
+{
+ "ticker": "FDS",
+ "news": [
+  {
+   "title": "Here's What Key Metrics Tell Us About FactSet (FDS) Q4 Earnings",
+   "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-factset-fds-q4-earnings",
+   "date": "2026-09-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "FactSet Research (FDS) Tops Q4 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/factset-research-fds-tops-q4-earnings-and-revenue-estimates",
+   "date": "2026-09-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Pre-Market Earnings Report for September 30, 2026 :  JBL, FDS, CAG",
+   "url": "https://www.nasdaq.com/articles/pre-market-earnings-report-september-30-2026-jbl-fds-cag",
+   "date": "2026-09-29",
+   "publisher": "NASDAQ.com"
+  },
+  {
+   "title": "Ahead of FactSet (FDS) Q4 Earnings: Get Ready With Wall Street Estimates for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/ahead-factset-fds-q4-earnings-get-ready-wall-street-estimates-key-metrics",
+   "date": "2026-09-25",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "FDS Stock Jumps 29.1% in 3 Months: Here's What You Should Know",
+   "url": "https://www.nasdaq.com/articles/fds-stock-jumps-291-3-months-heres-what-you-should-know",
+   "date": "2026-09-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why FactSet Research (FDS) is a Strong Value Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-factset-research-fds-strong-value-stock",
+   "date": "2026-09-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "FactSet Research (FDS) Reports Next Week: Wall Street Expects Earnings Growth",
+   "url": "https://www.nasdaq.com/articles/factset-research-fds-reports-next-week-wall-street-expects-earnings-growth",
+   "date": "2026-09-23",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-30",
+   "reportDate": "2026-09-24",
+   "items": [
+    "2.02",
+    "5.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "5.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1013237/000162828026063888/fds-20260924.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-25",
+   "reportDate": "2026-09-23",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1013237/000162828026063495/fds-20260923.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-31",
+   "reportDate": "2026-08-28",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1013237/000095015726000966/form8-k.htm",
+   "description": "CURRENT REPORT"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-01",
+   "reportDate": "2026-07-01",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1013237/000162828026046338/fds-20260701.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-08",
+   "reportDate": "2026-04-02",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1013237/000095010326005447/dp244995_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-31",
+   "reportDate": "2026-03-31",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1013237/000162828026022203/fds-20260331.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.43,
+  "saleNy": 5.85,
+  "epsCy": 5.01,
+  "epsNy": 10.62,
+  "cyTrend": 0.03,
+  "nyTrend": 0.12,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.39,
+    7.07,
+    6.85
+   ],
+   "ni": [
+    -14.69,
+    -8.15,
+    1.71
+   ],
+   "opm": [
+    26.7,
+    30.27,
+    31.61
+   ],
+   "updated": "2026-09-08 06:16:57"
+  }
+ }
+}

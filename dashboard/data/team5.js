@@ -521,8 +521,47 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "carried",
+    "status": "done",
     "industries": [
+      {
+        "key": "Consumer Cyclical|Department Stores",
+        "industry": "Department Stores",
+        "lead": "Department Stores 는 업종 내 종목이 1개뿐이라 업종 WRS 가 단일 종목 RS 와 같다. 9월 초 저평가 백화점주로의 로테이션이 확인되나, 이 업종 편입 종목이 무엇인지는 제공 자료에 없어 개별 촉매는 특정하지 못했다.",
+        "whyStrong": [
+          {
+            "id": "w2",
+            "statement": "2026-09-02 저평가 백화점주(Kohl's, Macy's)로 로테이션이 유입됐다. Kohl's +7%, Macy's +3%. 섹터 전반 강세가 아닌 선별적 로테이션이다. 단 이 업종의 편입 종목이 이들인지는 확인되지 않았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Kohl's Rallies 7% on Rotation Into Beaten-Down Retail, Macy's Climbs 3%, Abercrombie & Fitch Slips",
+                "publisher": "24/7 Wall St.",
+                "url": "https://247wallst.com/investing/2026/09/02/kohls-rallies-7-on-rotation-into-beaten-down-retail-macys-climbs-3-abercrombie-fitch-slips/",
+                "date": "2026-09-02",
+                "quote": "Buyers are piling into the retail sector's most beaten-down department store names this week",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "rotation",
+        "durability": "short_term",
+        "risk": "종목 1개 업종이라 단일 종목 이벤트가 곧 업종 WRS 다. 로테이션이 밸류에이션 갭 기반이므로 모멘텀 종목(Abercrombie 등)으로 자금이 되돌아가면 약해진다. Macy's 사례처럼 가이던스 상향에도 주가가 5% 하락한 점은 호재 선반영을 시사한다. 컨센서스 상향 n=4, 25거래일 F25d 654.5% 는 분모 왜곡이라 의미가 제한적이다. 50일선 이격 중앙값 9.98% 가 축소되고 순위가 FRANK 92 에서 하락하면 논리가 깨진다.",
+        "keyStocks": [],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1",
+            "w3"
+          ],
+          "reason": "w1은 evidence_level='no_source'로 quote와 출처가 없으므로 statement의 수치(FRANK 92, 이격 %, 컨센서스 상향비율)를 검증 불가. w3는 statement에 '비교매출 가이던스 1~1.5%, EPS $2.15~2.35'라는 구체 수치가 있으나, 제공된 quote('Macy's Sinks 5% Despite Raised Full-Year Outlook...')와 title에 이 수치들이 없음. 제거 후 correctedLead는 WRS 수치 부분('1개월 0.0994 는 상위 1.43%, 3개월 0.2462 는 상위 2.14%')을 제거. 이 수치는 whyStrong 어디에도 출처가 없으므로 근거 불명확.",
+          "leadFixed": true
+        },
+        "leadOriginal": "Department Stores 는 업종 내 종목이 1개뿐이라 업종 WRS 가 단일 종목 RS 와 같다. WRS(업종 내 시총가중 평균 RS, QQQ 대비 초과수익률) 1개월 0.0994 는 상위 1.43%, 3개월 0.2462 는 상위 2.14%다. 9월 초 저평가 백화점주로의 로테이션이 확인되나, 이 업종 편입 종목이 무엇인지는 제공 자료에 없어 개별 촉매는 특정하지 못했다.",
+        "researchedOn": "2026-10-01",
+        "carried": false
+      },
       {
         "key": "Technology|Computer Hardware",
         "industry": "Computer Hardware",
@@ -1158,60 +1197,6 @@ window.TEAM5_DATA = {
       },
       {
         "driver": "earnings",
-        "durability": "cyclical",
-        "industry": "Department Stores",
-        "key": "Consumer Cyclical|Department Stores",
-        "keyStocks": [
-          "KSS"
-        ],
-        "lead": "Department Stores 업종은 Kohl's(KSS) 단일 종목이 견인하며 1개월 WRS가 상위 0.72%까지 급상승했다. 8월 26일 발표된 2분기 실적에서 EPS 서프라이즈와 연간 가이던스 상향이 확인된 데 이어 9월 2일에는 저평가된 백화점주로의 로테이션 매수가 겹쳤다. 6개월 WRS는 상위 31.65%에 머물러 있어 이번 강세가 최근 한 달 새 집중적으로 형성된 상승 초입 국면임을 시사한다.",
-        "risk": "comp 및 순매출은 여전히 YoY -0.9%로 역성장 중이며, 연간 조정 EPS 가이던스 밴드($1.80~$2.40)가 넓어 실적 가시성이 낮다. 9월 2일 랠리는 저평가 종목으로의 로테이션 성격이 강해(동일 기사에서 밸류에이션 갭이 모멘텀보다 더 크게 작용했다고 지적) 갭이 좁혀지면 동력이 약화될 수 있다. 6개월 WRS는 상위 31.65%에 그쳐 장기 추세 전환은 아직 확인되지 않았고, 마진 개선의 상당 부분이 관세 환급(분기 중 약 $150M, 이 중 약 $100M이 매출총이익 반영)이라는 일회성 요인에 기인한다. 다음 분기 comp·마진 실적이 가이던스 하단을 밑돌거나 로테이션 자금이 재차 모멘텀주로 이동하면 이번 상승 논리는 약화된다.",
-        "whyStrong": [
-          {
-            "id": "q2-guidance-raise",
-            "statement": "8월 26일 발표된 2026회계연도 2분기 실적에서 순매출과 comp는 각각 YoY -0.9% 감소했으나 조정 EPS $1.28로 시장 예상을 상회했고, 회사는 연간 순매출·comp 가이던스를 -1.5%~flat, 조정 EPS 가이던스를 $1.80~$2.40, 조정 영업마진 가이던스를 3.5~4.0%로 상향했다. 분기 중 관세 환급 약 $150M 중 약 $100M이 매출총이익에 반영돼 마진 개선에 기여했고 최대 $100M 규모의 자사주 매입도 재개됐다. Node 자금흐름 지표상으로도 Final_WRS 순위(FRANK)는 112위로 25거래일간 5계단 상승했고, 50일선 이격 중앙값 9.52%·200일선 이격 중앙값 7.91%(25거래일간 +4.92%p 확대)로 추세가 가속되고 있으며 당해/차기연도 컨센서스는 중앙값 +6.35%/+1.26%, 상향비율 100%(n=4)로 나타난다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Kohl's Reports Second Quarter Fiscal 2026 Financial Results",
-                "publisher": "StockTitan",
-                "url": "https://www.stocktitan.net/news/KSS/kohl-s-reports-second-quarter-fiscal-2026-financial-tr4no2ilp53h.html",
-                "date": "2026-08-26",
-                "quote": "Adjusted Diluted EPS: $1.80 to $2.40",
-                "verified": "unverified",
-                "httpStatus": 429
-              }
-            ]
-          },
-          {
-            "id": "rotation-rally",
-            "statement": "9월 2일에는 8월 실적 발표 이후 급락했던 물량이 되돌려지며 KSS가 장중 7% 급등(약 $19.03)했다. 저평가된 백화점주로 자금이 몰리는 로테이션 장세였으며, 동일 업종의 Macy's도 3% 동반 상승했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Kohl's Rallies 7% on Rotation Into Beaten-Down Retail, Macy's Climbs 3%, Abercrombie & Fitch Slips",
-                "publisher": "24/7 Wall St.",
-                "url": "https://247wallst.com/investing/2026/09/02/kohls-rallies-7-on-rotation-into-beaten-down-retail-macys-climbs-3-abercrombie-fitch-slips/",
-                "date": "2026-09-02",
-                "quote": "Buyers are piling into the retail sector's most beaten-down department store names this week, but the money has to come from somewhere, and one recent momentum winner is paying the price.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "citi-upgrade"
-          ],
-          "reason": ""
-        },
-        "researchedOn": "2026-09-15",
-        "carried": true
-      },
-      {
-        "driver": "earnings",
         "durability": "structural",
         "industry": "Health Information Services",
         "key": "Healthcare|Health Information Services",
@@ -1571,24 +1556,17 @@ window.TEAM5_DATA = {
       }
     ],
     "summary": {
-      "rotationView": "Rankpct 기준 6개월 상위권(m6 순위 0.71~6.43%)에 6개 업종이 모두 몰려 있고, 자금은 Technology 내에서 Computer Hardware(WRS m1 0.1263 / m3 0.1139 / m6 1.2681)를 축으로 하드웨어·반도체(m1 0.0651 / m6 0.6148)·전자부품 유통(m1 0.0651 / m6 0.5541)으로 이어지고 있다. 3개월 구간에서는 Oil & Gas Refining & Marketing(m3 0.4501, 순위 0.71%)과 Software - Infrastructure(m3 0.2865, 순위 1.43%)가 주도했으나, 1개월에서는 각각 0.0826(2.86%)과 0.0161(15.71%)로 Refining은 상위를 유지하고 Software는 둔화됐다. 1개월에서 새로 앞서 나오는 곳은 Electrical Equipment & Parts(m1 0.0867, 순위 1.43%)로 m3가 -0.0932(77.14%)까지 밀렸다가 급반전한 형태다. 실적 근거가 확인된 곳은 Electronics & Computer Distribution(Avnet 매출 YoY +48%, Arrow +32%, TD SYNNEX +37.7%와 가이던스 상향)과 Electrical Equipment(BE 2026 가이던스 매출 31~33억 달러). Computer Hardware는 조사 근거가 없어 순위 외 서술은 하지 않는다.",
+      "rotationView": "입력된 업종은 Department Stores 하나뿐이라 업종 간 자금 이동(어디서 어디로)은 비교할 수 없다. 이 업종 단독으로는 WRS m1 0.0994 / m3 0.2462 / m6 0.1867, 순위 백분위 m1 1.43 / m3 2.14 / m6 17.86이다. 1개월과 3개월 순위는 모두 상위 3% 이내로 최근 강세가 뚜렷하나, WRS 값 자체는 m3(0.2462)가 가장 높고 m1(0.0994)은 m3보다 낮다. m6 WRS(0.1867)보다도 m1이 낮아 WRS 수치로는 신흥 강세(1개월이 6개월보다 뚜렷이 높음)에 해당하지 않으며, 순위 백분위 기준으로는 m6(17.86)에서 m1(1.43)으로 상대 위치가 상승했다. 조사 결과는 2026-09-02 저평가 백화점주(Kohl's +7%, Macy's +3%)로의 선별적 로테이션이 유입됐다는 것이며, 지속성은 short_term이다. 다만 해당 종목이 이 업종 편입 종목인지는 확인되지 않았다.",
       "strongest": {
-        "industry": "Computer Hardware",
-        "why": "WRS가 m1 0.1263, m3 0.1139, m6 1.2681로 전 구간 양(+)이며 순위도 m1 0.71%, m6 0.71%로 1개월·6개월 모두 최상위다. 다만 조사 결과에 근거가 없어 강세 이유는 서술하지 않는다."
+        "industry": "Department Stores",
+        "why": "입력 업종 중 유일. 순위 백분위 m1 1.43 / m3 2.14 / m6 17.86으로 단기 상대 위치가 가장 높다. 조사상 driver는 rotation(저평가 백화점주 선별 유입, 2026-09-02), durability는 short_term. 편입 종목 일치 여부는 미확인."
       },
-      "emerging": [
-        "Electrical Equipment & Parts: m1 0.0867(순위 1.43%)이 m3 -0.0932(77.14%)에서 급반전. 단 m6 0.3847보다는 낮아 6개월 대비 우위는 아니며, 3개월 대비 신규 유입이다. BE 2026 가이던스 매출 31~33억 달러(YoY 50% 초과), 조정 EPS 1.33~1.48달러.",
-        "Computer Hardware: m1 0.1263이 m3 0.1139보다 높아 3개월 대비 가속(m6 1.2681에는 못 미침). 사유는 근거 없음."
-      ],
-      "fading": [
-        "Software - Infrastructure: m6 0.4722(3.57%), m3 0.2865(1.43%)에서 m1 0.0161(15.71%)로 급감.",
-        "Oil & Gas Refining & Marketing: m3 0.4501(0.71%), m6 0.5547 대비 m1 0.0826으로 낮아졌으나 순위는 2.86%로 상위 유지. 크랙 스프레드 지속 불가 논쟁으로 Valero Hold 하향 분석 존재.",
-        "Semiconductors: m1 0.0651, m3 0.0603이 m6 0.6148보다 크게 낮아 초과수익 대부분이 과거 구간에 누적. 다만 Final_WRS 10일 전 대비 +17.66%, 25일 전 대비 +33.20%로 자금흐름 지표는 확산 중.",
-        "Electronics & Computer Distribution: m1 0.0651이 m6 0.5541보다 낮음. 단 m1 순위 5.71%로 상위권."
-      ],
-      "caution": "Computer Hardware는 researched:true이나 근거가 '근거 없음'이라 강세 이유를 확인할 수 없다. Semiconductors 서사(MXL, ALAB, MRVL)는 기사 제목 기준이며 수치 근거가 없고, Software - Infrastructure의 AI 보안 테마와 Electrical Equipment 가이던스는 원문 미열람 상태다. 6개 업종 모두 durability가 cyclical이며, Oil & Gas Refining은 commodity 드라이버라 크랙 스프레드 변동에 민감하다."
+      "emerging": [],
+      "fading": [],
+      "caution": "비교 대상이 1개 업종이라 로테이션 방향은 판단 불가. WRS m1(0.0994)이 m3(0.2462), m6(0.1867)보다 낮아 절대 모멘텀은 둔화 중이며, 지속성은 short_term으로 조사됐다. Kohl's·Macy's가 이 업종 편입 종목인지는 확인되지 않았고 로테이션 근거도 단일 일자(2026-09-02) 뉴스뿐이다."
     },
-    "summaryResearchedOn": "2026-09-29"
+    "summaryResearchedOn": "2026-10-01",
+    "reusedFrom": null
   },
   "flow": {
     "baseline": {
@@ -7903,5 +7881,15 @@ window.TEAM5_DATA = {
         ]
       }
     ]
+  },
+  "research_coverage": {
+    "done": 16,
+    "total": 11,
+    "cap": 6,
+    "pending": 0,
+    "failed": 0,
+    "carried": 15,
+    "ineligible": 0,
+    "note": "그중 15업종은 최근 조사분을 이월했습니다(조사일 표기)."
   }
 };

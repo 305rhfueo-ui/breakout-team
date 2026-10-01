@@ -44,13 +44,13 @@
    "m6": null
   },
   "top2Streak": {
-   "m1": 2,
+   "m1": 3,
    "m3": 0,
    "m6": 0
   }
  },
  "detail": {
-  "fetchedAt": "2026-09-28",
+  "fetchedAt": "2026-10-01",
   "nameKo": "시그넷 주얼러스",
   "nameEn": "SIGNET JEWELERS LTD",
   "financials": {
@@ -120,6 +120,18 @@
   "news": {
    "items": [
     {
+     "title": "SIG vs. CFRUY: Which Stock Is the Better Value Option?",
+     "url": "https://www.nasdaq.com/articles/sig-vs-cfruy-which-stock-better-value-option",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Should Value Investors Buy Signet Jewelers (SIG) Stock?",
+     "url": "https://www.nasdaq.com/articles/should-value-investors-buy-signet-jewelers-sig-stock-0",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
      "title": "Zacks.com featured highlights include ITT, Signet Jewelers and Urban Outfitters",
      "url": "https://www.nasdaq.com/articles/zackscom-featured-highlights-include-itt-signet-jewelers-and-urban-outfitters",
      "date": "2026-09-21",
@@ -154,18 +166,6 @@
      "url": "https://www.nasdaq.com/articles/are-investors-undervaluing-signet-jewelers-sig-right-now-0",
      "date": "2026-09-14",
      "publisher": "Zacks"
-    },
-    {
-     "title": "Why Signet Jewelers Stock Pulled Back Today",
-     "url": "https://www.nasdaq.com/articles/why-signet-jewelers-stock-pulled-back-today",
-     "date": "2026-09-10",
-     "publisher": "The Motley Fool"
-    },
-    {
-     "title": "Signet (SIG) Q2 2027 Earnings Call Transcript",
-     "url": "https://www.nasdaq.com/articles/signet-sig-q2-2027-earnings-call-transcript",
-     "date": "2026-09-10",
-     "publisher": "The Motley Fool"
     }
    ]
   },
