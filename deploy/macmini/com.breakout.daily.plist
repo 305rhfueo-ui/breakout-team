@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
   <key>Label</key><string>com.breakout.daily</string>
-  <!-- 아침 스캔 → 6팀 매수 계획 → 리포트 → push. RS 사이트가 06:50 KST 에 갱신되므로 07:10 에 돈다.
-       미국 장이 없던 날 아침에도 돌지만 해롭지 않다 (관심 목록의 기준일이 같아 밤 루프가 새로 사지 않는다). -->
+  <!-- 아침 작업(morning.sh): RS 사이트 갱신 대기 → 스캔·6팀 관심 목록·push → 화~토 start breakout.
+       07:10 에 시작하지만 RS 사이트가 실제로 갱신되는 09:30~10:50 KST 까지 기다린다 (cron 06:50 은 GitHub 이 매일 늦게 돌린다). -->
   <key>ProgramArguments</key>
   <array>
     <string>/usr/bin/caffeinate</string><string>-s</string>
-    <string>__NODE__</string><string>__REPO__/scripts/run-breakout.js</string>
+    <string>/bin/bash</string><string>__REPO__/deploy/macmini/morning.sh</string>
   </array>
   <key>WorkingDirectory</key><string>__REPO__</string>
   <key>StartCalendarInterval</key>
