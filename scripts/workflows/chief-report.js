@@ -81,21 +81,22 @@ ${JSON.stringify(T.flowCross || {}, null, 1).slice(0, 6000)}
 ${JSON.stringify(T.chartCheck || [], null, 1).slice(0, 2000)}`
 
 const CHIEF = { type: 'object', properties: {
-  headline: { type: 'string', description: '오늘을 한 줄로' },
-  marketVerdictKo: { type: 'string', description: '시장 국면 판단 + 자금 흐름(어디로 들어오고 어디서 빠지는지, 업종명과 종목 티커까지) + 포지션 지침. 문단 수·숫자 개수 제한 없음. 입력에 없는 사실로 채우지 마라' },
+  headline: { type: 'string', description: '오늘을 한 줄로, 50자 안팎. 시장 신호 + 오늘 가장 중요한 한 가지. 이동평균 숫자 나열 금지' },
+  marketVerdictKo: { type: 'string', description: '세 문단, 문단마다 최대 3문장. ①시장: 지금 사도 되는 때인가 ②돈의 흐름: 어느 업종으로 들어오고 어디서 빠지는지(업종 이름 한국어 + 그 안의 강한 종목 티커 2~3개) ③그래서 오늘 어떻게 할지. 문단은 빈 줄로 나눈다. 【】 머리말·번호 목록 금지. 입력에 없는 사실로 채우지 마라' },
   todayFocus: { type: 'array', items: { type: 'object', properties: {
     ticker: { type: 'string' },
-    reason: { type: 'string' },
-    action: { type: 'string', description: 'Node 수치로 된 확인 조건만 (예: "기준선 $X 종가 유지 여부 · 거래량이 20일 평균 2배인지 · QQQ MA20 713 회복 여부"). 차트 결론 금지 — 돌파 실패로 처리·리테스트·지지로 전환·눌림·갭·셋업·자리·추격 같은 말을 쓰지 마라' },
+    reason: { type: 'string', description: '왜 주목하는지 한 문장' },
+    action: { type: 'string', description: '무엇을 확인하면 되는지 한 문장, 숫자는 1~2개. 입력의 확인 조건만 (예: "기준선 $X 종가 유지 여부 · 거래량이 20일 평균 2배인지 · QQQ MA20 713 회복 여부"). 차트 결론 금지 — 돌파 실패로 처리·리테스트·지지로 전환·눌림·갭·셋업·자리·추격 같은 말을 쓰지 마라' },
   }, required: ['ticker', 'reason', 'action'] }, description: '오늘 가장 주목할 종목 0~5개 — Node 신호(거래량 확인 돌파·차트확인 목록·유입 업종 통과)가 있는 종목만. 없으면 비워라' },
   teamSummaries: { type: 'object', properties: {
-    team1: { type: 'string' }, team2: { type: 'string' }, team3: { type: 'string' },
-    team4: { type: 'string' }, team5: { type: 'string' },
+    team1: { type: 'string', description: '한별(시장) 요약 최대 2문장' }, team2: { type: 'string', description: '도윤(종목 선정) 요약 최대 2문장' },
+    team3: { type: 'string', description: '수아(추적) 요약 최대 2문장' }, team4: { type: 'string', description: '재민(호재 찾기) 요약 최대 2문장' },
+    team5: { type: 'string', description: '미르(업종 흐름) 요약 최대 2문장' },
   }, required: ['team1', 'team2', 'team3', 'team4', 'team5'] },
-  chartCheckNote: { type: 'string', description: '오늘 눈으로 차트를 봐야 할 종목과, 시스템 플래그(reasons)를 그대로 옮긴 "확인할 것". 플래그에 없는 방향(상방/하방)·매물·소진 추론 금지' },
-  tomorrowWatch: { type: 'string' },
+  chartCheckNote: { type: 'string', description: '오늘 눈으로 차트를 봐야 할 종목 최대 5개, 종목당 한 줄로 "티커 — 확인할 것". 시스템 플래그(reasons)를 뜻으로 풀어 옮긴다. 플래그에 없는 방향(상방/하방)·매물·소진 추론 금지' },
+  tomorrowWatch: { type: 'string', description: '내일 지켜볼 것 최대 2문장' },
   // ⚠️ 프롬프트 규칙 7번은 caution 을 필수라고 말하는데 스키마에선 선택이었다. 어긋나 있었다.
-  caution: { type: 'string', description: '이 리포트의 한계·불확실성 2~4문장. 조사 안 된 종목 · 근거 없는 항목 · 데이터 결함을 솔직히' },
+  caution: { type: 'string', description: '이 리포트를 믿을 때 조심할 점 최대 3문장. 조사 안 된 종목 · 근거 없는 항목 · 데이터 문제를 솔직히, 쉬운 말로' },
 }, required: ['headline', 'marketVerdictKo', 'todayFocus', 'teamSummaries', 'chartCheckNote', 'caution'] }
 
 phase('실장종합')
@@ -127,7 +128,7 @@ ${teamBlocks}
 7. caution 에 이 리포트의 한계를 **솔직히** 적어라 (필수 항목이다).
    조사되지 않은 종목 수, '근거 없음'으로 남은 항목, 데이터 결함(dataNotice·barsNotice·unevaluated)을 숨기지 마라.
 8. **marketVerdictKo 에는 "돈이 어디로 들어오고 어디서 빠지는지"를 반드시 넣어라.**
-   업종 이름 + 그 안에서 지금 강한 종목 티커(flowCross.picks 의 d50·d200·stageKo 수치 그대로). 매수 위치 판단은 쓰지 않는다.
+   업종 이름(한국어) + 그 안에서 지금 강한 종목 티커 2~3개. 수치는 서술 기준 2번처럼 뜻으로 풀어 쓴다. 매수 위치 판단은 쓰지 않는다.
    교차 결과가 비면 "이 업종에서 오늘 기준을 통과한 종목은 없습니다"라고 그대로 써라.
    **입력에 없는 사실로 분량을 채우지 마라** — 근거가 부족하면 짧게 끝내는 것이 낫다.
 9. 1팀 news(digest·keyRisks)·2팀 theme·4팀 summary·5팀 summary 가 있으면 teamSummaries 에 그 내용을 반영하라 — 숫자만 보고 쓰지 마라.
@@ -138,15 +139,18 @@ ${teamBlocks}
 11. **차트 모양(횡보·베이스·돌파의 질·되돌림·갭·리테스트)은 판정하지 않는다.** 당신은 봉을 받지 않았다.
     3팀 표의 "돌파" 는 35봉(약 7주) 고점을 종가가 넘었다는 뜻이고 "거래량 확인" 은 돌파봉/20일 평균 비율일 뿐이다. 그 이상을 말하지 마라.
 
-## 서술 기준 — 독자는 재무·회계 전공의 금융 실무자다
-1. 눈높이를 낮추지 마라. 비유·초보자용 요약·"쉽게 말해" 식 풀이는 쓰지 않는다.
-2. 표준 용어는 그대로 쓴다: YoY/QoQ, 가이던스, 컨센서스, EPS, FCF, 마진, 백로그, 크랙 스프레드, PIPE, 전환사채, 희석, 리레이팅, 밸류에이션, RS 백분위, ADR, 50/200일선 이격 등.
-3. 이 시스템 고유 지표(WRS·VOL_X·CLS_POS·BBWTHD·F10d)는 처음 한 번만 정의를 붙이고 이후엔 이름만 쓴다. 입력에 없는 지표는 정의하지 마라.
-4. 원 수치를 생략하지 마라. 실적표·RS·WRS·이격·거래량 배수·가이던스 수치는 단위와 기간을 붙여 그대로 인용한다. 문단당 숫자 개수 제한은 없다.
-5. 숫자는 입력 JSON 에 실제로 있는 것만 쓴다.
-6. 구조: 결론 → 근거 → 반대 근거/리스크 → 확인할 조건. 매 문단 끝에 "그래서 무엇을 확인/실행할지"를 한 줄로.
-7. 판단 근거를 밝히되 매수·매도 권유는 하지 않는다. "무엇이 확인되면 논리가 성립/붕괴하는지"로 끝낸다.
-8. 한국어로 쓴다. 영문 고유명사·티커·지표명은 원문 그대로 둔다.`,
+## 서술 기준 — 독자는 주식 투자를 하는 일반인이다 (2026-10-02 사용자 결정. 이전: 금융 실무자 대상)
+1. 짧게. 한 문장은 한 가지 내용, 60자 안팎. 칸마다 정해진 문장 수를 넘기지 마라. 첫 문장만 읽어도 결론이 보이게.
+2. **입력 JSON 의 키 이름·내부 값을 문장에 쓰지 마라.** dataNotice·barsNotice·sessionMismatch·flowCross·inflow·picks·
+   stageKo·frank25·FRANK·d50·d200·agreement·llmResearchedCount·null·true 같은 말이 보이면 그 문장은 실패다. 뜻으로 바꿔 써라:
+   d50 +13% → "두 달 평균보다 13% 위", d200 → "1년 평균보다", FRANK 1위 → "업종 순위 1위",
+   frank25 +25 → "한 달 새 순위 25계단 상승", stageKo "📈 상승 중반" → "상승 중반".
+3. 숫자는 결론에 필요한 것만 문단당 2~3개. QQQ 종가·이동평균은 한 번만, 그것도 "10일선이 20일선 위" 정도로.
+   마진부채는 "빚내서 산 주식이 1년 새 37% 늘었다"처럼 뜻으로.
+4. 데이터 문제가 없으면 데이터 상태는 쓰지 마라. 문제가 있을 때만 맨 앞에 한 문장으로("오늘은 일부 가격 자료가 빠져 있어 돌파 판단을 믿기 어렵다").
+5. 전문 용어는 꼭 필요할 때만, 처음 나올 때 괄호로 풀어 준다. 영어 업종 이름은 한국어로. 회사명·티커는 원문 그대로.
+6. 숫자는 입력 JSON 에 실제로 있는 것만 쓴다. 근거가 부족하면 짧게 끝내는 것이 낫다.
+7. 매수·매도 권유는 하지 않는다. "무엇이 확인되면 이야기가 맞고/틀린지"로 끝낸다.`,
   { label: '실장종합', phase: '실장종합', schema: CHIEF, model: 'opus' }
 )
 

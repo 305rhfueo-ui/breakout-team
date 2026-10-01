@@ -51,26 +51,30 @@ const CLAIM = { type: 'object', properties: {
 //    key·industry 는 모델이 고쳐 쓰므로(10가지 변형 실측) 결과를 받은 뒤 입력값으로 덮는다.
 const IND = { type: 'object', properties: {
   key: { type: 'string', description: '입력의 key 를 그대로' }, industry: { type: 'string', description: '입력의 industry 를 그대로' },
-  lead: { type: 'string', description: '리포트 첫 문단 최대 3문장. 이 업종이 무엇을 하는 업종이고 지금 무슨 일이 벌어지는지. 아래 whyStrong 의 요약이어야 하며 새 사실을 넣지 마라' },
+  lead: { type: 'string', description: '최대 3문장. 이 업종이 뭘 하는 곳이고, 왜 지금 돈이 몰리는지. 아래 whyStrong 의 요약이어야 하며 새 사실을 넣지 마라' },
   whyStrong: { type: 'array', items: CLAIM, description: '이 업종이 강한 이유 최대 4개. 각 항목 출처 필수. 제공된 memberNews·flow 수치를 근거로 써도 된다' },
   driver: { type: 'string', enum: ['earnings', 'policy', 'macro', 'technology', 'commodity', 'rotation', 'unknown'] },
   durability: { type: 'string', enum: ['structural', 'cyclical', 'short_term', 'unknown'], description: '구조적인가 일시적인가' },
   keyStocks: { type: 'array', items: { type: 'string' }, description: '이 업종의 핵심 종목 티커' },
-  risk: { type: 'string', description: '이 강세가 꺾일 조건 최대 4문장. 무엇이 일어나면 이 논리가 깨지는지 구체적으로. 필수' },
+  risk: { type: 'string', description: '이 강세가 꺾일 조건 최대 2문장. 무엇이 일어나면 이 논리가 깨지는지 구체적으로. 필수' },
 }, required: ['key', 'industry', 'lead', 'whyStrong', 'driver', 'durability', 'risk'] }
 
 const STYLE = `
-## 서술 기준 — 독자는 재무·회계 전공의 금융 실무자다
-1. 눈높이를 낮추지 마라. 비유·초보자용 요약·"쉽게 말해" 식 풀이는 쓰지 않는다.
-2. 표준 용어는 그대로 쓴다: YoY/QoQ, 가이던스, 컨센서스, EPS, FCF, 마진, 백로그, 크랙 스프레드, PIPE, 전환사채, 희석, 리레이팅, 밸류에이션, RS 백분위, ADR, 50/200일선 이격 등.
-3. 이 시스템 고유 지표(WRS·VOL_X·CLS_POS·BBWTHD·F10d·Congestion)는 처음 한 번만 정의를 붙이고 이후엔 이름만 쓴다. 예: "VOL_X 3.1(거래대금 20일 평균 대비)" → 이후 "VOL_X 3.1".
-4. 원 수치를 생략하지 마라. 제공된 실적표·RS·WRS·이격·거래량 배수·가이던스 수치는 단위와 기간을 붙여 그대로 인용한다. 문단당 숫자 개수 제한은 없다.
-5. 숫자는 quote나 제공 자료에 실제로 있는 것만 쓴다. 근거에 숫자가 없으면 숫자 없이 서술한다.
-6. 구조: 결론 → 근거(출처) → 반대 근거/리스크 → 확인할 조건. 각 항목은 필요한 만큼만, 상한은 지킨다.
-7. 회사 설명은 사업 모델·매출 구성·핵심 고객·현 국면을 밀도 있게 2~3문장. 교과서식 부연 금지.
-8. 판단 근거를 밝히되 매수·매도 권유는 하지 않는다. "무엇이 확인되면 논리가 성립/붕괴하는지"로 끝낸다.
-9. 근거가 없으면 "근거 없음"이라고 짧게 쓴다. 분량을 채우기 위한 서술·추측은 금지.
-10. 한국어로 쓴다. 영문 고유명사·티커·지표명은 원문 그대로 둔다.`
+## 서술 기준 — 독자는 주식 투자를 하는 일반인이다 (2026-10-02 사용자 결정. 이전: 금융 실무자 대상)
+1. 짧게 쓴다. 한 문장은 한 가지 내용만, 60자 안팎. 칸마다 정해진 문장 수 상한을 넘기지 마라.
+2. 결론부터. 첫 문장만 읽어도 "그래서 뭐가 중요한지"가 보이게 쓴다.
+3. 숫자는 결론을 받치는 핵심 1~3개만. 같은 숫자를 칸마다 반복하지 마라. 쓸 때는 단위·기간을 붙인다(예: "분기 매출 1.7억 달러, 1년 전보다 55% 증가").
+4. 전문 용어는 꼭 필요할 때만, 처음 나올 때 괄호로 풀어 준다.
+   예: "가이던스(회사가 내놓은 다음 분기 전망)", "컨센서스(증권사 예상치 평균)", "희석(새 주식 발행으로 기존 주주 몫이 줄어듦)".
+   리레이팅·멀티플·듀레이션·크랙 스프레드처럼 일반인이 모르는 말은 풀어 쓴 표현으로 바꿔라.
+5. 이 시스템 지표 이름(WRS·FRANK·VOL_X·CLS_POS·BBWTHD·F10d·F25d·frank25·stageKo·d50·d200)과 입력 JSON 의 키 이름을 문장에 쓰지 마라.
+   뜻으로 바꿔 쓴다: d50 → "두 달 평균보다 N% 위", d200 → "1년 평균보다 N% 위", FRANK 3위 → "업종 순위 3위",
+   frank25 +25 → "한 달 새 순위 25계단 상승", VOL_X 3.1 → "거래량이 평소의 3.1배".
+6. 영어 업종·섹터 이름은 한국어로(Semiconductors → 반도체). 회사명·티커는 원문 그대로. 영어 문장을 섞지 마라.
+7. 작업 과정은 쓰지 않는다. "제공 자료에 없다", "입력에 없다", "Node", "본문 403", "확인 불가" 같은 설명 금지.
+   모르는 것은 그냥 쓰지 않는다. 근거가 하나도 없을 때만 "근거 없음" 한 마디.
+8. 숫자는 quote나 제공 자료에 실제로 있는 것만 쓴다. 분량을 채우려고 추측하지 마라.
+9. 매수·매도 권유는 하지 않는다. 대신 "무엇이 확인되면 이 이야기가 맞고/틀린지"를 한 문장으로 끝낸다.`
 
 const RULES = `
 반드시 지킬 것:
@@ -97,7 +101,7 @@ F10d ${f.f10 ?? '—'}% · F25d ${f.f25 ?? '—'}% (10·25거래일 전 대비 F
 phase('업종분석')
 const targets = industries.slice(0, CAP)
 const analyzed = await parallel(targets.map((x) => () => tryAgent(
-  `당신은 섹터 로테이션을 분석하는 전략가입니다. 독자는 금융 실무자입니다. 오늘은 ${date}.
+  `당신은 돈이 어느 업종으로 옮겨 가는지 분석하는 담당자입니다. 독자는 일반 투자자입니다. 오늘은 ${date}.
 
 ## 대상 업종 (Node 확정 수치 — 바꾸지 마라)
 ${x.sector} / ${x.industry}   (key: "${x.key}")
@@ -120,7 +124,7 @@ ${RULES}`,
 targets.forEach((t, i) => { if (analyzed[i]) { analyzed[i].key = t.key; analyzed[i].industry = t.industry } })
 
 const SUM = { type: 'object', properties: {
-  rotationView: { type: 'string', description: '지금 자금이 어디서 어디로 움직이는지 한 문단' },
+  rotationView: { type: 'string', description: '지금 돈이 어느 업종에서 어느 업종으로 옮겨 가는지 최대 3문장. 업종 이름은 한국어' },
   strongest: { type: 'object', properties: { industry: { type: 'string' }, why: { type: 'string' } }, required: ['industry', 'why'] },
   emerging: { type: 'array', items: { type: 'string' }, description: '1개월 WRS 가 6개월보다 좋은 신흥 강세 업종' },
   fading: { type: 'array', items: { type: 'string' }, description: '6개월은 좋은데 1개월이 꺾인 업종' },
@@ -238,7 +242,8 @@ ${JSON.stringify(clean.map((x) => ({ industry: x.industry, driver: x.driver, dur
 
 - emerging: **1개월 WRS 가 6개월보다 뚜렷이 높은** 업종 = 새로 돈이 들어오는 곳
 - fading: 6개월은 상위인데 1개월이 꺾인 업종 = 빠져나가는 곳
-입력에 없는 업종이나 사실을 만들지 마라. 웹검색은 하지 않는다. 독자는 금융 실무자다 — 수치를 그대로 인용하고 풀어 쓰지 마라. 한글로.`,
+입력에 없는 업종이나 사실을 만들지 마라. 웹검색은 하지 않는다. 독자는 일반 투자자다 — 핵심 숫자만 쓰고 지표 이름 대신 뜻으로 풀어 써라. 한글로.
+${STYLE}`,
   { label: '섹터종합', phase: '종합', schema: SUM, model: 'sonnet' }
 )
 

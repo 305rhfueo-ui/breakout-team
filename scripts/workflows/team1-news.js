@@ -1,6 +1,6 @@
 export const meta = {
   name: 'bt-team1-news',
-  description: '1팀 시장 뉴스 — 금융 실무자 대상 시황 digest, 출처 링크 필수',
+  description: '1팀 시장 뉴스 — 일반 투자자 대상 시황 정리, 출처 링크 필수',
   whenToUse: 'start breakout 실행 시. 오늘 미국 시장 이슈를 근거 딸린 시황으로 정리할 때',
   phases: [{ title: '시황뉴스', detail: 'Node 가 수집한 RSS 후보를 해석 (URL 창작 불가)' }],
 }

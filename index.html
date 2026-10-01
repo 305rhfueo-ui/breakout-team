@@ -1083,7 +1083,7 @@ function briefing(id){
     } else P.push(`오늘 배제된 종목은 없습니다.`);
     if(bk.length){
       const ok=bk.filter(b=>b.volumeConfirmed).length;
-      P.push(`7주(35봉) 고점을 종가로 넘은 종목이 <b>${bk.length}개</b>이고, 그중 돌파봉 거래량이 20일 평균의 2배 이상인 건 <b>${ok}개</b>입니다.`);
+      P.push(`최근 7주 최고가를 종가로 넘어선 종목이 <b>${bk.length}개</b>이고, 그중 그날 거래량이 평소(20일 평균)의 2배 이상이었던 건 <b>${ok}개</b>입니다.`);
       if(bk.length-ok>0)P.push(`나머지 ${bk.length-ok}개는 거래량 확인이 안 된 종목입니다.`);
       const names=bk.filter(b=>b.volumeConfirmed).slice(0,4).map(b=>b.ticker);
       if(names.length)P.push(`거래량까지 확인된 <b>${names.join(', ')}</b> 를 먼저 보세요.`);
@@ -1107,7 +1107,7 @@ function briefing(id){
     const c=t.counts||{},w=(t.plans||[]).filter(p=>p.watch);
     if(t.regime==='red')P.push(`시장이 빨간불이라 <b>오늘 밤은 새로 사지 않습니다.</b> 아래 목록은 참고용이고, 들고 있는 종목만 규칙대로 관리합니다.`);
     else if(t.regime==='yellow')P.push(`시장이 노란불이라 <b>종목당 위험을 평소의 절반</b>으로 줄였습니다.`);
-    P.push(`후보 ${c.evaluated}종목을 재 봤습니다. 고점(피벗) 아래 ${t.nearAdr} ADR 안에서 쉬고 있는 건 ${c.near}종목이고, 그중 <b>오늘 밤 지켜볼 종목은 ${c.watch}개</b>(A ${c.A} · B ${c.B})입니다.`);
+    P.push(`후보 ${c.evaluated}종목을 재 봤습니다. 최근 고점(넘으면 사는 선) 바로 아래에서 쉬고 있는 건 ${c.near}종목이고, 그중 <b>오늘 밤 지켜볼 종목은 ${c.watch}개</b>(A ${c.A} · B ${c.B})입니다.`);
     if(w.length){
       const p=w[0];
       P.push(`맨 위는 <b>${esc(p.ticker)}</b> 입니다. 지금 ${n(p.price)}달러이고 <b>${n(p.pivot)}달러를 넘으면</b> 삽니다(현재 ${n(p.distToPivotPct,1)}%). 미리 잡아둔 손절은 ${n(p.stop)}달러, 넣는 돈은 계좌의 ${n(p.weightPct,1)}%입니다. 실제로 살 때는 그 시각까지의 당일 저가를 손절로 씁니다.`);
@@ -1116,7 +1116,7 @@ function briefing(id){
     if(c.blocked)P.push(`${c.blocked}종목은 등급 미달·실적 발표 임박·거래대금 부족으로 뺐습니다.`);
     if(!t.earningsOk)P.push(`<b>실적 달력을 받지 못해</b> 발표 직전 종목을 걸러내지 못했습니다. 사기 전에 실적일을 직접 확인하세요.`);
     const s=t.stats;
-    if(s&&s.n)P.push(`지금까지 모의로 ${s.n}번 거래했고 ${n(s.winPct,0)}%를 이겼습니다. 한 번에 평균 ${n(s.avgR)}R 을 벌었습니다(1R = 손절까지의 거리).${s.n<30?` 아직 ${s.n}건이라 <b>성적을 믿을 단계가 아닙니다</b> — 30건이 모일 때까지 규칙을 바꾸지 않습니다.`:''}`);
+    if(s&&s.n)P.push(`지금까지 모의로 ${s.n}번 거래했고 ${n(s.winPct,0)}%를 이겼습니다. 한 번에 평균 ${n(s.avgR)}R 을 벌었습니다(1R = 손절하면 잃는 금액. 2R 이면 그 두 배를 벌었다는 뜻).${s.n<30?` 아직 ${s.n}건이라 <b>성적을 믿을 단계가 아닙니다</b> — 30건이 모일 때까지 규칙을 바꾸지 않습니다.`:''}`);
     else P.push(`모의 거래는 아직 없습니다. 등급이 높다고 더 잘 오른다는 증거도 아직 없습니다 — 성적이 쌓이면 등급별로 따로 보여 드립니다.`);
     P.push(`차트 모양은 제가 판정하지 않습니다. 잰 숫자만 말합니다.`);
     return P.join(' ');
@@ -1556,11 +1556,11 @@ function bodyFor(id){
   let h='';
   if(c.llm&&c.llm.status==='done'){
     h+=`<div class="sec"><h4>오늘 한마디</h4><div class="ko">${esc(c.llm.headline||'')}</div>
-      <div class="note" style="margin-top:8px">${esc(c.llm.marketVerdictKo||'')}</div></div>`;
+      <div style="margin-top:8px">${prose(c.llm.marketVerdictKo||'')}</div></div>`;
     if((c.llm.todayFocus||[]).length)h+=`<div class="sec"><h4>오늘의 포커스</h4>`+
       c.llm.todayFocus.map(f=>`<div style="margin-bottom:9px"><b>${esc(f.ticker)}</b>
         <div class="note">${esc(f.reason)}<br>→ ${esc(f.action)}</div></div>`).join('')+`</div>`;
-    if(c.llm.chartCheckNote)h+=`<div class="sec"><h4>차트에서 확인할 것</h4><div class="note">${esc(c.llm.chartCheckNote)}</div></div>`;
+    if(c.llm.chartCheckNote)h+=`<div class="sec"><h4>차트에서 확인할 것</h4>${prose(c.llm.chartCheckNote)}</div>`;
     // tomorrowWatch 는 리포트에만 있고 대시보드·리서치룸 어디에도 없었다 (감사 3-2)
     if(c.llm.tomorrowWatch)h+=`<div class="sec"><h4>내일 볼 것</h4>${prose(c.llm.tomorrowWatch)}</div>`;
     if(c.llm.caution)h+=`<div class="sec"><h4>주의 · 이 보고의 한계</h4><div class="nosrc">${esc(c.llm.caution)}</div></div>`;

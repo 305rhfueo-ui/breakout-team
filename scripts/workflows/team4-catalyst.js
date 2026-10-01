@@ -64,8 +64,8 @@ const CAT = { type: 'object', properties: {
   ticker: { type: 'string' },
   category: { type: 'number', enum: [1, 2, 3, 4, 5, 6] },
   claims: { type: 'array', items: CLAIM, description: '출처 딸린 근거 최대 4개. 뉴스를 못 찾으면 evidence_level:"no_source", statement:"근거 없음" 하나만' },
-  company: { type: 'string', description: '사업 모델·매출 구성·핵심 고객·현 국면을 밀도 있게 최대 3문장. 금융 실무자 대상' },
-  volumeExplanation: { type: 'string', description: '거래량이 왜 터졌는지 최대 3문장. 언제 무슨 일이 있었고 왜 거래량으로 이어졌는지. claims 의 요약이어야 하며 새 사실을 넣지 마라' },
+  company: { type: 'string', description: '이 회사가 뭘 해서 돈을 버는지 최대 2문장. 실적표 숫자를 나열하지 마라' },
+  volumeExplanation: { type: 'string', description: '거래량이 왜 터졌는지 최대 2문장. 이유를 못 찾았으면 "뚜렷한 뉴스 없이 거래량만 늘었다" 한 문장. 언제 무슨 일이 있었고 왜 거래량으로 이어졌는지. claims 의 요약이어야 하며 새 사실을 넣지 마라' },
   confidence: { type: 'string', enum: ['high', 'medium', 'low'] },
 }, required: ['ticker', 'category', 'claims', 'company', 'volumeExplanation', 'confidence'] }
 
@@ -79,17 +79,21 @@ const CATEGORIES = `
 ⑥ 암묵적 호재 — 표면적 뉴스는 없는데 비정상적 거래량만 터진 경우`
 
 const STYLE = `
-## 서술 기준 — 독자는 재무·회계 전공의 금융 실무자다
-1. 눈높이를 낮추지 마라. 비유·초보자용 요약·"쉽게 말해" 식 풀이는 쓰지 않는다.
-2. 표준 용어는 그대로 쓴다: YoY/QoQ, 가이던스, 컨센서스, EPS, FCF, 마진, 백로그, 크랙 스프레드, PIPE, 전환사채, 희석, 리레이팅, 밸류에이션, RS 백분위, ADR, 50/200일선 이격 등.
-3. 이 시스템 고유 지표(WRS·VOL_X·CLS_POS·BBWTHD·F10d·Congestion)는 처음 한 번만 정의를 붙이고 이후엔 이름만 쓴다. 예: "VOL_X 3.1(거래대금 20일 평균 대비)" → 이후 "VOL_X 3.1".
-4. 원 수치를 생략하지 마라. 제공된 실적표·RS·WRS·이격·거래량 배수·가이던스 수치는 단위와 기간을 붙여 그대로 인용한다. 문단당 숫자 개수 제한은 없다.
-5. 숫자는 quote나 제공 자료에 실제로 있는 것만 쓴다. 근거에 숫자가 없으면 숫자 없이 서술한다.
-6. 구조: 결론 → 근거(출처) → 반대 근거/리스크 → 확인할 조건. 각 항목은 필요한 만큼만, 상한은 지킨다.
-7. 회사 설명은 사업 모델·매출 구성·핵심 고객·현 국면을 밀도 있게 2~3문장. 교과서식 부연 금지.
-8. 판단 근거를 밝히되 매수·매도 권유는 하지 않는다. "무엇이 확인되면 논리가 성립/붕괴하는지"로 끝낸다.
-9. 근거가 없으면 "근거 없음"이라고 짧게 쓴다. 분량을 채우기 위한 서술·추측은 금지.
-10. 한국어로 쓴다. 영문 고유명사·티커·지표명은 원문 그대로 둔다.`
+## 서술 기준 — 독자는 주식 투자를 하는 일반인이다 (2026-10-02 사용자 결정. 이전: 금융 실무자 대상)
+1. 짧게 쓴다. 한 문장은 한 가지 내용만, 60자 안팎. 칸마다 정해진 문장 수 상한을 넘기지 마라.
+2. 결론부터. 첫 문장만 읽어도 "그래서 뭐가 중요한지"가 보이게 쓴다.
+3. 숫자는 결론을 받치는 핵심 1~3개만. 같은 숫자를 칸마다 반복하지 마라. 쓸 때는 단위·기간을 붙인다(예: "분기 매출 1.7억 달러, 1년 전보다 55% 증가").
+4. 전문 용어는 꼭 필요할 때만, 처음 나올 때 괄호로 풀어 준다.
+   예: "가이던스(회사가 내놓은 다음 분기 전망)", "컨센서스(증권사 예상치 평균)", "희석(새 주식 발행으로 기존 주주 몫이 줄어듦)".
+   리레이팅·멀티플·듀레이션·크랙 스프레드처럼 일반인이 모르는 말은 풀어 쓴 표현으로 바꿔라.
+5. 이 시스템 지표 이름(WRS·FRANK·VOL_X·CLS_POS·BBWTHD·F10d·F25d·frank25·stageKo·d50·d200)과 입력 JSON 의 키 이름을 문장에 쓰지 마라.
+   뜻으로 바꿔 쓴다: d50 → "두 달 평균보다 N% 위", d200 → "1년 평균보다 N% 위", FRANK 3위 → "업종 순위 3위",
+   frank25 +25 → "한 달 새 순위 25계단 상승", VOL_X 3.1 → "거래량이 평소의 3.1배".
+6. 영어 업종·섹터 이름은 한국어로(Semiconductors → 반도체). 회사명·티커는 원문 그대로. 영어 문장을 섞지 마라.
+7. 작업 과정은 쓰지 않는다. "제공 자료에 없다", "입력에 없다", "Node", "본문 403", "확인 불가" 같은 설명 금지.
+   모르는 것은 그냥 쓰지 않는다. 근거가 하나도 없을 때만 "근거 없음" 한 마디.
+8. 숫자는 quote나 제공 자료에 실제로 있는 것만 쓴다. 분량을 채우려고 추측하지 마라.
+9. 매수·매도 권유는 하지 않는다. 대신 "무엇이 확인되면 이 이야기가 맞고/틀린지"를 한 문장으로 끝낸다.`
 
 const RULES = `
 반드시 지킬 것:
@@ -108,7 +112,7 @@ const classified = await parallel(targets.map((it) => () => {
   const news =(it.news || []).slice(0, 6).map((x) => `- ${x.date} [${x.publisher}] ${x.title}\n  ${x.url}`).join('\n') || '없음'
   const fil = (it.filings || []).slice(0, 4).map((f) => `- ${f.filingDate} ${(f.itemsKo || []).join(',')}${f.isEarnings ? ' ★실적발표(8-K item 2.02)' : ''} ${f.url}`).join('\n') || '없음'
   return tryAgent(
-    `당신은 Episodic Pivot 촉매를 판별하는 트레이더입니다. 독자는 금융 실무자입니다. 오늘은 ${date}. 종목: ${it.ticker} (${it.sector} / ${it.industry})
+    `당신은 거래량이 갑자기 늘어난 종목에 무슨 호재가 있었는지 찾는 담당자입니다. 독자는 일반 투자자입니다. 오늘은 ${date}. 종목: ${it.ticker} (${it.sector} / ${it.industry})
 
 ## Node 가 확정한 수치 (바꾸지 마라)
 VOL_X ${it.volx} (거래대금 20일평균 대비) · 주간 거래량배수 ${it.volSurgeWk} (당일제외 5일평균 대비)${it.marketCap ? ` · 시총 ${it.marketCap}` : ''}
@@ -233,13 +237,13 @@ const SUM = { type: 'object', properties: {
   highlights: { type: 'array', items: { type: 'object', properties: {
     ticker: { type: 'string' }, category: { type: 'number' }, oneLine: { type: 'string' },
   }, required: ['ticker', 'category', 'oneLine'] } },
-  sectorSignal: { type: 'string', description: '촉매가 특정 섹터·업종에 몰렸는지. 몰리지 않았으면 그렇게 쓴다' },
+  sectorSignal: { type: 'string', description: '호재가 특정 업종에 몰렸는지 최대 2문장. category 번호를 쓰지 말고 "실적 호재 2건"처럼 말로' },
   // watchList("6개월 횡보 후 돌파·리테스트") 는 2026-09-17 삭제 — 가격 히스토리를 주지 않으면서 차트 국면을 묻던 잔재
-  caution: { type: 'string', description: '이 분류의 한계' },
+  caution: { type: 'string', description: '이 분류를 믿을 때 조심할 점 한두 문장' },
 }, required: ['highlights', 'sectorSignal'] }
 
 const summary = await tryAgent(
-  `오늘(${date}) Episodic Pivot 후보를 종합하세요. 독자는 금융 실무자입니다.
+  `오늘(${date}) Episodic Pivot(뚜렷한 호재로 주가가 한 단계 뛰는 것) 후보를 종합하세요. 독자는 일반 투자자입니다.
 
 ${JSON.stringify(clean.map((x) => ({ ticker: x.ticker, category: x.category, categoryName: x.categoryName, corrected: !!x.corrected, claims: (x.claims || []).map((c) => c.statement) })), null, 1)}
 
