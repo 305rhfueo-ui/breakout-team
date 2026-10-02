@@ -1,3 +1,56 @@
 {
-  "items": []
+  "items": [
+    {
+      "ticker": "ALNT",
+      "grade": "C",
+      "forSession": "2026-10-05",
+      "ma10": 111.41,
+      "adrUsd": 5.42646,
+      "dayLow": 117.529,
+      "ctx": {
+        "orh": 5,
+        "pace": 1.97,
+        "ext": 1.84,
+        "levelIs": "hod",
+        "stopIs": "lod",
+        "at": "0935",
+        "pivot": 118.67,
+        "sector": "Technology",
+        "industry": "Electronic Components",
+        "baseWeeks": 7.8,
+        "depthPct": 27.6,
+        "priorMovePct": 102.3,
+        "catalyst": null,
+        "flow": "pending",
+        "regime": "green",
+        "source": "kis"
+      }
+    },
+    {
+      "ticker": "SMTC",
+      "grade": "A",
+      "forSession": "2026-10-05",
+      "ma10": 178.27,
+      "adrUsd": 12.128350000000001,
+      "dayLow": 191.2902,
+      "ctx": {
+        "orh": 60,
+        "pace": 1.55,
+        "ext": 1.91,
+        "levelIs": "hod",
+        "stopIs": "lod",
+        "at": "1035",
+        "pivot": 190.64,
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "baseWeeks": 2.2,
+        "depthPct": 19.7,
+        "priorMovePct": 84.9,
+        "catalyst": null,
+        "flow": "pending",
+        "regime": "green",
+        "source": "kis"
+      }
+    }
+  ]
 }

@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-02",
+  "ticks": 14,
+  "items": {
+    "ECO": {
+      "ticker": "ECO",
+      "at": "1035",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 기준선 87.31 미돌파 (종가 84.68) (1035 ET 기준)",
+      "pace": 0.81,
+      "level": 87.31
+    },
+    "SMTC": {
+      "ticker": "SMTC",
+      "at": "1035",
+      "fired": true,
+      "grade": "A",
+      "ko": "1035 ET · 장중 고가 201.42 위 종가 201.43 · 거래량 페이스 1.55× · 진입 201.83 · 손절 191.29(당일 저가) · 리스크 5.22% · 이격 1.91 ADR",
+      "pace": 1.55,
+      "level": 201.42
+    },
+    "XMTR": {
+      "ticker": "XMTR",
+      "at": "1035",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 기준선 107.93 미돌파 (종가 105.67) (1035 ET 기준)",
+      "pace": 0.87,
+      "level": 107.93
+    },
+    "FEIM": {
+      "ticker": "FEIM",
+      "at": "1035",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 기준선 89.76 미돌파 (종가 86.65) (1035 ET 기준)",
+      "pace": 0.37,
+      "level": 89.76
+    },
+    "NET": {
+      "ticker": "NET",
+      "at": "1035",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 기준선 367.43 미돌파 (종가 350.68) (1035 ET 기준)",
+      "pace": 0.89,
+      "level": 367.43
+    },
+    "NUTX": {
+      "ticker": "NUTX",
+      "at": "1035",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 기준선 224.28 미돌파 (종가 217.3) (1035 ET 기준)",
+      "pace": 0.93,
+      "level": 224.28
+    },
+    "SIMO": {
+      "ticker": "SIMO",
+      "at": "1035",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 기준선 291.16 미돌파 (종가 281.25) (1035 ET 기준)",
+      "pace": 0.82,
+      "level": 291.16
+    },
+    "VLO": {
+      "ticker": "VLO",
+      "at": "1035",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 기준선 419.04 미돌파 (종가 393.68) (1035 ET 기준)",
+      "pace": 1.13,
+      "level": 419.04
+    },
+    "QLYS": {
+      "ticker": "QLYS",
+      "at": "1035",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 기준선 196.72 미돌파 (종가 192.99) (1035 ET 기준)",
+      "pace": 0.82,
+      "level": 196.72
+    },
+    "AMBQ": {
+      "ticker": "AMBQ",
+      "at": "1035",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 기준선 73.08 미돌파 (종가 69.5) (1035 ET 기준)",
+      "pace": 1.05,
+      "level": 73.08
+    },
+    "DINO": {
+      "ticker": "DINO",
+      "at": "1035",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 기준선 118.39 미돌파 (종가 110.71) (1035 ET 기준)",
+      "pace": 1.05,
+      "level": 118.39
+    },
+    "ELF": {
+      "ticker": "ELF",
+      "at": "1035",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 기준선 110.04 미돌파 (종가 103.25) (1035 ET 기준)",
+      "pace": 0.46,
+      "level": 110.04
+    },
+    "SPSC": {
+      "ticker": "SPSC",
+      "at": "1035",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 기준선 89.44 미돌파 (종가 82.64) (1035 ET 기준)",
+      "pace": 1.21,
+      "level": 89.44
+    },
+    "MSTR": {
+      "ticker": "MSTR",
+      "at": "1035",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 기준선 171.19 미돌파 (종가 162.77) (1035 ET 기준)",
+      "pace": 1.37,
+      "level": 171.19
+    },
+    "SNDK": {
+      "ticker": "SNDK",
+      "at": "1035",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 기준선 1909.48 미돌파 (종가 1746.63) (1035 ET 기준)",
+      "pace": 0.87,
+      "level": 1909.48
+    },
+    "ALNT": {
+      "ticker": "ALNT",
+      "at": "0935",
+      "fired": true,
+      "grade": "C",
+      "ko": "0935 ET · 장중 고가 119.78 위 종가 121.42 · 거래량 페이스 1.97× · 진입 121.66 · 손절 117.53(당일 저가) · 리스크 3.4% · 이격 1.84 ADR",
+      "pace": 1.97,
+      "level": 119.78
+    },
+    "TEAM": {
+      "ticker": "TEAM",
+      "at": "1035",
+      "fired": false,
+      "grade": "C",
+      "ko": "대기 — 기준선 200 미돌파 (종가 190.01) (1035 ET 기준)",
+      "pace": 0.52,
+      "level": 200
+    },
+    "FROG": {
+      "ticker": "FROG",
+      "at": "1035",
+      "fired": false,
+      "grade": "C",
+      "ko": "대기 — 기준선 105.76 미돌파 (종가 97.48) (1035 ET 기준)",
+      "pace": 0.84,
+      "level": 105.76
+    },
+    "INTC": {
+      "ticker": "INTC",
+      "at": "1035",
+      "fired": false,
+      "grade": "C",
+      "ko": "대기 — 기준선 127.44 미돌파 (종가 124.96) (1035 ET 기준)",
+      "pace": 0.83,
+      "level": 127.44
+    }
+  }
+}

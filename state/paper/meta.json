@@ -15,6 +15,14 @@
       "fired": [],
       "newMain": 0,
       "nextDone": true
+    },
+    "2026-10-02": {
+      "fired": [
+        "ALNT",
+        "SMTC"
+      ],
+      "newMain": 1,
+      "nextDone": true
     }
   }
 }
