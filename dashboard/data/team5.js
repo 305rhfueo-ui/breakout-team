@@ -521,8 +521,106 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "carried",
+    "status": "done",
     "industries": [
+      {
+        "key": "Technology|Semiconductor Equipment & Materials",
+        "industry": "Semiconductor Equipment & Materials",
+        "lead": "반도체 장비·소재 업종은 AI 칩이 복잡해지며 검사·테스트 장비 수요가 커진 덕에 한 달 새 상위 2%로 올라섰다. FormFactor, Aehr 등 테스트 장비주가 중심이다. 다만 3개월 기준으로는 아직 평범해, 최근 가속 구간이다.",
+        "whyStrong": [
+          {
+            "id": "w2",
+            "statement": "FormFactor는 AI 칩 복잡도 상승의 수혜 종목으로 꼽히며, 9월 30일 Deutsche Bank가 매수 의견으로 분석을 시작했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Deutsche Bank Initiates Coverage of FormFactor with Buy",
+                "publisher": "Fintel (Nasdaq.com)",
+                "url": "https://www.nasdaq.com/articles/deutsche-bank-initiates-coverage-formfactor-buy",
+                "date": "2026-09-30",
+                "quote": "Deutsche Bank Initiates Coverage of FormFactor with Buy",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "technology",
+        "durability": "cyclical",
+        "keyStocks": [
+          "FORM",
+          "COHU",
+          "AXTI",
+          "AEHR"
+        ],
+        "risk": "AI 서버 투자가 줄거나 주문이 일회성으로 끝나면 이 이야기는 깨진다. 후속 주문과 분기 매출이 이어지는지, 한 달 새 오른 주가를 실적이 따라가는지가 확인 지점이다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1",
+            "w3"
+          ],
+          "reason": ""
+        },
+        "researchedOn": "2026-10-02",
+        "carried": false
+      },
+      {
+        "key": "Healthcare|Health Information Services",
+        "industry": "Health Information Services",
+        "lead": "건강정보 서비스는 디지털 건강관리 플랫폼 같은 회사들이 모인 업종입니다. 다만 대표 종목 Hinge Health의 실적 이후 상승이 중심이고, 최근 한 달은 숨 고르기입니다.",
+        "whyStrong": [
+          {
+            "id": "w1",
+            "statement": "대표 종목 Hinge Health(HNGE)는 실적 발표 후 주가가 13.7% 올랐습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Hinge Health Inc. (HNGE) Up 13.7% Since Last Earnings Report: Can It Continue?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/hinge-health-inc-hnge-137-last-earnings-report-can-it-continue",
+                "date": "2026-09-03",
+                "quote": "Hinge Health Inc. (HNGE) Up 13.7% Since Last Earnings Report: Can It Continue?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "Hinge Health는 한 플랫폼에서 여러 질환을 다루는 전략으로 시장의 관심을 받고 있습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "One Platform, Every Ailment: Hinge Health's Gamble",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/one-platform-every-ailment-hinge-healths-gamble",
+                "date": "2026-08-20",
+                "quote": "One Platform, Every Ailment: Hinge Health's Gamble",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "earnings",
+        "durability": "unknown",
+        "risk": "종목이 6개뿐이고 Hinge Health 한 곳에 쏠려 있어, 이 종목의 실적이 실망스러우면 업종 강세가 쉽게 꺾입니다. 두 달 평균선 아래에 있는 종목이 많아, 다시 그 위로 올라서지 못하면 이 이야기는 힘을 잃습니다.",
+        "keyStocks": [
+          "HNGE"
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w3"
+          ],
+          "reason": "",
+          "leadFixed": true
+        },
+        "leadOriginal": "건강정보 서비스는 디지털 건강관리 플랫폼 같은 회사들이 모인 업종입니다. 최근 3~6개월 초과수익이 커서 업종 순위가 한 달 새 17계단 올랐습니다. 다만 대표 종목 Hinge Health의 실적 이후 상승이 중심이고, 최근 한 달은 숨 고르기입니다.",
+        "researchedOn": "2026-10-02",
+        "carried": false
+      },
       {
         "key": "Consumer Cyclical|Department Stores",
         "industry": "Department Stores",
@@ -1196,74 +1294,6 @@ window.TEAM5_DATA = {
         "carried": true
       },
       {
-        "driver": "earnings",
-        "durability": "structural",
-        "industry": "Health Information Services",
-        "key": "Healthcare|Health Information Services",
-        "keyStocks": [
-          "HNGE"
-        ],
-        "lead": "디지털 근골격계(MSK) 헬스케어 플랫폼 Hinge Health(HNGE)는 이 업종 내 유일한 편입 종목으로, 2026년 2분기 매출이 전년동기 대비 53% 증가한 2억1,280만 달러를 기록하며 직전 가이던스(2.00억~2.02억 달러)를 상회했다. 이에 따라 회사는 2026 회계연도 매출·조정영업이익 가이던스를 각각 상향했고, Stifel은 목표주가를 96달러에서 115달러로 올리며 매수(Buy) 의견을 유지했다.",
-        "risk": "Node 자금흐름 지표 기준 이 업종은 현재 국면이 ❄️ 조정 중이며 흐름은 outflow로, 50일선 대비 이격이 -4.73%이고 200일선 이격은 25거래일 동안 -6.95%p 축소됐다. 3개월 WRS 상위 1.44%(0.3587)라는 강한 중기 모멘텀과 달리 10거래일 전 대비 Final_WRS 순위 변화(F10d -3.25%)는 순위 하락 방향을 가리켜, 단기적으로 랠리가 숨 고르기에 들어갔을 가능성이 있다. Stifel의 목표주가 115달러도 2028년 FCF+SBC 기준 20배를 적용한 것으로 현재 22배 멀티플보다 낮아, 추가 리레이팅 여력이 제한적임을 시사한다. 업종 내 종목수는 6개이나 뉴스·2팀 선정 종목 모두 HNGE 한 종목에 집중돼 있어 업종 지표라기보다 단일 종목 이벤트 리스크에 가깝다는 점, 그리고 회사 이사(Director)가 최근 자사주 약 10.6만 달러를 매도했다는 공시(2026-09-04, The Motley Fool)도 참고할 부분이다. 3분기 가이던스(매출 2.23억~2.25억 달러, YoY +45%)가 실제로 충족되고 F10d·F25d 순위가 반등하면 논리가 유지되며, 반대로 outflow 국면이 장기화되고 3분기 실적이 가이던스를 하회하면 논리는 약화된다.",
-        "whyStrong": [
-          {
-            "id": "q2-earnings-beat",
-            "statement": "HNGE의 2026년 2분기 매출은 2억1,280만 달러로 전년동기 대비 53% 증가했고, 조정EPS는 59센트로 Zacks 컨센서스에 부합했다. 이는 직전 가이던스(2.00억~2.02억 달러, YoY +45%)를 상회하는 결과다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "HNGE Q2 Earnings Meet Estimates, Sales Top, '26 View Raised, Stock Up",
-                "publisher": "Zacks (via Yahoo Finance)",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/hnge-q2-earnings-164000260.html",
-                "date": "2026-08(정확한 일자 미확인, 실적발표는 2026-08-11)",
-                "quote": "Hinge Health registered revenues of $212.8 million in the second quarter, up 53% year over year.",
-                "verified": "unverified",
-                "httpStatus": 404
-              }
-            ]
-          },
-          {
-            "id": "fy2026-guidance-raise",
-            "statement": "2분기 실적 발표와 함께 2026 회계연도 매출 가이던스를 기존 7.98억~8.04억 달러에서 8.56억~8.60억 달러로, 조정영업이익 가이던스를 기존 2.17억~2.27억 달러에서 2.36억~2.44억 달러로 각각 상향했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "HNGE Q2 Earnings Meet Estimates, Sales Top, '26 View Raised, Stock Up",
-                "publisher": "Zacks (via Yahoo Finance)",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/hnge-q2-earnings-164000260.html",
-                "date": "2026-08(정확한 일자 미확인)",
-                "quote": "HNGE now expects revenues in the range of $856 million-$860 million, up from the prior outlook of $798 million-$804 million.",
-                "verified": "unverified",
-                "httpStatus": 404
-              }
-            ]
-          },
-          {
-            "id": "stifel-upgrade",
-            "statement": "Stifel은 목표주가를 96달러에서 115달러로 상향하고 매수(Buy) 의견을 유지했다. 2027년 매출 성장률을 컨센서스 27%를 상회하는 33%+로 전망했으며, 전국 단위 페이어 2곳과의 인터뷰에서 Hinge가 참여도·효과 입증·통합 용이성·규모 면에서 최우수 MSK 솔루션으로 평가됐다고 밝혔다. 8월 앱 다운로드는 연중 두 번째로 높은 월간 실적을 기록했고 YTD 기준 전년대비 49% 증가했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Stifel raises Hinge Health stock price target on strong growth outlook",
-                "publisher": "Investing.com",
-                "url": "https://www.investing.com/news/analyst-ratings/stifel-raises-hinge-health-stock-price-target-on-strong-growth-outlook-93CH-4891457",
-                "date": "2026-09 초(정확한 일자 미확인)",
-                "quote": "Stifel raised its price target on Hinge Health Inc (NYSE:HNGE) to $115 from $96 on Tuesday while maintaining a Buy rating",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          }
-        ],
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "researchedOn": "2026-09-15",
-        "carried": true
-      },
-      {
         "driver": "policy",
         "durability": "cyclical",
         "industry": "Healthcare Plans",
@@ -1556,16 +1586,21 @@ window.TEAM5_DATA = {
       }
     ],
     "summary": {
-      "rotationView": "입력된 업종은 Department Stores 하나뿐이라 업종 간 자금 이동(어디서 어디로)은 비교할 수 없다. 이 업종 단독으로는 WRS m1 0.0994 / m3 0.2462 / m6 0.1867, 순위 백분위 m1 1.43 / m3 2.14 / m6 17.86이다. 1개월과 3개월 순위는 모두 상위 3% 이내로 최근 강세가 뚜렷하나, WRS 값 자체는 m3(0.2462)가 가장 높고 m1(0.0994)은 m3보다 낮다. m6 WRS(0.1867)보다도 m1이 낮아 WRS 수치로는 신흥 강세(1개월이 6개월보다 뚜렷이 높음)에 해당하지 않으며, 순위 백분위 기준으로는 m6(17.86)에서 m1(1.43)으로 상대 위치가 상승했다. 조사 결과는 2026-09-02 저평가 백화점주(Kohl's +7%, Macy's +3%)로의 선별적 로테이션이 유입됐다는 것이며, 지속성은 short_term이다. 다만 해당 종목이 이 업종 편입 종목인지는 확인되지 않았다.",
+      "rotationView": "돈이 건강정보 서비스에서 반도체 장비로 옮겨 가는 모습입니다. 반도체 장비는 최근 1개월 상대 강도 0.131로 6개월(0.234)보다 약하지만 순위는 상위 1.4%로 가장 높습니다. 건강정보 서비스는 6개월 순위 상위 2.9%였으나 최근 1개월은 상위 30%로 밀렸습니다.",
       "strongest": {
-        "industry": "Department Stores",
-        "why": "입력 업종 중 유일. 순위 백분위 m1 1.43 / m3 2.14 / m6 17.86으로 단기 상대 위치가 가장 높다. 조사상 driver는 rotation(저평가 백화점주 선별 유입, 2026-09-02), durability는 short_term. 편입 종목 일치 여부는 미확인."
+        "industry": "반도체 장비",
+        "why": "최근 1개월 순위가 상위 1.4%로 두 업종 중 가장 높습니다. FormFactor가 AI 칩이 복잡해지는 흐름의 수혜주로 꼽히고, 9월 30일 Deutsche Bank가 매수 의견으로 분석을 시작했습니다."
       },
-      "emerging": [],
-      "fading": [],
-      "caution": "비교 대상이 1개 업종이라 로테이션 방향은 판단 불가. WRS m1(0.0994)이 m3(0.2462), m6(0.1867)보다 낮아 절대 모멘텀은 둔화 중이며, 지속성은 short_term으로 조사됐다. Kohl's·Macy's가 이 업종 편입 종목인지는 확인되지 않았고 로테이션 근거도 단일 일자(2026-09-02) 뉴스뿐이다."
+      "emerging": [
+        "반도체 장비"
+      ],
+      "fading": [
+        "건강정보 서비스"
+      ],
+      "caution": "반도체 장비는 업황 사이클을 타는 업종이라 AI 칩 수요가 꺾이면 강세가 빨리 식을 수 있고, 건강정보 서비스는 실적 발표 효과가 지나간 일시적 조정일 수도 있습니다."
     },
-    "summaryResearchedOn": "2026-10-01"
+    "summaryResearchedOn": "2026-10-02",
+    "reusedFrom": null
   },
   "flow": {
     "baseline": {
@@ -7880,5 +7915,15 @@ window.TEAM5_DATA = {
         ]
       }
     ]
+  },
+  "research_coverage": {
+    "done": 17,
+    "total": 12,
+    "cap": 6,
+    "pending": 0,
+    "failed": 0,
+    "carried": 15,
+    "ineligible": 0,
+    "note": "그중 15업종은 최근 조사분을 이월했습니다(조사일 표기)."
   }
 };

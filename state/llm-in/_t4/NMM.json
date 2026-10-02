@@ -1,0 +1,85 @@
+{
+ "ticker": "NMM",
+ "news": [
+  {
+   "title": "Navios Maritime (NMM) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/navios-maritime-nmm-q2-2026-earnings-call-transcript",
+   "date": "2026-08-24",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Wednesday 7/22 Insider Buying Report: NMM, CHCO",
+   "url": "https://www.nasdaq.com/articles/wednesday-7-22-insider-buying-report-nmm-chco",
+   "date": "2026-07-22",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Wednesday 7/8 Insider Buying Report: NMM, DLPN",
+   "url": "https://www.nasdaq.com/articles/wednesday-7-8-insider-buying-report-nmm-dlpn",
+   "date": "2026-07-08",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Tuesday 6/23 Insider Buying Report: NMM, GO",
+   "url": "https://www.nasdaq.com/articles/tuesday-6-23-insider-buying-report-nmm-go",
+   "date": "2026-06-23",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Thursday 6/4 Insider Buying Report: NVRI, NMM",
+   "url": "https://www.nasdaq.com/articles/thursday-6-4-insider-buying-report-nvri-nmm",
+   "date": "2026-06-04",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Navios Partners (NMM) Q1 2026 Earnings Transcript",
+   "url": "https://www.nasdaq.com/articles/navios-partners-nmm-q1-2026-earnings-transcript",
+   "date": "2026-05-21",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Friday 5/8 Insider Buying Report: FND, NMM",
+   "url": "https://www.nasdaq.com/articles/friday-5-8-insider-buying-report-fnd-nmm",
+   "date": "2026-05-08",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Jefferies Initiates Coverage of Navios Maritime Partners L.P. - Limited Partnership (NMM) with Buy Recommendation",
+   "url": "https://www.nasdaq.com/articles/jefferies-initiates-coverage-navios-maritime-partners-lp-limited-partnership-nmm-buy",
+   "date": "2026-04-25",
+   "publisher": "Fintel"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 20.6,
+  "saleNy": 1.44,
+  "epsCy": 88.5,
+  "epsNy": -6.45,
+  "cyTrend": 8.04,
+  "nyTrend": 1.13,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    25.22,
+    17.39,
+    9.93
+   ],
+   "ni": [
+    140.07,
+    154.86,
+    23.86
+   ],
+   "opm": [
+    39.64,
+    38.33,
+    38.17
+   ],
+   "updated": "2026-09-08 09:59:06"
+  }
+ }
+}

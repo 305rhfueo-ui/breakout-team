@@ -148,40 +148,40 @@
   },
   "team2": {
     "QLYS": {
-      "last": "2026-09-15",
-      "count": 11
+      "last": "2026-10-02",
+      "count": 12
     },
     "BAND": {
       "last": "2026-09-29",
       "count": 15
     },
     "DELL": {
-      "last": "2026-09-29",
-      "count": 20
+      "last": "2026-10-02",
+      "count": 21
     },
     "OKTA": {
-      "last": "2026-10-01",
-      "count": 12
+      "last": "2026-10-02",
+      "count": 13
     },
     "P": {
-      "last": "2026-09-29",
-      "count": 13
+      "last": "2026-10-02",
+      "count": 14
     },
     "PANW": {
       "last": "2026-09-29",
       "count": 12
     },
     "TWLO": {
-      "last": "2026-08-12",
-      "count": 3
+      "last": "2026-10-02",
+      "count": 4
     },
     "NTAP": {
       "last": "2026-08-12",
       "count": 3
     },
     "CRWD": {
-      "last": "2026-10-01",
-      "count": 9
+      "last": "2026-10-02",
+      "count": 10
     },
     "TEAM": {
       "last": "2026-09-30",
@@ -304,12 +304,12 @@
       "count": 17
     },
     "CORT": {
-      "last": "2026-10-01",
-      "count": 14
+      "last": "2026-10-02",
+      "count": 15
     },
     "AEHR": {
-      "last": "2026-09-17",
-      "count": 8
+      "last": "2026-10-02",
+      "count": 9
     },
     "ORKA": {
       "last": "2026-09-11",
@@ -380,8 +380,8 @@
       "count": 3
     },
     "HNGE": {
-      "last": "2026-10-01",
-      "count": 14
+      "last": "2026-10-02",
+      "count": 15
     },
     "HURN": {
       "last": "2026-08-19",
@@ -508,8 +508,8 @@
       "count": 1
     },
     "SIMO": {
-      "last": "2026-09-29",
-      "count": 5
+      "last": "2026-10-02",
+      "count": 6
     },
     "HCC": {
       "last": "2026-09-03",
@@ -572,8 +572,8 @@
       "count": 1
     },
     "SWKS": {
-      "last": "2026-09-29",
-      "count": 3
+      "last": "2026-10-02",
+      "count": 4
     },
     "DJCO": {
       "last": "2026-09-16",
@@ -604,8 +604,8 @@
       "count": 1
     },
     "SIG": {
-      "last": "2026-10-01",
-      "count": 3
+      "last": "2026-10-02",
+      "count": 4
     },
     "FLXS": {
       "last": "2026-09-16",
@@ -632,8 +632,8 @@
       "count": 2
     },
     "RBRK": {
-      "last": "2026-09-17",
-      "count": 1
+      "last": "2026-10-02",
+      "count": 2
     },
     "BLLN": {
       "last": "2026-09-30",
@@ -664,8 +664,8 @@
       "count": 1
     },
     "FORM": {
-      "last": "2026-10-01",
-      "count": 2
+      "last": "2026-10-02",
+      "count": 3
     },
     "VLO": {
       "last": "2026-09-30",
@@ -754,10 +754,10 @@
       "evid": "3eb416223e9e69e6"
     },
     "DKL": {
-      "last": "2026-09-21",
-      "count": 10,
+      "last": "2026-10-02",
+      "count": 11,
       "cat": 6,
-      "evid": "555d6bb2511276e5"
+      "evid": "659f4239b74d4479"
     },
     "WDAY": {
       "last": "2026-08-14",
@@ -796,8 +796,10 @@
       "count": 1
     },
     "PLBC": {
-      "last": "2026-08-18",
-      "count": 4
+      "last": "2026-10-02",
+      "count": 5,
+      "cat": 6,
+      "evid": "d97ca1a6d25d7d39"
     },
     "HL-B": {
       "last": "2026-08-17",
@@ -837,8 +839,8 @@
       "count": 3
     },
     "MOG.B": {
-      "last": "2026-09-18",
-      "count": 5,
+      "last": "2026-10-02",
+      "count": 6,
       "cat": 6,
       "evid": "ce54437f75527403"
     },
@@ -877,10 +879,10 @@
       "count": 1
     },
     "MGRT": {
-      "last": "2026-10-01",
-      "count": 2,
+      "last": "2026-10-02",
+      "count": 3,
       "cat": 6,
-      "evid": "b498125263055108"
+      "evid": "a703249a2c4a18f1"
     },
     "WSO.B": {
       "last": "2026-09-11",
@@ -1441,14 +1443,16 @@
       "evid": "5121eb088aaac410"
     },
     "UAN": {
-      "last": "2026-09-15",
-      "count": 1,
-      "cat": 6
+      "last": "2026-10-02",
+      "count": 2,
+      "cat": 6,
+      "evid": "432bfd5abf8a7159"
     },
     "NRP": {
-      "last": "2026-09-15",
-      "count": 1,
-      "cat": 6
+      "last": "2026-10-02",
+      "count": 2,
+      "cat": 6,
+      "evid": "ffd06e656eb7190b"
     },
     "MEOH": {
       "last": "2026-09-16",
@@ -1601,10 +1605,10 @@
       "evid": "b3f58e765f22fef2"
     },
     "STNG": {
-      "last": "2026-09-17",
-      "count": 1,
-      "cat": 1,
-      "evid": "fbd5ec84781d6bd4"
+      "last": "2026-10-02",
+      "count": 2,
+      "cat": 6,
+      "evid": "54fa328813a416ed"
     },
     "USB": {
       "last": "2026-09-17",
@@ -1959,6 +1963,66 @@
       "count": 1,
       "cat": 1,
       "evid": "c691901005221105"
+    },
+    "MCK": {
+      "last": "2026-10-02",
+      "count": 1,
+      "cat": 6,
+      "evid": "28c3f227407e617e"
+    },
+    "MSGS": {
+      "last": "2026-10-02",
+      "count": 1,
+      "cat": 6,
+      "evid": "a14a4fec31400576"
+    },
+    "VICR": {
+      "last": "2026-10-02",
+      "count": 1,
+      "cat": 6,
+      "evid": "7c82264b6d0196a7"
+    },
+    "ACN": {
+      "last": "2026-10-02",
+      "count": 1,
+      "cat": 1,
+      "evid": "cb1e5276e8a5febf"
+    },
+    "HURN": {
+      "last": "2026-10-02",
+      "count": 1,
+      "cat": 6,
+      "evid": "7d99bd4a317503e3"
+    },
+    "HSBC": {
+      "last": "2026-10-02",
+      "count": 1,
+      "cat": 6,
+      "evid": "c33777c4bfb9e2af"
+    },
+    "SRCE": {
+      "last": "2026-10-02",
+      "count": 1,
+      "cat": 6,
+      "evid": "b15285c7a3472fe0"
+    },
+    "NMM": {
+      "last": "2026-10-02",
+      "count": 1,
+      "cat": 6,
+      "evid": "4074571c95927705"
+    },
+    "SHG": {
+      "last": "2026-10-02",
+      "count": 1,
+      "cat": 6,
+      "evid": "430acdda2fd1b765"
+    },
+    "MT": {
+      "last": "2026-10-02",
+      "count": 1,
+      "cat": 6,
+      "evid": "ef9f0cc1bdbd42d7"
     }
   },
   "team5": {
@@ -1993,9 +2057,9 @@
       "rankPct6": 1.43
     },
     "Healthcare|Health Information Services": {
-      "last": "2026-09-15",
-      "count": 3,
-      "rankPct6": 10.07
+      "last": "2026-10-02",
+      "count": 4,
+      "rankPct6": 2.86
     },
     "Basic Materials|Agricultural Inputs": {
       "last": "2026-09-16",
@@ -2036,6 +2100,11 @@
       "last": "2026-09-29",
       "count": 1,
       "rankPct6": 6.43
+    },
+    "Technology|Semiconductor Equipment & Materials": {
+      "last": "2026-10-02",
+      "count": 1,
+      "rankPct6": 10.71
     }
   }
 }

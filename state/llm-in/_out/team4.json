@@ -1,1 +1,443 @@
-{"date":"2026-10-01","team":4,"items":[{"ticker":"URI","category":6,"claims":[{"id":"c1","statement":"근거 없음","evidence_level":"no_source","sources":[]}],"company":"United Rentals(URI)는 북미 최대 장비 렌탈 업체로, 건설·산업용 장비 렌탈이 중심인 Industrials / Rental & Leasing Services 종목이다. 시총 65.17B, 최근 3분기(q0/q1/q2) 매출성장 11.84/7.15/2.76%, 영업이익률 25.8/21.81/25%이며 컨센서스는 매출성장 CY 10.23% / NY 8.76%, EPS 성장 CY 17.18% / NY 16.29%다. 현재 150일선 위이나 60일 신고가 돌파는 NO, 52주 고점 대비 88.68%다.","volumeExplanation":"주간 거래량배수 2.64(당일 제외 5일 평균 대비)로 거래량은 늘었으나, 제공된 자료에서 이를 설명할 촉매는 확인되지 않았다. 최근 뉴스는 Zacks 모멘텀·밸류 스크리닝 기사뿐이고, 8-K는 2026-09-08 Reg FD(7.01)가 마지막이며 실적(2.02)은 2026-07-22였다. 근거 없음으로 분류한다.","confidence":"low","factcheck":{"verdict":"pass","removed":[],"reason":"Category 6 correctly assigned. Claim appropriately states no evidence found despite volume increase (2.64 multiple). Supporting details (Zacks screening, past 8-K, earnings date) are accurately cited."},"categoryName":"암묵적(뉴스 없는 이상거래량)","isHighlight":false},{"ticker":"DDS","category":6,"claims":[{"id":"c1","statement":"근거 없음","evidence_level":"no_source","sources":[]}],"company":"Dillard's(DDS)는 미국 중서부·남부 중심의 백화점 체인으로, 의류·화장품·가정용품 소매가 매출 대부분이며 시총은 10.37B이다. 사이트 컨센서스 기준 매출성장 CY 0.5% / NY 1.07%, EPS 성장 CY 2.09% / NY -4.14%로 성장은 정체이고, 최근 3분기 매출성장은 -0.36/2.69/-3.03%, 영업이익률은 8.45/14.3/10.39%이다. 현 국면은 150일선 위, 52주 고점 대비 96.01%이나 60일 신고가 돌파는 아니다(NO).","volumeExplanation":"주간 거래량배수 2.09(당일제외 5일평균 대비)로 거래량은 늘었으나, 제공된 뉴스·8-K에서 이를 설명할 촉매를 확인하지 못했다. 최근 8-K는 2026-08-13 실적발표(item 2.02)와 2026-09-18 건(item 3.01·7.01·9.01)이 있으나 내용 확인 없이 촉매로 판단하지 않는다. 근거 없음이므로 암묵적 호재(⑥)로 분류하며, 확인할 조건은 당일 뉴스 또는 8-K 공시 여부이다.","confidence":"low","factcheck":{"verdict":"pass","removed":[],"reason":"Category 6 correctly assigned. Volume increase (2.09 multiple) without catalyst properly classified. References to 8-K items (2026-08-13, 2026-09-18) are appropriate context but correctly noted as insufficient for catalyst judgment."},"categoryName":"암묵적(뉴스 없는 이상거래량)","isHighlight":false},{"ticker":"DJCO","category":6,"claims":[{"id":"c1","statement":"근거 없음","evidence_level":"no_source","sources":[]}],"company":"Daily Journal Corp(DJCO)는 Technology / Software - Application 업종으로 시총 0.91B이며, 제공 자료에 사업부별 매출 구성·핵심 고객 정보는 없다. 사이트 재무 기준 최근 3분기(q0/q1/q2) 매출성장은 15.25/24.98/10.36%, 영업이익률은 19.52/13.16/2.44%, 순이익은 -175.51/-177.55/-173.22이다. 컨센서스(매출·EPS 성장, 30일 전망 변화)는 모두 공란이며 Target_Status는 NO이다.","volumeExplanation":"거래량 급증을 설명할 뉴스·공시를 제공 자료에서 찾지 못했다. 가장 최근 기사는 2026-08-19(Zacks, Q3 손실), 가장 최근 8-K는 2026-09-11(item 5.03·5.07·8.01·9.01, 실적 아님)이며 2026-10-01 시점과 무관하다. 주간 거래량배수 2.26(당일 제외 5일 평균 대비)만 확인되어 암묵적 호재(⑥)로 분류하며, 원인은 근거 없음이다.","confidence":"low","factcheck":{"verdict":"pass","removed":[],"reason":"Category 6 correctly assigned. Volume evidence (2.26 multiple) lacks supporting catalyst in provided sources. News and 8-K dates correctly noted as unrelated to 2026-10-01 event."},"categoryName":"암묵적(뉴스 없는 이상거래량)","isHighlight":false},{"ticker":"ITW","category":6,"claims":[{"id":"c1","statement":"근거 없음","evidence_level":"no_source","sources":[]}],"company":"Illinois Tool Works는 Specialty Industrial Machinery 업종의 분산형 제조사로, 자동차 부품·식품장비·건설제품 등 다수 사업부를 운영한다. 최근 3분기 매출성장은 6.12/4.61/4.09% YoY, 영업이익률은 26.67/25.4/26.51%이고, 시총은 78.13B이다. 컨센서스 CY 매출 4.89%·EPS 9.21% 성장 수준으로 두 자릿수 성장 국면이 아니며, 52주 고점 대비 90.7%에서 60일 신고가 돌파는 NO이다.","volumeExplanation":"제공된 자료에서 거래량 급증을 설명하는 촉매는 확인되지 않았다. 마지막 실적 8-K(item 2.02)는 2026-07-28이며 이후 뉴스는 Zacks 등급 상향(2026-09-29)과 200일선 하회(2026-09-09)뿐이다. 따라서 6분류 중 암묵적 호재(⑥)로 분류하며, 일반 이벤트성 근거는 없다.","confidence":"low","factcheck":{"verdict":"pass","removed":[],"reason":"Category 6 correctly assigned. Volume event lacks catalyst evidence. Last earnings (2026-07-28) and Zacks upgrade (2026-09-29) are properly distinguished as non-catalysts for the specific volume increase."},"categoryName":"암묵적(뉴스 없는 이상거래량)","isHighlight":false},{"ticker":"FDS","category":1,"claims":[{"id":"c1","statement":"2026-09-30 프리마켓에 FY4Q(8월 결산) 실적을 발표했고 Zacks 는 매출·EPS 모두 컨센서스를 상회했다고 보도했다. 구체 수치(서프라이즈율·가이던스)는 원문을 열람하지 못해 근거 없음.","evidence_level":"sourced","sources":[{"title":"FactSet Research (FDS) Tops Q4 Earnings and Revenue Estimates","publisher":"Zacks","url":"https://www.nasdaq.com/articles/factset-research-fds-tops-q4-earnings-and-revenue-estimates","date":"2026-09-30","quote":"FactSet Research (FDS) Tops Q4 Earnings and Revenue Estimates"}]}],"company":"FactSet(FDS)은 금융 데이터·분석 구독 서비스를 기관 투자자·자산운용사·IB 에 판매하는 Financial Data 업체로 시총 9.71B, 8월 결산이다. 사이트 컨센서스 기준 매출성장 CY 6.43% / NY 5.85%, EPS 성장 CY 5.01% / NY 10.62%이고 최근 3분기 매출성장 6.39/7.07/6.85%, 영업이익률 26.7/30.27/31.61%, 순이익 -14.69/-8.15/1.71로 저성장·마진 회복 국면이다. 150일선 위지만 52주 고점 대비 83.52%, 60일 신고가 돌파 NO.","volumeExplanation":"2026-09-30 프리마켓 FY4Q 실적 발표에서 Zacks 가 매출·EPS 컨센서스 상회를 보도했고, 이 실적 이벤트가 주간 거래량배수 2.09(당일제외 5일평균 대비)로 이어진 것으로 본다. 다만 VOL_X 는 null, CLS_POS 0, 신고가 돌파 NO 로 가격 반응은 강하지 않았다. 서프라이즈 폭과 가이던스는 확인하지 못했다.","confidence":"medium","factcheck":{"verdict":"partial","removed":["c2"],"reason":"c2 statement claims 'Item 5.02(임원 변동) 8-K 가 9/25 에 별도로 제출' but provided SEC quote shows only 'items 2.02 / 5.03 / 9.01' dated 2026-09-30. Dates 9/25 and Item 5.02 do not appear in the provided source quote and must be removed. Category 1 (earnings) remains adequately supported by c1—Zacks article confirming FDS beat both EPS and revenue estimates on 2026-09-30."},"categoryName":"어닝 서프라이즈/가이던스 상향","isHighlight":true},{"ticker":"SENEB","category":6,"claims":[{"id":"c1","statement":"근거 없음","evidence_level":"no_source","sources":[]}],"company":"Seneca Foods(SENEB)는 과일·채소 통조림을 가공·판매하는 Consumer Defensive / Packaged Foods 업체로, SENEB 는 시총 1.27B 규모의 종목이다. 컨센서스 매출성장은 CY 14.06% / NY 2.32%, EPS 성장 컨센서스는 제공되지 않았다. 현 국면은 150일선 위, 52주 고점 대비 89.88% 이며 60일 신고가 돌파는 NO 다.","volumeExplanation":"주간 거래량배수 3.16(당일제외 5일평균 대비)으로 거래량이 증가했으나 VOL_X(거래대금 20일 평균 대비)는 산출되지 않았다. 수집된 뉴스는 0건이고, 최근 8-K는 정관 변경(5.03, 2026-09-21)과 주주총회 표결(5.07, 2026-08-11)뿐이어서 실적·계약 등 촉매로 볼 근거가 없다. 따라서 암묵적 호재(⑥)로 분류하며 확인된 원인은 없다.","confidence":"low","factcheck":{"verdict":"pass","removed":[],"reason":"근거 없음으로 표시된 ⑥분류가 적절함. 뉴스 없고 8-K는 정관·주총만."},"categoryName":"암묵적(뉴스 없는 이상거래량)","isHighlight":false},{"ticker":"MGRT","category":6,"claims":[{"id":"c1","statement":"근거 없음","evidence_level":"no_source","sources":[]}],"company":"MGRT(Mega Fortune Company Limited)는 Information Technology Services 업종의 소형주로, 2025-07 IPO(조달 $15M)를 마쳤고 시총은 1.62B이다. 제공된 자료에는 매출 구성·핵심 고객·실적표(SEC financials null)·컨센서스(매출/EPS 성장 전부 —)가 없어 사업 모델을 확인할 수 없다.","volumeExplanation":"제공된 뉴스(2025-07 IPO, 2026-04 주가 3배 상승 기사, 2026-06 과매도 기사)와 8-K(filings 비어 있음)·국내 리포트(0건) 어디에도 2026-10-01 거래량 급증을 설명하는 촉매가 없다. 주간 거래량배수 3.57(당일 제외 5일평균 대비)이 확인되나 원인은 근거 없음이며, 암묵적 호재(⑥)로 분류한다.","confidence":"low","factcheck":{"verdict":"pass","removed":[],"reason":"근거 없음으로 표시된 ⑥분류가 적절함. 과거 뉴스와 무관한 현재 거래량 급증."},"categoryName":"암묵적(뉴스 없는 이상거래량)","isHighlight":false},{"ticker":"IDT","category":1,"claims":[{"id":"c1","statement":"IDT 는 2026-09-28 에 FY2026(7/31 종료) 4분기·연간 실적을 8-K Item 2.02 로 발표했다. 실적 수치(매출·EPS·가이던스)는 8-K 본문에 없고 Exhibit 99.1 에 있어 이번에 확인하지 못했다.","evidence_level":"sourced","sources":[{"title":"IDT Corporation Form 8-K (Item 2.02, 9.01)","publisher":"SEC EDGAR","url":"https://www.sec.gov/Archives/edgar/data/1005731/000143774926031364/idt20260424_8k.htm","date":"2026-09-28","quote":"On September 28, 2026, IDT Corporation (the \"Registrant\") issued a press release announcing its results of operations for its fiscal quarter and fiscal year ended July 31, 2026."}]},{"id":"c2","statement":"실적 발표 직후인 9/29 에 Motley Fool 이 주가 급등 기사를 냈다. 기사 본문은 열람 시간 초과로 읽지 못해 상승 원인 문장·수치는 확인하지 못했다.","evidence_level":"sourced","sources":[{"title":"Why IDT Stock Is Rocketing Higher Today","publisher":"The Motley Fool","url":"https://www.nasdaq.com/articles/why-idt-stock-rocketing-higher-today","date":"2026-09-29","quote":"Why IDT Stock Is Rocketing Higher Today"}]},{"id":"c3","statement":"반대 근거: 컨센서스는 매출 CY -3.46%·NY -2.47%, 30일 전망 변화 0%, 최근 3분기 매출성장 4.55/5.66/4.26%, 영업이익률 9.44/8.5/9.58% 로 두 자릿수 성장 패턴은 아니다. 60일 신고가 돌파 NO, CLS_POS 0 으로 거래량 당일 종가는 약했다.","evidence_level":"no_source","sources":[]}],"company":"IDT 는 국제 통화(BOSS Revolution·Carrier Services)와 net2phone(UCaaS·CPaaS), fintech(BOSS Money), NRS(결제·광고) 등을 운영하는 통신·핀테크 복합기업으로 시총 1.88B 다. 최근 3분기 매출성장은 4.55/5.66/4.26% 로 한 자릿수이며 영업이익률은 9.44/8.5/9.58% 다. 2026-08 에는 net2phone 스핀오프를 시장 개선 때까지 연기한다는 보도가 있었고, 현 국면은 FY2026 4분기 실적 발표(9/28) 직후다.","volumeExplanation":"9/28 FY2026 4분기 실적 8-K 발표 후 9/29 Motley Fool 이 급등 기사를 냈고, 이 실적 반응이 주간 거래량배수 2.46(당일제외 5일평균 대비)으로 이어졌을 가능성이 높다. 다만 실적 수치와 기사 본문을 확인하지 못해 서프라이즈 여부와 상승 사유는 근거 없음이며, 분류 ①은 시점 일치에 근거한 잠정 판정이다. 60일 신고가 미돌파·CLS_POS 0 이므로 확인할 조건은 Exhibit 99.1 의 매출·EPS 컨센서스 대비와 가이던스 여부다.","confidence":"low","factcheck":{"verdict":"pass","removed":[],"reason":"8-K Item 2.02(2026-09-28)와 Motley Fool 기사(2026-09-29)로 ①분류 근거 충분. 시점 일치 확인."},"categoryName":"어닝 서프라이즈/가이던스 상향","isHighlight":true}],"summary":{"highlights":[{"ticker":"FDS","category":1,"oneLine":"2026-09-30 프리마켓 FY4Q(8월 결산) 실적 발표, Zacks 는 매출·EPS 모두 컨센서스 상회로 보도. 서프라이즈율·가이던스 수치는 원문 미열람으로 근거 없음."},{"ticker":"IDT","category":1,"oneLine":"2026-09-28 FY2026(7/31 종료) 4분기·연간 실적을 8-K Item 2.02 로 발표, 수치는 Exhibit 99.1 미확인으로 근거 없음. 9/29 Motley Fool 급등 기사는 본문 미열람. 반대 근거: 컨센서스 매출 CY -3.46%·NY -2.47%, 30일 전망 변화 0%, 최근 3분기 매출성장 4.55/5.66/4.26%, 60일 신고가 돌파 NO, CLS_POS 0."}],"sectorSignal":"촉매가 특정 섹터·업종에 몰리지 않았다. category 1 은 FDS·IDT 2건뿐이고 업종이 서로 다르며 입력에 업종 정보도 없다. category 5(산업 기술 돌파)는 0건이다. 나머지 7건(URI·DDS·DJCO·ITW·SENEB·MGRT 등)은 뉴스 없는 이상거래량(category 6)으로 근거 없음이다.","caution":"이 분류는 뉴스·공시 자료 존재 여부만 반영한다. FDS 는 Zacks 보도 한 줄, IDT 는 8-K 본문(수치 없음)에 근거해 서프라이즈 크기·가이던스 상향 여부를 확인하지 못했고, IDT 는 컨센서스·마진 데이터가 오히려 반대 방향이다. 차트 국면은 가격 데이터를 받지 않아 판정하지 않았다. 사용자가 원문(FDS 실적 자료, IDT Exhibit 99.1)과 차트를 직접 확인한 뒤 판단해야 한다."},"byCategory":{"1":2,"6":6},"failed":[],"coverage":{"done":8,"total":8,"cap":8,"failed":0}}
+{
+ "date": "2026-10-02",
+ "team": 4,
+ "items": [
+  {
+   "ticker": "PLBC",
+   "category": 6,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "company": "PLBC는 캘리포니아 북부·네바다 지역에서 영업하는 지역은행(Plumas Bancorp)입니다. 예금과 대출의 이자 차이로 돈을 법니다.",
+   "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": ""
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "ticker": "DKL",
+   "category": 6,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "company": "DKL(Delek Logistics Partners)은 정유·에너지 기업 인근의 원유·정제제품 파이프라인과 저장, 유통 설비를 운영하며 이용료로 돈을 번다.",
+   "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": ""
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "ticker": "MCK",
+   "category": 6,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "company": "McKesson은 병원·약국에 의약품과 의료용품을 공급하는 미국 최대 수준의 의약품 유통회사다. 유통 마진과 의료 서비스로 돈을 번다.",
+   "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": ""
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "ticker": "MOG.B",
+   "category": 6,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "company": "항공기·방산용 정밀 제어장치(모션 컨트롤)를 만들어 파는 회사다. 항공우주·방산이 주 매출이다.",
+   "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": ""
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "ticker": "MSGS",
+   "category": 6,
+   "claims": [
+    {
+     "id": "none",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "company": "뉴욕 닉스(NBA)와 레인저스(NHL)를 소유한 스포츠 구단 지주회사로, 경기 입장권·중계권료·스폰서십으로 돈을 번다.",
+   "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "c1",
+     "c2"
+    ],
+    "reason": "Claim c1: quote에 '10월 26일', '계약 5건', '레인저스', 'Spinco' 없음. Claim c2: quote에 '이사 5명', '아이작 토머스', '0.5주' 없음. 제거 후 검증된 근거 없어 category 4는 부당 → 6으로 정정. volumeExplanation의 구체적 사실(분할 계약, 이사회 개편, 10월 26일 분배일) 역시 제거된 주장에서만 나온 내용이므로 제거."
+   },
+   "originalCategory": 4,
+   "corrected": true,
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "ticker": "VICR",
+   "category": 6,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "company": "Vicor는 데이터센터·AI 서버 등에 들어가는 전력 변환 모듈을 만들어 파는 전자부품 회사입니다. 특허 소송에 따른 로열티 수입도 있습니다.",
+   "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": ""
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "ticker": "ACN",
+   "category": 1,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "10월 1일 장 시작 전에 분기(4분기) 실적을 발표했고, 이익과 매출 모두 증권사 예상치를 웃돌았다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Accenture (ACN) Tops Q4 Earnings and Revenue Estimates",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/accenture-acn-tops-q4-earnings-and-revenue-estimates",
+       "date": "2026-10-01",
+       "quote": "Accenture (ACN) Tops Q4 Earnings and Revenue Estimates"
+      }
+     ]
+    },
+    {
+     "id": "c2",
+     "statement": "같은 날 SEC에 실적 발표 공시(8-K)가 제출됐다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Accenture 8-K (Item 2.02 실적 발표)",
+       "publisher": "SEC EDGAR",
+       "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000037/acn-20261001.htm",
+       "date": "2026-10-01",
+       "quote": "8-K, items 2.02, 9.01, filingDate 2026-10-01"
+      }
+     ]
+    },
+    {
+     "id": "c3",
+     "statement": "실적 발표 뒤 주가가 급등했다는 분석 기사가 나왔다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Should Investors Chase Accenture (ACN) Stock After Its Post-Earnings Surge?",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/should-investors-chase-accenture-acn-stock-after-its-post-earnings-surge",
+       "date": "2026-10-01",
+       "quote": "Should Investors Chase Accenture (ACN) Stock After Its Post-Earnings Surge?"
+      }
+     ]
+    }
+   ],
+   "company": "Accenture는 기업에 IT 컨설팅·시스템 구축·운영 대행 서비스를 제공해 돈을 번다.",
+   "volumeExplanation": "10월 1일 분기 실적이 예상치를 웃돌아 주가가 급등하며 거래량이 늘었다. 이 이야기가 맞는지는 다음 분기 전망(가이던스)이 유지되는지로 확인된다.",
+   "confidence": "medium",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": ""
+   },
+   "categoryName": "어닝 서프라이즈/가이던스 상향",
+   "isHighlight": true
+  },
+  {
+   "ticker": "UAN",
+   "category": 6,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "company": "CVR Partners는 미국에서 질소 비료(요소·암모니아 등)를 만들어 파는 회사다. 비료 가격이 오르면 이익이 크게 늘고 내리면 줄어드는 구조다.",
+   "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": ""
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "ticker": "HURN",
+   "category": 6,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "company": "Huron Consulting은 의료·교육·기업 고객에게 경영 컨설팅과 디지털 서비스를 제공해 수수료로 돈을 번다.",
+   "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": ""
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "ticker": "NRP",
+   "category": 6,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "company": "Natural Resource Partners는 미국 석탄·소다회 광산의 광물 소유권을 갖고, 채굴 업체에서 받는 사용료로 돈을 법니다. 에너지 업종의 석탄 관련 기업입니다.",
+   "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": ""
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "ticker": "HSBC",
+   "category": 6,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "company": "HSBC는 영국 런던에 본사를 둔 세계적 은행입니다. 홍콩·아시아의 대출과 자산관리 수수료로 주로 돈을 법니다.",
+   "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": "category 6(근거 없음)이 올바름. statement '근거 없음', sources 비어있음, volumeExplanation 일관성 있음"
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "ticker": "STNG",
+   "category": 6,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "company": "Scorpio Tankers는 휘발유·경유 같은 정제유를 실어 나르는 유조선을 운영하고, 운임(선박 하루 빌려주는 값)으로 돈을 법니다.",
+   "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": "category 6(근거 없음)이 올바름. statement '근거 없음', sources 비어있음, volumeExplanation 일관성 있음"
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "ticker": "SRCE",
+   "category": 6,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "company": "미국 인디애나주 1st Source Bank 를 거느린 지역 은행 지주사로, 대출과 예금 이자 수익으로 돈을 법니다.",
+   "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": "category 6(근거 없음)이 올바름. statement '근거 없음', sources 비어있음, volumeExplanation 일관성 있음"
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "ticker": "MGRT",
+   "category": 6,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "company": "Mega Fortune(MGRT)는 사물인터넷(IoT) 솔루션과 IT 서비스를 제공하는 지주회사다. 시가총액은 약 14.5억 달러다.",
+   "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": "category 6(근거 없음)이 올바름. statement '근거 없음', sources 비어있음, volumeExplanation 일관성 있음"
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "ticker": "NMM",
+   "category": 6,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "company": "Navios Maritime Partners는 건화물선·컨테이너선·유조선을 소유해 기업에 장기 용선(배를 빌려주는 계약)하고 받는 임대료로 돈을 번다.",
+   "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": "category 6(근거 없음)이 올바름. statement '근거 없음', sources 비어있음, volumeExplanation 일관성 있음"
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "ticker": "SHG",
+   "category": 6,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "company": "신한금융그룹은 한국의 대형 금융지주로, 은행·카드·증권·보험 사업에서 이자와 수수료로 돈을 번다. 미국에는 ADR(예탁증서)로 상장돼 있다.",
+   "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": ""
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "ticker": "MT",
+   "category": 6,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "company": "아르셀로미탈(MT)은 세계적인 철강 제조사로, 철강 판매로 돈을 번다.",
+   "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": ""
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  }
+ ],
+ "summary": {
+  "highlights": [
+   {
+    "ticker": "ACN",
+    "category": 1,
+    "oneLine": "10월 1일 장 전 4분기 실적 발표, 이익·매출 모두 예상치를 웃돌아 주가 급등"
+   }
+  ],
+  "sectorSignal": "실적 호재는 1건(ACN)뿐이라 특정 업종 쏠림은 판단할 수 없다. 산업 기술 돌파 호재는 없고, 나머지 16건은 뉴스 근거가 없는 거래량 급증이다.",
+  "caution": "17건 중 16건은 호재 근거 없이 거래량만 튄 종목이라 호재로 읽으면 안 된다. ACN 도 실적 근거만 확인된 것이며 차트 상태는 보지 않았으니 직접 확인해야 한다."
+ },
+ "byCategory": {
+  "1": 1,
+  "6": 16
+ },
+ "failed": [],
+ "coverage": {
+  "done": 17,
+  "total": 17,
+  "cap": 17,
+  "failed": 0
+ }
+}

@@ -1,1 +1,115 @@
-{"date":"2026-10-01","team":5,"industries":[{"key":"Consumer Cyclical|Department Stores","industry":"Department Stores","lead":"Department Stores 는 업종 내 종목이 1개뿐이라 업종 WRS 가 단일 종목 RS 와 같다. 9월 초 저평가 백화점주로의 로테이션이 확인되나, 이 업종 편입 종목이 무엇인지는 제공 자료에 없어 개별 촉매는 특정하지 못했다.","whyStrong":[{"id":"w2","statement":"2026-09-02 저평가 백화점주(Kohl's, Macy's)로 로테이션이 유입됐다. Kohl's +7%, Macy's +3%. 섹터 전반 강세가 아닌 선별적 로테이션이다. 단 이 업종의 편입 종목이 이들인지는 확인되지 않았다.","evidence_level":"sourced","sources":[{"title":"Kohl's Rallies 7% on Rotation Into Beaten-Down Retail, Macy's Climbs 3%, Abercrombie & Fitch Slips","publisher":"24/7 Wall St.","url":"https://247wallst.com/investing/2026/09/02/kohls-rallies-7-on-rotation-into-beaten-down-retail-macys-climbs-3-abercrombie-fitch-slips/","date":"2026-09-02","quote":"Buyers are piling into the retail sector's most beaten-down department store names this week"}]}],"driver":"rotation","durability":"short_term","risk":"종목 1개 업종이라 단일 종목 이벤트가 곧 업종 WRS 다. 로테이션이 밸류에이션 갭 기반이므로 모멘텀 종목(Abercrombie 등)으로 자금이 되돌아가면 약해진다. Macy's 사례처럼 가이던스 상향에도 주가가 5% 하락한 점은 호재 선반영을 시사한다. 컨센서스 상향 n=4, 25거래일 F25d 654.5% 는 분모 왜곡이라 의미가 제한적이다. 50일선 이격 중앙값 9.98% 가 축소되고 순위가 FRANK 92 에서 하락하면 논리가 깨진다.","keyStocks":[],"factcheck":{"verdict":"partial","removed":["w1","w3"],"reason":"w1은 evidence_level='no_source'로 quote와 출처가 없으므로 statement의 수치(FRANK 92, 이격 %, 컨센서스 상향비율)를 검증 불가. w3는 statement에 '비교매출 가이던스 1~1.5%, EPS $2.15~2.35'라는 구체 수치가 있으나, 제공된 quote('Macy's Sinks 5% Despite Raised Full-Year Outlook...')와 title에 이 수치들이 없음. 제거 후 correctedLead는 WRS 수치 부분('1개월 0.0994 는 상위 1.43%, 3개월 0.2462 는 상위 2.14%')을 제거. 이 수치는 whyStrong 어디에도 출처가 없으므로 근거 불명확.","leadFixed":true},"leadOriginal":"Department Stores 는 업종 내 종목이 1개뿐이라 업종 WRS 가 단일 종목 RS 와 같다. WRS(업종 내 시총가중 평균 RS, QQQ 대비 초과수익률) 1개월 0.0994 는 상위 1.43%, 3개월 0.2462 는 상위 2.14%다. 9월 초 저평가 백화점주로의 로테이션이 확인되나, 이 업종 편입 종목이 무엇인지는 제공 자료에 없어 개별 촉매는 특정하지 못했다."}],"summary":{"rotationView":"입력된 업종은 Department Stores 하나뿐이라 업종 간 자금 이동(어디서 어디로)은 비교할 수 없다. 이 업종 단독으로는 WRS m1 0.0994 / m3 0.2462 / m6 0.1867, 순위 백분위 m1 1.43 / m3 2.14 / m6 17.86이다. 1개월과 3개월 순위는 모두 상위 3% 이내로 최근 강세가 뚜렷하나, WRS 값 자체는 m3(0.2462)가 가장 높고 m1(0.0994)은 m3보다 낮다. m6 WRS(0.1867)보다도 m1이 낮아 WRS 수치로는 신흥 강세(1개월이 6개월보다 뚜렷이 높음)에 해당하지 않으며, 순위 백분위 기준으로는 m6(17.86)에서 m1(1.43)으로 상대 위치가 상승했다. 조사 결과는 2026-09-02 저평가 백화점주(Kohl's +7%, Macy's +3%)로의 선별적 로테이션이 유입됐다는 것이며, 지속성은 short_term이다. 다만 해당 종목이 이 업종 편입 종목인지는 확인되지 않았다.","strongest":{"industry":"Department Stores","why":"입력 업종 중 유일. 순위 백분위 m1 1.43 / m3 2.14 / m6 17.86으로 단기 상대 위치가 가장 높다. 조사상 driver는 rotation(저평가 백화점주 선별 유입, 2026-09-02), durability는 short_term. 편입 종목 일치 여부는 미확인."},"emerging":[],"fading":[],"caution":"비교 대상이 1개 업종이라 로테이션 방향은 판단 불가. WRS m1(0.0994)이 m3(0.2462), m6(0.1867)보다 낮아 절대 모멘텀은 둔화 중이며, 지속성은 short_term으로 조사됐다. Kohl's·Macy's가 이 업종 편입 종목인지는 확인되지 않았고 로테이션 근거도 단일 일자(2026-09-02) 뉴스뿐이다."},"failed":[],"coverage":{"done":1,"total":1,"cap":6,"failed":0}}
+{
+ "date": "2026-10-02",
+ "team": 5,
+ "industries": [
+  {
+   "key": "Technology|Semiconductor Equipment & Materials",
+   "industry": "Semiconductor Equipment & Materials",
+   "lead": "반도체 장비·소재 업종은 AI 칩이 복잡해지며 검사·테스트 장비 수요가 커진 덕에 한 달 새 상위 2%로 올라섰다. FormFactor, Aehr 등 테스트 장비주가 중심이다. 다만 3개월 기준으로는 아직 평범해, 최근 가속 구간이다.",
+   "whyStrong": [
+    {
+     "id": "w2",
+     "statement": "FormFactor는 AI 칩 복잡도 상승의 수혜 종목으로 꼽히며, 9월 30일 Deutsche Bank가 매수 의견으로 분석을 시작했다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Deutsche Bank Initiates Coverage of FormFactor with Buy",
+       "publisher": "Fintel (Nasdaq.com)",
+       "url": "https://www.nasdaq.com/articles/deutsche-bank-initiates-coverage-formfactor-buy",
+       "date": "2026-09-30",
+       "quote": "Deutsche Bank Initiates Coverage of FormFactor with Buy"
+      }
+     ]
+    }
+   ],
+   "driver": "technology",
+   "durability": "cyclical",
+   "keyStocks": [
+    "FORM",
+    "COHU",
+    "AXTI",
+    "AEHR"
+   ],
+   "risk": "AI 서버 투자가 줄거나 주문이 일회성으로 끝나면 이 이야기는 깨진다. 후속 주문과 분기 매출이 이어지는지, 한 달 새 오른 주가를 실적이 따라가는지가 확인 지점이다.",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "w1",
+     "w3"
+    ],
+    "reason": ""
+   }
+  },
+  {
+   "key": "Healthcare|Health Information Services",
+   "industry": "Health Information Services",
+   "lead": "건강정보 서비스는 디지털 건강관리 플랫폼 같은 회사들이 모인 업종입니다. 다만 대표 종목 Hinge Health의 실적 이후 상승이 중심이고, 최근 한 달은 숨 고르기입니다.",
+   "whyStrong": [
+    {
+     "id": "w1",
+     "statement": "대표 종목 Hinge Health(HNGE)는 실적 발표 후 주가가 13.7% 올랐습니다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Hinge Health Inc. (HNGE) Up 13.7% Since Last Earnings Report: Can It Continue?",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/hinge-health-inc-hnge-137-last-earnings-report-can-it-continue",
+       "date": "2026-09-03",
+       "quote": "Hinge Health Inc. (HNGE) Up 13.7% Since Last Earnings Report: Can It Continue?"
+      }
+     ]
+    },
+    {
+     "id": "w2",
+     "statement": "Hinge Health는 한 플랫폼에서 여러 질환을 다루는 전략으로 시장의 관심을 받고 있습니다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "One Platform, Every Ailment: Hinge Health's Gamble",
+       "publisher": "MarketBeat",
+       "url": "https://www.nasdaq.com/articles/one-platform-every-ailment-hinge-healths-gamble",
+       "date": "2026-08-20",
+       "quote": "One Platform, Every Ailment: Hinge Health's Gamble"
+      }
+     ]
+    }
+   ],
+   "driver": "earnings",
+   "durability": "unknown",
+   "risk": "종목이 6개뿐이고 Hinge Health 한 곳에 쏠려 있어, 이 종목의 실적이 실망스러우면 업종 강세가 쉽게 꺾입니다. 두 달 평균선 아래에 있는 종목이 많아, 다시 그 위로 올라서지 못하면 이 이야기는 힘을 잃습니다.",
+   "keyStocks": [
+    "HNGE"
+   ],
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "w3"
+    ],
+    "reason": "",
+    "leadFixed": true
+   },
+   "leadOriginal": "건강정보 서비스는 디지털 건강관리 플랫폼 같은 회사들이 모인 업종입니다. 최근 3~6개월 초과수익이 커서 업종 순위가 한 달 새 17계단 올랐습니다. 다만 대표 종목 Hinge Health의 실적 이후 상승이 중심이고, 최근 한 달은 숨 고르기입니다."
+  }
+ ],
+ "summary": {
+  "rotationView": "돈이 건강정보 서비스에서 반도체 장비로 옮겨 가는 모습입니다. 반도체 장비는 최근 1개월 상대 강도 0.131로 6개월(0.234)보다 약하지만 순위는 상위 1.4%로 가장 높습니다. 건강정보 서비스는 6개월 순위 상위 2.9%였으나 최근 1개월은 상위 30%로 밀렸습니다.",
+  "strongest": {
+   "industry": "반도체 장비",
+   "why": "최근 1개월 순위가 상위 1.4%로 두 업종 중 가장 높습니다. FormFactor가 AI 칩이 복잡해지는 흐름의 수혜주로 꼽히고, 9월 30일 Deutsche Bank가 매수 의견으로 분석을 시작했습니다."
+  },
+  "emerging": [
+   "반도체 장비"
+  ],
+  "fading": [
+   "건강정보 서비스"
+  ],
+  "caution": "반도체 장비는 업황 사이클을 타는 업종이라 AI 칩 수요가 꺾이면 강세가 빨리 식을 수 있고, 건강정보 서비스는 실적 발표 효과가 지나간 일시적 조정일 수도 있습니다."
+ },
+ "failed": [],
+ "coverage": {
+  "done": 2,
+  "total": 2,
+  "cap": 6,
+  "failed": 0
+ }
+}

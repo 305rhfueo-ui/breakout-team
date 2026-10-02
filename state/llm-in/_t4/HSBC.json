@@ -1,0 +1,67 @@
+{
+ "ticker": "HSBC",
+ "news": [
+  {
+   "title": "HSBC Targets Higher-Return Growth: Can the Stock Keep Climbing?",
+   "url": "https://www.nasdaq.com/articles/hsbc-targets-higher-return-growth-can-stock-keep-climbing",
+   "date": "2026-09-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Can HSBC's Enhanced U.S. Premier Offering Drive Wealth Growth?",
+   "url": "https://www.nasdaq.com/articles/can-hsbcs-enhanced-us-premier-offering-drive-wealth-growth",
+   "date": "2026-09-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "HSBC CFO Highlights Hong Kong, Wealth Growth as Exits Fund Investment",
+   "url": "https://www.nasdaq.com/articles/hsbc-cfo-highlights-hong-kong-wealth-growth-exits-fund-investment",
+   "date": "2026-09-19",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Can HSBC's Germany Pullback Support Profitability and Efficiency?",
+   "url": "https://www.nasdaq.com/articles/can-hsbcs-germany-pullback-support-profitability-and-efficiency",
+   "date": "2026-09-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "HSBC Eyes Singapore Consolidation: Will Simplification Aid Growth?",
+   "url": "https://www.nasdaq.com/articles/hsbc-eyes-singapore-consolidation-will-simplification-aid-growth",
+   "date": "2026-09-01",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.73,
+  "saleNy": 5.55,
+  "epsCy": 13.87,
+  "epsNy": 10.16,
+  "cyTrend": -2.96,
+  "nyTrend": -4.22,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    null,
+    4.87,
+    null
+   ],
+   "ni": [
+    null,
+    13.11,
+    null
+   ],
+   "opm": [
+    null,
+    4.12,
+    null
+   ],
+   "updated": "2026-09-21 06:00:52"
+  }
+ }
+}

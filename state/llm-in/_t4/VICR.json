@@ -1,0 +1,209 @@
+{
+ "ticker": "VICR",
+ "news": [
+  {
+   "title": "Vicor (VICR) is a Great Momentum Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/vicor-vicr-great-momentum-stock-should-you-buy",
+   "date": "2026-09-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Vicor Stock Was Crushing it This Week",
+   "url": "https://www.nasdaq.com/articles/why-vicor-stock-was-crushing-it-week",
+   "date": "2026-09-25",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Earnings Estimates Rising for Vicor (VICR): Will It Gain?",
+   "url": "https://www.nasdaq.com/articles/earnings-estimates-rising-vicor-vicr-will-it-gain",
+   "date": "2026-09-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "How Much Upside is Left in Vicor (VICR)? Wall Street Analysts Think 60.61%",
+   "url": "https://www.nasdaq.com/articles/how-much-upside-left-vicor-vicr-wall-street-analysts-think-6061",
+   "date": "2026-09-22",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Vicor (VICR) Surges 17.7%: Is This an Indication of Further Gains?",
+   "url": "https://www.nasdaq.com/articles/vicor-vicr-surges-177-indication-further-gains",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-10",
+   "itemsKo": [
+    "5.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/751978/000119312526387927/d539177d8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-27",
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/751978/000119312526370420/d161606d8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-21",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/751978/000119312526309538/d115827d8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-23",
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/751978/000119312526279247/d107799d8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-21",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/751978/000119312526165105/d139425d8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-19",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/751978/000119312526059563/d240534d8k.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000751978&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 112969000,
+    "profit": 16884000,
+    "netIncome": 20664000,
+    "margin": 14.9,
+    "yoy": {
+     "revenue": 20.2,
+     "profit": 11431.5,
+     "netIncome": 713.9,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 107264000,
+    "profit": 15685000,
+    "netIncome": 46533000,
+    "margin": 14.6,
+    "yoy": {
+     "revenue": 11.5,
+     "profit": 70.4,
+     "netIncome": 354.2,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": false,
+    "revenue": 407701000,
+    "profit": 20907000,
+    "netIncome": 28292000,
+    "margin": 5.1,
+    "yoy": {
+     "revenue": 337.6,
+     "profit": 288.2,
+     "netIncome": 144.9,
+     "priorEnd": "2024-09-30"
+    }
+   },
+   {
+    "periodEnd": "2025-06-30",
+    "derived": false,
+    "revenue": 96046000,
+    "profit": 45385000,
+    "netIncome": 41192000,
+    "margin": 47.3,
+    "yoy": {
+     "revenue": 11.9,
+     "profit": 21107.9,
+     "netIncome": 3544.1,
+     "priorEnd": "2024-06-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 2,
+  "reports": [
+   {
+    "date": "2026-07-22",
+    "broker": "SK증권",
+    "analyst": "나민식",
+    "title": "[비코 (NAS:VICR)] 서프라이즈는 5월에 선반영",
+    "summary": "- 2Q26 컨센서스를 상회하는 실적 기록에도 주가는 하락- 1 공장 완전 가동률 근접해 2 차 팹 증설 발표 임박- ITC 소송으로 로열티 매출액 확장 국면 지속",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkxqkqkxxzclxgcgxeccg.pdf"
+   },
+   {
+    "date": "2026-06-22",
+    "broker": "키움증권",
+    "analyst": "박기현",
+    "title": "[비코 (NAS:VICR)] 기술적 해자는 분명하나, 속도 조절이 필요한 시점",
+    "summary": "- 독보적 2세대 VPD 기술 해자 및 수주잔고 급증 기반의 하반기 외형 성장 가속- 고마진 IP 라이선싱 본격화에 따른 전사 마진 레버리지 가동- 12M Fwd P/E 87배의 멀티플 부담 감안, 실적 가시성 확인 후 분할 접근 전략 유효",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgckkklmxkizcgcgxeccg.pdf"
+   }
+  ]
+ },
+ "site": {
+  "targetStatus": true,
+  "saleCy": 38.81,
+  "saleNy": 54.09,
+  "epsCy": 29.15,
+  "epsNy": 53.57,
+  "cyTrend": 10.78,
+  "nyTrend": 7.02,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    1.63,
+    20.22,
+    11.54
+   ],
+   "ni": [
+    20.83,
+    713.86,
+    354.16
+   ],
+   "opm": [
+    24.33,
+    14.95,
+    14.62
+   ],
+   "updated": "2026-09-08 10:09:13"
+  }
+ }
+}

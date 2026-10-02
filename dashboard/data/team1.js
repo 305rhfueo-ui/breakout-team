@@ -509,8 +509,158 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-02",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "중동 긴장에 브렌트유 4% 넘게 급등",
+        "easy": "미국이 중동에 세 번째 항공모함을 보냈다는 보도가 나왔다. 공급이 막힐 수 있다는 걱정에 브렌트유가 4% 넘게 올랐다. 기름값이 오르면 쓰는 쪽은 비용이 늘고 캐는 쪽은 돈을 더 번다.",
+        "whyMatters": "정유·석유개발 같은 에너지 업종에는 유리하고, 기름을 많이 쓰는 항공·운송과 화학 업종에는 불리하다. 유가가 계속 오르는지, 하루 급등으로 끝나는지를 보면 된다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Brent oil jumps more than 4% as U.S. reportedly sends third aircraft carrier to Middle East",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/01/oil-prices-today-wti-brent.html",
+            "date": "2026-10-01",
+            "quote": "Brent oil jumps more than 4% as U.S. reportedly sends third aircraft carrier to Middle East",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "금요일 9월 고용보고서가 분수령이다",
+        "easy": "9월 고용 성적표가 금요일에 나온다. 일자리가 얼마나 늘었는지가 금리 인하 속도를 좌우한다. 숫자가 나오기 전까지는 큰 베팅이 줄어드는 구간이다.",
+        "whyMatters": "고용이 식으면 금리에 민감한 기술·주택 업종이 유리해지고, 너무 뜨거우면 같은 업종이 먼저 밀린다. 발표 당일 변동성이 커지니 새 매수를 결과 확인 뒤로 미룰지 정해 두면 된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "The September jobs report will be released Friday. Here's what to expect",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/01/the-september-jobs-report-will-be-released-friday-heres-what-to-expect.html",
+            "date": "2026-10-01",
+            "quote": "The September jobs report will be released Friday. Here's what to expect",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "트럼프, 연준 이사 3명 해임 거론",
+        "easy": "트럼프 대통령이 연준 이사 세 명을 겨냥할 수 있다는 보도가 나왔다. 다만 실제로 내보내기는 생각보다 어렵다는 분석이다. 중앙은행이 정치에 흔들린다는 불안이 핵심이다.",
+        "whyMatters": "연준의 독립성이 흔들리면 장기 금리와 달러가 출렁여 은행·보험 업종의 변동성이 커진다. 실제 해임 절차가 시작되는지, 말로만 끝나는지를 구분해서 보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Trump could target three Fed governors. Removing them may be harder than it looks",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/01/trump-fed-powell-lisa-cook-michael-barr-removal.html",
+            "date": "2026-10-01",
+            "quote": "Trump could target three Fed governors. Removing them may be harder than it looks",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "나이키 매출 부진에 주가 급락·감원",
+        "easy": "나이키가 실망스러운 매출을 내고 사업 재편과 함께 감원을 발표했다. 주가는 발표 직후 떨어졌다. 매출이 더 줄 수 있어 올해가 역대 최악의 해가 될 수 있다는 분석까지 나왔다.",
+        "whyMatters": "의류·신발 같은 소비재 업종과 이를 파는 유통 업종에 부담이다. 소비가 나이키만의 문제인지 업종 전체 문제인지는 다른 소비 기업 실적에서 확인하면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Nike shares drop as retailer posts disappointing sales, announces layoffs as part of restructuring",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/01/nike-nke-q1-2027-earnings.html",
+            "date": "2026-10-01",
+            "quote": "Nike shares drop as retailer posts disappointing sales, announces layoffs as part of restructuring",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "This could be the worst year ever for Nike's stock, with sales set to fall further",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/nikes-troubles-are-mounting-and-sales-could-fall-further-2c19699d?mod=mw_rss_topstories",
+            "date": "2026-10-02",
+            "quote": "This could be the worst year ever for Nike's stock, with sales set to fall further",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "경유값 급등이 물가를 다시 밀어올린다",
+        "easy": "트럼프 대통령이 경유 수출 금지를 거론하자 미국은 유럽에 연료를 미리 준비하라고 했다. 경유값은 계속 오르고 있다. 경유는 트럭·선박이 쓰는 기름이라 식료품·옷·가전 값에 바로 붙는다.",
+        "whyMatters": "운송비가 오르면 유통·식품 업종의 이익이 깎이고, 정유 업종은 반대로 유리하다. 이 비용이 물가 지표에 얼마나 반영되는지를 다음 발표에서 보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "US says Europe should ready fuel supplies as Trump threatens diesel ban",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-10-01",
+            "quote": "US says Europe should ready fuel supplies as Trump threatens diesel ban",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Here's how much more groceries, clothing and household appliances could cost as diesel prices keep surging",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/heres-how-much-more-groceries-clothing-and-household-appliances-could-cost-as-diesel-prices-keep-surging-771c9247?mod=mw_rss_topstories",
+            "date": "2026-10-01",
+            "quote": "Here's how much more groceries, clothing and household appliances could cost as diesel prices keep surging",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "인터폴, AI가 해킹 속도를 키운다고 경고",
+        "easy": "인터폴이 AI 때문에 사이버 공격이 더 빠르고 넓게 퍼진다고 경고했다. 기업이 무엇을 조심해야 하는지도 함께 짚었다. 방어에 쓰는 돈이 늘어날 수밖에 없는 얘기다.",
+        "whyMatters": "보안 소프트웨어 업종에는 수요가 늘어나는 소식이고, 사고가 터지는 쪽은 비용을 치른다. 보안 기업들이 실제로 계약 증가를 숫자로 보여주는지 다음 실적에서 보면 된다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Interpol says AI is increasing the speed and scale of cyber threats. Here's what companies should watch",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/02/interpol-cyberattack-cyberthreat-agentic-ai.html",
+            "date": "2026-10-02",
+            "quote": "Interpol says AI is increasing the speed and scale of cyber threats. Here's what companies should watch",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지수 흐름 자체는 아직 좋다 — QQQ 종가 742.03 으로 10일선(739.35)·20일선(726.18)·50일선(715.66) 위에 있고, 10일선이 20일선을 넘은 지 10일째다. 다만 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% 로 주의선 +30% 를 넘었다. 오르는 쪽은 기술 54% 중심이고 에너지도 6종목 들어와 있는데, 중동 긴장과 경유값 급등이 에너지를 밀어주는 동시에 소비·운송에는 비용으로 돌아온다. 금요일 9월 고용보고서가 금리 기대를 다시 정하는 날이라 그전까지는 한 번에 크게 싣지 않는 쪽이 편하다.",
+    "keyRisks": [
+      "빚으로 올린 시장: 빌린 돈이 많으면 하락할 때 되팔림이 겹쳐 낙폭이 커진다.",
+      "중동 공급 차질: 유가가 계속 오르면 비용이 늘어 소비·운송 업종 이익이 깎인다.",
+      "고용보고서 변동성: 금요일 숫자 하나로 금리 기대가 바뀌며 하루 급등락이 날 수 있다.",
+      "연준 독립성 흔들림: 인사 갈등이 커지면 장기 금리와 달러가 먼저 출렁인다."
+    ],
+    "easySummary": [
+      "지수는 추세 위에 있지만 빌린 돈으로 산 물량이 많아 하락 시 낙폭이 커질 수 있다.",
+      "중동 긴장으로 기름값과 경유값이 올라 에너지에는 호재, 소비·운송에는 비용이다.",
+      "금요일 9월 고용보고서가 이번 주 최대 변수이고, 나이키 부진은 소비 둔화 신호다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 65,
+      "ok": 80,
+      "unverified": 2,
+      "dead": 0,
+      "stripped": 1,
+      "removed": [
+        {
+          "reason": "미래 날짜(2027-08-27 > 2026-10-02)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000055/rbrk-20260826.htm"
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-02"
   }
 };

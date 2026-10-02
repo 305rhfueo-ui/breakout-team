@@ -6,14 +6,14 @@
  "site": {
   "targetStatus": false,
   "saleCy": 24.82,
-  "saleNy": 22.59,
+  "saleNy": 22.6,
   "epsCy": 34.7,
   "epsNy": 27.85,
   "est": {
    "cyCur": 1.25609,
-   "cy30": 1.27992,
+   "cy30": 1.25643,
    "nyCur": 1.60591,
-   "ny30": 1.63018
+   "ny30": 1.59607
   },
   "newHigh52": false,
   "bbCenterBrk5d": false,
@@ -46,7 +46,7 @@
   "top2Streak": {
    "m1": 0,
    "m3": 0,
-   "m6": 12
+   "m6": 14
   }
  },
  "detail": {

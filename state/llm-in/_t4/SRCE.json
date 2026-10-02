@@ -1,0 +1,184 @@
+{
+ "ticker": "SRCE",
+ "news": [
+  {
+   "title": "Why 1st Source (SRCE) is a Great Dividend Stock Right Now",
+   "url": "https://www.nasdaq.com/articles/why-1st-source-srce-great-dividend-stock-right-now-0",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why 1st Source (SRCE) is a Top Dividend Stock for Your Portfolio",
+   "url": "https://www.nasdaq.com/articles/why-1st-source-srce-top-dividend-stock-your-portfolio-0",
+   "date": "2026-08-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "What Makes 1st Source (SRCE) a Strong Momentum Stock: Buy Now?",
+   "url": "https://www.nasdaq.com/articles/what-makes-1st-source-srce-strong-momentum-stock-buy-now",
+   "date": "2026-08-18",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "1st Source (SRCE) is a Top Dividend Stock Right Now: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/1st-source-srce-top-dividend-stock-right-now-should-you-buy-0",
+   "date": "2026-08-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why 1st Source (SRCE) is a Great Momentum Stock to Buy",
+   "url": "https://www.nasdaq.com/articles/heres-why-1st-source-srce-great-momentum-stock-buy",
+   "date": "2026-07-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "1st Source (SRCE) Q2 Earnings and Revenues Beat Estimates",
+   "url": "https://www.nasdaq.com/articles/1st-source-srce-q2-earnings-and-revenues-beat-estimates",
+   "date": "2026-07-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "1st Source (SRCE) Could Be a Great Choice",
+   "url": "https://www.nasdaq.com/articles/1st-source-srce-could-be-great-choice",
+   "date": "2026-07-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "1st Source (SRCE) Reports Next Week: Wall Street Expects Earnings Growth",
+   "url": "https://www.nasdaq.com/articles/1st-source-srce-reports-next-week-wall-street-expects-earnings-growth",
+   "date": "2026-07-16",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/34782/000003478226000048/source-20260805.htm",
+   "description": "8-K 2ND QTR 2026 INVESTOR PRESENTATION"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/34782/000003478226000044/source-20260723.htm",
+   "description": "8-K 2ND QTR 2026 EARNINGS RELEASE"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-05-01",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/34782/000003478226000036/source-20260501.htm",
+   "description": "8-K 1ST QTR 2026 INVESTOR PRESENTATION"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-24",
+   "reportDate": "2026-04-23",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/34782/000003478226000034/source-20260423.htm",
+   "description": "8-K 2026 SHAREHOLDER VOTING RESULTS"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/34782/000003478226000027/source-20260423.htm",
+   "description": "8-K 1ST QTR 2026 EARNINGS RELEASE"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-23",
+   "reportDate": "2026-02-23",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/34782/000003478226000014/source-20260223.htm",
+   "description": "FORM 8-K MURPHY NEWS RELEASE"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 7.93,
+  "saleNy": 2.93,
+  "epsCy": 7.45,
+  "epsNy": 2.16,
+  "cyTrend": 6.42,
+  "nyTrend": 5.27,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    3.88,
+    1.86,
+    6.28
+   ],
+   "ni": [
+    27.08,
+    6.36,
+    33.43
+   ],
+   "opm": [
+    39.46,
+    34.43,
+    35.59
+   ],
+   "updated": "2026-09-09 06:28:41"
+  }
+ }
+}

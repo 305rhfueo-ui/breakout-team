@@ -1,0 +1,43 @@
+{
+ "ticker": "MT",
+ "news": [
+  {
+   "title": "Ex-Div Reminder for ArcelorMittal (MT)",
+   "url": "https://www.nasdaq.com/articles/ex-div-reminder-arcelormittal-mt",
+   "date": "2026-08-06",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.67,
+  "saleNy": 7.68,
+  "epsCy": 11.58,
+  "epsNy": 72.65,
+  "cyTrend": -2.4,
+  "nyTrend": 1.44,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.24,
+    4.45,
+    1.75
+   ],
+   "ni": [
+    -61.91,
+    -28.57,
+    "흑자전환"
+   ],
+   "opm": [
+    6.29,
+    4.87,
+    2.18
+   ],
+   "updated": "2026-09-08 09:52:14"
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "ticker": "STNG",
+ "news": [
+  {
+   "title": "Should Investors Buy STNG as Earnings Surge but Valuation Stays Mixed?",
+   "url": "https://www.nasdaq.com/articles/should-investors-buy-stng-earnings-surge-valuation-stays-mixed",
+   "date": "2026-10-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Scorpio Tankers (STNG) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-scorpio-tankers-stng-strong-momentum-stock",
+   "date": "2026-09-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "STNG Stock Has Gained 21.5% in 3 Months: Can the Rally Continue Now?",
+   "url": "https://www.nasdaq.com/articles/stng-stock-has-gained-215-3-months-can-rally-continue-now",
+   "date": "2026-09-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Scorpio Tankers (STNG) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/scorpio-tankers-stng-q2-2026-earnings-call-transcript-0",
+   "date": "2026-08-04",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Scorpio Tankers (STNG) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/scorpio-tankers-stng-q2-2026-earnings-call-transcript",
+   "date": "2026-07-31",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Scorpio Tankers (STNG) Beats Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/scorpio-tankers-stng-beats-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Scorpio Tankers (STNG) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://www.nasdaq.com/articles/scorpio-tankers-stng-earnings-expected-grow-what-know-ahead-next-weeks-release",
+   "date": "2026-07-23",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 35.13,
+  "saleNy": -29.03,
+  "epsCy": 109.17,
+  "epsNy": -50.26,
+  "cyTrend": 1.21,
+  "nyTrend": 7.02,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    77.54,
+    46.21,
+    23.87
+   ],
+   "ni": [
+    427.2,
+    271.5,
+    86.88
+   ],
+   "opm": [
+    97.45,
+    70.16,
+    52.66
+   ],
+   "updated": "2026-09-09 06:09:57"
+  }
+ }
+}

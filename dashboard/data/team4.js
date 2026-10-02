@@ -49,9 +49,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:34:36"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "PLBC",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "PLBC는 캘리포니아 북부·네바다 지역에서 영업하는 지역은행(Plumas Bancorp)입니다. 예금과 대출의 이자 차이로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-02",
+        "carried": false
       }
     },
     {
@@ -95,9 +115,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:00:14"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "DKL",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "DKL(Delek Logistics Partners)은 정유·에너지 기업 인근의 원유·정제제품 파이프라인과 저장, 유통 설비를 운영하며 이용료로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-02",
+        "carried": false
       }
     },
     {
@@ -141,9 +181,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:25:02"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MCK",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "McKesson은 병원·약국에 의약품과 의료용품을 공급하는 미국 최대 수준의 의약품 유통회사다. 유통 마진과 의료 서비스로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-02",
+        "carried": false
       }
     },
     {
@@ -253,9 +313,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 06:17:15"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MOG.B",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "항공기·방산용 정밀 제어장치(모션 컨트롤)를 만들어 파는 회사다. 항공우주·방산이 주 매출이다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-02",
+        "carried": false
       }
     },
     {
@@ -299,9 +379,34 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:55:36"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MSGS",
+        "category": 6,
+        "claims": [
+          {
+            "id": "none",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "뉴욕 닉스(NBA)와 레인저스(NHL)를 소유한 스포츠 구단 지주회사로, 경기 입장권·중계권료·스폰서십으로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1",
+            "c2"
+          ],
+          "reason": "Claim c1: quote에 '10월 26일', '계약 5건', '레인저스', 'Spinco' 없음. Claim c2: quote에 '이사 5명', '아이작 토머스', '0.5주' 없음. 제거 후 검증된 근거 없어 category 4는 부당 → 6으로 정정. volumeExplanation의 구체적 사실(분할 계약, 이사회 개편, 10월 26일 분배일) 역시 제거된 주장에서만 나온 내용이므로 제거."
+        },
+        "originalCategory": 4,
+        "corrected": true,
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-02",
+        "carried": false
       }
     },
     {
@@ -345,9 +450,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:09:13"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "VICR",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Vicor는 데이터센터·AI 서버 등에 들어가는 전력 변환 모듈을 만들어 파는 전자부품 회사입니다. 특허 소송에 따른 로열티 수입도 있습니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-02",
+        "carried": false
       }
     },
     {
@@ -440,9 +565,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:11:42"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ACN",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 1일 장 시작 전에 분기(4분기) 실적을 발표했고, 이익과 매출 모두 증권사 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Accenture (ACN) Tops Q4 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/accenture-acn-tops-q4-earnings-and-revenue-estimates",
+                "date": "2026-10-01",
+                "quote": "Accenture (ACN) Tops Q4 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "같은 날 SEC에 실적 발표 공시(8-K)가 제출됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Accenture 8-K (Item 2.02 실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000037/acn-20261001.htm",
+                "date": "2026-10-01",
+                "quote": "8-K, items 2.02, 9.01, filingDate 2026-10-01",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "실적 발표 뒤 주가가 급등했다는 분석 기사가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Should Investors Chase Accenture (ACN) Stock After Its Post-Earnings Surge?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/should-investors-chase-accenture-acn-stock-after-its-post-earnings-surge",
+                "date": "2026-10-01",
+                "quote": "Should Investors Chase Accenture (ACN) Stock After Its Post-Earnings Surge?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Accenture는 기업에 IT 컨설팅·시스템 구축·운영 대행 서비스를 제공해 돈을 번다.",
+        "volumeExplanation": "10월 1일 분기 실적이 예상치를 웃돌아 주가가 급등하며 거래량이 늘었다. 이 이야기가 맞는지는 다음 분기 전망(가이던스)이 유지되는지로 확인된다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-02",
+        "carried": false
       }
     },
     {
@@ -486,9 +673,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:01:10"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "UAN",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "CVR Partners는 미국에서 질소 비료(요소·암모니아 등)를 만들어 파는 회사다. 비료 가격이 오르면 이익이 크게 늘고 내리면 줄어드는 구조다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-02",
+        "carried": false
       }
     },
     {
@@ -532,9 +739,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 07:13:06"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "HURN",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Huron Consulting은 의료·교육·기업 고객에게 경영 컨설팅과 디지털 서비스를 제공해 수수료로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-02",
+        "carried": false
       }
     },
     {
@@ -578,9 +805,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:34:39"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "NRP",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Natural Resource Partners는 미국 석탄·소다회 광산의 광물 소유권을 갖고, 채굴 업체에서 받는 사용료로 돈을 법니다. 에너지 업종의 석탄 관련 기업입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-02",
+        "carried": false
       }
     },
     {
@@ -624,9 +871,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:00:52"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "HSBC",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "HSBC는 영국 런던에 본사를 둔 세계적 은행입니다. 홍콩·아시아의 대출과 자산관리 수수료로 주로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "category 6(근거 없음)이 올바름. statement '근거 없음', sources 비어있음, volumeExplanation 일관성 있음"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-02",
+        "carried": false
       }
     },
     {
@@ -670,9 +937,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:09:57"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "STNG",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Scorpio Tankers는 휘발유·경유 같은 정제유를 실어 나르는 유조선을 운영하고, 운임(선박 하루 빌려주는 값)으로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "category 6(근거 없음)이 올바름. statement '근거 없음', sources 비어있음, volumeExplanation 일관성 있음"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-02",
+        "carried": false
       }
     },
     {
@@ -716,9 +1003,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:28:41"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SRCE",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "미국 인디애나주 1st Source Bank 를 거느린 지역 은행 지주사로, 대출과 예금 이자 수익으로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "category 6(근거 없음)이 올바름. statement '근거 없음', sources 비어있음, volumeExplanation 일관성 있음"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-02",
+        "carried": false
       }
     },
     {
@@ -769,18 +1076,18 @@ window.TEAM4_DATA = {
             "sources": []
           }
         ],
-        "company": "MGRT(Mega Fortune Company Limited)는 Information Technology Services 업종의 소형주로, 2025-07 IPO(조달 $15M)를 마쳤고 시총은 1.62B이다. 제공된 자료에는 매출 구성·핵심 고객·실적표(SEC financials null)·컨센서스(매출/EPS 성장 전부 —)가 없어 사업 모델을 확인할 수 없다.",
-        "volumeExplanation": "제공된 뉴스(2025-07 IPO, 2026-04 주가 3배 상승 기사, 2026-06 과매도 기사)와 8-K(filings 비어 있음)·국내 리포트(0건) 어디에도 2026-10-01 거래량 급증을 설명하는 촉매가 없다. 주간 거래량배수 3.57(당일 제외 5일평균 대비)이 확인되나 원인은 근거 없음이며, 암묵적 호재(⑥)로 분류한다.",
+        "company": "Mega Fortune(MGRT)는 사물인터넷(IoT) 솔루션과 IT 서비스를 제공하는 지주회사다. 시가총액은 약 14.5억 달러다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
         "confidence": "low",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
-          "reason": "근거 없음으로 표시된 ⑥분류가 적절함. 과거 뉴스와 무관한 현재 거래량 급증."
+          "reason": "category 6(근거 없음)이 올바름. statement '근거 없음', sources 비어있음, volumeExplanation 일관성 있음"
         },
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
-        "researchedOn": "2026-10-01",
-        "carried": true
+        "researchedOn": "2026-10-02",
+        "carried": false
       }
     },
     {
@@ -824,9 +1131,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:59:06"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "NMM",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Navios Maritime Partners는 건화물선·컨테이너선·유조선을 소유해 기업에 장기 용선(배를 빌려주는 계약)하고 받는 임대료로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "category 6(근거 없음)이 올바름. statement '근거 없음', sources 비어있음, volumeExplanation 일관성 있음"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-02",
+        "carried": false
       }
     },
     {
@@ -870,9 +1197,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:39:02"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SHG",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "신한금융그룹은 한국의 대형 금융지주로, 은행·카드·증권·보험 사업에서 이자와 수수료로 돈을 번다. 미국에는 ADR(예탁증서)로 상장돼 있다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-02",
+        "carried": false
       }
     },
     {
@@ -916,9 +1263,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:52:14"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MT",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "아르셀로미탈(MT)은 세계적인 철강 제조사로, 철강 판매로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-02",
+        "carried": false
       }
     }
   ],
@@ -957,14 +1324,14 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 3,
+    "done": 19,
     "total": 19,
-    "cap": null,
-    "pending": 16,
+    "cap": 17,
+    "pending": 0,
     "failed": 0,
-    "carried": 3,
+    "carried": 2,
     "ineligible": 0,
-    "note": "19종목 중 3종목을 조사했습니다. 그중 3종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 16종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 2종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -982,5 +1349,22 @@ window.TEAM4_DATA = {
     "sectorSignal": "촉매가 특정 섹터·업종에 몰리지 않았다. category 1 은 FDS·IDT 2건뿐이고 업종이 서로 다르며 입력에 업종 정보도 없다. category 5(산업 기술 돌파)는 0건이다. 나머지 7건(URI·DDS·DJCO·ITW·SENEB·MGRT 등)은 뉴스 없는 이상거래량(category 6)으로 근거 없음이다.",
     "caution": "이 분류는 뉴스·공시 자료 존재 여부만 반영한다. FDS 는 Zacks 보도 한 줄, IDT 는 8-K 본문(수치 없음)에 근거해 서프라이즈 크기·가이던스 상향 여부를 확인하지 못했고, IDT 는 컨센서스·마진 데이터가 오히려 반대 방향이다. 차트 국면은 가격 데이터를 받지 않아 판정하지 않았다. 사용자가 원문(FDS 실적 자료, IDT Exhibit 99.1)과 차트를 직접 확인한 뒤 판단해야 한다.",
     "researchedOn": "2026-10-01"
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "ACN",
+        "category": 1,
+        "oneLine": "10월 1일 장 전 4분기 실적 발표, 이익·매출 모두 예상치를 웃돌아 주가 급등"
+      }
+    ],
+    "sectorSignal": "실적 호재는 1건(ACN)뿐이라 특정 업종 쏠림은 판단할 수 없다. 산업 기술 돌파 호재는 없고, 나머지 16건은 뉴스 근거가 없는 거래량 급증이다.",
+    "caution": "17건 중 16건은 호재 근거 없이 거래량만 튄 종목이라 호재로 읽으면 안 된다. ACN 도 실적 근거만 확인된 것이며 차트 상태는 보지 않았으니 직접 확인해야 한다.",
+    "researchedOn": "2026-10-02"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 1,
+    "6": 18
   }
 };

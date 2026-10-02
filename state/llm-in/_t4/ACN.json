@@ -1,0 +1,168 @@
+{
+ "ticker": "ACN",
+ "news": [
+  {
+   "title": "Should Investors Chase Accenture (ACN) Stock After Its Post-Earnings Surge?",
+   "url": "https://www.nasdaq.com/articles/should-investors-chase-accenture-acn-stock-after-its-post-earnings-surge",
+   "date": "2026-10-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Accenture (ACN) Shares Cross Above 200 DMA",
+   "url": "https://www.nasdaq.com/articles/accenture-acn-shares-cross-above-200-dma",
+   "date": "2026-10-01",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Accenture (ACN) Tops Q4 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/accenture-acn-tops-q4-earnings-and-revenue-estimates",
+   "date": "2026-10-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Pre-Market Earnings Report for October 1, 2026 :  ACN, MKC, AYI",
+   "url": "https://www.nasdaq.com/articles/pre-market-earnings-report-october-1-2026-acn-mkc-ayi",
+   "date": "2026-09-30",
+   "publisher": "NASDAQ.com"
+  },
+  {
+   "title": "ACN Set to Report Q4 Earnings: Here's What Investors Should Know",
+   "url": "https://www.nasdaq.com/articles/acn-set-report-q4-earnings-heres-what-investors-should-know",
+   "date": "2026-09-29",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-01",
+   "reportDate": "2026-10-01",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000037/acn-20261001.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-10",
+   "reportDate": "2026-07-10",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1467373/000119312526300813/d181172d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-23",
+   "reportDate": "2026-06-23",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000035/acn-20260623.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-18",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000031/acn-20260618.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-24",
+   "reportDate": "2026-04-22",
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "1.02",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000019/acn-20260422.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-19",
+   "reportDate": "2026-03-19",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000013/acn-20260319.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.59,
+  "saleNy": 4.06,
+  "epsCy": 7.25,
+  "epsNy": 5.76,
+  "cyTrend": 0.04,
+  "nyTrend": 0.07,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.59,
+    8.31,
+    5.95
+   ],
+   "ni": [
+    6.44,
+    2.08,
+    -2.95
+   ],
+   "opm": [
+    16.96,
+    13.82,
+    15.33
+   ],
+   "updated": "2026-09-08 07:11:42"
+  }
+ }
+}
