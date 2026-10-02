@@ -1,18 +1,20 @@
 window.CHARTCHECK_DATA = {
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "items": [
     {
       "ticker": "CORT",
-      "score": 8,
+      "score": 9,
       "source": "T3",
       "reasons": [
-        "거래량 5일/20일 0.55배 — 매물 고갈",
-        "볼밴 폭 0.08 (60일 최저 0.08 근처) — 에너지 응축",
-        "저항 $117.33 대비 -1.79% — 돌파 임박권",
-        "최근 10일 종가 변동 2.02% — 타이트",
-        "52주 고점 대비 91.49%"
+        "최근 1주는 더 조용하다(그 전 1주의 0.65배)",
+        "최근 1주 거래량이 한 달 평균의 0.54배로 줄었다(팔 사람이 줄어듦)",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.08, 최저 0.08)",
+        "넘어야 할 선 $117.33 바로 아래(-2.81%)",
+        "최근 2주 종가가 2.03% 안에서만 움직였다",
+        "1년 최고가의 91.18% 자리"
       ],
       "flags": [
+        "contract5",
         "volDry",
         "bbSqueeze",
         "nearResist",
@@ -20,51 +22,51 @@ window.CHARTCHECK_DATA = {
         "high52"
       ],
       "resistance": 117.33,
-      "price": 115.23,
+      "price": 114.03,
       "barGap": false
     },
     {
-      "ticker": "FET",
+      "ticker": "SIMO",
       "score": 8,
       "source": "T3",
       "reasons": [
-        "10봉 진폭이 직전 대비 0.78배로 수축",
-        "볼밴 폭 0.05 (60일 최저 0.05 근처) — 에너지 응축",
-        "저항 $84.16 대비 -3.81% — 돌파 임박권",
-        "최근 10일 종가 변동 1.33% — 타이트",
-        "52주 고점 대비 94.93%"
+        "최근 2주 가격 흔들림이 그 전 2주의 0.76배로 줄었다",
+        "최근 1주는 더 조용하다(그 전 1주의 0.61배)",
+        "최근 1주 거래량이 한 달 평균의 0.6배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $287.37 바로 아래(-4.22%)",
+        "최근 2주 종가가 1.42% 안에서만 움직였다"
       ],
       "flags": [
         "contract10",
-        "bbSqueeze",
+        "contract5",
+        "volDry",
+        "nearResist",
+        "tightCloses"
+      ],
+      "resistance": 287.37,
+      "price": 275.24,
+      "barGap": false
+    },
+    {
+      "ticker": "SWKS",
+      "score": 8,
+      "source": "T3",
+      "reasons": [
+        "최근 2주 가격 흔들림이 그 전 2주의 0.66배로 줄었다",
+        "최근 1주 거래량이 한 달 평균의 0.62배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $85.18 바로 아래(-2.37%)",
+        "최근 2주 종가가 2.64% 안에서만 움직였다",
+        "1년 최고가의 92.11% 자리"
+      ],
+      "flags": [
+        "contract10",
+        "volDry",
         "nearResist",
         "tightCloses",
         "high52"
       ],
-      "resistance": 84.16,
-      "price": 80.95,
-      "barGap": false
-    },
-    {
-      "ticker": "WDAY",
-      "score": 8,
-      "source": "T3",
-      "reasons": [
-        "최근 5봉 진폭 0.64배 — 수축 가속",
-        "거래량 5일/20일 0.66배 — 매물 고갈",
-        "볼밴 폭 0.12 (60일 최저 0.12 근처) — 에너지 응축",
-        "저항 $194.01 대비 -1.83% — 돌파 임박권",
-        "최근 10일 종가 변동 1.72% — 타이트"
-      ],
-      "flags": [
-        "contract5",
-        "volDry",
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses"
-      ],
-      "resistance": 194.01,
-      "price": 190.46,
+      "resistance": 85.18,
+      "price": 83.16,
       "barGap": false
     },
     {
@@ -72,11 +74,11 @@ window.CHARTCHECK_DATA = {
       "score": 8,
       "source": "T3",
       "reasons": [
-        "10봉 진폭이 직전 대비 0.7배로 수축",
-        "거래량 5일/20일 0.56배 — 매물 고갈",
-        "저항 $102.88 대비 -0.53% — 돌파 임박권",
-        "최근 10일 종가 변동 1.67% — 타이트",
-        "52주 고점 대비 94.47%"
+        "최근 2주 가격 흔들림이 그 전 2주의 0.7배로 줄었다",
+        "최근 1주 거래량이 한 달 평균의 0.63배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $106.28 바로 아래(-1.91%)",
+        "최근 2주 종가가 1.89% 안에서만 움직였다",
+        "1년 최고가의 93.59% 자리"
       ],
       "flags": [
         "contract10",
@@ -85,147 +87,143 @@ window.CHARTCHECK_DATA = {
         "tightCloses",
         "high52"
       ],
-      "resistance": 102.88,
-      "price": 102.33,
+      "resistance": 106.28,
+      "price": 104.25,
       "barGap": false
     },
     {
-      "ticker": "NSIT",
-      "score": 7,
+      "ticker": "FET",
+      "score": 6,
       "source": "T3",
       "reasons": [
-        "최근 5봉 진폭 0.62배 — 수축 가속",
-        "볼밴 폭 0.09 (60일 최저 0.09 근처) — 에너지 응축",
-        "저항 $157.35 대비 -0.65% — 돌파 임박권",
-        "최근 10일 종가 변동 1.09% — 타이트",
-        "52주 고점 대비 92.56%"
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.05, 최저 0.05)",
+        "넘어야 할 선 $84.16 바로 아래(-2.21%)",
+        "최근 2주 종가가 1.33% 안에서만 움직였다",
+        "1년 최고가의 94.14% 자리"
+      ],
+      "flags": [
+        "bbSqueeze",
+        "nearResist",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": 84.16,
+      "price": 82.3,
+      "barGap": false
+    },
+    {
+      "ticker": "DELL",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "최근 2주 가격 흔들림이 그 전 2주의 0.78배로 줄었다",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.17, 최저 0.14)",
+        "최근 2주 종가가 2.49% 안에서만 움직였다",
+        "1년 최고가의 90.33% 자리"
+      ],
+      "flags": [
+        "contract10",
+        "bbSqueeze",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": 595.51,
+      "price": 541.74,
+      "barGap": false
+    },
+    {
+      "ticker": "SNDK",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "최근 1주는 더 조용하다(그 전 1주의 0.6배)",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.25, 최저 0.22)",
+        "넘어야 할 선 $1807.38 바로 아래(-1.09%)",
+        "최근 2주 종가가 2.81% 안에서만 움직였다"
       ],
       "flags": [
         "contract5",
         "bbSqueeze",
         "nearResist",
-        "tightCloses",
-        "high52"
+        "tightCloses"
       ],
-      "resistance": 157.35,
-      "price": 156.32,
+      "resistance": 1807.38,
+      "price": 1787.69,
       "barGap": false
     },
     {
-      "ticker": "MANH",
-      "score": 7,
+      "ticker": "NSIT",
+      "score": 6,
       "source": "T3",
       "reasons": [
-        "10봉 진폭이 직전 대비 0.77배로 수축",
-        "볼밴 폭 0.11 (60일 최저 0.11 근처) — 에너지 응축",
-        "저항 $204.09 대비 -2.64% — 돌파 임박권",
-        "최근 10일 종가 변동 2.28% — 타이트"
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.09, 최저 0.09)",
+        "넘어야 할 선 $165.92 바로 아래(-2.77%)",
+        "최근 2주 종가가 1.32% 안에서만 움직였다",
+        "1년 최고가의 92.77% 자리"
+      ],
+      "flags": [
+        "bbSqueeze",
+        "nearResist",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": 165.92,
+      "price": 161.33,
+      "barGap": false
+    },
+    {
+      "ticker": "INBX",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "최근 2주 가격 흔들림이 그 전 2주의 0.69배로 줄었다",
+        "최근 1주 거래량이 한 달 평균의 0.67배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $99.33 바로 아래(-1.41%)"
       ],
       "flags": [
         "contract10",
+        "volDry",
+        "nearResist"
+      ],
+      "resistance": 99.33,
+      "price": 97.93,
+      "barGap": false
+    },
+    {
+      "ticker": "HURN",
+      "score": 5,
+      "source": "T3",
+      "reasons": [
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.09, 최저 0.09)",
+        "넘어야 할 선 $172.9 바로 아래(-2.59%)",
+        "최근 2주 종가가 2.18% 안에서만 움직였다"
+      ],
+      "flags": [
         "bbSqueeze",
         "nearResist",
         "tightCloses"
       ],
-      "resistance": 204.09,
-      "price": 198.7,
-      "barGap": false
-    },
-    {
-      "ticker": "SPSC",
-      "score": 7,
-      "source": "T3",
-      "reasons": [
-        "10봉 진폭이 직전 대비 0.67배로 수축",
-        "볼밴 폭 0.1 (60일 최저 0.1 근처) — 에너지 응축",
-        "저항 $84.12 대비 -2% — 돌파 임박권",
-        "최근 10일 종가 변동 1.12% — 타이트"
-      ],
-      "flags": [
-        "contract10",
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses"
-      ],
-      "resistance": 84.12,
-      "price": 82.44,
-      "barGap": false
-    },
-    {
-      "ticker": "PAYC",
-      "score": 6,
-      "source": "T3",
-      "reasons": [
-        "볼밴 폭 0.13 (60일 최저 0.13 근처) — 에너지 응축",
-        "저항 $226.12 대비 -3.75% — 돌파 임박권",
-        "최근 10일 종가 변동 1.46% — 타이트",
-        "52주 고점 대비 90.04%"
-      ],
-      "flags": [
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 226.12,
-      "price": 217.65,
-      "barGap": false
-    },
-    {
-      "ticker": "PLTR",
-      "score": 6,
-      "source": "T3",
-      "reasons": [
-        "10봉 진폭이 직전 대비 0.78배로 수축",
-        "저항 $188.2 대비 -0.61% — 돌파 임박권",
-        "최근 10일 종가 변동 2.94% — 타이트",
-        "52주 고점 대비 90.34%"
-      ],
-      "flags": [
-        "contract10",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 188.2,
-      "price": 187.05,
-      "barGap": false
-    },
-    {
-      "ticker": "THC",
-      "score": 6,
-      "source": "T3",
-      "reasons": [
-        "볼밴 폭 0.07 (60일 최저 0.06 근처) — 에너지 응축",
-        "저항 $262.68 대비 -2.71% — 돌파 임박권",
-        "최근 10일 종가 변동 1.52% — 타이트",
-        "52주 고점 대비 91.13%"
-      ],
-      "flags": [
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 262.68,
-      "price": 255.56,
+      "resistance": 172.9,
+      "price": 168.42,
       "barGap": false
     }
   ],
-  "total": 21,
+  "total": 23,
   "shown": 10,
   "cap": 10,
   "beyondCap": [
-    "SWKS(6)",
-    "DELL(5)",
+    "SNOW(5)",
     "PLPC(5)",
-    "SNDK(5)",
-    "QLYS(5)",
+    "NBIS(5)",
+    "PAYC(5)",
+    "PLTR(5)",
+    "WDAY(5)",
     "FROG(5)",
+    "ESTC(5)",
+    "MANH(5)",
     "NOW(5)",
-    "LITE(5)",
-    "SIMO(5)",
     "TARS(5)",
-    "AGCO(5)"
+    "SPSC(5)",
+    "DINO(5)"
   ]
 };

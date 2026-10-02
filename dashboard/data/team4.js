@@ -1,92 +1,164 @@
 window.TEAM4_DATA = {
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2,
     "aboveMa150": true
   },
-  "universeHits": 29,
-  "analyzed": 8,
+  "universeHits": 46,
+  "analyzed": 19,
   "items": [
     {
-      "ticker": "URI",
-      "sector": "Industrials",
-      "industry": "Rental & Leasing Services",
-      "price": 1043.9200439453125,
-      "marketCap": "65.17B",
-      "volx": null,
-      "volSurgeWk": 2.64,
+      "ticker": "PLBC",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "price": 61.619998931884766,
+      "marketCap": "0.43B",
+      "volx": 1.96,
+      "volSurgeWk": 2.29,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 0,
-      "high52": 88.68,
-      "adr": 2.71,
+      "clsPos": 73.39,
+      "high52": 96.28,
+      "adr": 2.06,
       "targetStatus": false,
-      "saleCy": 10.23,
-      "saleNy": 8.76,
-      "epsCy": 17.18,
-      "epsNy": 16.29,
-      "cyTrend": 0.1,
-      "nyTrend": 0.23,
+      "saleCy": 17.11,
+      "saleNy": 3.75,
+      "epsCy": 7.51,
+      "epsNy": 2.14,
+      "cyTrend": 0.12,
+      "nyTrend": 0.51,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          44,
+          35.96,
+          41.97
+        ],
+        "ni": [
+          57.55,
+          35.97,
+          41.57
+        ],
+        "opm": [
+          41.24,
+          40.72,
+          41.91
+        ],
+        "updated": "2026-09-08 07:34:36"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "DKL",
+      "sector": "Energy",
+      "industry": "Oil & Gas Refining & Marketing",
+      "price": 54.470001220703125,
+      "marketCap": "3.07B",
+      "volx": 1.37,
+      "volSurgeWk": 2.57,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 82.21,
+      "high52": 90.27,
+      "adr": 1.99,
+      "targetStatus": false,
+      "saleCy": 38.36,
+      "saleNy": 1.39,
+      "epsCy": 5.29,
+      "epsNy": 23.39,
+      "cyTrend": -0.42,
+      "nyTrend": -1.59,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          11.84,
-          7.15,
-          2.76
+          56.18,
+          19.02,
+          21.87
         ],
         "ni": [
-          21.06,
-          2.51,
-          -5.22
+          -35.23,
+          -17.12,
+          36.93
         ],
         "opm": [
-          25.8,
-          21.81,
-          25
+          16.09,
+          13.45,
+          14.25
         ],
-        "updated": "2026-09-09 07:35:43"
+        "updated": "2026-09-08 06:00:14"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "URI",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "MCK",
+      "sector": "Healthcare",
+      "industry": "Medical Distribution",
+      "price": 853.8099975585938,
+      "marketCap": "99.55B",
+      "volx": null,
+      "volSurgeWk": 2.19,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 85.65,
+      "adr": 2.18,
+      "targetStatus": false,
+      "saleCy": 7.04,
+      "saleNy": 7.02,
+      "epsCy": 14.18,
+      "epsNy": 12.9,
+      "cyTrend": 0.06,
+      "nyTrend": -0.28,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          7.72,
+          6.02,
+          11.4
         ],
-        "company": "United Rentals(URI)는 북미 최대 장비 렌탈 업체로, 건설·산업용 장비 렌탈이 중심인 Industrials / Rental & Leasing Services 종목이다. 시총 65.17B, 최근 3분기(q0/q1/q2) 매출성장 11.84/7.15/2.76%, 영업이익률 25.8/21.81/25%이며 컨센서스는 매출성장 CY 10.23% / NY 8.76%, EPS 성장 CY 17.18% / NY 16.29%다. 현재 150일선 위이나 60일 신고가 돌파는 NO, 52주 고점 대비 88.68%다.",
-        "volumeExplanation": "주간 거래량배수 2.64(당일 제외 5일 평균 대비)로 거래량은 늘었으나, 제공된 자료에서 이를 설명할 촉매는 확인되지 않았다. 최근 뉴스는 Zacks 모멘텀·밸류 스크리닝 기사뿐이고, 8-K는 2026-09-08 Reg FD(7.01)가 마지막이며 실적(2.02)은 2026-07-22였다. 근거 없음으로 분류한다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "Category 6 correctly assigned. Claim appropriately states no evidence found despite volume increase (2.64 multiple). Supporting details (Zacks screening, past 8-K, earnings date) are accurately cited."
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-01",
-        "carried": false
+        "ni": [
+          -21.68,
+          33.49,
+          34.93
+        ],
+        "opm": [
+          1.25,
+          2.23,
+          1.53
+        ],
+        "updated": "2026-09-09 06:25:02"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
       "ticker": "DDS",
       "sector": "Consumer Cyclical",
       "industry": "Department Stores",
-      "price": 681.9400024414062,
-      "marketCap": "10.37B",
+      "price": 669.989990234375,
+      "marketCap": "10.46B",
       "volx": null,
-      "volSurgeWk": 2.09,
+      "volSurgeWk": 2.02,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 0,
-      "high52": 96.01,
-      "adr": 3.26,
+      "high52": 94.37,
+      "adr": 3.31,
       "targetStatus": false,
       "saleCy": 0.5,
       "saleNy": 1.07,
@@ -137,25 +209,25 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-01",
-        "carried": false
+        "carried": true
       }
     },
     {
-      "ticker": "DJCO",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "price": 659.0800170898438,
-      "marketCap": "0.91B",
+      "ticker": "MOG.B",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "price": 388,
+      "marketCap": "12.29B",
       "volx": null,
-      "volSurgeWk": 2.26,
+      "volSurgeWk": 12.13,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 0,
-      "high52": 95.17,
-      "adr": 3.81,
+      "high52": 86.22,
+      "adr": 0.05,
       "targetStatus": false,
-      "saleCy": null,
-      "saleNy": null,
+      "saleCy": 13.7,
+      "saleNy": 7.33,
       "epsCy": null,
       "epsNy": null,
       "cyTrend": null,
@@ -164,205 +236,133 @@ window.TEAM4_DATA = {
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          15.25,
-          24.98,
-          10.36
+          15.16,
+          12.63,
+          21.2
         ],
         "ni": [
-          -175.51,
-          -177.55,
-          -173.22
+          159.93,
+          49.86,
+          37.07
         ],
         "opm": [
-          19.52,
-          13.16,
-          2.44
+          14.41,
+          11.7,
+          10.83
         ],
-        "updated": "2026-09-08 07:29:13"
+        "updated": "2026-09-07 06:17:15"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "DJCO",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Daily Journal Corp(DJCO)는 Technology / Software - Application 업종으로 시총 0.91B이며, 제공 자료에 사업부별 매출 구성·핵심 고객 정보는 없다. 사이트 재무 기준 최근 3분기(q0/q1/q2) 매출성장은 15.25/24.98/10.36%, 영업이익률은 19.52/13.16/2.44%, 순이익은 -175.51/-177.55/-173.22이다. 컨센서스(매출·EPS 성장, 30일 전망 변화)는 모두 공란이며 Target_Status는 NO이다.",
-        "volumeExplanation": "거래량 급증을 설명할 뉴스·공시를 제공 자료에서 찾지 못했다. 가장 최근 기사는 2026-08-19(Zacks, Q3 손실), 가장 최근 8-K는 2026-09-11(item 5.03·5.07·8.01·9.01, 실적 아님)이며 2026-10-01 시점과 무관하다. 주간 거래량배수 2.26(당일 제외 5일 평균 대비)만 확인되어 암묵적 호재(⑥)로 분류하며, 원인은 근거 없음이다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "Category 6 correctly assigned. Volume evidence (2.26 multiple) lacks supporting catalyst in provided sources. News and 8-K dates correctly noted as unrelated to 2026-10-01 event."
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-01",
-        "carried": false
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "ITW",
-      "sector": "Industrials",
-      "industry": "Specialty Industrial Machinery",
-      "price": 273.8299865722656,
-      "marketCap": "78.13B",
+      "ticker": "MSGS",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "price": 405.2099914550781,
+      "marketCap": "9.76B",
       "volx": null,
-      "volSurgeWk": 2,
+      "volSurgeWk": 2.06,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 0,
-      "high52": 90.7,
-      "adr": 1.68,
-      "targetStatus": false,
-      "saleCy": 4.89,
-      "saleNy": 3.8,
-      "epsCy": 9.21,
-      "epsNy": 8.26,
-      "cyTrend": 0.07,
-      "nyTrend": 0.07,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          6.12,
-          4.61,
-          4.09
-        ],
-        "ni": [
-          7.95,
-          9.71,
-          5.33
-        ],
-        "opm": [
-          26.67,
-          25.4,
-          26.51
-        ],
-        "updated": "2026-09-08 09:10:08"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "ITW",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Illinois Tool Works는 Specialty Industrial Machinery 업종의 분산형 제조사로, 자동차 부품·식품장비·건설제품 등 다수 사업부를 운영한다. 최근 3분기 매출성장은 6.12/4.61/4.09% YoY, 영업이익률은 26.67/25.4/26.51%이고, 시총은 78.13B이다. 컨센서스 CY 매출 4.89%·EPS 9.21% 성장 수준으로 두 자릿수 성장 국면이 아니며, 52주 고점 대비 90.7%에서 60일 신고가 돌파는 NO이다.",
-        "volumeExplanation": "제공된 자료에서 거래량 급증을 설명하는 촉매는 확인되지 않았다. 마지막 실적 8-K(item 2.02)는 2026-07-28이며 이후 뉴스는 Zacks 등급 상향(2026-09-29)과 200일선 하회(2026-09-09)뿐이다. 따라서 6분류 중 암묵적 호재(⑥)로 분류하며, 일반 이벤트성 근거는 없다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "Category 6 correctly assigned. Volume event lacks catalyst evidence. Last earnings (2026-07-28) and Zacks upgrade (2026-09-29) are properly distinguished as non-catalysts for the specific volume increase."
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-01",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "FDS",
-      "sector": "Financial Services",
-      "industry": "Financial Data & Stock Exchanges",
-      "price": 267.6700134277344,
-      "marketCap": "9.71B",
-      "volx": null,
-      "volSurgeWk": 2.09,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 0,
-      "high52": 83.52,
-      "adr": 3.94,
-      "targetStatus": false,
-      "saleCy": 6.43,
-      "saleNy": 5.85,
-      "epsCy": 5.01,
-      "epsNy": 10.62,
-      "cyTrend": 0.03,
-      "nyTrend": 0.12,
+      "high52": 92.32,
+      "adr": 2.39,
+      "targetStatus": true,
+      "saleCy": -6.22,
+      "saleNy": 3.79,
+      "epsCy": -455.29,
+      "epsNy": 72.69,
+      "cyTrend": 17.17,
+      "nyTrend": 55.57,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          6.39,
-          7.07,
-          6.85
+          36.67,
+          1.89,
+          12.76
         ],
         "ni": [
-          -14.69,
-          -8.15,
-          1.71
+          "흑자전환",
+          "적자확대",
+          648.64
         ],
         "opm": [
-          26.7,
-          30.27,
-          31.61
+          11.53,
+          0.45,
+          5.5
         ],
-        "updated": "2026-09-08 06:16:57"
+        "updated": "2026-09-08 07:55:36"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "FDS",
-        "category": 1,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "2026-09-30 프리마켓에 FY4Q(8월 결산) 실적을 발표했고 Zacks 는 매출·EPS 모두 컨센서스를 상회했다고 보도했다. 구체 수치(서프라이즈율·가이던스)는 원문을 열람하지 못해 근거 없음.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "FactSet Research (FDS) Tops Q4 Earnings and Revenue Estimates",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/factset-research-fds-tops-q4-earnings-and-revenue-estimates",
-                "date": "2026-09-30",
-                "quote": "FactSet Research (FDS) Tops Q4 Earnings and Revenue Estimates",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "VICR",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "price": 288.94000244140625,
+      "marketCap": "13.32B",
+      "volx": null,
+      "volSurgeWk": 2.07,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 75.51,
+      "adr": 6.74,
+      "targetStatus": true,
+      "saleCy": 38.81,
+      "saleNy": 54.09,
+      "epsCy": 29.15,
+      "epsNy": 53.57,
+      "cyTrend": 10.78,
+      "nyTrend": 7.02,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          1.63,
+          20.22,
+          11.54
         ],
-        "company": "FactSet(FDS)은 금융 데이터·분석 구독 서비스를 기관 투자자·자산운용사·IB 에 판매하는 Financial Data 업체로 시총 9.71B, 8월 결산이다. 사이트 컨센서스 기준 매출성장 CY 6.43% / NY 5.85%, EPS 성장 CY 5.01% / NY 10.62%이고 최근 3분기 매출성장 6.39/7.07/6.85%, 영업이익률 26.7/30.27/31.61%, 순이익 -14.69/-8.15/1.71로 저성장·마진 회복 국면이다. 150일선 위지만 52주 고점 대비 83.52%, 60일 신고가 돌파 NO.",
-        "volumeExplanation": "2026-09-30 프리마켓 FY4Q 실적 발표에서 Zacks 가 매출·EPS 컨센서스 상회를 보도했고, 이 실적 이벤트가 주간 거래량배수 2.09(당일제외 5일평균 대비)로 이어진 것으로 본다. 다만 VOL_X 는 null, CLS_POS 0, 신고가 돌파 NO 로 가격 반응은 강하지 않았다. 서프라이즈 폭과 가이던스는 확인하지 못했다.",
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "c2"
-          ],
-          "reason": "c2 statement claims 'Item 5.02(임원 변동) 8-K 가 9/25 에 별도로 제출' but provided SEC quote shows only 'items 2.02 / 5.03 / 9.01' dated 2026-09-30. Dates 9/25 and Item 5.02 do not appear in the provided source quote and must be removed. Category 1 (earnings) remains adequately supported by c1—Zacks article confirming FDS beat both EPS and revenue estimates on 2026-09-30."
-        },
-        "categoryName": "어닝 서프라이즈/가이던스 상향",
-        "isHighlight": true,
-        "researchedOn": "2026-10-01",
-        "carried": false
+        "ni": [
+          20.83,
+          713.86,
+          354.16
+        ],
+        "opm": [
+          24.33,
+          14.95,
+          14.62
+        ],
+        "updated": "2026-09-08 10:09:13"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
       "ticker": "SENEB",
       "sector": "Consumer Defensive",
       "industry": "Packaged Foods",
-      "price": 187.4199981689453,
-      "marketCap": "1.27B",
+      "price": 179.83999633789062,
+      "marketCap": "1.22B",
       "volx": null,
-      "volSurgeWk": 3.16,
+      "volSurgeWk": 6.13,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 0,
-      "high52": 89.88,
-      "adr": 0.1,
+      "high52": 86.24,
+      "adr": 0.08,
       "targetStatus": false,
       "saleCy": 14.06,
       "saleNy": 2.32,
@@ -396,22 +396,344 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-01",
-        "carried": false
+        "carried": true
+      }
+    },
+    {
+      "ticker": "ACN",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "price": 183.3699951171875,
+      "marketCap": "112.21B",
+      "volx": null,
+      "volSurgeWk": 4.53,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 64.29,
+      "adr": 3.46,
+      "targetStatus": false,
+      "saleCy": 5.59,
+      "saleNy": 4.06,
+      "epsCy": 7.25,
+      "epsNy": 5.76,
+      "cyTrend": 0.04,
+      "nyTrend": 0.07,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          5.59,
+          8.31,
+          5.95
+        ],
+        "ni": [
+          6.44,
+          2.08,
+          -2.95
+        ],
+        "opm": [
+          16.96,
+          13.82,
+          15.33
+        ],
+        "updated": "2026-09-08 07:11:42"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "UAN",
+      "sector": "Basic Materials",
+      "industry": "Agricultural Inputs",
+      "price": 123.77999877929688,
+      "marketCap": "1.31B",
+      "volx": null,
+      "volSurgeWk": 2.45,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 90.47,
+      "adr": 2.39,
+      "targetStatus": false,
+      "saleCy": null,
+      "saleNy": null,
+      "epsCy": null,
+      "epsNy": null,
+      "cyTrend": null,
+      "nyTrend": null,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          19.95,
+          26.03,
+          -6.08
+        ],
+        "ni": [
+          99.92,
+          84.26,
+          -156.11
+        ],
+        "opm": [
+          41.95,
+          32.02,
+          -2.2
+        ],
+        "updated": "2026-09-08 09:01:10"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "HURN",
+      "sector": "Industrials",
+      "industry": "Consulting Services",
+      "price": 156.8300018310547,
+      "marketCap": "2.50B",
+      "volx": null,
+      "volSurgeWk": 3.12,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 83.97,
+      "adr": 3.09,
+      "targetStatus": false,
+      "saleCy": 12.58,
+      "saleNy": 8.97,
+      "epsCy": 17.47,
+      "epsNy": 15.13,
+      "cyTrend": 0,
+      "nyTrend": 0,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          15.37,
+          11.78,
+          10.68
+        ],
+        "ni": [
+          60.75,
+          -5.25,
+          -9.81
+        ],
+        "opm": [
+          10.58,
+          8.1,
+          11.35
+        ],
+        "updated": "2026-09-09 07:13:06"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "NRP",
+      "sector": "Energy",
+      "industry": "Thermal Coal",
+      "price": 108.7300033569336,
+      "marketCap": "1.44B",
+      "volx": null,
+      "volSurgeWk": 4.49,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 86.17,
+      "adr": 2,
+      "targetStatus": false,
+      "saleCy": null,
+      "saleNy": null,
+      "epsCy": null,
+      "epsNy": null,
+      "cyTrend": null,
+      "nyTrend": null,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          -3.97,
+          -34.99,
+          -28.93
+        ],
+        "ni": [
+          -26.41,
+          -51.26,
+          -27.53
+        ],
+        "opm": [
+          54.52,
+          52.33,
+          68.84
+        ],
+        "updated": "2026-09-09 06:34:39"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "HSBC",
+      "sector": "Financial Services",
+      "industry": "Banks - Diversified",
+      "price": 99.30999755859375,
+      "marketCap": "339.77B",
+      "volx": null,
+      "volSurgeWk": 2.2,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 92.44,
+      "adr": 1.28,
+      "targetStatus": false,
+      "saleCy": 6.73,
+      "saleNy": 5.55,
+      "epsCy": 13.87,
+      "epsNy": 10.16,
+      "cyTrend": -2.96,
+      "nyTrend": -4.22,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          null,
+          4.87,
+          null
+        ],
+        "ni": [
+          null,
+          13.11,
+          null
+        ],
+        "opm": [
+          null,
+          4.12,
+          null
+        ],
+        "updated": "2026-09-21 06:00:52"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "STNG",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "price": 83.69999694824219,
+      "marketCap": "4.30B",
+      "volx": null,
+      "volSurgeWk": 2.9,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 92.94,
+      "adr": 3.21,
+      "targetStatus": false,
+      "saleCy": 35.13,
+      "saleNy": -29.03,
+      "epsCy": 109.17,
+      "epsNy": -50.26,
+      "cyTrend": 1.21,
+      "nyTrend": 7.02,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          77.54,
+          46.21,
+          23.87
+        ],
+        "ni": [
+          427.2,
+          271.5,
+          86.88
+        ],
+        "opm": [
+          97.45,
+          70.16,
+          52.66
+        ],
+        "updated": "2026-09-09 06:09:57"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "SRCE",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "price": 84.5,
+      "marketCap": "2.07B",
+      "volx": null,
+      "volSurgeWk": 2.27,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 92.61,
+      "adr": 1.46,
+      "targetStatus": true,
+      "saleCy": 7.93,
+      "saleNy": 2.93,
+      "epsCy": 7.45,
+      "epsNy": 2.16,
+      "cyTrend": 6.42,
+      "nyTrend": 5.27,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          3.88,
+          1.86,
+          6.28
+        ],
+        "ni": [
+          27.08,
+          6.36,
+          33.43
+        ],
+        "opm": [
+          39.46,
+          34.43,
+          35.59
+        ],
+        "updated": "2026-09-09 06:28:41"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
       "ticker": "MGRT",
       "sector": "Technology",
       "industry": "Information Technology Services",
-      "price": 118,
-      "marketCap": "1.62B",
+      "price": 100.01000213623047,
+      "marketCap": "1.45B",
       "volx": null,
-      "volSurgeWk": 3.57,
+      "volSurgeWk": 3.78,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 0,
-      "high52": 69.41,
-      "adr": 4.99,
+      "high52": 58.83,
+      "adr": 4.61,
       "targetStatus": false,
       "saleCy": null,
       "saleNy": null,
@@ -458,152 +780,193 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-01",
-        "carried": false
+        "carried": true
       }
     },
     {
-      "ticker": "IDT",
-      "sector": "Communication Services",
-      "industry": "Telecom Services",
-      "price": 69.55999755859375,
-      "marketCap": "1.88B",
+      "ticker": "NMM",
+      "sector": "Industrials",
+      "industry": "Marine Shipping",
+      "price": 89.91000366210938,
+      "marketCap": "2.63B",
       "volx": null,
-      "volSurgeWk": 2.46,
+      "volSurgeWk": 2.17,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 0,
-      "high52": 96.44,
-      "adr": 2.93,
+      "high52": 94.64,
+      "adr": 2.34,
       "targetStatus": false,
-      "saleCy": -3.46,
-      "saleNy": -2.47,
-      "epsCy": 3.4,
-      "epsNy": 7.59,
-      "cyTrend": 0,
-      "nyTrend": 0,
+      "saleCy": 20.6,
+      "saleNy": 1.44,
+      "epsCy": 88.5,
+      "epsNy": -6.45,
+      "cyTrend": 8.04,
+      "nyTrend": 1.13,
       "newHigh52": false,
       "bbCenterBrk5d": true,
       "fs": {
         "sale": [
-          4.55,
-          5.66,
-          4.26
+          25.22,
+          17.39,
+          9.93
         ],
         "ni": [
-          -0.36,
-          3.35,
-          29.64
+          140.07,
+          154.86,
+          23.86
         ],
         "opm": [
-          9.44,
-          8.5,
-          9.58
+          39.64,
+          38.33,
+          38.17
         ],
-        "updated": "2026-09-08 09:48:59"
+        "updated": "2026-09-08 09:59:06"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "IDT",
-        "category": 1,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "IDT 는 2026-09-28 에 FY2026(7/31 종료) 4분기·연간 실적을 8-K Item 2.02 로 발표했다. 실적 수치(매출·EPS·가이던스)는 8-K 본문에 없고 Exhibit 99.1 에 있어 이번에 확인하지 못했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "IDT Corporation Form 8-K (Item 2.02, 9.01)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1005731/000143774926031364/idt20260424_8k.htm",
-                "date": "2026-09-28",
-                "quote": "On September 28, 2026, IDT Corporation (the \"Registrant\") issued a press release announcing its results of operations for its fiscal quarter and fiscal year ended July 31, 2026.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "실적 발표 직후인 9/29 에 Motley Fool 이 주가 급등 기사를 냈다. 기사 본문은 열람 시간 초과로 읽지 못해 상승 원인 문장·수치는 확인하지 못했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Why IDT Stock Is Rocketing Higher Today",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/why-idt-stock-rocketing-higher-today",
-                "date": "2026-09-29",
-                "quote": "Why IDT Stock Is Rocketing Higher Today",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "반대 근거: 컨센서스는 매출 CY -3.46%·NY -2.47%, 30일 전망 변화 0%, 최근 3분기 매출성장 4.55/5.66/4.26%, 영업이익률 9.44/8.5/9.58% 로 두 자릿수 성장 패턴은 아니다. 60일 신고가 돌파 NO, CLS_POS 0 으로 거래량 당일 종가는 약했다.",
-            "evidence_level": "no_source",
-            "sources": []
-          }
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "SHG",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "price": 77.66999816894531,
+      "marketCap": "38.40B",
+      "volx": null,
+      "volSurgeWk": 2.2,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 90.77,
+      "adr": 1.71,
+      "targetStatus": false,
+      "saleCy": 10.31,
+      "saleNy": 4.68,
+      "epsCy": 27.14,
+      "epsNy": 9.59,
+      "cyTrend": 0,
+      "nyTrend": 0,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          27.14,
+          7.21,
+          21.2
         ],
-        "company": "IDT 는 국제 통화(BOSS Revolution·Carrier Services)와 net2phone(UCaaS·CPaaS), fintech(BOSS Money), NRS(결제·광고) 등을 운영하는 통신·핀테크 복합기업으로 시총 1.88B 다. 최근 3분기 매출성장은 4.55/5.66/4.26% 로 한 자릿수이며 영업이익률은 9.44/8.5/9.58% 다. 2026-08 에는 net2phone 스핀오프를 시장 개선 때까지 연기한다는 보도가 있었고, 현 국면은 FY2026 4분기 실적 발표(9/28) 직후다.",
-        "volumeExplanation": "9/28 FY2026 4분기 실적 8-K 발표 후 9/29 Motley Fool 이 급등 기사를 냈고, 이 실적 반응이 주간 거래량배수 2.46(당일제외 5일평균 대비)으로 이어졌을 가능성이 높다. 다만 실적 수치와 기사 본문을 확인하지 못해 서프라이즈 여부와 상승 사유는 근거 없음이며, 분류 ①은 시점 일치에 근거한 잠정 판정이다. 60일 신고가 미돌파·CLS_POS 0 이므로 확인할 조건은 Exhibit 99.1 의 매출·EPS 컨센서스 대비와 가이던스 여부다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "8-K Item 2.02(2026-09-28)와 Motley Fool 기사(2026-09-29)로 ①분류 근거 충분. 시점 일치 확인."
-        },
-        "categoryName": "어닝 서프라이즈/가이던스 상향",
-        "isHighlight": true,
-        "researchedOn": "2026-10-01",
-        "carried": false
+        "ni": [
+          18.22,
+          13.99,
+          647.06
+        ],
+        "opm": [
+          22.3,
+          23.98,
+          11.17
+        ],
+        "updated": "2026-09-07 07:39:02"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "MT",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "price": 66.73999786376953,
+      "marketCap": "51.14B",
+      "volx": null,
+      "volSurgeWk": 2.1,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 83.76,
+      "adr": 2.12,
+      "targetStatus": false,
+      "saleCy": 9.67,
+      "saleNy": 7.68,
+      "epsCy": 11.58,
+      "epsNy": 72.65,
+      "cyTrend": -2.4,
+      "nyTrend": 1.44,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          5.24,
+          4.45,
+          1.75
+        ],
+        "ni": [
+          -61.91,
+          -28.57,
+          "흑자전환"
+        ],
+        "opm": [
+          6.29,
+          4.87,
+          2.18
+        ],
+        "updated": "2026-09-08 09:52:14"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     }
   ],
-  "excludedEtf": [],
+  "excludedEtf": [
+    "GLDI",
+    "FNGO",
+    "SLVO"
+  ],
   "excludedNoMarketCap": [
-    "USB-A",
-    "HPE-C",
-    "BMNP",
-    "MCHPP",
-    "CTA-B",
-    "VSECU",
-    "ORCL-D",
-    "NEE-S",
-    "FOUR-A"
+    "HL-B",
+    "KIM-N",
+    "CTA-A",
+    "AFJKU"
   ],
   "excludedBelowMa150": [
-    "FICO",
-    "ESLT",
-    "CBOE",
-    "AXSM",
-    "AIR",
-    "BMA",
+    "SNPS",
+    "MCO",
+    "COHR",
+    "ALNY",
+    "IBM",
+    "WTFC",
+    "L",
+    "AX",
+    "LGN",
     "WLK",
-    "PIPR",
-    "AIG",
-    "MNDY",
-    "IIPR",
-    "SLB"
+    "HAS",
+    "CASH",
+    "CTVA",
+    "CUBI",
+    "LQDA",
+    "NKTR",
+    "RYAAY",
+    "CQP",
+    "GGAL",
+    "GSK"
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 8,
-    "total": 8,
-    "cap": 8,
-    "pending": 0,
+    "done": 3,
+    "total": 19,
+    "cap": null,
+    "pending": 16,
     "failed": 0,
-    "carried": 0,
+    "carried": 3,
     "ineligible": 0,
-    "note": "150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "19종목 중 3종목을 조사했습니다. 그중 3종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 16종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
-    "highlights": [],
-    "sectorSignal": "촉매가 특정 섹터에 몰렸다고 볼 근거 없음. 입력 3건(MDT·MDB·AEM)은 모두 category 6(뉴스 없는 이상거래량)이고 촉매 근거는 \"근거 없음\"이며, 업종이 서로 달라 섹터 쏠림을 판단할 자료가 없다.",
-    "caution": "오늘 입력 3건은 전부 category 6(암묵적, 뉴스 없는 이상거래량)이라 category 1(어닝 서프라이즈/가이던스 상향)과 5(산업 기술 돌파)에 해당하는 종목이 없어 highlights는 비어 있다. 3건 모두 촉매 근거가 \"근거 없음\"이므로 거래량 이상만으로 EP 후보로 보기 어렵고, 사용자가 원천 공시·뉴스를 직접 확인해야 한다. MDB는 분류가 정정(corrected)된 건이다. 가격·차트 데이터를 받지 않아 차트 국면(횡보·돌파·리테스트)은 판정하지 않았다.",
-    "researchedOn": "2026-09-30"
-  },
-  "llm": {
     "highlights": [
       {
         "ticker": "FDS",
@@ -619,10 +982,5 @@ window.TEAM4_DATA = {
     "sectorSignal": "촉매가 특정 섹터·업종에 몰리지 않았다. category 1 은 FDS·IDT 2건뿐이고 업종이 서로 다르며 입력에 업종 정보도 없다. category 5(산업 기술 돌파)는 0건이다. 나머지 7건(URI·DDS·DJCO·ITW·SENEB·MGRT 등)은 뉴스 없는 이상거래량(category 6)으로 근거 없음이다.",
     "caution": "이 분류는 뉴스·공시 자료 존재 여부만 반영한다. FDS 는 Zacks 보도 한 줄, IDT 는 8-K 본문(수치 없음)에 근거해 서프라이즈 크기·가이던스 상향 여부를 확인하지 못했고, IDT 는 컨센서스·마진 데이터가 오히려 반대 방향이다. 차트 국면은 가격 데이터를 받지 않아 판정하지 않았다. 사용자가 원문(FDS 실적 자료, IDT Exhibit 99.1)과 차트를 직접 확인한 뒤 판단해야 한다.",
     "researchedOn": "2026-10-01"
-  },
-  "reusedFrom": null,
-  "byCategory": {
-    "1": 2,
-    "6": 6
   }
 };
