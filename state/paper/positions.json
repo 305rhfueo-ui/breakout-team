@@ -21,7 +21,7 @@
       "days": 0,
       "mfe": 0,
       "mae": -0.9370460048426127,
-      "last": 117.82,
+      "last": 118.3,
       "lastDate": "2026-10-02",
       "regime": "green",
       "fills": [
@@ -52,7 +52,7 @@
         "regime": "green",
         "source": "kis"
       },
-      "lastBarT": 1790951700000
+      "lastBarT": 1790970900000
     },
     {
       "id": "SMTC-2026-10-02-main",
@@ -73,9 +73,9 @@
       "realPct": 0,
       "partial": false,
       "days": 0,
-      "mfe": 0,
-      "mae": 0,
-      "last": 201.83,
+      "mfe": 0.013282732447816543,
+      "mae": -0.6650853889943092,
+      "last": 194.88,
       "lastDate": "2026-10-02",
       "regime": "green",
       "fills": [
@@ -106,7 +106,7 @@
         "regime": "green",
         "source": "kis"
       },
-      "lastBarT": 1790951700000
+      "lastBarT": 1790970900000
     },
     {
       "id": "SMTC-2026-10-02-trail20",
@@ -127,9 +127,9 @@
       "realPct": 0,
       "partial": false,
       "days": 0,
-      "mfe": 0,
-      "mae": 0,
-      "last": 201.83,
+      "mfe": 0.013282732447816543,
+      "mae": -0.6650853889943092,
+      "last": 194.88,
       "lastDate": "2026-10-02",
       "regime": "green",
       "fills": [
@@ -160,7 +160,7 @@
         "regime": "green",
         "source": "kis"
       },
-      "lastBarT": 1790951700000
+      "lastBarT": 1790970900000
     }
   ]
 }

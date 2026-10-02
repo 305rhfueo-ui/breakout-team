@@ -1,5 +1,5 @@
 window.PAPER_DATA = {
-  "generated": "2026-10-02T14:40:33.421Z",
+  "generated": "2026-10-02T20:00:24.075Z",
   "rulesVersion": "0.3",
   "slipPct": 0.2,
   "minSample": 30,
@@ -9,8 +9,8 @@ window.PAPER_DATA = {
   "stats": {
     "n": 0,
     "open": 1,
-    "openPct": 0,
-    "totalPct": 0
+    "openPct": -0.33,
+    "totalPct": -0.33
   },
   "byGrade": {},
   "byRegime": {},
@@ -49,6 +49,10 @@ window.PAPER_DATA = {
     {
       "date": "2026-10-01",
       "pct": 0
+    },
+    {
+      "date": "2026-10-02",
+      "pct": -0.33
     }
   ],
   "positions": [
@@ -60,17 +64,17 @@ window.PAPER_DATA = {
       "entryAt": "1040",
       "entry": 201.83,
       "stop": 191.29,
-      "last": 201.83,
-      "R": 0,
+      "last": 194.88,
+      "R": -0.66,
       "left": 1,
       "days": 0,
       "weightPct": 9.6,
       "partial": false,
       "stop0": 191.29,
       "riskPerSharePct": 5.22,
-      "pct": 0,
-      "mfeR": 0,
-      "maeR": 0,
+      "pct": -0.33,
+      "mfeR": 0.01,
+      "maeR": -0.67,
       "regime": "green",
       "entered": "피벗 190.64 위에서 장중 고가 돌파 · 거래량 페이스 1.55× · 10일선 이격 1.91 ADR · 손절 기준 당일 저가 · 베이스 2.2주 · 5팀 업종 대기"
     }
@@ -91,14 +95,14 @@ window.PAPER_DATA = {
     }
   ],
   "health": {
-    "at": "2026-10-02T14:40:20.060Z",
-    "atKst": "2026-10-02 23:40 KST",
-    "atEt": "2026-10-02 1040",
-    "phase": "open",
+    "at": "2026-10-02T20:00:20.051Z",
+    "atKst": "2026-10-03 05:00 KST",
+    "atEt": "2026-10-02 1600",
+    "phase": "post",
     "source": "kis",
     "status": "정상",
     "watch": 19,
-    "checked": 18,
+    "checked": 0,
     "errors": []
   }
 };
