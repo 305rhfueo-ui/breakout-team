@@ -1,5 +1,5 @@
 window.TEAM4_DATA = {
-  "generated": "2026-10-03",
+  "generated": "2026-10-04",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2,
@@ -71,7 +71,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -137,7 +137,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -269,7 +269,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -335,7 +335,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -401,7 +401,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -493,7 +493,7 @@ window.TEAM4_DATA = {
         "categoryName": "대형 파트너십·공급계약",
         "isHighlight": false,
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -559,7 +559,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -625,7 +625,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -691,7 +691,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -757,7 +757,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -837,7 +837,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       }
     }
   ],
@@ -869,26 +869,14 @@ window.TEAM4_DATA = {
   "research_coverage": {
     "done": 12,
     "total": 12,
-    "cap": 11,
+    "cap": null,
     "pending": 0,
     "failed": 0,
-    "carried": 1,
+    "carried": 12,
     "ineligible": 0,
-    "note": "그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 12종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
-    "highlights": [
-      {
-        "ticker": "ACN",
-        "category": 1,
-        "oneLine": "10월 1일 장 전 4분기 실적 발표, 이익·매출 모두 예상치를 웃돌아 주가 급등"
-      }
-    ],
-    "sectorSignal": "실적 호재는 1건(ACN)뿐이라 특정 업종 쏠림은 판단할 수 없다. 산업 기술 돌파 호재는 없고, 나머지 16건은 뉴스 근거가 없는 거래량 급증이다.",
-    "caution": "17건 중 16건은 호재 근거 없이 거래량만 튄 종목이라 호재로 읽으면 안 된다. ACN 도 실적 근거만 확인된 것이며 차트 상태는 보지 않았으니 직접 확인해야 한다.",
-    "researchedOn": "2026-10-02"
-  },
-  "llm": {
     "highlights": [
       {
         "ticker": "TAYD",
@@ -899,11 +887,5 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적 호재로 분류된 종목은 1건뿐이고 기술 돌파 호재는 0건이라 특정 업종에 몰린 흐름은 없다. 나머지 10건 중 9건은 뉴스 없이 거래량만 늘었고, 1건은 기업 인수 합의 건이다.",
     "caution": "TAYD는 분류상 실적 항목이지만 근거 기사는 예상 하회라서, 상승 호재로 보기 어렵다. 뉴스 없이 거래량만 늘어난 종목은 이유를 확인한 것이 아니므로 직접 사유를 확인해야 한다.",
     "researchedOn": "2026-10-03"
-  },
-  "reusedFrom": null,
-  "byCategory": {
-    "1": 1,
-    "3": 1,
-    "6": 10
   }
 };

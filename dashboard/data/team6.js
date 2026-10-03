@@ -1,5 +1,5 @@
 window.TEAM6_DATA = {
-  "generated": "2026-10-03",
+  "generated": "2026-10-04",
   "sessionDate": "2026-10-02",
   "rulesVersion": "0.3",
   "regime": "green",
@@ -370,7 +370,7 @@ window.TEAM6_DATA = {
         "financialsNarrativeOriginal": "매출은 한 자릿수 후반~11% 속도로 꾸준히 늘고, 이익은 그보다 빠르게 늘고 있다. 2026년 2분기 매출은 1.82억 달러로 1년 전보다 11% 늘었다. 같은 분기 영업이익은 6,190만 달러로 1년 전보다 20.4% 늘어, 비용 관리로 이익률이 34% 수준을 지킨다. 회사는 연간 매출 전망을 7.32~7.38억 달러로 올려, 성장 속도가 빨라지진 않아도 꺾이지 않았다는 신호를 줬다.",
         "researchedOn": "2026-10-03",
         "session": "2026-10-02",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -384,15 +384,15 @@ window.TEAM6_DATA = {
       "price": 216.5,
       "pivot": 224.28,
       "pivotDate": "2026-09-16",
-      "stop": 212.73,
-      "riskPerSharePct": 5.15,
+      "stop": 212.71,
+      "riskPerSharePct": 5.16,
       "weightPct": 9.7,
       "weightCapped": false,
       "distToPivotPct": -3.47,
       "distToPivotAdr": -0.65,
       "extensionAdr": 0.56,
       "chase": false,
-      "adrPct": 5.34,
+      "adrPct": 5.35,
       "ma10": 210.02,
       "dollarVol20M": 33.7,
       "liquid": true,
@@ -826,7 +826,7 @@ window.TEAM6_DATA = {
         },
         "researchedOn": "2026-10-03",
         "session": "2026-10-02",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1268,7 +1268,7 @@ window.TEAM6_DATA = {
         "newsNarrativeOriginal": "이 종목 이야기의 출발점은 7월 30일 발표한 2분기 실적이다. 매출이 1년 전보다 127% 늘며 사상 최대를 기록했고, 회사는 3분기 매출을 1년 전보다 114~124% 늘어난 수준으로 제시했다. 회사는 소비자용 컨트롤러 회사에서 AI 서버용 등 기업용 저장장치 회사로 바뀌는 중이라고 설명했다. 9월 말에는 매출총이익률이 50%까지 오른 점을 짚으면서도, 주가가 매출의 8.3배라 실수할 여지가 적다는 분석이 나왔다. 9월 하순 이후 주가는 시장이 오를 때 빠지고 내릴 때 오르는 등 시장과 따로 움직였다.",
         "researchedOn": "2026-10-03",
         "session": "2026-10-02",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1283,14 +1283,14 @@ window.TEAM6_DATA = {
       "pivot": 89.76,
       "pivotDate": "2026-09-11",
       "stop": 84.73,
-      "riskPerSharePct": 5.6,
+      "riskPerSharePct": 5.61,
       "weightPct": 8.9,
       "weightCapped": false,
       "distToPivotPct": -4.16,
       "distToPivotAdr": -0.71,
       "extensionAdr": 0.12,
       "chase": false,
-      "adrPct": 5.84,
+      "adrPct": 5.85,
       "ma10": 85.44,
       "dollarVol20M": 33.4,
       "liquid": true,
@@ -1652,7 +1652,7 @@ window.TEAM6_DATA = {
         "financialsNarrativeOriginal": "매출이 줄던 흐름이 최근 분기에 크게 반등했다. 5~7월 분기 매출은 2,350만 달러로 1년 전보다 70% 늘었고, 영업이익 520만 달러로 흑자를 냈다. 바로 전 분기(2~4월)에는 재고 평가손실 같은 일회성 비용으로 영업손실 630만 달러를 냈다. 회사는 2029 회계연도까지 연매출 1.5억 달러 이상을 목표로 내놓아, 성장이 이어질지가 관건이다.",
         "researchedOn": "2026-10-03",
         "session": "2026-10-02",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -2106,7 +2106,7 @@ window.TEAM6_DATA = {
         },
         "researchedOn": "2026-10-03",
         "session": "2026-10-02",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -2120,7 +2120,7 @@ window.TEAM6_DATA = {
       "price": 349.07,
       "pivot": 367.43,
       "pivotDate": "2026-09-24",
-      "stop": 349.66,
+      "stop": 349.63,
       "riskPerSharePct": 4.84,
       "weightPct": 10.3,
       "weightCapped": false,
@@ -2128,7 +2128,7 @@ window.TEAM6_DATA = {
       "distToPivotAdr": -0.98,
       "extensionAdr": -0.16,
       "chase": false,
-      "adrPct": 5.09,
+      "adrPct": 5.1,
       "ma10": 351.84,
       "dollarVol20M": 1037.4,
       "liquid": true,
@@ -2137,7 +2137,7 @@ window.TEAM6_DATA = {
         "베이스 2.8주",
         "깊이 15.9%",
         "저점 상승 1회",
-        "진폭 0.9배 · 10일 종가폭 0.6 ADR",
+        "진폭 0.91배 · 10일 종가폭 0.6 ADR",
         "10일선 -0.2 ADR · 20일선 +0.9 ADR",
         "20일선 기울기 +4.82%"
       ],
@@ -2148,7 +2148,7 @@ window.TEAM6_DATA = {
         "depthPct": 15.9,
         "priorMovePct": 73.1,
         "higherLows": 1,
-        "contraction": 0.9,
+        "contraction": 0.91,
         "closeRange10Adr": 0.6,
         "surf10": -0.16,
         "surf20": 0.92,
@@ -2545,7 +2545,7 @@ window.TEAM6_DATA = {
         },
         "researchedOn": "2026-10-03",
         "session": "2026-10-02",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -2560,7 +2560,7 @@ window.TEAM6_DATA = {
       "pivot": 419.04,
       "pivotDate": "2026-09-21",
       "stop": 401.38,
-      "riskPerSharePct": 4.21,
+      "riskPerSharePct": 4.22,
       "weightPct": 11.9,
       "weightCapped": false,
       "distToPivotPct": -3.04,
@@ -2569,7 +2569,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 4.35,
       "ma10": 389.59,
-      "dollarVol20M": 1554.8,
+      "dollarVol20M": 1555,
       "liquid": true,
       "reasons": [
         "선행 상승 +80%",
@@ -2993,7 +2993,7 @@ window.TEAM6_DATA = {
         },
         "researchedOn": "2026-10-03",
         "session": "2026-10-02",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -3017,7 +3017,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 4.52,
       "ma10": 107.99,
-      "dollarVol20M": 306.9,
+      "dollarVol20M": 307.2,
       "liquid": true,
       "reasons": [
         "선행 상승 +86%",
@@ -3384,7 +3384,7 @@ window.TEAM6_DATA = {
         "newsNarrativeOriginal": "최근 두 달 흐름의 중심은 정제마진 급등과 주주환원이다. 8월 말 이사회가 15억 달러 규모의 새 자사주 매입을 승인했다. 9월 초에는 주식을 새로 발행할 수 있는 일괄신고서(미리 등록해 두는 증자 한도)도 함께 제출했다. 9월 중순 보도는 공급 차질로 정제마진이 크게 벌어졌다고 전했다. 다만 그 마진은 몇 분기 뒤 정상화될 수 있다고 덧붙였다. 10월 초에는 모멘텀이 강한 종목으로 꼽히는 기사가 나왔다.",
         "researchedOn": "2026-10-03",
         "session": "2026-10-02",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -3462,7 +3462,7 @@ window.TEAM6_DATA = {
       "price": 1074.89,
       "pivot": 1108.72,
       "pivotDate": "2026-09-25",
-      "stop": 1067.59,
+      "stop": 1067.58,
       "riskPerSharePct": 3.71,
       "weightPct": 13.5,
       "weightCapped": false,
@@ -3472,7 +3472,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 3.83,
       "ma10": 1073.13,
-      "dollarVol20M": 27090,
+      "dollarVol20M": 27127.7,
       "liquid": true,
       "reasons": [
         "선행 상승 +50%",
@@ -3521,15 +3521,15 @@ window.TEAM6_DATA = {
       "price": 83.14,
       "pivot": 87.42,
       "pivotDate": "2026-08-18",
-      "stop": 84.22,
-      "riskPerSharePct": 3.66,
-      "weightPct": 13.7,
+      "stop": 84.19,
+      "riskPerSharePct": 3.69,
+      "weightPct": 13.5,
       "weightCapped": false,
       "distToPivotPct": -4.9,
-      "distToPivotAdr": -1.27,
+      "distToPivotAdr": -1.26,
       "extensionAdr": 0.33,
       "chase": false,
-      "adrPct": 3.85,
+      "adrPct": 3.88,
       "ma10": 82.08,
       "dollarVol20M": 15.2,
       "liquid": false,
@@ -3538,8 +3538,8 @@ window.TEAM6_DATA = {
         "베이스 7.4주",
         "깊이 15.1%",
         "저점 상승 1회",
-        "진폭 0.81배 · 10일 종가폭 1 ADR",
-        "10일선 +0.3 ADR · 20일선 +0.5 ADR",
+        "진폭 0.82배 · 10일 종가폭 1 ADR",
+        "10일선 +0.3 ADR · 20일선 +0.4 ADR",
         "20일선 기울기 +0.06%"
       ],
       "fails": [],
@@ -3549,7 +3549,7 @@ window.TEAM6_DATA = {
         "depthPct": 15.1,
         "priorMovePct": 88,
         "higherLows": 1,
-        "contraction": 0.81,
+        "contraction": 0.82,
         "closeRange10Adr": 1,
         "surf10": 0.33,
         "surf20": 0.45,
@@ -3564,7 +3564,7 @@ window.TEAM6_DATA = {
         "frank25": -63
       },
       "earnings": null,
-      "blocked": "ADR 3.85% — 기준(4%) 미달",
+      "blocked": "ADR 3.88% — 기준(4%) 미달",
       "shadowBook": null,
       "watch": false,
       "score": 65.1
@@ -3590,7 +3590,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 4.85,
       "ma10": 549.82,
-      "dollarVol20M": 4696.5,
+      "dollarVol20M": 4700.2,
       "liquid": true,
       "reasons": [
         "선행 상승 +66%",
@@ -3654,7 +3654,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 4.35,
       "ma10": 116.35,
-      "dollarVol20M": 245.8,
+      "dollarVol20M": 251.2,
       "liquid": true,
       "reasons": [
         "선행 상승 +49%",
@@ -3680,7 +3680,10 @@ window.TEAM6_DATA = {
         "baseLow": 108.11,
         "lastSwingLow": 108.11
       },
-      "catalyst": null,
+      "catalyst": {
+        "category": 6,
+        "researchedOn": "2026-10-03"
+      },
       "flow": {
         "flow": "pending",
         "stageKo": "📈 상승 중반 (확장 중)",
@@ -3713,7 +3716,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 5.63,
       "ma10": 160.37,
-      "dollarVol20M": 3399,
+      "dollarVol20M": 3400.3,
       "liquid": true,
       "reasons": [
         "선행 상승 +109%",
@@ -3880,15 +3883,15 @@ window.TEAM6_DATA = {
       "price": 132.55,
       "pivot": 138.66,
       "pivotDate": "2026-09-24",
-      "stop": 134.06,
-      "riskPerSharePct": 3.32,
-      "weightPct": 15.1,
+      "stop": 134.04,
+      "riskPerSharePct": 3.33,
+      "weightPct": 15,
       "weightCapped": false,
       "distToPivotPct": -4.41,
-      "distToPivotAdr": -1.27,
+      "distToPivotAdr": -1.26,
       "extensionAdr": -0.03,
       "chase": false,
-      "adrPct": 3.47,
+      "adrPct": 3.49,
       "ma10": 132.68,
       "dollarVol20M": 16.1,
       "liquid": false,
@@ -3897,7 +3900,7 @@ window.TEAM6_DATA = {
         "✗ 베이스 1.8주",
         "깊이 8.8%",
         "저점 상승 1회",
-        "진폭 1.17배 · 10일 종가폭 1.8 ADR",
+        "진폭 1.18배 · 10일 종가폭 1.8 ADR",
         "10일선 0 ADR · 20일선 +0.9 ADR",
         "20일선 기울기 +0.55%"
       ],
@@ -3910,7 +3913,7 @@ window.TEAM6_DATA = {
         "depthPct": 8.8,
         "priorMovePct": 54.1,
         "higherLows": 1,
-        "contraction": 1.17,
+        "contraction": 1.18,
         "closeRange10Adr": 1.8,
         "surf10": -0.03,
         "surf20": 0.86,
@@ -3925,7 +3928,7 @@ window.TEAM6_DATA = {
         "frank25": 5
       },
       "earnings": null,
-      "blocked": "ADR 3.47% — 기준(4%) 미달",
+      "blocked": "ADR 3.49% — 기준(4%) 미달",
       "shadowBook": null,
       "watch": false,
       "score": 55.6
@@ -4002,8 +4005,8 @@ window.TEAM6_DATA = {
       "price": 104.68,
       "pivot": 110.04,
       "pivotDate": "2026-09-08",
-      "stop": 105.77,
-      "riskPerSharePct": 3.88,
+      "stop": 105.76,
+      "riskPerSharePct": 3.89,
       "weightPct": 12.9,
       "weightCapped": false,
       "distToPivotPct": -4.87,
@@ -4063,7 +4066,7 @@ window.TEAM6_DATA = {
       "price": 656.44,
       "pivot": 692.5,
       "pivotDate": "2026-09-16",
-      "stop": 668.98,
+      "stop": 668.96,
       "riskPerSharePct": 3.4,
       "weightPct": 14.7,
       "weightCapped": false,
@@ -4071,7 +4074,7 @@ window.TEAM6_DATA = {
       "distToPivotAdr": -1.45,
       "extensionAdr": -0.02,
       "chase": false,
-      "adrPct": 3.58,
+      "adrPct": 3.59,
       "ma10": 656.87,
       "dollarVol20M": 41.5,
       "liquid": true,
@@ -4108,7 +4111,7 @@ window.TEAM6_DATA = {
         "frank25": 8
       },
       "earnings": null,
-      "blocked": "ADR 3.58% — 기준(4%) 미달",
+      "blocked": "ADR 3.59% — 기준(4%) 미달",
       "shadowBook": null,
       "watch": false,
       "score": 54.8
@@ -4317,14 +4320,14 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 4.45,
       "ma10": 187.13,
-      "dollarVol20M": 576.4,
+      "dollarVol20M": 576.9,
       "liquid": true,
       "reasons": [
         "선행 상승 +169%",
         "베이스 3.2주",
         "깊이 16%",
         "✗ 저점 상승 0회",
-        "진폭 1.05배 · 10일 종가폭 2.4 ADR",
+        "진폭 1.06배 · 10일 종가폭 2.4 ADR",
         "10일선 +0.1 ADR · 20일선 +0.2 ADR",
         "✗ 20일선 기울기 -1.09%"
       ],
@@ -4338,7 +4341,7 @@ window.TEAM6_DATA = {
         "depthPct": 16,
         "priorMovePct": 168.8,
         "higherLows": 0,
-        "contraction": 1.05,
+        "contraction": 1.06,
         "closeRange10Adr": 2.4,
         "surf10": 0.09,
         "surf20": 0.16,
@@ -4378,8 +4381,8 @@ window.TEAM6_DATA = {
       "extensionAdr": -0.29,
       "chase": false,
       "adrPct": 4.79,
-      "ma10": 121.01,
-      "dollarVol20M": 12550.2,
+      "ma10": 121.02,
+      "dollarVol20M": 12551.3,
       "liquid": true,
       "reasons": [
         "선행 상승 +56%",
@@ -4441,7 +4444,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 4.89,
       "ma10": 55.65,
-      "dollarVol20M": 79,
+      "dollarVol20M": 79.7,
       "liquid": true,
       "reasons": [
         "선행 상승 +55%",
@@ -4471,7 +4474,10 @@ window.TEAM6_DATA = {
         "baseLow": 45.62,
         "lastSwingLow": 51.31
       },
-      "catalyst": null,
+      "catalyst": {
+        "category": 6,
+        "researchedOn": "2026-10-03"
+      },
       "flow": {
         "flow": "neutral",
         "stageKo": "❄️ 조정 중",
@@ -4505,7 +4511,7 @@ window.TEAM6_DATA = {
       "distToPivotAdr": 0.35,
       "extensionAdr": 1.25,
       "chase": false,
-      "adrPct": 6.43,
+      "adrPct": 6.44,
       "ma10": 179.25,
       "dollarVol20M": 605.4,
       "liquid": true,
@@ -4562,7 +4568,7 @@ window.TEAM6_DATA = {
       "distToPivotAdr": -0.6,
       "extensionAdr": 0.52,
       "chase": false,
-      "adrPct": 3.24,
+      "adrPct": 3.25,
       "ma10": 159.4,
       "dollarVol20M": 40,
       "liquid": true,
@@ -4624,7 +4630,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 6.56,
       "ma10": 970.51,
-      "dollarVol20M": 4636.8,
+      "dollarVol20M": 4637.2,
       "liquid": true,
       "reasons": [
         "선행 상승 +73%",
@@ -4686,7 +4692,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 4.91,
       "ma10": 134.94,
-      "dollarVol20M": 159.5,
+      "dollarVol20M": 159.7,
       "liquid": true,
       "reasons": [
         "선행 상승 +70%",
@@ -4747,7 +4753,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 6.67,
       "ma10": 277.78,
-      "dollarVol20M": 4834.2,
+      "dollarVol20M": 4834.5,
       "liquid": true,
       "reasons": [
         "선행 상승 +83%",
@@ -4802,7 +4808,7 @@ window.TEAM6_DATA = {
       "distToPivotAdr": 0.1,
       "extensionAdr": 0.75,
       "chase": false,
-      "adrPct": 3.91,
+      "adrPct": 3.92,
       "ma10": 86.21,
       "dollarVol20M": 8.3,
       "liquid": false,
@@ -4859,12 +4865,12 @@ window.TEAM6_DATA = {
       "weightPct": 7.7,
       "weightCapped": false,
       "distToPivotPct": 19.02,
-      "distToPivotAdr": 2.43,
+      "distToPivotAdr": 2.42,
       "extensionAdr": 1.82,
       "chase": false,
-      "adrPct": 7.84,
+      "adrPct": 7.85,
       "ma10": 90.8,
-      "dollarVol20M": 252.4,
+      "dollarVol20M": 252.5,
       "liquid": true,
       "reasons": [
         "선행 상승 +58%",
@@ -4924,7 +4930,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 5.23,
       "ma10": 124.66,
-      "dollarVol20M": 852.3,
+      "dollarVol20M": 852.4,
       "liquid": true,
       "reasons": [
         "선행 상승 +84%",
@@ -4981,7 +4987,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 3.21,
       "ma10": 188.24,
-      "dollarVol20M": 4139.8,
+      "dollarVol20M": 4140.8,
       "liquid": true,
       "reasons": [
         "선행 상승 +77%",
@@ -5040,7 +5046,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 6.69,
       "ma10": 281.56,
-      "dollarVol20M": 230.4,
+      "dollarVol20M": 231,
       "liquid": true,
       "reasons": [
         "선행 상승 +43%",
@@ -5221,7 +5227,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 4.41,
       "ma10": 262.13,
-      "dollarVol20M": 4319.4,
+      "dollarVol20M": 4334.8,
       "liquid": true,
       "reasons": [
         "선행 상승 +56%",
@@ -5321,14 +5327,14 @@ window.TEAM6_DATA = {
   ],
   "postTotal": 14,
   "counts": {
-    "evaluated": 89,
+    "evaluated": 88,
     "near": 26,
     "watch": 8,
     "A": 6,
     "B": 2,
     "blocked": 18,
     "post": 14,
-    "far": 30,
+    "far": 29,
     "noBase": 18,
     "noBars": 1
   },
@@ -5560,15 +5566,5 @@ window.TEAM6_DATA = {
     "watch": 19,
     "checked": 0,
     "errors": []
-  },
-  "deep_coverage": {
-    "done": 8,
-    "total": 8,
-    "cap": 10,
-    "pending": 0,
-    "failed": 0,
-    "carried": 0,
-    "ineligible": 0,
-    "note": "전 종목(8) 조사 완료"
   }
 };

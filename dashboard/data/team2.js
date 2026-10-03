@@ -1,5 +1,5 @@
 window.TEAM2_DATA = {
-  "generated": "2026-10-03",
+  "generated": "2026-10-04",
   "stats": {
     "universe": 1412,
     "byPeriod": {
@@ -281,12 +281,12 @@ window.TEAM2_DATA = {
         },
         "leadOriginal": "VICR는 한 달 새 약 70% 올랐고, 이는 이익 전망 상향과 생산 증설 기대가 겹친 결과다. 증권사들이 올해·내년 주당순이익 예상치를 올렸고, 공장이 가동 한계에 가까워 증설 발표가 임박했다는 분석이 나왔다. 증설이 확정되지 않거나 이익 전망이 다시 내려가면 이 이야기는 약해진다.",
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       },
       "nameKo": "비코",
       "nameEn": "VICOR CORP",
       "detail": {
-        "fetchedAt": "2026-10-02",
+        "fetchedAt": "2026-10-04",
         "nameKo": "비코",
         "nameEn": "VICOR CORP",
         "infomaxCode": "NAS:VICR",
@@ -427,10 +427,22 @@ window.TEAM2_DATA = {
                 "VICR",
                 "CTS"
               ]
+            },
+            {
+              "title": "Best Momentum Stock to Buy for October 2nd",
+              "url": "https://www.nasdaq.com/articles/best-momentum-stock-buy-october-2nd",
+              "date": "2026-10-02",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": false,
+              "tickers": [
+                "FLXS",
+                "VICR"
+              ]
             }
           ],
           "directCount": 5,
-          "total": 5,
+          "total": 6,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -537,8 +549,8 @@ window.TEAM2_DATA = {
               "date": "2026-07-22",
               "summary": "- 2Q26 컨센서스를 상회하는 실적 기록에도 주가는 하락- 1 공장 완전 가동률 근접해 2 차 팹 증설 발표 임박- ITC 소송으로 로열티 매출액 확장 국면 지속",
               "pages": "2",
-              "secureId": "eqlkxqkqkxxzclxgcgxeccg",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkxqkqkxxzclxgcgxeccg.pdf",
+              "secureId": "eqlkxqkqkxxzclxgcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkxqkqkxxzclxgcgxecck.pdf",
               "opinion": null
             },
             {
@@ -548,8 +560,8 @@ window.TEAM2_DATA = {
               "date": "2026-06-22",
               "summary": "- 독보적 2세대 VPD 기술 해자 및 수주잔고 급증 기반의 하반기 외형 성장 가속- 고마진 IP 라이선싱 본격화에 따른 전사 마진 레버리지 가동- 12M Fwd P/E 87배의 멀티플 부담 감안, 실적 가시성 확인 후 분할 접근 전략 유효",
               "pages": "6",
-              "secureId": "eqlgckkklmxkizcgcgxeccg",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgckkklmxkizcgcgxeccg.pdf",
+              "secureId": "eqlgckkklmxkizcgcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgckkklmxkizcgcgxecck.pdf",
               "opinion": null
             }
           ],
@@ -770,12 +782,12 @@ window.TEAM2_DATA = {
           ]
         },
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       },
       "nameKo": "맥스리니어",
       "nameEn": "MAXLINEAR INC",
       "detail": {
-        "fetchedAt": "2026-10-02",
+        "fetchedAt": "2026-10-04",
         "nameKo": "맥스리니어",
         "nameEn": "MAXLINEAR INC",
         "infomaxCode": "NAS:MXL",
@@ -861,6 +873,18 @@ window.TEAM2_DATA = {
           "ticker": "MXL",
           "items": [
             {
+              "title": "Why MaxLinear Stock Gained 50.7% Last Month",
+              "url": "https://www.nasdaq.com/articles/why-maxlinear-stock-gained-507-last-month",
+              "date": "2026-10-02",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MXL",
+                "MXL"
+              ]
+            },
+            {
               "title": "MXL vs. VICR: Which Has the Better AI Infrastructure Opportunity?",
               "url": "https://www.nasdaq.com/articles/mxl-vs-vicr-which-has-better-ai-infrastructure-opportunity",
               "date": "2026-08-28",
@@ -897,30 +921,6 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Does MaxLinear (MXL) Have the Potential to Rally 31.25% as Wall Street Analysts Expect?",
-              "url": "https://www.nasdaq.com/articles/does-maxlinear-mxl-have-potential-rally-3125-wall-street-analysts-expect",
-              "date": "2026-08-14",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MXL"
-              ]
-            },
-            {
-              "title": "The Zacks Analyst Blog Highlights MaxLinear, Marvell Technology and Broadcom",
-              "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-maxlinear-marvell-technology-and-broadcom",
-              "date": "2026-07-28",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MRVL",
-                "AVGO",
-                "MXL"
-              ]
-            },
-            {
               "title": "Why Is NXP (NXPI) Down 7.4% Since Last Earnings Report?",
               "url": "https://www.nasdaq.com/articles/why-nxp-nxpi-down-74-last-earnings-report",
               "date": "2026-08-27",
@@ -933,8 +933,8 @@ window.TEAM2_DATA = {
               ]
             }
           ],
-          "directCount": 5,
-          "total": 6,
+          "directCount": 4,
+          "total": 5,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -1277,7 +1277,7 @@ window.TEAM2_DATA = {
       "nameKo": "모더나",
       "nameEn": "MODERNA INC",
       "detail": {
-        "fetchedAt": "2026-10-03",
+        "fetchedAt": "2026-10-04",
         "nameKo": "모더나",
         "nameEn": "MODERNA INC",
         "infomaxCode": "NAS:MRNA",
@@ -1819,7 +1819,7 @@ window.TEAM2_DATA = {
       "nameKo": "애질론 헬스",
       "nameEn": "AGILON HEALTH INC",
       "detail": {
-        "fetchedAt": "2026-10-03",
+        "fetchedAt": "2026-10-04",
         "nameKo": "애질론 헬스",
         "nameEn": "AGILON HEALTH INC",
         "infomaxCode": "NYS:AGL",
@@ -2207,7 +2207,7 @@ window.TEAM2_DATA = {
         "price": 187.89,
         "resistance": 195.95,
         "support": 185.08,
-        "contraction": 1.05,
+        "contraction": 1.06,
         "trend": "up"
       },
       "top2Gaps": {
@@ -2328,7 +2328,7 @@ window.TEAM2_DATA = {
       "nameKo": "아틀라시언",
       "nameEn": "ATLASSIAN CORP",
       "detail": {
-        "fetchedAt": "2026-10-01",
+        "fetchedAt": "2026-10-04",
         "nameKo": "아틀라시언",
         "nameEn": "ATLASSIAN CORP",
         "infomaxCode": "NAS:TEAM",
@@ -2425,23 +2425,10 @@ window.TEAM2_DATA = {
                 "CRM",
                 "NOW"
               ]
-            },
-            {
-              "title": "ROP Benefits From Strength in Application Software Unit: Can the Momentum Sustain?",
-              "url": "https://www.nasdaq.com/articles/rop-benefits-strength-application-software-unit-can-momentum-sustain",
-              "date": "2026-09-17",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "ROP",
-                "ADSK",
-                "TEAM"
-              ]
             }
           ],
           "directCount": 1,
-          "total": 2,
+          "total": 1,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -2762,7 +2749,7 @@ window.TEAM2_DATA = {
       "nameKo": "그레일",
       "nameEn": "GRAIL INC",
       "detail": {
-        "fetchedAt": "2026-10-02",
+        "fetchedAt": "2026-10-04",
         "nameKo": "그레일",
         "nameEn": "GRAIL INC",
         "infomaxCode": "NAS:GRAL",
@@ -3041,8 +3028,8 @@ window.TEAM2_DATA = {
               "date": "2026-07-16",
               "summary": "- 다중암 진단기기(MCED, Multi-Cancer Early Detection) 시장의 선도기업. 아직 상용화에 진입하지 못했으나 ASCO에서 대표 제품의 양호한 임상 데이터로 가능성 입증. 추가 임상, 파트너십 등 호재 빠르게 반영할 전망- 대표 MCED 진단기기 갤러리가 ASCO에서 구체적 성과를 입증해 상용화 기대감 점증. 영국보건당국(NHS)과 공동 진행하는 임상(NHS-Galleri)의 1차 평가지표(3-4기 환자 감소) 달성에는 실패했으나 2차 평가지표 양호- 3-4기 전체 환자 비중 증가했으나 4기 진단은 뚜렷하게 감소. 12개 암의 4기 검진 비율이 14% 줄었고 2차, 3차 검진에서 각 22%, 26% 감소해 치 명적인 병기 발견의 감소 효과 증명. 1-2기에서 발견된 환자는 16% 늘어 갤러리 사용을 통한 조기 진단 및 예후도 개선 가능성 입증",
               "pages": "5",
-              "secureId": "eqlkexgegcliczzgcgxeccg",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkexgegcliczzgcgxeccg.pdf",
+              "secureId": "eqlkexgegcliczzgcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkexgegcliczzgcgxecck.pdf",
               "opinion": null
             }
           ],
@@ -3253,7 +3240,7 @@ window.TEAM2_DATA = {
       "nameKo": "트위스트 바이오사이언스",
       "nameEn": "TWIST BIOSCIENCE CORPORATION",
       "detail": {
-        "fetchedAt": "2026-10-02",
+        "fetchedAt": "2026-10-04",
         "nameKo": "트위스트 바이오사이언스",
         "nameEn": "TWIST BIOSCIENCE CORPORATION",
         "infomaxCode": "NAS:TWST",
@@ -3406,21 +3393,10 @@ window.TEAM2_DATA = {
               "tickers": [
                 "TWST"
               ]
-            },
-            {
-              "title": "Twist Bioscience Q3 Earnings Call Highlights",
-              "url": "https://www.nasdaq.com/articles/twist-bioscience-q3-earnings-call-highlights",
-              "date": "2026-08-03",
-              "publisher": "MarketBeat",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "TWST"
-              ]
             }
           ],
-          "directCount": 7,
-          "total": 7,
+          "directCount": 6,
+          "total": 6,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -3749,7 +3725,7 @@ window.TEAM2_DATA = {
       "nameKo": "코후",
       "nameEn": "COHU INC",
       "detail": {
-        "fetchedAt": "2026-10-01",
+        "fetchedAt": "2026-10-04",
         "nameKo": "코후",
         "nameEn": "COHU INC",
         "infomaxCode": "NAS:COHU",
@@ -3835,6 +3811,19 @@ window.TEAM2_DATA = {
           "ticker": "COHU",
           "items": [
             {
+              "title": "Teradyne Expands Memory Test Portfolio: Can It Beat KLAC & COHU?",
+              "url": "https://www.nasdaq.com/articles/teradyne-expands-memory-test-portfolio-can-it-beat-klac-cohu",
+              "date": "2026-10-02",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "TER",
+                "KLAC",
+                "COHU"
+              ]
+            },
+            {
               "title": "Teradyne Strengthens AI Test Portfolio: Can It Beat KLAC & COHU?",
               "url": "https://www.nasdaq.com/articles/teradyne-strengthens-ai-test-portfolio-can-it-beat-klac-cohu",
               "date": "2026-09-24",
@@ -3919,23 +3908,10 @@ window.TEAM2_DATA = {
                 "COHU",
                 "COHU"
               ]
-            },
-            {
-              "title": "AEHR at 18.59X Sales: Market Loves Its AI Story, But is Love Blind?",
-              "url": "https://www.nasdaq.com/articles/aehr-1859x-sales-market-loves-its-ai-story-love-blind",
-              "date": "2026-09-21",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "AEHR",
-                "COHU",
-                "TER"
-              ]
             }
           ],
-          "directCount": 7,
-          "total": 10,
+          "directCount": 8,
+          "total": 11,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -4281,7 +4257,7 @@ window.TEAM2_DATA = {
       "nameKo": "폼팩터",
       "nameEn": "FORMFACTOR INC",
       "detail": {
-        "fetchedAt": "2026-10-02",
+        "fetchedAt": "2026-10-04",
         "nameKo": "폼팩터",
         "nameEn": "FORMFACTOR INC",
         "infomaxCode": "NAS:FORM",
@@ -4468,7 +4444,7 @@ window.TEAM2_DATA = {
             }
           ],
           "directCount": 3,
-          "total": 11,
+          "total": 10,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -5327,12 +5303,12 @@ window.TEAM2_DATA = {
           ]
         },
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       },
       "nameKo": "에버퓨어",
       "nameEn": "EVERPURE INC",
       "detail": {
-        "fetchedAt": "2026-10-01",
+        "fetchedAt": "2026-10-04",
         "nameKo": "에버퓨어",
         "nameEn": "EVERPURE INC",
         "infomaxCode": "NYS:P",
@@ -5418,6 +5394,17 @@ window.TEAM2_DATA = {
           "ticker": "P",
           "items": [
             {
+              "title": "Everpure Consensus Price Target Raised 11.24% to $146.34",
+              "url": "https://www.nasdaq.com/articles/everpure-consensus-price-target-raised-1124-14634",
+              "date": "2026-10-02",
+              "publisher": "Fintel",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "P"
+              ]
+            },
+            {
               "title": "VNT vs. P: Which Stock Should Value Investors Buy Now?",
               "url": "https://www.nasdaq.com/articles/vnt-vs-p-which-stock-should-value-investors-buy-now",
               "date": "2026-09-28",
@@ -5496,18 +5483,6 @@ window.TEAM2_DATA = {
               "direct": true,
               "tickers": [
                 "SCSC",
-                "P"
-              ]
-            },
-            {
-              "title": "This Little-Known AI Storage Stock Will Join the S&P 500 (Not Micron or Sandisk). History Says This Will Happen Next.",
-              "url": "https://www.nasdaq.com/articles/little-known-ai-storage-stock-will-join-sp-500-not-micron-or-sandisk-history-says-will",
-              "date": "2026-09-09",
-              "publisher": "The Motley Fool",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "P",
                 "P"
               ]
             }
@@ -5620,8 +5595,8 @@ window.TEAM2_DATA = {
               "date": "2026-09-07",
               "summary": "- 플래닛 랩스는 해외 D&I 매출 급증으로 예상을 상회하는 2Q 실적 달성. 대규모 신규 수주 부재와 3Q 매출 증가율 둔화는 투자심리 악화 요인.- 매출 1.16억달러(+58% YoY, 이하 전년동기대비)로 사상 최대 분기 매출 달성. 조정 EBITDA 1,300만달러, 조정 EPS 0.02달러로 시장 예상치 상회- 3Q 매출은 1.0억달러(+26.8%), GPM 57%, 조정 EBITDA 350만달러 적자 전망하면서 시장 예상치 하회.",
               "pages": "7",
-              "secureId": "eqllqikegqzxemzgcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllqikegqzxemzgcgxecce.pdf",
+              "secureId": "eqllqikegqzxemzgcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllqikegqzxemzgcgxecck.pdf",
               "opinion": null
             },
             {
@@ -5631,8 +5606,8 @@ window.TEAM2_DATA = {
               "date": "2026-08-05",
               "summary": "- P&G, 프리미엄 웰니스 브랜드 Thorne 인수 발표- 금액·조건 미공개, Health Care 부진 만회 포석- FY27 가이던스 영향은 세부조건 공개 이후 판단",
               "pages": "5",
-              "secureId": "eqlzlmilkqimgxcgcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzlmilkqimgxcgcgxecce.pdf",
+              "secureId": "eqlzlmilkqimgxcgcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzlmilkqimgxcgcgxecck.pdf",
               "opinion": null
             },
             {
@@ -5642,8 +5617,8 @@ window.TEAM2_DATA = {
               "date": "2026-07-24",
               "summary": "- 말보로와 아이코스 등으로 유명한 글로벌 담배 시장점유율 1위 업체- 2분기 매출액 및 조정 EPS는 시장 컨센서스 상회- SFP 판매 비중 확대와 궐련담배 ASP 상승에 힘입어, 구조적 실적 개선 지속 전망",
               "pages": "7",
-              "secureId": "eqlklklzzgmiqixgcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlklklzzgmiqixgcgxecce.pdf",
+              "secureId": "eqlklklzzgmiqixgcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlklklzzgmiqixgcgxecck.pdf",
               "opinion": null
             },
             {
@@ -5653,8 +5628,8 @@ window.TEAM2_DATA = {
               "date": "2026-07-23",
               "summary": "- 2Q26 글로벌 담배 시장 점유율 29.1%로 업계 최고 수준의 시장장악력(일 반담배 23.3%, 궐련형 전자담배 5.8%) 지속. 일반담배 출하량이 오랜만에 플러스 전환하며 반등한 가운데, 가열식 담배 IQOS, 니코틴 파우치 ZYN, 액상형 VEEV의 고성장 지속.- 2Q26 매출과 영업이익은 111.9억달러(+10.4%, 이하 YoY), 45.3억달러 (+22%) 기록하며 분기 최초로 매출 110억 달러 돌파, 컨센서스 상회. 조 정 EPS 역시 2.2달러(+15.2%)로 기대치 상회. Smoke-Free 카테고리(궐련 형 전자담배, 니코틴 파우치 등)는 482억본(+7.5%), 일반담배는 1,569억 본(+1.1%) 판매하며 5개 분기만에 플러스 전환- 부문별 매출 성장률은 해외 Smoke-Free +14.2%, 해외 일반담배 +9.8%, 미국 -0.7%. 전반적인 해외 성장 속 지정학적 리스크가 비용에 일부 영향",
               "pages": "5",
-              "secureId": "eqlkqmcilemieqkgcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkqmcilemieqkgcgxecce.pdf",
+              "secureId": "eqlkqmcilemieqkgcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkqmcilemieqkgcgxecck.pdf",
               "opinion": null
             },
             {
@@ -5664,8 +5639,8 @@ window.TEAM2_DATA = {
               "date": "2026-06-08",
               "summary": "- 실적 컨퍼런스 콜에서 자금 조달 필요에 대한 언급 없이 주식 발행 계획을 발표하면서 투자자와의 신뢰도 훼손과 시장 하락 속 주가 급락. AI 활용으 로 방산과 상업부문 성장 지속. 다만, 단기 시장 변동성 확대와 SpaceX 상장은 부담으로 작용. SpaceX 상장 후 매수 추천- 매출 9,420만달러(+42% YoY, 이하 전년동기대비), 매출총이익 5,300만달 러(+36%), 조정 EBITDA -103만달러(적자전환), 조정EPS -0.30달러(적자 확대). 시장 예상치를 매출 +4.6%p, EBITDA +77.3%p, EPS +54.1%p상회- 2Q 매출 1.02~1.07억달러(+39~46%), GPM 52~55% 제시. FY27 매출 4.25~4.41억달러, GPM 52-54%로 상향",
               "pages": "5",
-              "secureId": "eqlclmixegqxqelgcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlclmixegqxqelgcgxecce.pdf",
+              "secureId": "eqlclmixegqxqelgcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlclmixegqxqelgcgxecck.pdf",
               "opinion": null
             },
             {
@@ -5675,8 +5650,8 @@ window.TEAM2_DATA = {
               "date": "2026-04-28",
               "summary": "- 프록터앤갬블의 FY 3Q26 매출액은 212.4억 달러(YoY +7.4%), 조정 EPS는 1.59 달러(YoY +3.2%)로 각각 컨센서스를 3.6%, 1.9% 상회했 다. 모든 지역 및 사업부에서 본업 매출이 전년 동기 대비 성장했다.- 영업이익은 47.2억 달러(YoY +3.6%), 영업이익률은 21.5%(YoY - 1.5%p)였다. 영업이익에 구조조정 비용 1.4억 달러가 포함되는데, 이 영향을 제거한 핵심(Core) 영업이익률은 22.2%(YoY -0.8%p)다- 잉여현금흐름은 30.3억 달러(YoY +6.3%)를 기록했다. 분기 배당금으 로 25억 달러, 자사주 매입으로 6억 달러를 지출했다. 4월에 분기 배당 금을 3% 인상했다.",
               "pages": "7",
-              "secureId": "eqqqiiczxqlxqlegcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqiiczxqlxqlegcgxecce.pdf",
+              "secureId": "eqqqiiczxqlxqlegcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqiiczxqlxqlegcgxecck.pdf",
               "opinion": null
             },
             {
@@ -5686,8 +5661,8 @@ window.TEAM2_DATA = {
               "date": "2026-04-24",
               "summary": "- 1분기 매출액 및 영업이익은 각각 101.1억달러(YoY 9.1%), 38.9억달러(YoY 9.8%)를 기록하며 시장 기대치를 상회- 1분기 궐련형 전자담배 출하량은 YoY 11.3% 증가한 413억 개비를 기록- 올해 연간 조정 희석 EPS 가이던스(환율 제외)를 8.11~8.26달러로 유지",
               "pages": "5",
-              "secureId": "eqqqcccxgzqxkkcgcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqcccxgzqxkkcgcgxecce.pdf",
+              "secureId": "eqqqcccxgzqxkkcgcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqcccxgzqxkkcgcgxecck.pdf",
               "opinion": null
             },
             {
@@ -5697,8 +5672,8 @@ window.TEAM2_DATA = {
               "date": "2026-04-24",
               "summary": "- 말보로와 아이코스 등으로 유명한 글로벌 담배 시장점유율 1위 업체- 1분기 조정 EPS는 시장 컨센서스 상회, 실적발표 당일 주가 약 +7% 상승- SFP 판매 비중 확대와 궐련담배 ASP 상승에 힘입어, 구조적 실적 개선 지속 전망",
               "pages": "7",
-              "secureId": "eqqxmlxzgixkzimgcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxmlxzgixkzimgcgxecce.pdf",
+              "secureId": "eqqxmlxzgixkzimgcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxmlxzgixkzimgcgxecck.pdf",
               "opinion": null
             },
             {
@@ -5708,8 +5683,8 @@ window.TEAM2_DATA = {
               "date": "2026-04-24",
               "summary": "- 1Q26 Review: 컨센서스 상회- 본업 정상화와 신사업 가속화- 매크로 불확실성 속 펀더멘털 재평가",
               "pages": "4",
-              "secureId": "eqqxmleqxmzikiigcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxmleqxmzikiigcgxecce.pdf",
+              "secureId": "eqqxmleqxmzikiigcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxmleqxmzikiigcgxecck.pdf",
               "opinion": null
             },
             {
@@ -5719,8 +5694,8 @@ window.TEAM2_DATA = {
               "date": "2026-04-23",
               "summary": "- 덜 나쁜 것도 웰빙인 시대, 전자담배가 바꾼 패러다임- 1Q26 Review: Smoke-Free와 Zyn 호조세 지속 vs. 일반담배 부진- 견조한 실적 기반 지속적인 주주환원",
               "pages": "5",
-              "secureId": "eqqxmgmzkxlqlelgcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxmgmzkxlqlelgcgxecce.pdf",
+              "secureId": "eqqxmgmzkxlqlelgcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxmgmzkxlqlelgcgxecck.pdf",
               "opinion": null
             }
           ],
@@ -5931,7 +5906,7 @@ window.TEAM2_DATA = {
       "nameKo": "스트래티지",
       "nameEn": "STRATEGY INC",
       "detail": {
-        "fetchedAt": "2026-10-01",
+        "fetchedAt": "2026-10-04",
         "nameKo": "스트래티지",
         "nameEn": "STRATEGY INC",
         "infomaxCode": "NAS:MSTR",
@@ -6017,6 +5992,17 @@ window.TEAM2_DATA = {
           "ticker": "MSTR",
           "items": [
             {
+              "title": "Strategy Inc (MSTR) is Attracting Investor Attention: Here is What You Should Know",
+              "url": "https://www.nasdaq.com/articles/strategy-inc-mstr-attracting-investor-attention-here-what-you-should-know",
+              "date": "2026-10-02",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "MSTR"
+              ]
+            },
+            {
               "title": "Strategy (MSTR) Stock Drops Despite Market Gains: Important Facts to Note",
               "url": "https://www.nasdaq.com/articles/strategy-mstr-stock-drops-despite-market-gains-important-facts-note",
               "date": "2026-09-25",
@@ -6065,30 +6051,6 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Nasdaq 100 Movers: TMUS, MSTR",
-              "url": "https://www.nasdaq.com/articles/nasdaq-100-movers-tmus-mstr",
-              "date": "2026-09-21",
-              "publisher": "BNK Invest",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "TMUS",
-                "TMUS",
-                "MSTR"
-              ]
-            },
-            {
-              "title": "Strategy Inc (MSTR) Is a Trending Stock: Facts to Know Before Betting on It",
-              "url": "https://www.nasdaq.com/articles/strategy-inc-mstr-trending-stock-facts-know-betting-it-0",
-              "date": "2026-09-21",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "MSTR"
-              ]
-            },
-            {
               "title": "Should You Buy Bitcoin While It's Under $100,000? The Answer Might Surprise You.",
               "url": "https://www.nasdaq.com/articles/should-you-buy-bitcoin-while-its-under-100000-answer-might-surprise-you",
               "date": "2026-09-23",
@@ -6102,11 +6064,27 @@ window.TEAM2_DATA = {
               ]
             }
           ],
-          "directCount": 6,
-          "total": 7,
+          "directCount": 5,
+          "total": 6,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-10-01",
+            "reportDate": "2026-09-30",
+            "items": [
+              "7.01",
+              "8.01"
+            ],
+            "itemsKo": [
+              "Reg FD 공시",
+              "기타 중요사건"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526409863/mstr-20260930.htm",
+            "description": "8-K"
+          },
           {
             "form": "8-K",
             "filingDate": "2026-09-28",
@@ -6184,26 +6162,10 @@ window.TEAM2_DATA = {
             "isEarnings": false,
             "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526384402/mstr-20260831.htm",
             "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-09-01",
-            "reportDate": "2026-08-31",
-            "items": [
-              "7.01",
-              "8.01"
-            ],
-            "itemsKo": [
-              "Reg FD 공시",
-              "기타 중요사건"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526377583/mstr-20260831.htm",
-            "description": "8-K"
           }
         ],
         "krReports": {
-          "total": 3,
+          "total": 2,
           "reports": [
             {
               "title": "[스트래티지 (NAS:MSTR)] 변동성 확대, 신중한 접근 필요",
@@ -6212,8 +6174,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-06",
               "summary": "- 매출은 1억 달러(YoY +1.9%), 영업손실 174억 달러를 기록했다. 순손 실은 126억 달러, 주당 순손실은 42.93 달러다. 비트코인 가격 하락에 따른 평가 손실이 재무제표에 반영되면서 대규모 회계상 손실을 기록 했다.- 주가 및 비트코인 가격 부진에도 공격적인 매수를 지속하며 4분기에 32,470 BTC를 약 31억 달러에 매입했다. 2025년 전체 BTC 수익률은 22.8%를 기록하며 목표 범위(22~26%)를 달성했다.- BTC 수익률은 주 당 비트코인 수의 변화율로 구한다. 주식을 발행해 자금을 조달하더라 도, 그 돈으로 주식 수 증가분보다 더 많은 비율의 비트코인을 매입했 다면 BPS는 상승하고 BTC 수익률은 양의 값을 가진다",
               "pages": "6",
-              "secureId": "eqqczixlleezkzggcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqczixlleezkzggcgxecce.pdf",
+              "secureId": "eqqczixlleezkzggcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqczixlleezkzggcgxecck.pdf",
               "opinion": null
             },
             {
@@ -6223,19 +6185,8 @@ window.TEAM2_DATA = {
               "date": "2026-01-07",
               "summary": "- 스트래티지는 MSCI 편출 불확실성을 해소하며 시간 외로 6.6% 상승했 습니다. 실제로 제외된다 하더라도 여파는 크지 않을 것으로 보입니다. 10월 MSCI 발표 이후 주가는 51% 하락하며 리스크를 미리 반영했습니 다.- 시장에서는 편출 시 매도 규모를 약 28억 달러로 추정했다. 주가가 급 락하고 변동성이 확대되면 스트래티지의 자본 조달 여건이 약화돼 비 트코인을 매도할 수 있다는 우려가 컸다- 10월 MSCI 발표 이후 주가 는 51% 하락했다. 편출은 보류하지만 가중치 상향 및 추가 편입을 제 한했다. 주식 수나 유통 지분 등의 증가를 반영하지 않으며 당분간 해 당 종목들이 지수 내 비중이 커지는 상황을 막을 것이다",
               "pages": "6",
-              "secureId": "eqxqqqeczxeqeqggcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxqqqeczxeqeqggcgxecce.pdf",
-              "opinion": null
-            },
-            {
-              "title": "[스트래티지 (NAS:MSTR)] Strategy (MSTR) - 스테이블코인 발행 증가, BTC 채굴 인센티브 상승 견인",
-              "broker": "유안타증권",
-              "analyst": "황병준",
-              "date": "2025-09-30",
-              "summary": "- 세계 1위 Bitcoin Treasury 업체로 9월 22일 기준 639,835개의 BTC를 보유, 유통량 기준 3.2%의 점유율을 차지. 동사의 비트코인 수익률(YTD)은 26%로 시장을 14% 상회(SPX)하 고 있는데, 현 국면 BTC 토큰은 De-Fi 시장 성장이 본격화하는 국면에서 담보 자산 가치 상승 측면에서의 수혜를 반영- BTC 토큰 경제학은 시가 총액 2위 토큰 이더리움과 달리 해당 블록체인 생태계 성장을 견 인하는 주요 dApp 시장 성장에 따라 토큰 가치가 영향을 받는 방식이 아닌, 업계 내 보유 자 수, 레거지 담보 자산으로의 입지와 이에 따른 수요 확대가 설명. dApp 시장 경쟁 심화 우려 등 블록체인 생태계 관련 노이즈에 대한 적고, 오로지 시장 전체 성장의 수혜를 받는 주식 시장의 World Index와 같은 자산.",
-              "pages": "6",
-              "secureId": "eqzmelzmelmlqiigcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqzmelzmelmlqiigcgxecce.pdf",
+              "secureId": "eqxqqqeczxeqeqggcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxqqqeczxeqeqggcgxecck.pdf",
               "opinion": null
             }
           ],
@@ -6940,7 +6891,7 @@ window.TEAM2_DATA = {
       "nameKo": "프리퀀시 일렉트로닉스",
       "nameEn": "FREQUENCY ELECTRONICS INC",
       "detail": {
-        "fetchedAt": "2026-10-01",
+        "fetchedAt": "2026-10-04",
         "nameKo": "프리퀀시 일렉트로닉스",
         "nameEn": "FREQUENCY ELECTRONICS INC",
         "infomaxCode": "NAS:FEIM",
@@ -7419,7 +7370,7 @@ window.TEAM2_DATA = {
       "nameKo": "오케아니스 에코 탱커스",
       "nameEn": "OKEANIS ECO TANKERS CORP",
       "detail": {
-        "fetchedAt": "2026-10-01",
+        "fetchedAt": "2026-10-04",
         "nameKo": "오케아니스 에코 탱커스",
         "nameEn": "OKEANIS ECO TANKERS CORP",
         "infomaxCode": "NYS:ECO",
@@ -7750,12 +7701,12 @@ window.TEAM2_DATA = {
         },
         "leadOriginal": "AI 서버 주문이 급증해 실적과 올해 전망이 크게 올랐고, 그래서 주가가 6개월 새 약 3배가 됐다. 직전 분기 매출은 470억 달러로 1년 전보다 58% 늘었고, AI 서버 밀린 주문은 950억 달러다. 다만 메모리 가격 상승으로 이익률이 깎이거나 주문 납품이 늦어지면 이 이야기는 약해진다.",
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       },
       "nameKo": "델 테크놀로지스",
       "nameEn": "DELL TECHNOLOGIES INC",
       "detail": {
-        "fetchedAt": "2026-10-01",
+        "fetchedAt": "2026-10-04",
         "nameKo": "델 테크놀로지스",
         "nameEn": "DELL TECHNOLOGIES INC",
         "infomaxCode": "NYS:DELL",
@@ -7841,6 +7792,42 @@ window.TEAM2_DATA = {
           "ticker": "DELL",
           "items": [
             {
+              "title": "Dell Raised Its Quarterly Dividend by 20% This Year After Only Initiating Its Dividend Program in 2023. Can Passive Income Investors Trust the Stock?",
+              "url": "https://www.nasdaq.com/articles/dell-raised-its-quarterly-dividend-20-year-after-only-initiating-its-dividend-program-2023",
+              "date": "2026-10-03",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "DELL",
+                "DELL"
+              ]
+            },
+            {
+              "title": "Dell Technologies Moves Up In Market Cap Rank, Passing McDonald's",
+              "url": "https://www.nasdaq.com/articles/dell-technologies-moves-market-cap-rank-passing-mcdonalds",
+              "date": "2026-10-01",
+              "publisher": "BNK Invest",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "DELL",
+                "DELL",
+                "MCD"
+              ]
+            },
+            {
+              "title": "Why Is Dell Technologies (DELL) Up 9.3% Since Last Earnings Report?",
+              "url": "https://www.nasdaq.com/articles/why-dell-technologies-dell-93-last-earnings-report",
+              "date": "2026-10-01",
+              "publisher": "Zacks",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "DELL"
+              ]
+            },
+            {
               "title": "Where Will Dell Technologies Be in 3 Years?",
               "url": "https://www.nasdaq.com/articles/where-will-dell-technologies-be-3-years",
               "date": "2026-09-30",
@@ -7890,52 +7877,18 @@ window.TEAM2_DATA = {
               ]
             },
             {
-              "title": "Here's Why Dell Technologies (DELL) is a Strong Momentum Stock",
-              "url": "https://www.nasdaq.com/articles/heres-why-dell-technologies-dell-strong-momentum-stock-1",
-              "date": "2026-09-25",
+              "title": "This Top Computer and Technology Stock is a #1 (Strong Buy): Why It Should Be on Your Radar",
+              "url": "https://www.nasdaq.com/articles/top-computer-and-technology-stock-1-strong-buy-why-it-should-be-your-radar-9",
+              "date": "2026-10-02",
               "publisher": "Zacks",
               "tier1": false,
-              "direct": true,
+              "direct": false,
               "tickers": [
                 "DELL"
-              ]
-            },
-            {
-              "title": "Wall Street Bulls Look Optimistic About Dell Technologies (DELL): Should You Buy?",
-              "url": "https://www.nasdaq.com/articles/wall-street-bulls-look-optimistic-about-dell-technologies-dell-should-you-buy-0",
-              "date": "2026-09-25",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "DELL"
-              ]
-            },
-            {
-              "title": "Here's How Much a $1000 Investment in Dell Technologies Made 10 Years Ago Would Be Worth Today",
-              "url": "https://www.nasdaq.com/articles/heres-how-much-1000-investment-dell-technologies-made-10-years-ago-would-be-worth-today",
-              "date": "2026-09-25",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "DELL"
-              ]
-            },
-            {
-              "title": "HPE vs. DELL: Which AI Infrastructure Stock is a Safer Bet?",
-              "url": "https://www.nasdaq.com/articles/hpe-vs-dell-which-ai-infrastructure-stock-safer-bet",
-              "date": "2026-09-24",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": true,
-              "tickers": [
-                "DELL",
-                "HPE"
               ]
             }
           ],
-          "directCount": 8,
+          "directCount": 7,
           "total": 10,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
@@ -8053,8 +8006,8 @@ window.TEAM2_DATA = {
               "date": "2026-09-07",
               "summary": "- 델의  2분기  매출은  470억달러(+58%yoy), GPM 21.1%, OPM 12.6%, EPS 7.04로 컨센을 상회. AI 서버발 탑라인 성장으로 인한 영업 레버리지, 스토리지 믹스 개선으로 수익성 개선이 두드러짐. 3분기 가이던스도 매출 490억달러(+81%yoy), EPS 6.5달러를 제시하며 컨센을 상회했으며, F27 연간 가이던스는 매출 1,920억달러, EPS 25.5달러로 상향 조정- AI 서버 매출은 164억달러(+100%yoy)를 기록하며 탑라인 성장을 견인. 전방위적 AI 수요 강세로 인해 델이 강점을 가진 네오클라우드·엔터프라이 즈·소버린이 가파르게 성장 중. AI 서버 주문은 609억달러로 전분기 대비 150% 증가하며 역대 최고치를 달성했고, 분기말 AI 서버 백로그는 950억 달러로 전년비 7배 이상 증가- 델의 12M Fwd PER은 18.6배 수준으로 경쟁사(HPE, SMCI 등) 대비 높은 밸류에이션을 받고 있음. 델 역시 서버 ODM의 고질적 리스크인 메모리 인 플레이션으로 인한 잠재적 마진 부담, 백로그 이행 속도 등에서 자유롭지는 못함. 다만 견조한 대형 AI 고객사의 캐팩스 투자와 더불어 엔터프라이즈향 오픈웨이트 모델 확산 수혜에 가장 크게 노출되어 있다고 판단하며, 리스크 에도 불구하고 가장 높은 성장 포텐셜을 보유하였다고 판단.",
               "pages": "6",
-              "secureId": "eqllqiqlqlgmmxqgcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxecce.pdf",
+              "secureId": "eqllqiqlqlgmmxqgcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxecck.pdf",
               "opinion": null
             },
             {
@@ -8064,8 +8017,8 @@ window.TEAM2_DATA = {
               "date": "2026-09-04",
               "summary": "- Non-AI가 견인한 실적 서프라이즈와 GPM 개선으로 마진 희석 우려 해소- 연간 가이던스 상향 및 이익 급증으로 주가 급등에도 밸류에이션 매력 지속- 풍부한 AI 수주잔고 속 하반기 영업현금흐름 정상화와 마진 지속성이 핵심- 리스크 요인: 부품가 사이클 변동성, 수주 이행력, 그리고 현금흐름의 질",
               "pages": "6",
-              "secureId": "eqllkqkqezillqegcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecce.pdf",
+              "secureId": "eqllkqkqezillqegcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecck.pdf",
               "opinion": null
             },
             {
@@ -8075,8 +8028,8 @@ window.TEAM2_DATA = {
               "date": "2026-06-02",
               "summary": "- 매출 $43.8B(+88%), EPS $4.86(+214%)로 컨센서스 60% 이상 상회- AI 수요의 전통 IT 전방 확산 및 Agentic AI발 CPU TAM 구조적 확장- 주가 급등에도 Fwd P/E 22.8배로 업종(26.0배) 하회, 대규모 주주환원 안전판",
               "pages": "6",
-              "secureId": "eqlciziegxilkkggcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlciziegxilkkggcgxecce.pdf",
+              "secureId": "eqlciziegxilkkggcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlciziegxilkkggcgxecck.pdf",
               "opinion": null
             },
             {
@@ -8086,8 +8039,8 @@ window.TEAM2_DATA = {
               "date": "2026-05-29",
               "summary": "- 실적발표 이후 40% 주가 상승. 단순 AI 서버 OEM에서 플랫폼 기업으로 확장. 기대를 서프라이즈 실적으로 증명. 커버리지 내 최선호주 제시- FY1Q27 매출액 438억달러(YoY+87.5%, 이하 전년동기대비), 영업이익 42억달러(+154.2%, OPM 9.7%)로 컨센서스를 각각 23.4%, 52.8% 상회. AI 서버 매출은 161억달러(+757%) 기록. 1분기 AI 서버 주문 244억달러, 백로그 513억달러 달성. FY27 AI 서버 매출 가이던스 600억달러로 상향- 전통 서버 매출도 85억달러(+92%) 기록. Agentic AI 확산으로 전통 서버 의 AI 추론 및 내부 워크로드 처리 역할 확대. 14세대 이하 서버 설치 기 반이 여전히 큰 상황에서, 18세대 서버는 14세대 13대 통합 효과 제공. 평 균단가 상승에도 비용 절감 효과가 커서 교체 수요 기반 매출 확대 전망. CSG 부문(+17%)도 점유율과 수익성 개선(+2.6%p)으로 하방을 뒷받침",
               "pages": "5",
-              "secureId": "eqlcciqxcilleikgcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcciqxcilleikgcgxecce.pdf",
+              "secureId": "eqlcciqxcilleikgcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcciqxcilleikgcgxecck.pdf",
               "opinion": null
             },
             {
@@ -8097,8 +8050,8 @@ window.TEAM2_DATA = {
               "date": "2026-04-27",
               "summary": "- 시장은 델을 AI 인프라 기업으로 바라보기 시작- PC와 전통 서버 판매에 AI가 더해졌다- 전통 PC OEM에서 AI 인프라 기업으로 멀티플 확장 국면 진입",
               "pages": "22",
-              "secureId": "eqqqglcgmceemikgcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqglcgmceemikgcgxecce.pdf",
+              "secureId": "eqqqglcgmceemikgcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqglcgmceemikgcgxecck.pdf",
               "opinion": null
             },
             {
@@ -8108,8 +8061,8 @@ window.TEAM2_DATA = {
               "date": "2026-02-27",
               "summary": "- 델의 FY 4Q26 매출액은 334억 달러(YoY +39.5%), EPS는 3.89 달러 (YoY +45.1%)를 기록해 컨센서스를 각각 5.2%, 10.5% 상회했다. 각 각 가이던스 상단(320억 달러, 3.50 달러)을 초과했다.- 델은 FY 1Q27 가이던스를 중간값 기준 매출액 352억 달러(YoY +50.6%, vs. 컨센서스 293억 달러), EPS 2.9 달러(YoY +87.1%, vs. 컨 센서스 2.4 달러)로 제시했다- 2027 연간으로는 매출액 1,400억 달러 (YoY +23.3%, vs. 컨센서스 1,263억 달러), EPS 12.90 달러(YoY +25.2%, vs. 컨센서스 11.56 달러)를 기록할 것으로 예상했다. 현재 AI 서버 수주잔고는 엔비디아 그레이스 블랙웰 제품 비중이 압도적이며, 차세대 베라루빈 아키텍처는 회계연도 하반기 출하가 예정돼 있다",
               "pages": "7",
-              "secureId": "eqqgeligkiqmcgqgcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgeligkiqmcgqgcgxecce.pdf",
+              "secureId": "eqqgeligkiqmcgqgcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgeligkiqmcgqgcgxecck.pdf",
               "opinion": null
             },
             {
@@ -8119,8 +8072,8 @@ window.TEAM2_DATA = {
               "date": "2025-11-26",
               "summary": "- 매출액 270억 달러(YoY +10.8%), 조정 EPS 2.59 달러(YoY +20.5%)로 각각 예상치 0.7% 하회, 4.9% 상회. AI 서버 출하량 증가 및 운영 효율성으로 3분기 기준 매출, EPS 최고치 경신- CSG: 상업용 클라이언트, 소비자 매출은 각각 106.2억 달러(YoY +4.8%), 18.6억 달러(YOY -6.8%). 상업용 클라이언트 부문은 5분기 연속 매출 성장, 중소기업 전반에서 강력한 수요 확인. 소비자 수요와 심리는 3년 만에 성장세로 전환- AI 서버 수요 증가에 기록적 출하액, 수주잔고 달성. 4Q26 가이던스 시장 예상 대폭 상회. 시간 외 3.5% 상승",
               "pages": "1",
-              "secureId": "eqxkeggxcizekzmgcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkeggxcizekzmgcgxecce.pdf",
+              "secureId": "eqxkeggxcizekzmgcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkeggxcizekzmgcgxecck.pdf",
               "opinion": null
             }
           ],
@@ -10121,7 +10074,7 @@ window.TEAM2_DATA = {
           ]
         },
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       },
       "nameKo": "셈텍",
       "nameEn": "SEMTECH CORP",
@@ -10519,7 +10472,7 @@ window.TEAM2_DATA = {
         "price": 74.93,
         "resistance": 77.48,
         "support": 67.99,
-        "contraction": 1.02,
+        "contraction": 1.03,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -10647,12 +10600,12 @@ window.TEAM2_DATA = {
         },
         "leadOriginal": "SEI는 최근 한 달 새 약 36% 올랐다. 실적이 좋아졌고 증권사 이익 전망이 빠르게 올라갔기 때문이다. 이 전망대로 이익이 나오는지가 분기 실적에서 확인되지 않으면 이야기가 약해진다.",
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       },
       "nameKo": "솔라리스 에너지 인프라스트럭처",
       "nameEn": "SOLARIS ENERGY INFRASTRUCTURE INC",
       "detail": {
-        "fetchedAt": "2026-10-01",
+        "fetchedAt": "2026-10-04",
         "nameKo": "솔라리스 에너지 인프라스트럭처",
         "nameEn": "SOLARIS ENERGY INFRASTRUCTURE INC",
         "infomaxCode": "NYS:SEI",
@@ -10841,6 +10794,24 @@ window.TEAM2_DATA = {
         "filings": [
           {
             "form": "8-K",
+            "filingDate": "2026-10-01",
+            "reportDate": "2026-10-01",
+            "items": [
+              "1.01",
+              "2.03",
+              "9.01"
+            ],
+            "itemsKo": [
+              "중요 계약 체결",
+              "2.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1697500/000119312526410682/d567251d8k.htm",
+            "description": "8-K"
+          },
+          {
+            "form": "8-K",
             "filingDate": "2026-09-23",
             "reportDate": "2026-09-22",
             "items": [
@@ -10929,20 +10900,6 @@ window.TEAM2_DATA = {
             ],
             "isEarnings": false,
             "url": "https://www.sec.gov/Archives/edgar/data/1697500/000162828026047296/sei-20260701.htm",
-            "description": "8-K"
-          },
-          {
-            "form": "8-K",
-            "filingDate": "2026-05-19",
-            "reportDate": "2026-05-15",
-            "items": [
-              "5.07"
-            ],
-            "itemsKo": [
-              "주주총회 표결"
-            ],
-            "isEarnings": false,
-            "url": "https://www.sec.gov/Archives/edgar/data/1697500/000119312526230786/d227891d8k.htm",
             "description": "8-K"
           }
         ],
@@ -11179,7 +11136,7 @@ window.TEAM2_DATA = {
       "nameKo": "힌지 헬스",
       "nameEn": "HINGE HEALTH INC",
       "detail": {
-        "fetchedAt": "2026-10-01",
+        "fetchedAt": "2026-10-04",
         "nameKo": "힌지 헬스",
         "nameEn": "HINGE HEALTH INC",
         "infomaxCode": "NYS:HNGE",
@@ -11476,8 +11433,8 @@ window.TEAM2_DATA = {
               "date": "2025-11-06",
               "summary": "- 집에서 쓰는 근골격계 재활 관리 플랫폼, 앱을 운영하는 헬스케어 기업- 고객사 수, 청구액, 회원 전환율 등 주요 실적 지표 꾸준히 좋아지는 중- `25년 연간 실적 가이던스 대폭 상향하며 수익성 개선에 자신감 내비친 상황",
               "pages": "10",
-              "secureId": "eqxgileqxcceixcgcgxecce",
-              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgileqxcceixcgcgxecce.pdf",
+              "secureId": "eqxgileqxcceixcgcgxecck",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgileqxcceixcgcgxecck.pdf",
               "opinion": null
             }
           ],
@@ -11708,12 +11665,12 @@ window.TEAM2_DATA = {
           "reasons": []
         },
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       },
       "nameKo": "코셉트 테라퓨틱스",
       "nameEn": "CORCEPT THERAPEUTICS INC",
       "detail": {
-        "fetchedAt": "2026-10-01",
+        "fetchedAt": "2026-10-04",
         "nameKo": "코셉트 테라퓨틱스",
         "nameEn": "CORCEPT THERAPEUTICS INC",
         "infomaxCode": "NAS:CORT",
@@ -12765,7 +12722,7 @@ window.TEAM2_DATA = {
           "reasons": []
         },
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       },
       "nameKo": "셀레스티카",
       "nameEn": "CELESTICA INC",
@@ -13609,7 +13566,7 @@ window.TEAM2_DATA = {
         },
         "leadOriginal": "한 달 새 33% 오른 배경은 매출 성장 가속과 GPU 구매 자금 7.25억 달러 조달로 보인다. 다만 이익률은 계속 떨어지고 있고 경영진은 주식을 팔았다. 늘어난 매출이 이익으로 이어지는지가 확인되지 않으면 이 상승 이야기는 약해진다.",
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       },
       "nameKo": "디지털오션 홀딩스",
       "nameEn": "DIGITALOCEAN HLDGS INC",
@@ -14194,7 +14151,7 @@ window.TEAM2_DATA = {
           "reasons": []
         },
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       },
       "nameKo": "루브릭",
       "nameEn": "RUBRIK INC",
@@ -16238,7 +16195,7 @@ window.TEAM2_DATA = {
         "price": 294.58,
         "resistance": null,
         "support": 221.86,
-        "contraction": 1.69,
+        "contraction": 1.7,
         "trend": "up"
       },
       "top2Gaps": {
@@ -16887,7 +16844,7 @@ window.TEAM2_DATA = {
           "reasons": []
         },
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       },
       "nameKo": "루멘텀 홀딩스",
       "nameEn": "LUMENTUM HLDGS INC",
@@ -17483,7 +17440,7 @@ window.TEAM2_DATA = {
       "nameKo": "조메트리",
       "nameEn": "XOMETRY INC",
       "detail": {
-        "fetchedAt": "2026-10-01",
+        "fetchedAt": "2026-10-04",
         "nameKo": "조메트리",
         "nameEn": "XOMETRY INC",
         "infomaxCode": "NAS:XMTR",
@@ -17569,6 +17526,18 @@ window.TEAM2_DATA = {
           "ticker": "XMTR",
           "items": [
             {
+              "title": "Xometry CEO Sells 1,500 Shares Amid a 67% One-Year Return",
+              "url": "https://www.nasdaq.com/articles/xometry-ceo-sells-1500-shares-amid-67-one-year-return",
+              "date": "2026-10-01",
+              "publisher": "The Motley Fool",
+              "tier1": false,
+              "direct": true,
+              "tickers": [
+                "XMTR",
+                "XMTR"
+              ]
+            },
+            {
               "title": "Xometry Director Sells 10,000 Shares",
               "url": "https://www.nasdaq.com/articles/xometry-director-sells-10000-shares",
               "date": "2026-09-17",
@@ -17647,22 +17616,10 @@ window.TEAM2_DATA = {
               "tickers": [
                 "XMTR"
               ]
-            },
-            {
-              "title": "Otis Worldwide (OTIS) Q2 Earnings and Revenues Beat Estimates",
-              "url": "https://www.nasdaq.com/articles/otis-worldwide-otis-q2-earnings-and-revenues-beat-estimates",
-              "date": "2026-07-22",
-              "publisher": "Zacks",
-              "tier1": false,
-              "direct": false,
-              "tickers": [
-                "OTIS",
-                "XMTR"
-              ]
             }
           ],
-          "directCount": 7,
-          "total": 8,
+          "directCount": 8,
+          "total": 9,
           "note": "Nasdaq RSS · <nasdaq:tickers> 3개 이하만. 제목에 종목명이 없는 항목은 동종업계 언급일 수 있어 \"관련\"으로 표시합니다. 발행처가 Zacks·Motley Fool 등 애그리게이터일 수 있으니 원문 링크로 확인하세요."
         },
         "filings": [
@@ -17978,7 +17935,7 @@ window.TEAM2_DATA = {
           ]
         },
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       },
       "nameKo": "이노데이터",
       "nameEn": "INNODATA INC",
@@ -18512,7 +18469,7 @@ window.TEAM2_DATA = {
           ]
         },
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       },
       "nameKo": "팰로 앨토 네트웍스",
       "nameEn": "PALO ALTO NETWORKS INC",
@@ -19054,7 +19011,7 @@ window.TEAM2_DATA = {
         },
         "leadOriginal": "BXC는 최근 분기에 이익이 크게 반등하면서 3개월 상승률 46%를 기록했다. 분기 영업이익이 1년 전보다 37% 늘었고, 직전 분기의 적자·부진에서 벗어났기 때문이다. 다만 한 달 수익률은 -2.65%라서, 다음 분기에도 이익 개선이 이어지는지가 확인돼야 이 이야기가 유지된다.",
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       },
       "nameKo": "블루링스 홀딩스",
       "nameEn": "BLUELINX HLDGS INC",
@@ -19538,7 +19495,7 @@ window.TEAM2_DATA = {
       "nameKo": "발레로 에너지",
       "nameEn": "VALERO ENERGY CORP",
       "detail": {
-        "fetchedAt": "2026-10-03",
+        "fetchedAt": "2026-10-04",
         "nameKo": "발레로 에너지",
         "nameEn": "VALERO ENERGY CORP",
         "infomaxCode": "NYS:VLO",
@@ -22138,7 +22095,7 @@ window.TEAM2_DATA = {
       "nameKo": "HF 싱클레어",
       "nameEn": "HF SINCLAIR CORPORATION",
       "detail": {
-        "fetchedAt": "2026-10-03",
+        "fetchedAt": "2026-10-04",
         "nameKo": "HF 싱클레어",
         "nameEn": "HF SINCLAIR CORPORATION",
         "infomaxCode": "NYS:DINO",
@@ -23221,7 +23178,7 @@ window.TEAM2_DATA = {
           ]
         },
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       },
       "nameKo": "마벨 테크놀로지 그룹",
       "nameEn": "MARVELL TECHNOLOGY INC",
@@ -23687,7 +23644,7 @@ window.TEAM2_DATA = {
         "price": 184.8,
         "resistance": 194.53,
         "support": 176.04,
-        "contraction": 0.97,
+        "contraction": 0.98,
         "trend": "up"
       },
       "top2Gaps": {
@@ -23814,7 +23771,7 @@ window.TEAM2_DATA = {
           ]
         },
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       },
       "nameKo": "가트너",
       "nameEn": "GARTNER INC",
@@ -24219,7 +24176,7 @@ window.TEAM2_DATA = {
         "price": 84.33,
         "resistance": 86.43,
         "support": 83.32,
-        "contraction": 1.14,
+        "contraction": 1.15,
         "trend": "mixed"
       },
       "top2Gaps": {
@@ -24333,7 +24290,7 @@ window.TEAM2_DATA = {
           ]
         },
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       },
       "nameKo": "안테릭스",
       "nameEn": "ANTERIX INC",
@@ -26019,173 +25976,6 @@ window.TEAM2_DATA = {
     },
     "llmCarried": {
       "leadingTheme": {
-        "name": "AI 투자 확대에 따른 반도체·사이버보안 동반 강세",
-        "plainKo": "AI 인프라 투자가 반도체·장비와 보안 소프트웨어 수요를 함께 끌어올리는 모습입니다. 반도체 7종목과 보안 소프트웨어 7종목이 가장 큽니다.",
-        "why": "DELL은 AI 서버 주문이 분기 609억 달러로 역대 최고였고, FORM은 두 분기 연속 매출이 30% 넘게 늘었습니다. AEHR은 AI 프로세서 테스트 기대, RBRK·OKTA·CRWD는 AI 에이전트 확산에 따른 보안 수요 기대가 있었습니다. 이유 확인 안 됨: MXL·ALAB·INTC·SMTC·AMBQ·BAND·PANW.",
-        "tickers": [
-          "MXL",
-          "ALAB",
-          "INTC",
-          "SMTC",
-          "SWKS",
-          "AMBQ",
-          "SIMO",
-          "FORM",
-          "COHU",
-          "AXTI",
-          "AEHR",
-          "BAND",
-          "OKTA",
-          "CRWD",
-          "RBRK",
-          "QLYS",
-          "PANW",
-          "TWLO",
-          "DELL",
-          "P"
-        ],
-        "strength": "strong"
-      },
-      "subThemes": [
-        {
-          "name": "AI 에이전트 시대 사이버보안",
-          "plainKo": "AI 에이전트가 늘수록 보안 수요가 커진다는 기대로 보안 소프트웨어가 함께 올랐습니다.",
-          "why": "OKTA는 AI 에이전트 신원 관리 시장 전망을 내놓았고, CRWD는 AI 보안 구독 매출이 직전 분기보다 3배 늘었습니다. RBRK·QLYS도 같은 기대가 언급됐습니다.",
-          "tickers": [
-            "OKTA",
-            "CRWD",
-            "RBRK",
-            "QLYS",
-            "PANW",
-            "BAND",
-            "TWLO"
-          ]
-        },
-        {
-          "name": "AI 서버·저장장치 수혜",
-          "plainKo": "AI 서버와 저장장치 수요 증가로 하드웨어 업체 실적이 좋아졌습니다.",
-          "why": "DELL은 AI 서버 주문 잔고가 950억 달러이고, P는 최근 분기 매출이 37.7% 늘었습니다. SIMO는 기업용 저장장치 전환 기대가 있었습니다.",
-          "tickers": [
-            "DELL",
-            "P",
-            "SIMO"
-          ]
-        },
-        {
-          "name": "반도체 장비·테스트",
-          "plainKo": "AI 반도체 생산과 테스트 수요 기대로 장비주가 오르고 있습니다.",
-          "why": "FORM은 4~6월 매출이 31.9% 늘었고 도이치뱅크가 매수 의견으로 분석을 시작했습니다. AEHR은 매출이 감소세에서 33.7% 증가로 돌아섰습니다. 이유 확인 안 됨: COHU·AXTI.",
-          "tickers": [
-            "FORM",
-            "AEHR",
-            "COHU",
-            "AXTI"
-          ]
-        },
-        {
-          "name": "진단·연구 업종",
-          "plainKo": "진단·연구 3종목이 1개월·3개월 모두 상위권에 들었습니다.",
-          "why": "이유 확인 안 됨: GRAL·TWST·ILMN.",
-          "tickers": [
-            "GRAL",
-            "TWST",
-            "ILMN"
-          ]
-        }
-      ],
-      "crossCuttingDriver": "AI 인프라 투자 확대가 반도체, 서버, 보안 소프트웨어 수요로 이어지는 흐름이 공통 원인으로 보입니다. 진단·연구와 바이오는 이와 별개입니다.",
-      "byPeriod": {
-        "m1": {
-          "name": "반도체·반도체 장비 반등",
-          "plainKo": "최근 1개월은 반도체 5종목과 반도체 장비 4종목이 이끌었습니다. 진단·연구 3종목도 함께 올랐습니다.",
-          "tickers": [
-            "MXL",
-            "ALAB",
-            "INTC",
-            "SMTC",
-            "SWKS",
-            "FORM",
-            "COHU",
-            "AXTI",
-            "AEHR"
-          ],
-          "strength": "strong"
-        },
-        "m3": {
-          "name": "소프트웨어·진단 분산 강세",
-          "plainKo": "3개월은 응용 소프트웨어 3종목과 진단·연구 3종목이 앞섰지만 한 테마로 묶이진 않습니다.",
-          "tickers": [
-            "TEAM",
-            "MSTR",
-            "ESTC",
-            "GRAL",
-            "TWST",
-            "ILMN"
-          ],
-          "strength": "weak"
-        },
-        "m6": {
-          "name": "보안·인프라 소프트웨어",
-          "plainKo": "6개월은 인프라 소프트웨어 7종목이 압도적입니다. 사이버보안 종목이 중심입니다.",
-          "tickers": [
-            "BAND",
-            "OKTA",
-            "CRWD",
-            "RBRK",
-            "QLYS",
-            "PANW",
-            "TWLO"
-          ],
-          "strength": "strong"
-        }
-      },
-      "rotation": {
-        "persistent": [
-          "GRAL",
-          "TWST"
-        ],
-        "newEntrants": [
-          "VICR",
-          "COHU",
-          "SEI",
-          "FEIM",
-          "AXTI",
-          "INTC",
-          "BE",
-          "ALNT",
-          "SIG"
-        ],
-        "midTerm": [
-          "MRNA",
-          "TEAM",
-          "ECO",
-          "OKTA",
-          "MSTR",
-          "ESTC",
-          "VLO",
-          "DINO",
-          "HPE-C"
-        ],
-        "fading": [
-          "AGL",
-          "CORT",
-          "HNGE",
-          "CRWD",
-          "SNOW",
-          "XMTR",
-          "DDOG",
-          "QLYS",
-          "PENG",
-          "PANW",
-          "AMBQ",
-          "SIMO"
-        ],
-        "narrative": "오래 강한 쪽은 진단·연구 업종(GRAL·TWST)뿐입니다. 새로 떠오르는 쪽은 반도체·반도체 장비·전자부품(INTC·COHU·AXTI·VICR)입니다. 힘이 빠지는 쪽은 보안·인프라 소프트웨어(CRWD·PANW·DDOG·QLYS)와 바이오(CORT)입니다."
-      },
-      "researchedOn": "2026-10-02"
-    },
-    "llm": {
-      "leadingTheme": {
         "name": "AI 인프라 투자 확대 수혜 (보안·반도체·네트워크)",
         "plainKo": "AI 투자가 늘면서 반도체, 네트워크 장비, 클라우드 보안 종목이 함께 강해졌다. 업종은 달라도 AI 데이터센터 수요가 공통 원인이다.",
         "why": "MRVL은 구글과 맞춤형 반도체 계약을 맺고 매출 전망을 올렸다. LITE는 분기 매출이 109% 늘었고, CLS는 800G 스위치 주문이 늘었다. DELL은 AI 서버 주문 잔량이 950억 달러이고, RBRK·PANW는 AI 에이전트 확산에 따른 보안 수요 기대가 있다.",
@@ -26349,8 +26139,7 @@ window.TEAM2_DATA = {
       },
       "caution": "공통 원인이 AI 투자라는 해석은 일부 종목의 근거에 기반하며, 반도체 장비와 진단·연구 종목은 이유가 확인되지 않았다.",
       "researchedOn": "2026-10-03"
-    },
-    "reusedFrom": null
+    }
   },
   "fs_coverage": {
     "have": 46,
@@ -26359,12 +26148,12 @@ window.TEAM2_DATA = {
   "research_coverage": {
     "done": 47,
     "total": 47,
-    "cap": 20,
+    "cap": null,
     "pending": 0,
     "failed": 0,
-    "carried": 30,
+    "carried": 47,
     "ineligible": 0,
-    "note": "그중 30종목은 최근 조사분을 이월했습니다(조사일 표기)."
+    "note": "그중 47종목은 최근 조사분을 이월했습니다(조사일 표기)."
   },
   "detail_coverage": {
     "done": 47,

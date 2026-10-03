@@ -1,5 +1,5 @@
 window.TEAM5_DATA = {
-  "generated": "2026-10-03",
+  "generated": "2026-10-04",
   "note": "WRS(1MO)/(3MO) 는 사이트에 없어 공식대로 자체 계산한 값입니다 (WRS_6mo 는 사이트와 대조 검증 통과)",
   "validation": {
     "comparable": 140,
@@ -521,7 +521,7 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "done",
+    "status": "carried",
     "industries": [
       {
         "key": "Technology|Semiconductor Equipment & Materials",
@@ -603,7 +603,7 @@ window.TEAM5_DATA = {
           "reason": ""
         },
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       },
       {
         "key": "Healthcare|Health Information Services",
@@ -644,7 +644,7 @@ window.TEAM5_DATA = {
         },
         "leadOriginal": "건강 정보 서비스는 디지털 건강관리 소프트웨어 기업들이 속한 업종입니다. 대표 종목 Hinge Health의 실적이 빠르게 늘고 올해 전망도 높아져 3~6개월 성과가 상위권입니다. 다만 최근 한 달은 쉬는 중이라 흐름이 이어지는지 확인이 필요합니다.",
         "researchedOn": "2026-10-03",
-        "carried": false
+        "carried": true
       },
       {
         "key": "Consumer Cyclical|Department Stores",
@@ -1624,8 +1624,7 @@ window.TEAM5_DATA = {
       ],
       "caution": "반도체 장비는 이미 단기간에 많이 올라 비싸다는 경계가 나오고, 헬스케어 정보 서비스의 약세도 짧은 조정일 수 있어 다음 한두 주의 흐름에 따라 해석이 뒤집힐 수 있습니다."
     },
-    "summaryResearchedOn": "2026-10-03",
-    "reusedFrom": null
+    "summaryResearchedOn": "2026-10-03"
   },
   "flow": {
     "baseline": {
@@ -7940,15 +7939,5 @@ window.TEAM5_DATA = {
         ]
       }
     ]
-  },
-  "research_coverage": {
-    "done": 17,
-    "total": 11,
-    "cap": 6,
-    "pending": 0,
-    "failed": 0,
-    "carried": 15,
-    "ineligible": 0,
-    "note": "그중 15업종은 최근 조사분을 이월했습니다(조사일 표기)."
   }
 };
