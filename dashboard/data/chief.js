@@ -1,54 +1,54 @@
 window.CHIEF_DATA = {
-  "generated": "2026-10-02",
+  "generated": "2026-10-03",
   "market": {
     "verdict": "green",
-    "ko": "🟢 10일선이 20일선을 넘은 지 10일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+    "ko": "🟢 10일선이 20일선을 넘은 지 11일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
     "finra": "warn",
     "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과"
   },
   "counts": {
     "universe": 1412,
-    "picks": 44,
+    "picks": 47,
     "tracking": {
-      "active": 82,
+      "active": 83,
       "dormant": 0,
-      "excluded": 60,
-      "total": 142,
+      "excluded": 61,
+      "total": 144,
       "unevaluated": [
         "HPE-C"
       ],
-      "reentryBlocked": 1
+      "reentryBlocked": 3
     },
-    "breakouts": 14,
-    "epCandidates": 19,
-    "chartCheck": 23,
+    "breakouts": 16,
+    "epCandidates": 12,
+    "chartCheck": 24,
     "chartCheckShown": 10,
     "plans": {
-      "evaluated": 88,
-      "near": 24,
-      "watch": 10,
-      "A": 7,
-      "B": 3,
-      "blocked": 14,
-      "post": 13,
-      "far": 34,
-      "noBase": 16,
+      "evaluated": 89,
+      "near": 26,
+      "watch": 8,
+      "A": 6,
+      "B": 2,
+      "blocked": 18,
+      "post": 14,
+      "far": 30,
+      "noBase": 18,
       "noBars": 1
     }
   },
-  "theme": "Semiconductors 7종목(15.9%) · Software - Infrastructure 7종목(15.9%) · Software - Application 5종목(11.4%)",
+  "theme": "Software - Infrastructure 8종목(17%) · Semiconductors 6종목(12.8%) · Software - Application 5종목(10.6%)",
   "chartCheck": [
     {
       "ticker": "CORT",
       "score": 9,
       "source": "T3",
       "reasons": [
-        "최근 1주는 더 조용하다(그 전 1주의 0.65배)",
-        "최근 1주 거래량이 한 달 평균의 0.54배로 줄었다(팔 사람이 줄어듦)",
+        "최근 1주는 더 조용하다(그 전 1주의 0.64배)",
+        "최근 1주 거래량이 한 달 평균의 0.55배로 줄었다(팔 사람이 줄어듦)",
         "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.08, 최저 0.08)",
-        "넘어야 할 선 $117.33 바로 아래(-2.81%)",
-        "최근 2주 종가가 2.03% 안에서만 움직였다",
-        "1년 최고가의 91.18% 자리"
+        "넘어야 할 선 $117.33 바로 아래(-0.94%)",
+        "최근 2주 종가가 1.48% 안에서만 움직였다",
+        "1년 최고가의 90.23% 자리"
       ],
       "flags": [
         "contract5",
@@ -59,7 +59,7 @@ window.CHIEF_DATA = {
         "high52"
       ],
       "resistance": 117.33,
-      "price": 114.03,
+      "price": 116.23,
       "barGap": false
     },
     {
@@ -67,11 +67,11 @@ window.CHIEF_DATA = {
       "score": 8,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.76배로 줄었다",
-        "최근 1주는 더 조용하다(그 전 1주의 0.61배)",
-        "최근 1주 거래량이 한 달 평균의 0.6배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $287.37 바로 아래(-4.22%)",
-        "최근 2주 종가가 1.42% 안에서만 움직였다"
+        "최근 2주 가격 흔들림이 그 전 2주의 0.72배로 줄었다",
+        "최근 1주는 더 조용하다(그 전 1주의 0.62배)",
+        "최근 1주 거래량이 한 달 평균의 0.66배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $287.37 바로 아래(-2.39%)",
+        "최근 2주 종가가 1.39% 안에서만 움직였다"
       ],
       "flags": [
         "contract10",
@@ -81,29 +81,7 @@ window.CHIEF_DATA = {
         "tightCloses"
       ],
       "resistance": 287.37,
-      "price": 275.24,
-      "barGap": false
-    },
-    {
-      "ticker": "SWKS",
-      "score": 8,
-      "source": "T3",
-      "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.66배로 줄었다",
-        "최근 1주 거래량이 한 달 평균의 0.62배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $85.18 바로 아래(-2.37%)",
-        "최근 2주 종가가 2.64% 안에서만 움직였다",
-        "1년 최고가의 92.11% 자리"
-      ],
-      "flags": [
-        "contract10",
-        "volDry",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 85.18,
-      "price": 83.16,
+      "price": 280.5,
       "barGap": false
     },
     {
@@ -111,11 +89,11 @@ window.CHIEF_DATA = {
       "score": 8,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.7배로 줄었다",
-        "최근 1주 거래량이 한 달 평균의 0.63배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $106.28 바로 아래(-1.91%)",
-        "최근 2주 종가가 1.89% 안에서만 움직였다",
-        "1년 최고가의 93.59% 자리"
+        "최근 2주 가격 흔들림이 그 전 2주의 0.77배로 줄었다",
+        "최근 1주 거래량이 한 달 평균의 0.68배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $101.71 바로 아래(-1.11%)",
+        "최근 2주 종가가 1.88% 안에서만 움직였다",
+        "1년 최고가의 95.34% 자리"
       ],
       "flags": [
         "contract10",
@@ -124,8 +102,48 @@ window.CHIEF_DATA = {
         "tightCloses",
         "high52"
       ],
-      "resistance": 106.28,
-      "price": 104.25,
+      "resistance": 101.71,
+      "price": 100.58,
+      "barGap": false
+    },
+    {
+      "ticker": "MANH",
+      "score": 7,
+      "source": "T3",
+      "reasons": [
+        "최근 2주 가격 흔들림이 그 전 2주의 0.79배로 줄었다",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.1, 최저 0.1)",
+        "넘어야 할 선 $210.36 바로 아래(-2.95%)",
+        "최근 2주 종가가 1.98% 안에서만 움직였다"
+      ],
+      "flags": [
+        "contract10",
+        "bbSqueeze",
+        "nearResist",
+        "tightCloses"
+      ],
+      "resistance": 210.36,
+      "price": 204.15,
+      "barGap": false
+    },
+    {
+      "ticker": "SPSC",
+      "score": 7,
+      "source": "T3",
+      "reasons": [
+        "최근 2주 가격 흔들림이 그 전 2주의 0.73배로 줄었다",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.09, 최저 0.09)",
+        "넘어야 할 선 $84.12 바로 아래(-2.1%)",
+        "최근 2주 종가가 1.15% 안에서만 움직였다"
+      ],
+      "flags": [
+        "contract10",
+        "bbSqueeze",
+        "nearResist",
+        "tightCloses"
+      ],
+      "resistance": 84.12,
+      "price": 82.35,
       "barGap": false
     },
     {
@@ -134,8 +152,8 @@ window.CHIEF_DATA = {
       "source": "T3",
       "reasons": [
         "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.05, 최저 0.05)",
-        "넘어야 할 선 $84.16 바로 아래(-2.21%)",
-        "최근 2주 종가가 1.33% 안에서만 움직였다",
+        "넘어야 할 선 $84.16 바로 아래(-1.21%)",
+        "최근 2주 종가가 1.41% 안에서만 움직였다",
         "1년 최고가의 94.14% 자리"
       ],
       "flags": [
@@ -145,7 +163,7 @@ window.CHIEF_DATA = {
         "high52"
       ],
       "resistance": 84.16,
-      "price": 82.3,
+      "price": 83.14,
       "barGap": false
     },
     {
@@ -153,39 +171,39 @@ window.CHIEF_DATA = {
       "score": 6,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.78배로 줄었다",
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.17, 최저 0.14)",
-        "최근 2주 종가가 2.49% 안에서만 움직였다",
-        "1년 최고가의 90.33% 자리"
+        "최근 1주 거래량이 한 달 평균의 0.69배로 줄었다(팔 사람이 줄어듦)",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.15, 최저 0.14)",
+        "최근 2주 종가가 2.37% 안에서만 움직였다",
+        "1년 최고가의 90.97% 자리"
       ],
       "flags": [
-        "contract10",
+        "volDry",
         "bbSqueeze",
         "tightCloses",
         "high52"
       ],
       "resistance": 595.51,
-      "price": 541.74,
+      "price": 562.52,
       "barGap": false
     },
     {
-      "ticker": "SNDK",
+      "ticker": "PAYC",
       "score": 6,
       "source": "T3",
       "reasons": [
-        "최근 1주는 더 조용하다(그 전 1주의 0.6배)",
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.25, 최저 0.22)",
-        "넘어야 할 선 $1807.38 바로 아래(-1.09%)",
-        "최근 2주 종가가 2.81% 안에서만 움직였다"
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.11, 최저 0.11)",
+        "넘어야 할 선 $226.12 바로 아래(-2.27%)",
+        "최근 2주 종가가 1.44% 안에서만 움직였다",
+        "1년 최고가의 92.85% 자리"
       ],
       "flags": [
-        "contract5",
         "bbSqueeze",
         "nearResist",
-        "tightCloses"
+        "tightCloses",
+        "high52"
       ],
-      "resistance": 1807.38,
-      "price": 1787.69,
+      "resistance": 226.12,
+      "price": 220.99,
       "barGap": false
     },
     {
@@ -193,10 +211,10 @@ window.CHIEF_DATA = {
       "score": 6,
       "source": "T3",
       "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.09, 최저 0.09)",
-        "넘어야 할 선 $165.92 바로 아래(-2.77%)",
-        "최근 2주 종가가 1.32% 안에서만 움직였다",
-        "1년 최고가의 92.77% 자리"
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.08, 최저 0.08)",
+        "넘어야 할 선 $165.92 바로 아래(-3.17%)",
+        "최근 2주 종가가 1.33% 안에서만 움직였다",
+        "1년 최고가의 95.74% 자리"
       ],
       "flags": [
         "bbSqueeze",
@@ -205,155 +223,152 @@ window.CHIEF_DATA = {
         "high52"
       ],
       "resistance": 165.92,
-      "price": 161.33,
+      "price": 160.66,
       "barGap": false
     },
     {
-      "ticker": "INBX",
+      "ticker": "DUOL",
       "score": 6,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.69배로 줄었다",
-        "최근 1주 거래량이 한 달 평균의 0.67배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $99.33 바로 아래(-1.41%)"
+        "최근 1주는 더 조용하다(그 전 1주의 0.69배)",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.15, 최저 0.15)",
+        "넘어야 할 선 $151 바로 아래(-4.46%)",
+        "최근 2주 종가가 2.96% 안에서만 움직였다"
       ],
       "flags": [
-        "contract10",
-        "volDry",
-        "nearResist"
-      ],
-      "resistance": 99.33,
-      "price": 97.93,
-      "barGap": false
-    },
-    {
-      "ticker": "HURN",
-      "score": 5,
-      "source": "T3",
-      "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.09, 최저 0.09)",
-        "넘어야 할 선 $172.9 바로 아래(-2.59%)",
-        "최근 2주 종가가 2.18% 안에서만 움직였다"
-      ],
-      "flags": [
+        "contract5",
         "bbSqueeze",
         "nearResist",
         "tightCloses"
       ],
-      "resistance": 172.9,
-      "price": 168.42,
+      "resistance": 151,
+      "price": 144.27,
       "barGap": false
     }
   ],
-  "chartCheckTotal": 23,
+  "chartCheckTotal": 24,
   "barsNotice": null,
-  "sessionDate": "2026-10-01",
+  "sessionDate": "2026-10-02",
   "sessionMismatch": false,
   "flowCross": {
     "inflow": [
       {
-        "key": "Healthcare|Diagnostics & Research",
-        "sector": "Healthcare",
-        "industry": "Diagnostics & Research",
-        "count": 22,
-        "winRate": 0.9545,
-        "final": 0.4305,
+        "key": "Energy|Oil & Gas Refining & Marketing",
+        "sector": "Energy",
+        "industry": "Oil & Gas Refining & Marketing",
+        "count": 7,
+        "winRate": 1,
+        "final": 0.4336,
         "FRANK": 4,
-        "f10": 1.8693800283956503,
-        "f25": 29.356971153846157,
-        "frank25": 1,
-        "siteF10": -23.429244577992772,
-        "siteF25": -8.931960776542688,
-        "siteToday": 0.4304586854071668,
-        "d50": 7.255,
-        "d200": 20.125,
-        "d200Prev": 17.825000000000003,
-        "d200Delta": 2.299999999999997,
-        "cy": 0,
-        "ny": 0.04,
-        "upRatio": 69.26553672316385,
-        "coverage": 885,
-        "stage": "mid_up",
-        "stageKo": "📈 상승 중반 (확장 중)",
-        "stageNote": "어느 정도 왔지만 아직 벌어지는 중입니다",
-        "flow": "inflow",
+        "f10": 18.957475994513032,
+        "f25": 29.394210683378084,
+        "frank25": 0,
+        "siteF10": -21.14215260410791,
+        "siteF25": -30.482695597037047,
+        "siteToday": 0.43363337683087433,
+        "d50": 10.52,
+        "d200": 45.35,
+        "d200Prev": 42.73,
+        "d200Delta": 2.6200000000000045,
+        "cy": 11.54,
+        "ny": 25.6,
+        "upRatio": 84.32203389830508,
+        "coverage": 236,
+        "stage": "late_up",
+        "stageKo": "⚠️ 후반 가속",
+        "stageNote": "많이 온 상태에서 더 벌어지는 중 — 과열 위험",
+        "flow": "leading",
+        "axes": {
+          "inflow": true,
+          "outflow": false,
+          "attention": true,
+          "broad": true
+        },
+        "members": [
+          "MPC",
+          "VLO",
+          "PSX",
+          "DINO",
+          "SUN",
+          "PARR",
+          "DKL"
+        ],
+        "picks": [
+          {
+            "ticker": "VLO",
+            "name": "발레로 에너지",
+            "d50": 15.74,
+            "d200": 58.52,
+            "cy": 11.54,
+            "ny": 26.94,
+            "upRatio": 92.5925925925926,
+            "coverage": 27,
+            "tracking": "active",
+            "breakout": false,
+            "stage": "lead",
+            "stageKo": "✅ 선도",
+            "why": "많이 왔고 실적 기대도 받쳐줍니다"
+          },
+          {
+            "ticker": "DINO",
+            "name": "HF 싱클레어",
+            "d50": 14.13,
+            "d200": 60.63,
+            "cy": 17.08,
+            "ny": 27.7,
+            "upRatio": 95,
+            "coverage": 40,
+            "tracking": "active",
+            "breakout": false,
+            "stage": "lead",
+            "stageKo": "✅ 선도",
+            "why": "많이 왔고 실적 기대도 받쳐줍니다"
+          }
+        ]
+      },
+      {
+        "key": "Utilities|Utilities - Independent Power Producers",
+        "sector": "Utilities",
+        "industry": "Utilities - Independent Power Producers",
+        "count": 7,
+        "winRate": 0.1429,
+        "final": -0.0461,
+        "FRANK": 127,
+        "f10": 12.689393939393934,
+        "f25": 18.980667838312826,
+        "frank25": 10,
+        "siteF10": 30.773723747882965,
+        "siteF25": -46.70488867011572,
+        "siteToday": -0.046052402311337094,
+        "d50": -7.8,
+        "d200": -9.96,
+        "d200Prev": -12.57,
+        "d200Delta": 2.6099999999999994,
+        "cy": 1.105,
+        "ny": 1.05,
+        "upRatio": 45.13888888888889,
+        "coverage": 144,
+        "stage": "pullback",
+        "stageKo": "❄️ 조정 중",
+        "stageNote": "두 달 평균 아래로 내려왔습니다",
+        "flow": "narrow",
         "axes": {
           "inflow": true,
           "outflow": false,
           "attention": false,
-          "broad": true
+          "broad": false
         },
         "members": [
-          "MTD",
-          "IDXX",
-          "TMO",
-          "MEDP",
-          "WAT",
-          "LH",
-          "NTRA",
-          "DGX",
-          "CRL",
-          "DHR",
-          "IQV",
-          "ILMN",
-          "ICLR",
-          "GH",
-          "A",
-          "BLLN",
-          "RVTY",
-          "TWST",
-          "GRAL",
-          "WGS",
-          "RDNT",
-          "VCYT"
+          "TLN",
+          "CEG",
+          "VST",
+          "NRG",
+          "PAM",
+          "KEN",
+          "OKLO"
         ],
-        "picks": [
-          {
-            "ticker": "ILMN",
-            "name": "일루미나",
-            "d50": 26.78,
-            "d200": 69.61,
-            "cy": -0.02,
-            "ny": 0.2,
-            "upRatio": 68.75,
-            "coverage": 32,
-            "tracking": "active",
-            "breakout": false,
-            "stage": "lead_weak",
-            "stageKo": "🔶 관성",
-            "why": "많이 왔는데 실적 기대는 멈췄습니다"
-          },
-          {
-            "ticker": "GRAL",
-            "name": "그레일",
-            "d50": 70.59,
-            "d200": 91.38,
-            "cy": -2.15,
-            "ny": -9.95,
-            "upRatio": 100,
-            "coverage": 4,
-            "tracking": "active",
-            "breakout": false,
-            "stage": "hot",
-            "stageKo": "🔥 과열",
-            "why": "두 달 평균에서 30% 넘게 떠 있습니다"
-          },
-          {
-            "ticker": "TWST",
-            "name": "트위스트 바이오사이언스",
-            "d50": 46.49,
-            "d200": 156,
-            "cy": -11.11,
-            "ny": -3.89,
-            "upRatio": 71.42857142857143,
-            "coverage": 7,
-            "tracking": "active",
-            "breakout": false,
-            "stage": "hot",
-            "stageKo": "🔥 과열",
-            "why": "두 달 평균에서 30% 넘게 떠 있습니다"
-          }
-        ]
+        "picks": []
       }
     ],
     "outflow": [
@@ -363,18 +378,18 @@ window.CHIEF_DATA = {
         "industry": "Gold",
         "count": 8,
         "winRate": 0,
-        "final": -0.0499,
-        "FRANK": 128,
-        "f10": -126.48619957537154,
-        "f25": -152.8601694915254,
-        "frank25": -68,
-        "siteF10": -118.11645552524645,
-        "siteF25": -125.00944488326806,
-        "siteToday": -0.04988382820008783,
-        "d50": -2.505,
-        "d200": -0.30499999999999994,
+        "final": -0.057,
+        "FRANK": 131,
+        "f10": -130.2547770700637,
+        "f25": -160.3813559322034,
+        "frank25": -71,
+        "siteF10": -123.06741866065477,
+        "siteF25": -128.59011963624062,
+        "siteToday": -0.05702584458061369,
+        "d50": -3.75,
+        "d200": -0.72,
         "d200Prev": 24.115000000000002,
-        "d200Delta": -24.42,
+        "d200Delta": -24.835,
         "cy": -0.665,
         "ny": -0.435,
         "upRatio": 34.63687150837989,
@@ -403,23 +418,62 @@ window.CHIEF_DATA = {
         "droppedToday": []
       },
       {
+        "key": "Energy|Uranium",
+        "sector": "Energy",
+        "industry": "Uranium",
+        "count": 2,
+        "winRate": 0,
+        "final": -0.0595,
+        "FRANK": 132,
+        "f10": -79.2168674698795,
+        "f25": -181.9905213270142,
+        "frank25": -3,
+        "siteF10": 19.776995000802373,
+        "siteF25": 34.9371818250585,
+        "siteToday": -0.05948405505282523,
+        "d50": -13.765,
+        "d200": -24.845,
+        "d200Prev": -3.9099999999999997,
+        "d200Delta": -20.935,
+        "cy": -7.16,
+        "ny": -1.875,
+        "upRatio": 39.130434782608695,
+        "coverage": 46,
+        "stage": "pullback",
+        "stageKo": "❄️ 조정 중",
+        "stageNote": "두 달 평균 아래로 내려왔습니다",
+        "flow": "outflow",
+        "axes": {
+          "inflow": false,
+          "outflow": true,
+          "attention": false,
+          "broad": false
+        },
+        "members": [
+          "LEU",
+          "CCJ"
+        ],
+        "picks": [],
+        "droppedToday": []
+      },
+      {
         "key": "Consumer Defensive|Packaged Foods",
         "sector": "Consumer Defensive",
         "industry": "Packaged Foods",
         "count": 10,
-        "winRate": 0.3,
-        "final": 0.0174,
-        "FRANK": 82,
-        "f10": -83.18840579710145,
-        "f25": -76.83089214380826,
-        "frank25": -7,
-        "siteF10": -87.91978129840848,
-        "siteF25": -82.53711941955928,
-        "siteToday": 0.017418952471148594,
-        "d50": -6.71,
-        "d200": -7.6850000000000005,
+        "winRate": 0.4,
+        "final": 0.0336,
+        "FRANK": 73,
+        "f10": -67.53623188405797,
+        "f25": -55.25965379494008,
+        "frank25": 2,
+        "siteF10": -72.31970959027745,
+        "siteF25": -74.54531729309947,
+        "siteToday": 0.033620744776219375,
+        "d50": -6.01,
+        "d200": -6.805,
         "d200Prev": 14.07,
-        "d200Delta": -21.755000000000003,
+        "d200Delta": -20.875,
         "cy": 0,
         "ny": 0,
         "upRatio": 43.53741496598639,
@@ -450,74 +504,27 @@ window.CHIEF_DATA = {
         "droppedToday": []
       },
       {
-        "key": "Consumer Cyclical|Auto & Truck Dealerships",
-        "sector": "Consumer Cyclical",
-        "industry": "Auto & Truck Dealerships",
-        "count": 10,
-        "winRate": 0.3,
-        "final": 0.0167,
-        "FRANK": 83,
-        "f10": -83.21608040201006,
-        "f25": -90.92391304347827,
-        "frank25": -60,
-        "siteF10": -88.94479540399433,
-        "siteF25": -95.3416286507838,
-        "siteToday": 0.016699230781487277,
-        "d50": -13.535,
-        "d200": -15.195,
-        "d200Prev": 5.765,
-        "d200Delta": -20.96,
-        "cy": 0.01,
-        "ny": 0.42,
-        "upRatio": 52.8023598820059,
-        "coverage": 339,
-        "stage": "pullback",
-        "stageKo": "❄️ 조정 중",
-        "stageNote": "두 달 평균 아래로 내려왔습니다",
-        "flow": "outflow",
-        "axes": {
-          "inflow": false,
-          "outflow": true,
-          "attention": false,
-          "broad": false
-        },
-        "members": [
-          "GPI",
-          "LAD",
-          "ABG",
-          "AN",
-          "PAG",
-          "BGSI",
-          "SAH",
-          "RUSHB",
-          "RUSHA",
-          "CVNA"
-        ],
-        "picks": [],
-        "droppedToday": []
-      },
-      {
-        "key": "Industrials|Staffing & Employment Services",
-        "sector": "Industrials",
-        "industry": "Staffing & Employment Services",
-        "count": 1,
+        "key": "Basic Materials|Copper",
+        "sector": "Basic Materials",
+        "industry": "Copper",
+        "count": 2,
         "winRate": 1,
-        "final": 0.0182,
-        "FRANK": 81,
-        "f10": -39.13043478260869,
-        "f25": -61.84486373165618,
-        "frank25": 9,
-        "siteF10": -90.56809580416483,
-        "siteF25": -94.7665292642412,
-        "siteToday": 0.018202274880628762,
-        "d50": -10.94,
-        "d200": 3.14,
-        "d200Prev": 24.08,
-        "d200Delta": -20.939999999999998,
-        "cy": -3.63,
-        "ny": 0.99,
-        "upRatio": 100,
-        "coverage": 5,
+        "final": 0.0401,
+        "FRANK": 70,
+        "f10": -55.73951434878588,
+        "f25": -33.82838283828383,
+        "frank25": 13,
+        "siteF10": -87.53400557649321,
+        "siteF25": -84.84289902693799,
+        "siteToday": 0.04007657491806471,
+        "d50": -0.015000000000000013,
+        "d200": 10.02,
+        "d200Prev": 30.765,
+        "d200Delta": -20.745,
+        "cy": 0.755,
+        "ny": 1.2850000000000001,
+        "upRatio": 68.11594202898551,
+        "coverage": 69,
         "stage": "pullback",
         "stageKo": "❄️ 조정 중",
         "stageNote": "두 달 평균 아래로 내려왔습니다",
@@ -529,7 +536,8 @@ window.CHIEF_DATA = {
           "broad": false
         },
         "members": [
-          "KFY"
+          "SCCO",
+          "FCX"
         ],
         "picks": [],
         "droppedToday": []
@@ -537,97 +545,23 @@ window.CHIEF_DATA = {
     ],
     "pending": [
       {
-        "key": "Energy|Oil & Gas Refining & Marketing",
-        "sector": "Energy",
-        "industry": "Oil & Gas Refining & Marketing",
-        "count": 7,
-        "winRate": 1,
-        "final": 0.3973,
-        "FRANK": 5,
-        "f10": 8.998628257887516,
-        "f25": 18.56162339600119,
-        "frank25": -1,
-        "siteF10": -33.44347476329472,
-        "siteF25": -36.30783466411614,
-        "siteToday": 0.39730103409577905,
-        "d50": 8.54,
-        "d200": 45.15,
-        "d200Prev": 42.73,
-        "d200Delta": 2.4200000000000017,
-        "cy": 11.54,
-        "ny": 23.28,
-        "upRatio": 84.32203389830508,
-        "coverage": 236,
-        "stage": "late_up",
-        "stageKo": "⚠️ 후반 가속",
-        "stageNote": "많이 온 상태에서 더 벌어지는 중 — 과열 위험",
-        "flow": "pending",
-        "axes": {
-          "inflow": false,
-          "outflow": false,
-          "attention": true,
-          "broad": true
-        },
-        "members": [
-          "MPC",
-          "VLO",
-          "PSX",
-          "DINO",
-          "SUN",
-          "PARR",
-          "DKL"
-        ],
-        "picks": [
-          {
-            "ticker": "VLO",
-            "name": "발레로 에너지",
-            "d50": 10.45,
-            "d200": 51.14,
-            "cy": 11.54,
-            "ny": 26.94,
-            "upRatio": 92.5925925925926,
-            "coverage": 27,
-            "tracking": "active",
-            "breakout": false,
-            "stage": "lead",
-            "stageKo": "✅ 선도",
-            "why": "많이 왔고 실적 기대도 받쳐줍니다"
-          },
-          {
-            "ticker": "DINO",
-            "name": "HF 싱클레어",
-            "d50": 9.18,
-            "d200": 53.67,
-            "cy": 18.54,
-            "ny": 26.15,
-            "upRatio": 95,
-            "coverage": 40,
-            "tracking": "active",
-            "breakout": false,
-            "stage": "lead",
-            "stageKo": "✅ 선도",
-            "why": "많이 왔고 실적 기대도 받쳐줍니다"
-          }
-        ]
-      },
-      {
         "key": "Technology|Electronics & Computer Distribution",
         "sector": "Technology",
         "industry": "Electronics & Computer Distribution",
         "count": 5,
         "winRate": 1,
-        "final": 0.2628,
-        "FRANK": 9,
-        "f10": -17.097791798107266,
-        "f25": -0.4922377887164041,
-        "frank25": 1,
-        "siteF10": -62.1181399872074,
-        "siteF25": -58.670777635919634,
-        "siteToday": 0.2627709205881238,
-        "d50": 5.74,
-        "d200": 31.35,
+        "final": 0.2827,
+        "FRANK": 7,
+        "f10": -10.820189274447948,
+        "f25": 7.042786823173043,
+        "frank25": 3,
+        "siteF10": -59.67129435555072,
+        "siteF25": -55.53873954240919,
+        "siteToday": 0.2826843979310727,
+        "d50": 7.87,
+        "d200": 34.43,
         "d200Prev": 25.64,
-        "d200Delta": 5.710000000000001,
+        "d200Delta": 8.79,
         "cy": 9.44,
         "ny": 12.19,
         "upRatio": 93.18181818181817,
@@ -657,25 +591,25 @@ window.CHIEF_DATA = {
         "industry": "Luxury Goods",
         "count": 2,
         "winRate": 0.5,
-        "final": -0.015,
-        "FRANK": 115,
-        "f10": -2042.8571428571431,
-        "f25": 55.88235294117647,
-        "frank25": 17,
-        "siteF10": -218.52938567506115,
-        "siteF25": 21.09772700234108,
-        "siteToday": -0.014963614970727963,
-        "d50": -1.0499999999999998,
-        "d200": -0.7050000000000001,
+        "final": -0.0078,
+        "FRANK": 109,
+        "f10": -1014.2857142857142,
+        "f25": 77.05882352941175,
+        "frank25": 23,
+        "siteF10": -509.9646409117315,
+        "siteF25": 54.66023768651157,
+        "siteToday": -0.007776951067355046,
+        "d50": 1.585,
+        "d200": 1.8449999999999998,
         "d200Prev": -4.9350000000000005,
-        "d200Delta": 4.23,
+        "d200Delta": 6.78,
         "cy": 5.05,
         "ny": 6.3549999999999995,
         "upRatio": 77.77777777777779,
         "coverage": 63,
-        "stage": "pullback",
-        "stageKo": "❄️ 조정 중",
-        "stageNote": "두 달 평균 아래로 내려왔습니다",
+        "stage": "early",
+        "stageKo": "⭐ 상승 초입",
+        "stageNote": "아직 많이 안 왔는데 격차가 벌어지는 중입니다",
         "flow": "pending",
         "axes": {
           "inflow": false,
@@ -687,23 +621,7 @@ window.CHIEF_DATA = {
           "TPR",
           "SIG"
         ],
-        "picks": [
-          {
-            "ticker": "SIG",
-            "name": "시그넷 주얼러스",
-            "d50": 10.16,
-            "d200": 15.14,
-            "cy": 8.51,
-            "ny": 11.78,
-            "upRatio": 100,
-            "coverage": 10,
-            "tracking": "active",
-            "breakout": false,
-            "stage": "early",
-            "stageKo": "⭐ 초입",
-            "why": "1년 평균 대비 아직 낮은데 실적 기대가 오릅니다"
-          }
-        ]
+        "picks": []
       },
       {
         "key": "Technology|Computer Hardware",
@@ -711,18 +629,18 @@ window.CHIEF_DATA = {
         "industry": "Computer Hardware",
         "count": 9,
         "winRate": 0.8889,
-        "final": 0.5106,
+        "final": 0.5118,
         "FRANK": 1,
-        "f10": -17.002600780234054,
-        "f25": -11.246306274986958,
+        "f10": -16.807542262678794,
+        "f25": -11.037719450721362,
         "frank25": 0,
-        "siteF10": -48.51455882025945,
-        "siteF25": -42.88899754374847,
-        "siteToday": 0.5340385185085591,
-        "d50": 9.05,
-        "d200": 36.035000000000004,
+        "siteF10": -51.48851995490046,
+        "siteF25": -41.821220044380425,
+        "siteToday": 0.5440232062324115,
+        "d50": 10.54,
+        "d200": 37.59,
         "d200Prev": 27.73,
-        "d200Delta": 8.305000000000003,
+        "d200Delta": 9.860000000000003,
         "cy": 4.45,
         "ny": 15.75,
         "upRatio": 86.98630136986301,
@@ -752,8 +670,8 @@ window.CHIEF_DATA = {
           {
             "ticker": "DELL",
             "name": "델 테크놀로지스",
-            "d50": 11.03,
-            "d200": 86.53,
+            "d50": 11.36,
+            "d200": 86.51,
             "cy": 37.6,
             "ny": 22.36,
             "upRatio": 100,
@@ -767,8 +685,8 @@ window.CHIEF_DATA = {
           {
             "ticker": "P",
             "name": "에버퓨어",
-            "d50": 31.36,
-            "d200": 67.78,
+            "d50": 33.13,
+            "d200": 71.39,
             "cy": 13.34,
             "ny": 36.22,
             "upRatio": 97.1830985915493,
@@ -780,10 +698,60 @@ window.CHIEF_DATA = {
             "why": "두 달 평균에서 30% 넘게 떠 있습니다"
           }
         ]
+      },
+      {
+        "key": "Energy|Oil & Gas E&P",
+        "sector": "Energy",
+        "industry": "Oil & Gas E&P",
+        "count": 14,
+        "winRate": 0.3571,
+        "final": 0.033,
+        "FRANK": 75,
+        "f10": 30.43478260869566,
+        "f25": -76.13882863340564,
+        "frank25": -38,
+        "siteF10": 145.23005870034362,
+        "siteF25": -80.05257316641543,
+        "siteToday": 0.03302228601272202,
+        "d50": -3.56,
+        "d200": 1.165,
+        "d200Prev": 10.445,
+        "d200Delta": -9.280000000000001,
+        "cy": 2.395,
+        "ny": 2.775,
+        "upRatio": 53.96551724137931,
+        "coverage": 580,
+        "stage": "pullback",
+        "stageKo": "❄️ 조정 중",
+        "stageNote": "두 달 평균 아래로 내려왔습니다",
+        "flow": "pending",
+        "axes": {
+          "inflow": false,
+          "outflow": false,
+          "attention": true,
+          "broad": false
+        },
+        "members": [
+          "TPL",
+          "FANG",
+          "PNRG",
+          "GPOR",
+          "EOG",
+          "CHRD",
+          "COP",
+          "EXE",
+          "VIST",
+          "CRC",
+          "OVV",
+          "OXY",
+          "EQT",
+          "MTDR"
+        ],
+        "picks": []
       }
     ],
     "agreement": {
-      "droppedTotal": 4,
+      "droppedTotal": 2,
       "inOutflowIndustries": 0,
       "tickers": []
     },
@@ -791,61 +759,7 @@ window.CHIEF_DATA = {
   },
   "stale": false,
   "llm": {
-    "status": "done",
-    "date": "2026-10-02",
-    "headline": "지수는 아직 좋지만 사이트 판정은 반대 — 돌파 14건 중 거래량 확인은 1건",
-    "marketVerdictKo": "QQQ 는 10일선이 20일선 위에 있고 넘어선 지 10일째다. 우리 판정은 신규 진입에 괜찮은 구간이지만, 사이트 시장국면은 'BAD' 로 정반대다. 빚내서 산 주식이 1년 전보다 37% 늘어 주의선을 넘었고, 1년 평균보다 150% 넘게 오른 주도주가 2종목(MRNA·TWST) 있다.\n\n돈이 들어오는 업종은 진단·연구 한 곳뿐이다 — 그 안에서 강한 종목은 ILMN·GRAL·TWST 이고, GRAL·TWST 는 두 달 평균에서 30% 넘게 떠 있어 과열로 분류됐다. 빠지는 쪽은 금·포장식품·자동차 판매·인력파견이다. 정유(VLO·DINO)와 컴퓨터 하드웨어(DELL·P)는 돈이 들어오진 않고 기대만 오른 쪽으로 분류됐다.\n\n오늘 7주 고점을 넘은 종목은 14개인데, 돌파한 날 거래량이 기준을 넘긴 건 HURN 하나다. 눈으로 차트를 봐야 할 종목은 23개로 집계됐다. 금요일 9월 고용보고서 전이라 한 번에 크게 싣지 않는 쪽이 편하다는 게 1팀 의견이다.",
-    "todayFocus": [
-      {
-        "ticker": "HURN",
-        "reason": "10월 1일 7주 고점 $165.37 을 1.84% 넘겨 마감했고, 돌파한 날 거래량이 20일 평균의 2.65배로 14건 중 유일하게 거래량 기준을 넘겼다.",
-        "action": "$165.37 위 종가 유지 여부 · 차트확인에서 나온 기준선 $172.9 까지 2.6% 남은 것 확인"
-      },
-      {
-        "ticker": "TWST",
-        "reason": "돈이 들어오는 진단·연구 업종 안에 있고 1개월·3개월·6개월 세 기간 모두 38일째 주도 종목이다. 9월 29일 7주 고점 $185.22 를 1.53% 넘겼다.",
-        "action": "$185.22 위 종가 유지 여부 · 돌파한 날 거래량이 20일 평균의 1.83배로 기준에 못 미쳤던 점 확인"
-      },
-      {
-        "ticker": "GRAL",
-        "reason": "진단·연구 업종에 속하고 9월 25일 7주 고점 $126.81 을 4.53% 넘겼다. 다만 두 달 평균보다 71% 위로 과열로 분류됐다.",
-        "action": "$126.81 위 종가 유지 여부 · 돌파한 날 거래량이 20일 평균의 1.02배로 기준에 못 미쳤던 점 확인"
-      },
-      {
-        "ticker": "CORT",
-        "reason": "차트확인 점수가 23종목 중 가장 높다(9점). 넘어야 할 선 $117.33 까지 2.81% 남았고 최근 1주 거래량이 한 달 평균의 0.54배로 줄었다.",
-        "action": "$117.33 종가 돌파 여부 · 최근 2주 종가가 2.03% 안에서만 움직인 것이 차트에 보이는지 확인"
-      },
-      {
-        "ticker": "SIG",
-        "reason": "차트확인 8점이고 넘어야 할 선 $106.28 까지 1.91% 남았다. 1개월 기준 새로 주도권에 들어온 종목이기도 하다.",
-        "action": "$106.28 종가 돌파 여부 · 최근 1주 거래량이 한 달 평균의 0.63배로 줄어든 것 확인"
-      }
-    ],
-    "teamSummaries": {
-      "team1": "QQQ 종가가 10일·20일·50일선 위에 있고 10일선이 20일선을 넘은 지 10일째여서 신규 진입에 괜찮은 구간으로 판정됐다. 다만 빚내서 산 주식이 1년 전보다 37.2% 늘어 주의선을 넘었고, 금요일 9월 고용보고서가 금리 기대를 다시 정하는 날이다.",
-      "team2": "선정 44종목을 모두 조사했고 그중 30종목은 이전 날짜 조사분을 이어 쓴 것이다. 최근 1개월은 반도체·반도체 장비, 6개월은 보안·인프라 소프트웨어가 주도했고 세 기간 모두 강한 곳은 진단·연구(GRAL·TWST) 둘뿐이며 힘이 빠지는 쪽으로는 CRWD·PANW·DDOG·CORT 가 꼽혔다.",
-      "team3": "추적 142종목 중 82종목이 살아 있고 오늘 4종목이 빠졌다 — WGS·THC·KNSA 는 50일선 아래 3일 연속, AGCO 는 종가가 150일선 아래다. 7주 고점을 넘긴 종목은 14개인데 돌파한 날 거래량이 기준을 넘긴 건 HURN 하나뿐이고, HPE-C 는 봉이 없어 평가하지 못했다.",
-      "team4": "거래량이 튄 19건을 분류했는데 호재 근거가 확인된 건 ACN 하나다(10월 1일 장 전 분기 실적이 이익·매출 모두 예상치를 웃돌았다). 나머지는 뉴스 근거 없이 거래량만 늘어난 것이라 호재로 읽으면 안 된다.",
-      "team5": "돈이 건강정보 서비스에서 반도체 장비로 옮겨 가는 모습이고, 반도체 장비가 최근 1개월 순위 상위 1.4% 로 가장 높다(FORM·COHU·AXTI·AEHR). 정유·판매는 순위가 뒤로 밀리며 자금이 빠지는 쪽 신호가 나왔다."
-    },
-    "chartCheckNote": "CORT — 최근 석 달 중 가격 변동폭이 가장 좁고, 최근 1주 거래량이 한 달 평균의 0.54배로 줄었다. 넘어야 할 선 $117.33 까지 2.81% 남았다. 이 셋이 차트에 보이는지 확인\nSIMO — 최근 2주 흔들림이 그 전 2주의 0.76배로 줄고 1주 거래량은 한 달 평균의 0.6배다. 넘어야 할 선 $287.37 까지 4.22% 남았다\nSWKS — 최근 2주 흔들림이 그 전 2주의 0.66배로 줄었고 2주 종가가 2.64% 안에서만 움직였다. 넘어야 할 선 $85.18 까지 2.37% 남았고 1년 최고가의 92% 수준이다\nSIG — 최근 1주 거래량이 한 달 평균의 0.63배이고 2주 종가가 1.89% 안에서만 움직였다. 넘어야 할 선 $106.28 까지 1.91% 남았다\nFET — 가격 변동폭이 최근 석 달 중 가장 좁고 2주 종가가 1.33% 안에서만 움직였다. 넘어야 할 선 $84.16 까지 2.21% 남았고 1년 최고가의 94% 수준이다",
-    "caution": "눈으로 봐야 할 종목은 23개인데 여기 적은 건 상위 10개 중 5개뿐이고, HPE-C 는 가격 자료가 없어 평가하지 못했다. 거래량이 튄 19건 중 18건은 이유가 '근거 없음' 으로 남아 있고, VLO·HPE-C 의 상승 이유와 컴퓨터 하드웨어 업종의 강세 근거도 확인되지 않았다. 조사 44건 중 30건은 오늘이 아닌 지난 며칠의 조사분을 이어 쓴 것이고, 우리 지수 판정(좋음)과 사이트 시장국면(BAD)이 서로 반대라는 점도 그대로 알린다.",
-    "tomorrowWatch": "금요일 9월 고용보고서 전까지는 하루 변동폭이 커질 수 있어, 그 전에 새로 싣는 비중을 정해 두는 게 낫다. 진단·연구가 돈이 들어오는 쪽에 남아 있는지, 돌파 종목 중 거래량 기준을 넘기는 사례가 HURN 말고 더 생기는지를 보면 된다.",
-    "verified": {
-      "checked": 65,
-      "ok": 80,
-      "unverified": 2,
-      "dead": 0,
-      "stripped": 1,
-      "removed": [
-        {
-          "reason": "미래 날짜(2027-08-27 > 2026-10-02)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000055/rbrk-20260826.htm"
-        }
-      ]
-    },
-    "reusedFrom": null,
-    "reuseAll": null
+    "status": "pending",
+    "note": "LLM 리서치는 start breakout 실행 시 덧입혀집니다"
   }
 };
