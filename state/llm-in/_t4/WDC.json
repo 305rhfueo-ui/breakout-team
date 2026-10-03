@@ -1,0 +1,172 @@
+{
+ "ticker": "WDC",
+ "news": [
+  {
+   "title": "Western Digital (WDC) Stock Sinks As Market Gains: Here's Why",
+   "url": "https://www.nasdaq.com/articles/western-digital-wdc-stock-sinks-market-gains-heres-why",
+   "date": "2026-10-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Western Digital (WDC) Exceeds Market Returns: Some Facts to Consider",
+   "url": "https://www.nasdaq.com/articles/western-digital-wdc-exceeds-market-returns-some-facts-consider",
+   "date": "2026-10-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SMCI or WDC: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/smci-or-wdc-which-better-value-stock-right-now",
+   "date": "2026-10-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Western Digital (WDC) is a Top Growth Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-western-digital-wdc-top-growth-stock-long-term",
+   "date": "2026-10-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "SMCI vs. WDC: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/smci-vs-wdc-which-stock-better-value-option",
+   "date": "2026-09-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Western Digital Corporation (WDC) is Attracting Investor Attention: Here is What You Should Know",
+   "url": "https://www.nasdaq.com/articles/western-digital-corporation-wdc-attracting-investor-attention-here-what-you-should-know",
+   "date": "2026-09-30",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-14",
+   "reportDate": "2026-09-14",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526389859/d23939d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-26",
+   "reportDate": "2026-08-26",
+   "items": [
+    "3.02",
+    "8.01"
+   ],
+   "itemsKo": [
+    "3.02",
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526365796/d376254d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026053305/wdc-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-11",
+   "reportDate": "2026-06-11",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526267514/d83915d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-03",
+   "reportDate": "2026-06-02",
+   "items": [
+    "3.02",
+    "8.01"
+   ],
+   "itemsKo": [
+    "3.02",
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526254621/d106828d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-28",
+   "reportDate": "2026-05-26",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026038632/wdc-20260526.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 48.56,
+  "saleNy": 36.77,
+  "epsCy": 96.59,
+  "epsNy": 58.03,
+  "cyTrend": 8.9,
+  "nyTrend": 16.95,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    43.84,
+    45.47,
+    25.24
+   ],
+   "ni": [
+    1005.46,
+    516.35,
+    208.4
+   ],
+   "opm": [
+    41.71,
+    35.66,
+    30.1
+   ],
+   "updated": "2026-09-19 06:14:39"
+  }
+ }
+}

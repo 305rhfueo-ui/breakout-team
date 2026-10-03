@@ -506,8 +506,161 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-03",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "9월 미국 고용이 2.9만명으로 꺾였다",
+        "easy": "9월 신규 고용이 2만9천명에 그쳤다. 실업률은 4.2%로 올랐다.",
+        "whyMatters": "고용이 식으면 금리 인하 기대는 커지지만 소비는 줄어든다. 소비재·유통처럼 경기에 민감한 업종엔 부담, 금리에 민감한 기술·성장주엔 유리하다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
+            "date": "2026-10-02",
+            "quote": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "US jobs market sees sharp slowdown ahead of midterm elections",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cm2d6gg0642yo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-10-02",
+            "quote": "US jobs market sees sharp slowdown ahead of midterm elections",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "G7이 비축 석유 1억 배럴을 푼다",
+        "easy": "G7이 석유와 디젤 1억 배럴을 비축에서 풀기로 했다. 전쟁으로 연료 공급이 막힌 데 대한 대응이다.",
+        "whyMatters": "연료값이 내리면 항공·운송과 소비재에 숨통이 트인다. 반대로 정유·에너지 업종엔 가격 하락 압박이다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-10-02",
+            "quote": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "G7 nations to release diesel stocks as wars in Europe and Middle East constrain fuel supplies",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/02/diesel-oil-trump-europe-export-ban.html",
+            "date": "2026-10-02",
+            "quote": "G7 nations to release diesel stocks as wars in Europe and Middle East constrain fuel supplies",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Europe's leaders rush to release diesel from stockpiles as fuel shock hangs over U.S. midterms",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/europes-leaders-rush-to-release-diesel-from-stockpiles-as-fuel-shock-hangs-over-u-s-midterms-80bf0f38?mod=mw_rss_topstories",
+            "date": "2026-10-02",
+            "quote": "Europe's leaders rush to release diesel from stockpiles as fuel shock hangs over U.S. midterms",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Western Digital·Seagate 주가가 크게 빠졌다",
+        "easy": "저장장치 업체 Western Digital과 Seagate 주가가 하루에 크게 떨어졌다. 두 종목이 같은 방향으로 밀렸다.",
+        "whyMatters": "저장장치를 포함한 반도체 업종의 단기 심리가 약해진다. AI 데이터센터 공급망에 묶인 종목들의 흔들림이 커질 수 있다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Why Western Digital and Seagate are seeing big stock drops today",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/why-western-digital-and-seagate-are-seeing-big-stock-drops-today-6b16d95e?mod=mw_rss_topstories",
+            "date": "2026-10-02",
+            "quote": "Why Western Digital and Seagate are seeing big stock drops today",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "Cerebras가 상장 후 최저가로 내렸다",
+        "easy": "Cerebras 주가가 한 주에 20% 떨어져 상장 후 최저가가 됐다. 보호예수 해제와 Nvidia 관련 압박이 겹쳤다.",
+        "whyMatters": "AI 반도체 신규 상장주에 대한 투자심리가 식는다. 기존 선두주와 갓 상장한 종목 사이의 온도 차가 벌어질 수 있다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/02/cerebras-stock-hits-post-ipo-low-on-nvidia-pressure-lockup-expiration.html",
+            "date": "2026-10-02",
+            "quote": "Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "테슬라 전기차 판매가 예상을 넘었다",
+        "easy": "테슬라가 월가 예상보다 많은 전기차를 팔았다. 발표 뒤 주가가 올랐다.",
+        "whyMatters": "전기차와 자동차 업종에 긍정적이다. 배터리·전기차 부품 쪽으로 관심이 옮겨갈 수 있다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Tesla sold a lot more EVs than Wall Street expected, and the stock is surging",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/tesla-ev-sales-beat-wall-streets-expectations-again-and-the-stock-jumps-294a4f53?mod=mw_rss_topstories",
+            "date": "2026-10-02",
+            "quote": "Tesla sold a lot more EVs than Wall Street expected, and the stock is surging",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "법무부가 파월 수사를 재개하지 않는다",
+        "easy": "법무부가 파월 전 연준 의장에 대한 형사 수사를 다시 열지 않겠다고 밝혔다.",
+        "whyMatters": "연준을 둘러싼 정치 불확실성이 줄어든다. 금리에 민감한 기술·금융 업종에 작은 안도 요인이다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "DOJ says it will not reopen criminal probe into former Fed Chair Powell",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/02/doj-says-it-will-not-reopen-criminal-probe-into-former-fed-chair-powell.html",
+            "date": "2026-10-02",
+            "quote": "DOJ says it will not reopen criminal probe into former Fed Chair Powell",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "QQQ는 749.58에 마감했고 10일선이 20일선 위에서 함께 오르는 중이다. 새로 사기엔 나쁘지 않은 구간이지만, 빚내서 산 주식이 1년 전보다 37.2% 늘어 과열 신호도 같이 켜져 있다. 이번 주는 고용 둔화 뒤 금리 기대가 어느 쪽으로 가는지 하나만 보면 된다.",
+    "keyRisks": [
+      "고용 둔화: 9월 신규 고용이 크게 줄어 소비 관련 업종이 먼저 흔들릴 수 있다.",
+      "연료값 급등: 디젤 가격 상승이 물가를 다시 밀어올릴 수 있다.",
+      "기술 쏠림: 주도 종목의 62%가 기술이라 한 업종이 꺾이면 지수도 꺾인다."
+    ],
+    "easySummary": [
+      "지수 흐름은 아직 상승 쪽이다. 짧은 이평선이 긴 이평선 위에 있다.",
+      "9월 고용이 꺾였고 연료값이 올라 물가 걱정이 다시 나왔다.",
+      "저장장치·AI 반도체는 밀렸고 테슬라는 올랐다. 주도주는 기술에 몰려 있다."
+    ],
+    "candidateCount": 16,
+    "verified": {
+      "checked": 81,
+      "ok": 107,
+      "unverified": 2,
+      "dead": 0,
+      "stripped": 0,
+      "removed": []
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-03"
   }
 };

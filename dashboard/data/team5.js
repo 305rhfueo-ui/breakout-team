@@ -521,7 +521,7 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "carried",
+    "status": "done",
     "industries": [
       {
         "key": "Technology|Semiconductor Equipment & Materials",
@@ -562,8 +562,8 @@ window.TEAM5_DATA = {
           ],
           "reason": ""
         },
-        "researchedOn": "2026-10-02",
-        "carried": true
+        "researchedOn": "2026-10-03",
+        "carried": false
       },
       {
         "key": "Healthcare|Health Information Services",
@@ -618,8 +618,8 @@ window.TEAM5_DATA = {
           "leadFixed": true
         },
         "leadOriginal": "건강정보 서비스는 디지털 건강관리 플랫폼 같은 회사들이 모인 업종입니다. 최근 3~6개월 초과수익이 커서 업종 순위가 한 달 새 17계단 올랐습니다. 다만 대표 종목 Hinge Health의 실적 이후 상승이 중심이고, 최근 한 달은 숨 고르기입니다.",
-        "researchedOn": "2026-10-02",
-        "carried": true
+        "researchedOn": "2026-10-03",
+        "carried": false
       },
       {
         "key": "Consumer Cyclical|Department Stores",
@@ -1599,7 +1599,8 @@ window.TEAM5_DATA = {
       ],
       "caution": "반도체 장비는 업황 사이클을 타는 업종이라 AI 칩 수요가 꺾이면 강세가 빨리 식을 수 있고, 건강정보 서비스는 실적 발표 효과가 지나간 일시적 조정일 수도 있습니다."
     },
-    "summaryResearchedOn": "2026-10-02"
+    "summaryResearchedOn": "2026-10-03",
+    "reusedFrom": null
   },
   "flow": {
     "baseline": {
@@ -7914,5 +7915,15 @@ window.TEAM5_DATA = {
         ]
       }
     ]
+  },
+  "research_coverage": {
+    "done": 17,
+    "total": 11,
+    "cap": 6,
+    "pending": 0,
+    "failed": 0,
+    "carried": 15,
+    "ineligible": 0,
+    "note": "그중 15업종은 최근 조사분을 이월했습니다(조사일 표기)."
   }
 };

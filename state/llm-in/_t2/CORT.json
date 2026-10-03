@@ -16,7 +16,7 @@
    "ny30": 3.20667
   },
   "newHigh52": false,
-  "bbCenterBrk5d": true,
+  "bbCenterBrk5d": false,
   "fs": {
    "sale": [
     31.74,
@@ -46,7 +46,7 @@
   "top2Streak": {
    "m1": 0,
    "m3": 0,
-   "m6": 46
+   "m6": 47
   }
  },
  "detail": {
