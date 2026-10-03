@@ -66,6 +66,23 @@ const t6 = { generated: '2026-09-28', sessionDate: '2026-09-25', regime: 'green'
   });
   await ok('실적 달력을 못 받은 날은 경고한다', async () => assert.ok(nt.watchMessage({ ...t6, earningsOk: false }).includes('실적 달력을 받지 못했습니다')));
 
+  console.log('\n[3] 심층 분석 요약 (2026-10-03)');
+  const deepPlans = Array.from({ length: 10 }, (_, i) => ({ ticker: `T${i}`, name: `회사${i}`, grade: 'A', watch: true, pivot: 100 + i, distToPivotPct: -2.5,
+    deep: i === 9 ? { status: 'failed', note: '심층 분석 실패' } : { status: 'done', researchedOn: '2026-10-03', carried: i === 8,
+      lead: '이 회사는 AI 서버용 부품을 만들어 분기 매출이 1년 전보다 55% 늘었다. 다만 증자 가능성이 있다. '.repeat(3),
+      entryChecklist: ['피벗을 거래량 20일 평균 2배 이상으로 종가 돌파하는지 '.repeat(5), '둘째'] } }));
+  const dm = nt.deepMessage({ ...t6, plans: deepPlans });
+  await ok('10종목이어도 텔레그램 한도(4000자) 안이다', async () => assert.ok(dm.length <= 4000, `${dm.length}자`));
+  await ok('종목당 결론 한 문장 + 확인할 것 하나, 실패는 실패로', async () => {
+    assert.ok(dm.includes('T0 회사0 (A) · 피벗 100 (-2.5%)'), dm);
+    assert.ok(dm.includes('  이 회사는 AI 서버용 부품을 만들어 분기 매출이 1년 전보다 55% 늘었다.') && !dm.includes('다만 증자 가능성'), '첫 문장만');
+    assert.ok(dm.includes('확인할 것: 피벗을'), dm);
+    assert.ok(dm.includes('T8 회사8 (A) · 피벗 108 (-2.5%) · 2026-10-03 조사분'), '이월 표기');
+    assert.ok(dm.includes('T9 회사9 (A)') && dm.includes('분석 실패'), '실패 표기');
+    assert.ok(dm.startsWith('🔎 2026-09-28 관심 종목 심층 분석 9/10개'), dm.split('\n')[0]);
+  });
+  await ok('수량(N주)·금액은 쓰지 않는다', async () => assert.ok(!/\d+주\b/.test(dm) && !/\$\s?\d/.test(dm)));
+
   global.fetch = realFetch;
   if (saved.t) process.env.TELEGRAM_TOKEN = saved.t; else delete process.env.TELEGRAM_TOKEN;
   if (saved.c) process.env.TELEGRAM_CHAT_ID = saved.c; else delete process.env.TELEGRAM_CHAT_ID;

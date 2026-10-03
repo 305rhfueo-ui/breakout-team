@@ -345,7 +345,7 @@ async function main() {
 
   // ── 0) 재사용 표기 ──
   const reuse = {};
-  for (const k of ['team1', 'team2', 'team4', 'team5', 'chief']) {
+  for (const k of ['team1', 'team2', 'team4', 'team5', 'team6', 'chief']) {
     const src = llm[k] && llm[k]._reusedFrom;
     if (src) reuse[k] = src;
   }
@@ -503,6 +503,35 @@ async function main() {
     }
   }
 
+  // 6팀 심층 분석 (2026-10-03) — 관심 종목 plans[].deep 에 붙인다. 실장에게는 넘기지 않는다(차트 관찰이 실장 판정으로 새지 않게).
+  let deepT6 = null;
+  if (payload.team6) {
+    const f = path.join(paths.dashboardData, 'team6.js');
+    const d = loadWindowData(f, 'TEAM6_DATA');
+    if (d) {
+      guardDate(d, '6팀');
+      const byTicker = new Map((payload.team6.items || []).map((x) => [x.ticker, x]));
+      const failedSet = new Set(payload.team6.failed || []);
+      let done = 0, failedCount = 0, carried = 0;
+      for (const p of d.plans || []) {
+        if (!p.watch) continue;
+        const r = byTicker.get(p.ticker);
+        if (r) { p.deep = { status: 'done', ...r, researchedOn: dateStr, session: d.sessionDate || null, carried: false }; done++; }
+        else if (failedSet.has(p.ticker)) {
+          // 전날 분석이 이월돼 있으면 그걸 두고 실패만 표시한다
+          if (p.deep && p.deep.status === 'done' && p.deep.carried) { p.deep.failedToday = true; done++; carried++; }
+          else { p.deep = { status: 'failed', note: '심층 분석 실패 (에이전트 오류) — 다음 실행에서 다시 시도합니다' }; failedCount++; }
+        } else if (p.deep && p.deep.status === 'done' && p.deep.carried) { done++; carried++; }
+      }
+      recordResearched(rc, 'team6', [...byTicker.keys()], dateStr);
+      const watchN = (d.plans || []).filter((p) => p.watch).length;
+      d.deep_coverage = coverageOf({ done, failed: failedCount, carried, total: watchN, cap: (payload.team6.coverage || {}).cap ?? 10 });
+      writeWindowData(f, 'TEAM6_DATA', d);
+      merged.push(`team6(심층 ${done - carried}${carried ? ` · 이월 ${carried}` : ''}${failedCount ? ` · 실패 ${failedCount}` : ''})`);
+      deepT6 = d;
+    }
+  }
+
   if (payload.chief) {
     const f = path.join(paths.dashboardData, 'chief.js');
     const d = loadWindowData(f, 'CHIEF_DATA');
@@ -596,7 +625,7 @@ async function main() {
 
   // ── 에이전트 실패를 로그에 그대로 남긴다 ──
   const fails = [];
-  for (const [k, label] of [['team1', '1팀'], ['team2', '2팀'], ['team4', '4팀'], ['team5', '5팀'], ['chief', '실장']]) {
+  for (const [k, label] of [['team1', '1팀'], ['team2', '2팀'], ['team4', '4팀'], ['team5', '5팀'], ['team6', '6팀 심층'], ['chief', '실장']]) {
     const p = payload[k];
     if (!p) continue;
     if (p.error === 'agent_failed') fails.push(`${label} 전체`);
@@ -614,6 +643,16 @@ async function main() {
     const { commitAndPush } = require('./update-github');
     const r = commitAndPush(dateStr, `LLM 리서치 병합 (${merged.join('·')})`);
     if (r.pushed) say('SYSTEM', '웹사이트: https://305rhfueo-ui.github.io/breakout-team/ (1~2분 뒤 반영)');
+    // 심층 분석 요약 텔레그램 — 하루 한 번 (재실행 시 중복 금지, run-breakout 의 notified-watch 와 같은 방식)
+    if (deepT6 && (deepT6.plans || []).some((p) => p.watch && p.deep)) {
+      const nt = require('./lib/notify');
+      const flag = path.join(paths.cacheDir, 'notified-deep.json');
+      if (nt.configured() && (readJson(flag, {}).date !== dateStr)) {
+        const res = await nt.notify(nt.deepMessage(deepT6));
+        if (res.ok) { writeJson(flag, { date: dateStr }); say('T6', '심층 분석 요약을 텔레그램으로 보냈습니다'); }
+        else say('WARN', `텔레그램 전송 실패: ${res.error}`);
+      }
+    }
   }
 }
 

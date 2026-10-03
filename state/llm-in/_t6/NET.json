@@ -1,0 +1,393 @@
+{
+ "ticker": "NET",
+ "date": "2026-10-03",
+ "session": "2026-10-02",
+ "plan": {
+  "ticker": "NET",
+  "name": null,
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "grade": "A",
+  "state": "pre",
+  "asOf": "2026-10-02",
+  "price": 349.07,
+  "pivot": 367.43,
+  "pivotDate": "2026-09-24",
+  "stop": 349.66,
+  "riskPerSharePct": 4.84,
+  "weightPct": 10.3,
+  "weightCapped": false,
+  "distToPivotPct": -5,
+  "distToPivotAdr": -0.98,
+  "extensionAdr": -0.16,
+  "chase": false,
+  "adrPct": 5.09,
+  "ma10": 351.84,
+  "dollarVol20M": 1037.4,
+  "liquid": true,
+  "reasons": [
+   "선행 상승 +73%",
+   "베이스 2.8주",
+   "깊이 15.9%",
+   "저점 상승 1회",
+   "진폭 0.9배 · 10일 종가폭 0.6 ADR",
+   "10일선 -0.2 ADR · 20일선 +0.9 ADR",
+   "20일선 기울기 +4.82%"
+  ],
+  "fails": [],
+  "metrics": {
+   "baseBars": 14,
+   "baseWeeks": 2.8,
+   "depthPct": 15.9,
+   "priorMovePct": 73.1,
+   "higherLows": 1,
+   "contraction": 0.9,
+   "closeRange10Adr": 0.6,
+   "surf10": -0.16,
+   "surf20": 0.92,
+   "slope20": 4.82,
+   "baseLow": 309,
+   "lastSwingLow": 338.67
+  },
+  "catalyst": null,
+  "flow": {
+   "flow": "pending",
+   "stageKo": "💤 미형성",
+   "frank25": 4
+  },
+  "earnings": null,
+  "blocked": null,
+  "shadowBook": null,
+  "watch": true,
+  "score": 65
+ },
+ "site": null,
+ "flow": {
+  "FRANK": 2,
+  "frank25": 4,
+  "d50": 2.36,
+  "d200": 12.59,
+  "d200Delta": -6.41,
+  "cy": 0.18,
+  "ny": 0.31,
+  "upRatio": 79.09738717339667,
+  "coverage": 2105,
+  "winRate": 0.7879,
+  "stageKo": "💤 미형성",
+  "flow": "pending"
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-03",
+  "nameKo": "클라우드플레어",
+  "nameEn": "CLOUDFLARE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001477333&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 696061000,
+     "profit": -205696000,
+     "netIncome": -169981000,
+     "margin": -29.6,
+     "yoy": {
+      "revenue": 35.9,
+      "profit": -205.8,
+      "netIncome": -237,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 639755000,
+     "profit": -61994000,
+     "netIncome": -22927000,
+     "margin": -9.7,
+     "yoy": {
+      "revenue": 33.5,
+      "profit": -16.4,
+      "netIncome": 40.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 614507000,
+     "profit": -49234000,
+     "netIncome": -12077000,
+     "margin": -8,
+     "yoy": {
+      "revenue": 33.6,
+      "profit": -41.8,
+      "netIncome": 6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 562027000,
+     "profit": -37460000,
+     "netIncome": -1290000,
+     "margin": -6.7,
+     "yoy": {
+      "revenue": 30.7,
+      "profit": -21.6,
+      "netIncome": 91.6,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here's Why Cloudflare (NET) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-cloudflare-net-strong-momentum-stock",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cloudflare (NET) Falls More Steeply Than Broader Market: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/cloudflare-net-falls-more-steeply-broader-market-what-investors-need-know",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cloudflare Partners With Deutsche Telekom To Boost Internet Security Of European Enterprises",
+     "url": "https://www.nasdaq.com/articles/cloudflare-partners-deutsche-telekom-boost-internet-security-european-enterprises",
+     "date": "2026-09-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Can AI Security Demand Boost Cloudflare's Zero Trust & SASE Growth?",
+     "url": "https://www.nasdaq.com/articles/can-ai-security-demand-boost-cloudflares-zero-trust-sase-growth",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Investors Heavily Search Cloudflare, Inc. (NET): Here is What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/investors-heavily-search-cloudflare-inc-net-here-what-you-need-know",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can Unified Platform Strategy Boost Cloudflare's Long-Term Growth?",
+     "url": "https://www.nasdaq.com/articles/can-unified-platform-strategy-boost-cloudflares-long-term-growth",
+     "date": "2026-09-25",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why the Market Dipped But Cloudflare (NET) Gained Today",
+     "url": "https://www.nasdaq.com/articles/why-market-dipped-cloudflare-net-gained-today-0",
+     "date": "2026-09-24",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-13",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "3.02",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1477333/000095010326012340/dp251721_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000053/cloud-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-30",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000042/cloud-20260630.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000033/cloud-20260507.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-10",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000009/cloud-20260206.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-10",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000008/cloud-20260210.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "chart": {
+  "lastBar": "2026-10-02",
+  "numbers": {
+   "price": 349.07,
+   "ma20": 332.67,
+   "ma50": 307.73,
+   "ma150": 251.67,
+   "distMA50": 13.44,
+   "periodHigh": 367.43,
+   "pullbackFromHigh": -5,
+   "volRatio20": 0.91,
+   "dryUpRatio": 0.85
+  },
+  "last10": [
+   {
+    "d": "2026-09-21",
+    "o": 327,
+    "h": 352.45,
+    "l": 321.85,
+    "c": 351.67,
+    "v": 3885700,
+    "clsPos": 97,
+    "gapPct": 1.05
+   },
+   {
+    "d": "2026-09-22",
+    "o": 352.46,
+    "h": 357.1,
+    "l": 345.3,
+    "c": 353,
+    "v": 3315100,
+    "clsPos": 65,
+    "gapPct": 0.22
+   },
+   {
+    "d": "2026-09-23",
+    "o": 355.4,
+    "h": 364.23,
+    "l": 351,
+    "c": 352.33,
+    "v": 2918800,
+    "clsPos": 10,
+    "gapPct": 0.68
+   },
+   {
+    "d": "2026-09-24",
+    "o": 349.8,
+    "h": 367.43,
+    "l": 347.88,
+    "c": 358.82,
+    "v": 3159100,
+    "clsPos": 56,
+    "gapPct": -0.72
+   },
+   {
+    "d": "2026-09-25",
+    "o": 360.8,
+    "h": 364,
+    "l": 344.27,
+    "c": 349.02,
+    "v": 3168800,
+    "clsPos": 24,
+    "gapPct": 0.55
+   },
+   {
+    "d": "2026-09-28",
+    "o": 339.25,
+    "h": 357,
+    "l": 338.67,
+    "c": 353.99,
+    "v": 2821900,
+    "clsPos": 84,
+    "gapPct": -2.8
+   },
+   {
+    "d": "2026-09-29",
+    "o": 351.92,
+    "h": 356.72,
+    "l": 348.01,
+    "c": 352.26,
+    "v": 2156500,
+    "clsPos": 49,
+    "gapPct": -0.58
+   },
+   {
+    "d": "2026-09-30",
+    "o": 351,
+    "h": 357.64,
+    "l": 346.15,
+    "c": 347.28,
+    "v": 2589900,
+    "clsPos": 10,
+    "gapPct": -0.36
+   },
+   {
+    "d": "2026-10-01",
+    "o": 350.01,
+    "h": 353.84,
+    "l": 342.11,
+    "c": 351,
+    "v": 2774300,
+    "clsPos": 76,
+    "gapPct": 0.79
+   },
+   {
+    "d": "2026-10-02",
+    "o": 351.8,
+    "h": 354.58,
+    "l": 345.01,
+    "c": 349.07,
+    "v": 2834127,
+    "clsPos": 42,
+    "gapPct": 0.23
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/NET-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/NET-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선을 넘은 지 11일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

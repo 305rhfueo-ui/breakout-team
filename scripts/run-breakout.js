@@ -641,39 +641,15 @@ async function main() {
       ttl: Number(process.env.DETAIL_TTL || 10),
       metric: (q) => q.bestPct || 0,
     }).slice(0, cap);
-    const { getQuarterlyFinancials, getFilings } = require('./data/sec-edgar');
-    const { getTickerNews } = require('./data/news-rss');
-    const kr = require('./data/kr-reports');
+    const { fetchDetail } = require('./lib/detail');
     let okFin = 0, okNews = 0, okKr = 0;
 
     for (let i = 0; i < targets.length; i++) {
       const q = targets[i];
-      const detail = { fetchedAt: dateStr };
-      try {
-        const info = await kr.lookupTicker(q.ticker);
-        detail.nameKo = info && info.ok ? info.nameKo : null;
-        detail.nameEn = info && info.ok ? info.nameEn : null;
-        detail.infomaxCode = info && info.ok ? info.code : null;
-      } catch (e) { /* 매핑 실패해도 진행 */ }
-      try {
-        const f = await getQuarterlyFinancials(q.ticker);
-        if (f.ok) { detail.financials = f; okFin++; }
-        else detail.financialsError = f.error;
-      } catch (e) { detail.financialsError = e.message; }
-      try {
-        const nw = await getTickerNews(q.ticker, { nameHint: detail.nameEn || null, limit: 8 });
-        if (nw.ok) { detail.news = nw; okNews++; }
-      } catch (e) { /* noop */ }
-      try {
-        const fl = await getFilings(q.ticker, { forms: ['8-K'], limit: 6 });
-        if (fl.ok) detail.filings = fl.filings;
-      } catch (e) { /* noop */ }
-      try {
-        const rp = await kr.getReports(q.ticker, { months: 12 });
-        if (rp.ok) { detail.krReports = { total: rp.total, reports: rp.reports.slice(0, 10), note: rp.note }; okKr++; }
-      } catch (e) { /* noop */ }
-      // ⚠️ 하위 수집이 전부 실패한 종목은 캐시 도장을 찍지 않는다 — 찍으면 10거래일 동안 근거 0 인 채 LLM 대상이 된다.
-      const gotAny = !!(detail.financials || detail.news || detail.filings || detail.krReports);
+      const { detail, gotAny } = await fetchDetail(q.ticker, dateStr);
+      if (detail.financials) okFin++;
+      if (detail.news) okNews++;
+      if (detail.krReports) okKr++;
       if (gotAny) { q.detail = detail; rc.detail[q.ticker] = dateStr; }
       else { q.detailFailed = { at: dateStr, error: detail.financialsError || '수집 실패' }; }
       if ((i + 1) % 5 === 0) process.stdout.write(`\r  팝업 상세 ${i + 1}/${targets.length}   `);
@@ -770,6 +746,10 @@ async function main() {
     for (const p of [...built.plans, ...built.post]) { const r = reads.get(p.ticker); if (r) p.lastRead = r; }
     // 밤 루프(paper-trader)가 채우는 칸은 지난 파일에서 이어받는다
     const prev6 = readPrevWindow('team6.js', 'TEAM6_DATA') || {};
+    // 심층 분석(build-chief-report 가 붙이는 plans[].deep)도 이월한다 — 안 하면 TTL 안이라 건너뛴 날 카드가 빈다.
+    // deep.session 이 오늘 세션과 같으면 prepare-deepdive-args 가 재조사하지 않는다(휴장일·같은 날 재실행).
+    const prevDeep = new Map((prev6.plans || []).filter((p) => p.deep && p.deep.status === 'done').map((p) => [p.ticker, p.deep]));
+    for (const p of built.plans) { const d = prevDeep.get(p.ticker); if (p.watch && d) p.deep = { ...d, carried: true }; }
     team6 = {
       generated: dateStr, sessionDate, rulesVersion: rules.version, regime,
       riskPct: acct.riskPct, stopAdr: rules.risk.stopAdr, nearAdr: rules.setup.preMaxBelowPivotAdr, paceMin: rules.entry.paceMin,

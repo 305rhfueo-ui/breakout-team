@@ -24,24 +24,8 @@ function loadWindowData(file, varName) {
   return JSON.parse(m[1]);
 }
 
-// _t2/{TICKER}.json 에 넣을 detail — 에이전트가 안 쓰는 키를 뺀다 (파일 20~30% 절감)
-function slimDetail(d) {
-  if (!d) return null;
-  const out = { fetchedAt: d.fetchedAt, nameKo: d.nameKo || null, nameEn: d.nameEn || null };
-  if (d.financials && d.financials.ok) {
-    const f = d.financials;
-    out.financials = { profitLabel: f.profitLabel, marginLabel: f.marginLabel, unit: f.unit, source_url: f.source_url,
-      quarters: (f.quarters || []).slice(0, 4).map((q) => ({ periodEnd: q.periodEnd, derived: q.derived, revenue: q.revenue, profit: q.profit, netIncome: q.netIncome, margin: q.margin, yoy: q.yoy })) };
-  } else if (d.financialsError) out.financialsError = d.financialsError;
-  if (d.news && Array.isArray(d.news.items)) {
-    out.news = { items: d.news.items.filter((x) => x.direct !== false).slice(0, 8).map((x) => ({ title: x.title, url: x.url, date: x.date, publisher: x.publisher })) };
-  }
-  if (Array.isArray(d.filings)) out.filings = d.filings.slice(0, 6).map((f) => ({ form: f.form, filingDate: f.filingDate, itemsKo: f.itemsKo, isEarnings: f.isEarnings, url: f.url }));
-  if (d.krReports && Array.isArray(d.krReports.reports)) {
-    out.krReports = { total: d.krReports.total, reports: d.krReports.reports.slice(0, 8).map((r) => ({ date: r.date, broker: r.broker, analyst: r.analyst, title: r.title, summary: r.summary, pdfUrl: r.pdfUrl })) };
-  }
-  return out;
-}
+// _t2/{TICKER}.json 에 넣을 detail — 에이전트가 안 쓰는 키를 뺀다 (lib/detail.js 로 이동, 6팀 심층 분석과 공용)
+const { slimDetail } = require('./lib/detail');
 
 async function main() {
   loadEnv();

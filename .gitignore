@@ -7,3 +7,6 @@ state/bars-cache/
 dashboard/data/series/*.tmp*
 *.tmp*
 .notebooklm-local.md
+
+# 6팀 심층 분석용 차트 PNG (CACHE_DIR 에서 복사한 사본 — 공개 저장소에 올리지 않는다)
+state/llm-in/_t6/*.png

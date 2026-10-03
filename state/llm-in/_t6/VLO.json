@@ -1,0 +1,507 @@
+{
+ "ticker": "VLO",
+ "date": "2026-10-03",
+ "session": "2026-10-02",
+ "plan": {
+  "ticker": "VLO",
+  "name": "발레로 에너지",
+  "sector": "Energy",
+  "industry": "Oil & Gas Refining & Marketing",
+  "grade": "B",
+  "state": "pre",
+  "asOf": "2026-10-02",
+  "price": 406.3,
+  "pivot": 419.04,
+  "pivotDate": "2026-09-21",
+  "stop": 401.38,
+  "riskPerSharePct": 4.21,
+  "weightPct": 11.9,
+  "weightCapped": false,
+  "distToPivotPct": -3.04,
+  "distToPivotAdr": -0.7,
+  "extensionAdr": 0.95,
+  "chase": false,
+  "adrPct": 4.35,
+  "ma10": 389.59,
+  "dollarVol20M": 1554.8,
+  "liquid": true,
+  "reasons": [
+   "선행 상승 +80%",
+   "베이스 3.6주",
+   "깊이 12.9%",
+   "✗ 저점 상승 0회",
+   "진폭 1.33배 · 10일 종가폭 1.8 ADR",
+   "10일선 +0.9 ADR · 20일선 +0.9 ADR",
+   "20일선 기울기 +2.22%"
+  ],
+  "fails": [
+   "higherLows"
+  ],
+  "metrics": {
+   "baseBars": 18,
+   "baseWeeks": 3.6,
+   "depthPct": 12.9,
+   "priorMovePct": 80.1,
+   "higherLows": 0,
+   "contraction": 1.33,
+   "closeRange10Adr": 1.8,
+   "surf10": 0.95,
+   "surf20": 0.86,
+   "slope20": 2.22,
+   "baseLow": 364.96,
+   "lastSwingLow": 364.96
+  },
+  "catalyst": null,
+  "flow": {
+   "flow": "leading",
+   "stageKo": "⚠️ 후반 가속",
+   "frank25": 0
+  },
+  "earnings": null,
+  "blocked": null,
+  "shadowBook": null,
+  "watch": true,
+  "score": 62
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.11573655533073131,
+    "pct": 91.67847025495752
+   },
+   "m3": {
+    "v": 0.44951404779456877,
+    "pct": 98.54815864022662
+   },
+   "m6": {
+    "v": 0.7250928945310111,
+    "pct": 94.93626062322946
+   }
+  },
+  "ret1m": 11.57,
+  "ret3m": 44.95,
+  "ret6m": 72.51,
+  "marketCap": "111.60B",
+  "volx": null,
+  "volSurgeWk": 0.84,
+  "high52": 97.48,
+  "newHigh52": false,
+  "adr": 4.3,
+  "div50": 15.74,
+  "div200": 58.52,
+  "targetStatus": true,
+  "saleCy": 23.04,
+  "saleNy": -13.51,
+  "epsCy": 348.52,
+  "epsNy": -20.06,
+  "cyTrend": 11.54,
+  "nyTrend": 26.94,
+  "est": {
+   "cyCur": 47.58835,
+   "cy30": 42.66375,
+   "nyCur": 38.04043,
+   "ny30": 29.96796
+  },
+  "fs": {
+   "sale": [
+    48.8,
+    7.02,
+    -1.25
+   ],
+   "ni": [
+    421.01,
+    "흑자전환",
+    308.33
+   ],
+   "opm": [
+    11.68,
+    5.35,
+    5.19
+   ],
+   "updated": "2026-09-08 10:34:13"
+  },
+  "qualifiedBy": [
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-09-24",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 7,
+   "m6": 0
+  }
+ },
+ "flow": {
+  "FRANK": 4,
+  "frank25": 0,
+  "d50": 10.52,
+  "d200": 45.35,
+  "d200Delta": 2.6200000000000045,
+  "cy": 11.54,
+  "ny": 25.6,
+  "upRatio": 84.32203389830508,
+  "coverage": 236,
+  "winRate": 1,
+  "stageKo": "⚠️ 후반 가속",
+  "flow": "leading"
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-03",
+  "nameKo": "발레로 에너지",
+  "nameEn": "VALERO ENERGY CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001035002&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 44476000000,
+     "profit": 5196000000,
+     "netIncome": 3720000000,
+     "margin": 11.7,
+     "yoy": {
+      "revenue": 48.8,
+      "profit": 421.2,
+      "netIncome": 421,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 32381000000,
+     "profit": 1731000000,
+     "netIncome": 1263000000,
+     "margin": 5.3,
+     "yoy": {
+      "revenue": 7,
+      "profit": 292.3,
+      "netIncome": 312.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 30372000000,
+     "profit": 1575000000,
+     "netIncome": 1134000000,
+     "margin": 5.2,
+     "yoy": {
+      "revenue": -1.2,
+      "profit": 352.6,
+      "netIncome": 303.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 32168000000,
+     "profit": 1509000000,
+     "netIncome": 1095000000,
+     "margin": 4.7,
+     "yoy": {
+      "revenue": -2.2,
+      "profit": 197.6,
+      "netIncome": 200.8,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Will Valero Energy (VLO) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-valero-energy-vlo-beat-estimates-again-its-next-earnings-report",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Valero Energy (VLO) is a Top-Ranked Growth Stock: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/valero-energy-vlo-top-ranked-growth-stock-should-you-buy-0",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Valero Energy (VLO) is a Strong Value Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-valero-energy-vlo-strong-value-stock",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "What are the Prospects for Valero Energy's Refining Operations?",
+     "url": "https://www.nasdaq.com/articles/what-are-prospects-valero-energys-refining-operations",
+     "date": "2026-09-29",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-18",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1035002/000162828026062625/vlo-20260917.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1035002/000162828026050822/vlo-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-16",
+    "itemsKo": [
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1035002/000162828026048495/vlo-20260716.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-08",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1035002/000162828026032765/vlo-20260507.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1035002/000162828026028602/vlo-20260430.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-09",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1035002/000119312526098770/d109706d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 12,
+   "reports": [
+    {
+     "date": "2026-09-16",
+     "broker": "iM증권",
+     "analyst": "전유진",
+     "title": "[발레로 에너지 (NYS:VLO)] 정제마진 강세 속 Gulf Coast 최대 정유사로 고마진 향유",
+     "summary": "- 동사는 업스트림과 석유화학 등의 사업을 영위하지 않는 대표적인 순수 정유사로, 현재 미국에 250만b/d 정제설비를 운영하고 있다.- 동사 정제설비의 61%는 Gulf Coast에 밀집되어 있는데, 경쟁사들이 약 20~40% 그치는  것  대비  매우  높은  수준이다.  해당  지역은  주요  파이프라인과  터미널이 집적되어 있어 내수운송과 원유 수입, 정제품/석유화학 수출 등이 용이한 곳이다- 이 같은 지리적 이점은 동사 원유 조달 경쟁력의 근거가 된다. 중질유 캐나다산은 Keystone 파이프라인을 통해 Port Arthur까지 연결되고, 베네수엘라와 중남미산 또한  멕시코만을  거쳐  단기에  도입된다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmzezgggekgmcgcgxecci.pdf"
+    },
+    {
+     "date": "2026-09-15",
+     "broker": "메리츠증권",
+     "analyst": "노우호",
+     "title": "[발레로 에너지 (NYS:VLO)] 정유업 = Printing Money",
+     "summary": "- 글로벌 정유설비 공급 여력이 제한적인 상황에 중동 및 러시아의 공급 차질이 더해지며 정제마진 강세를 견인- 미국 정유사 가동률이 98%임에도 디젤, 휘발유 재고 수준은 최근 10개년 최저 수준 감소하는 타이트한 공급 여건- 2Q26 주주환원 규모는 $2.6bn으로 조정 영업현금흐름의 59% 차지. 경영진은 변동성 완화 시 주주환원 확대 검토",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmkglqgqeclzzgcgxecci.pdf"
+    },
+    {
+     "date": "2026-09-03",
+     "broker": "iM증권",
+     "analyst": "전유진",
+     "title": "[발레로 에너지 (NYS:VLO)] 정제마진 강세 속 Gulf Coast 최대 정유사로 고마진 향유",
+     "summary": "- 동사는 업스트림과 석유화학 등의 사업을 영위하지 않는 대표적인 순수 정유사이다. 현재 미국에 운영 중인 정제설비는 250만b/d 규모로 미국 전체 설비의 약 15%를 차지한다.- 동사 미국 정제설비의 61%는 Gulf Coast 지역에 밀집되어 있는데 이는 주요 경쟁사들이 20~40% 내외 그치는 것과 비교하면 매우 높은 수준이다(Marathon 42%, Phillips 27%, PBF Energy 18% 등). Gulf Coast는 주요 파이프라인과 터미널이 집적돼 있어 내수 운송 뿐만 아니라 원유 수입, 정제품/석유화학 수출 등이 용이한 곳이다.- 동사는 중장기 주주환원 정책으로 EBITDA 50% 이상을 목표로 하고, 배당과 자사주 매입 모두 적극적으로 활용하고 있다. 2012년 이후 배당은 한번도 줄이지 않으며 점진적으로 인상했고 자사주도 매년 일정 물량씩 매입함으로써 실질적인 EPS 개선 효과를 이끌었다. 참고로 정유업황이 황금기에 진입했던 COVID 이후에는 자사주매입 규모를 평년보다 더 늘려 2025년 기준 동사 유통주식수는 2021년 대비 27% 감소했다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllimcicmgqllzgcgxecci.pdf"
+    },
+    {
+     "date": "2026-08-28",
+     "broker": "신한투자증권",
+     "analyst": "이진명, 김명주",
+     "title": "[발레로 에너지 (NYS:VLO)] 공급 부족이 드러낸 정제자산 경쟁력",
+     "summary": "- 최근 미국 3-2-1  정제마진은 배럴당 71달러까지 상승하며 사상 최고치 경신. 미국 디젤 마진도 8월 17일 102.2달러로 처음 100달러 상회. 높은 가동률에도 낮은 제품 재고와 중동·러시아 공급차질로 미국 정유사의 수익 성은 과거 호황기를 상회하는 상황. Valero는 약 3.0mb/d의 정제능력과 멕 시코만 중심의 자산을 보유해 업황 강세의 수혜가 가장 직접적- 약 3,000마일의 파이프라인과 1.3억배럴 저장능력, 50개 이상 부두를 활용 해 원료와 제품의 탄력적인 이동 가능. 핵심은 높은 수출 비중보다 미국 내외 가격에 따라 판매처를 조정할 수 있는 물류 유연성. 2Q26  처리량 295만b/d(+1%, 이하 QoQ), 배럴당 정제마진 23.62달러(+59%), 정유 영 업이익 45억달러(+148%)를 기록하며 자산 경쟁력 확인- 2023년 가동한 Port Arthur 코커는 저가 중질유 처리량과 경질제품 생산 을 확대하는 설비. 3Q26 가동 예정인 2.3억달러 규모 St. Charles FCC 최 적화 프로젝트도 고부가 제품 수율 개선에 기여 전망. 중질유 처리능력과 안정적인 설비 가동이 향후 경쟁사 대비 마진 차별화의 핵심",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqgeemgzigigcgxecci.pdf"
+    },
+    {
+     "date": "2026-08-03",
+     "broker": "신한투자증권",
+     "analyst": "이진명, 김명주",
+     "title": "[발레로 에너지 (NYS:VLO)] 높아진 정제마진의 하단",
+     "summary": "- 글로벌 정유 산업은 중동·러시아 공급 차질 정상화 지연과 제한적인 신규 증설로 타이트한 수급 지속 예상. 중국 수출쿼터 확대에도 실제 제품 수출 증가는 제한적인 가운데 견조한 운송용 수요와 낮은 재고가 정제마진 하 단을 지지- 2분기 매출액은 445억달러(+37%, 이하 QoQ), 영업이익은 52억달러 (+200%) 기록. 조정 EPS(주당순이익)는 12.54달러(+197%)로 시장 기대 치를 큰 폭 상회. 사업부별 영업이익은 정유 45억달러(+148%), 재생 디젤 7.2억달러(+416%), 에탄올 3.2억달러(+253%) 시현- 중동·러시아 공급 차질과 견조한 수요, 낮은 제품 재고를 바탕으로 정유 중심의 호실적 달성. 정유 사업의 배럴당 정제마진은 23.62달러(+59%)로 큰 폭 상승했으며 정제 처리량도 295만b/d(+1%)로 높은 수준 유지. 3분기 는 원유 조달 여건 개선에 따른 정제마진 상승과 St. Charles FCC 최적화 설비 가동으로 추가적인 수익성 개선 가능",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqecqzxcqqmigcgxecci.pdf"
+    },
+    {
+     "date": "2026-07-31",
+     "broker": "메리츠증권",
+     "analyst": "노우호",
+     "title": "[발레로 에너지 (NYS:VLO)] 2Q26 Review: More Bullish Outlook",
+     "summary": "- 당분기 Valero는 순이익 $3.7Bil(+429% YoY)/EPS $12.62(+454% YoY)를 시현. 정유부문 영업이익은 $4.5Bil(+246% YoY)를 기록, 업황 강세에 극대화된 실적 레 버리지 발생- Valero는 전일 실적 설명회에서 극단적 경고를 동반한 낙관적 업황 가이던스를 제시. 시장 안정화 시점을 2027년으로 제시하며 구매자들의 패닉바이 가능성 암시 함. 그간 구매 관망세를 견지하던 시장 구매자들의 인내심이 바닥권을 향하는 중. 여름철 드라이빙 시즌(휘발유), 동절기(난방유)라는 계절적 성수기 수요 구간에 진입, 반면 부정적 공급 Dynamics가 병목 요인. 권역별 정제설비들의 빠듯한 가 동여건 및 과거 평균치를 하회한 재고수준은 운영 효율성이 극대화된 정유사들에 추가 수익성 확보의 기회요인으로 발생. Valero는 베네수엘라 원유 조달로 생산원 가 감축 노력 중. 반면 비용 부담이 높은 유럽 정유사들의 가동률 상향에 시장 거 래가격 상승 역시 가능. 현재 배럴당 생산비용 $4.5에 불과한 Valero는 시장 기준 선 상향으로 마진 스프레드 극대화 가능",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqezcmxglmzxgcgxecci.pdf"
+    },
+    {
+     "date": "2026-06-02",
+     "broker": "신한투자증권",
+     "analyst": "이진명, 김명주",
+     "title": "[발레로 에너지 (NYS:VLO)] 정제마진 강세의 중심에서",
+     "summary": "- 하반기 글로벌 정유 산업은 제한적인 증설과 공급 차질 정상화 지연에 따 른 타이트한 석유제품 수급 지속 예상. Gulf Coast 중심의 자산 포트폴리 오와 높은 중질유 처리 비중을 보유하며 업황 강세의 최대 수혜 전망- 글로벌 정제설비 순증설 감소와 낮아진 석유제품 재고를 감안할 경우 수 급은 예상보다 타이트한 상황. 중남미 지역의 구조적인 정제능력 부족 지 속에 따라 미국 Gulf Coast 정유사들의 수출 경쟁력 부각. 동사는 전체 생 산능력의 61%가 Gulf Coast에 위치해 직접적인 수혜 가능- 높은 중질유 처리 능력 역시 차별화 요인.  Port  Arthur  Coker  및 Alkylation 설비 투자를 통해 저가 중질유 활용 능력 확대. 베네수엘라 및 캐나다산 중질유 공급 증가 시 경쟁사 대비 원가 우위 강화 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcizmkczggemlgcgxecci.pdf"
+    },
+    {
+     "date": "2026-05-04",
+     "broker": "메리츠증권",
+     "analyst": "노우호",
+     "title": "[발레로 에너지 (NYS:VLO)] 1Q26 Review",
+     "summary": "- 영업실적 → 매출액 $32.3 Bil.(+7.0% YoY), 영업이익 $1.7 Bil.(흑자전환), 순이익 $1.3 Bil.(흑자전환), EPS $4.22- 정유: 매출액 $30.8 Bil.(+7.0% YoY), 영업이익 $1.8 Bil.(흑자전환)- 재생 디젤: 매출액 $0.7 Bil.(+44.2% YoY), 영업이익 $0.1Bil.(흑자전환)",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqlzezmgxiciqgcgxecci.pdf"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "chart": {
+  "lastBar": "2026-10-02",
+  "numbers": {
+   "price": 406.3,
+   "ma20": 391.17,
+   "ma50": 355.08,
+   "ma150": 285.51,
+   "distMA50": 14.42,
+   "periodHigh": 419.04,
+   "pullbackFromHigh": -3.04,
+   "volRatio20": 0.65,
+   "dryUpRatio": 0.7
+  },
+  "last10": [
+   {
+    "d": "2026-09-21",
+    "o": 409.59,
+    "h": 419.04,
+    "l": 391,
+    "c": 393.27,
+    "v": 3899300,
+    "clsPos": 8,
+    "gapPct": -0.89
+   },
+   {
+    "d": "2026-09-22",
+    "o": 384.9,
+    "h": 396.2,
+    "l": 375.03,
+    "c": 377.14,
+    "v": 7455800,
+    "clsPos": 10,
+    "gapPct": -2.13
+   },
+   {
+    "d": "2026-09-23",
+    "o": 380.43,
+    "h": 388.01,
+    "l": 364.96,
+    "c": 375.84,
+    "v": 7081400,
+    "clsPos": 47,
+    "gapPct": 0.87
+   },
+   {
+    "d": "2026-09-24",
+    "o": 379.06,
+    "h": 393,
+    "l": 373.17,
+    "c": 382.86,
+    "v": 3724200,
+    "clsPos": 49,
+    "gapPct": 0.86
+   },
+   {
+    "d": "2026-09-25",
+    "o": 378,
+    "h": 388.92,
+    "l": 370.59,
+    "c": 387.18,
+    "v": 3814100,
+    "clsPos": 91,
+    "gapPct": -1.27
+   },
+   {
+    "d": "2026-09-28",
+    "o": 389.11,
+    "h": 395.85,
+    "l": 385,
+    "c": 389.57,
+    "v": 3560400,
+    "clsPos": 42,
+    "gapPct": 0.5
+   },
+   {
+    "d": "2026-09-29",
+    "o": 381.57,
+    "h": 389.4,
+    "l": 379.57,
+    "c": 387.72,
+    "v": 2650700,
+    "clsPos": 83,
+    "gapPct": -2.05
+   },
+   {
+    "d": "2026-09-30",
+    "o": 393.19,
+    "h": 398.88,
+    "l": 385.76,
+    "c": 387.61,
+    "v": 2536700,
+    "clsPos": 14,
+    "gapPct": 1.41
+   },
+   {
+    "d": "2026-10-01",
+    "o": 387.25,
+    "h": 408.46,
+    "l": 384.58,
+    "c": 408.46,
+    "v": 2666900,
+    "clsPos": 100,
+    "gapPct": -0.09
+   },
+   {
+    "d": "2026-10-02",
+    "o": 403.79,
+    "h": 410.41,
+    "l": 389.69,
+    "c": 406.3,
+    "v": 2572839,
+    "clsPos": 80,
+    "gapPct": -1.14
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/VLO-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/VLO-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선을 넘은 지 11일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

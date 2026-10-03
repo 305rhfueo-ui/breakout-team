@@ -56,11 +56,17 @@ node scripts/run-breakout.js
 `dashboard/data/*.js` 를 읽어 각 워크플로에 넘길 인자를 만든 뒤, **절대경로**로 실행한다.
 (상대경로는 기준이 모호하다)
 
+```bash
+node scripts/prepare-llm-args.js        # 1·2·4·5팀 인자 → state/llm-in/_args.json
+node scripts/prepare-deepdive-args.js   # 6팀 심층 분석 인자 → state/llm-in/_t6args.json (차트 PNG 포함)
+```
+
 ```
 Workflow({ scriptPath: '<REPO>/scripts/workflows/team1-news.js',    args: {...} })
 Workflow({ scriptPath: '<REPO>/scripts/workflows/team2-research.js', args: {...} })
 Workflow({ scriptPath: '<REPO>/scripts/workflows/team4-catalyst.js', args: {...} })
 Workflow({ scriptPath: '<REPO>/scripts/workflows/team5-sector.js',   args: {...} })
+Workflow({ scriptPath: '<REPO>/scripts/workflows/team6-deepdive.js', args: {...} })   ← 관심 종목이 있을 때만
 ```
 
 ⚠️ **2·4·5팀 인자는 인라인으로 붙여넣지 마라.** `prepare-llm-args.js` 가
@@ -75,8 +81,13 @@ Workflow({ scriptPath: '<REPO>/scripts/workflows/team5-sector.js',   args: {...}
 - `team2-research`: `_args.json` 의 `team2args` 를 그대로 (picks 는 detail 없는 경량 · argsDir 포함)
 - `team4-catalyst`: `_args.json` 의 `team4args` 를 그대로 (argsDir 포함)
 - `team5-sector`: `_args.json` 의 `team5args` 를 그대로 (argsFile 포함)
+- `team6-deepdive` (2026-10-03): **`node scripts/prepare-deepdive-args.js`** 를 `prepare-llm-args.js` 다음에 실행하면
+  `state/llm-in/_t6args.json` 과 `_t6/{TICKER}.json`·차트 PNG 가 만들어진다. 그 파일 내용을 args 로 그대로 넘긴다.
+  `items` 가 비어 있으면(관심 종목 없음 · 전부 이월) 이 워크플로는 **띄우지 않는다.**
+  서준이 고른 오늘 밤 관심 종목(≤10)을 종목당 오퍼스 1명이 뉴스·재무(CAN SLIM)·리스크·차트 관찰(쿨라매기 기준)로 조사한다.
+  기준은 `docs/기준-쿨라매기-차트.md`·`docs/기준-CANSLIM-재무.md` — 에이전트가 매번 읽는다.
 
-4개는 서로 독립이므로 **한 메시지에서 병렬로** 띄운다.
+5개는 서로 독립이므로 **한 메시지에서 병렬로** 띄운다.
 
 **조사 대상은 매일 순환하고, TTL(5거래일) 안에 조사한 대상은 건너뛴다.** `prepare-llm-args.js` 가
 ① 신규 ② TTL 경과 ③ 변화(오늘 돌파·차트확인 진입·최근 8-K 실적) 만 남기고, 나머지는
@@ -106,6 +117,8 @@ args 없이 재개하면 스크립트가 빈 입력으로 재실행돼 캐시가
 node scripts/prepare-chief-args.js --team1=state/llm-in/_out/team1.json --team2=state/llm-in/_out/team2.json --team4=state/llm-in/_out/team4.json --team5=state/llm-in/_out/team5.json
 ```
 
+(`--team6` 은 없다 — **실장은 심층 분석을 받지 않는다.** 차트 관찰이 실장 판정으로 새지 않게 하기 위해서다.)
+
 이게 `state/llm-in/_chiefargs.json` 을 만든다 — `_args.json` 의 팀 요약, `chief.js` 의 `flowCross`
 (자금 유입 업종 × 그 안의 실제 종목), 1·2·4·5팀 LLM 결과(이월분 포함), 그리고 Node 가 센 개수
 (`llmResearchedCount` 등). ⚠️ `--team2/--team4` 를 빼면 실장이 "상승 이유 조사 안 됨"이라고 오보한다(2026-08-20 실제 발생).
@@ -121,7 +134,7 @@ Workflow({ scriptPath: '<REPO>/scripts/workflows/chief-report.js',
 
 ### 4. 검증 + 병합
 
-결과 5개를 하나로 합쳐 `state/llm-in/{YYYY-MM-DD}.json` 에 저장한 뒤:
+결과를 하나로 합쳐 `state/llm-in/{YYYY-MM-DD}.json` 에 저장한 뒤 (키: `team1`·`team2`·`team4`·`team5`·`chief`, 심층 분석을 띄웠으면 `team6` 도):
 
 ```bash
 node scripts/build-chief-report.js
@@ -150,6 +163,8 @@ push 를 원하지 않으면 `node scripts/build-chief-report.js --no-git`.
   모의 보유·어젯밤 체결·성적이 있으면 같이. 등급을 추천 강도처럼 말하지 마라(`/team6` 의 보고 규칙).
   사용자가 원하면 `/chart-read` 로 관심 종목 차트를 그려 직접 읽고 소견을 붙인다
 - 👁️ **오늘 차트를 봐야 할 종목**과 각각 왜 골랐는지(변동폭 축소·거래량 감소·저항선 근접) — 쉬운 말로
+- 🔎 **심층 분석 N/M** (실패 종목 있으면 티커). 내용은 옮기지 않는다 — 특히 **차트 관찰 칸은 채팅 보고에 쓰지 않는다**
+  (대시보드 서준 탭에서 본다. 실장·채팅 보고는 여전히 차트 모양을 판정하지 않는다)
 - ⚠️ 차트 모양(횡보·베이스·돌파 실패·리테스트·눌림)은 **어느 팀도 판정하지 않는다** — `build-chief-report` 가
   `실장 차트 결론 어휘` WARN 을 찍으면 그 문장은 보고에 옮기지 말고 사용자에게 알린다
 - 출처 검증 결과 (생존/미검증/제거 건수)

@@ -19,10 +19,10 @@ const BIG = 9999;               // 정렬용 Infinity 대체 (Infinity 는 뺄�
 const FLOW_RANK = { leading: 0, inflow: 1, narrow: 2 };
 const FLOW_RANK_OTHER = 3;
 
-const BUCKETS = ['detail', 'team2', 'team4', 'team5'];
+const BUCKETS = ['detail', 'team2', 'team4', 'team5', 'team6'];   // team6 = 관심 종목 심층 분석 (2026-10-03)
 
 function emptyCache() {
-  return { version: CACHE_VERSION, detail: {}, team2: {}, team4: {}, team5: {} };
+  return { version: CACHE_VERSION, detail: {}, team2: {}, team4: {}, team5: {}, team6: {} };
 }
 
 function loadCache(file = paths.researchCache) {

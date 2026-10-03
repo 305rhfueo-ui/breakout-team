@@ -23,6 +23,13 @@ ok('실장 프롬프트에 "사기 좋은 자리"·"볼 만한 셋업" 이 없�
   assert.ok(!/볼 만한 셋업/.test(s), '볼 만한 셋업');
   assert.ok(/차트 모양.*판정하지 않는다/.test(s), '금지 규칙 문장이 있어야 한다');
 });
+ok('6팀 심층 분석은 실장에게 전달되지 않고, 프롬프트가 차트 "관찰"만 요구한다 (2026-10-03)', () => {
+  assert.ok(!/team6/.test(src('scripts/prepare-chief-args.js')), 'prepare-chief-args 가 team6 를 읽는다 — 차트 관찰이 실장 판정으로 샌다');
+  const d = src('scripts/workflows/team6-deepdive.js');
+  assert.ok(/차트는 판정하지 않는다 — 관찰만/.test(d), '관찰만 하라는 규칙이 없다');
+  assert.ok(/"사기 좋은 자리", "돌파 실패"/.test(d), '결론 어휘 금지 목록이 없다');
+  assert.ok(/기준-쿨라매기-차트\.md/.test(d) && /기준-CANSLIM-재무\.md/.test(d), '기준 문서를 읽으라는 지시가 없다');
+});
 ok('4팀 종합 스키마에 watchList 가 없다', () => {
   const s = src('scripts/workflows/team4-catalyst.js');
   assert.ok(!/watchList:\s*\{/.test(s));

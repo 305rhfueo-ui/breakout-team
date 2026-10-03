@@ -48,4 +48,24 @@ function watchMessage(t6, sharesOf) {
   return L.join('\n');
 }
 
-module.exports = { tg, notify, configured, watchMessage };
+// 심층 분석 요약 — 관심 종목마다 2줄(결론 한 문장 · 확인할 것 하나). 10종목이어도 4000자 안에 들게 줄당 140자로 자른다.
+// 금액·수량은 쓰지 않는다 (공개 저장소·공개 채팅). 전문은 대시보드 서준 탭에서 본다.
+function deepMessage(t6) {
+  const cut = (s, n = 140) => { const x = String(s || '').replace(/\s+/g, ' ').trim(); return x.length > n ? `${x.slice(0, n - 1)}…` : x; };
+  const first = (s) => cut((String(s || '').match(/^.*?[.!?。](\s|$)/) || [String(s || '')])[0]);
+  const w = (t6.plans || []).filter((p) => p.watch && p.deep);
+  const done = w.filter((p) => p.deep.status === 'done');
+  const L = [`🔎 ${t6.generated} 관심 종목 심층 분석 ${done.length}/${w.length}개`];
+  for (const p of w) {
+    const d = p.deep;
+    L.push('', `${p.ticker}${p.name ? ` ${p.name}` : ''} (${p.grade}) · 피벗 ${p.pivot} (${p.distToPivotPct > 0 ? '+' : ''}${p.distToPivotPct}%)${d.carried ? ` · ${d.researchedOn} 조사분` : ''}`);
+    if (d.status !== 'done') { L.push('  분석 실패 — 다음 실행에서 다시'); continue; }
+    L.push(`  ${first(d.lead)}`);
+    const chk = (d.entryChecklist || [])[0];
+    if (chk) L.push(`  확인할 것: ${cut(chk)}`);
+  }
+  L.push('', '전문(뉴스·재무·CAN SLIM·차트 관찰): https://305rhfueo-ui.github.io/breakout-team/ → 서준');
+  return L.join('\n');
+}
+
+module.exports = { tg, notify, configured, watchMessage, deepMessage };

@@ -225,6 +225,14 @@ background:#0c121d;color:var(--dim);font-size:12px;line-height:1.6;font-style:it
 .clip{display:-webkit-box;-webkit-line-clamp:var(--lines,3);-webkit-box-orient:vertical;overflow:hidden}
 .clip.open{display:block;-webkit-line-clamp:unset;overflow:visible}
 .nosrc{color:var(--yel);font-size:12.5px}
+/* 6팀 심층 분석 — 카드 안에 접힌 채로 둔다 (2026-10-03) */
+details.deep{margin-top:8px;border:1px solid var(--bd);border-radius:10px;padding:6px 12px;background:#121a27}
+details.deep summary{cursor:pointer;font-size:13px;color:var(--blu);list-style:none}
+details.deep summary::before{content:'▸ ';color:var(--dim)}
+details.deep[open] summary::before{content:'▾ '}
+details.deep h5{margin:12px 0 5px;font-size:12.5px;color:var(--dim);letter-spacing:.02em}
+details.deep .ck{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;font-size:12.5px;line-height:1.55}
+details.deep .ck .ok{color:var(--grn)} details.deep .ck .no{color:var(--red)} details.deep .ck .na{color:var(--dim)}
 .empty{color:var(--dim);text-align:center;padding:16px;font-size:13px}
 .mhead .role{font-size:12px;color:var(--dim);margin-top:2px}
 .disc{text-align:center;color:var(--dim);font-size:11.5px;margin-top:30px;line-height:1.8}
@@ -1515,6 +1523,32 @@ function bodyFor(id){
         }).join('')+`</div>`;
     return h;
   }
+  /* 6팀 심층 분석 (2026-10-03) — 뉴스·재무(CAN SLIM)·리스크·차트 관찰(쿨라매기 기준, 판정 아님)·확인 목록.
+     근거 목록은 claimList 가 출처 검증 통과분만 그린다. 숫자는 전부 AI 가 입력 JSON 에서 인용한 것 — 지어내지 않는다. */
+  function deepBlock(D){
+    if(!D)return '';
+    if(D.status!=='done')return `<div class="nosrc" style="margin-top:6px">🔎 ${esc(D.note||'심층 분석 실패')}</div>`;
+    const ck=(list)=>(list||[]).length?`<div class="ck">`+list.map(x=>{const st=String(x.status||'');const cls=st==='충족'?'ok':st==='미충족'?'no':'na';const mark=st==='충족'?'✅':st==='미충족'?'❌':'—';
+      return `<span class="${cls}">${mark} ${esc(x.item||'')}</span><span>${esc(x.evidence||'')}</span>`;}).join('')+`</div>`:'';
+    const F=D.financials||{},rev=F.estimateRevisions||{};
+    const revKo={raised:'📈 상향',lowered:'📉 하향',mixed:'혼조',none:'조정 없음',unknown:'확인 안 됨'}[rev.direction]||'';
+    const C=D.chartObservation||{};
+    let b=`<details class="deep"><summary>🔎 심층 분석 — 조사 ${esc(D.researchedOn||'')}${D.carried?' (이월)':''}${D.failedToday?' · 오늘 재조사 실패':''} · 근거 ${esc(CONF_KO[D.confidence]||D.confidence||'')}${D.factcheck&&D.factcheck.removed&&D.factcheck.removed.length?` · 검증에서 ${D.factcheck.removed.length}건 제거`:''}</summary>`;
+    if(D.company)b+=`<div class="pi" style="margin-top:8px">${esc(D.company)}</div>`;
+    if(D.lead)b+=`<div class="pi lead">${esc(D.lead)}</div>`;
+    b+=`<h5>최근 뉴스</h5>`+(D.newsNarrative?`<div class="pi">${esc(D.newsNarrative)}</div>`:'')+(claimList(D.recentNews)||`<div class="nosrc">검증을 통과한 뉴스 근거가 없습니다</div>`);
+    b+=`<h5>재무${revKo?` <span class="chip">전망치 ${revKo}</span>`:''}</h5>`+(D.financialsNarrative?`<div class="pi">${esc(D.financialsNarrative)}</div>`:'');
+    const fin=claimList([...(F.revenueTrend||[]),...(F.profitTrend||[]),...(F.guidance||[]),...((rev.claims)||[])],{quote:false});
+    if(fin)b+=fin;
+    if((D.canslim||[]).length)b+=`<h5>CAN SLIM 체크 <span class="note" style="display:inline">(오닐 기준 · 기관 보유 자료 없음)</span></h5>`+ck(D.canslim);
+    b+=`<h5>리스크</h5>`+(claimList(D.risks)||`<div class="note">보도된 리스크 근거 없음 (지어내지 않습니다)</div>`);
+    if((D.structuralRisks||[]).length)b+=`<ul class="plist">${D.structuralRisks.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`;
+    if((D.chartCheck||[]).length)b+=`<h5>쿨라매기 돌파 셋업 체크 <span class="chip">판정 아님 · 관찰</span></h5>`+ck(D.chartCheck);
+    if(C.base||C.volume||C.position)b+=`<h5>차트 관찰 <span class="chip">판정 아님</span></h5>`+rows([['횡보',esc(C.base||'—')],['거래량',esc(C.volume||'—')],['위치',esc(C.position||'—')],['이평선',esc(C.maStack||'—')]])+(C.note?`<div class="note" style="margin-top:5px">${esc(C.note)}</div>`:'');
+    if((D.entryChecklist||[]).length)b+=`<h5>사기 전에 직접 확인할 것</h5><ul class="plist">${D.entryChecklist.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`;
+    if(D.earningsRisk)b+=`<div class="note" style="margin-top:6px">📅 ${esc(D.earningsRisk)}</div>`;
+    return b+`</details>`;
+  }
   if(id==='t6'){
     const t=D.t6; if(!t)return '<div class="empty">데이터 없음</div>';
     const sg=v=>v==null?'—':(v>0?'+':'')+n(v,1);
@@ -1528,7 +1562,8 @@ function bodyFor(id){
         ['10일선 이격',`${sg(p.extensionAdr)} ADR`]])}
       <div class="note">${(p.reasons||[]).map(esc).join(' · ')}</div>
       ${p.lastRead?`<div class="note" style="color:var(--blu)">🤖 클로드 차트 소견 (${esc(p.lastRead.date)}) — ${esc(p.lastRead.note||p.lastRead.verdict)}</div>`:''}
-      ${p.blocked?`<div class="nosrc">⛔ ${esc(p.blocked)}</div>`:''}</div>`;
+      ${p.blocked?`<div class="nosrc">⛔ ${esc(p.blocked)}</div>`:''}
+      ${p.deep?deepBlock(p.deep):''}</div>`;
     const w=(t.plans||[]).filter(p=>p.watch),b=(t.plans||[]).filter(p=>!p.watch);
     let h=`<div class="sec"><h4>오늘 밤 관심 종목 ${w.length}개</h4>`+(w.length?w.map(card).join(''):`<div class="empty">피벗 근처에서 쉬는 종목 없음</div>`)+`</div>`;
     if(b.length)h+=`<div class="sec"><h4>피벗 근처지만 뺀 종목 ${b.length}개</h4>`+b.map(card).join('')+`</div>`;

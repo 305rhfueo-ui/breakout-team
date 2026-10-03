@@ -67,7 +67,311 @@ window.TEAM6_DATA = {
       "blocked": null,
       "shadowBook": null,
       "watch": true,
-      "score": 68.1
+      "score": 68.1,
+      "deep": {
+        "status": "done",
+        "ticker": "QLYS",
+        "company": "Qualys는 기업의 서버·PC·클라우드에서 보안 취약점을 찾아 위험도를 매기는 구독형 보안 소프트웨어 회사다. 고객 기업은 여러 보안 기능을 하나로 묶은 '통합 위험 관리 플랫폼'을 매년 구독료를 내고 쓴다. 최근 성장 축은 AI 기반 위험 관리 센터 제품, 협력 판매사(채널)를 통한 판매, 미국 연방정부 수주다.",
+        "newsNarrative": "그런데 주가는 실적 이후 약세를 보였고, 9월 초에 한 달 동안 6.8% 내렸다는 보도가 나왔다. 9월 중순에는 Wedbush가 투자의견을 '중립'으로 낮추면서도 목표가는 125달러에서 175달러로 올렸다. 같은 주에 AI 보안 우려 속 유망 보안주로 꼽히는 기사가 나왔고, 이후 주가는 분석가 목표가에 닿았다는 보도가 이어졌다.",
+        "recentNews": [
+          {
+            "id": "n2",
+            "statement": "실적 발표 뒤 한 달 동안 주가가 6.8% 내렸다는 보도가 나왔다",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Is Qualys (QLYS) Down 6.8% Since Last Earnings Report?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/why-qualys-qlys-down-68-last-earnings-report",
+                "date": "2026-09-03",
+                "quote": "Why Is Qualys (QLYS) Down 6.8% Since Last Earnings Report?",
+                "verified": "unchecked",
+                "httpStatus": null
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "Wedbush가 투자의견을 '시장수익률 상회'에서 '중립'으로 낮추고 목표가는 125달러에서 175달러로 올렸다",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "QLYS Stock Drops As Wedbush Downgrades But Lifts Price Target",
+                "publisher": "StocksToTrade",
+                "url": "https://stockstotrade.com/news/qualys-inc-qlys-news-2026_09_14/",
+                "date": "2026-09-14",
+                "quote": "Wedbush cut Qualys from Outperform to Neutral, but at the same time raised its price target from $125 to $175.",
+                "verified": "unchecked",
+                "httpStatus": null
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "AI 보안 우려 속 유망 보안주로 Fortinet과 함께 꼽혔다",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "2 Top Cybersecurity Stocks to Buy Amid AI Safety Fears: FTNT, QLYS",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/2-top-cybersecurity-stocks-buy-amid-ai-safety-fears-ftnt-qlys",
+                "date": "2026-09-14",
+                "quote": "2 Top Cybersecurity Stocks to Buy Amid AI Safety Fears: FTNT, QLYS",
+                "verified": "unchecked",
+                "httpStatus": null
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "주가가 분석가 평균 목표가에 도달했다는 보도가 나왔다",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Qualys Reaches Analyst Target Price",
+                "publisher": "BNK Invest",
+                "url": "https://www.nasdaq.com/articles/qualys-reaches-analyst-target-price",
+                "date": "2026-09-16",
+                "quote": "Qualys Reaches Analyst Target Price",
+                "verified": "unchecked",
+                "httpStatus": null
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "2026년 2분기 영업이익은 6,190만 달러로 1년 전보다 20.4% 늘어, 비용 관리로 이익률이 34% 수준을 지킨다. 회사는 연간 매출 전망을 7.32~7.38억 달러로 올려, 성장 속도가 빨라지진 않아도 꺾이지 않았다는 신호를 줬다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "r2",
+              "statement": "성장은 협력 판매사(채널) 매출이 이끌었고, 직접 판매 매출은 제자리였다",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Qualys Q2 Earnings Beat on Channel Strength, FY26 Guidance Raised",
+                  "publisher": "Zacks via Yahoo Finance",
+                  "url": "https://finance.yahoo.com/markets/stocks/articles/qualys-q2-earnings-beat-channel-150000511.html",
+                  "date": "2026-08",
+                  "quote": "Channel-partner revenues climbed 22% year over year, while direct revenues remained largely unchanged.",
+                  "verified": "unchecked",
+                  "httpStatus": null
+                }
+              ]
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "p1",
+              "statement": "2026년 2분기 영업이익 6,190만 달러, 1년 전보다 20.4% 증가. 순이익은 5,240만 달러로 10.8% 증가",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "QUALYS 10-Q 분기 실적 (SEC)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001107843&type=10-Q",
+                  "date": "2026-06-30",
+                  "quote": "periodEnd 2026-06-30, revenue 182175000, profit(영업이익) 61902000, netIncome 52405000, margin 34, yoy profit 20.4, yoy netIncome 10.8",
+                  "verified": "unchecked",
+                  "httpStatus": null
+                }
+              ]
+            }
+          ],
+          "guidance": [],
+          "estimateRevisions": {
+            "direction": "unknown",
+            "claims": []
+          }
+        },
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "2026-06 분기 영업이익 전년비 +20.4%, 순이익 +10.8%, 매출 +11% — 기준 +25% 미달 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 4분기 영업이익 전년비 +20.4/+17.6/+19.1/+33.4%, 순이익 +10.8/+6.5/+20.8/+8.9%로 모두 플러스지만 +25% 기준 미달, 3년 추세·ROE 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 새로운 것",
+            "status": "충족",
+            "evidence": "2026-08-04 연간 매출 전망 상향·AI 위험 관리 센터 확대 발표, 52주 고점 대비 93% 수준(구간 고점 대비 -4.24%)"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 1주 거래량이 한 달 평균의 0.8배(기준 0.7 이하 미달), 마지막 봉 거래량 20일 평균의 0.66배, 시가총액 6.48B 달러, 유통주식 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 백분위 6개월 98.5·3개월 92.5·1개월 90.0, 업종 순위 2위, 업종 자금 흐름은 아직 형성 전"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "충족",
+            "evidence": "시장 판정 green(10일선이 20일선 위 11일째, 둘 다 상승), 단 마진부채 1년 전보다 +37.2%로 주의선 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k1",
+            "statement": "Wedbush가 투자의견을 '중립'으로 낮췄고, 발표 당일 주가가 장중 6% 넘게 밀렸다",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "QLYS Stock Drops As Wedbush Downgrades But Lifts Price Target",
+                "publisher": "StocksToTrade",
+                "url": "https://stockstotrade.com/news/qualys-inc-qlys-news-2026_09_14/",
+                "date": "2026-09-14",
+                "quote": "Qualys shares dropped about 6–6.4%, tagging roughly $151 intraday.",
+                "verified": "unchecked",
+                "httpStatus": null
+              }
+            ]
+          },
+          {
+            "id": "k2",
+            "statement": "직접 판매 매출이 정체돼 성장이 협력 판매사 채널에 쏠려 있다",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Qualys Q2 Earnings Beat on Channel Strength, FY26 Guidance Raised",
+                "publisher": "Zacks via Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/qualys-q2-earnings-beat-channel-150000511.html",
+                "date": "2026-08",
+                "quote": "Channel-partner revenues climbed 22% year over year, while direct revenues remained largely unchanged.",
+                "verified": "unchecked",
+                "httpStatus": null
+              }
+            ]
+          },
+          {
+            "id": "k3",
+            "statement": "전망 상향에도 실적 발표 뒤 한 달간 주가가 내려, 시장 기대가 실적보다 앞서 있었을 수 있다(해석)",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Is Qualys (QLYS) Down 6.8% Since Last Earnings Report?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/why-qualys-qlys-down-68-last-earnings-report",
+                "date": "2026-09-03",
+                "quote": "Why Is Qualys (QLYS) Down 6.8% Since Last Earnings Report?",
+                "verified": "unchecked",
+                "httpStatus": null
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "성장이 협력 판매사 채널에 쏠려 있고 직접 판매는 정체돼, 채널 실적이 꺾이면 성장률이 바로 흔들릴 수 있다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 132.4%, 6개월 수익률 145.97%"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 8주(40봉) — 기준 상단 끝"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "충족",
+            "evidence": "저점 상승 1회, 진폭 0.8배로 좁아짐"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 24.2%, 하루 평균 변동폭 5.39%의 약 4.5배, 선행 상승 132.4%의 절반 이하"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "현재가 193 > 20일선 177.13 · 50일선 174.34, 50일선 대비 +10.7%"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 1주 거래량이 한 달 평균의 0.8배 — 0.7~1.0 보통 구간"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "아직 피벗 아래(마지막 봉 거래량 20일 평균의 0.66배). 돌파 때 20일 평균 2배가 실리는지 본다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "충족",
+            "evidence": "피벗 196.72까지 -1.89%, 0.35 ADR 아래"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 5.29% ≤ 하루 평균 변동폭 5.39%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 1.02 ADR(10일선 182.43)"
+          },
+          {
+            "item": "시장",
+            "status": "충족",
+            "evidence": "시장 판정 green, 10일선이 20일선 위 11일째"
+          }
+        ],
+        "chartObservation": {
+          "base": "8월 중순 고점 이후 8주째 옆으로 움직이는 구간이다. 고점에서 저점까지 깊이는 24.2%이고, 베이스 최저 149.13 뒤 9월 28일 저점 168.06으로 저점이 한 번 높아졌다. 횡보 폭은 앞 구간의 0.8배로 조금 좁아졌다.",
+          "volume": "최근 1주 거래량은 한 달 평균의 0.8배로, 줄긴 했지만 뚜렷이 마른 수준은 아니다. 최근 10봉 중 9월 22일(72.7만 주)과 9월 30일(67.4만 주, 종가 187.2)에 거래가 많았다. 10월 2일은 47.7만 주로 20일 평균의 0.66배였다.",
+          "position": "현재가 193은 피벗 196.72보다 1.89% 아래, 하루 평균 변동폭의 0.35배 거리다. 예비 손절 186.32보다는 위에 있고, 10일선 182.43보다 1.02 ADR 위다. 10월 2일 고가는 195.4, 종가는 당일 범위의 63% 위치였다.",
+          "maStack": "가격이 20일선 177.13, 50일선 174.34, 150일선 128.94 위에 차례로 놓여 있다. 20일선 기울기는 +0.69%로 오르는 중이다.",
+          "note": "그림과 숫자가 일치한다. 다만 9월 중순 저점 무렵 주가가 잠깐 50일선 아래로 내려갔다가 돌아온 모습이 보이고, 9월 대부분 기간 종가가 예비 손절선 아래에 있었다."
+        },
+        "entryChecklist": [
+          "피벗 196.72를 거래량 20일 평균 2배 이상으로 종가 돌파하는지",
+          "돌파 당일 저가를 바로 깨지 않고 예비 손절 186.32 위에서 버티는지",
+          "최근 1주 거래량이 한 달 평균의 0.7배 아래로 더 마르는지(현재 0.8배)",
+          "다음 실적 발표일이 확정되면 그 날짜가 매수 예정일보다 뒤인지",
+          "시장 판정이 green을 유지하고 마진부채 경고가 더 커지지 않는지"
+        ],
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 다만 지난해 3분기 실적은 2025-11-04에 발표돼, 다음 발표가 한 달 안팎에 올 수 있으니 날짜를 먼저 확인해야 한다.",
+        "lead": "6개월 동안 132% 오른 뒤 8주째 쉬면서 피벗(넘으면 사는 선) 196.72의 1.89% 아래까지 올라온 종목이다. 가장 큰 우려는 직접 판매가 정체됐으며, 9월에 Wedbush가 투자의견을 낮췼다는 점이다. 종가가 예비 손절 186.32 아래로 내려가거나 다음 실적에서 전망이 꺾이면 이 그림은 깨진다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "n1",
+            "r1",
+            "g1",
+            "g2"
+          ],
+          "reasons": [
+            "n1: 2분기 매출 '1.82억 달러로 11% 늘었고' 부분이 quote에 명시되지 않음",
+            "r1: '직전 4개 분기 모두 전년비 약 10~11% 증가' 부분이 quote에 명시되지 않음",
+            "g1: '이전 7.21~7.27억 달러' 정보가 quote에 명시되지 않음",
+            "g2: '연간 주당순이익(GAAP) 전망은 5.76~5.90달러' 부분이 quote에 명시되지 않음"
+          ],
+          "leadFixed": true,
+          "newsNarrativeFixed": true,
+          "financialsNarrativeFixed": true
+        },
+        "leadOriginal": "6개월 동안 132% 오른 뒤 8주째 쉬면서 피벗(넘으면 사는 선) 196.72의 1.89% 아래까지 올라온 종목이다. 가장 강한 근거는 8월 실적에서 회사가 연간 매출 전망을 7.32~7.38억 달러로 올렸다는 점이다. 가장 큰 걱정은 매출 성장률이 11%에 머물고, 직접 판매가 정체됐으며, 9월에 Wedbush가 투자의견을 낮췄다는 점이다. 종가가 예비 손절 186.32 아래로 내려가거나 다음 실적에서 전망이 꺾이면 이 그림은 깨진다.",
+        "newsNarrativeOriginal": "8월 초 2분기 실적에서 회사는 매출 11% 성장을 발표하고 연간 매출 전망을 올렸다. 그런데도 주가는 실적 발표 뒤 한 달 동안 6.8% 내렸다는 보도가 9월 초에 나왔다. 9월 중순에는 Wedbush가 투자의견을 '중립'으로 낮추면서도 목표가는 125달러에서 175달러로 올렸다. 같은 주에 AI 보안 우려 속 유망 보안주로 꼽히는 기사가 나왔고, 이후 주가는 분석가 목표가에 닿았다는 보도가 이어졌다.",
+        "financialsNarrativeOriginal": "매출은 한 자릿수 후반~11% 속도로 꾸준히 늘고, 이익은 그보다 빠르게 늘고 있다. 2026년 2분기 매출은 1.82억 달러로 1년 전보다 11% 늘었다. 같은 분기 영업이익은 6,190만 달러로 1년 전보다 20.4% 늘어, 비용 관리로 이익률이 34% 수준을 지킨다. 회사는 연간 매출 전망을 7.32~7.38억 달러로 올려, 성장 속도가 빨라지진 않아도 꺾이지 않았다는 신호를 줬다.",
+        "researchedOn": "2026-10-03",
+        "session": "2026-10-02",
+        "carried": false
+      }
     },
     {
       "ticker": "NUTX",
@@ -2674,5 +2978,15 @@ window.TEAM6_DATA = {
     "watch": 19,
     "checked": 0,
     "errors": []
+  },
+  "deep_coverage": {
+    "done": 1,
+    "total": 8,
+    "cap": 10,
+    "pending": 7,
+    "failed": 0,
+    "carried": 0,
+    "ineligible": 0,
+    "note": "8종목 중 1종목을 조사했습니다. 나머지 7종목은 상한(10) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
   }
 };

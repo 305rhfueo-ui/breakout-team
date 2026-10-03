@@ -78,7 +78,7 @@ for (const f of files) {
 }
 
 console.log('\n[4] 배열형 워크플로가 실패 목록을 반환한다');
-for (const f of ['team2-research.js', 'team4-catalyst.js', 'team5-sector.js']) {
+for (const f of ['team2-research.js', 'team4-catalyst.js', 'team5-sector.js', 'team6-deepdive.js']) {
   ok(`${f} — failed 를 인덱스로 계산해 반환한다`, () => {
     // ⚠️ 반환값의 ticker/key 로 대조하면 안 된다. 스키마가 required 로 걸어도 모델이 입력값을
     //    그대로 돌려주지 않는다 — 2026-08-12 실측: 5팀이 "Technology|Computer Hardware" 를
@@ -106,7 +106,7 @@ for (const [f, needle] of [['team1-news.js', 'result'], ['chief-report.js', 'rep
 console.log('\n[6] 무거운 자료를 파일로 넘기는 분기가 있다 (인라인 인자 회귀 방지)');
 // 한 파일에 몰면 60종목 × 상세 = 580KB 라 에이전트의 Read 가 잘려 자료를 못 본다.
 for (const [f, key] of [['team2-research.js', 'argsDir'], ['team4-catalyst.js', 'argsDir'],
-  ['team5-sector.js', 'argsFile'], ['chief-report.js', 'argsFile']]) {
+  ['team5-sector.js', 'argsFile'], ['chief-report.js', 'argsFile'], ['team6-deepdive.js', 'argsDir']]) {
   ok(`${f} — ${key} 분기가 있다`, () => {
     assert.ok(new RegExp(`A\\.${key}`).test(src[f]), `${key} 를 읽지 않는다 — 인자를 인라인으로 되돌린 것`);
     assert.ok(/Read 도구로/.test(src[f]), '에이전트에게 파일을 읽으라는 지시가 없다');
@@ -115,7 +115,7 @@ for (const [f, key] of [['team2-research.js', 'argsDir'], ['team4-catalyst.js', 
 
 console.log('\n[7] 리포트형 규격이 유지되는가 (2026-08-14)');
 // "더 자세히"가 "더 그럴듯하게 지어내기"가 되지 않도록 스키마·프롬프트 쪽 방어를 고정한다.
-for (const f of ['team2-research.js', 'team4-catalyst.js', 'team5-sector.js']) {
+for (const f of ['team2-research.js', 'team4-catalyst.js', 'team5-sector.js', 'team6-deepdive.js']) {
   ok(`${f} — quote 가 required 이고 인정 범위가 명시돼 있다`, () => {
     assert.ok(/required: \['title', 'publisher', 'url', 'date', 'quote'\]/.test(src[f]),
       'quote 가 required 가 아니다 — 숫자의 출처를 확인할 방법이 사라진다');
