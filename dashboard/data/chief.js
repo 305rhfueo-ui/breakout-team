@@ -801,12 +801,21 @@ window.CHIEF_DATA = {
     ],
     "tomorrowWatch": "내일 첫 확인점은 7주 고점을 넘은 종목 중 거래량이 20일 평균의 2배를 넘기는 곳이 나오는지입니다. 정유 업종이 순위 4위를 지키는지도 봐야 하는데, 5팀의 정유 조사는 9월 29일분 이월이고 그때는 크랙 스프레드 정상화 위험이 있는 후반 국면으로 봤습니다. 저장장치 급락이 반도체 업종 전체로 번지는지, 국채금리가 더 오르는지도 함께 볼 일입니다.",
     "verified": {
-      "checked": 82,
-      "ok": 103,
-      "unverified": 4,
+      "checked": 135,
+      "ok": 200,
+      "unverified": 11,
       "dead": 0,
       "stripped": 0,
-      "removed": []
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/xometry-stock-still-buy-144-140811229.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000053/q226exhibit991.htm"
+        }
+      ]
     },
     "reusedFrom": null,
     "reuseAll": null

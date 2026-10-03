@@ -645,12 +645,21 @@ window.TEAM1_DATA = {
     ],
     "candidateCount": 22,
     "verified": {
-      "checked": 82,
-      "ok": 103,
-      "unverified": 4,
+      "checked": 135,
+      "ok": 200,
+      "unverified": 11,
       "dead": 0,
       "stripped": 0,
-      "removed": []
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/xometry-stock-still-buy-144-140811229.html"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000053/q226exhibit991.htm"
+        }
+      ]
     },
     "reusedFrom": null,
     "researchedOn": "2026-10-03"
