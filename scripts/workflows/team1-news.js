@@ -26,13 +26,13 @@ const SOURCE = { type: 'object', properties: {
 const NEWS = { type: 'object', properties: {
   digest: { type: 'array', items: { type: 'object', properties: {
     headline: { type: 'string', description: '한국어 헤드라인, 30자 안팎. 주어·서술어가 있는 한 문장' },
-    easy: { type: 'string', description: '무슨 일인지 최대 2문장. ①무슨 일이 있었나 ②그래서 뭐가 달라지나. 기사에 있는 핵심 숫자 1개만' },
+    easy: { type: 'string', description: '무슨 일인지 3~4문장. ①무슨 일이 있었나 ②왜 그랬나(원인·배경) ③그래서 뭐가 달라지나. 원인을 모르면 기사에서 찾아 쓰고, 기사에도 없으면 "이유는 기사에 안 나왔다"고 쓴다. 핵심 숫자 1~2개' },
     whyMatters: { type: 'string', description: '내 투자에 무슨 의미인지 최대 2문장. 어느 업종·종목에 좋은지/나쁜지를 이름을 들어 말한다. QQQ·이평선 숫자는 다시 쓰지 않는다' },
     impact: { type: 'string', enum: ['up', 'down', 'neutral'] },
     sources: { type: 'array', items: SOURCE },
   }, required: ['headline', 'easy', 'whyMatters', 'impact', 'sources'] } },
-  marketNarrative: { type: 'string', description: '최대 3문장. ①사도 되는 때인가(결론) ②가장 큰 이유 ③이번 주 지켜볼 것 하나. 이동평균 값은 쓰지 말고 관계만' },
-  keyRisks: { type: 'array', items: { type: 'string' }, description: '조심할 점 최대 3개. 각 항목은 "제목: 한 문장" 형식, 50자 안팎' },
+  marketNarrative: { type: 'string', description: '4~5문장. ①사도 되는 때인가(결론) ②왜 그런가 ③오늘 뉴스가 시장에 뭘 뜻하는지 ④조심할 점 ⑤이번 주 지켜볼 것. 이동평균 값은 쓰지 말고 관계만' },
+  keyRisks: { type: 'array', items: { type: 'string' }, description: '조심할 점 최대 4개. 각 항목은 "제목: 왜 위험한지 한두 문장" 형식' },
   easySummary: { type: 'array', items: { type: 'string' }, description: '3줄 요약' },
 }, required: ['digest', 'marketNarrative', 'keyRisks', 'easySummary'] }
 
@@ -40,12 +40,13 @@ const NEWS = { type: 'object', properties: {
 // 한 문단이 길고 같은 숫자가 서사·뉴스마다 반복되고 작업 메모("본문 403")가 섞여 읽히지 않았다.
 const STYLE = `
 ## 서술 기준 — 독자는 주식 투자를 하는 일반인이다
-1. 짧게 쓴다. 한 문장은 한 가지 내용만, 50자 안팎. '—'나 쉼표로 두 문장을 잇지 마라. 한 문장에 숫자는 2개까지.
-   칸마다 정해진 문장 수 상한을 넘기지 마라. 독자가 매매 판단에 쓰지 않을 말(배경 설명·작업 경위·당연한 말)은 빼라.
+1. 한 문장은 한 가지 내용만, 60~80자. 칸마다 정해진 문장 수 상한을 넘기지 마라.
+   짧게 쓰되 **무슨 일이 왜 일어났고 그래서 뭐가 달라지는지**는 반드시 쓴다 — 사실만 나열하고 이유·영향을 빼면 읽는 사람이 이해하지 못한다.
+   빼야 할 것은 작업 경위("제공 자료에", "본문 403")와 당연한 말뿐이다.
 2. 전문 용어는 꼭 필요할 때만 쓰고, 처음 나올 때 괄호로 풀어 준다.
    예: "가이던스(회사가 내놓은 다음 분기 전망)", "할인율이 오른다(미래 이익의 현재 가치가 줄어든다)".
    듀레이션·리레이팅·크랙 스프레드·멀티플처럼 일반인이 모르는 말은 풀어 쓴 표현으로 바꿔라.
-3. 숫자는 결론에 꼭 필요한 것만, 한 칸에 1~2개. 이동평균 값(10일선 739 같은 숫자)은 쓰지 않는다 — "10일선이 20일선 위"처럼 관계만.
+3. 숫자는 결론에 꼭 필요한 것만, 한 칸에 2~3개. 이동평균 값(10일선 739 같은 숫자)은 쓰지 않는다 — "10일선이 20일선 위"처럼 관계만.
    QQQ 종가·마진부채 증가율은 marketNarrative 에서 한 번만 쓰고 뉴스·리스크 칸에서는 다시 쓰지 않는다.
 4. 업종·섹터 이름은 한국어로 쓴다 (Technology → 기술, Semiconductors → 반도체). 회사명·티커는 원문 그대로.
 5. 작업 과정은 쓰지 않는다. "본문이 403으로 열리지 않았다", "Node", "제공 자료", "클러스터" 같은 말은 금지.

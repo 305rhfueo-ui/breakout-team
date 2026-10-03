@@ -82,21 +82,21 @@ ${JSON.stringify(T.chartCheck || [], null, 1).slice(0, 2000)}`
 
 const CHIEF = { type: 'object', properties: {
   headline: { type: 'string', description: '오늘을 한 줄로, 50자 안팎. 시장 신호 + 오늘 가장 중요한 한 가지. 이동평균 숫자 나열 금지' },
-  marketVerdictKo: { type: 'string', description: '세 문단, 문단마다 최대 2문장. ①시장: 지금 사도 되는 때인가 ②돈의 흐름: 어느 업종으로 들어오고 어디서 빠지는지(업종 이름 한국어 + 그 안의 강한 종목 티커 2~3개) ③그래서 오늘 어떻게 할지. 문단은 빈 줄로 나눈다. 【】 머리말·번호 목록 금지. 입력에 없는 사실로 채우지 마라' },
+  marketVerdictKo: { type: 'string', description: '세 문단, 문단마다 3~4문장. 결론과 함께 왜 그런지를 쓴다. ①시장: 지금 사도 되는 때인가 ②돈의 흐름: 어느 업종으로 들어오고 어디서 빠지는지(업종 이름 한국어 + 그 안의 강한 종목 티커 2~3개) ③그래서 오늘 어떻게 할지. 문단은 빈 줄로 나눈다. 【】 머리말·번호 목록 금지. 입력에 없는 사실로 채우지 마라' },
   todayFocus: { type: 'array', items: { type: 'object', properties: {
     ticker: { type: 'string' },
-    reason: { type: 'string', description: '왜 주목하는지 한 문장, 50자 안팎' },
-    action: { type: 'string', description: '무엇을 확인하면 되는지 한 문장, 50자 안팎, 숫자는 1~2개. 입력의 확인 조건만 (예: "기준선 $X 종가 유지 여부 · 거래량이 20일 평균 2배인지 · QQQ MA20 713 회복 여부"). 차트 결론 금지 — 돌파 실패로 처리·리테스트·지지로 전환·눌림·갭·셋업·자리·추격 같은 말을 쓰지 마라' },
+    reason: { type: 'string', description: '왜 주목하는지 1~2문장' },
+    action: { type: 'string', description: '무엇을 확인하면 되는지 한 문장, 숫자는 1~2개. 입력의 확인 조건만 (예: "기준선 $X 종가 유지 여부 · 거래량이 20일 평균 2배인지 · QQQ MA20 713 회복 여부"). 차트 결론 금지 — 돌파 실패로 처리·리테스트·지지로 전환·눌림·갭·셋업·자리·추격 같은 말을 쓰지 마라' },
   }, required: ['ticker', 'reason', 'action'] }, description: '오늘 가장 주목할 종목 0~5개 — Node 신호(거래량 확인 돌파·차트확인 목록·유입 업종 통과)가 있는 종목만. 없으면 비워라' },
   teamSummaries: { type: 'object', properties: {
-    team1: { type: 'string', description: '한별(시장) 요약 최대 2문장, 각 50자 안팎' }, team2: { type: 'string', description: '도윤(종목 선정) 요약 최대 2문장, 각 50자 안팎' },
-    team3: { type: 'string', description: '수아(추적) 요약 최대 2문장, 각 50자 안팎' }, team4: { type: 'string', description: '재민(호재 찾기) 요약 최대 2문장, 각 50자 안팎' },
-    team5: { type: 'string', description: '미르(업종 흐름) 요약 최대 2문장, 각 50자 안팎' },
+    team1: { type: 'string', description: '한별(시장) 요약 2~3문장. 결론 + 이유' }, team2: { type: 'string', description: '도윤(종목 선정) 요약 2~3문장. 어떤 업종·테마가 왜 강한지' },
+    team3: { type: 'string', description: '수아(추적) 요약 2~3문장' }, team4: { type: 'string', description: '재민(호재 찾기) 요약 2~3문장. 호재가 확인된 종목은 무슨 호재인지' },
+    team5: { type: 'string', description: '미르(업종 흐름) 요약 2~3문장. 돈이 어디서 어디로, 왜' },
   }, required: ['team1', 'team2', 'team3', 'team4', 'team5'] },
   chartCheckNote: { type: 'string', description: '오늘 눈으로 차트를 봐야 할 종목 최대 5개, 종목당 한 줄로 "티커 — 확인할 것". 시스템 플래그(reasons)를 뜻으로 풀어 옮긴다. 플래그에 없는 방향(상방/하방)·매물·소진 추론 금지' },
-  tomorrowWatch: { type: 'string', description: '내일 지켜볼 것 최대 2문장, 각 50자 안팎' },
+  tomorrowWatch: { type: 'string', description: '내일 지켜볼 것 2~3문장. 무엇을 왜 보는지' },
   // ⚠️ 프롬프트 규칙 7번은 caution 을 필수라고 말하는데 스키마에선 선택이었다. 어긋나 있었다.
-  caution: { type: 'string', description: '이 리포트를 믿을 때 조심할 점 최대 2문장. 매매 판단에 영향을 주는 것만(데이터 결함·근거 없는 항목). 이월 조사분 같은 작업 경위는 쓰지 않는다' },
+  caution: { type: 'string', description: '이 리포트를 믿을 때 조심할 점 최대 3문장. 조사 안 된 종목 · 근거 없는 항목 · 데이터 문제를 솔직히, 쉬운 말로' },
 }, required: ['headline', 'marketVerdictKo', 'todayFocus', 'teamSummaries', 'chartCheckNote', 'caution'] }
 
 phase('실장종합')
@@ -140,8 +140,8 @@ ${teamBlocks}
     3팀 표의 "돌파" 는 35봉(약 7주) 고점을 종가가 넘었다는 뜻이고 "거래량 확인" 은 돌파봉/20일 평균 비율일 뿐이다. 그 이상을 말하지 마라.
 
 ## 서술 기준 — 독자는 주식 투자를 하는 일반인이다 (2026-10-02 사용자 결정. 이전: 금융 실무자 대상)
-1. 짧게. 한 문장은 한 가지 내용, 50자 안팎. '—'나 쉼표로 두 문장을 잇지 마라. 한 문장에 숫자는 2개까지.
-   칸마다 정해진 문장 수를 넘기지 마라. 첫 문장만 읽어도 결론이 보이게. 독자가 매매 판단에 쓰지 않을 말(작업 경위·당연한 말)은 빼라.
+1. 한 문장은 한 가지 내용, 60~80자. 칸마다 정해진 문장 수를 넘기지 마라. 첫 문장만 읽어도 결론이 보이게.
+   짧게 쓰되 **결론에는 반드시 이유를 붙인다** — "돈이 정제 업종으로 들어온다"로 끝내지 말고 왜 그런지(순위 상승·실적 전망·뉴스)까지 쓴다.
 2. **입력 JSON 의 키 이름·내부 값을 문장에 쓰지 마라.** dataNotice·barsNotice·sessionMismatch·flowCross·inflow·picks·
    stageKo·frank25·FRANK·d50·d200·agreement·llmResearchedCount·null·true 같은 말이 보이면 그 문장은 실패다. 뜻으로 바꿔 써라:
    d50 +13% → "두 달 평균보다 13% 위", d200 → "1년 평균보다", FRANK 1위 → "업종 순위 1위",

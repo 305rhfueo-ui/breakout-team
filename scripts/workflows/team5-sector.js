@@ -51,18 +51,19 @@ const CLAIM = { type: 'object', properties: {
 //    key·industry 는 모델이 고쳐 쓰므로(10가지 변형 실측) 결과를 받은 뒤 입력값으로 덮는다.
 const IND = { type: 'object', properties: {
   key: { type: 'string', description: '입력의 key 를 그대로' }, industry: { type: 'string', description: '입력의 industry 를 그대로' },
-  lead: { type: 'string', description: '최대 2문장. 이 업종이 뭘 하는 곳이고, 왜 지금 돈이 몰리는지. 아래 whyStrong 의 요약이어야 하며 새 사실을 넣지 마라' },
+  lead: { type: 'string', description: '최대 3문장. 이 업종이 뭘 하는 곳이고, 왜 지금 돈이 몰리는지. 아래 whyStrong 의 요약이어야 하며 새 사실을 넣지 마라' },
   whyStrong: { type: 'array', items: CLAIM, description: '이 업종이 강한 이유 최대 4개. 각 항목 출처 필수. 제공된 memberNews·flow 수치를 근거로 써도 된다' },
   driver: { type: 'string', enum: ['earnings', 'policy', 'macro', 'technology', 'commodity', 'rotation', 'unknown'] },
   durability: { type: 'string', enum: ['structural', 'cyclical', 'short_term', 'unknown'], description: '구조적인가 일시적인가' },
   keyStocks: { type: 'array', items: { type: 'string' }, description: '이 업종의 핵심 종목 티커' },
-  risk: { type: 'string', description: '이 강세가 꺾일 조건 한 문장. 무엇이 일어나면 이 논리가 깨지는지 구체적으로. 필수' },
+  risk: { type: 'string', description: '이 강세가 꺾일 조건 최대 2문장. 무엇이 일어나면 이 논리가 깨지는지 구체적으로. 필수' },
 }, required: ['key', 'industry', 'lead', 'whyStrong', 'driver', 'durability', 'risk'] }
 
 const STYLE = `
 ## 서술 기준 — 독자는 주식 투자를 하는 일반인이다 (2026-10-02 사용자 결정. 이전: 금융 실무자 대상)
-1. 짧게 쓴다. 한 문장은 한 가지 내용만, 50자 안팎. '—'나 쉼표로 두 문장을 잇지 마라. 한 문장에 숫자는 2개까지.
-   칸마다 정해진 문장 수 상한을 넘기지 마라. 독자가 매매 판단에 쓰지 않을 말(배경 설명·작업 경위·당연한 말)은 빼라.
+1. 한 문장은 한 가지 내용만, 60~80자. 칸마다 정해진 문장 수 상한을 넘기지 마라.
+   짧게 쓰되 **무슨 일이 왜 일어났고 그래서 뭐가 달라지는지**는 반드시 쓴다 — 사실만 나열하고 이유·영향을 빼면 읽는 사람이 이해하지 못한다.
+   빼야 할 것은 작업 경위("제공 자료에", "본문 403")와 당연한 말뿐이다.
 2. 결론부터. 첫 문장만 읽어도 "그래서 뭐가 중요한지"가 보이게 쓴다.
 3. 숫자는 결론을 받치는 핵심 1~3개만. 같은 숫자를 칸마다 반복하지 마라. 쓸 때는 단위·기간을 붙인다(예: "분기 매출 1.7억 달러, 1년 전보다 55% 증가").
 4. 전문 용어는 꼭 필요할 때만, 처음 나올 때 괄호로 풀어 준다.
@@ -125,7 +126,7 @@ ${RULES}`,
 targets.forEach((t, i) => { if (analyzed[i]) { analyzed[i].key = t.key; analyzed[i].industry = t.industry } })
 
 const SUM = { type: 'object', properties: {
-  rotationView: { type: 'string', description: '지금 돈이 어느 업종에서 어느 업종으로 옮겨 가는지 최대 2문장. 업종 이름은 한국어' },
+  rotationView: { type: 'string', description: '지금 돈이 어느 업종에서 어느 업종으로 옮겨 가는지 최대 3문장. 업종 이름은 한국어' },
   strongest: { type: 'object', properties: { industry: { type: 'string', description: '업종 이름, 한국어' }, why: { type: 'string', description: '왜 가장 강한지 최대 2문장' } }, required: ['industry', 'why'] },
   emerging: { type: 'array', items: { type: 'string' }, description: '새로 돈이 들어오는 업종(1개월 강도가 6개월보다 좋은 곳). 업종 이름은 한국어' },
   fading: { type: 'array', items: { type: 'string' }, description: '힘이 빠지는 업종(6개월은 좋은데 1개월이 꺾인 곳). 업종 이름은 한국어' },
