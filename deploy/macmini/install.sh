@@ -7,13 +7,14 @@
 # 하는 일: 테스트 → 한투 연결 확인 → launchd 작업 2개 등록
 #   com.breakout.daily  매일 07:10  morning.sh — RS 갱신 대기 → 아침 스캔·push → 화~토 start breakout
 #   com.breakout.night  매일 22:20  밤 루프 — 미국 장이 열리는 날에만 돌고, 아니면 바로 끝난다
+#   com.breakout.check  월수금 13:30 점검 — 위 작업들이 돌았는지 확인해 텔레그램으로 알린다 (healthcheck.js)
 # 시각은 맥의 시스템 시간대 기준이다. 시스템 설정 → 일반 → 날짜 및 시간이 "서울"인지 확인할 것.
 
 set -e
 REPO="$(cd "$(dirname "$0")/../.." && pwd)"
 AGENTS="$HOME/Library/LaunchAgents"
 LOGS="$HOME/Library/Logs/breakout-team"
-JOBS="com.breakout.daily com.breakout.night"
+JOBS="com.breakout.daily com.breakout.night com.breakout.check"
 # Claude 가 돌아야 하는 작업 — claude CLI 가 있을 때만 등록한다 (run-claude-job.sh 참고)
 #   com.breakout.review    일   09:00  /review (모의투자 주간 리뷰)
 # start breakout 은 따로 등록하지 않는다 — 아침 스캔 뒤에 morning.sh 가 잇는다.

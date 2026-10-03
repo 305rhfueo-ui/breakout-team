@@ -64,7 +64,7 @@ const CAT = { type: 'object', properties: {
   ticker: { type: 'string' },
   category: { type: 'number', enum: [1, 2, 3, 4, 5, 6] },
   claims: { type: 'array', items: CLAIM, description: '출처 딸린 근거 최대 4개. 뉴스를 못 찾으면 evidence_level:"no_source", statement:"근거 없음" 하나만' },
-  company: { type: 'string', description: '이 회사가 뭘 해서 돈을 버는지 최대 2문장. 실적표 숫자를 나열하지 마라' },
+  company: { type: 'string', description: '이 회사가 뭘 해서 돈을 버는지 한 문장. 실적표 숫자를 나열하지 마라' },
   volumeExplanation: { type: 'string', description: '거래량이 왜 터졌는지 최대 2문장. 이유를 못 찾았으면 "뚜렷한 뉴스 없이 거래량만 늘었다" 한 문장. 언제 무슨 일이 있었고 왜 거래량으로 이어졌는지. claims 의 요약이어야 하며 새 사실을 넣지 마라' },
   confidence: { type: 'string', enum: ['high', 'medium', 'low'] },
 }, required: ['ticker', 'category', 'claims', 'company', 'volumeExplanation', 'confidence'] }
@@ -80,7 +80,8 @@ const CATEGORIES = `
 
 const STYLE = `
 ## 서술 기준 — 독자는 주식 투자를 하는 일반인이다 (2026-10-02 사용자 결정. 이전: 금융 실무자 대상)
-1. 짧게 쓴다. 한 문장은 한 가지 내용만, 60자 안팎. 칸마다 정해진 문장 수 상한을 넘기지 마라.
+1. 짧게 쓴다. 한 문장은 한 가지 내용만, 50자 안팎. '—'나 쉼표로 두 문장을 잇지 마라. 한 문장에 숫자는 2개까지.
+   칸마다 정해진 문장 수 상한을 넘기지 마라. 독자가 매매 판단에 쓰지 않을 말(배경 설명·작업 경위·당연한 말)은 빼라.
 2. 결론부터. 첫 문장만 읽어도 "그래서 뭐가 중요한지"가 보이게 쓴다.
 3. 숫자는 결론을 받치는 핵심 1~3개만. 같은 숫자를 칸마다 반복하지 마라. 쓸 때는 단위·기간을 붙인다(예: "분기 매출 1.7억 달러, 1년 전보다 55% 증가").
 4. 전문 용어는 꼭 필요할 때만, 처음 나올 때 괄호로 풀어 준다.
