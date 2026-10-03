@@ -2,5 +2,216 @@
  "date": "2026-10-03",
  "cap": 6,
  "poolTotal": 11,
- "industries": []
+ "industries": [
+  {
+   "key": "Technology|Semiconductor Equipment & Materials",
+   "sector": "Technology",
+   "industry": "Semiconductor Equipment & Materials",
+   "count": 23,
+   "counts": {
+    "m1": 23,
+    "m3": 23,
+    "m6": 23
+   },
+   "wrs": {
+    "m1": 0.1503,
+    "m3": -0.006,
+    "m6": 0.2411
+   },
+   "final": {
+    "m1": 0.2708,
+    "m3": 0.0655,
+    "m6": 0.276
+   },
+   "rankPct": {
+    "m1": 0.71,
+    "m3": 38.57,
+    "m6": 10.71
+   },
+   "pickedBy": [
+    "m1"
+   ],
+   "members": [
+    "COHU",
+    "FORM",
+    "AXTI",
+    "AEHR"
+   ],
+   "memberNews": [
+    {
+     "ticker": "COHU",
+     "date": "2026-09-24",
+     "publisher": "Zacks",
+     "title": "Teradyne Strengthens AI Test Portfolio: Can It Beat KLAC & COHU?",
+     "url": "https://www.nasdaq.com/articles/teradyne-strengthens-ai-test-portfolio-can-it-beat-klac-cohu"
+    },
+    {
+     "ticker": "COHU",
+     "date": "2026-09-23",
+     "publisher": "The Motley Fool",
+     "title": "Cohu CEO Luis Muller Sells Shares for $3.3 Million",
+     "url": "https://www.nasdaq.com/articles/cohu-ceo-luis-muller-sells-shares-33-million"
+    },
+    {
+     "ticker": "COHU",
+     "date": "2026-09-08",
+     "publisher": "Zacks",
+     "title": "Teradyne Rides on Strong UltraFLEXplus Demand: Can It Beat KLAC & COHU?",
+     "url": "https://www.nasdaq.com/articles/teradyne-rides-strong-ultraflexplus-demand-can-it-beat-klac-cohu"
+    },
+    {
+     "ticker": "FORM",
+     "date": "2026-09-30",
+     "publisher": "Fintel",
+     "title": "Deutsche Bank Initiates Coverage of FormFactor with Buy",
+     "url": "https://www.nasdaq.com/articles/deutsche-bank-initiates-coverage-formfactor-buy"
+    },
+    {
+     "ticker": "FORM",
+     "date": "2026-09-22",
+     "publisher": "The Motley Fool",
+     "title": "FormFactor CEO Mike Slessor Sells 17,510 Shares",
+     "url": "https://www.nasdaq.com/articles/formfactor-ceo-mike-slessor-sells-17510-shares"
+    },
+    {
+     "ticker": "FORM",
+     "date": "2026-09-09",
+     "publisher": "The Motley Fool",
+     "title": "FormFactor Director Sells 2,100 Shares",
+     "url": "https://www.nasdaq.com/articles/formfactor-director-sells-2100-shares"
+    },
+    {
+     "ticker": "AXTI",
+     "date": "2026-09-29",
+     "publisher": "Zacks",
+     "title": "AXT (AXTI) Is Up 12.72% in One Week: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/axt-axti-1272-one-week-what-you-should-know"
+    },
+    {
+     "ticker": "AXTI",
+     "date": "2026-09-24",
+     "publisher": "Zacks",
+     "title": "Amkor vs. AXT: Which Semiconductor Stock Is the Better Buy Now?",
+     "url": "https://www.nasdaq.com/articles/amkor-vs-axt-which-semiconductor-stock-better-buy-now"
+    },
+    {
+     "ticker": "AXTI",
+     "date": "2026-09-18",
+     "publisher": "Zacks",
+     "title": "Bull of the Day: AXT (AXTI)",
+     "url": "https://www.nasdaq.com/articles/bull-day-axt-axti"
+    },
+    {
+     "ticker": "AEHR",
+     "date": "2026-09-30",
+     "publisher": "Zacks",
+     "title": "AEHR vs. CAMT: Which Semiconductor Equipment Stock Is the Better Bet?",
+     "url": "https://www.nasdaq.com/articles/aehr-vs-camt-which-semiconductor-equipment-stock-better-bet"
+    },
+    {
+     "ticker": "AEHR",
+     "date": "2026-09-28",
+     "publisher": "Zacks",
+     "title": "Aehr Test Systems (AEHR) Earnings Expected to Grow: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/aehr-test-systems-aehr-earnings-expected-grow-should-you-buy"
+    },
+    {
+     "ticker": "AEHR",
+     "date": "2026-09-21",
+     "publisher": "Zacks",
+     "title": "AEHR at 18.59X Sales: Market Loves Its AI Story, But is Love Blind?",
+     "url": "https://www.nasdaq.com/articles/aehr-1859x-sales-market-loves-its-ai-story-love-blind"
+    }
+   ],
+   "flow": {
+    "FRANK": 8,
+    "frank25": -1,
+    "f10": 4.387291981845688,
+    "f25": -12.768647281921616,
+    "d50": 8.61,
+    "d200": 17.48,
+    "d200Delta": 7.52,
+    "cy": 0.07,
+    "ny": 0.35,
+    "upRatio": 92.11267605633803,
+    "coverage": 710,
+    "winRate": 0.7826,
+    "stage": "mid_up",
+    "stageKo": "📈 상승 중반 (확장 중)",
+    "flow": "pending"
+   }
+  },
+  {
+   "key": "Healthcare|Health Information Services",
+   "sector": "Healthcare",
+   "industry": "Health Information Services",
+   "count": 6,
+   "counts": {
+    "m1": 6,
+    "m3": 6,
+    "m6": 6
+   },
+   "wrs": {
+    "m1": -0.0319,
+    "m3": 0.2042,
+    "m6": 0.5303
+   },
+   "final": {
+    "m1": 0.0165,
+    "m3": 0.0676,
+    "m6": 0.2523
+   },
+   "rankPct": {
+    "m1": 40,
+    "m3": 5.71,
+    "m6": 2.86
+   },
+   "pickedBy": [
+    "top10"
+   ],
+   "members": [
+    "HNGE"
+   ],
+   "memberNews": [
+    {
+     "ticker": "HNGE",
+     "date": "2026-09-04",
+     "publisher": "The Motley Fool",
+     "title": "Hinge Health Director Kristina Leslie Sells 1,200 Shares for $105,876",
+     "url": "https://www.nasdaq.com/articles/hinge-health-director-kristina-leslie-sells-1200-shares-105876"
+    },
+    {
+     "ticker": "HNGE",
+     "date": "2026-09-03",
+     "publisher": "Zacks",
+     "title": "Hinge Health Inc. (HNGE) Up 13.7% Since Last Earnings Report: Can It Continue?",
+     "url": "https://www.nasdaq.com/articles/hinge-health-inc-hnge-137-last-earnings-report-can-it-continue"
+    },
+    {
+     "ticker": "HNGE",
+     "date": "2026-08-20",
+     "publisher": "MarketBeat",
+     "title": "One Platform, Every Ailment: Hinge Health's Gamble",
+     "url": "https://www.nasdaq.com/articles/one-platform-every-ailment-hinge-healths-gamble"
+    }
+   ],
+   "flow": {
+    "FRANK": 10,
+    "frank25": 17,
+    "f10": 16.160220994475146,
+    "f25": 45.41786743515853,
+    "d50": -3.515,
+    "d200": 12.024999999999999,
+    "d200Delta": -5.835000000000001,
+    "cy": 0.03,
+    "ny": 0.04,
+    "upRatio": 65.38461538461539,
+    "coverage": 286,
+    "winRate": 0.8333,
+    "stage": "pullback",
+    "stageKo": "❄️ 조정 중",
+    "flow": "neutral"
+   }
+  }
+ ]
 }

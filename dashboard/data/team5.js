@@ -526,16 +526,32 @@ window.TEAM5_DATA = {
       {
         "key": "Technology|Semiconductor Equipment & Materials",
         "industry": "Semiconductor Equipment & Materials",
-        "lead": "반도체 장비·소재 업종은 AI 칩이 복잡해지며 검사·테스트 장비 수요가 커진 덕에 한 달 새 상위 2%로 올라섰다. FormFactor, Aehr 등 테스트 장비주가 중심이다. 다만 3개월 기준으로는 아직 평범해, 최근 가속 구간이다.",
+        "lead": "반도체 장비·소재는 칩을 만들고 검사하는 장비와 재료를 파는 업종입니다. 최근 1개월 QQQ 대비 초과수익이 상위 1% 안에 들 만큼 돈이 몰렸습니다. AI 칩 검사 수요와 증권사 투자의견 상향이 배경이며, 3개월로 보면 아직 제자리라 최근 한 달의 급반등입니다.",
         "whyStrong": [
           {
+            "id": "w1",
+            "statement": "AI 칩 검사(테스트) 장비 수요가 이야기의 중심입니다. 검사 장비 업체들이 서로 AI 수혜 경쟁 후보로 묶여 거론되고 있습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Teradyne Strengthens AI Test Portfolio: Can It Beat KLAC & COHU?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/teradyne-strengthens-ai-test-portfolio-can-it-beat-klac-cohu",
+                "date": "2026-09-24",
+                "quote": "Teradyne Strengthens AI Test Portfolio: Can It Beat KLAC & COHU?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
             "id": "w2",
-            "statement": "FormFactor는 AI 칩 복잡도 상승의 수혜 종목으로 꼽히며, 9월 30일 Deutsche Bank가 매수 의견으로 분석을 시작했다.",
+            "statement": "월가 시선이 올라갔습니다. 도이체방크가 프로브카드(칩 검사용 접촉 부품) 업체 FormFactor를 매수 의견으로 새로 분석하기 시작했습니다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "Deutsche Bank Initiates Coverage of FormFactor with Buy",
-                "publisher": "Fintel (Nasdaq.com)",
+                "publisher": "Fintel (Nasdaq 게재)",
                 "url": "https://www.nasdaq.com/articles/deutsche-bank-initiates-coverage-formfactor-buy",
                 "date": "2026-09-30",
                 "quote": "Deutsche Bank Initiates Coverage of FormFactor with Buy",
@@ -543,22 +559,46 @@ window.TEAM5_DATA = {
                 "httpStatus": 200
               }
             ]
+          },
+          {
+            "id": "w3",
+            "statement": "소형주로 매수세가 번졌습니다. AXT는 일주일 만에 12.72% 올랐고 Aehr는 AI 이야기로 매출의 18.59배 가치를 인정받고 있습니다. 다만 비싸다는 경계도 같이 나옵니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AXT (AXTI) Is Up 12.72% in One Week: What You Should Know",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/axt-axti-1272-one-week-what-you-should-know",
+                "date": "2026-09-29",
+                "quote": "AXT (AXTI) Is Up 12.72% in One Week: What You Should Know",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "AEHR at 18.59X Sales: Market Loves Its AI Story, But is Love Blind?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/aehr-1859x-sales-market-loves-its-ai-story-love-blind",
+                "date": "2026-09-21",
+                "quote": "AEHR at 18.59X Sales: Market Loves Its AI Story, But is Love Blind?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
           }
         ],
-        "driver": "technology",
-        "durability": "cyclical",
         "keyStocks": [
-          "FORM",
           "COHU",
+          "FORM",
           "AXTI",
           "AEHR"
         ],
-        "risk": "AI 서버 투자가 줄거나 주문이 일회성으로 끝나면 이 이야기는 깨진다. 후속 주문과 분기 매출이 이어지는지, 한 달 새 오른 주가를 실적이 따라가는지가 확인 지점이다.",
+        "driver": "technology",
+        "durability": "cyclical",
+        "risk": "AI 칩 투자가 둔화돼 검사 장비 주문이 줄면 이 이야기는 깨집니다. 3개월 성적이 제자리인 만큼 최근 급등분이 되돌려질 수 있고, 경영진의 잇따른 주식 매도도 부담입니다.",
         "factcheck": {
           "verdict": "partial",
           "removed": [
-            "w1",
-            "w3"
+            "w4"
           ],
           "reason": ""
         },
@@ -568,56 +608,41 @@ window.TEAM5_DATA = {
       {
         "key": "Healthcare|Health Information Services",
         "industry": "Health Information Services",
-        "lead": "건강정보 서비스는 디지털 건강관리 플랫폼 같은 회사들이 모인 업종입니다. 다만 대표 종목 Hinge Health의 실적 이후 상승이 중심이고, 최근 한 달은 숨 고르기입니다.",
+        "lead": "건강 정보 서비스는 디지털 건강관리 소프트웨어 기업들이 속한 업종입니다. 대표 종목 Hinge Health의 실적이 빠르게 늘어 3~6개월 성과가 상위권입니다. 다만 최근 한 달은 쉬는 중이라 흐름이 이어지는지 확인이 필요합니다.",
         "whyStrong": [
           {
             "id": "w1",
-            "statement": "대표 종목 Hinge Health(HNGE)는 실적 발표 후 주가가 13.7% 올랐습니다.",
+            "statement": "Hinge Health의 2분기 매출이 1년 전보다 53% 늘어 2억 1,300만 달러였고, 잉여현금흐름(영업에서 남은 현금)은 1억 달러로 3배가 됐습니다. 이 업종 강세의 중심 근거입니다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Hinge Health Inc. (HNGE) Up 13.7% Since Last Earnings Report: Can It Continue?",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/hinge-health-inc-hnge-137-last-earnings-report-can-it-continue",
-                "date": "2026-09-03",
-                "quote": "Hinge Health Inc. (HNGE) Up 13.7% Since Last Earnings Report: Can It Continue?",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w2",
-            "statement": "Hinge Health는 한 플랫폼에서 여러 질환을 다루는 전략으로 시장의 관심을 받고 있습니다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "One Platform, Every Ailment: Hinge Health's Gamble",
-                "publisher": "MarketBeat",
-                "url": "https://www.nasdaq.com/articles/one-platform-every-ailment-hinge-healths-gamble",
-                "date": "2026-08-20",
-                "quote": "One Platform, Every Ailment: Hinge Health's Gamble",
-                "verified": "ok",
-                "httpStatus": 200
+                "title": "Hinge Health reports record second quarter 2026 financial results; signs definitive agreement to acquire Cylinder Health",
+                "publisher": "Business Wire",
+                "url": "https://secure.businesswire.com/news/home/20260804672898/en/Hinge-Health-reports-record-second-quarter-2026-financial-results-signs-definitive-agreement-to-acquire-Cylinder-Health",
+                "date": "2026-08-04",
+                "quote": "Hinge Health reported record second quarter 2026 financial results with revenue increased 53% year-over-year to $213 million and free cash flow of $100 million, up 3x year-over-year.",
+                "verified": "unverified",
+                "httpStatus": 403
               }
             ]
           }
         ],
         "driver": "earnings",
-        "durability": "unknown",
-        "risk": "종목이 6개뿐이고 Hinge Health 한 곳에 쏠려 있어, 이 종목의 실적이 실망스러우면 업종 강세가 쉽게 꺾입니다. 두 달 평균선 아래에 있는 종목이 많아, 다시 그 위로 올라서지 못하면 이 이야기는 힘을 잃습니다.",
+        "durability": "cyclical",
         "keyStocks": [
           "HNGE"
         ],
+        "risk": "업종에 종목이 6개뿐이고 Hinge Health 한 곳의 영향이 커서, 이 회사의 성장이 둔해지면 강세 논리가 깨집니다. 주가가 두 달 평균보다 3.5% 아래라서, 다음 분기 매출 증가율이 높게 유지되는지가 확인 기준입니다.",
         "factcheck": {
           "verdict": "partial",
           "removed": [
+            "w2",
             "w3"
           ],
           "reason": "",
           "leadFixed": true
         },
-        "leadOriginal": "건강정보 서비스는 디지털 건강관리 플랫폼 같은 회사들이 모인 업종입니다. 최근 3~6개월 초과수익이 커서 업종 순위가 한 달 새 17계단 올랐습니다. 다만 대표 종목 Hinge Health의 실적 이후 상승이 중심이고, 최근 한 달은 숨 고르기입니다.",
+        "leadOriginal": "건강 정보 서비스는 디지털 건강관리 소프트웨어 기업들이 속한 업종입니다. 대표 종목 Hinge Health의 실적이 빠르게 늘고 올해 전망도 높아져 3~6개월 성과가 상위권입니다. 다만 최근 한 달은 쉬는 중이라 흐름이 이어지는지 확인이 필요합니다.",
         "researchedOn": "2026-10-03",
         "carried": false
       },
@@ -1586,18 +1611,18 @@ window.TEAM5_DATA = {
       }
     ],
     "summary": {
-      "rotationView": "돈이 건강정보 서비스에서 반도체 장비로 옮겨 가는 모습입니다. 반도체 장비는 최근 1개월 상대 강도 0.131로 6개월(0.234)보다 약하지만 순위는 상위 1.4%로 가장 높습니다. 건강정보 서비스는 6개월 순위 상위 2.9%였으나 최근 1개월은 상위 30%로 밀렸습니다.",
+      "rotationView": "돈이 반도체 장비 쪽으로 새로 들어오고 있습니다. 반도체 장비는 최근 1개월 상승 강도(0.15)가 3개월(-0.01)을 크게 넘어서고, AI 칩 검사 장비 수요와 월가 분석 시작이 이를 받칩니다. 반면 헬스케어 정보 서비스는 6개월 강도(0.53)가 가장 높지만 최근 1개월(-0.03)은 꺾여, 오래 오른 뒤 힘이 빠지는 쪽입니다.",
       "strongest": {
-        "industry": "반도체 장비",
-        "why": "최근 1개월 순위가 상위 1.4%로 두 업종 중 가장 높습니다. FormFactor가 AI 칩이 복잡해지는 흐름의 수혜주로 꼽히고, 9월 30일 Deutsche Bank가 매수 의견으로 분석을 시작했습니다."
+        "industry": "반도체 장비·소재",
+        "why": "최근 1개월 상승 강도가 업종 전체 최상위권(상위 1% 안팎)입니다. AI 칩 검사 장비 수요가 커지고 도이체방크가 FormFactor를 매수 의견으로 분석하기 시작해, 소형주까지 매수세가 번졌습니다."
       },
       "emerging": [
-        "반도체 장비"
+        "반도체 장비·소재"
       ],
       "fading": [
-        "건강정보 서비스"
+        "헬스케어 정보 서비스"
       ],
-      "caution": "반도체 장비는 업황 사이클을 타는 업종이라 AI 칩 수요가 꺾이면 강세가 빨리 식을 수 있고, 건강정보 서비스는 실적 발표 효과가 지나간 일시적 조정일 수도 있습니다."
+      "caution": "반도체 장비는 이미 단기간에 많이 올라 비싸다는 경계가 나오고, 헬스케어 정보 서비스의 약세도 짧은 조정일 수 있어 다음 한두 주의 흐름에 따라 해석이 뒤집힐 수 있습니다."
     },
     "summaryResearchedOn": "2026-10-03",
     "reusedFrom": null
