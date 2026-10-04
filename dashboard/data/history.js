@@ -1,6 +1,28 @@
 window.HISTORY_DATA = {
   "runs": [
     {
+      "date": "2026-10-05",
+      "qqq": "green",
+      "finraYoY": 37.2,
+      "picks": 51,
+      "breakouts": 21,
+      "chartCheck": 27,
+      "plansWatch": 9,
+      "droppedToday": 0,
+      "reentryBlocked": 3,
+      "barsNotice": null,
+      "crossCounts": {
+        "persistent": 2,
+        "newEntrants": 17,
+        "midTerm": 11,
+        "fading": 16,
+        "other": 5,
+        "total": 51
+      },
+      "siteCondition": "BAD",
+      "theme": "Semiconductors 9종목(17.6%) · Semiconductor Equipment & Materials 8종목(15.7%) · Software - Infrastructure 7종목(13.7%)"
+    },
+    {
       "date": "2026-10-04",
       "qqq": "green",
       "finraYoY": 37.2,

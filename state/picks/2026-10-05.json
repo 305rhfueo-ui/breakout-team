@@ -1,0 +1,383 @@
+{
+  "date": "2026-10-05",
+  "count": 51,
+  "tickers": [
+    "MXL",
+    "MRNA",
+    "AGL",
+    "TEAM",
+    "GRAL",
+    "VICR",
+    "TWST",
+    "BAND",
+    "COHU",
+    "ECO",
+    "FORM",
+    "OKTA",
+    "P",
+    "AXTI",
+    "MSTR",
+    "DELL",
+    "CRWD",
+    "SMTC",
+    "CORT",
+    "FEIM",
+    "HPE-C",
+    "ESTC",
+    "MPC",
+    "SEI",
+    "HNGE",
+    "AEHR",
+    "SNOW",
+    "DINO",
+    "DDOG",
+    "VECO",
+    "ACLS",
+    "PENG",
+    "PANW",
+    "CRDO",
+    "VLO",
+    "RMBS",
+    "RBRK",
+    "TER",
+    "XMTR",
+    "TWLO",
+    "FPS",
+    "QLYS",
+    "ALNT",
+    "MRVL",
+    "ATEX",
+    "INTC",
+    "AMBQ",
+    "BXC",
+    "ONTO",
+    "SWKS",
+    "SIMO"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": true
+  },
+  "themes": [
+    {
+      "key": "Industry:Semiconductors",
+      "level": "Industry",
+      "name": "Semiconductors",
+      "count": 9,
+      "sharePct": 17.6,
+      "tickers": [
+        "MXL",
+        "SMTC",
+        "CRDO",
+        "RMBS",
+        "MRVL",
+        "INTC",
+        "AMBQ",
+        "SWKS",
+        "SIMO"
+      ],
+      "concentration": "mid",
+      "periods": {
+        "m1": 6,
+        "m3": 2,
+        "m6": 3
+      }
+    },
+    {
+      "key": "Industry:Semiconductor Equipment & Materials",
+      "level": "Industry",
+      "name": "Semiconductor Equipment & Materials",
+      "count": 8,
+      "sharePct": 15.7,
+      "tickers": [
+        "COHU",
+        "FORM",
+        "AXTI",
+        "AEHR",
+        "VECO",
+        "ACLS",
+        "TER",
+        "ONTO"
+      ],
+      "concentration": "mid",
+      "periods": {
+        "m1": 8,
+        "m3": 0,
+        "m6": 0
+      }
+    },
+    {
+      "key": "Industry:Software - Infrastructure",
+      "level": "Industry",
+      "name": "Software - Infrastructure",
+      "count": 7,
+      "sharePct": 13.7,
+      "tickers": [
+        "BAND",
+        "OKTA",
+        "CRWD",
+        "PANW",
+        "RBRK",
+        "TWLO",
+        "QLYS"
+      ],
+      "concentration": "mid",
+      "periods": {
+        "m1": 1,
+        "m3": 1,
+        "m6": 7
+      }
+    },
+    {
+      "key": "Industry:Software - Application",
+      "level": "Industry",
+      "name": "Software - Application",
+      "count": 5,
+      "sharePct": 9.8,
+      "tickers": [
+        "TEAM",
+        "MSTR",
+        "ESTC",
+        "SNOW",
+        "DDOG"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 3,
+        "m6": 3
+      }
+    },
+    {
+      "key": "Industry:Oil & Gas Refining & Marketing",
+      "level": "Industry",
+      "name": "Oil & Gas Refining & Marketing",
+      "count": 3,
+      "sharePct": 5.9,
+      "tickers": [
+        "MPC",
+        "DINO",
+        "VLO"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 3,
+        "m6": 0
+      }
+    },
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 2,
+      "sharePct": 3.9,
+      "tickers": [
+        "MRNA",
+        "CORT"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 1,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Diagnostics & Research",
+      "level": "Industry",
+      "name": "Diagnostics & Research",
+      "count": 2,
+      "sharePct": 3.9,
+      "tickers": [
+        "GRAL",
+        "TWST"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 2,
+        "m3": 2,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Electronic Components",
+      "level": "Industry",
+      "name": "Electronic Components",
+      "count": 2,
+      "sharePct": 3.9,
+      "tickers": [
+        "VICR",
+        "ALNT"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 2,
+        "m3": 0,
+        "m6": 0
+      }
+    },
+    {
+      "key": "Industry:Computer Hardware",
+      "level": "Industry",
+      "name": "Computer Hardware",
+      "count": 2,
+      "sharePct": 3.9,
+      "tickers": [
+        "P",
+        "DELL"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 1,
+        "m6": 1
+      }
+    },
+    {
+      "key": "Industry:Industrial Distribution",
+      "level": "Industry",
+      "name": "Industrial Distribution",
+      "count": 2,
+      "sharePct": 3.9,
+      "tickers": [
+        "XMTR",
+        "BXC"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 1,
+        "m6": 1
+      }
+    }
+  ],
+  "byPeriod": {
+    "m1": [
+      "MXL",
+      "GRAL",
+      "VICR",
+      "TWST",
+      "BAND",
+      "COHU",
+      "FORM",
+      "P",
+      "AXTI",
+      "SMTC",
+      "FEIM",
+      "SEI",
+      "AEHR",
+      "DDOG",
+      "VECO",
+      "ACLS",
+      "CRDO",
+      "RMBS",
+      "TER",
+      "FPS",
+      "ALNT",
+      "MRVL",
+      "INTC",
+      "ONTO"
+    ],
+    "m3": [
+      "MRNA",
+      "TEAM",
+      "GRAL",
+      "TWST",
+      "ECO",
+      "OKTA",
+      "P",
+      "MSTR",
+      "SMTC",
+      "ESTC",
+      "MPC",
+      "DINO",
+      "VLO",
+      "BXC",
+      "SWKS"
+    ],
+    "m6": [
+      "MXL",
+      "MRNA",
+      "AGL",
+      "TEAM",
+      "GRAL",
+      "TWST",
+      "BAND",
+      "OKTA",
+      "DELL",
+      "CRWD",
+      "CORT",
+      "HPE-C",
+      "HNGE",
+      "SNOW",
+      "DDOG",
+      "PENG",
+      "PANW",
+      "RBRK",
+      "XMTR",
+      "TWLO",
+      "QLYS",
+      "ATEX",
+      "AMBQ",
+      "SIMO"
+    ]
+  },
+  "cross": {
+    "persistent": [
+      "GRAL",
+      "TWST"
+    ],
+    "newEntrants": [
+      "VICR",
+      "COHU",
+      "FORM",
+      "AXTI",
+      "FEIM",
+      "SEI",
+      "AEHR",
+      "VECO",
+      "ACLS",
+      "CRDO",
+      "RMBS",
+      "TER",
+      "FPS",
+      "ALNT",
+      "MRVL",
+      "INTC",
+      "ONTO"
+    ],
+    "midTerm": [
+      "MRNA",
+      "TEAM",
+      "ECO",
+      "OKTA",
+      "MSTR",
+      "ESTC",
+      "MPC",
+      "DINO",
+      "VLO",
+      "BXC",
+      "SWKS"
+    ],
+    "fading": [
+      "AGL",
+      "DELL",
+      "CRWD",
+      "CORT",
+      "HPE-C",
+      "HNGE",
+      "SNOW",
+      "PENG",
+      "PANW",
+      "RBRK",
+      "XMTR",
+      "TWLO",
+      "QLYS",
+      "ATEX",
+      "AMBQ",
+      "SIMO"
+    ]
+  }
+}

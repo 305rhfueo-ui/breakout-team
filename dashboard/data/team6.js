@@ -1,5 +1,5 @@
 window.TEAM6_DATA = {
-  "generated": "2026-10-04",
+  "generated": "2026-10-05",
   "sessionDate": "2026-10-02",
   "rulesVersion": "0.3",
   "regime": "green",
@@ -10,6 +10,65 @@ window.TEAM6_DATA = {
   "slipPct": 0.2,
   "earningsOk": true,
   "plans": [
+    {
+      "ticker": "MPC",
+      "name": "매러선 페트롤리엄",
+      "sector": "Energy",
+      "industry": "Oil & Gas Refining & Marketing",
+      "grade": "A",
+      "state": "pre",
+      "asOf": "2026-10-02",
+      "price": 422.33,
+      "pivot": 431.08,
+      "pivotDate": "2026-09-21",
+      "stop": 414.17,
+      "riskPerSharePct": 3.92,
+      "weightPct": 12.7,
+      "weightCapped": false,
+      "distToPivotPct": -2.03,
+      "distToPivotAdr": -0.51,
+      "extensionAdr": 1.41,
+      "chase": false,
+      "adrPct": 4,
+      "ma10": 398.43,
+      "dollarVol20M": 1218.4,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +81%",
+        "베이스 3.8주",
+        "깊이 12.1%",
+        "저점 상승 1회",
+        "진폭 1.36배 · 10일 종가폭 2 ADR",
+        "10일선 +1.4 ADR · 20일선 +1.2 ADR",
+        "20일선 기울기 +1.51%"
+      ],
+      "fails": [],
+      "metrics": {
+        "baseBars": 19,
+        "baseWeeks": 3.8,
+        "depthPct": 12.1,
+        "priorMovePct": 80.9,
+        "higherLows": 1,
+        "contraction": 1.36,
+        "closeRange10Adr": 2,
+        "surf10": 1.41,
+        "surf20": 1.24,
+        "slope20": 1.51,
+        "baseLow": 378.8,
+        "lastSwingLow": 380
+      },
+      "catalyst": null,
+      "flow": {
+        "flow": "leading",
+        "stageKo": "⚠️ 후반 가속",
+        "frank25": 1
+      },
+      "earnings": null,
+      "blocked": null,
+      "shadowBook": null,
+      "watch": true,
+      "score": 73
+    },
     {
       "ticker": "QLYS",
       "name": "퀄리스",
@@ -59,9 +118,9 @@ window.TEAM6_DATA = {
       },
       "catalyst": null,
       "flow": {
-        "flow": "pending",
+        "flow": "outflow",
         "stageKo": "💤 미형성",
-        "frank25": 4
+        "frank25": 2
       },
       "earnings": null,
       "blocked": null,
@@ -831,7 +890,7 @@ window.TEAM6_DATA = {
     },
     {
       "ticker": "SIMO",
-      "name": null,
+      "name": "실리콘 모션 테크놀로지(ADR)",
       "sector": "Technology",
       "industry": "Semiconductors",
       "grade": "A",
@@ -880,7 +939,7 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "pending",
         "stageKo": "📈 상승 중반 (확장 중)",
-        "frank25": -2
+        "frank25": 1
       },
       "earnings": null,
       "blocked": null,
@@ -1321,8 +1380,8 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "flow": {
         "flow": "outflow",
-        "stageKo": "❄️ 조정 중",
-        "frank25": -8
+        "stageKo": "💤 미형성",
+        "frank25": -6
       },
       "earnings": null,
       "blocked": null,
@@ -1706,7 +1765,7 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "outflow",
         "stageKo": "❄️ 조정 중",
-        "frank25": 6
+        "frank25": 8
       },
       "earnings": null,
       "blocked": null,
@@ -2158,9 +2217,9 @@ window.TEAM6_DATA = {
       },
       "catalyst": null,
       "flow": {
-        "flow": "pending",
+        "flow": "outflow",
         "stageKo": "💤 미형성",
-        "frank25": 4
+        "frank25": 2
       },
       "earnings": null,
       "blocked": null,
@@ -2601,7 +2660,7 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "leading",
         "stageKo": "⚠️ 후반 가속",
-        "frank25": 0
+        "frank25": 1
       },
       "earnings": null,
       "blocked": null,
@@ -3049,7 +3108,7 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "leading",
         "stageKo": "⚠️ 후반 가속",
-        "frank25": 0
+        "frank25": 1
       },
       "earnings": null,
       "blocked": null,
@@ -3437,8 +3496,8 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "flow": {
         "flow": "outflow",
-        "stageKo": "❄️ 조정 중",
-        "frank25": -8
+        "stageKo": "💤 미형성",
+        "frank25": -6
       },
       "earnings": null,
       "blocked": "ADR 2.89% — 기준(4%) 미달",
@@ -3502,7 +3561,7 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "pending",
         "stageKo": "📈 상승 중반 (확장 중)",
-        "frank25": -2
+        "frank25": 1
       },
       "earnings": null,
       "blocked": "ADR 3.83% — 기준(4%) 미달",
@@ -3561,7 +3620,7 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "outflow",
         "stageKo": "❄️ 조정 중",
-        "frank25": -63
+        "frank25": -67
       },
       "earnings": null,
       "blocked": "ADR 3.88% — 기준(4%) 미달",
@@ -3687,7 +3746,7 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "pending",
         "stageKo": "📈 상승 중반 (확장 중)",
-        "frank25": -2
+        "frank25": 1
       },
       "earnings": null,
       "blocked": "피벗까지 1.31 ADR — 1 ADR 넘게 떨어져 있음",
@@ -3746,7 +3805,7 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "neutral",
         "stageKo": "💤 미형성",
-        "frank25": 8
+        "frank25": 5
       },
       "earnings": null,
       "blocked": "피벗까지 1.16 ADR — 1 ADR 넘게 떨어져 있음",
@@ -3805,7 +3864,7 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "pending",
         "stageKo": "📈 상승 중반 (확장 중)",
-        "frank25": -2
+        "frank25": 1
       },
       "earnings": null,
       "blocked": "피벗까지 1.17 ADR — 1 ADR 넘게 떨어져 있음",
@@ -3815,7 +3874,7 @@ window.TEAM6_DATA = {
     },
     {
       "ticker": "DOCN",
-      "name": "디지털오션 홀딩스",
+      "name": null,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "grade": "A",
@@ -3862,9 +3921,9 @@ window.TEAM6_DATA = {
       },
       "catalyst": null,
       "flow": {
-        "flow": "pending",
+        "flow": "outflow",
         "stageKo": "💤 미형성",
-        "frank25": 4
+        "frank25": 2
       },
       "earnings": null,
       "blocked": "피벗까지 1.08 ADR — 1 ADR 넘게 떨어져 있음",
@@ -3923,9 +3982,9 @@ window.TEAM6_DATA = {
       },
       "catalyst": null,
       "flow": {
-        "flow": "outflow",
-        "stageKo": "❄️ 조정 중",
-        "frank25": 5
+        "flow": "pending",
+        "stageKo": "⭐ 상승 초입",
+        "frank25": 10
       },
       "earnings": null,
       "blocked": "ADR 3.49% — 기준(4%) 미달",
@@ -3986,7 +4045,7 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "pending",
         "stageKo": "📈 상승 중반 (확장 중)",
-        "frank25": 3
+        "frank25": 2
       },
       "earnings": null,
       "blocked": "ADR 3.76% — 기준(4%) 미달",
@@ -4047,7 +4106,7 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "outflow",
         "stageKo": "❄️ 조정 중",
-        "frank25": 39
+        "frank25": 46
       },
       "earnings": null,
       "blocked": "피벗까지 1.19 ADR — 1 ADR 넘게 떨어져 있음",
@@ -4108,135 +4167,13 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "neutral",
         "stageKo": "💤 미형성",
-        "frank25": 8
+        "frank25": 5
       },
       "earnings": null,
       "blocked": "ADR 3.59% — 기준(4%) 미달",
       "shadowBook": null,
       "watch": false,
       "score": 54.8
-    },
-    {
-      "ticker": "ALAB",
-      "name": "아스테라 랩스",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "grade": "B",
-      "state": "pre",
-      "asOf": "2026-10-02",
-      "price": 350.33,
-      "pivot": 377.87,
-      "pivotDate": "2026-09-25",
-      "stop": 354.9,
-      "riskPerSharePct": 6.08,
-      "weightPct": 8.2,
-      "weightCapped": false,
-      "distToPivotPct": -7.29,
-      "distToPivotAdr": -1.11,
-      "extensionAdr": -0.25,
-      "chase": false,
-      "adrPct": 6.56,
-      "ma10": 356.17,
-      "dollarVol20M": 1352,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +54%",
-        "✗ 베이스 1.8주",
-        "깊이 18.4%",
-        "저점 상승 1회",
-        "진폭 1.24배 · 10일 종가폭 1 ADR",
-        "10일선 -0.3 ADR · 20일선 +1.3 ADR",
-        "20일선 기울기 +5.75%"
-      ],
-      "fails": [
-        "baseLen"
-      ],
-      "metrics": {
-        "baseBars": 9,
-        "baseWeeks": 1.8,
-        "depthPct": 18.4,
-        "priorMovePct": 54.5,
-        "higherLows": 1,
-        "contraction": 1.24,
-        "closeRange10Adr": 1,
-        "surf10": -0.25,
-        "surf20": 1.29,
-        "slope20": 5.75,
-        "baseLow": 308.34,
-        "lastSwingLow": 342
-      },
-      "catalyst": null,
-      "flow": {
-        "flow": "pending",
-        "stageKo": "📈 상승 중반 (확장 중)",
-        "frank25": -2
-      },
-      "earnings": null,
-      "blocked": "피벗까지 1.11 ADR — 1 ADR 넘게 떨어져 있음",
-      "shadowBook": "far",
-      "watch": false,
-      "score": 52.7
-    },
-    {
-      "ticker": "SWKS",
-      "name": null,
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "grade": "B",
-      "state": "pre",
-      "asOf": "2026-10-02",
-      "price": 85.03,
-      "pivot": 92.8,
-      "pivotDate": "2026-09-23",
-      "stop": 87.51,
-      "riskPerSharePct": 5.7,
-      "weightPct": 8.8,
-      "weightCapped": false,
-      "distToPivotPct": -8.37,
-      "distToPivotAdr": -1.35,
-      "extensionAdr": -0.5,
-      "chase": false,
-      "adrPct": 6.22,
-      "ma10": 87.66,
-      "dollarVol20M": 641.8,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +67%",
-        "베이스 2.6주",
-        "깊이 14.4%",
-        "저점 상승 1회",
-        "진폭 0.63배 · 10일 종가폭 1.6 ADR",
-        "✗ 10일선 -0.5 ADR · 20일선 -0.1 ADR",
-        "20일선 기울기 +5.29%"
-      ],
-      "fails": [
-        "surf"
-      ],
-      "metrics": {
-        "baseBars": 13,
-        "baseWeeks": 2.6,
-        "depthPct": 14.4,
-        "priorMovePct": 67.4,
-        "higherLows": 1,
-        "contraction": 0.63,
-        "closeRange10Adr": 1.6,
-        "surf10": -0.5,
-        "surf20": -0.09,
-        "slope20": 5.29,
-        "baseLow": 79.43,
-        "lastSwingLow": 79.43
-      },
-      "catalyst": null,
-      "flow": {
-        "flow": "pending",
-        "stageKo": "📈 상승 중반 (확장 중)",
-        "frank25": -2
-      },
-      "earnings": null,
-      "blocked": "피벗까지 1.35 ADR — 1 ADR 넘게 떨어져 있음",
-      "shadowBook": "far",
-      "watch": false,
-      "score": 51.6
     },
     {
       "ticker": "AXTI",
@@ -4289,15 +4226,137 @@ window.TEAM6_DATA = {
       },
       "catalyst": null,
       "flow": {
-        "flow": "pending",
+        "flow": "leading",
         "stageKo": "📈 상승 중반 (확장 중)",
-        "frank25": -1
+        "frank25": 0
       },
       "earnings": null,
       "blocked": "피벗까지 1.38 ADR — 1 ADR 넘게 떨어져 있음",
       "shadowBook": "far",
       "watch": false,
-      "score": 47.8
+      "score": 52.8
+    },
+    {
+      "ticker": "ALAB",
+      "name": null,
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "grade": "B",
+      "state": "pre",
+      "asOf": "2026-10-02",
+      "price": 350.33,
+      "pivot": 377.87,
+      "pivotDate": "2026-09-25",
+      "stop": 354.9,
+      "riskPerSharePct": 6.08,
+      "weightPct": 8.2,
+      "weightCapped": false,
+      "distToPivotPct": -7.29,
+      "distToPivotAdr": -1.11,
+      "extensionAdr": -0.25,
+      "chase": false,
+      "adrPct": 6.56,
+      "ma10": 356.17,
+      "dollarVol20M": 1352,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +54%",
+        "✗ 베이스 1.8주",
+        "깊이 18.4%",
+        "저점 상승 1회",
+        "진폭 1.24배 · 10일 종가폭 1 ADR",
+        "10일선 -0.3 ADR · 20일선 +1.3 ADR",
+        "20일선 기울기 +5.75%"
+      ],
+      "fails": [
+        "baseLen"
+      ],
+      "metrics": {
+        "baseBars": 9,
+        "baseWeeks": 1.8,
+        "depthPct": 18.4,
+        "priorMovePct": 54.5,
+        "higherLows": 1,
+        "contraction": 1.24,
+        "closeRange10Adr": 1,
+        "surf10": -0.25,
+        "surf20": 1.29,
+        "slope20": 5.75,
+        "baseLow": 308.34,
+        "lastSwingLow": 342
+      },
+      "catalyst": null,
+      "flow": {
+        "flow": "pending",
+        "stageKo": "📈 상승 중반 (확장 중)",
+        "frank25": 1
+      },
+      "earnings": null,
+      "blocked": "피벗까지 1.11 ADR — 1 ADR 넘게 떨어져 있음",
+      "shadowBook": "far",
+      "watch": false,
+      "score": 52.7
+    },
+    {
+      "ticker": "SWKS",
+      "name": "스카이웍스 솔루션스",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "grade": "B",
+      "state": "pre",
+      "asOf": "2026-10-02",
+      "price": 85.03,
+      "pivot": 92.8,
+      "pivotDate": "2026-09-23",
+      "stop": 87.51,
+      "riskPerSharePct": 5.7,
+      "weightPct": 8.8,
+      "weightCapped": false,
+      "distToPivotPct": -8.37,
+      "distToPivotAdr": -1.35,
+      "extensionAdr": -0.5,
+      "chase": false,
+      "adrPct": 6.22,
+      "ma10": 87.66,
+      "dollarVol20M": 641.8,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +67%",
+        "베이스 2.6주",
+        "깊이 14.4%",
+        "저점 상승 1회",
+        "진폭 0.63배 · 10일 종가폭 1.6 ADR",
+        "✗ 10일선 -0.5 ADR · 20일선 -0.1 ADR",
+        "20일선 기울기 +5.29%"
+      ],
+      "fails": [
+        "surf"
+      ],
+      "metrics": {
+        "baseBars": 13,
+        "baseWeeks": 2.6,
+        "depthPct": 14.4,
+        "priorMovePct": 67.4,
+        "higherLows": 1,
+        "contraction": 0.63,
+        "closeRange10Adr": 1.6,
+        "surf10": -0.5,
+        "surf20": -0.09,
+        "slope20": 5.29,
+        "baseLow": 79.43,
+        "lastSwingLow": 79.43
+      },
+      "catalyst": null,
+      "flow": {
+        "flow": "pending",
+        "stageKo": "📈 상승 중반 (확장 중)",
+        "frank25": 1
+      },
+      "earnings": null,
+      "blocked": "피벗까지 1.35 ADR — 1 ADR 넘게 떨어져 있음",
+      "shadowBook": "far",
+      "watch": false,
+      "score": 51.6
     },
     {
       "ticker": "TEAM",
@@ -4353,7 +4412,7 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "neutral",
         "stageKo": "💤 미형성",
-        "frank25": 8
+        "frank25": 5
       },
       "earnings": null,
       "blocked": "등급 C",
@@ -4415,7 +4474,7 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "pending",
         "stageKo": "📈 상승 중반 (확장 중)",
-        "frank25": -2
+        "frank25": 1
       },
       "earnings": null,
       "blocked": "등급 C",
@@ -4479,9 +4538,9 @@ window.TEAM6_DATA = {
         "researchedOn": "2026-10-03"
       },
       "flow": {
-        "flow": "neutral",
+        "flow": "outflow",
         "stageKo": "❄️ 조정 중",
-        "frank25": 38
+        "frank25": 30
       },
       "earnings": "2026-10-06",
       "blocked": "실적 발표 2026-10-06 — 발표 전 진입 금지",
@@ -4490,8 +4549,68 @@ window.TEAM6_DATA = {
       "score": 33.3
     }
   ],
-  "plansTotal": 26,
+  "plansTotal": 27,
   "post": [
+    {
+      "ticker": "FPS",
+      "name": "포전트 파워 솔루션스",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-10-02",
+      "price": 40.35,
+      "pivot": 40.19,
+      "pivotDate": "2026-08-17",
+      "stop": 37.82,
+      "riskPerSharePct": 5.89,
+      "weightPct": 8.5,
+      "weightCapped": false,
+      "distToPivotPct": 0.4,
+      "distToPivotAdr": 0.07,
+      "extensionAdr": 0.83,
+      "chase": false,
+      "adrPct": 6.1,
+      "ma10": 38.3,
+      "dollarVol20M": 400,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +39%",
+        "베이스 8주",
+        "✗ 깊이 30.4%",
+        "✗ 저점 상승 0회",
+        "진폭 0.97배 · 10일 종가폭 1.4 ADR",
+        "10일선 -0.4 ADR · 20일선 +1 ADR",
+        "20일선 기울기 +5.46%"
+      ],
+      "fails": [
+        "depth",
+        "higherLows"
+      ],
+      "metrics": {
+        "baseBars": 40,
+        "baseWeeks": 8,
+        "depthPct": 30.4,
+        "priorMovePct": 38.5,
+        "higherLows": 0,
+        "contraction": 0.97,
+        "closeRange10Adr": 1.4,
+        "surf10": -0.37,
+        "surf20": 0.96,
+        "slope20": 5.46,
+        "baseLow": 27.99,
+        "lastSwingLow": 27.99
+      },
+      "catalyst": null,
+      "flow": {
+        "flow": "outflow",
+        "stageKo": "💤 미형성",
+        "frank25": 7
+      },
+      "earnings": null,
+      "breakDate": "2026-10-02",
+      "barsSinceBreak": 0
+    },
     {
       "ticker": "SMTC",
       "name": "셈텍",
@@ -4543,7 +4662,251 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "pending",
         "stageKo": "📈 상승 중반 (확장 중)",
-        "frank25": -2
+        "frank25": 1
+      },
+      "earnings": null,
+      "breakDate": "2026-10-02",
+      "barsSinceBreak": 0
+    },
+    {
+      "ticker": "RMBS",
+      "name": "램버스",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-10-02",
+      "price": 111.97,
+      "pivot": 108.62,
+      "pivotDate": "2026-09-24",
+      "stop": 103.52,
+      "riskPerSharePct": 4.69,
+      "weightPct": 10.7,
+      "weightCapped": false,
+      "distToPivotPct": 3.08,
+      "distToPivotAdr": 0.66,
+      "extensionAdr": 1.39,
+      "chase": false,
+      "adrPct": 4.68,
+      "ma10": 104.66,
+      "dollarVol20M": 248.3,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +36%",
+        "✗ 베이스 1.6주",
+        "깊이 18.6%",
+        "저점 상승 1회",
+        "✗ 진폭 2.14배 · 10일 종가폭 3.9 ADR",
+        "10일선 +1 ADR · 20일선 +2.7 ADR",
+        "20일선 기울기 +5.16%"
+      ],
+      "fails": [
+        "baseLen",
+        "tight"
+      ],
+      "metrics": {
+        "baseBars": 8,
+        "baseWeeks": 1.6,
+        "depthPct": 18.6,
+        "priorMovePct": 35.8,
+        "higherLows": 1,
+        "contraction": 2.14,
+        "closeRange10Adr": 3.9,
+        "surf10": 0.99,
+        "surf20": 2.71,
+        "slope20": 5.16,
+        "baseLow": 88.38,
+        "lastSwingLow": 99.34
+      },
+      "catalyst": null,
+      "flow": {
+        "flow": "pending",
+        "stageKo": "📈 상승 중반 (확장 중)",
+        "frank25": 1
+      },
+      "earnings": null,
+      "breakDate": "2026-10-02",
+      "barsSinceBreak": 0
+    },
+    {
+      "ticker": "TER",
+      "name": "테라다인",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-10-02",
+      "price": 449.04,
+      "pivot": 444.17,
+      "pivotDate": "2026-08-17",
+      "stop": 426.91,
+      "riskPerSharePct": 3.89,
+      "weightPct": 12.9,
+      "weightCapped": false,
+      "distToPivotPct": 1.1,
+      "distToPivotAdr": 0.26,
+      "extensionAdr": 2.46,
+      "chase": false,
+      "adrPct": 4.2,
+      "ma10": 402.55,
+      "dollarVol20M": 960.8,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +50%",
+        "베이스 7주",
+        "✗ 깊이 26.6%",
+        "저점 상승 1회",
+        "✗ 진폭 1.23배 · 10일 종가폭 2.6 ADR",
+        "10일선 +1.2 ADR · 20일선 +2.3 ADR",
+        "20일선 기울기 +3.67%"
+      ],
+      "fails": [
+        "depth",
+        "tight"
+      ],
+      "metrics": {
+        "baseBars": 35,
+        "baseWeeks": 7,
+        "depthPct": 26.6,
+        "priorMovePct": 49.6,
+        "higherLows": 1,
+        "contraction": 1.23,
+        "closeRange10Adr": 2.6,
+        "surf10": 1.22,
+        "surf20": 2.35,
+        "slope20": 3.67,
+        "baseLow": 326,
+        "lastSwingLow": 326.37
+      },
+      "catalyst": null,
+      "flow": {
+        "flow": "leading",
+        "stageKo": "📈 상승 중반 (확장 중)",
+        "frank25": 0
+      },
+      "earnings": null,
+      "breakDate": "2026-10-02",
+      "barsSinceBreak": 0
+    },
+    {
+      "ticker": "VECO",
+      "name": "비코 인스트루먼츠",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-10-02",
+      "price": 57.38,
+      "pivot": 56.04,
+      "pivotDate": "2026-08-06",
+      "stop": 53.6,
+      "riskPerSharePct": 4.36,
+      "weightPct": 11.5,
+      "weightCapped": false,
+      "distToPivotPct": 2.39,
+      "distToPivotAdr": 0.5,
+      "extensionAdr": 2.95,
+      "chase": false,
+      "adrPct": 4.8,
+      "ma10": 49.25,
+      "dollarVol20M": 33,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +31%",
+        "베이스 8주",
+        "✗ 깊이 29%",
+        "✗ 저점 상승 0회",
+        "✗ 진폭 1.3배 · 10일 종가폭 4.3 ADR",
+        "✗ 10일선 +2.2 ADR · 20일선 +3.2 ADR",
+        "20일선 기울기 +3.96%"
+      ],
+      "fails": [
+        "depth",
+        "higherLows",
+        "tight",
+        "surf"
+      ],
+      "metrics": {
+        "baseBars": 40,
+        "baseWeeks": 8,
+        "depthPct": 29,
+        "priorMovePct": 30.8,
+        "higherLows": 0,
+        "contraction": 1.3,
+        "closeRange10Adr": 4.3,
+        "surf10": 2.21,
+        "surf20": 3.18,
+        "slope20": 3.96,
+        "baseLow": 39.77,
+        "lastSwingLow": 39.77
+      },
+      "catalyst": null,
+      "flow": {
+        "flow": "leading",
+        "stageKo": "📈 상승 중반 (확장 중)",
+        "frank25": 0
+      },
+      "earnings": null,
+      "breakDate": "2026-10-02",
+      "barsSinceBreak": 0
+    },
+    {
+      "ticker": "ACLS",
+      "name": "액셀리스 테크놀로지스",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-10-02",
+      "price": 147.77,
+      "pivot": 145.7,
+      "pivotDate": "2026-08-17",
+      "stop": 140.08,
+      "riskPerSharePct": 3.86,
+      "weightPct": 13,
+      "weightCapped": false,
+      "distToPivotPct": 1.42,
+      "distToPivotAdr": 0.33,
+      "extensionAdr": 3.55,
+      "chase": true,
+      "adrPct": 4.24,
+      "ma10": 125.49,
+      "dollarVol20M": 43.4,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +30%",
+        "베이스 8주",
+        "✗ 깊이 29.5%",
+        "✗ 저점 상승 0회",
+        "✗ 진폭 1.2배 · 10일 종가폭 4.9 ADR",
+        "✗ 10일선 +2.7 ADR · 20일선 +3.7 ADR",
+        "20일선 기울기 +3.09%"
+      ],
+      "fails": [
+        "depth",
+        "higherLows",
+        "tight",
+        "surf"
+      ],
+      "metrics": {
+        "baseBars": 40,
+        "baseWeeks": 8,
+        "depthPct": 29.5,
+        "priorMovePct": 30.3,
+        "higherLows": 0,
+        "contraction": 1.2,
+        "closeRange10Adr": 4.9,
+        "surf10": 2.68,
+        "surf20": 3.66,
+        "slope20": 3.09,
+        "baseLow": 102.66,
+        "lastSwingLow": 102.66
+      },
+      "catalyst": null,
+      "flow": {
+        "flow": "leading",
+        "stageKo": "📈 상승 중반 (확장 중)",
+        "frank25": 0
       },
       "earnings": null,
       "breakDate": "2026-10-02",
@@ -4601,9 +4964,9 @@ window.TEAM6_DATA = {
       },
       "catalyst": null,
       "flow": {
-        "flow": "neutral",
+        "flow": "outflow",
         "stageKo": "❄️ 조정 중",
-        "frank25": 57
+        "frank25": 30
       },
       "earnings": null,
       "breakDate": "2026-10-01",
@@ -4611,7 +4974,7 @@ window.TEAM6_DATA = {
     },
     {
       "ticker": "LITE",
-      "name": "루멘텀 홀딩스",
+      "name": null,
       "sector": "Technology",
       "industry": "Communication Equipment",
       "grade": "A",
@@ -4659,8 +5022,8 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "flow": {
         "flow": "outflow",
-        "stageKo": "❄️ 조정 중",
-        "frank25": -8
+        "stageKo": "💤 미형성",
+        "frank25": -6
       },
       "earnings": null,
       "breakDate": "2026-10-01",
@@ -4724,9 +5087,9 @@ window.TEAM6_DATA = {
       },
       "catalyst": null,
       "flow": {
-        "flow": "pending",
+        "flow": "leading",
         "stageKo": "📈 상승 중반 (확장 중)",
-        "frank25": -1
+        "frank25": 0
       },
       "earnings": null,
       "breakDate": "2026-09-30",
@@ -4783,7 +5146,7 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "outflow",
         "stageKo": "💤 미형성",
-        "frank25": 3
+        "frank25": 7
       },
       "earnings": null,
       "breakDate": "2026-09-25",
@@ -4843,7 +5206,7 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "outflow",
         "stageKo": "❄️ 조정 중",
-        "frank25": 13
+        "frank25": 14
       },
       "earnings": null,
       "breakDate": "2026-09-25",
@@ -4903,7 +5266,7 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "pending",
         "stageKo": "📈 상승 중반 (확장 중)",
-        "frank25": -2
+        "frank25": 1
       },
       "earnings": null,
       "breakDate": "2026-09-25",
@@ -5017,9 +5380,9 @@ window.TEAM6_DATA = {
       },
       "catalyst": null,
       "flow": {
-        "flow": "pending",
+        "flow": "outflow",
         "stageKo": "💤 미형성",
-        "frank25": 4
+        "frank25": 2
       },
       "earnings": null,
       "breakDate": "2026-09-23",
@@ -5081,7 +5444,7 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "pending",
         "stageKo": "⭐ 상승 초입",
-        "frank25": 1
+        "frank25": 0
       },
       "earnings": null,
       "breakDate": "2026-09-22",
@@ -5141,9 +5504,9 @@ window.TEAM6_DATA = {
       },
       "catalyst": null,
       "flow": {
-        "flow": "pending",
+        "flow": "leading",
         "stageKo": "📈 상승 중반 (확장 중)",
-        "frank25": -1
+        "frank25": 0
       },
       "earnings": null,
       "breakDate": "2026-09-22",
@@ -5198,9 +5561,9 @@ window.TEAM6_DATA = {
       },
       "catalyst": null,
       "flow": {
-        "flow": "pending",
+        "flow": "outflow",
         "stageKo": "💤 미형성",
-        "frank25": 4
+        "frank25": 2
       },
       "earnings": null,
       "breakDate": "2026-09-21",
@@ -5259,7 +5622,7 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "pending",
         "stageKo": "📈 상승 중반 (확장 중)",
-        "frank25": -2
+        "frank25": 1
       },
       "earnings": null,
       "breakDate": "2026-09-21",
@@ -5318,23 +5681,23 @@ window.TEAM6_DATA = {
       "flow": {
         "flow": "outflow",
         "stageKo": "🔶 중반이나 수축 중",
-        "frank25": -1
+        "frank25": 0
       },
       "earnings": null,
       "breakDate": "2026-09-21",
       "barsSinceBreak": 9
     }
   ],
-  "postTotal": 14,
+  "postTotal": 19,
   "counts": {
-    "evaluated": 88,
-    "near": 26,
-    "watch": 8,
-    "A": 6,
+    "evaluated": 95,
+    "near": 27,
+    "watch": 9,
+    "A": 7,
     "B": 2,
     "blocked": 18,
-    "post": 14,
-    "far": 29,
+    "post": 19,
+    "far": 30,
     "noBase": 18,
     "noBars": 1
   },
