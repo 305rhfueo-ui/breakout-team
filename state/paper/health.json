@@ -1,11 +1,11 @@
 {
-  "at": "2026-10-02T20:00:20.051Z",
-  "atKst": "2026-10-03 05:00 KST",
-  "atEt": "2026-10-02 1600",
-  "phase": "post",
+  "at": "2026-10-05T13:35:20.070Z",
+  "atKst": "2026-10-05 22:35 KST",
+  "atEt": "2026-10-05 0935",
+  "phase": "open",
   "source": "kis",
   "status": "정상",
-  "watch": 19,
-  "checked": 0,
+  "watch": 20,
+  "checked": 20,
   "errors": []
 }

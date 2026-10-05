@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-05",
+  "ticks": 1,
+  "items": {
+    "MPC": {
+      "ticker": "MPC",
+      "at": "0930",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "QLYS": {
+      "ticker": "QLYS",
+      "at": "0930",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "NUTX": {
+      "ticker": "NUTX",
+      "at": "0930",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "SIMO": {
+      "ticker": "SIMO",
+      "at": "0930",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "FEIM": {
+      "ticker": "FEIM",
+      "at": "0930",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "XMTR": {
+      "ticker": "XMTR",
+      "at": "0930",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "NET": {
+      "ticker": "NET",
+      "at": "0930",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "VLO": {
+      "ticker": "VLO",
+      "at": "0930",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "DINO": {
+      "ticker": "DINO",
+      "at": "0930",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "DELL": {
+      "ticker": "DELL",
+      "at": "0930",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "QRVO": {
+      "ticker": "QRVO",
+      "at": "0935",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 오늘 봉 없음",
+      "pace": null,
+      "level": null
+    },
+    "MSTR": {
+      "ticker": "MSTR",
+      "at": "0930",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "AMBQ": {
+      "ticker": "AMBQ",
+      "at": "0930",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "DOCN": {
+      "ticker": "DOCN",
+      "at": "0930",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "ELF": {
+      "ticker": "ELF",
+      "at": "0930",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "AXTI": {
+      "ticker": "AXTI",
+      "at": "0930",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "ALAB": {
+      "ticker": "ALAB",
+      "at": "0930",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "SWKS": {
+      "ticker": "SWKS",
+      "at": "0930",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "TEAM": {
+      "ticker": "TEAM",
+      "at": "0930",
+      "fired": false,
+      "grade": "C",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "INTC": {
+      "ticker": "INTC",
+      "at": "0930",
+      "fired": false,
+      "grade": "C",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    }
+  }
+}

@@ -5706,201 +5706,242 @@ window.TEAM6_DATA = {
   ],
   "triggers": [
     {
-      "ticker": "ALNT",
-      "at": "0935",
-      "fired": true,
-      "grade": "C",
-      "ko": "0935 ET · 장중 고가 119.78 위 종가 121.42 · 거래량 페이스 1.97× · 진입 121.66 · 손절 117.53(당일 저가) · 리스크 3.4% · 이격 1.84 ADR",
-      "pace": 1.97,
-      "level": 119.78
-    },
-    {
-      "ticker": "SMTC",
-      "at": "1035",
-      "fired": true,
-      "grade": "A",
-      "ko": "1035 ET · 장중 고가 201.42 위 종가 201.43 · 거래량 페이스 1.55× · 진입 201.83 · 손절 191.29(당일 저가) · 리스크 5.22% · 이격 1.91 ADR",
-      "pace": 1.55,
-      "level": 201.42
+      "ticker": "ALAB",
+      "at": "0930",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "AMBQ",
-      "at": "1125",
+      "at": "0930",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    {
+      "ticker": "AXTI",
+      "at": "0930",
       "fired": false,
       "grade": "B",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 73.08 미돌파 (종가 68.6) (1125 ET 기준)",
-      "pace": 1.18,
-      "level": 73.08
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    {
+      "ticker": "DELL",
+      "at": "0930",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "DINO",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
       "grade": "B",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 118.39 미돌파 (종가 112.01) (1125 ET 기준)",
-      "pace": 1.02,
-      "level": 118.39
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
-      "ticker": "ECO",
-      "at": "1125",
+      "ticker": "DOCN",
+      "at": "0930",
       "fired": false,
       "grade": "A",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 87.31 미돌파 (종가 85.97) (1125 ET 기준)",
-      "pace": 1.03,
-      "level": 87.31
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "ELF",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
       "grade": "B",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 110.04 미돌파 (종가 102.8) (1125 ET 기준)",
-      "pace": 0.62,
-      "level": 110.04
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "FEIM",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
       "grade": "A",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 89.76 미돌파 (종가 86.1) (1125 ET 기준)",
-      "pace": 0.4,
-      "level": 89.76
-    },
-    {
-      "ticker": "FROG",
-      "at": "1125",
-      "fired": false,
-      "grade": "C",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 105.76 미돌파 (종가 96.6) (1125 ET 기준)",
-      "pace": 0.81,
-      "level": 105.76
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "INTC",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
       "grade": "C",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 127.44 미돌파 (종가 122.19) (1125 ET 기준)",
-      "pace": 0.87,
-      "level": 127.44
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    {
+      "ticker": "MPC",
+      "at": "0930",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "MSTR",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
-      "grade": "B",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 171.19 미돌파 (종가 160.79) (1125 ET 기준)",
-      "pace": 1.37,
-      "level": 171.19
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "NET",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
       "grade": "A",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 367.43 미돌파 (종가 350.81) (1125 ET 기준)",
-      "pace": 0.81,
-      "level": 367.43
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "NUTX",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
       "grade": "A",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 224.28 미돌파 (종가 217.21) (1125 ET 기준)",
-      "pace": 1.38,
-      "level": 224.28
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "QLYS",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
-      "grade": "B",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 196.72 미돌파 (종가 192.81) (1125 ET 기준)",
-      "pace": 0.78,
-      "level": 196.72
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    {
+      "ticker": "QRVO",
+      "at": "0935",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 오늘 봉 없음",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "SIMO",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
       "grade": "A",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 291.16 미돌파 (종가 277.98) (1125 ET 기준)",
-      "pace": 0.82,
-      "level": 291.16
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
-      "ticker": "SNDK",
-      "at": "1125",
+      "ticker": "SWKS",
+      "at": "0930",
       "fired": false,
       "grade": "B",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 1909.48 미돌파 (종가 1718.27) (1125 ET 기준)",
-      "pace": 0.96,
-      "level": 1909.48
-    },
-    {
-      "ticker": "SPSC",
-      "at": "1125",
-      "fired": false,
-      "grade": "B",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 89.44 미돌파 (종가 81.08) (1125 ET 기준)",
-      "pace": 1.33,
-      "level": 89.44
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "TEAM",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
       "grade": "C",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 200 미돌파 (종가 188.05) (1125 ET 기준)",
-      "pace": 0.51,
-      "level": 200
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "VLO",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
       "grade": "B",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 419.04 미돌파 (종가 398.68) (1125 ET 기준)",
-      "pace": 1.06,
-      "level": 419.04
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "XMTR",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
       "grade": "A",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 107.93 미돌파 (종가 103.8) (1125 ET 기준)",
-      "pace": 0.86,
-      "level": 107.93
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     }
   ],
-  "positions": [
+  "positions": [],
+  "trades": [
     {
       "ticker": "SMTC",
-      "book": "main",
       "grade": "A",
       "entryDate": "2026-10-02",
       "entryAt": "1040",
-      "entry": 201.83,
-      "stop": 191.29,
-      "last": 194.88,
-      "R": -0.66,
-      "left": 1,
+      "exitDate": "2026-10-05",
       "days": 0,
-      "weightPct": 9.6,
-      "partial": false
+      "entry": 201.83,
+      "stop0": 191.29,
+      "exit": 190.91,
+      "R": -1.04,
+      "pct": -0.52,
+      "why": "손절",
+      "ruleVersion": "0.3"
     }
   ],
-  "trades": [],
   "stats": {
-    "n": 0,
-    "byGrade": {},
+    "n": 1,
+    "winPct": 0,
+    "avgR": -1.04,
+    "totalR": -1,
+    "avgWinR": null,
+    "avgLossR": -1.04,
+    "profitFactor": 0,
+    "avgDays": 0,
+    "sameDayStopPct": 0,
+    "equityPct": -0.33,
+    "mdd": 0.3,
+    "byGrade": {
+      "A": {
+        "n": 1,
+        "winPct": 0,
+        "avgR": -1.04,
+        "totalR": -1,
+        "avgWinR": null,
+        "avgLossR": -1.04,
+        "profitFactor": 0,
+        "avgDays": 0,
+        "sameDayStopPct": 0,
+        "equityPct": -0.52
+      }
+    },
     "books": {
       "trail20": {
-        "n": 0
+        "n": 1,
+        "winPct": 0,
+        "avgR": -1.04,
+        "totalR": -1,
+        "avgWinR": null,
+        "avgLossR": -1.04,
+        "profitFactor": 0,
+        "avgDays": 0,
+        "sameDayStopPct": 0,
+        "equityPct": -0.52
       },
       "nextOpen": {
         "n": 0
@@ -5913,21 +5954,18 @@ window.TEAM6_DATA = {
       }
     },
     "slipPct": 0.2,
-    "open": 1,
-    "totalPct": -0.33,
-    "openPct": -0.33,
-    "observing": true,
-    "minSample": 30
+    "open": 0,
+    "totalPct": -0.52
   },
   "health": {
-    "at": "2026-10-02T20:00:20.051Z",
-    "atKst": "2026-10-03 05:00 KST",
-    "atEt": "2026-10-02 1600",
-    "phase": "post",
+    "at": "2026-10-05T13:35:20.070Z",
+    "atKst": "2026-10-05 22:35 KST",
+    "atEt": "2026-10-05 0935",
+    "phase": "open",
     "source": "kis",
     "status": "정상",
-    "watch": 19,
-    "checked": 0,
+    "watch": 20,
+    "checked": 20,
     "errors": []
   }
 };

@@ -1,3 +1,124 @@
 {
-  "trades": []
+  "trades": [
+    {
+      "id": "SMTC-2026-10-02-trail20",
+      "book": "trail20",
+      "ticker": "SMTC",
+      "grade": "A",
+      "ruleVersion": "0.3",
+      "regime": "green",
+      "entryDate": "2026-10-02",
+      "entryAt": "1040",
+      "exitDate": "2026-10-05",
+      "exitAt": "0930",
+      "days": 0,
+      "entry": 201.83,
+      "stop0": 191.29,
+      "exit": 190.91,
+      "riskPerSharePct": 5.22,
+      "weightPct": 9.6,
+      "R": -1.04,
+      "pct": -0.52,
+      "mfeR": 0.01,
+      "maeR": -1.03,
+      "why": "손절",
+      "partial": false,
+      "fills": [
+        {
+          "date": "2026-10-02",
+          "at": "1040",
+          "side": "buy",
+          "frac": 1,
+          "px": 201.83,
+          "why": "진입"
+        },
+        {
+          "date": "2026-10-05",
+          "at": "0930",
+          "side": "sell",
+          "frac": 1,
+          "px": 190.91,
+          "why": "손절"
+        }
+      ],
+      "ctx": {
+        "orh": 60,
+        "pace": 1.55,
+        "ext": 1.91,
+        "levelIs": "hod",
+        "stopIs": "lod",
+        "at": "1035",
+        "pivot": 190.64,
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "baseWeeks": 2.2,
+        "depthPct": 19.7,
+        "priorMovePct": 84.9,
+        "catalyst": null,
+        "flow": "pending",
+        "regime": "green",
+        "source": "kis"
+      }
+    },
+    {
+      "id": "SMTC-2026-10-02-main",
+      "book": "main",
+      "ticker": "SMTC",
+      "grade": "A",
+      "ruleVersion": "0.3",
+      "regime": "green",
+      "entryDate": "2026-10-02",
+      "entryAt": "1040",
+      "exitDate": "2026-10-05",
+      "exitAt": "0930",
+      "days": 0,
+      "entry": 201.83,
+      "stop0": 191.29,
+      "exit": 190.91,
+      "riskPerSharePct": 5.22,
+      "weightPct": 9.6,
+      "R": -1.04,
+      "pct": -0.52,
+      "mfeR": 0.01,
+      "maeR": -1.03,
+      "why": "손절",
+      "partial": false,
+      "fills": [
+        {
+          "date": "2026-10-02",
+          "at": "1040",
+          "side": "buy",
+          "frac": 1,
+          "px": 201.83,
+          "why": "진입"
+        },
+        {
+          "date": "2026-10-05",
+          "at": "0930",
+          "side": "sell",
+          "frac": 1,
+          "px": 190.91,
+          "why": "손절"
+        }
+      ],
+      "ctx": {
+        "orh": 60,
+        "pace": 1.55,
+        "ext": 1.91,
+        "levelIs": "hod",
+        "stopIs": "lod",
+        "at": "1035",
+        "pivot": 190.64,
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "baseWeeks": 2.2,
+        "depthPct": 19.7,
+        "priorMovePct": 84.9,
+        "catalyst": null,
+        "flow": "pending",
+        "regime": "green",
+        "source": "kis"
+      }
+    }
+  ]
 }
