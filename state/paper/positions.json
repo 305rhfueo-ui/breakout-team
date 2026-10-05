@@ -1,60 +1,6 @@
 {
   "positions": [
     {
-      "id": "ALNT-2026-10-05-nextOpen",
-      "book": "nextOpen",
-      "ticker": "ALNT",
-      "grade": "C",
-      "ruleVersion": "0.3",
-      "entryDate": "2026-10-05",
-      "entryAt": "0930",
-      "entry": 119.63,
-      "stop": 116.92,
-      "stop0": 116.92,
-      "risk": 2.7132,
-      "riskPerSharePct": 2.27,
-      "weightPct": 20,
-      "left": 1,
-      "realR": 0,
-      "realPct": 0,
-      "partial": false,
-      "days": 0,
-      "mfe": 0,
-      "mae": -0.9066784608580251,
-      "last": 117.17,
-      "lastDate": "2026-10-05",
-      "regime": "green",
-      "fills": [
-        {
-          "date": "2026-10-05",
-          "at": "0930",
-          "side": "buy",
-          "frac": 1,
-          "px": 119.63,
-          "why": "진입"
-        }
-      ],
-      "ctx": {
-        "orh": 5,
-        "pace": 1.97,
-        "ext": 1.84,
-        "levelIs": "hod",
-        "stopIs": "lod",
-        "at": "0935",
-        "pivot": 118.67,
-        "sector": "Technology",
-        "industry": "Electronic Components",
-        "baseWeeks": 7.8,
-        "depthPct": 27.6,
-        "priorMovePct": 102.3,
-        "catalyst": null,
-        "flow": "pending",
-        "regime": "green",
-        "source": "kis"
-      },
-      "lastBarT": 1791207900000
-    },
-    {
       "id": "SMTC-2026-10-05-nextOpen",
       "book": "nextOpen",
       "ticker": "SMTC",
@@ -75,7 +21,7 @@
       "days": 0,
       "mfe": 0.10553741631212467,
       "mae": -0.7404109363147668,
-      "last": 191.73,
+      "last": 192.01,
       "lastDate": "2026-10-05",
       "regime": "green",
       "fills": [
@@ -106,7 +52,7 @@
         "regime": "green",
         "source": "kis"
       },
-      "lastBarT": 1791207900000
+      "lastBarT": 1791208200000
     }
   ]
 }

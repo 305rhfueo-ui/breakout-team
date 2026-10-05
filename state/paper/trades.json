@@ -1,6 +1,66 @@
 {
   "trades": [
     {
+      "id": "ALNT-2026-10-05-nextOpen",
+      "book": "nextOpen",
+      "ticker": "ALNT",
+      "grade": "C",
+      "ruleVersion": "0.3",
+      "regime": "green",
+      "entryDate": "2026-10-05",
+      "entryAt": "0930",
+      "exitDate": "2026-10-05",
+      "exitAt": "0950",
+      "days": 0,
+      "entry": 119.63,
+      "stop0": 116.92,
+      "exit": 116.69,
+      "riskPerSharePct": 2.27,
+      "weightPct": 20,
+      "R": -1.09,
+      "pct": -0.49,
+      "mfeR": 0,
+      "maeR": -1.08,
+      "why": "당일 손절",
+      "partial": false,
+      "fills": [
+        {
+          "date": "2026-10-05",
+          "at": "0930",
+          "side": "buy",
+          "frac": 1,
+          "px": 119.63,
+          "why": "진입"
+        },
+        {
+          "date": "2026-10-05",
+          "at": "0950",
+          "side": "sell",
+          "frac": 1,
+          "px": 116.69,
+          "why": "당일 손절"
+        }
+      ],
+      "ctx": {
+        "orh": 5,
+        "pace": 1.97,
+        "ext": 1.84,
+        "levelIs": "hod",
+        "stopIs": "lod",
+        "at": "0935",
+        "pivot": 118.67,
+        "sector": "Technology",
+        "industry": "Electronic Components",
+        "baseWeeks": 7.8,
+        "depthPct": 27.6,
+        "priorMovePct": 102.3,
+        "catalyst": null,
+        "flow": "pending",
+        "regime": "green",
+        "source": "kis"
+      }
+    },
+    {
       "id": "ALNT-2026-10-02-gradeC",
       "book": "gradeC",
       "ticker": "ALNT",
