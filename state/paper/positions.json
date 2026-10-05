@@ -1,60 +1,6 @@
 {
   "positions": [
     {
-      "id": "ALNT-2026-10-02-gradeC",
-      "book": "gradeC",
-      "ticker": "ALNT",
-      "grade": "C",
-      "ruleVersion": "0.3",
-      "entryDate": "2026-10-02",
-      "entryAt": "0940",
-      "entry": 121.66,
-      "stop": 117.53,
-      "stop0": 117.53,
-      "risk": 4.13,
-      "riskPerSharePct": 3.39,
-      "weightPct": 14.7,
-      "left": 1,
-      "realR": 0,
-      "realPct": 0,
-      "partial": false,
-      "days": 0,
-      "mfe": 0,
-      "mae": -0.9370460048426127,
-      "last": 118.49,
-      "lastDate": "2026-10-05",
-      "regime": "green",
-      "fills": [
-        {
-          "date": "2026-10-02",
-          "at": "0940",
-          "side": "buy",
-          "frac": 1,
-          "px": 121.66,
-          "why": "진입"
-        }
-      ],
-      "ctx": {
-        "orh": 5,
-        "pace": 1.97,
-        "ext": 1.84,
-        "levelIs": "hod",
-        "stopIs": "lod",
-        "at": "0935",
-        "pivot": 118.67,
-        "sector": "Technology",
-        "industry": "Electronic Components",
-        "baseWeeks": 7.8,
-        "depthPct": 27.6,
-        "priorMovePct": 102.3,
-        "catalyst": null,
-        "flow": "pending",
-        "regime": "green",
-        "source": "kis"
-      },
-      "lastBarT": 1791207000000
-    },
-    {
       "id": "ALNT-2026-10-05-nextOpen",
       "book": "nextOpen",
       "ticker": "ALNT",
@@ -74,8 +20,8 @@
       "partial": false,
       "days": 0,
       "mfe": 0,
-      "mae": -0.4220109096270072,
-      "last": 118.49,
+      "mae": -0.9066784608580251,
+      "last": 117.17,
       "lastDate": "2026-10-05",
       "regime": "green",
       "fills": [
@@ -106,7 +52,7 @@
         "regime": "green",
         "source": "kis"
       },
-      "lastBarT": 1791207000000
+      "lastBarT": 1791207900000
     },
     {
       "id": "SMTC-2026-10-05-nextOpen",
@@ -127,9 +73,9 @@
       "realPct": 0,
       "partial": false,
       "days": 0,
-      "mfe": 0.046172619636555716,
-      "mae": -0.5144784143003202,
-      "last": 192.58,
+      "mfe": 0.10553741631212467,
+      "mae": -0.7404109363147668,
+      "last": 191.73,
       "lastDate": "2026-10-05",
       "regime": "green",
       "fills": [
@@ -160,7 +106,7 @@
         "regime": "green",
         "source": "kis"
       },
-      "lastBarT": 1791207000000
+      "lastBarT": 1791207900000
     }
   ]
 }

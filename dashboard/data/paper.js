@@ -1,5 +1,5 @@
 window.PAPER_DATA = {
-  "generated": "2026-10-05T13:35:35.636Z",
+  "generated": "2026-10-05T13:50:35.565Z",
   "rulesVersion": "0.3",
   "slipPct": 0.2,
   "minSample": 30,
@@ -86,8 +86,17 @@ window.PAPER_DATA = {
     },
     "gradeC": {
       "ko": "등급 C",
-      "n": 0,
-      "open": 1
+      "n": 1,
+      "winPct": 0,
+      "avgR": -1.06,
+      "totalR": -1.1,
+      "avgWinR": null,
+      "avgLossR": -1.06,
+      "profitFactor": 0,
+      "avgDays": 0,
+      "sameDayStopPct": 0,
+      "equityPct": -0.53,
+      "open": 0
     },
     "far": {
       "ko": "피벗에서 1~1.5 ADR",
@@ -166,9 +175,9 @@ window.PAPER_DATA = {
     }
   ],
   "health": {
-    "at": "2026-10-05T13:35:20.070Z",
-    "atKst": "2026-10-05 22:35 KST",
-    "atEt": "2026-10-05 0935",
+    "at": "2026-10-05T13:50:20.071Z",
+    "atKst": "2026-10-05 22:50 KST",
+    "atEt": "2026-10-05 0950",
     "phase": "open",
     "source": "kis",
     "status": "정상",

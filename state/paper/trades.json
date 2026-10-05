@@ -1,6 +1,66 @@
 {
   "trades": [
     {
+      "id": "ALNT-2026-10-02-gradeC",
+      "book": "gradeC",
+      "ticker": "ALNT",
+      "grade": "C",
+      "ruleVersion": "0.3",
+      "regime": "green",
+      "entryDate": "2026-10-02",
+      "entryAt": "0940",
+      "exitDate": "2026-10-05",
+      "exitAt": "0945",
+      "days": 0,
+      "entry": 121.66,
+      "stop0": 117.53,
+      "exit": 117.29,
+      "riskPerSharePct": 3.39,
+      "weightPct": 14.7,
+      "R": -1.06,
+      "pct": -0.53,
+      "mfeR": 0,
+      "maeR": -1.09,
+      "why": "손절",
+      "partial": false,
+      "fills": [
+        {
+          "date": "2026-10-02",
+          "at": "0940",
+          "side": "buy",
+          "frac": 1,
+          "px": 121.66,
+          "why": "진입"
+        },
+        {
+          "date": "2026-10-05",
+          "at": "0945",
+          "side": "sell",
+          "frac": 1,
+          "px": 117.29,
+          "why": "손절"
+        }
+      ],
+      "ctx": {
+        "orh": 5,
+        "pace": 1.97,
+        "ext": 1.84,
+        "levelIs": "hod",
+        "stopIs": "lod",
+        "at": "0935",
+        "pivot": 118.67,
+        "sector": "Technology",
+        "industry": "Electronic Components",
+        "baseWeeks": 7.8,
+        "depthPct": 27.6,
+        "priorMovePct": 102.3,
+        "catalyst": null,
+        "flow": "pending",
+        "regime": "green",
+        "source": "kis"
+      }
+    },
+    {
       "id": "SMTC-2026-10-02-trail20",
       "book": "trail20",
       "ticker": "SMTC",
