@@ -1,5 +1,5 @@
 window.PAPER_DATA = {
-  "generated": "2026-10-05T13:55:35.641Z",
+  "generated": "2026-10-05T20:00:21.652Z",
   "rulesVersion": "0.3",
   "slipPct": 0.2,
   "minSample": 30,
@@ -16,8 +16,8 @@ window.PAPER_DATA = {
     "profitFactor": 0,
     "avgDays": 0,
     "sameDayStopPct": 0,
-    "equityPct": -0.33,
-    "mdd": 0.3,
+    "equityPct": -0.52,
+    "mdd": 0.5,
     "open": 0,
     "openPct": 0,
     "totalPct": -0.52
@@ -129,6 +129,10 @@ window.PAPER_DATA = {
     {
       "date": "2026-10-02",
       "pct": -0.33
+    },
+    {
+      "date": "2026-10-05",
+      "pct": -0.52
     }
   ],
   "positions": [],
@@ -184,14 +188,14 @@ window.PAPER_DATA = {
     }
   ],
   "health": {
-    "at": "2026-10-05T13:55:20.072Z",
-    "atKst": "2026-10-05 22:55 KST",
-    "atEt": "2026-10-05 0955",
-    "phase": "open",
+    "at": "2026-10-05T20:00:20.054Z",
+    "atKst": "2026-10-06 05:00 KST",
+    "atEt": "2026-10-05 1600",
+    "phase": "post",
     "source": "kis",
     "status": "정상",
     "watch": 20,
-    "checked": 20,
+    "checked": 0,
     "errors": []
   }
 };

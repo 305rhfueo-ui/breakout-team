@@ -21,7 +21,7 @@
       "days": 0,
       "mfe": 0.10553741631212467,
       "mae": -0.7404109363147668,
-      "last": 192.01,
+      "last": 192.83,
       "lastDate": "2026-10-05",
       "regime": "green",
       "fills": [
@@ -52,7 +52,7 @@
         "regime": "green",
         "source": "kis"
       },
-      "lastBarT": 1791208200000
+      "lastBarT": 1791230100000
     }
   ]
 }
