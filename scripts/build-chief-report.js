@@ -7,7 +7,7 @@
 // ⚠️ Node 산출물은 LLM 없이도 완결이다. 이 단계는 서술을 "덧입히는" 것이지 대체하지 않는다.
 // ⚠️ 이월(carry-forward): run-breakout 이 TTL 안 종목의 지난 리서치를 team*.js 에 물려놓는다.
 //    여기서는 오늘 새 결과가 있는 항목만 덮어쓰고, 나머지는 이월분을 그대로 둔다(researchedOn 표기).
-//    독자는 금융 실무자다 — 리포트에는 실적표·증권사 리포트·8-K·촉매 근거·자금흐름 표를 원 수치 그대로 싣는다.
+//    독자는 금융 실무자다 — 리포트에는 실적표·증권사 리포트·8-K·촉매 근거를 원 수치 그대로 싣는다.
 
 const path = require('path');
 const fs = require('fs');
@@ -39,7 +39,8 @@ const dateTag = (on, todayStr) => (on && on !== todayStr ? ` (조사 ${on})` : '
 
 // ── 리포트 절 생성기 ──
 function researchSection(t2, dateStr) {
-  const done = ((t2 && t2.picks) || []).filter((p) => p.research && ['done', 'no_source'].includes(p.research.status));
+  const pool = [...((t2 && t2.picks) || []), ...((t2 && t2.listPicks) || [])];   // 2026-10-06: 목록 전용 종목 포함
+  const done = pool.filter((p) => p.research && ['done', 'no_source'].includes(p.research.status));
   if (!done.length) return null;
   const S = [];
   S.push('', '### 리서치 완료 종목 — 어떤 회사이고, 왜 올랐나', '');
@@ -110,34 +111,22 @@ function researchSection(t2, dateStr) {
     }
     S.push('');
   }
-  const failed = ((t2 && t2.picks) || []).filter((p) => p.research && p.research.status === 'failed');
+  const failed = pool.filter((p) => p.research && p.research.status === 'failed');
   if (failed.length) S.push(`> ⚠️ 리서치 실패: ${failed.map((p) => p.ticker).join(', ')} — 다음 실행에서 우선 재시도합니다.`, '');
+  // 도윤 5개 목록의 AI 테마 (2026-10-06 — 예전 테마종합 대체)
   const theme = t2 && t2.themes && (t2.themes.llm || t2.themes.llmCarried);
-  if (theme && theme.leadingTheme) {
-    const lt = theme.leadingTheme;
-    S.push('### 테마 종합 (LLM)' + (theme.researchedOn ? dateTag(theme.researchedOn, dateStr) : ''), '');
-    S.push(`**${lt.name}** (${lt.strength || ''}) — ${lt.tickers ? lt.tickers.join(', ') : ''}`, '', lt.plainKo || '', '');
-    if (lt.why) S.push(lt.why, '');
-    for (const st of (theme.subThemes || [])) S.push(`- **${st.name}** (${(st.tickers || []).join(', ')}) — ${st.plainKo || ''}${st.why ? ` ${st.why}` : ''}`);
-    if (theme.crossCuttingDriver) S.push('', `공통 원인: ${theme.crossCuttingDriver}`);
-    // 기간별 3세트 + 로테이션 (2026-09-07)
-    if (theme.byPeriod) {
-      S.push('', '**기간별 주도 테마 (해당 기간 상위 2% 안에서)**');
-      for (const [k, label] of [['m1', '1개월'], ['m3', '3개월'], ['m6', '6개월']]) {
-        const b = theme.byPeriod[k];
-        if (!b) continue;
-        S.push(`- ${label}: **${b.name}** (${b.strength || '—'}) — ${(b.tickers || []).join(', ') || '해당 없음'}${b.plainKo ? ` · ${b.plainKo}` : ''}`);
-      }
+  if (theme && Array.isArray(theme.lists) && theme.lists.length) {
+    S.push('### 목록별 공통 테마 (LLM)' + (theme.researchedOn ? dateTag(theme.researchedOn, dateStr) : ''), '');
+    for (const l of theme.lists) {
+      S.push(`#### ${l.label || l.key}`);
+      if (l.failed) { S.push('', '- ⚠️ 테마 분석 실패 — 다음 실행에서 다시', ''); continue; }
+      if (l.narrative) S.push('', l.narrative);
+      for (const ci of (l.commonIndustries || [])) S.push(`- 업종 **${ci.industry}** (${(ci.tickers || []).join(', ')}) — ${ci.why || ''}`);
+      for (const th of (l.themes || [])) S.push(`- 테마 **${th.name}** (${(th.tickers || []).join(', ')}) — ${th.plainKo || ''}${th.why ? ` ${th.why}` : ''} ${srcLinks(th, 3)}`);
+      if ((l.unexplained || []).length) S.push(`- 이유 확인 안 됨: ${l.unexplained.join(', ')}`);
+      S.push('');
     }
-    if (theme.rotation) {
-      const r = theme.rotation;
-      S.push('', '**로테이션 (지속 · 신규 · 중기 · 퇴조)**');
-      S.push(`- 지속 주도: ${(r.persistent || []).join(', ') || '—'} · 신규 진입(1M): ${(r.newEntrants || []).join(', ') || '—'} · 중기(3M): ${(r.midTerm || []).join(', ') || '—'} · 퇴조(6M만): ${(r.fading || []).join(', ') || '—'}`);
-      if (r.narrative) S.push('', r.narrative);
-    }
-    if (theme.sanitized && theme.sanitized.removed && theme.sanitized.removed.length) S.push('', `> 정제: Node 목록에 없어 제거한 티커 ${theme.sanitized.removed.length}개 (${theme.sanitized.removed.slice(0, 8).join(', ')})`);
-    if (theme.caution) S.push('', `> ${theme.caution}`);
-    S.push('');
+    if (theme.sanitized && theme.sanitized.removed && theme.sanitized.removed.length) S.push(`> 정제: 목록에 없어 제거한 티커 ${theme.sanitized.removed.length}개 (${theme.sanitized.removed.slice(0, 8).join(', ')})`, '');
   }
   return S;
 }
@@ -193,48 +182,12 @@ function catalystSection(t4, dateStr) {
   return S;
 }
 
-function sectorSection(t5, dateStr) {
-  const L5 = t5 && t5.llm;
-  const inds = (L5 && L5.industries) || [];
-  if (!inds.length) return null;
-  const S = [];
-  S.push('', '### 5팀 업종 강세 사유 (LLM) — 왜 강하고, 언제 꺾이나', '');
-  const drv = { earnings: '실적', policy: '정책', macro: '매크로', technology: '기술 수요', commodity: '원자재 가격', rotation: '순환매', unknown: '불명' };
-  const dur = { structural: '구조적', cyclical: '경기순환', short_term: '단기', unknown: '불명' };
-  const sum = L5.summary;
-  if (sum && sum.rotationView) {
-    S.push(`**업종 순환 종합**${L5.summaryResearchedOn ? dateTag(L5.summaryResearchedOn, dateStr) : ''}: ${sum.rotationView}`);
-    if (sum.strongest) S.push(`- 가장 강한 업종: ${typeof sum.strongest === 'string' ? sum.strongest : `${sum.strongest.industry} — ${sum.strongest.why || ''}`}`);
-    if (Array.isArray(sum.emerging) && sum.emerging.length) S.push(`- 부상: ${sum.emerging.join(' · ')}`);
-    if (Array.isArray(sum.fading) && sum.fading.length) S.push(`- 퇴조: ${sum.fading.join(' · ')}`);
-    if (sum.caution) S.push(`- 한계: ${sum.caution}`);
-    S.push('');
-  }
-  for (const x of inds) {
-    S.push(`#### ${x.industry}${dateTag(x.researchedOn, dateStr)} — 동인 ${drv[x.driver] || x.driver || '—'} · 지속성 ${dur[x.durability] || x.durability || '—'}${Array.isArray(x.keyStocks) && x.keyStocks.length ? ` · 핵심 종목 ${x.keyStocks.join(', ')}` : ''}`);
-    if (x.lead) S.push('', x.lead);
-    const cl = (x.whyStrong || []).filter((c) => c.evidence_level === 'sourced' && (c.sources || []).length);
-    if (cl.length) {
-      S.push('', '**왜 강한가**');
-      for (const c of cl) {
-        S.push(`- ${c.statement} ${srcLinks(c)}`);
-        const q = firstQuote(c);
-        if (q) S.push(`  > ${String(q).trim().replace(/\n+/g, ' ')}`);
-      }
-    } else S.push('', '**왜 강한가** — 검증을 통과한 근거가 없습니다');
-    if (x.risk) S.push('', `**꺾일 조건**: ${x.risk}`);
-    if (x.factcheck && x.factcheck.verdict && x.factcheck.verdict !== 'pass') S.push('', `> 팩트체크 ${x.factcheck.verdict}${(x.factcheck.removed || []).length ? ` · 제거 ${x.factcheck.removed.length}건` : ''}${x.factcheck.verdict === 'unchecked' ? ' — 이 업종의 주장은 검증되지 않았다' : ''}`);
-    S.push('');
-  }
-  return S;
-}
-
 // ── 📌 오늘의 요약 — 리포트 md 맨 위에 붙는 한 화면짜리 요약 ──
 // 채팅 보고(start-breakout.md §5)와 같은 순서다. LLM 을 부르지 않고 이미 계산된 숫자만 조립한다.
 // 실장 산문은 headline 한 줄과 todayFocus 티커만 쓴다 — 차트 결론 어휘가 새는 경로를 늘리지 않는다.
 const DIGEST_RE = /<!-- digest:start -->[\s\S]*?<!-- digest:end -->\n*/g;
 
-function digestSection({ t1, t2, t3, t4, t5, t6, c, chief, report, leaks }) {
+function digestSection({ t1, t2, t3, t4, t6, c, chief, report, leaks }) {
   const L = ['<!-- digest:start -->', '## 📌 오늘의 요약', ''];
   const tickers = (arr) => (arr || []).map((x) => x.ticker).join(' · ');
 
@@ -259,6 +212,15 @@ function digestSection({ t1, t2, t3, t4, t5, t6, c, chief, report, leaks }) {
     const ind = ((t2.themes && t2.themes.byIndustry) || []).filter((x) => x.name !== '미분류').slice(0, 3).map((x) => `${x.name} ${x.count}종목(${x.sharePct}%)`);
     if (ind.length) L.push(`  - 업종 분포: ${ind.join(' · ')}`);
   }
+  // 도윤 5개 목록 (2026-10-06) — 목록마다 개수와 공통 업종 한 줄
+  if (t2 && t2.lists) {
+    const ks = ['dollar', 'm1', 'm3', 'm6', 'all'].filter((k) => t2.lists[k]);
+    L.push('- **2팀 목록**');
+    for (const k of ks) {
+      const l = t2.lists[k];
+      L.push(`  - ${l.label} ${l.count}종목 → ${l.note ? `⚠️ ${l.note}` : l.industries.headline}`);
+    }
+  }
 
   if (t3) {
     const br = t3.breakouts || [];
@@ -281,25 +243,6 @@ function digestSection({ t1, t2, t3, t4, t5, t6, c, chief, report, leaks }) {
     }
     const none = (t4.items || []).filter((i) => i.catalyst && i.catalyst.category === 6);
     if (none.length) L.push(`  - ⑥ 근거 없음 ${none.length}종목: ${tickers(none)}`);
-  }
-
-  const fc = c && c.flowCross;
-  if (fc) {
-    const ind = (x) => `${x.industry}(frank25 ${x.frank25 > 0 ? '+' : ''}${v(x.frank25)} · ${v(x.stageKo)}) → ${(x.picks || []).length ? tickers(x.picks) : '통과 종목 없음'}`;
-    L.push('- **5팀 자금흐름**');
-    for (const [k, label] of [['inflow', '유입'], ['outflow', '유출'], ['pending', '보류']]) {
-      if ((fc[k] || []).length) L.push(`  - ${label}: ${fc[k].map(ind).join(' / ')}`);
-    }
-    if (fc.agreement) L.push(`  - 오늘 배제 ${fc.agreement.droppedTotal}종목 중 유출 업종 소속 ${fc.agreement.inOutflowIndustries}건`
-      + ((fc.breakoutsInInflow || []).length ? ` · 유입 업종 내 돌파: ${fc.breakoutsInInflow.map((x) => x.ticker || x).join(' · ')}` : ''));
-  }
-  const sum = t5 && t5.llm && t5.llm.summary;
-  if (sum) {
-    const nm = (x) => (x && typeof x === 'object' ? x.industry : x);
-    const parts = [sum.strongest && `가장 강함 ${nm(sum.strongest)}`,
-      (sum.emerging || []).length && `부상 ${sum.emerging.map(nm).join(' · ')}`,
-      (sum.fading || []).length && `퇴조 ${sum.fading.map(nm).join(' · ')}`].filter(Boolean);
-    if (parts.length) L.push(`  - 5팀 LLM: ${parts.join(' / ')}`);
   }
 
   const d6 = require('./lib/team6').digestLine(t6);
@@ -345,7 +288,7 @@ async function main() {
 
   // ── 0) 재사용 표기 ──
   const reuse = {};
-  for (const k of ['team1', 'team2', 'team4', 'team5', 'team6', 'chief']) {
+  for (const k of ['team1', 'team2', 'team4', 'team6', 'chief']) {
     const src = llm[k] && llm[k]._reusedFrom;
     if (src) reuse[k] = src;
   }
@@ -390,7 +333,8 @@ async function main() {
       const byTicker = new Map((payload.team2.researched || []).map((x) => [x.ticker, x]));
       const failedSet = new Set(payload.team2.failed || []);
       let done = 0, failedCount = 0, carried = 0;
-      for (const p of d.picks || []) {
+      const pool = [...(d.picks || []), ...(d.listPicks || [])];   // 2026-10-06: 목록 전용 종목도 같은 방식
+      for (const p of pool) {
         const r = byTicker.get(p.ticker);
         if (r) {
           const sourced = (r.whyRose || []).filter((c) => c.evidence_level === 'sourced').length;
@@ -406,26 +350,25 @@ async function main() {
         }
       }
       recordResearched(rc, 'team2', [...byTicker.keys()], dateStr);
-      if (payload.team2.theme) {
-        // 기간별·교차 티커를 Node 확정 목록과 교집합으로 정제한다 — 제거분은 숨기지 않고 sanitized 에 남긴다
-        const th = { ...payload.team2.theme, researchedOn: dateStr };
+      // 도윤 5개 목록의 AI 테마 (2026-10-06). 티커는 그 목록에 실제로 있는 것만 남긴다 — 제거분은 sanitized 에 남긴다.
+      if (Array.isArray(payload.team2.listThemes) && payload.team2.listThemes.length) {
         const removed = [];
-        const keepOnly = (arr, allowed, label) => {
-          if (!Array.isArray(arr)) return [];
-          const ok = new Set(allowed || []);
-          const out = [];
-          for (const t of arr) { if (ok.has(t)) out.push(t); else removed.push(`${label}:${t}`); }
-          return out;
-        };
-        const BPn = (d.themes && d.themes.byPeriod) || null, CRn = (d.themes && d.themes.cross) || null;
-        if (th.byPeriod && BPn) for (const k of ['m1', 'm3', 'm6']) if (th.byPeriod[k]) th.byPeriod[k].tickers = keepOnly(th.byPeriod[k].tickers, BPn[k] && BPn[k].tickers, `byPeriod.${k}`);
-        if (th.rotation && CRn) for (const k of ['persistent', 'newEntrants', 'midTerm', 'fading']) th.rotation[k] = keepOnly(th.rotation[k], CRn[k], `rotation.${k}`);
-        if (removed.length) { th.sanitized = { removed }; say('WARN', `2팀 테마종합: Node 목록에 없는 티커 ${removed.length}개 제거 — ${removed.slice(0, 8).join(', ')}`); }
-        d.themes = { ...(d.themes || {}), llm: th, reusedFrom: reuse.team2 || null };
+        const lists = payload.team2.listThemes.map((lt) => {
+          const L = d.lists && d.lists[lt.key];
+          if (!L || lt.failed) return lt;
+          const allow = new Set(L.items.map((i) => i.ticker));
+          const keep = (arr, where) => (Array.isArray(arr) ? arr.filter((t) => (allow.has(t) ? true : (removed.push(`${lt.key}.${where}:${t}`), false))) : []);
+          return { ...lt,
+            commonIndustries: (lt.commonIndustries || []).map((c) => ({ ...c, tickers: keep(c.tickers, 'industry') })),
+            themes: (lt.themes || []).map((th) => ({ ...th, tickers: keep(th.tickers, 'theme') })).filter((th) => th.tickers.length >= 2),
+            unexplained: keep(lt.unexplained, 'unexplained') };
+        });
+        if (removed.length) say('WARN', `2팀 목록 테마: 목록에 없는 티커 ${removed.length}개 제거 — ${removed.slice(0, 8).join(', ')}`);
+        d.themes = { ...(d.themes || {}), llm: { lists, researchedOn: dateStr, sanitized: removed.length ? { removed } : null }, reusedFrom: reuse.team2 || null };
       }
       else if (d.themes && d.themes.llmCarried) d.themes = { ...d.themes, llm: d.themes.llmCarried };
       d.research_coverage = coverageOf({
-        done, failed: failedCount, carried, total: (d.picks || []).length,
+        done, failed: failedCount, carried, total: pool.length,
         cap: (payload.team2.coverage || {}).cap ?? null,
       });
       writeWindowData(f, 'TEAM2_DATA', d);
@@ -472,34 +415,6 @@ async function main() {
       });
       writeWindowData(f, 'TEAM4_DATA', d);
       merged.push(`team4(촉매 ${done}${carried ? ` · 이월 ${carried}` : ''}${failedCount ? ` · 실패 ${failedCount}` : ''})`);
-    }
-  }
-
-  if (payload.team5) {
-    const f = path.join(paths.dashboardData, 'team5.js');
-    const d = loadWindowData(f, 'TEAM5_DATA');
-    if (d) {
-      guardDate(d, '5팀');
-      const fresh = (payload.team5.industries || []).map((x) => ({ ...x, researchedOn: dateStr, carried: false }));
-      const freshKeys = new Set(fresh.map((x) => x.key));
-      const prevInds = (d.llm && Array.isArray(d.llm.industries)) ? d.llm.industries : [];
-      const carriedInds = prevInds.filter((x) => x.carried && !freshKeys.has(x.key));
-      // 오늘 후보 업종 순서를 유지한다 (_args.json 의 team5args 후보 목록)
-      const args = readJson(path.join(paths.llmInDir, '_args.json'), null);
-      const order = ((args && args.team5args && args.team5args.industries) || []).map((x) => x.key);
-      const all = [...fresh, ...carriedInds].sort((a, b) => (order.indexOf(a.key) === -1 ? 999 : order.indexOf(a.key)) - (order.indexOf(b.key) === -1 ? 999 : order.indexOf(b.key)));
-      const extra = {};
-      for (const x of fresh) extra[x.key] = { rankPct6: (((args && args.team5args && args.team5args.industries) || []).find((i) => i.key === x.key) || {}).rankPct?.m6 ?? null };
-      recordResearched(rc, 'team5', fresh.map((x) => x.key), dateStr, extra);
-      // 신규 조사 업종이 0이면 LLM 종합은 빈 입력을 보고 쓴 "데이터 없음" 문구다 — 이월 종합을 지킨다 (2026-09-15 실측).
-      const t5Summary = fresh.length ? payload.team5.summary : null;
-      const summary = t5Summary || (d.llm && d.llm.summary) || null;
-      const summaryResearchedOn = t5Summary ? dateStr : (d.llm && d.llm.summaryResearchedOn) || null;
-      d.llm = { status: 'done', industries: all, summary, summaryResearchedOn, reusedFrom: reuse.team5 || null };
-      const poolTotal = (args && args.team5args && args.team5args.poolTotal) || all.length;
-      d.research_coverage = coverageOf({ done: all.length, carried: carriedInds.length, total: poolTotal, cap: (payload.team5.coverage || {}).cap ?? 6, unit: '업종' });
-      writeWindowData(f, 'TEAM5_DATA', d);
-      merged.push(`team5(업종 ${fresh.length}${carriedInds.length ? ` · 이월 ${carriedInds.length}` : ''})`);
     }
   }
 
@@ -552,7 +467,6 @@ async function main() {
     const t1 = loadWindowData(path.join(paths.dashboardData, 'team1.js'), 'TEAM1_DATA');
     const t2 = loadWindowData(path.join(paths.dashboardData, 'team2.js'), 'TEAM2_DATA');
     const t4 = loadWindowData(path.join(paths.dashboardData, 'team4.js'), 'TEAM4_DATA');
-    const t5 = loadWindowData(path.join(paths.dashboardData, 'team5.js'), 'TEAM5_DATA');
     const t3 = loadWindowData(path.join(paths.dashboardData, 'team3.js'), 'TEAM3_DATA');
     const cNode = loadWindowData(path.join(paths.dashboardData, 'chief.js'), 'CHIEF_DATA');
     const leaks = payload.chief ? chartVerdictLeaks(payload.chief) : [];
@@ -573,13 +487,13 @@ async function main() {
     body = cut(body, OLD_RES);
 
     const S = [];
-    for (const sec of [newsSection(t1, dateStr), researchSection(t2, dateStr), catalystSection(t4, dateStr), sectorSection(t5, dateStr)]) {
+    for (const sec of [newsSection(t1, dateStr), researchSection(t2, dateStr), catalystSection(t4, dateStr)]) {
       if (sec) S.push(...sec);
     }
     let out = body.replace(/\s*$/, '') + '\n';
     if (S.length) {
       out += LLM_MARK + '\n' + S.join('\n');
-      merged.push(`리포트.md(리서치 ${(t2 && t2.research_coverage && t2.research_coverage.done) || 0}종목 · 촉매 ${((t4 && t4.items) || []).filter((i) => i.catalyst && i.catalyst.status === 'done').length} · 업종 ${((t5 && t5.llm && t5.llm.industries) || []).length})`);
+      merged.push(`리포트.md(리서치 ${(t2 && t2.research_coverage && t2.research_coverage.done) || 0}종목 · 촉매 ${((t4 && t4.items) || []).filter((i) => i.catalyst && i.catalyst.status === 'done').length})`);
     }
 
     if (payload.chief) {
@@ -596,7 +510,7 @@ async function main() {
       }
       if (c.teamSummaries) {
         L.push('### 팀별 요약');
-        for (const [k, label] of [['team1', '1팀 시장환경'], ['team2', '2팀 종목선정'], ['team3', '3팀 추적'], ['team4', '4팀 EP·촉매'], ['team5', '5팀 주도섹터']]) {
+        for (const [k, label] of [['team1', '1팀 시장환경'], ['team2', '2팀 종목선정'], ['team3', '3팀 추적'], ['team4', '4팀 EP·촉매']]) {
           if (c.teamSummaries[k]) L.push(`- **${label}**: ${c.teamSummaries[k]}`);
         }
         L.push('');
@@ -613,19 +527,19 @@ async function main() {
       out += (S.length ? '\n' : '') + L.join('\n');
       merged.push('리포트.md(실장)');
     }
-    out = insertDigest(out, digestSection({ t1, t2, t3, t4, t5, c: cNode, chief: payload.chief, report, leaks }));
+    out = insertDigest(out, digestSection({ t1, t2, t3, t4, c: cNode, chief: payload.chief, report, leaks }));
     merged.push('리포트.md(요약)');
     fs.writeFileSync(mdFile, out, 'utf8');
   }
 
   // ── 로테이션 캐시 저장 ──
   saveCache(rc, dateStr);
-  const covered = { team2: Object.keys(rc.team2).length, team4: Object.keys(rc.team4).length, team5: Object.keys(rc.team5 || {}).length };
-  say('SYSTEM', `로테이션 캐시: 2팀 누적 ${covered.team2}종목 · 4팀 누적 ${covered.team4}종목 · 5팀 누적 ${covered.team5}업종 조사됨`);
+  const covered = { team2: Object.keys(rc.team2).length, team4: Object.keys(rc.team4).length };
+  say('SYSTEM', `로테이션 캐시: 2팀 누적 ${covered.team2}종목 · 4팀 누적 ${covered.team4}종목 조사됨`);
 
   // ── 에이전트 실패를 로그에 그대로 남긴다 ──
   const fails = [];
-  for (const [k, label] of [['team1', '1팀'], ['team2', '2팀'], ['team4', '4팀'], ['team5', '5팀'], ['team6', '6팀 심층'], ['chief', '실장']]) {
+  for (const [k, label] of [['team1', '1팀'], ['team2', '2팀'], ['team4', '4팀'], ['team6', '6팀 심층'], ['chief', '실장']]) {
     const p = payload[k];
     if (!p) continue;
     if (p.error === 'agent_failed') fails.push(`${label} 전체`);

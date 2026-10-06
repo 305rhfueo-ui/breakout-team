@@ -35,7 +35,6 @@ async function main() {
   const t2 = loadWindowData('team2.js', 'TEAM2_DATA');
   const t3 = loadWindowData('team3.js', 'TEAM3_DATA');
   const t4 = loadWindowData('team4.js', 'TEAM4_DATA');
-  const t5 = loadWindowData('team5.js', 'TEAM5_DATA');
   const cc = loadWindowData('chartcheck.js', 'CHARTCHECK_DATA');
   const date = t1.generated;
   const sessionDate = (t1.data_source && t1.data_source.sessionDate) || cal.prevTradingDay(date);
@@ -59,10 +58,11 @@ async function main() {
     },
   };
 
-  // ── 조사 순서 — 오래 안 본 종목 → 돈이 들어오는 업종 → 지표 순 ──
+  // ── 조사 순서 — 오래 안 본 종목 → 도윤 목록 우선순위(거래대금·세 기간 공통 → 1개월 → 3·6개월) → 지표 순 ──
   const rc = rot.loadCache();
-  const flowRank = rot.flowRankOf(t5.flow ? t5.flow.industries : null);
-  if (!flowRank.size) say('WARN', '자금흐름 데이터 없음 — 리서치 우선순위에서 업종 항목이 빠집니다');
+  // 2026-10-06: 2팀 조사 대상 = 선정 종목(picks) + 목록 전용 종목(listPicks)
+  const pool2 = [...(t2.picks || []), ...(t2.listPicks || [])];
+  const listRank = t2.lists ? require('./lib/lists').listRankOf(t2.lists) : new Map();
 
   // "변화 있음" 판정 재료 — 오늘 세션 돌파 · 차트확인 진입 · 최근 8-K 실적발표
   const brkToday = new Set((t3.breakouts || []).filter((b) => b.breakDate && b.breakDate >= (cal.prevTradingDay(sessionDate) || sessionDate)).map((b) => b.ticker));
@@ -81,8 +81,9 @@ async function main() {
   };
 
   const TTL = Number(process.env.RESEARCH_TTL || 5);
-  const t2Ordered = rot.orderForResearch((t2.picks || []).filter((p) => p.detail), {
-    flowRank, cache: rc, bucket: 'team2', today: date, ttl: TTL, metric: (p) => p.bestPct || 0,
+  const t2Ordered = rot.orderForResearch(pool2.filter((p) => p.detail), {
+    rankOf: (p) => listRank.get(p.ticker) ?? rot.RANK_OTHER,
+    cache: rc, bucket: 'team2', today: date, ttl: TTL, metric: (p) => p.bestPct || 0,
   });
   const t2cap = Number(process.env.RESEARCH_CAP || 20);
   const sel2 = rot.selectForResearch(t2Ordered, { cache: rc, bucket: 'team2', today: date, ttl: TTL, cap: t2cap, changed: changed2 });
@@ -103,16 +104,44 @@ async function main() {
       detail: slimDetail(p.detail),
     }, null, 1), 'utf8');
   }
-  const BP = t2.themes.byPeriod || null, CR = t2.themes.cross || null;
+  // ── 목록 테마 인자 (2026-10-06) — 5개 목록마다 AI 1명이 공통 테마를 찾는다. 무거워서 파일로 뺀다 ──
+  //    목록 종목의 뉴스 제목(상세 수집분) + 이미 조사된 상승 이유를 근거로 준다. 상세가 없는 종목은 뉴스만 조금 새로 받는다.
+  const LKEYS = ['dollar', 'm1', 'm3', 'm6', 'all'];
+  let listsFile = null;
+  if (t2.lists) {
+    const byT = new Map(pool2.map((p) => [p.ticker, p]));
+    const { getTickerNews: getNews } = require('./data/news-rss');
+    let fetchedNews = 0;
+    const newsOf = async (t) => {
+      const p = byT.get(t);
+      const items = (p && p.detail && p.detail.news && p.detail.news.items) || null;
+      if (items) return items.filter((x) => x.direct !== false).slice(0, 4);
+      if (fetchedNews >= 20 || process.env.SKIP_T4_NEWS) return [];   // 상한 — 실행 시간 보호
+      fetchedNews++;
+      try { const r = await getNews(t, { limit: 6 }); return r.ok ? r.items.filter((x) => x.direct !== false).slice(0, 4) : []; } catch (e) { return []; }
+    };
+    const listsOut = [];
+    for (const k of LKEYS) {
+      const l = t2.lists[k];
+      if (!l || l.note || !l.count) { listsOut.push({ key: k, label: l ? l.label : k, count: 0, empty: true }); continue; }
+      const news = [], research = [];
+      for (const it of l.items) {
+        for (const x of await newsOf(it.ticker)) news.push({ ticker: it.ticker, date: String(x.date || '').slice(0, 10), publisher: x.publisher, title: x.title, url: x.url });
+        const R = (byT.get(it.ticker) || {}).research;
+        if (R && ['done', 'no_source'].includes(R.status)) research.push({ ticker: it.ticker, company: R.company || null, whyRose: (R.whyRose || []).filter((c) => c.evidence_level === 'sourced').map((c) => c.statement) });
+      }
+      listsOut.push({ key: k, label: l.label, criteria: l.criteria, count: l.count,
+        items: l.items.map((i) => ({ ticker: i.ticker, name: i.name || null, industry: i.industry, ret1d: i.ret1d, rnk1: i.rnk1, rnk3: i.rnk3, rnk6: i.rnk6 })),
+        industries: (l.industries.clusters || []).slice(0, 8).map((c) => ({ industry: c.name, count: c.count, tickers: c.tickers })),
+        lone: l.lone, news, research });
+    }
+    listsFile = path.join(paths.llmInDir, '_t2lists.json');
+    fs.writeFileSync(listsFile, JSON.stringify({ date, lists: listsOut }, null, 1), 'utf8');
+    say('SYSTEM', `2팀 목록 테마 인자: ${listsOut.map((l) => `${l.label} ${l.count}`).join(' · ')} · 뉴스 새로 받음 ${fetchedNews}종목`);
+  }
   out.team2args = {
-    date, cap: t2cap, argsDir: t2dir,
-    clusters: (t2.themes.clusters || []).slice(0, 14),
-    // 기간별 3세트 + 교차 — Node 확정. 테마종합 에이전트 1명이 받는다 (사용자 결정 2026-09-07)
-    themesByPeriod: BP ? Object.fromEntries(Object.entries(BP).map(([k, b]) => [k, {
-      count: b.count, headline: b.headline, topIndustries: b.topIndustries,
-      clusters: (b.clusters || []).slice(0, 10), tickers: b.tickers }])) : null,
-    cross: CR ? { persistent: CR.persistent, newEntrants: CR.newEntrants, midTerm: CR.midTerm, fading: CR.fading, other: CR.other, counts: CR.counts, labels: CR.labels } : null,
-    crossDetail: t2.themes.crossDetail || null,
+    date, cap: t2cap, argsDir: t2dir, listsFile,
+    lists: t2.lists ? LKEYS.map((k) => ({ key: k, label: t2.lists[k].label, count: t2.lists[k].note ? 0 : t2.lists[k].count })) : [],
     picks: t2sel.map((p) => ({
       ticker: p.ticker, sector: p.sector, industry: p.industry, nameKo: p.nameKo || null,
       rs: p.rs, qualifiedBy: p.qualifiedBy || [], adr: p.adr, high52: p.high52, div50: p.div50, div200: p.div200,
@@ -121,7 +150,7 @@ async function main() {
       ...siteBlock(p),
     })),
     skipped: sel2.skipped.map((s) => s.key),
-    picksTotal: (t2.picks || []).length,
+    picksTotal: pool2.length,
   };
 
   // ── 4팀 — 150일선 위 거래량 급증 종목 전원. 국면 필터·VOL_X≥3·상한 없음 (2026-09-16 사용자 결정) ──
@@ -129,7 +158,7 @@ async function main() {
   //    같은 입력 → 같은 출력이므로 어제 결과를 이월한다. 판정이 아니라 동일 입력 재실행 방지다.
   //    그래서 선별보다 자료 수집이 먼저다 — 후보 전원의 뉴스·공시를 모아 지문을 만든 뒤 고른다.
   // 2팀 detail 재사용 + 없는 티커만 새로 수집. news 는 direct 만.
-  const detailByTicker = new Map((t2.picks || []).filter((p) => p.detail).map((p) => [p.ticker, p.detail]));
+  const detailByTicker = new Map(pool2.filter((p) => p.detail).map((p) => [p.ticker, p.detail]));
   const { getTickerNews } = require('./data/news-rss');
   const { getFilings } = require('./data/sec-edgar');
   const evidOf = (news, filings) => crypto.createHash('sha1')
@@ -178,57 +207,8 @@ async function main() {
     skipped: sel4.skipped.map((s) => s.key),
   };
 
-  // ── 5팀 — 후보 업종 풀 → TTL 안이면 건너뛴다. 순위가 크게 움직였으면 재조사 ──
-  // 어느 기간으로 뽑혔는지 태그 (pickedBy) — 예전엔 dedupe 하면서 기간 정보가 사라졌다
-  const pickedBy = new Map();
-  for (const [k, list] of [['m6', t5.strictTop2.m6], ['m1', t5.strictTop2.m1], ['m3', t5.strictTop2.m3]]) {
-    for (const x of (list || [])) { if (!pickedBy.has(x.key)) pickedBy.set(x.key, []); pickedBy.get(x.key).push(k); }
-  }
-  for (const x of (t5.top10by6 || [])) { if (!pickedBy.has(x.key)) pickedBy.set(x.key, []); if (!pickedBy.get(x.key).includes('top10')) pickedBy.get(x.key).push('top10'); }
-  const pool = [...(t5.strictTop2.m6 || []), ...(t5.strictTop2.m1 || []), ...(t5.strictTop2.m3 || []), ...(t5.top10by6 || [])];
-  const seen = new Set();
-  const uniqAll = pool.filter((x) => !seen.has(x.key) && seen.add(x.key)).map((x) => ({ ...x, pickedBy: pickedBy.get(x.key) || [] }));
-  const uniq = uniqAll.slice(0, 6);
-  const flowByKey = new Map(((t5.flow && t5.flow.industries) || []).map((x) => [x.key, x]));
-  const carried5 = new Set(((t5.llm && t5.llm.industries) || []).filter((x) => x.carried).map((x) => x.key));
-  const changed5 = (x, entry) => {
-    if (!carried5.has(x.key)) return '이월분 없음';
-    const prev = entry && entry.rankPct6;
-    const now = x.rankPct && x.rankPct.m6;
-    if (Number.isFinite(prev) && Number.isFinite(now) && Math.abs(now - prev) >= 3) return `순위 ${prev}→${now}`;
-    return null;
-  };
-  const sel5 = rot.selectForResearch(uniq, { cache: rc, bucket: 'team5', today: date, ttl: TTL, cap: 6, keyOf: (x) => x.key, changed: changed5 });
-  const t5full = {
-    date, cap: 6, poolTotal: uniqAll.length,
-    industries: sel5.picked.map((x) => {
-      const members = (t2.picks || []).filter((p) => `${p.sector}|${p.industry}` === x.key).map((p) => p.ticker);
-      const memberNews = [];
-      for (const tk of members) {
-        const d = detailByTicker.get(tk);
-        for (const it of ((d && d.news && d.news.items) || []).filter((z) => z.direct).slice(0, 3)) {
-          memberNews.push({ ticker: tk, date: it.date, publisher: it.publisher, title: it.title, url: it.url });
-        }
-      }
-      const f = flowByKey.get(x.key);
-      const flow = f ? { FRANK: f.FRANK, frank25: f.frank25, f10: f.f10, f25: f.f25, d50: f.d50, d200: f.d200, d200Delta: f.d200Delta,
-        cy: f.cy, ny: f.ny, upRatio: f.upRatio, coverage: f.coverage, winRate: f.winRate, stage: f.stage, stageKo: f.stageKo, flow: f.flow } : null;
-      return { ...x, members, memberNews, flow };
-    }),
-  };
-  const t5file = path.join(paths.llmInDir, '_t5args.json');
-  fs.writeFileSync(t5file, JSON.stringify(t5full, null, 1), 'utf8');
-  out.team5args = {
-    date, cap: 6, argsFile: t5file, poolTotal: uniqAll.length,
-    industries: t5full.industries.map(({ memberNews, ...light }) => light),
-    candidates: uniq.map((x) => ({ key: x.key, industry: x.industry, rankPct: x.rankPct, pickedBy: x.pickedBy })),
-    skipped: sel5.skipped.map((s) => s.key),
-  };
-
   // ── 실장 종합에 넘길 요약 (원본 전체는 너무 크다) ──
   const ds = t1.data_source || {};
-  const crossTop = (list, key) => ((t2.themes.crossDetail || {})[list] || (CR ? CR[list].map((t) => ({ ticker: t })) : []))
-    .slice(0, 8).map((x) => ({ ticker: x.ticker, streak: x.streak ? x.streak[key] : null, since: x.since ? x.since[key] : null }));
   out.chiefTeams = {
     dataNotice: t2.dataNotice || null,
     barsNotice: ds.barsNotice || null,
@@ -247,10 +227,10 @@ async function main() {
              sectors: (t1.leaders.sectors || []).slice(0, 6), overheat: t1.leaders.market_overheat.ko,
              reentryCount: t1.leaders.market_overheat.reentry ?? null, div200Median: t1.leaders.market_overheat.median ?? null },
     team2: { stats: t2.stats, themeHeadline: t2.themes.headline, picksTotal: (t2.picks || []).length,
-             // 기간별 테마 헤드라인·교차 개수·지속/신규/퇴조 상위 8 (streak 일수) — 2026-09-07
-             themeHeadlineByPeriod: BP ? { m1: `${BP.m1.count}종목 — ${BP.m1.headline}`, m3: `${BP.m3.count}종목 — ${BP.m3.headline}`, m6: `${BP.m6.count}종목 — ${BP.m6.headline}` } : null,
-             crossCounts: CR ? CR.counts : null,
-             crossTop: CR ? { persistent: crossTop('persistent', 'm6'), newEntrants: crossTop('newEntrants', 'm1'), fading: crossTop('fading', 'm6'), midTerm: crossTop('midTerm', 'm3') } : null,
+             // 도윤 5개 목록 (2026-10-06) — 목록마다 개수·공통 업종·티커. 실장 "강한 종목이 몰린 곳" 문단의 재료
+             lists: t2.lists ? LKEYS.map((k) => { const l = t2.lists[k]; return { key: k, label: l.label, count: l.count, note: l.note || null,
+               headline: l.industries.headline, industries: (l.industries.clusters || []).slice(0, 5).map((c) => ({ name: c.name, count: c.count, tickers: c.tickers.slice(0, 6) })),
+               tickers: l.items.slice(0, 20).map((i) => i.ticker) }; }) : null,
              targetStatusCount: (t2.picks || []).filter((p) => p.targetStatus === true).length,
              top: (t2.picks || []).slice(0, 20).map((p) => ({ ticker: p.ticker, sector: p.sector, industry: p.industry, qualifiedBy: p.qualifiedBy || [],
                rsTop: p.bestPct ? Number((100 - p.bestPct).toFixed(1)) : null, adr: p.adr, high52: p.high52, volx: p.volx,
@@ -275,8 +255,6 @@ async function main() {
     team4: { universeHits: t4.universeHits, analyzed: t4.analyzed, filter: t4.filter || null,
              excludedNoMarketCap: t4.excludedNoMarketCap || [], excludedEtf: t4.excludedEtf || [],
              excludedBelowMa150: t4.excludedBelowMa150 || [], excludedMa150Unknown: t4.excludedMa150Unknown || [] },
-    team5: { top2m6: (t5.strictTop2.m6 || []).map((x) => ({ industry: x.industry, wrs: x.wrs, rankPct: x.rankPct })),
-             sectors: (t5.sectors || []).slice(0, 8) },
     chartCheck: cc.items,
     chartCheckTotal: cc.total ?? (cc.items || []).length,
   };
@@ -288,13 +266,11 @@ async function main() {
   console.log(`날짜        ${date} (RS 세션 ${sessionDate})`);
   console.log(`1팀 뉴스후보 ${out.team1args.candidates.length}건`);
   console.log(`2팀 종목     조사 ${t2sel.length}개 (상한 ${t2cap}) · TTL(${TTL}거래일) 안 이월 ${sel2.skipped.length}개 · 후보 ${t2Ordered.length}/${(t2.picks || []).length}`);
-  if (BP) console.log(`  기간별     1M ${BP.m1.count} · 3M ${BP.m3.count} · 6M ${BP.m6.count} · 교차 지속 ${CR.counts.persistent}/신규 ${CR.counts.newEntrants}/중기 ${CR.counts.midTerm}/퇴조 ${CR.counts.fading}`);
+  if (out.team2args.lists.length) console.log(`  목록       ${out.team2args.lists.map((l) => `${l.label} ${l.count}`).join(' · ')}`);
   console.log(`  조사 이유  ${sel2.why.join(', ') || '없음'}`);
   if (sel2.skipped.length) console.log(`  이월       ${sel2.skipped.map((s) => `${s.key}@${s.last}`).join(', ')}`);
   console.log(`4팀 종목     조사 ${epPick.length}개 (상한 없음) · 후보 ${(t4.items || []).length}(150일선 위) · 이월 ${sel4.skipped.length}(자료 동일)`);
   console.log(`  조사 이유  ${sel4.why.join(', ') || '없음'}`);
-  console.log(`5팀 업종     조사 ${sel5.picked.length}개 · 이월 ${sel5.skipped.length} · 후보 풀 ${uniqAll.length}`);
-  console.log(`  조사 이유  ${sel5.why.join(', ') || '없음'}`);
   console.log(`차트확인     ${(cc.items || []).length}개${cc.total > (cc.items || []).length ? ` (전체 ${cc.total})` : ''}`);
   console.log(`\n저장: ${file}`);
 }

@@ -1,5 +1,5 @@
 'use strict';
-// 미르·실장 브리핑에 내부 코드·불량 값이 새지 않는지 검사한다.
+// 실장·담당자 브리핑에 내부 코드·불량 값이 새지 않는지 검사한다.
 //
 // 2026-09-03 독자 기준 변경: 사용자는 재무·회계 전공의 금융 실무자다.
 //   "중학생도 이해할 수 있게" 규칙(영문 약어 금지·숫자 5개 제한·비유 강제)은 폐기했다.
@@ -30,12 +30,12 @@ function loadRoom() {
   const doc = { getElementById: (id) => { if (!nodes.has(id)) nodes.set(id, mk()); return nodes.get(id); },
     querySelectorAll: () => [], querySelector: () => null, createElement: () => mk(),
     head: mk(), body: mk(), addEventListener() {} };
-  const win = { document: doc, location: { href: '', hash: '' }, setTimeout, clearTimeout, setInterval, clearInterval, console,
+  const win = { document: doc, location: { href: '', hash: '' }, URLSearchParams, setTimeout, clearTimeout, setInterval, clearInterval, console,
     matchMedia: () => ({ matches: false, addEventListener() {} }),
     innerWidth: 1180, innerHeight: 900, addEventListener() {} };
   const ctx = vm.createContext(win);
   ctx.window = win; ctx.document = doc;
-  for (const f of ['industry-ko.js', 'chief.js', 'team1.js', 'team2.js', 'team3.js', 'team4.js', 'team5.js', 'chartcheck.js']) {
+  for (const f of ['industry-ko.js', 'chief.js', 'team1.js', 'team2.js', 'team3.js', 'team4.js', 'team6.js', 'chartcheck.js']) {
     const p = path.join(REPO, 'dashboard', 'data', f);
     if (fs.existsSync(p)) vm.runInContext(fs.readFileSync(p, 'utf8'), ctx, { filename: f });
   }
@@ -56,7 +56,7 @@ const LEAKS = [
 ];
 
 const ctx = loadRoom();
-const targets = [['미르(5팀)', 't5'], ['실장', 'chief'], ['한별(1팀)', 't1'], ['도윤(2팀)', 't2'], ['수아(3팀)', 't3'], ['재민(4팀)', 't4']];
+const targets = [['실장', 'chief'], ['한별(1팀)', 't1'], ['도윤(2팀)', 't2'], ['수아(3팀)', 't3'], ['재민(4팀)', 't4']];
 
 console.log('\n[1] 내부 코드가 산문에 새지 않는가');
 for (const [who, id] of targets) {
@@ -76,35 +76,21 @@ for (const [who, id] of targets) {
   });
 }
 
-console.log('\n[3] 업종명이 한글로 나오는가 (미르)');
-ok('미르 브리핑에 순수 영문 업종명이 없다', () => {
-  const raw = strip(ctx.briefing('t5'));
+console.log('\n[3] 업종명이 한글로 나오는가 (도윤 목록)');
+ok('도윤 브리핑에 순수 영문 업종명이 없다', () => {
+  const raw = strip(ctx.briefing('t2'));
   if (!raw) return;
   const KO = ctx.window.INDUSTRY_KO || {};
-  const bare = Object.keys(KO).filter((en) => {
-    if (!raw.includes(en)) return false;
-    return !raw.includes(`${KO[en]}(${en})`);
-  });
+  const bare = Object.keys(KO).filter((en) => raw.includes(en) && !raw.includes(KO[en]));
   if (bare.length) throw new Error(`한글 없이 영문만: ${bare.join(', ')}`);
-});
-
-console.log('\n[4] 미르와 실장이 같은 업종을 가리키는가');
-ok('실장이 말하는 업종은 미르의 "돈 들어오는 곳" 목록 안에 있다', () => {
-  const fc = ctx.window.CHIEF_DATA && ctx.window.CHIEF_DATA.flowCross;
-  const F = ctx.window.TEAM5_DATA && ctx.window.TEAM5_DATA.flow;
-  if (!fc || !F) return;
-  const chiefInd = (fc.inflow || []).filter((i) => i.picks && i.picks.length)[0];
-  if (!chiefInd) return;
-  const mirSet = new Set(F.industries.filter((x) => ['leading', 'inflow', 'narrow'].includes(x.flow)).map((x) => x.key));
-  if (!mirSet.has(chiefInd.key)) throw new Error(`실장 ${chiefInd.key} 가 미르의 유입 목록에 없다`);
 });
 
 console.log('\n[5] LLM 산문 필드에 내부 코드가 새지 않는가');
 function proseFields() {
   const out = [];
   const push = (who, what, v) => { if (v && String(v).trim()) out.push([who, what, String(v)]); };
-  const T2 = ctx.window.TEAM2_DATA || {}, T4 = ctx.window.TEAM4_DATA || {}, T5 = ctx.window.TEAM5_DATA || {};
-  for (const p of (T2.picks || [])) {
+  const T2 = ctx.window.TEAM2_DATA || {}, T4 = ctx.window.TEAM4_DATA || {};
+  for (const p of [...(T2.picks || []), ...(T2.listPicks || [])]) {
     const R = p.research; if (!R || R.status !== 'done') continue;
     push(p.ticker, 'company', R.company); push(p.ticker, 'lead', R.lead);
     for (const c of [...(R.whyRose || []), ...(R.counterpoint || [])]) push(p.ticker, 'claim', c.statement);
@@ -112,10 +98,6 @@ function proseFields() {
   for (const i of (T4.items || [])) {
     const C = i.catalyst; if (!C || C.status !== 'done') continue;
     push(i.ticker, 'company', C.company); push(i.ticker, 'volumeExplanation', C.volumeExplanation);
-  }
-  for (const x of ((T5.llm && T5.llm.industries) || [])) {
-    push(x.industry, 'lead', x.lead); push(x.industry, 'risk', x.risk);
-    for (const c of (x.whyStrong || [])) push(x.industry, 'claim', c.statement);
   }
   return out;
 }

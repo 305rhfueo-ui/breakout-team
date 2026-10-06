@@ -8,7 +8,6 @@
 <script src="data/team2.js"      onerror="window.__NO_T2=1"></script>
 <script src="data/team3.js"      onerror="window.__NO_T3=1"></script>
 <script src="data/team4.js"      onerror="window.__NO_T4=1"></script>
-<script src="data/team5.js"      onerror="window.__NO_T5=1"></script>
 <script src="data/team6.js"      onerror="window.__NO_T6=1"></script>
 <script src="data/chartcheck.js" onerror="window.__NO_CC=1"></script>
 <script src="data/industry-ko.js"></script>
@@ -125,7 +124,6 @@ svg{display:block}
 <div class="pane" id="p-t2"></div>
 <div class="pane" id="p-t3"></div>
 <div class="pane" id="p-t4"></div>
-<div class="pane" id="p-t5"></div>
 <div class="pane" id="p-t6"></div>
 <div class="pane" id="p-cc"></div>
 <div class="pane" id="p-hist"></div>
@@ -135,7 +133,7 @@ svg{display:block}
 
 <script>
 const D={chief:window.CHIEF_DATA,t1:window.TEAM1_DATA,t2:window.TEAM2_DATA,t3:window.TEAM3_DATA,
-         t4:window.TEAM4_DATA,t5:window.TEAM5_DATA,t6:window.TEAM6_DATA,cc:window.CHARTCHECK_DATA,hist:window.HISTORY_DATA};
+         t4:window.TEAM4_DATA,t6:window.TEAM6_DATA,cc:window.CHARTCHECK_DATA,hist:window.HISTORY_DATA};
 const $=id=>document.getElementById(id);
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const n=(v,d=2)=>v==null||v===''||Number.isNaN(Number(v))?'—':Number(v).toFixed(d);
@@ -172,7 +170,7 @@ const sgn=(v,d)=>v==null||!isFinite(v)?'—':`<span class="b ${v>0?'b-grn':v<0?'
 const rsv=(p,k,f)=>p&&p.rs&&p.rs[k]?p.rs[k][f]:null;   // rs.m1.pct / rs.m1.v — rs 가 없어도 안전
 
 const TABS=[['chief','📊 종합'],['t1','1️⃣ 시장환경'],['t2','2️⃣ 종목선정'],['t3','3️⃣ 추적'],
-            ['t4','4️⃣ EP·촉매'],['t5','5️⃣ 주도섹터'],['t6','6️⃣ 매매'],['cc','👁️ 차트확인'],['hist','📅 히스토리']];
+            ['t4','4️⃣ EP·촉매'],['t6','6️⃣ 매매'],['cc','👁️ 차트확인'],['hist','📅 히스토리']];
 
 /* ── 헤더 HUD ── */
 function hud(){
@@ -520,6 +518,9 @@ function periodThemeCard(th){
 /* 2팀 테마 해석(LLM) — leadingTheme/subThemes/crossCuttingDriver/caution 은 index.html 에만 있었다 (감사 3-2) */
 function themeLlmCard(L){
   if(!L||typeof L!=='object')return '';
+  // 2026-10-06: 테마는 도윤 5개 목록별로 바뀌었다({lists:[…]}) — 목록 화면은 메인(index.html)에서 본다
+  if(Array.isArray(L.lists))return `<div class="card"><h3>🧩 목록별 테마</h3><div class="note">거래대금 상위 · RS 1/3/6개월 · 세 기간 공통 — 메인 화면의 도윤 카드에서 목록별로 봅니다.</div>`
+    +L.lists.filter(x=>x&&!x.failed&&x.narrative).map(x=>`<div style="margin-top:8px"><b>${esc(x.label||x.key)}</b> ${esc(x.narrative)}</div>`).join('')+`</div>`;
   const STR={strong:['강함','b-grn'],mid:['보통','b-yel'],weak:['약함','b-dim'],none:['없음','b-dim']};
   const one=(x,lead)=>{
     if(!x||!x.name)return '';
@@ -869,7 +870,7 @@ function flowCards(t){
   return h;
 }
 
-/* ── 5팀 ── */
+/* ── 5팀 ── (2026-10-06 미르 제거 — 더 이상 호출되지 않는다) */
 function renderT5(){
   const t=D.t5; if(!t){$('p-t5').innerHTML='<div class="empty">5팀 데이터 없음</div>';return;}
   const cols=[
@@ -932,7 +933,6 @@ function renderT6(){
     {h:'이격(ADR)',f:p=>sg(p.extensionAdr),s:p=>p.extensionAdr},
     {h:'ADR',f:p=>n(p.adrPct,1)+'%',s:p=>p.adrPct},
     {h:'4팀',f:p=>p.catalyst&&p.catalyst.category?'①②③④⑤⑥'[p.catalyst.category-1]:'—',s:p=>p.catalyst?p.catalyst.category:null},
-    {h:'5팀 업종',l:1,f:p=>p.flow?(FL[p.flow.flow]||esc(p.flow.flow)):'—',s:p=>p.flow?p.flow.flow:''},
     {h:'실적',f:p=>p.earnings==='unknown'?'?':p.earnings?esc(String(p.earnings).slice(5)):'—',s:p=>p.earnings||''},
     {h:'상태',l:1,f:p=>p.watch?'<span class="b b-grn">👀 관심</span>':'<span class="b b-dim">⛔ '+esc(p.blocked||'')+'</span>',s:p=>p.watch?1:0},
   ];
@@ -1540,7 +1540,7 @@ document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{
   b.classList.add('on');$('p-'+b.dataset.k).classList.add('on');
 });
 
-hud();renderChief();renderT1();renderT2();renderT3();renderT4();renderT5();renderT6();renderCC();renderHist();
+hud();renderChief();renderT1();renderT2();renderT3();renderT4();renderT6();renderCC();renderHist();
 
 /* 리서치룸에서 #t1 같은 해시로 들어오면 해당 탭을 연다 */
 function openTabFromHash(){

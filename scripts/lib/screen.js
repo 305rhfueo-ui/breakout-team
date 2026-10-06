@@ -64,6 +64,8 @@ function pickRow(row) {
     // 절대 상승률 (참고 컬럼 — RS 와 다른 지표)
     ret1m: num(row.Ret_1M_Pct), ret3m: num(row.Ret_3M_Pct), ret6m: num(row.Ret_6M_Pct),
     maxRise1m: num(row.Max_Rise_1M_Pct), maxRise3m: num(row.Max_Rise_3M_Pct), maxRise6m: num(row.Max_Rise_6M_Pct),
+    // 2026-10-05 사이트에 추가한 열 — 전영업일 대비·5영업일 전 대비 상승률(%), 당일 거래대금(백만 달러)
+    ret1d: num(row.Ret_1D_Pct), ret5d: num(row.Ret_5D_Pct), dollarVolM: num(row.Dollar_Vol_M),
     brk60d: yes(row.BRK_60D),
     clsPos: num(row.CLS_POS),
     // ── 사이트 컬럼 중 2026-09-07 까지 안 쓰던 것 (감사 후 추가) ──

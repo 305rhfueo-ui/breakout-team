@@ -1,15 +1,13 @@
 'use strict';
 // 실장(chief-report) 워크플로에 넘길 인자를 만든다.
 //
-//   node scripts/prepare-chief-args.js --team1=<1팀 결과> --team2=<2팀 결과> --team4=<4팀 결과> --team5=<5팀 결과>
+//   node scripts/prepare-chief-args.js --team1=<1팀 결과> --team2=<2팀 결과> --team4=<4팀 결과>
 //
 // prepare-llm-args.js 가 만든 _args.json 의 chiefTeams 를 바탕으로
-//   ① chief.js 의 flowCross (5팀 업종판정 × 2·3팀 종목 교차)
-//   ② 1·2·4·5팀 LLM 이 조사한 내용의 요약 (+ 이월분은 team*.js 에서)
-//   ③ Node 가 센 개수 (llmResearchedCount 등 — 실장이 배열을 세지 않게)
+//   ① 1·2·4팀 LLM 이 조사한 내용의 요약 (+ 이월분은 team*.js 에서)
+//   ② Node 가 센 개수 (llmResearchedCount 등 — 실장이 배열을 세지 않게)
 // 을 덧붙여 state/llm-in/_chiefargs.json 에 저장한다.
-//
-// ⚠️ flowCross 를 빼먹으면 실장이 "돈이 몰리는 섹터의 강세 종목"을 말하지 못한다.
+// (2026-10-06 5팀 업종 자금흐름·flowCross 제거. 6팀 심층 분석은 넘기지 않는다 — 차트 관찰이 실장 판정으로 새지 않게)
 // ⚠️ 2·4팀 결과를 안 넘기면 실장이 "상승 이유는 조사되지 않았습니다" 라고 **사실과 다르게** 쓴다
 //    (2026-08-20 실제 발생). 이월분은 team2.js/team4.js 의 research/catalyst 에서 읽으므로
 //    오늘 새로 조사한 것이 0개여도 실장은 전량을 본다.
@@ -46,13 +44,8 @@ function main() {
   const teams = { ...base.chiefTeams };
   const date = base.date;
 
-  const chief = loadWindowData('chief.js', 'CHIEF_DATA');
-  if (chief && chief.flowCross) teams.flowCross = chief.flowCross;
-  else say('WARN', 'chief.js 에 flowCross 가 없다 — 실장이 섹터×종목 교차를 못 본다');
-
   const t2 = loadWindowData('team2.js', 'TEAM2_DATA');
   const t4 = loadWindowData('team4.js', 'TEAM4_DATA');
-  const t5 = loadWindowData('team5.js', 'TEAM5_DATA');
   if (t2 && t2.dataNotice) { teams.dataNotice = t2.dataNotice; say('WARN', `데이터 경고를 실장에게 전달: ${t2.dataNotice.column} 오염`); }
   if (teams.barsNotice) say('WARN', '야후 봉 품질 경고를 실장에게 전달');
 
@@ -68,10 +61,12 @@ function main() {
   // ── 2팀 — 오늘 조사분 + 이월분 (team2.js 의 research) ──
   const t2r = readResult(arg('team2'));
   const todayRes = new Map(((t2r && t2r.researched) || []).map((x) => [x.ticker, x]));
-  const detailFin = new Map(((t2 && t2.picks) || []).map((p) => [p.ticker, p.detail && p.detail.financials]));
+  // 2026-10-06: 선정 종목 + 도윤 목록 전용 종목
+  const pool2 = [...((t2 && t2.picks) || []), ...((t2 && t2.listPicks) || [])];
+  const detailFin = new Map(pool2.map((p) => [p.ticker, p.detail && p.detail.financials]));
   const llmResearched = [];
   let carriedCount = 0;
-  for (const p of ((t2 && t2.picks) || [])) {
+  for (const p of pool2) {
     const x = todayRes.get(p.ticker) || (p.research && ['done', 'no_source'].includes(p.research.status) ? p.research : null);
     if (!x) continue;
     const carried = !todayRes.has(p.ticker);
@@ -89,7 +84,9 @@ function main() {
   teams.team2 = {
     ...teams.team2, llmResearched, llmResearchedCount: llmResearched.length, llmCarriedCount: carriedCount,
     llmFailed: (t2r && t2r.failed) || [],
-    theme: (t2r && t2r.theme) || (t2 && t2.themes && (t2.themes.llm || t2.themes.llmCarried)) || null,
+    // 도윤 5개 목록의 AI 테마 — 오늘 결과, 없으면 이월분 (목록 형태만)
+    listThemes: (t2r && Array.isArray(t2r.listThemes) && t2r.listThemes)
+      || ((t2 && t2.themes && (t2.themes.llm || t2.themes.llmCarried) || {}).lists) || null,
   };
 
   // ── 4팀 — 오늘 분류분 + 이월분 ──
@@ -108,22 +105,12 @@ function main() {
   teams.team4 = { ...teams.team4, llmItems, llmItemsCount: llmItems.length, llmFailed: (t4r && t4r.failed) || [],
     summary: Object.keys(t4Summary).length ? t4Summary : null };
 
-  // ── 5팀 — 오늘 조사분 + 이월분 ──
-  const t5r = readResult(arg('team5'));
-  const todayInd = new Map(((t5r && t5r.industries) || []).map((x) => [x.key, x]));
-  const allInd = [...todayInd.values(), ...(((t5 && t5.llm && t5.llm.industries) || []).filter((x) => x.carried && !todayInd.has(x.key)))];
-  teams.team5 = { ...teams.team5,
-    llmIndustries: allInd.map((x) => ({ industry: x.industry, driver: x.driver, durability: x.durability, keyStocks: x.keyStocks || [],
-      top: ((x.whyStrong || [])[0] || {}).statement || '근거 없음', risk: x.risk || null, carried: !todayInd.has(x.key), researchedOn: todayInd.has(x.key) ? date : (x.researchedOn || null) })),
-    summary: (t5r && t5r.summary) || (t5 && t5.llm && t5.llm.summary) || null,
-  };
-
   const out = { date, teams };
   const file = path.join(paths.llmInDir, '_chiefargs.json');
   fs.writeFileSync(file, JSON.stringify(out), 'utf8');
-  say('SYSTEM', `실장 인자 준비: ${date} · ${JSON.stringify(out).length}자 · flowCross ${teams.flowCross ? '있음' : '없음'}`
+  say('SYSTEM', `실장 인자 준비: ${date} · ${JSON.stringify(out).length}자`
     + ` · 1팀 뉴스 ${teams.team1.news ? teams.team1.news.digest.length : 0}` + ` · 2팀 ${llmResearched.length}(이월 ${carriedCount})`
-    + ` · 4팀 ${llmItems.length} · 5팀 ${allInd.length}건 · 차트확인 ${(teams.chartCheck || []).length}/${teams.chartCheckTotal ?? '?'}`);
+    + ` · 4팀 ${llmItems.length} · 차트확인 ${(teams.chartCheck || []).length}/${teams.chartCheckTotal ?? '?'}`);
   if (!llmResearched.length) say('WARN', '2팀 LLM 결과가 없다 — 실장이 "상승 이유 조사 안 됨"이라고 잘못 쓴다. --team2= 를 넘기거나 이월분을 확인하라');
   console.log(file);
 }

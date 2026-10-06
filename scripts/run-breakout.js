@@ -1,6 +1,6 @@
 'use strict';
 // ═══════════════════════════════════════════════════════════════
-//  START BREAKOUT — 쿨라매기 Break-out + Episodic Pivot 5팀 시스템
+//  START BREAKOUT — 쿨라매기 Break-out + Episodic Pivot 팀 시스템
 //  Node 전용 (LLM 0). 이 단계만으로 완결된 산출물이 나온다.
 //  LLM 리서치는 이후 워크플로가 덧입힌다.
 // ═══════════════════════════════════════════════════════════════
@@ -14,7 +14,8 @@ const cache = require('./lib/cache');
 const { fetchRsData } = require('./fetch-rs-data');
 const { rankPercentiles, bestPct } = require('./lib/percentile');
 const { computeWrsAll, validateAgainstSite } = require('./lib/wrs');
-const { selectBreakoutCandidates, detectThemes, detectThemesByPeriod } = require('./lib/screen');
+const { selectBreakoutCandidates, detectThemes, detectThemesByPeriod, pickRow } = require('./lib/screen');
+const listsLib = require('./lib/lists');
 const { yes } = require('./lib/util');
 const { checkMaColumns, aboveMa150Of, rsQualityGate } = require('./lib/ma-guard');
 const { fetchMany, fetchBarsCached, barDateET } = require('./lib/bars');
@@ -121,7 +122,7 @@ async function main() {
   // ── 3) WRS 3기간 + 사이트 대조 검증 ──
   const wrs = computeWrsAll(rows);
   const wrsCheck = validateAgainstSite(rows, meta.wrs_data);
-  say('T5', `WRS 재계산 ${wrs.byKey.size}그룹 · 사이트 대조 ${wrsCheck.matched}/${wrsCheck.comparable} 일치` +
+  say('SYSTEM', `WRS 재계산 ${wrs.byKey.size}그룹 · 사이트 대조 ${wrsCheck.matched}/${wrsCheck.comparable} 일치` +
     (wrsCheck.recovered.length ? ` · 사이트 NaN 복구 ${wrsCheck.recovered.length}그룹` : ''));
   if (!wrsCheck.ok) say('WARN', '⚠️ WRS 대조 불일치 — WRS 컬럼을 신뢰하지 마세요');
 
@@ -179,6 +180,19 @@ async function main() {
     + ` · 교차 지속 ${themes.cross.counts.persistent} / 신규 ${themes.cross.counts.newEntrants} / 중기 ${themes.cross.counts.midTerm} / 퇴조 ${themes.cross.counts.fading}`);
   if (meta.market_condition) say('T1', `사이트 시장국면(사용자 시트): ${meta.market_condition}`);
 
+  // ── 4b) 도윤 5개 목록 (2026-10-06) — 거래대금 상위 · RS 1/3/6개월 상위 2% · 세 기간 모두 ──
+  // ADR·150일선 필터 없이 사이트 2% 그대로. 2팀 선정(qualified)에 없는 목록 종목은 listPicks 로 따로 들고
+  // 상세(뉴스·실적)·리서치·팝업을 qualified 와 같은 방식으로 받는다.
+  const lists = listsLib.buildLists(rows);
+  const listRank = listsLib.listRankOf(lists);
+  const qualifiedSet = new Set(qualified.map((q) => q.ticker));
+  const rowByTicker0 = new Map(rows.map((r) => [r.Ticker, r]));
+  const listPicks = listsLib.unionTickers(lists).filter((t) => !qualifiedSet.has(t) && rowByTicker0.has(t))
+    .map((t) => pickRow(rowByTicker0.get(t)));
+  const pool = [...qualified, ...listPicks];
+  say('T2', `목록: ${listsLib.KEYS.map((k) => `${lists[k].label} ${lists[k].count}`).join(' · ')} · 목록 전용 ${listPicks.length}종목`
+    + (lists.dollar.note ? ` · ⚠️ 거래대금: ${lists.dollar.note}` : ''));
+
   // ── 5) 4팀 EP 후보 (VOL_X≥2.0 또는 주간거래량≥2.0배) ──
   // ⚠️ ETF·ETN 은 제외한다. 4팀은 개별 종목의 실적 촉매를 찾는 팀이라
   //    실적 발표가 없는 ETF 는 6분류가 성립하지 않고, 레버리지 상품은 변동성 지표가 왜곡된다.
@@ -224,7 +238,7 @@ async function main() {
 
   // ── 7) 봉 일괄 수집 (2·3·4팀 + QQQ 중복 제거) ──
   const rowByTicker = new Map(rows.map((r) => [r.Ticker, r]));
-  const needBars = [...new Set(['QQQ', ...qualified.map((q) => q.ticker), ...activeTickers, ...epTop.map((r) => r.Ticker)])];
+  const needBars = [...new Set(['QQQ', ...pool.map((q) => q.ticker), ...activeTickers, ...epTop.map((r) => r.Ticker)])];
   let barsMap = new Map();
   if (args.yahoo) {
     const res = await fetchMany(needBars, { range: '2y', concurrency: 5, budgetMs: 240000, label: '봉 수집' });
@@ -317,17 +331,24 @@ async function main() {
   const { fsOf } = require('./data/rs-fs-data');
   if (wants(args, 2)) {
     let fsHave = 0;
-    for (const q of qualified) {
+    for (const q of pool) {
       q.fs = fsMap ? fsOf(fsMap, q.ticker) : null;
-      if (q.fs) fsHave++;
+      if (q.fs && qualifiedSet.has(q.ticker)) fsHave++;
     }
+    for (const k of listsLib.KEYS) for (const it of lists[k].items) it.fs = fsMap ? fsOf(fsMap, it.ticker) : null;
     if (fsMap) say('T2', `fs_data(최근 3분기): ${fsHave}/${qualified.length}종목 보유`);
     // ── 상위 2% 진입일·연속일 (스냅샷 이력 재랭킹, 증분 캐시) ──
     try {
       const RE = require('./lib/rs-entry');
       const up = await RE.updateCache({ lookback: Number(process.env.TOP2_LOOKBACK || 60), offline: args.offline, liveRows: rows, liveDate: sessionDate || dateStr });
-      const st = RE.entryStats(up.cache, qualified.map((q) => q.ticker), sessionDate || dateStr);
-      for (const q of qualified) {
+      const st = RE.entryStats(up.cache, pool.map((q) => q.ticker), sessionDate || dateStr);
+      // 목록 표의 "연속" 칸 — 그 목록 기간에 상위 2% 로 며칠째인지 (세 기간 공통 목록은 셋 중 가장 짧은 것)
+      for (const k of listsLib.KEYS) for (const it of lists[k].items) {
+        const s = (st[it.ticker] || {}).top2Streak;
+        if (!s) continue;
+        it.streak = k === 'all' ? Math.min(s.m1 || 0, s.m3 || 0, s.m6 || 0) : k === 'dollar' ? null : (s[k] ?? null);
+      }
+      for (const q of pool) {
         const s = st[q.ticker];
         if (s) { q.top2Since = s.top2Since; q.top2Streak = s.top2Streak; q.top2Gaps = s.gaps; q.top2Capped = s.streakCapped; }
       }
@@ -336,9 +357,9 @@ async function main() {
         midTerm: detail(themes.cross.midTerm), fading: detail(themes.cross.fading), asOf: (Object.values(st)[0] || {}).asOf || null };
       say('T2', `상위2% 이력: 캐시 ${up.days}일 · 스냅샷 신규 ${up.fetched} · 계산 ${up.computed}${up.failed ? ` · 실패 ${up.failed}` : ''}`);
     } catch (e) { say('WARN', `상위2% 이력 계산 실패: ${e.message}`); }
-    for (const q of qualified) {
+    for (const q of pool) {
       const b = barsOf(q.ticker);
-      if (!b) { q.ma150Slope = null; q.ta = null; continue; }
+      if (!b) { q.ma150Slope = null; q.ta = null; q.research = { status: 'pending', note: 'LLM 리서치 대기' }; continue; }
       const sl = maSlope(b, 150, 20);
       q.ma150Slope = sl.ok ? sl.pct : null;
       q.ma150SlopeDir = sl.ok ? sl.dir : null;
@@ -356,15 +377,16 @@ async function main() {
     //    researchedOn 을 붙여 "언제 조사분인지" 밝힌다 — 오늘 조사한 것처럼 보이면 안 된다.
     {
       const prev = readPrevWindow('team2.js', 'TEAM2_DATA');
-      const prevRes = new Map(((prev && prev.picks) || [])
+      const prevRes = new Map([...((prev && prev.picks) || []), ...((prev && prev.listPicks) || [])]
         .filter((p) => p.research && ['done', 'no_source'].includes(p.research.status))
         .map((p) => [p.ticker, { ...p.research, researchedOn: p.research.researchedOn || prev.generated, carried: true }]));
       let carriedRes = 0;
-      for (const q of qualified) {
+      for (const q of pool) {
         if (prevRes.has(q.ticker)) { q.research = prevRes.get(q.ticker); carriedRes++; }
       }
       if (carriedRes) say('T2', `리서치 이월 ${carriedRes}종목 (조사일 표기, prepare-llm-args 가 TTL 기준으로 재조사 여부 결정)`);
-      if (prev && prev.themes && prev.themes.llm) themes.llmCarried = { ...prev.themes.llm, researchedOn: prev.generated };
+      // 목록별 테마(2026-10-06 형태 {lists:[…]})만 이월한다 — 옛 테마종합 형태는 화면이 못 그린다
+      if (prev && prev.themes && prev.themes.llm && Array.isArray(prev.themes.llm.lists)) themes.llmCarried = { ...prev.themes.llm, researchedOn: prev.themes.llm.researchedOn || prev.generated };
       var _carriedRes = carriedRes;
     }
     // 커버리지는 이월분을 done 으로 센다 — build-chief-report 가 오늘 조사분을 더해 다시 쓴다
@@ -375,13 +397,15 @@ async function main() {
     } : null;
     team2 = { generated: dateStr, stats: screenStats, criteria: { topPct: 2, adrMin: 4, requireMa150: maTrusted },
               dataNotice: maNotice || siteNotice,
-              picks: qualified, themes,
+              picks: qualified, listPicks, lists, themes,
               fs_coverage: fsMap ? { have: qualified.filter((q) => q.fs).length, total: qualified.length } : null,
-              research_coverage: coverageOf({ done: _carriedRes || 0, carried: _carriedRes || 0, total: qualified.length }) };
+              research_coverage: coverageOf({ done: _carriedRes || 0, carried: _carriedRes || 0, total: pool.length, cap: Number(process.env.RESEARCH_CAP || 20),
+                hint: '2팀 선정 종목과 5개 목록 종목을 함께 순환 조사합니다(거래대금 상위·세 기간 공통 먼저).' }) };
     writeJson(path.join(paths.picksDir, `${dateStr}.json`),
       { date: dateStr, count: qualified.length, tickers: qualified.map((q) => q.ticker), criteria: team2.criteria, themes: themes.clusters,
         byPeriod: { m1: themes.byPeriod.m1.tickers, m3: themes.byPeriod.m3.tickers, m6: themes.byPeriod.m6.tickers },
-        cross: { persistent: themes.cross.persistent, newEntrants: themes.cross.newEntrants, midTerm: themes.cross.midTerm, fading: themes.cross.fading } });
+        cross: { persistent: themes.cross.persistent, newEntrants: themes.cross.newEntrants, midTerm: themes.cross.midTerm, fading: themes.cross.fading },
+        lists: Object.fromEntries(listsLib.KEYS.map((k) => [k, lists[k].items.map((i) => i.ticker)])) });
   }
 
   // ── 10) 3팀 추적 ──
@@ -518,90 +542,6 @@ async function main() {
     if (prev4 && prev4.llm) team4.llmCarried = { ...prev4.llm, researchedOn: prev4.generated };
   }
 
-  // ── 12) 5팀 주도 섹터/업종 (WRS) ──
-  let team5 = null;
-  if (wants(args, 5)) {
-    const industries = [...wrs.byKey.values()].filter((x) => x.m6);
-    const withPct = industries.map((x) => ({
-      key: x.key, sector: x.Sector, industry: x.Industry, count: x.Count, counts: x.counts,
-      wrs: { m1: x.m1 ? x.m1.wrs : null, m3: x.m3 ? x.m3.wrs : null, m6: x.m6 ? x.m6.wrs : null },
-      final: { m1: x.m1 ? x.m1.final : null, m3: x.m3 ? x.m3.final : null, m6: x.m6 ? x.m6.final : null },
-      rankPct: { m1: x.m1 ? x.m1.rankPct : null, m3: x.m3 ? x.m3.rankPct : null, m6: x.m6 ? x.m6.rankPct : null },
-    }));
-    // 상위 2% (사이트 rankPct 는 낮을수록 상위)
-    const top2 = (k) => withPct.filter((x) => x.rankPct[k] !== null && x.rankPct[k] <= 2)
-      .sort((a, b) => a.rankPct[k] - b.rankPct[k]);
-    const strictTop2 = { m1: top2('m1'), m3: top2('m3'), m6: top2('m6') };
-    const top10by6 = [...withPct].filter((x) => x.rankPct.m6 !== null).sort((a, b) => a.rankPct.m6 - b.rankPct.m6).slice(0, 10);
-
-    // 섹터 레벨 (약 11개뿐 → 상위 2% 가 0개. 순위표로 제공하고 그 사실을 밝힌다)
-    const secMap = new Map();
-    for (const x of withPct) {
-      if (!secMap.has(x.sector)) secMap.set(x.sector, { sector: x.sector, count: 0, industries: 0, sum6: 0 });
-      const s = secMap.get(x.sector);
-      s.count += x.count; s.industries++; s.sum6 += (x.wrs.m6 ?? 0) * x.count;
-    }
-    const sectors = [...secMap.values()].map((s) => ({ ...s, wrs6: round(s.count ? s.sum6 / s.count : 0, 4) }))
-      .sort((a, b) => b.wrs6 - a.wrs6);
-
-    team5 = {
-      generated: dateStr,
-      note: 'WRS(1MO)/(3MO) 는 사이트에 없어 공식대로 자체 계산한 값입니다 (WRS_6mo 는 사이트와 대조 검증 통과)',
-      validation: { comparable: wrsCheck.comparable, matched: wrsCheck.matched, recovered: wrsCheck.recovered.length },
-      totalIndustries: withPct.length,
-      strictTop2, top10by6, sectors,
-      sectorNote: `섹터는 ${sectors.length}개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다`,
-      llm: { status: 'pending' },
-    };
-    // 업종 리서치 이월 — 5팀은 같은 업종을 매일 재조사했다(20회 중 14회). TTL 안이면 지난 결과를 물려받는다.
-    {
-      const prev5 = readPrevWindow('team5.js', 'TEAM5_DATA');
-      const inds = ((prev5 && prev5.llm && prev5.llm.industries) || [])
-        .map((x) => ({ ...x, researchedOn: x.researchedOn || prev5.generated, carried: true }));
-      if (inds.length) {
-        team5.llm = { status: 'carried', industries: inds, summary: prev5.llm.summary || null,
-                      summaryResearchedOn: (prev5.llm.summaryResearchedOn || prev5.generated) };
-        say('T5', `업종 리서치 이월 ${inds.length}건 (조사일 표기)`);
-      }
-    }
-    say('T5', `상위 2% 업종: 1개월 ${strictTop2.m1.length} · 3개월 ${strictTop2.m3.length} · 6개월 ${strictTop2.m6.length}개`);
-
-    // ── 12b) 자금 흐름 판정 (F10d/F25d/FRANK + 200일선 이격 변화) ──
-    // 사이트 화면에는 이 값들이 있지만 result.json 에는 없다. 브라우저가 만드는 값이라
-    // 우리가 직접 계산한다. 사이트 계산에는 버그가 3개 있어(sector-flow.js 주석 참조)
-    // 재현값과 정정값을 함께 낸다.
-    if (!args.offline) {
-      try {
-        const H = require('./lib/history-series');
-        const { computeFlow } = require('./lib/sector-flow');
-        const idx = await H.fetchIndex();
-        const wdays = H.weekdaysOnly(idx.dates).slice().reverse();   // 평일만, 최신순
-        const alld = idx.dates.slice().reverse();                    // 주말 포함(사이트 기준)
-        if (wdays.length >= 26) {
-          const need = [...new Set([wdays[10], wdays[25], alld[10], alld[25]])];
-          for (const d of need) await H.ensureSnapshot(d);
-          const flow = computeFlow(rows, H.loadSnapshot(wdays[10]), H.loadSnapshot(wdays[25]), {
-            site10: H.loadSnapshot(alld[10]), site25: H.loadSnapshot(alld[25]),
-          });
-          const cnt = (f) => flow.filter((x) => x.flow === f).length;
-          const flipped = flow.filter((x) => Number.isFinite(x.f10) && Number.isFinite(x.siteF10)
-            && (x.f10 > 0) !== (x.siteF10 > 0)).length;
-          team5.flow = {
-            baseline: { today: alld[0], d10: wdays[10], d25: wdays[25], site10: alld[10], site25: alld[25] },
-            note: `업종 강도 변화는 진짜 10·25거래일(${wdays[10]}·${wdays[25]}) 기준으로 다시 계산했습니다. `
-                + `RS 사이트 화면은 주말 스냅샷이 섞인 ${alld[10]}·${alld[25]}를 쓰고, 오늘 값과 과거 값에 `
-                + `서로 다른 공식을 적용해 비교합니다 — 그래서 화면값과 다르며 ${flipped}개 업종은 부호까지 반대입니다.`,
-            siteMismatch: flipped,
-            industries: flow,
-          };
-          say('T5', `자금 흐름: 주도 ${cnt('leading')} · 유입 ${cnt('inflow')} · 소수종목 ${cnt('narrow')} · 대기 ${cnt('pending')} · 유출 ${cnt('outflow')} (사이트와 부호 다른 업종 ${flipped}개)`);
-        } else {
-          say('WARN', `스냅샷 평일분 ${wdays.length}개 — 26개 미만이라 자금 흐름 판정을 건너뜁니다`);
-        }
-      } catch (e) { say('WARN', `자금 흐름 판정 실패: ${e.message}`); }
-    }
-  }
-
   // ── 12-0a) 회사명 매핑 (전 선정 종목, 상한·SKIP_DETAIL 과 무관) ──
   // 테마 카드와 티커 검색에 티커만 나열하면 무슨 회사인지 알 수 없다.
   // 국문명은 인포맥스(30일 캐시), 없으면 SEC company_tickers 의 영문명으로 채운다.
@@ -611,7 +551,7 @@ async function main() {
     const kr = require('./data/kr-reports');
     const { nameOf } = require('./data/sec-edgar');
     let okKo = 0, okEn = 0;
-    for (const q of qualified) {
+    for (const q of pool) {
       try {
         const info = await kr.lookupTicker(q.ticker);
         if (info && info.ok) { q.nameKo = info.nameKo || null; q.nameEn = info.nameEn || null; if (q.nameKo) okKo++; }
@@ -620,24 +560,27 @@ async function main() {
         try { const en = await nameOf(q.ticker); if (en) { q.nameEn = en; okEn++; } } catch (e) { /* noop */ }
       }
     }
-    say('T2', `회사명: 국문 ${okKo} · 영문보강 ${okEn} / ${qualified.length}종목`);
+    say('T2', `회사명: 국문 ${okKo} · 영문보강 ${okEn} / ${pool.length}종목(선정+목록)`);
+    // 목록 표에도 이름을 싣는다
+    const nm = new Map(pool.map((q) => [q.ticker, q.nameKo || q.nameEn || null]));
+    for (const k of listsLib.KEYS) for (const it of lists[k].items) it.name = nm.get(it.ticker) || null;
   }
 
   // ── 12-0) 팝업 상세 데이터 (실적 · 뉴스 · 국내 리포트) ──
   // 비용이 큰 단계라 상위 N 종목만. 전부 TTL 캐시라 2회차부터는 거의 무료다.
   if (team2 && !args.offline && process.env.SKIP_DETAIL !== '1') {
-    const cap = Number(process.env.POPUP_CAP || 20);
+    // 2026-10-06: 20 → 40. 목록 종목(약 70개)이 생겨서. LLM 비용 없는 HTTP 수집이라 상한만 올린다(+1~2분).
+    const cap = Number(process.env.POPUP_CAP || 40);
 
     // ⚠️ 예전엔 `qualified.slice(0, cap)` — bestPct 상위 20개만 영원히. 순위가 안 바뀌면
     //    나머지 34종목은 상세도, LLM 리서치도(리서치는 detail 있는 종목만 대상) 영영 못 받았다.
     //    그런데 화면엔 "며칠 안에 전량 커버"라고 떴다. 이제 실제로 순환시킨다.
-    //    ① 오래 안 본 종목 → ② 돈이 들어오는 업종 → ③ bestPct 순.
+    //    ① 오래 안 본 종목 → ② 도윤 목록 우선순위(거래대금·세 기간 공통 → 1개월 → 3·6개월 → 그 외) → ③ bestPct 순.
     const rot = require('./lib/research-rotation');
     const rc = rot.loadCache();
-    const flowRank = rot.flowRankOf(team5 && team5.flow ? team5.flow.industries : null);
-    if (!flowRank.size) say('WARN', '자금흐름 데이터 없음 — 상세 조사 우선순위에서 업종 항목이 빠집니다');
-    const targets = rot.orderForResearch(qualified, {
-      flowRank, cache: rc, bucket: 'detail', today: dateStr,
+    const targets = rot.orderForResearch(pool, {
+      rankOf: (q) => listRank.get(q.ticker) ?? rot.RANK_OTHER,
+      cache: rc, bucket: 'detail', today: dateStr,
       ttl: Number(process.env.DETAIL_TTL || 10),
       metric: (q) => q.bestPct || 0,
     }).slice(0, cap);
@@ -663,18 +606,18 @@ async function main() {
     let carried = 0;
     try {
       const prev = readPrevWindow('team2.js', 'TEAM2_DATA');
-      const prevDetail = new Map((prev && prev.picks || []).filter((p) => p.detail).map((p) => [p.ticker, p.detail]));
-      for (const q of qualified) {
+      const prevDetail = new Map([...((prev && prev.picks) || []), ...((prev && prev.listPicks) || [])].filter((p) => p.detail).map((p) => [p.ticker, p.detail]));
+      for (const q of pool) {
         if (q.detail || !prevDetail.has(q.ticker)) continue;
         q.detail = prevDetail.get(q.ticker);
         carried++;
       }
     } catch (e) { /* 첫 실행이면 이월할 게 없다 */ }
 
-    const withDetail = qualified.filter((q) => q.detail).length;
+    const withDetail = pool.filter((q) => q.detail).length;
     say('T2', `팝업 상세: 실적 ${okFin} · 뉴스 ${okNews} · 국내리포트 ${okKr} / 오늘 ${targets.length}종목 신규`
-      + `${carried ? ` · 이월 ${carried}종목` : ''} → 보유 ${withDetail}/${qualified.length} (상한 ${cap})`);
-    team2.detail_coverage = { done: withDetail, freshToday: targets.length, carried, total: qualified.length, cap };
+      + `${carried ? ` · 이월 ${carried}종목` : ''} → 보유 ${withDetail}/${pool.length} (선정+목록, 상한 ${cap})`);
+    team2.detail_coverage = { done: withDetail, freshToday: targets.length, carried, total: pool.length, cap };
   }
 
   // ── 12-1) 팝업 시계열의 종가를 야후(분할 조정)로 갱신 ──
@@ -727,8 +670,7 @@ async function main() {
     const regime = team1 ? team1.qqq.verdict : 'unknown';
     const cat4 = new Map(((team4 && team4.items) || []).filter((i) => i.catalyst && i.catalyst.status === 'done')
       .map((i) => [i.ticker, { category: i.catalyst.category, researchedOn: i.catalyst.researchedOn || null }]));
-    const flowByKey6 = new Map(((team5 && team5.flow && team5.flow.industries) || []).map((i) => [i.key, { flow: i.flow, stageKo: i.stageKo, frank25: i.frank25 }]));
-    const names = new Map(qualified.map((p) => [p.ticker, p.nameKo || p.nameEn || null]));
+    const names = new Map(pool.map((p) => [p.ticker, p.nameKo || p.nameEn || null]));
     const tickers = [...qualified.map((q) => q.ticker), ...activeTickers,
       ...[...cat4].filter(([, c]) => c.category === 1 || c.category === 5).map(([t]) => t)];
     const earnings = args.offline ? { ok: false, map: new Map() } : await upcomingEarnings(sessionDate || dateStr, rules.risk.earningsBlockDays);
@@ -737,7 +679,6 @@ async function main() {
       tickers, barsOf, rules, regime, riskPct: acct.riskPct, earnings,
       rowOf: (t) => rowByTicker.get(t),
       catOf: (t) => cat4.get(t) || null,
-      flowOf: (s, i) => flowByKey6.get(`${s}|${i}`) || null,
       nameOf: (t) => names.get(t) || null,
     });
     // Claude 가 차트 PNG 를 보고 남긴 소견(최근 5거래일) — 숫자 옆에 나란히 싣는다
@@ -770,6 +711,16 @@ async function main() {
     }
   }
 
+  // ── 13c) 팝업 캔들차트용 봉 (2026-10-06) — 목록·선정·서준 관심 종목. 브라우저가 그린다(PNG 커밋 대신) ──
+  if (args.yahoo) {
+    try {
+      const watch6 = team6 ? team6.plans.filter((p) => p.watch).map((p) => p.ticker) : [];
+      const r = listsLib.writeOhlcFiles([...pool.map((q) => q.ticker), ...watch6, ...activeTickers], barsOf,
+        path.join(paths.dashboardData, 'ohlc'), { dateOf: (t) => barDateET(t) });
+      say('SYSTEM', `팝업 차트 봉 ${r.written}종목 저장${r.pruned ? ` · 지난 종목 ${r.pruned}개 삭제` : ''}`);
+    } catch (e) { say('WARN', `팝업 차트 봉 저장 실패: ${e.message}`); }
+  }
+
   // ── 14) 실장 종합 + 대시보드 데이터 ──
   const chief = {
     generated: dateStr,
@@ -788,11 +739,6 @@ async function main() {
     chartCheck: chartCheckTop,
     chartCheckTotal: chartCheckAll.length,
     barsNotice, sessionDate, sessionMismatch,
-    // 5팀 업종 흐름 × 2·3팀 종목 교차 — "돈이 몰리는 업종 안에서 뭐가 강한가"
-    flowCross: (team5 && team5.flow)
-      ? require('./lib/flow-cross').crossFlow(team5.flow.industries,
-          { picks: qualified, rowByTicker, team3, cap: 4 })
-      : null,
     stale: staleData,
     llm: { status: 'pending', note: 'LLM 리서치는 start breakout 실행 시 덧입혀집니다' },
   };
@@ -804,7 +750,6 @@ async function main() {
   if (team2) writeWindowData(path.join(paths.dashboardData, 'team2.js'), 'TEAM2_DATA', team2);
   if (team3) writeWindowData(path.join(paths.dashboardData, 'team3.js'), 'TEAM3_DATA', team3);
   if (team4) writeWindowData(path.join(paths.dashboardData, 'team4.js'), 'TEAM4_DATA', team4);
-  if (team5) writeWindowData(path.join(paths.dashboardData, 'team5.js'), 'TEAM5_DATA', team5);
   if (team6) writeWindowData(path.join(paths.dashboardData, 'team6.js'), 'TEAM6_DATA', team6);
   writeWindowData(path.join(paths.dashboardData, 'chief.js'), 'CHIEF_DATA', chief);
   writeWindowData(path.join(paths.dashboardData, 'chartcheck.js'), 'CHARTCHECK_DATA', chartCheckOut);
@@ -813,10 +758,7 @@ async function main() {
   // ⚠️ 약 500KB 라 초기 로딩에 넣으면 안 된다. 대시보드가 검색창을 처음 쓸 때만
   //    <script> 를 동적 주입해 불러온다 (file:// 에서도 동작하는 series 로딩 패턴).
   {
-    const flowByKey = new Map(((team5 && team5.flow && team5.flow.industries) || [])
-      .map((i) => [i.key, { FRANK: i.FRANK, f10: i.f10, f25: i.f25, frank25: i.frank25,
-        stage: i.stage, stageKo: i.stageKo, flow: i.flow, d200Delta: i.d200Delta }]));
-    const nameByTicker = new Map(qualified.filter((p) => p.nameKo || p.nameEn)
+    const nameByTicker = new Map(pool.filter((p) => p.nameKo || p.nameEn)
       .map((p) => [p.ticker, { ko: p.nameKo || null, en: p.nameEn || null }]));
     const uni = rows.map((r) => {
       const nm = nameByTicker.get(r.Ticker) || {};
@@ -835,10 +777,12 @@ async function main() {
         ts: r.Target_Status, cyc: num(r.CY_Current), cy30: num(r.CY_30Ago), nyc: num(r.NY_Current), ny30: num(r.NY_30Ago),
         scy: num(r.SALE_CY), sny: num(r.SALE_NY), ecy: num(r.EPS_CY), eny: num(r.EPS_NY),
         nh: r.New_High_52W, bbc: r.BB_Center_Breakout_5D, ac: r.api_called === true,
+        // 2026-10-06: 전일比 · 5일比 · 거래대금($M)
+        r1d: num(r.Ret_1D_Pct), r5d: num(r.Ret_5D_Pct), dv: num(r.Dollar_Vol_M),
       };
     });
     writeWindowData(path.join(paths.dashboardData, 'universe.js'), 'UNIVERSE_DATA',
-      { generated: dateStr, count: uni.length, industries: Object.fromEntries(flowByKey), rows: uni },
+      { generated: dateStr, count: uni.length, rows: uni },
       { compact: true });
     say('SYSTEM', `티커 검색 유니버스 ${uni.length}종목 · 회사명 ${nameByTicker.size}개`);
   }
@@ -857,7 +801,7 @@ async function main() {
   writeWindowData(histFile, 'HISTORY_DATA', prevHist);
 
   // 마크다운 리포트
-  writeText(path.join(paths.reportsDir, `${dateStr}-breakout.md`), buildReport({ dateStr, chief, team1, team2, team3, team4, team5, team6 }));
+  writeText(path.join(paths.reportsDir, `${dateStr}-breakout.md`), buildReport({ dateStr, chief, team1, team2, team3, team4, team6 }));
 
   // ── 15) GitHub 반영 (Pages 웹사이트 갱신) ──
   // ⚠️ LLM 리서치는 이 시점에 아직 안 붙어 있다. start breakout 흐름에서는
@@ -886,7 +830,7 @@ async function main() {
   console.log('═══════════════════════════════════════════════\n');
 }
 
-function buildReport({ dateStr, chief, team1, team2, team3, team4, team5, team6 }) {
+function buildReport({ dateStr, chief, team1, team2, team3, team4, team6 }) {
   // 독자는 금융 실무자다. 원 수치를 생략하지 않는다 — 계산된 것은 표로 싣는다.
   const L = [];
   const v = (x, d = '—') => (x === null || x === undefined || Number.isNaN(x) ? d : x);
@@ -999,34 +943,28 @@ function buildReport({ dateStr, chief, team1, team2, team3, team4, team5, team6 
       L.push('용어: Target = 사이트 기준 당해·차기 EPS 컨센서스가 30일 전 대비 둘 다 +5% 이상 상향 · 매출/EPS 성장 = 컨센서스 기준 당해(CY)/차기(NY) 연간 성장률 · 3분기 = fs_data 의 최근 분기부터 q0/q1/q2, 순이익은 사이트 표기("흑자전환" 등) 그대로 · 사이트 조회 = 오늘 yfinance 를 새로 받았는지(캐시면 최대 3일 전 값).');
       L.push('');
     }
-    // ── 기간별 상위 2% 테마 3세트 + 교차 (2026-09-07 사용자 요청) ──
-    const BP = team2.themes.byPeriod, CR = team2.themes.cross, CD = team2.themes.crossDetail || {};
-    if (BP && CR) {
-      L.push('### 기간별 상위 2% — 어느 기간의 강세인가');
-      L.push('한 종목이 여러 기간에 동시에 들어갈 수 있어 기간별 종목 수의 합은 전체보다 크다. 비중(%)의 분모는 그 기간의 종목 수다.');
+    // ── 도윤 5개 목록 (2026-10-06) — 공통 업종별 표. 기간별/교차 절을 대체한다 ──
+    const LS = team2.lists;
+    if (LS) {
+      const tri3 = (a) => (Array.isArray(a) ? a.map((x) => (x == null ? '—' : x)).join('/') : '—');
+      const row = (i) => `| **${i.ticker}**${i.name ? ` ${i.name}` : ''} | ${pct(i.ret1d)} | ${v(i.rnk1)} | ${v(i.adr)} | ${v(i.high52)} | ${v(i.maxRise3m)} | ${v(i.ext10Adr)} | ${v(i.above50)} | ${v(i.squeeze)} | ${v(i.volx)} | ${i.fs ? tri3(i.fs.sale) : '—'} | ${i.fs ? tri3(i.fs.ni) : '—'} | ${i.streak != null ? 'D+' + i.streak : '—'} |`;
+      const head = ['| 종목 | 전일比 | 1M 상위% | ADR | 52주대비 | 3개월 최대상승 | 10일선 이격(ADR배) | 50일선 위 | 수축도 | 거래량 배수 | 매출 q0/q1/q2 | 순이익 q0/q1/q2 | 연속 |',
+        '|---|---:|---:|---:|---:|---:|---:|:-:|---:|---:|---|---|---:|'];
+      L.push('### 도윤 5개 목록');
+      L.push('ADR·150일선 필터 없이 사이트 상위 2% 그대로(자체 백분위). 거래대금 상위 = 전일比 +5% 이상 중 거래대금 큰 순 20.');
       L.push('');
-      for (const [k, label] of [['m1', '1개월'], ['m3', '3개월'], ['m6', '6개월']]) {
-        const b = BP[k];
-        L.push(`#### ${label} 상위 2% — ${b.count}종목 · ${b.headline}`);
-        if (b.count) {
-          L.push(`- 업종: ${b.topIndustries.map((s) => `${s.name} ${s.count}(${s.sharePct}%)`).join(' · ') || '—'}`);
-          for (const c of b.clusters.slice(0, 5)) L.push(`- ${c.level === 'Sector' ? '섹터' : '업종'} **${c.name}** ${c.count}종목(${c.sharePct}%): ${c.tickers.join(', ')}`);
-          L.push(`- 종목: ${b.tickers.join(', ')}`);
+      for (const k of listsLib.KEYS) {
+        const l = LS[k]; if (!l) continue;
+        L.push(`#### ${l.label} — ${l.count}종목 · ${l.industries.headline}`);
+        if (l.note) { L.push(`- ⚠️ ${l.note}`, ''); continue; }
+        const byT = new Map(l.items.map((i) => [i.ticker, i]));
+        for (const c of l.industries.clusters) {
+          L.push('', `**${c.name}** ${c.count}종목`, ...head, ...c.tickers.map((t) => row(byT.get(t))));
         }
+        if (l.lone.length) L.push('', '**업종 공통 없음**', ...head, ...l.lone.map((t) => row(byT.get(t))));
         L.push('');
       }
-      const fmtD = (list, key) => (list || []).map((x) => {
-        const st = x.streak && x.streak[key];
-        const since = x.since && x.since[key];
-        return `${x.ticker}${st ? `(D+${st}${since ? `, ${since}` : ''})` : ''}`;
-      }).join(' · ') || '—';
-      L.push(`#### 기간 교차 (전체 ${CR.counts.total}종목 = 지속 ${CR.counts.persistent} + 신규 ${CR.counts.newEntrants} + 중기 ${CR.counts.midTerm} + 퇴조 ${CR.counts.fading} + 기타 ${CR.counts.other})`);
-      L.push(`- **지속 주도** (1M·3M·6M 모두 상위 2%) ${CR.counts.persistent}: ${CD.persistent ? fmtD(CD.persistent, 'm6') : CR.persistent.join(', ') || '—'}`);
-      L.push(`- **신규 진입** (1M 만) ${CR.counts.newEntrants}: ${CD.newEntrants ? fmtD(CD.newEntrants, 'm1') : CR.newEntrants.join(', ') || '—'}`);
-      L.push(`- **중기** (3M 기준, 1M 은 아님) ${CR.counts.midTerm}: ${CD.midTerm ? fmtD(CD.midTerm, 'm3') : CR.midTerm.join(', ') || '—'}`);
-      L.push(`- **퇴조** (6M 만) ${CR.counts.fading}: ${CD.fading ? fmtD(CD.fading, 'm6') : CR.fading.join(', ') || '—'}`);
-      for (const [key, list] of Object.entries(CR.other || {})) L.push(`- 기타 ${key}: ${list.join(', ')}`);
-      L.push(`- D+N = 그 기간 상위 2% 에 연속 포함된 거래일 수(스냅샷 존재 평일 기준, ≤ 는 이력 시작 이전부터). 기준일 ${v(CD.asOf)}`);
+      L.push('용어: 10일선 이격(ADR배) = 10일선 이격% ÷ ADR, 3 넘으면 과열 · 수축도 = 볼밴 폭 ÷ 60일 최저, 1.3 이하면 최근 석 달 중 가장 좁음 · 연속 = 그 목록 기간에 상위 2% 로 며칠째(세 기간 공통은 셋 중 가장 짧은 것).');
       L.push('');
     }
     if (team2.themes.clusters && team2.themes.clusters.length) {
@@ -1102,48 +1040,6 @@ function buildReport({ dateStr, chief, team1, team2, team3, team4, team5, team6 
     L.push('');
     L.push('용어: 종가강도(CLS_POS) = 당일 저가~고가 구간에서 종가 위치(0~100). 전 종목 150일선 위.');
     L.push('');
-  }
-
-  // ── 5팀 ──
-  if (team5) {
-    L.push('## 5팀 · 주도 섹터/업종 (WRS)');
-    L.push(`- ${team5.note}`);
-    L.push(`- 검증: 사이트 정상 ${team5.validation.comparable}그룹 중 ${team5.validation.matched} 일치 · NaN 복구 ${team5.validation.recovered}그룹`);
-    L.push('');
-    const seenKey = new Set();
-    const top = [];
-    for (const k of ['m6', 'm1', 'm3']) for (const x of team5.strictTop2[k] || []) if (!seenKey.has(x.key)) { seenKey.add(x.key); top.push({ ...x, by: k }); }
-    L.push(`### 상위 2% 업종 (1M·3M·6M 어느 기간이든, 전체 ${team5.totalIndustries}개 중)`);
-    L.push('| 업종 | 섹터 | 종목수 | WRS 1M | WRS 3M | WRS 6M | 상위% 1M/3M/6M | Final_WRS 6M |');
-    L.push('|---|---|---:|---:|---:|---:|---|---:|');
-    for (const x of top) {
-      L.push(`| ${x.industry} | ${x.sector} | ${x.count} | ${v(x.wrs.m1)} | ${v(x.wrs.m3)} | ${v(x.wrs.m6)} | ${v(x.rankPct.m1)} / ${v(x.rankPct.m3)} / ${v(x.rankPct.m6)} | ${x.final ? v(x.final.m6) : '—'} |`);
-    }
-    L.push('');
-    if (team5.sectors && team5.sectors.length) {
-      L.push('### 섹터 순위 (6개월 WRS, 종목수 가중)');
-      L.push('| 섹터 | 종목수 | 업종수 | WRS 6M |');
-      L.push('|---|---:|---:|---:|');
-      for (const s of team5.sectors) L.push(`| ${s.sector} | ${s.count} | ${s.industries} | ${s.wrs6} |`);
-      L.push('');
-    }
-    if (team5.flow && Array.isArray(team5.flow.industries)) {
-      const fl = team5.flow.industries.filter((x) => ['leading', 'inflow', 'narrow', 'pending', 'outflow'].includes(x.flow));
-      const order = { leading: 0, inflow: 1, narrow: 2, pending: 3, outflow: 4 };
-      fl.sort((a, b) => (order[a.flow] - order[b.flow]) || ((a.FRANK ?? 999) - (b.FRANK ?? 999)));
-      const flowKo = { leading: '🟢 주도', inflow: '📈 유입', narrow: '⚠️ 소수종목', pending: '⭐ 대기', outflow: '📉 유출' };
-      L.push(`### 자금 흐름 판정 ${fl.length}업종 (기준일 ${team5.flow.baseline.d10}·${team5.flow.baseline.d25}, 정정 계산)`);
-      L.push(`- ${team5.flow.note}`);
-      L.push('');
-      L.push('| 흐름 | 업종 | 종목수 | FRANK | 25일 순위변동 | F10d% | F25d% | 50DIV 중앙 | 200DIV 중앙 | 200DIV Δ25d | CY/NY 중앙 | 상향비율 | 승률 | 국면 |');
-      L.push('|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---:|---:|---|');
-      for (const x of fl) {
-        L.push(`| ${flowKo[x.flow] || x.flow} | ${x.industry} | ${x.count} | ${v(x.FRANK)} | ${x.frank25 != null ? (x.frank25 > 0 ? '+' : '') + x.frank25 : '—'} | ${v(x.f10)} | ${v(x.f25)} | ${v(x.d50)} | ${v(x.d200)} | ${x.d200Delta != null ? (x.d200Delta > 0 ? '+' : '') + x.d200Delta : '—'} | ${v(x.cy)} / ${v(x.ny)} | ${x.upRatio != null ? x.upRatio + '%' : '—'}${x.coverage != null ? ` (n=${x.coverage})` : ''} | ${x.winRate != null ? x.winRate + '%' : '—'} | ${x.stageKo || x.stage || '—'} |`);
-      }
-      L.push('');
-      L.push('용어: FRANK = Final_WRS 순위(1이 최상위) · F10d/F25d = 10·25거래일 전 대비 Final_WRS 변화율(분모가 0 근처면 폭발하므로 순위 변동으로 읽을 것) · 200DIV Δ25d = 200일선 이격 중앙값의 25거래일 변화(%p).');
-      L.push('');
-    }
   }
 
   // ── 6팀 ──

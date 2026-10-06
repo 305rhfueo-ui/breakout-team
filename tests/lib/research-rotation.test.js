@@ -29,29 +29,15 @@ ok('같은 날 = 0', () => assert.strictEqual(R.tradingDaysSince(TODAY, TODAY), 
 ok('기록 없으면 Infinity', () => assert.strictEqual(R.tradingDaysSince(null, TODAY), Infinity));
 ok('미래 날짜여도 음수가 되지 않는다', () => assert.strictEqual(R.tradingDaysSince('2026-09-01', TODAY), 0));
 
-console.log('\n[2] flowRankOf');
-ok('leading < inflow < narrow < 그 외', () => {
-  const m = R.flowRankOf([
-    { key: 'Technology|Software - Infrastructure', flow: 'inflow' },
-    { key: 'Technology|Semiconductors', flow: 'outflow' },
-    { key: 'Healthcare|Biotechnology', flow: 'leading' },
-    { key: 'Energy|Oil & Gas', flow: 'narrow' },
-  ]);
-  assert.strictEqual(m.get('Healthcare|Biotechnology'), 0);
-  assert.strictEqual(m.get('Technology|Software - Infrastructure'), 1);
-  assert.strictEqual(m.get('Energy|Oil & Gas'), 2);
-  assert.strictEqual(m.get('Technology|Semiconductors'), 3);
-});
-ok('flow 데이터가 없으면 빈 Map (오프라인에서 조용히 퇴화)', () => {
-  assert.strictEqual(R.flowRankOf(null).size, 0);
-  assert.strictEqual(R.flowRankOf(undefined).size, 0);
+console.log('\n[2] rankOf — 우선순위 등급 (2026-10-06: 업종 자금흐름 대신 도윤 목록 등급)');
+ok('BUCKETS 에 team5 가 없다 (5팀 제거)', () => {
+  assert.ok(!R.BUCKETS.includes('team5'));
+  assert.ok(!('team5' in R.emptyCache()));
 });
 
 console.log('\n[3] orderForResearch — 로테이션');
-const INFLOW = R.flowRankOf([
-  { key: 'Technology|Software - Infrastructure', flow: 'inflow' },
-  { key: 'Technology|Semiconductors', flow: 'outflow' },
-]);
+// 소프트웨어 종목은 목록 우선(0), 반도체는 그 외(3) — 예전 '자금 유입 업종' 시험을 같은 모양으로 옮겼다
+const INFLOW = (x) => (x.industry === 'Software - Infrastructure' ? 0 : 3);
 const soft = (t, m) => mk(t, 'Technology', 'Software - Infrastructure', m);
 const semi = (t, m) => mk(t, 'Technology', 'Semiconductors', m);
 
@@ -62,18 +48,18 @@ ok('한 번도 조사 안 한 종목이 어제 조사한 종목보다 앞선다'
   assert.strictEqual(out[0].ticker, 'NEW', '미조사 종목이 앞에 와야 한다');
 });
 
-ok('자금 유입 업종 종목이 bestPct 더 높은 유출 업종 종목을 앞선다', () => {
+ok('우선 등급(rankOf) 낮은 종목이 bestPct 더 높은 종목을 앞선다', () => {
   const items = [semi('SEMI', 99.9), soft('SOFT', 50.0)];
-  const out = R.orderForResearch(items, { flowRank: INFLOW, today: TODAY, metric: (x) => x.bestPct });
+  const out = R.orderForResearch(items, { rankOf: INFLOW, today: TODAY, metric: (x) => x.bestPct });
   assert.strictEqual(out[0].ticker, 'SOFT',
-    '자금 유입 업종이 우선이어야 하는데 bestPct 만으로 정렬됐다');
+    '등급이 우선이어야 하는데 bestPct 만으로 정렬됐다');
 });
 
-ok('신선도가 자금흐름보다 우선한다 (커버리지가 먼저)', () => {
+ok('신선도가 우선 등급보다 우선한다 (커버리지가 먼저)', () => {
   // 유입 업종이지만 어제 조사했고, 유출 업종이지만 한 번도 안 했다 → 미조사가 먼저
   const items = [soft('FRESH', 99), semi('NEVER', 1)];
   const cache = cacheWith('team2', { FRESH: '2026-08-10' });
-  const out = R.orderForResearch(items, { flowRank: INFLOW, cache, today: TODAY, ttl: 5, metric: (x) => x.bestPct });
+  const out = R.orderForResearch(items, { rankOf: INFLOW, cache, today: TODAY, ttl: 5, metric: (x) => x.bestPct });
   assert.strictEqual(out[0].ticker, 'NEVER');
 });
 
@@ -93,16 +79,16 @@ ok('TTL 을 넘긴 종목은 지표가 낮아도 미조사와 같은 그룹', ()
   assert.strictEqual(out[0].ticker, 'STALE');
 });
 
-ok('flowRank 가 비면 순수 신선도+지표 순으로 퇴화한다', () => {
+ok('rankOf 가 없으면 순수 신선도+지표 순으로 퇴화한다', () => {
   const items = [semi('A', 10), soft('B', 90)];
   const out = R.orderForResearch(items, { today: TODAY, metric: (x) => x.bestPct });
-  assert.strictEqual(out[0].ticker, 'B', 'flow 없으면 지표 내림차순이어야 한다');
+  assert.strictEqual(out[0].ticker, 'B', '등급 없으면 지표 내림차순이어야 한다');
 });
 
 ok('원본 배열을 훼손하지 않는다', () => {
   const items = [semi('A', 1), soft('B', 2)];
   const before = items.map((x) => x.ticker).join(',');
-  R.orderForResearch(items, { flowRank: INFLOW, today: TODAY, metric: (x) => x.bestPct });
+  R.orderForResearch(items, { rankOf: INFLOW, today: TODAY, metric: (x) => x.bestPct });
   assert.strictEqual(items.map((x) => x.ticker).join(','), before);
 });
 

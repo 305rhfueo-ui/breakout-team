@@ -21,7 +21,7 @@
 | **A** Annual earnings growth | 연간 EPS 가 **3년 연속** 성장, 연평균 +25% 이상, ROE **17% 이상** | 분기 4개 합산 vs 그 전은 없음 · ROE 없음 | 4분기가 모두 전년비 플러스면 "최근 1년 성장"으로 부분 충족(△). 3년·ROE 는 확인 불가라고 적는다 |
 | **N** New | 신제품·신경영진·새로운 조건 **그리고 신고가** | `detail.news` · `detail.filings`(8-K) · `detail.krReports` · `site.newHigh52` · `site.high52`(52주 고점 대비 %) | 최근 1~2달 안에 새 제품/계약/경영 변화 뉴스가 **출처와 함께** 있고 52주 고점 근처(−10% 이내)면 충족. 뉴스만 있고 고점에서 멀면 부분 충족 |
 | **S** Supply and demand | 수급 — 상승일에 거래량이 늘고, 유통주식이 적을수록 좋다 | `site.volx`(거래대금 20일 평균 대비) · `chart.numbers.volRatio20 / dryUpRatio` · `site.marketCap` | 횡보 중 거래량이 줄고(dryUpRatio ≤ 0.7) 상승일에 늘면 충족. 유통주식은 확인 불가라고 적는다 |
-| **L** Leader or laggard | 업종의 **주도주**. RS 등급 **80 이상** (상위 20%) | `site.rs.m1/m3/m6.pct`(RS 상위 백분위) · `plan.flow`(업종 자금 흐름) · `flow.FRANK`(업종 순위) | RS 백분위 80 이상이면 충족. 우리 상위 2% 통과 종목은 98 이상이다. 업종 자체가 유출(outflow)이면 "주도주지만 업종은 약함"이라고 적는다 |
+| **L** Leader or laggard | 업종의 **주도주**. RS 등급 **80 이상** (상위 20%) | `site.rs.m1/m3/m6.pct`(RS 상위 백분위) | RS 백분위 80 이상이면 충족. 우리 상위 2% 통과 종목은 98 이상이다. 같은 업종 종목이 도윤 목록에 여럿 있으면 "업종째 강함"이라고 덧붙인다(2026-10-06 업종 자금흐름 지표 제거) |
 | **I** Institutional sponsorship | 기관(펀드) 보유 수가 **늘고** 있어야 한다 | **없음** | 항상 **확인 불가**. "기관 보유 자료를 받지 않는다"고 한 줄 |
 | **M** Market direction | 시장 전체 방향. 약세장에서는 4종목 중 3종목이 같이 떨어진다 | `market.verdict` · `market.ko` (한별 QQQ 판정) · `market.finraKo`(마진부채) | green 충족 · yellow 보통 · red 미충족. 마진부채 경고(+40% 초과)가 있으면 같이 적는다 |
 

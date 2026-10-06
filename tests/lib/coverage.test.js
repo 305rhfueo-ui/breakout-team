@@ -62,7 +62,8 @@ function load(file, varName) {
   return m ? JSON.parse(m[1]) : null;
 }
 const cases = [
-  ['2팀', 'team2.js', 'TEAM2_DATA', (d) => (d.picks || []).length],
+  // 2026-10-06: 2팀 조사 대상 = 선정 종목 + 도윤 목록 전용 종목
+  ['2팀', 'team2.js', 'TEAM2_DATA', (d) => (d.picks || []).length + (d.listPicks || []).length],
   ['4팀', 'team4.js', 'TEAM4_DATA', (d) => (d.items || []).length],
 ];
 for (const [who, file, v, countOf] of cases) {
@@ -127,7 +128,7 @@ console.log('\n[3b] sourced 인데 인용문(quote)이 빠진 주장이 없는�
 const QUOTE_FROM = '2026-08-14';
 function claimsOf() {
   const out = [];
-  const t2 = load('team2.js', 'TEAM2_DATA'), t4 = load('team4.js', 'TEAM4_DATA'), t5 = load('team5.js', 'TEAM5_DATA');
+  const t2 = load('team2.js', 'TEAM2_DATA'), t4 = load('team4.js', 'TEAM4_DATA');
   for (const p of ((t2 && t2.picks) || [])) {
     const R = p.research; if (!R || R.status !== 'done') continue;
     for (const c of [...(R.whyRose || []), ...(R.counterpoint || []), ...((R.estimateRevisions || {}).claims || [])]) out.push([p.ticker, c]);
@@ -136,7 +137,6 @@ function claimsOf() {
     const C = i.catalyst; if (!C || C.status !== 'done') continue;
     for (const c of (C.claims || [])) out.push([i.ticker, c]);
   }
-  for (const x of (((t5 && t5.llm) || {}).industries || [])) for (const c of (x.whyStrong || [])) out.push([x.industry, c]);
   return out;
 }
 const allClaims = claimsOf();

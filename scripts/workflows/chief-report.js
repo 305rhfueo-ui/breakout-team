@@ -1,8 +1,8 @@
 export const meta = {
   name: 'bt-chief-report',
-  description: '실장 종합 — 5개 팀 결과를 한국어 리포트로 병합',
+  description: '실장 종합 — 팀별 결과를 한국어 리포트로 병합',
   whenToUse: 'start breakout 의 마지막 단계. 팀별 결과를 사용자에게 보고할 때',
-  phases: [{ title: '실장종합', detail: '5팀 결과 병합 + 오늘의 포커스' }],
+  phases: [{ title: '실장종합', detail: '팀별 결과 병합 + 오늘의 포커스' }],
 }
 // 사용법: Workflow({ scriptPath:'<abs>/scripts/workflows/chief-report.js', args:{ date, teams:{...} } })
 //   또는 args:{ date, argsFile:'<abs>/state/llm-in/_chiefargs.json' } — 팀 데이터가 크면 이쪽.
@@ -28,15 +28,15 @@ const teamBlocks = argsFile
 그 ko 문장을 marketVerdictKo 맨 앞과 caution 에 넣어라. 데드크로스 날짜·연속 이탈일수·돌파 거래량은 그날 신뢰도가 낮다.
 
 JSON 구조: \`teams.team1\`(시장환경 + \`news\` 1팀 LLM 뉴스 digest·marketNarrative·keyRisks + \`finra\` 절대금액) ·
-\`teams.team2\`(종목선정 + \`llmResearched\` 종목별 상승 이유·반대 근거·최근 분기 실적 \`financials\` + \`theme\` 테마 종합
-  — \`theme.byPeriod\`(1M·3M·6M 각각의 주도 테마)와 \`theme.rotation\`(지속·신규·퇴조 + narrative),
-  \`themeHeadlineByPeriod\`·\`crossCounts\`·\`crossTop\`(지속 주도 D+N 일수)·\`targetStatusCount\`·top[].qualifiedBy/targetStatus/saleCy/epsCy) ·
+\`teams.team2\`(종목선정 + \`llmResearched\` 종목별 상승 이유·반대 근거·최근 분기 실적 \`financials\`
+  + \`lists\` 도윤 5개 목록 — 거래대금 상위(전일 +5% 이상 중 거래대금 큰 20)·RS 1개월·3개월·6개월 상위 2%·세 기간 모두 상위 2%,
+    목록마다 \`industries\`(공통 업종과 그 안의 티커)·\`headline\`
+  + \`listThemes\` 목록별 AI 테마 분석 — \`commonIndustries\`·\`themes\`(뉴스 근거)·\`unexplained\`·\`narrative\`
+  · \`targetStatusCount\`·top[].qualifiedBy/targetStatus/saleCy/epsCy) ·
 \`teams.siteCondition\`(사용자 시트의 시장국면 문자열 — **QQQ 판정을 덮어쓰지 말고 나란히 보고**) · \`teams.apiCalled\`(사이트 오늘 신규 조회 수) · \`teams.siteDegraded\`(사이트 발행 보류일) ·
 \`teams.team3\`(추적 · \`dropped[]\` 오늘 배제 · \`unevaluated\` 봉 없어 미평가) ·
 \`teams.team4\`(EP·촉매 + \`llmItems\` 종목별 촉매 분류·근거 + \`summary\` sectorSignal·caution) ·
-\`teams.team5\`(주도섹터 + \`llmIndustries\` 강세 근거·risk + \`summary\` rotationView·emerging·fading) ·
-\`teams.chartCheck\`(오늘 차트 볼 종목, 상한 적용 — 전체 수는 \`chartCheckTotal\`) ·
-\`teams.flowCross\`(자금이 들어오는 업종 × 그 안의 실제 종목 · \`agreement\` 5팀 유출과 3팀 배제의 일치).
+\`teams.chartCheck\`(오늘 차트 볼 종목, 상한 적용 — 전체 수는 \`chartCheckTotal\`).
 
 ⚠️ **돌파일보다 나중에 배제된 종목은 모순이 아니라 "실패한 돌파"다.**
 \`teams.team3.breakouts[].breakDate\` 와 \`teams.team3.dropped[].asOf\`(배제 판정의 기준 봉 날짜 — 실행일이 아니다)를 비교하라.
@@ -53,12 +53,9 @@ JSON 구조: \`teams.team1\`(시장환경 + \`news\` 1팀 LLM 뉴스 digest·mar
 \`llmFailed\` 에 있거나 애초에 이 목록에 없는 종목뿐이고, 그 구분을 그대로 전달하라.
 \`researchedOn\` 이 오늘이 아닌 항목은 그날 조사분을 이월한 것이다 — 필요하면 "N일 조사분"이라고 밝혀라.
 
-\`flowCross\` 는 이 리포트의 핵심이다. \`inflow\`(돈이 들어오는 업종) 각각에
-\`picks[]\` 가 붙어 있고 종목마다 \`d50\`(최근 두 달 평균 대비 이격) · \`d200\`(1년 평균 대비 이격) ·
-\`stageKo\`(Node 가 이격·컨센서스 컬럼으로 붙인 분류 — 초입/선도/관성/눌림 후보/과열/이탈) · \`tracking\` · \`breakout\` 이 있다.
-**"돈이 몰리는 업종에서 지금 어떤 종목이 강한지"를 이 데이터로 말하되, d50·d200·stageKo 는 그대로 인용만 하라.**
-매수 위치("자리"·"눌림을 기다려라"·"추격 불리") 판단은 쓰지 마라 — 봉을 받지 않았고, 차트는 사용자가 본다.
-\`outflow\` 는 돈이 빠지는 업종, \`pending\` 은 기대만 오른 업종이다.`
+\`teams.team2.lists\` 는 이 리포트의 핵심이다 (2026-10-06 — 업종 자금흐름 대신). **"오늘 강한 종목이 어디에 몰렸는지"**를
+목록의 공통 업종(\`industries\`)과 AI 테마(\`listThemes\`)로 말하라. 특히 거래대금 상위(돈이 실제로 들어온 종목)와
+세 기간 모두 상위 2%(오래 강한 종목)를 먼저 본다. 매수 위치("자리"·"눌림을 기다려라"·"추격 불리") 판단은 쓰지 마라 — 봉을 받지 않았고, 차트는 사용자가 본다.`
   : `## 1팀 시장환경
 ${JSON.stringify(T.team1 || {}, null, 1).slice(0, 4000)}
 
@@ -71,28 +68,21 @@ ${JSON.stringify(T.team3 || {}, null, 1).slice(0, 4000)}
 ## 4팀 EP·촉매
 ${JSON.stringify(T.team4 || {}, null, 1).slice(0, 4000)}
 
-## 5팀 주도섹터
-${JSON.stringify(T.team5 || {}, null, 1).slice(0, 3000)}
-
-## 자금 흐름 × 종목 교차
-${JSON.stringify(T.flowCross || {}, null, 1).slice(0, 6000)}
-
 ## 오늘 차트를 봐야 할 종목
 ${JSON.stringify(T.chartCheck || [], null, 1).slice(0, 2000)}`
 
 const CHIEF = { type: 'object', properties: {
   headline: { type: 'string', description: '오늘을 한 줄로, 50자 안팎. 시장 신호 + 오늘 가장 중요한 한 가지. 이동평균 숫자 나열 금지' },
-  marketVerdictKo: { type: 'string', description: '세 문단, 문단마다 3~4문장. 결론과 함께 왜 그런지를 쓴다. ①시장: 지금 사도 되는 때인가 ②돈의 흐름: 어느 업종으로 들어오고 어디서 빠지는지(업종 이름 한국어 + 그 안의 강한 종목 티커 2~3개) ③그래서 오늘 어떻게 할지. 문단은 빈 줄로 나눈다. 【】 머리말·번호 목록 금지. 입력에 없는 사실로 채우지 마라' },
+  marketVerdictKo: { type: 'string', description: '세 문단, 문단마다 3~4문장. 결론과 함께 왜 그런지를 쓴다. ①시장: 지금 사도 되는 때인가 ②강한 종목이 몰린 곳: 도윤 목록의 공통 업종·테마(업종 이름 한국어 + 그 안의 티커 2~3개, 거래대금 상위와 세 기간 공통 우선) ③그래서 오늘 어떻게 할지. 문단은 빈 줄로 나눈다. 【】 머리말·번호 목록 금지. 입력에 없는 사실로 채우지 마라' },
   todayFocus: { type: 'array', items: { type: 'object', properties: {
     ticker: { type: 'string' },
     reason: { type: 'string', description: '왜 주목하는지 1~2문장' },
     action: { type: 'string', description: '무엇을 확인하면 되는지 한 문장, 숫자는 1~2개. 입력의 확인 조건만 (예: "기준선 $X 종가 유지 여부 · 거래량이 20일 평균 2배인지 · QQQ MA20 713 회복 여부"). 차트 결론 금지 — 돌파 실패로 처리·리테스트·지지로 전환·눌림·갭·셋업·자리·추격 같은 말을 쓰지 마라' },
-  }, required: ['ticker', 'reason', 'action'] }, description: '오늘 가장 주목할 종목 0~5개 — Node 신호(거래량 확인 돌파·차트확인 목록·유입 업종 통과)가 있는 종목만. 없으면 비워라' },
+  }, required: ['ticker', 'reason', 'action'] }, description: '오늘 가장 주목할 종목 0~5개 — Node 신호(거래량 확인 돌파·차트확인 목록·도윤 거래대금 상위나 세 기간 공통 목록)가 있는 종목만. 없으면 비워라' },
   teamSummaries: { type: 'object', properties: {
     team1: { type: 'string', description: '한별(시장) 요약 2~3문장. 결론 + 이유' }, team2: { type: 'string', description: '도윤(종목 선정) 요약 2~3문장. 어떤 업종·테마가 왜 강한지' },
     team3: { type: 'string', description: '수아(추적) 요약 2~3문장' }, team4: { type: 'string', description: '재민(호재 찾기) 요약 2~3문장. 호재가 확인된 종목은 무슨 호재인지' },
-    team5: { type: 'string', description: '미르(업종 흐름) 요약 2~3문장. 돈이 어디서 어디로, 왜' },
-  }, required: ['team1', 'team2', 'team3', 'team4', 'team5'] },
+  }, required: ['team1', 'team2', 'team3', 'team4'] },
   chartCheckNote: { type: 'string', description: '오늘 눈으로 차트를 봐야 할 종목 최대 5개, 종목당 한 줄로 "티커 — 확인할 것". 시스템 플래그(reasons)를 뜻으로 풀어 옮긴다. 플래그에 없는 방향(상방/하방)·매물·소진 추론 금지' },
   tomorrowWatch: { type: 'string', description: '내일 지켜볼 것 2~3문장. 무엇을 왜 보는지' },
   // ⚠️ 프롬프트 규칙 7번은 caution 을 필수라고 말하는데 스키마에선 선택이었다. 어긋나 있었다.
@@ -111,7 +101,7 @@ const tryAgent = async (p, o) => {
 
 const report = await tryAgent(
   `당신은 투자 리서치팀의 실장입니다. 오늘은 ${date}.
-5개 팀의 결과를 사용자에게 보고하세요.
+팀별 결과를 사용자에게 보고하세요.
 
 ${teamBlocks}
 
@@ -127,25 +117,22 @@ ${teamBlocks}
 6. 사용자가 최종 판단자다. 단정적 매수 권유 대신 확인할 조건을 제시하라.
 7. caution 에 이 리포트의 한계를 **솔직히** 적어라 (필수 항목이다).
    조사되지 않은 종목 수, '근거 없음'으로 남은 항목, 데이터 결함(dataNotice·barsNotice·unevaluated)을 숨기지 마라.
-8. **marketVerdictKo 에는 "돈이 어디로 들어오고 어디서 빠지는지"를 반드시 넣어라.**
-   업종 이름(한국어) + 그 안에서 지금 강한 종목 티커 2~3개. 수치는 서술 기준 2번처럼 뜻으로 풀어 쓴다. 매수 위치 판단은 쓰지 않는다.
-   교차 결과가 비면 "이 업종에서 오늘 기준을 통과한 종목은 없습니다"라고 그대로 써라.
+8. **marketVerdictKo 둘째 문단에는 "오늘 강한 종목이 어디에 몰렸는지"를 반드시 넣어라.**
+   \`teams.team2.lists\` 의 공통 업종(한국어) + 그 안의 티커 2~3개, \`listThemes\` 가 있으면 그 테마와 이유. 매수 위치 판단은 쓰지 않는다.
+   공통 업종이 없으면 "오늘 강한 종목은 여러 업종에 흩어져 있습니다"라고 그대로 써라.
    **입력에 없는 사실로 분량을 채우지 마라** — 근거가 부족하면 짧게 끝내는 것이 낫다.
-9. 1팀 news(digest·keyRisks)·2팀 theme·4팀 summary·5팀 summary 가 있으면 teamSummaries 에 그 내용을 반영하라 — 숫자만 보고 쓰지 마라.
-   2팀 테마는 **기간별 차이를 구분해** 써라: 1M 에 새로 진입한 곳(theme.byPeriod.m1 · rotation.newEntrants)과
-   6M 에만 남은 곳(byPeriod.m6 · rotation.fading), 세 기간 모두인 지속 주도(rotation.persistent, crossTop.persistent 의 D+N)를 나눠 말하라.
+9. 1팀 news(digest·keyRisks)·2팀 lists/listThemes·4팀 summary 가 있으면 teamSummaries 에 그 내용을 반영하라 — 숫자만 보고 쓰지 마라.
+   2팀은 **목록별 차이를 구분해** 써라: 거래대금 상위(오늘 돈이 몰린 곳) · 1개월 상위(새로 강해진 곳) · 세 기간 모두(오래 강한 곳).
    teams.siteCondition 이 있으면 "사이트 시장국면: X" 를 QQQ 판정 옆에 한 번 병기하라(둘이 다르면 다르다고).
-10. 업종 강도 변화율(F10d/F25d %)은 분모가 0 근처면 폭발한다. **크기가 아니라 순위 변동(frank25)으로 말하라.**
-11. **차트 모양(횡보·베이스·돌파의 질·되돌림·갭·리테스트)은 판정하지 않는다.** 당신은 봉을 받지 않았다.
+10. **차트 모양(횡보·베이스·돌파의 질·되돌림·갭·리테스트)은 판정하지 않는다.** 당신은 봉을 받지 않았다.
     3팀 표의 "돌파" 는 35봉(약 7주) 고점을 종가가 넘었다는 뜻이고 "거래량 확인" 은 돌파봉/20일 평균 비율일 뿐이다. 그 이상을 말하지 마라.
 
 ## 서술 기준 — 독자는 주식 투자를 하는 일반인이다 (2026-10-02 사용자 결정. 이전: 금융 실무자 대상)
 1. 한 문장은 한 가지 내용, 60~80자. 칸마다 정해진 문장 수를 넘기지 마라. 첫 문장만 읽어도 결론이 보이게.
-   짧게 쓰되 **결론에는 반드시 이유를 붙인다** — "돈이 정제 업종으로 들어온다"로 끝내지 말고 왜 그런지(순위 상승·실적 전망·뉴스)까지 쓴다.
-2. **입력 JSON 의 키 이름·내부 값을 문장에 쓰지 마라.** dataNotice·barsNotice·sessionMismatch·flowCross·inflow·picks·
-   stageKo·frank25·FRANK·d50·d200·agreement·llmResearchedCount·null·true 같은 말이 보이면 그 문장은 실패다. 뜻으로 바꿔 써라:
-   d50 +13% → "두 달 평균보다 13% 위", d200 → "1년 평균보다", FRANK 1위 → "업종 순위 1위",
-   frank25 +25 → "한 달 새 순위 25계단 상승", stageKo "📈 상승 중반" → "상승 중반".
+   짧게 쓰되 **결론에는 반드시 이유를 붙인다** — "반도체에 몰렸다"로 끝내지 말고 왜 그런지(실적 전망·뉴스)까지 쓴다.
+2. **입력 JSON 의 키 이름·내부 값을 문장에 쓰지 마라.** dataNotice·barsNotice·sessionMismatch·lists·listThemes·picks·
+   commonIndustries·unexplained·llmResearchedCount·null·true 같은 말이 보이면 그 문장은 실패다. 뜻으로 바꿔 써라:
+   lists 의 dollar → "거래대금 상위", m1 → "1개월 상대강도 상위 2%", all → "세 기간 모두 상위 2%".
 3. 숫자는 결론에 필요한 것만 문단당 2~3개. QQQ 종가·이동평균은 한 번만, 그것도 "10일선이 20일선 위" 정도로.
    마진부채는 "빚내서 산 주식이 1년 새 37% 늘었다"처럼 뜻으로.
 4. 데이터 문제가 없으면 데이터 상태는 쓰지 마라. 문제가 있을 때만 맨 앞에 한 문장으로("오늘은 일부 가격 자료가 빠져 있어 돌파 판단을 믿기 어렵다").

@@ -1,6 +1,6 @@
 # 📈 breakout-team
 
-쿨라매기(Qullamaggie) **Break-out + Episodic Pivot** 전략을 매일 실행하는 5팀 + 실장 시스템.
+쿨라매기(Qullamaggie) **Break-out + Episodic Pivot** 전략을 매일 실행하는 담당자 5명(1·2·3·4·6팀) + 실장 시스템.
 의존성 0 (Node 내장 기능만). 스크리닝·추적·리포팅 전용이며 **주문 집행은 하지 않는다.**
 
 > ⚠️ 교육용 자료이며 투자 조언이 아닙니다. 최종 판단은 본인의 차트 확인으로 하세요.
@@ -23,8 +23,7 @@ Claude Code 에서는 `start breakout` 이라고 말하면 LLM 리서치까지 �
 | **2팀 종목선정** | RS(1M/3M/6M) 중 하나라도 상위 2% + ADR≥4% + 150일선 위 → 테마 클러스터링 → 종목별 상승 이유·실적 전망치 조정 |
 | **3팀 추적** | 선정 종목 누적 관리. 배제 3조건(50일선 3일 이탈 / 편입 후 고점 −40% / 150일선 아래), 자동 재편입, 수동 배제, 전고점 돌파 + 거래량 확인 |
 | **4팀 EP·촉매** | 거래량 급증(VOL_X≥2 또는 주간 2배) · 150일선 위 종목 전원의 호재 6분류. 차트 국면은 판정하지 않는다(사용자가 직접 확인) |
-| **5팀 주도섹터** | WRS(1M/3M/6M) 상위 2% 업종과 강세 사유. 기간 비교로 로테이션 판독 |
-| **실장** | 5팀 종합 + 오늘의 포커스 + 👁️ 차트를 봐야 할 종목 |
+| **실장** | 팀별 종합 + 오늘의 포커스 + 👁️ 차트를 봐야 할 종목 |
 
 ## 명령어
 
@@ -39,7 +38,7 @@ node scripts/mark-breakout.js --ticker=PANW --verdict=breakout     # --list
 node scripts/open-dashboard.js
 ```
 
-Claude Code 슬래시 커맨드: `/start-breakout` `/team1`~`/team5` `/chart-check`
+Claude Code 슬래시 커맨드: `/start-breakout` `/team1`~`/team4`·`/team6` `/chart-check`
 
 ## 설계 원칙
 

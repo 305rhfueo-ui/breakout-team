@@ -4,7 +4,6 @@
 // 2026-08-13 실측 사고: LLM 이 매일 생성하던 것들이 통째로 버려지고 있었다.
 //   · team2 `company` — 스키마 필수 필드인데(회사가 뭐 하는 곳인지) 어느 화면에도 없었다
 //   · `quote` — 출처 원문 인용문. 수집하고 verify-claims 로 검증까지 하고 미표시
-//   · team5 `risk` — "이 강세가 언제 꺾이나". 가장 실행에 가까운 항목인데 미표시
 //   · team4 `claims[]` — 4팀 출처가 전부 여기 있는데 화면엔 출처 없는 한 줄만
 // 고친 뒤 2팀 상세가 307자 → 64,741자가 됐다. 데이터는 그대로였다.
 //
@@ -33,11 +32,11 @@ function loadRoom() {
   const nodes = new Map();
   const doc = { getElementById: (id) => { if (!nodes.has(id)) nodes.set(id, mk()); return nodes.get(id); },
     querySelectorAll: () => [], querySelector: () => null, createElement: () => mk(), head: mk(), body: mk(), addEventListener() {} };
-  const win = { document: doc, location: { href: '', hash: '' }, setTimeout, clearTimeout, setInterval, clearInterval, console,
+  const win = { document: doc, location: { href: '', hash: '' }, URLSearchParams, setTimeout, clearTimeout, setInterval, clearInterval, console,
     matchMedia: () => ({ matches: false, addEventListener() {} }), innerWidth: 1180, innerHeight: 900, addEventListener() {} };
   const ctx = vm.createContext(win);
   ctx.window = win; ctx.document = doc;
-  for (const f of ['industry-ko.js', 'chief.js', 'team1.js', 'team2.js', 'team3.js', 'team4.js', 'team5.js', 'chartcheck.js']) {
+  for (const f of ['industry-ko.js', 'chief.js', 'team1.js', 'team2.js', 'team3.js', 'team4.js', 'team6.js', 'chartcheck.js']) {
     const p = path.join(REPO, 'dashboard', 'data', f);
     if (fs.existsSync(p)) vm.runInContext(fs.readFileSync(p, 'utf8'), ctx, { filename: f });
   }
@@ -46,9 +45,12 @@ function loadRoom() {
 }
 
 const ctx = loadRoom();
-const T2 = ctx.window.TEAM2_DATA, T4 = ctx.window.TEAM4_DATA, T5 = ctx.window.TEAM5_DATA;
+const T2 = ctx.window.TEAM2_DATA, T4 = ctx.window.TEAM4_DATA;
 // bodyFor 가 상세 본문이다 (briefing 은 그 위의 짧은 서술). 모달은 둘을 합쳐 보여준다.
-const h2 = ctx.bodyFor('t2'), h4 = ctx.bodyFor('t4'), h5 = ctx.bodyFor('t5');
+// 2026-10-06: 2팀 종목 분석은 목록 표의 티커를 누르면 뜨는 팝업(openTicker → #mbox2)으로 옮겼다.
+const popup = (t) => { ctx.openTicker(t); return ctx.document.getElementById('mbox2').innerHTML; };
+const doneAll = [...((T2 && T2.picks) || []), ...((T2 && T2.listPicks) || [])].filter((p) => p.research && p.research.status === 'done');
+const h2 = doneAll.map((p) => popup(p.ticker)).join('\n'), h4 = ctx.bodyFor('t4');
 /* ⚠️ 렌더는 esc() 로 & < > " 를 이스케이프한다(주입 방어). 원문 그대로 찾으면 오탐이 난다.
    2026-08-14: VSXY 회사명 "Victoria's Secret & Co." 의 & 때문에 멀쩡한 렌더가 실패로 잡혔다.
    ⚠️ ctx.esc 를 쓰면 안 된다 — index.html 의 esc 는 `const` 라 VM 전역 속성이 되지 않는다
@@ -57,12 +59,24 @@ const E = (x) => String(x == null ? '' : x)
   .replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
 console.log('\n[1] 2팀 — 회사 설명·근거·인용문이 실제로 렌더되는가');
-const done2 = (T2.picks || []).filter((p) => p.research && p.research.status === 'done');
+const done2 = doneAll;
+if (T2 && T2.lists) {
+  ok('도윤 5개 목록 — 목록마다 모든 종목이 클릭 가능한 티커(data-tk)로 표에 나온다', () => {
+    const body = ctx.bodyFor('t2');
+    assert.ok(body.includes('id="listNav"'), '목록 버튼 줄이 없다');
+    for (const k of ['dollar', 'm1', 'm3', 'm6', 'all']) {
+      ctx.listView(k);
+      const h = ctx.document.getElementById('listView').innerHTML;
+      const miss = T2.lists[k].items.filter((i) => !h.includes(`data-tk="${E(i.ticker)}"`)).map((i) => i.ticker);
+      assert.strictEqual(miss.length, 0, `${k} 목록에서 빠진 티커: ${miss.join(', ')}`);
+    }
+  });
+} else skipIt('도윤 5개 목록', 'lists 데이터 없음');
 if (!done2.length) skipIt('2팀 리서치 렌더', 'LLM 리서치 데이터 없음');
 else {
-  ok(`조사한 ${done2.length}종목이 전부 화면에 나온다`, () => {
-    const miss = done2.filter((p) => !h2.includes(p.ticker)).map((p) => p.ticker);
-    assert.strictEqual(miss.length, 0, `빠진 종목: ${miss.join(', ')}`);
+  ok(`조사한 ${done2.length}종목이 전부 팝업에 나온다`, () => {
+    const miss = done2.filter((p) => !popup(p.ticker).includes('도윤 리서치')).map((p) => p.ticker);
+    assert.strictEqual(miss.length, 0, `리서치가 팝업에 안 나오는 종목: ${miss.join(', ')}`);
   });
   ok('회사 설명(company)이 글자 그대로 렌더된다', () => {
     // 사용자가 명시적으로 요구한 항목 — "이 회사가 어떤 회사인지"
@@ -105,23 +119,6 @@ else {
   });
 }
 
-console.log('\n[3] 5팀 — risk 와 한글 라벨');
-const inds = (T5.llm && T5.llm.industries) || [];
-if (!inds.length) skipIt('5팀 업종 렌더', 'LLM 업종 데이터 없음');
-else {
-  ok('risk(꺾이는 조건)가 렌더된다', () => {
-    const risks = inds.map((x) => x.risk).filter(Boolean);
-    if (!risks.length) return;
-    const miss = risks.filter((r) => !h5.includes(E(r.slice(0, 40)))).length;
-    assert.strictEqual(miss, 0, `risk ${risks.length}건 중 ${miss}건이 화면에 없다`);
-  });
-  ok('driver·durability 를 영문 enum 그대로 노출하지 않는다', () => {
-    // 자체 서술 규칙: 영문 약어를 풀지 않고 쓰지 않는다
-    assert.ok(!/>(earnings|technology|commodity|policy|macro|rotation)</.test(h5), 'driver 가 영문으로 노출');
-    assert.ok(!/>(structural|cyclical|short_term)</.test(h5), 'durability 가 영문으로 노출');
-  });
-}
-
 /* 리포트형(2026-08-14)으로 새로 넣은 필드들.
    오늘 데이터에는 아직 없을 수 있으므로 값을 주입해 렌더 경로가 살아있는지 본다.
    실데이터를 기다렸다가 "안 나오네" 하고 발견하는 걸 막는 게 목적이다. */
@@ -134,11 +131,11 @@ if (!done2.length) skipIt('2팀 lead·counterpoint 렌더', '2팀 리서치 데�
 else {
   ok('2팀 lead(리드문)가 렌더된다', () => {
     done2[0].research.lead = SENT + 'A';
-    assert.ok(ctx.bodyFor('t2').includes(SENT + 'A'), 'lead 가 화면에 없다');
+    assert.ok(popup(done2[0].ticker).includes(SENT + 'A'), 'lead 가 화면에 없다');
   });
   ok('2팀 counterpoint(반대 근거)가 렌더된다', () => {
     done2[0].research.counterpoint = [mkClaim(SENT + 'B')];
-    assert.ok(ctx.bodyFor('t2').includes(SENT + 'B'), 'counterpoint 가 화면에 없다');
+    assert.ok(popup(done2[0].ticker).includes(SENT + 'B'), 'counterpoint 가 화면에 없다');
   });
   ok('counterpoint 가 비어도 빈 제목만 남지 않는다', () => {
     // ⚠️ done2[0] 만 비우면 나머지 종목의 counterpoint 때문에 문자열이 남아 오탐이 난다
@@ -146,7 +143,7 @@ else {
     const saved = done2.map((p) => p.research.counterpoint);
     done2.forEach((p) => { p.research.counterpoint = []; });
     try {
-      assert.ok(!ctx.bodyFor('t2').includes('반대 근거·한계'), '반대 근거가 없는데 제목만 그려진다');
+      assert.ok(!popup(done2[0].ticker).includes('반대 근거·한계'), '반대 근거가 없는데 제목만 그려진다');
     } finally {
       done2.forEach((p, i) => { p.research.counterpoint = saved[i]; });
     }
@@ -157,12 +154,6 @@ else ok('4팀 company(회사 설명)가 렌더된다', () => {
   done4[0].catalyst.company = SENT + 'C';
   assert.ok(ctx.bodyFor('t4').includes(SENT + 'C'), '4팀 회사 설명이 화면에 없다');
 });
-if (!inds.length) skipIt('5팀 lead 렌더', '5팀 업종 데이터 없음');
-else ok('5팀 lead(리드문)가 렌더된다', () => {
-  inds[0].lead = SENT + 'D';
-  assert.ok(ctx.bodyFor('t5').includes(SENT + 'D'), '5팀 리드문이 화면에 없다');
-});
-
 /* 1팀 뉴스도 같은 병을 앓고 있었다 (2026-08-14).
    · index.html 이 digest.slice(0,4) 라 7건 중 4건만 그렸다
    · 대시보드는 스키마에 없는 d.oneLine 을 그려서 제목만 나오고 설명이 통째로 비었다 */

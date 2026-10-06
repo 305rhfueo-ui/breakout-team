@@ -15,14 +15,14 @@ const CACHE_VERSION = 1;
 const PRUNE_DAYS = 60;          // 유니버스에서 빠진 티커가 무한 누적되지 않게
 const BIG = 9999;               // 정렬용 Infinity 대체 (Infinity 는 뺄셈에서 NaN 을 만든다)
 
-// 자금 흐름 등급 — 낮을수록 먼저 조사한다.
-const FLOW_RANK = { leading: 0, inflow: 1, narrow: 2 };
-const FLOW_RANK_OTHER = 3;
+// 우선순위 등급 기본값 — rankOf 를 안 주면 전부 이 등급(차이 없음). 낮을수록 먼저 조사한다.
+const RANK_OTHER = 3;
 
-const BUCKETS = ['detail', 'team2', 'team4', 'team5', 'team6'];   // team6 = 관심 종목 심층 분석 (2026-10-03)
+// 2026-10-06: 5팀(업종 자금흐름) 제거 — 'team5' 버킷 삭제. 남아 있던 항목은 loadCache 가 버린다.
+const BUCKETS = ['detail', 'team2', 'team4', 'team6'];   // team6 = 관심 종목 심층 분석 (2026-10-03)
 
 function emptyCache() {
-  return { version: CACHE_VERSION, detail: {}, team2: {}, team4: {}, team5: {}, team6: {} };
+  return { version: CACHE_VERSION, detail: {}, team2: {}, team4: {}, team6: {} };
 }
 
 function loadCache(file = paths.researchCache) {
@@ -127,32 +127,15 @@ function selectForResearch(ordered, {
   return { picked: picked.map((p) => p.it), why: picked.map((p) => `${kf(p.it)}(${p.why})`), skipped, ineligible };
 }
 
-// computeFlow 결과 → Map(`${sector}|${industry}` → 0..3)
-// ⚠️ industries 가 없으면(오프라인·스냅샷 26개 미만) 빈 Map 을 준다.
-//    그러면 아래 정렬에서 전 종목이 같은 등급이 되어 자금흐름 항이 조용히 사라진다 — 실행은 계속된다.
-function flowRankOf(industries) {
-  const m = new Map();
-  if (!Array.isArray(industries)) return m;
-  for (const x of industries) {
-    if (!x || !x.key) continue;
-    m.set(x.key, FLOW_RANK[x.flow] ?? FLOW_RANK_OTHER);
-  }
-  return m;
-}
-
-function keyOf(item) {
-  return `${item.sector ?? ''}|${item.industry ?? ''}`;
-}
-
 // 조사 순서를 정한다. 원본을 건드리지 않고 정렬된 복사본을 돌려준다.
 //
 // 정렬 키 (앞이 우선):
 //   ① 오래됐거나 한 번도 안 한 것    — 이게 로테이션의 핵심
-//   ② 돈이 들어오는 업종             — 같은 예산으로 중요한 것부터
+//   ② 우선순위 등급 rankOf(item)      — 같은 예산으로 중요한 것부터 (2팀: 도윤 5개 목록 — 거래대금·1~6MO 0, 1MO 1, 3/6MO 2)
 //   ③ 그 안에서 가장 오래된 것        — 전부 최신이어도 cap 을 채우고, 가장 묵은 것부터 간다
 //   ④ 지표 내림차순 (2팀 bestPct · 4팀 volx)
 function orderForResearch(items, {
-  flowRank = new Map(), cache = emptyCache(), bucket = 'team2',
+  rankOf = () => RANK_OTHER, cache = emptyCache(), bucket = 'team2',
   today, ttl = 5, metric = () => 0,
 } = {}) {
   const scored = (items || []).map((it, i) => {
@@ -160,7 +143,7 @@ function orderForResearch(items, {
     const s = Math.min(stale, BIG);
     return {
       it, i,
-      k: [stale >= ttl ? 0 : 1, flowRank.get(keyOf(it)) ?? FLOW_RANK_OTHER, -s, -(Number(metric(it)) || 0)],
+      k: [stale >= ttl ? 0 : 1, (Number.isFinite(Number(rankOf(it))) ? Number(rankOf(it)) : RANK_OTHER), -s, -(Number(metric(it)) || 0)],
     };
   });
   scored.sort((a, b) => {
@@ -173,6 +156,6 @@ function orderForResearch(items, {
 module.exports = {
   loadCache, saveCache, emptyCache,
   tradingDaysSince, lastResearched, stalenessOf, recordResearched, entryOf,
-  flowRankOf, orderForResearch, selectForResearch,
-  CACHE_VERSION, PRUNE_DAYS, FLOW_RANK, BUCKETS,
+  orderForResearch, selectForResearch,
+  CACHE_VERSION, PRUNE_DAYS, RANK_OTHER, BUCKETS,
 };

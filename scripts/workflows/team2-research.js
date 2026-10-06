@@ -5,21 +5,19 @@ export const meta = {
   phases: [
     { title: '종목리서치', detail: '종목별 상승 이유 · 추정치 조정 (제공 자료 우선, 부족분만 웹검색)' },
     { title: '팩트체크', detail: '출처 없는 주장 제거 (6종목 배치, 텍스트 대조만)' },
-    { title: '테마종합', detail: 'Node 가 확정한 클러스터 위에서 공통 테마 해석' },
+    { title: '목록테마', detail: '도윤 5개 목록마다 1명 — 공통 업종·뉴스로 묶이는 테마 (2026-10-06)' },
   ],
 }
 // 사용법: Workflow({ scriptPath: '<abs>/scripts/workflows/team2-research.js',
-//   args: { date:'YYYY-MM-DD', picks:[{ticker,sector,industry,...,detail:{...}}], clusters:[...] } })
+//   args: <state/llm-in/_args.json 의 team2args> — { date, cap, argsDir, listsFile, lists:[{key,label,count}], picks:[경량] }
 
 let A = args
 if (typeof A === 'string') { try { A = JSON.parse(A) } catch (e) { A = null } }
 const date = (A && A.date) || 'today'
 const picks = (A && A.picks) || []
-const clusters = (A && A.clusters) || []
-// 기간별(1M·3M·6M) 테마 3세트 + 교차 — Node 확정 (2026-09-07). 없으면 유니온만 본다.
-const themesByPeriod = (A && A.themesByPeriod) || null
-const cross = (A && A.cross) || null
-const crossDetail = (A && A.crossDetail) || null
+// 도윤 5개 목록 (2026-10-06) — 목록별 테마 분석. 무거운 자료(뉴스·리서치)는 listsFile 에 있고 에이전트가 Read 한다.
+const lists = ((A && A.lists) || []).filter((l) => l && l.count > 0)
+const listsFile = (A && A.listsFile) || null
 const CAP = Number.isFinite(A && A.cap) ? A.cap : 20     // `|| 20` 이면 cap:0 이 20 으로 둔갑한다
 
 /* ── 무거운 자료는 파일로 ──
@@ -234,90 +232,76 @@ batches.forEach((b, bi) => b.forEach((s, idx) => {
   }
 }))
 
-phase('테마종합')
-// 2026-10-02 사용자 요청: 테마 글은 "일반인도 쉽게". 섹터는 빼고 업종·테마 두 가지로만 묶는다.
-//   이전 글은 "Technology 쏠림", "Node 클러스터: Sector:Technology 30종목(65.2%, 기간별 1M 14…)" 처럼
-//   내부 계산 기록과 영어가 그대로 화면에 나왔다. 종목별 리서치(위 STYLE)는 그대로 둔다.
+phase('목록테마')
+// 2026-10-06 사용자 요청: 도윤을 RS 사이트 기준 5개 목록(거래대금 상위 · RS 1/3/6개월 상위 2% · 세 기간 모두)으로 나누고,
+//   목록마다 ① 공통 업종(Node 가 이미 계산) ② 업종이 달라도 뉴스로 묶이는 공통 테마를 찾는다. 예전 테마종합(1명)을 대체한다.
 const THEME_STYLE = `
 ## 서술 기준 — 독자는 주식 투자를 하는 일반인이다
 1. 한 문장에 한 가지 내용, 60~80자. 칸마다 정해진 문장 수를 넘기지 마라. 왜 같이 오르는지(원인)는 반드시 쓴다.
-2. 묶는 단위는 업종과 테마 두 가지뿐이다. 섹터(기술·헬스케어 같은 큰 분류)로 묶거나 섹터 이름을 쓰지 마라.
+2. 묶는 단위는 업종과 테마 두 가지뿐이다. 섹터(기술·헬스케어 같은 큰 분류)로 묶지 마라.
 3. 업종 이름은 한국어로 쓴다 (Semiconductors → 반도체, Diagnostics & Research → 진단·연구). 티커는 원문 그대로.
-4. 테마 이름은 "무엇 때문에 오르는지"가 보이게 짓는다. "○○ 쏠림", "○○ 중심 Technology" 같은 이름은 금지.
-5. 숫자는 "N종목" 정도만. 퍼센트·기간별 개수(1M 14·3M 7…)를 나열하지 마라 — 그 표는 화면에 따로 있다.
-6. 작업 과정은 쓰지 않는다. "Node", "클러스터", "합집합", "제공 리서치", "출처 검증" 같은 말은 금지.
-7. 이유가 확인 안 된 종목은 지어내지 말고 "이유 확인 안 됨: A·B" 로 한 번만 모아 쓴다.
+4. 테마 이름은 "무엇 때문에 오르는지"가 보이게 짓는다 (예: "AI 데이터센터 전력 수요", "비만 치료제 임상 결과"). "○○ 쏠림" 같은 이름은 금지.
+5. 숫자는 "N종목" 정도만. 퍼센트·순위 나열 금지 — 표가 화면에 따로 있다.
+6. 작업 과정은 쓰지 않는다. "Node", "클러스터", "제공 자료", "입력 파일" 같은 말은 금지.
+7. 이유가 확인 안 된 종목은 지어내지 말고 unexplained 에 모은다.
 8. 한국어로 쓴다. 영어 문장을 섞지 마라.`
-// ⚠️ plainKo 라는 이름은 대시보드가 읽는다. 이름은 두고 설명만 바꾼다.
-const THEME = { type: 'object', properties: {
-  leadingTheme: { type: 'object', properties: {
-    name: { type: 'string', description: '테마 이름 20자 안팎, 한국어. "~ 쏠림" 대신 무엇 때문에 오르는지가 보이게. 예: "AI 데이터센터 전력 수요"' },
-    plainKo: { type: 'string', description: '최대 2문장. 이 종목들이 왜 같이 오르는지 결론만. 숫자는 "N종목" 하나면 충분' },
-    why: { type: 'string', description: '근거 최대 3문장. 종목별로 무슨 일이 있었는지 한 줄씩. 근거가 없는 종목은 이름만 모아 "이유 확인 안 됨: A·B" 한 번' },
+
+const LIST_THEME = { type: 'object', properties: {
+  key: { type: 'string', description: '입력 목록의 key 그대로' },
+  commonIndustries: { type: 'array', items: { type: 'object', properties: {
+    industry: { type: 'string', description: '입력 industries 의 industry 그대로(영문)' },
     tickers: { type: 'array', items: { type: 'string' } },
-    strength: { type: 'string', enum: ['strong', 'emerging', 'weak', 'none'] },
-  }, required: ['name', 'plainKo', 'why', 'tickers', 'strength'] },
-  subThemes: { type: 'array', items: { type: 'object', properties: {
-    name: { type: 'string', description: '테마 이름 20자 안팎, 한국어' },
-    plainKo: { type: 'string', description: '최대 2문장. 왜 같이 오르는지' },
-    tickers: { type: 'array', items: { type: 'string' } }, why: { type: 'string' },
-  }, required: ['name', 'plainKo', 'tickers'] } },
-  crossCuttingDriver: { type: 'string', description: '테마 전체를 꿰는 공통 원인 최대 2문장 (예: 금리, AI 투자, 정책). 없으면 "뚜렷한 공통 원인은 없다" 한 문장' },
-  caution: { type: 'string', description: '이 해석이 틀릴 수 있는 이유 한 문장' },
-  // 기간별 3세트 — 각 기간의 상위 2% 안에서만 테마를 붙인다. 티커는 Node 클러스터에 있는 것만 (build-chief-report 가 교집합으로 정제)
-  byPeriod: { type: 'object', properties: Object.fromEntries(['m1', 'm3', 'm6'].map((k) => [k, { type: 'object', properties: {
-    name: { type: 'string', description: '이 기간 상위 2% 의 주도 테마 이름. 없으면 "공통 테마 없음"' },
-    plainKo: { type: 'string', description: '최대 2문장. 이 기간에 무엇이 강했는지 결론. 퍼센트는 쓰지 말고 "N종목"만' },
-    tickers: { type: 'array', items: { type: 'string' }, description: '이 기간 클러스터에 실제로 있는 티커만' },
-    strength: { type: 'string', enum: ['strong', 'emerging', 'weak', 'none'] },
-  }, required: ['name', 'plainKo', 'tickers', 'strength'] }])), required: ['m1', 'm3', 'm6'] },
-  rotation: { type: 'object', properties: {
-    persistent: { type: 'array', items: { type: 'string' }, description: 'Node 교차 목록의 지속 주도(1M·3M·6M 모두) 중 해석에 쓴 티커' },
-    newEntrants: { type: 'array', items: { type: 'string' }, description: 'Node 교차 목록의 신규 진입(1M 만) 중 해석에 쓴 티커' },
-    midTerm: { type: 'array', items: { type: 'string' }, description: 'Node 교차 목록의 중기(3M 기준, 1M 은 아님) 중 해석에 쓴 티커' },
-    fading: { type: 'array', items: { type: 'string' }, description: 'Node 교차 목록의 퇴조(6M 만) 중 해석에 쓴 티커' },
-    narrative: { type: 'string', description: '최대 3문장. 오래 강한 것 / 새로 떠오르는 것 / 힘이 빠지는 것이 각각 어느 업종인지' },
-  }, required: ['persistent', 'newEntrants', 'midTerm', 'fading', 'narrative'] },
-}, required: ['leadingTheme', 'subThemes', 'crossCuttingDriver', 'byPeriod', 'rotation'] }
+    why: { type: 'string', description: '이 업종 종목들이 왜 같이 강한지 최대 2문장. 뉴스·리서치에 근거가 있을 때만. 없으면 "이유 확인 안 됨"' },
+  }, required: ['industry', 'tickers', 'why'] }, description: '입력 industries(2종목 이상 모인 업종) 각각에 대해 한 줄씩. 입력에 없는 업종을 만들지 마라' },
+  themes: { type: 'array', items: { type: 'object', properties: {
+    name: { type: 'string', description: '테마 이름 20자 안팎, 한국어, 무엇 때문에 오르는지가 보이게' },
+    plainKo: { type: 'string', description: '최대 2문장. 이 종목들이 왜 같이 오르는지 결론' },
+    why: { type: 'string', description: '근거 최대 3문장. 종목별로 무슨 일이 있었는지' },
+    tickers: { type: 'array', items: { type: 'string' }, description: '이 목록 안의 티커만. 업종이 달라도 된다 — 업종을 가로지르는 공통점이 핵심이다' },
+    sources: { type: 'array', items: SOURCE, description: '근거 기사. 입력 news 의 url·제목을 그대로 쓰거나 웹에서 실제로 읽은 것만' },
+  }, required: ['name', 'plainKo', 'why', 'tickers', 'sources'] }, description: '2종목 이상이 같은 이유로 오르는 테마 0~4개. 없으면 빈 배열 — 억지로 묶지 마라' },
+  unexplained: { type: 'array', items: { type: 'string' }, description: '어떤 업종·테마로도 이유를 확인하지 못한 티커' },
+  narrative: { type: 'string', description: '이 목록을 3~4문장으로 요약 — 어디에 몰렸고, 왜, 무엇이 확인되면 이 흐름이 맞는지/틀린지' },
+}, required: ['key', 'commonIndustries', 'themes', 'unexplained', 'narrative'] }
 
-const periodBlock = themesByPeriod ? `
-## Node 가 확정한 기간별 상위 2% 클러스터 (1M·3M·6M 각각. 숫자 절대 바꾸지 마라)
-한 종목이 여러 기간에 들어갈 수 있다. 비중의 분모는 그 기간의 종목 수다.
-${JSON.stringify(themesByPeriod, null, 1)}
+const listThemes = await parallel(lists.map((l) => () => tryAgent(
+  `당신은 오늘 강한 종목 목록에서 공통점(업종·테마)을 찾는 담당자입니다. 독자는 일반 투자자입니다. 오늘은 ${date}.
+목록: **${l.label}** (key: "${l.key}", ${l.count}종목)
 
-## Node 가 확정한 기간 교차 (지속 = 3기간 모두 · 신규 = 1M 만 · 중기 = 3M · 퇴조 = 6M 만)
-${JSON.stringify({ counts: cross && cross.counts, persistent: cross && cross.persistent, newEntrants: cross && cross.newEntrants, midTerm: cross && cross.midTerm, fading: cross && cross.fading, other: cross && cross.other, streaks: crossDetail }, null, 1)}
-(streaks 의 D+N = 그 기간 상위 2% 에 연속 포함된 거래일 수)` : ''
-
-const theme = await tryAgent(
-  `당신은 오늘 강한 종목들의 공통점(업종·테마)을 찾는 담당자입니다. 독자는 일반 투자자입니다. 오늘은 ${date}.
-
-## Node 가 확정한 클러스터 — 전 기간 합집합 (이 숫자는 절대 바꾸지 마라)
-${clusters.length ? JSON.stringify(clusters, null, 1) : '(클러스터 없음 — 테마를 만들지 마세요)'}
-${periodBlock}
-
-## 검증 통과한 종목별 리서치
-${JSON.stringify(clean.map((x) => ({ ticker: x.ticker, themeTags: x.themeTags, whyRose: (x.whyRose || []).map((c) => c.statement) })), null, 1)}
+## 가장 먼저 Read 도구로 이 파일을 읽어라
+**${listsFile}**
+그 안의 \`lists\` 배열에서 **key 가 "${l.key}" 인 항목만** 본다. 다른 목록은 보지 마라.
+- \`items\`: 목록 종목(티커·이름·업종)
+- \`industries\`: 2종목 이상 모인 업종 (Node 가 계산 — 이미 확정)
+- \`lone\`: 업종이 겹치지 않는 종목
+- \`news\`: 종목별 최근 뉴스 제목·URL (제공된 자료 — 가장 안전한 근거)
+- \`research\`: 이미 조사된 종목의 회사 설명·상승 이유(출처 검증 통과분)
 
 ## 할 일
-- leadingTheme: 지금의 주도 테마. **위 클러스터에 실제로 존재하는 종목만** 넣어라.
-  ⚠️ 공통 테마가 없으면 name:"공통 테마 없음", strength:"none" 으로 정직하게 답하라. 억지로 묶지 마라.
-- subThemes: 2~3개 종목 수준의 소규모 공통점도 잡아라. 전원 공통일 필요 없다.
-- byPeriod: 1M·3M·6M **각각의 상위 2% 안에서** 주도 테마를 따로 붙여라. 그 기간 클러스터에 있는 티커만 넣고,
-  그 기간에 공통 테마가 없으면 strength:"none". 유니온 테마를 복사하지 마라 — 기간마다 달라야 정상이다.
-- rotation: Node 교차 목록(지속·신규·중기·퇴조) 안의 티커만 써서 "1M 신규 · 3M 중기 · 6M 퇴조" 세 층의 차이를 narrative 로.
-  업종 이름(한국어)으로 말하라. 어느 층이 비면 그렇다고 써라.
-- plainKo 와 why 는 역할이 다르다 — plainKo 는 결론 요약, why 는 출처 딸린 근거. 섞지 마라.
-- 근거는 위 리서치에 있는 것만 쓴다. 웹검색은 하지 않는다. 입력에 없는 티커·사실을 만들지 마라.
+1. commonIndustries — industries 각각에 대해 "왜 같이 강한지"를 뉴스·리서치로 한두 문장. 근거가 없으면 "이유 확인 안 됨".
+2. themes — **업종이 달라도** 같은 이유(같은 정책·같은 기술 수요·같은 원자재·같은 실적 사이클)로 오르는 종목을 묶는다.
+   2종목 이상일 때만. 억지로 묶지 마라 — 공통 테마가 없으면 빈 배열이 정답이다.
+3. unexplained — 이유를 못 찾은 티커.
+4. narrative — 목록 전체 요약 3~4문장.
+
+## 반드시 지킬 것
+1. **제공된 자료(뉴스 제목·리서치)에서 먼저 근거를 찾고**, 그래도 부족한 테마만 웹검색한다. 웹검색·페이지 열람은 최대 6회.
+2. 티커는 이 목록(items) 안의 것만 쓴다. 목록 밖 티커를 만들지 마라.
+3. sources 의 url 은 news 에 있는 것이거나 웹에서 실제로 읽은 원문만. **URL 을 만들어내지 마라.**
+4. 근거가 부족하면 짧게 끝낸다. 분량을 채우려고 추측하지 마라.
 ${THEME_STYLE}`,
-  { label: '테마종합', phase: '테마종합', schema: THEME, model: 'sonnet' }
-)
+  { label: `목록테마:${l.key}`, phase: '목록테마', schema: LIST_THEME, model: 'sonnet' }
+)))
+// 입력 key 를 결과에 강제한다 (모델이 key 를 바꿔 쓰면 화면이 목록을 못 찾는다). 실패한 목록은 failed 로 남긴다.
+const listThemesOut = lists.map((l, i) => (listThemes[i] ? { ...listThemes[i], key: l.key, label: l.label } : { key: l.key, label: l.label, failed: true }))
+const failedLists = listThemesOut.filter((x) => x.failed).map((x) => x.key)
+if (failedLists.length) log(`⚠️ 목록 테마 실패: ${failedLists.join(', ')}`)
 
 return {
   date,
   team: 2,
   researched: clean,
-  theme,
+  listThemes: listThemesOut,
   failed,
   coverage: { done: clean.length, total: picks.length, cap: CAP, failed: failed.length },
   factcheckBatches: batches.length,

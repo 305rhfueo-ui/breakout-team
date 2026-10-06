@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "commonjs",
-  "description": "쿨라매기 Break-out + Episodic Pivot 5팀 에이전트 시스템 (의존성 0)",
+  "description": "쿨라매기 Break-out + Episodic Pivot 팀 에이전트 시스템 (의존성 0)",
   "engines": {
     "node": ">=18"
   },

@@ -11,6 +11,10 @@ let pass = 0, fail = 0;
 const ok = (name, fn) => { try { fn(); console.log('  ✅ ' + name); pass++; } catch (e) { console.log('  ❌ ' + name + '\n     ' + e.message); fail++; } };
 
 const fx = {
+  t2: { lists: {
+    dollar: { label: '거래대금 상위', count: 20, note: null, industries: { headline: 'Diagnostics & Research 5종목(25%)' } },
+    all: { label: 'RS(1~6MO)', count: 0, note: null, industries: { headline: '자격 종목 없음' } },
+  } },
   t3: {
     breakouts: [
       { ticker: 'ZS', breakVolRatio: 2.52, volumeConfirmed: true },
@@ -22,10 +26,6 @@ const fx = {
   c: {
     counts: { chartCheck: 19, chartCheckShown: 1 },
     chartCheck: [{ ticker: 'MRNA', score: 8, reasons: ['볼밴 폭 0.19'] }],
-    flowCross: {
-      inflow: [{ industry: 'Gold', frank25: 94, stageKo: '⭐ 상승 초입', picks: [{ ticker: 'AUGO' }] }],
-      outflow: [{ industry: 'Aluminum', frank25: -44, stageKo: '❄️ 조정 중', picks: [] }],
-    },
   },
   chief: { headline: '한 줄 헤드라인', marketVerdictKo: '리테스트 성공 여부를 본다', todayFocus: [{ ticker: 'MSTR' }] },
   report: { checked: 179, ok: 191, unverified: 24, dead: 2, stripped: 3 },
@@ -38,9 +38,11 @@ ok('거래량 확인된 돌파만 확인 목록에 들어간다', () => {
   assert.ok(/거래량 확인 1건 \(ZS 2\.52×\)/.test(text), text);
   assert.ok(/거래량 미확인: DELL 0\.96×/.test(text));
 });
-ok('통과 종목이 없는 업종은 그렇게 적는다', () => {
-  assert.ok(/Aluminum\(frank25 -44[^/\n]*→ 통과 종목 없음/.test(text));
-  assert.ok(/Gold\(frank25 \+94[^/\n]*→ AUGO/.test(text));
+ok('도윤 5개 목록 — 목록마다 개수와 공통 업종 (2026-10-06, 5팀 자금흐름 대신)', () => {
+  assert.ok(/2팀 목록/.test(text), text);
+  assert.ok(/거래대금 상위 20종목 → Diagnostics & Research 5종목\(25%\)/.test(text));
+  assert.ok(/RS\(1~6MO\) 0종목 → 자격 종목 없음/.test(text));
+  assert.ok(!/5팀|frank25|자금흐름/.test(text), '5팀 흔적');
 });
 ok('WARN 은 싣고, 실장 산문(marketVerdictKo)은 싣지 않는다', () => {
   assert.ok(text.includes('차트 결론 어휘 WARN'));

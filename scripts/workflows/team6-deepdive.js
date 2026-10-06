@@ -129,7 +129,7 @@ const researched = await parallel(targets.map((it) => () => {
 1. **가장 먼저 Read 도구로 기준 문서 두 장을 읽어라**: \`${docsDir}/기준-쿨라매기-차트.md\` (차트 관찰 11개 항목) · \`${docsDir}/기준-CANSLIM-재무.md\` (C·A·N·S·L·I·M).
    체크표(chartCheck·canslim)는 그 문서의 항목 순서와 판정 요령을 그대로 따른다.
 2. **Read 도구로 종목 자료를 읽어라**: \`${file}\` — ${it.ticker} 전용이다. 그 안의
-   \`plan\`(피벗·손절·베이스 지표) · \`site\`(RS·컨센서스·52주 고점) · \`flow\`(업종 자금 흐름) · \`eye\`(차트확인 플래그) ·
+   \`plan\`(피벗·손절·베이스 지표) · \`site\`(RS·컨센서스·52주 고점) · \`eye\`(차트확인 플래그) ·
    \`detail.financials\`(SEC 분기 실적) · \`detail.news\`(이 종목 직접 언급 기사) · \`detail.filings\`(8-K) · \`detail.krReports\`(국내 증권사 리포트 요약·PDF 링크) ·
    \`chart.numbers\`·\`chart.last10\`(차트 숫자) · \`market\`(한별 시장 판정). **여기 있는 숫자는 절대 바꾸지 마라.**
 3. ${pngs}

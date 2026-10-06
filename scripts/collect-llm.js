@@ -1,6 +1,6 @@
 'use strict';
 // 워크플로 실행 결과(태스크 출력 파일)를 모아 state/llm-in/{date}.json 으로 합친다.
-//   node scripts/collect-llm.js --team1=<파일> --team2=<파일> --team4=<파일> --team5=<파일> --chief=<파일>
+//   node scripts/collect-llm.js --team1=<파일> --team2=<파일> --team4=<파일> --team6=<파일> --chief=<파일>
 //
 // 태스크 출력 파일은 { summary, agentCount, logs, result } 형태이고 우리가 쓸 건 result 다.
 // Claude 가 Workflow 실행 후 받은 output-file 경로를 그대로 넘기면 된다.
@@ -28,7 +28,7 @@ function main() {
   ensureDir(paths.llmInDir);
 
   const out = { date: dateStr, collected_at: new Date().toISOString() };
-  const map = { team1: 'team1', team2: 'team2', team4: 'team4', team5: 'team5', chief: 'chief' };
+  const map = { team1: 'team1', team2: 'team2', team4: 'team4', team6: 'team6', chief: 'chief' };
   const got = [];
   for (const [k, key] of Object.entries(map)) {
     const f = arg(k);
@@ -38,7 +38,7 @@ function main() {
   }
 
   if (!got.length) {
-    console.log('사용법: node scripts/collect-llm.js --team1=<output파일> --team2=... --team4=... --team5=... --chief=...');
+    console.log('사용법: node scripts/collect-llm.js --team1=<output파일> --team2=... --team4=... --team6=... --chief=...');
     process.exit(1);
   }
 

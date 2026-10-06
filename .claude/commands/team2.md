@@ -11,6 +11,8 @@ description: 2팀 종목선정 상세 보고 — breakout-team
 REPO: `~/AI/breakout-team`
 
 1. `dashboard/data/team2.js` 의 `TEAM2_DATA (dashboard/data/team2.js)` 를 읽는다 (`window.TEAM2_DATA = {...};` 형태)
+   2026-10-06부터 `lists` (도윤 5개 목록: dollar 거래대금 상위 · m1/m3/m6 RS 상위 2% · all 세 기간 공통 — 목록마다 items·industries·lone),
+   `listPicks` (목록 전용 종목, picks 와 같은 모양), `themes.llm.lists` (목록별 AI 공통 테마) 가 있다. **보고는 목록 순서대로.**
 2. `analysis/reports/{오늘날짜}-breakout.md` 의 2팀 섹션도 함께 참고한다
 
 파일이 없거나 오래됐으면 먼저 실행한다:

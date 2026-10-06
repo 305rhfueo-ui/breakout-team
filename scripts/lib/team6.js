@@ -14,7 +14,7 @@ const { earningsOf } = require('./earnings');
 
 const PLAN_CAP = 30;
 
-function buildPlans({ tickers, barsOf, rowOf, rules, regime, riskPct, earnings, flowOf, catOf, nameOf }) {
+function buildPlans({ tickers, barsOf, rowOf, rules, regime, riskPct, earnings, catOf, nameOf }) {
   const plans = [], post = [];
   const skipped = { noBars: [], noBase: 0, far: 0 };
   for (const t of [...new Set(tickers)]) {
@@ -24,7 +24,6 @@ function buildPlans({ tickers, barsOf, rowOf, rules, regime, riskPct, earnings, 
     if (!g.ok || g.state === 'none') { skipped.noBase++; continue; }
     const row = (rowOf && rowOf(t)) || {};
     const cat = catOf ? catOf(t) : null;
-    const flow = flowOf ? flowOf(row.Sector, row.Industry) : null;
     const earn = earningsOf(earnings, t);
     const item = {
       ticker: t, name: nameOf ? nameOf(t) : null, sector: row.Sector || null, industry: row.Industry || null,
@@ -35,7 +34,7 @@ function buildPlans({ tickers, barsOf, rowOf, rules, regime, riskPct, earnings, 
       ma10: g.ma10,
       dollarVol20M: g.dollarVol20 == null ? null : round(g.dollarVol20 / 1e6, 1), liquid: g.liquid,
       reasons: g.reasons, fails: g.fails, metrics: g.metrics,
-      catalyst: cat, flow, earnings: earn,
+      catalyst: cat, earnings: earn,
     };
     if (g.state === 'post') { post.push({ ...item, breakDate: g.breakDate, barsSinceBreak: g.barsSinceBreak }); continue; }
     if (!g.near) { skipped.far++; continue; }
@@ -53,7 +52,6 @@ function buildPlans({ tickers, barsOf, rowOf, rules, regime, riskPct, earnings, 
     item.watch = !item.blocked;
     item.score = round((7 - g.fails.length) * 10
       + (cat && (cat.category === 1 || cat.category === 5) ? 5 : 0)
-      + (flow && (flow.flow === 'inflow' || flow.flow === 'leading') ? 5 : 0)
       - Math.abs(g.distToPivotPct), 1);
     plans.push(item);
   }
@@ -77,7 +75,7 @@ function watchlistOf(team6) {
     items: team6.plans.filter((p) => p.watch || p.shadowBook).map((p) => ({
       shadowOnly: !p.watch, shadowBook: p.shadowBook || null,
       ticker: p.ticker, grade: p.grade, pivot: p.pivot, stopPre: p.stop, adrPct: p.adrPct, weightPct: p.weightPct,
-      ma10: p.ma10, metrics: p.metrics, catalyst: p.catalyst, flow: p.flow,
+      ma10: p.ma10, metrics: p.metrics, catalyst: p.catalyst,
       price: p.price, sector: p.sector, industry: p.industry, score: p.score, reasons: p.reasons,
     })),
   };
@@ -85,7 +83,6 @@ function watchlistOf(team6) {
 
 const sg = (x) => (x == null ? '—' : `${x > 0 ? '+' : ''}${x}`);
 const catKo = (c) => (c && c.category ? `${'①②③④⑤⑥'[c.category - 1] || ''}` : '');
-const flowKo = { leading: '주도', inflow: '유입', narrow: '소수종목', pending: '대기', outflow: '유출' };
 
 function reportSection(t6) {
   if (!t6) return [];
@@ -98,10 +95,10 @@ function reportSection(t6) {
   L.push('- 등급은 검사 7개 중 실패 수(0=A, 1=B, 2 이상=C)다. 차트 모양은 판정하지 않는다.');
   L.push('');
   if (t6.plans.length) {
-    L.push('| 순위 | 종목 | 등급 | 현재가 | 피벗 | 피벗까지 | 예비 손절 | 리스크/주 | 비중 | 이격 | 4팀 | 5팀 | 상태 |');
-    L.push('|---:|---|:-:|---:|---:|---:|---:|---:|---:|---:|:-:|---|---|');
+    L.push('| 순위 | 종목 | 등급 | 현재가 | 피벗 | 피벗까지 | 예비 손절 | 리스크/주 | 비중 | 이격 | 4팀 | 상태 |');
+    L.push('|---:|---|:-:|---:|---:|---:|---:|---:|---:|---:|:-:|---|');
     t6.plans.forEach((p, i) => {
-      L.push(`| ${i + 1} | **${p.ticker}** | ${p.grade} | ${p.price} | ${p.pivot} | ${sg(p.distToPivotPct)}% | ${p.stop} | ${p.riskPerSharePct}% | ${p.weightPct}%${p.weightCapped ? '(상한)' : ''} | ${sg(p.extensionAdr)} | ${catKo(p.catalyst)} | ${p.flow ? (flowKo[p.flow.flow] || p.flow.flow) : '—'} | ${p.watch ? '👀 관심' : '⛔ ' + p.blocked} |`);
+      L.push(`| ${i + 1} | **${p.ticker}** | ${p.grade} | ${p.price} | ${p.pivot} | ${sg(p.distToPivotPct)}% | ${p.stop} | ${p.riskPerSharePct}% | ${p.weightPct}%${p.weightCapped ? '(상한)' : ''} | ${sg(p.extensionAdr)} | ${catKo(p.catalyst)} | ${p.watch ? '👀 관심' : '⛔ ' + p.blocked} |`);
     });
     L.push('');
     for (const p of t6.plans.filter((x) => x.watch)) L.push(`- **${p.ticker}** — ${p.reasons.join(' · ')}`);

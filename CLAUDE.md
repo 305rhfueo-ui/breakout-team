@@ -1,7 +1,7 @@
 # breakout-team — Claude 작업 지침
 
 쿨라매기 Break-out + Episodic Pivot 전략을 실행하는 6팀 + 실장 시스템.
-1~5팀이 후보를 만들고, 6팀(매매)이 그걸 매수 계획·모의 거래로 바꾼다 (2026-09-28 추가).
+1~4팀이 후보를 만들고, 6팀(매매)이 그걸 매수 계획·모의 거래로 바꾼다 (2026-09-28 추가). 5팀(업종 자금흐름·미르)은 2026-10-06 제거 — 도윤 5개 목록이 대신한다. 서준 점수의 '업종 유입 +5' 가산도 함께 없어졌다(순서만 바뀜, 관심 종목 판정 규칙은 그대로).
 기존 `../investment-agent-team/`(모의투자)와는 **별개 repo**이며 그쪽은 건드리지 않는다.
 
 ## 자연어 트리거 매핑
@@ -15,7 +15,6 @@
 | `2팀`, `종목선정` | `/team2` |
 | `3팀`, `추적` | `/team3` |
 | `4팀`, `EP`, `촉매` | `/team4` |
-| `5팀`, `섹터`, `WRS` | `/team5` |
 | `6팀`, `매매`, `매수 계획`, `오늘 뭐 사` | `/team6` |
 | `차트 읽어줘`, `차트 분석` | `/chart-read` |
 | `리뷰`, `주간 리뷰`, `모의투자 성적` | `/review` |
@@ -43,7 +42,7 @@ scripts/
   answer-weekly.js / exclude-ticker.js / mark-breakout.js / open-dashboard.js
   lib/                   util·ta·bars·percentile·wrs·screen·tracking·congestion·vcp
                          ·leaders·regime·chart/·xlsx/·history-series·verify-claims·cache
-                         ·sector-flow·flow-cross·research-rotation
+                         ·lists(도윤 5개 목록)·research-rotation
                          ·kis(한투 시세) ·rules ·setup-grade ·team6 ·earnings
                          ·orh(장중 트리거) ·intraday ·paper(자체 원장)          ← 6팀
                          ·paper-publish(일지 데이터) ·notify(텔레그램 알림)
@@ -55,7 +54,7 @@ scripts/
   backtest-intraday.js   6팀 규칙 5분봉 백테스트 → docs/BACKTEST-INTRADAY-{날짜}.md
 deploy/macmini/          맥미니 24시간 구동 (install.sh · launchd plist 2개)
   data/                  finra-margin · sec-edgar · kr-reports · news-rss
-  workflows/             team1-news · team2-research · team4-catalyst · team5-sector · chief-report
+  workflows/             team1-news · team2-research(종목 리서치 + 목록 테마) · team4-catalyst · team6-deepdive · chief-report
 state/                   tracking·picks·weekly-question·chart-check·breakout-log·llm-in·history
                          ·watchlist(6팀 아침 관심 목록) ·paper(자체 원장) ·orh(밤 트리거)
 config/rules.json        6팀 매매 규칙 (버전 관리 — 바꾸면 version 을 올리고 docs/STRATEGY-LOG.md 에 근거)

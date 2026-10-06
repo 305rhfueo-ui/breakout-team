@@ -3,7 +3,7 @@
 //   node scripts/prepare-deepdive-args.js
 //
 // 하는 일: dashboard/data/team6.js 의 오늘 밤 관심 종목(watch, 최대 10개)마다
-//   state/llm-in/_t6/{TICKER}.json   plan · site(사이트 수치) · flow(업종 자금흐름) · eye(차트확인) · detail(실적·뉴스·8-K·국내리포트)
+//   state/llm-in/_t6/{TICKER}.json   plan · site(사이트 수치) · eye(차트확인) · detail(실적·뉴스·8-K·국내리포트)
 //                                    · chart(숫자 사이드카 + PNG 2장) · market(한별 판정)
 //   state/llm-in/_t6/{TICKER}-3m.png · -6m.png   render-charts.js 가 CACHE_DIR 에 그린 것을 복사 (.gitignore)
 //   state/llm-in/_t6args.json        워크플로 args — { date, cap, model, argsDir, items:[경량], skipped }
@@ -49,7 +49,6 @@ async function main() {
   const t1 = loadWindowData('team1.js', 'TEAM1_DATA');
   const t2 = loadWindowData('team2.js', 'TEAM2_DATA');
   const t4 = loadWindowData('team4.js', 'TEAM4_DATA');
-  const t5 = loadWindowData('team5.js', 'TEAM5_DATA');
   const cc = loadWindowData('chartcheck.js', 'CHARTCHECK_DATA');
   const date = t6.generated;
   const session = t6.sessionDate || null;
@@ -88,7 +87,6 @@ async function main() {
 
   const pick2 = new Map((t2.picks || []).map((p) => [p.ticker, p]));
   const item4 = new Map((t4.items || []).map((i) => [i.ticker, i]));
-  const flowByKey = new Map(((t5.flow && t5.flow.industries) || []).map((i) => [i.key, i]));
   const eyeOf = new Map((cc.items || []).map((c) => [c.ticker, { score: c.score, reasons: c.reasons, resistance: c.resistance ?? null }]));
   const market = t1 ? { verdict: t1.qqq && t1.qqq.verdict, ko: t1.qqq && t1.qqq.ko, finraKo: t1.finra && t1.finra.ko, finraLevel: t1.finra && t1.finra.level } : null;
 
@@ -102,8 +100,6 @@ async function main() {
       try { const r = await fetchDetail(p.ticker, date); if (r.gotAny) { detail = slimDetail(r.detail); fetched++; } else detailNote = '실적·뉴스·공시 수집 실패 — 웹검색에 의존'; }
       catch (e) { detailNote = `수집 실패: ${e.message}`; }
     }
-    const f = flowByKey.get(`${p.sector}|${p.industry}`) || null;
-    const flow = f ? { FRANK: f.FRANK, frank25: f.frank25, d50: f.d50, d200: f.d200, d200Delta: f.d200Delta, cy: f.cy, ny: f.ny, upRatio: f.upRatio, coverage: f.coverage, winRate: f.winRate, stageKo: f.stageKo, flow: f.flow } : null;
     const v = views.get(p.ticker) || null;
     let chart = null;
     if (v && v.ok) {
@@ -120,7 +116,7 @@ async function main() {
     }
     const { deep, ...plan } = p;   // 이월된 지난 분석은 에이전트에게 주지 않는다(복사해 쓰면 안 된다)
     fs.writeFileSync(path.join(argsDir, `${p.ticker}.json`), JSON.stringify({
-      ticker: p.ticker, date, session, plan, site: siteOf(p2, p4), flow, eye: eyeOf.get(p.ticker) || null, detail, detailNote, chart, market,
+      ticker: p.ticker, date, session, plan, site: siteOf(p2, p4), eye: eyeOf.get(p.ticker) || null, detail, detailNote, chart, market,
     }, null, 1), 'utf8');
     items.push({ ticker: p.ticker, name: p.name || null, grade: p.grade, sector: p.sector, industry: p.industry, price: p.price, pivot: p.pivot, stop: p.stop,
       distToPivotPct: p.distToPivotPct, earnings: p.earnings || null, hasChart: !!(chart && chart.png3m), hasDetail: !!detail });
