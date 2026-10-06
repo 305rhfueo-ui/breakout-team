@@ -1,316 +1,419 @@
 window.TEAM4_DATA = {
-  "generated": "2026-10-05",
+  "generated": "2026-10-06",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2,
     "aboveMa150": true
   },
-  "universeHits": 39,
-  "analyzed": 18,
+  "universeHits": 34,
+  "analyzed": 14,
   "items": [
     {
-      "ticker": "SYNA",
+      "ticker": "PTC",
       "sector": "Technology",
-      "industry": "Semiconductors",
-      "price": 121.0999984741211,
-      "marketCap": "4.81B",
-      "volx": 9.15,
-      "volSurgeWk": 13.19,
+      "industry": "Software - Application",
+      "price": 192.25999450683594,
+      "marketCap": "15.63B",
+      "volx": 11.19,
+      "volSurgeWk": 23.15,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 8.23,
+      "high52": 92.96,
+      "adr": 3.3,
+      "targetStatus": false,
+      "saleCy": -0.55,
+      "saleNy": 6.38,
+      "epsCy": 2.56,
+      "epsNy": 8.84,
+      "cyTrend": 0.2,
+      "nyTrend": 0.47,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          -6.82,
+          21.68,
+          21.36
+        ],
+        "ni": [
+          -15.95,
+          263.2,
+          102.5
+        ],
+        "opm": [
+          27.75,
+          38.2,
+          32.24
+        ],
+        "updated": "2026-09-08 09:50:53"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "TWLO",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "price": 300.9100036621094,
+      "marketCap": "45.24B",
+      "volx": 8.51,
+      "volSurgeWk": 11.2,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 77.15,
+      "high52": 98.35,
+      "adr": 5.42,
+      "targetStatus": false,
+      "saleCy": 18.41,
+      "saleNy": 11.47,
+      "epsCy": 21.25,
+      "epsNy": 14.53,
+      "cyTrend": 0.29,
+      "nyTrend": 0.25,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          22.03,
+          20,
+          14.32
+        ],
+        "ni": [
+          4659.44,
+          350.31,
+          "적자확대"
+        ],
+        "opm": [
+          5.64,
+          7.65,
+          4.16
+        ],
+        "updated": "2026-09-08 08:38:14"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "FORM",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "price": 147.99000549316406,
+      "marketCap": "11.63B",
+      "volx": 8.02,
+      "volSurgeWk": 8.56,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 57.49,
-      "high52": 81.22,
-      "adr": 4.37,
+      "high52": 92.34,
+      "adr": 4.91,
       "targetStatus": false,
-      "saleCy": 7.38,
-      "saleNy": 14.14,
-      "epsCy": 13.04,
-      "epsNy": 27.04,
+      "saleCy": 30.88,
+      "saleNy": 17.12,
+      "epsCy": 135.09,
+      "epsNy": 24.06,
+      "cyTrend": -0.03,
+      "nyTrend": 2.28,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          31.89,
+          31.97,
+          13.55
+        ],
+        "ni": [
+          518.61,
+          218.45,
+          139.24
+        ],
+        "opm": [
+          22.38,
+          7.36,
+          10.92
+        ],
+        "updated": "2026-09-08 06:36:20"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "PCVX",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "price": 73.81999969482422,
+      "marketCap": "10.98B",
+      "volx": 7.91,
+      "volSurgeWk": 8.85,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 11.59,
+      "high52": 81.34,
+      "adr": 4.78,
+      "targetStatus": false,
+      "saleCy": 0,
+      "saleNy": 0,
+      "epsCy": 45.6,
+      "epsNy": -11.96,
       "cyTrend": 0,
       "nyTrend": 0,
       "newHigh52": false,
-      "bbCenterBrk5d": false,
+      "bbCenterBrk5d": true,
       "fs": {
         "sale": [
-          8.91,
-          10.35,
-          13.21
+          null,
+          null,
+          null
         ],
         "ni": [
           "적자확대",
-          "적자축소",
-          -922.22
+          "적자확대",
+          "적자확대"
         ],
-        "opm": [
-          -5.23,
-          -4.32,
-          -4.99
-        ],
-        "updated": "2026-09-21 06:50:38"
+        "opm": null,
+        "updated": "2026-09-21 06:28:35"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "SYNA",
-        "category": 3,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "10월 1일 Synaptics가 onsemi와 주당 123달러 현금 인수 합의서를 수정해 다시 체결했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Synaptics 8-K (Item 1.01, 7.01)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/817720/000114036126038301/ef20083029_8k.htm",
-                "date": "2026-10-01",
-                "quote": "Amended and Restated Agreement and Plan of Merger, executed October 1, 2026 ... $123 per share in cash for each outstanding Synaptics common stock share",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "9월 2일 다른 전략적 인수자가 먼저 제안을 냈고, 이사회는 협상 끝에 그 제안이 더 낫지 않다고 판단해 onsemi 안을 만장일치로 승인했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Synaptics 8-K (Item 1.01, 7.01)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/817720/000114036126038301/ef20083029_8k.htm",
-                "date": "2026-10-01",
-                "quote": "unsolicited proposal from a strategic buyer on September 2, 2026 ... board unanimously approved the amended merger agreement",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "company": "Synaptics는 노트북·휴대기기용 터치패드와 디스플레이 구동칩, 사물인터넷용 반도체를 파는 반도체 회사다. 최근 분기 매출은 늘고 있지만 영업적자 상태다.",
-        "volumeExplanation": "10월 1일 onsemi가 Synaptics를 주당 123달러 현금으로 인수하는 계약을 확정해, 인수 가격에 맞춰 거래가 몰렸다. 인수 확정이 나오면 주가가 인수가 근처에 고정되는 경향이 있어 차익 노리는 매매도 늘어난다. 주주 승인 등이 끝나 거래가 마무리되는지 확인해야 한다.",
-        "confidence": "high",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "SEC 8-K quotes support both claims: Oct 1 amended merger agreement at $123/share (c1) and Sept 2 unsolicited proposal with unanimous board approval (c2). Category 3 (M&A) appropriate. volumeExplanation accurately summarizes."
-        },
-        "categoryName": "대형 파트너십·공급계약",
-        "isHighlight": false,
-        "researchedOn": "2026-10-03",
-        "carried": true
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "MOG.B",
-      "sector": "Industrials",
-      "industry": "Aerospace & Defense",
-      "price": 394.4599914550781,
-      "marketCap": "12.49B",
-      "volx": 4.69,
-      "volSurgeWk": 3.33,
+      "ticker": "SWKS",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "price": 83.91000366210938,
+      "marketCap": "12.63B",
+      "volx": 3.31,
+      "volSurgeWk": 5.55,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 75.43,
+      "high52": 90.42,
+      "adr": 6.21,
+      "targetStatus": false,
+      "saleCy": -3.41,
+      "saleNy": 2.29,
+      "epsCy": -14.99,
+      "epsNy": -1.55,
+      "cyTrend": 0.01,
+      "nyTrend": -0.21,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          -3.13,
+          -1,
+          -3.1
+        ],
+        "ni": [
+          -67.71,
+          -48.18,
+          -51.11
+        ],
+        "opm": [
+          5.19,
+          4.46,
+          10.03
+        ],
+        "updated": "2026-09-08 09:06:18"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "MDT",
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "price": 87.97000122070312,
+      "marketCap": "110.49B",
+      "volx": 2.77,
+      "volSurgeWk": 1.64,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 94.21,
+      "high52": 85.48,
+      "adr": 2.14,
+      "targetStatus": false,
+      "saleCy": 7.53,
+      "saleNy": 3.42,
+      "epsCy": 8.03,
+      "epsNy": 7.26,
+      "cyTrend": 0.06,
+      "nyTrend": 0.17,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          13.73,
+          9.87,
+          8.74
+        ],
+        "ni": [
+          41.35,
+          17.8,
+          -11.67
+        ],
+        "opm": [
+          18.08,
+          19.1,
+          16.22
+        ],
+        "updated": "2026-09-08 09:59:26"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "BNS",
+      "sector": "Financial Services",
+      "industry": "Banks - Diversified",
+      "price": 90.27999877929688,
+      "marketCap": "111.15B",
+      "volx": 2.7,
+      "volSurgeWk": 2.48,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 4.21,
+      "high52": 94.3,
+      "adr": 1.51,
+      "targetStatus": false,
+      "saleCy": 7.64,
+      "saleNy": 5.07,
+      "epsCy": 20.31,
+      "epsNy": 11.27,
+      "cyTrend": 0,
+      "nyTrend": 0.17,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          1.59,
+          -0.33,
+          -6.98
+        ],
+        "ni": [
+          18.21,
+          38.88,
+          115.62
+        ],
+        "opm": [
+          20.86,
+          19.71,
+          18.23
+        ],
+        "updated": "2026-09-07 07:03:55"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "MTRN",
+      "sector": "Basic Materials",
+      "industry": "Other Industrial Metals & Mining",
+      "price": 319.17999267578125,
+      "marketCap": "6.49B",
+      "volx": 2.63,
+      "volSurgeWk": 2.15,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 75.71,
+      "high52": 98.21,
+      "adr": 4.16,
+      "targetStatus": false,
+      "saleCy": 33.41,
+      "saleNy": 9.16,
+      "epsCy": 29.04,
+      "epsNy": 20.13,
+      "cyTrend": 0.37,
+      "nyTrend": 0.52,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          42.22,
+          30.81,
+          12.1
+        ],
+        "ni": [
+          54.17,
+          9.46,
+          "흑자전환"
+        ],
+        "opm": [
+          8.42,
+          5.12,
+          2.21
+        ],
+        "updated": "2026-09-07 06:39:03"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "SENEB",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "price": 180.22999572753906,
+      "marketCap": "1.18B",
+      "volx": 2.34,
+      "volSurgeWk": 2.14,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 0,
-      "high52": 87.66,
+      "high52": 86.43,
       "adr": 0.09,
       "targetStatus": false,
-      "saleCy": 13.7,
-      "saleNy": 7.33,
+      "saleCy": 14.06,
+      "saleNy": 2.32,
       "epsCy": null,
       "epsNy": null,
       "cyTrend": null,
       "nyTrend": null,
       "newHigh52": false,
       "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          15.16,
-          12.63,
-          21.2
-        ],
-        "ni": [
-          159.93,
-          49.86,
-          37.07
-        ],
-        "opm": [
-          14.41,
-          11.7,
-          10.83
-        ],
-        "updated": "2026-09-07 06:17:15"
-      },
+      "fs": null,
       "catalyst": {
-        "status": "done",
-        "ticker": "MOG.B",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "항공기·방산용 정밀 제어장치(모션 컨트롤)를 만들어 파는 회사다. 항공우주·방산이 주 매출이다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-02",
-        "carried": true
-      }
-    },
-    {
-      "ticker": "QRVO",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "price": 114.16999816894531,
-      "marketCap": "10.07B",
-      "volx": 3.79,
-      "volSurgeWk": 3.11,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 67.05,
-      "high52": 94.29,
-      "adr": 4.35,
-      "targetStatus": false,
-      "saleCy": -4.79,
-      "saleNy": 3.4,
-      "epsCy": 8.14,
-      "epsNy": 4.44,
-      "cyTrend": 0.15,
-      "nyTrend": -0.72,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          -4.15,
-          -7.04,
-          8.36
-        ],
-        "ni": [
-          235.24,
-          -5.21,
-          297.52
-        ],
-        "opm": [
-          12.33,
-          3.9,
-          19.35
-        ],
-        "updated": "2026-09-07 06:34:24"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "QRVO",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Qorvo는 스마트폰·와이파이·방산 장비에 들어가는 무선 신호 처리용 반도체를 만들어 판매한다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "Correctly classified as category 6 with no_source evidence level. Statement matches classification."
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-03",
-        "carried": true
-      }
-    },
-    {
-      "ticker": "FRHC",
-      "sector": "Financial Services",
-      "industry": "Financial Conglomerates",
-      "price": 173,
-      "marketCap": "11.04B",
-      "volx": 3.61,
-      "volSurgeWk": 3.54,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 84.6,
-      "high52": 97.19,
-      "adr": 3.16,
-      "targetStatus": false,
-      "saleCy": null,
-      "saleNy": null,
-      "epsCy": null,
-      "epsNy": null,
-      "cyTrend": null,
-      "nyTrend": null,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          39.8,
-          71.75,
-          -5.41
-        ],
-        "ni": [
-          -15.25,
-          "흑자전환",
-          -2.61
-        ],
-        "opm": [
-          5.57,
-          4.69,
-          14.94
-        ],
-        "updated": "2026-09-08 06:12:40"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "FRHC",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "FRHC(Freedom Holding)는 카자흐스탄 등에서 증권 중개, 은행, 보험 사업을 하는 금융 지주회사입니다. 주로 수수료와 이자, 보험료 수입으로 돈을 법니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-03",
-        "carried": true
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
       "ticker": "IMOS",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "price": 83.30000305175781,
-      "marketCap": "2.90B",
-      "volx": 3.4,
-      "volSurgeWk": 2.76,
+      "price": 77.41000366210938,
+      "marketCap": "2.69B",
+      "volx": 2.17,
+      "volSurgeWk": 1.47,
       "aboveMa150": true,
-      "brk60d": true,
-      "clsPos": 89.07,
-      "high52": 99.36,
-      "adr": 2.95,
+      "brk60d": false,
+      "clsPos": 14.39,
+      "high52": 92.33,
+      "adr": 2.97,
       "targetStatus": false,
       "saleCy": 26.59,
       "saleNy": 16.41,
@@ -365,538 +468,44 @@ window.TEAM4_DATA = {
       }
     },
     {
-      "ticker": "BMO",
-      "sector": "Financial Services",
-      "industry": "Banks - Diversified",
-      "price": 165.6999969482422,
-      "marketCap": "115.18B",
-      "volx": 3.37,
-      "volSurgeWk": 4.62,
+      "ticker": "MELI",
+      "sector": "Consumer Cyclical",
+      "industry": "Internet Retail",
+      "price": 1860.6099853515625,
+      "marketCap": "86.01B",
+      "volx": 1.86,
+      "volSurgeWk": 2.23,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 34.88,
-      "high52": 88.51,
-      "adr": 1.57,
+      "clsPos": 89.15,
+      "high52": 76.63,
+      "adr": 3.07,
       "targetStatus": false,
-      "saleCy": 8.26,
-      "saleNy": 4.76,
-      "epsCy": 21.22,
-      "epsNy": 11.69,
-      "cyTrend": 0.01,
-      "nyTrend": 0.05,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          2.93,
-          4.01,
-          -3.19
-        ],
-        "ni": [
-          -27.44,
-          41.72,
-          19.65
-        ],
-        "opm": [
-          12.41,
-          18.11,
-          17.19
-        ],
-        "updated": "2026-09-21 06:49:11"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "BMO",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "캐나다 4대 은행 중 하나인 몬트리올은행으로, 예금·대출 이자 수익과 자본시장·자산관리 수수료로 돈을 번다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-03",
-        "carried": true
-      }
-    },
-    {
-      "ticker": "VSH",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "price": 38.18000030517578,
-      "marketCap": "5.86B",
-      "volx": 3.19,
-      "volSurgeWk": 2.79,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 77.91,
-      "high52": 55.13,
-      "adr": 4.65,
-      "targetStatus": false,
-      "saleCy": 20.77,
-      "saleNy": 16.07,
-      "epsCy": -1782.06,
-      "epsNy": 107.1,
-      "cyTrend": -0.52,
-      "nyTrend": 1.12,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          16.57,
-          17.34,
-          12.06
-        ],
-        "ni": [
-          1303.39,
-          "흑자전환",
-          "흑자전환"
-        ],
-        "opm": [
-          6.02,
-          2.64,
-          1.85
-        ],
-        "updated": "2026-09-15 06:11:54"
-      },
-      "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
-      }
-    },
-    {
-      "ticker": "TD",
-      "sector": "Financial Services",
-      "industry": "Banks - Diversified",
-      "price": 117.87999725341797,
-      "marketCap": "192.50B",
-      "volx": 3.13,
-      "volSurgeWk": 4.15,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 53.68,
-      "high52": 93.95,
-      "adr": 1.52,
-      "targetStatus": false,
-      "saleCy": 8.49,
-      "saleNy": 5.67,
-      "epsCy": 20.89,
-      "epsNy": 10.65,
-      "cyTrend": 0.04,
-      "nyTrend": 0.19,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          -1.47,
-          -23.37,
-          0.56
-        ],
-        "ni": [
-          36.99,
-          -61.61,
-          49.33
-        ],
-        "opm": [
-          20.45,
-          18.65,
-          18.85
-        ],
-        "updated": "2026-09-09 06:14:52"
-      },
-      "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
-      }
-    },
-    {
-      "ticker": "STX",
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "price": 848.989990234375,
-      "marketCap": "193.05B",
-      "volx": 3.1,
-      "volSurgeWk": 4.72,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 94.55,
-      "high52": 74.26,
-      "adr": 5.48,
-      "targetStatus": false,
-      "saleCy": 54.04,
-      "saleNy": 33.65,
-      "epsCy": 129.66,
-      "epsNy": 54.75,
-      "cyTrend": 0,
-      "nyTrend": 0,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          48.49,
-          44.07,
-          21.51
-        ],
-        "ni": [
-          165.16,
-          120,
-          76.49
-        ],
-        "opm": [
-          42.96,
-          32.07,
-          29.84
-        ],
-        "updated": "2026-09-07 06:59:41"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "STX",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "STX(씨게이트)는 하드디스크 드라이브 등 데이터 저장장치를 만들어 클라우드·AI 데이터센터 업체에 파는 회사입니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-03",
-        "carried": true
-      }
-    },
-    {
-      "ticker": "PENG",
-      "sector": "Technology",
-      "industry": "Information Technology Services",
-      "price": 61.36000061035156,
-      "marketCap": "3.14B",
-      "volx": 2.74,
-      "volSurgeWk": 2.62,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 82.48,
-      "high52": 68.28,
-      "adr": 4.89,
-      "targetStatus": false,
-      "saleCy": 23.15,
-      "saleNy": 31.25,
-      "epsCy": 37.92,
-      "epsNy": 28.82,
-      "cyTrend": 0.22,
-      "nyTrend": 0.94,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          47.64,
-          -6.16,
-          0.58
-        ],
-        "ni": [
-          "흑자전환",
-          516.5,
-          -61.55
-        ],
-        "opm": [
-          10.62,
-          7.49,
-          5.71
-        ],
-        "updated": "2026-09-16 06:22:13"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "PENG",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Penguin Solutions는 AI 데이터센터용 서버와 메모리 제품을 만들어 파는 회사입니다. 기존 Penguin Edge 사업은 정리 중입니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "Correctly classified as category 6 with no_source evidence level. Statement matches classification."
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-03",
-        "carried": true
-      }
-    },
-    {
-      "ticker": "VECO",
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "price": 57.380001068115234,
-      "marketCap": "3.25B",
-      "volx": 2.52,
-      "volSurgeWk": 1.59,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 41.87,
-      "high52": 66.24,
-      "adr": 4.8,
-      "targetStatus": false,
-      "saleCy": 16.94,
-      "saleNy": 31.92,
-      "epsCy": 13.81,
-      "epsNy": 91.96,
-      "cyTrend": 0,
-      "nyTrend": 0,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          16.48,
-          -5.35,
-          -9.4
-        ],
-        "ni": [
-          -0.01,
-          -102.66,
-          -94.52
-        ],
-        "opm": [
-          6.13,
-          -1.68,
-          -0.83
-        ],
-        "updated": "2026-09-15 07:05:19"
-      },
-      "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
-      }
-    },
-    {
-      "ticker": "MDT",
-      "sector": "Healthcare",
-      "industry": "Medical Devices",
-      "price": 86.37999725341797,
-      "marketCap": "110.57B",
-      "volx": 2.47,
-      "volSurgeWk": 1.59,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 33.62,
-      "high52": 83.93,
-      "adr": 2.12,
-      "targetStatus": false,
-      "saleCy": 7.53,
-      "saleNy": 3.42,
-      "epsCy": 8.03,
-      "epsNy": 7.26,
-      "cyTrend": 0.43,
-      "nyTrend": 0.1,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          13.73,
-          9.87,
-          8.74
-        ],
-        "ni": [
-          41.35,
-          17.8,
-          -11.67
-        ],
-        "opm": [
-          18.08,
-          19.1,
-          16.22
-        ],
-        "updated": "2026-09-08 09:59:26"
-      },
-      "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
-      }
-    },
-    {
-      "ticker": "NTAP",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "price": 226.27000427246094,
-      "marketCap": "44.44B",
-      "volx": 2.28,
-      "volSurgeWk": 2,
-      "aboveMa150": true,
-      "brk60d": true,
-      "clsPos": 64.03,
-      "high52": 97.57,
-      "adr": 3.95,
-      "targetStatus": true,
-      "saleCy": 18.1,
-      "saleNy": 5.8,
-      "epsCy": 23.07,
-      "epsNy": 11.15,
-      "cyTrend": 10.8,
-      "nyTrend": 10.27,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          29.89,
-          12.47,
-          4.39
-        ],
-        "ni": [
-          60.94,
-          18.82,
-          11.71
-        ],
-        "opm": [
-          23.9,
-          27.31,
-          25.34
-        ],
-        "updated": "2026-09-08 09:56:03"
-      },
-      "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
-      }
-    },
-    {
-      "ticker": "ARW",
-      "sector": "Technology",
-      "industry": "Electronics & Computer Distribution",
-      "price": 242.00999450683594,
-      "marketCap": "12.32B",
-      "volx": 2.11,
-      "volSurgeWk": 2.56,
-      "aboveMa150": true,
-      "brk60d": true,
-      "clsPos": 58.74,
-      "high52": 97.88,
-      "adr": 3.21,
-      "targetStatus": true,
-      "saleCy": 29.79,
-      "saleNy": 7.79,
-      "epsCy": 96.32,
-      "epsNy": 10.58,
-      "cyTrend": 9.23,
-      "nyTrend": 12.19,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          31.82,
-          39.03,
-          20.1
-        ],
-        "ni": [
-          45.25,
-          194.91,
-          96.16
-        ],
-        "opm": [
-          3.78,
-          3.82,
-          3.36
-        ],
-        "updated": "2026-09-08 10:14:34"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "ARW",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Arrow Electronics는 전자부품과 컴퓨터 장비를 제조사에서 받아 고객사에 되파는 유통 회사다. 부품 공급과 기업용 IT 솔루션 판매로 매출을 낸다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-03",
-        "carried": true
-      }
-    },
-    {
-      "ticker": "VIRT",
-      "sector": "Financial Services",
-      "industry": "Capital Markets",
-      "price": 58.790000915527344,
-      "marketCap": "5.19B",
-      "volx": 2.06,
-      "volSurgeWk": 1.44,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 72.3,
-      "high52": 85.81,
-      "adr": 3.74,
-      "targetStatus": false,
-      "saleCy": 30.69,
-      "saleNy": -2.37,
-      "epsCy": 27.48,
-      "epsNy": -4.23,
-      "cyTrend": -1.85,
-      "nyTrend": 0.91,
+      "saleCy": 44.48,
+      "saleNy": 28.09,
+      "epsCy": -3.13,
+      "epsNy": 46.58,
+      "cyTrend": -0.31,
+      "nyTrend": -0.23,
       "newHigh52": false,
       "bbCenterBrk5d": true,
       "fs": {
         "sale": [
-          19.05,
-          30.73,
-          16.25
+          49.76,
+          49.03,
+          44.56
         ],
         "ni": [
-          1.46,
-          84.02,
-          47.93
+          -10.9,
+          -15.59,
+          -12.52
         ],
         "opm": [
-          28.79,
-          37.39,
-          35.43
+          6.72,
+          6.91,
+          10.15
         ],
-        "updated": "2026-09-15 06:04:01"
+        "updated": "2026-09-08 09:33:59"
       },
       "catalyst": {
         "status": "pending",
@@ -905,44 +514,90 @@ window.TEAM4_DATA = {
       }
     },
     {
-      "ticker": "STM",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "price": 57.2599983215332,
-      "marketCap": "47.73B",
-      "volx": 2.02,
-      "volSurgeWk": 1.87,
+      "ticker": "HNGE",
+      "sector": "Healthcare",
+      "industry": "Health Information Services",
+      "price": 98.3499984741211,
+      "marketCap": "7.94B",
+      "volx": 1.75,
+      "volSurgeWk": 2.26,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 92.17,
-      "high52": 70.53,
-      "adr": 2.34,
+      "clsPos": 40.42,
+      "high52": 98.54,
+      "adr": 4.21,
       "targetStatus": false,
-      "saleCy": 22.29,
-      "saleNy": 19.34,
-      "epsCy": 152.74,
-      "epsNy": 89.2,
-      "cyTrend": -1.01,
-      "nyTrend": 0.04,
+      "saleCy": 46.36,
+      "saleNy": 26.35,
+      "epsCy": -8.43,
+      "epsNy": 27.44,
+      "cyTrend": -1.33,
+      "nyTrend": -2.31,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          53,
+          47.23,
+          null
+        ],
+        "ni": [
+          "흑자전환",
+          -71.96,
+          null
+        ],
+        "opm": [
+          19,
+          17.59,
+          15.96
+        ],
+        "updated": "2026-09-16 06:40:20"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "FEIM",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "price": 85.45999908447266,
+      "marketCap": "0.96B",
+      "volx": 1.49,
+      "volSurgeWk": 2,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 59.27,
+      "high52": 95.21,
+      "adr": 5.82,
+      "targetStatus": false,
+      "saleCy": 30.8,
+      "saleNy": 26.18,
+      "epsCy": 1291.4,
+      "epsNy": 56.1,
+      "cyTrend": 32.26,
+      "nyTrend": 0,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          26.07,
-          22.96,
-          0.27
+          -22.96,
+          -10.76,
+          8.26
         ],
         "ni": [
-          "흑자전환",
-          -33.93,
-          -108.82
+          -253.43,
+          -89.83,
+          -32.14
         ],
         "opm": [
-          5.36,
-          2.26,
-          3.75
+          -41.23,
+          7.52,
+          10.01
         ],
-        "updated": "2026-09-15 06:40:56"
+        "updated": "2026-09-08 10:16:35"
       },
       "catalyst": {
         "status": "pending",
@@ -951,154 +606,87 @@ window.TEAM4_DATA = {
       }
     },
     {
-      "ticker": "MXL",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "price": 105.93000030517578,
-      "marketCap": "8.35B",
-      "volx": 2.01,
-      "volSurgeWk": 1.59,
-      "aboveMa150": true,
-      "brk60d": true,
-      "clsPos": 95.25,
-      "high52": 82.56,
-      "adr": 7.85,
-      "targetStatus": false,
-      "saleCy": 57.82,
-      "saleNy": 29.88,
-      "epsCy": 464.52,
-      "epsNy": 49.32,
-      "cyTrend": 0,
-      "nyTrend": 1.16,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          55.17,
-          43,
-          48.03
-        ],
-        "ni": [
-          "흑자전환",
-          "적자축소",
-          "적자축소"
-        ],
-        "opm": [
-          -2.48,
-          -12.54,
-          -10.92
-        ],
-        "updated": "2026-09-15 05:58:24"
-      },
-      "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
-      }
-    },
-    {
-      "ticker": "RAL",
-      "sector": "Technology",
-      "industry": "Electronic Components",
-      "price": 73.19999694824219,
-      "marketCap": "8.10B",
-      "volx": 1.31,
-      "volSurgeWk": 2.03,
+      "ticker": "ASO",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "price": 51.97999954223633,
+      "marketCap": "3.20B",
+      "volx": 1.28,
+      "volSurgeWk": 2.25,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 56.72,
-      "high52": 97.15,
-      "adr": 3.12,
+      "clsPos": 88.98,
+      "high52": 83.98,
+      "adr": 4.28,
       "targetStatus": false,
-      "saleCy": 10.93,
-      "saleNy": 6.65,
-      "epsCy": 7.17,
-      "epsNy": 16.29,
-      "cyTrend": 0.87,
+      "saleCy": 4.37,
+      "saleNy": 4.69,
+      "epsCy": 15.52,
+      "epsNy": 5.96,
+      "cyTrend": 3.94,
       "nyTrend": 1.32,
       "newHigh52": false,
-      "bbCenterBrk5d": false,
+      "bbCenterBrk5d": true,
       "fs": {
         "sale": [
-          12.82,
-          10.96,
-          null
+          6.7,
+          2.48,
+          3
         ],
         "ni": [
-          20.17,
-          -30.83,
-          null
+          14.36,
+          0.04,
+          8.82
         ],
         "opm": [
-          14.48,
-          12.74,
-          -246.61
+          5.18,
+          9.9,
+          7.26
         ],
-        "updated": "2026-09-08 07:28:00"
+        "updated": "2026-09-08 05:48:28"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "RAL",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Ralliant는 전자 계측·센서·전력 시험 장비를 만들어 파는 기술 부품 회사다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "Correctly classified as category 6 with no_source evidence level. Statement matches classification."
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-03",
-        "carried": true
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     }
   ],
   "excludedEtf": [
-    "VXZ"
+    "MLPR"
   ],
   "excludedNoMarketCap": [
-    "HPE-C",
-    "SLMBP",
-    "BA-A",
-    "HL-B",
-    "CTA-B",
-    "ALB-A",
-    "NOVTU",
-    "VSECU",
-    "CTA-A"
+    "WFC-L"
   ],
   "excludedBelowMa150": [
-    "WDC",
-    "NOC",
+    "CBRS",
+    "WLFC",
+    "CHRW",
+    "ALGN",
     "VST",
-    "ON",
-    "UCTT",
+    "SPHR",
+    "TFII",
+    "GVA",
+    "RPM",
+    "INSM",
     "FUTU",
+    "ORLY",
+    "OTTR",
+    "VTR",
     "CTVA",
-    "TMDX",
-    "ALGM",
-    "TAYD",
-    "UTL"
+    "DIT",
+    "GGAL",
+    "LTM"
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 10,
-    "total": 18,
+    "done": 1,
+    "total": 14,
     "cap": null,
-    "pending": 8,
+    "pending": 13,
     "failed": 0,
-    "carried": 10,
+    "carried": 1,
     "ineligible": 0,
-    "note": "18종목 중 10종목을 조사했습니다. 그중 10종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 8종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "14종목 중 1종목을 조사했습니다. 그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 13종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   }
 };

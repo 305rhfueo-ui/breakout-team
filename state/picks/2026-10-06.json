@@ -1,0 +1,313 @@
+{
+  "date": "2026-10-06",
+  "count": 39,
+  "tickers": [
+    "MXL",
+    "MRNA",
+    "GRAL",
+    "TWST",
+    "AGL",
+    "TEAM",
+    "VICR",
+    "P",
+    "BAND",
+    "OKTA",
+    "COHU",
+    "ECO",
+    "MSTR",
+    "DELL",
+    "FORM",
+    "CORT",
+    "FEIM",
+    "CRWD",
+    "AXTI",
+    "HPE-C",
+    "ILMN",
+    "RBRK",
+    "SEI",
+    "HNGE",
+    "PANW",
+    "MPC",
+    "DDOG",
+    "VLO",
+    "XMTR",
+    "MTRN",
+    "TWLO",
+    "SMTC",
+    "QLYS",
+    "PENG",
+    "DINO",
+    "RMBS",
+    "NET",
+    "ATEX",
+    "ZS"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": true
+  },
+  "themes": [
+    {
+      "key": "Industry:Software - Infrastructure",
+      "level": "Industry",
+      "name": "Software - Infrastructure",
+      "count": 9,
+      "sharePct": 23.1,
+      "tickers": [
+        "BAND",
+        "OKTA",
+        "CRWD",
+        "RBRK",
+        "PANW",
+        "TWLO",
+        "QLYS",
+        "NET",
+        "ZS"
+      ],
+      "concentration": "high",
+      "periods": {
+        "m1": 6,
+        "m3": 4,
+        "m6": 7
+      }
+    },
+    {
+      "key": "Industry:Semiconductors",
+      "level": "Industry",
+      "name": "Semiconductors",
+      "count": 3,
+      "sharePct": 7.7,
+      "tickers": [
+        "MXL",
+        "SMTC",
+        "RMBS"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 3,
+        "m3": 0,
+        "m6": 1
+      }
+    },
+    {
+      "key": "Industry:Diagnostics & Research",
+      "level": "Industry",
+      "name": "Diagnostics & Research",
+      "count": 3,
+      "sharePct": 7.7,
+      "tickers": [
+        "GRAL",
+        "TWST",
+        "ILMN"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 3,
+        "m3": 3,
+        "m6": 3
+      }
+    },
+    {
+      "key": "Industry:Software - Application",
+      "level": "Industry",
+      "name": "Software - Application",
+      "count": 3,
+      "sharePct": 7.7,
+      "tickers": [
+        "TEAM",
+        "MSTR",
+        "DDOG"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 2,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Semiconductor Equipment & Materials",
+      "level": "Industry",
+      "name": "Semiconductor Equipment & Materials",
+      "count": 3,
+      "sharePct": 7.7,
+      "tickers": [
+        "COHU",
+        "FORM",
+        "AXTI"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 3,
+        "m3": 1,
+        "m6": 0
+      }
+    },
+    {
+      "key": "Industry:Oil & Gas Refining & Marketing",
+      "level": "Industry",
+      "name": "Oil & Gas Refining & Marketing",
+      "count": 3,
+      "sharePct": 7.7,
+      "tickers": [
+        "MPC",
+        "VLO",
+        "DINO"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 3,
+        "m6": 0
+      }
+    },
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 2,
+      "sharePct": 5.1,
+      "tickers": [
+        "MRNA",
+        "CORT"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 1,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Computer Hardware",
+      "level": "Industry",
+      "name": "Computer Hardware",
+      "count": 2,
+      "sharePct": 5.1,
+      "tickers": [
+        "P",
+        "DELL"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 1,
+        "m6": 2
+      }
+    }
+  ],
+  "byPeriod": {
+    "m1": [
+      "MXL",
+      "MRNA",
+      "GRAL",
+      "TWST",
+      "VICR",
+      "P",
+      "BAND",
+      "OKTA",
+      "COHU",
+      "FORM",
+      "FEIM",
+      "CRWD",
+      "AXTI",
+      "HPE-C",
+      "ILMN",
+      "RBRK",
+      "SEI",
+      "DDOG",
+      "MTRN",
+      "TWLO",
+      "SMTC",
+      "RMBS",
+      "NET"
+    ],
+    "m3": [
+      "MRNA",
+      "GRAL",
+      "TWST",
+      "TEAM",
+      "P",
+      "OKTA",
+      "ECO",
+      "MSTR",
+      "FEIM",
+      "CRWD",
+      "AXTI",
+      "ILMN",
+      "RBRK",
+      "MPC",
+      "VLO",
+      "DINO",
+      "ZS"
+    ],
+    "m6": [
+      "MXL",
+      "MRNA",
+      "GRAL",
+      "TWST",
+      "AGL",
+      "TEAM",
+      "P",
+      "BAND",
+      "OKTA",
+      "DELL",
+      "CORT",
+      "CRWD",
+      "HPE-C",
+      "ILMN",
+      "RBRK",
+      "HNGE",
+      "PANW",
+      "DDOG",
+      "XMTR",
+      "TWLO",
+      "QLYS",
+      "PENG",
+      "ATEX"
+    ]
+  },
+  "cross": {
+    "persistent": [
+      "MRNA",
+      "GRAL",
+      "TWST",
+      "P",
+      "OKTA",
+      "CRWD",
+      "ILMN",
+      "RBRK"
+    ],
+    "newEntrants": [
+      "VICR",
+      "COHU",
+      "FORM",
+      "SEI",
+      "MTRN",
+      "SMTC",
+      "RMBS",
+      "NET"
+    ],
+    "midTerm": [
+      "TEAM",
+      "ECO",
+      "MSTR",
+      "MPC",
+      "VLO",
+      "DINO",
+      "ZS"
+    ],
+    "fading": [
+      "AGL",
+      "DELL",
+      "CORT",
+      "HNGE",
+      "PANW",
+      "XMTR",
+      "QLYS",
+      "PENG",
+      "ATEX"
+    ]
+  }
+}
