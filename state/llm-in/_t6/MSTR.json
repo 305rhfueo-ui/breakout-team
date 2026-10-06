@@ -1,0 +1,460 @@
+{
+ "ticker": "MSTR",
+ "date": "2026-10-06",
+ "session": "2026-10-05",
+ "plan": {
+  "ticker": "MSTR",
+  "name": "스트래티지",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "grade": "A",
+  "state": "pre",
+  "asOf": "2026-10-05",
+  "price": 164.43,
+  "pivot": 171.19,
+  "pivotDate": "2026-09-22",
+  "stop": 162.07,
+  "riskPerSharePct": 5.33,
+  "weightPct": 9.4,
+  "weightCapped": false,
+  "distToPivotPct": -3.95,
+  "distToPivotAdr": -0.71,
+  "extensionAdr": 0.49,
+  "chase": false,
+  "adrPct": 5.55,
+  "ma10": 159.96,
+  "dollarVol20M": 3356.4,
+  "liquid": true,
+  "reasons": [
+   "선행 상승 +109%",
+   "베이스 2.2주",
+   "깊이 20.5%",
+   "저점 상승 1회",
+   "진폭 1.04배 · 10일 종가폭 1.6 ADR",
+   "10일선 +0.5 ADR · 20일선 +1.7 ADR",
+   "20일선 기울기 +4.35%"
+  ],
+  "fails": [],
+  "metrics": {
+   "baseBars": 11,
+   "baseWeeks": 2.2,
+   "depthPct": 20.5,
+   "priorMovePct": 109.3,
+   "higherLows": 1,
+   "contraction": 1.04,
+   "closeRange10Adr": 1.6,
+   "surf10": 0.49,
+   "surf20": 1.71,
+   "slope20": 4.35,
+   "baseLow": 136.18,
+   "lastSwingLow": 152.02
+  },
+  "catalyst": null,
+  "flow": {
+   "flow": "neutral",
+   "stageKo": "💤 미형성",
+   "frank25": 6
+  },
+  "earnings": null,
+  "blocked": null,
+  "shadowBook": null,
+  "watch": true,
+  "score": 66.1
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.15147051233733977,
+    "pct": 93.51983002832861
+   },
+   "m3": {
+    "v": 0.7374259693176448,
+    "pct": 99.46883852691218
+   },
+   "m6": {
+    "v": 0.1966377140933197,
+    "pct": 76.52266288951841
+   }
+  },
+  "ret1m": 15.15,
+  "ret3m": 73.74,
+  "ret6m": 19.66,
+  "marketCap": "63.80B",
+  "volx": 0.89,
+  "volSurgeWk": 0.93,
+  "high52": 45.02,
+  "newHigh52": false,
+  "adr": 5.55,
+  "div50": 31.48,
+  "div200": 20.93,
+  "targetStatus": false,
+  "saleCy": 5.13,
+  "saleNy": 2.22,
+  "epsCy": 52.99,
+  "epsNy": -157.54,
+  "cyTrend": -6.45,
+  "nyTrend": -2.87,
+  "est": {
+   "cyCur": -23.29995,
+   "cy30": -24.90762,
+   "nyCur": 13.40772,
+   "ny30": 13.80412
+  },
+  "fs": {
+   "sale": [
+    6.88,
+    11.92,
+    1.9
+   ],
+   "ni": [
+    -186.45,
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -6808.11,
+    -11641.53,
+    -14184.96
+   ],
+   "updated": "2026-09-21 06:41:17"
+  },
+  "qualifiedBy": [
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-09-18",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 12,
+   "m6": 0
+  }
+ },
+ "flow": {
+  "FRANK": 6,
+  "frank25": 6,
+  "d50": 2.61,
+  "d200": 9.870000000000001,
+  "d200Delta": -2.6799999999999997,
+  "cy": 0.025,
+  "ny": 0.175,
+  "upRatio": 68.80324543610547,
+  "coverage": 2465,
+  "winRate": 0.8431,
+  "stageKo": "💤 미형성",
+  "flow": "neutral"
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-06",
+  "nameKo": "스트래티지",
+  "nameEn": "STRATEGY INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001050446&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 122368000,
+     "profit": -8330950000,
+     "netIncome": -8219628000,
+     "margin": -6808.1,
+     "yoy": {
+      "revenue": 6.9,
+      "profit": -159.4,
+      "netIncome": -182,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 124300000,
+     "profit": -14470419000,
+     "netIncome": -12542670000,
+     "margin": -11641.5,
+     "yoy": {
+      "revenue": 11.9,
+      "profit": -144.4,
+      "netIncome": -197.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 122988000,
+     "profit": -17445805000,
+     "netIncome": -12436653000,
+     "margin": -14185,
+     "yoy": {
+      "revenue": 1.9,
+      "profit": -1616.4,
+      "netIncome": -1754,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 128691000,
+     "profit": 3890842000,
+     "netIncome": 2785024000,
+     "margin": 3023.4,
+     "yoy": {
+      "revenue": 10.9,
+      "profit": 999.4,
+      "netIncome": 918.7,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Strategy (MSTR) Exceeds Market Returns: Some Facts to Consider",
+     "url": "https://www.nasdaq.com/articles/strategy-mstr-exceeds-market-returns-some-facts-consider",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Strategy Grows Bitcoin Holdings: Can Its Treasury Scale Drive More Value?",
+     "url": "https://www.nasdaq.com/articles/strategy-grows-bitcoin-holdings-can-its-treasury-scale-drive-more-value",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Strategy Inc (MSTR) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/strategy-inc-mstr-attracting-investor-attention-here-what-you-should-know",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Strategy (MSTR) Stock Drops Despite Market Gains: Important Facts to Note",
+     "url": "https://www.nasdaq.com/articles/strategy-mstr-stock-drops-despite-market-gains-important-facts-note",
+     "date": "2026-09-25",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Strategy (MSTR) Registers a Bigger Fall Than the Market: Important Facts to Note",
+     "url": "https://www.nasdaq.com/articles/strategy-mstr-registers-bigger-fall-market-important-facts-note",
+     "date": "2026-09-23",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-05",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526413164/mstr-20261005.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-01",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526409863/mstr-20260930.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-28",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526403417/mstr-20260914.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-25",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526401636/mstr-20260924.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-21",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526396093/mstr-20260914.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-14",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526389858/mstr-20260914.htm"
+   }
+  ],
+  "krReports": {
+   "total": 2,
+   "reports": [
+    {
+     "date": "2026-02-06",
+     "broker": "한화증권",
+     "analyst": "김유민",
+     "title": "[스트래티지 (NAS:MSTR)] 변동성 확대, 신중한 접근 필요",
+     "summary": "- 매출은 1억 달러(YoY +1.9%), 영업손실 174억 달러를 기록했다. 순손 실은 126억 달러, 주당 순손실은 42.93 달러다. 비트코인 가격 하락에 따른 평가 손실이 재무제표에 반영되면서 대규모 회계상 손실을 기록 했다.- 주가 및 비트코인 가격 부진에도 공격적인 매수를 지속하며 4분기에 32,470 BTC를 약 31억 달러에 매입했다. 2025년 전체 BTC 수익률은 22.8%를 기록하며 목표 범위(22~26%)를 달성했다.- BTC 수익률은 주 당 비트코인 수의 변화율로 구한다. 주식을 발행해 자금을 조달하더라 도, 그 돈으로 주식 수 증가분보다 더 많은 비율의 비트코인을 매입했 다면 BPS는 상승하고 BTC 수익률은 양의 값을 가진다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqczixlleezkzggcgxeccx.pdf"
+    },
+    {
+     "date": "2026-01-07",
+     "broker": "한화증권",
+     "analyst": "김유민",
+     "title": "[스트래티지 (NAS:MSTR)] 스트래티지 MSCI 편출 우려 완화",
+     "summary": "- 스트래티지는 MSCI 편출 불확실성을 해소하며 시간 외로 6.6% 상승했 습니다. 실제로 제외된다 하더라도 여파는 크지 않을 것으로 보입니다. 10월 MSCI 발표 이후 주가는 51% 하락하며 리스크를 미리 반영했습니 다.- 시장에서는 편출 시 매도 규모를 약 28억 달러로 추정했다. 주가가 급 락하고 변동성이 확대되면 스트래티지의 자본 조달 여건이 약화돼 비 트코인을 매도할 수 있다는 우려가 컸다- 10월 MSCI 발표 이후 주가 는 51% 하락했다. 편출은 보류하지만 가중치 상향 및 추가 편입을 제 한했다. 주식 수나 유통 지분 등의 증가를 반영하지 않으며 당분간 해 당 종목들이 지수 내 비중이 커지는 상황을 막을 것이다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxqqqeczxeqeqggcgxeccx.pdf"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "chart": {
+  "lastBar": "2026-10-05",
+  "numbers": {
+   "price": 164.43,
+   "ma20": 148.79,
+   "ma50": 125.06,
+   "ma150": 131.77,
+   "distMA50": 31.48,
+   "periodHigh": 543,
+   "pullbackFromHigh": -69.72,
+   "volRatio20": 0.81,
+   "dryUpRatio": 0.89
+  },
+  "last10": [
+   {
+    "d": "2026-09-22",
+    "o": 167.55,
+    "h": 171.19,
+    "l": 167.25,
+    "c": 167.33,
+    "v": 23855700,
+    "clsPos": 2,
+    "gapPct": -0.56
+   },
+   {
+    "d": "2026-09-23",
+    "o": 167.23,
+    "h": 169.5,
+    "l": 161.84,
+    "c": 162.2,
+    "v": 21238100,
+    "clsPos": 5,
+    "gapPct": -0.06
+   },
+   {
+    "d": "2026-09-24",
+    "o": 161.01,
+    "h": 165.14,
+    "l": 158.29,
+    "c": 161.61,
+    "v": 16938200,
+    "clsPos": 48,
+    "gapPct": -0.73
+   },
+   {
+    "d": "2026-09-25",
+    "o": 162.84,
+    "h": 162.86,
+    "l": 156.78,
+    "c": 158.61,
+    "v": 18529100,
+    "clsPos": 30,
+    "gapPct": 0.76
+   },
+   {
+    "d": "2026-09-28",
+    "o": 157.76,
+    "h": 161.72,
+    "l": 155.06,
+    "c": 157.14,
+    "v": 16368800,
+    "clsPos": 31,
+    "gapPct": -0.54
+   },
+   {
+    "d": "2026-09-29",
+    "o": 161.63,
+    "h": 161.63,
+    "l": 152.34,
+    "c": 154.67,
+    "v": 16376400,
+    "clsPos": 25,
+    "gapPct": 2.86
+   },
+   {
+    "d": "2026-09-30",
+    "o": 160.89,
+    "h": 163.53,
+    "l": 152.02,
+    "c": 153.09,
+    "v": 17559300,
+    "clsPos": 9,
+    "gapPct": 4.02
+   },
+   {
+    "d": "2026-10-01",
+    "o": 153.83,
+    "h": 161.58,
+    "l": 152.63,
+    "c": 160.5,
+    "v": 19345200,
+    "clsPos": 88,
+    "gapPct": 0.48
+   },
+   {
+    "d": "2026-10-02",
+    "o": 165.89,
+    "h": 170.17,
+    "l": 155.89,
+    "c": 160.01,
+    "v": 27457400,
+    "clsPos": 29,
+    "gapPct": 3.36
+   },
+   {
+    "d": "2026-10-05",
+    "o": 164.68,
+    "h": 166.2,
+    "l": 160.12,
+    "c": 164.43,
+    "v": 18146700,
+    "clsPos": 71,
+    "gapPct": 2.92
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MSTR-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MSTR-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선을 넘은 지 12일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

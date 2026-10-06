@@ -1,7 +1,7 @@
 {
  "ticker": "FEIM",
- "date": "2026-10-03",
- "session": "2026-10-02",
+ "date": "2026-10-06",
+ "session": "2026-10-05",
  "plan": {
   "ticker": "FEIM",
   "name": "프리퀀시 일렉트로닉스",
@@ -9,89 +9,84 @@
   "industry": "Communication Equipment",
   "grade": "A",
   "state": "pre",
-  "asOf": "2026-10-02",
-  "price": 86.03,
+  "asOf": "2026-10-05",
+  "price": 85.46,
   "pivot": 89.76,
   "pivotDate": "2026-09-11",
-  "stop": 84.73,
-  "riskPerSharePct": 5.6,
-  "weightPct": 8.9,
+  "stop": 84.79,
+  "riskPerSharePct": 5.54,
+  "weightPct": 9,
   "weightCapped": false,
-  "distToPivotPct": -4.16,
-  "distToPivotAdr": -0.71,
-  "extensionAdr": 0.12,
+  "distToPivotPct": -4.79,
+  "distToPivotAdr": -0.82,
+  "extensionAdr": 0.08,
   "chase": false,
-  "adrPct": 5.84,
-  "ma10": 85.44,
-  "dollarVol20M": 33.4,
+  "adrPct": 5.82,
+  "ma10": 85.09,
+  "dollarVol20M": 35.6,
   "liquid": true,
   "reasons": [
    "선행 상승 +82%",
-   "베이스 3주",
+   "베이스 3.2주",
    "깊이 12.7%",
    "저점 상승 1회",
-   "진폭 0.91배 · 10일 종가폭 1.3 ADR",
-   "10일선 +0.1 ADR · 20일선 +1 ADR",
-   "20일선 기울기 +8.33%"
+   "진폭 0.86배 · 10일 종가폭 1.2 ADR",
+   "10일선 +0.1 ADR · 20일선 +0.7 ADR",
+   "20일선 기울기 +8.39%"
   ],
   "fails": [],
   "metrics": {
-   "baseBars": 15,
-   "baseWeeks": 3,
+   "baseBars": 16,
+   "baseWeeks": 3.2,
    "depthPct": 12.7,
    "priorMovePct": 82.4,
    "higherLows": 1,
-   "contraction": 0.91,
-   "closeRange10Adr": 1.3,
-   "surf10": 0.12,
-   "surf20": 1.01,
-   "slope20": 8.33,
+   "contraction": 0.86,
+   "closeRange10Adr": 1.2,
+   "surf10": 0.08,
+   "surf20": 0.66,
+   "slope20": 8.39,
    "baseLow": 78.32,
    "lastSwingLow": 81.58
   },
   "catalyst": null,
   "flow": {
    "flow": "outflow",
-   "stageKo": "❄️ 조정 중",
-   "frank25": -8
+   "stageKo": "💤 미형성",
+   "frank25": -5
   },
   "earnings": null,
   "blocked": null,
   "shadowBook": null,
   "watch": true,
-  "score": 65.8,
-  "lastRead": {
-   "date": "2026-09-28",
-   "verdict": "keep",
-   "note": "9월 초 갭 상승 봉(3개월 최대 거래량) 뒤 11봉이 83~89.8 사이에서 옆으로 움직였고 거래량은 줄었다. 10일선이 85.6까지 올라와 가격에 닿았다. 89~90에서 윗꼬리가 세 번 나왔다(9/21 고가 89 뒤 다음 날 종가 위치 10%). 6개월 그림에서는 그 전 넉 달이 60~80 사이의 넓은 봉 횡보였다. 하루 거래량 30만 주대로 얇다."
-  }
+  "score": 65.2
  },
  "site": {
   "rs": {
    "m1": {
-    "v": 0.4553919360902911,
-    "pct": 99.61048158640227
+    "v": 0.40860395028355895,
+    "pct": 99.32719546742209
    },
    "m3": {
-    "v": 0.467565697055481,
-    "pct": 98.68980169971671
+    "v": 0.49066799851697246,
+    "pct": 98.47733711048159
    },
    "m6": {
-    "v": 0.5687956645547305,
+    "v": 0.5104276479108701,
     "pct": 92.66997167138811
    }
   },
-  "ret1m": 45.54,
-  "ret3m": 46.76,
-  "ret6m": 56.88,
-  "marketCap": "0.97B",
-  "volx": null,
-  "volSurgeWk": 0.54,
-  "high52": 95.78,
+  "ret1m": 40.86,
+  "ret3m": 49.07,
+  "ret6m": 51.04,
+  "marketCap": "0.96B",
+  "volx": 1.49,
+  "volSurgeWk": 2,
+  "high52": 95.21,
   "newHigh52": false,
-  "adr": 5.99,
-  "div50": 18.9,
-  "div200": 42.06,
+  "adr": 5.82,
+  "div50": 17.36,
+  "div200": 40.27,
   "targetStatus": false,
   "saleCy": 30.8,
   "saleNy": 26.18,
@@ -129,32 +124,32 @@
   ],
   "top2Since": {
    "m1": "2026-09-17",
-   "m3": "2026-10-02",
+   "m3": "2026-10-05",
    "m6": null
   },
   "top2Streak": {
-   "m1": 12,
+   "m1": 13,
    "m3": 1,
    "m6": 0
   }
  },
  "flow": {
-  "FRANK": 26,
-  "frank25": -8,
-  "d50": -0.96,
-  "d200": 4.59,
-  "d200Delta": -10.61,
-  "cy": 0.01,
+  "FRANK": 21,
+  "frank25": -5,
+  "d50": 1.04,
+  "d200": 11.27,
+  "d200Delta": -4.91,
+  "cy": 0,
   "ny": 0,
-  "upRatio": 87.23958333333334,
-  "coverage": 384,
+  "upRatio": 86.23595505617978,
+  "coverage": 356,
   "winRate": 0.5385,
-  "stageKo": "❄️ 조정 중",
+  "stageKo": "💤 미형성",
   "flow": "outflow"
  },
  "eye": null,
  "detail": {
-  "fetchedAt": "2026-10-01",
+  "fetchedAt": "2026-10-06",
   "nameKo": "프리퀀시 일렉트로닉스",
   "nameEn": "FREQUENCY ELECTRONICS INC",
   "financials": {
@@ -343,29 +338,19 @@
  },
  "detailNote": null,
  "chart": {
-  "lastBar": "2026-10-02",
+  "lastBar": "2026-10-05",
   "numbers": {
-   "price": 86.03,
-   "ma20": 80.95,
-   "ma50": 72.56,
-   "ma150": 63.46,
-   "distMA50": 18.56,
+   "price": 85.46,
+   "ma20": 82.19,
+   "ma50": 72.82,
+   "ma150": 63.66,
+   "distMA50": 17.36,
    "periodHigh": 89.76,
-   "pullbackFromHigh": -4.16,
-   "volRatio20": 0.46,
-   "dryUpRatio": 0.77
+   "pullbackFromHigh": -4.79,
+   "volRatio20": 1.46,
+   "dryUpRatio": 0.86
   },
   "last10": [
-   {
-    "d": "2026-09-21",
-    "o": 85.68,
-    "h": 89.6,
-    "l": 85.54,
-    "c": 89,
-    "v": 227900,
-    "clsPos": 85,
-    "gapPct": 0.18
-   },
    {
     "d": "2026-09-22",
     "o": 88.48,
@@ -449,12 +434,22 @@
    {
     "d": "2026-10-02",
     "o": 87.49,
-    "h": 88.1,
-    "l": 85.6,
+    "h": 88.19,
+    "l": 85.55,
     "c": 86.03,
-    "v": 184168,
-    "clsPos": 17,
+    "v": 184200,
+    "clsPos": 18,
     "gapPct": 1.77
+   },
+   {
+    "d": "2026-10-05",
+    "o": 85.69,
+    "h": 86.69,
+    "l": 83.67,
+    "c": 85.46,
+    "v": 618900,
+    "clsPos": 59,
+    "gapPct": -0.4
    }
   ],
   "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/FEIM-3m.png",
@@ -462,7 +457,7 @@
  },
  "market": {
   "verdict": "green",
-  "ko": "🟢 10일선이 20일선을 넘은 지 11일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "ko": "🟢 10일선이 20일선을 넘은 지 12일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
   "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
   "finraLevel": "warn"
  }

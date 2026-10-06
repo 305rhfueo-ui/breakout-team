@@ -1,216 +1,585 @@
 {
- "date": "2026-10-03",
+ "date": "2026-10-06",
  "cap": 6,
  "poolTotal": 11,
  "industries": [
   {
-   "key": "Technology|Semiconductor Equipment & Materials",
+   "key": "Technology|Computer Hardware",
    "sector": "Technology",
-   "industry": "Semiconductor Equipment & Materials",
-   "count": 23,
+   "industry": "Computer Hardware",
+   "count": 9,
    "counts": {
-    "m1": 23,
-    "m3": 23,
-    "m6": 23
+    "m1": 9,
+    "m3": 9,
+    "m6": 9
    },
    "wrs": {
-    "m1": 0.1503,
-    "m3": -0.006,
-    "m6": 0.2411
+    "m1": 0.0427,
+    "m3": 0.0738,
+    "m6": 0.9531
    },
    "final": {
-    "m1": 0.2708,
-    "m3": 0.0655,
-    "m6": 0.276
+    "m1": 0.1137,
+    "m3": 0.098,
+    "m6": 0.4342
    },
    "rankPct": {
-    "m1": 0.71,
-    "m3": 38.57,
-    "m6": 10.71
+    "m1": 10,
+    "m3": 15,
+    "m6": 0.71
    },
    "pickedBy": [
-    "m1"
+    "m6",
+    "top10"
    ],
    "members": [
-    "COHU",
-    "FORM",
-    "AXTI",
-    "AEHR"
+    "P",
+    "DELL"
    ],
    "memberNews": [
     {
-     "ticker": "COHU",
-     "date": "2026-09-24",
-     "publisher": "Zacks",
-     "title": "Teradyne Strengthens AI Test Portfolio: Can It Beat KLAC & COHU?",
-     "url": "https://www.nasdaq.com/articles/teradyne-strengthens-ai-test-portfolio-can-it-beat-klac-cohu"
-    },
-    {
-     "ticker": "COHU",
-     "date": "2026-09-23",
-     "publisher": "The Motley Fool",
-     "title": "Cohu CEO Luis Muller Sells Shares for $3.3 Million",
-     "url": "https://www.nasdaq.com/articles/cohu-ceo-luis-muller-sells-shares-33-million"
-    },
-    {
-     "ticker": "COHU",
-     "date": "2026-09-08",
-     "publisher": "Zacks",
-     "title": "Teradyne Rides on Strong UltraFLEXplus Demand: Can It Beat KLAC & COHU?",
-     "url": "https://www.nasdaq.com/articles/teradyne-rides-strong-ultraflexplus-demand-can-it-beat-klac-cohu"
-    },
-    {
-     "ticker": "FORM",
-     "date": "2026-09-30",
+     "ticker": "P",
+     "date": "2026-10-02",
      "publisher": "Fintel",
-     "title": "Deutsche Bank Initiates Coverage of FormFactor with Buy",
-     "url": "https://www.nasdaq.com/articles/deutsche-bank-initiates-coverage-formfactor-buy"
+     "title": "Everpure Consensus Price Target Raised 11.24% to $146.34",
+     "url": "https://www.nasdaq.com/articles/everpure-consensus-price-target-raised-1124-14634"
     },
     {
-     "ticker": "FORM",
-     "date": "2026-09-22",
-     "publisher": "The Motley Fool",
-     "title": "FormFactor CEO Mike Slessor Sells 17,510 Shares",
-     "url": "https://www.nasdaq.com/articles/formfactor-ceo-mike-slessor-sells-17510-shares"
-    },
-    {
-     "ticker": "FORM",
-     "date": "2026-09-09",
-     "publisher": "The Motley Fool",
-     "title": "FormFactor Director Sells 2,100 Shares",
-     "url": "https://www.nasdaq.com/articles/formfactor-director-sells-2100-shares"
-    },
-    {
-     "ticker": "AXTI",
-     "date": "2026-09-29",
-     "publisher": "Zacks",
-     "title": "AXT (AXTI) Is Up 12.72% in One Week: What You Should Know",
-     "url": "https://www.nasdaq.com/articles/axt-axti-1272-one-week-what-you-should-know"
-    },
-    {
-     "ticker": "AXTI",
-     "date": "2026-09-24",
-     "publisher": "Zacks",
-     "title": "Amkor vs. AXT: Which Semiconductor Stock Is the Better Buy Now?",
-     "url": "https://www.nasdaq.com/articles/amkor-vs-axt-which-semiconductor-stock-better-buy-now"
-    },
-    {
-     "ticker": "AXTI",
-     "date": "2026-09-18",
-     "publisher": "Zacks",
-     "title": "Bull of the Day: AXT (AXTI)",
-     "url": "https://www.nasdaq.com/articles/bull-day-axt-axti"
-    },
-    {
-     "ticker": "AEHR",
-     "date": "2026-09-30",
-     "publisher": "Zacks",
-     "title": "AEHR vs. CAMT: Which Semiconductor Equipment Stock Is the Better Bet?",
-     "url": "https://www.nasdaq.com/articles/aehr-vs-camt-which-semiconductor-equipment-stock-better-bet"
-    },
-    {
-     "ticker": "AEHR",
+     "ticker": "P",
      "date": "2026-09-28",
      "publisher": "Zacks",
-     "title": "Aehr Test Systems (AEHR) Earnings Expected to Grow: Should You Buy?",
-     "url": "https://www.nasdaq.com/articles/aehr-test-systems-aehr-earnings-expected-grow-should-you-buy"
+     "title": "VNT vs. P: Which Stock Should Value Investors Buy Now?",
+     "url": "https://www.nasdaq.com/articles/vnt-vs-p-which-stock-should-value-investors-buy-now"
     },
     {
-     "ticker": "AEHR",
-     "date": "2026-09-21",
+     "ticker": "P",
+     "date": "2026-09-24",
+     "publisher": "The Motley Fool",
+     "title": "Why Everpure Stock Popped Today",
+     "url": "https://www.nasdaq.com/articles/why-everpure-stock-popped-today"
+    },
+    {
+     "ticker": "DELL",
+     "date": "2026-10-03",
+     "publisher": "The Motley Fool",
+     "title": "Dell Raised Its Quarterly Dividend by 20% This Year After Only Initiating Its Dividend Program in 2023. Can Passive Income Investors Trust the Stock?",
+     "url": "https://www.nasdaq.com/articles/dell-raised-its-quarterly-dividend-20-year-after-only-initiating-its-dividend-program-2023"
+    },
+    {
+     "ticker": "DELL",
+     "date": "2026-10-01",
+     "publisher": "BNK Invest",
+     "title": "Dell Technologies Moves Up In Market Cap Rank, Passing McDonald's",
+     "url": "https://www.nasdaq.com/articles/dell-technologies-moves-market-cap-rank-passing-mcdonalds"
+    },
+    {
+     "ticker": "DELL",
+     "date": "2026-10-01",
      "publisher": "Zacks",
-     "title": "AEHR at 18.59X Sales: Market Loves Its AI Story, But is Love Blind?",
-     "url": "https://www.nasdaq.com/articles/aehr-1859x-sales-market-loves-its-ai-story-love-blind"
+     "title": "Why Is Dell Technologies (DELL) Up 9.3% Since Last Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/why-dell-technologies-dell-93-last-earnings-report"
     }
    ],
    "flow": {
-    "FRANK": 8,
+    "FRANK": 2,
     "frank25": -1,
-    "f10": 4.387291981845688,
-    "f25": -12.768647281921616,
-    "d50": 8.61,
-    "d200": 17.48,
-    "d200Delta": 7.52,
-    "cy": 0.07,
-    "ny": 0.35,
-    "upRatio": 92.11267605633803,
-    "coverage": 710,
-    "winRate": 0.7826,
+    "f10": -32.28321896444167,
+    "f25": -31.39516511297204,
+    "d50": 6.61,
+    "d200": 32.879999999999995,
+    "d200Delta": 0.789999999999992,
+    "cy": 0,
+    "ny": 7.6850000000000005,
+    "upRatio": 86.810551558753,
+    "coverage": 417,
+    "winRate": 0.8889,
     "stage": "mid_up",
     "stageKo": "📈 상승 중반 (확장 중)",
     "flow": "pending"
    }
   },
   {
-   "key": "Healthcare|Health Information Services",
-   "sector": "Healthcare",
-   "industry": "Health Information Services",
-   "count": 6,
+   "key": "Energy|Oil & Gas Refining & Marketing",
+   "sector": "Energy",
+   "industry": "Oil & Gas Refining & Marketing",
+   "count": 7,
    "counts": {
-    "m1": 6,
-    "m3": 6,
-    "m6": 6
+    "m1": 7,
+    "m3": 7,
+    "m6": 7
    },
    "wrs": {
-    "m1": -0.0319,
-    "m3": 0.2042,
-    "m6": 0.5303
+    "m1": 0.0978,
+    "m3": 0.4736,
+    "m6": 0.8058
    },
    "final": {
-    "m1": 0.0165,
-    "m3": 0.0676,
-    "m6": 0.2523
+    "m1": 0.1263,
+    "m3": 0.3131,
+    "m6": 0.4561
    },
    "rankPct": {
-    "m1": 40,
-    "m3": 5.71,
-    "m6": 2.86
+    "m1": 2.14,
+    "m3": 0.71,
+    "m6": 1.43
    },
    "pickedBy": [
+    "m6",
+    "m3",
     "top10"
    ],
    "members": [
-    "HNGE"
+    "MPC",
+    "VLO",
+    "DINO"
    ],
    "memberNews": [
     {
-     "ticker": "HNGE",
-     "date": "2026-09-04",
-     "publisher": "The Motley Fool",
-     "title": "Hinge Health Director Kristina Leslie Sells 1,200 Shares for $105,876",
-     "url": "https://www.nasdaq.com/articles/hinge-health-director-kristina-leslie-sells-1200-shares-105876"
-    },
-    {
-     "ticker": "HNGE",
-     "date": "2026-09-03",
+     "ticker": "MPC",
+     "date": "2026-10-05",
      "publisher": "Zacks",
-     "title": "Hinge Health Inc. (HNGE) Up 13.7% Since Last Earnings Report: Can It Continue?",
-     "url": "https://www.nasdaq.com/articles/hinge-health-inc-hnge-137-last-earnings-report-can-it-continue"
+     "title": "Marathon Petroleum (MPC) Rises Higher Than Market: Key Facts",
+     "url": "https://www.nasdaq.com/articles/marathon-petroleum-mpc-rises-higher-market-key-facts-0"
     },
     {
-     "ticker": "HNGE",
-     "date": "2026-08-20",
-     "publisher": "MarketBeat",
-     "title": "One Platform, Every Ailment: Hinge Health's Gamble",
-     "url": "https://www.nasdaq.com/articles/one-platform-every-ailment-hinge-healths-gamble"
+     "ticker": "MPC",
+     "date": "2026-10-05",
+     "publisher": "Zacks",
+     "title": "Will Marathon Petroleum (MPC) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-marathon-petroleum-mpc-beat-estimates-again-its-next-earnings-report"
+    },
+    {
+     "ticker": "MPC",
+     "date": "2026-10-05",
+     "publisher": "Zacks",
+     "title": "Here's How Much a $1000 Investment in Marathon Petroleum Made 10 Years Ago Would Be Worth Today",
+     "url": "https://www.nasdaq.com/articles/heres-how-much-1000-investment-marathon-petroleum-made-10-years-ago-would-be-worth-today"
+    },
+    {
+     "ticker": "VLO",
+     "date": "2026-10-05",
+     "publisher": "Zacks",
+     "title": "Are You Looking for a Top Momentum Pick? Why Valero Energy (VLO) is a Great Choice",
+     "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-valero-energy-vlo-great-choice-0"
+    },
+    {
+     "ticker": "VLO",
+     "date": "2026-10-05",
+     "publisher": "Zacks",
+     "title": "Why Valero Energy (VLO) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-valero-energy-vlo-top-momentum-stock-long-term"
+    },
+    {
+     "ticker": "VLO",
+     "date": "2026-10-02",
+     "publisher": "Zacks",
+     "title": "Will Valero Energy (VLO) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-valero-energy-vlo-beat-estimates-again-its-next-earnings-report"
+    },
+    {
+     "ticker": "DINO",
+     "date": "2026-10-05",
+     "publisher": "Zacks",
+     "title": "Is HF Sinclair (DINO) Outperforming Other Oils-Energy Stocks This Year?",
+     "url": "https://www.nasdaq.com/articles/hf-sinclair-dino-outperforming-other-oils-energy-stocks-year-0"
+    },
+    {
+     "ticker": "DINO",
+     "date": "2026-10-01",
+     "publisher": "Zacks",
+     "title": "Here's Why HF Sinclair (DINO) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-hf-sinclair-dino-strong-momentum-stock-0"
+    },
+    {
+     "ticker": "DINO",
+     "date": "2026-09-24",
+     "publisher": "Zacks",
+     "title": "Here's Why HF Sinclair (DINO) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-hf-sinclair-dino-strong-growth-stock-0"
     }
    ],
    "flow": {
-    "FRANK": 10,
-    "frank25": 17,
-    "f10": 16.160220994475146,
-    "f25": 45.41786743515853,
-    "d50": -3.515,
-    "d200": 12.024999999999999,
-    "d200Delta": -5.835000000000001,
-    "cy": 0.03,
-    "ny": 0.04,
-    "upRatio": 65.38461538461539,
-    "coverage": 286,
-    "winRate": 0.8333,
-    "stage": "pullback",
-    "stageKo": "❄️ 조정 중",
+    "FRANK": 1,
+    "frank25": 6,
+    "f10": 30.987937966685813,
+    "f25": 27.295562377895617,
+    "d50": 11.67,
+    "d200": 47.29,
+    "d200Delta": 3.729999999999997,
+    "cy": 12.61,
+    "ny": 25.6,
+    "upRatio": 87.5,
+    "coverage": 144,
+    "winRate": 1,
+    "stage": "late_up",
+    "stageKo": "⚠️ 후반 가속",
+    "flow": "leading"
+   }
+  },
+  {
+   "key": "Healthcare|Diagnostics & Research",
+   "sector": "Healthcare",
+   "industry": "Diagnostics & Research",
+   "count": 22,
+   "counts": {
+    "m1": 22,
+    "m3": 22,
+    "m6": 22
+   },
+   "wrs": {
+    "m1": 0.1182,
+    "m3": 0.2596,
+    "m6": 0.4297
+   },
+   "final": {
+    "m1": 0.1801,
+    "m3": 0.2742,
+    "m6": 0.4058
+   },
+   "rankPct": {
+    "m1": 1.43,
+    "m3": 2.86,
+    "m6": 5.71
+   },
+   "pickedBy": [
+    "m1",
+    "top10"
+   ],
+   "members": [
+    "GRAL",
+    "TWST",
+    "ILMN"
+   ],
+   "memberNews": [
+    {
+     "ticker": "GRAL",
+     "date": "2025-07-17",
+     "publisher": "Quiver Quantitative",
+     "title": "Insider Sale: Chief Financial Officer of $GRAL Sells 8,000 Shares",
+     "url": "https://www.nasdaq.com/articles/insider-sale-chief-financial-officer-gral-sells-8000-shares"
+    },
+    {
+     "ticker": "GRAL",
+     "date": "2025-05-13",
+     "publisher": "Quiver Quantitative",
+     "title": "GRAIL Earnings Results: $GRAL Reports Quarterly Earnings",
+     "url": "https://www.nasdaq.com/articles/grail-earnings-results-gral-reports-quarterly-earnings"
+    },
+    {
+     "ticker": "GRAL",
+     "date": "2025-05-05",
+     "publisher": "Quiver Quantitative",
+     "title": "Lobbying Update: $500,000 of GRAIL INC. (FORMERLY GRAIL LLC) lobbying was just disclosed",
+     "url": "https://www.nasdaq.com/articles/lobbying-update-500000-grail-inc-formerly-grail-llc-lobbying-was-just-disclosed"
+    },
+    {
+     "ticker": "TWST",
+     "date": "2026-09-18",
+     "publisher": "The Motley Fool",
+     "title": "Why Twist Bioscience Stock Skyrocketed This Week",
+     "url": "https://www.nasdaq.com/articles/why-twist-bioscience-stock-skyrocketed-week"
+    },
+    {
+     "ticker": "TWST",
+     "date": "2026-09-10",
+     "publisher": "Fintel",
+     "title": "BWS Financial Initiates Coverage of Twist Bioscience with Sell Rating",
+     "url": "https://www.nasdaq.com/articles/bws-financial-initiates-coverage-twist-bioscience-sell-rating"
+    },
+    {
+     "ticker": "TWST",
+     "date": "2026-09-09",
+     "publisher": "Fintel",
+     "title": "UBS Initiates Coverage of Twist Bioscience with Neutral Rating",
+     "url": "https://www.nasdaq.com/articles/ubs-initiates-coverage-twist-bioscience-neutral-rating"
+    },
+    {
+     "ticker": "ILMN",
+     "date": "2026-09-30",
+     "publisher": "The Motley Fool",
+     "title": "Where Will Illumina Stock Be in 5 Years If Its AI Bet Pays Off?",
+     "url": "https://www.nasdaq.com/articles/where-will-illumina-stock-be-5-years-if-its-ai-bet-pays"
+    },
+    {
+     "ticker": "ILMN",
+     "date": "2026-09-29",
+     "publisher": "Zacks",
+     "title": "REGN or ILMN: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/regn-or-ilmn-which-better-value-stock-right-now-0"
+    },
+    {
+     "ticker": "ILMN",
+     "date": "2026-09-28",
+     "publisher": "Zacks",
+     "title": "Is the Options Market Predicting a Spike in Illumina Stock?",
+     "url": "https://www.nasdaq.com/articles/options-market-predicting-spike-illumina-stock"
+    }
+   ],
+   "flow": {
+    "FRANK": 5,
+    "frank25": 0,
+    "f10": -11.416721239903953,
+    "f25": 8.011711471919089,
+    "d50": 6.725,
+    "d200": 19.675,
+    "d200Delta": 1.9499999999999993,
+    "cy": 0,
+    "ny": 0.07500000000000001,
+    "upRatio": 67.05426356589147,
+    "coverage": 774,
+    "winRate": 0.9545,
+    "stage": "mid_up",
+    "stageKo": "📈 상승 중반 (확장 중)",
     "flow": "neutral"
+   }
+  },
+  {
+   "key": "Technology|Software - Infrastructure",
+   "sector": "Technology",
+   "industry": "Software - Infrastructure",
+   "count": 33,
+   "counts": {
+    "m1": 33,
+    "m3": 33,
+    "m6": 33
+   },
+   "wrs": {
+    "m1": 0.0759,
+    "m3": 0.3239,
+    "m6": 0.4983
+   },
+   "final": {
+    "m1": 0.1349,
+    "m3": 0.268,
+    "m6": 0.4185
+   },
+   "rankPct": {
+    "m1": 5.71,
+    "m3": 1.43,
+    "m6": 2.14
+   },
+   "pickedBy": [
+    "m3",
+    "top10"
+   ],
+   "members": [
+    "BAND",
+    "OKTA",
+    "CRWD",
+    "RBRK",
+    "PANW",
+    "TWLO",
+    "QLYS",
+    "NET",
+    "ZS"
+   ],
+   "memberNews": [
+    {
+     "ticker": "BAND",
+     "date": "2026-09-11",
+     "publisher": "The Motley Fool",
+     "title": "Bandwidth Controller Sells 3,074 Shares as Stock Surges 239%",
+     "url": "https://www.nasdaq.com/articles/bandwidth-controller-sells-3074-shares-stock-surges-239"
+    },
+    {
+     "ticker": "BAND",
+     "date": "2026-08-28",
+     "publisher": "Zacks",
+     "title": "Why Is Bandwidth (BAND) Up 33.5% Since Last Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/why-bandwidth-band-335-last-earnings-report"
+    },
+    {
+     "ticker": "BAND",
+     "date": "2026-08-19",
+     "publisher": "Zacks",
+     "title": "Zacks Industry Outlook Highlights Bandwidth and Anterix",
+     "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-bandwidth-and-anterix-0"
+    },
+    {
+     "ticker": "OKTA",
+     "date": "2026-10-05",
+     "publisher": "Zacks",
+     "title": "Okta, Inc. (OKTA) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/okta-inc-okta-attracting-investor-attention-here-what-you-should-know-1"
+    },
+    {
+     "ticker": "OKTA",
+     "date": "2026-10-02",
+     "publisher": "Zacks",
+     "title": "The Zacks Analyst Blog Highlights CrowdStrike, Okta and Palo Alto Networks",
+     "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-crowdstrike-okta-and-palo-alto-networks"
+    },
+    {
+     "ticker": "OKTA",
+     "date": "2026-10-02",
+     "publisher": "Fintel",
+     "title": "Okta Consensus Price Target Raised by 16.50% to $216.95",
+     "url": "https://www.nasdaq.com/articles/okta-consensus-price-target-raised-1650-21695"
+    },
+    {
+     "ticker": "CRWD",
+     "date": "2026-10-05",
+     "publisher": "Zacks",
+     "title": "CrowdStrike (CRWD) Is a Trending Stock: Facts to Know Before Betting on It",
+     "url": "https://www.nasdaq.com/articles/crowdstrike-crwd-trending-stock-facts-know-betting-it"
+    },
+    {
+     "ticker": "CRWD",
+     "date": "2026-10-03",
+     "publisher": "The Motley Fool",
+     "title": "Salesforce vs. CrowdStrike: What Revenue Growth Trends for These Software Giants Tell Investors",
+     "url": "https://www.nasdaq.com/articles/salesforce-vs-crowdstrike-what-revenue-growth-trends-these-software-giants-tell-investors"
+    },
+    {
+     "ticker": "CRWD",
+     "date": "2026-10-02",
+     "publisher": "The Motley Fool",
+     "title": "Salesforce vs. CrowdStrike: Which Tech Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/salesforce-vs-crowdstrike-which-tech-stock-better-buy-2026"
+    },
+    {
+     "ticker": "RBRK",
+     "date": "2026-09-18",
+     "publisher": "The Motley Fool",
+     "title": "Why Shares of Rubrik Stock Rallied This Week",
+     "url": "https://www.nasdaq.com/articles/why-shares-rubrik-stock-rallied-week"
+    },
+    {
+     "ticker": "RBRK",
+     "date": "2026-09-18",
+     "publisher": "The Motley Fool",
+     "title": "Rubrik CFO Kiran Kumar Choudary Sells $2.5 Million Stock",
+     "url": "https://www.nasdaq.com/articles/rubrik-cfo-kiran-kumar-choudary-sells-25-million-stock"
+    },
+    {
+     "ticker": "RBRK",
+     "date": "2026-09-15",
+     "publisher": "Fintel",
+     "title": "Rubrik Consensus Price Target Increased by 11.53% to $122.31",
+     "url": "https://www.nasdaq.com/articles/rubrik-consensus-price-target-increased-1153-12231"
+    },
+    {
+     "ticker": "PANW",
+     "date": "2026-10-02",
+     "publisher": "Zacks",
+     "title": "Palo Alto Networks (PANW) Rises Higher Than Market: Key Facts",
+     "url": "https://www.nasdaq.com/articles/palo-alto-networks-panw-rises-higher-market-key-facts"
+    },
+    {
+     "ticker": "PANW",
+     "date": "2026-10-02",
+     "publisher": "Zacks",
+     "title": "The Zacks Analyst Blog Highlights CrowdStrike, Okta and Palo Alto Networks",
+     "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-crowdstrike-okta-and-palo-alto-networks"
+    },
+    {
+     "ticker": "PANW",
+     "date": "2026-10-02",
+     "publisher": "Zacks",
+     "title": "Is Trending Stock Palo Alto Networks, Inc. (PANW) a Buy Now?",
+     "url": "https://www.nasdaq.com/articles/trending-stock-palo-alto-networks-inc-panw-buy-now"
+    },
+    {
+     "ticker": "TWLO",
+     "date": "2026-09-30",
+     "publisher": "Zacks",
+     "title": "Wall Street Analysts Think Twilio (TWLO) Is a Good Investment: Is It?",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-think-twilio-twlo-good-investment-it"
+    },
+    {
+     "ticker": "TWLO",
+     "date": "2026-09-29",
+     "publisher": "Zacks",
+     "title": "Twilio (TWLO) Advances While Market Declines: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/twilio-twlo-advances-while-market-declines-some-information-investors"
+    },
+    {
+     "ticker": "TWLO",
+     "date": "2026-09-24",
+     "publisher": "Zacks",
+     "title": "Twilio Inc. (TWLO) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/twilio-inc-twlo-attracting-investor-attention-here-what-you-should-know"
+    },
+    {
+     "ticker": "QLYS",
+     "date": "2026-09-16",
+     "publisher": "BNK Invest",
+     "title": "Qualys Reaches Analyst Target Price",
+     "url": "https://www.nasdaq.com/articles/qualys-reaches-analyst-target-price"
+    },
+    {
+     "ticker": "QLYS",
+     "date": "2026-09-15",
+     "publisher": "Zacks",
+     "title": "Zacks Investment Ideas feature highlights: Fortinet and Qualys",
+     "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-fortinet-and-qualys"
+    },
+    {
+     "ticker": "QLYS",
+     "date": "2026-09-14",
+     "publisher": "Zacks",
+     "title": "2 Top Cybersecurity Stocks to Buy Amid AI Safety Fears: FTNT, QLYS",
+     "url": "https://www.nasdaq.com/articles/2-top-cybersecurity-stocks-buy-amid-ai-safety-fears-ftnt-qlys"
+    },
+    {
+     "ticker": "NET",
+     "date": "2026-10-05",
+     "publisher": "Zacks",
+     "title": "Cloudflare (NET) Laps the Stock Market: Here's Why",
+     "url": "https://www.nasdaq.com/articles/cloudflare-net-laps-stock-market-heres-why-0"
+    },
+    {
+     "ticker": "NET",
+     "date": "2026-10-05",
+     "publisher": "Zacks",
+     "title": "Can Cloudflare's Deutsche Telekom Deal Drive Enterprise Growth?",
+     "url": "https://www.nasdaq.com/articles/can-cloudflares-deutsche-telekom-deal-drive-enterprise-growth"
+    },
+    {
+     "ticker": "NET",
+     "date": "2026-10-02",
+     "publisher": "Zacks",
+     "title": "Here's Why Cloudflare (NET) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-cloudflare-net-strong-momentum-stock"
+    },
+    {
+     "ticker": "ZS",
+     "date": "2026-10-02",
+     "publisher": "Zacks",
+     "title": "Zscaler (ZS) Stock Drops Despite Market Gains: Important Facts to Note",
+     "url": "https://www.nasdaq.com/articles/zscaler-zs-stock-drops-despite-market-gains-important-facts-note"
+    },
+    {
+     "ticker": "ZS",
+     "date": "2026-10-02",
+     "publisher": "Zacks",
+     "title": "Why Zscaler (ZS) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-zscaler-zs-top-momentum-stock-long-term"
+    },
+    {
+     "ticker": "ZS",
+     "date": "2026-10-02",
+     "publisher": "Zacks",
+     "title": "Zscaler, Inc. (ZS) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/zscaler-inc-zs-attracting-investor-attention-here-what-you-should-know"
+    }
+   ],
+   "flow": {
+    "FRANK": 4,
+    "frank25": 2,
+    "f10": -8.324205914567367,
+    "f25": 15.067363211437987,
+    "d50": 3.04,
+    "d200": 15.23,
+    "d200Delta": -9.129999999999999,
+    "cy": 0.02,
+    "ny": 0.43,
+    "upRatio": 79.36425221469516,
+    "coverage": 1919,
+    "winRate": 0.7576,
+    "stage": "mid_flat",
+    "stageKo": "🔶 중반이나 수축 중",
+    "flow": "outflow"
    }
   }
  ]

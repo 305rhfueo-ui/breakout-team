@@ -1,7 +1,7 @@
 {
  "ticker": "SIMO",
- "date": "2026-10-03",
- "session": "2026-10-02",
+ "date": "2026-10-06",
+ "session": "2026-10-05",
  "plan": {
   "ticker": "SIMO",
   "name": null,
@@ -9,43 +9,43 @@
   "industry": "Semiconductors",
   "grade": "A",
   "state": "pre",
-  "asOf": "2026-10-02",
-  "price": 280.5,
+  "asOf": "2026-10-05",
+  "price": 282.45,
   "pivot": 291.16,
   "pivotDate": "2026-09-11",
-  "stop": 275.11,
-  "riskPerSharePct": 5.51,
-  "weightPct": 9.1,
+  "stop": 275.82,
+  "riskPerSharePct": 5.27,
+  "weightPct": 9.5,
   "weightCapped": false,
-  "distToPivotPct": -3.66,
-  "distToPivotAdr": -0.64,
-  "extensionAdr": 0.22,
+  "distToPivotPct": -2.99,
+  "distToPivotAdr": -0.55,
+  "extensionAdr": 0.27,
   "chase": false,
-  "adrPct": 5.72,
-  "ma10": 277.01,
-  "dollarVol20M": 196.1,
+  "adrPct": 5.43,
+  "ma10": 278.35,
+  "dollarVol20M": 196.8,
   "liquid": true,
   "reasons": [
    "선행 상승 +42%",
-   "베이스 3.8주",
+   "베이스 4주",
    "깊이 19.7%",
    "저점 상승 1회",
-   "진폭 0.72배 · 10일 종가폭 0.9 ADR",
-   "10일선 +0.2 ADR · 20일선 +0.8 ADR",
-   "20일선 기울기 +3.5%"
+   "진폭 0.73배 · 10일 종가폭 0.5 ADR",
+   "10일선 +0.3 ADR · 20일선 +0.8 ADR",
+   "20일선 기울기 +3.37%"
   ],
   "fails": [],
   "metrics": {
-   "baseBars": 19,
-   "baseWeeks": 3.8,
+   "baseBars": 20,
+   "baseWeeks": 4,
    "depthPct": 19.7,
    "priorMovePct": 42.5,
    "higherLows": 1,
-   "contraction": 0.72,
-   "closeRange10Adr": 0.9,
-   "surf10": 0.22,
-   "surf20": 0.75,
-   "slope20": 3.5,
+   "contraction": 0.73,
+   "closeRange10Adr": 0.5,
+   "surf10": 0.27,
+   "surf20": 0.83,
+   "slope20": 3.37,
    "baseLow": 233.86,
    "lastSwingLow": 233.86
   },
@@ -53,47 +53,42 @@
   "flow": {
    "flow": "pending",
    "stageKo": "📈 상승 중반 (확장 중)",
-   "frank25": -2
+   "frank25": -1
   },
   "earnings": null,
   "blocked": null,
   "shadowBook": null,
   "watch": true,
-  "score": 66.3,
-  "lastRead": {
-   "date": "2026-09-28",
-   "verdict": "drop",
-   "note": "7월 초 340 에서 205 까지 내려온 뒤의 반등이다. 선행 상승 +42% 는 그 저점에서 잰 값이고 3개월 고점(340)보다 19% 아래에 있다. 50일선은 255.8 로 평평하거나 내려오는 중. 피벗 291.16 은 9/10 하루의 윗꼬리 고가이고 그 뒤 9/14 에 237 까지 내려가는 큰 음봉(종가 위치 0%)이 있었다. 큰 상승 뒤 고점 부근에서 쉬는 모습이 아니다."
-  }
+  "score": 67
  },
  "site": null,
  "flow": {
-  "FRANK": 5,
-  "frank25": -2,
-  "d50": 6.64,
-  "d200": 15.15,
-  "d200Delta": 3.75,
-  "cy": 0,
+  "FRANK": 3,
+  "frank25": -1,
+  "d50": 10.96,
+  "d200": 20.63,
+  "d200Delta": 6.969999999999999,
+  "cy": 0.005,
   "ny": 0.05500000000000001,
-  "upRatio": 79.31697931697931,
-  "coverage": 2079,
-  "winRate": 0.814,
+  "upRatio": 81.4410480349345,
+  "coverage": 1832,
+  "winRate": 0.8837,
   "stageKo": "📈 상승 중반 (확장 중)",
   "flow": "pending"
  },
  "eye": {
   "score": 8,
   "reasons": [
-   "최근 2주 가격 흔들림이 그 전 2주의 0.72배로 줄었다",
-   "최근 1주는 더 조용하다(그 전 1주의 0.62배)",
-   "최근 1주 거래량이 한 달 평균의 0.66배로 줄었다(팔 사람이 줄어듦)",
-   "넘어야 할 선 $287.37 바로 아래(-2.39%)",
-   "최근 2주 종가가 1.39% 안에서만 움직였다"
+   "최근 2주 가격 흔들림이 그 전 2주의 0.73배로 줄었다",
+   "최근 1주는 더 조용하다(그 전 1주의 0.68배)",
+   "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.22, 최저 0.19)",
+   "넘어야 할 선 $287.37 바로 아래(-1.71%)",
+   "최근 2주 종가가 1.08% 안에서만 움직였다"
   ],
   "resistance": 287.37
  },
  "detail": {
-  "fetchedAt": "2026-10-03",
+  "fetchedAt": "2026-10-06",
   "nameKo": "실리콘 모션 테크놀로지(ADR)",
   "nameEn": "SILICON MOTION TECHNOLOGY CORP SPONS ADR EACH REP 4 COM USD0",
   "financialsError": "매출 태그 없음",
@@ -140,12 +135,6 @@
      "url": "https://www.nasdaq.com/articles/why-market-dipped-silicon-motion-simo-gained-today-0",
      "date": "2026-09-15",
      "publisher": "Zacks"
-    },
-    {
-     "title": "Why the Market Dipped But Silicon Motion (SIMO) Gained Today",
-     "url": "https://www.nasdaq.com/articles/why-market-dipped-silicon-motion-simo-gained-today",
-     "date": "2026-09-09",
-     "publisher": "Zacks"
     }
    ]
   },
@@ -157,29 +146,19 @@
  },
  "detailNote": null,
  "chart": {
-  "lastBar": "2026-10-02",
+  "lastBar": "2026-10-05",
   "numbers": {
-   "price": 280.5,
-   "ma20": 268.42,
-   "ma50": 256.28,
-   "ma150": 230.39,
-   "distMA50": 9.45,
+   "price": 282.45,
+   "ma20": 269.73,
+   "ma50": 256.52,
+   "ma150": 231.41,
+   "distMA50": 10.11,
    "periodHigh": 355,
-   "pullbackFromHigh": -20.99,
-   "volRatio20": 0.87,
-   "dryUpRatio": 0.66
+   "pullbackFromHigh": -20.44,
+   "volRatio20": 0.99,
+   "dryUpRatio": 0.75
   },
   "last10": [
-   {
-    "d": "2026-09-21",
-    "o": 277.7,
-    "h": 278.98,
-    "l": 263.58,
-    "c": 269,
-    "v": 996900,
-    "clsPos": 35,
-    "gapPct": 2.05
-   },
    {
     "d": "2026-09-22",
     "o": 265.6,
@@ -262,13 +241,23 @@
    },
    {
     "d": "2026-10-02",
-    "o": 278.2,
+    "o": 275.93,
     "h": 283.5,
     "l": 274.54,
     "c": 280.5,
-    "v": 640568,
+    "v": 641300,
     "clsPos": 67,
-    "gapPct": 1.08
+    "gapPct": 0.25
+   },
+   {
+    "d": "2026-10-05",
+    "o": 281.57,
+    "h": 289,
+    "l": 277.36,
+    "c": 282.45,
+    "v": 724500,
+    "clsPos": 44,
+    "gapPct": 0.38
    }
   ],
   "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SIMO-3m.png",
@@ -276,7 +265,7 @@
  },
  "market": {
   "verdict": "green",
-  "ko": "🟢 10일선이 20일선을 넘은 지 11일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "ko": "🟢 10일선이 20일선을 넘은 지 12일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
   "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
   "finraLevel": "warn"
  }

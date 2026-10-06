@@ -1,136 +1,223 @@
 {
-  "date": "2026-10-03",
-  "team": 5,
-  "industries": [
+ "date": "2026-10-06",
+ "team": 5,
+ "industries": [
+  {
+   "key": "Technology|Computer Hardware",
+   "industry": "Computer Hardware",
+   "lead": "컴퓨터 하드웨어는 서버와 저장장치를 만드는 업종입니다. 대표 종목 Everpure(P)와 Dell은 목표주가 상향과 주가 상승이 이어지고 있습니다.",
+   "whyStrong": [
     {
-      "key": "Technology|Semiconductor Equipment & Materials",
-      "industry": "Semiconductor Equipment & Materials",
-      "lead": "반도체 장비·소재는 칩을 만들고 검사하는 장비와 재료를 파는 업종입니다. 최근 1개월 QQQ 대비 초과수익이 상위 1% 안에 들 만큼 돈이 몰렸습니다. AI 칩 검사 수요와 증권사 투자의견 상향이 배경이며, 3개월로 보면 아직 제자리라 최근 한 달의 급반등입니다.",
-      "whyStrong": [
-        {
-          "id": "w1",
-          "statement": "AI 칩 검사(테스트) 장비 수요가 이야기의 중심입니다. 검사 장비 업체들이 서로 AI 수혜 경쟁 후보로 묶여 거론되고 있습니다.",
-          "evidence_level": "sourced",
-          "sources": [
-            {
-              "title": "Teradyne Strengthens AI Test Portfolio: Can It Beat KLAC & COHU?",
-              "publisher": "Zacks",
-              "url": "https://www.nasdaq.com/articles/teradyne-strengthens-ai-test-portfolio-can-it-beat-klac-cohu",
-              "date": "2026-09-24",
-              "quote": "Teradyne Strengthens AI Test Portfolio: Can It Beat KLAC & COHU?"
-            }
-          ]
-        },
-        {
-          "id": "w2",
-          "statement": "월가 시선이 올라갔습니다. 도이체방크가 프로브카드(칩 검사용 접촉 부품) 업체 FormFactor를 매수 의견으로 새로 분석하기 시작했습니다.",
-          "evidence_level": "sourced",
-          "sources": [
-            {
-              "title": "Deutsche Bank Initiates Coverage of FormFactor with Buy",
-              "publisher": "Fintel (Nasdaq 게재)",
-              "url": "https://www.nasdaq.com/articles/deutsche-bank-initiates-coverage-formfactor-buy",
-              "date": "2026-09-30",
-              "quote": "Deutsche Bank Initiates Coverage of FormFactor with Buy"
-            }
-          ]
-        },
-        {
-          "id": "w3",
-          "statement": "소형주로 매수세가 번졌습니다. AXT는 일주일 만에 12.72% 올랐고 Aehr는 AI 이야기로 매출의 18.59배 가치를 인정받고 있습니다. 다만 비싸다는 경계도 같이 나옵니다.",
-          "evidence_level": "sourced",
-          "sources": [
-            {
-              "title": "AXT (AXTI) Is Up 12.72% in One Week: What You Should Know",
-              "publisher": "Zacks",
-              "url": "https://www.nasdaq.com/articles/axt-axti-1272-one-week-what-you-should-know",
-              "date": "2026-09-29",
-              "quote": "AXT (AXTI) Is Up 12.72% in One Week: What You Should Know"
-            },
-            {
-              "title": "AEHR at 18.59X Sales: Market Loves Its AI Story, But is Love Blind?",
-              "publisher": "Zacks",
-              "url": "https://www.nasdaq.com/articles/aehr-1859x-sales-market-loves-its-ai-story-love-blind",
-              "date": "2026-09-21",
-              "quote": "AEHR at 18.59X Sales: Market Loves Its AI Story, But is Love Blind?"
-            }
-          ]
-        }
-      ],
-      "keyStocks": [
-        "COHU",
-        "FORM",
-        "AXTI",
-        "AEHR"
-      ],
-      "driver": "technology",
-      "durability": "cyclical",
-      "risk": "AI 칩 투자가 둔화돼 검사 장비 주문이 줄면 이 이야기는 깨집니다. 3개월 성적이 제자리인 만큼 최근 급등분이 되돌려질 수 있고, 경영진의 잇따른 주식 매도도 부담입니다.",
-      "factcheck": {
-        "verdict": "partial",
-        "removed": [
-          "w4"
-        ],
-        "reason": ""
+     "id": "w1",
+     "statement": "Everpure(P)는 증권사 목표주가 평균이 한 번에 11% 올랐습니다. 실적 전망이 좋아졌다는 신호입니다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Everpure Consensus Price Target Raised 11.24% to $146.34",
+       "publisher": "Fintel (Nasdaq 게재)",
+       "url": "https://www.nasdaq.com/articles/everpure-consensus-price-target-raised-1124-14634",
+       "date": "2026-10-02",
+       "quote": "Everpure Consensus Price Target Raised 11.24% to $146.34"
       }
+     ]
     },
     {
-      "key": "Healthcare|Health Information Services",
-      "industry": "Health Information Services",
-      "lead": "건강 정보 서비스는 디지털 건강관리 소프트웨어 기업들이 속한 업종입니다. 대표 종목 Hinge Health의 실적이 빠르게 늘어 3~6개월 성과가 상위권입니다. 다만 최근 한 달은 쉬는 중이라 흐름이 이어지는지 확인이 필요합니다.",
-      "whyStrong": [
-        {
-          "id": "w1",
-          "statement": "Hinge Health의 2분기 매출이 1년 전보다 53% 늘어 2억 1,300만 달러였고, 잉여현금흐름(영업에서 남은 현금)은 1억 달러로 3배가 됐습니다. 이 업종 강세의 중심 근거입니다.",
-          "evidence_level": "sourced",
-          "sources": [
-            {
-              "title": "Hinge Health reports record second quarter 2026 financial results; signs definitive agreement to acquire Cylinder Health",
-              "publisher": "Business Wire",
-              "url": "https://secure.businesswire.com/news/home/20260804672898/en/Hinge-Health-reports-record-second-quarter-2026-financial-results-signs-definitive-agreement-to-acquire-Cylinder-Health",
-              "date": "2026-08-04",
-              "quote": "Hinge Health reported record second quarter 2026 financial results with revenue increased 53% year-over-year to $213 million and free cash flow of $100 million, up 3x year-over-year."
-            }
-          ]
-        }
-      ],
-      "driver": "earnings",
-      "durability": "cyclical",
-      "keyStocks": [
-        "HNGE"
-      ],
-      "risk": "업종에 종목이 6개뿐이고 Hinge Health 한 곳의 영향이 커서, 이 회사의 성장이 둔해지면 강세 논리가 깨집니다. 주가가 두 달 평균보다 3.5% 아래라서, 다음 분기 매출 증가율이 높게 유지되는지가 확인 기준입니다.",
-      "factcheck": {
-        "verdict": "partial",
-        "removed": [
-          "w2",
-          "w3"
-        ],
-        "reason": "",
-        "leadFixed": true
+     "id": "w2",
+     "statement": "Dell은 지난 실적 발표 뒤 주가가 9.3% 올랐고, 시가총액 순위도 맥도날드를 앞질렀습니다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Why Is Dell Technologies (DELL) Up 9.3% Since Last Earnings Report?",
+       "publisher": "Zacks (Nasdaq 게재)",
+       "url": "https://www.nasdaq.com/articles/why-dell-technologies-dell-93-last-earnings-report",
+       "date": "2026-10-01",
+       "quote": "Why Is Dell Technologies (DELL) Up 9.3% Since Last Earnings Report?"
       },
-      "leadOriginal": "건강 정보 서비스는 디지털 건강관리 소프트웨어 기업들이 속한 업종입니다. 대표 종목 Hinge Health의 실적이 빠르게 늘고 올해 전망도 높아져 3~6개월 성과가 상위권입니다. 다만 최근 한 달은 쉬는 중이라 흐름이 이어지는지 확인이 필요합니다."
+      {
+       "title": "Dell Technologies Moves Up In Market Cap Rank, Passing McDonald's",
+       "publisher": "BNK Invest (Nasdaq 게재)",
+       "url": "https://www.nasdaq.com/articles/dell-technologies-moves-market-cap-rank-passing-mcdonalds",
+       "date": "2026-10-01",
+       "quote": "Dell Technologies Moves Up In Market Cap Rank, Passing McDonald's"
+      }
+     ]
     }
-  ],
-  "summary": {
-    "rotationView": "돈이 반도체 장비 쪽으로 새로 들어오고 있습니다. 반도체 장비는 최근 1개월 상승 강도(0.15)가 3개월(-0.01)을 크게 넘어서고, AI 칩 검사 장비 수요와 월가 분석 시작이 이를 받칩니다. 반면 헬스케어 정보 서비스는 6개월 강도(0.53)가 가장 높지만 최근 1개월(-0.03)은 꺾여, 오래 오른 뒤 힘이 빠지는 쪽입니다.",
-    "strongest": {
-      "industry": "반도체 장비·소재",
-      "why": "최근 1개월 상승 강도가 업종 전체 최상위권(상위 1% 안팎)입니다. AI 칩 검사 장비 수요가 커지고 도이체방크가 FormFactor를 매수 의견으로 분석하기 시작해, 소형주까지 매수세가 번졌습니다."
-    },
-    "emerging": [
-      "반도체 장비·소재"
+   ],
+   "driver": "earnings",
+   "durability": "cyclical",
+   "keyStocks": [
+    "P",
+    "DELL"
+   ],
+   "risk": "최근 한 달 자금 유입 속도가 꺾여 업종 순위 변화율이 크게 줄었습니다. 다음 분기 실적에서 기대만큼 전망이 오르지 않으면 이 강세 논리는 약해집니다.",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "w3"
     ],
-    "fading": [
-      "헬스케어 정보 서비스"
-    ],
-    "caution": "반도체 장비는 이미 단기간에 많이 올라 비싸다는 경계가 나오고, 헬스케어 정보 서비스의 약세도 짧은 조정일 수 있어 다음 한두 주의 흐름에 따라 해석이 뒤집힐 수 있습니다."
+    "reason": "",
+    "leadFixed": true
+   },
+   "leadOriginal": "컴퓨터 하드웨어는 서버와 저장장치를 만드는 업종입니다. 6개월 수익률이 시장 상위 1% 안에 들 만큼 강했고, 최근 한 달은 숨을 고르는 중입니다. 대표 종목 Everpure(P)와 Dell은 목표주가 상향과 주가 상승이 이어지고 있습니다."
   },
-  "failed": [],
-  "coverage": {
-    "done": 2,
-    "total": 2,
-    "cap": 6,
-    "failed": 0
+  {
+   "key": "Energy|Oil & Gas Refining & Marketing",
+   "industry": "Oil & Gas Refining & Marketing",
+   "lead": "원유를 휘발유·경유로 만들어 파는 정유 업종입니다.",
+   "whyStrong": [
+    {
+     "id": "none",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "driver": "earnings",
+   "durability": "cyclical",
+   "keyStocks": [
+    "MPC",
+    "VLO",
+    "DINO"
+   ],
+   "risk": "정유 마진(원유값과 제품값의 차이)이 줄어 이익 전망이 내려가면 이 논리가 깨집니다. 이미 1년 평균보다 47% 높아 과열 구간이라, 다음 분기 실적이 기대에 못 미치면 조정이 클 수 있습니다.",
+   "factcheck": {
+    "verdict": "reject",
+    "removed": [
+     "w1",
+     "w2",
+     "w3"
+    ],
+    "reason": "",
+    "leadFixed": true
+   },
+   "leadOriginal": "원유를 휘발유·경유로 만들어 파는 정유 업종입니다. 6개월·3개월·1개월 모두 나스닥100(QQQ) 대비 초과수익이 상위 2% 안에 들어 있습니다. 증권사 이익 전망도 올라가고 있습니다."
+  },
+  {
+   "key": "Healthcare|Diagnostics & Research",
+   "industry": "Diagnostics & Research",
+   "lead": "진단·연구 장비 업종은 유전자 분석과 암 검사에 쓰이는 기기와 서비스를 파는 곳입니다. 최근 개별 종목 기사가 늘고 주가 흐름도 시장보다 강합니다. 다만 이유를 밝힌 확인된 근거는 일부 종목 기사에 한정됩니다.",
+   "whyStrong": [
+    {
+     "id": "w2",
+     "statement": "Illumina는 인공지능(AI)을 새 성장 동력으로 내세우고 있고, 매체들이 5년 뒤 가치를 다루며 관심이 커졌습니다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Where Will Illumina Stock Be in 5 Years If Its AI Bet Pays Off?",
+       "publisher": "The Motley Fool",
+       "url": "https://www.nasdaq.com/articles/where-will-illumina-stock-be-5-years-if-its-ai-bet-pays",
+       "date": "2026-09-30",
+       "quote": "Where Will Illumina Stock Be in 5 Years If Its AI Bet Pays Off?"
+      }
+     ]
+    },
+    {
+     "id": "w3",
+     "statement": "업종 주가는 나스닥100 대비 초과수익이 3개월, 6개월 모두 상위권이고 두 달 평균보다 약 6.7% 위에 있습니다. 한 달 새 업종 순위 변동은 없습니다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "업종 자금흐름 지표",
+       "publisher": "자체 계산",
+       "url": "https://github.com/305rhfueo-ui/breakout-team",
+       "date": "2026-10-06",
+       "quote": "50일선 이격 중앙값 6.725% · 200일선 이격 중앙값 19.675%"
+      }
+     ]
+    }
+   ],
+   "driver": "earnings",
+   "durability": "unknown",
+   "risk": "종목별 주가 급등이 실적으로 이어지지 않으면 이 흐름은 꺾입니다. 또 최근 10일 업종 순위 점수가 11% 내려 힘이 약해지고 있어, 이 하락이 이어지는지 확인해야 합니다.",
+   "keyStocks": [
+    "ILMN",
+    "TWST",
+    "GRAL"
+   ],
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "w1"
+    ],
+    "reason": ""
+   }
+  },
+  {
+   "key": "Technology|Software - Infrastructure",
+   "industry": "Software - Infrastructure",
+   "lead": "인프라 소프트웨어는 보안·클라우드 네트워크 서비스를 파는 업종이다. 최근 3개월·6개월 시장 대비 성과가 상위 2% 안팎으로 강했다. AI 안전 우려로 보안주가 부각되고 있다.",
+   "whyStrong": [
+    {
+     "id": "w1",
+     "statement": "AI 안전 우려가 커지면서 사이버보안 종목이 유망주로 거론됐다. 보안 지출이 AI 확산의 부수 수혜로 읽힌다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "2 Top Cybersecurity Stocks to Buy Amid AI Safety Fears: FTNT, QLYS",
+       "publisher": "Zacks (Nasdaq)",
+       "url": "https://www.nasdaq.com/articles/2-top-cybersecurity-stocks-buy-amid-ai-safety-fears-ftnt-qlys",
+       "date": "2026-09-14",
+       "quote": "2 Top Cybersecurity Stocks to Buy Amid AI Safety Fears: FTNT, QLYS"
+      }
+     ]
+    },
+    {
+     "id": "w3",
+     "statement": "Cloudflare는 독일 통신사 도이치텔레콤과 계약을 맺어 기업 고객 확대 기대를 받는다. 모멘텀 종목으로도 분류됐다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Can Cloudflare's Deutsche Telekom Deal Drive Enterprise Growth?",
+       "publisher": "Zacks (Nasdaq)",
+       "url": "https://www.nasdaq.com/articles/can-cloudflares-deutsche-telekom-deal-drive-enterprise-growth",
+       "date": "2026-10-05",
+       "quote": "Can Cloudflare's Deutsche Telekom Deal Drive Enterprise Growth?"
+      }
+     ]
+    }
+   ],
+   "driver": "earnings",
+   "durability": "cyclical",
+   "keyStocks": [
+    "CRWD",
+    "PANW",
+    "NET",
+    "ZS",
+    "OKTA",
+    "RBRK"
+   ],
+   "risk": "최근 10거래일 자금 유입이 줄고 있어, 순위가 다시 내려가고 두 달 평균선 위 폭이 더 좁아지면 이 흐름은 꺾인 것이다. AI 보안 수요가 실제 매출 전망 상향으로 이어지지 않으면 목표가 상향도 되돌려질 수 있다.",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "w2"
+    ],
+    "reason": "",
+    "leadFixed": true
+   },
+   "leadOriginal": "인프라 소프트웨어는 보안·클라우드 네트워크 서비스를 파는 업종이다. 최근 3개월·6개월 시장 대비 성과가 상위 2% 안팎으로 강했다. AI 안전 우려로 보안주가 부각되고 애널리스트 목표가가 올랐지만, 최근 한 달은 힘이 빠지는 중이다."
   }
+ ],
+ "summary": {
+  "rotationView": "돈이 컴퓨터 하드웨어에서 빠져나와 진단·연구 업종으로 옮겨 가는 모습입니다. 석유 정제·판매는 1개월·3개월·6개월 모두 상위권을 지켜 흐름이 가장 꾸준합니다. 소프트웨어 인프라는 3개월 때 가장 강했다가 최근 한 달은 순위가 내려왔습니다.",
+  "strongest": {
+   "industry": "석유 정제·판매",
+   "why": "최근 1개월, 3개월, 6개월 모두 업종 순위가 상위 2% 안팎에 들어 강세가 끊기지 않았습니다. 다만 왜 강한지 설명할 근거는 확인되지 않았고, 한 달 순위는 3개월 때보다 조금 낮아졌습니다."
+  },
+  "emerging": [
+   "진단·연구"
+  ],
+  "fading": [
+   "컴퓨터 하드웨어",
+   "소프트웨어 인프라"
+  ],
+  "caution": "진단·연구의 최근 강세는 6개월 점수가 낮은 데서 오는 착시일 수 있고, 컴퓨터 하드웨어도 6개월 강세가 워낙 커서 한 달 둔화가 일시적 숨 고르기일 수 있습니다."
+ },
+ "failed": [],
+ "coverage": {
+  "done": 4,
+  "total": 4,
+  "cap": 6,
+  "failed": 0
+ }
 }

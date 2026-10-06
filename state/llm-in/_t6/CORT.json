@@ -1,22 +1,105 @@
 {
  "ticker": "CORT",
- "sector": "Healthcare",
- "industry": "Biotechnology",
- "nameKo": "코셉트 테라퓨틱스",
+ "date": "2026-10-06",
+ "session": "2026-10-05",
+ "plan": {
+  "ticker": "CORT",
+  "name": "코셉트 테라퓨틱스",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "grade": "A",
+  "state": "pre",
+  "asOf": "2026-10-05",
+  "price": 122.03,
+  "pivot": 126.38,
+  "pivotDate": "2026-08-25",
+  "stop": 120.41,
+  "riskPerSharePct": 4.72,
+  "weightPct": 10.6,
+  "weightCapped": false,
+  "distToPivotPct": -3.44,
+  "distToPivotAdr": -0.7,
+  "extensionAdr": 0.96,
+  "chase": false,
+  "adrPct": 4.89,
+  "ma10": 116.3,
+  "dollarVol20M": 200.8,
+  "liquid": true,
+  "reasons": [
+   "선행 상승 +132%",
+   "베이스 7주",
+   "깊이 14.3%",
+   "저점 상승 1회",
+   "진폭 1.01배 · 10일 종가폭 1.5 ADR",
+   "10일선 +1 ADR · 20일선 +1.2 ADR",
+   "20일선 기울기 +0.91%"
+  ],
+  "fails": [],
+  "metrics": {
+   "baseBars": 35,
+   "baseWeeks": 7,
+   "depthPct": 14.3,
+   "priorMovePct": 131.5,
+   "higherLows": 1,
+   "contraction": 1.01,
+   "closeRange10Adr": 1.5,
+   "surf10": 0.96,
+   "surf20": 1.23,
+   "slope20": 0.91,
+   "baseLow": 108.25,
+   "lastSwingLow": 108.41
+  },
+  "catalyst": null,
+  "flow": {
+   "flow": "outflow",
+   "stageKo": "❄️ 조정 중",
+   "frank25": -7
+  },
+  "earnings": null,
+  "blocked": null,
+  "shadowBook": null,
+  "watch": true,
+  "score": 66.6
+ },
  "site": {
+  "rs": {
+   "m1": {
+    "v": 0.09326281828131933,
+    "pct": 89.90793201133145
+   },
+   "m3": {
+    "v": 0.32814543346927794,
+    "pct": 95.78611898016997
+   },
+   "m6": {
+    "v": 1.7937270587618828,
+    "pct": 99.32719546742209
+   }
+  },
+  "ret1m": 9.33,
+  "ret3m": 32.81,
+  "ret6m": 179.37,
+  "marketCap": "12.56B",
+  "volx": 0.61,
+  "volSurgeWk": 1.03,
+  "high52": 96.56,
+  "newHigh52": false,
+  "adr": 4.89,
+  "div50": 7.49,
+  "div200": 74.01,
   "targetStatus": true,
   "saleCy": 50.53,
   "saleNy": 48.75,
   "epsCy": 162.2,
   "epsNy": 104.77,
+  "cyTrend": 286.23,
+  "nyTrend": 37.29,
   "est": {
    "cyCur": 2.15,
    "cy30": 0.55667,
    "nyCur": 4.4025,
    "ny30": 3.20667
   },
-  "newHigh52": false,
-  "bbCenterBrk5d": false,
   "fs": {
    "sale": [
     31.74,
@@ -48,6 +131,31 @@
    "m3": 0,
    "m6": 48
   }
+ },
+ "flow": {
+  "FRANK": 10,
+  "frank25": -7,
+  "d50": -7.4399999999999995,
+  "d200": 6.25,
+  "d200Delta": -12.11,
+  "cy": 0,
+  "ny": 0.13,
+  "upRatio": 51.63249810174639,
+  "coverage": 1317,
+  "winRate": 0.5714,
+  "stageKo": "❄️ 조정 중",
+  "flow": "outflow"
+ },
+ "eye": {
+  "score": 8,
+  "reasons": [
+   "최근 1주 거래량이 한 달 평균의 0.53배로 줄었다(팔 사람이 줄어듦)",
+   "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.1, 최저 0.08)",
+   "넘어야 할 선 $126.38 바로 아래(-3.44%)",
+   "최근 2주 종가가 2.21% 안에서만 움직였다",
+   "1년 최고가의 96.56% 자리"
+  ],
+  "resistance": 126.38
  },
  "detail": {
   "fetchedAt": "2026-10-06",
@@ -220,5 +328,130 @@
    "total": 0,
    "reports": []
   }
+ },
+ "detailNote": null,
+ "chart": {
+  "lastBar": "2026-10-05",
+  "numbers": {
+   "price": 122.03,
+   "ma20": 114.68,
+   "ma50": 113.53,
+   "ma150": 78.09,
+   "distMA50": 7.49,
+   "periodHigh": 126.38,
+   "pullbackFromHigh": -3.44,
+   "volRatio20": 0.56,
+   "dryUpRatio": 0.53
+  },
+  "last10": [
+   {
+    "d": "2026-09-22",
+    "o": 113.96,
+    "h": 119,
+    "l": 113.09,
+    "c": 117.51,
+    "v": 810200,
+    "clsPos": 75,
+    "gapPct": 0.18
+   },
+   {
+    "d": "2026-09-23",
+    "o": 117.33,
+    "h": 118.79,
+    "l": 112.05,
+    "c": 112.94,
+    "v": 809800,
+    "clsPos": 13,
+    "gapPct": -0.15
+   },
+   {
+    "d": "2026-09-24",
+    "o": 111.86,
+    "h": 119.15,
+    "l": 111.68,
+    "c": 118.51,
+    "v": 983600,
+    "clsPos": 91,
+    "gapPct": -0.96
+   },
+   {
+    "d": "2026-09-25",
+    "o": 119,
+    "h": 120.44,
+    "l": 114.51,
+    "c": 116.1,
+    "v": 800800,
+    "clsPos": 27,
+    "gapPct": 0.41
+   },
+   {
+    "d": "2026-09-28",
+    "o": 116,
+    "h": 117.07,
+    "l": 114.36,
+    "c": 115.63,
+    "v": 1149000,
+    "clsPos": 47,
+    "gapPct": -0.09
+   },
+   {
+    "d": "2026-09-29",
+    "o": 115.92,
+    "h": 120.51,
+    "l": 113.16,
+    "c": 114.74,
+    "v": 964400,
+    "clsPos": 21,
+    "gapPct": 0.25
+   },
+   {
+    "d": "2026-09-30",
+    "o": 114.8,
+    "h": 118.07,
+    "l": 113.98,
+    "c": 115.23,
+    "v": 910300,
+    "clsPos": 31,
+    "gapPct": 0.05
+   },
+   {
+    "d": "2026-10-01",
+    "o": 114.29,
+    "h": 115.98,
+    "l": 111.94,
+    "c": 114.03,
+    "v": 879000,
+    "clsPos": 52,
+    "gapPct": -0.82
+   },
+   {
+    "d": "2026-10-02",
+    "o": 114.38,
+    "h": 117.32,
+    "l": 113.9,
+    "c": 116.23,
+    "v": 960200,
+    "clsPos": 68,
+    "gapPct": 0.31
+   },
+   {
+    "d": "2026-10-05",
+    "o": 115.59,
+    "h": 122.81,
+    "l": 115.5,
+    "c": 122.03,
+    "v": 1004800,
+    "clsPos": 89,
+    "gapPct": -0.55
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CORT-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CORT-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선을 넘은 지 12일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
  }
 }

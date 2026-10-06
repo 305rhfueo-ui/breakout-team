@@ -1,105 +1,22 @@
 {
  "ticker": "NET",
- "date": "2026-10-06",
- "session": "2026-10-05",
- "plan": {
-  "ticker": "NET",
-  "name": "클라우드플레어",
-  "sector": "Technology",
-  "industry": "Software - Infrastructure",
-  "grade": "A",
-  "state": "pre",
-  "asOf": "2026-10-05",
-  "price": 359.49,
-  "pivot": 367.43,
-  "pivotDate": "2026-09-24",
-  "stop": 348.66,
-  "riskPerSharePct": 5.11,
-  "weightPct": 9.8,
-  "weightCapped": false,
-  "distToPivotPct": -2.16,
-  "distToPivotAdr": -0.41,
-  "extensionAdr": 0.37,
-  "chase": false,
-  "adrPct": 5.22,
-  "ma10": 352.63,
-  "dollarVol20M": 1069.2,
-  "liquid": true,
-  "reasons": [
-   "선행 상승 +73%",
-   "베이스 3주",
-   "깊이 15.9%",
-   "저점 상승 1회",
-   "진폭 0.73배 · 10일 종가폭 0.7 ADR",
-   "10일선 +0.4 ADR · 20일선 +1.2 ADR",
-   "20일선 기울기 +5.19%"
-  ],
-  "fails": [],
-  "metrics": {
-   "baseBars": 15,
-   "baseWeeks": 3,
-   "depthPct": 15.9,
-   "priorMovePct": 73.1,
-   "higherLows": 1,
-   "contraction": 0.73,
-   "closeRange10Adr": 0.7,
-   "surf10": 0.37,
-   "surf20": 1.21,
-   "slope20": 5.19,
-   "baseLow": 309,
-   "lastSwingLow": 338.67
-  },
-  "catalyst": null,
-  "flow": {
-   "flow": "outflow",
-   "stageKo": "🔶 중반이나 수축 중",
-   "frank25": 2
-  },
-  "earnings": null,
-  "blocked": null,
-  "shadowBook": null,
-  "watch": true,
-  "score": 67.8
- },
+ "sector": "Technology",
+ "industry": "Software - Infrastructure",
+ "nameKo": "클라우드플레어",
  "site": {
-  "rs": {
-   "m1": {
-    "v": 0.28886409338824864,
-    "pct": 98.19405099150141
-   },
-   "m3": {
-    "v": 0.33938151419266394,
-    "pct": 96.21104815864022
-   },
-   "m6": {
-    "v": 1.0122586202979398,
-    "pct": 96.9900849858357
-   }
-  },
-  "ret1m": 28.89,
-  "ret3m": 33.94,
-  "ret6m": 101.23,
-  "marketCap": "124.30B",
-  "volx": 1.07,
-  "volSurgeWk": 1.2,
-  "high52": 97.84,
-  "newHigh52": false,
-  "adr": 5.22,
-  "div50": 16.09,
-  "div200": 52.32,
   "targetStatus": false,
   "saleCy": 32.46,
   "saleNy": 28.71,
   "epsCy": 35.82,
   "epsNy": 32.69,
-  "cyTrend": -0.01,
-  "nyTrend": 0.18,
   "est": {
    "cyCur": 1.26316,
    "cy30": 1.26327,
    "nyCur": 1.67614,
    "ny30": 1.67311
   },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
   "fs": {
    "sale": [
     35.87,
@@ -132,21 +49,6 @@
    "m6": 0
   }
  },
- "flow": {
-  "FRANK": 4,
-  "frank25": 2,
-  "d50": 3.04,
-  "d200": 15.23,
-  "d200Delta": -9.129999999999999,
-  "cy": 0.02,
-  "ny": 0.43,
-  "upRatio": 79.36425221469516,
-  "coverage": 1919,
-  "winRate": 0.7576,
-  "stageKo": "🔶 중반이나 수축 중",
-  "flow": "outflow"
- },
- "eye": null,
  "detail": {
   "fetchedAt": "2026-10-06",
   "nameKo": "클라우드플레어",
@@ -328,130 +230,5 @@
    "total": 0,
    "reports": []
   }
- },
- "detailNote": null,
- "chart": {
-  "lastBar": "2026-10-05",
-  "numbers": {
-   "price": 359.49,
-   "ma20": 336.69,
-   "ma50": 309.67,
-   "ma150": 252.86,
-   "distMA50": 16.09,
-   "periodHigh": 367.43,
-   "pullbackFromHigh": -2.16,
-   "volRatio20": 1,
-   "dryUpRatio": 0.85
-  },
-  "last10": [
-   {
-    "d": "2026-09-22",
-    "o": 352.46,
-    "h": 357.1,
-    "l": 345.3,
-    "c": 353,
-    "v": 3315100,
-    "clsPos": 65,
-    "gapPct": 0.22
-   },
-   {
-    "d": "2026-09-23",
-    "o": 355.4,
-    "h": 364.23,
-    "l": 351,
-    "c": 352.33,
-    "v": 2918800,
-    "clsPos": 10,
-    "gapPct": 0.68
-   },
-   {
-    "d": "2026-09-24",
-    "o": 349.8,
-    "h": 367.43,
-    "l": 347.88,
-    "c": 358.82,
-    "v": 3159100,
-    "clsPos": 56,
-    "gapPct": -0.72
-   },
-   {
-    "d": "2026-09-25",
-    "o": 360.8,
-    "h": 364,
-    "l": 344.27,
-    "c": 349.02,
-    "v": 3168800,
-    "clsPos": 24,
-    "gapPct": 0.55
-   },
-   {
-    "d": "2026-09-28",
-    "o": 339.25,
-    "h": 357,
-    "l": 338.67,
-    "c": 353.99,
-    "v": 2821900,
-    "clsPos": 84,
-    "gapPct": -2.8
-   },
-   {
-    "d": "2026-09-29",
-    "o": 351.92,
-    "h": 356.72,
-    "l": 348.01,
-    "c": 352.26,
-    "v": 2156500,
-    "clsPos": 49,
-    "gapPct": -0.58
-   },
-   {
-    "d": "2026-09-30",
-    "o": 351,
-    "h": 357.64,
-    "l": 346.15,
-    "c": 347.28,
-    "v": 2589900,
-    "clsPos": 10,
-    "gapPct": -0.36
-   },
-   {
-    "d": "2026-10-01",
-    "o": 350.01,
-    "h": 353.84,
-    "l": 342.11,
-    "c": 351,
-    "v": 2774300,
-    "clsPos": 76,
-    "gapPct": 0.79
-   },
-   {
-    "d": "2026-10-02",
-    "o": 351.8,
-    "h": 354.58,
-    "l": 344.51,
-    "c": 349.07,
-    "v": 2834400,
-    "clsPos": 45,
-    "gapPct": 0.23
-   },
-   {
-    "d": "2026-10-05",
-    "o": 351.13,
-    "h": 366.13,
-    "l": 348.57,
-    "c": 359.49,
-    "v": 3171900,
-    "clsPos": 62,
-    "gapPct": 0.59
-   }
-  ],
-  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/NET-3m.png",
-  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/NET-6m.png"
- },
- "market": {
-  "verdict": "green",
-  "ko": "🟢 10일선이 20일선을 넘은 지 12일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
-  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
-  "finraLevel": "warn"
  }
 }

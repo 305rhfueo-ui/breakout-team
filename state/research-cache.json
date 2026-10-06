@@ -158,16 +158,16 @@
   },
   "team2": {
     "QLYS": {
-      "last": "2026-10-02",
-      "count": 12
+      "last": "2026-10-06",
+      "count": 13
     },
     "BAND": {
-      "last": "2026-09-29",
-      "count": 15
+      "last": "2026-10-06",
+      "count": 16
     },
     "DELL": {
-      "last": "2026-10-03",
-      "count": 23
+      "last": "2026-10-06",
+      "count": 24
     },
     "OKTA": {
       "last": "2026-10-02",
@@ -178,8 +178,8 @@
       "count": 16
     },
     "PANW": {
-      "last": "2026-10-03",
-      "count": 14
+      "last": "2026-10-06",
+      "count": 15
     },
     "TWLO": {
       "last": "2026-10-02",
@@ -190,8 +190,8 @@
       "count": 3
     },
     "CRWD": {
-      "last": "2026-10-02",
-      "count": 10
+      "last": "2026-10-06",
+      "count": 11
     },
     "TEAM": {
       "last": "2026-09-30",
@@ -298,8 +298,8 @@
       "count": 13
     },
     "MXL": {
-      "last": "2026-10-03",
-      "count": 16
+      "last": "2026-10-06",
+      "count": 17
     },
     "AXTI": {
       "last": "2026-09-30",
@@ -314,8 +314,8 @@
       "count": 17
     },
     "CORT": {
-      "last": "2026-10-03",
-      "count": 17
+      "last": "2026-10-06",
+      "count": 18
     },
     "AEHR": {
       "last": "2026-10-02",
@@ -570,8 +570,8 @@
       "count": 5
     },
     "SMTC": {
-      "last": "2026-10-03",
-      "count": 11
+      "last": "2026-10-06",
+      "count": 12
     },
     "DAVE": {
       "last": "2026-09-09",
@@ -602,8 +602,8 @@
       "count": 1
     },
     "ZS": {
-      "last": "2026-09-16",
-      "count": 2
+      "last": "2026-10-06",
+      "count": 3
     },
     "DUOL": {
       "last": "2026-09-16",
@@ -638,20 +638,20 @@
       "count": 1
     },
     "ILMN": {
-      "last": "2026-09-30",
-      "count": 2
+      "last": "2026-10-06",
+      "count": 3
     },
     "RBRK": {
-      "last": "2026-10-03",
-      "count": 4
+      "last": "2026-10-06",
+      "count": 5
     },
     "BLLN": {
       "last": "2026-09-30",
       "count": 2
     },
     "SEI": {
-      "last": "2026-10-03",
-      "count": 4
+      "last": "2026-10-06",
+      "count": 5
     },
     "VICR": {
       "last": "2026-10-03",
@@ -662,8 +662,8 @@
       "count": 1
     },
     "NET": {
-      "last": "2026-09-29",
-      "count": 1
+      "last": "2026-10-06",
+      "count": 2
     },
     "GRAL": {
       "last": "2026-09-30",
@@ -678,12 +678,12 @@
       "count": 3
     },
     "VLO": {
-      "last": "2026-09-30",
-      "count": 1
+      "last": "2026-10-06",
+      "count": 2
     },
     "ECO": {
-      "last": "2026-10-01",
-      "count": 1
+      "last": "2026-10-06",
+      "count": 2
     },
     "CLS": {
       "last": "2026-10-03",
@@ -692,6 +692,18 @@
     "INOD": {
       "last": "2026-10-03",
       "count": 2
+    },
+    "MPC": {
+      "last": "2026-10-06",
+      "count": 1
+    },
+    "MTRN": {
+      "last": "2026-10-06",
+      "count": 1
+    },
+    "RMBS": {
+      "last": "2026-10-06",
+      "count": 1
     }
   },
   "team4": {
@@ -1433,9 +1445,10 @@
       "cat": 4
     },
     "FEIM": {
-      "last": "2026-09-14",
-      "count": 1,
-      "cat": 1
+      "last": "2026-10-06",
+      "count": 2,
+      "cat": 1,
+      "evid": "2f4b9f3e0aaf50f5"
     },
     "TRP": {
       "last": "2026-09-14",
@@ -1525,10 +1538,10 @@
       "evid": "412c8fa01ce9e2d6"
     },
     "SWKS": {
-      "last": "2026-09-16",
-      "count": 1,
-      "cat": 4,
-      "evid": "d17add8be4b43831"
+      "last": "2026-10-06",
+      "count": 2,
+      "cat": 6,
+      "evid": "36dca144f283ed56"
     },
     "ZION": {
       "last": "2026-09-16",
@@ -1681,10 +1694,10 @@
       "evid": "c9a8aec936d738a8"
     },
     "MELI": {
-      "last": "2026-09-17",
-      "count": 1,
+      "last": "2026-10-06",
+      "count": 2,
       "cat": 6,
-      "evid": "4894a6fdd45a154b"
+      "evid": "6976bdab45dc96b2"
     },
     "FBNC": {
       "last": "2026-09-17",
@@ -1945,10 +1958,10 @@
       "evid": "56a418f583ac969d"
     },
     "MDT": {
-      "last": "2026-09-30",
-      "count": 2,
+      "last": "2026-10-06",
+      "count": 3,
       "cat": 6,
-      "evid": "9a0530b3d1e4545e"
+      "evid": "757258d2e1d500f1"
     },
     "TRNS": {
       "last": "2026-09-29",
@@ -2093,12 +2106,60 @@
       "count": 2,
       "cat": 6,
       "evid": "f4445fdbbbf21d38"
+    },
+    "PTC": {
+      "last": "2026-10-06",
+      "count": 1,
+      "cat": 3,
+      "evid": "4b97dffb34fb6d42"
+    },
+    "TWLO": {
+      "last": "2026-10-06",
+      "count": 1,
+      "cat": 6,
+      "evid": "40e89c7c1ab79275"
+    },
+    "FORM": {
+      "last": "2026-10-06",
+      "count": 1,
+      "cat": 6,
+      "evid": "723fc8bae42ffacd"
+    },
+    "PCVX": {
+      "last": "2026-10-06",
+      "count": 1,
+      "cat": 2,
+      "evid": "764154978a4b3316"
+    },
+    "BNS": {
+      "last": "2026-10-06",
+      "count": 1,
+      "cat": 6,
+      "evid": "fb36b7b8e7b800ee"
+    },
+    "MTRN": {
+      "last": "2026-10-06",
+      "count": 1,
+      "cat": 6,
+      "evid": "221a737bdfa9ab93"
+    },
+    "HNGE": {
+      "last": "2026-10-06",
+      "count": 1,
+      "cat": 6,
+      "evid": "10a44726745699c2"
+    },
+    "ASO": {
+      "last": "2026-10-06",
+      "count": 1,
+      "cat": 6,
+      "evid": "b10e07c626ee05e3"
     }
   },
   "team5": {
     "Technology|Computer Hardware": {
-      "last": "2026-09-29",
-      "count": 7,
+      "last": "2026-10-06",
+      "count": 8,
       "rankPct6": 0.71
     },
     "Technology|Electronics & Computer Distribution": {
@@ -2107,9 +2168,9 @@
       "rankPct6": 2.86
     },
     "Energy|Oil & Gas Refining & Marketing": {
-      "last": "2026-09-29",
-      "count": 7,
-      "rankPct6": 2.14
+      "last": "2026-10-06",
+      "count": 8,
+      "rankPct6": 1.43
     },
     "Basic Materials|Coking Coal": {
       "last": "2026-09-14",
@@ -2157,14 +2218,14 @@
       "rankPct6": 6.43
     },
     "Healthcare|Diagnostics & Research": {
-      "last": "2026-09-18",
-      "count": 1,
+      "last": "2026-10-06",
+      "count": 2,
       "rankPct6": 5.71
     },
     "Technology|Software - Infrastructure": {
-      "last": "2026-09-29",
-      "count": 5,
-      "rankPct6": 3.57
+      "last": "2026-10-06",
+      "count": 6,
+      "rankPct6": 2.14
     },
     "Industrials|Electrical Equipment & Parts": {
       "last": "2026-09-29",
@@ -2187,27 +2248,39 @@
       "count": 1
     },
     "SIMO": {
-      "last": "2026-10-03",
-      "count": 1
+      "last": "2026-10-06",
+      "count": 2
     },
     "FEIM": {
-      "last": "2026-10-03",
-      "count": 1
+      "last": "2026-10-06",
+      "count": 2
     },
     "XMTR": {
       "last": "2026-10-03",
       "count": 1
     },
     "NET": {
-      "last": "2026-10-03",
-      "count": 1
+      "last": "2026-10-06",
+      "count": 2
     },
     "VLO": {
       "last": "2026-10-03",
       "count": 1
     },
     "DINO": {
-      "last": "2026-10-03",
+      "last": "2026-10-06",
+      "count": 2
+    },
+    "CORT": {
+      "last": "2026-10-06",
+      "count": 1
+    },
+    "MSTR": {
+      "last": "2026-10-06",
+      "count": 1
+    },
+    "ALAB": {
+      "last": "2026-10-06",
       "count": 1
     }
   }

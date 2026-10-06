@@ -521,8 +521,225 @@ window.TEAM5_DATA = {
   ],
   "sectorNote": "섹터는 12개뿐이라 상위 2%가 0개입니다 — 순위표로 제공합니다",
   "llm": {
-    "status": "carried",
+    "status": "done",
     "industries": [
+      {
+        "key": "Technology|Computer Hardware",
+        "industry": "Computer Hardware",
+        "lead": "컴퓨터 하드웨어는 서버와 저장장치를 만드는 업종입니다. 대표 종목 Everpure(P)와 Dell은 목표주가 상향과 주가 상승이 이어지고 있습니다.",
+        "whyStrong": [
+          {
+            "id": "w1",
+            "statement": "Everpure(P)는 증권사 목표주가 평균이 한 번에 11% 올랐습니다. 실적 전망이 좋아졌다는 신호입니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Everpure Consensus Price Target Raised 11.24% to $146.34",
+                "publisher": "Fintel (Nasdaq 게재)",
+                "url": "https://www.nasdaq.com/articles/everpure-consensus-price-target-raised-1124-14634",
+                "date": "2026-10-02",
+                "quote": "Everpure Consensus Price Target Raised 11.24% to $146.34",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "Dell은 지난 실적 발표 뒤 주가가 9.3% 올랐고, 시가총액 순위도 맥도날드를 앞질렀습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Is Dell Technologies (DELL) Up 9.3% Since Last Earnings Report?",
+                "publisher": "Zacks (Nasdaq 게재)",
+                "url": "https://www.nasdaq.com/articles/why-dell-technologies-dell-93-last-earnings-report",
+                "date": "2026-10-01",
+                "quote": "Why Is Dell Technologies (DELL) Up 9.3% Since Last Earnings Report?",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Dell Technologies Moves Up In Market Cap Rank, Passing McDonald's",
+                "publisher": "BNK Invest (Nasdaq 게재)",
+                "url": "https://www.nasdaq.com/articles/dell-technologies-moves-market-cap-rank-passing-mcdonalds",
+                "date": "2026-10-01",
+                "quote": "Dell Technologies Moves Up In Market Cap Rank, Passing McDonald's",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "earnings",
+        "durability": "cyclical",
+        "keyStocks": [
+          "P",
+          "DELL"
+        ],
+        "risk": "최근 한 달 자금 유입 속도가 꺾여 업종 순위 변화율이 크게 줄었습니다. 다음 분기 실적에서 기대만큼 전망이 오르지 않으면 이 강세 논리는 약해집니다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w3"
+          ],
+          "reason": "",
+          "leadFixed": true
+        },
+        "leadOriginal": "컴퓨터 하드웨어는 서버와 저장장치를 만드는 업종입니다. 6개월 수익률이 시장 상위 1% 안에 들 만큼 강했고, 최근 한 달은 숨을 고르는 중입니다. 대표 종목 Everpure(P)와 Dell은 목표주가 상향과 주가 상승이 이어지고 있습니다.",
+        "researchedOn": "2026-10-06",
+        "carried": false
+      },
+      {
+        "key": "Energy|Oil & Gas Refining & Marketing",
+        "industry": "Oil & Gas Refining & Marketing",
+        "lead": "원유를 휘발유·경유로 만들어 파는 정유 업종입니다.",
+        "whyStrong": [
+          {
+            "id": "none",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "driver": "earnings",
+        "durability": "cyclical",
+        "keyStocks": [
+          "MPC",
+          "VLO",
+          "DINO"
+        ],
+        "risk": "정유 마진(원유값과 제품값의 차이)이 줄어 이익 전망이 내려가면 이 논리가 깨집니다. 이미 1년 평균보다 47% 높아 과열 구간이라, 다음 분기 실적이 기대에 못 미치면 조정이 클 수 있습니다.",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "reason": "",
+          "leadFixed": true
+        },
+        "leadOriginal": "원유를 휘발유·경유로 만들어 파는 정유 업종입니다. 6개월·3개월·1개월 모두 나스닥100(QQQ) 대비 초과수익이 상위 2% 안에 들어 있습니다. 증권사 이익 전망도 올라가고 있습니다.",
+        "researchedOn": "2026-10-06",
+        "carried": false
+      },
+      {
+        "key": "Healthcare|Diagnostics & Research",
+        "industry": "Diagnostics & Research",
+        "lead": "진단·연구 장비 업종은 유전자 분석과 암 검사에 쓰이는 기기와 서비스를 파는 곳입니다. 최근 개별 종목 기사가 늘고 주가 흐름도 시장보다 강합니다. 다만 이유를 밝힌 확인된 근거는 일부 종목 기사에 한정됩니다.",
+        "whyStrong": [
+          {
+            "id": "w2",
+            "statement": "Illumina는 인공지능(AI)을 새 성장 동력으로 내세우고 있고, 매체들이 5년 뒤 가치를 다루며 관심이 커졌습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Where Will Illumina Stock Be in 5 Years If Its AI Bet Pays Off?",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/where-will-illumina-stock-be-5-years-if-its-ai-bet-pays",
+                "date": "2026-09-30",
+                "quote": "Where Will Illumina Stock Be in 5 Years If Its AI Bet Pays Off?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "업종 주가는 나스닥100 대비 초과수익이 3개월, 6개월 모두 상위권이고 두 달 평균보다 약 6.7% 위에 있습니다. 한 달 새 업종 순위 변동은 없습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "업종 자금흐름 지표",
+                "publisher": "자체 계산",
+                "url": "https://github.com/305rhfueo-ui/breakout-team",
+                "date": "2026-10-06",
+                "quote": "50일선 이격 중앙값 6.725% · 200일선 이격 중앙값 19.675%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "earnings",
+        "durability": "unknown",
+        "risk": "종목별 주가 급등이 실적으로 이어지지 않으면 이 흐름은 꺾입니다. 또 최근 10일 업종 순위 점수가 11% 내려 힘이 약해지고 있어, 이 하락이 이어지는지 확인해야 합니다.",
+        "keyStocks": [
+          "ILMN",
+          "TWST",
+          "GRAL"
+        ],
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1"
+          ],
+          "reason": ""
+        },
+        "researchedOn": "2026-10-06",
+        "carried": false
+      },
+      {
+        "key": "Technology|Software - Infrastructure",
+        "industry": "Software - Infrastructure",
+        "lead": "인프라 소프트웨어는 보안·클라우드 네트워크 서비스를 파는 업종이다. 최근 3개월·6개월 시장 대비 성과가 상위 2% 안팎으로 강했다. AI 안전 우려로 보안주가 부각되고 있다.",
+        "whyStrong": [
+          {
+            "id": "w1",
+            "statement": "AI 안전 우려가 커지면서 사이버보안 종목이 유망주로 거론됐다. 보안 지출이 AI 확산의 부수 수혜로 읽힌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "2 Top Cybersecurity Stocks to Buy Amid AI Safety Fears: FTNT, QLYS",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/2-top-cybersecurity-stocks-buy-amid-ai-safety-fears-ftnt-qlys",
+                "date": "2026-09-14",
+                "quote": "2 Top Cybersecurity Stocks to Buy Amid AI Safety Fears: FTNT, QLYS",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "Cloudflare는 독일 통신사 도이치텔레콤과 계약을 맺어 기업 고객 확대 기대를 받는다. 모멘텀 종목으로도 분류됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Can Cloudflare's Deutsche Telekom Deal Drive Enterprise Growth?",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/can-cloudflares-deutsche-telekom-deal-drive-enterprise-growth",
+                "date": "2026-10-05",
+                "quote": "Can Cloudflare's Deutsche Telekom Deal Drive Enterprise Growth?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "driver": "earnings",
+        "durability": "cyclical",
+        "keyStocks": [
+          "CRWD",
+          "PANW",
+          "NET",
+          "ZS",
+          "OKTA",
+          "RBRK"
+        ],
+        "risk": "최근 10거래일 자금 유입이 줄고 있어, 순위가 다시 내려가고 두 달 평균선 위 폭이 더 좁아지면 이 흐름은 꺾인 것이다. AI 보안 수요가 실제 매출 전망 상향으로 이어지지 않으면 목표가 상향도 되돌려질 수 있다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w2"
+          ],
+          "reason": "",
+          "leadFixed": true
+        },
+        "leadOriginal": "인프라 소프트웨어는 보안·클라우드 네트워크 서비스를 파는 업종이다. 최근 3개월·6개월 시장 대비 성과가 상위 2% 안팎으로 강했다. AI 안전 우려로 보안주가 부각되고 애널리스트 목표가가 올랐지만, 최근 한 달은 힘이 빠지는 중이다.",
+        "researchedOn": "2026-10-06",
+        "carried": false
+      },
       {
         "key": "Technology|Semiconductor Equipment & Materials",
         "industry": "Semiconductor Equipment & Materials",
@@ -686,41 +903,6 @@ window.TEAM5_DATA = {
         "carried": true
       },
       {
-        "key": "Technology|Computer Hardware",
-        "industry": "Computer Hardware",
-        "lead": "근거 없음 — 출처 검증을 통과한 강세 사유가 없다 (4개 주장 제거: 숫자·날짜가 인용문에 없음)",
-        "whyStrong": [
-          {
-            "id": "none",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "driver": "earnings",
-        "durability": "cyclical",
-        "risk": "Micron FY4Q(9/30) 실적·가이던스가 메모리 공급과잉 우려(9/28 삼성전자 -5.4%, SK Hynix -5.1%)를 키우면 SNDK 리레이팅이 훼손된다. DELL은 $95B 백로그의 인도 속도와 GPU 등 공급망 제약이 마진에 반영되지 않으면 논리가 약해진다. 미 10년물 금리가 5.22% 부근인 상태에서 200일선 이격 중앙값 37.37%의 과열은 조정 폭을 키울 수 있다. 컨센서스 상향 비율 86.99%가 꺾이고 FRANK가 1위에서 이탈하면 강세 논리가 붕괴한 것으로 본다.",
-        "keyStocks": [
-          "P",
-          "DELL",
-          "SNDK"
-        ],
-        "factcheck": {
-          "verdict": "reject",
-          "removed": [
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "reason": "",
-          "leadFixed": true
-        },
-        "leadOriginal": "Computer Hardware(9종목)는 AI 인프라 지출이 서버(DELL)·스토리지(P)·NAND(SNDK)로 번지며 WRS(업종 내 시총가중 평균 RS, QQQ 대비 초과수익률) 1개월 0.1263(상위 0.71%)·6개월 1.2681(상위 0.71%), FRANK 1위로 leading 국면(상승 중반)이다. 서버 백로그, 스토리지 중기 가이던스, 메모리 수급 타이트 전망이 근거다. 다만 9/28 메모리 동반 조정이 나와 Micron 실적(9/30)이 단기 분기점이다.",
-        "researchedOn": "2026-09-29",
-        "carried": true
-      },
-      {
         "key": "Technology|Semiconductors",
         "industry": "Semiconductors",
         "lead": "Semiconductors(43종목)는 WRS(업종 내 시총가중 평균 RS, QQQ 대비 초과수익률) 6개월 0.6148로 상위 1.43%, 1개월 0.0651(상위 5.71%), 3개월 0.0603(상위 18.57%)이며 Final_WRS 순위(FRANK)는 2위로 25거래일간 +1 상승했다. 200일선 이격 중앙값은 14.755%(25거래일 +2.035%p), 50일선 이격은 4.31%로 국면은 상승 초입·leading이다. 강세의 실체는 AI 인프라 연결·광 소재 종목군과 RF 업종 재편(Skyworks-Qorvo)이며, 컨센서스 상향 비율 79.24%(n=2076)가 뒷받침한다.",
@@ -826,139 +1008,6 @@ window.TEAM5_DATA = {
           "leadFixed": true
         },
         "leadOriginal": "Electrical Equipment & Parts는 12종목 업종으로, 1개월 WRS 0.0867(QQQ 대비 시총가중 초과수익률, 상위 1.43%)·6개월 WRS 0.3847(상위 6.43%)로 강하지만 3개월 WRS -0.0932(상위 77.14%)라 강세가 중간에 끊겼다가 재개된 형태다. 2팀 선정 종목 BE(Bloom Energy)의 AI 데이터센터 온사이트 전력 수요와 백로그 기사가 memberNews의 중심이다. 자금흐름은 Final_WRS 순위 11위(25거래일 +15)로 개선됐으나 국면은 미형성·pending이다.",
-        "researchedOn": "2026-09-29",
-        "carried": true
-      },
-      {
-        "key": "Energy|Oil & Gas Refining & Marketing",
-        "industry": "Oil & Gas Refining & Marketing",
-        "lead": "Oil & Gas Refining & Marketing(업종 내 7종목, 2팀 선정 DINO·VLO)은 원유를 정제해 휘발유·디젤을 판매하는 정유 업종으로, 3개월 WRS(업종 내 시총가중 평균 RS, QQQ 대비 초과수익률) 0.4501(상위 0.71%), 6개월 0.5547(상위 2.14%)로 중장기 상대강도가 최상위다. 다만 1개월 WRS는 0.0826(상위 2.86%)로 둔화됐고 Final_WRS 순위(FRANK) 6에 25거래일 순위변동 -4, 흐름 outflow, 국면 후반 수축이어서 모멘텀은 정점 이후 국면으로 읽힌다.",
-        "whyStrong": [
-          {
-            "id": "w4",
-            "statement": "밸류에이션 논쟁: 일부 분석은 크랙 스프레드가 지속 불가능하다며 Valero를 Hold로 하향했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Valero: Downgrading To Hold, Unsustainable Crack Spreads Create A Challenging Setup",
-                "publisher": "Seeking Alpha",
-                "url": "https://seekingalpha.com/article/4938206-valero-downgrading-to-hold-unsustainable-crack-spreads-create-challenging-setup",
-                "date": "2026",
-                "quote": "Valero: Downgrading To Hold, Unsustainable Crack Spreads Create A Challenging Setup",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          }
-        ],
-        "driver": "commodity",
-        "durability": "cyclical",
-        "keyStocks": [
-          "VLO",
-          "DINO",
-          "MPC",
-          "PSX"
-        ],
-        "risk": "디젤 크랙이 정상화되면 논리가 깨진다. 강세의 핵심이 정제능력 감소에 따른 스프레드 확대인데, 러시아 설비 복구나 미국 설비 재가동으로 공급이 회복되거나 수요가 꺾이면 컨센서스 상향(당해 +11.42%, 차기 +20.33%)이 되돌려질 수 있다. Node 지표는 이미 선행 신호를 준다: FRANK 6에 25거래일 -4, F10d -3.80%, F25d -19.34%, 200일선 이격 중앙값 42.52%(25거래일 -3.76%p)로 후반 수축·outflow 국면이며, CNBC 표제도 이 랠리가 곧 끝날 수 있다고 경고한다. 확인할 조건은 크랙 스프레드의 추가 하락 여부, FRANK 순위 반등 여부, 3분기 실적의 가이던스 수정이다.",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "reason": "",
-          "leadFixed": true
-        },
-        "leadOriginal": "Oil & Gas Refining & Marketing(업종 내 7종목, 2팀 선정 DINO·VLO)은 원유를 정제해 휘발유·디젤을 판매하는 정유 업종으로, 3개월 WRS(업종 내 시총가중 평균 RS, QQQ 대비 초과수익률) 0.4501(상위 0.71%), 6개월 0.5547(상위 2.14%)로 중장기 상대강도가 최상위다. 디젤 크랙 스프레드가 사상 최고 수준이라는 보도가 강세 논리의 중심이다. 다만 1개월 WRS는 0.0826(상위 2.86%)로 둔화됐고 Final_WRS 순위(FRANK) 6에 25거래일 순위변동 -4, 흐름 outflow, 국면 후반 수축이어서 모멘텀은 정점 이후 국면으로 읽힌다.",
-        "researchedOn": "2026-09-29",
-        "carried": true
-      },
-      {
-        "key": "Technology|Software - Infrastructure",
-        "industry": "Software - Infrastructure",
-        "lead": "Software - Infrastructure(33종목)는 보안·아이덴티티·네트워크 엣지 등 기업 IT 인프라 소프트웨어 업종으로, WRS(업종 내 시총가중 평균 RS, QQQ 대비 초과수익률) 3개월 0.2865(상위 1.43%)·6개월 0.4722(상위 3.57%)로 중기 강세가 뚜렷하다. 1개월 WRS는 0.0161(상위 15.71%)로 단기 모멘텀은 둔화돼 있으나 Final_WRS 순위(FRANK)는 4위, 25거래일 순위변동 +1이며 국면은 상승 중반(leading)이다. 강세 논리는 AI 관련 보안·아이덴티티 수요 기사와 주요 종목의 강한 실적 반응으로 뒷받침된다.",
-        "whyStrong": [
-          {
-            "id": "w3",
-            "statement": "AI 보안 수요 테마가 대표 종목 기사에 반복된다. CRWD·NET·OKTA 관련 최근 기사가 AI 취약성, AI 보안 수요에 따른 Zero Trust/SASE, AI 에이전트 아이덴티티 시장을 다룬다. 기사 본문의 수치·가이던스는 열람 실패로 확인하지 못했다(제목 기준).",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Can AI Security Demand Boost Cloudflare's Zero Trust & SASE Growth?",
-                "publisher": "Zacks (nasdaq.com 게재)",
-                "url": "https://www.nasdaq.com/articles/can-ai-security-demand-boost-cloudflares-zero-trust-sase-growth",
-                "date": "2026-09-28",
-                "quote": "Can AI Security Demand Boost Cloudflare's Zero Trust & SASE Growth?",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Okta Sees AI Agent Identity Market Outgrowing Traditional IAM at Oktane 2026",
-                "publisher": "MarketBeat (nasdaq.com 게재)",
-                "url": "https://www.nasdaq.com/articles/okta-sees-ai-agent-identity-market-outgrowing-traditional-iam-oktane-2026",
-                "date": "2026-09-23",
-                "quote": "Okta Sees AI Agent Identity Market Outgrowing Traditional IAM at Oktane 2026",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Will Rising AI Vulnerabilities Boost CrowdStrike's Exposure Business?",
-                "publisher": "Zacks (nasdaq.com 게재)",
-                "url": "https://www.nasdaq.com/articles/will-rising-ai-vulnerabilities-boost-crowdstrikes-exposure-business",
-                "date": "2026-09-28",
-                "quote": "Will Rising AI Vulnerabilities Boost CrowdStrike's Exposure Business?",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w4",
-            "statement": "실적 발표 이후 주가 반응이 강했던 종목이 있다. Okta는 직전 실적 이후 19.5% 상승, Bandwidth는 직전 실적 이후 33.5% 상승했다(각 기사 제목 기준, 실적 세부 수치 미확인).",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Okta (OKTA) Up 19.5% Since Last Earnings Report: Can It Continue?",
-                "publisher": "Zacks (nasdaq.com 게재)",
-                "url": "https://www.nasdaq.com/articles/okta-okta-195-last-earnings-report-can-it-continue",
-                "date": "2026-09-25",
-                "quote": "Okta (OKTA) Up 19.5% Since Last Earnings Report: Can It Continue?",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Why Is Bandwidth (BAND) Up 33.5% Since Last Earnings Report?",
-                "publisher": "Zacks (nasdaq.com 게재)",
-                "url": "https://www.nasdaq.com/articles/why-bandwidth-band-335-last-earnings-report",
-                "date": "2026-08-28",
-                "quote": "Why Is Bandwidth (BAND) Up 33.5% Since Last Earnings Report?",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "driver": "earnings",
-        "durability": "cyclical",
-        "keyStocks": [
-          "CRWD",
-          "PANW",
-          "NET",
-          "OKTA",
-          "BAND"
-        ],
-        "risk": "1개월 WRS가 상위 15.71%로 3개월(상위 1.43%) 대비 밀려 있어 단기 모멘텀 소진이 먼저 확인될 수 있다. 컨센서스 변화 중앙값이 당해 +0.29%·차기 +0.43%로 작아, 상향 비율(79.10%)이 꺾이거나 하향 전환하면 논리가 약해진다. FRANK 4위에서 순위가 하락하고 200일선 이격 18.43%가 축소되는 조합, 또는 PANW처럼 시장 상승 시 약세를 보이는 종목이 늘어나는 경우 확산이 훼손된 신호다. 본 분석은 기사 본문 열람 실패로 제목 수준 근거에 의존한다.",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "w1",
-            "w2"
-          ],
-          "reason": "",
-          "leadFixed": true
-        },
-        "leadOriginal": "Software - Infrastructure(33종목)는 보안·아이덴티티·네트워크 엣지 등 기업 IT 인프라 소프트웨어 업종으로, WRS(업종 내 시총가중 평균 RS, QQQ 대비 초과수익률) 3개월 0.2865(상위 1.43%)·6개월 0.4722(상위 3.57%)로 중기 강세가 뚜렷하다. 1개월 WRS는 0.0161(상위 15.71%)로 단기 모멘텀은 둔화돼 있으나 Final_WRS 순위(FRANK)는 4위, 25거래일 순위변동 +1이며 국면은 상승 중반(leading)이다. 강세 논리는 AI 관련 보안·아이덴티티 수요 기사와 컨센서스 상향 비율 79.10%(n=2105)로 뒷받침되나, 웹 원문 열람이 시간 초과로 실패해 기사 본문 수치는 확인하지 못했다.",
         "researchedOn": "2026-09-29",
         "carried": true
       },
@@ -1079,126 +1128,6 @@ window.TEAM5_DATA = {
           "leadFixed": true
         },
         "leadOriginal": "Marine Shipping 업종은 원유 탱커(VLCC·Suezmax·LR2)와 벌크선(케이프사이즈 등)을 통해 해상운임을 수취하는 업종으로, 9월 들어 탱커·벌크 운임이 동시에 사상 최고 수준으로 급등하며 랠리를 주도하고 있다. VLCC 평균 운임은 주간 68% 급등해 $451,000/일로, Suezmax는 94% 급등해 $343,000/일로 각각 사상 최고치를 경신했고(9월 12일 기준), 발틱운임지수(BDI)도 2021년 10월 이후 최고치인 3,488포인트까지 올랐다. 배경은 중동(호르무즈 해협·바브엘만데브 인근)에서 선박 피격·나포 사례가 100건을 넘어선 군사적 긴장 격화이며, 유가는 배럴당 $100를 상회했다.",
-        "researchedOn": "2026-09-18",
-        "carried": true
-      },
-      {
-        "driver": "earnings",
-        "durability": "structural",
-        "industry": "Diagnostics & Research",
-        "key": "Healthcare|Diagnostics & Research",
-        "keyStocks": [
-          "TWST",
-          "WGS",
-          "BLLN",
-          "ILMN"
-        ],
-        "lead": "Diagnostics & Research 업종은 유전체 시퀀싱·합성DNA·분자진단 기업들의 실적 가속과 개별 종목의 재평가 이벤트가 겹치며 강세를 보이고 있다. TWST는 3분기 매출이 전년 대비 23% 증가하며 FY2026 가이던스를 상향했고, WGS(GeneDx)는 병원 전체 신속 유전체 시퀀싱 도입을 뒷받침하는 연구 결과를 발표했다. BLLN은 Canaccord Genuity가 매수 의견으로 커버리지를 개시했다.",
-        "whyStrong": [
-          {
-            "id": "wgs-genedx-adoption",
-            "statement": "GeneDx(WGS)는 Seattle Children's와 협력한 연구로 병원 전체 1차 신속 유전체 시퀀싱(rGS) 도입을 뒷받침하는 임상 근거를 발표했고, 이익 추정치 상향 흐름도 함께 나타나고 있다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "GeneDx Study Supports Hospital-Wide Adoption Of Rapid Genome Sequencing In Pediatric Care",
-                "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/genedx-study-supports-hospital-wide-adoption-rapid-genome-sequencing-pediatric-care",
-                "date": "2026-08-24",
-                "quote": "GeneDx Study Supports Hospital-Wide Adoption Of Rapid Genome Sequencing In Pediatric Care",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "GeneDx Announces Transformative Study Supporting Hospital-Wide Adoption of Rapid Genomic Sequencing at Seattle Children's",
-                "publisher": "BioSpace",
-                "url": "https://www.biospace.com/press-releases/genedx-announces-transformative-study-supporting-hospital-wide-adoption-of-rapid-genomic-sequencing-at-seattle-childrens",
-                "date": "2026-08-24",
-                "quote": "GeneDx Announces Transformative Study Supporting Hospital-Wide Adoption of Rapid Genomic Sequencing at Seattle Children's",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Can GENEDX HOLDINGS (WGS) Run Higher on Rising Earnings Estimates?",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/can-genedx-holdings-wgs-run-higher-rising-earnings-estimates",
-                "date": "2026-08-19",
-                "quote": "Can GENEDX HOLDINGS (WGS) Run Higher on Rising Earnings Estimates?",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "twst-q3-guidance-raise",
-            "statement": "TWST는 3분기 매출이 전년 대비 23% 증가했고 FY2026 매출 가이던스를 상향하며, 합성DNA·therapeutics 수요 확대를 실적으로 확인시켰다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Twist Bioscience (TWST): Q3 Revenue Jumps 23% As FY2026 Guidance Raised",
-                "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/twist-bioscience-twst-q3-revenue-jumps-23-fy2026-guidance-raised",
-                "date": "2026-08-19",
-                "quote": "Twist Bioscience (TWST): Q3 Revenue Jumps 23% As FY2026 Guidance Raised",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Twist Bioscience signals $123M-$124M Q4 revenue as fiscal 2026 outlook rises to $456M-$457M",
-                "publisher": "Seeking Alpha",
-                "url": "https://seekingalpha.com/news/4623894-twist-bioscience-signals-123m-124m-q4-revenue-as-fiscal-2026-outlook-rises-to-456m-457m",
-                "date": "2026-08-10",
-                "quote": "Twist Bioscience signals $123M-$124M Q4 revenue as fiscal 2026 outlook rises to $456M-$457M",
-                "verified": "unverified",
-                "httpStatus": 403
-              },
-              {
-                "title": "Twist Bioscience Reports Q3 FY2026 Revenue $118.4M, Gross Margin 52.8%, Raises FY26 Revenue Guide",
-                "publisher": "TradingView",
-                "url": "https://www.tradingview.com/news/tradingview:2afd996e36fd7:0-twist-bioscience-reports-q3-fy2026-revenue-118-4m-gross-margin-52-8-raises-fy26-revenue-guide/",
-                "date": "2026-08-10",
-                "quote": "Twist Bioscience Reports Q3 FY2026 Revenue $118.4M, Gross Margin 52.8%, Raises FY26 Revenue Guide",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "blln-canaccord-initiation",
-            "statement": "BLLN은 Canaccord Genuity가 매수 의견으로 커버리지를 개시하며 목표주가 120달러를 제시, 진단 신사업 확장에 대한 애널리스트 낙관이 부각됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Canaccord Genuity Initiates Coverage of BillionToOne (BLLN) with Buy Rating",
-                "publisher": "Fintel",
-                "url": "https://www.nasdaq.com/articles/canaccord-genuity-initiates-coverage-billiontoone-blln-buy-rating",
-                "date": "2026-09-03",
-                "quote": "Canaccord Genuity Initiates Coverage of BillionToOne (BLLN) with Buy Rating",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Canaccord Genuity Initiates BillionToOne at Buy With $120 Price Target",
-                "publisher": "MarketScreener",
-                "url": "https://www.marketscreener.com/news/canaccord-genuity-initiates-billiontoone-at-buy-with-120-price-target-ce7858d2de8afe20",
-                "date": "2026-09-03",
-                "quote": "Canaccord Genuity Initiates BillionToOne at Buy With $120 Price Target",
-                "verified": "unverified",
-                "httpStatus": 403
-              }
-            ]
-          }
-        ],
-        "risk": "ILMN 강세의 상당 부분은 9월 21일 S&P500 편입에 따른 패시브 자금 유입이라는 일회성 기술적 요인과 겹쳐 있어, 편입에 따른 지수 추종 매수가 소진되면 되돌림이 나올 수 있다. BLLN은 Canaccord Genuity의 매수 커버리지 개시와 별개로 CEO가 보유 지분 전량을 300만 달러에 매각하고 공동창업자도 지분 100만 달러를 매도하는 등 내부자 매도가 이어져 부담이다. TWST는 BWS Financial이 Sell, UBS가 Neutral로 초기 커버리지를 개시해 밸류에이션에 대한 이견도 병존한다. GeneDx 이익 추정치 상향과 TWST therapeutics 부문 성장이 다음 분기 실적에서도 재확인되는지, ILMN 편입 이후 거래량과 RS 순위가 유지되는지가 이 업종 강세 지속 여부를 가늠할 핵심 관찰 포인트다.",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "ilmn-sp500-ubs-upgrade"
-          ],
-          "reason": "ilmn-sp500-ubs-upgrade: Statement의 '9월 21일 S&P500 편입이 확정'이라는 구체적 날짜가 제공된 Quote에 없음. Source는 2026-09-04에 발행되었으며 'in September' 또는 'Set to Join'만 표기됨.",
-          "leadFixed": true
-        },
-        "leadOriginal": "Diagnostics & Research 업종은 유전체 시퀀싱·합성DNA·분자진단 기업들의 실적 가속과 개별 종목의 재평가 이벤트가 겹치며 강세를 보이고 있다. TWST는 3분기 매출이 전년 대비 23% 증가하며 FY2026 가이던스를 상향했고, WGS(GeneDx)는 병원 전체 신속 유전체 시퀀싱 도입을 뒷받침하는 연구 결과를 발표했다. ILMN은 UBS의 투자의견 매수 상향과 S&P500 편입이 겹쳤고, BLLN은 Canaccord Genuity가 매수 의견으로 커버리지를 개시했다.",
         "researchedOn": "2026-09-18",
         "carried": true
       },
@@ -1611,20 +1540,22 @@ window.TEAM5_DATA = {
       }
     ],
     "summary": {
-      "rotationView": "돈이 반도체 장비 쪽으로 새로 들어오고 있습니다. 반도체 장비는 최근 1개월 상승 강도(0.15)가 3개월(-0.01)을 크게 넘어서고, AI 칩 검사 장비 수요와 월가 분석 시작이 이를 받칩니다. 반면 헬스케어 정보 서비스는 6개월 강도(0.53)가 가장 높지만 최근 1개월(-0.03)은 꺾여, 오래 오른 뒤 힘이 빠지는 쪽입니다.",
+      "rotationView": "돈이 컴퓨터 하드웨어에서 빠져나와 진단·연구 업종으로 옮겨 가는 모습입니다. 석유 정제·판매는 1개월·3개월·6개월 모두 상위권을 지켜 흐름이 가장 꾸준합니다. 소프트웨어 인프라는 3개월 때 가장 강했다가 최근 한 달은 순위가 내려왔습니다.",
       "strongest": {
-        "industry": "반도체 장비·소재",
-        "why": "최근 1개월 상승 강도가 업종 전체 최상위권(상위 1% 안팎)입니다. AI 칩 검사 장비 수요가 커지고 도이체방크가 FormFactor를 매수 의견으로 분석하기 시작해, 소형주까지 매수세가 번졌습니다."
+        "industry": "석유 정제·판매",
+        "why": "최근 1개월, 3개월, 6개월 모두 업종 순위가 상위 2% 안팎에 들어 강세가 끊기지 않았습니다. 다만 왜 강한지 설명할 근거는 확인되지 않았고, 한 달 순위는 3개월 때보다 조금 낮아졌습니다."
       },
       "emerging": [
-        "반도체 장비·소재"
+        "진단·연구"
       ],
       "fading": [
-        "헬스케어 정보 서비스"
+        "컴퓨터 하드웨어",
+        "소프트웨어 인프라"
       ],
-      "caution": "반도체 장비는 이미 단기간에 많이 올라 비싸다는 경계가 나오고, 헬스케어 정보 서비스의 약세도 짧은 조정일 수 있어 다음 한두 주의 흐름에 따라 해석이 뒤집힐 수 있습니다."
+      "caution": "진단·연구의 최근 강세는 6개월 점수가 낮은 데서 오는 착시일 수 있고, 컴퓨터 하드웨어도 6개월 강세가 워낙 커서 한 달 둔화가 일시적 숨 고르기일 수 있습니다."
     },
-    "summaryResearchedOn": "2026-10-03"
+    "summaryResearchedOn": "2026-10-06",
+    "reusedFrom": null
   },
   "flow": {
     "baseline": {
@@ -7939,5 +7870,15 @@ window.TEAM5_DATA = {
         ]
       }
     ]
+  },
+  "research_coverage": {
+    "done": 17,
+    "total": 11,
+    "cap": 6,
+    "pending": 0,
+    "failed": 0,
+    "carried": 13,
+    "ineligible": 0,
+    "note": "그중 13업종은 최근 조사분을 이월했습니다(조사일 표기)."
   }
 };

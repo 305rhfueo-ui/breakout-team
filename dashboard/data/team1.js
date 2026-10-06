@@ -505,8 +505,135 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-06",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "엔비디아, 몇 달 만에 사상 최고가 경신",
+        "easy": "엔비디아 주가가 몇 달 만에 다시 사상 최고가를 찍었다. 증권가에서는 여기서 더 올라갈 수 있다는 분석이 나왔다. 최고가를 다시 쓴 구체적 이유는 기사에 안 나왔다. 반도체 대표주가 신고가에 서면 같은 업종 전체의 투자 심리가 같이 올라간다.",
+        "whyMatters": "반도체와 AI 서버 장비 업종에 우호적인 소식이다. 다만 지수가 엔비디아 한 종목에 기대는 구조라, 이 종목이 흔들리면 기술 업종 전체가 같이 흔들린다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "The case for Nvidia's stock to march even higher after clinching its first record high in months",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-case-for-nvidias-stock-to-march-even-higher-after-clinching-its-first-record-high-in-months-2bb5a937?mod=mw_rss_topstories",
+            "date": "2026-10-05",
+            "quote": "The case for Nvidia's stock to march even higher after clinching its first record high in months",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "웨스턴디지털·시게이트 주가가 되돌아 올랐다",
+        "easy": "웨스턴디지털과 시게이트 주가가 반등했다. 도시바가 경쟁에 끼어든다는 우려로 눌렸다가, 애널리스트들이 그 위협을 크지 않다고 평가한 덕이다. 두 회사는 데이터센터에 들어가는 저장장치를 만든다. 공급 경쟁이 심해지지 않으면 가격과 이익을 지킬 수 있다는 계산이다.",
+        "whyMatters": "저장장치와 반도체 장비 업종에 좋은 쪽이다. AI 데이터센터 투자 덕을 보는 하드웨어 종목들이 같은 방향으로 움직이기 쉽다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Western Digital and Seagate shares bounce back as analysts downplay the Toshiba threat",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/western-digital-and-seagate-shares-bounce-back-as-analysts-downplay-the-toshiba-threat-4979dbff?mod=mw_rss_topstories",
+            "date": "2026-10-05",
+            "quote": "Western Digital and Seagate shares bounce back as analysts downplay the Toshiba threat",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "마이크로소프트 반등이 아직 안 끝났다는 분석",
+        "easy": "마이크로소프트 주가의 회복세가 아직 멀었다는 애널리스트 의견이 나왔다. 최근 주가가 빠르게 되돌아 오른 뒤에 나온 평가다. 어떤 근거로 더 오른다고 봤는지는 기사에 안 나왔다. 대형 소프트웨어주를 보는 시각이 다시 좋아지고 있다는 신호다.",
+        "whyMatters": "클라우드와 기업용 소프트웨어 업종에 우호적이다. 기술 업종 안에서도 반도체 쪽만 끌던 상승이 소프트웨어로 넓어질 수 있다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Microsoft's blazing stock comeback isn't even close to being over, analyst says",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/microsofts-blazing-stock-comeback-isnt-even-close-to-being-over-analyst-says-265f7b6d?mod=mw_rss_topstories",
+            "date": "2026-10-05",
+            "quote": "Microsoft's blazing stock comeback isn't even close to being over, analyst says",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "국방부가 앤스로픽 AI 사용을 멈췄다",
+        "easy": "미국 국방부가 앤스로픽을 블랙리스트에 올리고 그 회사 AI 도구 사용을 중단했다. 블랙리스트에 올린 이유는 기사에 안 나왔다. 정부가 AI 공급사를 골라 쓰기 시작했다는 뜻이다. AI 회사의 정부 매출이 정책 한 번으로 끊길 수 있다는 점이 드러났다.",
+        "whyMatters": "정부·군 납품 비중이 큰 AI 소프트웨어와 방산IT 업종에는 부담이다. 반대로 국방부가 계속 쓰는 다른 AI 공급사에는 빈자리가 생긴다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-10-05",
+            "quote": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "시장이 둘로 갈려 큰 변동이 예고됐다",
+        "easy": "미국 증시에서 드물게 보이는 갈림 현상이 나타났다는 분석이 나왔다. 이런 모양이 생기면 크게 오르거나 크게 빠지는 쪽으로 결론이 나는 경우가 많다고 한다. 무슨 지표로 갈림을 봤는지는 기사에 안 나왔다. 방향보다 흔들리는 폭이 커질 수 있다는 경고다.",
+        "whyMatters": "업종을 가리지 않고 변동 폭이 커질 수 있다는 뜻이다. 특히 많이 오른 반도체·AI 하드웨어처럼 쏠린 쪽이 더 크게 출렁인다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "This rare stock-market divide means an elevated chance of a big surge — or a deep plunge",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/this-rare-stock-market-divide-means-an-elevated-chance-of-a-big-surge-or-a-deep-plunge-cf2cb4e5?mod=mw_rss_topstories",
+            "date": "2026-10-05",
+            "quote": "This rare stock-market divide means an elevated chance of a big surge — or a deep plunge",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "트럼프가 메디케어 90달러 환급을 약속했다",
+        "easy": "트럼프 대통령이 중간선거를 앞두고 메디케어 가입자에게 90달러 환급 수표를 주겠다고 약속했다. 표를 의식한 조치다. 기사는 여기에 드러나지 않은 비용이 따라붙는다고 지적했다. 그 비용을 누가 부담하는지는 기사에 안 나왔다.",
+        "whyMatters": "건강보험과 의료 서비스 업종의 정책 변수가 커진다. 선거 전까지는 이 업종에서 호재와 악재가 같은 뉴스에서 동시에 나올 수 있다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Trump is promising $90 Medicare rebate checks ahead of the midterms. Here's the hidden cost.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/trump-is-promising-90-medicare-rebate-checks-ahead-of-the-midterms-heres-the-hidden-cost-14b7e2ce?mod=mw_rss_topstories",
+            "date": "2026-10-05",
+            "quote": "Trump is promising $90 Medicare rebate checks ahead of the midterms. Here's the hidden cost.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기에 나쁘지 않은 구간이다. 나스닥100(QQQ)이 756.2로 10일선이 20일선 위로 올라선 지 12일째이고 두 선이 같이 오르는 중이라, 추세가 살아 있다는 뜻이다. 오늘 뉴스도 같은 방향이다 — 엔비디아가 사상 최고가를 다시 쓰고, 웨스턴디지털·시게이트가 반등하고, 마이크로소프트에 긍정 의견이 붙었다. 조심할 점은 빚내서 산 주식(마진부채)이 1년 전보다 37.2% 늘어 주의선을 넘었다는 것이다. 빚으로 산 물량이 많을 때 조정이 오면 낙폭이 깊어진다. 이번 주는 두 가지만 보면 된다. 반도체·저장장치 주도주가 신고가를 지키는지, 그리고 AI 업체의 정부 매출을 둘러싼 정책 뉴스가 더 나오는지다.",
+    "keyRisks": [
+      "빚으로 산 주식이 너무 많다: 마진부채 증가율이 주의선을 넘었다. 조정이 시작되면 강제 매도가 겹쳐 낙폭이 깊어진다.",
+      "상승이 기술 한 업종에 쏠려 있다: 주도 종목 열 개 중 여섯 개가 기술 업종이다. 엔비디아·마이크로소프트 같은 대형주가 꺾이면 피할 곳이 없다.",
+      "크게 흔들릴 수 있다는 경고가 나왔다: 지금 시장 모양이 큰 상승이나 큰 하락 중 하나로 끝나는 경우가 많다는 분석이다. 평소보다 손절 폭을 지키는 게 중요하다.",
+      "AI 정책이 변수로 올라왔다: 국방부가 특정 AI 업체 사용을 중단했다. 정부 매출에 기대는 AI·방산IT 종목은 뉴스 한 줄에 흔들릴 수 있다."
+    ],
+    "easySummary": [
+      "나스닥은 단기선이 중기선 위에 있고 둘 다 오르는 중이라, 새로 사기에 나쁘지 않은 구간이다.",
+      "오늘은 엔비디아 사상 최고가, 웨스턴디지털·시게이트 반등, 마이크로소프트 긍정 의견으로 기술·반도체 쪽 소식이 좋았다.",
+      "다만 빚내서 산 주식이 주의선을 넘었고 상승이 기술 업종에 쏠려 있어, 조정이 오면 낙폭이 커질 수 있다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 122,
+      "ok": 199,
+      "unverified": 5,
+      "dead": 0,
+      "stripped": 0,
+      "removed": []
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-06"
   }
 };

@@ -1,105 +1,22 @@
 {
  "ticker": "QLYS",
- "date": "2026-10-03",
- "session": "2026-10-02",
- "plan": {
-  "ticker": "QLYS",
-  "name": "퀄리스",
-  "sector": "Technology",
-  "industry": "Software - Infrastructure",
-  "grade": "A",
-  "state": "pre",
-  "asOf": "2026-10-02",
-  "price": 193,
-  "pivot": 196.72,
-  "pivotDate": "2026-08-14",
-  "stop": 186.32,
-  "riskPerSharePct": 5.29,
-  "weightPct": 9.5,
-  "weightCapped": false,
-  "distToPivotPct": -1.89,
-  "distToPivotAdr": -0.35,
-  "extensionAdr": 1.02,
-  "chase": false,
-  "adrPct": 5.39,
-  "ma10": 182.43,
-  "dollarVol20M": 128,
-  "liquid": true,
-  "reasons": [
-   "선행 상승 +132%",
-   "베이스 8주",
-   "깊이 24.2%",
-   "저점 상승 1회",
-   "진폭 0.8배 · 10일 종가폭 2 ADR",
-   "10일선 +1 ADR · 20일선 +1.5 ADR",
-   "20일선 기울기 +0.69%"
-  ],
-  "fails": [],
-  "metrics": {
-   "baseBars": 40,
-   "baseWeeks": 8,
-   "depthPct": 24.2,
-   "priorMovePct": 132.4,
-   "higherLows": 1,
-   "contraction": 0.8,
-   "closeRange10Adr": 2,
-   "surf10": 1.02,
-   "surf20": 1.53,
-   "slope20": 0.69,
-   "baseLow": 149.13,
-   "lastSwingLow": 168.06
-  },
-  "catalyst": null,
-  "flow": {
-   "flow": "pending",
-   "stageKo": "💤 미형성",
-   "frank25": 4
-  },
-  "earnings": null,
-  "blocked": null,
-  "shadowBook": null,
-  "watch": true,
-  "score": 68.1
- },
+ "sector": "Technology",
+ "industry": "Software - Infrastructure",
+ "nameKo": "퀄리스",
  "site": {
-  "rs": {
-   "m1": {
-    "v": 0.09717257312414837,
-    "pct": 89.97875354107649
-   },
-   "m3": {
-    "v": 0.22072424691651502,
-    "pct": 92.45750708215297
-   },
-   "m6": {
-    "v": 1.4597112884806351,
-    "pct": 98.47733711048159
-   }
-  },
-  "ret1m": 9.72,
-  "ret3m": 22.07,
-  "ret6m": 145.97,
-  "marketCap": "6.48B",
-  "volx": null,
-  "volSurgeWk": 0.79,
-  "high52": 93,
-  "newHigh52": false,
-  "adr": 5.49,
-  "div50": 8.24,
-  "div200": 46.99,
   "targetStatus": false,
   "saleCy": 9.85,
   "saleNy": 8.22,
   "epsCy": 10.52,
   "epsNy": 8.16,
-  "cyTrend": 0.41,
-  "nyTrend": 0.43,
   "est": {
    "cyCur": 7.81411,
    "cy30": 7.78229,
    "nyCur": 8.45146,
    "ny30": 8.41509
   },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
   "fs": {
    "sale": [
     11.04,
@@ -129,24 +46,9 @@
   "top2Streak": {
    "m1": 0,
    "m3": 0,
-   "m6": 2
+   "m6": 3
   }
  },
- "flow": {
-  "FRANK": 2,
-  "frank25": 4,
-  "d50": 2.36,
-  "d200": 12.59,
-  "d200Delta": -6.41,
-  "cy": 0.18,
-  "ny": 0.31,
-  "upRatio": 79.09738717339667,
-  "coverage": 2105,
-  "winRate": 0.7879,
-  "stageKo": "💤 미형성",
-  "flow": "pending"
- },
- "eye": null,
  "detail": {
   "fetchedAt": "2026-10-02",
   "nameKo": "퀄리스",
@@ -316,130 +218,5 @@
    "total": 0,
    "reports": []
   }
- },
- "detailNote": null,
- "chart": {
-  "lastBar": "2026-10-02",
-  "numbers": {
-   "price": 193,
-   "ma20": 177.13,
-   "ma50": 174.34,
-   "ma150": 128.94,
-   "distMA50": 10.7,
-   "periodHigh": 201.54,
-   "pullbackFromHigh": -4.24,
-   "volRatio20": 0.66,
-   "dryUpRatio": 0.8
-  },
-  "last10": [
-   {
-    "d": "2026-09-21",
-    "o": 175.63,
-    "h": 181.77,
-    "l": 173.9,
-    "c": 181.03,
-    "v": 409700,
-    "clsPos": 91,
-    "gapPct": 0.38
-   },
-   {
-    "d": "2026-09-22",
-    "o": 183.86,
-    "h": 186.55,
-    "l": 177.65,
-    "c": 183.32,
-    "v": 727200,
-    "clsPos": 64,
-    "gapPct": 1.56
-   },
-   {
-    "d": "2026-09-23",
-    "o": 184.19,
-    "h": 186.64,
-    "l": 180.23,
-    "c": 184.79,
-    "v": 523700,
-    "clsPos": 71,
-    "gapPct": 0.47
-   },
-   {
-    "d": "2026-09-24",
-    "o": 185.42,
-    "h": 190,
-    "l": 182.69,
-    "c": 182.94,
-    "v": 391700,
-    "clsPos": 3,
-    "gapPct": 0.34
-   },
-   {
-    "d": "2026-09-25",
-    "o": 182.1,
-    "h": 182.1,
-    "l": 172.01,
-    "c": 172.43,
-    "v": 600900,
-    "clsPos": 4,
-    "gapPct": -0.46
-   },
-   {
-    "d": "2026-09-28",
-    "o": 168.79,
-    "h": 175.63,
-    "l": 168.06,
-    "c": 173.83,
-    "v": 600600,
-    "clsPos": 76,
-    "gapPct": -2.11
-   },
-   {
-    "d": "2026-09-29",
-    "o": 171.22,
-    "h": 178.68,
-    "l": 170.91,
-    "c": 178.35,
-    "v": 500100,
-    "clsPos": 96,
-    "gapPct": -1.5
-   },
-   {
-    "d": "2026-09-30",
-    "o": 179.14,
-    "h": 190.27,
-    "l": 178.23,
-    "c": 187.2,
-    "v": 673500,
-    "clsPos": 75,
-    "gapPct": 0.44
-   },
-   {
-    "d": "2026-10-01",
-    "o": 188.93,
-    "h": 190.92,
-    "l": 184.38,
-    "c": 187.43,
-    "v": 654000,
-    "clsPos": 47,
-    "gapPct": 0.92
-   },
-   {
-    "d": "2026-10-02",
-    "o": 188.87,
-    "h": 195.4,
-    "l": 188.87,
-    "c": 193,
-    "v": 477403,
-    "clsPos": 63,
-    "gapPct": 0.77
-   }
-  ],
-  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/QLYS-3m.png",
-  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/QLYS-6m.png"
- },
- "market": {
-  "verdict": "green",
-  "ko": "🟢 10일선이 20일선을 넘은 지 11일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
-  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
-  "finraLevel": "warn"
  }
 }

@@ -44,13 +44,13 @@
    "m6": null
   },
   "top2Streak": {
-   "m1": 12,
+   "m1": 13,
    "m3": 0,
    "m6": 0
   }
  },
  "detail": {
-  "fetchedAt": "2026-10-01",
+  "fetchedAt": "2026-10-04",
   "nameKo": "솔라리스 에너지 인프라스트럭처",
   "nameEn": "SOLARIS ENERGY INFRASTRUCTURE INC",
   "financials": {
@@ -166,6 +166,17 @@
   "filings": [
    {
     "form": "8-K",
+    "filingDate": "2026-10-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1697500/000119312526410682/d567251d8k.htm"
+   },
+   {
+    "form": "8-K",
     "filingDate": "2026-09-23",
     "itemsKo": [
      "중요 계약 체결",
@@ -219,15 +230,6 @@
     ],
     "isEarnings": false,
     "url": "https://www.sec.gov/Archives/edgar/data/1697500/000162828026047296/sei-20260701.htm"
-   },
-   {
-    "form": "8-K",
-    "filingDate": "2026-05-19",
-    "itemsKo": [
-     "주주총회 표결"
-    ],
-    "isEarnings": false,
-    "url": "https://www.sec.gov/Archives/edgar/data/1697500/000119312526230786/d227891d8k.htm"
    }
   ],
   "krReports": {
