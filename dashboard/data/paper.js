@@ -1,5 +1,5 @@
 window.PAPER_DATA = {
-  "generated": "2026-10-06T13:40:32.649Z",
+  "generated": "2026-10-06T20:00:23.860Z",
   "rulesVersion": "0.3",
   "slipPct": 0.2,
   "minSample": 30,
@@ -16,11 +16,11 @@ window.PAPER_DATA = {
     "profitFactor": 0,
     "avgDays": 0,
     "sameDayStopPct": 0,
-    "equityPct": -0.52,
-    "mdd": 0.5,
+    "equityPct": -0.63,
+    "mdd": 0.6,
     "open": 1,
-    "openPct": 0,
-    "totalPct": -0.52
+    "openPct": -0.11,
+    "totalPct": -0.63
   },
   "byGrade": {
     "A": {
@@ -133,6 +133,10 @@ window.PAPER_DATA = {
     {
       "date": "2026-10-05",
       "pct": -0.52
+    },
+    {
+      "date": "2026-10-06",
+      "pct": -0.63
     }
   ],
   "positions": [
@@ -144,17 +148,17 @@ window.PAPER_DATA = {
       "entryAt": "0940",
       "entry": 394.72,
       "stop": 372.25,
-      "last": 394.72,
-      "R": 0,
+      "last": 389.8,
+      "R": -0.22,
       "left": 1,
       "days": 0,
       "weightPct": 8.8,
       "partial": false,
       "stop0": 372.25,
       "riskPerSharePct": 5.69,
-      "pct": 0,
-      "mfeR": 0,
-      "maeR": 0,
+      "pct": -0.11,
+      "mfeR": 0.31,
+      "maeR": -0.6,
       "regime": "green",
       "entered": "피벗 377.87 위에서 장중 고가 돌파 · 거래량 페이스 3.8× · 10일선 이격 1.58 ADR · 손절 기준 최대 거리(1 ADR)로 당김 · 베이스 2주 · 5팀 업종 대기"
     }
@@ -223,16 +227,14 @@ window.PAPER_DATA = {
     }
   ],
   "health": {
-    "at": "2026-10-06T13:40:20.058Z",
-    "atKst": "2026-10-06 22:40 KST",
-    "atEt": "2026-10-06 0940",
-    "phase": "open",
+    "at": "2026-10-06T20:00:20.058Z",
+    "atKst": "2026-10-07 05:00 KST",
+    "atEt": "2026-10-06 1600",
+    "phase": "post",
     "source": "kis",
-    "status": "오류 1건",
+    "status": "정상",
     "watch": 16,
-    "checked": 15,
-    "errors": [
-      "QRVO: no bars"
-    ]
+    "checked": 0,
+    "errors": []
   }
 };
