@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-06",
+  "ticks": 2,
+  "items": {
+    "NET": {
+      "ticker": "NET",
+      "at": "0935",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 0935 에 기준선 367.69 을 넘었지만 거래량 페이스 1.16× < 1.5× (0935 ET 기준)",
+      "pace": 1.16,
+      "level": 367.69
+    },
+    "SIMO": {
+      "ticker": "SIMO",
+      "at": "0935",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 기준선 291.16 미돌파 (종가 281.51) (0935 ET 기준)",
+      "pace": 0.74,
+      "level": 291.16
+    },
+    "CORT": {
+      "ticker": "CORT",
+      "at": "0935",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 기준선 126.38 미돌파 (종가 121.49) (0935 ET 기준)",
+      "pace": 1.25,
+      "level": 126.38
+    },
+    "MSTR": {
+      "ticker": "MSTR",
+      "at": "0935",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 기준선 171.19 미돌파 (종가 167.45) (0935 ET 기준)",
+      "pace": 0.69,
+      "level": 171.19
+    },
+    "ALAB": {
+      "ticker": "ALAB",
+      "at": "0935",
+      "fired": true,
+      "grade": "A",
+      "ko": "0935 ET · 장중 고가 391.04 위 종가 393.93 · 거래량 페이스 3.8× · 진입 394.72 · 손절 372.25(최대 거리) · 리스크 5.69% · 이격 1.58 ADR",
+      "pace": 3.8,
+      "level": 391.04
+    },
+    "FEIM": {
+      "ticker": "FEIM",
+      "at": "0935",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 기준선 89.76 미돌파 (종가 86.53) (0935 ET 기준)",
+      "pace": 0.42,
+      "level": 89.76
+    },
+    "DINO": {
+      "ticker": "DINO",
+      "at": "0935",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 기준선 118.39 미돌파 (종가 114.13) (0935 ET 기준)",
+      "pace": 0.33,
+      "level": 118.39
+    },
+    "RGEN": {
+      "ticker": "RGEN",
+      "at": "0935",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 기준선 198.87 미돌파 (종가 193.84) (0935 ET 기준)",
+      "pace": 1,
+      "level": 198.87
+    },
+    "DOCN": {
+      "ticker": "DOCN",
+      "at": "0935",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 기준선 151.83 미돌파 (종가 143.29) (0935 ET 기준)",
+      "pace": 0.39,
+      "level": 151.83
+    },
+    "ELF": {
+      "ticker": "ELF",
+      "at": "0935",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 기준선 110.04 미돌파 (종가 104.41) (0935 ET 기준)",
+      "pace": 0.29,
+      "level": 110.04
+    },
+    "QRVO": {
+      "ticker": "QRVO",
+      "at": "0940",
+      "fired": false,
+      "ko": "시세 없음 — no bars"
+    },
+    "ZS": {
+      "ticker": "ZS",
+      "at": "0935",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 기준선 216.97 미돌파 (종가 213.43) (0935 ET 기준)",
+      "pace": 2.05,
+      "level": 216.97
+    },
+    "FROG": {
+      "ticker": "FROG",
+      "at": "0935",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 기준선 105.76 미돌파 (종가 99.89) (0935 ET 기준)",
+      "pace": 0.81,
+      "level": 105.76
+    },
+    "AXTI": {
+      "ticker": "AXTI",
+      "at": "0935",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 기준선 97.79 미돌파 (종가 86.68) (0935 ET 기준)",
+      "pace": 0.62,
+      "level": 97.79
+    },
+    "TEAM": {
+      "ticker": "TEAM",
+      "at": "0935",
+      "fired": false,
+      "grade": "C",
+      "ko": "대기 — 기준선 200 미돌파 (종가 198.09) (0935 ET 기준)",
+      "pace": 0.69,
+      "level": 200
+    },
+    "MRX": {
+      "ticker": "MRX",
+      "at": "0935",
+      "fired": false,
+      "grade": "C",
+      "ko": "대기 — 기준선 79.11 미돌파 (종가 76.22) (0935 ET 기준)",
+      "pace": 0.39,
+      "level": 79.11
+    }
+  }
+}

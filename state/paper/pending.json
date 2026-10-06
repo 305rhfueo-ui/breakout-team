@@ -1,3 +1,30 @@
 {
-  "items": []
+  "items": [
+    {
+      "ticker": "ALAB",
+      "grade": "A",
+      "forSession": "2026-10-07",
+      "ma10": 358.33,
+      "adrUsd": 22.465079999999997,
+      "dayLow": 371.825,
+      "ctx": {
+        "orh": 5,
+        "pace": 3.8,
+        "ext": 1.58,
+        "levelIs": "hod",
+        "stopIs": "stopAdr",
+        "at": "0935",
+        "pivot": 377.87,
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "baseWeeks": 2,
+        "depthPct": 18.4,
+        "priorMovePct": 54.5,
+        "catalyst": null,
+        "flow": "pending",
+        "regime": "green",
+        "source": "kis"
+      }
+    }
+  ]
 }

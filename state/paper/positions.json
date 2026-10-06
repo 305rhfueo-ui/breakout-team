@@ -19,10 +19,10 @@
       "realPct": 0,
       "partial": false,
       "days": 0,
-      "mfe": 0.10553741631212467,
+      "mfe": 0.3594868243131834,
       "mae": -0.7404109363147668,
-      "last": 192.83,
-      "lastDate": "2026-10-05",
+      "last": 194.21,
+      "lastDate": "2026-10-06",
       "regime": "green",
       "fills": [
         {
@@ -52,7 +52,115 @@
         "regime": "green",
         "source": "kis"
       },
-      "lastBarT": 1791230100000
+      "lastBarT": 1791293700000
+    },
+    {
+      "id": "ALAB-2026-10-06-main",
+      "book": "main",
+      "ticker": "ALAB",
+      "grade": "A",
+      "ruleVersion": "0.3",
+      "entryDate": "2026-10-06",
+      "entryAt": "0940",
+      "entry": 394.72,
+      "stop": 372.25,
+      "stop0": 372.25,
+      "risk": 22.47,
+      "riskPerSharePct": 5.69,
+      "weightPct": 8.8,
+      "left": 1,
+      "realR": 0,
+      "realPct": 0,
+      "partial": false,
+      "days": 0,
+      "mfe": 0,
+      "mae": 0,
+      "last": 394.72,
+      "lastDate": "2026-10-06",
+      "regime": "green",
+      "fills": [
+        {
+          "date": "2026-10-06",
+          "at": "0940",
+          "side": "buy",
+          "frac": 1,
+          "px": 394.72,
+          "why": "진입"
+        }
+      ],
+      "ctx": {
+        "orh": 5,
+        "pace": 3.8,
+        "ext": 1.58,
+        "levelIs": "hod",
+        "stopIs": "stopAdr",
+        "at": "0935",
+        "pivot": 377.87,
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "baseWeeks": 2,
+        "depthPct": 18.4,
+        "priorMovePct": 54.5,
+        "catalyst": null,
+        "flow": "pending",
+        "regime": "green",
+        "source": "kis"
+      },
+      "lastBarT": 1791293700000
+    },
+    {
+      "id": "ALAB-2026-10-06-trail20",
+      "book": "trail20",
+      "ticker": "ALAB",
+      "grade": "A",
+      "ruleVersion": "0.3",
+      "entryDate": "2026-10-06",
+      "entryAt": "0940",
+      "entry": 394.72,
+      "stop": 372.25,
+      "stop0": 372.25,
+      "risk": 22.47,
+      "riskPerSharePct": 5.69,
+      "weightPct": 8.8,
+      "left": 1,
+      "realR": 0,
+      "realPct": 0,
+      "partial": false,
+      "days": 0,
+      "mfe": 0,
+      "mae": 0,
+      "last": 394.72,
+      "lastDate": "2026-10-06",
+      "regime": "green",
+      "fills": [
+        {
+          "date": "2026-10-06",
+          "at": "0940",
+          "side": "buy",
+          "frac": 1,
+          "px": 394.72,
+          "why": "진입"
+        }
+      ],
+      "ctx": {
+        "orh": 5,
+        "pace": 3.8,
+        "ext": 1.58,
+        "levelIs": "hod",
+        "stopIs": "stopAdr",
+        "at": "0935",
+        "pivot": 377.87,
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "baseWeeks": 2,
+        "depthPct": 18.4,
+        "priorMovePct": 54.5,
+        "catalyst": null,
+        "flow": "pending",
+        "regime": "green",
+        "source": "kis"
+      },
+      "lastBarT": 1791293700000
     }
   ]
 }

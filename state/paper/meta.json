@@ -28,6 +28,13 @@
       "fired": [],
       "newMain": 0,
       "nextDone": true
+    },
+    "2026-10-06": {
+      "fired": [
+        "ALAB"
+      ],
+      "newMain": 1,
+      "nextDone": true
     }
   }
 }
