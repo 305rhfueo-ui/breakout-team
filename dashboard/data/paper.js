@@ -1,5 +1,5 @@
 window.PAPER_DATA = {
-  "generated": "2026-10-07T02:00:46.066Z",
+  "generated": "2026-10-07T13:35:29.749Z",
   "rulesVersion": "0.3",
   "slipPct": 0.2,
   "minSample": 30,
@@ -7,10 +7,10 @@ window.PAPER_DATA = {
   "maxPositionPct": 20,
   "observing": true,
   "stats": {
-    "n": 1,
+    "n": 2,
     "winPct": 0,
     "avgR": -1.04,
-    "totalR": -1,
+    "totalR": -2.1,
     "avgWinR": null,
     "avgLossR": -1.04,
     "profitFactor": 0,
@@ -18,66 +18,66 @@ window.PAPER_DATA = {
     "sameDayStopPct": 0,
     "equityPct": -0.63,
     "mdd": 0.6,
-    "open": 1,
-    "openPct": -0.11,
-    "totalPct": -0.63
+    "open": 0,
+    "openPct": 0,
+    "totalPct": -1.04
   },
   "byGrade": {
     "A": {
-      "n": 1,
+      "n": 2,
       "winPct": 0,
       "avgR": -1.04,
-      "totalR": -1,
+      "totalR": -2.1,
       "avgWinR": null,
       "avgLossR": -1.04,
       "profitFactor": 0,
       "avgDays": 0,
       "sameDayStopPct": 0,
-      "equityPct": -0.52
+      "equityPct": -1.04
     }
   },
   "byRegime": {
     "green": {
-      "n": 1,
+      "n": 2,
       "winPct": 0,
       "avgR": -1.04,
-      "totalR": -1,
+      "totalR": -2.1,
       "avgWinR": null,
       "avgLossR": -1.04,
       "profitFactor": 0,
       "avgDays": 0,
       "sameDayStopPct": 0,
-      "equityPct": -0.52
+      "equityPct": -1.04
     }
   },
   "byWhy": {
     "손절": {
-      "n": 1,
+      "n": 2,
       "winPct": 0,
       "avgR": -1.04,
-      "totalR": -1,
+      "totalR": -2.1,
       "avgWinR": null,
       "avgLossR": -1.04,
       "profitFactor": 0,
       "avgDays": 0,
       "sameDayStopPct": 0,
-      "equityPct": -0.52
+      "equityPct": -1.04
     }
   },
   "books": {
     "trail20": {
       "ko": "20일선 트레일",
-      "n": 1,
+      "n": 2,
       "winPct": 0,
       "avgR": -1.04,
-      "totalR": -1,
+      "totalR": -2.1,
       "avgWinR": null,
       "avgLossR": -1.04,
       "profitFactor": 0,
       "avgDays": 0,
       "sameDayStopPct": 0,
-      "equityPct": -0.52,
-      "open": 1
+      "equityPct": -1.04,
+      "open": 0
     },
     "nextOpen": {
       "ko": "다음 날 시가 진입",
@@ -91,7 +91,7 @@ window.PAPER_DATA = {
       "avgDays": 0,
       "sameDayStopPct": 100,
       "equityPct": -0.49,
-      "open": 1
+      "open": 2
     },
     "gradeC": {
       "ko": "등급 C",
@@ -139,31 +139,31 @@ window.PAPER_DATA = {
       "pct": -0.63
     }
   ],
-  "positions": [
+  "positions": [],
+  "trades": [
     {
       "ticker": "ALAB",
-      "book": "main",
       "grade": "A",
+      "regime": "green",
+      "ruleVersion": "0.3",
       "entryDate": "2026-10-06",
       "entryAt": "0940",
-      "entry": 394.72,
-      "stop": 372.25,
-      "last": 389.8,
-      "R": -0.22,
-      "left": 1,
+      "exitDate": "2026-10-07",
+      "exitAt": "0930",
       "days": 0,
-      "weightPct": 8.8,
-      "partial": false,
+      "entry": 394.72,
       "stop0": 372.25,
+      "exit": 371.51,
       "riskPerSharePct": 5.69,
-      "pct": -0.11,
+      "weightPct": 8.8,
+      "R": -1.03,
+      "pct": -0.52,
       "mfeR": 0.31,
-      "maeR": -0.6,
-      "regime": "green",
+      "maeR": -1.2,
+      "why": "손절",
+      "partial": false,
       "entered": "피벗 377.87 위에서 장중 고가 돌파 · 거래량 페이스 3.8× · 10일선 이격 1.58 ADR · 손절 기준 최대 거리(1 ADR)로 당김 · 베이스 2주 · 5팀 업종 대기"
-    }
-  ],
-  "trades": [
+    },
     {
       "ticker": "SMTC",
       "grade": "A",
@@ -189,6 +189,18 @@ window.PAPER_DATA = {
     }
   ],
   "fills": [
+    {
+      "date": "2026-10-07",
+      "at": "0930",
+      "side": "sell",
+      "ticker": "ALAB",
+      "grade": "A",
+      "px": 371.51,
+      "weightPct": 8.8,
+      "frac": 1,
+      "R": -1.03,
+      "why": "손절"
+    },
     {
       "date": "2026-10-06",
       "at": "0940",
@@ -227,14 +239,14 @@ window.PAPER_DATA = {
     }
   ],
   "health": {
-    "at": "2026-10-06T20:00:20.058Z",
-    "atKst": "2026-10-07 05:00 KST",
-    "atEt": "2026-10-06 1600",
-    "phase": "post",
+    "at": "2026-10-07T13:35:20.062Z",
+    "atKst": "2026-10-07 22:35 KST",
+    "atEt": "2026-10-07 0935",
+    "phase": "open",
     "source": "kis",
     "status": "정상",
-    "watch": 16,
-    "checked": 0,
+    "watch": 12,
+    "checked": 12,
     "errors": []
   }
 };

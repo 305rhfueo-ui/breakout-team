@@ -4348,165 +4348,131 @@ window.TEAM6_DATA = {
   ],
   "triggers": [
     {
-      "ticker": "ALAB",
-      "at": "0935",
-      "fired": true,
+      "ticker": "BE",
+      "at": "0930",
+      "fired": false,
       "grade": "A",
-      "ko": "0935 ET · 장중 고가 391.04 위 종가 393.93 · 거래량 페이스 3.8× · 진입 394.72 · 손절 372.25(최대 거리) · 리스크 5.69% · 이격 1.58 ADR",
-      "pace": 3.8,
-      "level": 391.04
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
-      "ticker": "AXTI",
-      "at": "1125",
+      "ticker": "CIEN",
+      "at": "0930",
       "fired": false,
-      "grade": "B",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 97.79 미돌파 (종가 85.85) (1125 ET 기준)",
-      "pace": 0.84,
-      "level": 97.79
+      "grade": "C",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "CORT",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
       "grade": "A",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 126.38 미돌파 (종가 118.89) (1125 ET 기준)",
-      "pace": 1.16,
-      "level": 126.38
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    {
+      "ticker": "DELL",
+      "at": "0930",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "DINO",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
       "grade": "B",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 118.39 미돌파 (종가 114.45) (1125 ET 기준)",
-      "pace": 0.49,
-      "level": 118.39
-    },
-    {
-      "ticker": "DOCN",
-      "at": "1125",
-      "fired": false,
-      "grade": "A",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 151.83 미돌파 (종가 135.27) (1125 ET 기준)",
-      "pace": 0.45,
-      "level": 151.83
-    },
-    {
-      "ticker": "ELF",
-      "at": "1125",
-      "fired": false,
-      "grade": "B",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 110.04 미돌파 (종가 104.7) (1125 ET 기준)",
-      "pace": 0.67,
-      "level": 110.04
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "FEIM",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
       "grade": "A",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 89.76 미돌파 (종가 86.7) (1125 ET 기준)",
-      "pace": 0.43,
-      "level": 89.76
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "FROG",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
       "grade": "B",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 105.76 미돌파 (종가 99.15) (1125 ET 기준)",
-      "pace": 0.99,
-      "level": 105.76
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "MRX",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
-      "grade": "C",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 79.11 미돌파 (종가 74.96) (1125 ET 기준)",
-      "pace": 0.49,
-      "level": 79.11
+      "grade": "B",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "MSTR",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
       "grade": "A",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 171.19 미돌파 (종가 166.75) (1125 ET 기준)",
-      "pace": 0.7,
-      "level": 171.19
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
-      "ticker": "NET",
-      "at": "1125",
+      "ticker": "PENG",
+      "at": "0930",
       "fired": false,
-      "grade": "A",
-      "ko": "대기 — 진입 창(120분) 종료 — 0935 에 기준선 367.69 을 넘었지만 거래량 페이스 1.16× < 1.5× (1125 ET 기준)",
-      "pace": 0.8,
-      "level": 370.35
-    },
-    {
-      "ticker": "QRVO",
-      "at": "1555",
-      "fired": false,
-      "ko": "시세 없음 — no bars"
-    },
-    {
-      "ticker": "RGEN",
-      "at": "1125",
-      "fired": false,
-      "grade": "A",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 198.87 미돌파 (종가 179.12) (1125 ET 기준)",
-      "pace": 2.63,
-      "level": 198.87
-    },
-    {
-      "ticker": "SIMO",
-      "at": "1125",
-      "fired": false,
-      "grade": "A",
-      "ko": "대기 — 진입 창(120분) 종료 — 1010 에 기준선 291.16 을 넘었지만 거래량 페이스 1.18× < 1.5× (1125 ET 기준)",
-      "pace": 1.18,
-      "level": 292.99
+      "grade": "C",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "TEAM",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
-      "grade": "C",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 200 미돌파 (종가 193.94) (1125 ET 기준)",
-      "pace": 0.65,
-      "level": 200
+      "grade": "B",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     },
     {
       "ticker": "ZS",
-      "at": "1125",
+      "at": "0930",
       "fired": false,
-      "grade": "B",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 216.97 미돌파 (종가 209.12) (1125 ET 기준)",
-      "pace": 1.6,
-      "level": 216.97
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
     }
   ],
-  "positions": [
+  "positions": [],
+  "trades": [
     {
       "ticker": "ALAB",
-      "book": "main",
       "grade": "A",
       "entryDate": "2026-10-06",
       "entryAt": "0940",
-      "entry": 394.72,
-      "stop": 372.25,
-      "last": 389.8,
-      "R": -0.22,
-      "left": 1,
+      "exitDate": "2026-10-07",
       "days": 0,
-      "weightPct": 8.8,
-      "partial": false
-    }
-  ],
-  "trades": [
+      "entry": 394.72,
+      "stop0": 372.25,
+      "exit": 371.51,
+      "R": -1.03,
+      "pct": -0.52,
+      "why": "손절",
+      "ruleVersion": "0.3"
+    },
     {
       "ticker": "SMTC",
       "grade": "A",
@@ -4524,10 +4490,10 @@ window.TEAM6_DATA = {
     }
   ],
   "stats": {
-    "n": 1,
+    "n": 2,
     "winPct": 0,
     "avgR": -1.04,
-    "totalR": -1,
+    "totalR": -2.1,
     "avgWinR": null,
     "avgLossR": -1.04,
     "profitFactor": 0,
@@ -4537,30 +4503,30 @@ window.TEAM6_DATA = {
     "mdd": 0.6,
     "byGrade": {
       "A": {
-        "n": 1,
+        "n": 2,
         "winPct": 0,
         "avgR": -1.04,
-        "totalR": -1,
+        "totalR": -2.1,
         "avgWinR": null,
         "avgLossR": -1.04,
         "profitFactor": 0,
         "avgDays": 0,
         "sameDayStopPct": 0,
-        "equityPct": -0.52
+        "equityPct": -1.04
       }
     },
     "books": {
       "trail20": {
-        "n": 1,
+        "n": 2,
         "winPct": 0,
         "avgR": -1.04,
-        "totalR": -1,
+        "totalR": -2.1,
         "avgWinR": null,
         "avgLossR": -1.04,
         "profitFactor": 0,
         "avgDays": 0,
         "sameDayStopPct": 0,
-        "equityPct": -0.52
+        "equityPct": -1.04
       },
       "nextOpen": {
         "n": 1,
@@ -4591,21 +4557,18 @@ window.TEAM6_DATA = {
       }
     },
     "slipPct": 0.2,
-    "open": 1,
-    "totalPct": -0.63,
-    "openPct": -0.11,
-    "observing": true,
-    "minSample": 30
+    "open": 0,
+    "totalPct": -1.04
   },
   "health": {
-    "at": "2026-10-06T20:00:20.058Z",
-    "atKst": "2026-10-07 05:00 KST",
-    "atEt": "2026-10-06 1600",
-    "phase": "post",
+    "at": "2026-10-07T13:35:20.062Z",
+    "atKst": "2026-10-07 22:35 KST",
+    "atEt": "2026-10-07 0935",
+    "phase": "open",
     "source": "kis",
     "status": "정상",
-    "watch": 16,
-    "checked": 0,
+    "watch": 12,
+    "checked": 12,
     "errors": []
   },
   "deep_coverage": {

@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-07",
+  "ticks": 1,
+  "items": {
+    "ZS": {
+      "ticker": "ZS",
+      "at": "0930",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "BE": {
+      "ticker": "BE",
+      "at": "0930",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "FEIM": {
+      "ticker": "FEIM",
+      "at": "0930",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "MSTR": {
+      "ticker": "MSTR",
+      "at": "0930",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "TEAM": {
+      "ticker": "TEAM",
+      "at": "0930",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "DINO": {
+      "ticker": "DINO",
+      "at": "0930",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "DELL": {
+      "ticker": "DELL",
+      "at": "0930",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "CORT": {
+      "ticker": "CORT",
+      "at": "0930",
+      "fired": false,
+      "grade": "A",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "MRX": {
+      "ticker": "MRX",
+      "at": "0930",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "FROG": {
+      "ticker": "FROG",
+      "at": "0930",
+      "fired": false,
+      "grade": "B",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "PENG": {
+      "ticker": "PENG",
+      "at": "0930",
+      "fired": false,
+      "grade": "C",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    },
+    "CIEN": {
+      "ticker": "CIEN",
+      "at": "0930",
+      "fired": false,
+      "grade": "C",
+      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
+      "pace": null,
+      "level": null
+    }
+  }
+}
