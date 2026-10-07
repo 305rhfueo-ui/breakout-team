@@ -2,6 +2,24 @@
  "ticker": "PTC",
  "news": [
   {
+   "title": "Should You Buy PTC Inc. (PTC) After Golden Cross?",
+   "url": "https://www.nasdaq.com/articles/should-you-buy-ptc-inc-ptc-after-golden-cross",
+   "date": "2026-10-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "PTC Inc. (PTC) Surges 33.5%: Is This an Indication of Further Gains?",
+   "url": "https://www.nasdaq.com/articles/ptc-inc-ptc-surges-335-indication-further-gains",
+   "date": "2026-10-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Schneider Electric to Acquire PTC for $205 a Share in €21B Industrial Software Deal",
+   "url": "https://www.nasdaq.com/articles/schneider-electric-acquire-ptc-205-share-eu21b-industrial-software-deal",
+   "date": "2026-10-05",
+   "publisher": "MarketBeat"
+  },
+  {
    "title": "Schneider Electric To Acquire PTC For $205/Share In Cash; PTC Shares Up 35%",
    "url": "https://www.nasdaq.com/articles/schneider-electric-acquire-ptc-205-share-cash-ptc-shares-35",
    "date": "2026-10-05",
@@ -30,136 +48,147 @@
    "url": "https://www.nasdaq.com/articles/ptcs-ai-led-lifecycle-strategy-reshapes-its-long-term-growth-outlook",
    "date": "2026-07-31",
    "publisher": "Zacks"
-  },
-  {
-   "title": "PTC Rides AI, Cloud and Product Data Trends Across Industrial Markets",
-   "url": "https://www.nasdaq.com/articles/ptc-rides-ai-cloud-and-product-data-trends-across-industrial-markets",
-   "date": "2026-07-31",
-   "publisher": "Zacks"
-  },
-  {
-   "title": "Is PTC Stock Attractive After Its Sharp Pullback and Mixed Earnings?",
-   "url": "https://www.nasdaq.com/articles/ptc-stock-attractive-after-its-sharp-pullback-and-mixed-earnings",
-   "date": "2026-07-31",
-   "publisher": "Zacks"
-  },
-  {
-   "title": "PTC Q3 Earnings Call Highlights",
-   "url": "https://www.nasdaq.com/articles/ptc-q3-earnings-call-highlights",
-   "date": "2026-07-30",
-   "publisher": "MarketBeat"
   }
  ],
  "filings": [
   {
    "form": "8-K",
    "filingDate": "2026-10-05",
-   "reportDate": "2026-10-04",
-   "items": [
-    "1.01",
-    "7.01",
-    "9.01"
-   ],
    "itemsKo": [
     "중요 계약 체결",
     "Reg FD 공시",
     "재무제표·첨부"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526413124/d174191d8k.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526413124/d174191d8k.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-07-29",
-   "reportDate": "2026-07-29",
-   "items": [
-    "2.02",
-    "9.01"
-   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526323617/ptc-20260729.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526323617/ptc-20260729.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-05-06",
-   "reportDate": "2026-05-06",
-   "items": [
-    "2.02",
-    "7.01",
-    "9.01"
-   ],
    "itemsKo": [
     "실적 발표",
     "Reg FD 공시",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526208904/ptc-20260506.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526208904/ptc-20260506.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-03-16",
-   "reportDate": "2026-03-16",
-   "items": [
-    "7.01",
-    "9.01"
-   ],
    "itemsKo": [
     "Reg FD 공시",
     "재무제표·첨부"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526107315/ptc-20260316.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526107315/ptc-20260316.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-02-11",
-   "reportDate": "2026-02-11",
-   "items": [
-    "5.07"
-   ],
    "itemsKo": [
     "주주총회 표결"
    ],
    "isEarnings": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526046516/ptc-20260211.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526046516/ptc-20260211.htm"
   },
   {
    "form": "8-K",
    "filingDate": "2026-02-04",
-   "reportDate": "2026-02-04",
-   "items": [
-    "2.02",
-    "9.01"
-   ],
    "itemsKo": [
     "실적 발표",
     "재무제표·첨부"
    ],
    "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526037588/ptc-20260204.htm",
-   "description": "8-K"
+   "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526037588/ptc-20260204.htm"
   }
  ],
- "financials": null,
- "krReports": null,
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000857005&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 600049000,
+    "profit": 166506000,
+    "netIncome": 118780000,
+    "margin": 27.7,
+    "yoy": {
+     "revenue": -6.8,
+     "profit": -20.6,
+     "netIncome": -16,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 774303000,
+    "profit": 295802000,
+    "netIncome": 590723000,
+    "margin": 38.2,
+    "yoy": {
+     "revenue": 21.7,
+     "profit": 32.4,
+     "netIncome": 263.2,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": false,
+    "revenue": 685825000,
+    "profit": 221131000,
+    "netIncome": 166518000,
+    "margin": 32.2,
+    "yoy": {
+     "revenue": 21.4,
+     "profit": 91.4,
+     "netIncome": 102.5,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": true,
+    "revenue": 893795000,
+    "profit": 433569000,
+    "netIncome": 347793000,
+    "margin": 48.5,
+    "yoy": {
+     "revenue": 42.7,
+     "profit": 123.5,
+     "netIncome": 174.9,
+     "priorEnd": "2024-09-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
  "site": {
   "targetStatus": false,
   "saleCy": -0.55,
-  "saleNy": 6.38,
-  "epsCy": 2.56,
-  "epsNy": 8.84,
-  "cyTrend": 0.2,
-  "nyTrend": 0.47,
+  "saleNy": 6.37,
+  "epsCy": 2.5,
+  "epsNy": 8.79,
+  "cyTrend": 0,
+  "nyTrend": 0.13,
   "newHigh52": false,
   "bbCenterBrk5d": true,
   "fs": {

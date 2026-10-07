@@ -1,0 +1,184 @@
+{
+ "ticker": "AEHR",
+ "news": [
+  {
+   "title": "AEHR vs. CAMT: Which Semiconductor Equipment Stock Is the Better Bet?",
+   "url": "https://www.nasdaq.com/articles/aehr-vs-camt-which-semiconductor-equipment-stock-better-bet",
+   "date": "2026-09-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Aehr Test Systems (AEHR) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/aehr-test-systems-aehr-earnings-expected-grow-should-you-buy",
+   "date": "2026-09-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "AEHR at 18.59X Sales: Market Loves Its AI Story, But is Love Blind?",
+   "url": "https://www.nasdaq.com/articles/aehr-1859x-sales-market-loves-its-ai-story-love-blind",
+   "date": "2026-09-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Better Artificial Intelligence Stock: Aehr Test Systems vs. KLA Corporation",
+   "url": "https://www.nasdaq.com/articles/better-artificial-intelligence-stock-aehr-test-systems-vs-kla-corporation",
+   "date": "2026-09-19",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Better Artificial Intelligence Stock: Aehr Test Systems vs. Super Micro Computer",
+   "url": "https://www.nasdaq.com/articles/better-artificial-intelligence-stock-aehr-test-systems-vs-super-micro-computer",
+   "date": "2026-09-19",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Can AEHR's Diversification Strengthen Its Growth Outlook?",
+   "url": "https://www.nasdaq.com/articles/can-aehrs-diversification-strengthen-its-growth-outlook",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Can AEHR Turn AI Processor Tests Into Long-Term Revenue Streams?",
+   "url": "https://www.nasdaq.com/articles/can-aehr-turn-ai-processor-tests-long-term-revenue-streams",
+   "date": "2026-09-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Computer and Technology Stocks Lagging  Aehr Test Systems (AEHR) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-computer-and-technology-stocks-lagging-aehr-test-systems-aehr-year",
+   "date": "2026-09-07",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-14",
+   "reportDate": "2026-07-14",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426006655/aehr_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-20",
+   "reportDate": "2026-04-17",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426003746/aehr_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-08",
+   "reportDate": "2026-04-08",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426003355/aehr_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-07",
+   "reportDate": "2026-04-07",
+   "items": [
+    "2.02",
+    "5.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "5.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426003310/aehr_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-08",
+   "reportDate": "2026-01-08",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495426000197/aehr_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-07",
+   "reportDate": "2025-10-21",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495425012704/aehr_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 172.51,
+  "saleNy": 48.11,
+  "epsCy": 2400,
+  "epsNy": 84.44,
+  "cyTrend": 400,
+  "nyTrend": 361.11,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    33.69,
+    -43.67,
+    -26.53
+   ],
+   "ni": [
+    "흑자전환",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -6.4,
+    -41.01,
+    -47.03
+   ],
+   "updated": "2026-09-15 06:17:00"
+  }
+ }
+}

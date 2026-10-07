@@ -1,0 +1,412 @@
+{
+ "ticker": "ZS",
+ "date": "2026-10-07",
+ "session": "2026-10-06",
+ "plan": {
+  "ticker": "ZS",
+  "name": "지스케일러",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "grade": "A",
+  "state": "pre",
+  "asOf": "2026-10-06",
+  "price": 212.25,
+  "pivot": 216.97,
+  "pivotDate": "2026-09-24",
+  "stop": 206.45,
+  "riskPerSharePct": 4.85,
+  "weightPct": 10.3,
+  "weightCapped": false,
+  "distToPivotPct": -2.18,
+  "distToPivotAdr": -0.44,
+  "extensionAdr": 0.89,
+  "chase": false,
+  "adrPct": 4.96,
+  "ma10": 202.87,
+  "dollarVol20M": 641.9,
+  "liquid": true,
+  "reasons": [
+   "선행 상승 +81%",
+   "베이스 3.2주",
+   "깊이 21.6%",
+   "저점 상승 1회",
+   "진폭 0.85배 · 10일 종가폭 2.1 ADR",
+   "10일선 +0.9 ADR · 20일선 +1.6 ADR",
+   "20일선 기울기 +3.94%"
+  ],
+  "fails": [],
+  "metrics": {
+   "baseBars": 16,
+   "baseWeeks": 3.2,
+   "depthPct": 21.6,
+   "priorMovePct": 81,
+   "higherLows": 1,
+   "contraction": 0.85,
+   "closeRange10Adr": 2.1,
+   "surf10": 0.89,
+   "surf20": 1.58,
+   "slope20": 3.94,
+   "baseLow": 170.06,
+   "lastSwingLow": 187.67
+  },
+  "catalyst": null,
+  "earnings": null,
+  "blocked": null,
+  "shadowBook": null,
+  "watch": true,
+  "score": 67.8
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.310670598988024,
+    "pct": 99.04390934844193
+   },
+   "m3": {
+    "v": 0.4966153507154265,
+    "pct": 98.61898016997166
+   },
+   "m6": {
+    "v": 0.6201054034005402,
+    "pct": 94.86543909348441
+   }
+  },
+  "ret1m": 31.07,
+  "ret3m": 49.66,
+  "ret6m": 62.01,
+  "marketCap": "34.61B",
+  "volx": 1.41,
+  "volSurgeWk": 2.25,
+  "high52": 62.98,
+  "newHigh52": false,
+  "adr": 4.96,
+  "div50": 16.89,
+  "div200": 27.71,
+  "targetStatus": false,
+  "saleCy": 17.26,
+  "saleNy": 16.42,
+  "epsCy": 16.58,
+  "epsNy": 14.14,
+  "cyTrend": -0.03,
+  "nyTrend": -0.26,
+  "est": {
+   "cyCur": 4.90819,
+   "cy30": 4.90956,
+   "nyCur": 5.602,
+   "ny30": 5.61685
+  },
+  "fs": {
+   "sale": [
+    24.88,
+    25.43,
+    25.91
+   ],
+   "ni": [
+    "적자축소",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -1.72,
+    -3.49,
+    -6.35
+   ],
+   "updated": "2026-09-08 10:17:18"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": "2026-10-06",
+   "m3": "2026-10-05",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 2,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-06",
+  "nameKo": "지스케일러",
+  "nameEn": "ZSCALER INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001713683&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": true,
+     "revenue": 898185000,
+     "profit": -15492000,
+     "netIncome": -3369000,
+     "margin": -1.7,
+     "yoy": {
+      "revenue": 24.9,
+      "profit": 52,
+      "netIncome": 80.8,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 850475000,
+     "profit": -29640000,
+     "netIncome": -13883000,
+     "margin": -3.5,
+     "yoy": {
+      "revenue": 25.4,
+      "profit": -16.6,
+      "netIncome": -236.6,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": false,
+     "revenue": 815751000,
+     "profit": -51773000,
+     "netIncome": -34312000,
+     "margin": -6.3,
+     "yoy": {
+      "revenue": 25.9,
+      "profit": -29,
+      "netIncome": -344.2,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 788112000,
+     "profit": -36362000,
+     "netIncome": -11615000,
+     "margin": -4.6,
+     "yoy": {
+      "revenue": 25.5,
+      "profit": -18.6,
+      "netIncome": 3.6,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Zscaler (ZS) Stock Drops Despite Market Gains: Important Facts to Note",
+     "url": "https://www.nasdaq.com/articles/zscaler-zs-stock-drops-despite-market-gains-important-facts-note",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Zscaler (ZS) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-zscaler-zs-top-momentum-stock-long-term",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Zscaler, Inc. (ZS) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/zscaler-inc-zs-attracting-investor-attention-here-what-you-should-know",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-24",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000193/zs-20260924.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-03",
+    "itemsKo": [
+     "실적 발표",
+     "2.05",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000156/zs-20260901.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000095/zs-20260526.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-16",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000082/zs-20260415.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000047/zs-20260226.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-15",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000031/zs-20260112.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "chart": {
+  "lastBar": "2026-10-06",
+  "numbers": {
+   "price": 212.25,
+   "ma20": 195.61,
+   "ma50": 181.58,
+   "ma150": 155.81,
+   "distMA50": 16.89,
+   "periodHigh": 336.99,
+   "pullbackFromHigh": -37.02,
+   "volRatio20": 1.3,
+   "dryUpRatio": 0.73
+  },
+  "last10": [
+   {
+    "d": "2026-09-23",
+    "o": 213,
+    "h": 215.73,
+    "l": 209.4,
+    "c": 214.45,
+    "v": 2557300,
+    "clsPos": 80,
+    "gapPct": 1.34
+   },
+   {
+    "d": "2026-09-24",
+    "o": 213.48,
+    "h": 216.97,
+    "l": 210.59,
+    "c": 214.64,
+    "v": 2440600,
+    "clsPos": 63,
+    "gapPct": -0.45
+   },
+   {
+    "d": "2026-09-25",
+    "o": 206,
+    "h": 207.99,
+    "l": 192.74,
+    "c": 193.05,
+    "v": 6723700,
+    "clsPos": 2,
+    "gapPct": -4.03
+   },
+   {
+    "d": "2026-09-28",
+    "o": 188.89,
+    "h": 202.12,
+    "l": 187.67,
+    "c": 199.39,
+    "v": 3810800,
+    "clsPos": 81,
+    "gapPct": -2.15
+   },
+   {
+    "d": "2026-09-29",
+    "o": 198.02,
+    "h": 201.39,
+    "l": 195.11,
+    "c": 198.35,
+    "v": 1727400,
+    "clsPos": 52,
+    "gapPct": -0.69
+   },
+   {
+    "d": "2026-09-30",
+    "o": 198.86,
+    "h": 202.87,
+    "l": 196.89,
+    "c": 199.42,
+    "v": 2126400,
+    "clsPos": 42,
+    "gapPct": 0.25
+   },
+   {
+    "d": "2026-10-01",
+    "o": 202.65,
+    "h": 203.44,
+    "l": 198.44,
+    "c": 198.78,
+    "v": 1453200,
+    "clsPos": 7,
+    "gapPct": 1.62
+   },
+   {
+    "d": "2026-10-02",
+    "o": 201.18,
+    "h": 202,
+    "l": 195.11,
+    "c": 196.6,
+    "v": 1786300,
+    "clsPos": 22,
+    "gapPct": 1.21
+   },
+   {
+    "d": "2026-10-05",
+    "o": 197.13,
+    "h": 205.2,
+    "l": 196.95,
+    "c": 201.8,
+    "v": 2384400,
+    "clsPos": 59,
+    "gapPct": 0.27
+   },
+   {
+    "d": "2026-10-06",
+    "o": 210.4,
+    "h": 215.51,
+    "l": 205.02,
+    "c": 212.25,
+    "v": 4257800,
+    "clsPos": 69,
+    "gapPct": 4.26
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ZS-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ZS-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선을 넘은 지 13일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "ticker": "CCJ",
+ "sector": "Energy",
+ "industry": "Uranium",
+ "nameKo": "카메코",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0.05,
+  "saleNy": 13.67,
+  "epsCy": 0.65,
+  "epsNy": 78.62,
+  "est": {
+   "cyCur": 1.44933,
+   "cy30": 1.486,
+   "nyCur": 2.58883,
+   "ny30": 2.61106
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -7.3,
+    12.08,
+    1.02
+   ],
+   "ni": [
+    -92.15,
+    96.17,
+    43.06
+   ],
+   "opm": [
+    10.42,
+    19.42,
+    14.65
+   ],
+   "updated": "2026-09-07 05:55:42"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-07",
+  "nameKo": "카메코",
+  "nameEn": "CAMECO CORP",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Cameco Stock Down to Below $90 -- Is Now the Time to Buy?",
+     "url": "https://www.nasdaq.com/articles/cameco-stock-down-below-90-now-time-buy",
+     "date": "2026-10-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Cameco Trades Near $85. Here's Why the Uranium Giant Might Be the Safest Way to Play the Nuclear Comeback",
+     "url": "https://www.nasdaq.com/articles/cameco-trades-near-85-heres-why-uranium-giant-might-be-safest-way-play-nuclear-comeback",
+     "date": "2026-10-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's What a $10,000 Investment in Cameco 5 Years Ago Is Worth Today -- and What the Next 5 Years Could Look Like",
+     "url": "https://www.nasdaq.com/articles/heres-what-10000-investment-cameco-5-years-ago-worth-today-and-what-next-5-years-could",
+     "date": "2026-10-03",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Cameco (CCJ) Stock Sinks As Market Gains: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/cameco-ccj-stock-sinks-market-gains-what-you-should-know",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cameco Says South Korea Plans $120 Bln Investment In U.S. Nuclear Projects",
+     "url": "https://www.nasdaq.com/articles/cameco-says-south-korea-plans-120-bln-investment-us-nuclear-projects",
+     "date": "2026-10-01",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Wall Street Bulls Look Optimistic About Cameco (CCJ): Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/wall-street-bulls-look-optimistic-about-cameco-ccj-should-you-buy",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cameco vs. Centrus Energy: Which Is the Better Nuclear Stock?",
+     "url": "https://www.nasdaq.com/articles/cameco-vs-centrus-energy-which-better-nuclear-stock",
+     "date": "2026-09-28",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 2,
+   "reports": [
+    {
+     "date": "2026-08-03",
+     "broker": "신한투자증권",
+     "analyst": "한승훈",
+     "title": "[카메코 (NYS:CCJ)] 미국 원전 산업 재건의 핵심축",
+     "summary": "- 중장기적인 우라늄 가격 상승이 실적과 주가의 하방을 지지하는 가운데, AP1000 수주 전환과 Westinghouse IPO는 추가적인 밸류에이션 상승 요 인. 높은 밸류에이션과 인도량 변동성은 부담으로 작용할 수 있으나 장기 계약 확대와 AP1000 파이프라인의 구체화가 주가 방향성을 결정할 전망- 2분기 연결 매출액과 조정 EPS는 각각 8.1억CAD(-7.2%, 이하 YoY), 0.18CAD(-74.6%). 조정 EBITDA는 3.9억CAD로 41.9% 감소. 우라늄 판매량 감소, 전년동기 Dukovany 관련 일회성 이익 역기저효과가 주요 감익 요인(2분기 실적 컨센서스: 매출액 8.2억CAD, 조정 EPS 0.37CAD)- 우라늄 부문 매출액과 조정 EBITDA는 각각 6.6억CAD(-6.5%), 2.5억 CAD(-28.4%). 판매량이 710만lb(-18.4%)로 감소했으나 평균 실현가격 은 93.1CAD/lb(+1%)로 상승. 연료 서비스 부문도 판매량 감소로 조정 EBITDA 26.3% 하락. Westinghouse 조정 EBITDA는 1.6억CAD(-53.7%) 로 감소. 지난해 Dukovany 프로젝트 1.7억달러 매출 기여 소멸 영향",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqielxxziqxegcgxeccq.pdf"
+    },
+    {
+     "date": "2025-12-01",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[카메코 (NYS:CCJ)] 미국 원자력 르네상스의 대표 수혜주",
+     "summary": "- 웨스팅하우스 인수로 수직계열화 완성, 타이트한 수급 속 가격 결정력 입증- 우라늄 구조적 공급 부족과 AI 전력 수요의 교집합, 희소성 기반 밸류에이션 정당화- 미국 정부 800억 달러 지원으로 리스크 해소, 웨스팅하우스 가치 재평가 본격화",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkxiexzlzmlgmgcgxeccq.pdf"
+    }
+   ]
+  }
+ }
+}

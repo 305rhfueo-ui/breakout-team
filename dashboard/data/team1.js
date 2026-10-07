@@ -511,8 +511,144 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-07",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "S&P 500이 대형 기술주 힘으로 사상 최고치를 되찾았다",
+        "easy": "S&P 500 지수가 다시 사상 최고치에 올랐다. 지수를 끌어올린 건 매그니피센트 세븐(애플·엔비디아 등 대형 기술주 7개)이다. 상승이 소수 대형주에 기대고 있다는 뜻이기도 하다. 당장은 상승 흐름이 끊기지 않았다는 신호다.",
+        "whyMatters": "기술·반도체 업종에 유리하고, 특히 Magnificent Seven 쪽으로 돈이 계속 몰린다. 반대로 이 7개에서 돈이 빠지면 지수 전체가 같이 흔들린다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "The S&P 500 is back in record territory as the ‘Magnificent Seven’ ride to the rescue",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-s-p-500-is-back-in-record-territory-as-the-magnificent-seven-ride-to-the-rescue-e062724d?mod=mw_rss_topstories",
+            "date": "2026-10-06",
+            "quote": "The S&P 500 is back in record territory as the ‘Magnificent Seven’ ride to the rescue",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/06/chart-a-look-at-the-sp-500s-remarkable-and-defiant-trip-a-new-record.html",
+            "date": "2026-10-06",
+            "quote": "Chart: A look at the S&P 500's remarkable and defiant trip to a new record",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Marvell 실적이 월가 기대를 충족시켰다",
+        "easy": "반도체 회사 Marvell의 실적이 월가를 만족시켰다. 실적 숫자가 좋았던 데다, 앞으로 사업이 어떻게 커질지에 대한 설명도 전보다 설득력 있게 받아들여졌다. 숫자 하나가 아니라 성장 그림이 좋아진 것이어서 반도체 업종 전반의 기대도 같이 올라간다.",
+        "whyMatters": "반도체 업종, 특히 AI용 칩을 만드는 회사들에 대한 기대를 끌어올린다. 다음 실적에서 전망이 내려가면 같은 업종에서 되돌림이 나온다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Marvell just impressed Wall Street with ‘good numbers plus a better story’",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/marvell-just-impressed-wall-street-with-good-numbers-plus-a-better-story-57fbbf23?mod=mw_rss_topstories",
+            "date": "2026-10-06",
+            "quote": "Marvell just impressed Wall Street with ‘good numbers plus a better story’",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "구글이 AI 전력난에 원자력 투자를 늘린다",
+        "easy": "구글이 원자력 발전에 새로 투자하기로 했다. AI 데이터센터가 전기를 많이 써서 전력이 모자라는 상황이 배경이다. 전력을 미리 확보하지 못하면 AI 사업을 키울 수 없다는 뜻이다. AI 경쟁이 전기 확보 경쟁으로 번지고 있다.",
+        "whyMatters": "원자력·전력 유틸리티와 전력 설비·건설 업종에 유리하다. AI 투자 속도가 느려지면 이 전력 수요 기대도 같이 식는다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Google makes a fresh bet on nuclear power as the AI energy crunch intensifies",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/google-makes-a-fresh-bet-on-nuclear-power-as-the-ai-energy-crunch-intensifies-a757c296?mod=mw_rss_topstories",
+            "date": "2026-10-06",
+            "quote": "Google makes a fresh bet on nuclear power as the AI energy crunch intensifies",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "Arthur Hayes가 AI 투자에 수조 달러가 낭비된다고 경고했다",
+        "easy": "BitMEX 창업자 Arthur Hayes가 AI 투자 붐에 수조 달러가 낭비되고 있다고 말했다. 설비에 돈은 많이 들어가는데 그만큼 이익으로 돌아오지 않는다는 주장이다. 그는 AI 다음에 올 것으로 비트코인에 베팅한다고 했다. 한 사람의 의견이지만, AI 투자 회수를 의심하는 목소리가 커졌다는 신호다.",
+        "whyMatters": "AI 설비 기대로 올라온 반도체·데이터센터·전력 업종에는 부담 요인이다. 반대로 비트코인 관련주처럼 AI 밖 자산으로 옮겨가는 자금이 늘 수 있다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Trillions are being ‘wasted’ on the AI boom, Arthur Hayes says. He’s betting on what comes next",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/07/flop-ai-boom-arthur-hayes-bitcoin-bitmex-coinferencex-.html",
+            "date": "2026-10-07",
+            "quote": "Trillions are being ‘wasted’ on the AI boom, Arthur Hayes says. He’s betting on what comes next",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Salesforce 주가가 AI 논쟁의 중심에 섰다",
+        "easy": "Salesforce 주가가 AI를 두고 갈린 평가의 중심에 있다. AI가 이 회사 소프트웨어 매출을 늘려 줄지, 반대로 사람 대신 AI가 일해 소프트웨어 사용자 수를 줄일지 시장이 결론을 못 냈다. 그래서 같은 실적을 두고도 주가 방향이 엇갈린다. 결론이 날 때까지는 주가가 싸게 평가받는다.",
+        "whyMatters": "기업용 소프트웨어 업종에는 부담이고, 돈은 AI 인프라인 반도체·전력 쪽으로 더 간다. 구독형 소프트웨어는 AI가 매출을 늘린다는 증거가 나와야 재평가된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Salesforce shares sit at the epicenter of AI confusion. Here's how to trade it",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/06/salesforce-shares-sit-at-the-epicenter-of-ai-confusion-heres-how-to-trade-it.html",
+            "date": "2026-10-06",
+            "quote": "Salesforce shares sit at the epicenter of AI confusion. Here's how to trade it",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "호르무즈 해협 유조선 공격 위험이 원유 공급을 위협한다",
+        "easy": "회복되던 호르무즈 해협의 원유 수출이 이란의 유조선 공격 위험에 노출됐다. 이 해협은 세계 원유가 지나가는 좁은 길목이라 공격이 늘면 공급이 막힌다. 공급이 막히면 기름값이 올라 물가 부담으로 이어진다.",
+        "whyMatters": "정유·에너지 업종에는 유리하고, 기름값이 원가인 항공·운송 업종에는 불리하다. 기름값이 계속 오르면 물가 때문에 금리 인하 기대가 줄어 기술주에도 부담이 된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html",
+            "date": "2026-10-06",
+            "quote": "Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사도 되는 구간이다. QQQ 종가 759.66에서 10일선이 20일선 위로 올라선 지 13일째이고 두 선이 같이 오르고 있어, 상승 추세가 아직 끊기지 않았다. 오늘 소식은 S&P 500 사상 최고치와 반도체 실적 호조여서 돈이 여전히 기술 쪽으로 흐르고 있다는 쪽이다. 다만 빚내서 산 주식(마진부채)이 1년 전보다 37.2% 늘어 주의선을 넘었고, 주도 섹터가 기술 한 곳에 쏠려 있어 조정이 오면 낙폭이 커질 자리다. 이번 주는 AI 투자 회수에 대한 의심과 호르무즈 해협 유가 변수가 이 추세를 흔드는지 보면 된다.",
+    "keyRisks": [
+      "빚으로 산 주식이 많다: 마진부채 증가율이 주의선을 넘었다. 지수가 흔들릴 때 강제 매도가 겹쳐 낙폭이 커진다.",
+      "주도주가 기술에 쏠렸다: 주도 섹터가 기술 68%, 헬스케어 18%다. 대형 기술주가 쉬면 받쳐 줄 업종이 없다.",
+      "AI 투자 회수 의심: 설비에 들어간 돈이 이익으로 돌아오는지 아직 증명되지 않았다. 의심이 커지면 반도체·전력주가 함께 빠진다.",
+      "유가와 중동 변수: 호르무즈 해협 사고 한 건에 기름값이 튄다. 물가와 금리 기대를 거쳐 주식으로 되돌아온다."
+    ],
+    "easySummary": [
+      "QQQ는 10일선이 20일선 위에서 함께 오르는 중 — 새로 사기 좋은 구간이다.",
+      "S&P 500이 대형 기술주 힘으로 사상 최고치를 되찾았고, 반도체 실적도 좋았다.",
+      "다만 빚내서 산 주식이 많고 주도주가 기술에 쏠려 있어, 흔들릴 때 낙폭이 클 수 있다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 147,
+      "ok": 225,
+      "unverified": 2,
+      "dead": 0,
+      "stripped": 0,
+      "removed": []
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-07"
   }
 };

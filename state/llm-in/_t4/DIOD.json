@@ -1,0 +1,164 @@
+{
+ "ticker": "DIOD",
+ "news": [
+  {
+   "title": "Diodes (DIOD) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/diodes-diod-q2-2026-earnings-call-transcript",
+   "date": "2026-08-12",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Diodes (DIOD) Moves to Buy: Rationale Behind the Upgrade",
+   "url": "https://www.nasdaq.com/articles/diodes-diod-moves-buy-rationale-behind-upgrade",
+   "date": "2026-07-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "AXT vs. DIOD: Which Emerging Chip Stock Looks More Attractive in 2026?",
+   "url": "https://www.nasdaq.com/articles/axt-vs-diod-which-emerging-chip-stock-looks-more-attractive-2026",
+   "date": "2026-06-25",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-27",
+   "reportDate": "2026-08-27",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/29002/000119312526371294/diod-20260827.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-18",
+   "reportDate": "2026-08-12",
+   "items": [
+    "1.01",
+    "2.03",
+    "3.02",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "3.02",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/29002/000119312526355410/diod-20260812.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-12",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/29002/000119312526345311/diod-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/29002/000119312526335408/diod-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-27",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/29002/000119312526321208/diod-20260727.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-15",
+   "reportDate": "2026-07-15",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/29002/000119312526304836/diod-20260715.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": true,
+  "saleCy": 26.09,
+  "saleNy": 20.98,
+  "epsCy": 164.34,
+  "epsNy": 81.4,
+  "cyTrend": 18.78,
+  "nyTrend": 17.23,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    21.66,
+    22.09,
+    15.41
+   ],
+   "ni": [
+    1.2,
+    "흑자전환",
+    23.8
+   ],
+   "opm": [
+    7.47,
+    4.87,
+    3.37
+   ],
+   "updated": "2026-09-08 07:25:21"
+  }
+ }
+}

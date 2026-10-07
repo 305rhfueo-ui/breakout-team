@@ -1,7 +1,7 @@
 {
  "ticker": "MSTR",
- "date": "2026-10-06",
- "session": "2026-10-05",
+ "date": "2026-10-07",
+ "session": "2026-10-06",
  "plan": {
   "ticker": "MSTR",
   "name": "스트래티지",
@@ -9,52 +9,47 @@
   "industry": "Software - Application",
   "grade": "A",
   "state": "pre",
-  "asOf": "2026-10-05",
-  "price": 164.43,
+  "asOf": "2026-10-06",
+  "price": 164.55,
   "pivot": 171.19,
   "pivotDate": "2026-09-22",
-  "stop": 162.07,
-  "riskPerSharePct": 5.33,
-  "weightPct": 9.4,
+  "stop": 162.02,
+  "riskPerSharePct": 5.36,
+  "weightPct": 9.3,
   "weightCapped": false,
-  "distToPivotPct": -3.95,
-  "distToPivotAdr": -0.71,
-  "extensionAdr": 0.49,
+  "distToPivotPct": -3.88,
+  "distToPivotAdr": -0.7,
+  "extensionAdr": 0.53,
   "chase": false,
-  "adrPct": 5.55,
-  "ma10": 159.96,
-  "dollarVol20M": 3356.4,
+  "adrPct": 5.57,
+  "ma10": 159.68,
+  "dollarVol20M": 3366.8,
   "liquid": true,
   "reasons": [
    "선행 상승 +109%",
-   "베이스 2.2주",
+   "베이스 2.4주",
    "깊이 20.5%",
    "저점 상승 1회",
-   "진폭 1.04배 · 10일 종가폭 1.6 ADR",
-   "10일선 +0.5 ADR · 20일선 +1.7 ADR",
-   "20일선 기울기 +4.35%"
+   "진폭 1.07배 · 10일 종가폭 1.2 ADR",
+   "10일선 +0.5 ADR · 20일선 +1.6 ADR",
+   "20일선 기울기 +4.54%"
   ],
   "fails": [],
   "metrics": {
-   "baseBars": 11,
-   "baseWeeks": 2.2,
+   "baseBars": 12,
+   "baseWeeks": 2.4,
    "depthPct": 20.5,
    "priorMovePct": 109.3,
    "higherLows": 1,
-   "contraction": 1.04,
-   "closeRange10Adr": 1.6,
-   "surf10": 0.49,
-   "surf20": 1.71,
-   "slope20": 4.35,
+   "contraction": 1.07,
+   "closeRange10Adr": 1.2,
+   "surf10": 0.53,
+   "surf20": 1.57,
+   "slope20": 4.54,
    "baseLow": 136.18,
    "lastSwingLow": 152.02
   },
   "catalyst": null,
-  "flow": {
-   "flow": "neutral",
-   "stageKo": "💤 미형성",
-   "frank25": 6
-  },
   "earnings": null,
   "blocked": null,
   "shadowBook": null,
@@ -64,29 +59,29 @@
  "site": {
   "rs": {
    "m1": {
-    "v": 0.15147051233733977,
-    "pct": 93.51983002832861
+    "v": 0.205317886771786,
+    "pct": 96.06940509915015
    },
    "m3": {
-    "v": 0.7374259693176448,
-    "pct": 99.46883852691218
+    "v": 0.7866450138758062,
+    "pct": 99.61048158640227
    },
    "m6": {
-    "v": 0.1966377140933197,
-    "pct": 76.52266288951841
+    "v": 0.14637042460872643,
+    "pct": 70.856940509915
    }
   },
-  "ret1m": 15.15,
-  "ret3m": 73.74,
-  "ret6m": 19.66,
-  "marketCap": "63.80B",
-  "volx": 0.89,
-  "volSurgeWk": 0.93,
-  "high52": 45.02,
+  "ret1m": 20.53,
+  "ret3m": 78.66,
+  "ret6m": 14.64,
+  "marketCap": "65.61B",
+  "volx": 0.85,
+  "volSurgeWk": 0.88,
+  "high52": 45.78,
   "newHigh52": false,
-  "adr": 5.55,
-  "div50": 31.48,
-  "div200": 20.93,
+  "adr": 5.57,
+  "div50": 30.2,
+  "div200": 21,
   "targetStatus": false,
   "saleCy": 5.13,
   "saleNy": 2.22,
@@ -128,23 +123,9 @@
   },
   "top2Streak": {
    "m1": 0,
-   "m3": 12,
+   "m3": 13,
    "m6": 0
   }
- },
- "flow": {
-  "FRANK": 6,
-  "frank25": 6,
-  "d50": 2.61,
-  "d200": 9.870000000000001,
-  "d200Delta": -2.6799999999999997,
-  "cy": 0.025,
-  "ny": 0.175,
-  "upRatio": 68.80324543610547,
-  "coverage": 2465,
-  "winRate": 0.8431,
-  "stageKo": "💤 미형성",
-  "flow": "neutral"
  },
  "eye": null,
  "detail": {
@@ -334,29 +315,19 @@
  },
  "detailNote": null,
  "chart": {
-  "lastBar": "2026-10-05",
+  "lastBar": "2026-10-06",
   "numbers": {
-   "price": 164.43,
-   "ma20": 148.79,
-   "ma50": 125.06,
-   "ma150": 131.77,
-   "distMA50": 31.48,
+   "price": 164.55,
+   "ma20": 150.19,
+   "ma50": 126.38,
+   "ma150": 131.98,
+   "distMA50": 30.2,
    "periodHigh": 543,
-   "pullbackFromHigh": -69.72,
-   "volRatio20": 0.81,
-   "dryUpRatio": 0.89
+   "pullbackFromHigh": -69.7,
+   "volRatio20": 0.8,
+   "dryUpRatio": 0.9
   },
   "last10": [
-   {
-    "d": "2026-09-22",
-    "o": 167.55,
-    "h": 171.19,
-    "l": 167.25,
-    "c": 167.33,
-    "v": 23855700,
-    "clsPos": 2,
-    "gapPct": -0.56
-   },
    {
     "d": "2026-09-23",
     "o": 167.23,
@@ -443,9 +414,19 @@
     "h": 166.2,
     "l": 160.12,
     "c": 164.43,
-    "v": 18146700,
+    "v": 18216500,
     "clsPos": 71,
     "gapPct": 2.92
+   },
+   {
+    "d": "2026-10-06",
+    "o": 165.82,
+    "h": 168.73,
+    "l": 163.18,
+    "c": 164.55,
+    "v": 17709398,
+    "clsPos": 25,
+    "gapPct": 0.85
    }
   ],
   "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MSTR-3m.png",
@@ -453,7 +434,7 @@
  },
  "market": {
   "verdict": "green",
-  "ko": "🟢 10일선이 20일선을 넘은 지 12일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "ko": "🟢 10일선이 20일선을 넘은 지 13일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
   "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
   "finraLevel": "warn"
  }

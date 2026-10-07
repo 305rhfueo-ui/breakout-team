@@ -1,0 +1,245 @@
+{
+ "ticker": "AAOI",
+ "sector": "Technology",
+ "industry": "Communication Equipment",
+ "nameKo": "어플라이드 옵토일렉트로닉스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 127.87,
+  "saleNy": 156.48,
+  "epsCy": -361.54,
+  "epsNy": 576.76,
+  "est": {
+   "cyCur": 0.68,
+   "cy30": 0.88833,
+   "nyCur": 4.602,
+   "ny30": 4.772
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    86.42,
+    51.36,
+    33.91
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자축소"
+   ],
+   "opm": [
+    -12.88,
+    -8.6,
+    -8.57
+   ],
+   "updated": "2026-09-15 06:38:44"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-07",
+  "nameKo": "어플라이드 옵토일렉트로닉스",
+  "nameEn": "APPLIED OPTOELECTRONICS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001158114&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 191922000,
+     "profit": -24727000,
+     "netIncome": -22781000,
+     "margin": -12.9,
+     "yoy": {
+      "revenue": 86.4,
+      "profit": -54.8,
+      "netIncome": -150.4,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 151144000,
+     "profit": -12991000,
+     "netIncome": -14281000,
+     "margin": -8.6,
+     "yoy": {
+      "revenue": 51.4,
+      "profit": -45.4,
+      "netIncome": -55.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 134274000,
+     "profit": -11501000,
+     "netIncome": -2022000,
+     "margin": -8.6,
+     "yoy": {
+      "revenue": 33.9,
+      "profit": -77.7,
+      "netIncome": 98.3,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 118630000,
+     "profit": -18187000,
+     "netIncome": -17936000,
+     "margin": -15.3,
+     "yoy": {
+      "revenue": 82.1,
+      "profit": -9.9,
+      "netIncome": -1,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Applied Optoelectronics Rides on AI Boom: Can It Beat LITE and FN?",
+     "url": "https://www.nasdaq.com/articles/applied-optoelectronics-rides-ai-boom-can-it-beat-lite-and-fn",
+     "date": "2026-09-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "AAOI vs. Fabrinet: Which AI Data Center Stock Is the Better Buy?",
+     "url": "https://www.nasdaq.com/articles/aaoi-vs-fabrinet-which-ai-data-center-stock-better-buy",
+     "date": "2026-09-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "FN Rides on Surging Data Center Demand: Can It Outpace AAOI & LITE?",
+     "url": "https://www.nasdaq.com/articles/fn-rides-surging-data-center-demand-can-it-outpace-aaoi-lite",
+     "date": "2026-09-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "AAOI's Optical Networking Demand Rise: Can It Beat LITE and COHR?",
+     "url": "https://www.nasdaq.com/articles/aaois-optical-networking-demand-rise-can-it-beat-lite-and-cohr",
+     "date": "2026-09-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "LITE's Laser Growth Accelerates: Can It Challenge AVGO & AAOI?",
+     "url": "https://www.nasdaq.com/articles/lites-laser-growth-accelerates-can-it-challenge-avgo-aaoi",
+     "date": "2026-09-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "FN's AI Optical Growth Accelerates: Can It Challenge LITE & AAOI?",
+     "url": "https://www.nasdaq.com/articles/fns-ai-optical-growth-accelerates-can-it-challenge-lite-aaoi",
+     "date": "2026-09-08",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-15",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007160/aaoi_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-10",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826007057/aaoi_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826006862/aaoi_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-24",
+    "itemsKo": [
+     "중요 계약 체결",
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826006693/aaoi_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-21",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1158114/000110465926099688/tm2623389d2_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826006055/aaoi_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 2,
+   "reports": [
+    {
+     "date": "2026-03-23",
+     "broker": "메리츠증권",
+     "analyst": "양승수",
+     "title": "[어플라이드 옵토일렉트로닉스 (NAS:AAOI)] 광모듈시장의‘캡틴아메리카’",
+     "summary": "- 미중 분쟁으로 인해 중국산 광모듈에 대한 공급망 리스크가 부각되고 있으며, 점진적인 미국 광모듈 공급 업체들의 점유율 확대 전망- AAOI는 미국 내 자체 레이저 팹과 자동화 생산시설을 기반으로 전 공정을 수직계열화한 광트랜시버 업체로, 2017년 AWS향 공급을 시작하며 데이터센터 밸류체인에 진입- Lumentum, Coherent 등 EML 레이저 기반 업체들과 달리, 자체 개발한 CW 레이저와 SiPho(실리콘포토닉스 변조기)를 결합한 구조를 채택해 400mW급 레이저 성능을 구현",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqkggzzxqcixeqgcgxeccq.pdf"
+    },
+    {
+     "date": "2026-03-17",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[어플라이드 옵토일렉트로닉스 (NAS:AAOI)] 숨겨진 광통신 강자",
+     "summary": "- 수직계열화를 통한 원가 경쟁력과 공급 안정성 확보- 400G 트랜시버 수요에 힘입어 4Q 실적 시장 기대치 상회- 2분기 흑자 전환 구간 진입을 통한 실적 턴어라운드 본격화 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqixmmqgxziikxgcgxeccq.pdf"
+    }
+   ]
+  }
+ }
+}

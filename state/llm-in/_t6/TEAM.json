@@ -1,0 +1,398 @@
+{
+ "ticker": "TEAM",
+ "date": "2026-10-07",
+ "session": "2026-10-06",
+ "plan": {
+  "ticker": "TEAM",
+  "name": "아틀라시언",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "grade": "B",
+  "state": "pre",
+  "asOf": "2026-10-06",
+  "price": 193.98,
+  "pivot": 200,
+  "pivotDate": "2026-09-22",
+  "stop": 191.26,
+  "riskPerSharePct": 4.37,
+  "weightPct": 11.4,
+  "weightCapped": false,
+  "distToPivotPct": -3.01,
+  "distToPivotAdr": -0.67,
+  "extensionAdr": 0.71,
+  "chase": false,
+  "adrPct": 4.51,
+  "ma10": 187.76,
+  "dollarVol20M": 568.1,
+  "liquid": true,
+  "reasons": [
+   "선행 상승 +169%",
+   "베이스 3.6주",
+   "깊이 16%",
+   "✗ 저점 상승 0회",
+   "진폭 1.02배 · 10일 종가폭 2.4 ADR",
+   "10일선 +0.7 ADR · 20일선 +0.7 ADR",
+   "20일선 기울기 +0.36%"
+  ],
+  "fails": [
+   "higherLows"
+  ],
+  "metrics": {
+   "baseBars": 18,
+   "baseWeeks": 3.6,
+   "depthPct": 16,
+   "priorMovePct": 168.8,
+   "higherLows": 0,
+   "contraction": 1.02,
+   "closeRange10Adr": 2.4,
+   "surf10": 0.71,
+   "surf20": 0.7,
+   "slope20": 0.36,
+   "baseLow": 168.05,
+   "lastSwingLow": 168.05
+  },
+  "catalyst": null,
+  "earnings": null,
+  "blocked": null,
+  "shadowBook": null,
+  "watch": true,
+  "score": 57
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.0995351872851611,
+    "pct": 91.11189801699717
+   },
+   "m3": {
+    "v": 1.0172627739195315,
+    "pct": 99.89376770538244
+   },
+   "m6": {
+    "v": 1.9390908443566524,
+    "pct": 99.53966005665723
+   }
+  },
+  "ret1m": 9.95,
+  "ret3m": 101.73,
+  "ret6m": 193.91,
+  "marketCap": "47.56B",
+  "volx": 0.67,
+  "volSurgeWk": 0.67,
+  "high52": 96.99,
+  "newHigh52": false,
+  "adr": 4.51,
+  "div50": 15.62,
+  "div200": 72.12,
+  "targetStatus": false,
+  "saleCy": 13.77,
+  "saleNy": 14.55,
+  "epsCy": -7.23,
+  "epsNy": -59.7,
+  "cyTrend": 0.09,
+  "nyTrend": 6.32,
+  "est": {
+   "cyCur": 5.42681,
+   "cy30": 5.42187,
+   "nyCur": 2.1871,
+   "ny30": 2.0571
+  },
+  "fs": {
+   "sale": [
+    27.6,
+    31.71,
+    23.31
+   ],
+   "ni": [
+    "흑자전환",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    11.93,
+    -3.15,
+    -3.01
+   ],
+   "updated": "2026-09-09 06:28:59"
+  },
+  "qualifiedBy": [
+   "3mo",
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-08-28",
+   "m6": "2026-08-31"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 26,
+   "m6": 25
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-05",
+  "nameKo": "아틀라시언",
+  "nameEn": "ATLASSIAN CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001650372&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": true,
+     "revenue": 1766469000,
+     "profit": 210723000,
+     "netIncome": 139076000,
+     "margin": 11.9,
+     "yoy": {
+      "revenue": 27.6,
+      "profit": 839.9,
+      "netIncome": 681.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1786971000,
+     "profit": -56284000,
+     "netIncome": -98389000,
+     "margin": -3.1,
+     "yoy": {
+      "revenue": 31.7,
+      "profit": -351.9,
+      "netIncome": -39,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 1586315000,
+     "profit": -47747000,
+     "netIncome": -42645000,
+     "margin": -3,
+     "yoy": {
+      "revenue": 23.3,
+      "profit": 16.9,
+      "netIncome": -11.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1432553000,
+     "profit": -96337000,
+     "netIncome": -51870000,
+     "margin": -6.7,
+     "yoy": {
+      "revenue": 20.6,
+      "profit": -201.3,
+      "netIncome": 58.1,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": []
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000031/team-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000024/team-20260430.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-11",
+    "itemsKo": [
+     "2.05",
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000021/team-20260311.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-18",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000017/team-20260218.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000008/team-20260205.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-15",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000003/team-20260115.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "chart": {
+  "lastBar": "2026-10-06",
+  "numbers": {
+   "price": 193.98,
+   "ma20": 187.82,
+   "ma50": 167.77,
+   "ma150": 110.27,
+   "distMA50": 15.62,
+   "periodHigh": 326,
+   "pullbackFromHigh": -40.5,
+   "volRatio20": 0.65,
+   "dryUpRatio": 0.79
+  },
+  "last10": [
+   {
+    "d": "2026-09-23",
+    "o": 190.02,
+    "h": 196.92,
+    "l": 188.97,
+    "c": 195.08,
+    "v": 2407900,
+    "clsPos": 77,
+    "gapPct": 0.73
+   },
+   {
+    "d": "2026-09-24",
+    "o": 195.91,
+    "h": 198,
+    "l": 191.7,
+    "c": 192.61,
+    "v": 1690100,
+    "clsPos": 14,
+    "gapPct": 0.43
+   },
+   {
+    "d": "2026-09-25",
+    "o": 192.01,
+    "h": 194.81,
+    "l": 187.23,
+    "c": 187.74,
+    "v": 1884300,
+    "clsPos": 7,
+    "gapPct": -0.31
+   },
+   {
+    "d": "2026-09-28",
+    "o": 182.11,
+    "h": 182.11,
+    "l": 173.5,
+    "c": 178.54,
+    "v": 3658500,
+    "clsPos": 59,
+    "gapPct": -3
+   },
+   {
+    "d": "2026-09-29",
+    "o": 177.73,
+    "h": 179.5,
+    "l": 168.05,
+    "c": 175.96,
+    "v": 4583600,
+    "clsPos": 69,
+    "gapPct": -0.45
+   },
+   {
+    "d": "2026-09-30",
+    "o": 176.4,
+    "h": 183.8,
+    "l": 175.5,
+    "c": 179.29,
+    "v": 2463200,
+    "clsPos": 46,
+    "gapPct": 0.25
+   },
+   {
+    "d": "2026-10-01",
+    "o": 183.72,
+    "h": 191.07,
+    "l": 182.57,
+    "c": 189.91,
+    "v": 2698200,
+    "clsPos": 86,
+    "gapPct": 2.47
+   },
+   {
+    "d": "2026-10-02",
+    "o": 190.98,
+    "h": 191.83,
+    "l": 186.64,
+    "c": 187.89,
+    "v": 1748500,
+    "clsPos": 24,
+    "gapPct": 0.56
+   },
+   {
+    "d": "2026-10-05",
+    "o": 187.63,
+    "h": 197.5,
+    "l": 186.5,
+    "c": 196.65,
+    "v": 3036900,
+    "clsPos": 92,
+    "gapPct": -0.14
+   },
+   {
+    "d": "2026-10-06",
+    "o": 198.85,
+    "h": 199.08,
+    "l": 190.96,
+    "c": 193.98,
+    "v": 1961100,
+    "clsPos": 37,
+    "gapPct": 1.12
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/TEAM-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/TEAM-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선을 넘은 지 13일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

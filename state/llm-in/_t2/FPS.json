@@ -1,0 +1,216 @@
+{
+ "ticker": "FPS",
+ "sector": "Industrials",
+ "industry": "Electrical Equipment & Parts",
+ "nameKo": "포전트 파워 솔루션스",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 79.21,
+  "saleNy": 33.63,
+  "epsCy": 98.6,
+  "epsNy": 49.15,
+  "est": {
+   "cyCur": 1.35045,
+   "cy30": 1.15504,
+   "nyCur": 2.01426,
+   "ny30": 1.76071
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    94.3,
+    103.36,
+    69.05
+   ],
+   "ni": [
+    "흑자전환",
+    165.72,
+    -94.64
+   ],
+   "opm": [
+    19.91,
+    10.39,
+    6.78
+   ],
+   "updated": "2026-09-20 06:39:14"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-10-06",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-07",
+  "nameKo": "포전트 파워 솔루션스",
+  "nameEn": "FORGENT POWER SOLUTIONS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002080126&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": true,
+     "revenue": 461672000,
+     "profit": 91900000,
+     "netIncome": 53299000,
+     "margin": 19.9,
+     "yoy": {
+      "revenue": 94.3,
+      "profit": 1008.4,
+      "netIncome": 2182,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 378709000,
+     "profit": 39336000,
+     "netIncome": 18287000,
+     "margin": 10.4,
+     "yoy": {
+      "revenue": 103.4,
+      "profit": 75.6,
+      "netIncome": 165.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 296404000,
+     "profit": 20090000,
+     "netIncome": 246000,
+     "margin": 6.8,
+     "yoy": {
+      "revenue": 69,
+      "profit": 6,
+      "netIncome": -94.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-06-30",
+     "derived": true,
+     "revenue": 237613000,
+     "profit": 8291000,
+     "netIncome": -2560000,
+     "margin": 3.5,
+     "yoy": {
+      "revenue": null,
+      "profit": null,
+      "netIncome": null,
+      "priorEnd": null
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Bernstein Initiates Coverage of Forgent Power Solutions at Outperform",
+     "url": "https://www.nasdaq.com/articles/bernstein-initiates-coverage-forgent-power-solutions-outperform",
+     "date": "2026-10-03",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Wall Street Analysts See a 52.91% Upside in Forgent Power (FPS): Can the Stock Really Move This High?",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-5291-upside-forgent-power-fps-can-stock-really-move-high",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Wells Fargo Initiates Coverage of Forgent Power Solutions at Equal-Weight",
+     "url": "https://www.nasdaq.com/articles/wells-fargo-initiates-coverage-forgent-power-solutions-equal-weight",
+     "date": "2026-09-26",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Forgent Power Solutions (FPS) Q4 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/forgent-power-solutions-fps-q4-2026-earnings-call-transcript",
+     "date": "2026-09-16",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Why Forgent Power Stock Popped Today",
+     "url": "https://www.nasdaq.com/articles/why-forgent-power-stock-popped-today",
+     "date": "2026-09-16",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-15",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2080126/000208012626000034/fps-20260915.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-26",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2080126/000119312526283773/na-20260623.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-14",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2080126/000208012626000017/fps-20260514.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-16",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/2080126/000208012626000010/fps-20260316.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-10",
+    "itemsKo": [
+     "중요 계약 체결",
+     "3.02",
+     "3.03",
+     "임원 변동",
+     "5.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/2080126/000119312526043650/d23417d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ }
+}

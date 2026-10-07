@@ -1,0 +1,235 @@
+{
+ "ticker": "RCL",
+ "sector": "Consumer Cyclical",
+ "industry": "Travel Services",
+ "nameKo": "로열 캐리비언 크루즈",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.12,
+  "saleNy": 7.25,
+  "epsCy": 14.05,
+  "epsNy": 14.63,
+  "est": {
+   "cyCur": 17.83711,
+   "cy30": 17.79981,
+   "nyCur": 20.44746,
+   "ny30": 20.29286
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.48,
+    11.33,
+    13.27
+   ],
+   "ni": [
+    -6.78,
+    28.9,
+    36.41
+   ],
+   "opm": [
+    27.07,
+    26.1,
+    21.88
+   ],
+   "updated": "2026-09-08 06:15:59"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-07",
+  "nameKo": "로열 캐리비언 크루즈",
+  "nameEn": "ROYAL CARIBBEAN GROUP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000884887&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 4832000000,
+     "profit": 1307000000,
+     "netIncome": 1128000000,
+     "margin": 27,
+     "yoy": {
+      "revenue": 6.5,
+      "profit": -1.7,
+      "netIncome": -6.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 4452000000,
+     "profit": 1162000000,
+     "netIncome": 941000000,
+     "margin": 26.1,
+     "yoy": {
+      "revenue": 11.3,
+      "profit": 23,
+      "netIncome": 28.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 4259000000,
+     "profit": 933000000,
+     "netIncome": 754000000,
+     "margin": 21.9,
+     "yoy": {
+      "revenue": 13.3,
+      "profit": 49.5,
+      "netIncome": 36.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 5139000000,
+     "profit": 1702000000,
+     "netIncome": 1575000000,
+     "margin": 33.1,
+     "yoy": {
+      "revenue": 5.2,
+      "profit": 4.2,
+      "netIncome": 41.8,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Royal Caribbean Group (RCL) Shares Cross Above 200 DMA",
+     "url": "https://www.nasdaq.com/articles/royal-caribbean-group-rcl-shares-cross-above-200-dma",
+     "date": "2026-10-06",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Can Royal Caribbean's Record 2027 Pricing Sustain Its Growth Run?",
+     "url": "https://www.nasdaq.com/articles/can-royal-caribbeans-record-2027-pricing-sustain-its-growth-run",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Royal Caribbean (RCL) is a Top-Ranked Momentum Stock: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/royal-caribbean-rcl-top-ranked-momentum-stock-should-you-buy",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Royal Caribbean (RCL) Advances While Market Declines: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/royal-caribbean-rcl-advances-while-market-declines-some-information-investors-0",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can Royal Caribbean's Fuel Hedges Cushion Its $1.3B Expense Outlook?",
+     "url": "https://www.nasdaq.com/articles/can-royal-caribbeans-fuel-hedges-cushion-its-13b-expense-outlook",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Royal Caribbean Cruises Ltd. (RCL) Is a Trending Stock: Facts to Know Before Betting on It",
+     "url": "https://www.nasdaq.com/articles/royal-caribbean-cruises-ltd-rcl-trending-stock-facts-know-betting-it-0",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-23",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000110465926109755/tm2625963d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-20",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000110465926099245/tm2623517d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-07",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000110465926092371/tm2622454d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000036/rcl-20260728.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-20",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000110465926085080/tm2620798d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-28",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000030/rcl-20260528.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-02-02",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[로열 캐리비언 크루즈 (NYS:RCL)] ‘Q’와 ‘P’를 동시에 높이는 방법",
+     "summary": "- 로열 캐리비언 크루즈는 세계 2위의 크루즈 운영사- FY4Q25 실적은 견조한 수요와 비용 효율화가 맞물려 시장 기대치를 상회- 높은 사전 예약률과 공급 및 수익성 동반 상승에 기반한 구조적 이익 성장을 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxmmmcimeqlkeggcgxeccq.pdf"
+    }
+   ]
+  }
+ }
+}

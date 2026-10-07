@@ -1,7 +1,7 @@
 {
  "ticker": "FEIM",
- "date": "2026-10-06",
- "session": "2026-10-05",
+ "date": "2026-10-07",
+ "session": "2026-10-06",
  "plan": {
   "ticker": "FEIM",
   "name": "프리퀀시 일렉트로닉스",
@@ -9,84 +9,79 @@
   "industry": "Communication Equipment",
   "grade": "A",
   "state": "pre",
-  "asOf": "2026-10-05",
-  "price": 85.46,
+  "asOf": "2026-10-06",
+  "price": 87.13,
   "pivot": 89.76,
   "pivotDate": "2026-09-11",
-  "stop": 84.79,
-  "riskPerSharePct": 5.54,
-  "weightPct": 9,
+  "stop": 84.99,
+  "riskPerSharePct": 5.31,
+  "weightPct": 9.4,
   "weightCapped": false,
-  "distToPivotPct": -4.79,
-  "distToPivotAdr": -0.82,
-  "extensionAdr": 0.08,
+  "distToPivotPct": -2.93,
+  "distToPivotAdr": -0.54,
+  "extensionAdr": 0.38,
   "chase": false,
-  "adrPct": 5.82,
-  "ma10": 85.09,
-  "dollarVol20M": 35.6,
+  "adrPct": 5.47,
+  "ma10": 85.29,
+  "dollarVol20M": 35.8,
   "liquid": true,
   "reasons": [
    "선행 상승 +82%",
-   "베이스 3.2주",
+   "베이스 3.4주",
    "깊이 12.7%",
    "저점 상승 1회",
-   "진폭 0.86배 · 10일 종가폭 1.2 ADR",
-   "10일선 +0.1 ADR · 20일선 +0.7 ADR",
-   "20일선 기울기 +8.39%"
+   "진폭 0.83배 · 10일 종가폭 1.2 ADR",
+   "10일선 +0.4 ADR · 20일선 +0.8 ADR",
+   "20일선 기울기 +8.13%"
   ],
   "fails": [],
   "metrics": {
-   "baseBars": 16,
-   "baseWeeks": 3.2,
+   "baseBars": 17,
+   "baseWeeks": 3.4,
    "depthPct": 12.7,
    "priorMovePct": 82.4,
    "higherLows": 1,
-   "contraction": 0.86,
+   "contraction": 0.83,
    "closeRange10Adr": 1.2,
-   "surf10": 0.08,
-   "surf20": 0.66,
-   "slope20": 8.39,
+   "surf10": 0.38,
+   "surf20": 0.81,
+   "slope20": 8.13,
    "baseLow": 78.32,
    "lastSwingLow": 81.58
   },
   "catalyst": null,
-  "flow": {
-   "flow": "outflow",
-   "stageKo": "💤 미형성",
-   "frank25": -5
-  },
   "earnings": null,
   "blocked": null,
   "shadowBook": null,
   "watch": true,
-  "score": 65.2
+  "score": 67.1
  },
  "site": {
   "rs": {
    "m1": {
-    "v": 0.40860395028355895,
-    "pct": 99.32719546742209
+    "v": 0.3347119926884968,
+    "pct": 99.18555240793201
    },
    "m3": {
-    "v": 0.49066799851697246,
-    "pct": 98.47733711048159
+    "v": 0.5987155459342747,
+    "pct": 99.25637393767705
    },
    "m6": {
-    "v": 0.5104276479108701,
-    "pct": 92.66997167138811
+    "v": 0.5342489143999143,
+    "pct": 93.37818696883853
    }
   },
-  "ret1m": 40.86,
-  "ret3m": 49.07,
-  "ret6m": 51.04,
+  "ret1m": 33.47,
+  "ret3m": 59.87,
+  "ret6m": 53.42,
   "marketCap": "0.96B",
-  "volx": 1.49,
-  "volSurgeWk": 2,
-  "high52": 95.21,
+  "volx": 0.53,
+  "volSurgeWk": 0.6,
+  "high52": 97.07,
   "newHigh52": false,
-  "adr": 5.82,
-  "div50": 17.36,
-  "div200": 40.27,
+  "adr": 5.49,
+  "div50": 19.11,
+  "div200": 42.49,
   "targetStatus": false,
   "saleCy": 30.8,
   "saleNy": 26.18,
@@ -128,24 +123,10 @@
    "m6": null
   },
   "top2Streak": {
-   "m1": 13,
-   "m3": 1,
+   "m1": 14,
+   "m3": 2,
    "m6": 0
   }
- },
- "flow": {
-  "FRANK": 21,
-  "frank25": -5,
-  "d50": 1.04,
-  "d200": 11.27,
-  "d200Delta": -4.91,
-  "cy": 0,
-  "ny": 0,
-  "upRatio": 86.23595505617978,
-  "coverage": 356,
-  "winRate": 0.5385,
-  "stageKo": "💤 미형성",
-  "flow": "outflow"
  },
  "eye": null,
  "detail": {
@@ -338,29 +319,19 @@
  },
  "detailNote": null,
  "chart": {
-  "lastBar": "2026-10-05",
+  "lastBar": "2026-10-06",
   "numbers": {
-   "price": 85.46,
-   "ma20": 82.19,
-   "ma50": 72.82,
-   "ma150": 63.66,
-   "distMA50": 17.36,
+   "price": 87.13,
+   "ma20": 83.28,
+   "ma50": 73.15,
+   "ma150": 63.88,
+   "distMA50": 19.11,
    "periodHigh": 89.76,
-   "pullbackFromHigh": -4.79,
-   "volRatio20": 1.46,
-   "dryUpRatio": 0.86
+   "pullbackFromHigh": -2.93,
+   "volRatio20": 0.51,
+   "dryUpRatio": 0.75
   },
   "last10": [
-   {
-    "d": "2026-09-22",
-    "o": 88.48,
-    "h": 89.52,
-    "l": 84.57,
-    "c": 85.05,
-    "v": 348600,
-    "clsPos": 10,
-    "gapPct": -0.58
-   },
    {
     "d": "2026-09-23",
     "o": 85.05,
@@ -450,6 +421,16 @@
     "v": 618900,
     "clsPos": 59,
     "gapPct": -0.4
+   },
+   {
+    "d": "2026-10-06",
+    "o": 86.6,
+    "h": 88.19,
+    "l": 85.68,
+    "c": 87.13,
+    "v": 217067,
+    "clsPos": 58,
+    "gapPct": 1.33
    }
   ],
   "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/FEIM-3m.png",
@@ -457,7 +438,7 @@
  },
  "market": {
   "verdict": "green",
-  "ko": "🟢 10일선이 20일선을 넘은 지 12일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "ko": "🟢 10일선이 20일선을 넘은 지 13일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
   "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
   "finraLevel": "warn"
  }

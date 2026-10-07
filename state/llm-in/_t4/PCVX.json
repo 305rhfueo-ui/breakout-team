@@ -1,6 +1,13 @@
 {
  "ticker": "PCVX",
- "news": [],
+ "news": [
+  {
+   "title": "Interesting PCVX Put And Call Options For July 2028",
+   "url": "https://www.nasdaq.com/articles/interesting-pcvx-put-and-call-options-july-2028",
+   "date": "2026-10-06",
+   "publisher": "BNK Invest"
+  }
+ ],
  "filings": [
   {
    "form": "8-K",

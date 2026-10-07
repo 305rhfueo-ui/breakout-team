@@ -1,0 +1,278 @@
+{
+ "ticker": "APP",
+ "sector": "Communication Services",
+ "industry": "Advertising Agencies",
+ "nameKo": "앱러빈",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 47.77,
+  "saleNy": 26.56,
+  "epsCy": 60.64,
+  "epsNy": 27.72,
+  "est": {
+   "cyCur": 15.66192,
+   "cy30": 15.69827,
+   "nyCur": 20.00319,
+   "ny30": 20.1326
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    52.82,
+    58.97,
+    167.52
+   ],
+   "ni": [
+    54.54,
+    109.16,
+    83.51
+   ],
+   "opm": [
+    77.68,
+    78.15,
+    76.92
+   ],
+   "updated": "2026-09-08 07:49:38"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-07",
+  "nameKo": "앱러빈",
+  "nameEn": "APPLOVIN CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001751008&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1923686000,
+     "profit": 1494277000,
+     "netIncome": 1266538000,
+     "margin": 77.7,
+     "yoy": {
+      "revenue": 52.8,
+      "profit": 56,
+      "netIncome": 54.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1842449000,
+     "profit": 1439933000,
+     "netIncome": 1205613000,
+     "margin": 78.2,
+     "yoy": {
+      "revenue": 59,
+      "profit": 71.4,
+      "netIncome": 109.2,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1657944000,
+     "profit": 1275243000,
+     "netIncome": 1102505000,
+     "margin": 76.9,
+     "yoy": {
+      "revenue": 65.9,
+      "profit": 103,
+      "netIncome": 83.9,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1405045000,
+     "profit": 1079007000,
+     "netIncome": 835545000,
+     "margin": 76.8,
+     "yoy": {
+      "revenue": 68.2,
+      "profit": 101.9,
+      "netIncome": 92.3,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "AppLovin (APP) Stock Falls Amid Market Uptick: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/applovin-app-stock-falls-amid-market-uptick-what-investors-need-know",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "AppLovin Corporation (APP) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/applovin-corporation-app-attracting-investor-attention-here-what-you-should-know",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "AppLovin vs. The Trade Desk: Which Adtech Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/applovin-vs-trade-desk-which-adtech-stock-better-buy-2026",
+     "date": "2026-10-01",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "AppLovin (APP) Declines More Than Market: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/applovin-app-declines-more-market-some-information-investors",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ARM vs. APP: Which AI-Exposed Tech Stock to Consider Right Now?",
+     "url": "https://www.nasdaq.com/articles/arm-vs-app-which-ai-exposed-tech-stock-consider-right-now",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is AppLovin Stock Actually Cheap? What Rising Advertiser Spend and ROAS Signal for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/applovin-stock-actually-cheap-what-rising-advertiser-spend-and-roas-signal-long-term",
+     "date": "2026-09-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Down 54%, Is AppLovin Still a Millionaire-Maker Stock?",
+     "url": "https://www.nasdaq.com/articles/down-54-applovin-still-millionaire-maker-stock",
+     "date": "2026-09-26",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "AppLovin Corporation (APP) Is a Trending Stock: Facts to Know Before Betting on It",
+     "url": "https://www.nasdaq.com/articles/applovin-corporation-app-trending-stock-facts-know-betting-it-0",
+     "date": "2026-09-25",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100826000057/app-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-05",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100826000050/app-20260603.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100826000042/app-20260506.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-07",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100826000014/app-20260402.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-11",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100826000005/app-20260211.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-11-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100825000079/app-20251105.htm"
+   }
+  ],
+  "krReports": {
+   "total": 5,
+   "reports": [
+    {
+     "date": "2026-02-12",
+     "broker": "한화증권",
+     "analyst": "임해인",
+     "title": "[앱러빈 (NAS:APP)] 경쟁사 진입은 구조적 수혜, AI 발전은 성장 동력",
+     "summary": "- 앱러빈의 FY 4Q25 매출액은 16.6억 달러(YoY +20.8%), EPS는 3.24 달러(YoY +87.3%)를 기록해 컨센서스를 각각 3.2%, 9.8% 상회했다. 매출총이익률은 88.9%(YoY +12.2%p), 영업이익률은 76.9%(YoY +32.6%p)였다.- 앱러빈은 연말 쇼핑 시즌 광고 수요로 인해 1분기가 4분기보다 약세인 계절성이 있으며 1분기 영업일수가 더 적음에도 불구하고, FY 1Q26 매출액 가이던스를 중간값 기준 17.6억 달러(YoY +18.6%, QoQ +6.2%, vs. 컨센서스 17억 달러)로 제시했다.- 조정 EBITDA는 14.8억 달러(YoY +47.3%, vs. 컨센서스 14억 달러), 조정 EBITDA 마진은 최 고치였던 4분기 수준(84%)을 유지할 것으로 예상했다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcllkqleeicqxgcgxeccq.pdf"
+    },
+    {
+     "date": "2026-02-12",
+     "broker": "SK증권",
+     "analyst": "박제민",
+     "title": "[앱러빈 (NAS:APP)] 잘 해낼테지만, 증명은 필요",
+     "summary": "- Signal: 산업 우려, 경쟁 진입 등으로 2026년 주가 급락- Key: Rule of 40상 120점 이상, 여전히 강한 Moat- Step: 그러나 Meta 시장 진입 우려 해소에는 시간 필요",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqclxmqixzcmxzgcgxeccq.pdf"
+    },
+    {
+     "date": "2025-11-07",
+     "broker": "SK증권",
+     "analyst": "박제민",
+     "title": "[앱러빈 (NAS:APP)] $28B 매출을 향해!",
+     "summary": "- Signal: AXON 엔진 강화로 강력한 해자 구축- Key: 이커머스 고객 유입 시작, 큰 시장 진출- Step: META 매출 역산 시 $28/연 매출 가능",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgqkcgzxqgczkgcgxeccq.pdf"
+    },
+    {
+     "date": "2025-11-06",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[앱러빈 (NAS:APP)] 광고? 주인장 마음대로!",
+     "summary": "- 광고주와 퍼블리셔(앱·웹 운영자)를 Ad Tech 기반으로 연결하는 광고 중개 기업- FY3Q25 실적은 광고 수익 전환율 상승에 따라 긍정적 모습을 연출- 셀프 서비스 광고 도입 및 전자상거래 진입에 따른 TAM 확대와 실적 기대감 고조",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgkxmxggkkgezgcgxeccq.pdf"
+    },
+    {
+     "date": "2025-11-06",
+     "broker": "한화증권",
+     "analyst": "임해인",
+     "title": "[앱러빈 (NAS:APP)] Earnings Flash",
+     "summary": "- 매출액 14.1억 달러(YoY +17.3%), 조정 EBITDA 11.6억 달러(YoY +60.4%), 조정 EPS 2.45 달러(YoY +96%)로 각각 예상치 5%, 6.3%, 2.1% 상회. 매출액과 조정 EBITDA는 각각 가이던스 상단(13.4억 달러, 10.9억 달러) 상회- 지속사업부문 비용: 1 매출원가 1.7억 달러(YoY +44.6%) 2) 판매 및 마케팅 0.5억 달러(YoY -22.8%) 3 R&D 0.4억 달러(YoY -45.7%) 4 일반관리비 0.6억 달러(YoY +62.3%) 5 이자비용 0.5억 달러(YoY -31.4%)- 양호한 실적 및 예상을 상회하는 가이던스 발표. 지속사업부문 기준, 매출 성장세 대폭 확대. 시간 외 6.4% 상승",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgimixgxezxxcgcgxeccq.pdf"
+    }
+   ]
+  }
+ }
+}

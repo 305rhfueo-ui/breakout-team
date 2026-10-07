@@ -1,0 +1,150 @@
+{
+ "ticker": "PNRG",
+ "news": [
+  {
+   "title": "PNRG Gains 24% in a Year: Time to Bet on the Stock or Wait?",
+   "url": "https://www.nasdaq.com/articles/pnrg-gains-24-year-time-bet-stock-or-wait",
+   "date": "2026-09-21",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "PNRG Stock Gains as Q2 Earnings Double Y/Y on Higher Oil Prices",
+   "url": "https://www.nasdaq.com/articles/pnrg-stock-gains-q2-earnings-double-y-y-higher-oil-prices",
+   "date": "2026-08-26",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "PrimeEnergy Resources (PNRG) Price Target Increased by 10.00% to 179.52",
+   "url": "https://www.nasdaq.com/articles/primeenergy-resources-pnrg-price-target-increased-1000-17952",
+   "date": "2026-04-28",
+   "publisher": "Fintel"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-03",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/56868/000143774926025662/pnrg20260804_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-11",
+   "reportDate": "2026-06-10",
+   "items": [
+    "5.07",
+    "8.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/56868/000143774926020279/pnrg20260611_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-27",
+   "reportDate": "2026-02-24",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/56868/000143774926006089/pnrg20260227_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-07-01",
+   "reportDate": "2025-06-27",
+   "items": [
+    "4.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "4.01",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/56868/000143774925021599/pnrg20250630_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-06-05",
+   "reportDate": "2025-06-05",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/56868/000143774925019560/pnrg20250605_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2024-08-01",
+   "reportDate": "2024-07-29",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/56868/000143774924024235/pnrg20240801_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -7.96,
+  "saleNy": -18.97,
+  "epsCy": null,
+  "epsNy": -55.38,
+  "cyTrend": -0.86,
+  "nyTrend": 6.19,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    1.17,
+    -21.28,
+    -15.67
+   ],
+   "ni": [
+    102.26,
+    -52.5,
+    48.75
+   ],
+   "opm": [
+    18.87,
+    13.28,
+    3.21
+   ],
+   "updated": "2026-09-08 06:11:18"
+  }
+ }
+}
