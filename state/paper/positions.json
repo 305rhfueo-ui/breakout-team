@@ -18,10 +18,10 @@
       "realR": 0,
       "realPct": 0,
       "partial": false,
-      "days": 1,
+      "days": 2,
       "mfe": 0.9861152336664342,
       "mae": -0.9481877246792653,
-      "last": 188.83,
+      "last": 193.78,
       "lastDate": "2026-10-07",
       "regime": "green",
       "fills": [
@@ -52,8 +52,8 @@
         "regime": "green",
         "source": "kis"
       },
-      "lastBarT": 1791380100000,
-      "_lastCloseDate": "2026-10-06"
+      "lastBarT": 1791402900000,
+      "_lastCloseDate": "2026-10-07"
     }
   ]
 }
