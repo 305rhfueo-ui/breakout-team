@@ -1,6 +1,28 @@
 window.HISTORY_DATA = {
   "runs": [
     {
+      "date": "2026-10-07",
+      "qqq": "green",
+      "finraYoY": 37.2,
+      "picks": 42,
+      "breakouts": 25,
+      "chartCheck": 33,
+      "plansWatch": 7,
+      "droppedToday": 1,
+      "reentryBlocked": 2,
+      "barsNotice": "warn",
+      "crossCounts": {
+        "persistent": 7,
+        "newEntrants": 9,
+        "midTerm": 10,
+        "fading": 10,
+        "other": 6,
+        "total": 42
+      },
+      "siteCondition": "BAD",
+      "theme": "Software - Infrastructure 9종목(21.4%) · Software - Application 5종목(11.9%) · Semiconductors 4종목(9.5%)"
+    },
+    {
       "date": "2026-10-06",
       "qqq": "green",
       "finraYoY": 37.2,
