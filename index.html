@@ -149,8 +149,8 @@ details.deep summary{cursor:pointer;font-size:13px;color:var(--blu);list-style:n
 details.deep summary::before{content:'▸ ';color:var(--dim)}
 details.deep[open] summary::before{content:'▾ '}
 details.deep h5{margin:12px 0 5px;font-size:12.5px;color:var(--dim);letter-spacing:.02em}
-details.deep .ck{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;font-size:12.5px;line-height:1.55}
-details.deep .ck .ok{color:var(--grn)} details.deep .ck .no{color:var(--red)} details.deep .ck .na{color:var(--dim)}
+details.deep .ck,.ck{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;font-size:12.5px;line-height:1.55}
+.ck .ok{color:var(--grn)} .ck .no{color:var(--red)} .ck .na{color:var(--dim)}
 .empty{color:var(--dim);text-align:center;padding:16px;font-size:13px}
 /* 도윤 5개 목록 (2026-10-06) */
 .lnav{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
@@ -627,8 +627,7 @@ const tri=(a)=>Array.isArray(a)?a.map(x=>x==null?'—':(typeof x==='number'?Math
 const LCOLS=[
   ['티커','',null],
   ['전일比','전영업일 대비 상승률 (%)',i=>i.ret1d==null?'—':`<span class="${i.ret1d>0?'up':i.ret1d<0?'dn':''}">${sgn(i.ret1d)}%</span>`],
-  ['RS 1M','1개월 상대강도 (QQQ 대비 초과수익률)',i=>n(i.rs1,2)],
-  ['1M 순위','1개월 상대강도 상위 몇 % (작을수록 강함)',i=>i.rnk1==null?'—':n(i.rnk1,1)+'%'],
+  ['RS_SLOT','',null],   // 목록마다 다른 RS 칸이 이 자리에 들어간다 (rsCols)
   ['ADR','하루 평균 변동폭 (%) — 쿨라매기는 4~5% 이상을 본다',i=>n(i.adr,1)],
   ['52주대비','1년 최고가 대비 (%) — 90% 이상이면 신고가 근처',i=>n(i.high52,0)],
   ['3개월 최대상승','최근 3개월 저점→고점 최대 상승률 (%) — 쿨라매기 선행 상승 30~100%+',i=>i.maxRise3m==null?'—':`<span class="${i.maxRise3m>=30?'good':''}">${Math.round(i.maxRise3m)}%</span>`],
@@ -640,15 +639,29 @@ const LCOLS=[
   ['순이익 q0/q1/q2','최근 3분기 순이익 증가율 (%) · 흑전=흑자전환 적전=적자전환 적확=적자확대 적축=적자축소',i=>i.fs?tri(i.fs.ni):'—'],
   ['연속','이 목록 기간에 상위 2%로 며칠째 (세 기간 공통은 셋 중 가장 짧은 것)',i=>i.streak==null?'—':'D+'+i.streak],
 ];
+// 목록별 RS 칸 (2026-10-08): 1MO→1개월 · 3MO→3개월 · 6MO→6개월 · 1~6MO→셋 다 · 거래대금 상위→세 기간 순위만
+const RSV=(k,lab)=>[`RS ${lab}`,`${lab} 상대강도 (QQQ 대비 초과수익률)`,i=>n(i['rs'+k],2)];
+const RSR=(k,lab)=>[`${lab} 순위`,`${lab} 상대강도 상위 몇 % (작을수록 강함)`,i=>i['rnk'+k]==null?'—':n(i['rnk'+k],1)+'%'];
+function rsCols(key){
+  if(key==='m3')return [RSV(3,'3M'),RSR(3,'3M')];
+  if(key==='m6')return [RSV(6,'6M'),RSR(6,'6M')];
+  if(key==='all')return [RSV(1,'1M'),RSR(1,'1M'),RSV(3,'3M'),RSR(3,'3M'),RSV(6,'6M'),RSR(6,'6M')];
+  if(key==='dollar')return [RSR(1,'1M'),RSR(3,'3M'),RSR(6,'6M')];
+  return [RSV(1,'1M'),RSR(1,'1M')];
+}
+function colsFor(key){
+  const c=LCOLS.flatMap(x=>x[0]==='RS_SLOT'?rsCols(key):[x]);
+  return key==='dollar'?c.slice(0,-1):c;   // 거래대금 목록은 '연속' 기준 기간이 없다
+}
 function watchSet(){return new Set(((D.t6&&D.t6.plans)||[]).filter(p=>p.watch).map(p=>p.ticker));}
 function listTable(items,W,key){
-  const COLS=key==='dollar'?LCOLS.slice(0,-1):LCOLS;   // 거래대금 목록은 '연속' 기준 기간이 없다
+  const COLS=colsFor(key);
   const head='<tr>'+COLS.map(([h,tip])=>`<th${tip?` title="${esc(tip)}"`:''}>${h}</th>`).join('')+'</tr>';
   const cols='<colgroup><col class="c0">'+COLS.slice(1).map(()=>'<col>').join('')+'</colgroup>';
   const body=items.map(i=>'<tr>'+COLS.map(([,,f],k)=>k===0
     ?`<td><span class="tk" data-tk="${esc(i.ticker)}">${esc(i.ticker)}</span>${W.has(i.ticker)?' <span title="서준 오늘 밤 관심 종목">★</span>':''}${i.name?` <span class="dim">${esc(i.name)}</span>`:''}</td>`
     :`<td>${f(i)}</td>`).join('')+'</tr>').join('');
-  return `<div class="ltab"><table>${cols}<thead>${head}</thead><tbody>${body}</tbody></table></div>`;
+  return `<div class="ltab"><table style="min-width:${key==='all'?1320:1080}px">${cols}<thead>${head}</thead><tbody>${body}</tbody></table></div>`;
 }
 function listView(key){
   _listKey=key;
@@ -671,6 +684,7 @@ function listView(key){
   if(!LT||LT.failed)h+=`<div class="note" style="margin:0">${LT&&LT.failed?'AI 테마 분석 실패 — 다음 실행에서 다시':'AI 테마 분석 대기 — start breakout 실행 후 채워집니다'}</div>`;
   else{
     const tks=a=>(a||[]).map(x=>`<span class="tk" data-tk="${esc(x)}">${esc(x)}</span>`).join(' ');
+    if(LT.factcheck&&LT.factcheck.verdict==='unchecked')h+=`<div class="nosrc">⚠️ 이 목록의 테마는 출처 대조(팩트체크)를 통과하지 못했습니다 — 참고만 하세요</div>`;
     if(LT.narrative)h+=`<div class="pi lead">${esc(LT.narrative)}</div>`;
     for(const th of (LT.themes||[]))h+=`<div class="themeCard"><div class="themeTop"><b>${esc(th.name)}</b> ${tks(th.tickers)}</div>
       ${th.plainKo?`<p class="pi">${esc(th.plainKo)}</p>`:''}${th.why?clip(prose(th.why),4):''}${(th.sources||[]).length?`<div class="note">${srcLinks(th.sources,5)}</div>`:''}</div>`;
@@ -750,16 +764,33 @@ function openTicker(T){
     <a href="https://finviz.com/quote.ashx?t=${encodeURIComponent(T)}" target="_blank" style="margin-left:auto;font-size:13px">Finviz ↗</a>
     <button class="x" onclick="closeM2()">닫기 ✕</button></div>`;
   h+=`<div class="chartbox" id="ohlcBox"><div class="empty">차트 불러오는 중…</div></div>`;
-  if(it)h+=`<div class="sec"><h4>핵심 지표 <span class="dim">(RS 사이트 · 쿨라매기 기준)</span></h4>${rows(LCOLS.slice(1).map(([lab,tip,f])=>[`<span title="${esc(tip)}">${lab}</span>`,f(it)]))}</div>`;
+  if(it)h+=`<div class="sec"><h4>핵심 지표 <span class="dim">(RS 사이트 · 쿨라매기 기준)</span></h4>${rows(colsFor('all').slice(1).map(([lab,tip,f])=>[`<span title="${esc(tip)}">${lab}</span>`,f(it)]))}</div>`;
+  const K=p&&p.kis;
+  if(K)h+=`<div class="sec"><h4>기업 기본 수치 <span class="dim">(한국투자증권 Open API · ${esc(K.fetchedAt||'')})</span></h4>${rows([
+    ['종목명 · 거래소',`${esc(K.nameKo||'—')} · ${esc(K.exchange||'—')}`],['상장일',esc(K.listedOn||'—')],
+    ['PER · PBR',`${K.per==null?'—':n(K.per,1)} · ${K.pbr==null?'—':n(K.pbr,1)}`],['EPS · BPS (달러)',`${K.eps==null?'—':n(K.eps,2)} · ${K.bps==null?'—':n(K.bps,2)}`],
+    ['상장주식수',K.shares?`${(K.shares/1e6).toFixed(1)}M주`:'—'],['시가총액',K.marketCapM?`$${(K.marketCapM/1000).toFixed(1)}B`:'—'],
+    ['52주 고점 · 저점',`${K.high52==null?'—':n(K.high52)} (${esc(K.high52Date||'')}) · ${K.low52==null?'—':n(K.low52)} (${esc(K.low52Date||'')})`]])}
+    <div class="note">PER 이 크거나 '—' 이면 이익이 아주 작거나 적자라는 뜻입니다. 미국 종목 증권사 분석 리포트는 한국투자증권 API 에 없습니다.</div></div>`;
+  const CKS=p&&p.checks;
+  if(CKS){
+    h+=`<div class="sec"><h4>쿨라매기 돌파 셋업 체크 <span class="chip">코드 계산 · 판정 아님</span></h4>${ck(CKS.qm)}
+      <div class="note">기준: docs/기준-쿨라매기-차트.md · 피벗·베이스 수치는 서준과 같은 계산${p.setup&&p.setup.pivot?` (피벗 ${n(p.setup.pivot)} · 예비 손절 ${n(p.setup.stop)})`:''}</div></div>`;
+    h+=`<div class="sec"><h4>CAN SLIM 체크 <span class="chip">코드 계산 · 판정 아님</span></h4>${ck(CKS.canslim)}
+      <div class="note">기준: docs/기준-CANSLIM-재무.md (오닐) · EPS 대신 순이익 증가율로 근사 · 기관 보유 자료 없음</div></div>`;
+  }
+  if(p&&p.deep&&!(plan&&plan.deep))h+=`<div class="sec"><h4>AI 심층 분석 <span class="dim">(도윤 목록 순환)</span></h4>${deepBlock(p.deep)}</div>`;
   if(plan)h+=`<div class="sec"><h4>서준 매수 계획 ${plan.watch?'<span class="chip">오늘 밤 관심</span>':''}</h4>${rows([['현재가 → 피벗',`${n(plan.price)} → <b>${n(plan.pivot)}</b> (${sgn(plan.distToPivotPct)}%)`],
     ['예비 손절 · 위험',plan.stop?`${n(plan.stop)} · ${n(plan.riskPerSharePct,1)}%`:'—'],['등급',esc(plan.grade||'—')]])}${plan.blocked?`<div class="nosrc">⛔ ${esc(plan.blocked)}</div>`:''}${plan.deep?deepBlock(plan.deep):''}</div>`;
   h+=researchBlock(p&&p.research);
   if(ep&&ep.catalyst&&ep.catalyst.status==='done'){const C=ep.catalyst;
     h+=`<div class="sec"><h4>재민 촉매 분류 — ${esc(C.categoryName||'')}</h4>${C.volumeExplanation?`<div class="pi">${esc(C.volumeExplanation)}</div>`:''}${claimList(C.claims)||'<div class="nosrc">검증을 통과한 근거가 없습니다</div>'}</div>`;}
+  const cb=((p&&p.cnbc)||[]).slice(0,6);
+  if(cb.length)h+=`<div class="sec"><h4>CNBC 기사 <span class="dim">(CNBC 가 이 종목에 태그한 기사)</span></h4><ul class="plist">${cb.map(x=>`<li><a href="${esc(x.url)}" target="_blank">${esc(x.title)}</a> <span class="dim">${esc(x.date||'')}${x.kind==='pro'?' · Pro(유료)':x.kind==='video'?' · 영상':''}</span></li>`).join('')}</ul></div>`;
   const d=p&&p.detail;
   if(d){
     const nw=((d.news&&d.news.items)||[]).filter(x=>x.direct!==false).slice(0,6);
-    if(nw.length)h+=`<div class="sec"><h4>최근 뉴스 <span class="dim">(${esc(d.fetchedAt||'')} 수집)</span></h4><ul class="plist">${nw.map(x=>`<li><a href="${esc(x.url)}" target="_blank">${esc(x.title)}</a> <span class="dim">${esc(x.publisher||'')} ${esc(String(x.date||'').slice(0,10))}</span></li>`).join('')}</ul></div>`;
+    if(nw.length)h+=`<div class="sec"><h4>최근 뉴스 <span class="dim">(나스닥 · ${esc(d.fetchedAt||'')} 수집)</span></h4><ul class="plist">${nw.map(x=>`<li><a href="${esc(x.url)}" target="_blank">${esc(x.title)}</a> <span class="dim">${esc(x.publisher||'')} ${esc(String(x.date||'').slice(0,10))}</span></li>`).join('')}</ul></div>`;
     const q=(d.financials&&d.financials.quarters)||[];
     if(q.length){const f=d.financials,u=v=>v==null?'—':(v/1e6).toLocaleString('en-US',{maximumFractionDigits:0})+'M';
       h+=`<div class="sec"><h4>분기 실적 <span class="dim">(SEC · 달러)</span></h4><div><table class="ctab"><thead><tr><th>분기</th><th>매출</th><th>전년比</th><th>${esc(f.profitLabel||'이익')}</th><th>전년比</th></tr></thead><tbody>`
@@ -778,11 +809,17 @@ document.addEventListener('click',e=>{const el=e.target.closest('[data-tk]');if(
 
 /* 6팀 심층 분석 (2026-10-03) — 뉴스·재무(CAN SLIM)·리스크·차트 관찰(쿨라매기 기준, 판정 아님)·확인 목록.
    근거 목록은 claimList 가 출처 검증 통과분만 그린다. 숫자는 전부 AI 가 입력 JSON 에서 인용한 것 — 지어내지 않는다. */
+// 체크표 — 서준 심층(AI)·도윤 체크표(코드)가 같은 모양 [{item,status,evidence}] 을 쓴다
+function ck(list){
+  if(!(list||[]).length)return '';
+  const cnt={ok:0,no:0,na:0};
+  const body=list.map(x=>{const st=String(x.status||'');const cls=st==='충족'?'ok':st==='미충족'?'no':'na';cnt[cls]++;const mark=st==='충족'?'✅':st==='미충족'?'❌':'—';
+    return `<span class="${cls}">${mark} ${esc(x.item||'')}</span><span>${esc(x.evidence||'')}</span>`;}).join('');
+  return `<div class="note" style="margin:0 0 6px">충족 ${cnt.ok} · 미충족 ${cnt.no} · 확인 불가 ${cnt.na}</div><div class="ck">${body}</div>`;
+}
 function deepBlock(D){
   if(!D)return '';
   if(D.status!=='done')return `<div class="nosrc" style="margin-top:6px">🔎 ${esc(D.note||'심층 분석 실패')}</div>`;
-  const ck=(list)=>(list||[]).length?`<div class="ck">`+list.map(x=>{const st=String(x.status||'');const cls=st==='충족'?'ok':st==='미충족'?'no':'na';const mark=st==='충족'?'✅':st==='미충족'?'❌':'—';
-    return `<span class="${cls}">${mark} ${esc(x.item||'')}</span><span>${esc(x.evidence||'')}</span>`;}).join('')+`</div>`:'';
   const F=D.financials||{},rev=F.estimateRevisions||{};
   const revKo={raised:'📈 상향',lowered:'📉 하향',mixed:'혼조',none:'조정 없음',unknown:'확인 안 됨'}[rev.direction]||'';
   const C=D.chartObservation||{};

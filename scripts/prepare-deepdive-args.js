@@ -60,32 +60,54 @@ async function main() {
   for (const f of fs.readdirSync(argsDir)) fs.unlinkSync(path.join(argsDir, f));   // 어제 티커·PNG 가 남으면 안 된다
 
   const watch = (t6.plans || []).filter((p) => p.watch).slice(0, CAP);
+  const listModel = process.env.DEEP_LIST_MODEL || 'sonnet';
   const empty = (skipped) => { fs.writeFileSync(argsFile, JSON.stringify({ date, cap: CAP, model, argsDir, docsDir, items: [], skipped }), 'utf8'); };
-  if (!watch.length) { empty([]); say('T6', '관심 종목 없음 — 심층 분석 생략'); return; }
 
-  // ① 같은 세션 분석이 이미 있으면(이월) 건너뛴다 — 월요일(금요일 데이터 재사용)·같은 날 재실행
+  // ① 서준 관심 종목 — 같은 세션 분석이 이미 있으면(이월) 건너뛴다 — 월요일(금요일 데이터 재사용)·같은 날 재실행
   const sameSession = watch.filter((p) => p.deep && p.deep.status === 'done' && session && p.deep.session === session);
   // ② TTL
   const rc = rot.loadCache();
   const TTL = Number(process.env.DEEP_TTL || 1);
   const sel = rot.selectForResearch(watch.filter((p) => !sameSession.includes(p)), { cache: rc, bucket: 'team6', today: date, ttl: TTL, cap: CAP });
-  const picked = sel.picked;
+  const picked = sel.picked.map((p) => ({ ...p, _source: 'watch', _model: model }));
   const skipped = [...sameSession.map((p) => `${p.ticker}@세션동일`), ...sel.skipped.map((s) => `${s.key}@${s.last}`)];
-  say('T6', `심층 분석 대상 ${picked.length}/${watch.length} (상한 ${CAP} · 모델 ${model})${skipped.length ? ` · 이월 ${skipped.join(', ')}` : ''}`);
+  say('T6', `심층 분석 — 서준 관심 ${picked.length}/${watch.length} (모델 ${model})${skipped.length ? ` · 이월 ${skipped.join(', ')}` : ''}`);
   if (picked.length) say('T6', `  조사 이유  ${sel.why.join(', ')}`);
-  if (!picked.length) { empty(skipped); return; }
+
+  // ③ 도윤 목록 종목 순환 (2026-10-08) — 거래대금 상위·세 기간 공통 → 1개월 → 3·6개월 순, 하루 DEEP_LIST_CAP 개, 5거래일마다 갱신.
+  //    plan 자리에는 run-breakout 이 서준과 같은 gradeSetup 으로 계산한 setup(피벗·손절·베이스 지표)을 넣는다.
+  const LCAP = Number.isFinite(Number(process.env.DEEP_LIST_CAP)) ? Number(process.env.DEEP_LIST_CAP) : 8;
+  const watchSet = new Set(watch.map((p) => p.ticker));
+  const pool2 = [...(t2.picks || []), ...(t2.listPicks || [])];
+  const listRank = t2.lists ? require('./lib/lists').listRankOf(t2.lists) : new Map();
+  const listCands = pool2.filter((q) => listRank.has(q.ticker) && !watchSet.has(q.ticker)
+    && !(q.deep && q.deep.status === 'done' && session && q.deep.session === session));
+  const ordered = rot.orderForResearch(listCands, { rankOf: (q) => listRank.get(q.ticker), cache: rc, bucket: 'deep2', today: date,
+    ttl: Number(process.env.DEEP_LIST_TTL || 5), metric: (q) => q.bestPct || 0 });
+  const selL = rot.selectForResearch(ordered, { cache: rc, bucket: 'deep2', today: date, ttl: Number(process.env.DEEP_LIST_TTL || 5), cap: LCAP });
+  for (const q of selL.picked) {
+    const S = q.setup || {};
+    picked.push({ ticker: q.ticker, name: q.nameKo || q.nameEn || null, sector: q.sector, industry: q.industry, price: q.price,
+      grade: S.grade || '—', state: S.state || 'none', pivot: S.pivot ?? null, stop: S.stop ?? null, distToPivotPct: S.distToPivotPct ?? null,
+      distToPivotAdr: S.distToPivotAdr ?? null, riskPerSharePct: S.riskPerSharePct ?? null, adrPct: S.adrPct ?? q.adr, extensionAdr: S.extensionAdr ?? null,
+      breakDate: S.breakDate || null, metrics: S.metrics || null, reasons: S.reasons || null, earnings: q.earnings || null,
+      _source: 'list', _model: listModel });
+  }
+  say('T6', `심층 분석 — 도윤 목록 순환 ${selL.picked.length}/${LCAP} (모델 ${listModel})${selL.why.length ? ` · ${selL.why.join(', ')}` : ''}`);
+  if (!picked.length) { empty(skipped); say('T6', '심층 분석 대상 없음'); return; }
 
   // 차트 PNG + 숫자 사이드카 — render-charts 가 CACHE_DIR/charts/<date>/ 에 그린다. 실패해도 숫자만으로 진행한다.
+  //   ⚠️ 한 번에 그린다 — 따로 두 번 부르면 사이드카(chart-views/<date>.json)를 뒤 호출이 덮어쓴다.
   let chartDir = null, views = new Map();
   try {
-    const out = execFileSync(process.execPath, [path.join(__dirname, 'render-charts.js'), '--watch-only', `--date=${date}`], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'inherit'] });
+    const out = execFileSync(process.execPath, [path.join(__dirname, 'render-charts.js'), `--tickers=${picked.map((p) => p.ticker).join(',')}`, `--date=${date}`], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'inherit'] });
     const last = out.trim().split('\n').pop();
     chartDir = JSON.parse(last).dir;
     const side = readJson(path.join(paths.chartViews, `${date}.json`), { items: [] });
     views = new Map((side.items || []).map((v) => [v.ticker, v]));
   } catch (e) { say('WARN', `차트 렌더 실패 — 숫자만으로 진행합니다 (${e.message.split('\n')[0]})`); }
 
-  const pick2 = new Map((t2.picks || []).map((p) => [p.ticker, p]));
+  const pick2 = new Map(pool2.map((p) => [p.ticker, p]));
   const item4 = new Map((t4.items || []).map((i) => [i.ticker, i]));
   const eyeOf = new Map((cc.items || []).map((c) => [c.ticker, { score: c.score, reasons: c.reasons, resistance: c.resistance ?? null }]));
   const market = t1 ? { verdict: t1.qqq && t1.qqq.verdict, ko: t1.qqq && t1.qqq.ko, finraKo: t1.finra && t1.finra.ko, finraLevel: t1.finra && t1.finra.level } : null;
@@ -114,12 +136,15 @@ async function main() {
       chart = { lastBar: v.lastBar, numbers: v.numbers, last10: v.last10, png3m: cp('3m'), png6m: cp('6m') };
       if (!chart.png3m) chart.chartNote = '차트 그림 없음 — 숫자만';
     }
-    const { deep, ...plan } = p;   // 이월된 지난 분석은 에이전트에게 주지 않는다(복사해 쓰면 안 된다)
+    const { deep, _source, _model, ...plan } = p;   // 이월된 지난 분석은 에이전트에게 주지 않는다(복사해 쓰면 안 된다)
+    // CNBC 태그 기사 · 한국투자증권 기업 수치 (2026-10-08) — run-breakout 이 매일 모은 것
+    const cnbc = (p2 && p2.cnbc) || null, kis = (p2 && p2.kis) || null;
     fs.writeFileSync(path.join(argsDir, `${p.ticker}.json`), JSON.stringify({
-      ticker: p.ticker, date, session, plan, site: siteOf(p2, p4), eye: eyeOf.get(p.ticker) || null, detail, detailNote, chart, market,
+      ticker: p.ticker, date, session, source: _source, plan, site: siteOf(p2, p4), eye: eyeOf.get(p.ticker) || null, detail, detailNote, cnbc, kis, chart, market,
     }, null, 1), 'utf8');
     items.push({ ticker: p.ticker, name: p.name || null, grade: p.grade, sector: p.sector, industry: p.industry, price: p.price, pivot: p.pivot, stop: p.stop,
-      distToPivotPct: p.distToPivotPct, earnings: p.earnings || null, hasChart: !!(chart && chart.png3m), hasDetail: !!detail });
+      distToPivotPct: p.distToPivotPct, earnings: p.earnings || null, hasChart: !!(chart && chart.png3m), hasDetail: !!detail,
+      source: _source, model: _model });
   }
   say('T6', `근거 자료: 2팀 재사용 ${reused} · 신규 수집 ${fetched} · 차트 ${items.filter((i) => i.hasChart).length}/${items.length}`);
   fs.writeFileSync(argsFile, JSON.stringify({ date, session, cap: CAP, model, argsDir, docsDir, items, skipped }), 'utf8');

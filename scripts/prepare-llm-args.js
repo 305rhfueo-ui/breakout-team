@@ -102,6 +102,8 @@ async function main() {
       ticker: p.ticker, sector: p.sector, industry: p.industry, nameKo: p.nameKo || null,
       site: siteBlock(p),
       detail: slimDetail(p.detail),
+      // 2026-10-08: CNBC 태그 기사(제목·URL·날짜) · 한국투자증권 기업 수치(PER·EPS·주식 수·시총) — 제공된 자료로 인용 가능
+      cnbc: (p.cnbc || []).slice(0, 6), kis: p.kis || null,
     }, null, 1), 'utf8');
   }
   // ── 목록 테마 인자 (2026-10-06) — 5개 목록마다 AI 1명이 공통 테마를 찾는다. 무거워서 파일로 뺀다 ──
@@ -127,6 +129,8 @@ async function main() {
       const news = [], research = [];
       for (const it of l.items) {
         for (const x of await newsOf(it.ticker)) news.push({ ticker: it.ticker, date: String(x.date || '').slice(0, 10), publisher: x.publisher, title: x.title, url: x.url });
+        // CNBC 가 이 종목에 태그한 기사 (2026-10-08) — Pro(유료)는 제목만 근거
+        for (const x of (((byT.get(it.ticker) || {}).cnbc) || []).slice(0, 3)) news.push({ ticker: it.ticker, date: x.date || '', publisher: x.kind === 'pro' ? 'CNBC Pro(유료)' : 'CNBC', title: x.title, url: x.url });
         const R = (byT.get(it.ticker) || {}).research;
         if (R && ['done', 'no_source'].includes(R.status)) research.push({ ticker: it.ticker, company: R.company || null, whyRose: (R.whyRose || []).filter((c) => c.evidence_level === 'sourced').map((c) => c.statement) });
       }

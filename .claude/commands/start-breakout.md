@@ -84,6 +84,8 @@ Workflow({ scriptPath: '<REPO>/scripts/workflows/team6-deepdive.js', args: {...}
   `state/llm-in/_t6args.json` 과 `_t6/{TICKER}.json`·차트 PNG 가 만들어진다. 그 파일 내용을 args 로 그대로 넘긴다.
   `items` 가 비어 있으면(관심 종목 없음 · 전부 이월) 이 워크플로는 **띄우지 않는다.**
   서준이 고른 오늘 밤 관심 종목(≤10)을 종목당 오퍼스 1명이 뉴스·재무(CAN SLIM)·리스크·차트 관찰(쿨라매기 기준)로 조사한다.
+  2026-10-08부터 **도윤 목록 종목도 하루 8개씩 소넷으로 순환**(거래대금 상위·세 기간 공통 먼저, 5거래일마다 갱신, `items[].source:'list'`).
+  결과는 build-chief-report 가 서준 종목은 team6.js 에, 목록 종목은 team2.js 에 붙인다.
   기준은 `docs/기준-쿨라매기-차트.md`·`docs/기준-CANSLIM-재무.md` — 에이전트가 매번 읽는다.
 
 4개(관심 종목이 있으면 심층 분석 포함)는 서로 독립이므로 **한 메시지에서 병렬로** 띄운다.

@@ -42,7 +42,7 @@ scripts/
   answer-weekly.js / exclude-ticker.js / mark-breakout.js / open-dashboard.js
   lib/                   util·ta·bars·percentile·wrs·screen·tracking·congestion·vcp
                          ·leaders·regime·chart/·xlsx/·history-series·verify-claims·cache
-                         ·lists(도윤 5개 목록)·research-rotation
+                         ·lists(도윤 5개 목록)·checklist(쿨라매기·CAN SLIM 체크표, AI 없음)·number-guard(AI 문장 속 숫자를 출처·입력 자료와 코드로 대조, 없으면 문장 삭제)·research-rotation
                          ·kis(한투 시세) ·rules ·setup-grade ·team6 ·earnings
                          ·orh(장중 트리거) ·intraday ·paper(자체 원장)          ← 6팀
                          ·paper-publish(일지 데이터) ·notify(텔레그램 알림)
@@ -53,7 +53,7 @@ scripts/
   backtest-daily.js      6팀 규칙 일봉 백테스트 → docs/BACKTEST-{날짜}.md
   backtest-intraday.js   6팀 규칙 5분봉 백테스트 → docs/BACKTEST-INTRADAY-{날짜}.md
 deploy/macmini/          맥미니 24시간 구동 (install.sh · launchd plist 2개)
-  data/                  finra-margin · sec-edgar · kr-reports · news-rss
+  data/                  finra-margin · sec-edgar · kr-reports · news-rss · cnbc(종목 태그 기사, 2026-10-08)
   workflows/             team1-news · team2-research(종목 리서치 + 목록 테마) · team4-catalyst · team6-deepdive · chief-report
 state/                   tracking·picks·weekly-question·chart-check·breakout-log·llm-in·history
                          ·watchlist(6팀 아침 관심 목록) ·paper(자체 원장) ·orh(밤 트리거)

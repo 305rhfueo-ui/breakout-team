@@ -384,6 +384,10 @@ async function main() {
       for (const q of pool) {
         if (prevRes.has(q.ticker)) { q.research = prevRes.get(q.ticker); carriedRes++; }
       }
+      // 도윤 목록 종목의 AI 심층 분석(2026-10-08)도 이월한다 — 5거래일 순환이라 안 하면 다음 날 사라진다
+      const prevDeep = new Map([...((prev && prev.picks) || []), ...((prev && prev.listPicks) || [])]
+        .filter((p) => p.deep && p.deep.status === 'done').map((p) => [p.ticker, { ...p.deep, carried: true }]));
+      for (const q of pool) if (prevDeep.has(q.ticker)) q.deep = prevDeep.get(q.ticker);
       if (carriedRes) say('T2', `리서치 이월 ${carriedRes}종목 (조사일 표기, prepare-llm-args 가 TTL 기준으로 재조사 여부 결정)`);
       // 목록별 테마(2026-10-06 형태 {lists:[…]})만 이월한다 — 옛 테마종합 형태는 화면이 못 그린다
       if (prev && prev.themes && prev.themes.llm && Array.isArray(prev.themes.llm.lists)) themes.llmCarried = { ...prev.themes.llm, researchedOn: prev.themes.llm.researchedOn || prev.generated };
@@ -618,6 +622,60 @@ async function main() {
     say('T2', `팝업 상세: 실적 ${okFin} · 뉴스 ${okNews} · 국내리포트 ${okKr} / 오늘 ${targets.length}종목 신규`
       + `${carried ? ` · 이월 ${carried}종목` : ''} → 보유 ${withDetail}/${pool.length} (선정+목록, 상한 ${cap})`);
     team2.detail_coverage = { done: withDetail, freshToday: targets.length, carried, total: pool.length, cap };
+  }
+
+  // ── 12-0b) CNBC 기사 · 한국투자증권 기업 수치 (2026-10-08) — 선정+목록 종목 전부, 매일 ──
+  //    CNBC 종목 페이지의 태그 기사(제목·URL·날짜, 6시간 캐시)와 KIS 현재가상세·상품기본정보(PER·EPS·주식 수·시총·한글명·상장일, 하루 캐시).
+  //    둘 다 "제공된 자료"로 AI 에 넘어가고 팝업에 그대로 보인다. 실패한 종목은 비워 둔다(지어내지 않는다).
+  if (team2 && !args.offline && process.env.SKIP_SOURCES !== '1') {
+    const { getTickerArticles } = require('./data/cnbc');
+    const kis = require('./lib/kis');
+    let okC = 0, okK = 0;
+    for (const q of pool) {
+      const c = await getTickerArticles(q.ticker);
+      q.cnbc = c.ok ? c.items : null; if (c.ok && c.items.length) okC++;
+      if (kis.configured()) { const f = await kis.facts(q.ticker); q.kis = f || null; if (f) okK++; }
+    }
+    say('T2', `CNBC 기사 ${okC}/${pool.length}종목 · 한국투자증권 기업 수치 ${okK}/${pool.length}종목`);
+  }
+
+  // ── 12-0c) 종목 체크표 (2026-10-08) — 쿨라매기 11 · CAN SLIM 7, 선정+목록 종목 전부, AI 없이 코드로 ──
+  //    셋업(베이스·피벗·손절)은 서준과 같은 gradeSetup 으로 계산한다 → 숫자가 서준 화면과 일치한다.
+  if (team2 && args.yahoo) {
+    const { gradeSetup } = require('./lib/setup-grade');
+    const CK = require('./lib/checklist');
+    const rulesCk = loadRules();
+    const regimeCk = team1 ? team1.qqq.verdict : null;
+    const marketCk = team1 ? { verdict: team1.qqq.verdict, finra: team1.finra && team1.finra.level } : null;
+    const itemOf = new Map(listsLib.KEYS.flatMap((k) => lists[k].items.map((i) => [i.ticker, i])));
+    // 실적 발표일 — 서준과 같은 달력(하루 캐시). 발표 직전이면 팝업·AI 심층에 위험으로 표시한다.
+    let earnCk = null;
+    try { earnCk = args.offline ? null : await upcomingEarnings(sessionDate || dateStr, rulesCk.risk.earningsBlockDays); } catch (e) { earnCk = null; }
+    const { earningsOf } = require('./lib/earnings');
+    let n = 0;
+    for (const q of pool) {
+      const b = barsOf(q.ticker);
+      const it = itemOf.get(q.ticker) || {
+        ticker: q.ticker, ret1d: q.ret1d, adr: q.adr, high52: q.high52, maxRise3m: q.maxRise3m, volx: q.volx,
+        ext10Adr: q.div10 != null && q.adr ? q.div10 / q.adr : null,
+        rnk1: q.rs && q.rs.m1.pct != null ? Math.round((100 - q.rs.m1.pct) * 100) / 100 : null,
+        rnk3: q.rs && q.rs.m3.pct != null ? Math.round((100 - q.rs.m3.pct) * 100) / 100 : null,
+        rnk6: q.rs && q.rs.m6.pct != null ? Math.round((100 - q.rs.m6.pct) * 100) / 100 : null };
+      let setup = null;
+      try { setup = b ? gradeSetup(b, { rules: rulesCk, regime: regimeCk || 'green' }) : null; } catch (e) { setup = null; }
+      if (setup && setup.ok) {
+        q.setup = { state: setup.state, grade: setup.grade, asOf: setup.asOf, pivot: setup.pivot, stop: setup.stop, adrPct: setup.adrPct,
+          distToPivotPct: setup.distToPivotPct, distToPivotAdr: setup.distToPivotAdr, riskPerSharePct: setup.riskPerSharePct,
+          extensionAdr: setup.extensionAdr, breakDate: setup.breakDate || null, metrics: setup.metrics || null, reasons: setup.reasons || null };
+      } else q.setup = null;
+      q.checks = {
+        qm: CK.qullamaggie({ item: it, setup: setup && setup.ok ? setup : null, bars: b, market: marketCk }),
+        canslim: CK.canslim({ item: it, fs: q.fs, detail: q.detail, kis: q.kis, cnbc: q.cnbc, market: marketCk, dry: CK.dryUp(b) }),
+      };
+      q.earnings = earnCk && earnCk.ok ? earningsOf(earnCk, q.ticker) : 'unknown';
+      n++;
+    }
+    say('T2', `체크표(쿨라매기·CAN SLIM): ${n}종목 · 베이스 있는 종목 ${pool.filter((q) => q.setup && q.setup.state !== 'none').length}`);
   }
 
   // ── 12-1) 팝업 시계열의 종가를 야후(분할 조정)로 갱신 ──

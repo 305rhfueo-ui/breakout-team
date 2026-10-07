@@ -6,6 +6,7 @@ export const meta = {
     { title: '종목리서치', detail: '종목별 상승 이유 · 추정치 조정 (제공 자료 우선, 부족분만 웹검색)' },
     { title: '팩트체크', detail: '출처 없는 주장 제거 (6종목 배치, 텍스트 대조만)' },
     { title: '목록테마', detail: '도윤 5개 목록마다 1명 — 공통 업종·뉴스로 묶이는 테마 (2026-10-06)' },
+    { title: '목록팩트체크', detail: '테마 설명의 숫자·사실이 출처에 실제로 있는지 대조 — 없으면 테마 삭제 (2026-10-08)' },
   ],
 }
 // 사용법: Workflow({ scriptPath: '<abs>/scripts/workflows/team2-research.js',
@@ -33,7 +34,9 @@ const evidenceBlock = (tk, d) => argsDir ? `## 이미 확보된 자료 (Node 가
 ⚠️ **가장 먼저 Read 도구로 이 파일을 읽어라.** 읽지 않고 쓰면 안 된다. ${tk} 전용 파일이다.
 그 안의
 \`detail.financials\`(최근 분기 실적) · \`detail.news\`(이 종목 직접 언급 기사) ·
-\`detail.filings\`(SEC 8-K) · \`detail.krReports\`(국내 증권사 리포트, 요약·PDF 링크) 를 근거로 삼아라.
+\`detail.filings\`(SEC 8-K) · \`detail.krReports\`(국내 증권사 리포트, 요약·PDF 링크) ·
+\`cnbc\`(CNBC 가 이 종목에 태그한 기사 제목·URL — 본문 숫자가 필요하면 URL 을 직접 열어 인용하라. 'pro' 는 유료라 제목만) ·
+\`kis\`(한국투자증권 — PER·EPS·상장주식수·시가총액) 를 근거로 삼아라.
 **여기 있는 숫자는 절대 바꾸지 마라. 해석만 하라.**` : `## 이미 확보된 자료 (Node 가 수집·검증한 것. 이 숫자를 바꾸지 마라)
 최근 4분기 실적(SEC EDGAR):
   ${d.fin}
@@ -288,6 +291,7 @@ const listThemes = await parallel(lists.map((l) => () => tryAgent(
 1. **제공된 자료(뉴스 제목·리서치)에서 먼저 근거를 찾고**, 그래도 부족한 테마만 웹검색한다. 웹검색·페이지 열람은 최대 6회.
 2. 티커는 이 목록(items) 안의 것만 쓴다. 목록 밖 티커를 만들지 마라.
 3. sources 의 url 은 news 에 있는 것이거나 웹에서 실제로 읽은 원문만. **URL 을 만들어내지 마라.**
+   **숫자(%, 금액, 건수)를 쓰려면 그 숫자가 들어 있는 원문 문장을 그 테마 sources 의 quote 에 그대로 넣어라.** quote·제목에 없는 숫자가 든 문장은 코드가 자동으로 지운다.
 4. 근거가 부족하면 짧게 끝낸다. 분량을 채우려고 추측하지 마라.
 ${THEME_STYLE}`,
   { label: `목록테마:${l.key}`, phase: '목록테마', schema: LIST_THEME, model: 'sonnet' }
@@ -296,6 +300,38 @@ ${THEME_STYLE}`,
 const listThemesOut = lists.map((l, i) => (listThemes[i] ? { ...listThemes[i], key: l.key, label: l.label } : { key: l.key, label: l.label, failed: true }))
 const failedLists = listThemesOut.filter((x) => x.failed).map((x) => x.key)
 if (failedLists.length) log(`⚠️ 목록 테마 실패: ${failedLists.join(', ')}`)
+
+// ── 목록테마 팩트체크 (2026-10-08) — 테마 설명의 숫자·사실이 출처(인용문·제목)에 실제로 있는가 ──
+//    없으면 그 테마를 지운다(테마는 근거가 핵심이라 문장만 고치지 않는다). 하이쿠 1명이 5개 목록을 한 번에 본다.
+phase('목록팩트체크')
+const TCHK = { type: 'object', properties: { results: { type: 'array', items: { type: 'object', properties: {
+  key: { type: 'string' }, themeIndex: { type: 'number', description: '입력 themes 배열의 위치 그대로' },
+  keep: { type: 'boolean', description: 'why·plainKo 의 숫자·날짜·사건이 sources 의 quote 나 title 에 실제로 있으면 true' },
+  reason: { type: 'string' },
+}, required: ['key', 'themeIndex', 'keep'] } } }, required: ['results'] }
+const toCheck = listThemesOut.filter((l) => !l.failed && (l.themes || []).length)
+if (toCheck.length) {
+  const chk = await tryAgent(
+    `다음 목록별 테마를 검증하세요. **웹에 접근하지 말고** 아래 텍스트만 대조하라.
+
+${JSON.stringify(toCheck.map((l) => ({ key: l.key, themes: (l.themes || []).map((t, i) => ({ themeIndex: i, name: t.name, plainKo: t.plainKo, why: t.why, sources: (t.sources || []).map((x) => ({ title: x.title, quote: x.quote, url: x.url })) })) })), null, 1)}
+
+각 테마마다 판정하라:
+- **why·plainKo 안의 숫자·날짜가 quote 나 출처 제목에 실제로 있는가?** 없으면 keep:false. 분량을 늘리려고 지어낸 수치가 가장 위험하다.
+- 출처가 그 테마의 종목 이야기를 실제로 담고 있는가(제목이 무관하면 keep:false).
+- sources 가 비어 있으면 keep:false.
+- 단위 환산(1 billion = 10억)만 다르고 값이 같으면 정상이다.
+의심스러우면 지우는 쪽(keep:false)을 택하라. results 에 모든 테마를 하나씩 넣어라.`,
+    { label: '목록팩트체크', phase: '목록팩트체크', schema: TCHK, model: 'haiku' })
+  if (!chk) log('⚠️ 목록 테마 팩트체크 실패 — 검증되지 않은 테마는 화면에 "검증 안 됨"으로 표시된다')
+  const drop = new Set(((chk && chk.results) || []).filter((r) => r.keep === false).map((r) => `${r.key}:${r.themeIndex}`))
+  // 숫자 대조는 Node(build-chief-report → verify-claims → lib/number-guard)가 한다 — 하이쿠는 2026-10-08 "41% 늘었다"(출처에 없음)를 통과시켰다.
+  for (const l of toCheck) {
+    const before = (l.themes || []).length
+    l.themes = (l.themes || []).filter((t, i) => !drop.has(`${l.key}:${i}`))
+    l.factcheck = chk ? { verdict: before === l.themes.length ? 'pass' : 'partial', removed: before - l.themes.length } : { verdict: 'unchecked', removed: 0 }
+  }
+}
 
 return {
   date,

@@ -74,6 +74,13 @@ cat "$RUN" >> "$OUT"
 HEADLINE="$(grep -v '^[[:space:]]*$' "$RUN" | grep -v '^=== ' | head -1 | tr -d '*`' | cut -c1-300)"
 rm -f "$RUN"
 
+# 주간 리뷰는 docs 두 파일에 결과를 쓰지만 커밋하지 않았다 — 2026-10-04 결과가 맥미니에만 남아
+#   텔레그램 링크(GitHub STRATEGY-LOG)가 옛 내용을 보여 줬다(2026-10-08 발견). 변경이 있을 때만 올린다.
+if [ "$JOB" = review ] && [ "$TIMED_OUT" != 1 ] && [ "$RC" -eq 0 ]; then
+  if ! git diff --quiet -- docs/STRATEGY-LOG.md docs/CLAUDE-NOTES.md 2>/dev/null; then
+    git add docs/STRATEGY-LOG.md docs/CLAUDE-NOTES.md && git commit -q -m "docs: 주간 리뷰 $(date '+%Y-%m-%d')" && git push -q || echo "=== 리뷰 결과 push 실패" >> "$OUT"
+  fi
+fi
 ENDED="$(date '+%H:%M')"
 if [ "$TIMED_OUT" = 1 ]; then
   tg "⏱ $TITLE 시간 초과 ($STARTED 시작, ${MAX_MIN}분 넘어 중단) — 로그: $OUT"

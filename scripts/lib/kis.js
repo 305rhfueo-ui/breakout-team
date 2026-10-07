@@ -142,6 +142,46 @@ async function price(ticker) {
   return { ticker: t, ...r };
 }
 
+// ── 기업 기본 수치 (2026-10-08) — 도윤 팝업·CAN SLIM·AI 심층 분석의 "확정 수치" ──
+// 실측(NET): 현재가상세 HHDFS76200200 = PER·PBR·EPS·BPS·상장주식수·시가총액·52주 고저(날짜),
+//            상품기본정보 CTPF1702R = 한글명·상장일·거래소 (PRDT_TYPE_CD 512 나스닥 · 513 뉴욕 · 529 아멕스).
+// ⚠️ 미국 종목 증권사 분석 리포트는 KIS API 에 없다(국내 종목 투자의견만). 해외 속보는 기사 링크가 없어 출처로 못 쓴다.
+const PRDT = { NAS: '512', NYS: '513', AMS: '529' };
+const ymd = (v) => (/^\d{8}$/.test(String(v || '')) ? `${String(v).slice(0, 4)}-${String(v).slice(4, 6)}-${String(v).slice(6, 8)}` : null);
+
+function mapPriceDetail(o) {
+  if (!o) return null;
+  return {
+    per: n(o.perx), pbr: n(o.pbrx), eps: n(o.epsx), bps: n(o.bpsx),
+    shares: n(o.shar),                              // 상장주식수
+    marketCapM: n(o.tomv) != null ? Math.round(n(o.tomv) / 1e6) : null,   // 시가총액(달러, 백만 단위)
+    high52: n(o.h52p), high52Date: ymd(o.h52d), low52: n(o.l52p), low52Date: ymd(o.l52d),
+    last: n(o.last), prevClose: n(o.base),
+  };
+}
+function mapProductInfo(o) {
+  if (!o) return null;
+  return { nameKo: (o.prdt_name || '').trim() || null, nameEn: (o.prdt_eng_name || '').trim() || null,
+    listedOn: ymd(o.lstg_dt), exchange: o.ovrs_excg_name || null, listedShares: n(o.lstg_stck_num) };
+}
+
+// 하루 한 번 — CACHE_DIR/api/kisFacts/{T}.json. 절대 throw 하지 않는다.
+async function facts(ticker) {
+  const t = String(ticker).toUpperCase();
+  const cache = require('./cache');
+  return cache.through('kisFacts', t, async () => {
+    if (!configured()) return null;
+    const ex = await resolveExcd(t);
+    if (!ex.ok) return null;
+    const sym = kisSymbol(t);
+    const d = await call('/uapi/overseas-price/v1/quotations/price-detail', 'HHDFS76200200', { AUTH: '', EXCD: ex.excd, SYMB: sym });
+    const pi = PRDT[ex.excd] ? await call('/uapi/overseas-price/v1/quotations/search-info', 'CTPF1702R', { PRDT_TYPE_CD: PRDT[ex.excd], PDNO: sym }) : { ok: false };
+    const out = { ticker: t, fetchedAt: require('./util').today(), source: '한국투자증권 Open API',
+      ...(d.ok ? mapPriceDetail(d.j.output) : {}), ...(pi.ok ? mapProductInfo(pi.j.output) : {}) };
+    return (d.ok || pi.ok) ? out : null;
+  }, cache.DAY);
+}
+
 // ── 뉴욕 벽시계 → epoch(ms) ──
 // 임의 시각의 ET 오프셋을 Intl 로 구한다 (서머타임 자동).
 function etOffsetMs(utcMs) {
@@ -231,7 +271,7 @@ async function ping() {
   return p.ok ? { ok: true, tokenCached: tk.cached, qqq: p.last } : { ok: false, error: p.error };
 }
 
-module.exports = { configured, kisSymbol, token, price, minuteBars, dailyBars, resolveExcd, ping, etToEpoch, etOffsetMs };
+module.exports = { configured, kisSymbol, token, price, minuteBars, dailyBars, resolveExcd, ping, etToEpoch, etOffsetMs, facts, mapPriceDetail, mapProductInfo };
 
 if (require.main === module) {
   require('./util').loadEnv();

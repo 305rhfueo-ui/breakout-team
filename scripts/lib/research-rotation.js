@@ -19,10 +19,10 @@ const BIG = 9999;               // 정렬용 Infinity 대체 (Infinity 는 뺄�
 const RANK_OTHER = 3;
 
 // 2026-10-06: 5팀(업종 자금흐름) 제거 — 'team5' 버킷 삭제. 남아 있던 항목은 loadCache 가 버린다.
-const BUCKETS = ['detail', 'team2', 'team4', 'team6'];   // team6 = 관심 종목 심층 분석 (2026-10-03)
+const BUCKETS = ['detail', 'team2', 'team4', 'team6', 'deep2'];   // team6 = 서준 관심 종목 심층 · deep2 = 도윤 목록 종목 심층 순환 (2026-10-08)
 
 function emptyCache() {
-  return { version: CACHE_VERSION, detail: {}, team2: {}, team4: {}, team6: {} };
+  return { version: CACHE_VERSION, detail: {}, team2: {}, team4: {}, team6: {}, deep2: {} };
 }
 
 function loadCache(file = paths.researchCache) {

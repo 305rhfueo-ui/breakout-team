@@ -71,6 +71,21 @@ if (T2 && T2.lists) {
       assert.strictEqual(miss.length, 0, `${k} 목록에서 빠진 티커: ${miss.join(', ')}`);
     }
   });
+  ok('목록별 RS 칸 — 1MO=1M · 3MO=3M · 6MO=6M · 1~6MO=셋 다 · 거래대금=세 기간 순위만 (2026-10-08)', () => {
+    const head = (k) => { ctx.listView(k); const h = ctx.document.getElementById('listView').innerHTML; const m = h.match(/<thead>[\s\S]*?<\/thead>/); return m ? m[0] : ''; };
+    const has = (h, x) => h.includes(`>${x}</th>`);
+    const m3 = head('m3'); if (T2.lists.m3.count) { assert.ok(has(m3, 'RS 3M') && has(m3, '3M 순위') && !has(m3, 'RS 1M'), 'm3'); }
+    const m6 = head('m6'); if (T2.lists.m6.count) { assert.ok(has(m6, 'RS 6M') && has(m6, '6M 순위') && !has(m6, 'RS 1M'), 'm6'); }
+    const al = head('all'); if (T2.lists.all.count) { for (const x of ['RS 1M', '1M 순위', 'RS 3M', '3M 순위', 'RS 6M', '6M 순위']) assert.ok(has(al, x), `all ${x}`); }
+    const dl = head('dollar'); if (T2.lists.dollar.count) { assert.ok(has(dl, '1M 순위') && has(dl, '3M 순위') && has(dl, '6M 순위') && !has(dl, 'RS 1M'), 'dollar'); }
+  });
+  const withChecks = [...(T2.picks || []), ...(T2.listPicks || [])].find((p) => p.checks);
+  if (withChecks) ok('티커 팝업에 쿨라매기·CAN SLIM 체크표가 그려진다 (2026-10-08)', () => {
+    const h = popup(withChecks.ticker);
+    assert.ok(h.includes('쿨라매기 돌파 셋업 체크') && h.includes('CAN SLIM 체크'), '체크표 제목 없음');
+    assert.ok(h.includes(E(withChecks.checks.qm[0].evidence)), '체크 근거가 화면에 없다');
+  });
+  else skipIt('팝업 체크표', 'checks 데이터 없음');
 } else skipIt('도윤 5개 목록', 'lists 데이터 없음');
 if (!done2.length) skipIt('2팀 리서치 렌더', 'LLM 리서치 데이터 없음');
 else {

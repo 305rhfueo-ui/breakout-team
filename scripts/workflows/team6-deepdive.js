@@ -122,7 +122,7 @@ const researched = await parallel(targets.map((it) => () => {
   const pngs = it.hasChart ? `그다음 **Read 도구로 차트 그림 두 장을 봐라**: \`${argsDir}/${it.ticker}-3m.png\` (3개월, 10·20·50일선) · \`${argsDir}/${it.ticker}-6m.png\` (6개월, 20·50·150일선).
    주황 점선 PIVOT = 넘으면 사는 선, 빨간 점선 STOP = 예비 손절.` : `차트 그림은 없다. chartObservation.note 에 "차트 없음" 이라고 쓰고 나머지 관찰은 숫자(plan.metrics·chart.numbers)로만 한다.`
   return tryAgent(
-    `당신은 서준(6팀)이 고른 오늘 밤 관심 종목을 투자자가 최종 결정 전에 꼼꼼히 볼 수 있게 조사하는 담당자입니다. 독자는 일반 투자자입니다. 오늘은 ${date}.
+    `당신은 ${it.source === 'list' ? '도윤(2팀) 목록에 오른 강한 종목' : '서준(6팀)이 고른 오늘 밤 관심 종목'}을 투자자가 최종 결정 전에 꼼꼼히 볼 수 있게 조사하는 담당자입니다. 독자는 일반 투자자입니다. 오늘은 ${date}.
 종목: ${it.ticker}${it.name ? ` (${it.name})` : ''} · ${it.sector} / ${it.industry} · 등급 ${it.grade}
 
 ## 순서 — 반드시 이 순서로
@@ -131,18 +131,20 @@ const researched = await parallel(targets.map((it) => () => {
 2. **Read 도구로 종목 자료를 읽어라**: \`${file}\` — ${it.ticker} 전용이다. 그 안의
    \`plan\`(피벗·손절·베이스 지표) · \`site\`(RS·컨센서스·52주 고점) · \`eye\`(차트확인 플래그) ·
    \`detail.financials\`(SEC 분기 실적) · \`detail.news\`(이 종목 직접 언급 기사) · \`detail.filings\`(8-K) · \`detail.krReports\`(국내 증권사 리포트 요약·PDF 링크) ·
+   \`cnbc\`(CNBC 가 이 종목에 태그한 기사 제목·URL·날짜 — 본문이 필요하면 그 URL 을 직접 열어 문장을 인용하라. kind:'pro' 는 유료라 제목만 근거로 쓰고 숫자는 쓰지 마라) ·
+   \`kis\`(한국투자증권 Open API — PER·PBR·EPS·상장주식수·시가총액·52주 고저·상장일) ·
    \`chart.numbers\`·\`chart.last10\`(차트 숫자) · \`market\`(한별 시장 판정). **여기 있는 숫자는 절대 바꾸지 마라.**
 3. ${pngs}
 4. 제공 자료로 부족한 것만 웹검색(최대 8회) — 최근 1~2달 뉴스, 가이던스, 증권사 전망 변화, 증자·소송 같은 리스크.
 
 ## Node 가 확정한 수치 (바꾸지 마라)
-현재가 ${it.price} · 피벗 ${it.pivot} (${it.distToPivotPct}%) · 예비 손절 ${it.stop} · 등급 ${it.grade} · 실적 발표 ${it.earnings ? JSON.stringify(it.earnings) : '달력에 없음'}${it.hasDetail ? '' : '\n⚠️ 실적·뉴스·공시 자료를 수집하지 못한 종목이다. 웹검색으로 채우되 quote 와 URL 없는 숫자는 쓰지 마라.'}
+현재가 ${it.price ?? '—'} · ${it.pivot != null ? `피벗 ${it.pivot} (${it.distToPivotPct}%) · 예비 손절 ${it.stop} · 등급 ${it.grade}` : '쉬는 구간(베이스) 없음 — 피벗·손절 없음. 관련 체크 항목은 "확인 불가"'} · 실적 발표 ${it.earnings ? JSON.stringify(it.earnings) : (it.source === 'list' ? '확인 안 함(달력은 서준 관심 종목만 조회)' : '달력에 없음')}${it.hasDetail ? '' : '\n⚠️ 실적·뉴스·공시 자료를 수집하지 못한 종목이다. 웹검색으로 채우되 quote 와 URL 없는 숫자는 쓰지 마라.'}
 
 ## 할 일
 스키마의 각 필드를 채운다. 분량·조건은 스키마 설명을 따른다. 순서:
 company → newsNarrative·recentNews → financialsNarrative·financials → canslim(7개) → risks·structuralRisks → chartCheck(11개)·chartObservation → entryChecklist → earningsRisk → lead(마지막에, 전체 요약) → confidence
 ${RULES}`,
-    { label: `심층:${it.ticker}`, phase: '심층분석', schema: DEEP, model: MODEL }
+    { label: `심층:${it.ticker}`, phase: '심층분석', schema: DEEP, model: it.model || MODEL }
   )
 }))
 

@@ -300,6 +300,10 @@ async function main() {
   say('SYSTEM', '출처 검증 중 (URL 생존 확인)…');
   const { payload, report } = await verifyPayload(llm, { runDate: dateStr, check: process.env.SKIP_LINKCHECK !== '1' });
   say('SYSTEM', `검증: URL ${report.checked}개 · 생존 ${report.ok} · 미검증(봇차단) ${report.unverified} · 죽음 ${report.dead} · 근거없음 강등 ${report.stripped}`);
+  if (report.numberCut) {
+    say('SYSTEM', `숫자 대조: 출처에 없는 숫자가 든 문장 ${report.numberCut}개 삭제`);
+    for (const c of report.numberCuts.slice(0, 10)) say('SYSTEM', `  ✂ ${c.sentence.slice(0, 70)} (없음: ${c.missing.join(', ')})`);
+  }
   if (report.removed.length) {
     const byReason = {};
     for (const r of report.removed) byReason[r.reason] = (byReason[r.reason] || 0) + 1;
@@ -421,6 +425,29 @@ async function main() {
   // 6팀 심층 분석 (2026-10-03) — 관심 종목 plans[].deep 에 붙인다. 실장에게는 넘기지 않는다(차트 관찰이 실장 판정으로 새지 않게).
   let deepT6 = null;
   if (payload.team6) {
+    // 숫자 대조 (2026-10-08) — 출처 붙은 주장은 verify-claims 가 이미 봤다. 여기서는 출처가 따로 없는 서술문
+    // (요약·뉴스/재무 흐름·차트 관찰·체크표 근거)을 "이 종목 입력 자료(_t6/{T}.json) + 출처 붙은 주장" 과 대조한다.
+    const NG = require('./lib/number-guard');
+    let cutN = 0;
+    for (const it of payload.team6.items || []) {
+      const input = readJson(path.join(paths.llmInDir, '_t6', `${it.ticker}.json`), null);
+      const corpus = NG.corpusOf(input, it.recentNews, it.financials, it.risks);
+      const fix = (o, k) => {
+        if (!o || typeof o[k] !== 'string') return;
+        const r = NG.checkText(o[k], corpus);
+        if (!r.cut.length) return;
+        o[k] = r.text; cutN += r.cut.length;
+        for (const c of r.cut) say('SYSTEM', `  ✂ ${it.ticker} ${c.sentence.slice(0, 60)} (없음: ${c.missing.join(', ')})`);
+      };
+      for (const k of ['company', 'lead', 'newsNarrative', 'financialsNarrative', 'earningsRisk']) fix(it, k);
+      for (const k of Object.keys(it.chartObservation || {})) fix(it.chartObservation, k);
+      for (const row of [...(it.canslim || []), ...(it.chartCheck || [])]) {
+        fix(row, 'evidence');
+        if (row && row.evidence === '') { row.status = '확인 불가'; row.evidence = '근거 숫자를 입력 자료에서 찾지 못해 지웠다'; }
+      }
+      if (Array.isArray(it.entryChecklist)) it.entryChecklist = it.entryChecklist.filter((x) => NG.checkText(String(x), corpus).cut.length === 0);
+    }
+    if (cutN) say('SYSTEM', `6팀 숫자 대조: 입력 자료에 없는 숫자가 든 문장 ${cutN}개 삭제`);
     const f = path.join(paths.dashboardData, 'team6.js');
     const d = loadWindowData(f, 'TEAM6_DATA');
     if (d) {
@@ -438,12 +465,31 @@ async function main() {
           else { p.deep = { status: 'failed', note: '심층 분석 실패 (에이전트 오류) — 다음 실행에서 다시 시도합니다' }; failedCount++; }
         } else if (p.deep && p.deep.status === 'done' && p.deep.carried) { done++; carried++; }
       }
-      recordResearched(rc, 'team6', [...byTicker.keys()], dateStr);
+      recordResearched(rc, 'team6', [...byTicker.keys()].filter((t) => (d.plans || []).some((p) => p.watch && p.ticker === t)), dateStr);
       const watchN = (d.plans || []).filter((p) => p.watch).length;
       d.deep_coverage = coverageOf({ done, failed: failedCount, carried, total: watchN, cap: (payload.team6.coverage || {}).cap ?? 10 });
       writeWindowData(f, 'TEAM6_DATA', d);
       merged.push(`team6(심층 ${done - carried}${carried ? ` · 이월 ${carried}` : ''}${failedCount ? ` · 실패 ${failedCount}` : ''})`);
       deepT6 = d;
+    }
+    // 도윤 목록 종목 순환 심층 (2026-10-08) — 서준 관심 종목이 아닌 결과는 team2.js 의 picks/listPicks[].deep 에 붙인다.
+    const f2 = path.join(paths.dashboardData, 'team2.js');
+    const d2 = loadWindowData(f2, 'TEAM2_DATA');
+    if (d2) {
+      const watchT = new Set(((d && d.plans) || []).filter((p) => p.watch).map((p) => p.ticker));
+      const byT = new Map((payload.team6.items || []).filter((x) => !watchT.has(x.ticker)).map((x) => [x.ticker, x]));
+      const failed2 = new Set((payload.team6.failed || []).filter((t) => !watchT.has(t)));
+      let n2 = 0;
+      for (const p of [...(d2.picks || []), ...(d2.listPicks || [])]) {
+        const r = byT.get(p.ticker);
+        if (r) { p.deep = { status: 'done', ...r, researchedOn: dateStr, session: (d && d.sessionDate) || null, carried: false, source: 'list' }; n2++; }
+        else if (failed2.has(p.ticker) && !(p.deep && p.deep.status === 'done')) p.deep = { status: 'failed', note: '심층 분석 실패 (에이전트 오류) — 다음 순환에서 다시' };
+      }
+      if (byT.size || failed2.size) {
+        recordResearched(rc, 'deep2', [...byT.keys()], dateStr);
+        writeWindowData(f2, 'TEAM2_DATA', d2);
+        merged.push(`team2(목록 심층 ${n2}${failed2.size ? ` · 실패 ${failed2.size}` : ''})`);
+      }
     }
   }
 

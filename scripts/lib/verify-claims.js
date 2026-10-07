@@ -16,6 +16,7 @@
 //     statement 를 '근거 없음(출처 검증 실패로 제거됨)' 으로 바꾸고 no_source 로 강등
 
 const { say } = require('./util');
+const NG = require('./number-guard');
 
 const BAD_HOST = /^(www\.)?(example\.(com|org|net)|localhost|127\.0\.0\.1|test\.com)$/i;
 const SEARCH_PAGE = /(google\.[a-z.]+\/search|bing\.com\/search|duckduckgo\.com\/\?q|search\.yahoo\.com|news\.google\.com\/rss)/i;
@@ -177,6 +178,26 @@ function sanitizeNode(node, { runDate, linkMap, report }) {
       if (lk && lk.verdict === 'unverified') report.unverified++;
     }
     node.sources = kept;
+    // 숫자 대조 (2026-10-08) — 문장 속 숫자가 그 주장의 출처(quote·title)에 없으면 그 문장을 지운다.
+    //   AI 팩트체커는 "41% 늘었다"(출처엔 41% 없음)를 통과시켰다. 숫자는 코드가 본다. 단위 환산·반올림·날짜는 lib/number-guard.
+    if (kept.length) {
+      const corpus = NG.corpusOf(NG.sourceText(node));
+      for (const f of ['statement', 'why', 'plainKo']) {
+        if (typeof node[f] !== 'string') continue;
+        const r = NG.checkText(node[f], corpus);
+        if (!r.cut.length) continue;
+        node[`${f}Original`] = node[f];
+        node[f] = r.text;
+        report.numberCut = (report.numberCut || 0) + r.cut.length;
+        (report.numberCuts = report.numberCuts || []).push(...r.cut.map((c) => ({ sentence: c.sentence, missing: c.missing })));
+      }
+      if (node.evidence_level === 'sourced' && typeof node.statement === 'string' && !node.statement.trim()) {
+        node.statement = '근거 없음(출처에 없는 숫자라 제거됨)';
+        node.evidence_level = 'no_source';
+        node.stripped = true;
+        report.stripped++;
+      }
+    }
     // 근거가 사라졌는데 'sourced' 라고 주장하면 강등한다
     if (kept.length === 0 && node.evidence_level === 'sourced') {
       node.statement = '근거 없음(출처 검증 실패로 제거됨)';
