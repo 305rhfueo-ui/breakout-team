@@ -1,6 +1,66 @@
 {
   "trades": [
     {
+      "id": "ALAB-2026-10-07-nextOpen",
+      "book": "nextOpen",
+      "ticker": "ALAB",
+      "grade": "A",
+      "ruleVersion": "0.3",
+      "regime": "green",
+      "entryDate": "2026-10-07",
+      "entryAt": "0930",
+      "exitDate": "2026-10-07",
+      "exitAt": "0935",
+      "days": 0,
+      "entry": 376.98,
+      "stop0": 365.75,
+      "exit": 365.02,
+      "riskPerSharePct": 2.98,
+      "weightPct": 16.8,
+      "R": -1.06,
+      "pct": -0.53,
+      "mfeR": 0.1,
+      "maeR": -1.42,
+      "why": "당일 손절",
+      "partial": false,
+      "fills": [
+        {
+          "date": "2026-10-07",
+          "at": "0930",
+          "side": "buy",
+          "frac": 1,
+          "px": 376.98,
+          "why": "진입"
+        },
+        {
+          "date": "2026-10-07",
+          "at": "0935",
+          "side": "sell",
+          "frac": 1,
+          "px": 365.02,
+          "why": "당일 손절"
+        }
+      ],
+      "ctx": {
+        "orh": 5,
+        "pace": 3.8,
+        "ext": 1.58,
+        "levelIs": "hod",
+        "stopIs": "stopAdr",
+        "at": "0935",
+        "pivot": 377.87,
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "baseWeeks": 2,
+        "depthPct": 18.4,
+        "priorMovePct": 54.5,
+        "catalyst": null,
+        "flow": "pending",
+        "regime": "green",
+        "source": "kis"
+      }
+    },
+    {
       "id": "ALAB-2026-10-06-trail20",
       "book": "trail20",
       "ticker": "ALAB",

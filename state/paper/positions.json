@@ -21,7 +21,7 @@
       "days": 1,
       "mfe": 0.9861152336664342,
       "mae": -0.9481877246792653,
-      "last": 191.47,
+      "last": 188.83,
       "lastDate": "2026-10-07",
       "regime": "green",
       "fills": [
@@ -52,62 +52,8 @@
         "regime": "green",
         "source": "kis"
       },
-      "lastBarT": 1791379800000,
+      "lastBarT": 1791380100000,
       "_lastCloseDate": "2026-10-06"
-    },
-    {
-      "id": "ALAB-2026-10-07-nextOpen",
-      "book": "nextOpen",
-      "ticker": "ALAB",
-      "grade": "A",
-      "ruleVersion": "0.3",
-      "entryDate": "2026-10-07",
-      "entryAt": "0930",
-      "entry": 376.98,
-      "stop": 365.75,
-      "stop0": 365.75,
-      "risk": 11.2325,
-      "riskPerSharePct": 2.98,
-      "weightPct": 16.8,
-      "left": 1,
-      "realR": 0,
-      "realPct": 0,
-      "partial": false,
-      "days": 0,
-      "mfe": 0.09703983975072113,
-      "mae": -0.817271310928111,
-      "last": 373.39,
-      "lastDate": "2026-10-07",
-      "regime": "green",
-      "fills": [
-        {
-          "date": "2026-10-07",
-          "at": "0930",
-          "side": "buy",
-          "frac": 1,
-          "px": 376.98,
-          "why": "진입"
-        }
-      ],
-      "ctx": {
-        "orh": 5,
-        "pace": 3.8,
-        "ext": 1.58,
-        "levelIs": "hod",
-        "stopIs": "stopAdr",
-        "at": "0935",
-        "pivot": 377.87,
-        "sector": "Technology",
-        "industry": "Semiconductors",
-        "baseWeeks": 2,
-        "depthPct": 18.4,
-        "priorMovePct": 54.5,
-        "catalyst": null,
-        "flow": "pending",
-        "regime": "green",
-        "source": "kis"
-      },
-      "lastBarT": 1791379800000
     }
   ]
 }

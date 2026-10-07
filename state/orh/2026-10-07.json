@@ -1,114 +1,114 @@
 {
   "date": "2026-10-07",
-  "ticks": 1,
+  "ticks": 2,
   "items": {
     "ZS": {
       "ticker": "ZS",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "A",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 216.97 미돌파 (종가 212) (0935 ET 기준)",
+      "pace": 0.85,
+      "level": 216.97
     },
     "BE": {
       "ticker": "BE",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "A",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 302.35 미돌파 (종가 289.2) (0935 ET 기준)",
+      "pace": 0.72,
+      "level": 302.35
     },
     "FEIM": {
       "ticker": "FEIM",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "A",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 89.76 미돌파 (종가 85.45) (0935 ET 기준)",
+      "pace": 0.52,
+      "level": 89.76
     },
     "MSTR": {
       "ticker": "MSTR",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "A",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 171.19 미돌파 (종가 155.75) (0935 ET 기준)",
+      "pace": 0.81,
+      "level": 171.19
     },
     "TEAM": {
       "ticker": "TEAM",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "B",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 200 미돌파 (종가 195.58) (0935 ET 기준)",
+      "pace": 0.8,
+      "level": 200
     },
     "DINO": {
       "ticker": "DINO",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "B",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 118.39 미돌파 (종가 117.16) (0935 ET 기준)",
+      "pace": 0.58,
+      "level": 118.39
     },
     "DELL": {
       "ticker": "DELL",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "B",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 595.51 미돌파 (종가 573.97) (0935 ET 기준)",
+      "pace": 0.46,
+      "level": 595.51
     },
     "CORT": {
       "ticker": "CORT",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "A",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 126.38 미돌파 (종가 118.5) (0935 ET 기준)",
+      "pace": 0.85,
+      "level": 126.38
     },
     "MRX": {
       "ticker": "MRX",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "B",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 79.11 미돌파 (종가 73.06) (0935 ET 기준)",
+      "pace": 0.76,
+      "level": 79.11
     },
     "FROG": {
       "ticker": "FROG",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "B",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 105.76 미돌파 (종가 97.79) (0935 ET 기준)",
+      "pace": 0.75,
+      "level": 105.76
     },
     "PENG": {
       "ticker": "PENG",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "C",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 74.95 미돌파 (종가 72.8) (0935 ET 기준)",
+      "pace": 37.45,
+      "level": 74.95
     },
     "CIEN": {
       "ticker": "CIEN",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "C",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 462.69 미돌파 (종가 427.53) (0935 ET 기준)",
+      "pace": 2.19,
+      "level": 462.69
     }
   }
 }

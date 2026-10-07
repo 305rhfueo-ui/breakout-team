@@ -1,5 +1,5 @@
 window.PAPER_DATA = {
-  "generated": "2026-10-07T13:35:29.749Z",
+  "generated": "2026-10-07T13:40:29.717Z",
   "rulesVersion": "0.3",
   "slipPct": 0.2,
   "minSample": 30,
@@ -81,17 +81,17 @@ window.PAPER_DATA = {
     },
     "nextOpen": {
       "ko": "다음 날 시가 진입",
-      "n": 1,
+      "n": 2,
       "winPct": 0,
-      "avgR": -1.09,
-      "totalR": -1.1,
+      "avgR": -1.08,
+      "totalR": -2.2,
       "avgWinR": null,
-      "avgLossR": -1.09,
+      "avgLossR": -1.08,
       "profitFactor": 0,
       "avgDays": 0,
       "sameDayStopPct": 100,
-      "equityPct": -0.49,
-      "open": 2
+      "equityPct": -1.02,
+      "open": 1
     },
     "gradeC": {
       "ko": "등급 C",
@@ -239,9 +239,9 @@ window.PAPER_DATA = {
     }
   ],
   "health": {
-    "at": "2026-10-07T13:35:20.062Z",
-    "atKst": "2026-10-07 22:35 KST",
-    "atEt": "2026-10-07 0935",
+    "at": "2026-10-07T13:40:20.055Z",
+    "atKst": "2026-10-07 22:40 KST",
+    "atEt": "2026-10-07 0940",
     "phase": "open",
     "source": "kis",
     "status": "정상",

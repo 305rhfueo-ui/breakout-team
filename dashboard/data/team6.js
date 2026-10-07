@@ -4349,111 +4349,111 @@ window.TEAM6_DATA = {
   "triggers": [
     {
       "ticker": "BE",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "A",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 302.35 미돌파 (종가 289.2) (0935 ET 기준)",
+      "pace": 0.72,
+      "level": 302.35
     },
     {
       "ticker": "CIEN",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "C",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 462.69 미돌파 (종가 427.53) (0935 ET 기준)",
+      "pace": 2.19,
+      "level": 462.69
     },
     {
       "ticker": "CORT",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "A",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 126.38 미돌파 (종가 118.5) (0935 ET 기준)",
+      "pace": 0.85,
+      "level": 126.38
     },
     {
       "ticker": "DELL",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "B",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 595.51 미돌파 (종가 573.97) (0935 ET 기준)",
+      "pace": 0.46,
+      "level": 595.51
     },
     {
       "ticker": "DINO",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "B",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 118.39 미돌파 (종가 117.16) (0935 ET 기준)",
+      "pace": 0.58,
+      "level": 118.39
     },
     {
       "ticker": "FEIM",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "A",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 89.76 미돌파 (종가 85.45) (0935 ET 기준)",
+      "pace": 0.52,
+      "level": 89.76
     },
     {
       "ticker": "FROG",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "B",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 105.76 미돌파 (종가 97.79) (0935 ET 기준)",
+      "pace": 0.75,
+      "level": 105.76
     },
     {
       "ticker": "MRX",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "B",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 79.11 미돌파 (종가 73.06) (0935 ET 기준)",
+      "pace": 0.76,
+      "level": 79.11
     },
     {
       "ticker": "MSTR",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "A",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 171.19 미돌파 (종가 155.75) (0935 ET 기준)",
+      "pace": 0.81,
+      "level": 171.19
     },
     {
       "ticker": "PENG",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "C",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 74.95 미돌파 (종가 72.8) (0935 ET 기준)",
+      "pace": 37.45,
+      "level": 74.95
     },
     {
       "ticker": "TEAM",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "B",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 200 미돌파 (종가 195.58) (0935 ET 기준)",
+      "pace": 0.8,
+      "level": 200
     },
     {
       "ticker": "ZS",
-      "at": "0930",
+      "at": "0935",
       "fired": false,
       "grade": "A",
-      "ko": "대기 — 첫 5분봉만 있음 — 다음 봉부터 판정 (0930 ET 기준)",
-      "pace": null,
-      "level": null
+      "ko": "대기 — 기준선 216.97 미돌파 (종가 212) (0935 ET 기준)",
+      "pace": 0.85,
+      "level": 216.97
     }
   ],
   "positions": [],
@@ -4529,16 +4529,16 @@ window.TEAM6_DATA = {
         "equityPct": -1.04
       },
       "nextOpen": {
-        "n": 1,
+        "n": 2,
         "winPct": 0,
-        "avgR": -1.09,
-        "totalR": -1.1,
+        "avgR": -1.08,
+        "totalR": -2.2,
         "avgWinR": null,
-        "avgLossR": -1.09,
+        "avgLossR": -1.08,
         "profitFactor": 0,
         "avgDays": 0,
         "sameDayStopPct": 100,
-        "equityPct": -0.49
+        "equityPct": -1.02
       },
       "gradeC": {
         "n": 1,
@@ -4561,9 +4561,9 @@ window.TEAM6_DATA = {
     "totalPct": -1.04
   },
   "health": {
-    "at": "2026-10-07T13:35:20.062Z",
-    "atKst": "2026-10-07 22:35 KST",
-    "atEt": "2026-10-07 0935",
+    "at": "2026-10-07T13:40:20.055Z",
+    "atKst": "2026-10-07 22:40 KST",
+    "atEt": "2026-10-07 0940",
     "phase": "open",
     "source": "kis",
     "status": "정상",
