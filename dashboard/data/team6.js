@@ -1,6 +1,6 @@
 window.TEAM6_DATA = {
-  "generated": "2026-10-07",
-  "sessionDate": "2026-10-06",
+  "generated": "2026-10-08",
+  "sessionDate": "2026-10-07",
   "rulesVersion": "0.3",
   "regime": "green",
   "riskPct": 0.5,
@@ -17,52 +17,52 @@ window.TEAM6_DATA = {
       "industry": "Software - Infrastructure",
       "grade": "A",
       "state": "pre",
-      "asOf": "2026-10-06",
-      "price": 212.25,
+      "asOf": "2026-10-07",
+      "price": 213.55,
       "pivot": 216.97,
       "pivotDate": "2026-09-24",
-      "stop": 206.45,
-      "riskPerSharePct": 4.85,
-      "weightPct": 10.3,
+      "stop": 206.59,
+      "riskPerSharePct": 4.79,
+      "weightPct": 10.4,
       "weightCapped": false,
-      "distToPivotPct": -2.18,
-      "distToPivotAdr": -0.44,
-      "extensionAdr": 0.89,
+      "distToPivotPct": -1.58,
+      "distToPivotAdr": -0.32,
+      "extensionAdr": 1.04,
       "chase": false,
-      "adrPct": 4.96,
-      "ma10": 202.87,
-      "dollarVol20M": 641.9,
+      "adrPct": 4.86,
+      "ma10": 202.78,
+      "dollarVol20M": 643.4,
       "liquid": true,
       "reasons": [
         "선행 상승 +81%",
-        "베이스 3.2주",
+        "베이스 3.4주",
         "깊이 21.6%",
         "저점 상승 1회",
-        "진폭 0.85배 · 10일 종가폭 2.1 ADR",
-        "10일선 +0.9 ADR · 20일선 +1.6 ADR",
-        "20일선 기울기 +3.94%"
+        "진폭 0.86배 · 10일 종가폭 2.1 ADR",
+        "10일선 +1 ADR · 20일선 +1.5 ADR",
+        "20일선 기울기 +4.61%"
       ],
       "fails": [],
       "metrics": {
-        "baseBars": 16,
-        "baseWeeks": 3.2,
+        "baseBars": 17,
+        "baseWeeks": 3.4,
         "depthPct": 21.6,
         "priorMovePct": 81,
         "higherLows": 1,
-        "contraction": 0.85,
+        "contraction": 0.86,
         "closeRange10Adr": 2.1,
-        "surf10": 0.89,
-        "surf20": 1.58,
-        "slope20": 3.94,
+        "surf10": 1.04,
+        "surf20": 1.5,
+        "slope20": 4.61,
         "baseLow": 170.06,
-        "lastSwingLow": 187.67
+        "lastSwingLow": 195.11
       },
       "catalyst": null,
       "earnings": null,
       "blocked": null,
       "shadowBook": null,
       "watch": true,
-      "score": 67.8,
+      "score": 68.4,
       "deep": {
         "status": "done",
         "ticker": "ZS",
@@ -458,7 +458,7 @@ window.TEAM6_DATA = {
         "leadOriginal": "매출이 네 분기 연속 25% 안팎으로 늘고 주가 강도가 상위 1%인 종목이 넘으면 사는 선(피벗) 216.97달러 바로 아래 212.25달러에 있다. 가장 강한 근거는 9월 3일 발표한 분기 매출 8.982억 달러로 1년 전보다 25% 늘었고 비GAAP 영업이익률이 24%로 최고치였다는 점이다. 가장 큰 걱정은 회사가 내놓은 2027회계연도 매출 성장 전망이 16.6~17.5%로 올해 25%보다 크게 낮다는 것이다. 5월에 전망 실망으로 하루 30% 넘게 빠진 전력이 있어, 성장 둔화가 한 번 더 확인되면 이 그림은 깨진다.",
         "researchedOn": "2026-10-07",
         "session": "2026-10-06",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -468,43 +468,43 @@ window.TEAM6_DATA = {
       "industry": "Electrical Equipment & Parts",
       "grade": "A",
       "state": "pre",
-      "asOf": "2026-10-06",
-      "price": 295.78,
+      "asOf": "2026-10-07",
+      "price": 291.29,
       "pivot": 302.35,
       "pivotDate": "2026-09-29",
-      "stop": 283.81,
-      "riskPerSharePct": 6.13,
-      "weightPct": 8.2,
+      "stop": 284.11,
+      "riskPerSharePct": 6.03,
+      "weightPct": 8.3,
       "weightCapped": false,
-      "distToPivotPct": -2.17,
-      "distToPivotAdr": -0.35,
-      "extensionAdr": 0.79,
+      "distToPivotPct": -3.66,
+      "distToPivotAdr": -0.58,
+      "extensionAdr": 0.47,
       "chase": false,
-      "adrPct": 6.27,
-      "ma10": 281.08,
-      "dollarVol20M": 4535.1,
+      "adrPct": 6.26,
+      "ma10": 282.69,
+      "dollarVol20M": 4530.6,
       "liquid": true,
       "reasons": [
         "선행 상승 +92%",
-        "베이스 4주",
+        "베이스 4.2주",
         "깊이 17.6%",
         "저점 상승 1회",
         "진폭 1.38배 · 10일 종가폭 1.8 ADR",
-        "10일선 +0.8 ADR · 20일선 +1.1 ADR",
-        "20일선 기울기 +4.36%"
+        "10일선 +0.5 ADR · 20일선 +0.8 ADR",
+        "20일선 기울기 +3.53%"
       ],
       "fails": [],
       "metrics": {
-        "baseBars": 20,
-        "baseWeeks": 4,
+        "baseBars": 21,
+        "baseWeeks": 4.2,
         "depthPct": 17.6,
         "priorMovePct": 92.2,
         "higherLows": 1,
         "contraction": 1.38,
         "closeRange10Adr": 1.8,
-        "surf10": 0.79,
-        "surf20": 1.13,
-        "slope20": 4.36,
+        "surf10": 0.47,
+        "surf20": 0.84,
+        "slope20": 3.53,
         "baseLow": 249.05,
         "lastSwingLow": 251.3
       },
@@ -513,7 +513,7 @@ window.TEAM6_DATA = {
       "blocked": null,
       "shadowBook": null,
       "watch": true,
-      "score": 67.8,
+      "score": 66.3,
       "deep": {
         "status": "done",
         "ticker": "BE",
@@ -896,767 +896,7 @@ window.TEAM6_DATA = {
         "newsNarrativeOriginal": "9월 한 달 주가가 34% 오르며 AI 전력 테마의 중심에 섰다. 회사가 자사 연료전지로 대형 AI 데이터센터가 36억 달러를 아낄 수 있다고 주장하면서 수요 기대가 더 커졌다. 다만 같은 기간 언론은 이익 대비 380배라는 가격을 두고 정당화 조건을 따져 묻기 시작했다. 5년간 16배 오른 상승분이 사실상 최근 2년에 몰려 있다는 점도 함께 지적됐다.",
         "researchedOn": "2026-10-07",
         "session": "2026-10-06",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "FEIM",
-      "name": "프리퀀시 일렉트로닉스",
-      "sector": "Technology",
-      "industry": "Communication Equipment",
-      "grade": "A",
-      "state": "pre",
-      "asOf": "2026-10-06",
-      "price": 87.13,
-      "pivot": 89.76,
-      "pivotDate": "2026-09-11",
-      "stop": 84.99,
-      "riskPerSharePct": 5.31,
-      "weightPct": 9.4,
-      "weightCapped": false,
-      "distToPivotPct": -2.93,
-      "distToPivotAdr": -0.54,
-      "extensionAdr": 0.38,
-      "chase": false,
-      "adrPct": 5.47,
-      "ma10": 85.29,
-      "dollarVol20M": 35.8,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +82%",
-        "베이스 3.4주",
-        "깊이 12.7%",
-        "저점 상승 1회",
-        "진폭 0.83배 · 10일 종가폭 1.2 ADR",
-        "10일선 +0.4 ADR · 20일선 +0.8 ADR",
-        "20일선 기울기 +8.13%"
-      ],
-      "fails": [],
-      "metrics": {
-        "baseBars": 17,
-        "baseWeeks": 3.4,
-        "depthPct": 12.7,
-        "priorMovePct": 82.4,
-        "higherLows": 1,
-        "contraction": 0.83,
-        "closeRange10Adr": 1.2,
-        "surf10": 0.38,
-        "surf20": 0.81,
-        "slope20": 8.13,
-        "baseLow": 78.32,
-        "lastSwingLow": 81.58
-      },
-      "catalyst": null,
-      "earnings": null,
-      "blocked": null,
-      "shadowBook": null,
-      "watch": true,
-      "score": 67.1,
-      "deep": {
-        "status": "done",
-        "ticker": "FEIM",
-        "company": "프리퀀시 일렉트로닉스는 인공위성과 군용 장비에 들어가는 정밀 시계·주파수 발생 장치를 만든다. 주 고객은 미국 정부와 대형 항공우주 원청업체이며, 매출은 프로그램 단위 수주로 들어온다. 최근 성장 축은 저궤도 위성을 대량으로 쏘아 올리는 사업에 쓰이는 우주용 발진기다.",
-        "lead": "실적이 분기 하나 만에 완전히 달라졌고 그게 지금 이 종목을 보는 이유다. 7월 말 분기 매출이 2,345만 달러로 1년 전보다 70% 늘었고, 확정 수주잔고도 1억 2,900만 달러로 82% 늘었다. 걱정은 7월에 신주를 발행해 기존 주주 몫이 줄었다는 점과, 바로 직전 분기에는 영업손실을 냈을 만큼 분기 실적이 들쭉날쭉하다는 점이다. 다음 분기에도 매출과 이익이 함께 늘어나는지가 확인되면 이 그림이 유지되고, 한 분기 반짝이었다면 깨진다.",
-        "newsNarrative": "7월에는 악재와 호재가 겹쳤다. 4분기 실적에서 구조조정 비용 탓에 손실을 냈고, 같은 달 주당 57.5달러에 신주를 발행해 약 6,250만 달러를 조달하면서 주가가 급락했다. 하지만 7월 말 항공우주 원청으로부터 약 1,800만 달러 규모 수주를 따냈다고 알리며 분위기가 바뀌었다. 9월 10일 발표한 분기 실적이 사상 최대 매출을 기록하자 주가는 34% 뛰었고, 지금 가격대는 그때 만들어진 것이다.",
-        "recentNews": [
-          {
-            "id": "n1",
-            "statement": "7월 말 끝난 분기에 매출 2,345만 달러로 분기 기준 최대를 기록했다. 1년 전보다 70%, 직전 분기보다 52% 늘었다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Frequency Electronics Announces First Quarter of Fiscal Year 2027 Financial Results",
-                "publisher": "SEC EDGAR (Form 8-K Exhibit 99.1)",
-                "url": "https://www.sec.gov/Archives/edgar/data/0000039020/000118518526003916/feimex99-1.htm",
-                "date": "2026-09-10",
-                "quote": "Announces Record Quarterly Revenue of $23.5 Million, Up 70% Year-over-Year and 52% Sequentially",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "n2",
-            "statement": "확정 수주잔고가 1억 2,900만 달러로 1년 전보다 82% 늘었다. 앞으로 매출로 잡힐 일감이 그만큼 쌓였다는 뜻이다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Frequency Electronics Announces First Quarter of Fiscal Year 2027 Financial Results",
-                "publisher": "SEC EDGAR (Form 8-K Exhibit 99.1)",
-                "url": "https://www.sec.gov/Archives/edgar/data/0000039020/000118518526003916/feimex99-1.htm",
-                "date": "2026-09-10",
-                "quote": "Announces Record $129 Million Funded Backlog, up 82% Year-over-Year and 16% Sequentially",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "n3",
-            "statement": "7월 23일 항공우주 분야에서 약 1,800만 달러 규모 신규 수주를 알렸다. 위성용 정밀 주파수 장비 수요가 실제 계약으로 이어진 사례다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "FEIM Secures $18 Million in New Aerospace Contract Awards",
-                "publisher": "Zacks (Nasdaq)",
-                "url": "https://www.nasdaq.com/articles/feim-secures-18-million-new-aerospace-contract-awards",
-                "date": "2026-07-23",
-                "quote": "FEIM Secures $18 Million in New Aerospace Contract Awards",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "n4",
-            "statement": "9월 실적 발표 직후 주가가 34% 급등했다. 지금 횡보하는 가격대가 그때 만들어졌다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "FEIM Stock Climbs 34% as Q1 Earnings Surge Year Over Year",
-                "publisher": "Zacks (Nasdaq)",
-                "url": "https://www.nasdaq.com/articles/feim-stock-climbs-34-q1-earnings-surge-year-over-year",
-                "date": "2026-09-16",
-                "quote": "FEIM Stock Climbs 34% as Q1 Earnings Surge Year Over Year",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "n5",
-            "statement": "7월 말 주당 57.5달러에 108만 6,957주를 새로 발행해 약 6,250만 달러를 조달했다. 그만큼 기존 주주 몫은 줄었다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Form 8-K — Underwriting Agreement",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526003177/feim8k072926.htm",
-                "date": "2026-07-30",
-                "quote": "The gross proceeds to the Company from the Offering, before deducting the underwriting discounts and commissions and offering expenses, were approximately $62.5 million.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "financialsNarrative": "7월 말 끝난 분기에 매출이 2,345만 달러로 1년 전보다 70% 늘면서 흐름이 바뀌었다. 영업이익은 520만 달러, 영업이익률 22.2%로 직전 분기 영업손실 635만 달러에서 돌아섰다. 다만 이 회복은 아직 한 분기짜리다. 그 앞 세 분기는 매출도 이익도 1년 전보다 줄었고, 4월 말 분기 매출은 1,540만 달러로 23% 감소했다.",
-        "financials": {
-          "revenueTrend": [
-            {
-              "id": "f1",
-              "statement": "7월 말 분기 매출 2,345만 달러로 1년 전보다 69.8% 증가했다. 직전 분기 1,540만 달러에서 크게 뛴 숫자다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "SEC 분기 실적 (2026-07-31 종료 분기)",
-                  "publisher": "SEC EDGAR companyfacts",
-                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000039020&type=10-Q",
-                  "date": "2026-09-10",
-                  "quote": "revenue: 23451000, yoy.revenue: 69.8, periodEnd: 2026-07-31",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "f2",
-              "statement": "그 앞 세 분기는 매출이 뒷걸음질쳤다. 4월 말 분기는 1년 전보다 23% 줄었다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "SEC 분기 실적 (2026-04-30 종료 분기)",
-                  "publisher": "SEC EDGAR companyfacts",
-                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000039020&type=10-Q",
-                  "date": "2026-07-15",
-                  "quote": "revenue: 15398000, yoy.revenue: -23, periodEnd: 2026-04-30",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "profitTrend": [
-            {
-              "id": "f3",
-              "statement": "7월 말 분기 영업이익 520만 달러, 영업이익률 22.2%를 기록했다. 매출이 늘면서 고정비 부담이 줄어든 결과다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "SEC 분기 실적 (2026-07-31 종료 분기)",
-                  "publisher": "SEC EDGAR companyfacts",
-                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000039020&type=10-Q",
-                  "date": "2026-09-10",
-                  "quote": "profit: 5200000, margin: 22.2, yoy.profit: 1328.6, netIncome: 4216000",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "guidance": [
-            {
-              "id": "g1",
-              "statement": "회사는 2029회계연도에 연매출 1억 5,000만 달러 이상을 달성한다는 기존 목표에 자신감을 보였다. 지금 분기 매출의 네 배를 넘는 연매출 목표다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Frequency Electronics Announces First Quarter of Fiscal Year 2027 Financial Results",
-                  "publisher": "SEC EDGAR (Form 8-K Exhibit 99.1)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0000039020/000118518526003916/feimex99-1.htm",
-                  "date": "2026-09-10",
-                  "quote": "$150 million or more in annual revenue that we previously guided to by Fiscal 2029, which ends April 30, 2029",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "estimateRevisions": {
-            "direction": "unknown",
-            "claims": []
-          }
-        },
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "충족",
-            "evidence": "7월 말 분기 영업이익 520만 달러, 1년 전보다 1328.6% 증가. 매출도 69.8% 증가 (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "미충족",
-            "evidence": "최근 4개 분기 중 전년비 플러스는 1개뿐. 4월 말 -225.2%, 1월 말 -89.8%, 10월 말 -32.1%. 3년 추세·자기자본이익률은 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "N 신제품·신고가",
-            "status": "충족",
-            "evidence": "7월 1,800만 달러 신규 수주, 9월 수주잔고 1억 2,900만 달러. 52주 고점 97.07달러 대비 현재가 87.13달러"
-          },
-          {
-            "item": "S 수급",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량이 20일 평균의 0.75배로 0.7 기준을 넘는다. 거래대금은 20일 평균의 0.53배. 유통주식 수는 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "충족",
-            "evidence": "1개월 상대강도 상위 99.2%, 3개월 99.3%, 6개월 93.4%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "충족",
-            "evidence": "시장 판정 green — 10일선이 20일선 위 13일째, 둘 다 상승. 다만 마진부채가 1년 전보다 +37.2%로 주의선 초과"
-          }
-        ],
-        "risks": [
-          {
-            "id": "r1",
-            "statement": "7월 신주 발행으로 주식 수가 늘었다. 주당 이익이 그만큼 희석(새 주식 발행으로 기존 주주 몫이 줄어듦)된다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Form 8-K — Underwriting Agreement",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526003177/feim8k072926.htm",
-                "date": "2026-07-30",
-                "quote": "1,086,957 shares of Common Stock (the \"Company Shares\")",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "r2",
-            "statement": "8월 초 주관사가 추가 매수 권리를 전액 행사해 주식이 더 나왔다. 희석이 한 번 더 일어났다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Form 8-K — Exercise of Underwriters' Option",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/39020/000118518526003285/feim8k080526.htm",
-                "date": "2026-08-05",
-                "quote": "On August 3, 2026, the Underwriters exercised their option in full and on August 5, 2026, the Underwriters purchased the Option Shares.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "r3",
-            "statement": "직전 분기에는 구조조정 비용으로 손실을 냈다. 분기별 실적 진폭이 크다는 뜻이다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "FEIM Stock Up 13% Despite Incurring Q4 Loss Due to Restructuring Costs",
-                "publisher": "Zacks (Nasdaq)",
-                "url": "https://www.nasdaq.com/articles/feim-stock-13-despite-incurring-q4-loss-due-restructuring-costs",
-                "date": "2026-07-21",
-                "quote": "FEIM Stock Up 13% Despite Incurring Q4 Loss Due to Restructuring Costs",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "r4",
-            "statement": "7월 중순 주가가 하루에 크게 빠진 적이 있다. 시가총액 9.6억 달러의 소형주라 소식 하나에 가격이 크게 흔들린다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Why Frequency Electronics Stock Is Plummeting Today",
-                "publisher": "The Motley Fool (Nasdaq)",
-                "url": "https://www.nasdaq.com/articles/why-frequency-electronics-stock-plummeting-today",
-                "date": "2026-07-16",
-                "quote": "Why Frequency Electronics Stock Is Plummeting Today",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "structuralRisks": [
-          "매출이 소수의 항공우주 원청업체와 미국 정부 프로그램에 몰려 있어 한 고객의 발주 지연이 분기 실적을 바꾼다.",
-          "수주 단위로 매출이 들어오는 구조라 계약 체결 시점에 따라 분기 매출이 크게 출렁인다."
-        ],
-        "chartCheck": [
-          {
-            "item": "선행 상승",
-            "status": "충족",
-            "evidence": "횡보 직전 상승 82.4%, 3개월 수익률 59.9%"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "충족",
-            "evidence": "베이스 3.4주(17봉) — 2~8주 범위 안"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "충족",
-            "evidence": "저점 상승 1회, 진폭 0.83배로 폭이 좁아지는 중"
-          },
-          {
-            "item": "깊이",
-            "status": "충족",
-            "evidence": "베이스 깊이 12.7%, 일일 평균 변동폭 5.47%의 2.3배. 선행 상승 82.4%의 절반보다 얕다"
-          },
-          {
-            "item": "이평선 위",
-            "status": "충족",
-            "evidence": "현재가 87.13 > 20일선 83.28 > 50일선 73.15"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량이 20일 평균의 0.75배 — 0.7 이하 기준에 못 미치는 보통 구간"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "아직 피벗 아래라 돌파봉이 없다. 최근 거래량은 20일 평균의 0.51배 — 밤에 2배가 실리는지 본다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "충족",
-            "evidence": "피벗 89.76까지 -2.93%, 일일 평균 변동폭의 0.54배 — 1배 안"
-          },
-          {
-            "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절 폭 5.31% ≤ 일일 평균 변동폭 5.47%"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 85.29 위로 0.38배 — 2배 이하"
-          },
-          {
-            "item": "시장",
-            "status": "충족",
-            "evidence": "시장 판정 green — 10일선이 20일선 위 13일째, 둘 다 상승"
-          }
-        ],
-        "chartObservation": {
-          "base": "9월 중순 급등 이후 3.4주(17봉)째 좁은 구간에서 오르내리고 있다. 베이스 고점 대비 저점까지 깊이는 12.7%이고, 저점이 한 번 높아졌다. 구간 진폭은 이전의 0.83배로 좁아졌다.",
-          "volume": "횡보에 들어서며 거래량이 줄었다. 최근 5일 거래량은 20일 평균의 0.75배, 마지막 봉은 0.51배다. 다만 10월 5일 하루만 61만 8,900주로 주변 날들의 두세 배가 실렸다.",
-          "position": "현재가 87.13달러는 피벗(넘으면 사는 선) 89.76달러보다 2.93% 아래, 일일 평균 변동폭으로는 0.54배 아래다. 예비 손절 84.99달러보다는 위에 있고 둘 사이 폭은 5.31%다. 10일선 85.29달러 위로는 0.38배 떠 있다.",
-          "maStack": "현재가가 20일선 83.28, 50일선 73.15, 150일선 63.88보다 모두 위에 있다. 20일선 기울기는 +8.13%로 올라오는 중이다.",
-          "note": "그림에서도 9월 중순 큰 거래량 막대 뒤로 좁은 횡보와 줄어든 거래량 막대가 보인다. 그림과 숫자가 일치한다."
-        },
-        "entryChecklist": [
-          "피벗 89.76달러를 거래량이 20일 평균의 2배 이상 실린 채 종가로 넘는지",
-          "넘은 당일 종가가 고가 근처에서 마무리되는지, 아니면 당일 저가를 깨고 내려오는지",
-          "예비 손절 84.99달러를 종가로 이탈하지 않는지 (손절 폭 5.31%, 일일 평균 변동폭 5.47%)",
-          "최근 5일 거래량이 20일 평균의 0.75배에서 더 줄어드는지",
-          "다음 분기 실적에서 매출과 영업이익이 1년 전보다 함께 늘어, 7월 말 분기의 70% 성장이 한 번이 아니었음이 확인되는지"
-        ],
-        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 직전 발표는 9월 10일이었고, 그 결과가 지금 가격대를 만든 재료다.",
-        "confidence": "high",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "n6",
-            "f4"
-          ],
-          "reasons": [
-            "n6: '26만 869주' 구체 수치가 quote에 없음",
-            "f4: '영업손실 635만 달러' 구체 수치가 quote에 없음"
-          ]
-        },
-        "researchedOn": "2026-10-07",
-        "session": "2026-10-06",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "MSTR",
-      "name": "스트래티지",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "grade": "A",
-      "state": "pre",
-      "asOf": "2026-10-06",
-      "price": 164.55,
-      "pivot": 171.19,
-      "pivotDate": "2026-09-22",
-      "stop": 162.02,
-      "riskPerSharePct": 5.36,
-      "weightPct": 9.3,
-      "weightCapped": false,
-      "distToPivotPct": -3.88,
-      "distToPivotAdr": -0.7,
-      "extensionAdr": 0.53,
-      "chase": false,
-      "adrPct": 5.57,
-      "ma10": 159.68,
-      "dollarVol20M": 3366.8,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +109%",
-        "베이스 2.4주",
-        "깊이 20.5%",
-        "저점 상승 1회",
-        "진폭 1.07배 · 10일 종가폭 1.2 ADR",
-        "10일선 +0.5 ADR · 20일선 +1.6 ADR",
-        "20일선 기울기 +4.54%"
-      ],
-      "fails": [],
-      "metrics": {
-        "baseBars": 12,
-        "baseWeeks": 2.4,
-        "depthPct": 20.5,
-        "priorMovePct": 109.3,
-        "higherLows": 1,
-        "contraction": 1.07,
-        "closeRange10Adr": 1.2,
-        "surf10": 0.53,
-        "surf20": 1.57,
-        "slope20": 4.54,
-        "baseLow": 136.18,
-        "lastSwingLow": 152.02
-      },
-      "catalyst": null,
-      "earnings": null,
-      "blocked": null,
-      "shadowBook": null,
-      "watch": true,
-      "score": 66.1,
-      "deep": {
-        "status": "done",
-        "ticker": "MSTR",
-        "company": "원래 기업용 분석 소프트웨어를 팔던 회사지만, 지금은 비트코인을 사 모으는 것이 사실상 본업이다. 소프트웨어 매출은 분기 1억 2천만 달러대로 시가총액 656억 달러에 비하면 아주 작다. 보통주와 우선주를 발행해 돈을 모으고 그 돈으로 비트코인을 사는 구조라, 주가가 비트코인 가격과 함께 움직인다.",
-        "lead": "비트코인 가격이 회복되면서 주가가 3개월 만에 78.66% 올랐고, 9월 하순부터 2.4주째 쉬고 있다. 가장 강한 근거는 상대 강도로, 3개월 상승률이 전체 상위 0.4% 안에 든다. 가장 큰 걱정은 실적이다 — 보유 비트코인 평가액이 취득원가보다 142억 달러 아래다. 비트코인 가격이 다시 내려가면 이 그림은 바로 깨지고, 피벗 171.19달러를 거래량을 실어 넘지 못하면 상승 재개의 근거도 없다.",
-        "newsNarrative": "회사는 10월 들어서도 비트코인을 계속 사 모아 새로운 비트코인을 추가 매입했다. 자금은 보통주 판매 대금과 보유 현금으로 댔다. 새 주식을 팔아 비트코인을 사는 방식이 그대로 이어지고 있다는 뜻이다.",
-        "recentNews": [
-          {
-            "id": "n3",
-            "statement": "비트코인 보유 규모를 계속 키우는 것이 실제 주주 가치로 이어지는지가 시장의 쟁점으로 다뤄졌다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Strategy Grows Bitcoin Holdings: Can Its Treasury Scale Drive More Value?",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/strategy-grows-bitcoin-holdings-can-its-treasury-scale-drive-more-value",
-                "date": "2026-10-05",
-                "quote": "Strategy Grows Bitcoin Holdings: Can Its Treasury Scale Drive More Value?",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "n4",
-            "statement": "10월 초 들어 이 종목에 투자자 관심이 다시 몰리고 있다는 기사가 나왔다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Strategy Inc (MSTR) is Attracting Investor Attention: Here is What You Should Know",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/strategy-inc-mstr-attracting-investor-attention-here-what-you-should-know",
-                "date": "2026-10-02",
-                "quote": "Strategy Inc (MSTR) is Attracting Investor Attention: Here is What You Should Know",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "n5",
-            "statement": "9월 하순에는 시장 전체보다 더 크게 떨어진 날들이 있었다. 지수보다 가격 흔들림이 크다는 뜻이다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Strategy (MSTR) Registers a Bigger Fall Than the Market: Important Facts to Note",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/strategy-mstr-registers-bigger-fall-market-important-facts-note",
-                "date": "2026-09-23",
-                "quote": "Strategy (MSTR) Registers a Bigger Fall Than the Market: Important Facts to Note",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "financialsNarrative": "본업 매출은 거의 제자리인데 손익은 비트코인 시세가 전부 좌우한다. 2026년 2분기 매출은 1억 2,237만 달러로 1년 전보다 6.9% 늘었을 뿐이다. 6월 말 기준 보유 비트코인 평가액 497억 달러는 취득원가 639억 달러보다 142억 달러 낮다.",
-        "financials": {
-          "revenueTrend": [
-            {
-              "id": "f1",
-              "statement": "2026년 2분기 매출은 1억 2,237만 달러로 1년 전보다 6.9% 늘었다. 최근 네 분기 매출이 1억 2천만 달러대에서 거의 움직이지 않는다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Strategy Inc Form 10-Q (분기 종료일 2026-06-30)",
-                  "publisher": "SEC EDGAR",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001050446/000105044626000044/mstr-20260630.htm",
-                  "date": "2026-06-30",
-                  "quote": "Total revenues ... $122,368",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "f2",
-              "statement": "2025년 4분기 매출도 1억 달러 수준으로 1년 전보다 1.9% 증가에 그쳤다. 소프트웨어 사업 자체는 성장 동력이 되지 못한다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "[스트래티지 (NAS:MSTR)] 변동성 확대, 신중한 접근 필요",
-                  "publisher": "한화증권",
-                  "url": "https://rreport.einfomax.co.kr/report/eqqczixlleezkzggcgxeccx.pdf",
-                  "date": "2026-02-06",
-                  "quote": "매출은 1억 달러(YoY +1.9%), 영업손실 174억 달러를 기록했다.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "profitTrend": [
-            {
-              "id": "p2",
-              "statement": "2025년 4분기에는 순손실 126억 달러, 주당 순손실 42.93달러를 기록했다. 비트코인 가격이 내리면 회계상 손실이 그대로 찍힌다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "[스트래티지 (NAS:MSTR)] 변동성 확대, 신중한 접근 필요",
-                  "publisher": "한화증권",
-                  "url": "https://rreport.einfomax.co.kr/report/eqqczixlleezkzggcgxeccx.pdf",
-                  "date": "2026-02-06",
-                  "quote": "순손실은 126억 달러, 주당 순손실은 42.93 달러다.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "guidance": [],
-          "estimateRevisions": {
-            "direction": "lowered",
-            "claims": []
-          }
-        },
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "미충족",
-            "evidence": "2026년 2분기 순손실 82.2억 달러, 1년 전보다 -182% (순이익 기준, 주식 수 변동 미반영). 매출은 +6.9%"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "미충족",
-            "evidence": "최근 4개 분기 중 3개가 적자이고 한 분기만 흑자 (순이익 기준, 주식 수 변동 미반영). 3년 추세와 자기자본이익률은 확인 불가"
-          },
-          {
-            "item": "N 신제품·신고가",
-            "status": "미충족",
-            "evidence": "10월 비트코인 추가 매입 공시는 있으나 주가가 52주 고점보다 45.78% 아래로 신고가와 거리가 멀다"
-          },
-          {
-            "item": "S 수급",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량이 20일 평균의 0.9배로 기준선 0.7 아래로 못 내려갔고 거래대금도 20일 평균의 0.85배. 유통주식 수는 확인 불가"
-          },
-          {
-            "item": "L 주도주 여부",
-            "status": "충족",
-            "evidence": "3개월 상대강도 상위 99.6%, 1개월 96.1%. 3개월 기준 상위 2%에 13거래일째 머물러 있다"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "충족",
-            "evidence": "시장 판정 green, 10일선이 20일선을 넘은 지 13일째. 마진부채는 1년 전보다 +37.2%로 주의선 +30% 초과"
-          }
-        ],
-        "risks": [
-          {
-            "id": "r1",
-            "statement": "6월 말 기준 보유 비트코인 평가액 497억 달러가 취득원가 639억 달러보다 142억 달러 낮다. 비트코인이 더 내리면 손실이 더 커진다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Strategy Inc Form 10-Q (분기 종료일 2026-06-30)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/0001050446/000105044626000044/mstr-20260630.htm",
-                "date": "2026-06-30",
-                "quote": "Approximate number of bitcoins held ... 846,000 ... fair value of $49,672,080 thousand ... cost basis of $63,939,306 thousand",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "r3",
-            "statement": "MSCI 지수에서 빠질 수 있다는 우려가 남아 있다. 지수 추종 자금이 빠지면 약 28억 달러 규모 매도가 나올 것으로 추정됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "[스트래티지 (NAS:MSTR)] 스트래티지 MSCI 편출 우려 완화",
-                "publisher": "한화증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqxqqqeczxeqeqggcgxeccx.pdf",
-                "date": "2026-01-07",
-                "quote": "시장에서는 편출 시 매도 규모를 약 28억 달러로 추정했다.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "structuralRisks": [
-          "손익과 주가가 비트코인 한 자산의 가격에 거의 전적으로 묶여 있다.",
-          "소프트웨어 본업의 매출 규모가 시가총액에 비해 작아 실적이 주가를 받쳐 주지 못한다.",
-          "비트코인 매입을 주식·우선주 발행에 의존해 조달 여건이 나빠지면 전략 자체가 멈춘다."
-        ],
-        "chartCheck": [
-          {
-            "item": "선행 상승",
-            "status": "충족",
-            "evidence": "선행 상승 109.3%, 3개월 수익률 78.66%"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "충족",
-            "evidence": "베이스 12봉, 2.4주 — 기준 2~8주 안"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점 상승 1회는 성립하나 진폭 1.07배로 폭이 좁아지지 않았다"
-          },
-          {
-            "item": "깊이",
-            "status": "충족",
-            "evidence": "깊이 20.5%, 하루 변동폭 5.57%의 3.7배. 선행 상승 109.3%의 절반보다 얕다"
-          },
-          {
-            "item": "이평선 위",
-            "status": "충족",
-            "evidence": "현재가 164.55가 20일선 150.19, 50일선 126.38 위"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "미충족",
-            "evidence": "최근 5일 거래량이 20일 평균의 0.9배 — 기준선 0.7 위"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "아직 피벗 171.19 아래라 판단할 수 없다. 밤에 20일 평균의 2배가 실리는지 본다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "충족",
-            "evidence": "피벗까지 -3.88%, 하루 변동폭의 0.7배 아래"
-          },
-          {
-            "item": "손절 폭",
-            "status": "충족",
-            "evidence": "피벗 기준 손절 폭 5.36%가 하루 변동폭 5.57%보다 좁다"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 159.68 위로 하루 변동폭의 0.53배"
-          },
-          {
-            "item": "시장",
-            "status": "충족",
-            "evidence": "시장 판정 green, 10일선이 20일선 위로 올라간 지 13일째"
-          }
-        ],
-        "chartObservation": {
-          "base": "9월 하순부터 12봉, 2.4주째 옆으로 움직이고 있다. 베이스 안 저점은 136.18달러, 가장 최근 저점은 152.02달러로 저점이 한 번 높아졌다. 깊이는 20.5%로 하루 변동폭 5.57%의 3.7배이고 진폭은 1.07배라 폭이 좁아지지는 않았다.",
-          "volume": "최근 5일 거래량이 20일 평균의 0.9배로, 횡보 중 거래량이 뚜렷하게 줄지는 않았다. 마지막 봉 거래량도 20일 평균의 0.8배다. 최근 10봉 중에서는 10월 2일이 2,745만 주로 가장 많았고 그날 종가는 하루 폭의 29% 위치에서 끝났다.",
-          "position": "현재가 164.55달러는 피벗 171.19달러보다 3.88% 아래, 하루 변동폭으로는 0.7배 아래에 있다. 예비 손절 162.02달러보다는 위에 있고 피벗에서 손절까지의 폭은 5.36%다. 10일선 159.68달러 위로 하루 변동폭의 0.53배만큼 떨어져 있다.",
-          "maStack": "현재가 164.55달러가 20일선 150.19달러와 50일선 126.38달러 위에 있고 20일선은 한 달간 4.54% 올랐다. 다만 50일선 126.38달러는 아직 150일선 131.98달러 아래에 있다.",
-          "note": "그림과 숫자가 일치한다. 8월까지 100달러 아래에서 길게 눌려 있다가 9월에 급하게 올랐고, 9월 하순부터 피벗선 바로 아래에서 옆으로 움직이는 구간이 보인다. 거래량 막대는 횡보 구간에서 눈에 띄게 줄어들지 않았다."
-        },
-        "entryChecklist": [
-          "피벗 171.19달러를 20일 평균 거래량의 2배 이상으로 종가 돌파하는지",
-          "돌파한 날 당일 저가와 예비 손절 162.02달러를 깨지 않고 버티는지",
-          "횡보 구간의 최근 저점 152.02달러가 유지되는지",
-          "비트코인 가격이 회사의 10월 평균 매입가 85,838.8달러 아래로 더 내려가지 않는지",
-          "10월 28일 특별주주총회의 우선주 배당 안건 결과가 자금 조달 조건을 바꾸는지"
-        ],
-        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 다만 10월 28일 우선주 배당 안건 특별주주총회가 예정돼 있고, 분기 실적 자체가 비트코인 평가손익에 좌우되므로 발표일보다 비트코인 가격 변동이 더 큰 변수다.",
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "n1",
-            "n2",
-            "r2",
-            "r4",
-            "p1"
-          ],
-          "reasons": [
-            "n1: '334개', '848,000개' 비트코인 수량이 quote에 없음",
-            "n2: '10월 28일' 특별주주총회 날짜가 quote에 없음",
-            "r2: '92,894주' 주식 수량이 quote에 없음",
-            "r4: '주가 급락 시 비트코인 재매도' 등 지어낸 시나리오",
-            "p1: 순손실 82.2억, 영업손실 83.3억 수치가 quote에 직접 없음"
-          ],
-          "leadFixed": true,
-          "newsNarrativeFixed": true,
-          "financialsNarrativeFixed": true
-        },
-        "leadOriginal": "비트코인 가격이 회복되면서 주가가 3개월 만에 78.66% 올랐고, 9월 하순부터 2.4주째 쉬고 있다. 가장 강한 근거는 상대 강도로, 3개월 상승률이 전체 상위 0.4% 안에 든다. 가장 큰 걱정은 실적이다 — 2026년 2분기 순손실이 82.2억 달러였고 보유 비트코인 평가액이 취득원가보다 142억 달러 아래다. 비트코인 가격이 다시 내려가면 이 그림은 바로 깨지고, 피벗 171.19달러를 거래량을 실어 넘지 못하면 상승 재개의 근거도 없다.",
-        "newsNarrativeOriginal": "회사는 10월 들어서도 비트코인을 계속 사 모아 보유량이 848,000개가 됐다. 10월 1~4일에만 334개를 2,870만 달러에 샀고, 자금은 보통주 92,894주를 판 대금과 보유 현금으로 댔다. 새 주식을 팔아 비트코인을 사는 방식이 그대로 이어지고 있다는 뜻이다. 10월 28일에는 우선주 4종의 배당을 매일 지급 방식으로 바꾸는 안건을 놓고 특별주주총회가 열린다.",
-        "financialsNarrativeOriginal": "본업 매출은 거의 제자리인데 손익은 비트코인 시세가 전부 좌우한다. 2026년 2분기 매출은 1억 2,237만 달러로 1년 전보다 6.9% 늘었을 뿐이다. 반면 같은 분기 순손실은 82.2억 달러였고, 그 대부분인 83.2억 달러가 비트코인 평가손실이다. 6월 말 기준 보유 비트코인 평가액 497억 달러는 취득원가 639억 달러보다 142억 달러 낮다.",
-        "researchedOn": "2026-10-07",
-        "session": "2026-10-06",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1666,45 +906,45 @@ window.TEAM6_DATA = {
       "industry": "Software - Application",
       "grade": "B",
       "state": "pre",
-      "asOf": "2026-10-06",
-      "price": 193.98,
+      "asOf": "2026-10-07",
+      "price": 195.79,
       "pivot": 200,
       "pivotDate": "2026-09-22",
-      "stop": 191.26,
-      "riskPerSharePct": 4.37,
-      "weightPct": 11.4,
+      "stop": 191.34,
+      "riskPerSharePct": 4.33,
+      "weightPct": 11.5,
       "weightCapped": false,
-      "distToPivotPct": -3.01,
-      "distToPivotAdr": -0.67,
-      "extensionAdr": 0.71,
+      "distToPivotPct": -2.11,
+      "distToPivotAdr": -0.48,
+      "extensionAdr": 0.92,
       "chase": false,
-      "adrPct": 4.51,
-      "ma10": 187.76,
-      "dollarVol20M": 568.1,
+      "adrPct": 4.42,
+      "ma10": 187.84,
+      "dollarVol20M": 554,
       "liquid": true,
       "reasons": [
         "선행 상승 +169%",
-        "베이스 3.6주",
+        "베이스 3.8주",
         "깊이 16%",
         "✗ 저점 상승 0회",
-        "진폭 1.02배 · 10일 종가폭 2.4 ADR",
-        "10일선 +0.7 ADR · 20일선 +0.7 ADR",
-        "20일선 기울기 +0.36%"
+        "진폭 0.98배 · 10일 종가폭 2.4 ADR",
+        "10일선 +0.9 ADR · 20일선 +0.8 ADR",
+        "20일선 기울기 +1.05%"
       ],
       "fails": [
         "higherLows"
       ],
       "metrics": {
-        "baseBars": 18,
-        "baseWeeks": 3.6,
+        "baseBars": 19,
+        "baseWeeks": 3.8,
         "depthPct": 16,
         "priorMovePct": 168.8,
         "higherLows": 0,
-        "contraction": 1.02,
+        "contraction": 0.98,
         "closeRange10Adr": 2.4,
-        "surf10": 0.71,
-        "surf20": 0.7,
-        "slope20": 0.36,
+        "surf10": 0.92,
+        "surf20": 0.82,
+        "slope20": 1.05,
         "baseLow": 168.05,
         "lastSwingLow": 168.05
       },
@@ -1713,7 +953,7 @@ window.TEAM6_DATA = {
       "blocked": null,
       "shadowBook": null,
       "watch": true,
-      "score": 57,
+      "score": 57.9,
       "deep": {
         "status": "done",
         "ticker": "TEAM",
@@ -2071,7 +1311,7 @@ window.TEAM6_DATA = {
         },
         "researchedOn": "2026-10-07",
         "session": "2026-10-06",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -2081,45 +1321,45 @@ window.TEAM6_DATA = {
       "industry": "Oil & Gas Refining & Marketing",
       "grade": "B",
       "state": "pre",
-      "asOf": "2026-10-06",
-      "price": 114.6,
+      "asOf": "2026-10-07",
+      "price": 115.63,
       "pivot": 118.39,
       "pivotDate": "2026-09-21",
-      "stop": 113.16,
-      "riskPerSharePct": 4.42,
+      "stop": 113.14,
+      "riskPerSharePct": 4.43,
       "weightPct": 11.3,
       "weightCapped": false,
-      "distToPivotPct": -3.2,
-      "distToPivotAdr": -0.7,
-      "extensionAdr": 1,
+      "distToPivotPct": -2.33,
+      "distToPivotAdr": -0.51,
+      "extensionAdr": 1.01,
       "chase": false,
-      "adrPct": 4.56,
-      "ma10": 109.37,
-      "dollarVol20M": 305.5,
+      "adrPct": 4.54,
+      "ma10": 110.32,
+      "dollarVol20M": 309.5,
       "liquid": true,
       "reasons": [
         "선행 상승 +86%",
-        "베이스 4.6주",
+        "베이스 4.8주",
         "깊이 13%",
         "✗ 저점 상승 0회",
-        "진폭 0.88배 · 10일 종가폭 1.8 ADR",
-        "10일선 +1 ADR · 20일선 +0.9 ADR",
-        "20일선 기울기 +1.54%"
+        "진폭 0.71배 · 10일 종가폭 1.9 ADR",
+        "10일선 +1 ADR · 20일선 +1 ADR",
+        "20일선 기울기 +1.73%"
       ],
       "fails": [
         "higherLows"
       ],
       "metrics": {
-        "baseBars": 23,
-        "baseWeeks": 4.6,
+        "baseBars": 24,
+        "baseWeeks": 4.8,
         "depthPct": 13,
         "priorMovePct": 85.5,
         "higherLows": 0,
-        "contraction": 0.88,
-        "closeRange10Adr": 1.8,
-        "surf10": 1,
-        "surf20": 0.89,
-        "slope20": 1.54,
+        "contraction": 0.71,
+        "closeRange10Adr": 1.9,
+        "surf10": 1.01,
+        "surf20": 1.01,
+        "slope20": 1.73,
         "baseLow": 103,
         "lastSwingLow": 103
       },
@@ -2128,7 +1368,7 @@ window.TEAM6_DATA = {
       "blocked": null,
       "shadowBook": null,
       "watch": true,
-      "score": 56.8,
+      "score": 57.7,
       "deep": {
         "status": "done",
         "ticker": "DINO",
@@ -2469,7 +1709,7 @@ window.TEAM6_DATA = {
         },
         "researchedOn": "2026-10-07",
         "session": "2026-10-06",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -2479,45 +1719,45 @@ window.TEAM6_DATA = {
       "industry": "Computer Hardware",
       "grade": "B",
       "state": "pre",
-      "asOf": "2026-10-06",
-      "price": 574,
+      "asOf": "2026-10-07",
+      "price": 578.96,
       "pivot": 595.51,
       "pivotDate": "2026-09-18",
-      "stop": 568.22,
-      "riskPerSharePct": 4.58,
-      "weightPct": 10.9,
+      "stop": 568.39,
+      "riskPerSharePct": 4.55,
+      "weightPct": 11,
       "weightCapped": false,
-      "distToPivotPct": -3.61,
-      "distToPivotAdr": -0.76,
-      "extensionAdr": 0.88,
+      "distToPivotPct": -2.78,
+      "distToPivotAdr": -0.59,
+      "extensionAdr": 0.96,
       "chase": false,
-      "adrPct": 4.76,
-      "ma10": 550.03,
-      "dollarVol20M": 4501.9,
+      "adrPct": 4.68,
+      "ma10": 552.94,
+      "dollarVol20M": 4422.5,
       "liquid": true,
       "reasons": [
         "선행 상승 +66%",
-        "베이스 3.4주",
+        "베이스 3.6주",
         "깊이 13.1%",
         "✗ 저점 상승 0회",
-        "진폭 0.77배 · 10일 종가폭 1.4 ADR",
-        "10일선 +0.9 ADR · 20일선 +0.8 ADR",
-        "20일선 기울기 +2.57%"
+        "진폭 0.76배 · 10일 종가폭 1.6 ADR",
+        "10일선 +1 ADR · 20일선 +0.9 ADR",
+        "20일선 기울기 +1.91%"
       ],
       "fails": [
         "higherLows"
       ],
       "metrics": {
-        "baseBars": 17,
-        "baseWeeks": 3.4,
+        "baseBars": 18,
+        "baseWeeks": 3.6,
         "depthPct": 13.1,
         "priorMovePct": 65.9,
         "higherLows": 0,
-        "contraction": 0.77,
-        "closeRange10Adr": 1.4,
-        "surf10": 0.88,
-        "surf20": 0.82,
-        "slope20": 2.57,
+        "contraction": 0.76,
+        "closeRange10Adr": 1.6,
+        "surf10": 0.96,
+        "surf20": 0.93,
+        "slope20": 1.91,
         "baseLow": 517.52,
         "lastSwingLow": 520.18
       },
@@ -2526,7 +1766,7 @@ window.TEAM6_DATA = {
       "blocked": null,
       "shadowBook": null,
       "watch": true,
-      "score": 56.4,
+      "score": 57.2,
       "deep": {
         "status": "done",
         "ticker": "DELL",
@@ -2904,8 +2144,62 @@ window.TEAM6_DATA = {
         "financialsNarrativeOriginal": "매출과 이익이 함께, 그것도 점점 빠르게 커지고 있다. 7월 말 끝난 분기 매출은 469.7억 달러로 1년 전보다 57.7% 늘었고 순이익은 41.3억 달러로 255.1% 늘었다. 영업이익률은 작년 10월 분기 7.8%에서 11.5%로 올라섰는데, 매출이 커지면서 고정비 부담이 희석된 결과다. 최근 4개 분기 모두 매출·이익이 전년 대비 증가했고 증가율 자체도 계속 높아졌다.",
         "researchedOn": "2026-10-07",
         "session": "2026-10-06",
-        "carried": false
+        "carried": true
       }
+    },
+    {
+      "ticker": "MU",
+      "name": "마이크론 테크놀로지",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "grade": "A",
+      "state": "pre",
+      "asOf": "2026-10-07",
+      "price": 1088,
+      "pivot": 1108.72,
+      "pivotDate": "2026-09-25",
+      "stop": 1068.24,
+      "riskPerSharePct": 3.65,
+      "weightPct": 13.7,
+      "weightCapped": false,
+      "distToPivotPct": -1.87,
+      "distToPivotAdr": -0.5,
+      "extensionAdr": 0.4,
+      "chase": false,
+      "adrPct": 3.72,
+      "ma10": 1071.68,
+      "dollarVol20M": 26541.6,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +50%",
+        "베이스 2.6주",
+        "깊이 11.8%",
+        "저점 상승 1회",
+        "진폭 1.19배 · 10일 종가폭 1.3 ADR",
+        "10일선 +0.4 ADR · 20일선 +1.4 ADR",
+        "20일선 기울기 +2.03%"
+      ],
+      "fails": [],
+      "metrics": {
+        "baseBars": 13,
+        "baseWeeks": 2.6,
+        "depthPct": 11.8,
+        "priorMovePct": 50.3,
+        "higherLows": 1,
+        "contraction": 1.19,
+        "closeRange10Adr": 1.3,
+        "surf10": 0.4,
+        "surf20": 1.37,
+        "slope20": 2.03,
+        "baseLow": 977.83,
+        "lastSwingLow": 1022.9
+      },
+      "catalyst": null,
+      "earnings": null,
+      "blocked": "ADR 3.72% — 기준(4%) 미달",
+      "shadowBook": null,
+      "watch": false,
+      "score": 68.1
     },
     {
       "ticker": "NSIT",
@@ -2914,52 +2208,52 @@ window.TEAM6_DATA = {
       "industry": "Electronics & Computer Distribution",
       "grade": "A",
       "state": "pre",
-      "asOf": "2026-10-06",
-      "price": 159.49,
+      "asOf": "2026-10-07",
+      "price": 160.13,
       "pivot": 168.5,
       "pivotDate": "2026-09-17",
-      "stop": 162.69,
-      "riskPerSharePct": 3.45,
-      "weightPct": 14.5,
+      "stop": 162.63,
+      "riskPerSharePct": 3.48,
+      "weightPct": 14.4,
       "weightCapped": false,
-      "distToPivotPct": -5.35,
-      "distToPivotAdr": -1.47,
-      "extensionAdr": 0.16,
+      "distToPivotPct": -4.97,
+      "distToPivotAdr": -1.36,
+      "extensionAdr": 0.23,
       "chase": false,
-      "adrPct": 3.64,
-      "ma10": 158.58,
-      "dollarVol20M": 60.7,
+      "adrPct": 3.66,
+      "ma10": 158.77,
+      "dollarVol20M": 61.5,
       "liquid": true,
       "reasons": [
         "선행 상승 +64%",
-        "베이스 4.4주",
+        "베이스 4.6주",
         "깊이 9.9%",
         "저점 상승 1회",
-        "진폭 0.71배 · 10일 종가폭 1 ADR",
-        "10일선 +0.2 ADR · 20일선 +0.1 ADR",
-        "20일선 기울기 +0.43%"
+        "진폭 0.66배 · 10일 종가폭 1 ADR",
+        "10일선 +0.2 ADR · 20일선 +0.2 ADR",
+        "20일선 기울기 +0.49%"
       ],
       "fails": [],
       "metrics": {
-        "baseBars": 22,
-        "baseWeeks": 4.4,
+        "baseBars": 23,
+        "baseWeeks": 4.6,
         "depthPct": 9.9,
         "priorMovePct": 64.1,
         "higherLows": 1,
-        "contraction": 0.71,
+        "contraction": 0.66,
         "closeRange10Adr": 1,
-        "surf10": 0.16,
-        "surf20": 0.14,
-        "slope20": 0.43,
+        "surf10": 0.23,
+        "surf20": 0.21,
+        "slope20": 0.49,
         "baseLow": 151.82,
         "lastSwingLow": 153.62
       },
       "catalyst": null,
       "earnings": null,
-      "blocked": "ADR 3.64% — 기준(4%) 미달",
+      "blocked": "ADR 3.66% — 기준(4%) 미달",
       "shadowBook": null,
       "watch": false,
-      "score": 64.7
+      "score": 65
     },
     {
       "ticker": "CORT",
@@ -2968,52 +2262,108 @@ window.TEAM6_DATA = {
       "industry": "Biotechnology",
       "grade": "A",
       "state": "pre",
-      "asOf": "2026-10-06",
-      "price": 119.57,
+      "asOf": "2026-10-07",
+      "price": 119.6,
       "pivot": 126.38,
       "pivotDate": "2026-08-25",
-      "stop": 120.53,
-      "riskPerSharePct": 4.63,
-      "weightPct": 10.8,
+      "stop": 120.48,
+      "riskPerSharePct": 4.66,
+      "weightPct": 10.7,
       "weightCapped": false,
-      "distToPivotPct": -5.39,
-      "distToPivotAdr": -1.1,
-      "extensionAdr": 0.52,
+      "distToPivotPct": -5.36,
+      "distToPivotAdr": -1.09,
+      "extensionAdr": 0.41,
       "chase": false,
-      "adrPct": 4.89,
-      "ma10": 116.5,
-      "dollarVol20M": 199.6,
+      "adrPct": 4.93,
+      "ma10": 117.17,
+      "dollarVol20M": 200.1,
       "liquid": true,
       "reasons": [
         "선행 상승 +132%",
-        "베이스 7.2주",
+        "베이스 7.4주",
         "깊이 14.3%",
         "저점 상승 2회",
-        "진폭 1.06배 · 10일 종가폭 1.6 ADR",
-        "10일선 +0.5 ADR · 20일선 +0.8 ADR",
-        "20일선 기울기 +1.09%"
+        "진폭 0.97배 · 10일 종가폭 1.4 ADR",
+        "10일선 +0.4 ADR · 20일선 +0.8 ADR",
+        "20일선 기울기 +1.18%"
       ],
       "fails": [],
       "metrics": {
-        "baseBars": 36,
-        "baseWeeks": 7.2,
+        "baseBars": 37,
+        "baseWeeks": 7.4,
         "depthPct": 14.3,
         "priorMovePct": 131.5,
         "higherLows": 2,
-        "contraction": 1.06,
-        "closeRange10Adr": 1.6,
-        "surf10": 0.52,
-        "surf20": 0.79,
-        "slope20": 1.09,
+        "contraction": 0.97,
+        "closeRange10Adr": 1.4,
+        "surf10": 0.41,
+        "surf20": 0.75,
+        "slope20": 1.18,
         "baseLow": 108.25,
         "lastSwingLow": 111.94
       },
       "catalyst": null,
       "earnings": null,
-      "blocked": "피벗까지 1.1 ADR — 1 ADR 넘게 떨어져 있음",
+      "blocked": "피벗까지 1.09 ADR — 1 ADR 넘게 떨어져 있음",
       "shadowBook": "far",
       "watch": false,
       "score": 64.6
+    },
+    {
+      "ticker": "ELF",
+      "name": "엘프 뷰티",
+      "sector": "Consumer Defensive",
+      "industry": "Household & Personal Products",
+      "grade": "B",
+      "state": "pre",
+      "asOf": "2026-10-07",
+      "price": 105.03,
+      "pivot": 110.04,
+      "pivotDate": "2026-09-08",
+      "stop": 105.96,
+      "riskPerSharePct": 3.71,
+      "weightPct": 13.5,
+      "weightCapped": false,
+      "distToPivotPct": -4.55,
+      "distToPivotAdr": -1.17,
+      "extensionAdr": 0.62,
+      "chase": false,
+      "adrPct": 3.88,
+      "ma10": 102.49,
+      "dollarVol20M": 133,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +125%",
+        "베이스 6.4주",
+        "깊이 16.9%",
+        "저점 상승 1회",
+        "진폭 0.91배 · 10일 종가폭 1.4 ADR",
+        "10일선 +0.6 ADR · 20일선 +1.3 ADR",
+        "✗ 20일선 기울기 -0.42%"
+      ],
+      "fails": [
+        "slope"
+      ],
+      "metrics": {
+        "baseBars": 32,
+        "baseWeeks": 6.4,
+        "depthPct": 16.9,
+        "priorMovePct": 125.4,
+        "higherLows": 1,
+        "contraction": 0.91,
+        "closeRange10Adr": 1.4,
+        "surf10": 0.62,
+        "surf20": 1.31,
+        "slope20": -0.42,
+        "baseLow": 91.4,
+        "lastSwingLow": 97
+      },
+      "catalyst": null,
+      "earnings": null,
+      "blocked": "ADR 3.88% — 기준(4%) 미달",
+      "shadowBook": null,
+      "watch": false,
+      "score": 55.5
     },
     {
       "ticker": "FLXS",
@@ -3022,110 +2372,54 @@ window.TEAM6_DATA = {
       "industry": "Furnishings, Fixtures & Appliances",
       "grade": "B",
       "state": "pre",
-      "asOf": "2026-10-06",
-      "price": 87.81,
+      "asOf": "2026-10-07",
+      "price": 86.5,
       "pivot": 90.65,
       "pivotDate": "2026-09-28",
-      "stop": 87.11,
-      "riskPerSharePct": 3.9,
-      "weightPct": 12.8,
+      "stop": 87.23,
+      "riskPerSharePct": 3.77,
+      "weightPct": 13.2,
       "weightCapped": false,
-      "distToPivotPct": -3.13,
-      "distToPivotAdr": -0.78,
-      "extensionAdr": 0.15,
+      "distToPivotPct": -4.58,
+      "distToPivotAdr": -1.16,
+      "extensionAdr": -0.26,
       "chase": false,
-      "adrPct": 4.03,
-      "ma10": 87.27,
-      "dollarVol20M": 8.1,
+      "adrPct": 3.96,
+      "ma10": 87.39,
+      "dollarVol20M": 7.9,
       "liquid": false,
       "reasons": [
         "선행 상승 +33%",
-        "베이스 2주",
+        "베이스 2.2주",
         "깊이 9.8%",
         "✗ 저점 상승 0회",
-        "진폭 1.03배 · 10일 종가폭 1.3 ADR",
-        "10일선 +0.2 ADR · 20일선 +0.9 ADR",
-        "20일선 기울기 +1.72%"
+        "진폭 1.04배 · 10일 종가폭 1.4 ADR",
+        "10일선 -0.3 ADR · 20일선 +0.5 ADR",
+        "20일선 기울기 +1.59%"
       ],
       "fails": [
         "higherLows"
       ],
       "metrics": {
-        "baseBars": 10,
-        "baseWeeks": 2,
+        "baseBars": 11,
+        "baseWeeks": 2.2,
         "depthPct": 9.8,
         "priorMovePct": 33.5,
         "higherLows": 0,
-        "contraction": 1.03,
-        "closeRange10Adr": 1.3,
-        "surf10": 0.15,
-        "surf20": 0.94,
-        "slope20": 1.72,
+        "contraction": 1.04,
+        "closeRange10Adr": 1.4,
+        "surf10": -0.26,
+        "surf20": 0.54,
+        "slope20": 1.59,
         "baseLow": 81.73,
         "lastSwingLow": 81.73
       },
       "catalyst": null,
       "earnings": null,
-      "blocked": "거래대금 8.1M — 기준 미달",
+      "blocked": "ADR 3.96% — 기준(4%) 미달",
       "shadowBook": null,
       "watch": false,
-      "score": 56.9
-    },
-    {
-      "ticker": "MRX",
-      "name": null,
-      "sector": "Financial Services",
-      "industry": "Capital Markets",
-      "grade": "B",
-      "state": "pre",
-      "asOf": "2026-10-06",
-      "price": 74.24,
-      "pivot": 79.11,
-      "pivotDate": "2026-09-08",
-      "stop": 75.83,
-      "riskPerSharePct": 4.15,
-      "weightPct": 12,
-      "weightCapped": false,
-      "distToPivotPct": -6.16,
-      "distToPivotAdr": -1.39,
-      "extensionAdr": 0.62,
-      "chase": false,
-      "adrPct": 4.42,
-      "ma10": 72.19,
-      "dollarVol20M": 54.6,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +59%",
-        "베이스 5.6주",
-        "깊이 15.3%",
-        "저점 상승 1회",
-        "진폭 0.88배 · 10일 종가폭 1.7 ADR",
-        "10일선 +0.6 ADR · 20일선 +0.5 ADR",
-        "✗ 20일선 기울기 -0.82%"
-      ],
-      "fails": [
-        "slope"
-      ],
-      "metrics": {
-        "baseBars": 28,
-        "baseWeeks": 5.6,
-        "depthPct": 15.3,
-        "priorMovePct": 58.7,
-        "higherLows": 1,
-        "contraction": 0.88,
-        "closeRange10Adr": 1.7,
-        "surf10": 0.62,
-        "surf20": 0.49,
-        "slope20": -0.82,
-        "baseLow": 67.04,
-        "lastSwingLow": 68
-      },
-      "catalyst": null,
-      "earnings": null,
-      "blocked": "피벗까지 1.39 ADR — 1 ADR 넘게 떨어져 있음",
-      "shadowBook": "far",
-      "watch": false,
-      "score": 53.8
+      "score": 55.4
     },
     {
       "ticker": "FROG",
@@ -3134,30 +2428,30 @@ window.TEAM6_DATA = {
       "industry": "Software - Application",
       "grade": "B",
       "state": "pre",
-      "asOf": "2026-10-06",
-      "price": 98.51,
+      "asOf": "2026-10-07",
+      "price": 98.15,
       "pivot": 105.76,
       "pivotDate": "2026-08-28",
-      "stop": 100.53,
-      "riskPerSharePct": 4.94,
-      "weightPct": 10.1,
+      "stop": 100.67,
+      "riskPerSharePct": 4.82,
+      "weightPct": 10.4,
       "weightCapped": false,
-      "distToPivotPct": -6.86,
-      "distToPivotAdr": -1.29,
-      "extensionAdr": 0.84,
+      "distToPivotPct": -7.2,
+      "distToPivotAdr": -1.39,
+      "extensionAdr": 0.67,
       "chase": false,
-      "adrPct": 5.31,
-      "ma10": 94.14,
-      "dollarVol20M": 146.5,
+      "adrPct": 5.19,
+      "ma10": 94.72,
+      "dollarVol20M": 140.5,
       "liquid": true,
       "reasons": [
         "선행 상승 +47%",
         "베이스 5.6주",
         "깊이 22.8%",
         "✗ 저점 상승 0회",
-        "진폭 0.91배 · 10일 종가폭 1.9 ADR",
-        "10일선 +0.8 ADR · 20일선 +1.1 ADR",
-        "20일선 기울기 +2.1%"
+        "진폭 0.9배 · 10일 종가폭 1.9 ADR",
+        "10일선 +0.7 ADR · 20일선 +1 ADR",
+        "20일선 기울기 +2.4%"
       ],
       "fails": [
         "higherLows"
@@ -3168,43 +2462,104 @@ window.TEAM6_DATA = {
         "depthPct": 22.8,
         "priorMovePct": 46.6,
         "higherLows": 0,
-        "contraction": 0.91,
+        "contraction": 0.9,
         "closeRange10Adr": 1.9,
-        "surf10": 0.84,
-        "surf20": 1.11,
-        "slope20": 2.1,
+        "surf10": 0.67,
+        "surf20": 0.97,
+        "slope20": 2.4,
         "baseLow": 81.68,
         "lastSwingLow": 85.03
       },
       "catalyst": null,
       "earnings": null,
-      "blocked": "피벗까지 1.29 ADR — 1 ADR 넘게 떨어져 있음",
+      "blocked": "피벗까지 1.39 ADR — 1 ADR 넘게 떨어져 있음",
       "shadowBook": "far",
       "watch": false,
-      "score": 53.1
+      "score": 52.8
     },
+    {
+      "ticker": "CIEN",
+      "name": "시에나",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "grade": "C",
+      "state": "pre",
+      "asOf": "2026-10-07",
+      "price": 446.45,
+      "pivot": 462.69,
+      "pivotDate": "2026-08-13",
+      "stop": 435.27,
+      "riskPerSharePct": 5.93,
+      "weightPct": 8.4,
+      "weightCapped": false,
+      "distToPivotPct": -3.51,
+      "distToPivotAdr": -0.57,
+      "extensionAdr": 2.36,
+      "chase": false,
+      "adrPct": 6.14,
+      "ma10": 381.65,
+      "dollarVol20M": 1041.3,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +43%",
+        "베이스 7.8주",
+        "✗ 깊이 32.7%",
+        "저점 상승 2회",
+        "✗ 진폭 1.05배 · 10일 종가폭 3.7 ADR",
+        "✗ 10일선 +2.4 ADR · 20일선 +3 ADR",
+        "20일선 기울기 +5.48%"
+      ],
+      "fails": [
+        "depth",
+        "tight",
+        "surf"
+      ],
+      "metrics": {
+        "baseBars": 39,
+        "baseWeeks": 7.8,
+        "depthPct": 32.7,
+        "priorMovePct": 43.1,
+        "higherLows": 2,
+        "contraction": 1.05,
+        "closeRange10Adr": 3.7,
+        "surf10": 2.36,
+        "surf20": 3.01,
+        "slope20": 5.48,
+        "baseLow": 311.6,
+        "lastSwingLow": 339.33
+      },
+      "catalyst": null,
+      "earnings": null,
+      "blocked": "등급 C",
+      "shadowBook": "gradeC",
+      "watch": false,
+      "score": 36.5
+    }
+  ],
+  "plansTotal": 12,
+  "post": [
     {
       "ticker": "PENG",
       "name": "펭귄 솔루션스",
       "sector": "Technology",
       "industry": "Information Technology Services",
       "grade": "C",
-      "state": "pre",
-      "asOf": "2026-10-06",
-      "price": 64.21,
+      "state": "post",
+      "asOf": "2026-10-07",
+      "price": 72.61,
       "pivot": 65.75,
       "pivotDate": "2026-08-17",
       "stop": 62.3,
       "riskPerSharePct": 5.25,
       "weightPct": 9.5,
       "weightCapped": false,
-      "distToPivotPct": -2.34,
-      "distToPivotAdr": -0.44,
-      "extensionAdr": 2.09,
-      "chase": false,
-      "adrPct": 5.37,
-      "ma10": 56.99,
-      "dollarVol20M": 131.2,
+      "distToPivotPct": 10.43,
+      "distToPivotAdr": 1.77,
+      "extensionAdr": 3.21,
+      "chase": true,
+      "adrPct": 5.9,
+      "ma10": 58.86,
+      "dollarVol20M": 205.7,
       "liquid": true,
       "reasons": [
         "선행 상승 +55%",
@@ -3234,96 +2589,36 @@ window.TEAM6_DATA = {
         "baseLow": 45.62,
         "lastSwingLow": 51.31
       },
-      "catalyst": null,
+      "catalyst": {
+        "category": 1,
+        "researchedOn": "2026-10-07"
+      },
       "earnings": null,
-      "blocked": "등급 C",
-      "shadowBook": "gradeC",
-      "watch": false,
-      "score": 37.7
+      "breakDate": "2026-10-07",
+      "barsSinceBreak": 0
     },
     {
-      "ticker": "CIEN",
-      "name": "시에나",
-      "sector": "Technology",
-      "industry": "Communication Equipment",
-      "grade": "C",
-      "state": "pre",
-      "asOf": "2026-10-06",
-      "price": 443.65,
-      "pivot": 462.69,
-      "pivotDate": "2026-08-13",
-      "stop": 436.08,
-      "riskPerSharePct": 5.75,
-      "weightPct": 8.7,
-      "weightCapped": false,
-      "distToPivotPct": -4.12,
-      "distToPivotAdr": -0.69,
-      "extensionAdr": 2.67,
-      "chase": false,
-      "adrPct": 6,
-      "ma10": 372.6,
-      "dollarVol20M": 996.6,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +43%",
-        "베이스 7.6주",
-        "✗ 깊이 32.7%",
-        "저점 상승 2회",
-        "✗ 진폭 1.04배 · 10일 종가폭 3.7 ADR",
-        "✗ 10일선 +2.7 ADR · 20일선 +3.2 ADR",
-        "20일선 기울기 +3.78%"
-      ],
-      "fails": [
-        "depth",
-        "tight",
-        "surf"
-      ],
-      "metrics": {
-        "baseBars": 38,
-        "baseWeeks": 7.6,
-        "depthPct": 32.7,
-        "priorMovePct": 43.1,
-        "higherLows": 2,
-        "contraction": 1.04,
-        "closeRange10Adr": 3.7,
-        "surf10": 2.67,
-        "surf20": 3.2,
-        "slope20": 3.78,
-        "baseLow": 311.6,
-        "lastSwingLow": 339.33
-      },
-      "catalyst": null,
-      "earnings": null,
-      "blocked": "등급 C",
-      "shadowBook": "gradeC",
-      "watch": false,
-      "score": 35.9
-    }
-  ],
-  "plansTotal": 14,
-  "post": [
-    {
       "ticker": "ALAB",
-      "name": null,
+      "name": "아스테라 랩스",
       "sector": "Technology",
       "industry": "Semiconductors",
       "grade": "A",
       "state": "post",
-      "asOf": "2026-10-06",
-      "price": 389.8,
+      "asOf": "2026-10-07",
+      "price": 382.25,
       "pivot": 377.87,
       "pivotDate": "2026-09-25",
       "stop": 355.39,
       "riskPerSharePct": 5.95,
       "weightPct": 8.4,
       "weightCapped": false,
-      "distToPivotPct": 3.16,
-      "distToPivotAdr": 0.51,
-      "extensionAdr": 1.2,
+      "distToPivotPct": 1.16,
+      "distToPivotAdr": 0.19,
+      "extensionAdr": 0.81,
       "chase": false,
-      "adrPct": 6.17,
-      "ma10": 360.96,
-      "dollarVol20M": 1353.4,
+      "adrPct": 6.14,
+      "ma10": 363.14,
+      "dollarVol20M": 1402.6,
       "liquid": true,
       "reasons": [
         "선행 상승 +54%",
@@ -3352,7 +2647,7 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-06",
-      "barsSinceBreak": 0
+      "barsSinceBreak": 1
     },
     {
       "ticker": "MLAB",
@@ -3361,21 +2656,21 @@ window.TEAM6_DATA = {
       "industry": "Scientific & Technical Instruments",
       "grade": "B",
       "state": "post",
-      "asOf": "2026-10-06",
-      "price": 136.06,
+      "asOf": "2026-10-07",
+      "price": 129.96,
       "pivot": 138.66,
       "pivotDate": "2026-09-24",
       "stop": 134.04,
       "riskPerSharePct": 3.33,
       "weightPct": 15,
       "weightCapped": false,
-      "distToPivotPct": -1.88,
-      "distToPivotAdr": -0.48,
-      "extensionAdr": 0.41,
+      "distToPivotPct": -6.27,
+      "distToPivotAdr": -1.56,
+      "extensionAdr": -0.69,
       "chase": false,
-      "adrPct": 3.93,
-      "ma10": 133.86,
-      "dollarVol20M": 16.3,
+      "adrPct": 4.03,
+      "ma10": 133.56,
+      "dollarVol20M": 16,
       "liquid": false,
       "reasons": [
         "선행 상승 +54%",
@@ -3406,7 +2701,7 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-05",
-      "barsSinceBreak": 1
+      "barsSinceBreak": 2
     },
     {
       "ticker": "NUTX",
@@ -3415,21 +2710,21 @@ window.TEAM6_DATA = {
       "industry": "Medical Care Facilities",
       "grade": "A",
       "state": "post",
-      "asOf": "2026-10-06",
-      "price": 218.4,
+      "asOf": "2026-10-07",
+      "price": 213.02,
       "pivot": 224.28,
       "pivotDate": "2026-09-16",
       "stop": 212.71,
       "riskPerSharePct": 5.16,
       "weightPct": 9.7,
       "weightCapped": false,
-      "distToPivotPct": -2.62,
-      "distToPivotAdr": -0.5,
-      "extensionAdr": 0.44,
+      "distToPivotPct": -5.02,
+      "distToPivotAdr": -0.99,
+      "extensionAdr": -0.13,
       "chase": false,
-      "adrPct": 5.25,
-      "ma10": 213.33,
-      "dollarVol20M": 33.5,
+      "adrPct": 5.09,
+      "ma10": 214.44,
+      "dollarVol20M": 34.2,
       "liquid": true,
       "reasons": [
         "선행 상승 +60%",
@@ -3458,7 +2753,59 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-05",
-      "barsSinceBreak": 1
+      "barsSinceBreak": 2
+    },
+    {
+      "ticker": "QLYS",
+      "name": "퀄리스",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "grade": "A",
+      "state": "post",
+      "asOf": "2026-10-07",
+      "price": 194.75,
+      "pivot": 196.72,
+      "pivotDate": "2026-08-14",
+      "stop": 186.32,
+      "riskPerSharePct": 5.29,
+      "weightPct": 9.5,
+      "weightCapped": false,
+      "distToPivotPct": -1,
+      "distToPivotAdr": -0.18,
+      "extensionAdr": 0.73,
+      "chase": false,
+      "adrPct": 5.54,
+      "ma10": 186.85,
+      "dollarVol20M": 136.6,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +132%",
+        "베이스 8주",
+        "깊이 24.2%",
+        "저점 상승 1회",
+        "진폭 0.8배 · 10일 종가폭 2 ADR",
+        "10일선 +1 ADR · 20일선 +1.5 ADR",
+        "20일선 기울기 +0.69%"
+      ],
+      "fails": [],
+      "metrics": {
+        "baseBars": 40,
+        "baseWeeks": 8,
+        "depthPct": 24.2,
+        "priorMovePct": 132.4,
+        "higherLows": 1,
+        "contraction": 0.8,
+        "closeRange10Adr": 2,
+        "surf10": 1.02,
+        "surf20": 1.53,
+        "slope20": 0.69,
+        "baseLow": 149.13,
+        "lastSwingLow": 168.06
+      },
+      "catalyst": null,
+      "earnings": null,
+      "breakDate": "2026-10-05",
+      "barsSinceBreak": 2
     },
     {
       "ticker": "VLO",
@@ -3467,21 +2814,21 @@ window.TEAM6_DATA = {
       "industry": "Oil & Gas Refining & Marketing",
       "grade": "B",
       "state": "post",
-      "asOf": "2026-10-06",
-      "price": 419.22,
+      "asOf": "2026-10-07",
+      "price": 424.1,
       "pivot": 419.04,
       "pivotDate": "2026-09-21",
       "stop": 401.38,
       "riskPerSharePct": 4.22,
       "weightPct": 11.9,
       "weightCapped": false,
-      "distToPivotPct": 0.04,
-      "distToPivotAdr": 0.01,
+      "distToPivotPct": 1.21,
+      "distToPivotAdr": 0.28,
       "extensionAdr": 1.23,
       "chase": false,
-      "adrPct": 4.42,
-      "ma10": 396.41,
-      "dollarVol20M": 1543.4,
+      "adrPct": 4.38,
+      "ma10": 401.23,
+      "dollarVol20M": 1519.8,
       "liquid": true,
       "reasons": [
         "선행 상승 +80%",
@@ -3512,59 +2859,7 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-05",
-      "barsSinceBreak": 1
-    },
-    {
-      "ticker": "QLYS",
-      "name": "퀄리스",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "grade": "A",
-      "state": "post",
-      "asOf": "2026-10-06",
-      "price": 199.93,
-      "pivot": 196.72,
-      "pivotDate": "2026-08-14",
-      "stop": 186.32,
-      "riskPerSharePct": 5.29,
-      "weightPct": 9.5,
-      "weightCapped": false,
-      "distToPivotPct": 1.63,
-      "distToPivotAdr": 0.3,
-      "extensionAdr": 1.3,
-      "chase": false,
-      "adrPct": 5.41,
-      "ma10": 185.86,
-      "dollarVol20M": 134.6,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +132%",
-        "베이스 8주",
-        "깊이 24.2%",
-        "저점 상승 1회",
-        "진폭 0.8배 · 10일 종가폭 2 ADR",
-        "10일선 +1 ADR · 20일선 +1.5 ADR",
-        "20일선 기울기 +0.69%"
-      ],
-      "fails": [],
-      "metrics": {
-        "baseBars": 40,
-        "baseWeeks": 8,
-        "depthPct": 24.2,
-        "priorMovePct": 132.4,
-        "higherLows": 1,
-        "contraction": 0.8,
-        "closeRange10Adr": 2,
-        "surf10": 1.02,
-        "surf20": 1.53,
-        "slope20": 0.69,
-        "baseLow": 149.13,
-        "lastSwingLow": 168.06
-      },
-      "catalyst": null,
-      "earnings": null,
-      "breakDate": "2026-10-05",
-      "barsSinceBreak": 1
+      "barsSinceBreak": 2
     },
     {
       "ticker": "MPC",
@@ -3573,21 +2868,21 @@ window.TEAM6_DATA = {
       "industry": "Oil & Gas Refining & Marketing",
       "grade": "A",
       "state": "post",
-      "asOf": "2026-10-06",
-      "price": 432.36,
+      "asOf": "2026-10-07",
+      "price": 442.26,
       "pivot": 431.08,
       "pivotDate": "2026-09-21",
       "stop": 414.17,
       "riskPerSharePct": 3.92,
       "weightPct": 12.7,
       "weightCapped": false,
-      "distToPivotPct": 0.3,
-      "distToPivotAdr": 0.07,
-      "extensionAdr": 1.5,
+      "distToPivotPct": 2.59,
+      "distToPivotAdr": 0.63,
+      "extensionAdr": 1.72,
       "chase": false,
       "adrPct": 4.09,
-      "ma10": 405.8,
-      "dollarVol20M": 1225.2,
+      "ma10": 411.19,
+      "dollarVol20M": 1228.3,
       "liquid": true,
       "reasons": [
         "선행 상승 +81%",
@@ -3616,7 +2911,7 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-05",
-      "barsSinceBreak": 1
+      "barsSinceBreak": 2
     },
     {
       "ticker": "TER",
@@ -3625,21 +2920,21 @@ window.TEAM6_DATA = {
       "industry": "Semiconductor Equipment & Materials",
       "grade": "C",
       "state": "post",
-      "asOf": "2026-10-06",
-      "price": 430.32,
+      "asOf": "2026-10-07",
+      "price": 411.78,
       "pivot": 444.17,
       "pivotDate": "2026-08-17",
       "stop": 426.91,
       "riskPerSharePct": 3.89,
       "weightPct": 12.9,
       "weightCapped": false,
-      "distToPivotPct": -3.12,
-      "distToPivotAdr": -0.75,
-      "extensionAdr": 1.02,
+      "distToPivotPct": -7.29,
+      "distToPivotAdr": -1.78,
+      "extensionAdr": -0.15,
       "chase": false,
-      "adrPct": 4.16,
-      "ma10": 412.01,
-      "dollarVol20M": 949.3,
+      "adrPct": 4.09,
+      "ma10": 414.28,
+      "dollarVol20M": 954.8,
       "liquid": true,
       "reasons": [
         "선행 상승 +50%",
@@ -3671,169 +2966,7 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-02",
-      "barsSinceBreak": 2
-    },
-    {
-      "ticker": "FPS",
-      "name": "포전트 파워 솔루션스",
-      "sector": "Industrials",
-      "industry": "Electrical Equipment & Parts",
-      "grade": "C",
-      "state": "post",
-      "asOf": "2026-10-06",
-      "price": 41.35,
-      "pivot": 40.19,
-      "pivotDate": "2026-08-17",
-      "stop": 37.82,
-      "riskPerSharePct": 5.89,
-      "weightPct": 8.5,
-      "weightCapped": false,
-      "distToPivotPct": 2.89,
-      "distToPivotAdr": 0.46,
-      "extensionAdr": 1.03,
-      "chase": false,
-      "adrPct": 6.22,
-      "ma10": 38.7,
-      "dollarVol20M": 412.2,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +39%",
-        "베이스 8주",
-        "✗ 깊이 30.4%",
-        "✗ 저점 상승 0회",
-        "진폭 0.97배 · 10일 종가폭 1.4 ADR",
-        "10일선 -0.4 ADR · 20일선 +1 ADR",
-        "20일선 기울기 +5.46%"
-      ],
-      "fails": [
-        "depth",
-        "higherLows"
-      ],
-      "metrics": {
-        "baseBars": 40,
-        "baseWeeks": 8,
-        "depthPct": 30.4,
-        "priorMovePct": 38.5,
-        "higherLows": 0,
-        "contraction": 0.97,
-        "closeRange10Adr": 1.4,
-        "surf10": -0.37,
-        "surf20": 0.96,
-        "slope20": 5.46,
-        "baseLow": 27.99,
-        "lastSwingLow": 27.99
-      },
-      "catalyst": null,
-      "earnings": null,
-      "breakDate": "2026-10-02",
-      "barsSinceBreak": 2
-    },
-    {
-      "ticker": "SMTC",
-      "name": "셈텍",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "grade": "A",
-      "state": "post",
-      "asOf": "2026-10-06",
-      "price": 197.2,
-      "pivot": 190.64,
-      "pivotDate": "2026-09-21",
-      "stop": 178.5,
-      "riskPerSharePct": 6.37,
-      "weightPct": 7.9,
-      "weightCapped": false,
-      "distToPivotPct": 3.44,
-      "distToPivotAdr": 0.59,
-      "extensionAdr": 1.23,
-      "chase": false,
-      "adrPct": 5.8,
-      "ma10": 183.09,
-      "dollarVol20M": 585,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +85%",
-        "베이스 2.2주",
-        "깊이 19.7%",
-        "저점 상승 1회",
-        "진폭 0.93배 · 10일 종가폭 1.4 ADR",
-        "10일선 +0.7 ADR · 20일선 +1.5 ADR",
-        "20일선 기울기 +7.32%"
-      ],
-      "fails": [],
-      "metrics": {
-        "baseBars": 11,
-        "baseWeeks": 2.2,
-        "depthPct": 19.7,
-        "priorMovePct": 84.9,
-        "higherLows": 1,
-        "contraction": 0.93,
-        "closeRange10Adr": 1.4,
-        "surf10": 0.69,
-        "surf20": 1.52,
-        "slope20": 7.32,
-        "baseLow": 153.1,
-        "lastSwingLow": 162.56
-      },
-      "catalyst": null,
-      "earnings": null,
-      "breakDate": "2026-10-02",
-      "barsSinceBreak": 2
-    },
-    {
-      "ticker": "RMBS",
-      "name": "램버스",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "grade": "C",
-      "state": "post",
-      "asOf": "2026-10-06",
-      "price": 114.09,
-      "pivot": 108.62,
-      "pivotDate": "2026-09-24",
-      "stop": 103.52,
-      "riskPerSharePct": 4.69,
-      "weightPct": 10.7,
-      "weightCapped": false,
-      "distToPivotPct": 5.04,
-      "distToPivotAdr": 1.05,
-      "extensionAdr": 1.31,
-      "chase": false,
-      "adrPct": 4.82,
-      "ma10": 106.88,
-      "dollarVol20M": 248.3,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +36%",
-        "✗ 베이스 1.6주",
-        "깊이 18.6%",
-        "저점 상승 1회",
-        "✗ 진폭 2.14배 · 10일 종가폭 3.9 ADR",
-        "10일선 +1 ADR · 20일선 +2.7 ADR",
-        "20일선 기울기 +5.16%"
-      ],
-      "fails": [
-        "baseLen",
-        "tight"
-      ],
-      "metrics": {
-        "baseBars": 8,
-        "baseWeeks": 1.6,
-        "depthPct": 18.6,
-        "priorMovePct": 35.8,
-        "higherLows": 1,
-        "contraction": 2.14,
-        "closeRange10Adr": 3.9,
-        "surf10": 0.99,
-        "surf20": 2.71,
-        "slope20": 5.16,
-        "baseLow": 88.38,
-        "lastSwingLow": 99.34
-      },
-      "catalyst": null,
-      "earnings": null,
-      "breakDate": "2026-10-02",
-      "barsSinceBreak": 2
+      "barsSinceBreak": 3
     },
     {
       "ticker": "VECO",
@@ -3842,21 +2975,21 @@ window.TEAM6_DATA = {
       "industry": "Semiconductor Equipment & Materials",
       "grade": "C",
       "state": "post",
-      "asOf": "2026-10-06",
-      "price": 55.67,
+      "asOf": "2026-10-07",
+      "price": 53.53,
       "pivot": 56.04,
       "pivotDate": "2026-08-06",
       "stop": 53.6,
       "riskPerSharePct": 4.36,
       "weightPct": 11.5,
       "weightCapped": false,
-      "distToPivotPct": -0.66,
-      "distToPivotAdr": -0.14,
-      "extensionAdr": 1.55,
+      "distToPivotPct": -4.48,
+      "distToPivotAdr": -0.96,
+      "extensionAdr": 0.47,
       "chase": false,
-      "adrPct": 4.72,
-      "ma10": 51.59,
-      "dollarVol20M": 33.8,
+      "adrPct": 4.68,
+      "ma10": 52.35,
+      "dollarVol20M": 34.6,
       "liquid": true,
       "reasons": [
         "선행 상승 +31%",
@@ -3890,7 +3023,225 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-02",
-      "barsSinceBreak": 2
+      "barsSinceBreak": 3
+    },
+    {
+      "ticker": "MTRN",
+      "name": null,
+      "sector": "Basic Materials",
+      "industry": "Other Industrial Metals & Mining",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-10-07",
+      "price": 290.72,
+      "pivot": 300.99,
+      "pivotDate": "2026-08-07",
+      "stop": 290.45,
+      "riskPerSharePct": 3.5,
+      "weightPct": 14.3,
+      "weightCapped": false,
+      "distToPivotPct": -3.41,
+      "distToPivotAdr": -0.81,
+      "extensionAdr": 0.55,
+      "chase": false,
+      "adrPct": 4.19,
+      "ma10": 284.06,
+      "dollarVol20M": 79,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +60%",
+        "베이스 7.8주",
+        "✗ 깊이 25.1%",
+        "저점 상승 3회",
+        "✗ 진폭 1.01배 · 10일 종가폭 3.2 ADR",
+        "✗ 10일선 +2.2 ADR · 20일선 +2.9 ADR",
+        "20일선 기울기 +3.2%"
+      ],
+      "fails": [
+        "depth",
+        "tight",
+        "surf"
+      ],
+      "metrics": {
+        "baseBars": 39,
+        "baseWeeks": 7.8,
+        "depthPct": 25.1,
+        "priorMovePct": 59.7,
+        "higherLows": 3,
+        "contraction": 1.01,
+        "closeRange10Adr": 3.2,
+        "surf10": 2.19,
+        "surf20": 2.85,
+        "slope20": 3.2,
+        "baseLow": 225.58,
+        "lastSwingLow": 247.25
+      },
+      "catalyst": null,
+      "earnings": null,
+      "breakDate": "2026-10-02",
+      "barsSinceBreak": 3
+    },
+    {
+      "ticker": "RMBS",
+      "name": "램버스",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-10-07",
+      "price": 111.48,
+      "pivot": 108.62,
+      "pivotDate": "2026-09-24",
+      "stop": 103.52,
+      "riskPerSharePct": 4.69,
+      "weightPct": 10.7,
+      "weightCapped": false,
+      "distToPivotPct": 2.63,
+      "distToPivotAdr": 0.55,
+      "extensionAdr": 0.71,
+      "chase": false,
+      "adrPct": 4.77,
+      "ma10": 107.68,
+      "dollarVol20M": 247.1,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +36%",
+        "✗ 베이스 1.6주",
+        "깊이 18.6%",
+        "저점 상승 1회",
+        "✗ 진폭 2.14배 · 10일 종가폭 3.9 ADR",
+        "10일선 +1 ADR · 20일선 +2.7 ADR",
+        "20일선 기울기 +5.16%"
+      ],
+      "fails": [
+        "baseLen",
+        "tight"
+      ],
+      "metrics": {
+        "baseBars": 8,
+        "baseWeeks": 1.6,
+        "depthPct": 18.6,
+        "priorMovePct": 35.8,
+        "higherLows": 1,
+        "contraction": 2.14,
+        "closeRange10Adr": 3.9,
+        "surf10": 0.99,
+        "surf20": 2.71,
+        "slope20": 5.16,
+        "baseLow": 88.38,
+        "lastSwingLow": 99.34
+      },
+      "catalyst": null,
+      "earnings": null,
+      "breakDate": "2026-10-02",
+      "barsSinceBreak": 3
+    },
+    {
+      "ticker": "FPS",
+      "name": "포전트 파워 솔루션스",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-10-07",
+      "price": 40.65,
+      "pivot": 40.19,
+      "pivotDate": "2026-08-17",
+      "stop": 37.82,
+      "riskPerSharePct": 5.89,
+      "weightPct": 8.5,
+      "weightCapped": false,
+      "distToPivotPct": 1.14,
+      "distToPivotAdr": 0.18,
+      "extensionAdr": 0.74,
+      "chase": false,
+      "adrPct": 6.24,
+      "ma10": 38.78,
+      "dollarVol20M": 419.9,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +39%",
+        "베이스 8주",
+        "✗ 깊이 30.4%",
+        "✗ 저점 상승 0회",
+        "진폭 0.97배 · 10일 종가폭 1.4 ADR",
+        "10일선 -0.4 ADR · 20일선 +1 ADR",
+        "20일선 기울기 +5.46%"
+      ],
+      "fails": [
+        "depth",
+        "higherLows"
+      ],
+      "metrics": {
+        "baseBars": 40,
+        "baseWeeks": 8,
+        "depthPct": 30.4,
+        "priorMovePct": 38.5,
+        "higherLows": 0,
+        "contraction": 0.97,
+        "closeRange10Adr": 1.4,
+        "surf10": -0.37,
+        "surf20": 0.96,
+        "slope20": 5.46,
+        "baseLow": 27.99,
+        "lastSwingLow": 27.99
+      },
+      "catalyst": null,
+      "earnings": null,
+      "breakDate": "2026-10-02",
+      "barsSinceBreak": 3
+    },
+    {
+      "ticker": "SMTC",
+      "name": "셈텍",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "grade": "A",
+      "state": "post",
+      "asOf": "2026-10-07",
+      "price": 193.78,
+      "pivot": 190.64,
+      "pivotDate": "2026-09-21",
+      "stop": 178.5,
+      "riskPerSharePct": 6.37,
+      "weightPct": 7.9,
+      "weightCapped": false,
+      "distToPivotPct": 1.65,
+      "distToPivotAdr": 0.29,
+      "extensionAdr": 0.74,
+      "chase": false,
+      "adrPct": 5.76,
+      "ma10": 185.53,
+      "dollarVol20M": 572.4,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +85%",
+        "베이스 2.2주",
+        "깊이 19.7%",
+        "저점 상승 1회",
+        "진폭 0.93배 · 10일 종가폭 1.4 ADR",
+        "10일선 +0.7 ADR · 20일선 +1.5 ADR",
+        "20일선 기울기 +7.32%"
+      ],
+      "fails": [],
+      "metrics": {
+        "baseBars": 11,
+        "baseWeeks": 2.2,
+        "depthPct": 19.7,
+        "priorMovePct": 84.9,
+        "higherLows": 1,
+        "contraction": 0.93,
+        "closeRange10Adr": 1.4,
+        "surf10": 0.69,
+        "surf20": 1.52,
+        "slope20": 7.32,
+        "baseLow": 153.1,
+        "lastSwingLow": 162.56
+      },
+      "catalyst": null,
+      "earnings": null,
+      "breakDate": "2026-10-02",
+      "barsSinceBreak": 3
     },
     {
       "ticker": "ACLS",
@@ -3899,21 +3250,21 @@ window.TEAM6_DATA = {
       "industry": "Semiconductor Equipment & Materials",
       "grade": "C",
       "state": "post",
-      "asOf": "2026-10-06",
-      "price": 141.15,
+      "asOf": "2026-10-07",
+      "price": 138.4,
       "pivot": 145.7,
       "pivotDate": "2026-08-17",
       "stop": 140.08,
       "riskPerSharePct": 3.86,
       "weightPct": 13,
       "weightCapped": false,
-      "distToPivotPct": -3.12,
-      "distToPivotAdr": -0.73,
-      "extensionAdr": 1.69,
+      "distToPivotPct": -5.01,
+      "distToPivotAdr": -1.21,
+      "extensionAdr": 0.95,
       "chase": false,
-      "adrPct": 4.28,
-      "ma10": 130.95,
-      "dollarVol20M": 43.2,
+      "adrPct": 4.15,
+      "ma10": 132.95,
+      "dollarVol20M": 43.3,
       "liquid": true,
       "reasons": [
         "선행 상승 +30%",
@@ -3947,63 +3298,62 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-02",
-      "barsSinceBreak": 2
+      "barsSinceBreak": 3
     },
     {
-      "ticker": "MTRN",
-      "name": null,
-      "sector": "Basic Materials",
-      "industry": "Other Industrial Metals & Mining",
+      "ticker": "SYNA",
+      "name": "시냅틱스",
+      "sector": "Technology",
+      "industry": "Semiconductors",
       "grade": "C",
       "state": "post",
-      "asOf": "2026-10-06",
-      "price": 312.15,
-      "pivot": 300.99,
-      "pivotDate": "2026-08-07",
-      "stop": 290.45,
-      "riskPerSharePct": 3.5,
-      "weightPct": 14.3,
+      "asOf": "2026-10-07",
+      "price": 119.46,
+      "pivot": 113.36,
+      "pivotDate": "2026-08-17",
+      "stop": 108.6,
+      "riskPerSharePct": 4.2,
+      "weightPct": 11.9,
       "weightCapped": false,
-      "distToPivotPct": 3.71,
-      "distToPivotAdr": 0.91,
-      "extensionAdr": 2.48,
+      "distToPivotPct": 5.38,
+      "distToPivotAdr": 1.34,
+      "extensionAdr": 2.23,
       "chase": false,
-      "adrPct": 4.09,
-      "ma10": 280.46,
-      "dollarVol20M": 77.8,
+      "adrPct": 4.01,
+      "ma10": 108.79,
+      "dollarVol20M": 114.9,
       "liquid": true,
       "reasons": [
-        "선행 상승 +60%",
+        "✗ 선행 상승 +15%",
         "베이스 7.8주",
-        "✗ 깊이 25.1%",
-        "저점 상승 3회",
-        "✗ 진폭 1.01배 · 10일 종가폭 3.2 ADR",
-        "✗ 10일선 +2.2 ADR · 20일선 +2.9 ADR",
-        "20일선 기울기 +3.2%"
+        "깊이 22.3%",
+        "✗ 저점 상승 0회",
+        "진폭 0.81배 · 10일 종가폭 2.7 ADR",
+        "10일선 +1.4 ADR · 20일선 +1.9 ADR",
+        "20일선 기울기 +1.61%"
       ],
       "fails": [
-        "depth",
-        "tight",
-        "surf"
+        "priorMove",
+        "higherLows"
       ],
       "metrics": {
         "baseBars": 39,
         "baseWeeks": 7.8,
-        "depthPct": 25.1,
-        "priorMovePct": 59.7,
-        "higherLows": 3,
-        "contraction": 1.01,
-        "closeRange10Adr": 3.2,
-        "surf10": 2.19,
-        "surf20": 2.85,
-        "slope20": 3.2,
-        "baseLow": 225.58,
-        "lastSwingLow": 247.25
+        "depthPct": 22.3,
+        "priorMovePct": 15.1,
+        "higherLows": 0,
+        "contraction": 0.81,
+        "closeRange10Adr": 2.7,
+        "surf10": 1.45,
+        "surf20": 1.87,
+        "slope20": 1.61,
+        "baseLow": 88.09,
+        "lastSwingLow": 88.09
       },
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-02",
-      "barsSinceBreak": 2
+      "barsSinceBreak": 3
     },
     {
       "ticker": "HURN",
@@ -4012,21 +3362,21 @@ window.TEAM6_DATA = {
       "industry": "Consulting Services",
       "grade": "C",
       "state": "post",
-      "asOf": "2026-10-06",
-      "price": 157.26,
+      "asOf": "2026-10-07",
+      "price": 156.61,
       "pivot": 165.37,
       "pivotDate": "2026-08-21",
       "stop": 160.52,
       "riskPerSharePct": 2.93,
       "weightPct": 17.1,
       "weightCapped": false,
-      "distToPivotPct": -4.9,
-      "distToPivotAdr": -1.55,
-      "extensionAdr": -0.44,
+      "distToPivotPct": -5.3,
+      "distToPivotAdr": -1.73,
+      "extensionAdr": -0.52,
       "chase": false,
-      "adrPct": 3.17,
-      "ma10": 159.43,
-      "dollarVol20M": 39.6,
+      "adrPct": 3.05,
+      "ma10": 159.1,
+      "dollarVol20M": 39.8,
       "liquid": true,
       "reasons": [
         "선행 상승 +95%",
@@ -4058,30 +3408,30 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-01",
-      "barsSinceBreak": 3
+      "barsSinceBreak": 4
     },
     {
       "ticker": "LITE",
-      "name": null,
+      "name": "루멘텀 홀딩스",
       "sector": "Technology",
       "industry": "Communication Equipment",
       "grade": "A",
       "state": "post",
-      "asOf": "2026-10-06",
-      "price": 1133.4,
+      "asOf": "2026-10-07",
+      "price": 1111.07,
       "pivot": 1026.76,
       "pivotDate": "2026-09-09",
       "stop": 965.7,
       "riskPerSharePct": 5.95,
       "weightPct": 8.4,
       "weightCapped": false,
-      "distToPivotPct": 10.39,
-      "distToPivotAdr": 1.69,
-      "extensionAdr": 1.88,
+      "distToPivotPct": 8.21,
+      "distToPivotAdr": 1.36,
+      "extensionAdr": 1.35,
       "chase": false,
-      "adrPct": 6.13,
-      "ma10": 1003,
-      "dollarVol20M": 4527.1,
+      "adrPct": 6.05,
+      "ma10": 1020.41,
+      "dollarVol20M": 4490.6,
       "liquid": true,
       "reasons": [
         "선행 상승 +73%",
@@ -4110,7 +3460,7 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-01",
-      "barsSinceBreak": 3
+      "barsSinceBreak": 4
     },
     {
       "ticker": "FORM",
@@ -4119,21 +3469,21 @@ window.TEAM6_DATA = {
       "industry": "Semiconductor Equipment & Materials",
       "grade": "C",
       "state": "post",
-      "asOf": "2026-10-06",
-      "price": 141.3,
+      "asOf": "2026-10-07",
+      "price": 139.8,
       "pivot": 139.8,
       "pivotDate": "2026-08-17",
       "stop": 133.09,
       "riskPerSharePct": 4.8,
       "weightPct": 10.4,
       "weightCapped": false,
-      "distToPivotPct": 1.07,
-      "distToPivotAdr": 0.22,
-      "extensionAdr": 0.28,
+      "distToPivotPct": 0,
+      "distToPivotAdr": 0,
+      "extensionAdr": -0.06,
       "chase": false,
-      "adrPct": 4.93,
-      "ma10": 139.34,
-      "dollarVol20M": 265,
+      "adrPct": 4.83,
+      "ma10": 140.19,
+      "dollarVol20M": 265.3,
       "liquid": true,
       "reasons": [
         "선행 상승 +70%",
@@ -4166,7 +3516,7 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-09-30",
-      "barsSinceBreak": 4
+      "barsSinceBreak": 5
     },
     {
       "ticker": "MXL",
@@ -4175,21 +3525,21 @@ window.TEAM6_DATA = {
       "industry": "Semiconductors",
       "grade": "C",
       "state": "post",
-      "asOf": "2026-10-06",
-      "price": 109.3,
+      "asOf": "2026-10-07",
+      "price": 107.36,
       "pivot": 89,
       "pivotDate": "2026-08-17",
       "stop": 83.21,
       "riskPerSharePct": 6.51,
       "weightPct": 7.7,
       "weightCapped": false,
-      "distToPivotPct": 22.81,
-      "distToPivotAdr": 3.01,
-      "extensionAdr": 1.73,
+      "distToPivotPct": 20.63,
+      "distToPivotAdr": 2.69,
+      "extensionAdr": 1.23,
       "chase": false,
-      "adrPct": 7.58,
-      "ma10": 94.93,
-      "dollarVol20M": 267.4,
+      "adrPct": 7.68,
+      "ma10": 97.24,
+      "dollarVol20M": 271,
       "liquid": true,
       "reasons": [
         "선행 상승 +58%",
@@ -4221,7 +3571,7 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-09-25",
-      "barsSinceBreak": 7
+      "barsSinceBreak": 8
     },
     {
       "ticker": "P",
@@ -4230,21 +3580,21 @@ window.TEAM6_DATA = {
       "industry": "Computer Hardware",
       "grade": "A",
       "state": "post",
-      "asOf": "2026-10-06",
-      "price": 147.2,
+      "asOf": "2026-10-07",
+      "price": 152.66,
       "pivot": 119.1,
       "pivotDate": "2026-08-18",
       "stop": 112.78,
       "riskPerSharePct": 5.31,
       "weightPct": 9.4,
       "weightCapped": false,
-      "distToPivotPct": 23.59,
-      "distToPivotAdr": 4.6,
-      "extensionAdr": 2.1,
+      "distToPivotPct": 28.18,
+      "distToPivotAdr": 5.54,
+      "extensionAdr": 2.19,
       "chase": false,
-      "adrPct": 5.13,
-      "ma10": 131.31,
-      "dollarVol20M": 886.1,
+      "adrPct": 5.09,
+      "ma10": 135.61,
+      "dollarVol20M": 911.9,
       "liquid": true,
       "reasons": [
         "선행 상승 +84%",
@@ -4273,74 +3623,20 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-09-24",
-      "barsSinceBreak": 8
-    },
-    {
-      "ticker": "PLTR",
-      "name": "팔란티어 테크",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "grade": "B",
-      "state": "post",
-      "asOf": "2026-10-06",
-      "price": 192.07,
-      "pivot": 188.37,
-      "pivotDate": "2026-08-28",
-      "stop": 181.16,
-      "riskPerSharePct": 3.83,
-      "weightPct": 13.1,
-      "weightCapped": false,
-      "distToPivotPct": 1.96,
-      "distToPivotAdr": 0.64,
-      "extensionAdr": 0.43,
-      "chase": false,
-      "adrPct": 3.05,
-      "ma10": 189.58,
-      "dollarVol20M": 4025.7,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +77%",
-        "베이스 6.2주",
-        "깊이 15.1%",
-        "✗ 저점 상승 0회",
-        "진폭 0.65배 · 10일 종가폭 2.7 ADR",
-        "10일선 +1.5 ADR · 20일선 +1.2 ADR",
-        "20일선 기울기 +0.56%"
-      ],
-      "fails": [
-        "higherLows"
-      ],
-      "metrics": {
-        "baseBars": 31,
-        "baseWeeks": 6.2,
-        "depthPct": 15.1,
-        "priorMovePct": 77.1,
-        "higherLows": 0,
-        "contraction": 0.65,
-        "closeRange10Adr": 2.7,
-        "surf10": 1.46,
-        "surf20": 1.18,
-        "slope20": 0.56,
-        "baseLow": 159.96,
-        "lastSwingLow": 164.55
-      },
-      "catalyst": null,
-      "earnings": null,
-      "breakDate": "2026-09-23",
       "barsSinceBreak": 9
     }
   ],
-  "postTotal": 19,
+  "postTotal": 20,
   "counts": {
-    "evaluated": 95,
-    "near": 14,
-    "watch": 7,
-    "A": 4,
+    "evaluated": 98,
+    "near": 12,
+    "watch": 5,
+    "A": 2,
     "B": 3,
     "blocked": 7,
-    "post": 19,
-    "far": 32,
-    "noBase": 29,
+    "post": 20,
+    "far": 33,
+    "noBase": 32,
     "noBars": 1
   },
   "noBars": [
@@ -4558,7 +3854,10 @@ window.TEAM6_DATA = {
     },
     "slipPct": 0.2,
     "open": 0,
-    "totalPct": -1.04
+    "totalPct": -1.04,
+    "openPct": 0,
+    "observing": true,
+    "minSample": 30
   },
   "health": {
     "at": "2026-10-07T20:00:20.062Z",
@@ -4570,15 +3869,5 @@ window.TEAM6_DATA = {
     "watch": 12,
     "checked": 0,
     "errors": []
-  },
-  "deep_coverage": {
-    "done": 7,
-    "total": 7,
-    "cap": 10,
-    "pending": 0,
-    "failed": 0,
-    "carried": 0,
-    "ineligible": 0,
-    "note": "전 종목(7) 조사 완료"
   }
 };
