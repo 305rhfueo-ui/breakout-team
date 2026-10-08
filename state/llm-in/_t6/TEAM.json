@@ -1,7 +1,8 @@
 {
  "ticker": "TEAM",
- "date": "2026-10-07",
- "session": "2026-10-06",
+ "date": "2026-10-08",
+ "session": "2026-10-07",
+ "source": "watch",
  "plan": {
   "ticker": "TEAM",
   "name": "아틀라시언",
@@ -9,45 +10,45 @@
   "industry": "Software - Application",
   "grade": "B",
   "state": "pre",
-  "asOf": "2026-10-06",
-  "price": 193.98,
+  "asOf": "2026-10-07",
+  "price": 195.79,
   "pivot": 200,
   "pivotDate": "2026-09-22",
-  "stop": 191.26,
-  "riskPerSharePct": 4.37,
-  "weightPct": 11.4,
+  "stop": 191.34,
+  "riskPerSharePct": 4.33,
+  "weightPct": 11.5,
   "weightCapped": false,
-  "distToPivotPct": -3.01,
-  "distToPivotAdr": -0.67,
-  "extensionAdr": 0.71,
+  "distToPivotPct": -2.11,
+  "distToPivotAdr": -0.48,
+  "extensionAdr": 0.92,
   "chase": false,
-  "adrPct": 4.51,
-  "ma10": 187.76,
-  "dollarVol20M": 568.1,
+  "adrPct": 4.42,
+  "ma10": 187.84,
+  "dollarVol20M": 554,
   "liquid": true,
   "reasons": [
    "선행 상승 +169%",
-   "베이스 3.6주",
+   "베이스 3.8주",
    "깊이 16%",
    "✗ 저점 상승 0회",
-   "진폭 1.02배 · 10일 종가폭 2.4 ADR",
-   "10일선 +0.7 ADR · 20일선 +0.7 ADR",
-   "20일선 기울기 +0.36%"
+   "진폭 0.98배 · 10일 종가폭 2.4 ADR",
+   "10일선 +0.9 ADR · 20일선 +0.8 ADR",
+   "20일선 기울기 +1.05%"
   ],
   "fails": [
    "higherLows"
   ],
   "metrics": {
-   "baseBars": 18,
-   "baseWeeks": 3.6,
+   "baseBars": 19,
+   "baseWeeks": 3.8,
    "depthPct": 16,
    "priorMovePct": 168.8,
    "higherLows": 0,
-   "contraction": 1.02,
+   "contraction": 0.98,
    "closeRange10Adr": 2.4,
-   "surf10": 0.71,
-   "surf20": 0.7,
-   "slope20": 0.36,
+   "surf10": 0.92,
+   "surf20": 0.82,
+   "slope20": 1.05,
    "baseLow": 168.05,
    "lastSwingLow": 168.05
   },
@@ -56,34 +57,34 @@
   "blocked": null,
   "shadowBook": null,
   "watch": true,
-  "score": 57
+  "score": 57.9
  },
  "site": {
   "rs": {
    "m1": {
-    "v": 0.0995351872851611,
-    "pct": 91.11189801699717
+    "v": 0.1015527581586744,
+    "pct": 90.97025495750708
    },
    "m3": {
-    "v": 1.0172627739195315,
+    "v": 1.197911868675752,
     "pct": 99.89376770538244
    },
    "m6": {
-    "v": 1.9390908443566524,
-    "pct": 99.53966005665723
+    "v": 1.84868301648906,
+    "pct": 99.61048158640227
    }
   },
-  "ret1m": 9.95,
-  "ret3m": 101.73,
-  "ret6m": 193.91,
-  "marketCap": "47.56B",
-  "volx": 0.67,
-  "volSurgeWk": 0.67,
-  "high52": 96.99,
+  "ret1m": 10.16,
+  "ret3m": 119.79,
+  "ret6m": 184.87,
+  "marketCap": "49.56B",
+  "volx": 0.62,
+  "volSurgeWk": 0.73,
+  "high52": 97.89,
   "newHigh52": false,
-  "adr": 4.51,
-  "div50": 15.62,
-  "div200": 72.12,
+  "adr": 4.42,
+  "div50": 15.38,
+  "div200": 73.49,
   "targetStatus": false,
   "saleCy": 13.77,
   "saleNy": 14.55,
@@ -126,8 +127,8 @@
   },
   "top2Streak": {
    "m1": 0,
-   "m3": 26,
-   "m6": 25
+   "m3": 27,
+   "m6": 26
   }
  },
  "eye": null,
@@ -271,30 +272,79 @@
   }
  },
  "detailNote": null,
+ "cnbc": [
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+   "url": "https://www.cnbc.com/2026/09/01/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+   "date": "2026-09-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+   "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+   "date": "2026-08-07",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: SpaceX, Coherent, Airbnb & more",
+   "url": "https://www.cnbc.com/2026/08/07/stocks-making-the-biggest-moves-midday-spcx-cohr-team-abnb-ttd.html",
+   "date": "2026-08-07",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Atlassian, Wendy's, Vista & more",
+   "url": "https://www.cnbc.com/2026/08/07/stocks-making-the-biggest-moves-premarket-atlassian-corporation-wendys-vista-corp-first-solar-airbnb-more.html",
+   "date": "2026-08-07",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Software companies are evaporating the terminal risk fears AI models posed: Citi's Fatima Boolani",
+   "url": "https://www.cnbc.com/video/2026/08/07/software-companies-are-evaporating-the-terminal-risk-fears-ai-models-posed-citis-fatima-boolani.html",
+   "date": "2026-08-07",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "TEAM",
+  "fetchedAt": "2026-10-08",
+  "source": "한국투자증권 Open API",
+  "per": 1045.45,
+  "pbr": 46.81,
+  "eps": 0.19,
+  "bps": 4.18,
+  "shares": 159005000,
+  "marketCapM": 31085,
+  "high52": 200,
+  "high52Date": "2026-09-22",
+  "low52": 56.0101,
+  "low52Date": "2026-04-10",
+  "last": 195.5,
+  "prevClose": 193.98,
+  "nameKo": "아틀라시언",
+  "nameEn": "ATLASSIAN CORP",
+  "listedOn": "2015-12-09",
+  "exchange": "나스닥",
+  "listedShares": 159005000
+ },
  "chart": {
-  "lastBar": "2026-10-06",
+  "lastBar": "2026-10-07",
   "numbers": {
-   "price": 193.98,
-   "ma20": 187.82,
-   "ma50": 167.77,
-   "ma150": 110.27,
-   "distMA50": 15.62,
+   "price": 195.79,
+   "ma20": 188.72,
+   "ma50": 169.69,
+   "ma150": 111.06,
+   "distMA50": 15.38,
    "periodHigh": 326,
-   "pullbackFromHigh": -40.5,
-   "volRatio20": 0.65,
-   "dryUpRatio": 0.79
+   "pullbackFromHigh": -39.94,
+   "volRatio20": 0.59,
+   "dryUpRatio": 0.76
   },
   "last10": [
-   {
-    "d": "2026-09-23",
-    "o": 190.02,
-    "h": 196.92,
-    "l": 188.97,
-    "c": 195.08,
-    "v": 2407900,
-    "clsPos": 77,
-    "gapPct": 0.73
-   },
    {
     "d": "2026-09-24",
     "o": 195.91,
@@ -384,6 +434,16 @@
     "v": 1961100,
     "clsPos": 37,
     "gapPct": 1.12
+   },
+   {
+    "d": "2026-10-07",
+    "o": 194.87,
+    "h": 198.38,
+    "l": 193.49,
+    "c": 195.79,
+    "v": 1747462,
+    "clsPos": 47,
+    "gapPct": 0.46
    }
   ],
   "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/TEAM-3m.png",
@@ -391,7 +451,7 @@
  },
  "market": {
   "verdict": "green",
-  "ko": "🟢 10일선이 20일선을 넘은 지 13일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "ko": "🟢 10일선이 20일선을 넘은 지 14일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
   "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
   "finraLevel": "warn"
  }

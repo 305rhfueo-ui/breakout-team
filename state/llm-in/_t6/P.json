@@ -1,0 +1,541 @@
+{
+ "ticker": "P",
+ "date": "2026-10-08",
+ "session": "2026-10-07",
+ "source": "list",
+ "plan": {
+  "ticker": "P",
+  "name": "에버퓨어",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "price": 152.66000366210938,
+  "grade": "A",
+  "state": "post",
+  "pivot": 119.1,
+  "stop": 112.78,
+  "distToPivotPct": 28.18,
+  "distToPivotAdr": 5.54,
+  "riskPerSharePct": 5.31,
+  "adrPct": 5.09,
+  "extensionAdr": 2.19,
+  "breakDate": "2026-09-24",
+  "metrics": {
+   "baseBars": 30,
+   "baseWeeks": 6,
+   "depthPct": 24.7,
+   "priorMovePct": 83.8,
+   "higherLows": 1,
+   "contraction": 0.76,
+   "closeRange10Adr": 3.1,
+   "surf10": 1.16,
+   "surf20": 1.53,
+   "slope20": 0.43,
+   "baseLow": 89.64,
+   "lastSwingLow": 92.27
+  },
+  "reasons": [
+   "선행 상승 +84%",
+   "베이스 6주",
+   "깊이 24.7%",
+   "저점 상승 1회",
+   "진폭 0.76배 · 10일 종가폭 3.1 ADR",
+   "10일선 +1.2 ADR · 20일선 +1.5 ADR",
+   "20일선 기울기 +0.43%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.5728416186076111,
+    "pct": 99.8229461756374
+   },
+   "m3": {
+    "v": 0.9818253418321402,
+    "pct": 99.8229461756374
+   },
+   "m6": {
+    "v": 1.2516223715442951,
+    "pct": 98.19405099150141
+   }
+  },
+  "ret1m": 57.28,
+  "ret3m": 98.18,
+  "ret6m": 125.16,
+  "marketCap": "47.94B",
+  "volx": 0.84,
+  "volSurgeWk": 1.19,
+  "high52": 99.48,
+  "newHigh52": false,
+  "adr": 5.09,
+  "div50": 43.36,
+  "div200": 91.26,
+  "targetStatus": false,
+  "saleCy": 37.97,
+  "saleNy": 39.11,
+  "epsCy": 39.88,
+  "epsNy": 51.97,
+  "cyTrend": -0.09,
+  "nyTrend": 19.13,
+  "est": {
+   "cyCur": 2.7777,
+   "cy30": 2.78033,
+   "nyCur": 4.22137,
+   "ny30": 3.54356
+  },
+  "fs": {
+   "sale": [
+    37.73,
+    35.25,
+    20.35
+   ],
+   "ni": [
+    57.37,
+    "흑자전환",
+    136.25
+   ],
+   "opm": [
+    5.33,
+    1.89,
+    8.23
+   ],
+   "updated": "2026-09-19 05:48:14"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "3mo",
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": "2026-09-25",
+   "m3": "2026-09-23",
+   "m6": "2026-10-05"
+  },
+  "top2Streak": {
+   "m1": 9,
+   "m3": 11,
+   "m6": 3
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-08",
+  "nameKo": "에버퓨어",
+  "nameEn": "EVERPURE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001474432&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-08-02",
+     "derived": false,
+     "revenue": 1185898000,
+     "profit": 63155000,
+     "netIncome": 74149000,
+     "margin": 5.3,
+     "yoy": {
+      "revenue": 37.7,
+      "profit": 1196.6,
+      "netIncome": 57.4,
+      "priorEnd": "2025-08-03"
+     }
+    },
+    {
+     "periodEnd": "2026-05-03",
+     "derived": false,
+     "revenue": 1052896000,
+     "profit": 19939000,
+     "netIncome": 24078000,
+     "margin": 1.9,
+     "yoy": {
+      "revenue": 35.2,
+      "profit": 164,
+      "netIncome": 272,
+      "priorEnd": "2025-05-04"
+     }
+    },
+    {
+     "periodEnd": "2026-02-01",
+     "derived": true,
+     "revenue": 1058903000,
+     "profit": 87198000,
+     "netIncome": 100252000,
+     "margin": 8.2,
+     "yoy": {
+      "revenue": 20.4,
+      "profit": 105.3,
+      "netIncome": 136.2,
+      "priorEnd": "2025-02-02"
+     }
+    },
+    {
+     "periodEnd": "2025-11-02",
+     "derived": false,
+     "revenue": 964453000,
+     "profit": 53918000,
+     "netIncome": 54806000,
+     "margin": 5.6,
+     "yoy": {
+      "revenue": 16,
+      "profit": -9.7,
+      "netIncome": -13.9,
+      "priorEnd": "2024-11-03"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Everpure Consensus Price Target Raised 11.24% to $146.34",
+     "url": "https://www.nasdaq.com/articles/everpure-consensus-price-target-raised-1124-14634",
+     "date": "2026-10-02",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "VNT vs. P: Which Stock Should Value Investors Buy Now?",
+     "url": "https://www.nasdaq.com/articles/vnt-vs-p-which-stock-should-value-investors-buy-now",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Everpure Stock Popped Today",
+     "url": "https://www.nasdaq.com/articles/why-everpure-stock-popped-today",
+     "date": "2026-09-24",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Everpure Reaffirms FY27 Outlook, Provides FY28 Prel. Guidance",
+     "url": "https://www.nasdaq.com/articles/everpure-reaffirms-fy27-outlook-provides-fy28-prel-guidance",
+     "date": "2026-09-24",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Everpure Unveils Data-First AI Strategy, Targets $21B Intelligence Market",
+     "url": "https://www.nasdaq.com/articles/everpure-unveils-data-first-ai-strategy-targets-21b-intelligence-market",
+     "date": "2026-09-24",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Everpure Maps AI, Hyperscale Push as It Targets $7B in Fiscal 2028 Revenue",
+     "url": "https://www.nasdaq.com/articles/everpure-maps-ai-hyperscale-push-it-targets-7b-fiscal-2028-revenue",
+     "date": "2026-09-24",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Everpure Stock Gains 34% in 6 Months: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/everpure-stock-gains-34-6-months-heres-what-you-should-know",
+     "date": "2026-09-17",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "SCSC or P: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/scsc-or-p-which-better-value-stock-right-now",
+     "date": "2026-09-10",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000084/pstg-20260826.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-12",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000066/pstg-20260610.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000046/pstg-20260527.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-25",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000015/pstg-20260225.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-23",
+    "itemsKo": [
+     "5.03"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000011/pstg-20260223.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-12-02",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443225000062/pstg-20251202.htm"
+   }
+  ],
+  "krReports": {
+   "total": 23,
+   "reports": [
+    {
+     "date": "2026-09-07",
+     "broker": "신한투자증권",
+     "analyst": "이주은",
+     "title": "[플래닛 랩스 (NYS:PL)] AI + Satellite Service",
+     "summary": "- 플래닛 랩스는 해외 D&I 매출 급증으로 예상을 상회하는 2Q 실적 달성. 대규모 신규 수주 부재와 3Q 매출 증가율 둔화는 투자심리 악화 요인.- 매출 1.16억달러(+58% YoY, 이하 전년동기대비)로 사상 최대 분기 매출 달성. 조정 EBITDA 1,300만달러, 조정 EPS 0.02달러로 시장 예상치 상회- 3Q 매출은 1.0억달러(+26.8%), GPM 57%, 조정 EBITDA 350만달러 적자 전망하면서 시장 예상치 하회.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllqikegqzxemzgcgxeccl.pdf"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[프록터 앤드 갬블 (NYS:PG)] [Issue & News] 프리미엄 웰니스 브랜드 Thorne 인수 발표 - 정체된 Health Care 카테고리의 프리미엄화 시도",
+     "summary": "- P&G, 프리미엄 웰니스 브랜드 Thorne 인수 발표- 금액·조건 미공개, Health Care 부진 만회 포석- FY27 가이던스 영향은 세부조건 공개 이후 판단",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzlmilkqimgxcgcgxeccl.pdf"
+    },
+    {
+     "date": "2026-07-24",
+     "broker": "키움증권",
+     "analyst": "박상준",
+     "title": "[필립 모리스 인터내셔널 (NYS:PM)] 담배는 너무 잘 팔지만",
+     "summary": "- 말보로와 아이코스 등으로 유명한 글로벌 담배 시장점유율 1위 업체- 2분기 매출액 및 조정 EPS는 시장 컨센서스 상회- SFP 판매 비중 확대와 궐련담배 ASP 상승에 힘입어, 구조적 실적 개선 지속 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlklklzzgmiqixgcgxeccl.pdf"
+    },
+    {
+     "date": "2026-07-23",
+     "broker": "신한투자증권",
+     "analyst": "조상훈",
+     "title": "[필립 모리스 인터내셔널 (NYS:PM)] 불 붙은 매출 신기록",
+     "summary": "- 2Q26 글로벌 담배 시장 점유율 29.1%로 업계 최고 수준의 시장장악력(일 반담배 23.3%, 궐련형 전자담배 5.8%) 지속. 일반담배 출하량이 오랜만에 플러스 전환하며 반등한 가운데, 가열식 담배 IQOS, 니코틴 파우치 ZYN, 액상형 VEEV의 고성장 지속.- 2Q26 매출과 영업이익은 111.9억달러(+10.4%, 이하 YoY), 45.3억달러 (+22%) 기록하며 분기 최초로 매출 110억 달러 돌파, 컨센서스 상회. 조 정 EPS 역시 2.2달러(+15.2%)로 기대치 상회. Smoke-Free 카테고리(궐련 형 전자담배, 니코틴 파우치 등)는 482억본(+7.5%), 일반담배는 1,569억 본(+1.1%) 판매하며 5개 분기만에 플러스 전환- 부문별 매출 성장률은 해외 Smoke-Free +14.2%, 해외 일반담배 +9.8%, 미국 -0.7%. 전반적인 해외 성장 속 지정학적 리스크가 비용에 일부 영향",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkqmcilemieqkgcgxeccl.pdf"
+    },
+    {
+     "date": "2026-06-08",
+     "broker": "신한투자증권",
+     "analyst": "이주은",
+     "title": "[플래닛 랩스 (NYS:PL)] 증자는 이벤트, 본질은 성장",
+     "summary": "- 실적 컨퍼런스 콜에서 자금 조달 필요에 대한 언급 없이 주식 발행 계획을 발표하면서 투자자와의 신뢰도 훼손과 시장 하락 속 주가 급락. AI 활용으 로 방산과 상업부문 성장 지속. 다만, 단기 시장 변동성 확대와 SpaceX 상장은 부담으로 작용. SpaceX 상장 후 매수 추천- 매출 9,420만달러(+42% YoY, 이하 전년동기대비), 매출총이익 5,300만달 러(+36%), 조정 EBITDA -103만달러(적자전환), 조정EPS -0.30달러(적자 확대). 시장 예상치를 매출 +4.6%p, EBITDA +77.3%p, EPS +54.1%p상회- 2Q 매출 1.02~1.07억달러(+39~46%), GPM 52~55% 제시. FY27 매출 4.25~4.41억달러, GPM 52-54%로 상향",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlclmixegqxqelgcgxeccl.pdf"
+    },
+    {
+     "date": "2026-04-28",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[프록터 앤드 갬블 (NYS:PG)] 마진 하락, 비용 상승 지속 예상",
+     "summary": "- 프록터앤갬블의 FY 3Q26 매출액은 212.4억 달러(YoY +7.4%), 조정 EPS는 1.59 달러(YoY +3.2%)로 각각 컨센서스를 3.6%, 1.9% 상회했 다. 모든 지역 및 사업부에서 본업 매출이 전년 동기 대비 성장했다.- 영업이익은 47.2억 달러(YoY +3.6%), 영업이익률은 21.5%(YoY - 1.5%p)였다. 영업이익에 구조조정 비용 1.4억 달러가 포함되는데, 이 영향을 제거한 핵심(Core) 영업이익률은 22.2%(YoY -0.8%p)다- 잉여현금흐름은 30.3억 달러(YoY +6.3%)를 기록했다. 분기 배당금으 로 25억 달러, 자사주 매입으로 6억 달러를 지출했다. 4월에 분기 배당 금을 3% 인상했다.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqiiczxqlxqlegcgxeccl.pdf"
+    },
+    {
+     "date": "2026-04-24",
+     "broker": "하나증권",
+     "analyst": "심은주",
+     "title": "[필립 모리스 인터내셔널 (NYS:PM)] 1Q26 Re: 시장 기대치 상회",
+     "summary": "- 1분기 매출액 및 영업이익은 각각 101.1억달러(YoY 9.1%), 38.9억달러(YoY 9.8%)를 기록하며 시장 기대치를 상회- 1분기 궐련형 전자담배 출하량은 YoY 11.3% 증가한 413억 개비를 기록- 올해 연간 조정 희석 EPS 가이던스(환율 제외)를 8.11~8.26달러로 유지",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqcccxgzqxkkcgcgxeccl.pdf"
+    },
+    {
+     "date": "2026-04-24",
+     "broker": "키움증권",
+     "analyst": "박상준",
+     "title": "[필립 모리스 인터내셔널 (NYS:PM)] IQOS, 말보로를 넘다",
+     "summary": "- 말보로와 아이코스 등으로 유명한 글로벌 담배 시장점유율 1위 업체- 1분기 조정 EPS는 시장 컨센서스 상회, 실적발표 당일 주가 약 +7% 상승- SFP 판매 비중 확대와 궐련담배 ASP 상승에 힘입어, 구조적 실적 개선 지속 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxmlxzgixkzimgcgxeccl.pdf"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Nvidia, Hormel, HP, Best Buy & more",
+   "url": "https://www.cnbc.com/2026/08/27/stocks-making-the-biggest-moves-midday-nvda-okta-hrl-veev.html",
+   "date": "2026-08-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Thursday's biggest analyst calls: Nvidia, SpaceX, Tesla, Salesforce, CrowdStrike",
+   "url": "https://www.cnbc.com/2026/08/27/thursday-analyst-calls-from-stocks-like-nvidia.html",
+   "date": "2026-08-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves after hours: Nvidia, Salesforce, CrowdStrike, Urban Outfitters and more",
+   "url": "https://www.cnbc.com/2026/08/26/stocks-making-the-biggest-moves-after-hours-nvda-crm-crwd-urbn-and-more.html",
+   "date": "2026-08-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "P",
+  "fetchedAt": "2026-10-08",
+  "source": "한국투자증권 Open API",
+  "per": 208.65,
+  "pbr": 33.08,
+  "eps": 0.73,
+  "bps": 4.62,
+  "shares": 333227000,
+  "marketCapM": 50957,
+  "high52": 154,
+  "high52Date": "2026-10-07",
+  "low52": 64.8,
+  "low52Date": "2026-06-11",
+  "last": 152.92,
+  "prevClose": 147.2,
+  "nameKo": "에버퓨어",
+  "nameEn": "EVERPURE INC",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 333227000
+ },
+ "chart": {
+  "lastBar": "2026-10-07",
+  "numbers": {
+   "price": 152.66,
+   "ma20": 118.95,
+   "ma50": 106.49,
+   "ma150": 83.13,
+   "distMA50": 43.36,
+   "periodHigh": 153.46,
+   "pullbackFromHigh": -0.52,
+   "volRatio20": 0.63,
+   "dryUpRatio": 0.58
+  },
+  "last10": [
+   {
+    "d": "2026-09-24",
+    "o": 113.95,
+    "h": 131.41,
+    "l": 113.51,
+    "c": 121.88,
+    "v": 11664700,
+    "clsPos": 47,
+    "gapPct": 3.92
+   },
+   {
+    "d": "2026-09-25",
+    "o": 122.88,
+    "h": 128.36,
+    "l": 122.3,
+    "c": 126,
+    "v": 6300700,
+    "clsPos": 61,
+    "gapPct": 0.82
+   },
+   {
+    "d": "2026-09-28",
+    "o": 124.6,
+    "h": 130.88,
+    "l": 124.6,
+    "c": 129.4,
+    "v": 4700100,
+    "clsPos": 76,
+    "gapPct": -1.11
+   },
+   {
+    "d": "2026-09-29",
+    "o": 130.26,
+    "h": 132.43,
+    "l": 127.71,
+    "c": 130.05,
+    "v": 4512100,
+    "clsPos": 50,
+    "gapPct": 0.66
+   },
+   {
+    "d": "2026-09-30",
+    "o": 131.14,
+    "h": 133.32,
+    "l": 129.84,
+    "c": 130.78,
+    "v": 3198900,
+    "clsPos": 27,
+    "gapPct": 0.84
+   },
+   {
+    "d": "2026-10-01",
+    "o": 132.13,
+    "h": 135.68,
+    "l": 130.08,
+    "c": 134.13,
+    "v": 4593500,
+    "clsPos": 72,
+    "gapPct": 1.03
+   },
+   {
+    "d": "2026-10-02",
+    "o": 134.75,
+    "h": 140.83,
+    "l": 134,
+    "c": 140.14,
+    "v": 4886300,
+    "clsPos": 90,
+    "gapPct": 0.46
+   },
+   {
+    "d": "2026-10-05",
+    "o": 141.3,
+    "h": 144.03,
+    "l": 140.26,
+    "c": 143.88,
+    "v": 4959900,
+    "clsPos": 96,
+    "gapPct": 0.83
+   },
+   {
+    "d": "2026-10-06",
+    "o": 146,
+    "h": 149.04,
+    "l": 144.5,
+    "c": 147.2,
+    "v": 3579100,
+    "clsPos": 59,
+    "gapPct": 1.47
+   },
+   {
+    "d": "2026-10-07",
+    "o": 144.58,
+    "h": 153.46,
+    "l": 144.47,
+    "c": 152.66,
+    "v": 5011955,
+    "clsPos": 91,
+    "gapPct": -1.78
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/P-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/P-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선을 넘은 지 14일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

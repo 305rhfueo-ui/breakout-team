@@ -1,7 +1,8 @@
 {
  "ticker": "ZS",
- "date": "2026-10-07",
- "session": "2026-10-06",
+ "date": "2026-10-08",
+ "session": "2026-10-07",
+ "source": "watch",
  "plan": {
   "ticker": "ZS",
   "name": "지스케일러",
@@ -9,74 +10,74 @@
   "industry": "Software - Infrastructure",
   "grade": "A",
   "state": "pre",
-  "asOf": "2026-10-06",
-  "price": 212.25,
+  "asOf": "2026-10-07",
+  "price": 213.55,
   "pivot": 216.97,
   "pivotDate": "2026-09-24",
-  "stop": 206.45,
-  "riskPerSharePct": 4.85,
-  "weightPct": 10.3,
+  "stop": 206.59,
+  "riskPerSharePct": 4.79,
+  "weightPct": 10.4,
   "weightCapped": false,
-  "distToPivotPct": -2.18,
-  "distToPivotAdr": -0.44,
-  "extensionAdr": 0.89,
+  "distToPivotPct": -1.58,
+  "distToPivotAdr": -0.32,
+  "extensionAdr": 1.04,
   "chase": false,
-  "adrPct": 4.96,
-  "ma10": 202.87,
-  "dollarVol20M": 641.9,
+  "adrPct": 4.86,
+  "ma10": 202.78,
+  "dollarVol20M": 643.4,
   "liquid": true,
   "reasons": [
    "선행 상승 +81%",
-   "베이스 3.2주",
+   "베이스 3.4주",
    "깊이 21.6%",
    "저점 상승 1회",
-   "진폭 0.85배 · 10일 종가폭 2.1 ADR",
-   "10일선 +0.9 ADR · 20일선 +1.6 ADR",
-   "20일선 기울기 +3.94%"
+   "진폭 0.86배 · 10일 종가폭 2.1 ADR",
+   "10일선 +1 ADR · 20일선 +1.5 ADR",
+   "20일선 기울기 +4.61%"
   ],
   "fails": [],
   "metrics": {
-   "baseBars": 16,
-   "baseWeeks": 3.2,
+   "baseBars": 17,
+   "baseWeeks": 3.4,
    "depthPct": 21.6,
    "priorMovePct": 81,
    "higherLows": 1,
-   "contraction": 0.85,
+   "contraction": 0.86,
    "closeRange10Adr": 2.1,
-   "surf10": 0.89,
-   "surf20": 1.58,
-   "slope20": 3.94,
+   "surf10": 1.04,
+   "surf20": 1.5,
+   "slope20": 4.61,
    "baseLow": 170.06,
-   "lastSwingLow": 187.67
+   "lastSwingLow": 195.11
   },
   "catalyst": null,
   "earnings": null,
   "blocked": null,
   "shadowBook": null,
   "watch": true,
-  "score": 67.8
+  "score": 68.4
  },
  "site": {
   "rs": {
    "m1": {
     "v": 0.310670598988024,
-    "pct": 99.04390934844193
+    "pct": 98.8314447592068
    },
    "m3": {
     "v": 0.4966153507154265,
-    "pct": 98.61898016997166
+    "pct": 98.97308781869688
    },
    "m6": {
     "v": 0.6201054034005402,
-    "pct": 94.86543909348441
+    "pct": 95.0070821529745
    }
   },
   "ret1m": 31.07,
   "ret3m": 49.66,
   "ret6m": 62.01,
   "marketCap": "34.61B",
-  "volx": 1.41,
-  "volSurgeWk": 2.25,
+  "volx": null,
+  "volSurgeWk": 1.12,
   "high52": 62.98,
   "newHigh52": false,
   "adr": 4.96,
@@ -123,14 +124,14 @@
    "m6": null
   },
   "top2Streak": {
-   "m1": 1,
-   "m3": 2,
+   "m1": 2,
+   "m3": 3,
    "m6": 0
   }
  },
  "eye": null,
  "detail": {
-  "fetchedAt": "2026-10-06",
+  "fetchedAt": "2026-10-08",
   "nameKo": "지스케일러",
   "nameEn": "ZSCALER INC",
   "financials": {
@@ -200,6 +201,12 @@
   "news": {
    "items": [
     {
+     "title": "Zscaler Reaffirms Q1, FY27 Guidance",
+     "url": "https://www.nasdaq.com/articles/zscaler-reaffirms-q1-fy27-guidance",
+     "date": "2026-10-06",
+     "publisher": "RTTNews"
+    },
+    {
      "title": "Zscaler (ZS) Stock Drops Despite Market Gains: Important Facts to Note",
      "url": "https://www.nasdaq.com/articles/zscaler-zs-stock-drops-despite-market-gains-important-facts-note",
      "date": "2026-10-02",
@@ -210,16 +217,20 @@
      "url": "https://www.nasdaq.com/articles/why-zscaler-zs-top-momentum-stock-long-term",
      "date": "2026-10-02",
      "publisher": "Zacks"
-    },
-    {
-     "title": "Zscaler, Inc. (ZS) is Attracting Investor Attention: Here is What You Should Know",
-     "url": "https://www.nasdaq.com/articles/zscaler-inc-zs-attracting-investor-attention-here-what-you-should-know",
-     "date": "2026-10-02",
-     "publisher": "Zacks"
     }
    ]
   },
   "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-06",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000200/zs-20261006.htm"
+   },
    {
     "form": "8-K",
     "filingDate": "2026-09-24",
@@ -268,15 +279,6 @@
     ],
     "isEarnings": true,
     "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000047/zs-20260226.htm"
-   },
-   {
-    "form": "8-K",
-    "filingDate": "2026-01-15",
-    "itemsKo": [
-     "주주총회 표결"
-    ],
-    "isEarnings": false,
-    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000031/zs-20260112.htm"
    }
   ],
   "krReports": {
@@ -285,30 +287,100 @@
   }
  },
  "detailNote": null,
+ "cnbc": [
+  {
+   "title": "One cybersecurity stock has lagged of late. Jay Woods says the charts are now turning bullish",
+   "url": "https://www.cnbc.com/2026/09/17/one-cybersecurity-stock-has-lagged-of-late-jay-woods-says-the-charts-are-now-turning-bullish.html",
+   "date": "2026-09-17",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "The jobs report, Lululemon earnings and more: Morning Squawk",
+   "url": "https://www.cnbc.com/2026/09/04/5-things-to-know-before-the-market-opens-friday.html",
+   "date": "2026-09-04",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Friday's big stock stories: What’s likely to move the market in the next session",
+   "url": "https://www.cnbc.com/2026/09/03/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves after hours: Lululemon, Zscaler & more",
+   "url": "https://www.cnbc.com/2026/09/03/stocks-making-the-biggest-moves-after-hours-lulu-zs-gwre.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Zscaler beats earnings expectations, issues upbeat guidance but stock falls",
+   "url": "https://www.cnbc.com/2026/09/03/zscaler-zs-q4-earnings-2026.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Zscaler CEO Jay Chaudhry on cybersecurity in the age of AI, company growth outlook",
+   "url": "https://www.cnbc.com/video/2026/10/06/zscaler-ceo-jay-chaudhry-on-cybersecurity-in-the-age-of-ai-company-growth-outlook.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Final Trade: HQY, EEM, C, ZS",
+   "url": "https://www.cnbc.com/video/2026/10/05/final-trade-hqy-eem-c-zs.html",
+   "date": "2026-10-05",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Watch CNBC's full interview with Zscaler CEO Jay Chaudhry",
+   "url": "https://www.cnbc.com/video/2026/09/04/watch-cnbcs-full-interview-with-zscaler-ceo-jay-chaudhry.html",
+   "date": "2026-09-04",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "ZS",
+  "fetchedAt": "2026-10-08",
+  "source": "한국투자증권 Open API",
+  "per": 539.43,
+  "pbr": 13.38,
+  "eps": 0.4,
+  "bps": 15.93,
+  "shares": 163055000,
+  "marketCapM": 34769,
+  "high52": 336.99,
+  "high52Date": "2025-11-03",
+  "low52": 114.625,
+  "low52Date": "2026-04-10",
+  "last": 213.2363,
+  "prevClose": 212.25,
+  "nameKo": "지스케일러",
+  "nameEn": "ZSCALER INC",
+  "listedOn": "2018-03-15",
+  "exchange": "나스닥",
+  "listedShares": 163055000
+ },
  "chart": {
-  "lastBar": "2026-10-06",
+  "lastBar": "2026-10-07",
   "numbers": {
-   "price": 212.25,
-   "ma20": 195.61,
-   "ma50": 181.58,
-   "ma150": 155.81,
-   "distMA50": 16.89,
+   "price": 213.55,
+   "ma20": 197.98,
+   "ma50": 182.82,
+   "ma150": 156.19,
+   "distMA50": 16.81,
    "periodHigh": 336.99,
-   "pullbackFromHigh": -37.02,
-   "volRatio20": 1.3,
-   "dryUpRatio": 0.73
+   "pullbackFromHigh": -36.63,
+   "volRatio20": 0.82,
+   "dryUpRatio": 0.77
   },
   "last10": [
-   {
-    "d": "2026-09-23",
-    "o": 213,
-    "h": 215.73,
-    "l": 209.4,
-    "c": 214.45,
-    "v": 2557300,
-    "clsPos": 80,
-    "gapPct": 1.34
-   },
    {
     "d": "2026-09-24",
     "o": 213.48,
@@ -398,6 +470,16 @@
     "v": 4257800,
     "clsPos": 69,
     "gapPct": 4.26
+   },
+   {
+    "d": "2026-10-07",
+    "o": 216.46,
+    "h": 216,
+    "l": 209.7,
+    "c": 213.55,
+    "v": 2678909,
+    "clsPos": 61,
+    "gapPct": 1.98
    }
   ],
   "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ZS-3m.png",
@@ -405,7 +487,7 @@
  },
  "market": {
   "verdict": "green",
-  "ko": "🟢 10일선이 20일선을 넘은 지 13일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "ko": "🟢 10일선이 20일선을 넘은 지 14일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
   "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
   "finraLevel": "warn"
  }

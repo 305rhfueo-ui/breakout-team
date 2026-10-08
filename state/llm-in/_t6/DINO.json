@@ -1,7 +1,8 @@
 {
  "ticker": "DINO",
- "date": "2026-10-07",
- "session": "2026-10-06",
+ "date": "2026-10-08",
+ "session": "2026-10-07",
+ "source": "watch",
  "plan": {
   "ticker": "DINO",
   "name": null,
@@ -9,45 +10,45 @@
   "industry": "Oil & Gas Refining & Marketing",
   "grade": "B",
   "state": "pre",
-  "asOf": "2026-10-06",
-  "price": 114.6,
+  "asOf": "2026-10-07",
+  "price": 115.63,
   "pivot": 118.39,
   "pivotDate": "2026-09-21",
-  "stop": 113.16,
-  "riskPerSharePct": 4.42,
+  "stop": 113.14,
+  "riskPerSharePct": 4.43,
   "weightPct": 11.3,
   "weightCapped": false,
-  "distToPivotPct": -3.2,
-  "distToPivotAdr": -0.7,
-  "extensionAdr": 1,
+  "distToPivotPct": -2.33,
+  "distToPivotAdr": -0.51,
+  "extensionAdr": 1.01,
   "chase": false,
-  "adrPct": 4.56,
-  "ma10": 109.37,
-  "dollarVol20M": 305.5,
+  "adrPct": 4.54,
+  "ma10": 110.32,
+  "dollarVol20M": 309.5,
   "liquid": true,
   "reasons": [
    "선행 상승 +86%",
-   "베이스 4.6주",
+   "베이스 4.8주",
    "깊이 13%",
    "✗ 저점 상승 0회",
-   "진폭 0.88배 · 10일 종가폭 1.8 ADR",
-   "10일선 +1 ADR · 20일선 +0.9 ADR",
-   "20일선 기울기 +1.54%"
+   "진폭 0.71배 · 10일 종가폭 1.9 ADR",
+   "10일선 +1 ADR · 20일선 +1 ADR",
+   "20일선 기울기 +1.73%"
   ],
   "fails": [
    "higherLows"
   ],
   "metrics": {
-   "baseBars": 23,
-   "baseWeeks": 4.6,
+   "baseBars": 24,
+   "baseWeeks": 4.8,
    "depthPct": 13,
    "priorMovePct": 85.5,
    "higherLows": 0,
-   "contraction": 0.88,
-   "closeRange10Adr": 1.8,
-   "surf10": 1,
-   "surf20": 0.89,
-   "slope20": 1.54,
+   "contraction": 0.71,
+   "closeRange10Adr": 1.9,
+   "surf10": 1.01,
+   "surf20": 1.01,
+   "slope20": 1.73,
    "baseLow": 103,
    "lastSwingLow": 103
   },
@@ -56,12 +57,21 @@
   "blocked": null,
   "shadowBook": null,
   "watch": true,
-  "score": 56.8
+  "score": 57.7
  },
  "site": null,
- "eye": null,
+ "eye": {
+  "score": 7,
+  "reasons": [
+   "최근 2주 가격 흔들림이 그 전 2주의 0.71배로 줄었다",
+   "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.15, 최저 0.13)",
+   "넘어야 할 선 $118.39 바로 아래(-2.33%)",
+   "1년 최고가의 97.67% 자리"
+  ],
+  "resistance": 118.39
+ },
  "detail": {
-  "fetchedAt": "2026-10-07",
+  "fetchedAt": "2026-10-08",
   "nameKo": "HF 싱클레어",
   "nameEn": "HF SINCLAIR CORPORATION",
   "financials": {
@@ -218,30 +228,22 @@
   }
  },
  "detailNote": null,
+ "cnbc": null,
+ "kis": null,
  "chart": {
-  "lastBar": "2026-10-06",
+  "lastBar": "2026-10-07",
   "numbers": {
-   "price": 114.6,
-   "ma20": 109.95,
-   "ma50": 100.38,
-   "ma150": 78.73,
-   "distMA50": 14.16,
+   "price": 115.63,
+   "ma20": 110.33,
+   "ma50": 100.91,
+   "ma150": 79.13,
+   "distMA50": 14.59,
    "periodHigh": 118.39,
-   "pullbackFromHigh": -3.2,
-   "volRatio20": 0.58,
-   "dryUpRatio": 0.76
+   "pullbackFromHigh": -2.33,
+   "volRatio20": 0.79,
+   "dryUpRatio": 0.79
   },
   "last10": [
-   {
-    "d": "2026-09-23",
-    "o": 107.97,
-    "h": 110.84,
-    "l": 103,
-    "c": 106.14,
-    "v": 4850300,
-    "clsPos": 40,
-    "gapPct": 1.2
-   },
    {
     "d": "2026-09-24",
     "o": 107.3,
@@ -328,9 +330,19 @@
     "h": 116.09,
     "l": 113.34,
     "c": 114.6,
-    "v": 1620499,
+    "v": 1722700,
     "clsPos": 46,
     "gapPct": -1.41
+   },
+   {
+    "d": "2026-10-07",
+    "o": 116.29,
+    "h": 117.72,
+    "l": 115.26,
+    "c": 115.63,
+    "v": 2204425,
+    "clsPos": 15,
+    "gapPct": 1.47
    }
   ],
   "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/DINO-3m.png",
@@ -338,7 +350,7 @@
  },
  "market": {
   "verdict": "green",
-  "ko": "🟢 10일선이 20일선을 넘은 지 13일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "ko": "🟢 10일선이 20일선을 넘은 지 14일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
   "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
   "finraLevel": "warn"
  }

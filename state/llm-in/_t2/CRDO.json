@@ -1,0 +1,339 @@
+{
+ "ticker": "CRDO",
+ "sector": "Technology",
+ "industry": "Semiconductors",
+ "nameKo": "크리도 테크놀로지 그룹 홀딩",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 87.41,
+  "saleNy": 54.8,
+  "epsCy": 82.26,
+  "epsNy": 53.66,
+  "est": {
+   "cyCur": 6.30634,
+   "cy30": 6.27642,
+   "nyCur": 9.69063,
+   "ny30": 9.61573
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    114.73,
+    157.02,
+    201.49
+   ],
+   "ni": [
+    104.14,
+    362.18,
+    435.22
+   ],
+   "opm": [
+    25.2,
+    35.66,
+    36.76
+   ],
+   "updated": "2026-09-08 09:26:37"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-10-07",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-08",
+  "nameKo": "크리도 테크놀로지 그룹 홀딩",
+  "nameEn": "CREDO TECHNOLOGY GROUP HOLDING LTD",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001807794&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-08-01",
+     "derived": false,
+     "revenue": 479003000,
+     "profit": 120700000,
+     "netIncome": 129425000,
+     "margin": 25.2,
+     "yoy": {
+      "revenue": 114.7,
+      "profit": 98.7,
+      "netIncome": 104.1,
+      "priorEnd": "2025-08-02"
+     }
+    },
+    {
+     "periodEnd": "2026-05-02",
+     "derived": true,
+     "revenue": 437003000,
+     "profit": 155845000,
+     "netIncome": 169102000,
+     "margin": 35.7,
+     "yoy": {
+      "revenue": 157,
+      "profit": 361.2,
+      "netIncome": 362.2,
+      "priorEnd": "2025-05-03"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": false,
+     "revenue": 407012000,
+     "profit": 149622000,
+     "netIncome": 157142000,
+     "margin": 36.8,
+     "yoy": {
+      "revenue": 201.5,
+      "profit": 471.2,
+      "netIncome": 435.2,
+      "priorEnd": "2025-02-01"
+     }
+    },
+    {
+     "periodEnd": "2025-11-01",
+     "derived": false,
+     "revenue": 268027000,
+     "profit": 78796000,
+     "netIncome": 82636000,
+     "margin": 29.4,
+     "yoy": {
+      "revenue": 272.1,
+      "profit": 1037.3,
+      "netIncome": 2055.9,
+      "priorEnd": "2024-11-02"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Credo Technology Group vs. Marvell Technology: Which Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/credo-technology-group-vs-marvell-technology-which-stock-better-buy-2026",
+     "date": "2026-10-07",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Up 30%, Should You Buy Credo Technology Right Now?",
+     "url": "https://www.nasdaq.com/articles/30-should-you-buy-credo-technology-right-now",
+     "date": "2026-10-02",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Arm vs. Credo Technology Group: Which Tech Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/arm-vs-credo-technology-group-which-tech-stock-better-buy-2026",
+     "date": "2026-10-01",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Credo Technology Group (CRDO) Up 17.9% Since Last Earnings Report: Can It Continue?",
+     "url": "https://www.nasdaq.com/articles/credo-technology-group-crdo-179-last-earnings-report-can-it-continue",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Credo Technology Group Holding Ltd. (CRDO) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-credo-technology-group-holding-ltd-crdo-strong-momentum-stock",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Credo Technology CEO Sells Company Shares Worth $2.5 Million",
+     "url": "https://www.nasdaq.com/articles/credo-technology-ceo-sells-company-shares-worth-25-million",
+     "date": "2026-10-01",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's Why Credo Technology Group Holding Ltd. (CRDO) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-credo-technology-group-holding-ltd-crdo-strong-growth-stock-1",
+     "date": "2026-09-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Credo vs. Nvidia: Which AI Chip Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/credo-vs-nvidia-which-ai-chip-stock-better-buy-2026",
+     "date": "2026-09-25",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-01",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/crdo-20260901.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-01",
+    "itemsKo": [
+     "실적 발표",
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026039474/crdo-20260528.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-13",
+    "itemsKo": [
+     "3.02",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026024892/crdo-20260413.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-02",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026013205/crdo-20260302.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-09",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026006370/crdo-20260209.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-12-01",
+    "itemsKo": [
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828025054428/crdo-20251201.htm"
+   }
+  ],
+  "krReports": {
+   "total": 4,
+   "reports": [
+    {
+     "date": "2026-09-04",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[크리도 테크놀로지 그룹 홀딩 (NAS:CRDO)] 체질 개선 속 공백기",
+     "summary": "- 크리도는 AI 클러스터용 구리 케이블(AEC) 시장을 만든 연결 반도체 기업- FY27 1Q 실적은 상회했으나 AEC 둔화와 하반기 편중 목표에 주가 20% 하락- 광 진입 공백기의 기대치 조정 가능하며, 향후 옵틱스 진입 성과와 마진이 관건",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllkqkxggkgczcgcgxeccl.pdf"
+    },
+    {
+     "date": "2026-06-05",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[크리도 테크놀로지 그룹 홀딩 (NAS:CRDO)] 이제는 구리가 아닌 광학(Optics)의 성장 속도가 멀티플을 결정할 시점",
+     "summary": "- FY4Q26 어닝 서프라이즈 시현 및 AEC 중심의 압도적 시장 지배력 지속- Dust Photonics 인수를 기반으로 한 FY27 하반기 광학(Optics) 매출 변곡점 진입- 섹터 내 상대적 밸류에이션 매력 확보 및 탁월한 영업 레버리지 증명",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcxegmglezgxggcgxeccl.pdf"
+    },
+    {
+     "date": "2025-12-03",
+     "broker": "유진투자증권",
+     "analyst": "이찬영",
+     "title": "[크리도 테크놀로지 그룹 홀딩 (NAS:CRDO)] In-Credo-ble",
+     "summary": "- 매출 $2.68억(+272%yoy, +20%qoq), 조정 EPS $0.67 기록, 컨센서스(매출 $2.35억, EPS $0.49) 크게 상회. 마 진은 GPM 67.5%, OPM 30.2%로 매 분기 상승 기조를 이어나가고 있음- 매출 비중 +10% 이상 고객 4곳(아마존 42%, 마소 24%, xAI 16%, 메타 11% 추정)으로 확대된 가운데, 5번째 CSP향 초기 매출 발생 시작- AI 클러스터의 100G/lane(800G) 고도화로, 패시브 DAC의 물리적 한계와 광솔루션의 비용 부담이 부각되는 7m 이내(Inter-Rack) 구간에서 최적의 대안인 AEC의 구조적 채택 흐름이 가속되고 있음",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkqeclkkqkxzcgcgxeccl.pdf"
+    },
+    {
+     "date": "2025-10-23",
+     "broker": "신한투자증권",
+     "analyst": "김형태, 송혜수",
+     "title": "[크리도 테크놀로지 그룹 홀딩 (NAS:CRDO)] 뚜렷한 AEC 성장 가시성",
+     "summary": "- 2008년 설립된 고속 데이터 연결 솔루션 제공 업체. 독자적인 SerDes IP(직렬 화) 및 DSP(디지털 신호 처리) 기술 기반 제품이 고속 연결 기능 통합. 데이 터센터 증설 모멘텀과 맞물려 급격한 실적 개선 시현.- FY1Q26(5~7월) 매출 2.23억달러(+274%, 이하 전년대비), EPS 0.52달러로 컨센서스를 각각 17%, 44% 상회. 제품 매출 2.17억달러(304%)로 폭증. 하이 퍼스케일 고객사 추가 확보로 향후 실적 가시성 더욱 뚜렷해진 것으로 평가- FY2Q26 가이던스(중간값) 매출 2.35억달러, GPM 65% 제시. 하반기 신규 하이퍼스케일러 고객 추가 언급. 실적발표가 12월이라는 점에서 모멘텀 강화 시점까지 시간 소요 불가피. 다만 실적 방향성에 갖는 의구심은 불필요",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxeeqmiklkclzqgcgxeccl.pdf"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: PG&E, Dell, GitLab, Credo & more",
+   "url": "https://www.cnbc.com/2026/09/02/stocks-making-the-biggest-moves-midday-pcg-dell-gtlb-crdo-bfb.html",
+   "date": "2026-09-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves after hours: Dell, MongoDB, GitLab and more",
+   "url": "https://www.cnbc.com/2026/09/01/stocks-making-the-biggest-moves-after-hours-dell-mdb-gtlb-and-more.html",
+   "date": "2026-09-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Travelers, SpaceX, Alphabet & more",
+   "url": "https://www.cnbc.com/2026/07/17/stocks-making-the-biggest-moves-midday-trv-spcx-googl-nflx-snps.html",
+   "date": "2026-07-17",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Top analysts are bullish on these 3 stocks for strong long-term growth potential",
+   "url": "https://www.cnbc.com/2026/06/28/top-analysts-bullish-on-these-stocks-for-long-term-growth-potential.html",
+   "date": "2026-06-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Apogee Therapeutics, Arcosa & more",
+   "url": "https://www.cnbc.com/2026/06/22/stocks-making-the-biggest-moves-premarket-apge-spcx-aca.html",
+   "date": "2026-06-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "UBS traders say it's time to 'reduce risk meaningfully' on tech",
+   "url": "https://www.cnbc.com/2026/06/18/ubs-traders-say-its-time-to-reduce-risk-meaningfully-on-tech.html",
+   "date": "2026-06-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "CRDO",
+  "fetchedAt": "2026-10-08",
+  "source": "한국투자증권 Open API",
+  "per": 78.51,
+  "pbr": 15.14,
+  "eps": 2.8,
+  "bps": 14.53,
+  "shares": 187951920,
+  "marketCapM": 41351,
+  "high52": 308.6699,
+  "high52Date": "2026-06-22",
+  "low52": 86.485,
+  "low52Date": "2026-03-30",
+  "last": 220.01,
+  "prevClose": 220.83,
+  "nameKo": "크리도 테크놀로지 그룹 홀딩",
+  "nameEn": "CREDO TECHNOLOGY GROUP HOLDING LTD",
+  "listedOn": "2022-01-26",
+  "exchange": "나스닥",
+  "listedShares": 187951920
+ }
+}

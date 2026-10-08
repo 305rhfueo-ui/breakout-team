@@ -1,0 +1,287 @@
+{
+ "ticker": "TLN",
+ "sector": "Utilities",
+ "industry": "Utilities - Independent Power Producers",
+ "nameKo": "탈런 에너지",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 75.5,
+  "saleNy": 15.68,
+  "epsCy": 145.71,
+  "epsNy": 38.14,
+  "est": {
+   "cyCur": 22.26295,
+   "cy30": 21.28693,
+   "nyCur": 30.75472,
+   "ny30": 29.14208
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    18.57,
+    189.49,
+    60.39
+   ],
+   "ni": [
+    -227.78,
+    "흑자전환",
+    -542.68
+   ],
+   "opm": [
+    -9.64,
+    18.6,
+    -41.79
+   ],
+   "updated": "2026-09-08 05:59:54"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-08",
+  "nameKo": "탈런 에너지",
+  "nameEn": "TALEN ENERGY CORPORATION",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001622536&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 894000000,
+     "profit": -72000000,
+     "netIncome": -92000000,
+     "margin": -8.1,
+     "yoy": {
+      "revenue": 118.6,
+      "profit": -209.1,
+      "netIncome": -227.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1568000000,
+     "profit": 210000000,
+     "netIncome": null,
+     "margin": 13.4,
+     "yoy": {
+      "revenue": 139.8,
+      "profit": 298.1,
+      "netIncome": null,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 758000000,
+     "profit": -313000000,
+     "netIncome": -363000000,
+     "margin": -41.3,
+     "yoy": {
+      "revenue": 114.7,
+      "profit": -2056.2,
+      "netIncome": -542.7,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 697000000,
+     "profit": 263000000,
+     "netIncome": 207000000,
+     "margin": 37.7,
+     "yoy": {
+      "revenue": 51.9,
+      "profit": 66.5,
+      "netIncome": 23.2,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Talen Energy Corporation (TLN) Moves 12.4% Higher: Will This Strength Last?",
+     "url": "https://www.nasdaq.com/articles/talen-energy-corporation-tln-moves-124-higher-will-strength-last",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Talen Energy Expands Buyback Plan With $1.5B Accelerated Repurchase",
+     "url": "https://www.nasdaq.com/articles/talen-energy-expands-buyback-plan-15b-accelerated-repurchase",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Vistra vs. Talen: Which Stock Is Better Positioned for Investors?",
+     "url": "https://www.nasdaq.com/articles/vistra-vs-talen-which-stock-better-positioned-investors",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Talen Energy Names Terry Nutt CEO, Succeeding Mac McFarland; Upsizes Buyback To $3 Bln",
+     "url": "https://www.nasdaq.com/articles/talen-energy-names-terry-nutt-ceo-succeeding-mac-mcfarland-upsizes-buyback-3-bln",
+     "date": "2026-09-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "SMR vs. TLN: Betting on Nuclear Growth or Proven Earnings?",
+     "url": "https://www.nasdaq.com/articles/smr-vs-tln-betting-nuclear-growth-or-proven-earnings",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "TLN Drops 33.3% in 3 Months as Risks Test Its Cash Flow Story",
+     "url": "https://www.nasdaq.com/articles/tln-drops-333-3-months-risks-test-its-cash-flow-story",
+     "date": "2026-09-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Talen Raises 2026 Guidance as Cornerstone Boosts Cash Flow",
+     "url": "https://www.nasdaq.com/articles/talen-raises-2026-guidance-cornerstone-boosts-cash-flow",
+     "date": "2026-09-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is TLN Worth Buying as Cash Flow Improves Despite High Debt?",
+     "url": "https://www.nasdaq.com/articles/tln-worth-buying-cash-flow-improves-despite-high-debt",
+     "date": "2026-09-21",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-29",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000074/tln-20260925.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000065/tln-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-14",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000058/tln-20260714.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-15",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.01",
+     "2.03",
+     "3.02",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000048/tln-20260615.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-21",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000042/tln-20260520.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000039/tln-20260505.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Thursday's biggest analyst calls: SpaceX, Apple, Marvell, CME, Palantir, Nike, Amazon, Micron",
+   "url": "https://www.cnbc.com/2026/06/18/thursdays-biggest-analyst-calls-include-spacex-palantir-more.html",
+   "date": "2026-06-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Heat wave impact on power prices",
+   "url": "https://www.cnbc.com/video/2026/07/02/heat-wave-impact-on-power-prices.html",
+   "date": "2026-07-02",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Power Check: Talen Energy, Texas Instruments and Morgan Stanley",
+   "url": "https://www.cnbc.com/video/2026/06/24/power-check-talen-energy-texas-instruments-and-morgan-stanley.html",
+   "date": "2026-06-24",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "TLN",
+  "fetchedAt": "2026-10-08",
+  "source": "한국투자증권 Open API",
+  "per": 86.76,
+  "pbr": 11.21,
+  "eps": 4.36,
+  "bps": 33.74,
+  "shares": 47300000,
+  "marketCapM": 17895,
+  "high52": 449.8409,
+  "high52Date": "2026-06-18",
+  "low52": 279.77,
+  "low52Date": "2026-09-15",
+  "last": 378.32,
+  "prevClose": 373.11,
+  "nameKo": "탈런 에너지",
+  "nameEn": "TALEN ENERGY CORPORATION",
+  "listedOn": "2024-07-10",
+  "exchange": "나스닥",
+  "listedShares": 47300000
+ }
+}

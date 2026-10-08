@@ -1,0 +1,294 @@
+{
+ "ticker": "VST",
+ "sector": "Utilities",
+ "industry": "Utilities - Independent Power Producers",
+ "nameKo": "비스트라 에너지",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 26.76,
+  "saleNy": 7.35,
+  "epsCy": 339.38,
+  "epsNy": 8.12,
+  "est": {
+   "cyCur": 9.57847,
+   "cy30": 9.58625,
+   "nyCur": 10.35614,
+   "ny30": 10.34614
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -5.48,
+    43.4,
+    13.55
+   ],
+   "ni": [
+    -7.86,
+    "흑자전환",
+    -52.93
+   ],
+   "opm": [
+    13.77,
+    26.58,
+    10.34
+   ],
+   "updated": "2026-09-15 06:59:19"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-08",
+  "nameKo": "비스트라 에너지",
+  "nameEn": "VISTRA CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001692819&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 4401000000,
+     "profit": 553000000,
+     "netIncome": 305000000,
+     "margin": 12.6,
+     "yoy": {
+      "revenue": 17.3,
+      "profit": 7.4,
+      "netIncome": -6.7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 5001000000,
+     "profit": 1499000000,
+     "netIncome": 1029000000,
+     "margin": 30,
+     "yoy": {
+      "revenue": 17.7,
+      "profit": 1349.2,
+      "netIncome": 484,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 4805000000,
+     "profit": 474000000,
+     "netIncome": 233000000,
+     "margin": 9.9,
+     "yoy": {
+      "revenue": 31.2,
+      "profit": -20.9,
+      "netIncome": -47.2,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 4778000000,
+     "profit": 1037000000,
+     "netIncome": 652000000,
+     "margin": 21.7,
+     "yoy": {
+      "revenue": 10.1,
+      "profit": -59.9,
+      "netIncome": -65.5,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Bullish Two Hundred Day Moving Average Cross - VST",
+     "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-vst",
+     "date": "2026-10-06",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Why Vistra Stock Popped on Tuesday",
+     "url": "https://www.nasdaq.com/articles/why-vistra-stock-popped-tuesday",
+     "date": "2026-10-06",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Vistra Corp. (VST) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/vistra-corp-vst-attracting-investor-attention-here-what-you-should-know",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Vistra (VST) Is Considered a Good Investment by Brokers: Is That True?",
+     "url": "https://www.nasdaq.com/articles/vistra-vst-considered-good-investment-brokers-true",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Vistra vs. Talen: Which Stock Is Better Positioned for Investors?",
+     "url": "https://www.nasdaq.com/articles/vistra-vs-talen-which-stock-better-positioned-investors",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Vistra Corp. (VST) Gains As Market Dips: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/vistra-corp-vst-gains-market-dips-what-you-should-know",
+     "date": "2026-09-29",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-05",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126038468/ef20083016_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-24",
+    "itemsKo": [
+     "중요 계약 체결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126037577/ef20082680_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000017/vistra-20260807.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-16",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126028619/ef20077984_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-14",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126028454/ef20077988_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-30",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126026944/ef20077059_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Marvell, Moderna, Lamb Weston & more",
+   "url": "https://www.cnbc.com/2026/10/06/stocks-making-the-biggest-moves-midday-mrvl-mrna-lw-ceg.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's lightning round: 'I like Vistra'",
+   "url": "https://www.cnbc.com/2026/08/12/cramers-lightning-round-i-like-vistra.html",
+   "date": "2026-08-12",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Atlassian, Wendy's, Vista & more",
+   "url": "https://www.cnbc.com/2026/08/07/stocks-making-the-biggest-moves-premarket-atlassian-corporation-wendys-vista-corp-first-solar-airbnb-more.html",
+   "date": "2026-08-07",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "We're adding a critical enabler of AI computing to our Bullpen watchlist",
+   "url": "https://www.cnbc.com/2026/08/06/were-adding-a-critical-enabler-of-ai-computing-to-our-bullpen-watchlist.html",
+   "date": "2026-08-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's lightning round: Buy Vistra",
+   "url": "https://www.cnbc.com/2026/06/17/cramers-lightning-round-buy-vistra.html",
+   "date": "2026-06-17",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Heat wave impact on power prices",
+   "url": "https://www.cnbc.com/video/2026/07/02/heat-wave-impact-on-power-prices.html",
+   "date": "2026-07-02",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "VST",
+  "fetchedAt": "2026-10-08",
+  "source": "한국투자증권 Open API",
+  "per": 28.14,
+  "pbr": 18.63,
+  "eps": 5.92,
+  "bps": 8.95,
+  "shares": 335635000,
+  "marketCapM": 55957,
+  "high52": 215.8464,
+  "high52Date": "2025-10-16",
+  "low52": 132.2579,
+  "low52Date": "2026-05-19",
+  "last": 166.72,
+  "prevClose": 160.5,
+  "nameKo": "비스트라 에너지",
+  "nameEn": "VISTRA CORP",
+  "listedOn": "2017-05-10",
+  "exchange": "뉴욕거래소",
+  "listedShares": 335635000
+ }
+}

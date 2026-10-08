@@ -1,0 +1,308 @@
+{
+ "ticker": "CEG",
+ "sector": "Utilities",
+ "industry": "Utilities - Independent Power Producers",
+ "nameKo": "컨스털레이션 에너지",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 38.92,
+  "saleNy": 3.41,
+  "epsCy": 29.33,
+  "epsNy": 9.69,
+  "est": {
+   "cyCur": 12.144,
+   "cy30": 12.144,
+   "nyCur": 13.32016,
+   "ny30": 13.34165
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    23,
+    63.85,
+    12.86
+   ],
+   "ni": [
+    -38.86,
+    1247.46,
+    -49.3
+   ],
+   "opm": [
+    7.73,
+    20.97,
+    9.85
+   ],
+   "updated": "2026-09-11 06:33:19"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-08",
+  "nameKo": "컨스털레이션 에너지",
+  "nameEn": "CONSTELLATION ENERGY CORPORATION",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001868275&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 5843000000,
+     "profit": 580000000,
+     "netIncome": 513000000,
+     "margin": 9.9,
+     "yoy": {
+      "revenue": 13.2,
+      "profit": -39,
+      "netIncome": -38.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 7541000000,
+     "profit": 2332000000,
+     "netIncome": 1590000000,
+     "margin": 30.9,
+     "yoy": {
+      "revenue": 23.5,
+      "profit": 417.1,
+      "netIncome": 1247.5,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 5694000000,
+     "profit": 598000000,
+     "netIncome": 432000000,
+     "margin": 10.5,
+     "yoy": {
+      "revenue": 25.8,
+      "profit": -38.5,
+      "netIncome": -49.3,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 5703000000,
+     "profit": 1086000000,
+     "netIncome": 930000000,
+     "margin": 19,
+     "yoy": {
+      "revenue": 19.5,
+      "profit": -26,
+      "netIncome": -22.5,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Can Google's Nuclear Deal Strengthen Constellation Energy's Growth Outlook?",
+     "url": "https://www.nasdaq.com/articles/can-googles-nuclear-deal-strengthen-constellation-energys-growth-outlook",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Constellation Energy Corporation (CEG) Moves 12.3% Higher: Will This Strength Last?",
+     "url": "https://www.nasdaq.com/articles/constellation-energy-corporation-ceg-moves-123-higher-will-strength-last",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/ceg-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000089/ceg-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-14",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000080/ceg-20260714.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-02",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1868275/000110465926069482/tm2616531d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-11",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000063/ceg-20260511.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-01",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000050/ceg-20260428.htm"
+   }
+  ],
+  "krReports": {
+   "total": 5,
+   "reports": [
+    {
+     "date": "2026-09-23",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[컨스털레이션 에너지 (NAS:CEG)] 데이터센터 정책 변화 속 발전소",
+     "summary": "- 컨스털레이션 에너지는 미국 최대 원전 운영사- 칼파인 인수로 가스발전 사업을 확대했으나, 텍사스 인허가 제한은 단기 부담- 데이터센터의 전력 확보 의무 강화 정책은 동사의 장기 전력계약 확대에 긍정적",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmcekezelkexkqgcgxeccl.pdf"
+    },
+    {
+     "date": "2026-08-07",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[컨스털레이션 에너지 (NAS:CEG)] Earnings Flash",
+     "summary": "- 매출액 75억 달러(YoY +23%), 영업이익 5.8억 달러(YoY -39%)로 각각 예상치 4.3%, 56.8% 하회.- 2분기 배당 주당 0.43 달러로 유지하고, 3분기에도 동일하게 지급 예정- 내년 하반기까지 co-location 규제 불확실성 잔존. 1.5% 하락 마감",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxgxqzgzzeexegcgxeccl.pdf"
+    },
+    {
+     "date": "2026-05-15",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[컨스털레이션 에너지 (NAS:CEG)] 부진의 원인과 단기적 촉매",
+     "summary": "- 컨스털레이션 에너지는 미국 최대 원전 운영사이자 민간 발전사- FY1Q26 실적은 컨센을 상했으나 가이던스 동결, PJM 계약 지연 등으로 부진- 6월 FERC의 Crane CIR 결정과 PJM 규제 명확화가 단기 변수로 작용 가능",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlqxxqkqzigxcgcgxeccl.pdf"
+    },
+    {
+     "date": "2026-05-12",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "title": "[컨스털레이션 에너지 (NAS:CEG)] 규제 불확실성 해소 전, 단기 변동성 지속 예상",
+     "summary": "- 컨스텔레이션 에너지의 FY 1Q26 영업수익(operating revenue)은 111.2억 달러(YoY +63.8%), 조정 EPS는 2.74 달러(YoY +28%)를 기 록했다- 분기말 장기부채는 175억 달러로, CEG 부채 약 124억 달러와 Calpine 부채 약 50억 달러가 합산된 금액이다.- 1년 내 상환 금액 등 조정 항목을 제외한 장부상 장기부채는 170억 달러(YoY +132%)였는 데, 부채 규모가 증가했음에도 불구하고 S&P 기준 BBB+, Moody’s 기 준 Baa1의 투자 적격 신용 등급을 유지하고 있음을 강조했다.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlzqzzgzlclgqgcgxeccl.pdf"
+    },
+    {
+     "date": "2025-11-10",
+     "broker": "한화증권",
+     "analyst": "임해인",
+     "title": "[컨스털레이션 에너지 (NAS:CEG)] Earnings Flash",
+     "summary": "- 매출액 65.7억 달러(YoY +0.3%), 조정 EPS 3.04 달러(YoY +10.9%)로 각각 예상치 1.4% 상- 3분기 운영 및 유지보수 비용(15.1억 달러)에는 인수 관련 및 발전소 폐쇄∙매각에 따른 일회성 비용(1억 달러) 포함- EPS는 예상을 하회했으나 적극적 발전 설비 확충, 인수를 통한 에너지 포트폴리오 강화로 성장세 지속 기대 확산. 2.2% 상승",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgqzmmggqgexcgcgxeccl.pdf"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Marvell, Moderna, Lamb Weston & more",
+   "url": "https://www.cnbc.com/2026/10/06/stocks-making-the-biggest-moves-midday-mrvl-mrna-lw-ceg.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Google squeezes more power from existing nuclear plants in Constellation deal",
+   "url": "https://www.cnbc.com/2026/10/06/google-constellation-energy-ceg-nuclear-power-data-center.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Wednesday, October 7, 2026: Cramer says he likes this chipmaker at its current level",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/07/wednesday-october-7-2026-cramer-says-he-likes-this-chipmaker-at-its-current-level.html",
+   "date": "2026-10-07",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Jim Cramer talks 'what could go right' in the market",
+   "url": "https://www.cnbc.com/video/2026/10/06/jim-cramer-talks-what-could-go-right-in-the-market.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "CNBC Markets Now: October 6, 2026",
+   "url": "https://www.cnbc.com/video/2026/10/06/cnbc-markets-now-october-6-2026.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "News Update – Market Close",
+   "url": "https://www.cnbc.com/video/2026/10/06/post-market-wrap-october-6-2026.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "CEG",
+  "fetchedAt": "2026-10-08",
+  "source": "한국투자증권 Open API",
+  "per": 29.18,
+  "pbr": 3.33,
+  "eps": 10.27,
+  "bps": 90.08,
+  "shares": 354307370,
+  "marketCapM": 106147,
+  "high52": 410.879,
+  "high52Date": "2025-10-15",
+  "low52": 228.2795,
+  "low52Date": "2026-07-01",
+  "last": 299.59,
+  "prevClose": 300.4,
+  "nameKo": "컨스털레이션 에너지",
+  "nameEn": "CONSTELLATION ENERGY CORPORATION",
+  "listedOn": "2022-02-02",
+  "exchange": "나스닥",
+  "listedShares": 354307370
+ }
+}

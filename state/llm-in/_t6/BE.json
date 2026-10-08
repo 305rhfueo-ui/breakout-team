@@ -1,7 +1,8 @@
 {
  "ticker": "BE",
- "date": "2026-10-07",
- "session": "2026-10-06",
+ "date": "2026-10-08",
+ "session": "2026-10-07",
+ "source": "watch",
  "plan": {
   "ticker": "BE",
   "name": null,
@@ -9,43 +10,43 @@
   "industry": "Electrical Equipment & Parts",
   "grade": "A",
   "state": "pre",
-  "asOf": "2026-10-06",
-  "price": 295.78,
+  "asOf": "2026-10-07",
+  "price": 291.29,
   "pivot": 302.35,
   "pivotDate": "2026-09-29",
-  "stop": 283.81,
-  "riskPerSharePct": 6.13,
-  "weightPct": 8.2,
+  "stop": 284.11,
+  "riskPerSharePct": 6.03,
+  "weightPct": 8.3,
   "weightCapped": false,
-  "distToPivotPct": -2.17,
-  "distToPivotAdr": -0.35,
-  "extensionAdr": 0.79,
+  "distToPivotPct": -3.66,
+  "distToPivotAdr": -0.58,
+  "extensionAdr": 0.47,
   "chase": false,
-  "adrPct": 6.27,
-  "ma10": 281.08,
-  "dollarVol20M": 4535.1,
+  "adrPct": 6.26,
+  "ma10": 282.69,
+  "dollarVol20M": 4530.6,
   "liquid": true,
   "reasons": [
    "선행 상승 +92%",
-   "베이스 4주",
+   "베이스 4.2주",
    "깊이 17.6%",
    "저점 상승 1회",
    "진폭 1.38배 · 10일 종가폭 1.8 ADR",
-   "10일선 +0.8 ADR · 20일선 +1.1 ADR",
-   "20일선 기울기 +4.36%"
+   "10일선 +0.5 ADR · 20일선 +0.8 ADR",
+   "20일선 기울기 +3.53%"
   ],
   "fails": [],
   "metrics": {
-   "baseBars": 20,
-   "baseWeeks": 4,
+   "baseBars": 21,
+   "baseWeeks": 4.2,
    "depthPct": 17.6,
    "priorMovePct": 92.2,
    "higherLows": 1,
    "contraction": 1.38,
    "closeRange10Adr": 1.8,
-   "surf10": 0.79,
-   "surf20": 1.13,
-   "slope20": 4.36,
+   "surf10": 0.47,
+   "surf20": 0.84,
+   "slope20": 3.53,
    "baseLow": 249.05,
    "lastSwingLow": 251.3
   },
@@ -54,12 +55,21 @@
   "blocked": null,
   "shadowBook": null,
   "watch": true,
-  "score": 67.8
+  "score": 66.3
  },
  "site": null,
- "eye": null,
+ "eye": {
+  "score": 7,
+  "reasons": [
+   "최근 1주는 더 조용하다(그 전 1주의 0.52배)",
+   "최근 1주 거래량이 한 달 평균의 0.67배로 줄었다(팔 사람이 줄어듦)",
+   "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.17, 최저 0.15)",
+   "넘어야 할 선 $302.35 바로 아래(-3.66%)"
+  ],
+  "resistance": 302.35
+ },
  "detail": {
-  "fetchedAt": "2026-10-07",
+  "fetchedAt": "2026-10-08",
   "nameKo": "블룸 에너지",
   "nameEn": "BLOOM ENERGY CORPORATION",
   "financials": {
@@ -129,6 +139,18 @@
   "news": {
    "items": [
     {
+     "title": "Here's Why Bloom Energy (BE) Fell More Than Broader Market",
+     "url": "https://www.nasdaq.com/articles/heres-why-bloom-energy-be-fell-more-broader-market-1",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Bloom Energy Crosses Key SMAs: Should Investors Buy the Stock Now?",
+     "url": "https://www.nasdaq.com/articles/bloom-energy-crosses-key-smas-should-investors-buy-stock-now",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
      "title": "Is Bloom Energy an Excellent AI Stock to Buy Right Now in October?",
      "url": "https://www.nasdaq.com/articles/bloom-energy-excellent-ai-stock-buy-right-now-october",
      "date": "2026-10-07",
@@ -163,12 +185,6 @@
      "url": "https://www.nasdaq.com/articles/zacks-screen-finds-strong-growth-stocks-bloom-energy",
      "date": "2026-09-29",
      "publisher": "Zacks"
-    },
-    {
-     "title": "Why Bloom Energy Stock Is Powering Higher Today",
-     "url": "https://www.nasdaq.com/articles/why-bloom-energy-stock-powering-higher-today",
-     "date": "2026-09-29",
-     "publisher": "The Motley Fool"
     }
    ]
   },
@@ -245,7 +261,7 @@
      "analyst": "박기현",
      "title": "[블룸 에너지 (NYS:BE)] 노이즈를 압도한 실적의 실체, 어닝 리비전은 여전히 진행형",
      "summary": "- 2Q26 호실적과 가이던스 상향으로 입증된 강력한 외형 성장 및 영업 레버리지- Time-to-Power 경쟁우위와 $25B 금융 셸프 기반의 안정적 수주 전환- 공매도 노이즈 완화 및 밸류에이션 부담 축소 속 어닝 리비전 지속",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcclmezzxzmegcgxeccq.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcclmezzxzmegcgxeccl.pdf"
     },
     {
      "date": "2026-07-30",
@@ -253,7 +269,7 @@
      "analyst": "함형도",
      "title": "[블룸 에너지 (NYS:BE)] 고객사 확대로 강화된 성장 모멘텀",
      "summary": "- 27년까지 30~40GW의 신규 데이터센터 가동 예정이지만 지난 3년간 미 국의 연평균 신규 발전소 설치량은 10GW(24시간 가동 기준) 수준. 데이 터센터 사업자들의 블룸 의존도는 더욱 높아질 것이며, 블룸 생산능력 확 장은 가속화될 전망. 주가 하락에도 중장기 방향성에 집중할 필요- SO 방식의 연료전지 제조사인 블룸에너지의 2분기 실적은 매출액 10.6억 달러(+166 YoY, 이하 YoY), Adj-OPM +22.5%(+15.4%p), Adj-EPS 0.78 달러(+680%)로 컨센대비 각각 +27%, +6.8%p, +94% 기록- 주요 고객사인 Oracle의 2.5GW 데이터센터 프로젝트 지연으로 블룸 주가 는 낙폭을 확대. 하지만 금번 컨콜에서 미국 모든 주요 하이퍼스케일러, 12 곳 이상의 네오클라우드 등으로 고객사 확대됐다 언급",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzixzgxlzxgzxgcgxeccq.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzixzgxlzxgzxgcgxeccl.pdf"
     },
     {
      "date": "2026-07-29",
@@ -261,7 +277,7 @@
      "analyst": "박제인",
      "title": "[블룸 에너지 (NYS:BE)] Earnings Flash",
      "summary": "- 매출액 10.7억 달러(YoY +165.5%), 조정 EPS 0.78달러(YoY +680%)로 각각 예상치 27%, 94% 상회.- 사업부별 매출액: 1제품 부문은 9.4억 달러(YoY +215.4%)로 전체 매출의 88% 차지하며 성장 주도- 어닝 서프라이즈와 연간 가이던스 대폭 상향으로 시간의 12%대 급등",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlziezcigimigkgcgxeccq.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlziezcigimigkgcgxeccl.pdf"
     },
     {
      "date": "2026-07-29",
@@ -269,7 +285,7 @@
      "analyst": "문경원",
      "title": "[블룸 에너지 (NYS:BE)] 2Q26 Review: 고객은 하나가 아니다",
      "summary": "- 2Q26 매출 10.7억달러(+166% YoY)로 컨센서스(8.4억달러) 대폭 상회. GPM 33.4%(+604bp YoY), 영업이익 2.4억달러(OPM 22.5%, vs 컨센서스 1.3억 달러) 기록하며 레버리지 효과 본격화. non-GAAP EPS $0.78(컨센서스 $0.48).- 매출 구조(엔드 커스터머 오프테이크 계약 → 파이낸서(Brookfield 등)가 장비 구 매·소유 → Bloom 매출 인식)를 명확히 공개. 이 구조하에서 프로젝트 지연 시 파 이낸서는 Bloom으로부터의 장비 인도 의무를 부담. Oracle Project Jupiter 파이프 라인 인허가 반려에도 단기 매출 영향이 제한적일 전망. 동사는 1)Fungibility(사 이트 간 재배치 용이성), 2)고객사 다변화를 콜 전반에 걸쳐 강조. 특히 모든 미국 하이퍼스케일러 및 12개 이상의 네오클라우드 코로케이션 사업자가 Bloom 솔루 션 승인을 완료했다는 코멘트가 인상적. Nebius는 오프테이커 중 하나로 공개",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzglzmizcizmqgcgxeccq.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzglzmizcizmqgcgxeccl.pdf"
     },
     {
      "date": "2026-04-30",
@@ -277,7 +293,7 @@
      "analyst": "박기현",
      "title": "[블룸 에너지 (NYS:BE)] 매출 성장을 압도하는 이익의 속도",
      "summary": "- 세 자릿수 매출 성장과 압도적 이익 증가율로 질적·양적 성장을 동시 입증- AI 수요 기반 연간 매출 약 80% 성장 전망 및 생산 역량에 대한 자신감 피력- '프로젝트 주피터'를 통한 역대 최대 규모 레퍼런스로 전력 인프라 표준을 선점- Bloom Energy-Oracle 파트너십 분석: AI 전력 공급의 표준으로 도약- 2026~2027 년에 걸쳐 배포될 1.2GW 의 물량이 확정",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqzckcgxkillqgcgxeccq.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqzckcgxkillqgcgxeccl.pdf"
     },
     {
      "date": "2026-04-30",
@@ -285,7 +301,7 @@
      "analyst": "나민식",
      "title": "[블룸 에너지 (NYS:BE)] 5GW, 생산량 증가",
      "summary": "- 1Q26 가이던스 큰 폭으로 상회하며 26년 연간 가이던스 상향- 그린필드 투자 없이 5GW까지 CAPA 확장 가능- 5GW 비전은 국내 부품 공급사의 구조적 수혜로 이어질 전망",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqzcigemllizxgcgxeccq.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqzcigemllizxgcgxeccl.pdf"
     },
     {
      "date": "2026-04-29",
@@ -293,7 +309,7 @@
      "analyst": "함형도",
      "title": "[블룸 에너지 (NYS:BE)] 아직도 저평가된 주식",
      "summary": "- 5GW의 생산능력으로 가능한 매출은 제품 150억달러, 서비스 및 기타 20~30억달러 예상. 서비스는 누적 출하량 쌓일수록 매출액 확대되는 구조 로 추가 성장 가능.- SO 방식의 연료전지 제조사인 블룸에너지의 1분기 실적은 매출액 7.5억달 러(+130 YoY, 이하 YoY), Adj-OPM +17.3%(+13.3%p), Adj-EPS 0.44달 러(+1,366%)로 컨센대비 각각 +40%, +11.1%p, +425% 기록- 연료전지 Capa에 대한 기존 계획은 25년 1GW에서 26년 말 2GW. 블룸 은 이러한 계단식 성장에서 지속적인 Capa 확장 전략으로 선회. 앞으로 수백 MW 단위로 수요에 맞춰 확대 예정이며, 현재 부지에서 5GW까지 확대 가능",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqkkmqzzqcliegcgxeccq.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqkkmqzzqcliegcgxeccl.pdf"
     },
     {
      "date": "2026-04-15",
@@ -301,36 +317,28 @@
      "analyst": "나민식",
      "title": "[블룸 에너지 (NYS:BE)] BE-Oracle MSA 2.8GW 파트너쉽 발표",
      "summary": "- Signal: Oracle과 최대 2.8GW 규모의 SOFC 공급 MSA 체결- Key: 26년 CAPA 증설 가속화 및 가이던스 상향 모니터링 필요- Step: 향후 CAPA증설은 국내 공급망 기업 수혜로 이어질 전망",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxgcmklekmxgqgcgxeccq.pdf"
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxgcmklekmxgqgcgxeccl.pdf"
     }
    ]
   }
  },
  "detailNote": null,
+ "cnbc": null,
+ "kis": null,
  "chart": {
-  "lastBar": "2026-10-06",
+  "lastBar": "2026-10-07",
   "numbers": {
-   "price": 295.78,
-   "ma20": 274.83,
-   "ma50": 240.34,
-   "ma150": 234.23,
-   "distMA50": 23.07,
+   "price": 291.29,
+   "ma20": 275.93,
+   "ma50": 242.83,
+   "ma150": 235.08,
+   "distMA50": 19.96,
    "periodHigh": 351.28,
-   "pullbackFromHigh": -15.8,
-   "volRatio20": 0.74,
-   "dryUpRatio": 0.72
+   "pullbackFromHigh": -17.08,
+   "volRatio20": 0.66,
+   "dryUpRatio": 0.67
   },
   "last10": [
-   {
-    "d": "2026-09-23",
-    "o": 276.96,
-    "h": 282.64,
-    "l": 271.02,
-    "c": 275.19,
-    "v": 8193500,
-    "clsPos": 36,
-    "gapPct": 0.16
-   },
    {
     "d": "2026-09-24",
     "o": 256,
@@ -417,9 +425,19 @@
     "h": 300.8,
     "l": 285.64,
     "c": 295.78,
-    "v": 12308900,
+    "v": 12328800,
     "clsPos": 67,
     "gapPct": 3
+   },
+   {
+    "d": "2026-10-07",
+    "o": 286,
+    "h": 296.83,
+    "l": 284.54,
+    "c": 291.29,
+    "v": 10904377,
+    "clsPos": 55,
+    "gapPct": -3.31
    }
   ],
   "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/BE-3m.png",
@@ -427,7 +445,7 @@
  },
  "market": {
   "verdict": "green",
-  "ko": "🟢 10일선이 20일선을 넘은 지 13일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "ko": "🟢 10일선이 20일선을 넘은 지 14일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
   "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
   "finraLevel": "warn"
  }

@@ -1,0 +1,463 @@
+{
+ "ticker": "GRAL",
+ "date": "2026-10-08",
+ "session": "2026-10-07",
+ "source": "list",
+ "plan": {
+  "ticker": "GRAL",
+  "name": "그레일",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
+  "price": 132.89999389648438,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 9.01,
+  "extensionAdr": -0.27,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.7152812098399491,
+    "pct": 99.96458923512748
+   },
+   "m3": {
+    "v": 0.8175600233097193,
+    "pct": 99.75212464589235
+   },
+   "m6": {
+    "v": 1.6864764628480728,
+    "pct": 99.18555240793201
+   }
+  },
+  "ret1m": 71.53,
+  "ret3m": 81.76,
+  "ret6m": 168.65,
+  "marketCap": "6.88B",
+  "volx": 0.74,
+  "volSurgeWk": 0.67,
+  "high52": 79.83,
+  "newHigh52": false,
+  "adr": 9.01,
+  "div50": 48.76,
+  "div200": 78.39,
+  "targetStatus": false,
+  "saleCy": 22.85,
+  "saleNy": 25.34,
+  "epsCy": -35.77,
+  "epsNy": 9.7,
+  "cyTrend": -2.15,
+  "nyTrend": -16.53,
+  "est": {
+   "cyCur": -7.50988,
+   "cy30": -7.675,
+   "nyCur": -8.23808,
+   "ny30": -9.87
+  },
+  "fs": {
+   "sale": [
+    25.72,
+    28.11,
+    13.97
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자확대"
+   ],
+   "opm": [
+    -388.89,
+    -332.88,
+    -285.37
+   ],
+   "updated": "2026-09-08 08:36:46"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "3mo",
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": "2026-09-23",
+   "m3": "2026-09-23",
+   "m6": "2026-09-25"
+  },
+  "top2Streak": {
+   "m1": 11,
+   "m3": 11,
+   "m6": 9
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-08",
+  "nameKo": "그레일",
+  "nameEn": "GRAIL INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001699031&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 44687000,
+     "profit": -173783000,
+     "netIncome": -110247000,
+     "margin": -388.9,
+     "yoy": {
+      "revenue": 25.7,
+      "profit": -9.4,
+      "netIncome": 3.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 40785000,
+     "profit": -135765000,
+     "netIncome": -93187000,
+     "margin": -332.9,
+     "yoy": {
+      "revenue": 28.1,
+      "profit": 11.6,
+      "netIncome": 12.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 43597000,
+     "profit": -124411000,
+     "netIncome": -99176000,
+     "margin": -285.4,
+     "yoy": {
+      "revenue": 14,
+      "profit": 9.1,
+      "netIncome": -2.2,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 36194000,
+     "profit": -125291000,
+     "netIncome": -88977000,
+     "margin": -346.2,
+     "yoy": {
+      "revenue": 26.3,
+      "profit": 31.7,
+      "netIncome": 29.2,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Insider Sale: Chief Financial Officer of $GRAL Sells 8,000 Shares",
+     "url": "https://www.nasdaq.com/articles/insider-sale-chief-financial-officer-gral-sells-8000-shares",
+     "date": "2025-07-17",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "GRAIL Earnings Results: $GRAL Reports Quarterly Earnings",
+     "url": "https://www.nasdaq.com/articles/grail-earnings-results-gral-reports-quarterly-earnings",
+     "date": "2025-05-13",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "Lobbying Update: $500,000 of GRAIL INC. (FORMERLY GRAIL LLC) lobbying was just disclosed",
+     "url": "https://www.nasdaq.com/articles/lobbying-update-500000-grail-inc-formerly-grail-llc-lobbying-was-just-disclosed",
+     "date": "2025-05-05",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "New Analyst Forecast: $GRAL Given $32.0 Price Target",
+     "url": "https://www.nasdaq.com/articles/new-analyst-forecast-gral-given-320-price-target",
+     "date": "2025-04-23",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "Lobbying Update: $30,000 of GRAIL INC. lobbying was just disclosed",
+     "url": "https://www.nasdaq.com/articles/lobbying-update-30000-grail-inc-lobbying-was-just-disclosed",
+     "date": "2025-01-22",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "Lobbying Update: $50,000 of GRAIL INC. lobbying was just disclosed",
+     "url": "https://www.nasdaq.com/articles/lobbying-update-50000-grail-inc-lobbying-was-just-disclosed",
+     "date": "2025-01-17",
+     "publisher": "Quiver Quantitative"
+    },
+    {
+     "title": "Illumina (NASDAQ:ILMN) to Face Significant Loss from Grail Spin-Off",
+     "url": "https://www.nasdaq.com/articles/illumina-nasdaq-ilmn-face-significant-loss-grail-spin",
+     "date": "2024-06-18",
+     "publisher": "TipRanks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1699031/000162828026053341/gral-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-22",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1699031/000162828026044693/gral-20260618.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-01",
+    "itemsKo": [
+     "임원 변동",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1699031/000162828026039461/gral-20260601.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1699031/000162828026030495/gral-20260505.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-19",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1699031/000169903126000009/gral-20260219.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1699031/000162828026001786/gral-20260112.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-07-16",
+     "broker": "신한투자증권",
+     "analyst": "하헌호",
+     "title": "[그레일 (NAS:GRAL)] MCED 진단기기 선도기업",
+     "summary": "- 다중암 진단기기(MCED, Multi-Cancer Early Detection) 시장의 선도기업. 아직 상용화에 진입하지 못했으나 ASCO에서 대표 제품의 양호한 임상 데이터로 가능성 입증. 추가 임상, 파트너십 등 호재 빠르게 반영할 전망- 대표 MCED 진단기기 갤러리가 ASCO에서 구체적 성과를 입증해 상용화 기대감 점증. 영국보건당국(NHS)과 공동 진행하는 임상(NHS-Galleri)의 1차 평가지표(3-4기 환자 감소) 달성에는 실패했으나 2차 평가지표 양호- 3-4기 전체 환자 비중 증가했으나 4기 진단은 뚜렷하게 감소. 12개 암의 4기 검진 비율이 14% 줄었고 2차, 3차 검진에서 각 22%, 26% 감소해 치 명적인 병기 발견의 감소 효과 증명. 1-2기에서 발견된 환자는 16% 늘어 갤러리 사용을 통한 조기 진단 및 예후도 개선 가능성 입증",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkexgegcliczzgcgxeccl.pdf"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "cnbc": [
+  {
+   "title": "Jim Cramer says Grail can run higher as FDA decision on Galleri nears",
+   "url": "https://www.cnbc.com/2026/10/06/cramer-grail-stock-galleri-fda-approval.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Grail is a long way from being profitable, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/10/06/grail-is-a-long-way-from-being-profitable-says-jim-cramer.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "The one thing I am worried about here is the valuation, says Jim Cramer on Grail",
+   "url": "https://www.cnbc.com/video/2026/10/06/the-one-thing-i-am-worried-about-here-is-the-valuation-says-jim-cramer-on-grail.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "GRAL",
+  "fetchedAt": "2026-10-08",
+  "source": "한국투자증권 Open API",
+  "per": 13.64,
+  "pbr": 2.34,
+  "eps": 9.75,
+  "bps": 56.93,
+  "shares": 44666233,
+  "marketCapM": 5939,
+  "high52": 166.475,
+  "high52Date": "2026-10-06",
+  "low52": 41.5,
+  "low52Date": "2026-02-23",
+  "last": 132.97,
+  "prevClose": 137.28,
+  "nameKo": "그레일",
+  "nameEn": "GRAIL INC",
+  "listedOn": "2024-06-25",
+  "exchange": "나스닥",
+  "listedShares": 44666233
+ },
+ "chart": {
+  "lastBar": "2026-10-07",
+  "numbers": {
+   "price": 132.9,
+   "ma20": 111.38,
+   "ma50": 89.34,
+   "ma150": 69.18,
+   "distMA50": 48.76,
+   "periodHigh": 166.48,
+   "pullbackFromHigh": -20.17,
+   "volRatio20": 0.62,
+   "dryUpRatio": 0.81
+  },
+  "last10": [
+   {
+    "d": "2026-09-24",
+    "o": 105.5,
+    "h": 126.81,
+    "l": 101.98,
+    "c": 125.21,
+    "v": 3442900,
+    "clsPos": 94,
+    "gapPct": -2.78
+   },
+   {
+    "d": "2026-09-25",
+    "o": 123.5,
+    "h": 127.67,
+    "l": 118.45,
+    "c": 126.89,
+    "v": 1290700,
+    "clsPos": 92,
+    "gapPct": -1.37
+   },
+   {
+    "d": "2026-09-28",
+    "o": 128.9,
+    "h": 134.42,
+    "l": 126.74,
+    "c": 132.63,
+    "v": 1109300,
+    "clsPos": 77,
+    "gapPct": 1.58
+   },
+   {
+    "d": "2026-09-29",
+    "o": 132.75,
+    "h": 140.88,
+    "l": 131.2,
+    "c": 136.57,
+    "v": 920600,
+    "clsPos": 55,
+    "gapPct": 0.09
+   },
+   {
+    "d": "2026-09-30",
+    "o": 138.27,
+    "h": 151.46,
+    "l": 136,
+    "c": 140.12,
+    "v": 1920700,
+    "clsPos": 27,
+    "gapPct": 1.24
+   },
+   {
+    "d": "2026-10-01",
+    "o": 138.23,
+    "h": 141.54,
+    "l": 132.04,
+    "c": 132.56,
+    "v": 1088300,
+    "clsPos": 5,
+    "gapPct": -1.35
+   },
+   {
+    "d": "2026-10-02",
+    "o": 135.52,
+    "h": 143.5,
+    "l": 134.45,
+    "c": 143.26,
+    "v": 873800,
+    "clsPos": 97,
+    "gapPct": 2.23
+   },
+   {
+    "d": "2026-10-05",
+    "o": 143,
+    "h": 156.49,
+    "l": 140.3,
+    "c": 154.08,
+    "v": 1469900,
+    "clsPos": 85,
+    "gapPct": -0.18
+   },
+   {
+    "d": "2026-10-06",
+    "o": 159.43,
+    "h": 166.48,
+    "l": 135.8,
+    "c": 137.28,
+    "v": 2044300,
+    "clsPos": 5,
+    "gapPct": 3.47
+   },
+   {
+    "d": "2026-10-07",
+    "o": 134,
+    "h": 139,
+    "l": 130.62,
+    "c": 132.9,
+    "v": 991087,
+    "clsPos": 27,
+    "gapPct": -2.39
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/GRAL-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/GRAL-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선을 넘은 지 14일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

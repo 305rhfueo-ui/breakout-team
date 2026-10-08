@@ -52,12 +52,10 @@ window.TEAM4_DATA = {
         "status": "done",
         "ticker": "PENG",
         "category": 1,
-        "company": "Penguin Solutions는 AI 데이터센터용 서버·메모리 시스템을 만들어 파는 회사입니다. 기업 고객에게 AI 인프라 구축 서비스도 함께 제공합니다.",
-        "volumeExplanation": "10월 6일 회계 4분기 실적에서 매출과 주당순이익이 모두 증권사 예상을 웃돌았습니다. 실적 발표 직후 매수세가 몰리며 거래량이 평소의 약 7.5배로 늘었습니다.",
         "claims": [
           {
             "id": "c1",
-            "statement": "10월 6일 실적 발표에서 매출과 주당순이익이 모두 시장 예상치를 넘어섰다. 같은 날 실적 관련 8-K 공시 2건이 나왔다.",
+            "statement": "10월 6일 발표한 분기 실적에서 매출과 이익이 증권사 예상치를 웃돌았다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -73,7 +71,23 @@ window.TEAM4_DATA = {
           },
           {
             "id": "c2",
-            "statement": "실적 직전 AI 관련 수주 잔고가 계속 늘고 있다는 분석이 나왔다. 앞으로 매출이 이어질 것이라는 기대가 깔려 있었다.",
+            "statement": "실적 설명회에서 AI 인프라 사업이 더 빠르게 커질 것이라는 신호가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PENG Q4 Earnings Call Signals Faster AI Infrastructure Growth",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/peng-q4-earnings-call-signals-faster-ai-infrastructure-growth",
+                "date": "2026-10-07",
+                "quote": "PENG Q4 Earnings Call Signals Faster AI Infrastructure Growth",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "실적 발표 전부터 AI 수주잔고(아직 매출로 잡히지 않은 계약 물량)가 늘고 있다는 기대가 있었다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -88,16 +102,18 @@ window.TEAM4_DATA = {
             ]
           }
         ],
+        "company": "Penguin Solutions는 AI 데이터센터용 서버와 컴퓨팅 시스템을 설계·공급하고 관련 서비스로 돈을 번다. 최근에는 AI 인프라 비중을 키우는 중이다.",
+        "volumeExplanation": "10월 6일 분기 실적이 시장 예상을 웃돌았고, 설명회에서 AI 인프라 성장이 빨라진다는 신호가 나오며 거래량이 평소의 7배 넘게 늘었다. 이 이야기가 맞는지는 다음 분기에도 AI 수주잔고와 매출이 같이 늘어나는지로 확인된다.",
         "confidence": "medium",
         "factcheck": {
-          "verdict": "partial",
+          "verdict": "pass",
           "removed": [],
-          "reason": "c1의 '8-K 공시 2건'이 출처 quote에 명시되지 않음. 실적 beat는 검증됨."
+          "reason": "어닝 분류 적절. 세 주장 모두 sourced되었고, 출처가 주장을 뒷받침함. statement의 날짜·숫자가 quote와 일치."
         },
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
-        "researchedOn": "2026-10-07",
-        "carried": true
+        "researchedOn": "2026-10-08",
+        "carried": false
       }
     },
     {
@@ -213,9 +229,39 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:40:44"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BKH",
+        "category": 3,
+        "company": "Black Hills는 미국 중서부 여러 주에 전기와 천연가스를 공급하는 규제 대상 유틸리티(공공설비) 회사로, 정해진 요금제에서 수익을 얻는다.",
+        "volumeExplanation": "10월 6일 Black Hills가 와이오밍주 샤이엔의 Google 데이터센터에 전력을 공급하는 확정 계약을 공시했다. 대형 고객 확보로 전력 수요 증가 기대가 생기며 거래량이 평소보다 크게 늘었다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 6일 Black Hills가 Google의 샤이엔 데이터센터 사업에 전력을 공급하는 확정 계약 체결을 공시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Black Hills Corp 8-K (Item 7.01, 2026-10-06)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526415597/bkh-20261006.htm",
+                "date": "2026-10-06",
+                "quote": "Black Hills Corporation announced the execution of definitive agreements to serve Google's data center project in Cheyenne, Wyoming.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "계약 공시 분류 적절. 8-K 공시 근거로 Google 샤이엔 데이터센터 전력 공급 계약을 뒷받침. 날짜·내용 일치."
+        },
+        "categoryName": "대형 파트너십·공급계약",
+        "isHighlight": false,
+        "researchedOn": "2026-10-08",
+        "carried": false
       }
     },
     {
@@ -259,9 +305,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:08:58"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "NWE",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "NorthWestern Energy는 미국 몬테나·사우스다코타·네브래스카에서 전기와 가스를 공급하는 규제 대상 유틸리티(전력·가스 공급 회사)입니다. 요금으로 안정적인 수입을 얻습니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음 분류 적절. no_source 명시, volumeExplanation과 일치."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-08",
+        "carried": false
       }
     },
     {
@@ -316,18 +382,18 @@ window.TEAM4_DATA = {
             "sources": []
           }
         ],
-        "company": "MDT(메드트로닉)는 심장 기기, 신경 자극기, 당뇨 기기 같은 의료기기를 팔아 돈을 버는 세계 최대급 의료기기 회사입니다.",
+        "company": "메드트로닉은 심장 기기, 당뇨 관리 기기, 수술 로봇 등 의료기기를 만들어 병원에 팔아 돈을 버는 세계 최대급 의료기기 회사입니다.",
         "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
         "confidence": "low",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
-          "reason": ""
+          "reason": "근거 없음 분류 적절. no_source 명시, volumeExplanation과 일치."
         },
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
-        "researchedOn": "2026-10-06",
-        "carried": true
+        "researchedOn": "2026-10-08",
+        "carried": false
       }
     },
     {
@@ -437,9 +503,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:02:18"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MORN",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Morningstar는 펀드·주식 투자 조사 자료와 신용평가, 투자 소프트웨어를 팔아 돈을 버는 금융 데이터 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음 분류 적절. no_source 명시, volumeExplanation과 일치."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-08",
+        "carried": false
       }
     },
     {
@@ -483,9 +569,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:35:18"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ALLE",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Allegion은 Schlage 등 브랜드로 도어락·출입통제 같은 보안 제품을 만들어 파는 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-08",
+        "carried": false
       }
     },
     {
@@ -529,9 +635,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:42:57"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ATLC",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Atlanticus는 신용이 낮은 소비자에게 신용카드와 할부 대출을 제공하고, 이자와 수수료로 돈을 버는 금융회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-08",
+        "carried": false
       }
     },
     {
@@ -575,9 +701,31 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:21:43"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CECO",
+        "category": 6,
+        "claims": [
+          {
+            "id": "none",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "CECO는 공장 배출가스와 폐수를 처리하는 환경·공정 설비를 만들어 파는 산업재 기업이다.",
+        "volumeExplanation": "뚜렷한 실적·계약 뉴스 없이 거래량만 늘었다. 10월 5일 공시된 상장 거래소 이전(나스닥에서 텍사스증권거래소로)이 유일한 사건이지만, 이것이 거래량의 원인이라는 근거는 없다. 이전 공시 외에 확인된 호재가 없어 새 소식이 나오는지 지켜봐야 한다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reason": "statement의 '10월 2일'과 '종목 코드는 CECO로 그대로다'가 quote/출처 제목에 없음. 핵심 내용(거래소 변경, 10월 19일 거래)만 sourced."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-08",
+        "carried": false
       }
     }
   ],
@@ -604,14 +752,14 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 4,
+    "done": 10,
     "total": 10,
-    "cap": null,
-    "pending": 6,
+    "cap": 8,
+    "pending": 0,
     "failed": 0,
-    "carried": 4,
+    "carried": 2,
     "ineligible": 0,
-    "note": "10종목 중 4종목을 조사했습니다. 그중 4종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 6종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 2종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -629,5 +777,24 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적·가이던스(회사의 향후 전망치) 호재는 2건으로, 한 업종에 몰리지 않고 각각 다른 분야입니다. 산업 기술 돌파 호재는 오늘 입력에 없었습니다.",
     "caution": "강조한 두 종목은 입력에 담긴 공시·발표 내용만 근거로 했고, 주가가 이미 얼마나 올랐는지나 차트 상태는 확인하지 않았습니다. CRL은 발표일이 9월 24일로 약 2주 지난 재료라는 점도 감안하세요.",
     "researchedOn": "2026-10-07"
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "PENG",
+        "category": 1,
+        "oneLine": "10월 6일 실적이 증권사 예상보다 좋았고, AI 인프라 사업이 더 빨리 큰다는 신호가 나왔다."
+      }
+    ],
+    "sectorSignal": "실적 호재는 1건(PENG)이고, 산업 기술 돌파는 없다. 나머지는 계약 1건과 뉴스 없는 거래량 급증 6건이라 특정 업종 쏠림은 판단하기 어렵다.",
+    "caution": "PENG의 호재 근거는 분기 실적 발표와 설명회 언급이며, 구체적인 숫자(예상치 대비 폭, 가이던스 수치)는 입력에 없다. 뉴스 없는 거래량 급증 종목은 이유를 알 수 없어 호재로 보면 안 된다.",
+    "researchedOn": "2026-10-08"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "6": 7
   }
 };

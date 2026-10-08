@@ -1,7 +1,8 @@
 {
  "ticker": "DELL",
- "date": "2026-10-07",
- "session": "2026-10-06",
+ "date": "2026-10-08",
+ "session": "2026-10-07",
+ "source": "watch",
  "plan": {
   "ticker": "DELL",
   "name": "델 테크놀로지스",
@@ -9,45 +10,45 @@
   "industry": "Computer Hardware",
   "grade": "B",
   "state": "pre",
-  "asOf": "2026-10-06",
-  "price": 574,
+  "asOf": "2026-10-07",
+  "price": 578.96,
   "pivot": 595.51,
   "pivotDate": "2026-09-18",
-  "stop": 568.22,
-  "riskPerSharePct": 4.58,
-  "weightPct": 10.9,
+  "stop": 568.39,
+  "riskPerSharePct": 4.55,
+  "weightPct": 11,
   "weightCapped": false,
-  "distToPivotPct": -3.61,
-  "distToPivotAdr": -0.76,
-  "extensionAdr": 0.88,
+  "distToPivotPct": -2.78,
+  "distToPivotAdr": -0.59,
+  "extensionAdr": 0.96,
   "chase": false,
-  "adrPct": 4.76,
-  "ma10": 550.03,
-  "dollarVol20M": 4501.9,
+  "adrPct": 4.68,
+  "ma10": 552.94,
+  "dollarVol20M": 4422.5,
   "liquid": true,
   "reasons": [
    "선행 상승 +66%",
-   "베이스 3.4주",
+   "베이스 3.6주",
    "깊이 13.1%",
    "✗ 저점 상승 0회",
-   "진폭 0.77배 · 10일 종가폭 1.4 ADR",
-   "10일선 +0.9 ADR · 20일선 +0.8 ADR",
-   "20일선 기울기 +2.57%"
+   "진폭 0.76배 · 10일 종가폭 1.6 ADR",
+   "10일선 +1 ADR · 20일선 +0.9 ADR",
+   "20일선 기울기 +1.91%"
   ],
   "fails": [
    "higherLows"
   ],
   "metrics": {
-   "baseBars": 17,
-   "baseWeeks": 3.4,
+   "baseBars": 18,
+   "baseWeeks": 3.6,
    "depthPct": 13.1,
    "priorMovePct": 65.9,
    "higherLows": 0,
-   "contraction": 0.77,
-   "closeRange10Adr": 1.4,
-   "surf10": 0.88,
-   "surf20": 0.82,
-   "slope20": 2.57,
+   "contraction": 0.76,
+   "closeRange10Adr": 1.6,
+   "surf10": 0.96,
+   "surf20": 0.93,
+   "slope20": 1.91,
    "baseLow": 517.52,
    "lastSwingLow": 520.18
   },
@@ -56,34 +57,34 @@
   "blocked": null,
   "shadowBook": null,
   "watch": true,
-  "score": 56.4
+  "score": 57.2
  },
  "site": {
   "rs": {
    "m1": {
-    "v": 0.05370695347079654,
-    "pct": 83.95892351274787
+    "v": 0.0751479634941449,
+    "pct": 88.06657223796034
    },
    "m3": {
-    "v": 0.2718178740726274,
-    "pct": 93.87393767705382
+    "v": 0.34613690897896154,
+    "pct": 96.56515580736544
    },
    "m6": {
-    "v": 2.0075026209276534,
-    "pct": 99.61048158640227
+    "v": 2.253201255422771,
+    "pct": 99.8229461756374
    }
   },
-  "ret1m": 5.37,
-  "ret3m": 27.18,
-  "ret6m": 200.75,
+  "ret1m": 7.51,
+  "ret3m": 34.61,
+  "ret6m": 225.32,
   "marketCap": "364.96B",
   "volx": null,
-  "volSurgeWk": 1,
-  "high52": 92.74,
+  "volSurgeWk": 0.74,
+  "high52": 96.39,
   "newHigh52": false,
-  "adr": 4.76,
-  "div50": 12.42,
-  "div200": 87.39,
+  "adr": 4.7,
+  "div50": 16.15,
+  "div200": 93.29,
   "targetStatus": true,
   "saleCy": 70.38,
   "saleNy": 16.54,
@@ -126,18 +127,18 @@
   "top2Streak": {
    "m1": 0,
    "m3": 0,
-   "m6": 80
+   "m6": 81
   }
  },
  "eye": {
   "score": 10,
   "reasons": [
-   "최근 2주 가격 흔들림이 그 전 2주의 0.77배로 줄었다",
-   "최근 1주 거래량이 한 달 평균의 0.66배로 줄었다(팔 사람이 줄어듦)",
-   "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.13, 최저 0.13)",
-   "넘어야 할 선 $595.51 바로 아래(-3.61%)",
-   "최근 2주 종가가 2.32% 안에서만 움직였다",
-   "1년 최고가의 92.74% 자리"
+   "최근 2주 가격 흔들림이 그 전 2주의 0.76배로 줄었다",
+   "최근 1주 거래량이 한 달 평균의 0.65배로 줄었다(팔 사람이 줄어듦)",
+   "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.14, 최저 0.13)",
+   "넘어야 할 선 $595.51 바로 아래(-2.78%)",
+   "최근 2주 종가가 2.84% 안에서만 움직였다",
+   "1년 최고가의 96.39% 자리"
   ],
   "resistance": 595.51
  },
@@ -383,30 +384,100 @@
   }
  },
  "detailNote": null,
+ "cnbc": [
+  {
+   "title": "Up to 25 million Trump Accounts could be funded by mid-October, IRS CEO says",
+   "url": "https://www.cnbc.com/2026/10/02/trump-accounts-funding.html",
+   "date": "2026-10-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Value investors retool their models to keep up with the AI stock market",
+   "url": "https://www.cnbc.com/2026/09/23/how-value-investors-are-adapting-to-the-ai-stock-market.html",
+   "date": "2026-09-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "AI cloud provider Nscale files to go public",
+   "url": "https://www.cnbc.com/2026/09/18/nscale-ai-cloud-provider-ipo-nscl.html",
+   "date": "2026-09-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer bets AI spending will 'continue apace,' says he's not giving up on data center trade",
+   "url": "https://www.cnbc.com/2026/09/16/cramer-ai-slowdown-stocks-dip.html",
+   "date": "2026-09-16",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's lightning round: Buy Energy Transfer",
+   "url": "https://www.cnbc.com/2026/09/14/cramers-lightning-round-buy-energy-transfer.html",
+   "date": "2026-09-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "AI stocks sink while cybersecurity shares rally on slowdown fears",
+   "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html",
+   "date": "2026-09-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Dell stock jumps on RBC initiation, now up nearly 350% in 2026",
+   "url": "https://www.cnbc.com/2026/09/11/dell-stock-rbc-initiation.html",
+   "date": "2026-09-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Dell, Skyworks Solutions & more",
+   "url": "https://www.cnbc.com/2026/09/11/stocks-making-the-biggest-moves-midday-dell-swks-gme.html",
+   "date": "2026-09-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "DELL",
+  "fetchedAt": "2026-10-08",
+  "source": "한국투자증권 Open API",
+  "per": 33.65,
+  "pbr": 0,
+  "eps": 17.23,
+  "bps": 0,
+  "shares": 315433000,
+  "marketCapM": 182872,
+  "high52": 595.51,
+  "high52Date": "2026-09-18",
+  "low52": 109.6987,
+  "low52Date": "2026-01-21",
+  "last": 579.75,
+  "prevClose": 574,
+  "nameKo": "델 테크놀로지스",
+  "nameEn": "DELL TECHNOLOGIES INC",
+  "listedOn": "2018-12-28",
+  "exchange": "뉴욕거래소",
+  "listedShares": 315433000
+ },
  "chart": {
-  "lastBar": "2026-10-06",
+  "lastBar": "2026-10-07",
   "numbers": {
-   "price": 574,
-   "ma20": 551.56,
-   "ma50": 494.19,
-   "ma150": 355.86,
-   "distMA50": 16.15,
+   "price": 578.96,
+   "ma20": 553.75,
+   "ma50": 497.93,
+   "ma150": 358.74,
+   "distMA50": 16.27,
    "periodHigh": 595.51,
-   "pullbackFromHigh": -3.61,
-   "volRatio20": 0.66,
-   "dryUpRatio": 0.66
+   "pullbackFromHigh": -2.78,
+   "volRatio20": 0.5,
+   "dryUpRatio": 0.65
   },
   "last10": [
-   {
-    "d": "2026-09-23",
-    "o": 559,
-    "h": 570.72,
-    "l": 542.23,
-    "c": 549.83,
-    "v": 8252300,
-    "clsPos": 27,
-    "gapPct": 1.84
-   },
    {
     "d": "2026-09-24",
     "o": 535.97,
@@ -493,9 +564,19 @@
     "h": 587.19,
     "l": 560.96,
     "c": 574,
-    "v": 5386800,
+    "v": 5401800,
     "clsPos": 50,
     "gapPct": 1.72
+   },
+   {
+    "d": "2026-10-07",
+    "o": 563.27,
+    "h": 585,
+    "l": 560.76,
+    "c": 578.96,
+    "v": 3975387,
+    "clsPos": 75,
+    "gapPct": -1.87
    }
   ],
   "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/DELL-3m.png",
@@ -503,7 +584,7 @@
  },
  "market": {
   "verdict": "green",
-  "ko": "🟢 10일선이 20일선을 넘은 지 13일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "ko": "🟢 10일선이 20일선을 넘은 지 14일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
   "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
   "finraLevel": "warn"
  }

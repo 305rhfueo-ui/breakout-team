@@ -1,0 +1,304 @@
+{
+ "ticker": "TTAN",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "서비스타이탄",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 18.87,
+  "saleNy": 14.53,
+  "epsCy": 33.05,
+  "epsNy": 21.91,
+  "est": {
+   "cyCur": 1.35713,
+   "cy30": 1.31119,
+   "nyCur": 1.65446,
+   "ny30": 1.64118
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    24.63,
+    21.36,
+    25.03
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    -9.58,
+    -16.8,
+    -16.95
+   ],
+   "updated": "2026-09-07 07:31:15"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-10-07",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-08",
+  "nameKo": "서비스타이탄",
+  "nameEn": "SERVICETITAN INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001638826&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": false,
+     "revenue": 292756000,
+     "profit": -27552000,
+     "netIncome": -24921000,
+     "margin": -9.4,
+     "yoy": {
+      "revenue": 20.9,
+      "profit": 20.8,
+      "netIncome": 22.7,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 268824000,
+     "profit": -25762000,
+     "netIncome": -22818000,
+     "margin": -9.6,
+     "yoy": {
+      "revenue": 24.6,
+      "profit": 48,
+      "netIncome": 50.8,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 253987000,
+     "profit": -42671000,
+     "netIncome": -41784000,
+     "margin": -16.8,
+     "yoy": {
+      "revenue": 21.4,
+      "profit": 57.3,
+      "netIncome": 58.6,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 249163000,
+     "profit": -42226000,
+     "netIncome": -39527000,
+     "margin": -16.9,
+     "yoy": {
+      "revenue": 25,
+      "profit": 4.1,
+      "netIncome": 14.9,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "ServiceTitan CFO David Sherry Sells 23,245 Shares for $1.3 Million",
+     "url": "https://www.nasdaq.com/articles/servicetitan-cfo-david-sherry-sells-23245-shares-13-million",
+     "date": "2026-10-02",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "ServiceTitan CEO Unloads Over 3,000 Shares Worth $180,000 as the Stock Dropped to a One-Year Low",
+     "url": "https://www.nasdaq.com/articles/servicetitan-ceo-unloads-over-3000-shares-worth-180000-stock-dropped-one-year-low",
+     "date": "2026-09-24",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "ServiceTitan (TTAN) Q2 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/servicetitan-ttan-q2-2027-earnings-call-transcript",
+     "date": "2026-09-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Why ServiceTitan Stock Is Crashing Today",
+     "url": "https://www.nasdaq.com/articles/why-servicetitan-stock-crashing-today",
+     "date": "2026-09-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "ServiceTitan Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/servicetitan-q2-earnings-call-highlights",
+     "date": "2026-09-08",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Compared to Estimates, ServiceTitan Inc. (TTAN) Q2 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-servicetitan-inc-ttan-q2-earnings-look-key-metrics",
+     "date": "2026-09-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ServiceTitan Inc. (TTAN) Q2 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/servicetitan-inc-ttan-q2-earnings-and-revenues-surpass-estimates",
+     "date": "2026-09-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Countdown to ServiceTitan Inc. (TTAN) Q2 Earnings: A Look at Estimates Beyond Revenue and EPS",
+     "url": "https://www.nasdaq.com/articles/countdown-servicetitan-inc-ttan-q2-earnings-look-estimates-beyond-revenue-and-eps",
+     "date": "2026-09-02",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-08",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000093/ttan-20260908.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000067/ttan-20260617.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000044/ttan-20260604.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000009/ttan-20260312.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-03",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1638826/000119312526035548/ttan-20260130.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-12-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1638826/000119312525308075/ttan-20251204.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Why Cramer still recommends being 'a little more reserved' about data center stocks",
+   "url": "https://www.cnbc.com/2026/09/09/why-cramer-still-recommends-being-a-little-more-reserved-about-data-center-stocks.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves midday: Meta, Centerspace, Apple, Casey's General Stores",
+   "url": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-midday-meta-csr-aapl-casy-sig.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves premarket: Apple, Casey's General Store, Signet Jewelers",
+   "url": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-premarket-aapl-casy-sig.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves after hours: ServiceTitan, Mission Produce",
+   "url": "https://www.cnbc.com/2026/09/08/stocks-making-the-biggest-moves-after-hours-ttan-avo-chym.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Final Trades: SK Hynix, Airbnb, Meta and ServiceTitan",
+   "url": "https://www.cnbc.com/video/2026/10/07/final-trades-sk-hynix-airbnb-meta-servicetitan.html",
+   "date": "2026-10-07",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Calls of the Day: Spotify, ServiceTitan and Coinbase",
+   "url": "https://www.cnbc.com/video/2026/10/07/calls-of-the-day-spotify-servicetitan-coinbase.html",
+   "date": "2026-10-07",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "TTAN",
+  "fetchedAt": "2026-10-08",
+  "source": "한국투자증권 Open API",
+  "per": 52.46,
+  "pbr": 4.31,
+  "eps": 1.37,
+  "bps": 16.65,
+  "shares": 84082060,
+  "marketCapM": 6032,
+  "high52": 111.36,
+  "high52Date": "2025-12-23",
+  "low52": 53,
+  "low52Date": "2026-09-18",
+  "last": 71.74,
+  "prevClose": 68.67,
+  "nameKo": "서비스타이탄",
+  "nameEn": "SERVICETITAN INC",
+  "listedOn": "2024-12-12",
+  "exchange": "나스닥",
+  "listedShares": 84082060
+ }
+}

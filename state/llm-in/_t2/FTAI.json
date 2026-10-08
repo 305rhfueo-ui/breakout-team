@@ -1,0 +1,280 @@
+{
+ "ticker": "FTAI",
+ "sector": "Industrials",
+ "industry": "Rental & Leasing Services",
+ "nameKo": "FTAI 에비에이션",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 55.43,
+  "saleNy": 69.39,
+  "epsCy": 24.58,
+  "epsNy": 116.38,
+  "est": {
+   "cyCur": 5.83,
+   "cy30": 5.69,
+   "nyCur": 12.615,
+   "ny30": 12.01333
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    40.94,
+    65.45,
+    32.72
+   ],
+   "ni": [
+    -27.28,
+    49.19,
+    29.02
+   ],
+   "opm": [
+    13.71,
+    13.12,
+    17.82
+   ],
+   "updated": "2026-09-09 06:21:35"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-08",
+  "nameKo": "FTAI 에비에이션",
+  "nameEn": "FTAI AVIATION LTD",
+  "financials": {
+   "profitLabel": "세전이익",
+   "marginLabel": "세전이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001590364&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 953085000,
+     "profit": 150713000,
+     "netIncome": 125094000,
+     "margin": 15.8,
+     "yoy": {
+      "revenue": 40.9,
+      "profit": -25.9,
+      "netIncome": -24.4,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 830697000,
+     "profit": 169359000,
+     "netIncome": 137899000,
+     "margin": 20.4,
+     "yoy": {
+      "revenue": 65.5,
+      "profit": 35.2,
+      "netIncome": 34.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 662028000,
+     "profit": 134115000,
+     "netIncome": 115562000,
+     "margin": 20.3,
+     "yoy": {
+      "revenue": 32.7,
+      "profit": 24.1,
+      "netIncome": 12.8,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 667064000,
+     "profit": 144048000,
+     "netIncome": 117718000,
+     "margin": 21.6,
+     "yoy": {
+      "revenue": 43.2,
+      "profit": 53.5,
+      "netIncome": 36.1,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "FTAI Buys 27 Boeing 737-700 Aircraft From WestJet",
+     "url": "https://www.nasdaq.com/articles/ftai-buys-27-boeing-737-700-aircraft-westjet",
+     "date": "2026-09-28",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "FTAI Aviation Authorizes $500 Mln Share Repurchase Program",
+     "url": "https://www.nasdaq.com/articles/ftai-aviation-authorizes-500-mln-share-repurchase-program",
+     "date": "2026-09-16",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Implied Volatility Surging for FTAI Aviation Stock Options",
+     "url": "https://www.nasdaq.com/articles/implied-volatility-surging-ftai-aviation-stock-options",
+     "date": "2026-09-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "FTAI Aviation Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/ftai-aviation-q2-earnings-call-highlights",
+     "date": "2026-07-30",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "FTAI Aviation (FTAI) Lags Q2 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/ftai-aviation-ftai-lags-q2-earnings-estimates",
+     "date": "2026-07-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "FTAI Aviation (FTAI) Stock Jumps 5.8%: Will It Continue to Soar?",
+     "url": "https://www.nasdaq.com/articles/ftai-aviation-ftai-stock-jumps-58-will-it-continue-soar",
+     "date": "2026-07-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Earnings Preview: FTAI Aviation (FTAI) Q2 Earnings Expected to Decline",
+     "url": "https://www.nasdaq.com/articles/earnings-preview-ftai-aviation-ftai-q2-earnings-expected-decline",
+     "date": "2026-07-22",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590364/000162828026050622/ftai-20260729.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-29",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590364/000114036126023226/ef20075112_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590364/000114036126017931/ef20071938_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590364/000162828026028390/ftai-20260429.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-06",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590364/000114036126008165/ef20067294_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-25",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590364/000162828026011685/ftai-20260225.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-05-04",
+     "broker": "신한투자증권",
+     "analyst": "이주은",
+     "title": "[FTAI 에비에이션 (NAS:FTAI)] 엔진 정비를 넘어 전력 시장으로",
+     "summary": "- FTAI는 항공 엔진 MRO 시장 내 엔진 교체 및 모듈 교체 방식을 적용해 정비 비용과 시간을 단축시키면서 시장 점유율 확대. 항공 엔진 모듈 생산 확대와 4분기 발전 터빈 인도를 감안한다면 성장성 대비 저평가 구간- 매출 8.3억달러(+65.5% YoY, 이하 YoY), 조정 EBITDA 3.3억달러 (+21.4%), 순이익 1.3억달러(+49.2%), ESP 1.29달러(+48.3%)로 컨센 대비 각각 +11.7%, +1.8%, -10.3%, -10.6% 기록. 항공우주제품 매출 7.4억달 러(+103.7%)로 전체 매출 성장 견인. 1Q 항공 엔진 모듈 생산량 270대로 전년 대비 132대(+95.7%) 증가했고 올해 목표 1,050대의 26% 달성. 엔 진 MRO 시장 내 시장점유율 12%로 25년말 대비 2%p 확대- 4월 말 리볼빙 한도를 4억달러에서 20.3억달러로 증액. JP모건, MUFG, 골 드만 삭스 등 15개 대형 은행 연합 참여. 향후 항공 엔진 모듈 생산 확장, FTAI Power 개발, M&A 등에 활용할 계획",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqqlqeqeizzcixgcgxeccl.pdf"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Wednesday's top analyst calls: Nvidia, SpaceX, Tesla, Apple, Chevron, Micron",
+   "url": "https://www.cnbc.com/2026/09/16/wednesday-biggest-analyst-calls-like-nvidia.html",
+   "date": "2026-09-16",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Wednesday's big analyst calls: Nvidia, SpaceX, Tesla, Cava, AMD, Microsoft",
+   "url": "https://www.cnbc.com/2026/07/15/wednesday-stocks-by-analyst-calls-like-spacex.html",
+   "date": "2026-07-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "FTAI",
+  "fetchedAt": "2026-10-08",
+  "source": "한국투자증권 Open API",
+  "per": 38.08,
+  "pbr": 44.41,
+  "eps": 4.59,
+  "bps": 3.94,
+  "shares": 102707000,
+  "marketCapM": 17956,
+  "high52": 321.7039,
+  "high52Date": "2026-02-26",
+  "low52": 148.6654,
+  "low52Date": "2025-11-18",
+  "last": 174.83,
+  "prevClose": 179.44,
+  "nameKo": "FTAI 에비에이션",
+  "nameEn": "FTAI AVIATION LTD",
+  "listedOn": "2022-04-26",
+  "exchange": "나스닥",
+  "listedShares": 102707000
+ }
+}

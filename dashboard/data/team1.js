@@ -502,8 +502,361 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-08",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "연준 의사록, 금리 추가 인상 가능성 확인",
+        "easy": "공개된 연준 회의 의사록에서 위원들은 금리를 한 번 더 올릴 수 있다고 봤다. 다만 언제 올릴지에 대한 신호는 없었고, 인상을 연달아 하자는 분위기도 아니었다. 왜 한 번 더 필요하다고 봤는지는 기사에 안 나왔다. 인상 카드가 살아 있는 동안은 금리 눈치보기 장세가 이어진다.",
+        "whyMatters": "금리에 민감한 소프트웨어·바이오테크 같은 성장주에 불리하고, 예대마진이 늘어나는 은행은 상대적으로 낫다. 연속 인상이 아니라는 점은 위험자산 쪽에 한숨 돌릴 여지를 준다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Fed officials see another hike coming, but no sign as to when, minutes show",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html",
+            "date": "2026-10-07",
+            "quote": "Fed officials see another hike coming, but no sign as to when, minutes show",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Fed's minutes show no appetite for a series of interest-rate hikes",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/fed-minutes-show-no-appetite-for-a-series-of-interest-rate-hikes-8b1c6436?mod=mw_rss_topstories",
+            "date": "2026-10-07",
+            "quote": "Fed's minutes show no appetite for a series of interest-rate hikes",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "10년 국채 금리, 24년 최고에서 한발 물러섰다",
+        "easy": "미국 10년 만기 국채 금리가 24년 만의 최고 수준에서 내려왔다. 국채 입찰이 무난하게 소화돼 '사 줄 사람이 없다'는 걱정이 가라앉은 덕이다. 금리가 내려오면 할인율 부담(미래 이익을 현재 가치로 깎는 정도)이 줄어든다. 높은 금리는 그동안 주식시장 대부분을 눌러 왔다.",
+        "whyMatters": "이자 부담이 큰 유틸리티·리츠와 소형 성장주에 숨통이 트인다. 반대로 금리 상승을 먹고 살던 은행의 이자 수익 기대는 줄어든다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "10-year Treasury yield backs off from 24-year high after solid bond auction eases demand fears",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html",
+            "date": "2026-10-07",
+            "quote": "10-year Treasury yield backs off from 24-year high after solid bond auction eases demand fears",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/higher-yields-are-taking-their-toll-on-all-areas-of-the-stock-market-except-the-one-that-matters-69a90322?mod=mw_rss_topstories",
+            "date": "2026-10-07",
+            "quote": "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "3분기 실적시즌 개막, 이익 호조 기대",
+        "easy": "이번 주부터 미국 기업들의 3분기 실적 발표가 시작된다. 이익이 크게 늘고 있어 S&P500을 새 고점으로 밀어올릴 수 있다는 전망이 나온다. 기대가 이미 주가에 들어가 있다는 뜻이기도 하다. 숫자나 가이던스(회사가 내놓은 다음 분기 전망)가 조금만 모자라도 주가는 크게 흔들린다.",
+        "whyMatters": "이익이 실제로 늘고 있는 반도체·소프트웨어에는 상승 근거가 되고, 기대를 못 맞춘 소비재·유통에는 조정 빌미가 된다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Here comes third-quarter earnings season. Booming profits could propel the S&P 500 to new heights",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/07/here-comes-third-quarter-earnings-season-booming-profits-could-propel-the-sp-500-to-new-heights.html",
+            "date": "2026-10-07",
+            "quote": "Here comes third-quarter earnings season. Booming profits could propel the S&P 500 to new heights",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "마이크로소프트, 엔비디아 칩 넣은 AI 노트북 내놨다",
+        "easy": "마이크로소프트가 엔비디아 AI 칩을 넣은 2,599달러짜리 서피스 노트북 울트라의 사전 주문을 받기 시작했다. 두 회사가 손잡고 AI를 기기 안에서 직접 돌리는 제품을 만든 것이다. AI 수요가 데이터센터를 넘어 개인 기기로 넓어진다는 신호다. 다만 가격대가 높아 얼마나 팔릴지는 아직 확인된 게 없다.",
+        "whyMatters": "엔비디아와 노트북 부품을 대는 반도체 업종에 새 수요처가 생긴다. 반대로 AI 칩을 못 넣은 기존 PC 업체는 교체 수요에서 밀린다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/07/microsoft-starts-taking-preorders-for-2599-surface-laptop-ultra.html",
+            "date": "2026-10-07",
+            "quote": "Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Microsoft and Nvidia are teaming up on a supercharged AI laptop",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/microsoft-and-nvidia-are-teaming-up-on-a-supercharged-ai-laptop-f58b28d8?mod=mw_rss_topstories",
+            "date": "2026-10-07",
+            "quote": "Microsoft and Nvidia are teaming up on a supercharged AI laptop",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "스페이스X, 빚을 내 엔비디아 칩 사려 한다",
+        "easy": "스페이스X가 엔비디아 칩을 사려고 큰 규모의 빚을 낼 수 있다는 소식이 나왔다. AI에서 돌아올 수익이 그만큼 크다고 보기 때문이다. 비상장 기업까지 대출로 AI 칩을 사들이는 단계에 들어섰다는 뜻이다. 빚으로 굴러가는 수요는 금리가 오를 때 가장 먼저 줄어든다.",
+        "whyMatters": "엔비디아와 AI 인프라 쪽에는 당장 주문이 쌓이는 호재다. 반면 위성·통신처럼 투자비가 큰 업종에는 이자 부담이 먼저 쌓인다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "SpaceX may chase 'stunning' AI returns by taking on a lot of debt to buy Nvidia chips",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/spacex-reportedly-is-looking-to-raise-as-much-money-as-the-company-generates-in-revenue-to-buy-nvidia-chips-01ca6d82?mod=mw_rss_topstories",
+            "date": "2026-10-07",
+            "quote": "SpaceX may chase 'stunning' AI returns by taking on a lot of debt to buy Nvidia chips",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "미국-중국 유조선 운임이 전쟁 전의 10배로 뛰었다",
+        "easy": "미국 걸프 연안에서 중국으로 가는 초대형 유조선 한 척이 7,600만 달러에 계약됐다. 전쟁 전 수준의 10배에 해당하는 운임이다. 왜 이렇게 뛰었는지는 기사에 안 나왔다. 원유를 옮기는 비용이 뛰면 기름값과 물류비에 그대로 얹힌다.",
+        "whyMatters": "유조선을 가진 해운과 에너지 업종에는 운임 수익이 커지는 호재다. 반대로 기름을 많이 쓰는 항공·화학에는 비용 부담으로 돌아온다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Supertanker chartered from Gulf Coast to China for $76 million, 10 times higher than pre-war level",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/07/supertanker-from-us-to-china-chartered-for-76-million-source.html",
+            "date": "2026-10-07",
+            "quote": "Supertanker chartered from Gulf Coast to China for $76 million, 10 times higher than pre-war level",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "새로 사기에는 괜찮은 구간이다. QQQ가 757.73으로 마감하며 단기선이 중기선 위에서 둘 다 오르는 흐름을 14일째 유지하고 있다. 오늘 뉴스는 금리 쪽 긴장과 실적·AI 수요라는 호재가 맞붙은 그림이고, 장을 끌고 가는 쪽은 여전히 기술주로 주도 종목의 70%가 기술 업종이다. 다만 빚내서 산 주식이 1년 전보다 37.2% 늘어 주의선을 넘었고 추가 금리 인상 여지도 남아 있어, 조정이 오면 낙폭이 평소보다 커질 수 있다. 이번 주는 3분기 실적 첫 발표들에 대한 주가 반응과, 10년 국채 금리가 24년 최고치 아래에 머무는지를 보면 된다.",
+    "keyRisks": [
+      "추가 금리 인상 여지: 연준이 한 번 더 올릴 수 있다고 본 만큼, 금리에 민감한 성장주가 먼저 흔들린다.",
+      "빚투 과열: 마진부채가 주의선을 넘어 있어, 하락이 시작되면 강제 매도가 낙폭을 키운다.",
+      "기술주 한 바구니: 주도 종목이 기술 업종에 70% 몰려 있어 AI 관련 악재 하나로 전체가 같이 빠진다.",
+      "높아진 실적 기대: 이익 호조가 이미 주가에 반영돼 있어, 전망을 조금만 낮춰도 급락이 나올 수 있다."
+    ],
+    "easySummary": [
+      "QQQ는 단기선이 중기선 위에 있고 둘 다 올라, 새로 사기에 나쁘지 않은 구간이다.",
+      "연준은 추가 인상 여지를 남겼지만 10년 국채 금리는 24년 최고에서 내려왔다.",
+      "AI 수요는 노트북과 우주기업 투자로 넓어졌고, 이번 주 3분기 실적이 방향을 가른다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 147,
+      "ok": 237,
+      "unverified": 3,
+      "dead": 0,
+      "stripped": 4,
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001664703/000162828026050150/ex991_q226financialresults.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001650372/000165037226000031/ex991q4fy26.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001650372/000165037226000031/ex991q4fy26.htm"
+        }
+      ],
+      "numberCut": 29,
+      "numberCuts": [
+        {
+          "sentence": "5월 27일 고점 418.9달러 뒤 조정을 받아 오늘도 335.91달러로 하루 새 4% 넘게 내렸다.",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "회사가 자사주 매입 규모를 30억 달러로 늘리고, 이 중 15억 달러는 빠르게 사들이는 방식으로 진행한다.",
+          "missing": [
+            "30억 달러"
+          ]
+        },
+        {
+          "sentence": "9월 15일 저점(279.77달러) 이후 급반등했고, 10월 7일에는 하루 12.4% 올랐다.",
+          "missing": [
+            "279.77"
+          ]
+        },
+        {
+          "sentence": "매출은 1년 전보다 118.6% 늘었지만 이익이 따라오지 않았다.",
+          "missing": [
+            "118.6"
+          ]
+        },
+        {
+          "sentence": "1분기 엔진 모듈 생산량은 270대로 전년의 약 2배였고 점유율은 12%로 연초보다 2%p 올랐다.",
+          "missing": [
+            "2",
+            "12",
+            "2"
+          ]
+        },
+        {
+          "sentence": "회사가 5억 달러 규모 자사주 매입을 승인했다.",
+          "missing": [
+            "5억 달러"
+          ]
+        },
+        {
+          "sentence": "실적 발표 뒤 주가가 34.1% 올랐다.",
+          "missing": [
+            "34.1"
+          ]
+        },
+        {
+          "sentence": "계약 잔고는 400억 달러에 이른다.",
+          "missing": [
+            "400억 달러"
+          ]
+        },
+        {
+          "sentence": "6월 30일 고점(약 499달러)보다 아직 낮고, 최근에는 시장이 오르는 날에도 주가가 내린 적이 있다.",
+          "missing": [
+            "499"
+          ]
+        },
+        {
+          "sentence": "PTC는 같은 날 중요 계약 체결 공시(8-K)를 냈다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "현재가 193달러는 인수가 205달러보다 낮아, 거래 완료 전 규제 승인 등의 불확실성이 가격에 반영돼 있다.",
+          "missing": [
+            "193"
+          ]
+        },
+        {
+          "sentence": "영업이익은 3.6억 달러로 116% 늘었고 영업이익률은 14.4%로 직전 분기(5.3%)보다 크게 올랐다.",
+          "missing": [
+            "5.3"
+          ]
+        },
+        {
+          "sentence": "회사가 10월 5일 10억 달러 규모의 가속 자사주 매입(주식을 한꺼번에 사들이는 방식)을 공시했다.",
+          "missing": [
+            "10억 달러"
+          ]
+        },
+        {
+          "sentence": "ON Semiconductor 가 10월 2일 시냅틱스 인수 계약을 주당 123달러, 총 57억 달러로 수정했다.",
+          "missing": [
+            "57억 달러"
+          ]
+        },
+        {
+          "sentence": "10월 7일 argenx와 ENHANZE 협력 대상을 2개 늘렸다.",
+          "missing": [
+            "2"
+          ]
+        },
+        {
+          "sentence": "9월 중순 13억 달러 규모 전환사채(주식으로 바꿀 수 있는 채권)를 발행했다.",
+          "missing": [
+            "13억 달러"
+          ]
+        },
+        {
+          "sentence": "조정 주당순이익은 1.15~1.16달러로 제시했다.",
+          "missing": [
+            "1.15",
+            "1.16"
+          ]
+        },
+        {
+          "sentence": "조정 주당순이익도 1.19달러로 예상 1.08달러를 넘었다.",
+          "missing": [
+            "1.19",
+            "1.08"
+          ]
+        },
+        {
+          "sentence": "네 분기 연속 20%대 중반 성장이다.",
+          "missing": [
+            "20"
+          ]
+        },
+        {
+          "sentence": "다음 1년 매출 전망은 증가율 16.6~17.5%로, 방금 끝난 해의 25%보다 느리다.",
+          "missing": [
+            "25"
+          ]
+        },
+        {
+          "sentence": "니덤은 180달러에서 215달러로, 스티븐스는 200달러에서 225달러로 올렸다.",
+          "missing": [
+            "180",
+            "215"
+          ]
+        },
+        {
+          "sentence": "다음 1년 매출 성장 전망이 16.6~17.5%로, 방금 끝난 해의 25%보다 크게 느려진다.",
+          "missing": [
+            "25"
+          ]
+        },
+        {
+          "sentence": "회사는 올해 매출을 39억~42억 달러, 조정 주당순이익을 2.55~2.85달러로 제시했다.",
+          "missing": [
+            "2.55",
+            "2.85"
+          ]
+        },
+        {
+          "sentence": "6월 분기 매출이 17.66억 달러로 1년 전보다 28% 늘었고, 클라우드 매출은 12.13억 달러로 31% 증가했다.",
+          "missing": [
+            "12.13억 달러",
+            "31"
+          ]
+        },
+        {
+          "sentence": "클라우드가 12.13억 달러로 31% 늘며 성장을 이끌었다.",
+          "missing": [
+            "12.13억 달러",
+            "31"
+          ]
+        },
+        {
+          "sentence": "분기 매출 증가율은 네 분기 연속 20%를 넘었다(20.6% → 23.3% → 31.7% → 27.6%).",
+          "missing": [
+            "20"
+          ]
+        },
+        {
+          "sentence": "회계상 영업이익률은 약 4.5%, 일회성을 뺀 기준으로는 약 25%다.",
+          "missing": [
+            "4.5",
+            "25"
+          ]
+        },
+        {
+          "sentence": "회사가 제시한 2027회계연도 매출 성장률 약 13%는 6월 분기 증가율 28%의 절반 이하다.",
+          "missing": [
+            "28"
+          ]
+        },
+        {
+          "sentence": "2027회계연도 회계상 영업이익률 전망은 약 4.5%로 6월 분기 11.9%보다 낮다.",
+          "missing": [
+            "11.9"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-08"
   }
 };

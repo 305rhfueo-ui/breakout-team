@@ -1,0 +1,564 @@
+{
+ "ticker": "CIEN",
+ "date": "2026-10-08",
+ "session": "2026-10-07",
+ "source": "list",
+ "plan": {
+  "ticker": "CIEN",
+  "name": "시에나",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
+  "price": 443.6499938964844,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 462.69,
+  "stop": 435.27,
+  "distToPivotPct": -3.51,
+  "distToPivotAdr": -0.57,
+  "riskPerSharePct": 5.93,
+  "adrPct": 6.14,
+  "extensionAdr": 2.36,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 39,
+   "baseWeeks": 7.8,
+   "depthPct": 32.7,
+   "priorMovePct": 43.1,
+   "higherLows": 2,
+   "contraction": 1.05,
+   "closeRange10Adr": 3.7,
+   "surf10": 2.36,
+   "surf20": 3.01,
+   "slope20": 5.48,
+   "baseLow": 311.6,
+   "lastSwingLow": 339.33
+  },
+  "reasons": [
+   "선행 상승 +43%",
+   "베이스 7.8주",
+   "✗ 깊이 32.7%",
+   "저점 상승 2회",
+   "✗ 진폭 1.05배 · 10일 종가폭 3.7 ADR",
+   "✗ 10일선 +2.4 ADR · 20일선 +3 ADR",
+   "20일선 기울기 +5.48%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.2999208379640844,
+    "pct": 98.68980169971671
+   },
+   "m3": {
+    "v": -0.0040185177242974155,
+    "pct": 57.75495750708215
+   },
+   "m6": {
+    "v": -0.0674920447495347,
+    "pct": 29.497167138810198
+   }
+  },
+  "ret1m": 29.99,
+  "ret3m": -0.4,
+  "ret6m": -6.75,
+  "marketCap": "62.91B",
+  "volx": null,
+  "volSurgeWk": 1.01,
+  "high52": 69.59,
+  "newHigh52": false,
+  "adr": 6.15,
+  "div50": 18.22,
+  "div200": 12.77,
+  "targetStatus": true,
+  "saleCy": 34.68,
+  "saleNy": 30.77,
+  "epsCy": 171.43,
+  "epsNy": 42.84,
+  "cyTrend": 9.34,
+  "nyTrend": 26.62,
+  "est": {
+   "cyCur": 7.16563,
+   "cy30": 6.55345,
+   "nyCur": 10.23522,
+   "ny30": 8.08372
+  },
+  "fs": {
+   "sale": [
+    37.05,
+    39.51,
+    33.09
+   ],
+   "ni": [
+    429.57,
+    2333.05,
+    237.17
+   ],
+   "opm": [
+    18.02,
+    15.14,
+    13.27
+   ],
+   "updated": "2026-09-07 07:10:02"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-10-06",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 2,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-08",
+  "nameKo": "시에나",
+  "nameEn": "CIENA CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000936395&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-08-01",
+     "derived": false,
+     "revenue": 1671129000,
+     "profit": 301179000,
+     "netIncome": 266418000,
+     "margin": 18,
+     "yoy": {
+      "revenue": 37,
+      "profit": 309.6,
+      "netIncome": 429.6,
+      "priorEnd": "2025-08-02"
+     }
+    },
+    {
+     "periodEnd": "2026-05-02",
+     "derived": false,
+     "revenue": 1570739000,
+     "profit": 237871000,
+     "netIncome": 218220000,
+     "margin": 15.1,
+     "yoy": {
+      "revenue": 39.5,
+      "profit": 624.3,
+      "netIncome": 2333,
+      "priorEnd": "2025-05-03"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": false,
+     "revenue": 1427042000,
+     "profit": 189412000,
+     "netIncome": 150283000,
+     "margin": 13.3,
+     "yoy": {
+      "revenue": 33.1,
+      "profit": 134.8,
+      "netIncome": 237.2,
+      "priorEnd": "2025-02-01"
+     }
+    },
+    {
+     "periodEnd": "2025-11-01",
+     "derived": true,
+     "revenue": 1351984000,
+     "profit": 10491000,
+     "netIncome": 19489000,
+     "margin": 0.8,
+     "yoy": {
+      "revenue": 20.3,
+      "profit": -82.3,
+      "netIncome": -47.4,
+      "priorEnd": "2024-11-02"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Ciena Moves Up In Market Cap Rank, Passing Aon",
+     "url": "https://www.nasdaq.com/articles/ciena-moves-market-cap-rank-passing-aon",
+     "date": "2026-10-07",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Zacks Industry Outlook Ciena, Viavi and Ooma",
+     "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-ciena-viavi-and-ooma",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Ciena Breaks Above 200-Day Moving Average - Bullish for CIEN",
+     "url": "https://www.nasdaq.com/articles/ciena-breaks-above-200-day-moving-average-bullish-cien",
+     "date": "2026-10-02",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Surging Earnings Estimates Signal Upside for Ciena (CIEN) Stock",
+     "url": "https://www.nasdaq.com/articles/surging-earnings-estimates-signal-upside-ciena-cien-stock",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Wall Street Analysts Think Ciena (CIEN) Could Surge 36.82%: Read This Before Placing a Bet",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-think-ciena-cien-could-surge-3682-read-placing-bet",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Bernstein Initiates Coverage of Ciena at Outperform",
+     "url": "https://www.nasdaq.com/articles/bernstein-initiates-coverage-ciena-outperform",
+     "date": "2026-10-01",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Ciena's Optical Tech Gets a Boost From CtrlS Deployment",
+     "url": "https://www.nasdaq.com/articles/cienas-optical-tech-gets-boost-ctrls-deployment",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here is Why Growth Investors Should Buy Ciena (CIEN) Now",
+     "url": "https://www.nasdaq.com/articles/here-why-growth-investors-should-buy-ciena-cien-now",
+     "date": "2026-09-25",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/936395/000162828026060245/cien-20260903.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "3.02",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/936395/000119312526267607/d118604d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-08",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/936395/000119312526260665/d125730d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/936395/000162828026040614/cien-20260604.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-31",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/936395/000162828026022342/cien-20260326.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/936395/000162828026015006/cien-20260305.htm"
+   }
+  ],
+  "krReports": {
+   "total": 10,
+   "reports": [
+    {
+     "date": "2026-09-08",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[시에나 (NYS:CIEN)] 증명된 광 수요, 공급이 결정할 FY27 성장",
+     "summary": "- 견조한 수주잔고와 계약 기반 실적 하방 대비, Fwd PER은 1년래 최저 수준에 수렴- 공급 병목 및 현금흐름 우려로 주가 급락했으나, 이는 실적 훼손이 아닌 옵션 소멸- 공급 가시화와 Hyper-Rail 성과 확인 시, 배제된 성장 옵션의 리레이팅 기대",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllmczxczzmcxegcgxeccl.pdf"
+    },
+    {
+     "date": "2026-09-07",
+     "broker": "신한투자증권",
+     "analyst": "김아람",
+     "title": "[시에나 (NYS:CIEN)] 투자심리의 문제",
+     "summary": "- 실적발표 직후 주가 9% 하락. AI CapEx 관련주 주가 부진이 이어지는 가 운데 FY4Q26, FY27 가이던스에 서프라이즈 요인이 없었기 때문- 그러나 Q&A(2p)를 살펴보면 1) 해당 가이던스는 보수적이고, 2) DCI* , Scale-aross 수요는 최근 데이터센터 건설 지연 이슈와도 무관. AI CapEx 관련주 투자심리 회복 시 완만한 주가 상승 기대- 3분기 매출액과 조정 EPS(주당순이익)은 각각(이하 전년대비성장률) 16.7 억달러(+37%), 1.83달러(+423%)로 컨센서스를 2%, 37% 상회",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllqizzmzlxgqggcgxeccl.pdf"
+    },
+    {
+     "date": "2026-06-10",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[시에나 (NYS:CIEN)] 한층 또렷해진 성장 경로",
+     "summary": "- FY2Q26 매출·마진율 모두 시장 컨센서스 상회, AI 광 전송 수요 확대- FY3Q26 보수적 가이던스와 FY26 OpEx 상향으로 영업 레버리지 지속성 우려 부각- Book-to-Bill 1.4x, 수주잔고 매출전환·신제품 램프업 기반 중장기 성장성 유효",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlecqkllmkzgixgcgxeccl.pdf"
+    },
+    {
+     "date": "2026-06-08",
+     "broker": "신한투자증권",
+     "analyst": "김아람",
+     "title": "[시에나 (NYS:CIEN)] 멀티플 부담이 높았을 뿐",
+     "summary": "- 실적발표 직후 주가 14% 하락. 4개 분기 연속 호실적이었으나 높아진 밸 류에이션이 발목. 브로드컴을 포함한 AI CapEx 관련주 전반이 조정 받은 점도 투자심리에 악영향- 3분기 매출액과 조정 EPS(주당순이익)은 각각(이하 전년대비성장률) 15.7 억달러(+40%), 1.49달러(+2,383%)로 컨센서스를 소폭 상회- 하이퍼스케일러향 매출액은 70%, 통신사/MOFN*향 매출액은 28% 성장. RLS/Waveserver* 광 전송장비 매출액 55% 이상 성장. 신제품 하이퍼레일 RLS을 하이퍼스케일러와 공동 개발해 최초 계약. 27년부터 본격 매출화 예상. 경영진은 Scale-across가 당장은 멀티 데이터센터 학습 위주로 활용 되지만 추론/에이전틱 AI에서도 필수 인프라로 쓰인다고 강조",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlclqememziixigcgxeccl.pdf"
+    },
+    {
+     "date": "2026-04-07",
+     "broker": "메리츠증권",
+     "analyst": "황수욱, 정지수",
+     "title": "[시에나 (NYS:CIEN)] 광통신의 AI 백본 수요 확대",
+     "summary": "- Ciena는 AI 인프라 투자 확산의 수혜를 WAN/DCI에서 먼저 받고, 이제 데이터센터 안판으로 노출을 넓히는 국면- Ciena를 더 이상 전통적인 통신장비 업체로만 볼 수 없음 . 회사는 2025년에 30건이 넘는 MOFN 프로젝트를 수주했고, 선도 클 라우드 사업자의 scale-across 매출을 인식했으며, 추가 두 hyperscaler가 지역 데이터센터를 잇는 AI backbone용 광 솔루 션으로 Ciena를 선택했다고 밝힘- 광통신 업종 내에서도 Ciena는 AI 수혜가 가장 선명한 축. 회사는 FY26 연간 조정 영업이익률 가이던스를 17.5~19.5%로 제 시했고, FY26 연간 매출 성장률 midpoint는 28%로 제시",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqzzemlkziikmegcgxeccl.pdf"
+    },
+    {
+     "date": "2026-03-10",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[시에나 (NYS:CIEN)] AI 데이터센터 Scale-Across 기술의 선두주자",
+     "summary": "- 통신사 의존 구조에서 벗어나 AI 인프라 핵심 기업으로 변모- 70억 달러의 역대급 수주잔고와 1.6T(WL6) 시장 내 1년 이상의 기술 격차 보유- FY26~28 세 자릿수 EPS 성장에 따른 가파른 멀티플 희석 기대",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqicmzmegkclgkgcgxeccl.pdf"
+    },
+    {
+     "date": "2026-03-09",
+     "broker": "신한투자증권",
+     "analyst": "김아람",
+     "title": "[시에나 (NYS:CIEN)] 업황이 계속 좋습니다",
+     "summary": "- 실적 발표 이후 주가 12% 급락. FY26 매출액 가이던스(59억~63억달러)가 컨센서스 수준(60억달러)이었던 영향. 그동안의 주가 패턴 [고밸류에 거래 → 컨센서스 대폭 상회하는 가이던스 제공하며 정당화] 깨지며 조정- 그러나 중장기 투자포인트 훼손 없음. Scales-across* 투자로 인한 실적 성 장은 26년보다 27~28년 본격화. 가이던스 역시 보수적일 가능성. 공급망 이슈 등을 보며 추가 업데이트하겠다고 코멘트- 1분기 매출액과 매출총이익(이하 GPM)은 각각 14.3억달러(+33%YoY), 44.7%(flat YoY)로 컨센서스 14.0억달러, 43.4%를 소폭씩 상회",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqicecxgelicelgcgxeccl.pdf"
+    },
+    {
+     "date": "2026-02-10",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[시에나 (NYS:CIEN)] AI 트래픽 시대의 광학 인프라 선도 기업",
+     "summary": "- Scale-Across 확산에 따른 광 전송 네트워크 전환과 하이퍼스케일러 채택 확대- Nubis 인수 기반 CPO 핵심 기술 내재화 및 Inside-DC 시장으로 TAM 확장- 50억 달러 수주잔고 기반 FY26 매출 가시성 확보, 영업 레버리지 본격화",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcxqzilqxxxzggcgxeccl.pdf"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "cnbc": [
+  {
+   "title": "Cramer's lightning round: 'I think Ciena is very good",
+   "url": "https://www.cnbc.com/2026/10/05/cramers-lightning-round-i-think-ciena-is-very-good.html",
+   "date": "2026-10-05",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Buy the dip on this networking stock that set to more than double, says Citi",
+   "url": "https://www.cnbc.com/2026/09/04/buy-the-dip-on-this-networking-stock-that-set-to-more-than-double-says-citi.html",
+   "date": "2026-09-04",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Tesla, Ciena, Meta, Snowflake & more",
+   "url": "https://www.cnbc.com/2026/09/03/stocks-making-the-biggest-moves-midday-tsla-cien-meta-snow-rare.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "What we learned from Warsh's Jackson Hole speech, and GE Vernova's CFO to retire",
+   "url": "https://www.cnbc.com/2026/08/28/what-we-learned-from-warshs-jackson-hole-speech-and-ge-vernovas-cfo-to-retire.html",
+   "date": "2026-08-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Meta, Amylyx, Coherent & more",
+   "url": "https://www.cnbc.com/2026/08/18/stocks-making-the-biggest-moves-midday-meta-amlx-bidu-klar.html",
+   "date": "2026-08-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Lightning Round: Avery Dennison is a winner, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/10/05/lightning-round-avery-dennison-is-a-winner-says-jim-cramer.html",
+   "date": "2026-10-05",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "CIEN",
+  "fetchedAt": "2026-10-08",
+  "source": "한국투자증권 Open API",
+  "per": 99.34,
+  "pbr": 20.67,
+  "eps": 4.48,
+  "bps": 21.54,
+  "shares": 141809000,
+  "marketCapM": 63129,
+  "high52": 650.5286,
+  "high52Date": "2026-06-03",
+  "low52": 150.3692,
+  "low52Date": "2025-10-07",
+  "last": 445.167,
+  "prevClose": 443.65,
+  "nameKo": "시에나",
+  "nameEn": "CIENA CORP",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 141809000
+ },
+ "chart": {
+  "lastBar": "2026-10-07",
+  "numbers": {
+   "price": 446.45,
+   "ma20": 363.93,
+   "ma50": 377.18,
+   "ma150": 435.73,
+   "distMA50": 18.36,
+   "periodHigh": 637.51,
+   "pullbackFromHigh": -29.97,
+   "volRatio20": 1.19,
+   "dryUpRatio": 1.23
+  },
+  "last10": [
+   {
+    "d": "2026-09-24",
+    "o": 350.4,
+    "h": 363.46,
+    "l": 346.56,
+    "c": 358.43,
+    "v": 1418900,
+    "clsPos": 70,
+    "gapPct": -1.55
+   },
+   {
+    "d": "2026-09-25",
+    "o": 363,
+    "h": 366.43,
+    "l": 355.01,
+    "c": 356.91,
+    "v": 1616900,
+    "clsPos": 17,
+    "gapPct": 1.28
+   },
+   {
+    "d": "2026-09-28",
+    "o": 352.42,
+    "h": 356.99,
+    "l": 339.33,
+    "c": 344.19,
+    "v": 1830200,
+    "clsPos": 28,
+    "gapPct": -1.26
+   },
+   {
+    "d": "2026-09-29",
+    "o": 350.16,
+    "h": 356.21,
+    "l": 344.8,
+    "c": 354.92,
+    "v": 2226000,
+    "clsPos": 89,
+    "gapPct": 1.73
+   },
+   {
+    "d": "2026-09-30",
+    "o": 354.92,
+    "h": 359.98,
+    "l": 340.52,
+    "c": 351.82,
+    "v": 2656100,
+    "clsPos": 58,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-01",
+    "o": 355.19,
+    "h": 381,
+    "l": 350.68,
+    "c": 379.14,
+    "v": 2564300,
+    "clsPos": 94,
+    "gapPct": 0.96
+   },
+   {
+    "d": "2026-10-02",
+    "o": 385,
+    "h": 395.96,
+    "l": 377.03,
+    "c": 391.34,
+    "v": 2519400,
+    "clsPos": 76,
+    "gapPct": 1.55
+   },
+   {
+    "d": "2026-10-05",
+    "o": 393.77,
+    "h": 397.47,
+    "l": 382.5,
+    "c": 389.69,
+    "v": 2473900,
+    "clsPos": 48,
+    "gapPct": 0.62
+   },
+   {
+    "d": "2026-10-06",
+    "o": 393.58,
+    "h": 446.37,
+    "l": 392,
+    "c": 443.65,
+    "v": 6396600,
+    "clsPos": 95,
+    "gapPct": 1
+   },
+   {
+    "d": "2026-10-07",
+    "o": 428.98,
+    "h": 448,
+    "l": 422.3,
+    "c": 446.45,
+    "v": 3364469,
+    "clsPos": 94,
+    "gapPct": -3.31
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CIEN-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CIEN-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선을 넘은 지 14일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

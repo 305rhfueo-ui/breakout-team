@@ -1,0 +1,277 @@
+{
+ "ticker": "SYNA",
+ "sector": "Technology",
+ "industry": "Semiconductors",
+ "nameKo": "시냅틱스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.65,
+  "saleNy": 13.85,
+  "epsCy": 13.04,
+  "epsNy": 27.04,
+  "est": {
+   "cyCur": 5.17718,
+   "cy30": 5.17718,
+   "nyCur": 6.57731,
+   "ny30": 6.57731
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    8.91,
+    10.35,
+    13.21
+   ],
+   "ni": [
+    "적자확대",
+    "적자축소",
+    -922.22
+   ],
+   "opm": [
+    -5.23,
+    -4.32,
+    -4.99
+   ],
+   "updated": "2026-09-21 06:50:38"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-10-07",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-08",
+  "nameKo": "시냅틱스",
+  "nameEn": "SYNAPTICS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000817720&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-27",
+     "derived": true,
+     "revenue": 308000000,
+     "profit": -16100000,
+     "netIncome": -447400000,
+     "margin": -5.2,
+     "yoy": {
+      "revenue": 8.9,
+      "profit": 33.5,
+      "netIncome": -9419.1,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2026-03-28",
+     "derived": false,
+     "revenue": 294200000,
+     "profit": -12700000,
+     "netIncome": -8000000,
+     "margin": -4.3,
+     "yoy": {
+      "revenue": 10.4,
+      "profit": 51.7,
+      "netIncome": 63.3,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodEnd": "2025-12-27",
+     "derived": false,
+     "revenue": 302500000,
+     "profit": -15100000,
+     "netIncome": -14800000,
+     "margin": -5,
+     "yoy": {
+      "revenue": 13.2,
+      "profit": 0.7,
+      "netIncome": -922.2,
+      "priorEnd": "2024-12-28"
+     }
+    },
+    {
+     "periodEnd": "2025-09-27",
+     "derived": false,
+     "revenue": 292500000,
+     "profit": -23200000,
+     "netIncome": -20600000,
+     "margin": -7.9,
+     "yoy": {
+      "revenue": 13.5,
+      "profit": 18.3,
+      "netIncome": 10.8,
+      "priorEnd": "2024-09-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Synaptics (SYNA) Soars 14.1%: Is Further Upside Left in the Stock?",
+     "url": "https://www.nasdaq.com/articles/synaptics-syna-soars-141-further-upside-left-stock",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Onsemi Revises Synaptics $5.7 Bln Merger Agreement At $123/shr",
+     "url": "https://www.nasdaq.com/articles/onsemi-revises-synaptics-57-bln-merger-agreement-123-shr",
+     "date": "2026-10-02",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Synaptics' CEO Sold Stock After a 120,000-Share Vest. Here's What to Know.",
+     "url": "https://www.nasdaq.com/articles/synaptics-ceo-sold-stock-after-120000-share-vest-heres-what-know",
+     "date": "2026-08-23",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/817720/000114036126038301/ef20083029_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-21",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/817720/000081772026000061/syna-20260820.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/817720/000081772026000049/syna-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-25",
+    "itemsKo": [
+     "중요 계약 체결",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/817720/000114036126026434/ef20076748_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/817720/000081772026000035/syna-20260507.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/817720/000081772026000015/syna-20260205.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Tesla, Broadcom, Nike, ON Semiconductor & more",
+   "url": "https://www.cnbc.com/2026/10/02/stocks-making-the-biggest-moves-midday-tsla-avgo-nke-on-more-.html",
+   "date": "2026-10-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "ON Semiconductor records worst day since 2020 as CEO defends Synaptics deal",
+   "url": "https://www.cnbc.com/2026/06/26/on-semi-stock-synaptics-ceo-hassane-el-khoury.html",
+   "date": "2026-06-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "ON Semiconductor strikes $7 billion deal for Synaptics in physical AI push",
+   "url": "https://www.cnbc.com/2026/06/25/on-semi-synaptics-deal-physical-ai.html",
+   "date": "2026-06-25",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "CNBC TechCheck Evening Edition: June 26, 2026",
+   "url": "https://www.cnbc.com/video/2026/06/26/cnbc-techcheck-evening-edition-june-26th-2026.html",
+   "date": "2026-06-26",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "ON Semiconductor CEO: Synaptics deal will provide a $30B incremental market expansion",
+   "url": "https://www.cnbc.com/video/2026/06/26/onsemi-ceo-hassane-el-khoury-synaptics-deal-will-provide-a-30b-incremental-market-expansion.html",
+   "date": "2026-06-26",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "ON Semi to acquire Synaptics",
+   "url": "https://www.cnbc.com/video/2026/06/25/on-semi-to-acquire-synaptics.html",
+   "date": "2026-06-25",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "SYNA",
+  "fetchedAt": "2026-10-08",
+  "source": "한국투자증권 Open API",
+  "per": 9.44,
+  "pbr": 5.02,
+  "eps": 12.65,
+  "bps": 23.8,
+  "shares": 39701400,
+  "marketCapM": 4743,
+  "high52": 149.11,
+  "high52Date": "2026-05-27",
+  "low52": 58.28,
+  "low52Date": "2025-11-20",
+  "last": 119.46,
+  "prevClose": 119.39,
+  "nameKo": "시냅틱스",
+  "nameEn": "SYNAPTICS INC",
+  "listedOn": "0000-00-00",
+  "exchange": "나스닥",
+  "listedShares": 39701400
+ }
+}

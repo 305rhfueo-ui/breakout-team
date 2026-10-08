@@ -1,0 +1,320 @@
+{
+ "ticker": "MRNA",
+ "sector": "Healthcare",
+ "industry": "Biotechnology",
+ "nameKo": "모더나",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.08,
+  "saleNy": 15.84,
+  "epsCy": 15.53,
+  "epsNy": -42.88,
+  "est": {
+   "cyCur": -8.38721,
+   "cy30": -8.53512,
+   "nyCur": -4.79116,
+   "ny30": -4.90812
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    2.11,
+    260.19,
+    -29.81
+   ],
+   "ni": [
+    "적자축소",
+    "적자확대",
+    "적자축소"
+   ],
+   "opm": [
+    -562.07,
+    -356.81,
+    -126.4
+   ],
+   "updated": "2026-09-15 06:06:31"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "3mo",
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": "2026-10-05",
+   "m3": "2026-08-19",
+   "m6": "2026-08-19"
+  },
+  "top2Streak": {
+   "m1": 3,
+   "m3": 33,
+   "m6": 33
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-08",
+  "nameKo": "모더나",
+  "nameEn": "MODERNA INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682852&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 145000000,
+     "profit": -815000000,
+     "netIncome": -782000000,
+     "margin": -562.1,
+     "yoy": {
+      "revenue": 2.1,
+      "profit": 10.1,
+      "netIncome": 5.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 389000000,
+     "profit": -1388000000,
+     "netIncome": -1343000000,
+     "margin": -356.8,
+     "yoy": {
+      "revenue": 260.2,
+      "profit": -32.2,
+      "netIncome": -38.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 678000000,
+     "profit": -857000000,
+     "netIncome": -826000000,
+     "margin": -126.4,
+     "yoy": {
+      "revenue": -29.8,
+      "profit": 31.2,
+      "netIncome": 26.3,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1016000000,
+     "profit": -260000000,
+     "netIncome": -200000000,
+     "margin": -25.6,
+     "yoy": {
+      "revenue": -45.4,
+      "profit": -271.4,
+      "netIncome": -1638.5,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Moderna To Join Nasdaq-100, Replacing Warner Bros. Discovery",
+     "url": "https://www.nasdaq.com/articles/moderna-join-nasdaq-100-replacing-warner-bros-discovery",
+     "date": "2026-10-02",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Moderna (MRNA) Stock Dips While Market Gains: Key Facts",
+     "url": "https://www.nasdaq.com/articles/moderna-mrna-stock-dips-while-market-gains-key-facts",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Prediction: Moderna Stock Will Soar 100% by 2030",
+     "url": "https://www.nasdaq.com/articles/prediction-moderna-stock-will-soar-100-2030",
+     "date": "2026-09-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Moderna Names Juan Andres As Chief Operating Officer",
+     "url": "https://www.nasdaq.com/articles/moderna-names-juan-andres-chief-operating-officer",
+     "date": "2026-09-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Moderna vs. BioNTech: Which mRNA Cancer Stock Has More Upside?",
+     "url": "https://www.nasdaq.com/articles/moderna-vs-biontech-which-mrna-cancer-stock-has-more-upside",
+     "date": "2026-09-28",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-30",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526408289/d18337d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "3.02",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526378505/d108896d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000147/mrna-20260731.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-08",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000134/mrna-20260706.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-11",
+    "itemsKo": [
+     "5.03",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000101/mrna-20260506.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-01",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000057/mrna-20260501.htm"
+   }
+  ],
+  "krReports": {
+   "total": 3,
+   "reports": [
+    {
+     "date": "2026-08-28",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[모더나 (NAS:MRNA)] [Issue & News] 20억 달러 전환사채 사모 발행 추진 - 흑색종 데이터發 주가 급등을 활용한 자본조달",
+     "summary": "- 20억 달러 전환사채 사모 발행 공시, 세부조건 미공개- 흑색종 3상 데이터 이후 주가 급등 시점에 조달- 현금여력 확대되지만 전환권 행사 시 희석 우려",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqkzlgiexqxgcgxeccl.pdf"
+    },
+    {
+     "date": "2026-08-26",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[모더나 (NAS:MRNA)] [Issue & News] 머크 공동 흑색종 백신 작동원리·생산과제 상세 공개",
+     "summary": "- 흑색종 백신 작동원리·비소세포폐암 등 확장 파이프라인 공개- 전체 생존율 데이터는 아직 미공개, 임상 불확실성 지속- 개인맞춤 생산 특성상 10~100배 증설 필요, 실행 리스크 부각",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqqcexmkclgzegcgxeccl.pdf"
+    },
+    {
+     "date": "2026-08-21",
+     "broker": "키움증권",
+     "analyst": "허혜민",
+     "title": "[모더나 (NAS:MRNA)] mRNA 기반 암 치료제 최초 3상 성공",
+     "summary": "- 코로나19 백신으로 mRNA 상업화에 성공한 바이오텍. mRNA 기반 암 치료제로는 세계 최초 3상 성공- 다만, 시장은 이미 흑색종 성공을 상당부분 선반영한 상태로 신장암, 방광암, 폐암 등 다른 암종으로 확장성에 주목",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqgxkklglmlgzgcgxeccl.pdf"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making big moves midday: Rogers, United Therapeutics, Moderna, FormFactor",
+   "url": "https://www.cnbc.com/2026/09/30/stocks-making-the-biggest-moves-midday-rog-uthr-mrna-form.html",
+   "date": "2026-09-30",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Moderna has been on a tear since mid-August. Citi now sees it plunging 60%",
+   "url": "https://www.cnbc.com/2026/09/30/moderna-has-been-on-a-tear-since-mid-august-citi-now-sees-it-plunging-60percent.html",
+   "date": "2026-09-30",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Thursday's biggest analyst calls: Nvidia, Apple, Broadcom, Snowflake, Deere, Tesla, Amazon",
+   "url": "https://www.cnbc.com/2026/09/03/thursdays-analyst-calls-include-nvidia.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Moderna is now overvalued after cancer vaccine-led stock surge, Rothschild & Co. says",
+   "url": "https://www.cnbc.com/2026/09/03/moderna-is-now-overvalued-after-cancer-vaccine-led-stock-surge-rothschild-co-says.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Nvidia, Hormel, HP, Best Buy & more",
+   "url": "https://www.cnbc.com/2026/08/27/stocks-making-the-biggest-moves-midday-nvda-okta-hrl-veev.html",
+   "date": "2026-08-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves midday: Dick's Sporting Goods, Marvell, AMD & more",
+   "url": "https://www.cnbc.com/2026/08/25/stocks-making-the-biggest-moves-midday-dks-mrvl-amd-kura.html",
+   "date": "2026-08-25",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "MRNA",
+  "fetchedAt": "2026-10-08",
+  "source": "한국투자증권 Open API",
+  "per": 24.5,
+  "pbr": 11.54,
+  "eps": 7.98,
+  "bps": 16.94,
+  "shares": 399236000,
+  "marketCapM": 78091,
+  "high52": 212.22,
+  "high52Date": "2026-10-06",
+  "low52": 22.28,
+  "low52Date": "2025-11-21",
+  "last": 195.6,
+  "prevClose": 187.46,
+  "nameKo": "모더나",
+  "nameEn": "MODERNA INC",
+  "listedOn": "2018-12-06",
+  "exchange": "나스닥",
+  "listedShares": 399236000
+ }
+}
