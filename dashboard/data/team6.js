@@ -3951,14 +3951,14 @@ window.TEAM6_DATA = {
     "totalPct": -1.04
   },
   "health": {
-    "at": "2026-10-08T17:00:20.063Z",
-    "atKst": "2026-10-09 02:00 KST",
-    "atEt": "2026-10-08 1300",
-    "phase": "open",
+    "at": "2026-10-08T20:00:19.984Z",
+    "atKst": "2026-10-09 05:00 KST",
+    "atEt": "2026-10-08 1600",
+    "phase": "post",
     "source": "kis",
     "status": "정상",
     "watch": 8,
-    "checked": 8,
+    "checked": 0,
     "errors": []
   },
   "deep_coverage": {
