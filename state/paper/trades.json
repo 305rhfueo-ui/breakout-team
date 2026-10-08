@@ -1,6 +1,66 @@
 {
   "trades": [
     {
+      "id": "SMTC-2026-10-05-nextOpen",
+      "book": "nextOpen",
+      "ticker": "SMTC",
+      "grade": "A",
+      "ruleVersion": "0.3",
+      "regime": "green",
+      "entryDate": "2026-10-05",
+      "entryAt": "0930",
+      "exitDate": "2026-10-08",
+      "exitAt": "1255",
+      "days": 2,
+      "entry": 194.12,
+      "stop0": 188.05,
+      "exit": 187.67,
+      "riskPerSharePct": 3.12,
+      "weightPct": 16,
+      "R": -1.06,
+      "pct": -0.53,
+      "mfeR": 0.99,
+      "maeR": -1.06,
+      "why": "손절",
+      "partial": false,
+      "fills": [
+        {
+          "date": "2026-10-05",
+          "at": "0930",
+          "side": "buy",
+          "frac": 1,
+          "px": 194.12,
+          "why": "진입"
+        },
+        {
+          "date": "2026-10-08",
+          "at": "1255",
+          "side": "sell",
+          "frac": 1,
+          "px": 187.67,
+          "why": "손절"
+        }
+      ],
+      "ctx": {
+        "orh": 60,
+        "pace": 1.55,
+        "ext": 1.91,
+        "levelIs": "hod",
+        "stopIs": "lod",
+        "at": "1035",
+        "pivot": 190.64,
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "baseWeeks": 2.2,
+        "depthPct": 19.7,
+        "priorMovePct": 84.9,
+        "catalyst": null,
+        "flow": "pending",
+        "regime": "green",
+        "source": "kis"
+      }
+    },
+    {
       "id": "ALAB-2026-10-07-nextOpen",
       "book": "nextOpen",
       "ticker": "ALAB",
