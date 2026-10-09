@@ -512,8 +512,318 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-09",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "OpenAI 매출 보도에 AI 반도체주가 일제히 떨어졌다",
+        "easy": "OpenAI의 매출을 다룬 보도가 나온 뒤 Nvidia·Oracle·CoreWeave·Micron 같은 AI 관련 주식이 함께 내렸다. AI에 돈을 쓰는 쪽의 수익이 기대만 못할 수 있다는 걱정이 번졌기 때문이다. 다만 시장에서는 이 반응이 '과도한 우려'라는 평가도 같이 나왔다. AI 투자 사이클을 믿고 올라온 종목들이 뉴스 한 건에 흔들릴 만큼 기대가 높아져 있다는 뜻이다.",
+        "whyMatters": "반도체(Nvidia·Micron)와 AI 인프라를 파는 소프트웨어·클라우드(Oracle·CoreWeave)에 직접 불리하게 작용한다. AI 매출 관련 소식이 또 나올 때 이 종목들이 전 고점 아래로 밀리는지 지켜보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+            "date": "2026-10-08",
+            "quote": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Micron, Nvidia and AI chip stocks fall as report on OpenAI's revenue causes 'undue concern'",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/micron-nvidia-and-ai-chip-stocks-fall-as-report-on-openais-revenue-causes-undue-concern-2a2bcf53?mod=mw_rss_topstories",
+            "date": "2026-10-08",
+            "quote": "Micron, Nvidia and AI chip stocks fall as report on OpenAI's revenue causes 'undue concern'",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "SpaceX의 주파수 인수에 통신 3사 주가가 급락했다",
+        "easy": "SpaceX가 주파수 사용권을 인수하는 계약을 맺자 AT&T·Verizon·T-Mobile 주가가 크게 밀렸다. 위성으로 휴대폰 통신을 직접 제공할 수 있는 길이 열려, 기존 통신사의 가입자를 빼앗길 수 있다는 걱정 때문이다. 다음 날에도 Starlink의 모바일 요금제 계획이 AT&T와 Verizon 주가를 계속 눌렀다. 통신업이 안정적인 배당주라는 전제 자체가 흔들리는 사건이다.",
+        "whyMatters": "통신(AT&T·Verizon·T-Mobile)에 분명히 불리하고, 위성·우주 관련 장비 쪽에는 유리한 방향이다. 통신주를 들고 있다면 가입자를 지킬 대응책이 나오는지가 관전 포인트다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "SpaceX deal to acquire spectrum license hammers shares of AT&T, Verizon and T-Mobile",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html",
+            "date": "2026-10-08",
+            "quote": "SpaceX deal to acquire spectrum license hammers shares of AT&T, Verizon and T-Mobile",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "SpaceX's Starlink Mobile plans are pressuring AT&T and Verizon shares",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/spacexs-starlink-mobile-plans-are-pressuring-at-t-and-verizon-shares-7cb56764?mod=mw_rss_topstories",
+            "date": "2026-10-09",
+            "quote": "SpaceX's Starlink Mobile plans are pressuring AT&T and Verizon shares",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "Nvidia가 투자한 AI 기업 Firmus가 상장을 철회했다",
+        "easy": "Nvidia가 투자한 호주 AI 기업 Firmus가 예정했던 대형 상장(IPO)을 거둬들였다. 회사는 시장 변동성을 이유로 들었다. 큰 규모로 주목받던 건이라 'AI면 무조건 돈이 모인다'는 분위기가 꺾였다는 신호로 읽힌다. AI 쪽에 들어오던 신규 자금이 예전만큼 쉽지 않다는 뜻이다.",
+        "whyMatters": "AI 인프라·데이터센터 관련 기술 업종의 자금 조달 환경에 불리한 신호다. 다른 AI 기업의 상장 일정이 밀리는지를 함께 보면 분위기를 가늠할 수 있다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Nvidia-backed Aussie AI firm Firmus withdraws historic IPO, citing market volatility",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/09/nvidia-ai-firmus-ipo-.html",
+            "date": "2026-10-09",
+            "quote": "Nvidia-backed Aussie AI firm Firmus withdraws historic IPO, citing market volatility",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "재무부 신임 고문이 국채 금리가 곧 내려올 수 있다고 말했다",
+        "easy": "베센트 재무장관의 새 고문인 David Zervos가 국채 금리가 \"정말, 정말 높다\"면서 머지않아 내려올 수 있다고 말했다. 금리가 내려오면 미래 이익을 많이 반영하는 성장주의 값이 매겨지기 쉬워진다. 다만 그가 그렇게 본 근거는 기사에 안 나왔다. 정책 당국 인사의 발언이라는 점에서 시장이 귀를 기울이는 대목이다.",
+        "whyMatters": "금리가 실제로 내려오면 기술·성장주와 부동산 리츠에 유리하고, 금리가 높을 때 이익이 커지는 은행에는 덜 유리하다. 10년물 국채 금리가 말처럼 내려오는지 숫자로 확인하면 된다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Treasury yields are 'really, really high' but can come down soon, Bessent's new advisor says",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/08/treasury-yields-david-zervos.html",
+            "date": "2026-10-08",
+            "quote": "Treasury yields are 'really, really high' but can come down soon, Bessent's new advisor says",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "미 특사가 투자자들이 대만 위험을 과대평가한다고 말했다",
+        "easy": "미국의 동아시아 담당 특사가 투자자들이 대만을 둘러싼 지정학 위험을 지나치게 크게 보고 있다고 말했다. 중국과의 긴장 때문에 대만에 생산이 몰린 기업의 주가에 할인이 붙어 있다는 인식을 겨냥한 발언이다. 당국자의 이런 발언은 그 할인 폭을 줄이는 쪽으로 작용한다. 단, 발언 하나로 긴장 자체가 사라지는 것은 아니다.",
+        "whyMatters": "대만 생산 의존이 큰 반도체(TSMC)와 그 장비·고객인 기술 업종에 유리한 쪽이다. 대만 관련 헤드라인이 나올 때 반도체주가 덜 흔들리는지 보면 위험 인식의 변화를 알 수 있다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "U.S. East Asian envoy says investors are overpricing Taiwan risk",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/09/taiwan-trump-china-militia-boat-tsmc-.html",
+            "date": "2026-10-09",
+            "quote": "U.S. East Asian envoy says investors are overpricing Taiwan risk",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "스타벅스가 치폴레를 인수할 수 있다는 분석이 돌았다",
+        "easy": "Starbucks가 Chipotle을 인수하면 양쪽에 득이 되는지를 따지는 분석이 잇따라 나왔다. 성장이 둔해진 외식 대형주들이 합쳐서 몸집을 키우는 방식을 찾고 있다는 배경에서 나온 이야기다. 다만 실제로 계약이 체결됐다는 내용은 없고 가능성을 두고 의견이 갈렸다. 외식 업종에서 인수·합병 기대가 살아났다는 점이 달라진 부분이다.",
+        "whyMatters": "외식·음식료 업종(Starbucks·Chipotle)의 주가를 움직이는 재료이고, 기업 인수를 중개하는 투자은행에도 유리하다. 회사들의 공식 확인이 나오는지만 보면 되고, 소문 단계에서 움직이는 주가는 되돌림이 크다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Why a Starbucks takeover of Chipotle would — and wouldn't — make sense for both companies",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/08/starbucks-chipotle-acquisition.html",
+            "date": "2026-10-08",
+            "quote": "Why a Starbucks takeover of Chipotle would — and wouldn't — make sense for both companies",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Feel like a pumpkin-spice burrito? Analysts try to wrap their heads around a possible Starbucks-Chipotle tie-up.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/feel-like-a-pumpkin-spice-burrito-analysts-try-to-wrap-their-heads-around-a-possible-starbucks-chipotle-tie-up-5b8519fd?mod=mw_rss_topstories",
+            "date": "2026-10-08",
+            "quote": "Feel like a pumpkin-spice burrito? Analysts try to wrap their heads around a possible Starbucks-Chipotle tie-up.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지수 기준으로는 새로 사도 되는 구간이다 — 나스닥100(QQQ)은 747.58에 마감했고 10일선이 20일선 위로 올라선 지 15일째, 두 선이 모두 위를 향하고 있다. 다만 지수를 끌어온 주도 종목이 기술 62%·헬스케어 20%로 사실상 한 방향에 쏠려 있어, 어제처럼 AI 매출 뉴스 한 건이 Nvidia·Micron·Oracle을 동시에 끌어내리면 내 계좌도 같이 흔들린다. 오늘 뉴스의 메시지는 'AI는 끝났다'가 아니라 'AI에 붙은 기대가 뉴스에 민감해질 만큼 높아졌다'는 쪽이고, 여기에 SpaceX 주파수 건처럼 업종 하나를 통째로 다시 보게 만드는 재료가 겹쳤다. 조심할 점은 빚내서 산 주식(마진부채)이 1년 전보다 37.2% 늘어 주의선을 넘었다는 것으로, 하락이 시작되면 강제 매도가 붙어 낙폭이 커진다. 이번 주는 지수가 10일선 위에서 버티는지, 그리고 AI 반도체가 전 고점 위로 되돌아오는지 두 가지만 보면 된다.",
+    "keyRisks": [
+      "주도 업종 쏠림: 주도 종목의 62%가 기술, 20%가 헬스케어다. AI 뉴스 한 건이 포트폴리오 전체를 같은 방향으로 움직인다.",
+      "빚으로 산 주식이 많다: 마진부채 증가율이 주의선을 넘었다. 조정이 시작되면 담보 부족에 따른 강제 매도가 하락을 증폭시킨다.",
+      "통신업 구조 변화: SpaceX의 주파수 확보로 AT&T·Verizon·T-Mobile의 가입자 전제가 흔들린다. 배당 때문에 들고 있던 안정적 종목이 더는 안정적이지 않을 수 있다.",
+      "AI 자금 조달 위축: Firmus의 상장 철회처럼 신규 자금 유입이 막히면, 설비 투자에 의존하는 AI 인프라·반도체 주문 전망이 먼저 깎인다."
+    ],
+    "easySummary": [
+      "지수는 여전히 위를 향하는 구간이지만, 올라온 이유가 AI 한 갈래라 뉴스에 쉽게 흔들린다.",
+      "OpenAI 매출 보도로 Nvidia·Micron·Oracle 등 AI 종목이 내렸고, SpaceX 주파수 인수로 통신 3사가 급락했다.",
+      "빚내서 산 주식이 주의선을 넘은 상태라, 새로 살 때는 비중을 작게 하고 손절 선을 먼저 정해 두는 편이 낫다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 102,
+      "ok": 148,
+      "unverified": 4,
+      "dead": 0,
+      "stripped": 8,
+      "removed": [
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000028/mane-20260811.htm"
+        }
+      ],
+      "numberCut": 23,
+      "numberCuts": [
+        {
+          "sentence": "주가수익비율이 약 58배로 높다.",
+          "missing": [
+            "58"
+          ]
+        },
+        {
+          "sentence": "10월 1일 실적이 시장 예상을 웃돌자 주가가 하루 20% 넘게 올라 역대 최고의 하루 상승으로 향했다.",
+          "missing": [
+            "20"
+          ]
+        },
+        {
+          "sentence": "이날 종가는 88.91달러로 전일(83.51달러)보다 약 6.5% 올랐다.",
+          "missing": [
+            "6.5"
+          ]
+        },
+        {
+          "sentence": "4월 저점(57.5달러)에서는 50% 넘게 회복한 상태다.",
+          "missing": [
+            "50"
+          ]
+        },
+        {
+          "sentence": "주가는 9월 3일 고점 320.48달러보다 낮은 286.52달러로, 고점 대비 약 10% 아래에 있다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "7월 24일 실적 발표 이후 주가가 52주 저점(6월 26일, 59달러대)에서 회복세를 이어 왔다.",
+          "missing": [
+            "59"
+          ]
+        },
+        {
+          "sentence": "주가는 1월 고점(106.7달러)보다 약 32% 낮고, 최근 한 달은 3.7% 내렸다.",
+          "missing": [
+            "32",
+            "3.7"
+          ]
+        },
+        {
+          "sentence": "현재가 103.19달러는 52주 고점 137.93달러(2025년 10월)보다 아직 25% 가량 낮다.",
+          "missing": [
+            "25"
+          ]
+        },
+        {
+          "sentence": "8월에 올해 조정 주당순이익 전망을 8.25~8.55달러에서 7.90~8.20달러로 낮췄다.",
+          "missing": [
+            "8.25",
+            "8.55",
+            "7.90",
+            "8.20"
+          ]
+        },
+        {
+          "sentence": "보훈부(VA) 장애 검사 사업의 인센티브가 7월부터 일시 중단돼 주당 약 0.35달러가 깎인다.",
+          "missing": [
+            "0.35"
+          ]
+        },
+        {
+          "sentence": "회사가 올해 조정 주당순이익 전망을 7.90~8.20달러로 낮췄다(기존 8.25~8.55달러).",
+          "missing": [
+            "7.90",
+            "8.20",
+            "8.25",
+            "8.55"
+          ]
+        },
+        {
+          "sentence": "전일 종가 75.85달러보다 약 7.6% 높다.",
+          "missing": [
+            "7.6"
+          ]
+        },
+        {
+          "sentence": "주가가 연고점(186.8달러)에서 약 11% 아래로, 이익 대비 주가 배율(PER)은 24.8배다.",
+          "missing": [
+            "11"
+          ]
+        },
+        {
+          "sentence": "매출 증가율(4.5%)보다 이익 증가가 훨씬 빨라 수익성이 좋아졌다.",
+          "missing": [
+            "4.5"
+          ]
+        },
+        {
+          "sentence": "영업이익은 6,300만 달러로 1년 전의 13배 가까이 커졌다.",
+          "missing": [
+            "13"
+          ]
+        },
+        {
+          "sentence": "현재가 150.57달러는 증권가 목표주가 평균 146.34달러(10월 2일 기준)보다 높고, 주가수익비율(PER)은 205배다.",
+          "missing": [
+            "146.34"
+          ]
+        },
+        {
+          "sentence": "RBC가 9월 11일 델 커버리지를 목표가 640달러로 개시했고 당일 주가가 12% 올랐다.",
+          "missing": [
+            "12"
+          ]
+        },
+        {
+          "sentence": "직전 분기는 438.4억 달러로 87.5% 증가였다.",
+          "missing": [
+            "438.4억 달러",
+            "87.5"
+          ]
+        },
+        {
+          "sentence": "AI 서버 매출이 164억 달러로 1년 전의 2배가 되며 전체 매출 증가를 이끌었다.",
+          "missing": [
+            "2"
+          ]
+        },
+        {
+          "sentence": "직전 4개 분기 증가율은 48.3%에서 37.9%로 낮아졌다.",
+          "missing": [
+            "48.3"
+          ]
+        },
+        {
+          "sentence": "매출 증가율이 4개 분기 전 48.3%에서 37.9%로 낮아졌고 영업손실이 이어진다.",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "직전 분기 4.8% 증가, 그 앞 분기는 2.7% 감소.",
+          "missing": [
+            "4.8",
+            "2.7"
+          ]
+        },
+        {
+          "sentence": "10월 1일 실적이 예상을 웃돌아 주가가 20% 넘게 급등했다",
+          "missing": [
+            "20"
+          ]
+        }
+      ],
+      "noQuote": 1
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-09"
   }
 };

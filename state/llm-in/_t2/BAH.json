@@ -1,0 +1,280 @@
+{
+ "ticker": "BAH",
+ "sector": "Industrials",
+ "industry": "Consulting Services",
+ "nameKo": "부즈 알렌 해밀턴 홀딩",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 1.71,
+  "saleNy": 4.56,
+  "epsCy": -2.44,
+  "epsNy": 5.95,
+  "est": {
+   "cyCur": 6.35125,
+   "cy30": 6.40948,
+   "nyCur": 6.72902,
+   "ny30": 6.72301
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -4.24,
+    -6.45,
+    -10.18
+   ],
+   "ni": [
+    -26.94,
+    6.22,
+    6.95
+   ],
+   "opm": [
+    9.96,
+    9.45,
+    8.78
+   ],
+   "updated": "2026-09-08 09:04:00"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-09",
+  "nameKo": "부즈 알렌 해밀턴 홀딩",
+  "nameEn": "BOOZ ALLEN HAMILTON HLDG CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001443646&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 2800000000,
+     "profit": 279000000,
+     "netIncome": 198000000,
+     "margin": 10,
+     "yoy": {
+      "revenue": -4.2,
+      "profit": 8.6,
+      "netIncome": -26.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": true,
+     "revenue": 2783000000,
+     "profit": 263000000,
+     "netIncome": 204497000,
+     "margin": 9.5,
+     "yoy": {
+      "revenue": -6.5,
+      "profit": -4.4,
+      "netIncome": 5.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 2620000000,
+     "profit": 230000000,
+     "netIncome": 200000000,
+     "margin": 8.8,
+     "yoy": {
+      "revenue": -10.2,
+      "profit": -21,
+      "netIncome": 7,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 2890000000,
+     "profit": 283000000,
+     "netIncome": 175000000,
+     "margin": 9.8,
+     "yoy": {
+      "revenue": -8.1,
+      "profit": -48.5,
+      "netIncome": -55.1,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Booz Allen Hamilton (BAH) Stock Sinks As Market Gains: Here's Why",
+     "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-bah-stock-sinks-market-gains-heres-why-0",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Booz Allen (BAH) is Poised to Beat Earnings Estimates Again",
+     "url": "https://www.nasdaq.com/articles/why-booz-allen-bah-poised-beat-earnings-estimates-again",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Booz Allen Hamilton (BAH) Surpasses Market Returns: Some Facts Worth Knowing",
+     "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-bah-surpasses-market-returns-some-facts-worth-knowing",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "BAH Stock Rises 17.6% in Three Months: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/bah-stock-rises-176-three-months-heres-what-you-should-know",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Booz Allen Hamilton (BAH) Suffers a Larger Drop Than the General Market: Key Insights",
+     "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-bah-suffers-larger-drop-general-market-key-insights",
+     "date": "2026-09-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Booz Allen Hamilton (BAH) Stock Moves -1.42%: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-bah-stock-moves-142-what-you-should-know",
+     "date": "2026-09-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Booz Allen Hamilton (BAH) Dips More Than Broader Market: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-bah-dips-more-broader-market-what-you-should-know",
+     "date": "2026-09-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Booz Allen Hamilton (BAH) Increases Despite Market Slip: Here's What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/booz-allen-hamilton-bah-increases-despite-market-slip-heres-what-you-need-know",
+     "date": "2026-09-15",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-24",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1443646/000144364626000058/bah-20260824.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1443646/000110465926090450/tm2621893d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-24",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1443646/000144364626000029/bah-20260722.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-24",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1443646/000162828026049494/bah-20260724.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-22",
+    "itemsKo": [
+     "중요 계약 체결",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1443646/000110465926076094/tm2618424d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-22",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1443646/000162828026037519/bah-20260522.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: American Airlines, Coherent, Tesla",
+   "url": "https://www.cnbc.com/2026/07/24/stocks-making-the-biggest-moves-midday-aal-cohr-slb-tsla.html",
+   "date": "2026-07-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Booz Allen CEO on cyber risks and the AI arms race",
+   "url": "https://www.cnbc.com/video/2026/08/10/booz-allen-ceo-on-cyber-risks-and-the-ai-arms-race.html",
+   "date": "2026-08-10",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "BAH",
+  "fetchedAt": "2026-10-09",
+  "source": "한국투자증권 Open API",
+  "per": 11.44,
+  "pbr": 7.29,
+  "eps": 6.37,
+  "bps": 9.99,
+  "shares": 120285000,
+  "marketCapM": 8765,
+  "high52": 106.656,
+  "high52Date": "2026-01-23",
+  "low52": 59.0522,
+  "low52Date": "2026-06-26",
+  "last": 72.87,
+  "prevClose": 68.69,
+  "nameKo": "부즈 알렌 해밀턴 홀딩",
+  "nameEn": "BOOZ ALLEN HAMILTON HLDG CORP",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 120285000
+ }
+}

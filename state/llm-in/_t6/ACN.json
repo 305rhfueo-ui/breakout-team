@@ -1,0 +1,504 @@
+{
+ "ticker": "ACN",
+ "date": "2026-10-09",
+ "session": "2026-10-08",
+ "source": "list",
+ "plan": {
+  "ticker": "ACN",
+  "name": "액센추어",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
+  "price": 208.36000061035156,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 227.63,
+  "stop": 219.25,
+  "distToPivotPct": -8.47,
+  "distToPivotAdr": -2.1,
+  "riskPerSharePct": 3.68,
+  "adrPct": 4.02,
+  "extensionAdr": 2,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 5,
+   "baseWeeks": 1,
+   "depthPct": 15.4,
+   "priorMovePct": 75.8,
+   "higherLows": 0,
+   "contraction": 1.2,
+   "closeRange10Adr": 4.5,
+   "surf10": 2,
+   "surf20": 2.31,
+   "slope20": 2.16,
+   "baseLow": 192.58,
+   "lastSwingLow": 192.58
+  },
+  "reasons": [
+   "선행 상승 +76%",
+   "✗ 베이스 1주",
+   "깊이 15.4%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.2배 · 10일 종가폭 4.5 ADR",
+   "✗ 10일선 +2 ADR · 20일선 +2.3 ADR",
+   "20일선 기울기 +2.16%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.17115393357010714,
+    "pct": 95.64447592067988
+   },
+   "m3": {
+    "v": 0.5206538761744072,
+    "pct": 98.97308781869688
+   },
+   "m6": {
+    "v": 0.06686246400093006,
+    "pct": 64.34135977337111
+   }
+  },
+  "ret1m": 17.12,
+  "ret3m": 52.07,
+  "ret6m": 6.69,
+  "marketCap": "118.35B",
+  "volx": 1.75,
+  "volSurgeWk": 1.05,
+  "high52": 73.05,
+  "newHigh52": false,
+  "adr": 4.02,
+  "div50": 13.74,
+  "div200": 8.47,
+  "targetStatus": false,
+  "saleCy": 5.59,
+  "saleNy": 4.91,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": 1.17,
+  "est": {
+   "cyCur": null,
+   "cy30": null,
+   "nyCur": 15.93211,
+   "ny30": 15.74742
+  },
+  "fs": {
+   "sale": [
+    5.59,
+    8.31,
+    5.95
+   ],
+   "ni": [
+    6.44,
+    2.08,
+    -2.95
+   ],
+   "opm": [
+    16.96,
+    13.82,
+    15.33
+   ],
+   "updated": "2026-09-08 07:11:42"
+  },
+  "qualifiedBy": [
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-10-08",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 1,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-09",
+  "nameKo": "액센추어",
+  "nameEn": "ACCENTURE PLC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001467373&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-05-31",
+     "derived": false,
+     "revenue": 18718144000,
+     "profit": 3175298000,
+     "netIncome": 2338989000,
+     "margin": 17,
+     "yoy": {
+      "revenue": 5.6,
+      "profit": 6.5,
+      "netIncome": 6.4,
+      "priorEnd": "2025-05-31"
+     }
+    },
+    {
+     "periodEnd": "2026-02-28",
+     "derived": false,
+     "revenue": 18044066000,
+     "profit": 2493547000,
+     "netIncome": 1825239000,
+     "margin": 13.8,
+     "yoy": {
+      "revenue": 8.3,
+      "profit": 11.1,
+      "netIncome": 2.1,
+      "priorEnd": "2025-02-28"
+     }
+    },
+    {
+     "periodEnd": "2025-11-30",
+     "derived": false,
+     "revenue": 18742125000,
+     "profit": 2873698000,
+     "netIncome": 2211561000,
+     "margin": 15.3,
+     "yoy": {
+      "revenue": 6,
+      "profit": -2.5,
+      "netIncome": -3,
+      "priorEnd": "2024-11-30"
+     }
+    },
+    {
+     "periodEnd": "2025-08-31",
+     "derived": false,
+     "revenue": 17596260000,
+     "profit": 2049691000,
+     "netIncome": 1413963000,
+     "margin": 11.6,
+     "yoy": {
+      "revenue": 7.3,
+      "profit": -12.9,
+      "netIncome": -16.1,
+      "priorEnd": "2024-08-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Accenture (ACN) International Revenue Trends Deserve Your Attention",
+     "url": "https://www.nasdaq.com/articles/why-accenture-acn-international-revenue-trends-deserve-your-attention",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Accenture vs. Microsoft: Which Technology Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/accenture-vs-microsoft-which-technology-stock-better-buy-2026",
+     "date": "2026-10-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Accenture Q4 Earnings Call Sees AI Demand Broaden Into FY27",
+     "url": "https://www.nasdaq.com/articles/accenture-q4-earnings-call-sees-ai-demand-broaden-fy27",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Accenture (ACN) Q4 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/accenture-acn-q4-2026-earnings-call-transcript",
+     "date": "2026-10-02",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Should Investors Chase Accenture (ACN) Stock After Its Post-Earnings Surge?",
+     "url": "https://www.nasdaq.com/articles/should-investors-chase-accenture-acn-stock-after-its-post-earnings-surge",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-01",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000037/acn-20261001.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-10",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000119312526300813/d181172d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-23",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000035/acn-20260623.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000031/acn-20260618.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-24",
+    "itemsKo": [
+     "중요 계약 체결",
+     "1.02",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000019/acn-20260422.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-19",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000013/acn-20260319.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-06-23",
+     "broker": "LS증권",
+     "analyst": "선유진",
+     "title": "[액센추어 (NYS:ACN)] 중동 리스크에 수요 둔화 우려 부각",
+     "summary": "- 글로벌 최대 컨설팅 및 IT서비스 기업- FY 3Q26: 수요 둔화 우려 부각- 국내 IT서비스 기업에 대한 시사점",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgexmeiilgmlxgcgxeccm.pdf"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "cnbc": [
+  {
+   "title": "Stocks making big moves midday: Accenture, Synopsys, United Therapeutics, Vicor and more",
+   "url": "https://www.cnbc.com/2026/10/01/stocks-making-the-biggest-moves-midday-acn-snps-uthr-vicr-.html",
+   "date": "2026-10-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Accenture stock rallies after earnings beat expectations",
+   "url": "https://www.cnbc.com/2026/10/01/accenture-rallies-more-than-20percent-after-earnings-beat-heads-for-best-day-ever.html",
+   "date": "2026-10-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Despite the market volatility, one tech name is showing bullish signs. How to trade it",
+   "url": "https://www.cnbc.com/2026/07/14/despite-the-market-volatility-one-tech-name-is-showing-bullish-signs-how-to-trade-it.html",
+   "date": "2026-07-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Boost portfolio income in 2026's second half with these cheap dividend payers",
+   "url": "https://www.cnbc.com/2026/06/26/boost-income-in-the-second-half-of-2026-with-these-cheap-dividend-payers.html",
+   "date": "2026-06-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Micron, SpaceX, IBM, Flex & more",
+   "url": "https://www.cnbc.com/2026/06/23/stocks-making-the-biggest-moves-midday-mu-spcx-ibm-flex.html",
+   "date": "2026-06-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Here are the most overbought and oversold names after a volatile week",
+   "url": "https://www.cnbc.com/2026/06/19/here-are-the-most-overbought-and-oversold-names-after-a-volatile-week.html",
+   "date": "2026-06-19",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer’s No. 1 stock pick just got another reason to rally",
+   "url": "https://www.cnbc.com/2026/06/18/jim-cramers-no-1-stock-pick-just-got-another-reason-to-rally.html",
+   "date": "2026-06-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Intel, SpaceX, Micron, Carnival & more",
+   "url": "https://www.cnbc.com/2026/06/18/stocks-making-the-biggest-moves-premarket-.html",
+   "date": "2026-06-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "ACN",
+  "fetchedAt": "2026-10-09",
+  "source": "한국투자증권 Open API",
+  "per": 15.36,
+  "pbr": 4,
+  "eps": 13.57,
+  "bps": 52.12,
+  "shares": 611942000,
+  "marketCapM": 127504,
+  "high52": 285.2129,
+  "high52Date": "2026-01-14",
+  "low52": 116.7463,
+  "low52Date": "2026-06-22",
+  "last": 208.36,
+  "prevClose": 196.64,
+  "nameKo": "액센추어",
+  "nameEn": "ACCENTURE PLC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 611942000
+ },
+ "chart": {
+  "lastBar": "2026-10-08",
+  "numbers": {
+   "price": 208.36,
+   "ma20": 189,
+   "ma50": 183.18,
+   "ma150": 175.81,
+   "distMA50": 13.74,
+   "periodHigh": 398.35,
+   "pullbackFromHigh": -47.69,
+   "volRatio20": 1.63,
+   "dryUpRatio": 1.09
+  },
+  "last10": [
+   {
+    "d": "2026-09-25",
+    "o": 177.13,
+    "h": 180.05,
+    "l": 175.74,
+    "c": 176.11,
+    "v": 4960100,
+    "clsPos": 9,
+    "gapPct": -0.16
+   },
+   {
+    "d": "2026-09-28",
+    "o": 173.51,
+    "h": 177.08,
+    "l": 172.3,
+    "c": 174.47,
+    "v": 5499800,
+    "clsPos": 45,
+    "gapPct": -1.48
+   },
+   {
+    "d": "2026-09-29",
+    "o": 173.09,
+    "h": 177.77,
+    "l": 172.11,
+    "c": 177.12,
+    "v": 6358600,
+    "clsPos": 89,
+    "gapPct": -0.79
+   },
+   {
+    "d": "2026-09-30",
+    "o": 178.1,
+    "h": 184.3,
+    "l": 177.74,
+    "c": 183.37,
+    "v": 10531000,
+    "clsPos": 86,
+    "gapPct": 0.55
+   },
+   {
+    "d": "2026-10-01",
+    "o": 215.98,
+    "h": 227.63,
+    "l": 211.04,
+    "c": 212.3,
+    "v": 28979200,
+    "clsPos": 8,
+    "gapPct": 17.78
+   },
+   {
+    "d": "2026-10-02",
+    "o": 211.02,
+    "h": 213.31,
+    "l": 198.36,
+    "c": 198.9,
+    "v": 10032300,
+    "clsPos": 4,
+    "gapPct": -0.6
+   },
+   {
+    "d": "2026-10-05",
+    "o": 196.3,
+    "h": 199.74,
+    "l": 193.77,
+    "c": 195.05,
+    "v": 6993900,
+    "clsPos": 21,
+    "gapPct": -1.31
+   },
+   {
+    "d": "2026-10-06",
+    "o": 195.43,
+    "h": 196.16,
+    "l": 192.58,
+    "c": 193.4,
+    "v": 6147800,
+    "clsPos": 23,
+    "gapPct": 0.19
+   },
+   {
+    "d": "2026-10-07",
+    "o": 195,
+    "h": 198.2,
+    "l": 194.05,
+    "c": 196.64,
+    "v": 5231800,
+    "clsPos": 62,
+    "gapPct": 0.83
+   },
+   {
+    "d": "2026-10-08",
+    "o": 197.73,
+    "h": 209.06,
+    "l": 193.22,
+    "c": 208.36,
+    "v": 12091900,
+    "clsPos": 96,
+    "gapPct": 0.55
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ACN-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ACN-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선을 넘은 지 15일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

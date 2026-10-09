@@ -1,0 +1,419 @@
+{
+ "ticker": "HURN",
+ "date": "2026-10-09",
+ "session": "2026-10-08",
+ "source": "list",
+ "plan": {
+  "ticker": "HURN",
+  "name": "휴런 컨설팅 그룹",
+  "sector": "Industrials",
+  "industry": "Consulting Services",
+  "price": 165.30999755859375,
+  "grade": "C",
+  "state": "post",
+  "pivot": 165.37,
+  "stop": 160.52,
+  "distToPivotPct": -0.04,
+  "distToPivotAdr": -0.01,
+  "riskPerSharePct": 2.93,
+  "adrPct": 3.35,
+  "extensionAdr": 0.98,
+  "breakDate": "2026-10-01",
+  "metrics": {
+   "baseBars": 29,
+   "baseWeeks": 5.8,
+   "depthPct": 12.8,
+   "priorMovePct": 94.8,
+   "higherLows": 0,
+   "contraction": 0.89,
+   "closeRange10Adr": 0.7,
+   "surf10": -0.22,
+   "surf20": 0.27,
+   "slope20": -0.23,
+   "baseLow": 144.2,
+   "lastSwingLow": 144.2
+  },
+  "reasons": [
+   "선행 상승 +95%",
+   "베이스 5.8주",
+   "깊이 12.8%",
+   "✗ 저점 상승 0회",
+   "진폭 0.89배 · 10일 종가폭 0.7 ADR",
+   "10일선 -0.2 ADR · 20일선 +0.3 ADR",
+   "✗ 20일선 기울기 -0.23%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.10627053243097856,
+    "pct": 92.10339943342775
+   },
+   "m3": {
+    "v": 0.4503421011571471,
+    "pct": 97.98158640226629
+   },
+   "m6": {
+    "v": 0.279786327335701,
+    "pct": 87.21671388101983
+   }
+  },
+  "ret1m": 10.63,
+  "ret3m": 45.03,
+  "ret6m": 27.98,
+  "marketCap": "2.50B",
+  "volx": 1.43,
+  "volSurgeWk": 1.24,
+  "high52": 88.51,
+  "newHigh52": false,
+  "adr": 3.35,
+  "div50": 5.82,
+  "div200": 19.9,
+  "targetStatus": false,
+  "saleCy": 12.58,
+  "saleNy": 8.97,
+  "epsCy": 17.47,
+  "epsNy": 15.13,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "est": {
+   "cyCur": 9.198,
+   "cy30": 9.198,
+   "nyCur": 10.59,
+   "ny30": 10.59
+  },
+  "fs": {
+   "sale": [
+    15.37,
+    11.78,
+    10.68
+   ],
+   "ni": [
+    60.75,
+    -5.25,
+    -9.81
+   ],
+   "opm": [
+    10.58,
+    8.1,
+    11.35
+   ],
+   "updated": "2026-09-09 07:13:06"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-09",
+  "nameKo": "휴런 컨설팅 그룹",
+  "nameEn": "HURON CONSULTING GROUP INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001289848&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 451767000,
+     "profit": 36583000,
+     "netIncome": 23247000,
+     "margin": 8.1,
+     "yoy": {
+      "revenue": 11.8,
+      "profit": 11.8,
+      "netIncome": -5.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 441963000,
+     "profit": 50184000,
+     "netIncome": 30654000,
+     "margin": 11.4,
+     "yoy": {
+      "revenue": 10.7,
+      "profit": 6.7,
+      "netIncome": -9.8,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 441284000,
+     "profit": 50000000,
+     "netIncome": 30420000,
+     "margin": 11.3,
+     "yoy": {
+      "revenue": 16.7,
+      "profit": 17.8,
+      "netIncome": 12,
+      "priorEnd": "2024-09-30"
+     }
+    },
+    {
+     "periodEnd": "2025-06-30",
+     "derived": false,
+     "revenue": 411755000,
+     "profit": 45654000,
+     "netIncome": 19430000,
+     "margin": 11.1,
+     "yoy": {
+      "revenue": 8.1,
+      "profit": -23.1,
+      "netIncome": -48.2,
+      "priorEnd": "2024-06-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Huron Consulting Targets Double-Digit Growth Through 2029 on AI, Managed Services",
+     "url": "https://www.nasdaq.com/articles/huron-consulting-targets-double-digit-growth-through-2029-ai-managed-services",
+     "date": "2026-09-27",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Zacks Industry Outlook Gartner, CBIZ and Huron Consulting Group",
+     "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-gartner-cbiz-and-huron-consulting-group",
+     "date": "2026-08-25",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Huron Consulting (HURN) a Solid Growth Stock? 3 Reasons to Think &quot;Yes&quot;",
+     "url": "https://www.nasdaq.com/articles/huron-consulting-hurn-solid-growth-stock-3-reasons-think-yes",
+     "date": "2026-08-19",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026050168/hurn-20260728.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-27",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026049857/hurn-20260723.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-22",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026044612/hurn-20260619.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-12",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1289848/000128984826000098/hurn-20260508.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1289848/000128984826000080/hurn-20260505.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-24",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1289848/000162828026011092/hurn-20260224.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "cnbc": [],
+ "kis": {
+  "ticker": "HURN",
+  "fetchedAt": "2026-10-09",
+  "source": "한국투자증권 Open API",
+  "per": 24.79,
+  "pbr": 6.86,
+  "eps": 6.67,
+  "bps": 24.1,
+  "shares": 15910100,
+  "marketCapM": 2630,
+  "high52": 186.775,
+  "high52Date": "2026-01-14",
+  "low52": 84.875,
+  "low52Date": "2026-06-22",
+  "last": 165.31,
+  "prevClose": 156.61,
+  "nameKo": "휴런 컨설팅 그룹",
+  "nameEn": "HURON CONSULTING GROUP INC",
+  "listedOn": "0000-00-00",
+  "exchange": "나스닥",
+  "listedShares": 15910100
+ },
+ "chart": {
+  "lastBar": "2026-10-08",
+  "numbers": {
+   "price": 165.31,
+   "ma20": 158.18,
+   "ma50": 156.22,
+   "ma150": 129.86,
+   "distMA50": 5.82,
+   "periodHigh": 186.78,
+   "pullbackFromHigh": -11.49,
+   "volRatio20": 1.38,
+   "dryUpRatio": 0.93
+  },
+  "last10": [
+   {
+    "d": "2026-09-25",
+    "o": 157.29,
+    "h": 161.58,
+    "l": 157.28,
+    "c": 157.98,
+    "v": 137100,
+    "clsPos": 16,
+    "gapPct": -0.23
+   },
+   {
+    "d": "2026-09-28",
+    "o": 158.62,
+    "h": 158.62,
+    "l": 155.71,
+    "c": 157.62,
+    "v": 159900,
+    "clsPos": 66,
+    "gapPct": 0.41
+   },
+   {
+    "d": "2026-09-29",
+    "o": 156.13,
+    "h": 159.01,
+    "l": 155.46,
+    "c": 156.36,
+    "v": 160000,
+    "clsPos": 25,
+    "gapPct": -0.95
+   },
+   {
+    "d": "2026-09-30",
+    "o": 156.14,
+    "h": 157.8,
+    "l": 155.78,
+    "c": 156.83,
+    "v": 281500,
+    "clsPos": 52,
+    "gapPct": -0.14
+   },
+   {
+    "d": "2026-10-01",
+    "o": 161.47,
+    "h": 169.45,
+    "l": 161.14,
+    "c": 168.42,
+    "v": 606200,
+    "clsPos": 88,
+    "gapPct": 2.96
+   },
+   {
+    "d": "2026-10-02",
+    "o": 167.75,
+    "h": 168,
+    "l": 161.12,
+    "c": 162.15,
+    "v": 269900,
+    "clsPos": 15,
+    "gapPct": -0.4
+   },
+   {
+    "d": "2026-10-05",
+    "o": 162.68,
+    "h": 163.73,
+    "l": 158.13,
+    "c": 160.1,
+    "v": 214100,
+    "clsPos": 35,
+    "gapPct": 0.33
+   },
+   {
+    "d": "2026-10-06",
+    "o": 160.57,
+    "h": 161.55,
+    "l": 156.06,
+    "c": 157.26,
+    "v": 204300,
+    "clsPos": 22,
+    "gapPct": 0.29
+   },
+   {
+    "d": "2026-10-07",
+    "o": 156.36,
+    "h": 157.85,
+    "l": 155.41,
+    "c": 156.61,
+    "v": 164500,
+    "clsPos": 49,
+    "gapPct": -0.57
+   },
+   {
+    "d": "2026-10-08",
+    "o": 156.81,
+    "h": 169.73,
+    "l": 156.81,
+    "c": 165.31,
+    "v": 360900,
+    "clsPos": 66,
+    "gapPct": 0.13
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/HURN-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/HURN-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선을 넘은 지 15일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

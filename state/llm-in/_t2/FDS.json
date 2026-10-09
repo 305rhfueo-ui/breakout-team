@@ -1,0 +1,262 @@
+{
+ "ticker": "FDS",
+ "sector": "Financial Services",
+ "industry": "Financial Data & Stock Exchanges",
+ "nameKo": "팩트셋 리서치 시스템스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.43,
+  "saleNy": 5.95,
+  "epsCy": 8.97,
+  "epsNy": -0.22,
+  "est": {
+   "cyCur": 19.72488,
+   "cy30": 19.70975,
+   "nyCur": 19.58273,
+   "ny30": 20.04627
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    6.39,
+    7.07,
+    6.85
+   ],
+   "ni": [
+    -14.69,
+    -8.15,
+    1.71
+   ],
+   "opm": [
+    26.7,
+    30.27,
+    31.61
+   ],
+   "updated": "2026-09-08 06:16:57"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-09",
+  "nameKo": "팩트셋 리서치 시스템스",
+  "nameEn": "FACTSET RESEARCH SYSTEMS",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001013237&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-05-31",
+     "derived": false,
+     "revenue": 622918000,
+     "profit": 166301000,
+     "netIncome": 126718000,
+     "margin": 26.7,
+     "yoy": {
+      "revenue": 6.4,
+      "profit": -14.3,
+      "netIncome": -14.7,
+      "priorEnd": "2025-05-31"
+     }
+    },
+    {
+     "periodEnd": "2026-02-28",
+     "derived": false,
+     "revenue": 611019000,
+     "profit": 184961000,
+     "netIncome": 133056000,
+     "margin": 30.3,
+     "yoy": {
+      "revenue": 7.1,
+      "profit": -0.3,
+      "netIncome": -8.1,
+      "priorEnd": "2025-02-28"
+     }
+    },
+    {
+     "periodEnd": "2025-11-30",
+     "derived": false,
+     "revenue": 607621000,
+     "profit": 192071000,
+     "netIncome": 152580000,
+     "margin": 31.6,
+     "yoy": {
+      "revenue": 6.9,
+      "profit": 0.4,
+      "netIncome": 1.7,
+      "priorEnd": "2024-11-30"
+     }
+    },
+    {
+     "periodEnd": "2025-08-31",
+     "derived": true,
+     "revenue": 596901000,
+     "profit": 177321000,
+     "netIncome": 153616000,
+     "margin": 29.7,
+     "yoy": {
+      "revenue": 6.2,
+      "profit": 38.7,
+      "netIncome": 71.6,
+      "priorEnd": "2024-08-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "FactSet (FDS) Q4 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/factset-fds-q4-2026-earnings-call-transcript",
+     "date": "2026-10-01",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "FactSet Research Systems Q4 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/factset-research-systems-q4-earnings-call-highlights",
+     "date": "2026-09-30",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "FactSet's Q4 Earnings Beat Estimates, Revenues Increase 6.3% Y/Y",
+     "url": "https://www.nasdaq.com/articles/factsets-q4-earnings-beat-estimates-revenues-increase-63-y-y",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's What Key Metrics Tell Us About FactSet (FDS) Q4 Earnings",
+     "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-factset-fds-q4-earnings",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "FactSet Research Sees Growth In FY27 - Update",
+     "url": "https://www.nasdaq.com/articles/factset-research-sees-growth-fy27-update",
+     "date": "2026-09-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "FactSet Research (FDS) Tops Q4 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/factset-research-fds-tops-q4-earnings-and-revenue-estimates",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "FactSet Research Systems Inc Reveals Retreat In Q4 Income",
+     "url": "https://www.nasdaq.com/articles/factset-research-systems-inc-reveals-retreat-q4-income",
+     "date": "2026-09-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "FactSet Research Systems Q4 26 Earnings Conference Call At 9:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/factset-research-systems-q4-26-earnings-conference-call-9-00-am-et",
+     "date": "2026-09-30",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-30",
+    "itemsKo": [
+     "실적 발표",
+     "5.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1013237/000162828026063888/fds-20260924.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-25",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1013237/000162828026063495/fds-20260923.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-31",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1013237/000095015726000966/form8-k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-01",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1013237/000162828026046338/fds-20260701.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-08",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1013237/000095010326005447/dp244995_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-31",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1013237/000162828026022203/fds-20260331.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "FDS",
+  "fetchedAt": "2026-10-09",
+  "source": "한국투자증권 Open API",
+  "per": 19.68,
+  "pbr": 5.04,
+  "eps": 14.56,
+  "bps": 56.8,
+  "shares": 35565500,
+  "marketCapM": 10190,
+  "high52": 320.48,
+  "high52Date": "2026-09-03",
+  "low52": 182.4689,
+  "low52Date": "2026-02-17",
+  "last": 286.52,
+  "prevClose": 272.78,
+  "nameKo": "팩트셋 리서치 시스템스",
+  "nameEn": "FACTSET RESEARCH SYSTEMS",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 35565500
+ }
+}

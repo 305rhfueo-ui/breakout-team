@@ -1,0 +1,364 @@
+{
+ "ticker": "MANE",
+ "date": "2026-10-09",
+ "session": "2026-10-08",
+ "source": "list",
+ "plan": {
+  "ticker": "MANE",
+  "name": "VERADERMICS INC",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "price": 126.62999725341797,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 6.55,
+  "extensionAdr": 1.16,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.29029955207819763,
+    "pct": 98.76062322946176
+   },
+   "m3": {
+    "v": 0.023686340965729646,
+    "pct": 66.8201133144476
+   },
+   "m6": {
+    "v": 0.6598505142715878,
+    "pct": 95.92776203966005
+   }
+  },
+  "ret1m": 29.03,
+  "ret3m": 2.37,
+  "ret6m": 65.99,
+  "marketCap": "4.55B",
+  "volx": 4.11,
+  "volSurgeWk": 5.48,
+  "high52": 92.62,
+  "newHigh52": false,
+  "adr": 6.55,
+  "div50": 17.36,
+  "div200": null,
+  "targetStatus": false,
+  "saleCy": 0,
+  "saleNy": 0,
+  "epsCy": -97.43,
+  "epsNy": -6.48,
+  "cyTrend": -2.24,
+  "nyTrend": 0,
+  "est": {
+   "cyCur": -2.87338,
+   "cy30": -2.93922,
+   "nyCur": -2.68712,
+   "ny30": -2.68712
+  },
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    "적자확대",
+    null,
+    null
+   ],
+   "opm": null,
+   "updated": "2026-09-21 06:49:32"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-10-08",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-09",
+  "nameKo": "VERADERMICS INC",
+  "nameEn": "VERADERMICS INC",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Veradermics Hair Loss Pill Shows Strong Phase II Signal in Women",
+     "url": "https://www.nasdaq.com/articles/veradermics-hair-loss-pill-shows-strong-phase-ii-signal-women",
+     "date": "2026-07-15",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Can Veradermics (MANE) Climb 27.65% to Reach the Level Wall Street Analysts Expect?",
+     "url": "https://www.nasdaq.com/articles/can-veradermics-mane-climb-2765-reach-level-wall-street-analysts-expect",
+     "date": "2026-06-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Veradermics (MANE) Price Target Increased by 39.48% to 128.52",
+     "url": "https://www.nasdaq.com/articles/veradermics-mane-price-target-increased-3948-12852",
+     "date": "2026-05-14",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Veradermics (MANE) Price Target Increased by 15.32% to 92.14",
+     "url": "https://www.nasdaq.com/articles/veradermics-mane-price-target-increased-1532-9214",
+     "date": "2026-04-29",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Veradermics' Oral VDPHL01 Shows Robust Hair Growth In Male Pattern Hair Loss Trial",
+     "url": "https://www.nasdaq.com/articles/veradermics-oral-vdphl01-shows-robust-hair-growth-male-pattern-hair-loss-trial",
+     "date": "2026-04-27",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Veradermics Stock Falls 8% After Reporting Wider Loss In Q4, FY25",
+     "url": "https://www.nasdaq.com/articles/veradermics-stock-falls-8-after-reporting-wider-loss-q4-fy25",
+     "date": "2026-03-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Friday 2/6 Insider Buying Report: MANE, HYT",
+     "url": "https://www.nasdaq.com/articles/friday-2-6-insider-buying-report-mane-hyt",
+     "date": "2026-02-06",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-11",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000028/mane-20260811.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-15",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000023/mane-20260715.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1827635/000182763526000016/mane-20260512.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "3.02",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1827635/000162828026029376/mane-20260501.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-27",
+    "itemsKo": [
+     "실적 발표"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1827635/000162828026027629/mane-20260427.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-27",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1827635/000162828026027354/mane-20260427.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "cnbc": [],
+ "kis": {
+  "ticker": "MANE",
+  "fetchedAt": "2026-10-09",
+  "source": "한국투자증권 Open API",
+  "per": 0,
+  "pbr": 6.5,
+  "eps": 0,
+  "bps": 19.49,
+  "shares": 41780136,
+  "marketCapM": 5291,
+  "high52": 136.715,
+  "high52Date": "2026-10-08",
+  "low52": 32,
+  "low52Date": "2026-02-04",
+  "last": 126.63,
+  "prevClose": 110.95,
+  "nameKo": "VERADERMICS INC",
+  "nameEn": "VERADERMICS INC",
+  "listedOn": "2026-02-04",
+  "exchange": "뉴욕거래소",
+  "listedShares": 41780136
+ },
+ "chart": {
+  "lastBar": "2026-10-08",
+  "numbers": {
+   "price": 126.63,
+   "ma20": 112.74,
+   "ma50": 107.9,
+   "ma150": 97.01,
+   "distMA50": 17.36,
+   "periodHigh": 136.72,
+   "pullbackFromHigh": -7.38,
+   "volRatio20": 3.72,
+   "dryUpRatio": 1.28
+  },
+  "last10": [
+   {
+    "d": "2026-09-25",
+    "o": 116,
+    "h": 118.15,
+    "l": 113.88,
+    "c": 116.57,
+    "v": 613600,
+    "clsPos": 63,
+    "gapPct": 0.24
+   },
+   {
+    "d": "2026-09-28",
+    "o": 114.57,
+    "h": 118,
+    "l": 112.3,
+    "c": 115,
+    "v": 633500,
+    "clsPos": 47,
+    "gapPct": -1.72
+   },
+   {
+    "d": "2026-09-29",
+    "o": 115.34,
+    "h": 118.94,
+    "l": 112.03,
+    "c": 117.82,
+    "v": 481700,
+    "clsPos": 84,
+    "gapPct": 0.3
+   },
+   {
+    "d": "2026-09-30",
+    "o": 117.56,
+    "h": 122.44,
+    "l": 116.76,
+    "c": 121.23,
+    "v": 689400,
+    "clsPos": 79,
+    "gapPct": -0.22
+   },
+   {
+    "d": "2026-10-01",
+    "o": 121.23,
+    "h": 123.83,
+    "l": 116.04,
+    "c": 117.22,
+    "v": 659800,
+    "clsPos": 15,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-02",
+    "o": 120.26,
+    "h": 120.85,
+    "l": 115.48,
+    "c": 116.76,
+    "v": 598300,
+    "clsPos": 24,
+    "gapPct": 2.59
+   },
+   {
+    "d": "2026-10-05",
+    "o": 116.45,
+    "h": 119.12,
+    "l": 114.8,
+    "c": 118.87,
+    "v": 536200,
+    "clsPos": 94,
+    "gapPct": -0.27
+   },
+   {
+    "d": "2026-10-06",
+    "o": 119.29,
+    "h": 119.29,
+    "l": 108.77,
+    "c": 108.96,
+    "v": 736500,
+    "clsPos": 2,
+    "gapPct": 0.35
+   },
+   {
+    "d": "2026-10-07",
+    "o": 108.92,
+    "h": 113.43,
+    "l": 108.84,
+    "c": 110.95,
+    "v": 655100,
+    "clsPos": 46,
+    "gapPct": -0.04
+   },
+   {
+    "d": "2026-10-08",
+    "o": 111.6,
+    "h": 136.72,
+    "l": 110.56,
+    "c": 126.63,
+    "v": 3489900,
+    "clsPos": 61,
+    "gapPct": 0.59
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MANE-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MANE-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선을 넘은 지 15일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

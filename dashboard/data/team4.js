@@ -49,9 +49,36 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:52:36"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "HAE",
+        "category": 6,
+        "claims": [
+          {
+            "id": "none",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "HAE(Haemonetics)는 혈장·혈액 채집 장비와 소모품, 병원용 의료기기를 팔아 돈을 번다. 대형 혈장 업체가 주요 고객이다.",
+        "volumeExplanation": "10월 8일 대형 고객 CSL이 HAE 장비를 2027년 말까지 도입하겠다고 알려, 매출 확대 기대에 거래량이 늘었다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [
+            "c1",
+            "c2"
+          ],
+          "reason": "c1: quote에 '미국 혈장 채취센터 전체'라는 구체한 표현이 없음. c2: '아직 가이던스는 바뀌지 않았다'는 내용이 quote에 없음.",
+          "narrativeFixed": true
+        },
+        "originalCategory": 3,
+        "corrected": true,
+        "volumeExplanationOriginal": "10월 8일 대형 고객 CSL이 미국 혈장센터 전체를 2027년 말까지 HAE 장비로 바꾼다고 알려, 매출 확대 기대에 거래량이 늘었다. 다만 실적 영향은 11월 실적발표에서 공개되므로, 그때 가이던스(회사 전망)가 올라가는지가 이 이야기의 확인 조건이다.",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-09",
+        "carried": false
       }
     },
     {
@@ -157,9 +184,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:49:32"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MANE",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Veradermics는 탈모 치료용 먹는 서방형 미녹시딜(VDPHL01)을 개발하는 임상 단계 바이오 기업이다. 아직 매출은 없고 임상 결과와 자금 조달로 주가가 움직인다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-09",
+        "carried": false
       }
     },
     {
@@ -186,9 +233,29 @@ window.TEAM4_DATA = {
       "bbCenterBrk5d": false,
       "fs": null,
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "AGM.A",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Federal Agricultural Mortgage(Farmer Mac)는 농업 부동산 대출을 사들여 유동성을 공급하는 정부 인가 금융회사다. 대출 이자 마진과 보증 수수료로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-09",
+        "carried": false
       }
     },
     {
@@ -232,9 +299,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:34:38"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "GKOS",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Glaukos는 녹내장 치료용 안구 삽입형 약물 전달 임플란트(iDose TR) 등 안과 의료기기와 치료제를 팔아 돈을 버는 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-09",
+        "carried": false
       }
     },
     {
@@ -278,9 +365,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-15 06:06:31"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MRNA",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "모더나가 워너브라더스 디스커버리를 대신해 나스닥100 지수에 편입된다는 소식이 10월 2일 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Moderna To Join Nasdaq-100, Replacing Warner Bros. Discovery",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/moderna-join-nasdaq-100-replacing-warner-bros-discovery",
+                "date": "2026-10-02",
+                "quote": "Moderna To Join Nasdaq-100, Replacing Warner Bros. Discovery",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "편입 의미를 따진 분석 기사가 10월 8일에도 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Moderna's Nasdaq-100 Entry: What Does It Mean for the Stock?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/modernas-nasdaq-100-entry-what-does-it-mean-stock",
+                "date": "2026-10-08",
+                "quote": "Moderna's Nasdaq-100 Entry: What Does It Mean for the Stock?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "모더나는 mRNA 기술로 코로나19 백신을 만들어 파는 바이오 기업이다. 최근엔 머크와 함께 mRNA 암 백신 개발에 힘쓰고 있다.",
+        "volumeExplanation": "나스닥100 편입 소식이 10월 초 나와 지수 추종 자금의 매매 관심이 커졌을 수 있다. 다만 실제 거래일과 거래량의 직접 연결은 확인되지 않았다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-09",
+        "carried": false
       }
     },
     {
@@ -324,9 +457,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 06:38:02"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "KOF",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Coca-Cola FEMSA는 멕시코·브라질·콜롬비아 등 중남미에서 코카콜라 음료를 병입해 유통하는 회사다. 음료 판매 대금이 주된 수입원이다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음(no_source)으로 일관성 있음. Category 6 정상"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-09",
+        "carried": false
       }
     },
     {
@@ -370,9 +523,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:14:19"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "VRSN",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "인터넷 도메인(.com, .net) 등록·관리 권한을 독점 운영하며, 등록 수수료로 돈을 법니다. 영업이익률이 약 67%로 매우 높은 구조입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음(no_source)으로 일관성 있음. Category 6 정상"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-09",
+        "carried": false
       }
     },
     {
@@ -416,9 +589,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:00:44"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CME",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "CME는 시카고에서 선물·옵션 거래소를 운영하며, 거래가 체결될 때마다 받는 수수료와 시장 데이터 판매로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음(no_source)으로 일관성 있음. Category 6 정상"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-09",
+        "carried": false
       }
     },
     {
@@ -462,9 +655,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:28:00"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "RAL",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Ralliant는 계측·센서·전자부품 등 기술 장비를 만들어 파는 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음(no_source)으로 일관성 있음. Category 6 정상"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-09",
+        "carried": false
       }
     },
     {
@@ -508,9 +721,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:11:21"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "HUM",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Humana는 미국 정부 지원 노인 의료보험(메디케어 어드밴티지) 등 건강보험 상품을 팔고 보험료를 받아 돈을 버는 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음(no_source)으로 일관성 있음. Category 6 정상"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-09",
+        "carried": false
       }
     },
     {
@@ -550,9 +783,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-20 06:47:20"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "RVMD",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Revolution Medicines는 RAS 변이 암을 겨냥한 표적 항암제를 개발하는 임상 단계 바이오 기업이다. 아직 매출이 거의 없고 신약 개발 성과로 평가받는다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-09",
+        "carried": false
       }
     },
     {
@@ -596,9 +849,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:45:09"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "HSIC",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Henry Schein은 치과·의료기관에 의약품과 의료 소모품, 장비를 공급하는 유통회사입니다. 공급 마진과 서비스 수수료로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-09",
+        "carried": false
       }
     },
     {
@@ -642,9 +915,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:50:31"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "XYZ",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Block(XYZ)은 결제 단말기·앱 Square와 Cash App으로 판매자 결제 수수료와 개인 금융 서비스 수익을 올리는 핀테크 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-09",
+        "carried": false
       }
     },
     {
@@ -688,9 +981,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:04:57"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "PLTR",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "팔란티어는 정부와 기업에 데이터 분석·AI 소프트웨어 플랫폼을 구독 형태로 공급해 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-09",
+        "carried": false
       }
     },
     {
@@ -734,9 +1047,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:00:31"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "TECH",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Techne(TECH)는 바이오 연구용 시약과 단백질, 진단용 제품을 팔아 돈을 버는 생명과학 장비·소모품 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-09",
+        "carried": false
       }
     },
     {
@@ -780,9 +1113,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:05:34"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CDW",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "CDW는 기업·정부·병원·학교에 컴퓨터, 소프트웨어, 클라우드, 보안 장비를 팔고 설치와 운영 서비스까지 제공해 돈을 버는 IT 솔루션 유통 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-09",
+        "carried": false
       }
     },
     {
@@ -826,9 +1179,41 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:47:44"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ITGR",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "9월 4일 기사 제목이 KKR의 57억 달러 규모 인수를 다뤘다. 인수 가격·종결 시점은 확인하지 못했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "How Could KKR's $5.7 Billion Buyout Reshape ITGR for Shareholders?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/how-could-kkrs-57-billion-buyout-reshape-itgr-shareholders",
+                "date": "2026-09-04",
+                "quote": "How Could KKR's $5.7 Billion Buyout Reshape ITGR for Shareholders?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Integer Holdings(ITGR)는 심장 치료기기 등 의료기기 부품을 위탁 생산해 매출을 올리는 회사다.",
+        "volumeExplanation": "오늘 거래량을 직접 설명하는 새 뉴스는 찾지 못했다. 9월 초 KKR 인수 관련 기사가 있었고, 주가가 52주 고점 근처라 인수 관련 매매가 이어졌을 가능성이 있다. 인수 조건과 종결 일정이 확인되면 이 해석이 맞는지 가려진다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-09",
+        "carried": false
       }
     }
   ],
@@ -867,14 +1252,14 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 1,
+    "done": 18,
     "total": 18,
-    "cap": null,
-    "pending": 17,
+    "cap": 17,
+    "pending": 0,
     "failed": 0,
     "carried": 1,
     "ineligible": 0,
-    "note": "18종목 중 1종목을 조사했습니다. 그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 17종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -887,5 +1272,15 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적 호재는 1건(PENG)이고, 산업 기술 돌파는 없다. 나머지는 계약 1건과 뉴스 없는 거래량 급증 6건이라 특정 업종 쏠림은 판단하기 어렵다.",
     "caution": "PENG의 호재 근거는 분기 실적 발표와 설명회 언급이며, 구체적인 숫자(예상치 대비 폭, 가이던스 수치)는 입력에 없다. 뉴스 없는 거래량 급증 종목은 이유를 알 수 없어 호재로 보면 안 된다.",
     "researchedOn": "2026-10-08"
+  },
+  "llm": {
+    "highlights": [],
+    "sectorSignal": "오늘 후보 17건은 모두 \"뉴스 없이 거래량만 터진 종목\"으로 분류됐습니다. 실적 호재나 기술 돌파 호재는 0건이라 업종 쏠림을 말할 근거가 없습니다.",
+    "caution": "17건 중 15건은 확인된 호재가 \"근거 없음\"입니다. 모더나(MRNA)는 나스닥100 지수 편입 소식이 있었지만 실적이나 기술 호재는 아니고, ITGR은 9월 4일 인수 관련 기사 제목만 있어 인수 가격과 종결 시점을 확인하지 못했습니다. 차트 모양은 판정하지 않았으니 직접 확인하세요.",
+    "researchedOn": "2026-10-09"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "6": 18
   }
 };

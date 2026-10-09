@@ -68,31 +68,24 @@ window.TEAM6_DATA = {
       "deep": {
         "status": "done",
         "ticker": "DELL",
-        "company": "델 테크놀로지스는 PC와 서버, 스토리지를 만들어 파는 회사다. 최근 성장은 거의 전부 AI 서버에서 나온다 — 클라우드 업체·대기업·정부가 엔비디아 칩을 얹은 서버를 대량으로 주문하고 있다. 전통 PC 사업은 현금을 받쳐 주는 기반 역할을 한다.",
-        "lead": "AI 서버 주문이 폭발하면서 실적과 전망치가 함께 뛰어오른 종목이다. 가장 강한 근거는 분기 매출 470억 달러(1년 전보다 58% 증가)와 회사가 올려 잡은 연간 전망이다. 가장 큰 걱정은 메모리 가격 상승이 서버 마진을 갉아먹는 것과, 9월에 선순위 채권을 네 종류 발행해 이자 부담이 늘었다는 점이다. 마진이 꺾이거나 매출 성장이 둔화하면 이 그림은 깨진다.",
-        "newsNarrative": "9월 1일 실적 발표가 모든 흐름의 출발점이다. 분기 매출이 1년 전보다 58% 늘어난 470억 달러로 사상 최대를 찍었고, AI 서버 주문 609억 달러와 수주잔고 950억 달러가 함께 공개됐다. 회사가 연간 매출 전망을 1,920억 달러로 올리자 9월 11일 RBC 가 신규 매수 의견을 내며 주가가 다시 뛰었다. 다만 9월 15일에는 만기가 다른 선순위 채권을 발행해 자금을 조달했고, 국내 증권사들은 메모리 가격과 수주 이행 속도를 걱정거리로 함께 적었다.",
+        "company": "델 테크놀로지스는 PC·서버·스토리지 같은 IT 하드웨어를 만들어 기업과 개인에게 파는 회사다. 최근 성장은 거의 전부 AI 서버에서 나온다. 클라우드 업체·대기업·각국 정부가 AI 계산용 서버를 대량 주문하면서 매출 구조가 PC 중심에서 AI 인프라 중심으로 바뀌는 중이다.",
+        "lead": "AI 서버 주문이 폭발하면서 실적과 증권사 전망이 같은 방향으로 올라가는 국면이다. 가장 강한 근거는 분기 매출 470억 달러(1년 전보다 58% 증가)와 950억 달러짜리 AI 서버 수주잔고다. 가장 큰 걱정은 메모리 값 급등이 마진을 깎을 수 있다는 점과, 경쟁사보다 비싼 값에 거래된다는 점이다. 수주잔고가 실제 매출로 바뀌는 속도가 느려지거나 메모리 비용이 이익률을 끌어내리면 이 그림은 깨진다.",
+        "newsNarrative": "9월 11일 RBC가 처음으로 델을 분석 대상에 올리며 목표가 640달러를 제시하자 주가가 하루 12% 뛰었다. 근거는 9월 1일 실적에서 확인된 950억 달러 AI 서버 수주잔고였다. 회사는 같은 날 올해 매출 전망을 1,670억 달러에서 1,920억 달러로 250억 달러 올렸다. 시가총액 순위가 맥도날드를 넘어설 만큼 재평가가 빠르게 진행됐다.",
         "recentNews": [
           {
             "id": "n1",
-            "statement": "9월 1일 분기 실적에서 매출이 1년 전보다 58% 늘어난 470억 달러로 사상 최대를 기록했다.",
+            "statement": "AI 서버 수주잔고가 근거였다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Dell Technologies Q2 FY27 Earnings 8-K Exhibit 99.1",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000039/exhibit991earnings8kq2fy27.htm",
-                "date": "2026-09-01",
-                "quote": "Record revenue of $47.0 billion, up 58% year over year",
+                "title": "Dell Technologies Stock Soars as RBC Initiates Bullish Outperform Rating",
+                "publisher": "TIKR",
+                "url": "https://www.tikr.com/blog/dell-technologies-stock-soars-rbc-outperform-rating",
+                "date": "2026-09-11",
+                "quote": "RBC Capital Markets started covering the stock for the first time, giving it an outperform rating and a $640 price target.",
                 "verified": "ok",
                 "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "n3",
-            "statement": "9월 11일 RBC 가 신규로 커버리지를 시작하자 주가가 급등했고, 올해 상승폭이 350% 가까이로 벌어졌다.",
-            "evidence_level": "sourced",
-            "sources": [
+              },
               {
                 "title": "Dell stock jumps on RBC initiation, now up nearly 350% in 2026",
                 "publisher": "CNBC",
@@ -102,19 +95,61 @@ window.TEAM6_DATA = {
                 "verified": "ok",
                 "httpStatus": 200
               }
+            ],
+            "statementOriginal": "RBC가 9월 11일 델 커버리지를 목표가 640달러로 개시했고 당일 주가가 12% 올랐다. AI 서버 수주잔고가 근거였다."
+          },
+          {
+            "id": "n2",
+            "statement": "9월 1일 발표한 분기 매출이 470억 달러로 1년 전보다 58% 늘며 사상 최대였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dell Technologies Q2 Revenue Hits Record $47 Billion As AI Server Backlog Reaches $95 Billion",
+                "publisher": "Pulse 2.0",
+                "url": "https://pulse2.com/dell-technologies-q2-revenue-hits-record-47-billion-as-ai-server-backlog-reaches-95-billion-and-fy27-outlook-rises-to-192-billion/",
+                "date": "2026-09-01",
+                "quote": "Second-quarter revenue reached a record $47.0 billion, increasing 58% year over year",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "같은 분기에 AI 서버 주문 609억 달러를 받았고, 아직 매출로 잡히지 않은 수주잔고가 950억 달러까지 쌓였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dell Technologies Q2 Revenue Hits Record $47 Billion As AI Server Backlog Reaches $95 Billion",
+                "publisher": "Pulse 2.0",
+                "url": "https://pulse2.com/dell-technologies-q2-revenue-hits-record-47-billion-as-ai-server-backlog-reaches-95-billion-and-fy27-outlook-rises-to-192-billion/",
+                "date": "2026-09-01",
+                "quote": "Dell booked a record $60.9 billion of AI server orders during the quarter",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "델 테크놀로지스 (NYS:DELL) 온프레미스 AI 의 관문",
+                "publisher": "유진투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxeccx.pdf",
+                "date": "2026-09-07",
+                "quote": "AI 서버 주문은 609억달러로 전분기 대비 150% 증가하며 역대 최고치를 달성했고, 분기말 AI 서버 백로그는 950억 달러로 전년비 7배 이상 증가",
+                "verified": "ok",
+                "httpStatus": 200
+              }
             ]
           },
           {
             "id": "n4",
-            "statement": "9월 15일 만기가 2029년부터 2037년까지 흩어진 선순위 채권 네 종류를 발행해 자금을 조달했다 — AI 서버 생산에 들어가는 자금 부담이 그만큼 크다는 뜻이다.",
+            "statement": "회사가 올해 매출 전망을 1,670억 달러에서 1,920억 달러로 250억 달러 올렸다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Dell Technologies 8-K — Entry into a Material Definitive Agreement",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526391976/d172674d8k.htm",
-                "date": "2026-09-15",
-                "quote": "$1,250,000,000 aggregate principal amount of 5.100% Senior Notes due 2029",
+                "title": "Dell Technologies Q2 Revenue Hits Record $47 Billion As AI Server Backlog Reaches $95 Billion",
+                "publisher": "Pulse 2.0",
+                "url": "https://pulse2.com/dell-technologies-q2-revenue-hits-record-47-billion-as-ai-server-backlog-reaches-95-billion-and-fy27-outlook-rises-to-192-billion/",
+                "date": "2026-09-01",
+                "quote": "The company raised full-year revenue guidance by $25 billion, from $167 billion to $192 billion",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -122,15 +157,15 @@ window.TEAM6_DATA = {
           },
           {
             "id": "n5",
-            "statement": "국내 증권사는 AI 서버 매출이 1년 전의 두 배인 164억 달러로 늘며 실적을 끌어올렸다고 정리했다.",
+            "statement": "시가총액 순위가 올라 맥도날드를 추월했다. 재평가 속도를 보여 주는 지표다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[델 테크놀로지스 (NYS:DELL)] 온프레미스 AI 의 관문",
-                "publisher": "유진투자증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxeccx.pdf",
-                "date": "2026-09-07",
-                "quote": "AI 서버 매출은 164억달러(+100%yoy)를 기록하며 탑라인 성장을 견인.",
+                "title": "Dell Technologies Moves Up In Market Cap Rank, Passing McDonald's",
+                "publisher": "BNK Invest",
+                "url": "https://www.nasdaq.com/articles/dell-technologies-moves-market-cap-rank-passing-mcdonalds",
+                "date": "2026-10-01",
+                "quote": "Dell Technologies Moves Up In Market Cap Rank, Passing McDonald's",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -138,69 +173,88 @@ window.TEAM6_DATA = {
           },
           {
             "id": "n6",
-            "statement": "실적 발표 이후 한 달 사이 주가가 9.3% 더 올라, 발표 내용이 식지 않고 이어졌다.",
+            "statement": "올해 분기 배당을 20% 올렸다. 번 돈을 주주에게 돌려줄 여력이 있다는 뜻이다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Why Is Dell Technologies (DELL) Up 9.3% Since Last Earnings Report?",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/why-dell-technologies-dell-93-last-earnings-report",
-                "date": "2026-10-01",
-                "quote": "Why Is Dell Technologies (DELL) Up 9.3% Since Last Earnings Report?",
+                "title": "Dell Raised Its Quarterly Dividend by 20% This Year After Only Initiating Its Dividend Program in 2023. Can Passive Income Investors Trust the Stock?",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/dell-raised-its-quarterly-dividend-20-year-after-only-initiating-its-dividend-program-2023",
+                "date": "2026-10-03",
+                "quote": "Dell Raised Its Quarterly Dividend by 20% This Year After Only Initiating Its Dividend Program in 2023. Can Passive Income Investors Trust the Stock?",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           }
         ],
-        "financialsNarrative": "매출과 이익이 둘 다 가파르게 꺾여 올라가는 중이다. 가장 최근 분기 매출은 469.7억 달러로 1년 전보다 57.7% 늘었고, 영업이익은 53.9억 달러로 203.7% 증가했다. 이익이 매출보다 훨씬 빨리 늘었다는 건 규모가 커지면서 고정비가 희석되고 제품 구성이 좋아졌다는 뜻이다. 회사는 다음 분기 매출을 490억 달러, 1년 전보다 81% 증가로 제시해 속도가 더 빨라진다고 보고 있다.",
+        "financialsNarrative": "매출과 이익이 함께, 그것도 점점 빠르게 늘고 있다. 7월 말 끝난 분기 매출은 469.7억 달러로 1년 전보다 57.7% 늘었고 영업이익은 53.9억 달러로 203.7% 증가했다. 영업이익률도 11.5%로 올라 매출만 늘고 이익은 안 남는 구조가 아니다. 회사가 내놓은 다음 분기 전망은 매출 약 490억 달러로, 증가 속도가 아직 꺾이지 않았다.",
         "financials": {
           "revenueTrend": [
             {
               "id": "f1",
-              "statement": "가장 최근 분기(7월 말 종료) 매출은 469.7억 달러로 1년 전보다 57.7% 늘었다.",
+              "statement": "7월 말 끝난 분기 매출이 469.7억 달러로 1년 전보다 57.7% 늘었다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "Dell Technologies 10-Q filings (SEC companyfacts)",
+                  "title": "Dell Technologies 10-Q (SEC EDGAR 분기 실적)",
                   "publisher": "SEC EDGAR",
                   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001571996&type=10-Q",
                   "date": "2026-07-31",
-                  "quote": "periodEnd 2026-07-31 · revenue 46,971,000,000 · yoy.revenue 57.7",
+                  "quote": "\"periodEnd\": \"2026-07-31\", \"revenue\": 46971000000, \"yoy\": { \"revenue\": 57.7 }",
                   "verified": "ok",
                   "httpStatus": 200
                 }
-              ]
+              ],
+              "statementOriginal": "7월 말 끝난 분기 매출이 469.7억 달러로 1년 전보다 57.7% 늘었다. 직전 분기는 438.4억 달러로 87.5% 증가였다."
+            },
+            {
+              "id": "f2",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "델 테크놀로지스 (NYS:DELL) 온프레미스 AI 의 관문",
+                  "publisher": "유진투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxeccx.pdf",
+                  "date": "2026-09-07",
+                  "quote": "AI 서버 매출은 164억달러(+100%yoy)를 기록하며 탑라인 성장을 견인",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "AI 서버 매출이 164억 달러로 1년 전의 2배가 되며 전체 매출 증가를 이끌었다.",
+              "stripped": true
             }
           ],
           "profitTrend": [
             {
-              "id": "p1",
-              "statement": "가장 최근 분기 영업이익은 53.9억 달러로 1년 전보다 203.7% 늘었고, 영업이익률은 11.5% 로 올라섰다.",
+              "id": "f3",
+              "statement": "같은 분기 영업이익이 53.9억 달러로 1년 전보다 203.7% 늘었고 영업이익률은 11.5%였다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "Dell Technologies 10-Q filings (SEC companyfacts)",
+                  "title": "Dell Technologies 10-Q (SEC EDGAR 분기 실적)",
                   "publisher": "SEC EDGAR",
                   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001571996&type=10-Q",
                   "date": "2026-07-31",
-                  "quote": "periodEnd 2026-07-31 · profit 5,385,000,000 · yoy.profit 203.7 · margin 11.5",
+                  "quote": "\"profit\": 5385000000, \"margin\": 11.5, \"yoy\": { \"profit\": 203.7, \"netIncome\": 255.1 }",
                   "verified": "ok",
                   "httpStatus": 200
                 }
               ]
             },
             {
-              "id": "p2",
-              "statement": "이익이 빨리 늘어난 이유는 AI 서버 매출이 커지며 생긴 영업 레버리지와 스토리지 제품 구성 개선이다.",
+              "id": "f4",
+              "statement": "매출이 늘며 고정비가 분산되고 스토리지 제품 구성이 좋아져 수익성이 올라갔다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "[델 테크놀로지스 (NYS:DELL)] 온프레미스 AI 의 관문",
+                  "title": "델 테크놀로지스 (NYS:DELL) 온프레미스 AI 의 관문",
                   "publisher": "유진투자증권",
                   "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxeccx.pdf",
                   "date": "2026-09-07",
-                  "quote": "AI 서버발 탑라인 성장으로 인한 영업 레버리지, 스토리지 믹스 개선으로 수익성 개선이 두드러짐.",
+                  "quote": "AI 서버발 탑라인 성장으로 인한 영업 레버리지, 스토리지 믹스 개선으로 수익성 개선이 두드러짐",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -210,15 +264,15 @@ window.TEAM6_DATA = {
           "guidance": [
             {
               "id": "g1",
-              "statement": "회사는 다음 분기 매출을 490억 달러, 1년 전보다 81% 증가로 제시했다.",
+              "statement": "회사는 다음 분기 매출을 약 490억 달러로 제시했다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "Dell Technologies Q2 FY27 Earnings 8-K Exhibit 99.1",
-                  "publisher": "SEC EDGAR",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000039/exhibit991earnings8kq2fy27.htm",
+                  "title": "Dell Technologies Q2 Revenue Hits Record $47 Billion As AI Server Backlog Reaches $95 Billion",
+                  "publisher": "Pulse 2.0",
+                  "url": "https://pulse2.com/dell-technologies-q2-revenue-hits-record-47-billion-as-ai-server-backlog-reaches-95-billion-and-fy27-outlook-rises-to-192-billion/",
                   "date": "2026-09-01",
-                  "quote": "Revenue $49.0 billion, up 81% year over year",
+                  "quote": "For the fiscal third quarter, Dell expects revenue of approximately $49 billion",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -226,15 +280,15 @@ window.TEAM6_DATA = {
             },
             {
               "id": "g2",
-              "statement": "연간 전망도 매출 1,920억 달러, 1년 전보다 69% 증가로 올려 잡았다.",
+              "statement": "연간 전망도 매출 1,920억 달러, 주당순이익 25.5달러로 올려 잡아 증권사 예상치를 넘었다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "Dell Technologies Q2 FY27 Earnings 8-K Exhibit 99.1",
-                  "publisher": "SEC EDGAR",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000039/exhibit991earnings8kq2fy27.htm",
-                  "date": "2026-09-01",
-                  "quote": "Full-year FY27 revenue guidance of $192.0 billion, up 69% year over year",
+                  "title": "델 테크놀로지스 (NYS:DELL) 온프레미스 AI 의 관문",
+                  "publisher": "유진투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxeccx.pdf",
+                  "date": "2026-09-07",
+                  "quote": "3분기 가이던스도 매출 490억달러(+81%yoy), EPS 6.5달러를 제시하며 컨센을 상회했으며, F27 연간 가이던스는 매출 1,920억달러, EPS 25.5달러로 상향 조정",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -246,15 +300,15 @@ window.TEAM6_DATA = {
             "claims": [
               {
                 "id": "e1",
-                "statement": "회사가 연간 매출과 주당순이익 전망을 함께 올리면서 증권사 예상치도 따라 올라갔다.",
+                "statement": "RBC가 9월 11일 목표가 640달러로 커버리지를 시작했다. 당시 주가보다 높은 수준이다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
-                    "title": "[델 테크놀로지스 (NYS:DELL)] 온프레미스 AI 의 관문",
-                    "publisher": "유진투자증권",
-                    "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxeccx.pdf",
-                    "date": "2026-09-07",
-                    "quote": "F27 연간 가이던스는 매출 1,920억달러, EPS 25.5달러로 상향 조정",
+                    "title": "Dell Technologies Stock Soars as RBC Initiates Bullish Outperform Rating",
+                    "publisher": "TIKR",
+                    "url": "https://www.tikr.com/blog/dell-technologies-stock-soars-rbc-outperform-rating",
+                    "date": "2026-09-11",
+                    "quote": "RBC Capital Markets started covering the stock for the first time, giving it an outperform rating and a $640 price target.",
                     "verified": "ok",
                     "httpStatus": 200
                   }
@@ -262,15 +316,15 @@ window.TEAM6_DATA = {
               },
               {
                 "id": "e2",
-                "statement": "주가가 많이 올랐는데도 이익 전망이 더 빨리 올라 밸류에이션 부담은 크지 않다는 평가가 나왔다.",
+                "statement": "국내 증권사도 연간 전망 상향과 이익 급증을 근거로 재평가가 이어진다고 봤다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
-                    "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                    "title": "델 테크놀로지스 (NYS:DELL) 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
                     "publisher": "키움증권",
                     "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxeccx.pdf",
                     "date": "2026-09-04",
-                    "quote": "- 연간 가이던스 상향 및 이익 급증으로 주가 급등에도 밸류에이션 매력 지속",
+                    "quote": "연간 가이던스 상향 및 이익 급증으로 주가 급등에도 밸류에이션 매력 지속",
                     "verified": "ok",
                     "httpStatus": 200
                   }
@@ -283,27 +337,27 @@ window.TEAM6_DATA = {
           {
             "item": "C 최근 분기 이익",
             "status": "충족",
-            "evidence": "최근 분기 영업이익 53.9억 달러로 1년 전보다 203.7% 증가, 매출도 57.7% 증가 (순이익 기준, 주식 수 변동 미반영)"
+            "evidence": "7월 말 분기 영업이익 53.9억 달러로 1년 전보다 203.7% 증가, 매출도 57.7% 증가 (순이익 기준, 주식 수 변동 미반영)"
           },
           {
             "item": "A 연간 이익 성장",
             "status": "충족",
-            "evidence": "최근 4개 분기 이익이 모두 전년비 플러스 (255.1% · 256.3% · 47.4% · 31.7%), 3년 추세와 자기자본이익률은 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+            "evidence": "최근 4개 분기 이익이 모두 전년비 증가(255.1%·256.3%·47.4%·31.7%). 3년 추세와 자기자본이익률은 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
           },
           {
-            "item": "N 신제품·신경영진·신고가",
+            "item": "N 새로운 것",
             "status": "충족",
-            "evidence": "9월 1일 수주잔고 950억 달러 공개, 9월 11일 RBC 신규 커버리지, 현재가는 1년 최고가의 96.4% 자리"
+            "evidence": "AI 서버 수주잔고 950억 달러와 9월 11일 RBC 커버리지 개시, 주가는 1년 최고가의 96.48% 자리"
           },
           {
             "item": "S 수급",
             "status": "충족",
-            "evidence": "최근 5일 거래량이 20일 평균의 0.65배로 줄었고, 오른 날인 10월 6일 거래량은 540만 주로 늘었다. 유통주식 수는 확인 불가"
+            "evidence": "최근 5일 거래량이 20일 평균의 0.61배로 줄었고 거래대금도 20일 평균의 0.67배. 유통주식 수는 확인 불가"
           },
           {
-            "item": "L 주도주 여부",
-            "status": "충족",
-            "evidence": "상대강도 상위 백분위 6개월 99.8 · 3개월 96.6 · 1개월 88.1, 6개월 수익률 225.3%"
+            "item": "L 주도주",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
           },
           {
             "item": "I 기관 보유",
@@ -313,21 +367,21 @@ window.TEAM6_DATA = {
           {
             "item": "M 시장 방향",
             "status": "충족",
-            "evidence": "시장 판정 green — 10일선이 20일선을 넘은 지 14일째, 둘 다 상승. 다만 마진부채가 1년 전보다 +37.2% 로 주의선 초과"
+            "evidence": "시장 판정 green(10일선이 20일선 위, 둘 다 상승 15일째). 다만 빚내서 산 주식이 1년 전보다 +37.2%로 주의선 초과"
           }
         ],
         "risks": [
           {
             "id": "r1",
-            "statement": "메모리 가격이 오르면 서버 원가가 따라 올라 마진이 눌릴 수 있다.",
+            "statement": "메모리 값이 오르면 서버 원가가 올라 이익률이 깎일 수 있다. 증권사가 지목한 첫 번째 위험이다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[델 테크놀로지스 (NYS:DELL)] 온프레미스 AI 의 관문",
+                "title": "델 테크놀로지스 (NYS:DELL) 온프레미스 AI 의 관문",
                 "publisher": "유진투자증권",
                 "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxeccx.pdf",
                 "date": "2026-09-07",
-                "quote": "델 역시 서버 ODM의 고질적 리스크인 메모리 인 플레이션으로 인한 잠재적 마진 부담, 백로그 이행 속도 등에서 자유롭지는 못함.",
+                "quote": "델 역시 서버 ODM의 고질적 리스크인 메모리 인 플레이션으로 인한 잠재적 마진 부담, 백로그 이행 속도 등에서 자유롭지는 못함",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -335,15 +389,15 @@ window.TEAM6_DATA = {
           },
           {
             "id": "r2",
-            "statement": "9월 15일 선순위 채권을 새로 발행해 이자 부담이 늘었다 — 가장 긴 것은 2037년 만기 연 5.9% 다.",
+            "statement": "쌓인 주문을 제때 매출로 바꾸지 못하거나 현금흐름의 질이 나빠질 수 있다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Dell Technologies 8-K — Entry into a Material Definitive Agreement",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526391976/d172674d8k.htm",
-                "date": "2026-09-15",
-                "quote": "$1,500,000,000 aggregate principal amount of 5.600% Senior Notes due 2033 and (iv) $1,000,000,000 aggregate principal amount of 5.900% Senior Notes due 2037",
+                "title": "델 테크놀로지스 (NYS:DELL) 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                "publisher": "키움증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxeccx.pdf",
+                "date": "2026-09-04",
+                "quote": "리스크 요인: 부품가 사이클 변동성, 수주 이행력, 그리고 현금흐름의 질",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -351,15 +405,15 @@ window.TEAM6_DATA = {
           },
           {
             "id": "r3",
-            "statement": "부품 가격 변동과 쌓인 주문을 실제로 소화하는 능력, 현금흐름의 질이 핵심 변수로 지목됐다.",
+            "statement": "주가가 이미 올라 경쟁사보다 비싼 값에 거래된다. 기대에 못 미치면 되돌림이 커진다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
-                "publisher": "키움증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxeccx.pdf",
-                "date": "2026-09-04",
-                "quote": "- 리스크 요인: 부품가 사이클 변동성, 수주 이행력, 그리고 현금흐름의 질",
+                "title": "델 테크놀로지스 (NYS:DELL) 온프레미스 AI 의 관문",
+                "publisher": "유진투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxeccx.pdf",
+                "date": "2026-09-07",
+                "quote": "델의 12M Fwd PER은 18.6배 수준으로 경쟁사(HPE, SMCI 등) 대비 높은 밸류에이션을 받고 있음",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -367,15 +421,15 @@ window.TEAM6_DATA = {
           },
           {
             "id": "r4",
-            "statement": "같은 AI 서버 경쟁사보다 비싼 값을 받고 있어, 기대가 조금만 흔들려도 조정 폭이 커질 수 있다.",
+            "statement": "AI 투자 속도가 느려질 수 있다는 우려가 9월 중순 시장에 한 차례 돌며 관련 주가가 함께 밀렸다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "[델 테크놀로지스 (NYS:DELL)] 온프레미스 AI 의 관문",
-                "publisher": "유진투자증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxeccx.pdf",
-                "date": "2026-09-07",
-                "quote": "델의 12M Fwd PER은 18.6배 수준으로 경쟁사(HPE, SMCI 등) 대비 높은 밸류에이션을 받고 있음.",
+                "title": "AI stocks sink while cybersecurity shares rally on slowdown fears",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html",
+                "date": "2026-09-14",
+                "quote": "AI stocks sink while cybersecurity shares rally on slowdown fears",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -383,99 +437,91 @@ window.TEAM6_DATA = {
           }
         ],
         "structuralRisks": [
-          "성장의 상당 부분이 소수 대형 AI 고객의 설비투자 결정에 달려 있다.",
-          "서버를 조립해 파는 사업이라 메모리 같은 부품 가격 변동이 곧장 마진에 닿는다.",
-          "쌓인 주문이 실제 매출로 바뀌는 속도를 회사가 완전히 통제하지 못한다."
+          "매출 성장이 대형 AI 고객의 투자 집행 속도에 크게 기대고 있다.",
+          "서버 조립 사업 구조상 메모리 등 부품 가격 변동을 그대로 떠안는다.",
+          "실적 기대의 상당 부분이 아직 매출로 바뀌지 않은 수주잔고에 걸려 있다."
         ],
         "chartCheck": [
           {
             "item": "선행 상승",
             "status": "충족",
-            "evidence": "횡보 직전 상승 65.9%, 3개월 수익률 34.6%"
+            "evidence": "횡보 직전 상승 65.9%, 3개월 수익률 39.45% — 기준 30% 초과"
           },
           {
             "item": "횡보 길이",
             "status": "충족",
-            "evidence": "베이스 18봉 = 3.6주 (기준 2~8주)"
+            "evidence": "횡보 19봉, 3.8주 — 기준 2~8주 안"
           },
           {
             "item": "저점 높아짐",
             "status": "미충족",
-            "evidence": "저점이 높아진 횟수 0회, 진폭은 0.76배로 좁아졌으나 두 조건이 다 성립해야 충족"
+            "evidence": "저점이 높아진 횟수 0회. 폭은 직전 구간의 0.78배로 좁아졌으나 둘 다 성립해야 충족"
           },
           {
             "item": "깊이",
             "status": "충족",
-            "evidence": "베이스 깊이 13.1% = 하루 평균 변동폭 4.68% 의 2.8배, 선행 상승 65.9% 의 절반 미만"
+            "evidence": "횡보 고점 대비 깊이 13.1%, 하루 평균 변동폭 4.64%의 2.8배. 선행 상승 65.9%의 절반보다 얕다"
           },
           {
             "item": "이평선 위",
             "status": "충족",
-            "evidence": "현재가 578.96 > 20일선 553.75 > 50일선 497.93"
+            "evidence": "현재가 574.55 > 20일선 557.14 > 50일선 502.03"
           },
           {
             "item": "거래량 마름",
             "status": "충족",
-            "evidence": "최근 5일 거래량이 20일 평균의 0.65배 (기준 0.7 이하)"
+            "evidence": "최근 5일 거래량이 20일 평균의 0.61배 — 기준 0.7 이하"
           },
           {
             "item": "돌파 거래량",
             "status": "확인 불가",
-            "evidence": "아직 595.51 아래라 돌파봉이 없다 — 밤에 20일 평균 2배가 실리는지 본다"
+            "evidence": "아직 피벗 아래라 돌파봉이 없다. 최근 거래량은 20일 평균의 0.65배 — 밤에 2배가 실리는지 본다"
           },
           {
             "item": "피벗 거리",
             "status": "충족",
-            "evidence": "넘어야 할 선까지 -2.78%, 하루 평균 변동폭 기준 -0.59배 (1배 안)"
+            "evidence": "피벗 595.51 까지 -3.52%, 하루 평균 변동폭의 0.76배 아래 — 1배 안"
           },
           {
             "item": "손절 폭",
             "status": "충족",
-            "evidence": "예비 손절까지 4.55% ≤ 하루 평균 변동폭 4.68%"
+            "evidence": "예비 손절까지 4.47%로 하루 평균 변동폭 4.64%보다 좁다"
           },
           {
             "item": "10일선 이격",
             "status": "충족",
-            "evidence": "10일선 552.94 위로 하루 평균 변동폭의 0.96배 (기준 2배 이하)"
+            "evidence": "10일선 556.79 위로 하루 평균 변동폭의 0.67배 — 기준 2배 이하"
           },
           {
             "item": "시장",
             "status": "충족",
-            "evidence": "시장 판정 green — 10일선이 20일선을 넘은 지 14일째, 둘 다 상승"
+            "evidence": "시장 판정 green — 10일선이 20일선을 넘은 지 15일째, 둘 다 상승"
           }
         ],
         "chartObservation": {
-          "base": "9월 18일 고점 595.51 을 찍은 뒤 18거래일(3.6주)째 옆으로 움직이고 있다. 그 안의 가장 낮은 값은 517.52 로 고점 대비 13.1% 아래다. 최근 2주 가격 흔들림은 그 전 2주의 0.76배로 줄었지만, 저점이 계단식으로 높아진 횟수는 0회다.",
-          "volume": "횡보에 들어오며 거래량이 눈에 띄게 줄었다. 최근 5일 거래량은 20일 평균의 0.65배이고, 마지막 봉은 20일 평균의 0.5배다. 최근 10봉 중 9월 25일 873만 주, 10월 6일 540만 주로 늘어난 날이 있었고 두 날 모두 종가가 올랐다.",
-          "position": "현재가 578.96 은 넘어야 할 선 595.51 보다 2.78% 아래, 하루 평균 변동폭으로는 0.59배 아래에 있다. 예비 손절 568.39 까지의 폭 4.55% 는 하루 평균 변동폭 4.68% 안에 들어온다. 10일선 552.94 위로는 하루 평균 변동폭의 0.96배만큼 떠 있다.",
-          "maStack": "가격이 20일선 553.75, 50일선 497.93, 150일선 358.74 를 모두 위에서 지나고 있고 세 선이 아래에서부터 차례로 깔려 있다. 20일선 기울기는 +1.91% 로 올라가는 중이다.",
-          "note": "그림과 숫자가 일치한다. 9월 중순 고점 이후 봉들이 좁은 띠 안에 모여 있고, 그 구간에서 거래량 막대가 낮아지는 모양이 보인다."
+          "base": "19거래일, 약 3.8주째 좁은 구간을 오가고 있다. 구간 저점은 517.52 이고 고점 대비 깊이는 13.1%로 하루 평균 변동폭의 2.8배다. 최근 2주 가격 흔들림은 그 전 2주의 0.78배로 줄었지만 저점이 높아진 횟수는 0회다.",
+          "volume": "최근 5일 거래량이 20일 평균의 0.61배로 줄었다. 10월 6일 종가가 오른 날 거래량이 540만 주로 전날 420만 주보다 늘었다.",
+          "position": "현재가 574.55 는 넘으면 사는 선인 595.51 보다 3.52% 아래, 하루 평균 변동폭의 0.76배 아래다. 예비 손절 568.87 까지는 4.47%로 현재가 바로 밑이다. 10일선 556.79 위로는 하루 평균 변동폭의 0.67배만큼 떠 있다.",
+          "maStack": "현재가가 20일선 557.14, 50일선 502.03, 150일선 361.59 를 모두 위에서 지나고 있다. 20일선 기울기는 +2.07%로 오르는 중이다.",
+          "note": "그림과 숫자가 일치한다. 9월 중순 고점 뒤 좁은 구간이 눈에 보이고 거래량 막대도 그 구간에서 낮아져 있다."
         },
         "entryChecklist": [
-          "넘어야 할 선 595.51 을 거래량이 20일 평균의 2배 이상 실린 채 종가로 넘는지",
-          "넘은 당일 저가를 곧바로 깨고 내려오지 않는지 — 쿨라매기가 꼽은 대표적 약한 신호다",
-          "10일선 552.94 와 20일선 553.75 를 종가로 밑돌지 않고 버티는지",
-          "횡보 저점 517.52 가 다시 깨지지 않는지 — 저점이 높아진 횟수 0회가 메워지는지",
-          "메모리 가격 상승이 다음 분기 마진 전망에 어떻게 반영되는지 — 회사나 증권사 코멘트가 나오는지"
+          "595.51 을 거래량 20일 평균 2배 이상으로 종가 돌파하는지",
+          "돌파한 날 저가를 다시 깨지 않고 버티는지",
+          "10일선 556.79 와 20일선 557.14 를 종가로 지켜 내는지",
+          "메모리 값 상승이 다음 분기 이익률을 깎는다는 회사·증권사 언급이 새로 나오는지",
+          "시장 판정이 green 을 유지하는지, 빚내서 산 주식 경고가 더 커지지는 않는지"
         ],
-        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 직전 발표는 9월 1일이었고 그 내용으로 주가가 올라온 만큼, 다음 발표 날짜가 잡히면 그 전에 보유 여부를 다시 판단할 필요가 있다.",
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 직전 발표는 9월 1일이었고 그때 올린 전망이 지금 주가를 받치고 있다.",
         "confidence": "high",
         "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "n2",
-            "f2"
-          ],
-          "reasons": [
-            "n2: 'AI 서버 주문 609억 달러'는 quote에 있으나, '수주잔고 950억 달러'는 source quote에 없음.",
-            "f2: 네 분기 연속 증가율 '10.8% → 39.5% → 87.5% → 57.7%'은 source quote에 명시되지 않음. quote는 하나의 분기(+88%)만 제시."
-          ],
-          "leadFixed": true
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
         },
-        "leadOriginal": "AI 서버 주문이 폭발하면서 실적과 전망치가 함께 뛰어오른 종목이다. 가장 강한 근거는 분기 매출 470억 달러(1년 전보다 58% 증가)와 950억 달러 수주잔고, 그리고 회사가 올려 잡은 연간 전망이다. 가장 큰 걱정은 메모리 가격 상승이 서버 마진을 갉아먹는 것과, 9월에 선순위 채권을 네 종류 발행해 이자 부담이 늘었다는 점이다. 수주잔고가 실제 매출로 바뀌는 속도가 느려지거나 마진이 꺾이면 이 그림은 깨진다.",
-        "researchedOn": "2026-10-08",
-        "session": "2026-10-07",
-        "carried": true
+        "researchedOn": "2026-10-09",
+        "session": "2026-10-08",
+        "carried": false
       }
     },
     {
@@ -2212,5 +2258,15 @@ window.TEAM6_DATA = {
     "watch": 8,
     "checked": 0,
     "errors": []
+  },
+  "deep_coverage": {
+    "done": 1,
+    "total": 1,
+    "cap": 10,
+    "pending": 0,
+    "failed": 0,
+    "carried": 0,
+    "ineligible": 0,
+    "note": "전 종목(1) 조사 완료"
   }
 };

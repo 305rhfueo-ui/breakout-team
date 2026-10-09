@@ -1,0 +1,431 @@
+{
+ "ticker": "IT",
+ "date": "2026-10-09",
+ "session": "2026-10-08",
+ "source": "list",
+ "plan": {
+  "ticker": "IT",
+  "name": "가트너",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
+  "price": 195.41000366210938,
+  "grade": "B",
+  "state": "pre",
+  "pivot": 204.29,
+  "stop": 196.2,
+  "distToPivotPct": -4.35,
+  "distToPivotAdr": -1.05,
+  "riskPerSharePct": 3.96,
+  "adrPct": 4.14,
+  "extensionAdr": 0.95,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 9,
+   "baseWeeks": 1.8,
+   "depthPct": 12.9,
+   "priorMovePct": 58.6,
+   "higherLows": 1,
+   "contraction": 0.9,
+   "closeRange10Adr": 1.3,
+   "surf10": 0.95,
+   "surf20": 1.07,
+   "slope20": 1.19,
+   "baseLow": 177.95,
+   "lastSwingLow": 177.95
+  },
+  "reasons": [
+   "선행 상승 +59%",
+   "✗ 베이스 1.8주",
+   "깊이 12.9%",
+   "저점 상승 1회",
+   "진폭 0.9배 · 10일 종가폭 1.3 ADR",
+   "10일선 +0.9 ADR · 20일선 +1.1 ADR",
+   "20일선 기울기 +1.19%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.14529368921793293,
+    "pct": 94.51133144475921
+   },
+   "m3": {
+    "v": 0.460900206990684,
+    "pct": 98.19405099150141
+   },
+   "m6": {
+    "v": 0.26380810912590485,
+    "pct": 86.43767705382436
+   }
+  },
+  "ret1m": 14.53,
+  "ret3m": 46.09,
+  "ret6m": 26.38,
+  "marketCap": "11.68B",
+  "volx": 0.97,
+  "volSurgeWk": 1.23,
+  "high52": 74.84,
+  "newHigh52": false,
+  "adr": 4.14,
+  "div50": 5.55,
+  "div200": 13.7,
+  "targetStatus": false,
+  "saleCy": -1.28,
+  "saleNy": 4.05,
+  "epsCy": 9.91,
+  "epsNy": 13,
+  "cyTrend": -0.05,
+  "nyTrend": -0.02,
+  "est": {
+   "cyCur": 14.4746,
+   "cy30": 14.48115,
+   "nyCur": 16.35566,
+   "ny30": 16.35882
+  },
+  "fs": {
+   "sale": [
+    -0.62,
+    -1.51,
+    2.18
+   ],
+   "ni": [
+    14.42,
+    5.41,
+    -39.25
+   ],
+   "opm": [
+    22.59,
+    20.92,
+    19.07
+   ],
+   "updated": "2026-09-08 07:56:54"
+  },
+  "qualifiedBy": [
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-10-08",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 1,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-09",
+  "nameKo": "가트너",
+  "nameEn": "GARTNER INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000749251&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1675943000,
+     "profit": 378520000,
+     "netIncome": 275498000,
+     "margin": 22.6,
+     "yoy": {
+      "revenue": -0.6,
+      "profit": 15.7,
+      "netIncome": 14.4,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1511041000,
+     "profit": 316092000,
+     "netIncome": 222344000,
+     "margin": 20.9,
+     "yoy": {
+      "revenue": -1.5,
+      "profit": 13.7,
+      "netIncome": 5.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1752570000,
+     "profit": 334239000,
+     "netIncome": 241921000,
+     "margin": 19.1,
+     "yoy": {
+      "revenue": 2.2,
+      "profit": 5.2,
+      "netIncome": -39.3,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1524072000,
+     "profit": 86344000,
+     "netIncome": 35357000,
+     "margin": 5.7,
+     "yoy": {
+      "revenue": 2.7,
+      "profit": -64.9,
+      "netIncome": -91.5,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Gartner Stock Rises 41% in Three Months: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/gartner-stock-rises-41-three-months-heres-what-you-should-know",
+     "date": "2026-09-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Gartner (IT) is a Top Value Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-gartner-it-top-value-stock-long-term",
+     "date": "2026-09-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Strong Engagement & Contract Value Strengthen Gartner's Prospects",
+     "url": "https://www.nasdaq.com/articles/strong-engagement-contract-value-strengthen-gartners-prospects",
+     "date": "2026-09-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Gartner Breaks Below 200-Day Moving Average - Notable for IT",
+     "url": "https://www.nasdaq.com/articles/gartner-breaks-below-200-day-moving-average-notable-it",
+     "date": "2026-09-08",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-08",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/749251/000119312526417937/d158580d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000243/it-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-02",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000198/it-20260528.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000165/it-20260430.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-03",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000028/it-20260129.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-29",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000025/it-20260129.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "cnbc": [],
+ "kis": {
+  "ticker": "IT",
+  "fetchedAt": "2026-10-09",
+  "source": "한국투자증권 Open API",
+  "per": 17.53,
+  "pbr": 0,
+  "eps": 11.15,
+  "bps": 0,
+  "shares": 63149000,
+  "marketCapM": 12340,
+  "high52": 261.1,
+  "high52Date": "2025-10-21",
+  "low52": 124.25,
+  "low52Date": "2026-06-22",
+  "last": 195.41,
+  "prevClose": 185.77,
+  "nameKo": "가트너",
+  "nameEn": "GARTNER INC",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 63149000
+ },
+ "chart": {
+  "lastBar": "2026-10-08",
+  "numbers": {
+   "price": 195.41,
+   "ma20": 186.74,
+   "ma50": 185.14,
+   "ma150": 161.74,
+   "distMA50": 5.55,
+   "periodHigh": 584.01,
+   "pullbackFromHigh": -66.54,
+   "volRatio20": 0.93,
+   "dryUpRatio": 0.72
+  },
+  "last10": [
+   {
+    "d": "2026-09-25",
+    "o": 179.75,
+    "h": 189.14,
+    "l": 177.95,
+    "c": 187.9,
+    "v": 1070600,
+    "clsPos": 89,
+    "gapPct": 0.24
+   },
+   {
+    "d": "2026-09-28",
+    "o": 185.29,
+    "h": 187.01,
+    "l": 182.64,
+    "c": 185.73,
+    "v": 896400,
+    "clsPos": 71,
+    "gapPct": -1.39
+   },
+   {
+    "d": "2026-09-29",
+    "o": 184.1,
+    "h": 186.94,
+    "l": 180.68,
+    "c": 185.85,
+    "v": 787400,
+    "clsPos": 83,
+    "gapPct": -0.88
+   },
+   {
+    "d": "2026-09-30",
+    "o": 186.35,
+    "h": 190.5,
+    "l": 183,
+    "c": 186.54,
+    "v": 777200,
+    "clsPos": 47,
+    "gapPct": 0.27
+   },
+   {
+    "d": "2026-10-01",
+    "o": 196.19,
+    "h": 204.29,
+    "l": 192.42,
+    "c": 192.8,
+    "v": 1093600,
+    "clsPos": 3,
+    "gapPct": 5.17
+   },
+   {
+    "d": "2026-10-02",
+    "o": 192.74,
+    "h": 192.74,
+    "l": 184.6,
+    "c": 184.8,
+    "v": 628600,
+    "clsPos": 2,
+    "gapPct": -0.03
+   },
+   {
+    "d": "2026-10-05",
+    "o": 185.07,
+    "h": 188.12,
+    "l": 184.45,
+    "c": 187.76,
+    "v": 626100,
+    "clsPos": 90,
+    "gapPct": 0.15
+   },
+   {
+    "d": "2026-10-06",
+    "o": 188.47,
+    "h": 189.99,
+    "l": 184.61,
+    "c": 184.92,
+    "v": 653900,
+    "clsPos": 6,
+    "gapPct": 0.38
+   },
+   {
+    "d": "2026-10-07",
+    "o": 186.51,
+    "h": 188.8,
+    "l": 185.1,
+    "c": 185.77,
+    "v": 736900,
+    "clsPos": 18,
+    "gapPct": 0.86
+   },
+   {
+    "d": "2026-10-08",
+    "o": 188.63,
+    "h": 196.84,
+    "l": 186.81,
+    "c": 195.41,
+    "v": 919800,
+    "clsPos": 86,
+    "gapPct": 1.54
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/IT-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/IT-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선을 넘은 지 15일째, 둘 다 오르는 중 — 새로 사기 가장 좋은 구간",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

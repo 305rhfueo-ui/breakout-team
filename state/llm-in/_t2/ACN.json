@@ -1,0 +1,298 @@
+{
+ "ticker": "ACN",
+ "sector": "Technology",
+ "industry": "Information Technology Services",
+ "nameKo": "액센추어",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.59,
+  "saleNy": 4.91,
+  "epsCy": null,
+  "epsNy": null,
+  "est": {
+   "cyCur": null,
+   "cy30": null,
+   "nyCur": 15.93211,
+   "ny30": 15.74742
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.59,
+    8.31,
+    5.95
+   ],
+   "ni": [
+    6.44,
+    2.08,
+    -2.95
+   ],
+   "opm": [
+    16.96,
+    13.82,
+    15.33
+   ],
+   "updated": "2026-09-08 07:11:42"
+  },
+  "qualifiedBy": [
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-10-08",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 1,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-09",
+  "nameKo": "액센추어",
+  "nameEn": "ACCENTURE PLC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001467373&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-05-31",
+     "derived": false,
+     "revenue": 18718144000,
+     "profit": 3175298000,
+     "netIncome": 2338989000,
+     "margin": 17,
+     "yoy": {
+      "revenue": 5.6,
+      "profit": 6.5,
+      "netIncome": 6.4,
+      "priorEnd": "2025-05-31"
+     }
+    },
+    {
+     "periodEnd": "2026-02-28",
+     "derived": false,
+     "revenue": 18044066000,
+     "profit": 2493547000,
+     "netIncome": 1825239000,
+     "margin": 13.8,
+     "yoy": {
+      "revenue": 8.3,
+      "profit": 11.1,
+      "netIncome": 2.1,
+      "priorEnd": "2025-02-28"
+     }
+    },
+    {
+     "periodEnd": "2025-11-30",
+     "derived": false,
+     "revenue": 18742125000,
+     "profit": 2873698000,
+     "netIncome": 2211561000,
+     "margin": 15.3,
+     "yoy": {
+      "revenue": 6,
+      "profit": -2.5,
+      "netIncome": -3,
+      "priorEnd": "2024-11-30"
+     }
+    },
+    {
+     "periodEnd": "2025-08-31",
+     "derived": false,
+     "revenue": 17596260000,
+     "profit": 2049691000,
+     "netIncome": 1413963000,
+     "margin": 11.6,
+     "yoy": {
+      "revenue": 7.3,
+      "profit": -12.9,
+      "netIncome": -16.1,
+      "priorEnd": "2024-08-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Accenture (ACN) International Revenue Trends Deserve Your Attention",
+     "url": "https://www.nasdaq.com/articles/why-accenture-acn-international-revenue-trends-deserve-your-attention",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Accenture vs. Microsoft: Which Technology Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/accenture-vs-microsoft-which-technology-stock-better-buy-2026",
+     "date": "2026-10-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Accenture Q4 Earnings Call Sees AI Demand Broaden Into FY27",
+     "url": "https://www.nasdaq.com/articles/accenture-q4-earnings-call-sees-ai-demand-broaden-fy27",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Accenture (ACN) Q4 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/accenture-acn-q4-2026-earnings-call-transcript",
+     "date": "2026-10-02",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Should Investors Chase Accenture (ACN) Stock After Its Post-Earnings Surge?",
+     "url": "https://www.nasdaq.com/articles/should-investors-chase-accenture-acn-stock-after-its-post-earnings-surge",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-01",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000037/acn-20261001.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-10",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000119312526300813/d181172d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-23",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000035/acn-20260623.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000031/acn-20260618.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-24",
+    "itemsKo": [
+     "중요 계약 체결",
+     "1.02",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000019/acn-20260422.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-19",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000013/acn-20260319.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-06-23",
+     "broker": "LS증권",
+     "analyst": "선유진",
+     "title": "[액센추어 (NYS:ACN)] 중동 리스크에 수요 둔화 우려 부각",
+     "summary": "- 글로벌 최대 컨설팅 및 IT서비스 기업- FY 3Q26: 수요 둔화 우려 부각- 국내 IT서비스 기업에 대한 시사점",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgexmeiilgmlxgcgxeccm.pdf"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making big moves midday: Accenture, Synopsys, United Therapeutics, Vicor and more",
+   "url": "https://www.cnbc.com/2026/10/01/stocks-making-the-biggest-moves-midday-acn-snps-uthr-vicr-.html",
+   "date": "2026-10-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Accenture stock rallies after earnings beat expectations",
+   "url": "https://www.cnbc.com/2026/10/01/accenture-rallies-more-than-20percent-after-earnings-beat-heads-for-best-day-ever.html",
+   "date": "2026-10-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Despite the market volatility, one tech name is showing bullish signs. How to trade it",
+   "url": "https://www.cnbc.com/2026/07/14/despite-the-market-volatility-one-tech-name-is-showing-bullish-signs-how-to-trade-it.html",
+   "date": "2026-07-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Boost portfolio income in 2026's second half with these cheap dividend payers",
+   "url": "https://www.cnbc.com/2026/06/26/boost-income-in-the-second-half-of-2026-with-these-cheap-dividend-payers.html",
+   "date": "2026-06-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Micron, SpaceX, IBM, Flex & more",
+   "url": "https://www.cnbc.com/2026/06/23/stocks-making-the-biggest-moves-midday-mu-spcx-ibm-flex.html",
+   "date": "2026-06-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Here are the most overbought and oversold names after a volatile week",
+   "url": "https://www.cnbc.com/2026/06/19/here-are-the-most-overbought-and-oversold-names-after-a-volatile-week.html",
+   "date": "2026-06-19",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "ACN",
+  "fetchedAt": "2026-10-09",
+  "source": "한국투자증권 Open API",
+  "per": 15.36,
+  "pbr": 4,
+  "eps": 13.57,
+  "bps": 52.12,
+  "shares": 611942000,
+  "marketCapM": 127504,
+  "high52": 285.2129,
+  "high52Date": "2026-01-14",
+  "low52": 116.7463,
+  "low52Date": "2026-06-22",
+  "last": 208.36,
+  "prevClose": 196.64,
+  "nameKo": "액센추어",
+  "nameEn": "ACCENTURE PLC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 611942000
+ }
+}
