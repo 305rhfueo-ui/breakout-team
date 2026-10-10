@@ -1,0 +1,286 @@
+{
+ "ticker": "NTAP",
+ "sector": "Technology",
+ "industry": "Software - Infrastructure",
+ "nameKo": "넷앱",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 18.14,
+  "saleNy": 5.79,
+  "epsCy": 23.07,
+  "epsNy": 11.49,
+  "est": {
+   "cyCur": 10.00569,
+   "cy30": 10.01114,
+   "nyCur": 11.15568,
+   "ny30": 10.9062
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    29.89,
+    12.47,
+    4.39
+   ],
+   "ni": [
+    60.94,
+    18.82,
+    11.71
+   ],
+   "opm": [
+    23.9,
+    27.31,
+    25.34
+   ],
+   "updated": "2026-09-08 09:56:03"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-10-09",
+   "m6": "2026-10-02"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 1,
+   "m6": 6
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-09",
+  "nameKo": "넷앱",
+  "nameEn": "NETAPP INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001002047&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": false,
+     "revenue": 2025000000,
+     "profit": 484000000,
+     "netIncome": 375000000,
+     "margin": 23.9,
+     "yoy": {
+      "revenue": 29.9,
+      "profit": 56.6,
+      "netIncome": 60.9,
+      "priorEnd": "2025-07-25"
+     }
+    },
+    {
+     "periodEnd": "2026-04-24",
+     "derived": true,
+     "revenue": 1948000000,
+     "profit": 532000000,
+     "netIncome": 404000000,
+     "margin": 27.3,
+     "yoy": {
+      "revenue": 12.5,
+      "profit": 52.9,
+      "netIncome": 18.8,
+      "priorEnd": "2025-04-25"
+     }
+    },
+    {
+     "periodEnd": "2026-01-23",
+     "derived": false,
+     "revenue": 1713000000,
+     "profit": 434000000,
+     "netIncome": 334000000,
+     "margin": 25.3,
+     "yoy": {
+      "revenue": 4.4,
+      "profit": 19.9,
+      "netIncome": 11.7,
+      "priorEnd": "2025-01-24"
+     }
+    },
+    {
+     "periodEnd": "2025-10-24",
+     "derived": false,
+     "revenue": 1705000000,
+     "profit": 399000000,
+     "netIncome": 305000000,
+     "margin": 23.4,
+     "yoy": {
+      "revenue": 2.8,
+      "profit": 15.7,
+      "netIncome": 2,
+      "priorEnd": "2024-10-25"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "NetApp (NTAP) Falls More Steeply Than Broader Market: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/netapp-ntap-falls-more-steeply-broader-market-what-investors-need-know-0",
+     "date": "2026-10-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cash Dividend On The Way From NetApp (NTAP)",
+     "url": "https://www.nasdaq.com/articles/cash-dividend-way-netapp-ntap",
+     "date": "2026-10-08",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "NetApp Teams With Diskover Data to Unlock Data Value",
+     "url": "https://www.nasdaq.com/articles/netapp-teams-diskover-data-unlock-data-value",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Zacks Investment Ideas feature highlights: Hewlett, PBF Energy and NetApp",
+     "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-hewlett-pbf-energy-and-netapp",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "NetApp (NTAP) Moves 5.2% Higher: Will This Strength Last?",
+     "url": "https://www.nasdaq.com/articles/netapp-ntap-moves-52-higher-will-strength-last",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Is NetApp (NTAP) Up 16% Since Last Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/why-netapp-ntap-16-last-earnings-report",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why NetApp (NTAP) Outpaced the Stock Market Today",
+     "url": "https://www.nasdaq.com/articles/why-netapp-ntap-outpaced-stock-market-today-0",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-11",
+    "itemsKo": [
+     "3.03",
+     "5.03",
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1002047/000119312526389273/ntap-20260909.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-02",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1002047/000100204726000003/ntap-20260902.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-28",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1002047/000119312526245196/ntap-20260521.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1002047/000119312526076545/ntap-20260226.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-12",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1002047/000119312526010401/ntap-20260108.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-11-25",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1002047/000119312525297164/ntap-20251125.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: NetApp, MarineMax, Doximity & more",
+   "url": "https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-midday-ntap-intc-aapl-docs-vrsk.html",
+   "date": "2026-08-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "AI tech creators are responsible for building in the security controls",
+   "url": "https://www.cnbc.com/video/2026/10/06/ai-tech-creators-are-responsible-for-building-in-the-security-controls.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Watch CNBC's full interview with NetApp CEO George Kurian",
+   "url": "https://www.cnbc.com/video/2026/09/03/watch-cnbcs-full-interview-with-netapp-ceo-george-kurian.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "NetApp CEO George Kurian: We had a record-setting quarter; we see really good momentum",
+   "url": "https://www.cnbc.com/video/2026/09/03/netapp-ceo-george-kurian-we-had-a-record-setting-quarter-we-see-really-good-momentum.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "NTAP",
+  "fetchedAt": "2026-10-10",
+  "source": "한국투자증권 Open API",
+  "per": 33.47,
+  "pbr": 31.09,
+  "eps": 7.08,
+  "bps": 7.63,
+  "shares": 196419000,
+  "marketCapM": 46581,
+  "high52": 237.7,
+  "high52Date": "2026-10-09",
+  "low52": 92.7211,
+  "low52Date": "2026-01-20",
+  "last": 237.15,
+  "prevClose": 230.53,
+  "nameKo": "넷앱",
+  "nameEn": "NETAPP INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 196419000
+ }
+}

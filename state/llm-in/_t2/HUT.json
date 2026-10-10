@@ -1,0 +1,275 @@
+{
+ "ticker": "HUT",
+ "sector": "Financial Services",
+ "industry": "Capital Markets",
+ "nameKo": "허트 8",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 24.54,
+  "saleNy": 94.47,
+  "epsCy": 77.22,
+  "epsNy": 45.89,
+  "est": {
+   "cyCur": -3.64552,
+   "cy30": 0.88,
+   "nyCur": -5.31846,
+   "ny30": -5.225
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    81.44,
+    225.54,
+    179.21
+   ],
+   "ni": [
+    -209.22,
+    "적자확대",
+    -283.86
+   ],
+   "opm": [
+    -275.36,
+    -521.52,
+    -491.4
+   ],
+   "updated": "2026-09-21 06:56:12"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-10",
+  "nameKo": "허트 8",
+  "nameEn": "HUT 8 CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001964789&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 74932000,
+     "profit": -206330000,
+     "netIncome": -150191000,
+     "margin": -275.4,
+     "yoy": {
+      "revenue": 81.4,
+      "profit": -209.8,
+      "netIncome": -209.4,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 71017000,
+     "profit": -370370000,
+     "netIncome": -219849000,
+     "margin": -521.5,
+     "yoy": {
+      "revenue": 225.5,
+      "profit": -150.8,
+      "netIncome": -64.2,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 88494000,
+     "profit": -434858000,
+     "netIncome": -301532000,
+     "margin": -491.4,
+     "yoy": {
+      "revenue": 179.2,
+      "profit": -254.3,
+      "netIncome": -298.7,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 83510000,
+     "profit": 72655000,
+     "netIncome": 50109000,
+     "margin": 87,
+     "yoy": {
+      "revenue": 90.9,
+      "profit": 4730.7,
+      "netIncome": 7644.8,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "UBS Initiates Coverage of Hut 8 with Buy",
+     "url": "https://www.nasdaq.com/articles/ubs-initiates-coverage-hut-8-buy",
+     "date": "2026-09-23",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Hut 8's CFO Sells 6,445 Shares for $508,000 After a One-Year Return of 240%",
+     "url": "https://www.nasdaq.com/articles/hut-8s-cfo-sells-6445-shares-508000-after-one-year-return-240",
+     "date": "2026-08-26",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Hut 8 (HUT) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/hut-8-hut-q2-2026-earnings-call-transcript",
+     "date": "2026-08-11",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-28",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926111154/tm2625691d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926090041/tm2621890d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-20",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926084862/tm2620835d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-12",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926073505/tm2617732d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-10",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926071952/tm2617190d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-05",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926070744/tm2616926d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stock winners and losers as Anthropic passes OpenAI as hottest AI upstart",
+   "url": "https://www.cnbc.com/2026/08/19/stock-winners-and-losers-as-anthropic-passes-openai-as-hottest-ai-upstart.html",
+   "date": "2026-08-19",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "A trio of positive developments has Boeing shares soaring",
+   "url": "https://www.cnbc.com/2026/08/03/a-trio-of-positive-developments-has-boeing-shares-soaring.html",
+   "date": "2026-08-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: AMD, SpaceX, Domino's & more",
+   "url": "https://www.cnbc.com/2026/07/20/stocks-making-the-biggest-moves-premarket-amd-spcx-dpz.html",
+   "date": "2026-07-20",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Wednesday's stock stories: What’s likely to move the market in the next session",
+   "url": "https://www.cnbc.com/2026/06/30/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "date": "2026-06-30",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Hut 8 CEO Asher Genoot: Power is the key resource allowing AI data centers to thrive",
+   "url": "https://www.cnbc.com/video/2026/07/21/hut-8-ceo-asher-genoot-power-is-the-key-resource-allowing-ai-data-centers-to-thrive.html",
+   "date": "2026-07-21",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Jim Cramer looks at the AI opportunities that exist with neoclouds",
+   "url": "https://www.cnbc.com/video/2026/07/06/jim-cramer-looks-at-the-ai-opportunities-that-exist-with-neoclouds.html",
+   "date": "2026-07-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "HUT",
+  "fetchedAt": "2026-10-10",
+  "source": "한국투자증권 Open API",
+  "per": 15.74,
+  "pbr": 7.2,
+  "eps": 5.35,
+  "bps": 11.71,
+  "shares": 123259000,
+  "marketCapM": 10387,
+  "high52": 140.8,
+  "high52Date": "2026-06-02",
+  "low52": 31.67,
+  "low52Date": "2025-11-21",
+  "last": 84.27,
+  "prevClose": 79.59,
+  "nameKo": "허트 8",
+  "nameEn": "HUT 8 CORP",
+  "listedOn": "2021-06-15",
+  "exchange": "나스닥",
+  "listedShares": 123259000
+ }
+}

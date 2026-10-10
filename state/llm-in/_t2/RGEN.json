@@ -1,0 +1,225 @@
+{
+ "ticker": "RGEN",
+ "sector": "Healthcare",
+ "industry": "Medical Instruments & Supplies",
+ "nameKo": "레플리젠",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.02,
+  "saleNy": 18.03,
+  "epsCy": 20.56,
+  "epsNy": 28.42,
+  "est": {
+   "cyCur": 2.06159,
+   "cy30": 2.06415,
+   "nyCur": 2.64753,
+   "ny30": 2.63753
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    11.93,
+    14.83,
+    18.12
+   ],
+   "ni": [
+    -66.31,
+    42.93,
+    "흑자전환"
+   ],
+   "opm": [
+    6.85,
+    8.21,
+    9.03
+   ],
+   "updated": "2026-09-09 06:25:24"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-10",
+  "nameKo": "레플리젠",
+  "nameEn": "REPLIGEN CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000730272&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 204128000,
+     "profit": 13976000,
+     "netIncome": 5008000,
+     "margin": 6.8,
+     "yoy": {
+      "revenue": 11.9,
+      "profit": 0.6,
+      "netIncome": -66.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 194255000,
+     "profit": 15940000,
+     "netIncome": 8333000,
+     "margin": 8.2,
+     "yoy": {
+      "revenue": 14.8,
+      "profit": 142.3,
+      "netIncome": 42.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 197913000,
+     "profit": 17868000,
+     "netIncome": 13287000,
+     "margin": 9,
+     "yoy": {
+      "revenue": 18.1,
+      "profit": 149,
+      "netIncome": 139.2,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 188805000,
+     "profit": 16825000,
+     "netIncome": 14911000,
+     "margin": 8.9,
+     "yoy": {
+      "revenue": 21.9,
+      "profit": 314.8,
+      "netIncome": 2380,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Repligen Corp Completes Acquisition Of BioLife Solutions",
+     "url": "https://www.nasdaq.com/articles/repligen-corp-completes-acquisition-biolife-solutions",
+     "date": "2026-10-07",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Biotech Stocks At 52-Week Highs - KOD +177% On Phase 3 Data; GRAL, IOVA, RGEN",
+     "url": "https://www.nasdaq.com/articles/biotech-stocks-52-week-highs-kod-177-phase-3-data-gral-iova-rgen",
+     "date": "2026-09-29",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-06",
+    "itemsKo": [
+     "2.01",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/730272/000119312526415015/d240327d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-15",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/730272/000162828026062043/rgen-20260910.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-08",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/730272/000119312526385380/d131600d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/730272/000119312526318853/rgen-20260728.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-22",
+    "itemsKo": [
+     "중요 계약 체결",
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/730272/000119312526311402/d141685d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-15",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/730272/000119312526225380/rgen-20260514.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "RGEN",
+  "fetchedAt": "2026-10-10",
+  "source": "한국투자증권 Open API",
+  "per": 236.99,
+  "pbr": 4.65,
+  "eps": 0.73,
+  "bps": 37.43,
+  "shares": 63490400,
+  "marketCapM": 11040,
+  "high52": 198.87,
+  "high52Date": "2026-09-28",
+  "low52": 100.99,
+  "low52Date": "2026-05-14",
+  "last": 173.88,
+  "prevClose": 163.84,
+  "nameKo": "레플리젠",
+  "nameEn": "REPLIGEN CORP",
+  "listedOn": "0000-00-00",
+  "exchange": "나스닥",
+  "listedShares": 63490400
+ }
+}

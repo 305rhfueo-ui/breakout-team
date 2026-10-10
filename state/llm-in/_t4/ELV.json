@@ -1,0 +1,150 @@
+{
+ "ticker": "ELV",
+ "news": [
+  {
+   "title": "ELV or DHR: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/elv-or-dhr-which-better-value-stock-right-now-0",
+   "date": "2026-10-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Medical Stocks Lagging  Elevance Health, Inc. (ELV) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-medical-stocks-lagging-elevance-health-inc-elv-year-0",
+   "date": "2026-10-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Are Medical Stocks Lagging  Elevance Health, Inc. (ELV) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-medical-stocks-lagging-elevance-health-inc-elv-year",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "ELV or DHR: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/elv-or-dhr-which-better-value-stock-right-now",
+   "date": "2026-09-15",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-10",
+   "reportDate": "2026-09-10",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000063/elv-20260910.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-15",
+   "reportDate": "2026-07-15",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000058/elv-20260715.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-10",
+   "reportDate": "2026-06-10",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000049/elv-20260610.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-13",
+   "reportDate": "2026-05-13",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000046/elv-20260513.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-22",
+   "reportDate": "2026-04-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000039/elv-20260422.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-10",
+   "reportDate": "2026-03-10",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000024/elv-20260310.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -0.58,
+  "saleNy": 1.93,
+  "epsCy": -10.09,
+  "epsNy": 8.65,
+  "cyTrend": 0.27,
+  "nyTrend": -0.06,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    1.4,
+    2.64,
+    9.47
+   ],
+   "ni": [
+    -16.06,
+    -19.19,
+    30.86
+   ],
+   "opm": [
+    4.56,
+    5.3,
+    1.17
+   ],
+   "updated": "2026-09-07 07:23:36"
+  }
+ }
+}

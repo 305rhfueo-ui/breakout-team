@@ -1,0 +1,506 @@
+{
+ "ticker": "DDOG",
+ "date": "2026-10-10",
+ "session": "2026-10-09",
+ "source": "list",
+ "plan": {
+  "ticker": "DDOG",
+  "name": "데이터도그",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "price": 293.260009765625,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 4.49,
+  "extensionAdr": 1.33,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.32570860659551326,
+    "pct": 98.8314447592068
+   },
+   "m3": {
+    "v": 0.11794755099699827,
+    "pct": 84.59631728045326
+   },
+   "m6": {
+    "v": 1.260366867188677,
+    "pct": 98.54815864022662
+   }
+  },
+  "ret1m": 32.57,
+  "ret3m": 11.79,
+  "ret6m": 126.04,
+  "marketCap": "105.30B",
+  "volx": 1.37,
+  "volSurgeWk": 1.73,
+  "high52": 99.75,
+  "newHigh52": false,
+  "adr": 4.49,
+  "div50": 18.79,
+  "div200": 55.73,
+  "targetStatus": false,
+  "saleCy": 30.48,
+  "saleNy": 22.53,
+  "epsCy": 23.29,
+  "epsNy": 17.68,
+  "cyTrend": 0.01,
+  "nyTrend": 0.2,
+  "est": {
+   "cyCur": 2.52754,
+   "cy30": 2.52724,
+   "nyCur": 2.97448,
+   "ny30": 2.96847
+  },
+  "fs": {
+   "sale": [
+    35.64,
+    32.15,
+    29.21
+   ],
+   "ni": [
+    1583.34,
+    113.35,
+    2.13
+   ],
+   "opm": [
+    0.49,
+    0.73,
+    0.98
+   ],
+   "updated": "2026-09-08 07:08:37"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": "2026-10-09",
+   "m3": null,
+   "m6": "2026-09-25"
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 11
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-10",
+  "nameKo": "데이터도그",
+  "nameEn": "DATADOG INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001561550&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1121454000,
+     "profit": 5455000,
+     "netIncome": 44558000,
+     "margin": 0.5,
+     "yoy": {
+      "revenue": 35.6,
+      "profit": 115.4,
+      "netIncome": 1583.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1006426000,
+     "profit": 7327000,
+     "netIncome": 52574000,
+     "margin": 0.7,
+     "yoy": {
+      "revenue": 32.2,
+      "profit": 159,
+      "netIncome": 113.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 953194000,
+     "profit": 9356000,
+     "netIncome": 46526000,
+     "margin": 1,
+     "yoy": {
+      "revenue": 29.2,
+      "profit": -0.4,
+      "netIncome": 2,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 885651000,
+     "profit": -5809000,
+     "netIncome": 33885000,
+     "margin": -0.7,
+     "yoy": {
+      "revenue": 28.4,
+      "profit": -128.6,
+      "netIncome": -34.5,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Datadog (DDOG) Declines More Than Market: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/datadog-ddog-declines-more-market-some-information-investors",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Datadog, Inc. (DDOG) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/datadog-inc-ddog-attracting-investor-attention-here-what-you-should-know",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Datadog’s Rally Has Insiders Selling—Can It Keep Climbing?",
+     "url": "https://www.nasdaq.com/articles/datadogs-rally-has-insiders-selling-can-it-keep-climbing",
+     "date": "2026-10-05",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Datadog (DDOG) Increases Despite Market Slip: Here's What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/datadog-ddog-increases-despite-market-slip-heres-what-you-need-know-0",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CSCO's Security Growth Accelerates: Can It Outpace DDOG & CRWD?",
+     "url": "https://www.nasdaq.com/articles/cscos-security-growth-accelerates-can-it-outpace-ddog-crwd",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Datadog, Inc. (DDOG) Is a Trending Stock: Facts to Know Before Betting on It",
+     "url": "https://www.nasdaq.com/articles/datadog-inc-ddog-trending-stock-facts-know-betting-it",
+     "date": "2026-09-25",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026053829/ddog-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-16",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026043590/ddog-20260615.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026031677/ddog-20260507.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-22",
+    "itemsKo": [
+     "3.03",
+     "5.03",
+     "주주총회 표결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1561550/000119312526168261/d81305d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-02",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026013236/ddog-20260226.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-10",
+    "itemsKo": [
+     "실적 발표"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026006645/ddog-20260210.htm"
+   }
+  ],
+  "krReports": {
+   "total": 3,
+   "reports": [
+    {
+     "date": "2026-09-17",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[데이터도그 (NAS:DDOG)] 사스포칼립스는 기우였나",
+     "summary": "- 데이터도그는 IT 시스템을 실시간 감시·진단하는 옵저버빌리티 소프트웨어 기업- 사용량 과금·업셀·락인 구조상 사스포칼립스와 별개로 견조한 사업- 최대 고객 제외 사업 가속 지속 여부 확인이 필요한 구간",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmxlzekzkzzeggcgxecec.pdf"
+    },
+    {
+     "date": "2026-05-12",
+     "broker": "현대차증권",
+     "analyst": "장문영",
+     "title": "[데이터도그 (NAS:DDOG)] 복잡해질수록 중요해진다",
+     "summary": "- 클라우드 기반 Observability 플랫폼 기업. AI 확산과 멀티 클라우드 환경 확대로 옵저버빌리티 수요 구조적 증가 국면- 사용량 기반 과금 모델로 AI 시대 구조 변화에 유리. ARR $10만 이상 고객이 전체 매출 90% 차지- 12M Fwd P/E 83배로 밸류에이션 부담 존재하나 견조한 성장과 플랫폼 확장 감안 시 장기 성장 프리미엄 유효",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlzkzkkzmigqigcgxecec.pdf"
+    },
+    {
+     "date": "2026-02-12",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[데이터도그 (NAS:DDOG)] ‘성장’ 구간을 넘어 ‘이익’ 구간으로",
+     "summary": "- 데이터도그는 클라우드·앱을 모니터링해 장애 탐지 및 원인을 분석하는 플랫폼 기업- FY4Q25 매출은 YoY +29% 성장했고, FY25에서 순이익 YoY가 처음 (+)로 전환됨- AI로 운영 복잡성이 늘며 대형 고객 확장이 이어져 긍정적 성장이 기대됨",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqclkmmkqqmcmlgcgxecec.pdf"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "cnbc": [
+  {
+   "title": "S&P 500, Nasdaq Composite close higher Thursday as Nvidia rallies on revenue guidance",
+   "url": "https://www.cnbc.com/2026/08/26/stock-market-today-live-updates.html",
+   "date": "2026-08-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+   "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+   "date": "2026-08-07",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves midday: UWM Holdings, Honeywell Aerospace, Peloton",
+   "url": "https://www.cnbc.com/2026/08/06/stocks-making-the-biggest-moves-midday-umwc-hona-mtsi-pton.html",
+   "date": "2026-08-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Red hot AI cloud data stock now 'priced for perfection,' says Todd Gordon",
+   "url": "https://www.cnbc.com/2026/07/14/red-hot-ai-cloud-data-stock-now-priced-for-perfection-says-todd-gordon.html",
+   "date": "2026-07-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Monday's big analyst calls: Nvidia, Netflix, AMD, First Solar, Micron & more",
+   "url": "https://www.cnbc.com/2026/07/06/monday-wall-street-calls-by-analysts-like-nvidia.html",
+   "date": "2026-07-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves midday: Meta, General Mills, Datadog, Sandisk",
+   "url": "https://www.cnbc.com/2026/07/01/stocks-making-the-biggest-moves-midday-meta-gis-ddog-sndk.html",
+   "date": "2026-07-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "D.A. Davidson's Gil Luria on Microsoft layoffs: Gaming business has become 'almost irrelevant'",
+   "url": "https://www.cnbc.com/video/2026/07/06/d-a-davidsons-gil-luria-on-microsoft-layoffs-gaming-business-has-become-almost-irrelevant.html",
+   "date": "2026-07-06",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Investors will love AI spenders when returns start to come in, says Citi's Heath Terry",
+   "url": "https://www.cnbc.com/video/2026/06/30/investors-will-love-ai-spenders-when-returns-start-to-come-in-says-citis-heath-terry.html",
+   "date": "2026-06-30",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "DDOG",
+  "fetchedAt": "2026-10-10",
+  "source": "한국투자증권 Open API",
+  "per": 599.1,
+  "pbr": 24.1,
+  "eps": 0.49,
+  "bps": 12.17,
+  "shares": 334905000,
+  "marketCapM": 98214,
+  "high52": 294,
+  "high52Date": "2026-10-09",
+  "low52": 98.0101,
+  "low52Date": "2026-02-24",
+  "last": 293.26,
+  "prevClose": 273.8,
+  "nameKo": "데이터도그",
+  "nameEn": "DATADOG INC",
+  "listedOn": "2019-09-18",
+  "exchange": "나스닥",
+  "listedShares": 334905000
+ },
+ "chart": {
+  "lastBar": "2026-10-09",
+  "numbers": {
+   "price": 293.26,
+   "ma20": 259.2,
+   "ma50": 246.88,
+   "ma150": 209.48,
+   "distMA50": 18.79,
+   "periodHigh": 294,
+   "pullbackFromHigh": -0.25,
+   "volRatio20": 1.2,
+   "dryUpRatio": 0.8
+  },
+  "last10": [
+   {
+    "d": "2026-09-28",
+    "o": 257,
+    "h": 272.79,
+    "l": 255.5,
+    "c": 268.7,
+    "v": 3478200,
+    "clsPos": 76,
+    "gapPct": -4.15
+   },
+   {
+    "d": "2026-09-29",
+    "o": 267.03,
+    "h": 269.44,
+    "l": 259.26,
+    "c": 268.56,
+    "v": 2970800,
+    "clsPos": 91,
+    "gapPct": -0.62
+   },
+   {
+    "d": "2026-09-30",
+    "o": 270.13,
+    "h": 277.5,
+    "l": 269.79,
+    "c": 273.85,
+    "v": 2788700,
+    "clsPos": 53,
+    "gapPct": 0.58
+   },
+   {
+    "d": "2026-10-01",
+    "o": 278.75,
+    "h": 280.05,
+    "l": 271.13,
+    "c": 276.46,
+    "v": 2939800,
+    "clsPos": 60,
+    "gapPct": 1.79
+   },
+   {
+    "d": "2026-10-02",
+    "o": 280.31,
+    "h": 282,
+    "l": 274.58,
+    "c": 277.22,
+    "v": 2079100,
+    "clsPos": 36,
+    "gapPct": 1.39
+   },
+   {
+    "d": "2026-10-05",
+    "o": 277.81,
+    "h": 281.85,
+    "l": 275.33,
+    "c": 276.42,
+    "v": 2348000,
+    "clsPos": 17,
+    "gapPct": 0.21
+   },
+   {
+    "d": "2026-10-06",
+    "o": 278,
+    "h": 285.68,
+    "l": 276,
+    "c": 278.24,
+    "v": 1755600,
+    "clsPos": 23,
+    "gapPct": 0.57
+   },
+   {
+    "d": "2026-10-07",
+    "o": 278.7,
+    "h": 281.25,
+    "l": 270.81,
+    "c": 271.34,
+    "v": 1587100,
+    "clsPos": 5,
+    "gapPct": 0.17
+   },
+   {
+    "d": "2026-10-08",
+    "o": 271.73,
+    "h": 278.9,
+    "l": 269.38,
+    "c": 273.8,
+    "v": 2949100,
+    "clsPos": 46,
+    "gapPct": 0.14
+   },
+   {
+    "d": "2026-10-09",
+    "o": 275.42,
+    "h": 294,
+    "l": 274.83,
+    "c": 293.26,
+    "v": 3704400,
+    "clsPos": 96,
+    "gapPct": 0.59
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/DDOG-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/DDOG-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 16일째) — 사도 되지만 골라서",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

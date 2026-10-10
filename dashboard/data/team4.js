@@ -49,9 +49,31 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:12:52"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CCI",
+        "category": 2,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Crown Castle은 미국 전역의 통신 기지국 철탑과 광케이블을 이동통신사에 빌려주고 임대료를 받는 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [],
+          "reason": "로컬 수집 데이터에 뉴스(10/09 stock soared, 9/30 AI/Spectrum deals, 9/17 upgrade) 및 8-K(9/14 임원변동, 7/22 실적발표) 기록 있음. volumeExplanation의 '뚜렷한 뉴스 없이'는 부정확."
+        },
+        "originalCategory": 6,
+        "corrected": true,
+        "categoryName": "바이오·FDA·임상",
+        "isHighlight": false,
+        "researchedOn": "2026-10-10",
+        "carried": false
       }
     },
     {
@@ -95,9 +117,31 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:39:49"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "AMT",
+        "category": 2,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "AMT는 휴대전화 기지국 탑과 데이터센터를 통신사에 빌려주고 임대료로 돈을 버는 부동산 투자회사(리츠)다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [],
+          "reason": "로컬 수집 데이터에 뉴스(10/09 8.6% jump, 10/06 outpaces, 9/21 upgrade) 및 8-K(9/18 임원변동, 9/14 중요계약) 기록 있음. volumeExplanation의 '뚜렷한 뉴스 없이'는 부정확."
+        },
+        "originalCategory": 6,
+        "corrected": true,
+        "categoryName": "바이오·FDA·임상",
+        "isHighlight": false,
+        "researchedOn": "2026-10-10",
+        "carried": false
       }
     },
     {
@@ -207,9 +251,31 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:33:13"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "EMBJ",
+        "category": 2,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "브라질 항공기 제조사 엠브라에르로, 중형 여객기와 비즈니스 제트기, 방산 장비를 만들어 판다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [],
+          "reason": "로컬 수집 데이터에 뉴스(10/07 vs RTX, 10/02 rating upgrade, 10/01 value stock) 기록 있음. 공식 8-K는 없으나 분석 뉴스가 명확함. volumeExplanation의 '뚜렷한 뉴스 없이'는 부정확."
+        },
+        "originalCategory": 6,
+        "corrected": true,
+        "categoryName": "바이오·FDA·임상",
+        "isHighlight": false,
+        "researchedOn": "2026-10-10",
+        "carried": false
       }
     },
     {
@@ -253,9 +319,31 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:58:43"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SNOW",
+        "category": 2,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "클라우드에 기업 데이터를 모아 저장·분석해 주는 데이터 플랫폼 회사로, 사용량과 구독료로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "reject",
+          "removed": [],
+          "reason": "로컬 수집 데이터에 뉴스(10/09 analyst optimistic, 10/06 upside target) 및 8-K(10/02 중요계약, 9/02 실적발표) 기록 있음. volumeExplanation의 '뚜렷한 뉴스 없이'는 부정확."
+        },
+        "originalCategory": 6,
+        "corrected": true,
+        "categoryName": "바이오·FDA·임상",
+        "isHighlight": false,
+        "researchedOn": "2026-10-10",
+        "carried": false
       }
     },
     {
@@ -377,9 +465,31 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:29:55"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "PFIS",
+        "category": 2,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "펜실베이니아주 스크랜턴에 본사를 둔 지역은행 지주회사로, 예금과 대출 이자로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [],
+          "reason": "로컬 수집 데이터에 뉴스(9/25 분석) 및 8-K(7/30 실적발표, 4/30 실적발표) 기록 있으나, 최신 뉴스 타이밍이 2026-09-25로 다소 오래됨. 10월 10일 거래량과의 직접 인과관계가 명확하지 않지만, 근거 완전 부재는 아님."
+        },
+        "originalCategory": 6,
+        "corrected": true,
+        "categoryName": "바이오·FDA·임상",
+        "isHighlight": false,
+        "researchedOn": "2026-10-10",
+        "carried": false
       }
     },
     {
@@ -423,9 +533,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-15 06:39:21"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ATEX",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Anterix는 미국 전역의 900MHz 주파수 면허를 보유하고, 전력·공익 등 핵심 인프라 기업에 이 주파수를 공급해 수익을 낸다. 매출은 면허 임대·양도 시점에 따라 분기마다 크게 흔들린다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "category 6과 no_source 상태가 적절함. claims 없음"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-10",
+        "carried": false
       }
     },
     {
@@ -469,9 +599,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:31:40"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "JOYY",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "JOYY는 라이브 스트리밍과 소셜 앱 등 인터넷 콘텐츠 서비스를 운영하며, 이용자 결제와 광고로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "category 6과 no_source 상태가 적절함. claims 없음"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-10",
+        "carried": false
       }
     },
     {
@@ -515,9 +665,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:23:36"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ELV",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "ELV(엘리번스 헬스)는 미국 대형 건강보험사로, 보험료를 받아 가입자의 의료비를 대신 내 주며 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "category 6과 no_source 상태가 적절함. claims 없음"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-10",
+        "carried": false
       }
     },
     {
@@ -563,27 +733,71 @@ window.TEAM4_DATA = {
       "catalyst": {
         "status": "done",
         "ticker": "HUM",
-        "category": 6,
+        "category": 5,
         "claims": [
           {
             "id": "c1",
-            "statement": "근거 없음",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
             "evidence_level": "no_source",
-            "sources": []
+            "sources": [
+              {
+                "title": "Humana 8-K (2026-10-09)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000057/hum-20261009.htm",
+                "date": "2026-10-09",
+                "quote": "has exceeded its goal of Top Quartile results",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "10월 9일 공시에서 Humana는 정부(CMS)가 10월 8일 발표한 2027년 메디케어 어드밴티지 평가 등급에서 상위 25% 목표를 넘겼다고 밝혔다.",
+            "stripped": true
+          },
+          {
+            "id": "c2",
+            "statement": "회사는 이 등급 덕에 2028년에 일회성 이익이 생기며, 이를 일회성 투자와 주주환원에 쓸 계획이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Humana 8-K (2026-10-09)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000057/hum-20261009.htm",
+                "date": "2026-10-09",
+                "quote": "one-time investments and return to shareholders",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "같은 공시에서 2026년 조정 주당순이익 9달러 이상 가이던스를 유지했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Humana 8-K (2026-10-09)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000057/hum-20261009.htm",
+                "date": "2026-10-09",
+                "quote": "affirms its guidance of at least $9.00 in adjusted earnings per common share",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
           }
         ],
-        "company": "Humana는 미국 정부 지원 노인 의료보험(메디케어 어드밴티지) 등 건강보험 상품을 팔고 보험료를 받아 돈을 버는 회사입니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
+        "company": "Humana는 미국 민간 건강보험사로, 메디케어 어드밴티지(고령자용 민간 건강보험) 가입자의 보험료로 주로 돈을 번다.",
+        "volumeExplanation": "10월 8일 정부가 2027년 메디케어 평가 등급을 발표했고, 10월 9일 Humana가 상위 25% 목표 초과와 2028년 일회성 이익 및 주주환원 계획을 공시했다. 보험료 수입과 보너스에 직결되는 등급이 좋게 나와 거래량이 늘었다. 이 이야기가 맞는지는 2028년 이익 규모와 12월 10일 투자자 설명회에서 확인된다.",
+        "confidence": "medium",
         "factcheck": {
-          "verdict": "pass",
+          "verdict": "partial",
           "removed": [],
-          "reason": "근거 없음(no_source)으로 일관성 있음. Category 6 정상"
+          "reason": "claim c1-c3 모두 quote와 일치하여 유효함. 다만 volumeExplanation이 claims 범위를 벗어남"
         },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-09",
-        "carried": true
+        "categoryName": "매크로·정책·산업 돌파",
+        "isHighlight": true,
+        "researchedOn": "2026-10-10",
+        "carried": false
       }
     }
   ],
@@ -606,19 +820,37 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 3,
+    "done": 11,
     "total": 11,
-    "cap": null,
-    "pending": 8,
+    "cap": 9,
+    "pending": 0,
     "failed": 0,
-    "carried": 3,
+    "carried": 2,
     "ineligible": 0,
-    "note": "11종목 중 3종목을 조사했습니다. 그중 3종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 8종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 2종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [],
     "sectorSignal": "오늘 후보 17건은 모두 \"뉴스 없이 거래량만 터진 종목\"으로 분류됐습니다. 실적 호재나 기술 돌파 호재는 0건이라 업종 쏠림을 말할 근거가 없습니다.",
     "caution": "17건 중 15건은 확인된 호재가 \"근거 없음\"입니다. 모더나(MRNA)는 나스닥100 지수 편입 소식이 있었지만 실적이나 기술 호재는 아니고, ITGR은 9월 4일 인수 관련 기사 제목만 있어 인수 가격과 종결 시점을 확인하지 못했습니다. 차트 모양은 판정하지 않았으니 직접 확인하세요.",
     "researchedOn": "2026-10-09"
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "HUM",
+        "category": 5,
+        "oneLine": "정부 메디케어 평가 등급이 목표를 넘어 2028년 일회성 이익 예고, 올해 이익 전망은 유지"
+      }
+    ],
+    "sectorSignal": "강조할 호재는 건강보험(메디케어 민영 상품) 업종 Humana 한 건뿐이라 업종 쏠림을 말할 수 없다. 실적 호재(어닝 서프라이즈·가이던스 상향)로 분류된 종목은 오늘 없다.",
+    "caution": "Humana 건은 기술 돌파가 아니라 정부 평가 등급(정책) 호재이고, 이익은 2028년에 생기는 일회성이라 올해 실적을 바꾸진 않는다. 나머지 종목은 근거가 확인되지 않아(\"근거 없음\") 제외했고, 차트 국면은 판단하지 않았으니 직접 확인해야 한다.",
+    "researchedOn": "2026-10-10"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "2": 5,
+    "5": 1,
+    "6": 5
   }
 };

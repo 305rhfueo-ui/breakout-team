@@ -1,0 +1,212 @@
+{
+ "ticker": "AMT",
+ "news": [
+  {
+   "title": "American Tower (AMT) Shares Cross Above 200 DMA",
+   "url": "https://www.nasdaq.com/articles/american-tower-amt-shares-cross-above-200-dma",
+   "date": "2026-10-09",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Why American Tower Stock Jumped 8.6% Today",
+   "url": "https://www.nasdaq.com/articles/why-american-tower-stock-jumped-86-today",
+   "date": "2026-10-09",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "American Tower (AMT) Outpaces Stock Market Gains: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/american-tower-amt-outpaces-stock-market-gains-what-you-should-know",
+   "date": "2026-10-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Comcast Now #144 Largest Company, Surpassing American Tower",
+   "url": "https://www.nasdaq.com/articles/comcast-now-144-largest-company-surpassing-american-tower",
+   "date": "2026-10-02",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "American Tower (AMT) Declines More Than Market: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/american-tower-amt-declines-more-market-some-information-investors",
+   "date": "2026-09-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "American Tower (AMT) Falls More Steeply Than Broader Market: What Investors Need to Know",
+   "url": "https://www.nasdaq.com/articles/american-tower-amt-falls-more-steeply-broader-market-what-investors-need-know",
+   "date": "2026-09-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is It Worth Investing in American Tower (AMT) Based on Wall Street's Bullish Views?",
+   "url": "https://www.nasdaq.com/articles/it-worth-investing-american-tower-amt-based-wall-streets-bullish-views",
+   "date": "2026-09-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "American Tower (AMT) Upgraded to Buy: What Does It Mean for the Stock?",
+   "url": "https://www.nasdaq.com/articles/american-tower-amt-upgraded-buy-what-does-it-mean-stock",
+   "date": "2026-09-21",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-18",
+   "itemsKo": [
+    "임원 변동",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000145/amt-20260917.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-14",
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053507/000119312526390605/d156192d8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-09",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000141/amt-20260909.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000131/amt-20260728.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-04",
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000127/amt-20260602.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-02",
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000123/amt-20260602.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001053507&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 211100000,
+    "profit": 1268800000,
+    "netIncome": 887500000,
+    "margin": 601,
+    "yoy": {
+     "revenue": -13.4,
+     "profit": 5.9,
+     "netIncome": 133.2,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 216100000,
+    "profit": 1239200000,
+    "netIncome": 878500000,
+    "margin": 573.4,
+    "yoy": {
+     "revenue": -4.4,
+     "profit": -1.2,
+     "netIncome": 76.2,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 219800000,
+    "profit": 1160700000,
+    "netIncome": 836800000,
+    "margin": 528.1,
+    "yoy": {
+     "revenue": 2.3,
+     "profit": 7.5,
+     "netIncome": -32,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": false,
+    "revenue": 246400000,
+    "profit": 1233300000,
+    "netIncome": 912600000,
+    "margin": 500.5,
+    "yoy": {
+     "revenue": 29.4,
+     "profit": 8.3,
+     "netIncome": 216.9,
+     "priorEnd": "2024-09-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 3.41,
+  "saleNy": 3.54,
+  "epsCy": 29.32,
+  "epsNy": 0.38,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    4.65,
+    6.82,
+    7.45
+   ],
+   "ni": [
+    136.5,
+    75.87,
+    -33.25
+   ],
+   "opm": [
+    46.15,
+    45.27,
+    42.4
+   ],
+   "updated": "2026-09-08 06:39:49"
+  }
+ }
+}

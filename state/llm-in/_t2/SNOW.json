@@ -1,0 +1,315 @@
+{
+ "ticker": "SNOW",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "스노우플레이크",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 34.92,
+  "saleNy": 28.19,
+  "epsCy": 77.84,
+  "epsNy": 35.18,
+  "est": {
+   "cyCur": 2.22305,
+   "cy30": 2.21598,
+   "nyCur": 3.0052,
+   "ny30": 2.98581
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    33.48,
+    30.12,
+    28.75
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    -23.45,
+    -24.78,
+    -27.16
+   ],
+   "updated": "2026-09-09 06:58:43"
+  },
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-09-25"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 11
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-10",
+  "nameKo": "스노우플레이크",
+  "nameEn": "SNOWFLAKE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001640147&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": false,
+     "revenue": 1546793000,
+     "profit": -262967000,
+     "netIncome": -191720000,
+     "margin": -17,
+     "yoy": {
+      "revenue": 35.1,
+      "profit": 22.7,
+      "netIncome": 35.7,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 1390951000,
+     "profit": -326154000,
+     "netIncome": -295571000,
+     "margin": -23.4,
+     "yoy": {
+      "revenue": 33.5,
+      "profit": 27.1,
+      "netIncome": 31.3,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 1283994000,
+     "profit": -318159000,
+     "netIncome": -306969000,
+     "margin": -24.8,
+     "yoy": {
+      "revenue": 30.1,
+      "profit": 17.7,
+      "netIncome": 7.3,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 1212909000,
+     "profit": -329473000,
+     "netIncome": -293957000,
+     "margin": -27.2,
+     "yoy": {
+      "revenue": 28.7,
+      "profit": 9.8,
+      "netIncome": 9.4,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Is Snowflake (SNOW) a Buy as Wall Street Analysts Look Optimistic?",
+     "url": "https://www.nasdaq.com/articles/snowflake-snow-buy-wall-street-analysts-look-optimistic",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Wall Street Analysts See a 25.64% Upside in Snowflake (SNOW): Can the Stock Really Move This High?",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-2564-upside-snowflake-snow-can-stock-really-move-high",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Is Snowflake (SNOW) Down 4.1% Since Last Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/why-snowflake-snow-down-41-last-earnings-report",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Investors Heavily Search Snowflake Inc. (SNOW): Here is What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/investors-heavily-search-snowflake-inc-snow-here-what-you-need-know",
+     "date": "2026-09-29",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-02",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "3.02",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000043/snow-20260928.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-02",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/snow-20260902.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-16",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1640147/000162828026048373/snow-20260715.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-30",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000032/snow-20260629.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000027/snow-20260527.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-31",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000013/snow-20260331.htm"
+   }
+  ],
+  "krReports": {
+   "total": 4,
+   "reports": [
+    {
+     "date": "2026-06-01",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[스노우플레이크 (NYS:SNOW)] SNOW의 시간은 거꾸로 간다",
+     "summary": "- 스노우플레이크는 클라우드에 데이터를 모아 저장·분석해주는 데이터 플랫폼 기업- FY1Q27 실적은 성장률 재가속과 가이던스 상향 등 긍정적. 발표 후 주가 +36%- 기업용 데이터·AI 플랫폼 시장 확장, 고객 확보 속도 증가 등에 우호적 흐름 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcgxlggimzelmgcgxecec.pdf"
+    },
+    {
+     "date": "2026-02-27",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "title": "[스노우플레이크 (NYS:SNOW)] 꺾이지 않은 성장, 남은 건 ‘증명’",
+     "summary": "- 스노우플레이크는 데이터 저장·분석과 AI 활용을 지원하는 클라우드 데이터 플랫폼- FY4Q26은 매출 +30% 성장, NRR 125%, RPO +42%로 성장 탄력이 유지된 실적- FY27 성장 둔화, RPO 단기 인식 비중 하락 속 Cortex Code가 성장 재가속의 핵심",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgemlmilqxxqzgcgxecec.pdf"
+    },
+    {
+     "date": "2026-02-26",
+     "broker": "신한투자증권",
+     "analyst": "심지현",
+     "title": "[스노우플레이크 (NYS:SNOW)] 높은 상호운용성 핵심",
+     "summary": "- AI 에이전트 확산으로 인한 비용 최적화 위험 비교적 적음- 원래부터 높았던 AI 기여도가 한층 더 확대 + 상호운용성 확장- 전년대비 제품 매출 +27% 성장 가이던스는 보수적으로 제시된 수치",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgcmxeclqgmlxgcgxecec.pdf"
+    },
+    {
+     "date": "2025-12-05",
+     "broker": "신한투자증권",
+     "analyst": "심지현",
+     "title": "[스노우플레이크 (NYS:SNOW)] 사실은 괜찮은 실적",
+     "summary": "- FY3Q26은 호실적 달성에도 불구하고 4Q 가이던스를 아쉽게 제시하며 직후 주가 급락- AI는 동사에게 별도의 모멘텀이 아니라 기존 플랫폼 사용량을 끌어올리는 직접적 성장 엔진- 2Q의 대규모 마이그레이션 효과에서 정상 패턴으로의 복귀 때문에 이번 분기 실적이 언뜻 아쉬워보일 수 있으나, 레거시 시스템의 데이터 수집 및 마이그레이션은 여전히 규모가 크고 미완성된 시장임을 염두에 두어야 함 (AWS는 온프레미스 마이그레이션이 15-20%만 완료되었다고 간주).",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxklllckxqgkxqgcgxecec.pdf"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Palantir is a bargain compared to AI-linked software peers, UBS says",
+   "url": "https://www.cnbc.com/2026/09/15/palantir-is-a-bargain-compared-to-ai-linked-software-peers-ubs-says.html",
+   "date": "2026-09-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Tesla, Ciena, Meta, Snowflake & more",
+   "url": "https://www.cnbc.com/2026/09/03/stocks-making-the-biggest-moves-midday-tsla-cien-meta-snow-rare.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Software is up nearly 40% since 'SaaSpocalypse' bottom. Ways to play the sector",
+   "url": "https://www.cnbc.com/2026/09/03/software-is-up-40percent-since-saaspocalypse-bottom-ways-to-play-the-sector-.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Thursday",
+   "url": "https://www.cnbc.com/2026/09/03/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Thursday's biggest analyst calls: Nvidia, Apple, Broadcom, Snowflake, Deere, Tesla, Amazon",
+   "url": "https://www.cnbc.com/2026/09/03/thursdays-analyst-calls-include-nvidia.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Trade Tracker: Rocket Companies, Mitsubishi Heavy Industries and Snowflake",
+   "url": "https://www.cnbc.com/video/2026/10/01/trade-tracker-rocket-companies-mitsubishi-heavy-industries-and-snowflake.html",
+   "date": "2026-10-01",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "SNOW",
+  "fetchedAt": "2026-10-10",
+  "source": "한국투자증권 Open API",
+  "per": 116.2,
+  "pbr": 60.48,
+  "eps": 3.17,
+  "bps": 6.1,
+  "shares": 352800000,
+  "marketCapM": 130144,
+  "high52": 384.56,
+  "high52Date": "2026-09-03",
+  "low52": 118.3,
+  "low52Date": "2026-04-10",
+  "last": 368.89,
+  "prevClose": 343.4,
+  "nameKo": "스노우플레이크",
+  "nameEn": "SNOWFLAKE INC",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 352800000
+ }
+}

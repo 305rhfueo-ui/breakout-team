@@ -62,7 +62,370 @@ window.TEAM6_DATA = {
       "blocked": null,
       "shadowBook": null,
       "watch": true,
-      "score": 65.9
+      "score": 65.9,
+      "deep": {
+        "status": "done",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "2026년 6월 분기 영업이익 전년비 +54.8%, 매출 +31.7%, 순이익 +22.3% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 4개 분기 중 2026년 3월 분기가 영업손실 -4,960만 달러, 2025년 9·12월 분기도 영업이익 전년비 -78.1%·-82.2% (순이익 기준, 주식 수 변동 미반영). 3년 추세·ROE 는 확인 불가",
+            "status_note": null
+          },
+          {
+            "item": "N 새로운 것",
+            "status": "충족",
+            "evidence": "2026년 9월 유럽 자문위가 난소암 신약 Lifyorli 승인 권고, 12월 17일 FDA 결정 예정. 주가는 1년 최고가의 95.89% 자리"
+          },
+          {
+            "item": "S 수급",
+            "status": "충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 0.41배로 줄었고 10월 5일·9일 오른 날에 전날보다 거래량 증가. 유통주식 수는 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 6개월 상위 99.4%, 3개월 96.4%, 1개월 88.5%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "충족",
+            "evidence": "시장 판정 green(10일선이 20일선 위, 둘 다 상승 16일째). 다만 마진부채가 1년 전보다 +37.2% 로 주의선 초과"
+          }
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "베이스 직전 상승 +131.5%, 6개월 수익률 +161.5%"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 7.8주(39봉) — 2~8주 범위 안"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "충족",
+            "evidence": "저점 상승 2회, 진폭 0.86배로 좁아짐"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "깊이 14.3%, ADR 4.73% 의 약 3.0배. 선행 상승 131.5% 의 절반 미만"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "현재가 121.19 > 20일선 115.76 > 50일선 115.18 > 150일선 80.36"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "아직 피벗 아래라 돌파봉이 없다. 최근 거래량은 20일 평균의 0.36배 — 밤에 2배가 실리는지 본다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "충족",
+            "evidence": "피벗 126.38 달러까지 -4.11%, ADR 로 0.87배 거리"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 4.53% ≤ ADR 4.73%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 117.68 달러 위로 0.61 ADR — 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "충족",
+            "evidence": "시장 판정 green"
+          }
+        ],
+        "chartObservation": {
+          "base": "8월 25일 고점 126.38 달러를 찍은 뒤 7.8주째 옆으로 움직이고 있다. 그 사이 저점이 두 번 높아졌고 움직이는 폭은 이전의 0.86배로 좁아졌다. 고점 대비 가장 깊이 내려간 폭은 14.3% 로 하루 평균 변동폭(ADR) 4.73% 의 약 3배다.",
+          "volume": "횡보 구간에서 거래량이 뚜렷하게 줄었다. 최근 5일 거래량은 20일 평균의 0.41배다. 최근 10봉 중 10월 5일(100만 주)과 10월 9일(62만 주)은 오른 날이면서 전날보다 거래량이 늘었다.",
+          "position": "현재가 121.19 달러는 넘으면 사는 선인 피벗 126.38 달러보다 4.11% 아래다. ADR 로 환산하면 0.87배 거리라 하루 변동폭 안쪽이다. 예비 손절 120.65 달러와는 거의 붙어 있고, 10일선 117.68 달러보다는 0.61 ADR 위에 있다.",
+          "maStack": "가격이 20일선 115.76 달러, 50일선 115.18 달러, 150일선 80.36 달러를 모두 위에 두고 있다. 20일선 기울기는 +1.4% 로 올라가는 중이다.",
+          "note": "그림에서 9월 하순에 거래량 막대 하나가 유독 길게 튀어나온 날이 보인다. 그 날을 빼면 횡보 구간 내내 막대가 줄어드는 모양이라 숫자와 일치한다."
+        },
+        "company": "코셉트 테라퓨틱스는 스트레스 호르몬인 코르티솔의 작용을 막는 약을 만드는 미국 제약사다. 오래된 수익원은 쿠싱증후군 치료제 Korlym(성분명 미페프리스톤)이고, 환자 수가 적은 희귀질환 시장에서 돈을 벌어 왔다. 2026년 3월 미국 FDA 승인을 받은 난소암 신약 Lifyorli(성분명 relacorilant)가 새로운 성장 축이다.",
+        "confidence": "high",
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 다만 쿠싱증후군용 relacorilant 의 FDA 허가 결정일이 12월 17일로 잡혀 있어, 실적보다 이 하루가 주가를 더 크게 흔들 수 있다.",
+        "entryChecklist": [
+          "피벗 126.38 달러를 20일 평균 거래량의 2배 이상 거래량으로 종가 돌파하는지",
+          "예비 손절 120.65 달러와 10일선 117.68 달러 위에서 종가를 지키는지",
+          "12월 17일 FDA 허가 결정이 승인으로 나오는지, 아니면 다시 미뤄지는지",
+          "다음 분기 실적에서 난소암 신약 Lifyorli 매출이 6월 분기보다 더 늘었는지",
+          "회사가 올해 매출 전망 11억~12억 달러를 유지하거나 다시 올리는지"
+        ],
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "rev1",
+              "statement": "난소암 신약 출시가 매출 증가를 이끌었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update (8-K Ex-99.1)",
+                  "publisher": "SEC EDGAR / Corcept Therapeutics",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
+                  "date": "2026-07-29",
+                  "quote": "Corcept's second quarter 2026 revenue was $256.1 million, compared to $194.4 million in the second quarter of 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "2026년 6월 분기 매출은 2.561억 달러로 1년 전 1.944억 달러보다 32% 늘었다. 난소암 신약 출시가 매출 증가를 이끌었다."
+            },
+            {
+              "id": "rev2",
+              "statement": "직전 2026년 3월 분기 매출은 1.649억 달러로 전년비 4.9% 증가에 그쳤다. 분기별 매출 증가 속도가 들쭉날쭉하다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CORT 분기 실적표 (SEC EDGAR companyfacts)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001088856&type=10-Q",
+                  "date": "2026-06-30",
+                  "quote": "\"periodEnd\": \"2026-03-31\", \"revenue\": 164903000, \"yoy\": { \"revenue\": 4.9 }",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [],
+          "guidance": [
+            {
+              "id": "gui1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update (8-K Ex-99.1)",
+                  "publisher": "SEC EDGAR / Corcept Therapeutics",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
+                  "date": "2026-07-29",
+                  "quote": "We have increased our 2026 revenue guidance to $1.1 – $1.2 billion.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "회사는 2026년 매출 전망(가이던스, 회사가 내놓은 자체 전망)을 11억~12억 달러로 올렸다.",
+              "stripped": true
+            },
+            {
+              "id": "gui2",
+              "statement": "쿠싱증후군용 relacorilant 허가 신청을 6월에 다시 냈고, FDA 결정이 12월 17일로 예정돼 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update (8-K Ex-99.1)",
+                  "publisher": "SEC EDGAR / Corcept Therapeutics",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
+                  "date": "2026-07-29",
+                  "quote": "We resubmitted our New Drug Application (NDA) for relacorilant in Cushing's syndrome in June. We expect a decision on our NDA by December 17, 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "raised",
+            "claims": [
+              {
+                "id": "est1",
+                "statement": "전망의 방향이 위쪽이다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Corcept Therapeutics Announces First Quarter Financial Results and Provides Corporate Update (8-K Ex-99.1)",
+                    "publisher": "SEC EDGAR / Corcept Therapeutics",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026028892/cort043026ex991pressrelease.htm",
+                    "date": "2026-04-30",
+                    "quote": "increased its 2026 revenue guidance to $950 – $1,050 million",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  },
+                  {
+                    "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update (8-K Ex-99.1)",
+                    "publisher": "SEC EDGAR / Corcept Therapeutics",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
+                    "date": "2026-07-29",
+                    "quote": "We have increased our 2026 revenue guidance to $1.1 – $1.2 billion.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ],
+                "statementOriginal": "3개월 사이 회사 스스로 연간 매출 전망을 9.5억~10.5억 달러에서 11억~12억 달러로 올렸다. 전망의 방향이 위쪽이다."
+              }
+            ]
+          }
+        },
+        "financialsNarrative": "2026년 6월 분기 매출은 2.561억 달러로 1년 전 1.944억 달러보다 32% 늘었다. 회사는 올해 매출 전망을 11억~12억 달러로 올려 잡았다.",
+        "lead": "난소암 신약 출시로 매출이 다시 빨라진 가운데 주가가 1년 최고가 4% 아래에서 8주 가까이 좁게 움직이고 있어 관심 종목에 올랐다. 가장 강한 근거는 6월 분기 매출 32% 증가와 올해 매출 전망 11억~12억 달러로의 상향이다. 가장 큰 걱정은 2월 항소심에서 Teva 복제약이 특허를 침해하지 않는다는 판결이 확정돼 기존 수익원 Korlym 이 깎일 수 있다는 점이다. 12월 17일 FDA 허가 결정이 부정적으로 나오거나 다음 분기에 매출 증가가 꺾이면 이 그림은 깨진다.",
+        "newsNarrative": "최근 흐름의 중심은 난소암 신약 Lifyorli 의 유럽 진출이다. 2026년 9월 유럽의약품청 자문위원회가 백금 저항성 난소암 적응증에 승인 권고 의견을 냈다. 미국에서는 쿠싱증후군용 relacorilant 허가 신청을 6월에 다시 내 12월 17일 결정을 기다리고 있다. 한편 기존 주력 Korlym 은 2월 특허 소송 패소로 복제약 경쟁에 노출됐지만, 9월까지는 성장에 계속 기여하고 있다는 분석이 나왔다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "2026년 9월 유럽 자문위가 난소암 신약 Lifyorli 에 승인 권고 의견을 냈다. 유럽 판매로 가는 마지막 관문을 넘은 것이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Corcept's Lifyorli Gets Positive EU Opinion For Platinum-Resistant Ovarian Cancer",
+                "publisher": "RTTNews (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/corcepts-lifyorli-gets-positive-eu-opinion-platinum-resistant-ovarian-cancer",
+                "date": "2026-09-18",
+                "quote": "Corcept's Lifyorli Gets Positive EU Opinion For Platinum-Resistant Ovarian Cancer",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "같은 조합 요법을 다룬 후속 기사가 9월 21일에도 나왔다. 유럽 승인 권고가 시장에서 비중 있게 다뤄졌다는 뜻이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CHMP Backs CORT's Lifyorli Combo in Platinum-Resistant Ovarian Cancer",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/chmp-backs-corts-lifyorli-combo-platinum-resistant-ovarian-cancer",
+                "date": "2026-09-21",
+                "quote": "CHMP Backs CORT's Lifyorli Combo in Platinum-Resistant Ovarian Cancer",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "복제약 경쟁에도 기존 주력 Korlym 이 올해 남은 기간 성장에 기여할지를 묻는 분석이 9월에 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Will Korlym Continue to Aid CORT's Growth Through the Rest of 2026?",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/will-korlym-continue-aid-corts-growth-through-rest-2026",
+                "date": "2026-09-16",
+                "quote": "Will Korlym Continue to Aid CORT's Growth Through the Rest of 2026?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "9월 23일 임원 변동과 관련한 8-K 공시를 냈다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CORCEPT THERAPEUTICS INC Form 8-K (임원 변동 · Reg FD 공시 · 재무제표·첨부)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526398561/d148256d8k.htm",
+                "date": "2026-09-23",
+                "quote": "form: 8-K, filingDate: 2026-09-23, items: 임원 변동 · Reg FD 공시 · 재무제표·첨부",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "2026년 2월 연방순회항소법원이 Teva 복제약은 Korlym 특허를 침해하지 않는다고 판결했다. 기존 주력 제품이 복제약 가격 경쟁에 그대로 노출된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Teva Keeps Win Over Corcept Korlym Patent Lawsuit on Appeal",
+                "publisher": "Bloomberg Government",
+                "url": "https://news.bgov.com/antitrust/teva-keeps-win-over-corcept-korlym-patent-lawsuit-on-appeal",
+                "date": "2026-02-19",
+                "quote": "Teva Pharmaceutical Industries Ltd.'s generic version of Corcept Therapeutics Inc.'s Korlym doesn't infringe two patents on dosing methods for treating Cushing's syndrome, a federal appeals court ruled.",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "r2",
+            "statement": "12월 17일 FDA 허가 결정 하나에 쿠싱증후군 신약의 운명이 걸려 있다. 결정이 미뤄지거나 거절되면 성장 전망이 바뀐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update (8-K Ex-99.1)",
+                "publisher": "SEC EDGAR / Corcept Therapeutics",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
+                "date": "2026-07-29",
+                "quote": "We resubmitted our New Drug Application (NDA) for relacorilant in Cushing's syndrome in June. We expect a decision on our NDA by December 17, 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r3",
+            "statement": "신약 출시 비용이 급증해 2026년 3월 분기에 적자를 냈다. 비용이 매출보다 빨리 늘면 이익이 다시 흔들릴 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Corcept Therapeutics Announces First Quarter Financial Results and Provides Corporate Update (8-K Ex-99.1)",
+                "publisher": "SEC EDGAR / Corcept Therapeutics",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026028892/cort043026ex991pressrelease.htm",
+                "date": "2026-04-30",
+                "quote": "First quarter 2026 operating expenses were $214.5 million, compared to $153.8 million in the same period last year, due to increased spending to prepare for the launch of Lifyorli to treat patients with platinum-resistant ovarian cancer and to invest in growth initiatives in our Cushing's syndrome business.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "매출이 코르티솔 조절제라는 한 계열의 약에서만 나온다.",
+          "Korlym 복제약이 이미 시장에 나와 있어 가격과 점유율 압박이 상시적이다.",
+          "새 매출원이 미국·유럽 규제기관의 승인 일정에 좌우된다."
+        ],
+        "ticker": "CORT",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "n2",
+            "pro1",
+            "pro2"
+          ],
+          "reasons": [
+            "n2: Quote says 'relacorilant in platinum-resistant ovarian cancer' but relacorilant is for Cushing's syndrome per all other sources; Lifyorli is for ovarian cancer",
+            "pro1: Quote provides only EPS ($0.36), not operating income ($41.3M); operating income figure unverified",
+            "pro2: Quote discusses operating expenses increase but doesn't verify the specific operating loss amount of $49.6M"
+          ],
+          "financialsNarrativeFixed": true
+        },
+        "financialsNarrativeOriginal": "매출은 늘고 있지만 이익은 분기마다 들쭉날쭉하다. 2026년 6월 분기 매출은 2.561억 달러로 1년 전 1.944억 달러보다 32% 늘었다. 직전 3월 분기에는 신약 출시 준비 비용이 늘어 영업손실 4,960만 달러를 냈다가, 6월 분기에 영업이익 4,130만 달러로 돌아섰다. 회사는 올해 매출 전망을 11억~12억 달러로 올려 잡았다.",
+        "researchedOn": "2026-10-10",
+        "session": "2026-10-09",
+        "carried": false
+      }
     },
     {
       "ticker": "DELL",
@@ -632,7 +995,402 @@ window.TEAM6_DATA = {
       "blocked": null,
       "shadowBook": null,
       "watch": true,
-      "score": 56.7
+      "score": 56.7,
+      "deep": {
+        "status": "done",
+        "ticker": "FROG",
+        "company": "JFrog(제이프로그)는 소프트웨어 개발팀이 만든 코드와 패키지를 한곳에 보관·배포해 주는 저장소 프로그램을 파는 이스라엘 회사다. 주 고객은 자체 소프트웨어를 대량으로 찍어내는 대기업 개발 조직이고, 주력 제품은 저장소 '아티팩토리'와 여기 붙는 보안 검사 기능이다. 최근 성장 축은 고객이 직접 서버를 두지 않고 쓰는 클라우드 방식과, AI 모델까지 함께 관리해 주는 신규 기능이다.",
+        "lead": "AI 소프트웨어 수요로 매출 증가율이 다시 빨라진 가운데 주가가 넘어야 할 선 바로 아래에 있다. 가장 강한 근거는 2분기 매출이 1년 전보다 28.7% 늘고 회사가 연간 전망을 올린 점이다. 가장 큰 걱정은 네 분기 내리 영업적자이고, 8~9월에 공동창업자와 CFO가 주식을 판 점이다. 거래량이 실리지 않은 채 $105.76 을 못 넘고 베이스 저점 $85.03 쪽으로 밀리면 이 그림은 깨진다.",
+        "newsNarrative": "2분기 실적이 시장 예상을 크게 넘으면서 주가가 급등했다. 9월 2일 자체 행사에서는 AI 소프트웨어 공급망 보안 기능을 내놨지만, 그 사이 공동창업자와 CFO의 주식 매도 소식도 함께 나왔다.",
+        "recentNews": [
+          {
+            "id": "n2",
+            "statement": "기존 고객이 1년 전보다 21% 더 많이 결제해, 신규 고객 없이도 매출이 늘어나는 구조가 확인됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why JFrog Stock Jumped Today",
+                "publisher": "The Motley Fool",
+                "url": "https://www.fool.com/investing/2026/08/07/why-jfrog-stock-jumped-today/",
+                "date": "2026-08-07",
+                "quote": "The company's net dollar retention rate hit 121%, indicating that existing customers spent 21% more than in the prior-year quarter.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "8월 6일 회사가 올해 전망치를 증권사 예상치보다 높게 제시하면서 주가가 뛰었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "JFrog (NASDAQ:FROG) Updates FY 2026 Earnings Guidance",
+                "publisher": "MarketBeat",
+                "url": "https://www.marketbeat.com/instant-alerts/jfrog-nasdaqfrog-updates-fy-2026-earnings-guidance-2026-08-06/",
+                "date": "2026-08-06",
+                "quote": "The company issued revenue guidance of $648.0 million-$652.0 million, compared to the consensus revenue estimate of $632.5 million.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "9월 2일 자체 행사에서 AI 소프트웨어 공급망을 통제하는 신규 기능을 공개했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "JFrog Unveils AI Software Supply Chain Controls at swampUP 2026",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/jfrog-unveils-ai-software-supply-chain-controls-swampup-2026",
+                "date": "2026-09-02",
+                "quote": "JFrog Unveils AI Software Supply Chain Controls at swampUP 2026",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "9월 6일 CFO가 보유 주식 17,216주를 약 160만 달러에 팔았다는 보도가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "JFrog CFO Sells 17,216 Shares for $1.6 Million Amid a Soaring Stock Price",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/jfrog-cfo-sells-17216-shares-16-million-amid-soaring-stock-price",
+                "date": "2026-09-06",
+                "quote": "JFrog CFO Sells 17,216 Shares for $1.6 Million Amid a Soaring Stock Price",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n6",
+            "statement": "8월 18일에는 공동창업자가 45,000주를 약 410만 달러에 팔았다는 보도가 있었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "JFrog Co-Founder Sells 45,000 Shares Worth $4.1 Million. Here's What That Means for Investors.",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/jfrog-co-founder-sells-45000-shares-worth-41-million-heres-what-means-investors",
+                "date": "2026-08-18",
+                "quote": "JFrog Co-Founder Sells 45,000 Shares Worth $4.1 Million. Here's What That Means for Investors.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출이 네 분기 연속 1년 전보다 25% 넘게 늘며 성장 속도가 오히려 빨라지고 있다. 가장 최근 분기(2026년 4~6월) 매출은 1억 6,377만 달러로 28.7% 증가했다. 같은 분기 순손실은 417만 달러로 1년 전보다 80.8% 줄어 적자 폭이 빠르게 좁혀졌다. 다만 영업이익률은 아직 -8.1%여서 흑자로 돌아선 상태는 아니다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "f1",
+              "statement": "2026년 4~6월 분기 매출은 1억 6,377만 달러로 1년 전보다 28.7% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "JFrog Ltd. 분기 실적 (SEC 10-Q)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001800667&type=10-Q",
+                  "date": "2026-06-30",
+                  "quote": "periodEnd 2026-06-30, revenue 163,772,000, yoy.revenue 28.7",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f2",
+              "statement": "직전 세 분기 매출 증가율도 각각 25.8%·25.2%·25.5%로, 최근 네 분기 모두 25%를 넘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "JFrog Ltd. 분기 실적 (SEC 10-Q)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001800667&type=10-Q",
+                  "date": "2026-03-31",
+                  "quote": "2026-03-31 yoy.revenue 25.8 / 2025-12-31 yoy.revenue 25.2 / 2025-09-30 yoy.revenue 25.5",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "p1",
+              "statement": "2026년 4~6월 순손실은 417만 달러로 1년 전보다 80.8% 줄었지만 아직 적자다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "JFrog Ltd. 분기 실적 (SEC 10-Q)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001800667&type=10-Q",
+                  "date": "2026-06-30",
+                  "quote": "periodEnd 2026-06-30, netIncome -4,165,000, yoy.netIncome 80.8",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "p2",
+              "statement": "영업이익률은 -15.8%에서 -8.1%로 네 분기에 걸쳐 개선됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "JFrog Ltd. 분기 실적 (SEC 10-Q)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001800667&type=10-Q",
+                  "date": "2026-06-30",
+                  "quote": "margin: 2025-09-30 -15.8 / 2025-12-31 -14.7 / 2026-03-31 -8.4 / 2026-06-30 -8.1",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [
+            {
+              "id": "g1",
+              "statement": "회사는 올해 매출을 6억 4,800만~6억 5,200만 달러로 제시해 증권사 예상치 6억 3,250만 달러를 웃돌았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "JFrog (NASDAQ:FROG) Updates FY 2026 Earnings Guidance",
+                  "publisher": "MarketBeat",
+                  "url": "https://www.marketbeat.com/instant-alerts/jfrog-nasdaqfrog-updates-fy-2026-earnings-guidance-2026-08-06/",
+                  "date": "2026-08-06",
+                  "quote": "The company issued revenue guidance of $648.0 million-$652.0 million, compared to the consensus revenue estimate of $632.5 million.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "g2",
+              "statement": "올해 주당순이익 전망도 0.96~1.00달러로, 증권사 예상치 0.73달러보다 훨씬 높게 내놨다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "JFrog (NASDAQ:FROG) Updates FY 2026 Earnings Guidance",
+                  "publisher": "MarketBeat",
+                  "url": "https://www.marketbeat.com/instant-alerts/jfrog-nasdaqfrog-updates-fy-2026-earnings-guidance-2026-08-06/",
+                  "date": "2026-08-06",
+                  "quote": "The company provided earnings per share guidance of 0.960-1.000 for the period, compared to the consensus EPS estimate of 0.730.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "none",
+            "claims": []
+          }
+        },
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "2026년 4~6월 순손실 417만 달러로 적자 지속, 1년 전보다 80.8% 축소에 그침 (순이익 기준, 주식 수 변동 미반영). 매출은 28.7% 증가"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 네 분기 모두 적자(영업이익률 -15.8%→-8.1%)여서 연 25% 이익 성장 요건을 못 넘는다 (순이익 기준, 주식 수 변동 미반영). 3년 추세와 ROE는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신고가",
+            "status": "충족",
+            "evidence": "9월 2일 AI 소프트웨어 공급망 제어 기능 공개, 현재가는 1년 최고가의 96.66% 자리(고점 대비 -3.34%)"
+          },
+          {
+            "item": "S 수급",
+            "status": "충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 0.69배로 말랐다. 다만 10월 9일 상승일 거래량도 20일 평균의 0.75배에 그쳤고, 유통주식 수는 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 6개월 상위 98.5%, 1개월 상위 95.9%, 3개월 상위 90.5%. 6개월 수익률 124.4%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "충족",
+            "evidence": "시장 판정 green(10일선이 20일선 위, 둘 다 상승 16일째). 다만 마진부채가 1년 전보다 +37.2%로 주의선 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "네 분기 내리 영업적자라, 성장세가 꺾이면 이익으로 버틸 여유가 없다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "JFrog Ltd. 분기 실적 (SEC 10-Q)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001800667&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "profit: 2025-09-30 -21,590,000 / 2025-12-31 -21,322,000 / 2026-03-31 -12,931,000 / 2026-06-30 -13,249,000",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r2",
+            "statement": "CFO가 9월에 주식 17,216주를 팔아, 회사 사정을 가장 잘 아는 쪽이 비중을 줄였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "JFrog CFO Sells 17,216 Shares for $1.6 Million Amid a Soaring Stock Price",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/jfrog-cfo-sells-17216-shares-16-million-amid-soaring-stock-price",
+                "date": "2026-09-06",
+                "quote": "JFrog CFO Sells 17,216 Shares for $1.6 Million Amid a Soaring Stock Price",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r3",
+            "statement": "8월에는 공동창업자도 45,000주를 팔아, 내부자 매도가 한 번으로 끝나지 않았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "JFrog Co-Founder Sells 45,000 Shares Worth $4.1 Million. Here's What That Means for Investors.",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/jfrog-co-founder-sells-45000-shares-worth-41-million-heres-what-means-investors",
+                "date": "2026-08-18",
+                "quote": "JFrog Co-Founder Sells 45,000 Shares Worth $4.1 Million. Here's What That Means for Investors.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r4",
+            "statement": "이미 올해 전망치가 증권사 예상보다 훨씬 높게 올라가 있어, 다음 분기에 조금만 못 미쳐도 실망이 커질 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "JFrog (NASDAQ:FROG) Updates FY 2026 Earnings Guidance",
+                "publisher": "MarketBeat",
+                "url": "https://www.marketbeat.com/instant-alerts/jfrog-nasdaqfrog-updates-fy-2026-earnings-guidance-2026-08-06/",
+                "date": "2026-08-06",
+                "quote": "The company provided earnings per share guidance of 0.960-1.000 for the period, compared to the consensus EPS estimate of 0.730.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "매출의 절반 이상이 클라우드 사용량에 연동돼, 고객이 쓰는 양이 줄면 바로 매출이 흔들린다.",
+          "소프트웨어 저장소라는 한 가지 제품군에 사업이 몰려 있어, 대형 클라우드 업체가 같은 기능을 끼워 팔면 타격이 크다.",
+          "이익 대비 주가가 매우 높게 매겨져 있어, 성장 속도가 느려지면 주가가 크게 되돌려질 수 있다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "횡보 직전 상승 46.6%, 6개월 수익률 124.4%"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 31거래일, 약 6.2주 (기준 2~8주)"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점이 높아진 횟수 0회. 폭은 0.79배로 좁아졌으나 두 조건 중 하나만 성립"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "선행 상승 46.6%의 절반 바로 아래"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "현재가 102.23이 20일선 94.41·50일선 91.83 위"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 0.69배 (기준 0.7 이하)"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "아직 피벗 아래라 돌파봉이 없다. 최근 거래량은 20일 평균의 0.75배 — 밤에 2배가 실리는지 본다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "충족",
+            "evidence": "피벗 105.76까지 -3.34%, 하루 변동폭의 0.66배 아래"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 100.57까지 4.9%로 하루 변동폭 5.07%보다 좁다"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 96.33 위로 하루 변동폭의 1.14배 (기준 2배 이하)"
+          },
+          {
+            "item": "시장",
+            "status": "충족",
+            "evidence": "시장 판정 green — 10일선이 20일선 위, 둘 다 상승 16일째"
+          }
+        ],
+        "chartObservation": {
+          "base": "8월 28일 고점 이후 31거래일, 약 6.2주째 옆으로 움직이고 있다. 최근 2주 흔들림은 그 전 2주의 0.79배로 좁아졌지만, 저점이 높아진 횟수는 0회다.",
+          "volume": "최근 5일 거래량이 20일 평균의 0.69배로 줄었다. 10월 7일에는 77만 주까지 내려가 가장 조용했다. 10월 9일 종가가 102.23까지 오른 날도 거래량은 112만 주로 20일 평균의 0.75배에 그쳤다.",
+          "position": "현재가 102.23은 넘어야 할 선 105.76보다 3.34% 아래, 하루 변동폭으로는 0.66배 아래다. 예비 손절 100.57까지는 4.9%로 하루 변동폭 5.07%보다 좁다. 10일선 96.33 위로는 하루 변동폭의 1.14배만큼 떠 있다.",
+          "maStack": "현재가가 20일선 94.41, 50일선 91.83, 150일선 74.61 위에 모두 있다. 20일선 기울기는 +3.09%로 오르는 중이다.",
+          "note": "그림에서도 8월 말 고점 뒤 옆걸음 구간과 10월 들어 짧아진 거래량 막대가 보여 숫자와 일치한다."
+        },
+        "entryChecklist": [
+          "피벗 $105.76 을 거래량 20일 평균 2배 이상으로 종가 돌파하는지",
+          "돌파한 날 종가가 예비 손절 $100.57 위에서 끝나는지",
+          "베이스 저점 $85.03 이 깨지지 않고 유지되는지",
+          "11월 초로 예상되는 3분기 실적 발표 전에 들어갈지, 발표 이후로 미룰지",
+          "CFO·공동창업자에 이어 추가 내부자 매도 공시가 나오는지"
+        ],
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 다만 작년 3분기 실적을 11월 6일에 냈던 터라 11월 초 발표 가능성이 있고, 그 전에 들어가면 발표 하루에 손절 폭을 훌쩍 넘는 움직임을 맞을 수 있다.",
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "n1"
+          ],
+          "reasons": [
+            "n1: Cloud revenue growth (53%) and cloud composition (53% of total) not found in provided quote; quote only confirms total revenue of $163.8M and 29% growth"
+          ],
+          "leadFixed": true,
+          "newsNarrativeFixed": true
+        },
+        "leadOriginal": "AI 소프트웨어 수요로 매출 증가율이 다시 빨라진 가운데 주가가 넘어야 할 선 바로 아래에 있다. 가장 강한 근거는 2분기 매출이 1년 전보다 29% 늘고 클라우드 매출이 53% 급증해 회사가 연간 전망을 올린 점이다. 가장 큰 걱정은 네 분기 내리 영업적자이고, 8~9월에 공동창업자와 CFO가 주식을 판 점이다. 거래량이 실리지 않은 채 $105.76 을 못 넘고 베이스 저점 $85.03 쪽으로 밀리면 이 그림은 깨진다.",
+        "newsNarrativeOriginal": "8월 6일 2분기 실적이 시장 예상을 크게 넘으면서 주가가 급등했다. 매출이 1년 전보다 29% 늘었고, 특히 클라우드 매출이 53% 뛰어 전체의 53%를 차지했다. 회사가 연간 매출 전망을 6억 5천만 달러 수준으로 올린 것이 상승의 직접 원인이었다. 9월 초 자체 행사에서는 AI 소프트웨어 공급망 보안 기능을 내놨지만, 그 사이 공동창업자와 CFO의 주식 매도 소식도 함께 나왔다.",
+        "researchedOn": "2026-10-10",
+        "session": "2026-10-09",
+        "carried": false
+      }
     },
     {
       "ticker": "ELF",
@@ -2008,5 +2766,15 @@ window.TEAM6_DATA = {
     "watch": 4,
     "checked": 0,
     "errors": []
+  },
+  "deep_coverage": {
+    "done": 3,
+    "total": 3,
+    "cap": 10,
+    "pending": 0,
+    "failed": 0,
+    "carried": 1,
+    "ineligible": 0,
+    "note": "그중 1종목은 최근 조사분을 이월했습니다(조사일 표기)."
   }
 };

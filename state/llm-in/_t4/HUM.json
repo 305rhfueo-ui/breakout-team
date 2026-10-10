@@ -4,6 +4,20 @@
  "filings": [
   {
    "form": "8-K",
+   "filingDate": "2026-10-09",
+   "reportDate": "2026-10-09",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000057/hum-20261009.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
    "filingDate": "2026-09-01",
    "reportDate": "2026-09-01",
    "items": [
@@ -81,36 +95,18 @@
    "isEarnings": false,
    "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000025/hum-20260515.htm",
    "description": "8-K"
-  },
-  {
-   "form": "8-K",
-   "filingDate": "2026-04-29",
-   "reportDate": "2026-04-29",
-   "items": [
-    "2.02",
-    "7.01",
-    "9.01"
-   ],
-   "itemsKo": [
-    "실적 발표",
-    "Reg FD 공시",
-    "재무제표·첨부"
-   ],
-   "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000021/hum-20260429.htm",
-   "description": "8-K"
   }
  ],
  "financials": null,
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": 25.51,
-  "saleNy": 3.48,
-  "epsCy": -46.56,
-  "epsNy": 81.16,
-  "cyTrend": 0.07,
-  "nyTrend": 0.15,
+  "saleCy": 25.52,
+  "saleNy": 3.41,
+  "epsCy": -46.57,
+  "epsNy": 85.34,
+  "cyTrend": 0.06,
+  "nyTrend": 2.45,
   "newHigh52": false,
   "bbCenterBrk5d": true,
   "fs": {

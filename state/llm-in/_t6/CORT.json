@@ -1,0 +1,469 @@
+{
+ "ticker": "CORT",
+ "date": "2026-10-10",
+ "session": "2026-10-09",
+ "source": "watch",
+ "plan": {
+  "ticker": "CORT",
+  "name": "코셉트 테라퓨틱스",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "grade": "A",
+  "state": "pre",
+  "asOf": "2026-10-09",
+  "price": 121.19,
+  "pivot": 126.38,
+  "pivotDate": "2026-08-25",
+  "stop": 120.65,
+  "riskPerSharePct": 4.53,
+  "weightPct": 11,
+  "weightCapped": false,
+  "distToPivotPct": -4.11,
+  "distToPivotAdr": -0.87,
+  "extensionAdr": 0.61,
+  "chase": false,
+  "adrPct": 4.73,
+  "ma10": 117.68,
+  "dollarVol20M": 195.7,
+  "liquid": true,
+  "reasons": [
+   "선행 상승 +132%",
+   "베이스 7.8주",
+   "깊이 14.3%",
+   "저점 상승 2회",
+   "진폭 0.86배 · 10일 종가폭 1.4 ADR",
+   "10일선 +0.6 ADR · 20일선 +0.9 ADR",
+   "20일선 기울기 +1.4%"
+  ],
+  "fails": [],
+  "metrics": {
+   "baseBars": 39,
+   "baseWeeks": 7.8,
+   "depthPct": 14.3,
+   "priorMovePct": 131.5,
+   "higherLows": 2,
+   "contraction": 0.86,
+   "closeRange10Adr": 1.4,
+   "surf10": 0.61,
+   "surf20": 0.95,
+   "slope20": 1.4,
+   "baseLow": 108.25,
+   "lastSwingLow": 111.94
+  },
+  "catalyst": null,
+  "earnings": null,
+  "blocked": null,
+  "shadowBook": null,
+  "watch": true,
+  "score": 65.9
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.0744747003962699,
+    "pct": 88.4915014164306
+   },
+   "m3": {
+    "v": 0.35075792234208464,
+    "pct": 96.35269121813032
+   },
+   "m6": {
+    "v": 1.6152352620274713,
+    "pct": 99.39801699716713
+   }
+  },
+  "ret1m": 7.45,
+  "ret3m": 35.08,
+  "ret6m": 161.52,
+  "marketCap": "12.93B",
+  "volx": 0.39,
+  "volSurgeWk": 0.8,
+  "high52": 95.89,
+  "newHigh52": false,
+  "adr": 4.73,
+  "div50": 5.22,
+  "div200": 71.03,
+  "targetStatus": true,
+  "saleCy": 50.53,
+  "saleNy": 48.75,
+  "epsCy": 162.2,
+  "epsNy": 104.77,
+  "cyTrend": 286.23,
+  "nyTrend": 37.29,
+  "est": {
+   "cyCur": 2.15,
+   "cy30": 0.55667,
+   "nyCur": 4.4025,
+   "ny30": 3.20667
+  },
+  "fs": {
+   "sale": [
+    31.74,
+    4.89,
+    11.12
+   ],
+   "ni": [
+    21.76,
+    -253.8,
+    -21.36
+   ],
+   "opm": [
+    16.12,
+    -30.08,
+    2.22
+   ],
+   "updated": "2026-09-16 05:50:49"
+  },
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-07-24"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 52
+  }
+ },
+ "eye": {
+  "score": 6,
+  "reasons": [
+   "최근 1주 거래량이 한 달 평균의 0.41배로 줄었다(팔 사람이 줄어듦)",
+   "넘어야 할 선 $122.21 바로 아래(-0.83%)",
+   "최근 2주 종가가 2.43% 안에서만 움직였다",
+   "1년 최고가의 95.89% 자리"
+  ],
+  "resistance": 122.21
+ },
+ "detail": {
+  "fetchedAt": "2026-10-06",
+  "nameKo": "코셉트 테라퓨틱스",
+  "nameEn": "CORCEPT THERAPEUTICS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001088856&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 256147000,
+     "profit": 41300000,
+     "netIncome": 42987000,
+     "margin": 16.1,
+     "yoy": {
+      "revenue": 31.7,
+      "profit": 54.8,
+      "netIncome": 22.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 164903000,
+     "profit": -49601000,
+     "netIncome": -31761000,
+     "margin": -30.1,
+     "yoy": {
+      "revenue": 4.9,
+      "profit": -1552,
+      "netIncome": -254.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 202125000,
+     "profit": 4487000,
+     "netIncome": 24288000,
+     "margin": 2.2,
+     "yoy": {
+      "revenue": 11.1,
+      "profit": -82.2,
+      "netIncome": -21,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 207638000,
+     "profit": 10219000,
+     "netIncome": 19668000,
+     "margin": 4.9,
+     "yoy": {
+      "revenue": 13.7,
+      "profit": -78.1,
+      "netIncome": -58.3,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "CHMP Backs CORT's Lifyorli Combo in Platinum-Resistant Ovarian Cancer",
+     "url": "https://www.nasdaq.com/articles/chmp-backs-corts-lifyorli-combo-platinum-resistant-ovarian-cancer",
+     "date": "2026-09-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Corcept's Lifyorli Gets Positive EU Opinion For Platinum-Resistant Ovarian Cancer",
+     "url": "https://www.nasdaq.com/articles/corcepts-lifyorli-gets-positive-eu-opinion-platinum-resistant-ovarian-cancer",
+     "date": "2026-09-18",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Will Korlym Continue to Aid CORT's Growth Through the Rest of 2026?",
+     "url": "https://www.nasdaq.com/articles/will-korlym-continue-aid-corts-growth-through-rest-2026",
+     "date": "2026-09-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Is Corcept (CORT) Down 1.2% Since Last Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/why-corcept-cort-down-12-last-earnings-report",
+     "date": "2026-08-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Corcept Therapeutics (CORT) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-corcept-therapeutics-cort-top-momentum-stock-long-term",
+     "date": "2026-08-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-23",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526398561/d148256d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026050607/cort-20260729.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-17",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526274258/d159941d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-03",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526254622/d103585d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-28",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026038793/cort-20260521.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026028892/cort-20260430.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "cnbc": [
+  {
+   "title": "Cramer's lightning round: Buy Amprius Technologies",
+   "url": "https://www.cnbc.com/2026/07/08/cramers-lightning-round-buy-amprius-technologies.html",
+   "date": "2026-07-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "CORT",
+  "fetchedAt": "2026-10-10",
+  "source": "한국투자증권 Open API",
+  "per": 289.44,
+  "pbr": 18.53,
+  "eps": 0.42,
+  "bps": 6.54,
+  "shares": 108098000,
+  "marketCapM": 13100,
+  "high52": 126.3833,
+  "high52Date": "2026-08-25",
+  "low52": 28.6601,
+  "low52Date": "2026-02-19",
+  "last": 121.19,
+  "prevClose": 118.54,
+  "nameKo": "코셉트 테라퓨틱스",
+  "nameEn": "CORCEPT THERAPEUTICS INC",
+  "listedOn": "0000-00-00",
+  "exchange": "나스닥",
+  "listedShares": 108098000
+ },
+ "chart": {
+  "lastBar": "2026-10-09",
+  "numbers": {
+   "price": 121.19,
+   "ma20": 115.76,
+   "ma50": 115.18,
+   "ma150": 80.36,
+   "distMA50": 5.22,
+   "periodHigh": 126.38,
+   "pullbackFromHigh": -4.11,
+   "volRatio20": 0.36,
+   "dryUpRatio": 0.41
+  },
+  "last10": [
+   {
+    "d": "2026-09-28",
+    "o": 116,
+    "h": 117.07,
+    "l": 114.36,
+    "c": 115.63,
+    "v": 1149000,
+    "clsPos": 47,
+    "gapPct": -0.09
+   },
+   {
+    "d": "2026-09-29",
+    "o": 115.92,
+    "h": 120.51,
+    "l": 113.16,
+    "c": 114.74,
+    "v": 964400,
+    "clsPos": 21,
+    "gapPct": 0.25
+   },
+   {
+    "d": "2026-09-30",
+    "o": 114.8,
+    "h": 118.07,
+    "l": 113.98,
+    "c": 115.23,
+    "v": 910300,
+    "clsPos": 31,
+    "gapPct": 0.05
+   },
+   {
+    "d": "2026-10-01",
+    "o": 114.29,
+    "h": 115.98,
+    "l": 111.94,
+    "c": 114.03,
+    "v": 879000,
+    "clsPos": 52,
+    "gapPct": -0.82
+   },
+   {
+    "d": "2026-10-02",
+    "o": 114.38,
+    "h": 117.32,
+    "l": 113.9,
+    "c": 116.23,
+    "v": 960200,
+    "clsPos": 68,
+    "gapPct": 0.31
+   },
+   {
+    "d": "2026-10-05",
+    "o": 115.59,
+    "h": 122.81,
+    "l": 115.5,
+    "c": 122.03,
+    "v": 1004800,
+    "clsPos": 89,
+    "gapPct": -0.55
+   },
+   {
+    "d": "2026-10-06",
+    "o": 122.2,
+    "h": 122.54,
+    "l": 115.11,
+    "c": 119.57,
+    "v": 790000,
+    "clsPos": 60,
+    "gapPct": 0.14
+   },
+   {
+    "d": "2026-10-07",
+    "o": 119,
+    "h": 122,
+    "l": 117.23,
+    "c": 119.6,
+    "v": 634900,
+    "clsPos": 50,
+    "gapPct": -0.48
+   },
+   {
+    "d": "2026-10-08",
+    "o": 118.56,
+    "h": 119.16,
+    "l": 115.8,
+    "c": 118.54,
+    "v": 496600,
+    "clsPos": 82,
+    "gapPct": -0.87
+   },
+   {
+    "d": "2026-10-09",
+    "o": 118,
+    "h": 122.34,
+    "l": 117.41,
+    "c": 121.19,
+    "v": 624200,
+    "clsPos": 77,
+    "gapPct": -0.46
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CORT-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CORT-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 16일째) — 사도 되지만 골라서",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

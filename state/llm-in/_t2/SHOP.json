@@ -1,0 +1,306 @@
+{
+ "ticker": "SHOP",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "쇼피파이",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 31.97,
+  "saleNy": 25.86,
+  "epsCy": 33.65,
+  "epsNy": 28.28,
+  "est": {
+   "cyCur": 1.91121,
+   "cy30": 1.90672,
+   "nyCur": 2.45173,
+   "ny30": 2.4597
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    33.69,
+    34.32,
+    30.58
+   ],
+   "ni": [
+    65.78,
+    "적자축소",
+    -42.54
+   ],
+   "opm": [
+    13.62,
+    12.05,
+    17.18
+   ],
+   "updated": "2026-09-07 07:57:23"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-10-08",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 2,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-10",
+  "nameKo": "쇼피파이",
+  "nameEn": "SHOPIFY INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001594805&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 3583000000,
+     "profit": 488000000,
+     "netIncome": 1502000000,
+     "margin": 13.6,
+     "yoy": {
+      "revenue": 33.7,
+      "profit": 67.7,
+      "netIncome": 65.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 3170000000,
+     "profit": 382000000,
+     "netIncome": -581000000,
+     "margin": 12.1,
+     "yoy": {
+      "revenue": 34.3,
+      "profit": 88.2,
+      "netIncome": 14.8,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 3672000000,
+     "profit": 631000000,
+     "netIncome": 743000000,
+     "margin": 17.2,
+     "yoy": {
+      "revenue": 30.6,
+      "profit": 35.7,
+      "netIncome": -42.5,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 2844000000,
+     "profit": 343000000,
+     "netIncome": 264000000,
+     "margin": 12.1,
+     "yoy": {
+      "revenue": 31.5,
+      "profit": 21.2,
+      "netIncome": -68.1,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Better E-Commerce Stock: Coupang vs. Shopify",
+     "url": "https://www.nasdaq.com/articles/better-e-commerce-stock-coupang-vs-shopify",
+     "date": "2026-10-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "1 Stat That Makes Shopify Hard to Ignore Right Now",
+     "url": "https://www.nasdaq.com/articles/1-stat-makes-shopify-hard-ignore-right-now",
+     "date": "2026-10-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Will Shopify (SHOP) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-shopify-shop-beat-estimates-again-its-next-earnings-report",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Shopify (SHOP) Laps the Stock Market: Here's Why",
+     "url": "https://www.nasdaq.com/articles/shopify-shop-laps-stock-market-heres-why",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "3 Reasons Growth Investors Will Love Shopify (SHOP)",
+     "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-shopify-shop",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Shopify vs. Uber Technologies: Which Technology Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/shopify-vs-uber-technologies-which-technology-stock-better-buy-2026",
+     "date": "2026-10-06",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Wall Street Analysts Think Shopify (SHOP) Is a Good Investment: Is It?",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-think-shopify-shop-good-investment-it",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Shopify Inc. (SHOP) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/shopify-inc-shop-attracting-investor-attention-here-what-you-should-know-1",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000046/shop-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-02",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000035/shop-20260702.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-16",
+    "itemsKo": [
+     "주주총회 표결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000030/shop-20260616.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-02",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000028/shop-20260602.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-08",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000022/shop-20260508.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000018/shop-20260505.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Dell, Skyworks Solutions & more",
+   "url": "https://www.cnbc.com/2026/09/11/stocks-making-the-biggest-moves-midday-dell-swks-gme.html",
+   "date": "2026-09-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Friday's biggest analyst calls: Nvidia, SpaceX, Palantir, Shopify, Oracle, Dell",
+   "url": "https://www.cnbc.com/2026/09/11/biggest-friday-analyst-calls-like-nvidia.html",
+   "date": "2026-09-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Shopify has been under pressure this year. Bernstein says the decline is overblown",
+   "url": "https://www.cnbc.com/2026/09/11/shopify-has-been-under-pressure-this-year-bernstein-says-the-decline-is-overblown.html",
+   "date": "2026-09-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Goldman Sachs has added three new names to its favorite stocks list",
+   "url": "https://www.cnbc.com/2026/09/02/goldman-stock-picks-conviction-europe.html",
+   "date": "2026-09-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
+   "url": "https://www.cnbc.com/2026/08/17/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+   "date": "2026-08-17",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Friday",
+   "url": "https://www.cnbc.com/2026/08/07/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday-.html",
+   "date": "2026-08-07",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "SHOP",
+  "fetchedAt": "2026-10-10",
+  "source": "한국투자증권 Open API",
+  "per": 115.25,
+  "pbr": 17.37,
+  "eps": 1.48,
+  "bps": 9.84,
+  "shares": 1208570300,
+  "marketCapM": 206484,
+  "high52": 182.19,
+  "high52Date": "2025-10-29",
+  "low52": 94,
+  "low52Date": "2026-05-14",
+  "last": 170.85,
+  "prevClose": 164.56,
+  "nameKo": "쇼피파이",
+  "nameEn": "SHOPIFY INC",
+  "listedOn": "2025-03-31",
+  "exchange": "나스닥",
+  "listedShares": 1208570300
+ }
+}

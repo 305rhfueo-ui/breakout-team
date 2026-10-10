@@ -2093,20 +2093,36 @@ window.TEAM2_DATA = {
       "research": {
         "status": "done",
         "ticker": "OKTA",
-        "company": "기업 직원·고객의 로그인과 접근 권한을 관리하는 클라우드 보안 소프트웨어 회사다. 최근에는 AI 에이전트의 신원 관리를 새 성장 분야로 내세운다.",
-        "lead": "옥타는 최근 분기 실적이 좋아지고 AI 에이전트 보안이 새 성장 이야기로 붙으면서 올랐다. 키움증권은 성장이 다시 빨라졌다고 봤다.",
+        "company": "기업 직원·고객의 로그인과 접근 권한을 관리하는 보안 소프트웨어 회사. 구독형으로 돈을 벌고, 최근엔 AI 에이전트의 접근 관리까지 넓히고 있다.",
+        "lead": "옥타는 8월 말 실적 발표 뒤 하루 29% 급등했다. 분기 영업이익이 1년 전보다 161% 늘고 증권사들이 목표주가를 올린 것이 근거다. 다만 매출 성장이 최근 네 분기 모두 10~12%대에 머물렀다.",
         "whyRose": [
           {
-            "id": "w2",
-            "statement": "실적 발표 뒤 주가가 19.5% 올랐다는 기사가 나왔다.",
+            "id": "w1",
+            "statement": "8월 26일 실적 발표 직후 옥타 주가가 하루 29% 뛰었다. 사이버보안 업종 전체가 함께 오른 날이었다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Okta (OKTA) Up 19.5% Since Last Earnings Report: Can It Continue?",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/okta-okta-195-last-earnings-report-can-it-continue",
-                "date": "2026-09-25",
-                "quote": "Okta (OKTA) Up 19.5% Since Last Earnings Report: Can It Continue?",
+                "title": "Okta skyrockets 29% and CrowdStrike surges 20%, leading broad cyber stock rally",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/08/27/okta-skyrockets-20percent-and-crowdstrike-surges-15percent-leading-cyber-rally.html",
+                "date": "2026-08-27",
+                "quote": "Okta skyrockets 29% and CrowdStrike surges 20%, leading broad cyber stock rally",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "5~7월 분기 영업이익이 1억 700만 달러로 1년 전보다 161% 늘었다. 매출은 8억 500만 달러로 10.6% 증가했고, 영업이익률은 13.3%까지 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 8-K 실적 발표 (분기 2026-07-31)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000068/okta-20260826.htm",
+                "date": "2026-08-26",
+                "quote": "periodEnd 2026-07-31, revenue 805000000, profit 107000000, margin 13.3, yoy revenue 10.6, profit 161",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -2114,40 +2130,15 @@ window.TEAM2_DATA = {
           },
           {
             "id": "w3",
-            "statement": "AI 에이전트 신원 관리 시장이 기존 시장보다 더 크게 자란다는 전망을 연례 행사에서 내놓았고, 관련 보안 동맹도 발표했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Okta Sees AI Agent Identity Market Outgrowing Traditional IAM at Oktane 2026",
-                "publisher": "MarketBeat",
-                "url": "https://www.nasdaq.com/articles/okta-sees-ai-agent-identity-market-outgrowing-traditional-iam-oktane-2026",
-                "date": "2026-09-23",
-                "quote": "Okta Sees AI Agent Identity Market Outgrowing Traditional IAM at Oktane 2026",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Okta Unveils AI Agent Security Blueprint Alliance at Oktane",
-                "publisher": "MarketBeat",
-                "url": "https://www.nasdaq.com/articles/okta-unveils-ai-agent-security-blueprint-alliance-oktane",
-                "date": "2026-09-23",
-                "quote": "Okta Unveils AI Agent Security Blueprint Alliance at Oktane",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w4",
-            "statement": "키움증권은 대형 고객과 신제품 판매가 늘어 2분기 실적이 좋았고 향후 매출 성장도 다시 빨라졌다고 평가했다.",
+            "statement": "키움증권은 대형 고객 강세와 신제품 판매 증가로 앞으로 계약 잔액(cRPO) 성장이 다시 빨라졌다고 봤다. AI 에이전트 관리 시장을 선점하고 있다는 점도 장기 성장 요인으로 꼽았다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "[옥타 (NAS:OKTA)] AI 에이전트 시대가 여는 기회",
                 "publisher": "키움증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqlmxlzgkgmikeggcgxcmgm.pdf",
+                "url": "https://rreport.einfomax.co.kr/report/eqlmxlzgkgmikeggcgxecec.pdf",
                 "date": "2026-09-17",
-                "quote": "대형 고객 강세와 OIG 중심 신제품 판매 증가로 Q2 호실적 및 cRPO 성장 재가속",
+                "quote": "대형 고객 강세와 OIG 중심 신제품 판매 증가로 Q2 호실적 및 cRPO 성장 재가속- AI 에이전트는 초기 대형 계약과 개방형 표준 선점 진행 중, 중장기 성장 동력 기대",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -2157,36 +2148,62 @@ window.TEAM2_DATA = {
         "counterpoint": [
           {
             "id": "c2",
-            "statement": "이미 한 달 새 25.6%, 6개월 새 208.6% 올라, 좋은 소식이 상당 부분 주가에 반영됐을 수 있다.",
-            "evidence_level": "no_source",
-            "sources": []
+            "statement": "매출 증가율은 최근 네 분기 모두 10~12%대에 머물렀다. 이익 개선이 주가를 이끈 구조라서, 매출이 다시 빨라지지 않으면 상승 근거가 약해진다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 8-K 실적 발표 (분기 2026-07-31)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000068/okta-20260826.htm",
+                "date": "2026-08-26",
+                "quote": "yoy revenue 10.6 (2026-07-31), 11.2 (2026-04-30), 11.6 (2026-01-31), 11.6 (2025-10-31)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
           }
         ],
         "estimateRevisions": {
-          "direction": "unknown",
-          "claims": []
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "증권사 평균 목표주가가 한 달 안에 16.5% 올라 216.95달러가 됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Okta Consensus Price Target Raised by 16.50% to $216.95",
+                  "publisher": "Fintel",
+                  "url": "https://www.nasdaq.com/articles/okta-consensus-price-target-raised-1650-21695",
+                  "date": "2026-10-02",
+                  "quote": "Okta Consensus Price Target Raised by 16.50% to $216.95",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
         },
         "themeTags": [
-          "AI 에이전트 보안",
           "사이버보안",
-          "클라우드 소프트웨어"
+          "AI 에이전트 보안"
         ],
         "confidence": "medium",
         "factcheck": {
           "verdict": "partial",
           "removed": [
-            "w1",
+            "w4",
             "c1"
           ],
           "reasons": [
-            "w1: Specific numbers (1억 700만 달러, 161%, 13.3%, 7.3%) not in quote (quote only says '실적 발표')",
-            "c1: Specific percentages (10.6%, 11.2%) not in quote (quote only says '실적 발표')"
+            "w4 후반부: 10월 9일 52주 고점 232.98달러 · 5.4% 상승이 10월 2일 출처(Fintel)로 검증 불가 — 출처 발행일이 주장 날짜보다 1주일 이전",
+            "c1: statement 의 PER 140배가 목표주가 인상 소식 출처(10월 2일 Fintel)에 없음 — 목표주가 $216.95만 인용"
           ],
           "leadFixed": true
         },
-        "leadOriginal": "옥타는 최근 분기 실적이 좋아지고 AI 에이전트 보안이 새 성장 이야기로 붙으면서 올랐다. 분기 영업이익이 1년 전보다 161% 늘었고, 키움증권은 성장이 다시 빨라졌다고 봤다. 다만 매출 증가율은 10%대 초반에 머물러, 이익 개선이 이어지는지가 관건이다.",
-        "researchedOn": "2026-10-02",
-        "carried": true
+        "leadOriginal": "옥타는 8월 말 실적 발표 뒤 하루 29% 급등했고, 이후에도 올라 10월 9일 52주 고점(232.98달러)을 찍었다. 근거는 분기 영업이익이 1년 전보다 161% 늘고 증권사들이 목표주가를 올린 점이다. 다만 PER이 140배를 넘어, 매출 성장이 10%대에서 더 빨라지지 않으면 이 이야기는 흔들린다.",
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "deep": {
         "status": "done",
@@ -6861,7 +6878,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "오라 미네랄스",
       "nameEn": "AURA MINERALS INC (VG)",
@@ -8936,23 +8953,46 @@ window.TEAM2_DATA = {
       "research": {
         "status": "done",
         "ticker": "VICR",
-        "company": "전기차·AI 데이터센터 등에 들어가는 고성능 전력변환 모듈을 만드는 회사. 특허 소송을 통한 로열티(특허 사용료) 매출도 늘고 있다.",
-        "lead": "VICR는 한 달 새 약 70% 올랐고, 이는 생산 증설 기대의 결과다. 공장이 가동 한계에 가까워 증설 발표가 임박했다는 분석이 나왔다. 증설이 확정되지 않으면 이 이야기는 약해진다.",
+        "company": "서버·AI 데이터센터 등에 들어가는 전력 변환 모듈을 만드는 회사. 특허 소송으로 얻는 로열티(특허 사용료) 매출도 있다.",
+        "lead": "비코는 최근 한 달 새 47% 올랐으며, 분기 매출이 1년 전보다 20% 늘었고 증권사들은 공장 증설과 로열티 확대를 기대한다.",
         "whyRose": [
           {
-            "id": "w2",
-            "statement": "9월 중순 하루에 17.7% 급등한 뒤 같은 달 말까지 상승세가 이어졌다. 단기 모멘텀(상승 탄력)을 보고 매수가 붙은 것으로 해석된다.",
+            "id": "w1",
+            "statement": "올해 1분기 매출은 1억 1,297만 달러로 1년 전보다 20.2% 늘었고, 영업이익률은 14.9%였다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Vicor (VICR) Surges 17.7%: Is This an Indication of Further Gains?",
-                "publisher": "Zacks",
-                "url": "https://www.nasdaq.com/articles/vicor-vicr-surges-177-indication-further-gains",
-                "date": "2026-09-18",
-                "quote": "Vicor (VICR) Surges 17.7%: Is This an Indication of Further Gains?",
+                "title": "SEC 10-Q 실적표 (2026-03-31 분기)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000751978&type=10-Q",
+                "date": "2026-03-31",
+                "quote": "revenue 112969000, margin 14.9, yoy revenue 20.2",
                 "verified": "ok",
                 "httpStatus": 200
-              },
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "SK증권은 1공장이 거의 완전 가동 중이라 2차 공장 증설 발표가 임박했고, 특허 소송으로 로열티 매출이 계속 커진다고 봤다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[비코 (NAS:VICR)] 서프라이즈는 5월에 선반영",
+                "publisher": "SK증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlkxqkqkxxzclxgcgxecec.pdf",
+                "date": "2026-07-22",
+                "quote": "1 공장 완전 가동률 근접해 2 차 팹 증설 발표 임박- ITC 소송으로 로열티 매출액 확장 국면 지속",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "9월 말 주가가 급등했고, 단기 주가 흐름이 좋다는 분석 기사가 이어졌다.",
+            "evidence_level": "sourced",
+            "sources": [
               {
                 "title": "Why Vicor Stock Was Crushing it This Week",
                 "publisher": "The Motley Fool",
@@ -8963,108 +9003,54 @@ window.TEAM2_DATA = {
                 "httpStatus": 200
               }
             ]
-          },
-          {
-            "id": "w3",
-            "statement": "SK증권은 1공장이 거의 풀가동 상태라 2차 공장 증설 발표가 임박했다고 봤다. 증설이 확정되면 매출을 더 늘릴 여력이 생긴다는 기대가 깔려 있다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "[비코 (NAS:VICR)] 서프라이즈는 5월에 선반영",
-                "publisher": "SK증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqlkxqkqkxxzclxgcgxeccg.pdf",
-                "date": "2026-07-22",
-                "quote": "1 공장 완전 가동률 근접해 2 차 팹 증설 발표 임박",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "w4",
-            "statement": "특허 소송 덕에 로열티 매출이 계속 늘 것으로 전망된다. 로열티는 마진이 높아 이익 증가 속도가 매출보다 빠를 수 있다. 최근 분기 매출은 1억1,297만 달러로 1년 전보다 20.2% 늘었다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "[비코 (NAS:VICR)] 서프라이즈는 5월에 선반영",
-                "publisher": "SK증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqlkxqkqkxxzclxgcgxeccg.pdf",
-                "date": "2026-07-22",
-                "quote": "ITC 소송으로 로열티 매출액 확장 국면 지속",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "VICOR CORP 10-Q",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000751978&type=10-Q",
-                "date": "2026-03-31",
-                "quote": "revenue 112969000, yoy revenue 20.2",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
           }
         ],
-        "counterpoint": [
-          {
-            "id": "c1",
-            "statement": "주가가 이미 비싸다는 지적이 있다. 키움증권은 향후 12개월 예상 이익 기준 주가수익비율이 87배로 부담스럽다며 분할 접근을 권했다. 한 달 70% 상승 뒤라 기대가 상당 부분 반영됐을 수 있다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "[비코 (NAS:VICR)] 기술적 해자는 분명하나, 속도 조절이 필요한 시점",
-                "publisher": "키움증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqlgckkklmxkizcgcgxeccg.pdf",
-                "date": "2026-06-22",
-                "quote": "12M Fwd P/E 87배의 멀티플 부담 감안, 실적 가시성 확인 후 분할 접근 전략 유효",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "좋은 실적에도 주가가 내린 전례가 있다. 7월 2분기 실적이 예상치를 넘었는데 주가는 하락했다. 이익 전망이 다시 내려가면 같은 일이 되풀이될 수 있다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "[비코 (NAS:VICR)] 서프라이즈는 5월에 선반영",
-                "publisher": "SK증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqlkxqkqkxxzclxgcgxeccg.pdf",
-                "date": "2026-07-22",
-                "quote": "2Q26 컨센서스를 상회하는 실적 기록에도 주가는 하락",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
+        "counterpoint": [],
         "estimateRevisions": {
           "direction": "raised",
-          "claims": []
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "Earnings Estimates Rising for Vicor (VICR): Will It Gain?",
+                  "publisher": "Zacks",
+                  "url": "https://www.nasdaq.com/articles/earnings-estimates-rising-vicor-vicr-will-it-gain",
+                  "date": "2026-09-22",
+                  "quote": "Earnings Estimates Rising for Vicor (VICR): Will It Gain?",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "올해 주당순이익 예상치가 30일 전 3.49달러에서 4.12달러로, 내년은 5.55달러에서 6.12달러로 올랐다.",
+              "stripped": true
+            }
+          ]
         },
         "themeTags": [
-          "AI 인프라",
-          "전력반도체·전력변환",
-          "특허 로열티"
+          "AI 데이터센터 전력",
+          "반도체 부품"
         ],
         "confidence": "medium",
         "factcheck": {
           "verdict": "partial",
           "removed": [
-            "w1",
-            "e1"
+            "w2",
+            "c1",
+            "c2"
           ],
           "reasons": [
-            "w1: Statement claims specific EPS estimates (3.49→3.87 this year, 5.55→5.94 next year) but Zacks article title 'Earnings Estimates Rising for Vicor (VICR): Will It Gain?' does not contain these numbers in the quote provided.",
-            "e1: Same issue—statement lists specific EPS figures (3.49→3.87, 5.55→5.94) not found in the quote, only the title confirming estimates rose."
+            "w2: quote 기사 제목에 3.49달러→4.12달러 구체 수치 없음",
+            "c1: statement의 85배와 quote의 87배 불일치",
+            "c2: 382.65달러 고점과 30% 낙폭이 quote에 없음"
           ],
           "leadFixed": true
         },
-        "leadOriginal": "VICR는 한 달 새 약 70% 올랐고, 이는 이익 전망 상향과 생산 증설 기대가 겹친 결과다. 증권사들이 올해·내년 주당순이익 예상치를 올렸고, 공장이 가동 한계에 가까워 증설 발표가 임박했다는 분석이 나왔다. 증설이 확정되지 않거나 이익 전망이 다시 내려가면 이 이야기는 약해진다.",
-        "researchedOn": "2026-10-03",
-        "carried": true
+        "leadOriginal": "비코는 최근 한 달 새 47% 올랐고, 증권사 실적 전망이 계속 올라간 점이 배경으로 보인다. 분기 매출이 1년 전보다 20% 늘었고 증권사들은 공장 증설과 로열티 확대를 기대한다. 다만 주가가 이익의 85배 수준이라, 실적이 이 기대에 못 미치면 이야기가 깨진다.",
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "nameKo": "비코",
       "nameEn": "VICOR CORP",
@@ -10151,7 +10137,296 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "TWST",
+        "company": "트위스트 바이오사이언스는 합성 DNA를 만들어 파는 회사다. 신약 개발사·연구기관·진단 업체가 주 고객이다. 최근 분기 매출은 1억 1,838만 달러로 1년 전보다 23% 늘었다.",
+        "lead": "TWST는 3·6개월 상승률이 업종 최상위권이라 목록에 올랐지만, 10월 6일 고점 219.71달러 뒤 27% 내려와 있다. 가장 강한 근거는 분기 매출이 4분기 연속 늘고 회사가 연간 전망을 올렸다는 점이다. 가장 큰 걱정은 영업적자가 계속되고 순손실이 1년 전보다 크게 늘었다는 점이다. 20일 평균선을 다시 넘고 최근 거래량이 줄어드는지, 반대로 50일 평균선 아래로 내려가는지가 이 그림이 맞는지 가르는 기준이다.",
+        "newsNarrative": "8월 중순 회사가 3분기 실적을 내며 연간 매출 전망(가이던스)을 올렸다. 이후 9월 초 UBS는 중립, BWS 파이낸셜은 매도 의견으로 분석을 시작해 시각이 갈렸다. 9월 18일 전후에는 주가가 한 주 만에 크게 오른 것으로 보도됐다. 그 뒤 주가는 10월 6일 고점을 찍고 하루 만에 급락했고, 관련 보도는 입력된 자료에서 확인되지 않는다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "8월 19일 3분기 실적과 함께 연간 전망 상향이 보도됐다. 분기 매출은 23% 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Twist Bioscience (TWST): Q3 Revenue Jumps 23% As FY2026 Guidance Raised",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/twist-bioscience-twst-q3-revenue-jumps-23-fy2026-guidance-raised",
+                "date": "2026-08-19",
+                "quote": "Twist Bioscience (TWST): Q3 Revenue Jumps 23% As FY2026 Guidance Raised",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "9월 9일 UBS가 중립 의견으로 분석을 시작했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "UBS Initiates Coverage of Twist Bioscience with Neutral Rating",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/ubs-initiates-coverage-twist-bioscience-neutral-rating",
+                "date": "2026-09-09",
+                "quote": "UBS Initiates Coverage of Twist Bioscience with Neutral Rating",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "9월 10일 BWS 파이낸셜이 매도 의견으로 분석을 시작했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "BWS Financial Initiates Coverage of Twist Bioscience with Sell Rating",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/bws-financial-initiates-coverage-twist-bioscience-sell-rating",
+                "date": "2026-09-10",
+                "quote": "BWS Financial Initiates Coverage of Twist Bioscience with Sell Rating",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "9월 18일 주가가 한 주 새 급등했다는 기사가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Twist Bioscience Stock Skyrocketed This Week",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/why-twist-bioscience-stock-skyrocketed-week",
+                "date": "2026-09-18",
+                "quote": "Why Twist Bioscience Stock Skyrocketed This Week",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "분기 매출은 4분기 연속 전년보다 늘었고 최근 분기는 1억 1,838만 달러로 23% 증가했다. 반면 영업손실은 최근 분기 3,628만 달러로 적자가 이어졌다. 순손실은 3,505만 달러로 1년 전보다 크게 늘었다. 매출은 커지는데 이익은 아직 따라오지 못한다는 뜻이다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "r1",
+              "statement": "2026년 6월 분기 매출 1억 1,838만 달러, 1년 전보다 23.2% 증가.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "SEC 분기 실적표 (10-Q)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001581280&type=10-Q",
+                  "date": "2026-06-30",
+                  "quote": "periodEnd 2026-06-30 revenue 118376000, yoy revenue 23.2",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "2026년 6월 분기 매출 1억 1,838만 달러, 1년 전보다 23.2% 증가. 3월 분기는 19.3% 증가."
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "p1",
+              "statement": "2026년 6월 분기 영업손실 3,628만 달러, 순손실 3,505만 달러. 순손실은 1년 전보다 271.9% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "SEC 분기 실적표 (10-Q)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001581280&type=10-Q",
+                  "date": "2026-06-30",
+                  "quote": "periodEnd 2026-06-30 profit -36280000 netIncome -35051000 yoy netIncome -271.9",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [
+            {
+              "id": "g1",
+              "statement": "회사가 8월 실적 발표에서 2026 회계연도 전망을 상향했다고 보도됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Twist Bioscience (TWST): Q3 Revenue Jumps 23% As FY2026 Guidance Raised",
+                  "publisher": "RTTNews",
+                  "url": "https://www.nasdaq.com/articles/twist-bioscience-twst-q3-revenue-jumps-23-fy2026-guidance-raised",
+                  "date": "2026-08-19",
+                  "quote": "Twist Bioscience (TWST): Q3 Revenue Jumps 23% As FY2026 Guidance Raised",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "unknown",
+            "claims": []
+          }
+        },
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "최근 분기 순손실 3,505만 달러, 1년 전보다 적자 확대. 매출은 23.2% 증가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "4분기 이익 전년비 -271.9%, -11.9%, +3.4%, +21.7%. 모두 적자. 3년 추세·ROE는 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 신제품·신고가",
+            "status": "미충족",
+            "evidence": "8월 전망 상향·9월 분석 개시 등 소식은 있으나 현재가는 52주 고점 219.71 대비 -27.28%. 부분 충족"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.58배로 늘어 마름 기준 미달. 시총 약 103억 달러, 유통주식 수는 확인 불가"
+          },
+          {
+            "item": "L 업종 주도주",
+            "status": "충족",
+            "evidence": "RS 상위 백분위 1개월 98.3·3개월 99.5·6개월 99.3"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "충족",
+            "evidence": "시장 판정 green, 10일선이 20일선 위. 마진부채 1년 전보다 +37.2%로 주의선 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k1",
+            "statement": "영업적자가 이어지고 순손실이 전년 동기보다 크게 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 분기 실적표 (10-Q)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001581280&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "profit -36280000 netIncome -35051000 yoy netIncome -271.9",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "k2",
+            "statement": "증권사 시각이 갈린다. BWS 파이낸셜이 매도 의견으로 분석을 시작했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "BWS Financial Initiates Coverage of Twist Bioscience with Sell Rating",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/bws-financial-initiates-coverage-twist-bioscience-sell-rating",
+                "date": "2026-09-10",
+                "quote": "BWS Financial Initiates Coverage of Twist Bioscience with Sell Rating",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [],
+        "chartCheck": [
+          {
+            "item": "1 선행 상승",
+            "status": "충족",
+            "evidence": "3개월 상승률 75.14%, 1개월 25.59%"
+          },
+          {
+            "item": "2 횡보 길이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간 없음"
+          },
+          {
+            "item": "3 저점 높아짐",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간 없음, 지표 자료 없음"
+          },
+          {
+            "item": "4 깊이",
+            "status": "확인 불가",
+            "evidence": "베이스 깊이 자료 없음. 고점 대비 되돌림은 -27.28%, 하루 변동폭 평균 9.27%"
+          },
+          {
+            "item": "5 이평선 위",
+            "status": "미충족",
+            "evidence": "현재가 159.78은 20일선 168.47 아래, 50일선 143.66 위"
+          },
+          {
+            "item": "6 거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.58배"
+          },
+          {
+            "item": "7 돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "피벗 없음. 20일 평균 대비 최근 거래량 1.09배"
+          },
+          {
+            "item": "8 피벗 거리",
+            "status": "확인 불가",
+            "evidence": "피벗 없음"
+          },
+          {
+            "item": "9 손절 폭",
+            "status": "확인 불가",
+            "evidence": "예비 손절 없음. 하루 변동폭 평균 9.27%"
+          },
+          {
+            "item": "10 10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 대비 -1.2 ADR로 10일선 아래"
+          },
+          {
+            "item": "11 시장",
+            "status": "충족",
+            "evidence": "한별 판정 green"
+          }
+        ],
+        "chartObservation": {
+          "base": "뚜렷한 쉬는 구간이 없다. 8월 초부터 계단식으로 올랐고 9월 중순 이후 가파르게 올랐다. 10월 6일 고점 219.71 뒤 -27.28% 내려와 있다.",
+          "volume": "이후 590만, 437만, 354만 주로 줄었다. 최근 5일은 20일 평균의 1.58배다.",
+          "position": "현재가 159.78은 20일선 168.47 아래, 50일선 143.66 위다. 50일선보다 11.22% 위에 있다. 피벗과 손절은 정해지지 않았다.",
+          "maStack": "20일선·50일선·150일선(92.86) 순서로 모두 위로 향하고 있다. 가격은 150일선 위, 20일선 아래다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "쉬는 구간(2~8주)이 만들어지고 저점이 높아지는지",
+          "현재가가 20일선(168.47)을 종가로 되찾는지",
+          "최근 5일 거래량이 20일 평균의 0.7배 이하로 줄어드는지",
+          "50일선(143.66) 아래로 내려가지 않는지",
+          "새 피벗이 생기면 넘을 때 거래량이 20일 평균의 2배 이상 실리는지"
+        ],
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준 조회 안 함). 직전 실적은 8월 초 발표했다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "researchedOn": "2026-10-10",
+        "session": "2026-10-09",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "MSTR",
@@ -12508,7 +12783,270 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "ZS",
+        "company": "지스케일러는 기업의 인터넷 접속을 클라우드에서 검사·차단하는 보안 소프트웨어를 구독 방식으로 판다. 고객은 대기업과 공공기관이고, 최근 성장 축은 AI 보안이다. 분기 매출은 약 9억 달러로 1년 전보다 25% 늘었다.",
+        "lead": "ZS는 최근 1~3개월 상승률이 업종 최상위권(상위 1% 안팎)이라 관심 목록에 올랐다. 가장 강한 근거는 분기 매출이 4분기 연속 25% 안팎 늘고 있다는 점이다. 가장 큰 걱정은 영업이익이 아직 적자이고 주가수익비율(PER)이 591배로 높다는 점이다. 또 52주 고점보다 30.6% 낮고, 쉬는 구간이 없어 피벗이 없다. 다음 실적에서 적자가 흑자로 돌아서지 못하거나 매출 증가율이 꺾이면 이 그림은 약해진다.",
+        "newsNarrative": "10월 6일 투자자의 날(회사 전략 설명회)에서 지스케일러는 AI 보안으로 연간 반복 매출 80억 달러를 겨냥한다고 밝혔다. 같은 날 CEO가 CNBC에 나와 성장 전망을 설명했다. 10월 8일에는 Amerx가 매수 의견으로 분석을 시작했다. 주가는 10월 6일 갭 상승 뒤 계속 올라 10월 9일 종가 233.73달러를 기록했다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "10월 6일 투자자의 날에서 AI 보안 중심의 장기 매출 목표를 제시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Zscaler Investor Day Maps AI Security Path to $8B ARR, With $10B Upside",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/zscaler-investor-day-maps-ai-security-path-8b-arr-10b-upside",
+                "date": "2026-10-06",
+                "quote": "Zscaler Investor Day Maps AI Security Path to $8B ARR, With $10B Upside",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "10월 8일 Amerx가 매수 의견으로 분석을 시작했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Amerx Initiates Coverage of Zscaler with Buy",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/amerx-initiates-coverage-zscaler-buy",
+                "date": "2026-10-08",
+                "quote": "Amerx Initiates Coverage of Zscaler with Buy",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "9월 17일 CNBC 기술적 분석가는 뒤처졌던 이 보안주의 차트가 강세로 돌아서고 있다고 봤다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "One cybersecurity stock has lagged of late. Jay Woods says the charts are now turning bullish",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/17/one-cybersecurity-stock-has-lagged-of-late-jay-woods-says-the-charts-are-now-turning-bullish.html",
+                "date": "2026-09-17",
+                "quote": "One cybersecurity stock has lagged of late. Jay Woods says the charts are now turning bullish",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "9월 3일 실적 발표 직후 시간외 거래에서 주가가 크게 움직인 종목으로 꼽혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Stocks making the biggest moves after hours: Lululemon, Zscaler & more",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/03/stocks-making-the-biggest-moves-after-hours-lulu-zs-gwre.html",
+                "date": "2026-09-03",
+                "quote": "Stocks making the biggest moves after hours: Lululemon, Zscaler & more",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출은 4분기 연속 전년 대비 25% 안팎 늘었다. 최근 분기(2026년 7월 말) 매출은 8.98억 달러로 24.9% 증가했다. 영업손실은 1,549만 달러로 1년 전보다 52% 줄었고, 영업이익률은 -1.7%까지 올라왔다. 그래도 아직 흑자는 아니다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "r1",
+              "statement": "2026년 7월 말 분기 매출 8.98억 달러, 전년 동기 대비 24.9% 증가.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "SEC 10-Q 분기 실적표",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001713683&type=10-Q",
+                  "date": "2026-07-31",
+                  "quote": "revenue 898185000, yoy revenue 24.9",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "2026년 7월 말 분기 매출 8.98억 달러, 전년 동기 대비 24.9% 증가. 직전 3분기도 25.4%, 25.9%, 25.5% 증가."
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "p1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "SEC 10-Q 분기 실적표",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001713683&type=10-Q",
+                  "date": "2026-07-31",
+                  "quote": "profit -15492000, margin -1.7, yoy profit 52",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "영업손실이 1,549만 달러로 전년 동기보다 52% 줄고, 영업이익률은 -6.3%(1월 분기)에서 -1.7%로 개선됐다.",
+              "stripped": true
+            }
+          ],
+          "guidance": [],
+          "estimateRevisions": {
+            "direction": "none",
+            "claims": []
+          }
+        },
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "최근 분기 순손실 337만 달러, 전년보다 적자 80.8% 축소(흑자 전환 아님). 매출은 24.9% 증가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 4분기 순이익이 모두 적자이고, 두 분기는 적자가 전년보다 커졌다. 3년 추세·ROE는 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 신규 요인",
+            "status": "미충족",
+            "evidence": "10월 6일 투자자의 날, 10월 8일 신규 매수 의견 등 뉴스는 있으나 52주 고점(336.99달러)보다 30.6% 낮다. 부분 충족"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균과 같은 수준(1.0배), 최근 봉 거래량은 20일 평균의 1.12배. 유통주식 수는 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "RS 상위 백분위 1개월 99.4, 3개월 99.3, 6개월 96.0"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "충족",
+            "evidence": "시장 판정 green(10일선이 20일선 위, 16일째). 마진부채가 1년 전보다 37.2% 늘어 경고 수준"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k1",
+            "statement": "영업이익이 적자인데 PER 591배, PBR 14.7배로 평가가 높다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "한국투자증권 Open API 시세",
+                "publisher": "한국투자증권",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001713683&type=10-Q",
+                "date": "2026-10-10",
+                "quote": "per 591.27, pbr 14.67, eps 0.4",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "매출이 대기업 구독 계약에 의존해 기업 IT 예산이 줄면 영향을 받는다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "1개월 +42.05%, 3개월 +59.62%"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간 없음, 자료 없음"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "확인 불가",
+            "evidence": "자료 없음"
+          },
+          {
+            "item": "깊이",
+            "status": "확인 불가",
+            "evidence": "자료 없음. 일평균 변동폭 4.98%"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "가격 233.73, 20일선 204.11, 50일선 185.78, 150일선 157.02"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일/20일 평균 1.0배(보통 경계)"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "피벗 없음. 최근 봉 거래량 20일 평균의 1.12배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "확인 불가",
+            "evidence": "피벗 없음"
+          },
+          {
+            "item": "손절 폭",
+            "status": "확인 불가",
+            "evidence": "예비 손절 없음. 일평균 변동폭 4.98%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위 2.29 ADR(기준 2 이하, 3 미만)"
+          },
+          {
+            "item": "시장",
+            "status": "충족",
+            "evidence": "한별 판정 green"
+          }
+        ],
+        "chartObservation": {
+          "base": "쉬는 구간이 잡히지 않았다. 9월 말~10월 초에 198~203달러대 종가가 이어졌으나 기준 베이스로 인정되지는 않았다.",
+          "volume": "최근 5일 거래량은 20일 평균과 같은 수준(1.0배)이다. 10월 6일 거래량 425.8만 주(갭 +4.26%), 10월 9일 379.8만 주가 눈에 띈다.",
+          "position": "종가 233.73달러는 10일선 위 2.29 ADR이고 52주 고점 336.99달러보다 30.64% 낮다. 피벗·손절은 없다. 10월 9일은 고가 근처(96) 마감이다.",
+          "maStack": "가격이 20일선(204.11)·50일선(185.78)·150일선(157.02) 위에 있고 세 선 모두 우상향이다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "쉬는 구간(2~8주)이 새로 만들어지고 저점이 높아지는지 확인",
+          "횡보 중 최근 5일 거래량이 20일 평균의 0.7배 이하로 마르는지 확인",
+          "새 피벗을 20일 평균의 2배 거래량으로 종가 돌파하는지 확인",
+          "다음 분기 영업손실이 흑자로 돌아서거나 매출 증가율이 25% 안팎을 유지하는지 확인"
+        ],
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 직전 실적은 2026-09-03 발표.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "g1"
+          ],
+          "reasons": [
+            "g1: Explicitly marked with evidence_level 'no_source' and empty sources array; no substantive claim to verify"
+          ]
+        },
+        "researchedOn": "2026-10-10",
+        "session": "2026-10-09",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "CORT",
@@ -14674,7 +15212,283 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "ILMN",
+        "company": "일루미나는 유전자 분석 장비(시퀀서)와 소모품 시약, 분석 소프트웨어를 파는 회사입니다. 고객은 연구기관·제약사·병원 임상검사실이고, 소모품 반복 구매가 매출의 중심입니다. CEO가 7월 실적 인터뷰에서 임상 부문의 성장을 꼽았고, 최근에는 AI 활용을 새 성장 축으로 내세웁니다.",
+        "lead": "ILMN은 업종 안에서 최근 한 달 상승률이 상위 1% 안팎에 드는 급등 종목이라 목록에 올랐지만, 쉬는 구간이 아직 없어 피벗과 손절 기준은 정해지지 않았습니다. 가장 강한 근거는 석 달 상승률 46%와 가격이 두 달 평균선보다 22.6% 위라는 점입니다. 가장 큰 걱정은 주가가 1년 저점의 3배 수준까지 올라 있는데 최근 분기 순이익이 1년 전보다 11.9% 줄었다는 점입니다. 10월 6일 고점 309.35달러 뒤에 쉬는 구간이 만들어지는지, 이익 증가율이 다시 붙는지가 이 그림을 가를 확인 사항입니다.",
+        "newsNarrative": "9월 초 UBS가 ILMN 투자의견을 중립에서 매수로 올렸고, 이어 모멘텀 상위 종목이라는 기사가 나왔습니다. 9월 말에는 AI 사업이 성공하면 5년 뒤 주가가 어떨지 따지는 기사와 옵션 시장의 변동 기대 기사가 이어졌습니다. 7월 말 실적 때 CEO는 임상 부문이 크게 성장했다고 말했습니다. 주가는 10월 5~6일 하루 사이 309달러까지 치솟았다가 장중에 크게 밀렸고, 이후 조정 뒤 반등 중입니다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "UBS가 9월 9일 ILMN 투자의견을 중립에서 매수로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "UBS Upgrades Illumina to Buy from Neutral",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/ubs-upgrades-illumina-buy-neutral",
+                "date": "2026-09-09",
+                "quote": "UBS Upgrades Illumina to Buy from Neutral",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "9월 11일 Zacks가 ILMN을 모멘텀 상위 종목으로 분류했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Illumina (ILMN) is a Top-Ranked Momentum Stock: Should You Buy?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/illumina-ilmn-top-ranked-momentum-stock-should-you-buy",
+                "date": "2026-09-11",
+                "quote": "Illumina (ILMN) is a Top-Ranked Momentum Stock: Should You Buy?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "9월 30일 기사가 AI 사업이 성공할 경우의 5년 뒤 주가를 다뤘다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Where Will Illumina Stock Be in 5 Years If Its AI Bet Pays Off?",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/where-will-illumina-stock-be-5-years-if-its-ai-bet-pays",
+                "date": "2026-09-30",
+                "quote": "Where Will Illumina Stock Be in 5 Years If Its AI Bet Pays Off?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "7월 31일 CEO가 2분기 실적에서 임상 부문 성장을 언급했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Illumina's Jacob Thaysen on Q2 earnings: 'We've seen tremendous growth in clinical part of business'",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/video/2026/07/31/illuminaas-jacob-thaysen-on-q2-earnings-weave-seen-tremendous-growth-in-clinical-part-of-business.html",
+                "date": "2026-07-31",
+                "quote": "Illumina's Jacob Thaysen on Q2 earnings: 'We've seen tremendous growth in clinical part of business'",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "9월 28일 옵션 시장이 ILMN의 큰 변동을 예상하는지 다룬 기사가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Is the Options Market Predicting a Spike in Illumina Stock?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/options-market-predicting-spike-illumina-stock",
+                "date": "2026-09-28",
+                "quote": "Is the Options Market Predicting a Spike in Illumina Stock?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출은 완만하게 늘고 있습니다. 6월 분기 매출은 11.59억 달러로 1년 전보다 9.4% 증가했고, 직전 분기의 4.8%보다 속도가 붙었습니다. 영업이익은 2.45억 달러로 14.5% 늘었고 영업이익률은 21.1%입니다. 다만 순이익은 2.07억 달러로 1년 전보다 11.9% 줄어, 이익 증가가 일관되지 않습니다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "f1",
+              "statement": "2026년 6월 분기 매출 11.59억 달러, 1년 전보다 9.4% 증가.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "SEC EDGAR ILMN 10-Q 분기 실적",
+                  "publisher": "SEC",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001110803&type=10-Q",
+                  "date": "2026-06-28",
+                  "quote": "periodEnd 2026-06-28 revenue 1159000000 yoy revenue 9.4",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "2026년 6월 분기 매출 11.59억 달러, 1년 전보다 9.4% 증가. 직전 분기 증가율은 4.8%."
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "f2",
+              "statement": "6월 분기 영업이익 2.45억 달러로 14.5% 증가했지만 순이익은 2.07억 달러로 11.9% 감소.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "SEC EDGAR ILMN 10-Q 분기 실적",
+                  "publisher": "SEC",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001110803&type=10-Q",
+                  "date": "2026-06-28",
+                  "quote": "profit 245000000 netIncome 207000000 yoy profit 14.5 netIncome -11.9",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [],
+          "estimateRevisions": {
+            "direction": "none",
+            "claims": []
+          }
+        },
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "순이익 2.07억 달러, 전년비 -11.9%. 영업이익은 +14.5%, 매출 +9.4% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 4분기 순이익 전년비 -11.9%·+2.3%·+79.6%·-78.7%로 일관되지 않음. 3년·ROE 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 신제품·신고가",
+            "status": "충족",
+            "evidence": "9월 UBS 매수 상향·AI 사업 기사, 52주 고점 309.35달러(10월 6일) 대비 -10.08%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 0.73배로 마름 기준 0.7 초과. 시총 420억 달러, 유통주식 자료 없음"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "RS 백분위 1개월 99.2·3개월 97.8·6개월 97.9"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "충족",
+            "evidence": "시장 판정 green, 10일선이 20일선 위 16일째. 마진부채 1년 전보다 +37.2% 경고"
+          }
+        ],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "SEC EDGAR ILMN 10-Q 분기 실적",
+                "publisher": "SEC",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001110803&type=10-Q",
+                "date": "2026-06-28",
+                "quote": "netIncome 207000000 yoy netIncome -11.9",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "순이익이 1년 전보다 줄어든 상태에서 주가가 오르며 PER 51.8배까지 높아졌다.",
+            "stripped": true
+          }
+        ],
+        "structuralRisks": [
+          "시퀀서 소모품 매출 비중이 커서 연구기관·제약사의 투자 예산 변화에 민감하다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "3개월 상승률 46.21%, 1개월 34.74%"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간 없음, 베이스 자료 없음"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간 없음"
+          },
+          {
+            "item": "깊이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간 없음. 고점 대비 현재 -10.08%"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "현재가 278.17이 20일선 258.19·50일선 226.92 위"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일/20일 평균 0.73배로 보통 구간(0.7 초과)"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "피벗 없음, 돌파봉 없음. 현재 거래량은 20일 평균의 0.42배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "확인 불가",
+            "evidence": "피벗 없음"
+          },
+          {
+            "item": "손절 폭",
+            "status": "확인 불가",
+            "evidence": "예비 손절 없음. 일평균 변동폭 5.81%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 0.29 ADR"
+          },
+          {
+            "item": "시장",
+            "status": "충족",
+            "evidence": "한별 판정 green"
+          }
+        ],
+        "chartObservation": {
+          "base": "뚜렷한 쉬는 구간이 잡히지 않았습니다. 10월 6일 고점 309.35달러 이후 4거래일 조정 뒤 반등한 모양이며, 고점 대비 -10.08%입니다. 저점이 높아지는지는 판단할 구간이 짧아 확인할 수 없습니다.",
+          "volume": "최근 5일 거래량은 20일 평균의 0.73배로 마름 기준 근처입니다. 10월 5일(422만 주)과 6일(438만 주)에 거래량이 늘었고, 10월 9일은 190만 주로 가장 적었습니다.",
+          "position": "현재가 278.17달러에는 피벗과 예비 손절이 없습니다. 10일선 위 0.29 ADR로 이평선에 가깝습니다. 10월 6일은 장중 309.35달러까지 갔다가 종가 위치 5%로 마감했습니다.",
+          "maStack": "가격이 20일선 258.19·50일선 226.92·150일선 176.79 위에 있고, 세 선 모두 우상향으로 위에서부터 가격·20·50·150일선 순서로 정렬돼 있습니다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "고점 309.35달러 이후 며칠 이상 좁은 범위에서 저점이 높아지는 쉬는 구간이 생기는지",
+          "그 구간에서 거래량이 20일 평균의 0.7배 이하로 마르는지",
+          "새 피벗이 생겼을 때 예비 손절 폭이 일평균 변동폭 5.81% 이내인지",
+          "돌파 시 거래량이 20일 평균의 2배 이상 실리는지",
+          "다음 실적에서 순이익이 전년 대비 증가로 돌아서는지"
+        ],
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 지난 실적 발표는 2026-07-30이었다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "researchedOn": "2026-10-10",
+        "session": "2026-10-09",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "QLYS",
@@ -16212,8 +17026,101 @@ window.TEAM2_DATA = {
         "count": 51
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "SNOW",
+        "company": "기업이 클라우드에 데이터를 모아 저장하고 분석하게 해 주는 데이터 플랫폼 회사. 사용량에 따라 요금을 받고, AI 기능이 그 사용량을 늘리고 있다.",
+        "lead": "SNOW는 5~7월 분기 매출 증가율이 35%로 높아진 실적 덕에 6개월간 145% 올랐다. 증권사들도 데이터·AI 시장 확대와 가이던스(회사 전망) 상향을 긍정적으로 봤다. 다만 적자가 이어지고 있어, 성장률이 다시 꺾이면 이 이야기는 흔들린다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "5~7월 분기 매출이 15억 4,700만 달러로 1년 전보다 35% 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 10-Q 실적표 (Node 수집)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001640147&type=10-Q",
+                "date": "2026-09-02",
+                "quote": "periodEnd 2026-07-31, revenue 1546793000, yoy revenue 35.1",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "5~7월 분기 매출이 15억 4,700만 달러로 1년 전보다 35% 늘었다. 직전 분기(34%)와 3분기 전(29%)보다 증가율이 계속 높아졌다."
+          },
+          {
+            "id": "w2",
+            "statement": "키움증권은 실적 발표에서 성장률이 다시 빨라지고 가이던스가 올라간 점을 긍정적으로 봤고, 발표 뒤 주가가 36% 뛰었다고 적었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[스노우플레이크 (NYS:SNOW)] SNOW의 시간은 거꾸로 간다",
+                "publisher": "키움증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlcgxlggimzelmgcgxecec.pdf",
+                "date": "2026-06-01",
+                "quote": "FY1Q27 실적은 성장률 재가속과 가이던스 상향 등 긍정적. 발표 후 주가 +36%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "소프트웨어 업종 전체가 바닥에서 40% 가까이 반등했다. SNOW도 이 흐름을 탔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Software is up nearly 40% since 'SaaSpocalypse' bottom. Ways to play the sector",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/03/software-is-up-40percent-since-saaspocalypse-bottom-ways-to-play-the-sector-.html",
+                "date": "2026-09-03",
+                "quote": "Software is up nearly 40% since 'SaaSpocalypse' bottom. Ways to play the sector",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "키움증권은 6월 보고서에서 가이던스 상향을 근거로 긍정적 전망을 냈다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[스노우플레이크 (NYS:SNOW)] SNOW의 시간은 거꾸로 간다",
+                  "publisher": "키움증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqlcgxlggimzelmgcgxecec.pdf",
+                  "date": "2026-06-01",
+                  "quote": "FY1Q27 실적은 성장률 재가속과 가이던스 상향 등 긍정적.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "themeTags": [
+          "AI 소프트웨어",
+          "클라우드 데이터"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1",
+            "c2"
+          ],
+          "reasons": [
+            "c1: statement 의 영업손실 2억 6,300만 달러($263 million)가 quote 에 없음 — quote 는 PER·EPS·종가만 표시",
+            "c2: 8-K 공시 항목이 너무 불명확하게 인용됨 — 'itemsKo: 중요 계약 체결, 2.03, 3.02...' 형식이 '미등록 증권 발행' 실제 포함 여부를 검증 불가능"
+          ]
+        },
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "nameKo": "스노우플레이크",
       "nameEn": "SNOWFLAKE INC",
@@ -16729,7 +17636,321 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "SNOW",
+        "company": "스노우플레이크는 기업이 클라우드에 데이터를 모아 저장·분석하게 해 주는 데이터 플랫폼 회사다. 고객이 쓴 만큼 돈을 내는 사용량 기반 구조로 매출을 낸다. 최근에는 AI 기능(Cortex)을 플랫폼에 붙여 사용량을 늘리는 데 힘을 쏟고 있다.",
+        "lead": "SNOW는 6개월 상승률이 높고 두 달 평균선 위에서 5주째 쉬다가 10월 9일 하루에 7% 넘게 올라 피벗(넘으면 사는 선) 4.07% 아래까지 왔다. 걱정은 아직 영업적자이고, 쉬는 동안 저점이 높아지지 않았으며, 10월 2일 공시에 채무·주식 발행 항목이 있다는 점이다. 피벗을 넘을 때 거래량이 따라오지 않거나 예비 손절선을 이탈하면 이 그림은 깨진다.",
+        "newsNarrative": "9월 초 실적 발표에서 매출 성장이 다시 빨라지자 소프트웨어 우려가 줄며 주가가 크게 올랐다. 이후 한 달간은 고점 아래에서 옆으로 움직였고 Zacks는 실적 후 4.1% 하락이라고 전했다. 10월 2일에는 중요 계약과 채무·주식 발행 항목이 담긴 8-K가 나왔다. 10월 9일 주가는 하루 만에 급등해 52주 고점 근처로 돌아왔다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "9월 3일 실적 발표 직후 주가가 급등했다. 강한 실적이 소프트웨어 업종 우려를 덜었다는 보도다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Snowflake shares soar after strong earnings lessen software fears",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/video/2026/09/03/snowflake-shares-soar-after-strong-earnings-lessen-software-fears.html",
+                "date": "2026-09-03",
+                "quote": "Snowflake shares soar after strong earnings lessen software fears",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "10월 2일 Zacks는 실적 발표 후 주가가 4.1% 내렸다고 정리했다. 급등 뒤 숨 고르기가 이어졌다는 뜻이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Is Snowflake (SNOW) Down 4.1% Since Last Earnings Report?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/why-snowflake-snow-down-41-last-earnings-report",
+                "date": "2026-10-02",
+                "quote": "Why Is Snowflake (SNOW) Down 4.1% Since Last Earnings Report?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "10월 2일 제출한 8-K에 중요 계약, 직접 채무 발생(2.03), 비등록 주식 발행(3.02) 항목이 들어 있다. 세부 조건은 확인하지 못했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Snowflake 8-K (2026-10-02 제출)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000043/snow-20260928.htm",
+                "date": "2026-10-02",
+                "quote": "중요 계약 체결, 2.03, 3.02, 기타 중요사건, 재무제표·첨부",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "10월 6일 Zacks는 월가 목표가가 현재가보다 25.64% 높다고 전했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Wall Street Analysts See a 25.64% Upside in Snowflake (SNOW): Can the Stock Really Move This High?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-2564-upside-snowflake-snow-can-stock-really-move-high",
+                "date": "2026-10-06",
+                "quote": "Wall Street Analysts See a 25.64% Upside in Snowflake (SNOW): Can the Stock Really Move This High?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "9월 17일 CEO는 CNBC에서 회사가 데이터를 두는 곳에서 사업 통찰을 얻는 곳으로 바뀌었다고 말했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Snowflake CEO Ramaswamy: We have gone from a place to put data to a place for business insights",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/video/2026/09/17/snowflake-ceo-ramaswamy-we-have-gone-from-a-place-to-put-data-to-a-place-for-business-insights.html",
+                "date": "2026-09-17",
+                "quote": "Snowflake CEO Ramaswamy: We have gone from a place to put data to a place for business insights",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출은 빨라지고 있다. 7월 마감 분기 매출은 15.5억 달러로 1년 전보다 35.1% 늘었다. 영업이익은 여전히 적자이고 영업이익률이 -17%다. 아직 흑자가 아니어서 이익 기준 평가는 보수적으로 봐야 한다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "r2",
+              "statement": "키움증권은 4월 마감 분기에 성장률이 다시 빨라졌고 발표 후 주가가 36% 올랐다고 정리했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "SNOW의 시간은 거꾸로 간다",
+                  "publisher": "키움증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqlcgxlggimzelmgcgxecec.pdf",
+                  "date": "2026-06-01",
+                  "quote": "FY1Q27 실적은 성장률 재가속과 가이던스 상향 등 긍정적. 발표 후 주가 +36%",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [],
+          "guidance": [
+            {
+              "id": "g1",
+              "statement": "키움증권은 4월 마감 분기 실적에서 가이던스(회사 전망)가 상향됐다고 전했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "SNOW의 시간은 거꾸로 간다",
+                  "publisher": "키움증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqlcgxlggimzelmgcgxecec.pdf",
+                  "date": "2026-06-01",
+                  "quote": "FY1Q27 실적은 성장률 재가속과 가이던스 상향 등 긍정적.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "g2",
+              "statement": "신한투자증권은 2월 제시된 제품 매출 +27% 성장 가이던스를 보수적이라고 봤다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "높은 상호운용성 핵심",
+                  "publisher": "신한투자증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqqgcmxeclqgmlxgcgxecec.pdf",
+                  "date": "2026-02-26",
+                  "quote": "전년대비 제품 매출 +27% 성장 가이던스는 보수적으로 제시된 수치",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "unknown",
+            "claims": []
+          }
+        },
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "7월 마감 분기 순손실 1.92억 달러, 1년 전보다 적자 35.7% 축소 · 매출 +35.1%. 흑자는 아님 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "확인 불가",
+            "evidence": "최근 4분기 모두 적자 폭이 줄었으나(순이익 전년비 9.4·7.3·31.3·35.7%) 3년 추세·ROE 자료 없음 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 신제품·신고가",
+            "status": "충족",
+            "evidence": "9월 3일 실적 호조 보도, 고점 384.56 대비 -4.07%로 10% 이내. 10월 2일 8-K 있음"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.02배로 줄지 않음. 10월 9일 거래량은 20일 평균 1.92배, 시총 130.14B. 유통주식 수 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "RS 상위 백분위 1개월 93.5 · 3개월 96.6 · 6개월 99.0"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "충족",
+            "evidence": "시장 판정 green, 10일선이 20일선 위(16일째). 마진부채 1년 전보다 +37.2%로 주의선 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k1",
+            "statement": "10월 2일 8-K에 직접 채무(2.03)와 비등록 주식 발행(3.02) 항목이 있다. 채무 부담이나 주주 지분 희석 가능성은 세부 조건을 확인해야 한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Snowflake 8-K (2026-10-02 제출)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000043/snow-20260928.htm",
+                "date": "2026-10-02",
+                "quote": "중요 계약 체결, 2.03, 3.02, 기타 중요사건, 재무제표·첨부",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "k2",
+            "statement": "영업적자가 계속된다. 7월 마감 분기 영업이익률은 -17%다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 분기 실적표 (SNOW)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001640147&type=10-Q",
+                "date": "2026-07-31",
+                "quote": "2026-07-31 영업이익 -262,967,000 달러, 영업이익률 -17%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [],
+        "chartCheck": [
+          {
+            "item": "1 선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 76.8%, 3개월 수익률 36.62%"
+          },
+          {
+            "item": "2 횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 5주(25봉)"
+          },
+          {
+            "item": "3 저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회, 진폭 0.96배로 좁아짐이 약함"
+          },
+          {
+            "item": "4 깊이",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "5 이평선 위",
+            "status": "충족",
+            "evidence": "가격 368.89 > 20일선 336.95 · 50일선 330.25 · 150일선 243.06"
+          },
+          {
+            "item": "6 거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.02배"
+          },
+          {
+            "item": "7 돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "피벗 돌파 전. 10월 9일 거래량은 20일 평균 1.92배. 돌파 시 2배 여부는 밤에 본다"
+          },
+          {
+            "item": "8 피벗 거리",
+            "status": "충족",
+            "evidence": "피벗 384.56 아래 -4.07% (1.0 ADR)"
+          },
+          {
+            "item": "9 손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 3.91% ≤ ADR 4.07%"
+          },
+          {
+            "item": "10 10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 1.92 ADR"
+          },
+          {
+            "item": "11 시장",
+            "status": "충족",
+            "evidence": "시장 판정 green"
+          }
+        ],
+        "chartObservation": {
+          "base": "쿨라매기 기준 5주(25봉) 횡보이고 깊이는 17.7%다. 저점 상승은 0회로 저점이 높아지는 모습은 약하다. 진폭은 0.96배로 거의 줄지 않았다.",
+          "volume": "최근 5일 거래량은 20일 평균의 1.02배로 눈에 띄게 마르지 않았다. 이날 종가 위치는 99다.",
+          "position": "현재가 368.89는 피벗 384.56보다 4.07% 아래다. 예비 손절 369.54는 현재가보다 높아 가격이 손절선 바로 아래에 있다. 10일선 위 1.92 ADR이다.",
+          "maStack": "가격은 20일선 336.95·50일선 330.25·150일선 243.06 위다. 20일선 기울기는 +0.86%로 오르고 있다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "피벗 384.56을 거래량 20일 평균 2배 이상으로 종가 돌파하는지",
+          "돌파 뒤 당일 저가를 지키는지(예비 손절 369.54)",
+          "최근 5일 거래량이 평균 이하로 줄며 저점이 높아지는지",
+          "10월 2일 8-K의 채무·주식 발행 조건이 희석 규모에 영향을 주는지"
+        ],
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 직전 실적은 9월 2일 공시.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "r1",
+            "p1"
+          ],
+          "reasons": [
+            "r1: statement의 28.7%, 30.1%, 33.5%가 quote에 없음. 35.1%만 제시되어 4분기 추이 근거 부족",
+            "p1: statement의 -27.2%와 '4분기 연속 개선'이 quote에 없음. 최신 -17%만 있음",
+            "lead의 '가장 강한 근거는 분기 매출 증가율이 28.7%에서 35.1%로 4분기 연속 빨라진 점' 제거",
+            "financialsNarrative의 '4분기 전 증가율은 28.7%였다' 제거, '-27.2%에서 -17%로' 표현을 '-17%다'로 수정"
+          ],
+          "leadFixed": true,
+          "financialsNarrativeFixed": true
+        },
+        "leadOriginal": "SNOW는 6개월 상승률이 높고 두 달 평균선 위에서 5주째 쉬다가 10월 9일 하루에 7% 넘게 올라 피벗(넘으면 사는 선) 4.07% 아래까지 왔다. 가장 강한 근거는 분기 매출 증가율이 28.7%에서 35.1%로 4분기 연속 빨라진 점이다. 걱정은 아직 영업적자이고, 쉬는 동안 저점이 높아지지 않았으며, 10월 2일 공시에 채무·주식 발행 항목이 있다는 점이다. 피벗을 넘을 때 거래량이 따라오지 않거나 예비 손절선을 이탈하면 이 그림은 깨진다.",
+        "financialsNarrativeOriginal": "매출은 빨라지고 있다. 7월 마감 분기 매출은 15.5억 달러로 1년 전보다 35.1% 늘었고, 4분기 전 증가율은 28.7%였다. 영업이익은 여전히 적자지만 영업이익률이 -27.2%에서 -17%로 좁혀졌다. 아직 흑자가 아니어서 이익 기준 평가는 보수적으로 봐야 한다.",
+        "researchedOn": "2026-10-10",
+        "session": "2026-10-09",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "PANW",
@@ -18334,8 +19555,93 @@ window.TEAM2_DATA = {
         "count": 51
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "SHOP",
+        "company": "온라인 쇼핑몰을 만들고 운영하게 해 주는 소프트웨어 플랫폼 회사. 입점 업체의 결제·물류 서비스 수수료에서도 돈을 번다.",
+        "lead": "쇼피파이는 최근 1개월 동안 32.66% 올랐다. 분기 매출이 1년 전보다 33.7% 늘었고 영업이익은 67.7% 늘어, 올해 초의 주가 부진을 되돌리는 흐름이다. 다음 실적에서 매출 증가세가 꺾이거나 이익률이 다시 떨어지면 이 이야기는 흔들린다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "2026년 2분기(4~6월) 매출은 35.8억 달러로 1년 전보다 33.7% 늘었다. 영업이익은 4.88억 달러로 67.7% 늘어 성장과 수익성이 함께 좋아졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 10-Q 분기 실적 (쇼피파이)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001594805&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "periodEnd 2026-06-30, revenue 3583000000, profit 488000000, yoy revenue 33.7, profit 67.7",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "올해 주가가 눌려 있었지만 하락이 과하다는 증권사 분석이 나왔다. 번스타인이 9월 11일 이런 견해를 냈다고 CNBC가 보도했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Shopify has been under pressure this year. Bernstein says the decline is overblown",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/11/shopify-has-been-under-pressure-this-year-bernstein-says-the-decline-is-overblown.html",
+                "date": "2026-09-11",
+                "quote": "Shopify has been under pressure this year. Bernstein says the decline is overblown",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "10월 들어 다음 실적도 예상치를 넘길지 묻는 기사가 이어지며 투자자 관심이 커졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Will Shopify (SHOP) Beat Estimates Again in Its Next Earnings Report?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/will-shopify-shop-beat-estimates-again-its-next-earnings-report",
+                "date": "2026-10-09",
+                "quote": "Will Shopify (SHOP) Beat Estimates Again in Its Next Earnings Report?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "주가가 이미 많이 올라 부담이 있다. 주가수익비율(주가를 주당순이익으로 나눈 값)이 115배라 실적이 기대에 못 미치면 하락 폭이 클 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "한국투자증권 Open API 시세·재무",
+                "publisher": "한국투자증권",
+                "url": "https://openapi.koreainvestment.com:9443/",
+                "date": "2026-10-10",
+                "quote": "per 115.25, eps 1.48, last 170.85",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "이커머스 소프트웨어"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "nameKo": "쇼피파이",
       "nameEn": "SHOPIFY INC",
@@ -19544,7 +20850,286 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "DDOG",
+        "company": "데이터도그는 기업의 IT 시스템과 클라우드를 실시간으로 감시하고 장애 원인을 찾는 소프트웨어를 구독형으로 판다. 사용량만큼 요금이 늘어나는 구조라 고객이 커질수록 매출도 늘어난다. 최근 성장 축은 AI 확산과 멀티 클라우드로 복잡해진 운영 환경의 대형 고객 확장이다.",
+        "newsNarrative": "최근 한 달 뉴스는 주가 급등과 내부자 매도, 소프트웨어 업종 논쟁이 중심이다. 10월 5일 보도는 주가가 오르는 동안 내부자가 팔고 있다고 짚었다. 8월에는 AI가 소프트웨어 기업을 위협하는지를 두고 업종 주가가 크게 흔들렸다. 키움증권은 9월 리포트에서 사용량 과금 구조상 이 우려와 별개로 사업이 견조하다고 봤다. 10월 9일 주가는 하루 7% 올라 장중 52주 고점을 새로 썼다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "주가 상승 중 내부자 매도가 이어졌다는 보도(10월 5일).",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Datadog’s Rally Has Insiders Selling—Can It Keep Climbing?",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/datadogs-rally-has-insiders-selling-can-it-keep-climbing",
+                "date": "2026-10-05",
+                "quote": "Datadog’s Rally Has Insiders Selling—Can It Keep Climbing?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "키움증권은 사용량 과금·업셀 구조상 소프트웨어 위기론과 별개로 사업이 견조하다고 평가했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[데이터도그 (NAS:DDOG)] 사스포칼립스는 기우였나",
+                "publisher": "키움증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlmxlzekzkzzeggcgxecec.pdf",
+                "date": "2026-09-17",
+                "quote": "사용량 과금·업셀·락인 구조상 사스포칼립스와 별개로 견조한 사업",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "8월 소프트웨어 주식이 AI 위협 논쟁 속에 크게 출렁였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+                "date": "2026-08-07",
+                "quote": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "7월 CNBC는 이 종목이 이미 기대가 반영된 가격이라는 의견을 전했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Red hot AI cloud data stock now 'priced for perfection,' says Todd Gordon",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/07/14/red-hot-ai-cloud-data-stock-now-priced-for-perfection-says-todd-gordon.html",
+                "date": "2026-07-14",
+                "quote": "Red hot AI cloud data stock now 'priced for perfection,' says Todd Gordon",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출은 빠르게 늘고 있다. 2026년 2분기 매출은 11.2억 달러로 1년 전보다 35.6% 늘었다. 영업이익은 2분기 545만 달러로 작지만 1년 전보다 115.4% 늘었다. 다만 이익 규모가 매출 대비 0.5%로 얇아 성장 대비 수익성은 아직 낮다.",
+        "financials": {
+          "revenueTrend": [],
+          "profitTrend": [
+            {
+              "id": "p1",
+              "statement": "2분기 영업이익 545만 달러(전년비 +115.4%), 순이익 4,456만 달러. 영업이익률은 0.5%.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "SEC 분기 실적표 (10-Q)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001561550&type=10-Q",
+                  "date": "2026-06-30",
+                  "quote": "profit 5455000, netIncome 44558000, margin 0.5, yoy profit 115.4",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [],
+          "estimateRevisions": {
+            "direction": "none",
+            "claims": []
+          }
+        },
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "순이익 전년비 +1583.3%, 매출 +35.6% (순이익 기준, 주식 수 변동 미반영). 순이익 기준이며 영업이익도 +115.4%"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 4분기 순이익 전년비 +1583.3%·+113.4%·+2.0%·-34.5%로 한 분기가 마이너스. 3년·ROE 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 신제품·신고가",
+            "status": "확인 불가",
+            "evidence": "새 제품·계약 뉴스 근거 없음. 현재가 293.26달러, 52주 고점 294달러(10월 9일) 대비 -0.25%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 0.8배(기준 0.7 이하). 마지막 날 거래량은 20일 평균의 1.2배. 유통주식 수 확인 불가"
+          },
+          {
+            "item": "L 업종 주도주",
+            "status": "충족",
+            "evidence": "RS 상위 백분위 1개월 98.8 · 3개월 84.6 · 6개월 98.5"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "충족",
+            "evidence": "한별 판정 green, 10일선이 20일선 위(16일째). 마진부채 1년 전보다 +37.2%로 주의"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k1",
+            "statement": "주가 상승 중 내부자 매도가 보도됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Datadog’s Rally Has Insiders Selling—Can It Keep Climbing?",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/datadogs-rally-has-insiders-selling-can-it-keep-climbing",
+                "date": "2026-10-05",
+                "quote": "Datadog’s Rally Has Insiders Selling—Can It Keep Climbing?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "k2",
+            "statement": "밸류에이션 부담. 향후 12개월 예상 이익 기준 주가수익비율이 83배로 제시됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[데이터도그 (NAS:DDOG)] 복잡해질수록 중요해진다",
+                "publisher": "현대차증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqqlzkzkkzmigqigcgxecec.pdf",
+                "date": "2026-05-12",
+                "quote": "12M Fwd P/E 83배로 밸류에이션 부담 존재하나 견조한 성장과 플랫폼 확장 감안 시 장기 성장 프리미엄 유효",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "k3",
+            "statement": "최대 고객을 뺀 사업의 성장 가속이 이어지는지 확인이 필요하다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[데이터도그 (NAS:DDOG)] 사스포칼립스는 기우였나",
+                "publisher": "키움증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlmxlzekzkzzeggcgxecec.pdf",
+                "date": "2026-09-17",
+                "quote": "최대 고객 제외 사업 가속 지속 여부 확인이 필요한 구간",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "최대 고객 한 곳의 사용량에 성장률이 흔들릴 수 있다는 지적이 있다.",
+          "사용량 기반 과금이라 고객이 비용을 줄이면 매출이 바로 줄어든다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간 없음으로 선행 상승 수치 없음. 참고로 1개월 +32.6%, 3개월 +11.8%"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "확인 불가",
+            "evidence": "베이스 없음"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "확인 불가",
+            "evidence": "베이스 없음"
+          },
+          {
+            "item": "깊이",
+            "status": "확인 불가",
+            "evidence": "베이스 없음"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "현재가 293.26, 20일선 259.2, 50일선 246.88, 150일선 209.48 모두 위"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 0.8배(보통 구간, 0.7 이하 아님)"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "피벗 없음. 마지막 날 거래량은 20일 평균의 1.2배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "확인 불가",
+            "evidence": "피벗 없음"
+          },
+          {
+            "item": "손절 폭",
+            "status": "확인 불가",
+            "evidence": "예비 손절 없음. 일평균 변동폭 4.49%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 1.33 ADR(기준 2 이하)"
+          },
+          {
+            "item": "시장",
+            "status": "충족",
+            "evidence": "한별 판정 green"
+          }
+        ],
+        "chartObservation": {
+          "base": "뚜렷한 쉬는 구간이 판정되지 않았다. 3개월 그림에서는 8월 말 이후 9월 초 저점에서 올라오며 20일선이 반등했다. 최근 2주는 시세가 좁은 범위에서 움직인 뒤 마지막 날 크게 올랐다.",
+          "volume": "최근 5일 거래량은 20일 평균의 0.8배로 완전히 마르지는 않았다. 그날 종가는 하루 범위의 96% 위치였다.",
+          "position": "현재가 293.26은 직전 고점 294에서 0.25% 아래다. 피벗과 예비 손절은 정해지지 않았다. 10일선 위 1.33 ADR로 떠 있는 정도는 2 ADR 이하다.",
+          "maStack": "현재가가 20일선 259.2, 50일선 246.88, 150일선 209.48 위에 있다. 그림에서 10일선·20일선은 오르고 50일선은 완만하다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "피벗이 아직 없으므로 새 쉬는 구간이 생기는지, 저점이 높아지며 거래량이 줄어드는지 확인",
+          "10월 9일 고점 294를 거래량 20일 평균 2배 이상으로 종가 돌파하는지",
+          "10월 9일 급등 뒤 10일선 위에서 종가가 유지되는지",
+          "다음 실적 발표 일정과 내부자 매도 공시가 이어지는지"
+        ],
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 직전 실적은 2026년 8월 6일 공시.",
+        "lead": "DDOG는 RS 상위권에 매출 성장이 빨라지는 소프트웨어 종목이라 관심 목록에 올랐다. 가장 강한 근거는 2분기 매출 +35.6%와 흑자 확대, 업종 순위 상위 98%대다. 걱정은 내부자 매도와 83배 수준의 높은 밸류에이션, 쉬는 구간 없이 하루에 7% 오른 점이다. 새 베이스에서 거래량이 줄고 고점 294를 큰 거래량으로 넘지 못하면 이 그림은 약해진다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "r1"
+          ],
+          "reasons": [
+            "r1: statement의 '증가율이 4분기 연속 가속'이 quote에 없음. quote는 1개 분기(35.6%)만 제시",
+            "financialsNarrative의 '매출은 4개 분기 연속 빨라지고 있다' 표현 제거, '빠르게 늘고 있다'로 수정"
+          ],
+          "financialsNarrativeFixed": true
+        },
+        "financialsNarrativeOriginal": "매출은 4개 분기 연속 빨라지고 있다. 2026년 2분기 매출은 11.2억 달러로 1년 전보다 35.6% 늘었고, 4분기 전 증가율은 28.4%였다. 영업이익은 2분기 545만 달러로 작지만 1년 전보다 115.4% 늘었다. 다만 이익 규모가 매출 대비 0.5%로 얇아 성장 대비 수익성은 아직 낮다.",
+        "researchedOn": "2026-10-10",
+        "session": "2026-10-09",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "MANE",
@@ -20445,12 +22030,29 @@ window.TEAM2_DATA = {
       "research": {
         "status": "done",
         "ticker": "XMTR",
-        "company": "Xometry(조메트리)는 주문제작 부품(CNC·판금·3D프린팅 등)의 수요와 제조 공급자 네트워크를 매칭하는 온디맨드 마켓플레이스로, 산업재/Industrial Distribution 분류다. 매출 구성·핵심 고객 상세는 제공 자료에 없어 근거 없음. 2026년 6월 분기(2Q) 매출은 229.28M USD로 YoY +41.1%, 영업이익은 -5.545M USD(영업이익률 -2.4%)로 적자 폭이 줄어드는 국면이다.",
-        "lead": "6M 절대 상승률 +144.12%, 200일선 이격 +44.2%, 52주 고점 대비 95.56%로 추세가 강하고, RS 상위 6M 기준 1.3% 구간에서 9일 연속 상위 2% 안에 머물렀다. 최근 실적(2Q)이 매출·EPS 컨센서스를 상회했고 Zacks 투자의견이 Buy로 상향됐다. 다만 1M 상승률은 +9.6%로 둔화됐고 영업이익은 아직 적자다.",
+        "company": "제조업체와 주문 제작 부품 공급업체를 온라인으로 연결하는 부품 주문 마켓플레이스 회사. 수수료와 공급업체 서비스로 돈을 번다.",
+        "lead": "매출이 빠르게 늘고 적자가 줄어든 실적이 주가를 끌어올렸다. 2분기 매출은 1년 전보다 41% 늘었다.",
         "whyRose": [
           {
+            "id": "w1",
+            "statement": "2분기 매출이 2.29억 달러로 1년 전보다 41% 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 분기 실적(2026-06-30 분기)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001657573&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "revenue 229280000 ... yoy revenue 41.1",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "2분기 매출이 2.29억 달러로 1년 전보다 41% 늘었다. 최근 4개 분기 모두 매출 증가율이 올라가는 흐름이다."
+          },
+          {
             "id": "w3",
-            "statement": "2Q 실적이 매출·EPS 컨센서스를 상회했고(2026-08-04 발표) 이후 Zacks 투자의견이 Buy로 상향됐다.",
+            "statement": "2분기 실적이 시장 예상을 웃돌았고, 이후 증권 분석 등급이 매수로 올랐다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -20477,35 +22079,20 @@ window.TEAM2_DATA = {
         "counterpoint": [
           {
             "id": "c1",
-            "statement": "영업이익·순이익이 여전히 적자다(2Q 영업 -5.545M USD, 순손실 -5.314M USD). 흑자 전환 시점은 제공 자료에 근거 없음. 밸류에이션은 매출 성장 지속에 의존한다.",
+            "statement": "주가가 이미 크게 올랐다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "SEC EDGAR Xometry 10-Q (Node 수집 실적표)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001657573&type=10-Q",
-                "date": "2026-06-30",
-                "quote": "periodEnd 2026-06-30 profit -5545000 netIncome -5314000 margin -2.4",
+                "title": "한국투자증권 시세",
+                "publisher": "한국투자증권 Open API",
+                "url": "https://openapi.koreainvestment.com:9443/",
+                "date": "2026-10-10",
+                "quote": "per 186.48 ... marketCapM 6203 ... last 111.07",
                 "verified": "ok",
                 "httpStatus": 200
               }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "이사의 10,000주 매도 보도가 있었다(2026-09-17). 규모·성격 등 세부는 제공 자료에 없어 해석은 근거 없음. 1M 상승률 +9.6%로 6M(+144.12%) 대비 모멘텀이 둔화됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Xometry Director Sells 10,000 Shares",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/xometry-director-sells-10000-shares",
-                "date": "2026-09-17",
-                "quote": "Xometry Director Sells 10,000 Shares",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
+            ],
+            "statementOriginal": "주가가 이미 크게 올랐다. 시가총액 약 62억 달러에 주가수익비율 186배여서 성장이 조금만 둔해져도 부담이 크다."
           }
         ],
         "estimateRevisions": {
@@ -20513,25 +22100,25 @@ window.TEAM2_DATA = {
           "claims": []
         },
         "themeTags": [
-          "온디맨드 제조 마켓플레이스",
-          "적자 축소 성장주"
+          "산업재 온라인 마켓플레이스",
+          "제조 디지털화"
         ],
         "confidence": "medium",
         "factcheck": {
           "verdict": "partial",
           "removed": [
-            "w1",
-            "w2"
+            "w2",
+            "c2"
           ],
           "reasons": [
-            "w1 statement에 여러 분기 YoY(+27.5%, +29.5%, +35.9%, +41.1%)가 있으나 quote에는 2026-06월만 있음",
-            "w2 statement에 여러 분기 마진(-6.1%, -4.6%, -2.5%, -2.4%)이 있으나 quote에는 2026-06월만 있음"
+            "w2: -6.1%에서 -2.4%로라는 표현에서 -6.1% 수치가 quote에 없음",
+            "c2: 이사진 판매와 영업적자 상태라는 정보가 quote에 명시되지 않음"
           ],
           "leadFixed": true
         },
-        "leadOriginal": "6M 절대 상승률 +144.12%, 200일선 이격 +44.2%, 52주 고점 대비 95.56%로 추세가 강하고, RS 상위 6M 기준 1.3% 구간에서 9일 연속 상위 2% 안에 머물렀다. 배경은 매출 YoY 성장 가속(2025-09 분기 +27.5% → 2026-06 분기 +41.1%)과 영업적자 축소다. 다만 1M 상승률은 +9.6%로 둔화됐고 영업이익은 아직 적자다.",
-        "researchedOn": "2026-09-30",
-        "carried": true
+        "leadOriginal": "매출이 빠르게 늘고 적자가 줄어든 실적이 주가를 끌어올렸다. 2분기 매출은 1년 전보다 41% 늘었고 영업적자 폭은 줄었다. 적자 축소가 멈추거나 매출 증가세가 꺾이면 이 이야기는 깨진다.",
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "nameKo": "조메트리",
       "nameEn": "XOMETRY INC",
@@ -21080,8 +22667,100 @@ window.TEAM2_DATA = {
         "count": 33
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "TWLO",
+        "company": "기업이 고객에게 문자·음성·이메일을 보내는 기능을 API로 제공하는 클라우드 통신 소프트웨어 회사. 사용량과 구독으로 매출이 발생한다.",
+        "lead": "트윌리오는 매출이 20%대로 늘고 영업이익이 커지는 실적이 이어지며 오른 것으로 보인다. 6월 분기 매출은 1년 전보다 22% 늘었고 영업이익은 2배 넘게 늘었다. 다음 실적에서 성장률이 20% 아래로 꺾이면 이 흐름은 흔들린다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "6월 분기 매출은 14.99억 달러로 1년 전보다 22% 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 실적표 (10-Q)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001447669&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "periodEnd 2026-06-30, revenue 1499089000, yoy revenue 22",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "6월 분기 매출은 14.99억 달러로 1년 전보다 22% 늘었다. 직전 분기(20%)보다 성장 속도가 붙었다."
+          },
+          {
+            "id": "w2",
+            "statement": "같은 분기 영업이익은 8,455만 달러로 1년 전보다 128.6% 늘었다. 매출이 커지면서 이익도 함께 늘고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 실적표 (10-Q)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001447669&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "periodEnd 2026-06-30, profit 84546000, yoy profit 128.6",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "이익 대비 주가 배수(PER)가 40배 수준이라 성장이 둔화되면 하락 폭이 커질 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "한국투자증권 Open API 시세",
+                "publisher": "한국투자증권",
+                "url": "https://openapi.koreainvestment.com:9443/",
+                "date": "2026-10-10",
+                "quote": "per 40.28, last 289.47, high52 308.4",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "주가가 이미 6개월 새 약 99% 올라 이익 대비 부담이 크다. 이익 대비 주가 배수(PER)가 40배 수준이라 성장이 둔화되면 하락 폭이 커질 수 있다."
+          },
+          {
+            "id": "c2",
+            "statement": "소프트웨어 업종 전체가 AI 때문에 위협받는다는 'SaaSpocalypse' 논쟁으로 주가가 크게 출렁이고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+                "date": "2026-08-07",
+                "quote": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "클라우드 소프트웨어",
+          "AI 인프라"
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w3"
+          ],
+          "reasons": [
+            "w3: quote 기사 제목에 10월 6일과 52주 최고가 308.4달러가 명시되지 않음"
+          ]
+        },
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "nameKo": "트윌리오",
       "nameEn": "TWILIO INC",
@@ -21648,7 +23327,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "제이프로그",
       "nameEn": "JFROG LTD",
@@ -23614,7 +25293,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "나테라",
       "nameEn": "NATERA INC",
@@ -24580,7 +26259,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "셈텍",
       "nameEn": "SEMTECH CORP",
@@ -24864,8 +26543,128 @@ window.TEAM2_DATA = {
         "count": 33
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "PLTR",
+        "company": "정부와 기업에 데이터 분석·AI 소프트웨어를 구독 형태로 파는 회사. 최근 미국 기업 대상 AI 플랫폼(AIP) 매출이 빠르게 늘고 있다.",
+        "lead": "팔란티어는 AI 소프트웨어 매출이 두 배 가까이 늘어 증권사 호평이 겹쳐 올랐다. 10월 9일 바클레이즈가 투자의견 비중확대로 분석을 시작했다. 다만 주가가 이익의 178배 수준이라, 성장이 둔화되면 이야기가 흔들린다.",
+        "whyRose": [
+          {
+            "id": "w2",
+            "statement": "회사가 올해 매출 전망을 크게 올렸다. 증권사 예상 평균보다 5.5% 높은 수준이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[26Q2 Review] 성장 가속과 배수 압축의 교차, 투자의견 적극 매수 상향",
+                "publisher": "대신증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlzqmmclkkkkizgcgxecec.pdf",
+                "date": "2026-08-03",
+                "quote": "FY26 가이던스 $8.15B로 $500M 상향, 컨센 5.5% 위",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "10월 9일 바클레이즈가 비중확대 의견으로 분석을 시작했고, 골드만삭스도 상승 여력이 더 있다고 봤다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Barclays Initiates Coverage of Palantir Technologies at Overweight",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/barclays-initiates-coverage-palantir-technologies-overweight",
+                "date": "2026-10-09",
+                "quote": "Barclays Initiates Coverage of Palantir Technologies at Overweight",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Palantir has been on a tear. Goldman Sachs sees more momentum ahead",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/08/palantir-isnt-done-capitalizing-on-ai-boom-goldman-sachs-says.html",
+                "date": "2026-10-08",
+                "quote": "Palantir has been on a tear. Goldman Sachs sees more momentum ahead",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "8월 실적 뒤 연간 매출 전망이 큰 폭으로 올랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[팔란티어 테크 (NAS:PLTR)] 미국 사업 모멘텀 강화, 전망도 대폭 상향",
+                  "publisher": "하나증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqlzlggzkgcmkzxgcgxecec.pdf",
+                  "date": "2026-08-04",
+                  "quote": "2026년 가이던스 매출 성장 82%, 조정 OPM 60%로 상향조정",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "주가가 이익 대비 매우 비싸다. 성장이 조금만 꺾여도 주가가 크게 흔들릴 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "한국투자증권 시세",
+                "publisher": "한국투자증권 Open API",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001321655&type=10-Q",
+                "date": "2026-10-10",
+                "quote": "per: 178.14",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "AI 대형 업체와의 경쟁이 본격화되면 지금 같은 성장을 이어가기 어려울 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[팔란티어 테크 (NAS:PLTR)] 좋은 실적 속 감안해야 할 변수들",
+                "publisher": "키움증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqqlmekglmimekcgcgxecec.pdf",
+                "date": "2026-05-18",
+                "quote": "AI 프런티어 업체들과 향후 본격적 경쟁 예상 하에 지속 성장성 확인 필요",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "themeTags": [
+          "AI 소프트웨어",
+          "AI 인프라"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1",
+            "w4"
+          ],
+          "reasons": [
+            "w1: statement 의 영업이익률 47.1%이 quote 에 없음 — EPS 0.41달러만 인용됨",
+            "w4: 10월 10일 주가 209.58달러·5% 이상 상승이 10월 2일 출처(Fintel 기사)로 검증 불가능 — 출처 날짜가 주장 날짜보다 8일 이전"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "팔란티어는 AI 소프트웨어 매출이 두 배 가까이 늘고 이익률도 높아진 실적에, 증권사 호평이 겹쳐 올랐다. 10월 9일 바클레이즈가 투자의견 비중확대로 분석을 시작했고, 10일에도 5% 넘게 올랐다. 다만 주가가 이익의 178배 수준이라, 성장이 둔화되면 이야기가 흔들린다.",
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "nameKo": "팔란티어 테크",
       "nameEn": "PALANTIR TECH INC",
@@ -25432,7 +27231,310 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "PLTR",
+        "company": "팔란티어는 정부·국방 기관과 기업에 데이터 분석·AI 소프트웨어(AIP 등)를 구독 형태로 판다. 최근 성장 축은 미국 민간(커머셜) 부문의 AI 플랫폼 도입이다. 2분기 매출은 19.4억 달러로 1년 전보다 92.8% 늘었다.",
+        "lead": "PLTR은 두 달 평균보다 18% 위에서 52주 신고가권(고점 대비 -0.25%)에 올라 있어 관심 목록에 들었다. 가장 강한 근거는 분기 매출 93% 증가와 연간 가이던스 상향이다. 가장 큰 걱심은 높은 몸값과, 거래량이 마르지 않은 채 10월 8~9일 이틀 급등했다는 점이다. 쉬는 구간이 없어 피벗·손절이 정해지지 않는다. 다음 실적에서 성장률이 꺾이거나 두 달 평균선 아래로 내려오면 이 그림은 깨진다.",
+        "newsNarrative": "10월 들어 바클레이즈가 비중확대로 분석을 시작했고, 골드만삭스도 AI 호황 수혜가 이어진다고 봤다. 10월 8일 거래량이 평소의 2배 넘게 실리며 주가가 올랐고, 10월 9일 52주 고점을 새로 썼다. 8월 초 2분기 실적 발표 때 연간 가이던스를 크게 올린 것이 이번 상승의 바탕이다. 한편 키움증권은 소버린 전략이 중장기로 통할지는 미지수라고 짚었다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "바클레이즈가 PLTR 분석을 비중확대(Overweight)로 개시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Barclays Initiates Coverage of Palantir Technologies at Overweight",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/barclays-initiates-coverage-palantir-technologies-overweight",
+                "date": "2026-10-09",
+                "quote": "Barclays Initiates Coverage of Palantir Technologies at Overweight",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "골드만삭스는 팔란티어의 AI 호황 수혜가 더 이어질 것으로 봤다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Palantir has been on a tear. Goldman Sachs sees more momentum ahead",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/08/palantir-isnt-done-capitalizing-on-ai-boom-goldman-sachs-says.html",
+                "date": "2026-10-08",
+                "quote": "Palantir has been on a tear. Goldman Sachs sees more momentum ahead",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "주가가 하루 5% 넘게 올랐다는 보도가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Palantir Stock Powered to a More Than 5% Gain Today",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/why-palantir-stock-powered-more-5-gain-today",
+                "date": "2026-10-10",
+                "quote": "Why Palantir Stock Powered to a More Than 5% Gain Today",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "UBS는 AI 연관 소프트웨어 종목 대비 팔란티어가 저렴하다고 평가했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Palantir is a bargain compared to AI-linked software peers, UBS says",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/15/palantir-is-a-bargain-compared-to-ai-linked-software-peers-ubs-says.html",
+                "date": "2026-09-15",
+                "quote": "Palantir is a bargain compared to AI-linked software peers, UBS says",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "2분기 실적이 예상치를 넘었고 연간 가이던스 상향에 시간외 주가가 14.9% 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[팔란티어 테크 (NAS:PLTR)] Earnings Flash",
+                "publisher": "한화증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlzlelqxmzkilmgcgxecec.pdf",
+                "date": "2026-08-04",
+                "quote": "어닝 서프라이즈와 연간 가이던스 상향으로 시간외 14.9% 상승",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출이 빠르게 늘고 있다. 2026년 2분기 매출은 19.4억 달러로 1년 전보다 92.8% 늘었다. 증권사 전망도 올라가는 중이어서 올해 매출 증가 전망은 83.6%다.",
+        "financials": {
+          "revenueTrend": [],
+          "profitTrend": [],
+          "guidance": [
+            {
+              "id": "g1",
+              "statement": "2026년 연간 매출 가이던스를 81.5억 달러로 5억 달러 올렸고, 시장 예상치보다 5.5% 높다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[팔란티어 테크 (NAS:PLTR)] [26Q2 Review] 성장 가속과 배수 압축의 교차, 투자의견 적극 매수 상향",
+                  "publisher": "대신증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqlzqmmclkkkkizgcgxecec.pdf",
+                  "date": "2026-08-03",
+                  "quote": "FY26 가이던스 $8.15B로 $500M 상향, 컨센 5.5% 위",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "raised",
+            "claims": [
+              {
+                "id": "e1",
+                "statement": "증권사가 미국 사업 모멘텀을 근거로 전망을 크게 올렸다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[팔란티어 테크 (NAS:PLTR)] 미국 사업 모멘텀 강화, 전망도 대폭 상향",
+                    "publisher": "하나증권",
+                    "url": "https://rreport.einfomax.co.kr/report/eqlzlggzkgcmkzxgcgxecec.pdf",
+                    "date": "2026-08-04",
+                    "quote": "2026년 가이던스 매출 성장 82%, 조정 OPM 60%로 상향조정",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "2026년 2분기 순이익 전년비 +225%, 영업이익 +238.6%, 매출 +92.8% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "충족",
+            "evidence": "최근 4분기 순이익 전년비 +231%·+670%·+307%·+225%로 모두 플러스(최근 1년 부분 충족). 3년 추세·ROE 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 신제품·신고가",
+            "status": "충족",
+            "evidence": "바클레이즈 분석 개시·골드만 의견(10월), 52주 고점 209.58달러 대비 -0.25%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.08배로 마르지 않음. 10월 8일 거래량 4187만 주. 유통주식 수 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "RS 백분위 1개월 98.1, 3개월 98.8, 6개월 92.8"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장",
+            "status": "충족",
+            "evidence": "시장 판정 green, 10일선이 20일선 위(16일째). 다만 마진부채 1년 전보다 +37.2%로 주의선 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k2",
+            "statement": "AI 선도 업체와의 본격 경쟁과 소버린 전략의 중장기 성과가 불확실하다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[팔란티어 테크 (NAS:PLTR)] 소버린 중심 전략이 중장기 워킹할지가 미지수",
+                "publisher": "키움증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlmkgxmexgzzgzgcgxecec.pdf",
+                "date": "2026-09-15",
+                "quote": "프런티어 업체와 데이터 플랫폼 업체 제휴를 통한 구독경제 확장성이 변수",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "k3",
+            "statement": "5월 실적 때는 미국 민간 매출이 예상을 밑돌아 주가가 급락한 적이 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[팔란티어 테크 (NAS:PLTR)] 가장 큰 폭의 가이던스 상향",
+                "publisher": "신한투자증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqqleclllxmglzxgcgxecec.pdf",
+                "date": "2026-05-07",
+                "quote": "미국 민간 매출이 예상치를 하회하며(+133%) 직후 주가 급락.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "정부·국방 고객 비중이 커서 예산·정책 변화에 영향을 받는다.",
+          "AI 모델 업체와 대형 기술기업이 기업용 시장으로 들어오며 경쟁이 커지고 있다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "3개월 수익률 +55.5%, 1개월 +25.0% (쉬는 구간 지표 없음)"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간 없음"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간 없음"
+          },
+          {
+            "item": "깊이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간 없음"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "현재가 209.05, 20일선 187, 50일선 176.98, 150일선 150.64"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.08배"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "피벗 없음. 참고로 마지막 봉 거래량은 20일 평균의 1.56배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "확인 불가",
+            "evidence": "피벗 없음"
+          },
+          {
+            "item": "손절 폭",
+            "status": "확인 불가",
+            "evidence": "예비 손절 없음. 일간 변동폭(ADR) 3.35%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "미충족",
+            "evidence": "10일선 위 2.38 ADR (2 ADR 초과, 3 미만)"
+          },
+          {
+            "item": "시장",
+            "status": "충족",
+            "evidence": "시장 판정 green, 10일선이 20일선 위(16일째)"
+          }
+        ],
+        "chartObservation": {
+          "base": "쉬는 구간이 확인되지 않는다. 6개월 그림에서 8월 초 급등 뒤 9월에 옆으로 움직였고, 10월 초 이후 다시 오르는 모양이다. 베이스 지표가 없어 주 수·깊이는 말할 수 없다.",
+          "volume": "최근 5일 거래량은 20일 평균의 1.08배로 줄지 않았다.",
+          "position": "현재가 209.05는 52주 고점 209.58 바로 아래(-0.25%)다. 10월 9일 종가 위치는 일중 범위의 95%이고 피벗·예비 손절은 없다. 10일선 위 2.38 ADR이다.",
+          "maStack": "현재가가 20일선(187)·50일선(176.98)·150일선(150.64) 위에 있고 세 선이 모두 우상향으로 보인다. 50일선보다 18.12% 위다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "쉬는 구간이 새로 만들어져 피벗과 예비 손절이 정해지는지",
+          "10월 8~9일 급등 뒤 거래량이 20일 평균 아래로 마르는지",
+          "10일선 위 이격이 2 ADR 이내로 돌아오는지",
+          "시장 판정이 green을 유지하는지"
+        ],
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 지난 8-K는 매 분기 첫 주(2월·5월·8월·11월 초)에 실적을 냈다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "k1",
+            "r1",
+            "p1"
+          ],
+          "reasons": [
+            "k1: '기대가 꺾이면 주가 조정 폭이 커질 수 있다'는 근거 없는 리스크 추측",
+            "r1: statement의 '84.7%', '70%'가 quote에 없음. 92.8%만 제시되어 가속 근거 부족",
+            "p1: '9.1억 달러', '47.1%', '225% 늘었다'가 quote에 없음. 일반 메시지만 있음",
+            "lead의 '주가수익비율 178배'는 근거 없음(k1 제거로), '높은 몸값'으로 수정",
+            "financialsNarrative의 '직전 분기(84.7%)보다 빨라졌다' 제거, '영업이익은 9.1억 달러로 영업이익률이 47.1%다' 제거"
+          ],
+          "leadFixed": true,
+          "financialsNarrativeFixed": true
+        },
+        "leadOriginal": "PLTR은 두 달 평균보다 18% 위에서 52주 신고가권(고점 대비 -0.25%)에 올라 있어 관심 목록에 들었다. 가장 강한 근거는 분기 매출 93% 증가와 연간 가이던스 상향이다. 가장 큰 걱정은 주가수익비율 178배라는 높은 몸값과, 거래량이 마르지 않은 채 10월 8~9일 이틀 급등했다는 점이다. 쉬는 구간이 없어 피벗·손절이 정해지지 않는다. 다음 실적에서 성장률이 꺾이거나 두 달 평균선 아래로 내려오면 이 그림은 깨진다.",
+        "financialsNarrativeOriginal": "매출과 이익 모두 가속하며 늘고 있다. 2026년 2분기 매출은 19.4억 달러로 1년 전보다 92.8% 늘었고, 직전 분기(84.7%)보다 빨라졌다. 영업이익은 9.1억 달러로 영업이익률이 47.1%다. 증권사 전망도 올라가는 중이어서 올해 매출 증가 전망은 83.6%다.",
+        "researchedOn": "2026-10-10",
+        "session": "2026-10-09",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "AMT",
@@ -25555,8 +27657,103 @@ window.TEAM2_DATA = {
         "count": 8
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "AMT",
+        "company": "미국 전역과 해외에 통신 기지국 타워를 짓고 이동통신사에 임대해 돈을 버는 리츠(부동산 투자회사). 데이터센터 임대도 일부 한다.",
+        "lead": "AMT는 10월 9일 하루에 8.6% 올랐고, 계기는 SpaceX의 무선 주파수 사업 확대 소식입니다. 위성 통신이 커져도 지상 타워 수요가 늘 수 있다는 기대가 퍼졌고, 버냉스타인 애널리스트도 타워 사업자에 유리하다고 봤습니다. 다만 실제 임대 계약이나 실적으로 이어지는지가 확인돼야 합니다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "SpaceX가 무선 사업을 키운다는 소식에 타워 관련주가 함께 올랐습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SpaceX makes big wireless move. These once 'obsolete' tech stocks could benefit",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/09/spacex-wireless-plans-lifts-tower-stocks.html",
+                "date": "2026-10-09",
+                "quote": "SpaceX makes big wireless move. These once 'obsolete' tech stocks could benefit",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "버냉스타인 애널리스트는 SpaceX의 주파수 매입 계획이 타워 사업자에게 좋다고 평가했습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Bernstein's Madison Rezaei: SpaceX plan to buy spectrum portfolio is good for tower operators",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/video/2026/10/09/bernsteins-madison-rezaei-spacex-plan-to-buy-spectrum-portfolio-is-good-for-tower-operators.html",
+                "date": "2026-10-09",
+                "quote": "SpaceX plan to buy spectrum portfolio is good for tower operators",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "이날 주가가 8.6% 뛰며 1년 평균선(200일선) 위로 올라섰습니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why American Tower Stock Jumped 8.6% Today",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/why-american-tower-stock-jumped-86-today",
+                "date": "2026-10-09",
+                "quote": "Why American Tower Stock Jumped 8.6% Today",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "American Tower (AMT) Shares Cross Above 200 DMA",
+                "publisher": "BNK Invest",
+                "url": "https://www.nasdaq.com/articles/american-tower-amt-shares-cross-above-200-dma",
+                "date": "2026-10-09",
+                "quote": "American Tower (AMT) Shares Cross Above 200 DMA",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "최근 분기 매출이 1년 전보다 13.4% 줄었습니다. 급등은 기대감 때문이고 실적 개선이 뒷받침된 것은 아닙니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 10-Q 분기 실적",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001053507&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "periodEnd 2026-06-30, revenue 211100000, yoy revenue -13.4",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "통신 타워",
+          "위성·무선 인프라"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "nameKo": "아메리칸 타워",
       "nameEn": "AMERICAN TOWER CORP",
@@ -26153,8 +28350,94 @@ window.TEAM2_DATA = {
         "count": 9
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "BABA",
+        "company": "중국 최대 전자상거래 업체이자 클라우드·AI 사업을 키우는 회사. 중국 쇼핑 플랫폼에서 번 돈을 AI 투자에 쓰고 있다.",
+        "lead": "BABA는 9월 22일 자체 AI 칩과 데이터센터 확대 계획을 내놓으며 주가가 뛰었다. 다만 3개월·6개월 기준으로는 아직 하락 구간이어서 저점 반등의 성격이 강하다. 중국 쇼핑 사업의 이익이 실제로 회복되는지가 확인돼야 이 이야기가 이어진다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "9월 22일 새 AI 칩과 데이터센터 증설 계획을 공개하자 주가가 뛰었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Alibaba shares jump as new AI chip, data center buildout plans unveiled",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/22/alibaba-ai-alibabacloud-zhenwu-v900-.html",
+                "date": "2026-09-22",
+                "quote": "Alibaba shares jump as new AI chip, data center buildout plans unveiled",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "증권사들은 클라우드 성장이 빨라지고 배달 경쟁 부담이 줄면서 이익이 회복될 것으로 본다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "클라우드 성장성 이상무, 이익 회복 확인이 중요",
+                "publisher": "키움증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlqkmeeiggqiqkgcgxecec.pdf",
+                "date": "2026-08-21",
+                "quote": "FY1Q27 예상치 부합. 클라우드 성장 가속 및 퀵커머스 적자 축소- 하반기 클라우드 성장 추가 확대 예상되며, 경쟁 완화로 커머스 이익 개선 전망",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "AI 투자가 늘면서 이익이 예상보다 낮게 나온 분기가 반복됐다. 투자 효과가 실제 이익으로 나오는지는 아직 확인이 필요하다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AI 기대감 유효하며 커머스 이익 회복 가시성 개선",
+                "publisher": "키움증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqqlqxxqqmzzzqkgcgxecec.pdf",
+                "date": "2026-05-15",
+                "quote": "FY4Q26 실적 배달음식 및 Qwen 투자로 예상치 하회",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "10월 들어서는 시장이 오르는 날에도 주가가 밀리는 날이 있었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Alibaba (BABA) Stock Drops Despite Market Gains: Important Facts to Note",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/alibaba-baba-stock-drops-despite-market-gains-important-facts-note",
+                "date": "2026-10-02",
+                "quote": "Alibaba (BABA) Stock Drops Despite Market Gains: Important Facts to Note",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "AI 인프라",
+          "중국 빅테크"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "nameKo": "알리바바 그룹 홀딩(ADR)",
       "nameEn": "ALIBABA GROUP HOLDING LTD SPON ADS EACH REP 8 ORD SHS",
@@ -26689,8 +28972,120 @@ window.TEAM2_DATA = {
         "count": 8
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "CCI",
+        "company": "미국 전역에 통신 기지국 철탑과 광케이블을 소유하고, 통신사에 임대해 임대료를 받는 부동산투자회사(리츠)다.",
+        "lead": "스페이스X가 무선 주파수 대역을 사들이려 한다는 소식에 철탑 업체 주가가 10월 9일 크게 올랐다. CCI는 전날 68.89달러에서 79.64달러로 약 15% 뛰었다. 스페이스X 계획이 실제 철탑 임대 수요로 이어지는지가 확인돼야 이 이야기가 유지된다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "스페이스X가 주파수 대역을 사겠다는 계획이 나오자 한때 구식으로 여겨지던 철탑 업체들이 수혜주로 떠올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SpaceX makes big wireless move. These once 'obsolete' tech stocks could benefit",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/09/spacex-wireless-plans-lifts-tower-stocks.html",
+                "date": "2026-10-09",
+                "quote": "SpaceX makes big wireless move. These once 'obsolete' tech stocks could benefit",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "번스타인 애널리스트는 스페이스X의 주파수 포트폴리오 인수 계획이 철탑 운영사에 좋다고 평가했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Bernstein's Madison Rezaei: SpaceX plan to buy spectrum portfolio is good for tower operators",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/video/2026/10/09/bernsteins-madison-rezaei-spacex-plan-to-buy-spectrum-portfolio-is-good-for-tower-operators.html",
+                "date": "2026-10-09",
+                "quote": "Bernstein's Madison Rezaei: SpaceX plan to buy spectrum portfolio is good for tower operators",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "급등 전부터 AI와 주파수 거래가 철탑 수요를 키운다는 시각과 투자의견 상향이 이어졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Crown Castle Sees AI, Spectrum Deals Powering Future Tower Demand",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/crown-castle-sees-ai-spectrum-deals-powering-future-tower-demand",
+                "date": "2026-09-30",
+                "quote": "Crown Castle Sees AI, Spectrum Deals Powering Future Tower Demand",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Crown Castle (CCI) Upgraded to Buy: Here's Why",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/crown-castle-cci-upgraded-buy-heres-why",
+                "date": "2026-09-17",
+                "quote": "Crown Castle (CCI) Upgraded to Buy: Here's Why",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "최근 분기 매출이 1년 전보다 21.2% 줄었고 순이익도 67.7% 감소했다. 호재가 실적에 반영되기 전이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CCI 분기 실적 (2026-06-30 종료)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001051470&type=10-Q",
+                "date": "2026-07-22",
+                "quote": "revenue yoy -21.2, netIncome yoy -67.7",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "CFO 교체와 COO 퇴임이 9월에 발표돼 경영진 변화가 진행 중이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Crown Castle Appoints Kris Hinson As CFO, Succeeding Sunit Patel; COO Cathy Piche To Step Down",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/crown-castle-appoints-kris-hinson-cfo-succeeding-sunit-patel-coo-cathy-piche-step-down",
+                "date": "2026-09-15",
+                "quote": "Crown Castle Appoints Kris Hinson As CFO, Succeeding Sunit Patel; COO Cathy Piche To Step Down",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "통신 인프라",
+          "위성·주파수",
+          "리츠"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "nameKo": "크라운 캐슬",
       "nameEn": "CROWN CASTLE INC",
@@ -27285,7 +29680,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "클라우드플레어",
       "nameEn": "CLOUDFLARE INC",
@@ -27779,7 +30174,296 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "NET",
+        "company": "클라우드플레어는 기업 웹사이트와 앱의 보안·속도·네트워크 서비스를 구독으로 파는 인터넷 인프라 회사다. 고객 대부분은 기업이고, 최근에는 AI 트래픽 증가와 데이터 플랫폼(Basin) 확대, 통신사와의 기업용 계약이 성장 축으로 거론된다.",
+        "lead": "NET 은 3·6개월 수익률이 상위 4%대인 강한 종목이라 목록에 올랐다. 가장 강한 근거는 분기 매출이 1년 전보다 35.9% 늘어난 점이다. 가장 큰 걱정은 영업적자가 커지는 중이라는 점(최근 분기 영업이익률 -29.6%)과 쉬는 구간이 없어 피벗(넘으면 사는 선)·손절이 정해지지 않았다는 점이다. 매출 성장이 20%대로 꺾이거나 두 달 평균선(316.02달러) 아래로 내려가면 이 그림은 깨진다.",
+        "newsNarrative": "10월 들어 클라우드플레어 기사는 AI 트래픽 증가와 신제품·계약 이야기가 중심이다. 도이치텔레콤 계약이 기업 매출을 키울지 다루는 기사와 데이터 플랫폼 Basin 확대 기사가 나왔다. 9월에는 주가가 약 14% 올랐다는 평가가 나왔고, CNBC 에서도 AI 수혜 사이버보안주로 소개됐다. 8월에는 소프트웨어주 전반의 변동성 논쟁이 부담으로 언급됐다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "9월 한 달간 주가가 약 14% 올랐다는 분석 기사가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Cloudflare Stock Rallied Nearly 14% in September",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/why-cloudflare-stock-rallied-nearly-14-september",
+                "date": "2026-10-08",
+                "quote": "Why Cloudflare Stock Rallied Nearly 14% in September",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "데이터 플랫폼 Basin 확대가 다음 성장 동력이 될지 다룬 기사가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Cloudflare's Data Platform Expands: Is Basin the Next Growth Driver?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/cloudflares-data-platform-expands-basin-next-growth-driver",
+                "date": "2026-10-07",
+                "quote": "Cloudflare's Data Platform Expands: Is Basin the Next Growth Driver?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "도이치텔레콤과의 계약이 기업 고객 성장을 이끌 수 있는지 다룬 기사가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Can Cloudflare's Deutsche Telekom Deal Drive Enterprise Growth?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/can-cloudflares-deutsche-telekom-deal-drive-enterprise-growth",
+                "date": "2026-10-05",
+                "quote": "Can Cloudflare's Deutsche Telekom Deal Drive Enterprise Growth?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "CNBC 는 AI 가 이 사이버보안주에 힘을 더하고 있다는 투자자 의견을 전했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "AI is giving this cybersecurity stock more juice. Grasso says ride the momentum",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/17/investor-steve-grasso-is-buying-cloudflare.html",
+                "date": "2026-09-17",
+                "quote": "AI is giving this cybersecurity stock more juice. Grasso says ride the momentum",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "8월 소프트웨어주 전반이 크게 출렁이며 업종 논쟁이 커졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "'SaaSpocalypse' debate intensifies as software stocks swing wildly",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+                "date": "2026-08-07",
+                "quote": "'SaaSpocalypse' debate intensifies as software stocks swing wildly",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출은 빠르게 늘지만 영업적자도 같이 커지고 있다. 2026년 2분기 매출은 6.96억 달러로 1년 전보다 35.9% 늘었고, 최근 4분기 증가율은 30~36% 사이다. 같은 분기 영업손실은 2.06억 달러로 영업이익률이 -29.6%까지 나빠졌다(직전 분기 -9.7%). 성장은 확인되지만 이익은 아직 따라오지 않는다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "f1",
+              "statement": "2026년 2분기 매출 6.96억 달러, 1년 전보다 35.9% 증가. 최근 4분기 모두 30% 이상 증가.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "SEC 10-Q 분기 실적표 (Cloudflare)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001477333&type=10-Q",
+                  "date": "2026-06-30",
+                  "quote": "periodEnd 2026-06-30 revenue 696061000, yoy revenue 35.9; 2026-03-31 revenue 639755000, yoy 33.5; 2025-12-31 revenue 614507000, yoy 33.6; 2025-09-30 revenue 562027000, yoy 30.7",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "f2",
+              "statement": "2026년 2분기 영업손실 2.06억 달러(영업이익률 -29.6%), 직전 분기 -0.62억 달러(-9.7%)보다 적자 확대. 순손실 1.70억 달러.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "SEC 10-Q 분기 실적표 (Cloudflare)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001477333&type=10-Q",
+                  "date": "2026-06-30",
+                  "quote": "periodEnd 2026-06-30 profit -205696000, margin -29.6, netIncome -169981000; periodEnd 2026-03-31 profit -61994000, margin -9.7",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [],
+          "estimateRevisions": {
+            "direction": "none",
+            "claims": []
+          }
+        },
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "2분기 순손실 1.70억 달러, 1년 전보다 적자 확대(-237%). 영업손실 2.06억 달러 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 4분기 모두 영업적자, 순이익도 적자. 3년 추세·ROE 는 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 신제품·신고가",
+            "status": "충족",
+            "evidence": "도이치텔레콤 계약·Basin 확대 기사(10월). 52주 고점 370.35달러 대비 -2.54%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 0.87배(0.7 이하 아님). 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "RS 백분위 1개월 96.1 · 3개월 95.6 · 6개월 96.4"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장",
+            "status": "충족",
+            "evidence": "시장 판정 green(10일선이 20일선 위, 16일째). 마진부채 1년 전보다 +37.2%로 주의선 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "영업적자가 확대되고 있다. 2분기 영업이익률 -29.6%.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 10-Q 분기 실적표 (Cloudflare)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001477333&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "periodEnd 2026-06-30 profit -205696000, margin -29.6",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r2",
+            "statement": "소프트웨어 업종 전반의 변동성 논쟁이 이어지고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "'SaaSpocalypse' debate intensifies as software stocks swing wildly",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+                "date": "2026-08-07",
+                "quote": "'SaaSpocalypse' debate intensifies as software stocks swing wildly",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [],
+        "chartCheck": [
+          {
+            "item": "1 선행 상승",
+            "status": "충족",
+            "evidence": "3개월 수익률 32.47%, 1개월 17.75%"
+          },
+          {
+            "item": "2 횡보 길이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간 없음"
+          },
+          {
+            "item": "3 저점 높아짐",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간 없음"
+          },
+          {
+            "item": "4 깊이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간 없음"
+          },
+          {
+            "item": "5 이평선 위",
+            "status": "충족",
+            "evidence": "가격 360.93 > 20일선 345.93 · 50일선 316.02 · 150일선 257.18"
+          },
+          {
+            "item": "6 거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일/20일 평균 0.87 (0.7~1.0 구간, 보통)"
+          },
+          {
+            "item": "7 돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "피벗이 없어 돌파봉 없음. 20일 평균 대비 0.87배"
+          },
+          {
+            "item": "8 피벗 거리",
+            "status": "확인 불가",
+            "evidence": "피벗 없음"
+          },
+          {
+            "item": "9 손절 폭",
+            "status": "확인 불가",
+            "evidence": "예비 손절 없음 (평균 일일 변동폭 4.94%)"
+          },
+          {
+            "item": "10 10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 0.54 ADR (2 이하)"
+          },
+          {
+            "item": "11 시장",
+            "status": "충족",
+            "evidence": "한별 판정 green"
+          }
+        ],
+        "chartObservation": {
+          "base": "뚜렷한 쉬는 구간이 없고 7월 이후 고점과 저점이 함께 올라가는 흐름이다. 최근 약 2주는 342~370달러 사이에서 오르내렸다.",
+          "volume": "최근 10봉 거래량은 216만~317만 주 사이이고, 가장 많은 날은 10월 5일(317만 주)이다. 최근 5일 거래량은 20일 평균의 0.87배로 크게 줄지 않았다.",
+          "position": "현재가 360.93달러는 기간 고점 370.35달러보다 2.54% 아래, 10일선 위 0.54 ADR이다. 피벗과 예비 손절은 정해지지 않았다.",
+          "maStack": "가격이 20일선(345.93)·50일선(316.02)·150일선(257.18) 위에 있고 세 선 모두 오르는 방향이다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "쉬는 구간이 새로 만들어져 피벗과 손절이 정해지는지",
+          "기간 고점 370.35달러를 넘을 때 거래량이 20일 평균의 2배 이상 실리는지",
+          "두 달 평균선(50일선 316.02달러) 위를 유지하는지",
+          "다음 실적에서 매출 증가율이 30% 안팎을 유지하고 영업적자가 줄어드는지"
+        ],
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준)",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": [
+            "모든 claim의 숫자·날짜가 quote 또는 출처 제목에 확인됨",
+            "단위 환산(billion/million)만 표기 차이 있으나 값은 일치"
+          ]
+        },
+        "researchedOn": "2026-10-10",
+        "session": "2026-10-09",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "AKAM",
@@ -27902,8 +30586,99 @@ window.TEAM2_DATA = {
         "count": 33
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "AKAM",
+        "company": "인터넷 트래픽을 빠르게 전달하고 해킹을 막는 보안·클라우드 서비스를 파는 회사. 최근에는 AI 연산을 이용자 가까운 곳에서 처리하는 사업으로 방향을 틀고 있다.",
+        "lead": "아카마이는 9월 25일 Anthropic과 55억 달러 규모 계약 소식에 급등했고, 이후에도 높은 수준을 유지하고 있다. 다만 최근 분기 매출은 5.4% 느리게 늘고 영업이익은 1년 전보다 47% 줄어, 실적이 이 기대를 따라오는지가 관건이다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "Anthropic과의 55억 달러 규모 계약이 알려지며 9월 25일 주가가 크게 뛰었다. 엣지(이용자 가까운 곳) AI 연산 사업이 실제 매출로 이어진다는 기대가 붙었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Akamai’s Anthropic Deal Puts $5.5 Billion Behind Its Edge AI Pivot",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/akamais-anthropic-deal-puts-55-billion-behind-its-edge-ai-pivot",
+                "date": "2026-09-28",
+                "quote": "Akamai’s Anthropic Deal Puts $5.5 Billion Behind Its Edge AI Pivot",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Shares of Akamai surge after deal with Anthropic. What Wall Street is saying",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/25/shares-of-akamai-surge-after-deal-with-anthropic-what-wall-street-is-saying.html",
+                "date": "2026-09-25",
+                "quote": "Shares of Akamai surge after deal with Anthropic. What Wall Street is saying",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "근거 없음(출처 검증 실패로 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [],
+            "stripped": true
+          },
+          {
+            "id": "w3",
+            "statement": "증권사는 아카마이를 성숙한 CDN(콘텐츠 전송망) 업체가 아니라 AI 인프라 업체로 다시 평가하는 흐름이다. 주가 재평가의 방향이 엣지 AI 연산에 있다는 시각이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[아카마이 테크놀로지 (NAS:AKAM)] 분산형 AI 인프라 가치 재평가",
+                "publisher": "메리츠증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqqzzemqxqiqgmzgcgxecec.pdf",
+                "date": "2026-04-07",
+                "quote": "주가 재평가의 방향은 엣지 네트워크의 AI 컴퓨트화에 있 음",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "최근 분기(6월) 매출은 11억 달러로 1년 전보다 5.4% 늘었지만 영업이익은 47% 줄었다. 성장이 느리고 수익성이 낮아져, AI 계약 효과가 실적에 나타나야 한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 분기 실적(2026-06-30 분기)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086222&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "revenue 1099682000, profit 80284000, yoy revenue 5.4, profit -47",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "AI 인프라",
+          "엣지 컴퓨팅",
+          "사이버 보안"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reasons": [
+            "5월 고점(165.45달러)과 현재가(107달러) 수치가 제시된 출처 제목·인용문에 없음"
+          ]
+        },
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "nameKo": "아카마이 테크놀로지",
       "nameEn": "AKAMAI TECHNOLOGIES",
@@ -28562,8 +31337,112 @@ window.TEAM2_DATA = {
         "count": 23
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "HUT",
+        "company": "비트코인 채굴과 AI 데이터센터용 전력·부지를 운영하는 회사. 최근에는 데이터센터 임대와 AI 인프라 쪽으로 사업을 넓히고 있다.",
+        "lead": "HUT는 최근 한 달간 14.5% 내렸지만, 시장 전체 대비 상대 강도 순위는 높게 유지됐다. 9월 말 UBS의 매수 의견 개시와 10억 달러 넘는 신규 대출 한도 확보가 근거다. 다만 분기 적자가 이어지고 있어, 데이터센터 매출이 실제로 늘어나는지 확인되지 않으면 이야기가 약해진다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "UBS가 9월 23일 HUT를 매수 의견으로 새로 분석하기 시작했다. 대형 증권사의 시작 의견이 투자 심리를 받쳤다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "UBS Initiates Coverage of Hut 8 with Buy",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/ubs-initiates-coverage-hut-8-buy",
+                "date": "2026-09-23",
+                "quote": "UBS Initiates Coverage of Hut 8 with Buy",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "9월 24일 JP모건을 대리인으로 최대 10.7억 달러 규모 담보 대출 한도(4년 만기)를 확보했다. 자금은 일반 운영과 운전자금에 쓸 수 있어 확장 자금 부담이 줄었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Hut 8 Corp. 8-K (Credit Agreement)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926111154/tm2625691d1_8k.htm",
+                "date": "2026-09-28",
+                "quote": "a senior secured revolving credit facility in an aggregate principal amount of up to $1,070.0 million",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "분기 매출은 7,493만 달러로 1년 전보다 81% 늘었다. 매출 성장이 AI 인프라 기대를 뒷받침한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Hut 8 (HUT) Q2 2026 Earnings Call Transcript",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/hut-8-hut-q2-2026-earnings-call-transcript",
+                "date": "2026-08-11",
+                "quote": "2026년 6월 분기 매출 74,932,000달러, 전년 동기 대비 +81.4% (SEC 실적표)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "6월 분기 영업손실이 2.06억 달러, 순손실이 1.5억 달러로 적자가 계속되고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 실적표 2026-06-30 분기",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001964789&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "revenue 74932000, profit -206330000, netIncome -150191000",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "6월 분기 영업손실이 2.06억 달러, 순손실이 1.5억 달러로 적자가 계속되고 있다. 주가는 6월 2일 고점 140.8달러보다 40% 넘게 낮다."
+          },
+          {
+            "id": "c2",
+            "statement": "CFO가 8월 말 주식을 매도했다. 담보 대출이 늘면 이자 부담도 커진다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Hut 8's CFO Sells 6,445 Shares for $508,000 After a One-Year Return of 240%",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/hut-8s-cfo-sells-6445-shares-508000-after-one-year-return-240",
+                "date": "2026-08-26",
+                "quote": "Hut 8's CFO Sells 6,445 Shares for $508,000 After a One-Year Return of 240%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "AI 인프라",
+          "비트코인 채굴",
+          "데이터센터"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "nameKo": "허트 8",
       "nameEn": "HUT 8 CORP",
@@ -29135,8 +32014,121 @@ window.TEAM2_DATA = {
         "count": 8
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "SBAC",
+        "company": "전국 통신 타워를 통신사에 빌려주고 임대료를 받는 부동산 투자회사(REIT). 미국과 중남미 등에서 타워를 운영한다.",
+        "lead": "SBAC는 10월 9일 하루 만에 약 7% 올랐고, SpaceX의 무선 사업 확대 소식에 타워 관련주가 함께 움직인 영향으로 보인다. 다만 한 달·석 달 수익률은 여전히 마이너스이고 52주 고점보다 낮다. SpaceX 계획이 실제 타워 임대 수요로 이어지는지 확인되지 않으면 단기 반등에 그칠 수 있다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "SpaceX의 무선 사업 움직임으로 '한물갔다'던 타워 관련주가 수혜를 볼 수 있다는 평가가 나오며 타워주가 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SpaceX makes big wireless move. These once 'obsolete' tech stocks could benefit",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/09/spacex-wireless-plans-lifts-tower-stocks.html",
+                "date": "2026-10-09",
+                "quote": "SpaceX makes big wireless move. These once 'obsolete' tech stocks could benefit",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "주가는 전일 종가 170.01달러에서 182.49달러로 올랐다. 10월 5일 기록한 52주 저점(156.6달러)에서 크게 반등한 위치다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "한국투자증권 시세 (SBAC)",
+                "publisher": "한국투자증권 Open API",
+                "url": "https://openapi.koreainvestment.com:9443/",
+                "date": "2026-10-10",
+                "quote": "last 182.49, prevClose 170.01, low52 156.6 (2026-10-05)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "2분기 FFO(부동산 회사의 영업 현금흐름 지표)가 예상치를 웃돌았고, 회사는 6G 시대 임대 회복과 자사주 매입을 기대 요인으로 내세우고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SBAC Q2 FFO Beat Estimates on International Leasing Strength",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/sbac-q2-ffo-beat-estimates-international-leasing-strength",
+                "date": "2026-08-04",
+                "quote": "SBAC Q2 FFO Beat Estimates on International Leasing Strength",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "SBA Communications Eyes 6G Leasing Rebound, Edge Data Centers and Buybacks",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/sba-communications-eyes-6g-leasing-rebound-edge-data-centers-and-buybacks",
+                "date": "2026-10-01",
+                "quote": "SBA Communications Eyes 6G Leasing Rebound, Edge Data Centers and Buybacks",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "최근 분기 매출은 1년 전보다 23.5% 줄었고 순이익도 12% 감소했다. 실적이 반등을 뒷받침하는 상태는 아니다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 분기 실적표 (2026-06-30 분기)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001034054&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "revenue 51389000, yoy revenue -23.5, netIncome yoy -12",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "이번 상승은 기사 한 건에 반응한 단기 움직임일 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "한국투자증권 시세 (SBAC)",
+                "publisher": "한국투자증권 Open API",
+                "url": "https://openapi.koreainvestment.com:9443/",
+                "date": "2026-10-10",
+                "quote": "high52 221.5827 (2026-04-20), last 182.49",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "6개월 수익률은 -16%이고 52주 고점(221.58달러)보다 아래다. 이번 상승은 기사 한 건에 반응한 단기 움직임일 수 있다."
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "통신 타워",
+          "SpaceX 수혜",
+          "REIT"
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "nameKo": "SBA 커뮤니케이션스",
       "nameEn": "SBA COMMUNICATIONS CORP",
@@ -29713,8 +32705,87 @@ window.TEAM2_DATA = {
         "count": 56
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "PCVX",
+        "company": "폐렴구균 백신을 개발하는 임상 단계 바이오 회사. 아직 제품 매출이 없고, 핵심 후보물질은 VAX-31이다.",
+        "lead": "백사이트는 폐렴구균 백신 VAX-31이 3상 임상에서 주요 목표를 모두 달성해 올랐다. 다만 곧바로 약 10억 달러 규모 주식·전환사채 발행이 이어져 주가는 10월 5일 고점(90.75달러)에서 크게 밀렸다. 규제 심사와 상용화 진행, 그리고 신주 발행 부담이 주가에 어떻게 반영되는지가 관건이다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "기존 시판 백신인 프리베나20·캡박시브와의 비교에서 통과했다는 뜻이라 상용화 기대가 커졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Vaxcyte's VAX-31 Meets Key Phase 3 Goals Against Prevnar 20 And Capvaxive; Stock Up",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/vaxcytes-vax-31-meets-key-phase-3-goals-against-prevnar-20-and-capvaxive-stock",
+                "date": "2026-10-05",
+                "quote": "Vaxcyte's VAX-31 Meets Key Phase 3 Goals Against Prevnar 20 And Capvaxive; Stock Up",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "VAX-31이 3상 임상(OPUS-1)에서 주요 평가 목표를 모두 충족했다. 기존 시판 백신인 프리베나20·캡박시브와의 비교에서 통과했다는 뜻이라 상용화 기대가 커졌다."
+          },
+          {
+            "id": "w2",
+            "statement": "기존 백신보다 더 많은 균주를 막고 면역 반응도 강하게 나타나, 차별성이 확인됐다는 평가가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Broader Coverage And Strong Immune Responses Highlight Vaxcyte's Phase 3 Vaccine Readout; Stock Up",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/broader-coverage-and-strong-immune-responses-highlight-vaxcytes-phase-3-vaccine-readout",
+                "date": "2026-10-05",
+                "quote": "Broader Coverage And Strong Immune Responses Highlight Vaxcyte's Phase 3 Vaccine Readout; Stock Up",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Vaxcyte Prices $1 Bln In Concurrent Equity, Convertible Notes Offerings",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/vaxcyte-prices-1-bln-concurrent-equity-convertible-notes-offerings",
+                "date": "2026-10-07",
+                "quote": "Vaxcyte Prices $1 Bln In Concurrent Equity, Convertible Notes Offerings",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "호재 직후 약 10억 달러(주식 5억·전환사채 5억)를 조달한다. 새 주식 발행으로 기존 주주 몫이 줄어드는 희석 부담이 있고, 주가는 고점 90.75달러에서 71.38달러로 내려왔다.",
+            "stripped": true
+          },
+          {
+            "id": "c2",
+            "statement": "매출이 없어 적자가 이어지고, 증권사 전망치도 올해와 내년 모두 적자다. 규제 승인과 판매 성공 전까지 이익이 나지 않는다.",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "백신",
+          "바이오 임상 성공"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "nameKo": "백사이트",
       "nameEn": "VAXCYTE INC",
@@ -30084,7 +33155,240 @@ window.TEAM2_DATA = {
           }
         ]
       },
-      "earnings": null
+      "earnings": null,
+      "deep": {
+        "status": "done",
+        "ticker": "PCVX",
+        "company": "백사이트(Vaxcyte)는 폐렴구균 백신을 개발하는 임상 단계 바이오 기업이다. 아직 제품 매출이 없어 투자금으로 임상을 끌고 간다. 핵심 후보 VAX-31이 최근 3상(대규모 환자 시험)에서 주요 목표를 충족했다.",
+        "lead": "PCVX는 3상 성공 발표로 하루에 크게 뛴 뒤, 지금은 두 달 평균선 위에서 움직이는 바이오 종목이다. 가장 강한 근거는 VAX-31이 3상 1차 목표를 모두 충족했다는 소식과 최근 1·3개월 업종 순위 상위권이다. 가장 큰 걱정은 이틀 뒤 약 10억 달러 규모 증자·전환사채가 확정돼 기존 주주 몫이 줄어들 수 있다는 점이다. 발표일 고점 90.75에서 밀린 흐름이 이어지거나, 피벗 63.98 아래로 종가가 내려가면 이 그림은 약해진다.",
+        "newsNarrative": "10월 5일 백사이트는 VAX-31이 기존 백신 Prevnar 20과 Capvaxive 대비 3상 주요 목표를 충족했다고 밝혔고, 주가는 하루 만에 54% 갭 상승으로 출발했다. 하지만 장중 고점 90.75에서 밀려 종가는 73.82에 그쳤고 다음 날도 하락했다. 10월 6일 회사는 주식 5억 달러, 전환사채 5억 달러 발행을 추진한다고 알렸고, 10월 7일 약 10억 달러 규모로 가격을 확정했다. 조달 자금은 VAX-31 프로그램에 쓰인다. 호재 직후 희석(새 주식 발행으로 기존 주주 몫이 줄어듦) 부담이 붙은 셈이다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "VAX-31이 3상 OPUS-1에서 1차 목표를 모두 충족했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Vaxcyte’s VAX-31 Meets All Primary Endpoints in Pivotal Phase III OPUS-1 Trial",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/vaxcytes-vax-31-meets-all-primary-endpoints-pivotal-phase-iii-opus-1-trial",
+                "date": "2026-10-06",
+                "quote": "Vaxcyte’s VAX-31 Meets All Primary Endpoints in Pivotal Phase III OPUS-1 Trial",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "VAX-31이 Prevnar 20, Capvaxive 대비 3상 핵심 목표를 충족해 주가가 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Vaxcyte's VAX-31 Meets Key Phase 3 Goals Against Prevnar 20 And Capvaxive; Stock Up",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/vaxcytes-vax-31-meets-key-phase-3-goals-against-prevnar-20-and-capvaxive-stock",
+                "date": "2026-10-05",
+                "quote": "Vaxcyte's VAX-31 Meets Key Phase 3 Goals Against Prevnar 20 And Capvaxive; Stock Up",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Vaxcyte Commences Proposed $500 Mln Equity & $500 Mln Notes Offering To Fund VAX-31 Program",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/vaxcyte-commences-proposed-500-mln-equity-500-mln-notes-offering-fund-vax-31-program",
+                "date": "2026-10-06",
+                "quote": "Vaxcyte Commences Proposed $500 Mln Equity & $500 Mln Notes Offering To Fund VAX-31 Program",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "VAX-31 자금 조달용으로 주식 5억 달러, 노트 5억 달러 발행을 개시했다.",
+            "stripped": true
+          },
+          {
+            "id": "n4",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Vaxcyte Prices Offerings Of Stock, Warrants, Convertible Notes To Raise Approx. $1 Bln",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/vaxcyte-prices-offerings-stock-warrants-convertible-notes-raise-approx-1-bln",
+                "date": "2026-10-07",
+                "quote": "Vaxcyte Prices Offerings Of Stock, Warrants, Convertible Notes To Raise Approx. $1 Bln",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "주식·워런트·전환사채 약 10억 달러 발행 가격이 확정됐다.",
+            "stripped": true
+          }
+        ],
+        "financialsNarrative": "백사이트는 제품 매출이 없는 임상 단계 회사라 매출·이익 추세로 평가하기 어렵다. 사이트 재무표에서 순이익은 최근 세 차례 모두 적자 확대로 표시된다. 증권사 올해 EPS 전망은 30일 전 대비 0.44% 변하는 데 그쳐 큰 상향은 없다. 약 10억 달러 조달로 임상 자금은 확보했지만 주식 수 증가 부담이 따른다.",
+        "financials": {
+          "revenueTrend": [],
+          "profitTrend": [],
+          "guidance": [],
+          "estimateRevisions": {
+            "direction": "unknown",
+            "claims": []
+          }
+        },
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "SEC 분기 자료 없음(매출 태그 없음), 사이트 재무표 순이익 적자확대 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "사이트 재무표 순이익 적자확대 3회 연속, 3년 자료·ROE 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 신제품·신고가",
+            "status": "충족",
+            "evidence": "10월 5일 VAX-31 3상 목표 충족 발표, 52주 고점 78.66 대비 아래이나 신고가 표시는 아님"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 2.61배(마름 아님), 유통주식 확인 불가, 시총 9.67B"
+          },
+          {
+            "item": "L 주도주",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "충족",
+            "evidence": "시장 판정 green, 마진부채 1년 전보다 +37.2%로 주의선 +30% 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Vaxcyte Prices $1 Bln In Concurrent Equity, Convertible Notes Offerings",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/vaxcyte-prices-1-bln-concurrent-equity-convertible-notes-offerings",
+                "date": "2026-10-07",
+                "quote": "Vaxcyte Prices $1 Bln In Concurrent Equity, Convertible Notes Offerings",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "약 10억 달러 규모 주식·워런트·전환사채 발행으로 희석 부담이 생겼다.",
+            "stripped": true
+          }
+        ],
+        "structuralRisks": [
+          "매출이 없는 임상 단계 회사라 후속 임상·허가 결과에 주가가 크게 좌우된다.",
+          "주력 후보 VAX-31 한 가지에 가치가 몰려 있다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 41.2%, 1개월 수익률 20.03%"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 6.6주(33봉)"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회, 진폭 비율 1.14(1 미만 아님)"
+          },
+          {
+            "item": "깊이",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "가격 71.38, 20일선 60.59, 50일선 59.94 위. 베이스 구간 20일선 기울기 -1.66%"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일/20일 평균 거래량 2.61배"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "미충족",
+            "evidence": "10월 5일 돌파일 기준 현재 20일 평균 대비 1.27배, 기준 2배 미만"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "이미 피벗 63.98을 넘었고 11.57%(1.9 ADR) 위"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 3.2%, ADR 6.1% 이하"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 1.96 ADR"
+          },
+          {
+            "item": "시장",
+            "status": "충족",
+            "evidence": "시장 판정 green"
+          }
+        ],
+        "chartObservation": {
+          "base": "10월 2일까지 약 6.6주(33봉) 횡보했고 깊이는 13.9%다. 저점 상승은 0회이고 진폭 비율은 1.14라 폭이 좁아지는 모양은 아니다.",
+          "volume": "횡보 중 거래량은 낮은 편이었다. 10월 5일 거래량이 1492만 주로 급증했고 6~7일에도 1000만 주 이상이었다. 최근 5일 거래량은 20일 평균의 2.61배다.",
+          "position": "현재가 71.38은 피벗 63.98보다 11.57% 위, 예비 손절 61.93보다 위다. 10월 5일 갭 상승 54.41%로 출발해 종가는 고점 부근이 아닌 하단(종가 위치 12)이었다. 10월 9일은 종가 위치 86으로 마감했다.",
+          "maStack": "가격은 20일선 60.59, 50일선 59.94, 150일선 56.68 위에 있다. 10일선 위 1.96 ADR에 떠 있다.",
+          "note": "그림과 숫자가 일치한다"
+        },
+        "entryChecklist": [
+          "10월 5일 갭 상승일 이후 종가가 피벗 63.98 위에서 유지되는지 (10월 8일 종가 65.01)",
+          "증자 가격 확정 이후 거래량이 20일 평균 대비 얼마나 실리는지",
+          "예비 손절 61.93 아래로 종가가 내려가지 않는지"
+        ],
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 직전 실적 발표 8-K는 2026-08-05이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "f1",
+            "f2"
+          ],
+          "reasons": [
+            "f1, f2: evidence_level이 'no_source'로 근거 없음 표시"
+          ]
+        },
+        "researchedOn": "2026-10-10",
+        "session": "2026-10-09",
+        "carried": false,
+        "source": "list"
+      }
     },
     {
       "ticker": "DOCN",
@@ -30207,8 +33511,105 @@ window.TEAM2_DATA = {
         "count": 33
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "DOCN",
+        "company": "기업이 AI 모델과 앱을 돌리는 데 쓰는 클라우드 서버와 GPU(AI 연산용 반도체)를 빌려주는 회사. 중소 개발사와 AI 스타트업이 주 고객이다.",
+        "lead": "DigitalOcean은 분기 매출 증가율이 5분기 연속 빨라지고 올해 성장 전망이 상향되며 오름세를 탔다. 9월에는 GPU 구매용 7억2,500만 달러 자금 조달도 공개됐다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "2분기 매출이 1년 전보다 29% 늘었고 5분기 연속 증가 속도가 빨라졌다. 회사는 연간 성장 전망을 30%로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[디지털오션 홀딩스 (NYS:DOCN)] [26Q2 Review] 성장은 가속, 마진은 6분기째 후퇴, 투자의견 매수 신규",
+                "publisher": "대신증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlzmqeleezmqqcgcgxecec.pdf",
+                "date": "2026-08-04",
+                "quote": "- 매출 +29%, 5분기 연속 가속…FY 가이던스 30%로 상향",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "9월 10일 7억2,500만 달러 장비금융(장비를 담보로 빌리는 자금)을 확보했다. GPU와 CPU를 사들일 돈으로, 늘어나는 AI 수요에 맞출 설비 투자의 자금 문제가 풀렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[디지털오션 홀딩스 (NYS:DOCN)] [Issue & News] 7억2,500만 달러 장비금융 조달, GPU·CPU 확보",
+                "publisher": "대신증권",
+                "url": "https://rreport.einfomax.co.kr/report/eqlmclkmlceemkegcgxecec.pdf",
+                "date": "2026-09-11",
+                "quote": "- 7억2,500만달러 장비금융 조달, GPU·CPU 구매 자금- 155MW 용량 대응 자본조달 공백의 첫 구체화",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "CEO는 AI 인프라 시장을 노리되 수익성을 지키며 하겠다고 밝혔다. AI 수혜주로 보는 시각이 힘을 얻었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "DigitalOcean CEO on earnings: Pursuing the AI infrastructure trade but doing it profitably",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/video/2026/08/04/digitalocean-ceo-on-earnings-pursuing-the-ai-infrastructure-trade-but-doing-it-profitably.html",
+                "date": "2026-08-04",
+                "quote": "DigitalOcean CEO on earnings: Pursuing the AI infrastructure trade but doing it profitably",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [],
+        "estimateRevisions": {
+          "direction": "raised",
+          "claims": [
+            {
+              "id": "e1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "[디지털오션 홀딩스 (NYS:DOCN)] [26Q2 Review] 성장은 가속, 마진은 6분기째 후퇴, 투자의견 매수 신규",
+                  "publisher": "대신증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqlzmqeleezmqqcgcgxecec.pdf",
+                  "date": "2026-08-04",
+                  "quote": "- 가이던스 컨센 전면 상회에도 주가 반응 +1.35% 그쳐",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "회사가 연간 매출 성장 전망을 30%로 올렸고, 증권사는 이를 시장 예상치를 모두 웃돈 수준으로 평가했다.",
+              "stripped": true
+            }
+          ]
+        },
+        "themeTags": [
+          "AI 인프라",
+          "클라우드",
+          "GPU 임대"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1",
+            "c2"
+          ],
+          "reasons": [
+            "c1: 61.4%, 55.0%, 6분기 연속이라는 구체적 수치가 quote에 없음",
+            "c2: CEO 인사, 8~9월 시기, 187.5달러 고점, 28% 낙폭이 quote에 없음"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "DigitalOcean은 분기 매출 증가율이 5분기 연속 빨라지고 올해 성장 전망이 상향되며 오름세를 탔다. 9월에는 GPU 구매용 7억2,500만 달러 자금 조달도 공개됐다. 다만 이익률이 계속 떨어지고 있어 매출 성장이 이익으로 이어지는지가 확인돼야 한다.",
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "nameKo": "디지털오션 홀딩스",
       "nameEn": "DIGITALOCEAN HLDGS INC",
@@ -30818,8 +34219,104 @@ window.TEAM2_DATA = {
         "count": 16
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "RGEN",
+        "company": "바이오의약품 생산에 쓰이는 필터·크로마토그래피 소모품과 장비를 만드는 회사. 이번에 세포·유전자 치료제용 냉동보존 소재 업체 BioLife Solutions를 인수했다.",
+        "lead": "레플리젠은 10월 6일 BioLife Solutions 인수를 마무리했다. 세포치료제 소모품 사업이 더해지면 반복 매출이 늘 것이라는 기대가 근거다. 다만 최근 분기 순이익이 1년 전보다 66% 줄어, 인수 효과가 실적으로 확인되는지가 관건이다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "BioLife 인수가 10월 6일 완료됐다. 세포치료제 시장 비중이 커지고, 반복 구매되는 소모품 매출이 추가된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Repligen completes acquisition of BioLife Solutions",
+                "publisher": "Investing.com / RTTNews",
+                "url": "https://www.investing.com/news/company-news/repligen-completes-acquisition-of-biolife-solutions-93CH-4934639",
+                "date": "2026-10-07",
+                "quote": "Repligen Corp Completes Acquisition Of BioLife Solutions",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "인수 첫해 약 2,000만 달러의 시너지(비용 절감·매출 상승효과)를 회사가 예상한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Repligen Completes BioLife Solutions Acquisition",
+                "publisher": "Contract Pharma",
+                "url": "https://www.contractpharma.com/breaking-news/repligen-completes-biolife-solutions-acquisition/",
+                "date": "2026-10-06",
+                "quote": "Repligen expects $20 million of synergies in year one.",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ],
+            "statementOriginal": "인수 첫해 약 2,000만 달러의 시너지(비용 절감·매출 상승효과)를 회사가 예상한다. 인수 총액(기업가치)은 약 15억 달러다."
+          },
+          {
+            "id": "w4",
+            "statement": "분기 매출은 2억 413만 달러로 1년 전보다 11.9% 늘었다. 매출 성장은 이어지고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 분기 실적표 (2026-06-30 분기)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000730272&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "revenue 204128000, yoy revenue 11.9",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "6월 분기 순이익은 500만 달러로 1년 전보다 66% 줄었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC 분기 실적표 (2026-06-30 분기)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000730272&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "netIncome 5008000, yoy netIncome -66.3",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "6월 분기 순이익은 500만 달러로 1년 전보다 66% 줄었다. 매출 증가율도 직전 분기 14.8%에서 11.9%로 낮아졌다."
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "세포·유전자 치료제 소재",
+          "바이오 공정 소모품"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w3",
+            "c2"
+          ],
+          "reasons": [
+            "w3: statement 의 구체적 주가(198.87달러, 173.88달러)가 quote 에 없음 — Nasdaq RSS 기사 제목만 있고 수치 없음",
+            "c2: PER 140배 수치가 BioLife 인수 조건 출처(quote 는 현금·주식 교환 비율만 제시)에 없음"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "레플리젠은 10월 6일 BioLife Solutions 인수를 마무리했고, 9월 말에는 52주 신고가(198.87달러)를 찍었다. 세포치료제 소모품 사업이 더해지면 반복 매출이 늘 것이라는 기대가 근거다. 다만 최근 분기 순이익이 1년 전보다 66% 줄어, 인수 효과가 실적으로 확인되는지가 관건이다.",
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "nameKo": "레플리젠",
       "nameEn": "REPLIGEN CORP",
@@ -31401,8 +34898,100 @@ window.TEAM2_DATA = {
         "count": 13
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "VSAT",
+        "company": "위성으로 항공기·선박·정부·가정에 인터넷을 제공하고 관련 단말·장비도 파는 통신 회사. Inmarsat 인수로 글로벌 서비스망을 넓혔다.",
+        "lead": "9월 중순 UAE 위성업체 Space42와 합작사 Equatys를 세우기로 하며 성장 기대가 살아났다. 다만 최근 분기 매출은 1년 전보다 1.2% 줄었고 한 달 수익률은 마이너스라, 이 합작이 실제 매출로 이어지는지가 관건이다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "위성 사업의 새 성장 동력으로 평가받는다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Space42, Viasat Agree To Co-found Equatys With $1 Bln Commitment",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/space42-viasat-agree-co-found-equatys-1-bln-commitment",
+                "date": "2026-09-14",
+                "quote": "Space42, Viasat Agree To Co-found Equatys With $1 Bln Commitment",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "Space42와 합작사 Equatys를 공동 설립하기로 했고, 10억 달러 투자 약속이 붙었다. 위성 사업의 새 성장 동력으로 평가받는다."
+          },
+          {
+            "id": "w2",
+            "statement": "Equatys 설립이 정체된 성장세를 되살릴 수 있는지가 시장의 관심사다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Can the Formation of Equatys Help Revive Viasat's Growth Momentum?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/can-formation-equatys-help-revive-viasats-growth-momentum",
+                "date": "2026-09-14",
+                "quote": "Can the Formation of Equatys Help Revive Viasat's Growth Momentum?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "정부 사업 확대 기대도 있다. Addvalue와의 계약이 정부 부문 매출을 키울 수 있다는 분석이 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Can Viasat's Deal With Addvalue Boost Its Government Business?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/can-viasats-deal-addvalue-boost-its-government-business",
+                "date": "2026-08-27",
+                "quote": "Can Viasat's Deal With Addvalue Boost Its Government Business?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "본업 성장이 정체돼 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC EDGAR 분기 실적 (2026-06-30)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000797721&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "revenue 1156543000, netIncome -51741000, yoy revenue -1.2",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "본업 성장이 정체돼 있다. 6월 분기 매출은 11.6억 달러로 1년 전보다 1.2% 줄었고, 순손실이 5천만 달러대였다."
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "위성통신",
+          "우주·방산"
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reasons": [
+            "구체적 고점가(93달러)와 PER 배수(296배) 수치가 제시된 출처 제목·인용문에 없음"
+          ]
+        },
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "nameKo": "비아샛",
       "nameEn": "VIASAT INC",
@@ -35086,8 +38675,127 @@ window.TEAM2_DATA = {
         "count": 33
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "FTNT",
+        "company": "기업용 네트워크 방화벽과 보안 소프트웨어를 만드는 사이버 보안 회사. 장비와 구독형 보안 서비스를 함께 팔아 돈을 번다.",
+        "lead": "포티넷은 최근 실적이 크게 좋아지면서 6개월 새 주가가 약 2.4배가 됐고, 10월 9일 52주 최고가를 새로 썼다. 6월 분기 매출은 1년 전보다 25.6%, 영업이익은 50.5% 늘었다. 다음 분기에도 이 성장이 이어지는지가 확인되면 이야기가 맞고, 꺾이면 높아진 주가가 부담이 된다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "6월 분기 매출이 1년 전보다 25.6% 늘어난 20.5억 달러였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC EDGAR 분기 실적표 (포티넷 10-Q)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001262039&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "periodEnd 2026-06-30 revenue 2047900000 yoy revenue 25.6",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "6월 분기 매출이 1년 전보다 25.6% 늘어난 20.5억 달러였다. 앞선 분기(14~20% 증가)보다 성장 속도가 빨라졌다."
+          },
+          {
+            "id": "w2",
+            "statement": "영업이익은 6.9억 달러로 1년 전보다 50.5% 늘었고 영업이익률은 33.7%까지 올랐다. 매출보다 이익이 더 빨리 늘었다는 뜻이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC EDGAR 분기 실적표 (포티넷 10-Q)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001262039&type=10-Q",
+                "date": "2026-06-30",
+                "quote": "profit 689300000 margin 33.7 yoy profit 50.5",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "7월 CNBC 보도에 따르면 포티넷이 인텔 파운드리(반도체 위탁생산)의 첫 고객으로 보안 칩 생산을 맡겼다. 자체 칩 공급망에 대한 기대가 더해졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Intel foundry lands key customer for CEO Tan, as Fortinet signs on for security chips",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/07/21/intel-foundry-lands-fortinet-as-first-customer-for-security-chips.html",
+                "date": "2026-07-21",
+                "quote": "Intel foundry lands key customer for CEO Tan, as Fortinet signs on for security chips",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "10월 들어 주가 모멘텀을 높게 평가하는 기사가 이어졌고, 10월 9일에는 52주 최고가를 넘겼다. 상승세가 추가 매수를 부르는 흐름이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Are You Looking for a Top Momentum Pick? Why Fortinet (FTNT) is a Great Choice",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-fortinet-ftnt-great-choice",
+                "date": "2026-10-08",
+                "quote": "Are You Looking for a Top Momentum Pick? Why Fortinet (FTNT) is a Great Choice",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "주가가 이익에 비해 많이 비싸졌다. 주가수익비율(PER)이 약 68.6배이고, 이미 52주 최고가 부근이라 실적이 조금만 기대에 못 미쳐도 하락 폭이 클 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "한국투자증권 Open API 시세",
+                "publisher": "한국투자증권",
+                "url": "https://openapi.koreainvestment.com:9443/",
+                "date": "2026-10-10",
+                "quote": "per 68.62, last 194.75, high52 194.95",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "2025년 12월 분기까지는 순이익이 1년 전보다 줄었고(-3.8%), 최근 두 분기의 큰 반등이 얼마나 이어질지는 아직 두 분기뿐이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SEC EDGAR 분기 실적표 (포티넷 10-Q)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001262039&type=10-Q",
+                "date": "2025-12-31",
+                "quote": "periodEnd 2025-12-31 yoy netIncome -3.8",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "사이버 보안",
+          "AI 인프라"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "nameKo": "포티넷",
       "nameEn": "FORTINET INC",
@@ -35662,7 +39370,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "포럼 에너지 테크놀로지스",
       "nameEn": "FORUM ENERGY TECHNOLOGIES INC",
@@ -36757,7 +40465,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameEn": "Super Micro Computer, Inc.",
       "detail": {
@@ -37215,7 +40923,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "엘라스틱",
       "nameEn": "ELASTIC N V",
@@ -37534,7 +41242,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "페이컴 소프트웨어",
       "nameEn": "PAYCOM SOFTWARE INC",
@@ -39037,7 +42745,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "AXT",
       "nameEn": "AXT INC",
@@ -39335,7 +43043,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "비바 시스템스",
       "nameEn": "VEEVA SYSTEMS INC",
@@ -40104,8 +43812,110 @@ window.TEAM2_DATA = {
         "count": 33
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "NTAP",
+        "company": "기업용 데이터 저장장치와 클라우드 데이터 관리 소프트웨어를 파는 회사. AI 도입으로 데이터 저장 수요가 늘면서 매출 증가세가 가팔라졌다.",
+        "lead": "넷앱이 최근 분기 실적 급증을 계기로 올라 10월 9일 52주 신고가(237.7달러)를 찍었다. 분기 매출이 1년 전보다 29.9% 늘었고 영업이익은 56.6% 늘었다. 이 성장세가 다음 분기에도 이어지는지가 관건이다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "2026년 7월 말 분기 매출이 20.25억 달러로 1년 전보다 29.9% 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "NetApp 분기 실적(SEC 10-Q 기준 정리)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001002047&type=10-Q",
+                "date": "2026-09-02",
+                "quote": "periodEnd 2026-07-31, revenue 2025000000, yoy revenue 29.9",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "2026년 7월 말 분기 매출이 20.25억 달러로 1년 전보다 29.9% 늘었다. 직전 세 분기 증가율(2.8%·4.4%·12.5%)보다 크게 빨라졌다."
+          },
+          {
+            "id": "w2",
+            "statement": "같은 분기 영업이익은 4.84억 달러로 56.6% 늘고 순이익은 60.9% 늘었다. 매출보다 이익이 더 빠르게 커졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "NetApp 분기 실적(SEC 10-Q 기준 정리)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001002047&type=10-Q",
+                "date": "2026-09-02",
+                "quote": "profit 484000000, netIncome 375000000, yoy profit 56.6, netIncome 60.9",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "CEO가 CNBC 인터뷰에서 기록적인 분기였고 흐름이 좋다고 밝혔다. 실적 발표 이후 주가는 계속 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "NetApp CEO George Kurian: We had a record-setting quarter; we see really good momentum",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/video/2026/09/03/netapp-ceo-george-kurian-we-had-a-record-setting-quarter-we-see-really-good-momentum.html",
+                "date": "2026-09-03",
+                "quote": "NetApp CEO George Kurian: We had a record-setting quarter; we see really good momentum",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Why Is NetApp (NTAP) Up 16% Since Last Earnings Report?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/why-netapp-ntap-16-last-earnings-report",
+                "date": "2026-10-02",
+                "quote": "Why Is NetApp (NTAP) Up 16% Since Last Earnings Report?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c2",
+            "statement": "10월 8일에는 시장보다 더 크게 떨어진 날도 있었다. 신고가 직후 변동성이 커진 모습이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "NetApp (NTAP) Falls More Steeply Than Broader Market: What Investors Need to Know",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/netapp-ntap-falls-more-steeply-broader-market-what-investors-need-know-0",
+                "date": "2026-10-08",
+                "quote": "NetApp (NTAP) Falls More Steeply Than Broader Market: What Investors Need to Know",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "AI 인프라",
+          "데이터 저장장치"
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reasons": [
+            "c1: '6개월 상승률이 123%다' — quote에 6개월 수익률 데이터가 없음. quote는 'per 33.47, high52 237.7, high52Date 2026-10-09'만 포함"
+          ],
+          "leadFixed": true
+        },
+        "leadOriginal": "넷앱이 최근 분기 실적 급증을 계기로 올라 10월 9일 52주 신고가(237.7달러)를 찍었다. 분기 매출이 1년 전보다 29.9% 늘었고 영업이익은 56.6% 늘었다. 다만 주가가 6개월 새 두 배 넘게 올라, 이 성장세가 다음 분기에도 이어지는지가 관건이다.",
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "nameKo": "넷앱",
       "nameEn": "NETAPP INC",
@@ -40712,8 +44522,119 @@ window.TEAM2_DATA = {
         "count": 15
       },
       "research": {
-        "status": "pending",
-        "note": "LLM 리서치 대기"
+        "status": "done",
+        "ticker": "TNK",
+        "company": "원유·석유제품을 실어 나르는 탱커선(유조선)을 운영하는 해운사. 운임이 오르면 이익이 크게 늘고 내리면 크게 줄어드는 구조다.",
+        "lead": "TNK는 3개월 새 48% 올라 10월 8일 52주 신고가(107.4달러)를 찍었다. 증권사 투자의견·이익 전망 상향이 이어졌다는 기사가 주된 근거다. 탱커 운임이 꺾이거나 내년 이익 감소 전망이 현실이 되면 이야기가 약해진다.",
+        "whyRose": [
+          {
+            "id": "w1",
+            "statement": "9월 25일 Zacks(투자 분석 매체)가 TNK 등급을 매수로 올렸다. 이익 전망이 오르는 흐름을 반영한 것이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Teekay Tankers (TNK) Upgraded to Buy: Here's What You Should Know",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/teekay-tankers-tnk-upgraded-buy-heres-what-you-should-know",
+                "date": "2026-09-25",
+                "quote": "Teekay Tankers (TNK) Upgraded to Buy: Here's What You Should Know",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "9월 중순 이후 신고가 경신과 증권사 낙관론 기사가 이어졌고, 주가는 10월 8일 52주 고점을 찍었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Teekay Tankers Ltd. (TNK) Hits Fresh High: Is There Still Room to Run?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/teekay-tankers-ltd-tnk-hits-fresh-high-there-still-room-run",
+                "date": "2026-09-14",
+                "quote": "Teekay Tankers Ltd. (TNK) Hits Fresh High: Is There Still Room to Run?",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Is Teekay Tankers (TNK) a Buy as Wall Street Analysts Look Optimistic?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/teekay-tankers-tnk-buy-wall-street-analysts-look-optimistic",
+                "date": "2026-10-01",
+                "quote": "Is Teekay Tankers (TNK) a Buy as Wall Street Analysts Look Optimistic?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "이익 대비 주가가 낮다. 주가수익비율은 6.3배, 주당순이익은 16.97달러다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "한국투자증권 Open API 시세",
+                "publisher": "한국투자증권",
+                "url": "https://openapi.koreainvestment.com:9443/",
+                "date": "2026-10-10",
+                "quote": "per: 6.26, eps: 16.97",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "counterpoint": [
+          {
+            "id": "c1",
+            "statement": "올해 이익은 크게 늘지만 내년은 매출 27% 감소, 주당순이익 39% 감소로 예상돼 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "스크리닝 데이터(재무 전망)",
+                "publisher": "RS 사이트",
+                "url": "https://305rhfueo-ui.github.io/RS_Investment/static/result.json",
+                "date": "2026-10-10",
+                "quote": "saleNy: -27.47, epsNy: -39.35",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "9월 22일에는 주가가 하루 급락한 적이 있어 운임 변동에 따라 등락이 크다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Why Teekay Tankers Stock Dropped Today",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/why-teekay-tankers-stock-dropped-today",
+                "date": "2026-09-22",
+                "quote": "Why Teekay Tankers Stock Dropped Today",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "estimateRevisions": {
+          "direction": "unknown",
+          "claims": []
+        },
+        "themeTags": [
+          "해운·탱커",
+          "에너지 운송"
+        ],
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "researchedOn": "2026-10-10",
+        "carried": false
       },
       "nameKo": "티케이 탱커스",
       "nameEn": "TEEKAY TANKERS LTD (BM)",
@@ -41846,7 +45767,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "마이크론 테크놀로지",
       "nameEn": "MICRON TECHNOLOGY INC",
@@ -43363,7 +47284,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "인사이트 엔터프라이즈",
       "nameEn": "INSIGHT ENTERPRISE INC",
@@ -50083,21 +54004,557 @@ window.TEAM2_DATA = {
       ],
       "researchedOn": "2026-10-09",
       "sanitized": null
-    }
+    },
+    "llm": {
+      "lists": [
+        {
+          "key": "dollar",
+          "commonIndustries": [
+            {
+              "industry": "Software - Infrastructure",
+              "tickers": [
+                "PLTR",
+                "NET",
+                "ZS",
+                "AKAM",
+                "OKTA",
+                "DOCN"
+              ],
+              "why": "AI 투자 확대가 보안·클라우드·데이터 소프트웨어 수요로 이어진다는 기대가 퍼져 있다. 다만 오늘 하루 오른 직접 이유는 기사에서 확인되지 않았다."
+            },
+            {
+              "industry": "REIT - Specialty",
+              "tickers": [
+                "AMT",
+                "CCI",
+                "SBAC"
+              ],
+              "why": "스페이스X가 주파수 대역을 사들이는 계획이 통신탑 사업자에게 호재라는 분석이 나왔다. 세 종목이 같은 날 함께 올랐다."
+            },
+            {
+              "industry": "Biotechnology",
+              "tickers": [
+                "MRNA",
+                "PCVX"
+              ],
+              "why": "두 회사의 상승 이유가 서로 다르다. 같이 오른 공통 원인은 확인되지 않았다."
+            },
+            {
+              "industry": "Software - Application",
+              "tickers": [
+                "SNOW",
+                "DDOG"
+              ],
+              "why": "소프트웨어가 AI에 밀린다는 우려가 과장이었다는 시각이 퍼지며 반등 흐름에 올라탔다. 오늘의 직접 계기는 확인되지 않았다."
+            },
+            {
+              "industry": "Diagnostics & Research",
+              "tickers": [
+                "TWST",
+                "ILMN"
+              ],
+              "why": "이유 확인 안 됨"
+            }
+          ],
+          "themes": [
+            {
+              "name": "스페이스X 주파수 매입, 통신탑 수혜",
+              "plainKo": "스페이스X의 무선 주파수 확보 계획이 통신탑 임대 사업에 도움이 된다는 평가가 나왔다. 그래서 탑 운영사 3종목이 함께 올랐다.",
+              "why": "CNBC는 스페이스X의 무선 사업 진출이 한때 시대에 뒤처졌다고 평가받던 탑 관련주에 호재가 될 수 있다고 보도했다. 번스타인 애널리스트도 주파수 매입 계획이 탑 사업자에게 좋다고 말했다.",
+              "tickers": [
+                "AMT",
+                "CCI",
+                "SBAC"
+              ],
+              "sources": [
+                {
+                  "title": "SpaceX makes big wireless move. These once 'obsolete' tech stocks could benefit",
+                  "publisher": "CNBC",
+                  "url": "https://www.cnbc.com/2026/10/09/spacex-wireless-plans-lifts-tower-stocks.html",
+                  "date": "2026-10-09",
+                  "quote": "SpaceX makes big wireless move. These once 'obsolete' tech stocks could benefit",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "Bernstein's Madison Rezaei: SpaceX plan to buy spectrum portfolio is good for tower operators",
+                  "publisher": "CNBC",
+                  "url": "https://www.cnbc.com/video/2026/10/09/bernsteins-madison-rezaei-spacex-plan-to-buy-spectrum-portfolio-is-good-for-tower-operators.html",
+                  "date": "2026-10-09",
+                  "quote": "Bernstein's Madison Rezaei: SpaceX plan to buy spectrum portfolio is good for tower operators",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "name": "AI 확산 속 소프트웨어 반등",
+              "plainKo": "AI가 소프트웨어를 대체한다는 우려가 줄며 AI 수혜 소프트웨어주로 매수세가 몰렸다. 보안·데이터·클라우드 종목이 함께 올랐다.",
+              "why": "CNBC는 소프트웨어주가 저점 이후 크게 회복했다고 전했고, AI 구축이 아직 초기라는 분석도 나왔다. 팔란티어는 대형 증권사의 긍정 평가가 잇따랐고, 보안·관측 소프트웨어는 AI 시대 수요 확대 시각이 있다.",
+              "tickers": [
+                "PLTR",
+                "SNOW",
+                "DDOG",
+                "NET",
+                "ZS",
+                "OKTA",
+                "AKAM",
+                "DOCN"
+              ],
+              "sources": [
+                {
+                  "title": "Software is up nearly 40% since 'SaaSpocalypse' bottom. Ways to play the sector",
+                  "publisher": "CNBC",
+                  "url": "https://www.cnbc.com/2026/09/03/software-is-up-40percent-since-saaspocalypse-bottom-ways-to-play-the-sector-.html",
+                  "date": "2026-09-03",
+                  "quote": "Software is up nearly 40% since 'SaaSpocalypse' bottom. Ways to play the sector",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "Dan Ives says AI buildout only in 3rd inning. Here are his top 5 plays from here",
+                  "publisher": "CNBC",
+                  "url": "https://www.cnbc.com/2026/10/07/dan-ives-says-ai-buildout-only-in-3rd-inning-here-are-his-top-5-plays-from-here-.html",
+                  "date": "2026-10-07",
+                  "quote": "Dan Ives says AI buildout only in 3rd inning. Here are his top 5 plays from here",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "unexplained": [
+            "BABA",
+            "HUT",
+            "VSAT",
+            "RGEN",
+            "PCVX",
+            "TWST",
+            "ILMN"
+          ],
+          "narrative": "거래대금 상위 20종목 중 소프트웨어가 8종목으로 가장 많다. 통신탑 3종목은 스페이스X의 주파수 매입 계획이라는 같은 호재로 함께 올랐다. 소프트웨어는 AI 수혜 기대와 우려 완화가 배경이지만 오늘의 직접 계기는 확인되지 않았다. 모더나는 암 백신 임상과 나스닥100 편입이 원인이다. 알리바바·허트 8·비아샛·레플리젠·백사이트 등은 오늘 오른 이유가 확인되지 않았다.",
+          "label": "거래대금 상위",
+          "factcheck": {
+            "verdict": "pass",
+            "removed": 0
+          }
+        },
+        {
+          "key": "m1",
+          "commonIndustries": [
+            {
+              "industry": "Software - Infrastructure",
+              "tickers": [
+                "RBRK",
+                "ZS",
+                "OKTA",
+                "QLYS",
+                "TWLO",
+                "CRWD",
+                "SNPS",
+                "PLTR",
+                "FTNT"
+              ],
+              "why": "9종목 중 RBRK·ZS·OKTA·QLYS·CRWD·FTNT가 보안 소프트웨어입니다. AI 시대에 보안·신원관리 수요가 커진다는 기대가 같이 작용한 것으로 보입니다. TWLO·SNPS·PLTR은 보안이 아니라 각자 사정이 달라 이유 확인 안 됨."
+            },
+            {
+              "industry": "Software - Application",
+              "tickers": [
+                "PTC",
+                "TTAN",
+                "SHOP",
+                "DDOG"
+              ],
+              "why": "PTC는 인수 소식이 원인이고 나머지는 공통된 이유를 확인하지 못했습니다. 이유 확인 안 됨."
+            },
+            {
+              "industry": "Diagnostics & Research",
+              "tickers": [
+                "GRAL",
+                "ILMN",
+                "TWST"
+              ],
+              "why": "GRAL·ILMN은 유전체 기반 진단·분석 업체지만 같이 오른 공통 이유는 확인되지 않았습니다. 이유 확인 안 됨."
+            },
+            {
+              "industry": "Semiconductors",
+              "tickers": [
+                "IMOS",
+                "CRDO",
+                "MXL"
+              ],
+              "why": "CRDO와 MXL은 AI 데이터센터용 연결 반도체 수요와 맞닿아 있습니다. IMOS는 메모리 후공정 수요가 배경입니다."
+            },
+            {
+              "industry": "Biotechnology",
+              "tickers": [
+                "MRNA",
+                "MANE"
+              ],
+              "why": "MRNA는 암 백신 임상 성공과 나스닥100 편입이 원인입니다. MANE은 이유 확인 안 됨."
+            }
+          ],
+          "themes": [
+            {
+              "name": "AI 시대 사이버 보안 수요",
+              "plainKo": "보안·신원관리 소프트웨어 종목들이 AI 확산에 따른 보안 수요 기대로 함께 올랐습니다. 회사들이 AI 보안을 새 성장 분야로 내세우고 있습니다.",
+              "why": "ZS는 투자자의 날에 AI 보안 성장 경로를 제시했습니다. OKTA는 AI 에이전트 신원 관리를 새 성장 분야로 내세웠고, CRWD는 금요일 크게 올랐습니다.",
+              "tickers": [
+                "ZS",
+                "OKTA",
+                "CRWD",
+                "RBRK",
+                "QLYS",
+                "FTNT"
+              ],
+              "sources": [
+                {
+                  "title": "Zscaler Investor Day Maps AI Security Path to $8B ARR, With $10B Upside",
+                  "publisher": "MarketBeat",
+                  "url": "https://www.nasdaq.com/articles/zscaler-investor-day-maps-ai-security-path-8b-arr-10b-upside",
+                  "date": "2026-10-06",
+                  "quote": "Zscaler Investor Day Maps AI Security Path to $8B ARR, With $10B Upside",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "WhyCrowdstrike Holdings Stock Crushed it on Friday",
+                  "publisher": "The Motley Fool",
+                  "url": "https://www.nasdaq.com/articles/why-crowdstrike-holdings-stock-crushed-it-friday",
+                  "date": "2026-10-09",
+                  "quote": "Why CrowdStrike Holdings Stock Crushed it on Friday",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "name": "AI 데이터센터 인프라 증설",
+              "plainKo": "AI 서버·광통신·연결 칩 업체들이 AI 인프라 투자 확대 기대로 함께 올랐습니다.",
+              "why": "PENG는 AI 인프라 성장 가속이 실적 발표에서 확인됐습니다. CRDO는 리타이머 사업이 힘을 얻고 있고, CIEN은 고속 광통신 계약 소식이 나왔습니다.",
+              "tickers": [
+                "PENG",
+                "CRDO",
+                "CIEN"
+              ],
+              "sources": [
+                {
+                  "title": "PENG Q4 Earnings Call Signals Faster AI Infrastructure Growth",
+                  "publisher": "Zacks",
+                  "url": "https://www.nasdaq.com/articles/peng-q4-earnings-call-signals-faster-ai-infrastructure-growth",
+                  "date": "2026-10-07",
+                  "quote": "PENG Q4 Earnings Call Signals Faster AI Infrastructure Growth",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "CRDO's Retimer Business Gains Steam: Can the Momentum Continue?",
+                  "publisher": "Zacks",
+                  "url": "https://www.nasdaq.com/articles/crdos-retimer-business-gains-steam-can-momentum-continue",
+                  "date": "2026-10-08",
+                  "quote": "CRDO's Retimer Business Gains Steam: Can the Momentum Continue?",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "Ciena's Openreach Deal: Can 1.6Tb/s Technology Drive Its Growth?",
+                  "publisher": "Zacks",
+                  "url": "https://www.nasdaq.com/articles/cienas-openreach-deal-can-16tb-s-technology-drive-its-growth",
+                  "date": "2026-10-09",
+                  "quote": "Ciena's Openreach Deal: Can 1.6Tb/s Technology Drive Its Growth?",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "unexplained": [
+            "JDZG",
+            "XMTR",
+            "TWST",
+            "MANE",
+            "TWLO",
+            "DDOG",
+            "SHOP",
+            "TTAN",
+            "FPS"
+          ],
+          "narrative": "이번 달 강한 28종목은 소프트웨어에 가장 많이 몰렸고, 그중 보안 종목이 중심입니다. AI가 퍼질수록 보안과 신원관리 수요가 커진다는 기대가 ZS·OKTA·CRWD 등을 함께 끌어올린 것으로 보입니다. 별도로 AI 서버·광통신·연결 칩 쪽도 인프라 투자 확대 기대로 올랐습니다. PTC는 인수 소식, MRNA는 암 백신 임상과 지수 편입처럼 개별 사건이 원인입니다. AI 투자 흐름이 이어지는지는 다음 실적 발표에서 이 업체들의 수주·성장 전망이 유지되는지로 확인할 수 있습니다.",
+          "label": "RS(1MO)",
+          "factcheck": {
+            "verdict": "pass",
+            "removed": 0
+          }
+        },
+        {
+          "key": "m3",
+          "commonIndustries": [
+            {
+              "industry": "Software - Application",
+              "tickers": [
+                "TEAM",
+                "MSTR",
+                "ESTC",
+                "PAYC",
+                "PTC"
+              ],
+              "why": "이유 확인 안 됨. 종목마다 계기가 달라(PTC는 인수 발표, MSTR은 비트코인 매수 재개, TEAM은 실적 개선) 업종 공통 원인은 확인되지 않았다."
+            },
+            {
+              "industry": "Software - Infrastructure",
+              "tickers": [
+                "ZS",
+                "OKTA",
+                "RBRK",
+                "PLTR",
+                "NTAP"
+              ],
+              "why": "ZS·OKTA·RBRK는 보안 소프트웨어로 실적 발표 뒤 매출 성장과 AI 보안 수요가 부각됐다. PLTR은 AI 수혜 기대와 증권사 호평이 이어졌다."
+            },
+            {
+              "industry": "Diagnostics & Research",
+              "tickers": [
+                "GRAL",
+                "TWST",
+                "NTRA"
+              ],
+              "why": "이유 확인 안 됨. GRAL은 암 조기진단 임상 데이터, TWST는 연간 전망 상향으로 계기가 서로 다르다."
+            },
+            {
+              "industry": "Computer Hardware",
+              "tickers": [
+                "P",
+                "SMCIP"
+              ],
+              "why": "P는 AI 데이터 처리용 스토리지 수요로 매출이 늘고 있다. SMCIP는 오른 이유를 확인하지 못했다."
+            }
+          ],
+          "themes": [
+            {
+              "name": "실적 호조를 낸 클라우드 보안 소프트웨어",
+              "plainKo": "지스케일러·옥타·루브릭은 모두 보안 소프트웨어이고, 실적 발표 뒤 매출 성장이 확인되며 같이 올랐다. AI 시대에 보안 수요가 커진다는 기대도 겹쳤다.",
+              "why": "ZS는 투자자 설명회에서 AI 보안 성장 계획을 내놓았다. OKTA는 AI 에이전트 신원 관리를 새 성장 분야로 제시했고, RBRK는 실적 뒤 목표주가가 오르며 한 주 더 상승했다.",
+              "tickers": [
+                "ZS",
+                "OKTA",
+                "RBRK"
+              ],
+              "sources": [
+                {
+                  "title": "Zscaler Investor Day Maps AI Security Path to $8B ARR, With $10B Upside",
+                  "publisher": "Nasdaq",
+                  "url": "https://www.nasdaq.com/articles/zscaler-investor-day-maps-ai-security-path-8b-arr-10b-upside",
+                  "date": "2026-10-06",
+                  "quote": "Zscaler Investor Day Maps AI Security Path to $8B ARR, With $10B Upside",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "Why Shares of Rubrik Stock Rallied This Week",
+                  "publisher": "Nasdaq",
+                  "url": "https://www.nasdaq.com/articles/why-shares-rubrik-stock-rallied-week",
+                  "date": "2026-09-18",
+                  "quote": "Why Shares of Rubrik Stock Rallied This Week",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "Why the Market Dipped But Okta (OKTA) Gained Today",
+                  "publisher": "Nasdaq",
+                  "url": "https://www.nasdaq.com/articles/why-market-dipped-okta-okta-gained-today",
+                  "date": "2026-10-08",
+                  "quote": "Why the Market Dipped But Okta (OKTA) Gained Today",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "name": "유조선 운임 급등과 정유 호황",
+              "plainKo": "유조선 운임이 높게 유지되면서 유조선 선사와 정유사가 함께 강하다. 원유 운송과 정제 모두 이익이 크게 늘었다.",
+              "why": "ECO는 대형 유조선 운임이 높아 실적 기대가 커졌다. TNK도 투자의견이 상향됐고, MPC는 정유주가 사상 최고가를 찍은 흐름 속에 있다.",
+              "tickers": [
+                "ECO",
+                "TNK",
+                "MPC"
+              ],
+              "sources": [
+                {
+                  "title": "The hottest trade of the year so far isn't AI. It's tanker stocks",
+                  "publisher": "CNBC",
+                  "url": "https://www.cnbc.com/2026/09/30/the-hottest-trade-of-the-year-so-far-isnt-ai-its-tanker-stocks.html",
+                  "date": "2026-09-30",
+                  "quote": "The hottest trade of the year so far isn't AI. It's tanker stocks",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "What's next for oil refiners after an unprecedented run to all-time highs",
+                  "publisher": "CNBC",
+                  "url": "https://www.cnbc.com/2026/09/14/whats-next-for-oil-refiners-after-an-unprecedented-run-to-all-time-highs.html",
+                  "date": "2026-09-14",
+                  "quote": "What's next for oil refiners after an unprecedented run to all-time highs",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "unexplained": [
+            "SMCIP",
+            "AXTI",
+            "SMTC",
+            "VEEV",
+            "FET",
+            "VEON"
+          ],
+          "narrative": "이번 목록은 소프트웨어에 10종목이 몰려 있고, 그중 보안 소프트웨어가 실적 호조로 눈에 띈다. 유조선·정유주도 운임과 정제 호황으로 함께 강하다. 모더나, PTC 같은 종목은 개별 호재(임상 성공, 인수 발표)로 올라 업종 흐름과는 별개다. 보안주는 다음 실적에서 매출 성장이 이어지는지, 유조선은 운임이 유지되는지가 확인되면 이 흐름이 맞다고 볼 수 있다.",
+          "label": "RS(3MO)",
+          "factcheck": {
+            "verdict": "partial",
+            "removed": 1
+          }
+        },
+        {
+          "key": "m6",
+          "commonIndustries": [
+            {
+              "industry": "Software - Infrastructure",
+              "tickers": [
+                "OKTA",
+                "CRWD",
+                "QLYS",
+                "PANW",
+                "FTNT",
+                "RBRK",
+                "NTAP",
+                "BAND"
+              ],
+              "why": "이 중 OKTA·CRWD·QLYS·PANW·FTNT·RBRK는 보안 소프트웨어로, AI 에이전트가 늘수록 보안 수요가 커진다는 기대와 호실적이 겹쳤습니다. NTAP·BAND는 보안이 아니라 각각 데이터 저장과 AI 통신 쪽 이유가 따로 있습니다."
+            },
+            {
+              "industry": "Software - Application",
+              "tickers": [
+                "TEAM",
+                "SNOW",
+                "DDOG",
+                "FROG"
+              ],
+              "why": "AI가 소프트웨어를 대체할 것이라는 우려가 과했다는 인식이 퍼지며 소프트웨어주가 함께 반등했습니다. 각 사의 AI 관련 제품과 실적 개선도 뒷받침했습니다."
+            },
+            {
+              "industry": "Semiconductors",
+              "tickers": [
+                "MXL",
+                "MU",
+                "AMD"
+              ],
+              "why": "AI 데이터센터용 광통신·메모리·AI 칩 수요가 커진다는 기대가 공통 배경입니다."
+            },
+            {
+              "industry": "Biotechnology",
+              "tickers": [
+                "MRNA",
+                "CORT"
+              ],
+              "why": "이유 확인 안 됨. 모더나는 암 백신 임상 성공과 나스닥100 편입, 코셉트는 난소암 신약의 유럽 긍정 의견으로 서로 다른 재료입니다."
+            },
+            {
+              "industry": "Computer Hardware",
+              "tickers": [
+                "DELL",
+                "P"
+              ],
+              "why": "두 회사 모두 AI 데이터센터용 서버와 저장장치 수요 증가로 매출이 늘고 있습니다."
+            },
+            {
+              "industry": "Diagnostics & Research",
+              "tickers": [
+                "GRAL",
+                "TWST"
+              ],
+              "why": "이유 확인 안 됨. 그레일은 암 조기진단 임상 기대, 트위스트는 연간 전망 상향으로 재료가 다릅니다."
+            }
+          ],
+          "themes": [
+            {
+              "name": "소프트웨어 종말론 우려 완화와 반등",
+              "plainKo": "AI가 소프트웨어 회사를 위협한다는 우려가 과했다는 시각이 퍼지며 응용 소프트웨어주가 함께 올랐습니다.",
+              "why": "DDOG는 AI 확산으로 감시 소프트웨어 수요가 늘고 과금 구조도 유리하다는 평가를 받았습니다. TEAM·SNOW·FROG도 같은 소프트웨어 반등 국면에서 언급됩니다.",
+              "tickers": [
+                "TEAM",
+                "SNOW",
+                "DDOG",
+                "FROG"
+              ],
+              "sources": [
+                {
+                  "title": "Software is up nearly 40% since 'SaaSpocalypse' bottom. Ways to play the sector",
+                  "publisher": "CNBC",
+                  "url": "https://www.cnbc.com/2026/09/03/software-is-up-40percent-since-saaspocalypse-bottom-ways-to-play-the-sector-.html",
+                  "date": "2026-09-03",
+                  "quote": "Software is up nearly 40% since 'SaaSpocalypse' bottom. Ways to play the sector",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "unexplained": [
+            "NSIT",
+            "XMTR"
+          ],
+          "narrative": "이 목록은 소프트웨어(보안·응용)와 AI 데이터센터 하드웨어에 크게 몰려 있습니다. 공통 원인은 AI 확산이 보안 수요와 서버·메모리 투자를 키운다는 기대와, 소프트웨어 종말론 우려가 완화된 흐름입니다. 모더나·코셉트·그레일 같은 바이오는 종목마다 재료가 달라 하나로 묶기 어렵습니다. 이 흐름은 AI 서버 주문과 보안 구독 매출이 다음 실적에서도 이어지는지로 확인할 수 있습니다.",
+          "label": "RS(6MO)",
+          "factcheck": {
+            "verdict": "partial",
+            "removed": 2
+          }
+        },
+        {
+          "key": "all",
+          "commonIndustries": [
+            {
+              "industry": "Software - Infrastructure",
+              "tickers": [
+                "OKTA",
+                "RBRK"
+              ],
+              "why": "두 종목 모두 기업 보안 소프트웨어이고, 각자 실적과 성장 전망이 좋아 올랐다. 옥타는 AI 에이전트 신원 관리, 루브릭은 랜섬웨어 대응 데이터 복구가 성장 동력이다."
+            },
+            {
+              "industry": "Diagnostics & Research",
+              "tickers": [
+                "GRAL",
+                "TWST"
+              ],
+              "why": "같은 이유로 오른 근거는 확인되지 않는다. 그레일은 암 조기진단 임상 데이터, 트위스트는 연간 전망 상향이 각각의 이유다."
+            }
+          ],
+          "themes": [],
+          "unexplained": [],
+          "narrative": "6종목이 1·3·6개월 모두 최상위권이지만 한 가지 이유로 묶이지는 않는다. 보안 소프트웨어 2종목(OKTA, RBRK)과 진단·연구 2종목(GRAL, TWST)이 같은 업종으로 모였으나, 각자 실적이나 임상 같은 개별 재료로 올랐다. MRNA는 암 백신 임상 성공과 나스닥100 편입 기대, P는 AI 수요에 따른 스토리지 매출 성장이 이유다. 업종을 넘는 공통 테마는 확인되지 않았고, 종목별 재료가 이어지는지 다음 실적과 임상 소식에서 확인해야 한다.",
+          "label": "RS(1~6MO)"
+        }
+      ],
+      "researchedOn": "2026-10-10",
+      "sanitized": null
+    },
+    "reusedFrom": null
   },
   "fs_coverage": {
     "have": 35,
     "total": 35
   },
   "research_coverage": {
-    "done": 38,
+    "done": 55,
     "total": 68,
     "cap": 20,
-    "pending": 30,
+    "pending": 13,
     "failed": 0,
-    "carried": 38,
+    "carried": 35,
     "ineligible": 0,
-    "note": "68종목 중 38종목을 조사했습니다. 그중 38종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 30종목은 상한(20) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다. 2팀 선정 종목과 5개 목록 종목을 함께 순환 조사합니다(거래대금 상위·세 기간 공통 먼저)."
+    "note": "68종목 중 55종목을 조사했습니다. 그중 35종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 13종목은 상한(20) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
   },
   "detail_coverage": {
     "done": 63,

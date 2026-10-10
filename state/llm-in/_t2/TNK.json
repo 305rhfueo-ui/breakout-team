@@ -1,0 +1,199 @@
+{
+ "ticker": "TNK",
+ "sector": "Energy",
+ "industry": "Oil & Gas Midstream",
+ "nameKo": "티케이 탱커스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 104.81,
+  "saleNy": -27.47,
+  "epsCy": 158.21,
+  "epsNy": -39.35,
+  "est": {
+   "cyCur": 17.97134,
+   "cy30": 17.96734,
+   "nyCur": 10.89993,
+   "ny30": 10.89793
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    62.97,
+    23.51,
+    -0.03
+   ],
+   "ni": [
+    260.8,
+    101.96,
+    46.69
+   ],
+   "opm": [
+    58.49,
+    51.62,
+    42.71
+   ],
+   "updated": "2026-09-08 06:35:58"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-10-08",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 2,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-09",
+  "nameKo": "티케이 탱커스",
+  "nameEn": "TEEKAY TANKERS LTD (BM)",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001419945&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2021-12-31",
+     "derived": true,
+     "revenue": 160308000,
+     "profit": -21324000,
+     "netIncome": -39808000,
+     "margin": -13.3,
+     "yoy": {
+      "revenue": 25.4,
+      "profit": 49.6,
+      "netIncome": 45.7,
+      "priorEnd": "2020-12-31"
+     }
+    },
+    {
+     "periodEnd": "2021-09-30",
+     "derived": false,
+     "revenue": 115890000,
+     "profit": -41494000,
+     "netIncome": -52055000,
+     "margin": -35.8,
+     "yoy": {
+      "revenue": -31.9,
+      "profit": -42.1,
+      "netIncome": -17.2,
+      "priorEnd": "2020-09-30"
+     }
+    },
+    {
+     "periodEnd": "2021-06-30",
+     "derived": false,
+     "revenue": 123420000,
+     "profit": -119434000,
+     "netIncome": -129144000,
+     "margin": -96.8,
+     "yoy": {
+      "revenue": -49.9,
+      "profit": -228.4,
+      "netIncome": -231.5,
+      "priorEnd": "2020-06-30"
+     }
+    },
+    {
+     "periodEnd": "2020-12-31",
+     "derived": true,
+     "revenue": 127802000,
+     "profit": -42346000,
+     "netIncome": -73286000,
+     "margin": -33.1,
+     "yoy": {
+      "revenue": -58.9,
+      "profit": -146.2,
+      "netIncome": -216.2,
+      "priorEnd": "2019-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Is Teekay Tankers (TNK) a Buy as Wall Street Analysts Look Optimistic?",
+     "url": "https://www.nasdaq.com/articles/teekay-tankers-tnk-buy-wall-street-analysts-look-optimistic",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Teekay Tankers (TNK) Upgraded to Buy: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/teekay-tankers-tnk-upgraded-buy-heres-what-you-should-know",
+     "date": "2026-09-25",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Teekay Tankers Stock Dropped Today",
+     "url": "https://www.nasdaq.com/articles/why-teekay-tankers-stock-dropped-today",
+     "date": "2026-09-22",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Brokers Suggest Investing in Teekay Tankers (TNK): Read This Before Placing a Bet",
+     "url": "https://www.nasdaq.com/articles/brokers-suggest-investing-teekay-tankers-tnk-read-placing-bet",
+     "date": "2026-09-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Teekay Tankers Ltd. (TNK) Hits Fresh High: Is There Still Room to Run?",
+     "url": "https://www.nasdaq.com/articles/teekay-tankers-ltd-tnk-hits-fresh-high-there-still-room-run",
+     "date": "2026-09-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Investors Undervaluing TEEKAY TANK LTD (TNK) Right Now?",
+     "url": "https://www.nasdaq.com/articles/are-investors-undervaluing-teekay-tank-ltd-tnk-right-now-0",
+     "date": "2026-08-31",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Teekay Tankers (TNK) Recently Broke Out Above the 20-Day Moving Average",
+     "url": "https://www.nasdaq.com/articles/teekay-tankers-tnk-recently-broke-out-above-20-day-moving-average",
+     "date": "2026-08-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Teekay Tankers (TNK) Is Up 6.92% in One Week: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/teekay-tankers-tnk-692-one-week-what-you-should-know",
+     "date": "2026-08-27",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "TNK",
+  "fetchedAt": "2026-10-10",
+  "source": "한국투자증권 Open API",
+  "per": 6.26,
+  "pbr": 1.55,
+  "eps": 16.97,
+  "bps": 68.51,
+  "shares": 30054115,
+  "marketCapM": 3190,
+  "high52": 107.385,
+  "high52Date": "2026-10-08",
+  "low52": 45.929,
+  "low52Date": "2025-10-14",
+  "last": 106.14,
+  "prevClose": 106.62,
+  "nameKo": "티케이 탱커스",
+  "nameEn": "TEEKAY TANKERS LTD (BM)",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 30054115
+ }
+}

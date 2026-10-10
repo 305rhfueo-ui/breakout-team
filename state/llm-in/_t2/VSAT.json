@@ -1,0 +1,257 @@
+{
+ "ticker": "VSAT",
+ "sector": "Technology",
+ "industry": "Communication Equipment",
+ "nameKo": "비아샛",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.53,
+  "saleNy": 4.59,
+  "epsCy": -90.87,
+  "epsNy": 77.31,
+  "est": {
+   "cyCur": 0.094,
+   "cy30": 0.094,
+   "nyCur": 0.16667,
+   "ny30": 0.40333
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -1.24,
+    2.11,
+    2.96
+   ],
+   "ni": [
+    "적자축소",
+    "흑자전환",
+    "흑자전환"
+   ],
+   "opm": [
+    4.09,
+    -0.05,
+    2.27
+   ],
+   "updated": "2026-09-16 06:11:56"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-10",
+  "nameKo": "비아샛",
+  "nameEn": "VIASAT INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000797721&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1156543000,
+     "profit": 47308000,
+     "netIncome": -51741000,
+     "margin": 4.1,
+     "yoy": {
+      "revenue": -1.2,
+      "profit": 1.4,
+      "netIncome": 8.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": true,
+     "revenue": 1171288000,
+     "profit": -624000,
+     "netIncome": 58824000,
+     "margin": -0.1,
+     "yoy": {
+      "revenue": 2.1,
+      "profit": 99.6,
+      "netIncome": 123.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 1157045000,
+     "profit": 26302000,
+     "netIncome": 24968000,
+     "margin": 2.3,
+     "yoy": {
+      "revenue": 3,
+      "profit": 23.8,
+      "netIncome": 115.8,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1140893000,
+     "profit": 35775000,
+     "netIncome": -61444000,
+     "margin": 3.1,
+     "yoy": {
+      "revenue": 1.7,
+      "profit": 245,
+      "netIncome": 55.3,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Can the Formation of Equatys Help Revive Viasat's Growth Momentum?",
+     "url": "https://www.nasdaq.com/articles/can-formation-equatys-help-revive-viasats-growth-momentum",
+     "date": "2026-09-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Space42, Viasat Agree To Co-found Equatys With $1 Bln Commitment",
+     "url": "https://www.nasdaq.com/articles/space42-viasat-agree-co-found-equatys-1-bln-commitment",
+     "date": "2026-09-14",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "ViaSat (VSAT) Down 13.7% Since Last Earnings Report: Can It Rebound?",
+     "url": "https://www.nasdaq.com/articles/viasat-vsat-down-137-last-earnings-report-can-it-rebound",
+     "date": "2026-09-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can Viasat's Deal With Addvalue Boost Its Government Business?",
+     "url": "https://www.nasdaq.com/articles/can-viasats-deal-addvalue-boost-its-government-business",
+     "date": "2026-08-27",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-04",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526383834/d156314d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526332896/d131434d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526245304/d133220d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "중요 계약 체결",
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526210427/d108013d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526039528/d39970d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-26",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526022564/d232462d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-01-22",
+     "broker": "유진투자증권",
+     "analyst": "정의훈",
+     "title": "[비아샛 (NAS:VSAT)] 고용량 GEO 위성·항공·고정 브로드밴드 사업자",
+     "summary": "- 1986년 미국에서 설립된 위성통신·네트워크 장비 기업으로, 고용량 GEO 위성 설계·제조와 지상 게이트웨이·모뎀 장비, 고정·항공·정부용 브로드밴 드 서비스를 제공함- ViaSat-2/3 등 Ka밴드 고용량 GEO 위성과 지상 인프라, 그리고 Inmarsat 인수를 통해 확보한 GX 플릿을 기반으로, 가정·기업·항공기·선박·정부용 고속 인터넷 서비스 및 단말·모뎀 제품 라인업 운영- 항공기 기내 인터넷, 군·정부용 전술 통신, 지상 게이트웨이·단말 장비 판매 등에서 높은 부가가치를 창출하며, Inmarsat과의 통합으로 글로벌 커버 리지·용량·고객 기반 확대를 추진 중",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxmcxqlzgxmgkggcgxecec.pdf"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Viasat CEO Mark Dankberg on America’s Spirit of Reinvention",
+   "url": "https://www.cnbc.com/video/2026/07/07/viasat-ceo-mark-dankberg-on-americas-spirit-of-reinvention.html",
+   "date": "2026-07-07",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "VSAT",
+  "fetchedAt": "2026-10-10",
+  "source": "한국투자증권 Open API",
+  "per": 295.85,
+  "pbr": 2.14,
+  "eps": 0.24,
+  "bps": 33.68,
+  "shares": 137756000,
+  "marketCapM": 9920,
+  "high52": 93.0299,
+  "high52Date": "2026-07-01",
+  "low52": 29.13,
+  "low52Date": "2025-11-21",
+  "last": 72.01,
+  "prevClose": 67.41,
+  "nameKo": "비아샛",
+  "nameEn": "VIASAT INC",
+  "listedOn": "0000-00-00",
+  "exchange": "나스닥",
+  "listedShares": 137756000
+ }
+}

@@ -1,0 +1,447 @@
+{
+ "ticker": "ILMN",
+ "date": "2026-10-10",
+ "session": "2026-10-09",
+ "source": "list",
+ "plan": {
+  "ticker": "ILMN",
+  "name": "일루미나",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
+  "price": 278.1700134277344,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 5.81,
+  "extensionAdr": 0.29,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.3473965489932784,
+    "pct": 99.18555240793201
+   },
+   "m3": {
+    "v": 0.462128848503203,
+    "pct": 97.83994334277621
+   },
+   "m6": {
+    "v": 1.093707753649229,
+    "pct": 97.91076487252126
+   }
+  },
+  "ret1m": 34.74,
+  "ret3m": 46.21,
+  "ret6m": 109.37,
+  "marketCap": "42.00B",
+  "volx": 0.46,
+  "volSurgeWk": 0.54,
+  "high52": 89.92,
+  "newHigh52": false,
+  "adr": 5.81,
+  "div50": 22.59,
+  "div200": 67.3,
+  "targetStatus": false,
+  "saleCy": 6.48,
+  "saleNy": 6.46,
+  "epsCy": 10.69,
+  "epsNy": 14.2,
+  "cyTrend": 0.04,
+  "nyTrend": 0.22,
+  "est": {
+   "cyCur": 5.35735,
+   "cy30": 5.35526,
+   "nyCur": 6.11835,
+   "ny30": 6.10491
+  },
+  "fs": {
+   "sale": [
+    9.44,
+    4.8,
+    4.98
+   ],
+   "ni": [
+    -11.91,
+    2.29,
+    79.57
+   ],
+   "opm": [
+    21.14,
+    19.16,
+    17.43
+   ],
+   "updated": "2026-09-08 08:05:37"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-10-05",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 5,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-10",
+  "nameKo": "일루미나",
+  "nameEn": "ILLUMINA INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001110803&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-28",
+     "derived": false,
+     "revenue": 1159000000,
+     "profit": 245000000,
+     "netIncome": 207000000,
+     "margin": 21.1,
+     "yoy": {
+      "revenue": 9.4,
+      "profit": 14.5,
+      "netIncome": -11.9,
+      "priorEnd": "2025-06-29"
+     }
+    },
+    {
+     "periodEnd": "2026-03-29",
+     "derived": false,
+     "revenue": 1091000000,
+     "profit": 209000000,
+     "netIncome": 134000000,
+     "margin": 19.2,
+     "yoy": {
+      "revenue": 4.8,
+      "profit": 27.4,
+      "netIncome": 2.3,
+      "priorEnd": "2025-03-30"
+     }
+    },
+    {
+     "periodEnd": "2025-12-28",
+     "derived": true,
+     "revenue": 1159000000,
+     "profit": 201000000,
+     "netIncome": 334000000,
+     "margin": 17.3,
+     "yoy": {
+      "revenue": 5,
+      "profit": 14.9,
+      "netIncome": 79.6,
+      "priorEnd": "2024-12-29"
+     }
+    },
+    {
+     "periodEnd": "2025-09-28",
+     "derived": false,
+     "revenue": 1084000000,
+     "profit": 227000000,
+     "netIncome": 150000000,
+     "margin": 20.9,
+     "yoy": {
+      "revenue": 0.4,
+      "profit": -69.4,
+      "netIncome": -78.7,
+      "priorEnd": "2024-09-29"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Where Will Illumina Stock Be in 5 Years If Its AI Bet Pays Off?",
+     "url": "https://www.nasdaq.com/articles/where-will-illumina-stock-be-5-years-if-its-ai-bet-pays",
+     "date": "2026-09-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "REGN or ILMN: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/regn-or-ilmn-which-better-value-stock-right-now-0",
+     "date": "2026-09-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is the Options Market Predicting a Spike in Illumina Stock?",
+     "url": "https://www.nasdaq.com/articles/options-market-predicting-spike-illumina-stock",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Illumina (ILMN) is a Top-Ranked Momentum Stock: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/illumina-ilmn-top-ranked-momentum-stock-should-you-buy",
+     "date": "2026-09-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "UBS Upgrades Illumina to Buy from Neutral",
+     "url": "https://www.nasdaq.com/articles/ubs-upgrades-illumina-buy-neutral",
+     "date": "2026-09-09",
+     "publisher": "Fintel"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-17",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1110803/000119312526354010/d51146d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-13",
+    "itemsKo": [
+     "중요 계약 체결",
+     "1.02",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1110803/000095015726000888/form8-k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-12",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1110803/000119312526345802/d141344d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-07",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000168/ilmn-20260807.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000155/ilmn-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-23",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000138/ilmn-20260616.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "cnbc": [
+  {
+   "title": "There's a biotech stock on Josh Brown's list that's ignoring the market noise",
+   "url": "https://www.cnbc.com/2026/09/17/theres-a-biotech-stock-on-josh-browns-list-thats-ignoring-the-market-noise-and-pushing-higher.html",
+   "date": "2026-09-17",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Wednesday's biggest analyst calls: Nvidia, Tesla, Dell, Affirm, Teva, Robinhood",
+   "url": "https://www.cnbc.com/2026/09/09/wednesday-big-analyst-calls-include-nvidia-tesla-dell-first-solar.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Illumina’s Jacob Thaysen on Q2 earnings: 'We’ve seen tremendous growth in clinical part of business'",
+   "url": "https://www.cnbc.com/video/2026/07/31/illuminaas-jacob-thaysen-on-q2-earnings-weave-seen-tremendous-growth-in-clinical-part-of-business.html",
+   "date": "2026-07-31",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Watch CNBC's full interview with Illumina CEO Jacob Thaysen",
+   "url": "https://www.cnbc.com/video/2026/07/31/watch-cnbcs-full-interview-with-illumina-ceo-jacob-thaysen.html",
+   "date": "2026-07-31",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "ILMN",
+  "fetchedAt": "2026-10-10",
+  "source": "한국투자증권 Open API",
+  "per": 51.84,
+  "pbr": 14.8,
+  "eps": 5.37,
+  "bps": 18.79,
+  "shares": 151000000,
+  "marketCapM": 42004,
+  "high52": 309.345,
+  "high52Date": "2026-10-06",
+  "low52": 88,
+  "low52Date": "2025-10-14",
+  "last": 278.17,
+  "prevClose": 264.57,
+  "nameKo": "일루미나",
+  "nameEn": "ILLUMINA INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 151000000
+ },
+ "chart": {
+  "lastBar": "2026-10-09",
+  "numbers": {
+   "price": 278.17,
+   "ma20": 258.19,
+   "ma50": 226.92,
+   "ma150": 176.79,
+   "distMA50": 22.59,
+   "periodHigh": 309.35,
+   "pullbackFromHigh": -10.08,
+   "volRatio20": 0.42,
+   "dryUpRatio": 0.73
+  },
+  "last10": [
+   {
+    "d": "2026-09-28",
+    "o": 265.95,
+    "h": 275.69,
+    "l": 262.89,
+    "c": 271.9,
+    "v": 2979300,
+    "clsPos": 70,
+    "gapPct": -1.5
+   },
+   {
+    "d": "2026-09-29",
+    "o": 273.1,
+    "h": 278.99,
+    "l": 267,
+    "c": 272,
+    "v": 2229200,
+    "clsPos": 42,
+    "gapPct": 0.44
+   },
+   {
+    "d": "2026-09-30",
+    "o": 272.71,
+    "h": 280.17,
+    "l": 270.3,
+    "c": 273.68,
+    "v": 2939100,
+    "clsPos": 34,
+    "gapPct": 0.26
+   },
+   {
+    "d": "2026-10-01",
+    "o": 273.22,
+    "h": 274.03,
+    "l": 264.79,
+    "c": 265.72,
+    "v": 1950600,
+    "clsPos": 10,
+    "gapPct": -0.17
+   },
+   {
+    "d": "2026-10-02",
+    "o": 265.91,
+    "h": 274.97,
+    "l": 265.39,
+    "c": 273.04,
+    "v": 2835800,
+    "clsPos": 80,
+    "gapPct": 0.07
+   },
+   {
+    "d": "2026-10-05",
+    "o": 273,
+    "h": 296.25,
+    "l": 271.61,
+    "c": 293.69,
+    "v": 4222200,
+    "clsPos": 90,
+    "gapPct": -0.01
+   },
+   {
+    "d": "2026-10-06",
+    "o": 301.58,
+    "h": 309.35,
+    "l": 271.55,
+    "c": 273.54,
+    "v": 4380500,
+    "clsPos": 5,
+    "gapPct": 2.69
+   },
+   {
+    "d": "2026-10-07",
+    "o": 271.21,
+    "h": 276.2,
+    "l": 260.45,
+    "c": 267.76,
+    "v": 2949200,
+    "clsPos": 46,
+    "gapPct": -0.85
+   },
+   {
+    "d": "2026-10-08",
+    "o": 263.69,
+    "h": 266.14,
+    "l": 254,
+    "c": 264.57,
+    "v": 3169700,
+    "clsPos": 87,
+    "gapPct": -1.52
+   },
+   {
+    "d": "2026-10-09",
+    "o": 268.21,
+    "h": 278.59,
+    "l": 265.25,
+    "c": 278.17,
+    "v": 1895400,
+    "clsPos": 97,
+    "gapPct": 1.38
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ILMN-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ILMN-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 16일째) — 사도 되지만 골라서",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

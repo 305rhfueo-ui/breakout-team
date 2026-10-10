@@ -1,0 +1,236 @@
+{
+ "ticker": "BABA",
+ "sector": "Consumer Cyclical",
+ "industry": "Internet Retail",
+ "nameKo": "알리바바 그룹 홀딩(ADR)",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.38,
+  "saleNy": 13.15,
+  "epsCy": 65.6,
+  "epsNy": 40.16,
+  "est": {
+   "cyCur": 44.382,
+   "cy30": 44.36884,
+   "nyCur": 62.20562,
+   "ny30": 62.31802
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -99.89,
+    20.61,
+    6.13
+   ],
+   "ni": [
+    -99.97,
+    162.44,
+    -65.19
+   ],
+   "opm": [
+    7.29,
+    0.34,
+    7.08
+   ],
+   "updated": "2026-09-07 07:03:36"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-10",
+  "nameKo": "알리바바 그룹 홀딩(ADR)",
+  "nameEn": "ALIBABA GROUP HOLDING LTD SPON ADS EACH REP 8 ORD SHS",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Why Alibaba (BABA) Dipped More Than Broader Market Today",
+     "url": "https://www.nasdaq.com/articles/why-alibaba-baba-dipped-more-broader-market-today",
+     "date": "2026-10-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Alibaba vs. Uber Technologies: Which Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/alibaba-vs-uber-technologies-which-stock-better-buy-2026",
+     "date": "2026-10-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Alibaba (BABA) Stock Drops Despite Market Gains: Important Facts to Note",
+     "url": "https://www.nasdaq.com/articles/alibaba-baba-stock-drops-despite-market-gains-important-facts-note",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Alibaba's AI Spending Ramps Up: Is the Investment Paying Off?",
+     "url": "https://www.nasdaq.com/articles/alibabas-ai-spending-ramps-investment-paying",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Will Accelerating Cloud & International Growth Lift Alibaba Stock Now?",
+     "url": "https://www.nasdaq.com/articles/will-accelerating-cloud-international-growth-lift-alibaba-stock-now",
+     "date": "2026-09-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Amazon vs. Alibaba: Which Consumer Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/amazon-vs-alibaba-which-consumer-stock-better-buy-2026",
+     "date": "2026-09-29",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Is It Worth Investing in Alibaba (BABA) Based on Wall Street's Bullish Views?",
+     "url": "https://www.nasdaq.com/articles/it-worth-investing-alibaba-baba-based-wall-streets-bullish-views-0",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Alibaba Group Holding Limited (BABA) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/alibaba-group-holding-limited-baba-attracting-investor-attention-here-what-you-should-0",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 7,
+   "reports": [
+    {
+     "date": "2026-08-21",
+     "broker": "키움증권",
+     "analyst": "박주영",
+     "title": "[알리바바 그룹 홀딩(ADR) (NYS:BABA)] 클라우드 성장성 이상무, 이익 회복 확인이 중요",
+     "summary": "- FY1Q27 예상치 부합. 클라우드 성장 가속 및 퀵커머스 적자 축소- 하반기 클라우드 성장 추가 확대 예상되며, 경쟁 완화로 커머스 이익 개선 전망- 향후 주가는 이익 회복과 클라우드 성장을 확인하며 상승 흐름 이어갈 것으로 예상",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqkmeeiggqiqkgcgxecec.pdf"
+    },
+    {
+     "date": "2026-07-13",
+     "broker": "키움증권",
+     "analyst": "박주영",
+     "title": "[알리바바 그룹 홀딩(ADR) (NYS:BABA)] 이익 턴어라운드 기대감은 8월 중순까지 지속될 전망",
+     "summary": "- FY1Q27 실적, 클라우드 성장 가속과 퀵커머스 적자 축소로 우려 대비 양호할 전망- 특히 퀵커머스 손실 축소로 이익 추정치 하향 사이클이 마무리될 가능성이 긍정적- 이익 턴어라운드 기대감은 FY1Q27 실적이 발표되는 8월 중순까지 지속 기대",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqliliqckleigmlgcgxecec.pdf"
+    },
+    {
+     "date": "2026-05-15",
+     "broker": "키움증권",
+     "analyst": "박주영",
+     "title": "[알리바바 그룹 홀딩(ADR) (NYS:BABA)] AI 기대감 유효하며 커머스 이익 회복 가시성 개선",
+     "summary": "- FY4Q26 실적 배달음식 및 Qwen 투자로 예상치 하회- 중국 커머스, 이익 회복 가시성 개선. 클라우드, 매출 및 이익 동반 성장 전망- 이익 턴어라운드 및 AI 모멘텀으로 밸류에이션 리레이팅 기대",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlqxxqqmzzzqkgcgxecec.pdf"
+    },
+    {
+     "date": "2026-03-23",
+     "broker": "키움증권",
+     "analyst": "박주영",
+     "title": "[알리바바 그룹 홀딩(ADR) (NYS:BABA)] 클라우드 성장의 발목을 잡는 커머스 이익",
+     "summary": "- FY3Q26 실적 예상치 하회. 클라우드 성장 확대됐으나, 커머스 및 기타 사업 부진- 중국 커머스, 매출 반등 예상되나 이익 불확실성 상존. 클라우드 고성장세 지속 전망- 커머스 관련 이익 우려가 높은 상황. 추세 전환 위해서는 중국 AI 모멘텀 필요",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqkelgimgcxkqmgcgxecec.pdf"
+    },
+    {
+     "date": "2025-11-27",
+     "broker": "키움증권",
+     "analyst": "박주영",
+     "title": "[알리바바 그룹 홀딩(ADR) (NYS:BABA)] 커머스에 흔들려도 클라우드가 견인 중",
+     "summary": "- FY2Q26 매출은 클라우드 실적 호조로 예상치 상회, 이익은 투자 확대로 하회- 중국 커머스 수익성 개선 기대되나, 성장 둔화 우려. 클라우드는 고성장세 지속 전망- 향후 중국 커머스 이익 회복 여부 확인 중요. AI 모멘텀으로 투자 매력 유효",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkemzllcqmxligcgxecec.pdf"
+    },
+    {
+     "date": "2025-11-06",
+     "broker": "신한투자증권",
+     "analyst": "최원석",
+     "title": "[알리바바 그룹 홀딩(ADR) (NYS:BABA)] 중국 유일 AI 밸류체인 수직계열화 구축 기업",
+     "summary": "- 중국 대표 이커머스 기업에서 AI 빅테크 기업으로 진화중. 자체 LLM 모델 Qwen을 통해 중국 내 AI 모델 선두권 구축. 향후 3년간 클라우드 컴퓨팅과 AI 기반 시설에 3,800억 위안 이상 투자 계획 발표에 더해 최근 추가 CapEx확대 언급. 중국 기업 중 AI 관련 최대 투자 규모- 커머스 사업은 약 10억명의 연간 활성 소비자 보유했음에도 로컬 커머스 시장 경쟁 심화로 성장세둔화. 퀵커머스 등 내수 신사업 진출+ 해외 시장 확장으로 적극 진출 중- 차기 성장 동력은 단연 AI. 동사 AI 모델 Qwen은 오픈소스 기반으로 공개 이후 10만개 이상의 파생 모델 생성하며 AI 독립 생태계의 중심축으로 부상. 지난 9월 발표한 최신 버전 Qwen3-Max는 1조 개 이상의 파라미터를 갖췄으며, 벤치마크 성능도 글로벌 최상위급 모델들과 유사한 스케일. 자사 클라우드와 결합해 시너지 강화, 플랫폼 락인 효과 기대",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgkcmxicggeqlgcgxecec.pdf"
+    },
+    {
+     "date": "2025-11-05",
+     "broker": "키움증권",
+     "analyst": "박주영",
+     "title": "[알리바바 그룹 홀딩(ADR) (NYS:BABA)] 투자포인트",
+     "summary": "- 최근 개발자 컨퍼런스에서 기존 계획(향후 3 년 3,800 억위안)에서 추가 투자 가능성을 암시. 특히 클라우드 사업 데이터센터 전력소비가 22 년 대비 32 년 10 배 증가할 것이라고 언급(CAGR +26%). 향후 보유 풀스택 AI 서비스를 기반으로 엔비디아와의 Physical AI 협력 및 해외시장 진출 등 통해 견조한 클라우드 매출 성장 기대- 중국 배달음식 산업의 가격 전쟁 이슈는 정부의 출혈 경쟁 방지 정책과 기업의 무질서한 추가 투자 억제로 인해 3 분기(FY2Q26)를 정점으로 이익에 미치는 부정적인 영향은 완화될 것으로 예상- 한편 클라우드 매출은 과거 2년간 연평균 7% 성장에서 향후 3년 30% 성장으로 빠르게 확대. 단순 커머스 기업에서 AI 기업으로 밸류에이션 리레이팅 기대. 지난 21년 중국정부의 플랫폼 규제 전 평균 PER인 25배 수준 부여시 높은 주가 상승 여력 보유하고 있다는 판단",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgilmecmimixzgcgxecec.pdf"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "CNBC Daily Open: Judge orders Trump to lift press ban",
+   "url": "https://www.cnbc.com/2026/09/24/trump-white-house-media-ban-iran-china-visit-ai-.html",
+   "date": "2026-09-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "China's AI chip blitz blunts Trump's leverage as leaders meet",
+   "url": "https://www.cnbc.com/2026/09/24/trump-xi-china-summit-ai-export-control-nvidia-huawei-alibaba-.html",
+   "date": "2026-09-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: McDonald's, Cracker Barrel & more",
+   "url": "https://www.cnbc.com/2026/09/23/stocks-making-the-biggest-moves-midday-mcd-cbrl-baba-wor-.html",
+   "date": "2026-09-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Lennar, Capri, Vicor, Amgen & more",
+   "url": "https://www.cnbc.com/2026/09/22/stocks-making-the-biggest-moves-midday-len-cpri-vicr-amg.html",
+   "date": "2026-09-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves premarket: Alibaba, Quest Diagnostics, On Holding",
+   "url": "https://www.cnbc.com/2026/09/22/stocks-making-the-biggest-moves-premarket-baba-dgx-onon-gme.html",
+   "date": "2026-09-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Alibaba shares jump as new AI chip, data center buildout plans unveiled",
+   "url": "https://www.cnbc.com/2026/09/22/alibaba-ai-alibabacloud-zhenwu-v900-.html",
+   "date": "2026-09-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "BABA",
+  "fetchedAt": "2026-10-10",
+  "source": "한국투자증권 Open API",
+  "per": 24.73,
+  "pbr": 1.73,
+  "eps": 4.5,
+  "bps": 64.4,
+  "shares": 2487750000,
+  "marketCapM": 277061,
+  "high52": 180.8392,
+  "high52Date": "2025-10-29",
+  "low52": 91.99,
+  "low52Date": "2026-06-26",
+  "last": 111.37,
+  "prevClose": 105.7,
+  "nameKo": "알리바바 그룹 홀딩(ADR)",
+  "nameEn": "ALIBABA GROUP HOLDING LTD SPON ADS EACH REP 8 ORD SHS",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 2487750000
+ }
+}

@@ -1,0 +1,320 @@
+{
+ "ticker": "AKAM",
+ "sector": "Technology",
+ "industry": "Software - Infrastructure",
+ "nameKo": "아카마이 테크놀로지",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.7,
+  "saleNy": 16.14,
+  "epsCy": -6.75,
+  "epsNy": 3.14,
+  "est": {
+   "cyCur": 6.63954,
+   "cy30": 6.69863,
+   "nyCur": 6.84798,
+   "ny30": 7.18709
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    5.38,
+    5.76,
+    7.35
+   ],
+   "ni": [
+    -23.37,
+    -13.68,
+    -39.19
+   ],
+   "opm": [
+    7.3,
+    10.66,
+    8.67
+   ],
+   "updated": "2026-09-08 09:25:16"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-10",
+  "nameKo": "아카마이 테크놀로지",
+  "nameEn": "AKAMAI TECHNOLOGIES",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086222&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1099682000,
+     "profit": 80284000,
+     "netIncome": 79404000,
+     "margin": 7.3,
+     "yoy": {
+      "revenue": 5.4,
+      "profit": -47,
+      "netIncome": -23.4,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1073610000,
+     "profit": 114494000,
+     "netIncome": 106319000,
+     "margin": 10.7,
+     "yoy": {
+      "revenue": 5.8,
+      "profit": -25.9,
+      "netIncome": -13.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1094912000,
+     "profit": 94876000,
+     "netIncome": 85072000,
+     "margin": 8.7,
+     "yoy": {
+      "revenue": 7.4,
+      "profit": -35.9,
+      "netIncome": -39.2,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1054630000,
+     "profit": 166024000,
+     "netIncome": 140170000,
+     "margin": 15.7,
+     "yoy": {
+      "revenue": 5,
+      "profit": 135,
+      "netIncome": 142.1,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Akamai Technologies (AKAM) Registers a Bigger Fall Than the Market: Important Facts to Note",
+     "url": "https://www.nasdaq.com/articles/akamai-technologies-akam-registers-bigger-fall-market-important-facts-note",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Should You Stay Cautious About AKAM Stock Despite AI Cloud Momentum?",
+     "url": "https://www.nasdaq.com/articles/should-you-stay-cautious-about-akam-stock-despite-ai-cloud-momentum",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "BEKE vs. AKAM: Which Stock Is the Better Value Option?",
+     "url": "https://www.nasdaq.com/articles/beke-vs-akam-which-stock-better-value-option",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Akamai Technologies (AKAM) Dipped More Than Broader Market Today",
+     "url": "https://www.nasdaq.com/articles/why-akamai-technologies-akam-dipped-more-broader-market-today-0",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Akamai’s Anthropic Deal Puts $5.5 Billion Behind Its Edge AI Pivot",
+     "url": "https://www.nasdaq.com/articles/akamais-anthropic-deal-puts-55-billion-behind-its-edge-ai-pivot",
+     "date": "2026-09-28",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Akamai Technologies (AKAM) Soars 3.2%: Is Further Upside Left in the Stock?",
+     "url": "https://www.nasdaq.com/articles/akamai-technologies-akam-soars-32-further-upside-left-stock",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Akamai Stock Is Up Today",
+     "url": "https://www.nasdaq.com/articles/why-akamai-stock-today",
+     "date": "2026-09-25",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Stock Market Midday, Sept. 25: AI Momentum Lifts Markets as Akamai Soars on Anthropic Deal",
+     "url": "https://www.nasdaq.com/articles/stock-market-midday-sept-25-ai-momentum-lifts-markets-akamai-soars-anthropic-deal",
+     "date": "2026-09-25",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-25",
+    "itemsKo": [
+     "5.05",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1086222/000108622226000089/akam-20260922.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-24",
+    "itemsKo": [
+     "중요 계약 체결",
+     "3.02",
+     "5.03",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1086222/000119312526401048/d288154d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1086222/000108622226000083/akam-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-22",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "3.02",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1086222/000119312526237084/d144441d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-20",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1086222/000119312526231745/d227940d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-18",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1086222/000119312526228949/d123781d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-04-07",
+     "broker": "메리츠증권",
+     "analyst": "황수욱, 정지수",
+     "title": "[아카마이 테크놀로지 (NAS:AKAM)] 분산형 AI 인프라 가치 재평가",
+     "summary": "- Akamai는 CDN 사업자에서 보안·분산클라우드 사업자로 체질을 바꾸는 구간에 있음- 핵심은 Akamai를 더 이상 성숙한 CDN 사업자로만 볼 수 없다는 점- 당장 이익을 좌우하는 축은 여전히 보안과 클라우드 인프라 서비스이지만, 주가 재평가의 방향은 엣지 네트워크의 AI 컴퓨트화에 있 음",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqzzemqxqiqgmzgcgxecec.pdf"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making big moves midday: Akamai Technologies, Genius Sports, People Inc",
+   "url": "https://www.cnbc.com/2026/09/25/stocks-making-the-biggest-moves-midday-akam-geni-ppli.html",
+   "date": "2026-09-25",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Shares of Akamai surge after deal with Anthropic. What Wall Street is saying",
+   "url": "https://www.cnbc.com/2026/09/25/shares-of-akamai-surge-after-deal-with-anthropic-what-wall-street-is-saying.html",
+   "date": "2026-09-25",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Our top 10 things to watch in the stock market Friday",
+   "url": "https://www.cnbc.com/2026/09/25/top-10-things-to-watch-in-the-stock-market-friday.html",
+   "date": "2026-09-25",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Akamai, Synopsys, Nike & more",
+   "url": "https://www.cnbc.com/2026/09/25/stocks-making-the-biggest-moves-premarket-akam-snps-nke.html",
+   "date": "2026-09-25",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's lightning round: Akamai is 'terrific'",
+   "url": "https://www.cnbc.com/2026/09/09/cramers-lightning-round-akamai-is-terrific.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer highlights the biggest players in internet infrastructure",
+   "url": "https://www.cnbc.com/video/2026/10/01/jim-cramer-highlights-the-biggest-players-in-internet-infrastructure.html",
+   "date": "2026-10-01",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "AKAM",
+  "fetchedAt": "2026-10-10",
+  "source": "한국투자증권 Open API",
+  "per": 38.58,
+  "pbr": 3.23,
+  "eps": 2.77,
+  "bps": 33.07,
+  "shares": 143717000,
+  "marketCapM": 15371,
+  "high52": 165.45,
+  "high52Date": "2026-05-13",
+  "low52": 70.82,
+  "low52Date": "2025-11-04",
+  "last": 106.95,
+  "prevClose": 100.9,
+  "nameKo": "아카마이 테크놀로지",
+  "nameEn": "AKAMAI TECHNOLOGIES",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 143717000
+ }
+}

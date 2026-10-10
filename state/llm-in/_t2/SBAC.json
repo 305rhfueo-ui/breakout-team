@@ -1,0 +1,268 @@
+{
+ "ticker": "SBAC",
+ "sector": "Real Estate",
+ "industry": "REIT - Specialty",
+ "nameKo": "SBA 커뮤니케이션스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 1.77,
+  "saleNy": 2.45,
+  "epsCy": -21.33,
+  "epsNy": 6.11,
+  "est": {
+   "cyCur": 7.70972,
+   "cy30": 7.71072,
+   "nyCur": 8.18047,
+   "ny30": 8.18447
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    2.33,
+    5.9,
+    3.73
+   ],
+   "ni": [
+    -11.97,
+    -16.26,
+    113.27
+   ],
+   "opm": [
+    49.19,
+    48.74,
+    41.54
+   ],
+   "updated": "2026-09-08 07:35:56"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-10",
+  "nameKo": "SBA 커뮤니케이션스",
+  "nameEn": "SBA COMMUNICATIONS CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001034054&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 51389000,
+     "profit": 351861000,
+     "netIncome": 198777000,
+     "margin": 684.7,
+     "yoy": {
+      "revenue": -23.5,
+      "profit": 5.1,
+      "netIncome": -12,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 47289000,
+     "profit": 342848000,
+     "netIncome": 184830000,
+     "margin": 725,
+     "yoy": {
+      "revenue": -1.6,
+      "profit": 2.4,
+      "netIncome": -16.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 53366000,
+     "profit": 298926000,
+     "netIncome": 370290000,
+     "margin": 560.1,
+     "yoy": {
+      "revenue": 12.7,
+      "profit": -21.8,
+      "netIncome": 113.3,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 75900000,
+     "profit": 374169000,
+     "netIncome": 236816000,
+     "margin": 493,
+     "yoy": {
+      "revenue": 81.2,
+      "profit": -0.4,
+      "netIncome": -8.4,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "SBA Communications Eyes 6G Leasing Rebound, Edge Data Centers and Buybacks",
+     "url": "https://www.nasdaq.com/articles/sba-communications-eyes-6g-leasing-rebound-edge-data-centers-and-buybacks",
+     "date": "2026-10-01",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "SBA Communications (SBAC) Shares Cross 3% Yield Mark",
+     "url": "https://www.nasdaq.com/articles/sba-communications-sbac-shares-cross-3-yield-mark",
+     "date": "2026-09-24",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "SBA Communications (SBAC) Up 0.5% Since Last Earnings Report: Can It Continue?",
+     "url": "https://www.nasdaq.com/articles/sba-communications-sbac-05-last-earnings-report-can-it-continue",
+     "date": "2026-09-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "S&P 500 Analyst Moves: SBAC",
+     "url": "https://www.nasdaq.com/articles/sp-500-analyst-moves-sbac",
+     "date": "2026-08-18",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "SBA Communications Takes Over #130 Spot From Workday",
+     "url": "https://www.nasdaq.com/articles/sba-communications-takes-over-130-spot-workday",
+     "date": "2026-08-18",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "SBA Communications Now #394 Largest Company, Surpassing Evergy",
+     "url": "https://www.nasdaq.com/articles/sba-communications-now-394-largest-company-surpassing-evergy",
+     "date": "2026-08-13",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "SBA Communications (SBAC) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/sba-communications-sbac-q2-2026-earnings-call-transcript",
+     "date": "2026-08-11",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "SBAC Q2 FFO Beat Estimates on International Leasing Strength",
+     "url": "https://www.nasdaq.com/articles/sbac-q2-ffo-beat-estimates-international-leasing-strength",
+     "date": "2026-08-04",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-25",
+    "itemsKo": [
+     "2.03"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1034054/000119312526402918/d152825d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1034054/000119312526330639/d154311d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-24",
+    "itemsKo": [
+     "중요 계약 체결",
+     "1.02",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1034054/000119312526315142/d130705d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-23",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1034054/000119312526314131/d146754d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-15",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1034054/000119312526304972/d169827d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-22",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1034054/000119312526236935/d28338d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "SpaceX makes big wireless move. These once 'obsolete' tech stocks could benefit",
+   "url": "https://www.cnbc.com/2026/10/09/spacex-wireless-plans-lifts-tower-stocks.html",
+   "date": "2026-10-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "SBAC",
+  "fetchedAt": "2026-10-10",
+  "source": "한국투자증권 Open API",
+  "per": 19.65,
+  "pbr": 0,
+  "eps": 9.29,
+  "bps": 0,
+  "shares": 106088000,
+  "marketCapM": 19360,
+  "high52": 221.5827,
+  "high52Date": "2026-04-20",
+  "low52": 156.6,
+  "low52Date": "2026-10-05",
+  "last": 182.49,
+  "prevClose": 170.01,
+  "nameKo": "SBA 커뮤니케이션스",
+  "nameEn": "SBA COMMUNICATIONS CORP",
+  "listedOn": "0000-00-00",
+  "exchange": "나스닥",
+  "listedShares": 106088000
+ }
+}

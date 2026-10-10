@@ -504,8 +504,375 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-10",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "AI 반도체주, OpenAI 불확실성 해소에도 흔들렸다",
+        "easy": "엔비디아·마이크론 같은 AI 반도체 주식이 어제 위아래로 크게 흔들렸다. OpenAI 관련 쟁점 하나가 정리돼 투자자들이 한숨을 돌렸지만, 주가는 그 호재만큼 오르지 못했다. 같은 날 마이크론과 엔비디아에서 큰 규모의 거래 두 건이 체결되면서 큰손들이 방향을 다시 잡는 중이라는 해석이 나왔다. 호재가 나와도 주가가 못 오르는 구간은 주도주의 힘이 한 번 시험받는 자리다.",
+        "whyMatters": "반도체와 AI 서버·전력 설비처럼 그동안 많이 오른 업종이 가장 먼저 흔들리는 구간으로, NVDA·MU 주가가 좋은 소식에 어떻게 반응하는지가 시장 체온계다. 주도 업종이 기술주에 몰려 있어 이 쪽이 식으면 지수 전체가 같이 쉰다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "AI chip stocks wobble even as investors get clarity on a key OpenAI issue",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/nvidia-and-micron-shares-bounce-as-investors-get-clarity-on-a-key-openai-matter-ba76ed20?mod=mw_rss_topstories",
+            "date": "2026-10-09",
+            "quote": "AI chip stocks wobble even as investors get clarity on a key OpenAI issue",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Two massive trades just happened in Micron and Nvidia. What they could mean for chips",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/09/two-massive-trades-just-happened-in-micron-and-nvidia-what-they-could-mean-for-chips.html",
+            "date": "2026-10-09",
+            "quote": "Two massive trades just happened in Micron and Nvidia. What they could mean for chips",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Verizon이 24년 만의 최악 하루를 기록했다",
+        "easy": "Verizon 주가가 2002년 이후 가장 큰 하루 낙폭을 기록했다. SpaceX가 미국에서 직접 통신망을 깔겠다는 계획을 내놨기 때문이다. 위성으로 휴대폰을 바로 연결하면 기존 통신사의 가입자와 요금이 깎일 수 있다는 걱정이다. AT&T·T-Mobile 주가도 같이 밀렸다.",
+        "whyMatters": "통신 업종에는 분명한 악재이고, 배당을 보고 통신주를 들고 있던 돈이 다른 업종으로 옮겨갈 수 있다. 반대로 위성·우주 관련 장비 쪽에는 기대가 실린다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Verizon posts worst day since 2002 as SpaceX U.S. network plans whack cell provider stocks",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/09/verizon-att-tmobile-stocks-spacex-network.html",
+            "date": "2026-10-09",
+            "quote": "Verizon posts worst day since 2002 as SpaceX U.S. network plans whack cell provider stocks",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "가계 연체와 정크본드에서 경고등이 켜졌다",
+        "easy": "미국 가계의 빚 연체가 금융위기 이후 보지 못한 수준으로 올라왔다. 동시에 신용등급이 낮은 회사가 발행한 채권(정크본드) 시장에서도 경고 신호가 나오기 시작했다. 돈을 빌린 쪽의 사정이 나빠지면 소비가 줄고, 약한 기업은 돈을 구하기 어려워진다. 주가가 오르는 동안 밑에서 금이 가는 전형적인 모습이다.",
+        "whyMatters": "소비자가 지갑을 닫으면 소매·여행·카드 같은 경기민감 업종이 먼저 타격을 받고, 빚이 많은 중소형주도 불리하다. 반대로 현금이 많고 빚이 적은 대형 기술주로 돈이 더 쏠릴 수 있다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Americans' debt problems are flashing a warning not seen since the Great Recession",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/09/american-debt-delinquency.html",
+            "date": "2026-10-09",
+            "quote": "Americans' debt problems are flashing a warning not seen since the Great Recession",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Junk bonds are 'flashing yellow.' Watch these warning signs",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/09/junk-bonds-are-flashing-yellow-watch-these-warning-signs.html",
+            "date": "2026-10-09",
+            "quote": "Junk bonds are 'flashing yellow.' Watch these warning signs",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "애플이 아이폰 18 부품 주문을 줄였다는 보도가 나왔다",
+        "easy": "애플이 아이폰 18에 쓸 부품 주문을 줄이고 있다는 보도가 나왔다. 신제품 수요가 예상보다 식고 있다는 신호로 읽힌다. 주문이 줄면 애플에 부품을 넣는 회사들의 매출 전망이 먼저 내려간다. 구체적으로 얼마나 줄였는지는 보도 내용에 따라 다르게 전해진다.",
+        "whyMatters": "애플 부품을 공급하는 반도체·전자부품 업종에 직접적인 악재이고, AAPL 자체도 신제품 사이클 기대가 깎인다. AI 데이터센터 수요와는 성격이 달라, 스마트폰 쪽 수요 둔화가 반도체 전체로 번지는지가 관건이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Is iPhone 18 demand cooling off? Here's how deep Apple reportedly is cutting component orders.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/is-iphone-18-demand-cooling-off-heres-how-deep-apple-reportedly-is-cutting-component-orders-a44244ee?mod=mw_rss_topstories",
+            "date": "2026-10-09",
+            "quote": "Is iPhone 18 demand cooling off? Here&#x2019;s how deep Apple reportedly is cutting component orders.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "트럼프가 러시아 디젤 공급 합의를 발표했다",
+        "easy": "트럼프 대통령이 러시아산 디젤을 들여오는 합의를 발표했다. 중간선거 전에 기름값을 낮추려는 의도라는 분석이 많다. 다만 러시아 제재법과 충돌한다는 비판이 나오고, 젤렌스키는 푸틴에게 주는 선물이라고 했다. 효과가 있을지에 대해서도 \"너무 늦었다\"는 평가가 있다.",
+        "whyMatters": "경유 공급이 늘면 정유사의 마진이 줄어 에너지 업종에 부담이고, 반대로 기름값이 내려가면 항공·운송 업종의 비용이 줄어 유리하다. 제재 위반 논란이 커지면 정책 불확실성 자체가 시장에 부담이 된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Trump taps Russia to boost global diesel supplies ahead of midterms. It may be 'too little, too late,' says strategist.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/trump-taps-russia-to-boost-global-diesel-supplies-ahead-of-midterms-it-may-be-too-little-too-late-says-strategist-8c789030?mod=mw_rss_topstories",
+            "date": "2026-10-09",
+            "quote": "Trump taps Russia to boost global diesel supplies ahead of midterms. It may be &#x2018;too little, too late,&#x2019; says strategist.",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Trump's diesel agreement with Putin accused of contradicting Russia sanctions law",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/09/trump-putin-diesel-russia-sanctions-ukraine.html",
+            "date": "2026-10-10",
+            "quote": "Trump's diesel agreement with Putin accused of contradicting Russia sanctions law",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+            "date": "2026-10-10",
+            "quote": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "트럼프가 연준 쿡 이사 조사 위원회를 만들었다",
+        "easy": "트럼프 대통령이 연준 이사 리사 쿡을 조사할 위원회를 만들었다. 연준 인사를 압박해 금리 정책에 영향을 주려는 움직임으로 읽힌다. 중앙은행이 정치에서 독립돼 있다는 믿음이 흔들리면 채권 금리와 달러가 먼저 반응한다. 아직은 절차가 어떻게 흘러갈지 확정되지 않았다.",
+        "whyMatters": "금리 방향이 흐려지면 미래 이익이 큰 성장주와 은행·부동산 업종이 금리 움직임에 따라 크게 출렁인다. 당장 손익이 바뀌는 사건은 아니지만, 지수가 쉬어갈 때 변동성을 키우는 재료다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/09/trump-lisa-cook-fed-firing-committee-explained.html",
+            "date": "2026-10-09",
+            "quote": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 사도 되지만 종목을 골라서 사야 하는 때다. QQQ가 751.27에서 10일선이 20일선 위에 있고 두 선이 모두 오르고 있어 흐름 자체는 위쪽이며, 그 상태가 16일째 유지되고 있다. 다만 오늘 소식은 좋은 쪽이 아니다 — AI 반도체는 호재가 나왔는데도 흔들렸고, 가계 연체와 낮은 등급 회사채에서 경고 신호가 같이 나왔다. 빚내서 산 주식(마진부채)이 1년 전보다 37.2% 늘어 주의선을 넘은 상태라, 조정이 오면 내려가는 속도가 빠를 수 있다. 이번 주는 엔비디아·마이크론 같은 주도주가 악재에 어떻게 버티는지, 그리고 지수가 상승 추세선을 지키는지를 보면 된다.",
+    "keyRisks": [
+      "주도 업종이 기술주에 쏠려 있다: 선정 종목의 62%가 기술, 20%가 헬스케어다. 반도체가 식으면 피할 곳이 마땅치 않다.",
+      "빚으로 산 주식이 많다: 신용으로 산 물량은 주가가 내려가면 강제로 팔린다. 작은 하락이 큰 하락으로 번지기 쉽다.",
+      "신용 쪽에 먼저 금이 간다: 가계 연체와 낮은 등급 회사채 경고가 동시에 나왔다. 이게 실적 둔화로 이어지면 주가 하락 이유가 바뀐다.",
+      "정책이 들쭉날쭉하다: 러시아 디젤 합의와 연준 이사 조사처럼 하루아침에 방향이 바뀌는 재료가 많다. 에너지·금리 민감 업종의 변동성이 커진다."
+    ],
+    "easySummary": [
+      "시장 흐름은 아직 위쪽이지만, 호재에도 AI 반도체가 흔들려 주도주의 힘이 시험받고 있다.",
+      "가계 연체와 낮은 등급 회사채 경고가 같이 나왔고, 빚으로 산 주식도 주의선을 넘어 하락 시 속도가 빠를 수 있다.",
+      "Verizon은 SpaceX 통신망 계획에 2002년 이후 최악의 하루를 보냈고, 애플은 아이폰 18 부품 주문을 줄였다는 보도가 나왔다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 151,
+      "ok": 208,
+      "unverified": 6,
+      "dead": 0,
+      "stripped": 11,
+      "removed": [
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1086222/000119312526401048/d288154d8k.htm"
+        }
+      ],
+      "numberCut": 30,
+      "numberCuts": [
+        {
+          "sentence": "VAX-31이 3상 임상(OPUS-1)에서 주요 평가 목표를 모두 충족했다.",
+          "missing": [
+            "1"
+          ]
+        },
+        {
+          "sentence": "호재 직후 약 10억 달러(주식 5억·전환사채 5억)를 조달한다.",
+          "missing": [
+            "10억 달러",
+            "5억",
+            "5억"
+          ]
+        },
+        {
+          "sentence": "새 주식 발행으로 기존 주주 몫이 줄어드는 희석 부담이 있고, 주가는 고점 90.75달러에서 71.38달러로 내려왔다.",
+          "missing": [
+            "90.75",
+            "71.38"
+          ]
+        },
+        {
+          "sentence": "Space42와 합작사 Equatys를 공동 설립하기로 했고, 10억 달러 투자 약속이 붙었다.",
+          "missing": [
+            "10억 달러"
+          ]
+        },
+        {
+          "sentence": "6월 분기 매출은 11.6억 달러로 1년 전보다 1.2% 줄었고, 순손실이 5천만 달러대였다.",
+          "missing": [
+            "5"
+          ]
+        },
+        {
+          "sentence": "6개월 수익률은 -16%이고 52주 고점(221.58달러)보다 아래다.",
+          "missing": [
+            "16"
+          ]
+        },
+        {
+          "sentence": "인수 총액(기업가치)은 약 15억 달러다.",
+          "missing": [
+            "15억 달러"
+          ]
+        },
+        {
+          "sentence": "매출 증가율도 직전 분기 14.8%에서 11.9%로 낮아졌다.",
+          "missing": [
+            "14.8",
+            "11.9"
+          ]
+        },
+        {
+          "sentence": "주가는 6월 2일 고점 140.8달러보다 40% 넘게 낮다.",
+          "missing": [
+            "140.8",
+            "40"
+          ]
+        },
+        {
+          "sentence": "직전 분기(34%)와 3분기 전(29%)보다 증가율이 계속 높아졌다.",
+          "missing": [
+            "34",
+            "29"
+          ]
+        },
+        {
+          "sentence": "회사가 연간 매출 성장 전망을 30%로 올렸고, 증권사는 이를 시장 예상치를 모두 웃돈 수준으로 평가했다.",
+          "missing": [
+            "30"
+          ]
+        },
+        {
+          "sentence": "앞선 분기(14~20% 증가)보다 성장 속도가 빨라졌다.",
+          "missing": [
+            "14"
+          ]
+        },
+        {
+          "sentence": "최근 4개 분기 모두 매출 증가율이 올라가는 흐름이다.",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "시가총액 약 62억 달러에 주가수익비율 186배여서 성장이 조금만 둔해져도 부담이 크다.",
+          "missing": [
+            "62억 달러"
+          ]
+        },
+        {
+          "sentence": "올해 주당순이익 예상치가 30일 전 3.49달러에서 4.12달러로, 내년은 5.55달러에서 6.12달러로 올랐다.",
+          "missing": [
+            "3.49",
+            "4.12",
+            "5.55",
+            "6.12"
+          ]
+        },
+        {
+          "sentence": "직전 분기(20%)보다 성장 속도가 붙었다.",
+          "missing": [
+            "20"
+          ]
+        },
+        {
+          "sentence": "주가가 이미 6개월 새 약 99% 올라 이익 대비 부담이 크다.",
+          "missing": [
+            "99"
+          ]
+        },
+        {
+          "sentence": "직전 세 분기 증가율(2.8%·4.4%·12.5%)보다 크게 빨라졌다.",
+          "missing": [
+            "2.8",
+            "4.4",
+            "12.5"
+          ]
+        },
+        {
+          "sentence": "10월 9일 공시에서 Humana는 정부(CMS)가 10월 8일 발표한 2027년 메디케어 어드밴티지 평가 등급에서 상위 25% 목표를 넘겼다고 밝혔다.",
+          "missing": [
+            "25"
+          ]
+        },
+        {
+          "sentence": "2026년 6월 분기 매출은 2.561억 달러로 1년 전 1.944억 달러보다 32% 늘었다.",
+          "missing": [
+            "32"
+          ]
+        },
+        {
+          "sentence": "회사는 2026년 매출 전망(가이던스, 회사가 내놓은 자체 전망)을 11억~12억 달러로 올렸다.",
+          "missing": [
+            "11억"
+          ]
+        },
+        {
+          "sentence": "3개월 사이 회사 스스로 연간 매출 전망을 9.5억~10.5억 달러에서 11억~12억 달러로 올렸다.",
+          "missing": [
+            "9.5억",
+            "11억"
+          ]
+        },
+        {
+          "sentence": "3월 분기는 19.3% 증가.",
+          "missing": [
+            "19.3"
+          ]
+        },
+        {
+          "sentence": "직전 3분기도 25.4%, 25.9%, 25.5% 증가.",
+          "missing": [
+            "25.4",
+            "25.9",
+            "25.5"
+          ]
+        },
+        {
+          "sentence": "영업손실이 1,549만 달러로 전년 동기보다 52% 줄고, 영업이익률은 -6.3%(1월 분기)에서 -1.7%로 개선됐다.",
+          "missing": [
+            "6.3"
+          ]
+        },
+        {
+          "sentence": "직전 분기 증가율은 4.8%.",
+          "missing": [
+            "4.8"
+          ]
+        },
+        {
+          "sentence": "순이익이 1년 전보다 줄어든 상태에서 주가가 오르며 PER 51.8배까지 높아졌다.",
+          "missing": [
+            "51.8"
+          ]
+        },
+        {
+          "sentence": "VAX-31 자금 조달용으로 주식 5억 달러, 노트 5억 달러 발행을 개시했다.",
+          "missing": [
+            "5억 달러",
+            "5억 달러"
+          ]
+        },
+        {
+          "sentence": "주식·워런트·전환사채 약 10억 달러 발행 가격이 확정됐다.",
+          "missing": [
+            "10억 달러"
+          ]
+        },
+        {
+          "sentence": "약 10억 달러 규모 주식·워런트·전환사채 발행으로 희석 부담이 생겼다.",
+          "missing": [
+            "10억 달러"
+          ]
+        }
+      ],
+      "noQuote": 1
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-10"
   }
 };
