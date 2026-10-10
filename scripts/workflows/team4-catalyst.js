@@ -203,7 +203,9 @@ batches.forEach((b, bi) => b.forEach((s, idx) => {
   const rm = new Set(r.removed_claim_ids || [])
   s.factcheck = { verdict: r.verdict, removed: [...rm], reason: r.reason || '' }
   s.claims = (s.claims || []).filter((c) => !rm.has(c.id))
-  if (r.correctedCategory && r.correctedCategory !== s.category) {
+  // 프롬프트가 허용한 정정은 6(근거 빈약) 하나뿐이다. 2026-10-10 실측: haiku 가 CCI·AMT·EMBJ·SNOW·PFIS 에
+  // correctedCategory:2 를 줘서 REIT·은행이 "바이오·FDA·임상" 으로 화면에 나갔다.
+  if (r.correctedCategory === 6 && s.category !== 6) {
     s.originalCategory = s.category
     s.category = r.correctedCategory
     s.corrected = true
