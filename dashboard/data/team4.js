@@ -51,7 +51,7 @@ window.TEAM4_DATA = {
       "catalyst": {
         "status": "done",
         "ticker": "CCI",
-        "category": 2,
+        "category": 6,
         "claims": [
           {
             "id": "c1",
@@ -68,9 +68,7 @@ window.TEAM4_DATA = {
           "removed": [],
           "reason": "로컬 수집 데이터에 뉴스(10/09 stock soared, 9/30 AI/Spectrum deals, 9/17 upgrade) 및 8-K(9/14 임원변동, 7/22 실적발표) 기록 있음. volumeExplanation의 '뚜렷한 뉴스 없이'는 부정확."
         },
-        "originalCategory": 6,
-        "corrected": true,
-        "categoryName": "바이오·FDA·임상",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-10",
         "carried": false
@@ -119,7 +117,7 @@ window.TEAM4_DATA = {
       "catalyst": {
         "status": "done",
         "ticker": "AMT",
-        "category": 2,
+        "category": 6,
         "claims": [
           {
             "id": "c1",
@@ -136,9 +134,7 @@ window.TEAM4_DATA = {
           "removed": [],
           "reason": "로컬 수집 데이터에 뉴스(10/09 8.6% jump, 10/06 outpaces, 9/21 upgrade) 및 8-K(9/18 임원변동, 9/14 중요계약) 기록 있음. volumeExplanation의 '뚜렷한 뉴스 없이'는 부정확."
         },
-        "originalCategory": 6,
-        "corrected": true,
-        "categoryName": "바이오·FDA·임상",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-10",
         "carried": false
@@ -253,7 +249,7 @@ window.TEAM4_DATA = {
       "catalyst": {
         "status": "done",
         "ticker": "EMBJ",
-        "category": 2,
+        "category": 6,
         "claims": [
           {
             "id": "c1",
@@ -270,9 +266,7 @@ window.TEAM4_DATA = {
           "removed": [],
           "reason": "로컬 수집 데이터에 뉴스(10/07 vs RTX, 10/02 rating upgrade, 10/01 value stock) 기록 있음. 공식 8-K는 없으나 분석 뉴스가 명확함. volumeExplanation의 '뚜렷한 뉴스 없이'는 부정확."
         },
-        "originalCategory": 6,
-        "corrected": true,
-        "categoryName": "바이오·FDA·임상",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-10",
         "carried": false
@@ -321,7 +315,7 @@ window.TEAM4_DATA = {
       "catalyst": {
         "status": "done",
         "ticker": "SNOW",
-        "category": 2,
+        "category": 6,
         "claims": [
           {
             "id": "c1",
@@ -338,9 +332,7 @@ window.TEAM4_DATA = {
           "removed": [],
           "reason": "로컬 수집 데이터에 뉴스(10/09 analyst optimistic, 10/06 upside target) 및 8-K(10/02 중요계약, 9/02 실적발표) 기록 있음. volumeExplanation의 '뚜렷한 뉴스 없이'는 부정확."
         },
-        "originalCategory": 6,
-        "corrected": true,
-        "categoryName": "바이오·FDA·임상",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-10",
         "carried": false
@@ -467,7 +459,7 @@ window.TEAM4_DATA = {
       "catalyst": {
         "status": "done",
         "ticker": "PFIS",
-        "category": 2,
+        "category": 6,
         "claims": [
           {
             "id": "c1",
@@ -484,9 +476,7 @@ window.TEAM4_DATA = {
           "removed": [],
           "reason": "로컬 수집 데이터에 뉴스(9/25 분석) 및 8-K(7/30 실적발표, 4/30 실적발표) 기록 있으나, 최신 뉴스 타이밍이 2026-09-25로 다소 오래됨. 10월 10일 거래량과의 직접 인과관계가 명확하지 않지만, 근거 완전 부재는 아님."
         },
-        "originalCategory": 6,
-        "corrected": true,
-        "categoryName": "바이오·FDA·임상",
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-10",
         "carried": false
@@ -849,8 +839,7 @@ window.TEAM4_DATA = {
   },
   "reusedFrom": null,
   "byCategory": {
-    "2": 5,
     "5": 1,
-    "6": 5
+    "6": 10
   }
 };

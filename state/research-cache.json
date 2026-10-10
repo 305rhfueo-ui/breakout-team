@@ -221,7 +221,7 @@
     },
     "OKTA": {
       "last": "2026-10-10",
-      "count": 14
+      "count": 15
     },
     "P": {
       "last": "2026-10-09",
@@ -233,11 +233,11 @@
     },
     "TWLO": {
       "last": "2026-10-10",
-      "count": 5
+      "count": 6
     },
     "NTAP": {
       "last": "2026-10-10",
-      "count": 4
+      "count": 5
     },
     "CRWD": {
       "last": "2026-10-06",
@@ -257,7 +257,7 @@
     },
     "SNOW": {
       "last": "2026-10-10",
-      "count": 11
+      "count": 12
     },
     "WGS": {
       "last": "2026-09-17",
@@ -457,7 +457,7 @@
     },
     "PLTR": {
       "last": "2026-10-10",
-      "count": 11
+      "count": 12
     },
     "SHAZ": {
       "last": "2026-09-02",
@@ -493,7 +493,7 @@
     },
     "RGEN": {
       "last": "2026-10-10",
-      "count": 3
+      "count": 4
     },
     "SYRE": {
       "last": "2026-09-11",
@@ -553,7 +553,7 @@
     },
     "DOCN": {
       "last": "2026-10-10",
-      "count": 4
+      "count": 5
     },
     "RVMD": {
       "last": "2026-08-27",
@@ -577,7 +577,7 @@
     },
     "XMTR": {
       "last": "2026-10-10",
-      "count": 6
+      "count": 7
     },
     "MSTR": {
       "last": "2026-10-01",
@@ -645,7 +645,7 @@
     },
     "HUT": {
       "last": "2026-10-10",
-      "count": 2
+      "count": 3
     },
     "COIN": {
       "last": "2026-09-15",
@@ -673,7 +673,7 @@
     },
     "FTNT": {
       "last": "2026-10-10",
-      "count": 2
+      "count": 3
     },
     "DINO": {
       "last": "2026-09-30",
@@ -705,7 +705,7 @@
     },
     "VICR": {
       "last": "2026-10-10",
-      "count": 5
+      "count": 6
     },
     "QCOM": {
       "last": "2026-09-29",
@@ -937,39 +937,39 @@
     },
     "PCVX": {
       "last": "2026-10-10",
-      "count": 1
+      "count": 2
     },
     "CCI": {
       "last": "2026-10-10",
-      "count": 1
+      "count": 2
     },
     "AMT": {
       "last": "2026-10-10",
-      "count": 1
+      "count": 2
     },
     "BABA": {
       "last": "2026-10-10",
-      "count": 1
+      "count": 2
     },
     "VSAT": {
       "last": "2026-10-10",
-      "count": 1
+      "count": 2
     },
     "AKAM": {
       "last": "2026-10-10",
-      "count": 1
+      "count": 2
     },
     "SBAC": {
       "last": "2026-10-10",
-      "count": 1
+      "count": 2
     },
     "SHOP": {
       "last": "2026-10-10",
-      "count": 1
+      "count": 2
     },
     "TNK": {
       "last": "2026-10-10",
-      "count": 1
+      "count": 2
     }
   },
   "team4": {
@@ -1380,7 +1380,7 @@
     },
     "JOYY": {
       "last": "2026-10-10",
-      "count": 2,
+      "count": 3,
       "cat": 6,
       "evid": "f5f7a6ac9748b0cf"
     },
@@ -2533,7 +2533,7 @@
     },
     "HUM": {
       "last": "2026-10-10",
-      "count": 2,
+      "count": 3,
       "cat": 5,
       "evid": "55794033fccfad3d"
     },
@@ -2569,43 +2569,43 @@
     },
     "CCI": {
       "last": "2026-10-10",
-      "count": 1,
-      "cat": 2,
+      "count": 2,
+      "cat": 6,
       "evid": "9f10b29d76d83884"
     },
     "AMT": {
       "last": "2026-10-10",
-      "count": 1,
-      "cat": 2,
+      "count": 2,
+      "cat": 6,
       "evid": "f5fdfcf983fc0462"
     },
     "EMBJ": {
       "last": "2026-10-10",
-      "count": 1,
-      "cat": 2,
+      "count": 2,
+      "cat": 6,
       "evid": "bc8b36fee9b989ae"
     },
     "SNOW": {
       "last": "2026-10-10",
-      "count": 1,
-      "cat": 2,
+      "count": 2,
+      "cat": 6,
       "evid": "8e4268c2b2880407"
     },
     "PFIS": {
       "last": "2026-10-10",
-      "count": 1,
-      "cat": 2,
+      "count": 2,
+      "cat": 6,
       "evid": "82618868158cffc4"
     },
     "ATEX": {
       "last": "2026-10-10",
-      "count": 1,
+      "count": 2,
       "cat": 6,
       "evid": "6cc98f75c30d607b"
     },
     "ELV": {
       "last": "2026-10-10",
-      "count": 1,
+      "count": 2,
       "cat": 6,
       "evid": "c1ccbcfd280e9c6a"
     }
@@ -2645,7 +2645,7 @@
     },
     "CORT": {
       "last": "2026-10-10",
-      "count": 2
+      "count": 3
     },
     "MSTR": {
       "last": "2026-10-07",
@@ -2673,7 +2673,7 @@
     },
     "FROG": {
       "last": "2026-10-10",
-      "count": 1
+      "count": 2
     }
   },
   "deep2": {
@@ -2731,35 +2731,35 @@
     },
     "TWST": {
       "last": "2026-10-10",
-      "count": 1
+      "count": 2
     },
     "ZS": {
       "last": "2026-10-10",
-      "count": 1
+      "count": 2
     },
     "ILMN": {
       "last": "2026-10-10",
-      "count": 1
+      "count": 2
     },
     "SNOW": {
       "last": "2026-10-10",
-      "count": 1
+      "count": 2
     },
     "DDOG": {
       "last": "2026-10-10",
-      "count": 1
+      "count": 2
     },
     "PLTR": {
       "last": "2026-10-10",
-      "count": 1
+      "count": 2
     },
     "PCVX": {
       "last": "2026-10-10",
-      "count": 1
+      "count": 2
     },
     "NET": {
       "last": "2026-10-10",
-      "count": 1
+      "count": 2
     }
   }
 }
