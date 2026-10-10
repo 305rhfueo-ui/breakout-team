@@ -1,5 +1,5 @@
 window.TEAM4_DATA = {
-  "generated": "2026-10-10",
+  "generated": "2026-10-11",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2,
@@ -71,7 +71,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-10",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -137,7 +137,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-10",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -269,7 +269,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-10",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -335,7 +335,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-10",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -479,7 +479,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-10",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -545,7 +545,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-10",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -611,7 +611,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-10",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -677,7 +677,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-10",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -787,7 +787,7 @@ window.TEAM4_DATA = {
         "categoryName": "매크로·정책·산업 돌파",
         "isHighlight": true,
         "researchedOn": "2026-10-10",
-        "carried": false
+        "carried": true
       }
     }
   ],
@@ -812,20 +812,14 @@ window.TEAM4_DATA = {
   "research_coverage": {
     "done": 11,
     "total": 11,
-    "cap": 9,
+    "cap": null,
     "pending": 0,
     "failed": 0,
-    "carried": 2,
+    "carried": 11,
     "ineligible": 0,
-    "note": "그중 2종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 11종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
-    "highlights": [],
-    "sectorSignal": "오늘 후보 17건은 모두 \"뉴스 없이 거래량만 터진 종목\"으로 분류됐습니다. 실적 호재나 기술 돌파 호재는 0건이라 업종 쏠림을 말할 근거가 없습니다.",
-    "caution": "17건 중 15건은 확인된 호재가 \"근거 없음\"입니다. 모더나(MRNA)는 나스닥100 지수 편입 소식이 있었지만 실적이나 기술 호재는 아니고, ITGR은 9월 4일 인수 관련 기사 제목만 있어 인수 가격과 종결 시점을 확인하지 못했습니다. 차트 모양은 판정하지 않았으니 직접 확인하세요.",
-    "researchedOn": "2026-10-09"
-  },
-  "llm": {
     "highlights": [
       {
         "ticker": "HUM",
@@ -836,10 +830,5 @@ window.TEAM4_DATA = {
     "sectorSignal": "강조할 호재는 건강보험(메디케어 민영 상품) 업종 Humana 한 건뿐이라 업종 쏠림을 말할 수 없다. 실적 호재(어닝 서프라이즈·가이던스 상향)로 분류된 종목은 오늘 없다.",
     "caution": "Humana 건은 기술 돌파가 아니라 정부 평가 등급(정책) 호재이고, 이익은 2028년에 생기는 일회성이라 올해 실적을 바꾸진 않는다. 나머지 종목은 근거가 확인되지 않아(\"근거 없음\") 제외했고, 차트 국면은 판단하지 않았으니 직접 확인해야 한다.",
     "researchedOn": "2026-10-10"
-  },
-  "reusedFrom": null,
-  "byCategory": {
-    "5": 1,
-    "6": 10
   }
 };

@@ -1,5 +1,5 @@
 window.TEAM6_DATA = {
-  "generated": "2026-10-10",
+  "generated": "2026-10-11",
   "sessionDate": "2026-10-09",
   "rulesVersion": "0.3",
   "regime": "green",
@@ -424,7 +424,7 @@ window.TEAM6_DATA = {
         "financialsNarrativeOriginal": "매출은 늘고 있지만 이익은 분기마다 들쭉날쭉하다. 2026년 6월 분기 매출은 2.561억 달러로 1년 전 1.944억 달러보다 32% 늘었다. 직전 3월 분기에는 신약 출시 준비 비용이 늘어 영업손실 4,960만 달러를 냈다가, 6월 분기에 영업이익 4,130만 달러로 돌아섰다. 회사는 올해 매출 전망을 11억~12억 달러로 올려 잡았다.",
         "researchedOn": "2026-10-10",
         "session": "2026-10-09",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1389,7 +1389,7 @@ window.TEAM6_DATA = {
         "newsNarrativeOriginal": "8월 6일 2분기 실적이 시장 예상을 크게 넘으면서 주가가 급등했다. 매출이 1년 전보다 29% 늘었고, 특히 클라우드 매출이 53% 뛰어 전체의 53%를 차지했다. 회사가 연간 매출 전망을 6억 5천만 달러 수준으로 올린 것이 상승의 직접 원인이었다. 9월 초 자체 행사에서는 AI 소프트웨어 공급망 보안 기능을 내놨지만, 그 사이 공동창업자와 CFO의 주식 매도 소식도 함께 나왔다.",
         "researchedOn": "2026-10-10",
         "session": "2026-10-09",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1832,7 +1832,10 @@ window.TEAM6_DATA = {
         "baseLow": 316.63,
         "lastSwingLow": 316.63
       },
-      "catalyst": null,
+      "catalyst": {
+        "category": 6,
+        "researchedOn": "2026-10-10"
+      },
       "earnings": null,
       "blocked": "등급 C",
       "shadowBook": "gradeC",
@@ -1842,6 +1845,65 @@ window.TEAM6_DATA = {
   ],
   "plansTotal": 11,
   "post": [
+    {
+      "ticker": "HUM",
+      "name": null,
+      "sector": "Healthcare",
+      "industry": "Healthcare Plans",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-10-09",
+      "price": 431.87,
+      "pivot": 419.97,
+      "pivotDate": "2026-09-09",
+      "stop": 406.67,
+      "riskPerSharePct": 3.17,
+      "weightPct": 15.8,
+      "weightCapped": false,
+      "distToPivotPct": 2.83,
+      "distToPivotAdr": 0.78,
+      "extensionAdr": 2.35,
+      "chase": false,
+      "adrPct": 3.64,
+      "ma10": 394.99,
+      "dollarVol20M": 593.2,
+      "liquid": true,
+      "reasons": [
+        "✗ 선행 상승 +23%",
+        "베이스 5.2주",
+        "깊이 12.1%",
+        "저점 상승 1회",
+        "진폭 1.67배 · 10일 종가폭 1.8 ADR",
+        "✗ 10일선 -0.3 ADR · 20일선 -0.2 ADR",
+        "✗ 20일선 기울기 -0.4%"
+      ],
+      "fails": [
+        "priorMove",
+        "surf",
+        "slope"
+      ],
+      "metrics": {
+        "baseBars": 26,
+        "baseWeeks": 5.2,
+        "depthPct": 12.1,
+        "priorMovePct": 22.5,
+        "higherLows": 1,
+        "contraction": 1.67,
+        "closeRange10Adr": 1.8,
+        "surf10": -0.34,
+        "surf20": -0.18,
+        "slope20": -0.4,
+        "baseLow": 369.13,
+        "lastSwingLow": 376.23
+      },
+      "catalyst": {
+        "category": 5,
+        "researchedOn": "2026-10-10"
+      },
+      "earnings": null,
+      "breakDate": "2026-10-09",
+      "barsSinceBreak": 0
+    },
     {
       "ticker": "DINO",
       "name": null,
@@ -2595,16 +2657,16 @@ window.TEAM6_DATA = {
       "barsSinceBreak": 6
     }
   ],
-  "postTotal": 14,
+  "postTotal": 15,
   "counts": {
-    "evaluated": 95,
+    "evaluated": 94,
     "near": 11,
     "watch": 3,
     "A": 1,
     "B": 2,
     "blocked": 8,
-    "post": 14,
-    "far": 38,
+    "post": 15,
+    "far": 36,
     "noBase": 31,
     "noBars": 1
   },
@@ -2766,15 +2828,5 @@ window.TEAM6_DATA = {
     "watch": 4,
     "checked": 0,
     "errors": []
-  },
-  "deep_coverage": {
-    "done": 3,
-    "total": 3,
-    "cap": 10,
-    "pending": 0,
-    "failed": 0,
-    "carried": 1,
-    "ineligible": 0,
-    "note": "그중 1종목은 최근 조사분을 이월했습니다(조사일 표기)."
   }
 };

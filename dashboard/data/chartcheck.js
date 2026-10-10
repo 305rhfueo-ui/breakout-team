@@ -1,5 +1,5 @@
 window.CHARTCHECK_DATA = {
-  "generated": "2026-10-10",
+  "generated": "2026-10-11",
   "items": [
     {
       "ticker": "NSIT",
