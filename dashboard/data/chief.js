@@ -1,5 +1,5 @@
 window.CHIEF_DATA = {
-  "generated": "2026-10-11",
+  "generated": "2026-10-12",
   "market": {
     "verdict": "green",
     "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 16일째) — 사도 되지만 골라서",
@@ -10,9 +10,9 @@ window.CHIEF_DATA = {
     "universe": 1412,
     "picks": 35,
     "tracking": {
-      "active": 91,
+      "active": 92,
       "dormant": 0,
-      "excluded": 72,
+      "excluded": 71,
       "total": 163,
       "unevaluated": [
         "HPE-C"
@@ -21,22 +21,22 @@ window.CHIEF_DATA = {
     },
     "breakouts": 25,
     "epCandidates": 11,
-    "chartCheck": 27,
+    "chartCheck": 28,
     "chartCheckShown": 10,
     "plans": {
-      "evaluated": 94,
-      "near": 11,
+      "evaluated": 95,
+      "near": 12,
       "watch": 3,
       "A": 1,
       "B": 2,
-      "blocked": 8,
+      "blocked": 9,
       "post": 15,
       "far": 36,
       "noBase": 31,
       "noBars": 1
     }
   },
-  "theme": "Software - Infrastructure 9종목(25.7%) · Software - Application 7종목(20%) · Diagnostics & Research 4종목(11.4%)",
+  "theme": "Software - Infrastructure 8종목(22.9%) · Software - Application 7종목(20%) · Diagnostics & Research 4종목(11.4%)",
   "chartCheck": [
     {
       "ticker": "NSIT",
@@ -112,10 +112,10 @@ window.CHIEF_DATA = {
       "source": "T3",
       "reasons": [
         "최근 1주 거래량이 한 달 평균의 0.66배로 줄었다(팔 사람이 줄어듦)",
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.08, 최저 0.07)",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.09, 최저 0.07)",
         "넘어야 할 선 $651.66 바로 아래(-1.45%)",
         "최근 2주 종가가 1.55% 안에서만 움직였다",
-        "1년 최고가의 92.64% 자리"
+        "1년 최고가의 92.73% 자리"
       ],
       "flags": [
         "volDry",
@@ -156,9 +156,9 @@ window.CHIEF_DATA = {
       "source": "T3",
       "reasons": [
         "최근 1주 거래량이 한 달 평균의 0.65배로 줄었다(팔 사람이 줄어듦)",
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.12, 최저 0.12)",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.13, 최저 0.12)",
         "넘어야 할 선 $595.51 바로 아래(-1.59%)",
-        "1년 최고가의 96.48% 자리"
+        "1년 최고가의 98.41% 자리"
       ],
       "flags": [
         "volDry",
@@ -236,7 +236,7 @@ window.CHIEF_DATA = {
       "source": "T3",
       "reasons": [
         "최근 2주 가격 흔들림이 그 전 2주의 0.79배로 줄었다",
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.23, 최저 0.22)",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.24, 최저 0.22)",
         "넘어야 할 선 $1600 바로 아래(-1.14%)"
       ],
       "flags": [
@@ -249,7 +249,7 @@ window.CHIEF_DATA = {
       "barGap": false
     }
   ],
-  "chartCheckTotal": 27,
+  "chartCheckTotal": 28,
   "barsNotice": null,
   "sessionDate": "2026-10-09",
   "sessionMismatch": false,

@@ -1,5 +1,5 @@
 window.TEAM6_DATA = {
-  "generated": "2026-10-11",
+  "generated": "2026-10-12",
   "sessionDate": "2026-10-09",
   "rulesVersion": "0.3",
   "regime": "green",
@@ -1556,7 +1556,7 @@ window.TEAM6_DATA = {
     },
     {
       "ticker": "SMTC",
-      "name": "셈텍",
+      "name": null,
       "sector": "Technology",
       "industry": "Semiconductors",
       "grade": "A",
@@ -1664,6 +1664,64 @@ window.TEAM6_DATA = {
       "shadowBook": null,
       "watch": false,
       "score": 47.4
+    },
+    {
+      "ticker": "CIEN",
+      "name": "시에나",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "grade": "C",
+      "state": "pre",
+      "asOf": "2026-10-09",
+      "price": 449.77,
+      "pivot": 458,
+      "pivotDate": "2026-08-17",
+      "stop": 430.15,
+      "riskPerSharePct": 6.08,
+      "weightPct": 8.2,
+      "weightCapped": false,
+      "distToPivotPct": -1.8,
+      "distToPivotAdr": -0.29,
+      "extensionAdr": 1.87,
+      "chase": false,
+      "adrPct": 6.19,
+      "ma10": 397.69,
+      "dollarVol20M": 1127.8,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +42%",
+        "베이스 7.8주",
+        "✗ 깊이 32%",
+        "저점 상승 2회",
+        "✗ 진폭 1.23배 · 10일 종가폭 3.8 ADR",
+        "✗ 10일선 +1.9 ADR · 20일선 +2.7 ADR",
+        "20일선 기울기 +6.73%"
+      ],
+      "fails": [
+        "depth",
+        "tight",
+        "surf"
+      ],
+      "metrics": {
+        "baseBars": 39,
+        "baseWeeks": 7.8,
+        "depthPct": 32,
+        "priorMovePct": 41.7,
+        "higherLows": 2,
+        "contraction": 1.23,
+        "closeRange10Adr": 3.8,
+        "surf10": 1.87,
+        "surf20": 2.74,
+        "slope20": 6.73,
+        "baseLow": 311.6,
+        "lastSwingLow": 339.33
+      },
+      "catalyst": null,
+      "earnings": null,
+      "blocked": "등급 C",
+      "shadowBook": "gradeC",
+      "watch": false,
+      "score": 38.2
     },
     {
       "ticker": "SYNA",
@@ -1843,11 +1901,11 @@ window.TEAM6_DATA = {
       "score": 35.9
     }
   ],
-  "plansTotal": 11,
+  "plansTotal": 12,
   "post": [
     {
       "ticker": "HUM",
-      "name": null,
+      "name": "휴마나",
       "sector": "Healthcare",
       "industry": "Healthcare Plans",
       "grade": "C",
@@ -2494,7 +2552,7 @@ window.TEAM6_DATA = {
     },
     {
       "ticker": "LITE",
-      "name": null,
+      "name": "루멘텀 홀딩스",
       "sector": "Technology",
       "industry": "Communication Equipment",
       "grade": "A",
@@ -2659,12 +2717,12 @@ window.TEAM6_DATA = {
   ],
   "postTotal": 15,
   "counts": {
-    "evaluated": 94,
-    "near": 11,
+    "evaluated": 95,
+    "near": 12,
     "watch": 3,
     "A": 1,
     "B": 2,
-    "blocked": 8,
+    "blocked": 9,
     "post": 15,
     "far": 36,
     "noBase": 31,

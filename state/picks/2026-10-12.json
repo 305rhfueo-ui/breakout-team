@@ -1,0 +1,405 @@
+{
+  "date": "2026-10-12",
+  "count": 35,
+  "tickers": [
+    "MRNA",
+    "GRAL",
+    "OKTA",
+    "P",
+    "TEAM",
+    "MXL",
+    "AGL",
+    "AUGO",
+    "PENG",
+    "DELL",
+    "ECO",
+    "TWST",
+    "RBRK",
+    "ZS",
+    "MSTR",
+    "CORT",
+    "ILMN",
+    "CRWD",
+    "QLYS",
+    "VICR",
+    "PANW",
+    "CRDO",
+    "SNOW",
+    "LITE",
+    "TTAN",
+    "SHOP",
+    "DDOG",
+    "MANE",
+    "XMTR",
+    "CIEN",
+    "FROG",
+    "TWLO",
+    "MPC",
+    "BAND",
+    "NTRA"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": true
+  },
+  "themes": [
+    {
+      "key": "Industry:Software - Infrastructure",
+      "level": "Industry",
+      "name": "Software - Infrastructure",
+      "count": 8,
+      "sharePct": 22.9,
+      "tickers": [
+        "OKTA",
+        "RBRK",
+        "ZS",
+        "CRWD",
+        "QLYS",
+        "PANW",
+        "TWLO",
+        "BAND"
+      ],
+      "concentration": "high",
+      "periods": {
+        "m1": 7,
+        "m3": 3,
+        "m6": 6
+      }
+    },
+    {
+      "key": "Industry:Software - Application",
+      "level": "Industry",
+      "name": "Software - Application",
+      "count": 7,
+      "sharePct": 20,
+      "tickers": [
+        "TEAM",
+        "MSTR",
+        "SNOW",
+        "TTAN",
+        "SHOP",
+        "DDOG",
+        "FROG"
+      ],
+      "concentration": "high",
+      "periods": {
+        "m1": 3,
+        "m3": 2,
+        "m6": 4
+      }
+    },
+    {
+      "key": "Industry:Diagnostics & Research",
+      "level": "Industry",
+      "name": "Diagnostics & Research",
+      "count": 4,
+      "sharePct": 11.4,
+      "tickers": [
+        "GRAL",
+        "TWST",
+        "ILMN",
+        "NTRA"
+      ],
+      "concentration": "mid",
+      "periods": {
+        "m1": 3,
+        "m3": 3,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 3,
+      "sharePct": 8.6,
+      "tickers": [
+        "MRNA",
+        "CORT",
+        "MANE"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 2,
+        "m3": 1,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Computer Hardware",
+      "level": "Industry",
+      "name": "Computer Hardware",
+      "count": 2,
+      "sharePct": 5.7,
+      "tickers": [
+        "P",
+        "DELL"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 2,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Semiconductors",
+      "level": "Industry",
+      "name": "Semiconductors",
+      "count": 2,
+      "sharePct": 5.7,
+      "tickers": [
+        "MXL",
+        "CRDO"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 2,
+        "m3": 0,
+        "m6": 1
+      }
+    },
+    {
+      "key": "Industry:Communication Equipment",
+      "level": "Industry",
+      "name": "Communication Equipment",
+      "count": 2,
+      "sharePct": 5.7,
+      "tickers": [
+        "LITE",
+        "CIEN"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 1,
+        "m6": 0
+      }
+    }
+  ],
+  "byPeriod": {
+    "m1": [
+      "MRNA",
+      "GRAL",
+      "OKTA",
+      "P",
+      "MXL",
+      "PENG",
+      "TWST",
+      "RBRK",
+      "ZS",
+      "ILMN",
+      "CRWD",
+      "QLYS",
+      "VICR",
+      "PANW",
+      "CRDO",
+      "TTAN",
+      "SHOP",
+      "DDOG",
+      "MANE",
+      "XMTR",
+      "CIEN",
+      "TWLO"
+    ],
+    "m3": [
+      "MRNA",
+      "GRAL",
+      "OKTA",
+      "P",
+      "TEAM",
+      "AUGO",
+      "DELL",
+      "ECO",
+      "TWST",
+      "RBRK",
+      "ZS",
+      "MSTR",
+      "LITE",
+      "MPC",
+      "NTRA"
+    ],
+    "m6": [
+      "MRNA",
+      "GRAL",
+      "OKTA",
+      "P",
+      "TEAM",
+      "MXL",
+      "AGL",
+      "PENG",
+      "DELL",
+      "TWST",
+      "RBRK",
+      "CORT",
+      "CRWD",
+      "QLYS",
+      "PANW",
+      "SNOW",
+      "DDOG",
+      "XMTR",
+      "FROG",
+      "MPC",
+      "BAND"
+    ]
+  },
+  "cross": {
+    "persistent": [
+      "MRNA",
+      "GRAL",
+      "OKTA",
+      "P",
+      "TWST",
+      "RBRK"
+    ],
+    "newEntrants": [
+      "ILMN",
+      "VICR",
+      "CRDO",
+      "TTAN",
+      "SHOP",
+      "MANE",
+      "CIEN",
+      "TWLO"
+    ],
+    "midTerm": [
+      "TEAM",
+      "AUGO",
+      "DELL",
+      "ECO",
+      "MSTR",
+      "LITE",
+      "MPC",
+      "NTRA"
+    ],
+    "fading": [
+      "AGL",
+      "CORT",
+      "SNOW",
+      "FROG",
+      "BAND"
+    ]
+  },
+  "lists": {
+    "dollar": [
+      "PLTR",
+      "MRNA",
+      "LITE",
+      "SNOW",
+      "HUM",
+      "CIEN",
+      "PANW",
+      "AMT",
+      "BABA",
+      "CCI",
+      "DDOG",
+      "NET",
+      "ZS",
+      "AKAM",
+      "OKTA",
+      "TWST",
+      "HUT",
+      "ILMN",
+      "TLN",
+      "PENG"
+    ],
+    "m1": [
+      "GRAL",
+      "JDZG",
+      "P",
+      "MRNA",
+      "PENG",
+      "PTC",
+      "RBRK",
+      "ZS",
+      "IMOS",
+      "OKTA",
+      "ILMN",
+      "QLYS",
+      "VICR",
+      "CRWD",
+      "CRDO",
+      "TTAN",
+      "SHOP",
+      "DDOG",
+      "MANE",
+      "XMTR",
+      "MXL",
+      "CIEN",
+      "SNPS",
+      "TWLO",
+      "PANW",
+      "FPS",
+      "TWST",
+      "PLTR"
+    ],
+    "m3": [
+      "MRNA",
+      "P",
+      "TEAM",
+      "GRAL",
+      "AUGO",
+      "ECO",
+      "TWST",
+      "MSTR",
+      "FET",
+      "HPE-C",
+      "ZS",
+      "SMCIP",
+      "ESTC",
+      "OKTA",
+      "RBRK",
+      "LITE",
+      "PLTR",
+      "PAYC",
+      "PTC",
+      "HAE",
+      "AXTI",
+      "VEEV",
+      "DELL",
+      "MPC",
+      "VEON",
+      "NTAP",
+      "NTRA"
+    ],
+    "m6": [
+      "MRNA",
+      "OKTA",
+      "MXL",
+      "AGL",
+      "TEAM",
+      "DELL",
+      "GRAL",
+      "PENG",
+      "CORT",
+      "TWST",
+      "HPE-C",
+      "CRWD",
+      "PANW",
+      "QLYS",
+      "SNOW",
+      "FTNT",
+      "HNGE",
+      "RBRK",
+      "MU",
+      "P",
+      "DDOG",
+      "FROG",
+      "NTAP",
+      "XMTR",
+      "AMD",
+      "BAND",
+      "NSIT",
+      "MPC"
+    ],
+    "all": [
+      "MRNA",
+      "OKTA",
+      "GRAL",
+      "TWST",
+      "RBRK",
+      "P"
+    ]
+  }
+}

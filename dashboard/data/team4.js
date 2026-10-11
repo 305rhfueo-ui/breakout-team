@@ -1,5 +1,5 @@
 window.TEAM4_DATA = {
-  "generated": "2026-10-11",
+  "generated": "2026-10-12",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2,
@@ -13,7 +13,7 @@ window.TEAM4_DATA = {
       "sector": "Real Estate",
       "industry": "REIT - Specialty",
       "price": 79.63999938964844,
-      "marketCap": "29.36B",
+      "marketCap": "33.88B",
       "volx": 3.67,
       "volSurgeWk": 4.16,
       "aboveMa150": true,
@@ -70,6 +70,116 @@ window.TEAM4_DATA = {
         },
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
+        "researchedOn": "2026-10-10",
+        "carried": true
+      }
+    },
+    {
+      "ticker": "HUM",
+      "sector": "Healthcare",
+      "industry": "Healthcare Plans",
+      "price": 431.8699951171875,
+      "marketCap": "51.86B",
+      "volx": 3.63,
+      "volSurgeWk": 2.84,
+      "aboveMa150": true,
+      "brk60d": true,
+      "clsPos": 12.19,
+      "high52": 94.6,
+      "adr": 3.64,
+      "targetStatus": false,
+      "saleCy": 25.52,
+      "saleNy": 3.41,
+      "epsCy": -46.57,
+      "epsNy": 85.34,
+      "cyTrend": 0.06,
+      "nyTrend": 2.45,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          26.18,
+          23.47,
+          11.3
+        ],
+        "ni": [
+          27.34,
+          -4.66,
+          "적자확대"
+        ],
+        "opm": [
+          3.33,
+          4.42,
+          -2.49
+        ],
+        "updated": "2026-09-08 07:11:21"
+      },
+      "catalyst": {
+        "status": "done",
+        "ticker": "HUM",
+        "category": 5,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Humana 8-K (2026-10-09)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000057/hum-20261009.htm",
+                "date": "2026-10-09",
+                "quote": "has exceeded its goal of Top Quartile results",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "10월 9일 공시에서 Humana는 정부(CMS)가 10월 8일 발표한 2027년 메디케어 어드밴티지 평가 등급에서 상위 25% 목표를 넘겼다고 밝혔다.",
+            "stripped": true
+          },
+          {
+            "id": "c2",
+            "statement": "회사는 이 등급 덕에 2028년에 일회성 이익이 생기며, 이를 일회성 투자와 주주환원에 쓸 계획이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Humana 8-K (2026-10-09)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000057/hum-20261009.htm",
+                "date": "2026-10-09",
+                "quote": "one-time investments and return to shareholders",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "같은 공시에서 2026년 조정 주당순이익 9달러 이상 가이던스를 유지했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Humana 8-K (2026-10-09)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000057/hum-20261009.htm",
+                "date": "2026-10-09",
+                "quote": "affirms its guidance of at least $9.00 in adjusted earnings per common share",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Humana는 미국 민간 건강보험사로, 메디케어 어드밴티지(고령자용 민간 건강보험) 가입자의 보험료로 주로 돈을 번다.",
+        "volumeExplanation": "10월 8일 정부가 2027년 메디케어 평가 등급을 발표했고, 10월 9일 Humana가 상위 25% 목표 초과와 2028년 일회성 이익 및 주주환원 계획을 공시했다. 보험료 수입과 보너스에 직결되는 등급이 좋게 나와 거래량이 늘었다. 이 이야기가 맞는지는 2028년 이익 규모와 12월 10일 투자자 설명회에서 확인된다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [],
+          "reason": "claim c1-c3 모두 quote와 일치하여 유효함. 다만 volumeExplanation이 claims 범위를 벗어남"
+        },
+        "categoryName": "매크로·정책·산업 돌파",
+        "isHighlight": true,
         "researchedOn": "2026-10-10",
         "carried": true
       }
@@ -483,11 +593,77 @@ window.TEAM4_DATA = {
       }
     },
     {
+      "ticker": "ELV",
+      "sector": "Healthcare",
+      "industry": "Healthcare Plans",
+      "price": 412.70001220703125,
+      "marketCap": "89.50B",
+      "volx": 1.77,
+      "volSurgeWk": 2.29,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 66.74,
+      "high52": 95.02,
+      "adr": 2.36,
+      "targetStatus": false,
+      "saleCy": -0.58,
+      "saleNy": 1.93,
+      "epsCy": -10.09,
+      "epsNy": 8.65,
+      "cyTrend": 0.27,
+      "nyTrend": -0.06,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          1.4,
+          2.64,
+          9.47
+        ],
+        "ni": [
+          -16.06,
+          -19.19,
+          30.86
+        ],
+        "opm": [
+          4.56,
+          5.3,
+          1.17
+        ],
+        "updated": "2026-09-07 07:23:36"
+      },
+      "catalyst": {
+        "status": "done",
+        "ticker": "ELV",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "ELV(엘리번스 헬스)는 미국 대형 건강보험사로, 보험료를 받아 가입자의 의료비를 대신 내 주며 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "category 6과 no_source 상태가 적절함. claims 없음"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-10",
+        "carried": true
+      }
+    },
+    {
       "ticker": "ATEX",
       "sector": "Communication Services",
       "industry": "Telecom Services",
       "price": 84.52999877929688,
-      "marketCap": "1.58B",
+      "marketCap": "1.65B",
       "volx": 1.77,
       "volSurgeWk": 2.19,
       "aboveMa150": true,
@@ -613,182 +789,6 @@ window.TEAM4_DATA = {
         "researchedOn": "2026-10-10",
         "carried": true
       }
-    },
-    {
-      "ticker": "ELV",
-      "sector": "Healthcare",
-      "industry": "Healthcare Plans",
-      "price": 400.94000244140625,
-      "marketCap": "89.50B",
-      "volx": null,
-      "volSurgeWk": 2.29,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 0,
-      "high52": 92.31,
-      "adr": 2.26,
-      "targetStatus": false,
-      "saleCy": -0.58,
-      "saleNy": 1.93,
-      "epsCy": -10.09,
-      "epsNy": 8.65,
-      "cyTrend": 0.27,
-      "nyTrend": -0.06,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          1.4,
-          2.64,
-          9.47
-        ],
-        "ni": [
-          -16.06,
-          -19.19,
-          30.86
-        ],
-        "opm": [
-          4.56,
-          5.3,
-          1.17
-        ],
-        "updated": "2026-09-07 07:23:36"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "ELV",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "ELV(엘리번스 헬스)는 미국 대형 건강보험사로, 보험료를 받아 가입자의 의료비를 대신 내 주며 돈을 법니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "category 6과 no_source 상태가 적절함. claims 없음"
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-10",
-        "carried": true
-      }
-    },
-    {
-      "ticker": "HUM",
-      "sector": "Healthcare",
-      "industry": "Healthcare Plans",
-      "price": 387.1199951171875,
-      "marketCap": "51.86B",
-      "volx": null,
-      "volSurgeWk": 2.84,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 0,
-      "high52": 90.26,
-      "adr": 3.49,
-      "targetStatus": false,
-      "saleCy": 25.52,
-      "saleNy": 3.41,
-      "epsCy": -46.57,
-      "epsNy": 85.34,
-      "cyTrend": 0.06,
-      "nyTrend": 2.45,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          26.18,
-          23.47,
-          11.3
-        ],
-        "ni": [
-          27.34,
-          -4.66,
-          "적자확대"
-        ],
-        "opm": [
-          3.33,
-          4.42,
-          -2.49
-        ],
-        "updated": "2026-09-08 07:11:21"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "HUM",
-        "category": 5,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [
-              {
-                "title": "Humana 8-K (2026-10-09)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000057/hum-20261009.htm",
-                "date": "2026-10-09",
-                "quote": "has exceeded its goal of Top Quartile results",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ],
-            "statementOriginal": "10월 9일 공시에서 Humana는 정부(CMS)가 10월 8일 발표한 2027년 메디케어 어드밴티지 평가 등급에서 상위 25% 목표를 넘겼다고 밝혔다.",
-            "stripped": true
-          },
-          {
-            "id": "c2",
-            "statement": "회사는 이 등급 덕에 2028년에 일회성 이익이 생기며, 이를 일회성 투자와 주주환원에 쓸 계획이다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Humana 8-K (2026-10-09)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000057/hum-20261009.htm",
-                "date": "2026-10-09",
-                "quote": "one-time investments and return to shareholders",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "같은 공시에서 2026년 조정 주당순이익 9달러 이상 가이던스를 유지했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Humana 8-K (2026-10-09)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000057/hum-20261009.htm",
-                "date": "2026-10-09",
-                "quote": "affirms its guidance of at least $9.00 in adjusted earnings per common share",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "company": "Humana는 미국 민간 건강보험사로, 메디케어 어드밴티지(고령자용 민간 건강보험) 가입자의 보험료로 주로 돈을 번다.",
-        "volumeExplanation": "10월 8일 정부가 2027년 메디케어 평가 등급을 발표했고, 10월 9일 Humana가 상위 25% 목표 초과와 2028년 일회성 이익 및 주주환원 계획을 공시했다. 보험료 수입과 보너스에 직결되는 등급이 좋게 나와 거래량이 늘었다. 이 이야기가 맞는지는 2028년 이익 규모와 12월 10일 투자자 설명회에서 확인된다.",
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [],
-          "reason": "claim c1-c3 모두 quote와 일치하여 유효함. 다만 volumeExplanation이 claims 범위를 벗어남"
-        },
-        "categoryName": "매크로·정책·산업 돌파",
-        "isHighlight": true,
-        "researchedOn": "2026-10-10",
-        "carried": true
-      }
     }
   ],
   "excludedEtf": [
@@ -818,17 +818,5 @@ window.TEAM4_DATA = {
     "carried": 11,
     "ineligible": 0,
     "note": "그중 11종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
-  },
-  "llmCarried": {
-    "highlights": [
-      {
-        "ticker": "HUM",
-        "category": 5,
-        "oneLine": "정부 메디케어 평가 등급이 목표를 넘어 2028년 일회성 이익 예고, 올해 이익 전망은 유지"
-      }
-    ],
-    "sectorSignal": "강조할 호재는 건강보험(메디케어 민영 상품) 업종 Humana 한 건뿐이라 업종 쏠림을 말할 수 없다. 실적 호재(어닝 서프라이즈·가이던스 상향)로 분류된 종목은 오늘 없다.",
-    "caution": "Humana 건은 기술 돌파가 아니라 정부 평가 등급(정책) 호재이고, 이익은 2028년에 생기는 일회성이라 올해 실적을 바꾸진 않는다. 나머지 종목은 근거가 확인되지 않아(\"근거 없음\") 제외했고, 차트 국면은 판단하지 않았으니 직접 확인해야 한다.",
-    "researchedOn": "2026-10-10"
   }
 };
