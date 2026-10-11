@@ -2610,6 +2610,48 @@
       "evid": "c1ccbcfd280e9c6a"
     }
   },
+  "team5": {
+    "Energy|Oil & Gas Refining & Marketing": {
+      "last": "2026-10-12",
+      "count": 1
+    },
+    "Technology|Computer Hardware": {
+      "last": "2026-10-12",
+      "count": 1
+    },
+    "Technology|Software - Infrastructure": {
+      "last": "2026-10-12",
+      "count": 1
+    },
+    "Healthcare|Diagnostics & Research": {
+      "last": "2026-10-12",
+      "count": 1
+    },
+    "Technology|Software - Application": {
+      "last": "2026-10-12",
+      "count": 1
+    },
+    "Technology|Semiconductors": {
+      "last": "2026-10-12",
+      "count": 1
+    },
+    "Healthcare|Healthcare Plans": {
+      "last": "2026-10-12",
+      "count": 1
+    },
+    "Technology|Electronics & Computer Distribution": {
+      "last": "2026-10-12",
+      "count": 1
+    },
+    "Healthcare|Health Information Services": {
+      "last": "2026-10-12",
+      "count": 1
+    },
+    "Healthcare|Biotechnology": {
+      "last": "2026-10-12",
+      "count": 1
+    }
+  },
   "team6": {
     "QLYS": {
       "last": "2026-10-03",
