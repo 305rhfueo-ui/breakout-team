@@ -5,7 +5,7 @@ argument-hint: "[light | full]  (기본 full)"
 
 # start breakout
 
-`breakout-team/` 의 팀 시스템(한별·도윤·수아·재민·서준 + 실장)을 실행한다. (2026-10-06 5팀 미르 제거) 사용자가 `start breakout`, `브레이크아웃 실행`,
+`breakout-team/` 의 팀 시스템(한별·도윤·수아·재민·하린·서준 + 실장)을 실행한다. (2026-10-06 5팀 미르 제거 → 2026-10-12 5팀 하린(주도 업종) 신설) 사용자가 `start breakout`, `브레이크아웃 실행`,
 `/start-breakout` 중 무엇으로 부르든 이 절차를 따른다.
 
 REPO 경로: `~/AI/breakout-team`
@@ -65,6 +65,7 @@ node scripts/prepare-deepdive-args.js   # 6팀 심층 분석 인자 → state/ll
 Workflow({ scriptPath: '<REPO>/scripts/workflows/team1-news.js',    args: {...} })
 Workflow({ scriptPath: '<REPO>/scripts/workflows/team2-research.js', args: {...} })
 Workflow({ scriptPath: '<REPO>/scripts/workflows/team4-catalyst.js', args: {...} })
+Workflow({ scriptPath: '<REPO>/scripts/workflows/team5-industry.js', args: {...} })   ← team5args.items 가 있을 때만
 Workflow({ scriptPath: '<REPO>/scripts/workflows/team6-deepdive.js', args: {...} })   ← 관심 종목이 있을 때만
 ```
 
@@ -80,6 +81,10 @@ Workflow({ scriptPath: '<REPO>/scripts/workflows/team6-deepdive.js', args: {...}
 - `team2-research`: `_args.json` 의 `team2args` 를 그대로 (picks 는 detail 없는 경량 · argsDir·listsFile 포함).
   종목 리서치(순환 20) + **도윤 5개 목록 테마**(거래대금 상위·RS 1/3/6개월·세 기간 공통 — 목록당 1명) 를 한다. 결과의 `listThemes`.
 - `team4-catalyst`: `_args.json` 의 `team4args` 를 그대로 (argsDir 포함)
+- `team5-industry` (2026-10-12, 하린): `_args.json` 의 `team5args` 를 그대로. RS 사이트 FRANK 1~10 업종 중 **새로 들어왔거나 3거래일 지난 업종만**
+  (`items`, 업종당 소넷 1명 + 하이쿠 팩트체크). `items` 가 비어 있으면 띄우지 않는다. 근거 묶음은 `state/llm-in/_t5/*.json`
+  (멤버 상위 12종목의 CNBC 기사·연합인포맥스 리포트·나스닥 기사 + 업종 검색어 리포트). 결과의 주도주는 build-chief-report 가
+  그 업종 멤버인지·검증된 근거가 남았는지 다시 확인해 지운다.
 - `team6-deepdive` (2026-10-03): **`node scripts/prepare-deepdive-args.js`** 를 `prepare-llm-args.js` 다음에 실행하면
   `state/llm-in/_t6args.json` 과 `_t6/{TICKER}.json`·차트 PNG 가 만들어진다. 그 파일 내용을 args 로 그대로 넘긴다.
   `items` 가 비어 있으면(관심 종목 없음 · 전부 이월) 이 워크플로는 **띄우지 않는다.**
@@ -88,7 +93,7 @@ Workflow({ scriptPath: '<REPO>/scripts/workflows/team6-deepdive.js', args: {...}
   결과는 build-chief-report 가 서준 종목은 team6.js 에, 목록 종목은 team2.js 에 붙인다.
   기준은 `docs/기준-쿨라매기-차트.md`·`docs/기준-CANSLIM-재무.md` — 에이전트가 매번 읽는다.
 
-4개(관심 종목이 있으면 심층 분석 포함)는 서로 독립이므로 **한 메시지에서 병렬로** 띄운다.
+1·2·4·5팀과 심층 분석(관심 종목이 있을 때)은 서로 독립이므로 **한 메시지에서 병렬로** 띄운다.
 
 **조사 대상은 매일 순환하고, TTL(5거래일) 안에 조사한 대상은 건너뛴다.** `prepare-llm-args.js` 가
 ① 신규 ② TTL 경과 ③ 변화(오늘 돌파·차트확인 진입·최근 8-K 실적) 만 남기고, 나머지는
@@ -135,7 +140,7 @@ Workflow({ scriptPath: '<REPO>/scripts/workflows/chief-report.js',
 
 ### 4. 검증 + 병합
 
-결과를 하나로 합쳐 `state/llm-in/{YYYY-MM-DD}.json` 에 저장한 뒤 (키: `team1`·`team2`·`team4`·`chief`, 심층 분석을 띄웠으면 `team6` 도):
+결과를 하나로 합쳐 `state/llm-in/{YYYY-MM-DD}.json` 에 저장한 뒤 (키: `team1`·`team2`·`team4`·`chief`, 5팀·심층 분석을 띄웠으면 `team5`·`team6` 도):
 
 ```bash
 node scripts/build-chief-report.js
@@ -160,6 +165,7 @@ push 를 원하지 않으면 `node scripts/build-chief-report.js --no-git`.
   (공통 업종·테마가 없으면 "없음"이라고). 사이트 시장국면(`siteCondition`)은 QQQ 판정과 병기
 - 3팀 오늘 배제된 종목과 사유, 7주 고점 상향 마감 종목(돌파봉 거래량 확인 수)
 - 4팀 ①어닝서프라이즈 ⑤산업돌파 하이라이트
+- 🏭 **5팀 하린 업종 순위 1~3위** — 업종 이름(한국어) · 한 달 새 순위 변화 · 왜 상위인지 결론 한 줄 · 주도주 티커. 📌 요약의 5팀 줄을 그대로 쓰고 새 사실을 더하지 마라. 근거 없음이면 근거 없음이라고
 - 💹 **6팀 오늘 밤 관심 종목** — 종목마다 등급 · 피벗(현재가에서 몇 %) · 예비 손절 · 리스크/주 · 비중 · 뺀 종목과 이유.
   모의 보유·어젯밤 체결·성적이 있으면 같이. 등급을 추천 강도처럼 말하지 마라(`/team6` 의 보고 규칙).
   사용자가 원하면 `/chart-read` 로 관심 종목 차트를 그려 직접 읽고 소견을 붙인다

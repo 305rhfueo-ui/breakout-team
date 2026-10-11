@@ -182,12 +182,30 @@ function catalystSection(t4, dateStr) {
   return S;
 }
 
+// 5팀 주도주 검사 — AI 가 고른 주도주는 ① 그 업종 멤버여야 하고 ② 검증을 통과한 출처 주장이 하나 이상 있어야 한다.
+const { isPriceNoise } = require('./lib/industry-ko');
+function vetLeaders(leaders, members) {
+  const byT = new Map((members || []).map((m) => [m.ticker, m]));
+  const kept = [], dropped = [];
+  for (const l of leaders || []) {
+    const t = String((l && l.ticker) || '').toUpperCase();
+    // 주가 움직임만 전하는 제목(신고가·N% 상승·투자의견 등급)뿐이거나 "기사에 태그됐다"는 주장은 주도주 근거가 아니다
+    const why = ((l && l.why) || []).filter((c) => c && c.evidence_level === 'sourced' && (c.sources || []).length
+      && !/태그/.test(c.statement || '') && c.sources.some((x) => !isPriceNoise(x.title) && !isPriceNoise(x.quote)));
+    if (!byT.has(t)) { dropped.push({ ticker: t, why: 'not_member' }); continue; }
+    if (!why.length) { dropped.push({ ticker: t, why: 'no_source' }); continue; }
+    const m = byT.get(t);
+    kept.push({ ...l, ticker: t, why, rnk6: m.rnk6 ?? null, rnk1: m.rnk1 ?? null, name: m.name || null });
+  }
+  return { kept, dropped };
+}
+
 // ── 📌 오늘의 요약 — 리포트 md 맨 위에 붙는 한 화면짜리 요약 ──
 // 채팅 보고(start-breakout.md §5)와 같은 순서다. LLM 을 부르지 않고 이미 계산된 숫자만 조립한다.
 // 실장 산문은 headline 한 줄과 todayFocus 티커만 쓴다 — 차트 결론 어휘가 새는 경로를 늘리지 않는다.
 const DIGEST_RE = /<!-- digest:start -->[\s\S]*?<!-- digest:end -->\n*/g;
 
-function digestSection({ t1, t2, t3, t4, t6, c, chief, report, leaks }) {
+function digestSection({ t1, t2, t3, t4, t5, t6, c, chief, report, leaks }) {
   const L = ['<!-- digest:start -->', '## 📌 오늘의 요약', ''];
   const tickers = (arr) => (arr || []).map((x) => x.ticker).join(' · ');
 
@@ -245,6 +263,16 @@ function digestSection({ t1, t2, t3, t4, t6, c, chief, report, leaks }) {
     if (none.length) L.push(`  - ⑥ 근거 없음 ${none.length}종목: ${tickers(none)}`);
   }
 
+  // 5팀 하린 (2026-10-12) — FRANK 상위 3 업종과 결론 한 줄
+  if (t5 && (t5.industries || []).length) {
+    L.push(`- **5팀 업종 (RS 사이트 FRANK 상위)**${t5.degraded ? ' — ⚠️ 사이트 데이터 갱신 실패, 전날 값' : ''}`);
+    for (const x of t5.industries.slice(0, 3)) {
+      const r = x.report && x.report.status === 'done' ? x.report : null;
+      const ch = x.frank25dChg == null ? '' : x.frank25dChg > 0 ? ` (한 달 새 ${x.frank25dChg}계단↑)` : x.frank25dChg < 0 ? ` (${-x.frank25dChg}계단↓)` : '';
+      L.push(`  - ${x.frank}위 ${x.industry}${ch} — ${r ? `${r.headline}${(r.leaders || []).length ? ` · 주도주 ${r.leaders.map((l) => l.ticker).join(' · ')}` : ''}${r.carried ? ` (${r.researchedOn} 분석 이월)` : ''}` : '분석 대기'}`);
+    }
+  }
+
   const d6 = require('./lib/team6').digestLine(t6);
   if (d6) L.push(...d6);
 
@@ -288,7 +316,7 @@ async function main() {
 
   // ── 0) 재사용 표기 ──
   const reuse = {};
-  for (const k of ['team1', 'team2', 'team4', 'team6', 'chief']) {
+  for (const k of ['team1', 'team2', 'team4', 'team5', 'team6', 'chief']) {
     const src = llm[k] && llm[k]._reusedFrom;
     if (src) reuse[k] = src;
   }
@@ -419,6 +447,46 @@ async function main() {
       });
       writeWindowData(f, 'TEAM4_DATA', d);
       merged.push(`team4(촉매 ${done}${carried ? ` · 이월 ${carried}` : ''}${failedCount ? ` · 실패 ${failedCount}` : ''})`);
+    }
+  }
+
+  // 5팀 하린 — FRANK 상위 업종 리포트 (2026-10-12). 출처 붙은 주장은 verifyPayload 가 이미 봤다(URL·quote·숫자).
+  //   여기서 ① headline·summary 숫자를 그 업종 주장+근거 묶음과 대조 ② 주도주가 그 업종 멤버인지 ③ 근거가 다 지워진 주도주 제거.
+  if (payload.team5) {
+    const f = path.join(paths.dashboardData, 'team5.js');
+    const d = loadWindowData(f, 'TEAM5_DATA');
+    if (d) {
+      guardDate(d, '5팀');
+      const NG5 = require('./lib/number-guard');
+      const slug = (k) => k.replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      const failed5 = new Set(payload.team5.failed || []);
+      let done = 0, dropped = 0, cut = 0;
+      const byKey = new Map((payload.team5.industries || []).map((x) => [x.key, x]));
+      for (const ind of d.industries || []) {
+        const r = byKey.get(ind.key);
+        if (!r) {
+          if (failed5.has(ind.key) && !(ind.report && ind.report.status === 'done')) ind.report = { status: 'failed', note: '업종 분석 실패 (에이전트 오류) — 다음 실행에서 다시' };
+          continue;
+        }
+        const { kept: leaders, dropped: dl } = vetLeaders(r.leaders, ind.members);
+        for (const x of dl) say(x.why === 'not_member' ? 'WARN' : 'SYSTEM', `5팀 ${ind.industry}: 주도주 ${x.ticker} ${x.why === 'not_member' ? '는 이 업종 종목이 아니다' : '근거가 검증에서 다 지워졌다'} — 제거`);
+        dropped += dl.length;
+        const input = readJson(path.join(paths.llmInDir, '_t5', `${slug(ind.key)}.json`), null);
+        const corpus = NG5.corpusOf(input, r.whyLeading, leaders, r.risks);
+        for (const k of ['headline', 'summary']) {
+          const c = NG5.checkText(r[k], corpus);
+          if (c.cut.length) { r[k] = c.text; cut += c.cut.length; for (const z of c.cut) say('SYSTEM', `  ✂ 5팀 ${ind.industry} ${z.sentence.slice(0, 60)} (없음: ${z.missing.join(', ')})`); }
+        }
+        const real = (r.whyLeading || []).filter((c) => c.evidence_level === 'sourced');
+        if (!real.length) { r.headline = '근거 없음 — 출처 검증을 통과한 상위 이유가 없다'; r.summary = ''; }
+        ind.report = { status: 'done', researchedOn: dateStr, carried: false, headline: r.headline, summary: r.summary,
+          whyLeading: r.whyLeading, leaders, risks: r.risks || [], sourceGap: r.sourceGap || '', factcheck: r.factcheck || null,
+          evidenceCount: input ? Object.values(input.evidence || {}).reduce((a, e) => a + e.cnbc.length + e.reports.length + e.news.length, 0) + (input.industryReports || []).length : null };
+        done++;
+      }
+      recordResearched(rc, 'team5', [...byKey.keys()].filter((k) => (d.industries || []).some((x) => x.key === k)), dateStr);
+      writeWindowData(f, 'TEAM5_DATA', d);
+      merged.push(`team5(업종 ${done}${failed5.size ? ` · 실패 ${failed5.size}` : ''}${dropped ? ` · 주도주 제거 ${dropped}` : ''}${cut ? ` · 숫자 대조 삭제 ${cut}` : ''})`);
     }
   }
 
@@ -573,7 +641,7 @@ async function main() {
       out += (S.length ? '\n' : '') + L.join('\n');
       merged.push('리포트.md(실장)');
     }
-    out = insertDigest(out, digestSection({ t1, t2, t3, t4, c: cNode, chief: payload.chief, report, leaks }));
+    out = insertDigest(out, digestSection({ t1, t2, t3, t4, t5: loadWindowData(path.join(paths.dashboardData, 'team5.js'), 'TEAM5_DATA'), c: cNode, chief: payload.chief, report, leaks }));
     merged.push('리포트.md(요약)');
     fs.writeFileSync(mdFile, out, 'utf8');
   }
@@ -617,4 +685,4 @@ async function main() {
 }
 
 if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });
-module.exports = { main, digestSection, insertDigest };
+module.exports = { main, digestSection, insertDigest, vetLeaders };

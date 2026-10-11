@@ -22,7 +22,7 @@ let pass = 0, fail = 0, skip = 0;
 const ok = (name, fn) => { try { fn(); console.log('  ✅ ' + name); pass++; } catch (e) { console.log('  ❌ ' + name + '\n     ' + e.message); fail++; } };
 const skipIt = (name, why) => { console.log('  ⏭️  ' + name + '  (' + why + ')'); skip++; };
 
-function loadRoom() {
+function loadRoom(pre = '') {
   const html = fs.readFileSync(path.join(REPO, 'index.html'), 'utf8');
   const script = /<script(?![^>]*\bsrc=)[^>]*>([\s\S]*?)<\/script>/.exec(html)[1];
   const mkStyle = () => { const o = {}; o.setProperty = (k, v) => { o[k] = v; }; o.getPropertyValue = (k) => o[k] || ''; return o; };
@@ -36,10 +36,11 @@ function loadRoom() {
     matchMedia: () => ({ matches: false, addEventListener() {} }), innerWidth: 1180, innerHeight: 900, addEventListener() {} };
   const ctx = vm.createContext(win);
   ctx.window = win; ctx.document = doc;
-  for (const f of ['industry-ko.js', 'chief.js', 'team1.js', 'team2.js', 'team3.js', 'team4.js', 'team6.js', 'chartcheck.js']) {
+  for (const f of ['industry-ko.js', 'chief.js', 'team1.js', 'team2.js', 'team3.js', 'team4.js', 'team5.js', 'team6.js', 'chartcheck.js']) {
     const p = path.join(REPO, 'dashboard', 'data', f);
     if (fs.existsSync(p)) vm.runInContext(fs.readFileSync(p, 'utf8'), ctx, { filename: f });
   }
+  if (pre) vm.runInContext(pre, ctx);
   vm.runInContext(script, ctx, { filename: 'index.html' });
   return ctx;
 }
@@ -57,6 +58,30 @@ const h2 = doneAll.map((p) => popup(p.ticker)).join('\n'), h4 = ctx.bodyFor('t4'
       (bodyFor 는 function 선언이라 되고, 그래서 헷갈리기 쉽다). 여기서 같은 규칙을 복제한다. */
 const E = (x) => String(x == null ? '' : x)
   .replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+console.log('\n[5팀] 하린 — FRANK 상위 업종 리포트가 렌더되는가 (2026-10-12)');
+{
+  const fx = { generated: '2026-10-12', siteUpdated: 'x', degraded: false, d25: '2026-09-15', industries: [
+    { key: 'Energy|Oil & Gas Refining & Marketing', sector: 'Energy', industry: 'Oil & Gas Refining & Marketing', frank: 1, frank25dChg: 2, finalWrs: 0.5074, count: 7, winRate: 100,
+      members: [{ ticker: 'VLO', name: '발레로', rnk6: 1.2, rnk3: 2, rnk1: 5, high52: 98, ret1d: 1.1, dollarVolM: 900 }, { ticker: 'PBF', rnk6: 4 }],
+      report: { status: 'done', researchedOn: '2026-10-12', carried: false, headline: 'H5SENT 정제마진 강세', summary: 'S5SENT 요약',
+        whyLeading: [{ id: 'w1', statement: 'W5SENT 이유', evidence_level: 'sourced', sources: [{ title: 't', publisher: 'CNBC', url: 'https://www.cnbc.com/a.html', date: '2026-10-01', quote: 'Q5SENT quote text here' }] }],
+        leaders: [{ ticker: 'VLO', role: 'R5SENT 역할', rnk6: 1.2, why: [{ id: 'l1a', statement: 'L5SENT 근거', evidence_level: 'sourced', sources: [{ title: 't', publisher: 'iM증권(연합인포맥스)', url: 'https://rreport.einfomax.co.kr/x.pdf', date: '2026-09-16', quote: '정제마진 강세 속 Gulf Coast' }] }] }],
+        risks: [], sourceGap: '', factcheck: { verdict: 'pass', removed: [] }, evidenceCount: 12 } },
+    { key: 'Tech|Chips', sector: 'Tech', industry: 'Semiconductors', frank: 2, frank25dChg: -1, finalWrs: 0.3, count: 42, winRate: 80, members: [{ ticker: 'MU', rnk6: 0.5 }], report: null },
+  ] };
+  const c5 = loadRoom(`window.TEAM5_DATA = ${JSON.stringify(fx)};`);
+  const b = c5.bodyFor('t5');
+  ok('순위표·결론·이유·인용·주도주·RS 순위·멤버 표가 다 나온다', () => {
+    for (const k of ['H5SENT', 'S5SENT', 'W5SENT', 'Q5SENT', 'L5SENT', 'R5SENT', '6개월 RS 상위 1.2%', 'data-tk="VLO"', 'data-tk="PBF"', '정유·석유제품 판매', '▲2'])
+      assert.ok(b.includes(k), `없음: ${k}`);
+  });
+  ok('분석 전 업종은 "분석 전"으로, 지어낸 내용 없이', () => {
+    assert.ok(b.includes('아직 분석 전입니다'));
+    assert.ok(b.includes('data-tk="MU"'));
+  });
+  ok('5팀 카드가 있다 (하린 · 1위 업종 표시)', () => { c5.cards(); const t = c5.document.getElementById('team').innerHTML; assert.ok(t.includes('하린') && t.includes('data-id="t5"') && t.includes('정유·석유제품 판매'), 'card 없음'); });
+}
 
 console.log('\n[1] 2팀 — 회사 설명·근거·인용문이 실제로 렌더되는가');
 const done2 = doneAll;

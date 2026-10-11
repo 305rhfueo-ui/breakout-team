@@ -17,8 +17,10 @@ const { paths, loadEnv, ensureDir, say, readJson } = require('./lib/util');
 const rot = require('./lib/research-rotation');
 const cal = require('./lib/market-calendar');
 
-function loadWindowData(file, varName) {
-  const src = fs.readFileSync(path.join(paths.dashboardData, file), 'utf8');
+function loadWindowData(file, varName, { optional = false } = {}) {
+  const fp = path.join(paths.dashboardData, file);
+  if (optional && !fs.existsSync(fp)) return null;
+  const src = fs.readFileSync(fp, 'utf8');
   const m = src.match(new RegExp(`window\\.${varName}\\s*=\\s*([\\s\\S]*);\\s*$`));
   if (!m) throw new Error(`${file} 파싱 실패 — run-breakout 을 먼저 실행하세요`);
   return JSON.parse(m[1]);
@@ -211,6 +213,54 @@ async function main() {
     skipped: sel4.skipped.map((s) => s.key),
   };
 
+  // ── 5팀 하린 — FRANK 상위 10 업종 근거 묶음 (2026-10-12) ──
+  //    새로 들어온 업종·3거래일 지난 업종만 새로 분석한다. 나머지는 run-breakout 이 어제 리포트를 이월해 둔다.
+  //    근거: 업종 멤버(6개월 RS 순 상위 12)의 CNBC 태그 기사 · 연합인포맥스 증권사 리포트 · 나스닥 기사 + 업종 검색어 리포트.
+  //    전부 Node 가 받은 원문 제목·요약·URL 이다. AI 는 여기서 인용하거나 원문 URL 을 열어 quote 를 따온다.
+  out.team5args = null;
+  const t5 = loadWindowData('team5.js', 'TEAM5_DATA', { optional: true });
+  if (t5 && Array.isArray(t5.industries) && t5.industries.length) {
+    const { industryKo, isPriceNoise } = require('./lib/industry-ko');
+    const { getTickerArticles } = require('./data/cnbc');
+    const kr = require('./data/kr-reports');
+    const { getTickerNews: getNews5 } = require('./data/news-rss');
+    const TTL5 = Number(process.env.T5_TTL || 3);
+    const sel5 = rot.selectForResearch(t5.industries, { cache: rc, bucket: 'team5', today: date, ttl: TTL5, cap: 10, keyOf: (x) => x.key });
+    const t5dir = path.join(paths.llmInDir, '_t5');
+    ensureDir(t5dir);
+    for (const f of fs.readdirSync(t5dir)) fs.unlinkSync(path.join(t5dir, f));
+    const slug = (k) => k.replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    const repOf = (r) => ({ title: r.title, broker: r.broker, analyst: r.analyst, date: r.date, summary: r.summary, url: r.pdfUrl, via: '연합인포맥스' });
+    const items5 = [];
+    for (const x of sel5.picked) {
+      const ko = industryKo(x.industry);
+      if (!ko.keywords.length) say('WARN', `5팀: 업종 리포트 검색어 없음 — ${x.industry} (lib/industry-ko.js MAP 에 추가하면 업종 리포트도 찾는다)`);
+      const evidence = {};
+      for (const m of x.members.slice(0, 12)) {
+        const e = { cnbc: [], reports: [], news: [] };
+        try { const c = await getTickerArticles(m.ticker); if (c.ok) e.cnbc = c.items.slice(0, 6); } catch (err) { /* 없으면 없는 대로 */ }
+        try { const r = await kr.getReports(m.ticker, { months: 3 }); if (r.ok) e.reports = r.reports.slice(0, 5).map(repOf); } catch (err) { /* noop */ }
+        try { const n = await getNews5(m.ticker, { limit: 5 }); if (n.ok) e.news = n.items.filter((y) => y.direct !== false && !isPriceNoise(y.title)).map((y) => ({ title: y.title, url: y.url, date: y.date, publisher: y.publisher })); } catch (err) { /* noop */ }
+        evidence[m.ticker] = e;
+      }
+      const industryReports = [];
+      for (const kw of ko.keywords) {
+        // 검색어가 제목·요약에 실제로 들어 있는 리포트만 (띄어쓴 검색어는 느슨하게 걸려 무관한 리포트가 섞인다 — 실측 "AI 서버" 128건 중 2건만 해당)
+        try { const r = await kr.getReports(kw, { months: 3, keyword: true }); if (r.ok) for (const y of r.reports.filter((z) => `${z.title} ${z.summary || ''}`.includes(kw)).slice(0, 8)) if (!industryReports.some((z) => z.url === y.pdfUrl)) industryReports.push({ ...repOf(y), keyword: kw }); } catch (err) { /* noop */ }
+      }
+      const file = `${slug(x.key)}.json`;
+      fs.writeFileSync(path.join(t5dir, file), JSON.stringify({
+        key: x.key, sector: x.sector, industry: x.industry, industryKo: ko.name, frank: x.frank, frank25dChg: x.frank25dChg,
+        finalWrs: x.finalWrs, count: x.count, winRatePct: x.winRate,
+        members: x.members, evidence, industryReports,
+        note: 'members 는 이 업종 전 종목(6개월 RS 상위 순, rnk = 전체 종목 중 상위 몇 %). evidence 는 그중 상위 12종목의 기사·리포트. 리포트 url 은 연합인포맥스 PDF.',
+      }, null, 1), 'utf8');
+      const nEv = Object.values(evidence).reduce((a, e) => a + e.cnbc.length + e.reports.length + e.news.length, 0) + industryReports.length;
+      items5.push({ key: x.key, file, sector: x.sector, industry: x.industry, industryKo: ko.name, frank: x.frank, frank25dChg: x.frank25dChg, count: x.count, evidenceCount: nEv });
+    }
+    out.team5args = { date, argsDir: t5dir, degraded: !!t5.degraded, items: items5, skipped: sel5.skipped.map((y) => y.key) };
+  }
+
   // ── 실장 종합에 넘길 요약 (원본 전체는 너무 크다) ──
   const ds = t1.data_source || {};
   out.chiefTeams = {
@@ -275,6 +325,7 @@ async function main() {
   if (sel2.skipped.length) console.log(`  이월       ${sel2.skipped.map((s) => `${s.key}@${s.last}`).join(', ')}`);
   console.log(`4팀 종목     조사 ${epPick.length}개 (상한 없음) · 후보 ${(t4.items || []).length}(150일선 위) · 이월 ${sel4.skipped.length}(자료 동일)`);
   console.log(`  조사 이유  ${sel4.why.join(', ') || '없음'}`);
+  if (out.team5args) console.log(`5팀 업종     조사 ${out.team5args.items.length}개 (${out.team5args.items.map((x) => `${x.frank}.${x.industry} 근거 ${x.evidenceCount}`).join(' · ') || '없음'}) · 이월 ${out.team5args.skipped.length}`);
   console.log(`차트확인     ${(cc.items || []).length}개${cc.total > (cc.items || []).length ? ` (전체 ${cc.total})` : ''}`);
   console.log(`\n저장: ${file}`);
 }

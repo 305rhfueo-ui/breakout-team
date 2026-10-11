@@ -104,14 +104,12 @@ function canslim({ item = {}, fs = null, detail = null, kis = null, cnbc = null,
     if (!use) out.push(row('A 연간 이익 성장', NA, '최근 분기 이익 자료가 3개 미만 — 3년 추세·ROE 자료 없음'));
     else out.push(row('A 연간 이익 성장', use.v.every(Boolean) ? OK : NO, `${use.src} — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가`));
   }
-  // N — 52주 고점 근처 + 최근 60일 안의 기사(출처 링크 있는 것)
+  // N — New: 신제품·신서비스·신경영진·업계의 새 조건 (오닐). 신고가는 N 의 정의가 아니라 보조 관찰이다.
+  //   코드는 기사 제목만으로 "신제품인지" 판정할 수 없다 → 항상 확인 불가. 판정은 AI 심층이 출처(quote)로 한다.
+  //   (2026-10-12 바로잡음: 전에는 "52주 고점 90%↑ + 아무 기사 1건" 으로 충족을 줬다 — 틀린 기준)
   {
     const h = item.high52;
-    const today = Date.now();
-    const recent = (arr) => (arr || []).filter((x) => x && x.url && x.date && (today - new Date(String(x.date).slice(0, 10))) / 864e5 <= 60);
-    const n = recent(cnbc).length + recent(((detail && detail.news && detail.news.items) || [])).length;
-    if (h == null) out.push(row('N 새로운 것', NA, '52주 고점 대비 자료 없음'));
-    else out.push(row('N 새로운 것', h >= 90 && n > 0 ? OK : NO, `52주 고점의 ${r1(h, 0)}% · 최근 60일 기사 ${n}건(CNBC·나스닥)${h >= 90 && !n ? ' — 새 재료 기사 없음' : ''}`));
+    out.push(row('N 신제품·신서비스', NA, `신제품·신서비스·신경영진 여부는 코드로 판정하지 않는다 — AI 심층 분석에서 출처로 판정${h == null ? '' : ` · 참고: 52주 고점의 ${r1(h, 0)}%`}`));
   }
   // S — 수급: 쉬는 동안 거래량이 마르거나(5일/20일 ≤0.7) 오른 날 거래가 크게 늘면(거래대금 2배↑) 충족 + 상장주식수(KIS)
   {

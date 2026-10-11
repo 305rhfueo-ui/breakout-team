@@ -18,11 +18,11 @@ const BIG = 9999;               // 정렬용 Infinity 대체 (Infinity 는 뺄�
 // 우선순위 등급 기본값 — rankOf 를 안 주면 전부 이 등급(차이 없음). 낮을수록 먼저 조사한다.
 const RANK_OTHER = 3;
 
-// 2026-10-06: 5팀(업종 자금흐름) 제거 — 'team5' 버킷 삭제. 남아 있던 항목은 loadCache 가 버린다.
-const BUCKETS = ['detail', 'team2', 'team4', 'team6', 'deep2'];   // team6 = 서준 관심 종목 심층 · deep2 = 도윤 목록 종목 심층 순환 (2026-10-08)
+// team6 = 서준 관심 종목 심층 · deep2 = 도윤 목록 종목 심층 순환 (2026-10-08) · team5 = 하린 FRANK 상위 업종 (2026-10-12 신설, 키 = "Sector|Industry")
+const BUCKETS = ['detail', 'team2', 'team4', 'team5', 'team6', 'deep2'];
 
 function emptyCache() {
-  return { version: CACHE_VERSION, detail: {}, team2: {}, team4: {}, team6: {}, deep2: {} };
+  return { version: CACHE_VERSION, detail: {}, team2: {}, team4: {}, team5: {}, team6: {}, deep2: {} };
 }
 
 function loadCache(file = paths.researchCache) {

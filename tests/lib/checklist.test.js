@@ -44,6 +44,12 @@ const cs = CK.canslim({ item, fs: { ni: [40, 30, 12] }, detail: null, kis: { sha
   cnbc: [{ url: 'https://www.cnbc.com/x.html', date: new Date().toISOString().slice(0, 10) }], market, dry: 0.6 });
 ok('7개, C·A·N·S·L·I·M 순서', () => assert.deepStrictEqual(cs.map((x) => x.item[0]), ['C', 'A', 'N', 'S', 'L', 'I', 'M']));
 ok('C +40% 충족, (순이익 기준) 표기', () => { assert.strictEqual(st(cs, 'C 최근 분기 이익'), CK.OK); assert.ok(/순이익 기준/.test(cs[0].evidence)); });
+ok('N 은 신제품·신서비스 — 코드는 판정하지 않고 확인 불가 (신고가는 참고만)', () => {
+  const r = cs.find((x) => x.item[0] === 'N');
+  assert.strictEqual(r.item, 'N 신제품·신서비스');
+  assert.strictEqual(r.status, CK.NA);
+  assert.ok(/참고: 52주 고점의 95%/.test(r.evidence), r.evidence);
+});
 ok('I 는 항상 확인 불가', () => assert.strictEqual(st(cs, 'I 기관 보유'), CK.NA));
 ok('S 에 한국투자증권 상장주식수가 들어간다', () => assert.ok(/323M주\(한국투자증권\)/.test(cs[3].evidence), cs[3].evidence));
 ok('흑자전환 문자열은 충족, 적자확대는 미충족', () => {

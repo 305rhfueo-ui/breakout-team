@@ -65,12 +65,15 @@ function ymd(d) { return d.toISOString().slice(0, 10); }
 async function getReports(ticker, opts = {}) {
   const months = opts.months || 12;
   const t = String(ticker).trim().toUpperCase();
-  const info = await lookupTicker(t);
-  const searchStr = (info && info.ok && info.code) ? info.code : t;
+  // opts.keyword: 티커가 아니라 제목 검색어(업종 이름 등) — 종목 조회를 거치지 않는다.
+  //   (2026-10-12 실측: "진단"을 종목 조회에 넣으면 엉뚱한 종목 코드가 돌아와 정유 리포트가 나왔다)
+  const info = opts.keyword ? null : await lookupTicker(t);
+  const searchStr = opts.keyword ? String(ticker).trim() : ((info && info.ok && info.code) ? info.code : t);
 
   const end = opts.endDate ? new Date(opts.endDate) : new Date();
   const start = new Date(end.getTime() - months * 30.44 * 86400000);
-  const ckey = `${searchStr}_${months}m_${ymd(end)}`;
+  // 캐시 키는 ASCII 만 남는다 — 한글 검색어는 hex 로 바꿔야 서로 안 겹친다(2026-10-12: "진단"·"정유"·"서버"가 같은 키였다)
+  const ckey = `${opts.keyword ? 'kw' + Buffer.from(searchStr).toString('hex') : searchStr}_${months}m_${ymd(end)}`;
 
   const data = await cache.through('krReportList', ckey, async () => {
     const r = await postJson(`${HOST}/bizrpt/reportlist`, {

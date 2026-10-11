@@ -20,6 +20,8 @@ const MONEY_EN = { trillion: 1e12, billion: 1e9, bn: 1e9, b: 1e9, million: 1e6, 
 // 숫자로 세지 않는 것 — 날짜·기간·이름
 const SKIP_AFTER = /^(?:\s*(?:월|일(?!선)|분기|회계연도|년\s*(?:전|째|간|만|동안|연속)?|개월|주(?:\s*(?:전|째|간|동안|고점|연속))?|상(?![승향])|차|번째|시|분|위(?!안)|일선|일\s*선|일\s*평균|거래일|영업일|세|명|종목|개\s*종목|개\s*목록))/;
 const SKIP_BEFORE = /(?:FY|Q|H|CY|NY|20)$/i;
+// 회사 이름에 든 숫자 (2026-10-12 실측: "필립스 66" 을 숫자로 세어 멀쩡한 문장을 지웠다)
+const NAME_BEFORE = /(?:필립스|Phillips|S&P|러셀|Russell|나스닥|Nasdaq|Nasdaq-|나스닥-)\s?$/i;
 
 const num = (s) => Number(String(s).replace(/,/g, ''));
 
@@ -54,7 +56,7 @@ function tokens(text) {
     const after = t.slice(b, b + 8), before = t.slice(Math.max(0, a - 3), a);
     const v = num(m[0]);
     if (/^(19|20)\d\d$/.test(m[0])) continue;                              // 연도
-    if (SKIP_AFTER.test(after) || SKIP_BEFORE.test(before)) continue;
+    if (SKIP_AFTER.test(after) || SKIP_BEFORE.test(before) || NAME_BEFORE.test(t.slice(Math.max(0, a - 9), a))) continue;
     if (/^\d{1,2}$/.test(m[0]) && /^\s*[/.]\s*\d{1,2}\b/.test(after)) continue; // 9/30 같은 날짜
     if (/^[/.-]\d{1,2}$/.test(t.slice(a - 3, a).slice(-3)) && /^\d{1,2}$/.test(m[0])) continue;
     out.push({ kind: 'num', raw: m[0], value: v, dec: (m[0].split('.')[1] || '').length });

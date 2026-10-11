@@ -121,4 +121,4 @@ function writeOhlcFiles(tickers, barsOf, dir, { bars = 126, dateOf } = {}) {
   return { written, pruned };
 }
 
-module.exports = { buildLists, listRankOf, unionTickers, writeOhlcFiles, KEYS, DEFS };
+module.exports = { buildLists, listRankOf, unionTickers, writeOhlcFiles, itemOf, KEYS, DEFS };

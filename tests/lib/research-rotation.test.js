@@ -30,9 +30,9 @@ ok('기록 없으면 Infinity', () => assert.strictEqual(R.tradingDaysSince(null
 ok('미래 날짜여도 음수가 되지 않는다', () => assert.strictEqual(R.tradingDaysSince('2026-09-01', TODAY), 0));
 
 console.log('\n[2] rankOf — 우선순위 등급 (2026-10-06: 업종 자금흐름 대신 도윤 목록 등급)');
-ok('BUCKETS 에 team5 가 없다 (5팀 제거)', () => {
-  assert.ok(!R.BUCKETS.includes('team5'));
-  assert.ok(!('team5' in R.emptyCache()));
+ok('BUCKETS 에 team5 가 있다 (2026-10-12 5팀 하린 복귀)', () => {
+  assert.ok(R.BUCKETS.includes('team5'));
+  assert.ok('team5' in R.emptyCache());
 });
 
 console.log('\n[3] orderForResearch — 로테이션');

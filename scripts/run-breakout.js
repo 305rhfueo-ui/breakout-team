@@ -678,6 +678,52 @@ async function main() {
     say('T2', `체크표(쿨라매기·CAN SLIM): ${n}종목 · 베이스 있는 종목 ${pool.filter((q) => q.setup && q.setup.state !== 'none').length}`);
   }
 
+  // ── 12-0d) 5팀 하린 — RS 사이트 FRANK 상위 10 업종 (2026-10-12) ──
+  //    사이트 "Sector/Industry WRS" 화면의 FRANK·FRANK 25d CHG 를 사이트와 똑같이 재현한다(lib/frank.js, 화면과 대조 확인).
+  //    왜 상위인지·주도주는 AI(team5-industry 워크플로)가 CNBC·증권사 리포트 근거로 쓴다. 여기서는 숫자와 멤버만.
+  //    전날 리포트는 업종별로 이월한다(새로 분석할 업종은 prepare-llm-args 가 고른다 — 3일 지난 것·새로 들어온 것).
+  let team5 = null;
+  try {
+    const { siteFrank, site25Date } = require('./lib/frank');
+    let pastRows = null, d25 = null;
+    if (!args.offline) {
+      try {
+        const H = require('./lib/history-series');
+        const idx = await H.fetchIndex();
+        d25 = site25Date(idx.dates);
+        if (d25) {
+          await H.ensureSnapshot(d25);
+          const snap = H.loadSnapshot(d25);
+          pastRows = snap ? snap.data.map((d) => ({ Ticker: d.T, Sector: d.S, Industry: d.I, 'Market Cap': d.MC, RS_6mo: d.r6 })) : null;
+        }
+      } catch (e) { say('WARN', `5팀: 25일 전 스냅샷을 못 받았다 — FRANK 25일 변화 없이 진행 (${e.message})`); }
+    }
+    const ranked = siteFrank(rows, pastRows);
+    const rowBy = new Map(rows.map((r) => [r.Ticker, r]));
+    const prev5 = readPrevWindow('team5.js', 'TEAM5_DATA');
+    const prevRep = new Map(((prev5 && prev5.industries) || []).filter((x) => x.report && x.report.status === 'done').map((x) => [x.key, x.report]));
+    const kr = args.offline ? null : require('./data/kr-reports');
+    const industries = [];
+    for (const g of ranked.slice(0, 10)) {
+      const members = g.tickers.map((t) => rowBy.get(t)).filter(Boolean).map((r) => {
+        const it = listsLib.itemOf(r);
+        return { ticker: it.ticker, rs1: it.rs1, rs3: it.rs3, rs6: it.rs6, rnk1: it.rnk1, rnk3: it.rnk3, rnk6: it.rnk6,
+          ret1d: it.ret1d, high52: it.high52, dollarVolM: it.dollarVolM, marketCap: r['Market Cap'] || null, name: null };
+      }).sort((a, b) => (a.rnk6 ?? 999) - (b.rnk6 ?? 999));
+      if (kr) for (const m of members.slice(0, 12)) {
+        try { const info = await kr.lookupTicker(m.ticker); if (info && info.ok) m.name = info.nameKo || info.nameEn || null; } catch (e) { /* 이름 없으면 티커로 */ }
+      }
+      const rep = prevRep.get(g.key);
+      industries.push({ key: g.key, sector: g.sector, industry: g.industry, frank: g.frank, frank25dChg: g.frank25dChg,
+        finalWrs: Math.round(g.finalWrs * 10000) / 10000, count: g.count, winRate: Math.round(g.winRate * 1000) / 10, members,
+        report: rep ? { ...rep, carried: true } : null });
+    }
+    team5 = { generated: dateStr, siteUpdated: meta.last_updated || null, degraded: !!meta.degraded, d25,
+      method: '사이트 Sector/Industry WRS 화면과 같은 계산 (Final WRS 내림차순 = FRANK, 25일 변화 = 사이트 25번째 과거 파일 기준)',
+      industries };
+    say('T5', `하린: FRANK 상위 10 업종 — ${industries.map((x) => `${x.frank}.${x.industry}`).join(' · ')} (이월 리포트 ${industries.filter((x) => x.report).length})`);
+  } catch (e) { say('WARN', `5팀 업종 계산 실패: ${e.message}`); team5 = null; }
+
   // ── 12-1) 팝업 시계열의 종가를 야후(분할 조정)로 갱신 ──
   // RS 사이트 Price 는 원본 종가라 액면분할 시 그래프가 수직 낙하한다 (CRWD 2026-07-02 4:1 등).
   if (args.yahoo) {
@@ -809,6 +855,7 @@ async function main() {
   if (team3) writeWindowData(path.join(paths.dashboardData, 'team3.js'), 'TEAM3_DATA', team3);
   if (team4) writeWindowData(path.join(paths.dashboardData, 'team4.js'), 'TEAM4_DATA', team4);
   if (team6) writeWindowData(path.join(paths.dashboardData, 'team6.js'), 'TEAM6_DATA', team6);
+  if (team5) writeWindowData(path.join(paths.dashboardData, 'team5.js'), 'TEAM5_DATA', team5);
   writeWindowData(path.join(paths.dashboardData, 'chief.js'), 'CHIEF_DATA', chief);
   writeWindowData(path.join(paths.dashboardData, 'chartcheck.js'), 'CHARTCHECK_DATA', chartCheckOut);
 

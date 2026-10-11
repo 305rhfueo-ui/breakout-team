@@ -8,6 +8,7 @@
 <script src="dashboard/data/team2.js"      onerror="window.__NO_T2=1"></script>
 <script src="dashboard/data/team3.js"      onerror="window.__NO_T3=1"></script>
 <script src="dashboard/data/team4.js"      onerror="window.__NO_T4=1"></script>
+<script src="dashboard/data/team5.js"      onerror="window.__NO_T5=1"></script>
 <script src="dashboard/data/team6.js"      onerror="window.__NO_T6=1"></script>
 <script src="dashboard/data/paper.js"      onerror="window.__NO_PAPER=1"></script>
 <script src="dashboard/data/chartcheck.js" onerror="window.__NO_CC=1"></script>
@@ -130,6 +131,10 @@ background:#0c121d;color:var(--dim);font-size:12px;line-height:1.6;font-style:it
 .ctab th:nth-child(2),.ctab th:nth-child(3){text-align:right}
 .ctab td{padding:5px 6px;vertical-align:top}
 .ctab td.num{text-align:right;font-variant-numeric:tabular-nums;color:#fff;font-weight:700}
+.lt{width:100%;border-collapse:collapse;font-size:12.5px;white-space:nowrap}
+.lt th{text-align:left;font-size:11px;color:var(--dim);font-weight:600;padding:5px 7px;border-bottom:1px solid var(--bd);cursor:help}
+.lt td{padding:5px 7px;border-top:1px solid #1a2231;font-variant-numeric:tabular-nums;vertical-align:top}
+.lt tr:hover td{background:#152036}
 .ctab tr.tkRow td{padding:0 6px 7px;border-bottom:1px solid #1a2231}
 .tkc{display:inline-block;background:#1b2332;border:1px solid #2b3547;border-radius:5px;
   padding:1px 6px;margin:2px 3px 0 0;font-size:10.5px;color:#b9c4d4}
@@ -208,7 +213,7 @@ details.deep .ck,.ck{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;fo
 
 <script>
 const D={chief:window.CHIEF_DATA,t1:window.TEAM1_DATA,t2:window.TEAM2_DATA,t3:window.TEAM3_DATA,
-         t4:window.TEAM4_DATA,t6:window.TEAM6_DATA,cc:window.CHARTCHECK_DATA};
+         t4:window.TEAM4_DATA,t5:window.TEAM5_DATA,t6:window.TEAM6_DATA,cc:window.CHARTCHECK_DATA};
 const $=i=>document.getElementById(i);
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const n=(v,d=2)=>v==null||Number.isNaN(Number(v))?'—':Number(v).toFixed(d);
@@ -226,6 +231,8 @@ const AGENTS=[
    duty:'한 번 뽑힌 종목을 계속 따라다니며 상태를 기록합니다. ①50일선 아래로 3일 연속 내려가거나 ②고점 대비 40% 넘게 빠지거나 ③150일선을 깨면 목록에서 뺍니다. 뺀 뒤에도 사유와 함께 남겨두고, 다시 기준을 충족하면 자동으로 되돌립니다. 전고점을 거래량까지 실어 뚫은 종목도 찾아 알려 드립니다.'},
   {id:'t4',name:'재민',role:'4팀 · EP·촉매',tab:'t4',job:'급등 포착',
    duty:'오늘 갑자기 거래량이 평소의 2배 넘게 터진 종목 중 150일선 위에 있는 것만 잡아냅니다. 그리고 그게 왜 터졌는지 이유를 여섯 갈래로 분류합니다 — ①실적 서프라이즈 ②바이오·FDA ③대형 계약 ④턴어라운드 ⑤산업 돌파 ⑥이유 못 찾음. 뉴스를 못 찾으면 지어내지 않고 ⑥으로 둡니다.'},
+  {id:'t5',name:'하린',role:'5팀 · 주도 업종',tab:'t5',job:'업종 분석',
+   duty:'RS 사이트 <b>Sector/Industry WRS 화면의 업종 순위(FRANK) 1~10위</b>를 사이트와 똑같은 계산으로 가져옵니다. 그리고 업종마다 <b>왜 지금 상위인지</b>, <b>주도주는 누구인지</b>를 CNBC 기사와 증권사 리포트(연합인포맥스)에서 찾은 근거로만 정리합니다. 모든 문장에는 원문 인용과 링크가 붙고, 인용문에 없는 숫자가 들어간 문장은 코드가 지웁니다. 근거를 못 찾으면 지어내지 않고 "근거 없음"으로 둡니다. 매일 아침 새로 10위 안에 들어온 업종과 사흘 지난 업종만 다시 분석합니다.'},
   {id:'t6',name:'서준',role:'6팀 · 매매',tab:'t6',job:'매수 계획',
    duty:'다른 팀이 고른 후보를 <b>실제 거래 계획</b>으로 바꿉니다. 아침에는 "큰 상승 뒤 고점 아래에서 쉬고 있는 종목"을 찾아 <b>어디를 넘으면 사고(피벗), 어디서 자르고(손절), 계좌의 몇 %를 넣을지(비중)</b>를 숫자로 내놓습니다. 밤에 미국 장이 열리면 그 종목이 <b>거래량을 실어 피벗과 장 초반 고점을 넘는 순간</b>을 잡아 모의로 사고, 손절·익절·10일선 이탈 규칙대로 팝니다. 전부 정해진 규칙으로만 움직이고 <b>실제 주문은 내지 않습니다</b>. 시장이 빨간불이면 새로 사지 않고, 실적 발표 직전 종목도 사지 않습니다.'},
 ];
@@ -299,6 +306,12 @@ function _dd(id){
     const hl=t&&t.llm&&t.llm.highlights?t.llm.highlights.length:0;
     return {stat:t?t.universeHits:'—',statl:'거래량 급증 포착',
       line:t?`150일선 위 ${t.analyzed}종목${hl?` · ★촉매 ${hl}건`:''}<br>조사 ${(t.research_coverage||{}).done??0} · 이월 ${(t.research_coverage||{}).carried??0}`:'대기 중',
+      busy:!!t};
+  }
+  if(id==='t5'){
+    const t=D.t5,I=(t&&t.industries)||[],ko=x=>esc((INDUSTRY_KO||{})[x.industry]||x.industry);
+    return {stat:I.length?ko(I[0]):'—',statl:'업종 순위 1위 (RS 사이트 FRANK)',
+      line:I.length?`2위 ${ko(I[1]||{})} · 3위 ${ko(I[2]||{})}<br>리포트 ${I.filter(x=>x.report&&x.report.status==='done').length}/${I.length}업종`:'대기 중',
       busy:!!t};
   }
   if(id==='t6'){
@@ -777,7 +790,7 @@ function openTicker(T){
     h+=`<div class="sec"><h4>쿨라매기 돌파 셋업 체크 <span class="chip">코드 계산 · 판정 아님</span></h4>${ck(CKS.qm)}
       <div class="note">기준: docs/기준-쿨라매기-차트.md · 피벗·베이스 수치는 서준과 같은 계산${p.setup&&p.setup.pivot?` (피벗 ${n(p.setup.pivot)} · 예비 손절 ${n(p.setup.stop)})`:''}</div></div>`;
     h+=`<div class="sec"><h4>CAN SLIM 체크 <span class="chip">코드 계산 · 판정 아님</span></h4>${ck(CKS.canslim)}
-      <div class="note">기준: docs/기준-CANSLIM-재무.md (오닐) · EPS 대신 순이익 증가율로 근사 · 기관 보유 자료 없음</div></div>`;
+      <div class="note">기준: docs/기준-CANSLIM-재무.md (오닐) · EPS 대신 순이익 증가율로 근사 · N(신제품·신서비스)은 AI 심층에서 출처로 판정 · 기관 보유 자료 없음</div></div>`;
   }
   if(p&&p.deep&&!(plan&&plan.deep))h+=`<div class="sec"><h4>AI 심층 분석 <span class="dim">(도윤 목록 순환)</span></h4>${deepBlock(p.deep)}</div>`;
   if(plan)h+=`<div class="sec"><h4>서준 매수 계획 ${plan.watch?'<span class="chip">오늘 밤 관심</span>':''}</h4>${rows([['현재가 → 피벗',`${n(plan.price)} → <b>${n(plan.pivot)}</b> (${sgn(plan.distToPivotPct)}%)`],
@@ -838,6 +851,50 @@ function deepBlock(D){
   if((D.entryChecklist||[]).length)b+=`<h5>사기 전에 직접 확인할 것</h5><ul class="plist">${D.entryChecklist.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`;
   if(D.earningsRisk)b+=`<div class="note" style="margin-top:6px">📅 ${esc(D.earningsRisk)}</div>`;
   return b+`</details>`;
+}
+
+/* ── 5팀 하린 — FRANK 상위 10 업종 (2026-10-12) ──
+   숫자(순위·25일 변화·종목 RS)는 Node 가 사이트와 같은 계산으로 낸 것. 문장은 AI 가 쓰되 출처·인용이 붙은 것만 보인다. */
+function industryView(){
+  const t=D.t5; if(!t)return '<div class="empty">데이터 없음 — 다음 아침 실행부터 채워집니다</div>';
+  const I=t.industries||[],ko=x=>esc((INDUSTRY_KO||{})[x.industry]||x.industry);
+  const chg=v=>v==null?'—':v>0?`<span style="color:var(--grn)">▲${v}</span>`:v<0?`<span style="color:var(--red)">▼${-v}</span>`:'0';
+  const rk=v=>v==null?'—':`상위 ${n(v,1)}%`;
+  const tk=x=>`<span class="tk" data-tk="${esc(x)}">${esc(x)}</span>`;
+  let h=`<div class="sec"><div class="note">RS 사이트 <b>Sector/Industry WRS</b> 화면과 같은 계산입니다 — Final WRS 내림차순 순위가 FRANK, 25일 변화는 사이트가 쓰는 25번째 과거 파일(${esc(t.d25||'—')}) 기준입니다. 사이트 갱신 ${esc(t.siteUpdated||'—')}.</div>
+    ${t.degraded?'<div class="nosrc">⚠️ 오늘 RS 사이트 갱신이 실패해 전날 데이터입니다.</div>':''}</div>`;
+  h+=`<div class="sec"><h4>업종 순위 1~10위</h4><div style="overflow-x:auto"><table class="lt"><thead><tr>
+    <th>순위</th><th>업종</th><th title="25거래일 전 순위 − 오늘 순위 (▲ = 올라옴)">25일 변화</th><th>Final WRS</th><th>종목 수</th><th title="6개월 RS 가 플러스인 종목 비율">승률</th><th>AI 주도주 (근거 있는 것)</th><th>분석</th></tr></thead><tbody>`+
+    I.map(x=>{const r=x.report&&x.report.status==='done'?x.report:null;
+      return `<tr><td><b>${x.frank}</b></td><td><a href="#ind-${x.frank}" onclick="document.getElementById('ind-${x.frank}').open=true">${ko(x)}</a><div class="dim" style="font-size:11.5px">${esc(x.industry)}</div></td>
+        <td>${chg(x.frank25dChg)}</td><td>${n(x.finalWrs,2)}</td><td>${x.count}</td><td>${n(x.winRate,0)}%</td>
+        <td>${r&&(r.leaders||[]).length?r.leaders.map(l=>tk(l.ticker)).join(' '):'—'}</td>
+        <td class="dim">${r?`${esc(r.researchedOn)}${r.carried?' 이월':''}`:x.report&&x.report.status==='failed'?'<span style="color:var(--red)">실패</span>':'대기'}</td></tr>`;}).join('')+`</tbody></table></div></div>`;
+  for(const x of I){
+    const r=x.report&&x.report.status==='done'?x.report:null;
+    const fc=r&&r.factcheck;
+    h+=`<details class="deep" id="ind-${x.frank}"${x.frank===1?' open':''}><summary><b>${x.frank}위 ${ko(x)}</b> ${chg(x.frank25dChg)} · ${x.count}종목${r?` — ${esc(r.headline)}`:''}</summary>`;
+    if(r){
+      h+=`<div style="margin:8px 0">
+        <span class="chip">조사 ${esc(r.researchedOn)}${r.carried?' · 이월':''}</span>
+        ${r.evidenceCount!=null?`<span class="chip">근거 자료 ${r.evidenceCount}건</span>`:''}
+        ${fc?`<span class="chip">${fc.verdict==='unchecked'?'⚠️ 팩트체크 안 됨':`팩트체크 ${esc(fc.verdict)}${(fc.removed||[]).length?` · ${fc.removed.length}건 제거`:''}`}</span>`:''}</div>`;
+      if(r.summary)h+=`<div class="pi">${esc(r.summary)}</div>`;
+      const wl=claimList(r.whyLeading);
+      h+=`<h5>왜 상위인가</h5>${wl||'<div class="nosrc">근거 없음 — 출처 검증을 통과한 이유가 없습니다</div>'}`;
+      const L=r.leaders||[];
+      h+=`<h5>주도주 — 기사·리포트가 직접 다룬 종목</h5>`+(L.length?L.map(l=>`<div style="margin-bottom:10px">${tk(l.ticker)}${l.name?` <span class="dim">${esc(l.name)}</span>`:''}
+          <span class="chip" title="이 종목의 6개월 상대강도가 전체 종목 중 상위 몇 %인지">6개월 RS ${rk(l.rnk6)}</span>
+          <div class="note">${esc(l.role||'')}</div>${claimList(l.why)}</div>`).join(''):'<div class="nosrc">근거가 검증된 주도주 없음</div>');
+      if((r.risks||[]).length&&claimList(r.risks))h+=`<h5>꺾일 조건</h5>${claimList(r.risks)}`;
+      if(r.sourceGap)h+=`<div class="note">자료 한계: ${esc(r.sourceGap)}</div>`;
+    }else h+=`<div class="note" style="margin:8px 0">${x.report&&x.report.status==='failed'?esc(x.report.note):'아직 분석 전입니다 — 다음 아침 리서치에서 채워집니다.'}</div>`;
+    const M=(x.members||[]).slice(0,12);
+    h+=`<h5>숫자로 본 업종 내 강한 종목 (6개월 RS 순, 상위 ${M.length}/${x.count})</h5><div style="overflow-x:auto"><table class="lt"><thead><tr><th>티커</th><th>6개월 RS</th><th>3개월 RS</th><th>1개월 RS</th><th>52주 고점 대비</th><th>전일比</th><th>거래대금($M)</th></tr></thead><tbody>`+
+      M.map(m=>`<tr><td>${tk(m.ticker)}${m.name?` <span class="dim">${esc(m.name)}</span>`:''}</td><td>${rk(m.rnk6)}</td><td>${rk(m.rnk3)}</td><td>${rk(m.rnk1)}</td><td>${n(m.high52,0)}%</td><td>${n(m.ret1d,1)}%</td><td>${n(m.dollarVolM,0)}</td></tr>`).join('')+
+      `</tbody></table></div><div class="note">AI 주도주는 기사 근거로, 이 표는 주가 강도로 고른 것입니다. 둘이 다르면 "기사는 많지만 주가는 약한" 종목이 섞였다는 뜻입니다.</div></details>`;
+  }
+  return h;
 }
 
 function bodyFor(id){
@@ -934,6 +991,7 @@ function bodyFor(id){
       <div class="nosrc">${cfail.map(i=>esc(i.ticker)).join(' · ')} — 에이전트 오류. 다음 실행에서 우선 재시도합니다.</div></div>`;
     return h;
   }
+  if(id==='t5')return industryView();
   if(id==='t6'){
     const t=D.t6; if(!t)return '<div class="empty">데이터 없음</div>';
     const sg=v=>v==null?'—':(v>0?'+':'')+n(v,1);
@@ -1006,9 +1064,9 @@ function openAgent(id){
     +(br?`<div class="sec brief"><h4>💬 ${a.name}의 브리핑</h4><div class="pi">${br}</div>
        ${llmSum?`<div class="pi" style="margin-top:10px;padding-top:10px;border-top:1px solid var(--bd)">${esc(llmSum)}</div>`:''}</div>`:'')
     +bodyFor(id)
-    +`<div style="text-align:center;margin-top:14px">
-       <a class="btn btn2" href="dashboard/breakout-room.html#${a.tab}">이 팀 전체 자료 보기 →</a></div>`;
-  $('mbox').classList.toggle('wide',id==='t2');
+    +(id==='t5'?'':`<div style="text-align:center;margin-top:14px">
+       <a class="btn btn2" href="dashboard/breakout-room.html#${a.tab}">이 팀 전체 자료 보기 →</a></div>`);
+  $('mbox').classList.toggle('wide',id==='t2'||id==='t5');
   $('modal').classList.add('on');
   if(id==='t2')listView(_listKey);
 }

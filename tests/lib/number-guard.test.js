@@ -23,6 +23,7 @@ ok('2026-10-08 실측 환각은 지운다 — 41%·609억 달러·150%', () => {
   assert.ok(!kept('콴타는 분기 매출이 41% 늘었다.', 'Quanta Targets Up to $2.5B FCF'));
   assert.ok(!kept('DELL은 AI 서버 주문이 분기 609억 달러로 150% 늘었다.', 'Dell AI orders'));
 });
+ok('회사 이름 속 숫자는 숫자로 안 센다 — 필립스 66 · S&P 500', () => assert.ok(kept('발레로·필립스 66이 올랐고 S&P 500 도 올랐다.', 'x')));
 ok('문장 단위로 지우고 나머지는 남긴다', () => {
   const r = NG.checkText('매출이 55% 늘었다. 이익은 99% 늘었다.', NG.corpusOf('yoy revenue 55'));
   assert.strictEqual(r.text, '매출이 55% 늘었다.');
