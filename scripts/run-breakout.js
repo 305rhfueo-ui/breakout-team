@@ -316,6 +316,16 @@ async function main() {
       weekly_question: weeklyQuestion(dateStr).current,
       news: { llm: false, digest: [], note: 'LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요' },
     };
+    // 뉴스 이월 (2026-10-13) — 리서치는 화~토만 도는데 스캔은 매일 돌아, 일·월요일엔 한별 뉴스가 빈 값으로 덮였다.
+    //   미국 장이 새로 열리지 않았으면(RS 세션일이 같으면) 지난 리서치의 뉴스가 그대로 최신이다 → 조사일을 붙여 이월한다.
+    {
+      const prev1 = readPrevWindow('team1.js', 'TEAM1_DATA');
+      const pn = prev1 && prev1.news;
+      if (pn && pn.llm && sessionDate && prev1.data_source && prev1.data_source.sessionDate === sessionDate) {
+        team1.news = { ...pn, carried: true };
+        say('T1', `뉴스 이월 — ${pn.researchedOn || '?'} 조사분 (RS 세션 ${sessionDate} 동일, 새 장 없음)`);
+      }
+    }
     say('T1', regime.ko);
     say('T1', finra.ko);
     say('T1', team1.leaders.market_overheat.ko);
@@ -844,7 +854,13 @@ async function main() {
     chartCheckTotal: chartCheckAll.length,
     barsNotice, sessionDate, sessionMismatch,
     stale: staleData,
-    llm: { status: 'pending', note: 'LLM 리서치는 start breakout 실행 시 덧입혀집니다' },
+    // 실장 리포트도 같은 이유로 이월한다 — 같은 세션(새 장 없음)일 때만. 세션이 바뀌면 판정 근거가 달라지므로 비운다.
+    llm: (() => {
+      const pc = readPrevWindow('chief.js', 'CHIEF_DATA'), p1 = readPrevWindow('team1.js', 'TEAM1_DATA');
+      const same = sessionDate && p1 && p1.data_source && p1.data_source.sessionDate === sessionDate;
+      if (same && pc && pc.llm && pc.llm.status === 'done') return { ...pc.llm, carried: true, reportedOn: pc.llm.reportedOn || pc.generated || null };
+      return { status: 'pending', note: 'LLM 리서치는 start breakout 실행 시 덧입혀집니다' };
+    })(),
   };
 
   ensureDir(paths.dashboardData);

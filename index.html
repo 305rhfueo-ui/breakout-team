@@ -920,7 +920,7 @@ function bodyFor(id){
     const kr=Array.isArray(nw.keyRisks)?nw.keyRisks.filter(Boolean):[];
     if(kr.length)h+=`<div class="sec"><h4>핵심 리스크 ${kr.length}건</h4><ul class="plist">${kr.map(x=>`<li>${esc(typeof x==='string'?x:(x.ko||x.text||JSON.stringify(x)))}</li>`).join('')}</ul></div>`;
     if(nw.llm&&nw.digest&&nw.digest.length){
-      h+=`<div class="sec"><h4>오늘의 시장 뉴스</h4>`+
+      h+=`<div class="sec"><h4>오늘의 시장 뉴스${nw.carried?` <span class="chip">${esc(nw.researchedOn||'')} 조사 이월 — 그 뒤 미국 장이 열리지 않았습니다</span>`:''}</h4>`+
         // 7건을 만들어놓고 4건만 그리고 있었다 (2026-08-14). 만든 건 다 보여준다.
         nw.digest.map(x=>`<div style="margin-bottom:10px">
           <b>${esc(x.headline)}</b>${clip(`<div class="pi">${esc(x.easy||'')}</div>`+(x.whyMatters?`<div class="note" style="margin-top:6px"><b>내 종목엔?</b> ${esc(x.whyMatters)}</div>`:''),3)}
@@ -1027,7 +1027,7 @@ function bodyFor(id){
   const c=D.chief; if(!c)return '<div class="empty">데이터 없음</div>';
   let h='';
   if(c.llm&&c.llm.status==='done'){
-    h+=`<div class="sec"><h4>오늘 한마디</h4><div class="ko">${esc(c.llm.headline||'')}</div>
+    h+=`<div class="sec"><h4>오늘 한마디${c.llm.carried?` <span class="chip">${esc(c.llm.reportedOn||'')} 보고 이월 — 그 뒤 미국 장이 열리지 않았습니다</span>`:''}</h4><div class="ko">${esc(c.llm.headline||'')}</div>
       <div style="margin-top:8px">${prose(c.llm.marketVerdictKo||'')}</div></div>`;
     if((c.llm.todayFocus||[]).length)h+=`<div class="sec"><h4>오늘의 포커스</h4>`+
       c.llm.todayFocus.map(f=>`<div style="margin-bottom:9px"><b>${esc(f.ticker)}</b>

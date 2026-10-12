@@ -566,7 +566,7 @@ async function main() {
     const d = loadWindowData(f, 'CHIEF_DATA');
     if (d) {
       guardDate(d, '실장');
-      d.llm = { status: 'done', ...payload.chief, verified: report, reusedFrom: reuse.chief || null, reuseAll: Object.keys(reuse).length ? reuse : null };
+      d.llm = { status: 'done', reportedOn: dateStr, ...payload.chief, verified: report, reusedFrom: reuse.chief || null, reuseAll: Object.keys(reuse).length ? reuse : null };
       writeWindowData(f, 'CHIEF_DATA', d);
       merged.push('chief(실장)');
     }
