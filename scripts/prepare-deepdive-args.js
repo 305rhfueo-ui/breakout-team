@@ -18,6 +18,7 @@ const { execFileSync } = require('child_process');
 const { paths, loadEnv, ensureDir, say, readJson } = require('./lib/util');
 const rot = require('./lib/research-rotation');
 const { fetchDetail, slimDetail } = require('./lib/detail');
+const { copyReportPdfs } = require('./data/kr-reports');
 
 const CAP = 10;
 
@@ -139,8 +140,11 @@ async function main() {
     const { deep, _source, _model, ...plan } = p;   // 이월된 지난 분석은 에이전트에게 주지 않는다(복사해 쓰면 안 된다)
     // CNBC 태그 기사 · 한국투자증권 기업 수치 (2026-10-08) — run-breakout 이 매일 모은 것
     const cnbc = (p2 && p2.cnbc) || null, kis = (p2 && p2.kis) || null;
+    // 증권사 리포트 원문 PDF (N 심층용) — 10쪽 이하 최신 2건. 실패하면 요약만으로 쓴다.
+    let reportPdfs = [];
+    try { reportPdfs = await copyReportPdfs(detail && detail.krReports && detail.krReports.reports, argsDir, p.ticker); } catch (e) { reportPdfs = []; }
     fs.writeFileSync(path.join(argsDir, `${p.ticker}.json`), JSON.stringify({
-      ticker: p.ticker, date, session, source: _source, plan, site: siteOf(p2, p4), eye: eyeOf.get(p.ticker) || null, detail, detailNote, cnbc, kis, chart, market,
+      ticker: p.ticker, date, session, source: _source, plan, site: siteOf(p2, p4), eye: eyeOf.get(p.ticker) || null, detail, detailNote, reportPdfs, cnbc, kis, chart, market,
     }, null, 1), 'utf8');
     items.push({ ticker: p.ticker, name: p.name || null, grade: p.grade, sector: p.sector, industry: p.industry, price: p.price, pivot: p.pivot, stop: p.stop,
       distToPivotPct: p.distToPivotPct, earnings: p.earnings || null, hasChart: !!(chart && chart.png3m), hasDetail: !!detail,

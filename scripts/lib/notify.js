@@ -8,9 +8,10 @@
 // 첫 연결 대기(Happy Eyeballs 250ms)는 lib/util.js 에서 늘린다 — 이 파일보다 util 이 먼저 불려야 한다.
 require('./util');
 
-async function tg(method, body) {
+// timeoutMs: 롱폴링(getUpdates timeout 50초)처럼 오래 기다리는 호출은 늘려서 부른다 (2026-10-13 7팀 리스너)
+async function tg(method, body, timeoutMs = 20000) {
   const c = new AbortController();
-  const timer = setTimeout(() => c.abort(), 20000);   // 첫 연결은 8초를 넘기도 한다 (2026-09-28 실측)
+  const timer = setTimeout(() => c.abort(), timeoutMs);   // 첫 연결은 8초를 넘기도 한다 (2026-09-28 실측)
   try {
     const res = await fetch(`https://api.telegram.org/bot${process.env.TELEGRAM_TOKEN}/${method}`, { method: 'POST', signal: c.signal,
       headers: { 'content-type': 'application/json' }, body: JSON.stringify(body || {}) });
@@ -26,6 +27,20 @@ const configured = () => !!(process.env.TELEGRAM_TOKEN && process.env.TELEGRAM_C
 async function notify(text) {
   if (!configured()) return { ok: false, error: 'not configured' };
   return tg('sendMessage', { chat_id: process.env.TELEGRAM_CHAT_ID, text: String(text).slice(0, 4000), disable_web_page_preview: true });
+}
+
+// 사진 한 장 (7팀 차트). tg() 는 JSON 전용이라 multipart 로 따로 보낸다. 절대 throw 하지 않는다.
+async function tgPhoto(file, caption = '') {
+  if (!configured()) return { ok: false, error: 'not configured' };
+  try {
+    const fd = new FormData();
+    fd.append('chat_id', String(process.env.TELEGRAM_CHAT_ID));
+    if (caption) fd.append('caption', String(caption).slice(0, 1000));
+    fd.append('photo', new Blob([require('fs').readFileSync(file)], { type: 'image/png' }), require('path').basename(file));
+    const res = await fetch(`https://api.telegram.org/bot${process.env.TELEGRAM_TOKEN}/sendPhoto`, { method: 'POST', body: fd, signal: AbortSignal.timeout(40000) });
+    const j = await res.json().catch(() => ({}));
+    return j.ok ? { ok: true } : { ok: false, error: j.description || `HTTP ${res.status}` };
+  } catch (e) { return { ok: false, error: e.message }; }
 }
 
 // 아침 메시지 — 오늘 밤 관심 종목. sharesOf(plan) 은 수량(없으면 null).
@@ -61,6 +76,7 @@ function deepMessage(t6) {
     L.push('', `${p.ticker}${p.name ? ` ${p.name}` : ''} (${p.grade}) · 피벗 ${p.pivot} (${p.distToPivotPct > 0 ? '+' : ''}${p.distToPivotPct}%)${d.carried ? ` · ${d.researchedOn} 조사분` : ''}`);
     if (d.status !== 'done') { L.push('  분석 실패 — 다음 실행에서 다시'); continue; }
     L.push(`  ${first(d.lead)}`);
+    if (d.nVerdict) L.push(`  N(새 성장 동력) ${d.nVerdict}${(d.newDrivers || [])[0] ? ` — ${cut(d.newDrivers[0].what, 90)}` : ''}`);
     const chk = (d.entryChecklist || [])[0];
     if (chk) L.push(`  확인할 것: ${cut(chk)}`);
   }
@@ -68,4 +84,4 @@ function deepMessage(t6) {
   return L.join('\n');
 }
 
-module.exports = { tg, notify, configured, watchMessage, deepMessage };
+module.exports = { tg, notify, configured, watchMessage, deepMessage, tgPhoto };

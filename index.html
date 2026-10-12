@@ -10,6 +10,7 @@
 <script src="dashboard/data/team4.js"      onerror="window.__NO_T4=1"></script>
 <script src="dashboard/data/team5.js"      onerror="window.__NO_T5=1"></script>
 <script src="dashboard/data/team6.js"      onerror="window.__NO_T6=1"></script>
+<script src="dashboard/data/ondemand.js"   onerror="window.__NO_OD=1"></script>
 <script src="dashboard/data/paper.js"      onerror="window.__NO_PAPER=1"></script>
 <script src="dashboard/data/chartcheck.js" onerror="window.__NO_CC=1"></script>
 <script src="dashboard/data/industry-ko.js"></script>
@@ -213,7 +214,7 @@ details.deep .ck,.ck{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;fo
 
 <script>
 const D={chief:window.CHIEF_DATA,t1:window.TEAM1_DATA,t2:window.TEAM2_DATA,t3:window.TEAM3_DATA,
-         t4:window.TEAM4_DATA,t5:window.TEAM5_DATA,t6:window.TEAM6_DATA,cc:window.CHARTCHECK_DATA};
+         t4:window.TEAM4_DATA,t5:window.TEAM5_DATA,t6:window.TEAM6_DATA,od:window.ONDEMAND_DATA,cc:window.CHARTCHECK_DATA};
 const $=i=>document.getElementById(i);
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const n=(v,d=2)=>v==null||Number.isNaN(Number(v))?'—':Number(v).toFixed(d);
@@ -235,6 +236,8 @@ const AGENTS=[
    duty:'RS 사이트 <b>Sector/Industry WRS 화면의 업종 순위(FRANK) 1~10위</b>를 사이트와 똑같은 계산으로 가져옵니다. 그리고 업종마다 <b>왜 지금 상위인지</b>, <b>주도주는 누구인지</b>를 CNBC 기사와 증권사 리포트(연합인포맥스)에서 찾은 근거로만 정리합니다. 모든 문장에는 원문 인용과 링크가 붙고, 인용문에 없는 숫자가 들어간 문장은 코드가 지웁니다. 근거를 못 찾으면 지어내지 않고 "근거 없음"으로 둡니다. 매일 아침 새로 10위 안에 들어온 업종과 사흘 지난 업종만 다시 분석합니다.'},
   {id:'t6',name:'서준',role:'6팀 · 매매',tab:'t6',job:'매수 계획',
    duty:'다른 팀이 고른 후보를 <b>실제 거래 계획</b>으로 바꿉니다. 아침에는 "큰 상승 뒤 고점 아래에서 쉬고 있는 종목"을 찾아 <b>어디를 넘으면 사고(피벗), 어디서 자르고(손절), 계좌의 몇 %를 넣을지(비중)</b>를 숫자로 내놓습니다. 밤에 미국 장이 열리면 그 종목이 <b>거래량을 실어 피벗과 장 초반 고점을 넘는 순간</b>을 잡아 모의로 사고, 손절·익절·10일선 이탈 규칙대로 팝니다. 전부 정해진 규칙으로만 움직이고 <b>실제 주문은 내지 않습니다</b>. 시장이 빨간불이면 새로 사지 않고, 실적 발표 직전 종목도 사지 않습니다.'},
+  {id:'t7',name:'지우',role:'7팀 · 종목 판정',tab:'t7',job:'물어본 종목 판정',
+   duty:'사장님이 <b>텔레그램으로 직접 물어본 종목</b>을 심층 분석해 <b>지금 매수하기에 적정한지</b> 결론을 냅니다 — 🟢 매수 적정 / 🟡 조건부 / 🔴 아니다. 봇 대화창에 <code>SNOW 심층분석</code> 이라고 보내면 5~10분 뒤 답이 옵니다. 차트(쿨라매기 기준)·재무(CAN SLIM)·<b>새로운 성장 동력(N)</b>·뉴스·리스크를 CNBC 기사와 증권사 리포트 원문 근거로 조사합니다. 결론은 AI 판정이지만, <b>시장 빨간불 · 50일선 아래 · 실적 발표 임박 · 쉬는 구간 없음 · 추격 구간</b>이면 코드가 \'매수 적정\'을 막고 그 사유를 그대로 보여 줍니다. 결론을 내는 팀은 지우뿐입니다 — 다른 팀은 지금처럼 판정하지 않습니다.'},
 ];
 const avatar=(a,cls='av')=>`<img class="${cls}" src="assets/avatars/${a.id}.svg" alt="${esc(a.name)}" loading="lazy" width="56" height="56">`;
 
@@ -313,6 +316,12 @@ function _dd(id){
     return {stat:I.length?ko(I[0]):'—',statl:'업종 순위 1위 (RS 사이트 FRANK)',
       line:I.length?`2위 ${ko(I[1]||{})} · 3위 ${ko(I[2]||{})}<br>리포트 ${I.filter(x=>x.report&&x.report.status==='done').length}/${I.length}업종`:'대기 중',
       busy:!!t};
+  }
+  if(id==='t7'){
+    const I=(D.od&&D.od.items)||[],x=I[0];
+    return {stat:I.length?`${VICON[x.verdict]||'⚪'} ${esc(x.ticker)}`:'—',statl:I.length?`최근 판정 — ${esc(x.verdict)}`:'텔레그램으로 물어본 종목',
+      line:I.length?`${I.slice(1,5).map(y=>`${VICON[y.verdict]||'⚪'}${esc(y.ticker)}`).join(' · ')||'&nbsp;'}<br>지금까지 ${I.length}종목 판정`:'봇에게 "SNOW 심층분석" 이라고 보내 보세요',
+      busy:I.length>0};
   }
   if(id==='t6'){
     const t=D.t6,c=(t&&t.counts)||{},w=((t&&t.plans)||[]).filter(p=>p.watch);
@@ -763,9 +772,28 @@ function researchBlock(R){
   if(uc&&(uc.what||uc.date))b+=`<div class="note"><b>다가올 일정:</b> ${esc(uc.date||'')} ${esc(uc.what||'')} ${srcLinks(uc.sources,2)}</div>`;
   return b+`</div>`;
 }
+/* ── 7팀 지우 — 결론 블록 (2026-10-13). 결론을 내는 유일한 팀. 코드가 조정했으면 그 사유를 그대로 보인다. ── */
+const VICON={'매수 적정':'🟢','조건부':'🟡','아니다':'🔴','판정 불가':'⚪'},VCOL={'매수 적정':'var(--grn)','조건부':'var(--yel)','아니다':'var(--red)','판정 불가':'var(--dim)'};
+function verdictBlock(x){
+  if(!x)return '';
+  const G=x.gates||{},B=x.basis||[];
+  let h=`<div class="sec" style="border-color:${VCOL[x.verdict]||'var(--bd)'}"><h4>지우 판정 <span class="chip">AI 판정 · 투자 판단 보조</span> <span class="dim">${esc(x.requestedOn||'')} 요청 · 기준 봉 ${esc(x.session||'')} · 시장 판정 ${esc((G.asOf&&G.asOf.market)||'?')} 기준</span></h4>
+    <div class="ko" style="color:${VCOL[x.verdict]||'var(--tx)'}">${VICON[x.verdict]||'⚪'} ${esc(x.verdict||'')}</div>
+    <div class="pi" style="margin-top:6px">${esc(x.verdictLine||'')}</div>`;
+  for(const a of (x.verdictAdjusted||[]))h+=`<div class="nosrc">⚠️ 코드가 조정했습니다 — ${esc(a)}</div>`;
+  if(B.length)h+=`<h5>판정 근거</h5><ul class="plist">${B.map(b=>`<li>${b.side==='for'?'<span style="color:var(--grn)">＋</span>':'<span style="color:var(--red)">－</span>'} ${esc(b.point)} <span class="dim" style="font-size:11.5px">[${esc(b.checkRef||'')}]</span></li>`).join('')}</ul>`;
+  if((x.conditions||[]).length)h+=`<h5>이것이 확인되면 바뀝니다</h5><ul class="plist">${x.conditions.map(c=>`<li>${esc(c)}</li>`).join('')}</ul>`;
+  if(x.invalidation)h+=`<h5>이 판단이 틀렸다고 볼 조건</h5><div class="pi">${esc(x.invalidation)}</div>`;
+  if((G.reasons||[]).length)h+=`<h5>'매수 적정'을 막는 조건 <span class="chip">코드 계산</span></h5><ul class="plist">${G.reasons.map(g=>`<li>${esc(g.ko)}</li>`).join('')}</ul>`;
+  if(x.dataLimits)h+=`<div class="note">자료 한계: ${esc(x.dataLimits)}</div>`;
+  h+=`<div class="note">밤(미국 장중)에 물어본 경우 전일 종가 기준입니다. 금액·수량은 다루지 않습니다. 최종 판단과 책임은 본인에게 있습니다.</div>`;
+  return h+(x.deep?deepBlock(x.deep):'')+`</div>`;
+}
+
 function openTicker(T){
   const t2=D.t2||{},pool=[...(t2.picks||[]),...(t2.listPicks||[])];
-  const p=pool.find(x=>x.ticker===T)||null;
+  const od=((D.od&&D.od.items)||[]).find(x=>x.ticker===T)||null;
+  const p=pool.find(x=>x.ticker===T)||od;   // 목록에 없는 종목은 7팀이 모은 자료(체크표·KIS·CNBC·실적)로 팝업을 채운다
   const it=t2.lists?LKEYS.map(k=>t2.lists[k].items.find(i=>i.ticker===T)).find(Boolean):null;
   const plan=[...((D.t6&&D.t6.plans)||[]),...((D.t6&&D.t6.post)||[])].find(x=>x.ticker===T)||null;
   const ep=((D.t4&&D.t4.items)||[]).find(x=>x.ticker===T)||null;
@@ -777,6 +805,7 @@ function openTicker(T){
     <a href="https://finviz.com/quote.ashx?t=${encodeURIComponent(T)}" target="_blank" style="margin-left:auto;font-size:13px">Finviz ↗</a>
     <button class="x" onclick="closeM2()">닫기 ✕</button></div>`;
   h+=`<div class="chartbox" id="ohlcBox"><div class="empty">차트 불러오는 중…</div></div>`;
+  h+=verdictBlock(od);
   if(it)h+=`<div class="sec"><h4>핵심 지표 <span class="dim">(RS 사이트 · 쿨라매기 기준)</span></h4>${rows(colsFor('all').slice(1).map(([lab,tip,f])=>[`<span title="${esc(tip)}">${lab}</span>`,f(it)]))}</div>`;
   const K=p&&p.kis;
   if(K)h+=`<div class="sec"><h4>기업 기본 수치 <span class="dim">(한국투자증권 Open API · ${esc(K.fetchedAt||'')})</span></h4>${rows([
@@ -792,7 +821,7 @@ function openTicker(T){
     h+=`<div class="sec"><h4>CAN SLIM 체크 <span class="chip">코드 계산 · 판정 아님</span></h4>${ck(CKS.canslim)}
       <div class="note">기준: docs/기준-CANSLIM-재무.md (오닐) · EPS 대신 순이익 증가율로 근사 · N(신제품·신서비스)은 AI 심층에서 출처로 판정 · 기관 보유 자료 없음</div></div>`;
   }
-  if(p&&p.deep&&!(plan&&plan.deep))h+=`<div class="sec"><h4>AI 심층 분석 <span class="dim">(도윤 목록 순환)</span></h4>${deepBlock(p.deep)}</div>`;
+  if(p&&p!==od&&p.deep&&!(plan&&plan.deep))h+=`<div class="sec"><h4>AI 심층 분석 <span class="dim">(도윤 목록 순환)</span></h4>${deepBlock(p.deep)}</div>`;
   if(plan)h+=`<div class="sec"><h4>서준 매수 계획 ${plan.watch?'<span class="chip">오늘 밤 관심</span>':''}</h4>${rows([['현재가 → 피벗',`${n(plan.price)} → <b>${n(plan.pivot)}</b> (${sgn(plan.distToPivotPct)}%)`],
     ['예비 손절 · 위험',plan.stop?`${n(plan.stop)} · ${n(plan.riskPerSharePct,1)}%`:'—'],['등급',esc(plan.grade||'—')]])}${plan.blocked?`<div class="nosrc">⛔ ${esc(plan.blocked)}</div>`:''}${plan.deep?deepBlock(plan.deep):''}</div>`;
   h+=researchBlock(p&&p.research);
@@ -811,7 +840,7 @@ function openTicker(T){
     const kr=((d.krReports&&d.krReports.reports)||[]).slice(0,4);
     if(kr.length)h+=`<div class="sec"><h4>국내 증권사 리포트</h4>${kr.map(r=>`<div style="margin-bottom:8px"><b>${esc(r.title)}</b> <span class="dim">${esc(r.date)} · ${esc(r.broker)}</span>${r.summary?clip(`<div class="note">${esc(r.summary)}</div>`,3):''}${r.pdfUrl?` <a href="${esc(r.pdfUrl)}" target="_blank" style="font-size:12px">PDF ↗</a>`:''}</div>`).join('')}</div>`;
   }
-  if(!(p&&p.research&&['done','no_source'].includes(p.research.status))&&!(plan&&plan.deep)&&!(ep&&ep.catalyst&&ep.catalyst.status==='done')&&!d)
+  if(!(p&&p.research&&['done','no_source'].includes(p.research.status))&&!(plan&&plan.deep)&&!(ep&&ep.catalyst&&ep.catalyst.status==='done')&&!d&&!od)
     h+=`<div class="sec"><div class="note" style="margin:0">아직 조사 전입니다 — 거래대금 상위·세 기간 공통 종목부터 매일 순환 조사합니다.</div></div>`;
   $('mbox2').innerHTML=h;$('modal2').classList.add('on');$('modal2').scrollTop=0;
   loadOhlc(T,r=>{const b=$('ohlcBox');if(!b)return;b.innerHTML=r&&r.length>20?candleSvg(r):'<div class="empty">차트 데이터가 없습니다 (봉 수집 대상이 아닌 종목)</div>';});
@@ -830,6 +859,29 @@ function ck(list){
     return `<span class="${cls}">${mark} ${esc(x.item||'')}</span><span>${esc(x.evidence||'')}</span>`;}).join('');
   return `<div class="note" style="margin:0 0 6px">충족 ${cnt.ok} · 미충족 ${cnt.no} · 확인 불가 ${cnt.na}</div><div class="ck">${body}</div>`;
 }
+/* ── CAN SLIM N 심층 (2026-10-13) — 신제품·신서비스가 매출·이익에 주는 영향과 기대 성장. 전부 출처·인용이 붙은 것만.
+   이 칸이 생기기 전에 조사한 분석(newDrivers 없음)은 아무것도 그리지 않는다. */
+function nBlock(D){
+  if(!D||D.nVerdict==null)return '';
+  const vc={'충족':'var(--grn)','부분 충족':'var(--yel)','미충족':'var(--red)','확인 불가':'var(--dim)'}[D.nVerdict]||'var(--dim)';
+  const kindKo={product:'신제품',service:'신서비스',management:'신경영진',contract:'신규 계약',industry:'업계 변화'};
+  const pct=v=>v==null?'—':(v>0?'+':'')+n(v,1)+'%';
+  let b=`<h5>N — 새로운 성장 동력 <span class="chip" style="color:${vc}">${esc(D.nVerdict)}</span></h5>`;
+  if(D.nNarrative)b+=`<div class="pi">${esc(D.nNarrative)}</div>`;
+  const part=(lab,cl)=>{const h=claimList(cl);return `<div style="margin-top:6px"><b style="font-size:12.5px;color:var(--dim)">${lab}</b>${h||'<div class="note">근거 없음 (지어내지 않습니다)</div>'}</div>`;};
+  for(const d of (D.newDrivers||[])){
+    b+=`<div style="margin:10px 0;padding:8px 12px;border:1px solid var(--bd);border-radius:9px">
+      <div><span class="chip">${esc(kindKo[d.kind]||d.kind||'')}</span> <span class="chip">${esc(d.stage||'')}${d.since?` · ${esc(d.since)}`:''}</span> <b>${esc(d.what||'')}</b></div>
+      ${claimList(d.basis)||''}
+      ${part('매출에 주는 영향',d.revenueImpact)}${part('이익·마진에 주는 영향',d.profitImpact)}${part('기대 성장 (회사 가이던스·증권사 추정)',d.expectedGrowth)}
+      ${claimList(d.counter)?part('이 기대가 꺾일 수 있는 근거',d.counter):''}</div>`;
+  }
+  if(!(D.newDrivers||[]).length)b+=`<div class="note">최근 3개월 안에 출처로 확인된 신제품·신서비스·경영 변화가 없습니다.</div>`;
+  const c=D.consensus;
+  if(c)b+=`<div class="note" style="margin-top:6px">컨센서스(RS 사이트 · 코드가 붙인 값): 올해 매출 ${pct(c.saleCy)} · EPS ${pct(c.epsCy)} / 내년 매출 ${pct(c.saleNy)} · EPS ${pct(c.epsNy)}${c.cyTrend!=null?` · 30일 전망 변화 올해 ${pct(c.cyTrend)}${c.nyTrend!=null?` · 내년 ${pct(c.nyTrend)}`:''}`:''}</div>`;
+  return b;
+}
+
 function deepBlock(D){
   if(!D)return '';
   if(D.status!=='done')return `<div class="nosrc" style="margin-top:6px">🔎 ${esc(D.note||'심층 분석 실패')}</div>`;
@@ -843,6 +895,7 @@ function deepBlock(D){
   b+=`<h5>재무${revKo?` <span class="chip">전망치 ${revKo}</span>`:''}</h5>`+(D.financialsNarrative?`<div class="pi">${esc(D.financialsNarrative)}</div>`:'');
   const fin=claimList([...(F.revenueTrend||[]),...(F.profitTrend||[]),...(F.guidance||[]),...((rev.claims)||[])],{quote:false});
   if(fin)b+=fin;
+  b+=nBlock(D);
   if((D.canslim||[]).length)b+=`<h5>CAN SLIM 체크 <span class="note" style="display:inline">(오닐 기준 · 기관 보유 자료 없음)</span></h5>`+ck(D.canslim);
   b+=`<h5>리스크</h5>`+(claimList(D.risks)||`<div class="note">보도된 리스크 근거 없음 (지어내지 않습니다)</div>`);
   if((D.structuralRisks||[]).length)b+=`<ul class="plist">${D.structuralRisks.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`;
@@ -992,6 +1045,15 @@ function bodyFor(id){
     return h;
   }
   if(id==='t5')return industryView();
+  if(id==='t7'){
+    const I=(D.od&&D.od.items)||[];
+    if(!I.length)return '<div class="empty">아직 물어본 종목이 없습니다 — 텔레그램 봇 대화창에 <b>SNOW 심층분석</b> 처럼 보내 주세요</div>';
+    return `<div class="sec"><h4>물어본 종목 ${I.length}개 <span class="dim">(최근 순 · 티커를 누르면 전체 분석)</span></h4>`+
+      I.map(x=>`<div style="margin-bottom:11px"><span class="tk" data-tk="${esc(x.ticker)}">${esc(x.ticker)}</span>${x.nameKo?` <span class="dim">${esc(x.nameKo)}</span>`:''}
+        <span class="chip" style="color:${VCOL[x.verdict]||'var(--dim)'}">${VICON[x.verdict]||'⚪'} ${esc(x.verdict)}</span> <span class="dim" style="font-size:12px">${esc(x.requestedOn||'')} · 기준 봉 ${esc(x.session||'')}</span>
+        <div class="note">${esc(x.verdictLine||'')}</div></div>`).join('')+
+      `<div class="note">결론은 AI 판정이며 투자 판단 보조입니다. 물어본 날의 자료 기준이라 며칠 지나면 달라질 수 있습니다 — 다시 보려면 텔레그램에 "티커 다시".</div></div>`;
+  }
   if(id==='t6'){
     const t=D.t6; if(!t)return '<div class="empty">데이터 없음</div>';
     const sg=v=>v==null?'—':(v>0?'+':'')+n(v,1);
@@ -1064,7 +1126,7 @@ function openAgent(id){
     +(br?`<div class="sec brief"><h4>💬 ${a.name}의 브리핑</h4><div class="pi">${br}</div>
        ${llmSum?`<div class="pi" style="margin-top:10px;padding-top:10px;border-top:1px solid var(--bd)">${esc(llmSum)}</div>`:''}</div>`:'')
     +bodyFor(id)
-    +(id==='t5'?'':`<div style="text-align:center;margin-top:14px">
+    +(id==='t5'||id==='t7'?'':`<div style="text-align:center;margin-top:14px">
        <a class="btn btn2" href="dashboard/breakout-room.html#${a.tab}">이 팀 전체 자료 보기 →</a></div>`);
   $('mbox').classList.toggle('wide',id==='t2'||id==='t5');
   $('modal').classList.add('on');

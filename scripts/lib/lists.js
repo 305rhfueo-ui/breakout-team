@@ -101,9 +101,10 @@ function unionTickers(lists) {
 // 팝업 캔들차트용 봉 — window.OHLC[T] = [[날짜,시,고,저,종,거래량], …] 최근 126봉(6개월).
 // PNG 를 매일 커밋하면 공개 저장소가 연 300MB+ 자란다. 봉 숫자는 하루 한 줄만 바뀌어 git 이 거의 안 자란다.
 // 오늘 목록에 없는 종목 파일은 지운다(쌓이지 않게).
-function writeOhlcFiles(tickers, barsOf, dir, { bars = 126, dateOf } = {}) {
+// keepTickers: 봉을 새로 쓰지는 않지만 지우면 안 되는 종목 (7팀이 분석한 종목 — 다음 날 아침에 차트가 사라지지 않게, 2026-10-13)
+function writeOhlcFiles(tickers, barsOf, dir, { bars = 126, dateOf, keepTickers = [] } = {}) {
   fs.mkdirSync(dir, { recursive: true });
-  const keep = new Set();
+  const keep = new Set(keepTickers.map((t) => `${String(t).replace(/[^A-Za-z0-9.\-]/g, '_')}.js`));
   let written = 0;
   for (const t of [...new Set(tickers)]) {
     const b = barsOf(t);

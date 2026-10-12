@@ -10,3 +10,9 @@ dashboard/data/series/*.tmp*
 
 # 6팀 심층 분석용 차트 PNG (CACHE_DIR 에서 복사한 사본 — 공개 저장소에 올리지 않는다)
 state/llm-in/_t6/*.png
+
+# 증권사 리포트 원문 PDF (에이전트가 읽는 사본 — 저작권, 공개 저장소에 올리지 않는다) · 7팀 온디맨드 차트
+state/llm-in/_t6/*.pdf
+# 7팀 온디맨드 작업 폴더(재료·PNG·PDF·중간 결과) — 결과는 dashboard/data/ondemand.js 로 나간다
+state/ondemand/
+*.pdf

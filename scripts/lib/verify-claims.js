@@ -169,7 +169,13 @@ function sanitizeNode(node, { runDate, linkMap, report }) {
       if (String(s.quote || '').trim().length <= 8) {
         report.removed.push({ reason: '인용문 없음', url: u }); report.noQuote = (report.noQuote || 0) + 1; continue;
       }
-      if (seen.has(u)) { report.removed.push({ reason: '중복', url: u }); continue; }
+      // 같은 URL 을 두 번 인용했으면 출처는 하나로 합치되 **인용문은 이어 붙인다**.
+      // (2026-10-13 실측: 두 번째 인용문을 버렸더니 거기 있던 숫자가 "출처에 없음"으로 지워졌다 — 8-K 한 장에서 매출 37%·35% 를 따로 인용한 경우)
+      if (seen.has(u)) {
+        const first = kept.find((k) => k.url === u), q = String(s.quote).trim();
+        if (first && !String(first.quote).includes(q)) first.quote = `${String(first.quote).trim()} … ${q}`;
+        report.removed.push({ reason: '중복', url: u }); continue;
+      }
       seen.add(u);
       const lk = linkMap ? linkMap.get(u) : null;
       if (lk && lk.verdict === 'dead') { report.removed.push({ reason: `링크 죽음(HTTP ${lk.status})`, url: u }); report.dead++; continue; }

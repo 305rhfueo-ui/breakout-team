@@ -145,7 +145,27 @@ async function downloadPdf(secureId, { timeoutMs = 30000 } = {}) {
   } finally { clearTimeout(timer); }
 }
 
-module.exports = { getReports, lookupTicker, downloadPdf, HOST, PDF_BASE };
+// ── 리포트 원문 PDF 를 에이전트가 읽을 수 있는 폴더로 복사 (2026-10-13, CAN SLIM N 심층) ──
+// 요약 한 줄에는 "제품별 매출 전망·이익률 가정"이 없다 — 원문에 있다. 최신순으로 max 건.
+// ⚠️ 10쪽 넘는 PDF 는 건너뛴다: 이 맥에는 poppler 가 없어 Claude Read 가 쪽 범위를 못 읽는다(10쪽 이하만 통째로 읽힌다 — 실측).
+// ⚠️ 복사본은 .gitignore 대상이다(저작권 — 공개 저장소에 올리지 않는다). 화면에는 인용 문장과 링크만 나간다.
+async function copyReportPdfs(reports, dir, ticker, { max = 2, maxPages = 10 } = {}) {
+  const fs = require('fs'), path = require('path');
+  const out = [];
+  for (const r of reports || []) {
+    if (out.length >= max) break;
+    const id = r.secureId || (String(r.pdfUrl || '').match(/\/([A-Za-z0-9]+)\.pdf$/) || [])[1];
+    if (!id || (r.pages && r.pages > maxPages)) continue;
+    const d = await downloadPdf(id);
+    if (!d.ok) continue;
+    const file = path.join(dir, `${String(ticker).replace(/[^A-Za-z0-9]/g, '_')}-report${out.length + 1}.pdf`);
+    try { fs.writeFileSync(file, d.buf); } catch (e) { continue; }
+    out.push({ path: file, broker: r.broker || null, analyst: r.analyst || null, date: r.date || null, title: r.title || null, pdfUrl: r.pdfUrl || `${PDF_BASE}/${id}.pdf`, pages: r.pages || null });
+  }
+  return out;
+}
+
+module.exports = { copyReportPdfs, getReports, lookupTicker, downloadPdf, HOST, PDF_BASE };
 
 if (require.main === module) {
   require('../lib/util').loadEnv();

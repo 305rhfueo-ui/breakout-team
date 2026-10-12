@@ -50,7 +50,7 @@ function slimDetail(d) {
   }
   if (Array.isArray(d.filings)) out.filings = d.filings.slice(0, 6).map((f) => ({ form: f.form, filingDate: f.filingDate, itemsKo: f.itemsKo, isEarnings: f.isEarnings, url: f.url }));
   if (d.krReports && Array.isArray(d.krReports.reports)) {
-    out.krReports = { total: d.krReports.total, reports: d.krReports.reports.slice(0, 8).map((r) => ({ date: r.date, broker: r.broker, analyst: r.analyst, title: r.title, summary: r.summary, pdfUrl: r.pdfUrl })) };
+    out.krReports = { total: d.krReports.total, reports: d.krReports.reports.slice(0, 8).map((r) => ({ date: r.date, broker: r.broker, analyst: r.analyst, title: r.title, summary: r.summary, pdfUrl: r.pdfUrl, pages: r.pages || null })) };
   }
   return out;
 }

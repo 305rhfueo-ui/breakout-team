@@ -85,5 +85,14 @@ ok('window.OHLC 로 쓰고, 오늘 목록에 없는 종목 파일은 지운다',
   fs.rmSync(dir, { recursive: true });
 });
 
+ok('7팀이 분석한 종목(keepTickers)의 차트 파일은 지우지 않는다', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'ohlc-'));
+  fs.writeFileSync(path.join(dir, 'SNOW.js'), 'x'); fs.writeFileSync(path.join(dir, 'BRK.B.js'), 'x'); fs.writeFileSync(path.join(dir, 'OLD.js'), 'x');
+  const r = L.writeOhlcFiles([], () => null, dir, { keepTickers: ['SNOW', 'BRK.B'] });
+  assert.deepStrictEqual(r, { written: 0, pruned: 1 });
+  assert.deepStrictEqual(fs.readdirSync(dir).sort(), ['BRK.B.js', 'SNOW.js']);
+  fs.rmSync(dir, { recursive: true });
+});
+
 console.log(`\n${fail ? '❌' : '✅'} 통과 ${pass} · 실패 ${fail}`);
 process.exit(fail ? 1 : 0);

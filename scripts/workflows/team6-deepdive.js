@@ -20,6 +20,9 @@ const items = (A && A.items) || []
 const CAP = Number.isFinite(A && A.cap) ? A.cap : 10     // `|| 10` 이면 cap:0 이 10 으로 둔갑한다
 const MODEL = (A && A.model) || 'opus'                    // 워크플로는 env 를 못 읽는다 — prepare 가 DEEP_MODEL 을 여기로 넘긴다
 const argsDir = (A && A.argsDir) || null
+// 2026-10-13 7팀(지우): 텔레그램으로 받은 종목은 mode:'verdict' — 같은 분석에 **결론 칸**을 더한다. 6팀(mode 없음)은 지금처럼 판정하지 않는다.
+//   같은 파일에 둔 이유: 스키마·규칙·팩트체크를 두 벌로 두면 한쪽만 고쳐져 어긋난다.
+const VERDICT = !!(A && A.mode === 'verdict')
 const docsDir = (A && A.docsDir) || 'docs'               // 기준 문서 폴더 (절대경로 — 세션의 cwd 가 저장소가 아닐 수 있다)
 
 if (!items.length) return { date, team: 6, items: [], failed: [], coverage: { done: 0, total: 0, cap: CAP, failed: 0 }, note: '관심 종목 없음' }
@@ -68,7 +71,21 @@ const DEEP = { type: 'object', properties: {
       claims: { type: 'array', items: CLAIM, description: '증권사 전망치 변화 근거 최대 2개. 확인 안 되면 direction:"unknown", claims:[]' },
     }, required: ['direction', 'claims'] },
   }, required: ['revenueTrend', 'profitTrend', 'guidance', 'estimateRevisions'] },
-  canslim: { type: 'array', items: CHECK_ITEM, description: 'docs/기준-CANSLIM-재무.md 의 C·A·N·S·L·I·M 순서로 7개. item 은 "C 최근 분기 이익" 처럼 글자+이름. I 는 항상 "확인 불가". C·A 의 evidence 에는 "(순이익 기준, 주식 수 변동 미반영)" 을 붙인다' },
+  // ── N 심층 (2026-10-13 사용자: "N 이 중요하다 — 신제품·신서비스가 손익·수익 증가에 어떤 영향을 주는지, 기대 증가율은") ──
+  newDrivers: { type: 'array', description: '새로운 성장 동력 최대 3개 — 신제품·신서비스·신경영진·신규 대형계약·업계의 새 변화. 주가 상승·신고가·지수 편입·애널리스트 의견은 "새로운 것"이 아니다. 없으면 빈 배열', items: { type: 'object', properties: {
+    what: { type: 'string', description: '무엇이 새로운가 — 이름과 한 줄 설명 (예: "AI 탐지·대응 제품 AIDR — AI 에이전트의 이상 행동을 잡는 신제품")' },
+    kind: { type: 'string', enum: ['product', 'service', 'management', 'contract', 'industry'] },
+    stage: { type: 'string', enum: ['발표만', '출시', '매출 발생 중', '이익 기여 중', '확인 불가'], description: '지금 어느 단계인가. 출처로 확인되는 만큼만' },
+    since: { type: 'string', description: '발표·출시 시점 (YYYY-MM 또는 YYYY-MM-DD). 출처에 없으면 빈 문자열' },
+    basis: { type: 'array', items: CLAIM, description: '이것이 실제로 새로 나왔다는 근거 1~2개 (발표·출시·선임·계약 체결 사실)' },
+    revenueImpact: { type: 'array', items: CLAIM, description: '매출에 주는 영향 최대 2개 — 그 제품의 매출·비중·성장률·수주잔고·고객 수. 숫자는 quote 에 있는 것만. 근거가 없으면 빈 배열' },
+    profitImpact: { type: 'array', items: CLAIM, description: '이익·마진에 주는 영향 최대 2개 — 마진 구조, 흑자 전환 시점, 비용 부담. 근거가 없으면 빈 배열' },
+    expectedGrowth: { type: 'array', items: CLAIM, description: '기대 성장 최대 2개 — 회사 가이던스 또는 증권사 추정(누구의 추정이고 어느 연도인지 statement 에 밝힌다). 컨센서스 숫자는 여기 쓰지 마라(화면이 따로 보여 준다). 근거가 없으면 빈 배열' },
+    counter: { type: 'array', items: CLAIM, description: '이 기대가 꺾일 수 있는 근거 최대 2개 — 경쟁·출시 지연·수요 둔화·비용. 근거가 없으면 빈 배열' },
+  }, required: ['what', 'kind', 'stage', 'since', 'basis', 'revenueImpact', 'profitImpact', 'expectedGrowth', 'counter'] } },
+  nNarrative: { type: 'string', description: '4~6문장. 무엇이 새롭고 → 매출에 얼마나 → 이익에 어떻게 → 기대 성장률은(누구의 전망인지) → 무엇이 확인돼야 하는가. newDrivers 의 요약이어야 하며 거기 없는 숫자를 넣지 마라. 새로운 것이 없으면 "최근 3개월 안에 확인된 신제품·신서비스·경영 변화가 없다" 한 문장' },
+  nVerdict: { type: 'string', enum: ['충족', '부분 충족', '미충족', '확인 불가'], description: '충족 = 새로운 것이 출처로 확인되고 매출·이익 영향 근거도 있다 · 부분 충족 = 새로운 것은 확인되나 영향 근거가 없다 · 미충족 = 새로운 것이 없다 · 확인 불가 = 자료가 없다' },
+  canslim: { type: 'array', items: CHECK_ITEM, description: 'N 줄의 status 는 nVerdict 와 같게(부분 충족은 "미충족"이 아니라 evidence 에 "부분 충족"이라고 쓰고 status 는 "충족"으로 하지 마라 — "미충족"). docs/기준-CANSLIM-재무.md 의 C·A·N·S·L·I·M 순서로 7개. item 은 "C 최근 분기 이익" 처럼 글자+이름. I 는 항상 "확인 불가". C·A 의 evidence 에는 "(순이익 기준, 주식 수 변동 미반영)" 을 붙인다' },
   risks: { type: 'array', items: CLAIM, description: '출처 있는 리스크 최대 4개 — 실적 둔화·증자·소송·규제·고객 이탈 등 실제 보도된 것. 비어 있어도 정상 — 칸을 채우려고 지어내지 마라' },
   structuralRisks: { type: 'array', items: { type: 'string' }, description: '사업 구조상 늘 있는 위험 최대 3개 (고객 집중·단일 제품·규제 산업 등). 제공 자료나 웹에서 확인된 것만, 숫자 없이 한 문장씩. 없으면 빈 배열' },
   chartCheck: { type: 'array', items: CHECK_ITEM, description: 'docs/기준-쿨라매기-차트.md 표의 11개 항목을 그 순서대로. evidence 는 입력 JSON 의 plan.metrics·chart.numbers 숫자만' },
@@ -82,7 +99,24 @@ const DEEP = { type: 'object', properties: {
   entryChecklist: { type: 'array', items: { type: 'string' }, description: '"무엇이 확인되면" 형식 3~5개. 매수 전 사용자가 직접 확인할 조건 (예: "피벗 $196.72 를 거래량 20일 평균 2배 이상으로 종가 돌파하는지"). 매수 권유 문장 금지' },
   earningsRisk: { type: 'string', description: '실적 발표 일정과 그 위험 1~2문장. plan.earnings 가 있으면 날짜를 쓰고, 없으면 "확정된 실적 발표 일정 없음(달력 기준)"' },
   confidence: { type: 'string', enum: ['high', 'medium', 'low'], description: '근거의 충실도' },
-}, required: ['ticker', 'company', 'lead', 'newsNarrative', 'recentNews', 'financialsNarrative', 'financials', 'canslim', 'risks', 'chartCheck', 'chartObservation', 'entryChecklist', 'earningsRisk', 'confidence'] }
+}, required: ['ticker', 'company', 'lead', 'newsNarrative', 'recentNews', 'financialsNarrative', 'financials', 'newDrivers', 'nNarrative', 'nVerdict', 'canslim', 'risks', 'chartCheck', 'chartObservation', 'entryChecklist', 'earningsRisk', 'confidence'] }
+
+// ── 7팀 결론 칸 (mode:'verdict' 일 때만 스키마에 붙는다) ──
+if (VERDICT) {
+  Object.assign(DEEP.properties, {
+    verdict: { type: 'string', enum: ['매수 적정', '조건부', '아니다'], description: '기준 문서 두 장(쿨라매기 차트 · CAN SLIM)에 비춘 종합 판정. 매수 적정 = 지금 기준을 충족한다 · 조건부 = 무엇이 확인되면 충족한다 · 아니다 = 지금은 기준에 맞지 않는다' },
+    verdictLine: { type: 'string', description: '결론 한 문장 (60~90자). 왜 그 판정인지 핵심 이유 하나를 담는다' },
+    basis: { type: 'array', description: '결론의 근거 3~5개. 각 항목은 체크표 항목 또는 출처 주장을 반드시 가리킨다', items: { type: 'object', properties: {
+      point: { type: 'string', description: '근거 한 문장. 숫자는 입력 JSON 이나 가리키는 주장의 quote 에 있는 것만' },
+      side: { type: 'string', enum: ['for', 'against'], description: 'for = 매수에 유리 · against = 불리' },
+      checkRef: { type: 'string', description: '가리키는 근거. 체크표면 "차트:항목이름"(예: "차트:거래량 마름") 또는 "CANSLIM:C" 처럼 글자, 출처 주장이면 그 주장의 id (예: "n1"). 가리킬 것이 없으면 그 근거를 쓰지 마라' },
+    }, required: ['point', 'side', 'checkRef'] } },
+    conditions: { type: 'array', items: { type: 'string' }, description: '"조건부"일 때 무엇이 확인되면 매수 적정으로 바뀌는가 2~4개 (입력의 피벗·거래량 기준·실적일 등 숫자로). 그 밖의 판정이면 빈 배열' },
+    invalidation: { type: 'string', description: '이 판단이 틀렸다고 볼 조건 1~2문장. 입력에 예비 손절 값이 있으면 그 값을 쓴다' },
+    dataLimits: { type: 'string', description: '판정에 쓰지 못한 자료 한계 한 문장 (예: "기관 보유 자료 없음, 증권사 리포트 1건뿐"). 없으면 빈 문자열' },
+  })
+  DEEP.required.push('verdict', 'verdictLine', 'basis', 'conditions', 'invalidation', 'dataLimits')
+}
 
 const STYLE = `
 ## 서술 기준 — 독자는 주식 투자를 하는 일반인이다 (2026-10-02 사용자 결정)
@@ -99,7 +133,7 @@ const STYLE = `
 7. 서술문에는 작업 과정을 쓰지 않는다. "제공 자료에 없다", "입력에 없다", "Node", "본문 403" 같은 설명 금지.
    (체크표의 status "확인 불가" 는 예외 — 그건 값이다.) 서술에서 모르는 것은 그냥 쓰지 않는다.
 8. 숫자는 quote 나 제공 자료에 실제로 있는 것만 쓴다. 분량을 채우려고 추측하지 마라.
-9. 매수·매도 권유는 하지 않는다. 대신 "무엇이 확인되면 이 이야기가 맞고/틀린지"로 끝낸다.`
+9. ${VERDICT ? '결론 칸(verdict·basis·conditions·invalidation)에서만 판정한다. 그 밖의 서술은 사실과 관찰로 쓴다. 수량·금액·비중은 쓰지 마라.' : '매수·매도 권유는 하지 않는다. 대신 "무엇이 확인되면 이 이야기가 맞고/틀린지"로 끝낸다.'}`
 
 const RULES = `
 반드시 지킬 것 (어기면 결과를 폐기한다):
@@ -113,6 +147,18 @@ const RULES = `
    그림에서 눈으로 읽은 가격·이평선 값을 쓰지 마라. 숫자는 전부 입력 JSON 의 \`plan.metrics\`·\`chart.numbers\`·\`chart.last10\` 에서 인용한다.
    PNG 는 숫자가 맞는지 모양으로 확인하는 용도다(횡보 구간이 보이는지, 거래량 막대가 줄어드는지).
 7. Node 가 확정한 수치(현재가·피벗·손절·거리·등급·실적일·업종 흐름)는 바꾸지 마라. 해석만 하라.
+8. **N(새로운 성장 동력)은 따로 깊게 본다** — 사용자가 가장 중요하게 보는 항목이다.
+   - "새로운 것" = 신제품·신서비스·신경영진·신규 대형계약·업계의 새 변화. **주가 상승·신고가·지수 편입·목표주가·투자의견은 N 이 아니다.**
+   - 동력마다 다섯 가지를 출처로 답한다: ①무엇이 새로 나왔나(basis) ②매출에 얼마나(revenueImpact) ③이익·마진에 어떻게(profitImpact) ④기대 성장률은 — 회사 가이던스인지 ○○증권 추정인지, 어느 연도인지(expectedGrowth) ⑤무엇이 이 기대를 꺾을 수 있나(counter).
+   - 자료 순서: \`reportPdfs\`(증권사 리포트 원문 PDF — 있으면 **Read 로 직접 읽어라**. 제품별 매출 전망·이익률 가정이 여기 있다) → \`detail.krReports\` 요약 → \`detail.filings\`(8-K 실적 발표·가이던스) → \`cnbc\`(URL 을 열어 본문 인용) → 웹검색(회사 IR·실적 발표문).
+   - PDF 를 인용할 때: publisher 는 "○○증권(연합인포맥스)", url 은 그 리포트의 pdfUrl, quote 는 PDF 의 문장·표의 줄 그대로.
+   - **영향·성장률 숫자는 quote 에 있어야 한다**(코드가 숫자를 하나하나 대조해 없으면 그 문장을 지운다). 새로운 것은 확인되는데 매출·이익 영향 근거를 못 찾으면 그 칸은 **빈 배열**로 두고 nVerdict 는 "부분 충족" — 추정치를 지어내지 마라.
+   - \`site\` 의 컨센서스(saleCy·epsCy 등)는 주장에 쓰지 마라. 화면이 "Node 확정" 줄로 따로 보여 준다.
+${VERDICT ? `10. **결론(verdict)은 기준 문서와 근거에서만 낸다.** 감으로 판정하지 마라.
+   - basis 의 각 항목은 체크표 항목("차트:항목이름" · "CANSLIM:글자")이나 출처 주장 id 를 가리켜야 한다. 유리한 근거와 불리한 근거를 둘 다 적는다.
+   - 다음 중 하나라도 해당하면 **"매수 적정"을 줄 수 없다**("조건부" 또는 "아니다"): 시장 판정이 빨간불 · 종가가 50일선 아래 · 실적 발표가 임박했거나 날짜를 모른다 · 쉬는 구간(피벗)이 없다 · 이미 피벗을 넘어 추격 구간이다. 입력 JSON 의 \`gates\` 가 이 조건들을 계산해 뒀다 — \`gates.blocked\` 가 true 면 그 사유를 verdictLine 에 밝혀라.
+   - "조건부"면 conditions 에 무엇이 확인되면 바뀌는지를 입력 숫자(피벗·거래량 기준·실적일)로 적는다.
+   - 자료가 부족하면 솔직히 "조건부" 또는 "아니다"로 두고 dataLimits 에 무엇이 없었는지 적는다. 좋은 말로 채우지 마라.` : ''}
 ${STYLE}`
 
 phase('심층분석')
@@ -122,7 +168,7 @@ const researched = await parallel(targets.map((it) => () => {
   const pngs = it.hasChart ? `그다음 **Read 도구로 차트 그림 두 장을 봐라**: \`${argsDir}/${it.ticker}-3m.png\` (3개월, 10·20·50일선) · \`${argsDir}/${it.ticker}-6m.png\` (6개월, 20·50·150일선).
    주황 점선 PIVOT = 넘으면 사는 선, 빨간 점선 STOP = 예비 손절.` : `차트 그림은 없다. chartObservation.note 에 "차트 없음" 이라고 쓰고 나머지 관찰은 숫자(plan.metrics·chart.numbers)로만 한다.`
   return tryAgent(
-    `당신은 ${it.source === 'list' ? '도윤(2팀) 목록에 오른 강한 종목' : '서준(6팀)이 고른 오늘 밤 관심 종목'}을 투자자가 최종 결정 전에 꼼꼼히 볼 수 있게 조사하는 담당자입니다. 독자는 일반 투자자입니다. 오늘은 ${date}.
+    `당신은 ${VERDICT ? '사용자가 직접 물어본 종목이 지금 매수하기에 적정한지 판정하는 담당자(7팀 지우)입니다. 사용자가 텔레그램으로 요청한 종목' : it.source === 'list' ? '도윤(2팀) 목록에 오른 강한 종목' : '서준(6팀)이 고른 오늘 밤 관심 종목'}을 투자자가 최종 결정 전에 꼼꼼히 볼 수 있게 조사하는 담당자입니다. 독자는 일반 투자자입니다. 오늘은 ${date}.
 종목: ${it.ticker}${it.name ? ` (${it.name})` : ''} · ${it.sector} / ${it.industry} · 등급 ${it.grade}
 
 ## 순서 — 반드시 이 순서로
@@ -133,7 +179,8 @@ const researched = await parallel(targets.map((it) => () => {
    \`detail.financials\`(SEC 분기 실적) · \`detail.news\`(이 종목 직접 언급 기사) · \`detail.filings\`(8-K) · \`detail.krReports\`(국내 증권사 리포트 요약·PDF 링크) ·
    \`cnbc\`(CNBC 가 이 종목에 태그한 기사 제목·URL·날짜 — 본문이 필요하면 그 URL 을 직접 열어 문장을 인용하라. kind:'pro' 는 유료라 제목만 근거로 쓰고 숫자는 쓰지 마라) ·
    \`kis\`(한국투자증권 Open API — PER·PBR·EPS·상장주식수·시가총액·52주 고저·상장일) ·
-   \`chart.numbers\`·\`chart.last10\`(차트 숫자) · \`market\`(한별 시장 판정). **여기 있는 숫자는 절대 바꾸지 마라.**
+   \`reportPdfs\`(증권사 리포트 원문 PDF 경로 — N 분석에 쓴다. 있으면 Read 로 읽어라) ·
+   \`chart.numbers\`·\`chart.last10\`(차트 숫자) · \`market\`(한별 시장 판정)${VERDICT ? ' · \`gates\`(매수 적정을 막는 조건 — 코드 계산) · \`checks\`(코드가 계산한 쿨라매기 11·CAN SLIM 7 체크표)' : ''}. **여기 있는 숫자는 절대 바꾸지 마라.**
 3. ${pngs}
 4. 제공 자료로 부족한 것만 웹검색(최대 8회) — 최근 1~2달 뉴스, 가이던스, 증권사 전망 변화, 증자·소송 같은 리스크.
 
@@ -142,7 +189,7 @@ const researched = await parallel(targets.map((it) => () => {
 
 ## 할 일
 스키마의 각 필드를 채운다. 분량·조건은 스키마 설명을 따른다. 순서:
-company → newsNarrative·recentNews → financialsNarrative·financials → canslim(7개) → risks·structuralRisks → chartCheck(11개)·chartObservation → entryChecklist → earningsRisk → lead(마지막에, 전체 요약) → confidence
+company → newsNarrative·recentNews → financialsNarrative·financials → newDrivers·nNarrative·nVerdict(N 심층) → canslim(7개) → risks·structuralRisks → chartCheck(11개)·chartObservation → entryChecklist → earningsRisk → lead(마지막에, 전체 요약) → confidence${VERDICT ? ' → verdict·verdictLine·basis·conditions·invalidation·dataLimits(맨 마지막에, 위 전부를 근거로)' : ''}
 ${RULES}`,
     { label: `심층:${it.ticker}`, phase: '심층분석', schema: DEEP, model: it.model || MODEL }
   )
@@ -170,11 +217,15 @@ const CHECK = { type: 'object', properties: { results: { type: 'array', items: {
     correctedLead: { type: 'string', description: '제거한 주장의 숫자·사실이 lead 에도 있으면 그 문장을 뺀 lead. 뺄 것이 없으면 빈 문자열' },
     correctedNewsNarrative: { type: 'string', description: '같은 방식으로 고친 newsNarrative. 뺄 것이 없으면 빈 문자열' },
     correctedFinancialsNarrative: { type: 'string', description: '같은 방식으로 고친 financialsNarrative. 뺄 것이 없으면 빈 문자열' },
+    correctedNNarrative: { type: 'string', description: '같은 방식으로 고친 nNarrative. 뺄 것이 없으면 빈 문자열' },
     reasons: { type: 'array', items: { type: 'string' } },
   }, required: ['idx', 'ticker', 'verdict', 'removed_claim_ids'],
 } } }, required: ['results'] }
 
-const claimsOf = (x) => [...(x.recentNews || []), ...(x.risks || []),
+// N 심층의 주장도 팩트체크·제거 대상이다 (빠뜨리면 검증 없이 화면에 나간다)
+const N_KEYS = ['basis', 'revenueImpact', 'profitImpact', 'expectedGrowth', 'counter']
+const nClaims = (x) => (x.newDrivers || []).flatMap((d) => N_KEYS.flatMap((k) => d[k] || []))
+const claimsOf = (x) => [...(x.recentNews || []), ...(x.risks || []), ...nClaims(x),
   ...(((x.financials || {}).revenueTrend) || []), ...(((x.financials || {}).profitTrend) || []), ...(((x.financials || {}).guidance) || []),
   ...((((x.financials || {}).estimateRevisions || {}).claims) || [])]
 
@@ -182,7 +233,7 @@ const checks = await parallel(batches.map((b, i) => () => tryAgent(
   `다음 종목 심층 분석 결과를 검증하세요. 오늘은 ${date}.
 **웹에 접근하지 말고** 아래 텍스트(statement·quote·출처 제목)만 대조하라.
 
-${JSON.stringify(b.map((x, idx) => ({ idx, ticker: x.ticker, lead: x.lead, newsNarrative: x.newsNarrative, financialsNarrative: x.financialsNarrative, claims: claimsOf(x) })), null, 1)}
+${JSON.stringify(b.map((x, idx) => ({ idx, ticker: x.ticker, lead: x.lead, newsNarrative: x.newsNarrative, financialsNarrative: x.financialsNarrative, nNarrative: x.nNarrative, claims: claimsOf(x) })), null, 1)}
 
 각 claim 에 대해 다음을 확인하고, 문제가 있으면 removed_claim_ids 에 넣으세요:
 - **statement 안의 숫자·날짜가 quote 나 출처 제목에 실제로 있는가?** 없으면 제거하라. 분량을 늘리려고 그럴듯한 수치를 지어내는 것이 가장 위험하다.
@@ -193,8 +244,9 @@ ${JSON.stringify(b.map((x, idx) => ({ idx, ticker: x.ticker, lead: x.lead, newsN
 - 날짜가 "최근"을 설명하기에 너무 오래되지 않았는가 (6개월 초과면 의심)
 - evidence_level 이 'sourced' 인데 sources 가 비어있지 않은가
 - 리스크가 근거 없이 "~할 수 있다" 식으로 채워져 있으면 제거하라. 지어낸 리스크는 없느니만 못하다.
+- 신제품·신서비스의 매출·이익 영향, 기대 성장률 주장은 특히 엄격히 본다: 그 숫자와 "누구의 전망인지"가 quote 에 없으면 제거하라. 주가가 올랐다는 것만으로 "새로운 성장 동력"이라고 한 주장도 제거하라.
 
-⚠️ **마지막으로 세 서술문(lead·newsNarrative·financialsNarrative)을 검사하라.** 서술문은 근거의 요약이므로,
+⚠️ **마지막으로 네 서술문(lead·newsNarrative·financialsNarrative·nNarrative)을 검사하라.** 서술문은 근거의 요약이므로,
 위에서 제거하기로 한 주장의 숫자·사실이 서술문에도 들어 있으면 **근거는 지워졌는데 요약문만 살아남는다.**
 그런 문장이 있으면 corrected* 에 **그 문장을 뺀 서술문**을 다시 써라. 남은 근거만으로 다시 쓰고 **새 사실을 넣지 마라.** 뺄 것이 없으면 빈 문자열.
 고친 서술문은 문장 흐름이 자연스러워야 한다 — 앞 문장을 뺐으면 "그런데", "같은 분기" 같은 이어주는 말도 정리하라.
@@ -217,18 +269,21 @@ batches.forEach((b, bi) => b.forEach((s, idx) => {
   f.revenueTrend = keep(f.revenueTrend); f.profitTrend = keep(f.profitTrend); f.guidance = keep(f.guidance)
   if (f.estimateRevisions) f.estimateRevisions.claims = keep(f.estimateRevisions.claims)
   s.financials = f
+  // N 심층: 주장을 지우고, "새로 나왔다"는 근거(basis)가 하나도 안 남은 동력은 통째로 뺀다
+  s.newDrivers = (s.newDrivers || []).map((d) => { const o = { ...d }; for (const k of N_KEYS) o[k] = keep(d[k]); return o }).filter((d) => d.basis.length)
+  if (!s.newDrivers.length && s.nVerdict && s.nVerdict !== '확인 불가') { if (rm.size) s.nVerdict = '미충족' }
   if (!rm.size) return
   const fix = (field, corrected) => {
     const cl = String(corrected || '').trim()
     if (cl.length > 20 && cl !== s[field]) { s[`${field}Original`] = s[field]; s[field] = cl; s.factcheck[`${field}Fixed`] = true }
   }
-  fix('lead', r.correctedLead); fix('newsNarrative', r.correctedNewsNarrative); fix('financialsNarrative', r.correctedFinancialsNarrative)
+  fix('lead', r.correctedLead); fix('newsNarrative', r.correctedNewsNarrative); fix('financialsNarrative', r.correctedFinancialsNarrative); fix('nNarrative', r.correctedNNarrative)
   // 근거가 전부 지워졌는데 고친 서술이 없으면 원래 서술은 근거 없는 요약이다 — 남기지 않는다
   if (!claimsOf(s).length && !s.factcheck.leadFixed) { s.leadOriginal = s.lead; s.lead = `근거 없음 — 출처 검증을 통과한 내용이 없다 (${rm.size}개 주장 제거)`; s.factcheck.leadFixed = true }
 }))
 
 return {
-  date, team: 6, items: clean, failed,
+  date, team: VERDICT ? 7 : 6, items: clean, failed,
   coverage: { done: clean.length, total: items.length, cap: CAP, failed: failed.length },
   factcheckBatches: batches.length,
 }

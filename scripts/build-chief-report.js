@@ -495,25 +495,11 @@ async function main() {
   if (payload.team6) {
     // 숫자 대조 (2026-10-08) — 출처 붙은 주장은 verify-claims 가 이미 봤다. 여기서는 출처가 따로 없는 서술문
     // (요약·뉴스/재무 흐름·차트 관찰·체크표 근거)을 "이 종목 입력 자료(_t6/{T}.json) + 출처 붙은 주장" 과 대조한다.
-    const NG = require('./lib/number-guard');
+    const { guardDeepItem } = require('./lib/deep-guard');
     let cutN = 0;
     for (const it of payload.team6.items || []) {
       const input = readJson(path.join(paths.llmInDir, '_t6', `${it.ticker}.json`), null);
-      const corpus = NG.corpusOf(input, it.recentNews, it.financials, it.risks);
-      const fix = (o, k) => {
-        if (!o || typeof o[k] !== 'string') return;
-        const r = NG.checkText(o[k], corpus);
-        if (!r.cut.length) return;
-        o[k] = r.text; cutN += r.cut.length;
-        for (const c of r.cut) say('SYSTEM', `  ✂ ${it.ticker} ${c.sentence.slice(0, 60)} (없음: ${c.missing.join(', ')})`);
-      };
-      for (const k of ['company', 'lead', 'newsNarrative', 'financialsNarrative', 'earningsRisk']) fix(it, k);
-      for (const k of Object.keys(it.chartObservation || {})) fix(it.chartObservation, k);
-      for (const row of [...(it.canslim || []), ...(it.chartCheck || [])]) {
-        fix(row, 'evidence');
-        if (row && row.evidence === '') { row.status = '확인 불가'; row.evidence = '근거 숫자를 입력 자료에서 찾지 못해 지웠다'; }
-      }
-      if (Array.isArray(it.entryChecklist)) it.entryChecklist = it.entryChecklist.filter((x) => NG.checkText(String(x), corpus).cut.length === 0);
+      cutN += guardDeepItem(it, input, { onCut: (c) => say('SYSTEM', `  ✂ ${it.ticker} ${c.sentence.slice(0, 60)} (없음: ${c.missing.join(', ')})`) });
     }
     if (cutN) say('SYSTEM', `6팀 숫자 대조: 입력 자료에 없는 숫자가 든 문장 ${cutN}개 삭제`);
     const f = path.join(paths.dashboardData, 'team6.js');

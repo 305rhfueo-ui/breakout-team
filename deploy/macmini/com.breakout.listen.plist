@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.breakout.listen</string>
+  <!-- 7팀(지우) 텔레그램 수신기 — "SNOW 심층분석" 을 받으면 그 종목을 분석해 답한다.
+       다른 작업과 달리 항상 떠 있다(KeepAlive). 죽으면 launchd 가 10초 뒤 다시 띄운다.
+       /bin/bash -lc 로 띄우는 이유: install.sh 의 claude 작업 루프는 __NODE__ 를 치환하지 않는다 — PATH 에서 node 를 찾는다. -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string><string>-c</string><string>cd "__REPO__" &amp;&amp; exec node scripts/tg-listener.js</string>
+  </array>
+  <key>WorkingDirectory</key><string>__REPO__</string>
+  <key>RunAtLoad</key><true/>
+  <key>KeepAlive</key><true/>
+  <key>ThrottleInterval</key><integer>10</integer>
+  <key>StandardOutPath</key><string>__LOGS__/listen.log</string>
+  <key>StandardErrorPath</key><string>__LOGS__/listen.err.log</string>
+  <key>EnvironmentVariables</key>
+  <dict><key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string></dict>
+</dict>
+</plist>

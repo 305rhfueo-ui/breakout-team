@@ -83,6 +83,33 @@ console.log('\n[5팀] 하린 — FRANK 상위 업종 리포트가 렌더되는�
   ok('5팀 카드가 있다 (하린 · 1위 업종 표시)', () => { c5.cards(); const t = c5.document.getElementById('team').innerHTML; assert.ok(t.includes('하린') && t.includes('data-id="t5"') && t.includes('정유·석유제품 판매'), 'card 없음'); });
 }
 
+console.log('\n[7팀] 지우 — 결론 블록 · N 심층 블록이 렌더되는가 (2026-10-13)');
+{
+  const src = [{ title: 't', publisher: 'SEC EDGAR', url: 'https://www.sec.gov/x.htm', date: '2026-09-02', quote: 'Q7SENT quote text here' }];
+  const cl = (id, st) => ({ id, statement: st, evidence_level: 'sourced', sources: src });
+  const od = { items: [{ ticker: 'ZZOD', nameKo: '테스트회사', industry: 'Semiconductors', requestedOn: '2026-10-13', session: '2026-10-12', verdict: '조건부', verdictLine: 'V7SENT 결론',
+    basis: [{ point: 'B7SENT 근거', side: 'for', checkRef: 'CANSLIM:L' }], conditions: ['C7SENT 조건'], invalidation: 'I7SENT 무효', dataLimits: 'D7SENT 한계',
+    verdictAdjusted: ['A7SENT 조정 사유'], gates: { reasons: [{ key: 'x', ko: 'G7SENT 막는 조건' }], asOf: { market: '2026-10-09' } },
+    setup: { pivot: 100, stop: 95 }, checks: { qm: [{ item: '선행 상승', status: '충족', evidence: 'e' }], canslim: [{ item: 'C 최근 분기 이익', status: '미충족', evidence: 'e' }] }, kis: null, cnbc: [],
+    deep: { status: 'done', researchedOn: '2026-10-13', company: 'co', lead: 'ld', recentNews: [], financials: {}, risks: [], canslim: [], chartCheck: [], confidence: 'medium',
+      nVerdict: '충족', nNarrative: 'NN7SENT 서술', consensus: { saleCy: 34.9, epsCy: 77.8, saleNy: 28.2, epsNy: 35.2, cyTrend: 0.3, nyTrend: null },
+      newDrivers: [{ what: 'W7SENT 신제품', kind: 'product', stage: '매출 발생 중', since: '2026-02', basis: [cl('d1', 'DB7SENT 출시')], revenueImpact: [cl('d2', 'RI7SENT 매출')], profitImpact: [], expectedGrowth: [cl('d3', 'EG7SENT 성장')], counter: [] }] } }] };
+  const c7 = loadRoom(`window.ONDEMAND_DATA = ${JSON.stringify(od)};`);
+  c7.openTicker('ZZOD');
+  const h = c7.document.getElementById('mbox2').innerHTML;
+  ok('결론·근거·조건·무효화·막는 조건·코드 조정 사유·AI 판정 표시가 다 나온다', () => {
+    for (const k of ['🟡 조건부', 'V7SENT', 'B7SENT', 'C7SENT', 'I7SENT', 'D7SENT', 'A7SENT', 'G7SENT', 'AI 판정 · 투자 판단 보조', '테스트회사']) assert.ok(h.includes(k), `없음: ${k}`);
+  });
+  ok('N 심층 — 동력·매출 영향·기대 성장·인용문·컨센서스(코드가 붙인 값), 근거 없는 칸은 "근거 없음"', () => {
+    for (const k of ['N — 새로운 성장 동력', 'NN7SENT', 'W7SENT', 'DB7SENT', 'RI7SENT', 'EG7SENT', 'Q7SENT', '신제품', '매출 발생 중', '올해 매출 +34.9%', '근거 없음 (지어내지 않습니다)']) assert.ok(h.includes(k), `없음: ${k}`);
+  });
+  ok('목록에 없는 종목도 7팀 자료(체크표)로 팝업이 채워지고 "아직 조사 전" 문구가 같이 뜨지 않는다', () => {
+    assert.ok(h.includes('쿨라매기 돌파 셋업 체크')); assert.ok(!h.includes('아직 조사 전입니다'));
+  });
+  ok('7팀 카드·탭', () => { c7.cards(); assert.ok(c7.document.getElementById('team').innerHTML.includes('지우')); assert.ok(c7.bodyFor('t7').includes('data-tk="ZZOD"')); });
+  ok('N 칸이 없던 예전 심층 분석은 N 블록을 그리지 않는다', () => assert.strictEqual(c7.nBlock({ status: 'done', canslim: [] }), ''));
+}
+
 console.log('\n[1] 2팀 — 회사 설명·근거·인용문이 실제로 렌더되는가');
 const done2 = doneAll;
 if (T2 && T2.lists) {

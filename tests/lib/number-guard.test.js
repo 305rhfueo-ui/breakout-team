@@ -34,6 +34,13 @@ ok('문장 단위로 지우고 나머지는 남긴다', () => {
   const p = { a: { id: 'c1', statement: '매출이 41% 늘었다.', evidence_level: 'sourced', sources: [{ url: 'https://www.cnbc.com/2026/10/01/x.html', date: '2026-10-01', title: 'Quanta Targets Up to $2.5B FCF', quote: 'Quanta Targets Up to $2.5B FCF' }] } };
   const { payload, report } = await verifyPayload(p, { runDate: '2026-10-08', check: false });
   ok('  → 41% 주장은 근거 없음으로 강등', () => { assert.strictEqual(payload.a.evidence_level, 'no_source'); assert.strictEqual(report.numberCut, 1); });
+  const two = { a: { id: 'c2', statement: '제품 매출이 37%, 전체 매출이 35% 늘었다.', evidence_level: 'sourced', sources: [
+    { url: 'https://www.sec.gov/x.htm', date: '2026-09-02', title: '8-K', quote: 'Product revenue representing 37% year-over-year growth' },
+    { url: 'https://www.sec.gov/x.htm', date: '2026-09-02', title: '8-K', quote: 'Revenue representing 35% year-over-year growth' }] } };
+  const r2 = await verifyPayload(two, { runDate: '2026-10-13', check: false });
+  ok('  → 같은 URL 의 인용문 두 개는 합친다 — 두 번째 인용문의 숫자를 "없음"으로 지우지 않는다', () => {
+    assert.strictEqual(r2.payload.a.statement, '제품 매출이 37%, 전체 매출이 35% 늘었다.'); assert.strictEqual(r2.payload.a.sources.length, 1); assert.ok(/35%/.test(r2.payload.a.sources[0].quote));
+  });
   console.log(`\n${fail ? '❌' : '✅'} 통과 ${pass} · 실패 ${fail}`);
   process.exit(fail ? 1 : 0);
 })();

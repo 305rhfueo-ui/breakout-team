@@ -18,7 +18,7 @@ JOBS="com.breakout.daily com.breakout.night com.breakout.check"
 # Claude 가 돌아야 하는 작업 — claude CLI 가 있을 때만 등록한다 (run-claude-job.sh 참고)
 #   com.breakout.review    일   09:00  /review (모의투자 주간 리뷰)
 # start breakout 은 따로 등록하지 않는다 — 아침 스캔 뒤에 morning.sh 가 잇는다.
-CLAUDE_JOBS="com.breakout.review"
+CLAUDE_JOBS="com.breakout.review com.breakout.listen"   # listen = 7팀 텔레그램 수신기 (상주, 2026-10-13)
 # 예전에 따로 등록했던 작업 — 지운다 (09:00 에 따로 돌면 낡은 스캔을 재사용했다, 2026-09-30·10-01)
 for j in com.breakout.research; do launchctl unload "$AGENTS/$j.plist" 2>/dev/null || true; rm -f "$AGENTS/$j.plist"; done
 
