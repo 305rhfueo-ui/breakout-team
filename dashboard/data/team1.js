@@ -513,8 +513,347 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-13",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "엔비디아·AMD, AI 발표에도 주가가 내렸다",
+        "easy": "엔비디아와 AMD가 새 AI 관련 발표를 내놨는데 주가는 함께 떨어졌다. 발표 내용이 이미 쌓여 있던 투자자 기대를 넘지 못했다는 것이 이유다. 좋은 소식이 나와도 주가가 안 오르는 구간에 들어섰다는 신호다. 지수를 끌어온 반도체 주도주의 힘이 잠시 멈춘 셈이다.",
+        "whyMatters": "반도체와 AI 서버·데이터센터 관련 기술 업종에 부담이고, 두 종목 비중이 큰 미국 대형 기술주 지수도 같이 눌린다. 발표가 아니라 다음 실적 숫자가 나와야 다시 오를 수 있는 상태인지 지켜보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Nvidia and AMD shares fall as new AI announcements fail to re-energize investors",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/nvidia-and-amd-shares-fall-as-new-ai-announcements-fail-to-re-energize-investors-4a0dd766?mod=mw_rss_topstories",
+            "date": "2026-10-12",
+            "quote": "Nvidia and AMD shares fall as new AI announcements fail to re-energize investors",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "아시아 반도체주, 월가 하락을 따라 급락했다",
+        "easy": "SK하이닉스와 소프트뱅크 주가가 크게 떨어졌다. 전날 미국 반도체주가 내린 것을 아시아 시장이 그대로 따라갔기 때문이다. AI 투자에 얽힌 종목들이 나라를 가리지 않고 한 묶음으로 움직인다는 뜻이다. 미국 반도체 조정이 하루로 끝나지 않고 다른 시장으로 번진 모습이다.",
+        "whyMatters": "반도체·메모리 공급망과 AI 인프라 투자 테마에 나쁘고, 반도체 비중이 낮은 헬스케어·필수소비재는 상대적으로 덜 흔들린다. 아시아 반도체주가 먼저 돌아서는지가 미국 반도체주 반등의 선행 신호다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+            "date": "2026-10-13",
+            "quote": "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "IMF가 국채 금리 급등 위험을 경고했다",
+        "easy": "IMF가 국채 금리(정부가 돈을 빌릴 때 내는 이자)가 갑자기 튈 수 있다고 경고했다. 각국 정부의 빚이 늘고 물가 위험이 다시 커진 것이 배경이다. 금리가 오르면 미래 이익을 당겨 높게 평가받던 주식의 가치가 깎인다. 이익이 먼 미래에 있는 종목이 먼저 흔들린다는 뜻이다.",
+        "whyMatters": "소프트웨어·성장형 기술 업종과 배당으로 평가받는 리츠(부동산)·유틸리티에 불리하고, 금리가 오르면 이자 수익이 늘어나는 은행·보험 업종에는 덜 나쁘다. 미국 10년 만기 국채 금리가 단기간에 튀는지만 확인하면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html",
+            "date": "2026-10-13",
+            "quote": "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "IMF, 경기 둔화는 약하지만 버틸 힘이 한계라고 봤다",
+        "easy": "IMF가 세계 경기 둔화가 예상보다 약할 것이라고 전망했다. AI 투자 붐이 전쟁으로 인한 타격을 메우고 있다는 이유다. 다만 이렇게 버티는 힘이 한계에 가까워졌다고 덧붙였다. 경기 전반이 좋아서가 아니라 AI 투자 한 축에 기대고 있다는 진단이다.",
+        "whyMatters": "AI 설비투자에 매출이 걸린 반도체·전력 설비·데이터센터 업종은 계속 경기의 중심에 있다. 거꾸로 AI 투자 속도가 꺾이면 대체할 성장 축이 없다는 점이 위험이다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "IMF sees milder global slowdown as AI boom offsets war hit — warns resilience is nearing limits",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
+            "date": "2026-10-13",
+            "quote": "IMF sees milder global slowdown as AI boom offsets war hit — warns resilience is nearing limits",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "브라질 증시가 기술주 밖 대안으로 오르고 있다",
+        "easy": "브라질 주식이 상승 흐름을 보이고 있다. 투자자들이 기술주 말고 다른 곳에서 기회를 찾고 있기 때문이다. 미국 대형 기술주 한 곳에 몰렸던 돈이 조금씩 흩어진다는 신호다. 주도주가 쉬는 날에는 소외됐던 자산이 먼저 움직인다.",
+        "whyMatters": "원자재·에너지·금융처럼 그동안 뒤처졌던 업종에 유리하고, 미국 대형 기술주 쏠림에는 불리하다. 기술 업종이 빠지는 날에 어떤 업종이 오르는지를 보면 돈의 방향이 보인다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Brazilian stocks are breaking out as investors look for opportunities beyond tech",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/brazilian-stocks-are-breaking-out-as-investors-look-for-opportunities-beyond-tech-7fbed032?mod=mw_rss_topstories",
+            "date": "2026-10-12",
+            "quote": "Brazilian stocks are breaking out as investors look for opportunities beyond tech",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "SpaceX 경쟁 위협이 AT&T 주가를 오래 누를 수 있다",
+        "easy": "한 애널리스트가 SpaceX가 AT&T 주가를 오랜 기간 누를 수 있다고 경고했다. 위성으로 휴대전화를 직접 연결하는 서비스가 통신사 가입자를 가져갈 수 있다는 논리다. 당장의 실적 문제가 아니라 몇 년에 걸친 경쟁 구도 이야기다. 통신주를 안정적인 배당주로만 보던 시각이 흔들린다.",
+        "whyMatters": "통신 업종(AT&T 같은 이동통신사)에 나쁘고, 위성 통신·발사 관련 쪽에는 유리하다. 통신사 가입자 수가 실제로 줄어드는지가 확인 포인트다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "The SpaceX threat could loom over AT&T's stock for a prolonged stretch, analyst cautions",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-spacex-threat-could-loom-over-at-ts-stock-for-a-prolonged-stretch-analyst-cautions-71436853?mod=mw_rss_topstories",
+            "date": "2026-10-13",
+            "quote": "The SpaceX threat could loom over AT&T's stock for a prolonged stretch, analyst cautions",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 사도 되지만 종목을 골라야 하는 구간이다. QQQ 종가는 746.04이고 10일선이 20일선 위에서 둘 다 오르는 중이라 상승 추세 자체는 아직 살아 있다. 다만 오늘 뉴스는 그 추세를 끌어온 반도체·AI가 새 발표에도 오르지 못했다는 쪽이어서, 주도 업종이 쉬고 있다는 뜻이다. 빚내서 산 주식(마진부채)이 1년 전보다 37.2% 늘어 주의선을 넘은 상태라, 하락이 시작되면 되돌림이 평소보다 깊어질 수 있다. 이번 주는 반도체주가 다시 상승으로 돌아서는지, 그리고 미국 국채 금리가 급하게 튀지 않는지 두 가지만 보면 된다.",
+    "keyRisks": [
+      "반도체 주도주 둔화: 엔비디아·AMD가 좋은 발표에도 내렸다. 지수를 끌던 업종이 쉬면 다른 업종이 받쳐 주지 못해 전체가 같이 눌린다.",
+      "국채 금리 급등: IMF가 금리가 갑자기 튈 수 있다고 경고했다. 금리가 오르면 이익이 먼 미래에 있는 성장주부터 가치가 깎인다.",
+      "빚으로 산 물량 누적: 신용으로 산 주식이 주의선을 넘게 쌓여 있다. 하락이 시작되면 강제 매도가 겹쳐 낙폭이 커진다.",
+      "AI 한 축 의존: 세계 경기가 AI 투자 덕에 버티고 있다는 진단이 나왔다. 투자 속도가 꺾이면 이를 대체할 성장 동력이 마땅치 않다."
+    ],
+    "easySummary": [
+      "추세는 아직 위를 향한다 — 사도 되지만 골라서 사는 구간이다.",
+      "반도체·AI가 좋은 발표에도 내렸다 — 시장을 끌던 주도 업종이 쉬고 있다.",
+      "IMF가 금리 급등을 경고했고 신용 물량도 많다 — 손절 기준을 미리 정해 두는 게 낫다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 108,
+      "ok": 233,
+      "unverified": 3,
+      "dead": 0,
+      "stripped": 19,
+      "removed": [],
+      "numberCut": 33,
+      "numberCuts": [
+        {
+          "sentence": "52주 고점 102.46달러(8월 10일)보다 아직 낮고, 10월 9일 임원 변동 공시도 있었다.",
+          "missing": [
+            "102.46"
+          ]
+        },
+        {
+          "sentence": "직전 거래일 종가 204.89달러에서 217.89달러로 약 6.3% 올랐다.",
+          "missing": [
+            "204.89",
+            "217.89",
+            "6.3"
+          ]
+        },
+        {
+          "sentence": "매출 성장세는 최근 4개 분기 중 가장 빠르다.",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "1년 새 주가가 5배 넘게 올라 좋은 소식이 이미 상당 부분 반영됐을 수 있다.",
+          "missing": [
+            "5"
+          ]
+        },
+        {
+          "sentence": "최근 4분기 모두 29~38% 증가해 성장이 이어지고 있다.",
+          "missing": [
+            "29"
+          ]
+        },
+        {
+          "sentence": "영업이익률도 0.2%로 아직 거의 이익이 없다.",
+          "missing": [
+            "0.2"
+          ]
+        },
+        {
+          "sentence": "주가가 6월 말 고점 128.3달러보다 약 31% 낮고, 최근 종가도 전일 96.16달러에서 88.99달러로 하루 새 7% 넘게 떨어졌다.",
+          "missing": [
+            "31",
+            "7"
+          ]
+        },
+        {
+          "sentence": "10월 1일 12.5억 달러 규모 선순위채권을 발행했다.",
+          "missing": [
+            "12.5억 달러"
+          ]
+        },
+        {
+          "sentence": "8월 실적 발표 때 올해 매출 전망을 6.0~6.25억 달러에서 6.1~6.3억 달러로 올렸다.",
+          "missing": [
+            "6.0",
+            "6.1"
+          ]
+        },
+        {
+          "sentence": "주가는 10월 6일 고점 102.81달러에서 75.19달러로 내려와 있다.",
+          "missing": [
+            "102.81",
+            "75.19"
+          ]
+        },
+        {
+          "sentence": "증권사 목표가 평균이 한 달도 안 돼 53.33달러에서 60.62달러로 다시 올랐다.",
+          "missing": [
+            "53.33"
+          ]
+        },
+        {
+          "sentence": "올해 2분기(4~6월) 영업이익은 5,029만 달러로 1년 전보다 36% 증가했고, 순이익은 약 3배가 됐다.",
+          "missing": [
+            "3"
+          ]
+        },
+        {
+          "sentence": "주가가 6개월 새 81% 오른 것에 비해 사업 성장 속도는 완만하다.",
+          "missing": [
+            "81"
+          ]
+        },
+        {
+          "sentence": "영업이익은 14.9억 달러로 5배 넘게 증가했다.",
+          "missing": [
+            "5"
+          ]
+        },
+        {
+          "sentence": "9월 18일 2억 달러 규모 은행 공동대출 계약을 맺어 자금 여력이 생겼다.",
+          "missing": [
+            "2억 달러"
+          ]
+        },
+        {
+          "sentence": "주가는 4월 고점(108달러)보다 15% 낮고 6개월 수익률은 마이너스다.",
+          "missing": [
+            "15"
+          ]
+        },
+        {
+          "sentence": "회사가 2030년까지 매출을 2배, EBITDA(감가상각 전 영업이익)를 4배로 늘리겠다는 목표를 밝혀 성장 기대가 커졌다.",
+          "missing": [
+            "2",
+            "4"
+          ]
+        },
+        {
+          "sentence": "매출 성장률이 20%대를 유지했다.",
+          "missing": [
+            "20"
+          ]
+        },
+        {
+          "sentence": "주당순이익 0.19달러 기준 주가수익비율이 1,110배라 작은 실망에도 크게 흔들릴 수 있다.",
+          "missing": [
+            "1,110"
+          ]
+        },
+        {
+          "sentence": "회사는 2026년 매출 전망을 11억~12억 달러로 올려 잡았다.",
+          "missing": [
+            "11억"
+          ]
+        },
+        {
+          "sentence": "판매 첫 분기 매출이 4,760만 달러로, 같은 분기 전체 매출 2억 5,610만 달러의 약 5분의 1을 차지했다.",
+          "missing": [
+            "1"
+          ]
+        },
+        {
+          "sentence": "회사가 내놓은 2026년 매출 전망은 11억~12억 달러로, 신약 출시 뒤 상향된 수치다.",
+          "missing": [
+            "11억"
+          ]
+        },
+        {
+          "sentence": "회사 스스로 2분기 인프라 마진 15%에 일회성 요인이 섞여 있다고 인정했고, 다음 분기 가이던스는 13%대 중반이다.",
+          "missing": [
+            "13"
+          ]
+        },
+        {
+          "sentence": "회사가 다음 분기 인프라 부문 영업이익률을 13%대 중반으로 낮춰 제시해, 2분기 15% 마진은 유지되지 않을 수 있다.",
+          "missing": [
+            "15"
+          ]
+        },
+        {
+          "sentence": "함께 시험한 tabirafusp-ted(KSI-501)도 시력 1차 평가지표를 충족했다.",
+          "missing": [
+            "501"
+          ]
+        },
+        {
+          "sentence": "매출의 토대가 될 적응증은 습성 황반변성·당뇨망막병증·망막정맥폐쇄 3개이며, 긍정적 3상 결과 5건을 묶어 신청한다.",
+          "missing": [
+            "3"
+          ]
+        },
+        {
+          "sentence": "KSI-501은 시력 개선이 +6.3 글자로 기존 치료제 +7.6 글자보다 낮아, 통계적 비열등은 넘었지만 우위는 보이지 못했다.",
+          "missing": [
+            "501"
+          ]
+        },
+        {
+          "sentence": "2026 전망 상향 보도(2026-09-14).",
+          "missing": [
+            "09",
+            "14"
+          ]
+        },
+        {
+          "sentence": "CEO가 매출 미달에도 하반기 모멘텀을 언급했다(2026-09-03).",
+          "missing": [
+            "09",
+            "03"
+          ]
+        },
+        {
+          "sentence": "법무·준법 책임자가 2027-03-31 퇴사한다는 8-K(2026-10-09).",
+          "missing": [
+            "03",
+            "10",
+            "09"
+          ]
+        },
+        {
+          "sentence": "한 달 새 10% 하락했다는 기사(2026-09-14).",
+          "missing": [
+            "09",
+            "14"
+          ]
+        },
+        {
+          "sentence": "모간스탠리가 MANH 투자의견을 중립에서 비중확대로 올렸다(10/12).",
+          "missing": [
+            "12"
+          ]
+        },
+        {
+          "sentence": "2분기 실적 발표(7/28) 이후 8월 말까지 주가가 올랐다는 기사가 나왔다.",
+          "missing": [
+            "28"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-13"
   }
 };

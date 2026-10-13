@@ -1,0 +1,133 @@
+{
+ "key": "Consumer Cyclical|Furnishings, Fixtures & Appliances",
+ "sector": "Consumer Cyclical",
+ "industry": "Furnishings, Fixtures & Appliances",
+ "industryKo": "가구·인테리어·가전",
+ "frank": 10,
+ "frank25dChg": 0,
+ "finalWrs": 0.2146,
+ "count": 3,
+ "winRatePct": 100,
+ "members": [
+  {
+   "ticker": "FLXS",
+   "rs1": 0.06768179028582677,
+   "rs3": 0.19817939799185233,
+   "rs6": 0.7540451380641768,
+   "rnk1": 17.27,
+   "rnk3": 12.76,
+   "rnk6": 4.91,
+   "ret1d": 2.37,
+   "high52": 96.46,
+   "dollarVolM": 4.3,
+   "marketCap": "0.35B",
+   "name": "플렉스스틸 인더스트리스"
+  },
+  {
+   "ticker": "SN",
+   "rs1": 0.12003302202835929,
+   "rs3": 0.22940527553405762,
+   "rs6": 0.6076838340636039,
+   "rnk1": 8.43,
+   "rnk3": 10.87,
+   "rnk6": 6.54,
+   "ret1d": 2.7,
+   "high52": 97.66,
+   "dollarVolM": 286.5,
+   "marketCap": "26.89B",
+   "name": "샤크닌자"
+  },
+  {
+   "ticker": "MHK",
+   "rs1": -0.09287588327250215,
+   "rs3": 0.05291481189129064,
+   "rs6": 0.07954024391612788,
+   "rnk1": 90.04,
+   "rnk3": 32.6,
+   "rnk6": 40.53,
+   "ret1d": -0.57,
+   "high52": 83.68,
+   "dollarVolM": 82.4,
+   "marketCap": "7.95B",
+   "name": "모호크 인더스트리스"
+  }
+ ],
+ "evidence": {
+  "FLXS": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Are Consumer Discretionary Stocks Lagging  Flexsteel Industries (FLXS) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-consumer-discretionary-stocks-lagging-flexsteel-industries-flxs-year-0",
+     "date": "2026-10-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Consumer Discretionary Stocks Lagging  Flexsteel Industries (FLXS) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-consumer-discretionary-stocks-lagging-flexsteel-industries-flxs-year",
+     "date": "2026-09-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Flexsteel Industries (FLXS) Stock Outpacing Its Consumer Discretionary Peers This Year?",
+     "url": "https://www.nasdaq.com/articles/flexsteel-industries-flxs-stock-outpacing-its-consumer-discretionary-peers-year",
+     "date": "2026-08-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "FLXS Q4 Earnings Call Flags Inflation and Uneven Demand",
+     "url": "https://www.nasdaq.com/articles/flxs-q4-earnings-call-flags-inflation-and-uneven-demand",
+     "date": "2026-08-19",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "SN": {
+   "cnbc": [
+    {
+     "title": "A household appliance maker made it into Josh Brown's list. It's soaring in 2026",
+     "url": "https://www.cnbc.com/2026/08/20/a-household-appliance-maker-made-it-into-josh-browns-best-stocks-list-this-month.html",
+     "date": "2026-08-20",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "SharkNinja, Inc. (SN) Rises As Market Takes a Dip: Key Facts",
+     "url": "https://www.nasdaq.com/articles/sharkninja-inc-sn-rises-market-takes-dip-key-facts-0",
+     "date": "2026-10-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "SharkNinja, Inc. (SN) Outperforms Broader Market: What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/sharkninja-inc-sn-outperforms-broader-market-what-you-need-know",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "SharkNinja, Inc. (SN) Rises As Market Takes a Dip: Key Facts",
+     "url": "https://www.nasdaq.com/articles/sharkninja-inc-sn-rises-market-takes-dip-key-facts",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "MHK": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Mohawk Industries (MHK) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/mohawk-industries-mhk-q2-2026-earnings-call-transcript",
+     "date": "2026-08-08",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  }
+ },
+ "industryReports": [],
+ "note": "members 는 이 업종 전 종목(6개월 RS 상위 순, rnk = 전체 종목 중 상위 몇 %). evidence 는 그중 상위 12종목의 기사·리포트. 리포트 url 은 연합인포맥스 PDF."
+}

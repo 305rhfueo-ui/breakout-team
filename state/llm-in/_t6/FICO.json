@@ -1,0 +1,500 @@
+{
+ "ticker": "FICO",
+ "date": "2026-10-13",
+ "session": "2026-10-12",
+ "source": "list",
+ "plan": {
+  "ticker": "FICO",
+  "name": "페어 아이작",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "price": 740,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 1188.8,
+  "stop": 1146.2,
+  "distToPivotPct": -37.75,
+  "distToPivotAdr": -6.56,
+  "riskPerSharePct": 3.58,
+  "adrPct": 5.76,
+  "extensionAdr": 1.61,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 37,
+   "baseWeeks": 7.4,
+   "depthPct": 50.7,
+   "priorMovePct": 17.1,
+   "higherLows": 0,
+   "contraction": 1.59,
+   "closeRange10Adr": 3.5,
+   "surf10": 1.61,
+   "surf20": -1.28,
+   "slope20": -7.95,
+   "baseLow": 586.05,
+   "lastSwingLow": 586.05
+  },
+  "reasons": [
+   "✗ 선행 상승 +17%",
+   "베이스 7.4주",
+   "✗ 깊이 50.7%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.59배 · 10일 종가폭 3.5 ADR",
+   "✗ 10일선 +1.6 ADR · 20일선 -1.3 ADR",
+   "✗ 20일선 기울기 -7.95%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.26110833749375933,
+    "pct": 0.40577096483318303
+   },
+   "m3": {
+    "v": -0.4113482442882258,
+    "pct": 0.045085662759242556
+   },
+   "m6": {
+    "v": -0.286196551698964,
+    "pct": 4.192966636609558
+   }
+  },
+  "ret1m": -26.11,
+  "ret3m": -41.13,
+  "ret6m": -28.62,
+  "marketCap": "15.98B",
+  "volx": 1.73,
+  "volSurgeWk": 1.51,
+  "high52": 39.81,
+  "newHigh52": false,
+  "adr": 5.76,
+  "div50": -23.1,
+  "div200": -37.65,
+  "targetStatus": false,
+  "saleCy": 27.36,
+  "saleNy": 10.27,
+  "epsCy": 43.42,
+  "epsNy": 17.14,
+  "cyTrend": -0.28,
+  "nyTrend": -5.39,
+  "est": {
+   "cyCur": 42.85245,
+   "cy30": 42.97247,
+   "nyCur": 50.19882,
+   "ny30": 53.05809
+  },
+  "fs": {
+   "sale": [
+    25.68,
+    38.69,
+    16.36
+   ],
+   "ni": [
+    30.47,
+    62.63,
+    3.83
+   ],
+   "opm": [
+    53.79,
+    58.19,
+    45.72
+   ],
+   "updated": "2026-09-08 07:10:39"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-13",
+  "nameKo": "페어 아이작",
+  "nameEn": "FAIR ISAAC CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000814547&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 674188000,
+     "profit": 362628000,
+     "netIncome": 237172000,
+     "margin": 53.8,
+     "yoy": {
+      "revenue": 25.7,
+      "profit": 38.1,
+      "netIncome": 30.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 691677000,
+     "profit": 402465000,
+     "netIncome": 264458000,
+     "margin": 58.2,
+     "yoy": {
+      "revenue": 38.7,
+      "profit": 63.8,
+      "netIncome": 62.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 511959000,
+     "profit": 234049000,
+     "netIncome": 158373000,
+     "margin": 45.7,
+     "yoy": {
+      "revenue": 16.4,
+      "profit": 30.4,
+      "netIncome": 3.8,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": true,
+     "revenue": 515751000,
+     "profit": 237156000,
+     "netIncome": 155014000,
+     "margin": 46,
+     "yoy": {
+      "revenue": 13.6,
+      "profit": 20.3,
+      "netIncome": 14.2,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Fair Isaac Becomes Oversold (FICO)",
+     "url": "https://www.nasdaq.com/articles/fair-isaac-becomes-oversold-fico",
+     "date": "2026-10-09",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Fair Isaac Consensus Price Target Decreased by 12.47% to $1,311.72",
+     "url": "https://www.nasdaq.com/articles/fair-isaac-consensus-price-target-decreased-1247-131172",
+     "date": "2026-10-02",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Massive News for FICO Stock Investors Sending Shares Crashing",
+     "url": "https://www.nasdaq.com/articles/massive-news-fico-stock-investors-sending-shares-crashing",
+     "date": "2026-10-02",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Fair Isaac Stock Drops 22% On FHFA's Structural Changes About Mortgage Pricing",
+     "url": "https://www.nasdaq.com/articles/fair-isaac-stock-drops-22-fhfas-structural-changes-about-mortgage-pricing",
+     "date": "2026-09-29",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Why Is FICO Stock Crashing, and is it a Generational Buying Opportunity?",
+     "url": "https://www.nasdaq.com/articles/why-fico-stock-crashing-and-it-generational-buying-opportunity",
+     "date": "2026-09-25",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Casey's General Stores Moves Up In Market Cap Rank, Passing Fair Isaac",
+     "url": "https://www.nasdaq.com/articles/caseys-general-stores-moves-market-cap-rank-passing-fair-isaac",
+     "date": "2026-09-24",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-06",
+    "itemsKo": [
+     "2.05"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/814547/000119312526415732/d127042d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/814547/000081454726000031/fico-20260729.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-08",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/814547/000119312526260817/d140061d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-28",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/814547/000081454726000020/fico-20260428.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-20",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/814547/000119312526117936/d56220d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-11",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/814547/000119312526102450/d92566d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Carnival, Fair Isaac, Bloom Energy",
+   "url": "https://www.cnbc.com/2026/09/29/stocks-making-the-biggest-moves-midday-ccl-fico-be-iova.html",
+   "date": "2026-09-29",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Fair Isaac, SpaceX, AMD & more",
+   "url": "https://www.cnbc.com/2026/09/29/stocks-making-the-biggest-moves-premarket-fair-isaac-spacex-amd-more.html",
+   "date": "2026-09-29",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Sandisk, Tesla, Lululemon, AMC & more",
+   "url": "https://www.cnbc.com/2026/09/04/stocks-making-the-biggest-moves-midday-sndk-tsla-nx-amc.html",
+   "date": "2026-09-04",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Is the K-shaped economy ending? Finance pros weigh in",
+   "url": "https://www.cnbc.com/2026/08/25/k-shaped-economy-c-shaped-economy-may-be-changing.html",
+   "date": "2026-08-25",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Meta, Microsoft, Teladoc & more",
+   "url": "https://www.cnbc.com/2026/07/30/stocks-making-the-biggest-moves-midday-meta-msft-mktx-crox.html",
+   "date": "2026-07-30",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's lightning round: Buy Vistra",
+   "url": "https://www.cnbc.com/2026/06/17/cramers-lightning-round-buy-vistra.html",
+   "date": "2026-06-17",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "News Update – Market Close",
+   "url": "https://www.cnbc.com/video/2026/09/29/post-market-wrap-september-29-2026.html",
+   "date": "2026-09-29",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "FICO CEO Will Lansing on Q3 earnings: We had a really great quarter",
+   "url": "https://www.cnbc.com/video/2026/07/30/fico-ceo-will-lansing-on-q3-earnings-we-had-a-really-great-quarter.html",
+   "date": "2026-07-30",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "FICO",
+  "fetchedAt": "2026-10-13",
+  "source": "한국투자증권 Open API",
+  "per": 21.38,
+  "pbr": 0,
+  "eps": 34.61,
+  "bps": 0,
+  "shares": 21597600,
+  "marketCapM": 15982,
+  "high52": 1858.91,
+  "high52Date": "2025-12-12",
+  "low52": 586.0497,
+  "low52Date": "2026-09-30",
+  "last": 740,
+  "prevClose": 667.58,
+  "nameKo": "페어 아이작",
+  "nameEn": "FAIR ISAAC CORP",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 21597600
+ },
+ "chart": {
+  "lastBar": "2026-10-12",
+  "numbers": {
+   "price": 740,
+   "ma20": 794.38,
+   "ma50": 962.27,
+   "ma150": 1085.17,
+   "distMA50": -23.1,
+   "periodHigh": 2402.52,
+   "pullbackFromHigh": -69.2,
+   "volRatio20": 1.64,
+   "dryUpRatio": 1.22
+  },
+  "last10": [
+   {
+    "d": "2026-09-29",
+    "o": 668.08,
+    "h": 685,
+    "l": 595.19,
+    "c": 617.87,
+    "v": 4914500,
+    "clsPos": 25,
+    "gapPct": -20.55
+   },
+   {
+    "d": "2026-09-30",
+    "o": 602.02,
+    "h": 612.01,
+    "l": 586.05,
+    "c": 592.47,
+    "v": 2006900,
+    "clsPos": 25,
+    "gapPct": -2.57
+   },
+   {
+    "d": "2026-10-01",
+    "o": 635,
+    "h": 675.87,
+    "l": 620,
+    "c": 661.75,
+    "v": 2999500,
+    "clsPos": 75,
+    "gapPct": 7.18
+   },
+   {
+    "d": "2026-10-02",
+    "o": 614,
+    "h": 675.5,
+    "l": 609,
+    "c": 661.25,
+    "v": 1644400,
+    "clsPos": 79,
+    "gapPct": -7.22
+   },
+   {
+    "d": "2026-10-05",
+    "o": 661.73,
+    "h": 692.92,
+    "l": 648.95,
+    "c": 689.61,
+    "v": 1167800,
+    "clsPos": 92,
+    "gapPct": 0.07
+   },
+   {
+    "d": "2026-10-06",
+    "o": 694.79,
+    "h": 703.86,
+    "l": 676,
+    "c": 695.46,
+    "v": 1375900,
+    "clsPos": 70,
+    "gapPct": 0.75
+   },
+   {
+    "d": "2026-10-07",
+    "o": 690,
+    "h": 696,
+    "l": 663.59,
+    "c": 681.77,
+    "v": 1487300,
+    "clsPos": 56,
+    "gapPct": -0.79
+   },
+   {
+    "d": "2026-10-08",
+    "o": 684,
+    "h": 712.99,
+    "l": 679.67,
+    "c": 707.43,
+    "v": 1503500,
+    "clsPos": 83,
+    "gapPct": 0.33
+   },
+   {
+    "d": "2026-10-09",
+    "o": 717.89,
+    "h": 718.88,
+    "l": 663.12,
+    "c": 667.58,
+    "v": 1091500,
+    "clsPos": 8,
+    "gapPct": 1.48
+   },
+   {
+    "d": "2026-10-12",
+    "o": 674,
+    "h": 742.17,
+    "l": 666.16,
+    "c": 740,
+    "v": 2003600,
+    "clsPos": 97,
+    "gapPct": 0.96
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/FICO-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/FICO-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 17일째) — 사도 되지만 골라서",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

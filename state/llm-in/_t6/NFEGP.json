@@ -1,0 +1,375 @@
+{
+ "ticker": "NFEGP",
+ "date": "2026-10-13",
+ "session": "2026-10-12",
+ "source": "list",
+ "plan": {
+  "ticker": "NFEGP",
+  "name": "New Fortress Energy Inc.",
+  "sector": "N/A",
+  "industry": "N/A",
+  "price": 219.8000030517578,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 5.43,
+  "extensionAdr": null,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": null,
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 2.909640666653277,
+    "pct": 99.95491433724075
+   },
+   "m3": {
+    "v": 0,
+    "pct": 51.98376916140667
+   },
+   "m6": {
+    "v": 0,
+    "pct": 40.84761045987376
+   }
+  },
+  "ret1m": 290.96,
+  "ret3m": null,
+  "ret6m": null,
+  "marketCap": "N/A",
+  "volx": 0.21,
+  "volSurgeWk": 0.41,
+  "high52": 42.28,
+  "newHigh52": false,
+  "adr": 5.43,
+  "div50": null,
+  "div200": null,
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "est": {
+   "cyCur": null,
+   "cy30": null,
+   "nyCur": null,
+   "ny30": null
+  },
+  "fs": null,
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-10-12",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-13",
+  "nameKo": null,
+  "nameEn": null,
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001749723&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 272436000,
+     "profit": -148718000,
+     "netIncome": -372955000,
+     "margin": -54.6,
+     "yoy": {
+      "revenue": 19.4,
+      "profit": 61.7,
+      "netIncome": 31.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 185214000,
+     "profit": -225375000,
+     "netIncome": -400604000,
+     "margin": -121.7,
+     "yoy": {
+      "revenue": -51.9,
+      "profit": -1700.3,
+      "netIncome": -128.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 326221000,
+     "profit": -629665000,
+     "netIncome": -847064000,
+     "margin": -193,
+     "yoy": {
+      "revenue": -7,
+      "profit": -376.2,
+      "netIncome": -277.4,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 240318000,
+     "profit": -89853000,
+     "netIncome": -263001000,
+     "margin": -37.4,
+     "yoy": {
+      "revenue": -46.1,
+      "profit": -213,
+      "netIncome": -2677.2,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": []
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-05",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000166/nfe-20261005.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-11",
+    "itemsKo": [
+     "중요 계약 체결",
+     "1.02",
+     "2.01",
+     "2.03",
+     "3.02",
+     "3.03",
+     "임원 변동",
+     "5.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000118/nfe-20260911.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-10",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000114/nfe-20260903.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-21",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000110/nfe-20260817.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-25",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000101/nfe-20260619.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-17",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1749723/000174972326000094/nfe-20260617.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "NFEGP",
+  "fetchedAt": "2026-10-13",
+  "source": "한국투자증권 Open API",
+  "per": 0,
+  "pbr": 0,
+  "eps": 0,
+  "bps": 0,
+  "shares": 2450000,
+  "marketCapM": 539,
+  "high52": 519.84,
+  "high52Date": "2026-09-17",
+  "low52": 38.4,
+  "low52Date": "2026-09-14",
+  "last": 219.8,
+  "prevClose": 225,
+  "nameKo": "뉴포트리스 에너지 의무전환우선주 A",
+  "nameEn": "NEW FORTRESS ENERGY INC PFD SER A MANDATORILY CONV",
+  "listedOn": "2026-09-14",
+  "exchange": "나스닥",
+  "listedShares": 2450000
+ },
+ "chart": {
+  "lastBar": "2026-10-12",
+  "numbers": {
+   "price": 219.8,
+   "ma20": 402.24,
+   "ma50": null,
+   "ma150": null,
+   "distMA50": null,
+   "periodHigh": 519.84,
+   "pullbackFromHigh": -57.72,
+   "volRatio20": 0.38,
+   "dryUpRatio": 0.99
+  },
+  "last10": [
+   {
+    "d": "2026-09-29",
+    "o": 390,
+    "h": 400,
+    "l": 350,
+    "c": 390,
+    "v": 42100,
+    "clsPos": 80,
+    "gapPct": -2.5
+   },
+   {
+    "d": "2026-09-30",
+    "o": 395,
+    "h": 440,
+    "l": 395,
+    "c": 400,
+    "v": 66900,
+    "clsPos": 11,
+    "gapPct": 1.28
+   },
+   {
+    "d": "2026-10-01",
+    "o": 400,
+    "h": 400,
+    "l": 400,
+    "c": 400,
+    "v": 0,
+    "clsPos": null,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-02",
+    "o": 400,
+    "h": 405,
+    "l": 400,
+    "c": 405,
+    "v": 1100,
+    "clsPos": 100,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-05",
+    "o": 393.5,
+    "h": 393.5,
+    "l": 393.5,
+    "c": 393.5,
+    "v": 700,
+    "clsPos": null,
+    "gapPct": -2.84
+   },
+   {
+    "d": "2026-10-06",
+    "o": 340,
+    "h": 340,
+    "l": 318.72,
+    "c": 319.99,
+    "v": 2000,
+    "clsPos": 6,
+    "gapPct": -13.6
+   },
+   {
+    "d": "2026-10-07",
+    "o": 300,
+    "h": 304.01,
+    "l": 275,
+    "c": 291,
+    "v": 19400,
+    "clsPos": 55,
+    "gapPct": -6.25
+   },
+   {
+    "d": "2026-10-08",
+    "o": 270,
+    "h": 270,
+    "l": 255,
+    "c": 255.1,
+    "v": 52000,
+    "clsPos": 1,
+    "gapPct": -7.22
+   },
+   {
+    "d": "2026-10-09",
+    "o": 260,
+    "h": 260,
+    "l": 220,
+    "c": 225,
+    "v": 20000,
+    "clsPos": 13,
+    "gapPct": 1.92
+   },
+   {
+    "d": "2026-10-12",
+    "o": 210,
+    "h": 219.8,
+    "l": 200.03,
+    "c": 219.8,
+    "v": 7775,
+    "clsPos": 100,
+    "gapPct": -6.67
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/NFEGP-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/NFEGP-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 17일째) — 사도 되지만 골라서",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

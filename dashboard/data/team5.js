@@ -4355,7 +4355,82 @@ window.TEAM5_DATA = {
           "name": "커비"
         }
       ],
-      "report": null
+      "report": {
+        "status": "done",
+        "researchedOn": "2026-10-13",
+        "carried": false,
+        "headline": "호르무즈 해협 차질로 운임이 오르며 해운주가 10년 만의 고점권에 올라섰다.",
+        "summary": "CNBC는 9월 초 호르무즈 해협 차질이 이어지면서 해운주가 10년 내 최고 수준에 올랐다고 전했다. 9월 말에는 올해 가장 뜨거운 거래가 AI가 아니라 유조선 주식이라는 보도도 나왔다. 유조선 업체 오케아니스 에코 탱커스가 업종 내 상대강도 선두권이다. 컨테이너선사 유로시스는 2분기 실적이 추정치를 웃돌았다. 호르무즈 차질과 운임 강세가 이어지는지가 관건이다.",
+        "whyLeading": [
+          {
+            "id": "w1",
+            "statement": "호르무즈 해협 차질이 길어지면서 해운주가 10년 내 최고 수준까지 올랐다고 CNBC가 보도했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Shipping stocks hit decade highs as Hormuz disruption grinds on",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/03/shipping-hormuz-tankers-earnings-freight-rates-iran-trump-crude-china-stocks.html",
+                "date": "2026-09-03",
+                "quote": "Shipping stocks hit decade highs as Hormuz disruption grinds on",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "CNBC는 올해 가장 뜨거운 거래가 AI가 아니라 유조선 주식이라고 전했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "The hottest trade of the year so far isn't AI. It's tanker stocks",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/30/the-hottest-trade-of-the-year-so-far-isnt-ai-its-tanker-stocks.html",
+                "date": "2026-09-30",
+                "quote": "The hottest trade of the year so far isn't AI. It's tanker stocks",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "leaders": [
+          {
+            "ticker": "ESEA",
+            "role": "컨테이너선 업체로, 2분기 실적이 시장 추정치를 웃돌았다.",
+            "why": [
+              {
+                "id": "l1a",
+                "statement": "유로시스는 2분기 순이익과 매출이 시장 추정치를 웃돌았다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Euroseas Ltd. (ESEA) Q2 Earnings and Revenues Surpass Estimates",
+                    "publisher": "Zacks",
+                    "url": "https://www.nasdaq.com/articles/euroseas-ltd-esea-q2-earnings-and-revenues-surpass-estimates",
+                    "date": "2026-08-13",
+                    "quote": "Euroseas Ltd. (ESEA) Q2 Earnings and Revenues Surpass Estimates",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 40.08,
+            "rnk1": 71.82,
+            "name": "유로시스"
+          }
+        ],
+        "risks": [],
+        "sourceGap": "증권사 리포트가 없고 CNBC 원문은 접근이 막혀 제목만 근거로 썼다. 위험 요인과 다수 종목의 실적 근거는 확인하지 못했다.",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 claim(w1, w2, l1a)의 statement가 quote와 출처 제목에 정확히 일치하며, 각 출처가 해당 주장을 명확히 뒷받침합니다."
+        },
+        "evidenceCount": 29
+      }
     },
     {
       "key": "Technology|Electronics & Computer Distribution",
@@ -4552,7 +4627,49 @@ window.TEAM5_DATA = {
           "name": "모호크 인더스트리스"
         }
       ],
-      "report": null
+      "report": {
+        "status": "done",
+        "researchedOn": "2026-10-13",
+        "carried": false,
+        "headline": "근거 없음 — 출처 검증을 통과한 상위 이유가 없다",
+        "summary": "",
+        "whyLeading": [
+          {
+            "id": "w0",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "leaders": [],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "플렉스스틸은 실적 발표에서 인플레이션과 고르지 않은 수요를 지적해, 가구 수요 회복이 더딜 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "FLXS Q4 Earnings Call Flags Inflation and Uneven Demand",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/flxs-q4-earnings-call-flags-inflation-and-uneven-demand",
+                "date": "2026-08-19",
+                "quote": "FLXS Q4 Earnings Call Flags Inflation and Uneven Demand",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "sourceGap": "증권사 리포트 없음, CNBC 기사 본문은 열람하지 못해 제목만으로 작성 — 주도주 근거 부족.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1"
+          ],
+          "reason": "w1의 출처 제목과 인용문이 샤크닌자를 구체적으로 명시하지 않고 'A household appliance maker'라는 일반적인 표현만 사용하여, 주도주 근거 기준 '그 회사를 직접 다루지 않음' 조건에 해당하므로 제거. headline에서 '샤크닌자 등 소형 가전이 이끌며' 부분을 제거하고 summary에서 '소형 가전 업체 샤크닌자는 CNBC가 올해 강세 종목으로 다뤘다' 문장을 삭제하여 수정."
+        },
+        "evidenceCount": 9
+      }
     }
   ]
 };

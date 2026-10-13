@@ -1,0 +1,258 @@
+{
+ "ticker": "TEAM",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "아틀라시언",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 13.77,
+  "saleNy": 14.55,
+  "epsCy": -7.23,
+  "epsNy": -59.7,
+  "est": {
+   "cyCur": 5.42681,
+   "cy30": 5.42187,
+   "nyCur": 2.1871,
+   "ny30": 2.0571
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    27.6,
+    31.71,
+    23.31
+   ],
+   "ni": [
+    "흑자전환",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    11.93,
+    -3.15,
+    -3.01
+   ],
+   "updated": "2026-09-09 06:28:59"
+  },
+  "qualifiedBy": [
+   "3mo",
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-08-28",
+   "m6": "2026-08-31"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 30,
+   "m6": 29
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-13",
+  "nameKo": "아틀라시언",
+  "nameEn": "ATLASSIAN CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001650372&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": true,
+     "revenue": 1766469000,
+     "profit": 210723000,
+     "netIncome": 139076000,
+     "margin": 11.9,
+     "yoy": {
+      "revenue": 27.6,
+      "profit": 839.9,
+      "netIncome": 681.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1786971000,
+     "profit": -56284000,
+     "netIncome": -98389000,
+     "margin": -3.1,
+     "yoy": {
+      "revenue": 31.7,
+      "profit": -351.9,
+      "netIncome": -39,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 1586315000,
+     "profit": -47747000,
+     "netIncome": -42645000,
+     "margin": -3,
+     "yoy": {
+      "revenue": 23.3,
+      "profit": 16.9,
+      "netIncome": -11.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1432553000,
+     "profit": -96337000,
+     "netIncome": -51870000,
+     "margin": -6.7,
+     "yoy": {
+      "revenue": 20.6,
+      "profit": -201.3,
+      "netIncome": 58.1,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Intuit vs. Atlassian: Which Software Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/intuit-vs-atlassian-which-software-stock-better-buy-2026",
+     "date": "2026-10-05",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000031/team-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000024/team-20260430.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-11",
+    "itemsKo": [
+     "2.05",
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000021/team-20260311.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-18",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000017/team-20260218.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000008/team-20260205.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-15",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000003/team-20260115.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+   "url": "https://www.cnbc.com/investingclub/2026/09/01/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+   "date": "2026-09-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+   "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+   "date": "2026-08-07",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: SpaceX, Coherent, Airbnb & more",
+   "url": "https://www.cnbc.com/2026/08/07/stocks-making-the-biggest-moves-midday-spcx-cohr-team-abnb-ttd.html",
+   "date": "2026-08-07",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Atlassian, Wendy's, Vista & more",
+   "url": "https://www.cnbc.com/2026/08/07/stocks-making-the-biggest-moves-premarket-atlassian-corporation-wendys-vista-corp-first-solar-airbnb-more.html",
+   "date": "2026-08-07",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Software companies are evaporating the terminal risk fears AI models posed: Citi's Fatima Boolani",
+   "url": "https://www.cnbc.com/video/2026/08/07/software-companies-are-evaporating-the-terminal-risk-fears-ai-models-posed-citis-fatima-boolani.html",
+   "date": "2026-08-07",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "TEAM",
+  "fetchedAt": "2026-10-13",
+  "source": "한국투자증권 Open API",
+  "per": 1110.96,
+  "pbr": 49.74,
+  "eps": 0.19,
+  "bps": 4.18,
+  "shares": 159005000,
+  "marketCapM": 33033,
+  "high52": 212.84,
+  "high52Date": "2026-10-12",
+  "low52": 56.0101,
+  "low52Date": "2026-04-10",
+  "last": 207.75,
+  "prevClose": 206.79,
+  "nameKo": "아틀라시언",
+  "nameEn": "ATLASSIAN CORP",
+  "listedOn": "2015-12-09",
+  "exchange": "나스닥",
+  "listedShares": 159005000
+ }
+}

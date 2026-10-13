@@ -32,9 +32,29 @@ window.TEAM4_DATA = {
       "bbCenterBrk5d": false,
       "fs": null,
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SENEB",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Seneca Foods의 B주(SENEB)로, 통조림 채소와 과일 등 가공식품을 만들어 판매해 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "No source claim properly categorized as ⑥"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-13",
+        "carried": false
       }
     },
     {
@@ -78,9 +98,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:27:05"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "NOVT",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Novanta는 의료기기·반도체 장비·로봇 등에 들어가는 정밀 레이저, 광학, 모션 제어 부품을 만들어 파는 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "No source claim properly categorized as ⑥"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-13",
+        "carried": false
       }
     },
     {
@@ -202,9 +242,39 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:43:39"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MANH",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 12일 모건스탠리가 MANH 투자의견을 중립(Equal-Weight)에서 비중확대(Overweight)로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Morgan Stanley Upgrades Manhattan Associates to Overweight from Equal-Weight",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/morgan-stanley-upgrades-manhattan-associates-overweight-equal-weight",
+                "date": "2026-10-12",
+                "quote": "Morgan Stanley Upgrades Manhattan Associates to Overweight from Equal-Weight",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "MANH는 물류·공급망 관리 소프트웨어를 기업에 판매하고 구독료와 서비스 수수료로 돈을 번다.",
+        "volumeExplanation": "10월 12일 모건스탠리가 투자의견을 중립에서 비중확대로 올렸고, 이것이 거래량 증가와 같은 시점이다. 실적·계약 같은 회사 자체의 새 소식은 없어서 어닝 서프라이즈 등 1~5번 호재로는 보기 어렵다. 업그레이드가 직접 원인인지는 확인되지 않는다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "Morgan Stanley upgrade (2026-10-12) properly sourced; correctly categorized as ⑥ since analyst opinion is not a company catalyst (①~⑤)"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-13",
+        "carried": false
       }
     },
     {
@@ -248,9 +318,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:12:58"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BHRB",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Burke & Herbert는 미국 버지니아주 북부에서 예금을 받고 대출을 해주며 이자 수익으로 돈을 버는 지역은행 지주회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "No source claim properly categorized as ⑥"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-13",
+        "carried": false
       }
     },
     {
@@ -294,9 +384,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:32:12"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "TARS",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Tarsus는 안구 질환 치료제를 만드는 바이오 기업으로, 눈꺼풀 진드기 감염 치료제 XDEMVY 판매로 매출을 낸다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "No source claim properly categorized as ⑥"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-13",
+        "carried": false
       }
     },
     {
@@ -340,9 +450,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:19:05"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SMTC",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Semtech는 데이터센터·통신 장비에 들어가는 아날로그·신호 처리 반도체와 무선 통신 모듈을 만들어 파는 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-13",
+        "carried": false
       }
     },
     {
@@ -386,9 +516,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:59:05"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "FROG",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "JFrog는 소프트웨어 개발 과정에서 쓰는 파일과 부품을 보관·배포하고 보안 점검까지 해 주는 플랫폼을 구독형으로 팔아 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-13",
+        "carried": false
       }
     },
     {
@@ -432,9 +582,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:36:43"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "LIVN",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "LivaNova는 뇌전증·우울증 치료용 미주신경자극기와 심장수술 장비 등 의료기기를 팔아 돈을 버는 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-13",
+        "carried": false
       }
     }
   ],
@@ -449,13 +619,23 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 1,
+    "done": 9,
     "total": 9,
-    "cap": null,
-    "pending": 8,
+    "cap": 8,
+    "pending": 0,
     "failed": 0,
     "carried": 1,
     "ineligible": 0,
-    "note": "9종목 중 1종목을 조사했습니다. 그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 8종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+  },
+  "llm": {
+    "highlights": [],
+    "sectorSignal": "오늘은 실적 호재나 산업 기술 돌파로 분류된 종목이 한 건도 없습니다. 입력된 8건은 모두 뉴스 없는 이상 거래량으로 분류돼 업종 쏠림을 말할 근거가 없습니다.",
+    "caution": "8건 중 7건은 근거가 없다고 나왔습니다. MANH의 모건스탠리 투자의견 상향만 확인된 내용이지만, 이것은 실적이나 기술 호재가 아니라 분석가 의견 변화입니다. 호재가 없다는 결과이고, 거래량만 보고 호재로 해석하면 안 됩니다.",
+    "researchedOn": "2026-10-13"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "6": 9
   }
 };

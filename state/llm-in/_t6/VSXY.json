@@ -1,0 +1,465 @@
+{
+ "ticker": "VSXY",
+ "date": "2026-10-13",
+ "session": "2026-10-12",
+ "source": "list",
+ "plan": {
+  "ticker": "VSXY",
+  "name": "빅토리아 시크릿",
+  "sector": "Consumer Cyclical",
+  "industry": "Apparel Retail",
+  "price": 88.58999633789062,
+  "grade": "B",
+  "state": "pre",
+  "pivot": 92.64,
+  "stop": 88.42,
+  "distToPivotPct": -4.38,
+  "distToPivotAdr": -0.92,
+  "riskPerSharePct": 4.56,
+  "adrPct": 4.77,
+  "extensionAdr": 0.23,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 22.6,
+   "priorMovePct": 114.9,
+   "higherLows": 0,
+   "contraction": 1.19,
+   "closeRange10Adr": 2.1,
+   "surf10": 0.23,
+   "surf20": 1.06,
+   "slope20": 3.14,
+   "baseLow": 71.72,
+   "lastSwingLow": 71.72
+  },
+  "reasons": [
+   "선행 상승 +115%",
+   "베이스 8주",
+   "깊이 22.6%",
+   "✗ 저점 상승 0회",
+   "진폭 1.19배 · 10일 종가폭 2.1 ADR",
+   "10일선 +0.2 ADR · 20일선 +1.1 ADR",
+   "20일선 기울기 +3.14%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.18848933793662648,
+    "pct": 95.71686203787195
+   },
+   "m3": {
+    "v": 0.0876611375956906,
+    "pct": 74.16591523895401
+   },
+   "m6": {
+    "v": 0.613073548643782,
+    "pct": 93.55275022542831
+   }
+  },
+  "ret1m": 18.85,
+  "ret3m": 8.77,
+  "ret6m": 61.31,
+  "marketCap": "6.61B",
+  "volx": 0.98,
+  "volSurgeWk": 0.84,
+  "high52": 86.46,
+  "newHigh52": false,
+  "adr": 4.77,
+  "div50": 3.92,
+  "div200": 31.47,
+  "targetStatus": false,
+  "saleCy": 9.51,
+  "saleNy": 5.14,
+  "epsCy": 56.9,
+  "epsNy": 19.36,
+  "cyTrend": 0.86,
+  "nyTrend": 0.27,
+  "est": {
+   "cyCur": 4.70712,
+   "cy30": 4.66705,
+   "nyCur": 5.61826,
+   "ny30": 5.60304
+  },
+  "fs": {
+   "sale": [
+    10.4,
+    15.3,
+    7.69
+   ],
+   "ni": [
+    1044.05,
+    "흑자전환",
+    -4.66
+   ],
+   "opm": [
+    15.93,
+    4.87,
+    10.09
+   ],
+   "updated": "2026-09-07 07:26:19"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-13",
+  "nameKo": "빅토리아 시크릿",
+  "nameEn": "VICTORIAS SECRET AND CO",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001856437&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-08-01",
+     "derived": false,
+     "revenue": 1611000000,
+     "profit": 257000000,
+     "netIncome": 183000000,
+     "margin": 16,
+     "yoy": {
+      "revenue": 10.4,
+      "profit": 526.8,
+      "netIncome": 1043.8,
+      "priorEnd": "2025-08-02"
+     }
+    },
+    {
+     "periodEnd": "2026-05-02",
+     "derived": false,
+     "revenue": 1560000000,
+     "profit": 76000000,
+     "netIncome": 48000000,
+     "margin": 4.9,
+     "yoy": {
+      "revenue": 15.3,
+      "profit": 280,
+      "netIncome": 2500,
+      "priorEnd": "2025-05-03"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 2269000000,
+     "profit": 229000000,
+     "netIncome": 184000000,
+     "margin": 10.1,
+     "yoy": {
+      "revenue": 7.7,
+      "profit": -14.6,
+      "netIncome": -4.7,
+      "priorEnd": "2025-02-01"
+     }
+    },
+    {
+     "periodEnd": "2025-11-01",
+     "derived": false,
+     "revenue": 1472000000,
+     "profit": -19000000,
+     "netIncome": -37000000,
+     "margin": -1.3,
+     "yoy": {
+      "revenue": 9.3,
+      "profit": 59.6,
+      "netIncome": 33.9,
+      "priorEnd": "2024-11-02"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here's Why Victoria's Secret (VSXY) is a Strong Value Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-victorias-secret-vsxy-strong-value-stock-0",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Victoria's Secret (VSXY) is a Top Growth Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-victorias-secret-vsxy-top-growth-stock-long-term-0",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Victoria's Secret (VSXY) is a Top Value Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-victorias-secret-vsxy-top-value-stock-long-term-0",
+     "date": "2026-09-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "VSXY Raises 2026 Outlook as Brand Momentum and Margins Strengthen",
+     "url": "https://www.nasdaq.com/articles/vsxy-raises-2026-outlook-brand-momentum-and-margins-strengthen",
+     "date": "2026-09-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is VSXY Worth Buying as Growth Improves but Valuation Stays Rich?",
+     "url": "https://www.nasdaq.com/articles/vsxy-worth-buying-growth-improves-valuation-stays-rich",
+     "date": "2026-09-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "VSXY Dips 10% in the Past Month: Is the Pullback an Opportunity?",
+     "url": "https://www.nasdaq.com/articles/vsxy-dips-10-past-month-pullback-opportunity",
+     "date": "2026-09-14",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-09",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000023/vsco-20261007.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-03",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000019/vsco-20260903.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-20",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000017/vsco-20260818.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-15",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000015/vsco-20260611.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-02",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000011/vsco-20260602.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-21",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1856437/000185643726000007/vsco-20260521.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Retailer earnings could put this season to the test. What analysts are saying",
+   "url": "https://www.cnbc.com/2026/08/18/retailer-earnings-could-put-this-season-to-the-test.html",
+   "date": "2026-08-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Bank of America says these five stocks are best positioned for upside",
+   "url": "https://www.cnbc.com/2026/06/27/bank-of-america-names-5-stocks-with-the-most-upside-potential.html",
+   "date": "2026-06-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Victoria's Secret CEO: Entering back half of the year with tons of momentum despite revenue miss",
+   "url": "https://www.cnbc.com/video/2026/09/03/victorias-secret-ceo-entering-back-half-of-the-year-with-tons-of-momentum-despite-revenue-miss.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "VSXY",
+  "fetchedAt": "2026-10-13",
+  "source": "한국투자증권 Open API",
+  "per": 20.02,
+  "pbr": 7.16,
+  "eps": 4.43,
+  "bps": 12.38,
+  "shares": 79764000,
+  "marketCapM": 7066,
+  "high52": 102.46,
+  "high52Date": "2026-08-10",
+  "low52": 71.72,
+  "low52Date": "2026-09-10",
+  "last": 88.59,
+  "prevClose": 82.87,
+  "nameKo": "빅토리아 시크릿",
+  "nameEn": "VICTORIAS SECRET AND CO",
+  "listedOn": "2026-06-02",
+  "exchange": "뉴욕거래소",
+  "listedShares": 79764000
+ },
+ "chart": {
+  "lastBar": "2026-10-12",
+  "numbers": {
+   "price": 88.59,
+   "ma20": 84.1,
+   "ma50": 85.25,
+   "ma150": 70.16,
+   "distMA50": 3.92,
+   "periodHigh": 102.46,
+   "pullbackFromHigh": -13.54,
+   "volRatio20": 0.93,
+   "dryUpRatio": 0.97
+  },
+  "last10": [
+   {
+    "d": "2026-09-29",
+    "o": 89.78,
+    "h": 90.45,
+    "l": 87.21,
+    "c": 89.23,
+    "v": 1212100,
+    "clsPos": 62,
+    "gapPct": 1.69
+   },
+   {
+    "d": "2026-09-30",
+    "o": 90,
+    "h": 91.97,
+    "l": 88.37,
+    "c": 88.46,
+    "v": 1547000,
+    "clsPos": 2,
+    "gapPct": 0.86
+   },
+   {
+    "d": "2026-10-01",
+    "o": 88.07,
+    "h": 88.8,
+    "l": 86.53,
+    "c": 88.51,
+    "v": 876500,
+    "clsPos": 87,
+    "gapPct": -0.44
+   },
+   {
+    "d": "2026-10-02",
+    "o": 89.15,
+    "h": 91.9,
+    "l": 88.1,
+    "c": 91.73,
+    "v": 1677900,
+    "clsPos": 96,
+    "gapPct": 0.72
+   },
+   {
+    "d": "2026-10-05",
+    "o": 91.27,
+    "h": 91.8,
+    "l": 86.65,
+    "c": 89.41,
+    "v": 2618300,
+    "clsPos": 54,
+    "gapPct": -0.5
+   },
+   {
+    "d": "2026-10-06",
+    "o": 88.33,
+    "h": 89.58,
+    "l": 84.84,
+    "c": 85.09,
+    "v": 2046800,
+    "clsPos": 5,
+    "gapPct": -1.21
+   },
+   {
+    "d": "2026-10-07",
+    "o": 83.35,
+    "h": 87.14,
+    "l": 83.1,
+    "c": 85.79,
+    "v": 1019200,
+    "clsPos": 67,
+    "gapPct": -2.04
+   },
+   {
+    "d": "2026-10-08",
+    "o": 84.81,
+    "h": 86.68,
+    "l": 82.83,
+    "c": 86.61,
+    "v": 2127700,
+    "clsPos": 98,
+    "gapPct": -1.14
+   },
+   {
+    "d": "2026-10-09",
+    "o": 85.8,
+    "h": 86.81,
+    "l": 81.51,
+    "c": 82.87,
+    "v": 1424800,
+    "clsPos": 26,
+    "gapPct": -0.94
+   },
+   {
+    "d": "2026-10-12",
+    "o": 83.33,
+    "h": 89.35,
+    "l": 82.93,
+    "c": 88.59,
+    "v": 1555700,
+    "clsPos": 88,
+    "gapPct": 0.56
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/VSXY-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/VSXY-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 17일째) — 사도 되지만 골라서",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

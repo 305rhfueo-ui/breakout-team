@@ -65,235 +65,28 @@ window.TEAM6_DATA = {
       "score": 65.9,
       "deep": {
         "status": "done",
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "충족",
-            "evidence": "2026년 6월 분기 영업이익 전년비 +54.8%, 매출 +31.7%, 순이익 +22.3% (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "미충족",
-            "evidence": "최근 4개 분기 중 2026년 3월 분기가 영업손실 -4,960만 달러, 2025년 9·12월 분기도 영업이익 전년비 -78.1%·-82.2% (순이익 기준, 주식 수 변동 미반영). 3년 추세·ROE 는 확인 불가",
-            "status_note": null
-          },
-          {
-            "item": "N 새로운 것",
-            "status": "충족",
-            "evidence": "2026년 9월 유럽 자문위가 난소암 신약 Lifyorli 승인 권고, 12월 17일 FDA 결정 예정. 주가는 1년 최고가의 95.89% 자리"
-          },
-          {
-            "item": "S 수급",
-            "status": "충족",
-            "evidence": "최근 5일 거래량이 20일 평균의 0.41배로 줄었고 10월 5일·9일 오른 날에 전날보다 거래량 증가. 유통주식 수는 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "충족",
-            "evidence": "상대강도 6개월 상위 99.4%, 3개월 96.4%, 1개월 88.5%"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "충족",
-            "evidence": "시장 판정 green(10일선이 20일선 위, 둘 다 상승 16일째). 다만 마진부채가 1년 전보다 +37.2% 로 주의선 초과"
-          }
-        ],
-        "chartCheck": [
-          {
-            "item": "선행 상승",
-            "status": "충족",
-            "evidence": "베이스 직전 상승 +131.5%, 6개월 수익률 +161.5%"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "충족",
-            "evidence": "베이스 7.8주(39봉) — 2~8주 범위 안"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "충족",
-            "evidence": "저점 상승 2회, 진폭 0.86배로 좁아짐"
-          },
-          {
-            "item": "깊이",
-            "status": "충족",
-            "evidence": "깊이 14.3%, ADR 4.73% 의 약 3.0배. 선행 상승 131.5% 의 절반 미만"
-          },
-          {
-            "item": "이평선 위",
-            "status": "충족",
-            "evidence": "현재가 121.19 > 20일선 115.76 > 50일선 115.18 > 150일선 80.36"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "확인 불가",
-            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "아직 피벗 아래라 돌파봉이 없다. 최근 거래량은 20일 평균의 0.36배 — 밤에 2배가 실리는지 본다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "충족",
-            "evidence": "피벗 126.38 달러까지 -4.11%, ADR 로 0.87배 거리"
-          },
-          {
-            "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절 폭 4.53% ≤ ADR 4.73%"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 117.68 달러 위로 0.61 ADR — 기준 2 ADR 이하"
-          },
-          {
-            "item": "시장",
-            "status": "충족",
-            "evidence": "시장 판정 green"
-          }
-        ],
-        "chartObservation": {
-          "base": "8월 25일 고점 126.38 달러를 찍은 뒤 7.8주째 옆으로 움직이고 있다. 그 사이 저점이 두 번 높아졌고 움직이는 폭은 이전의 0.86배로 좁아졌다. 고점 대비 가장 깊이 내려간 폭은 14.3% 로 하루 평균 변동폭(ADR) 4.73% 의 약 3배다.",
-          "volume": "횡보 구간에서 거래량이 뚜렷하게 줄었다. 최근 5일 거래량은 20일 평균의 0.41배다. 최근 10봉 중 10월 5일(100만 주)과 10월 9일(62만 주)은 오른 날이면서 전날보다 거래량이 늘었다.",
-          "position": "현재가 121.19 달러는 넘으면 사는 선인 피벗 126.38 달러보다 4.11% 아래다. ADR 로 환산하면 0.87배 거리라 하루 변동폭 안쪽이다. 예비 손절 120.65 달러와는 거의 붙어 있고, 10일선 117.68 달러보다는 0.61 ADR 위에 있다.",
-          "maStack": "가격이 20일선 115.76 달러, 50일선 115.18 달러, 150일선 80.36 달러를 모두 위에 두고 있다. 20일선 기울기는 +1.4% 로 올라가는 중이다.",
-          "note": "그림에서 9월 하순에 거래량 막대 하나가 유독 길게 튀어나온 날이 보인다. 그 날을 빼면 횡보 구간 내내 막대가 줄어드는 모양이라 숫자와 일치한다."
-        },
-        "company": "코셉트 테라퓨틱스는 스트레스 호르몬인 코르티솔의 작용을 막는 약을 만드는 미국 제약사다. 오래된 수익원은 쿠싱증후군 치료제 Korlym(성분명 미페프리스톤)이고, 환자 수가 적은 희귀질환 시장에서 돈을 벌어 왔다. 2026년 3월 미국 FDA 승인을 받은 난소암 신약 Lifyorli(성분명 relacorilant)가 새로운 성장 축이다.",
-        "confidence": "high",
-        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 다만 쿠싱증후군용 relacorilant 의 FDA 허가 결정일이 12월 17일로 잡혀 있어, 실적보다 이 하루가 주가를 더 크게 흔들 수 있다.",
-        "entryChecklist": [
-          "피벗 126.38 달러를 20일 평균 거래량의 2배 이상 거래량으로 종가 돌파하는지",
-          "예비 손절 120.65 달러와 10일선 117.68 달러 위에서 종가를 지키는지",
-          "12월 17일 FDA 허가 결정이 승인으로 나오는지, 아니면 다시 미뤄지는지",
-          "다음 분기 실적에서 난소암 신약 Lifyorli 매출이 6월 분기보다 더 늘었는지",
-          "회사가 올해 매출 전망 11억~12억 달러를 유지하거나 다시 올리는지"
-        ],
-        "financials": {
-          "revenueTrend": [
-            {
-              "id": "rev1",
-              "statement": "난소암 신약 출시가 매출 증가를 이끌었다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update (8-K Ex-99.1)",
-                  "publisher": "SEC EDGAR / Corcept Therapeutics",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
-                  "date": "2026-07-29",
-                  "quote": "Corcept's second quarter 2026 revenue was $256.1 million, compared to $194.4 million in the second quarter of 2025.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ],
-              "statementOriginal": "2026년 6월 분기 매출은 2.561억 달러로 1년 전 1.944억 달러보다 32% 늘었다. 난소암 신약 출시가 매출 증가를 이끌었다."
-            },
-            {
-              "id": "rev2",
-              "statement": "직전 2026년 3월 분기 매출은 1.649억 달러로 전년비 4.9% 증가에 그쳤다. 분기별 매출 증가 속도가 들쭉날쭉하다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "CORT 분기 실적표 (SEC EDGAR companyfacts)",
-                  "publisher": "SEC EDGAR",
-                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001088856&type=10-Q",
-                  "date": "2026-06-30",
-                  "quote": "\"periodEnd\": \"2026-03-31\", \"revenue\": 164903000, \"yoy\": { \"revenue\": 4.9 }",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "profitTrend": [],
-          "guidance": [
-            {
-              "id": "gui1",
-              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [
-                {
-                  "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update (8-K Ex-99.1)",
-                  "publisher": "SEC EDGAR / Corcept Therapeutics",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
-                  "date": "2026-07-29",
-                  "quote": "We have increased our 2026 revenue guidance to $1.1 – $1.2 billion.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ],
-              "statementOriginal": "회사는 2026년 매출 전망(가이던스, 회사가 내놓은 자체 전망)을 11억~12억 달러로 올렸다.",
-              "stripped": true
-            },
-            {
-              "id": "gui2",
-              "statement": "쿠싱증후군용 relacorilant 허가 신청을 6월에 다시 냈고, FDA 결정이 12월 17일로 예정돼 있다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update (8-K Ex-99.1)",
-                  "publisher": "SEC EDGAR / Corcept Therapeutics",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
-                  "date": "2026-07-29",
-                  "quote": "We resubmitted our New Drug Application (NDA) for relacorilant in Cushing's syndrome in June. We expect a decision on our NDA by December 17, 2026.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "estimateRevisions": {
-            "direction": "raised",
-            "claims": [
-              {
-                "id": "est1",
-                "statement": "전망의 방향이 위쪽이다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Corcept Therapeutics Announces First Quarter Financial Results and Provides Corporate Update (8-K Ex-99.1)",
-                    "publisher": "SEC EDGAR / Corcept Therapeutics",
-                    "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026028892/cort043026ex991pressrelease.htm",
-                    "date": "2026-04-30",
-                    "quote": "increased its 2026 revenue guidance to $950 – $1,050 million",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  },
-                  {
-                    "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update (8-K Ex-99.1)",
-                    "publisher": "SEC EDGAR / Corcept Therapeutics",
-                    "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
-                    "date": "2026-07-29",
-                    "quote": "We have increased our 2026 revenue guidance to $1.1 – $1.2 billion.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ],
-                "statementOriginal": "3개월 사이 회사 스스로 연간 매출 전망을 9.5억~10.5억 달러에서 11억~12억 달러로 올렸다. 전망의 방향이 위쪽이다."
-              }
-            ]
-          }
-        },
-        "financialsNarrative": "2026년 6월 분기 매출은 2.561억 달러로 1년 전 1.944억 달러보다 32% 늘었다. 회사는 올해 매출 전망을 11억~12억 달러로 올려 잡았다.",
-        "lead": "난소암 신약 출시로 매출이 다시 빨라진 가운데 주가가 1년 최고가 4% 아래에서 8주 가까이 좁게 움직이고 있어 관심 종목에 올랐다. 가장 강한 근거는 6월 분기 매출 32% 증가와 올해 매출 전망 11억~12억 달러로의 상향이다. 가장 큰 걱정은 2월 항소심에서 Teva 복제약이 특허를 침해하지 않는다는 판결이 확정돼 기존 수익원 Korlym 이 깎일 수 있다는 점이다. 12월 17일 FDA 허가 결정이 부정적으로 나오거나 다음 분기에 매출 증가가 꺾이면 이 그림은 깨진다.",
-        "newsNarrative": "최근 흐름의 중심은 난소암 신약 Lifyorli 의 유럽 진출이다. 2026년 9월 유럽의약품청 자문위원회가 백금 저항성 난소암 적응증에 승인 권고 의견을 냈다. 미국에서는 쿠싱증후군용 relacorilant 허가 신청을 6월에 다시 내 12월 17일 결정을 기다리고 있다. 한편 기존 주력 Korlym 은 2월 특허 소송 패소로 복제약 경쟁에 노출됐지만, 9월까지는 성장에 계속 기여하고 있다는 분석이 나왔다.",
+        "ticker": "CORT",
+        "company": "코셉트 테라퓨틱스는 스트레스 호르몬인 코티솔의 작용을 막는 약을 만드는 미국 제약사다. 오래된 주력 제품은 쿠싱증후군 치료제 Korlym 이고, 2026년 3월 미국 FDA 승인을 받은 난소암 치료제 Lifyorli(성분명 렐라코릴란트)가 새 성장 축이다. 2026년 2분기 매출 2억 5,610만 달러 중 Korlym 계열이 2억 860만 달러, Lifyorli 가 4,760만 달러였다.",
+        "lead": "코티솔 조절제 한 회사가 신약 Lifyorli 로 매출 축을 하나 더 만든 국면이다. 가장 강한 근거는 출시 첫 분기 매출 4,760만 달러와 연간 가이던스(회사가 내놓은 전망) 11억~12억 달러로의 상향이다. 가장 큰 걱정은 출시 비용으로 2026년 1분기에 3,180만 달러 순손실이 났다는 점과, 법원이 Teva 의 Korlym 제네릭이 특허를 침해하지 않는다고 판단한 것이다. 유럽위원회가 4분기 안에 승인하지 않거나 Lifyorli 매출이 4,760만 달러에서 더 늘지 않으면 이 그림은 흔들린다.",
+        "newsNarrative": "최근 두 달의 핵심은 유럽 진출 절차다. 9월 18일 유럽의약품청 자문기구가 Lifyorli 를 백금 저항성 난소암 치료제로 승인하라고 권고했고, 최종 결정은 4분기에 나온다. 권고 근거는 임상에서 기존 항암제 단독 투여보다 생존 기간이 길어진 결과였다. 같은 달 23일에는 내분비사업 대표가 사임하고 후임이 정해지는 경영진 교체가 공시됐다.",
         "recentNews": [
           {
             "id": "n1",
-            "statement": "2026년 9월 유럽 자문위가 난소암 신약 Lifyorli 에 승인 권고 의견을 냈다. 유럽 판매로 가는 마지막 관문을 넘은 것이다.",
+            "statement": "유럽의약품청 자문기구(CHMP)가 9월 18일 Lifyorli(렐라코릴란트)를 백금 저항성 난소암 치료제로 승인하라고 유럽위원회에 권고했다.",
             "evidence_level": "sourced",
             "sources": [
               {
+                "title": "Corcept Announces CHMP Opinion Recommending EU Marketing Authorization for Lifyorli (relacorilant)",
+                "publisher": "Finviz",
+                "url": "https://finviz.com/news/393481/corcept-announces-chmp-opinion-recommending-eu-marketing-authorization-for-lifyorli-relacorilant",
+                "date": "2026-09-18",
+                "quote": "the European Medicines Agency's Committee for Medicinal Products for Human Use (CHMP) has recommended that the European Commission (EC) should approve relacorilant",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
                 "title": "Corcept's Lifyorli Gets Positive EU Opinion For Platinum-Resistant Ovarian Cancer",
-                "publisher": "RTTNews (Nasdaq)",
+                "publisher": "RTTNews",
                 "url": "https://www.nasdaq.com/articles/corcepts-lifyorli-gets-positive-eu-opinion-platinum-resistant-ovarian-cancer",
                 "date": "2026-09-18",
                 "quote": "Corcept's Lifyorli Gets Positive EU Opinion For Platinum-Resistant Ovarian Cancer",
@@ -303,32 +96,32 @@ window.TEAM6_DATA = {
             ]
           },
           {
-            "id": "n3",
-            "statement": "같은 조합 요법을 다룬 후속 기사가 9월 21일에도 나왔다. 유럽 승인 권고가 시장에서 비중 있게 다뤄졌다는 뜻이다.",
+            "id": "n2",
+            "statement": "권고 근거는 기존 항암제 단독 투여 환자보다 무진행 생존기간과 전체 생존기간이 길어졌다는 임상 결과였다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "CHMP Backs CORT's Lifyorli Combo in Platinum-Resistant Ovarian Cancer",
-                "publisher": "Zacks (Nasdaq)",
-                "url": "https://www.nasdaq.com/articles/chmp-backs-corts-lifyorli-combo-platinum-resistant-ovarian-cancer",
-                "date": "2026-09-21",
-                "quote": "CHMP Backs CORT's Lifyorli Combo in Platinum-Resistant Ovarian Cancer",
+                "title": "Corcept Announces CHMP Opinion Recommending EU Marketing Authorization for Lifyorli (relacorilant)",
+                "publisher": "Finviz",
+                "url": "https://finviz.com/news/393481/corcept-announces-chmp-opinion-recommending-eu-marketing-authorization-for-lifyorli-relacorilant",
+                "date": "2026-09-18",
+                "quote": "patients receiving relacorilant combined with nab-paclitaxel experienced improved progression-free and overall survival compared to patients who received nab-paclitaxel alone",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "n4",
-            "statement": "복제약 경쟁에도 기존 주력 Korlym 이 올해 남은 기간 성장에 기여할지를 묻는 분석이 9월에 나왔다.",
+            "id": "n3",
+            "statement": "유럽위원회의 최종 승인 여부는 2026년 4분기에 결정된다 — 자문기구 권고는 아직 승인이 아니다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Will Korlym Continue to Aid CORT's Growth Through the Rest of 2026?",
-                "publisher": "Zacks (Nasdaq)",
-                "url": "https://www.nasdaq.com/articles/will-korlym-continue-aid-corts-growth-through-rest-2026",
-                "date": "2026-09-16",
-                "quote": "Will Korlym Continue to Aid CORT's Growth Through the Rest of 2026?",
+                "title": "Corcept Announces CHMP Opinion Recommending EU Marketing Authorization for Lifyorli (relacorilant)",
+                "publisher": "Finviz",
+                "url": "https://finviz.com/news/393481/corcept-announces-chmp-opinion-recommending-eu-marketing-authorization-for-lifyorli-relacorilant",
+                "date": "2026-09-18",
+                "quote": "The EC will review the CHMP's opinion and issue a final decision regarding approval in the fourth quarter of 2026",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -336,49 +129,357 @@ window.TEAM6_DATA = {
           },
           {
             "id": "n5",
-            "statement": "9월 23일 임원 변동과 관련한 8-K 공시를 냈다.",
+            "statement": "직전 분기 실적(7월 29일 공시)에서 매출이 1년 전 1억 9,440만 달러에서 2억 5,610만 달러로 늘었고, 증가분의 대부분이 신약 Lifyorli 였다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "CORCEPT THERAPEUTICS INC Form 8-K (임원 변동 · Reg FD 공시 · 재무제표·첨부)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526398561/d148256d8k.htm",
-                "date": "2026-09-23",
-                "quote": "form: 8-K, filingDate: 2026-09-23, items: 임원 변동 · Reg FD 공시 · 재무제표·첨부",
+                "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update",
+                "publisher": "SEC EDGAR (8-K 첨부)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
+                "date": "2026-07-29",
+                "quote": "Corcept's second quarter 2026 revenue was $256.1 million, compared to $194.4 million in the second quarter of 2025. Korlym and authorized generic product revenue was $208.6 million, compared to $194.4 million in the prior year period. Lifyorli product revenue was $47.6 million in its first quarter of availability.",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           }
         ],
+        "financialsNarrative": "매출은 신약이 붙으면서 다시 가팔라졌다. 2026년 2분기 매출은 2억 5,610만 달러로 1년 전보다 31.7% 늘었고, 직전 분기 증가율 4.9% 와 크게 대비된다. 이익은 아직 들쭉날쭉하다 — 1분기에는 출시 준비 비용으로 3,180만 달러 순손실이었고, 2분기에는 희석 주당순이익 0.36달러로 돌아섰다. 회사는 2026년 매출 전망을 11억~12억 달러로 올려 잡았다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "f1",
+              "statement": "2026년 2분기 매출은 2억 5,610만 달러로 1년 전 1억 9,440만 달러에서 늘었고, 늘어난 금액의 대부분이 신약 Lifyorli 4,760만 달러다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update",
+                  "publisher": "SEC EDGAR (8-K 첨부)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
+                  "date": "2026-07-29",
+                  "quote": "Corcept's second quarter 2026 revenue was $256.1 million, compared to $194.4 million in the second quarter of 2025. Korlym and authorized generic product revenue was $208.6 million, compared to $194.4 million in the prior year period. Lifyorli product revenue was $47.6 million in its first quarter of availability.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f2",
+              "statement": "신약이 팔리기 전인 2026년 1분기 매출은 1억 6,490만 달러로 1년 전 1억 5,720만 달러에서 거의 늘지 않았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Corcept Therapeutics Announces First Quarter Financial Results and Provides Corporate Update",
+                  "publisher": "SEC EDGAR (8-K 첨부)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026028892/cort043026ex991pressrelease.htm",
+                  "date": "2026-04-30",
+                  "quote": "Revenue of $164.9 million, compared to $157.2 million in first quarter 2025",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "f3",
+              "statement": "2026년 2분기 희석 주당순이익은 0.36달러로 1년 전 0.29달러보다 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update",
+                  "publisher": "SEC EDGAR (8-K 첨부)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
+                  "date": "2026-07-29",
+                  "quote": "Net income per common share (diluted) was $0.36 in the second quarter of 2026, compared to $0.29 in the prior year period.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f4",
+              "statement": "그 직전 분기인 2026년 1분기에는 3,180만 달러 순손실로, 1년 전 2,050만 달러 순이익에서 적자 전환했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Corcept Therapeutics Announces First Quarter Financial Results and Provides Corporate Update",
+                  "publisher": "SEC EDGAR (8-K 첨부)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026028892/cort043026ex991pressrelease.htm",
+                  "date": "2026-04-30",
+                  "quote": "Net loss of $31.8 million, compared to net income of $20.5 million in first quarter 2025",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [
+            {
+              "id": "g1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update",
+                  "publisher": "SEC EDGAR (8-K 첨부)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
+                  "date": "2026-07-29",
+                  "quote": "We have increased our 2026 revenue guidance to $1.1 – $1.2 billion.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "회사는 2026년 매출 전망을 11억~12억 달러로 올려 잡았다.",
+              "stripped": true
+            },
+            {
+              "id": "g2",
+              "statement": "회사는 유럽의약품청이 연내에 난소암 적응증을 승인할 것으로 본다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update",
+                  "publisher": "SEC EDGAR (8-K 첨부)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
+                  "date": "2026-07-29",
+                  "quote": "We anticipate that the European Medicines Agency will approve our Marketing Authorization Application of relacorilant in platinum-resistant ovarian cancer later this year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "unknown",
+            "claims": []
+          }
+        },
+        "newDrivers": [
+          {
+            "what": "Lifyorli(렐라코릴란트) — 백금 저항성 난소암 치료제. 2026년 3월 미국 FDA 승인을 받은 신약이다",
+            "kind": "product",
+            "stage": "매출 발생 중",
+            "since": "2026-03",
+            "basis": [
+              {
+                "id": "d1a",
+                "statement": "3월 FDA 승인 이후 1,300명이 넘는 환자가 Lifyorli 투약을 시작했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update",
+                    "publisher": "SEC EDGAR (8-K 첨부)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
+                    "date": "2026-07-29",
+                    "quote": "Over 1,300 patients have now started treatment with Lifyorli following FDA approval in March 2026.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [
+              {
+                "id": "d1b",
+                "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+                "evidence_level": "no_source",
+                "sources": [
+                  {
+                    "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update",
+                    "publisher": "SEC EDGAR (8-K 첨부)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
+                    "date": "2026-07-29",
+                    "quote": "Corcept's second quarter 2026 revenue was $256.1 million, compared to $194.4 million in the second quarter of 2025. Korlym and authorized generic product revenue was $208.6 million, compared to $194.4 million in the prior year period. Lifyorli product revenue was $47.6 million in its first quarter of availability.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ],
+                "statementOriginal": "판매 첫 분기 매출이 4,760만 달러로, 같은 분기 전체 매출 2억 5,610만 달러의 약 5분의 1을 차지했다.",
+                "stripped": true
+              }
+            ],
+            "profitImpact": [
+              {
+                "id": "d1c",
+                "statement": "출시 비용 때문에 2026년 2분기 영업비용이 2억 1,480만 달러로 1년 전 1억 6,780만 달러보다 늘었다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update",
+                    "publisher": "SEC EDGAR (8-K 첨부)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
+                    "date": "2026-07-29",
+                    "quote": "Second quarter 2026 operating expenses were $214.8 million, compared to $167.8 million in the same period in 2025, due to increased spending to launch Lifyorli and investments in our Cushing's syndrome business.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "expectedGrowth": [
+              {
+                "id": "d1d",
+                "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+                "evidence_level": "no_source",
+                "sources": [
+                  {
+                    "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update",
+                    "publisher": "SEC EDGAR (8-K 첨부)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
+                    "date": "2026-07-29",
+                    "quote": "We have increased our 2026 revenue guidance to $1.1 – $1.2 billion.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ],
+                "statementOriginal": "회사가 내놓은 2026년 매출 전망은 11억~12억 달러로, 신약 출시 뒤 상향된 수치다.",
+                "stripped": true
+              }
+            ],
+            "counter": [
+              {
+                "id": "d1e",
+                "statement": "출시 비용이 매출보다 앞서 나가면 이익이 먼저 꺾인다 — 2026년 1분기 영업비용은 2억 1,450만 달러로 1년 전 1억 5,380만 달러에서 급증했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Corcept Therapeutics Announces First Quarter Financial Results and Provides Corporate Update",
+                    "publisher": "SEC EDGAR (8-K 첨부)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026028892/cort043026ex991pressrelease.htm",
+                    "date": "2026-04-30",
+                    "quote": "First quarter 2026 operating expenses were $214.5 million, compared to $153.8 million in the same period last year, due to increased spending to prepare for the launch of Lifyorli to treat patients with platinum-resistant ovarian cancer and to invest in growth initiatives in our Cushing's syndrome business.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "what": "유럽 시장 진입 — 유럽의약품청 자문기구가 9월 18일 Lifyorli 승인을 권고했다",
+            "kind": "product",
+            "stage": "발표만",
+            "since": "2026-09-18",
+            "basis": [
+              {
+                "id": "d2a",
+                "statement": "자문기구가 유럽위원회에 렐라코릴란트 승인을 권고했고, 최종 결정은 4분기에 나온다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Corcept Announces CHMP Opinion Recommending EU Marketing Authorization for Lifyorli (relacorilant)",
+                    "publisher": "Finviz",
+                    "url": "https://finviz.com/news/393481/corcept-announces-chmp-opinion-recommending-eu-marketing-authorization-for-lifyorli-relacorilant",
+                    "date": "2026-09-18",
+                    "quote": "The EC will review the CHMP's opinion and issue a final decision regarding approval in the fourth quarter of 2026",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [],
+            "profitImpact": [],
+            "expectedGrowth": [],
+            "counter": []
+          },
+          {
+            "what": "내분비사업 대표 교체 — Sean Maduck 사임, Justin Gunn 승계",
+            "kind": "management",
+            "stage": "발표만",
+            "since": "2026-09-23",
+            "basis": [
+              {
+                "id": "d3a",
+                "statement": "기존 사업의 수장이 10월 1일자로 사임하고 후임이 정해졌다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Corcept Therapeutics Form 8-K (임원 변동)",
+                    "publisher": "SEC EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526398561/d148256d8k.htm",
+                    "date": "2026-09-23",
+                    "quote": "Sean Maduck, the President of Corcept Endocrinology, notified the Board of Directors of Corcept Therapeutics Incorporated (the \"Company\") of his decision to resign effective as of October 1, 2026.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [],
+            "profitImpact": [],
+            "expectedGrowth": [],
+            "counter": []
+          }
+        ],
+        "nNarrative": "새로운 것은 신약 Lifyorli 다. 2026년 3월 미국 승인을 받고 바로 팔리기 시작해, 판매 첫 분기인 2026년 2분기에 4,760만 달러를 올렸다. 같은 분기 영업비용은 2억 1,480만 달러로 1년 전 1억 6,780만 달러보다 늘어, 매출만큼 이익이 바로 따라오지는 않았다. 회사는 이 신약을 반영해 2026년 매출 전망을 11억~12억 달러로 올렸다. 유럽에서는 9월 18일 자문기구 권고가 나왔지만 유럽위원회 최종 결정은 4분기로 아직 남아 있다. 다음 분기에 신약 매출이 4,760만 달러보다 늘고 영업비용 증가가 멈추는지가 이 기대의 진위를 가른다.",
+        "nVerdict": "충족",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "2026년 2분기 영업이익 전년비 +54.8%, 매출 +31.7%, 순이익 +22.3% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 4개 분기 중 3개가 이익 전년비 감소 — 2026년 1분기 적자 전환, 2025년 4분기 -82.2%, 2025년 3분기 -78.1% (순이익 기준, 주식 수 변동 미반영). 3년 추세·자기자본이익률은 확인 불가"
+          },
+          {
+            "item": "N 새로운 것",
+            "status": "충족",
+            "evidence": "2026년 3월 승인된 신약 Lifyorli 가 판매 첫 분기에 4,760만 달러 매출, 연간 전망 11억~12억 달러로 상향. 1년 최고가의 95.89% 자리(참고)"
+          },
+          {
+            "item": "S 수급",
+            "status": "충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 0.36배로 줄었고, 최근 10거래일 중 가장 많이 오른 10월 5일에 거래량 100만 4,800주로 가장 컸다. 유통주식 수는 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "충족",
+            "evidence": "지수 10일선이 20일선 위, 둘 다 상승 중(17일째). 다만 빚내서 산 주식이 1년 전보다 +37.2% 로 주의선 +30% 초과"
+          }
+        ],
         "risks": [
           {
             "id": "r1",
-            "statement": "2026년 2월 연방순회항소법원이 Teva 복제약은 Korlym 특허를 침해하지 않는다고 판결했다. 기존 주력 제품이 복제약 가격 경쟁에 그대로 노출된다.",
+            "statement": "법원이 Teva 의 Korlym 제네릭이 코셉트 특허를 침해하지 않는다고 판단해, 매출의 8할을 차지하는 기존 주력 제품이 복제약 경쟁에 노출됐다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Teva Keeps Win Over Corcept Korlym Patent Lawsuit on Appeal",
-                "publisher": "Bloomberg Government",
-                "url": "https://news.bgov.com/antitrust/teva-keeps-win-over-corcept-korlym-patent-lawsuit-on-appeal",
+                "title": "Corcept Therapeutics Form 8-K 첨부 보도자료 (Federal Circuit 판결)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526059551/d25779dex991.htm",
                 "date": "2026-02-19",
-                "quote": "Teva Pharmaceutical Industries Ltd.'s generic version of Corcept Therapeutics Inc.'s Korlym doesn't infringe two patents on dosing methods for treating Cushing's syndrome, a federal appeals court ruled.",
-                "verified": "unverified",
-                "httpStatus": 403
+                "quote": "The United States Court of Appeals for the Federal Circuit has found that Teva Pharmaceuticals' marketing of a generic version of Korlym® does not infringe two of Corcept's patents",
+                "verified": "ok",
+                "httpStatus": 200
               }
             ]
           },
           {
             "id": "r2",
-            "statement": "12월 17일 FDA 허가 결정 하나에 쿠싱증후군 신약의 운명이 걸려 있다. 결정이 미뤄지거나 거절되면 성장 전망이 바뀐다.",
+            "statement": "신약 출시 비용이 매출보다 먼저 늘어 2026년 1분기에 3,180만 달러 순손실이 났다 — 이익이 분기마다 흔들린다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update (8-K Ex-99.1)",
-                "publisher": "SEC EDGAR / Corcept Therapeutics",
-                "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
-                "date": "2026-07-29",
-                "quote": "We resubmitted our New Drug Application (NDA) for relacorilant in Cushing's syndrome in June. We expect a decision on our NDA by December 17, 2026.",
+                "title": "Corcept Therapeutics Announces First Quarter Financial Results and Provides Corporate Update",
+                "publisher": "SEC EDGAR (8-K 첨부)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026028892/cort043026ex991pressrelease.htm",
+                "date": "2026-04-30",
+                "quote": "Net loss of $31.8 million, compared to net income of $20.5 million in first quarter 2025",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -386,15 +487,31 @@ window.TEAM6_DATA = {
           },
           {
             "id": "r3",
-            "statement": "신약 출시 비용이 급증해 2026년 3월 분기에 적자를 냈다. 비용이 매출보다 빨리 늘면 이익이 다시 흔들릴 수 있다.",
+            "statement": "매출의 대부분을 책임지는 내분비사업 대표가 10월 1일자로 물러났다 — 기존 제품 영업의 연속성이 시험대에 오른다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Corcept Therapeutics Announces First Quarter Financial Results and Provides Corporate Update (8-K Ex-99.1)",
-                "publisher": "SEC EDGAR / Corcept Therapeutics",
-                "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026028892/cort043026ex991pressrelease.htm",
-                "date": "2026-04-30",
-                "quote": "First quarter 2026 operating expenses were $214.5 million, compared to $153.8 million in the same period last year, due to increased spending to prepare for the launch of Lifyorli to treat patients with platinum-resistant ovarian cancer and to invest in growth initiatives in our Cushing's syndrome business.",
+                "title": "Corcept Therapeutics Form 8-K (임원 변동)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526398561/d148256d8k.htm",
+                "date": "2026-09-23",
+                "quote": "Sean Maduck, the President of Corcept Endocrinology, notified the Board of Directors of Corcept Therapeutics Incorporated (the \"Company\") of his decision to resign effective as of October 1, 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r4",
+            "statement": "유럽 매출은 아직 없고, 유럽위원회가 4분기에 승인하지 않으면 유럽 기대분이 통째로 미뤄진다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Corcept Announces CHMP Opinion Recommending EU Marketing Authorization for Lifyorli (relacorilant)",
+                "publisher": "Finviz",
+                "url": "https://finviz.com/news/393481/corcept-announces-chmp-opinion-recommending-eu-marketing-authorization-for-lifyorli-relacorilant",
+                "date": "2026-09-18",
+                "quote": "The EC will review the CHMP's opinion and issue a final decision regarding approval in the fourth quarter of 2026",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -402,29 +519,103 @@ window.TEAM6_DATA = {
           }
         ],
         "structuralRisks": [
-          "매출이 코르티솔 조절제라는 한 계열의 약에서만 나온다.",
-          "Korlym 복제약이 이미 시장에 나와 있어 가격과 점유율 압박이 상시적이다.",
-          "새 매출원이 미국·유럽 규제기관의 승인 일정에 좌우된다."
+          "매출이 코티솔 조절제라는 한 계열의 약 두 개에서만 나온다",
+          "주력 제품이 복제약 진입에 열려 있어 가격·점유율이 법원 판단에 좌우된다",
+          "신약 매출이 규제기관 승인 일정에 묶여 있어 회사가 시점을 통제하지 못한다"
         ],
-        "ticker": "CORT",
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "횡보 전 상승 131.5%, 최근 3개월 수익률 33.9%"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "40거래일, 8주 — 2~8주 범위의 끝"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "충족",
+            "evidence": "저점 상승 2회, 움직임 폭이 직전의 0.88배로 좁아짐"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "선행 상승 131.5% 의 절반에 한참 못 미침"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "현재가 121.19 > 20일선 116.23 > 50일선 115.31, 150일선 80.94"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 0.36배 — 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "아직 피벗 아래라 돌파봉이 없다. 최근 거래량은 20일 평균의 0.29배 — 밤에 2배가 실리는지 본다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "충족",
+            "evidence": "피벗 126.38 대비 -4.11%, 하루 평균 변동폭 기준 0.88배 아래"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절까지 4.5%, 하루 평균 변동폭 4.69% 안"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 118.24 위로 0.52배 — 2배 이하"
+          },
+          {
+            "item": "시장",
+            "status": "충족",
+            "evidence": "지수 10일선이 20일선 위, 둘 다 상승 중(17일째)"
+          }
+        ],
+        "chartObservation": {
+          "base": "8주(40거래일)째 좁은 구간에서 움직이고 있다. 구간 고점 대비 저점 깊이는 14.3% 로, 하루 평균 변동폭 4.69% 의 약 3배다. 저점이 두 번 높아졌고 움직임 폭은 직전 구간의 0.88배로 좁아졌다.",
+          "volume": "횡보가 길어지면서 거래량이 줄었다 — 최근 5일 거래량이 20일 평균의 0.36배다. 최근 10거래일 중 가장 많이 오른 10월 5일(종가 122.03)에 거래량 100만 4,800주로 가장 컸다. 그 뒤 10월 8일 49만 6,600주, 10월 12일 49만 7,700주로 다시 줄었다.",
+          "position": "현재가 121.19 는 넘으면 사는 선 126.38 보다 4.11% 아래이고, 하루 평균 변동폭 기준 0.88배 거리다. 예비 손절 120.70 바로 위라 손절까지 폭은 4.5% 로 하루 평균 변동폭 4.69% 안이다. 10일선 118.24 위로는 0.52배만 떠 있다.",
+          "maStack": "현재가 121.19 가 20일선 116.23, 50일선 115.31, 150일선 80.94 를 모두 위에 두고 있다. 20일선 기울기는 +1.35% 로 오르는 중이다.",
+          "note": "그림에서도 8주 횡보 구간과 줄어드는 거래량 막대가 보여 숫자와 일치한다. 다만 9월 하순에 하루만 거래량 막대가 크게 솟은 날이 있다."
+        },
+        "entryChecklist": [
+          "넘으면 사는 선 126.38 을 거래량 20일 평균 2배 이상으로 종가 돌파하는지",
+          "그 앞에 놓인 저항 122.21 을 먼저 넘고 그 위에서 종가가 유지되는지",
+          "유럽위원회가 4분기 안에 Lifyorli 를 실제로 승인하는지 — 자문기구 권고는 승인이 아니다",
+          "다음 분기 실적에서 Lifyorli 매출이 첫 분기 4,760만 달러보다 늘고 영업비용 증가가 멈추는지",
+          "예비 손절 120.70 을 종가로 깨는지 — 깨면 이 횡보 그림은 틀린 것이다"
+        ],
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 다만 2분기 실적은 7월 29일, 1분기는 4월 30일에 공시돼 3분기 발표가 10월 말에서 11월 초에 들어올 수 있다.",
+        "confidence": "high",
         "factcheck": {
           "verdict": "partial",
           "removed": [
-            "n2",
-            "pro1",
-            "pro2"
+            "n4"
           ],
           "reasons": [
-            "n2: Quote says 'relacorilant in platinum-resistant ovarian cancer' but relacorilant is for Cushing's syndrome per all other sources; Lifyorli is for ovarian cancer",
-            "pro1: Quote provides only EPS ($0.36), not operating income ($41.3M); operating income figure unverified",
-            "pro2: Quote discusses operating expenses increase but doesn't verify the specific operating loss amount of $49.6M"
-          ],
-          "financialsNarrativeFixed": true
+            "n4: Justin Gunn 후임 지정이 제공된 quote에 없음 (only Maduck resignation confirmed)"
+          ]
         },
-        "financialsNarrativeOriginal": "매출은 늘고 있지만 이익은 분기마다 들쭉날쭉하다. 2026년 6월 분기 매출은 2.561억 달러로 1년 전 1.944억 달러보다 32% 늘었다. 직전 3월 분기에는 신약 출시 준비 비용이 늘어 영업손실 4,960만 달러를 냈다가, 6월 분기에 영업이익 4,130만 달러로 돌아섰다. 회사는 올해 매출 전망을 11억~12억 달러로 올려 잡았다.",
-        "researchedOn": "2026-10-10",
-        "session": "2026-10-09",
-        "carried": true
+        "consensus": {
+          "saleCy": 50.53,
+          "saleNy": 48.75,
+          "epsCy": 162.2,
+          "epsNy": 104.77,
+          "cyTrend": 286.23,
+          "nyTrend": 37.29
+        },
+        "researchedOn": "2026-10-13",
+        "session": "2026-10-12",
+        "carried": false
       }
     },
     {
@@ -484,194 +675,180 @@ window.TEAM6_DATA = {
       "score": 56.9,
       "deep": {
         "status": "done",
-        "ticker": "DELL",
-        "company": "델 테크놀로지스는 PC·서버·스토리지 같은 IT 하드웨어를 만들어 기업과 개인에게 파는 회사다. 최근 성장은 거의 전부 AI 서버에서 나온다. 클라우드 업체·대기업·각국 정부가 AI 계산용 서버를 대량 주문하면서 매출 구조가 PC 중심에서 AI 인프라 중심으로 바뀌는 중이다.",
-        "lead": "AI 서버 주문이 폭발하면서 실적과 증권사 전망이 같은 방향으로 올라가는 국면이다. 가장 강한 근거는 분기 매출 470억 달러(1년 전보다 58% 증가)와 950억 달러짜리 AI 서버 수주잔고다. 가장 큰 걱정은 메모리 값 급등이 마진을 깎을 수 있다는 점과, 경쟁사보다 비싼 값에 거래된다는 점이다. 수주잔고가 실제 매출로 바뀌는 속도가 느려지거나 메모리 비용이 이익률을 끌어내리면 이 그림은 깨진다.",
-        "newsNarrative": "9월 11일 RBC가 처음으로 델을 분석 대상에 올리며 목표가 640달러를 제시하자 주가가 하루 12% 뛰었다. 근거는 9월 1일 실적에서 확인된 950억 달러 AI 서버 수주잔고였다. 회사는 같은 날 올해 매출 전망을 1,670억 달러에서 1,920억 달러로 250억 달러 올렸다. 시가총액 순위가 맥도날드를 넘어설 만큼 재평가가 빠르게 진행됐다.",
-        "recentNews": [
+        "canslim": [
           {
-            "id": "n1",
-            "statement": "AI 서버 수주잔고가 근거였다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Dell Technologies Stock Soars as RBC Initiates Bullish Outperform Rating",
-                "publisher": "TIKR",
-                "url": "https://www.tikr.com/blog/dell-technologies-stock-soars-rbc-outperform-rating",
-                "date": "2026-09-11",
-                "quote": "RBC Capital Markets started covering the stock for the first time, giving it an outperform rating and a $640 price target.",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Dell stock jumps on RBC initiation, now up nearly 350% in 2026",
-                "publisher": "CNBC",
-                "url": "https://www.cnbc.com/2026/09/11/dell-stock-rbc-initiation.html",
-                "date": "2026-09-11",
-                "quote": "Dell stock jumps on RBC initiation, now up nearly 350% in 2026",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ],
-            "statementOriginal": "RBC가 9월 11일 델 커버리지를 목표가 640달러로 개시했고 당일 주가가 12% 올랐다. AI 서버 수주잔고가 근거였다."
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "최근 분기 매출 +57.7%, 영업이익 +203.7%, 순이익 +255.1% (순이익 기준, 주식 수 변동 미반영)"
           },
           {
-            "id": "n2",
-            "statement": "9월 1일 발표한 분기 매출이 470억 달러로 1년 전보다 58% 늘며 사상 최대였다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Dell Technologies Q2 Revenue Hits Record $47 Billion As AI Server Backlog Reaches $95 Billion",
-                "publisher": "Pulse 2.0",
-                "url": "https://pulse2.com/dell-technologies-q2-revenue-hits-record-47-billion-as-ai-server-backlog-reaches-95-billion-and-fy27-outlook-rises-to-192-billion/",
-                "date": "2026-09-01",
-                "quote": "Second-quarter revenue reached a record $47.0 billion, increasing 58% year over year",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
+            "item": "A 연간 이익 성장",
+            "status": "충족",
+            "evidence": "최근 4분기 순이익이 전년비 +255.1%·+256.3%·+47.4%·+31.7%로 모두 플러스. 3년 추세와 ROE는 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
           },
           {
-            "id": "n3",
-            "statement": "같은 분기에 AI 서버 주문 609억 달러를 받았고, 아직 매출로 잡히지 않은 수주잔고가 950억 달러까지 쌓였다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Dell Technologies Q2 Revenue Hits Record $47 Billion As AI Server Backlog Reaches $95 Billion",
-                "publisher": "Pulse 2.0",
-                "url": "https://pulse2.com/dell-technologies-q2-revenue-hits-record-47-billion-as-ai-server-backlog-reaches-95-billion-and-fy27-outlook-rises-to-192-billion/",
-                "date": "2026-09-01",
-                "quote": "Dell booked a record $60.9 billion of AI server orders during the quarter",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "델 테크놀로지스 (NYS:DELL) 온프레미스 AI 의 관문",
-                "publisher": "유진투자증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxeccx.pdf",
-                "date": "2026-09-07",
-                "quote": "AI 서버 주문은 609억달러로 전분기 대비 150% 증가하며 역대 최고치를 달성했고, 분기말 AI 서버 백로그는 950억 달러로 전년비 7배 이상 증가",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
+            "item": "N 새로운 것",
+            "status": "충족",
+            "evidence": "AI Factory 누적 고객 6,500개사 돌파, AI 서버 매출 164억달러(+100%), 수주잔고 950억달러"
           },
           {
-            "id": "n4",
-            "statement": "회사가 올해 매출 전망을 1,670억 달러에서 1,920억 달러로 250억 달러 올렸다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Dell Technologies Q2 Revenue Hits Record $47 Billion As AI Server Backlog Reaches $95 Billion",
-                "publisher": "Pulse 2.0",
-                "url": "https://pulse2.com/dell-technologies-q2-revenue-hits-record-47-billion-as-ai-server-backlog-reaches-95-billion-and-fy27-outlook-rises-to-192-billion/",
-                "date": "2026-09-01",
-                "quote": "The company raised full-year revenue guidance by $25 billion, from $167 billion to $192 billion",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
+            "item": "S 수급",
+            "status": "충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 0.69배로 말랐고 거래대금도 20일 평균의 0.74배. 유통주식 수는 확인 불가"
           },
           {
-            "id": "n5",
-            "statement": "시가총액 순위가 올라 맥도날드를 추월했다. 재평가 속도를 보여 주는 지표다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Dell Technologies Moves Up In Market Cap Rank, Passing McDonald's",
-                "publisher": "BNK Invest",
-                "url": "https://www.nasdaq.com/articles/dell-technologies-moves-market-cap-rank-passing-mcdonalds",
-                "date": "2026-10-01",
-                "quote": "Dell Technologies Moves Up In Market Cap Rank, Passing McDonald's",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 백분위 6개월 99.4 · 3개월 96.7 · 1개월 85.1"
           },
           {
-            "id": "n6",
-            "statement": "올해 분기 배당을 20% 올렸다. 번 돈을 주주에게 돌려줄 여력이 있다는 뜻이다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Dell Raised Its Quarterly Dividend by 20% This Year After Only Initiating Its Dividend Program in 2023. Can Passive Income Investors Trust the Stock?",
-                "publisher": "The Motley Fool",
-                "url": "https://www.nasdaq.com/articles/dell-raised-its-quarterly-dividend-20-year-after-only-initiating-its-dividend-program-2023",
-                "date": "2026-10-03",
-                "quote": "Dell Raised Its Quarterly Dividend by 20% This Year After Only Initiating Its Dividend Program in 2023. Can Passive Income Investors Trust the Stock?",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "충족",
+            "evidence": "시장 신호 초록(10일선이 20일선 위, 둘 다 상승, 17일째). 단 마진부채가 1년 전보다 +37.2%로 주의선 +30% 초과"
           }
         ],
-        "financialsNarrative": "매출과 이익이 함께, 그것도 점점 빠르게 늘고 있다. 7월 말 끝난 분기 매출은 469.7억 달러로 1년 전보다 57.7% 늘었고 영업이익은 53.9억 달러로 203.7% 증가했다. 영업이익률도 11.5%로 올라 매출만 늘고 이익은 안 남는 구조가 아니다. 회사가 내놓은 다음 분기 전망은 매출 약 490억 달러로, 증가 속도가 아직 꺾이지 않았다.",
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 65.9%, 3개월 수익률 45.8%"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 21거래일 = 4.2주 (2~8주 범위 안)"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회. 변동폭은 0.81배로 좁아졌으나 두 조건 중 하나만 성립"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "깊이 13.1%, 하루 평균 변동폭 4.39%의 약 3배. 선행 상승 65.9%의 절반보다 얕다"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "현재가 576.76 > 20일선 560.2 > 50일선 509.08"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 0.69배 (0.7 이하)"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "아직 피벗 595.51 아래. 밤에 20일 평균 2배가 실리는지 본다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "충족",
+            "evidence": "피벗까지 -3.15%, 하루 평균 변동폭의 0.72배 아래"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 4.25% ≤ 하루 평균 변동폭 4.39%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 562.44 위로 0.57 하루치 (2 이하)"
+          },
+          {
+            "item": "시장",
+            "status": "충족",
+            "evidence": "시장 신호 초록 — 10일선이 20일선 위, 둘 다 상승"
+          }
+        ],
+        "chartObservation": {
+          "base": "9월 18일 고점 이후 21거래일(4.2주)째 가로로 눌려 있다. 베이스 고점 대비 저점 깊이는 13.1%로 하루 평균 변동폭 4.39%의 약 3배다. 다만 저점이 높아진 횟수는 0회이고 베이스 저점은 517.52달러다.",
+          "volume": "횡보 구간에서 거래량이 줄었다. 최근 5일 거래량은 20일 평균의 0.69배, 마지막 거래일도 0.72배에 그쳤다. 최근 10봉 안에서 거래량이 눈에 띄게 늘어난 날은 없다.",
+          "position": "현재가 576.76달러는 넘어야 할 선 595.51달러보다 3.15% 아래다. 하루 평균 변동폭으로 재면 0.72배 거리라 하루치 움직임 안쪽이다. 예비 손절 570.2달러는 피벗에서 4.25% 아래이고, 10일선 562.44달러보다는 0.57 하루치 위에 있다.",
+          "maStack": "현재가가 20일선 560.2달러와 50일선 509.08달러 위에 있고, 50일선과는 13.29% 떨어져 있다. 20일선 기울기는 +1.94%이고 150일선 367.39달러는 한참 아래에 있다.",
+          "note": "그림에서도 9월 중순 고점 아래 가로 구간과 그 사이 거래량 막대가 줄어드는 모습이 보여 숫자와 일치한다."
+        },
+        "company": "델은 서버·스토리지·PC를 모두 만드는 미국 IT 인프라 회사다. 최근 성장은 엔비디아 GPU를 얹은 AI 서버와 노후 서버 교체 수요가 이끌고 있다.",
+        "confidence": "high",
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 직전 실적 발표는 9월 1일이었고, 그 다음 날 주가가 15.8% 움직였을 만큼 발표 반응이 큰 종목이다.",
+        "entryChecklist": [
+          "피벗 595.51달러를 거래량 20일 평균 2배 이상으로 종가 돌파하는지",
+          "돌파 전까지 저점이 베이스 저점 517.52달러 위에서 높아지는지 — 지금은 저점 상승 0회다",
+          "예비 손절 570.2달러를 종가로 깨지 않는지",
+          "다음 분기 실적에서 인프라 부문 영업이익률이 회사가 제시한 13%대 중반을 지키는지",
+          "메모리 가격 상승분을 판가로 넘겨 매출총이익률 21.1% 수준이 유지되는지"
+        ],
         "financials": {
           "revenueTrend": [
             {
-              "id": "f1",
-              "statement": "7월 말 끝난 분기 매출이 469.7억 달러로 1년 전보다 57.7% 늘었다.",
+              "id": "r1",
+              "statement": "2분기 매출은 470억달러로 1년 전보다 58% 늘었고, 영업이익률은 12.6%였다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "Dell Technologies 10-Q (SEC EDGAR 분기 실적)",
-                  "publisher": "SEC EDGAR",
-                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001571996&type=10-Q",
-                  "date": "2026-07-31",
-                  "quote": "\"periodEnd\": \"2026-07-31\", \"revenue\": 46971000000, \"yoy\": { \"revenue\": 57.7 }",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ],
-              "statementOriginal": "7월 말 끝난 분기 매출이 469.7억 달러로 1년 전보다 57.7% 늘었다. 직전 분기는 438.4억 달러로 87.5% 증가였다."
-            },
-            {
-              "id": "f2",
-              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [
-                {
-                  "title": "델 테크놀로지스 (NYS:DELL) 온프레미스 AI 의 관문",
-                  "publisher": "유진투자증권",
-                  "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxeccx.pdf",
+                  "title": "[델 테크놀로지스 (NYS:DELL)] 온프레미스 AI 의 관문",
+                  "publisher": "유진투자증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxecei.pdf",
                   "date": "2026-09-07",
-                  "quote": "AI 서버 매출은 164억달러(+100%yoy)를 기록하며 탑라인 성장을 견인",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ],
-              "statementOriginal": "AI 서버 매출이 164억 달러로 1년 전의 2배가 되며 전체 매출 증가를 이끌었다.",
-              "stripped": true
-            }
-          ],
-          "profitTrend": [
-            {
-              "id": "f3",
-              "statement": "같은 분기 영업이익이 53.9억 달러로 1년 전보다 203.7% 늘었고 영업이익률은 11.5%였다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Dell Technologies 10-Q (SEC EDGAR 분기 실적)",
-                  "publisher": "SEC EDGAR",
-                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001571996&type=10-Q",
-                  "date": "2026-07-31",
-                  "quote": "\"profit\": 5385000000, \"margin\": 11.5, \"yoy\": { \"profit\": 203.7, \"netIncome\": 255.1 }",
+                  "quote": "델의 2분기 매출은 470억달러(+58%yoy), GPM 21.1%, OPM 12.6%, EPS 7.04로 컨센을 상회.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
               ]
             },
             {
-              "id": "f4",
-              "statement": "매출이 늘며 고정비가 분산되고 스토리지 제품 구성이 좋아져 수익성이 올라갔다.",
+              "id": "r2",
+              "statement": "직전 1분기 매출도 $43.8B로 1년 전보다 88% 늘어, 두 분기 연속 큰 폭 성장이다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "델 테크놀로지스 (NYS:DELL) 온프레미스 AI 의 관문",
-                  "publisher": "유진투자증권",
-                  "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxeccx.pdf",
-                  "date": "2026-09-07",
-                  "quote": "AI 서버발 탑라인 성장으로 인한 영업 레버리지, 스토리지 믹스 개선으로 수익성 개선이 두드러짐",
+                  "title": "[델 테크놀로지스 (NYS:DELL)] 전통 서버의 부활과 Agentic AI가 이끄는 멀티플 리레이팅",
+                  "publisher": "키움증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqlciziegxilkkggcgxecei.pdf",
+                  "date": "2026-06-02",
+                  "quote": "매출 $43.8B(+88%), EPS $4.86(+214%)로 컨센서스 60% 이상 상회",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "p1",
+              "statement": "분기 영업이익이 1년 전보다 203.7% 늘어 매출 증가율을 크게 앞질렀다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                  "publisher": "키움증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                  "date": "2026-09-04",
+                  "quote": "영업이익 1,773 3,656 5,385 203.7 47.3",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "p2",
+              "statement": "값이 비싼 자체 스토리지 비중이 커지며 인프라 부문 영업이익률이 15.0%로 1년 전보다 620bp 올랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                  "publisher": "키움증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                  "date": "2026-09-04",
+                  "quote": "2Q ISG 영업이익률(15.0%, +620bp YoY) 개선은 외형 확대에 따른 스케일 효과와 고마진 스토리지 믹스 개선이 견인했다.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -681,15 +858,15 @@ window.TEAM6_DATA = {
           "guidance": [
             {
               "id": "g1",
-              "statement": "회사는 다음 분기 매출을 약 490억 달러로 제시했다.",
+              "statement": "회사는 연간 매출 전망을 1,920억달러, 주당순이익 전망을 25.5달러로 올려 잡았다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "Dell Technologies Q2 Revenue Hits Record $47 Billion As AI Server Backlog Reaches $95 Billion",
-                  "publisher": "Pulse 2.0",
-                  "url": "https://pulse2.com/dell-technologies-q2-revenue-hits-record-47-billion-as-ai-server-backlog-reaches-95-billion-and-fy27-outlook-rises-to-192-billion/",
-                  "date": "2026-09-01",
-                  "quote": "For the fiscal third quarter, Dell expects revenue of approximately $49 billion",
+                  "title": "[델 테크놀로지스 (NYS:DELL)] 온프레미스 AI 의 관문",
+                  "publisher": "유진투자증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxecei.pdf",
+                  "date": "2026-09-07",
+                  "quote": "3분기 가이던스도 매출 490억달러(+81%yoy), EPS 6.5달러를 제시하며 컨센을 상회했으며, F27 연간 가이던스는 매출 1,920억달러, EPS 25.5달러로 상향 조정",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -697,15 +874,15 @@ window.TEAM6_DATA = {
             },
             {
               "id": "g2",
-              "statement": "연간 전망도 매출 1,920억 달러, 주당순이익 25.5달러로 올려 잡아 증권사 예상치를 넘었다.",
+              "statement": "같은 발표에서 연간 매출 가이던스를 $167B에서 $192B로, 주당순이익을 $17.90에서 $25.50으로 올렸다.",
               "evidence_level": "sourced",
               "sources": [
                 {
-                  "title": "델 테크놀로지스 (NYS:DELL) 온프레미스 AI 의 관문",
-                  "publisher": "유진투자증권",
-                  "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxeccx.pdf",
-                  "date": "2026-09-07",
-                  "quote": "3분기 가이던스도 매출 490억달러(+81%yoy), EPS 6.5달러를 제시하며 컨센을 상회했으며, F27 연간 가이던스는 매출 1,920억달러, EPS 25.5달러로 상향 조정",
+                  "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                  "publisher": "키움증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                  "date": "2026-09-04",
+                  "quote": "FY27 매출액 가이던스를 $167B 에서 $192B(+69% YoY)로, Non-GAAP EPS 를 $17.90 에서 $25.50(+148% YoY)으로, AI 서버 매출을 $60B 에서 $74B(FY26 의 3 배)로 대폭 상향했다.",
                   "verified": "ok",
                   "httpStatus": 200
                 }
@@ -717,31 +894,15 @@ window.TEAM6_DATA = {
             "claims": [
               {
                 "id": "e1",
-                "statement": "RBC가 9월 11일 목표가 640달러로 커버리지를 시작했다. 당시 주가보다 높은 수준이다.",
+                "statement": "증권사들의 올해 주당순이익 예상치가 $14.15에서 $25.88로, 내년치가 $15.31에서 $28.89로 올라갔다.",
                 "evidence_level": "sourced",
                 "sources": [
                   {
-                    "title": "Dell Technologies Stock Soars as RBC Initiates Bullish Outperform Rating",
-                    "publisher": "TIKR",
-                    "url": "https://www.tikr.com/blog/dell-technologies-stock-soars-rbc-outperform-rating",
-                    "date": "2026-09-11",
-                    "quote": "RBC Capital Markets started covering the stock for the first time, giving it an outperform rating and a $640 price target.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              },
-              {
-                "id": "e2",
-                "statement": "국내 증권사도 연간 전망 상향과 이익 급증을 근거로 재평가가 이어진다고 봤다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "델 테크놀로지스 (NYS:DELL) 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
-                    "publisher": "키움증권",
-                    "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxeccx.pdf",
+                    "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
                     "date": "2026-09-04",
-                    "quote": "연간 가이던스 상향 및 이익 급증으로 주가 급등에도 밸류에이션 매력 지속",
+                    "quote": "5월 말 이후 주가가 횡보하는 동안 FY27E 컨센서스 EPS가 $14.15에서 $25.88로, FY28E가 $15.31에서 $28.89로 상향된 데다, 발표 후에도 주가 상승분만큼 이익 추정치가 따라 올라왔기 때문이다.",
                     "verified": "ok",
                     "httpStatus": 200
                   }
@@ -750,103 +911,495 @@ window.TEAM6_DATA = {
             ]
           }
         },
-        "canslim": [
+        "financialsNarrative": "매출과 이익이 함께 늘고 있고, 이익이 훨씬 빨리 는다. 2분기 매출은 470억달러로 1년 전보다 58% 늘었고 영업이익은 203.7% 늘었다. 마진이 좋아진 건 값이 비싼 자체 스토리지 비중이 커져 인프라 부문 영업이익률이 15.0%까지 올라온 덕이다. 회사는 연간 매출 전망을 1,920억달러, 주당순이익 전망을 25.5달러로 올려 잡았다.",
+        "lead": "AI 서버로 번 돈이 실제 이익으로 바뀌는 게 숫자로 확인된 회사다. 2분기 매출이 1년 전보다 58% 늘었고 AI 서버 수주잔고가 950억달러까지 쌓여 신규 수주 없이도 다음 회계연도 상반기까지 실적이 보인다. 가장 큰 걱정은 메모리값이다 — DRAM·NAND 가격이 오르면 원가가 먼저 오르고, 판가 전가가 늦으면 이익률이 깎인다. 다음 분기 실적에서 인프라 부문 영업이익률이 회사가 말한 13%대 중반을 지키는지가 이 그림의 진위를 가른다.",
+        "nNarrative": "새로운 것은 AI 서버 자체가 아니라, 기업이 자기 전산실에 AI를 들여놓게 만든 묶음 상품이다. 델의 AI Factory는 서버·스토리지·네트워크·설치·금융까지 한 번에 파는 턴키 패키지로, 누적 고객이 2분기 기준 6,500개사를 넘었다. 이 흐름에서 AI 서버 매출은 164억달러로 1년 전보다 100% 늘었고 분기 신규 주문 609억달러, 수주잔고 950억달러를 쌓았다. 여기에 노후 서버 교체와 에이전틱 AI용 CPU 수요가 겹쳐 범용 서버 매출도 105억달러로 122% 늘며 AI 서버보다 빨리 컸다. 이익 쪽에서는 마진이 낮은 AI 서버를 자체 설계 스토리지가 받쳐 인프라 부문 영업이익률이 15.0%까지 올라왔다. 회사는 AI 서버 매출 가이던스를 전년의 3배로 올렸지만 다음 분기 인프라 마진은 13%대 중반으로 낮춰 제시해, 2분기 마진이 유지될지는 아직 확인되지 않았다.",
+        "nVerdict": "충족",
+        "newDrivers": [
           {
-            "item": "C 최근 분기 이익",
-            "status": "충족",
-            "evidence": "7월 말 분기 영업이익 53.9억 달러로 1년 전보다 203.7% 증가, 매출도 57.7% 증가 (순이익 기준, 주식 수 변동 미반영)"
+            "what": "AI Factory — 서버·스토리지·네트워크·설치·금융을 한 번에 파는 기업용 AI 턴키 패키지",
+            "kind": "product",
+            "stage": "이익 기여 중",
+            "since": "2026-09",
+            "basis": [
+              {
+                "id": "n1b1",
+                "statement": "AI Factory는 단일 제품이 아니라 AI 인프라 도입에 필요한 하드웨어·소프트웨어·서비스를 묶은 턴키 프레임워크다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[델 테크놀로지스 (NYS:DELL)] 온프레미스 AI 의 관문",
+                    "publisher": "유진투자증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxecei.pdf",
+                    "date": "2026-09-07",
+                    "quote": "델의 AI Factory는 단일 제품이 아니라 AI 인프라 도입에 필요한 하드웨어·소프트웨어·서비스를 통합한 턴키 프레임워크다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "n1b2",
+                "statement": "누적 고객 수가 2분기 기준 6,500개사를 넘었고, 최근 3,300개사는 3개 분기 만에 늘었다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[델 테크놀로지스 (NYS:DELL)] 온프레미스 AI 의 관문",
+                    "publisher": "유진투자증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxecei.pdf",
+                    "date": "2026-09-07",
+                    "quote": "AI Factory 누적 고객 수는 2분기 기준 6,500개사를 돌파했는데, 첫 3,200개 확보에 8개 분기가 소요된 반면 이후 3,300개는 3개 분기 만에 추가.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [
+              {
+                "id": "n1r1",
+                "statement": "AI 서버 매출이 164억달러로 1년 전보다 100% 늘었고, 분기 신규 주문 609억달러·수주잔고 950억달러를 쌓았다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[델 테크놀로지스 (NYS:DELL)] 온프레미스 AI 의 관문",
+                    "publisher": "유진투자증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxecei.pdf",
+                    "date": "2026-09-07",
+                    "quote": "AI 서버 매출은 164억달러(+100%yoy)를 기록하며 탑라인 성장을 견인. 전방위적 AI 수요 강세로 인해 델이 강점을 가진 네오클라우드·엔터프라이즈·소버린이 가파르게 성장 중. AI 서버 주문은 609억달러로 전분기 대비 150% 증가하며 역대 최고치를 달성했고, 분기말 AI 서버 백로그는 950억달러로 전년비 7배 이상 증가.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "n1r2",
+                "statement": "쌓인 수주잔고 $95B는 하반기 AI 매출 계획 $41.5B의 2.3배여서, 새 주문이 없어도 다음 회계연도 상반기까지 매출이 보인다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                    "date": "2026-09-04",
+                    "quote": "기말 AI 수주잔고($95B)는 하반기 AI 가이던스($41.5B)의 2.3 배에 달해 신규 수주 없이도 FY28 상반기까지의 실적 가시성을 확보했다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "profitImpact": [
+              {
+                "id": "n1p1",
+                "statement": "마진이 낮은 AI 서버를 고마진 스토리지·네트워킹 묶음 판매로 상쇄해 인프라 영업이익률이 15.0%로 620bp 올랐다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                    "date": "2026-09-04",
+                    "quote": "2Q ISG 영업이익률(15.0%, +620bp YoY) 개선은 외형 확대에 따른 스케일 효과와 고마진 스토리지 믹스 개선이 견인했다. 다만 3Q ISG 영업이익률 가이던스는 13%대 중반으로, 2Q 마진의 지속성은 하반기에 검증이 필요하다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "expectedGrowth": [
+              {
+                "id": "n1g1",
+                "statement": "회사 가이던스 기준 올해 AI 서버 매출 전망을 $60B에서 $74B로, 전년의 3배로 올렸다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                    "date": "2026-09-04",
+                    "quote": "FY27 매출액 가이던스를 $167B 에서 $192B(+69% YoY)로, Non-GAAP EPS 를 $17.90 에서 $25.50(+148% YoY)으로, AI 서버 매출을 $60B 에서 $74B(FY26 의 3 배)로 대폭 상향했다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "counter": [
+              {
+                "id": "n1c1",
+                "statement": "키움증권은 부품 공급 병목이 매출 인식 시점을 좌우하고, 네오클라우드 고객 비중이 높은 수주잔고는 지연·취소 위험이 있다고 본다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                    "date": "2026-09-04",
+                    "quote": "(산업) DRAM·NAND·CPU 공급 병목은 4Q 매출 인식 시점을 좌우하며, 반대로 부품 가격이 꺾이면 ASP 상승분이 소멸해 성장률과 GPM 이 동시에 압박받는다. 네오클라우드 비중이 높은 AI 수주잔고는 고객 자금조달 여건에 따라 지연·취소 위험을 안고 있다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
           },
           {
-            "item": "A 연간 이익 성장",
-            "status": "충족",
-            "evidence": "최근 4개 분기 이익이 모두 전년비 증가(255.1%·256.3%·47.4%·31.7%). 3년 추세와 자기자본이익률은 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+            "what": "노후 서버 교체 사이클과 에이전틱 AI용 고성능 CPU 수요 — 범용 서버가 다시 성장축이 됨",
+            "kind": "industry",
+            "stage": "매출 발생 중",
+            "since": "2026-09",
+            "basis": [
+              {
+                "id": "n2b1",
+                "statement": "14세대 이하 노후 서버 교체 수요에 GPU를 제어하는 '하네스'용 고성능 CPU 수요가 겹쳐 범용 서버가 다시 성장했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                    "date": "2026-09-04",
+                    "quote": "범용 서버·네트워킹 매출은 $10.5B(+122% YoY)로 AI 서버 성장률을 앞질렀으며, 연간 가이던스 역시 '100% 이상'으로 상향되었다. 설치기반 내 잔존하는 14 세대 이하 노후 자산(1.2M 대)의 고집적도(17·18 세대) 교체 수요가 본격화된 영향이다. 여기에 에이전틱 AI 파이프라인에서 GPU 를 제어하는 '하네스(Harness)'용 고성능 CPU 수요가 가세했다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [
+              {
+                "id": "n2r1",
+                "statement": "범용 서버 매출이 105억달러로 1년 전보다 122% 늘어 AI 서버보다 빨리 컸다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[델 테크놀로지스 (NYS:DELL)] 온프레미스 AI 의 관문",
+                    "publisher": "유진투자증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxecei.pdf",
+                    "date": "2026-09-07",
+                    "quote": "엔터프라이즈향 IT 서버 교체 사이클과 AI 데이터센터향 에이전틱 워크로드로 인한 범용 서버 수요가 가중되며 범용 서버 매출은 105억달러(+122%yoy)를 기록.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "profitImpact": [
+              {
+                "id": "n2p1",
+                "statement": "AI 서버가 아닌 이 영역이 실적 서프라이즈를 만들어 매출총이익률이 21.1%로 시장 예상 17.4%를 크게 웃돌았다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                    "date": "2026-09-04",
+                    "quote": "이에 힘입어 매출총이익률(GPM) 21.1%(컨센서스 17.4%), ISG 영업이익률(OPM) 15.0%(+620bp YoY)를 기록하며 전사 수익성도 동반 개선되었다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "expectedGrowth": [
+              {
+                "id": "n2g1",
+                "statement": "회사는 범용 서버의 올해 연간 성장률 가이던스를 '100% 이상'으로 올렸다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                    "date": "2026-09-04",
+                    "quote": "범용 서버·네트워킹 매출은 $10.5B(+122% YoY)로 AI 서버 성장률을 앞질렀으며, 연간 가이던스 역시 '100% 이상'으로 상향되었다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "counter": [
+              {
+                "id": "n2c1",
+                "statement": "성장률에 메모리 탑재량 확대에 따른 판매단가 상승분이 섞여 있어, 실제 출하 대수 증가율은 이보다 낮다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                    "date": "2026-09-04",
+                    "quote": "단, 코어 및 DRAM 탑재량 확대에 따른 ASP 상승분이 반영되어 있어 출하량 기준 성장률은 이를 밑돈다는 점은 감안할 필요가 있다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
           },
           {
-            "item": "N 새로운 것",
-            "status": "충족",
-            "evidence": "AI 서버 수주잔고 950억 달러와 9월 11일 RBC 커버리지 개시, 주가는 1년 최고가의 96.48% 자리"
+            "what": "자체 설계(Dell IP) 스토리지로의 제품 교체 — AI 추론이 데이터 저장 수요를 키우며 마진이 좋은 쪽으로 믹스가 이동",
+            "kind": "product",
+            "stage": "이익 기여 중",
+            "since": "2026-09",
+            "basis": [
+              {
+                "id": "n3b1",
+                "statement": "자체 개발 제품군이 잘 팔리며 스토리지 매출이 $4.9B로 1년 전보다 26% 늘었다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                    "date": "2026-09-04",
+                    "quote": "자체 개발(Dell IP) 제품군 호조로 스토리지 매출은 $4.9B(+26% YoY)를 기록했고, 연간 성장률 가이던스도 10%대 중반으로 상향되었다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [
+              {
+                "id": "n3r1",
+                "statement": "AI 추론이 늘며 저장장치 중요도가 올라가 자체 설계 스토리지로의 제품 교체가 진행 중이다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[델 테크놀로지스 (NYS:DELL)] 온프레미스 AI 의 관문",
+                    "publisher": "유진투자증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxecei.pdf",
+                    "date": "2026-09-07",
+                    "quote": "이에 더해 추론 워크로드의 KV 캐시 급증으로 인해 스토리지의 중요성이 상승하는 가운데, Dell-IP 기반 스토리지로의 믹스 전환이 이루어지는 중. AI 서버 외 매출까지 강세를 보이는 동시에 스토리지 믹스 개선이 이루어지며 ISG OPM은 15%로 전분기 대비 4%p 개선.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "profitImpact": [
+              {
+                "id": "n3p1",
+                "statement": "고마진 스토리지 믹스 개선이 인프라 부문 영업이익률을 15.0%로 620bp 끌어올린 주된 이유다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                    "date": "2026-09-04",
+                    "quote": "2Q ISG 영업이익률(15.0%, +620bp YoY) 개선은 외형 확대에 따른 스케일 효과와 고마진 스토리지 믹스 개선이 견인했다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "expectedGrowth": [
+              {
+                "id": "n3g1",
+                "statement": "회사는 스토리지 연간 성장률 가이던스를 10%대 중반으로 올렸다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                    "date": "2026-09-04",
+                    "quote": "자체 개발(Dell IP) 제품군 호조로 스토리지 매출은 $4.9B(+26% YoY)를 기록했고, 연간 성장률 가이던스도 10%대 중반으로 상향되었다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "counter": [
+              {
+                "id": "n3c1",
+                "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+                "evidence_level": "no_source",
+                "sources": [
+                  {
+                    "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                    "date": "2026-09-04",
+                    "quote": "(기업 고유) 2Q ISG 마진 15%에는 회사 스스로 인정한 일회성 요인이 포함돼 있고, 재고 2 배·DFS 채권 급증으로 영업현금흐름이 순이익의 절반에 그친 점은 하반기 정상화 확인이 필요하다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ],
+                "statementOriginal": "회사 스스로 2분기 인프라 마진 15%에 일회성 요인이 섞여 있다고 인정했고, 다음 분기 가이던스는 13%대 중반이다.",
+                "stripped": true
+              }
+            ]
+          }
+        ],
+        "newsNarrative": "9월 1일 발표한 2분기 실적이 시장 예상을 크게 웃돌면서 주가 흐름이 바뀌었다. 매출 470억달러(+58%)에 주당순이익 7.04달러를 기록했고, 발표 다음 날 주가가 15.8% 급등했다. 같은 발표에서 연간 매출 가이던스를 $167B에서 $192B로 올렸고, AI 서버 수주잔고는 950억달러까지 쌓였다. 9월 15일에는 금리 5.100~5.900%, 만기 2029~2037년 선순위 채권을 발행해 빚을 늘렸다.",
+        "recentNews": [
+          {
+            "id": "nw1",
+            "statement": "2분기 매출 $47.0B(+58%), 주당순이익 $7.04(+203%)로 증권사 예상치 최상단을 넘겼다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                "date": "2026-09-04",
+                "quote": "매출액은 $47.0B(+58% YoY, 컨센서스 대비 +5%), Non-GAAP EPS 는 $7.04(+203% YoY, 컨센서스 대비 +44%)를 기록하며 컨센서스 최상단 추정치를 상회하는 어닝 서프라이즈를 달성했다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
           },
           {
-            "item": "S 수급",
-            "status": "충족",
-            "evidence": "최근 5일 거래량이 20일 평균의 0.61배로 줄었고 거래대금도 20일 평균의 0.67배. 유통주식 수는 확인 불가"
+            "id": "nw2",
+            "statement": "실적 발표 다음 날 주가가 15.8% 급등했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                "date": "2026-09-04",
+                "quote": "DELL 의 주가는 실적 발표 익일 15.8% 급등했다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
           },
           {
-            "item": "L 주도주",
-            "status": "확인 불가",
-            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+            "id": "nw3",
+            "statement": "AI 서버 주문이 609억달러로 전분기보다 150% 늘었고 수주잔고는 950억달러로 1년 전의 7배가 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[델 테크놀로지스 (NYS:DELL)] 온프레미스 AI 의 관문",
+                "publisher": "유진투자증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxecei.pdf",
+                "date": "2026-09-07",
+                "quote": "AI 서버 주문은 609억달러로 전분기 대비 150% 증가하며 역대 최고치를 달성했고, 분기말 AI 서버 백로그는 950억달러로 전년비 7배 이상 증가.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
           },
           {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
+            "id": "nw4",
+            "statement": "회사가 연간 매출·주당순이익·AI 서버 매출 전망을 모두 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                "date": "2026-09-04",
+                "quote": "FY27 매출액 가이던스를 $167B 에서 $192B(+69% YoY)로, Non-GAAP EPS 를 $17.90 에서 $25.50(+148% YoY)으로, AI 서버 매출을 $60B 에서 $74B(FY26 의 3 배)로 대폭 상향했다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
           },
           {
-            "item": "M 시장 방향",
-            "status": "충족",
-            "evidence": "시장 판정 green(10일선이 20일선 위, 둘 다 상승 15일째). 다만 빚내서 산 주식이 1년 전보다 +37.2%로 주의선 초과"
+            "id": "nw5",
+            "statement": "9월 15일 자회사를 통해 금리 5.100~5.900%, 만기 2029~2037년 선순위 무담보 채권을 발행했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "델 테크놀로지스 8-K (선순위 채권 발행)",
+                "publisher": "미국 증권거래위원회(SEC)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526391976/d172674d8k.htm",
+                "date": "2026-09-15",
+                "quote": "$1,250,000,000 aggregate principal amount of 5.100% Senior Notes due 2029 / $1,250,000,000 aggregate principal amount of 5.400% Senior Notes due 2031 / $1,500,000,000 aggregate principal amount of 5.600% Senior Notes due 2033 / $1,000,000,000 aggregate principal amount of 5.900% Senior Notes due 2037",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "nw6",
+            "statement": "9월 11일 RBC의 신규 분석 개시 소식에 주가가 다시 뛰었다는 보도가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dell stock jumps on RBC initiation, now up nearly 350% in 2026",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/11/dell-stock-rbc-initiation.html",
+                "date": "2026-09-11",
+                "quote": "Dell stock jumps on RBC initiation, now up nearly 350% in 2026",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
           }
         ],
         "risks": [
           {
-            "id": "r1",
-            "statement": "메모리 값이 오르면 서버 원가가 올라 이익률이 깎일 수 있다. 증권사가 지목한 첫 번째 위험이다.",
+            "id": "rk1",
+            "statement": "DRAM·NAND·CPU 공급 병목이 매출 인식 시점을 좌우하고, 부품값이 꺾이면 성장률과 마진이 동시에 눌린다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "델 테크놀로지스 (NYS:DELL) 온프레미스 AI 의 관문",
-                "publisher": "유진투자증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxeccx.pdf",
-                "date": "2026-09-07",
-                "quote": "델 역시 서버 ODM의 고질적 리스크인 메모리 인 플레이션으로 인한 잠재적 마진 부담, 백로그 이행 속도 등에서 자유롭지는 못함",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "r2",
-            "statement": "쌓인 주문을 제때 매출로 바꾸지 못하거나 현금흐름의 질이 나빠질 수 있다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "델 테크놀로지스 (NYS:DELL) 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
-                "publisher": "키움증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxeccx.pdf",
+                "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
                 "date": "2026-09-04",
-                "quote": "리스크 요인: 부품가 사이클 변동성, 수주 이행력, 그리고 현금흐름의 질",
+                "quote": "(산업) DRAM·NAND·CPU 공급 병목은 4Q 매출 인식 시점을 좌우하며, 반대로 부품 가격이 꺾이면 ASP 상승분이 소멸해 성장률과 GPM 이 동시에 압박받는다.",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "r3",
-            "statement": "주가가 이미 올라 경쟁사보다 비싼 값에 거래된다. 기대에 못 미치면 되돌림이 커진다.",
+            "id": "rk2",
+            "statement": "재고가 $21.3B로 급증하고 금융채권이 늘면서 영업현금흐름이 $2.2B(-13%)로 순이익에 크게 못 미쳤다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "델 테크놀로지스 (NYS:DELL) 온프레미스 AI 의 관문",
-                "publisher": "유진투자증권",
-                "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxeccx.pdf",
-                "date": "2026-09-07",
-                "quote": "델의 12M Fwd PER은 18.6배 수준으로 경쟁사(HPE, SMCI 등) 대비 높은 밸류에이션을 받고 있음",
+                "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                "date": "2026-09-04",
+                "quote": "다만 부품 선확보에 따른 재고 급증($21.3B)과 대규모 수주 지원을 위한 DFS 금융채권 확대로 영업현금흐름($2.2B, -13% YoY)은 순이익 대비 부진했다.",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           },
           {
-            "id": "r4",
-            "statement": "AI 투자 속도가 느려질 수 있다는 우려가 9월 중순 시장에 한 차례 돌며 관련 주가가 함께 밀렸다.",
+            "id": "rk3",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecei.pdf",
+                "date": "2026-09-04",
+                "quote": "다만 3Q ISG 영업이익률 가이던스는 13%대 중반으로, 2Q 마진의 지속성은 하반기에 검증이 필요하다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "회사가 다음 분기 인프라 부문 영업이익률을 13%대 중반으로 낮춰 제시해, 2분기 15% 마진은 유지되지 않을 수 있다.",
+            "stripped": true
+          },
+          {
+            "id": "rk4",
+            "statement": "9월 15일 만기 2029~2037년 선순위 채권을 발행해 이자 부담이 늘었다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "AI stocks sink while cybersecurity shares rally on slowdown fears",
-                "publisher": "CNBC",
-                "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html",
-                "date": "2026-09-14",
-                "quote": "AI stocks sink while cybersecurity shares rally on slowdown fears",
+                "title": "델 테크놀로지스 8-K (선순위 채권 발행)",
+                "publisher": "미국 증권거래위원회(SEC)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526391976/d172674d8k.htm",
+                "date": "2026-09-15",
+                "quote": "$1,250,000,000 aggregate principal amount of 5.100% Senior Notes due 2029 / $1,000,000,000 aggregate principal amount of 5.900% Senior Notes due 2037",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -854,91 +1407,27 @@ window.TEAM6_DATA = {
           }
         ],
         "structuralRisks": [
-          "매출 성장이 대형 AI 고객의 투자 집행 속도에 크게 기대고 있다.",
-          "서버 조립 사업 구조상 메모리 등 부품 가격 변동을 그대로 떠안는다.",
-          "실적 기대의 상당 부분이 아직 매출로 바뀌지 않은 수주잔고에 걸려 있다."
+          "AI 수주잔고에 네오클라우드 고객 비중이 높아 고객의 자금 조달 사정에 실적이 흔들린다.",
+          "서버 원가에서 메모리·CPU가 차지하는 몫이 커서 부품 가격 사이클에 마진이 좌우된다.",
+          "PC 부문은 경기와 IT 예산에 민감해 공공·중소기업 예산이 줄면 수요가 바로 후퇴한다."
         ],
-        "chartCheck": [
-          {
-            "item": "선행 상승",
-            "status": "충족",
-            "evidence": "횡보 직전 상승 65.9%, 3개월 수익률 39.45% — 기준 30% 초과"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "충족",
-            "evidence": "횡보 19봉, 3.8주 — 기준 2~8주 안"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점이 높아진 횟수 0회. 폭은 직전 구간의 0.78배로 좁아졌으나 둘 다 성립해야 충족"
-          },
-          {
-            "item": "깊이",
-            "status": "충족",
-            "evidence": "횡보 고점 대비 깊이 13.1%, 하루 평균 변동폭 4.64%의 2.8배. 선행 상승 65.9%의 절반보다 얕다"
-          },
-          {
-            "item": "이평선 위",
-            "status": "충족",
-            "evidence": "현재가 574.55 > 20일선 557.14 > 50일선 502.03"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "충족",
-            "evidence": "최근 5일 거래량이 20일 평균의 0.61배 — 기준 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "아직 피벗 아래라 돌파봉이 없다. 최근 거래량은 20일 평균의 0.65배 — 밤에 2배가 실리는지 본다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "충족",
-            "evidence": "피벗 595.51 까지 -3.52%, 하루 평균 변동폭의 0.76배 아래 — 1배 안"
-          },
-          {
-            "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절까지 4.47%로 하루 평균 변동폭 4.64%보다 좁다"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 556.79 위로 하루 평균 변동폭의 0.67배 — 기준 2배 이하"
-          },
-          {
-            "item": "시장",
-            "status": "충족",
-            "evidence": "시장 판정 green — 10일선이 20일선을 넘은 지 15일째, 둘 다 상승"
-          }
-        ],
-        "chartObservation": {
-          "base": "19거래일, 약 3.8주째 좁은 구간을 오가고 있다. 구간 저점은 517.52 이고 고점 대비 깊이는 13.1%로 하루 평균 변동폭의 2.8배다. 최근 2주 가격 흔들림은 그 전 2주의 0.78배로 줄었지만 저점이 높아진 횟수는 0회다.",
-          "volume": "최근 5일 거래량이 20일 평균의 0.61배로 줄었다. 10월 6일 종가가 오른 날 거래량이 540만 주로 전날 420만 주보다 늘었다.",
-          "position": "현재가 574.55 는 넘으면 사는 선인 595.51 보다 3.52% 아래, 하루 평균 변동폭의 0.76배 아래다. 예비 손절 568.87 까지는 4.47%로 현재가 바로 밑이다. 10일선 556.79 위로는 하루 평균 변동폭의 0.67배만큼 떠 있다.",
-          "maStack": "현재가가 20일선 557.14, 50일선 502.03, 150일선 361.59 를 모두 위에서 지나고 있다. 20일선 기울기는 +2.07%로 오르는 중이다.",
-          "note": "그림과 숫자가 일치한다. 9월 중순 고점 뒤 좁은 구간이 눈에 보이고 거래량 막대도 그 구간에서 낮아져 있다."
-        },
-        "entryChecklist": [
-          "595.51 을 거래량 20일 평균 2배 이상으로 종가 돌파하는지",
-          "돌파한 날 저가를 다시 깨지 않고 버티는지",
-          "10일선 556.79 와 20일선 557.14 를 종가로 지켜 내는지",
-          "메모리 값 상승이 다음 분기 이익률을 깎는다는 회사·증권사 언급이 새로 나오는지",
-          "시장 판정이 green 을 유지하는지, 빚내서 산 주식 경고가 더 커지지는 않는지"
-        ],
-        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 직전 발표는 9월 1일이었고 그때 올린 전망이 지금 주가를 받치고 있다.",
-        "confidence": "high",
+        "ticker": "DELL",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
           "reasons": []
         },
-        "researchedOn": "2026-10-09",
-        "session": "2026-10-08",
-        "carried": true
+        "consensus": {
+          "saleCy": 70.38,
+          "saleNy": 16.54,
+          "epsCy": 151.43,
+          "epsNy": -4.76,
+          "cyTrend": 0.06,
+          "nyTrend": 0
+        },
+        "researchedOn": "2026-10-13",
+        "session": "2026-10-12",
+        "carried": false
       }
     },
     {
@@ -995,7 +1484,662 @@ window.TEAM6_DATA = {
       "blocked": null,
       "shadowBook": null,
       "watch": true,
-      "score": 55.4
+      "score": 55.4,
+      "deep": {
+        "status": "done",
+        "ticker": "KOD",
+        "company": "코디악 사이언시스는 눈 뒤쪽 망막에 생기는 질환을 치료하는 주사제를 개발하는 미국 바이오 회사다. 아직 허가받은 약이 없어 매출이 없고, 연구개발비를 쓰며 임상시험 결과로 가치를 평가받는다. 주력은 습성 황반변성·당뇨망막병증·망막정맥폐쇄를 겨냥한 Zenkuda(tarcocimab tedromer)이며, 그 뒤를 KSI-501과 KSI-101이 잇는다.",
+        "lead": "임상 성공 하나로 주가가 1년 만에 몇 배 오른 신약 개발사이고, 지금은 전고점 바로 아래에서 2주째 쉬고 있다. 가장 강한 근거는 9월 28일 Zenkuda 3상에서 환자 54%가 6개월에 한 번 투약하고도 기존 표준 치료제와 대등한 결과를 낸 것이다. 가장 큰 걱정은 돈이다 — 매출이 0인데 2분기 말 현금은 1억 2,590만 달러뿐이라 상업화 전 증자 가능성이 거론된다. 유상증자 공시가 나오거나 올해 4분기로 예고한 허가신청이 미뤄지면 이 그림은 깨진다.",
+        "newsNarrative": "9월 28일 Zenkuda의 습성 황반변성 3상 결과가 나오면서 주가가 뛰었다. 환자 54%가 6개월에 한 번만 맞고도 기존 표준 치료제와 비슷한 시력 개선을 보였기 때문이다. 회사는 이 결과를 포함한 5건의 3상을 묶어 올해 4분기에 미국 허가신청을 내겠다고 밝혔다. 발표 뒤 증권사 목표주가 평균은 117.50달러로 올라갔다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "9월 28일 Zenkuda가 습성 황반변성 3상에서 1차 평가지표를 충족했다고 발표했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Kodiak Sciences Announces Positive Phase 3 DAYBREAK Results (8-K Exhibit 99.1)",
+                "publisher": "미국 증권거래위원회(SEC) EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526403481/d185059dex991.htm",
+                "date": "2026-09-28",
+                "quote": "Zenkuda (tarcocimab tedromer) met the primary endpoint (p-value of 0.0007)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Kodiak Sciences Announces Positive Phase 3 DAYBREAK Results (8-K Exhibit 99.1)",
+                "publisher": "미국 증권거래위원회(SEC) EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526403481/d185059dex991.htm",
+                "date": "2026-09-28",
+                "quote": "Tabirafusp alfa tedromer (tabirafusp-ted) met the vision primary endpoint (p-value of 0.0036)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "함께 시험한 tabirafusp-ted(KSI-501)도 시력 1차 평가지표를 충족했다.",
+            "stripped": true
+          },
+          {
+            "id": "n3",
+            "statement": "회사는 Zenkuda 허가신청(BLA)을 올해 4분기에 제출하겠다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Kodiak Sciences Announces Positive Phase 3 DAYBREAK Results (8-K Exhibit 99.1)",
+                "publisher": "미국 증권거래위원회(SEC) EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526403481/d185059dex991.htm",
+                "date": "2026-09-28",
+                "quote": "We plan to file a biologics license application (BLA) for Zenkuda in the fourth quarter of 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "키움증권은 환자 54%가 6개월에 1회 투여로 아일리아 대비 비열등을 입증했다고 정리했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
+                "date": "2026-09-30",
+                "quote": "Zenkuda가 습성 황반변성 3상에서 환자 54%에 6개월에 1회 투여하며 아일리아 대비 비열등 입증하며 주가 약 170% 상승",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "3상 결과 발표 직후 주가가 급등해 52주 신고가 바이오 종목으로 꼽혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Biotech Stocks At 52-Week Highs - KOD +177% On Phase 3 Data; GRAL, IOVA, RGEN",
+                "publisher": "RTTNews (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/biotech-stocks-52-week-highs-kod-177-phase-3-data-gral-iova-rgen",
+                "date": "2026-09-29",
+                "quote": "Biotech Stocks At 52-Week Highs - KOD +177% On Phase 3 Data; GRAL, IOVA, RGEN",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n6",
+            "statement": "증권사 목표주가 평균이 117.50달러로 65.16% 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Kodiak Sciences Consensus Price Target Increased by 65.16% to $117.50",
+                "publisher": "Fintel (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/kodiak-sciences-consensus-price-target-increased-6516-11750",
+                "date": "2026-10-02",
+                "quote": "Kodiak Sciences Consensus Price Target Increased by 65.16% to $117.50",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출이 아직 없다. 2026년 2분기 순손실은 6,560만 달러였고 그중 연구개발비가 5,610만 달러로 대부분을 차지했다. 2분기 말 현금은 1억 2,590만 달러이며, 회사는 이 자금으로 2027년까지 운영이 가능하다고 밝혔다. 키움증권은 첫 매출을 2027년 32백만 달러로 추정하면서도 그 해 순이익은 -293으로 적자가 이어진다고 봤다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "f1",
+              "statement": "매출이 아직 없다 — 키움증권 추정으로도 FY26까지 매출액 0, FY27에 처음 32백만 달러가 잡힌다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
+                  "publisher": "키움증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
+                  "date": "2026-09-30",
+                  "quote": "(백만 $) FY24 FY25 FY26E FY27E 매출액 0 0 0 32",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f2",
+              "statement": "2026년 2분기 실적 발표에도 매출 항목이 없고 비용과 손실만 보고됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Kodiak Sciences Reports Second Quarter 2026 Financial Results (8-K Exhibit 99.1)",
+                  "publisher": "미국 증권거래위원회(SEC) EDGAR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526349107/kod-ex99_1.htm",
+                  "date": "2026-08-13",
+                  "quote": "Research and development expenses were $56.1 million for the second quarter of 2026",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "f3",
+              "statement": "2026년 2분기 순손실은 6,560만 달러였다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Kodiak Sciences Reports Second Quarter 2026 Financial Results (8-K Exhibit 99.1)",
+                  "publisher": "미국 증권거래위원회(SEC) EDGAR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526349107/kod-ex99_1.htm",
+                  "date": "2026-08-13",
+                  "quote": "Net loss was $65.6 million, or $1.05 per share on a basic and diluted basis",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f4",
+              "statement": "적자는 줄기는커녕 커지는 중이다 — 키움증권 추정 순이익은 -176, -230, -266, -293으로 이어진다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
+                  "publisher": "키움증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
+                  "date": "2026-09-30",
+                  "quote": "(백만 $) FY24 FY25 FY26E FY27E 영업이익 -187 -234 -270 -279 순이익 -176 -230 -266 -293",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [
+            {
+              "id": "g1",
+              "statement": "회사는 보유 현금으로 2027년까지 현재 및 계획된 운영을 이어갈 수 있다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Kodiak Sciences Reports Second Quarter 2026 Financial Results (8-K Exhibit 99.1)",
+                  "publisher": "미국 증권거래위원회(SEC) EDGAR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526349107/kod-ex99_1.htm",
+                  "date": "2026-08-13",
+                  "quote": "We expect that our current cash and cash equivalents will support our current and planned operations into 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "g2",
+              "statement": "2분기 말 현금은 1억 2,590만 달러다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Kodiak Sciences Reports Second Quarter 2026 Financial Results (8-K Exhibit 99.1)",
+                  "publisher": "미국 증권거래위원회(SEC) EDGAR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526349107/kod-ex99_1.htm",
+                  "date": "2026-08-13",
+                  "quote": "Kodiak ended the second quarter of 2026 with $125.9 million of cash and cash equivalents.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "raised",
+            "claims": [
+              {
+                "id": "e1",
+                "statement": "3상 결과 뒤 증권사 목표주가 평균이 117.50달러로 65.16% 상향됐다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Kodiak Sciences Consensus Price Target Increased by 65.16% to $117.50",
+                    "publisher": "Fintel (Nasdaq)",
+                    "url": "https://www.nasdaq.com/articles/kodiak-sciences-consensus-price-target-increased-6516-11750",
+                    "date": "2026-10-02",
+                    "quote": "Kodiak Sciences Consensus Price Target Increased by 65.16% to $117.50",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newDrivers": [
+          {
+            "what": "Zenkuda(tarcocimab tedromer) — 눈에 놓는 주사 간격을 최대 6개월까지 늘린 망막질환 신약",
+            "kind": "product",
+            "stage": "발표만",
+            "since": "2026-09-28",
+            "basis": [
+              {
+                "id": "d1b1",
+                "statement": "습성 황반변성 3상(DAYBREAK)에서 1차 평가지표를 충족했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Kodiak Sciences Announces Positive Phase 3 DAYBREAK Results (8-K Exhibit 99.1)",
+                    "publisher": "미국 증권거래위원회(SEC) EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526403481/d185059dex991.htm",
+                    "date": "2026-09-28",
+                    "quote": "Zenkuda (tarcocimab tedromer) met the primary endpoint (p-value of 0.0007)",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "d1b2",
+                "statement": "환자 54%가 6개월 간격 투여에 도달했고 48주 시력 개선은 +7.2 글자로 아일리아 +7.6 글자와 비슷했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
+                    "date": "2026-09-30",
+                    "quote": "48 주차 시력개선 정도는 +7.2 글자로 아일리아 +7.6 글자와 유사해 비열등성을 충족했다. 가장 주목할 점은 환자의 54%가 6 개월에 한 번만 투여해도 치료 효과를 유지했다는 점이다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [
+              {
+                "id": "d1r1",
+                "statement": "아직 허가 전이라 매출 기여는 0이고, 키움증권 추정에서도 FY26까지 매출액은 0이다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
+                    "date": "2026-09-30",
+                    "quote": "(백만 $) FY24 FY25 FY26E FY27E 매출액 0 0 0 32",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "d1r2",
+                "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+                "evidence_level": "no_source",
+                "sources": [
+                  {
+                    "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
+                    "date": "2026-09-30",
+                    "quote": "동사는 Zenkuda 에 대해 습성 황반변성(wAMD), 당뇨망막병증(DR), 망막정맥폐쇄(RVO)에서 확보한 총 5건의 긍정적인 3상 결과를 기반으로 4Q26 미국 허가신청(BLA) 제출할 계획이다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ],
+                "statementOriginal": "매출의 토대가 될 적응증은 습성 황반변성·당뇨망막병증·망막정맥폐쇄 3개이며, 긍정적 3상 결과 5건을 묶어 신청한다.",
+                "stripped": true
+              }
+            ],
+            "profitImpact": [
+              {
+                "id": "d1p1",
+                "statement": "매출이 처음 생기는 해에도 영업이익은 -279로 적자가 이어진다는 것이 키움증권 추정이다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
+                    "date": "2026-09-30",
+                    "quote": "(백만 $) FY24 FY25 FY26E FY27E 영업이익 -187 -234 -270 -279 OPM(%) - - - -863.6",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "expectedGrowth": [
+              {
+                "id": "d1g1",
+                "statement": "키움증권은 2027년을 첫 매출 해로 보고 매출액 32백만 달러를 추정한다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
+                    "date": "2026-09-30",
+                    "quote": "(백만 $) FY24 FY25 FY26E FY27E 매출액 0 0 0 32",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "counter": [
+              {
+                "id": "d1c1",
+                "statement": "상업화 전에 유상증자가 나올 가능성이 높다고 키움증권은 지적했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
+                    "date": "2026-09-30",
+                    "quote": "다만 2Q26말 현금은 $125.9M으로 상업화 전 증자 가능성 높음.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "d1c2",
+                "statement": "경쟁약인 아일리아 HD와 바비스모도 실제 진료에서 각각 약 25%, 21% 환자가 4개월 간격 투여를 유지한다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
+                    "date": "2026-09-30",
+                    "quote": "전문의들은 아일리아 HD 와 바비스모가 임상시험에서는 상당수 환자에서 4 개월 간격 투여가 가능했지만, 최근 실제 진료 연구에서는 각각 약 25%, 21% 수준이었다고 설명했다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "what": "tabirafusp-ted(KSI-501) — 혈관 성장인자와 염증물질 IL-6를 함께 막는 이중 억제 신약",
+            "kind": "product",
+            "stage": "발표만",
+            "since": "2026-09-28",
+            "basis": [
+              {
+                "id": "d2b1",
+                "statement": "같은 3상에서 시력 1차 평가지표를 충족했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Kodiak Sciences Announces Positive Phase 3 DAYBREAK Results (8-K Exhibit 99.1)",
+                    "publisher": "미국 증권거래위원회(SEC) EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526403481/d185059dex991.htm",
+                    "date": "2026-09-28",
+                    "quote": "Tabirafusp alfa tedromer (tabirafusp-ted) met the vision primary endpoint (p-value of 0.0036)",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [],
+            "profitImpact": [],
+            "expectedGrowth": [],
+            "counter": [
+              {
+                "id": "d2c1",
+                "statement": "IL-6까지 막아서 얻는 추가 효과가 이번 시험에서는 드러나지 않아, 진행 중인 당뇨황반부종 3상이 경쟁력을 가른다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
+                    "date": "2026-09-30",
+                    "quote": "다만 VEGF 뿐 아니라 IL-6 까지 함께 억제함으로써 얻을 수 있는 추가적인 치료 효과는 이번 습성 황반변성 임상에서는 뚜렷하게 확인되지 않았다. 따라서 향후 ALTO 에서 VEGF 와 IL-6 를 동시에 억제하는 것이 실제로 추가적인 치료 효과로 이어지는지가 KSI-501 의 경쟁력을 결정할 것으로 보인다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "what": "KSI-101 — 염증으로 생긴 황반부종을 겨냥한 후속 신약, 12월 첫 3상 결과 예정",
+            "kind": "product",
+            "stage": "발표만",
+            "since": "2026-09-28",
+            "basis": [
+              {
+                "id": "d3b1",
+                "statement": "회사는 KSI-101의 첫 3상 주요 결과를 12월에 공개하고 허가신청은 2027년 2분기에 내겠다고 밝혔다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Kodiak Sciences Announces Positive Phase 3 DAYBREAK Results (8-K Exhibit 99.1)",
+                    "publisher": "미국 증권거래위원회(SEC) EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526403481/d185059dex991.htm",
+                    "date": "2026-09-28",
+                    "quote": "our first topline readout from its Phase 3 program expected in December 2026. We are planning to file a BLA for KSI-101 in the second quarter of 2027.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [],
+            "profitImpact": [],
+            "expectedGrowth": [],
+            "counter": []
+          }
+        ],
+        "nNarrative": "새로운 것은 Zenkuda다 — 눈에 놓는 주사 간격을 최대 6개월까지 늘린 망막질환 신약이다. 3상에서 환자 54%가 6개월 간격을 유지했고 시력 개선은 +7.2 글자로 기존 표준치료제 +7.6 글자와 비슷했다. 다만 아직 허가 전이라 지금 매출 기여는 0이다. 키움증권은 첫 매출을 2027년 32백만 달러로 추정하면서도 그 해 영업이익은 -279로 적자가 이어진다고 봤다. 같이 성공한 KSI-501은 염증물질까지 막는 차별점이 이번에는 드러나지 않아 당뇨황반부종 3상에서 다시 확인해야 한다. 이 기대가 이어지려면 올해 4분기 허가신청이 실제로 제출돼야 한다.",
+        "nVerdict": "충족",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "매출이 없고 분기마다 손실이 이어진다 — 분기 EPS 자료는 받지 않는다 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "키움증권 추정 연간 순이익이 FY24부터 FY27까지 모두 적자이고 폭이 커진다. 3년 추세·자기자본이익률은 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 새로운 것",
+            "status": "충족",
+            "evidence": "Zenkuda 3상 1차 평가지표 충족, 올해 4분기 허가신청 계획. 참고로 52주 고점은 95.44"
+          },
+          {
+            "item": "S 수급",
+            "status": "충족",
+            "evidence": "횡보 중 최근 5일 거래량이 20일 평균의 0.38배로 말랐고, 상승한 날에는 거래량이 전날보다 늘었다. 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "충족",
+            "evidence": "시장 녹색 신호(10일선이 20일선 위, 둘 다 상승). 다만 빚내서 산 주식이 1년 전보다 +37.2%로 주의선 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "상업화 전에 유상증자가 나올 가능성이 높다 — 2분기 말 현금이 1억 2,590만 달러에 그친다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
+                "date": "2026-09-30",
+                "quote": "다만 2Q26말 현금은 $125.9M으로 상업화 전 증자 가능성 높음.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r2",
+            "statement": "현금 소진 속도가 빠르다 — 2026년 2분기에만 연구개발비 5,610만 달러를 썼다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Kodiak Sciences Reports Second Quarter 2026 Financial Results (8-K Exhibit 99.1)",
+                "publisher": "미국 증권거래위원회(SEC) EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526349107/kod-ex99_1.htm",
+                "date": "2026-08-13",
+                "quote": "Research and development expenses were $56.1 million for the second quarter of 2026",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r3",
+            "statement": "매출이 생겨도 적자는 더 커진다는 것이 증권사 추정이다 — 순이익 -266에서 -293으로 간다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
+                "date": "2026-09-30",
+                "quote": "(백만 $) FY24 FY25 FY26E FY27E 순이익 -176 -230 -266 -293",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r4",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
+                "date": "2026-09-30",
+                "quote": "48 주차 시력 개선은 +6.3 글자로 아일리아 +7.6 글자보다 수치상 낮았지만 통계적으로는 비열등성을 달성했으며, 망막 부종 감소 효과도 유사했다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "KSI-501은 시력 개선이 +6.3 글자로 기존 치료제 +7.6 글자보다 낮아, 통계적 비열등은 넘었지만 우위는 보이지 못했다.",
+            "stripped": true
+          }
+        ],
+        "structuralRisks": [
+          "허가받은 약이 없어 기업가치가 FDA 심사 결과 하나에 통째로 달려 있다.",
+          "파이프라인이 모두 안과 망막질환에 몰려 있어 한 번의 임상 실패가 전체로 번진다.",
+          "같은 약물이 과거 당뇨황반부종 3상에서 1차 지표를 놓쳐 개발이 중단된 전력이 있다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 248.9%, 최근 1개월 수익률 199.52%, 3개월 132.79%"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "횡보 10봉(2주) — 기준 2~8주의 하한"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 1회는 있으나 진폭이 1.44배로 좁아지지 않았다"
+          },
+          {
+            "item": "깊이",
+            "status": "미충족",
+            "evidence": "베이스 고점 대비 저점 깊이 41.8%, 하루 변동폭 10.25% — 깊이 항목이 등급 검사에서 실패로 잡혔다"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "현재가 99.26 — 20일선 66.7, 50일선 50.11 위"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 0.38배 — 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "아직 피벗 104 아래라 돌파봉이 없다 — 넘는 날 20일 평균의 2배가 실리는지 본다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "충족",
+            "evidence": "피벗 104까지 -4.56%, 하루 변동폭의 0.44배 아래"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 93.83까지 9.78%로 하루 변동폭 10.25%보다 좁다"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 94.95 위로 하루 변동폭의 0.42배 — 기준 2배 이하"
+          },
+          {
+            "item": "시장",
+            "status": "충족",
+            "evidence": "시장 녹색 신호. 다만 빚내서 산 주식이 1년 전보다 +37.2%로 주의선 초과"
+          }
+        ],
+        "chartObservation": {
+          "base": "9월 말 급등 뒤 10봉(2주)째 옆으로 움직이고 있다. 그 안에서 저점이 한 번 높아졌지만 폭은 1.44배로 오히려 넓어졌다. 베이스 고점 대비 저점 깊이는 41.8%로, 하루 변동폭 10.25%에 비해 크게 벌어진 구간이다.",
+          "volume": "거래량은 급등일 이후 빠르게 줄었다. 최근 5일 거래량이 20일 평균의 0.38배다. 주가가 오른 10/09에는 1,732,500주로 전날 1,527,700주보다 늘었고 10/12에는 1,324,700주로 다시 줄었다.",
+          "position": "현재가 99.26은 피벗 104보다 4.56% 아래, 하루 변동폭으로는 0.44배 아래다. 예비 손절 93.83까지는 9.78%로 하루 변동폭 10.25%보다 좁다. 10일선 94.95 위로는 0.42배 떠 있다.",
+          "maStack": "가격이 20일선 66.7, 50일선 50.11, 150일선 41.61을 모두 크게 웃돈다. 20일선 기울기는 +30.15%로 가파르게 올라오는 중이다.",
+          "note": "그림에서 9월 말 한 봉에 거래량 막대가 치솟은 뒤 계단식으로 작아지는 모습이 보여 숫자와 일치한다. 이평선들이 급등 전 구간에 몰려 있어 가격과의 간격이 크게 벌어진 것도 그대로 확인된다."
+        },
+        "entryChecklist": [
+          "피벗 104를 20일 평균 거래량의 2배 이상으로 종가 돌파하는지",
+          "넘은 당일 저가가 예비 손절 93.83을 깨지 않고 버티는지",
+          "올해 4분기 안에 Zenkuda 허가신청(BLA)이 실제로 제출됐다는 공시가 나오는지",
+          "유상증자·주식 발행 관련 공시가 나오는지 — 나오면 기존 주주 몫이 줄어든다",
+          "12월로 예고된 KSI-101 3상 첫 결과가 일정대로 나오는지"
+        ],
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 다만 12월에 KSI-101 3상 첫 결과가 예정돼 있어 실적 발표 못지않은 가격 변동 요인이 된다.",
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "consensus": {
+          "saleCy": 0,
+          "saleNy": 0,
+          "epsCy": -7.85,
+          "epsNy": -13.7,
+          "cyTrend": -0.16,
+          "nyTrend": -8.27
+        },
+        "researchedOn": "2026-10-13",
+        "session": "2026-10-12",
+        "carried": false
+      }
     },
     {
       "ticker": "NSIT",
@@ -2575,5 +3719,15 @@ window.TEAM6_DATA = {
     "watch": 8,
     "checked": 0,
     "errors": []
+  },
+  "deep_coverage": {
+    "done": 3,
+    "total": 3,
+    "cap": 10,
+    "pending": 0,
+    "failed": 0,
+    "carried": 0,
+    "ineligible": 0,
+    "note": "전 종목(3) 조사 완료"
   }
 };
