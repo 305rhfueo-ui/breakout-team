@@ -1,0 +1,337 @@
+{
+  "date": "2026-10-14",
+  "count": 32,
+  "tickers": [
+    "MRNA",
+    "KOD",
+    "AGL",
+    "P",
+    "GRAL",
+    "TXG",
+    "OKTA",
+    "TEAM",
+    "PENG",
+    "ECO",
+    "RNG",
+    "DELL",
+    "VICR",
+    "AUGO",
+    "CORT",
+    "MXL",
+    "SHOP",
+    "TWST",
+    "HPE",
+    "CRDO",
+    "MSTR",
+    "SNOW",
+    "ILMN",
+    "TLN",
+    "CRWD",
+    "COHU",
+    "PANW",
+    "SEI",
+    "MTSI",
+    "XMTR",
+    "QLYS",
+    "DDOG"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": true
+  },
+  "themes": [
+    {
+      "key": "Industry:Software - Application",
+      "level": "Industry",
+      "name": "Software - Application",
+      "count": 6,
+      "sharePct": 18.8,
+      "tickers": [
+        "TEAM",
+        "RNG",
+        "SHOP",
+        "MSTR",
+        "SNOW",
+        "DDOG"
+      ],
+      "concentration": "mid",
+      "periods": {
+        "m1": 1,
+        "m3": 3,
+        "m6": 3
+      }
+    },
+    {
+      "key": "Industry:Software - Infrastructure",
+      "level": "Industry",
+      "name": "Software - Infrastructure",
+      "count": 4,
+      "sharePct": 12.5,
+      "tickers": [
+        "OKTA",
+        "CRWD",
+        "PANW",
+        "QLYS"
+      ],
+      "concentration": "mid",
+      "periods": {
+        "m1": 0,
+        "m3": 0,
+        "m6": 4
+      }
+    },
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 3,
+      "sharePct": 9.4,
+      "tickers": [
+        "MRNA",
+        "KOD",
+        "CORT"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 2,
+        "m3": 2,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Diagnostics & Research",
+      "level": "Industry",
+      "name": "Diagnostics & Research",
+      "count": 3,
+      "sharePct": 9.4,
+      "tickers": [
+        "GRAL",
+        "TWST",
+        "ILMN"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 2,
+        "m3": 2,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Semiconductors",
+      "level": "Industry",
+      "name": "Semiconductors",
+      "count": 3,
+      "sharePct": 9.4,
+      "tickers": [
+        "MXL",
+        "CRDO",
+        "MTSI"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 3,
+        "m3": 0,
+        "m6": 1
+      }
+    },
+    {
+      "key": "Industry:Computer Hardware",
+      "level": "Industry",
+      "name": "Computer Hardware",
+      "count": 2,
+      "sharePct": 6.3,
+      "tickers": [
+        "P",
+        "DELL"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 1,
+        "m6": 2
+      }
+    }
+  ],
+  "byPeriod": {
+    "m1": [
+      "MRNA",
+      "KOD",
+      "P",
+      "GRAL",
+      "PENG",
+      "VICR",
+      "MXL",
+      "SHOP",
+      "HPE",
+      "CRDO",
+      "ILMN",
+      "TLN",
+      "COHU",
+      "SEI",
+      "MTSI",
+      "XMTR"
+    ],
+    "m3": [
+      "MRNA",
+      "KOD",
+      "P",
+      "GRAL",
+      "TXG",
+      "TEAM",
+      "ECO",
+      "RNG",
+      "AUGO",
+      "TWST",
+      "HPE",
+      "MSTR"
+    ],
+    "m6": [
+      "MRNA",
+      "AGL",
+      "P",
+      "GRAL",
+      "TXG",
+      "OKTA",
+      "TEAM",
+      "PENG",
+      "DELL",
+      "CORT",
+      "MXL",
+      "TWST",
+      "HPE",
+      "SNOW",
+      "CRWD",
+      "PANW",
+      "XMTR",
+      "QLYS",
+      "DDOG"
+    ]
+  },
+  "cross": {
+    "persistent": [
+      "MRNA",
+      "P",
+      "GRAL",
+      "HPE"
+    ],
+    "newEntrants": [
+      "VICR",
+      "SHOP",
+      "CRDO",
+      "ILMN",
+      "TLN",
+      "COHU",
+      "SEI",
+      "MTSI"
+    ],
+    "midTerm": [
+      "TXG",
+      "TEAM",
+      "ECO",
+      "RNG",
+      "AUGO",
+      "TWST",
+      "MSTR"
+    ],
+    "fading": [
+      "AGL",
+      "OKTA",
+      "DELL",
+      "CORT",
+      "SNOW",
+      "CRWD",
+      "PANW",
+      "QLYS",
+      "DDOG"
+    ]
+  },
+  "lists": {
+    "dollar": [
+      "FICO",
+      "MANH",
+      "VSXY",
+      "ECO",
+      "VEON",
+      "WHLRL"
+    ],
+    "m1": [
+      "NFEGP",
+      "KOD",
+      "GRAL",
+      "PENG",
+      "P",
+      "MRNA",
+      "PTC",
+      "VICR",
+      "IMOS",
+      "MXL",
+      "SHOP",
+      "CRDO",
+      "ILMN",
+      "TLN",
+      "SNPS",
+      "COHU",
+      "SEI",
+      "MTSI",
+      "NTAP",
+      "HPE",
+      "XMTR",
+      "CIEN"
+    ],
+    "m3": [
+      "MRNA",
+      "KOD",
+      "P",
+      "TEAM",
+      "ECO",
+      "RNG",
+      "GRAL",
+      "AUGO",
+      "TXG",
+      "FET",
+      "TWST",
+      "MSTR",
+      "PAYC",
+      "PLTR",
+      "HAE",
+      "VEON",
+      "PTC",
+      "SMCIP",
+      "TNK",
+      "ESTC",
+      "HPE",
+      "ANF"
+    ],
+    "m6": [
+      "MRNA",
+      "AGL",
+      "TXG",
+      "OKTA",
+      "TEAM",
+      "PENG",
+      "DELL",
+      "GRAL",
+      "CORT",
+      "MXL",
+      "HPE",
+      "TWST",
+      "SNOW",
+      "HNGE",
+      "CRWD",
+      "HPE-C",
+      "PANW",
+      "XMTR",
+      "QLYS",
+      "FTNT",
+      "P",
+      "DDOG"
+    ],
+    "all": [
+      "MRNA",
+      "GRAL",
+      "HPE",
+      "P"
+    ]
+  }
+}

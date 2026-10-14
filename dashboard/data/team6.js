@@ -1,6 +1,6 @@
 window.TEAM6_DATA = {
-  "generated": "2026-10-13",
-  "sessionDate": "2026-10-12",
+  "generated": "2026-10-14",
+  "sessionDate": "2026-10-13",
   "rulesVersion": "0.3",
   "regime": "green",
   "riskPct": 0.5,
@@ -11,612 +11,168 @@ window.TEAM6_DATA = {
   "earningsOk": true,
   "plans": [
     {
-      "ticker": "CORT",
-      "name": "코셉트 테라퓨틱스",
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
+      "ticker": "RNG",
+      "name": "링센트럴",
+      "sector": "Technology",
+      "industry": "Software - Application",
       "grade": "A",
       "state": "pre",
-      "asOf": "2026-10-12",
-      "price": 121.19,
-      "pivot": 126.38,
-      "pivotDate": "2026-08-25",
-      "stop": 120.7,
-      "riskPerSharePct": 4.5,
-      "weightPct": 11.1,
+      "asOf": "2026-10-13",
+      "price": 78.69,
+      "pivot": 81.9,
+      "pivotDate": "2026-09-23",
+      "stop": 78.48,
+      "riskPerSharePct": 4.18,
+      "weightPct": 12,
       "weightCapped": false,
-      "distToPivotPct": -4.11,
-      "distToPivotAdr": -0.88,
-      "extensionAdr": 0.52,
+      "distToPivotPct": -3.92,
+      "distToPivotAdr": -0.9,
+      "extensionAdr": 0.24,
       "chase": false,
-      "adrPct": 4.69,
-      "ma10": 118.24,
-      "dollarVol20M": 191.8,
+      "adrPct": 4.35,
+      "ma10": 77.86,
+      "dollarVol20M": 121.5,
       "liquid": true,
       "reasons": [
-        "선행 상승 +132%",
-        "베이스 8주",
-        "깊이 14.3%",
-        "저점 상승 2회",
-        "진폭 0.88배 · 10일 종가폭 1.4 ADR",
-        "10일선 +0.5 ADR · 20일선 +0.9 ADR",
-        "20일선 기울기 +1.35%"
+        "선행 상승 +137%",
+        "베이스 3.2주",
+        "깊이 11.7%",
+        "저점 상승 1회",
+        "진폭 0.81배 · 10일 종가폭 1.3 ADR",
+        "10일선 +0.2 ADR · 20일선 +0.5 ADR",
+        "20일선 기울기 +2.57%"
       ],
       "fails": [],
       "metrics": {
-        "baseBars": 40,
-        "baseWeeks": 8,
-        "depthPct": 14.3,
-        "priorMovePct": 131.5,
-        "higherLows": 2,
-        "contraction": 0.88,
-        "closeRange10Adr": 1.4,
-        "surf10": 0.52,
-        "surf20": 0.87,
-        "slope20": 1.35,
-        "baseLow": 108.25,
-        "lastSwingLow": 111.94
+        "baseBars": 16,
+        "baseWeeks": 3.2,
+        "depthPct": 11.7,
+        "priorMovePct": 137.3,
+        "higherLows": 1,
+        "contraction": 0.81,
+        "closeRange10Adr": 1.3,
+        "surf10": 0.24,
+        "surf20": 0.47,
+        "slope20": 2.57,
+        "baseLow": 72.29,
+        "lastSwingLow": 72.29
       },
       "catalyst": null,
       "earnings": null,
       "blocked": null,
       "shadowBook": null,
       "watch": true,
-      "score": 65.9,
-      "deep": {
-        "status": "done",
-        "ticker": "CORT",
-        "company": "코셉트 테라퓨틱스는 스트레스 호르몬인 코티솔의 작용을 막는 약을 만드는 미국 제약사다. 오래된 주력 제품은 쿠싱증후군 치료제 Korlym 이고, 2026년 3월 미국 FDA 승인을 받은 난소암 치료제 Lifyorli(성분명 렐라코릴란트)가 새 성장 축이다. 2026년 2분기 매출 2억 5,610만 달러 중 Korlym 계열이 2억 860만 달러, Lifyorli 가 4,760만 달러였다.",
-        "lead": "코티솔 조절제 한 회사가 신약 Lifyorli 로 매출 축을 하나 더 만든 국면이다. 가장 강한 근거는 출시 첫 분기 매출 4,760만 달러와 연간 가이던스(회사가 내놓은 전망) 11억~12억 달러로의 상향이다. 가장 큰 걱정은 출시 비용으로 2026년 1분기에 3,180만 달러 순손실이 났다는 점과, 법원이 Teva 의 Korlym 제네릭이 특허를 침해하지 않는다고 판단한 것이다. 유럽위원회가 4분기 안에 승인하지 않거나 Lifyorli 매출이 4,760만 달러에서 더 늘지 않으면 이 그림은 흔들린다.",
-        "newsNarrative": "최근 두 달의 핵심은 유럽 진출 절차다. 9월 18일 유럽의약품청 자문기구가 Lifyorli 를 백금 저항성 난소암 치료제로 승인하라고 권고했고, 최종 결정은 4분기에 나온다. 권고 근거는 임상에서 기존 항암제 단독 투여보다 생존 기간이 길어진 결과였다. 같은 달 23일에는 내분비사업 대표가 사임하고 후임이 정해지는 경영진 교체가 공시됐다.",
-        "recentNews": [
-          {
-            "id": "n1",
-            "statement": "유럽의약품청 자문기구(CHMP)가 9월 18일 Lifyorli(렐라코릴란트)를 백금 저항성 난소암 치료제로 승인하라고 유럽위원회에 권고했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Corcept Announces CHMP Opinion Recommending EU Marketing Authorization for Lifyorli (relacorilant)",
-                "publisher": "Finviz",
-                "url": "https://finviz.com/news/393481/corcept-announces-chmp-opinion-recommending-eu-marketing-authorization-for-lifyorli-relacorilant",
-                "date": "2026-09-18",
-                "quote": "the European Medicines Agency's Committee for Medicinal Products for Human Use (CHMP) has recommended that the European Commission (EC) should approve relacorilant",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Corcept's Lifyorli Gets Positive EU Opinion For Platinum-Resistant Ovarian Cancer",
-                "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/corcepts-lifyorli-gets-positive-eu-opinion-platinum-resistant-ovarian-cancer",
-                "date": "2026-09-18",
-                "quote": "Corcept's Lifyorli Gets Positive EU Opinion For Platinum-Resistant Ovarian Cancer",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "n2",
-            "statement": "권고 근거는 기존 항암제 단독 투여 환자보다 무진행 생존기간과 전체 생존기간이 길어졌다는 임상 결과였다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Corcept Announces CHMP Opinion Recommending EU Marketing Authorization for Lifyorli (relacorilant)",
-                "publisher": "Finviz",
-                "url": "https://finviz.com/news/393481/corcept-announces-chmp-opinion-recommending-eu-marketing-authorization-for-lifyorli-relacorilant",
-                "date": "2026-09-18",
-                "quote": "patients receiving relacorilant combined with nab-paclitaxel experienced improved progression-free and overall survival compared to patients who received nab-paclitaxel alone",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "n3",
-            "statement": "유럽위원회의 최종 승인 여부는 2026년 4분기에 결정된다 — 자문기구 권고는 아직 승인이 아니다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Corcept Announces CHMP Opinion Recommending EU Marketing Authorization for Lifyorli (relacorilant)",
-                "publisher": "Finviz",
-                "url": "https://finviz.com/news/393481/corcept-announces-chmp-opinion-recommending-eu-marketing-authorization-for-lifyorli-relacorilant",
-                "date": "2026-09-18",
-                "quote": "The EC will review the CHMP's opinion and issue a final decision regarding approval in the fourth quarter of 2026",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "n5",
-            "statement": "직전 분기 실적(7월 29일 공시)에서 매출이 1년 전 1억 9,440만 달러에서 2억 5,610만 달러로 늘었고, 증가분의 대부분이 신약 Lifyorli 였다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update",
-                "publisher": "SEC EDGAR (8-K 첨부)",
-                "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
-                "date": "2026-07-29",
-                "quote": "Corcept's second quarter 2026 revenue was $256.1 million, compared to $194.4 million in the second quarter of 2025. Korlym and authorized generic product revenue was $208.6 million, compared to $194.4 million in the prior year period. Lifyorli product revenue was $47.6 million in its first quarter of availability.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "financialsNarrative": "매출은 신약이 붙으면서 다시 가팔라졌다. 2026년 2분기 매출은 2억 5,610만 달러로 1년 전보다 31.7% 늘었고, 직전 분기 증가율 4.9% 와 크게 대비된다. 이익은 아직 들쭉날쭉하다 — 1분기에는 출시 준비 비용으로 3,180만 달러 순손실이었고, 2분기에는 희석 주당순이익 0.36달러로 돌아섰다. 회사는 2026년 매출 전망을 11억~12억 달러로 올려 잡았다.",
-        "financials": {
-          "revenueTrend": [
-            {
-              "id": "f1",
-              "statement": "2026년 2분기 매출은 2억 5,610만 달러로 1년 전 1억 9,440만 달러에서 늘었고, 늘어난 금액의 대부분이 신약 Lifyorli 4,760만 달러다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update",
-                  "publisher": "SEC EDGAR (8-K 첨부)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
-                  "date": "2026-07-29",
-                  "quote": "Corcept's second quarter 2026 revenue was $256.1 million, compared to $194.4 million in the second quarter of 2025. Korlym and authorized generic product revenue was $208.6 million, compared to $194.4 million in the prior year period. Lifyorli product revenue was $47.6 million in its first quarter of availability.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "f2",
-              "statement": "신약이 팔리기 전인 2026년 1분기 매출은 1억 6,490만 달러로 1년 전 1억 5,720만 달러에서 거의 늘지 않았다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Corcept Therapeutics Announces First Quarter Financial Results and Provides Corporate Update",
-                  "publisher": "SEC EDGAR (8-K 첨부)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026028892/cort043026ex991pressrelease.htm",
-                  "date": "2026-04-30",
-                  "quote": "Revenue of $164.9 million, compared to $157.2 million in first quarter 2025",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "profitTrend": [
-            {
-              "id": "f3",
-              "statement": "2026년 2분기 희석 주당순이익은 0.36달러로 1년 전 0.29달러보다 늘었다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update",
-                  "publisher": "SEC EDGAR (8-K 첨부)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
-                  "date": "2026-07-29",
-                  "quote": "Net income per common share (diluted) was $0.36 in the second quarter of 2026, compared to $0.29 in the prior year period.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "f4",
-              "statement": "그 직전 분기인 2026년 1분기에는 3,180만 달러 순손실로, 1년 전 2,050만 달러 순이익에서 적자 전환했다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Corcept Therapeutics Announces First Quarter Financial Results and Provides Corporate Update",
-                  "publisher": "SEC EDGAR (8-K 첨부)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026028892/cort043026ex991pressrelease.htm",
-                  "date": "2026-04-30",
-                  "quote": "Net loss of $31.8 million, compared to net income of $20.5 million in first quarter 2025",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "guidance": [
-            {
-              "id": "g1",
-              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-              "evidence_level": "no_source",
-              "sources": [
-                {
-                  "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update",
-                  "publisher": "SEC EDGAR (8-K 첨부)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
-                  "date": "2026-07-29",
-                  "quote": "We have increased our 2026 revenue guidance to $1.1 – $1.2 billion.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ],
-              "statementOriginal": "회사는 2026년 매출 전망을 11억~12억 달러로 올려 잡았다.",
-              "stripped": true
-            },
-            {
-              "id": "g2",
-              "statement": "회사는 유럽의약품청이 연내에 난소암 적응증을 승인할 것으로 본다고 밝혔다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update",
-                  "publisher": "SEC EDGAR (8-K 첨부)",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
-                  "date": "2026-07-29",
-                  "quote": "We anticipate that the European Medicines Agency will approve our Marketing Authorization Application of relacorilant in platinum-resistant ovarian cancer later this year.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "estimateRevisions": {
-            "direction": "unknown",
-            "claims": []
-          }
-        },
-        "newDrivers": [
-          {
-            "what": "Lifyorli(렐라코릴란트) — 백금 저항성 난소암 치료제. 2026년 3월 미국 FDA 승인을 받은 신약이다",
-            "kind": "product",
-            "stage": "매출 발생 중",
-            "since": "2026-03",
-            "basis": [
-              {
-                "id": "d1a",
-                "statement": "3월 FDA 승인 이후 1,300명이 넘는 환자가 Lifyorli 투약을 시작했다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update",
-                    "publisher": "SEC EDGAR (8-K 첨부)",
-                    "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
-                    "date": "2026-07-29",
-                    "quote": "Over 1,300 patients have now started treatment with Lifyorli following FDA approval in March 2026.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "revenueImpact": [
-              {
-                "id": "d1b",
-                "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-                "evidence_level": "no_source",
-                "sources": [
-                  {
-                    "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update",
-                    "publisher": "SEC EDGAR (8-K 첨부)",
-                    "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
-                    "date": "2026-07-29",
-                    "quote": "Corcept's second quarter 2026 revenue was $256.1 million, compared to $194.4 million in the second quarter of 2025. Korlym and authorized generic product revenue was $208.6 million, compared to $194.4 million in the prior year period. Lifyorli product revenue was $47.6 million in its first quarter of availability.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ],
-                "statementOriginal": "판매 첫 분기 매출이 4,760만 달러로, 같은 분기 전체 매출 2억 5,610만 달러의 약 5분의 1을 차지했다.",
-                "stripped": true
-              }
-            ],
-            "profitImpact": [
-              {
-                "id": "d1c",
-                "statement": "출시 비용 때문에 2026년 2분기 영업비용이 2억 1,480만 달러로 1년 전 1억 6,780만 달러보다 늘었다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update",
-                    "publisher": "SEC EDGAR (8-K 첨부)",
-                    "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
-                    "date": "2026-07-29",
-                    "quote": "Second quarter 2026 operating expenses were $214.8 million, compared to $167.8 million in the same period in 2025, due to increased spending to launch Lifyorli and investments in our Cushing's syndrome business.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "expectedGrowth": [
-              {
-                "id": "d1d",
-                "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-                "evidence_level": "no_source",
-                "sources": [
-                  {
-                    "title": "Corcept Therapeutics Announces Second Quarter Financial Results and Provides Corporate Update",
-                    "publisher": "SEC EDGAR (8-K 첨부)",
-                    "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026050607/cort072926ex991pressrelease.htm",
-                    "date": "2026-07-29",
-                    "quote": "We have increased our 2026 revenue guidance to $1.1 – $1.2 billion.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ],
-                "statementOriginal": "회사가 내놓은 2026년 매출 전망은 11억~12억 달러로, 신약 출시 뒤 상향된 수치다.",
-                "stripped": true
-              }
-            ],
-            "counter": [
-              {
-                "id": "d1e",
-                "statement": "출시 비용이 매출보다 앞서 나가면 이익이 먼저 꺾인다 — 2026년 1분기 영업비용은 2억 1,450만 달러로 1년 전 1억 5,380만 달러에서 급증했다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Corcept Therapeutics Announces First Quarter Financial Results and Provides Corporate Update",
-                    "publisher": "SEC EDGAR (8-K 첨부)",
-                    "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026028892/cort043026ex991pressrelease.htm",
-                    "date": "2026-04-30",
-                    "quote": "First quarter 2026 operating expenses were $214.5 million, compared to $153.8 million in the same period last year, due to increased spending to prepare for the launch of Lifyorli to treat patients with platinum-resistant ovarian cancer and to invest in growth initiatives in our Cushing's syndrome business.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "what": "유럽 시장 진입 — 유럽의약품청 자문기구가 9월 18일 Lifyorli 승인을 권고했다",
-            "kind": "product",
-            "stage": "발표만",
-            "since": "2026-09-18",
-            "basis": [
-              {
-                "id": "d2a",
-                "statement": "자문기구가 유럽위원회에 렐라코릴란트 승인을 권고했고, 최종 결정은 4분기에 나온다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Corcept Announces CHMP Opinion Recommending EU Marketing Authorization for Lifyorli (relacorilant)",
-                    "publisher": "Finviz",
-                    "url": "https://finviz.com/news/393481/corcept-announces-chmp-opinion-recommending-eu-marketing-authorization-for-lifyorli-relacorilant",
-                    "date": "2026-09-18",
-                    "quote": "The EC will review the CHMP's opinion and issue a final decision regarding approval in the fourth quarter of 2026",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "revenueImpact": [],
-            "profitImpact": [],
-            "expectedGrowth": [],
-            "counter": []
-          },
-          {
-            "what": "내분비사업 대표 교체 — Sean Maduck 사임, Justin Gunn 승계",
-            "kind": "management",
-            "stage": "발표만",
-            "since": "2026-09-23",
-            "basis": [
-              {
-                "id": "d3a",
-                "statement": "기존 사업의 수장이 10월 1일자로 사임하고 후임이 정해졌다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Corcept Therapeutics Form 8-K (임원 변동)",
-                    "publisher": "SEC EDGAR",
-                    "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526398561/d148256d8k.htm",
-                    "date": "2026-09-23",
-                    "quote": "Sean Maduck, the President of Corcept Endocrinology, notified the Board of Directors of Corcept Therapeutics Incorporated (the \"Company\") of his decision to resign effective as of October 1, 2026.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "revenueImpact": [],
-            "profitImpact": [],
-            "expectedGrowth": [],
-            "counter": []
-          }
-        ],
-        "nNarrative": "새로운 것은 신약 Lifyorli 다. 2026년 3월 미국 승인을 받고 바로 팔리기 시작해, 판매 첫 분기인 2026년 2분기에 4,760만 달러를 올렸다. 같은 분기 영업비용은 2억 1,480만 달러로 1년 전 1억 6,780만 달러보다 늘어, 매출만큼 이익이 바로 따라오지는 않았다. 회사는 이 신약을 반영해 2026년 매출 전망을 11억~12억 달러로 올렸다. 유럽에서는 9월 18일 자문기구 권고가 나왔지만 유럽위원회 최종 결정은 4분기로 아직 남아 있다. 다음 분기에 신약 매출이 4,760만 달러보다 늘고 영업비용 증가가 멈추는지가 이 기대의 진위를 가른다.",
-        "nVerdict": "충족",
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "충족",
-            "evidence": "2026년 2분기 영업이익 전년비 +54.8%, 매출 +31.7%, 순이익 +22.3% (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "미충족",
-            "evidence": "최근 4개 분기 중 3개가 이익 전년비 감소 — 2026년 1분기 적자 전환, 2025년 4분기 -82.2%, 2025년 3분기 -78.1% (순이익 기준, 주식 수 변동 미반영). 3년 추세·자기자본이익률은 확인 불가"
-          },
-          {
-            "item": "N 새로운 것",
-            "status": "충족",
-            "evidence": "2026년 3월 승인된 신약 Lifyorli 가 판매 첫 분기에 4,760만 달러 매출, 연간 전망 11억~12억 달러로 상향. 1년 최고가의 95.89% 자리(참고)"
-          },
-          {
-            "item": "S 수급",
-            "status": "충족",
-            "evidence": "최근 5일 거래량이 20일 평균의 0.36배로 줄었고, 최근 10거래일 중 가장 많이 오른 10월 5일에 거래량 100만 4,800주로 가장 컸다. 유통주식 수는 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "확인 불가",
-            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "충족",
-            "evidence": "지수 10일선이 20일선 위, 둘 다 상승 중(17일째). 다만 빚내서 산 주식이 1년 전보다 +37.2% 로 주의선 +30% 초과"
-          }
-        ],
-        "risks": [
-          {
-            "id": "r1",
-            "statement": "법원이 Teva 의 Korlym 제네릭이 코셉트 특허를 침해하지 않는다고 판단해, 매출의 8할을 차지하는 기존 주력 제품이 복제약 경쟁에 노출됐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Corcept Therapeutics Form 8-K 첨부 보도자료 (Federal Circuit 판결)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526059551/d25779dex991.htm",
-                "date": "2026-02-19",
-                "quote": "The United States Court of Appeals for the Federal Circuit has found that Teva Pharmaceuticals' marketing of a generic version of Korlym® does not infringe two of Corcept's patents",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "r2",
-            "statement": "신약 출시 비용이 매출보다 먼저 늘어 2026년 1분기에 3,180만 달러 순손실이 났다 — 이익이 분기마다 흔들린다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Corcept Therapeutics Announces First Quarter Financial Results and Provides Corporate Update",
-                "publisher": "SEC EDGAR (8-K 첨부)",
-                "url": "https://www.sec.gov/Archives/edgar/data/0001088856/000162828026028892/cort043026ex991pressrelease.htm",
-                "date": "2026-04-30",
-                "quote": "Net loss of $31.8 million, compared to net income of $20.5 million in first quarter 2025",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "r3",
-            "statement": "매출의 대부분을 책임지는 내분비사업 대표가 10월 1일자로 물러났다 — 기존 제품 영업의 연속성이 시험대에 오른다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Corcept Therapeutics Form 8-K (임원 변동)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312526398561/d148256d8k.htm",
-                "date": "2026-09-23",
-                "quote": "Sean Maduck, the President of Corcept Endocrinology, notified the Board of Directors of Corcept Therapeutics Incorporated (the \"Company\") of his decision to resign effective as of October 1, 2026.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "r4",
-            "statement": "유럽 매출은 아직 없고, 유럽위원회가 4분기에 승인하지 않으면 유럽 기대분이 통째로 미뤄진다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Corcept Announces CHMP Opinion Recommending EU Marketing Authorization for Lifyorli (relacorilant)",
-                "publisher": "Finviz",
-                "url": "https://finviz.com/news/393481/corcept-announces-chmp-opinion-recommending-eu-marketing-authorization-for-lifyorli-relacorilant",
-                "date": "2026-09-18",
-                "quote": "The EC will review the CHMP's opinion and issue a final decision regarding approval in the fourth quarter of 2026",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "structuralRisks": [
-          "매출이 코티솔 조절제라는 한 계열의 약 두 개에서만 나온다",
-          "주력 제품이 복제약 진입에 열려 있어 가격·점유율이 법원 판단에 좌우된다",
-          "신약 매출이 규제기관 승인 일정에 묶여 있어 회사가 시점을 통제하지 못한다"
-        ],
-        "chartCheck": [
-          {
-            "item": "선행 상승",
-            "status": "충족",
-            "evidence": "횡보 전 상승 131.5%, 최근 3개월 수익률 33.9%"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "충족",
-            "evidence": "40거래일, 8주 — 2~8주 범위의 끝"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "충족",
-            "evidence": "저점 상승 2회, 움직임 폭이 직전의 0.88배로 좁아짐"
-          },
-          {
-            "item": "깊이",
-            "status": "충족",
-            "evidence": "선행 상승 131.5% 의 절반에 한참 못 미침"
-          },
-          {
-            "item": "이평선 위",
-            "status": "충족",
-            "evidence": "현재가 121.19 > 20일선 116.23 > 50일선 115.31, 150일선 80.94"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "충족",
-            "evidence": "최근 5일 거래량이 20일 평균의 0.36배 — 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "아직 피벗 아래라 돌파봉이 없다. 최근 거래량은 20일 평균의 0.29배 — 밤에 2배가 실리는지 본다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "충족",
-            "evidence": "피벗 126.38 대비 -4.11%, 하루 평균 변동폭 기준 0.88배 아래"
-          },
-          {
-            "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절까지 4.5%, 하루 평균 변동폭 4.69% 안"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 118.24 위로 0.52배 — 2배 이하"
-          },
-          {
-            "item": "시장",
-            "status": "충족",
-            "evidence": "지수 10일선이 20일선 위, 둘 다 상승 중(17일째)"
-          }
-        ],
-        "chartObservation": {
-          "base": "8주(40거래일)째 좁은 구간에서 움직이고 있다. 구간 고점 대비 저점 깊이는 14.3% 로, 하루 평균 변동폭 4.69% 의 약 3배다. 저점이 두 번 높아졌고 움직임 폭은 직전 구간의 0.88배로 좁아졌다.",
-          "volume": "횡보가 길어지면서 거래량이 줄었다 — 최근 5일 거래량이 20일 평균의 0.36배다. 최근 10거래일 중 가장 많이 오른 10월 5일(종가 122.03)에 거래량 100만 4,800주로 가장 컸다. 그 뒤 10월 8일 49만 6,600주, 10월 12일 49만 7,700주로 다시 줄었다.",
-          "position": "현재가 121.19 는 넘으면 사는 선 126.38 보다 4.11% 아래이고, 하루 평균 변동폭 기준 0.88배 거리다. 예비 손절 120.70 바로 위라 손절까지 폭은 4.5% 로 하루 평균 변동폭 4.69% 안이다. 10일선 118.24 위로는 0.52배만 떠 있다.",
-          "maStack": "현재가 121.19 가 20일선 116.23, 50일선 115.31, 150일선 80.94 를 모두 위에 두고 있다. 20일선 기울기는 +1.35% 로 오르는 중이다.",
-          "note": "그림에서도 8주 횡보 구간과 줄어드는 거래량 막대가 보여 숫자와 일치한다. 다만 9월 하순에 하루만 거래량 막대가 크게 솟은 날이 있다."
-        },
-        "entryChecklist": [
-          "넘으면 사는 선 126.38 을 거래량 20일 평균 2배 이상으로 종가 돌파하는지",
-          "그 앞에 놓인 저항 122.21 을 먼저 넘고 그 위에서 종가가 유지되는지",
-          "유럽위원회가 4분기 안에 Lifyorli 를 실제로 승인하는지 — 자문기구 권고는 승인이 아니다",
-          "다음 분기 실적에서 Lifyorli 매출이 첫 분기 4,760만 달러보다 늘고 영업비용 증가가 멈추는지",
-          "예비 손절 120.70 을 종가로 깨는지 — 깨면 이 횡보 그림은 틀린 것이다"
-        ],
-        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 다만 2분기 실적은 7월 29일, 1분기는 4월 30일에 공시돼 3분기 발표가 10월 말에서 11월 초에 들어올 수 있다.",
-        "confidence": "high",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "n4"
-          ],
-          "reasons": [
-            "n4: Justin Gunn 후임 지정이 제공된 quote에 없음 (only Maduck resignation confirmed)"
-          ]
-        },
-        "consensus": {
-          "saleCy": 50.53,
-          "saleNy": 48.75,
-          "epsCy": 162.2,
-          "epsNy": 104.77,
-          "cyTrend": 286.23,
-          "nyTrend": 37.29
-        },
-        "researchedOn": "2026-10-13",
-        "session": "2026-10-12",
-        "carried": false
-      }
+      "score": 66.1
+    },
+    {
+      "ticker": "XMTR",
+      "name": "조메트리",
+      "sector": "Industrials",
+      "industry": "Industrial Distribution",
+      "grade": "A",
+      "state": "pre",
+      "asOf": "2026-10-13",
+      "price": 107.9,
+      "pivot": 112.94,
+      "pivotDate": "2026-10-06",
+      "stop": 107.11,
+      "riskPerSharePct": 5.16,
+      "weightPct": 9.7,
+      "weightCapped": false,
+      "distToPivotPct": -4.46,
+      "distToPivotAdr": -0.83,
+      "extensionAdr": 0.17,
+      "chase": false,
+      "adrPct": 5.4,
+      "ma10": 106.92,
+      "dollarVol20M": 91.2,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +40%",
+        "베이스 2.4주",
+        "깊이 14.4%",
+        "저점 상승 1회",
+        "진폭 0.82배 · 10일 종가폭 1.5 ADR",
+        "10일선 +0.2 ADR · 20일선 +0.8 ADR",
+        "20일선 기울기 +5.72%"
+      ],
+      "fails": [],
+      "metrics": {
+        "baseBars": 12,
+        "baseWeeks": 2.4,
+        "depthPct": 14.4,
+        "priorMovePct": 40.1,
+        "higherLows": 1,
+        "contraction": 0.82,
+        "closeRange10Adr": 1.5,
+        "surf10": 0.17,
+        "surf20": 0.76,
+        "slope20": 5.72,
+        "baseLow": 96.68,
+        "lastSwingLow": 100.55
+      },
+      "catalyst": null,
+      "earnings": null,
+      "blocked": null,
+      "shadowBook": null,
+      "watch": true,
+      "score": 65.5
+    },
+    {
+      "ticker": "SEI",
+      "name": "솔라리스 에너지 인프라스트럭처",
+      "sector": "Energy",
+      "industry": "Oil & Gas Equipment & Services",
+      "grade": "B",
+      "state": "pre",
+      "asOf": "2026-10-13",
+      "price": 77.83,
+      "pivot": 80.28,
+      "pivotDate": "2026-10-06",
+      "stop": 76.17,
+      "riskPerSharePct": 5.12,
+      "weightPct": 9.8,
+      "weightCapped": false,
+      "distToPivotPct": -3.05,
+      "distToPivotAdr": -0.58,
+      "extensionAdr": 0.57,
+      "chase": false,
+      "adrPct": 5.28,
+      "ma10": 75.5,
+      "dollarVol20M": 180.9,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +88%",
+        "✗ 베이스 1.8주",
+        "깊이 16.1%",
+        "저점 상승 1회",
+        "진폭 1.03배 · 10일 종가폭 2.1 ADR",
+        "10일선 +0.6 ADR · 20일선 +1.4 ADR",
+        "20일선 기울기 +4.43%"
+      ],
+      "fails": [
+        "baseLen"
+      ],
+      "metrics": {
+        "baseBars": 9,
+        "baseWeeks": 1.8,
+        "depthPct": 16.1,
+        "priorMovePct": 88.1,
+        "higherLows": 1,
+        "contraction": 1.03,
+        "closeRange10Adr": 2.1,
+        "surf10": 0.57,
+        "surf20": 1.43,
+        "slope20": 4.43,
+        "baseLow": 67.32,
+        "lastSwingLow": 70.17
+      },
+      "catalyst": null,
+      "earnings": null,
+      "blocked": null,
+      "shadowBook": null,
+      "watch": true,
+      "score": 57
     },
     {
       "ticker": "DELL",
@@ -625,45 +181,45 @@ window.TEAM6_DATA = {
       "industry": "Computer Hardware",
       "grade": "B",
       "state": "pre",
-      "asOf": "2026-10-12",
-      "price": 576.76,
+      "asOf": "2026-10-13",
+      "price": 572.47,
       "pivot": 595.51,
       "pivotDate": "2026-09-18",
-      "stop": 570.2,
-      "riskPerSharePct": 4.25,
+      "stop": 570.31,
+      "riskPerSharePct": 4.23,
       "weightPct": 11.8,
       "weightCapped": false,
-      "distToPivotPct": -3.15,
-      "distToPivotAdr": -0.72,
-      "extensionAdr": 0.57,
+      "distToPivotPct": -3.87,
+      "distToPivotAdr": -0.88,
+      "extensionAdr": 0.27,
       "chase": false,
-      "adrPct": 4.39,
-      "ma10": 562.44,
-      "dollarVol20M": 4078,
+      "adrPct": 4.4,
+      "ma10": 565.73,
+      "dollarVol20M": 3970.6,
       "liquid": true,
       "reasons": [
         "선행 상승 +66%",
-        "베이스 4.2주",
+        "베이스 4.4주",
         "깊이 13.1%",
         "✗ 저점 상승 0회",
-        "진폭 0.81배 · 10일 종가폭 1.9 ADR",
-        "10일선 +0.6 ADR · 20일선 +0.7 ADR",
-        "20일선 기울기 +1.94%"
+        "진폭 0.93배 · 10일 종가폭 1.9 ADR",
+        "10일선 +0.3 ADR · 20일선 +0.4 ADR",
+        "20일선 기울기 +1.83%"
       ],
       "fails": [
         "higherLows"
       ],
       "metrics": {
-        "baseBars": 21,
-        "baseWeeks": 4.2,
+        "baseBars": 22,
+        "baseWeeks": 4.4,
         "depthPct": 13.1,
         "priorMovePct": 65.9,
         "higherLows": 0,
-        "contraction": 0.81,
+        "contraction": 0.93,
         "closeRange10Adr": 1.9,
-        "surf10": 0.57,
-        "surf20": 0.65,
-        "slope20": 1.94,
+        "surf10": 0.27,
+        "surf20": 0.43,
+        "slope20": 1.83,
         "baseLow": 517.52,
         "lastSwingLow": 520.18
       },
@@ -672,7 +228,7 @@ window.TEAM6_DATA = {
       "blocked": null,
       "shadowBook": null,
       "watch": true,
-      "score": 56.9,
+      "score": 56.1,
       "deep": {
         "status": "done",
         "canslim": [
@@ -1427,8 +983,506 @@ window.TEAM6_DATA = {
         },
         "researchedOn": "2026-10-13",
         "session": "2026-10-12",
-        "carried": false
+        "carried": true
       }
+    },
+    {
+      "ticker": "ZBRA",
+      "name": null,
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "grade": "A",
+      "state": "pre",
+      "asOf": "2026-10-13",
+      "price": 386.57,
+      "pivot": 390.8,
+      "pivotDate": "2026-10-06",
+      "stop": 380.84,
+      "riskPerSharePct": 2.55,
+      "weightPct": 19.6,
+      "weightCapped": false,
+      "distToPivotPct": -1.08,
+      "distToPivotAdr": -0.42,
+      "extensionAdr": 0.5,
+      "chase": false,
+      "adrPct": 2.58,
+      "ma10": 381.61,
+      "dollarVol20M": 197.2,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +56%",
+        "베이스 2.4주",
+        "깊이 6.9%",
+        "저점 상승 1회",
+        "진폭 0.85배 · 10일 종가폭 1.5 ADR",
+        "10일선 +0.5 ADR · 20일선 +1.6 ADR",
+        "20일선 기울기 +2.72%"
+      ],
+      "fails": [],
+      "metrics": {
+        "baseBars": 12,
+        "baseWeeks": 2.4,
+        "depthPct": 6.9,
+        "priorMovePct": 56.1,
+        "higherLows": 1,
+        "contraction": 0.85,
+        "closeRange10Adr": 1.5,
+        "surf10": 0.5,
+        "surf20": 1.57,
+        "slope20": 2.72,
+        "baseLow": 363.94,
+        "lastSwingLow": 370.82
+      },
+      "catalyst": null,
+      "earnings": null,
+      "blocked": "ADR 2.58% — 기준(4%) 미달",
+      "shadowBook": null,
+      "watch": false,
+      "score": 68.9
+    },
+    {
+      "ticker": "FLXS",
+      "name": null,
+      "sector": "Consumer Cyclical",
+      "industry": "Furnishings, Fixtures & Appliances",
+      "grade": "A",
+      "state": "pre",
+      "asOf": "2026-10-13",
+      "price": 87.09,
+      "pivot": 90.65,
+      "pivotDate": "2026-09-28",
+      "stop": 87.49,
+      "riskPerSharePct": 3.49,
+      "weightPct": 14.3,
+      "weightCapped": false,
+      "distToPivotPct": -3.93,
+      "distToPivotAdr": -1.08,
+      "extensionAdr": 0.08,
+      "chase": false,
+      "adrPct": 3.63,
+      "ma10": 86.83,
+      "dollarVol20M": 6.4,
+      "liquid": false,
+      "reasons": [
+        "선행 상승 +33%",
+        "베이스 3주",
+        "깊이 9.8%",
+        "저점 상승 1회",
+        "진폭 0.93배 · 10일 종가폭 1.3 ADR",
+        "10일선 +0.1 ADR · 20일선 +0.5 ADR",
+        "20일선 기울기 +1.25%"
+      ],
+      "fails": [],
+      "metrics": {
+        "baseBars": 15,
+        "baseWeeks": 3,
+        "depthPct": 9.8,
+        "priorMovePct": 33.5,
+        "higherLows": 1,
+        "contraction": 0.93,
+        "closeRange10Adr": 1.3,
+        "surf10": 0.08,
+        "surf20": 0.49,
+        "slope20": 1.25,
+        "baseLow": 81.73,
+        "lastSwingLow": 81.73
+      },
+      "catalyst": null,
+      "earnings": null,
+      "blocked": "ADR 3.63% — 기준(4%) 미달",
+      "shadowBook": null,
+      "watch": false,
+      "score": 66.1
+    },
+    {
+      "ticker": "CORT",
+      "name": "코셉트 테라퓨틱스",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "grade": "A",
+      "state": "pre",
+      "asOf": "2026-10-13",
+      "price": 117.8,
+      "pivot": 126.38,
+      "pivotDate": "2026-08-25",
+      "stop": 120.77,
+      "riskPerSharePct": 4.44,
+      "weightPct": 11.3,
+      "weightCapped": false,
+      "distToPivotPct": -6.79,
+      "distToPivotAdr": -1.43,
+      "extensionAdr": -0.13,
+      "chase": false,
+      "adrPct": 4.76,
+      "ma10": 118.54,
+      "dollarVol20M": 187,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +121%",
+        "베이스 8주",
+        "깊이 14.3%",
+        "저점 상승 2회",
+        "진폭 0.79배 · 10일 종가폭 1.4 ADR",
+        "10일선 -0.1 ADR · 20일선 +0.2 ADR",
+        "20일선 기울기 +1.4%"
+      ],
+      "fails": [],
+      "metrics": {
+        "baseBars": 40,
+        "baseWeeks": 8,
+        "depthPct": 14.3,
+        "priorMovePct": 121.3,
+        "higherLows": 2,
+        "contraction": 0.79,
+        "closeRange10Adr": 1.4,
+        "surf10": -0.13,
+        "surf20": 0.22,
+        "slope20": 1.4,
+        "baseLow": 108.25,
+        "lastSwingLow": 111.94
+      },
+      "catalyst": null,
+      "earnings": null,
+      "blocked": "피벗까지 1.43 ADR — 1 ADR 넘게 떨어져 있음",
+      "shadowBook": "far",
+      "watch": false,
+      "score": 63.2
+    },
+    {
+      "ticker": "SYNA",
+      "name": null,
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "grade": "B",
+      "state": "pre",
+      "asOf": "2026-10-13",
+      "price": 119.44,
+      "pivot": 121.98,
+      "pivotDate": "2026-10-02",
+      "stop": 117.97,
+      "riskPerSharePct": 3.29,
+      "weightPct": 15.2,
+      "weightCapped": false,
+      "distToPivotPct": -2.08,
+      "distToPivotAdr": -0.62,
+      "extensionAdr": 0.73,
+      "chase": false,
+      "adrPct": 3.36,
+      "ma10": 116.5,
+      "dollarVol20M": 128.4,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +38%",
+        "✗ 베이스 1.4주",
+        "깊이 3%",
+        "저점 상승 1회",
+        "진폭 0.47배 · 10일 종가폭 4.9 ADR",
+        "10일선 +0.7 ADR · 20일선 +3.2 ADR",
+        "20일선 기울기 +5.78%"
+      ],
+      "fails": [
+        "baseLen"
+      ],
+      "metrics": {
+        "baseBars": 7,
+        "baseWeeks": 1.4,
+        "depthPct": 3,
+        "priorMovePct": 38.5,
+        "higherLows": 1,
+        "contraction": 0.47,
+        "closeRange10Adr": 4.9,
+        "surf10": 0.73,
+        "surf20": 3.22,
+        "slope20": 5.78,
+        "baseLow": 118.3,
+        "lastSwingLow": 118.3
+      },
+      "catalyst": null,
+      "earnings": null,
+      "blocked": "ADR 3.36% — 기준(4%) 미달",
+      "shadowBook": null,
+      "watch": false,
+      "score": 57.9
+    },
+    {
+      "ticker": "PAYC",
+      "name": "페이컴 소프트웨어",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "grade": "B",
+      "state": "pre",
+      "asOf": "2026-10-13",
+      "price": 236.65,
+      "pivot": 244.98,
+      "pivotDate": "2026-09-03",
+      "stop": 238.22,
+      "riskPerSharePct": 2.76,
+      "weightPct": 18.1,
+      "weightCapped": false,
+      "distToPivotPct": -3.4,
+      "distToPivotAdr": -1.19,
+      "extensionAdr": 1.4,
+      "chase": false,
+      "adrPct": 2.86,
+      "ma10": 227.17,
+      "dollarVol20M": 146.4,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +102%",
+        "베이스 7.2주",
+        "깊이 13.3%",
+        "✗ 저점 상승 0회",
+        "진폭 0.82배 · 10일 종가폭 2.8 ADR",
+        "10일선 +1.4 ADR · 20일선 +1.7 ADR",
+        "20일선 기울기 +1.29%"
+      ],
+      "fails": [
+        "higherLows"
+      ],
+      "metrics": {
+        "baseBars": 36,
+        "baseWeeks": 7.2,
+        "depthPct": 13.3,
+        "priorMovePct": 102.5,
+        "higherLows": 0,
+        "contraction": 0.82,
+        "closeRange10Adr": 2.8,
+        "surf10": 1.4,
+        "surf20": 1.69,
+        "slope20": 1.29,
+        "baseLow": 212.4,
+        "lastSwingLow": 212.4
+      },
+      "catalyst": null,
+      "earnings": null,
+      "blocked": "ADR 2.86% — 기준(4%) 미달",
+      "shadowBook": null,
+      "watch": false,
+      "score": 56.6
+    },
+    {
+      "ticker": "IT",
+      "name": null,
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "grade": "B",
+      "state": "pre",
+      "asOf": "2026-10-13",
+      "price": 196.96,
+      "pivot": 204.29,
+      "pivotDate": "2026-10-01",
+      "stop": 197.13,
+      "riskPerSharePct": 3.5,
+      "weightPct": 14.3,
+      "weightCapped": false,
+      "distToPivotPct": -3.59,
+      "distToPivotAdr": -0.99,
+      "extensionAdr": 0.97,
+      "chase": false,
+      "adrPct": 3.63,
+      "ma10": 190.02,
+      "dollarVol20M": 170.7,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +59%",
+        "✗ 베이스 1.8주",
+        "깊이 10.4%",
+        "저점 상승 1회",
+        "진폭 0.97배 · 10일 종가폭 1.7 ADR",
+        "10일선 +1 ADR · 20일선 +1.4 ADR",
+        "20일선 기울기 +1.38%"
+      ],
+      "fails": [
+        "baseLen"
+      ],
+      "metrics": {
+        "baseBars": 9,
+        "baseWeeks": 1.8,
+        "depthPct": 10.4,
+        "priorMovePct": 58.6,
+        "higherLows": 1,
+        "contraction": 0.97,
+        "closeRange10Adr": 1.7,
+        "surf10": 0.97,
+        "surf20": 1.36,
+        "slope20": 1.38,
+        "baseLow": 183,
+        "lastSwingLow": 183
+      },
+      "catalyst": null,
+      "earnings": null,
+      "blocked": "ADR 3.63% — 기준(4%) 미달",
+      "shadowBook": null,
+      "watch": false,
+      "score": 56.4
+    },
+    {
+      "ticker": "FET",
+      "name": "포럼 에너지 테크놀로지스",
+      "sector": "Energy",
+      "industry": "Oil & Gas Equipment & Services",
+      "grade": "B",
+      "state": "pre",
+      "asOf": "2026-10-13",
+      "price": 85.04,
+      "pivot": 89.93,
+      "pivotDate": "2026-10-05",
+      "stop": 86.54,
+      "riskPerSharePct": 3.77,
+      "weightPct": 13.2,
+      "weightCapped": false,
+      "distToPivotPct": -5.44,
+      "distToPivotAdr": -1.36,
+      "extensionAdr": 0.3,
+      "chase": false,
+      "adrPct": 3.99,
+      "ma10": 84.02,
+      "dollarVol20M": 15,
+      "liquid": false,
+      "reasons": [
+        "선행 상승 +88%",
+        "✗ 베이스 1.6주",
+        "깊이 11%",
+        "저점 상승 1회",
+        "진폭 1.15배 · 10일 종가폭 1.9 ADR",
+        "10일선 +0.3 ADR · 20일선 +0.6 ADR",
+        "20일선 기울기 +0.92%"
+      ],
+      "fails": [
+        "baseLen"
+      ],
+      "metrics": {
+        "baseBars": 8,
+        "baseWeeks": 1.6,
+        "depthPct": 11,
+        "priorMovePct": 88.2,
+        "higherLows": 1,
+        "contraction": 1.15,
+        "closeRange10Adr": 1.9,
+        "surf10": 0.3,
+        "surf20": 0.59,
+        "slope20": 0.92,
+        "baseLow": 80.02,
+        "lastSwingLow": 81.06
+      },
+      "catalyst": null,
+      "earnings": null,
+      "blocked": "ADR 3.99% — 기준(4%) 미달",
+      "shadowBook": null,
+      "watch": false,
+      "score": 54.6
+    },
+    {
+      "ticker": "AUGO",
+      "name": "오라 미네랄스",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "grade": "B",
+      "state": "pre",
+      "asOf": "2026-10-13",
+      "price": 87.94,
+      "pivot": 93.49,
+      "pivotDate": "2026-09-17",
+      "stop": 89.23,
+      "riskPerSharePct": 4.56,
+      "weightPct": 11,
+      "weightCapped": false,
+      "distToPivotPct": -5.94,
+      "distToPivotAdr": -1.23,
+      "extensionAdr": 0.76,
+      "chase": false,
+      "adrPct": 4.84,
+      "ma10": 84.68,
+      "dollarVol20M": 90.2,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +95%",
+        "베이스 5.6주",
+        "깊이 17.6%",
+        "저점 상승 1회",
+        "✗ 진폭 1.01배 · 10일 종가폭 3.1 ADR",
+        "10일선 +0.8 ADR · 20일선 +0.7 ADR",
+        "20일선 기울기 +0.3%"
+      ],
+      "fails": [
+        "tight"
+      ],
+      "metrics": {
+        "baseBars": 28,
+        "baseWeeks": 5.6,
+        "depthPct": 17.6,
+        "priorMovePct": 94.6,
+        "higherLows": 1,
+        "contraction": 1.01,
+        "closeRange10Adr": 3.1,
+        "surf10": 0.76,
+        "surf20": 0.68,
+        "slope20": 0.3,
+        "baseLow": 77,
+        "lastSwingLow": 80.28
+      },
+      "catalyst": null,
+      "earnings": null,
+      "blocked": "피벗까지 1.23 ADR — 1 ADR 넘게 떨어져 있음",
+      "shadowBook": "far",
+      "watch": false,
+      "score": 54.1
+    },
+    {
+      "ticker": "FROG",
+      "name": null,
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "grade": "B",
+      "state": "pre",
+      "asOf": "2026-10-13",
+      "price": 99.28,
+      "pivot": 105.76,
+      "pivotDate": "2026-08-28",
+      "stop": 100.83,
+      "riskPerSharePct": 4.66,
+      "weightPct": 10.7,
+      "weightCapped": false,
+      "distToPivotPct": -6.13,
+      "distToPivotAdr": -1.23,
+      "extensionAdr": 0.21,
+      "chase": false,
+      "adrPct": 4.97,
+      "ma10": 98.24,
+      "dollarVol20M": 143.9,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +47%",
+        "베이스 6.4주",
+        "깊이 22.8%",
+        "✗ 저점 상승 0회",
+        "진폭 0.97배 · 10일 종가폭 1.4 ADR",
+        "10일선 +0.2 ADR · 20일선 +0.9 ADR",
+        "20일선 기울기 +2.43%"
+      ],
+      "fails": [
+        "higherLows"
+      ],
+      "metrics": {
+        "baseBars": 32,
+        "baseWeeks": 6.4,
+        "depthPct": 22.8,
+        "priorMovePct": 46.6,
+        "higherLows": 0,
+        "contraction": 0.97,
+        "closeRange10Adr": 1.4,
+        "surf10": 0.21,
+        "surf20": 0.88,
+        "slope20": 2.43,
+        "baseLow": 81.68,
+        "lastSwingLow": 85.03
+      },
+      "catalyst": null,
+      "earnings": null,
+      "blocked": "피벗까지 1.23 ADR — 1 ADR 넘게 떨어져 있음",
+      "shadowBook": "far",
+      "watch": false,
+      "score": 53.9
     },
     {
       "ticker": "KOD",
@@ -1437,732 +1491,251 @@ window.TEAM6_DATA = {
       "industry": "Biotechnology",
       "grade": "B",
       "state": "pre",
-      "asOf": "2026-10-12",
-      "price": 99.26,
+      "asOf": "2026-10-13",
+      "price": 91.63,
       "pivot": 104,
       "pivotDate": "2026-10-01",
-      "stop": 93.83,
-      "riskPerSharePct": 9.78,
-      "weightPct": 5.1,
+      "stop": 94.32,
+      "riskPerSharePct": 9.3,
+      "weightPct": 5.4,
       "weightCapped": false,
-      "distToPivotPct": -4.56,
-      "distToPivotAdr": -0.44,
-      "extensionAdr": 0.42,
+      "distToPivotPct": -11.89,
+      "distToPivotAdr": -1.13,
+      "extensionAdr": -0.35,
       "chase": false,
-      "adrPct": 10.25,
-      "ma10": 94.95,
-      "dollarVol20M": 322.7,
+      "adrPct": 10.56,
+      "ma10": 95,
+      "dollarVol20M": 328.4,
       "liquid": true,
       "reasons": [
         "선행 상승 +249%",
-        "베이스 2주",
+        "베이스 2.2주",
         "✗ 깊이 41.8%",
         "저점 상승 1회",
-        "진폭 1.44배 · 10일 종가폭 0.9 ADR",
-        "10일선 +0.4 ADR · 20일선 +3.2 ADR",
-        "20일선 기울기 +30.15%"
+        "진폭 1.22배 · 10일 종가폭 0.9 ADR",
+        "10일선 -0.3 ADR · 20일선 +2.3 ADR",
+        "20일선 기울기 +28.68%"
       ],
       "fails": [
         "depth"
       ],
       "metrics": {
-        "baseBars": 10,
-        "baseWeeks": 2,
+        "baseBars": 11,
+        "baseWeeks": 2.2,
         "depthPct": 41.8,
         "priorMovePct": 248.9,
         "higherLows": 1,
-        "contraction": 1.44,
+        "contraction": 1.22,
         "closeRange10Adr": 0.9,
-        "surf10": 0.42,
-        "surf20": 3.2,
-        "slope20": 30.15,
+        "surf10": -0.35,
+        "surf20": 2.27,
+        "slope20": 28.68,
         "baseLow": 60.49,
         "lastSwingLow": 87.58
       },
       "catalyst": null,
       "earnings": null,
-      "blocked": null,
-      "shadowBook": null,
-      "watch": true,
-      "score": 55.4,
-      "deep": {
-        "status": "done",
-        "ticker": "KOD",
-        "company": "코디악 사이언시스는 눈 뒤쪽 망막에 생기는 질환을 치료하는 주사제를 개발하는 미국 바이오 회사다. 아직 허가받은 약이 없어 매출이 없고, 연구개발비를 쓰며 임상시험 결과로 가치를 평가받는다. 주력은 습성 황반변성·당뇨망막병증·망막정맥폐쇄를 겨냥한 Zenkuda(tarcocimab tedromer)이며, 그 뒤를 KSI-501과 KSI-101이 잇는다.",
-        "lead": "임상 성공 하나로 주가가 1년 만에 몇 배 오른 신약 개발사이고, 지금은 전고점 바로 아래에서 2주째 쉬고 있다. 가장 강한 근거는 9월 28일 Zenkuda 3상에서 환자 54%가 6개월에 한 번 투약하고도 기존 표준 치료제와 대등한 결과를 낸 것이다. 가장 큰 걱정은 돈이다 — 매출이 0인데 2분기 말 현금은 1억 2,590만 달러뿐이라 상업화 전 증자 가능성이 거론된다. 유상증자 공시가 나오거나 올해 4분기로 예고한 허가신청이 미뤄지면 이 그림은 깨진다.",
-        "newsNarrative": "9월 28일 Zenkuda의 습성 황반변성 3상 결과가 나오면서 주가가 뛰었다. 환자 54%가 6개월에 한 번만 맞고도 기존 표준 치료제와 비슷한 시력 개선을 보였기 때문이다. 회사는 이 결과를 포함한 5건의 3상을 묶어 올해 4분기에 미국 허가신청을 내겠다고 밝혔다. 발표 뒤 증권사 목표주가 평균은 117.50달러로 올라갔다.",
-        "recentNews": [
-          {
-            "id": "n1",
-            "statement": "9월 28일 Zenkuda가 습성 황반변성 3상에서 1차 평가지표를 충족했다고 발표했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Kodiak Sciences Announces Positive Phase 3 DAYBREAK Results (8-K Exhibit 99.1)",
-                "publisher": "미국 증권거래위원회(SEC) EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526403481/d185059dex991.htm",
-                "date": "2026-09-28",
-                "quote": "Zenkuda (tarcocimab tedromer) met the primary endpoint (p-value of 0.0007)",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "n2",
-            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [
-              {
-                "title": "Kodiak Sciences Announces Positive Phase 3 DAYBREAK Results (8-K Exhibit 99.1)",
-                "publisher": "미국 증권거래위원회(SEC) EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526403481/d185059dex991.htm",
-                "date": "2026-09-28",
-                "quote": "Tabirafusp alfa tedromer (tabirafusp-ted) met the vision primary endpoint (p-value of 0.0036)",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ],
-            "statementOriginal": "함께 시험한 tabirafusp-ted(KSI-501)도 시력 1차 평가지표를 충족했다.",
-            "stripped": true
-          },
-          {
-            "id": "n3",
-            "statement": "회사는 Zenkuda 허가신청(BLA)을 올해 4분기에 제출하겠다고 밝혔다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Kodiak Sciences Announces Positive Phase 3 DAYBREAK Results (8-K Exhibit 99.1)",
-                "publisher": "미국 증권거래위원회(SEC) EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526403481/d185059dex991.htm",
-                "date": "2026-09-28",
-                "quote": "We plan to file a biologics license application (BLA) for Zenkuda in the fourth quarter of 2026.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "n4",
-            "statement": "키움증권은 환자 54%가 6개월에 1회 투여로 아일리아 대비 비열등을 입증했다고 정리했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
-                "publisher": "키움증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
-                "date": "2026-09-30",
-                "quote": "Zenkuda가 습성 황반변성 3상에서 환자 54%에 6개월에 1회 투여하며 아일리아 대비 비열등 입증하며 주가 약 170% 상승",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "n5",
-            "statement": "3상 결과 발표 직후 주가가 급등해 52주 신고가 바이오 종목으로 꼽혔다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Biotech Stocks At 52-Week Highs - KOD +177% On Phase 3 Data; GRAL, IOVA, RGEN",
-                "publisher": "RTTNews (Nasdaq)",
-                "url": "https://www.nasdaq.com/articles/biotech-stocks-52-week-highs-kod-177-phase-3-data-gral-iova-rgen",
-                "date": "2026-09-29",
-                "quote": "Biotech Stocks At 52-Week Highs - KOD +177% On Phase 3 Data; GRAL, IOVA, RGEN",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "n6",
-            "statement": "증권사 목표주가 평균이 117.50달러로 65.16% 올랐다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Kodiak Sciences Consensus Price Target Increased by 65.16% to $117.50",
-                "publisher": "Fintel (Nasdaq)",
-                "url": "https://www.nasdaq.com/articles/kodiak-sciences-consensus-price-target-increased-6516-11750",
-                "date": "2026-10-02",
-                "quote": "Kodiak Sciences Consensus Price Target Increased by 65.16% to $117.50",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          }
-        ],
-        "financialsNarrative": "매출이 아직 없다. 2026년 2분기 순손실은 6,560만 달러였고 그중 연구개발비가 5,610만 달러로 대부분을 차지했다. 2분기 말 현금은 1억 2,590만 달러이며, 회사는 이 자금으로 2027년까지 운영이 가능하다고 밝혔다. 키움증권은 첫 매출을 2027년 32백만 달러로 추정하면서도 그 해 순이익은 -293으로 적자가 이어진다고 봤다.",
-        "financials": {
-          "revenueTrend": [
-            {
-              "id": "f1",
-              "statement": "매출이 아직 없다 — 키움증권 추정으로도 FY26까지 매출액 0, FY27에 처음 32백만 달러가 잡힌다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
-                  "publisher": "키움증권(연합인포맥스)",
-                  "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
-                  "date": "2026-09-30",
-                  "quote": "(백만 $) FY24 FY25 FY26E FY27E 매출액 0 0 0 32",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "f2",
-              "statement": "2026년 2분기 실적 발표에도 매출 항목이 없고 비용과 손실만 보고됐다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Kodiak Sciences Reports Second Quarter 2026 Financial Results (8-K Exhibit 99.1)",
-                  "publisher": "미국 증권거래위원회(SEC) EDGAR",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526349107/kod-ex99_1.htm",
-                  "date": "2026-08-13",
-                  "quote": "Research and development expenses were $56.1 million for the second quarter of 2026",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "profitTrend": [
-            {
-              "id": "f3",
-              "statement": "2026년 2분기 순손실은 6,560만 달러였다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Kodiak Sciences Reports Second Quarter 2026 Financial Results (8-K Exhibit 99.1)",
-                  "publisher": "미국 증권거래위원회(SEC) EDGAR",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526349107/kod-ex99_1.htm",
-                  "date": "2026-08-13",
-                  "quote": "Net loss was $65.6 million, or $1.05 per share on a basic and diluted basis",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "f4",
-              "statement": "적자는 줄기는커녕 커지는 중이다 — 키움증권 추정 순이익은 -176, -230, -266, -293으로 이어진다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
-                  "publisher": "키움증권(연합인포맥스)",
-                  "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
-                  "date": "2026-09-30",
-                  "quote": "(백만 $) FY24 FY25 FY26E FY27E 영업이익 -187 -234 -270 -279 순이익 -176 -230 -266 -293",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "guidance": [
-            {
-              "id": "g1",
-              "statement": "회사는 보유 현금으로 2027년까지 현재 및 계획된 운영을 이어갈 수 있다고 밝혔다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Kodiak Sciences Reports Second Quarter 2026 Financial Results (8-K Exhibit 99.1)",
-                  "publisher": "미국 증권거래위원회(SEC) EDGAR",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526349107/kod-ex99_1.htm",
-                  "date": "2026-08-13",
-                  "quote": "We expect that our current cash and cash equivalents will support our current and planned operations into 2027.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            },
-            {
-              "id": "g2",
-              "statement": "2분기 말 현금은 1억 2,590만 달러다.",
-              "evidence_level": "sourced",
-              "sources": [
-                {
-                  "title": "Kodiak Sciences Reports Second Quarter 2026 Financial Results (8-K Exhibit 99.1)",
-                  "publisher": "미국 증권거래위원회(SEC) EDGAR",
-                  "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526349107/kod-ex99_1.htm",
-                  "date": "2026-08-13",
-                  "quote": "Kodiak ended the second quarter of 2026 with $125.9 million of cash and cash equivalents.",
-                  "verified": "ok",
-                  "httpStatus": 200
-                }
-              ]
-            }
-          ],
-          "estimateRevisions": {
-            "direction": "raised",
-            "claims": [
-              {
-                "id": "e1",
-                "statement": "3상 결과 뒤 증권사 목표주가 평균이 117.50달러로 65.16% 상향됐다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Kodiak Sciences Consensus Price Target Increased by 65.16% to $117.50",
-                    "publisher": "Fintel (Nasdaq)",
-                    "url": "https://www.nasdaq.com/articles/kodiak-sciences-consensus-price-target-increased-6516-11750",
-                    "date": "2026-10-02",
-                    "quote": "Kodiak Sciences Consensus Price Target Increased by 65.16% to $117.50",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        "newDrivers": [
-          {
-            "what": "Zenkuda(tarcocimab tedromer) — 눈에 놓는 주사 간격을 최대 6개월까지 늘린 망막질환 신약",
-            "kind": "product",
-            "stage": "발표만",
-            "since": "2026-09-28",
-            "basis": [
-              {
-                "id": "d1b1",
-                "statement": "습성 황반변성 3상(DAYBREAK)에서 1차 평가지표를 충족했다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Kodiak Sciences Announces Positive Phase 3 DAYBREAK Results (8-K Exhibit 99.1)",
-                    "publisher": "미국 증권거래위원회(SEC) EDGAR",
-                    "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526403481/d185059dex991.htm",
-                    "date": "2026-09-28",
-                    "quote": "Zenkuda (tarcocimab tedromer) met the primary endpoint (p-value of 0.0007)",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              },
-              {
-                "id": "d1b2",
-                "statement": "환자 54%가 6개월 간격 투여에 도달했고 48주 시력 개선은 +7.2 글자로 아일리아 +7.6 글자와 비슷했다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
-                    "publisher": "키움증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
-                    "date": "2026-09-30",
-                    "quote": "48 주차 시력개선 정도는 +7.2 글자로 아일리아 +7.6 글자와 유사해 비열등성을 충족했다. 가장 주목할 점은 환자의 54%가 6 개월에 한 번만 투여해도 치료 효과를 유지했다는 점이다.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "revenueImpact": [
-              {
-                "id": "d1r1",
-                "statement": "아직 허가 전이라 매출 기여는 0이고, 키움증권 추정에서도 FY26까지 매출액은 0이다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
-                    "publisher": "키움증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
-                    "date": "2026-09-30",
-                    "quote": "(백만 $) FY24 FY25 FY26E FY27E 매출액 0 0 0 32",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              },
-              {
-                "id": "d1r2",
-                "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-                "evidence_level": "no_source",
-                "sources": [
-                  {
-                    "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
-                    "publisher": "키움증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
-                    "date": "2026-09-30",
-                    "quote": "동사는 Zenkuda 에 대해 습성 황반변성(wAMD), 당뇨망막병증(DR), 망막정맥폐쇄(RVO)에서 확보한 총 5건의 긍정적인 3상 결과를 기반으로 4Q26 미국 허가신청(BLA) 제출할 계획이다.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ],
-                "statementOriginal": "매출의 토대가 될 적응증은 습성 황반변성·당뇨망막병증·망막정맥폐쇄 3개이며, 긍정적 3상 결과 5건을 묶어 신청한다.",
-                "stripped": true
-              }
-            ],
-            "profitImpact": [
-              {
-                "id": "d1p1",
-                "statement": "매출이 처음 생기는 해에도 영업이익은 -279로 적자가 이어진다는 것이 키움증권 추정이다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
-                    "publisher": "키움증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
-                    "date": "2026-09-30",
-                    "quote": "(백만 $) FY24 FY25 FY26E FY27E 영업이익 -187 -234 -270 -279 OPM(%) - - - -863.6",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "expectedGrowth": [
-              {
-                "id": "d1g1",
-                "statement": "키움증권은 2027년을 첫 매출 해로 보고 매출액 32백만 달러를 추정한다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
-                    "publisher": "키움증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
-                    "date": "2026-09-30",
-                    "quote": "(백만 $) FY24 FY25 FY26E FY27E 매출액 0 0 0 32",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "counter": [
-              {
-                "id": "d1c1",
-                "statement": "상업화 전에 유상증자가 나올 가능성이 높다고 키움증권은 지적했다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
-                    "publisher": "키움증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
-                    "date": "2026-09-30",
-                    "quote": "다만 2Q26말 현금은 $125.9M으로 상업화 전 증자 가능성 높음.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              },
-              {
-                "id": "d1c2",
-                "statement": "경쟁약인 아일리아 HD와 바비스모도 실제 진료에서 각각 약 25%, 21% 환자가 4개월 간격 투여를 유지한다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
-                    "publisher": "키움증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
-                    "date": "2026-09-30",
-                    "quote": "전문의들은 아일리아 HD 와 바비스모가 임상시험에서는 상당수 환자에서 4 개월 간격 투여가 가능했지만, 최근 실제 진료 연구에서는 각각 약 25%, 21% 수준이었다고 설명했다.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "what": "tabirafusp-ted(KSI-501) — 혈관 성장인자와 염증물질 IL-6를 함께 막는 이중 억제 신약",
-            "kind": "product",
-            "stage": "발표만",
-            "since": "2026-09-28",
-            "basis": [
-              {
-                "id": "d2b1",
-                "statement": "같은 3상에서 시력 1차 평가지표를 충족했다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Kodiak Sciences Announces Positive Phase 3 DAYBREAK Results (8-K Exhibit 99.1)",
-                    "publisher": "미국 증권거래위원회(SEC) EDGAR",
-                    "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526403481/d185059dex991.htm",
-                    "date": "2026-09-28",
-                    "quote": "Tabirafusp alfa tedromer (tabirafusp-ted) met the vision primary endpoint (p-value of 0.0036)",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "revenueImpact": [],
-            "profitImpact": [],
-            "expectedGrowth": [],
-            "counter": [
-              {
-                "id": "d2c1",
-                "statement": "IL-6까지 막아서 얻는 추가 효과가 이번 시험에서는 드러나지 않아, 진행 중인 당뇨황반부종 3상이 경쟁력을 가른다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
-                    "publisher": "키움증권(연합인포맥스)",
-                    "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
-                    "date": "2026-09-30",
-                    "quote": "다만 VEGF 뿐 아니라 IL-6 까지 함께 억제함으로써 얻을 수 있는 추가적인 치료 효과는 이번 습성 황반변성 임상에서는 뚜렷하게 확인되지 않았다. 따라서 향후 ALTO 에서 VEGF 와 IL-6 를 동시에 억제하는 것이 실제로 추가적인 치료 효과로 이어지는지가 KSI-501 의 경쟁력을 결정할 것으로 보인다.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "what": "KSI-101 — 염증으로 생긴 황반부종을 겨냥한 후속 신약, 12월 첫 3상 결과 예정",
-            "kind": "product",
-            "stage": "발표만",
-            "since": "2026-09-28",
-            "basis": [
-              {
-                "id": "d3b1",
-                "statement": "회사는 KSI-101의 첫 3상 주요 결과를 12월에 공개하고 허가신청은 2027년 2분기에 내겠다고 밝혔다.",
-                "evidence_level": "sourced",
-                "sources": [
-                  {
-                    "title": "Kodiak Sciences Announces Positive Phase 3 DAYBREAK Results (8-K Exhibit 99.1)",
-                    "publisher": "미국 증권거래위원회(SEC) EDGAR",
-                    "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526403481/d185059dex991.htm",
-                    "date": "2026-09-28",
-                    "quote": "our first topline readout from its Phase 3 program expected in December 2026. We are planning to file a BLA for KSI-101 in the second quarter of 2027.",
-                    "verified": "ok",
-                    "httpStatus": 200
-                  }
-                ]
-              }
-            ],
-            "revenueImpact": [],
-            "profitImpact": [],
-            "expectedGrowth": [],
-            "counter": []
-          }
-        ],
-        "nNarrative": "새로운 것은 Zenkuda다 — 눈에 놓는 주사 간격을 최대 6개월까지 늘린 망막질환 신약이다. 3상에서 환자 54%가 6개월 간격을 유지했고 시력 개선은 +7.2 글자로 기존 표준치료제 +7.6 글자와 비슷했다. 다만 아직 허가 전이라 지금 매출 기여는 0이다. 키움증권은 첫 매출을 2027년 32백만 달러로 추정하면서도 그 해 영업이익은 -279로 적자가 이어진다고 봤다. 같이 성공한 KSI-501은 염증물질까지 막는 차별점이 이번에는 드러나지 않아 당뇨황반부종 3상에서 다시 확인해야 한다. 이 기대가 이어지려면 올해 4분기 허가신청이 실제로 제출돼야 한다.",
-        "nVerdict": "충족",
-        "canslim": [
-          {
-            "item": "C 최근 분기 이익",
-            "status": "미충족",
-            "evidence": "매출이 없고 분기마다 손실이 이어진다 — 분기 EPS 자료는 받지 않는다 (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "A 연간 이익 성장",
-            "status": "미충족",
-            "evidence": "키움증권 추정 연간 순이익이 FY24부터 FY27까지 모두 적자이고 폭이 커진다. 3년 추세·자기자본이익률은 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
-          },
-          {
-            "item": "N 새로운 것",
-            "status": "충족",
-            "evidence": "Zenkuda 3상 1차 평가지표 충족, 올해 4분기 허가신청 계획. 참고로 52주 고점은 95.44"
-          },
-          {
-            "item": "S 수급",
-            "status": "충족",
-            "evidence": "횡보 중 최근 5일 거래량이 20일 평균의 0.38배로 말랐고, 상승한 날에는 거래량이 전날보다 늘었다. 유통주식은 확인 불가"
-          },
-          {
-            "item": "L 주도주",
-            "status": "확인 불가",
-            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
-          },
-          {
-            "item": "I 기관 보유",
-            "status": "확인 불가",
-            "evidence": "기관 보유 자료를 받지 않는다"
-          },
-          {
-            "item": "M 시장 방향",
-            "status": "충족",
-            "evidence": "시장 녹색 신호(10일선이 20일선 위, 둘 다 상승). 다만 빚내서 산 주식이 1년 전보다 +37.2%로 주의선 초과"
-          }
-        ],
-        "risks": [
-          {
-            "id": "r1",
-            "statement": "상업화 전에 유상증자가 나올 가능성이 높다 — 2분기 말 현금이 1억 2,590만 달러에 그친다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
-                "publisher": "키움증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
-                "date": "2026-09-30",
-                "quote": "다만 2Q26말 현금은 $125.9M으로 상업화 전 증자 가능성 높음.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "r2",
-            "statement": "현금 소진 속도가 빠르다 — 2026년 2분기에만 연구개발비 5,610만 달러를 썼다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Kodiak Sciences Reports Second Quarter 2026 Financial Results (8-K Exhibit 99.1)",
-                "publisher": "미국 증권거래위원회(SEC) EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/0001468748/000119312526349107/kod-ex99_1.htm",
-                "date": "2026-08-13",
-                "quote": "Research and development expenses were $56.1 million for the second quarter of 2026",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "r3",
-            "statement": "매출이 생겨도 적자는 더 커진다는 것이 증권사 추정이다 — 순이익 -266에서 -293으로 간다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
-                "publisher": "키움증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
-                "date": "2026-09-30",
-                "quote": "(백만 $) FY24 FY25 FY26E FY27E 순이익 -176 -230 -266 -293",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "r4",
-            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [
-              {
-                "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
-                "publisher": "키움증권(연합인포맥스)",
-                "url": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
-                "date": "2026-09-30",
-                "quote": "48 주차 시력 개선은 +6.3 글자로 아일리아 +7.6 글자보다 수치상 낮았지만 통계적으로는 비열등성을 달성했으며, 망막 부종 감소 효과도 유사했다.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ],
-            "statementOriginal": "KSI-501은 시력 개선이 +6.3 글자로 기존 치료제 +7.6 글자보다 낮아, 통계적 비열등은 넘었지만 우위는 보이지 못했다.",
-            "stripped": true
-          }
-        ],
-        "structuralRisks": [
-          "허가받은 약이 없어 기업가치가 FDA 심사 결과 하나에 통째로 달려 있다.",
-          "파이프라인이 모두 안과 망막질환에 몰려 있어 한 번의 임상 실패가 전체로 번진다.",
-          "같은 약물이 과거 당뇨황반부종 3상에서 1차 지표를 놓쳐 개발이 중단된 전력이 있다."
-        ],
-        "chartCheck": [
-          {
-            "item": "선행 상승",
-            "status": "충족",
-            "evidence": "선행 상승 248.9%, 최근 1개월 수익률 199.52%, 3개월 132.79%"
-          },
-          {
-            "item": "횡보 길이",
-            "status": "충족",
-            "evidence": "횡보 10봉(2주) — 기준 2~8주의 하한"
-          },
-          {
-            "item": "저점 높아짐",
-            "status": "미충족",
-            "evidence": "저점 상승 1회는 있으나 진폭이 1.44배로 좁아지지 않았다"
-          },
-          {
-            "item": "깊이",
-            "status": "미충족",
-            "evidence": "베이스 고점 대비 저점 깊이 41.8%, 하루 변동폭 10.25% — 깊이 항목이 등급 검사에서 실패로 잡혔다"
-          },
-          {
-            "item": "이평선 위",
-            "status": "충족",
-            "evidence": "현재가 99.26 — 20일선 66.7, 50일선 50.11 위"
-          },
-          {
-            "item": "거래량 마름",
-            "status": "충족",
-            "evidence": "최근 5일 거래량이 20일 평균의 0.38배 — 기준 0.7 이하"
-          },
-          {
-            "item": "돌파 거래량",
-            "status": "확인 불가",
-            "evidence": "아직 피벗 104 아래라 돌파봉이 없다 — 넘는 날 20일 평균의 2배가 실리는지 본다"
-          },
-          {
-            "item": "피벗 거리",
-            "status": "충족",
-            "evidence": "피벗 104까지 -4.56%, 하루 변동폭의 0.44배 아래"
-          },
-          {
-            "item": "손절 폭",
-            "status": "충족",
-            "evidence": "예비 손절 93.83까지 9.78%로 하루 변동폭 10.25%보다 좁다"
-          },
-          {
-            "item": "10일선 이격",
-            "status": "충족",
-            "evidence": "10일선 94.95 위로 하루 변동폭의 0.42배 — 기준 2배 이하"
-          },
-          {
-            "item": "시장",
-            "status": "충족",
-            "evidence": "시장 녹색 신호. 다만 빚내서 산 주식이 1년 전보다 +37.2%로 주의선 초과"
-          }
-        ],
-        "chartObservation": {
-          "base": "9월 말 급등 뒤 10봉(2주)째 옆으로 움직이고 있다. 그 안에서 저점이 한 번 높아졌지만 폭은 1.44배로 오히려 넓어졌다. 베이스 고점 대비 저점 깊이는 41.8%로, 하루 변동폭 10.25%에 비해 크게 벌어진 구간이다.",
-          "volume": "거래량은 급등일 이후 빠르게 줄었다. 최근 5일 거래량이 20일 평균의 0.38배다. 주가가 오른 10/09에는 1,732,500주로 전날 1,527,700주보다 늘었고 10/12에는 1,324,700주로 다시 줄었다.",
-          "position": "현재가 99.26은 피벗 104보다 4.56% 아래, 하루 변동폭으로는 0.44배 아래다. 예비 손절 93.83까지는 9.78%로 하루 변동폭 10.25%보다 좁다. 10일선 94.95 위로는 0.42배 떠 있다.",
-          "maStack": "가격이 20일선 66.7, 50일선 50.11, 150일선 41.61을 모두 크게 웃돈다. 20일선 기울기는 +30.15%로 가파르게 올라오는 중이다.",
-          "note": "그림에서 9월 말 한 봉에 거래량 막대가 치솟은 뒤 계단식으로 작아지는 모습이 보여 숫자와 일치한다. 이평선들이 급등 전 구간에 몰려 있어 가격과의 간격이 크게 벌어진 것도 그대로 확인된다."
-        },
-        "entryChecklist": [
-          "피벗 104를 20일 평균 거래량의 2배 이상으로 종가 돌파하는지",
-          "넘은 당일 저가가 예비 손절 93.83을 깨지 않고 버티는지",
-          "올해 4분기 안에 Zenkuda 허가신청(BLA)이 실제로 제출됐다는 공시가 나오는지",
-          "유상증자·주식 발행 관련 공시가 나오는지 — 나오면 기존 주주 몫이 줄어든다",
-          "12월로 예고된 KSI-101 3상 첫 결과가 일정대로 나오는지"
-        ],
-        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 다만 12월에 KSI-101 3상 첫 결과가 예정돼 있어 실적 발표 못지않은 가격 변동 요인이 된다.",
-        "confidence": "high",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reasons": []
-        },
-        "consensus": {
-          "saleCy": 0,
-          "saleNy": 0,
-          "epsCy": -7.85,
-          "epsNy": -13.7,
-          "cyTrend": -0.16,
-          "nyTrend": -8.27
-        },
-        "researchedOn": "2026-10-13",
-        "session": "2026-10-12",
-        "carried": false
-      }
+      "blocked": "피벗까지 1.13 ADR — 1 ADR 넘게 떨어져 있음",
+      "shadowBook": "far",
+      "watch": false,
+      "score": 48.1
     },
+    {
+      "ticker": "MANH",
+      "name": "맨해튼 어소시에이츠",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "grade": "C",
+      "state": "pre",
+      "asOf": "2026-10-13",
+      "price": 222.71,
+      "pivot": 227.03,
+      "pivotDate": "2026-08-27",
+      "stop": 220.8,
+      "riskPerSharePct": 2.74,
+      "weightPct": 18.2,
+      "weightCapped": false,
+      "distToPivotPct": -1.9,
+      "distToPivotAdr": -0.68,
+      "extensionAdr": 2.53,
+      "chase": false,
+      "adrPct": 2.8,
+      "ma10": 206.97,
+      "dollarVol20M": 125.5,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +80%",
+        "베이스 7.2주",
+        "깊이 13.3%",
+        "저점 상승 1회",
+        "✗ 진폭 0.98배 · 10일 종가폭 3.9 ADR",
+        "✗ 10일선 +2.5 ADR · 20일선 +2.5 ADR",
+        "20일선 기울기 +0.49%"
+      ],
+      "fails": [
+        "tight",
+        "surf"
+      ],
+      "metrics": {
+        "baseBars": 36,
+        "baseWeeks": 7.2,
+        "depthPct": 13.3,
+        "priorMovePct": 79.7,
+        "higherLows": 1,
+        "contraction": 0.98,
+        "closeRange10Adr": 3.9,
+        "surf10": 2.53,
+        "surf20": 2.45,
+        "slope20": 0.49,
+        "baseLow": 196.8,
+        "lastSwingLow": 200.48
+      },
+      "catalyst": null,
+      "earnings": null,
+      "blocked": "ADR 2.8% — 기준(4%) 미달",
+      "shadowBook": null,
+      "watch": false,
+      "score": 48.1
+    },
+    {
+      "ticker": "ANF",
+      "name": "애버크롬비 앤드 피치",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel Retail",
+      "grade": "C",
+      "state": "pre",
+      "asOf": "2026-10-13",
+      "price": 150.88,
+      "pivot": 155.22,
+      "pivotDate": "2026-09-09",
+      "stop": 149.73,
+      "riskPerSharePct": 3.54,
+      "weightPct": 14.1,
+      "weightCapped": false,
+      "distToPivotPct": -2.8,
+      "distToPivotAdr": -0.77,
+      "extensionAdr": 1.8,
+      "chase": false,
+      "adrPct": 3.64,
+      "ma10": 141,
+      "dollarVol20M": 167,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +91%",
+        "베이스 5.4주",
+        "깊이 15.7%",
+        "저점 상승 1회",
+        "✗ 진폭 0.99배 · 10일 종가폭 2.9 ADR",
+        "✗ 10일선 +1.8 ADR · 20일선 +2.3 ADR",
+        "20일선 기울기 +0.15%"
+      ],
+      "fails": [
+        "tight",
+        "surf"
+      ],
+      "metrics": {
+        "baseBars": 27,
+        "baseWeeks": 5.4,
+        "depthPct": 15.7,
+        "priorMovePct": 91.4,
+        "higherLows": 1,
+        "contraction": 0.99,
+        "closeRange10Adr": 2.9,
+        "surf10": 1.8,
+        "surf20": 2.28,
+        "slope20": 0.15,
+        "baseLow": 130.81,
+        "lastSwingLow": 131.2
+      },
+      "catalyst": null,
+      "earnings": null,
+      "blocked": "ADR 3.64% — 기준(4%) 미달",
+      "shadowBook": null,
+      "watch": false,
+      "score": 47.2
+    },
+    {
+      "ticker": "NET",
+      "name": null,
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "grade": "C",
+      "state": "pre",
+      "asOf": "2026-10-13",
+      "price": 347.7,
+      "pivot": 370.35,
+      "pivotDate": "2026-10-06",
+      "stop": 353.91,
+      "riskPerSharePct": 4.44,
+      "weightPct": 11.3,
+      "weightCapped": false,
+      "distToPivotPct": -6.12,
+      "distToPivotAdr": -1.29,
+      "extensionAdr": -0.18,
+      "chase": false,
+      "adrPct": 4.73,
+      "ma10": 350.62,
+      "dollarVol20M": 974.5,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +71%",
+        "베이스 3.2주",
+        "깊이 13.1%",
+        "✗ 저점 상승 0회",
+        "진폭 0.78배 · 10일 종가폭 1.2 ADR",
+        "✗ 10일선 -0.2 ADR · 20일선 0 ADR",
+        "20일선 기울기 +2.28%"
+      ],
+      "fails": [
+        "higherLows",
+        "surf"
+      ],
+      "metrics": {
+        "baseBars": 16,
+        "baseWeeks": 3.2,
+        "depthPct": 13.1,
+        "priorMovePct": 71.4,
+        "higherLows": 0,
+        "contraction": 0.78,
+        "closeRange10Adr": 1.2,
+        "surf10": -0.18,
+        "surf20": -0.02,
+        "slope20": 2.28,
+        "baseLow": 321.85,
+        "lastSwingLow": 337
+      },
+      "catalyst": null,
+      "earnings": null,
+      "blocked": "등급 C",
+      "shadowBook": "gradeC",
+      "watch": false,
+      "score": 43.9
+    }
+  ],
+  "plansTotal": 17,
+  "post": [
     {
       "ticker": "NSIT",
       "name": null,
       "sector": "Technology",
       "industry": "Electronics & Computer Distribution",
       "grade": "A",
-      "state": "pre",
-      "asOf": "2026-10-12",
-      "price": 166.1,
+      "state": "post",
+      "asOf": "2026-10-13",
+      "price": 175.87,
       "pivot": 168.5,
       "pivotDate": "2026-09-17",
       "stop": 162.77,
       "riskPerSharePct": 3.4,
       "weightPct": 14.7,
       "weightCapped": false,
-      "distToPivotPct": -1.42,
-      "distToPivotAdr": -0.41,
-      "extensionAdr": 0.99,
+      "distToPivotPct": 4.37,
+      "distToPivotAdr": 1.2,
+      "extensionAdr": 2.09,
       "chase": false,
-      "adrPct": 3.45,
-      "ma10": 160.4,
-      "dollarVol20M": 61.2,
+      "adrPct": 3.65,
+      "ma10": 162.43,
+      "dollarVol20M": 61.7,
       "liquid": true,
       "reasons": [
         "선행 상승 +64%",
@@ -2190,576 +1763,9 @@ window.TEAM6_DATA = {
       },
       "catalyst": null,
       "earnings": null,
-      "blocked": "ADR 3.45% — 기준(4%) 미달",
-      "shadowBook": null,
-      "watch": false,
-      "score": 68.6
+      "breakDate": "2026-10-13",
+      "barsSinceBreak": 0
     },
-    {
-      "ticker": "RNG",
-      "name": "링센트럴",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "grade": "A",
-      "state": "pre",
-      "asOf": "2026-10-12",
-      "price": 78.17,
-      "pivot": 81.9,
-      "pivotDate": "2026-09-23",
-      "stop": 78.53,
-      "riskPerSharePct": 4.11,
-      "weightPct": 12.2,
-      "weightCapped": false,
-      "distToPivotPct": -4.55,
-      "distToPivotAdr": -1.06,
-      "extensionAdr": 0.22,
-      "chase": false,
-      "adrPct": 4.31,
-      "ma10": 77.44,
-      "dollarVol20M": 119.4,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +137%",
-        "베이스 3주",
-        "깊이 11.7%",
-        "저점 상승 1회",
-        "진폭 0.84배 · 10일 종가폭 1.4 ADR",
-        "10일선 +0.2 ADR · 20일선 +0.4 ADR",
-        "20일선 기울기 +2.64%"
-      ],
-      "fails": [],
-      "metrics": {
-        "baseBars": 15,
-        "baseWeeks": 3,
-        "depthPct": 11.7,
-        "priorMovePct": 137.3,
-        "higherLows": 1,
-        "contraction": 0.84,
-        "closeRange10Adr": 1.4,
-        "surf10": 0.22,
-        "surf20": 0.42,
-        "slope20": 2.64,
-        "baseLow": 72.29,
-        "lastSwingLow": 72.29
-      },
-      "catalyst": null,
-      "earnings": null,
-      "blocked": "피벗까지 1.06 ADR — 1 ADR 넘게 떨어져 있음",
-      "shadowBook": "far",
-      "watch": false,
-      "score": 65.5
-    },
-    {
-      "ticker": "FLXS",
-      "name": null,
-      "sector": "Consumer Cyclical",
-      "industry": "Furnishings, Fixtures & Appliances",
-      "grade": "B",
-      "state": "pre",
-      "asOf": "2026-10-12",
-      "price": 87.19,
-      "pivot": 90.65,
-      "pivotDate": "2026-09-28",
-      "stop": 87.41,
-      "riskPerSharePct": 3.58,
-      "weightPct": 14,
-      "weightCapped": false,
-      "distToPivotPct": -3.82,
-      "distToPivotAdr": -1.03,
-      "extensionAdr": 0.13,
-      "chase": false,
-      "adrPct": 3.72,
-      "ma10": 86.75,
-      "dollarVol20M": 7,
-      "liquid": false,
-      "reasons": [
-        "선행 상승 +33%",
-        "베이스 2.8주",
-        "깊이 9.8%",
-        "✗ 저점 상승 0회",
-        "진폭 0.99배 · 10일 종가폭 1.3 ADR",
-        "10일선 +0.1 ADR · 20일선 +0.6 ADR",
-        "20일선 기울기 +1.18%"
-      ],
-      "fails": [
-        "higherLows"
-      ],
-      "metrics": {
-        "baseBars": 14,
-        "baseWeeks": 2.8,
-        "depthPct": 9.8,
-        "priorMovePct": 33.5,
-        "higherLows": 0,
-        "contraction": 0.99,
-        "closeRange10Adr": 1.3,
-        "surf10": 0.13,
-        "surf20": 0.58,
-        "slope20": 1.18,
-        "baseLow": 81.73,
-        "lastSwingLow": 81.73
-      },
-      "catalyst": null,
-      "earnings": "2026-10-19",
-      "blocked": "실적 발표 2026-10-19 — 발표 전 진입 금지",
-      "shadowBook": null,
-      "watch": false,
-      "score": 56.2
-    },
-    {
-      "ticker": "MANH",
-      "name": "맨해튼 어소시에이츠",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "grade": "B",
-      "state": "pre",
-      "asOf": "2026-10-12",
-      "price": 217.89,
-      "pivot": 227.03,
-      "pivotDate": "2026-08-27",
-      "stop": 220.93,
-      "riskPerSharePct": 2.69,
-      "weightPct": 18.6,
-      "weightCapped": false,
-      "distToPivotPct": -4.03,
-      "distToPivotAdr": -1.44,
-      "extensionAdr": 2.16,
-      "chase": false,
-      "adrPct": 2.8,
-      "ma10": 204.71,
-      "dollarVol20M": 126,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +80%",
-        "베이스 7주",
-        "깊이 13.3%",
-        "저점 상승 1회",
-        "진폭 0.86배 · 10일 종가폭 3.1 ADR",
-        "✗ 10일선 +2.2 ADR · 20일선 +1.8 ADR",
-        "20일선 기울기 +0.05%"
-      ],
-      "fails": [
-        "surf"
-      ],
-      "metrics": {
-        "baseBars": 35,
-        "baseWeeks": 7,
-        "depthPct": 13.3,
-        "priorMovePct": 79.7,
-        "higherLows": 1,
-        "contraction": 0.86,
-        "closeRange10Adr": 3.1,
-        "surf10": 2.16,
-        "surf20": 1.82,
-        "slope20": 0.05,
-        "baseLow": 196.8,
-        "lastSwingLow": 200.48
-      },
-      "catalyst": null,
-      "earnings": null,
-      "blocked": "ADR 2.8% — 기준(4%) 미달",
-      "shadowBook": null,
-      "watch": false,
-      "score": 56
-    },
-    {
-      "ticker": "PAYC",
-      "name": "페이컴 소프트웨어",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "grade": "B",
-      "state": "pre",
-      "asOf": "2026-10-12",
-      "price": 235.01,
-      "pivot": 244.98,
-      "pivotDate": "2026-09-03",
-      "stop": 237.82,
-      "riskPerSharePct": 2.92,
-      "weightPct": 17.1,
-      "weightCapped": false,
-      "distToPivotPct": -4.07,
-      "distToPivotAdr": -1.34,
-      "extensionAdr": 1.35,
-      "chase": false,
-      "adrPct": 3.05,
-      "ma10": 225.36,
-      "dollarVol20M": 153.9,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +102%",
-        "베이스 7주",
-        "깊이 13.3%",
-        "✗ 저점 상승 0회",
-        "진폭 0.86배 · 10일 종가폭 2.4 ADR",
-        "10일선 +1.3 ADR · 20일선 +1.4 ADR",
-        "20일선 기울기 +1.14%"
-      ],
-      "fails": [
-        "higherLows"
-      ],
-      "metrics": {
-        "baseBars": 35,
-        "baseWeeks": 7,
-        "depthPct": 13.3,
-        "priorMovePct": 102.5,
-        "higherLows": 0,
-        "contraction": 0.86,
-        "closeRange10Adr": 2.4,
-        "surf10": 1.35,
-        "surf20": 1.44,
-        "slope20": 1.14,
-        "baseLow": 212.4,
-        "lastSwingLow": 212.4
-      },
-      "catalyst": null,
-      "earnings": null,
-      "blocked": "ADR 3.05% — 기준(4%) 미달",
-      "shadowBook": null,
-      "watch": false,
-      "score": 55.9
-    },
-    {
-      "ticker": "FET",
-      "name": "포럼 에너지 테크놀로지스",
-      "sector": "Energy",
-      "industry": "Oil & Gas Equipment & Services",
-      "grade": "B",
-      "state": "pre",
-      "asOf": "2026-10-12",
-      "price": 85.72,
-      "pivot": 89.93,
-      "pivotDate": "2026-10-05",
-      "stop": 86.56,
-      "riskPerSharePct": 3.74,
-      "weightPct": 13.4,
-      "weightCapped": false,
-      "distToPivotPct": -4.68,
-      "distToPivotAdr": -1.19,
-      "extensionAdr": 0.64,
-      "chase": false,
-      "adrPct": 3.93,
-      "ma10": 83.57,
-      "dollarVol20M": 14.8,
-      "liquid": false,
-      "reasons": [
-        "선행 상승 +88%",
-        "✗ 베이스 1.4주",
-        "깊이 11%",
-        "저점 상승 1회",
-        "진폭 1.3배 · 10일 종가폭 2 ADR",
-        "10일선 +0.6 ADR · 20일선 +0.8 ADR",
-        "20일선 기울기 +1.02%"
-      ],
-      "fails": [
-        "baseLen"
-      ],
-      "metrics": {
-        "baseBars": 7,
-        "baseWeeks": 1.4,
-        "depthPct": 11,
-        "priorMovePct": 88.2,
-        "higherLows": 1,
-        "contraction": 1.3,
-        "closeRange10Adr": 2,
-        "surf10": 0.64,
-        "surf20": 0.84,
-        "slope20": 1.02,
-        "baseLow": 80.02,
-        "lastSwingLow": 81.06
-      },
-      "catalyst": null,
-      "earnings": null,
-      "blocked": "ADR 3.93% — 기준(4%) 미달",
-      "shadowBook": null,
-      "watch": false,
-      "score": 55.3
-    },
-    {
-      "ticker": "IT",
-      "name": null,
-      "sector": "Technology",
-      "industry": "Information Technology Services",
-      "grade": "B",
-      "state": "pre",
-      "asOf": "2026-10-12",
-      "price": 194.1,
-      "pivot": 204.29,
-      "pivotDate": "2026-10-01",
-      "stop": 196.94,
-      "riskPerSharePct": 3.6,
-      "weightPct": 13.9,
-      "weightCapped": false,
-      "distToPivotPct": -4.99,
-      "distToPivotAdr": -1.32,
-      "extensionAdr": 0.71,
-      "chase": false,
-      "adrPct": 3.79,
-      "ma10": 188.91,
-      "dollarVol20M": 174.9,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +59%",
-        "✗ 베이스 1.6주",
-        "깊이 10.4%",
-        "저점 상승 1회",
-        "진폭 0.9배 · 10일 종가폭 1.4 ADR",
-        "10일선 +0.7 ADR · 20일선 +0.9 ADR",
-        "20일선 기울기 +1.68%"
-      ],
-      "fails": [
-        "baseLen"
-      ],
-      "metrics": {
-        "baseBars": 8,
-        "baseWeeks": 1.6,
-        "depthPct": 10.4,
-        "priorMovePct": 58.6,
-        "higherLows": 1,
-        "contraction": 0.9,
-        "closeRange10Adr": 1.4,
-        "surf10": 0.71,
-        "surf20": 0.94,
-        "slope20": 1.68,
-        "baseLow": 183,
-        "lastSwingLow": 183
-      },
-      "catalyst": null,
-      "earnings": null,
-      "blocked": "ADR 3.79% — 기준(4%) 미달",
-      "shadowBook": null,
-      "watch": false,
-      "score": 55
-    },
-    {
-      "ticker": "FROG",
-      "name": null,
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "grade": "B",
-      "state": "pre",
-      "asOf": "2026-10-12",
-      "price": 99.02,
-      "pivot": 105.76,
-      "pivotDate": "2026-08-28",
-      "stop": 100.84,
-      "riskPerSharePct": 4.65,
-      "weightPct": 10.8,
-      "weightCapped": false,
-      "distToPivotPct": -6.37,
-      "distToPivotAdr": -1.28,
-      "extensionAdr": 0.34,
-      "chase": false,
-      "adrPct": 4.97,
-      "ma10": 97.35,
-      "dollarVol20M": 143.5,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +47%",
-        "베이스 6.2주",
-        "깊이 22.8%",
-        "✗ 저점 상승 0회",
-        "진폭 0.9배 · 10일 종가폭 2.4 ADR",
-        "10일선 +0.3 ADR · 20일선 +0.9 ADR",
-        "20일선 기울기 +2.84%"
-      ],
-      "fails": [
-        "higherLows"
-      ],
-      "metrics": {
-        "baseBars": 31,
-        "baseWeeks": 6.2,
-        "depthPct": 22.8,
-        "priorMovePct": 46.6,
-        "higherLows": 0,
-        "contraction": 0.9,
-        "closeRange10Adr": 2.4,
-        "surf10": 0.34,
-        "surf20": 0.88,
-        "slope20": 2.84,
-        "baseLow": 81.68,
-        "lastSwingLow": 85.03
-      },
-      "catalyst": null,
-      "earnings": null,
-      "blocked": "피벗까지 1.28 ADR — 1 ADR 넘게 떨어져 있음",
-      "shadowBook": "far",
-      "watch": false,
-      "score": 53.6
-    },
-    {
-      "ticker": "AUGO",
-      "name": "오라 미네랄스",
-      "sector": "Basic Materials",
-      "industry": "Gold",
-      "grade": "C",
-      "state": "pre",
-      "asOf": "2026-10-12",
-      "price": 91.8,
-      "pivot": 93.49,
-      "pivotDate": "2026-09-17",
-      "stop": 89.11,
-      "riskPerSharePct": 4.68,
-      "weightPct": 10.7,
-      "weightCapped": false,
-      "distToPivotPct": -1.81,
-      "distToPivotAdr": -0.38,
-      "extensionAdr": 1.82,
-      "chase": false,
-      "adrPct": 4.77,
-      "ma10": 83.82,
-      "dollarVol20M": 89.8,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +95%",
-        "베이스 5.4주",
-        "깊이 17.6%",
-        "✗ 저점 상승 0회",
-        "진폭 0.89배 · 10일 종가폭 3 ADR",
-        "✗ 10일선 +1.8 ADR · 20일선 +1.6 ADR",
-        "20일선 기울기 +0.25%"
-      ],
-      "fails": [
-        "higherLows",
-        "surf"
-      ],
-      "metrics": {
-        "baseBars": 27,
-        "baseWeeks": 5.4,
-        "depthPct": 17.6,
-        "priorMovePct": 94.6,
-        "higherLows": 0,
-        "contraction": 0.89,
-        "closeRange10Adr": 3,
-        "surf10": 1.82,
-        "surf20": 1.57,
-        "slope20": 0.25,
-        "baseLow": 77,
-        "lastSwingLow": 77
-      },
-      "catalyst": null,
-      "earnings": null,
-      "blocked": "등급 C",
-      "shadowBook": "gradeC",
-      "watch": false,
-      "score": 48.2
-    },
-    {
-      "ticker": "SYNA",
-      "name": null,
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "grade": "C",
-      "state": "pre",
-      "asOf": "2026-10-12",
-      "price": 119.4,
-      "pivot": 121.98,
-      "pivotDate": "2026-10-02",
-      "stop": 117.75,
-      "riskPerSharePct": 3.46,
-      "weightPct": 14.4,
-      "weightCapped": false,
-      "distToPivotPct": -2.12,
-      "distToPivotAdr": -0.6,
-      "extensionAdr": 1.13,
-      "chase": false,
-      "adrPct": 3.54,
-      "ma10": 114.63,
-      "dollarVol20M": 128.3,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +38%",
-        "✗ 베이스 1.2주",
-        "깊이 3%",
-        "✗ 저점 상승 0회",
-        "진폭 0.49배 · 10일 종가폭 4.8 ADR",
-        "10일선 +1.1 ADR · 20일선 +3.3 ADR",
-        "20일선 기울기 +5.98%"
-      ],
-      "fails": [
-        "baseLen",
-        "higherLows"
-      ],
-      "metrics": {
-        "baseBars": 6,
-        "baseWeeks": 1.2,
-        "depthPct": 3,
-        "priorMovePct": 38.5,
-        "higherLows": 0,
-        "contraction": 0.49,
-        "closeRange10Adr": 4.8,
-        "surf10": 1.13,
-        "surf20": 3.31,
-        "slope20": 5.98,
-        "baseLow": 118.3,
-        "lastSwingLow": 118.3
-      },
-      "catalyst": null,
-      "earnings": null,
-      "blocked": "ADR 3.54% — 기준(4%) 미달",
-      "shadowBook": null,
-      "watch": false,
-      "score": 47.9
-    },
-    {
-      "ticker": "ACN",
-      "name": null,
-      "sector": "Technology",
-      "industry": "Information Technology Services",
-      "grade": "C",
-      "state": "pre",
-      "asOf": "2026-10-12",
-      "price": 214.87,
-      "pivot": 227.63,
-      "pivotDate": "2026-10-01",
-      "stop": 219.17,
-      "riskPerSharePct": 3.71,
-      "weightPct": 13.5,
-      "weightCapped": false,
-      "distToPivotPct": -5.61,
-      "distToPivotAdr": -1.42,
-      "extensionAdr": 1.89,
-      "chase": false,
-      "adrPct": 3.94,
-      "ma10": 198.91,
-      "dollarVol20M": 1480,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +76%",
-        "✗ 베이스 1.4주",
-        "깊이 15.4%",
-        "저점 상승 1회",
-        "✗ 진폭 1.32배 · 10일 종가폭 4.5 ADR",
-        "✗ 10일선 +1.9 ADR · 20일선 +2.8 ADR",
-        "20일선 기울기 +2.98%"
-      ],
-      "fails": [
-        "baseLen",
-        "tight",
-        "surf"
-      ],
-      "metrics": {
-        "baseBars": 7,
-        "baseWeeks": 1.4,
-        "depthPct": 15.4,
-        "priorMovePct": 75.8,
-        "higherLows": 1,
-        "contraction": 1.32,
-        "closeRange10Adr": 4.5,
-        "surf10": 1.89,
-        "surf20": 2.79,
-        "slope20": 2.98,
-        "baseLow": 192.58,
-        "lastSwingLow": 192.58
-      },
-      "catalyst": null,
-      "earnings": null,
-      "blocked": "ADR 3.94% — 기준(4%) 미달",
-      "shadowBook": null,
-      "watch": false,
-      "score": 34.4
-    }
-  ],
-  "plansTotal": 14,
-  "post": [
     {
       "ticker": "VEON",
       "name": "비언(ADR)",
@@ -2767,21 +1773,21 @@ window.TEAM6_DATA = {
       "industry": "Telecom Services",
       "grade": "C",
       "state": "post",
-      "asOf": "2026-10-12",
-      "price": 80.81,
+      "asOf": "2026-10-13",
+      "price": 80.86,
       "pivot": 78.83,
       "pivotDate": "2026-10-02",
       "stop": 76.02,
       "riskPerSharePct": 3.56,
       "weightPct": 14,
       "weightCapped": false,
-      "distToPivotPct": 2.51,
-      "distToPivotAdr": 0.64,
-      "extensionAdr": 1.44,
+      "distToPivotPct": 2.58,
+      "distToPivotAdr": 0.67,
+      "extensionAdr": 1.25,
       "chase": false,
-      "adrPct": 3.91,
-      "ma10": 76.27,
-      "dollarVol20M": 14.5,
+      "adrPct": 3.87,
+      "ma10": 76.96,
+      "dollarVol20M": 14.2,
       "liquid": false,
       "reasons": [
         "선행 상승 +57%",
@@ -2813,61 +1819,7 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-12",
-      "barsSinceBreak": 0
-    },
-    {
-      "ticker": "DINO",
-      "name": null,
-      "sector": "Energy",
-      "industry": "Oil & Gas Refining & Marketing",
-      "grade": "B",
-      "state": "post",
-      "asOf": "2026-10-12",
-      "price": 122.91,
-      "pivot": 118.39,
-      "pivotDate": "2026-09-21",
-      "stop": 113.14,
-      "riskPerSharePct": 4.43,
-      "weightPct": 11.3,
-      "weightCapped": false,
-      "distToPivotPct": 3.82,
-      "distToPivotAdr": 0.87,
-      "extensionAdr": 1.49,
-      "chase": false,
-      "adrPct": 4.37,
-      "ma10": 114.93,
-      "dollarVol20M": 312.9,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +86%",
-        "베이스 4.8주",
-        "깊이 13%",
-        "✗ 저점 상승 0회",
-        "진폭 0.71배 · 10일 종가폭 1.9 ADR",
-        "10일선 +1 ADR · 20일선 +1 ADR",
-        "20일선 기울기 +1.73%"
-      ],
-      "fails": [
-        "higherLows"
-      ],
-      "metrics": {
-        "baseBars": 24,
-        "baseWeeks": 4.8,
-        "depthPct": 13,
-        "priorMovePct": 85.5,
-        "higherLows": 0,
-        "contraction": 0.71,
-        "closeRange10Adr": 1.9,
-        "surf10": 1.01,
-        "surf20": 1.01,
-        "slope20": 1.73,
-        "baseLow": 103,
-        "lastSwingLow": 103
-      },
-      "catalyst": null,
-      "earnings": null,
-      "breakDate": "2026-10-08",
-      "barsSinceBreak": 2
+      "barsSinceBreak": 1
     },
     {
       "ticker": "TEAM",
@@ -2876,21 +1828,21 @@ window.TEAM6_DATA = {
       "industry": "Software - Application",
       "grade": "B",
       "state": "post",
-      "asOf": "2026-10-12",
-      "price": 207.75,
+      "asOf": "2026-10-13",
+      "price": 208.04,
       "pivot": 200,
       "pivotDate": "2026-09-22",
       "stop": 191.34,
       "riskPerSharePct": 4.33,
       "weightPct": 11.5,
       "weightCapped": false,
-      "distToPivotPct": 3.88,
-      "distToPivotAdr": 0.93,
-      "extensionAdr": 1.61,
+      "distToPivotPct": 4.02,
+      "distToPivotAdr": 0.97,
+      "extensionAdr": 1.28,
       "chase": false,
-      "adrPct": 4.18,
-      "ma10": 193.76,
-      "dollarVol20M": 546.1,
+      "adrPct": 4.16,
+      "ma10": 196.97,
+      "dollarVol20M": 552.4,
       "liquid": true,
       "reasons": [
         "선행 상승 +169%",
@@ -2921,7 +1873,61 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-08",
-      "barsSinceBreak": 2
+      "barsSinceBreak": 3
+    },
+    {
+      "ticker": "DINO",
+      "name": null,
+      "sector": "Energy",
+      "industry": "Oil & Gas Refining & Marketing",
+      "grade": "B",
+      "state": "post",
+      "asOf": "2026-10-13",
+      "price": 128.23,
+      "pivot": 118.39,
+      "pivotDate": "2026-09-21",
+      "stop": 113.14,
+      "riskPerSharePct": 4.43,
+      "weightPct": 11.3,
+      "weightCapped": false,
+      "distToPivotPct": 8.31,
+      "distToPivotAdr": 1.95,
+      "extensionAdr": 2.02,
+      "chase": false,
+      "adrPct": 4.26,
+      "ma10": 117.2,
+      "dollarVol20M": 310.9,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +86%",
+        "베이스 4.8주",
+        "깊이 13%",
+        "✗ 저점 상승 0회",
+        "진폭 0.71배 · 10일 종가폭 1.9 ADR",
+        "10일선 +1 ADR · 20일선 +1 ADR",
+        "20일선 기울기 +1.73%"
+      ],
+      "fails": [
+        "higherLows"
+      ],
+      "metrics": {
+        "baseBars": 24,
+        "baseWeeks": 4.8,
+        "depthPct": 13,
+        "priorMovePct": 85.5,
+        "higherLows": 0,
+        "contraction": 0.71,
+        "closeRange10Adr": 1.9,
+        "surf10": 1.01,
+        "surf20": 1.01,
+        "slope20": 1.73,
+        "baseLow": 103,
+        "lastSwingLow": 103
+      },
+      "catalyst": null,
+      "earnings": null,
+      "breakDate": "2026-10-08",
+      "barsSinceBreak": 3
     },
     {
       "ticker": "PENG",
@@ -2930,21 +1936,21 @@ window.TEAM6_DATA = {
       "industry": "Information Technology Services",
       "grade": "C",
       "state": "post",
-      "asOf": "2026-10-12",
-      "price": 79.15,
+      "asOf": "2026-10-13",
+      "price": 78.2,
       "pivot": 65.75,
       "pivotDate": "2026-08-17",
       "stop": 62.3,
       "riskPerSharePct": 5.25,
       "weightPct": 9.5,
       "weightCapped": false,
-      "distToPivotPct": 20.39,
-      "distToPivotAdr": 3.04,
-      "extensionAdr": 2.64,
+      "distToPivotPct": 18.94,
+      "distToPivotAdr": 2.77,
+      "extensionAdr": 2.03,
       "chase": false,
-      "adrPct": 6.7,
-      "ma10": 65.14,
-      "dollarVol20M": 260.3,
+      "adrPct": 6.83,
+      "ma10": 67.38,
+      "dollarVol20M": 271.9,
       "liquid": true,
       "reasons": [
         "선행 상승 +55%",
@@ -2977,165 +1983,7 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-07",
-      "barsSinceBreak": 3
-    },
-    {
-      "ticker": "ALAB",
-      "name": null,
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "grade": "A",
-      "state": "post",
-      "asOf": "2026-10-12",
-      "price": 324.11,
-      "pivot": 377.87,
-      "pivotDate": "2026-09-25",
-      "stop": 355.39,
-      "riskPerSharePct": 5.95,
-      "weightPct": 8.4,
-      "weightCapped": false,
-      "distToPivotPct": -14.23,
-      "distToPivotAdr": -2.16,
-      "extensionAdr": -1.53,
-      "chase": false,
-      "adrPct": 6.59,
-      "ma10": 356.83,
-      "dollarVol20M": 1482,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +54%",
-        "베이스 2주",
-        "깊이 18.4%",
-        "저점 상승 1회",
-        "진폭 1.16배 · 10일 종가폭 0.6 ADR",
-        "10일선 +0.2 ADR · 20일선 +1.7 ADR",
-        "20일선 기울기 +5.53%"
-      ],
-      "fails": [],
-      "metrics": {
-        "baseBars": 10,
-        "baseWeeks": 2,
-        "depthPct": 18.4,
-        "priorMovePct": 54.5,
-        "higherLows": 1,
-        "contraction": 1.16,
-        "closeRange10Adr": 0.6,
-        "surf10": 0.18,
-        "surf20": 1.74,
-        "slope20": 5.53,
-        "baseLow": 308.34,
-        "lastSwingLow": 342
-      },
-      "catalyst": null,
-      "earnings": null,
-      "breakDate": "2026-10-06",
       "barsSinceBreak": 4
-    },
-    {
-      "ticker": "MLAB",
-      "name": null,
-      "sector": "Technology",
-      "industry": "Scientific & Technical Instruments",
-      "grade": "B",
-      "state": "post",
-      "asOf": "2026-10-12",
-      "price": 128.07,
-      "pivot": 138.66,
-      "pivotDate": "2026-09-24",
-      "stop": 134.04,
-      "riskPerSharePct": 3.33,
-      "weightPct": 15,
-      "weightCapped": false,
-      "distToPivotPct": -7.64,
-      "distToPivotAdr": -1.95,
-      "extensionAdr": -0.64,
-      "chase": false,
-      "adrPct": 3.91,
-      "ma10": 131.27,
-      "dollarVol20M": 15.6,
-      "liquid": false,
-      "reasons": [
-        "선행 상승 +54%",
-        "✗ 베이스 1.8주",
-        "깊이 8.8%",
-        "저점 상승 1회",
-        "진폭 1.18배 · 10일 종가폭 1.8 ADR",
-        "10일선 0 ADR · 20일선 +0.9 ADR",
-        "20일선 기울기 +0.55%"
-      ],
-      "fails": [
-        "baseLen"
-      ],
-      "metrics": {
-        "baseBars": 9,
-        "baseWeeks": 1.8,
-        "depthPct": 8.8,
-        "priorMovePct": 54.1,
-        "higherLows": 1,
-        "contraction": 1.18,
-        "closeRange10Adr": 1.8,
-        "surf10": -0.03,
-        "surf20": 0.86,
-        "slope20": 0.55,
-        "baseLow": 126.4,
-        "lastSwingLow": 126.4
-      },
-      "catalyst": null,
-      "earnings": null,
-      "breakDate": "2026-10-05",
-      "barsSinceBreak": 5
-    },
-    {
-      "ticker": "NUTX",
-      "name": null,
-      "sector": "Healthcare",
-      "industry": "Medical Care Facilities",
-      "grade": "A",
-      "state": "post",
-      "asOf": "2026-10-12",
-      "price": 206.15,
-      "pivot": 224.28,
-      "pivotDate": "2026-09-16",
-      "stop": 212.71,
-      "riskPerSharePct": 5.16,
-      "weightPct": 9.7,
-      "weightCapped": false,
-      "distToPivotPct": -8.08,
-      "distToPivotAdr": -1.63,
-      "extensionAdr": -0.62,
-      "chase": false,
-      "adrPct": 4.95,
-      "ma10": 212.44,
-      "dollarVol20M": 34.2,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +60%",
-        "베이스 3주",
-        "깊이 12.8%",
-        "저점 상승 1회",
-        "진폭 0.88배 · 10일 종가폭 1.6 ADR",
-        "10일선 +0.6 ADR · 20일선 +0.8 ADR",
-        "20일선 기울기 +2.68%"
-      ],
-      "fails": [],
-      "metrics": {
-        "baseBars": 15,
-        "baseWeeks": 3,
-        "depthPct": 12.8,
-        "priorMovePct": 59.9,
-        "higherLows": 1,
-        "contraction": 0.88,
-        "closeRange10Adr": 1.6,
-        "surf10": 0.56,
-        "surf20": 0.78,
-        "slope20": 2.68,
-        "baseLow": 195.59,
-        "lastSwingLow": 198.25
-      },
-      "catalyst": null,
-      "earnings": null,
-      "breakDate": "2026-10-05",
-      "barsSinceBreak": 5
     },
     {
       "ticker": "QLYS",
@@ -3144,21 +1992,21 @@ window.TEAM6_DATA = {
       "industry": "Software - Infrastructure",
       "grade": "A",
       "state": "post",
-      "asOf": "2026-10-12",
-      "price": 196.77,
+      "asOf": "2026-10-13",
+      "price": 198.11,
       "pivot": 196.72,
       "pivotDate": "2026-08-14",
       "stop": 186.32,
       "riskPerSharePct": 5.29,
       "weightPct": 9.5,
       "weightCapped": false,
-      "distToPivotPct": 0.03,
-      "distToPivotAdr": 0.01,
-      "extensionAdr": 0.36,
+      "distToPivotPct": 0.71,
+      "distToPivotAdr": 0.15,
+      "extensionAdr": 0.32,
       "chase": false,
-      "adrPct": 4.95,
-      "ma10": 193.24,
-      "dollarVol20M": 132.1,
+      "adrPct": 4.62,
+      "ma10": 195.21,
+      "dollarVol20M": 127.8,
       "liquid": true,
       "reasons": [
         "선행 상승 +132%",
@@ -3187,7 +2035,7 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-05",
-      "barsSinceBreak": 5
+      "barsSinceBreak": 6
     },
     {
       "ticker": "VLO",
@@ -3196,21 +2044,21 @@ window.TEAM6_DATA = {
       "industry": "Oil & Gas Refining & Marketing",
       "grade": "B",
       "state": "post",
-      "asOf": "2026-10-12",
-      "price": 436,
+      "asOf": "2026-10-13",
+      "price": 456.46,
       "pivot": 419.04,
       "pivotDate": "2026-09-21",
       "stop": 401.38,
       "riskPerSharePct": 4.22,
       "weightPct": 11.9,
       "weightCapped": false,
-      "distToPivotPct": 4.05,
-      "distToPivotAdr": 0.92,
-      "extensionAdr": 1.01,
+      "distToPivotPct": 8.93,
+      "distToPivotAdr": 2.04,
+      "extensionAdr": 1.65,
       "chase": false,
-      "adrPct": 4.4,
-      "ma10": 416.63,
-      "dollarVol20M": 1473.9,
+      "adrPct": 4.39,
+      "ma10": 423.5,
+      "dollarVol20M": 1459.5,
       "liquid": true,
       "reasons": [
         "선행 상승 +80%",
@@ -3241,59 +2089,7 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-05",
-      "barsSinceBreak": 5
-    },
-    {
-      "ticker": "MPC",
-      "name": null,
-      "sector": "Energy",
-      "industry": "Oil & Gas Refining & Marketing",
-      "grade": "A",
-      "state": "post",
-      "asOf": "2026-10-12",
-      "price": 458.81,
-      "pivot": 431.08,
-      "pivotDate": "2026-09-21",
-      "stop": 414.17,
-      "riskPerSharePct": 3.92,
-      "weightPct": 12.7,
-      "weightCapped": false,
-      "distToPivotPct": 6.43,
-      "distToPivotAdr": 1.58,
-      "extensionAdr": 1.46,
-      "chase": false,
-      "adrPct": 4.06,
-      "ma10": 431.52,
-      "dollarVol20M": 1203.8,
-      "liquid": true,
-      "reasons": [
-        "선행 상승 +81%",
-        "베이스 3.8주",
-        "깊이 12.1%",
-        "저점 상승 1회",
-        "진폭 1.36배 · 10일 종가폭 2 ADR",
-        "10일선 +1.4 ADR · 20일선 +1.2 ADR",
-        "20일선 기울기 +1.51%"
-      ],
-      "fails": [],
-      "metrics": {
-        "baseBars": 19,
-        "baseWeeks": 3.8,
-        "depthPct": 12.1,
-        "priorMovePct": 80.9,
-        "higherLows": 1,
-        "contraction": 1.36,
-        "closeRange10Adr": 2,
-        "surf10": 1.41,
-        "surf20": 1.24,
-        "slope20": 1.51,
-        "baseLow": 378.8,
-        "lastSwingLow": 380
-      },
-      "catalyst": null,
-      "earnings": null,
-      "breakDate": "2026-10-05",
-      "barsSinceBreak": 5
+      "barsSinceBreak": 6
     },
     {
       "ticker": "SHOP",
@@ -3302,21 +2098,21 @@ window.TEAM6_DATA = {
       "industry": "Software - Application",
       "grade": "A",
       "state": "post",
-      "asOf": "2026-10-12",
-      "price": 179.22,
+      "asOf": "2026-10-13",
+      "price": 176.52,
       "pivot": 158.87,
       "pivotDate": "2026-08-14",
       "stop": 151.85,
       "riskPerSharePct": 4.42,
       "weightPct": 11.3,
       "weightCapped": false,
-      "distToPivotPct": 12.81,
-      "distToPivotAdr": 3.06,
-      "extensionAdr": 2.53,
+      "distToPivotPct": 11.11,
+      "distToPivotAdr": 2.64,
+      "extensionAdr": 1.82,
       "chase": false,
-      "adrPct": 4.19,
-      "ma10": 160.23,
-      "dollarVol20M": 1450.8,
+      "adrPct": 4.2,
+      "ma10": 163.05,
+      "dollarVol20M": 1472.1,
       "liquid": true,
       "reasons": [
         "선행 상승 +69%",
@@ -3345,7 +2141,59 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-05",
-      "barsSinceBreak": 5
+      "barsSinceBreak": 6
+    },
+    {
+      "ticker": "MPC",
+      "name": null,
+      "sector": "Energy",
+      "industry": "Oil & Gas Refining & Marketing",
+      "grade": "A",
+      "state": "post",
+      "asOf": "2026-10-13",
+      "price": 476.98,
+      "pivot": 431.08,
+      "pivotDate": "2026-09-21",
+      "stop": 414.17,
+      "riskPerSharePct": 3.92,
+      "weightPct": 12.7,
+      "weightCapped": false,
+      "distToPivotPct": 10.65,
+      "distToPivotAdr": 2.65,
+      "extensionAdr": 1.93,
+      "chase": false,
+      "adrPct": 4.02,
+      "ma10": 440.01,
+      "dollarVol20M": 1184,
+      "liquid": true,
+      "reasons": [
+        "선행 상승 +81%",
+        "베이스 3.8주",
+        "깊이 12.1%",
+        "저점 상승 1회",
+        "진폭 1.36배 · 10일 종가폭 2 ADR",
+        "10일선 +1.4 ADR · 20일선 +1.2 ADR",
+        "20일선 기울기 +1.51%"
+      ],
+      "fails": [],
+      "metrics": {
+        "baseBars": 19,
+        "baseWeeks": 3.8,
+        "depthPct": 12.1,
+        "priorMovePct": 80.9,
+        "higherLows": 1,
+        "contraction": 1.36,
+        "closeRange10Adr": 2,
+        "surf10": 1.41,
+        "surf20": 1.24,
+        "slope20": 1.51,
+        "baseLow": 378.8,
+        "lastSwingLow": 380
+      },
+      "catalyst": null,
+      "earnings": null,
+      "breakDate": "2026-10-05",
+      "barsSinceBreak": 6
     },
     {
       "ticker": "LITE",
@@ -3354,21 +2202,21 @@ window.TEAM6_DATA = {
       "industry": "Communication Equipment",
       "grade": "A",
       "state": "post",
-      "asOf": "2026-10-12",
-      "price": 995.41,
+      "asOf": "2026-10-13",
+      "price": 987.99,
       "pivot": 1026.76,
       "pivotDate": "2026-09-09",
       "stop": 965.7,
       "riskPerSharePct": 5.95,
       "weightPct": 8.4,
       "weightCapped": false,
-      "distToPivotPct": -3.05,
-      "distToPivotAdr": -0.48,
-      "extensionAdr": -0.95,
+      "distToPivotPct": -3.78,
+      "distToPivotAdr": -0.58,
+      "extensionAdr": -1.08,
       "chase": false,
-      "adrPct": 6.42,
-      "ma10": 1055.95,
-      "dollarVol20M": 4808,
+      "adrPct": 6.49,
+      "ma10": 1057.4,
+      "dollarVol20M": 4884.4,
       "liquid": true,
       "reasons": [
         "선행 상승 +73%",
@@ -3397,7 +2245,7 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-01",
-      "barsSinceBreak": 7
+      "barsSinceBreak": 8
     },
     {
       "ticker": "SNPS",
@@ -3406,21 +2254,21 @@ window.TEAM6_DATA = {
       "industry": "Software - Infrastructure",
       "grade": "C",
       "state": "post",
-      "asOf": "2026-10-12",
-      "price": 502.51,
+      "asOf": "2026-10-13",
+      "price": 494.51,
       "pivot": 464.98,
       "pivotDate": "2026-08-27",
       "stop": 448.72,
       "riskPerSharePct": 3.5,
       "weightPct": 14.3,
       "weightCapped": false,
-      "distToPivotPct": 8.07,
-      "distToPivotAdr": 2.11,
-      "extensionAdr": 0.98,
+      "distToPivotPct": 6.35,
+      "distToPivotAdr": 1.72,
+      "extensionAdr": 0.16,
       "chase": false,
-      "adrPct": 3.83,
-      "ma10": 483.7,
-      "dollarVol20M": 1133.6,
+      "adrPct": 3.7,
+      "ma10": 491.65,
+      "dollarVol20M": 1141.9,
       "liquid": true,
       "reasons": [
         "✗ 선행 상승 +27%",
@@ -3454,7 +2302,7 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-01",
-      "barsSinceBreak": 7
+      "barsSinceBreak": 8
     },
     {
       "ticker": "HURN",
@@ -3463,21 +2311,21 @@ window.TEAM6_DATA = {
       "industry": "Consulting Services",
       "grade": "C",
       "state": "post",
-      "asOf": "2026-10-12",
-      "price": 173.23,
+      "asOf": "2026-10-13",
+      "price": 176.33,
       "pivot": 165.37,
       "pivotDate": "2026-08-21",
       "stop": 160.52,
       "riskPerSharePct": 2.93,
       "weightPct": 17.1,
       "weightCapped": false,
-      "distToPivotPct": 4.75,
-      "distToPivotAdr": 1.37,
-      "extensionAdr": 1.81,
+      "distToPivotPct": 6.63,
+      "distToPivotAdr": 1.91,
+      "extensionAdr": 1.96,
       "chase": false,
-      "adrPct": 3.48,
-      "ma10": 162.33,
-      "dollarVol20M": 42.9,
+      "adrPct": 3.47,
+      "ma10": 164.33,
+      "dollarVol20M": 44.8,
       "liquid": true,
       "reasons": [
         "선행 상승 +95%",
@@ -3509,20 +2357,20 @@ window.TEAM6_DATA = {
       "catalyst": null,
       "earnings": null,
       "breakDate": "2026-10-01",
-      "barsSinceBreak": 7
+      "barsSinceBreak": 8
     }
   ],
-  "postTotal": 14,
+  "postTotal": 12,
   "counts": {
-    "evaluated": 98,
-    "near": 14,
-    "watch": 3,
-    "A": 1,
+    "evaluated": 92,
+    "near": 17,
+    "watch": 4,
+    "A": 2,
     "B": 2,
-    "blocked": 11,
-    "post": 14,
-    "far": 37,
-    "noBase": 32,
+    "blocked": 13,
+    "post": 12,
+    "far": 47,
+    "noBase": 15,
     "noBars": 1
   },
   "noBars": [
@@ -3686,7 +2534,10 @@ window.TEAM6_DATA = {
     },
     "slipPct": 0.2,
     "open": 0,
-    "totalPct": -1.04
+    "totalPct": -1.04,
+    "openPct": 0,
+    "observing": true,
+    "minSample": 30
   },
   "health": {
     "at": "2026-10-13T20:00:20.065Z",
@@ -3698,15 +2549,5 @@ window.TEAM6_DATA = {
     "watch": 6,
     "checked": 0,
     "errors": []
-  },
-  "deep_coverage": {
-    "done": 3,
-    "total": 3,
-    "cap": 10,
-    "pending": 0,
-    "failed": 0,
-    "carried": 0,
-    "ineligible": 0,
-    "note": "전 종목(3) 조사 완료"
   }
 };
