@@ -1,0 +1,156 @@
+{
+ "ticker": "JPM",
+ "news": [
+  {
+   "title": "JPMorgan Chase (JPM) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/jpmorgan-chase-jpm-q3-2026-earnings-call-transcript",
+   "date": "2026-10-13",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "JPM Q3 Earnings Lag on Lower Fixed Income Markets, IB Offer Support",
+   "url": "https://www.nasdaq.com/articles/jpm-q3-earnings-lag-lower-fixed-income-markets-ib-offer-support",
+   "date": "2026-10-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "JPMorgan Chase & Co. (JPM) Reports Q3 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/jpmorgan-chase-co-jpm-reports-q3-earnings-what-key-metrics-have-say",
+   "date": "2026-10-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "JPMorgan Chase & Co. (JPM) Q3 Earnings and Revenues Lag Estimates",
+   "url": "https://www.nasdaq.com/articles/jpmorgan-chase-co-jpm-q3-earnings-and-revenues-lag-estimates",
+   "date": "2026-10-13",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-13",
+   "reportDate": "2026-10-13",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065616/jpm-20261013.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-13",
+   "reportDate": "2026-10-13",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/jpm-20261013.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-23",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000119312526314128/d103985d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-21",
+   "items": [
+    "5.03"
+   ],
+   "itemsKo": [
+    "5.03"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000288/jpm-20260721.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-14",
+   "reportDate": "2026-07-14",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026048086/jpm-20260714.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-14",
+   "reportDate": "2026-07-14",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026048078/jpm-20260714.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 14.27,
+  "saleNy": 2.99,
+  "epsCy": 22.3,
+  "epsNy": 4.11,
+  "cyTrend": -0.03,
+  "nyTrend": 0.65,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    17.89,
+    6.93,
+    3.92
+   ],
+   "ni": [
+    41.85,
+    12.79,
+    -7.17
+   ],
+   "opm": [
+    33.37,
+    27.8,
+    24.65
+   ],
+   "updated": "2026-09-08 10:21:41"
+  }
+ }
+}

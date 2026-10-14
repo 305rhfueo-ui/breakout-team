@@ -513,8 +513,333 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-14",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "반도체주, 16개월 만에 최장 하락 구간",
+        "easy": "반도체 주식이 16개월 만에 가장 나쁜 흐름에 들어갔다. 시장에 'AI 피로감'(AI 투자 기대가 너무 앞서갔다는 인식)이 퍼진 탓이다. 그래서 올해 상승을 이끌던 주도 업종이 먼저 흔들리고 있다. 지금 선정 종목의 58%가 기술 업종이라 체감 타격이 크다.",
+        "whyMatters": "반도체·AI 장비 쪽 종목은 당분간 상승 재료보다 차익 실현 압력이 세다. 반대로 의료(UnitedHealth 같은 보험·관리의료)와 에너지처럼 AI와 상관이 적은 업종이 상대적으로 버틸 자리다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories",
+            "date": "2026-10-13",
+            "quote": "Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "9월 물가, 상승 속도 더 빨라질 전망",
+        "easy": "곧 나올 9월 소비자물가가 더 빠르게 오를 것으로 예상된다. 물가가 가속되는 이유는 기사에 안 나왔다. 물가가 다시 오르면 중앙은행이 금리를 내리기 어려워진다. 금리 기대가 꺾이면 이익이 먼 미래에 몰린 성장주가 먼저 밀린다.",
+        "whyMatters": "기술·반도체처럼 밸류에이션이 높은 업종에 불리하고, 은행·에너지처럼 금리가 높아도 버티는 업종이 상대적으로 낫다. 발표 숫자가 예상보다 높게 나오는지만 보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "The latest inflation data is expected to show price increases are accelerating",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
+            "date": "2026-10-13",
+            "quote": "The latest inflation data is expected to show price increases are accelerating",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "브로드컴 CEO '도박꾼' 발언에 해석 논란",
+        "easy": "브로드컴 CEO의 '도박꾼' 발언을 두고 AI에 낙관인지 비관인지 논쟁이 붙었다. 어떤 맥락에서 나온 말인지는 기사에 안 나왔다. AI 투자 주체들의 자금 여력을 의심하는 쪽으로 읽히면 주문 전망이 흔들린다. 반도체 하락 구간과 맞물려 심리를 더 눌렀다.",
+        "whyMatters": "AI 가속기·네트워크 칩을 파는 Broadcom과 그 공급망에 직접 영향을 주는 발언이다. AI 수요가 꺾인다는 해석이 굳어지면 반도체 업종 전반에 부담이다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Was Broadcom CEO bullish or bearish on AI? 'Gamblers' comment creates storm.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/was-broadcom-ceo-bullish-or-bearish-on-ai-gamblers-comment-creates-storm-33f11787?mod=mw_rss_topstories",
+            "date": "2026-10-13",
+            "quote": "Was Broadcom CEO bullish or bearish on AI? 'Gamblers' comment creates storm.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "UnitedHealth, 의료비 잡고 전망 또 상향",
+        "easy": "UnitedHealth가 의료비 지출을 통제하면서 실적 전망을 또 올렸다. 가입자 진료비가 예상보다 덜 늘어난 것이 상향의 근거다. 비용이 잡히면 보험사 이익은 바로 좋아진다. 의료 업종이 기술주 조정의 대피처로 보이는 이유다.",
+        "whyMatters": "UnitedHealth 같은 건강보험·관리의료 종목에 직접 호재이고, 의료 업종 전반의 자금 유입 명분이 된다. 선정 종목 중 의료가 20%를 차지해 포트폴리오에서 비중이 작지 않다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "UnitedHealth keeps medical costs under control — and raises its outlook again",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/unitedhealth-keeps-medical-costs-under-control-and-raises-its-outlook-again-71abc99c?mod=mw_rss_topstories",
+            "date": "2026-10-13",
+            "quote": "UnitedHealth keeps medical costs under control — and raises its outlook again",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "공화당 내부서 러시아 디젤 합의 반대 확산",
+        "easy": "트럼프의 러시아 디젤 합의에 반대하는 공화당 의원이 늘고 있다. 반대 이유는 기사에 안 나왔다. 합의가 막히면 디젤 수입이 늘지 못해 경유 가격이 높게 유지된다. 에너지 정책 방향이 정해질 때까지 관련 종목 변동성이 커진다.",
+        "whyMatters": "정유·에너지 업종은 디젤 가격이 높게 유지되면 유리하고, 운송·항공처럼 경유를 많이 쓰는 업종은 불리하다. 합의가 실제로 의회에서 막히는지만 지켜보면 된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "More Republicans come out against Trump's diesel deal with Putin",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/13/trump-russia-diesel-republicans.html",
+            "date": "2026-10-13",
+            "quote": "More Republicans come out against Trump's diesel deal with Putin",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "SpaceX 무선 진출에 통신·위성주 압박",
+        "easy": "SpaceX의 무선 통신 진출이 AT&T 주가를 오래 누를 수 있다는 분석이 나왔다. 위성에서 휴대폰으로 직접 신호를 보내는 사업이 겹치기 때문이다. 같은 이유로 AST SpaceMobile도 압박을 받고 있다. 경쟁자가 하나 더 생기면 요금과 투자 부담이 동시에 커진다.",
+        "whyMatters": "AT&T 같은 통신 업종과 AST SpaceMobile 같은 위성통신 종목에 모두 부담이다. SpaceX가 실제 서비스 일정을 구체화하는지가 관건이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "The SpaceX threat could loom over AT&T's stock for a prolonged stretch, analyst cautions",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-spacex-threat-could-loom-over-at-ts-stock-for-a-prolonged-stretch-analyst-cautions-71436853?mod=mw_rss_topstories",
+            "date": "2026-10-13",
+            "quote": "The SpaceX threat could loom over AT&T's stock for a prolonged stretch, analyst cautions",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "AST SpaceMobile's stock is feeling the heat from SpaceX's wireless plans",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/ast-spacemobiles-stock-is-feeling-the-heat-from-spacexs-wireless-plans-7e2fafb4?mod=mw_rss_topstories",
+            "date": "2026-10-13",
+            "quote": "AST SpaceMobile's stock is feeling the heat from SpaceX's wireless plans",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      }
+    ],
+    "easySummary": [
+      "시장 신호는 아직 초록불이지만, 주도주였던 반도체가 16개월 만에 가장 나쁜 흐름에 들어갔다.",
+      "9월 물가가 더 빨라질 전망이라 금리 인하 기대가 흔들릴 수 있다.",
+      "빚내서 산 주식이 1년 전보다 37.2% 늘어 하락이 시작되면 낙폭이 커질 수 있다."
+    ],
+    "marketNarrative": "지금은 사도 되지만 종목을 골라야 하는 국면이다. QQQ는 10일선이 20일선 위에 있고 둘 다 오름세로 18일째 유지되고 있지만, 종가 743.57은 10일선 아래로 내려와 단기 힘이 빠진 모습이다. 오늘 뉴스는 그 약해진 자리가 어디인지 알려 준다 — 반도체가 16개월 만에 가장 긴 하락 구간에 들어갔고, AI에 대한 의심이 브로드컴 CEO 발언 논란으로 번졌다. 조심할 점은 빚내서 산 주식(마진부채)이 1년 전보다 +37.2%로 주의선 +30%를 넘었다는 것이다 — 하락이 시작되면 강제 매도가 낙폭을 키운다. 이번 주는 9월 소비자물가 발표와, 기술주에서 빠진 돈이 의료·에너지로 옮겨 가는지를 보면 된다.",
+    "keyRisks": [
+      "마진부채 과열: 빚으로 산 주식이 주의선을 넘어, 조정이 오면 강제 매도가 겹쳐 낙폭이 커진다.",
+      "주도 업종 쏠림: 선정 종목의 58%가 기술 업종이라 반도체 조정이 포트폴리오 전체를 끌어내린다.",
+      "물가 발표 리스크: 9월 물가가 예상보다 높게 나오면 금리 인하 기대가 꺾이고 성장주가 먼저 밀린다.",
+      "단기 추세 약화: QQQ 종가가 10일선 아래로 내려와, 신규 돌파가 실패하고 되돌림으로 끝날 확률이 올라간다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 141,
+      "ok": 249,
+      "unverified": 18,
+      "dead": 2,
+      "stripped": 12,
+      "removed": [
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.nasdaq.com/articles/2-top-cybersecurity-stocks-buy-amid-ai-safety-fears-ftnt-q"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.cnbc.com/2026/10/09/penguin-solutions-will-rise-due-to-agentic-ai-bank-of-amer"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000189/jnj-20261013.htm"
+        }
+      ],
+      "numberCut": 28,
+      "numberCuts": [
+        {
+          "sentence": "한 달 새 약 70% 상승했고 주가수익비율(PER)은 61배다.",
+          "missing": [
+            "70"
+          ]
+        },
+        {
+          "sentence": "직전 분기(5~7월) 매출이 1년 전보다 37% 늘었고 영업이익은 4배 넘게 증가했다.",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "지난해 4분기 영업손실 1.9억 달러에서 두 분기 연속 크게 개선됐다는 점이 저점(3월 7.48달러) 대비 급등의 배경이다.",
+          "missing": [
+            "1.9억 달러",
+            "7.48"
+          ]
+        },
+        {
+          "sentence": "지난해 4분기에 영업손실이 1.9억 달러까지 컸던 만큼 의료비 부담이 조금만 늘어도 다시 적자로 갈 수 있다.",
+          "missing": [
+            "1.9억 달러"
+          ]
+        },
+        {
+          "sentence": "본업 매출은 분기 1.2억 달러로 거의 늘지 않는다.",
+          "missing": [
+            "1.2억 달러"
+          ]
+        },
+        {
+          "sentence": "최고가(286.99달러) 뒤 13일 종가는 263.01달러로 하루 새 약 4% 내려 단기 변동이 크다.",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "이익 대비 주가 배수는 34배이고, 10월 13일엔 신고가 다음 날 하루 만에 2.8% 내렸다.",
+          "missing": [
+            "2.8"
+          ]
+        },
+        {
+          "sentence": "매출 성장률은 10% 안팎에 머문다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "리어링크도 목표주가를 120달러에서 160달러로 상향했다.",
+          "missing": [
+            "120",
+            "160"
+          ]
+        },
+        {
+          "sentence": "자사주 매입 한도를 30억 달러로 늘렸다.",
+          "missing": [
+            "30억 달러"
+          ]
+        },
+        {
+          "sentence": "주가수익비율(PER)이 약 98배이고, 10월 13일 하루에 330.06달러에서 306.36달러로 내렸다.",
+          "missing": [
+            "98"
+          ]
+        },
+        {
+          "sentence": "5개 보안 회사 모두 실적도 좋았다.",
+          "missing": [
+            "5"
+          ]
+        },
+        {
+          "sentence": "JNJ가 2026년 10월 13일 3분기 실적을 발표했고, 같은 날 SEC에 실적 발표 공시(8-K)를 냈다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "연간 잉여현금흐름 전망도 6억1,500만~6억2,500만 달러로 올렸고, 분기 배당은 주당 $0.125 로 약 67% 높였다.",
+          "missing": [
+            "6억1,500만"
+          ]
+        },
+        {
+          "sentence": "고객 한 곳이 쓰는 금액이 늘어 1인당 마켓플레이스 매출이 1년 전보다 17% 증가했다.",
+          "missing": [
+            "1"
+          ]
+        },
+        {
+          "sentence": "직전 1분기 매출 증가율 4.2%와 비교하면 증가 속도가 빨라졌다.",
+          "missing": [
+            "4.2"
+          ]
+        },
+        {
+          "sentence": "매출을 내는 발전 용량도 약 950MW로 직전 분기 910MW보다 늘었다.",
+          "missing": [
+            "950",
+            "910"
+          ]
+        },
+        {
+          "sentence": "회사는 2분기에 장기 계약 3건이 확대되면서 연간 조정 EBITDA(이자·세금·감가상각 전 이익)가 1억 달러 넘게 더 붙을 것으로 본다고 밝혔다.",
+          "missing": [
+            "3"
+          ]
+        },
+        {
+          "sentence": "매출 증가율 12%보다 이익 증가 속도가 빠르다.",
+          "missing": [
+            "12"
+          ]
+        },
+        {
+          "sentence": "회사 발표 기준으로 장기 계약 3건이 확대되면서 연간 조정 EBITDA가 1억 달러 넘게 더 붙을 것으로 기대된다.",
+          "missing": [
+            "3"
+          ]
+        },
+        {
+          "sentence": "순수입금 약 12.27억 달러는 설비 증설 자금으로 쓴다.",
+          "missing": [
+            "12.27억 달러"
+          ]
+        },
+        {
+          "sentence": "실제 발행 규모는 12.5억 달러로 늘어나 수요가 계획보다 많았음을 보여준다.",
+          "missing": [
+            "12.5억 달러"
+          ]
+        },
+        {
+          "sentence": "매출 증가율은 지난겨울 39.5%에서 두 분기 만에 58%까지 빨라졌다.",
+          "missing": [
+            "58"
+          ]
+        },
+        {
+          "sentence": "회사는 올해 매출이 69% 늘고 조정 주당순이익이 25.50달러에 이를 것으로 제시했다.",
+          "missing": [
+            "25.50"
+          ]
+        },
+        {
+          "sentence": "회사 스스로 다음 분기 인프라 부문 영업이익률을 13%대 중반으로 낮춰 제시해, 이번 분기 15% 마진이 이어질지 확인이 필요하다.",
+          "missing": [
+            "15"
+          ]
+        },
+        {
+          "sentence": "SK증권이 인용한 컨센서스(2026.7.22) 기준 매출은 2026년 599백만 달러에서 2027년 932백만 달러로 전망된다.",
+          "missing": [
+            "2026.7.22"
+          ]
+        },
+        {
+          "sentence": "1공장이 완전 가동에 근접해 2공장이 필요하다는 것이 회사 입장이다.",
+          "missing": [
+            "2"
+          ]
+        },
+        {
+          "sentence": "2026-08-12 MarketBeat이 칩모스 2분기 실적 발표 요지를 정리한 기사를 냈다.",
+          "missing": [
+            "08",
+            "12"
+          ]
+        }
+      ],
+      "noQuote": 1
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-14"
   }
 };

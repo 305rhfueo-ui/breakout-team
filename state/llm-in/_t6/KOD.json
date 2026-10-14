@@ -1,63 +1,48 @@
 {
  "ticker": "KOD",
- "date": "2026-10-13",
- "session": "2026-10-12",
- "source": "watch",
+ "date": "2026-10-14",
+ "session": "2026-10-13",
+ "source": "list",
  "plan": {
   "ticker": "KOD",
   "name": "코디악 사이언시스",
   "sector": "Healthcare",
   "industry": "Biotechnology",
+  "price": 99.26000213623047,
   "grade": "B",
   "state": "pre",
-  "asOf": "2026-10-12",
-  "price": 99.26,
   "pivot": 104,
-  "pivotDate": "2026-10-01",
-  "stop": 93.83,
-  "riskPerSharePct": 9.78,
-  "weightPct": 5.1,
-  "weightCapped": false,
-  "distToPivotPct": -4.56,
-  "distToPivotAdr": -0.44,
-  "extensionAdr": 0.42,
-  "chase": false,
-  "adrPct": 10.25,
-  "ma10": 94.95,
-  "dollarVol20M": 322.7,
-  "liquid": true,
-  "reasons": [
-   "선행 상승 +249%",
-   "베이스 2주",
-   "✗ 깊이 41.8%",
-   "저점 상승 1회",
-   "진폭 1.44배 · 10일 종가폭 0.9 ADR",
-   "10일선 +0.4 ADR · 20일선 +3.2 ADR",
-   "20일선 기울기 +30.15%"
-  ],
-  "fails": [
-   "depth"
-  ],
+  "stop": 94.32,
+  "distToPivotPct": -11.89,
+  "distToPivotAdr": -1.13,
+  "riskPerSharePct": 9.3,
+  "adrPct": 10.56,
+  "extensionAdr": -0.35,
+  "breakDate": null,
   "metrics": {
-   "baseBars": 10,
-   "baseWeeks": 2,
+   "baseBars": 11,
+   "baseWeeks": 2.2,
    "depthPct": 41.8,
    "priorMovePct": 248.9,
    "higherLows": 1,
-   "contraction": 1.44,
+   "contraction": 1.22,
    "closeRange10Adr": 0.9,
-   "surf10": 0.42,
-   "surf20": 3.2,
-   "slope20": 30.15,
+   "surf10": -0.35,
+   "surf20": 2.27,
+   "slope20": 28.68,
    "baseLow": 60.49,
    "lastSwingLow": 87.58
   },
-  "catalyst": null,
-  "earnings": null,
-  "blocked": null,
-  "shadowBook": null,
-  "watch": true,
-  "score": 55.4
+  "reasons": [
+   "선행 상승 +249%",
+   "베이스 2.2주",
+   "✗ 깊이 41.8%",
+   "저점 상승 1회",
+   "진폭 1.22배 · 10일 종가폭 0.9 ADR",
+   "10일선 -0.3 ADR · 20일선 +2.3 ADR",
+   "20일선 기울기 +28.68%"
+  ],
+  "earnings": null
  },
  "site": {
   "rs": {
@@ -78,11 +63,11 @@
   "ret3m": 132.79,
   "ret6m": 115.13,
   "marketCap": "6.28B",
-  "volx": 0.41,
-  "volSurgeWk": 0.71,
+  "volx": null,
+  "volSurgeWk": 1.04,
   "high52": 95.44,
   "newHigh52": false,
-  "adr": 10.25,
+  "adr": 10.64,
   "div50": 98.09,
   "div200": 163.39,
   "targetStatus": false,
@@ -109,14 +94,14 @@
    "m6": null
   },
   "top2Streak": {
-   "m1": 1,
-   "m3": 1,
+   "m1": 2,
+   "m3": 2,
    "m6": 0
   }
  },
  "eye": null,
  "detail": {
-  "fetchedAt": "2026-10-13",
+  "fetchedAt": "2026-10-14",
   "nameKo": "코디악 사이언시스",
   "nameEn": "KODIAK SCIENCES INC",
   "financialsError": "매출 태그 없음",
@@ -242,7 +227,7 @@
      "analyst": "허혜민",
      "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
      "summary": "- Zenkuda가 습성 황반변성 3상에서 환자 54%에 6개월에 1회 투여하며 아일리아 대비 비열등 입증하며 주가 약 170% 상승- wAMD, 당뇨병망막병증(DR), 망막정맥폐쇄(RVO) 3개 적응증 4Q26 신약 신청(BLA)- 다만 2Q26말 현금은 $125.9M으로 상업화 전 증자 가능성 높음",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecek.pdf",
      "pages": "5"
     }
    ]
@@ -256,7 +241,7 @@
    "analyst": "허혜민",
    "date": "2026-09-30",
    "title": "[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준",
-   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecei.pdf",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxecek.pdf",
    "pages": "5"
   }
  ],
@@ -284,29 +269,19 @@
   "listedShares": 62849500
  },
  "chart": {
-  "lastBar": "2026-10-12",
+  "lastBar": "2026-10-13",
   "numbers": {
-   "price": 99.26,
-   "ma20": 66.7,
-   "ma50": 50.11,
-   "ma150": 41.61,
-   "distMA50": 98.09,
+   "price": 91.63,
+   "ma20": 69.63,
+   "ma50": 51.15,
+   "ma150": 42.05,
+   "distMA50": 79.16,
    "periodHigh": 104,
-   "pullbackFromHigh": -4.56,
-   "volRatio20": 0.34,
+   "pullbackFromHigh": -11.89,
+   "volRatio20": 0.4,
    "dryUpRatio": 0.38
   },
   "last10": [
-   {
-    "d": "2026-09-29",
-    "o": 87.2,
-    "h": 93.14,
-    "l": 83.64,
-    "c": 91.12,
-    "v": 6047100,
-    "clsPos": 79,
-    "gapPct": -3.02
-   },
    {
     "d": "2026-09-30",
     "o": 93.83,
@@ -396,6 +371,16 @@
     "v": 1324700,
     "clsPos": 36,
     "gapPct": 0.21
+   },
+   {
+    "d": "2026-10-13",
+    "o": 99.06,
+    "h": 99.55,
+    "l": 91.3,
+    "c": 91.63,
+    "v": 1535041,
+    "clsPos": 4,
+    "gapPct": -0.2
    }
   ],
   "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/KOD-3m.png",
@@ -403,7 +388,7 @@
  },
  "market": {
   "verdict": "green",
-  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 17일째) — 사도 되지만 골라서",
+  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 18일째) — 사도 되지만 골라서",
   "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
   "finraLevel": "warn"
  }

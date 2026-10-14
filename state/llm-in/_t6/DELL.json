@@ -1,7 +1,7 @@
 {
  "ticker": "DELL",
- "date": "2026-10-13",
- "session": "2026-10-12",
+ "date": "2026-10-14",
+ "session": "2026-10-13",
  "source": "watch",
  "plan": {
   "ticker": "DELL",
@@ -10,45 +10,45 @@
   "industry": "Computer Hardware",
   "grade": "B",
   "state": "pre",
-  "asOf": "2026-10-12",
-  "price": 576.76,
+  "asOf": "2026-10-13",
+  "price": 572.47,
   "pivot": 595.51,
   "pivotDate": "2026-09-18",
-  "stop": 570.2,
-  "riskPerSharePct": 4.25,
+  "stop": 570.31,
+  "riskPerSharePct": 4.23,
   "weightPct": 11.8,
   "weightCapped": false,
-  "distToPivotPct": -3.15,
-  "distToPivotAdr": -0.72,
-  "extensionAdr": 0.57,
+  "distToPivotPct": -3.87,
+  "distToPivotAdr": -0.88,
+  "extensionAdr": 0.27,
   "chase": false,
-  "adrPct": 4.39,
-  "ma10": 562.44,
-  "dollarVol20M": 4078,
+  "adrPct": 4.4,
+  "ma10": 565.73,
+  "dollarVol20M": 3970.6,
   "liquid": true,
   "reasons": [
    "선행 상승 +66%",
-   "베이스 4.2주",
+   "베이스 4.4주",
    "깊이 13.1%",
    "✗ 저점 상승 0회",
-   "진폭 0.81배 · 10일 종가폭 1.9 ADR",
-   "10일선 +0.6 ADR · 20일선 +0.7 ADR",
-   "20일선 기울기 +1.94%"
+   "진폭 0.93배 · 10일 종가폭 1.9 ADR",
+   "10일선 +0.3 ADR · 20일선 +0.4 ADR",
+   "20일선 기울기 +1.83%"
   ],
   "fails": [
    "higherLows"
   ],
   "metrics": {
-   "baseBars": 21,
-   "baseWeeks": 4.2,
+   "baseBars": 22,
+   "baseWeeks": 4.4,
    "depthPct": 13.1,
    "priorMovePct": 65.9,
    "higherLows": 0,
-   "contraction": 0.81,
+   "contraction": 0.93,
    "closeRange10Adr": 1.9,
-   "surf10": 0.57,
-   "surf20": 0.65,
-   "slope20": 1.94,
+   "surf10": 0.27,
+   "surf20": 0.43,
+   "slope20": 1.83,
    "baseLow": 517.52,
    "lastSwingLow": 520.18
   },
@@ -57,7 +57,7 @@
   "blocked": null,
   "shadowBook": null,
   "watch": true,
-  "score": 56.9
+  "score": 56.1
  },
  "site": {
   "rs": {
@@ -78,11 +78,11 @@
   "ret3m": 45.76,
   "ret6m": 172.04,
   "marketCap": "366.71B",
-  "volx": 0.74,
-  "volSurgeWk": 1.08,
+  "volx": null,
+  "volSurgeWk": 1.09,
   "high52": 96.85,
   "newHigh52": false,
-  "adr": 4.39,
+  "adr": 4.33,
   "div50": 13.29,
   "div200": 88.45,
   "targetStatus": false,
@@ -127,15 +127,15 @@
   "top2Streak": {
    "m1": 0,
    "m3": 0,
-   "m6": 84
+   "m6": 85
   }
  },
  "eye": {
-  "score": 7,
+  "score": 6,
   "reasons": [
-   "최근 1주 거래량이 한 달 평균의 0.69배로 줄었다(팔 사람이 줄어듦)",
    "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.12, 최저 0.12)",
-   "넘어야 할 선 $595.51 바로 아래(-3.15%)",
+   "넘어야 할 선 $595.51 바로 아래(-3.87%)",
+   "최근 2주 종가가 2.91% 안에서만 움직였다",
    "1년 최고가의 96.85% 자리"
   ],
   "resistance": 595.51
@@ -381,6 +381,13 @@
  ],
  "cnbc": [
   {
+   "title": "Michael Dell says government has a role in AI safety",
+   "url": "https://www.cnbc.com/2026/10/13/michael-dell-ai-safeguards-government.html",
+   "date": "2026-10-13",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
    "title": "Trump Accounts hit 70 million enrolled and can now accept stock donations",
    "url": "https://www.cnbc.com/2026/10/08/trump-accounts-70-million-enrolled.html",
    "date": "2026-10-08",
@@ -416,25 +423,18 @@
    "kind": "article"
   },
   {
-   "title": "Cramer's lightning round: Buy Energy Transfer",
-   "url": "https://www.cnbc.com/2026/09/14/cramers-lightning-round-buy-energy-transfer.html",
-   "date": "2026-09-14",
+   "title": "Watch CNBC's full interview with Dell CEO Michael Dell",
+   "url": "https://www.cnbc.com/video/2026/10/13/watch-cnbcs-full-interview-with-dell-ceo-michael-dell.html",
+   "date": "2026-10-13",
    "publisher": "CNBC",
-   "kind": "article"
+   "kind": "video"
   },
   {
-   "title": "AI stocks sink while cybersecurity shares rally on slowdown fears",
-   "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html",
-   "date": "2026-09-14",
+   "title": "Dell CEO: We have to have safeguards and controls around AI",
+   "url": "https://www.cnbc.com/video/2026/10/13/dell-ceo-we-have-to-have-safeguards-and-controls-around-ai.html",
+   "date": "2026-10-13",
    "publisher": "CNBC",
-   "kind": "article"
-  },
-  {
-   "title": "Dell stock jumps on RBC initiation, now up nearly 350% in 2026",
-   "url": "https://www.cnbc.com/2026/09/11/dell-stock-rbc-initiation.html",
-   "date": "2026-09-11",
-   "publisher": "CNBC",
-   "kind": "article"
+   "kind": "video"
   }
  ],
  "kis": {
@@ -460,29 +460,19 @@
   "listedShares": 315433000
  },
  "chart": {
-  "lastBar": "2026-10-12",
+  "lastBar": "2026-10-13",
   "numbers": {
-   "price": 576.76,
-   "ma20": 560.2,
-   "ma50": 509.08,
-   "ma150": 367.39,
-   "distMA50": 13.29,
+   "price": 572.47,
+   "ma20": 561.65,
+   "ma50": 511.95,
+   "ma150": 370.25,
+   "distMA50": 11.82,
    "periodHigh": 595.51,
-   "pullbackFromHigh": -3.15,
-   "volRatio20": 0.72,
-   "dryUpRatio": 0.69
+   "pullbackFromHigh": -3.87,
+   "volRatio20": 0.78,
+   "dryUpRatio": 0.72
   },
   "last10": [
-   {
-    "d": "2026-09-29",
-    "o": 550.73,
-    "h": 551.39,
-    "l": 536.58,
-    "c": 539.59,
-    "v": 5748700,
-    "clsPos": 20,
-    "gapPct": 1.34
-   },
    {
     "d": "2026-09-30",
     "o": 546.48,
@@ -559,7 +549,7 @@
     "h": 595.06,
     "l": 566.2,
     "c": 586.06,
-    "v": 5500400,
+    "v": 5516000,
     "clsPos": 69,
     "gapPct": 1.24
    },
@@ -567,11 +557,21 @@
     "d": "2026-10-12",
     "o": 581.73,
     "h": 585.32,
-    "l": 565.35,
+    "l": 565,
     "c": 576.76,
-    "v": 5231750,
-    "clsPos": 57,
+    "v": 5254700,
+    "clsPos": 58,
     "gapPct": -0.74
+   },
+   {
+    "d": "2026-10-13",
+    "o": 556.62,
+    "h": 579.74,
+    "l": 548.4,
+    "c": 572.47,
+    "v": 5542069,
+    "clsPos": 77,
+    "gapPct": -3.49
    }
   ],
   "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/DELL-3m.png",
@@ -579,7 +579,7 @@
  },
  "market": {
   "verdict": "green",
-  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 17일째) — 사도 되지만 골라서",
+  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 18일째) — 사도 되지만 골라서",
   "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
   "finraLevel": "warn"
  }

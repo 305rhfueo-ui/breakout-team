@@ -1,0 +1,470 @@
+{
+ "ticker": "XMTR",
+ "date": "2026-10-14",
+ "session": "2026-10-13",
+ "source": "watch",
+ "plan": {
+  "ticker": "XMTR",
+  "name": "조메트리",
+  "sector": "Industrials",
+  "industry": "Industrial Distribution",
+  "grade": "A",
+  "state": "pre",
+  "asOf": "2026-10-13",
+  "price": 107.9,
+  "pivot": 112.94,
+  "pivotDate": "2026-10-06",
+  "stop": 107.11,
+  "riskPerSharePct": 5.16,
+  "weightPct": 9.7,
+  "weightCapped": false,
+  "distToPivotPct": -4.46,
+  "distToPivotAdr": -0.83,
+  "extensionAdr": 0.17,
+  "chase": false,
+  "adrPct": 5.4,
+  "ma10": 106.92,
+  "dollarVol20M": 91.2,
+  "liquid": true,
+  "reasons": [
+   "선행 상승 +40%",
+   "베이스 2.4주",
+   "깊이 14.4%",
+   "저점 상승 1회",
+   "진폭 0.82배 · 10일 종가폭 1.5 ADR",
+   "10일선 +0.2 ADR · 20일선 +0.8 ADR",
+   "20일선 기울기 +5.72%"
+  ],
+  "fails": [],
+  "metrics": {
+   "baseBars": 12,
+   "baseWeeks": 2.4,
+   "depthPct": 14.4,
+   "priorMovePct": 40.1,
+   "higherLows": 1,
+   "contraction": 0.82,
+   "closeRange10Adr": 1.5,
+   "surf10": 0.17,
+   "surf20": 0.76,
+   "slope20": 5.72,
+   "baseLow": 96.68,
+   "lastSwingLow": 100.55
+  },
+  "catalyst": null,
+  "earnings": null,
+  "blocked": null,
+  "shadowBook": null,
+  "watch": true,
+  "score": 65.5
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.2696695358621925,
+    "pct": 98.15148782687105
+   },
+   "m3": {
+    "v": 0.095595677708797,
+    "pct": 75.51848512173129
+   },
+   "m6": {
+    "v": 1.3009378366925761,
+    "pct": 98.42200180342651
+   }
+  },
+  "ret1m": 26.97,
+  "ret3m": 9.56,
+  "ret6m": 130.09,
+  "marketCap": "6.19B",
+  "volx": null,
+  "volSurgeWk": 0.69,
+  "high52": 95.59,
+  "newHigh52": false,
+  "adr": 5.44,
+  "div50": 13.88,
+  "div200": 46.25,
+  "targetStatus": false,
+  "saleCy": 33.66,
+  "saleNy": 21.73,
+  "epsCy": 85.39,
+  "epsNy": 82.17,
+  "cyTrend": 0.73,
+  "nyTrend": -0.51,
+  "est": {
+   "cyCur": 0.70447,
+   "cy30": 0.69938,
+   "nyCur": 1.28331,
+   "ny30": 1.28988
+  },
+  "fs": {
+   "sale": [
+    41.05,
+    35.88,
+    29.52
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    -2.42,
+    -2.54,
+    -4.56
+   ],
+   "updated": "2026-09-08 07:01:49"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": "2026-10-08",
+   "m3": null,
+   "m6": "2026-09-16"
+  },
+  "top2Streak": {
+   "m1": 4,
+   "m3": 0,
+   "m6": 20
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-14",
+  "nameKo": "조메트리",
+  "nameEn": "XOMETRY INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001657573&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 229280000,
+     "profit": -5545000,
+     "netIncome": -5314000,
+     "margin": -2.4,
+     "yoy": {
+      "revenue": 41.1,
+      "profit": 46.1,
+      "netIncome": 79.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 205138000,
+     "profit": -5220000,
+     "netIncome": -5259000,
+     "margin": -2.5,
+     "yoy": {
+      "revenue": 35.9,
+      "profit": 66.1,
+      "netIncome": 65.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 192397000,
+     "profit": -8776000,
+     "netIncome": -8638000,
+     "margin": -4.6,
+     "yoy": {
+      "revenue": 29.5,
+      "profit": 23.8,
+      "netIncome": 12.7,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 180715000,
+     "profit": -11059000,
+     "netIncome": -11597000,
+     "margin": -6.1,
+     "yoy": {
+      "revenue": 27.5,
+      "profit": 3.7,
+      "netIncome": -13.7,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Xometry CEO Sells 1,500 Shares Amid a 67% One-Year Return",
+     "url": "https://www.nasdaq.com/articles/xometry-ceo-sells-1500-shares-amid-67-one-year-return",
+     "date": "2026-10-01",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Xometry Director Sells 10,000 Shares",
+     "url": "https://www.nasdaq.com/articles/xometry-director-sells-10000-shares",
+     "date": "2026-09-17",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's Why Xometry (XMTR) Could be Great Choice for a Bottom Fisher",
+     "url": "https://www.nasdaq.com/articles/heres-why-xometry-xmtr-could-be-great-choice-bottom-fisher",
+     "date": "2026-08-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "All You Need to Know About Xometry (XMTR) Rating Upgrade to Buy",
+     "url": "https://www.nasdaq.com/articles/all-you-need-know-about-xometry-xmtr-rating-upgrade-buy",
+     "date": "2026-08-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Xometry (XMTR) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/xometry-xmtr-q2-2026-earnings-call-transcript",
+     "date": "2026-08-11",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Xometry Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/xometry-q2-earnings-call-highlights",
+     "date": "2026-08-04",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Xometry (XMTR) Beats Q2 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/xometry-xmtr-beats-q2-earnings-and-revenue-estimates",
+     "date": "2026-08-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Will Xometry (XMTR) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-xometry-xmtr-beat-estimates-again-its-next-earnings-report-0",
+     "date": "2026-07-31",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526331547/xmtr-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526275887/xmtr-20260616.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-02",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526253897/d109952d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-21",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526234396/xmtr-20260520.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-08",
+    "itemsKo": [
+     "3.02",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526214604/xmtr-20260506.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1657573/000119312526210312/xmtr-20260507.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "XMTR",
+  "fetchedAt": "2026-10-13",
+  "source": "한국투자증권 Open API",
+  "per": 181.26,
+  "pbr": 10.35,
+  "eps": 0.6,
+  "bps": 10.43,
+  "shares": 55848300,
+  "marketCapM": 6029,
+  "high52": 112.94,
+  "high52Date": "2026-10-06",
+  "low52": 35.86,
+  "low52Date": "2026-03-12",
+  "last": 107.96,
+  "prevClose": 111.07,
+  "nameKo": "조메트리",
+  "nameEn": "XOMETRY INC",
+  "listedOn": "2021-06-29",
+  "exchange": "나스닥",
+  "listedShares": 55848300
+ },
+ "chart": {
+  "lastBar": "2026-10-13",
+  "numbers": {
+   "price": 107.9,
+   "ma20": 103.49,
+   "ma50": 95.22,
+   "ma150": 79.39,
+   "distMA50": 13.32,
+   "periodHigh": 112.94,
+   "pullbackFromHigh": -4.46,
+   "volRatio20": 0.58,
+   "dryUpRatio": 0.74
+  },
+  "last10": [
+   {
+    "d": "2026-09-30",
+    "o": 104.88,
+    "h": 105.34,
+    "l": 102.65,
+    "c": 102.85,
+    "v": 699000,
+    "clsPos": 7,
+    "gapPct": 0.62
+   },
+   {
+    "d": "2026-10-01",
+    "o": 102.5,
+    "h": 106.24,
+    "l": 101.51,
+    "c": 104.23,
+    "v": 533500,
+    "clsPos": 57,
+    "gapPct": -0.34
+   },
+   {
+    "d": "2026-10-02",
+    "o": 104.83,
+    "h": 107,
+    "l": 100.55,
+    "c": 102.53,
+    "v": 676500,
+    "clsPos": 31,
+    "gapPct": 0.58
+   },
+   {
+    "d": "2026-10-05",
+    "o": 103.22,
+    "h": 108.55,
+    "l": 102,
+    "c": 107.7,
+    "v": 849700,
+    "clsPos": 87,
+    "gapPct": 0.67
+   },
+   {
+    "d": "2026-10-06",
+    "o": 109.83,
+    "h": 112.94,
+    "l": 108.35,
+    "c": 110.66,
+    "v": 1007800,
+    "clsPos": 50,
+    "gapPct": 1.98
+   },
+   {
+    "d": "2026-10-07",
+    "o": 107.6,
+    "h": 109.48,
+    "l": 104.68,
+    "c": 107.8,
+    "v": 835800,
+    "clsPos": 65,
+    "gapPct": -2.77
+   },
+   {
+    "d": "2026-10-08",
+    "o": 106.83,
+    "h": 108,
+    "l": 103.83,
+    "c": 106.48,
+    "v": 580500,
+    "clsPos": 64,
+    "gapPct": -0.9
+   },
+   {
+    "d": "2026-10-09",
+    "o": 108.08,
+    "h": 112.33,
+    "l": 106.88,
+    "c": 111.07,
+    "v": 484500,
+    "clsPos": 77,
+    "gapPct": 1.5
+   },
+   {
+    "d": "2026-10-12",
+    "o": 110.01,
+    "h": 111.21,
+    "l": 107.11,
+    "c": 107.96,
+    "v": 859000,
+    "clsPos": 21,
+    "gapPct": -0.95
+   },
+   {
+    "d": "2026-10-13",
+    "o": 105.94,
+    "h": 110.02,
+    "l": 105.03,
+    "c": 107.9,
+    "v": 519373,
+    "clsPos": 58,
+    "gapPct": -1.87
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/XMTR-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/XMTR-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 18일째) — 사도 되지만 골라서",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

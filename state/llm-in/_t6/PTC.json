@@ -1,7 +1,7 @@
 {
  "ticker": "PTC",
- "date": "2026-10-13",
- "session": "2026-10-12",
+ "date": "2026-10-14",
+ "session": "2026-10-13",
  "source": "list",
  "plan": {
   "ticker": "PTC",
@@ -12,35 +12,35 @@
   "grade": "C",
   "state": "pre",
   "pivot": 196.05,
-  "stop": 191.23,
-  "distToPivotPct": -0.85,
-  "distToPivotAdr": -0.34,
-  "riskPerSharePct": 2.46,
-  "adrPct": 2.48,
-  "extensionAdr": 4.44,
+  "stop": 191.56,
+  "distToPivotPct": -1.07,
+  "distToPivotAdr": -0.46,
+  "riskPerSharePct": 2.29,
+  "adrPct": 2.32,
+  "extensionAdr": 3.41,
   "breakDate": null,
   "metrics": {
-   "baseBars": 5,
-   "baseWeeks": 1,
+   "baseBars": 6,
+   "baseWeeks": 1.2,
    "depthPct": 2.1,
    "priorMovePct": 75.2,
    "higherLows": 1,
-   "contraction": 0.64,
-   "closeRange10Adr": 11.8,
-   "surf10": 4.44,
-   "surf20": 8.23,
-   "slope20": 11.17,
+   "contraction": 0.56,
+   "closeRange10Adr": 12,
+   "surf10": 3.41,
+   "surf20": 8.05,
+   "slope20": 10.98,
    "baseLow": 191.92,
    "lastSwingLow": 191.92
   },
   "reasons": [
    "선행 상승 +75%",
-   "✗ 베이스 1주",
+   "✗ 베이스 1.2주",
    "깊이 2.1%",
    "저점 상승 1회",
-   "진폭 0.64배 · 10일 종가폭 11.8 ADR",
-   "✗ 10일선 +4.4 ADR · 20일선 +8.2 ADR",
-   "20일선 기울기 +11.17%"
+   "진폭 0.56배 · 10일 종가폭 12 ADR",
+   "✗ 10일선 +3.4 ADR · 20일선 +8 ADR",
+   "20일선 기울기 +10.98%"
   ],
   "earnings": null
  },
@@ -56,18 +56,18 @@
    },
    "m6": {
     "v": 0.379337326986566,
-    "pct": 89.13435527502254
+    "pct": 89.04418394950406
    }
   },
   "ret1m": 42.25,
   "ret3m": 56.3,
   "ret6m": 37.93,
   "marketCap": "21.12B",
-  "volx": 1.12,
-  "volSurgeWk": 0.39,
+  "volx": null,
+  "volSurgeWk": 0.47,
   "high52": 93.99,
   "newHigh52": false,
-  "adr": 2.48,
+  "adr": 2.41,
   "div50": 29.63,
   "div200": 33.49,
   "targetStatus": false,
@@ -108,14 +108,14 @@
    "m6": null
   },
   "top2Streak": {
-   "m1": 6,
-   "m3": 6,
+   "m1": 7,
+   "m3": 7,
    "m6": 0
   }
  },
  "eye": null,
  "detail": {
-  "fetchedAt": "2026-10-13",
+  "fetchedAt": "2026-10-14",
   "nameKo": "PTC",
   "nameEn": "PTC INC",
   "financials": {
@@ -339,6 +339,13 @@
    "date": "2026-06-25",
    "publisher": "CNBC",
    "kind": "article"
+  },
+  {
+   "title": "'Winners win': Josh Brown on three winning Best Stocks to keep riding",
+   "url": "https://www.cnbc.com/2026/06/22/winners-win-josh-brown-on-three-winning-best-stocks-to-keep-riding.html",
+   "date": "2026-06-22",
+   "publisher": "CNBC",
+   "kind": "article"
   }
  ],
  "kis": {
@@ -364,29 +371,19 @@
   "listedShares": 108632000
  },
  "chart": {
-  "lastBar": "2026-10-12",
+  "lastBar": "2026-10-13",
   "numbers": {
-   "price": 194.39,
-   "ma20": 154.75,
-   "ma50": 149.95,
-   "ma150": 139.99,
-   "distMA50": 29.63,
+   "price": 193.96,
+   "ma20": 157.81,
+   "ma50": 151.04,
+   "ma150": 140.22,
+   "distMA50": 28.42,
    "periodHigh": 219.69,
-   "pullbackFromHigh": -11.52,
-   "volRatio20": 1.02,
-   "dryUpRatio": 1.41
+   "pullbackFromHigh": -11.71,
+   "volRatio20": 0.65,
+   "dryUpRatio": 1.16
   },
   "last10": [
-   {
-    "d": "2026-09-29",
-    "o": 137.87,
-    "h": 138.86,
-    "l": 134.31,
-    "c": 137.56,
-    "v": 1318600,
-    "clsPos": 71,
-    "gapPct": -1.3
-   },
    {
     "d": "2026-09-30",
     "o": 137.71,
@@ -476,6 +473,16 @@
     "v": 4211200,
     "clsPos": 61,
     "gapPct": 0.22
+   },
+   {
+    "d": "2026-10-13",
+    "o": 194.73,
+    "h": 194.79,
+    "l": 193.81,
+    "c": 193.96,
+    "v": 2718894,
+    "clsPos": 15,
+    "gapPct": 0.17
    }
   ],
   "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PTC-3m.png",
@@ -483,7 +490,7 @@
  },
  "market": {
   "verdict": "green",
-  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 17일째) — 사도 되지만 골라서",
+  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 18일째) — 사도 되지만 골라서",
   "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
   "finraLevel": "warn"
  }

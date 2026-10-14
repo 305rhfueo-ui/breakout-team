@@ -1,205 +1,322 @@
 {
-  "date": "2026-10-13",
-  "team": 4,
-  "items": [
+ "date": "2026-10-14",
+ "team": 4,
+ "items": [
+  {
+   "ticker": "AMAT",
+   "category": 6,
+   "claims": [
     {
-      "ticker": "SENEB",
-      "category": 6,
-      "claims": [
-        {
-          "id": "c1",
-          "statement": "근거 없음",
-          "evidence_level": "no_source",
-          "sources": []
-        }
-      ],
-      "company": "Seneca Foods의 B주(SENEB)로, 통조림 채소와 과일 등 가공식품을 만들어 판매해 돈을 번다.",
-      "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-      "confidence": "low",
-      "factcheck": {
-        "verdict": "pass",
-        "removed": [],
-        "reason": "No source claim properly categorized as ⑥"
-      },
-      "categoryName": "암묵적(뉴스 없는 이상거래량)",
-      "isHighlight": false
-    },
-    {
-      "ticker": "NOVT",
-      "category": 6,
-      "claims": [
-        {
-          "id": "c1",
-          "statement": "근거 없음",
-          "evidence_level": "no_source",
-          "sources": []
-        }
-      ],
-      "company": "Novanta는 의료기기·반도체 장비·로봇 등에 들어가는 정밀 레이저, 광학, 모션 제어 부품을 만들어 파는 회사다.",
-      "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-      "confidence": "low",
-      "factcheck": {
-        "verdict": "pass",
-        "removed": [],
-        "reason": "No source claim properly categorized as ⑥"
-      },
-      "categoryName": "암묵적(뉴스 없는 이상거래량)",
-      "isHighlight": false
-    },
-    {
-      "ticker": "MANH",
-      "category": 6,
-      "claims": [
-        {
-          "id": "c1",
-          "statement": "10월 12일 모건스탠리가 MANH 투자의견을 중립(Equal-Weight)에서 비중확대(Overweight)로 올렸다.",
-          "evidence_level": "sourced",
-          "sources": [
-            {
-              "title": "Morgan Stanley Upgrades Manhattan Associates to Overweight from Equal-Weight",
-              "publisher": "Fintel",
-              "url": "https://www.nasdaq.com/articles/morgan-stanley-upgrades-manhattan-associates-overweight-equal-weight",
-              "date": "2026-10-12",
-              "quote": "Morgan Stanley Upgrades Manhattan Associates to Overweight from Equal-Weight"
-            }
-          ]
-        }
-      ],
-      "company": "MANH는 물류·공급망 관리 소프트웨어를 기업에 판매하고 구독료와 서비스 수수료로 돈을 번다.",
-      "volumeExplanation": "10월 12일 모건스탠리가 투자의견을 중립에서 비중확대로 올렸고, 이것이 거래량 증가와 같은 시점이다. 실적·계약 같은 회사 자체의 새 소식은 없어서 어닝 서프라이즈 등 1~5번 호재로는 보기 어렵다. 업그레이드가 직접 원인인지는 확인되지 않는다.",
-      "confidence": "low",
-      "factcheck": {
-        "verdict": "pass",
-        "removed": [],
-        "reason": "Morgan Stanley upgrade (2026-10-12) properly sourced; correctly categorized as ⑥ since analyst opinion is not a company catalyst (①~⑤)"
-      },
-      "categoryName": "암묵적(뉴스 없는 이상거래량)",
-      "isHighlight": false
-    },
-    {
-      "ticker": "BHRB",
-      "category": 6,
-      "claims": [
-        {
-          "id": "c1",
-          "statement": "근거 없음",
-          "evidence_level": "no_source",
-          "sources": []
-        }
-      ],
-      "company": "Burke & Herbert는 미국 버지니아주 북부에서 예금을 받고 대출을 해주며 이자 수익으로 돈을 버는 지역은행 지주회사입니다.",
-      "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-      "confidence": "low",
-      "factcheck": {
-        "verdict": "pass",
-        "removed": [],
-        "reason": "No source claim properly categorized as ⑥"
-      },
-      "categoryName": "암묵적(뉴스 없는 이상거래량)",
-      "isHighlight": false
-    },
-    {
-      "ticker": "TARS",
-      "category": 6,
-      "claims": [
-        {
-          "id": "c1",
-          "statement": "근거 없음",
-          "evidence_level": "no_source",
-          "sources": []
-        }
-      ],
-      "company": "Tarsus는 안구 질환 치료제를 만드는 바이오 기업으로, 눈꺼풀 진드기 감염 치료제 XDEMVY 판매로 매출을 낸다.",
-      "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-      "confidence": "low",
-      "factcheck": {
-        "verdict": "pass",
-        "removed": [],
-        "reason": "No source claim properly categorized as ⑥"
-      },
-      "categoryName": "암묵적(뉴스 없는 이상거래량)",
-      "isHighlight": false
-    },
-    {
-      "ticker": "SMTC",
-      "category": 6,
-      "claims": [
-        {
-          "id": "c1",
-          "statement": "근거 없음",
-          "evidence_level": "no_source",
-          "sources": []
-        }
-      ],
-      "company": "Semtech는 데이터센터·통신 장비에 들어가는 아날로그·신호 처리 반도체와 무선 통신 모듈을 만들어 파는 회사다.",
-      "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-      "confidence": "low",
-      "factcheck": {
-        "verdict": "pass",
-        "removed": [],
-        "reason": ""
-      },
-      "categoryName": "암묵적(뉴스 없는 이상거래량)",
-      "isHighlight": false
-    },
-    {
-      "ticker": "FROG",
-      "category": 6,
-      "claims": [
-        {
-          "id": "c1",
-          "statement": "근거 없음",
-          "evidence_level": "no_source",
-          "sources": []
-        }
-      ],
-      "company": "JFrog는 소프트웨어 개발 과정에서 쓰는 파일과 부품을 보관·배포하고 보안 점검까지 해 주는 플랫폼을 구독형으로 팔아 돈을 번다.",
-      "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-      "confidence": "low",
-      "factcheck": {
-        "verdict": "pass",
-        "removed": [],
-        "reason": ""
-      },
-      "categoryName": "암묵적(뉴스 없는 이상거래량)",
-      "isHighlight": false
-    },
-    {
-      "ticker": "LIVN",
-      "category": 6,
-      "claims": [
-        {
-          "id": "c1",
-          "statement": "근거 없음",
-          "evidence_level": "no_source",
-          "sources": []
-        }
-      ],
-      "company": "LivaNova는 뇌전증·우울증 치료용 미주신경자극기와 심장수술 장비 등 의료기기를 팔아 돈을 버는 회사입니다.",
-      "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-      "confidence": "low",
-      "factcheck": {
-        "verdict": "pass",
-        "removed": [],
-        "reason": ""
-      },
-      "categoryName": "암묵적(뉴스 없는 이상거래량)",
-      "isHighlight": false
+     "id": "c1",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
     }
-  ],
-  "summary": {
-    "highlights": [],
-    "sectorSignal": "오늘은 실적 호재나 산업 기술 돌파로 분류된 종목이 한 건도 없습니다. 입력된 8건은 모두 뉴스 없는 이상 거래량으로 분류돼 업종 쏠림을 말할 근거가 없습니다.",
-    "caution": "8건 중 7건은 근거가 없다고 나왔습니다. MANH의 모건스탠리 투자의견 상향만 확인된 내용이지만, 이것은 실적이나 기술 호재가 아니라 분석가 의견 변화입니다. 호재가 없다는 결과이고, 거래량만 보고 호재로 해석하면 안 됩니다."
+   ],
+   "company": "반도체를 만드는 데 쓰는 장비를 만들어 파는 회사다. 장비 판매와 설치된 장비의 유지·보수 서비스로 돈을 번다.",
+   "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": ""
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
   },
-  "byCategory": {
-    "6": 8
+  {
+   "ticker": "UNH",
+   "category": 1,
+   "company": "UNH는 미국 최대 민간 건강보험사로, 보험료 수입과 의료서비스(옵텀) 사업으로 돈을 법니다.",
+   "volumeExplanation": "10월 13일 3분기 실적을 발표했고, 기사 제목상 이익과 매출이 모두 예상치를 웃돌았습니다. 실적 발표 직후 확인하려는 매매가 몰려 거래량이 평소보다 늘었습니다.",
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "UNH가 10월 13일 3분기 실적을 발표했고, 이익과 매출 모두 시장 예상치를 넘었다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "UnitedHealth Group (UNH) Q3 Earnings and Revenues Top Estimates",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/unitedhealth-group-unh-q3-earnings-and-revenues-top-estimates",
+       "date": "2026-10-13",
+       "quote": "UnitedHealth Group (UNH) Q3 Earnings and Revenues Top Estimates"
+      }
+     ]
+    },
+    {
+     "id": "c2",
+     "statement": "같은 날 회사는 SEC에 실적 발표 공시(8-K, 항목 2.02)를 제출했다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "UnitedHealth 8-K 2026-10-13",
+       "publisher": "SEC EDGAR",
+       "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000255/unh-20261013.htm",
+       "date": "2026-10-13",
+       "quote": "8-K items 2.02, 9.01 (실적 발표), filed 2026-10-13"
+      }
+     ]
+    }
+   ],
+   "confidence": "medium",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": ""
+   },
+   "categoryName": "어닝 서프라이즈/가이던스 상향",
+   "isHighlight": true
   },
-  "failed": [],
-  "coverage": {
-    "done": 8,
-    "total": 8,
-    "cap": 8,
-    "failed": 0
+  {
+   "ticker": "JPM",
+   "category": 1,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "JPMorgan이 10월 13일 3분기 실적을 발표했는데, 이익과 매출이 모두 시장 예상에 못 미쳤다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "JPMorgan Chase & Co. (JPM) Q3 Earnings and Revenues Lag Estimates",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/jpmorgan-chase-co-jpm-q3-earnings-and-revenues-lag-estimates",
+       "date": "2026-10-13",
+       "quote": "JPMorgan Chase & Co. (JPM) Q3 Earnings and Revenues Lag Estimates"
+      }
+     ]
+    },
+    {
+     "id": "c2",
+     "statement": "채권·금리 거래 부문이 부진했고, 투자은행 부문이 그 부족분을 일부 메웠다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "JPM Q3 Earnings Lag on Lower Fixed Income Markets, IB Offer Support",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/jpm-q3-earnings-lag-lower-fixed-income-markets-ib-offer-support",
+       "date": "2026-10-13",
+       "quote": "JPM Q3 Earnings Lag on Lower Fixed Income Markets, IB Offer Support"
+      }
+     ]
+    }
+   ],
+   "company": "JPMorgan Chase는 미국 최대 은행으로, 예금·대출 이자와 투자은행·채권 거래 수수료로 돈을 번다.",
+   "volumeExplanation": "10월 13일 발표한 3분기 실적이 예상에 못 미쳐 거래량이 늘었다. 채권 거래가 부진했고 투자은행 부문이 일부 받쳐 줬다.",
+   "confidence": "medium",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "c3"
+    ],
+    "reason": "c3의 출처(Motley Fool earnings call transcript)는 경영진 설명회 전문 공개만 뒷받침하고, 'SEC 8-K 제출' 주장은 뒷받침하지 않음"
+   },
+   "categoryName": "어닝 서프라이즈/가이던스 상향",
+   "isHighlight": true
+  },
+  {
+   "ticker": "JNJ",
+   "category": 1,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "JNJ가 2026년 10월 13일 3분기 실적을 발표했고, 같은 날 SEC에 실적 발표 공시(8-K)를 냈다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "8-K (item 2.02, 9.01) 2026-10-13",
+       "publisher": "SEC EDGAR",
+       "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000189/jnj-20261013.htm",
+       "date": "2026-10-13",
+       "quote": "8-K"
+      },
+      {
+       "title": "Compared to Estimates, Johnson & Johnson (JNJ) Q3 Earnings: A Look at Key Metrics",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/compared-estimates-johnson-johnson-jnj-q3-earnings-look-key-metrics",
+       "date": "2026-10-13",
+       "quote": "Compared to Estimates, Johnson & Johnson (JNJ) Q3 Earnings: A Look at Key Metrics"
+      }
+     ]
+    },
+    {
+     "id": "c2",
+     "statement": "실적 발표 당일 경영진 컨퍼런스콜 녹취록이 공개됐다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "J&J (JNJ) Q3 2026 Earnings Call Transcript",
+       "publisher": "The Motley Fool",
+       "url": "https://www.nasdaq.com/articles/jj-jnj-q3-2026-earnings-call-transcript",
+       "date": "2026-10-13",
+       "quote": "J&J (JNJ) Q3 2026 Earnings Call Transcript"
+      }
+     ]
+    }
+   ],
+   "company": "존슨앤드존슨은 처방약과 의료기기를 팔아 돈을 버는 세계 최대급 헬스케어 기업이다. 시가총액은 약 6,356억 달러다.",
+   "volumeExplanation": "10월 13일 3분기 실적 발표와 컨퍼런스콜이 있었고, 그 직후 거래량이 최근 5일 평균의 2.88배로 늘었다. 다만 예상치 대비 서프라이즈 여부나 가이던스 변화는 확인하지 못했다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": ""
+   },
+   "categoryName": "어닝 서프라이즈/가이던스 상향",
+   "isHighlight": true
+  },
+  {
+   "ticker": "C",
+   "category": 1,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "씨티그룹이 10월 13일 3분기 실적을 발표했고, 순이익과 매출 모두 시장 예상치를 웃돌았다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Citigroup (C) Q3 Earnings and Revenues Surpass Estimates",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/citigroup-c-q3-earnings-and-revenues-surpass-estimates",
+       "date": "2026-10-13",
+       "quote": "Citigroup (C) Q3 Earnings and Revenues Surpass Estimates"
+      }
+     ]
+    }
+   ],
+   "company": "씨티그룹은 미국 대형 종합은행으로, 기업·투자은행, 시장 거래, 카드, 자산관리로 돈을 번다.",
+   "volumeExplanation": "10월 13일 3분기 실적이 발표됐고, 순이익과 매출이 예상치를 웃돌아 거래량이 늘었다. 가이던스(회사 전망) 상향 여부는 확인된 자료가 없어, 다음 분기 전망 발언이 실적 이후 주가 방향을 가를 확인 조건이다.",
+   "confidence": "medium",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "c2"
+    ],
+    "reason": "c2의 출처(Motley Fool earnings call transcript)는 경영진 설명회는 뒷받침하나, '8-K 공시(항목 2.02) 제출' 주장은 뒷받침하지 않음"
+   },
+   "categoryName": "어닝 서프라이즈/가이던스 상향",
+   "isHighlight": true
+  },
+  {
+   "ticker": "MGRT",
+   "category": 6,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "company": "Mega Fortune Company는 홍콩 기반의 사물인터넷(IoT) 솔루션 업체로 나스닥에 상장돼 있다.",
+   "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": ""
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
+  },
+  {
+   "ticker": "LNTH",
+   "category": 3,
+   "company": "Lantheus는 암·심장 질환 진단에 쓰는 방사성 의약품(영상진단제)을 만들어 파는 회사입니다.",
+   "volumeExplanation": "Curium의 인수(주당 현금 102.50달러 + 추가 지급권)에 대한 주주 투표가 10월 14일로 잡혀 있었습니다. 주가가 인수가 부근에 묶인 채 투표·승인 일정을 앞두고 거래가 늘어난 것으로 보입니다.",
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "Lantheus는 Curium에 인수되는 절차를 밟고 있고, 주주 특별총회가 2026년 10월 14일에 열린다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Lantheus stock heads toward October 14 merger vote",
+       "publisher": "ad-hoc-news.de",
+       "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/lantheus-stock-heads-toward-october-14-merger-vote/70249607",
+       "date": "2026-10-07",
+       "quote": "The special meeting is scheduled for October 14, 2026 at 10:00 a.m. ET."
+      }
+     ]
+    },
+    {
+     "id": "c2",
+     "statement": "인수 조건은 주당 현금 102.50달러에 최대 12달러의 추가 지급권(CVR)이다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Lantheus stock heads toward October 14 merger vote",
+       "publisher": "ad-hoc-news.de",
+       "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/lantheus-stock-heads-toward-october-14-merger-vote/70249607",
+       "date": "2026-10-07",
+       "quote": "USD 102.50 in cash per share plus one contingent value right worth up to USD 12.00 if specified commercial milestones are achieved"
+      }
+     ]
+    }
+   ],
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": ""
+   },
+   "categoryName": "대형 파트너십·공급계약",
+   "isHighlight": false
+  },
+  {
+   "ticker": "CNXN",
+   "category": 6,
+   "claims": [
+    {
+     "id": "c1",
+     "statement": "근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "company": "PC Connection은 기업·정부·교육기관에 컴퓨터와 소프트웨어, IT 서비스를 파는 유통사다.",
+   "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reason": ""
+   },
+   "categoryName": "암묵적(뉴스 없는 이상거래량)",
+   "isHighlight": false
   }
+ ],
+ "summary": {
+  "highlights": [
+   {
+    "ticker": "UNH",
+    "category": 1,
+    "oneLine": "10월 13일 3분기 실적에서 이익과 매출이 모두 시장 예상치를 넘었다."
+   },
+   {
+    "ticker": "C",
+    "category": 1,
+    "oneLine": "10월 13일 3분기 순이익과 매출이 모두 시장 예상치를 웃돌았다."
+   },
+   {
+    "ticker": "JNJ",
+    "category": 1,
+    "oneLine": "10월 13일 3분기 실적을 발표했다. 예상 상회 여부는 근거 없음."
+   }
+  ],
+  "sectorSignal": "실적 호재는 건강보험(UNH), 은행(C), 제약(JNJ)에 흩어져 있어 한 업종 쏠림은 보이지 않는다. 은행은 C가 예상을 넘었지만 JPM은 예상에 못 미쳐 엇갈린다.",
+  "caution": "JNJ는 실적 발표 사실만 확인됐고 예상치를 넘었는지는 입력에 없다. JPM은 실적 분류로 들어왔지만 예상 미달이라 호재에서 뺐다. 산업 기술 돌파(5번)에 해당하는 종목은 없다. 차트 국면과 주가 반응은 보지 않았다."
+ },
+ "byCategory": {
+  "1": 4,
+  "3": 1,
+  "6": 3
+ },
+ "failed": [],
+ "coverage": {
+  "done": 8,
+  "total": 8,
+  "cap": 8,
+  "failed": 0
+ }
 }

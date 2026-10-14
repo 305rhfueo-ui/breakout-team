@@ -1,0 +1,453 @@
+{
+ "ticker": "RNG",
+ "date": "2026-10-14",
+ "session": "2026-10-13",
+ "source": "watch",
+ "plan": {
+  "ticker": "RNG",
+  "name": "링센트럴",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "grade": "A",
+  "state": "pre",
+  "asOf": "2026-10-13",
+  "price": 78.69,
+  "pivot": 81.9,
+  "pivotDate": "2026-09-23",
+  "stop": 78.48,
+  "riskPerSharePct": 4.18,
+  "weightPct": 12,
+  "weightCapped": false,
+  "distToPivotPct": -3.92,
+  "distToPivotAdr": -0.9,
+  "extensionAdr": 0.24,
+  "chase": false,
+  "adrPct": 4.35,
+  "ma10": 77.86,
+  "dollarVol20M": 121.5,
+  "liquid": true,
+  "reasons": [
+   "선행 상승 +137%",
+   "베이스 3.2주",
+   "깊이 11.7%",
+   "저점 상승 1회",
+   "진폭 0.81배 · 10일 종가폭 1.3 ADR",
+   "10일선 +0.2 ADR · 20일선 +0.5 ADR",
+   "20일선 기울기 +2.57%"
+  ],
+  "fails": [],
+  "metrics": {
+   "baseBars": 16,
+   "baseWeeks": 3.2,
+   "depthPct": 11.7,
+   "priorMovePct": 137.3,
+   "higherLows": 1,
+   "contraction": 0.81,
+   "closeRange10Adr": 1.3,
+   "surf10": 0.24,
+   "surf20": 0.47,
+   "slope20": 2.57,
+   "baseLow": 72.29,
+   "lastSwingLow": 72.29
+  },
+  "catalyst": null,
+  "earnings": null,
+  "blocked": null,
+  "shadowBook": null,
+  "watch": true,
+  "score": 66.1
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.08089046596801583,
+    "pct": 85.88818755635708
+   },
+   "m3": {
+    "v": 0.8956741620795342,
+    "pct": 99.50405770964834
+   },
+   "m6": {
+    "v": 0.8976555959727666,
+    "pct": 96.0775473399459
+   }
+  },
+  "ret1m": 8.09,
+  "ret3m": 89.57,
+  "ret6m": 89.77,
+  "marketCap": "6.62B",
+  "volx": null,
+  "volSurgeWk": 1.41,
+  "high52": 95.45,
+  "newHigh52": false,
+  "adr": 4.32,
+  "div50": 10.43,
+  "div200": 71.65,
+  "targetStatus": false,
+  "saleCy": 5.02,
+  "saleNy": 4.53,
+  "epsCy": 15.46,
+  "epsNy": 10.83,
+  "cyTrend": -0.09,
+  "nyTrend": 1.45,
+  "est": {
+   "cyCur": 5.03385,
+   "cy30": 5.03846,
+   "nyCur": 5.57882,
+   "ny30": 5.49882
+  },
+  "fs": null,
+  "qualifiedBy": [
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-10-12",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 2,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-13",
+  "nameKo": "링센트럴",
+  "nameEn": "RINGCENTRAL INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001384905&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 657011000,
+     "profit": 50285000,
+     "netIncome": 39115000,
+     "margin": 7.7,
+     "yoy": {
+      "revenue": 5.9,
+      "profit": 36,
+      "netIncome": 196.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 644199000,
+     "profit": 50028000,
+     "netIncome": 30618000,
+     "margin": 7.8,
+     "yoy": {
+      "revenue": 5.3,
+      "profit": 383.8,
+      "netIncome": 396.5,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 644033000,
+     "profit": 42441000,
+     "netIncome": 22967000,
+     "margin": 6.6,
+     "yoy": {
+      "revenue": 4.8,
+      "profit": 171.4,
+      "netIncome": 419.5,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 638655000,
+     "profit": 30807000,
+     "netIncome": 17559000,
+     "margin": 4.8,
+     "yoy": {
+      "revenue": 4.9,
+      "profit": 836.1,
+      "netIncome": 323.6,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here's Why RingCentral (RNG) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-ringcentral-rng-strong-growth-stock-2",
+     "date": "2026-10-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why RingCentral (RNG) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-ringcentral-rng-top-momentum-stock-long-term-0",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why RingCentral (RNG) is a Strong Value Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-ringcentral-rng-strong-value-stock",
+     "date": "2026-09-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why RingCentral (RNG) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-ringcentral-rng-strong-growth-stock-0",
+     "date": "2026-09-25",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "RingCentral Sees AI Driving Upsell, Growth and Stronger Customer Retention",
+     "url": "https://www.nasdaq.com/articles/ringcentral-sees-ai-driving-upsell-growth-and-stronger-customer-retention",
+     "date": "2026-09-21",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "RingCentral COO Makagon Sells 36,185 Shares for $2.5 Million",
+     "url": "https://www.nasdaq.com/articles/ringcentral-coo-makagon-sells-36185-shares-25-million",
+     "date": "2026-09-18",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "RingCentral's Consensus Price Target Raised 14.17% to $55.89",
+     "url": "https://www.nasdaq.com/articles/ringcentrals-consensus-price-target-raised-1417-5589",
+     "date": "2026-09-15",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "RingCentral's Chief Accounting Officer Sells 4,172 Company Shares Amid a 119% One-Year Stock Surge",
+     "url": "https://www.nasdaq.com/articles/ringcentrals-chief-accounting-officer-sells-4172-company-shares-amid-119-one-year-stock",
+     "date": "2026-09-14",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-09",
+    "itemsKo": [
+     "5.08",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1384905/000138490526000055/rng-20261008.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-28",
+    "itemsKo": [
+     "5.08",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1384905/000138490526000050/rng-20260928.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-23",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1384905/000138490526000043/rng-20260723.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1384905/000138490526000033/rng-20260507.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-19",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1384905/000138490526000008/rng-20260219.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-05",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1384905/000138490526000003/rng-20251231.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "RNG",
+  "fetchedAt": "2026-10-13",
+  "source": "한국투자증권 Open API",
+  "per": 62.26,
+  "pbr": 0,
+  "eps": 1.26,
+  "bps": 0,
+  "shares": 73736600,
+  "marketCapM": 5764,
+  "high52": 81.9016,
+  "high52Date": "2026-09-23",
+  "low52": 24.0112,
+  "low52Date": "2026-02-03",
+  "last": 78.17,
+  "prevClose": 79.27,
+  "nameKo": "링센트럴",
+  "nameEn": "RINGCENTRAL INC",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 73736600
+ },
+ "chart": {
+  "lastBar": "2026-10-13",
+  "numbers": {
+   "price": 78.69,
+   "ma20": 77.08,
+   "ma50": 71.22,
+   "ma150": 51.03,
+   "distMA50": 10.49,
+   "periodHigh": 81.9,
+   "pullbackFromHigh": -3.92,
+   "volRatio20": 1.1,
+   "dryUpRatio": 0.85
+  },
+  "last10": [
+   {
+    "d": "2026-09-30",
+    "o": 73.99,
+    "h": 76.35,
+    "l": 73.99,
+    "c": 74.7,
+    "v": 1465500,
+    "clsPos": 30,
+    "gapPct": -0.59
+   },
+   {
+    "d": "2026-10-01",
+    "o": 76.58,
+    "h": 78.89,
+    "l": 75.52,
+    "c": 78.31,
+    "v": 1318200,
+    "clsPos": 83,
+    "gapPct": 2.52
+   },
+   {
+    "d": "2026-10-02",
+    "o": 78.67,
+    "h": 79.79,
+    "l": 77.12,
+    "c": 78.28,
+    "v": 1266700,
+    "clsPos": 43,
+    "gapPct": 0.46
+   },
+   {
+    "d": "2026-10-05",
+    "o": 78.46,
+    "h": 80.6,
+    "l": 77.48,
+    "c": 79.06,
+    "v": 1700800,
+    "clsPos": 51,
+    "gapPct": 0.23
+   },
+   {
+    "d": "2026-10-06",
+    "o": 79.32,
+    "h": 80.16,
+    "l": 76.29,
+    "c": 77.26,
+    "v": 1170700,
+    "clsPos": 25,
+    "gapPct": 0.33
+   },
+   {
+    "d": "2026-10-07",
+    "o": 76.88,
+    "h": 78.13,
+    "l": 76.32,
+    "c": 76.54,
+    "v": 1087800,
+    "clsPos": 12,
+    "gapPct": -0.49
+   },
+   {
+    "d": "2026-10-08",
+    "o": 77.11,
+    "h": 78.85,
+    "l": 76.76,
+    "c": 78.35,
+    "v": 1543600,
+    "clsPos": 76,
+    "gapPct": 0.74
+   },
+   {
+    "d": "2026-10-09",
+    "o": 79.39,
+    "h": 80.24,
+    "l": 78.59,
+    "c": 79.27,
+    "v": 917300,
+    "clsPos": 41,
+    "gapPct": 1.33
+   },
+   {
+    "d": "2026-10-12",
+    "o": 80.46,
+    "h": 81.78,
+    "l": 77.21,
+    "c": 78.17,
+    "v": 1430500,
+    "clsPos": 21,
+    "gapPct": 1.5
+   },
+   {
+    "d": "2026-10-13",
+    "o": 76.89,
+    "h": 79.63,
+    "l": 76,
+    "c": 78.69,
+    "v": 1738092,
+    "clsPos": 74,
+    "gapPct": -1.64
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/RNG-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/RNG-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 18일째) — 사도 되지만 골라서",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

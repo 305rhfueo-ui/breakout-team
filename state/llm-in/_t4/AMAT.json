@@ -1,0 +1,148 @@
+{
+ "ticker": "AMAT",
+ "news": [
+  {
+   "title": "Brokers Suggest Investing in Applied Materials (AMAT): Read This Before Placing a Bet",
+   "url": "https://www.nasdaq.com/articles/brokers-suggest-investing-applied-materials-amat-read-placing-bet",
+   "date": "2026-10-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Applied Materials (AMAT) Suffers a Larger Drop Than the General Market: Key Insights",
+   "url": "https://www.nasdaq.com/articles/applied-materials-amat-suffers-larger-drop-general-market-key-insights",
+   "date": "2026-10-08",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-27",
+   "reportDate": "2026-08-27",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026059257/amat-20260827.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-13",
+   "reportDate": "2026-08-13",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026056699/amat-20260813.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-14",
+   "reportDate": "2026-05-14",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026035071/amat-20260514.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-13",
+   "reportDate": "2026-03-12",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/6951/000119312526106339/d114932d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "reportDate": "2026-02-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026007661/amat-20260212.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "reportDate": "2026-02-11",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026007444/amat-20260211.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 20.77,
+  "saleNy": 35.18,
+  "epsCy": 35.73,
+  "epsNy": 44.53,
+  "cyTrend": -0.07,
+  "nyTrend": 0.13,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    24.83,
+    11.41,
+    -2.15
+   ],
+   "ni": [
+    42.66,
+    31.31,
+    70.97
+   ],
+   "opm": [
+    33.74,
+    31.9,
+    26.11
+   ],
+   "updated": "2026-09-07 06:42:56"
+  }
+ }
+}

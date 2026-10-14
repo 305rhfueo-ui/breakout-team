@@ -1,5 +1,5 @@
 {
- "date": "2026-10-13",
+ "date": "2026-10-14",
  "lists": [
   {
    "key": "dollar",
@@ -39,7 +39,7 @@
      "name": "오케아니스 에코 탱커스",
      "industry": "Marine Shipping",
      "ret1d": 5.93,
-     "rnk1": 2.75,
+     "rnk1": 2.66,
      "rnk3": 0.41,
      "rnk6": 2.21
     },
@@ -57,9 +57,9 @@
      "name": "Wheeler Real Estate Investment Trust, Inc.",
      "industry": "N/A",
      "ret1d": 6.25,
-     "rnk1": 44.09,
-     "rnk3": 48.02,
-     "rnk6": 59.15
+     "rnk1": 44,
+     "rnk3": 47.84,
+     "rnk6": 59.06
     }
    ],
    "industries": [
@@ -206,13 +206,6 @@
      "url": "https://www.cnbc.com/2026/06/27/bank-of-america-names-5-stocks-with-the-most-upside-potential.html"
     },
     {
-     "ticker": "VSXY",
-     "date": "2026-09-03",
-     "publisher": "CNBC",
-     "title": "Victoria's Secret CEO: Entering back half of the year with tons of momentum despite revenue miss",
-     "url": "https://www.cnbc.com/video/2026/09/03/victorias-secret-ceo-entering-back-half-of-the-year-with-tons-of-momentum-despite-revenue-miss.html"
-    },
-    {
      "ticker": "ECO",
      "date": "2026-10-07",
      "publisher": "Zacks",
@@ -285,12 +278,36 @@
    ],
    "research": [
     {
-     "ticker": "ECO",
-     "company": "그리스 선사로, 원유를 실어 나르는 대형 유조선(VLCC·수에즈막스) 16척을 굴려 운임으로 돈을 번다. 이익이 유조선 운임 변동에 크게 좌우된다.",
+     "ticker": "FICO",
+     "company": "미국 신용점수(FICO 점수)를 만들어 대출 심사 기관에 라이선스로 파는 소프트웨어 회사. 주택담보대출 심사에 쓰이는 점수 수수료가 핵심 수익원이다.",
      "whyRose": [
-      "Zacks가 9월 24일 ECO의 투자의견을 최상위(Strong Buy)로 올렸다. 증권사 이익 전망이 오른 영향으로 보인다.",
-      "한 주 만에 11.56% 올라 단기 상승 탄력이 붙었고, 이 흐름이 주가를 더 끌어올렸다.",
-      "올해 2분기 대형 유조선(VLCC) 하루 운임이 약 21만 달러였고, 3분기 예약분도 약 20만 달러 수준이다. 높은 운임이 실적 기대의 바탕이다."
+      "주가는 올랐다기보다 급락했다. FHFA가 주택담보대출 가격 구조를 바꾼다고 발표해, 신용점수 수수료 수입이 줄 수 있다는 우려가 번졌다.",
+      "증권사들도 목표주가를 낮췄다. 시장 평균 목표주가가 약 12% 내려 1,311.72달러가 됐다."
+     ]
+    },
+    {
+     "ticker": "MANH",
+     "company": "물류·공급망 관리 소프트웨어를 구독 형태로 파는 회사. 창고·배송 운영 시스템이 주력이다.",
+     "whyRose": [
+      "모건스탠리가 투자의견을 '중립'에서 '비중확대'로 올렸다.",
+      "6월 분기 매출은 2억 9,779만 달러로 1년 전보다 9.3% 늘었다."
+     ]
+    },
+    {
+     "ticker": "VSXY",
+     "company": "란제리·뷰티 브랜드 빅토리아 시크릿을 매장과 온라인으로 파는 미국 의류 소매업체. 2026년 6월 모회사에서 분리돼 뉴욕거래소에 상장했다.",
+     "whyRose": [
+      "8월 1일 마감 분기 영업이익이 2억 5,700만 달러로 1년 전보다 약 527% 늘었다. 매출은 16억 1,100만 달러로 10.4% 증가했고 영업이익률은 16%였다.",
+      "회사가 2026년 연간 전망을 올렸다. 브랜드 인기와 이익률 개선이 근거로 제시됐다.",
+      "CEO는 매출이 기대에 못 미쳤지만 하반기 모멘텀이 크다고 밝혔다."
+     ]
+    },
+    {
+     "ticker": "ECO",
+     "company": "원유·석유제품을 실어 나르는 대형 유조선을 운영하는 그리스계 해운사. 운임이 오르면 이익이 크게 늘어나는 구조다.",
+     "whyRose": [
+      "이익 전망 상향으로 Zacks 투자의견이 최상위(Strong Buy)로 올랐다. 한 주 만에 11.56% 오르기도 했다.",
+      "실적이 빠르게 커졌다. 최근 매출이 직전 기간 대비 크게 늘고 영업이익률이 약 75%에 달한다."
      ]
     },
     {
@@ -300,6 +317,11 @@
       "월가 분석가들은 8월 기준 목표주가가 현재가보다 약 44% 높다고 봤다. 상승 기대가 주가에 반영됐을 가능성이 있다.",
       "7월 31일 2분기 실적 발표 이후 주가 흐름이 이어졌다. 실적 세부 수치는 확인하지 못했다."
      ]
+    },
+    {
+     "ticker": "WHLRL",
+     "company": "휠러 리얼 에스테이트 인베스트먼트 트러스트가 발행한 7% 선순위채권으로, 나스닥에서 거래된다. 주식이 아니라 채권이어서 이익 성장이 아닌 이자 지급 능력이 가격을 좌우한다.",
+     "whyRose": []
     }
    ]
   },
@@ -315,8 +337,8 @@
      "industry": "N/A",
      "ret1d": -2.31,
      "rnk1": 0.05,
-     "rnk3": 48.02,
-     "rnk6": 59.15
+     "rnk3": 47.84,
+     "rnk6": 59.06
     },
     {
      "ticker": "KOD",
@@ -370,7 +392,7 @@
      "ret1d": -0.03,
      "rnk1": 0.59,
      "rnk3": 1.49,
-     "rnk6": 10.87
+     "rnk6": 10.96
     },
     {
      "ticker": "VICR",
@@ -406,7 +428,7 @@
      "ret1d": 4.9,
      "rnk1": 0.95,
      "rnk3": 3.56,
-     "rnk6": 12.13
+     "rnk6": 12.22
     },
     {
      "ticker": "CRDO",
@@ -414,7 +436,7 @@
      "industry": "Semiconductors",
      "ret1d": -7.25,
      "rnk1": 1.04,
-     "rnk3": 50.9,
+     "rnk3": 50.81,
      "rnk6": 36.29
     },
     {
@@ -628,6 +650,27 @@
      "url": "https://www.nasdaq.com/articles/new-analyst-forecast-gral-given-320-price-target"
     },
     {
+     "ticker": "GRAL",
+     "date": "2026-10-06",
+     "publisher": "CNBC",
+     "title": "Jim Cramer says Grail can run higher as FDA decision on Galleri nears",
+     "url": "https://www.cnbc.com/2026/10/06/cramer-grail-stock-galleri-fda-approval.html"
+    },
+    {
+     "ticker": "GRAL",
+     "date": "2026-10-06",
+     "publisher": "CNBC",
+     "title": "Grail is a long way from being profitable, says Jim Cramer",
+     "url": "https://www.cnbc.com/video/2026/10/06/grail-is-a-long-way-from-being-profitable-says-jim-cramer.html"
+    },
+    {
+     "ticker": "GRAL",
+     "date": "2026-10-06",
+     "publisher": "CNBC",
+     "title": "The one thing I am worried about here is the valuation, says Jim Cramer on Grail",
+     "url": "https://www.cnbc.com/video/2026/10/06/the-one-thing-i-am-worried-about-here-is-the-valuation-says-jim-cramer-on-grail.html"
+    },
+    {
      "ticker": "PENG",
      "date": "2026-10-12",
      "publisher": "Zacks",
@@ -657,6 +700,13 @@
     },
     {
      "ticker": "PENG",
+     "date": "2026-10-13",
+     "publisher": "CNBC",
+     "title": "Cramer's lightning round: 'Hold on to Element Solutions",
+     "url": "https://www.cnbc.com/2026/10/13/cramers-lightning-round-hold-on-to-element-solutions.html"
+    },
+    {
+     "ticker": "PENG",
      "date": "2026-10-09",
      "publisher": "CNBC",
      "title": "This AI infrastructure stock will rise on agentic AI boom, Bank of America says",
@@ -664,10 +714,10 @@
     },
     {
      "ticker": "PENG",
-     "date": "2026-07-29",
+     "date": "2026-10-07",
      "publisher": "CNBC",
-     "title": "Penguin Solutions CEO: Memory is the new compute in the AI era",
-     "url": "https://www.cnbc.com/video/2026/07/29/penguin-solutions-ceo-memory-is-the-new-compute-in-the-ai-era.html"
+     "title": "Stocks making big moves premarket: Constellation Brands, Flutter Entertainment, Neogen",
+     "url": "https://www.cnbc.com/2026/10/07/stocks-making-the-biggest-moves-premarket-stz-flut-neog.html"
     },
     {
      "ticker": "P",
@@ -720,6 +770,13 @@
     },
     {
      "ticker": "MRNA",
+     "date": "2026-10-13",
+     "publisher": "The Motley Fool",
+     "title": "Moderna vs. Vertex Pharmaceuticals: Which Healthcare Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/moderna-vs-vertex-pharmaceuticals-which-healthcare-stock-better-buy-2026"
+    },
+    {
+     "ticker": "MRNA",
      "date": "2026-10-12",
      "publisher": "Zacks",
      "title": "Here's Why Moderna (MRNA) Fell More Than Broader Market",
@@ -738,13 +795,6 @@
      "publisher": "The Motley Fool",
      "title": "Why Moderna Stock Surged Today",
      "url": "https://www.nasdaq.com/articles/why-moderna-stock-surged-today"
-    },
-    {
-     "ticker": "MRNA",
-     "date": "2026-10-08",
-     "publisher": "Zacks",
-     "title": "Moderna's Nasdaq-100 Entry: What Does It Mean for the Stock?",
-     "url": "https://www.nasdaq.com/articles/modernas-nasdaq-100-entry-what-does-it-mean-stock"
     },
     {
      "ticker": "MRNA",
@@ -818,6 +868,13 @@
     },
     {
      "ticker": "VICR",
+     "date": "2026-10-13",
+     "publisher": "Zacks",
+     "title": "Vicor (VICR) Reports Next Week: Wall Street Expects Earnings Growth",
+     "url": "https://www.nasdaq.com/articles/vicor-vicr-reports-next-week-wall-street-expects-earnings-growth"
+    },
+    {
+     "ticker": "VICR",
      "date": "2026-10-09",
      "publisher": "Zacks",
      "title": "Zacks.com featured highlights Enlight Renewable, Vicor and Cenovus Energy",
@@ -836,13 +893,6 @@
      "publisher": "Zacks",
      "title": "Vicor (VICR) Just Flashed Golden Cross Signal: Do You Buy?",
      "url": "https://www.nasdaq.com/articles/vicor-vicr-just-flashed-golden-cross-signal-do-you-buy"
-    },
-    {
-     "ticker": "VICR",
-     "date": "2026-09-30",
-     "publisher": "Zacks",
-     "title": "Vicor (VICR) is a Great Momentum Stock: Should You Buy?",
-     "url": "https://www.nasdaq.com/articles/vicor-vicr-great-momentum-stock-should-you-buy"
     },
     {
      "ticker": "IMOS",
@@ -894,39 +944,32 @@
      "url": "https://www.nasdaq.com/articles/mxl-vs-vicr-which-has-better-ai-infrastructure-opportunity"
     },
     {
-     "ticker": "MXL",
-     "date": "2026-08-26",
-     "publisher": "Zacks",
-     "title": "MXL's AI Optical Growth Accelerates: Can It Challenge AVGO & MRVL?",
-     "url": "https://www.nasdaq.com/articles/mxls-ai-optical-growth-accelerates-can-it-challenge-avgo-mrvl"
+     "ticker": "SHOP",
+     "date": "2026-10-13",
+     "publisher": "The Motley Fool",
+     "title": "Is Shopify Stock a Buy After Its First Record Close in Nearly a Year?",
+     "url": "https://www.nasdaq.com/articles/shopify-stock-buy-after-its-first-record-close-nearly-year"
     },
     {
      "ticker": "SHOP",
      "date": "2026-10-13",
      "publisher": "The Motley Fool",
-     "title": "Why Shopify Stock Popped by Nearly 5% Today",
-     "url": "https://www.nasdaq.com/articles/why-shopify-stock-popped-nearly-5-today"
+     "title": "Coupang vs. Shopify: Absolute Scale vs. Seasonal Spikes in Revenue",
+     "url": "https://www.nasdaq.com/articles/coupang-vs-shopify-absolute-scale-vs-seasonal-spikes-revenue"
     },
     {
      "ticker": "SHOP",
-     "date": "2026-10-12",
+     "date": "2026-10-13",
      "publisher": "Zacks",
-     "title": "Why Shopify (SHOP) is a Top Stock for the Long-Term",
-     "url": "https://www.nasdaq.com/articles/why-shopify-shop-top-stock-long-term"
+     "title": "Shopify (SHOP) Falls More Steeply Than Broader Market: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/shopify-shop-falls-more-steeply-broader-market-what-investors-need-know-0"
     },
     {
      "ticker": "SHOP",
-     "date": "2026-10-09",
+     "date": "2026-10-13",
      "publisher": "The Motley Fool",
-     "title": "Better E-Commerce Stock: Coupang vs. Shopify",
-     "url": "https://www.nasdaq.com/articles/better-e-commerce-stock-coupang-vs-shopify"
-    },
-    {
-     "ticker": "SHOP",
-     "date": "2026-10-09",
-     "publisher": "The Motley Fool",
-     "title": "1 Stat That Makes Shopify Hard to Ignore Right Now",
-     "url": "https://www.nasdaq.com/articles/1-stat-makes-shopify-hard-ignore-right-now"
+     "title": "MercadoLibre vs. Shopify: Which Consumer Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/mercadolibre-vs-shopify-which-consumer-stock-better-buy-2026"
     },
     {
      "ticker": "SHOP",
@@ -951,6 +994,20 @@
     },
     {
      "ticker": "CRDO",
+     "date": "2026-10-13",
+     "publisher": "Zacks",
+     "title": "Credo Expands AI Connectivity Portfolio With 1.6T ZeroFlap ALC",
+     "url": "https://www.nasdaq.com/articles/credo-expands-ai-connectivity-portfolio-16t-zeroflap-alc"
+    },
+    {
+     "ticker": "CRDO",
+     "date": "2026-10-13",
+     "publisher": "Zacks",
+     "title": "Credo's SRMO Workstream: Can Micro-Emitter Optics Unlock AI Growth?",
+     "url": "https://www.nasdaq.com/articles/credos-srmo-workstream-can-micro-emitter-optics-unlock-ai-growth"
+    },
+    {
+     "ticker": "CRDO",
      "date": "2026-10-09",
      "publisher": "The Motley Fool",
      "title": "Prediction: $5,000 Invested in Credo Technology Could Be Worth This Much by 2029",
@@ -962,20 +1019,6 @@
      "publisher": "Zacks",
      "title": "ALAB Expands PCIe Portfolio With Aries 7: Can it Beat MRVL & CRDO?",
      "url": "https://www.nasdaq.com/articles/alab-expands-pcie-portfolio-aries-7-can-it-beat-mrvl-crdo"
-    },
-    {
-     "ticker": "CRDO",
-     "date": "2026-10-08",
-     "publisher": "Zacks",
-     "title": "CRDO's Retimer Business Gains Steam: Can the Momentum Continue?",
-     "url": "https://www.nasdaq.com/articles/crdos-retimer-business-gains-steam-can-momentum-continue"
-    },
-    {
-     "ticker": "CRDO",
-     "date": "2026-10-07",
-     "publisher": "The Motley Fool",
-     "title": "Credo Technology Group vs. Marvell Technology: Which Stock Is a Better Buy in 2026?",
-     "url": "https://www.nasdaq.com/articles/credo-technology-group-vs-marvell-technology-which-stock-better-buy-2026"
     },
     {
      "ticker": "CRDO",
@@ -1175,6 +1218,13 @@
     },
     {
      "ticker": "SEI",
+     "date": "2026-10-13",
+     "publisher": "Zacks",
+     "title": "Should You Buy Solaris Energy Infrastructure, Inc. (SEI) After Golden Cross?",
+     "url": "https://www.nasdaq.com/articles/should-you-buy-solaris-energy-infrastructure-inc-sei-after-golden-cross"
+    },
+    {
+     "ticker": "SEI",
      "date": "2026-10-08",
      "publisher": "Zacks",
      "title": "Wall Street Analysts See a 26.29% Upside in Solaris Energy Infrastructure, Inc. (SEI): Can the Stock Really Move This High?",
@@ -1196,13 +1246,6 @@
     },
     {
      "ticker": "SEI",
-     "date": "2026-09-10",
-     "publisher": "BNK Invest",
-     "title": "Thursday 9/10 Insider Buying Report: SEI, GRCE",
-     "url": "https://www.nasdaq.com/articles/thursday-9-10-insider-buying-report-sei-grce"
-    },
-    {
-     "ticker": "SEI",
      "date": "2026-10-08",
      "publisher": "CNBC",
      "title": "Watch CNBC's full interview with Solaris Energy Infrastructure's Bill Zartler",
@@ -1214,13 +1257,6 @@
      "publisher": "CNBC",
      "title": "Solaris Energy Infrastructure's Zartler on building power capacity",
      "url": "https://www.cnbc.com/video/2026/10/08/solaris-energy-infrastructures-zartler-on-building-power-capacity.html"
-    },
-    {
-     "ticker": "SEI",
-     "date": "2026-09-25",
-     "publisher": "CNBC",
-     "title": "This oil supply shock will reverberate for many years, says Barclays' David Anderson",
-     "url": "https://www.cnbc.com/video/2026/09/25/this-oil-supply-shock-will-reverberate-for-many-years-says-barclays-david-anderson.html"
     },
     {
      "ticker": "MTSI",
@@ -1273,6 +1309,20 @@
     },
     {
      "ticker": "NTAP",
+     "date": "2026-10-13",
+     "publisher": "Zacks",
+     "title": "Will NetApp's Strong Balance Sheet Support Its AI Expansion Strategy?",
+     "url": "https://www.nasdaq.com/articles/will-netapps-strong-balance-sheet-support-its-ai-expansion-strategy"
+    },
+    {
+     "ticker": "NTAP",
+     "date": "2026-10-13",
+     "publisher": "Zacks",
+     "title": "Are Computer and Technology Stocks Lagging  NetApp (NTAP) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-computer-and-technology-stocks-lagging-netapp-ntap-year"
+    },
+    {
+     "ticker": "NTAP",
      "date": "2026-10-09",
      "publisher": "Zacks",
      "title": "Bull of the Day: NetApp (NTAP)",
@@ -1287,17 +1337,10 @@
     },
     {
      "ticker": "NTAP",
-     "date": "2026-10-08",
-     "publisher": "BNK Invest",
-     "title": "Cash Dividend On The Way From NetApp (NTAP)",
-     "url": "https://www.nasdaq.com/articles/cash-dividend-way-netapp-ntap"
-    },
-    {
-     "ticker": "NTAP",
-     "date": "2026-10-06",
-     "publisher": "Zacks",
-     "title": "NetApp Teams With Diskover Data to Unlock Data Value",
-     "url": "https://www.nasdaq.com/articles/netapp-teams-diskover-data-unlock-data-value"
+     "date": "2026-10-07",
+     "publisher": "CNBC",
+     "title": "NetApp has had a strong 2026. It could get even better, Evercore ISI says",
+     "url": "https://www.cnbc.com/2026/10/07/netapp-has-had-a-strong-2026-it-could-get-better-evercore-isi-says.html"
     },
     {
      "ticker": "NTAP",
@@ -1312,13 +1355,6 @@
      "publisher": "CNBC",
      "title": "AI tech creators are responsible for building in the security controls",
      "url": "https://www.cnbc.com/video/2026/10/06/ai-tech-creators-are-responsible-for-building-in-the-security-controls.html"
-    },
-    {
-     "ticker": "NTAP",
-     "date": "2026-09-03",
-     "publisher": "CNBC",
-     "title": "Watch CNBC's full interview with NetApp CEO George Kurian",
-     "url": "https://www.cnbc.com/video/2026/09/03/watch-cnbcs-full-interview-with-netapp-ceo-george-kurian.html"
     },
     {
      "ticker": "HPE",
@@ -1442,6 +1478,25 @@
    ],
    "research": [
     {
+     "ticker": "NFEGP",
+     "company": "LNG(액화천연가스) 인프라 회사 뉴포트리스 에너지가 부채 구조조정 때 채권단에 내준 의무전환우선주다. 2026년 9월 14일 나스닥에 상장했고, 2029년 9월 11일 보통주로 자동 전환된다.",
+     "whyRose": [
+      "9월 11일 구조조정이 끝나면서 채권이 사라지고 우선주 약 245만 주가 새로 발행됐다. 빚 문제가 정리된 점이 가격 재평가의 출발점이다.",
+      "이 우선주는 3년 뒤 보통주로 자동 전환되며 회사 지분의 약 87%를 차지한다. 회사가 회복하면 가치가 크게 커질 수 있는 구조다.",
+      "킹스트리트 캐피털 계열이 9월 30일 400~440달러에 우선주를 매수했다. 큰 투자사의 매수가 가격을 받쳤을 수 있다."
+     ]
+    },
+    {
+     "ticker": "KOD",
+     "company": "망막 질환(습성 황반변성 등) 치료제를 개발하는 임상 단계 바이오 회사. 아직 승인된 제품이 없어 매출이 없다.",
+     "whyRose": [
+      "습성 황반변성 3상에서 두 후보물질이 아일리아와 대등한 효과를 입증했다.",
+      "환자 54%가 6개월에 1회 투여만으로 효과를 유지해 투여 간격이 길다는 점이 부각됐다. 발표 당일 주가가 크게 올랐다.",
+      "증권사 목표주가 평균이 65% 올라 117.5달러가 되면서 추가 상승을 뒷받침했다.",
+      "올해 4분기에 습성 황반변성·당뇨병성 망막병증·망막정맥폐쇄 3개 적응증의 신약 승인 신청이 예정돼 상업화 기대가 이어진다."
+     ]
+    },
+    {
      "ticker": "GRAL",
      "company": "혈액 한 번으로 여러 종류의 암을 조기에 찾는 검사(갤러리)를 개발하는 회사. 아직 정식 판매 전이라 매출은 작고 적자가 크다.",
      "whyRose": [
@@ -1503,10 +1558,11 @@
     },
     {
      "ticker": "MXL",
-     "company": "데이터센터·통신망용 반도체를 만드는 회사. 최근 AI 데이터센터 광통신 부품 매출이 늘고 있다.",
+     "company": "데이터센터·통신망용 반도체를 만드는 회사. 최근에는 AI 데이터센터의 광통신 부품 매출이 성장을 이끌고 있다.",
      "whyRose": [
-      "2026년 6월 분기 매출이 1.69억 달러로 1년 전보다 55% 늘었다. 영업손실은 420만 달러로 1년 전보다 83% 줄었다.",
-      "AI 데이터센터용 광통신 사업이 빠르게 커진다는 평가가 나오며 주가가 한 달 새 50.7% 올랐다."
+      "2분기 매출이 1억6,885만 달러로 1년 전보다 55% 늘었고, 영업적자는 418만 달러로 크게 줄었다. 순이익은 흑자로 돌아섰다.",
+      "AI 데이터센터용 광통신 제품 성장이 빨라지며 대형 반도체사의 경쟁자로 거론된다.",
+      "9월 한 달간 주가가 50.7% 올랐다는 기사가 나왔고, 10월 초에는 증권사 목표주가 수준에 도달했다는 보도도 이어졌다."
      ]
     },
     {
@@ -1529,11 +1585,11 @@
     },
     {
      "ticker": "ILMN",
-     "company": "유전체 분석에 쓰는 DNA 염기서열 분석 장비와 소모품을 파는 회사. 장비 판매 뒤에 시약 같은 소모품이 반복 팔리는 구조다.",
+     "company": "유전자 분석 장비와 소모품을 파는 회사. 병원·연구기관이 쓰는 DNA 시퀀싱(유전자 염기서열 해독) 시장의 선두다.",
      "whyRose": [
-      "UBS가 투자의견을 중립에서 매수로 올렸다. 대형 증권사의 평가가 바뀌면서 매수세가 붙은 계기로 보인다.",
-      "2분기 매출이 1년 전보다 9.4% 늘고 영업이익은 14.5% 늘었다. 영업이익률도 21.1%로 올라 수익성이 좋아졌다.",
-      "주가 상승세가 이어지면서 상승 추세 종목으로 소개됐고, 인공지능 활용 기대를 다룬 기사도 나왔다. 추세 추종 매수를 부른 것으로 보인다."
+      "2분기 매출은 11.6억 달러로 1년 전보다 9.4% 늘었다. 영업이익은 2.45억 달러로 14.5% 늘었고 영업이익률은 21.1%로 올랐다.",
+      "UBS가 투자의견을 중립에서 매수로 올렸다. 실적 회복에 대한 시장의 기대가 커진 계기로 보인다.",
+      "CEO는 실적 발표 직후 CNBC에서 병원 진단 부문이 크게 성장했다고 밝혔다."
      ]
     },
     {
@@ -1546,12 +1602,38 @@
      ]
     },
     {
+     "ticker": "COHU",
+     "company": "반도체 칩을 검사하는 장비(핸들러·테스트 접점 부품)를 만드는 회사. 최근 분기 매출이 1억 4,900만 달러로 1년 전보다 38% 늘었다.",
+     "whyRose": [
+      "분기 매출이 1억 4,900만 달러로 1년 전보다 38.4% 늘었다.",
+      "직전 분기 영업이익이 29만 달러로 흑자 전환했다. 그 전 분기에는 1,115만 달러 적자였다.",
+      "반도체 검사장비 업종이 AI 수요로 주목받으며 테스트 장비 경쟁사 기사에서 COHU가 비교 대상으로 계속 거론된다. 다만 COHU 자체의 상승 계기가 된 새 소식은 확인되지 않았다."
+     ]
+    },
+    {
+     "ticker": "SEI",
+     "company": "셰일 오일·가스 현장에 장비를 빌려주고, 최근에는 AI 데이터센터 등에 쓰는 이동식 발전 설비를 임대하는 회사. 발전 설비 확대로 매출과 이익이 빠르게 늘고 있다.",
+     "whyRose": [
+      "6월 분기 매출은 1.14억 달러로 1년 전보다 30% 늘었고, 영업이익은 5,650만 달러로 58.9% 늘었다.",
+      "자금은 설비 증설 등 성장 투자에 쓰이며, 이 때문에 향후 발전 설비 확대 기대가 커졌다.",
+      "이사회 임원이 9월 초 50만 달러 넘는 자사주를 샀고, 10월 8일 CNBC에서 CEO가 전력 설비 확대 계획을 설명했다."
+     ]
+    },
+    {
      "ticker": "NTAP",
      "company": "기업용 데이터 저장장치와 클라우드 데이터 관리 소프트웨어를 파는 회사. AI 도입으로 데이터 저장 수요가 늘면서 매출 증가세가 가팔라졌다.",
      "whyRose": [
       "2026년 7월 말 분기 매출이 20.25억 달러로 1년 전보다 29.9% 늘었다.",
       "같은 분기 영업이익은 4.84억 달러로 56.6% 늘고 순이익은 60.9% 늘었다. 매출보다 이익이 더 빠르게 커졌다.",
       "CEO가 CNBC 인터뷰에서 기록적인 분기였고 흐름이 좋다고 밝혔다. 실적 발표 이후 주가는 계속 올랐다."
+     ]
+    },
+    {
+     "ticker": "HPE",
+     "company": "서버·스토리지와 네트워크 장비를 기업에 파는 회사. AI 데이터센터용 서버 수요와 메모리 가격 전가로 최근 매출과 이익이 크게 늘었다.",
+     "whyRose": [
+      "최근 분기(2026년 5~7월) 매출이 122억 달러로 1년 전보다 33.7% 늘었다. 영업이익은 13.9억 달러로 464% 증가해 영업이익률이 11.4%까지 올랐다.",
+      "AI 관련 종목 추천 기사에 HPE가 반복해서 올랐고, 10월 12일에는 주가가 증권사 평균 목표주가를 넘었다는 기사가 나왔다."
      ]
     },
     {
@@ -1620,7 +1702,7 @@
      "name": "오케아니스 에코 탱커스",
      "industry": "Marine Shipping",
      "ret1d": 5.93,
-     "rnk1": 2.75,
+     "rnk1": 2.66,
      "rnk3": 0.41,
      "rnk6": 2.21
     },
@@ -1647,7 +1729,7 @@
      "name": "오라 미네랄스",
      "industry": "Gold",
      "ret1d": 0.59,
-     "rnk1": 18.08,
+     "rnk1": 18.17,
      "rnk3": 0.68,
      "rnk6": 66.59
     },
@@ -1665,7 +1747,7 @@
      "name": "포럼 에너지 테크놀로지스",
      "industry": "Oil & Gas Equipment & Services",
      "ret1d": 1.31,
-     "rnk1": 18.53,
+     "rnk1": 18.62,
      "rnk3": 0.86,
      "rnk6": 8.07
     },
@@ -1730,7 +1812,7 @@
      "ret1d": -0.03,
      "rnk1": 0.59,
      "rnk3": 1.49,
-     "rnk6": 10.87
+     "rnk6": 10.96
     },
     {
      "ticker": "SMCIP",
@@ -1739,7 +1821,7 @@
      "ret1d": -3.96,
      "rnk1": 15.1,
      "rnk3": 1.58,
-     "rnk6": 59.15
+     "rnk6": 59.06
     },
     {
      "ticker": "TNK",
@@ -1773,7 +1855,7 @@
      "name": "애버크롬비 앤드 피치",
      "industry": "Apparel Retail",
      "ret1d": 2.34,
-     "rnk1": 25.74,
+     "rnk1": 25.83,
      "rnk3": 1.94,
      "rnk6": 7.17
     }
@@ -1837,6 +1919,13 @@
    "news": [
     {
      "ticker": "MRNA",
+     "date": "2026-10-13",
+     "publisher": "The Motley Fool",
+     "title": "Moderna vs. Vertex Pharmaceuticals: Which Healthcare Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/moderna-vs-vertex-pharmaceuticals-which-healthcare-stock-better-buy-2026"
+    },
+    {
+     "ticker": "MRNA",
      "date": "2026-10-12",
      "publisher": "Zacks",
      "title": "Here's Why Moderna (MRNA) Fell More Than Broader Market",
@@ -1855,13 +1944,6 @@
      "publisher": "The Motley Fool",
      "title": "Why Moderna Stock Surged Today",
      "url": "https://www.nasdaq.com/articles/why-moderna-stock-surged-today"
-    },
-    {
-     "ticker": "MRNA",
-     "date": "2026-10-08",
-     "publisher": "Zacks",
-     "title": "Moderna's Nasdaq-100 Entry: What Does It Mean for the Stock?",
-     "url": "https://www.nasdaq.com/articles/modernas-nasdaq-100-entry-what-does-it-mean-stock"
     },
     {
      "ticker": "MRNA",
@@ -2081,6 +2163,27 @@
      "url": "https://www.nasdaq.com/articles/new-analyst-forecast-gral-given-320-price-target"
     },
     {
+     "ticker": "GRAL",
+     "date": "2026-10-06",
+     "publisher": "CNBC",
+     "title": "Jim Cramer says Grail can run higher as FDA decision on Galleri nears",
+     "url": "https://www.cnbc.com/2026/10/06/cramer-grail-stock-galleri-fda-approval.html"
+    },
+    {
+     "ticker": "GRAL",
+     "date": "2026-10-06",
+     "publisher": "CNBC",
+     "title": "Grail is a long way from being profitable, says Jim Cramer",
+     "url": "https://www.cnbc.com/video/2026/10/06/grail-is-a-long-way-from-being-profitable-says-jim-cramer.html"
+    },
+    {
+     "ticker": "GRAL",
+     "date": "2026-10-06",
+     "publisher": "CNBC",
+     "title": "The one thing I am worried about here is the valuation, says Jim Cramer on Grail",
+     "url": "https://www.cnbc.com/video/2026/10/06/the-one-thing-i-am-worried-about-here-is-the-valuation-says-jim-cramer-on-grail.html"
+    },
+    {
      "ticker": "AUGO",
      "date": "2026-09-18",
      "publisher": "RTTNews",
@@ -2250,31 +2353,31 @@
     },
     {
      "ticker": "PLTR",
-     "date": "2026-10-11",
+     "date": "2026-10-13",
      "publisher": "The Motley Fool",
-     "title": "History Says This Will Happen to Palantir Stock by 2028",
-     "url": "https://www.nasdaq.com/articles/history-says-will-happen-palantir-stock-2028"
+     "title": "CrowdStrike vs. Palantir Technologies: What Revenue Trends Tell Investors About These High-Growth Tech Companies",
+     "url": "https://www.nasdaq.com/articles/crowdstrike-vs-palantir-technologies-what-revenue-trends-tell-investors-about-these-high"
     },
     {
      "ticker": "PLTR",
-     "date": "2026-10-10",
+     "date": "2026-10-13",
      "publisher": "The Motley Fool",
-     "title": "Is It Too Late to Buy Palantir Stock?",
-     "url": "https://www.nasdaq.com/articles/it-too-late-buy-palantir-stock-0"
+     "title": "Palantir Technologies Stock Could Reach $300 by the End of 2028",
+     "url": "https://www.nasdaq.com/articles/palantir-technologies-stock-could-reach-300-end-2028"
     },
     {
      "ticker": "PLTR",
-     "date": "2026-10-10",
+     "date": "2026-10-13",
      "publisher": "The Motley Fool",
-     "title": "Palantir Stock Rose 60% in the Third Quarter. Here's What Its Other Big Quarters Did Next.",
-     "url": "https://www.nasdaq.com/articles/palantir-stock-rose-60-third-quarter-heres-what-its-other-big-quarters-did-next"
+     "title": "Wall Street Analyst Predicts 30% Upside for Palantir and 60% for SpaceX. Is It Time to Buy the Stocks?",
+     "url": "https://www.nasdaq.com/articles/wall-street-analyst-predicts-30-upside-palantir-and-60-spacex-it-time-buy-stocks"
     },
     {
      "ticker": "PLTR",
-     "date": "2026-10-10",
+     "date": "2026-10-12",
      "publisher": "The Motley Fool",
-     "title": "Why Palantir Stock Powered to a More Than 5% Gain Today",
-     "url": "https://www.nasdaq.com/articles/why-palantir-stock-powered-more-5-gain-today"
+     "title": "Dan Ives Remains Bullish on Palantir's Stock in 2027 for This Simple Reason",
+     "url": "https://www.nasdaq.com/articles/dan-ives-remains-bullish-palantirs-stock-2027-simple-reason"
     },
     {
      "ticker": "PLTR",
@@ -2299,31 +2402,31 @@
     },
     {
      "ticker": "HAE",
+     "date": "2026-10-13",
+     "publisher": "Zacks",
+     "title": "Why Haemonetics (HAE) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-haemonetics-hae-top-momentum-stock-long-term"
+    },
+    {
+     "ticker": "HAE",
+     "date": "2026-10-09",
+     "publisher": "BNK Invest",
+     "title": "HAE Crosses Above Average Analyst Target",
+     "url": "https://www.nasdaq.com/articles/hae-crosses-above-average-analyst-target"
+    },
+    {
+     "ticker": "HAE",
+     "date": "2026-10-09",
+     "publisher": "Zacks",
+     "title": "Strength Seen in Haemonetics (HAE): Can Its 17.5% Jump Turn into More Strength?",
+     "url": "https://www.nasdaq.com/articles/strength-seen-haemonetics-hae-can-its-175-jump-turn-more-strength"
+    },
+    {
+     "ticker": "HAE",
      "date": "2026-10-05",
      "publisher": "Zacks",
      "title": "PAHC vs. HAE: Which Stock Is the Better Value Option?",
      "url": "https://www.nasdaq.com/articles/pahc-vs-hae-which-stock-better-value-option"
-    },
-    {
-     "ticker": "HAE",
-     "date": "2026-09-24",
-     "publisher": "Zacks",
-     "title": "Haemonetics (HAE) is a Top-Ranked Momentum Stock: Should You Buy?",
-     "url": "https://www.nasdaq.com/articles/haemonetics-hae-top-ranked-momentum-stock-should-you-buy"
-    },
-    {
-     "ticker": "HAE",
-     "date": "2026-09-18",
-     "publisher": "Zacks",
-     "title": "PAHC vs. HAE: Which Stock Should Value Investors Buy Now?",
-     "url": "https://www.nasdaq.com/articles/pahc-vs-hae-which-stock-should-value-investors-buy-now"
-    },
-    {
-     "ticker": "HAE",
-     "date": "2026-09-17",
-     "publisher": "Fintel",
-     "title": "Citigroup Upgrades Haemonetics to Buy from Neutral",
-     "url": "https://www.nasdaq.com/articles/citigroup-upgrades-haemonetics-buy-neutral"
     },
     {
      "ticker": "HAE",
@@ -2432,17 +2535,17 @@
     },
     {
      "ticker": "TNK",
+     "date": "2026-09-22",
+     "publisher": "The Motley Fool",
+     "title": "Why Teekay Tankers Stock Dropped Today",
+     "url": "https://www.nasdaq.com/articles/why-teekay-tankers-stock-dropped-today"
+    },
+    {
+     "ticker": "TNK",
      "date": "2026-09-15",
      "publisher": "Zacks",
      "title": "Brokers Suggest Investing in Teekay Tankers (TNK): Read This Before Placing a Bet",
      "url": "https://www.nasdaq.com/articles/brokers-suggest-investing-teekay-tankers-tnk-read-placing-bet"
-    },
-    {
-     "ticker": "TNK",
-     "date": "2026-09-14",
-     "publisher": "Zacks",
-     "title": "Teekay Tankers Ltd. (TNK) Hits Fresh High: Is There Still Room to Run?",
-     "url": "https://www.nasdaq.com/articles/teekay-tankers-ltd-tnk-hits-fresh-high-there-still-room-run"
     },
     {
      "ticker": "TNK",
@@ -2603,6 +2706,16 @@
      ]
     },
     {
+     "ticker": "KOD",
+     "company": "망막 질환(습성 황반변성 등) 치료제를 개발하는 임상 단계 바이오 회사. 아직 승인된 제품이 없어 매출이 없다.",
+     "whyRose": [
+      "습성 황반변성 3상에서 두 후보물질이 아일리아와 대등한 효과를 입증했다.",
+      "환자 54%가 6개월에 1회 투여만으로 효과를 유지해 투여 간격이 길다는 점이 부각됐다. 발표 당일 주가가 크게 올랐다.",
+      "증권사 목표주가 평균이 65% 올라 117.5달러가 되면서 추가 상승을 뒷받침했다.",
+      "올해 4분기에 습성 황반변성·당뇨병성 망막병증·망막정맥폐쇄 3개 적응증의 신약 승인 신청이 예정돼 상업화 기대가 이어진다."
+     ]
+    },
+    {
      "ticker": "P",
      "company": "에버퓨어는 기업용 데이터 저장장치(스토리지)를 만들어 파는 회사다. 최근에는 AI 데이터 처리와 대형 클라우드 업체 수요로 매출이 빠르게 늘고 있다.",
      "whyRose": [
@@ -2613,19 +2726,26 @@
     },
     {
      "ticker": "TEAM",
-     "company": "Atlassian(Jira·Confluence·Rovo 등 팀 협업/개발 워크플로 SaaS)은 클라우드 구독 중심 소프트웨어 업체로, 2026-06 분기 매출은 USD 1.766B(YoY +27.6%)이다. 직전 3개 분기는 영업손실(마진 -3.0~-6.7%)이었으나 2026-06 분기에 영업이익 USD 210.7M(마진 11.9%)으로 흑자 전환했다. 매출 구성·핵심 고객 비중은 제공 자료에 없어 근거 없음이다.",
+     "company": "업무 협업·개발 관리 소프트웨어(Jira 등)를 구독 방식으로 파는 회사. 기업 고객의 월·연 구독료가 매출의 중심이다.",
      "whyRose": [
-      "8월 한 달간 주가가 92% 급등했다는 기사가 있어 실적 발표 이후 리레이팅이 3M/6M 상승의 대부분을 차지한 것으로 보인다(RS 3M/6M 상위 진입은 8/28, 8/31부터).",
-      "AI 에이전트 Rovo 채택과 클라우드 성장 가속이 내러티브로 작용. 기사 본문 수치는 미확인이라 제목 수준의 근거만 있다."
+      "6월 분기 매출은 17.7억 달러로 1년 전보다 27.6% 늘었다.",
+      "실적 발표 다음 날인 8월 7일 시장의 주목을 받았다. 소프트웨어가 AI에 밀린다는 우려가 줄었다는 평가도 나왔다."
      ]
     },
     {
      "ticker": "ECO",
-     "company": "그리스 선사로, 원유를 실어 나르는 대형 유조선(VLCC·수에즈막스) 16척을 굴려 운임으로 돈을 번다. 이익이 유조선 운임 변동에 크게 좌우된다.",
+     "company": "원유·석유제품을 실어 나르는 대형 유조선을 운영하는 그리스계 해운사. 운임이 오르면 이익이 크게 늘어나는 구조다.",
      "whyRose": [
-      "Zacks가 9월 24일 ECO의 투자의견을 최상위(Strong Buy)로 올렸다. 증권사 이익 전망이 오른 영향으로 보인다.",
-      "한 주 만에 11.56% 올라 단기 상승 탄력이 붙었고, 이 흐름이 주가를 더 끌어올렸다.",
-      "올해 2분기 대형 유조선(VLCC) 하루 운임이 약 21만 달러였고, 3분기 예약분도 약 20만 달러 수준이다. 높은 운임이 실적 기대의 바탕이다."
+      "이익 전망 상향으로 Zacks 투자의견이 최상위(Strong Buy)로 올랐다. 한 주 만에 11.56% 오르기도 했다.",
+      "실적이 빠르게 커졌다. 최근 매출이 직전 기간 대비 크게 늘고 영업이익률이 약 75%에 달한다."
+     ]
+    },
+    {
+     "ticker": "RNG",
+     "company": "기업용 클라우드 전화·화상회의·고객센터 소프트웨어를 구독형으로 파는 회사. 최근에는 AI 기능을 얹어 추가 판매하는 데 힘을 싣고 있다.",
+     "whyRose": [
+      "영업이익이 빠르게 늘었다.",
+      "AI 기능이 추가 판매와 고객 유지에 도움이 된다는 평가가 나왔다."
      ]
     },
     {
@@ -2634,6 +2754,29 @@
      "whyRose": [
       "ASCO에서 공개된 갤러리 임상 데이터가 상용화 기대를 키웠다. 영국 NHS 공동 임상은 주 목표는 못 맞췄지만 보조 지표는 양호했다.",
       "4기 암 진단 비율이 줄고 1~2기 발견이 늘어, 조기 발견 효과가 있다는 해석이 나왔다."
+     ]
+    },
+    {
+     "ticker": "AUGO",
+     "company": "브라질·중남미에서 금과 구리를 캐서 파는 광산 회사. 금값이 오르면 이익이 크게 늘어나는 구조다.",
+     "whyRose": [
+      "2분기(4~6월) 순이익이 늘었다는 보도가 나왔다. 이익 증가가 주가 상승의 바탕이다.",
+      "캐나다 스코샤뱅크가 9월 중순 업종 평균 이상(Sector Outperform) 의견으로 분석을 시작했다. 새 증권사의 긍정 평가가 관심을 끌었다."
+     ]
+    },
+    {
+     "ticker": "TXG",
+     "company": "단일 세포·공간 유전체 분석 장비와 소모품을 연구기관에 파는 회사. 장비를 깔아 두고 소모품을 반복 판매해 돈을 번다.",
+     "whyRose": [
+      "주가는 이후 21.7% 올랐다."
+     ]
+    },
+    {
+     "ticker": "FET",
+     "company": "유전용 장비와 소모품을 만드는 에너지 장비 회사. 최근 2030년까지 매출 2배, 이익 4배라는 중기 목표를 내놓았다.",
+     "whyRose": [
+      "최근 분기 영업이익이 1년 전보다 25% 늘고 순이익이 흑자 폭을 키우며 이익 회복이 이어지고 있다.",
+      "주가 상승 흐름(모멘텀)을 긍정적으로 본 분석 기사들이 이어져 매수세를 거들었다."
      ]
     },
     {
@@ -2650,6 +2793,14 @@
      "whyRose": [
       "BTC 매수 재개가 확인되며 한 달간 약 40% 상승했다는 보도(2026-09-22). Node 기준 1M 절대수익률은 +23.43%, 3M +55.94%.",
       "9/21 단일 거래일 급등이 보도되었고 Nasdaq 100 상승 종목으로 언급되었다. 같은 날 Reg FD 8-K가 제출되었다. 급등 사유 본문은 확인하지 않았다."
+     ]
+    },
+    {
+     "ticker": "PAYC",
+     "company": "기업용 인사·급여 관리 소프트웨어를 구독 방식으로 파는 회사. 직원 근태·급여·복리후생을 한 시스템에서 처리하는 것이 주력이다.",
+     "whyRose": [
+      "2분기(4~6월) 영업이익이 1억 6,850만 달러로 1년 전보다 50% 늘었다. 매출 증가율(9.8%)보다 이익이 훨씬 빠르게 늘어난 것이 핵심이다.",
+      "영업이익률이 31.7%로 높게 유지돼, 매출이 조금만 늘어도 이익이 크게 느는 구조가 확인됐다."
      ]
     },
     {
@@ -2682,6 +2833,31 @@
      "whyRose": [
       "슈나이더일렉트릭이 PTC를 주당 205달러 현금으로 인수하기로 했다. 규모는 약 210억 유로이고, 발표일 주가가 약 35% 올랐다.",
       "발표 전에 인수 협상 보도가 먼저 나와 주가가 한 차례 뛰었다."
+     ]
+    },
+    {
+     "ticker": "SMCIP",
+     "company": "슈퍼마이크로(SMCI)가 올해 6월 발행한 7% 의무전환 우선주 예탁주식이다. 서버 제조사 본사의 실적과 보통주 주가에 따라 움직인다.",
+     "whyRose": [
+      "발행사 슈퍼마이크로의 6월 분기 매출이 111억 달러로 1년 전보다 93% 늘었다.",
+      "주가는 7월 17일 저점 42.4달러에서 10월 7일 고점 75.6달러까지 올랐다. 이 우선주는 6월 16일 상장되어 거래 이력이 짧다."
+     ]
+    },
+    {
+     "ticker": "HPE",
+     "company": "서버·스토리지와 네트워크 장비를 기업에 파는 회사. AI 데이터센터용 서버 수요와 메모리 가격 전가로 최근 매출과 이익이 크게 늘었다.",
+     "whyRose": [
+      "최근 분기(2026년 5~7월) 매출이 122억 달러로 1년 전보다 33.7% 늘었다. 영업이익은 13.9억 달러로 464% 증가해 영업이익률이 11.4%까지 올랐다.",
+      "AI 관련 종목 추천 기사에 HPE가 반복해서 올랐고, 10월 12일에는 주가가 증권사 평균 목표주가를 넘었다는 기사가 나왔다."
+     ]
+    },
+    {
+     "ticker": "ANF",
+     "company": "Abercrombie & Fitch와 Hollister 브랜드로 캐주얼 의류를 파는 미국 의류 소매업체. 매장과 온라인으로 10대·젊은 층 고객에게 판다.",
+     "whyRose": [
+      "6~8월 분기 영업이익이 1년 전보다 22.3% 늘었다. 매출은 12.7억 달러로 4.8% 증가에 그쳤지만 영업이익률이 19.9%까지 올라 이익이 더 크게 늘었다.",
+      "실적 발표일에 주가가 크게 뛰었다. CNBC는 부진하던 이 의류주가 35% 급등했다고 전했고, 짐 크레이머는 다음 하락 때 사라고 했다.",
+      "증권사는 재고 관리와 할인 축소로 관세 부담을 상쇄했다고 봤다. 주가가 올랐어도 예상 이익 대비 9배 수준이라 부담이 적다는 평가였다(2025년 11월 리포트)."
      ]
     }
    ]
@@ -2725,7 +2901,7 @@
      "industry": "Software - Infrastructure",
      "ret1d": -2.18,
      "rnk1": 3.11,
-     "rnk3": 2.12,
+     "rnk3": 2.21,
      "rnk6": 0.32
     },
     {
@@ -2810,22 +2986,13 @@
      "rnk6": 1.13
     },
     {
-     "ticker": "HPE-C",
-     "name": null,
-     "industry": "N/A",
-     "ret1d": -4.4,
-     "rnk1": 2.21,
-     "rnk3": 2.39,
-     "rnk6": 1.22
-    },
-    {
      "ticker": "HNGE",
      "name": "힌지 헬스",
      "industry": "Health Information Services",
      "ret1d": 1.87,
      "rnk1": 10.14,
      "rnk3": 12.31,
-     "rnk6": 1.31
+     "rnk6": 1.22
     },
     {
      "ticker": "CRWD",
@@ -2834,6 +3001,15 @@
      "ret1d": -4.37,
      "rnk1": 8.7,
      "rnk3": 7.89,
+     "rnk6": 1.31
+    },
+    {
+     "ticker": "HPE-C",
+     "name": null,
+     "industry": "N/A",
+     "ret1d": -2.09,
+     "rnk1": 2.84,
+     "rnk3": 2.12,
      "rnk6": 1.4
     },
     {
@@ -2886,7 +3062,7 @@
      "name": "데이터도그",
      "industry": "Software - Application",
      "ret1d": -2.04,
-     "rnk1": 2.48,
+     "rnk1": 2.39,
      "rnk3": 21.69,
      "rnk6": 1.94
     }
@@ -2943,11 +3119,18 @@
     "PENG",
     "MXL",
     "HPE",
-    "HPE-C",
     "HNGE",
+    "HPE-C",
     "XMTR"
    ],
    "news": [
+    {
+     "ticker": "MRNA",
+     "date": "2026-10-13",
+     "publisher": "The Motley Fool",
+     "title": "Moderna vs. Vertex Pharmaceuticals: Which Healthcare Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/moderna-vs-vertex-pharmaceuticals-which-healthcare-stock-better-buy-2026"
+    },
     {
      "ticker": "MRNA",
      "date": "2026-10-12",
@@ -2968,13 +3151,6 @@
      "publisher": "The Motley Fool",
      "title": "Why Moderna Stock Surged Today",
      "url": "https://www.nasdaq.com/articles/why-moderna-stock-surged-today"
-    },
-    {
-     "ticker": "MRNA",
-     "date": "2026-10-08",
-     "publisher": "Zacks",
-     "title": "Moderna's Nasdaq-100 Entry: What Does It Mean for the Stock?",
-     "url": "https://www.nasdaq.com/articles/modernas-nasdaq-100-entry-what-does-it-mean-stock"
     },
     {
      "ticker": "MRNA",
@@ -3048,6 +3224,13 @@
     },
     {
      "ticker": "OKTA",
+     "date": "2026-10-13",
+     "publisher": "The Motley Fool",
+     "title": "CrowdStrike vs. Okta: Which Cybersecurity Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/crowdstrike-vs-okta-which-cybersecurity-stock-better-buy-2026-0"
+    },
+    {
+     "ticker": "OKTA",
      "date": "2026-10-09",
      "publisher": "Fintel",
      "title": "Amerx Initiates Coverage of Okta at Hold",
@@ -3066,13 +3249,6 @@
      "publisher": "Zacks",
      "title": "Okta, Inc. (OKTA) is Attracting Investor Attention: Here is What You Should Know",
      "url": "https://www.nasdaq.com/articles/okta-inc-okta-attracting-investor-attention-here-what-you-should-know-1"
-    },
-    {
-     "ticker": "OKTA",
-     "date": "2026-10-02",
-     "publisher": "Zacks",
-     "title": "The Zacks Analyst Blog Highlights CrowdStrike, Okta and Palo Alto Networks",
-     "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-crowdstrike-okta-and-palo-alto-networks"
     },
     {
      "ticker": "OKTA",
@@ -3153,6 +3329,13 @@
     },
     {
      "ticker": "PENG",
+     "date": "2026-10-13",
+     "publisher": "CNBC",
+     "title": "Cramer's lightning round: 'Hold on to Element Solutions",
+     "url": "https://www.cnbc.com/2026/10/13/cramers-lightning-round-hold-on-to-element-solutions.html"
+    },
+    {
+     "ticker": "PENG",
      "date": "2026-10-09",
      "publisher": "CNBC",
      "title": "This AI infrastructure stock will rise on agentic AI boom, Bank of America says",
@@ -3160,10 +3343,10 @@
     },
     {
      "ticker": "PENG",
-     "date": "2026-07-29",
+     "date": "2026-10-07",
      "publisher": "CNBC",
-     "title": "Penguin Solutions CEO: Memory is the new compute in the AI era",
-     "url": "https://www.cnbc.com/video/2026/07/29/penguin-solutions-ceo-memory-is-the-new-compute-in-the-ai-era.html"
+     "title": "Stocks making big moves premarket: Constellation Brands, Flutter Entertainment, Neogen",
+     "url": "https://www.cnbc.com/2026/10/07/stocks-making-the-biggest-moves-premarket-stz-flut-neog.html"
     },
     {
      "ticker": "DELL",
@@ -3181,6 +3364,13 @@
     },
     {
      "ticker": "DELL",
+     "date": "2026-10-13",
+     "publisher": "CNBC",
+     "title": "Michael Dell says government has a role in AI safety",
+     "url": "https://www.cnbc.com/2026/10/13/michael-dell-ai-safeguards-government.html"
+    },
+    {
+     "ticker": "DELL",
      "date": "2026-10-08",
      "publisher": "CNBC",
      "title": "Trump Accounts hit 70 million enrolled and can now accept stock donations",
@@ -3192,13 +3382,6 @@
      "publisher": "CNBC",
      "title": "Up to 25 million Trump Accounts could be funded by mid-October, IRS CEO says",
      "url": "https://www.cnbc.com/2026/10/02/trump-accounts-funding.html"
-    },
-    {
-     "ticker": "DELL",
-     "date": "2026-09-23",
-     "publisher": "CNBC",
-     "title": "Value investors retool their models to keep up with the AI stock market",
-     "url": "https://www.cnbc.com/2026/09/23/how-value-investors-are-adapting-to-the-ai-stock-market.html"
     },
     {
      "ticker": "GRAL",
@@ -3227,6 +3410,27 @@
      "publisher": "Quiver Quantitative",
      "title": "New Analyst Forecast: $GRAL Given $32.0 Price Target",
      "url": "https://www.nasdaq.com/articles/new-analyst-forecast-gral-given-320-price-target"
+    },
+    {
+     "ticker": "GRAL",
+     "date": "2026-10-06",
+     "publisher": "CNBC",
+     "title": "Jim Cramer says Grail can run higher as FDA decision on Galleri nears",
+     "url": "https://www.cnbc.com/2026/10/06/cramer-grail-stock-galleri-fda-approval.html"
+    },
+    {
+     "ticker": "GRAL",
+     "date": "2026-10-06",
+     "publisher": "CNBC",
+     "title": "Grail is a long way from being profitable, says Jim Cramer",
+     "url": "https://www.cnbc.com/video/2026/10/06/grail-is-a-long-way-from-being-profitable-says-jim-cramer.html"
+    },
+    {
+     "ticker": "GRAL",
+     "date": "2026-10-06",
+     "publisher": "CNBC",
+     "title": "The one thing I am worried about here is the valuation, says Jim Cramer on Grail",
+     "url": "https://www.cnbc.com/video/2026/10/06/the-one-thing-i-am-worried-about-here-is-the-valuation-says-jim-cramer-on-grail.html"
     },
     {
      "ticker": "CORT",
@@ -3283,13 +3487,6 @@
      "publisher": "Zacks",
      "title": "MXL vs. VICR: Which Has the Better AI Infrastructure Opportunity?",
      "url": "https://www.nasdaq.com/articles/mxl-vs-vicr-which-has-better-ai-infrastructure-opportunity"
-    },
-    {
-     "ticker": "MXL",
-     "date": "2026-08-26",
-     "publisher": "Zacks",
-     "title": "MXL's AI Optical Growth Accelerates: Can It Challenge AVGO & MRVL?",
-     "url": "https://www.nasdaq.com/articles/mxls-ai-optical-growth-accelerates-can-it-challenge-avgo-mrvl"
     },
     {
      "ticker": "HPE",
@@ -3363,6 +3560,20 @@
     },
     {
      "ticker": "SNOW",
+     "date": "2026-10-12",
+     "publisher": "Zacks",
+     "title": "Snowflake Inc. (SNOW) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+     "url": "https://www.nasdaq.com/articles/snowflake-inc-snow-sees-more-significant-dip-broader-market-some-facts-know-1"
+    },
+    {
+     "ticker": "SNOW",
+     "date": "2026-10-12",
+     "publisher": "Zacks",
+     "title": "Snowflake Inc. (SNOW) Is a Trending Stock: Facts to Know Before Betting on It",
+     "url": "https://www.nasdaq.com/articles/snowflake-inc-snow-trending-stock-facts-know-betting-it"
+    },
+    {
+     "ticker": "SNOW",
      "date": "2026-10-09",
      "publisher": "Zacks",
      "title": "Is Snowflake (SNOW) a Buy as Wall Street Analysts Look Optimistic?",
@@ -3374,20 +3585,6 @@
      "publisher": "Zacks",
      "title": "Wall Street Analysts See a 25.64% Upside in Snowflake (SNOW): Can the Stock Really Move This High?",
      "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-2564-upside-snowflake-snow-can-stock-really-move-high"
-    },
-    {
-     "ticker": "SNOW",
-     "date": "2026-10-02",
-     "publisher": "Zacks",
-     "title": "Why Is Snowflake (SNOW) Down 4.1% Since Last Earnings Report?",
-     "url": "https://www.nasdaq.com/articles/why-snowflake-snow-down-41-last-earnings-report"
-    },
-    {
-     "ticker": "SNOW",
-     "date": "2026-09-29",
-     "publisher": "Zacks",
-     "title": "Investors Heavily Search Snowflake Inc. (SNOW): Here is What You Need to Know",
-     "url": "https://www.nasdaq.com/articles/investors-heavily-search-snowflake-inc-snow-here-what-you-need-know"
     },
     {
      "ticker": "SNOW",
@@ -3461,31 +3658,31 @@
     },
     {
      "ticker": "CRWD",
+     "date": "2026-10-13",
+     "publisher": "The Motley Fool",
+     "title": "CrowdStrike vs. Palantir Technologies: What Revenue Trends Tell Investors About These High-Growth Tech Companies",
+     "url": "https://www.nasdaq.com/articles/crowdstrike-vs-palantir-technologies-what-revenue-trends-tell-investors-about-these-high"
+    },
+    {
+     "ticker": "CRWD",
+     "date": "2026-10-13",
+     "publisher": "The Motley Fool",
+     "title": "CrowdStrike vs. Okta: Which Cybersecurity Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/crowdstrike-vs-okta-which-cybersecurity-stock-better-buy-2026-0"
+    },
+    {
+     "ticker": "CRWD",
+     "date": "2026-10-13",
+     "publisher": "Zacks",
+     "title": "Can Unified Platform Strategy Boost CRWD's Revenue Growth?",
+     "url": "https://www.nasdaq.com/articles/can-unified-platform-strategy-boost-crwds-revenue-growth"
+    },
+    {
+     "ticker": "CRWD",
      "date": "2026-10-10",
      "publisher": "The Motley Fool",
      "title": "CrowdStrike vs. UiPath: Which Technology Stock Is a Better Buy in 2026?",
      "url": "https://www.nasdaq.com/articles/crowdstrike-vs-uipath-which-technology-stock-better-buy-2026-0"
-    },
-    {
-     "ticker": "CRWD",
-     "date": "2026-10-09",
-     "publisher": "The Motley Fool",
-     "title": "Why CrowdStrike Holdings Stock Crushed it on Friday",
-     "url": "https://www.nasdaq.com/articles/why-crowdstrike-holdings-stock-crushed-it-friday"
-    },
-    {
-     "ticker": "CRWD",
-     "date": "2026-10-09",
-     "publisher": "The Motley Fool",
-     "title": "Better High-Growth AI Stock: CrowdStrike vs. Palantir Technologies",
-     "url": "https://www.nasdaq.com/articles/better-high-growth-ai-stock-crowdstrike-vs-palantir-technologies"
-    },
-    {
-     "ticker": "CRWD",
-     "date": "2026-10-09",
-     "publisher": "Zacks",
-     "title": "Is It Worth Investing in CrowdStrike (CRWD) Based on Wall Street's Bullish Views?",
-     "url": "https://www.nasdaq.com/articles/it-worth-investing-crowdstrike-crwd-based-wall-streets-bullish-views-0"
     },
     {
      "ticker": "CRWD",
@@ -3510,17 +3707,31 @@
     },
     {
      "ticker": "PANW",
-     "date": "2026-10-08",
-     "publisher": "Fintel",
-     "title": "Amerx Initiates Coverage of Palo Alto Networks with Hold",
-     "url": "https://www.nasdaq.com/articles/amerx-initiates-coverage-palo-alto-networks-hold"
+     "date": "2026-10-13",
+     "publisher": "BNK Invest",
+     "title": "Palo Alto Networks Achieves #66 Analyst Rank, Surpassing Dow",
+     "url": "https://www.nasdaq.com/articles/palo-alto-networks-achieves-66-analyst-rank-surpassing-dow"
     },
     {
      "ticker": "PANW",
-     "date": "2026-10-08",
+     "date": "2026-10-13",
+     "publisher": "BNK Invest",
+     "title": "S&P 500 Analyst Moves: PANW",
+     "url": "https://www.nasdaq.com/articles/sp-500-analyst-moves-panw"
+    },
+    {
+     "ticker": "PANW",
+     "date": "2026-10-13",
      "publisher": "Zacks",
-     "title": "Palo Alto Networks (PANW) Suffers a Larger Drop Than the General Market: Key Insights",
-     "url": "https://www.nasdaq.com/articles/palo-alto-networks-panw-suffers-larger-drop-general-market-key-insights"
+     "title": "Palo Alto (PANW) Is Considered a Good Investment by Brokers: Is That True?",
+     "url": "https://www.nasdaq.com/articles/palo-alto-panw-considered-good-investment-brokers-true"
+    },
+    {
+     "ticker": "PANW",
+     "date": "2026-10-13",
+     "publisher": "Zacks",
+     "title": "Here is What to Know Beyond Why Palo Alto Networks, Inc. (PANW) is a Trending Stock",
+     "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-palo-alto-networks-inc-panw-trending-stock"
     },
     {
      "ticker": "PANW",
@@ -3608,6 +3819,20 @@
     },
     {
      "ticker": "FTNT",
+     "date": "2026-10-12",
+     "publisher": "Zacks",
+     "title": "Does Fortinet's Strong Margin Profile Make the Stock Worth Buying Now?",
+     "url": "https://www.nasdaq.com/articles/does-fortinets-strong-margin-profile-make-stock-worth-buying-now"
+    },
+    {
+     "ticker": "FTNT",
+     "date": "2026-10-12",
+     "publisher": "Zacks",
+     "title": "Fortinet, Inc. (FTNT) Hits Fresh High: Is There Still Room to Run?",
+     "url": "https://www.nasdaq.com/articles/fortinet-inc-ftnt-hits-fresh-high-there-still-room-run"
+    },
+    {
+     "ticker": "FTNT",
      "date": "2026-10-09",
      "publisher": "Zacks",
      "title": "Fortinet (FTNT) Outperforms Broader Market: What You Need to Know",
@@ -3619,20 +3844,6 @@
      "publisher": "Zacks",
      "title": "Are Computer and Technology Stocks Lagging  Fortinet (FTNT) This Year?",
      "url": "https://www.nasdaq.com/articles/are-computer-and-technology-stocks-lagging-fortinet-ftnt-year"
-    },
-    {
-     "ticker": "FTNT",
-     "date": "2026-10-08",
-     "publisher": "Zacks",
-     "title": "Are You Looking for a Top Momentum Pick? Why Fortinet (FTNT) is a Great Choice",
-     "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-fortinet-ftnt-great-choice"
-    },
-    {
-     "ticker": "FTNT",
-     "date": "2026-10-08",
-     "publisher": "Zacks",
-     "title": "Here's Why Fortinet (FTNT) is a Strong Momentum Stock",
-     "url": "https://www.nasdaq.com/articles/heres-why-fortinet-ftnt-strong-momentum-stock"
     },
     {
      "ticker": "FTNT",
@@ -3774,6 +3985,13 @@
      ]
     },
     {
+     "ticker": "TXG",
+     "company": "단일 세포·공간 유전체 분석 장비와 소모품을 연구기관에 파는 회사. 장비를 깔아 두고 소모품을 반복 판매해 돈을 번다.",
+     "whyRose": [
+      "주가는 이후 21.7% 올랐다."
+     ]
+    },
+    {
      "ticker": "OKTA",
      "company": "기업 직원·고객의 로그인과 접근 권한을 관리하는 보안 소프트웨어 회사. 구독형으로 돈을 벌고, 최근엔 AI 에이전트의 접근 관리까지 넓히고 있다.",
      "whyRose": [
@@ -3784,10 +4002,10 @@
     },
     {
      "ticker": "TEAM",
-     "company": "Atlassian(Jira·Confluence·Rovo 등 팀 협업/개발 워크플로 SaaS)은 클라우드 구독 중심 소프트웨어 업체로, 2026-06 분기 매출은 USD 1.766B(YoY +27.6%)이다. 직전 3개 분기는 영업손실(마진 -3.0~-6.7%)이었으나 2026-06 분기에 영업이익 USD 210.7M(마진 11.9%)으로 흑자 전환했다. 매출 구성·핵심 고객 비중은 제공 자료에 없어 근거 없음이다.",
+     "company": "업무 협업·개발 관리 소프트웨어(Jira 등)를 구독 방식으로 파는 회사. 기업 고객의 월·연 구독료가 매출의 중심이다.",
      "whyRose": [
-      "8월 한 달간 주가가 92% 급등했다는 기사가 있어 실적 발표 이후 리레이팅이 3M/6M 상승의 대부분을 차지한 것으로 보인다(RS 3M/6M 상위 진입은 8/28, 8/31부터).",
-      "AI 에이전트 Rovo 채택과 클라우드 성장 가속이 내러티브로 작용. 기사 본문 수치는 미확인이라 제목 수준의 근거만 있다."
+      "6월 분기 매출은 17.7억 달러로 1년 전보다 27.6% 늘었다.",
+      "실적 발표 다음 날인 8월 7일 시장의 주목을 받았다. 소프트웨어가 AI에 밀린다는 우려가 줄었다는 평가도 나왔다."
      ]
     },
     {
@@ -3826,10 +4044,19 @@
     },
     {
      "ticker": "MXL",
-     "company": "데이터센터·통신망용 반도체를 만드는 회사. 최근 AI 데이터센터 광통신 부품 매출이 늘고 있다.",
+     "company": "데이터센터·통신망용 반도체를 만드는 회사. 최근에는 AI 데이터센터의 광통신 부품 매출이 성장을 이끌고 있다.",
      "whyRose": [
-      "2026년 6월 분기 매출이 1.69억 달러로 1년 전보다 55% 늘었다. 영업손실은 420만 달러로 1년 전보다 83% 줄었다.",
-      "AI 데이터센터용 광통신 사업이 빠르게 커진다는 평가가 나오며 주가가 한 달 새 50.7% 올랐다."
+      "2분기 매출이 1억6,885만 달러로 1년 전보다 55% 늘었고, 영업적자는 418만 달러로 크게 줄었다. 순이익은 흑자로 돌아섰다.",
+      "AI 데이터센터용 광통신 제품 성장이 빨라지며 대형 반도체사의 경쟁자로 거론된다.",
+      "9월 한 달간 주가가 50.7% 올랐다는 기사가 나왔고, 10월 초에는 증권사 목표주가 수준에 도달했다는 보도도 이어졌다."
+     ]
+    },
+    {
+     "ticker": "HPE",
+     "company": "서버·스토리지와 네트워크 장비를 기업에 파는 회사. AI 데이터센터용 서버 수요와 메모리 가격 전가로 최근 매출과 이익이 크게 늘었다.",
+     "whyRose": [
+      "최근 분기(2026년 5~7월) 매출이 122억 달러로 1년 전보다 33.7% 늘었다. 영업이익은 13.9억 달러로 464% 증가해 영업이익률이 11.4%까지 올랐다.",
+      "AI 관련 종목 추천 기사에 HPE가 반복해서 올랐고, 10월 12일에는 주가가 증권사 평균 목표주가를 넘었다는 기사가 나왔다."
      ]
     },
     {
@@ -3850,15 +4077,6 @@
      ]
     },
     {
-     "ticker": "HPE-C",
-     "company": "휴렛 팩커드 엔터프라이즈(HPE)가 발행한 의무전환 우선주(7.625%, 2027-09-01 만기)다. 2027년 9월에 HPE 보통주로 자동 전환되므로 가격이 보통주 주가를 따라 움직인다.",
-     "whyRose": [
-      "HPE-C는 2027년 9월 보통주로 의무전환되는 우선주라서 보통주 주가에 연동된다. 보통주 급등이 그대로 반영됐다.",
-      "HPE는 AI 서버 수요로 분기 매출이 1년 전보다 약 40% 늘어 예상치를 크게 넘겼다. 이 소식에 주가가 약 28% 급등했다.",
-      "회사가 올해 매출 증가율 전망을 34~37%로 올렸고, 이는 증권사 예상보다 높았다."
-     ]
-    },
-    {
      "ticker": "HNGE",
      "company": "집에서 앱으로 허리·관절 재활을 관리해 주는 디지털 헬스케어 회사. 기업과 보험사가 직원·가입자를 위해 비용을 내는 구조다.",
      "whyRose": [
@@ -3873,6 +4091,15 @@
       "8월 실적에서 신규 구독 매출이 사상 최대를 기록했다. 회사가 제시한 전망 상단보다 16% 많았다.",
       "AI 보안 제품 매출이 한 분기 만에 3배로 늘었다. 연간 전망도 크게 올라 AI 보안 수요가 말이 아닌 숫자로 나타났다.",
       "AI 에이전트가 확산될수록 이를 실행하는 컴퓨터를 지키는 보안 수요가 커진다는 시각이 10월 들어 다시 부각됐다."
+     ]
+    },
+    {
+     "ticker": "HPE-C",
+     "company": "휴렛 팩커드 엔터프라이즈(HPE)가 발행한 의무전환 우선주(7.625%, 2027-09-01 만기)다. 2027년 9월에 HPE 보통주로 자동 전환되므로 가격이 보통주 주가를 따라 움직인다.",
+     "whyRose": [
+      "HPE-C는 2027년 9월 보통주로 의무전환되는 우선주라서 보통주 주가에 연동된다. 보통주 급등이 그대로 반영됐다.",
+      "HPE는 AI 서버 수요로 분기 매출이 1년 전보다 약 40% 늘어 예상치를 크게 넘겼다. 이 소식에 주가가 약 28% 급등했다.",
+      "회사가 올해 매출 증가율 전망을 34~37%로 올렸고, 이는 증권사 예상보다 높았다."
      ]
     },
     {
@@ -3984,6 +4211,13 @@
    "news": [
     {
      "ticker": "MRNA",
+     "date": "2026-10-13",
+     "publisher": "The Motley Fool",
+     "title": "Moderna vs. Vertex Pharmaceuticals: Which Healthcare Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/moderna-vs-vertex-pharmaceuticals-which-healthcare-stock-better-buy-2026"
+    },
+    {
+     "ticker": "MRNA",
      "date": "2026-10-12",
      "publisher": "Zacks",
      "title": "Here's Why Moderna (MRNA) Fell More Than Broader Market",
@@ -4002,13 +4236,6 @@
      "publisher": "The Motley Fool",
      "title": "Why Moderna Stock Surged Today",
      "url": "https://www.nasdaq.com/articles/why-moderna-stock-surged-today"
-    },
-    {
-     "ticker": "MRNA",
-     "date": "2026-10-08",
-     "publisher": "Zacks",
-     "title": "Moderna's Nasdaq-100 Entry: What Does It Mean for the Stock?",
-     "url": "https://www.nasdaq.com/articles/modernas-nasdaq-100-entry-what-does-it-mean-stock"
     },
     {
      "ticker": "MRNA",
@@ -4058,6 +4285,27 @@
      "publisher": "Quiver Quantitative",
      "title": "New Analyst Forecast: $GRAL Given $32.0 Price Target",
      "url": "https://www.nasdaq.com/articles/new-analyst-forecast-gral-given-320-price-target"
+    },
+    {
+     "ticker": "GRAL",
+     "date": "2026-10-06",
+     "publisher": "CNBC",
+     "title": "Jim Cramer says Grail can run higher as FDA decision on Galleri nears",
+     "url": "https://www.cnbc.com/2026/10/06/cramer-grail-stock-galleri-fda-approval.html"
+    },
+    {
+     "ticker": "GRAL",
+     "date": "2026-10-06",
+     "publisher": "CNBC",
+     "title": "Grail is a long way from being profitable, says Jim Cramer",
+     "url": "https://www.cnbc.com/video/2026/10/06/grail-is-a-long-way-from-being-profitable-says-jim-cramer.html"
+    },
+    {
+     "ticker": "GRAL",
+     "date": "2026-10-06",
+     "publisher": "CNBC",
+     "title": "The one thing I am worried about here is the valuation, says Jim Cramer on Grail",
+     "url": "https://www.cnbc.com/video/2026/10/06/the-one-thing-i-am-worried-about-here-is-the-valuation-says-jim-cramer-on-grail.html"
     },
     {
      "ticker": "HPE",
@@ -4167,6 +4415,14 @@
      "whyRose": [
       "ASCO에서 공개된 갤러리 임상 데이터가 상용화 기대를 키웠다. 영국 NHS 공동 임상은 주 목표는 못 맞췄지만 보조 지표는 양호했다.",
       "4기 암 진단 비율이 줄고 1~2기 발견이 늘어, 조기 발견 효과가 있다는 해석이 나왔다."
+     ]
+    },
+    {
+     "ticker": "HPE",
+     "company": "서버·스토리지와 네트워크 장비를 기업에 파는 회사. AI 데이터센터용 서버 수요와 메모리 가격 전가로 최근 매출과 이익이 크게 늘었다.",
+     "whyRose": [
+      "최근 분기(2026년 5~7월) 매출이 122억 달러로 1년 전보다 33.7% 늘었다. 영업이익은 13.9억 달러로 464% 증가해 영업이익률이 11.4%까지 올랐다.",
+      "AI 관련 종목 추천 기사에 HPE가 반복해서 올랐고, 10월 12일에는 주가가 증권사 평균 목표주가를 넘었다는 기사가 나왔다."
      ]
     },
     {

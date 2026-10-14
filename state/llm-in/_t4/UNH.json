@@ -1,0 +1,152 @@
+{
+ "ticker": "UNH",
+ "news": [
+  {
+   "title": "UnitedHealth (UNH) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/unitedhealth-unh-q3-2026-earnings-call-transcript",
+   "date": "2026-10-13",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Compared to Estimates, UnitedHealth (UNH) Q3 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-unitedhealth-unh-q3-earnings-look-key-metrics",
+   "date": "2026-10-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "UnitedHealth Group (UNH) Q3 Earnings and Revenues Top Estimates",
+   "url": "https://www.nasdaq.com/articles/unitedhealth-group-unh-q3-earnings-and-revenues-top-estimates",
+   "date": "2026-10-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "UnitedHealth Group (UNH) Beats Stock Market Upswing: What Investors Need to Know",
+   "url": "https://www.nasdaq.com/articles/unitedhealth-group-unh-beats-stock-market-upswing-what-investors-need-know",
+   "date": "2026-10-09",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-13",
+   "reportDate": "2026-10-13",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000255/unh-20261013.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-08",
+   "reportDate": "2026-09-08",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000205/unh-20260908.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-16",
+   "reportDate": "2026-07-16",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000191/unh-20260716.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-05",
+   "reportDate": "2026-06-01",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000138/unh-20260601.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-11",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000129/unh-20260511.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-21",
+   "reportDate": "2026-04-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000121/unh-20260421.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -0.14,
+  "saleNy": 3,
+  "epsCy": 21.51,
+  "epsNy": 13.81,
+  "cyTrend": 0.28,
+  "nyTrend": 0.78,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    0.37,
+    1.96,
+    12.31
+   ],
+   "ni": [
+    61.01,
+    -0.19,
+    -99.82
+   ],
+   "opm": [
+    7.13,
+    8.05,
+    0.34
+   ],
+   "updated": "2026-09-08 10:03:59"
+  }
+ }
+}

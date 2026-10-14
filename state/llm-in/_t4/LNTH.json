@@ -1,0 +1,133 @@
+{
+ "ticker": "LNTH",
+ "news": [],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-02",
+   "reportDate": "2026-10-02",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1521036/000119312526412563/d31891d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-21",
+   "reportDate": "2026-09-17",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1521036/000119312526396654/d148743d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1521036/000119312526336771/lnth-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-04",
+   "reportDate": "2026-08-01",
+   "items": [
+    "1.01",
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1521036/000119312526331138/d167446d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "reportDate": "2026-08-03",
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1521036/000119312526329622/d148563d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1521036/000119312526210369/lnth-20260507.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": -2.74,
+  "saleNy": 10.29,
+  "epsCy": -7.89,
+  "epsNy": 13.88,
+  "cyTrend": 4.49,
+  "nyTrend": 1.27,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    2.68,
+    1.23,
+    4.01
+   ],
+   "ni": [
+    -4.73,
+    62.34,
+    "흑자전환"
+   ],
+   "opm": [
+    25.82,
+    21.55,
+    18.97
+   ],
+   "updated": "2026-09-21 06:52:14"
+  }
+ }
+}
