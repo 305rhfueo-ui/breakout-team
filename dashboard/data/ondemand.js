@@ -1,6 +1,907 @@
 window.ONDEMAND_DATA = {
   "items": [
     {
+      "ticker": "TEAM",
+      "nameKo": "아틀라시언",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "industryRank": {
+        "frank": 3,
+        "frank25dChg": 13,
+        "headline": "AI에 소프트웨어가 대체될 것이라는 공포가 가라앉으며 바닥에서 반등한 응용 소프트웨어가 업종 순위 5위까지 올라섰다.",
+        "asOf": "2026-10-14"
+      },
+      "requestedOn": "2026-10-14",
+      "session": "2026-10-13",
+      "at": "2026-10-14T01:36:53.457Z",
+      "verdict": "조건부",
+      "verdictLine": "10월 8일 피벗 200 을 넘은 뒤라 지금 진입은 추격이며, 돌파봉 거래량도 20일 평균의 0.99배에 그쳐 확인이 더 필요하다.",
+      "basis": [
+        {
+          "point": "종가 208.04 가 20일선 192.94·50일선 178.07 위에 있고 20일선이 오르는 중이다.",
+          "side": "for",
+          "checkRef": "차트:이평선 위"
+        },
+        {
+          "point": "상대강도가 3개월 상위 0.32%, 6개월 상위 0.41% 로 업종 안에서 앞서 있다.",
+          "side": "for",
+          "checkRef": "CANSLIM:L"
+        },
+        {
+          "point": "2026-10-08 에 피벗 200 을 이미 넘어 지금은 4.02% 위의 추격 구간이다.",
+          "side": "against",
+          "checkRef": "차트:피벗 거리"
+        },
+        {
+          "point": "그 돌파일 거래량이 20일 평균의 0.99배로 기준인 2배에 크게 못 미쳤다.",
+          "side": "against",
+          "checkRef": "차트:돌파 거래량"
+        },
+        {
+          "point": "최근 4분기 중 3분기가 영업적자였고 흑자는 마지막 한 분기뿐이다.",
+          "side": "against",
+          "checkRef": "CANSLIM:A"
+        }
+      ],
+      "conditions": [
+        "피벗 200 위에서 2주 이상 새로 쉬는 구간이 만들어지고, 그 상단 아래 하루 변동폭 4.16% 안에서 다시 멈춰 설 것",
+        "그 새 구간을 넘는 날 거래량이 20일 평균의 2배 이상 실릴 것",
+        "11월 5일 실적 발표가 지나고 클라우드 매출 증가율 28.5% 전망이 지켜졌음이 확인될 것",
+        "예비 손절 폭이 하루 평균 변동폭 4.16% 이내로 좁혀지는 자리가 나올 것"
+      ],
+      "invalidation": "종가가 예비 손절 191.34 아래로 내려가면 이 판단은 틀린 것으로 본다. 쉬는 구간 저점 168.05 를 깨면 흐름 자체가 바뀐 것이다.",
+      "dataLimits": "기관 보유 자료가 없고, 국내 증권사 리포트가 0건이라 증권사 전망치 변화는 확인하지 못했다.",
+      "verdictAdjusted": null,
+      "verdictOriginal": null,
+      "gates": {
+        "blocked": true,
+        "reasons": [
+          {
+            "key": "post_breakout",
+            "ko": "이미 피벗 200 을 넘었다(2026-10-08) — 넘은 뒤에 사는 것은 추격이다"
+          }
+        ],
+        "asOf": {
+          "bar": "2026-10-13",
+          "market": "2026-10-13"
+        }
+      },
+      "setup": {
+        "state": "post",
+        "grade": "B",
+        "pivot": 200,
+        "stop": 191.34,
+        "distToPivotPct": 4.02,
+        "distToPivotAdr": 0.97,
+        "riskPerSharePct": 4.33,
+        "extensionAdr": 1.28,
+        "adrPct": 4.16,
+        "breakDate": "2026-10-08",
+        "chase": false,
+        "metrics": {
+          "baseBars": 19,
+          "baseWeeks": 3.8,
+          "depthPct": 16,
+          "priorMovePct": 168.8,
+          "higherLows": 0,
+          "contraction": 0.98,
+          "closeRange10Adr": 2.4,
+          "surf10": 0.92,
+          "surf20": 0.82,
+          "slope20": 1.05,
+          "baseLow": 168.05,
+          "lastSwingLow": 168.05
+        },
+        "reasons": [
+          "선행 상승 +169%",
+          "베이스 3.8주",
+          "깊이 16%",
+          "✗ 저점 상승 0회",
+          "진폭 0.98배 · 10일 종가폭 2.4 ADR",
+          "10일선 +0.9 ADR · 20일선 +0.8 ADR",
+          "20일선 기울기 +1.05%"
+        ],
+        "earnings": null
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 169% · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 3.8주 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회 · 진폭 0.98배(1 미만이면 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 16% · ADR 4.16%의 3.8배 · 선행 상승의 절반 84%"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 208.04 · 20일선 192.94 · 50일선 178.07"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.79배 (보통) · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "미충족",
+            "evidence": "2026-10-08 돌파봉 거래량 = 20일 평균의 0.99배 · 기준 2배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "이미 2026-10-08 피벗 200 돌파 — 추격 구간"
+          },
+          {
+            "item": "손절 폭",
+            "status": "미충족",
+            "evidence": "예비 손절 폭 4.33% · ADR 4.16%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 1.3 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "충족",
+            "evidence": "한별 판정 초록"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "최근 분기 흑자전환 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "사이트 최근 3분기 순이익 흑자전환/적자확대/적자확대 — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "신제품·신서비스·신경영진 여부는 코드로 판정하지 않는다 — AI 심층 분석에서 출처로 판정 · 참고: 52주 고점의 98%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 0.79배(20일 평균 대비) · 오늘 거래대금 —(상승일) · 상장주식 159M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 15.37% · 3M 0.32% · 6M 0.41% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "충족",
+            "evidence": "한별 판정 초록 · 마진부채 주의(+30% 초과)"
+          }
+        ]
+      },
+      "kis": {
+        "ticker": "TEAM",
+        "fetchedAt": "2026-10-13",
+        "source": "한국투자증권 Open API",
+        "per": 1110.96,
+        "pbr": 49.74,
+        "eps": 0.19,
+        "bps": 4.18,
+        "shares": 159005000,
+        "marketCapM": 33033,
+        "high52": 212.84,
+        "high52Date": "2026-10-12",
+        "low52": 56.0101,
+        "low52Date": "2026-04-10",
+        "last": 207.75,
+        "prevClose": 206.79,
+        "nameKo": "아틀라시언",
+        "nameEn": "ATLASSIAN CORP",
+        "listedOn": "2015-12-09",
+        "exchange": "나스닥",
+        "listedShares": 159005000
+      },
+      "cnbc": [
+        {
+          "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+          "url": "https://www.cnbc.com/investingclub/2026/09/01/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+          "date": "2026-09-01",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+          "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+          "date": "2026-08-07",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: SpaceX, Coherent, Airbnb & more",
+          "url": "https://www.cnbc.com/2026/08/07/stocks-making-the-biggest-moves-midday-spcx-cohr-team-abnb-ttd.html",
+          "date": "2026-08-07",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Stocks making the biggest moves premarket: Atlassian, Wendy's, Vista & more",
+          "url": "https://www.cnbc.com/2026/08/07/stocks-making-the-biggest-moves-premarket-atlassian-corporation-wendys-vista-corp-first-solar-airbnb-more.html",
+          "date": "2026-08-07",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Software companies are evaporating the terminal risk fears AI models posed: Citi's Fatima Boolani",
+          "url": "https://www.cnbc.com/video/2026/08/07/software-companies-are-evaporating-the-terminal-risk-fears-ai-models-posed-citis-fatima-boolani.html",
+          "date": "2026-08-07",
+          "publisher": "CNBC",
+          "kind": "video"
+        }
+      ],
+      "detail": {
+        "fetchedAt": "2026-10-14",
+        "nameKo": "아틀라시언",
+        "nameEn": "ATLASSIAN CORP",
+        "financials": {
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001650372&type=10-Q",
+          "quarters": [
+            {
+              "periodEnd": "2026-06-30",
+              "derived": true,
+              "revenue": 1766469000,
+              "profit": 210723000,
+              "netIncome": 139076000,
+              "margin": 11.9,
+              "yoy": {
+                "revenue": 27.6,
+                "profit": 839.9,
+                "netIncome": 681.8,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 1786971000,
+              "profit": -56284000,
+              "netIncome": -98389000,
+              "margin": -3.1,
+              "yoy": {
+                "revenue": 31.7,
+                "profit": -351.9,
+                "netIncome": -39,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodEnd": "2025-12-31",
+              "derived": false,
+              "revenue": 1586315000,
+              "profit": -47747000,
+              "netIncome": -42645000,
+              "margin": -3,
+              "yoy": {
+                "revenue": 23.3,
+                "profit": 16.9,
+                "netIncome": -11.6,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodEnd": "2025-09-30",
+              "derived": false,
+              "revenue": 1432553000,
+              "profit": -96337000,
+              "netIncome": -51870000,
+              "margin": -6.7,
+              "yoy": {
+                "revenue": 20.6,
+                "profit": -201.3,
+                "netIncome": 58.1,
+                "priorEnd": "2024-09-30"
+              }
+            }
+          ]
+        },
+        "news": {
+          "items": [
+            {
+              "title": "Intuit vs. Atlassian: Which Software Stock Is a Better Buy in 2026?",
+              "url": "https://www.nasdaq.com/articles/intuit-vs-atlassian-which-software-stock-better-buy-2026",
+              "date": "2026-10-05",
+              "publisher": "The Motley Fool"
+            }
+          ]
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-06",
+            "itemsKo": [
+              "실적 발표",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000031/team-20260806.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-04-30",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000024/team-20260430.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-03-11",
+            "itemsKo": [
+              "2.05",
+              "임원 변동",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000021/team-20260311.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-18",
+            "itemsKo": [
+              "임원 변동"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000017/team-20260218.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-05",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000008/team-20260205.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-01-15",
+            "itemsKo": [
+              "임원 변동"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000003/team-20260115.htm"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": []
+        }
+      },
+      "rank": {
+        "m1": 15.37,
+        "m3": 0.32,
+        "m6": 0.41
+      },
+      "verified": {
+        "checked": 4,
+        "ok": 18,
+        "unverified": 0,
+        "dead": 0,
+        "stripped": 2
+      },
+      "numberCut": 3,
+      "deep": {
+        "status": "done",
+        "ticker": "TEAM",
+        "company": "아틀라시언은 개발팀과 업무팀이 쓰는 협업 소프트웨어를 구독 방식으로 파는 회사다. 주력은 업무 추적 도구 Jira 와 문서 협업 도구 Confluence 이며, 매출의 대부분이 클라우드 구독에서 나온다. 최근에는 AI 비서 Rovo 를 기존 제품에 얹어 파는 쪽으로 성장 축을 옮기고 있다.",
+        "lead": "지금 기준으로는 이미 사는 선을 넘어선 뒤라 새로 들어가기엔 늦은 자리다. 가장 강한 근거는 사업 쪽인데, 분기 매출이 1년 전보다 28% 늘고 영업이익이 흑자로 돌아섰으며 10월 6일 OpenAI 와 제휴를 확대했다. 가장 큰 걱정은 회사 스스로 내놓은 2027회계연도 총매출 증가율 전망이 약 13% 로 지금의 28% 보다 크게 낮다는 점이다. 11월 5일 실적 발표에서 이 둔화가 숫자로 확인되거나, 종가가 예비 손절 191.34 아래로 내려가면 이 그림은 깨진다.",
+        "newsNarrative": "8월 6일 분기 실적 발표가 최근 주가 흐름의 출발점이다. 매출이 1년 전보다 28% 늘고 영업이익이 흑자로 돌아서면서, AI 가 소프트웨어 회사를 대체할 것이라는 공포가 한풀 꺾였다. 10월 6일에는 OpenAI 와 제휴를 넓혀 GPT-6 계열 모델이 Rovo 와 플랫폼 전반을 구동한다고 알렸다. 10월 5일 회사는 다음 분기 실적을 11월 5일 장 마감 후 발표한다고 공지했다.",
+        "recentNews": [
+          {
+            "id": "r1",
+            "statement": "8월 6일 발표한 분기 실적에서 매출이 17.66억 달러로 1년 전보다 28% 늘고, 클라우드 매출은 12.13억 달러로 31% 증가했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Atlassian Corp - Form 8-K, Exhibit 99.1 (Q4 FY2026 실적 발표)",
+                "publisher": "SEC EDGAR (Atlassian Corporation)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001650372/000165037226000031/ex991q4fy26.htm",
+                "date": "2026-08-06",
+                "quote": "Quarterly revenue of $1,766 million, up 28% year-over-year … Quarterly cloud revenue of $1,213 million, up 31% year-over-year",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r2",
+            "statement": "10월 6일 OpenAI 와 제휴를 확대해 GPT-6 계열 모델이 아틀라시언 플랫폼과 Rovo 전반을 구동하게 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "OpenAI and Atlassian Expand Partnership to Bring GPT-6 to Rovo",
+                "publisher": "Channel Insider",
+                "url": "https://www.channelinsider.com/channel-business/news-openai-atlassian-partnership-gpt-6-rovo/",
+                "date": "2026-10-06",
+                "quote": "Announced Oct. 6, the expanded agreement brings GPT-6 family models across Atlassian's platform and Rovo.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r3",
+            "statement": "회사는 10월 5일 공지에서 다음 분기 실적을 11월 5일 장 마감 후 발표한다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Atlassian Announces Date for First Quarter of Fiscal Year 2027 Financial Results",
+                "publisher": "Atlassian (Finviz 게재)",
+                "url": "https://finviz.com/news/398890/atlassian-announces-date-for-first-quarter-of-fiscal-year-2027-financial-results",
+                "date": "2026-10-05",
+                "quote": "it will release financial results for its first quarter of fiscal year 2027 ended September 30, 2026 after market close on Thursday, November 5, 2026",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r4",
+            "statement": "AI 가 소프트웨어 업체를 대체할 것인지를 둘러싼 논쟁이 격해지며 8월 초 소프트웨어 주가가 크게 출렁였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+                "date": "2026-08-07",
+                "quote": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출은 빠르게 늘고 있고, 이익은 이제 막 흑자로 돌아섰다. 가장 최근 분기 매출은 17.66억 달러로 1년 전보다 28% 늘었고, 성장의 축인 클라우드 매출은 31% 증가했다. 같은 분기 회계기준 영업이익률이 12% 로 올라서며 직전 세 분기의 영업적자에서 벗어났다. 다만 회사가 내놓은 2027회계연도 총매출 증가율 전망은 약 13.0% 로, 지금 속도의 절반에도 못 미친다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "f1",
+              "statement": "가장 최근 분기 매출은 17.66억 달러로 1년 전보다 28% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Atlassian Corp - Form 8-K, Exhibit 99.1 (Q4 FY2026 실적 발표)",
+                  "publisher": "SEC EDGAR (Atlassian Corporation)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001650372/000165037226000031/ex991q4fy26.htm",
+                  "date": "2026-08-06",
+                  "quote": "Quarterly revenue of $1,766 million, up 28% year-over-year",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f2",
+              "statement": "구독 연간환산매출은 66.06억 달러로 23% 늘었고, 앞으로 매출로 잡힐 계약 잔고는 48.17억 달러로 44% 증가했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Atlassian Corp - Form 8-K, Exhibit 99.1 (Q4 FY2026 실적 발표)",
+                  "publisher": "SEC EDGAR (Atlassian Corporation)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001650372/000165037226000031/ex991q4fy26.htm",
+                  "date": "2026-08-06",
+                  "quote": "Subscription ARR of $6,606 million, up 23% year-over-year … Remaining performance obligations of $4,817 million, up 44% year-over-year",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "f3",
+              "statement": "가장 최근 분기 회계기준 영업이익률은 12%, 조정 기준 영업이익률은 36% 였다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Atlassian Corp - Form 8-K, Exhibit 99.1 (Q4 FY2026 실적 발표)",
+                  "publisher": "SEC EDGAR (Atlassian Corporation)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001650372/000165037226000031/ex991q4fy26.htm",
+                  "date": "2026-08-06",
+                  "quote": "Quarterly GAAP operating margin of 12% and non-GAAP operating margin of 36%",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f4",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "아틀라시언 분기 실적 (SEC 공시 기준 분기 실적표)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001650372/000165037226000031/ex991q4fy26.htm",
+                  "date": "2026-08-06",
+                  "quote": "2026-06-30 분기 영업이익 210,723천 달러 · 영업이익률 11.9% / 2026-03-31 분기 영업이익 -56,284천 달러 / 2025-12-31 분기 -47,747천 달러 / 2025-09-30 분기 -96,337천 달러",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "직전 세 분기는 모두 영업적자였고, 2026-06-30 분기에 영업이익 2.1억 달러로 돌아섰다.",
+              "stripped": true
+            }
+          ],
+          "guidance": [
+            {
+              "id": "f5",
+              "statement": "회사는 다음 분기 매출을 17.05억~17.15억 달러로, 클라우드 매출 증가율을 약 28.5% 로 제시했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Atlassian Corp - Form 8-K, Exhibit 99.1 (Q4 FY2026 실적 발표)",
+                  "publisher": "SEC EDGAR (Atlassian Corporation)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001650372/000165037226000031/ex991q4fy26.htm",
+                  "date": "2026-08-06",
+                  "quote": "Total revenue is expected to be in the range of $1,705 million to $1,715 million. … Cloud revenue growth year-over-year is expected to be approximately 28.5%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f6",
+              "statement": "2027회계연도 전체로는 구독 연간환산매출 증가율 약 18.0%, 총매출 증가율 약 13.0% 를 제시했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Atlassian Corp - Form 8-K, Exhibit 99.1 (Q4 FY2026 실적 발표)",
+                  "publisher": "SEC EDGAR (Atlassian Corporation)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001650372/000165037226000031/ex991q4fy26.htm",
+                  "date": "2026-08-06",
+                  "quote": "Subscription ARR growth year-over-year is expected to be approximately 18.0%. … Total revenue growth year-over-year is expected to be approximately 13.0%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "unknown",
+            "claims": []
+          }
+        },
+        "newDrivers": [
+          {
+            "what": "Jira 안에서 AI 에이전트가 개발 업무를 맡아 처리하는 기능 — 기업용 AI 관리 기능 정식 출시와 Rovo 의 의료정보보호 규정 적용이 함께 묶였다",
+            "kind": "product",
+            "stage": "매출 발생 중",
+            "since": "2026-08-06",
+            "basis": [
+              {
+                "id": "d1",
+                "statement": "회사는 소프트웨어 개발 전 과정에서 AI 에이전트 작업을 운영할 수 있는 새 기능을 Jira 에 넣었다고 밝혔다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Atlassian Corp - Form 8-K, Exhibit 99.1 (Q4 FY2026 실적 발표)",
+                    "publisher": "SEC EDGAR (Atlassian Corporation)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001650372/000165037226000031/ex991q4fy26.htm",
+                    "date": "2026-08-06",
+                    "quote": "Atlassian released new agentic development capabilities in Jira that help teams orchestrate and scale agentic work across the full software development lifecycle. … Atlassian launched advanced AI admin controls across cloud enterprise editions into general availability.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [
+              {
+                "id": "d3",
+                "statement": "이 기능들이 실리는 클라우드 부문 매출은 분기 12.13억 달러로 1년 전보다 31% 늘었고, 계약 잔고는 48.17억 달러로 44% 증가했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Atlassian Corp - Form 8-K, Exhibit 99.1 (Q4 FY2026 실적 발표)",
+                    "publisher": "SEC EDGAR (Atlassian Corporation)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001650372/000165037226000031/ex991q4fy26.htm",
+                    "date": "2026-08-06",
+                    "quote": "Quarterly cloud revenue of $1,213 million, up 31% year-over-year … Remaining performance obligations of $4,817 million, up 44% year-over-year",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "profitImpact": [
+              {
+                "id": "d4",
+                "statement": "AI 기능 확대에도 같은 분기 회계기준 영업이익률이 12% 로 흑자를 냈고, 조정 기준으로는 36% 였다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Atlassian Corp - Form 8-K, Exhibit 99.1 (Q4 FY2026 실적 발표)",
+                    "publisher": "SEC EDGAR (Atlassian Corporation)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001650372/000165037226000031/ex991q4fy26.htm",
+                    "date": "2026-08-06",
+                    "quote": "Quarterly GAAP operating margin of 12% and non-GAAP operating margin of 36%",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "expectedGrowth": [
+              {
+                "id": "d5",
+                "statement": "회사 자신의 2027회계연도 전망은 구독 연간환산매출 약 18.0% 증가, 총매출 약 13.0% 증가다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Atlassian Corp - Form 8-K, Exhibit 99.1 (Q4 FY2026 실적 발표)",
+                    "publisher": "SEC EDGAR (Atlassian Corporation)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001650372/000165037226000031/ex991q4fy26.htm",
+                    "date": "2026-08-06",
+                    "quote": "Subscription ARR growth year-over-year is expected to be approximately 18.0%. … Total revenue growth year-over-year is expected to be approximately 13.0%.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "counter": [
+              {
+                "id": "d6",
+                "statement": "AI 가 소프트웨어 업체의 자리를 빼앗을 것이라는 논쟁이 이어져 업종 전체의 주가 변동이 크다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+                    "publisher": "CNBC",
+                    "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+                    "date": "2026-08-07",
+                    "quote": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "what": "OpenAI 와의 제휴 확대 — GPT-6 계열 모델이 아틀라시언 플랫폼과 AI 비서 Rovo 를 구동한다",
+            "kind": "contract",
+            "stage": "발표만",
+            "since": "2026-10-06",
+            "basis": [
+              {
+                "id": "d2",
+                "statement": "10월 6일 맺은 확대 계약으로 GPT-6 계열 모델이 아틀라시언 플랫폼과 Rovo 전반에 들어간다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "OpenAI and Atlassian Expand Partnership to Bring GPT-6 to Rovo",
+                    "publisher": "Channel Insider",
+                    "url": "https://www.channelinsider.com/channel-business/news-openai-atlassian-partnership-gpt-6-rovo/",
+                    "date": "2026-10-06",
+                    "quote": "Announced Oct. 6, the expanded agreement brings GPT-6 family models across Atlassian's platform and Rovo.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [],
+            "profitImpact": [],
+            "expectedGrowth": [],
+            "counter": []
+          }
+        ],
+        "nNarrative": "새로운 것은 AI 다. 8월 6일 회사는 Jira 안에서 AI 가 개발 업무를 맡아 처리하는 기능과 기업용 AI 관리 기능을 정식 출시했고, 10월 6일에는 OpenAI 와 제휴를 넓혀 GPT-6 계열 모델이 Rovo 를 구동하게 했다. 매출 쪽에서는 이 기능들이 실리는 클라우드 부문이 분기 12.13억 달러로 1년 전보다 31% 늘었고, 앞으로 매출로 잡힐 계약 잔고가 48.17억 달러로 44% 증가했다. 이익 쪽에서는 AI 투자를 늘리면서도 같은 분기 회계기준 영업이익률이 12% 로 흑자를 냈다. 기대 성장률은 회사 자신의 2027회계연도 전망으로, 구독 연간환산매출 약 18.0% 증가·총매출 약 13.0% 증가다. OpenAI 제휴가 매출로 얼마나 이어지는지는 아직 숫자가 없어, 11월 5일 실적에서 클라우드 성장률이 약속한 28.5% 를 지키는지가 확인 지점이다.",
+        "nVerdict": "충족",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "2026-06-30 분기 영업이익 2.1억 달러로 흑자 전환, 매출 1년 전보다 27.6% 증가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 4분기 중 3분기가 영업적자(-96.3M·-47.7M·-56.3M), 마지막 한 분기만 흑자 — 3년 추세·자기자본이익률은 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "충족",
+            "evidence": "2026-08-06 Jira 의 AI 에이전트 개발 기능 정식 출시, 2026-10-06 OpenAI 제휴 확대 — 클라우드 매출 1년 전보다 31% 증가"
+          },
+          {
+            "item": "S 수급",
+            "status": "확인 불가",
+            "evidence": "근거 숫자를 입력 자료에서 찾지 못해 지웠다"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 3개월 상위 0.32%, 6개월 상위 0.41%, 1개월 상위 15.37% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "충족",
+            "evidence": "시장 판정 초록 — 10일선이 20일선 위, 둘 다 상승 · 빚내서 산 주식이 1년 전보다 +37.2% 로 주의선 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Atlassian Corp - Form 8-K, Exhibit 99.1 (Q4 FY2026 실적 발표)",
+                "publisher": "SEC EDGAR (Atlassian Corporation)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001650372/000165037226000031/ex991q4fy26.htm",
+                "date": "2026-08-06",
+                "quote": "Total revenue growth year-over-year is expected to be approximately 13.0%.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "회사 스스로 2027회계연도 총매출 증가율을 약 13.0% 로 제시해, 최근 분기의 28% 보다 크게 낮은 속도를 예고했다.",
+            "stripped": true
+          },
+          {
+            "id": "k2",
+            "statement": "AI 가 소프트웨어 업체를 대체할 것이라는 논쟁이 격해지며 소프트웨어 주가가 크게 흔들렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+                "date": "2026-08-07",
+                "quote": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "매출이 Jira·Confluence 를 중심으로 한 협업 도구 구독에 몰려 있다.",
+          "핵심 AI 기능을 외부 모델 공급사에 의존해, 제휴 조건이 바뀌면 제품 경쟁력이 흔들릴 수 있다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 168.8% · 기준 30% 이상"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 19봉, 3.8주 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회 · 진폭 0.98배(1 미만이면 폭이 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 16% · 하루 변동폭 4.16% 의 3.8배 · 선행 상승 168.8% 의 절반에 못 미친다"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 208.04 · 20일선 192.94 · 50일선 178.07 — 둘 다 위"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 0.79배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "미충족",
+            "evidence": "2026-10-08 돌파봉 거래량이 20일 평균의 0.99배 · 기준 2배"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "2026-10-08 에 피벗 200 을 이미 넘었고 지금 4.02% 위 — 추격 구간"
+          },
+          {
+            "item": "손절 폭",
+            "status": "미충족",
+            "evidence": "예비 손절까지 4.33% · 하루 평균 변동폭 4.16% 보다 넓다"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 1.28 하루변동폭 · 기준 2 이하"
+          },
+          {
+            "item": "시장",
+            "status": "충족",
+            "evidence": "시장 판정 초록 — 10일선이 20일선 위, 둘 다 상승 중(18일째)"
+          }
+        ],
+        "chartObservation": {
+          "base": "쉬는 구간은 19봉, 약 3.8주로 기준인 2~8주 안에 있다. 그 안에서 저점이 높아진 횟수는 0회였고, 폭은 0.98배로 거의 좁아지지 않았다. 고점 대비 저점 깊이는 16% 로 하루 평균 변동폭 4.16% 의 3.8배다.",
+          "volume": "최근 5일 거래량은 20일 평균의 0.79배로 횡보 중 다소 줄었다. 다만 2026-10-08 피벗을 넘은 날 거래량은 20일 평균의 0.99배에 그쳤다. 최근 10봉에서 가장 많았던 날은 10-05 의 303.7만주, 그다음이 10-08 의 290.6만주, 10-13 의 260.1만주다.",
+          "position": "현재가 208.04 는 피벗 200 을 4.02%, 하루 변동폭으로는 0.97배 웃돈다. 예비 손절 191.34 까지는 4.33% 아래다. 10일선 기준으로는 1.28 하루변동폭 위에 있다.",
+          "maStack": "208.04 가 20일선 192.94, 50일선 178.07, 150일선 114.39 위에 차례로 놓여 있다. 20일선 기울기는 +1.05% 로 올라가는 중이다.",
+          "note": "그림에서도 9월 내내 200 아래에서 옆으로 움직이다 10월 들어 그 선을 넘는 모습과, 8월 초 큰 거래량 뒤 막대가 줄어드는 모습이 확인된다. 그림과 숫자가 일치한다."
+        },
+        "entryChecklist": [
+          "피벗 200 을 넘은 뒤 다시 2주 이상 쉬는 구간이 생기고, 그 상단 아래 하루 변동폭 4.16% 안으로 들어오는지",
+          "상승 마감한 날의 거래량이 20일 평균의 2배 이상 실리는지 — 10-08 돌파일은 0.99배에 그쳤다",
+          "11월 5일 실적 발표에서 클라우드 매출 증가율이 회사가 제시한 28.5% 를 지키는지",
+          "종가가 20일선 192.94 와 예비 손절 191.34 위를 계속 지키는지",
+          "저점 상승 0회·진폭 0.98배였던 지금 구간과 달리, 새 구간에서는 저점이 높아지는지"
+        ],
+        "earningsRisk": "회사는 11월 5일 장 마감 후 분기 실적을 발표한다고 알렸다(매매 달력 자료에는 아직 올라 있지 않다). 약 3주 뒤이므로, 발표 전에 들어가면 하루 만에 가격이 크게 벌어지는 위험을 그대로 떠안는다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "d7"
+          ],
+          "reasons": [
+            "d7의 quote '\"Combining OpenAI frontier models with Atlassian brings powerful agentic capabilities together within the context of how businesses actually operate.\"'는 더 깊은 연동이 '검토 단계'이거나 '제품화 시점이 정해지지 않았다'는 주장을 명시적으로 뒷받침하지 않음. 근거 없는 추론"
+          ]
+        },
+        "consensus": {
+          "saleCy": 13.59,
+          "saleNy": 14.88,
+          "epsCy": -7.02,
+          "epsNy": -59.79,
+          "cyTrend": 0.33,
+          "nyTrend": 6.32
+        },
+        "researchedOn": "2026-10-14",
+        "session": "2026-10-13",
+        "carried": false,
+        "source": "ondemand"
+      }
+    },
+    {
       "ticker": "SNOW",
       "nameKo": "스노우플레이크",
       "sector": "Technology",
@@ -1122,5 +2023,5 @@ window.ONDEMAND_DATA = {
       }
     }
   ],
-  "updated": "2026-10-12T22:13:30.231Z"
+  "updated": "2026-10-14T01:36:53.460Z"
 };
