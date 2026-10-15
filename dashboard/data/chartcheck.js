@@ -1,101 +1,15 @@
 window.CHARTCHECK_DATA = {
-  "generated": "2026-10-14",
+  "generated": "2026-10-15",
   "items": [
-    {
-      "ticker": "NSIT",
-      "score": 9,
-      "source": "T3",
-      "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.74배로 줄었다",
-        "최근 1주 거래량이 한 달 평균의 0.67배로 줄었다(팔 사람이 줄어듦)",
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.08, 최저 0.07)",
-        "넘어야 할 선 $181.92 바로 아래(-3.33%)",
-        "1년 최고가의 98.58% 자리"
-      ],
-      "flags": [
-        "contract10",
-        "volDry",
-        "bbSqueeze",
-        "nearResist",
-        "high52"
-      ],
-      "resistance": 181.92,
-      "price": 175.87,
-      "barGap": false
-    },
-    {
-      "ticker": "CORT",
-      "score": 8,
-      "source": "T3",
-      "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.79배로 줄었다",
-        "최근 1주 거래량이 한 달 평균의 0.34배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $122.21 바로 아래(-3.61%)",
-        "최근 2주 종가가 2.28% 안에서만 움직였다",
-        "1년 최고가의 95.89% 자리"
-      ],
-      "flags": [
-        "contract10",
-        "volDry",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 122.21,
-      "price": 117.8,
-      "barGap": false
-    },
-    {
-      "ticker": "CRM",
-      "score": 7,
-      "source": "T3",
-      "reasons": [
-        "최근 1주 거래량이 한 달 평균의 0.66배로 줄었다(팔 사람이 줄어듦)",
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.14, 최저 0.13)",
-        "넘어야 할 선 $250.47 바로 아래(-4.97%)",
-        "최근 2주 종가가 2.03% 안에서만 움직였다"
-      ],
-      "flags": [
-        "volDry",
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses"
-      ],
-      "resistance": 250.47,
-      "price": 238.01,
-      "barGap": false
-    },
-    {
-      "ticker": "DJCO",
-      "score": 7,
-      "source": "T3",
-      "reasons": [
-        "최근 1주는 더 조용하다(그 전 1주의 0.67배)",
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.08, 최저 0.07)",
-        "넘어야 할 선 $651.66 바로 아래(-1.09%)",
-        "최근 2주 종가가 1.28% 안에서만 움직였다",
-        "1년 최고가의 92.5% 자리"
-      ],
-      "flags": [
-        "contract5",
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 651.66,
-      "price": 644.56,
-      "barGap": false
-    },
     {
       "ticker": "DUOL",
       "score": 7,
       "source": "T3",
       "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.7배로 줄었다",
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.12, 최저 0.12)",
-        "넘어야 할 선 $143.8 바로 아래(-2.57%)",
-        "최근 2주 종가가 2.55% 안에서만 움직였다"
+        "최근 2주 가격 흔들림이 그 전 2주의 0.76배로 줄었다",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.11, 최저 0.11)",
+        "넘어야 할 선 $143.8 바로 아래(-2.83%)",
+        "최근 2주 종가가 2.85% 안에서만 움직였다"
       ],
       "flags": [
         "contract10",
@@ -104,29 +18,7 @@ window.CHARTCHECK_DATA = {
         "tightCloses"
       ],
       "resistance": 143.8,
-      "price": 140.1,
-      "barGap": false
-    },
-    {
-      "ticker": "SIG",
-      "score": 7,
-      "source": "T3",
-      "reasons": [
-        "최근 1주는 더 조용하다(그 전 1주의 0.68배)",
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.08, 최저 0.07)",
-        "넘어야 할 선 $110.2 바로 아래(-1.85%)",
-        "최근 2주 종가가 2.37% 안에서만 움직였다",
-        "1년 최고가의 96.94% 자리"
-      ],
-      "flags": [
-        "contract5",
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 110.2,
-      "price": 108.16,
+      "price": 139.73,
       "barGap": false
     },
     {
@@ -134,11 +26,11 @@ window.CHARTCHECK_DATA = {
       "score": 7,
       "source": "T3",
       "reasons": [
-        "최근 1주는 더 조용하다(그 전 1주의 0.6배)",
-        "최근 1주 거래량이 한 달 평균의 0.59배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $88.49 바로 아래(-1.58%)",
-        "최근 2주 종가가 1.46% 안에서만 움직였다",
-        "1년 최고가의 96.46% 자리"
+        "최근 1주는 더 조용하다(그 전 1주의 0.67배)",
+        "최근 1주 거래량이 한 달 평균의 0.64배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $88.49 바로 아래(-3.35%)",
+        "최근 2주 종가가 1.29% 안에서만 움직였다",
+        "1년 최고가의 96.35% 자리"
       ],
       "flags": [
         "contract5",
@@ -148,47 +40,27 @@ window.CHARTCHECK_DATA = {
         "high52"
       ],
       "resistance": 88.49,
-      "price": 87.09,
+      "price": 85.53,
       "barGap": false
     },
     {
-      "ticker": "QCOM",
-      "score": 7,
-      "source": "T3",
-      "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.53배로 줄었다",
-        "최근 1주 거래량이 한 달 평균의 0.67배로 줄었다(팔 사람이 줄어듦)",
-        "넘어야 할 선 $178.83 바로 아래(-1.1%)",
-        "최근 2주 종가가 2.09% 안에서만 움직였다"
-      ],
-      "flags": [
-        "contract10",
-        "volDry",
-        "nearResist",
-        "tightCloses"
-      ],
-      "resistance": 178.83,
-      "price": 176.86,
-      "barGap": false
-    },
-    {
-      "ticker": "DELL",
+      "ticker": "CORT",
       "score": 6,
       "source": "T3",
       "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.12, 최저 0.12)",
-        "넘어야 할 선 $595.51 바로 아래(-3.87%)",
-        "최근 2주 종가가 2.91% 안에서만 움직였다",
-        "1년 최고가의 96.85% 자리"
+        "최근 1주 거래량이 한 달 평균의 0.35배로 줄었다(팔 사람이 줄어듦)",
+        "넘어야 할 선 $117.33 바로 아래(-0.94%)",
+        "최근 2주 종가가 2.17% 안에서만 움직였다",
+        "1년 최고가의 93.21% 자리"
       ],
       "flags": [
-        "bbSqueeze",
+        "volDry",
         "nearResist",
         "tightCloses",
         "high52"
       ],
-      "resistance": 595.51,
-      "price": 572.47,
+      "resistance": 117.33,
+      "price": 116.23,
       "barGap": false
     },
     {
@@ -196,10 +68,10 @@ window.CHARTCHECK_DATA = {
       "score": 6,
       "source": "T3",
       "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.1, 최저 0.09)",
-        "넘어야 할 선 $74.4 바로 아래(-3.29%)",
-        "최근 2주 종가가 2.18% 안에서만 움직였다",
-        "1년 최고가의 91.38% 자리"
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.08, 최저 0.08)",
+        "넘어야 할 선 $71.18 바로 아래(-2.53%)",
+        "최근 2주 종가가 2.28% 안에서만 움직였다",
+        "1년 최고가의 90.95% 자리"
       ],
       "flags": [
         "bbSqueeze",
@@ -207,8 +79,122 @@ window.CHARTCHECK_DATA = {
         "tightCloses",
         "high52"
       ],
-      "resistance": 74.4,
-      "price": 71.95,
+      "resistance": 71.18,
+      "price": 69.38,
+      "barGap": false
+    },
+    {
+      "ticker": "DJCO",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.07, 최저 0.07)",
+        "넘어야 할 선 $651.66 바로 아래(-3.34%)",
+        "최근 2주 종가가 1.45% 안에서만 움직였다",
+        "1년 최고가의 93.08% 자리"
+      ],
+      "flags": [
+        "bbSqueeze",
+        "nearResist",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": 651.66,
+      "price": 629.9,
+      "barGap": false
+    },
+    {
+      "ticker": "SIG",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.09, 최저 0.07)",
+        "넘어야 할 선 $110.2 바로 아래(-2.03%)",
+        "최근 2주 종가가 2.58% 안에서만 움직였다",
+        "1년 최고가의 98.92% 자리"
+      ],
+      "flags": [
+        "bbSqueeze",
+        "nearResist",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": 110.2,
+      "price": 107.96,
+      "barGap": false
+    },
+    {
+      "ticker": "RNG",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.12, 최저 0.12)",
+        "넘어야 할 선 $77.95 바로 아래(-3.53%)",
+        "최근 2주 종가가 1.6% 안에서만 움직였다",
+        "1년 최고가의 96.08% 자리"
+      ],
+      "flags": [
+        "bbSqueeze",
+        "nearResist",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": 77.95,
+      "price": 75.2,
+      "barGap": false
+    },
+    {
+      "ticker": "DELL",
+      "score": 5,
+      "source": "T3",
+      "reasons": [
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.12, 최저 0.12)",
+        "넘어야 할 선 $514 바로 아래(-1.18%)",
+        "1년 최고가의 96.13% 자리"
+      ],
+      "flags": [
+        "bbSqueeze",
+        "nearResist",
+        "high52"
+      ],
+      "resistance": 514,
+      "price": 507.93,
+      "barGap": false
+    },
+    {
+      "ticker": "PANW",
+      "score": 5,
+      "source": "T3",
+      "reasons": [
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.16, 최저 0.15)",
+        "넘어야 할 선 $387.33 바로 아래(-3.17%)",
+        "1년 최고가의 91.83% 자리"
+      ],
+      "flags": [
+        "bbSqueeze",
+        "nearResist",
+        "high52"
+      ],
+      "resistance": 387.33,
+      "price": 375.04,
+      "barGap": false
+    },
+    {
+      "ticker": "IT",
+      "score": 5,
+      "source": "T3",
+      "reasons": [
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.11, 최저 0.11)",
+        "넘어야 할 선 $202.98 바로 아래(-3.55%)",
+        "최근 2주 종가가 2.49% 안에서만 움직였다"
+      ],
+      "flags": [
+        "bbSqueeze",
+        "nearResist",
+        "tightCloses"
+      ],
+      "resistance": 202.98,
+      "price": 195.77,
       "barGap": false
     }
   ],
@@ -216,15 +202,15 @@ window.CHARTCHECK_DATA = {
   "shown": 10,
   "cap": 10,
   "beyondCap": [
-    "RNG(6)",
-    "IT(5)",
     "ELF(5)",
-    "ANF(5)",
     "ESTC(5)",
-    "MANH(5)",
     "TARS(5)",
+    "CRM(5)",
     "SEI(5)",
+    "QCOM(5)",
+    "NTRA(5)",
     "SYNA(5)",
-    "RVTY(5)"
+    "RVTY(5)",
+    "SNPS(5)"
   ]
 };
