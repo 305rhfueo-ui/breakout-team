@@ -61,6 +61,7 @@ const DEEP = { type: 'object', properties: {
   lead: { type: 'string', description: '3~4문장. ①지금 왜 관심 종목인지(한 줄 결론) ②가장 강한 근거 ③가장 큰 걱정 ④무엇이 확인되면 이 그림이 깨지는지. 아래 근거(recentNews·financials·risks)의 요약이어야 하며 근거에 없는 사실·숫자를 넣지 마라' },
   newsNarrative: { type: 'string', description: '최근 1~2달 뉴스 흐름을 3~4문장의 이야기로. 무슨 일이 왜 있었고 주가에 어떻게 이어졌는지. recentNews 의 요약이어야 하며 거기 없는 숫자를 넣지 마라' },
   recentNews: { type: 'array', items: CLAIM, description: '최근 1~2달 뉴스·공시·리포트 근거 최대 6개. 각 항목 출처 필수. 제공된 뉴스·8-K·국내 리포트 요약을 근거로 써도 된다(가장 안전하다)' },
+  estimatesNarrative: { type: 'string', description: '2~3문장. 입력의 estimates 를 해석한다: 애널리스트들이 최근 전망치를 올리는지 내리는지가 실적·가이던스 흐름과 맞는지, 최근 서프라이즈가 매출 성장에서 왔는지 일회성인지(뉴스·실적 근거로). 숫자는 estimates 와 출처 주장에 있는 것만, 통화는 estimates 의 통화 표기를 따른다. estimates 가 null 이면 "전망치 자료 없음"' },
   financialsNarrative: { type: 'string', description: '3~4문장. 매출·이익이 어느 방향으로 가고 있고 그게 무슨 뜻인지 쉬운 말로. 숫자는 단위·기간을 붙여 2~3개. financials 의 요약이어야 하며 거기 없는 숫자를 넣지 마라' },
   financials: { type: 'object', properties: {
     revenueTrend: { type: 'array', items: CLAIM, description: '매출 추세 근거 최대 2개 (SEC 실적표 인용 가능)' },
@@ -99,7 +100,7 @@ const DEEP = { type: 'object', properties: {
   entryChecklist: { type: 'array', items: { type: 'string' }, description: '"무엇이 확인되면" 형식 3~5개. 매수 전 사용자가 직접 확인할 조건 (예: "피벗 $196.72 를 거래량 20일 평균 2배 이상으로 종가 돌파하는지"). 매수 권유 문장 금지' },
   earningsRisk: { type: 'string', description: '실적 발표 일정과 그 위험 1~2문장. plan.earnings 가 있으면 날짜를 쓰고, 없으면 "확정된 실적 발표 일정 없음(달력 기준)"' },
   confidence: { type: 'string', enum: ['high', 'medium', 'low'], description: '근거의 충실도' },
-}, required: ['ticker', 'company', 'lead', 'newsNarrative', 'recentNews', 'financialsNarrative', 'financials', 'newDrivers', 'nNarrative', 'nVerdict', 'canslim', 'risks', 'chartCheck', 'chartObservation', 'entryChecklist', 'earningsRisk', 'confidence'] }
+}, required: ['ticker', 'company', 'lead', 'newsNarrative', 'recentNews', 'financialsNarrative', 'financials', 'estimatesNarrative', 'newDrivers', 'nNarrative', 'nVerdict', 'canslim', 'risks', 'chartCheck', 'chartObservation', 'entryChecklist', 'earningsRisk', 'confidence'] }
 
 // ── 7팀 결론 칸 (mode:'verdict' 일 때만 스키마에 붙는다) ──
 if (VERDICT) {
@@ -179,7 +180,8 @@ const researched = await parallel(targets.map((it) => () => {
    \`detail.financials\`(SEC 분기 실적) · \`detail.news\`(이 종목 직접 언급 기사) · \`detail.filings\`(8-K) · \`detail.krReports\`(국내 증권사 리포트 요약·PDF 링크) ·
    \`cnbc\`(CNBC 가 이 종목에 태그한 기사 제목·URL·날짜 — 본문이 필요하면 그 URL 을 직접 열어 문장을 인용하라. kind:'pro' 는 유료라 제목만 근거로 쓰고 숫자는 쓰지 마라) ·
    \`kis\`(한국투자증권 Open API — PER·PBR·EPS·상장주식수·시가총액·52주 고저·상장일) ·
-   \`reportPdfs\`(증권사 리포트 원문 PDF 경로 — N 분석에 쓴다. 있으면 Read 로 읽어라) ·
+   \`reportPdfs\`(증권사 리포트 원문 PDF — 각 항목의 \`file\` 은 \`${argsDir}/\` 안의 파일 이름이다. N 분석에 쓴다. 있으면 Read 로 읽어라) ·
+   \`estimates\`(야후 파이낸스 애널리스트 전망치 — 결산일별 EPS·매출 추정, 추정치 7·30·90일 변화 %, 상향/하향 애널리스트 수, 최근 4분기 실적 서프라이즈 %, 투자의견·목표가 변경 건수, 다음 실적일. 숫자는 전부 코드가 정리한 값이다) ·
    \`chart.numbers\`·\`chart.last10\`(차트 숫자) · \`market\`(한별 시장 판정)${VERDICT ? ' · \`gates\`(매수 적정을 막는 조건 — 코드 계산) · \`checks\`(코드가 계산한 쿨라매기 11·CAN SLIM 7 체크표)' : ''}. **여기 있는 숫자는 절대 바꾸지 마라.**
 3. ${pngs}
 4. 제공 자료로 부족한 것만 웹검색(최대 8회) — 최근 1~2달 뉴스, 가이던스, 증권사 전망 변화, 증자·소송 같은 리스크.
@@ -189,7 +191,7 @@ const researched = await parallel(targets.map((it) => () => {
 
 ## 할 일
 스키마의 각 필드를 채운다. 분량·조건은 스키마 설명을 따른다. 순서:
-company → newsNarrative·recentNews → financialsNarrative·financials → newDrivers·nNarrative·nVerdict(N 심층) → canslim(7개) → risks·structuralRisks → chartCheck(11개)·chartObservation → entryChecklist → earningsRisk → lead(마지막에, 전체 요약) → confidence${VERDICT ? ' → verdict·verdictLine·basis·conditions·invalidation·dataLimits(맨 마지막에, 위 전부를 근거로)' : ''}
+company → newsNarrative·recentNews → financialsNarrative·financials → estimatesNarrative(전망치 해석) → newDrivers·nNarrative·nVerdict(N 심층) → canslim(7개) → risks·structuralRisks → chartCheck(11개)·chartObservation → entryChecklist → earningsRisk → lead(마지막에, 전체 요약) → confidence${VERDICT ? ' → verdict·verdictLine·basis·conditions·invalidation·dataLimits(맨 마지막에, 위 전부를 근거로)' : ''}
 ${RULES}`,
     { label: `심층:${it.ticker}`, phase: '심층분석', schema: DEEP, model: it.model || MODEL }
   )

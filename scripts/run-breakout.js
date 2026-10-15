@@ -640,13 +640,15 @@ async function main() {
   if (team2 && !args.offline && process.env.SKIP_SOURCES !== '1') {
     const { getTickerArticles } = require('./data/cnbc');
     const kis = require('./lib/kis');
-    let okC = 0, okK = 0;
+    const { getEstimates } = require('./data/yahoo-estimates');   // 애널리스트 전망치·서프라이즈 (2026-10-15)
+    let okC = 0, okK = 0, okE = 0;
     for (const q of pool) {
       const c = await getTickerArticles(q.ticker);
       q.cnbc = c.ok ? c.items : null; if (c.ok && c.items.length) okC++;
       if (kis.configured()) { const f = await kis.facts(q.ticker); q.kis = f || null; if (f) okK++; }
+      q.estimates = await getEstimates(q.ticker, { today: dateStr }); if (q.estimates) okE++;
     }
-    say('T2', `CNBC 기사 ${okC}/${pool.length}종목 · 한국투자증권 기업 수치 ${okK}/${pool.length}종목`);
+    say('T2', `CNBC 기사 ${okC}/${pool.length}종목 · 한국투자증권 기업 수치 ${okK}/${pool.length}종목 · 애널리스트 전망치(야후) ${okE}/${pool.length}종목${okE < pool.length ? ` — 실패 ${pool.length - okE}` : ''}`);
   }
 
   // ── 12-0c) 종목 체크표 (2026-10-08) — 쿨라매기 11 · CAN SLIM 7, 선정+목록 종목 전부, AI 없이 코드로 ──

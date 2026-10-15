@@ -149,7 +149,7 @@ async function finish(tickerIn, { date = today(), git = true, send = true, linkc
     requestedOn: date, session: input.session, at: new Date().toISOString(),
     verdict, verdictLine, basis, conditions: conditions || [], invalidation: invalidation || '', dataLimits: dataLimits || '',
     verdictAdjusted: verdictAdjusted || null, verdictOriginal: verdictOriginal || null, gates,
-    setup: input.plan, checks: input.checks, kis: input.kis || null, cnbc: (input.cnbc || []).slice(0, 6), detail: input.detail || null,
+    setup: input.plan, checks: input.checks, kis: input.kis || null, estimates: input.estimates || null, cnbc: (input.cnbc || []).slice(0, 6), detail: input.detail || null,
     rank: input.site ? input.site.rank : null,
     verified: { checked: report.checked, ok: report.ok, unverified: report.unverified, dead: report.dead, stripped: report.stripped }, numberCut,
     deep: { status: 'done', ...deepRest, researchedOn: date, session: input.session, carried: false, source: 'ondemand' },

@@ -25,7 +25,7 @@ function guardDeepItem(it, input, { onCut = () => {} } = {}) {
     o[k] = r.text; n += r.cut.length;
     for (const c of r.cut) onCut(c);
   };
-  for (const k of ['company', 'lead', 'newsNarrative', 'financialsNarrative', 'nNarrative', 'earningsRisk', 'verdictLine', 'invalidation', 'dataLimits']) fix(it, k);
+  for (const k of ['company', 'lead', 'newsNarrative', 'financialsNarrative', 'estimatesNarrative', 'nNarrative', 'earningsRisk', 'verdictLine', 'invalidation', 'dataLimits']) fix(it, k);
   for (const k of Object.keys(it.chartObservation || {})) fix(it.chartObservation, k);
   for (const row of [...(it.canslim || []), ...(it.chartCheck || [])]) {
     fix(row, 'evidence');

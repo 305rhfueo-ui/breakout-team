@@ -20,7 +20,7 @@ const rot = require('./lib/research-rotation');
 const { fetchDetail, slimDetail } = require('./lib/detail');
 const { copyReportPdfs } = require('./data/kr-reports');
 
-const CAP = 10;
+const CAP = 10;                                   // 서준 관심 종목 상한 (목록 순환은 DEEP_LIST_CAP 따로)
 
 function loadWindowData(file, varName) {
   const src = fs.readFileSync(path.join(paths.dashboardData, file), 'utf8');
@@ -77,15 +77,20 @@ async function main() {
 
   // ③ 도윤 목록 종목 순환 (2026-10-08) — 거래대금 상위·세 기간 공통 → 1개월 → 3·6개월 순, 하루 DEEP_LIST_CAP 개, 5거래일마다 갱신.
   //    plan 자리에는 run-breakout 이 서준과 같은 gradeSetup 으로 계산한 setup(피벗·손절·베이스 지표)을 넣는다.
-  const LCAP = Number.isFinite(Number(process.env.DEEP_LIST_CAP)) ? Number(process.env.DEEP_LIST_CAP) : 8;
+  const LCAP = Number.isFinite(Number(process.env.DEEP_LIST_CAP)) ? Number(process.env.DEEP_LIST_CAP) : 14;   // 2026-10-15 8→14: N 심층을 전 종목에 빨리 채우려고
   const watchSet = new Set(watch.map((p) => p.ticker));
   const pool2 = [...(t2.picks || []), ...(t2.listPicks || [])];
   const listRank = t2.lists ? require('./lib/lists').listRankOf(t2.lists) : new Map();
-  const listCands = pool2.filter((q) => listRank.has(q.ticker) && !watchSet.has(q.ticker)
-    && !(q.deep && q.deep.status === 'done' && session && q.deep.session === session));
-  const ordered = rot.orderForResearch(listCands, { rankOf: (q) => listRank.get(q.ticker), cache: rc, bucket: 'deep2', today: date,
+  // 2026-10-15: 선정(picks)만 된 종목도 대상 — 체크표 N 줄을 전 종목에 채운다. N 분석이 없는 종목(10-13 이전 분석·미분석)을 맨 앞에.
+  const noN = (q) => !(q.deep && q.deep.status === 'done' && q.deep.nVerdict);
+  const listCands = pool2.filter((q) => !watchSet.has(q.ticker)
+    && !(q.deep && q.deep.status === 'done' && q.deep.nVerdict && session && q.deep.session === session));
+  const rankL = (q) => (noN(q) ? -1 : 0) + (listRank.has(q.ticker) ? listRank.get(q.ticker) : rot.RANK_OTHER);
+  const ordered0 = rot.orderForResearch(listCands, { rankOf: rankL, cache: rc, bucket: 'deep2', today: date,
     ttl: Number(process.env.DEEP_LIST_TTL || 5), metric: (q) => q.bestPct || 0 });
-  const selL = rot.selectForResearch(ordered, { cache: rc, bucket: 'deep2', today: date, ttl: Number(process.env.DEEP_LIST_TTL || 5), cap: LCAP });
+  const ordered = [...ordered0.filter(noN), ...ordered0.filter((q) => !noN(q))];   // TTL 안에 조사했어도 N 이 없으면 먼저
+  const selL = rot.selectForResearch(ordered, { cache: rc, bucket: 'deep2', today: date, ttl: Number(process.env.DEEP_LIST_TTL || 5), cap: LCAP,
+    changed: (q) => (noN(q) ? 'N 분석 없음' : null) });
   for (const q of selL.picked) {
     const S = q.setup || {};
     picked.push({ ticker: q.ticker, name: q.nameKo || q.nameEn || null, sector: q.sector, industry: q.industry, price: q.price,
@@ -139,19 +144,20 @@ async function main() {
     }
     const { deep, _source, _model, ...plan } = p;   // 이월된 지난 분석은 에이전트에게 주지 않는다(복사해 쓰면 안 된다)
     // CNBC 태그 기사 · 한국투자증권 기업 수치 (2026-10-08) — run-breakout 이 매일 모은 것
-    const cnbc = (p2 && p2.cnbc) || null, kis = (p2 && p2.kis) || null;
+    const cnbc = (p2 && p2.cnbc) || null, kis = (p2 && p2.kis) || null, estimates = (p2 && p2.estimates) || null;
     // 증권사 리포트 원문 PDF (N 심층용) — 10쪽 이하 최신 2건. 실패하면 요약만으로 쓴다.
     let reportPdfs = [];
     try { reportPdfs = await copyReportPdfs(detail && detail.krReports && detail.krReports.reports, argsDir, p.ticker); } catch (e) { reportPdfs = []; }
     fs.writeFileSync(path.join(argsDir, `${p.ticker}.json`), JSON.stringify({
-      ticker: p.ticker, date, session, source: _source, plan, site: siteOf(p2, p4), eye: eyeOf.get(p.ticker) || null, detail, detailNote, reportPdfs, cnbc, kis, chart, market,
+      ticker: p.ticker, date, session, source: _source, plan, site: siteOf(p2, p4), eye: eyeOf.get(p.ticker) || null, detail, detailNote, reportPdfs, cnbc, kis, estimates, chart, market,
     }, null, 1), 'utf8');
     items.push({ ticker: p.ticker, name: p.name || null, grade: p.grade, sector: p.sector, industry: p.industry, price: p.price, pivot: p.pivot, stop: p.stop,
       distToPivotPct: p.distToPivotPct, earnings: p.earnings || null, hasChart: !!(chart && chart.png3m), hasDetail: !!detail,
       source: _source, model: _model });
   }
   say('T6', `근거 자료: 2팀 재사용 ${reused} · 신규 수집 ${fetched} · 차트 ${items.filter((i) => i.hasChart).length}/${items.length}`);
-  fs.writeFileSync(argsFile, JSON.stringify({ date, session, cap: CAP, model, argsDir, docsDir, items, skipped }), 'utf8');
+  // 워크플로 상한 = 관심 ≤10 + 목록 ≤14 (항목 수 그대로)
+  fs.writeFileSync(argsFile, JSON.stringify({ date, session, cap: items.length, model, argsDir, docsDir, items, skipped }), 'utf8');
   console.log(`\n저장: ${argsFile}`);
 }
 

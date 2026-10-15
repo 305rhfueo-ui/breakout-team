@@ -156,7 +156,7 @@ details.deep summary::before{content:'▸ ';color:var(--dim)}
 details.deep[open] summary::before{content:'▾ '}
 details.deep h5{margin:12px 0 5px;font-size:12.5px;color:var(--dim);letter-spacing:.02em}
 details.deep .ck,.ck{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;font-size:12.5px;line-height:1.55}
-.ck .ok{color:var(--grn)} .ck .no{color:var(--red)} .ck .na{color:var(--dim)}
+.ck .ok{color:var(--grn)} .ck .no{color:var(--red)} .ck .na{color:var(--dim)} .ck .part{color:var(--yel)}
 .empty{color:var(--dim);text-align:center;padding:16px;font-size:13px}
 /* 도윤 5개 목록 (2026-10-06) */
 .lnav{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
@@ -815,11 +815,12 @@ function openTicker(T){
     ['52주 고점 · 저점',`${K.high52==null?'—':n(K.high52)} (${esc(K.high52Date||'')}) · ${K.low52==null?'—':n(K.low52)} (${esc(K.low52Date||'')})`]])}
     <div class="note">PER 이 크거나 '—' 이면 이익이 아주 작거나 적자라는 뜻입니다. 미국 종목 증권사 분석 리포트는 한국투자증권 API 에 없습니다.</div></div>`;
   const CKS=p&&p.checks;
+  const DL=latestDeep(plan&&plan.deep,p&&p.deep,od&&od.deep);   // 가장 최근 심층 분석 — N 줄·전망치 해석에 쓴다
   if(CKS){
     h+=`<div class="sec"><h4>쿨라매기 돌파 셋업 체크 <span class="chip">코드 계산 · 판정 아님</span></h4>${ck(CKS.qm)}
       <div class="note">기준: docs/기준-쿨라매기-차트.md · 피벗·베이스 수치는 서준과 같은 계산${p.setup&&p.setup.pivot?` (피벗 ${n(p.setup.pivot)} · 예비 손절 ${n(p.setup.stop)})`:''}</div></div>`;
-    h+=`<div class="sec"><h4>CAN SLIM 체크 <span class="chip">코드 계산 · 판정 아님</span></h4>${ck(CKS.canslim)}
-      <div class="note">기준: docs/기준-CANSLIM-재무.md (오닐) · EPS 대신 순이익 증가율로 근사 · N(신제품·신서비스)은 AI 심층에서 출처로 판정 · 기관 보유 자료 없음</div></div>`;
+    h+=`<div class="sec"><h4>CAN SLIM 체크 <span class="chip">코드 계산 · N 은 AI 심층 분석</span></h4>${ck(canslimRows(CKS.canslim,DL))}
+      <div class="note">기준: docs/기준-CANSLIM-재무.md (오닐) · C·A 는 EPS 대신 순이익 증가율로 근사 · N(신제품·신서비스와 그 매출·이익 영향)은 증권사 리포트·기사를 읽은 심층 분석 결과 · 기관 보유 자료 없음</div></div>`;
   }
   if(p&&p!==od&&p.deep&&!(plan&&plan.deep))h+=`<div class="sec"><h4>AI 심층 분석 <span class="dim">(도윤 목록 순환)</span></h4>${deepBlock(p.deep)}</div>`;
   if(plan)h+=`<div class="sec"><h4>서준 매수 계획 ${plan.watch?'<span class="chip">오늘 밤 관심</span>':''}</h4>${rows([['현재가 → 피벗',`${n(plan.price)} → <b>${n(plan.pivot)}</b> (${sgn(plan.distToPivotPct)}%)`],
@@ -840,6 +841,7 @@ function openTicker(T){
     const kr=((d.krReports&&d.krReports.reports)||[]).slice(0,4);
     if(kr.length)h+=`<div class="sec"><h4>국내 증권사 리포트</h4>${kr.map(r=>`<div style="margin-bottom:8px"><b>${esc(r.title)}</b> <span class="dim">${esc(r.date)} · ${esc(r.broker)}</span>${r.summary?clip(`<div class="note">${esc(r.summary)}</div>`,3):''}${r.pdfUrl?` <a href="${esc(r.pdfUrl)}" target="_blank" style="font-size:12px">PDF ↗</a>`:''}</div>`).join('')}</div>`;
   }
+  h+=estBlock(T,(p&&p.estimates)||(od&&od.estimates)||null,DL);   // 맨 아래 — 전망치 (자료가 없어도 야후 링크는 나간다)
   if(!(p&&p.research&&['done','no_source'].includes(p.research.status))&&!(plan&&plan.deep)&&!(ep&&ep.catalyst&&ep.catalyst.status==='done')&&!d&&!od)
     h+=`<div class="sec"><div class="note" style="margin:0">아직 조사 전입니다 — 거래대금 상위·세 기간 공통 종목부터 매일 순환 조사합니다.</div></div>`;
   $('mbox2').innerHTML=h;$('modal2').classList.add('on');$('modal2').scrollTop=0;
@@ -852,12 +854,75 @@ document.addEventListener('click',e=>{const el=e.target.closest('[data-tk]');if(
 /* 6팀 심층 분석 (2026-10-03) — 뉴스·재무(CAN SLIM)·리스크·차트 관찰(쿨라매기 기준, 판정 아님)·확인 목록.
    근거 목록은 claimList 가 출처 검증 통과분만 그린다. 숫자는 전부 AI 가 입력 JSON 에서 인용한 것 — 지어내지 않는다. */
 // 체크표 — 서준 심층(AI)·도윤 체크표(코드)가 같은 모양 [{item,status,evidence}] 을 쓴다
+/* ── 가장 최근 심층 분석 (서준 관심 · 목록 순환 · 7팀 중 분석일이 가장 늦은 것, N 분석이 있는 것 우선) ── */
+function latestDeep(...cands){
+  const ok=cands.filter(D=>D&&D.status==='done');
+  ok.sort((a,b)=>((b.nVerdict?1:0)-(a.nVerdict?1:0))||String(b.researchedOn||'').localeCompare(String(a.researchedOn||'')));
+  return ok[0]||null;
+}
+/* ── 체크표 N 줄 = 실제 N 심층 분석 결과 (2026-10-15 사용자: "코드로 판정하지 않는다"는 쓸모없다) ──
+   N 분석이 아직 없으면 코드 줄(대기)을 그대로 둔다. */
+function nRowOf(D){
+  if(!D||!D.nVerdict)return null;
+  const st={'충족':'충족','부분 충족':'부분 충족','미충족':'미충족'}[D.nVerdict]||'확인 불가';
+  const dr=(D.newDrivers||[])[0];
+  const imp=dr?[...(dr.revenueImpact||[]),...(dr.expectedGrowth||[]),...(dr.profitImpact||[])].find(c=>c&&c.evidence_level==='sourced'):null;
+  const cut=(t,k)=>{t=String(t||'').trim();return t.length>k?t.slice(0,k-1)+'…':t;};
+  const what=dr?`${cut(dr.what,70)} (${dr.stage||''})${imp?` — ${cut(imp.statement,90)}`:' — 매출·이익 영향 근거는 아직 없음'}${(D.newDrivers||[]).length>1?` 외 ${(D.newDrivers.length-1)}건`:''}`
+    :cut((String(D.nNarrative||'').match(/^.*?[.!?。](\s|$)/)||[D.nNarrative||'최근 3개월 안에 확인된 신제품·신서비스가 없다'])[0],120);
+  return {item:'N 신제품·신서비스',status:st,evidence:`${D.nVerdict} · ${what} (${D.researchedOn||''} 분석 · 아래 "N — 새로운 성장 동력")`};
+}
+function canslimRows(rows,D){
+  const r=nRowOf(D);
+  return r?(rows||[]).map(x=>String(x.item||'')[0]==='N'?r:x):rows;
+}
+
+/* ── 전망치 — 야후 파이낸스 analysis 자료 (2026-10-15). 숫자·요약문은 코드, 해석은 가장 최근 심층 분석의 estimatesNarrative ── */
+const CURKO={USD:'달러',EUR:'유로',TWD:'대만달러',JPY:'엔',CNY:'위안',KRW:'원',GBP:'파운드',CAD:'캐나다달러',HKD:'홍콩달러',CHF:'스위스프랑'};
+function estSummary(e){
+  if(!e)return [];
+  const L=[],cur=c=>CURKO[c]||c||'',end=d=>d?`${d.slice(0,4)}년 ${Number(d.slice(5,7))}월 결산`:'',sg=v=>v>0?`${v}% 올랐다`:v<0?`${-v}% 내렸다`:'변하지 않았다';
+  const q0=(e.changes||[]).find(c=>c.period==='0q'),p0=(e.periods||[]).find(x=>x.period==='0q');
+  if(q0&&p0&&p0.eps!=null)L.push(`${end(p0.endDate)} 분기 EPS 추정치는 애널리스트 ${p0.epsAnalysts??'?'}명 평균 ${p0.eps}${cur(p0.epsCur)}${q0.d30!=null?`로 30일 전보다 ${sg(q0.d30)}`:'이다'}${q0.up30!=null||q0.down30!=null?`(최근 30일 상향 ${q0.up30??0}명·하향 ${q0.down30??0}명)`:''}.`);
+  const y0=(e.changes||[]).find(c=>c.period==='0y'),py=(e.periods||[]).find(x=>x.period==='0y');
+  if(y0&&py&&py.eps!=null&&y0.d90!=null)L.push(`${end(py.endDate)} 연간 EPS 추정치는 ${py.eps}${cur(py.epsCur)}로 90일 전보다 ${sg(y0.d90)}${py.epsGrowth!=null?`(작년 대비 ${py.epsGrowth==='n/m'?'증가율 의미 없음 — 작년 기준이 매우 작다':(py.epsGrowth>0?'+':'')+py.epsGrowth+'%'})`:''}.`);
+  const S=e.surprises||[];
+  if(S.length){const l=S[0];L.push(`최근 ${S.length}분기 중 ${e.beats}번 추정치를 넘었고, ${end(l.quarter)} 분기는 실제 EPS(${l.actual})가 추정치(${l.estimate})를 ${l.surprisePct>0?l.surprisePct+'% 상회했다':l.surprisePct<0?(-l.surprisePct)+'% 밑돌았다':'그대로 맞췄다'}.`);}
+  const N=e.nextEarnings;if(N)L.push(N.upcoming?`다음 실적 발표는 ${Number(N.date.slice(5,7))}월 ${Number(N.date.slice(8,10))}일${N.estimated?'(추정)':''}이다.`:`가장 최근 실적 발표는 ${Number(N.date.slice(5,7))}월 ${Number(N.date.slice(8,10))}일이다.`);
+  const R=e.ratings;if(R&&R.total)L.push(`최근 90일 투자의견 상향 ${R.upgrades}건·하향 ${R.downgrades}건${R.initiations?`·신규 ${R.initiations}건`:''}, 목표가 상향 ${R.ptRaised}건·하향 ${R.ptLowered}건.`);
+  return L;
+}
+function estBlock(T,e,D){
+  const url=`https://finance.yahoo.com/quote/${encodeURIComponent(String(T).replace(/\./g,'-'))}/analysis/`;
+  let h=`<div class="sec"><h4>전망치 <span class="dim">(애널리스트 컨센서스 · 실적 서프라이즈 — 야후 파이낸스${e?` · ${esc(e.fetchedAt||'')} 수집`:''})</span> <a href="${url}" target="_blank" style="font-size:13px">야후 파이낸스 analysis ↗</a></h4>`;
+  if(!e)return h+`<div class="note">전망치 자료를 받지 못했습니다 — 위 링크에서 직접 확인하세요.</div></div>`;
+  const pc=v=>v==null?'—':v==='n/m'?'<span title="작년 기준이 매우 작아 의미 없음">n/m</span>':`<span style="color:${v>0?'var(--grn)':v<0?'var(--red)':'inherit'}">${v>0?'+':''}${v}%</span>`;
+  const big=(v,c)=>v==null?'—':(Math.abs(v)>=1e9?(v/1e9).toFixed(2)+'B':Math.abs(v)>=1e6?(v/1e6).toFixed(1)+'M':String(v))+' '+esc(c||'');
+  const PN={'0q':'다음 발표 분기','+1q':'그다음 분기','0y':'올해(회계)','+1y':'내년(회계)'};
+  h+=`<div class="pi">${estSummary(e).map(esc).join(' ')}</div>`;
+  if(D&&D.estimatesNarrative&&!/^전망치 자료 없음/.test(D.estimatesNarrative))h+=`<div class="pi" style="margin-top:6px"><b>해석</b> <span class="dim">(${esc(D.researchedOn||'')} 심층 분석)</span> ${esc(D.estimatesNarrative)}</div>`;
+  const P=e.periods||[];
+  if(P.length)h+=`<h5>결산일별 컨센서스</h5><div style="overflow-x:auto"><table class="lt"><thead><tr><th>구간</th><th>결산일</th><th>EPS 추정(명)</th><th>작년 대비</th><th>매출 추정(명)</th><th>작년 대비</th></tr></thead><tbody>`
+    +P.map(x=>`<tr><td>${PN[x.period]||esc(x.period)}</td><td>${esc(x.endDate||'')}</td><td>${x.eps==null?'—':x.eps+' '+esc(x.epsCur||'')} (${x.epsAnalysts??'—'})</td><td>${pc(x.epsGrowth)}</td><td>${big(x.rev,x.revCur)} (${x.revAnalysts??'—'})</td><td>${pc(x.revGrowth)}</td></tr>`).join('')+`</tbody></table></div>`;
+  const C=e.changes||[];
+  if(C.length)h+=`<h5>EPS 추정치 변화 <span class="dim">(애널리스트들이 전망을 어떻게 고쳤나)</span></h5><div style="overflow-x:auto"><table class="lt"><thead><tr><th>구간</th><th>현재</th><th>7일 전 대비</th><th>30일 전 대비</th><th>90일 전 대비</th><th>상향(7·30일)</th><th>하향(7·30일)</th></tr></thead><tbody>`
+    +C.map(x=>`<tr><td>${PN[x.period]||esc(x.period)}</td><td>${x.now??'—'}</td><td>${pc(x.d7)}</td><td>${pc(x.d30)}</td><td>${pc(x.d90)}</td><td style="color:var(--grn)">${x.up7??0} · ${x.up30??0}</td><td style="color:var(--red)">${x.down7??0} · ${x.down30??0}</td></tr>`).join('')+`</tbody></table></div>`;
+  const S=e.surprises||[];
+  if(S.length)h+=`<h5>최근 실적 서프라이즈 <span class="dim">(실제 EPS vs 발표 전 추정치 — ${S.length}분기 중 ${e.beats}번 상회)</span></h5><div style="overflow-x:auto"><table class="lt"><thead><tr><th>결산일</th><th>실제 EPS</th><th>추정 EPS</th><th>서프라이즈</th></tr></thead><tbody>`
+    +S.map(x=>`<tr><td>${esc(x.quarter||'')}</td><td>${x.actual}</td><td>${x.estimate}</td><td>${pc(x.surprisePct)}</td></tr>`).join('')+`</tbody></table></div>`;
+  const R=e.ratings||{};
+  if((R.recent||[]).length){const AK={up:'상향',down:'하향',init:'신규',main:'유지',reit:'재확인'};
+    h+=`<h5>최근 90일 투자의견·목표가 <span class="dim">(의견 상향 ${R.upgrades} · 하향 ${R.downgrades} · 목표가 상향 ${R.ptRaised} · 하향 ${R.ptLowered})</span></h5><div style="overflow-x:auto"><table class="lt"><thead><tr><th>날짜</th><th>증권사</th><th>의견</th><th>목표가</th></tr></thead><tbody>`
+    +R.recent.map(x=>`<tr><td>${esc(x.date||'')}</td><td>${esc(x.firm||'')}</td><td>${esc(AK[x.action]||x.action||'')} ${esc(x.from&&x.from!==x.to?x.from+' → ':'')}${esc(x.to||'')}</td><td>${x.pt?`${x.ptPrior&&x.ptPrior!==x.pt?esc(x.ptPrior)+' → ':''}${esc(x.pt)}${x.ptAction==='Raises'?' ▲':x.ptAction==='Lowers'?' ▼':''}`:'—'}</td></tr>`).join('')+`</tbody></table></div>`;}
+  return h+`<div class="note">야후 파이낸스가 모은 증권사 추정치 평균입니다. 추정치가 오르는 중인 종목이 실적 발표 뒤에도 강한 경향이 있다는 것이 오닐·쿨라매기의 공통 관찰이지만, 판단은 본인이 합니다.</div></div>`;
+}
+
 function ck(list){
   if(!(list||[]).length)return '';
-  const cnt={ok:0,no:0,na:0};
-  const body=list.map(x=>{const st=String(x.status||'');const cls=st==='충족'?'ok':st==='미충족'?'no':'na';cnt[cls]++;const mark=st==='충족'?'✅':st==='미충족'?'❌':'—';
+  const cnt={ok:0,no:0,na:0,part:0};
+  const body=list.map(x=>{const st=String(x.status||'');const cls=st==='충족'?'ok':st==='미충족'?'no':st==='부분 충족'?'part':'na';cnt[cls]++;const mark=st==='충족'?'✅':st==='미충족'?'❌':st==='부분 충족'?'🟡':st==='대기'?'⏳':'—';
     return `<span class="${cls}">${mark} ${esc(x.item||'')}</span><span>${esc(x.evidence||'')}</span>`;}).join('');
-  return `<div class="note" style="margin:0 0 6px">충족 ${cnt.ok} · 미충족 ${cnt.no} · 확인 불가 ${cnt.na}</div><div class="ck">${body}</div>`;
+  return `<div class="note" style="margin:0 0 6px">충족 ${cnt.ok}${cnt.part?` · 부분 충족 ${cnt.part}`:''} · 미충족 ${cnt.no} · 확인 불가 ${cnt.na}</div><div class="ck">${body}</div>`;
 }
 /* ── CAN SLIM N 심층 (2026-10-13) — 신제품·신서비스가 매출·이익에 주는 영향과 기대 성장. 전부 출처·인용이 붙은 것만.
    이 칸이 생기기 전에 조사한 분석(newDrivers 없음)은 아무것도 그리지 않는다. */
@@ -895,6 +960,7 @@ function deepBlock(D){
   b+=`<h5>재무${revKo?` <span class="chip">전망치 ${revKo}</span>`:''}</h5>`+(D.financialsNarrative?`<div class="pi">${esc(D.financialsNarrative)}</div>`:'');
   const fin=claimList([...(F.revenueTrend||[]),...(F.profitTrend||[]),...(F.guidance||[]),...((rev.claims)||[])],{quote:false});
   if(fin)b+=fin;
+  if(D.estimatesNarrative)b+=`<div class="pi" style="margin-top:6px"><b>전망치 해석</b> ${esc(D.estimatesNarrative)} <span class="dim">(숫자는 팝업 맨 아래 "전망치")</span></div>`;
   b+=nBlock(D);
   if((D.canslim||[]).length)b+=`<h5>CAN SLIM 체크 <span class="note" style="display:inline">(오닐 기준 · 기관 보유 자료 없음)</span></h5>`+ck(D.canslim);
   b+=`<h5>리스크</h5>`+(claimList(D.risks)||`<div class="note">보도된 리스크 근거 없음 (지어내지 않습니다)</div>`);

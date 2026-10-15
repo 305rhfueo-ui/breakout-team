@@ -110,6 +110,35 @@ console.log('\n[7팀] 지우 — 결론 블록 · N 심층 블록이 렌더되�
   ok('N 칸이 없던 예전 심층 분석은 N 블록을 그리지 않는다', () => assert.strictEqual(c7.nBlock({ status: 'done', canslim: [] }), ''));
 }
 
+console.log('\n[전망치·N 줄] 팝업 맨 아래 전망치 칸 · 체크표 N 줄이 실제 N 분석으로 (2026-10-15)');
+{
+  const Y = require('../../scripts/data/yahoo-estimates');
+  const est = Y.parseQuoteSummary(require('../fixtures/yahoo-SNDK.json'), { ticker: 'ZZES', today: '2026-10-15' });
+  const src = [{ title: 't', publisher: 'p', url: 'https://x.com/a', date: '2026-10-01', quote: 'quote quote q' }];
+  const base = { ticker: 'ZZES', requestedOn: '2026-10-15', session: '2026-10-14', verdict: '조건부', verdictLine: 'v', basis: [], gates: {},
+    checks: { qm: [], canslim: [{ item: 'C 최근 분기 이익', status: '충족', evidence: 'c' }, { item: 'N 신제품·신서비스', status: '확인 불가', evidence: 'N 분석 대기 — 목록 순환' }] } };
+  const withN = { ...base, estimates: est, deep: { status: 'done', researchedOn: '2026-10-14', canslim: [], nVerdict: '충족', estimatesNarrative: 'ESN15SENT 해석',
+    newDrivers: [{ what: 'NEWPRODSENT 신제품', stage: '매출 발생 중', kind: 'product', basis: [{ id: 'b', statement: 's', evidence_level: 'sourced', sources: src }],
+      revenueImpact: [{ id: 'r', statement: 'REVIMPSENT 매출 영향', evidence_level: 'sourced', sources: src }], profitImpact: [], expectedGrowth: [], counter: [] }] } };
+  const noN = { ...base, ticker: 'ZZNO', estimates: null, deep: { status: 'done', researchedOn: '2026-10-14', canslim: [] } };
+  const c = loadRoom(`window.ONDEMAND_DATA = ${JSON.stringify({ items: [withN, noN] })};`);
+  c.openTicker('ZZES'); const h = c.document.getElementById('mbox2').innerHTML;
+  ok('전망치 칸이 팝업 맨 아래 — 야후 링크·코드 요약문·표 4개·AI 해석', () => {
+    for (const k of ['야후 파이낸스 analysis ↗', 'finance.yahoo.com/quote/ZZES/analysis/', '결산일별 컨센서스', 'EPS 추정치 변화', '최근 실적 서프라이즈', '최근 90일 투자의견·목표가',
+      '애널리스트 18명 평균 46.27달러로 30일 전보다 0.1% 올랐다', '4번 추정치를 넘었고', '13.7% 상회했다', 'ESN15SENT', 'n/m']) assert.ok(h.includes(k), `없음: ${k}`);
+    assert.ok(h.lastIndexOf('<div class="sec"><h4>전망치') > h.lastIndexOf('CAN SLIM 체크'), '전망치가 맨 아래가 아니다');
+  });
+  ok('체크표 N 줄 = 가장 최근 N 분석 (판정·신제품·매출 영향·분석일)', () => {
+    assert.ok(/✅ N 신제품·신서비스<\/span><span>충족 · NEWPRODSENT/.test(h), 'N 줄이 바뀌지 않았다');
+    assert.ok(h.includes('REVIMPSENT')); assert.ok(h.includes('2026-10-14 분석'));
+  });
+  c.openTicker('ZZNO'); const h2 = c.document.getElementById('mbox2').innerHTML;
+  ok('N 분석 전이면 "대기" — "코드로 판정하지 않는다" 문구는 어디에도 없다', () => {
+    assert.ok(h2.includes('N 분석 대기')); assert.ok(!h.includes('코드로 판정하지') && !h2.includes('코드로 판정하지'));
+  });
+  ok('전망치 자료가 없어도 야후 링크는 나간다', () => { assert.ok(h2.includes('finance.yahoo.com/quote/ZZNO/analysis/')); assert.ok(h2.includes('전망치 자료를 받지 못했습니다')); });
+}
+
 console.log('\n[1] 2팀 — 회사 설명·근거·인용문이 실제로 렌더되는가');
 const done2 = doneAll;
 if (T2 && T2.lists) {

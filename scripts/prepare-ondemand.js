@@ -115,7 +115,7 @@ async function build(tickerIn, { date = today(), offline = false } = {}) {
   }
 
   // 상세(SEC 실적·8-K·나스닥 뉴스·연합인포맥스 리포트) · CNBC · KIS · 실적 달력 · 리포트 PDF
-  let detail = null, rawDetail = null, detailNote = null, cnbc = null, kis = null, earnings = 'unknown', reportPdfs = [];
+  let detail = null, rawDetail = null, detailNote = null, cnbc = null, kis = null, earnings = 'unknown', reportPdfs = [], estimates = null;
   if (!offline) {
     try { const r = await fetchDetail(T, date); if (r.gotAny) { rawDetail = r.detail; detail = slimDetail(r.detail); } else detailNote = '실적·뉴스·공시 수집 실패 — 웹검색에 의존'; } catch (e) { detailNote = `수집 실패: ${e.message}`; }
     try { const c = await require('./data/cnbc').getTickerArticles(T); cnbc = c.ok ? c.items : null; } catch (e) { cnbc = null; }
@@ -123,6 +123,7 @@ async function build(tickerIn, { date = today(), offline = false } = {}) {
     const nightOn = (() => { try { return require('child_process').execFileSync('pgrep', ['-f', 'night-loop.js|paper-trader.js']).toString().trim().length > 0; } catch (e) { return false; } })();
     try { const K = require('./lib/kis'); if (K.configured() && !nightOn) kis = await K.facts(T); } catch (e) { kis = null; }
     try { const E = require('./lib/earnings'); const res = await E.upcomingEarnings(lastBar || date, rules.risk.earningsBlockDays); earnings = res && res.ok ? E.earningsOf(res, T) : 'unknown'; } catch (e) { earnings = 'unknown'; }
+    try { estimates = await require('./data/yahoo-estimates').getEstimates(T, { today: date }); } catch (e) { estimates = null; }
     try { reportPdfs = await copyReportPdfs(detail && detail.krReports && detail.krReports.reports, dir, T); } catch (e) { reportPdfs = []; }
   }
   if (!sector) { sector = '확인 불가'; industry = (rawDetail && rawDetail.industryKo) || '확인 불가'; }
@@ -146,7 +147,7 @@ async function build(tickerIn, { date = today(), offline = false } = {}) {
 
   const name = (m.ok && (m.nameKo || m.nameEn)) || (rawDetail && (rawDetail.nameKo || rawDetail.nameEn)) || null;
   const input = { ticker: T, name, exchange: m.ok ? m.exchange : null, date, session: lastBar, source: 'ondemand', sector, industry, industryRank,
-    plan, gates, checks, site, eye: null, detail, detailNote, reportPdfs, cnbc, kis,
+    plan, gates, checks, site, eye: null, detail, detailNote, reportPdfs, cnbc, kis, estimates,
     chart: { lastBar, numbers, last10, png3m: hasChart ? f3 : null, png6m: hasChart ? f6 : null }, market,
     note: 'gates = "매수 적정"을 막는 조건(코드 계산). checks = 코드가 계산한 체크표. site 가 null 이면 RS 사이트 목록에 없는 종목이다(RS·컨센서스 확인 불가).' };
   fs.writeFileSync(path.join(dir, `${tag}.json`), JSON.stringify(input, null, 1), 'utf8');

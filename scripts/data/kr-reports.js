@@ -160,7 +160,7 @@ async function copyReportPdfs(reports, dir, ticker, { max = 2, maxPages = 10 } =
     if (!d.ok) continue;
     const file = path.join(dir, `${String(ticker).replace(/[^A-Za-z0-9]/g, '_')}-report${out.length + 1}.pdf`);
     try { fs.writeFileSync(file, d.buf); } catch (e) { continue; }
-    out.push({ path: file, broker: r.broker || null, analyst: r.analyst || null, date: r.date || null, title: r.title || null, pdfUrl: r.pdfUrl || `${PDF_BASE}/${id}.pdf`, pages: r.pages || null });
+    out.push({ file: path.basename(file), broker: r.broker || null, analyst: r.analyst || null, date: r.date || null, title: r.title || null, pdfUrl: r.pdfUrl || `${PDF_BASE}/${id}.pdf`, pages: r.pages || null });
   }
   return out;
 }
