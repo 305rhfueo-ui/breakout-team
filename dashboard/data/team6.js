@@ -1122,89 +1122,7 @@ window.TEAM6_DATA = {
   "noBars": [
     "HPE-C"
   ],
-  "triggers": [
-    {
-      "ticker": "AUGO",
-      "at": "1125",
-      "fired": false,
-      "grade": "B",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 93.49 미돌파 (종가 84.38) (1125 ET 기준)",
-      "pace": 0.65,
-      "level": 93.49
-    },
-    {
-      "ticker": "CORT",
-      "at": "1125",
-      "fired": false,
-      "grade": "A",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 126.38 미돌파 (종가 120.05) (1125 ET 기준)",
-      "pace": 0.92,
-      "level": 126.38
-    },
-    {
-      "ticker": "DELL",
-      "at": "1125",
-      "fired": false,
-      "grade": "B",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 595.51 미돌파 (종가 518.68) (1125 ET 기준)",
-      "pace": 1.37,
-      "level": 595.51
-    },
-    {
-      "ticker": "FROG",
-      "at": "1125",
-      "fired": false,
-      "grade": "B",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 105.76 미돌파 (종가 98.97) (1125 ET 기준)",
-      "pace": 2.22,
-      "level": 105.76
-    },
-    {
-      "ticker": "KOD",
-      "at": "1125",
-      "fired": false,
-      "grade": "B",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 104 미돌파 (종가 84.39) (1125 ET 기준)",
-      "pace": 0.43,
-      "level": 104
-    },
-    {
-      "ticker": "NET",
-      "at": "1125",
-      "fired": false,
-      "grade": "C",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 370.35 미돌파 (종가 330.91) (1125 ET 기준)",
-      "pace": 1.05,
-      "level": 370.35
-    },
-    {
-      "ticker": "RNG",
-      "at": "1125",
-      "fired": false,
-      "grade": "A",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 81.9 미돌파 (종가 76.51) (1125 ET 기준)",
-      "pace": 1.34,
-      "level": 81.9
-    },
-    {
-      "ticker": "SEI",
-      "at": "1125",
-      "fired": false,
-      "grade": "B",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 80.28 미돌파 (종가 71.91) (1125 ET 기준)",
-      "pace": 2.61,
-      "level": 80.28
-    },
-    {
-      "ticker": "XMTR",
-      "at": "1125",
-      "fired": false,
-      "grade": "A",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 112.94 미돌파 (종가 98.43) (1125 ET 기준)",
-      "pace": 1.29,
-      "level": 112.94
-    }
-  ],
+  "triggers": [],
   "positions": [],
   "trades": [
     {
@@ -1307,19 +1225,16 @@ window.TEAM6_DATA = {
     },
     "slipPct": 0.2,
     "open": 0,
-    "totalPct": -1.04,
-    "openPct": 0,
-    "observing": true,
-    "minSample": 30
+    "totalPct": -1.04
   },
   "health": {
-    "at": "2026-10-14T20:00:20.062Z",
-    "atKst": "2026-10-15 05:00 KST",
-    "atEt": "2026-10-14 1600",
+    "at": "2026-10-15T20:00:20.054Z",
+    "atKst": "2026-10-16 05:00 KST",
+    "atEt": "2026-10-15 1600",
     "phase": "post",
     "source": "kis",
     "status": "정상",
-    "watch": 9,
+    "watch": 0,
     "checked": 0,
     "errors": []
   },
