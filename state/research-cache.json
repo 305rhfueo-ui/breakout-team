@@ -230,8 +230,8 @@
       "count": 16
     },
     "DELL": {
-      "last": "2026-10-14",
-      "count": 25
+      "last": "2026-10-15",
+      "count": 26
     },
     "OKTA": {
       "last": "2026-10-10",
@@ -378,8 +378,8 @@
       "count": 18
     },
     "CORT": {
-      "last": "2026-10-14",
-      "count": 19
+      "last": "2026-10-15",
+      "count": 20
     },
     "AEHR": {
       "last": "2026-10-02",
@@ -410,12 +410,12 @@
       "count": 3
     },
     "NSIT": {
-      "last": "2026-08-14",
-      "count": 2
+      "last": "2026-10-15",
+      "count": 3
     },
     "ALAB": {
-      "last": "2026-10-08",
-      "count": 10
+      "last": "2026-10-15",
+      "count": 11
     },
     "AMD": {
       "last": "2026-10-08",
@@ -458,8 +458,8 @@
       "count": 16
     },
     "HURN": {
-      "last": "2026-10-09",
-      "count": 2
+      "last": "2026-10-15",
+      "count": 3
     },
     "IT": {
       "last": "2026-10-03",
@@ -478,8 +478,8 @@
       "count": 3
     },
     "MRNA": {
-      "last": "2026-10-08",
-      "count": 14
+      "last": "2026-10-15",
+      "count": 15
     },
     "KYMR": {
       "last": "2026-09-01",
@@ -622,8 +622,8 @@
       "count": 1
     },
     "PARR": {
-      "last": "2026-09-21",
-      "count": 12
+      "last": "2026-10-15",
+      "count": 13
     },
     "IREN": {
       "last": "2026-09-09",
@@ -738,8 +738,8 @@
       "count": 2
     },
     "FORM": {
-      "last": "2026-10-02",
-      "count": 3
+      "last": "2026-10-15",
+      "count": 4
     },
     "VLO": {
       "last": "2026-10-06",
@@ -858,20 +858,20 @@
       "count": 1
     },
     "PTC": {
-      "last": "2026-10-08",
-      "count": 1
+      "last": "2026-10-15",
+      "count": 2
     },
     "IMOS": {
-      "last": "2026-10-08",
-      "count": 1
+      "last": "2026-10-15",
+      "count": 2
     },
     "CRDO": {
-      "last": "2026-10-08",
-      "count": 1
+      "last": "2026-10-15",
+      "count": 2
     },
     "SNPS": {
-      "last": "2026-10-08",
-      "count": 1
+      "last": "2026-10-15",
+      "count": 2
     },
     "CDNS": {
       "last": "2026-10-08",
@@ -1010,7 +1010,35 @@
       "count": 1
     },
     "RNG": {
-      "last": "2026-10-13",
+      "last": "2026-10-15",
+      "count": 2
+    },
+    "PBF": {
+      "last": "2026-10-15",
+      "count": 1
+    },
+    "BH": {
+      "last": "2026-10-15",
+      "count": 1
+    },
+    "CDW": {
+      "last": "2026-10-15",
+      "count": 1
+    },
+    "TTMI": {
+      "last": "2026-10-15",
+      "count": 1
+    },
+    "WING": {
+      "last": "2026-10-15",
+      "count": 1
+    },
+    "ENTG": {
+      "last": "2026-10-15",
+      "count": 1
+    },
+    "VEEV": {
+      "last": "2026-10-15",
       "count": 1
     }
   },
@@ -1086,9 +1114,9 @@
       "count": 4
     },
     "NBIS": {
-      "last": "2026-09-18",
-      "count": 4,
-      "cat": 3,
+      "last": "2026-10-15",
+      "count": 5,
+      "cat": 6,
       "evid": "3eb416223e9e69e6"
     },
     "DKL": {
@@ -1322,8 +1350,10 @@
       "count": 2
     },
     "BIO.B": {
-      "last": "2026-08-21",
-      "count": 2
+      "last": "2026-10-15",
+      "count": 3,
+      "cat": 6,
+      "evid": "11d7ae2e75178d52"
     },
     "AAP": {
       "last": "2026-08-21",
@@ -1491,8 +1521,10 @@
       "count": 2
     },
     "AFRM": {
-      "last": "2026-09-01",
-      "count": 2
+      "last": "2026-10-15",
+      "count": 3,
+      "cat": 6,
+      "evid": "68ce9295689f6c89"
     },
     "SOLS": {
       "last": "2026-09-01",
@@ -1576,8 +1608,10 @@
       "count": 1
     },
     "DELL": {
-      "last": "2026-09-03",
-      "count": 1
+      "last": "2026-10-15",
+      "count": 2,
+      "cat": 6,
+      "evid": "721d3d0f1cc4d67c"
     },
     "CRDO": {
       "last": "2026-09-03",
@@ -1838,10 +1872,10 @@
       "evid": "3e9e949298e29784"
     },
     "ECO": {
-      "last": "2026-09-16",
-      "count": 1,
-      "cat": 1,
-      "evid": "3678a475373bcbbf"
+      "last": "2026-10-15",
+      "count": 2,
+      "cat": 6,
+      "evid": "e4211defc8b0350a"
     },
     "RVTY": {
       "last": "2026-09-17",
@@ -1904,8 +1938,8 @@
       "evid": "e5b7e46fc29b93c1"
     },
     "GEF.B": {
-      "last": "2026-09-16",
-      "count": 1,
+      "last": "2026-10-15",
+      "count": 2,
       "cat": 6,
       "evid": "5c99b715e7d6f6a6"
     },
@@ -2108,10 +2142,10 @@
       "evid": "cb8143d66827a032"
     },
     "PGR": {
-      "last": "2026-09-18",
-      "count": 1,
-      "cat": 6,
-      "evid": "c107b15725b91dfc"
+      "last": "2026-10-15",
+      "count": 2,
+      "cat": 1,
+      "evid": "17a08b54c5e9b9cb"
     },
     "CROX": {
       "last": "2026-09-18",
@@ -2294,10 +2328,10 @@
       "evid": "d46b0aedc0a4af4d"
     },
     "AEM": {
-      "last": "2026-09-30",
-      "count": 2,
+      "last": "2026-10-15",
+      "count": 3,
       "cat": 6,
-      "evid": "58f550b28b6d42d4"
+      "evid": "7f429d9614f1319d"
     },
     "URI": {
       "last": "2026-10-01",
@@ -2724,48 +2758,108 @@
       "count": 1,
       "cat": 6,
       "evid": "0478166857bec9ed"
+    },
+    "ASML": {
+      "last": "2026-10-15",
+      "count": 1,
+      "cat": 1,
+      "evid": "ba8b6e3dcbb064e3"
+    },
+    "BLK": {
+      "last": "2026-10-15",
+      "count": 1,
+      "cat": 1,
+      "evid": "a2e4ceccaadb8f20"
+    },
+    "GEV": {
+      "last": "2026-10-15",
+      "count": 1,
+      "cat": 6,
+      "evid": "2af6007eff31bd92"
+    },
+    "FNV": {
+      "last": "2026-10-15",
+      "count": 1,
+      "cat": 6,
+      "evid": "4056a495a13d1e97"
+    },
+    "STT": {
+      "last": "2026-10-15",
+      "count": 1,
+      "cat": 1,
+      "evid": "303f2dce9a396c23"
+    },
+    "ROKU": {
+      "last": "2026-10-15",
+      "count": 1,
+      "cat": 3,
+      "evid": "5c04ceeb08304122"
+    },
+    "DOCN": {
+      "last": "2026-10-15",
+      "count": 1,
+      "cat": 6,
+      "evid": "c4d3497b18deff6e"
+    },
+    "TNK": {
+      "last": "2026-10-15",
+      "count": 1,
+      "cat": 6,
+      "evid": "569521ff6a186c47"
+    },
+    "STRA": {
+      "last": "2026-10-15",
+      "count": 1,
+      "cat": 6,
+      "evid": "cea774aa942f9a07"
+    },
+    "SEI": {
+      "last": "2026-10-15",
+      "count": 1,
+      "cat": 6,
+      "evid": "60784d069e88c64a"
     }
   },
   "team5": {
     "Energy|Oil & Gas Refining & Marketing": {
-      "last": "2026-10-12",
-      "count": 1
+      "last": "2026-10-15",
+      "count": 2
     },
     "Technology|Computer Hardware": {
-      "last": "2026-10-12",
-      "count": 1
+      "last": "2026-10-15",
+      "count": 2
     },
     "Technology|Software - Infrastructure": {
-      "last": "2026-10-12",
-      "count": 1
+      "last": "2026-10-15",
+      "count": 2
     },
     "Healthcare|Diagnostics & Research": {
-      "last": "2026-10-12",
-      "count": 1
+      "last": "2026-10-15",
+      "count": 2
     },
     "Technology|Software - Application": {
-      "last": "2026-10-12",
-      "count": 1
+      "last": "2026-10-15",
+      "count": 2
     },
     "Technology|Semiconductors": {
-      "last": "2026-10-12",
-      "count": 1
+      "last": "2026-10-15",
+      "count": 2
     },
     "Healthcare|Healthcare Plans": {
       "last": "2026-10-12",
       "count": 1
     },
     "Technology|Electronics & Computer Distribution": {
-      "last": "2026-10-12",
-      "count": 1
+      "last": "2026-10-15",
+      "count": 2
     },
     "Healthcare|Health Information Services": {
       "last": "2026-10-12",
       "count": 1
     },
     "Healthcare|Biotechnology": {
-      "last": "2026-10-12",
-      "count": 1
+      "last": "2026-10-15",
+      "count": 2
     },
     "Industrials|Marine Shipping": {
       "last": "2026-10-13",
@@ -2856,16 +2950,16 @@
   },
   "deep2": {
     "MRNA": {
-      "last": "2026-10-08",
-      "count": 1
+      "last": "2026-10-15",
+      "count": 2
     },
     "GRAL": {
-      "last": "2026-10-08",
-      "count": 1
+      "last": "2026-10-15",
+      "count": 2
     },
     "P": {
-      "last": "2026-10-08",
-      "count": 1
+      "last": "2026-10-15",
+      "count": 2
     },
     "OKTA": {
       "last": "2026-10-08",
@@ -2989,6 +3083,50 @@
     },
     "SHOP": {
       "last": "2026-10-14",
+      "count": 1
+    },
+    "NSIT": {
+      "last": "2026-10-15",
+      "count": 1
+    },
+    "PBF": {
+      "last": "2026-10-15",
+      "count": 1
+    },
+    "BH": {
+      "last": "2026-10-15",
+      "count": 1
+    },
+    "PARR": {
+      "last": "2026-10-15",
+      "count": 1
+    },
+    "CDW": {
+      "last": "2026-10-15",
+      "count": 1
+    },
+    "TTMI": {
+      "last": "2026-10-15",
+      "count": 1
+    },
+    "TLN": {
+      "last": "2026-10-15",
+      "count": 1
+    },
+    "SNPS": {
+      "last": "2026-10-15",
+      "count": 1
+    },
+    "CRDO": {
+      "last": "2026-10-15",
+      "count": 1
+    },
+    "ALAB": {
+      "last": "2026-10-15",
+      "count": 1
+    },
+    "MTSI": {
+      "last": "2026-10-15",
       "count": 1
     }
   }

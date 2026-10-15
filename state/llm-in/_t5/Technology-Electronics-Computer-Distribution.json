@@ -1,0 +1,196 @@
+{
+ "key": "Technology|Electronics & Computer Distribution",
+ "sector": "Technology",
+ "industry": "Electronics & Computer Distribution",
+ "industryKo": "전자·컴퓨터 유통",
+ "frank": 9,
+ "frank25dChg": -7,
+ "finalWrs": 0.2211,
+ "count": 5,
+ "winRatePct": 100,
+ "members": [
+  {
+   "ticker": "NSIT",
+   "rs1": 0.09426327639010017,
+   "rs3": 0.5401523019270518,
+   "rs6": 1.2834329107052733,
+   "rnk1": 12.85,
+   "rnk3": 1.85,
+   "rnk6": 1.31,
+   "ret1d": 5.88,
+   "high52": 99.17,
+   "dollarVolM": 50.7,
+   "marketCap": "4.87B",
+   "name": "인사이트 엔터프라이즈"
+  },
+  {
+   "ticker": "CNXN",
+   "rs1": 0.11760568816156121,
+   "rs3": 0.19643623191698487,
+   "rs6": 0.47814693524373475,
+   "rnk1": 9.06,
+   "rnk3": 13.21,
+   "rnk6": 7.89,
+   "ret1d": 0.64,
+   "high52": 98.26,
+   "dollarVolM": 21.7,
+   "marketCap": "2.31B",
+   "name": "PC 커넥션"
+  },
+  {
+   "ticker": "AVT",
+   "rs1": 0.0751295242911062,
+   "rs3": 0.1761980018788865,
+   "rs6": 0.3272300015565107,
+   "rnk1": 16.91,
+   "rnk3": 15.55,
+   "rnk6": 13.48,
+   "ret1d": 2.52,
+   "high52": 91.69,
+   "dollarVolM": 168.7,
+   "marketCap": "8.19B",
+   "name": "에이브이넷"
+  },
+  {
+   "ticker": "ARW",
+   "rs1": 0.08889723256199604,
+   "rs3": 0.12713389091995558,
+   "rs6": 0.2765782118033302,
+   "rnk1": 13.66,
+   "rnk3": 20.87,
+   "rnk6": 16.28,
+   "ret1d": 2.67,
+   "high52": 92.91,
+   "dollarVolM": 153.7,
+   "marketCap": "11.49B",
+   "name": "애로우 일렉트로닉스"
+  },
+  {
+   "ticker": "SNX",
+   "rs1": 0.051661067475725055,
+   "rs3": 0.15720640695167268,
+   "rs6": 0.2386808161785212,
+   "rnk1": 23.67,
+   "rnk3": 17.09,
+   "rnk6": 19.25,
+   "ret1d": 1.09,
+   "high52": 92.39,
+   "dollarVolM": 169.5,
+   "marketCap": "21.78B",
+   "name": "TD 시넥스"
+  }
+ ],
+ "evidence": {
+  "NSIT": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Are Retail-Wholesale Stocks Lagging  Insight Enterprises (NSIT) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-retail-wholesale-stocks-lagging-insight-enterprises-nsit-year-0",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "NSIT Crosses Above Average Analyst Target",
+     "url": "https://www.nasdaq.com/articles/nsit-crosses-above-average-analyst-target",
+     "date": "2026-09-17",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Are Retail-Wholesale Stocks Lagging  Insight Enterprises (NSIT) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-retail-wholesale-stocks-lagging-insight-enterprises-nsit-year",
+     "date": "2026-09-11",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "CNXN": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Is PC Connection (CNXN) Outperforming Other Retail-Wholesale Stocks This Year?",
+     "url": "https://www.nasdaq.com/articles/pc-connection-cnxn-outperforming-other-retail-wholesale-stocks-year",
+     "date": "2026-09-22",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Retail-Wholesale Stocks Lagging  PC Connection (CNXN) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-retail-wholesale-stocks-lagging-pc-connection-cnxn-year",
+     "date": "2026-09-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Retail-Wholesale Stocks Lagging  PC Connection (CNXN) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-retail-wholesale-stocks-lagging-pc-connection-cnxn-year-0",
+     "date": "2026-08-18",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PC Connection (CNXN) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/pc-connection-cnxn-q2-2026-earnings-call-transcript",
+     "date": "2026-08-08",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "AVT": {
+   "cnbc": [
+    {
+     "title": "Cramer's lightning round: 'I'm going to say no' to United Microelectronics",
+     "url": "https://www.cnbc.com/2026/08/18/cramers-lightning-round-im-going-to-say-no-to-united-microelectronics.html",
+     "date": "2026-08-18",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": []
+  },
+  "ARW": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Are You Looking for a Top Momentum Pick? Why Arrow Electronics (ARW) is a Great Choice",
+     "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-arrow-electronics-arw-great-choice",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Arrow Electronics (ARW) Moves 4.5% Higher: Will This Strength Last?",
+     "url": "https://www.nasdaq.com/articles/arrow-electronics-arw-moves-45-higher-will-strength-last",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "SNX": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "SNX or NOW: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/snx-or-now-which-better-value-stock-right-now",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why TD SYNNEX (SNX) Might be Well Poised for a Surge",
+     "url": "https://www.nasdaq.com/articles/why-td-synnex-snx-might-be-well-poised-surge",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "SNX Q3 Earnings Call Highlights AI Infrastructure Momentum",
+     "url": "https://www.nasdaq.com/articles/snx-q3-earnings-call-highlights-ai-infrastructure-momentum",
+     "date": "2026-09-25",
+     "publisher": "Zacks"
+    }
+   ]
+  }
+ },
+ "industryReports": [],
+ "note": "members 는 이 업종 전 종목(6개월 RS 상위 순, rnk = 전체 종목 중 상위 몇 %). evidence 는 그중 상위 12종목의 기사·리포트. 리포트 url 은 연합인포맥스 PDF."
+}

@@ -1,14 +1,14 @@
 {
  "ticker": "TLN",
- "date": "2026-10-14",
- "session": "2026-10-13",
+ "date": "2026-10-15",
+ "session": "2026-10-14",
  "source": "list",
  "plan": {
   "ticker": "TLN",
   "name": "탈런 에너지",
   "sector": "Utilities",
   "industry": "Utilities - Independent Power Producers",
-  "price": 379.7699890136719,
+  "price": 382.1400146484375,
   "grade": "—",
   "state": "none",
   "pivot": null,
@@ -16,8 +16,8 @@
   "distToPivotPct": null,
   "distToPivotAdr": null,
   "riskPerSharePct": null,
-  "adrPct": 4.74,
-  "extensionAdr": 1.56,
+  "adrPct": 4.89,
+  "extensionAdr": -0.01,
   "breakDate": null,
   "metrics": null,
   "reasons": [
@@ -28,29 +28,29 @@
  "site": {
   "rs": {
    "m1": {
-    "v": 0.3254572231452598,
-    "pct": 98.78268710550046
+    "v": 0.35438604612778274,
+    "pct": 99.14337240757439
    },
    "m3": {
-    "v": 0.019872691123127534,
-    "pct": 58.746618575293056
+    "v": 0.060557301511666925,
+    "pct": 66.9522091974752
    },
    "m6": {
-    "v": 0.15172560278095534,
-    "pct": 71.55094679891795
+    "v": 0.12619358245888643,
+    "pct": 67.5834084761046
    }
   },
-  "ret1m": 32.55,
-  "ret3m": 1.99,
-  "ret6m": 15.17,
+  "ret1m": 35.44,
+  "ret3m": 6.06,
+  "ret6m": 12.62,
   "marketCap": "17.96B",
   "volx": null,
-  "volSurgeWk": 0.58,
-  "high52": 84.42,
+  "volSurgeWk": 0.83,
+  "high52": 84.95,
   "newHigh52": false,
-  "adr": 4.74,
-  "div50": 17.67,
-  "div200": 7.98,
+  "adr": 4.81,
+  "div50": 18.13,
+  "div200": 8.66,
   "targetStatus": false,
   "saleCy": 75.5,
   "saleNy": 15.68,
@@ -91,14 +91,14 @@
    "m6": null
   },
   "top2Streak": {
-   "m1": 2,
+   "m1": 3,
    "m3": 0,
    "m6": 0
   }
  },
  "eye": null,
  "detail": {
-  "fetchedAt": "2026-10-14",
+  "fetchedAt": "2026-10-15",
   "nameKo": "탈런 에너지",
   "nameEn": "TALEN ENERGY CORPORATION",
   "financials": {
@@ -316,50 +316,281 @@
  ],
  "kis": {
   "ticker": "TLN",
-  "fetchedAt": "2026-10-13",
+  "fetchedAt": "2026-10-15",
   "source": "한국투자증권 Open API",
-  "per": 87.1,
-  "pbr": 11.26,
+  "per": 80.27,
+  "pbr": 10.37,
   "eps": 4.36,
   "bps": 33.74,
   "shares": 47300000,
-  "marketCapM": 17963,
+  "marketCapM": 16555,
   "high52": 449.8409,
   "high52Date": "2026-06-18",
   "low52": 279.77,
   "low52Date": "2026-09-15",
-  "last": 379.77,
-  "prevClose": 378.57,
-  "nameKo": "탈런 에너지",
-  "nameEn": "TALEN ENERGY CORPORATION",
-  "listedOn": "2024-07-10",
-  "exchange": "나스닥",
-  "listedShares": 47300000
+  "last": 350,
+  "prevClose": 382.14
+ },
+ "estimates": {
+  "ticker": "TLN",
+  "url": "https://finance.yahoo.com/quote/TLN/analysis/",
+  "fetchedAt": "2026-10-15",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 7.3,
+    "epsLow": 4.08,
+    "epsHigh": 10.41,
+    "epsYearAgo": 3.29,
+    "epsAnalysts": 4,
+    "epsGrowth": 121.6,
+    "epsCur": "USD",
+    "rev": 1334096000,
+    "revAnalysts": 6,
+    "revYearAgo": 812000000,
+    "revGrowth": 64.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 5.8,
+    "epsLow": 4.48,
+    "epsHigh": 7.02,
+    "epsYearAgo": 4.38,
+    "epsAnalysts": 4,
+    "epsGrowth": 32.2,
+    "epsCur": "USD",
+    "rev": 1215872970,
+    "revAnalysts": 6,
+    "revYearAgo": 749000000,
+    "revGrowth": 62.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 22.08,
+    "epsLow": 16.32,
+    "epsHigh": 25.96,
+    "epsYearAgo": 9.06,
+    "epsAnalysts": 6,
+    "epsGrowth": 143.7,
+    "epsCur": "USD",
+    "rev": 4529742460,
+    "revAnalysts": 10,
+    "revYearAgo": 2581000000,
+    "revGrowth": 75.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 30.99,
+    "epsLow": 27.5,
+    "epsHigh": 37.06,
+    "epsYearAgo": 22.08,
+    "epsAnalysts": 6,
+    "epsGrowth": 40.4,
+    "epsCur": "USD",
+    "rev": 5235915320,
+    "revAnalysts": 11,
+    "revYearAgo": 4529742460,
+    "revGrowth": 15.6,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 7.3,
+    "d7": -1,
+    "d30": -1,
+    "d90": 12.8,
+    "ago90": 6.47,
+    "up7": 0,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 5.8,
+    "d7": -0.8,
+    "d30": -0.8,
+    "d90": -8.7,
+    "ago90": 6.35,
+    "up7": 0,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 22.08,
+    "d7": -0.8,
+    "d30": -1,
+    "d90": 2.4,
+    "ago90": 21.56,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 30.99,
+    "d7": 0.8,
+    "d30": 0.7,
+    "d90": 3.2,
+    "ago90": 30.04,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 2.37,
+    "estimate": 3.39,
+    "surprisePct": -30,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 4.38,
+    "estimate": 4.26,
+    "surprisePct": 2.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 4.38,
+    "estimate": 4.33,
+    "surprisePct": 1.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 3.29,
+    "estimate": 3.67,
+    "surprisePct": -10.3,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 3,
+   "ptLowered": 3,
+   "total": 7,
+   "recent": [
+    {
+     "date": "2026-09-18",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 514,
+     "ptPrior": 503
+    },
+    {
+     "date": "2026-08-24",
+     "firm": "Mizuho",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 405,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-08-21",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 503,
+     "ptPrior": 508
+    },
+    {
+     "date": "2026-08-06",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 501,
+     "ptPrior": 482
+    },
+    {
+     "date": "2026-07-28",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 408,
+     "ptPrior": 411
+    },
+    {
+     "date": "2026-07-27",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 482,
+     "ptPrior": 477
+    },
+    {
+     "date": "2026-07-20",
+     "firm": "Jefferies",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 422,
+     "ptPrior": 453
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-03",
+   "upcoming": true,
+   "estimated": false
+  }
  },
  "chart": {
-  "lastBar": "2026-10-13",
+  "lastBar": "2026-10-14",
   "numbers": {
-   "price": 382.14,
-   "ma20": 326.52,
-   "ma50": 323.49,
-   "ma150": 347.32,
-   "distMA50": 18.13,
+   "price": 358.42,
+   "ma20": 330.06,
+   "ma50": 323.86,
+   "ma150": 347.61,
+   "distMA50": 10.67,
    "periodHigh": 451.28,
-   "pullbackFromHigh": -15.32,
-   "volRatio20": 0.87,
-   "dryUpRatio": 1.19
+   "pullbackFromHigh": -20.58,
+   "volRatio20": 0.98,
+   "dryUpRatio": 1.1
   },
   "last10": [
-   {
-    "d": "2026-09-30",
-    "o": 317.08,
-    "h": 320,
-    "l": 305.15,
-    "c": 312.69,
-    "v": 2367600,
-    "clsPos": 51,
-    "gapPct": 0.71
-   },
    {
     "d": "2026-10-01",
     "o": 313.48,
@@ -446,9 +677,19 @@
     "h": 386.19,
     "l": 368.38,
     "c": 382.14,
-    "v": 994781,
+    "v": 994800,
     "clsPos": 77,
     "gapPct": -2.38
+   },
+   {
+    "d": "2026-10-14",
+    "o": 378.74,
+    "h": 378.74,
+    "l": 355.94,
+    "c": 358.42,
+    "v": 1128878,
+    "clsPos": 11,
+    "gapPct": -0.89
    }
   ],
   "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/TLN-3m.png",
@@ -456,7 +697,7 @@
  },
  "market": {
   "verdict": "green",
-  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 18일째) — 사도 되지만 골라서",
+  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 19일째) — 사도 되지만 골라서",
   "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
   "finraLevel": "warn"
  }

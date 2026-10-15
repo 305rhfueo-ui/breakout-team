@@ -1,75 +1,75 @@
 {
  "ticker": "CRDO",
- "date": "2026-10-14",
- "session": "2026-10-13",
+ "date": "2026-10-15",
+ "session": "2026-10-14",
  "source": "list",
  "plan": {
   "ticker": "CRDO",
   "name": "크리도 테크놀로지 그룹 홀딩",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "price": 200.83999633789062,
+  "price": 198.30999755859375,
   "grade": "C",
   "state": "pre",
-  "pivot": 269.33,
-  "stop": 255.92,
-  "distToPivotPct": -26.37,
-  "distToPivotAdr": -3.9,
-  "riskPerSharePct": 4.98,
-  "adrPct": 6.76,
-  "extensionAdr": -0.91,
+  "pivot": 250,
+  "stop": 237.77,
+  "distToPivotPct": -28.31,
+  "distToPivotAdr": -4.15,
+  "riskPerSharePct": 4.89,
+  "adrPct": 6.82,
+  "extensionAdr": -2.43,
   "breakDate": null,
   "metrics": {
    "baseBars": 39,
    "baseWeeks": 7.8,
-   "depthPct": 44.6,
-   "priorMovePct": 52.2,
+   "depthPct": 40.3,
+   "priorMovePct": 41.2,
    "higherLows": 1,
-   "contraction": 1.39,
-   "closeRange10Adr": 1.9,
-   "surf10": -0.91,
-   "surf20": -0.04,
-   "slope20": 6.88,
+   "contraction": 1.5,
+   "closeRange10Adr": 3.4,
+   "surf10": -2.43,
+   "surf20": -1.67,
+   "slope20": 5.87,
    "baseLow": 149.14,
    "lastSwingLow": 186.81
   },
   "reasons": [
-   "선행 상승 +52%",
+   "선행 상승 +41%",
    "베이스 7.8주",
-   "✗ 깊이 44.6%",
+   "✗ 깊이 40.3%",
    "저점 상승 1회",
-   "진폭 1.39배 · 10일 종가폭 1.9 ADR",
-   "✗ 10일선 -0.9 ADR · 20일선 0 ADR",
-   "20일선 기울기 +6.88%"
+   "✗ 진폭 1.5배 · 10일 종가폭 3.4 ADR",
+   "✗ 10일선 -2.4 ADR · 20일선 -1.7 ADR",
+   "20일선 기울기 +5.87%"
   ],
   "earnings": null
  },
  "site": {
   "rs": {
    "m1": {
-    "v": 0.3381304633104853,
-    "pct": 98.96302975653742
+    "v": 0.31863819644541946,
+    "pct": 98.87285843101894
    },
    "m3": {
-    "v": -0.009078332368178,
-    "pct": 49.18845807033364
+    "v": -0.06488428014522724,
+    "pct": 31.33453561767358
    },
    "m6": {
-    "v": 0.0955705232036464,
-    "pct": 63.70604147880974
+    "v": 0.046545948650298985,
+    "pct": 52.705139765554556
    }
   },
-  "ret1m": 33.81,
-  "ret3m": -0.91,
-  "ret6m": 9.56,
+  "ret1m": 31.86,
+  "ret3m": -6.49,
+  "ret6m": 4.65,
   "marketCap": "37.75B",
   "volx": null,
-  "volSurgeWk": 1.42,
-  "high52": 65.07,
+  "volSurgeWk": 1.46,
+  "high52": 64.25,
   "newHigh52": false,
-  "adr": 6.7,
-  "div50": -4.24,
-  "div200": 11.9,
+  "adr": 6.71,
+  "div50": -5.27,
+  "div200": 10.35,
   "targetStatus": false,
   "saleCy": 87.41,
   "saleNy": 54.8,
@@ -110,14 +110,14 @@
    "m6": null
   },
   "top2Streak": {
-   "m1": 5,
+   "m1": 6,
    "m3": 0,
    "m6": 0
   }
  },
  "eye": null,
  "detail": {
-  "fetchedAt": "2026-10-14",
+  "fetchedAt": "2026-10-15",
   "nameKo": "크리도 테크놀로지 그룹 홀딩",
   "nameEn": "CREDO TECHNOLOGY GROUP HOLDING LTD",
   "financials": {
@@ -187,6 +187,12 @@
   "news": {
    "items": [
     {
+     "title": "Does Credo's $525M-$535M Revenue Outlook Signal Further Upside?",
+     "url": "https://www.nasdaq.com/articles/does-credos-525m-535m-revenue-outlook-signal-further-upside",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
      "title": "Credo Expands AI Connectivity Portfolio With 1.6T ZeroFlap ALC",
      "url": "https://www.nasdaq.com/articles/credo-expands-ai-connectivity-portfolio-16t-zeroflap-alc",
      "date": "2026-10-13",
@@ -226,12 +232,6 @@
      "title": "Up 30%, Should You Buy Credo Technology Right Now?",
      "url": "https://www.nasdaq.com/articles/30-should-you-buy-credo-technology-right-now",
      "date": "2026-10-02",
-     "publisher": "The Motley Fool"
-    },
-    {
-     "title": "Arm vs. Credo Technology Group: Which Tech Stock Is a Better Buy in 2026?",
-     "url": "https://www.nasdaq.com/articles/arm-vs-credo-technology-group-which-tech-stock-better-buy-2026",
-     "date": "2026-10-01",
      "publisher": "The Motley Fool"
     }
    ]
@@ -308,7 +308,7 @@
      "analyst": "김승혁",
      "title": "[크리도 테크놀로지 그룹 홀딩 (NAS:CRDO)] 체질 개선 속 공백기",
      "summary": "- 크리도는 AI 클러스터용 구리 케이블(AEC) 시장을 만든 연결 반도체 기업- FY27 1Q 실적은 상회했으나 AEC 둔화와 하반기 편중 목표에 주가 20% 하락- 광 진입 공백기의 기대치 조정 가능하며, 향후 옵틱스 진입 성과와 마진이 관건",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllkqkxggkgczcgcgxecek.pdf",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllkqkxggkgczcgcgxecez.pdf",
      "pages": "6"
     },
     {
@@ -317,7 +317,7 @@
      "analyst": "박기현",
      "title": "[크리도 테크놀로지 그룹 홀딩 (NAS:CRDO)] 이제는 구리가 아닌 광학(Optics)의 성장 속도가 멀티플을 결정할 시점",
      "summary": "- FY4Q26 어닝 서프라이즈 시현 및 AEC 중심의 압도적 시장 지배력 지속- Dust Photonics 인수를 기반으로 한 FY27 하반기 광학(Optics) 매출 변곡점 진입- 섹터 내 상대적 밸류에이션 매력 확보 및 탁월한 영업 레버리지 증명",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcxegmglezgxggcgxecek.pdf",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcxegmglezgxggcgxecez.pdf",
      "pages": "4"
     },
     {
@@ -326,7 +326,7 @@
      "analyst": "이찬영",
      "title": "[크리도 테크놀로지 그룹 홀딩 (NAS:CRDO)] In-Credo-ble",
      "summary": "- 매출 $2.68억(+272%yoy, +20%qoq), 조정 EPS $0.67 기록, 컨센서스(매출 $2.35억, EPS $0.49) 크게 상회. 마 진은 GPM 67.5%, OPM 30.2%로 매 분기 상승 기조를 이어나가고 있음- 매출 비중 +10% 이상 고객 4곳(아마존 42%, 마소 24%, xAI 16%, 메타 11% 추정)으로 확대된 가운데, 5번째 CSP향 초기 매출 발생 시작- AI 클러스터의 100G/lane(800G) 고도화로, 패시브 DAC의 물리적 한계와 광솔루션의 비용 부담이 부각되는 7m 이내(Inter-Rack) 구간에서 최적의 대안인 AEC의 구조적 채택 흐름이 가속되고 있음",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkqeclkkqkxzcgcgxecek.pdf",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkqeclkkqkxzcgcgxecez.pdf",
      "pages": "12"
     },
     {
@@ -335,7 +335,7 @@
      "analyst": "김형태, 송혜수",
      "title": "[크리도 테크놀로지 그룹 홀딩 (NAS:CRDO)] 뚜렷한 AEC 성장 가시성",
      "summary": "- 2008년 설립된 고속 데이터 연결 솔루션 제공 업체. 독자적인 SerDes IP(직렬 화) 및 DSP(디지털 신호 처리) 기술 기반 제품이 고속 연결 기능 통합. 데이 터센터 증설 모멘텀과 맞물려 급격한 실적 개선 시현.- FY1Q26(5~7월) 매출 2.23억달러(+274%, 이하 전년대비), EPS 0.52달러로 컨센서스를 각각 17%, 44% 상회. 제품 매출 2.17억달러(304%)로 폭증. 하이 퍼스케일 고객사 추가 확보로 향후 실적 가시성 더욱 뚜렷해진 것으로 평가- FY2Q26 가이던스(중간값) 매출 2.35억달러, GPM 65% 제시. 하반기 신규 하이퍼스케일러 고객 추가 언급. 실적발표가 12월이라는 점에서 모멘텀 강화 시점까지 시간 소요 불가피. 다만 실적 방향성에 갖는 의구심은 불필요",
-     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxeeqmiklkclzqgcgxecek.pdf",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxeeqmiklkclzqgcgxecez.pdf",
      "pages": "3"
     }
    ]
@@ -344,21 +344,21 @@
  "detailNote": null,
  "reportPdfs": [
   {
-   "path": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CRDO-report1.pdf",
+   "file": "CRDO-report1.pdf",
    "broker": "키움증권",
    "analyst": "김승혁",
    "date": "2026-09-04",
    "title": "[크리도 테크놀로지 그룹 홀딩 (NAS:CRDO)] 체질 개선 속 공백기",
-   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllkqkxggkgczcgcgxecek.pdf",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllkqkxggkgczcgcgxecez.pdf",
    "pages": "6"
   },
   {
-   "path": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CRDO-report2.pdf",
+   "file": "CRDO-report2.pdf",
    "broker": "키움증권",
    "analyst": "박기현",
    "date": "2026-06-05",
    "title": "[크리도 테크놀로지 그룹 홀딩 (NAS:CRDO)] 이제는 구리가 아닌 광학(Optics)의 성장 속도가 멀티플을 결정할 시점",
-   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcxegmglezgxggcgxecek.pdf",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcxegmglezgxggcgxecez.pdf",
    "pages": "4"
   }
  ],
@@ -422,50 +422,311 @@
  ],
  "kis": {
   "ticker": "CRDO",
-  "fetchedAt": "2026-10-13",
+  "fetchedAt": "2026-10-15",
   "source": "한국투자증권 Open API",
-  "per": 71.67,
-  "pbr": 13.82,
+  "per": 61.92,
+  "pbr": 11.94,
   "eps": 2.8,
   "bps": 14.53,
   "shares": 187951920,
-  "marketCapM": 37748,
+  "marketCapM": 32610,
   "high52": 308.6699,
   "high52Date": "2026-06-22",
   "low52": 86.485,
   "low52Date": "2026-03-30",
-  "last": 200.84,
-  "prevClose": 216.55,
-  "nameKo": "크리도 테크놀로지 그룹 홀딩",
-  "nameEn": "CREDO TECHNOLOGY GROUP HOLDING LTD",
-  "listedOn": "2022-01-26",
-  "exchange": "나스닥",
-  "listedShares": 187951920
+  "last": 173.5,
+  "prevClose": 198.31
+ },
+ "estimates": {
+  "ticker": "CRDO",
+  "url": "https://finance.yahoo.com/quote/CRDO/analysis/",
+  "fetchedAt": "2026-10-15",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "eps": 1.28,
+    "epsLow": 1.22,
+    "epsHigh": 1.32,
+    "epsYearAgo": 0.67,
+    "epsAnalysts": 18,
+    "epsGrowth": 91.5,
+    "epsCur": "USD",
+    "rev": 531652460,
+    "revAnalysts": 17,
+    "revYearAgo": 268027000,
+    "revGrowth": 98.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "eps": 1.6,
+    "epsLow": 1.45,
+    "epsHigh": 1.8,
+    "epsYearAgo": 1.07,
+    "epsAnalysts": 17,
+    "epsGrowth": 50,
+    "epsCur": "USD",
+    "rev": 642457700,
+    "revAnalysts": 16,
+    "revYearAgo": 407012000,
+    "revGrowth": 57.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-04-30",
+    "eps": 6.31,
+    "epsLow": 5.98,
+    "epsHigh": 6.64,
+    "epsYearAgo": 3.46,
+    "epsAnalysts": 20,
+    "epsGrowth": 82.3,
+    "epsCur": "USD",
+    "rev": 2502124520,
+    "revAnalysts": 19,
+    "revYearAgo": 1335116000,
+    "revGrowth": 87.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-04-30",
+    "eps": 9.69,
+    "epsLow": 8.69,
+    "epsHigh": 11.31,
+    "epsYearAgo": 6.31,
+    "epsAnalysts": 20,
+    "epsGrowth": 53.7,
+    "epsCur": "USD",
+    "rev": 3873199000,
+    "revAnalysts": 19,
+    "revYearAgo": 2502124520,
+    "revGrowth": 54.8,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "cur": "USD",
+    "now": 1.28,
+    "d7": 0,
+    "d30": 0,
+    "d90": 2.9,
+    "ago90": 1.25,
+    "up7": 12,
+    "up30": 12,
+    "down7": 3,
+    "down30": 3
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 1.6,
+    "d7": 0,
+    "d30": 0,
+    "d90": -1.4,
+    "ago90": 1.63,
+    "up7": 8,
+    "up30": 8,
+    "down7": 8,
+    "down30": 8
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-04-30",
+    "cur": "USD",
+    "now": 6.31,
+    "d7": 0,
+    "d30": 0,
+    "d90": 2.9,
+    "ago90": 6.13,
+    "up7": 0,
+    "up30": 15,
+    "down7": 1,
+    "down30": 3
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-04-30",
+    "cur": "USD",
+    "now": 9.69,
+    "d7": 0,
+    "d30": 0.3,
+    "d90": 8,
+    "ago90": 8.97,
+    "up7": 0,
+    "up30": 16,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-07-31",
+    "actual": 1.2,
+    "estimate": 1.17,
+    "surprisePct": 2.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-04-30",
+    "actual": 1.16,
+    "estimate": 1.03,
+    "surprisePct": 12.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-01-31",
+    "actual": 1.07,
+    "estimate": 0.94,
+    "surprisePct": 13.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-10-31",
+    "actual": 0.67,
+    "estimate": 0.5,
+    "surprisePct": 35.3,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 4,
+   "ptLowered": 5,
+   "total": 10,
+   "recent": [
+    {
+     "date": "2026-10-05",
+     "firm": "Stifel",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 310,
+     "ptPrior": 350
+    },
+    {
+     "date": "2026-09-21",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 245,
+     "ptPrior": 290
+    },
+    {
+     "date": "2026-09-02",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 310,
+     "ptPrior": 335
+    },
+    {
+     "date": "2026-09-02",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 292,
+     "ptPrior": 325
+    },
+    {
+     "date": "2026-09-02",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 235,
+     "ptPrior": 215
+    },
+    {
+     "date": "2026-09-02",
+     "firm": "B of A Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 275,
+     "ptPrior": 340
+    },
+    {
+     "date": "2026-08-24",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Maintains",
+     "pt": 215,
+     "ptPrior": 215
+    },
+    {
+     "date": "2026-08-18",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 300,
+     "ptPrior": 260
+    },
+    {
+     "date": "2026-07-21",
+     "firm": "Susquehanna",
+     "action": "main",
+     "from": "Positive",
+     "to": "Positive",
+     "ptAction": "Raises",
+     "pt": 250,
+     "ptPrior": 235
+    },
+    {
+     "date": "2026-07-20",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 300,
+     "ptPrior": 260
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-30",
+   "upcoming": true,
+   "estimated": true
+  }
  },
  "chart": {
-  "lastBar": "2026-10-13",
+  "lastBar": "2026-10-14",
   "numbers": {
-   "price": 198.31,
-   "ma20": 198.79,
-   "ma50": 209.33,
-   "ma150": 196.68,
-   "distMA50": -5.27,
+   "price": 179.23,
+   "ma20": 199.68,
+   "ma50": 208.16,
+   "ma150": 197.1,
+   "distMA50": -13.9,
    "periodHigh": 308.67,
-   "pullbackFromHigh": -35.75,
-   "volRatio20": 1.25,
-   "dryUpRatio": 0.97
+   "pullbackFromHigh": -41.94,
+   "volRatio20": 1.39,
+   "dryUpRatio": 1.07
   },
   "last10": [
-   {
-    "d": "2026-09-30",
-    "o": 192.56,
-    "h": 195.56,
-    "l": 186.81,
-    "c": 194.79,
-    "v": 6468300,
-    "clsPos": 91,
-    "gapPct": 0.11
-   },
    {
     "d": "2026-10-01",
     "o": 197.13,
@@ -548,13 +809,23 @@
    },
    {
     "d": "2026-10-13",
-    "o": 191.96,
+    "o": 191.11,
     "h": 199.86,
     "l": 185.2,
     "c": 198.31,
-    "v": 11028929,
+    "v": 11055400,
     "clsPos": 89,
-    "gapPct": -4.42
+    "gapPct": -4.84
+   },
+   {
+    "d": "2026-10-14",
+    "o": 190.79,
+    "h": 195.18,
+    "l": 179,
+    "c": 179.23,
+    "v": 12450483,
+    "clsPos": 1,
+    "gapPct": -3.79
    }
   ],
   "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CRDO-3m.png",
@@ -562,7 +833,7 @@
  },
  "market": {
   "verdict": "green",
-  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 18일째) — 사도 되지만 골라서",
+  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 19일째) — 사도 되지만 골라서",
   "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
   "finraLevel": "warn"
  }

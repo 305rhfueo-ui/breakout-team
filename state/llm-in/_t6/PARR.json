@@ -1,0 +1,646 @@
+{
+ "ticker": "PARR",
+ "date": "2026-10-15",
+ "session": "2026-10-14",
+ "source": "list",
+ "plan": {
+  "ticker": "PARR",
+  "name": "파 퍼시픽 홀딩스",
+  "sector": "Energy",
+  "industry": "Oil & Gas Refining & Marketing",
+  "price": 89.87999725341797,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 5.44,
+  "extensionAdr": 0.51,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.07511960399426189,
+    "pct": 83.00270513976555
+   },
+   "m3": {
+    "v": 0.15884476640831388,
+    "pct": 83.273219116321
+   },
+   "m6": {
+    "v": 0.3808573100363876,
+    "pct": 89.404869251578
+   }
+  },
+  "ret1m": 7.51,
+  "ret3m": 15.88,
+  "ret6m": 38.09,
+  "marketCap": "4.44B",
+  "volx": null,
+  "volSurgeWk": 0.82,
+  "high52": 99.68,
+  "newHigh52": false,
+  "adr": 5.54,
+  "div50": 12.13,
+  "div200": 46.56,
+  "targetStatus": true,
+  "saleCy": 24.36,
+  "saleNy": -14.93,
+  "epsCy": 217.18,
+  "epsNy": -35.58,
+  "cyTrend": 11.34,
+  "nyTrend": 11.62,
+  "est": {
+   "cyCur": 23.97877,
+   "cy30": 21.53736,
+   "nyCur": 15.4475,
+   "ny30": 13.83903
+  },
+  "fs": {
+   "sale": [
+    56.8,
+    4.51,
+    -1.04
+   ],
+   "ni": [
+    677.21,
+    "흑자전환",
+    "흑자전환"
+   ],
+   "opm": [
+    21.37,
+    3.58,
+    5.47
+   ],
+   "updated": "2026-09-16 06:30:41"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-15",
+  "nameKo": "파 퍼시픽 홀딩스",
+  "nameEn": "PAR PACIFIC HOLDINGS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000821483&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 2968869000,
+     "profit": 634553000,
+     "netIncome": 462131000,
+     "margin": 21.4,
+     "yoy": {
+      "revenue": 56.8,
+      "profit": 555.8,
+      "netIncome": 677.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1823750000,
+     "profit": 65322000,
+     "netIncome": 54450000,
+     "margin": 3.6,
+     "yoy": {
+      "revenue": 4.5,
+      "profit": 514.1,
+      "netIncome": 279.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1813240000,
+     "profit": 99258000,
+     "netIncome": 77700000,
+     "margin": 5.5,
+     "yoy": {
+      "revenue": -1,
+      "profit": 311.4,
+      "netIncome": 239.5,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 2012936000,
+     "profit": 358516000,
+     "netIncome": 262631000,
+     "margin": 17.8,
+     "yoy": {
+      "revenue": -6.1,
+      "profit": 884.1,
+      "netIncome": 3408.3,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Par Petroleum (PARR) is an Incredible Growth Stock: 3 Reasons Why",
+     "url": "https://www.nasdaq.com/articles/par-petroleum-parr-incredible-growth-stock-3-reasons-why",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Zacks.com featured highlights Micron, NVIDIA and Par Pacific Holdings",
+     "url": "https://www.nasdaq.com/articles/zackscom-featured-highlights-micron-nvidia-and-par-pacific-holdings",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are You Looking for a Top Momentum Pick? Why Par Petroleum (PARR) is a Great Choice",
+     "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-par-petroleum-parr-great-choice-0",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Par Petroleum (PARR) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-par-petroleum-parr-strong-momentum-stock",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Par Petroleum (PARR) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-par-petroleum-parr-strong-growth-stock-0",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-28",
+    "itemsKo": [
+     "임원 변동",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/821483/000143774926031335/parr20260928_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-25",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/821483/000143774926028947/parr20260825_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/821483/000162828026052766/parr-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-14",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/821483/000119312526224142/d176382d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-11",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/821483/000119312526215799/d49629d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/821483/000162828026030714/parr-20260505.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "PARR",
+  "fetchedAt": "2026-10-15",
+  "source": "한국투자증권 Open API",
+  "per": 5.17,
+  "pbr": 2.2,
+  "eps": 17.14,
+  "bps": 40.23,
+  "shares": 50099600,
+  "marketCapM": 4442,
+  "high52": 90.74,
+  "high52Date": "2026-10-14",
+  "low52": 33.43,
+  "low52Date": "2025-10-13",
+  "last": 88.67,
+  "prevClose": 89.88,
+  "nameKo": "파 퍼시픽 홀딩스",
+  "nameEn": "PAR PACIFIC HOLDINGS INC",
+  "listedOn": "2018-02-20",
+  "exchange": "뉴욕거래소",
+  "listedShares": 50099600
+ },
+ "estimates": {
+  "ticker": "PARR",
+  "url": "https://finance.yahoo.com/quote/PARR/analysis/",
+  "fetchedAt": "2026-10-15",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 6.53,
+    "epsLow": 6.13,
+    "epsHigh": 6.81,
+    "epsYearAgo": 5.95,
+    "epsAnalysts": 6,
+    "epsGrowth": 9.8,
+    "epsCur": "USD",
+    "rev": 2148070440,
+    "revAnalysts": 6,
+    "revYearAgo": 2012936000,
+    "revGrowth": 6.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 6.6,
+    "epsLow": 4.39,
+    "epsHigh": 8.63,
+    "epsYearAgo": 1.17,
+    "epsAnalysts": 6,
+    "epsGrowth": 464.3,
+    "epsCur": "USD",
+    "rev": 2341995250,
+    "revAnalysts": 6,
+    "revYearAgo": 1813240000,
+    "revGrowth": 29.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 23.98,
+    "epsLow": 21.5,
+    "epsHigh": 26.02,
+    "epsYearAgo": 7.56,
+    "epsAnalysts": 6,
+    "epsGrowth": 217.2,
+    "epsCur": "USD",
+    "rev": 9282725260,
+    "revAnalysts": 6,
+    "revYearAgo": 7464650000,
+    "revGrowth": 24.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 15.45,
+    "epsLow": 9.49,
+    "epsHigh": 24.22,
+    "epsYearAgo": 23.98,
+    "epsAnalysts": 6,
+    "epsGrowth": -35.6,
+    "epsCur": "USD",
+    "rev": 7897160940,
+    "revAnalysts": 6,
+    "revYearAgo": 9282725260,
+    "revGrowth": -14.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 6.53,
+    "d7": 2.4,
+    "d30": 10,
+    "d90": 65.9,
+    "ago90": 3.94,
+    "up7": 1,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 6.6,
+    "d7": 23.6,
+    "d30": 38.7,
+    "d90": 110.5,
+    "ago90": 3.14,
+    "up7": 1,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 23.98,
+    "d7": 6.3,
+    "d30": 11.3,
+    "d90": 51.7,
+    "ago90": 15.81,
+    "up7": 1,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 15.45,
+    "d7": 4.1,
+    "d30": 11.6,
+    "d90": 47,
+    "ago90": 10.51,
+    "up7": 1,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 10.1,
+    "estimate": 8.15,
+    "surprisePct": 23.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.78,
+    "estimate": 0.99,
+    "surprisePct": -21,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.17,
+    "estimate": 1.28,
+    "surprisePct": -8.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 5.95,
+    "estimate": 1.96,
+    "surprisePct": 202.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 4,
+   "ptLowered": 1,
+   "total": 5,
+   "recent": [
+    {
+     "date": "2026-09-14",
+     "firm": "Raymond James",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 104,
+     "ptPrior": 90
+    },
+    {
+     "date": "2026-08-11",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 85,
+     "ptPrior": 80
+    },
+    {
+     "date": "2026-08-07",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 95,
+     "ptPrior": 100
+    },
+    {
+     "date": "2026-07-23",
+     "firm": "Goldman Sachs",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 92,
+     "ptPrior": 77
+    },
+    {
+     "date": "2026-07-21",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 100,
+     "ptPrior": 78
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-03",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-14",
+  "numbers": {
+   "price": 88.67,
+   "ma20": 83.15,
+   "ma50": 80.27,
+   "ma150": 68.71,
+   "distMA50": 10.46,
+   "periodHigh": 90.74,
+   "pullbackFromHigh": -2.28,
+   "volRatio20": 0.75,
+   "dryUpRatio": 0.92
+  },
+  "last10": [
+   {
+    "d": "2026-10-01",
+    "o": 81.64,
+    "h": 86.3,
+    "l": 80.63,
+    "c": 86.21,
+    "v": 984600,
+    "clsPos": 98,
+    "gapPct": 0.02
+   },
+   {
+    "d": "2026-10-02",
+    "o": 85.31,
+    "h": 87,
+    "l": 82.09,
+    "c": 84,
+    "v": 821300,
+    "clsPos": 39,
+    "gapPct": -1.04
+   },
+   {
+    "d": "2026-10-05",
+    "o": 85.23,
+    "h": 88.34,
+    "l": 83.55,
+    "c": 87.52,
+    "v": 761800,
+    "clsPos": 83,
+    "gapPct": 1.46
+   },
+   {
+    "d": "2026-10-06",
+    "o": 86.01,
+    "h": 88.84,
+    "l": 85,
+    "c": 86.91,
+    "v": 657400,
+    "clsPos": 50,
+    "gapPct": -1.73
+   },
+   {
+    "d": "2026-10-07",
+    "o": 87.21,
+    "h": 89.45,
+    "l": 85.01,
+    "c": 86.12,
+    "v": 697700,
+    "clsPos": 25,
+    "gapPct": 0.35
+   },
+   {
+    "d": "2026-10-08",
+    "o": 87.02,
+    "h": 89.21,
+    "l": 86,
+    "c": 87.65,
+    "v": 832800,
+    "clsPos": 51,
+    "gapPct": 1.05
+   },
+   {
+    "d": "2026-10-09",
+    "o": 86.85,
+    "h": 88.01,
+    "l": 81.66,
+    "c": 81.89,
+    "v": 1057500,
+    "clsPos": 4,
+    "gapPct": -0.91
+   },
+   {
+    "d": "2026-10-12",
+    "o": 84,
+    "h": 85.77,
+    "l": 81.88,
+    "c": 83.12,
+    "v": 699400,
+    "clsPos": 32,
+    "gapPct": 2.58
+   },
+   {
+    "d": "2026-10-13",
+    "o": 84.37,
+    "h": 90.17,
+    "l": 83.77,
+    "c": 89.88,
+    "v": 1151400,
+    "clsPos": 95,
+    "gapPct": 1.5
+   },
+   {
+    "d": "2026-10-14",
+    "o": 90.42,
+    "h": 90.74,
+    "l": 87.66,
+    "c": 88.67,
+    "v": 724213,
+    "clsPos": 33,
+    "gapPct": 0.6
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PARR-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PARR-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 19일째) — 사도 되지만 골라서",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

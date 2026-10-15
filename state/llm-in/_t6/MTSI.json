@@ -1,0 +1,728 @@
+{
+ "ticker": "MTSI",
+ "date": "2026-10-15",
+ "session": "2026-10-14",
+ "source": "list",
+ "plan": {
+  "ticker": "MTSI",
+  "name": "메이컴 테크놀로지 솔루션스 홀딩스",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "price": 308.75,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 353.54,
+  "stop": 339.49,
+  "distToPivotPct": -17.6,
+  "distToPivotAdr": -3.65,
+  "riskPerSharePct": 3.97,
+  "adrPct": 4.82,
+  "extensionAdr": -2.02,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 8,
+   "baseWeeks": 1.6,
+   "depthPct": 18.5,
+   "priorMovePct": 55,
+   "higherLows": 0,
+   "contraction": 1.76,
+   "closeRange10Adr": 4.2,
+   "surf10": -2.02,
+   "surf20": -0.58,
+   "slope20": 4.9,
+   "baseLow": 288.09,
+   "lastSwingLow": 288.09
+  },
+  "reasons": [
+   "선행 상승 +55%",
+   "✗ 베이스 1.6주",
+   "깊이 18.5%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.76배 · 10일 종가폭 4.2 ADR",
+   "✗ 10일선 -2 ADR · 20일선 -0.6 ADR",
+   "20일선 기울기 +4.9%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.286351114507604,
+    "pct": 98.69251577998197
+   },
+   "m3": {
+    "v": 0.1443662489596537,
+    "pct": 81.28944995491435
+   },
+   "m6": {
+    "v": 0.11462093862815885,
+    "pct": 65.05861136158701
+   }
+  },
+  "ret1m": 28.64,
+  "ret3m": 14.44,
+  "ret6m": 11.46,
+  "marketCap": "23.40B",
+  "volx": null,
+  "volSurgeWk": 1.08,
+  "high52": 73.7,
+  "newHigh52": false,
+  "adr": 4.8,
+  "div50": 8.02,
+  "div200": 10.82,
+  "targetStatus": false,
+  "saleCy": 36.89,
+  "saleNy": 35.86,
+  "epsCy": 58.86,
+  "epsNy": 54.02,
+  "cyTrend": 0,
+  "nyTrend": 0.15,
+  "est": {
+   "cyCur": 5.51229,
+   "cy30": 5.51229,
+   "nyCur": 8.4902,
+   "ny30": 8.4777
+  },
+  "fs": {
+   "sale": [
+    35.77,
+    22.5,
+    24.52
+   ],
+   "ni": [
+    175.66,
+    46.31,
+    "흑자전환"
+   ],
+   "opm": [
+    22.53,
+    17.59,
+    15.94
+   ],
+   "updated": "2026-09-09 06:41:22"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-10-12",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 3,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-15",
+  "nameKo": "메이컴 테크놀로지 솔루션스 홀딩스",
+  "nameEn": "MACOM TECHNOLOGY SOLUTIONS HOLDINGS",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001493594&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-03",
+     "derived": false,
+     "revenue": 342237000,
+     "profit": 77115000,
+     "netIncome": 100708000,
+     "margin": 22.5,
+     "yoy": {
+      "revenue": 35.8,
+      "profit": 104.8,
+      "netIncome": 175.7,
+      "priorEnd": "2025-07-04"
+     }
+    },
+    {
+     "periodEnd": "2026-04-03",
+     "derived": false,
+     "revenue": 288955000,
+     "profit": 50831000,
+     "netIncome": 46331000,
+     "margin": 17.6,
+     "yoy": {
+      "revenue": 22.5,
+      "profit": 45.8,
+      "netIncome": 46.3,
+      "priorEnd": "2025-04-04"
+     }
+    },
+    {
+     "periodEnd": "2026-01-02",
+     "derived": false,
+     "revenue": 271612000,
+     "profit": 43297000,
+     "netIncome": 48767000,
+     "margin": 15.9,
+     "yoy": {
+      "revenue": 24.5,
+      "profit": 147,
+      "netIncome": 129.1,
+      "priorEnd": "2025-01-03"
+     }
+    },
+    {
+     "periodEnd": "2025-10-03",
+     "derived": true,
+     "revenue": 261170000,
+     "profit": 39595000,
+     "netIncome": 45120000,
+     "margin": 15.2,
+     "yoy": {
+      "revenue": 30.1,
+      "profit": 43.8,
+      "netIncome": 53.4,
+      "priorEnd": "2024-09-27"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "M/A-Com (MTSI) Is Up 12.62% in One Week: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/m-com-mtsi-1262-one-week-what-you-should-know",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Zacks Investment Ideas feature highlights: Taiwan, Entegris and MACOM Technology",
+     "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-taiwan-entegris-and-macom-technology",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Does M/A-Com (MTSI) Have the Potential to Rally 41.35% as Wall Street Analysts Expect?",
+     "url": "https://www.nasdaq.com/articles/does-m-com-mtsi-have-potential-rally-4135-wall-street-analysts-expect",
+     "date": "2026-09-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Zacks Industry Outlook Highlights MACOM Technology, Monolithic Power and Semtech",
+     "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-macom-technology-monolithic-power-and-semtech",
+     "date": "2026-09-02",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1493594/000149359426000036/mtsi-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1493594/000149359426000024/mtsi-20260507.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-09",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1493594/000149359426000021/mtsi-20260305.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1493594/000149359426000016/mtsi-20260205.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-12",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1493594/000149359426000002/mtsi-20260112.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-11-25",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1493594/000149359425000057/mtsi-20251125.htm"
+   }
+  ],
+  "krReports": {
+   "total": 2,
+   "reports": [
+    {
+     "date": "2026-08-11",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[메이컴 테크놀로지 솔루션스 홀딩스 (NAS:MTSI)] 또다시 상향된 가이던스",
+     "summary": "- 가이던스 상단을 상회한 실적과 강한 4Q 가이던스가 만든 주가 상승- Data Center향 매출이 I&D향 매출을 처음 추월하며 최대 시장에 등극- 컨센서스 상향 폭이 주가 상승을 앞서며 12MF PER은 하락",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxixxzzzmxlilgcgxecez.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-07-16",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[메이컴 테크놀로지 솔루션스 홀딩스 (NAS:MTSI)] 세 개의 바람이 분다",
+     "summary": "- AI 데이터센터 광통신의 핵심 아날로그·포토닉스 부품 공급사- AI 데이터센터향 매출 가이던스 상향 및 방산(DPA)·LEO 위성 수혜의 동시 개화- 역대급 수주(Book-to-bill 1.5배)가 뒷받침하는 이익 컨센서스의 상향 모멘텀",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkezxglkqxmllgcgxecez.pdf",
+     "pages": "8"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "MTSI-report1.pdf",
+   "broker": "키움증권",
+   "analyst": "박기현",
+   "date": "2026-08-11",
+   "title": "[메이컴 테크놀로지 솔루션스 홀딩스 (NAS:MTSI)] 또다시 상향된 가이던스",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlxixxzzzmxlilgcgxecez.pdf",
+   "pages": "7"
+  },
+  {
+   "file": "MTSI-report2.pdf",
+   "broker": "키움증권",
+   "analyst": "박기현",
+   "date": "2026-07-16",
+   "title": "[메이컴 테크놀로지 솔루션스 홀딩스 (NAS:MTSI)] 세 개의 바람이 분다",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkezxglkqxmllgcgxecez.pdf",
+   "pages": "8"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "This semiconductor stock is in the dumps. BMO says it can bounce back",
+   "url": "https://www.cnbc.com/2026/09/18/this-semiconductor-stock-is-in-the-dumps-bmo-says-it-can-bounce-back.html",
+   "date": "2026-09-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves midday: UWM Holdings, Honeywell Aerospace, Peloton",
+   "url": "https://www.cnbc.com/2026/08/06/stocks-making-the-biggest-moves-midday-umwc-hona-mtsi-pton.html",
+   "date": "2026-08-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "There's a tech name on Josh Brown's list that's at the nexus of the data center buildout",
+   "url": "https://www.cnbc.com/2026/06/18/theres-a-tech-name-on-josh-browns-list-thats-at-the-nexus-of-the-data-center-buildout.html",
+   "date": "2026-06-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Final Trades: Corning and Macom",
+   "url": "https://www.cnbc.com/video/2026/06/18/final-trades-corning-and-macom.html",
+   "date": "2026-06-18",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Josh Brown's 'best stocks in the market': Macom",
+   "url": "https://www.cnbc.com/video/2026/06/18/josh-browns-best-stocks-in-the-market-macom.html",
+   "date": "2026-06-18",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "MTSI",
+  "fetchedAt": "2026-10-15",
+  "source": "한국투자증권 Open API",
+  "per": 91.73,
+  "pbr": 14.14,
+  "eps": 3.11,
+  "bps": 20.18,
+  "shares": 76370900,
+  "marketCapM": 21782,
+  "high52": 418.9,
+  "high52Date": "2026-05-27",
+  "low52": 124.74,
+  "low52Date": "2025-10-13",
+  "last": 285.21,
+  "prevClose": 308.75
+ },
+ "estimates": {
+  "ticker": "MTSI",
+  "url": "https://finance.yahoo.com/quote/MTSI/analysis/",
+  "fetchedAt": "2026-10-15",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 2,
+    "epsLow": 1.97,
+    "epsHigh": 2.01,
+    "epsYearAgo": 0.94,
+    "epsAnalysts": 16,
+    "epsGrowth": 112.6,
+    "epsCur": "USD",
+    "rev": 420154020,
+    "revAnalysts": 15,
+    "revYearAgo": 261170000,
+    "revGrowth": 60.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 2.02,
+    "epsLow": 1.92,
+    "epsHigh": 2.15,
+    "epsYearAgo": 1.02,
+    "epsAnalysts": 15,
+    "epsGrowth": 98.5,
+    "epsCur": "USD",
+    "rev": 430144080,
+    "revAnalysts": 13,
+    "revYearAgo": 271612000,
+    "revGrowth": 58.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-09-30",
+    "eps": 5.51,
+    "epsLow": 5.44,
+    "epsHigh": 5.53,
+    "epsYearAgo": 3.47,
+    "epsAnalysts": 16,
+    "epsGrowth": 58.9,
+    "epsCur": "USD",
+    "rev": 1324125000,
+    "revAnalysts": 15,
+    "revYearAgo": 967258000,
+    "revGrowth": 36.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-09-30",
+    "eps": 8.49,
+    "epsLow": 8.14,
+    "epsHigh": 9.33,
+    "epsYearAgo": 5.51,
+    "epsAnalysts": 16,
+    "epsGrowth": 54,
+    "epsCur": "USD",
+    "rev": 1798937830,
+    "revAnalysts": 15,
+    "revYearAgo": 1324125000,
+    "revGrowth": 35.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 2,
+    "d7": 0,
+    "d30": 0,
+    "d90": 27.4,
+    "ago90": 1.57,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 2.02,
+    "d7": 0,
+    "d30": 0.1,
+    "d90": 23.6,
+    "ago90": 1.64,
+    "up7": 0,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 5.51,
+    "d7": 0,
+    "d30": 0,
+    "d90": 9.6,
+    "ago90": 5.03,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-09-30",
+    "cur": "USD",
+    "now": 8.49,
+    "d7": 0,
+    "d30": 0.1,
+    "d90": 22.7,
+    "ago90": 6.92,
+    "up7": 0,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.4,
+    "estimate": 1.35,
+    "surprisePct": 3.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.09,
+    "estimate": 1.07,
+    "surprisePct": 1.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.02,
+    "estimate": 1,
+    "surprisePct": 2.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 0.94,
+    "estimate": 0.93,
+    "surprisePct": 1.2,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 2,
+   "ptLowered": 1,
+   "total": 5,
+   "recent": [
+    {
+     "date": "2026-09-18",
+     "firm": "BMO Capital",
+     "action": "up",
+     "from": "Market Perform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 335,
+     "ptPrior": 335
+    },
+    {
+     "date": "2026-08-21",
+     "firm": "BMO Capital",
+     "action": "init",
+     "from": null,
+     "to": "Market Perform",
+     "ptAction": "Announces",
+     "pt": 335,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-08-07",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 475,
+     "ptPrior": 427
+    },
+    {
+     "date": "2026-08-06",
+     "firm": "Needham",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 410,
+     "ptPrior": 400
+    },
+    {
+     "date": "2026-07-21",
+     "firm": "Susquehanna",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 300,
+     "ptPrior": 350
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-05",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-14",
+  "numbers": {
+   "price": 291.33,
+   "ma20": 299.43,
+   "ma50": 286.19,
+   "ma150": 298.93,
+   "distMA50": 1.79,
+   "periodHigh": 418.9,
+   "pullbackFromHigh": -30.45,
+   "volRatio20": 1.25,
+   "dryUpRatio": 1.19
+  },
+  "last10": [
+   {
+    "d": "2026-10-01",
+    "o": 285,
+    "h": 304.29,
+    "l": 283.59,
+    "c": 301.63,
+    "v": 1174700,
+    "clsPos": 87,
+    "gapPct": 0.06
+   },
+   {
+    "d": "2026-10-02",
+    "o": 310.9,
+    "h": 326.73,
+    "l": 307.87,
+    "c": 321.6,
+    "v": 1351200,
+    "clsPos": 73,
+    "gapPct": 3.07
+   },
+   {
+    "d": "2026-10-05",
+    "o": 322.79,
+    "h": 332.08,
+    "l": 316.63,
+    "c": 328.3,
+    "v": 1187000,
+    "clsPos": 76,
+    "gapPct": 0.37
+   },
+   {
+    "d": "2026-10-06",
+    "o": 334.22,
+    "h": 353.54,
+    "l": 333.22,
+    "c": 350.67,
+    "v": 1541100,
+    "clsPos": 86,
+    "gapPct": 1.8
+   },
+   {
+    "d": "2026-10-07",
+    "o": 339.98,
+    "h": 341.84,
+    "l": 330.41,
+    "c": 335.91,
+    "v": 1519100,
+    "clsPos": 48,
+    "gapPct": -3.05
+   },
+   {
+    "d": "2026-10-08",
+    "o": 331.11,
+    "h": 338.51,
+    "l": 318.66,
+    "c": 322.21,
+    "v": 1636900,
+    "clsPos": 18,
+    "gapPct": -1.43
+   },
+   {
+    "d": "2026-10-09",
+    "o": 329.62,
+    "h": 336.15,
+    "l": 318.76,
+    "c": 330.06,
+    "v": 1219500,
+    "clsPos": 65,
+    "gapPct": 2.3
+   },
+   {
+    "d": "2026-10-12",
+    "o": 324.2,
+    "h": 326.63,
+    "l": 304.4,
+    "c": 306.36,
+    "v": 1615200,
+    "clsPos": 9,
+    "gapPct": -1.78
+   },
+   {
+    "d": "2026-10-13",
+    "o": 296.21,
+    "h": 308.92,
+    "l": 290.2,
+    "c": 308.75,
+    "v": 2186400,
+    "clsPos": 99,
+    "gapPct": -3.31
+   },
+   {
+    "d": "2026-10-14",
+    "o": 299.94,
+    "h": 303.49,
+    "l": 288.09,
+    "c": 291.33,
+    "v": 1772525,
+    "clsPos": 21,
+    "gapPct": -2.85
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MTSI-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MTSI-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 19일째) — 사도 되지만 골라서",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

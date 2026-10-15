@@ -1,0 +1,664 @@
+{
+ "ticker": "CDW",
+ "date": "2026-10-15",
+ "session": "2026-10-14",
+ "source": "list",
+ "plan": {
+  "ticker": "CDW",
+  "name": "CDW",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
+  "price": 151.97000122070312,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 158.05,
+  "stop": 152.77,
+  "distToPivotPct": -5.03,
+  "distToPivotAdr": -1.43,
+  "riskPerSharePct": 3.34,
+  "adrPct": 3.52,
+  "extensionAdr": 1.85,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 33,
+   "baseWeeks": 6.6,
+   "depthPct": 19.2,
+   "priorMovePct": 39.9,
+   "higherLows": 0,
+   "contraction": 1.09,
+   "closeRange10Adr": 3.5,
+   "surf10": 1.85,
+   "surf20": 1.9,
+   "slope20": -0.85,
+   "baseLow": 127.77,
+   "lastSwingLow": 127.77
+  },
+  "reasons": [
+   "선행 상승 +40%",
+   "베이스 6.6주",
+   "깊이 19.2%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.09배 · 10일 종가폭 3.5 ADR",
+   "✗ 10일선 +1.8 ADR · 20일선 +1.9 ADR",
+   "✗ 20일선 기울기 -0.85%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.011512971310122917,
+    "pct": 44.40937781785392
+   },
+   "m3": {
+    "v": 0.17449414646008066,
+    "pct": 84.26510369702434
+   },
+   "m6": {
+    "v": 0.0783584275238439,
+    "pct": 59.28764652840397
+   }
+  },
+  "ret1m": -1.15,
+  "ret3m": 17.45,
+  "ret6m": 7.84,
+  "marketCap": "17.97B",
+  "volx": null,
+  "volSurgeWk": 1.07,
+  "high52": 96.15,
+  "newHigh52": false,
+  "adr": 3.59,
+  "div50": 7.17,
+  "div200": 16.37,
+  "targetStatus": false,
+  "saleCy": 8.31,
+  "saleNy": 3.8,
+  "epsCy": 9.48,
+  "epsNy": 9.72,
+  "cyTrend": 0.16,
+  "nyTrend": -0.09,
+  "est": {
+   "cyCur": 10.96992,
+   "cy30": 10.95264,
+   "nyCur": 12.03661,
+   "ny30": 12.04753
+  },
+  "fs": {
+   "sale": [
+    9.97,
+    9.25,
+    6.27
+   ],
+   "ni": [
+    1.18,
+    4.67,
+    5.79
+   ],
+   "opm": [
+    6.52,
+    6.62,
+    7.82
+   ],
+   "updated": "2026-09-08 10:05:34"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-15",
+  "nameKo": "CDW",
+  "nameEn": "CDW CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001402057&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 6572200000,
+     "profit": 428600000,
+     "netIncome": 274400000,
+     "margin": 6.5,
+     "yoy": {
+      "revenue": 10,
+      "profit": 2,
+      "netIncome": 1.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 5679800000,
+     "profit": 376000000,
+     "netIncome": 235400000,
+     "margin": 6.6,
+     "yoy": {
+      "revenue": 9.2,
+      "profit": 4,
+      "netIncome": 4.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 5511000000,
+     "profit": 430700000,
+     "netIncome": 279500000,
+     "margin": 7.8,
+     "yoy": {
+      "revenue": 6.3,
+      "profit": 5.4,
+      "netIncome": 5.8,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 5737400000,
+     "profit": 443300000,
+     "netIncome": 291000000,
+     "margin": 7.7,
+     "yoy": {
+      "revenue": 4,
+      "profit": -8,
+      "netIncome": -8,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "CDW's Buyback Pace Jumps: Can Stronger Cash Flow Sustain Returns?",
+     "url": "https://www.nasdaq.com/articles/cdws-buyback-pace-jumps-can-stronger-cash-flow-sustain-returns",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is the Options Market Predicting a Spike in CDW Stock?",
+     "url": "https://www.nasdaq.com/articles/options-market-predicting-spike-cdw-stock",
+     "date": "2026-09-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CDW's $525M Lovelytics Buyout: Can Data & AI Services Boost Growth?",
+     "url": "https://www.nasdaq.com/articles/cdws-525m-lovelytics-buyout-can-data-ai-services-boost-growth",
+     "date": "2026-09-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Is CDW (CDW) Up 8.4% Since Last Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/why-cdw-cdw-84-last-earnings-report",
+     "date": "2026-09-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CDW To Acquire Lovelytics To Expand Data And AI Services",
+     "url": "https://www.nasdaq.com/articles/cdw-acquire-lovelytics-expand-data-and-ai-services",
+     "date": "2026-09-03",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "How is AI Infrastructure Demand Fueling CDW's Growth in 2026?",
+     "url": "https://www.nasdaq.com/articles/how-ai-infrastructure-demand-fueling-cdws-growth-2026",
+     "date": "2026-08-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CDW (CDW) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/cdw-cdw-q2-2026-earnings-call-transcript",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Here's Why CDW (CDW) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-cdw-cdw-strong-momentum-stock-0",
+     "date": "2026-08-07",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-21",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1402057/000119312526396653/d240122d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-15",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1402057/000119312526392039/d180681d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000064/cdw-20260803.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000062/cdw-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-26",
+    "itemsKo": [
+     "5.03",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000038/k-20260521.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-13",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000031/cdw-20260513.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "CDW",
+  "fetchedAt": "2026-10-15",
+  "source": "한국투자증권 Open API",
+  "per": 18.04,
+  "pbr": 7.7,
+  "eps": 8.32,
+  "bps": 19.49,
+  "shares": 125017000,
+  "marketCapM": 18765,
+  "high52": 158.045,
+  "high52Date": "2026-09-03",
+  "low52": 96.0886,
+  "low52Date": "2026-05-12",
+  "last": 150.1,
+  "prevClose": 151.97,
+  "nameKo": "CDW",
+  "nameEn": "CDW CORP",
+  "listedOn": "0000-00-00",
+  "exchange": "나스닥",
+  "listedShares": 125017000
+ },
+ "estimates": {
+  "ticker": "CDW",
+  "url": "https://finance.yahoo.com/quote/CDW/analysis/",
+  "fetchedAt": "2026-10-15",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 2.98,
+    "epsLow": 2.88,
+    "epsHigh": 3.2,
+    "epsYearAgo": 2.71,
+    "epsAnalysts": 10,
+    "epsGrowth": 9.9,
+    "epsCur": "USD",
+    "rev": 6184435150,
+    "revAnalysts": 8,
+    "revYearAgo": 5737400000,
+    "revGrowth": 7.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 2.81,
+    "epsLow": 2.73,
+    "epsHigh": 2.88,
+    "epsYearAgo": 2.57,
+    "epsAnalysts": 10,
+    "epsGrowth": 9.5,
+    "epsCur": "USD",
+    "rev": 5849690420,
+    "revAnalysts": 8,
+    "revYearAgo": 5511000000,
+    "revGrowth": 6.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 10.97,
+    "epsLow": 10.86,
+    "epsHigh": 11.2,
+    "epsYearAgo": 10.02,
+    "epsAnalysts": 10,
+    "epsGrowth": 9.5,
+    "epsCur": "USD",
+    "rev": 24286781280,
+    "revAnalysts": 9,
+    "revYearAgo": 22424100000,
+    "revGrowth": 8.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 12.04,
+    "epsLow": 11.43,
+    "epsHigh": 12.67,
+    "epsYearAgo": 10.97,
+    "epsAnalysts": 10,
+    "epsGrowth": 9.7,
+    "epsCur": "USD",
+    "rev": 25210746920,
+    "revAnalysts": 9,
+    "revYearAgo": 24286781280,
+    "revGrowth": 3.8,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 2.98,
+    "d7": 0.6,
+    "d30": 0.8,
+    "d90": 2.9,
+    "ago90": 2.89,
+    "up7": 1,
+    "up30": 0,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 2.81,
+    "d7": -0.2,
+    "d30": -0.2,
+    "d90": 1.5,
+    "ago90": 2.77,
+    "up7": 1,
+    "up30": 0,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 10.97,
+    "d7": 0.1,
+    "d30": 0.2,
+    "d90": 2.1,
+    "ago90": 10.74,
+    "up7": 1,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 12.04,
+    "d7": 0.2,
+    "d30": -0.1,
+    "d90": 2.5,
+    "ago90": 11.74,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 2.91,
+    "estimate": 2.8,
+    "surprisePct": 4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 2.28,
+    "estimate": 2.29,
+    "surprisePct": -0.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 2.57,
+    "estimate": 2.44,
+    "surprisePct": 5.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 2.71,
+    "estimate": 2.62,
+    "surprisePct": 3.4,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 2,
+   "ptLowered": 1,
+   "total": 3,
+   "recent": [
+    {
+     "date": "2026-09-21",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Lowers",
+     "pt": 148,
+     "ptPrior": 150
+    },
+    {
+     "date": "2026-09-08",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 150,
+     "ptPrior": 123
+    },
+    {
+     "date": "2026-08-06",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 171,
+     "ptPrior": 170
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-03",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-14",
+  "numbers": {
+   "price": 150.1,
+   "ma20": 140.09,
+   "ma50": 141.92,
+   "ma150": 132.5,
+   "distMA50": 5.76,
+   "periodHigh": 224.35,
+   "pullbackFromHigh": -33.1,
+   "volRatio20": 1.17,
+   "dryUpRatio": 1.19
+  },
+  "last10": [
+   {
+    "d": "2026-10-01",
+    "o": 130.14,
+    "h": 138.48,
+    "l": 130.04,
+    "c": 135.83,
+    "v": 1654400,
+    "clsPos": 69,
+    "gapPct": 1.54
+   },
+   {
+    "d": "2026-10-02",
+    "o": 135.83,
+    "h": 136.82,
+    "l": 132.12,
+    "c": 133.29,
+    "v": 1330100,
+    "clsPos": 25,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-05",
+    "o": 133.12,
+    "h": 137.37,
+    "l": 132.4,
+    "c": 133.92,
+    "v": 1097600,
+    "clsPos": 31,
+    "gapPct": -0.13
+   },
+   {
+    "d": "2026-10-06",
+    "o": 133.81,
+    "h": 136.03,
+    "l": 132.91,
+    "c": 135.67,
+    "v": 713200,
+    "clsPos": 88,
+    "gapPct": -0.08
+   },
+   {
+    "d": "2026-10-07",
+    "o": 135.17,
+    "h": 138.46,
+    "l": 134.32,
+    "c": 136.82,
+    "v": 1021300,
+    "clsPos": 60,
+    "gapPct": -0.37
+   },
+   {
+    "d": "2026-10-08",
+    "o": 136.5,
+    "h": 141.86,
+    "l": 135.86,
+    "c": 139.88,
+    "v": 2330500,
+    "clsPos": 67,
+    "gapPct": -0.23
+   },
+   {
+    "d": "2026-10-09",
+    "o": 140.15,
+    "h": 143.17,
+    "l": 139.46,
+    "c": 142.17,
+    "v": 1406600,
+    "clsPos": 73,
+    "gapPct": 0.19
+   },
+   {
+    "d": "2026-10-12",
+    "o": 143.47,
+    "h": 146.39,
+    "l": 142.68,
+    "c": 143.76,
+    "v": 1061000,
+    "clsPos": 29,
+    "gapPct": 0.91
+   },
+   {
+    "d": "2026-10-13",
+    "o": 143.98,
+    "h": 152.43,
+    "l": 143.98,
+    "c": 151.97,
+    "v": 2502300,
+    "clsPos": 95,
+    "gapPct": 0.15
+   },
+   {
+    "d": "2026-10-14",
+    "o": 151.51,
+    "h": 152.65,
+    "l": 149.43,
+    "c": 150.1,
+    "v": 1777848,
+    "clsPos": 21,
+    "gapPct": -0.3
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CDW-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CDW-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 19일째) — 사도 되지만 골라서",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

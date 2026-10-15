@@ -46,11 +46,11 @@
   "top2Streak": {
    "m1": 0,
    "m3": 0,
-   "m6": 54
+   "m6": 55
   }
  },
  "detail": {
-  "fetchedAt": "2026-10-13",
+  "fetchedAt": "2026-10-15",
   "nameKo": "코셉트 테라퓨틱스",
   "nameEn": "CORCEPT THERAPEUTICS INC",
   "financials": {
@@ -120,27 +120,15 @@
   "news": {
    "items": [
     {
+     "title": "Are Options Traders Betting on a Big Move in Corcept Therapeutics Stock?",
+     "url": "https://www.nasdaq.com/articles/are-options-traders-betting-big-move-corcept-therapeutics-stock",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
      "title": "CHMP Backs CORT's Lifyorli Combo in Platinum-Resistant Ovarian Cancer",
      "url": "https://www.nasdaq.com/articles/chmp-backs-corts-lifyorli-combo-platinum-resistant-ovarian-cancer",
      "date": "2026-09-21",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Corcept's Lifyorli Gets Positive EU Opinion For Platinum-Resistant Ovarian Cancer",
-     "url": "https://www.nasdaq.com/articles/corcepts-lifyorli-gets-positive-eu-opinion-platinum-resistant-ovarian-cancer",
-     "date": "2026-09-18",
-     "publisher": "RTTNews"
-    },
-    {
-     "title": "Will Korlym Continue to Aid CORT's Growth Through the Rest of 2026?",
-     "url": "https://www.nasdaq.com/articles/will-korlym-continue-aid-corts-growth-through-rest-2026",
-     "date": "2026-09-16",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Why Is Corcept (CORT) Down 1.2% Since Last Earnings Report?",
-     "url": "https://www.nasdaq.com/articles/why-corcept-cort-down-12-last-earnings-report",
-     "date": "2026-08-28",
      "publisher": "Zacks"
     }
    ]
@@ -226,24 +214,19 @@
  ],
  "kis": {
   "ticker": "CORT",
-  "fetchedAt": "2026-10-13",
+  "fetchedAt": "2026-10-15",
   "source": "한국투자증권 Open API",
-  "per": 289.44,
-  "pbr": 18.53,
+  "per": 277.36,
+  "pbr": 17.76,
   "eps": 0.42,
   "bps": 6.54,
   "shares": 108098000,
-  "marketCapM": 13100,
+  "marketCapM": 12553,
   "high52": 126.3833,
   "high52Date": "2026-08-25",
   "low52": 28.6601,
   "low52Date": "2026-02-19",
-  "last": 121.19,
-  "prevClose": 121.19,
-  "nameKo": "코셉트 테라퓨틱스",
-  "nameEn": "CORCEPT THERAPEUTICS INC",
-  "listedOn": "0000-00-00",
-  "exchange": "나스닥",
-  "listedShares": 108098000
+  "last": 116.13,
+  "prevClose": 117.8
  }
 }

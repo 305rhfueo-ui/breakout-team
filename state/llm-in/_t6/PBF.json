@@ -1,0 +1,683 @@
+{
+ "ticker": "PBF",
+ "date": "2026-10-15",
+ "session": "2026-10-14",
+ "source": "list",
+ "plan": {
+  "ticker": "PBF",
+  "name": "PBF 에너지",
+  "sector": "Energy",
+  "industry": "Oil & Gas Refining & Marketing",
+  "price": 91.16999816894531,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 5.9,
+  "extensionAdr": 0.79,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.22015520181341067,
+    "pct": 97.43011722272318
+   },
+   "m3": {
+    "v": 0.4331781021975723,
+    "pct": 96.25788999098287
+   },
+   "m6": {
+    "v": 1.2769996121425025,
+    "pct": 98.60234445446348
+   }
+  },
+  "ret1m": 22.02,
+  "ret3m": 43.32,
+  "ret6m": 127.7,
+  "marketCap": "10.61B",
+  "volx": null,
+  "volSurgeWk": 1.07,
+  "high52": 99.61,
+  "newHigh52": false,
+  "adr": 5.95,
+  "div50": 22.52,
+  "div200": 82.23,
+  "targetStatus": true,
+  "saleCy": 38.42,
+  "saleNy": -8.73,
+  "epsCy": -680.3,
+  "epsNy": -27.49,
+  "cyTrend": 21.02,
+  "nyTrend": 57.98,
+  "est": {
+   "cyCur": 23.96632,
+   "cy30": 19.80345,
+   "nyCur": 17.3775,
+   "ny30": 11
+  },
+  "fs": null,
+  "qualifiedBy": [
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": "2026-10-14"
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 1
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-15",
+  "nameKo": "PBF 에너지",
+  "nameEn": "PBF ENERGY INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001534504&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 11678300000,
+     "profit": 1272100000,
+     "netIncome": 906400000,
+     "margin": 10.9,
+     "yoy": {
+      "revenue": 56.2,
+      "profit": 2858.4,
+      "netIncome": 17530.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 7904300000,
+     "profit": 299600000,
+     "netIncome": 198300000,
+     "margin": 3.8,
+     "yoy": {
+      "revenue": 11.9,
+      "profit": 158.6,
+      "netIncome": 149.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 7139500000,
+     "profit": 128000000,
+     "netIncome": 78400000,
+     "margin": 1.8,
+     "yoy": {
+      "revenue": -2.9,
+      "profit": 133.4,
+      "netIncome": 127.1,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 7651100000,
+     "profit": 285900000,
+     "netIncome": 170100000,
+     "margin": 3.7,
+     "yoy": {
+      "revenue": -8.7,
+      "profit": 174,
+      "netIncome": 159.5,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "PBF Energy Surges 189.4% in a Year: Should Investors Buy the Stock?",
+     "url": "https://www.nasdaq.com/articles/pbf-energy-surges-1894-year-should-investors-buy-stock",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PBF vs. NTOIY: Which Stock Is the Better Value Option?",
+     "url": "https://www.nasdaq.com/articles/pbf-vs-ntoiy-which-stock-better-value-option",
+     "date": "2026-10-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "PBF Energy (PBF) Is Up 9.62% in One Week: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/pbf-energy-pbf-962-one-week-what-you-should-know",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Zacks Investment Ideas feature highlights: Hewlett, PBF Energy and NetApp",
+     "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-hewlett-pbf-energy-and-netapp",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-14",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000153450426000035/pbf-20261014.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000153450426000033/pbf-20260930.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-17",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "3.02",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526394108/d175053d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-15",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526391405/d175358d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-14",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526389847/d179978d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000153450426000029/pbf-20260730.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Meta, Microsoft, Teladoc & more",
+   "url": "https://www.cnbc.com/2026/07/30/stocks-making-the-biggest-moves-midday-meta-msft-mktx-crox.html",
+   "date": "2026-07-30",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "PBF",
+  "fetchedAt": "2026-10-15",
+  "source": "한국투자증권 Open API",
+  "per": 7.91,
+  "pbr": 1.66,
+  "eps": 11.31,
+  "bps": 54.06,
+  "shares": 118537000,
+  "marketCapM": 10610,
+  "high52": 92.46,
+  "high52Date": "2026-10-14",
+  "low52": 25.1551,
+  "low52Date": "2025-12-18",
+  "last": 89.51,
+  "prevClose": 91.17,
+  "nameKo": "PBF 에너지",
+  "nameEn": "PBF ENERGY INC",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 118537000
+ },
+ "estimates": {
+  "ticker": "PBF",
+  "url": "https://finance.yahoo.com/quote/PBF/analysis/",
+  "fetchedAt": "2026-10-15",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 11.13,
+    "epsLow": 7.17,
+    "epsHigh": 13.56,
+    "epsYearAgo": -0.52,
+    "epsAnalysts": 13,
+    "epsGrowth": "n/m",
+    "epsCur": "USD",
+    "rev": 10573043910,
+    "revAnalysts": 10,
+    "revYearAgo": 7651100000,
+    "revGrowth": 38.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 7.78,
+    "epsLow": 6.41,
+    "epsHigh": 10.07,
+    "epsYearAgo": 0.66,
+    "epsAnalysts": 4,
+    "epsGrowth": "n/m",
+    "epsCur": "USD",
+    "rev": 10040277520,
+    "revAnalysts": 10,
+    "revYearAgo": 7139500000,
+    "revGrowth": 40.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 23.97,
+    "epsLow": 16.35,
+    "epsHigh": 27.6,
+    "epsYearAgo": -4.13,
+    "epsAnalysts": 14,
+    "epsGrowth": "n/m",
+    "epsCur": "USD",
+    "rev": 40602820750,
+    "revAnalysts": 11,
+    "revYearAgo": 29332300000,
+    "revGrowth": 38.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 17.38,
+    "epsLow": 10.6,
+    "epsHigh": 26.4,
+    "epsYearAgo": 28.31,
+    "epsAnalysts": 4,
+    "epsGrowth": -38.6,
+    "epsCur": "USD",
+    "rev": 37057627060,
+    "revAnalysts": 11,
+    "revYearAgo": 40602820750,
+    "revGrowth": -8.7,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 11.13,
+    "d7": 3.7,
+    "d30": 22.3,
+    "d90": 138.7,
+    "ago90": 4.66,
+    "up7": 3,
+    "up30": 6,
+    "down7": 1,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 7.78,
+    "d7": 13.9,
+    "d30": 98.5,
+    "d90": 233.2,
+    "ago90": 2.34,
+    "up7": 2,
+    "up30": 4,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 23.97,
+    "d7": 3.9,
+    "d30": 21,
+    "d90": 152.8,
+    "ago90": 9.48,
+    "up7": 4,
+    "up30": 8,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 17.38,
+    "d7": -1.6,
+    "d30": 58,
+    "d90": 134.6,
+    "ago90": 7.41,
+    "up7": 2,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 6.22,
+    "estimate": 4.12,
+    "surprisePct": 51.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": -0.88,
+    "estimate": -0.9,
+    "surprisePct": 1.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.49,
+    "estimate": -0.11,
+    "surprisePct": 550,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": -0.52,
+    "estimate": -0.75,
+    "surprisePct": 31,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 11,
+   "ptLowered": 0,
+   "total": 12,
+   "recent": [
+    {
+     "date": "2026-10-09",
+     "firm": "Goldman Sachs",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 91,
+     "ptPrior": 81
+    },
+    {
+     "date": "2026-10-08",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 89,
+     "ptPrior": 65
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 91,
+     "ptPrior": 74
+    },
+    {
+     "date": "2026-09-14",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Underweight",
+     "to": "Underweight",
+     "ptAction": "Raises",
+     "pt": 76,
+     "ptPrior": 38
+    },
+    {
+     "date": "2026-08-18",
+     "firm": "Goldman Sachs",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 81,
+     "ptPrior": 71
+    },
+    {
+     "date": "2026-08-04",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 84,
+     "ptPrior": 62
+    },
+    {
+     "date": "2026-08-04",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 65,
+     "ptPrior": 57
+    },
+    {
+     "date": "2026-07-31",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 74,
+     "ptPrior": 65
+    },
+    {
+     "date": "2026-07-24",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 65,
+     "ptPrior": 43
+    },
+    {
+     "date": "2026-07-23",
+     "firm": "Goldman Sachs",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 71,
+     "ptPrior": 51
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-29",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-14",
+  "numbers": {
+   "price": 89.51,
+   "ma20": 79.7,
+   "ma50": 74.92,
+   "ma150": 56.18,
+   "distMA50": 19.47,
+   "periodHigh": 92.46,
+   "pullbackFromHigh": -3.19,
+   "volRatio20": 0.86,
+   "dryUpRatio": 0.84
+  },
+  "last10": [
+   {
+    "d": "2026-10-01",
+    "o": 77.46,
+    "h": 82.37,
+    "l": 77.18,
+    "c": 82.34,
+    "v": 4077400,
+    "clsPos": 99,
+    "gapPct": 0.65
+   },
+   {
+    "d": "2026-10-02",
+    "o": 81.34,
+    "h": 83.36,
+    "l": 77.17,
+    "c": 80.78,
+    "v": 3959500,
+    "clsPos": 58,
+    "gapPct": -1.21
+   },
+   {
+    "d": "2026-10-05",
+    "o": 80.63,
+    "h": 85.08,
+    "l": 80.05,
+    "c": 84.16,
+    "v": 3274300,
+    "clsPos": 82,
+    "gapPct": -0.19
+   },
+   {
+    "d": "2026-10-06",
+    "o": 82.6,
+    "h": 83.53,
+    "l": 80.75,
+    "c": 82.88,
+    "v": 1983100,
+    "clsPos": 77,
+    "gapPct": -1.85
+   },
+   {
+    "d": "2026-10-07",
+    "o": 83.92,
+    "h": 85.75,
+    "l": 82.9,
+    "c": 83.68,
+    "v": 2282500,
+    "clsPos": 27,
+    "gapPct": 1.25
+   },
+   {
+    "d": "2026-10-08",
+    "o": 85.4,
+    "h": 89.48,
+    "l": 84.83,
+    "c": 89.34,
+    "v": 3064200,
+    "clsPos": 97,
+    "gapPct": 2.06
+   },
+   {
+    "d": "2026-10-09",
+    "o": 88.29,
+    "h": 88.58,
+    "l": 83.53,
+    "c": 84.27,
+    "v": 3496400,
+    "clsPos": 15,
+    "gapPct": -1.18
+   },
+   {
+    "d": "2026-10-12",
+    "o": 85.99,
+    "h": 87.78,
+    "l": 84.27,
+    "c": 85.02,
+    "v": 1623700,
+    "clsPos": 21,
+    "gapPct": 2.04
+   },
+   {
+    "d": "2026-10-13",
+    "o": 85.87,
+    "h": 91.53,
+    "l": 85.32,
+    "c": 91.17,
+    "v": 3399200,
+    "clsPos": 94,
+    "gapPct": 1
+   },
+   {
+    "d": "2026-10-14",
+    "o": 91.73,
+    "h": 92.46,
+    "l": 88.17,
+    "c": 89.51,
+    "v": 2976892,
+    "clsPos": 31,
+    "gapPct": 0.61
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PBF-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PBF-6m.png"
+ },
+ "market": {
+  "verdict": "green",
+  "ko": "🟢 10일선이 20일선 위, 둘 다 오르는 중 (넘은 지 19일째) — 사도 되지만 골라서",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

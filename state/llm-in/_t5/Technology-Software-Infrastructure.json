@@ -1,0 +1,1298 @@
+{
+ "key": "Technology|Software - Infrastructure",
+ "sector": "Technology",
+ "industry": "Software - Infrastructure",
+ "industryKo": "인프라 소프트웨어",
+ "frank": 2,
+ "frank25dChg": 4,
+ "finalWrs": 0.3801,
+ "count": 29,
+ "winRatePct": 82.8,
+ "members": [
+  {
+   "ticker": "OKTA",
+   "rs1": 0.18944606148174423,
+   "rs3": 0.5263795781249775,
+   "rs6": 1.8783990795867058,
+   "rnk1": 3.56,
+   "rnk3": 2.12,
+   "rnk6": 0.32,
+   "ret1d": -0.24,
+   "high52": 96.4,
+   "dollarVolM": 525,
+   "marketCap": "39.70B",
+   "name": "옥타"
+  },
+  {
+   "ticker": "CRWD",
+   "rs1": 0.07719900011483892,
+   "rs3": 0.31598561250518037,
+   "rs6": 1.23887885107215,
+   "rnk1": 16.55,
+   "rnk3": 6.9,
+   "rnk6": 1.58,
+   "ret1d": -0.68,
+   "high52": 91.02,
+   "dollarVolM": 1664.7,
+   "marketCap": "269.31B",
+   "name": "크라우드스트라이크 홀딩스"
+  },
+  {
+   "ticker": "QLYS",
+   "rs1": 0.06872744148862962,
+   "rs3": 0.2669310404587727,
+   "rs6": 1.2332319090850687,
+   "rnk1": 18.98,
+   "rnk3": 9.33,
+   "rnk6": 1.67,
+   "ret1d": 0.68,
+   "high52": 96.05,
+   "dollarVolM": 136.1,
+   "marketCap": "6.81B",
+   "name": "퀄리스"
+  },
+  {
+   "ticker": "PANW",
+   "rs1": 0.05849263551577669,
+   "rs3": 0.13873112662519055,
+   "rs6": 1.191114820452807,
+   "rnk1": 21.6,
+   "rnk3": 19.7,
+   "rnk6": 1.94,
+   "ret1d": -1.68,
+   "high52": 91.83,
+   "dollarVolM": 1386,
+   "marketCap": "330.33B",
+   "name": "팰로 앨토 네트웍스"
+  },
+  {
+   "ticker": "FTNT",
+   "rs1": 0.10668909851245172,
+   "rs3": 0.18957342093276341,
+   "rs6": 1.1903777991530486,
+   "rnk1": 10.78,
+   "rnk3": 14.02,
+   "rnk6": 2.03,
+   "ret1d": -1.13,
+   "high52": 96.77,
+   "dollarVolM": 529.5,
+   "marketCap": "141.56B",
+   "name": "포티넷"
+  },
+  {
+   "ticker": "NTAP",
+   "rs1": 0.2612496032365271,
+   "rs3": 0.48640550039229413,
+   "rs6": 1.1642650494487043,
+   "rnk1": 1.49,
+   "rnk3": 2.93,
+   "rnk6": 2.3,
+   "ret1d": -0.07,
+   "high52": 99.23,
+   "dollarVolM": 563.9,
+   "marketCap": "46.98B",
+   "name": "넷앱"
+  },
+  {
+   "ticker": "RBRK",
+   "rs1": 0.14408496117076686,
+   "rs3": 0.5153492038661454,
+   "rs6": 1.1446415210172618,
+   "rnk1": 5.82,
+   "rnk3": 2.39,
+   "rnk6": 2.48,
+   "ret1d": -1.28,
+   "high52": 92.63,
+   "dollarVolM": 271.2,
+   "marketCap": "23.61B",
+   "name": "루브릭"
+  },
+  {
+   "ticker": "TWLO",
+   "rs1": 0.16282619788360547,
+   "rs3": 0.37200345352392594,
+   "rs6": 0.871651725155988,
+   "rnk1": 4.37,
+   "rnk3": 4.91,
+   "rnk6": 4.01,
+   "ret1d": -0.38,
+   "high52": 91.31,
+   "dollarVolM": 455.1,
+   "marketCap": "43.41B",
+   "name": "트윌리오"
+  },
+  {
+   "ticker": "NTNX",
+   "rs1": 0.071922334803517,
+   "rs3": 0.32244595257232833,
+   "rs6": 0.7578388534193803,
+   "rnk1": 18.08,
+   "rnk3": 6.36,
+   "rnk6": 4.82,
+   "ret1d": -1.7,
+   "high52": 95.92,
+   "dollarVolM": 163,
+   "marketCap": "18.90B",
+   "name": "누타닉스"
+  },
+  {
+   "ticker": "NET",
+   "rs1": 0.06255539080600518,
+   "rs3": 0.2763379893866227,
+   "rs6": 0.6751783402236564,
+   "rnk1": 20.51,
+   "rnk3": 8.88,
+   "rnk6": 5.28,
+   "ret1d": -0.9,
+   "high52": 93.88,
+   "dollarVolM": 607,
+   "marketCap": "124.94B",
+   "name": "클라우드플레어"
+  },
+  {
+   "ticker": "ZS",
+   "rs1": 0.1793285078235823,
+   "rs3": 0.5262314276041685,
+   "rs6": 0.6028318925582762,
+   "rnk1": 3.92,
+   "rnk3": 2.21,
+   "rnk6": 6.36,
+   "ret1d": 1.28,
+   "high52": 67.85,
+   "dollarVolM": 692.3,
+   "marketCap": "36.81B",
+   "name": "지스케일러"
+  },
+  {
+   "ticker": "FFIV",
+   "rs1": 0.10527289462851536,
+   "rs3": 0.15614676323058693,
+   "rs6": 0.5304325517179697,
+   "rnk1": 11.14,
+   "rnk3": 17.45,
+   "rnk6": 6.99,
+   "ret1d": 0.58,
+   "high52": 98.54,
+   "dollarVolM": 336.3,
+   "marketCap": "26.81B",
+   "name": "F5"
+  },
+  {
+   "ticker": "MDB",
+   "rs1": -0.012179961182954276,
+   "rs3": 0.15372966422734918,
+   "rs6": 0.3840988183468223,
+   "rnk1": 55.95,
+   "rnk3": 17.81,
+   "rnk6": 10.23,
+   "ret1d": -2.16,
+   "high52": 78.86,
+   "dollarVolM": 1130.4,
+   "marketCap": "30.67B",
+   "name": null
+  },
+  {
+   "ticker": "PLTR",
+   "rs1": 0.2092605535537876,
+   "rs3": 0.5474229790450499,
+   "rs6": 0.36725203017285163,
+   "rnk1": 3.02,
+   "rnk3": 1.76,
+   "rnk6": 11.5,
+   "ret1d": -0.16,
+   "high52": 97.99,
+   "dollarVolM": 3867.9,
+   "marketCap": "502.24B",
+   "name": null
+  },
+  {
+   "ticker": "DOCN",
+   "rs1": 0.08790842913774893,
+   "rs3": 0.07658082673964167,
+   "rs6": 0.34223211075849297,
+   "rnk1": 13.93,
+   "rnk3": 29.8,
+   "rnk6": 12.31,
+   "ret1d": -2.44,
+   "high52": 68.38,
+   "dollarVolM": 276,
+   "marketCap": "15.45B",
+   "name": null
+  },
+  {
+   "ticker": "MSFT",
+   "rs1": 0.09319684893970569,
+   "rs3": 0.35343420885626187,
+   "rs6": 0.2603998664559084,
+   "rnk1": 12.94,
+   "rnk3": 5.46,
+   "rnk6": 17.45,
+   "ret1d": 0.43,
+   "high52": 98.6,
+   "dollarVolM": 12962.4,
+   "marketCap": "4018.33B",
+   "name": null
+  },
+  {
+   "ticker": "CPAY",
+   "rs1": -0.021213964185124157,
+   "rs3": 0.08075175320296975,
+   "rs6": 0.20683396241806995,
+   "rnk1": 59.83,
+   "rnk3": 28.63,
+   "rnk6": 22.14,
+   "ret1d": 0.36,
+   "high52": 93.37,
+   "dollarVolM": 197.1,
+   "marketCap": "26.11B",
+   "name": null
+  },
+  {
+   "ticker": "AFRM",
+   "rs1": 0.08045503324168322,
+   "rs3": 0.03412107946411505,
+   "rs6": 0.16987079074122924,
+   "rnk1": 15.92,
+   "rnk3": 39.81,
+   "rnk6": 26.19,
+   "ret1d": -0.94,
+   "high52": 86.12,
+   "dollarVolM": 232.1,
+   "marketCap": "23.79B",
+   "name": null
+  },
+  {
+   "ticker": "GDDY",
+   "rs1": 0.0063489113431989845,
+   "rs3": 0.08635599702289494,
+   "rs6": 0.16549770362996055,
+   "rnk1": 44.23,
+   "rnk3": 27.64,
+   "rnk6": 26.74,
+   "ret1d": 0.69,
+   "high52": 74.7,
+   "dollarVolM": 115.7,
+   "marketCap": "13.05B",
+   "name": null
+  },
+  {
+   "ticker": "KSPI",
+   "rs1": -0.02723777220757484,
+   "rs3": 0.11378196594957128,
+   "rs6": 0.16171180446768835,
+   "rnk1": 62.89,
+   "rnk3": 22.95,
+   "rnk6": 27.55,
+   "ret1d": -1.13,
+   "high52": 89.3,
+   "dollarVolM": 40.1,
+   "marketCap": "18.26B",
+   "name": null
+  },
+  {
+   "ticker": "VRSN",
+   "rs1": 0.015138262302918008,
+   "rs3": 0.09018359007807854,
+   "rs6": 0.12460032793780078,
+   "rnk1": 39.63,
+   "rnk3": 26.74,
+   "rnk6": 32.78,
+   "ret1d": -0.31,
+   "high52": 96.85,
+   "dollarVolM": 209.9,
+   "marketCap": "27.36B",
+   "name": null
+  },
+  {
+   "ticker": "XYZ",
+   "rs1": -0.01851611535496804,
+   "rs3": -0.030646995549471798,
+   "rs6": 0.060137939453125,
+   "rnk1": 58.84,
+   "rnk3": 57.75,
+   "rnk6": 45.22,
+   "ret1d": 0.05,
+   "high52": 88.43,
+   "dollarVolM": 324.2,
+   "marketCap": "45.57B",
+   "name": null
+  },
+  {
+   "ticker": "SNPS",
+   "rs1": 0.3448735201215989,
+   "rs3": 0.30663748066041374,
+   "rs6": 0.03614382023851361,
+   "rnk1": 0.95,
+   "rnk3": 7.35,
+   "rnk6": 50.45,
+   "ret1d": -1.59,
+   "high52": 91.66,
+   "dollarVolM": 1246.3,
+   "marketCap": "96.30B",
+   "name": null
+  },
+  {
+   "ticker": "AKAM",
+   "rs1": -0.05189754403713242,
+   "rs3": -0.1884187238345624,
+   "rs6": 0.02903923053341653,
+   "rnk1": 75.34,
+   "rnk3": 91.93,
+   "rnk6": 51.8,
+   "ret1d": -1.69,
+   "high52": 60.4,
+   "dollarVolM": 483,
+   "marketCap": "14.61B",
+   "name": null
+  },
+  {
+   "ticker": "CHKP",
+   "rs1": -0.020320690394071896,
+   "rs3": -0.00545192851741068,
+   "rs6": -0.04721899723644447,
+   "rnk1": 59.47,
+   "rnk3": 50.36,
+   "rnk6": 68.21,
+   "ret1d": 0.5,
+   "high52": 64.08,
+   "dollarVolM": 114.4,
+   "marketCap": "13.71B",
+   "name": null
+  },
+  {
+   "ticker": "WEX",
+   "rs1": -0.1267992547231664,
+   "rs3": 0.0686280558059695,
+   "rs6": -0.055264080282703056,
+   "rnk1": 96.08,
+   "rnk3": 31.33,
+   "rnk6": 70.11,
+   "ret1d": 1.19,
+   "high52": 85.65,
+   "dollarVolM": 100.3,
+   "marketCap": "5.88B",
+   "name": null
+  },
+  {
+   "ticker": "WIX",
+   "rs1": -0.1312666956518365,
+   "rs3": 0.34445271820053813,
+   "rs6": -0.06685743461599722,
+   "rnk1": 96.35,
+   "rnk3": 5.73,
+   "rnk6": 72.63,
+   "ret1d": -3.28,
+   "high52": 48.37,
+   "dollarVolM": 68.9,
+   "marketCap": "3.11B",
+   "name": null
+  },
+  {
+   "ticker": "ORCL",
+   "rs1": 0.02407987267686845,
+   "rs3": 0.18412942512895486,
+   "rs6": -0.23077518902031396,
+   "rnk1": 34.94,
+   "rnk3": 14.56,
+   "rnk6": 92.29,
+   "ret1d": 4.23,
+   "high52": 44.99,
+   "dollarVolM": 3769.9,
+   "marketCap": "416.50B",
+   "name": null
+  },
+  {
+   "ticker": "CRWV",
+   "rs1": -0.038433028679245425,
+   "rs3": 0.06501505829083178,
+   "rs6": -0.3650236904092086,
+   "rnk1": 69.03,
+   "rnk3": 32.15,
+   "rnk6": 98.33,
+   "ret1d": -3.05,
+   "high52": 51.74,
+   "dollarVolM": 2667.7,
+   "marketCap": "44.27B",
+   "name": null
+  }
+ ],
+ "evidence": {
+  "OKTA": {
+   "cnbc": [
+    {
+     "title": "Cramer’s week ahead: What to watch as Wall Street navigates a tough September",
+     "url": "https://www.cnbc.com/2026/09/18/jim-cramer-week-ahead-costco-okta.html",
+     "date": "2026-09-18",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Cramer bets AI spending will 'continue apace,' says he's not giving up on data center trade",
+     "url": "https://www.cnbc.com/2026/09/16/cramer-ai-slowdown-stocks-dip.html",
+     "date": "2026-09-16",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks are entering tough period. Buy these small, mid-cap names, Jefferies says",
+     "url": "https://www.cnbc.com/2026/08/28/buy-these-small-mid-cap-names-to-withstand-rocky-markets-jefferies.html",
+     "date": "2026-08-28",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves midday: Nvidia, Hormel, HP, Best Buy & more",
+     "url": "https://www.cnbc.com/2026/08/27/stocks-making-the-biggest-moves-midday-nvda-okta-hrl-veev.html",
+     "date": "2026-08-27",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Okta skyrockets 29% and CrowdStrike surges 20%, leading broad cyber stock rally",
+     "url": "https://www.cnbc.com/2026/08/27/okta-skyrockets-20percent-and-crowdstrike-surges-15percent-leading-cyber-rally.html",
+     "date": "2026-08-27",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Watch CNBC's full interview with Okta CEO Todd McKinnon",
+     "url": "https://www.cnbc.com/video/2026/09/23/watch-cnbcs-full-interview-with-okta-ceo-todd-mckinnon.html",
+     "date": "2026-09-23",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[옥타 (NAS:OKTA)] AI 에이전트 시대가 여는 기회",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "date": "2026-09-17",
+     "summary": "- Okta는 기업용 Identity 보안 플랫폼, 벤더 중립성과 폭넓은 연동 생태계가 강점- 대형 고객 강세와 OIG 중심 신제품 판매 증가로 Q2 호실적 및 cRPO 성장 재가속- AI 에이전트는 초기 대형 계약과 개방형 표준 선점 진행 중, 중장기 성장 동력 기대",
+     "url": "https://rreport.einfomax.co.kr/report/eqlmxlzgkgmikeggcgxecez.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": [
+    {
+     "title": "Amerx Initiates Coverage of Okta at Hold",
+     "url": "https://www.nasdaq.com/articles/amerx-initiates-coverage-okta-hold",
+     "date": "2026-10-09",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Why the Market Dipped But Okta (OKTA) Gained Today",
+     "url": "https://www.nasdaq.com/articles/why-market-dipped-okta-okta-gained-today",
+     "date": "2026-10-08",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "CRWD": {
+   "cnbc": [
+    {
+     "title": "Dan Ives says AI buildout only in 3rd inning. Here are his top 5 plays from here",
+     "url": "https://www.cnbc.com/2026/10/07/dan-ives-says-ai-buildout-only-in-3rd-inning-here-are-his-top-5-plays-from-here-.html",
+     "date": "2026-10-07",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "What's behind an 'explosion of buying' Tuesday, including the rally in GE Vernova",
+     "url": "https://www.cnbc.com/investingclub/2026/10/06/whats-behind-an-explosion-of-buying-tuesday-including-the-rally-in-ge-vernova.html",
+     "date": "2026-10-06",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Tuesday's stock stories: What’s likely to move the market in the next session",
+     "url": "https://www.cnbc.com/2026/10/05/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+     "date": "2026-10-05",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Software roared back last quarter. Cramer says these stocks can keep climbing",
+     "url": "https://www.cnbc.com/2026/10/01/jim-cramer-software-stocks-q3.html",
+     "date": "2026-10-01",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "What the market needs to branch out beyond AI stocks. Plus, a win for CrowdStrike",
+     "url": "https://www.cnbc.com/investingclub/2026/09/28/what-the-market-needs-to-branch-out-beyond-ai-stocks-plus-a-win-for-crowdstrike-.html",
+     "date": "2026-09-28",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Thursday's stock stories: What’s likely to move the market in the next session",
+     "url": "https://www.cnbc.com/2026/09/23/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
+     "date": "2026-09-23",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] 에이전트 부상과 함께 AI-보완 동행 지속",
+     "broker": "신한투자증권",
+     "analyst": "심지현",
+     "date": "2026-10-02",
+     "summary": "- 통합 플랫폼 내에서 여러 보안 영역으로 확장하는 특징- 에이전트 실행 환경인 엔드포인트 보안의 중요도 부각- 고성능 AI 모델이 침해 속도를 늘려 역으로 보안 수요를 높이는 구조",
+     "url": "https://rreport.einfomax.co.kr/report/eqmclmmxiqlqcgegcgxecez.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] 보안 SaaS 성장 재가속 중",
+     "broker": "LS증권",
+     "analyst": "선유진",
+     "date": "2026-08-28",
+     "summary": "- 사이버보안 통합 솔루션 기업- FY 2Q27 Review: 보안 SaaS 성장 재가속 중- 국내 소프트웨어 시사점",
+     "url": "https://rreport.einfomax.co.kr/report/eqlqlqiggmcikmegcgxecez.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] AI 막는 AI : AIDR",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "date": "2026-08-27",
+     "summary": "- CrowdStrike는 클라우드 네이티브 기반 글로벌 1위 보안 플랫폼 기업- FY27 2Q 신규 ARR 3.33억 달러로 사상 최대, 가이던스 상단을 16% 상회- AI 보안 수요의 확산 속도와 하반기 현금흐름 목표 달성 여부가 중요",
+     "url": "https://rreport.einfomax.co.kr/report/eqlqlxqliemlxeqgcgxecez.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] AI 보안 수요의 시급성이 모멘텀 지지",
+     "broker": "신한투자증권",
+     "analyst": "심지현",
+     "date": "2026-08-27",
+     "summary": "- 엔드포인트, AIDR, SIEM, 아이덴티티 등 부문 전반의 호조- FY2Q27 Review: AI 보안 필요성 가속 및 AI랩 대비 데이터 경쟁 우위- Valuation: AI 보안 수요와 Falcon Flex는 향후 ARR 순증의 핵심 변수",
+     "url": "https://rreport.einfomax.co.kr/report/eqlqlxxzikleqzxgcgxecez.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[크라우드스트라이크 홀딩스 (NAS:CRWD)] AI 보안 수요, 내러티브에서 숫자로",
+     "broker": "하나증권",
+     "analyst": "김재임",
+     "date": "2026-08-27",
+     "summary": "- 2Q Beat & FY27년 가이던스 큰 폭으로 상향, 향후 추가적인 상향 조정 가능성- AIDR(AI보안) ARR 1분기 대비 3배 증가, Flex 모델 기반 ARR +101%- 소수의 보안 통합 플랫폼 사업자에 대한 투자 심리 더욱 좋아질 것",
+     "url": "https://rreport.einfomax.co.kr/report/eqlqlekiglixclzgcgxecez.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": [
+    {
+     "title": "CrowdStrike Holdings (CRWD) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+     "url": "https://www.nasdaq.com/articles/crowdstrike-holdings-crwd-sees-more-significant-dip-broader-market-some-facts-know",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can Unified Platform Strategy Boost CRWD's Revenue Growth?",
+     "url": "https://www.nasdaq.com/articles/can-unified-platform-strategy-boost-crwds-revenue-growth",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "QLYS": {
+   "cnbc": [
+    {
+     "title": "AI stocks sink while cybersecurity shares rally on slowdown fears",
+     "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html",
+     "date": "2026-09-14",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "2 Top Cybersecurity Stocks to Buy Amid AI Safety Fears: FTNT, QLYS",
+     "url": "https://www.nasdaq.com/articles/2-top-cybersecurity-stocks-buy-amid-ai-safety-fears-ftnt-qlys",
+     "date": "2026-09-14",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "PANW": {
+   "cnbc": [
+    {
+     "title": "Top Wall Street analysts are upbeat about the prospects for these 3 stocks",
+     "url": "https://www.cnbc.com/2026/10/04/top-analysts-are-upbeat-about-the-prospects-for-these-3-stocks.html",
+     "date": "2026-10-04",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Palo Alto CEO says slowing down AI is ‘unrealistic’, extinction threat ‘extremely small’",
+     "url": "https://www.cnbc.com/2026/09/24/palo-alto-networks-nikesh-arora-ai-slowdown.html",
+     "date": "2026-09-24",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Thursday's stock stories: What’s likely to move the market in the next session",
+     "url": "https://www.cnbc.com/2026/09/23/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
+     "date": "2026-09-23",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Cramer bets AI spending will 'continue apace,' says he's not giving up on data center trade",
+     "url": "https://www.cnbc.com/2026/09/16/cramer-ai-slowdown-stocks-dip.html",
+     "date": "2026-09-16",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Cramer's lightning round: Buy Energy Transfer",
+     "url": "https://www.cnbc.com/2026/09/14/cramers-lightning-round-buy-energy-transfer.html",
+     "date": "2026-09-14",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Cybersecurity must move at the speed of AI: Palo Alto Networks Executive",
+     "url": "https://www.cnbc.com/video/2026/10/14/cybersecurity-must-move-at-the-speed-of-ai-palo-alto-networks-executive.html",
+     "date": "2026-10-14",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] FY2030E 장기 성장 목표 상회 여지가 주요 포인트",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "date": "2026-09-11",
+     "summary": "- FY4Q26 실적과 다음 분기, 연간 가이던스는 시장 컨센서스를 상회- 연간 ARR과 RPO 가이던스가 시장 기대치에 다소 미치지 못해 주가 하락- AI Agent 시대에 연간 ARR 성장률이 가속화될 수 있을지 여부에 주목해야",
+     "url": "https://rreport.einfomax.co.kr/report/eqlmcleeczzqeqlgcgxecez.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] [4Q26 Review] 선행지표는 최고, 밸류는 90배, 투자의견 중립 유지",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-09-01",
+     "summary": "- Q4 매출 34.1억 달러·EPS 1.02달러로 가이던스 상회- FY27 밴드는 컨센서스 위, NGS ARR은 22~23%로 감속- NTM PER 91.9배, 목표가 평균까지 여유 3%",
+     "url": "https://rreport.einfomax.co.kr/report/eqllieeexmexmxcgcgxecez.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] [4Q26 Preview] 3개월 87% 오른 주식이 실적으로 그 값을 증명할까, 투자의견 중립 하향",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-08-24",
+     "summary": "- 팔로알토 네트웍스, 3개월 주가 87% 상승해 선행 PER 75배까지 확대, 밸류에이션 부담 상승- 차세대 보안 ARR은 60% 증가했지만 인수 효과 제외 시 28%, 유기적 성장 둔화 여부가 핵심- FY27 가이던스와 마진 회복이 주가 방향 좌우, 투자의견 매수에서 중립으로 하향",
+     "url": "https://rreport.einfomax.co.kr/report/eqlqzglqilizkqkgcgxecez.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] [Issue & News] 중국 CAC, 사이버보안 심사 착수 - 마이크론식 조달금지 리스크 부상",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-08-06",
+     "summary": "- 중국 CAC, 팔로알토 제품 사이버보안 심사 착수- 2023년 마이크론 심사·조달금지 사례와 유사한 절차- 中매출 미공시로 실적 영향 크기 파악 어려움",
+     "url": "https://rreport.einfomax.co.kr/report/eqlxczlecmeceelgcgxecez.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[팰로 앨토 네트웍스 (NAS:PANW)] AI 에이전트 시대의 필요 조건은 사이버 보안",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "date": "2026-08-04",
+     "summary": "- 보안 프로세스 전체를 아우르는 토탈 보안 솔루션 플랫폼 업체를 목표- 프런티어 업체와 긴밀한 연계 및 상호 교차검증 수요 증가로 성장 기대- 장기적으로 프런티어 업체의 보안 솔루션 내재화 여지는 잠재적 리스크",
+     "url": "https://rreport.einfomax.co.kr/report/eqlzqmxgmmkzqzlgcgxecez.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": [
+    {
+     "title": "Palo Alto Networks (PANW) Declines More Than Market: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/palo-alto-networks-panw-declines-more-market-some-information-investors",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "S&P 500 Analyst Moves: PANW",
+     "url": "https://www.nasdaq.com/articles/sp-500-analyst-moves-panw",
+     "date": "2026-10-13",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Palo Alto (PANW) Is Considered a Good Investment by Brokers: Is That True?",
+     "url": "https://www.nasdaq.com/articles/palo-alto-panw-considered-good-investment-brokers-true",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here is What to Know Beyond Why Palo Alto Networks, Inc. (PANW) is a Trending Stock",
+     "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-palo-alto-networks-inc-panw-trending-stock",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "FTNT": {
+   "cnbc": [
+    {
+     "title": "Thursday's stock stories: What’s likely to move the market in the next session",
+     "url": "https://www.cnbc.com/2026/09/23/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
+     "date": "2026-09-23",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Goldman’s latest cash cow is all about funding the AI infrastructure boom",
+     "url": "https://www.cnbc.com/investingclub/2026/08/14/goldmans-latest-cash-cow-is-all-about-funding-the-ai-infrastructure-boom.html",
+     "date": "2026-08-14",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Cramer's lightning round: 'Fortinet is good",
+     "url": "https://www.cnbc.com/2026/08/05/cramers-lightning-round-fortinet-is-good.html",
+     "date": "2026-08-05",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Intel foundry lands key customer for CEO Tan, as Fortinet signs on for security chips",
+     "url": "https://www.cnbc.com/2026/07/21/intel-foundry-lands-fortinet-as-first-customer-for-security-chips.html",
+     "date": "2026-07-21",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "AI's regulatory divide: The investment committee's strategy",
+     "url": "https://www.cnbc.com/video/2026/09/15/ais-regulatory-divide-the-investment-committees-strategy.html",
+     "date": "2026-09-15",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Watch CNBC's full interview with tech strategist Dan Ives",
+     "url": "https://www.cnbc.com/video/2026/07/01/watch-cnbcs-full-interview-with-tech-strategist-dan-ives.html",
+     "date": "2026-07-01",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Fortinet (FTNT) Outperforms Broader Market: What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/fortinet-ftnt-outperforms-broader-market-what-you-need-know",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Computer and Technology Stocks Lagging  Fortinet (FTNT) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-computer-and-technology-stocks-lagging-fortinet-ftnt-year",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "NTAP": {
+   "cnbc": [
+    {
+     "title": "Dell stock plunges 11%, leading data center sell-off as fears mount about 'AI timing'",
+     "url": "https://www.cnbc.com/2026/10/14/dell-stock-barclays-enterprise-ai.html",
+     "date": "2026-10-14",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "NetApp has had a strong 2026. It could get even better, Evercore ISI says",
+     "url": "https://www.cnbc.com/2026/10/07/netapp-has-had-a-strong-2026-it-could-get-better-evercore-isi-says.html",
+     "date": "2026-10-07",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves midday: NetApp, MarineMax, Doximity & more",
+     "url": "https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-midday-ntap-intc-aapl-docs-vrsk.html",
+     "date": "2026-08-10",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "AI tech creators are responsible for building in the security controls",
+     "url": "https://www.cnbc.com/video/2026/10/06/ai-tech-creators-are-responsible-for-building-in-the-security-controls.html",
+     "date": "2026-10-06",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Watch CNBC's full interview with NetApp CEO George Kurian",
+     "url": "https://www.cnbc.com/video/2026/09/03/watch-cnbcs-full-interview-with-netapp-ceo-george-kurian.html",
+     "date": "2026-09-03",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "NetApp CEO George Kurian: We had a record-setting quarter; we see really good momentum",
+     "url": "https://www.cnbc.com/video/2026/09/03/netapp-ceo-george-kurian-we-had-a-record-setting-quarter-we-see-really-good-momentum.html",
+     "date": "2026-09-03",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "NetApp (NTAP) Registers a Bigger Fall Than the Market: Important Facts to Note",
+     "url": "https://www.nasdaq.com/articles/netapp-ntap-registers-bigger-fall-market-important-facts-note",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Computer and Technology Stocks Lagging  NetApp (NTAP) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-computer-and-technology-stocks-lagging-netapp-ntap-year",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Bull of the Day: NetApp (NTAP)",
+     "url": "https://www.nasdaq.com/articles/bull-day-netapp-ntap",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "NetApp (NTAP) Falls More Steeply Than Broader Market: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/netapp-ntap-falls-more-steeply-broader-market-what-investors-need-know-0",
+     "date": "2026-10-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cash Dividend On The Way From NetApp (NTAP)",
+     "url": "https://www.nasdaq.com/articles/cash-dividend-way-netapp-ntap",
+     "date": "2026-10-08",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "RBRK": {
+   "cnbc": [
+    {
+     "title": "Stocks making the biggest moves midday: Amazon, Marvell, PayPal & more",
+     "url": "https://www.cnbc.com/2026/08/28/stocks-making-the-biggest-moves-midday-amzn-mrvl-pypl-crm.html",
+     "date": "2026-08-28",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves premarket: PayPal, Affirm Holdings, Gap, Marvell",
+     "url": "https://www.cnbc.com/2026/08/28/stocks-making-the-biggest-moves-premarket-pypl-afrm-gap-mrvl.html",
+     "date": "2026-08-28",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves after hours: Gap, Workday, Autodesk and more",
+     "url": "https://www.cnbc.com/2026/08/27/stocks-making-the-biggest-moves-after-hours-gap-wday-adsk-and-more.html",
+     "date": "2026-08-27",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Rubrik CEO: UK ahead of the curve on cybersecurity",
+     "url": "https://www.cnbc.com/video/2026/09/08/rubrik-ceo-u-k-ahead-of-the-curve-on-cybersecurity.html",
+     "date": "2026-09-08",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "RBRK Crosses Above Average Analyst Target",
+     "url": "https://www.nasdaq.com/articles/rbrk-crosses-above-average-analyst-target-0",
+     "date": "2026-10-06",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Rubrik (RBRK) Q2 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/rubrik-rbrk-q2-2027-earnings-call-transcript",
+     "date": "2026-08-31",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "TWLO": {
+   "cnbc": [
+    {
+     "title": "Stocks making big moves midday: Akamai Technologies, Genius Sports, People Inc",
+     "url": "https://www.cnbc.com/2026/09/25/stocks-making-the-biggest-moves-midday-akam-geni-ppli.html",
+     "date": "2026-09-25",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+     "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+     "date": "2026-08-07",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves after hours: Lyft, Airbnb, DraftKings and more",
+     "url": "https://www.cnbc.com/2026/08/06/stocks-making-the-biggest-moves-after-hours-sg-abnb-dkng-ttd.html",
+     "date": "2026-08-06",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves premarket: Delta, Circle, Intel and more",
+     "url": "https://www.cnbc.com/2026/07/10/stocks-making-the-biggest-moves-premarket-dal-crcl-intc-more-.html",
+     "date": "2026-07-10",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Twilio CEO: Voice AI penetration rate is extraordinarily low",
+     "url": "https://www.cnbc.com/video/2026/10/13/twilio-ceo-voice-ai-penetration-rate-is-extraordinarily-low.html",
+     "date": "2026-10-13",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Twilio (TWLO) Declines More Than Market: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/twilio-twlo-declines-more-market-some-information-investors",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Will Twilio (TWLO) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-twilio-twlo-beat-estimates-again-its-next-earnings-report",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Twilio (TWLO) Suffers a Larger Drop Than the General Market: Key Insights",
+     "url": "https://www.nasdaq.com/articles/twilio-twlo-suffers-larger-drop-general-market-key-insights",
+     "date": "2026-10-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Twilio (TWLO) Outperforms Broader Market: What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/twilio-twlo-outperforms-broader-market-what-you-need-know-0",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "NTNX": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Nutanix (NTNX) Outperforms Broader Market: What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/nutanix-ntnx-outperforms-broader-market-what-you-need-know",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Nutanix (NTNX) Laps the Stock Market: Here's Why",
+     "url": "https://www.nasdaq.com/articles/nutanix-ntnx-laps-stock-market-heres-why",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "NET": {
+   "cnbc": [
+    {
+     "title": "Cramer’s AI infrastructure picks",
+     "url": "https://www.cnbc.com/2026/10/01/jim-cramer-akamai-ai-traffic.html",
+     "date": "2026-10-01",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Thursday's stock stories: What’s likely to move the market in the next session",
+     "url": "https://www.cnbc.com/2026/09/23/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
+     "date": "2026-09-23",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "AI is giving this cybersecurity stock more juice. Grasso says ride the momentum",
+     "url": "https://www.cnbc.com/2026/09/17/investor-steve-grasso-is-buying-cloudflare.html",
+     "date": "2026-09-17",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Cramer's lightning round: 'I like Vistra'",
+     "url": "https://www.cnbc.com/2026/08/12/cramers-lightning-round-i-like-vistra.html",
+     "date": "2026-08-12",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Final Trades: XLV, DAL, GOOGL, NET",
+     "url": "https://www.cnbc.com/video/2026/10/07/final-trades-xlv-dal-googl-net.html",
+     "date": "2026-10-07",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "KKM Financial’s Jeff Kilburg on buying the 'net' names",
+     "url": "https://www.cnbc.com/video/2026/10/05/kkm-financialas-jeff-kilburg-on-buying-the-net-names.html",
+     "date": "2026-10-05",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Cloudflare (NET) Suffers a Larger Drop Than the General Market: Key Insights",
+     "url": "https://www.nasdaq.com/articles/cloudflare-net-suffers-larger-drop-general-market-key-insights",
+     "date": "2026-10-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cloudflare, Inc. (NET) Is a Trending Stock: Facts to Know Before Betting on It",
+     "url": "https://www.nasdaq.com/articles/cloudflare-inc-net-trending-stock-facts-know-betting-it",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cloudflare (NET) Laps the Stock Market: Here's Why",
+     "url": "https://www.nasdaq.com/articles/cloudflare-net-laps-stock-market-heres-why-0",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "ZS": {
+   "cnbc": [
+    {
+     "title": "One cybersecurity stock has lagged of late. Jay Woods says the charts are now turning bullish",
+     "url": "https://www.cnbc.com/2026/09/17/one-cybersecurity-stock-has-lagged-of-late-jay-woods-says-the-charts-are-now-turning-bullish.html",
+     "date": "2026-09-17",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "The jobs report, Lululemon earnings and more: Morning Squawk",
+     "url": "https://www.cnbc.com/2026/09/04/5-things-to-know-before-the-market-opens-friday.html",
+     "date": "2026-09-04",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Friday's big stock stories: What’s likely to move the market in the next session",
+     "url": "https://www.cnbc.com/2026/09/03/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+     "date": "2026-09-03",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves after hours: Lululemon, Zscaler & more",
+     "url": "https://www.cnbc.com/2026/09/03/stocks-making-the-biggest-moves-after-hours-lulu-zs-gwre.html",
+     "date": "2026-09-03",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Zscaler CEO Jay Chaudhry on cybersecurity in the age of AI, company growth outlook",
+     "url": "https://www.cnbc.com/video/2026/10/06/zscaler-ceo-jay-chaudhry-on-cybersecurity-in-the-age-of-ai-company-growth-outlook.html",
+     "date": "2026-10-06",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Final Trade: HQY, EEM, C, ZS",
+     "url": "https://www.cnbc.com/video/2026/10/05/final-trade-hqy-eem-c-zs.html",
+     "date": "2026-10-05",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Zscaler (ZS) Falls More Steeply Than Broader Market: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/zscaler-zs-falls-more-steeply-broader-market-what-investors-need-know",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Investors Heavily Search Zscaler, Inc. (ZS): Here is What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/investors-heavily-search-zscaler-inc-zs-here-what-you-need-know-0",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Zscaler (ZS) Rises As Market Takes a Dip: Key Facts",
+     "url": "https://www.nasdaq.com/articles/zscaler-zs-rises-market-takes-dip-key-facts",
+     "date": "2026-10-08",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "FFIV": {
+   "cnbc": [
+    {
+     "title": "Stocks making the biggest moves after hours: Cadence Design, Rambus and more",
+     "url": "https://www.cnbc.com/2026/07/27/stocks-making-the-biggest-moves-after-hours-cdns-rmbs-well.html",
+     "date": "2026-07-27",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "VTEX or FFIV: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/vtex-or-ffiv-which-better-value-stock-right-now",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "BILL or FFIV: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/bill-or-ffiv-which-better-value-stock-right-now",
+     "date": "2026-09-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "DV or FFIV: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/dv-or-ffiv-which-better-value-stock-right-now",
+     "date": "2026-08-20",
+     "publisher": "Zacks"
+    }
+   ]
+  }
+ },
+ "industryReports": [
+  {
+   "title": "[아이온큐 (NYS:IONQ)] [Issue & News] 사이버보안 업체 엘리시티 최대 13억 달러에 인수 - 본업과 거리가 있어 단기 주가 하방 압력 우려",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-10-12",
+   "summary": "- 아이온큐, 사이버보안 업체 엘리시티 최대 13 억달러 인수 추진- SkyWater·Nexus 이어 M&A 확장, 코어 사업과는 다른 영역- 영업권 비중 44%·주식수 46%↑, 추가 인수시 희석·손상 부담",
+   "url": "https://rreport.einfomax.co.kr/report/eqmelklkixxqiixgcgxecez.pdf",
+   "via": "연합인포맥스",
+   "keyword": "사이버보안"
+  },
+  {
+   "title": "[글로벌 이슈] Muse 이후의 AI 에이전트와 사이버보안",
+   "broker": "신한투자증권",
+   "analyst": "심지현",
+   "date": "2026-10-02",
+   "summary": "- 메타의 Muse 출시와 사이버보안 및 에이전트 테마의 상승- 메타에게는 수익 다각화의 수단, 에이전트 테마에게는 산업 재편의 기회- 사이버보안, 반복되는 보안 사고로 빠르게 도입해야 하는 필요성 증대",
+   "url": "https://rreport.einfomax.co.kr/report/eqmclmxeqllmlzkgcgxecez.pdf",
+   "via": "연합인포맥스",
+   "keyword": "사이버보안"
+  },
+  {
+   "title": "[미국은 지금] 사이버보안, 우위의 이유와 조건",
+   "broker": "키움증권",
+   "analyst": "김승혁",
+   "date": "2026-09-02",
+   "summary": "- 사이버보안의 이유 있는 상대적 우위- 보안 시장 성장 동력의 변화: 강제 → 자발- 자발적 수요가 승부를 가르는 지금 국면에서 유리한 쪽은 성장 플랫폼군- 주가가 강했던 세 가지 이유 > AI 앞에서 처한 위치가 소프트웨어와 정반대라는 점. 둘째, 보안 지출이 경기와 무관한 필수 예산이라는 성격이 재확인. 셋째, 실적이 이 재분류를 숫자로 입증",
+   "url": "https://rreport.einfomax.co.kr/report/eqllilmikmglixggcgxecez.pdf",
+   "via": "연합인포맥스",
+   "keyword": "사이버보안"
+  },
+  {
+   "title": "[팰로 앨토 네트웍스 (NAS:PANW)] [Issue & News] 중국 CAC, 사이버보안 심사 착수 - 마이크론식 조달금지 리스크 부상",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-08-06",
+   "summary": "- 중국 CAC, 팔로알토 제품 사이버보안 심사 착수- 2023년 마이크론 심사·조달금지 사례와 유사한 절차- 中매출 미공시로 실적 영향 크기 파악 어려움",
+   "url": "https://rreport.einfomax.co.kr/report/eqlxczlecmeceelgcgxecez.pdf",
+   "via": "연합인포맥스",
+   "keyword": "사이버보안"
+  },
+  {
+   "title": "[암젠 (NAS:AMGN)] [Issue & News] 클라우드 환경 사이버보안 침해, 중대 사고로 판정 - 환자정보 유출로 규제·소송 리스크 신규 부상",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-08-03",
+   "summary": "- 7월 클라우드 환경서 비인가접근·데이터유출 발생- 7월 29일자 사이버보안 사고 중대성 공식 판정- 유출 규모·비용 미확정, 규제·소송 리스크 신규 부상",
+   "url": "https://rreport.einfomax.co.kr/report/eqlzqekxqxqgklkgcgxecez.pdf",
+   "via": "연합인포맥스",
+   "keyword": "사이버보안"
+  },
+  {
+   "title": "[알파벳 A (NAS:GOOGL)] [Issue & News] 블랙스톤 합작 클라우드 벤처 '크럭스 AI'에 은행 10곳 220억 달러 칩 대출 - CapEx 부담을 나눠지는 새 자금조달 구조",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-09-17",
+   "summary": "- 은행 10곳, 크럭스 AI에 220억달러 칩대출 제공- 블랙스톤·알파벳 합작 신규 AI 클라우드 벤처 확인- CapEx 부담 분산 위한 대차대조표 밖 조달 확대",
+   "url": "https://rreport.einfomax.co.kr/report/eqlmxcliekmmcimgcgxecez.pdf",
+   "via": "연합인포맥스",
+   "keyword": "클라우드"
+  },
+  {
+   "title": "[엔비디아 (NAS:NVDA)] 각잡고 네오클라우드 밀어줄 예정(Feat. 수익 공유)",
+   "broker": "DS투자증권",
+   "analyst": "이규원",
+   "date": "2026-08-28",
+   "summary": "- FY28 매출성장률 +70% YoY 제시. 하이퍼스케일러 외 고객이 성장을 견인- 핵심 포인트: Neocloud와 Revenue sharing 계약의 의미 ‘하이퍼스케일러 견제’- FY28 PER 15.1배에 불과한 AI 대장주",
+   "url": "https://rreport.einfomax.co.kr/report/eqlqlqicegzgkxzgcgxecez.pdf",
+   "via": "연합인포맥스",
+   "keyword": "클라우드"
+  },
+  {
+   "title": "[IREN (NAS:IREN)] [26Q4 Review] AI 클라우드가 채굴을 처음 추월, 투자의견 매수 유지",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-08-27",
+   "summary": "- AI 클라우드가 채굴 매출 첫 추월, 비중 51.4%- 조정 EBITDA 1,920만 달러로 67.7% 감소- FY27 capex 250억~300억, 확약 재원은 140억",
+   "url": "https://rreport.einfomax.co.kr/report/eqlqlqkmegmzlmqgcgxecez.pdf",
+   "via": "연합인포맥스",
+   "keyword": "클라우드"
+  },
+  {
+   "title": "[알리바바 그룹 홀딩(ADR) (NYS:BABA)] 클라우드 성장성 이상무, 이익 회복 확인이 중요",
+   "broker": "키움증권",
+   "analyst": "박주영",
+   "date": "2026-08-21",
+   "summary": "- FY1Q27 예상치 부합. 클라우드 성장 가속 및 퀵커머스 적자 축소- 하반기 클라우드 성장 추가 확대 예상되며, 경쟁 완화로 커머스 이익 개선 전망- 향후 주가는 이익 회복과 클라우드 성장을 확인하며 상승 흐름 이어갈 것으로 예상",
+   "url": "https://rreport.einfomax.co.kr/report/eqlqkmeeiggqiqkgcgxecez.pdf",
+   "via": "연합인포맥스",
+   "keyword": "클라우드"
+  },
+  {
+   "title": "[미국주식] 네오클라우드: 4년 간 매출 10배 성장도 가능합니다",
+   "broker": "DS투자증권",
+   "analyst": "이규원",
+   "date": "2026-08-20",
+   "summary": "- 2Q26 네오클라우드실적: 이미 높은P, 앞으로높아질 Q- 요즘 데이터센터는‘남돈내산’으로 구축됩니다- 2030년 NBIS, CRWV의 AI컴퓨팅 매출은 ‘26년대비각각23배, 6.5배 증가 예상",
+   "url": "https://rreport.einfomax.co.kr/report/eqlqgclelzkqclegcgxecez.pdf",
+   "via": "연합인포맥스",
+   "keyword": "클라우드"
+  },
+  {
+   "title": "[네비우스 그룹 (NAS:NBIS)] 네오클라우드 붐은 온다",
+   "broker": "유진투자증권",
+   "analyst": "박재환",
+   "date": "2026-08-13",
+   "summary": "- 네비우스의 2분기 그룹 매출은 5.82억달러(+454%yoy), AI Cloud 매출은 5.75억달러(+514%yoy)를 기록하며 컨센을 상회. AI 클라우드 수요 강세에 힘입어 ARR은 6월 말 기준 30억달러(+598%yoy)를 달성했으며, RPO는 400억달러를 기록.- 연간 가이던스는 그룹 매출 32억달러(+504%yoy), ARR 80억달러, EBITDA 마진 40%로 유지. 최근 바인랜드(Vineland) 데이터센터 지연 관 련 우려에도 가이던스 달성 의지를 재확인 점이 긍정적. 연간 계약용량 가이 던스는 전분기 실적발표 기준 4GW에서 5GW로 상향조정했으며, 연간 활 성용량 가이던스는 0.8~1GW 범위를 재확인. 연간 캐팩스 가이던스도 225 억달러로 유지- 고객 선수금 비중도 사상 최고치를 기록. 2분기 체결된 계약의 약 70%가 선수금 조건이 포함되었으며, 2026년 전체 선수금은 90억달러(연간 캐팩스 가이던스의 40% 수준)으로 예상. 선수금과 영업활동 현금흐름 기반의 캐팩 스 투자로, 상대적으로 안정적인 재무상태를 유지한다는 점이 네비우스가 받는 밸류에이션 프리미엄의 핵심 근거 중 하나로 판단",
+   "url": "https://rreport.einfomax.co.kr/report/eqlxzlzeeccixmxgcgxecez.pdf",
+   "via": "연합인포맥스",
+   "keyword": "클라우드"
+  },
+  {
+   "title": "[미국 이슈 코멘트] 초대형 클라우드와 엔비디아 선호 강화 예상",
+   "broker": "하나증권",
+   "analyst": "강재구",
+   "date": "2026-08-11",
+   "summary": "- AI 투자사이클이 강해지는 가운데, 시장참여자들의 선호도는 엔비디아와 초대형 클라우드 기업들로 집중될 가능성이 높다고 판단한다. 시장참여자들은 더 이상 클라우드 기업들의 자본지출과 관련 인프라 기업들의 외형 성장만을 긍정적으로 평가하지 않는다. 높은 밸류에이션을 정당화하기 위해선 투입한 자본이 얼마나 빠르게 매출과 이익, 현금흐름으로 전환되는지를 확인하려는 요구가 높아지고 있다. 지난주 실적을 발표한 AMD, 샌디스크, 웨스턴디지털의 견조한 실적에도 나타난 부정적인 주가 반응은 시장참여자들의 평가 기준 변화를 보여준다.- AMD의 2분기 실적은 견조했다. 데이터센터 매출은 높은 성장세를 이어갔고 회사는 하반기와 2027년 AI 사업에 대해서도 강한 성장 전망을 제시했다. 실적 발표 후 주가는 큰 폭으로 하락했는데, 시장참여자들은 AMD의 AI 사업 확대가 높은 수익성과 잉여현금흐름으로 얼마나 빠르게 연결되는지에 주목했다. AMD는 AI 사업 확대를 위해 R&D, 공급망 확보, 재고 및 운전자본 투입 등을 확대하고 있다. 시장의 관심은 AMD의 선행 투자가 얼마나 빠르게 높은 수익성과 잉여현금흐름으로 연결되는지에 있다. 2분기 영업이익은 증가했으나, 잉여현금흐름은 전분기 대비 감소했다. 실적 발표 후 하락한 주가는 시장참여자들이 AMD에게 요구하는 기준이 성장 가능성에서 투자 회수 능력으로 높아지고 있음을 시사한다.- 웨스턴디지털도 강한 업황만으로는 충분하지 않다는 점을 보여줬다. Nearline HDD 공급은 2028년까지 사실상 완판 상태다. 가격 상승도 가속화되고 있지만, 2분기 Nearline Exabyte 출하 증가율은 23%로 경쟁사인 씨게이트의 42%를 크게 하회했다. 원가 절감 폭도 웨스턴디지털은 8%에 그쳐 씨게이트의 16%보다 낮았고 매출총이익률 개선 폭도 상대적으로 작았다. 동일한 수요 환경에서 누가 더 많은 물량을 확보하고, 높은 수익성을 창출하는지가 중요해지고 있다.",
+   "url": "https://rreport.einfomax.co.kr/report/eqlxkcilqclkqlkgcgxecez.pdf",
+   "via": "연합인포맥스",
+   "keyword": "클라우드"
+  }
+ ],
+ "note": "members 는 이 업종 전 종목(6개월 RS 상위 순, rnk = 전체 종목 중 상위 몇 %). evidence 는 그중 상위 12종목의 기사·리포트. 리포트 url 은 연합인포맥스 PDF."
+}

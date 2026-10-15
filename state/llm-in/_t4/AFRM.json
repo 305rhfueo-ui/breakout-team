@@ -1,0 +1,182 @@
+{
+ "ticker": "AFRM",
+ "news": [
+  {
+   "title": "Why Affirm Holdings (AFRM) Dipped More Than Broader Market Today",
+   "url": "https://www.nasdaq.com/articles/why-affirm-holdings-afrm-dipped-more-broader-market-today",
+   "date": "2026-10-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Will Affirm Holdings (AFRM) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/will-affirm-holdings-afrm-beat-estimates-again-its-next-earnings-report",
+   "date": "2026-10-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Affirm Holdings (AFRM) Ascends While Market Falls: Some Facts to Note",
+   "url": "https://www.nasdaq.com/articles/affirm-holdings-afrm-ascends-while-market-falls-some-facts-note",
+   "date": "2026-10-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is It Worth Investing in Affirm Holdings (AFRM) Based on Wall Street's Bullish Views?",
+   "url": "https://www.nasdaq.com/articles/it-worth-investing-affirm-holdings-afrm-based-wall-streets-bullish-views",
+   "date": "2026-10-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here is What to Know Beyond Why Affirm Holdings, Inc. (AFRM) is a Trending Stock",
+   "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-affirm-holdings-inc-afrm-trending-stock",
+   "date": "2026-10-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Affirm Holdings (AFRM) Outperforms Broader Market: What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/affirm-holdings-afrm-outperforms-broader-market-what-you-need-know",
+   "date": "2026-10-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "How Is Affirm Card Reshaping AFRM's Direct-to-Consumer Growth?",
+   "url": "https://www.nasdaq.com/articles/how-affirm-card-reshaping-afrms-direct-consumer-growth",
+   "date": "2026-10-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Affirm Holdings (AFRM) Fell More Than Broader Market",
+   "url": "https://www.nasdaq.com/articles/heres-why-affirm-holdings-afrm-fell-more-broader-market",
+   "date": "2026-09-28",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-27",
+   "reportDate": "2026-08-25",
+   "items": [
+    "2.02",
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026059271/afrm-20260825.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-25",
+   "reportDate": "2026-06-18",
+   "items": [
+    "1.01",
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026045491/afrm-20260618.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "reportDate": "2026-05-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026032105/afrm-20260507.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "reportDate": "2026-02-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026005772/afrm-20260205.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-16",
+   "reportDate": "2026-01-13",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026002442/afrm-20260113.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-12-18",
+   "reportDate": "2025-12-15",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828025057930/afrm-20251215.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 28.86,
+  "saleNy": 24.62,
+  "epsCy": -45.07,
+  "epsNy": 30.25,
+  "cyTrend": -2.68,
+  "nyTrend": 1.45,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    33.04,
+    32.64,
+    29.62
+   ],
+   "ni": [
+    2234.66,
+    3569.76,
+    61.26
+   ],
+   "opm": [
+    12.63,
+    8.51,
+    10.47
+   ],
+   "updated": "2026-09-08 10:08:51"
+  }
+ }
+}

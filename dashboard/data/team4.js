@@ -49,9 +49,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:29:54"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BIO.B",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Bio-Rad는 생명과학 연구용 장비·시약과 임상 진단 제품을 팔아 돈을 버는 의료기기 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-15",
+        "carried": false
       }
     },
     {
@@ -95,9 +115,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:40:31"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ASML",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "ASML이 10월 14일 3분기 실적을 발표했고 순이익이 크게 늘었으며 2026년 연간 전망을 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ASML Q3 Profit Surges, Lifts FY26 Outlook; Warns About Supply Constraints",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/asml-q3-profit-surges-lifts-fy26-outlook-warns-about-supply-constraints",
+                "date": "2026-10-14",
+                "quote": "ASML Q3 Profit Surges, Lifts FY26 Outlook; Warns About Supply Constraints",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "회사는 앞으로 공급이 수요를 따라가지 못할 것으로 봤고, 실적 당일 주가는 하락했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ASML Q3 Profit Surges, Lifts FY26 Outlook; Sees Supply Not To Meet Demand Ahead; Stock Down",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/asml-q3-profit-surges-lifts-fy26-outlook-sees-supply-not-meet-demand-ahead-stock-down",
+                "date": "2026-10-14",
+                "quote": "ASML Q3 Profit Surges, Lifts FY26 Outlook; Sees Supply Not To Meet Demand Ahead; Stock Down",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "반도체 칩을 찍어내는 노광장비를 만들어 파는 네덜란드 회사다. 최첨단 칩 공장이 이 장비를 사서 쓴다.",
+        "volumeExplanation": "10월 14일 3분기 실적 발표에서 순이익이 크게 늘고 연간 전망이 올라가 거래가 몰렸다. 다만 공급 부족 경고가 함께 나와 주가는 내렸다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-15",
+        "carried": false
       }
     },
     {
@@ -141,9 +207,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:20:57"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BLK",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 14일 3분기 실적 발표에서 이익과 매출이 증권사 예상치를 넘어섰다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "BlackRock (BLK) Tops Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/blackrock-blk-tops-q3-earnings-and-revenue-estimates",
+                "date": "2026-10-14",
+                "quote": "BlackRock (BLK) Tops Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "매출과 운용자산 증가에 힘입어 장 시작 전부터 주가가 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "BLK Q3 Earnings Beat, Stock Gains Pre-Market on Revenue & AUM Growth",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/blk-q3-earnings-beat-stock-gains-pre-market-revenue-aum-growth",
+                "date": "2026-10-14",
+                "quote": "BLK Q3 Earnings Beat, Stock Gains Pre-Market on Revenue & AUM Growth",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "같은 날 SEC에 실적 발표(항목 2.02) 8-K가 제출됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "BlackRock 8-K (item 2.02, 7.01, 9.01)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526420979/blk-20261014.htm",
+                "date": "2026-10-14",
+                "quote": "8-K filingDate 2026-10-14, items 2.02, 7.01, 9.01 (실적 발표)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "BlackRock은 세계 최대 자산운용사로, 고객 자산을 굴려 받는 운용 수수료와 ETF(iShares) 수수료로 돈을 번다.",
+        "volumeExplanation": "10월 14일 3분기 실적이 예상치를 웃돌고 운용자산이 늘어 거래량이 평소의 2.5배로 늘었다. 최근 분기 매출은 1년 전보다 약 23% 늘어 성장세가 이어지고 있다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-15",
+        "carried": false
       }
     },
     {
@@ -187,9 +315,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:58:56"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "GEV",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "GE Vernova는 GE에서 분사한 회사로, 가스터빈 등 발전설비와 전력망 장비를 만들어 판다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-15",
+        "carried": false
       }
     },
     {
@@ -233,9 +381,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:01:32"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "DELL",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "델 테크놀로지스는 PC와 서버, 저장장치를 만들어 판다. 최근에는 AI 서버 판매가 매출 성장을 이끌고 있다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-15",
+        "carried": false
       }
     },
     {
@@ -279,9 +447,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:49:56"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "FNV",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Franco-Nevada는 금광 등에서 나오는 금·은의 일부를 미리 사들이거나 로열티(매출 일정 비율 수취)를 받는 방식으로 돈을 법니다. 직접 광산을 운영하지 않아 비용 부담이 작습니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-15",
+        "carried": false
       }
     },
     {
@@ -325,9 +513,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 05:58:37"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "NBIS",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "NBIS는 AI 학습·추론용 클라우드 인프라(GPU 컴퓨팅)를 기업 고객에게 빌려주고 돈을 번다. 암스테르담에 본사가 있다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-15",
+        "carried": false
       }
     },
     {
@@ -371,9 +579,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-18 06:15:23"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "PGR",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 14일 3분기 실적을 발표했고, 주당순이익이 시장 예상치를 넘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Progressive (PGR) Q3 Earnings Top Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/progressive-pgr-q3-earnings-top-estimates",
+                "date": "2026-10-14",
+                "quote": "Progressive (PGR) Q3 Earnings Top Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "같은 날 SEC에 실적 발표 8-K가 제출됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PGR 8-K (item 2.02 실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000367/pgr-20261014.htm",
+                "date": "2026-10-14",
+                "quote": "8-K items 2.02, 9.01 (실적 발표, 재무제표·첨부) filingDate 2026-10-14",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Progressive는 미국 최대급 자동차보험 회사로, 보험료를 받아 사고 보험금을 지급하고 남는 이익과 투자수익으로 돈을 번다.",
+        "volumeExplanation": "10월 14일 3분기 실적이 시장 예상을 웃돌아 거래량이 최근 5일 평균의 약 3배로 늘었다. 다만 내년 주당순이익은 10% 줄 것으로 전망돼, 이 호재가 주가 상승으로 이어졌는지는 따로 확인해야 한다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [],
+          "reason": "statement 안의 날짜('10월 14일')가 quote나 출처 제목에 없음 — date 메타데이터에만 있음"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-15",
+        "carried": false
       }
     },
     {
@@ -417,9 +671,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 05:53:38"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "AEM",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "AEM(Agnico Eagle Mines)은 캐나다 등지에서 금광을 운영하며 금을 팔아 돈을 버는 대형 금 채굴 기업이다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-15",
+        "carried": false
       }
     },
     {
@@ -447,8 +721,7 @@ window.TEAM4_DATA = {
       "fs": null,
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -492,9 +765,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:33:58"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "STT",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "STT가 10월 14일 3분기 실적을 발표했고, 주당순이익이 증권가 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "State Street Corporation (STT) Tops Q3 Earnings Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/state-street-corporation-stt-tops-q3-earnings-estimates",
+                "date": "2026-10-14",
+                "quote": "State Street Corporation (STT) Tops Q3 Earnings Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "같은 날 실적 발표 공시(8-K)가 제출됐고 임원 변동 항목도 함께 포함됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "State Street 8-K (2026-10-14)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/stt-20261009.htm",
+                "date": "2026-10-14",
+                "quote": "items: 2.02 (실적 발표), 5.02 (임원 변동), 7.01, 9.01",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "State Street는 자산 수탁·운용 서비스와 ETF(SPDR) 운용으로 수수료 수입을 얻는 미국 대형 금융사다.",
+        "volumeExplanation": "10월 14일 3분기 실적이 시장 예상치를 웃돌면서 거래량이 평소의 3배 넘게 늘었다. 다만 이날 주가는 60일 신고가를 넘지 못해 시장 반응은 제한적이었다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [],
+          "reason": "statement 안의 날짜('10월 14일')가 quote나 출처 제목에 없음 — date 메타데이터에만 있음"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-15",
+        "carried": false
       }
     },
     {
@@ -538,9 +857,43 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:26:58"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ROKU",
+        "category": 3,
+        "claims": [
+          {
+            "id": "c2",
+            "statement": "9월 30일 기사에서 미 법무부(DOJ)가 인수 심사를 연장했다고 전해졌다. 승인 일정이 거래량을 움직이는 변수다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Roku's CFO Sells 7,000 Shares for $1.1 Million as the DOJ Extends Its Review of the Fox Acquisition",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/rokus-cfo-sells-7000-shares-11-million-doj-extends-its-review-fox-acquisition",
+                "date": "2026-09-30",
+                "quote": "Roku's CFO Sells 7,000 Shares for $1.1 Million as the DOJ Extends Its Review of the Fox Acquisition",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Roku는 스트리밍 TV 플랫폼과 TV용 기기를 운영하며, 광고와 플랫폼 수수료로 돈을 번다. Fox가 인수하기로 한 상태다.",
+        "volumeExplanation": "Fox의 약 220억 달러 인수 건이 진행 중이고 법무부 심사가 길어지는 가운데 거래량이 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reason": "c1의 '주당 160달러로 평가했다'는 quote나 source 제목에 없음. 인수 금액 220억 달러(c1)와 DOJ 심사 연장(c2)만 근거 있음",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "Fox의 약 220억 달러 인수 건이 진행 중이고 법무부 심사가 길어지는 가운데 거래량이 늘었다. 이 인수 이야기가 맞는지는 법무부 심사 결과와 주가가 인수가(주당 160달러 상당)에 수렴하는지로 확인된다.",
+        "categoryName": "대형 파트너십·공급계약",
+        "isHighlight": false,
+        "researchedOn": "2026-10-15",
+        "carried": false
       }
     },
     {
@@ -584,9 +937,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:25:36"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "DOCN",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "DigitalOcean은 개발자와 중소기업에 클라우드 서버와 AI 연산 환경을 빌려주고 이용료로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-15",
+        "carried": false
       }
     },
     {
@@ -630,9 +1003,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:23:43"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "GEF.B",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Greif는 산업용 포장재(드럼, 컨테이너, 종이 포장)를 만들어 파는 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-15",
+        "carried": false
       }
     },
     {
@@ -676,9 +1069,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:35:58"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "TNK",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Teekay Tankers는 원유·정제유 운반 유조선(수에즈막스, 아프라막스, VLCC)을 운영하며 운임으로 돈을 버는 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-15",
+        "carried": false
       }
     },
     {
@@ -784,9 +1197,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-15 06:32:53"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ECO",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Okeanis Eco Tankers는 초대형 유조선(VLCC) 등 원유 운반선을 운용하며 운임을 받아 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-15",
+        "carried": false
       }
     },
     {
@@ -830,9 +1263,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:11:47"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "STRA",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Strategic Education은 미국 대학(Capella, Strayer)과 직무교육 프로그램을 운영하며 등록금으로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-15",
+        "carried": false
       }
     },
     {
@@ -876,9 +1329,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:08:51"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "AFRM",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Affirm은 소비자가 물건값을 나눠 낼 수 있게 해 주는 후불결제(BNPL) 서비스를 운영합니다. 가맹점 수수료, 대출 이자, 카드 수익으로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-15",
+        "carried": false
       }
     },
     {
@@ -922,9 +1395,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:09:12"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SEI",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Solaris Energy Infrastructure는 석유·가스 업계와 전력 수요처에 설비와 발전 서비스를 임대해 돈을 버는 에너지 인프라 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-15",
+        "carried": false
       }
     }
   ],
@@ -961,14 +1454,14 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 1,
+    "done": 19,
     "total": 20,
-    "cap": null,
-    "pending": 19,
+    "cap": 18,
+    "pending": 1,
     "failed": 0,
     "carried": 1,
     "ineligible": 0,
-    "note": "20종목 중 1종목을 조사했습니다. 그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 19종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "20종목 중 19종목을 조사했습니다. 그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 1종목은 상한(18) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다. 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -991,5 +1484,38 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적 호재는 건강보험(UNH), 은행(C), 제약(JNJ)에 흩어져 있어 한 업종 쏠림은 보이지 않는다. 은행은 C가 예상을 넘었지만 JPM은 예상에 못 미쳐 엇갈린다.",
     "caution": "JNJ는 실적 발표 사실만 확인됐고 예상치를 넘었는지는 입력에 없다. JPM은 실적 분류로 들어왔지만 예상 미달이라 호재에서 뺐다. 산업 기술 돌파(5번)에 해당하는 종목은 없다. 차트 국면과 주가 반응은 보지 않았다.",
     "researchedOn": "2026-10-14"
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "ASML",
+        "category": 1,
+        "oneLine": "3분기 순이익이 크게 늘고 2026년 연간 전망을 올렸지만, 실적 당일 주가는 내렸다."
+      },
+      {
+        "ticker": "BLK",
+        "category": 1,
+        "oneLine": "3분기 이익·매출이 증권사 예상치를 넘었고, 운용자산 증가로 장 시작 전부터 주가가 올랐다."
+      },
+      {
+        "ticker": "PGR",
+        "category": 1,
+        "oneLine": "3분기 주당순이익이 시장 예상치를 웃돌았다."
+      },
+      {
+        "ticker": "STT",
+        "category": 1,
+        "oneLine": "3분기 주당순이익이 증권가 예상치를 넘어섰다."
+      }
+    ],
+    "sectorSignal": "실적 호재 4건이 모두 10월 14일 발표분이다. 금융(자산운용·보험·수탁은행) 3건과 반도체 장비 1건이다.",
+    "caution": "이번 후보 18건 중 14건은 뉴스 근거가 없는 거래량 급증이라 호재로 볼 수 없다. ASML은 전망을 올렸는데도 당일 주가가 내려, 호재가 곧 상승은 아니다. 차트 상태는 확인하지 않았으니 직접 보고 판단하라.",
+    "researchedOn": "2026-10-15"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 4,
+    "3": 1,
+    "6": 14
   }
 };

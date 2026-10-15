@@ -1,0 +1,43 @@
+{
+ "ticker": "FNV",
+ "news": [
+  {
+   "title": "Franco-Nevada (FNV) Up 12.5% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/franco-nevada-fnv-125-last-earnings-report-can-it-continue",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 38.46,
+  "saleNy": 15.62,
+  "epsCy": 47.7,
+  "epsNy": 13.37,
+  "cyTrend": -0.44,
+  "nyTrend": -0.26,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    57.26,
+    76.63,
+    86.07
+   ],
+   "ni": [
+    43.26,
+    123.36,
+    109.64
+   ],
+   "opm": [
+    76.73,
+    88.8,
+    75.99
+   ],
+   "updated": "2026-09-08 09:49:56"
+  }
+ }
+}

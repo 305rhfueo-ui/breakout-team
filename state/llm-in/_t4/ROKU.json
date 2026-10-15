@@ -1,0 +1,166 @@
+{
+ "ticker": "ROKU",
+ "news": [
+  {
+   "title": "Roku, Inc. (ROKU) is Attracting Investor Attention: Here is What You Should Know",
+   "url": "https://www.nasdaq.com/articles/roku-inc-roku-attracting-investor-attention-here-what-you-should-know",
+   "date": "2026-10-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Roku's CFO Sells 7,000 Shares for $1.1 Million as the DOJ Extends Its Review of the Fox Acquisition",
+   "url": "https://www.nasdaq.com/articles/rokus-cfo-sells-7000-shares-11-million-doj-extends-its-review-fox-acquisition",
+   "date": "2026-09-30",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Roku, Inc. (ROKU) Is a Trending Stock: Facts to Know Before Betting on It",
+   "url": "https://www.nasdaq.com/articles/roku-inc-roku-trending-stock-facts-know-betting-it-1",
+   "date": "2026-09-25",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Roku (ROKU) Ascends While Market Falls: Some Facts to Note",
+   "url": "https://www.nasdaq.com/articles/roku-roku-ascends-while-market-falls-some-facts-note-0",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Roku, Inc. (ROKU) is Attracting Investor Attention: Here is What You Should Know",
+   "url": "https://www.nasdaq.com/articles/roku-inc-roku-attracting-investor-attention-here-what-you-should-know-0",
+   "date": "2026-09-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Roku (ROKU) Declines More Than Market: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/roku-roku-declines-more-market-some-information-investors",
+   "date": "2026-09-04",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-06",
+   "reportDate": "2026-10-06",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1428439/000114036126038812/ef20083345_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-09",
+   "reportDate": "2026-09-08",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1428439/000114036126035990/ef20081770_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1428439/000162828026054321/wk-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-18",
+   "reportDate": "2026-06-18",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1428439/000162828026044373/roku-20260618.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-17",
+   "reportDate": "2026-06-11",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1428439/000162828026043866/wk-20260611.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-15",
+   "reportDate": "2026-06-14",
+   "items": [
+    "1.01",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1428439/000114036126025115/ef20076172_8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 18.86,
+  "saleNy": 12.25,
+  "epsCy": 394.87,
+  "epsNy": 32.08,
+  "cyTrend": 0.07,
+  "nyTrend": 0.74,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    21.93,
+    22.36,
+    16.14
+   ],
+   "ni": [
+    1463.52,
+    "흑자전환",
+    "흑자전환"
+   ],
+   "opm": [
+    10.79,
+    4.15,
+    4.73
+   ],
+   "updated": "2026-09-08 07:26:58"
+  }
+ }
+}

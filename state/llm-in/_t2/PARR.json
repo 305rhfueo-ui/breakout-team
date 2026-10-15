@@ -1,0 +1,246 @@
+{
+ "ticker": "PARR",
+ "sector": "Energy",
+ "industry": "Oil & Gas Refining & Marketing",
+ "nameKo": "파 퍼시픽 홀딩스",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 24.36,
+  "saleNy": -14.93,
+  "epsCy": 217.18,
+  "epsNy": -35.58,
+  "est": {
+   "cyCur": 23.97877,
+   "cy30": 21.53736,
+   "nyCur": 15.4475,
+   "ny30": 13.83903
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    56.8,
+    4.51,
+    -1.04
+   ],
+   "ni": [
+    677.21,
+    "흑자전환",
+    "흑자전환"
+   ],
+   "opm": [
+    21.37,
+    3.58,
+    5.47
+   ],
+   "updated": "2026-09-16 06:30:41"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-15",
+  "nameKo": "파 퍼시픽 홀딩스",
+  "nameEn": "PAR PACIFIC HOLDINGS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000821483&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 2968869000,
+     "profit": 634553000,
+     "netIncome": 462131000,
+     "margin": 21.4,
+     "yoy": {
+      "revenue": 56.8,
+      "profit": 555.8,
+      "netIncome": 677.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1823750000,
+     "profit": 65322000,
+     "netIncome": 54450000,
+     "margin": 3.6,
+     "yoy": {
+      "revenue": 4.5,
+      "profit": 514.1,
+      "netIncome": 279.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1813240000,
+     "profit": 99258000,
+     "netIncome": 77700000,
+     "margin": 5.5,
+     "yoy": {
+      "revenue": -1,
+      "profit": 311.4,
+      "netIncome": 239.5,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 2012936000,
+     "profit": 358516000,
+     "netIncome": 262631000,
+     "margin": 17.8,
+     "yoy": {
+      "revenue": -6.1,
+      "profit": 884.1,
+      "netIncome": 3408.3,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Par Petroleum (PARR) is an Incredible Growth Stock: 3 Reasons Why",
+     "url": "https://www.nasdaq.com/articles/par-petroleum-parr-incredible-growth-stock-3-reasons-why",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Zacks.com featured highlights Micron, NVIDIA and Par Pacific Holdings",
+     "url": "https://www.nasdaq.com/articles/zackscom-featured-highlights-micron-nvidia-and-par-pacific-holdings",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are You Looking for a Top Momentum Pick? Why Par Petroleum (PARR) is a Great Choice",
+     "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-par-petroleum-parr-great-choice-0",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Par Petroleum (PARR) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-par-petroleum-parr-strong-momentum-stock",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Par Petroleum (PARR) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-par-petroleum-parr-strong-growth-stock-0",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-28",
+    "itemsKo": [
+     "임원 변동",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/821483/000143774926031335/parr20260928_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-25",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/821483/000143774926028947/parr20260825_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/821483/000162828026052766/parr-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-14",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/821483/000119312526224142/d176382d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-11",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/821483/000119312526215799/d49629d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/821483/000162828026030714/parr-20260505.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "PARR",
+  "fetchedAt": "2026-10-15",
+  "source": "한국투자증권 Open API",
+  "per": 5.17,
+  "pbr": 2.2,
+  "eps": 17.14,
+  "bps": 40.23,
+  "shares": 50099600,
+  "marketCapM": 4442,
+  "high52": 90.74,
+  "high52Date": "2026-10-14",
+  "low52": 33.43,
+  "low52Date": "2025-10-13",
+  "last": 88.67,
+  "prevClose": 89.88,
+  "nameKo": "파 퍼시픽 홀딩스",
+  "nameEn": "PAR PACIFIC HOLDINGS INC",
+  "listedOn": "2018-02-20",
+  "exchange": "뉴욕거래소",
+  "listedShares": 50099600
+ }
+}

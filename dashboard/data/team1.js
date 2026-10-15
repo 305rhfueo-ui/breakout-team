@@ -514,8 +514,403 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-15",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "Dell 11% 급락, 데이터센터 주식 동반 매도",
+        "easy": "Dell 주가가 하루에 11% 떨어졌다. 기업들이 AI 도입 시점을 예상보다 늦출 수 있다는 걱정이 커진 것이 계기였다. AI 서버 수요를 받아 왔던 데이터센터 관련 주식이 함께 밀렸다. 주문이 뒤로 밀리면 매출이 기대보다 늦게 잡힌다는 뜻이다.",
+        "whyMatters": "서버·스토리지를 파는 Dell 과 데이터센터 장비·전력 업종에 나쁘다. AI 서버 비중이 큰 반도체 종목도 같이 흔들릴 수 있다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Dell stock plunges 11%, leading data center sell-off as fears mount about 'enterprise AI timing'",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/14/dell-stock-barclays-enterprise-ai.html",
+            "date": "2026-10-14",
+            "quote": "Dell stock plunges 11%, leading data center sell-off as fears mount about 'enterprise AI timing'",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "CoreWeave 채권 금리 15% 근접, 주가 급락",
+        "easy": "CoreWeave 주가가 크게 내렸다. 이 회사가 발행한 채권의 금리(투자자가 요구하는 수익률)가 15% 근처까지 올랐기 때문이다. AI 데이터센터를 빚으로 짓는 방식에 대한 의심이 커졌다는 신호다. 조달 비용이 비싸지면 설비 투자 계획 자체가 늦어질 수 있다.",
+        "whyMatters": "빚으로 설비를 늘리는 CoreWeave 와, 그 발주를 받는 데이터센터 건설·전력 업종에 나쁘다. AI 대출을 늘려 온 대형 은행 쪽에도 부담이 될 수 있다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html",
+            "date": "2026-10-14",
+            "quote": "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "CoreWeave's AI bonds tumble, raising red flags for the wider market",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories",
+            "date": "2026-10-14",
+            "quote": "CoreWeave's AI bonds tumble, raising red flags for the wider market",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Big banks see risks in financing the AI boom, but are happy to keep writing the checks",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/big-banks-see-risks-in-financing-the-ai-boom-but-are-happy-to-keep-writing-the-checks-e459a206?mod=mw_rss_topstories",
+            "date": "2026-10-14",
+            "quote": "Big banks see risks in financing the AI boom, but are happy to keep writing the checks",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "인플레 걱정에 AI 주식 쏠림이 갈라졌다",
+        "easy": "그동안 한 덩어리로 오르던 AI 관련 주식이 서로 다른 방향으로 움직이기 시작했다. 물가가 쉽게 안 내려온다는 걱정이 커진 것이 이유다. 금리가 높게 유지되면 먼 미래 이익의 현재 가치가 줄어든다. 그래서 같은 AI 테마에서도 지금 이익이 나는 쪽과 아직 아닌 쪽의 주가가 갈린다.",
+        "whyMatters": "이익이 아직 안 나오는 AI 소프트웨어·신생 클라우드 업체에 나쁘다. 이미 돈을 벌고 있는 반도체 대형주는 상대적으로 버틸 수 있다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-ai-trade-is-splintering-as-inflation-fears-rattle-hyped-up-tech-stocks-dbf49369?mod=mw_rss_topstories",
+            "date": "2026-10-14",
+            "quote": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Traders pile into 'bubble puts' on CoreWeave as neocloud stocks plunge",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/14/coreweave-put-options-ai-trade.html",
+            "date": "2026-10-14",
+            "quote": "Traders pile into 'bubble puts' on CoreWeave as neocloud stocks plunge",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "미국 고물가가 일상으로 굳어졌다는 진단",
+        "easy": "미국에서 높은 물가가 일시적 현상이 아니라 생활의 일부가 됐다는 분석이 나왔다. 물가가 안 내려오니 연준이 금리를 빨리 내리기 어렵다는 기대가 깔려 있다. 내년 사회보장연금 인상률은 3.6%로 정해졌지만 물가를 따라가기 어렵다는 지적이 붙었다. 금리 인하를 기대하고 올랐던 주식에는 부담이다.",
+        "whyMatters": "금리 부담이 큰 주택건설·리츠와 고성장 소프트웨어에 나쁘다. 가격을 올려 받을 수 있는 에너지·필수소비재는 상대적으로 낫다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "How high inflation became a 'fact of life' in the U.S.",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html",
+            "date": "2026-10-14",
+            "quote": "How high inflation became a 'fact of life' in the U.S.",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
+            "date": "2026-10-14",
+            "quote": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "패니메이, 2027년 모기지 금리 전망 대폭 상향",
+        "easy": "미국 주택금융기관 패니메이가 2027년 주택담보대출 금리 전망을 크게 올렸다. 물가가 버티면서 장기 금리가 쉽게 안 내려갈 것으로 봤기 때문이다. 대출 금리가 높으면 집을 사려는 사람이 줄어든다. 주택 수요가 되살아나는 시점이 뒤로 밀린다는 뜻이다.",
+        "whyMatters": "주택건설과 건축자재·가구 같은 주택 관련 소비 업종에 나쁘다. 반대로 대출 금리가 높게 유지되는 은행에는 나쁘지 않다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Fannie Mae sharply raises mortgage rate forecast for 2027",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/14/fannie-mae-sharply-raises-mortgage-rate-forecast-for-2027-.html",
+            "date": "2026-10-14",
+            "quote": "Fannie Mae sharply raises mortgage rate forecast for 2027",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Rocket Lab, 뉴트론 첫 발사 연기에 주가 하락",
+        "easy": "Rocket Lab 이 신형 로켓 뉴트론의 첫 발사를 다시 미뤘다. 발사가 늦어지면 큰 위성을 쏘는 사업에서 매출이 잡히는 시점도 함께 밀린다. 그래서 주가가 내렸다. 연기한 구체적인 이유는 기사에 안 나왔다.",
+        "whyMatters": "Rocket Lab 과 우주·방산 부품 업종의 기대 매출 시점이 뒤로 밀린다. 같은 발사 시장의 경쟁사에는 상대적으로 유리하다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Rocket Lab's stock slides as the company pushes back Neutron's first launch",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/rocket-labs-stock-slides-as-the-company-pushes-back-neutrons-first-launch-afd2932a?mod=mw_rss_topstories",
+            "date": "2026-10-15",
+            "quote": "Rocket Lab's stock slides as the company pushes back Neutron's first launch",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 사도 되지만 종목을 골라야 하는 구간이다. QQQ 는 10일선이 20일선 위에 있고 둘 다 오르는 흐름이지만, 종가 728.95 는 그 두 선 아래로 밀려 단기로는 쉬어 가는 모습이다. 오늘 소식은 AI 설비 투자가 빚에 많이 의존해 왔다는 점과 물가가 쉽게 안 내려온다는 점을 한꺼번에 건드렸다. 빚내서 산 주식 규모가 1년 전보다 +37.2% 늘어 주의선을 넘은 상태라, 조정이 오면 되돌림이 평소보다 거칠 수 있다. 이번 주는 AI 관련 회사들의 채권 금리, 데이터센터 장비 주문 소식, 그리고 QQQ 가 50일선을 지키는지를 보면 된다.",
+    "keyRisks": [
+      "AI 빚 조달 비용: AI 데이터센터를 빚으로 짓는 회사의 채권 금리가 더 뛰면 설비 투자가 멈추고, 발주를 받던 장비·건설 업체 매출까지 줄어든다.",
+      "기업 AI 도입 지연: 기업들이 도입 시점을 늦추면 서버·스토리지 업체의 주문이 가장 먼저 비어 보인다.",
+      "물가 고착과 금리: 물가가 안 내려오면 금리 인하 기대가 밀리고, 이익이 먼 미래에 몰린 종목부터 팔린다.",
+      "쏠림의 되돌림: 주도 종목이 기술·헬스케어에 몰려 있어 한 업종이 꺾이면 지수 전체가 같이 흔들린다."
+    ],
+    "easySummary": [
+      "QQQ 는 아직 상승 쪽이지만 단기 이동평균선 아래로 밀려 쉬어 가는 모습이다.",
+      "AI 투자를 빚으로 받쳐 온 회사들의 조달 비용이 뛰면서 데이터센터 관련 주식이 함께 내렸다.",
+      "물가가 쉽게 안 내려온다는 전망이 주택·고성장 업종을 누르고 있다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 181,
+      "ok": 294,
+      "unverified": 6,
+      "dead": 0,
+      "stripped": 21,
+      "removed": [],
+      "numberCut": 37,
+      "numberCuts": [
+        {
+          "sentence": "매출은 117억 달러로 56% 증가했고, 영업이익률은 10.9%까지 올랐다.",
+          "missing": [
+            "56"
+          ]
+        },
+        {
+          "sentence": "직전 분기(1분기)도 영업이익이 1년 전보다 158% 늘어 이익 증가가 두 분기째 이어졌다.",
+          "missing": [
+            "158"
+          ]
+        },
+        {
+          "sentence": "이후 401달러 안팎까지 올랐다.",
+          "missing": [
+            "401"
+          ]
+        },
+        {
+          "sentence": "52주 고점(483.6달러)보다는 아직 낮다.",
+          "missing": [
+            "483.6"
+          ]
+        },
+        {
+          "sentence": "생산 확대용 4억 달러 투자 계획이 알려진 날 주가가 내렸다.",
+          "missing": [
+            "4억 달러"
+          ]
+        },
+        {
+          "sentence": "이익률이 직전 분기 3.6%에서 21.4%로 급등해 순이익이 4.6억 달러, 1년 전보다 약 7.8배가 됐다.",
+          "missing": [
+            "3.6",
+            "7.8"
+          ]
+        },
+        {
+          "sentence": "직전 분기(12.7%)보다 크게 개선됐다.",
+          "missing": [
+            "12.7"
+          ]
+        },
+        {
+          "sentence": "2025년 12월 분기에는 영업이익이 30.1% 줄었고, 매출 증가율도 11.5%에 그친다.",
+          "missing": [
+            "11.5"
+          ]
+        },
+        {
+          "sentence": "영업이익은 5,780만 달러로 1년 전의 약 4.7배다.",
+          "missing": [
+            "4.7"
+          ]
+        },
+        {
+          "sentence": "10월 13일 테라다인(반도체 테스트 장비 업체)이 FormFactor에 3억 달러를 투자하고 반도체 소자를 함께 개발한다는 소식이 나왔다.",
+          "missing": [
+            "3억 달러"
+          ]
+        },
+        {
+          "sentence": "같은 날 지분 발행을 뜻하는 8-K 공시도 올라왔다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "주가는 6월 30일 고점 160.27달러보다 25% 낮고, 오늘 전일 종가 128.09달러에서 119.71달러로 내렸다.",
+          "missing": [
+            "25"
+          ]
+        },
+        {
+          "sentence": "회사는 같은 날 인수 계약을 8-K로 공시했다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "10월 5일 10억 달러 규모 자사주 매입(가속 방식)을 발표해 주당 가치 상승 기대가 붙었다.",
+          "missing": [
+            "10억 달러"
+          ]
+        },
+        {
+          "sentence": "직전 두 분기는 매출이 40% 넘게 늘었지만 영업이익이 1년 전보다 줄어, 이번 이익 회복이 지속되는지 불확실하다.",
+          "missing": [
+            "40"
+          ]
+        },
+        {
+          "sentence": "직전 분기보다 약 10% 높은 수준이다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "직전 세 분기의 16%대보다 성장이 빨라졌다.",
+          "missing": [
+            "16"
+          ]
+        },
+        {
+          "sentence": "최근 분기(2026년 1분기) 매출은 4억 5,177만 달러로 1년 전보다 11.8% 늘었고, 직전 4개 분기 모두 매출이 증가했다.",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "발레로는 2분기 영업이익 52억달러로 전분기보다 200% 늘었고, 정유 부문이 45억달러를 벌었다.",
+          "missing": [
+            "45억달러"
+          ]
+        },
+        {
+          "sentence": "써모 피셔는 2분기 매출이 10.5% 늘었고 4개 전방 시장 수요가 모두 개선됐다.",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "Zacks가 10/06 NSIT를 최상위 등급(Strong Buy)으로 올렸다.",
+          "missing": [
+            "06"
+          ]
+        },
+        {
+          "sentence": "2026-09-15 주가가 200일 이동평균선 아래로 내려갔다는 기사가 나왔다.",
+          "missing": [
+            "09"
+          ]
+        },
+        {
+          "sentence": "2026-01 회장 겸 CEO가 자사주 2,000주 넘게 매수했다는 기사가 있었다.",
+          "missing": [
+            "01"
+          ]
+        },
+        {
+          "sentence": "10월 12일 회사가 생산 확대를 위한 4억 달러 투자 계획을 발표했고 주가는 하락했다.",
+          "missing": [
+            "4억 달러"
+          ]
+        },
+        {
+          "sentence": "3월 분기는 30.4% 증가.",
+          "missing": [
+            "30.4"
+          ]
+        },
+        {
+          "sentence": "10월 12일 회사가 생산 확대용 4억 달러 투자 계획을 발표했다.",
+          "missing": [
+            "4억 달러"
+          ]
+        },
+        {
+          "sentence": "10월 12일 4억 달러 투자 발표 당일 주가가 내렸다.",
+          "missing": [
+            "4억 달러"
+          ]
+        },
+        {
+          "sentence": "10월 14일 하루 약 9.9% 하락했고 거래량은 직전 며칠보다 많았다.",
+          "missing": [
+            "9.9"
+          ]
+        },
+        {
+          "sentence": "새 CEO 선임과 자사주 매입 30억 달러로 확대 (2026-09-29)",
+          "missing": [
+            "30억 달러",
+            "09",
+            "29"
+          ]
+        },
+        {
+          "sentence": "2026년 가이던스 상향 (2026-09-21)",
+          "missing": [
+            "09",
+            "21"
+          ]
+        },
+        {
+          "sentence": "가속 자사주 매입 15억 달러 (2026-10-02)",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "3개월간 주가 33% 하락, 현금흐름 위험 지적 (2026-09-21)",
+          "missing": [
+            "09",
+            "21"
+          ]
+        },
+        {
+          "sentence": "10월 7일 하루 12.4% 급등 (2026-10-07)",
+          "missing": [
+            "10",
+            "07"
+          ]
+        },
+        {
+          "sentence": "9월 29일 새 CEO 선임이 발표됐고, 같은 날 8-K에 임원 변동 항목이 있다",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "10억 달러 규모 가속 자사주 매입 발표(10월 5일 8-K 와 같은 날 보도).",
+          "missing": [
+            "10억 달러",
+            "8"
+          ]
+        },
+        {
+          "sentence": "골드만삭스가 칩 설계 인력 부족 수혜 EDA 2곳을 꼽았다는 보도.",
+          "missing": [
+            "2"
+          ]
+        },
+        {
+          "sentence": "같은 분기 영업이익 1.21억 달러(+98.7%), 영업이익률 25.2%로 직전 분기 35.7%보다 하락.",
+          "missing": [
+            "35.7"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-15"
   }
 };
