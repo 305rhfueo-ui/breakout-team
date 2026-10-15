@@ -1,6 +1,1304 @@
 window.ONDEMAND_DATA = {
   "items": [
     {
+      "ticker": "PBF",
+      "nameKo": "PBF 에너지",
+      "sector": "Energy",
+      "industry": "Oil & Gas Refining & Marketing",
+      "industryRank": {
+        "frank": 1,
+        "frank25dChg": 2,
+        "headline": "정제마진이 사상 최고로 오르고 제품 재고는 바닥이라, 정유사 이익이 급증하며 업종 순위 1위에 올랐다.",
+        "asOf": "2026-10-15"
+      },
+      "requestedOn": "2026-10-15",
+      "session": "2026-10-14",
+      "at": "2026-10-15T05:30:20.130Z",
+      "verdict": "조건부",
+      "verdictLine": "실적과 업종 강도는 최고 수준이지만 쉬는 구간이 없어 넘으면 사는 선도 손절선도 없고 실적 발표가 2주 앞이라 조건부다.",
+      "basis": [
+        {
+          "point": "2026년 2분기 영업이익이 전년비 2858.4%, 매출이 56.2% 늘어 이익 기준을 크게 넘겼다.",
+          "side": "for",
+          "checkRef": "CANSLIM:C"
+        },
+        {
+          "point": "상대강도가 1개월 상위 2.57%, 6개월 상위 1.4%로 업종 주도주 기준을 넘는다.",
+          "side": "for",
+          "checkRef": "CANSLIM:L"
+        },
+        {
+          "point": "이자 9.875%짜리 8억 달러 채권을 전액 조기상환해 이자 부담이 줄어든다.",
+          "side": "for",
+          "checkRef": "n2"
+        },
+        {
+          "point": "쉬는 구간이 없어 넘으면 사는 선과 예비 손절선을 잡을 수 없다.",
+          "side": "against",
+          "checkRef": "차트:횡보 길이"
+        },
+        {
+          "point": "최근 5일 거래량이 20일 평균의 0.84배로 거래량이 마르는 구간이 아니다.",
+          "side": "against",
+          "checkRef": "차트:거래량 마름"
+        }
+      ],
+      "conditions": [
+        "2~8주 길이의 쉬는 구간이 생기고 그 안에서 저점이 높아지는 것이 확인될 때",
+        "그 구간에서 최근 5일 거래량이 20일 평균의 0.7배 아래로 마를 때",
+        "2026년 10월 29일 실적 발표가 지나고 4분기 전망이 확인될 때",
+        "그렇게 생긴 구간의 고점을 20일 평균의 2배 거래량으로 종가 돌파할 때"
+      ],
+      "invalidation": "종가가 50일선 74.92 아래로 내려가면 지금의 상승 흐름이 깨진 것으로 본다. 2027년 주당순이익이 올해보다 38.6% 줄어든다는 전망대로 정제마진이 꺾이면 지금 실적은 정점이었던 셈이 된다.",
+      "dataLimits": "국내 증권사 리포트와 원문 PDF가 없고 기관 보유 자료도 받지 않아 수급은 확인하지 못했다.",
+      "verdictAdjusted": null,
+      "verdictOriginal": null,
+      "gates": {
+        "blocked": true,
+        "reasons": [
+          {
+            "key": "no_base",
+            "ko": "쉬는 구간(베이스)이 없어 넘으면 사는 선(피벗)이 없다"
+          }
+        ],
+        "asOf": {
+          "bar": "2026-10-14",
+          "market": "2026-10-14"
+        }
+      },
+      "setup": {
+        "state": "none",
+        "grade": null,
+        "pivot": null,
+        "stop": null,
+        "distToPivotPct": null,
+        "distToPivotAdr": null,
+        "riskPerSharePct": null,
+        "extensionAdr": 0.79,
+        "adrPct": 5.9,
+        "breakDate": null,
+        "chase": false,
+        "metrics": null,
+        "reasons": [
+          "쉬는 구간 없음"
+        ],
+        "earnings": null
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "3개월 최대상승 59% · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "깊이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 89.51 · 20일선 79.7 · 50일선 74.92"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.84배 (보통) · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "손절 폭",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 0.8 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "충족",
+            "evidence": "한별 판정 초록"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "2026-06-30 분기 영업이익 전년비 2858.4% · 기준 +25% (SEC, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "충족",
+            "evidence": "SEC 최근 4분기 이익 전년비 2858%/159%/133%/174% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — 목록 순환 심층 분석이 신제품·신서비스와 그 매출·이익 영향을 증권사 리포트·기사로 조사한다(N 없는 종목부터 하루 14개) · 참고: 52주 고점의 100%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 0.84배(20일 평균 대비) · 오늘 거래대금 —(상승일) · 상장주식 119M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 2.57% · 3M 3.74% · 6M 1.4% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "충족",
+            "evidence": "한별 판정 초록 · 마진부채 주의(+30% 초과)"
+          }
+        ]
+      },
+      "kis": {
+        "ticker": "PBF",
+        "fetchedAt": "2026-10-15",
+        "source": "한국투자증권 Open API",
+        "per": 7.91,
+        "pbr": 1.66,
+        "eps": 11.31,
+        "bps": 54.06,
+        "shares": 118537000,
+        "marketCapM": 10610,
+        "high52": 92.46,
+        "high52Date": "2026-10-14",
+        "low52": 25.1551,
+        "low52Date": "2025-12-18",
+        "last": 89.51,
+        "prevClose": 91.17,
+        "nameKo": "PBF 에너지",
+        "nameEn": "PBF ENERGY INC",
+        "listedOn": "0000-00-00",
+        "exchange": "뉴욕거래소",
+        "listedShares": 118537000
+      },
+      "estimates": {
+        "ticker": "PBF",
+        "url": "https://finance.yahoo.com/quote/PBF/analysis/",
+        "fetchedAt": "2026-10-15",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": "2026-09-30",
+            "eps": 11.13,
+            "epsLow": 7.17,
+            "epsHigh": 13.56,
+            "epsYearAgo": -0.52,
+            "epsAnalysts": 13,
+            "epsGrowth": "n/m",
+            "epsCur": "USD",
+            "rev": 10573043910,
+            "revAnalysts": 10,
+            "revYearAgo": 7651100000,
+            "revGrowth": 38.2,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1q",
+            "endDate": "2026-12-31",
+            "eps": 7.78,
+            "epsLow": 6.41,
+            "epsHigh": 10.07,
+            "epsYearAgo": 0.66,
+            "epsAnalysts": 4,
+            "epsGrowth": "n/m",
+            "epsCur": "USD",
+            "rev": 10040277520,
+            "revAnalysts": 10,
+            "revYearAgo": 7139500000,
+            "revGrowth": 40.6,
+            "revCur": "USD"
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "eps": 23.97,
+            "epsLow": 16.35,
+            "epsHigh": 27.6,
+            "epsYearAgo": -4.13,
+            "epsAnalysts": 14,
+            "epsGrowth": "n/m",
+            "epsCur": "USD",
+            "rev": 40602820750,
+            "revAnalysts": 11,
+            "revYearAgo": 29332300000,
+            "revGrowth": 38.4,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "eps": 17.38,
+            "epsLow": 10.6,
+            "epsHigh": 26.4,
+            "epsYearAgo": 28.31,
+            "epsAnalysts": 4,
+            "epsGrowth": -38.6,
+            "epsCur": "USD",
+            "rev": 37057627060,
+            "revAnalysts": 11,
+            "revYearAgo": 40602820750,
+            "revGrowth": -8.7,
+            "revCur": "USD"
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": "2026-09-30",
+            "cur": "USD",
+            "now": 11.13,
+            "d7": 3.7,
+            "d30": 22.3,
+            "d90": 138.7,
+            "ago90": 4.66,
+            "up7": 3,
+            "up30": 6,
+            "down7": 1,
+            "down30": 0
+          },
+          {
+            "period": "+1q",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 7.78,
+            "d7": 13.9,
+            "d30": 98.5,
+            "d90": 233.2,
+            "ago90": 2.34,
+            "up7": 2,
+            "up30": 4,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 23.97,
+            "d7": 3.9,
+            "d30": 21,
+            "d90": 152.8,
+            "ago90": 9.48,
+            "up7": 4,
+            "up30": 8,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "cur": "USD",
+            "now": 17.38,
+            "d7": -1.6,
+            "d30": 58,
+            "d90": 134.6,
+            "ago90": 7.41,
+            "up7": 2,
+            "up30": 3,
+            "down7": 0,
+            "down30": 0
+          }
+        ],
+        "surprises": [
+          {
+            "quarter": "2026-06-30",
+            "actual": 6.22,
+            "estimate": 4.12,
+            "surprisePct": 51.1,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-03-31",
+            "actual": -0.88,
+            "estimate": -0.9,
+            "surprisePct": 1.7,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-12-31",
+            "actual": 0.49,
+            "estimate": -0.11,
+            "surprisePct": 550,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-09-30",
+            "actual": -0.52,
+            "estimate": -0.75,
+            "surprisePct": 31,
+            "cur": "USD"
+          }
+        ],
+        "beats": 4,
+        "ratings": {
+          "upgrades": 0,
+          "downgrades": 0,
+          "initiations": 1,
+          "ptRaised": 11,
+          "ptLowered": 0,
+          "total": 12,
+          "recent": [
+            {
+              "date": "2026-10-09",
+              "firm": "Goldman Sachs",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 91,
+              "ptPrior": 81
+            },
+            {
+              "date": "2026-10-08",
+              "firm": "Mizuho",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 89,
+              "ptPrior": 65
+            },
+            {
+              "date": "2026-10-06",
+              "firm": "Citigroup",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 91,
+              "ptPrior": 74
+            },
+            {
+              "date": "2026-09-14",
+              "firm": "Morgan Stanley",
+              "action": "main",
+              "from": "Underweight",
+              "to": "Underweight",
+              "ptAction": "Raises",
+              "pt": 76,
+              "ptPrior": 38
+            },
+            {
+              "date": "2026-08-18",
+              "firm": "Goldman Sachs",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 81,
+              "ptPrior": 71
+            },
+            {
+              "date": "2026-08-04",
+              "firm": "UBS",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 84,
+              "ptPrior": 62
+            },
+            {
+              "date": "2026-08-04",
+              "firm": "Mizuho",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 65,
+              "ptPrior": 57
+            },
+            {
+              "date": "2026-07-31",
+              "firm": "Citigroup",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 74,
+              "ptPrior": 65
+            },
+            {
+              "date": "2026-07-24",
+              "firm": "Citigroup",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 65,
+              "ptPrior": 43
+            },
+            {
+              "date": "2026-07-23",
+              "firm": "Goldman Sachs",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 71,
+              "ptPrior": 51
+            }
+          ]
+        },
+        "nextEarnings": {
+          "date": "2026-10-29",
+          "upcoming": true,
+          "estimated": false
+        }
+      },
+      "cnbc": [
+        {
+          "title": "Stocks making the biggest moves midday: Meta, Microsoft, Teladoc & more",
+          "url": "https://www.cnbc.com/2026/07/30/stocks-making-the-biggest-moves-midday-meta-msft-mktx-crox.html",
+          "date": "2026-07-30",
+          "publisher": "CNBC",
+          "kind": "article"
+        }
+      ],
+      "detail": {
+        "fetchedAt": "2026-10-15",
+        "nameKo": "PBF 에너지",
+        "nameEn": "PBF ENERGY INC",
+        "financials": {
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001534504&type=10-Q",
+          "quarters": [
+            {
+              "periodEnd": "2026-06-30",
+              "derived": false,
+              "revenue": 11678300000,
+              "profit": 1272100000,
+              "netIncome": 906400000,
+              "margin": 10.9,
+              "yoy": {
+                "revenue": 56.2,
+                "profit": 2858.4,
+                "netIncome": 17530.8,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 7904300000,
+              "profit": 299600000,
+              "netIncome": 198300000,
+              "margin": 3.8,
+              "yoy": {
+                "revenue": 11.9,
+                "profit": 158.6,
+                "netIncome": 149.4,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 7139500000,
+              "profit": 128000000,
+              "netIncome": 78400000,
+              "margin": 1.8,
+              "yoy": {
+                "revenue": -2.9,
+                "profit": 133.4,
+                "netIncome": 127.1,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodEnd": "2025-09-30",
+              "derived": false,
+              "revenue": 7651100000,
+              "profit": 285900000,
+              "netIncome": 170100000,
+              "margin": 3.7,
+              "yoy": {
+                "revenue": -8.7,
+                "profit": 174,
+                "netIncome": 159.5,
+                "priorEnd": "2024-09-30"
+              }
+            }
+          ]
+        },
+        "news": {
+          "items": [
+            {
+              "title": "PBF Energy Surges 189.4% in a Year: Should Investors Buy the Stock?",
+              "url": "https://www.nasdaq.com/articles/pbf-energy-surges-1894-year-should-investors-buy-stock",
+              "date": "2026-10-13",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "PBF vs. NTOIY: Which Stock Is the Better Value Option?",
+              "url": "https://www.nasdaq.com/articles/pbf-vs-ntoiy-which-stock-better-value-option",
+              "date": "2026-10-12",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "PBF Energy (PBF) Is Up 9.62% in One Week: What You Should Know",
+              "url": "https://www.nasdaq.com/articles/pbf-energy-pbf-962-one-week-what-you-should-know",
+              "date": "2026-10-05",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Zacks Investment Ideas feature highlights: Hewlett, PBF Energy and NetApp",
+              "url": "https://www.nasdaq.com/articles/zacks-investment-ideas-feature-highlights-hewlett-pbf-energy-and-netapp",
+              "date": "2026-10-05",
+              "publisher": "Zacks"
+            }
+          ]
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-10-14",
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1534504/000153450426000035/pbf-20261014.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-10-01",
+            "itemsKo": [
+              "중요 계약 체결",
+              "2.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1534504/000153450426000033/pbf-20260930.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-17",
+            "itemsKo": [
+              "중요 계약 체결",
+              "2.03",
+              "3.02",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526394108/d175053d8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-15",
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526391405/d175358d8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-14",
+            "itemsKo": [
+              "Reg FD 공시",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526389847/d179978d8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-30",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1534504/000153450426000029/pbf-20260730.htm"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": []
+        }
+      },
+      "rank": {
+        "m1": 2.57,
+        "m3": 3.74,
+        "m6": 1.4
+      },
+      "verified": {
+        "checked": 8,
+        "ok": 28,
+        "unverified": 0,
+        "dead": 0,
+        "stripped": 2
+      },
+      "numberCut": 2,
+      "deep": {
+        "status": "done",
+        "ticker": "PBF",
+        "company": "PBF 에너지는 미국에서 정유공장 여러 곳을 돌려 원유를 휘발유·경유 같은 석유제품으로 바꿔 파는 회사다. 공장은 동부·중부·걸프·서부 네 권역에 흩어져 있고, 3분기 기준 회사 전체 원유 처리량 목표는 하루 90만~96만 배럴이다. 자회사 St. Bernard Renewables를 통해 재생디젤도 만든다. 돈 버는 구조는 단순해서, 사 오는 원유값과 파는 제품값의 차이(정제마진)가 벌어지면 이익이 급증하고 좁아지면 적자로 간다.",
+        "lead": "업황과 실적은 최고 국면인데 살 자리가 없는 종목이다. 2분기 매출이 1년 전보다 56.2% 늘고 영업이익이 2858.4% 증가하면서 증권사 올해 이익 추정치가 90일 전보다 152.8% 올라갔다. 걱정은 차트에 옆으로 쉬는 구간이 전혀 없어 넘으면 사는 선(피벗)도 손절선도 잡히지 않는다는 점이다. 10월 29일 실적 발표가 2주 앞이고, 2027년 이익이 올해보다 38.6% 줄어든다는 전망대로 정제마진이 꺾이면 지금 숫자는 정점이었던 것이 된다.",
+        "newsNarrative": "최근 한 달 PBF 뉴스의 핵심은 빚 갈아타기다. 9월 17일 이자 0%짜리 교환사채 5억 5,000만 달러를 발행해, 이자 7.875%를 물던 2030년 만기 채권 5억 달러를 갚는 데 썼다. 10월 14일에는 이자 9.875%짜리 8억 달러 채권까지 전액 조기상환하겠다고 통지했다. 9월 30일에는 한도 40억 달러짜리 운전자금 대출 약정을 2031년 만기로 새로 맺어, 이자 부담과 자금 여력이 함께 개선됐다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "9월 17일 이자 0%짜리 교환사채 5억 5,000만 달러를 발행해 고금리 채권을 갚을 실탄을 마련했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PBF Energy Inc. Form 8-K (2026-09-17)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526394108/d175053d8k.htm",
+                "date": "2026-09-17",
+                "quote": "the Issuers issued $550.0 million in aggregate principal amount of 0% Exchangeable Senior Notes due 2032",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "10월 14일 이자 9.875%짜리 8억 달러 채권 전액을 조기상환하겠다고 통지했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PBF Energy Inc. Form 8-K (2026-10-14)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1534504/000153450426000035/pbf-20261014.htm",
+                "date": "2026-10-14",
+                "quote": "issued a notice of optional full redemption to redeem all $800.0 million in aggregate principal amount of the outstanding 9.875% Senior Notes due 2030",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "PBF Energy Inc. Form 8-K (2026-09-14)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526389847/d179978d8k.htm",
+                "date": "2026-09-14",
+                "quote": "On September 14, 2026, the Company announced that PBF Holding and PBF Holding's wholly owned subsidiary, PBF Finance Corporation (\"PBF Finance\"), as co-issuers, intend to commence a private offering of $500.0 million in aggregate principal amount of senior unsecured exchangeable notes due 2032",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "9월 14일 5억 달러 교환사채 발행 계획을 알리며, 이자 7.875% 채권을 갚는 데 쓰겠다고 밝혔다.",
+            "stripped": true
+          },
+          {
+            "id": "n4",
+            "statement": "9월 30일 한도 40억 달러짜리 운전자금 대출 약정을 새로 맺어 자금 여력을 늘렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PBF Energy Inc. Form 8-K (2026-10-01)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1534504/000153450426000033/pbf-20260930.htm",
+                "date": "2026-10-01",
+                "quote": "The 2026 Revolving Loan has a maximum commitment of $4.0 billion",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "2분기에 순차입금을 14억 달러 넘게 줄였다고 회사가 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PBF Energy Reports Second Quarter 2026 Results",
+                "publisher": "PBF Energy (SEC EDGAR)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001534504/000153450426000029/a991pressreleaseq2-26.htm",
+                "date": "2026-07-30",
+                "quote": "We are in a cyclical business with a volatile and ever-changing environment. During the second quarter, PBF delivered significant equity value through our net debt reduction of over $1.4 billion.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n6",
+            "statement": "주가가 1년 사이 189.4% 올라 지금 수준이 적정한지를 두고 기사가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PBF Energy Surges 189.4% in a Year: Should Investors Buy the Stock?",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/pbf-energy-surges-1894-year-should-investors-buy-stock",
+                "date": "2026-10-13",
+                "quote": "PBF Energy Surges 189.4% in a Year: Should Investors Buy the Stock?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "정제마진이 벌어지면서 실적이 1년 만에 완전히 달라졌다. 2026년 2분기 매출은 11,678.3백만 달러로 1년 전 같은 분기보다 56.2% 늘었다. 영업이익은 1,272.1백만 달러로 전년 동기 대비 2858.4% 증가했고, 영업이익률은 직전 분기 3.8%에서 10.9%로 뛰었다. 직전 세 분기 이익도 모두 전년보다 늘어, 회복 흐름이 1년째 이어지고 있다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "f1",
+              "statement": "2026년 2분기 매출은 11,678.3백만 달러로 1년 전보다 56.2% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PBF Energy Reports Second Quarter 2026 Results",
+                  "publisher": "PBF Energy (SEC EDGAR)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001534504/000153450426000029/a991pressreleaseq2-26.htm",
+                  "date": "2026-07-30",
+                  "quote": "Q2 Revenues: $11,678.3 million",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "PBF Energy 분기 실적 (SEC EDGAR)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001534504&type=10-Q",
+                  "date": "2026-06-30",
+                  "quote": "\"periodEnd\": \"2026-06-30\", \"revenue\": 11678300000, \"yoy\": { \"revenue\": 56.2 }",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f2",
+              "statement": "직전 분기인 2026년 3월 말 분기 매출은 7,904.3백만 달러, 전년비 11.9% 증가로 2분기에 증가 속도가 빨라졌다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PBF Energy 분기 실적 (SEC EDGAR)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001534504&type=10-Q",
+                  "date": "2026-03-31",
+                  "quote": "\"periodEnd\": \"2026-03-31\", \"revenue\": 7904300000, \"yoy\": { \"revenue\": 11.9 }",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "f3",
+              "statement": "2026년 2분기 영업이익은 1,272.1백만 달러로 전년 동기보다 2858.4% 늘었고 영업이익률은 10.9%였다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PBF Energy Reports Second Quarter 2026 Results",
+                  "publisher": "PBF Energy (SEC EDGAR)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001534504/000153450426000029/a991pressreleaseq2-26.htm",
+                  "date": "2026-07-30",
+                  "quote": "Q2 Income from operations: $1,272.1 million",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "PBF Energy 분기 실적 (SEC EDGAR)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001534504&type=10-Q",
+                  "date": "2026-06-30",
+                  "quote": "\"periodEnd\": \"2026-06-30\", \"profit\": 1272100000, \"margin\": 10.9, \"yoy\": { \"profit\": 2858.4 }",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f4",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "PBF Energy 분기 실적 (SEC EDGAR)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001534504&type=10-Q",
+                  "date": "2026-06-30",
+                  "quote": "\"yoy\": { \"profit\": 2858.4 } / \"yoy\": { \"profit\": 158.6 } / \"yoy\": { \"profit\": 133.4 } / \"yoy\": { \"profit\": 174 }",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "최근 4개 분기 이익이 전년 대비 각각 2858.4%·158.6%·133.4%·174% 늘어 1년 내내 증가했다.",
+              "stripped": true
+            }
+          ],
+          "guidance": [
+            {
+              "id": "g1",
+              "statement": "회사는 3분기 전사 원유 처리량을 하루 900,000~960,000 배럴로 제시했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "PBF Energy Reports Second Quarter 2026 Results",
+                  "publisher": "PBF Energy (SEC EDGAR)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001534504/000153450426000029/a991pressreleaseq2-26.htm",
+                  "date": "2026-07-30",
+                  "quote": "Total: 900,000-960,000",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "raised",
+            "claims": [
+              {
+                "id": "e1",
+                "statement": "증권사 목표주가 상향이 최근 11건 나왔고 투자의견 상향·하향은 0건이다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "PBF Energy 애널리스트 전망치",
+                    "publisher": "Yahoo Finance",
+                    "url": "https://finance.yahoo.com/quote/PBF/analysis/",
+                    "date": "2026-10-15",
+                    "quote": "\"upgrades\": 0, \"downgrades\": 0, \"initiations\": 1, \"ptRaised\": 11, \"ptLowered\": 0, \"total\": 12",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "e2",
+                "statement": "올해 주당순이익 추정치는 23.97달러로 90일 전 9.48달러에서 152.8% 올랐다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "PBF Energy 애널리스트 전망치",
+                    "publisher": "Yahoo Finance",
+                    "url": "https://finance.yahoo.com/quote/PBF/analysis/",
+                    "date": "2026-10-15",
+                    "quote": "\"period\": \"0y\", \"now\": 23.97, \"d30\": 21, \"d90\": 152.8, \"ago90\": 9.48, \"up30\": 8, \"down30\": 0",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "estimatesNarrative": "증권사 전망치는 한 방향으로 계속 올라가고 있다. 올해(12월 결산) 주당순이익 추정치는 23.97달러로 30일 전보다 21%, 90일 전 9.48달러보다 152.8% 높아졌고 최근 30일 상향 8명·하향 0명이다. 2분기 실적이 추정치를 51.1% 웃돈 것이 상향의 출발점인데, 같은 분기 매출이 56.2% 늘어난 만큼 일회성이 아니라 정제마진에서 나온 결과로 보인다. 다만 2027년 주당순이익 추정은 17.38달러로 올해보다 38.6% 낮고 매출도 8.7% 줄어든다고 보고 있어, 증권사들은 지금을 이익 정점으로 두고 있다.",
+        "newDrivers": [
+          {
+            "what": "서부 마티네즈 정유공장 전면 재가동 — 멈춰 있던 서부 핵심 공장이 다시 돌아 처리량이 돌아왔다",
+            "kind": "product",
+            "stage": "매출 발생 중",
+            "since": "2026-06",
+            "basis": [
+              {
+                "id": "d1b1",
+                "statement": "회사는 마티네즈 정유공장이 2분기에 전면 가동 상태로 복귀했다고 밝혔다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "PBF Energy Reports Second Quarter 2026 Results",
+                    "publisher": "PBF Energy (SEC EDGAR)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001534504/000153450426000029/a991pressreleaseq2-26.htm",
+                    "date": "2026-07-30",
+                    "quote": "The Martinez refinery successfully returned to full operations in the second quarter",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [
+              {
+                "id": "d1r1",
+                "statement": "재가동으로 3분기 서부 권역 처리량 목표가 하루 270,000~290,000 배럴로 잡혔다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "PBF Energy Reports Second Quarter 2026 Results",
+                    "publisher": "PBF Energy (SEC EDGAR)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001534504/000153450426000029/a991pressreleaseq2-26.htm",
+                    "date": "2026-07-30",
+                    "quote": "West Coast: 270,000-290,000",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "profitImpact": [
+              {
+                "id": "d1p1",
+                "statement": "재가동 분기인 2분기에 영업이익률이 10.9%로 직전 분기 3.8%에서 올라섰다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "PBF Energy 분기 실적 (SEC EDGAR)",
+                    "publisher": "SEC EDGAR",
+                    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001534504&type=10-Q",
+                    "date": "2026-06-30",
+                    "quote": "\"periodEnd\": \"2026-06-30\", \"margin\": 10.9 / \"periodEnd\": \"2026-03-31\", \"margin\": 3.8",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "expectedGrowth": [
+              {
+                "id": "d1g1",
+                "statement": "회사 가이던스 기준 3분기 전사 처리량은 하루 900,000~960,000 배럴이다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "PBF Energy Reports Second Quarter 2026 Results",
+                    "publisher": "PBF Energy (SEC EDGAR)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001534504/000153450426000029/a991pressreleaseq2-26.htm",
+                    "date": "2026-07-30",
+                    "quote": "Total: 900,000-960,000",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "counter": [
+              {
+                "id": "d1c1",
+                "statement": "경영진이 변동이 심한 순환 산업이라고 못 박았다 — 마진이 꺾이면 처리량이 늘어도 이익은 준다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "PBF Energy Reports Second Quarter 2026 Results",
+                    "publisher": "PBF Energy (SEC EDGAR)",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001534504/000153450426000029/a991pressreleaseq2-26.htm",
+                    "date": "2026-07-30",
+                    "quote": "We are in a cyclical business with a volatile and ever-changing environment.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "what": "고금리 회사채를 이자 0% 교환사채로 교체 — 7.875%·9.875% 채권을 0%짜리로 갈아탄다",
+            "kind": "contract",
+            "stage": "출시",
+            "since": "2026-09-17",
+            "basis": [
+              {
+                "id": "d2b1",
+                "statement": "9월 17일 이자 0%짜리 교환사채 5억 5,000만 달러를 발행했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "PBF Energy Inc. Form 8-K (2026-09-17)",
+                    "publisher": "SEC EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526394108/d175053d8k.htm",
+                    "date": "2026-09-17",
+                    "quote": "the Issuers issued $550.0 million in aggregate principal amount of 0% Exchangeable Senior Notes due 2032",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "d2b2",
+                "statement": "조달한 돈은 이자 7.875%짜리 2030년 만기채를 전액 갚는 데 쓴다고 밝혔다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "PBF Energy Inc. Form 8-K (2026-09-14)",
+                    "publisher": "SEC EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526389847/d179978d8k.htm",
+                    "date": "2026-09-14",
+                    "quote": "to fund the redemption in full of its outstanding 7.875% Senior Unsecured Notes due 2030",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [],
+            "profitImpact": [
+              {
+                "id": "d2p1",
+                "statement": "이자 9.875%짜리 8억 달러 채권까지 전액 상환하면 해마다 나가던 이자가 그만큼 사라진다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "PBF Energy Inc. Form 8-K (2026-10-14)",
+                    "publisher": "SEC EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000153450426000035/pbf-20261014.htm",
+                    "date": "2026-10-14",
+                    "quote": "issued a notice of optional full redemption to redeem all $800.0 million in aggregate principal amount of the outstanding 9.875% Senior Notes due 2030",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "expectedGrowth": [],
+            "counter": [
+              {
+                "id": "d2c1",
+                "statement": "교환사채가 주식으로 바뀌면 최대 7,812,475주가 새로 나와 기존 주주 몫이 줄어든다(희석).",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "PBF Energy Inc. Form 8-K (2026-09-17)",
+                    "publisher": "SEC EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526394108/d175053d8k.htm",
+                    "date": "2026-09-17",
+                    "quote": "A maximum of 7,812,475 shares of Common Stock may be issued upon exchange of the Notes, based on the initial maximum exchange rate of 14.2045 shares of Common Stock per $1,000 principal amount",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "nNarrative": "새로 생긴 것은 두 가지다. 첫째, 멈춰 있던 서부 마티네즈 정유공장이 2분기에 전면 재가동돼 서부 처리량 목표가 하루 270,000~290,000 배럴로 돌아왔고 전사로는 하루 900,000~960,000 배럴이다. 둘째, 9월 17일 이자 0%짜리 교환사채 5억 5,000만 달러를 발행해 7.875%·9.875% 채권을 갚는 중이라 해마다 나가던 이자가 줄어든다. 이익 쪽에서는 재가동 분기인 2분기 영업이익률이 10.9%로 직전 분기 3.8%에서 올라선 것이 확인된다. 기대 성장률로 회사가 내놓은 것은 3분기 처리량 가이던스뿐이고 마진 전망은 제시하지 않았다. 꺾일 수 있는 지점은 둘 — 경영진 표현대로 변동이 심한 순환 산업이라 마진이 내려가면 처리량이 늘어도 이익이 줄고, 교환사채가 주식으로 바뀌면 최대 7,812,475주가 새로 나온다.",
+        "nVerdict": "충족",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "충족",
+            "evidence": "2026-06-30 분기 영업이익 전년비 +2858.4%, 매출 +56.2% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "충족",
+            "evidence": "최근 4개 분기 이익 전년비 2858.4%/158.6%/133.4%/174% — 최근 1년은 모두 증가(부분 충족). 3년 추세·자기자본이익률은 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "충족",
+            "evidence": "서부 마티네즈 공장 2분기 전면 재가동, 3분기 서부 처리량 목표 하루 270,000~290,000 배럴 · 이자 0% 교환사채 5억 5,000만 달러로 9.875%·7.875% 채권 교체 · 참고: 52주 고점의 100%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 0.84배 · 기준 0.7 이하 · 상장주식 118,537,000주 · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1개월 2.57% · 3개월 3.74% · 6개월 1.4% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "충족",
+            "evidence": "시장 판정 초록(10일선이 20일선 위, 둘 다 상승) · 빚내서 산 주식이 1년 전보다 +37.2%로 주의선 +30% 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "교환사채가 주식으로 바뀌면 최대 7,812,475주가 새로 발행돼 기존 주주 몫이 줄어든다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PBF Energy Inc. Form 8-K (2026-09-17)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526394108/d175053d8k.htm",
+                "date": "2026-09-17",
+                "quote": "A maximum of 7,812,475 shares of Common Stock may be issued upon exchange of the Notes, based on the initial maximum exchange rate of 14.2045 shares of Common Stock per $1,000 principal amount",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r2",
+            "statement": "증권사들은 2027년 주당순이익을 17.38달러로 올해보다 38.6% 낮게, 매출도 8.7% 줄어든다고 본다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PBF Energy 애널리스트 전망치",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/quote/PBF/analysis/",
+                "date": "2026-10-15",
+                "quote": "\"period\": \"+1y\", \"endDate\": \"2027-12-31\", \"eps\": 17.38, \"epsGrowth\": -38.6, \"revGrowth\": -8.7",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r3",
+            "statement": "경영진이 변동이 심한 순환 산업이라고 직접 밝혀, 분기마다 실적이 크게 흔들릴 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PBF Energy Reports Second Quarter 2026 Results",
+                "publisher": "PBF Energy (SEC EDGAR)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001534504/000153450426000029/a991pressreleaseq2-26.htm",
+                "date": "2026-07-30",
+                "quote": "We are in a cyclical business with a volatile and ever-changing environment.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r4",
+            "statement": "9월 상환한 2030년 만기채는 원금의 103.938%를 지급하는 조건이라 조기상환에 추가 현금이 나갔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "PBF Energy Inc. Form 8-K (2026-09-14)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526389847/d179978d8k.htm",
+                "date": "2026-09-14",
+                "quote": "On September 14, 2026, PBF Holding and PBF Finance issued a notice of conditional optional full redemption for all $500 million of the outstanding 2030 Notes at a redemption price equal to 103.938% of the aggregate principal amount thereof",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "원유값과 제품값의 차이에 이익이 통째로 달려 있어 분기 실적 진폭이 크다.",
+          "공장 한 곳이 사고나 정기보수로 멈추면 권역 처리량이 바로 줄어든다.",
+          "차입금 규모가 커서 금리와 채권시장 상황에 재무구조가 좌우된다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "3개월 최대 상승 59% · 기준 30% 이상"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "깊이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 89.51 · 20일선 79.7 · 50일선 74.92"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.84배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없어 돌파봉을 잴 수 없다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없어 넘으면 사는 선이 없다"
+          },
+          {
+            "item": "손절 폭",
+            "status": "확인 불가",
+            "evidence": "예비 손절선이 없다 · 참고 하루 변동폭 5.9%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 0.8 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "충족",
+            "evidence": "시장 판정 초록"
+          }
+        ],
+        "chartObservation": {
+          "base": "옆으로 쉬는 구간이 없다. 7월 이후 계속 올라 종가가 50일선보다 19.47% 위에 있다. 최근 고점은 92.46이고 현재가는 거기서 3.19% 아래다.",
+          "volume": "최근 5일 거래량은 20일 평균의 0.84배, 마지막 봉은 0.86배다. 10월 13일 상승일에 3,399,200주, 다음 날 2,976,892주가 거래됐다. 쉬는 구간이 없어 거래량이 말랐는지 잴 기준 구간 자체가 없다.",
+          "position": "현재가 89.51에 대해 넘으면 사는 선(피벗)도 예비 손절선도 잡히지 않았다. 10일선 위 0.8 ADR로 이평선에는 붙어 있다. 52주 고점 92.46은 바로 전날인 10월 14일에 찍혔다.",
+          "maStack": "가격이 20일선 79.7, 50일선 74.92, 150일선 56.18 위에 있고 세 선 모두 우상향이다.",
+          "note": "그림과 숫자가 일치한다. 7월 이후 이평선을 타고 계단식으로 오르기만 했고 옆으로 눌러앉은 구간이 보이지 않으며, 거래량 막대도 줄어드는 모양이 아니다."
+        },
+        "entryChecklist": [
+          "2~8주 길이로 옆으로 쉬는 구간이 생기고 그 안에서 저점이 높아지는지",
+          "그 구간에서 최근 5일 거래량이 20일 평균의 0.7배 아래로 줄어드는지",
+          "2026년 10월 29일 실적 발표와 4분기 전망이 나온 뒤인지",
+          "종가가 50일선 74.92 위를 계속 지키는지",
+          "교환사채 전환으로 최대 7,812,475주가 실제로 발행되는지"
+        ],
+        "earningsRisk": "다음 실적 발표는 2026년 10월 29일로 2주 앞이다. 최근 4개 분기 모두 추정치를 웃돌았지만 정제마진이 분기마다 크게 움직여, 발표 전에 들어가면 결과에 베팅하는 셈이 된다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "consensus": {
+          "saleCy": 38.42,
+          "saleNy": -8.73,
+          "epsCy": -680.3,
+          "epsNy": -27.49,
+          "cyTrend": 21.02,
+          "nyTrend": 57.98
+        },
+        "researchedOn": "2026-10-15",
+        "session": "2026-10-14",
+        "carried": false,
+        "source": "ondemand"
+      }
+    },
+    {
       "ticker": "TEAM",
       "nameKo": "아틀라시언",
       "sector": "Technology",
@@ -2023,5 +3321,5 @@ window.ONDEMAND_DATA = {
       }
     }
   ],
-  "updated": "2026-10-14T01:36:53.460Z"
+  "updated": "2026-10-15T05:30:20.134Z"
 };
