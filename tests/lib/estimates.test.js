@@ -46,6 +46,12 @@ ok('정리값은 작다(공개 저장소에 매일 커밋) · 원자료가 비�
   assert.strictEqual(Y.parseQuoteSummary({ earningsTrend: { trend: [] } }, { ticker: 'X' }), null);
   assert.ok(sndk.url.endsWith('/quote/SNDK/analysis/'));
 });
+ok('차단당하지 않게 — 요청 간격 3~5초, 429·403 뒤 12시간 쉰다', () => {
+  assert.deepStrictEqual(Y.GAP_MS, [3000, 5000]); assert.strictEqual(Y.COOLDOWN_H, 12);
+  const src = require('fs').readFileSync(require('path').join(__dirname, '../../scripts/data/yahoo-estimates.js'), 'utf8');
+  assert.ok(/status === 429 \|\| r\.status === 403\) \{ startCooldown/.test(src), '429·403 처리 없음');
+  assert.ok(!/throttler\(4\)/.test(src), '초당 4건 그대로');
+});
 Y.getEstimates('$(id)').then((r) => {
   ok('  → 잘못된 티커 null', () => assert.strictEqual(r, null));
   console.log(`\n${fail ? '❌' : '✅'} 통과 ${pass} · 실패 ${fail}`);

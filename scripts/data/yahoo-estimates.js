@@ -5,7 +5,10 @@
 // 받는 법(2026-10-15 실측): fc.yahoo.com 쿠키 → /v1/test/getcrumb → /v10/finance/quoteSummary?modules=…&crumb=
 //   · User-Agent 는 "Mozilla/5.0" 만 — 브라우저 전체 UA 는 바로 429 가 났다.
 //   · crumb 응답이 200 이 아니면 저장하지 않는다("Too Many Requests" 글자를 crumb 으로 쓰면 401 이 이어진다).
-//   · 순차·초당 4건. 55종목 연속 호출에서 429 없음. 하루 캐시, 실패는 캐시 안 함, 절대 throw 하지 않는다.
+//   · 차단당하지 않게 **느리게** 간다(2026-10-15 사용자 지시: "밴 안 당하게 충분한 시간을 두고"):
+//     요청 사이 3~5초(무작위), 종목당 하루 1번(캐시), crumb 은 프로세스당 1번. 54종목이면 약 3~4분.
+//     429(너무 많은 요청)·403 을 한 번이라도 받으면 **12시간 동안 야후에 아예 접속하지 않는다**(CACHE_DIR 에 기록, 프로세스가 달라도 지킨다).
+//     그동안 팝업에는 야후 링크만 나간다. 절대 throw 하지 않는다.
 //   · 차트(ta.js·bars.js)와 상태를 공유하지 않는다 — 밤 루프가 그쪽을 쓴다.
 //
 // 저장하는 것은 **정리값만**이다(투자의견 이력은 종목당 수백 줄 — 공개 저장소에 매일 커밋된다).
@@ -18,7 +21,27 @@ const cache = require('../lib/cache');
 
 const UA = { 'User-Agent': 'Mozilla/5.0' };
 const MODULES = 'earningsTrend,earningsHistory,upgradeDowngradeHistory,calendarEvents';
-const throttle = cache.throttler(4);
+const path = require('path');
+const fs = require('fs');
+const { paths } = require('../lib/util');
+const GAP_MS = [3000, 5000];                                   // 요청 사이 간격(무작위) — 사람이 페이지를 넘기는 정도
+const COOLDOWN_H = 12;                                         // 429·403 뒤 쉬는 시간
+const COOL_FILE = path.join(paths.cacheDir, 'yahoo-cooldown.json');
+let lastAt = 0;
+async function throttle() {
+  const gap = GAP_MS[0] + Math.random() * (GAP_MS[1] - GAP_MS[0]);
+  const wait = lastAt + gap - Date.now();
+  if (wait > 0) await new Promise((r) => setTimeout(r, wait));
+  lastAt = Date.now();
+}
+function coolingDown() {
+  try { const j = JSON.parse(fs.readFileSync(COOL_FILE, 'utf8')); return Date.now() < j.until ? j : null; } catch (e) { return null; }
+}
+function startCooldown(status) {
+  try { fs.mkdirSync(path.dirname(COOL_FILE), { recursive: true }); fs.writeFileSync(COOL_FILE, JSON.stringify({ at: new Date().toISOString(), status, until: Date.now() + COOLDOWN_H * 3600e3 })); } catch (e) { /* 기록 실패해도 이번 프로세스는 아래 blocked 로 멈춘다 */ }
+  blocked = true;
+}
+let blocked = false;
 let session = null;                       // { cookie, crumb } — 프로세스당 한 번
 
 const raw = (o) => (o && typeof o === 'object' && Number.isFinite(o.raw) ? o.raw : null);
@@ -69,11 +92,14 @@ function parseQuoteSummary(q, { ticker, today = new Date().toISOString().slice(0
 // 요약 문장은 화면(index.html estSummary)이 이 정리값으로 쓴다 — 숫자 비교로만 상향/하향을 말한다(AI 없음).
 
 async function newSession() {
+  if (blocked || coolingDown()) return null;
   try {
+    await throttle();
     const r1x = await fetch('https://fc.yahoo.com', { headers: UA, redirect: 'manual', signal: AbortSignal.timeout(15000) });
     const cookie = (r1x.headers.getSetCookie ? r1x.headers.getSetCookie() : []).map((c) => c.split(';')[0]).join('; ');
     if (!cookie) return null;
     const r2x = await fetch('https://query2.finance.yahoo.com/v1/test/getcrumb', { headers: { ...UA, cookie }, signal: AbortSignal.timeout(15000) });
+    if (r2x.status === 429 || r2x.status === 403) { startCooldown(r2x.status); return null; }
     const crumb = (await r2x.text()).trim();
     if (r2x.status !== 200 || !crumb || /\s/.test(crumb) || crumb.length > 40) return null;
     return { cookie, crumb };
@@ -81,6 +107,7 @@ async function newSession() {
 }
 
 async function fetchSummary(T) {
+  if (blocked || coolingDown()) return null;
   for (let attempt = 0; attempt < 2; attempt++) {
     if (!session) session = await newSession();
     if (!session) return null;
@@ -88,6 +115,7 @@ async function fetchSummary(T) {
     try {
       const r = await fetch(`https://query2.finance.yahoo.com/v10/finance/quoteSummary/${encodeURIComponent(T)}?modules=${MODULES}&crumb=${encodeURIComponent(session.crumb)}`,
         { headers: { ...UA, cookie: session.cookie }, signal: AbortSignal.timeout(20000) });
+      if (r.status === 429 || r.status === 403) { startCooldown(r.status); return null; }   // 차단 신호 — 12시간 쉰다
       if (r.status === 401) { session = null; continue; }          // crumb 만료 — 1회 재발급
       if (!r.ok) return null;
       const j = await r.json();
@@ -105,4 +133,4 @@ async function getEstimates(ticker, { today } = {}) {
   } catch (e) { return null; }
 }
 
-module.exports = { getEstimates, parseQuoteSummary, newSession };
+module.exports = { getEstimates, parseQuoteSummary, newSession, coolingDown, GAP_MS, COOLDOWN_H };
