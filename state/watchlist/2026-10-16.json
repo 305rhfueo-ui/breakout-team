@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-16",
+  "sessionDate": "2026-10-15",
+  "rulesVersion": "0.3",
+  "regime": "yellow",
+  "items": [
+    {
+      "shadowOnly": true,
+      "shadowBook": "gradeC",
+      "ticker": "NOW",
+      "grade": "C",
+      "pivot": 149.6,
+      "stopPre": 143.66,
+      "adrPct": 4,
+      "weightPct": 6.3,
+      "ma10": 139.44,
+      "metrics": {
+        "baseBars": 34,
+        "baseWeeks": 6.8,
+        "depthPct": 15.3,
+        "priorMovePct": 67.4,
+        "higherLows": 0,
+        "contraction": 1.12,
+        "closeRange10Adr": 2.4,
+        "surf10": 1.54,
+        "surf20": 1.85,
+        "slope20": 0.48,
+        "baseLow": 126.75,
+        "lastSwingLow": 126.75
+      },
+      "catalyst": null,
+      "price": 148.57,
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "score": 49.3,
+      "reasons": [
+        "선행 상승 +67%",
+        "베이스 6.8주",
+        "깊이 15.3%",
+        "✗ 저점 상승 0회",
+        "진폭 1.12배 · 10일 종가폭 2.4 ADR",
+        "✗ 10일선 +1.5 ADR · 20일선 +1.8 ADR",
+        "20일선 기울기 +0.48%"
+      ]
+    },
+    {
+      "shadowOnly": true,
+      "shadowBook": "far",
+      "ticker": "KOD",
+      "grade": "B",
+      "pivot": 104,
+      "stopPre": 93.98,
+      "adrPct": 11.37,
+      "weightPct": 2.6,
+      "ma10": 92.59,
+      "metrics": {
+        "baseBars": 13,
+        "baseWeeks": 2.6,
+        "depthPct": 41.8,
+        "priorMovePct": 248.9,
+        "higherLows": 1,
+        "contraction": 0.95,
+        "closeRange10Adr": 1.9,
+        "surf10": -0.45,
+        "surf20": 1.33,
+        "slope20": 24.59,
+        "baseLow": 60.49,
+        "lastSwingLow": 87.58
+      },
+      "catalyst": null,
+      "price": 88.12,
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "score": 44.7,
+      "reasons": [
+        "선행 상승 +249%",
+        "베이스 2.6주",
+        "✗ 깊이 41.8%",
+        "저점 상승 1회",
+        "진폭 0.95배 · 10일 종가폭 1.9 ADR",
+        "10일선 -0.4 ADR · 20일선 +1.3 ADR",
+        "20일선 기울기 +24.59%"
+      ]
+    }
+  ]
+}
