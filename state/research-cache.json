@@ -288,8 +288,8 @@
       "count": 12
     },
     "WGS": {
-      "last": "2026-09-17",
-      "count": 19
+      "last": "2026-10-16",
+      "count": 20
     },
     "PAYC": {
       "last": "2026-10-13",
@@ -836,8 +836,8 @@
       "count": 1
     },
     "APP": {
-      "last": "2026-10-07",
-      "count": 1
+      "last": "2026-10-16",
+      "count": 2
     },
     "NRG": {
       "last": "2026-10-07",
@@ -892,16 +892,16 @@
       "count": 1
     },
     "SYNA": {
-      "last": "2026-10-08",
-      "count": 1
+      "last": "2026-10-16",
+      "count": 2
     },
     "TTAN": {
-      "last": "2026-10-08",
-      "count": 1
+      "last": "2026-10-16",
+      "count": 2
     },
     "HALO": {
-      "last": "2026-10-08",
-      "count": 1
+      "last": "2026-10-16",
+      "count": 2
     },
     "VEON": {
       "last": "2026-10-14",
@@ -952,8 +952,8 @@
       "count": 1
     },
     "HUBS": {
-      "last": "2026-10-09",
-      "count": 1
+      "last": "2026-10-16",
+      "count": 2
     },
     "ULS": {
       "last": "2026-10-09",
@@ -1053,6 +1053,62 @@
     },
     "VEEV": {
       "last": "2026-10-15",
+      "count": 1
+    },
+    "OLLI": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "BH.A": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "ADSK": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "APPF": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "AZO": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "PAG": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "ONC": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "INTU": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "EXPE": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "AJG": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "ESLT": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "JLL": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "SHAK": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "RL": {
+      "last": "2026-10-16",
       "count": 1
     }
   },
@@ -1332,8 +1388,8 @@
       "count": 2
     },
     "FRHC": {
-      "last": "2026-10-03",
-      "count": 4,
+      "last": "2026-10-16",
+      "count": 5,
       "cat": 6,
       "evid": "588744664d36899b"
     },
@@ -1475,10 +1531,10 @@
       "count": 3
     },
     "SMTC": {
-      "last": "2026-10-13",
-      "count": 3,
+      "last": "2026-10-16",
+      "count": 4,
       "cat": 6,
-      "evid": "22ed61bdf667bf8e"
+      "evid": "a27f6372949c1e0f"
     },
     "GOOGM": {
       "last": "2026-08-26",
@@ -1553,8 +1609,10 @@
       "count": 2
     },
     "ESTC": {
-      "last": "2026-09-01",
-      "count": 2
+      "last": "2026-10-16",
+      "count": 3,
+      "cat": 6,
+      "evid": "e15c3cfb8486930b"
     },
     "ACGL": {
       "last": "2026-09-10",
@@ -1850,8 +1908,8 @@
       "evid": "5121eb088aaac410"
     },
     "UAN": {
-      "last": "2026-10-02",
-      "count": 2,
+      "last": "2026-10-16",
+      "count": 3,
       "cat": 6,
       "evid": "432bfd5abf8a7159"
     },
@@ -2126,10 +2184,10 @@
       "evid": "30f36987cdb59edb"
     },
     "JXN": {
-      "last": "2026-09-18",
-      "count": 1,
+      "last": "2026-10-16",
+      "count": 2,
       "cat": 6,
-      "evid": "7a23f4dd6b7d9d81"
+      "evid": "8f34e53bd05fb8ea"
     },
     "TMO": {
       "last": "2026-09-18",
@@ -2780,10 +2838,10 @@
       "evid": "ba8b6e3dcbb064e3"
     },
     "BLK": {
-      "last": "2026-10-15",
-      "count": 1,
+      "last": "2026-10-16",
+      "count": 2,
       "cat": 1,
-      "evid": "a2e4ceccaadb8f20"
+      "evid": "4f363d17fe467a27"
     },
     "GEV": {
       "last": "2026-10-15",
@@ -2832,6 +2890,138 @@
       "count": 1,
       "cat": 6,
       "evid": "60784d069e88c64a"
+    },
+    "PAG": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 4,
+      "evid": "67cac194529d582b"
+    },
+    "WM": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "774853d969630cff"
+    },
+    "TSM": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 1,
+      "evid": "360a332d3b527988"
+    },
+    "ONC": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "a7f2bd4b3133a890"
+    },
+    "SCCO": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "2adcebb6e8b81c91"
+    },
+    "TRV": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "d60e6d91348f789e"
+    },
+    "PAYC": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "bf0184aa2ef98820"
+    },
+    "CLH": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "577c137c121f071f"
+    },
+    "AJG": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "59d5f86dedf40d53"
+    },
+    "RL": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "fe788cde4c98f293"
+    },
+    "RACE": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "3788301b4697ef92"
+    },
+    "UNP": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "db35855db44346be"
+    },
+    "IHG": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "190382bf31c67ea4"
+    },
+    "EPAM": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "9a80c572eb8476d4"
+    },
+    "IPAR": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "dfdc5bf89998b014"
+    },
+    "ELF": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "0552ae5ea4485029"
+    },
+    "W": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "3138fe6a933eb86c"
+    },
+    "SIG": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "e6f9bfa2e818338b"
+    },
+    "TRI": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "3eb416223e9e69e6"
+    },
+    "USPH": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "d4f9cb6924c17409"
+    },
+    "KNSA": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "3eb0634351d830e3"
+    },
+    "ETSY": {
+      "last": "2026-10-16",
+      "count": 1,
+      "cat": 6,
+      "evid": "0d1da9028dab9a23"
     }
   },
   "team5": {
@@ -2868,19 +3058,27 @@
       "count": 2
     },
     "Healthcare|Health Information Services": {
-      "last": "2026-10-12",
-      "count": 1
+      "last": "2026-10-16",
+      "count": 2
     },
     "Healthcare|Biotechnology": {
       "last": "2026-10-15",
       "count": 2
     },
     "Industrials|Marine Shipping": {
-      "last": "2026-10-13",
-      "count": 1
+      "last": "2026-10-16",
+      "count": 2
     },
     "Consumer Cyclical|Furnishings, Fixtures & Appliances": {
       "last": "2026-10-13",
+      "count": 1
+    },
+    "Healthcare|Medical Care Facilities": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "Healthcare|Drug Manufacturers - General": {
+      "last": "2026-10-16",
       "count": 1
     }
   },
@@ -3141,6 +3339,62 @@
     },
     "MTSI": {
       "last": "2026-10-15",
+      "count": 1
+    },
+    "TEAM": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "PAYC": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "OLLI": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "VEEV": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "BH.A": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "HALO": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "ADSK": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "APPF": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "AZO": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "PAG": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "ONC": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "INTU": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "HUBS": {
+      "last": "2026-10-16",
+      "count": 1
+    },
+    "EXPE": {
+      "last": "2026-10-16",
       "count": 1
     }
   }

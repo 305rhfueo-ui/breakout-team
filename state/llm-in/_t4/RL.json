@@ -1,0 +1,182 @@
+{
+ "ticker": "RL",
+ "news": [
+  {
+   "title": "Ralph Lauren (RL) Surpasses Market Returns: Some Facts Worth Knowing",
+   "url": "https://www.nasdaq.com/articles/ralph-lauren-rl-surpasses-market-returns-some-facts-worth-knowing",
+   "date": "2026-10-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Bullish Two Hundred Day Moving Average Cross - RL",
+   "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-rl",
+   "date": "2026-10-08",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Ralph Lauren (RL) Outperforms Broader Market: What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/ralph-lauren-rl-outperforms-broader-market-what-you-need-know-0",
+   "date": "2026-10-01",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-03",
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037038/000095014226002493/eh260826627_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037038/000162828026053896/rl-20260806.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037038/000095014226002236/eh260814840_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037038/000162828026037053/rl-20260521.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-05",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037038/000162828026005615/rl-20260205.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-15",
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1037038/000095014226000179/eh260725530_8k.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001037038&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-27",
+    "derived": false,
+    "revenue": 1959800000,
+    "profit": 342400000,
+    "netIncome": 262200000,
+    "margin": 17.5,
+    "yoy": {
+     "revenue": 14,
+     "profit": 25.1,
+     "netIncome": 19,
+     "priorEnd": "2025-06-28"
+    }
+   },
+   {
+    "periodEnd": "2026-03-28",
+    "derived": true,
+    "revenue": 1978700000,
+    "profit": 188600000,
+    "netIncome": 151600000,
+    "margin": 9.5,
+    "yoy": {
+     "revenue": 16.6,
+     "profit": 21.7,
+     "netIncome": 17.5,
+     "priorEnd": "2025-03-29"
+    }
+   },
+   {
+    "periodEnd": "2025-12-27",
+    "derived": false,
+    "revenue": 2406000000,
+    "profit": 471300000,
+    "netIncome": 361600000,
+    "margin": 19.6,
+    "yoy": {
+     "revenue": 12.2,
+     "profit": 20.9,
+     "netIncome": 21.6,
+     "priorEnd": "2024-12-28"
+    }
+   },
+   {
+    "periodEnd": "2025-09-27",
+    "derived": false,
+    "revenue": 2010700000,
+    "profit": 245700000,
+    "netIncome": 207500000,
+    "margin": 12.2,
+    "yoy": {
+     "revenue": 16.5,
+     "profit": 37.3,
+     "netIncome": 40.3,
+     "priorEnd": "2024-09-28"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.04,
+  "saleNy": 5.29,
+  "epsCy": 13.99,
+  "epsNy": 10.87,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    14,
+    16.58,
+    12.25
+   ],
+   "ni": [
+    18.97,
+    17.52,
+    21.59
+   ],
+   "opm": [
+    17.47,
+    9.53,
+    19.59
+   ],
+   "updated": "2026-09-08 06:53:34"
+  }
+ }
+}

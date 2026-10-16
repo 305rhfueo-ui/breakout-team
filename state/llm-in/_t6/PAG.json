@@ -1,0 +1,712 @@
+{
+ "ticker": "PAG",
+ "date": "2026-10-16",
+ "session": "2026-10-15",
+ "source": "list",
+ "plan": {
+  "ticker": "PAG",
+  "name": "펜스케 오토모티브 그룹",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto & Truck Dealerships",
+  "price": 212,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 221.04,
+  "stop": 217.18,
+  "distToPivotPct": -4.09,
+  "distToPivotAdr": -2.25,
+  "riskPerSharePct": 1.75,
+  "adrPct": 1.82,
+  "extensionAdr": 3.39,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 13,
+   "priorMovePct": 36.3,
+   "higherLows": 0,
+   "contraction": 0.89,
+   "closeRange10Adr": 4.6,
+   "surf10": 3.39,
+   "surf20": 2.29,
+   "slope20": -2.04,
+   "baseLow": 192.25,
+   "lastSwingLow": 192.31
+  },
+  "reasons": [
+   "선행 상승 +36%",
+   "베이스 8주",
+   "깊이 13%",
+   "✗ 저점 상승 0회",
+   "진폭 0.89배 · 10일 종가폭 4.6 ADR",
+   "✗ 10일선 +3.4 ADR · 20일선 +2.3 ADR",
+   "✗ 20일선 기울기 -2.04%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.012805587892898719,
+    "pct": 45.04057709648332
+   },
+   "m3": {
+    "v": -0.005427984392808941,
+    "pct": 52.705139765554556
+   },
+   "m6": {
+    "v": 0.3418583288833722,
+    "pct": 86.60955816050496
+   }
+  },
+  "ret1m": -1.28,
+  "ret3m": -0.54,
+  "ret6m": 34.19,
+  "marketCap": "12.78B",
+  "volx": 5.47,
+  "volSurgeWk": 6.82,
+  "high52": 94.01,
+  "newHigh52": false,
+  "adr": 1.82,
+  "div50": 0.25,
+  "div200": 18.98,
+  "targetStatus": false,
+  "saleCy": 6.69,
+  "saleNy": 2.91,
+  "epsCy": 0.15,
+  "epsNy": 6.42,
+  "cyTrend": -2.34,
+  "nyTrend": -0.41,
+  "est": {
+   "cyCur": 13.26992,
+   "cy30": 13.5875,
+   "nyCur": 14.122,
+   "ny30": 14.18
+  },
+  "fs": {
+   "sale": [
+    5.98,
+    -1.13,
+    -10.98
+   ],
+   "ni": [
+    -2.33,
+    -9,
+    -30.83
+   ],
+   "opm": [
+    3.97,
+    3.68,
+    3.54
+   ],
+   "updated": "2026-09-07 06:54:32"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-16",
+  "nameKo": "펜스케 오토모티브 그룹",
+  "nameEn": "PENSKE AUTOMOTIVE GROUP INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001019849&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 8512700000,
+     "profit": 337600000,
+     "netIncome": 260400000,
+     "margin": 4,
+     "yoy": {
+      "revenue": 6,
+      "profit": -7.6,
+      "netIncome": -2.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 7863600000,
+     "profit": 289000000,
+     "netIncome": 234500000,
+     "margin": 3.7,
+     "yoy": {
+      "revenue": -1.1,
+      "profit": -12.3,
+      "netIncome": -9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 7769200000,
+     "profit": 318300000,
+     "netIncome": 186100000,
+     "margin": 4.1,
+     "yoy": {
+      "revenue": -3.8,
+      "profit": -17.8,
+      "netIncome": -25.4,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 8053000000,
+     "profit": 298700000,
+     "netIncome": 224800000,
+     "margin": 3.7,
+     "yoy": {
+      "revenue": 1.6,
+      "profit": -5.9,
+      "netIncome": -5.7,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Penske Automotive Inks $16.3 Bln Merger Deal With Penske, Mitsui To Go Private; PAG Shares Up 8%",
+     "url": "https://www.nasdaq.com/articles/penske-automotive-inks-163-bln-merger-deal-penske-mitsui-go-private-pag-shares-8",
+     "date": "2026-10-15",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Penske Automotive Group Becomes Oversold",
+     "url": "https://www.nasdaq.com/articles/penske-automotive-group-becomes-oversold",
+     "date": "2026-10-12",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Zacks Industry Outlook Highlights Penske Automotive and Lithia Motors",
+     "url": "https://www.nasdaq.com/articles/zacks-industry-outlook-highlights-penske-automotive-and-lithia-motors",
+     "date": "2026-09-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Penske (PAG) Down 1.3% Since Last Earnings Report: Can It Rebound?",
+     "url": "https://www.nasdaq.com/articles/penske-pag-down-13-last-earnings-report-can-it-rebound",
+     "date": "2026-08-28",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-15",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "임원 변동",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1019849/000114036126039664/ef20083688_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-15",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1019849/000114036126039661/ef20083686_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-10",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1019849/000162828026055334/pag-20260810.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1019849/000162828026050469/pag-20260729.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-23",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1019849/000162828026049400/pag-20260723.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-22",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1019849/000162828026049230/pag-20260722.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: CoreWeave, Salesforce, Rocket Lab",
+   "url": "https://www.cnbc.com/2026/10/15/stocks-making-the-biggest-moves-midday-crwv-crm-rklb-kmb.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: CoreWeave, Rocket Lab Corp, SK Hynix",
+   "url": "https://www.cnbc.com/2026/10/15/stocks-making-the-biggest-moves-premarket-crwv-rklb-skhy.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "PAG",
+  "fetchedAt": "2026-10-16",
+  "source": "한국투자증권 Open API",
+  "per": 15.61,
+  "pbr": 2.39,
+  "eps": 13.58,
+  "bps": 88.56,
+  "shares": 65662900,
+  "marketCapM": 13921,
+  "high52": 225.5052,
+  "high52Date": "2026-07-29",
+  "low52": 137.9974,
+  "low52Date": "2026-03-20",
+  "last": 212,
+  "prevClose": 194.79,
+  "nameKo": "펜스케 오토모티브 그룹",
+  "nameEn": "PENSKE AUTOMOTIVE GROUP INC",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 65662900
+ },
+ "estimates": {
+  "ticker": "PAG",
+  "url": "https://finance.yahoo.com/quote/PAG/analysis/",
+  "fetchedAt": "2026-10-16",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 3.34,
+    "epsLow": 2.98,
+    "epsHigh": 3.53,
+    "epsYearAgo": 3.23,
+    "epsAnalysts": 9,
+    "epsGrowth": 3.5,
+    "epsCur": "USD",
+    "rev": 8142875480,
+    "revAnalysts": 7,
+    "revYearAgo": 7695300000,
+    "revGrowth": 5.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 3.23,
+    "epsLow": 2.76,
+    "epsHigh": 3.39,
+    "epsYearAgo": 2.85,
+    "epsAnalysts": 9,
+    "epsGrowth": 13.3,
+    "epsCur": "USD",
+    "rev": 8163654840,
+    "revAnalysts": 7,
+    "revYearAgo": 7653400000,
+    "revGrowth": 6.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 13.24,
+    "epsLow": 12.49,
+    "epsHigh": 13.58,
+    "epsYearAgo": 13.25,
+    "epsAnalysts": 10,
+    "epsGrowth": -0.1,
+    "epsCur": "USD",
+    "rev": 32628139850,
+    "revAnalysts": 9,
+    "revYearAgo": 30615500000,
+    "revGrowth": 6.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 14.05,
+    "epsLow": 13.44,
+    "epsHigh": 14.45,
+    "epsYearAgo": 13.58,
+    "epsAnalysts": 5,
+    "epsGrowth": 3.5,
+    "epsCur": "USD",
+    "rev": 33568336760,
+    "revAnalysts": 9,
+    "revYearAgo": 32628139850,
+    "revGrowth": 2.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 3.34,
+    "d7": -0.4,
+    "d30": -6,
+    "d90": -3.9,
+    "ago90": 3.48,
+    "up7": 0,
+    "up30": 0,
+    "down7": 4,
+    "down30": 4
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 3.23,
+    "d7": -0.5,
+    "d30": -5.2,
+    "d90": -4.9,
+    "ago90": 3.4,
+    "up7": 0,
+    "up30": 1,
+    "down7": 3,
+    "down30": 3
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 13.24,
+    "d7": -0.2,
+    "d30": -2.5,
+    "d90": -0.5,
+    "ago90": 13.31,
+    "up7": 0,
+    "up30": 0,
+    "down7": 4,
+    "down30": 4
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 14.05,
+    "d7": -0.5,
+    "d30": -0.9,
+    "d90": -0.2,
+    "ago90": 14.08,
+    "up7": 0,
+    "up30": 2,
+    "down7": 1,
+    "down30": 2
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 3.62,
+    "estimate": 3.39,
+    "surprisePct": 6.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 3.05,
+    "estimate": 2.88,
+    "surprisePct": 5.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 2.85,
+    "estimate": 3.09,
+    "surprisePct": -7.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 3.23,
+    "estimate": 3.4,
+    "surprisePct": -5,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 4,
+   "initiations": 0,
+   "ptRaised": 5,
+   "ptLowered": 2,
+   "total": 9,
+   "recent": [
+    {
+     "date": "2026-10-06",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 210,
+     "ptPrior": 215
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 210,
+     "ptPrior": 225
+    },
+    {
+     "date": "2026-08-19",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 225,
+     "ptPrior": 220
+    },
+    {
+     "date": "2026-08-04",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 215,
+     "ptPrior": 170
+    },
+    {
+     "date": "2026-08-03",
+     "firm": "Stephens & Co.",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 210,
+     "ptPrior": 166
+    },
+    {
+     "date": "2026-07-24",
+     "firm": "Morgan Stanley",
+     "action": "down",
+     "from": "Overweight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 210,
+     "ptPrior": 190
+    },
+    {
+     "date": "2026-07-23",
+     "firm": "Citigroup",
+     "action": "down",
+     "from": "Buy",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 210,
+     "ptPrior": 199
+    },
+    {
+     "date": "2026-07-23",
+     "firm": "Benchmark",
+     "action": "down",
+     "from": "Buy",
+     "to": "Hold",
+     "ptAction": null,
+     "pt": null,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-07-22",
+     "firm": "Benchmark",
+     "action": "down",
+     "from": "Buy",
+     "to": "Hold",
+     "ptAction": null,
+     "pt": null,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-28",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-15",
+  "numbers": {
+   "price": 212,
+   "ma20": 203.16,
+   "ma50": 211.63,
+   "ma150": 186.13,
+   "distMA50": 0.17,
+   "periodHigh": 227,
+   "pullbackFromHigh": -6.61,
+   "volRatio20": 5.28,
+   "dryUpRatio": 1.65
+  },
+  "last10": [
+   {
+    "d": "2026-10-02",
+    "o": 204.04,
+    "h": 204.88,
+    "l": 203,
+    "c": 204.03,
+    "v": 450600,
+    "clsPos": 55,
+    "gapPct": 0.59
+   },
+   {
+    "d": "2026-10-05",
+    "o": 202.41,
+    "h": 203.96,
+    "l": 199.85,
+    "c": 200.59,
+    "v": 402600,
+    "clsPos": 18,
+    "gapPct": -0.79
+   },
+   {
+    "d": "2026-10-06",
+    "o": 199.32,
+    "h": 200.27,
+    "l": 198.74,
+    "c": 199.01,
+    "v": 304400,
+    "clsPos": 18,
+    "gapPct": -0.63
+   },
+   {
+    "d": "2026-10-07",
+    "o": 197.36,
+    "h": 198.9,
+    "l": 192.31,
+    "c": 194.22,
+    "v": 760900,
+    "clsPos": 29,
+    "gapPct": -0.83
+   },
+   {
+    "d": "2026-10-08",
+    "o": 194.23,
+    "h": 198.49,
+    "l": 193.73,
+    "c": 198.05,
+    "v": 546800,
+    "clsPos": 91,
+    "gapPct": 0.01
+   },
+   {
+    "d": "2026-10-09",
+    "o": 197.99,
+    "h": 198.7,
+    "l": 196,
+    "c": 196.16,
+    "v": 404400,
+    "clsPos": 6,
+    "gapPct": -0.03
+   },
+   {
+    "d": "2026-10-12",
+    "o": 196.12,
+    "h": 197.14,
+    "l": 192.39,
+    "c": 194.67,
+    "v": 551000,
+    "clsPos": 48,
+    "gapPct": -0.02
+   },
+   {
+    "d": "2026-10-13",
+    "o": 195,
+    "h": 196.14,
+    "l": 192.25,
+    "c": 195.67,
+    "v": 433800,
+    "clsPos": 88,
+    "gapPct": 0.17
+   },
+   {
+    "d": "2026-10-14",
+    "o": 194.92,
+    "h": 196.32,
+    "l": 193.79,
+    "c": 194.79,
+    "v": 439100,
+    "clsPos": 40,
+    "gapPct": -0.38
+   },
+   {
+    "d": "2026-10-15",
+    "o": 211,
+    "h": 212.19,
+    "l": 210.51,
+    "c": 212,
+    "v": 3240535,
+    "clsPos": 89,
+    "gapPct": 8.32
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PAG-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PAG-6m.png"
+ },
+ "market": {
+  "verdict": "yellow",
+  "ko": "🟡 10일선이 20일선 위지만 오르는 힘이 약해짐 — 넣는 돈을 줄일 때",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

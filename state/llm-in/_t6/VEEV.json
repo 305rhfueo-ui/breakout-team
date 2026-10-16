@@ -1,0 +1,739 @@
+{
+ "ticker": "VEEV",
+ "date": "2026-10-16",
+ "session": "2026-10-15",
+ "source": "list",
+ "plan": {
+  "ticker": "VEEV",
+  "name": "비바 시스템스",
+  "sector": "Healthcare",
+  "industry": "Health Information Services",
+  "price": 313.0299987792969,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 3.19,
+  "extensionAdr": 2.19,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.1868435972674763,
+    "pct": 98.33183047790803
+   },
+   "m3": {
+    "v": 0.6961798623839974,
+    "pct": 99.14337240757439
+   },
+   "m6": {
+    "v": 0.9427169943112645,
+    "pct": 96.43823264201984
+   }
+  },
+  "ret1m": 18.68,
+  "ret3m": 69.62,
+  "ret6m": 94.27,
+  "marketCap": "47.90B",
+  "volx": 1.89,
+  "volSurgeWk": 1.94,
+  "high52": 99.37,
+  "newHigh52": false,
+  "adr": 3.19,
+  "div50": 17.26,
+  "div200": 53.11,
+  "targetStatus": false,
+  "saleCy": 15.49,
+  "saleNy": 12.27,
+  "epsCy": 14.02,
+  "epsNy": 10.99,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "est": {
+   "cyCur": 9.2354,
+   "cy30": 9.2354,
+   "nyCur": 10.25064,
+   "ny30": 10.25064
+  },
+  "fs": {
+   "sale": [
+    17.6,
+    16.32,
+    15.96
+   ],
+   "ni": [
+    36.5,
+    14.35,
+    24.83
+   ],
+   "opm": [
+    29.64,
+    30.93,
+    29.41
+   ],
+   "updated": "2026-09-08 09:08:19"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-10-15",
+   "m3": "2026-10-14",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 2,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-16",
+  "nameKo": "비바 시스템스",
+  "nameEn": "VEEVA SYSTEMS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001393052&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": false,
+     "revenue": 927963000,
+     "profit": 275018000,
+     "netIncome": 273429000,
+     "margin": 29.6,
+     "yoy": {
+      "revenue": 17.6,
+      "profit": 40.4,
+      "netIncome": 36.5,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 882948000,
+     "profit": 273112000,
+     "netIncome": 260936000,
+     "margin": 30.9,
+     "yoy": {
+      "revenue": 16.3,
+      "profit": 16.8,
+      "netIncome": 14.4,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 835951000,
+     "profit": 245876000,
+     "netIncome": 244204000,
+     "margin": 29.4,
+     "yoy": {
+      "revenue": 16,
+      "profit": 30.5,
+      "netIncome": 24.8,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 811236000,
+     "profit": 240853000,
+     "netIncome": 236203000,
+     "margin": 29.7,
+     "yoy": {
+      "revenue": 16,
+      "profit": 32.8,
+      "netIncome": 27.1,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Is Veeva (VEEV) a Buy as Wall Street Analysts Look Optimistic?",
+     "url": "https://www.nasdaq.com/articles/veeva-veev-buy-wall-street-analysts-look-optimistic",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Veeva Systems Inc. (VEEV) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/veeva-systems-inc-veev-attracting-investor-attention-here-what-you-should-know",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Veeva Systems (VEEV) Increases Despite Market Slip: Here's What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/veeva-systems-veev-increases-despite-market-slip-heres-what-you-need-know",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Veeva Systems Reaches Analyst Target Price",
+     "url": "https://www.nasdaq.com/articles/veeva-systems-reaches-analyst-target-price",
+     "date": "2026-10-12",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Veeva Systems (VEEV) Stock Sinks As Market Gains: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/veeva-systems-veev-stock-sinks-market-gains-what-you-should-know",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Veeva Systems (VEEV) Stock Declines While Market Improves: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/veeva-systems-veev-stock-declines-while-market-improves-some-information-investors",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Veeva Systems Inc. (VEEV) Is a Trending Stock: Facts to Know Before Betting on It",
+     "url": "https://www.nasdaq.com/articles/veeva-systems-inc-veev-trending-stock-facts-know-betting-it",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Brokers Suggest Investing in Veeva (VEEV): Read This Before Placing a Bet",
+     "url": "https://www.nasdaq.com/articles/brokers-suggest-investing-veeva-veev-read-placing-bet",
+     "date": "2026-09-29",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000032/veev-20260826.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-20",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1393052/000121390026092096/ea0302765-8k_veeva.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000029/veev-20260617.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000022/veev-20260603.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-20",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000018/veev-20260420.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000007/veev-20260304.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Nvidia, Hormel, HP, Best Buy & more",
+   "url": "https://www.cnbc.com/2026/08/27/stocks-making-the-biggest-moves-midday-nvda-okta-hrl-veev.html",
+   "date": "2026-08-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves after hours: Nvidia, Salesforce, CrowdStrike, Urban Outfitters and more",
+   "url": "https://www.cnbc.com/2026/08/26/stocks-making-the-biggest-moves-after-hours-nvda-crm-crwd-urbn-and-more.html",
+   "date": "2026-08-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Moderna, ON Semiconductor, Sandisk",
+   "url": "https://www.cnbc.com/2026/06/26/stocks-making-the-biggest-moves-midday-mrna-on-rklb-lly-sndk.html",
+   "date": "2026-06-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "We have almost 200 customers on Veeva Basics, says CEO Peter Gassner",
+   "url": "https://www.cnbc.com/investingclub/video/2026/10/07/we-have-almost-200-customers-on-veeva-basics-says-ceo-peter-gassner.html",
+   "date": "2026-10-07",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "VEEV",
+  "fetchedAt": "2026-10-16",
+  "source": "한국투자증권 Open API",
+  "per": 51.5,
+  "pbr": 6.82,
+  "eps": 6.08,
+  "bps": 45.92,
+  "shares": 161909000,
+  "marketCapM": 50682,
+  "high52": 315.02,
+  "high52Date": "2026-10-15",
+  "low52": 148.05,
+  "low52Date": "2026-04-10",
+  "last": 313.03,
+  "prevClose": 297.35,
+  "nameKo": "비바 시스템스",
+  "nameEn": "VEEVA SYSTEMS INC",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 161909000
+ },
+ "estimates": {
+  "ticker": "VEEV",
+  "url": "https://finance.yahoo.com/quote/VEEV/analysis/",
+  "fetchedAt": "2026-10-16",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "eps": 2.34,
+    "epsLow": 2.32,
+    "epsHigh": 2.4,
+    "epsYearAgo": 2.04,
+    "epsAnalysts": 26,
+    "epsGrowth": 14.9,
+    "epsCur": "USD",
+    "rev": 934979240,
+    "revAnalysts": 24,
+    "revYearAgo": 811236000,
+    "revGrowth": 15.3,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "eps": 2.31,
+    "epsLow": 2.26,
+    "epsHigh": 2.39,
+    "epsYearAgo": 2.06,
+    "epsAnalysts": 26,
+    "epsGrowth": 12,
+    "epsCur": "USD",
+    "rev": 943973480,
+    "revAnalysts": 24,
+    "revYearAgo": 835951000,
+    "revGrowth": 12.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "eps": 9.24,
+    "epsLow": 9.17,
+    "epsHigh": 9.38,
+    "epsYearAgo": 8.1,
+    "epsAnalysts": 27,
+    "epsGrowth": 14,
+    "epsCur": "USD",
+    "rev": 3690334570,
+    "revAnalysts": 28,
+    "revYearAgo": 3195311000,
+    "revGrowth": 15.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "eps": 10.25,
+    "epsLow": 9.68,
+    "epsHigh": 10.64,
+    "epsYearAgo": 9.24,
+    "epsAnalysts": 26,
+    "epsGrowth": 11,
+    "epsCur": "USD",
+    "rev": 4143000880,
+    "revAnalysts": 27,
+    "revYearAgo": 3690334570,
+    "revGrowth": 12.3,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "cur": "USD",
+    "now": 2.34,
+    "d7": 0,
+    "d30": 0,
+    "d90": 2.5,
+    "ago90": 2.29,
+    "up7": 0,
+    "up30": 25,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 2.31,
+    "d7": 0,
+    "d30": 0,
+    "d90": -0.4,
+    "ago90": 2.32,
+    "up7": 6,
+    "up30": 6,
+    "down7": 13,
+    "down30": 13
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 9.24,
+    "d7": 0,
+    "d30": 0,
+    "d90": 1.9,
+    "ago90": 9.06,
+    "up7": 0,
+    "up30": 26,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "cur": "USD",
+    "now": 10.25,
+    "d7": 0,
+    "d30": 0,
+    "d90": 2.2,
+    "ago90": 10.03,
+    "up7": 1,
+    "up30": 24,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-07-31",
+    "actual": 2.35,
+    "estimate": 2.22,
+    "surprisePct": 5.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-04-30",
+    "actual": 2.24,
+    "estimate": 2.14,
+    "surprisePct": 4.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-01-31",
+    "actual": 2.06,
+    "estimate": 1.94,
+    "surprisePct": 6.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-10-31",
+    "actual": 2.04,
+    "estimate": 1.95,
+    "surprisePct": 4.6,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 19,
+   "ptLowered": 0,
+   "total": 21,
+   "recent": [
+    {
+     "date": "2026-08-28",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 273,
+     "ptPrior": 190
+    },
+    {
+     "date": "2026-08-27",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 280,
+     "ptPrior": 270
+    },
+    {
+     "date": "2026-08-27",
+     "firm": "BMO Capital",
+     "action": "main",
+     "from": "Market Perform",
+     "to": "Market Perform",
+     "ptAction": "Raises",
+     "pt": 270,
+     "ptPrior": 175
+    },
+    {
+     "date": "2026-08-27",
+     "firm": "Baird",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 300,
+     "ptPrior": 260
+    },
+    {
+     "date": "2026-08-27",
+     "firm": "Canaccord Genuity",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Raises",
+     "pt": 260,
+     "ptPrior": 220
+    },
+    {
+     "date": "2026-08-27",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 283,
+     "ptPrior": 235
+    },
+    {
+     "date": "2026-08-27",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 315,
+     "ptPrior": 275
+    },
+    {
+     "date": "2026-08-27",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 290,
+     "ptPrior": 190
+    },
+    {
+     "date": "2026-08-27",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 325,
+     "ptPrior": 275
+    },
+    {
+     "date": "2026-08-27",
+     "firm": "Guggenheim",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 310,
+     "ptPrior": 276
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-25",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-15",
+  "numbers": {
+   "price": 313.03,
+   "ma20": 282.31,
+   "ma50": 266.96,
+   "ma150": 205.36,
+   "distMA50": 17.26,
+   "periodHigh": 315,
+   "pullbackFromHigh": -0.63,
+   "volRatio20": 1.7,
+   "dryUpRatio": 1.11
+  },
+  "last10": [
+   {
+    "d": "2026-10-02",
+    "o": 283.1,
+    "h": 284.59,
+    "l": 272.84,
+    "c": 273.33,
+    "v": 1081200,
+    "clsPos": 4,
+    "gapPct": 0.41
+   },
+   {
+    "d": "2026-10-05",
+    "o": 275,
+    "h": 283.47,
+    "l": 274,
+    "c": 283.45,
+    "v": 1324400,
+    "clsPos": 100,
+    "gapPct": 0.61
+   },
+   {
+    "d": "2026-10-06",
+    "o": 285.34,
+    "h": 289.87,
+    "l": 282.26,
+    "c": 283.5,
+    "v": 1174700,
+    "clsPos": 16,
+    "gapPct": 0.67
+   },
+   {
+    "d": "2026-10-07",
+    "o": 284.23,
+    "h": 286.98,
+    "l": 279.8,
+    "c": 282.5,
+    "v": 1118500,
+    "clsPos": 38,
+    "gapPct": 0.26
+   },
+   {
+    "d": "2026-10-08",
+    "o": 282.13,
+    "h": 285.25,
+    "l": 279.02,
+    "c": 284.84,
+    "v": 921700,
+    "clsPos": 93,
+    "gapPct": -0.13
+   },
+   {
+    "d": "2026-10-09",
+    "o": 285.71,
+    "h": 297.45,
+    "l": 284,
+    "c": 296.13,
+    "v": 1848400,
+    "clsPos": 90,
+    "gapPct": 0.31
+   },
+   {
+    "d": "2026-10-12",
+    "o": 296.53,
+    "h": 300.63,
+    "l": 293.67,
+    "c": 295.85,
+    "v": 1137700,
+    "clsPos": 31,
+    "gapPct": 0.14
+   },
+   {
+    "d": "2026-10-13",
+    "o": 300,
+    "h": 309.32,
+    "l": 299.9,
+    "c": 301.63,
+    "v": 2252900,
+    "clsPos": 18,
+    "gapPct": 1.4
+   },
+   {
+    "d": "2026-10-14",
+    "o": 300.14,
+    "h": 301.5,
+    "l": 293.66,
+    "c": 297.35,
+    "v": 1239800,
+    "clsPos": 47,
+    "gapPct": -0.49
+   },
+   {
+    "d": "2026-10-15",
+    "o": 295.67,
+    "h": 315,
+    "l": 296.56,
+    "c": 313.03,
+    "v": 2865063,
+    "clsPos": 89,
+    "gapPct": -0.56
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/VEEV-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/VEEV-6m.png"
+ },
+ "market": {
+  "verdict": "yellow",
+  "ko": "🟡 10일선이 20일선 위지만 오르는 힘이 약해짐 — 넣는 돈을 줄일 때",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

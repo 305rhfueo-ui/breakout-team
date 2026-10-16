@@ -1,0 +1,317 @@
+{
+ "key": "Industrials|Marine Shipping",
+ "sector": "Industrials",
+ "industry": "Marine Shipping",
+ "industryKo": "해운",
+ "frank": 9,
+ "frank25dChg": -1,
+ "finalWrs": 0.2313,
+ "count": 6,
+ "winRatePct": 83.3,
+ "members": [
+  {
+   "ticker": "ECO",
+   "rs1": 0.12886483447751745,
+   "rs3": 0.8276041908083593,
+   "rs6": 1.1440365060904045,
+   "rnk1": 4.55,
+   "rnk3": 0.59,
+   "rnk6": 1.94,
+   "ret1d": -3.63,
+   "high52": 95.01,
+   "dollarVolM": 175.9,
+   "marketCap": "3.74B",
+   "name": "오케아니스 에코 탱커스"
+  },
+  {
+   "ticker": "DAC",
+   "rs1": 0.023635440266359806,
+   "rs3": 0.23932611610108795,
+   "rs6": 0.4057170517611176,
+   "rnk1": 32.06,
+   "rnk3": 9.24,
+   "rnk6": 10.32,
+   "ret1d": -1.8,
+   "high52": 94.31,
+   "dollarVolM": 28.7,
+   "marketCap": "2.89B",
+   "name": "다나오스"
+  },
+  {
+   "ticker": "MATX",
+   "rs1": 0.008988288010017305,
+   "rs3": 0.09911436325515598,
+   "rs6": 0.37978559482746743,
+   "rnk1": 41.07,
+   "rnk3": 23.4,
+   "rnk6": 11.77,
+   "ret1d": 0.55,
+   "high52": 98.34,
+   "dollarVolM": 100.1,
+   "marketCap": "6.81B",
+   "name": "맷슨"
+  },
+  {
+   "ticker": "NMM",
+   "rs1": 0.011563813994814683,
+   "rs3": 0.2607109687249969,
+   "rs6": 0.3455698053178371,
+   "rnk1": 39.81,
+   "rnk3": 8.07,
+   "rnk6": 13.21,
+   "ret1d": -3.11,
+   "high52": 96.49,
+   "dollarVolM": 15.8,
+   "marketCap": "2.71B",
+   "name": "나비오스 마리타임 파트너스"
+  },
+  {
+   "ticker": "ESEA",
+   "rs1": -0.07300350236200442,
+   "rs3": -0.04458780667833928,
+   "rs6": 0.026345561772678903,
+   "rnk1": 83.99,
+   "rnk3": 58.66,
+   "rnk6": 50.63,
+   "ret1d": -3.58,
+   "high52": 87.48,
+   "dollarVolM": 2.4,
+   "marketCap": "0.49B",
+   "name": "유로시스"
+  },
+  {
+   "ticker": "KEX",
+   "rs1": 0.006499192155551841,
+   "rs3": -0.07310017041204786,
+   "rs6": -0.08631092970275657,
+   "rnk1": 43.06,
+   "rnk3": 67.85,
+   "rnk6": 74.17,
+   "ret1d": 0.78,
+   "high52": 87.41,
+   "dollarVolM": 98,
+   "marketCap": "7.24B",
+   "name": "커비"
+  }
+ ],
+ "evidence": {
+  "ECO": {
+   "cnbc": [
+    {
+     "title": "The hottest trade of the year so far isn't AI. It's tanker stocks",
+     "url": "https://www.cnbc.com/2026/09/30/the-hottest-trade-of-the-year-so-far-isnt-ai-its-tanker-stocks.html",
+     "date": "2026-09-30",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "ECO or SBLK: Which Shipping Company Is a Stronger Play Now?",
+     "url": "https://www.nasdaq.com/articles/eco-or-sblk-which-shipping-company-stronger-play-now",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Okeanis Eco Tankers Corp. (ECO) Outperforming Other Transportation Stocks This Year?",
+     "url": "https://www.nasdaq.com/articles/okeanis-eco-tankers-corp-eco-outperforming-other-transportation-stocks-year-0",
+     "date": "2026-09-25",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Investors Should Bet on ECO Stock Right Now",
+     "url": "https://www.nasdaq.com/articles/heres-why-investors-should-bet-eco-stock-right-now",
+     "date": "2026-09-14",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "DAC": {
+   "cnbc": [
+    {
+     "title": "Shipping stocks hit decade highs as Hormuz disruption grinds on",
+     "url": "https://www.cnbc.com/2026/09/03/shipping-hormuz-tankers-earnings-freight-rates-iran-trump-crude-china-stocks.html",
+     "date": "2026-09-03",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Danaos (DAC) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/danaos-dac-q2-2026-earnings-call-transcript",
+     "date": "2026-08-11",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Cash Dividend On The Way From Danaos (DAC)",
+     "url": "https://www.nasdaq.com/articles/cash-dividend-way-danaos-dac",
+     "date": "2026-07-20",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Reminder - Danaos (DAC) Goes Ex-Dividend Soon",
+     "url": "https://www.nasdaq.com/articles/reminder-danaos-dac-goes-ex-dividend-soon",
+     "date": "2026-05-22",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Danaos (DAC) Price Target Increased by 34.86% to 149.94",
+     "url": "https://www.nasdaq.com/articles/danaos-dac-price-target-increased-3486-14994",
+     "date": "2026-05-14",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Danaos (DAC) Q1 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/danaos-dac-q1-2026-earnings-call-transcript",
+     "date": "2026-05-12",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "MATX": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Matson (MATX) is on the Move, Here's Why the Trend Could be Sustainable",
+     "url": "https://www.nasdaq.com/articles/matson-matx-move-heres-why-trend-could-be-sustainable",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Has Matson (MATX) Outpaced Other Transportation Stocks This Year?",
+     "url": "https://www.nasdaq.com/articles/has-matson-matx-outpaced-other-transportation-stocks-year",
+     "date": "2026-09-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Recent Price Trend in Matson (MATX) is Your Friend, Here's Why",
+     "url": "https://www.nasdaq.com/articles/recent-price-trend-matson-matx-your-friend-heres-why",
+     "date": "2026-09-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Transportation Stocks Lagging  Matson (MATX) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-transportation-stocks-lagging-matson-matx-year",
+     "date": "2026-08-31",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Matson (MATX) Is a Great Choice for 'Trend' Investors, Here's Why",
+     "url": "https://www.nasdaq.com/articles/matson-matx-great-choice-trend-investors-heres-why",
+     "date": "2026-08-26",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "NMM": {
+   "cnbc": [
+    {
+     "title": "Shipping stocks hit decade highs as Hormuz disruption grinds on",
+     "url": "https://www.cnbc.com/2026/09/03/shipping-hormuz-tankers-earnings-freight-rates-iran-trump-crude-china-stocks.html",
+     "date": "2026-09-03",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Navios Maritime (NMM) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/navios-maritime-nmm-q2-2026-earnings-call-transcript",
+     "date": "2026-08-24",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Wednesday 7/22 Insider Buying Report: NMM, CHCO",
+     "url": "https://www.nasdaq.com/articles/wednesday-7-22-insider-buying-report-nmm-chco",
+     "date": "2026-07-22",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Wednesday 7/8 Insider Buying Report: NMM, DLPN",
+     "url": "https://www.nasdaq.com/articles/wednesday-7-8-insider-buying-report-nmm-dlpn",
+     "date": "2026-07-08",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Tuesday 6/23 Insider Buying Report: NMM, GO",
+     "url": "https://www.nasdaq.com/articles/tuesday-6-23-insider-buying-report-nmm-go",
+     "date": "2026-06-23",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Thursday 6/4 Insider Buying Report: NVRI, NMM",
+     "url": "https://www.nasdaq.com/articles/thursday-6-4-insider-buying-report-nvri-nmm",
+     "date": "2026-06-04",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "ESEA": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Monday 10/5 Insider Buying Report: GTLB, ESEA",
+     "url": "https://www.nasdaq.com/articles/monday-10-5-insider-buying-report-gtlb-esea",
+     "date": "2026-10-05",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Upcoming Dividend Run For ESEA?",
+     "url": "https://www.nasdaq.com/articles/upcoming-dividend-run-esea",
+     "date": "2026-08-25",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Euroseas Ltd. (ESEA) Q2 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/euroseas-ltd-esea-q2-earnings-and-revenues-surpass-estimates",
+     "date": "2026-08-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Should Value Investors Buy Euroseas (ESEA) Stock?",
+     "url": "https://www.nasdaq.com/articles/should-value-investors-buy-euroseas-esea-stock",
+     "date": "2026-07-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Euroseas (ESEA) Stock Outpacing Its Transportation Peers This Year?",
+     "url": "https://www.nasdaq.com/articles/euroseas-esea-stock-outpacing-its-transportation-peers-year-0",
+     "date": "2026-07-22",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "KEX": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "What Makes Kirby (KEX) a New Buy Stock",
+     "url": "https://www.nasdaq.com/articles/what-makes-kirby-kex-new-buy-stock",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Transportation Stocks Lagging  Kirby (KEX) This Year?",
+     "url": "https://www.nasdaq.com/articles/are-transportation-stocks-lagging-kirby-kex-year",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Notable Two Hundred Day Moving Average Cross - KEX",
+     "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-kex",
+     "date": "2026-09-22",
+     "publisher": "BNK Invest"
+    }
+   ]
+  }
+ },
+ "industryReports": [],
+ "note": "members 는 이 업종 전 종목(6개월 RS 상위 순, rnk = 전체 종목 중 상위 몇 %). evidence 는 그중 상위 12종목의 기사·리포트. 리포트 url 은 연합인포맥스 PDF."
+}

@@ -1,0 +1,172 @@
+{
+ "ticker": "WM",
+ "news": [
+  {
+   "title": "VEOEY or WM: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/veoey-or-wm-which-better-value-stock-right-now",
+   "date": "2026-10-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why the Market Dipped But Waste Management (WM) Gained Today",
+   "url": "https://www.nasdaq.com/articles/why-market-dipped-waste-management-wm-gained-today",
+   "date": "2026-10-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Waste Management (WM) is a Top Growth Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-waste-management-wm-top-growth-stock-long-term",
+   "date": "2026-10-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Waste Management (WM) Dipped More Than Broader Market Today",
+   "url": "https://www.nasdaq.com/articles/why-waste-management-wm-dipped-more-broader-market-today",
+   "date": "2026-09-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Pricing, Network Scale & Acquisitions Aid WM Amid Debt Concerns",
+   "url": "https://www.nasdaq.com/articles/pricing-network-scale-acquisitions-aid-wm-amid-debt-concerns",
+   "date": "2026-09-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "VEOEY vs. WM: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/veoey-vs-wm-which-stock-better-value-option",
+   "date": "2026-09-29",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-26",
+   "reportDate": "2026-08-24",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/823768/000110465926101077/tm2624023d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/823768/000110465926087575/tm2621414d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-14",
+   "reportDate": "2026-05-12",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/823768/000110465926060755/tm2614440d2_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-13",
+   "reportDate": "2026-05-08",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/823768/000110465926059860/tm2614440d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/823768/000110465926050425/tm2612889d1_8k.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-25",
+   "reportDate": "2026-03-20",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/823768/000110465926034537/tm269616d1_8k.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 4.81,
+  "saleNy": 5.38,
+  "epsCy": 8.48,
+  "epsNy": 11.66,
+  "cyTrend": 0.1,
+  "nyTrend": -0.38,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    3.95,
+    3.47,
+    7.13
+   ],
+   "ni": [
+    8.13,
+    13.5,
+    24.08
+   ],
+   "opm": [
+    18.75,
+    17.87,
+    18.3
+   ],
+   "updated": "2026-09-09 07:22:18"
+  }
+ }
+}

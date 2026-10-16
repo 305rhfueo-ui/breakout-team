@@ -1,0 +1,693 @@
+{
+ "ticker": "PAYC",
+ "date": "2026-10-16",
+ "session": "2026-10-15",
+ "source": "list",
+ "plan": {
+  "ticker": "PAYC",
+  "name": "페이컴 소프트웨어",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "price": 252.8699951171875,
+  "grade": "B",
+  "state": "post",
+  "pivot": 244.98,
+  "stop": 238.47,
+  "distToPivotPct": 3.22,
+  "distToPivotAdr": 1.15,
+  "riskPerSharePct": 2.66,
+  "adrPct": 2.79,
+  "extensionAdr": 2.98,
+  "breakDate": "2026-10-15",
+  "metrics": {
+   "baseBars": 37,
+   "baseWeeks": 7.4,
+   "depthPct": 13.3,
+   "priorMovePct": 102.5,
+   "higherLows": 0,
+   "contraction": 0.85,
+   "closeRange10Adr": 2.8,
+   "surf10": 1.49,
+   "surf20": 2.03,
+   "slope20": 1.36,
+   "baseLow": 212.4,
+   "lastSwingLow": 212.4
+  },
+  "reasons": [
+   "선행 상승 +102%",
+   "베이스 7.4주",
+   "깊이 13.3%",
+   "✗ 저점 상승 0회",
+   "진폭 0.85배 · 10일 종가폭 2.8 ADR",
+   "10일선 +1.5 ADR · 20일선 +2 ADR",
+   "20일선 기울기 +1.36%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.11859682318029185,
+    "pct": 94.36429215509467
+   },
+   "m3": {
+    "v": 0.8182672790430777,
+    "pct": 99.32371505861136
+   },
+   "m6": {
+    "v": 1.0528270661556924,
+    "pct": 97.52028854824167
+   }
+  },
+  "ret1m": 11.86,
+  "ret3m": 81.83,
+  "ret6m": 105.28,
+  "marketCap": "10.59B",
+  "volx": 1.65,
+  "volSurgeWk": 2.03,
+  "high52": 100,
+  "newHigh52": false,
+  "adr": 2.79,
+  "div50": 12.05,
+  "div200": 60.48,
+  "targetStatus": false,
+  "saleCy": 7.67,
+  "saleNy": 7.44,
+  "epsCy": 30.92,
+  "epsNy": 15.45,
+  "cyTrend": 0.03,
+  "nyTrend": 0.11,
+  "est": {
+   "cyCur": 12.09672,
+   "cy30": 12.09355,
+   "nyCur": 13.96533,
+   "ny30": 13.9501
+  },
+  "fs": {
+   "sale": [
+    9.84,
+    7.8,
+    10.2
+   ],
+   "ni": [
+    20,
+    11.69,
+    0.26
+   ],
+   "opm": [
+    31.72,
+    36.75,
+    28.88
+   ],
+   "updated": "2026-09-08 10:13:31"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-08-18",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 40,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-16",
+  "nameKo": "페이컴 소프트웨어",
+  "nameEn": "PAYCOM SOFTWARE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001590955&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 531200000,
+     "profit": 168500000,
+     "netIncome": 107400000,
+     "margin": 31.7,
+     "yoy": {
+      "revenue": 9.8,
+      "profit": 50,
+      "netIncome": 20,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 571900000,
+     "profit": 210200000,
+     "netIncome": 155700000,
+     "margin": 36.8,
+     "yoy": {
+      "revenue": 7.8,
+      "profit": 13.6,
+      "netIncome": 11.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 544300000,
+     "profit": 157100000,
+     "netIncome": 113800000,
+     "margin": 28.9,
+     "yoy": {
+      "revenue": 10.2,
+      "profit": 5.8,
+      "netIncome": 0.2,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 493300000,
+     "profit": 112600000,
+     "netIncome": 110700000,
+     "margin": 22.8,
+     "yoy": {
+      "revenue": 9.2,
+      "profit": 7.3,
+      "netIncome": 51,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Will Paycom (PAYC) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-paycom-payc-beat-estimates-again-its-next-earnings-report",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Paycom Software (PAYC) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-paycom-software-payc-top-momentum-stock-long-term",
+     "date": "2026-09-09",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526335105/payc-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-03",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526330818/payc-20260803.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-09",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526299695/payc-20260708.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526211919/payc-20260504.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526208968/payc-20260506.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-04",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526204311/payc-20260504.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "PAYC",
+  "fetchedAt": "2026-10-16",
+  "source": "한국투자증권 Open API",
+  "per": 26.87,
+  "pbr": 19.6,
+  "eps": 9.41,
+  "bps": 12.9,
+  "shares": 44285300,
+  "marketCapM": 11198,
+  "high52": 252.87,
+  "high52Date": "2026-10-15",
+  "low52": 104.1595,
+  "low52Date": "2026-02-12",
+  "last": 252.87,
+  "prevClose": 239,
+  "nameKo": "페이컴 소프트웨어",
+  "nameEn": "PAYCOM SOFTWARE INC",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 44285300
+ },
+ "estimates": {
+  "ticker": "PAYC",
+  "url": "https://finance.yahoo.com/quote/PAYC/analysis/",
+  "fetchedAt": "2026-10-16",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 2.8,
+    "epsLow": 2.42,
+    "epsHigh": 3.09,
+    "epsYearAgo": 1.94,
+    "epsAnalysts": 20,
+    "epsGrowth": 44.1,
+    "epsCur": "USD",
+    "rev": 534851620,
+    "revAnalysts": 20,
+    "revYearAgo": 493300000,
+    "revGrowth": 8.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 3.32,
+    "epsLow": 2.82,
+    "epsHigh": 3.8,
+    "epsYearAgo": 2.45,
+    "epsAnalysts": 20,
+    "epsGrowth": 35.5,
+    "epsCur": "USD",
+    "rev": 571175510,
+    "revAnalysts": 20,
+    "revYearAgo": 544300000,
+    "revGrowth": 4.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 12.1,
+    "epsLow": 11.35,
+    "epsHigh": 12.8,
+    "epsYearAgo": 9.24,
+    "epsAnalysts": 21,
+    "epsGrowth": 30.9,
+    "epsCur": "USD",
+    "rev": 2209083790,
+    "revAnalysts": 20,
+    "revYearAgo": 2051700000,
+    "revGrowth": 7.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 13.96,
+    "epsLow": 12.79,
+    "epsHigh": 16.07,
+    "epsYearAgo": 12.1,
+    "epsAnalysts": 21,
+    "epsGrowth": 15.5,
+    "epsCur": "USD",
+    "rev": 2373549590,
+    "revAnalysts": 20,
+    "revYearAgo": 2209083790,
+    "revGrowth": 7.4,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 2.8,
+    "d7": 0,
+    "d30": 0.1,
+    "d90": 16.9,
+    "ago90": 2.39,
+    "up7": 1,
+    "up30": 19,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 3.32,
+    "d7": 0,
+    "d30": -0.1,
+    "d90": 12.8,
+    "ago90": 2.94,
+    "up7": 1,
+    "up30": 18,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 12.1,
+    "d7": 0,
+    "d30": 0,
+    "d90": 10.8,
+    "ago90": 10.92,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 13.96,
+    "d7": 0,
+    "d30": 0.1,
+    "d90": 13.7,
+    "ago90": 12.29,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 2.78,
+    "estimate": 2.38,
+    "surprisePct": 16.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 3.15,
+    "estimate": 2.99,
+    "surprisePct": 5.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 2.45,
+    "estimate": 2.45,
+    "surprisePct": 0.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 1.94,
+    "estimate": 1.97,
+    "surprisePct": -1.6,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 15,
+   "ptLowered": 0,
+   "total": 15,
+   "recent": [
+    {
+     "date": "2026-10-13",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 250,
+     "ptPrior": 210
+    },
+    {
+     "date": "2026-10-02",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 286,
+     "ptPrior": 244
+    },
+    {
+     "date": "2026-09-21",
+     "firm": "Keybanc",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 280,
+     "ptPrior": 270
+    },
+    {
+     "date": "2026-09-01",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 285,
+     "ptPrior": 205
+    },
+    {
+     "date": "2026-08-25",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 264,
+     "ptPrior": 140
+    },
+    {
+     "date": "2026-08-07",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 194,
+     "ptPrior": 136
+    },
+    {
+     "date": "2026-08-06",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 244,
+     "ptPrior": 149
+    },
+    {
+     "date": "2026-08-06",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 205,
+     "ptPrior": 195
+    },
+    {
+     "date": "2026-08-06",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 210,
+     "ptPrior": 154
+    },
+    {
+     "date": "2026-08-06",
+     "firm": "Keybanc",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 270,
+     "ptPrior": 195
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-04",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-15",
+  "numbers": {
+   "price": 252.87,
+   "ma20": 227.14,
+   "ma50": 225.76,
+   "ma150": 164.8,
+   "distMA50": 12.01,
+   "periodHigh": 267.76,
+   "pullbackFromHigh": -5.56,
+   "volRatio20": 1.48,
+   "dryUpRatio": 0.83
+  },
+  "last10": [
+   {
+    "d": "2026-10-02",
+    "o": 227.42,
+    "h": 227.42,
+    "l": 220.1,
+    "c": 220.99,
+    "v": 475400,
+    "clsPos": 12,
+    "gapPct": -0.02
+   },
+   {
+    "d": "2026-10-05",
+    "o": 222.02,
+    "h": 226.11,
+    "l": 219.64,
+    "c": 225.79,
+    "v": 601700,
+    "clsPos": 95,
+    "gapPct": 0.47
+   },
+   {
+    "d": "2026-10-06",
+    "o": 223.63,
+    "h": 226.39,
+    "l": 220.17,
+    "c": 222.44,
+    "v": 582500,
+    "clsPos": 36,
+    "gapPct": -0.96
+   },
+   {
+    "d": "2026-10-07",
+    "o": 222.78,
+    "h": 226.41,
+    "l": 221.51,
+    "c": 223.58,
+    "v": 481300,
+    "clsPos": 42,
+    "gapPct": 0.15
+   },
+   {
+    "d": "2026-10-08",
+    "o": 223.61,
+    "h": 230.46,
+    "l": 222.74,
+    "c": 229.9,
+    "v": 666300,
+    "clsPos": 93,
+    "gapPct": 0.01
+   },
+   {
+    "d": "2026-10-09",
+    "o": 230.54,
+    "h": 233,
+    "l": 228.21,
+    "c": 232.22,
+    "v": 406900,
+    "clsPos": 84,
+    "gapPct": 0.28
+   },
+   {
+    "d": "2026-10-12",
+    "o": 236.5,
+    "h": 238.78,
+    "l": 233.62,
+    "c": 235.01,
+    "v": 394200,
+    "clsPos": 27,
+    "gapPct": 1.84
+   },
+   {
+    "d": "2026-10-13",
+    "o": 235.97,
+    "h": 237.92,
+    "l": 235.05,
+    "c": 236.65,
+    "v": 411300,
+    "clsPos": 56,
+    "gapPct": 0.41
+   },
+   {
+    "d": "2026-10-14",
+    "o": 236.37,
+    "h": 239.22,
+    "l": 236.1,
+    "c": 239,
+    "v": 536400,
+    "clsPos": 93,
+    "gapPct": -0.12
+   },
+   {
+    "d": "2026-10-15",
+    "o": 240.94,
+    "h": 252.87,
+    "l": 240.29,
+    "c": 252.87,
+    "v": 980835,
+    "clsPos": 100,
+    "gapPct": 0.81
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PAYC-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/PAYC-6m.png"
+ },
+ "market": {
+  "verdict": "yellow",
+  "ko": "🟡 10일선이 20일선 위지만 오르는 힘이 약해짐 — 넣는 돈을 줄일 때",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "ticker": "PAYC",
+ "news": [
+  {
+   "title": "Will Paycom (PAYC) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/will-paycom-payc-beat-estimates-again-its-next-earnings-report",
+   "date": "2026-10-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Paycom Software (PAYC) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-paycom-software-payc-top-momentum-stock-long-term",
+   "date": "2026-09-09",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526335105/payc-20260805.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-03",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526330818/payc-20260803.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-09",
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526299695/payc-20260708.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-07",
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526211919/payc-20260504.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-06",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526208968/payc-20260506.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-04",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1590955/000119312526204311/payc-20260504.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001590955&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 531200000,
+    "profit": 168500000,
+    "netIncome": 107400000,
+    "margin": 31.7,
+    "yoy": {
+     "revenue": 9.8,
+     "profit": 50,
+     "netIncome": 20,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 571900000,
+    "profit": 210200000,
+    "netIncome": 155700000,
+    "margin": 36.8,
+    "yoy": {
+     "revenue": 7.8,
+     "profit": 13.6,
+     "netIncome": 11.7,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 544300000,
+    "profit": 157100000,
+    "netIncome": 113800000,
+    "margin": 28.9,
+    "yoy": {
+     "revenue": 10.2,
+     "profit": 5.8,
+     "netIncome": 0.2,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": false,
+    "revenue": 493300000,
+    "profit": 112600000,
+    "netIncome": 110700000,
+    "margin": 22.8,
+    "yoy": {
+     "revenue": 9.2,
+     "profit": 7.3,
+     "netIncome": 51,
+     "priorEnd": "2024-09-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.67,
+  "saleNy": 7.44,
+  "epsCy": 30.92,
+  "epsNy": 15.45,
+  "cyTrend": 0.03,
+  "nyTrend": 0.11,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    9.84,
+    7.8,
+    10.2
+   ],
+   "ni": [
+    20,
+    11.69,
+    0.26
+   ],
+   "opm": [
+    31.72,
+    36.75,
+    28.88
+   ],
+   "updated": "2026-09-08 10:13:31"
+  }
+ }
+}

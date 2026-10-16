@@ -1,0 +1,254 @@
+{
+ "ticker": "AZO",
+ "sector": "Consumer Cyclical",
+ "industry": "Auto Parts",
+ "nameKo": "오토존",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.41,
+  "saleNy": 7.11,
+  "epsCy": 11.23,
+  "epsNy": 12.5,
+  "est": {
+   "cyCur": 169.6802,
+   "cy30": 174.98048,
+   "nyCur": 190.88808,
+   "ny30": 195.55737
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    8.44,
+    8.15,
+    8.15
+   ],
+   "ni": [
+    5.43,
+    -3.91,
+    -6.04
+   ],
+   "opm": [
+    19.08,
+    16.34,
+    16.94
+   ],
+   "updated": "2026-09-09 06:08:39"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-16",
+  "nameKo": "오토존",
+  "nameEn": "AUTOZONE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866787&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-05-09",
+     "derived": false,
+     "revenue": 4840950000,
+     "profit": 923756000,
+     "netIncome": 641491000,
+     "margin": 19.1,
+     "yoy": {
+      "revenue": 8.4,
+      "profit": 6.6,
+      "netIncome": 5.4,
+      "priorEnd": "2025-05-10"
+     }
+    },
+    {
+     "periodEnd": "2026-02-14",
+     "derived": false,
+     "revenue": 4274098000,
+     "profit": 698456000,
+     "netIncome": 468860000,
+     "margin": 16.3,
+     "yoy": {
+      "revenue": 8.1,
+      "profit": -1.2,
+      "netIncome": -3.9,
+      "priorEnd": "2025-02-15"
+     }
+    },
+    {
+     "periodEnd": "2025-11-22",
+     "derived": false,
+     "revenue": 4628630000,
+     "profit": 784205000,
+     "netIncome": 530823000,
+     "margin": 16.9,
+     "yoy": {
+      "revenue": 8.2,
+      "profit": -6.8,
+      "netIncome": -6,
+      "priorEnd": "2024-11-23"
+     }
+    },
+    {
+     "periodEnd": "2025-05-10",
+     "derived": false,
+     "revenue": 4464339000,
+     "profit": 866174000,
+     "netIncome": 608440000,
+     "margin": 19.4,
+     "yoy": {
+      "revenue": 5.4,
+      "profit": -3.8,
+      "netIncome": -6.6,
+      "priorEnd": "2024-05-04"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "AutoZone Moves Up In Market Cap Rank, Passing Carvana",
+     "url": "https://www.nasdaq.com/articles/autozone-moves-market-cap-rank-passing-carvana",
+     "date": "2026-10-13",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Is Trending Stock AutoZone, Inc. (AZO) a Buy Now?",
+     "url": "https://www.nasdaq.com/articles/trending-stock-autozone-inc-azo-buy-now-0",
+     "date": "2026-10-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Bernstein Initiates Coverage of AutoZone with Outperform Rating",
+     "url": "https://www.nasdaq.com/articles/bernstein-initiates-coverage-autozone-outperform-rating",
+     "date": "2026-09-29",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Is Most-Watched Stock AutoZone, Inc. (AZO) Worth Betting on Now?",
+     "url": "https://www.nasdaq.com/articles/most-watched-stock-autozone-inc-azo-worth-betting-now",
+     "date": "2026-09-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Autozone a Buy After Its Latest Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/autozone-buy-after-its-latest-earnings-report",
+     "date": "2026-09-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "AutoZone Shifts Gears, On Track to Reverse Course and Price Recovery",
+     "url": "https://www.nasdaq.com/articles/autozone-shifts-gears-track-reverse-course-and-price-recovery",
+     "date": "2026-09-23",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Why AutoZone Stock Rallied Today",
+     "url": "https://www.nasdaq.com/articles/why-autozone-stock-rallied-today",
+     "date": "2026-09-23",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-09",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866787/000117184326006565/f8k_100926.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/866787/000117184326006159/f8k_092126.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-14",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866787/000110465926083528/tm2620403d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-09",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866787/000110465926082304/tm2619274d6_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-16",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866787/000117184326004150/f8k_061626.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/866787/000117184326003674/f8k_052526.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "AZO",
+  "fetchedAt": "2026-10-16",
+  "source": "한국투자증권 Open API",
+  "per": 20.03,
+  "pbr": 0,
+  "eps": 152.79,
+  "bps": 0,
+  "shares": 16325400,
+  "marketCapM": 49950,
+  "high52": 4113.44,
+  "high52Date": "2025-10-14",
+  "low52": 2730.65,
+  "low52Date": "2026-10-05",
+  "last": 3059.62,
+  "prevClose": 2911.62,
+  "nameKo": "오토존",
+  "nameEn": "AUTOZONE INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 16325400
+ }
+}

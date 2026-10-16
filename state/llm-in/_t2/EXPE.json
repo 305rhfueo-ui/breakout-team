@@ -1,0 +1,282 @@
+{
+ "ticker": "EXPE",
+ "sector": "Consumer Cyclical",
+ "industry": "Travel Services",
+ "nameKo": "익스피디아 그룹",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 10.02,
+  "saleNy": 7.01,
+  "epsCy": 32.54,
+  "epsNy": 16.72,
+  "est": {
+   "cyCur": 21.0203,
+   "cy30": 20.99029,
+   "nyCur": 24.53454,
+   "ny30": 24.43283
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    13.97,
+    14.66,
+    11.4
+   ],
+   "ni": [
+    166.06,
+    "적자축소",
+    -31.44
+   ],
+   "opm": [
+    18.54,
+    7.33,
+    11.84
+   ],
+   "updated": "2026-09-08 06:02:33"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-16",
+  "nameKo": "익스피디아 그룹",
+  "nameEn": "EXPEDIA GROUP INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001324424&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 4315000000,
+     "profit": 800000000,
+     "netIncome": 878000000,
+     "margin": 18.5,
+     "yoy": {
+      "revenue": 14,
+      "profit": 64.9,
+      "netIncome": 166.1,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 3426000000,
+     "profit": 251000000,
+     "netIncome": -6000000,
+     "margin": 7.3,
+     "yoy": {
+      "revenue": 14.7,
+      "profit": 458.6,
+      "netIncome": 97,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 3547000000,
+     "profit": 420000000,
+     "netIncome": 212000000,
+     "margin": 11.8,
+     "yoy": {
+      "revenue": 11.4,
+      "profit": 94.4,
+      "netIncome": -26.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 4412000000,
+     "profit": 1036000000,
+     "netIncome": 959000000,
+     "margin": 23.5,
+     "yoy": {
+      "revenue": 8.7,
+      "profit": 36,
+      "netIncome": 40.2,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here's Why Expedia (EXPE) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-expedia-expe-strong-growth-stock-1",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Expedia (EXPE) is a Top Value Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-expedia-expe-top-value-stock-long-term",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "EMCOR Group Takes Over #291 Spot From Expedia Group",
+     "url": "https://www.nasdaq.com/articles/emcor-group-takes-over-291-spot-expedia-group",
+     "date": "2026-09-29",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Why Expedia (EXPE) is a Top Growth Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-expedia-expe-top-growth-stock-long-term-1",
+     "date": "2026-09-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Expedia (EXPE) is a Top-Ranked Value Stock: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/expedia-expe-top-ranked-value-stock-should-you-buy",
+     "date": "2026-09-18",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Expedia (EXPE) Down 1.1% Since Last Earnings Report: Can It Rebound?",
+     "url": "https://www.nasdaq.com/articles/expedia-expe-down-11-last-earnings-report-can-it-rebound",
+     "date": "2026-09-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Expedia (EXPE) is a Strong Growth Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-expedia-expe-strong-growth-stock",
+     "date": "2026-09-04",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1324424/000132442426000051/expe-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-23",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1324424/000132442426000042/expe-20260617.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1324424/000132442426000031/expe-20260507.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-23",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1324424/000132442426000016/expe-20260417.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-10",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1324424/000110465926042073/tm2611456d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-30",
+    "itemsKo": [
+     "중요 계약 체결",
+     "1.02",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1324424/000110465926036875/tm269986d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Boeing, Amkor, Corning, Sandisk & more",
+   "url": "https://www.cnbc.com/2026/07/28/stocks-making-the-biggest-moves-midday-ba-amkr-glw-sndk-iqv.html",
+   "date": "2026-07-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Cerebras, KB Home, Expedia & more",
+   "url": "https://www.cnbc.com/2026/06/24/stocks-making-the-biggest-moves-midday-cbrs-kbh-expe-xom.html",
+   "date": "2026-06-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Expedia stock price pops on quarterly beat",
+   "url": "https://www.cnbc.com/video/2026/08/05/expedia-stock-price-pops-on-quarterly-beat.html",
+   "date": "2026-08-05",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "EXPE",
+  "fetchedAt": "2026-10-16",
+  "source": "한국투자증권 Open API",
+  "per": 18.2,
+  "pbr": 28.97,
+  "eps": 16.03,
+  "bps": 10.08,
+  "shares": 114496000,
+  "marketCapM": 33418,
+  "high52": 341.5075,
+  "high52Date": "2026-08-26",
+  "low52": 184.2811,
+  "low52Date": "2026-02-23",
+  "last": 291.87,
+  "prevClose": 274.69,
+  "nameKo": "익스피디아 그룹",
+  "nameEn": "EXPEDIA GROUP INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 114496000
+ }
+}

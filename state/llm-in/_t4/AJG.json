@@ -1,0 +1,179 @@
+{
+ "ticker": "AJG",
+ "news": [
+  {
+   "title": "AJG Expands Marine Risk Management With Winter & Co Solicitors Deal",
+   "url": "https://www.nasdaq.com/articles/ajg-expands-marine-risk-management-winter-co-solicitors-deal",
+   "date": "2026-10-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "AJG Makes Notable Cross Below Critical Moving Average",
+   "url": "https://www.nasdaq.com/articles/ajg-makes-notable-cross-below-critical-moving-average",
+   "date": "2026-09-22",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "AJG's McMillan Insurance Acquisition Adds to Brokerage Expansion",
+   "url": "https://www.nasdaq.com/articles/ajgs-mcmillan-insurance-acquisition-adds-brokerage-expansion",
+   "date": "2026-09-18",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-27",
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/354190/000035419026000197/ajg-20260824.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/354190/000162828026051070/ajg-20260730.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/354190/000035419026000184/ajg-20260722.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-17",
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/354190/000035419026000171/ajg-20260617.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-13",
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/354190/000035419026000142/ajg-20260512.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/354190/000035419026000132/ajg-20260430.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "세전이익",
+  "marginLabel": "세전이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000354190&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 4003000000,
+    "profit": 414000000,
+    "netIncome": 324000000,
+    "margin": 10.3,
+    "yoy": {
+     "revenue": 24.2,
+     "profit": -12.5,
+     "netIncome": -12,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 4758000000,
+    "profit": 1043000000,
+    "netIncome": 822000000,
+    "margin": 21.9,
+    "yoy": {
+     "revenue": 27.7,
+     "profit": 19.5,
+     "netIncome": 16.8,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 3628200000,
+    "profit": 180000000,
+    "netIncome": 151100000,
+    "margin": 5,
+    "yoy": {
+     "revenue": 33.6,
+     "profit": -46,
+     "netIncome": -41.6,
+     "priorEnd": "2024-12-31"
+    }
+   },
+   {
+    "periodEnd": "2025-09-30",
+    "derived": false,
+    "revenue": 3365600000,
+    "profit": 346900000,
+    "netIncome": 272700000,
+    "margin": 10.3,
+    "yoy": {
+     "revenue": 19.9,
+     "profit": -14,
+     "netIncome": -12.8,
+     "priorEnd": "2024-09-30"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 20.8,
+  "saleNy": 8.7,
+  "epsCy": 22.54,
+  "epsNy": 13.01,
+  "cyTrend": -0.64,
+  "nyTrend": -0.58,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    24.24,
+    27.66,
+    33.55
+   ],
+   "ni": [
+    -11.96,
+    16.76,
+    -42.27
+   ],
+   "opm": [
+    14.54,
+    25.24,
+    9.38
+   ],
+   "updated": "2026-09-08 10:28:09"
+  }
+ }
+}

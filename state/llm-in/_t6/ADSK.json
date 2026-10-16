@@ -1,0 +1,739 @@
+{
+ "ticker": "ADSK",
+ "date": "2026-10-16",
+ "session": "2026-10-15",
+ "source": "list",
+ "plan": {
+  "ticker": "ADSK",
+  "name": "오토데스크",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "price": 245.16000366210938,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 271.72,
+  "stop": 264.13,
+  "distToPivotPct": -9.77,
+  "distToPivotAdr": -3.16,
+  "riskPerSharePct": 2.79,
+  "adrPct": 3.1,
+  "extensionAdr": 1.88,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 35,
+   "baseWeeks": 7,
+   "depthPct": 26.7,
+   "priorMovePct": 46.5,
+   "higherLows": 0,
+   "contraction": 1.09,
+   "closeRange10Adr": 4.4,
+   "surf10": 1.88,
+   "surf20": 3.1,
+   "slope20": 1.58,
+   "baseLow": 199.18,
+   "lastSwingLow": 199.18
+  },
+  "reasons": [
+   "선행 상승 +46%",
+   "베이스 7주",
+   "✗ 깊이 26.7%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.09배 · 10일 종가폭 4.4 ADR",
+   "✗ 10일선 +1.9 ADR · 20일선 +3.1 ADR",
+   "20일선 기울기 +1.58%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.1212952997918666,
+    "pct": 94.8151487826871
+   },
+   "m3": {
+    "v": 0.20471746271306818,
+    "pct": 89.04418394950406
+   },
+   "m6": {
+    "v": 0.03251348189574001,
+    "pct": 51.082055906221825
+   }
+  },
+  "ret1m": 12.13,
+  "ret3m": 20.47,
+  "ret6m": 3.25,
+  "marketCap": "48.81B",
+  "volx": 1.29,
+  "volSurgeWk": 1.46,
+  "high52": 76.61,
+  "newHigh52": false,
+  "adr": 3.1,
+  "div50": 5.05,
+  "div200": 3.87,
+  "targetStatus": false,
+  "saleCy": 15.52,
+  "saleNy": 11.02,
+  "epsCy": 20.92,
+  "epsNy": 12.58,
+  "cyTrend": 0.14,
+  "nyTrend": 0.08,
+  "est": {
+   "cyCur": 12.61244,
+   "cy30": 12.59504,
+   "nyCur": 14.19939,
+   "ny30": 14.18783
+  },
+  "fs": {
+   "sale": [
+    16.05,
+    18.43,
+    19.4
+   ],
+   "ni": [
+    57.19,
+    223.03,
+    4.29
+   ],
+   "opm": [
+    29.28,
+    27.97,
+    22.02
+   ],
+   "updated": "2026-09-08 05:43:25"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-16",
+  "nameKo": "오토데스크",
+  "nameEn": "AUTODESK INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000769397&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": false,
+     "revenue": 2046000000,
+     "profit": 599000000,
+     "netIncome": 492000000,
+     "margin": 29.3,
+     "yoy": {
+      "revenue": 16.1,
+      "profit": 34.9,
+      "netIncome": 57.2,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 1934000000,
+     "profit": 541000000,
+     "netIncome": 491000000,
+     "margin": 28,
+     "yoy": {
+      "revenue": 18.4,
+      "profit": 132.2,
+      "netIncome": 223,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 1957000000,
+     "profit": 431000000,
+     "netIncome": 316000000,
+     "margin": 22,
+     "yoy": {
+      "revenue": 19.4,
+      "profit": 17.8,
+      "netIncome": 4.3,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 1853000000,
+     "profit": 470000000,
+     "netIncome": 343000000,
+     "margin": 25.4,
+     "yoy": {
+      "revenue": 18,
+      "profit": 35.8,
+      "netIncome": 24.7,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Autodesk (ADSK) Ascends While Market Falls: Some Facts to Note",
+     "url": "https://www.nasdaq.com/articles/autodesk-adsk-ascends-while-market-falls-some-facts-note",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "EGHT vs. ADSK: Which Stock Should Value Investors Buy Now?",
+     "url": "https://www.nasdaq.com/articles/eght-vs-adsk-which-stock-should-value-investors-buy-now",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-10",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/769397/000119312526387877/d103766d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-27",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/769397/000076939726000059/adsk-20260827.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-03",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/769397/000121390026084276/ea0300009-8k_autodesk.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-13",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/769397/000121390026077574/ea0296272-8k_autodesk.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "5.03",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/769397/000076939726000050/adsk-20260617.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-15",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/769397/000121390026068533/ea0294709-8k_autodesk.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Amazon, Marvell, PayPal & more",
+   "url": "https://www.cnbc.com/2026/08/28/stocks-making-the-biggest-moves-midday-amzn-mrvl-pypl-crm.html",
+   "date": "2026-08-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: PayPal, Affirm Holdings, Gap, Marvell",
+   "url": "https://www.cnbc.com/2026/08/28/stocks-making-the-biggest-moves-premarket-pypl-afrm-gap-mrvl.html",
+   "date": "2026-08-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves after hours: Gap, Workday, Autodesk and more",
+   "url": "https://www.cnbc.com/2026/08/27/stocks-making-the-biggest-moves-after-hours-gap-wday-adsk-and-more.html",
+   "date": "2026-08-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Salesforce's stock leads software rally, rocketing 22% on track for second-best day ever",
+   "url": "https://www.cnbc.com/2026/08/27/salesforce-stock-soars-on-track-for-second-best-day-ever.html",
+   "date": "2026-08-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "S&P 500, Nasdaq Composite close higher Thursday as Nvidia rallies on revenue guidance",
+   "url": "https://www.cnbc.com/2026/08/26/stock-market-today-live-updates.html",
+   "date": "2026-08-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Boeing, Amkor, Corning, Sandisk & more",
+   "url": "https://www.cnbc.com/2026/07/28/stocks-making-the-biggest-moves-midday-ba-amkr-glw-sndk-iqv.html",
+   "date": "2026-07-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "ADSK",
+  "fetchedAt": "2026-10-16",
+  "source": "한국투자증권 Open API",
+  "per": 31.76,
+  "pbr": 15.15,
+  "eps": 7.72,
+  "bps": 16.19,
+  "shares": 209000000,
+  "marketCapM": 51238,
+  "high52": 320,
+  "high52Date": "2025-11-26",
+  "low52": 185.5,
+  "low52Date": "2026-06-22",
+  "last": 245.16,
+  "prevClose": 231.14,
+  "nameKo": "오토데스크",
+  "nameEn": "AUTODESK INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 209000000
+ },
+ "estimates": {
+  "ticker": "ADSK",
+  "url": "https://finance.yahoo.com/quote/ADSK/analysis/",
+  "fetchedAt": "2026-10-16",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "eps": 3.07,
+    "epsLow": 3.04,
+    "epsHigh": 3.11,
+    "epsYearAgo": 2.67,
+    "epsAnalysts": 28,
+    "epsGrowth": 14.9,
+    "epsCur": "USD",
+    "rev": 2132410570,
+    "revAnalysts": 27,
+    "revYearAgo": 1853000000,
+    "revGrowth": 15.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "eps": 3.2,
+    "epsLow": 2.96,
+    "epsHigh": 3.27,
+    "epsYearAgo": 2.85,
+    "epsAnalysts": 28,
+    "epsGrowth": 12.3,
+    "epsCur": "USD",
+    "rev": 2210766670,
+    "revAnalysts": 27,
+    "revYearAgo": 1957000000,
+    "revGrowth": 13,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "eps": 12.61,
+    "epsLow": 12.53,
+    "epsHigh": 13.35,
+    "epsYearAgo": 10.43,
+    "epsAnalysts": 36,
+    "epsGrowth": 20.9,
+    "epsCur": "USD",
+    "rev": 8324142690,
+    "revAnalysts": 34,
+    "revYearAgo": 7206000000,
+    "revGrowth": 15.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "eps": 14.2,
+    "epsLow": 13.19,
+    "epsHigh": 15.64,
+    "epsYearAgo": 12.61,
+    "epsAnalysts": 36,
+    "epsGrowth": 12.6,
+    "epsCur": "USD",
+    "rev": 9241868810,
+    "revAnalysts": 34,
+    "revYearAgo": 8324142690,
+    "revGrowth": 11,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "cur": "USD",
+    "now": 3.07,
+    "d7": 0,
+    "d30": 0,
+    "d90": -2.6,
+    "ago90": 3.15,
+    "up7": 1,
+    "up30": 1,
+    "down7": 20,
+    "down30": 20
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 3.2,
+    "d7": 0,
+    "d30": 0,
+    "d90": -3.4,
+    "ago90": 3.31,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 25
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 12.61,
+    "d7": 0,
+    "d30": 0.1,
+    "d90": 0,
+    "ago90": 12.61,
+    "up7": 0,
+    "up30": 17,
+    "down7": 1,
+    "down30": 15
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "cur": "USD",
+    "now": 14.2,
+    "d7": 0,
+    "d30": 0.1,
+    "d90": -0.5,
+    "ago90": 14.26,
+    "up7": 0,
+    "up30": 16,
+    "down7": 1,
+    "down30": 18
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-07-31",
+    "actual": 3.3,
+    "estimate": 3.12,
+    "surprisePct": 5.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-04-30",
+    "actual": 2.99,
+    "estimate": 2.84,
+    "surprisePct": 5.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-01-31",
+    "actual": 2.85,
+    "estimate": 2.64,
+    "surprisePct": 7.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-10-31",
+    "actual": 2.67,
+    "estimate": 2.5,
+    "surprisePct": 6.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 3,
+   "ptRaised": 8,
+   "ptLowered": 3,
+   "total": 22,
+   "recent": [
+    {
+     "date": "2026-09-28",
+     "firm": "Piper Sandler",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 300,
+     "ptPrior": 338
+    },
+    {
+     "date": "2026-09-21",
+     "firm": "Guggenheim",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 283,
+     "ptPrior": 283
+    },
+    {
+     "date": "2026-09-18",
+     "firm": "BTIG",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 300,
+     "ptPrior": 300
+    },
+    {
+     "date": "2026-09-17",
+     "firm": "RBC Capital",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 305,
+     "ptPrior": 305
+    },
+    {
+     "date": "2026-09-15",
+     "firm": "Cantor Fitzgerald",
+     "action": "init",
+     "from": null,
+     "to": "Neutral",
+     "ptAction": "Announces",
+     "pt": 215,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-02",
+     "firm": "Argus Research",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 355,
+     "ptPrior": 355
+    },
+    {
+     "date": "2026-08-31",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 276,
+     "ptPrior": 269
+    },
+    {
+     "date": "2026-08-31",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 330,
+     "ptPrior": 330
+    },
+    {
+     "date": "2026-08-28",
+     "firm": "BNP Paribas",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 300,
+     "ptPrior": 295
+    },
+    {
+     "date": "2026-08-28",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 325,
+     "ptPrior": 290
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-27",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-15",
+  "numbers": {
+   "price": 245.16,
+   "ma20": 221.66,
+   "ma50": 233.36,
+   "ma150": 229.62,
+   "distMA50": 5.05,
+   "periodHigh": 329.09,
+   "pullbackFromHigh": -25.5,
+   "volRatio20": 1.17,
+   "dryUpRatio": 0.81
+  },
+  "last10": [
+   {
+    "d": "2026-10-02",
+    "o": 213,
+    "h": 214.33,
+    "l": 210.67,
+    "c": 212,
+    "v": 1672700,
+    "clsPos": 36,
+    "gapPct": 0.8
+   },
+   {
+    "d": "2026-10-05",
+    "o": 219.23,
+    "h": 226.93,
+    "l": 218.21,
+    "c": 221.56,
+    "v": 3223800,
+    "clsPos": 38,
+    "gapPct": 3.41
+   },
+   {
+    "d": "2026-10-06",
+    "o": 221.92,
+    "h": 231.55,
+    "l": 221.7,
+    "c": 231.28,
+    "v": 2201500,
+    "clsPos": 97,
+    "gapPct": 0.16
+   },
+   {
+    "d": "2026-10-07",
+    "o": 231.42,
+    "h": 236.11,
+    "l": 228.76,
+    "c": 235.05,
+    "v": 2247400,
+    "clsPos": 86,
+    "gapPct": 0.06
+   },
+   {
+    "d": "2026-10-08",
+    "o": 232.56,
+    "h": 236,
+    "l": 230.6,
+    "c": 233.6,
+    "v": 2275600,
+    "clsPos": 56,
+    "gapPct": -1.06
+   },
+   {
+    "d": "2026-10-09",
+    "o": 235.5,
+    "h": 238.59,
+    "l": 233.52,
+    "c": 235.35,
+    "v": 1776700,
+    "clsPos": 36,
+    "gapPct": 0.81
+   },
+   {
+    "d": "2026-10-12",
+    "o": 234.7,
+    "h": 237.27,
+    "l": 229.32,
+    "c": 233.54,
+    "v": 1549600,
+    "clsPos": 53,
+    "gapPct": -0.28
+   },
+   {
+    "d": "2026-10-13",
+    "o": 232.74,
+    "h": 235.89,
+    "l": 230.18,
+    "c": 230.43,
+    "v": 1361400,
+    "clsPos": 4,
+    "gapPct": -0.34
+   },
+   {
+    "d": "2026-10-14",
+    "o": 230.35,
+    "h": 232.39,
+    "l": 228.59,
+    "c": 231.14,
+    "v": 1372000,
+    "clsPos": 67,
+    "gapPct": -0.03
+   },
+   {
+    "d": "2026-10-15",
+    "o": 234.18,
+    "h": 246.74,
+    "l": 234.02,
+    "c": 245.16,
+    "v": 2437428,
+    "clsPos": 88,
+    "gapPct": 1.32
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ADSK-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ADSK-6m.png"
+ },
+ "market": {
+  "verdict": "yellow",
+  "ko": "🟡 10일선이 20일선 위지만 오르는 힘이 약해짐 — 넣는 돈을 줄일 때",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

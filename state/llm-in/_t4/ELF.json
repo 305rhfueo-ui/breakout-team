@@ -1,0 +1,150 @@
+{
+ "ticker": "ELF",
+ "news": [
+  {
+   "title": "e.l.f. Beauty (ELF) Suffers a Larger Drop Than the General Market: Key Insights",
+   "url": "https://www.nasdaq.com/articles/elf-beauty-elf-suffers-larger-drop-general-market-key-insights",
+   "date": "2026-10-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "e.l.f. Beauty (ELF) Rises As Market Takes a Dip: Key Facts",
+   "url": "https://www.nasdaq.com/articles/elf-beauty-elf-rises-market-takes-dip-key-facts",
+   "date": "2026-10-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Brokers Suggest Investing in e.l.f. Beauty (ELF): Read This Before Placing a Bet",
+   "url": "https://www.nasdaq.com/articles/brokers-suggest-investing-elf-beauty-elf-read-placing-bet",
+   "date": "2026-10-07",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-24",
+   "reportDate": "2026-08-20",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1600033/000160003326000044/elf-20260820.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-05",
+   "reportDate": "2026-08-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1600033/000160003326000036/elf-20260805.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-20",
+   "reportDate": "2026-05-20",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1600033/000160003326000018/elf-20260520.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-13",
+   "reportDate": "2026-02-12",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1600033/000160003326000009/elf-20260212.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-04",
+   "reportDate": "2026-02-04",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1600033/000160003326000005/elf-20260204.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-05",
+   "reportDate": "2025-11-05",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1600033/000160003325000053/elf-20251105.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 20.36,
+  "saleNy": 8.48,
+  "epsCy": 15.93,
+  "epsNy": 6.56,
+  "cyTrend": 0.56,
+  "nyTrend": 1.07,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    35.52,
+    35.07,
+    37.76
+   ],
+   "ni": [
+    99.93,
+    -274.72,
+    128.12
+   ],
+   "opm": [
+    21.37,
+    -11.2,
+    13.8
+   ],
+   "updated": "2026-09-07 06:53:32"
+  }
+ }
+}

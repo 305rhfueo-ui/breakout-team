@@ -1,0 +1,170 @@
+{
+ "ticker": "SCCO",
+ "news": [
+  {
+   "title": "Southern Copper (SCCO) Falls More Steeply Than Broader Market: What Investors Need to Know",
+   "url": "https://www.nasdaq.com/articles/southern-copper-scco-falls-more-steeply-broader-market-what-investors-need-know",
+   "date": "2026-10-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Southern Copper (SCCO) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-southern-copper-scco-strong-growth-stock-0",
+   "date": "2026-10-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Southern Copper (SCCO) Fell More Than Broader Market",
+   "url": "https://www.nasdaq.com/articles/heres-why-southern-copper-scco-fell-more-broader-market",
+   "date": "2026-10-07",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Southern Copper (SCCO) is a Strong Momentum Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-southern-copper-scco-strong-momentum-stock",
+   "date": "2026-10-06",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Southern Copper (SCCO) Stock Dips While Market Gains: Key Facts",
+   "url": "https://www.nasdaq.com/articles/southern-copper-scco-stock-dips-while-market-gains-key-facts",
+   "date": "2026-10-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Will Southern Copper (SCCO) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/will-southern-copper-scco-beat-estimates-again-its-next-earnings-report-0",
+   "date": "2026-10-01",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-22",
+   "reportDate": "2026-07-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001838/000110465926085515/scco-20260721x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-17",
+   "reportDate": "2026-05-29",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001838/000110465926084713/scco-20260529x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-26",
+   "reportDate": "2026-06-24",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001838/000110465926078041/scco-20260624x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-25",
+   "reportDate": "2026-06-25",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001838/000114036126026337/ef20076661_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-17",
+   "reportDate": "2026-06-16",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001838/000114036126025549/ef20076323_8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-29",
+   "reportDate": "2026-04-23",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1001838/000110465926051713/scco-20260423x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 28.18,
+  "saleNy": -3.78,
+  "epsCy": 53.43,
+  "epsNy": -3.57,
+  "cyTrend": 1.27,
+  "nyTrend": 3.36,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    40.58,
+    36.18,
+    38.98
+   ],
+   "ni": [
+    71.56,
+    66.71,
+    64.76
+   ],
+   "opm": [
+    61.16,
+    58.34,
+    54.54
+   ],
+   "updated": "2026-09-08 08:49:54"
+  }
+ }
+}

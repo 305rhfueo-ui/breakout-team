@@ -1,0 +1,148 @@
+{
+ "ticker": "KNSA",
+ "news": [
+  {
+   "title": "KNSA Q2 Earnings Call Backs Higher ARCALYST Sales Outlook",
+   "url": "https://www.nasdaq.com/articles/knsa-q2-earnings-call-backs-higher-arcalyst-sales-outlook",
+   "date": "2026-08-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Earnings Estimates Rising for Kiniksa Pharmaceuticals International, plc (KNSA): Will It Gain?",
+   "url": "https://www.nasdaq.com/articles/earnings-estimates-rising-kiniksa-pharmaceuticals-international-plc-knsa-will-it-gain",
+   "date": "2026-07-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Kiniksa Pharmaceuticals International, plc (KNSA) Q2 Earnings Match Estimates",
+   "url": "https://www.nasdaq.com/articles/kiniksa-pharmaceuticals-international-plc-knsa-q2-earnings-match-estimates",
+   "date": "2026-07-28",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000031/knsa-20260728x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-29",
+   "reportDate": "2026-05-29",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000029/knsa-20260529x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-26",
+   "reportDate": "2026-05-21",
+   "items": [
+    "1.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000025/knsa-20260521x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-01",
+   "reportDate": "2026-04-30",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000021/knsa-20260430x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000017/knsa-20260428x8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-24",
+   "reportDate": "2026-02-24",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1730430/000173043026000014/knsa-20260224x8k.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 46.66,
+  "saleNy": 22.9,
+  "epsCy": 54.33,
+  "epsNy": 39.74,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    55.36,
+    55.51,
+    64.95
+   ],
+   "ni": [
+    42.62,
+    164.57,
+    "흑자전환"
+   ],
+   "opm": [
+    11.16,
+    13.66,
+    9.78
+   ],
+   "updated": "2026-09-15 06:58:01"
+  }
+ }
+}

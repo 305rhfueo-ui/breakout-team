@@ -1,0 +1,63 @@
+{
+ "ticker": "IHG",
+ "news": [
+  {
+   "title": "Are Consumer Discretionary Stocks Lagging  Intercontinental Hotels Group (IHG) This Year?",
+   "url": "https://www.nasdaq.com/articles/are-consumer-discretionary-stocks-lagging-intercontinental-hotels-group-ihg-year",
+   "date": "2026-09-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "IHG (IHG) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/ihg-ihg-q2-2026-earnings-call-transcript",
+   "date": "2026-08-18",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "InterContinental Hotels Group PLC - Depositary Receipt (IHG) Price Target Decreased by 98.65% to 1.99",
+   "url": "https://www.nasdaq.com/articles/intercontinental-hotels-group-plc-depositary-receipt-ihg-price-target-decreased-9865-199",
+   "date": "2026-04-29",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "InterContinental Hotels Group PLC - Depositary Receipt (IHG) Price Target Decreased by 98.61% to 146.86",
+   "url": "https://www.nasdaq.com/articles/intercontinental-hotels-group-plc-depositary-receipt-ihg-price-target-decreased-9861-14686",
+   "date": "2026-04-15",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "InterContinental Hotels Group PLC - Depositary Receipt (IHG) Price Target Increased by 12.77% to 10,561.90",
+   "url": "https://www.nasdaq.com/articles/intercontinental-hotels-group-plc-depositary-receipt-ihg-price-target-increased-1277",
+   "date": "2026-04-09",
+   "publisher": "Fintel"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.62,
+  "saleNy": 5.68,
+  "epsCy": 19.01,
+  "epsNy": 13.49,
+  "cyTrend": -1.14,
+  "nyTrend": -1.54,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    null,
+    null,
+    null
+   ],
+   "opm": null,
+   "updated": "2026-09-21 06:11:04"
+  }
+ }
+}

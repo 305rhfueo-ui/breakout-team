@@ -1,0 +1,704 @@
+{
+ "ticker": "AZO",
+ "date": "2026-10-16",
+ "session": "2026-10-15",
+ "source": "list",
+ "plan": {
+  "ticker": "AZO",
+  "name": "오토존",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
+  "price": 3059.6201171875,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 2.91,
+  "extensionAdr": 1.84,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.07569851885282895,
+    "pct": 87.5112714156898
+   },
+   "m3": {
+    "v": 0.0293260332209323,
+    "pct": 61.63210099188458
+   },
+   "m6": {
+    "v": -0.1448582573775075,
+    "pct": 17.718665464382326
+   }
+  },
+  "ret1m": 7.57,
+  "ret3m": 2.93,
+  "ret6m": -14.49,
+  "marketCap": "46.88B",
+  "volx": 0.69,
+  "volSurgeWk": 1.33,
+  "high52": 75.59,
+  "newHigh52": false,
+  "adr": 2.91,
+  "div50": 4.11,
+  "div200": -6.53,
+  "targetStatus": false,
+  "saleCy": 7.41,
+  "saleNy": 7.11,
+  "epsCy": 11.23,
+  "epsNy": 12.5,
+  "cyTrend": -3.03,
+  "nyTrend": -2.39,
+  "est": {
+   "cyCur": 169.6802,
+   "cy30": 174.98048,
+   "nyCur": 190.88808,
+   "ny30": 195.55737
+  },
+  "fs": {
+   "sale": [
+    8.44,
+    8.15,
+    8.15
+   ],
+   "ni": [
+    5.43,
+    -3.91,
+    -6.04
+   ],
+   "opm": [
+    19.08,
+    16.34,
+    16.94
+   ],
+   "updated": "2026-09-09 06:08:39"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-16",
+  "nameKo": "오토존",
+  "nameEn": "AUTOZONE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866787&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-05-09",
+     "derived": false,
+     "revenue": 4840950000,
+     "profit": 923756000,
+     "netIncome": 641491000,
+     "margin": 19.1,
+     "yoy": {
+      "revenue": 8.4,
+      "profit": 6.6,
+      "netIncome": 5.4,
+      "priorEnd": "2025-05-10"
+     }
+    },
+    {
+     "periodEnd": "2026-02-14",
+     "derived": false,
+     "revenue": 4274098000,
+     "profit": 698456000,
+     "netIncome": 468860000,
+     "margin": 16.3,
+     "yoy": {
+      "revenue": 8.1,
+      "profit": -1.2,
+      "netIncome": -3.9,
+      "priorEnd": "2025-02-15"
+     }
+    },
+    {
+     "periodEnd": "2025-11-22",
+     "derived": false,
+     "revenue": 4628630000,
+     "profit": 784205000,
+     "netIncome": 530823000,
+     "margin": 16.9,
+     "yoy": {
+      "revenue": 8.2,
+      "profit": -6.8,
+      "netIncome": -6,
+      "priorEnd": "2024-11-23"
+     }
+    },
+    {
+     "periodEnd": "2025-05-10",
+     "derived": false,
+     "revenue": 4464339000,
+     "profit": 866174000,
+     "netIncome": 608440000,
+     "margin": 19.4,
+     "yoy": {
+      "revenue": 5.4,
+      "profit": -3.8,
+      "netIncome": -6.6,
+      "priorEnd": "2024-05-04"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "AutoZone Moves Up In Market Cap Rank, Passing Carvana",
+     "url": "https://www.nasdaq.com/articles/autozone-moves-market-cap-rank-passing-carvana",
+     "date": "2026-10-13",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Is Trending Stock AutoZone, Inc. (AZO) a Buy Now?",
+     "url": "https://www.nasdaq.com/articles/trending-stock-autozone-inc-azo-buy-now-0",
+     "date": "2026-10-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Bernstein Initiates Coverage of AutoZone with Outperform Rating",
+     "url": "https://www.nasdaq.com/articles/bernstein-initiates-coverage-autozone-outperform-rating",
+     "date": "2026-09-29",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Is Most-Watched Stock AutoZone, Inc. (AZO) Worth Betting on Now?",
+     "url": "https://www.nasdaq.com/articles/most-watched-stock-autozone-inc-azo-worth-betting-now",
+     "date": "2026-09-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Autozone a Buy After Its Latest Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/autozone-buy-after-its-latest-earnings-report",
+     "date": "2026-09-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "AutoZone Shifts Gears, On Track to Reverse Course and Price Recovery",
+     "url": "https://www.nasdaq.com/articles/autozone-shifts-gears-track-reverse-course-and-price-recovery",
+     "date": "2026-09-23",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Why AutoZone Stock Rallied Today",
+     "url": "https://www.nasdaq.com/articles/why-autozone-stock-rallied-today",
+     "date": "2026-09-23",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-09",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866787/000117184326006565/f8k_100926.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/866787/000117184326006159/f8k_092126.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-14",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866787/000110465926083528/tm2620403d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-09",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866787/000110465926082304/tm2619274d6_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-16",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/866787/000117184326004150/f8k_061626.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/866787/000117184326003674/f8k_052526.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "AZO",
+  "fetchedAt": "2026-10-16",
+  "source": "한국투자증권 Open API",
+  "per": 20.03,
+  "pbr": 0,
+  "eps": 152.79,
+  "bps": 0,
+  "shares": 16325400,
+  "marketCapM": 49950,
+  "high52": 4113.44,
+  "high52Date": "2025-10-14",
+  "low52": 2730.65,
+  "low52Date": "2026-10-05",
+  "last": 3059.62,
+  "prevClose": 2911.62,
+  "nameKo": "오토존",
+  "nameEn": "AUTOZONE INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 16325400
+ },
+ "estimates": {
+  "ticker": "AZO",
+  "url": "https://finance.yahoo.com/quote/AZO/analysis/",
+  "fetchedAt": "2026-10-16",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-11-30",
+    "eps": 35.38,
+    "epsLow": 31.47,
+    "epsHigh": 39.2,
+    "epsYearAgo": 31.04,
+    "epsAnalysts": 20,
+    "epsGrowth": 14,
+    "epsCur": "USD",
+    "rev": 4950044670,
+    "revAnalysts": 18,
+    "revYearAgo": 4628630000,
+    "revGrowth": 6.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-02-28",
+    "eps": 31.72,
+    "epsLow": 30.06,
+    "epsHigh": 33.67,
+    "epsYearAgo": 27.63,
+    "epsAnalysts": 20,
+    "epsGrowth": 14.8,
+    "epsCur": "USD",
+    "rev": 4592830060,
+    "revAnalysts": 18,
+    "revYearAgo": 4274098000,
+    "revGrowth": 7.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-08-31",
+    "eps": 169.69,
+    "epsLow": 159.83,
+    "epsHigh": 182,
+    "epsYearAgo": 152.55,
+    "epsAnalysts": 24,
+    "epsGrowth": 11.2,
+    "epsCur": "USD",
+    "rev": 21844702820,
+    "revAnalysts": 24,
+    "revYearAgo": 20338555000,
+    "revGrowth": 7.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-08-31",
+    "eps": 190.92,
+    "epsLow": 173.69,
+    "epsHigh": 208,
+    "epsYearAgo": 169.69,
+    "epsAnalysts": 23,
+    "epsGrowth": 12.5,
+    "epsCur": "USD",
+    "rev": 23398844070,
+    "revAnalysts": 23,
+    "revYearAgo": 21844702820,
+    "revGrowth": 7.1,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-11-30",
+    "cur": "USD",
+    "now": 35.38,
+    "d7": 0,
+    "d30": -6.9,
+    "d90": -7.3,
+    "ago90": 38.14,
+    "up7": 1,
+    "up30": 2,
+    "down7": 0,
+    "down30": 13
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-02-28",
+    "cur": "USD",
+    "now": 31.72,
+    "d7": 0,
+    "d30": -1.5,
+    "d90": -2.2,
+    "ago90": 32.42,
+    "up7": 1,
+    "up30": 4,
+    "down7": 0,
+    "down30": 11
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-08-31",
+    "cur": "USD",
+    "now": 169.69,
+    "d7": 0,
+    "d30": -2.9,
+    "d90": -3.3,
+    "ago90": 175.55,
+    "up7": 2,
+    "up30": 2,
+    "down7": 19,
+    "down30": 20
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-08-31",
+    "cur": "USD",
+    "now": 190.92,
+    "d7": 0,
+    "d30": -2.1,
+    "d90": -2.6,
+    "ago90": 195.92,
+    "up7": 3,
+    "up30": 3,
+    "down7": 10,
+    "down30": 11
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-08-31",
+    "actual": 56.05,
+    "estimate": 53.89,
+    "surprisePct": 4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-05-31",
+    "actual": 38.07,
+    "estimate": 36.17,
+    "surprisePct": 5.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-02-28",
+    "actual": 27.63,
+    "estimate": 27.29,
+    "surprisePct": 1.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-11-30",
+    "actual": 31.04,
+    "estimate": 32.35,
+    "surprisePct": -4,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 0,
+   "ptLowered": 17,
+   "total": 18,
+   "recent": [
+    {
+     "date": "2026-09-29",
+     "firm": "Bernstein",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 3698,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-28",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 3700,
+     "ptPrior": 3850
+    },
+    {
+     "date": "2026-09-23",
+     "firm": "Roth Capital",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 3850,
+     "ptPrior": 4023
+    },
+    {
+     "date": "2026-09-23",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 3648,
+     "ptPrior": 3817
+    },
+    {
+     "date": "2026-09-23",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 3400,
+     "ptPrior": 3500
+    },
+    {
+     "date": "2026-09-23",
+     "firm": "DA Davidson",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 3500,
+     "ptPrior": 3750
+    },
+    {
+     "date": "2026-09-23",
+     "firm": "Raymond James",
+     "action": "main",
+     "from": "Strong Buy",
+     "to": "Strong Buy",
+     "ptAction": "Lowers",
+     "pt": 3700,
+     "ptPrior": 4000
+    },
+    {
+     "date": "2026-09-23",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 3000,
+     "ptPrior": 3200
+    },
+    {
+     "date": "2026-09-23",
+     "firm": "BMO Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 3500,
+     "ptPrior": 4000
+    },
+    {
+     "date": "2026-09-23",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 3400,
+     "ptPrior": 3637
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-12-08",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-15",
+  "numbers": {
+   "price": 3059.62,
+   "ma20": 2876.36,
+   "ma50": 2938.97,
+   "ma150": 3153.3,
+   "distMA50": 4.11,
+   "periodHigh": 4388.11,
+   "pullbackFromHigh": -30.27,
+   "volRatio20": 0.65,
+   "dryUpRatio": 0.51
+  },
+  "last10": [
+   {
+    "d": "2026-10-02",
+    "o": 2840,
+    "h": 2840.04,
+    "l": 2781.61,
+    "c": 2792.03,
+    "v": 169800,
+    "clsPos": 18,
+    "gapPct": 0.74
+   },
+   {
+    "d": "2026-10-05",
+    "o": 2782.09,
+    "h": 2812,
+    "l": 2730.65,
+    "c": 2807.73,
+    "v": 219100,
+    "clsPos": 95,
+    "gapPct": -0.36
+   },
+   {
+    "d": "2026-10-06",
+    "o": 2823.16,
+    "h": 2921,
+    "l": 2821.33,
+    "c": 2898.57,
+    "v": 287000,
+    "clsPos": 77,
+    "gapPct": 0.55
+   },
+   {
+    "d": "2026-10-07",
+    "o": 2899.18,
+    "h": 2911.38,
+    "l": 2846.26,
+    "c": 2846.27,
+    "v": 130200,
+    "clsPos": 0,
+    "gapPct": 0.02
+   },
+   {
+    "d": "2026-10-08",
+    "o": 2844.03,
+    "h": 2931.62,
+    "l": 2839.7,
+    "c": 2910.54,
+    "v": 172400,
+    "clsPos": 77,
+    "gapPct": -0.08
+   },
+   {
+    "d": "2026-10-09",
+    "o": 2912.17,
+    "h": 2940.24,
+    "l": 2894.65,
+    "c": 2939.85,
+    "v": 145800,
+    "clsPos": 99,
+    "gapPct": 0.06
+   },
+   {
+    "d": "2026-10-12",
+    "o": 2920.7,
+    "h": 2935.15,
+    "l": 2877.88,
+    "c": 2898.85,
+    "v": 200600,
+    "clsPos": 37,
+    "gapPct": -0.65
+   },
+   {
+    "d": "2026-10-13",
+    "o": 2915,
+    "h": 2938.99,
+    "l": 2880.88,
+    "c": 2893.3,
+    "v": 159100,
+    "clsPos": 21,
+    "gapPct": 0.56
+   },
+   {
+    "d": "2026-10-14",
+    "o": 2904.55,
+    "h": 2922.52,
+    "l": 2883.13,
+    "c": 2911.62,
+    "v": 159700,
+    "clsPos": 72,
+    "gapPct": 0.39
+   },
+   {
+    "d": "2026-10-15",
+    "o": 2979.5,
+    "h": 3065.92,
+    "l": 2950,
+    "c": 3059.62,
+    "v": 223406,
+    "clsPos": 95,
+    "gapPct": 2.33
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AZO-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AZO-6m.png"
+ },
+ "market": {
+  "verdict": "yellow",
+  "ko": "🟡 10일선이 20일선 위지만 오르는 힘이 약해짐 — 넣는 돈을 줄일 때",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

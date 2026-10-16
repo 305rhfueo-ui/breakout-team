@@ -1,0 +1,275 @@
+{
+ "ticker": "ONC",
+ "sector": "Healthcare",
+ "industry": "Biotechnology",
+ "nameKo": "비원 메디신(ADR)",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 26.72,
+  "saleNy": 14.92,
+  "epsCy": 202.03,
+  "epsNy": 34.16,
+  "est": {
+   "cyCur": 7.64144,
+   "cy30": 7.59764,
+   "nyCur": 10.25178,
+   "ny30": 10.2839
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    29.63,
+    35.46,
+    32.84
+   ],
+   "ni": [
+    151.28,
+    17802.13,
+    "흑자전환"
+   ],
+   "opm": [
+    19.06,
+    16.51,
+    12.35
+   ],
+   "updated": "2026-09-08 10:46:37"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-16",
+  "nameKo": "비원 메디신(ADR)",
+  "nameEn": "BEONE MEDICINES LTD SPON ADS EACH REPR 13 ORD SHS",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001651308&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1705071000,
+     "profit": 325047000,
+     "netIncome": 237007000,
+     "margin": 19.1,
+     "yoy": {
+      "revenue": 29.6,
+      "profit": 269.9,
+      "netIncome": 151.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1513438000,
+     "profit": 249902000,
+     "netIncome": 227357000,
+     "margin": 16.5,
+     "yoy": {
+      "revenue": 35.5,
+      "profit": 2151,
+      "netIncome": 17802.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1498170000,
+     "profit": 185035000,
+     "netIncome": 66502000,
+     "margin": 12.4,
+     "yoy": {
+      "revenue": 32.8,
+      "profit": 333,
+      "netIncome": 143.8,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1412284000,
+     "profit": 163114000,
+     "netIncome": 124841000,
+     "margin": 11.5,
+     "yoy": {
+      "revenue": 41,
+      "profit": 235.6,
+      "netIncome": 202.9,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "All You Need to Know About BeOne Medicines Ltd. - Sponsored ADR  (ONC) Rating Upgrade to Strong Buy",
+     "url": "https://www.nasdaq.com/articles/all-you-need-know-about-beone-medicines-ltd-sponsored-adr-onc-rating-upgrade-strong-buy",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "BeOne Medicines Ltd. - Sponsored ADR  (ONC) is a Great Momentum Stock: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/beone-medicines-ltd-sponsored-adr-onc-great-momentum-stock-should-you-buy",
+     "date": "2026-08-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "BeOne Medicines Ltd. - Sponsored ADR  (ONC) Now Trades Above Golden Cross: Time to Buy?",
+     "url": "https://www.nasdaq.com/articles/beone-medicines-ltd-sponsored-adr-onc-now-trades-above-golden-cross-time-buy",
+     "date": "2026-08-25",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "BeOne Medicines (ONC) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/beone-medicines-onc-q2-2026-earnings-call-transcript",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "BeOne Medicines Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/beone-medicines-q2-earnings-call-highlights",
+     "date": "2026-08-05",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "BeOne Medicines Ltd. - Sponsored ADR  (ONC) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates",
+     "url": "https://www.nasdaq.com/articles/beone-medicines-ltd-sponsored-adr-onc-q2-earnings-how-key-metrics-compare-wall-street",
+     "date": "2026-08-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Countdown to BeOne Medicines Ltd. - Sponsored ADR  (ONC) Q2 Earnings: A Look at Estimates Beyond Revenue and EPS",
+     "url": "https://www.nasdaq.com/articles/countdown-beone-medicines-ltd-sponsored-adr-onc-q2-earnings-look-estimates-beyond-revenue",
+     "date": "2026-08-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "BeOne Medicines Expands U.S. Manufacturing With $1 Billion Investment",
+     "url": "https://www.nasdaq.com/articles/beone-medicines-expands-us-manufacturing-1-billion-investment",
+     "date": "2026-07-23",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1651308/000165130826000025/bgne-20260826.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1651308/000162828026052877/bgne-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-26",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1651308/000165130826000020/bgne-20260626.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1651308/000165130826000017/bgne-20260611.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-15",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1651308/000165130826000012/bgne-20260513.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1651308/000162828026030866/bgne-20260506.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Goldman picks China healthcare stocks for a post-AI trade",
+   "url": "https://www.cnbc.com/2026/09/13/goldman-picks-china-healthcare-stocks-for-a-post-ai-trade.html",
+   "date": "2026-09-13",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Monday's big analyst calls: Nvidia, SpaceX, Tesla, Apple, Deckers, Biogen, Nio",
+   "url": "https://www.cnbc.com/2026/07/13/monday-stocks-by-analyst-calls-like-spacex.html",
+   "date": "2026-07-13",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "ONC",
+  "fetchedAt": "2026-10-16",
+  "source": "한국투자증권 Open API",
+  "per": 65.74,
+  "pbr": 8.17,
+  "eps": 5.69,
+  "bps": 45.78,
+  "shares": 104271763,
+  "marketCapM": 39006,
+  "high52": 385.22,
+  "high52Date": "2025-11-17",
+  "low52": 253.9475,
+  "low52Date": "2026-06-11",
+  "last": 374.08,
+  "prevClose": 351.48,
+  "nameKo": "비원 메디신(ADR)",
+  "nameEn": "BEONE MEDICINES LTD SPON ADS EACH REPR 13 ORD SHS",
+  "listedOn": "2025-01-02",
+  "exchange": "나스닥",
+  "listedShares": 104271763
+ }
+}

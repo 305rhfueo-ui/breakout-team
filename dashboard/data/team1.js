@@ -508,8 +508,358 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-16",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "AI 자금 걱정에 엔비디아·AMD·델 동반 급락",
+        "easy": "엔비디아·AMD·Dell 주가가 한꺼번에 떨어졌다. AI 설비에 들어갈 돈이 계속 조달될지 의심이 커진 것이 이유다. 아시아의 SK하이닉스·삼성전자·소프트뱅크도 같은 이유로 밀렸다. AI 투자가 멈추면 반도체와 서버 주문부터 줄어든다고 보기 때문이다.",
+        "whyMatters": "반도체와 서버·컴퓨터 하드웨어 업종이 가장 직접적으로 불리하다. 엔비디아·AMD·Dell 처럼 AI 투자에 매출이 걸린 종목은 당분간 흔들림이 크다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Nvidia, AMD, Dell sink in global tech rout on AI funding worries",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+            "date": "2026-10-15",
+            "quote": "Nvidia, AMD, Dell sink in global tech rout on AI funding worries",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Nvidia and other chip stocks face renewed pressure as AI fears swell",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/micron-nvidia-and-other-chip-stocks-face-renewed-pressure-as-ai-fears-swell-4e0dc989?mod=mw_rss_topstories",
+            "date": "2026-10-15",
+            "quote": "Nvidia and other chip stocks face renewed pressure as AI fears swell",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "CoreWeave 부도 위험 지표가 부실 수준까지 올랐다",
+        "easy": "CoreWeave 의 부도 위험을 거래하는 지표(신용부도스왑)가 부실 기업 수준까지 올랐다. AI 데이터센터를 빚으로 짓는 회사가 그 빚을 갚을 수 있는지 투자자들이 의심하기 시작했기 때문이다. 주가는 이후 반등했지만 채권 쪽 압박은 남아 있다. AI 설비 투자가 빚에 기대고 있다는 점이 이제 가격에 반영되는 중이다.",
+        "whyMatters": "AI 데이터센터 임대·클라우드 업종과 이들에게 장비를 파는 반도체 업종에 나쁘다. 반대로 자기 현금으로 투자하는 대형 기술주와의 차별화는 커진다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "CoreWeave credit default swaps hit distress levels as investors sour on AI debt",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html",
+            "date": "2026-10-15",
+            "quote": "CoreWeave credit default swaps hit distress levels as investors sour on AI debt",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "CoreWeave's polarizing stock rebounds as Wall Street squares off about AI spending",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/coreweave-investors-are-feeling-spooked-as-the-companys-stock-and-bonds-see-fresh-pressure-ba39a931?mod=mw_rss_topstories",
+            "date": "2026-10-15",
+            "quote": "CoreWeave's polarizing stock rebounds as Wall Street squares off about AI spending",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "AI 주식에서 돈이 빠져 채권·방어주로 옮겨갔다",
+        "easy": "투자자들이 AI 관련 주식을 팔고 채권과 방어적인 업종으로 돈을 옮겼다. AI 투자 자금 조달 걱정이 커지자 안전한 곳을 먼저 찾은 것이다. 이런 자금 이동은 지수 전체보다 쏠려 있던 업종을 먼저 흔든다. 기술주 비중이 큰 지수가 하락 압력을 더 받게 된다.",
+        "whyMatters": "필수소비재·헬스케어 같은 방어 업종에 유리하고 AI·반도체 쪽에는 불리하다. 지금 주도 종목의 절반이 넘는 54%가 기술 업종이라 쏠림이 풀리면 타격이 크다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Investors are dumping AI stocks as 'tech wreck' worsens. Here's where they're turning now.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/traders-pile-into-bonds-and-defensive-stocks-as-the-tech-wreck-picks-up-steam-48c04374?mod=mw_rss_topstories",
+            "date": "2026-10-15",
+            "quote": "Investors are dumping AI stocks as 'tech wreck' worsens. Here's where they're turning now.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "기술주를 다 팔 때는 아니라는 반론도 나왔다",
+        "easy": "이번 AI 조정에서 기술주를 전부 비울 필요는 없다는 의견이 나왔다. 대신 조정을 이용해 보유 구성을 손보라는 쪽이다. 어떤 근거로 그렇게 봤는지는 기사에 자세히 나오지 않았다. 시장이 한 방향으로만 보고 있지는 않다는 뜻이다.",
+        "whyMatters": "기술·소프트웨어 업종 안에서도 빚에 의존하는 회사와 현금이 많은 회사의 성적이 갈릴 수 있다. 업종 전체를 버리기보다 종목별 자금 사정을 보라는 신호다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Don't ditch tech stocks just yet. Make these moves to take advantage of the latest AI reset.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/dont-ditch-tech-stocks-just-yet-make-these-moves-to-take-advantage-of-the-latest-ai-reset-cb70c7b2?mod=mw_rss_topstories",
+            "date": "2026-10-15",
+            "quote": "Don't ditch tech stocks just yet. Make these moves to take advantage of the latest AI reset.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "KFC 가 미국 매장 음료를 코카콜라로 바꾼다",
+        "easy": "KFC 가 수십 년 만에 미국 매장 음료를 펩시에서 코카콜라로 교체한다. 펩시는 외식 체인 납품 경쟁에서 또 한 번 자리를 내줬다. 교체 이유는 기사에 자세히 나오지 않았다. 두 회사의 음료 점유율 다툼에서 코카콜라가 유리해졌다.",
+        "whyMatters": "음료·필수소비재 업종에서 Coca-Cola 에 유리하고 PepsiCo 에 불리하다. AI 쪽이 흔들릴 때 돈이 흘러드는 방어 업종이라 상대적 관심이 커질 수 있다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "KFC to switch to Coca-Cola beverages in U.S. restaurants for the first time in decades",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/15/kfc-coca-cola-pepsi-switch.html",
+            "date": "2026-10-15",
+            "quote": "KFC to switch to Coca-Cola beverages in U.S. restaurants for the first time in decades",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Pepsi loses more ground in the soda wars, as KFC switches to Coke",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/pepsi-loses-more-ground-in-the-soda-wars-as-kfc-switches-to-coke-49b1ef53?mod=mw_rss_topstories",
+            "date": "2026-10-15",
+            "quote": "Pepsi loses more ground in the soda wars, as KFC switches to Coke",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "Anthropic 이 상장을 앞두고 투자자를 모으고 있다",
+        "easy": "AI 기업 Anthropic 이 주식시장 상장을 앞두고 투자자 유치에 나섰다. 상장 시기와 조건은 기사에 나오지 않았다. AI 기업의 대형 상장은 AI 쪽에 돈이 계속 들어오는지 보여주는 신호다. 지금은 AI 자금 조달을 시장이 의심하는 국면이라 이 결과가 분위기를 가른다.",
+        "whyMatters": "AI 소프트웨어·클라우드 업종의 자금 조달 여건을 보여주는 지표다. 상장이 순조로우면 AI 투자 위축 우려가 일부 누그러진다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "AI giant Anthropic woos potential investors ahead of stock market debut",
+            "publisher": "BBC",
+            "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-10-15",
+            "quote": "AI giant Anthropic woos potential investors ahead of stock market debut",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 크게 담기보다 들어가는 돈을 줄일 때다. QQQ 는 10일선이 20일선 위에 있어 추세 자체는 살아 있지만 오르는 힘이 약해졌고, 종가 728 은 10일선과 20일선 아래로 내려왔다. 오늘 뉴스는 AI 설비 투자를 받쳐 온 자금 조달이 의심받기 시작했다는 뜻이고, 그 충격이 반도체와 AI 데이터센터부터 번지고 있다. 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% 늘어 주의선을 넘은 상태라, 하락이 길어지면 강제 매도로 낙폭이 빨라질 수 있다. 이번 주는 QQQ 가 50일선 위를 지키는지, 그리고 AI 부채로 지목된 회사들의 채권 가격이 안정되는지를 같이 보면 된다.",
+    "keyRisks": [
+      "AI 자금 조달 경고: AI 데이터센터를 빚으로 짓는 회사의 부도 위험 지표가 부실 수준까지 올랐다. 조달이 막히면 반도체·서버 주문이 먼저 줄어든다.",
+      "빚투 과열: 신용으로 산 주식 규모가 주의선을 넘어섰다. 급락이 오면 강제 매도가 연쇄로 나와 낙폭이 커진다.",
+      "업종 쏠림: 주도 종목의 절반이 넘는 54%가 기술 업종이다. 기술주가 흔들리면 분산 효과가 거의 없다.",
+      "정치 일정: 중간선거 결과에 따라 지금의 기술주 조정이 더 깊어질 수 있다는 지적이 나왔다."
+    ],
+    "easySummary": [
+      "AI 투자에 들어갈 돈이 계속 돌지 의심받으며 엔비디아·AMD·Dell 이 동반 하락했다.",
+      "돈은 AI 주식에서 빠져나와 채권과 필수소비재 같은 방어 업종으로 옮겨가고 있다.",
+      "지수 추세가 깨진 것은 아니지만 새로 크게 담을 자리는 아니다 — 50일선 지지를 먼저 확인한다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 133,
+      "ok": 226,
+      "unverified": 9,
+      "dead": 1,
+      "stripped": 20,
+      "removed": [
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.cnbc.com/2026/06/26/on-semi-stock-synaptics-ceo-hassane-el-khoury-synaptics-deal-will-provide-a-30b-incremental-market-expansion.html"
+        },
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/1019849/000114036126039664/ef20083688_8k.htm"
+        }
+      ],
+      "numberCut": 30,
+      "numberCuts": [
+        {
+          "sentence": "3월 분기(2.6%)보다 증가 폭이 커졌다.",
+          "missing": [
+            "2.6"
+          ]
+        },
+        {
+          "sentence": "주가는 52주 고점(320달러)보다 약 23% 낮은 245달러대다.",
+          "missing": [
+            "23"
+          ]
+        },
+        {
+          "sentence": "최근 4분기 모두 19~22% 성장이 이어졌다.",
+          "missing": [
+            "22"
+          ]
+        },
+        {
+          "sentence": "최근 한 달 주가는 약보합(-0.5%)이고 일부 거래일엔 시장보다 크게 내렸다.",
+          "missing": [
+            "0.5"
+          ]
+        },
+        {
+          "sentence": "기업가치는 부채 포함 약 163억 달러다.",
+          "missing": [
+            "163억 달러"
+          ]
+        },
+        {
+          "sentence": "영업이익은 3.25억 달러로 약 3.7배가 됐고, 영업이익률은 19.1%까지 올랐다.",
+          "missing": [
+            "3.7"
+          ]
+        },
+        {
+          "sentence": "주가는 8월 26일 고점(341달러)에서 크게 내려와 있다.",
+          "missing": [
+            "341"
+          ]
+        },
+        {
+          "sentence": "현재 291.87달러로 고점보다 약 14% 낮다.",
+          "missing": [
+            "14"
+          ]
+        },
+        {
+          "sentence": "주가수익비율(PER)이 41배로 높고, 주가는 1년 최고가(301달러)보다 약 17% 낮다.",
+          "missing": [
+            "17"
+          ]
+        },
+        {
+          "sentence": "9월 초 약 2억 7천만 달러 규모의 정보감시(ISR) 계약을 따냈다.",
+          "missing": [
+            "2억 7"
+          ]
+        },
+        {
+          "sentence": "주가는 3월 고점(약 1,012달러)보다 낮은 741달러대이고, 주가수익비율(PER)은 55.9배로 높다.",
+          "missing": [
+            "741"
+          ]
+        },
+        {
+          "sentence": "6개월 수익률도 -9.52%다.",
+          "missing": [
+            "9.52"
+          ]
+        },
+        {
+          "sentence": "argenx와 ENHANZE 협력 대상을 2개 더 늘려, 기술을 쓰는 약이 추가로 생길 여지가 넓어졌다.",
+          "missing": [
+            "2"
+          ]
+        },
+        {
+          "sentence": "직전 분기의 영업적자(-0.03억 달러)에서 영업이익 0.21억 달러 흑자로 돌아섰다.",
+          "missing": [
+            "0.03억 달러"
+          ]
+        },
+        {
+          "sentence": "최근 4개 분기 모두 매출이 12~17% 늘었다.",
+          "missing": [
+            "4"
+          ]
+        },
+        {
+          "sentence": "주가수익비율 55배라 성장이 둔화되면 부담이 커진다.",
+          "missing": [
+            "55"
+          ]
+        },
+        {
+          "sentence": "10월 15일 Penske Automotive가 대주주 Penske 측과 미쓰이(Mitsui)에 비상장 전환(상장폐지) 방식으로 163억 달러 규모에 인수되는 합병 계약을 맺었고, 이날 주가는 약 8% 올랐다.",
+          "missing": [
+            "163억 달러"
+          ]
+        },
+        {
+          "sentence": "실적 발표 당일 SEC에 실적 발표 8-K가 제출됐고, 설명회에서는 AI 자금 조달과 수수료가 쟁점이 됐다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "4분기 매출 전망은 523억~543억 달러, 매출총이익률 전망은 65~67%이며 2나노 공정 증가가 수요를 받친다.",
+          "missing": [
+            "2"
+          ]
+        },
+        {
+          "sentence": "10월 15일 데이터센터 애널리스트 데이 공시에서 이번 분기(2027 회계연도 3분기) 매출 전망을 4억 1,750만 달러 안팎으로 올리고, 영업이익률 전망도 33%로 끌어올렸다.",
+          "missing": [
+            "4억 1,750만 달러"
+          ]
+        },
+        {
+          "sentence": "2030 회계연도 장기 목표로 매출 32억 달러, 데이터센터 매출 21억 달러(연 75% 성장), 조정 EPS 12.40~13.00달러를 제시했다.",
+          "missing": [
+            "12.40",
+            "13.00"
+          ]
+        },
+        {
+          "sentence": "신한투자증권은 일라이 릴리가 GLP-1 약물 점유율이 높고 후속 비만약 파이프라인도 경쟁사를 앞선다고 평가했다.",
+          "missing": [
+            "1"
+          ]
+        },
+        {
+          "sentence": "내년 EPS 증가 전망이 15.5%로 올해 30.9%의 절반 수준으로 둔화한다.",
+          "missing": [
+            "30.9"
+          ]
+        },
+        {
+          "sentence": "최근 4개 분기 매출이 모두 전년 동기보다 증가했다(2.6~10.3%).",
+          "missing": [
+            "4",
+            "10.3"
+          ]
+        },
+        {
+          "sentence": "세전이익은 최근 분기 5,162만 달러 흑자였으나 전년보다 20.7% 줄었고, 직전 3개 분기는 적자였다.",
+          "missing": [
+            "3"
+          ]
+        },
+        {
+          "sentence": "argenx와 ENHANZE 협력을 목표 2개 추가로 확대했다.",
+          "missing": [
+            "2"
+          ]
+        },
+        {
+          "sentence": "argenx가 ENHANZE 협력 대상을 2개 더 늘렸다고 발표했다.",
+          "missing": [
+            "2"
+          ]
+        },
+        {
+          "sentence": "10월 15일 펜스케 그룹·미쓰이가 163억 달러 합병으로 PAG 비상장 전환을 발표, 주가 8% 상승.",
+          "missing": [
+            "163억 달러"
+          ]
+        },
+        {
+          "sentence": "2026-10-15 Intuit이 Sequence 인수를 발표했고 주가가 올랐다.",
+          "missing": [
+            "10",
+            "15"
+          ]
+        },
+        {
+          "sentence": "야후 파이낸스 기준 올해(2027-07 결산) EPS 전망치가 90일 전보다 12.3% 낮아졌다.",
+          "missing": [
+            "07"
+          ]
+        }
+      ],
+      "noQuote": 1
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-16"
   }
 };
