@@ -1,6 +1,1216 @@
 window.ONDEMAND_DATA = {
   "items": [
     {
+      "ticker": "ESTC",
+      "nameKo": "엘라스틱",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "industryRank": {
+        "frank": 3,
+        "frank25dChg": 11,
+        "headline": "AI가 소프트웨어를 대체한다는 공포가 걷히며 응용 소프트웨어가 저점에서 반등해 업종 순위 3위에 올랐다.",
+        "asOf": "2026-10-16"
+      },
+      "requestedOn": "2026-10-16",
+      "session": "2026-10-15",
+      "at": "2026-10-16T04:39:05.410Z",
+      "verdict": "조건부",
+      "verdictLine": "피벗 108 까지 9.96% 떨어져 있고 시장 판정이 노랑이라 지금은 조건부 — 돌파와 거래량 확인이 먼저다.",
+      "basis": [
+        {
+          "point": "선행 상승 104% 뒤 6.6주째 쉬고 있어 돌파 셋업의 앞부분은 갖췄다.",
+          "side": "for",
+          "checkRef": "차트:선행 상승"
+        },
+        {
+          "point": "상대강도가 3개월 상위 1.76%, 6개월 상위 3.02% 로 주도주 기준을 넘는다.",
+          "side": "for",
+          "checkRef": "CANSLIM:L"
+        },
+        {
+          "point": "피벗 108 까지 -9.96%, 하루 변동폭으로 2.5일치 거리라 아직 매수선과 멀다.",
+          "side": "against",
+          "checkRef": "차트:피벗 거리"
+        },
+        {
+          "point": "최근 5일 거래량이 20일 평균의 1.15배로, 쉬는 동안 줄어야 할 거래량이 줄지 않았다.",
+          "side": "against",
+          "checkRef": "차트:거래량 마름"
+        },
+        {
+          "point": "시장 판정이 노랑이고 빚내서 산 주식이 1년 전보다 37.2% 늘어 주의선을 넘었다.",
+          "side": "against",
+          "checkRef": "CANSLIM:M"
+        }
+      ],
+      "conditions": [
+        "피벗 108 을 거래량 20일 평균 2배 이상으로 종가 돌파하는 것",
+        "돌파 전 최근 5일 거래량이 20일 평균의 0.7배 이하로 줄어드는 것",
+        "시장 판정이 노랑에서 초록으로 바뀌는 것",
+        "2026-11-19 로 추정되는 실적 발표가 지나 일정 불확실성이 사라지는 것"
+      ],
+      "invalidation": "종가가 50일선 88.04 아래로 내려가면 이 그림은 틀린 것이다. 피벗 108 을 넘어 들어간 뒤에는 예비 손절 104.12 를 종가로 깨는 것이 기준이다.",
+      "dataLimits": "기관 보유 자료가 없고 국내 증권사 리포트·원문 PDF 가 0건이며, 새 지표 제품의 매출·이익 기여 숫자가 공개되지 않았다.",
+      "verdictAdjusted": null,
+      "verdictOriginal": null,
+      "gates": {
+        "blocked": false,
+        "reasons": [],
+        "asOf": {
+          "bar": "2026-10-15",
+          "market": "2026-10-15"
+        }
+      },
+      "setup": {
+        "state": "pre",
+        "grade": "A",
+        "pivot": 108,
+        "stop": 104.12,
+        "distToPivotPct": -9.96,
+        "distToPivotAdr": -2.5,
+        "riskPerSharePct": 3.59,
+        "extensionAdr": 0.6,
+        "adrPct": 3.99,
+        "breakDate": null,
+        "chase": false,
+        "metrics": {
+          "baseBars": 33,
+          "baseWeeks": 6.6,
+          "depthPct": 23.9,
+          "priorMovePct": 103.6,
+          "higherLows": 1,
+          "contraction": 1.12,
+          "closeRange10Adr": 1.6,
+          "surf10": 0.6,
+          "surf20": 1.27,
+          "slope20": 2.77,
+          "baseLow": 82.15,
+          "lastSwingLow": 84.62
+        },
+        "reasons": [
+          "선행 상승 +104%",
+          "베이스 6.6주",
+          "깊이 23.9%",
+          "저점 상승 1회",
+          "진폭 1.12배 · 10일 종가폭 1.6 ADR",
+          "10일선 +0.6 ADR · 20일선 +1.3 ADR",
+          "20일선 기울기 +2.77%"
+        ],
+        "earnings": null
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 104% · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 6.6주 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 1회 · 진폭 1.12배(1 미만이면 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 23.9% · ADR 3.99%의 6배 · 선행 상승의 절반 52%"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 97.24 · 20일선 92.33 · 50일선 88.04"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.15배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "피벗 108까지 -9.96% (-2.5 ADR) · 기준 1 ADR 이내"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 3.59% · ADR 3.99%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 0.6 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 노랑(보통)"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "최근 분기 적자축소 (순이익 기준)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "사이트 최근 3분기 순이익 적자축소/흑자전환/흑자전환 — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — 목록 순환 심층 분석이 신제품·신서비스와 그 매출·이익 영향을 증권사 리포트·기사로 조사한다(N 없는 종목부터 하루 14개) · 참고: 52주 고점의 85%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 1.15배(20일 평균 대비) · 오늘 거래대금 — · 상장주식 105M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 10.32% · 3M 1.76% · 6M 3.02% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 노랑 · 마진부채 주의(+30% 초과)"
+          }
+        ]
+      },
+      "kis": {
+        "ticker": "ESTC",
+        "fetchedAt": "2026-10-16",
+        "source": "한국투자증권 Open API",
+        "per": 27.23,
+        "pbr": 7.88,
+        "eps": 3.57,
+        "bps": 12.34,
+        "shares": 104991000,
+        "marketCapM": 10209,
+        "high52": 108,
+        "high52Date": "2026-08-28",
+        "low52": 42.05,
+        "low52Date": "2026-04-10",
+        "last": 97.24,
+        "prevClose": 92.06,
+        "nameKo": "엘라스틱",
+        "nameEn": "ELASTIC N V",
+        "listedOn": "2018-10-05",
+        "exchange": "뉴욕거래소",
+        "listedShares": 104991000
+      },
+      "estimates": {
+        "ticker": "ESTC",
+        "url": "https://finance.yahoo.com/quote/ESTC/analysis/",
+        "fetchedAt": "2026-10-16",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": "2026-10-31",
+            "eps": 0.81,
+            "epsLow": 0.8,
+            "epsHigh": 0.84,
+            "epsYearAgo": 0.64,
+            "epsAnalysts": 28,
+            "epsGrowth": 26.5,
+            "epsCur": "USD",
+            "rev": 486668760,
+            "revAnalysts": 25,
+            "revYearAgo": 423481000,
+            "revGrowth": 14.9,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-01-31",
+            "eps": 0.95,
+            "epsLow": 0.9,
+            "epsHigh": 1.06,
+            "epsYearAgo": 0.73,
+            "epsAnalysts": 27,
+            "epsGrowth": 30.5,
+            "epsCur": "USD",
+            "rev": 517808500,
+            "revAnalysts": 25,
+            "revYearAgo": 449881000,
+            "revGrowth": 15.1,
+            "revCur": "USD"
+          },
+          {
+            "period": "0y",
+            "endDate": "2027-04-30",
+            "eps": 3.36,
+            "epsLow": 3.32,
+            "epsHigh": 3.6,
+            "epsYearAgo": 2.57,
+            "epsAnalysts": 29,
+            "epsGrowth": 30.7,
+            "epsCur": "USD",
+            "rev": 2005289720,
+            "revAnalysts": 27,
+            "revYearAgo": 1739331000,
+            "revGrowth": 15.3,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1y",
+            "endDate": "2028-04-30",
+            "eps": 3.96,
+            "epsLow": 3.52,
+            "epsHigh": 4.43,
+            "epsYearAgo": 3.36,
+            "epsAnalysts": 29,
+            "epsGrowth": 17.7,
+            "epsCur": "USD",
+            "rev": 2300097150,
+            "revAnalysts": 28,
+            "revYearAgo": 2005289720,
+            "revGrowth": 14.7,
+            "revCur": "USD"
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": "2026-10-31",
+            "cur": "USD",
+            "now": 0.81,
+            "d7": 0,
+            "d30": 0,
+            "d90": 1.8,
+            "ago90": 0.79,
+            "up7": 0,
+            "up30": 16,
+            "down7": 1,
+            "down30": 9
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-01-31",
+            "cur": "USD",
+            "now": 0.95,
+            "d7": 0,
+            "d30": 0,
+            "d90": -0.3,
+            "ago90": 0.96,
+            "up7": 0,
+            "up30": 6,
+            "down7": 1,
+            "down30": 16
+          },
+          {
+            "period": "0y",
+            "endDate": "2027-04-30",
+            "cur": "USD",
+            "now": 3.36,
+            "d7": 0,
+            "d30": 0,
+            "d90": 3.6,
+            "ago90": 3.24,
+            "up7": 0,
+            "up30": 29,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "+1y",
+            "endDate": "2028-04-30",
+            "cur": "USD",
+            "now": 3.96,
+            "d7": 0,
+            "d30": 0,
+            "d90": 1.9,
+            "ago90": 3.88,
+            "up7": 2,
+            "up30": 20,
+            "down7": 0,
+            "down30": 8
+          }
+        ],
+        "surprises": [
+          {
+            "quarter": "2026-07-31",
+            "actual": 0.7,
+            "estimate": 0.58,
+            "surprisePct": 19.9,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-04-30",
+            "actual": 0.61,
+            "estimate": 0.56,
+            "surprisePct": 8.4,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-01-31",
+            "actual": 0.73,
+            "estimate": 0.65,
+            "surprisePct": 13,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-10-31",
+            "actual": 0.64,
+            "estimate": 0.58,
+            "surprisePct": 11.1,
+            "cur": "USD"
+          }
+        ],
+        "beats": 4,
+        "ratings": {
+          "upgrades": 0,
+          "downgrades": 1,
+          "initiations": 0,
+          "ptRaised": 30,
+          "ptLowered": 1,
+          "total": 35,
+          "recent": [
+            {
+              "date": "2026-10-09",
+              "firm": "Wedbush",
+              "action": "reit",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Maintains",
+              "pt": 125,
+              "ptPrior": 125
+            },
+            {
+              "date": "2026-10-09",
+              "firm": "Stifel",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 120,
+              "ptPrior": 107
+            },
+            {
+              "date": "2026-09-23",
+              "firm": "Cantor Fitzgerald",
+              "action": "reit",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Maintains",
+              "pt": 100,
+              "ptPrior": 100
+            },
+            {
+              "date": "2026-08-28",
+              "firm": "Scotiabank",
+              "action": "main",
+              "from": "Sector Perform",
+              "to": "Sector Perform",
+              "ptAction": "Raises",
+              "pt": 84,
+              "ptPrior": 58
+            },
+            {
+              "date": "2026-08-28",
+              "firm": "Wells Fargo",
+              "action": "main",
+              "from": "Equal-Weight",
+              "to": "Equal-Weight",
+              "ptAction": "Raises",
+              "pt": 100,
+              "ptPrior": 80
+            },
+            {
+              "date": "2026-08-28",
+              "firm": "UBS",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 105,
+              "ptPrior": 85
+            },
+            {
+              "date": "2026-08-28",
+              "firm": "TD Cowen",
+              "action": "main",
+              "from": "Hold",
+              "to": "Hold",
+              "ptAction": "Raises",
+              "pt": 95,
+              "ptPrior": 70
+            },
+            {
+              "date": "2026-08-28",
+              "firm": "Citigroup",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 128,
+              "ptPrior": 104
+            },
+            {
+              "date": "2026-08-28",
+              "firm": "Stifel",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 107,
+              "ptPrior": 90
+            },
+            {
+              "date": "2026-08-28",
+              "firm": "Barclays",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 118,
+              "ptPrior": 94
+            }
+          ]
+        },
+        "nextEarnings": {
+          "date": "2026-11-19",
+          "upcoming": true,
+          "estimated": true
+        }
+      },
+      "cnbc": [
+        {
+          "title": "Stocks making the biggest moves midday: Amazon, Marvell, PayPal & more",
+          "url": "https://www.cnbc.com/2026/08/28/stocks-making-the-biggest-moves-midday-amzn-mrvl-pypl-crm.html",
+          "date": "2026-08-28",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Stocks making the biggest moves premarket: PayPal, Affirm Holdings, Gap, Marvell",
+          "url": "https://www.cnbc.com/2026/08/28/stocks-making-the-biggest-moves-premarket-pypl-afrm-gap-mrvl.html",
+          "date": "2026-08-28",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Stocks making the biggest moves after hours: Gap, Workday, Autodesk and more",
+          "url": "https://www.cnbc.com/2026/08/27/stocks-making-the-biggest-moves-after-hours-gap-wday-adsk-and-more.html",
+          "date": "2026-08-27",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Where you want to invest in tech for the second half, according to one top analyst",
+          "url": "https://www.cnbc.com/2026/06/30/where-you-want-to-invest-in-tech-for-the-second-half-according-to-one-top-analyst.html",
+          "date": "2026-06-30",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Investors will love AI spenders when returns start to come in, says Citi's Heath Terry",
+          "url": "https://www.cnbc.com/video/2026/06/30/investors-will-love-ai-spenders-when-returns-start-to-come-in-says-citis-heath-terry.html",
+          "date": "2026-06-30",
+          "publisher": "CNBC",
+          "kind": "video"
+        }
+      ],
+      "detail": {
+        "fetchedAt": "2026-10-16",
+        "nameKo": "엘라스틱",
+        "nameEn": "ELASTIC N V",
+        "financials": {
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001707753&type=10-Q",
+          "quarters": [
+            {
+              "periodEnd": "2026-07-31",
+              "derived": false,
+              "revenue": 478113000,
+              "profit": -23574000,
+              "netIncome": -16729000,
+              "margin": -4.9,
+              "yoy": {
+                "revenue": 15.1,
+                "profit": -149.7,
+                "netIncome": 32,
+                "priorEnd": "2025-07-31"
+              }
+            },
+            {
+              "periodEnd": "2026-04-30",
+              "derived": true,
+              "revenue": 450681000,
+              "profit": -16411000,
+              "netIncome": 435900000,
+              "margin": -3.6,
+              "yoy": {
+                "revenue": 16,
+                "profit": -36.5,
+                "netIncome": 373.3,
+                "priorEnd": "2025-04-30"
+              }
+            },
+            {
+              "periodEnd": "2026-01-31",
+              "derived": false,
+              "revenue": 449881000,
+              "profit": 611000,
+              "netIncome": 7753000,
+              "margin": 0.1,
+              "yoy": {
+                "revenue": 17.7,
+                "profit": 113.2,
+                "netIncome": 145.5,
+                "priorEnd": "2025-01-31"
+              }
+            },
+            {
+              "periodEnd": "2025-10-31",
+              "derived": false,
+              "revenue": 423481000,
+              "profit": -8236000,
+              "netIncome": -51284000,
+              "margin": -1.9,
+              "yoy": {
+                "revenue": 15.9,
+                "profit": -86.1,
+                "netIncome": -101.5,
+                "priorEnd": "2024-10-31"
+              }
+            }
+          ]
+        },
+        "news": {
+          "items": [
+            {
+              "title": "Is the Options Market Predicting a Spike in Elastic Stock?",
+              "url": "https://www.nasdaq.com/articles/options-market-predicting-spike-elastic-stock",
+              "date": "2026-10-05",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Elastic Unveils AI-Era Metrics Platform, Claims Major Speed and Storage Gains",
+              "url": "https://www.nasdaq.com/articles/elastic-unveils-ai-era-metrics-platform-claims-major-speed-and-storage-gains",
+              "date": "2026-09-25",
+              "publisher": "MarketBeat"
+            },
+            {
+              "title": "Elastic (ESTC) Just Overtook the 20-Day Moving Average",
+              "url": "https://www.nasdaq.com/articles/elastic-estc-just-overtook-20-day-moving-average",
+              "date": "2026-09-22",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Wall Street Analysts See a 29.62% Upside in Elastic (ESTC): Can the Stock Really Move This High?",
+              "url": "https://www.nasdaq.com/articles/wall-street-analysts-see-2962-upside-elastic-estc-can-stock-really-move-high",
+              "date": "2026-09-15",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Elastic N.V. Consensus Price Target Increased 32.39% to $110.86",
+              "url": "https://www.nasdaq.com/articles/elastic-nv-consensus-price-target-increased-3239-11086",
+              "date": "2026-09-15",
+              "publisher": "Fintel"
+            },
+            {
+              "title": "Elastic's 2026 Outlook: AI Search Integration Fuels Enterprise Customer Retention",
+              "url": "https://www.nasdaq.com/articles/elastics-2026-outlook-ai-search-integration-fuels-enterprise-customer-retention",
+              "date": "2026-09-08",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "Can Elastic (ESTC) Run Higher on Rising Earnings Estimates?",
+              "url": "https://www.nasdaq.com/articles/can-elastic-estc-run-higher-rising-earnings-estimates",
+              "date": "2026-09-02",
+              "publisher": "Zacks"
+            }
+          ]
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-10-15",
+            "itemsKo": [
+              "주주총회 표결"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1707753/000170775326000061/estc-20261015.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-27",
+            "itemsKo": [
+              "임원 변동",
+              "Reg FD 공시",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1707753/000170775326000036/estc-20260824.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-08-27",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1707753/000170775326000035/estc-20260827.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-24",
+            "itemsKo": [
+              "2.05",
+              "임원 변동"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1707753/000170775326000024/estc-20260618.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-28",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1707753/000170775326000008/estc-20260528.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-02-26",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1707753/000170775326000003/estc-20260226.htm"
+          }
+        ],
+        "krReports": {
+          "total": 0,
+          "reports": []
+        }
+      },
+      "rank": {
+        "m1": 10.32,
+        "m3": 1.76,
+        "m6": 3.02
+      },
+      "verified": {
+        "checked": 7,
+        "ok": 19,
+        "unverified": 0,
+        "dead": 0,
+        "stripped": 1
+      },
+      "numberCut": 1,
+      "deep": {
+        "status": "done",
+        "ticker": "ESTC",
+        "company": "엘라스틱은 검색 엔진 Elasticsearch 를 만드는 소프트웨어 회사다. 기업이 쌓아 둔 문서·로그·지표를 빠르게 찾고 분석하게 해 주고, 시스템 장애를 추적하는 관측 제품과 보안 제품을 구독으로 판다. 최근 성장 축은 클라우드 구독과 AI 검색 기능이다.",
+        "lead": "매출은 꾸준히 15% 넘게 늘고 새 제품도 나왔지만, 지금 주가는 매수선 아래에서 쉬는 구간이다. 가장 강한 근거는 8월 분기 실적에서 매출이 1년 전보다 15% 늘고 비GAAP 영업이익률 16.2% 를 내며 연간 전망을 15.2% 성장으로 올린 것이다. 가장 큰 걱정은 피벗(넘으면 사는 선) 108 까지 9.96% 남아 있고 시장 판정이 노랑이라는 점이다. 종가가 50일선 88.04 아래로 내려가면 이 그림은 깨진다.",
+        "newsNarrative": "8월 27일 분기 실적에서 매출이 1년 전보다 15% 늘고 연간 전망까지 올라가면서 주가가 크게 뛰었다. 9월에는 서버·앱이 쏟아내는 지표를 다루는 새 제품을 공개해 AI 수요를 겨냥했다. 이어 증권사 목표주가 평균이 110.86달러로 32.39% 올랐다. AI 검색 기능이 기업 고객을 붙잡아 둔다는 평가도 함께 나왔다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "Elastic N.V. 8-K Exhibit 99.1 — Q1 FY2027 실적 발표문",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001707753/000170775326000035/a27q1erex991.htm",
+                "date": "2026-08-27",
+                "quote": "Total revenue was $478 million, an increase of 15% year-over-year",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "8월 27일 발표한 분기 실적에서 매출이 1년 전보다 15% 늘었고, 비GAAP 영업이익률은 16.2% 였다.",
+            "stripped": true
+          },
+          {
+            "id": "n2",
+            "statement": "같은 날 회사는 올해(2027년 4월 결산) 매출 전망을 15.2% 성장으로 올려 잡았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Elastic N.V. 8-K Exhibit 99.1 — FY2027 가이던스",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001707753/000170775326000035/a27q1erex991.htm",
+                "date": "2026-08-27",
+                "quote": "Total revenue is expected to be between $1.998 billion and $2.010 billion, representing 15.2% year-over-year growth",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "9월 25일 엘라스틱이 AI 시대를 겨냥한 새 지표 플랫폼을 공개했다고 보도됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Elastic Unveils AI-Era Metrics Platform, Claims Major Speed and Storage Gains",
+                "publisher": "MarketBeat",
+                "url": "https://www.nasdaq.com/articles/elastic-unveils-ai-era-metrics-platform-claims-major-speed-and-storage-gains",
+                "date": "2026-09-25",
+                "quote": "Elastic Unveils AI-Era Metrics Platform, Claims Major Speed and Storage Gains",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "9월 15일 증권사 목표주가 평균이 110.86달러로 32.39% 올랐다는 집계가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Elastic N.V. Consensus Price Target Increased 32.39% to $110.86",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/elastic-nv-consensus-price-target-increased-3239-11086",
+                "date": "2026-09-15",
+                "quote": "Elastic N.V. Consensus Price Target Increased 32.39% to $110.86",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "9월 8일에는 AI 검색 기능 결합이 기업 고객 유지를 끌어올린다는 분석이 보도됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Elastic's 2026 Outlook: AI Search Integration Fuels Enterprise Customer Retention",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/elastics-2026-outlook-ai-search-integration-fuels-enterprise-customer-retention",
+                "date": "2026-09-08",
+                "quote": "Elastic's 2026 Outlook: AI Search Integration Fuels Enterprise Customer Retention",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출은 네 분기 연속 15~18% 늘며 속도가 유지되고 있다. 직전 분기(2026년 7월 결산)에는 매출이 1년 전보다 15% 증가했다. 회사가 쓰는 기준(비GAAP) 영업이익률은 16.2% 지만, 회계 기준 영업이익률은 -4.9% 로 아직 적자다. 회사는 올해 매출을 15.2% 성장으로, 비GAAP 주당순이익을 3.29~3.37달러로 제시했다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "r1",
+              "statement": "직전 분기 매출이 1년 전보다 15% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Elastic N.V. 8-K Exhibit 99.1 — Q1 FY2027 실적 발표문",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001707753/000170775326000035/a27q1erex991.htm",
+                  "date": "2026-08-27",
+                  "quote": "Total revenue was $478 million, an increase of 15% year-over-year",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "r2",
+              "statement": "매출 증가율이 네 분기 연속 15~18% 구간을 지켰다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Elastic N.V. 분기 실적표",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001707753&type=10-Q",
+                  "date": "2026-07-31",
+                  "quote": "2026-07-31 전년비 매출 15.1 · 2026-04-30 16 · 2026-01-31 17.7 · 2025-10-31 15.9",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "p1",
+              "statement": "회사가 쓰는 기준으로 본 분기 영업이익률은 16.2% 다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Elastic N.V. 8-K Exhibit 99.1 — Q1 FY2027 실적 발표문",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001707753/000170775326000035/a27q1erex991.htm",
+                  "date": "2026-08-27",
+                  "quote": "Non-GAAP operating margin was 16.2%",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "p2",
+              "statement": "회계 기준 영업이익률은 직전 분기 -4.9% 로, 영업손익이 1년 전보다 149.7% 나빠졌다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Elastic N.V. 분기 실적표",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001707753&type=10-Q",
+                  "date": "2026-07-31",
+                  "quote": "2026-07-31 영업이익률 -4.9 · 전년비 영업이익 -149.7 · 전년비 순이익 32",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [
+            {
+              "id": "g1",
+              "statement": "회사는 올해(2027년 4월 결산) 매출 전망을 15.2% 성장으로 올렸다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Elastic N.V. 8-K Exhibit 99.1 — FY2027 가이던스",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001707753/000170775326000035/a27q1erex991.htm",
+                  "date": "2026-08-27",
+                  "quote": "Total revenue is expected to be between $1.998 billion and $2.010 billion, representing 15.2% year-over-year growth",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "g2",
+              "statement": "같은 전망에서 올해 비GAAP 주당순이익은 3.29~3.37달러로 제시됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Elastic N.V. 8-K Exhibit 99.1 — FY2027 가이던스",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001707753/000170775326000035/a27q1erex991.htm",
+                  "date": "2026-08-27",
+                  "quote": "Non-GAAP diluted earnings per share is expected to be between $3.29 and $3.37",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "mixed",
+            "claims": [
+              {
+                "id": "e1",
+                "statement": "올해(2027년 4월 결산) 주당순이익 추정치가 3.36달러로 90일 전 3.24달러보다 3.6% 높고, 최근 30일 29명이 올리고 내린 사람은 없다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Elastic (ESTC) Analysis — 추정치 변화",
+                    "publisher": "Yahoo Finance",
+                    "url": "https://finance.yahoo.com/quote/ESTC/analysis/",
+                    "date": "2026-10-16",
+                    "quote": "0y · endDate 2027-04-30 · now 3.36 · ago90 3.24 · d90 3.6 · up30 29 · down30 0",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "e2",
+                "statement": "반면 2027년 1월 결산 분기 추정치는 0.95달러로 90일 전 0.96달러보다 0.3% 낮고, 최근 30일 16명이 내리고 6명이 올렸다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Elastic (ESTC) Analysis — 추정치 변화",
+                    "publisher": "Yahoo Finance",
+                    "url": "https://finance.yahoo.com/quote/ESTC/analysis/",
+                    "date": "2026-10-16",
+                    "quote": "+1q · endDate 2027-01-31 · now 0.95 · ago90 0.96 · d90 -0.3 · up30 6 · down30 16",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "estimatesNarrative": "올해 전망은 오르는데 다음 분기 전망은 내려가는 엇갈린 모습이다. 2027년 4월 결산 주당순이익 추정치는 3.36달러로 90일 전 3.24달러보다 3.6% 높고 최근 30일 29명이 올렸지만, 2027년 1월 결산 분기 추정치는 0.95달러로 90일 전 0.96달러보다 0.3% 낮다. 최근 4분기 실적이 모두 추정치를 넘었고 직전 분기는 19.9% 웃돌았는데, 매출이 15% 늘고 비GAAP 영업이익률 16.2% 를 낸 데서 나온 결과다.",
+        "newDrivers": [
+          {
+            "what": "AI 시대 지표(메트릭) 플랫폼 — 서버·앱이 쏟아내는 숫자 기록을 Elasticsearch 가 직접 싸고 빠르게 저장·조회하도록 만든 신제품",
+            "kind": "product",
+            "stage": "출시",
+            "since": "2026-09",
+            "basis": [
+              {
+                "id": "d1",
+                "statement": "9월 25일 엘라스틱이 AI 시대를 겨냥한 지표 플랫폼을 공개했다고 보도됐다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Elastic Unveils AI-Era Metrics Platform, Claims Major Speed and Storage Gains",
+                    "publisher": "MarketBeat",
+                    "url": "https://www.nasdaq.com/articles/elastic-unveils-ai-era-metrics-platform-claims-major-speed-and-storage-gains",
+                    "date": "2026-09-25",
+                    "quote": "Elastic Unveils AI-Era Metrics Platform, Claims Major Speed and Storage Gains",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "d2",
+                "statement": "회사는 저장 구조와 연산 엔진을 열 단위 지표 엔진으로 다시 만들었다고 밝혔다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "30x faster than Prometheus: How we rebuilt Elasticsearch as a leading columnar metrics datastore",
+                    "publisher": "Elastic Search Labs",
+                    "url": "https://www.elastic.co/search-labs/blog/elasticsearch-columnar-metrics-engine-30x-faster-prometheus",
+                    "date": "2026-05-07",
+                    "quote": "rebuilt TSDS storage and the ES|QL compute engine into a fully columnar metrics engine",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [],
+            "profitImpact": [],
+            "expectedGrowth": [],
+            "counter": [
+              {
+                "id": "d3",
+                "statement": "이 분야에는 Prometheus·Mimir·ClickHouse 같은 대안이 이미 쓰이고 있어 고객이 실제로 옮겨 와야 한다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "30x faster than Prometheus: How we rebuilt Elasticsearch as a leading columnar metrics datastore",
+                    "publisher": "Elastic Search Labs",
+                    "url": "https://www.elastic.co/search-labs/blog/elasticsearch-columnar-metrics-engine-30x-faster-prometheus",
+                    "date": "2026-05-07",
+                    "quote": "queries them up to 30x faster and with up to 2.5x better storage efficiency, compared to Prometheus, Mimir and ClickHouse",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "nNarrative": "9월에 내놓은 새 지표 제품이 최근 3개월 안에 확인된 유일한 새로운 것이다. 서버와 앱이 끊임없이 내보내는 숫자 기록을 Elasticsearch 가 직접 다루도록 저장 구조와 연산 엔진을 열 단위로 다시 만들었다. 회사는 Prometheus·Mimir·ClickHouse 와 비교해 조회가 최대 30배 빠르고 저장 효율이 최대 2.5배 좋다고 밝혔다. 다만 이 제품이 매출을 얼마나 올렸는지는 아직 공개된 숫자가 없다. 이익이나 마진에 주는 영향도 따로 밝혀진 것이 없다. 경쟁 도구가 이미 자리잡은 시장이라 고객이 실제로 옮겨 오는지가 다음 실적에서 확인돼야 한다.",
+        "nVerdict": "부분 충족",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "직전 분기 회계 기준 영업이익률 -4.9%, 순이익은 전년비 32% 개선에 그친 적자축소 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 3분기 순이익 적자축소·흑자전환·흑자전환 (순이익 기준, 주식 수 변동 미반영) · 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "미충족",
+            "evidence": "부분 충족 — 2026-09 새 지표 플랫폼 출시는 확인되나 매출·이익 영향 숫자가 없다 · 참고: 52주 고점 108 대비 종가 97.24"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.15배로 줄지 않았다(기준 0.7 이하) · 상장주식 104991000주 · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1개월 10.32% · 3개월 1.76% · 6개월 3.02% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "시장 판정 노랑 · 빚내서 산 주식이 1년 전보다 37.2% 늘어 주의선 30% 초과"
+          }
+        ],
+        "risks": [
+          {
+            "id": "k1",
+            "statement": "회계 기준으로는 직전 분기 영업손익이 적자였고 1년 전보다 149.7% 나빠졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Elastic N.V. 분기 실적표",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001707753&type=10-Q",
+                "date": "2026-07-31",
+                "quote": "2026-07-31 영업이익률 -4.9 · 전년비 영업이익 -149.7",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "k2",
+            "statement": "다음 분기 주당순이익 추정치는 최근 30일 사이 16명이 내리고 6명만 올려 방향이 아래쪽이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Elastic (ESTC) Analysis — 추정치 변화",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/quote/ESTC/analysis/",
+                "date": "2026-10-16",
+                "quote": "+1q · endDate 2027-01-31 · now 0.95 · ago90 0.96 · up30 6 · down30 16",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "k3",
+            "statement": "모든 증권사가 긍정적이지는 않다 — 9월 23일 Cantor Fitzgerald 는 중립 의견에 목표주가 100달러를 유지했고, 최근 집계에 투자의견 하향도 1건 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Elastic (ESTC) Analysis — 투자의견·목표주가 변경",
+                "publisher": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/quote/ESTC/analysis/",
+                "date": "2026-10-16",
+                "quote": "2026-09-23 · Cantor Fitzgerald · Neutral → Neutral · pt 100 · ptPrior 100 · downgrades 1",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "지표·관측 분야에서 Prometheus·Mimir·ClickHouse 같은 대안 도구와 정면으로 경쟁한다.",
+          "회계 기준 영업손익이 분기마다 흑자와 적자를 오간다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "선행 상승 104% · 기준 30% 이상"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 6.6주(33봉) · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 1회 · 진폭 1.12배로 좁아지지 않았다(1 미만이어야 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "충족",
+            "evidence": "베이스 깊이 23.9% · 하루 변동폭 3.99%의 약 6배 · 선행 상승의 절반 아래"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 97.24 · 20일선 92.33 · 50일선 88.04"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량이 20일 평균의 1.15배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "피벗 108까지 -9.96%(하루 변동폭의 2.5배) · 기준 1배 이내"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 3.59% · 하루 변동폭 3.99% 이내"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 0.6배 · 기준 2배 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "시장 판정 노랑(보통)"
+          }
+        ],
+        "chartObservation": {
+          "base": "3개월 고점 118.84 에서 18.18% 내려온 자리에서 33봉(6.6주)째 가격대가 유지되고 있다. 베이스 고점 대비 저점 깊이는 23.9% 로 하루 변동폭 3.99% 의 약 6배다. 저점은 한 번 높아졌지만 진폭은 1.12배로 좁아지지 않았다.",
+          "volume": "최근 5일 거래량이 20일 평균의 1.15배로 줄지 않았다. 10월 15일 거래량 4181049주는 최근 10봉 중 가장 많았고, 그날 종가는 하루 폭의 96% 지점이었다. 직전 10월 14일은 1592400주였다.",
+          "position": "종가 97.24 는 피벗 108 보다 9.96% 아래이고, 하루 변동폭으로 2.5일치 거리다. 예비 손절 104.12 는 현재가보다 위에 있는데, 피벗을 넘어 들어간 뒤에 적용되는 선이기 때문이다. 10일선보다는 0.6배만 떠 있다.",
+          "maStack": "종가 97.24 가 20일선 92.33, 50일선 88.04, 150일선 66.37 위에 모두 있다. 20일선 기울기는 +2.77% 로 올라가는 중이다.",
+          "note": "그림에서도 9월 초 급등 뒤 10월까지 이어진 가격대와, 10월 15일에만 솟은 거래량 막대가 보인다 — 그림과 숫자가 일치한다."
+        },
+        "entryChecklist": [
+          "피벗 108 을 20일 평균 2배 이상 거래량으로 종가 돌파하는지",
+          "돌파 전까지 최근 5일 거래량이 20일 평균의 0.7배 아래로 줄어드는지",
+          "종가가 50일선 88.04 위를 계속 지키는지",
+          "시장 판정이 노랑에서 초록으로 바뀌는지",
+          "돌파 시점이 2026-11-19 로 추정되는 실적 발표와 겹치지 않는지"
+        ],
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 전망치 자료의 추정 발표일은 2026-11-19 이며, 피벗까지 9.96% 남아 있어 돌파 시점이 발표와 겹칠 수 있다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": [
+            "모든 claim의 숫자·날짜가 quote에 실제로 존재하고 일치함",
+            "네 서술문(lead, newsNarrative, financialsNarrative, nNarrative) 모두 claim으로 지지됨",
+            "신제품(metrics platform)은 매출영향을 별도로 주장하지 않고 사실만 기술함",
+            "경쟁 도구 언급은 quote에서 Prometheus/Mimir/ClickHouse 비교로 근거됨"
+          ]
+        },
+        "consensus": {
+          "saleCy": 15.29,
+          "saleNy": 14.7,
+          "epsCy": 30.71,
+          "epsNy": 17.73,
+          "cyTrend": 0,
+          "nyTrend": 0
+        },
+        "researchedOn": "2026-10-16",
+        "session": "2026-10-15",
+        "carried": false,
+        "source": "ondemand"
+      }
+    },
+    {
       "ticker": "PBF",
       "nameKo": "PBF 에너지",
       "sector": "Energy",
@@ -3321,5 +4531,5 @@ window.ONDEMAND_DATA = {
       }
     }
   ],
-  "updated": "2026-10-15T05:30:20.134Z"
+  "updated": "2026-10-16T04:39:05.416Z"
 };
