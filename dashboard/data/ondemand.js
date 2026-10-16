@@ -1,6 +1,1312 @@
 window.ONDEMAND_DATA = {
   "items": [
     {
+      "ticker": "MRNA",
+      "nameKo": "모더나",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "industryRank": {
+        "frank": 5,
+        "frank25dChg": 10,
+        "headline": "바이오테크는 모더나의 mRNA 암 치료제 3상 성공과 코디악·레볼루션의 신약 성과가 겹치며 업종 순위 6위로 올랐다.",
+        "asOf": "2026-10-16"
+      },
+      "requestedOn": "2026-10-16",
+      "session": "2026-10-15",
+      "at": "2026-10-16T08:58:29.452Z",
+      "verdict": "조건부",
+      "verdictLine": "쉬는 구간(베이스)이 없어 넘으면 사는 선이 아예 없고, 10월 24일 흑색종 전체 데이터라는 큰 변수가 남아 조건부다.",
+      "basis": [
+        {
+          "point": "상대강도가 6개월 기준 전체 상위 0.05%로 주도주 조건을 넘는다.",
+          "side": "for",
+          "checkRef": "CANSLIM:L"
+        },
+        {
+          "point": "머크와 공동 개발한 흑색종 백신이 3상에서 재발·전이 위험을 줄였다.",
+          "side": "for",
+          "checkRef": "d1b1"
+        },
+        {
+          "point": "쉬는 구간이 없어 넘으면 사는 선과 예비 손절선을 잡을 수 없다.",
+          "side": "against",
+          "checkRef": "차트:횡보 길이"
+        },
+        {
+          "point": "최근 5일 거래량이 20일 평균의 0.97배로 줄지 않았다.",
+          "side": "against",
+          "checkRef": "차트:거래량 마름"
+        },
+        {
+          "point": "2026년 2분기 순손실이 7.82억 달러로 적자가 이어진다.",
+          "side": "against",
+          "checkRef": "CANSLIM:C"
+        }
+      ],
+      "conditions": [
+        "10월 24일 전체 생존율 데이터가 공개된 뒤 2주 이상 쉬는 구간이 만들어지는지",
+        "그 구간에서 최근 5일 거래량이 20일 평균의 0.7배 이하로 줄어드는지 (지금 0.97배)",
+        "쉬는 구간 고점이 넘으면 사는 선으로 잡히고 20일 평균 2배 거래량으로 종가 돌파하는지",
+        "11월 6일 예정 실적 발표를 지나고 시장 판정이 노랑에서 초록으로 바뀌는지"
+      ],
+      "invalidation": "종가가 50일 평균선 151.65달러 아래로 내려가면 이 판단은 틀린 것으로 본다. 10월 24일 공개되는 전체 생존율 데이터가 기대에 못 미쳐도 마찬가지다.",
+      "dataLimits": "기관 보유 자료가 없고, 쉬는 구간이 없어 피벗·손절·베이스 지표가 전부 비어 있으며, 흑색종 백신의 제품별 매출·이익 전망 숫자는 찾지 못했다.",
+      "verdictAdjusted": null,
+      "verdictOriginal": null,
+      "gates": {
+        "blocked": true,
+        "reasons": [
+          {
+            "key": "no_base",
+            "ko": "쉬는 구간(베이스)이 없어 넘으면 사는 선(피벗)이 없다"
+          }
+        ],
+        "asOf": {
+          "bar": "2026-10-15",
+          "market": "2026-10-15"
+        }
+      },
+      "setup": {
+        "state": "none",
+        "grade": null,
+        "pivot": null,
+        "stop": null,
+        "distToPivotPct": null,
+        "distToPivotAdr": null,
+        "riskPerSharePct": null,
+        "extensionAdr": 1.37,
+        "adrPct": 8.45,
+        "breakDate": null,
+        "chase": false,
+        "metrics": null,
+        "reasons": [
+          "쉬는 구간 없음"
+        ],
+        "earnings": null
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "3개월 최대상승 360% · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "깊이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 236.5 · 20일선 197.98 · 50일선 151.65"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.97배 (보통) · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "손절 폭",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 1.4 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 노랑(보통)"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "최근 분기 적자축소 (순이익 기준)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "사이트 최근 3분기 순이익 적자축소/적자확대/적자축소 — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — 목록 순환 심층 분석이 신제품·신서비스와 그 매출·이익 영향을 증권사 리포트·기사로 조사한다(N 없는 종목부터 하루 14개) · 참고: 52주 고점의 98%"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 0.97배(20일 평균 대비) · 오늘 거래대금 1.13배(상승일) · 상장주식 399M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 0.23% · 3M 0.05% · 6M 0.05% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 노랑 · 마진부채 주의(+30% 초과)"
+          }
+        ]
+      },
+      "kis": {
+        "ticker": "MRNA",
+        "fetchedAt": "2026-10-16",
+        "source": "한국투자증권 Open API",
+        "per": 29.62,
+        "pbr": 13.96,
+        "eps": 7.98,
+        "bps": 16.94,
+        "shares": 399236000,
+        "marketCapM": 94419,
+        "high52": 242.29,
+        "high52Date": "2026-10-15",
+        "low52": 22.28,
+        "low52Date": "2025-11-21",
+        "last": 236.5,
+        "prevClose": 226.3,
+        "nameKo": "모더나",
+        "nameEn": "MODERNA INC",
+        "listedOn": "2018-12-06",
+        "exchange": "나스닥",
+        "listedShares": 399236000
+      },
+      "estimates": {
+        "ticker": "MRNA",
+        "url": "https://finance.yahoo.com/quote/MRNA/analysis/",
+        "fetchedAt": "2026-10-16",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": "2026-09-30",
+            "eps": -1.27,
+            "epsLow": -3.28,
+            "epsHigh": -0.53,
+            "epsYearAgo": -0.51,
+            "epsAnalysts": 15,
+            "epsGrowth": -148.5,
+            "epsCur": "USD",
+            "rev": 892380860,
+            "revAnalysts": 14,
+            "revYearAgo": 1016000000,
+            "revGrowth": -12.2,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1q",
+            "endDate": "2026-12-31",
+            "eps": -1.74,
+            "epsLow": -2.09,
+            "epsHigh": -0.63,
+            "epsYearAgo": -2.11,
+            "epsAnalysts": 14,
+            "epsGrowth": 17.4,
+            "epsCur": "USD",
+            "rev": 675414520,
+            "revAnalysts": 13,
+            "revYearAgo": 678000000,
+            "revGrowth": -0.4,
+            "revCur": "USD"
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "eps": -8.38,
+            "epsLow": -10.57,
+            "epsHigh": -6.66,
+            "epsYearAgo": -7.26,
+            "epsAnalysts": 21,
+            "epsGrowth": -15.5,
+            "epsCur": "USD",
+            "rev": 2101263170,
+            "revAnalysts": 21,
+            "revYearAgo": 1944000000,
+            "revGrowth": 8.1,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "eps": -4.78,
+            "epsLow": -7.11,
+            "epsHigh": -2.73,
+            "epsYearAgo": -8.38,
+            "epsAnalysts": 20,
+            "epsGrowth": 43,
+            "epsCur": "USD",
+            "rev": 2438891820,
+            "revAnalysts": 19,
+            "revYearAgo": 2101263170,
+            "revGrowth": 16.1,
+            "revCur": "USD"
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": "2026-09-30",
+            "cur": "USD",
+            "now": -1.27,
+            "d7": 0.5,
+            "d30": 1.7,
+            "d90": -3.3,
+            "ago90": -1.23,
+            "up7": 2,
+            "up30": 3,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "+1q",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": -1.74,
+            "d7": 0.3,
+            "d30": -0.1,
+            "d90": 15.7,
+            "ago90": -2.07,
+            "up7": 0,
+            "up30": 0,
+            "down7": 1,
+            "down30": 2
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": -8.38,
+            "d7": 0,
+            "d30": 0,
+            "d90": 3.3,
+            "ago90": -8.67,
+            "up7": 1,
+            "up30": 2,
+            "down7": 0,
+            "down30": 0
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "cur": "USD",
+            "now": -4.78,
+            "d7": 0.2,
+            "d30": 0.1,
+            "d90": -0.5,
+            "ago90": -4.76,
+            "up7": 1,
+            "up30": 1,
+            "down7": 0,
+            "down30": 1
+          }
+        ],
+        "surprises": [
+          {
+            "quarter": "2026-06-30",
+            "actual": -1.97,
+            "estimate": -2.06,
+            "surprisePct": 4.3,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-03-31",
+            "actual": -3.4,
+            "estimate": -3.88,
+            "surprisePct": 12.4,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-12-31",
+            "actual": -2.11,
+            "estimate": -2.6,
+            "surprisePct": 18.9,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-09-30",
+            "actual": -0.51,
+            "estimate": -2.18,
+            "surprisePct": 76.6,
+            "cur": "USD"
+          }
+        ],
+        "beats": 4,
+        "ratings": {
+          "upgrades": 3,
+          "downgrades": 2,
+          "initiations": 0,
+          "ptRaised": 11,
+          "ptLowered": 0,
+          "total": 14,
+          "recent": [
+            {
+              "date": "2026-10-15",
+              "firm": "Goldman Sachs",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 137,
+              "ptPrior": 120
+            },
+            {
+              "date": "2026-10-07",
+              "firm": "Morgan Stanley",
+              "action": "main",
+              "from": "Equal-Weight",
+              "to": "Equal-Weight",
+              "ptAction": "Raises",
+              "pt": 95,
+              "ptPrior": 89
+            },
+            {
+              "date": "2026-09-30",
+              "firm": "Citigroup",
+              "action": "down",
+              "from": "Neutral",
+              "to": "Sell",
+              "ptAction": "Raises",
+              "pt": 80,
+              "ptPrior": 60
+            },
+            {
+              "date": "2026-09-03",
+              "firm": "Rothschild & Co",
+              "action": "down",
+              "from": "Neutral",
+              "to": "Sell",
+              "ptAction": "Raises",
+              "pt": 81,
+              "ptPrior": 40
+            },
+            {
+              "date": "2026-08-28",
+              "firm": "Argus Research",
+              "action": "up",
+              "from": "Hold",
+              "to": "Buy",
+              "ptAction": "Announces",
+              "pt": 180,
+              "ptPrior": null
+            },
+            {
+              "date": "2026-08-25",
+              "firm": "Wolfe Research",
+              "action": "up",
+              "from": "Underperform",
+              "to": "Peer Perform",
+              "ptAction": null,
+              "pt": null,
+              "ptPrior": null
+            },
+            {
+              "date": "2026-08-24",
+              "firm": "Barclays",
+              "action": "main",
+              "from": "Equal-Weight",
+              "to": "Equal-Weight",
+              "ptAction": "Raises",
+              "pt": 125,
+              "ptPrior": 48
+            },
+            {
+              "date": "2026-08-21",
+              "firm": "JP Morgan",
+              "action": "main",
+              "from": "Underweight",
+              "to": "Underweight",
+              "ptAction": "Raises",
+              "pt": 77,
+              "ptPrior": 40
+            },
+            {
+              "date": "2026-08-20",
+              "firm": "Goldman Sachs",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 120,
+              "ptPrior": 67
+            },
+            {
+              "date": "2026-08-20",
+              "firm": "UBS",
+              "action": "main",
+              "from": "Neutral",
+              "to": "Neutral",
+              "ptAction": "Raises",
+              "pt": 150,
+              "ptPrior": 50
+            }
+          ]
+        },
+        "nextEarnings": {
+          "date": "2026-11-06",
+          "upcoming": true,
+          "estimated": false
+        }
+      },
+      "cnbc": [
+        {
+          "title": "Stocks making big moves midday: Rogers, United Therapeutics, Moderna, FormFactor",
+          "url": "https://www.cnbc.com/2026/09/30/stocks-making-the-biggest-moves-midday-rog-uthr-mrna-form.html",
+          "date": "2026-09-30",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Moderna has been on a tear since mid-August. Citi now sees it plunging 60%",
+          "url": "https://www.cnbc.com/2026/09/30/moderna-has-been-on-a-tear-since-mid-august-citi-now-sees-it-plunging-60percent.html",
+          "date": "2026-09-30",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Thursday's biggest analyst calls: Nvidia, Apple, Broadcom, Snowflake, Deere, Tesla, Amazon",
+          "url": "https://www.cnbc.com/2026/09/03/thursdays-analyst-calls-include-nvidia.html",
+          "date": "2026-09-03",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Moderna is now overvalued after cancer vaccine-led stock surge, Rothschild & Co. says",
+          "url": "https://www.cnbc.com/2026/09/03/moderna-is-now-overvalued-after-cancer-vaccine-led-stock-surge-rothschild-co-says.html",
+          "date": "2026-09-03",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Nvidia, Hormel, HP, Best Buy & more",
+          "url": "https://www.cnbc.com/2026/08/27/stocks-making-the-biggest-moves-midday-nvda-okta-hrl-veev.html",
+          "date": "2026-08-27",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Stocks making big moves midday: Dick's Sporting Goods, Marvell, AMD & more",
+          "url": "https://www.cnbc.com/2026/08/25/stocks-making-the-biggest-moves-midday-dks-mrvl-amd-kura.html",
+          "date": "2026-08-25",
+          "publisher": "CNBC",
+          "kind": "article"
+        }
+      ],
+      "detail": {
+        "fetchedAt": "2026-10-16",
+        "nameKo": "모더나",
+        "nameEn": "MODERNA INC",
+        "financials": {
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682852&type=10-Q",
+          "quarters": [
+            {
+              "periodEnd": "2026-06-30",
+              "derived": false,
+              "revenue": 145000000,
+              "profit": -815000000,
+              "netIncome": -782000000,
+              "margin": -562.1,
+              "yoy": {
+                "revenue": 2.1,
+                "profit": 10.1,
+                "netIncome": 5.2,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 389000000,
+              "profit": -1388000000,
+              "netIncome": -1343000000,
+              "margin": -356.8,
+              "yoy": {
+                "revenue": 260.2,
+                "profit": -32.2,
+                "netIncome": -38.3,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 678000000,
+              "profit": -857000000,
+              "netIncome": -826000000,
+              "margin": -126.4,
+              "yoy": {
+                "revenue": -29.8,
+                "profit": 31.2,
+                "netIncome": 26.3,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodEnd": "2025-09-30",
+              "derived": false,
+              "revenue": 1016000000,
+              "profit": -260000000,
+              "netIncome": -200000000,
+              "margin": -25.6,
+              "yoy": {
+                "revenue": -45.4,
+                "profit": -271.4,
+                "netIncome": -1638.5,
+                "priorEnd": "2024-09-30"
+              }
+            }
+          ]
+        },
+        "news": {
+          "items": [
+            {
+              "title": "Moderna vs. Vertex Pharmaceuticals: Which Healthcare Stock Is a Better Buy in 2026?",
+              "url": "https://www.nasdaq.com/articles/moderna-vs-vertex-pharmaceuticals-which-healthcare-stock-better-buy-2026",
+              "date": "2026-10-13",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "Here's Why Moderna (MRNA) Fell More Than Broader Market",
+              "url": "https://www.nasdaq.com/articles/heres-why-moderna-mrna-fell-more-broader-market",
+              "date": "2026-10-12",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Moderna Now Trades 61% Above Wall Street's Average Price Target. Should You Sell?",
+              "url": "https://www.nasdaq.com/articles/moderna-now-trades-61-above-wall-streets-average-price-target-should-you-sell",
+              "date": "2026-10-10",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "Why Moderna Stock Surged Today",
+              "url": "https://www.nasdaq.com/articles/why-moderna-stock-surged-today",
+              "date": "2026-10-10",
+              "publisher": "The Motley Fool"
+            }
+          ]
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-30",
+            "itemsKo": [
+              "임원 변동",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526408289/d18337d8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-09-01",
+            "itemsKo": [
+              "중요 계약 체결",
+              "2.03",
+              "3.02",
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526378505/d108896d8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-31",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000147/mrna-20260731.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-08",
+            "itemsKo": [
+              "임원 변동",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000134/mrna-20260706.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-11",
+            "itemsKo": [
+              "5.03",
+              "주주총회 표결",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000101/mrna-20260506.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-01",
+            "itemsKo": [
+              "실적 발표",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000057/mrna-20260501.htm"
+          }
+        ],
+        "krReports": {
+          "total": 3,
+          "reports": [
+            {
+              "date": "2026-08-28",
+              "broker": "대신증권",
+              "analyst": "조재운",
+              "title": "[모더나 (NAS:MRNA)] [Issue & News] 20억 달러 전환사채 사모 발행 추진 - 흑색종 데이터發 주가 급등을 활용한 자본조달",
+              "summary": "- 20억 달러 전환사채 사모 발행 공시, 세부조건 미공개- 흑색종 3상 데이터 이후 주가 급등 시점에 조달- 현금여력 확대되지만 전환권 행사 시 희석 우려",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlqkzlgiexqxgcgxecex.pdf",
+              "pages": "5"
+            },
+            {
+              "date": "2026-08-26",
+              "broker": "대신증권",
+              "analyst": "조재운",
+              "title": "[모더나 (NAS:MRNA)] [Issue & News] 머크 공동 흑색종 백신 작동원리·생산과제 상세 공개",
+              "summary": "- 흑색종 백신 작동원리·비소세포폐암 등 확장 파이프라인 공개- 전체 생존율 데이터는 아직 미공개, 임상 불확실성 지속- 개인맞춤 생산 특성상 10~100배 증설 필요, 실행 리스크 부각",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqqcexmkclgzegcgxecex.pdf",
+              "pages": "5"
+            },
+            {
+              "date": "2026-08-21",
+              "broker": "키움증권",
+              "analyst": "허혜민",
+              "title": "[모더나 (NAS:MRNA)] mRNA 기반 암 치료제 최초 3상 성공",
+              "summary": "- 코로나19 백신으로 mRNA 상업화에 성공한 바이오텍. mRNA 기반 암 치료제로는 세계 최초 3상 성공- 다만, 시장은 이미 흑색종 성공을 상당부분 선반영한 상태로 신장암, 방광암, 폐암 등 다른 암종으로 확장성에 주목",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqgxkklglmlgzgcgxecex.pdf",
+              "pages": "7"
+            }
+          ]
+        }
+      },
+      "rank": {
+        "m1": 0.23,
+        "m3": 0.05,
+        "m6": 0.05
+      },
+      "verified": {
+        "checked": 9,
+        "ok": 22,
+        "unverified": 4,
+        "dead": 0,
+        "stripped": 2
+      },
+      "numberCut": 2,
+      "deep": {
+        "status": "done",
+        "ticker": "MRNA",
+        "company": "모더나는 mRNA 기술로 백신과 치료제를 만드는 미국 바이오 회사다. 코로나19 백신으로 상업화에 성공했고, 올해 계절성 독감 백신이 승인되며 승인 제품이 5개가 됐다. 최근 성장 축은 머크와 함께 개발 중인 개인맞춤형 흑색종 백신이다.",
+        "lead": "지금은 쉬는 구간이 없어 들어갈 자리가 보이지 않는 종목이다. 가장 강한 근거는 머크와 함께 만든 흑색종 백신이 3상에서 성공했고 상대강도가 전체 상위 0.05%라는 점이다. 가장 큰 걱정은 아직 적자이고 20억 달러 전환사채로 주식 수가 늘 수 있다는 점이다. 10월 24일 공개되는 전체 생존율 데이터가 기대에 못 미치면 이 그림은 바로 깨진다.",
+        "newsNarrative": "10월 들어 주가가 다시 오른 이유는 흑색종 백신의 전체 3상 데이터 공개가 가까워졌기 때문이다. 회사는 10월 24일 유럽종양학회에서 1,137명 임상 결과를 발표한다. 9월 말에는 생산을 맡을 최고운영책임자를 새로 선임했다. 반면 시티그룹은 급등을 이유로 투자의견을 매도로 내리며 60% 하락을 전망했고, 주가는 월가 평균 목표주가보다 61% 높다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "흑색종 백신의 전체 3상 결과가 10월 24일 유럽종양학회에서 공개된다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Moderna Stock Jumps 4.5% as Major Cancer Vaccine Catalyst Approaches",
+                "publisher": "TipRanks",
+                "url": "https://www.tipranks.com/news/moderna-stock-jumps-4-5-as-major-cancer-vaccine-catalyst-approaches",
+                "date": "2026-10-15",
+                "quote": "researchers will present the Phase 3 melanoma findings in Madrid at 10:30 a.m. Eastern on October 24.",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "이 임상은 1,137명이 참여했고 재발을 줄이는 1차 목표를 이미 충족했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Moderna Stock Jumps 4.5% as Major Cancer Vaccine Catalyst Approaches",
+                "publisher": "TipRanks",
+                "url": "https://www.tipranks.com/news/moderna-stock-jumps-4-5-as-major-cancer-vaccine-catalyst-approaches",
+                "date": "2026-10-15",
+                "quote": "The trial involved 1,137 patients and has already shown that the treatment helps prevent cancer from returning or spreading. The combination met the study's main goal of reducing cancer recurrence.",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "데이터 공개를 앞두고 투자자들이 몰리며 주가가 목요일 4.5% 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Moderna Stock Jumps 4.5% as Major Cancer Vaccine Catalyst Approaches",
+                "publisher": "TipRanks",
+                "url": "https://www.tipranks.com/news/moderna-stock-jumps-4-5-as-major-cancer-vaccine-catalyst-approaches",
+                "date": "2026-10-15",
+                "quote": "Moderna shares rose by about 4.5% in Thursday trading as investors looked ahead to an October 24 presentation of detailed cancer trial results.",
+                "verified": "unverified",
+                "httpStatus": 403
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "시티그룹은 8월 중순 이후 급등을 근거로 60% 하락을 전망했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Moderna has been on a tear since mid-August. Citi now sees it plunging 60%",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/30/moderna-has-been-on-a-tear-since-mid-august-citi-now-sees-it-plunging-60percent.html",
+                "date": "2026-09-30",
+                "quote": "Moderna has been on a tear since mid-August. Citi now sees it plunging 60%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "로스차일드는 암백신發 급등 이후 주가가 고평가 상태라고 봤다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Moderna is now overvalued after cancer vaccine-led stock surge, Rothschild & Co. says",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/03/moderna-is-now-overvalued-after-cancer-vaccine-led-stock-surge-rothschild-co-says.html",
+                "date": "2026-09-03",
+                "quote": "Moderna is now overvalued after cancer vaccine-led stock surge, Rothschild & Co. says",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n6",
+            "statement": "회사는 9월 30일 최고운영책임자 자리를 새로 만들고 후안 안드레스를 선임했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Moderna, Inc. Form 8-K Exhibit 99.1 (2026-09-30)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001682852/000119312526408289/d18337dex991.htm",
+                "date": "2026-09-30",
+                "quote": "Moderna, Inc. (NASDAQ:MRNA) today announced the addition of a Chief Operating Officer role to support the increasing scale and diversification of the Company. Juan Andres will return to Moderna as Chief Operating Officer, effective October 5, 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출은 쪼그라들었고 적자는 이어진다. 직전 네 분기 매출은 10.16억 달러에서 1.45억 달러까지 줄었다. 2026년 2분기 순손실은 7.82억 달러로 1년 전보다 5.2% 줄었을 뿐 흑자와는 멀다. 다만 연말 현금·투자자산을 47억~52억 달러로 보고 있어 당장 자금이 마르지는 않는다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "f1",
+              "statement": "2026년 2분기 매출은 1.45억 달러로 1년 전보다 2.1% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "모더나 분기 실적 (SEC companyfacts)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682852&type=10-Q",
+                  "date": "2026-06-30",
+                  "quote": "{\"periodEnd\":\"2026-06-30\",\"revenue\":145000000,\"netIncome\":-782000000,\"yoy\":{\"revenue\":2.1,\"netIncome\":5.2}}",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f2",
+              "statement": "직전 네 분기 매출은 10.16억 달러, 6.78억 달러, 3.89억 달러, 1.45억 달러로 줄었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "모더나 분기 실적 (SEC companyfacts)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682852&type=10-Q",
+                  "date": "2026-06-30",
+                  "quote": "{\"periodEnd\":\"2025-09-30\",\"revenue\":1016000000} {\"periodEnd\":\"2025-12-31\",\"revenue\":678000000} {\"periodEnd\":\"2026-03-31\",\"revenue\":389000000} {\"periodEnd\":\"2026-06-30\",\"revenue\":145000000}",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "p1",
+              "statement": "2026년 2분기 순손실은 7.82억 달러로 1년 전보다 5.2% 줄었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "모더나 분기 실적 (SEC companyfacts)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682852&type=10-Q",
+                  "date": "2026-06-30",
+                  "quote": "{\"periodEnd\":\"2026-06-30\",\"profit\":-815000000,\"netIncome\":-782000000,\"yoy\":{\"profit\":10.1,\"netIncome\":5.2}}",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "p2",
+              "statement": "그 직전 분기인 2026년 1분기에는 순손실이 13.43억 달러로 1년 전보다 38.3% 커졌다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "모더나 분기 실적 (SEC companyfacts)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001682852&type=10-Q",
+                  "date": "2026-03-31",
+                  "quote": "{\"periodEnd\":\"2026-03-31\",\"profit\":-1388000000,\"netIncome\":-1343000000,\"yoy\":{\"profit\":-32.2,\"netIncome\":-38.3}}",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [
+            {
+              "id": "g1",
+              "statement": "회사는 2026년 매출이 2025년보다 최대 10% 늘어나는 것을 목표로 한다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "Moderna Second Quarter 2026 Financial Results (Form 8-K Exhibit 99.1)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm",
+                  "date": "2026-07-31",
+                  "quote": "The Company is targeting up to 10% growth from 2025 revenue",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "g2",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "Moderna Second Quarter 2026 Financial Results (Form 8-K Exhibit 99.1)",
+                  "publisher": "SEC EDGAR",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000147/exhibit9912026q2pressrelea.htm",
+                  "date": "2026-07-31",
+                  "quote": "Research and development expenses for 2026 are now anticipated to be approximately $2.9 billion, lowered from approximately $3.0 billion. Year-end cash and investments for 2026 are now projected to be $4.7 to $5.2 billion. Cash, cash equivalents and investments as of June 30, 2026, were $6.9 billion",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "연구개발비 전망을 약 30억 달러에서 약 29억 달러로 낮췄고, 연말 현금·투자자산은 47억~52억 달러로 본다.",
+              "stripped": true
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "mixed",
+            "claims": [
+              {
+                "id": "e1",
+                "statement": "시티그룹은 9월 30일 모더나 투자의견을 내리며 60% 하락을 전망했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Moderna has been on a tear since mid-August. Citi now sees it plunging 60%",
+                    "publisher": "CNBC",
+                    "url": "https://www.cnbc.com/2026/09/30/moderna-has-been-on-a-tear-since-mid-august-citi-now-sees-it-plunging-60percent.html",
+                    "date": "2026-09-30",
+                    "quote": "Moderna has been on a tear since mid-August. Citi now sees it plunging 60%",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "e2",
+                "statement": "주가가 월가 평균 목표주가보다 61% 높다는 지적도 나왔다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Moderna Now Trades 61% Above Wall Street's Average Price Target. Should You Sell?",
+                    "publisher": "The Motley Fool (Nasdaq)",
+                    "url": "https://www.nasdaq.com/articles/moderna-now-trades-61-above-wall-streets-average-price-target-should-you-sell",
+                    "date": "2026-10-10",
+                    "quote": "Moderna Now Trades 61% Above Wall Street's Average Price Target. Should You Sell?",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "estimatesNarrative": "애널리스트 전망은 조금씩 좋아지는 쪽이다. 2026년 주당순손실 전망은 -8.38달러로 90일 전 -8.67달러보다 3.3% 개선됐고, 최근 30일 상향 2명·하향 0명이다. 최근 4개 분기 모두 예상보다 손실이 적었는데, 매출이 늘어서가 아니라 연구개발비를 29억 달러로 낮추는 등 비용을 줄인 영향이 크다.",
+        "newDrivers": [
+          {
+            "what": "인티스메란 오토진 — 환자 종양을 서열분석해 만드는 개인맞춤형 흑색종 백신, 머크 키트루다와 병용",
+            "kind": "product",
+            "stage": "발표만",
+            "since": "2026-08",
+            "basis": [
+              {
+                "id": "d1b1",
+                "statement": "8월 20일 3상 중간 데이터에서 키트루다 병용이 재발·전이 위험을 줄였다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[모더나] 머크 공동 흑색종 백신 작동원리·생산과제 상세 공개",
+                    "publisher": "대신증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqlqqcexmkclgzegcgxecex.pdf",
+                    "date": "2026-08-26",
+                    "quote": "8 월 20 일 3 상 중간 데이터에서 이 백신과 머크의 면역관문억제제 키트루다 병용이 재발·전이 위험을 줄인다는 결과가 나온 직후 나온 후속 보도로, 새 데이터가 아니라 그 데이터의 의미를 풀어주는 성격이 강하다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "d1b2",
+                "statement": "전체 3상 결과는 10월 24일 유럽종양학회에서 공개된다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Moderna Stock Jumps 4.5% as Major Cancer Vaccine Catalyst Approaches",
+                    "publisher": "TipRanks",
+                    "url": "https://www.tipranks.com/news/moderna-stock-jumps-4-5-as-major-cancer-vaccine-catalyst-approaches",
+                    "date": "2026-10-15",
+                    "quote": "researchers will present the Phase 3 melanoma findings in Madrid at 10:30 a.m. Eastern on October 24.",
+                    "verified": "unverified",
+                    "httpStatus": 403
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [],
+            "profitImpact": [],
+            "expectedGrowth": [],
+            "counter": [
+              {
+                "id": "d1c1",
+                "statement": "환자가 얼마나 오래 사는지를 보는 전체 생존율 데이터가 아직 공개되지 않았다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[모더나] 머크 공동 흑색종 백신 작동원리·생산과제 상세 공개",
+                    "publisher": "대신증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqlqqcexmkclgzegcgxecex.pdf",
+                    "date": "2026-08-26",
+                    "quote": "첫째, 전체 생존율(overall survival) 데이터는 이번 중간 결과에 아직 포함되지 않았다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "d1c2",
+                "statement": "상업화하려면 생산 규모를 지금의 10배에서 100배까지 늘려야 한다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[모더나] 머크 공동 흑색종 백신 작동원리·생산과제 상세 공개",
+                    "publisher": "대신증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqlqqcexmkclgzegcgxecex.pdf",
+                    "date": "2026-08-26",
+                    "quote": "전문가들은 상업화를 위해 현재 임상 단계 대비 생산 규모를 10 배에서 100 배까지 늘려야 한다고 지적했고, 경영진은 향후 수요를 맞출 수 있는 수준으로 확장이 가능하다고 밝혔으나 구체적 시점은 제시하지 않았다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "what": "최고운영책임자 신설과 후안 안드레스 선임 — 흑색종 백신 생산 확대를 맡는 자리",
+            "kind": "management",
+            "stage": "발표만",
+            "since": "2026-10-05",
+            "basis": [
+              {
+                "id": "d3b1",
+                "statement": "회사가 최고운영책임자 자리를 새로 만들고 후안 안드레스를 선임했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Moderna, Inc. Form 8-K Exhibit 99.1 (2026-09-30)",
+                    "publisher": "SEC EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001682852/000119312526408289/d18337dex991.htm",
+                    "date": "2026-09-30",
+                    "quote": "Moderna, Inc. (NASDAQ:MRNA) today announced the addition of a Chief Operating Officer role to support the increasing scale and diversification of the Company. Juan Andres will return to Moderna as Chief Operating Officer, effective October 5, 2026.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "d3b2",
+                "statement": "이 선임은 흑색종 백신의 출시와 생산 확대를 준비하기 위한 것이다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Moderna, Inc. Form 8-K Exhibit 99.1 (2026-09-30)",
+                    "publisher": "SEC EDGAR",
+                    "url": "https://www.sec.gov/Archives/edgar/data/0001682852/000119312526408289/d18337dex991.htm",
+                    "date": "2026-09-30",
+                    "quote": "the potential launch and scale-up of intismeran autogene following positive Phase 3 results",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [],
+            "profitImpact": [],
+            "expectedGrowth": [],
+            "counter": []
+          }
+        ],
+        "nNarrative": "새로운 것은 머크와 함께 만든 개인맞춤형 흑색종 백신이다. 이 백신은 3상에서 재발·전이 위험을 줄였고 전체 결과는 10월 24일 공개된다. 계절성 독감 백신도 미국에서 승인돼 승인 백신이 5개로 늘었다. 생산 확대를 맡을 최고운영책임자도 새로 선임했다. 다만 흑색종 백신은 아직 매출이 없고, 그 제품이 매출·이익을 얼마나 바꾸는지 보여 주는 숫자 근거는 찾지 못했다. 회사가 밝힌 것은 2026년 매출을 2025년보다 최대 10% 늘리겠다는 목표뿐이다.",
+        "nVerdict": "부분 충족",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "2026년 2분기 순손실 7.82억 달러 — 1년 전보다 5.2% 줄었을 뿐 적자 지속 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "직전 네 분기 모두 적자이고 2026년 1분기는 적자가 38.3% 커졌다 · 3년 추세·ROE 는 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "미충족",
+            "evidence": "부분 충족 — 흑색종 백신 3상 성공·독감 백신 승인·최고운영책임자 선임은 확인되나 매출·이익 영향 숫자 근거를 찾지 못했다 · 참고: 52주 고점 242.29달러 대비 2.39% 아래"
+          },
+          {
+            "item": "S 수급",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 0.97배(20일 평균 대비) · 오늘 거래대금 1.13배 · 상장주식 399,236,000주 · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1개월 0.23% · 3개월 0.05% · 6개월 0.05% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "시장 판정 노랑 · 빚내서 산 주식이 1년 전보다 37.2% 늘어 주의선 30%를 넘었다"
+          }
+        ],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "20억 달러 전환사채를 발행해, 전환권이 행사되면 주식 수가 늘 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[모더나] 20억 달러 전환사채 사모 발행 추진 - 흑색종 데이터發 주가 급등을 활용한 자본조달",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqlqlqkzlgiexqxgcgxecex.pdf",
+                "date": "2026-08-28",
+                "quote": "다만 20 억 달러는 최근 분기 매출 1 억 4,500 만 달러에 비하면 큰 금액이고, 전환권이 행사되면 향후 발행주식수 증가로 이어질 수 있다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r2",
+            "statement": "시티그룹은 급등을 근거로 60% 하락을 전망하며 투자의견을 내렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Moderna has been on a tear since mid-August. Citi now sees it plunging 60%",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/09/30/moderna-has-been-on-a-tear-since-mid-august-citi-now-sees-it-plunging-60percent.html",
+                "date": "2026-09-30",
+                "quote": "Moderna has been on a tear since mid-August. Citi now sees it plunging 60%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r3",
+            "statement": "주가가 월가 평균 목표주가보다 61% 높아 눈높이를 크게 앞서 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Moderna Now Trades 61% Above Wall Street's Average Price Target. Should You Sell?",
+                "publisher": "The Motley Fool (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/moderna-now-trades-61-above-wall-streets-average-price-target-should-you-sell",
+                "date": "2026-10-10",
+                "quote": "Moderna Now Trades 61% Above Wall Street's Average Price Target. Should You Sell?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r4",
+            "statement": "핵심인 전체 생존율 데이터가 아직 없어 임상 불확실성이 그대로 남아 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[모더나] 머크 공동 흑색종 백신 작동원리·생산과제 상세 공개",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqlqqcexmkclgzegcgxecex.pdf",
+                "date": "2026-08-26",
+                "quote": "재발·전이 위험 감소라는 1 차·2 차 목표는 충족됐지만, 치료가 실제 생존 기간 연장으로 이어지는지는 확인되지 않은 상태다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "매출이 코로나19 백신에 기대어 왔고 그 수요가 줄면서 분기 매출이 내려앉았다.",
+          "환자마다 따로 만드는 맞춤 백신이라 기존 대량 생산 방식이 통하지 않는다.",
+          "임상 데이터 발표 하나에 주가가 크게 흔들리는 신약 개발 회사다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "충족",
+            "evidence": "종가 236.5달러 · 200일 평균보다 209.32% 위 · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "깊이",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없다"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 236.5 · 20일선 197.98 · 50일선 151.65"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 0.97배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없어 돌파봉 자체가 없다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없어 넘으면 사는 선이 없다"
+          },
+          {
+            "item": "손절 폭",
+            "status": "확인 불가",
+            "evidence": "쉬는 구간(베이스)이 없어 예비 손절선이 없다"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 1.37 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "시장 판정 노랑(보통)"
+          }
+        ],
+        "chartObservation": {
+          "base": "쉬는 구간(베이스)을 코드가 찾아내지 못했다. 최근 10봉 종가는 190.01달러에서 236.5달러까지 이어서 올랐고 횡보라 부를 구간이 없다. 그래서 베이스 길이·저점 높아짐·깊이는 모두 확인 불가다.",
+          "volume": "마지막 봉 거래량은 1,727만주로 20일 평균의 0.94배다. 최근 5일 거래량은 20일 평균의 0.97배로 줄어드는 모습이 아니다. 최근 10봉 중에서는 10월 8일 3,740만주가 가장 많았다.",
+          "position": "쉬는 구간이 없어 넘으면 사는 선과 예비 손절선이 모두 비어 있다. 종가 236.5달러는 10일 평균선 위 1.37 ADR(하루 평균 등락폭의 배수) 자리다. 52주 고점 242.29달러보다 2.39% 아래다.",
+          "maStack": "종가 236.5달러가 20일선 197.98, 50일선 151.65, 150일선 87.07을 모두 위에 두고 있다. 50일 평균보다 55.95% 위로 멀리 떨어져 있다.",
+          "note": "그림에서도 8월 중순 급등 뒤 머문 구간과 10월 재상승이 보이고, 거래량 막대는 급등일 이후 줄었다가 10월에 다시 늘었다. 숫자와 어긋나는 점은 없다."
+        },
+        "entryChecklist": [
+          "10월 24일 전체 생존율 데이터가 공개된 뒤 2주 이상 쉬는 구간이 생기는지",
+          "그 구간에서 최근 5일 거래량이 20일 평균의 0.7배 이하로 줄어드는지",
+          "쉬는 구간의 고점이 넘으면 사는 선으로 잡히고, 20일 평균 2배 거래량으로 종가 돌파하는지",
+          "11월 6일로 잡힌 실적 발표를 지나는지",
+          "시장 판정이 노랑에서 초록으로 바뀌는지"
+        ],
+        "earningsRisk": "확정된 실적 발표 일정 없음(달력 기준). 다만 전망치 자료는 다음 실적일을 11월 6일로 보고 있어, 그 전에 들어가면 발표 위험을 그대로 떠안는다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reasons": []
+        },
+        "consensus": {
+          "saleCy": 8.09,
+          "saleNy": 16.07,
+          "epsCy": 15.53,
+          "epsNy": -43,
+          "cyTrend": 0.05,
+          "nyTrend": -0.13
+        },
+        "researchedOn": "2026-10-16",
+        "session": "2026-10-15",
+        "carried": false,
+        "source": "ondemand"
+      }
+    },
+    {
       "ticker": "ESTC",
       "nameKo": "엘라스틱",
       "sector": "Technology",
@@ -4531,5 +5837,5 @@ window.ONDEMAND_DATA = {
       }
     }
   ],
-  "updated": "2026-10-16T04:39:05.416Z"
+  "updated": "2026-10-16T08:58:29.456Z"
 };
