@@ -1,184 +1,33 @@
 window.TEAM4_DATA = {
-  "generated": "2026-10-16",
+  "generated": "2026-10-17",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2,
     "aboveMa150": true
   },
-  "universeHits": 68,
-  "analyzed": 30,
+  "universeHits": 55,
+  "analyzed": 26,
   "items": [
-    {
-      "ticker": "PAG",
-      "sector": "Consumer Cyclical",
-      "industry": "Auto & Truck Dealerships",
-      "price": 212,
-      "marketCap": "12.78B",
-      "volx": 5.47,
-      "volSurgeWk": 6.82,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 88.69,
-      "high52": 94.01,
-      "adr": 1.82,
-      "targetStatus": false,
-      "saleCy": 6.69,
-      "saleNy": 2.91,
-      "epsCy": 0.15,
-      "epsNy": 6.42,
-      "cyTrend": -2.34,
-      "nyTrend": -0.41,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          5.98,
-          -1.13,
-          -10.98
-        ],
-        "ni": [
-          -2.33,
-          -9,
-          -30.83
-        ],
-        "opm": [
-          3.97,
-          3.68,
-          3.54
-        ],
-        "updated": "2026-09-07 06:54:32"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "PAG",
-        "category": 4,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [
-              {
-                "title": "Penske Automotive Inks $16.3 Bln Merger Deal With Penske, Mitsui To Go Private; PAG Shares Up 8%",
-                "publisher": "RTTNews",
-                "url": "https://www.nasdaq.com/articles/penske-automotive-inks-163-bln-merger-deal-penske-mitsui-go-private-pag-shares-8",
-                "date": "2026-10-15",
-                "quote": "Penske Automotive Inks $16.3 Bln Merger Deal With Penske, Mitsui To Go Private; PAG Shares Up 8%",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ],
-            "statementOriginal": "10월 15일 Penske Automotive가 대주주 Penske 측과 미쓰이(Mitsui)에 비상장 전환(상장폐지) 방식으로 163억 달러 규모에 인수되는 합병 계약을 맺었고, 이날 주가는 약 8% 올랐다.",
-            "stripped": true
-          },
-          {
-            "id": "c2",
-            "statement": "근거 없음(출처 검증 실패로 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [],
-            "stripped": true
-          }
-        ],
-        "company": "Penske Automotive는 미국과 유럽에서 자동차 판매점을 운영하며 신차·중고차 판매, 정비, 부품으로 돈을 번다.",
-        "volumeExplanation": "10월 15일 대주주 Penske 측과 미쓰이가 163억 달러에 회사를 인수해 비상장으로 전환하는 합병 계약을 발표했다. 인수 프리미엄(현재가보다 높은 인수 가격) 기대로 주가가 약 8% 뛰면서 거래량이 평소의 5.5배로 늘었다. 인수 가격과 최종 완료 여부가 확정되면 이 이야기가 맞다.",
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "기업 턴어라운드",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "WM",
-      "sector": "Industrials",
-      "industry": "Waste Management",
-      "price": 224.19000244140625,
-      "marketCap": "84.40B",
-      "volx": 2.4,
-      "volSurgeWk": 2.89,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 93.46,
-      "high52": 91.11,
-      "adr": 1.49,
-      "targetStatus": false,
-      "saleCy": 4.81,
-      "saleNy": 5.38,
-      "epsCy": 8.48,
-      "epsNy": 11.66,
-      "cyTrend": 0.1,
-      "nyTrend": -0.38,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          3.95,
-          3.47,
-          7.13
-        ],
-        "ni": [
-          8.13,
-          13.5,
-          24.08
-        ],
-        "opm": [
-          18.75,
-          17.87,
-          18.3
-        ],
-        "updated": "2026-09-09 07:22:18"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "WM",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "WM은 북미 최대 폐기물 수거·매립·재활용 업체로, 수거 요금과 매립지 네트워크에서 꾸준히 돈을 법니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
-      }
-    },
     {
       "ticker": "BLK",
       "sector": "Financial Services",
       "industry": "Asset Management",
-      "price": 1120.780029296875,
-      "marketCap": "167.87B",
-      "volx": 2.17,
-      "volSurgeWk": 2.12,
+      "price": 1134.3800048828125,
+      "marketCap": "175.68B",
+      "volx": 2.03,
+      "volSurgeWk": 1.55,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 93.43,
-      "high52": 94.61,
-      "adr": 2.3,
+      "clsPos": 48.81,
+      "high52": 96.04,
+      "adr": 2.31,
       "targetStatus": false,
-      "saleCy": 20.67,
-      "saleNy": 11.74,
-      "epsCy": 16.7,
-      "epsNy": 14.25,
-      "cyTrend": -0.29,
-      "nyTrend": -0.3,
+      "saleCy": 21.01,
+      "saleNy": 10.4,
+      "epsCy": 20.32,
+      "epsNy": 11.75,
+      "cyTrend": 2.8,
+      "nyTrend": 0.54,
       "newHigh52": false,
       "bbCenterBrk5d": true,
       "fs": {
@@ -266,287 +115,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-16",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "TSM",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "price": 422.25,
-      "marketCap": "2304.61B",
-      "volx": 2,
-      "volSurgeWk": 2.02,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 91.46,
-      "high52": 86.62,
-      "adr": 2.27,
-      "targetStatus": false,
-      "saleCy": 43.51,
-      "saleNy": 35.9,
-      "epsCy": 60.11,
-      "epsNy": 30.88,
-      "cyTrend": 0.7,
-      "nyTrend": 1.79,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          32.7,
-          40.47,
-          29.68
-        ],
-        "ni": [
-          73.04,
-          64.58,
-          44.72
-        ],
-        "opm": [
-          60.34,
-          58.1,
-          54.03
-        ],
-        "updated": "2026-09-08 08:06:42"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "TSM",
-        "category": 1,
-        "company": "TSM(TSMC)는 세계 최대 반도체 위탁생산 업체로, 엔비디아·애플 등 고객사의 칩을 대신 만들어 판매해 돈을 법니다.",
-        "volumeExplanation": "TSMC가 10월 15일 3분기 실적을 발표했고 4분기 매출 전망도 523억~543억 달러로 제시되면서 거래량이 평소보다 늘었습니다.",
-        "claims": [
-          {
-            "id": "c2",
-            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [
-              {
-                "title": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD - Form 6-K - FY2026",
-                "publisher": "SEC (TSMC 6-K)",
-                "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm",
-                "date": "2026-10-15",
-                "quote": "Revenue is expected to be between US$52.3 billion and US$54.3 billion for the fourth quarter 2026, with gross profit margin expected to be between 65% and 67%.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ],
-            "statementOriginal": "4분기 매출 전망은 523억~543억 달러, 매출총이익률 전망은 65~67%이며 2나노 공정 증가가 수요를 받친다.",
-            "stripped": true
-          }
-        ],
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [
-            "c1"
-          ],
-          "reason": "c1의 '3분기 매출은 467억 달러'가 quote에 명시되지 않음",
-          "narrativeFixed": true
-        },
-        "volumeExplanationOriginal": "TSMC가 10월 15일 3분기 실적을 발표했고 매출과 순이익이 1년 전보다 각각 50.9%, 68.7% 늘었습니다. 4분기 매출 전망도 523억~543억 달러로 제시되면서 거래량이 평소보다 늘었습니다.",
-        "categoryName": "어닝 서프라이즈/가이던스 상향",
-        "isHighlight": true,
-        "researchedOn": "2026-10-16",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "DELL",
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "price": 473.3900146484375,
-      "marketCap": "366.71B",
-      "volx": 1.93,
-      "volSurgeWk": 2.45,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 70.89,
-      "high52": 79.49,
-      "adr": 4.69,
-      "targetStatus": false,
-      "saleCy": 70.38,
-      "saleNy": 16.54,
-      "epsCy": 151.43,
-      "epsNy": -4.76,
-      "cyTrend": 0.06,
-      "nyTrend": 0,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          57.75,
-          87.54,
-          39.48
-        ],
-        "ni": [
-          255.07,
-          256.27,
-          47.36
-        ],
-        "opm": [
-          11.46,
-          8.34,
-          9.26
-        ],
-        "updated": "2026-09-08 06:01:32"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "DELL",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "델 테크놀로지스는 PC와 서버, 저장장치를 만들어 판다. 최근에는 AI 서버 판매가 매출 성장을 이끌고 있다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-15",
         "carried": true
-      }
-    },
-    {
-      "ticker": "ONC",
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "price": 374.0799865722656,
-      "marketCap": "39.86B",
-      "volx": 1.91,
-      "volSurgeWk": 2.19,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 91.8,
-      "high52": 97.11,
-      "adr": 2.58,
-      "targetStatus": false,
-      "saleCy": 26.72,
-      "saleNy": 14.92,
-      "epsCy": 202.03,
-      "epsNy": 34.16,
-      "cyTrend": 0.58,
-      "nyTrend": -0.31,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          29.63,
-          35.46,
-          32.84
-        ],
-        "ni": [
-          151.28,
-          17802.13,
-          "흑자전환"
-        ],
-        "opm": [
-          19.06,
-          16.51,
-          12.35
-        ],
-        "updated": "2026-09-08 10:46:37"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "ONC",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "BeOne Medicines는 혈액암 치료제 브루킨사(Brukinsa)와 티스렐리주맙(Tevimbra) 등 항암제를 전 세계에 팔아 돈을 버는 바이오 기업이다. 올해 매출 전망치를 66억~68억 달러로 높여 잡았다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "SCCO",
-      "sector": "Basic Materials",
-      "industry": "Copper",
-      "price": 201.69000244140625,
-      "marketCap": "176.21B",
-      "volx": 1.87,
-      "volSurgeWk": 2.35,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 85.56,
-      "high52": 91.35,
-      "adr": 2.97,
-      "targetStatus": false,
-      "saleCy": 28.18,
-      "saleNy": -3.78,
-      "epsCy": 53.43,
-      "epsNy": -3.57,
-      "cyTrend": 1.27,
-      "nyTrend": 3.36,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          40.58,
-          36.18,
-          38.98
-        ],
-        "ni": [
-          71.56,
-          66.71,
-          64.76
-        ],
-        "opm": [
-          61.16,
-          58.34,
-          54.54
-        ],
-        "updated": "2026-09-08 08:49:54"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "SCCO",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Southern Copper는 페루·멕시코에서 구리를 캐고 제련해 팔며, 몰리브덴·아연·은도 부산물로 판다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
       }
     },
     {
@@ -554,21 +123,21 @@ window.TEAM4_DATA = {
       "sector": "Financial Services",
       "industry": "Insurance - Property & Casualty",
       "price": 383.8900146484375,
-      "marketCap": "77.52B",
-      "volx": 1.72,
-      "volSurgeWk": 2.07,
+      "marketCap": "81.25B",
+      "volx": null,
+      "volSurgeWk": 2.7,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 86.57,
+      "clsPos": 0,
       "high52": 96.61,
-      "adr": 1.75,
+      "adr": 1.78,
       "targetStatus": false,
-      "saleCy": -1.11,
-      "saleNy": 2.88,
-      "epsCy": 25.26,
-      "epsNy": -11.82,
-      "cyTrend": 1.48,
-      "nyTrend": 0.88,
+      "saleCy": -1.06,
+      "saleNy": 2.75,
+      "epsCy": 31.04,
+      "epsNy": -14.93,
+      "cyTrend": 5.9,
+      "nyTrend": 1.61,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
@@ -612,403 +181,697 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-16",
-        "carried": false
+        "carried": true
       }
     },
     {
-      "ticker": "PAYC",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "price": 252.8699951171875,
-      "marketCap": "10.59B",
-      "volx": 1.65,
-      "volSurgeWk": 2.03,
-      "aboveMa150": true,
-      "brk60d": true,
-      "clsPos": 100,
-      "high52": 100,
-      "adr": 2.79,
-      "targetStatus": false,
-      "saleCy": 7.67,
-      "saleNy": 7.44,
-      "epsCy": 30.92,
-      "epsNy": 15.45,
-      "cyTrend": 0.03,
-      "nyTrend": 0.11,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          9.84,
-          7.8,
-          10.2
-        ],
-        "ni": [
-          20,
-          11.69,
-          0.26
-        ],
-        "opm": [
-          31.72,
-          36.75,
-          28.88
-        ],
-        "updated": "2026-09-08 10:13:31"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "PAYC",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Paycom은 기업에 급여·인사관리 소프트웨어를 구독 형태로 팔아 돈을 버는 미국 회사다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "CLH",
+      "ticker": "WTS",
       "sector": "Industrials",
-      "industry": "Waste Management",
-      "price": 319.7799987792969,
-      "marketCap": "16.84B",
-      "volx": 1.61,
-      "volSurgeWk": 2.03,
+      "industry": "Specialty Industrial Machinery",
+      "price": 355.0799865722656,
+      "marketCap": "11.91B",
+      "volx": null,
+      "volSurgeWk": 2.27,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 30.29,
-      "high52": 95.19,
-      "adr": 1.77,
+      "clsPos": 0,
+      "high52": 90.15,
+      "adr": 2.03,
       "targetStatus": false,
-      "saleCy": 8.8,
-      "saleNy": 4.6,
-      "epsCy": 34.24,
-      "epsNy": 1.54,
-      "cyTrend": 1.34,
-      "nyTrend": 1.4,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          11.95,
-          1.93,
-          4.79
-        ],
-        "ni": [
-          34.32,
-          7.7,
-          3.12
-        ],
-        "opm": [
-          15.5,
-          8.15,
-          10.57
-        ],
-        "updated": "2026-09-11 05:42:58"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "CLH",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Clean Harbors는 유해 폐기물 수거·처리와 산업 환경 서비스를 제공해 돈을 버는 북미 폐기물 관리 회사다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "AJG",
-      "sector": "Financial Services",
-      "industry": "Insurance Brokers",
-      "price": 250.10000610351562,
-      "marketCap": "59.96B",
-      "volx": 1.59,
-      "volSurgeWk": 2.02,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 74.66,
-      "high52": 87.76,
-      "adr": 2.52,
-      "targetStatus": false,
-      "saleCy": 20.8,
-      "saleNy": 8.7,
-      "epsCy": 22.54,
-      "epsNy": 13.01,
-      "cyTrend": -0.64,
-      "nyTrend": -0.58,
+      "saleCy": 16.01,
+      "saleNy": 5.81,
+      "epsCy": 20.06,
+      "epsNy": 10.51,
+      "cyTrend": -1.21,
+      "nyTrend": 0,
       "newHigh52": false,
       "bbCenterBrk5d": true,
       "fs": {
         "sale": [
-          24.24,
-          27.66,
-          33.55
+          18.56,
+          21.38,
+          15.67
         ],
         "ni": [
-          -11.96,
-          16.76,
-          -42.27
+          17.24,
+          34.59,
+          24
         ],
         "opm": [
-          14.54,
-          25.24,
-          9.38
+          20.18,
+          19.64,
+          18.19
         ],
-        "updated": "2026-09-08 10:28:09"
+        "updated": "2026-09-08 08:40:13"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "AJG",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Arthur J. Gallagher는 세계 곳곳에서 기업 고객에게 보험을 중개하고 위험관리 자문을 해 수수료와 커미션으로 돈을 버는 보험 중개 회사입니다. 중소 중개사를 계속 인수해 덩치를 키웁니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "RL",
-      "sector": "Consumer Cyclical",
-      "industry": "Apparel Manufacturing",
-      "price": 391.07000732421875,
-      "marketCap": "22.24B",
-      "volx": 1.52,
-      "volSurgeWk": 2.02,
+      "ticker": "NDSN",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "price": 328.79998779296875,
+      "marketCap": "17.95B",
+      "volx": null,
+      "volSurgeWk": 2.04,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 82.85,
-      "high52": 93.25,
-      "adr": 2.49,
+      "clsPos": 0,
+      "high52": 97.23,
+      "adr": 1.78,
       "targetStatus": false,
-      "saleCy": 7.04,
-      "saleNy": 5.29,
-      "epsCy": 13.99,
-      "epsNy": 10.87,
+      "saleCy": 9.51,
+      "saleNy": 5.11,
+      "epsCy": 16.66,
+      "epsNy": 8.68,
+      "cyTrend": 0.34,
+      "nyTrend": 0.31,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          10.27,
+          8.48,
+          8.78
+        ],
+        "ni": [
+          21.51,
+          4.37,
+          40.92
+        ],
+        "opm": [
+          27.28,
+          26.62,
+          24.86
+        ],
+        "updated": "2026-09-07 06:11:11"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "TWLO",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "price": 273.3999938964844,
+      "marketCap": "37.53B",
+      "volx": null,
+      "volSurgeWk": 2.19,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 88.65,
+      "adr": 5.91,
+      "targetStatus": false,
+      "saleCy": 18.44,
+      "saleNy": 11.55,
+      "epsCy": 21.31,
+      "epsNy": 14.64,
+      "cyTrend": 0.05,
+      "nyTrend": 0.19,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          22.03,
+          20,
+          14.32
+        ],
+        "ni": [
+          4659.44,
+          350.31,
+          "적자확대"
+        ],
+        "opm": [
+          5.64,
+          7.65,
+          4.16
+        ],
+        "updated": "2026-09-08 08:38:14"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "ECL",
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "price": 290.80999755859375,
+      "marketCap": "80.98B",
+      "volx": null,
+      "volSurgeWk": 2.83,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 94.79,
+      "adr": 1.83,
+      "targetStatus": false,
+      "saleCy": 11.46,
+      "saleNy": 7.91,
+      "epsCy": 8.4,
+      "epsNy": 15.14,
+      "cyTrend": -0.06,
+      "nyTrend": -0.21,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          9.69,
+          10.04,
+          4.76
+        ],
+        "ni": [
+          2.04,
+          7.48,
+          19.24
+        ],
+        "opm": [
+          17.16,
+          15.3,
+          16.97
+        ],
+        "updated": "2026-09-08 06:52:53"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "GRMN",
+      "sector": "Technology",
+      "industry": "Scientific & Technical Instruments",
+      "price": 285.2200012207031,
+      "marketCap": "54.92B",
+      "volx": null,
+      "volSurgeWk": 2.13,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 91.1,
+      "adr": 2.83,
+      "targetStatus": false,
+      "saleCy": 11.75,
+      "saleNy": 11.69,
+      "epsCy": 18.3,
+      "epsNy": 9.96,
+      "cyTrend": 0.21,
+      "nyTrend": 1.35,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          11.44,
+          14.23,
+          16.59
+        ],
+        "ni": [
+          35.2,
+          21.73,
+          21.33
+        ],
+        "opm": [
+          30.44,
+          24.62,
+          28.9
+        ],
+        "updated": "2026-09-08 09:03:42"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "OKTA",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "price": 208.52000427246094,
+      "marketCap": "32.74B",
+      "volx": null,
+      "volSurgeWk": 2.31,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 88.73,
+      "adr": 4.8,
+      "targetStatus": false,
+      "saleCy": 10.45,
+      "saleNy": 10.02,
+      "epsCy": 12.26,
+      "epsNy": 11.44,
       "cyTrend": 0,
       "nyTrend": 0,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          14,
-          16.58,
-          12.25
+          10.58,
+          11.19,
+          11.58
         ],
         "ni": [
-          18.97,
-          17.52,
-          21.59
+          73.13,
+          19.35,
+          173.91
         ],
         "opm": [
-          17.47,
-          9.53,
-          19.59
+          13.29,
+          7.32,
+          6.04
         ],
-        "updated": "2026-09-08 06:53:34"
+        "updated": "2026-09-08 08:34:04"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "RL",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Ralph Lauren은 폴로 등 자체 브랜드 의류·액세서리를 직영점, 백화점, 온라인으로 팔아 돈을 버는 패션 회사다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "RACE",
-      "sector": "Consumer Cyclical",
-      "industry": "Auto Manufacturers",
-      "price": 398.239990234375,
-      "marketCap": "68.27B",
-      "volx": 1.41,
-      "volSurgeWk": 2.11,
+      "ticker": "RMD",
+      "sector": "Healthcare",
+      "industry": "Medical Instruments & Supplies",
+      "price": 242.22999572753906,
+      "marketCap": "33.61B",
+      "volx": null,
+      "volSurgeWk": 2.49,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 87.54,
-      "high52": 91.1,
-      "adr": 1.6,
+      "clsPos": 0,
+      "high52": 87.95,
+      "adr": 2.12,
       "targetStatus": false,
-      "saleCy": 6.89,
-      "saleNy": 8.39,
-      "epsCy": 9.94,
-      "epsNy": 12.18,
-      "cyTrend": -0.14,
-      "nyTrend": 0.87,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          11.03,
-          14.65,
-          13.61
-        ],
-        "ni": [
-          11.59,
-          11.43,
-          8.69
-        ],
-        "opm": [
-          31.22,
-          29.65,
-          28.59
-        ],
-        "updated": "2026-09-08 09:54:16"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "RACE",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "페라리는 고급 스포츠카를 만들어 파는 이탈리아 자동차 회사입니다. 차량 판매와 맞춤 사양, 브랜드 라이선스로 돈을 법니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "UNP",
-      "sector": "Industrials",
-      "industry": "Railroads",
-      "price": 288.7099914550781,
-      "marketCap": "167.27B",
-      "volx": 1.38,
-      "volSurgeWk": 2,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 54.12,
-      "high52": 91.79,
-      "adr": 1.56,
-      "targetStatus": false,
-      "saleCy": 10.34,
-      "saleNy": 4.71,
-      "epsCy": 12.18,
-      "epsNy": 8.76,
-      "cyTrend": 0.21,
-      "nyTrend": 0.5,
+      "saleCy": 2.59,
+      "saleNy": 6.92,
+      "epsCy": 8.17,
+      "epsNy": 9.49,
+      "cyTrend": 0.02,
+      "nyTrend": -0.03,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          11.54,
-          3.15,
-          -0.59
+          8.58,
+          10.81,
+          10.98
         ],
         "ni": [
-          6.24,
-          4.61,
-          4.88
+          0.98,
+          9.23,
+          13.92
         ],
         "opm": [
-          40.25,
-          39.54,
-          39.46
+          30.66,
+          34.92,
+          34.56
         ],
-        "updated": "2026-09-09 06:07:49"
+        "updated": "2026-09-08 07:30:14"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "UNP",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "ALL",
+      "sector": "Financial Services",
+      "industry": "Insurance - Property & Casualty",
+      "price": 239.60000610351562,
+      "marketCap": "62.68B",
+      "volx": null,
+      "volSurgeWk": 2.04,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 86.79,
+      "adr": 2.3,
+      "targetStatus": false,
+      "saleCy": 3.54,
+      "saleNy": 3.48,
+      "epsCy": 3.19,
+      "epsNy": -21.78,
+      "cyTrend": 2.01,
+      "nyTrend": 1.83,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          11.8,
+          2.97,
+          5.08
         ],
-        "company": "유니온 퍼시픽은 미국 최대 규모의 철도 회사로, 화물 운송료로 돈을 번다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
+        "ni": [
+          55.89,
+          328.98,
+          100.26
+        ],
+        "opm": [
+          22.83,
+          18.95,
+          29.02
+        ],
+        "updated": "2026-09-08 08:21:18"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "SAP",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "price": 225,
+      "marketCap": "258.88B",
+      "volx": null,
+      "volSurgeWk": 2.13,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 81.36,
+      "adr": 2.07,
+      "targetStatus": false,
+      "saleCy": 9.43,
+      "saleNy": 11.74,
+      "epsCy": 11.11,
+      "epsNy": 17.75,
+      "cyTrend": -0.87,
+      "nyTrend": -0.72,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          12.08,
+          17.78,
+          12.7
+        ],
+        "ni": [
+          31.57,
+          20.58,
+          14.2
+        ],
+        "opm": [
+          26.77,
+          28.68,
+          24.16
+        ],
+        "updated": "2026-09-08 09:24:35"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "TM",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Manufacturers",
+      "price": 191.94000244140625,
+      "marketCap": "226.07B",
+      "volx": null,
+      "volSurgeWk": 2.07,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 77.12,
+      "adr": 1.05,
+      "targetStatus": false,
+      "saleCy": 195.57,
+      "saleNy": 3.13,
+      "epsCy": -2.78,
+      "epsNy": 11.9,
+      "cyTrend": 8.41,
+      "nyTrend": -0.14,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          16.11,
+          null,
+          7.16
+        ],
+        "ni": [
+          43.26,
+          null,
+          -34.17
+        ],
+        "opm": [
+          7.86,
+          null,
+          9.52
+        ],
+        "updated": "2026-09-19 05:47:34"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "DXPE",
+      "sector": "Industrials",
+      "industry": "Industrial Distribution",
+      "price": 177.72999572753906,
+      "marketCap": "2.76B",
+      "volx": null,
+      "volSurgeWk": 2.74,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 85.45,
+      "adr": 3.51,
+      "targetStatus": false,
+      "saleCy": 12.53,
+      "saleNy": 8.07,
+      "epsCy": 19.19,
+      "epsNy": 18.58,
+      "cyTrend": 5.21,
+      "nyTrend": 2,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          15.6,
+          9.46,
+          11.99
+        ],
+        "ni": [
+          21.6,
+          -2.97,
+          6.94
+        ],
+        "opm": [
+          9.63,
+          8.14,
+          8.85
+        ],
+        "updated": "2026-09-07 06:59:19"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "BR",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "price": 174.11000061035156,
+      "marketCap": "19.66B",
+      "volx": null,
+      "volSurgeWk": 2.12,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 75.46,
+      "adr": 2.08,
+      "targetStatus": false,
+      "saleCy": 5.06,
+      "saleNy": 4.94,
+      "epsCy": 9.88,
+      "epsNy": 9.73,
+      "cyTrend": 0,
+      "nyTrend": -0.01,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          7.49,
+          7.83,
+          7.85
+        ],
+        "ni": [
+          6.36,
+          13.66,
+          99.86
+        ],
+        "opm": [
+          24.61,
+          18.4,
+          12.03
+        ],
+        "updated": "2026-09-08 07:56:14"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "NSIT",
+      "sector": "Technology",
+      "industry": "Electronics & Computer Distribution",
+      "price": 158.89999389648438,
+      "marketCap": "4.66B",
+      "volx": null,
+      "volSurgeWk": 2.04,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 89.6,
+      "adr": 3.6,
+      "targetStatus": true,
+      "saleCy": 7.1,
+      "saleNy": 3.82,
+      "epsCy": 26.69,
+      "epsNy": 5.98,
+      "cyTrend": 9.44,
+      "nyTrend": 7.79,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          14.73,
+          1.16,
+          -1.18
+        ],
+        "ni": [
+          65.28,
+          299.37,
+          40.37
+        ],
+        "opm": [
+          5.46,
+          3.37,
+          4.65
+        ],
+        "updated": "2026-09-09 06:30:02"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "EOG",
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "price": 152.6199951171875,
+      "marketCap": "80.05B",
+      "volx": null,
+      "volSurgeWk": 2.05,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 98.46,
+      "adr": 2.01,
+      "targetStatus": false,
+      "saleCy": 33.62,
+      "saleNy": -9.91,
+      "epsCy": 74.26,
+      "epsNy": -11.28,
+      "cyTrend": 4.56,
+      "nyTrend": 6.62,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          57.36,
+          22.09,
+          0.95
+        ],
+        "ni": [
+          102.53,
+          35.34,
+          -43.96
+        ],
+        "opm": [
+          40.93,
+          37.54,
+          16.73
+        ],
+        "updated": "2026-09-08 07:51:41"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "CHKP",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "price": 138.10000610351562,
+      "marketCap": "14.10B",
+      "volx": null,
+      "volSurgeWk": 2.04,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 65.56,
+      "adr": 3.18,
+      "targetStatus": false,
+      "saleCy": 2.81,
+      "saleNy": 5.8,
+      "epsCy": -12.22,
+      "epsNy": 8.16,
+      "cyTrend": 0,
+      "nyTrend": 0,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          1.26,
+          4.8,
+          5.85
+        ],
+        "ni": [
+          -4.44,
+          0.37,
+          18.25
+        ],
+        "opm": [
+          27.48,
+          27.69,
+          31.27
+        ],
+        "updated": "2026-09-08 07:13:06"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
@@ -1017,13 +880,13 @@ window.TEAM4_DATA = {
       "industry": "Agricultural Inputs",
       "price": 132.22000122070312,
       "marketCap": "1.40B",
-      "volx": 1.34,
-      "volSurgeWk": 2.11,
+      "volx": null,
+      "volSurgeWk": 2.42,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 90.96,
+      "clsPos": 0,
       "high52": 96.64,
-      "adr": 2.38,
+      "adr": 2.35,
       "targetStatus": false,
       "saleCy": null,
       "saleNy": null,
@@ -1074,679 +937,121 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-16",
-        "carried": false
+        "carried": true
       }
     },
     {
-      "ticker": "SMTC",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "price": 160.25999450683594,
-      "marketCap": "13.46B",
-      "volx": null,
-      "volSurgeWk": 2.45,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 0,
-      "high52": 79.34,
-      "adr": 6.15,
-      "targetStatus": false,
-      "saleCy": 41.67,
-      "saleNy": 29.54,
-      "epsCy": 103.74,
-      "epsNy": 68.12,
-      "cyTrend": 0.28,
-      "nyTrend": 0.37,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          32.72,
-          15.92,
-          9.3
-        ],
-        "ni": [
-          "흑자전환",
-          37.31,
-          -176.12
-        ],
-        "opm": [
-          16.31,
-          8.86,
-          -6.66
-        ],
-        "updated": "2026-09-08 10:19:05"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "SMTC",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [
-              {
-                "title": "Semtech 8-K (Item 7.01) 2026-10-15",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000041/smtc-20261015.htm",
-                "date": "2026-10-15",
-                "quote": "The company raised its net sales guidance to \"$417.5 +/- $2.5\" million and improved adjusted operating margin to \"33.0% +/- 10 bps.\"",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ],
-            "statementOriginal": "10월 15일 데이터센터 애널리스트 데이 공시에서 이번 분기(2027 회계연도 3분기) 매출 전망을 4억 1,750만 달러 안팎으로 올리고, 영업이익률 전망도 33%로 끌어올렸다.",
-            "stripped": true
-          },
-          {
-            "id": "c2",
-            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-            "evidence_level": "no_source",
-            "sources": [
-              {
-                "title": "Semtech 8-K (Item 7.01) 2026-10-15",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000041/smtc-20261015.htm",
-                "date": "2026-10-15",
-                "quote": "Semtech provided ambitious long-term targets, including \"$3.2 billion\" in total net sales and data center revenue reaching \"$2.1 billion\" with a 75% CAGR through 2030.",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ],
-            "statementOriginal": "2030 회계연도 장기 목표로 매출 32억 달러, 데이터센터 매출 21억 달러(연 75% 성장), 조정 EPS 12.40~13.00달러를 제시했다.",
-            "stripped": true
-          }
-        ],
-        "company": "Semtech는 데이터센터·통신용 고속 연결 반도체와 아날로그 칩을 설계해 판매하는 회사다. 최근 AI 서버용 구리 연결 제품(CopperEdge) 등 데이터센터 매출 비중을 키우고 있다.",
-        "volumeExplanation": "10월 15일 데이터센터 애널리스트 데이에서 이번 분기 매출·이익률 전망을 올리고 2030년까지 매출 32억 달러라는 장기 목표를 내놓았다. 실적 전망 상향과 큰 성장 목표가 겹쳐 거래량이 늘어난 것으로 보인다.",
-        "confidence": "medium",
-        "factcheck": {
-          "verdict": "partial",
-          "removed": [],
-          "reason": "Category 1 requires 8-K Item 2.02 or earnings release. Item 7.01 (Regulation FD Disclosure) does not meet this standard—it is guidance update, not earnings report. Category corrected to 6."
-        },
-        "originalCategory": 1,
-        "corrected": true,
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "SENEB",
+      "ticker": "FMX",
       "sector": "Consumer Defensive",
-      "industry": "Packaged Foods",
-      "price": 184.2899932861328,
-      "marketCap": "1.21B",
+      "industry": "Beverages - Brewers",
+      "price": 120.98999786376953,
+      "marketCap": "41.22B",
       "volx": null,
-      "volSurgeWk": 2.94,
+      "volSurgeWk": 2.6,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 0,
-      "high52": 88.38,
-      "adr": 0.04,
+      "high52": 86.8,
+      "adr": 2.23,
       "targetStatus": false,
-      "saleCy": 14.06,
-      "saleNy": 2.32,
-      "epsCy": null,
-      "epsNy": null,
-      "cyTrend": null,
-      "nyTrend": null,
+      "saleCy": 7.31,
+      "saleNy": 7.61,
+      "epsCy": 90.83,
+      "epsNy": -5.97,
+      "cyTrend": -9.76,
+      "nyTrend": -1.68,
       "newHigh52": false,
       "bbCenterBrk5d": true,
-      "fs": null,
+      "fs": {
+        "sale": [
+          22.5,
+          23.22,
+          115.26
+        ],
+        "ni": [
+          128.8,
+          196.58,
+          8.58
+        ],
+        "opm": [
+          8.27,
+          6.89,
+          8.56
+        ],
+        "updated": "2026-09-09 07:28:07"
+      },
       "catalyst": {
         "status": "pending",
-        "note": "아직 조사하지 않았습니다"
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "FRHC",
-      "sector": "Financial Services",
-      "industry": "Financial Conglomerates",
-      "price": 176.13999938964844,
-      "marketCap": "11.51B",
-      "volx": null,
-      "volSurgeWk": 2.02,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 0,
-      "high52": 98.96,
-      "adr": 3.55,
-      "targetStatus": false,
-      "saleCy": null,
-      "saleNy": null,
-      "epsCy": null,
-      "epsNy": null,
-      "cyTrend": null,
-      "nyTrend": null,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          39.8,
-          71.75,
-          -5.41
-        ],
-        "ni": [
-          -15.25,
-          "흑자전환",
-          -2.61
-        ],
-        "opm": [
-          5.57,
-          4.69,
-          14.94
-        ],
-        "updated": "2026-09-08 06:12:40"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "FRHC",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "FRHC는 카자흐스탄 등 중앙아시아에서 증권 중개, 은행, 보험 사업을 하는 금융 지주회사입니다. 수수료와 이자, 보험료로 돈을 법니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "Category 6 is correct. No sources to validate. volumeExplanation accurately states no clear news."
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "IHG",
-      "sector": "Consumer Cyclical",
-      "industry": "Lodging",
-      "price": 160.36000061035156,
-      "marketCap": "24.27B",
-      "volx": null,
-      "volSurgeWk": 2.09,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 0,
-      "high52": 91.54,
-      "adr": 1.29,
-      "targetStatus": false,
-      "saleCy": 6.62,
-      "saleNy": 5.68,
-      "epsCy": 19.01,
-      "epsNy": 13.49,
-      "cyTrend": -1.14,
-      "nyTrend": -1.54,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          null,
-          null,
-          null
-        ],
-        "ni": [
-          null,
-          null,
-          null
-        ],
-        "opm": null,
-        "updated": "2026-09-21 06:11:04"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "IHG",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "IHG는 홀리데이 인, 인터콘티넨탈 같은 호텔 브랜드를 가맹·위탁 방식으로 운영하며 수수료로 돈을 버는 영국계 호텔 기업입니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "Category 6 is correct. No sources to validate. volumeExplanation accurately states no clear news."
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "JXN",
-      "sector": "Financial Services",
-      "industry": "Insurance - Life",
-      "price": 130.02999877929688,
-      "marketCap": "8.91B",
-      "volx": null,
-      "volSurgeWk": 4.97,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 0,
-      "high52": 92.66,
-      "adr": 2.75,
-      "targetStatus": false,
-      "saleCy": 19.86,
-      "saleNy": 6.82,
-      "epsCy": 19.52,
-      "epsNy": 16.74,
-      "cyTrend": 0.82,
-      "nyTrend": 2.66,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          "흑자전환",
-          -22.61,
-          783.56
-        ],
-        "ni": [
-          283.33,
-          "적자확대",
-          -164.37
-        ],
-        "opm": [
-          395.83,
-          -13.78,
-          -18.01
-        ],
-        "updated": "2026-09-08 07:41:17"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "JXN",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Jackson Financial은 미국에서 변액연금 등 생명보험·연금 상품을 팔아 보험료와 투자 수익으로 돈을 버는 보험사다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "Category 6 is correct. No sources to validate. volumeExplanation accurately states no clear news."
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "EPAM",
+      "ticker": "PAYX",
       "sector": "Technology",
-      "industry": "Information Technology Services",
-      "price": 114.62999725341797,
-      "marketCap": "5.96B",
+      "industry": "Software - Application",
+      "price": 110.77999877929688,
+      "marketCap": "39.44B",
       "volx": null,
-      "volSurgeWk": 2.45,
+      "volSurgeWk": 2.21,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 0,
-      "high52": 51.51,
-      "adr": 4.07,
+      "high52": 86.56,
+      "adr": 2.46,
       "targetStatus": false,
-      "saleCy": 3.66,
-      "saleNy": 3.53,
-      "epsCy": 14.35,
-      "epsNy": 6.67,
-      "cyTrend": 0,
-      "nyTrend": -0.24,
+      "saleCy": 5.41,
+      "saleNy": 5.47,
+      "epsCy": 8.18,
+      "epsNy": 7.18,
+      "cyTrend": -0.24,
+      "nyTrend": -0.03,
       "newHigh52": false,
       "bbCenterBrk5d": true,
       "fs": {
         "sale": [
-          4.53,
-          7.56,
-          12.75
+          12.49,
+          19.87,
+          18.28
         ],
         "ni": [
-          16.99,
-          12.3,
-          5.86
+          41.52,
+          7.9,
+          -4.35
         ],
         "opm": [
-          10.76,
-          8.34,
-          10.6
+          37.66,
+          43.78,
+          36.72
         ],
-        "updated": "2026-09-08 06:03:53"
+        "updated": "2026-09-07 07:11:01"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "EPAM",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "EPAM은 기업 고객을 위한 소프트웨어 개발·IT 컨설팅 서비스를 제공해 돈을 버는 회사입니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "Category 6 is correct. No sources to validate. volumeExplanation accurately states no clear news."
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "IPAR",
-      "sector": "Consumer Defensive",
-      "industry": "Household & Personal Products",
-      "price": 114.47000122070312,
-      "marketCap": "3.69B",
-      "volx": null,
-      "volSurgeWk": 2.7,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 0,
-      "high52": 89.17,
-      "adr": 2.61,
-      "targetStatus": false,
-      "saleCy": 0,
-      "saleNy": 7.18,
-      "epsCy": -6.72,
-      "epsNy": 6.42,
-      "cyTrend": -0.04,
-      "nyTrend": -0.04,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          2.13,
-          1.79,
-          6.82
-        ],
-        "ni": [
-          -4.69,
-          2.06,
-          15.97
-        ],
-        "opm": [
-          14.35,
-          21.5,
-          7.12
-        ],
-        "updated": "2026-09-08 08:48:53"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "IPAR",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Interparfums는 프랑스 향수 브랜드를 라이선스로 받아 향수를 만들고 유통해 돈을 버는 회사다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "Category 6 is correct. No sources to validate. volumeExplanation accurately states no clear news."
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "ELF",
-      "sector": "Consumer Defensive",
-      "industry": "Household & Personal Products",
-      "price": 108.12999725341797,
-      "marketCap": "6.38B",
-      "volx": null,
-      "volSurgeWk": 2.28,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 0,
-      "high52": 76.42,
-      "adr": 3.44,
-      "targetStatus": false,
-      "saleCy": 20.36,
-      "saleNy": 8.48,
-      "epsCy": 15.93,
-      "epsNy": 6.56,
-      "cyTrend": 0.56,
-      "nyTrend": 1.07,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          35.52,
-          35.07,
-          37.76
-        ],
-        "ni": [
-          99.93,
-          -274.72,
-          128.12
-        ],
-        "opm": [
-          21.37,
-          -11.2,
-          13.8
-        ],
-        "updated": "2026-09-07 06:53:32"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "ELF",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "e.l.f. Beauty는 엘프 코스메틱스, 로드(Rhode) 등 화장품·스킨케어 브랜드를 월마트, 타깃, 세포라 같은 유통망에 팔아 돈을 번다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "W",
-      "sector": "Consumer Cyclical",
-      "industry": "Internet Retail",
-      "price": 104.77999877929688,
-      "marketCap": "14.25B",
-      "volx": null,
-      "volSurgeWk": 2.14,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 0,
-      "high52": 87.33,
-      "adr": 4.24,
-      "targetStatus": false,
-      "saleCy": 7.71,
-      "saleNy": 7.42,
-      "epsCy": 11.57,
-      "epsNy": 33.74,
-      "cyTrend": 0.28,
-      "nyTrend": 0.18,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          7.52,
-          7.36,
-          6.92
-        ],
-        "ni": [
-          -106.67,
-          "적자축소",
-          "적자축소"
-        ],
-        "opm": [
-          2.96,
-          -0.38,
-          2.52
-        ],
-        "updated": "2026-09-08 06:30:22"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "W",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Wayfair는 가구·생활용품을 온라인으로 파는 미국 인터넷 소매 업체입니다. 상품 판매 매출이 주 수입원입니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "SIG",
-      "sector": "Consumer Cyclical",
-      "industry": "Luxury Goods",
-      "price": 107.95999908447266,
-      "marketCap": "4.14B",
-      "volx": null,
-      "volSurgeWk": 2.65,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 0,
-      "high52": 98.74,
-      "adr": 3.29,
-      "targetStatus": true,
-      "saleCy": 0.74,
-      "saleNy": 1.97,
-      "epsCy": 22.1,
-      "epsNy": 17.26,
-      "cyTrend": 8.51,
-      "nyTrend": 11.78,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          0.78,
-          -0.32,
-          3.14
-        ],
-        "ni": [
-          -5.37,
-          148.51,
-          270.37
-        ],
-        "opm": [
-          2.38,
-          13.57,
-          1.72
-        ],
-        "updated": "2026-09-08 10:03:39"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "SIG",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Signet은 Kay, Zales, Jared 같은 브랜드로 북미와 영국에서 보석을 파는 세계 최대 보석 전문 유통업체다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
       "ticker": "TRI",
       "sector": "Industrials",
       "industry": "Specialty Business Services",
-      "price": 105.4000015258789,
-      "marketCap": "45.55B",
+      "price": 107.88999938964844,
+      "marketCap": "47.23B",
       "volx": null,
-      "volSurgeWk": 2.04,
+      "volSurgeWk": 2.42,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 0,
-      "high52": 66.85,
-      "adr": 3.31,
+      "high52": 68.43,
+      "adr": 3.15,
       "targetStatus": false,
-      "saleCy": 8.6,
-      "saleNy": 7.72,
-      "epsCy": 11.54,
-      "epsNy": 14.47,
-      "cyTrend": 0.1,
-      "nyTrend": 0.01,
+      "saleCy": 8.35,
+      "saleNy": 7.49,
+      "epsCy": 11.34,
+      "epsNy": 14.33,
+      "cyTrend": -0.12,
+      "nyTrend": -0.35,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
@@ -1790,357 +1095,287 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-16",
-        "carried": false
+        "carried": true
       }
     },
     {
-      "ticker": "ESTC",
+      "ticker": "FROG",
       "sector": "Technology",
       "industry": "Software - Application",
-      "price": 92.05999755859375,
-      "marketCap": "9.67B",
+      "price": 94.54000091552734,
+      "marketCap": "10.40B",
       "volx": null,
-      "volSurgeWk": 2.64,
+      "volSurgeWk": 2.27,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 0,
-      "high52": 85.24,
-      "adr": 3.77,
+      "high52": 89.39,
+      "adr": 5.38,
       "targetStatus": false,
-      "saleCy": 15.29,
-      "saleNy": 14.7,
-      "epsCy": 30.71,
-      "epsNy": 17.73,
-      "cyTrend": 0,
-      "nyTrend": 0,
+      "saleCy": 22.35,
+      "saleNy": 17.98,
+      "epsCy": 19.55,
+      "epsNy": 16.83,
+      "cyTrend": 0.02,
+      "nyTrend": 0.03,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          15.13,
-          16.03,
-          17.74
+          28.73,
+          25.79,
+          25.18
         ],
         "ni": [
           "적자축소",
-          "흑자전환",
-          "흑자전환"
+          "적자축소",
+          "적자축소"
         ],
         "opm": [
-          -4.93,
-          -3.64,
-          0.14
+          -8.09,
+          -8.4,
+          -14.67
         ],
-        "updated": "2026-09-09 06:33:00"
+        "updated": "2026-09-07 07:59:05"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "ESTC",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Elastic은 기업용 검색·보안·관측(시스템 모니터링) 소프트웨어를 구독형으로 판매해 돈을 번다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "USPH",
-      "sector": "Healthcare",
-      "industry": "Medical Care Facilities",
-      "price": 84.91000366210938,
-      "marketCap": "1.27B",
+      "ticker": "ACGL",
+      "sector": "Financial Services",
+      "industry": "Insurance - Diversified",
+      "price": 99.30999755859375,
+      "marketCap": "33.89B",
       "volx": null,
-      "volSurgeWk": 2.33,
+      "volSurgeWk": 2,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 0,
-      "high52": 93.16,
-      "adr": 2.63,
+      "high52": 92.74,
+      "adr": 1.87,
       "targetStatus": false,
-      "saleCy": 8.57,
-      "saleNy": 7.56,
-      "epsCy": 10.19,
-      "epsNy": 15.6,
-      "cyTrend": 0.15,
-      "nyTrend": -2.65,
-      "newHigh52": false,
-      "bbCenterBrk5d": true,
-      "fs": {
-        "sale": [
-          8.47,
-          7.89,
-          12.35
-        ],
-        "ni": [
-          -56.82,
-          -115.29,
-          -42.62
-        ],
-        "opm": [
-          10.25,
-          6.29,
-          8.27
-        ],
-        "updated": "2026-09-08 08:21:00"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "USPH",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "US Physical Therapy는 미국 45개 주에서 외래 물리치료 클리닉을 운영하고, 산업재해 예방 서비스도 제공해 돈을 번다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "Category 6 correctly applied for no-source evidence. No claims to validate."
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "KNSA",
-      "sector": "Healthcare",
-      "industry": "Drug Manufacturers - Specialty & Generic",
-      "price": 78.83999633789062,
-      "marketCap": "6.15B",
-      "volx": null,
-      "volSurgeWk": 3.09,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 0,
-      "high52": 95.06,
-      "adr": 3.37,
-      "targetStatus": false,
-      "saleCy": 46.66,
-      "saleNy": 22.9,
-      "epsCy": 54.33,
-      "epsNy": 39.74,
-      "cyTrend": 0,
-      "nyTrend": 0,
+      "saleCy": -4.2,
+      "saleNy": -0.08,
+      "epsCy": -0.79,
+      "epsNy": 0.39,
+      "cyTrend": 4.14,
+      "nyTrend": 0.44,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          55.36,
-          55.51,
-          64.95
+          -10.45,
+          -3.25,
+          8.49
         ],
         "ni": [
-          42.62,
-          164.57,
-          "흑자전환"
+          -14.67,
+          83.87,
+          32.76
         ],
         "opm": [
-          11.16,
-          13.66,
-          9.78
+          25.9,
+          24.88,
+          29
         ],
-        "updated": "2026-09-15 06:58:01"
+        "updated": "2026-09-08 07:40:21"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "KNSA",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Kiniksa는 재발성 심막염 치료제 ARCALYST를 팔아 돈을 버는 바이오 기업이다. 이 약의 매출이 빠르게 늘고 있다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "Category 6 correctly applied for no-source evidence. No claims to validate."
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "ETSY",
-      "sector": "Consumer Cyclical",
-      "industry": "Internet Retail",
-      "price": 82.93000030517578,
-      "marketCap": "7.61B",
+      "ticker": "ATKR",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "price": 94.91999816894531,
+      "marketCap": "3.21B",
       "volx": null,
-      "volSurgeWk": 2.14,
+      "volSurgeWk": 2.04,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 0,
-      "high52": 94.27,
-      "adr": 4.04,
+      "high52": 99.95,
+      "adr": 0.12,
       "targetStatus": false,
-      "saleCy": -1.18,
-      "saleNy": 4.69,
-      "epsCy": 147.82,
-      "epsNy": 31.83,
-      "cyTrend": 0.99,
-      "nyTrend": 1.13,
+      "saleCy": 4.04,
+      "saleNy": 4.06,
+      "epsCy": -5.67,
+      "epsNy": 12.05,
+      "cyTrend": 0.38,
+      "nyTrend": 0.82,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          8.13,
+          4.23,
+          -0.91
+        ],
+        "ni": [
+          -98.24,
+          "적자확대",
+          -67.33
+        ],
+        "opm": [
+          8.05,
+          1.42,
+          3.06
+        ],
+        "updated": "2026-09-07 07:34:16"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "SRCE",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "price": 85.58000183105469,
+      "marketCap": "2.07B",
+      "volx": null,
+      "volSurgeWk": 2.18,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 93.8,
+      "adr": 1.97,
+      "targetStatus": false,
+      "saleCy": 7.93,
+      "saleNy": 2.93,
+      "epsCy": 7.45,
+      "epsNy": 2.16,
+      "cyTrend": 0,
+      "nyTrend": 0,
       "newHigh52": false,
       "bbCenterBrk5d": true,
       "fs": {
         "sale": [
-          6.23,
-          3.12,
-          13.14
+          3.88,
+          1.86,
+          6.28
         ],
         "ni": [
-          -261.75,
-          "흑자전환",
-          -14.76
+          27.08,
+          6.36,
+          33.43
         ],
         "opm": [
-          18.74,
-          18.98,
-          9.67
+          39.46,
+          34.43,
+          35.59
         ],
-        "updated": "2026-09-08 06:54:50"
+        "updated": "2026-09-09 06:28:41"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "ETSY",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "GRVY",
+      "sector": "Communication Services",
+      "industry": "Electronic Gaming & Multimedia",
+      "price": 66.70999908447266,
+      "marketCap": "0.46B",
+      "volx": null,
+      "volSurgeWk": 2.48,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 87.78,
+      "adr": 2.2,
+      "targetStatus": false,
+      "saleCy": null,
+      "saleNy": null,
+      "epsCy": null,
+      "epsNy": null,
+      "cyTrend": null,
+      "nyTrend": null,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          -17.14,
+          17.76,
+          -6.4
         ],
-        "company": "Etsy는 수공예품·빈티지 상품을 사고파는 온라인 장터를 운영합니다. 판매자가 내는 수수료와 광고비로 돈을 법니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": "Category 6 correctly applied for no-source evidence. No claims to validate."
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": false
+        "ni": [
+          60.61,
+          33.38,
+          -41.4
+        ],
+        "opm": [
+          17.04,
+          19.04,
+          10.72
+        ],
+        "updated": "2026-09-08 10:08:13"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     }
   ],
   "excludedEtf": [
-    "FNGS"
+    "FNGS",
+    "MLPR"
   ],
   "excludedNoMarketCap": [
     "BAC-L",
-    "BTSGU",
-    "HPE-C"
+    "BRKRP",
+    "STRF",
+    "CMS-B",
+    "SMCIP"
   ],
   "excludedBelowMa150": [
-    "FIX",
-    "ESLT",
-    "SITM",
-    "STRL",
-    "TT",
-    "ETN",
-    "LFUS",
-    "MOG.B",
-    "NPO",
-    "AEIS",
-    "VICR",
-    "VRT",
-    "LHX",
-    "NBIS",
-    "PNC",
-    "SANM",
-    "MOD",
-    "NVT",
-    "WCN",
-    "FCN",
-    "DOCN",
-    "MHO",
-    "LSCC",
-    "DTM",
-    "FLEX",
-    "SCHW",
-    "RIO",
-    "AU",
-    "KLIC",
-    "AAON",
-    "HUT",
-    "CRWV",
-    "IOND",
-    "RKLB"
+    "TSLA",
+    "IESC",
+    "MTB",
+    "DLR",
+    "LSTR",
+    "NTRS",
+    "GPOR",
+    "HONA",
+    "CHRW",
+    "DKS",
+    "HRI",
+    "ECG",
+    "GVA",
+    "PPG",
+    "ORA",
+    "RBA",
+    "GHM",
+    "MRCY",
+    "NGG",
+    "SLGL",
+    "CELC",
+    "CMS"
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 29,
-    "total": 30,
-    "cap": 28,
-    "pending": 1,
+    "done": 4,
+    "total": 26,
+    "cap": null,
+    "pending": 22,
     "failed": 0,
-    "carried": 1,
+    "carried": 4,
     "ineligible": 0,
-    "note": "30종목 중 29종목을 조사했습니다. 그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 1종목은 상한(28) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다. 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "26종목 중 4종목을 조사했습니다. 그중 4종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 22종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
-    "highlights": [
-      {
-        "ticker": "ASML",
-        "category": 1,
-        "oneLine": "3분기 순이익이 크게 늘고 2026년 연간 전망을 올렸지만, 실적 당일 주가는 내렸다."
-      },
-      {
-        "ticker": "BLK",
-        "category": 1,
-        "oneLine": "3분기 이익·매출이 증권사 예상치를 넘었고, 운용자산 증가로 장 시작 전부터 주가가 올랐다."
-      },
-      {
-        "ticker": "PGR",
-        "category": 1,
-        "oneLine": "3분기 주당순이익이 시장 예상치를 웃돌았다."
-      },
-      {
-        "ticker": "STT",
-        "category": 1,
-        "oneLine": "3분기 주당순이익이 증권가 예상치를 넘어섰다."
-      }
-    ],
-    "sectorSignal": "실적 호재 4건이 모두 10월 14일 발표분이다. 금융(자산운용·보험·수탁은행) 3건과 반도체 장비 1건이다.",
-    "caution": "이번 후보 18건 중 14건은 뉴스 근거가 없는 거래량 급증이라 호재로 볼 수 없다. ASML은 전망을 올렸는데도 당일 주가가 내려, 호재가 곧 상승은 아니다. 차트 상태는 확인하지 않았으니 직접 보고 판단하라.",
-    "researchedOn": "2026-10-15"
-  },
-  "llm": {
     "highlights": [
       {
         "ticker": "BLK",
@@ -2156,11 +1391,5 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적 호재 2건이 금융(자산운용)과 반도체 위탁생산에 하나씩 나뉘어 있어 한 업종 쏠림은 보이지 않습니다. 산업 기술 돌파로 분류된 종목은 없습니다.",
     "caution": "오늘 후보 29개 중 호재로 분류된 종목은 두 개뿐이고 나머지 대부분은 '뉴스 없는 거래량 급증'으로 근거가 없습니다. 분류는 공시·뉴스 기준이며 차트 상태는 보지 않았으니, 주가 위치와 실적 발표 일정은 직접 확인하세요.",
     "researchedOn": "2026-10-16"
-  },
-  "reusedFrom": null,
-  "byCategory": {
-    "1": 2,
-    "4": 1,
-    "6": 26
   }
 };

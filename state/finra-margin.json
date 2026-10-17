@@ -3,27 +3,21 @@
   "stale": false,
   "source": "live",
   "latest": {
-    "month": "2026-08",
-    "debit": 1453832,
-    "freeCreditCash": 207641,
-    "freeCreditMargin": 217499
+    "month": "2026-09",
+    "debit": 1480054,
+    "freeCreditCash": 215328,
+    "freeCreditMargin": 218581
   },
   "prior": {
-    "month": "2025-08",
-    "debit": 1059723,
-    "freeCreditCash": 188221,
-    "freeCreditMargin": 181563
+    "month": "2025-09",
+    "debit": 1126494,
+    "freeCreditCash": 204106,
+    "freeCreditMargin": 194884
   },
-  "yoyPct": 37.2,
+  "yoyPct": 31.4,
   "level": "warn",
-  "ko": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +37.2% — 주의선 +30% 초과",
+  "ko": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
   "series13": [
-    {
-      "month": "2025-08",
-      "debit": 1059723,
-      "freeCreditCash": 188221,
-      "freeCreditMargin": 181563
-    },
     {
       "month": "2025-09",
       "debit": 1126494,
@@ -95,12 +89,18 @@
       "debit": 1453832,
       "freeCreditCash": 207641,
       "freeCreditMargin": 217499
+    },
+    {
+      "month": "2026-09",
+      "debit": 1480054,
+      "freeCreditCash": 215328,
+      "freeCreditMargin": 218581
     }
   ],
-  "months": 356,
+  "months": 357,
   "range": {
     "from": "1997-01",
-    "to": "2026-08"
+    "to": "2026-09"
   },
   "unit": "백만 달러 (USD millions)",
   "source_url": "https://www.finra.org/rules-guidance/key-topics/margin-accounts/margin-statistics",
@@ -118,5 +118,5 @@
       "freeMargin": "D"
     }
   },
-  "fetched_at": "2026-10-16T00:35:18.925Z"
+  "fetched_at": "2026-10-17T00:40:17.763Z"
 }
