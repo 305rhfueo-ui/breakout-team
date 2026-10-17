@@ -74,6 +74,7 @@ launchctl list | grep breakout               # 등록된 작업
 | `SNOW, NET 심층분석` | 여러 종목(최대 5) — 한 종목씩 차례로 |
 | `SNOW 다시` | 오늘 이미 분석했어도 새로 (그냥 다시 보내면 저장된 결과를 즉시 재전송) |
 | `목록` | 최근 분석한 종목과 결론 |
+| `보유` | trading-journal 보유 종목의 새 뉴스·공시·증권사 리포트 (새 것이 없으면 "새 소식 없음") — 매일 07:10 · 22:00 에는 새 것이 있을 때만 자동으로 온다 |
 
 - 등록된 대화(`TELEGRAM_CHAT_ID`)에서 온 글만 처리한다. 아침 스캔·리서치가 돌고 있으면 끝난 뒤 처리한다.
 - 로그: `~/Library/Logs/breakout-team/listen.log` · `ondemand-<날짜>.log`. 수신기 상태: `launchctl list | grep breakout.listen` (첫 칸이 숫자면 떠 있다).

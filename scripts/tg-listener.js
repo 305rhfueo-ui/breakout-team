@@ -25,7 +25,7 @@ const master = require('./data/kis-master');
 
 const STATE = path.join(paths.cacheDir, 'tg-listener.json');     // { offset, day, count }
 const MAX_AGE_SEC = 6 * 3600;                                     // 이보다 오래된 요청은 버린다(맥이 꺼져 있던 동안 쌓인 것)
-const USAGE = '사용법: 티커와 함께 "심층분석"을 보내 주세요.\n예) SNOW 심층분석\n    SNOW, NET 심층분석\n    SNOW 다시 (오늘 한 분석을 새로)\n    목록 (최근 분석한 종목)';
+const USAGE = '사용법: 티커와 함께 "심층분석"을 보내 주세요.\n예) SNOW 심층분석\n    SNOW, NET 심층분석\n    SNOW 다시 (오늘 한 분석을 새로)\n    목록 (최근 분석한 종목)\n    보유 (보유 종목 새 뉴스·공시·증권사 리포트 확인)';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // ── 명령 해석 (순수 함수 — 테스트 대상) ──
@@ -34,6 +34,7 @@ function parseCommand(text) {
   const s = String(text || '').trim().replace(/\s+/g, ' ');
   if (!s) return { kind: 'none' };
   if (/^(목록|list)$/i.test(s)) return { kind: 'list' };
+  if (/^(보유|보유\s*종목|holdings?)$/i.test(s)) return { kind: 'holdings' };
   const m = s.match(/^(.+?)\s*(심층\s*분석|분석|다시|deep)$/i);
   if (!m) return { kind: 'usage' };
   const tickers = m[1].split(/[,\s]+/).map((x) => x.trim()).filter(Boolean);
@@ -92,6 +93,13 @@ async function handle(text) {
   const c = parseCommand(text);
   if (c.kind === 'none') return;
   if (c.kind === 'usage') return notify(USAGE);
+  if (c.kind === 'holdings') {
+    // 보유 종목 새 소식 (2026-10-17) — 1~2분 걸린다. 기다리지 않고 띄운다(그동안에도 메시지를 받게). 결과는 그 스크립트가 보낸다.
+    await notify('🔎 보유 종목 새 소식을 확인합니다 — 1~2분 걸립니다.');
+    execFile(process.execPath, [path.join(paths.root, 'scripts', 'holdings-watch.js'), '--force'], { cwd: paths.root, timeout: 10 * 60 * 1000 },
+      (err) => { if (err) notify('❌ 보유 종목 소식 확인이 끝나지 못했습니다 — 잠시 뒤 "보유"를 다시 보내 주세요.'); });
+    return;
+  }
   if (c.kind === 'list') {
     const { loadOndemand } = require('./finish-ondemand');
     const items = (loadOndemand().items || []).slice(0, 15);

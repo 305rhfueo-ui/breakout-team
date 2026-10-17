@@ -65,8 +65,8 @@ const tail = (f, n = 2) => { try { return fs.readFileSync(f, 'utf8').replace(/\x
 
   // ⑤ launchd
   const list = sh('launchctl list') || '';
-  const missing = ['com.breakout.daily', 'com.breakout.night', 'com.breakout.review', 'com.breakout.listen'].filter((j) => !list.includes(j));
-  if (missing.length) bad.push(`예약 빠짐: ${missing.join(', ')}`); else ok.push('예약 4개');
+  const missing = ['com.breakout.daily', 'com.breakout.night', 'com.breakout.review', 'com.breakout.listen', 'com.breakout.holdings'].filter((j) => !list.includes(j));
+  if (missing.length) bad.push(`예약 빠짐: ${missing.join(', ')}`); else ok.push('예약 5개');
   // 7팀 수신기는 항상 떠 있어야 한다 — launchctl list 의 첫 칸이 PID 다('-' 면 죽어 있다)
   const ln = list.split('\n').find((l) => l.includes('com.breakout.listen'));
   if (ln && /^-\s/.test(ln)) bad.push('텔레그램 수신기(com.breakout.listen)가 꺼져 있음');

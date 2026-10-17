@@ -14,7 +14,7 @@ set -e
 REPO="$(cd "$(dirname "$0")/../.." && pwd)"
 AGENTS="$HOME/Library/LaunchAgents"
 LOGS="$HOME/Library/Logs/breakout-team"
-JOBS="com.breakout.daily com.breakout.night com.breakout.check"
+JOBS="com.breakout.daily com.breakout.night com.breakout.check com.breakout.holdings"   # holdings = 밤 22:00 보유 종목 새 소식 (2026-10-17)
 # Claude 가 돌아야 하는 작업 — claude CLI 가 있을 때만 등록한다 (run-claude-job.sh 참고)
 #   com.breakout.review    일   09:00  /review (모의투자 주간 리뷰)
 # start breakout 은 따로 등록하지 않는다 — 아침 스캔 뒤에 morning.sh 가 잇는다.
