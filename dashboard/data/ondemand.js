@@ -1,6 +1,1391 @@
 window.ONDEMAND_DATA = {
   "items": [
     {
+      "ticker": "BLK",
+      "nameKo": "블랙록",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "industryRank": null,
+      "requestedOn": "2026-10-17",
+      "session": "2026-10-16",
+      "at": "2026-10-17T04:37:56.894Z",
+      "verdict": "조건부",
+      "verdictLine": "사모 수수료와 분기 실적은 사상 최대지만, 8주 횡보에서 거래량이 평균의 1.51배로 오히려 늘고 피벗까지 1.93 ADR 남아 조건부다.",
+      "basis": [
+        {
+          "point": "사모시장 수수료율이 전사 평균의 다섯 배라, 운용자산의 2%가 기본보수의 11%를 만든다.",
+          "side": "for",
+          "checkRef": "rv1"
+        },
+        {
+          "point": "고보수 상품 비중이 늘며 매출은 19%, 비용은 14% 늘어 영업이익률이 47.8%로 올랐다.",
+          "side": "for",
+          "checkRef": "pf1"
+        },
+        {
+          "point": "상대강도가 1개월 상위 17.9%, 3개월 24.3%로 업종 안에서 앞서 있다.",
+          "side": "for",
+          "checkRef": "CANSLIM:L"
+        },
+        {
+          "point": "횡보 중 거래량이 줄지 않고 20일 평균의 1.51배로 늘어 기준 0.7배를 크게 벗어났다.",
+          "side": "against",
+          "checkRef": "차트:거래량 마름"
+        },
+        {
+          "point": "저점 상승이 0회이고 진폭이 1.26배로 넓어져 베이스가 조여지지 않았다.",
+          "side": "against",
+          "checkRef": "차트:저점 높아짐"
+        }
+      ],
+      "conditions": [
+        "피벗 1187.17달러를 거래량 20일 평균 2배 이상으로 종가 돌파",
+        "최근 5일 거래량이 20일 평균의 0.7배 이하로 줄어 횡보가 조여지는 것",
+        "시장 판정이 노랑에서 초록으로 전환",
+        "종가가 50일선 1106.41달러 위를 유지"
+      ],
+      "invalidation": "피벗 1187.17달러를 넘은 뒤 예비 손절 1161.01달러 아래로 되밀리면 이 판단은 틀린 것이다. 돌파 없이 50일선 1106.41달러를 종가로 내주는 경우도 마찬가지다.",
+      "dataLimits": "기관 보유 자료가 없고, CNBC 기사 본문은 열리지 않아 제목만 근거로 썼다.",
+      "verdictAdjusted": null,
+      "verdictOriginal": null,
+      "gates": {
+        "blocked": false,
+        "reasons": [],
+        "asOf": {
+          "bar": "2026-10-16",
+          "market": "2026-10-16"
+        }
+      },
+      "setup": {
+        "state": "pre",
+        "grade": "C",
+        "pivot": 1187.17,
+        "stop": 1161.01,
+        "distToPivotPct": -4.45,
+        "distToPivotAdr": -1.93,
+        "riskPerSharePct": 2.2,
+        "extensionAdr": 1.92,
+        "adrPct": 2.31,
+        "breakDate": null,
+        "chase": false,
+        "metrics": {
+          "baseBars": 40,
+          "baseWeeks": 8,
+          "depthPct": 14.3,
+          "priorMovePct": 25.3,
+          "higherLows": 0,
+          "contraction": 1.26,
+          "closeRange10Adr": 2.6,
+          "surf10": 1.92,
+          "surf20": 2.19,
+          "slope20": 0.91,
+          "baseLow": 1017.46,
+          "lastSwingLow": 1040.42
+        },
+        "reasons": [
+          "✗ 선행 상승 +25%",
+          "베이스 8주",
+          "깊이 14.3%",
+          "✗ 저점 상승 0회",
+          "✗ 진폭 1.26배 · 10일 종가폭 2.6 ADR",
+          "✗ 10일선 +1.9 ADR · 20일선 +2.2 ADR",
+          "20일선 기울기 +0.91%"
+        ],
+        "earnings": null
+      },
+      "checks": {
+        "qm": [
+          {
+            "item": "선행 상승",
+            "status": "미충족",
+            "evidence": "선행 상승 25% (약함) · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 8주 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회 · 진폭 1.26배(1 미만이면 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "미충족",
+            "evidence": "베이스 깊이 14.3% · ADR 2.31%의 6.2배 · 선행 상승의 절반 13%"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 1134.38 · 20일선 1077.06 · 50일선 1106.41"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.51배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "피벗 1187.17까지 -4.45% (-1.93 ADR) · 기준 1 ADR 이내"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 2.2% · ADR 2.31%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 1.9 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 노랑(보통)"
+          }
+        ],
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "최근 분기 순이익 전년비 20.2% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "사이트 최근 3분기 순이익 20%/46%/-33% — 모두 늘었으면 최근 1년 성장(부분 충족). 3년 추세·ROE 는 확인 불가"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "확인 불가",
+            "evidence": "N 분석 대기 — 목록 순환 심층 분석이 신제품·신서비스와 그 매출·이익 영향을 증권사 리포트·기사로 조사한다(N 없는 종목부터 하루 14개) · 참고: 52주 고점의 96%"
+          },
+          {
+            "item": "S 수급",
+            "status": "충족",
+            "evidence": "최근 5일 거래량 1.51배(20일 평균 대비) · 오늘 거래대금 2.03배(상승일) · 상장주식 155M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 17.9% · 3M 24.3% · 6M 39.54% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 노랑 · 마진부채 주의(+30% 초과)"
+          }
+        ]
+      },
+      "kis": {
+        "ticker": "BLK",
+        "fetchedAt": "2026-10-17",
+        "source": "한국투자증권 Open API",
+        "per": 26.53,
+        "pbr": 3.2,
+        "eps": 42.76,
+        "bps": 354.32,
+        "shares": 154869000,
+        "marketCapM": 175680,
+        "high52": 1184.5743,
+        "high52Date": "2025-10-16",
+        "low52": 907.591,
+        "low52Date": "2026-03-12",
+        "last": 1134.38,
+        "prevClose": 1120.78,
+        "nameKo": "블랙록",
+        "nameEn": "BLACKROCK INC",
+        "listedOn": null,
+        "exchange": "뉴욕거래소",
+        "listedShares": 154869000
+      },
+      "estimates": {
+        "ticker": "BLK",
+        "url": "https://finance.yahoo.com/quote/BLK/analysis/",
+        "fetchedAt": "2026-10-17",
+        "source": "Yahoo Finance",
+        "periods": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "eps": 15.45,
+            "epsLow": 14.88,
+            "epsHigh": 16.05,
+            "epsYearAgo": 13.16,
+            "epsAnalysts": 11,
+            "epsGrowth": 17.4,
+            "epsCur": "USD",
+            "rev": 7903573330,
+            "revAnalysts": 6,
+            "revYearAgo": 7008000000,
+            "revGrowth": 12.8,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "eps": 14.81,
+            "epsLow": 14,
+            "epsHigh": 15.97,
+            "epsYearAgo": 12.53,
+            "epsAnalysts": 9,
+            "epsGrowth": 18.2,
+            "epsCur": "USD",
+            "rev": 7625175820,
+            "revAnalysts": 5,
+            "revYearAgo": 6698000000,
+            "revGrowth": 13.8,
+            "revCur": "USD"
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "eps": 57.86,
+            "epsLow": 56.84,
+            "epsHigh": 59.09,
+            "epsYearAgo": 48.09,
+            "epsAnalysts": 14,
+            "epsGrowth": 20.3,
+            "epsCur": "USD",
+            "rev": 29303996920,
+            "revAnalysts": 10,
+            "revYearAgo": 24216000000,
+            "revGrowth": 21,
+            "revCur": "USD"
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "eps": 64.66,
+            "epsLow": 60.03,
+            "epsHigh": 67.84,
+            "epsYearAgo": 57.86,
+            "epsAnalysts": 18,
+            "epsGrowth": 11.8,
+            "epsCur": "USD",
+            "rev": 32352318070,
+            "revAnalysts": 11,
+            "revYearAgo": 29303996920,
+            "revGrowth": 10.4,
+            "revCur": "USD"
+          }
+        ],
+        "changes": [
+          {
+            "period": "0q",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 15.45,
+            "d7": 0.7,
+            "d30": 0.1,
+            "d90": 0.6,
+            "ago90": 15.36,
+            "up7": 1,
+            "up30": 1,
+            "down7": 6,
+            "down30": 7
+          },
+          {
+            "period": "+1q",
+            "endDate": "2027-03-31",
+            "cur": "USD",
+            "now": 14.81,
+            "d7": -0.6,
+            "d30": 0.6,
+            "d90": 1.5,
+            "ago90": 14.59,
+            "up7": 1,
+            "up30": 1,
+            "down7": 4,
+            "down30": 5
+          },
+          {
+            "period": "0y",
+            "endDate": "2026-12-31",
+            "cur": "USD",
+            "now": 57.86,
+            "d7": 3.2,
+            "d30": 2.8,
+            "d90": 2.9,
+            "ago90": 56.25,
+            "up7": 2,
+            "up30": 3,
+            "down7": 7,
+            "down30": 8
+          },
+          {
+            "period": "+1y",
+            "endDate": "2027-12-31",
+            "cur": "USD",
+            "now": 64.66,
+            "d7": 0.8,
+            "d30": 0.5,
+            "d90": 1.2,
+            "ago90": 63.9,
+            "up7": 1,
+            "up30": 1,
+            "down7": 8,
+            "down30": 10
+          }
+        ],
+        "surprises": [
+          {
+            "quarter": "2026-09-30",
+            "actual": 15.93,
+            "estimate": 14.3,
+            "surprisePct": 11.4,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-06-30",
+            "actual": 13.91,
+            "estimate": 12.69,
+            "surprisePct": 9.6,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2026-03-31",
+            "actual": 12.53,
+            "estimate": 11.46,
+            "surprisePct": 9.4,
+            "cur": "USD"
+          },
+          {
+            "quarter": "2025-12-31",
+            "actual": 13.16,
+            "estimate": 12.19,
+            "surprisePct": 7.9,
+            "cur": "USD"
+          }
+        ],
+        "beats": 4,
+        "ratings": {
+          "upgrades": 0,
+          "downgrades": 0,
+          "initiations": 1,
+          "ptRaised": 8,
+          "ptLowered": 8,
+          "total": 17,
+          "recent": [
+            {
+              "date": "2026-10-15",
+              "firm": "UBS",
+              "action": "main",
+              "from": "Buy",
+              "to": "Buy",
+              "ptAction": "Raises",
+              "pt": 1300,
+              "ptPrior": 1277
+            },
+            {
+              "date": "2026-10-15",
+              "firm": "Morgan Stanley",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 1531,
+              "ptPrior": 1468
+            },
+            {
+              "date": "2026-10-15",
+              "firm": "JP Morgan",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 1449,
+              "ptPrior": 1435
+            },
+            {
+              "date": "2026-10-15",
+              "firm": "Barclays",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Lowers",
+              "pt": 1410,
+              "ptPrior": 1420
+            },
+            {
+              "date": "2026-10-15",
+              "firm": "Wells Fargo",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Raises",
+              "pt": 1250,
+              "ptPrior": 1230
+            },
+            {
+              "date": "2026-10-15",
+              "firm": "Keefe, Bruyette & Woods",
+              "action": "main",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Raises",
+              "pt": 1310,
+              "ptPrior": 1290
+            },
+            {
+              "date": "2026-10-13",
+              "firm": "Morgan Stanley",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Lowers",
+              "pt": 1468,
+              "ptPrior": 1479
+            },
+            {
+              "date": "2026-10-12",
+              "firm": "TD Cowen",
+              "action": "main",
+              "from": "Hold",
+              "to": "Hold",
+              "ptAction": "Raises",
+              "pt": 1212,
+              "ptPrior": 1190
+            },
+            {
+              "date": "2026-10-09",
+              "firm": "Evercore ISI Group",
+              "action": "main",
+              "from": "Outperform",
+              "to": "Outperform",
+              "ptAction": "Lowers",
+              "pt": 1275,
+              "ptPrior": 1300
+            },
+            {
+              "date": "2026-10-08",
+              "firm": "Wells Fargo",
+              "action": "main",
+              "from": "Overweight",
+              "to": "Overweight",
+              "ptAction": "Lowers",
+              "pt": 1230,
+              "ptPrior": 1245
+            }
+          ]
+        },
+        "nextEarnings": {
+          "date": "2027-01-14",
+          "upcoming": true,
+          "estimated": true
+        }
+      },
+      "cnbc": [
+        {
+          "title": "Stocks making the biggest moves midday: CoreWeave, Dell, HPE & more",
+          "url": "https://www.cnbc.com/2026/10/14/stocks-making-the-biggest-moves-midday-crwv-bsp-dell-hpe-bac.html",
+          "date": "2026-10-14",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "BlackRock's Larry Fink warns a data center moratorium could trigger a recession",
+          "url": "https://www.cnbc.com/2026/10/14/blackrocks-fink-warns-data-center-moratorium-could-spark-a-recession.html",
+          "date": "2026-10-14",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Time to lock in Treasury yields? BlackRock unveils bonds pivot",
+          "url": "https://www.cnbc.com/2026/10/13/blackrock-treasurys-bonds-us-equities.html",
+          "date": "2026-10-13",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Banks are set to report this week. Here's what the options market expects",
+          "url": "https://www.cnbc.com/2026/10/12/banks-are-set-to-report-this-week-heres-what-the-options-market-expects.html",
+          "date": "2026-10-12",
+          "publisher": "CNBC",
+          "kind": "article"
+        },
+        {
+          "title": "Wednesday, October 14, 2026: Cramer says this financial firm is the one investors want to buy",
+          "url": "https://www.cnbc.com/investingclub/video/2026/10/14/wednesday-october-14-2026-cramer-says-this-financial-firm-is-the-one-investors-want-to-buy.html",
+          "date": "2026-10-14",
+          "publisher": "CNBC",
+          "kind": "video"
+        },
+        {
+          "title": "News Update – Market Open",
+          "url": "https://www.cnbc.com/video/2026/10/14/market-open-october-14-2026.html",
+          "date": "2026-10-14",
+          "publisher": "CNBC",
+          "kind": "video"
+        }
+      ],
+      "detail": {
+        "fetchedAt": "2026-10-17",
+        "nameKo": "블랙록",
+        "nameEn": "BLACKROCK INC",
+        "financials": {
+          "profitLabel": "영업이익",
+          "marginLabel": "영업이익률",
+          "unit": "USD",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002012383&type=10-Q",
+          "quarters": [
+            {
+              "periodEnd": "2026-06-30",
+              "derived": false,
+              "revenue": 7084000000,
+              "profit": 2461000000,
+              "netIncome": 1914000000,
+              "margin": 34.7,
+              "yoy": {
+                "revenue": 30.6,
+                "profit": 42.2,
+                "netIncome": 20.2,
+                "priorEnd": "2025-06-30"
+              }
+            },
+            {
+              "periodEnd": "2026-03-31",
+              "derived": false,
+              "revenue": 6698000000,
+              "profit": 2814000000,
+              "netIncome": 2212000000,
+              "margin": 42,
+              "yoy": {
+                "revenue": 27,
+                "profit": 65.7,
+                "netIncome": 46.5,
+                "priorEnd": "2025-03-31"
+              }
+            },
+            {
+              "periodEnd": "2025-12-31",
+              "derived": true,
+              "revenue": 7008000000,
+              "profit": 1661000000,
+              "netIncome": 1127000000,
+              "margin": 23.7,
+              "yoy": {
+                "revenue": 23.4,
+                "profit": -20,
+                "netIncome": -32.5,
+                "priorEnd": "2024-12-31"
+              }
+            },
+            {
+              "periodEnd": "2025-09-30",
+              "derived": false,
+              "revenue": 6509000000,
+              "profit": 1955000000,
+              "netIncome": 1323000000,
+              "margin": 30,
+              "yoy": {
+                "revenue": 25.2,
+                "profit": -2.5,
+                "netIncome": -18.9,
+                "priorEnd": "2024-09-30"
+              }
+            }
+          ]
+        },
+        "news": {
+          "items": [
+            {
+              "title": "BLK Q3 Earnings Call Puts AI Financing and Fees in Focus",
+              "url": "https://www.nasdaq.com/articles/blk-q3-earnings-call-puts-ai-financing-and-fees-focus",
+              "date": "2026-10-15",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "BlackRock (BLK) Q3 2026 Earnings Call Transcript",
+              "url": "https://www.nasdaq.com/articles/blackrock-blk-q3-2026-earnings-call-transcript",
+              "date": "2026-10-14",
+              "publisher": "The Motley Fool"
+            },
+            {
+              "title": "BLK Q3 Earnings Beat, Stock Gains Pre-Market on Revenue & AUM Growth",
+              "url": "https://www.nasdaq.com/articles/blk-q3-earnings-beat-stock-gains-pre-market-revenue-aum-growth",
+              "date": "2026-10-14",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Compared to Estimates, BlackRock (BLK) Q3 Earnings: A Look at Key Metrics",
+              "url": "https://www.nasdaq.com/articles/compared-estimates-blackrock-blk-q3-earnings-look-key-metrics",
+              "date": "2026-10-14",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "BlackRock (BLK) Tops Q3 Earnings and Revenue Estimates",
+              "url": "https://www.nasdaq.com/articles/blackrock-blk-tops-q3-earnings-and-revenue-estimates",
+              "date": "2026-10-14",
+              "publisher": "Zacks"
+            },
+            {
+              "title": "Blackrock Inc. Reveals Climb In Q3 Bottom Line",
+              "url": "https://www.nasdaq.com/articles/blackrock-inc-reveals-climb-q3-bottom-line",
+              "date": "2026-10-14",
+              "publisher": "RTTNews"
+            },
+            {
+              "title": "Blackrock Q3 26 Earnings Conference Call At 7:30 AM ET",
+              "url": "https://www.nasdaq.com/articles/blackrock-q3-26-earnings-conference-call-7-30-am-et",
+              "date": "2026-10-14",
+              "publisher": "RTTNews"
+            }
+          ]
+        },
+        "filings": [
+          {
+            "form": "8-K",
+            "filingDate": "2026-10-14",
+            "itemsKo": [
+              "실적 발표",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526420979/blk-20261014.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-07-15",
+            "itemsKo": [
+              "실적 발표",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526304013/blk-20260715.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-06-30",
+            "itemsKo": [
+              "기타 중요사건",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526290830/d108689d8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-05-22",
+            "itemsKo": [
+              "주주총회 표결"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526237027/d30456d8k.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-04-14",
+            "itemsKo": [
+              "실적 발표",
+              "Reg FD 공시",
+              "재무제표·첨부"
+            ],
+            "isEarnings": true,
+            "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526153768/blk-20260414.htm"
+          },
+          {
+            "form": "8-K",
+            "filingDate": "2026-04-03",
+            "itemsKo": [
+              "중요 계약 체결",
+              "2.03",
+              "재무제표·첨부"
+            ],
+            "isEarnings": false,
+            "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526142112/d101747d8k.htm"
+          }
+        ],
+        "krReports": {
+          "total": 6,
+          "reports": [
+            {
+              "date": "2026-10-15",
+              "broker": "키움증권",
+              "analyst": "김승혁",
+              "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장",
+              "summary": "- 블랙록은 세계 최대 자산운용사로 ETF·사모·대체투자를 운용하는 금융 기업- FY3Q26은 고보수 자금 유입과 채권 수요 확대로 매출·영업이익·EPS 사상 최대- AI 인프라 자금 수요와 작년 약정분의 집행 전환으로 사모 수수료 성장 지속 전망",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+              "pages": "6"
+            },
+            {
+              "date": "2026-07-16",
+              "broker": "키움증권",
+              "analyst": "김승혁",
+              "title": "[블랙록 (NYS:BLK)] 1차 해소된 사모시장 우려",
+              "summary": "- 블랙록은 세계 최대 자산운용사로 ETF·사모·대체투자를 운용하는 금융 기업- FY2Q26 기준 AUM과 순유입액은 사상 최고치를 기록했고 사모신용 역시 안정적- 제한적인 사모시장 환매 요청과 수수료율 성장이 확인될 경우 긍정적 성장 전망",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkkxxlqzlzgeggcgxeceq.pdf",
+              "pages": "5"
+            },
+            {
+              "date": "2026-04-17",
+              "broker": "키움증권",
+              "analyst": "김승혁",
+              "title": "[블랙록 (NYS:BLK)] 단기 변동 vs 구조적 성장",
+              "summary": "- 블랙록은 세계 최대 자산운용사로 ETF·사모·대체투자를 운용하는 금융 기업- FY1Q26 실적은 전 부문 컨센서스를 상회하며 조정 영업이익률 44.5% 기록- 인수 효과 본격화되고 유동성 환경 개선되며 긍정적 성장 흐름 전망",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxilclmlxxzmmgcgxeceq.pdf",
+              "pages": "6"
+            },
+            {
+              "date": "2026-04-15",
+              "broker": "한화증권",
+              "analyst": "박제인",
+              "title": "[블랙록 (NYS:BLK)] 실적으로 증명, 운용사 주가 반등 신호 확인",
+              "summary": "- 블랙록의 FY 1Q26 매출액은 67억 달러(YoY +27%), EPS는 12.53 달 러(YoY +10.9%)로 각각 컨센서스를 3.1%, 9.1% 상회했다. 영업이익 은 28.1억 달러(YoY +65.7%), 영업이익률은 42%(YoY +9.8%p)를 기 록했다. 조정 영업이익률은 44.5%(YoY +2.3%p), 성과 수수료 및 관 련 보상을 제외한 반복 수수료 기반 이익률은 45.6%(YoY +1.8%p)을 달성했다. 1분기 AUM 순유입액은 1,300억 달러(YoY +54%), 분기말 AUM은 13.9조 달러(YoY +20%)였다. 1분기에 4.5억 달러 규모의 자 사주를 매입했고, 분기 배당금을 10% 인상(주당 5.73 달러)했다.- 블랙록은 45% 이상의 조정 영업이익률을 목표로 하고 있으며, 장기적 으로는 46~47%까지 확대할 계획이다. 2030년까지 5% 이상의 본업 운용보수 성장률 달성을 목표로 하고 있으며, 2026년 남은 기간 동안 에 분기당 최소 4.5억 달러 규모의 자사주 매입을 지속할 것이라고 언 급했다. 기술 서비스 부문은 장기적으로 두 자릿수 초중반의 연간 계 약 금액(ACV) 유지 목표를 제시했다.",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxgmgqilgekqcgcgxeceq.pdf",
+              "pages": "6"
+            },
+            {
+              "date": "2026-01-16",
+              "broker": "키움증권",
+              "analyst": "김승혁",
+              "title": "[블랙록 (NYS:BLK)] 재차 달성한 사상 최고 수준의 AUM",
+              "summary": "- 블랙록은 세계 최대 자산운용사로 ETF·사모·대체투자를 운용하는 금융 기업- FY4Q25 기준 AUM 순유입액은 사상 최고치를 경신하며 긍정적 실적을 기록- 지속적 AUM 확장 및 고마진 수익구조 확보 기반 고무적인 흐름 기대",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxlqkixgicxziegcgxeceq.pdf",
+              "pages": "7"
+            },
+            {
+              "date": "2025-11-05",
+              "broker": "키움증권",
+              "analyst": "조민주",
+              "title": "[블랙록 (NYS:BLK)] 투자 포인트",
+              "summary": "- 투자 포인트: 1)트럼프 정권 하에 금융 규제 및 M&A 심사 기준 완화와 법인세 인하 효과로 캐피탈 시장 가속화 및 기업들의 M&A가 활발해지면서 동사와 같은 자산 관리 및 투자 서비스 기업에 수혜. OBBBA를 통해 법인세율 인하 조항 영구적 연장, R&D 비용 즉시 공제와 100% 보너스 감가상각 영구화 등이 적용되면 기업의 현금흐름 개선 뿐만 아니라 시중의 유동성을 높이는 데에도 일조할 전망- 2030년까지 사모 시장과 기술 분야 매출 비중 30%를 목표로 설정. 사모 신용 및 인프라 투자에 중점을 둔 HPS Investment Partners와 Global Infrastructure Partners 인수해 상품 라인업 확대- 실적 및 밸류에이션: FY3Q25 모든 실적 지표 컨센서스 상회. 특히 AUM이 YoY +17% 급등한 13.5조 달러로 사상 최고치 경신. 단순한 시장 반등 때문이 아닌 ETF 중심 자금 유입이 확대된 결과",
+              "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgillmmmkeilxgcgxeceq.pdf",
+              "pages": "3"
+            }
+          ]
+        }
+      },
+      "rank": {
+        "m1": 17.9,
+        "m3": 24.3,
+        "m6": 39.54
+      },
+      "verified": {
+        "checked": 6,
+        "ok": 25,
+        "unverified": 0,
+        "dead": 0,
+        "stripped": 0
+      },
+      "numberCut": 1,
+      "deep": {
+        "status": "done",
+        "ticker": "BLK",
+        "company": "ETF·채권 상품에서 받는 운용보수가 본업이고, 여기에 사모·인프라 같은 대체투자 수수료와 리스크 관리 시스템(알라딘) 구독료가 더해진다. 최근 성장 축은 수수료율이 높은 사모시장과 액티브·채권 ETF다.",
+        "lead": "3분기 실적이 매출·이익률 모두 분기 최대를 찍으면서 관심 종목이 됐다. 가장 강한 근거는 수수료율이 전사 평균의 다섯 배인 사모시장 자금이 실제로 집행되기 시작했다는 점이다. 가장 큰 걱정은 차트 쪽으로, 8주 횡보 동안 거래량이 줄지 않았고 저점도 높아지지 않았다.",
+        "newsNarrative": "10월 14일 발표한 3분기 실적에서 매출이 77.52억 달러로 1년 전보다 19.1% 늘며 분기 최대를 기록했다. 수수료율이 높은 사모·액티브 상품으로 자금이 몰린 덕에 조정 영업이익률이 47.8%까지 올랐다. 발표 뒤 10월 15일 종가는 1120.78달러로 전날 1073.79달러에서 올라섰다. 같은 날 래리 핑크 회장은 데이터센터 건설이 막히면 경기 침체가 온다고 공개 경고했다.",
+        "recentNews": [
+          {
+            "id": "n1",
+            "statement": "블랙록이 10월 14일 3분기 실적을 공시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "BlackRock, Inc. Form 8-K (2026-10-14)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526420979/blk-20261014.htm",
+                "date": "2026-10-14",
+                "quote": "On October 14, 2026, BlackRock, Inc. (the \"Company\") reported results of operations for the three and nine months ended September 30, 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n2",
+            "statement": "3분기 매출·조정 영업이익·조정 EPS가 모두 컨센서스를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+                "date": "2026-10-15",
+                "quote": "FY3Q26(9월말) 실적은 매출액 77.52억 달러(YoY +19.1%, QoQ +9.4%, 컨센서스 대비 +4.8%), 조정 영업이익 33.30 억 달러(YoY +27.1%, QoQ +14.2%, 컨센서스 대비 +9.3%), 조정 순이익 26.2 억 달러(YoY +37.4%, QoQ +14.4%, 컨센서스 대비 +11.6%), 조정 EPS 15.93 달러(YoY +37.9%, QoQ +14.5%, 컨센서스 대비 +12.6%)를 기록했다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n3",
+            "statement": "실적 발표 직후 장전 주가가 올랐다는 보도가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "BLK Q3 Earnings Beat, Stock Gains Pre-Market on Revenue & AUM Growth",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/blk-q3-earnings-beat-stock-gains-pre-market-revenue-aum-growth",
+                "date": "2026-10-14",
+                "quote": "BLK Q3 Earnings Beat, Stock Gains Pre-Market on Revenue & AUM Growth",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n4",
+            "statement": "래리 핑크 회장이 데이터센터 건설 중단이 경기 침체를 부를 수 있다고 경고했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "BlackRock's Larry Fink warns a data center moratorium could trigger a recession",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/14/blackrocks-fink-warns-data-center-moratorium-could-spark-a-recession.html",
+                "date": "2026-10-14",
+                "quote": "BlackRock's Larry Fink warns a data center moratorium could trigger a recession",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "n5",
+            "statement": "블랙록이 국채·채권 쪽으로 자산배분 의견을 바꿨다는 보도가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Time to lock in Treasury yields? BlackRock unveils bonds pivot",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/13/blackrock-treasurys-bonds-us-equities.html",
+                "date": "2026-10-13",
+                "quote": "Time to lock in Treasury yields? BlackRock unveils bonds pivot",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "financialsNarrative": "매출과 이익률이 함께 올라가는 중이다. 3분기 매출은 77.52억 달러로 1년 전보다 19.1% 늘었고, 조정 영업이익률은 47.8%로 3.2%p 개선됐다. 핵심은 자산보다 수수료가 더 빨리 늘었다는 점으로, 최근 1년 순유입으로 운용자산이 6% 늘 때 기본보수는 10% 증가했다. 회계기준 순이익은 1,659백만 달러로 전년 동기보다 25.4% 늘었지만 직전 분기보다는 13.3% 줄었다.",
+        "financials": {
+          "revenueTrend": [
+            {
+              "id": "f1",
+              "statement": "분기 매출이 전년 동기 대비 19.1%, 직전 분기 대비 9.4% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장 — 블랙록 상세실적표",
+                  "publisher": "키움증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+                  "date": "2026-10-15",
+                  "quote": "매출액 6,509 7,084 7,752 19.1 9.4",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "f2",
+              "statement": "운용자산이 전년 동기 대비 15.0% 늘어 수수료 기반이 커졌다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장 — 블랙록 상세실적표",
+                  "publisher": "키움증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+                  "date": "2026-10-15",
+                  "quote": "AUM(백만 달러) 13,463,625 15,344,624 15,488,263 15.0 0.9",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitTrend": [
+            {
+              "id": "p1",
+              "statement": "회계기준 순이익은 전년 동기 대비 25.4% 늘었으나 직전 분기 대비로는 13.3% 줄었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장 — 블랙록 상세실적표",
+                  "publisher": "키움증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+                  "date": "2026-10-15",
+                  "quote": "BlackRock 귀속 순이익 1,323 1,914 1,659 25.4 -13.3",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "p2",
+              "statement": "자산 증가보다 수수료 증가가 더 빨랐다 — 저보수 자금이 나가고 고보수 자금이 들어왔기 때문이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장",
+                  "publisher": "키움증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+                  "date": "2026-10-15",
+                  "quote": "최근 1 년 동사의 운용자산은 순유입만으로 6% 늘었지만, 기본보수는 10% 증가했다. 저보수 자금이 빠지고 고보수 자금이 들어온 결과다.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "guidance": [
+            {
+              "id": "g1",
+              "statement": "회사는 조정 영업이익률 목표와 2030년까지의 본업 운용보수 성장률 목표, 분기 자사주 매입 계획을 제시했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[블랙록 (NYS:BLK)] 실적으로 증명, 운용사 주가 반등 신호 확인",
+                  "publisher": "한화증권(연합인포맥스)",
+                  "url": "https://rreport.einfomax.co.kr/report/eqqxgmgqilgekqcgcgxeceq.pdf",
+                  "date": "2026-04-15",
+                  "quote": "블랙록은 45% 이상의 조정 영업이익률을 목표로 하고 있으며, 장기적 으로는 46~47%까지 확대할 계획이다. 2030년까지 5% 이상의 본업 운용보수 성장률 달성을 목표로 하고 있으며, 2026년 남은 기간 동안 에 분기당 최소 4.5억 달러 규모의 자사주 매입을 지속할 것이라고 언 급했다.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "estimateRevisions": {
+            "direction": "mixed",
+            "claims": []
+          }
+        },
+        "estimatesNarrative": "애널리스트들의 올해 EPS 추정치는 57.86달러로 최근 7일 3.2%, 30일 2.8% 올랐다. 3분기 EPS가 예상보다 11.4% 높게 나왔고 최근 4개 분기 모두 예상을 넘었는데, 이 서프라이즈는 수수료 수익이 늘어난 데서 나온 것이라 일회성으로 보기 어렵다. 다만 내년 추정치 상향폭은 30일 0.5%에 그쳤고 목표주가도 상향 8건·하향 8건으로 갈려, 올해 호조가 내년까지 이어진다고는 아직 보지 않는다.",
+        "newDrivers": [
+          {
+            "what": "AI 데이터센터 자금을 대는 사모시장 — 은행·공모채권시장이 못 받는 대형·장기 자금을 보험사·연기금 돈으로 집행하는 구조",
+            "kind": "industry",
+            "stage": "이익 기여 중",
+            "since": "2026-10",
+            "basis": [
+              {
+                "id": "b1",
+                "statement": "회사는 50년 경력에서 처음으로 진짜 자본 부족을 보고 있다고 밝혔다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+                    "date": "2026-10-15",
+                    "quote": "동사는 “50 년 경력에서 처음으로 진짜 자본 부족을 보고 있다”고 밝혔다. 미 연방부채가 40 조 달러 안팎으로 늘어 국채가 자금을 흡수하는 가운데, 미국 AI 인프라에도 7~9 조 달러가 필요하기 때문이다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "b2",
+                "statement": "보험사들이 고등급 사모 솔루션으로 옮겨가는 흐름이 연말과 내년에 가속된다고 회사가 밝혔다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+                    "date": "2026-10-15",
+                    "quote": "동사가 보험사들이 고등급 사모 솔루션으로 갈아타는 흐름이 연말과 2027 년에 가속된다고 밝힌 것이 이러한 맥락이다. Meta 엘패소 데이터센터가 대표적 사례다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [
+              {
+                "id": "rv1",
+                "statement": "사모시장 수수료율이 전사 평균의 다섯 배라, 운용자산의 2%가 기본보수의 11%를 만든다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+                    "date": "2026-10-15",
+                    "quote": "동사가 받는 사모시장 수수료율은 약 80bp 로 전사 평균 16bp 의 다섯 배이다. 운용자산 2%가 기본보수의 11%를 차지한 비결이다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "rv2",
+                "statement": "아직 집행되지 않은 약정 자금이 남아 있어 신규 모금 없이도 기본보수가 예약돼 있다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+                    "date": "2026-10-15",
+                    "quote": "중요한 부분은 미집행 자금이 현재 960 억 달러로 사모 수수료 자산 3,360 억 달러의 29%에 달한다는 점이다. 이에, 80bp를 적용하면 연 7~8억 달러의 기본보수가 신규 모금 없이도 예약돼 있는 셈이다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "profitImpact": [
+              {
+                "id": "pf1",
+                "statement": "고보수 상품 비중이 늘면서 매출 증가율이 비용 증가율을 앞질러 영업이익률이 올랐다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+                    "date": "2026-10-15",
+                    "quote": "고보수 상품은 매출 19%, 비용 14%의 차이를 만들어 영업이익률 47.8%(+3.2%p), 성과보수 제외 마진 48.6%(+2.3%p) 상승했다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "expectedGrowth": [
+              {
+                "id": "eg1",
+                "statement": "회사 목표는 조정 영업이익률 45% 이상, 장기 46~47%이며 2030년까지 본업 운용보수 5% 이상 성장이다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[블랙록 (NYS:BLK)] 실적으로 증명, 운용사 주가 반등 신호 확인",
+                    "publisher": "한화증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqqxgmgqilgekqcgcgxeceq.pdf",
+                    "date": "2026-04-15",
+                    "quote": "블랙록은 45% 이상의 조정 영업이익률을 목표로 하고 있으며, 장기적 으로는 46~47%까지 확대할 계획이다. 2030년까지 5% 이상의 본업 운용보수 성장률 달성을 목표로 하고 있으며, 2026년 남은 기간 동안 에 분기당 최소 4.5억 달러 규모의 자사주 매입을 지속할 것이라고 언 급했다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "eg2",
+                "statement": "키움증권이 인용한 블룸버그 컨센서스는 2027년 매출과 영업이익 성장률을 두 자릿수로 본다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장 — 향후 실적 컨센서스 표",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+                    "date": "2026-10-15",
+                    "quote": "매출액 7,842 11.9% 7,459 11.4% 29,108 20.2% 32,459 11.5%",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "counter": [
+              {
+                "id": "c2",
+                "statement": "약정부터 집행까지 시차가 길어 수수료 인식이 늦어질 수 있다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+                    "date": "2026-10-15",
+                    "quote": "Aligned 데이터센터(400 억 달러)를 작년 10 월에 발표하고 올해 7 월에야 종결한 것이 이러한 시차를 보여준다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "what": "고금리가 만든 채권·액티브 ETF 자금 이동 — 지수 전체보다 특정 분야에 집중하는 상품으로 돈이 옮겨간 변화",
+            "kind": "industry",
+            "stage": "매출 발생 중",
+            "since": "2026-10",
+            "basis": [
+              {
+                "id": "b3",
+                "statement": "금리가 오르자 장기 수익률을 확보하려는 자금이 채권으로 몰렸다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+                    "date": "2026-10-15",
+                    "quote": "고금리 환경에 의한 이자수익 역시 신규 자금을 끌어들였다. 10 년물 금리가 5.3%까지 오르자 높은 수익률을 장기간 확보할 기회로 받아들인 자금 유입이 공격적으로 이루어졌다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "revenueImpact": [
+              {
+                "id": "rv3",
+                "statement": "채권 쪽 순유입이 가격 하락분의 약 3분의 2를 상쇄했고, 대부분 채권 ETF로 들어왔다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+                    "date": "2026-10-15",
+                    "quote": "이에 3 분기 채권 운용자산은 가격 하락으로 1,174 억 달러 줄었지만 782 억 달러가 순유입돼 감소분의 약 3 분의 2 를 상쇄했다. 유입액 중 610 억 달러는 채권 ETF 에 집중됐다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "rv4",
+                "statement": "올해 유입액의 절반 가까이가 수수료율이 높은 상품으로 들어왔고 액티브 ETF 분기 유입은 사상 최대였다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+                    "date": "2026-10-15",
+                    "quote": "이에 올해 유입액 5,240 억 달러 중 2,700 억 달러가 수수료율 10~60bp 상품으로 들어왔다. 3 분기 액티브 ETF 유입은 220 억 달러로 사상 최대였고, 반도체·한국 ETF 도 유입 최상위에 오른 것이 이를 반증한다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "profitImpact": [],
+            "expectedGrowth": [],
+            "counter": [
+              {
+                "id": "c3",
+                "statement": "수수료율이 낮은 기관 인덱스 주식 계좌에서는 세 분기 연속 자금이 빠져나갔다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+                    "date": "2026-10-15",
+                    "quote": "수수료율 3bp 안팎의 기관 인덱스 주식 계좌에서는 3 분기 270 억 달러가 빠지며 세 분기 연속 유출됐다.",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "nNarrative": "새로운 것은 AI 데이터센터에 돈을 대는 사모시장이다. 은행은 규제자본 때문에 대형 자산을 오래 들고 있지 못해, 보험사·연기금 돈을 모은 운용사가 그 수요를 받고 있다. 이 사모시장 수수료율은 약 80bp로 전사 평균 16bp의 다섯 배라 운용자산의 2%가 기본보수의 11%를 만든다. 고보수 상품 덕에 매출은 19% 늘 때 비용은 14%만 늘어 영업이익률이 47.8%로 올랐다. 미집행 자금 960억 달러가 남아 있어 신규 모금 없이도 연 7~8억 달러 기본보수가 예약돼 있고, 회사는 조정 영업이익률 45% 이상을 목표로 제시했다.",
+        "nVerdict": "충족",
+        "canslim": [
+          {
+            "item": "C 최근 분기 이익",
+            "status": "미충족",
+            "evidence": "최근 분기 순이익 전년비 20.2% · 기준 +25% (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "A 연간 이익 성장",
+            "status": "미충족",
+            "evidence": "최근 3분기 순이익 20%/46%/-33% — 한 분기가 역성장이라 최근 1년 성장도 성립하지 않는다. 3년 추세·ROE 는 확인 불가 (순이익 기준, 주식 수 변동 미반영)"
+          },
+          {
+            "item": "N 신제품·신서비스",
+            "status": "충족",
+            "evidence": "AI 인프라 자금을 받는 사모시장 — 수수료율 80bp로 전사 평균 16bp의 5배, 미집행 자금 960억 달러 (키움증권 2026-10-15)"
+          },
+          {
+            "item": "S 수급",
+            "status": "충족",
+            "evidence": "최근 5일 거래량 1.51배(20일 평균 대비) · 오늘 거래대금 2.03배(상승일) · 상장주식 155M주(한국투자증권) · 유통주식은 확인 불가"
+          },
+          {
+            "item": "L 주도주",
+            "status": "충족",
+            "evidence": "상대강도 상위 1M 17.9% · 3M 24.3% · 6M 39.54% · 기준 상위 20%"
+          },
+          {
+            "item": "I 기관 보유",
+            "status": "확인 불가",
+            "evidence": "기관 보유 자료를 받지 않는다"
+          },
+          {
+            "item": "M 시장 방향",
+            "status": "미충족",
+            "evidence": "한별 판정 노랑 · 마진부채 주의(+30% 초과)"
+          }
+        ],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "수수료율이 낮은 기관 인덱스 주식 계좌에서 세 분기 연속 자금이 빠지고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+                "date": "2026-10-15",
+                "quote": "수수료율 3bp 안팎의 기관 인덱스 주식 계좌에서는 3 분기 270 억 달러가 빠지며 세 분기 연속 유출됐다. 최근 1 년 주식시장 상승(+19%)에 따른 비중 조정의 결과다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r2",
+            "statement": "금리가 오르면 채권 운용자산이 평가손으로 줄어 수수료 기반이 깎인다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+                "date": "2026-10-15",
+                "quote": "이에 3 분기 채권 운용자산은 가격 하락으로 1,174 억 달러 줄었지만 782 억 달러가 순유입돼 감소분의 약 3 분의 2 를 상쇄했다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r3",
+            "statement": "개인용 사모대출 에버그린 펀드에 환매 요청이 남아 있어 유입 전환은 아직 전망 단계다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[블랙록 (NYS:BLK)] 오히려 효자가 된 사모시장",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgecgqemkemeegcgxeceq.pdf",
+                "date": "2026-10-15",
+                "quote": "동사가 환매 요청이 남아 있던 에버그린 펀드(약 200 억 달러)가 4 분기부터 유입으로 돌아설 것이라 전망하는 근거는 여기에 있다.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "structuralRisks": [
+          "수익이 운용자산 규모에 연동돼, 주식·채권 시장이 내리면 수수료가 함께 줄어든다.",
+          "저보수 인덱스 상품은 수수료율이 몇 bp 수준이라 가격 경쟁 압력이 상시적이다.",
+          "사모 수수료는 약정이 아니라 집행 시점에 붙어, 거래가 지연되면 수수료 인식도 미뤄진다."
+        ],
+        "chartCheck": [
+          {
+            "item": "선행 상승",
+            "status": "미충족",
+            "evidence": "선행 상승 25% (약함) · 기준 30%↑"
+          },
+          {
+            "item": "횡보 길이",
+            "status": "충족",
+            "evidence": "베이스 8주 · 기준 2~8주"
+          },
+          {
+            "item": "저점 높아짐",
+            "status": "미충족",
+            "evidence": "저점 상승 0회 · 진폭 1.26배(1 미만이면 좁아짐)"
+          },
+          {
+            "item": "깊이",
+            "status": "미충족",
+            "evidence": "베이스 깊이 14.3% · ADR 2.31%의 6.2배 · 선행 상승의 절반 13%"
+          },
+          {
+            "item": "이평선 위",
+            "status": "충족",
+            "evidence": "종가 1134.38 · 20일선 1077.06 · 50일선 1106.41"
+          },
+          {
+            "item": "거래량 마름",
+            "status": "미충족",
+            "evidence": "최근 5일 거래량 = 20일 평균의 1.51배 · 기준 0.7 이하"
+          },
+          {
+            "item": "돌파 거래량",
+            "status": "확인 불가",
+            "evidence": "아직 돌파 전 — 돌파일에 20일 평균 2배가 실리는지 본다"
+          },
+          {
+            "item": "피벗 거리",
+            "status": "미충족",
+            "evidence": "피벗 1187.17까지 -4.45% (-1.93 ADR) · 기준 1 ADR 이내"
+          },
+          {
+            "item": "손절 폭",
+            "status": "충족",
+            "evidence": "예비 손절 폭 2.2% · ADR 2.31%"
+          },
+          {
+            "item": "10일선 이격",
+            "status": "충족",
+            "evidence": "10일선 위 1.9 ADR · 기준 2 ADR 이하"
+          },
+          {
+            "item": "시장",
+            "status": "미충족",
+            "evidence": "한별 판정 노랑(보통)"
+          }
+        ],
+        "chartObservation": {
+          "base": "횡보는 8주째로 기준 범위 2~8주의 끝에 걸쳐 있다. 베이스 깊이는 14.3%로 하루 평균 변동폭 2.31%의 6.2배이고, 선행 상승 25.3%의 절반을 넘는다. 저점이 높아진 횟수는 0회이고 진폭은 1.26배로 좁아지지 않았다.",
+          "volume": "횡보 중 거래량이 마르지 않았다 — 최근 5일 거래량이 20일 평균의 1.51배다. 10월 5~12일에는 32만~61만 주 사이였는데 13일 65만 주, 14일 109만 주, 15일 123만 주, 16일 114만 주로 늘었다. 가장 최근 봉의 거래량은 20일 평균의 1.94배다.",
+          "position": "종가 1134.38달러는 피벗 1187.17달러보다 4.45% 아래이고, 하루 변동폭 기준으로는 1.93배 아래다. 예비 손절 1161.01달러는 피벗 바로 아래에 놓여 현재가보다 위에 있다. 10일선 위로는 1.9 ADR 떠 있고 손절까지의 폭은 2.2%다.",
+          "maStack": "종가 1134.38달러는 20일선 1077.06, 50일선 1106.41, 150일선 1056.83을 모두 위에 두고 있다. 다만 20일선이 50일선보다 아래라 선들의 순서가 아직 맞지 않고, 20일선 기울기는 +0.91%다.",
+          "note": "3개월 그림에서 9월 고점 뒤 10월 내내 좁은 폭으로 오르내린 구간이 보이고, 마지막 네 봉의 거래량 막대가 앞 구간보다 길어진 것이 확인된다 — 그림과 숫자가 일치한다."
+        },
+        "entryChecklist": [
+          "피벗 1187.17달러를 거래량 20일 평균 2배 이상으로 종가 돌파하는지",
+          "최근 5일 거래량이 20일 평균의 1.51배에서 0.7배 이하로 줄며 횡보가 다시 조여지는지",
+          "종가가 50일선 1106.41달러 위를 계속 지키는지",
+          "시장 판정이 노랑에서 초록으로 바뀌고 마진부채 경고가 풀리는지",
+          "기관 인덱스 주식 계좌의 자금 유출이 네 분기째로 이어지는지"
+        ],
+        "earningsRisk": "3분기 실적을 2026-10-14에 이미 발표해 당분간 실적 공백이고, 달력에도 예정된 발표일이 없다. 다음 발표는 2027-01-14로 추정돼 있어 실적 직전 매수 위험은 지금 낮다.",
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1",
+            "r4"
+          ],
+          "reasons": [
+            "c1: statement의 '자금 수요 자체가 꺾인다'는 quote('경기 침체')에 없는 근거 없는 추론",
+            "r4: statement의 '사모 자금 수요가 함께 꺾일 수 있다'는 quote('경기 침체')에 없는 추론"
+          ],
+          "leadFixed": true,
+          "nNarrativeFixed": true
+        },
+        "leadOriginal": "3분기 실적이 매출·이익률 모두 분기 최대를 찍으면서 관심 종목이 됐다. 가장 강한 근거는 수수료율이 전사 평균의 다섯 배인 사모시장 자금이 실제로 집행되기 시작했다는 점이다. 가장 큰 걱정은 차트 쪽으로, 8주 횡보 동안 거래량이 줄지 않았고 저점도 높아지지 않았다. 데이터센터 건설이 막히면 이 사모 자금 수요 자체가 꺾인다.",
+        "nNarrativeOriginal": "새로운 것은 AI 데이터센터에 돈을 대는 사모시장이다. 은행은 규제자본 때문에 대형 자산을 오래 들고 있지 못해, 보험사·연기금 돈을 모은 운용사가 그 수요를 받고 있다. 이 사모시장 수수료율은 약 80bp로 전사 평균 16bp의 다섯 배라 운용자산의 2%가 기본보수의 11%를 만든다. 고보수 상품 덕에 매출은 19% 늘 때 비용은 14%만 늘어 영업이익률이 47.8%로 올랐다. 미집행 자금 960억 달러가 남아 있어 신규 모금 없이도 연 7~8억 달러 기본보수가 예약돼 있고, 회사는 조정 영업이익률 45% 이상을 목표로 제시했다. 데이터센터 건설 제한이 퍼지면 이 구조의 전제가 되는 자금 수요가 꺾인다.",
+        "consensus": {
+          "saleCy": 21.01,
+          "saleNy": 10.4,
+          "epsCy": 20.32,
+          "epsNy": 11.75,
+          "cyTrend": 2.8,
+          "nyTrend": 0.54
+        },
+        "researchedOn": "2026-10-17",
+        "session": "2026-10-16",
+        "carried": false,
+        "source": "ondemand"
+      }
+    },
+    {
       "ticker": "MRNA",
       "nameKo": "모더나",
       "sector": "Healthcare",
@@ -5837,5 +7222,5 @@ window.ONDEMAND_DATA = {
       }
     }
   ],
-  "updated": "2026-10-16T08:58:29.456Z"
+  "updated": "2026-10-17T04:37:56.899Z"
 };
