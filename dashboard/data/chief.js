@@ -1,5 +1,5 @@
 window.CHIEF_DATA = {
-  "generated": "2026-10-17",
+  "generated": "2026-10-18",
   "market": {
     "verdict": "yellow",
     "ko": "🟡 10일선이 20일선 위지만 오르는 힘이 약해짐 — 넣는 돈을 줄일 때",
@@ -17,22 +17,22 @@ window.CHIEF_DATA = {
       "unevaluated": [
         "HPE-C"
       ],
-      "reentryBlocked": 2
+      "reentryBlocked": 3
     },
     "breakouts": 10,
     "epCandidates": 26,
     "chartCheck": 10,
     "chartCheckShown": 10,
     "plans": {
-      "evaluated": 83,
+      "evaluated": 79,
       "near": 2,
       "watch": 0,
       "A": 0,
       "B": 0,
       "blocked": 2,
-      "post": 12,
-      "far": 49,
-      "noBase": 19,
+      "post": 13,
+      "far": 43,
+      "noBase": 20,
       "noBars": 1
     }
   },
@@ -376,6 +376,7 @@ window.CHIEF_DATA = {
       ]
     },
     "reusedFrom": null,
-    "reuseAll": null
+    "reuseAll": null,
+    "carried": true
   }
 };

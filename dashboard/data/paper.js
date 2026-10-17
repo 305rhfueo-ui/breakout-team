@@ -1,5 +1,5 @@
 window.PAPER_DATA = {
-  "generated": "2026-10-17T00:45:41.656Z",
+  "generated": "2026-10-17T22:12:40.315Z",
   "rulesVersion": "0.3",
   "slipPct": 0.2,
   "minSample": 30,

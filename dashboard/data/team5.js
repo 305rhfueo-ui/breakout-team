@@ -1,5 +1,5 @@
 window.TEAM5_DATA = {
-  "generated": "2026-10-17",
+  "generated": "2026-10-18",
   "siteUpdated": "2026-10-17 00:35:12 UTC",
   "degraded": false,
   "d25": "2026-09-22",
@@ -3840,7 +3840,7 @@ window.TEAM5_DATA = {
       "report": {
         "status": "done",
         "researchedOn": "2026-10-17",
-        "carried": false,
+        "carried": true,
         "headline": "근거 없음 — 출처 검증을 통과한 상위 이유가 없다",
         "summary": "",
         "whyLeading": [
@@ -4186,7 +4186,7 @@ window.TEAM5_DATA = {
       "report": {
         "status": "done",
         "researchedOn": "2026-10-17",
-        "carried": false,
+        "carried": true,
         "headline": "의료기기는 애보트의 전기생리·암 진단 매출 호조가 업종 순위를 끌어올렸지만, 근거는 이 한 종목에 치우쳐 있다.",
         "summary": "의료기기 업종은 순위 10위로, 25거래일 전보다 55계단 올랐다. 대표 종목 애보트가 2분기에 매출 증가율 13.0%를 내고 전기생리와 암 진단이 이를 이끌었다고 키움증권이 전했다. 대신증권은 하반기 성장 가속이 실제로 나타나는지가 3분기 실적의 핵심이라고 봤다. 반면 존슨앤드존슨의 의료기기 부문은 네 분기 연속 성장이 둔화돼, 업종 전반으로 확산되는지는 이어서 확인해야 한다.",
         "whyLeading": [

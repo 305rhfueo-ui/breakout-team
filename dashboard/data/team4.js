@@ -1,5 +1,5 @@
 window.TEAM4_DATA = {
-  "generated": "2026-10-17",
+  "generated": "2026-10-18",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2,
@@ -207,7 +207,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -273,7 +273,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -339,7 +339,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -405,7 +405,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -471,7 +471,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -537,7 +537,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -603,7 +603,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -669,7 +669,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -735,7 +735,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -829,7 +829,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -895,7 +895,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -961,7 +961,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1027,7 +1027,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1093,7 +1093,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1171,7 +1171,7 @@ window.TEAM4_DATA = {
         "categoryName": "매크로·정책·산업 돌파",
         "isHighlight": true,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1237,7 +1237,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1369,7 +1369,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1435,7 +1435,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1567,7 +1567,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1633,7 +1633,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1725,7 +1725,7 @@ window.TEAM4_DATA = {
         "categoryName": "대형 파트너십·공급계약",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1791,7 +1791,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     },
     {
@@ -1857,7 +1857,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-17",
-        "carried": false
+        "carried": true
       }
     }
   ],
@@ -1900,31 +1900,14 @@ window.TEAM4_DATA = {
   "research_coverage": {
     "done": 26,
     "total": 26,
-    "cap": 23,
+    "cap": null,
     "pending": 0,
     "failed": 0,
-    "carried": 3,
+    "carried": 26,
     "ineligible": 0,
-    "note": "그중 3종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 26종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
-    "highlights": [
-      {
-        "ticker": "BLK",
-        "category": 1,
-        "oneLine": "10월 14일 3분기 이익과 매출이 모두 시장 예상보다 좋았고, 운용자산(AUM) 증가가 부각됐다."
-      },
-      {
-        "ticker": "TSM",
-        "category": 1,
-        "oneLine": "4분기 매출 전망 523억~543억 달러, 매출총이익률 65~67%로 제시. 2나노 공정 확대가 수요를 받친다."
-      }
-    ],
-    "sectorSignal": "실적 호재 2건이 금융(자산운용)과 반도체 위탁생산에 하나씩 나뉘어 있어 한 업종 쏠림은 보이지 않습니다. 산업 기술 돌파로 분류된 종목은 없습니다.",
-    "caution": "오늘 후보 29개 중 호재로 분류된 종목은 두 개뿐이고 나머지 대부분은 '뉴스 없는 거래량 급증'으로 근거가 없습니다. 분류는 공시·뉴스 기준이며 차트 상태는 보지 않았으니, 주가 위치와 실적 발표 일정은 직접 확인하세요.",
-    "researchedOn": "2026-10-16"
-  },
-  "llm": {
     "highlights": [
       {
         "ticker": "TRV",
@@ -1935,12 +1918,5 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적 호재는 TRV 1건뿐이라 특정 업종에 몰렸다고 보기 어렵다. 산업 기술 돌파 같은 큰 호재는 이번 목록에 없다.",
     "caution": "호재로 꼽힌 건 TRV 한 종목이고, 나머지 대부분은 뉴스 근거 없이 거래량만 튄 종목이다. 실적이 예상보다 좋았다는 사실만 확인됐을 뿐, 주가가 이미 올랐는지나 차트 상태는 보지 않았으니 직접 확인해야 한다.",
     "researchedOn": "2026-10-17"
-  },
-  "reusedFrom": null,
-  "byCategory": {
-    "1": 2,
-    "3": 1,
-    "5": 1,
-    "6": 22
   }
 };

@@ -1,5 +1,5 @@
 window.TEAM6_DATA = {
-  "generated": "2026-10-17",
+  "generated": "2026-10-18",
   "sessionDate": "2026-10-16",
   "rulesVersion": "0.3",
   "regime": "yellow",
@@ -251,9 +251,9 @@ window.TEAM6_DATA = {
       "distToPivotAdr": 0.95,
       "extensionAdr": 2.32,
       "chase": false,
-      "adrPct": 2.86,
+      "adrPct": 2.87,
       "ma10": 234.91,
-      "dollarVol20M": 131.2,
+      "dollarVol20M": 131.3,
       "liquid": true,
       "reasons": [
         "선행 상승 +102%",
@@ -287,6 +287,66 @@ window.TEAM6_DATA = {
       "barsSinceBreak": 1
     },
     {
+      "ticker": "EOG",
+      "name": null,
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "grade": "C",
+      "state": "post",
+      "asOf": "2026-10-16",
+      "price": 158.01,
+      "pivot": 154.16,
+      "pivotDate": "2026-09-15",
+      "stop": 150.91,
+      "riskPerSharePct": 2.11,
+      "weightPct": 11.9,
+      "weightCapped": false,
+      "distToPivotPct": 2.5,
+      "distToPivotAdr": 1.19,
+      "extensionAdr": 2.48,
+      "chase": false,
+      "adrPct": 2.1,
+      "ma10": 149.77,
+      "dollarVol20M": 422.4,
+      "liquid": true,
+      "reasons": [
+        "✗ 선행 상승 +21%",
+        "베이스 4.8주",
+        "깊이 10.9%",
+        "✗ 저점 상승 0회",
+        "✗ 진폭 0.98배 · 10일 종가폭 4.7 ADR",
+        "✗ 10일선 +2.4 ADR · 20일선 +2.9 ADR",
+        "20일선 기울기 +0.02%"
+      ],
+      "fails": [
+        "priorMove",
+        "higherLows",
+        "tight",
+        "surf"
+      ],
+      "metrics": {
+        "baseBars": 24,
+        "baseWeeks": 4.8,
+        "depthPct": 10.9,
+        "priorMovePct": 21.1,
+        "higherLows": 0,
+        "contraction": 0.98,
+        "closeRange10Adr": 4.7,
+        "surf10": 2.41,
+        "surf20": 2.91,
+        "slope20": 0.02,
+        "baseLow": 137.35,
+        "lastSwingLow": 137.35
+      },
+      "catalyst": {
+        "category": 5,
+        "researchedOn": "2026-10-17"
+      },
+      "earnings": null,
+      "breakDate": "2026-10-14",
+      "barsSinceBreak": 2
+    },
+    {
       "ticker": "NSIT",
       "name": "인사이트 엔터프라이즈",
       "sector": "Technology",
@@ -307,7 +367,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 3.59,
       "ma10": 163.13,
-      "dollarVol20M": 55.6,
+      "dollarVol20M": 55.7,
       "liquid": true,
       "reasons": [
         "선행 상승 +64%",
@@ -333,7 +393,10 @@ window.TEAM6_DATA = {
         "baseLow": 151.82,
         "lastSwingLow": 153.62
       },
-      "catalyst": null,
+      "catalyst": {
+        "category": 6,
+        "researchedOn": "2026-10-17"
+      },
       "earnings": null,
       "breakDate": "2026-10-13",
       "barsSinceBreak": 3
@@ -630,7 +693,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 4.93,
       "ma10": 170.19,
-      "dollarVol20M": 1610,
+      "dollarVol20M": 1611.2,
       "liquid": true,
       "reasons": [
         "선행 상승 +69%",
@@ -682,7 +745,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 4.28,
       "ma10": 438.12,
-      "dollarVol20M": 1276.5,
+      "dollarVol20M": 1280.3,
       "liquid": true,
       "reasons": [
         "선행 상승 +80%",
@@ -736,7 +799,7 @@ window.TEAM6_DATA = {
       "chase": false,
       "adrPct": 3.9,
       "ma10": 460.22,
-      "dollarVol20M": 990.3,
+      "dollarVol20M": 990.6,
       "liquid": true,
       "reasons": [
         "선행 상승 +81%",
@@ -768,17 +831,17 @@ window.TEAM6_DATA = {
       "barsSinceBreak": 9
     }
   ],
-  "postTotal": 12,
+  "postTotal": 13,
   "counts": {
-    "evaluated": 83,
+    "evaluated": 79,
     "near": 2,
     "watch": 0,
     "A": 0,
     "B": 0,
     "blocked": 2,
-    "post": 12,
-    "far": 49,
-    "noBase": 19,
+    "post": 13,
+    "far": 43,
+    "noBase": 20,
     "noBars": 1
   },
   "noBars": [
@@ -921,15 +984,5 @@ window.TEAM6_DATA = {
     "watch": 2,
     "checked": 0,
     "errors": []
-  },
-  "deep_coverage": {
-    "done": 0,
-    "total": 0,
-    "cap": 14,
-    "pending": 0,
-    "failed": 0,
-    "carried": 0,
-    "ineligible": 0,
-    "note": "전 종목(0) 조사 완료"
   }
 };

@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-18",
+  "sessionDate": "2026-10-16",
+  "rulesVersion": "0.3",
+  "regime": "yellow",
+  "items": [
+    {
+      "shadowOnly": true,
+      "shadowBook": "far",
+      "ticker": "AUGO",
+      "grade": "B",
+      "pivot": 93.49,
+      "stopPre": 89.27,
+      "adrPct": 4.84,
+      "weightPct": 5.5,
+      "ma10": 86.23,
+      "metrics": {
+        "baseBars": 31,
+        "baseWeeks": 6.2,
+        "depthPct": 17.6,
+        "priorMovePct": 94.6,
+        "higherLows": 1,
+        "contraction": 1.36,
+        "closeRange10Adr": 2.3,
+        "surf10": 0.23,
+        "surf20": 0.61,
+        "slope20": -0.02,
+        "baseLow": 77,
+        "lastSwingLow": 80.28
+      },
+      "catalyst": null,
+      "price": 87.2,
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "score": 53.3,
+      "reasons": [
+        "선행 상승 +95%",
+        "베이스 6.2주",
+        "깊이 17.6%",
+        "저점 상승 1회",
+        "진폭 1.36배 · 10일 종가폭 2.3 ADR",
+        "10일선 +0.2 ADR · 20일선 +0.6 ADR",
+        "✗ 20일선 기울기 -0.02%"
+      ]
+    }
+  ]
+}
