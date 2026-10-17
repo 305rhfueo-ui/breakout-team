@@ -1,0 +1,843 @@
+{
+ "ticker": "RDDT",
+ "date": "2026-10-17",
+ "session": "2026-10-16",
+ "source": "list",
+ "plan": {
+  "ticker": "RDDT",
+  "name": "레딧",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "price": 159.36000061035156,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 166.18,
+  "stop": 158.32,
+  "distToPivotPct": -6.04,
+  "distToPivotAdr": -1.2,
+  "riskPerSharePct": 4.73,
+  "adrPct": 5.03,
+  "extensionAdr": 0.17,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 26,
+   "baseWeeks": 5.2,
+   "depthPct": 15,
+   "priorMovePct": 22.9,
+   "higherLows": 0,
+   "contraction": 1.15,
+   "closeRange10Adr": 1.4,
+   "surf10": 0.17,
+   "surf20": 0.5,
+   "slope20": -0.13,
+   "baseLow": 141.32,
+   "lastSwingLow": 141.32
+  },
+  "reasons": [
+   "✗ 선행 상승 +23%",
+   "베이스 5.2주",
+   "깊이 15%",
+   "✗ 저점 상승 0회",
+   "진폭 1.15배 · 10일 종가폭 1.4 ADR",
+   "10일선 +0.2 ADR · 20일선 +0.5 ADR",
+   "✗ 20일선 기울기 -0.13%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.042727204744232326,
+    "pct": 74.88728584310189
+   },
+   "m3": {
+    "v": -0.06467897615122446,
+    "pct": 33.047790802524794
+   },
+   "m6": {
+    "v": 0.0288591983880004,
+    "pct": 48.196573489630296
+   }
+  },
+  "ret1m": 4.27,
+  "ret3m": -6.47,
+  "ret6m": 2.89,
+  "marketCap": "30.66B",
+  "volx": null,
+  "volSurgeWk": 0.84,
+  "high52": 60.48,
+  "newHigh52": false,
+  "adr": 4.9,
+  "div50": 3.28,
+  "div200": -3.54,
+  "targetStatus": false,
+  "saleCy": 53.97,
+  "saleNy": 31.9,
+  "epsCy": 105.86,
+  "epsNy": 31.66,
+  "cyTrend": 0.2,
+  "nyTrend": 0.91,
+  "est": {
+   "cyCur": 5.39359,
+   "cy30": 5.3829,
+   "nyCur": 7.10122,
+   "ny30": 7.03708
+  },
+  "fs": {
+   "sale": [
+    61.1,
+    69.08,
+    69.65
+   ],
+   "ni": [
+    183.15,
+    679.8,
+    254.19
+   ],
+   "opm": [
+    28.79,
+    27.57,
+    31.95
+   ],
+   "updated": "2026-09-08 06:34:20"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-17",
+  "nameKo": "레딧",
+  "nameEn": "REDDIT INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001713445&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 804905000,
+     "profit": 231716000,
+     "netIncome": 252848000,
+     "margin": 28.8,
+     "yoy": {
+      "revenue": 61.1,
+      "profit": 242.2,
+      "netIncome": 183.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 663411000,
+     "profit": 182912000,
+     "netIncome": 203981000,
+     "margin": 27.6,
+     "yoy": {
+      "revenue": 69.1,
+      "profit": 4586.4,
+      "netIncome": 679.8,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 725607000,
+     "profit": 231828000,
+     "netIncome": 251882000,
+     "margin": 31.9,
+     "yoy": {
+      "revenue": 69.7,
+      "profit": 338.5,
+      "netIncome": 253.2,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 584911000,
+     "profit": 138542000,
+     "netIncome": 162663000,
+     "margin": 23.7,
+     "yoy": {
+      "revenue": 67.9,
+      "profit": 1921.3,
+      "netIncome": 444.9,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here's Why Reddit Inc. (RDDT) Fell More Than Broader Market",
+     "url": "https://www.nasdaq.com/articles/heres-why-reddit-inc-rddt-fell-more-broader-market",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Reddit Inc. (RDDT) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/reddit-inc-rddt-attracting-investor-attention-here-what-you-should-know",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Reddit vs. Trade Desk: Which Media Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/reddit-vs-trade-desk-which-media-stock-better-buy-2026",
+     "date": "2026-10-14",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "AppLovin vs. Reddit: Which Technology Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/applovin-vs-reddit-which-technology-stock-better-buy-2026-1",
+     "date": "2026-10-13",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Reddit Inc. (RDDT) Surpasses Market Returns: Some Facts Worth Knowing",
+     "url": "https://www.nasdaq.com/articles/reddit-inc-rddt-surpasses-market-returns-some-facts-worth-knowing",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Reddit Inc. (RDDT) Advances While Market Declines: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/reddit-inc-rddt-advances-while-market-declines-some-information-investors",
+     "date": "2026-10-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Reddit Inc. (RDDT) Stock Falls Amid Market Uptick: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/reddit-inc-rddt-stock-falls-amid-market-uptick-what-investors-need-know",
+     "date": "2026-10-02",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "GOOGL's Prospects Ride on AI Initiatives: Can It Beat RDDT and META?",
+     "url": "https://www.nasdaq.com/articles/googls-prospects-ride-ai-initiatives-can-it-beat-rddt-and-meta",
+     "date": "2026-09-29",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-12",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000107/rddt-20260812.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000098/rddt-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-10",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000088/rddt-20260608.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000067/rddt-20260430.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-05",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000020/rddt-20260205.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-10-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000225/rddt-20251030.htm"
+   }
+  ],
+  "krReports": {
+   "total": 4,
+   "reports": [
+    {
+     "date": "2026-08-14",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[레딧 (NYS:RDDT)] [Issue & News] S&P500 지수 편입 확정, 주가 급등 - 성장 둔화 논쟁 속 패시브 수급 이벤트",
+     "summary": "- 레딧 S&P500 편입 확정, 주가 급등- 성장률 둔화 지속, 3분기 가이던스는 48%로 낮아져- 자사주 매입 확대로 희석 사실상 중단, 현금여력 견조",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcccliimmgmggcgxeceq.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-05-06",
+     "broker": "신한투자증권",
+     "analyst": "최승환",
+     "title": "[레딧 (NYS:RDDT)] 대중화를 넘어 상업화의 길로",
+     "summary": "- 2026년 1분기 실적발표 익일 주가 13% 상승. 7개 분기 연속 매출 60% 이상 성장. 광고단가(P) 고성장했으나 미국 유저 성장이 관건. 연초 Agentic AI 발 업종 조정에 주가는 부진했으나, 미국 유저 성장 회복 및 데이터 라이선싱 사업의 매출확대 확인될 시 주가 반등 지속 가능 전망- 1Q26 매출액 6억 6,300만달러(+69%, 이하 YoY), GAAP EPS 1.01달러 (+74%)로 컨센서스 대비 각각 9%, 80% 상회. 광고 매출 6억 2,500만달 러(+74%). 퍼포먼스 광고 비중 60% 상회, Reddit Max Campaigns(AI 기 반 광고 자동화 플랫폼)를 통해 주요 소셜플랫폼 중 가장 빠른 성장률 기 록- DAU 글로벌 1억 2,680만명(+17%). 미국 5,350만명(+7%), 미국외 7,330 만명(+26%)으로 해외에서 빠른 증가세. 다만 광고수익 핵심 동인인 미국 DAU 전분기대비 1% 증가에 그쳤음. ARPU는 글로벌 5.23$(+44%), 미국 9.8$(+57%), 미국외 1.9$(+39%)로 외형보다 수익성이 빠르게 개선.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlcgeclmikgzkgcgxeceq.pdf",
+     "pages": "4"
+    },
+    {
+     "date": "2025-11-06",
+     "broker": "신한투자증권",
+     "analyst": "심지현",
+     "title": "[레딧 (NYS:RDDT)] 구글과의확대되는 계약, LLM의 러브콜",
+     "summary": "- 레딧은 다양한 흥미와 관심사를 중심으로 형성된 '서브레딧'에서 유저들이 자발적으로 콘텐츠를 업로드하고 의사소통하며 활동하는 온라인 커뮤니티 플랫폼. 2024년 3월 공모가 34달러로 상장, 1년 만에 공모가 대비 500% 상승- 현 시점의 주요 수익원은 유저 데이터를 기반으로 한 광고(98%). 다만 '18년까지 광고 수익화를 우선시하지 않았으며, 아직까지 경쟁 플랫폼 대비 광고량이 가벼워 확장 여력 충분- 최근 챗GPT 인용감소 연구 결과 이후 주가가 급락했으나 위키피디아 등 다른 외부 사이트 역시 비슷한 수치 감소가 관찰되었기 때문에 LLM의 레딧 접근량 전체가 줄어들었다기 보다는 접근 방식이나 수치 집계 방식의 변동일 수도 있다고 판단, 회복될 노이즈라는 의견",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgilmlieizleegcgxeceq.pdf",
+     "pages": "1"
+    },
+    {
+     "date": "2025-11-03",
+     "broker": "신한투자증권",
+     "analyst": "최승환",
+     "title": "[레딧 (NYS:RDDT)] 3Q25 Review, 머니타이즈 가속화",
+     "summary": "- 주력 광고매출이 증가하며 1Q25~3Q25 GAAP 영업이익률 1.0%, 13.6%, 23.7%로 뚜렷한 개선세. 유저 유입 확대 → 이용 증가 → 광고 단가 상승 의 선순환을 입증.- 3Q25 매출액 5.8억달러(+67.9% YoY), GAAP EPS 0.8달러로 컨센서스 대 비 각각 6.5%, 53.8% 상회하는 호실적. GAAP 영업이익률 23.7%로 역대 최고치 큰 폭 경신- 경영진은 낙관적인 태도 유지. 질문을 자연어로 입력하면 자동으로 게시 글, 댓글을 찾아 요약해주는 ‘Reddit Answer’서비스의 일일 쿼리 양이 전 분기대비 20% 증가",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxgezqcxzqklzegcgxeceq.pdf",
+     "pages": "4"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "RDDT-report1.pdf",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-08-14",
+   "title": "[레딧 (NYS:RDDT)] [Issue & News] S&P500 지수 편입 확정, 주가 급등 - 성장 둔화 논쟁 속 패시브 수급 이벤트",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqcccliimmgmggcgxeceq.pdf",
+   "pages": "5"
+  },
+  {
+   "file": "RDDT-report2.pdf",
+   "broker": "신한투자증권",
+   "analyst": "최승환",
+   "date": "2026-05-06",
+   "title": "[레딧 (NYS:RDDT)] 대중화를 넘어 상업화의 길로",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlcgeclmikgzkgcgxeceq.pdf",
+   "pages": "4"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Reddit co-founder says tech industry has been 'tone deaf' in explaining AI risks",
+   "url": "https://www.cnbc.com/2026/09/16/reddit-ai-risk-humanity-warning-tech.html",
+   "date": "2026-09-16",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's lightning round: Buy SpaceX and 'give it to your kids'",
+   "url": "https://www.cnbc.com/2026/08/25/cramers-lightning-round-buy-spacex-and-give-it-to-your-kids.html",
+   "date": "2026-08-25",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Sandisk, Applied Materials, Reddit",
+   "url": "https://www.cnbc.com/2026/08/14/stocks-making-the-biggest-moves-midday-sndk-amat-avav-csco-rddt.html",
+   "date": "2026-08-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves premarket: Reddit, Applied Materials, Sandisk, Wayfair",
+   "url": "https://www.cnbc.com/2026/08/14/stocks-making-the-biggest-moves-premarket-rddt-amat-sndk-w.html",
+   "date": "2026-08-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Reddit stock jumps on inclusion in S&P 500",
+   "url": "https://www.cnbc.com/2026/08/13/reddit-shares-jump-11percent-on-inclusion-in-sp-500.html",
+   "date": "2026-08-13",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Myspace bets on a comeback to rival giants amid growing social media fatigue",
+   "url": "https://www.cnbc.com/2026/08/09/myspace-comeback-rival-social-media-giants.html",
+   "date": "2026-08-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's lightning round: Buy Carvana",
+   "url": "https://www.cnbc.com/2026/08/03/cramers-lightning-round-buy-carvana.html",
+   "date": "2026-08-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Lightning Round: Reddit is sitting at a great price, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/10/15/lightning-round-reddit-is-sitting-at-a-great-price-says-jim-cramer.html",
+   "date": "2026-10-15",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "RDDT",
+  "fetchedAt": "2026-10-17",
+  "source": "한국투자증권 Open API",
+  "per": 36.3,
+  "pbr": 9.14,
+  "eps": 4.3,
+  "bps": 17.08,
+  "shares": 146103200,
+  "marketCapM": 22813,
+  "high52": 263.4999,
+  "high52Date": "2026-01-09",
+  "low52": 119.27,
+  "low52Date": "2026-03-30",
+  "last": 156.14,
+  "prevClose": 159.36,
+  "nameKo": "레딧",
+  "nameEn": "REDDIT INC",
+  "listedOn": "2024-03-21",
+  "exchange": "뉴욕거래소",
+  "listedShares": 146103200
+ },
+ "estimates": {
+  "ticker": "RDDT",
+  "url": "https://finance.yahoo.com/quote/RDDT/analysis/",
+  "fetchedAt": "2026-10-17",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 1.32,
+    "epsLow": 1.2,
+    "epsHigh": 1.48,
+    "epsYearAgo": 0.8,
+    "epsAnalysts": 23,
+    "epsGrowth": 65.5,
+    "epsCur": "USD",
+    "rev": 874988530,
+    "revAnalysts": 26,
+    "revYearAgo": 584911000,
+    "revGrowth": 49.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 1.83,
+    "epsLow": 1.38,
+    "epsHigh": 2.11,
+    "epsYearAgo": 1.24,
+    "epsAnalysts": 23,
+    "epsGrowth": 47.6,
+    "epsCur": "USD",
+    "rev": 1045442010,
+    "revAnalysts": 26,
+    "revYearAgo": 725607000,
+    "revGrowth": 44.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 5.39,
+    "epsLow": 4.76,
+    "epsHigh": 6.25,
+    "epsYearAgo": 2.62,
+    "epsAnalysts": 29,
+    "epsGrowth": 105.9,
+    "epsCur": "USD",
+    "rev": 3391294150,
+    "revAnalysts": 31,
+    "revYearAgo": 2202506000,
+    "revGrowth": 54,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 7.1,
+    "epsLow": 4.35,
+    "epsHigh": 8.59,
+    "epsYearAgo": 5.39,
+    "epsAnalysts": 29,
+    "epsGrowth": 31.7,
+    "epsCur": "USD",
+    "rev": 4472984900,
+    "revAnalysts": 32,
+    "revYearAgo": 3391294150,
+    "revGrowth": 31.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 1.32,
+    "d7": 0.7,
+    "d30": 0.4,
+    "d90": 5.2,
+    "ago90": 1.26,
+    "up7": 1,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.83,
+    "d7": 0.5,
+    "d30": 0.8,
+    "d90": 5.2,
+    "ago90": 1.74,
+    "up7": 1,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 5.39,
+    "d7": 0.3,
+    "d30": 0.2,
+    "d90": 8.3,
+    "ago90": 4.98,
+    "up7": 1,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 7.1,
+    "d7": 0.5,
+    "d30": 0.9,
+    "d90": 9,
+    "ago90": 6.52,
+    "up7": 1,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.25,
+    "estimate": 0.96,
+    "surprisePct": 29.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.01,
+    "estimate": 0.56,
+    "surprisePct": 79.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.24,
+    "estimate": 0.93,
+    "surprisePct": 33.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 0.8,
+    "estimate": 0.52,
+    "surprisePct": 53.8,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 2,
+   "ptLowered": 8,
+   "total": 13,
+   "recent": [
+    {
+     "date": "2026-10-09",
+     "firm": "Needham",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 300,
+     "ptPrior": 300
+    },
+    {
+     "date": "2026-09-18",
+     "firm": "DA Davidson",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 185,
+     "ptPrior": 200
+    },
+    {
+     "date": "2026-08-21",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 210,
+     "ptPrior": 240
+    },
+    {
+     "date": "2026-07-31",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 185,
+     "ptPrior": 200
+    },
+    {
+     "date": "2026-07-31",
+     "firm": "Oppenheimer",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 200,
+     "ptPrior": 225
+    },
+    {
+     "date": "2026-07-31",
+     "firm": "B. Riley Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 270,
+     "ptPrior": 250
+    },
+    {
+     "date": "2026-07-31",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Lowers",
+     "pt": 142,
+     "ptPrior": 187
+    },
+    {
+     "date": "2026-07-31",
+     "firm": "Cantor Fitzgerald",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 170,
+     "ptPrior": 200
+    },
+    {
+     "date": "2026-07-31",
+     "firm": "Piper Sandler",
+     "action": "reit",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 195,
+     "ptPrior": 215
+    },
+    {
+     "date": "2026-07-31",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 275,
+     "ptPrior": 265
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-29",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-16",
+  "numbers": {
+   "price": 156.14,
+   "ma20": 152.25,
+   "ma50": 154.4,
+   "ma150": 159.88,
+   "distMA50": 1.13,
+   "periodHigh": 282.95,
+   "pullbackFromHigh": -44.82,
+   "volRatio20": 0.91,
+   "dryUpRatio": 1.01
+  },
+  "last10": [
+   {
+    "d": "2026-10-05",
+    "o": 150.73,
+    "h": 152.85,
+    "l": 148.24,
+    "c": 150.42,
+    "v": 5199300,
+    "clsPos": 47,
+    "gapPct": 1.94
+   },
+   {
+    "d": "2026-10-06",
+    "o": 151.5,
+    "h": 151.5,
+    "l": 147.78,
+    "c": 148.95,
+    "v": 3837500,
+    "clsPos": 31,
+    "gapPct": 0.72
+   },
+   {
+    "d": "2026-10-07",
+    "o": 147.26,
+    "h": 154.52,
+    "l": 146.25,
+    "c": 152.71,
+    "v": 2687400,
+    "clsPos": 78,
+    "gapPct": -1.13
+   },
+   {
+    "d": "2026-10-08",
+    "o": 152.81,
+    "h": 157.3,
+    "l": 152,
+    "c": 156.47,
+    "v": 4573600,
+    "clsPos": 84,
+    "gapPct": 0.07
+   },
+   {
+    "d": "2026-10-09",
+    "o": 161.06,
+    "h": 162.96,
+    "l": 158.32,
+    "c": 159.91,
+    "v": 5059700,
+    "clsPos": 34,
+    "gapPct": 2.93
+   },
+   {
+    "d": "2026-10-12",
+    "o": 160.9,
+    "h": 162,
+    "l": 151.42,
+    "c": 159.93,
+    "v": 5102400,
+    "clsPos": 80,
+    "gapPct": 0.62
+   },
+   {
+    "d": "2026-10-13",
+    "o": 155.51,
+    "h": 164.18,
+    "l": 154.99,
+    "c": 155.29,
+    "v": 4925000,
+    "clsPos": 3,
+    "gapPct": -2.76
+   },
+   {
+    "d": "2026-10-14",
+    "o": 154.15,
+    "h": 156.37,
+    "l": 148.46,
+    "c": 148.6,
+    "v": 3557200,
+    "clsPos": 2,
+    "gapPct": -0.73
+   },
+   {
+    "d": "2026-10-15",
+    "o": 146.42,
+    "h": 159.66,
+    "l": 145.51,
+    "c": 159.36,
+    "v": 4037600,
+    "clsPos": 98,
+    "gapPct": -1.47
+   },
+   {
+    "d": "2026-10-16",
+    "o": 160,
+    "h": 164.87,
+    "l": 153.35,
+    "c": 156.14,
+    "v": 3831579,
+    "clsPos": 24,
+    "gapPct": 0.4
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/RDDT-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/RDDT-6m.png"
+ },
+ "market": {
+  "verdict": "yellow",
+  "ko": "🟡 10일선이 20일선 위지만 오르는 힘이 약해짐 — 넣는 돈을 줄일 때",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

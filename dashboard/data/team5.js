@@ -3837,7 +3837,32 @@ window.TEAM5_DATA = {
           "name": "모호크 인더스트리스"
         }
       ],
-      "report": null
+      "report": {
+        "status": "done",
+        "researchedOn": "2026-10-17",
+        "carried": false,
+        "headline": "근거 없음 — 출처 검증을 통과한 상위 이유가 없다",
+        "summary": "",
+        "whyLeading": [
+          {
+            "id": "w0",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "leaders": [],
+        "risks": [],
+        "sourceGap": "증권사 리포트 없음, CNBC 기사는 본문을 열 수 없어 제목만 확인되어 상위 원인과 주도주 근거를 쓰지 못함.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w0"
+          ],
+          "reason": "유일한 근거가 '근거 없음'으로 명시되어 있어 제거됨. 업종 순위만 유지."
+        },
+        "evidenceCount": 10
+      }
     },
     {
       "key": "Healthcare|Medical Devices",
@@ -4158,7 +4183,131 @@ window.TEAM5_DATA = {
           "name": null
         }
       ],
-      "report": null
+      "report": {
+        "status": "done",
+        "researchedOn": "2026-10-17",
+        "carried": false,
+        "headline": "의료기기는 애보트의 전기생리·암 진단 매출 호조가 업종 순위를 끌어올렸지만, 근거는 이 한 종목에 치우쳐 있다.",
+        "summary": "의료기기 업종은 순위 10위로, 25거래일 전보다 55계단 올랐다. 대표 종목 애보트가 2분기에 매출 증가율 13.0%를 내고 전기생리와 암 진단이 이를 이끌었다고 키움증권이 전했다. 대신증권은 하반기 성장 가속이 실제로 나타나는지가 3분기 실적의 핵심이라고 봤다. 반면 존슨앤드존슨의 의료기기 부문은 네 분기 연속 성장이 둔화돼, 업종 전반으로 확산되는지는 이어서 확인해야 한다.",
+        "whyLeading": [
+          {
+            "id": "w1",
+            "statement": "애보트는 2분기 매출이 전년보다 13.0% 늘었고, 심장 리듬 치료 기기(전기생리)와 암 진단이 성장을 이끌었다. 조정 EPS도 시장 예상을 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[애보트 래브러토리스 (NYS:ABT)] 다시 밟는 성장 가속 페달, 험악한 시장 속 피난처",
+                "publisher": "키움증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqlkzlxexclkikmgcgxeceq.pdf",
+                "date": "2026-07-21",
+                "quote": "- 진단·의료기기·뉴트리션·의약품 아우르는 헬스케어 기업, 2Q26 매출 YoY +13.0%- 전기생리 +14.0%·암 진단 +13.3% 견인, 조정 EPS $1.31 컨센서스 +2.3% 상회- 26년 조정 EPS +2.3% 상향 조정, 수익성 개선 기대로 실적 당일 주가 +10.7%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "대신증권은 애보트의 Libre(연속혈당측정기)와 심장 디바이스, 암 진단이 성장을 이끌 것으로 봤다. 하반기에 성장이 실제로 빨라지는지가 3분기 실적의 관건이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[애보트 래브러토리스 (NYS:ABT)] [26Q3 Preview] 반등의 절반만 왔다, 나머지 절반은 이번에 나온다, 투자의견 중립 유지",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmeqxzigekxmqmgcgxeceq.pdf",
+                "date": "2026-10-12",
+                "quote": "- 3Q 실적은 상반기 4.3%에 그친 비교 가능 성장률이 하반기 실제로 가속하는지 확인이 핵심- Libre와 심장 디바이스, 암 진단이 성장을 이끄는 반면 영양과 감염진단 부진은 전체 성장률의 제약 요인- 주가 신뢰 회복을 위해서는 영양 회복과 7% 이상 성장 확인이 필요",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "leaders": [
+          {
+            "ticker": "ABT",
+            "role": "업종 내 최대 규모(시가총액 181.50B)로, 전기생리·암 진단 성장이 업종 반등의 중심에 있는 종목",
+            "why": [
+              {
+                "id": "l1a",
+                "statement": "애보트는 2분기 매출이 전년보다 13.0% 늘었고 전기생리(+14.0%)와 암 진단(+13.3%)이 성장을 이끌었다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[애보트 래브러토리스 (NYS:ABT)] 다시 밟는 성장 가속 페달, 험악한 시장 속 피난처",
+                    "publisher": "키움증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqlkzlxexclkikmgcgxeceq.pdf",
+                    "date": "2026-07-21",
+                    "quote": "- 진단·의료기기·뉴트리션·의약품 아우르는 헬스케어 기업, 2Q26 매출 YoY +13.0%- 전기생리 +14.0%·암 진단 +13.3% 견인, 조정 EPS $1.31 컨센서스 +2.3% 상회- 26년 조정 EPS +2.3% 상향 조정, 수익성 개선 기대로 실적 당일 주가 +10.7%",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              },
+              {
+                "id": "l1b",
+                "statement": "차세대 좌심방이 폐색기 Amulet 360이 유럽 CE 마크를 받았다. 대신증권은 이를 전기생리 부문 성장동력을 재확인한 사례로 봤다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "[애보트 래브러토리스 (NYS:ABT)] [Issue & News] 차세대 Amulet 360 좌심방이 폐색기 CE 마크 획득 - 유럽 우선 출시로 EP 성장동력 재확인",
+                    "publisher": "대신증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqlqlqkzecqceeegcgxeceq.pdf",
+                    "date": "2026-08-27",
+                    "quote": "- Amulet 360 좌심방이 폐색기, 유럽 CE 마크 획득- 美 FDA 승인과 별개, EP 성장동력 재확인 성격- 가이던스·컨센서스 영향은 제한적, H2 카탈리스트가 관건",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 27.73,
+            "rnk1": 30.97,
+            "name": "애보트 래브러토리스"
+          }
+        ],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "존슨앤드존슨의 의료기기 부문은 3분기 성장률이 2.5%로 네 분기 연속 둔화됐다. 업종 수요가 전반적으로 꺾이면 강세가 이어지기 어렵다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[존슨앤드존슨 (XTR:JNJ)] [26Q3 Review] 의약품 7.9% 성장, 의료기기 네 분기 연속 둔화, 투자의견 매수 유지",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmemiiczemxllzgcgxeceq.pdf",
+                "date": "2026-10-13",
+                "quote": "- 매출 254억 달러, 가이던스 4분기 연속 상향- 조정 EPS 2.59달러, 딜 비용에 7.5% 역성장- MedTech +2.5%로 네 분기 연속 감속",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r2",
+            "statement": "애보트도 영양과 감염진단 부진이 전체 성장률을 제약하고 있다. 대신증권은 7% 이상의 성장이 확인돼야 주가 신뢰가 회복된다고 봤다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[애보트 래브러토리스 (NYS:ABT)] [26Q3 Preview] 반등의 절반만 왔다, 나머지 절반은 이번에 나온다, 투자의견 중립 유지",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmeqxzigekxmqmgcgxeceq.pdf",
+                "date": "2026-10-12",
+                "quote": "- 3Q 실적은 상반기 4.3%에 그친 비교 가능 성장률이 하반기 실제로 가속하는지 확인이 핵심- Libre와 심장 디바이스, 암 진단이 성장을 이끄는 반면 영양과 감염진단 부진은 전체 성장률의 제약 요인- 주가 신뢰 회복을 위해서는 영양 회복과 7% 이상 성장 확인이 필요",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "sourceGap": "증권사 리포트는 애보트와 존슨앤드존슨 두 건뿐이고 CNBC 본문은 열람하지 못해, 다른 종목의 강세 이유는 근거가 없다.",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 claim의 숫자·날짜·사실이 출처 인용문과 정확히 일치. 회사의 실제 행동(제품 개발·규제 승인·실적) 기반의 주장들임."
+        },
+        "evidenceCount": 45
+      }
     }
   ]
 };

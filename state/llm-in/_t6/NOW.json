@@ -1,0 +1,844 @@
+{
+ "ticker": "NOW",
+ "date": "2026-10-17",
+ "session": "2026-10-16",
+ "source": "list",
+ "plan": {
+  "ticker": "NOW",
+  "name": "서비스나우",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "price": 148.57000732421875,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 4.33,
+  "extensionAdr": 0.29,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.07294003043603309,
+    "pct": 85.34715960324617
+   },
+   "m3": {
+    "v": 0.5563587759177432,
+    "pct": 98.06131650135256
+   },
+   "m6": {
+    "v": 0.6476656353685776,
+    "pct": 93.91343552750226
+   }
+  },
+  "ret1m": 7.29,
+  "ret3m": 55.64,
+  "ret6m": 64.77,
+  "marketCap": "153.60B",
+  "volx": null,
+  "volSurgeWk": 1.29,
+  "high52": 76.99,
+  "newHigh52": false,
+  "adr": 4.02,
+  "div50": 10.58,
+  "div200": 29.08,
+  "targetStatus": false,
+  "saleCy": 22.14,
+  "saleNy": 18.8,
+  "epsCy": 15.86,
+  "epsNy": 23.11,
+  "cyTrend": 0,
+  "nyTrend": 0.02,
+  "est": {
+   "cyCur": 4.06681,
+   "cy30": 4.06673,
+   "nyCur": 5.00666,
+   "ny30": 5.00551
+  },
+  "fs": {
+   "sale": [
+    24.01,
+    22.09,
+    20.66
+   ],
+   "ni": [
+    -22.6,
+    1.96,
+    4.43
+   ],
+   "opm": [
+    4.06,
+    13.34,
+    12.42
+   ],
+   "updated": "2026-09-08 09:49:19"
+  },
+  "qualifiedBy": [
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-10-16",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 1,
+   "m6": 0
+  }
+ },
+ "eye": {
+  "score": 5,
+  "reasons": [
+   "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.11, 최저 0.09)",
+   "넘어야 할 선 $147.57 바로 아래(-3.79%)",
+   "최근 2주 종가가 2.42% 안에서만 움직였다"
+  ],
+  "resistance": 147.57
+ },
+ "detail": {
+  "fetchedAt": "2026-10-17",
+  "nameKo": "서비스나우",
+  "nameEn": "SERVICENOW INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001373715&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 3987000000,
+     "profit": 162000000,
+     "netIncome": 298000000,
+     "margin": 4.1,
+     "yoy": {
+      "revenue": 24,
+      "profit": -54.7,
+      "netIncome": -22.6,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 3770000000,
+     "profit": 503000000,
+     "netIncome": 469000000,
+     "margin": 13.3,
+     "yoy": {
+      "revenue": 22.1,
+      "profit": 11.5,
+      "netIncome": 2,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 3568000000,
+     "profit": 443000000,
+     "netIncome": 401000000,
+     "margin": 12.4,
+     "yoy": {
+      "revenue": 20.7,
+      "profit": 18.4,
+      "netIncome": 4.4,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 3407000000,
+     "profit": 572000000,
+     "netIncome": 502000000,
+     "margin": 16.8,
+     "yoy": {
+      "revenue": 21.8,
+      "profit": 36.8,
+      "netIncome": 16.2,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here's Why ServiceNow (NOW) Fell More Than Broader Market",
+     "url": "https://www.nasdaq.com/articles/heres-why-servicenow-now-fell-more-broader-market",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CrowdStrike vs. ServiceNow: Comparing Revenue Trends Between These Growing Software Giants",
+     "url": "https://www.nasdaq.com/articles/crowdstrike-vs-servicenow-comparing-revenue-trends-between-these-growing-software-giants",
+     "date": "2026-10-16",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Better High-Growth Software Stock for 2026: Figma vs. ServiceNow",
+     "url": "https://www.nasdaq.com/articles/better-high-growth-software-stock-2026-figma-vs-servicenow",
+     "date": "2026-10-15",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "ServiceNow vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/servicenow-vs-palantir-technologies-which-technology-stock-better-buy-2026",
+     "date": "2026-10-15",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Salesforce vs. ServiceNow: Here's What Revenue Trends Tell Investors About These Software Giants and Their Move to AI",
+     "url": "https://www.nasdaq.com/articles/salesforce-vs-servicenow-heres-what-revenue-trends-tell-investors-about-these-software",
+     "date": "2026-10-15",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Salesforce vs. ServiceNow: Which AI Software Stock Has the Edge?",
+     "url": "https://www.nasdaq.com/articles/salesforce-vs-servicenow-which-ai-software-stock-has-edge",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-22",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000072/now-20260722.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-22",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000065/now-20260521.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-15",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000119312526226644/d60522d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-22",
+    "itemsKo": [
+     "중요 계약 체결",
+     "실적 발표",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000054/now-20260417.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000030/now-20260401.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-17",
+    "itemsKo": [
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000014/now-20260213.htm"
+   }
+  ],
+  "krReports": {
+   "total": 6,
+   "reports": [
+    {
+     "date": "2026-08-04",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "title": "[서비스나우 (NYS:NOW)] 시장 경쟁강도 변화가 단기 수혜로 작동",
+     "summary": "- 프런티어 및 오픈웨이트 모델 간극 축소 기대감이 주가에 투영- 프런티어 업체와 전략적 제휴 강화를 통한 시장점유율 확대 필요- 동사 FY26E PER 및 3개년 EPS CAGR 기반시 PEGR 1.4배 수준",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqmxgxeixellgcgxeceq.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-07-24",
+     "broker": "현대차증권",
+     "analyst": "장문영",
+     "title": "[서비스나우 (NYS:NOW)] 멀티플 정상화는 시간 문제",
+     "summary": "- 2Q26 매출은 $39억 8,700만으로 YoY 24% 증가하며 컨센서스 상회. 특히 구독 매출 ($38억 7,700만)이 가이던스 상단을 150bp 상회. 신규 순수 ACV 호조와 美 연방정부향 온프레미스 매출이 3분기에서 2분기로 앞당겨진 효과가 동시에 작용- 갱신 고객의 첫 Agentic AI 구매 비중이 QoQ·YoY 2배 증가하며 기존 고객 기반 AI 채택이 확산 중. 즉 동일 고객 기반에서 계약 가치가 확대되는 업셀링 중심의 성장 구조가 강화. AI 기능을 탑재한 상위 SKU 20~30% 가격 인상 추진 역시 이를 뒷받침하며, $100만 이상 대형거래 YoY +40%, Agentic AI 실사용 고객 9개월간 9배 증가도 같은 방향",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlklziqxlzxqelgcgxeceq.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-05-18",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "title": "[서비스나우 (NYS:NOW)] 매니지먼트 의사결정 변수가 관건",
+     "summary": "- AI 에이전트 사업 내 동사가 주도권을 가져가려는 시도 포착- 프런티어 업체들과 고객 데이터를 기준으로 강결합 전략이 필요- 동사 FY26E PER 및 3개년 EPS CAGR 기반시 PEGR 1.1배 수준",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlmekgcgxmiixgcgxeceq.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-05-12",
+     "broker": "현대차증권",
+     "analyst": "장문영",
+     "title": "[서비스나우 (NYS:NOW)] AI 에이전트 시대, 대체되지 않는 플랫폼",
+     "summary": "- ITSM 기반에서 HR, 고객 서비스, 보안과 리스크까지 포트폴리오 확장하며 강한 락인 효과 형성- NOW Assist 중심 AI 기능 상업화 빠르게 진행, 좌석 기반에서 사용량 결합 하이브리드 과금 모델로 전환- 12M Fwd P/E 21.9배로 과거 5년 평균 대비 약 61% 할인. 펀더멘털 대비 디레이팅 폭 과도한 수준 해석",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlzkzcxmzqggmgcgxeceq.pdf",
+     "pages": "11"
+    },
+    {
+     "date": "2026-04-24",
+     "broker": "하나증권",
+     "analyst": "김재임",
+     "title": "[서비스나우 (NYS:NOW)] 확인이 필요한 과도기",
+     "summary": "- 중동 분쟁과 계절성 영향으로 2분기 가이던스 기대치 하회- M&A 영향으로 2026년 구독매출 가이던스 상향조정, 수익성 지표는 하향- 2026년 AI 매출 가이던스 10억에서 15억으로 상향",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxmleximmiglcgcgxeceq.pdf",
+     "pages": "3"
+    },
+    {
+     "date": "2026-03-04",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "title": "[서비스나우 (NYS:NOW)] 글로벌 AI 백본 빅테크와 강결합 필요",
+     "summary": "- 글로벌 메이저 백본을 보유한 오픈AI 및 앤트로픽 제휴는 긍정적- 해당 제휴가 동사 고객 데이터 등을 연계한 강결합으로 진화될 필요- 동사 FY26E PER 및 3개년 EPS CAGR 기반 PEGR 1.3배 감안 요구",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgzqqkklxmllmgcgxeceq.pdf",
+     "pages": "7"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "NOW-report1.pdf",
+   "broker": "키움증권",
+   "analyst": "김진구",
+   "date": "2026-08-04",
+   "title": "[서비스나우 (NYS:NOW)] 시장 경쟁강도 변화가 단기 수혜로 작동",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzqmxgxeixellgcgxeceq.pdf",
+   "pages": "7"
+  },
+  {
+   "file": "NOW-report2.pdf",
+   "broker": "현대차증권",
+   "analyst": "장문영",
+   "date": "2026-07-24",
+   "title": "[서비스나우 (NYS:NOW)] 멀티플 정상화는 시간 문제",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlklziqxlzxqelgcgxeceq.pdf",
+   "pages": "5"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves premarket: Snowflake, Moderna, Broadcom & more",
+   "url": "https://www.cnbc.com/2026/09/03/stocks-making-the-biggest-moves-premarket-snow-mrna-avgo.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Amazon, Marvell, PayPal & more",
+   "url": "https://www.cnbc.com/2026/08/28/stocks-making-the-biggest-moves-midday-amzn-mrvl-pypl-crm.html",
+   "date": "2026-08-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "S&P 500, Nasdaq Composite close higher Thursday as Nvidia rallies on revenue guidance",
+   "url": "https://www.cnbc.com/2026/08/26/stock-market-today-live-updates.html",
+   "date": "2026-08-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's lightning round: Buy SpaceX and 'give it to your kids'",
+   "url": "https://www.cnbc.com/2026/08/25/cramers-lightning-round-buy-spacex-and-give-it-to-your-kids.html",
+   "date": "2026-08-25",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: CoreWeave, Super Micro Computer, Cava",
+   "url": "https://www.cnbc.com/2026/08/12/stocks-making-the-biggest-moves-premarket-crwv-smic-cohr.html",
+   "date": "2026-08-12",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Final Trades: ServiceNow, JPMorgan Chase, Eaton Corporation and SentinelOne",
+   "url": "https://www.cnbc.com/video/2026/10/16/final-trades-servicenow-jpmorgan-chase-eaton-corporation-and-sentinelone.html",
+   "date": "2026-10-16",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "AI can do a lot for you. It can also do a lot to you, says ServiceNow CEO Bill McDermott",
+   "url": "https://www.cnbc.com/video/2026/09/10/ai-can-do-a-lot-for-you-it-can-also-do-a-lot-to-you-says-servicenow-ceo-bill-mcdermott.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Watch CNBC's full interview with ServiceNow CEO Bill McDermott",
+   "url": "https://www.cnbc.com/video/2026/09/10/watch-cnbcs-full-interview-with-servicenow-ceo-bill-mcdermott.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "NOW",
+  "fetchedAt": "2026-10-17",
+  "source": "한국투자증권 Open API",
+  "per": 88.66,
+  "pbr": 11.73,
+  "eps": 1.6,
+  "bps": 12.11,
+  "shares": 1034000000,
+  "marketCapM": 146797,
+  "high52": 192.966,
+  "high52Date": "2025-10-30",
+  "low52": 81.24,
+  "low52Date": "2026-04-10",
+  "last": 141.97,
+  "prevClose": 148.57,
+  "nameKo": "서비스나우",
+  "nameEn": "SERVICENOW INC",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 1034000000
+ },
+ "estimates": {
+  "ticker": "NOW",
+  "url": "https://finance.yahoo.com/quote/NOW/analysis/",
+  "fetchedAt": "2026-10-17",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 1.02,
+    "epsLow": 0.91,
+    "epsHigh": 1.17,
+    "epsYearAgo": 0.96,
+    "epsAnalysts": 39,
+    "epsGrowth": 6.1,
+    "epsCur": "USD",
+    "rev": 4094374960,
+    "revAnalysts": 36,
+    "revYearAgo": 3407000000,
+    "revGrowth": 20.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 1.17,
+    "epsLow": 1.03,
+    "epsHigh": 1.32,
+    "epsYearAgo": 0.92,
+    "epsAnalysts": 39,
+    "epsGrowth": 27.3,
+    "epsCur": "USD",
+    "rev": 4360928580,
+    "revAnalysts": 35,
+    "revYearAgo": 3568000000,
+    "revGrowth": 22.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 4.07,
+    "epsLow": 3.84,
+    "epsHigh": 4.36,
+    "epsYearAgo": 3.51,
+    "epsAnalysts": 44,
+    "epsGrowth": 15.9,
+    "epsCur": "USD",
+    "rev": 16217916410,
+    "revAnalysts": 45,
+    "revYearAgo": 13278000000,
+    "revGrowth": 22.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 5.01,
+    "epsLow": 4.35,
+    "epsHigh": 5.57,
+    "epsYearAgo": 4.07,
+    "epsAnalysts": 44,
+    "epsGrowth": 23.1,
+    "epsCur": "USD",
+    "rev": 19266483710,
+    "revAnalysts": 46,
+    "revYearAgo": 16217916410,
+    "revGrowth": 18.8,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 1.02,
+    "d7": -0.3,
+    "d30": -0.3,
+    "d90": -5.9,
+    "ago90": 1.09,
+    "up7": 0,
+    "up30": 0,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.17,
+    "d7": 0.1,
+    "d30": 0.1,
+    "d90": -3.5,
+    "ago90": 1.21,
+    "up7": 0,
+    "up30": 0,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 4.07,
+    "d7": 0,
+    "d30": 0,
+    "d90": -1.5,
+    "ago90": 4.13,
+    "up7": 0,
+    "up30": 0,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 5.01,
+    "d7": 0,
+    "d30": 0,
+    "d90": -0.5,
+    "ago90": 5.03,
+    "up7": 18,
+    "up30": 17,
+    "down7": 18,
+    "down30": 19
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 0.9,
+    "estimate": 0.86,
+    "surprisePct": 5.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.97,
+    "estimate": 0.97,
+    "surprisePct": 0.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.92,
+    "estimate": 0.89,
+    "surprisePct": 4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 0.96,
+    "estimate": 0.85,
+    "surprisePct": 13,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 25,
+   "ptLowered": 1,
+   "total": 34,
+   "recent": [
+    {
+     "date": "2026-10-16",
+     "firm": "Piper Sandler",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 175,
+     "ptPrior": 140
+    },
+    {
+     "date": "2026-10-15",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 170,
+     "ptPrior": 140
+    },
+    {
+     "date": "2026-10-15",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 165,
+     "ptPrior": 140
+    },
+    {
+     "date": "2026-10-14",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 170,
+     "ptPrior": 154
+    },
+    {
+     "date": "2026-10-13",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 175,
+     "ptPrior": 160
+    },
+    {
+     "date": "2026-10-13",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 160,
+     "ptPrior": 134
+    },
+    {
+     "date": "2026-10-13",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 190,
+     "ptPrior": 175
+    },
+    {
+     "date": "2026-10-13",
+     "firm": "Oppenheimer",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 165,
+     "ptPrior": 140
+    },
+    {
+     "date": "2026-10-12",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 176,
+     "ptPrior": 130
+    },
+    {
+     "date": "2026-10-12",
+     "firm": "BTIG",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 170,
+     "ptPrior": 170
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-28",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-16",
+  "numbers": {
+   "price": 141.97,
+   "ma20": 137.92,
+   "ma50": 134.85,
+   "ma150": 113.18,
+   "distMA50": 5.28,
+   "periodHigh": 239.62,
+   "pullbackFromHigh": -40.75,
+   "volRatio20": 1.43,
+   "dryUpRatio": 1.29
+  },
+  "last10": [
+   {
+    "d": "2026-10-05",
+    "o": 135.22,
+    "h": 137.9,
+    "l": 134.15,
+    "c": 136.08,
+    "v": 7836100,
+    "clsPos": 51,
+    "gapPct": 0.63
+   },
+   {
+    "d": "2026-10-06",
+    "o": 138.46,
+    "h": 140.6,
+    "l": 136.18,
+    "c": 137.97,
+    "v": 9476600,
+    "clsPos": 40,
+    "gapPct": 1.75
+   },
+   {
+    "d": "2026-10-07",
+    "o": 139.5,
+    "h": 140.8,
+    "l": 137.49,
+    "c": 137.87,
+    "v": 8030800,
+    "clsPos": 11,
+    "gapPct": 1.11
+   },
+   {
+    "d": "2026-10-08",
+    "o": 139.25,
+    "h": 142.51,
+    "l": 135.58,
+    "c": 139.75,
+    "v": 11834400,
+    "clsPos": 60,
+    "gapPct": 1
+   },
+   {
+    "d": "2026-10-09",
+    "o": 141.26,
+    "h": 142.47,
+    "l": 139.43,
+    "c": 140.86,
+    "v": 6287800,
+    "clsPos": 47,
+    "gapPct": 1.08
+   },
+   {
+    "d": "2026-10-12",
+    "o": 145.54,
+    "h": 148.14,
+    "l": 139.76,
+    "c": 140.32,
+    "v": 9632900,
+    "clsPos": 7,
+    "gapPct": 3.32
+   },
+   {
+    "d": "2026-10-13",
+    "o": 140.19,
+    "h": 145.17,
+    "l": 138.16,
+    "c": 138.61,
+    "v": 13213900,
+    "clsPos": 6,
+    "gapPct": -0.09
+   },
+   {
+    "d": "2026-10-14",
+    "o": 139.49,
+    "h": 142.8,
+    "l": 138.39,
+    "c": 139.98,
+    "v": 13372900,
+    "clsPos": 36,
+    "gapPct": 0.63
+   },
+   {
+    "d": "2026-10-15",
+    "o": 139.65,
+    "h": 149.34,
+    "l": 139.58,
+    "c": 148.57,
+    "v": 17629000,
+    "clsPos": 92,
+    "gapPct": -0.24
+   },
+   {
+    "d": "2026-10-16",
+    "o": 151.92,
+    "h": 154.2,
+    "l": 139.94,
+    "c": 141.97,
+    "v": 15460597,
+    "clsPos": 14,
+    "gapPct": 2.25
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/NOW-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/NOW-6m.png"
+ },
+ "market": {
+  "verdict": "yellow",
+  "ko": "🟡 10일선이 20일선 위지만 오르는 힘이 약해짐 — 넣는 돈을 줄일 때",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

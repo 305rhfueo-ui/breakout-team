@@ -1,0 +1,786 @@
+{
+ "ticker": "AFRM",
+ "date": "2026-10-17",
+ "session": "2026-10-16",
+ "source": "list",
+ "plan": {
+  "ticker": "AFRM",
+  "name": "어펌 홀딩스",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "price": 75.91999816894531,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 90.44,
+  "stop": 86.66,
+  "distToPivotPct": -18.17,
+  "distToPivotAdr": -3.55,
+  "riskPerSharePct": 4.18,
+  "adrPct": 5.11,
+  "extensionAdr": -0.52,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 34,
+   "baseWeeks": 6.8,
+   "depthPct": 27,
+   "priorMovePct": 47.8,
+   "higherLows": 2,
+   "contraction": 1.41,
+   "closeRange10Adr": 2.7,
+   "surf10": -0.52,
+   "surf20": 0.26,
+   "slope20": 1.28,
+   "baseLow": 66.03,
+   "lastSwingLow": 67.15
+  },
+  "reasons": [
+   "선행 상승 +48%",
+   "베이스 6.8주",
+   "✗ 깊이 27%",
+   "저점 상승 2회",
+   "✗ 진폭 1.41배 · 10일 종가폭 2.7 ADR",
+   "10일선 -0.5 ADR · 20일선 +0.3 ADR",
+   "20일선 기울기 +1.28%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.08025041957328366,
+    "pct": 87.42110009017132
+   },
+   "m3": {
+    "v": 0.027125715058968207,
+    "pct": 59.46798917944094
+   },
+   "m6": {
+    "v": 0.1914625975286126,
+    "pct": 75.15779981965734
+   }
+  },
+  "ret1m": 8.03,
+  "ret3m": 2.71,
+  "ret6m": 19.15,
+  "marketCap": "23.79B",
+  "volx": null,
+  "volSurgeWk": 0.72,
+  "high52": 83.95,
+  "newHigh52": false,
+  "adr": 4.98,
+  "div50": 2.92,
+  "div200": 13.63,
+  "targetStatus": false,
+  "saleCy": 28.86,
+  "saleNy": 24.62,
+  "epsCy": -45.07,
+  "epsNy": 30.25,
+  "cyTrend": -2.68,
+  "nyTrend": 1.45,
+  "est": {
+   "cyCur": 3.85097,
+   "cy30": 3.9571,
+   "nyCur": 5.01587,
+   "ny30": 4.9444
+  },
+  "fs": {
+   "sale": [
+    33.04,
+    32.64,
+    29.62
+   ],
+   "ni": [
+    2234.66,
+    3569.76,
+    61.26
+   ],
+   "opm": [
+    12.63,
+    8.51,
+    10.47
+   ],
+   "updated": "2026-09-08 10:08:51"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-17",
+  "nameKo": "어펌 홀딩스",
+  "nameEn": "AFFIRM HLDGS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001820953&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": true,
+     "revenue": 387537000,
+     "profit": 147261000,
+     "netIncome": 1616613000,
+     "margin": 38,
+     "yoy": {
+      "revenue": 26.4,
+      "profit": 153.6,
+      "netIncome": 2234.7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 334494000,
+     "profit": 88429000,
+     "netIncome": 102900000,
+     "margin": 26.4,
+     "yoy": {
+      "revenue": 22.7,
+      "profit": 1153.6,
+      "netIncome": 3569.8,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 401415000,
+     "profit": 117626000,
+     "netIncome": 129586000,
+     "margin": 29.3,
+     "yoy": {
+      "revenue": 32.5,
+      "profit": 2821.6,
+      "netIncome": 61.3,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 320477000,
+     "profit": 63661000,
+     "netIncome": 80694000,
+     "margin": 19.9,
+     "yoy": {
+      "revenue": 38.2,
+      "profit": 148,
+      "netIncome": 180.5,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Wall Street Analysts Believe Affirm Holdings (AFRM) Could Rally 29%: Here's is How to Trade",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-affirm-holdings-afrm-could-rally-29-heres-how-trade",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Investors Heavily Search Affirm Holdings, Inc. (AFRM): Here is What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/investors-heavily-search-affirm-holdings-inc-afrm-here-what-you-need-know",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Affirm Holdings (AFRM) Dipped More Than Broader Market Today",
+     "url": "https://www.nasdaq.com/articles/why-affirm-holdings-afrm-dipped-more-broader-market-today",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Will Affirm Holdings (AFRM) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-affirm-holdings-afrm-beat-estimates-again-its-next-earnings-report",
+     "date": "2026-10-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Affirm Holdings (AFRM) Ascends While Market Falls: Some Facts to Note",
+     "url": "https://www.nasdaq.com/articles/affirm-holdings-afrm-ascends-while-market-falls-some-facts-note",
+     "date": "2026-10-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is It Worth Investing in Affirm Holdings (AFRM) Based on Wall Street's Bullish Views?",
+     "url": "https://www.nasdaq.com/articles/it-worth-investing-affirm-holdings-afrm-based-wall-streets-bullish-views",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here is What to Know Beyond Why Affirm Holdings, Inc. (AFRM) is a Trending Stock",
+     "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-affirm-holdings-inc-afrm-trending-stock",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Affirm Holdings (AFRM) Outperforms Broader Market: What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/affirm-holdings-afrm-outperforms-broader-market-what-you-need-know",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-27",
+    "itemsKo": [
+     "실적 발표",
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026059271/afrm-20260825.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-25",
+    "itemsKo": [
+     "중요 계약 체결",
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026045491/afrm-20260618.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026032105/afrm-20260507.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026005772/afrm-20260205.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-16",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026002442/afrm-20260113.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-12-18",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828025057930/afrm-20251215.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves premarket: Intel, Marvell, CrowdStrike & more",
+   "url": "https://www.cnbc.com/2026/09/14/stocks-making-the-biggest-moves-premarket-intc-mrvl-crwd.html",
+   "date": "2026-09-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "This buy now, pay later stock is a high-quality growth story, Loop Capital says",
+   "url": "https://www.cnbc.com/2026/09/09/affirm-is-a-high-quality-growth-story-loop-capital-says.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer says investors are too focused on AI stocks. Here’s where he says to look instead",
+   "url": "https://www.cnbc.com/2026/09/08/jim-cramer-investors-focused-ai-stocks.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer says he's warming back up to the AI trade, but not ready to act yet",
+   "url": "https://www.cnbc.com/investingclub/2026/08/28/cramer-says-hes-warming-back-up-to-the-ai-trade-but-not-ready-to-act-yet.html",
+   "date": "2026-08-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Amazon, Marvell, PayPal & more",
+   "url": "https://www.cnbc.com/2026/08/28/stocks-making-the-biggest-moves-midday-amzn-mrvl-pypl-crm.html",
+   "date": "2026-08-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Affirm CEO Max Levchin says high gas prices are hitting U.S. shoppers",
+   "url": "https://www.cnbc.com/2026/08/28/affirm-stock-earnings-levchin-gas-prices.html",
+   "date": "2026-08-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Affirm issued modest guidance. Bank of America says buy it anyway",
+   "url": "https://www.cnbc.com/2026/08/28/affirm-issued-modest-guidance-bank-of-america-says-buy-it-anyway.html",
+   "date": "2026-08-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: PayPal, Affirm Holdings, Gap, Marvell",
+   "url": "https://www.cnbc.com/2026/08/28/stocks-making-the-biggest-moves-premarket-pypl-afrm-gap-mrvl.html",
+   "date": "2026-08-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "AFRM",
+  "fetchedAt": "2026-10-17",
+  "source": "한국투자증권 Open API",
+  "per": 13.41,
+  "pbr": 4.55,
+  "eps": 5.52,
+  "bps": 16.26,
+  "shares": 296882000,
+  "marketCapM": 21972,
+  "high52": 90.44,
+  "high52Date": "2026-08-28",
+  "low52": 42.095,
+  "low52Date": "2026-03-27",
+  "last": 74.01,
+  "prevClose": 75.92,
+  "nameKo": "어펌 홀딩스",
+  "nameEn": "AFFIRM HLDGS INC",
+  "listedOn": "2021-01-12",
+  "exchange": "나스닥",
+  "listedShares": 296882000
+ },
+ "estimates": {
+  "ticker": "AFRM",
+  "url": "https://finance.yahoo.com/quote/AFRM/analysis/",
+  "fetchedAt": "2026-10-17",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 0.86,
+    "epsLow": 0.76,
+    "epsHigh": 1.01,
+    "epsYearAgo": 0.61,
+    "epsAnalysts": 5,
+    "epsGrowth": 41.6,
+    "epsCur": "USD",
+    "rev": 1210314750,
+    "revAnalysts": 29,
+    "revYearAgo": 933337000,
+    "revGrowth": 29.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 1.1,
+    "epsLow": 1.01,
+    "epsHigh": 1.29,
+    "epsYearAgo": 0.72,
+    "epsAnalysts": 5,
+    "epsGrowth": 52.3,
+    "epsCur": "USD",
+    "rev": 1428825960,
+    "revAnalysts": 28,
+    "revYearAgo": 1123019000,
+    "revGrowth": 27.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-06-30",
+    "eps": 3.85,
+    "epsLow": 3.26,
+    "epsHigh": 4.68,
+    "epsYearAgo": 7.01,
+    "epsAnalysts": 7,
+    "epsGrowth": -45.1,
+    "epsCur": "USD",
+    "rev": 5490915470,
+    "revAnalysts": 31,
+    "revYearAgo": 4261082000,
+    "revGrowth": 28.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-06-30",
+    "eps": 5.02,
+    "epsLow": 3.9,
+    "epsHigh": 6.01,
+    "epsYearAgo": 3.85,
+    "epsAnalysts": 6,
+    "epsGrowth": 30.3,
+    "epsCur": "USD",
+    "rev": 6842983230,
+    "revAnalysts": 28,
+    "revYearAgo": 5490915470,
+    "revGrowth": 24.6,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 0.86,
+    "d7": 3.2,
+    "d30": 0.2,
+    "d90": -1.4,
+    "ago90": 0.87,
+    "up7": 4,
+    "up30": 5,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.1,
+    "d7": 4.1,
+    "d30": 0.1,
+    "d90": -2.6,
+    "ago90": 1.13,
+    "up7": 2,
+    "up30": 2,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-06-30",
+    "cur": "USD",
+    "now": 3.85,
+    "d7": 0.5,
+    "d30": -2.7,
+    "d90": 1.8,
+    "ago90": 3.78,
+    "up7": 0,
+    "up30": 7,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-06-30",
+    "cur": "USD",
+    "now": 5.02,
+    "d7": 3.9,
+    "d30": 1.4,
+    "d90": 5.3,
+    "ago90": 4.76,
+    "up7": 0,
+    "up30": 6,
+    "down7": 0,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 4.97,
+    "estimate": 0.85,
+    "surprisePct": 486.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0.62,
+    "estimate": 0.73,
+    "surprisePct": -15,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.72,
+    "estimate": 0.84,
+    "surprisePct": -13.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 0.61,
+    "estimate": 0.62,
+    "surprisePct": -1.3,
+    "cur": "USD"
+   }
+  ],
+  "beats": 1,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 3,
+   "ptRaised": 21,
+   "ptLowered": 2,
+   "total": 30,
+   "recent": [
+    {
+     "date": "2026-10-13",
+     "firm": "Goldman Sachs",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 103,
+     "ptPrior": 115
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 110,
+     "ptPrior": 124
+    },
+    {
+     "date": "2026-10-01",
+     "firm": "Freedom Capital Markets",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 105,
+     "ptPrior": 105
+    },
+    {
+     "date": "2026-09-16",
+     "firm": "Citizens",
+     "action": "reit",
+     "from": "Market Outperform",
+     "to": "Market Outperform",
+     "ptAction": "Maintains",
+     "pt": 85,
+     "ptPrior": 85
+    },
+    {
+     "date": "2026-09-14",
+     "firm": "Wolfe Research",
+     "action": "up",
+     "from": "Peer Perform",
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 90,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-09",
+     "firm": "Loop Capital",
+     "action": "init",
+     "from": null,
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 105,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-03",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 85,
+     "ptPrior": 83
+    },
+    {
+     "date": "2026-09-02",
+     "firm": "Scotiabank",
+     "action": "init",
+     "from": null,
+     "to": "Sector Outperform",
+     "ptAction": "Announces",
+     "pt": 95,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-08-31",
+     "firm": "Goldman Sachs",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 115,
+     "ptPrior": 106
+    },
+    {
+     "date": "2026-08-31",
+     "firm": "Bernstein",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 110,
+     "ptPrior": 100
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-05",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-16",
+  "numbers": {
+   "price": 74.01,
+   "ma20": 73.03,
+   "ma50": 73.71,
+   "ma150": 68.68,
+   "distMA50": 0.4,
+   "periodHigh": 100,
+   "pullbackFromHigh": -25.99,
+   "volRatio20": 0.86,
+   "dryUpRatio": 1.1
+  },
+  "last10": [
+   {
+    "d": "2026-10-05",
+    "o": 70.48,
+    "h": 74.93,
+    "l": 70.25,
+    "c": 74.75,
+    "v": 4259200,
+    "clsPos": 96,
+    "gapPct": -0.41
+   },
+   {
+    "d": "2026-10-06",
+    "o": 76.33,
+    "h": 76.5,
+    "l": 74.08,
+    "c": 74.88,
+    "v": 2802100,
+    "clsPos": 33,
+    "gapPct": 2.11
+   },
+   {
+    "d": "2026-10-07",
+    "o": 73.93,
+    "h": 75.61,
+    "l": 73.31,
+    "c": 75.31,
+    "v": 3241500,
+    "clsPos": 87,
+    "gapPct": -1.27
+   },
+   {
+    "d": "2026-10-08",
+    "o": 74.66,
+    "h": 77.18,
+    "l": 74.34,
+    "c": 77.15,
+    "v": 5223300,
+    "clsPos": 99,
+    "gapPct": -0.86
+   },
+   {
+    "d": "2026-10-09",
+    "o": 78,
+    "h": 81.09,
+    "l": 77.06,
+    "c": 80.7,
+    "v": 5476500,
+    "clsPos": 90,
+    "gapPct": 1.1
+   },
+   {
+    "d": "2026-10-12",
+    "o": 80.49,
+    "h": 81.47,
+    "l": 78.26,
+    "c": 78.63,
+    "v": 2910900,
+    "clsPos": 11,
+    "gapPct": -0.26
+   },
+   {
+    "d": "2026-10-13",
+    "o": 78.14,
+    "h": 79.43,
+    "l": 77.44,
+    "c": 77.89,
+    "v": 2979300,
+    "clsPos": 23,
+    "gapPct": -0.62
+   },
+   {
+    "d": "2026-10-14",
+    "o": 75.71,
+    "h": 76.09,
+    "l": 68.71,
+    "c": 70.51,
+    "v": 7992600,
+    "clsPos": 24,
+    "gapPct": -2.8
+   },
+   {
+    "d": "2026-10-15",
+    "o": 68.66,
+    "h": 76.17,
+    "l": 68.36,
+    "c": 75.92,
+    "v": 5918300,
+    "clsPos": 97,
+    "gapPct": -2.62
+   },
+   {
+    "d": "2026-10-16",
+    "o": 76.24,
+    "h": 78.22,
+    "l": 72.73,
+    "c": 74.01,
+    "v": 3630160,
+    "clsPos": 23,
+    "gapPct": 0.42
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AFRM-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AFRM-6m.png"
+ },
+ "market": {
+  "verdict": "yellow",
+  "ko": "🟡 10일선이 20일선 위지만 오르는 힘이 약해짐 — 넣는 돈을 줄일 때",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

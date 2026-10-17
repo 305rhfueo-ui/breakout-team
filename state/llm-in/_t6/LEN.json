@@ -1,0 +1,804 @@
+{
+ "ticker": "LEN",
+ "date": "2026-10-17",
+ "session": "2026-10-16",
+ "source": "list",
+ "plan": {
+  "ticker": "LEN",
+  "name": "레나",
+  "sector": "Consumer Cyclical",
+  "industry": "Residential Construction",
+  "price": 77.69000244140625,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 89.15,
+  "stop": 86.32,
+  "distToPivotPct": -13.54,
+  "distToPivotAdr": -3.69,
+  "riskPerSharePct": 3.17,
+  "adrPct": 3.67,
+  "extensionAdr": 0.38,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 19.5,
+   "priorMovePct": 11.7,
+   "higherLows": 0,
+   "contraction": 0.97,
+   "closeRange10Adr": 1.5,
+   "surf10": 0.38,
+   "surf20": -0.59,
+   "slope20": -1.05,
+   "baseLow": 71.78,
+   "lastSwingLow": 73.75
+  },
+  "reasons": [
+   "✗ 선행 상승 +12%",
+   "베이스 8주",
+   "깊이 19.5%",
+   "✗ 저점 상승 0회",
+   "진폭 0.97배 · 10일 종가폭 1.5 ADR",
+   "✗ 10일선 +0.4 ADR · 20일선 -0.6 ADR",
+   "✗ 20일선 기울기 -1.05%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.01888232957377341,
+    "pct": 37.91704238052299
+   },
+   "m3": {
+    "v": -0.04814275843296551,
+    "pct": 37.556357078449054
+   },
+   "m6": {
+    "v": -0.1636220094491231,
+    "pct": 13.931469792605952
+   }
+  },
+  "ret1m": -1.89,
+  "ret3m": -4.81,
+  "ret6m": -16.36,
+  "marketCap": "18.34B",
+  "volx": null,
+  "volSurgeWk": 0.93,
+  "high52": 59.38,
+  "newHigh52": false,
+  "adr": 3.66,
+  "div50": -4.74,
+  "div200": -15.18,
+  "targetStatus": false,
+  "saleCy": -7.86,
+  "saleNy": 2.98,
+  "epsCy": -38.75,
+  "epsNy": 5.77,
+  "cyTrend": -9.69,
+  "nyTrend": -18.1,
+  "est": {
+   "cyCur": 4.9364,
+   "cy30": 5.46632,
+   "nyCur": 5.22147,
+   "ny30": 6.37504
+  },
+  "fs": {
+   "sale": [
+    -5.22,
+    -13.26,
+    -5.82
+   ],
+   "ni": [
+    -36.39,
+    -55.89,
+    -55.2
+   ],
+   "opm": [
+    5.27,
+    3.52,
+    7.12
+   ],
+   "updated": "2026-09-08 10:01:04"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-17",
+  "nameKo": "레나",
+  "nameEn": "LENNAR CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000920760&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-08-31",
+     "derived": false,
+     "revenue": 8046119000,
+     "profit": null,
+     "netIncome": 283876000,
+     "margin": null,
+     "yoy": {
+      "revenue": -8.7,
+      "profit": null,
+      "netIncome": -52,
+      "priorEnd": "2025-08-31"
+     }
+    },
+    {
+     "periodEnd": "2026-05-31",
+     "derived": false,
+     "revenue": 7939872000,
+     "profit": null,
+     "netIncome": 304772000,
+     "margin": null,
+     "yoy": {
+      "revenue": -5.2,
+      "profit": null,
+      "netIncome": -36.2,
+      "priorEnd": "2025-05-31"
+     }
+    },
+    {
+     "periodEnd": "2026-02-28",
+     "derived": false,
+     "revenue": 6619476000,
+     "profit": null,
+     "netIncome": 229383000,
+     "margin": null,
+     "yoy": {
+      "revenue": -13.3,
+      "profit": null,
+      "netIncome": -55.8,
+      "priorEnd": "2025-02-28"
+     }
+    },
+    {
+     "periodEnd": "2025-11-30",
+     "derived": true,
+     "revenue": 9367609000,
+     "profit": null,
+     "netIncome": 490237000,
+     "margin": null,
+     "yoy": {
+      "revenue": -5.8,
+      "profit": null,
+      "netIncome": -55.3,
+      "priorEnd": "2024-11-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Is Lennar (LEN) Down 2.5% Since Last Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/why-lennar-len-down-25-last-earnings-report",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Trading Margin for Volume the Right Housing Bet for Lennar in 2026?",
+     "url": "https://www.nasdaq.com/articles/trading-margin-volume-right-housing-bet-lennar-2026",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Berkshire Hathaway Says It's Now America's 4th-Largest Homebuilder. It Also Owns More Than 10% of Lennar.",
+     "url": "https://www.nasdaq.com/articles/berkshire-hathaway-says-its-now-americas-4th-largest-homebuilder-it-also-owns-more-10",
+     "date": "2026-10-05",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-15",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/920760/000119312526422909/d11207d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-16",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/920760/000162828026062287/len-20260916.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-12",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/920760/000119312526268580/d31288d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/920760/000162828026042551/len-20260611.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-08",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/920760/000162828026041334/len-20260605.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-13",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/920760/000162828026024894/len-20260408.htm"
+   }
+  ],
+  "krReports": {
+   "total": 3,
+   "reports": [
+    {
+     "date": "2026-03-19",
+     "broker": "하나증권",
+     "analyst": "하민호",
+     "title": "[레나 (NYS:LEN)] 업황과 정책에 부진하는 주가",
+     "summary": "- 2026년 1분기 실적은 매출액 66.2억달러(YoY -13.3%), 순이익 2.3억달러(YoY - 56.0%)를 기록하며 매출액과 이익단 모두 컨센서스를 하회- 경영진은 실적발표에서 이익률을 깐아서라도 집을 계속 팔겠다(We use margin as a circuit breaker)라고 밝히며, 마진보다 시장 점유율 방어를 우선하는 가격 정책을 택했음- 모기지 금리 재상승과 기관 투자자 규제 강화라는 이중 악재 속 에서 주택주의 주가 하방 압력이 크게 작용하는 것은 우려할 사항",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqilxlmqqcqelggcgxeceq.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-03-18",
+     "broker": "키움증권",
+     "analyst": "신대현",
+     "title": "[레나 (NYS:LEN)] 불안한 매크로 상황 지속, 정부 지원책을 기다릴 필요",
+     "summary": "- 1분기 실적 컨센서스 하회. 주택 인도량 부진과 높은 인센티브 영향- 여전히 미국 주택 시장은 높은 주택 가격과 모기지 금리로 인해 불안한 상황- Lennar의 주택 평균 판매 가격은 낮기 때문에 정부 지원책 나올 시 유리함",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqiqlxgzkmgqicgcgxeceq.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2025-12-19",
+     "broker": "키움증권",
+     "analyst": "신대현",
+     "title": "[레나 (NYS:LEN)] 중장기 개선 가능하나 여전히 확인이 필요한 요인들",
+     "summary": "- 4분기 실적 컨센서스 하회 및 단기 실적 부진 지속 전망되며 주가 하락- 회사 차원의 기술 투자가 지속되는 가운데 수익성 개선 지속 여부 확인할 필요- 정부 공급정책과 금리 인하에 따른 수요 회복 여부 확인할 필요",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxxeecxqegmlekgcgxeceq.pdf",
+     "pages": "7"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "LEN-report1.pdf",
+   "broker": "하나증권",
+   "analyst": "하민호",
+   "date": "2026-03-19",
+   "title": "[레나 (NYS:LEN)] 업황과 정책에 부진하는 주가",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqilxlmqqcqelggcgxeceq.pdf",
+   "pages": "5"
+  },
+  {
+   "file": "LEN-report2.pdf",
+   "broker": "키움증권",
+   "analyst": "신대현",
+   "date": "2026-03-18",
+   "title": "[레나 (NYS:LEN)] 불안한 매크로 상황 지속, 정부 지원책을 기다릴 필요",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqiqlxgzkmgqicgcgxeceq.pdf",
+   "pages": "6"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Marvell, Moderna, Lamb Weston & more",
+   "url": "https://www.cnbc.com/2026/10/06/stocks-making-the-biggest-moves-midday-mrvl-mrna-lw-ceg.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Alphabet, AMD, Lennar, P&G and more",
+   "url": "https://www.cnbc.com/2026/10/06/stocks-making-the-biggest-moves-premarket-constellation-energy-option-care-health-lennar-pg-and-more.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Lennar rises as Berkshire grows stake, suggesting its value stance on the homebuilder",
+   "url": "https://www.cnbc.com/2026/09/22/lennar-shares-pop-as-berkshire-builds-almost-a-10percent-stake-in-beleaguered-homebuilder.html",
+   "date": "2026-09-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Lennar, Capri, Vicor, Amgen & more",
+   "url": "https://www.cnbc.com/2026/09/22/stocks-making-the-biggest-moves-midday-len-cpri-vicr-amg.html",
+   "date": "2026-09-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer’s week ahead: What to watch as Wall Street navigates a tough September",
+   "url": "https://www.cnbc.com/2026/09/18/jim-cramer-week-ahead-costco-okta.html",
+   "date": "2026-09-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Friday",
+   "url": "https://www.cnbc.com/investingclub/2026/09/18/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday.html",
+   "date": "2026-09-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Workday, Generac, Vital Farms, Vicor, Tower Semi & more",
+   "url": "https://www.cnbc.com/2026/09/17/stocks-making-the-biggest-moves-premarket-wday-gnrc-vicr-tsem-vitl.html",
+   "date": "2026-09-17",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "BlackRock, Baillie Gifford back Icon in $200 million 3D-housing funding round",
+   "url": "https://www.cnbc.com/video/2026/10/13/3d-printed-home-builder-icon-raises-200-million.html",
+   "date": "2026-10-13",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "LEN",
+  "fetchedAt": "2026-10-17",
+  "source": "한국투자증권 Open API",
+  "per": 14.58,
+  "pbr": 0.85,
+  "eps": 5.29,
+  "bps": 90.62,
+  "shares": 207876000,
+  "marketCapM": 16023,
+  "high52": 130.8276,
+  "high52Date": "2025-12-03",
+  "low52": 71.78,
+  "low52Date": "2026-10-14",
+  "last": 77.08,
+  "prevClose": 77.69,
+  "nameKo": "레나",
+  "nameEn": "LENNAR CORP",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 207876000
+ },
+ "estimates": {
+  "ticker": "LEN",
+  "url": "https://finance.yahoo.com/quote/LEN/analysis/",
+  "fetchedAt": "2026-10-17",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-11-30",
+    "eps": 1.44,
+    "epsLow": 1.37,
+    "epsHigh": 1.55,
+    "epsYearAgo": 2.03,
+    "epsAnalysts": 11,
+    "epsGrowth": -29.1,
+    "epsCur": "USD",
+    "rev": 8807713350,
+    "revAnalysts": 7,
+    "revYearAgo": 9367609000,
+    "revGrowth": -6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-02-28",
+    "eps": 0.65,
+    "epsLow": 0.44,
+    "epsHigh": 0.84,
+    "epsYearAgo": 0.88,
+    "epsAnalysts": 7,
+    "epsGrowth": -26,
+    "epsCur": "USD",
+    "rev": 6961806600,
+    "revAnalysts": 5,
+    "revYearAgo": 6619476000,
+    "revGrowth": 5.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-11-30",
+    "eps": 4.94,
+    "epsLow": 4.75,
+    "epsHigh": 5.39,
+    "epsYearAgo": 8.06,
+    "epsAnalysts": 10,
+    "epsGrowth": -38.7,
+    "epsCur": "USD",
+    "rev": 31501429280,
+    "revAnalysts": 10,
+    "revYearAgo": 34186934000,
+    "revGrowth": -7.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-11-30",
+    "eps": 5.22,
+    "epsLow": 3.95,
+    "epsHigh": 6.98,
+    "epsYearAgo": 4.94,
+    "epsAnalysts": 12,
+    "epsGrowth": 5.8,
+    "epsCur": "USD",
+    "rev": 32441512500,
+    "revAnalysts": 9,
+    "revYearAgo": 31501429280,
+    "revGrowth": 3,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-11-30",
+    "cur": "USD",
+    "now": 1.44,
+    "d7": 0,
+    "d30": -28.2,
+    "d90": -29.5,
+    "ago90": 2.04,
+    "up7": 0,
+    "up30": 0,
+    "down7": 9,
+    "down30": 9
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-02-28",
+    "cur": "USD",
+    "now": 0.65,
+    "d7": 0,
+    "d30": -22.7,
+    "d90": -23.7,
+    "ago90": 0.85,
+    "up7": 0,
+    "up30": 0,
+    "down7": 6,
+    "down30": 6
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-11-30",
+    "cur": "USD",
+    "now": 4.94,
+    "d7": 0,
+    "d30": -9.7,
+    "d90": -11.7,
+    "ago90": 5.59,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 5
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-11-30",
+    "cur": "USD",
+    "now": 5.22,
+    "d7": -0.7,
+    "d30": -18.1,
+    "d90": -20.9,
+    "ago90": 6.6,
+    "up7": 0,
+    "up30": 0,
+    "down7": 10,
+    "down30": 10
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-08-31",
+    "actual": 1.23,
+    "estimate": 1.29,
+    "surprisePct": -4.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-05-31",
+    "actual": 1.31,
+    "estimate": 1.23,
+    "surprisePct": 6.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-02-28",
+    "actual": 0.88,
+    "estimate": 0.95,
+    "surprisePct": -7.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-11-30",
+    "actual": 2.03,
+    "estimate": 2.18,
+    "surprisePct": -6.8,
+    "cur": "USD"
+   }
+  ],
+  "beats": 1,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 3,
+   "ptRaised": 0,
+   "ptLowered": 10,
+   "total": 14,
+   "recent": [
+    {
+     "date": "2026-10-07",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Lowers",
+     "pt": 75,
+     "ptPrior": 80
+    },
+    {
+     "date": "2026-10-06",
+     "firm": "Melius Research",
+     "action": "init",
+     "from": null,
+     "to": "Sell",
+     "ptAction": "Announces",
+     "pt": 72,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-01",
+     "firm": "Morgan Stanley",
+     "action": "init",
+     "from": null,
+     "to": "Underweight",
+     "ptAction": "Announces",
+     "pt": 65,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-22",
+     "firm": "Keefe, Bruyette & Woods",
+     "action": "main",
+     "from": "Underperform",
+     "to": "Underperform",
+     "ptAction": "Lowers",
+     "pt": 75,
+     "ptPrior": 85
+    },
+    {
+     "date": "2026-09-21",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 85,
+     "ptPrior": 88
+    },
+    {
+     "date": "2026-09-18",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Underperform",
+     "to": "Underperform",
+     "ptAction": "Lowers",
+     "pt": 69,
+     "ptPrior": 85
+    },
+    {
+     "date": "2026-09-18",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Underweight",
+     "to": "Underweight",
+     "ptAction": "Lowers",
+     "pt": 70,
+     "ptPrior": 79
+    },
+    {
+     "date": "2026-09-18",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "Underperform",
+     "to": "Underperform",
+     "ptAction": "Lowers",
+     "pt": 78,
+     "ptPrior": 87
+    },
+    {
+     "date": "2026-09-17",
+     "firm": "Citizens",
+     "action": "reit",
+     "from": "Market Perform",
+     "to": "Market Perform",
+     "ptAction": null,
+     "pt": null,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-16",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 75,
+     "ptPrior": 80
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-12-15",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-16",
+  "numbers": {
+   "price": 77.08,
+   "ma20": 78.75,
+   "ma50": 81.86,
+   "ma150": 86.31,
+   "distMA50": -5.84,
+   "periodHigh": 183.59,
+   "pullbackFromHigh": -58.02,
+   "volRatio20": 0.76,
+   "dryUpRatio": 0.83
+  },
+  "last10": [
+   {
+    "d": "2026-10-05",
+    "o": 78.97,
+    "h": 79.73,
+    "l": 73.75,
+    "c": 74.44,
+    "v": 10671700,
+    "clsPos": 12,
+    "gapPct": -1.05
+   },
+   {
+    "d": "2026-10-06",
+    "o": 74.95,
+    "h": 77.72,
+    "l": 74.95,
+    "c": 77.41,
+    "v": 6466400,
+    "clsPos": 89,
+    "gapPct": 0.69
+   },
+   {
+    "d": "2026-10-07",
+    "o": 74.75,
+    "h": 76.79,
+    "l": 74.61,
+    "c": 76.13,
+    "v": 5230800,
+    "clsPos": 70,
+    "gapPct": -3.44
+   },
+   {
+    "d": "2026-10-08",
+    "o": 75.48,
+    "h": 77.84,
+    "l": 75.13,
+    "c": 77.6,
+    "v": 6013200,
+    "clsPos": 91,
+    "gapPct": -0.85
+   },
+   {
+    "d": "2026-10-09",
+    "o": 76.87,
+    "h": 77.24,
+    "l": 75.5,
+    "c": 76.69,
+    "v": 3805100,
+    "clsPos": 68,
+    "gapPct": -0.94
+   },
+   {
+    "d": "2026-10-12",
+    "o": 76.1,
+    "h": 76.76,
+    "l": 74.42,
+    "c": 74.65,
+    "v": 3937100,
+    "clsPos": 10,
+    "gapPct": -0.77
+   },
+   {
+    "d": "2026-10-13",
+    "o": 75.48,
+    "h": 76.05,
+    "l": 74.12,
+    "c": 74.92,
+    "v": 4099100,
+    "clsPos": 41,
+    "gapPct": 1.11
+   },
+   {
+    "d": "2026-10-14",
+    "o": 73.5,
+    "h": 74.1,
+    "l": 71.78,
+    "c": 73.53,
+    "v": 5597400,
+    "clsPos": 75,
+    "gapPct": -1.9
+   },
+   {
+    "d": "2026-10-15",
+    "o": 75.83,
+    "h": 78.21,
+    "l": 75.21,
+    "c": 77.69,
+    "v": 6327400,
+    "clsPos": 83,
+    "gapPct": 3.13
+   },
+   {
+    "d": "2026-10-16",
+    "o": 77.89,
+    "h": 79.18,
+    "l": 76.28,
+    "c": 77.08,
+    "v": 4431704,
+    "clsPos": 28,
+    "gapPct": 0.26
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/LEN-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/LEN-6m.png"
+ },
+ "market": {
+  "verdict": "yellow",
+  "ko": "🟡 10일선이 20일선 위지만 오르는 힘이 약해짐 — 넣는 돈을 줄일 때",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

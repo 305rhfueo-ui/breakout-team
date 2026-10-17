@@ -1,0 +1,302 @@
+{
+ "ticker": "LEN",
+ "sector": "Consumer Cyclical",
+ "industry": "Residential Construction",
+ "nameKo": "레나",
+ "site": {
+  "targetStatus": false,
+  "saleCy": -7.86,
+  "saleNy": 2.98,
+  "epsCy": -38.75,
+  "epsNy": 5.77,
+  "est": {
+   "cyCur": 4.9364,
+   "cy30": 5.46632,
+   "nyCur": 5.22147,
+   "ny30": 6.37504
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -5.22,
+    -13.26,
+    -5.82
+   ],
+   "ni": [
+    -36.39,
+    -55.89,
+    -55.2
+   ],
+   "opm": [
+    5.27,
+    3.52,
+    7.12
+   ],
+   "updated": "2026-09-08 10:01:04"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-17",
+  "nameKo": "레나",
+  "nameEn": "LENNAR CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000920760&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-08-31",
+     "derived": false,
+     "revenue": 8046119000,
+     "profit": null,
+     "netIncome": 283876000,
+     "margin": null,
+     "yoy": {
+      "revenue": -8.7,
+      "profit": null,
+      "netIncome": -52,
+      "priorEnd": "2025-08-31"
+     }
+    },
+    {
+     "periodEnd": "2026-05-31",
+     "derived": false,
+     "revenue": 7939872000,
+     "profit": null,
+     "netIncome": 304772000,
+     "margin": null,
+     "yoy": {
+      "revenue": -5.2,
+      "profit": null,
+      "netIncome": -36.2,
+      "priorEnd": "2025-05-31"
+     }
+    },
+    {
+     "periodEnd": "2026-02-28",
+     "derived": false,
+     "revenue": 6619476000,
+     "profit": null,
+     "netIncome": 229383000,
+     "margin": null,
+     "yoy": {
+      "revenue": -13.3,
+      "profit": null,
+      "netIncome": -55.8,
+      "priorEnd": "2025-02-28"
+     }
+    },
+    {
+     "periodEnd": "2025-11-30",
+     "derived": true,
+     "revenue": 9367609000,
+     "profit": null,
+     "netIncome": 490237000,
+     "margin": null,
+     "yoy": {
+      "revenue": -5.8,
+      "profit": null,
+      "netIncome": -55.3,
+      "priorEnd": "2024-11-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Is Lennar (LEN) Down 2.5% Since Last Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/why-lennar-len-down-25-last-earnings-report",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Trading Margin for Volume the Right Housing Bet for Lennar in 2026?",
+     "url": "https://www.nasdaq.com/articles/trading-margin-volume-right-housing-bet-lennar-2026",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Berkshire Hathaway Says It's Now America's 4th-Largest Homebuilder. It Also Owns More Than 10% of Lennar.",
+     "url": "https://www.nasdaq.com/articles/berkshire-hathaway-says-its-now-americas-4th-largest-homebuilder-it-also-owns-more-10",
+     "date": "2026-10-05",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-15",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/920760/000119312526422909/d11207d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-16",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/920760/000162828026062287/len-20260916.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-12",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/920760/000119312526268580/d31288d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/920760/000162828026042551/len-20260611.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-08",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/920760/000162828026041334/len-20260605.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-13",
+    "itemsKo": [
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/920760/000162828026024894/len-20260408.htm"
+   }
+  ],
+  "krReports": {
+   "total": 3,
+   "reports": [
+    {
+     "date": "2026-03-19",
+     "broker": "하나증권",
+     "analyst": "하민호",
+     "title": "[레나 (NYS:LEN)] 업황과 정책에 부진하는 주가",
+     "summary": "- 2026년 1분기 실적은 매출액 66.2억달러(YoY -13.3%), 순이익 2.3억달러(YoY - 56.0%)를 기록하며 매출액과 이익단 모두 컨센서스를 하회- 경영진은 실적발표에서 이익률을 깐아서라도 집을 계속 팔겠다(We use margin as a circuit breaker)라고 밝히며, 마진보다 시장 점유율 방어를 우선하는 가격 정책을 택했음- 모기지 금리 재상승과 기관 투자자 규제 강화라는 이중 악재 속 에서 주택주의 주가 하방 압력이 크게 작용하는 것은 우려할 사항",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqilxlmqqcqelggcgxeceq.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-03-18",
+     "broker": "키움증권",
+     "analyst": "신대현",
+     "title": "[레나 (NYS:LEN)] 불안한 매크로 상황 지속, 정부 지원책을 기다릴 필요",
+     "summary": "- 1분기 실적 컨센서스 하회. 주택 인도량 부진과 높은 인센티브 영향- 여전히 미국 주택 시장은 높은 주택 가격과 모기지 금리로 인해 불안한 상황- Lennar의 주택 평균 판매 가격은 낮기 때문에 정부 지원책 나올 시 유리함",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqiqlxgzkmgqicgcgxeceq.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2025-12-19",
+     "broker": "키움증권",
+     "analyst": "신대현",
+     "title": "[레나 (NYS:LEN)] 중장기 개선 가능하나 여전히 확인이 필요한 요인들",
+     "summary": "- 4분기 실적 컨센서스 하회 및 단기 실적 부진 지속 전망되며 주가 하락- 회사 차원의 기술 투자가 지속되는 가운데 수익성 개선 지속 여부 확인할 필요- 정부 공급정책과 금리 인하에 따른 수요 회복 여부 확인할 필요",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxxeecxqegmlekgcgxeceq.pdf",
+     "pages": "7"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Marvell, Moderna, Lamb Weston & more",
+   "url": "https://www.cnbc.com/2026/10/06/stocks-making-the-biggest-moves-midday-mrvl-mrna-lw-ceg.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Alphabet, AMD, Lennar, P&G and more",
+   "url": "https://www.cnbc.com/2026/10/06/stocks-making-the-biggest-moves-premarket-constellation-energy-option-care-health-lennar-pg-and-more.html",
+   "date": "2026-10-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Lennar rises as Berkshire grows stake, suggesting its value stance on the homebuilder",
+   "url": "https://www.cnbc.com/2026/09/22/lennar-shares-pop-as-berkshire-builds-almost-a-10percent-stake-in-beleaguered-homebuilder.html",
+   "date": "2026-09-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Lennar, Capri, Vicor, Amgen & more",
+   "url": "https://www.cnbc.com/2026/09/22/stocks-making-the-biggest-moves-midday-len-cpri-vicr-amg.html",
+   "date": "2026-09-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer’s week ahead: What to watch as Wall Street navigates a tough September",
+   "url": "https://www.cnbc.com/2026/09/18/jim-cramer-week-ahead-costco-okta.html",
+   "date": "2026-09-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Friday",
+   "url": "https://www.cnbc.com/investingclub/2026/09/18/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday.html",
+   "date": "2026-09-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "LEN",
+  "fetchedAt": "2026-10-17",
+  "source": "한국투자증권 Open API",
+  "per": 14.58,
+  "pbr": 0.85,
+  "eps": 5.29,
+  "bps": 90.62,
+  "shares": 207876000,
+  "marketCapM": 16023,
+  "high52": 130.8276,
+  "high52Date": "2025-12-03",
+  "low52": 71.78,
+  "low52Date": "2026-10-14",
+  "last": 77.08,
+  "prevClose": 77.69,
+  "nameKo": "레나",
+  "nameEn": "LENNAR CORP",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 207876000
+ }
+}

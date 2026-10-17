@@ -511,8 +511,247 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-17",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "기술주가 소프트웨어·반도체 할 것 없이 같이 밀렸다",
+        "easy": "미국 기술주가 한꺼번에 떨어졌다. 소프트웨어와 반도체가 같이 빠져 기술주 안에서는 피할 곳이 없었다. 떨어진 이유는 기사에 안 나왔다. 전문가 일부는 이번 하락을 싸게 사는 기회로 보지 않고 더 내려갈 신호가 여럿 보인다고 했다.",
+        "whyMatters": "소프트웨어·반도체 업종이 함께 눌리는 국면이라 기술주 안에서 종목만 바꿔도 위험이 줄지 않는다. 에너지·헬스케어처럼 기술주와 다르게 움직이는 업종의 상대적 체력을 보는 게 낫다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Nowhere to hide: Tech selloff hits software and chip stocks alike",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c?mod=mw_rss_topstories",
+            "date": "2026-10-16",
+            "quote": "Nowhere to hide: Tech selloff hits software and chip stocks alike",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Don't buy this dip: Several signs suggest there's more pain ahead for tech stocks",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/dont-buy-this-dip-several-signs-suggest-theres-more-pain-ahead-for-tech-stocks-83f971d7?mod=mw_rss_topstories",
+            "date": "2026-10-16",
+            "quote": "Don&#x2019;t buy this dip: Several signs suggest there&#x2019;s more pain ahead for tech stocks",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "호르무즈 공격에 브렌트유가 110달러에 닿았다",
+        "easy": "이란이 호르무즈 해협에서 선박 공격을 키우자 브렌트유가 배럴당 110달러까지 올랐다. 우크라이나도 러시아 정유시설을 때리겠다고 밝혀 공급 불안이 겹쳤다. 해협 주변 선박 피격 신고는 사상 최다 수준이고 원유 수출도 줄고 있다. 기름값이 오르면 물가가 다시 올라 금리 인하 기대가 뒤로 밀린다.",
+        "whyMatters": "원유를 캐고 정제하는 에너지 업종에는 좋고, 기름을 사서 쓰는 항공·운송과 소비재 업종에는 나쁘다. 원유 의존이 큰 산업재도 원가 부담이 커진다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
+            "date": "2026-10-16",
+            "quote": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Ship attack reports near Hormuz reach record high as oil exports slow",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
+            "date": "2026-10-16",
+            "quote": "Ship attack reports near Hormuz reach record high as oil exports slow",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "월가 공포지수가 급등하고 더 오른다는 쪽이 많다",
+        "easy": "시장이 앞으로 얼마나 흔들릴지 보는 공포지수가 크게 뛰었다. 기술주 동반 하락과 중동 긴장이 겹친 날이었다. 트레이더들은 이 지수가 더 오를 것으로 본다. 변동성이 커지면 하루 등락이 거칠어져 손절이 쉽게 걸린다.",
+        "whyMatters": "변동이 커지면 값이 비싸게 매겨진 기술·성장주가 먼저 흔들리고, 배당이 꾸준한 유틸리티·필수소비재가 상대적으로 버틴다. 새로 사는 금액을 줄이고 손절 폭을 넓게 잡을 구간인지 확인하는 게 우선이다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Wall Street's fear gauge is ripping. Traders see it going even higher",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/16/wall-streets-fear-gauge-is-ripping-traders-see-it-going-even-higher.html",
+            "date": "2026-10-16",
+            "quote": "Wall Street's fear gauge is ripping. Traders see it going even higher",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "채권시장은 물가 충격 두 번을 그냥 넘겼다",
+        "easy": "물가 지표가 두 번이나 예상을 벗어났지만 채권시장은 크게 흔들리지 않았다. 채권 투자자들이 물가가 계속 오르지는 않는다고 본다는 뜻이다. 다만 주식 투자자는 이 침착함을 그대로 믿기보다 주의해서 봐야 한다는 지적이 나왔다. 채권이 조용한데 주식만 빠지면 하락 원인이 물가가 아니라 다른 데 있다는 신호다.",
+        "whyMatters": "금리가 안정되면 빚이 많은 부동산·유틸리티 업종에 숨통이 트인다. 반대로 지금의 기술주 하락은 금리 탓이 아니라 실적·기대치 문제일 수 있어 종목별로 가려야 한다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "The bond market shrugged off two inflation shocks. Why stock investors should pay attention.",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/the-bond-market-shrugged-off-two-inflation-shocks-why-stock-investors-should-pay-attention-5da4f771?mod=mw_rss_topstories",
+            "date": "2026-10-16",
+            "quote": "The bond market shrugged off two inflation shocks. Why stock investors should pay attention.",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "애플이 1,999달러 아이폰으로 가격 한계를 시험한다",
+        "easy": "애플이 1,999달러짜리 iPhone Duo를 내놨다. 비싸도 사는 브랜드 힘이 아직 통하는지 보는 시험대다. 잘 팔리면 한 대당 이익이 커지고, 안 팔리면 비싼 물건에 대한 수요가 식었다는 뜻이 된다. 결과는 아직 나오지 않았다.",
+        "whyMatters": "판매가 좋으면 애플에 부품을 대는 반도체·전자부품 업종에 좋고, 부진하면 같은 공급망과 고가 소비재 업종에 나쁘다. 비싼 물건의 판매 추세는 소비 경기를 미리 보여주는 신호다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Apple's $1,999 iPhone Duo puts the company's status-symbol power to the test",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/16/apple-iphone-duo-demand-price.html",
+            "date": "2026-10-16",
+            "quote": "Apple’s $1,999 iPhone Duo puts the company's status-symbol power to the test",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "미국이 중국에 카드·은행 시장 개방을 압박했다",
+        "easy": "방콕에서 열린 양국 회담에서 미국이 Mastercard와 Citigroup의 중국 시장 진입을 요구했다. 중국이 받아들이면 미국 금융사가 중국에서 영업할 길이 넓어진다. 합의가 됐는지는 아직 알려지지 않았다. 협상 주제가 관세에서 금융 개방으로 옮겨가는 흐름이다.",
+        "whyMatters": "열리면 카드·은행 같은 금융 업종에 새 매출 통로가 생겨 Mastercard·Citigroup에 좋다. 협상이 깨지면 중국 매출 비중이 큰 금융·기술 업종에 다시 부담이 된다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
+            "publisher": "CNBC Top News",
+            "url": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
+            "date": "2026-10-16",
+            "quote": "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 크게 사기 좋은 때가 아니다. QQQ 종가가 709.8로 50일선 아래에 있고, 10일선은 20일선 위지만 오르는 힘이 약해졌다 — 넣는 돈을 줄일 구간이다. 오늘 뉴스는 기술주가 소프트웨어·반도체 할 것 없이 같이 밀렸고 중동 원유 공급 불안이 겹쳤다는 뜻이다. 빚내서 산 주식(마진부채)이 1년 전보다 +31.4%로 주의선을 넘어, 하락이 길어지면 강제 매도가 매물을 더 늘릴 수 있다. 이번 주는 QQQ가 50일선을 되찾는지, 브렌트유가 110달러 위에 머무는지를 본다.",
+    "keyRisks": [
+      "원유 공급 차질: 호르무즈 선박 피격이 늘면 기름값이 더 올라 물가와 금리 기대가 다시 뒤집힌다.",
+      "기술주 동반 하락: 소프트웨어와 반도체가 같이 빠져 기술주 안에서 종목을 바꿔도 손실이 줄지 않는다.",
+      "빚으로 산 주식: 마진부채가 주의선을 넘은 상태라 하락이 이어지면 강제 매도가 매물을 더 보탠다.",
+      "변동성 확대: 공포지수가 더 오를 것으로 보는 시각이 많아 반등해도 되돌림이 잦을 수 있다."
+    ],
+    "easySummary": [
+      "기술주가 소프트웨어·반도체 할 것 없이 같이 떨어졌고, 더 내려갈 신호가 보인다는 지적이 나왔다.",
+      "이란의 호르무즈 공격으로 브렌트유가 110달러에 닿아 물가·금리 기대가 다시 흔들린다.",
+      "공포지수는 뛰고 QQQ는 50일선 아래라, 새로 넣는 금액을 줄이고 반등 여부를 확인할 구간이다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 155,
+      "ok": 263,
+      "unverified": 3,
+      "dead": 0,
+      "stripped": 9,
+      "removed": [],
+      "numberCut": 15,
+      "numberCuts": [
+        {
+          "sentence": "주가는 8월 28일 고점 90.44달러에서 약 18% 낮은 74.01달러다.",
+          "missing": [
+            "18"
+          ]
+        },
+        {
+          "sentence": "2분기 매출이 8.0억 달러로 1년 전보다 61% 늘었고, 영업이익은 2.3억 달러로 3배 넘게 늘었다.",
+          "missing": [
+            "3"
+          ]
+        },
+        {
+          "sentence": "8월 S&P500 지수 편입이 확정되면서 지수를 따라 사는 자금이 들어올 것이라는 기대에 주가가 11% 뛰었다.",
+          "missing": [
+            "11"
+          ]
+        },
+        {
+          "sentence": "주가가 이미 52주 저점의 2.7배 수준(114.92달러)이고 주가수익비율이 31.19배라 기대가 많이 반영돼 있다.",
+          "missing": [
+            "2.7"
+          ]
+        },
+        {
+          "sentence": "2026년 5~7월 분기 매출이 4억 1,100만 달러로 1년 전보다 15% 늘고, 영업이익은 6,200만 달러로 2배 넘게 늘었다.",
+          "missing": [
+            "2"
+          ]
+        },
+        {
+          "sentence": "현재가 168.86달러는 52주 고점 255.89달러보다 34% 낮다.",
+          "missing": [
+            "34"
+          ]
+        },
+        {
+          "sentence": "관세 환급금 약 5천만 달러가 들어오면서 관세 부담 우려가 줄고 이익에 보탬이 됐다.",
+          "missing": [
+            "5"
+          ]
+        },
+        {
+          "sentence": "10월 13일 주가가 약 5% 뛰며 첫 사상 최고 종가 기록 기사가 나왔다.",
+          "missing": [
+            "5"
+          ]
+        },
+        {
+          "sentence": "영업이익은 6,316만 달러로 1년 전의 약 13배가 됐다.",
+          "missing": [
+            "13"
+          ]
+        },
+        {
+          "sentence": "9월 초 실적 발표 이후 주가 상승이 이어졌고, 3개월 상승률이 50%를 넘는다는 분석 기사가 나왔다.",
+          "missing": [
+            "50"
+          ]
+        },
+        {
+          "sentence": "매출 증가율은 분기마다 8~9%대로 완만하다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "100만 달러 이상 대형 계약이 40% 늘고 AI 에이전트 실사용 고객이 9개월간 9배가 됐다.",
+          "missing": [
+            "100만 달러"
+          ]
+        },
+        {
+          "sentence": "Armis·Veza 인수로 보안 사업이 상위 10개 보안 기업 중 성장률이 가장 높다고 한다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "10월 들어 Goldman Sachs(115→103달러)와 TD Cowen(124→110달러)이 목표주가를 낮췄다.",
+          "missing": [
+            "115",
+            "103"
+          ]
+        },
+        {
+          "sentence": "성장 둔화: 3분기 가이던스가 48%로 낮아졌고 2분기 매출 증가율은 61%로 이전 분기보다 낮다.",
+          "missing": [
+            "61"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-17"
   }
 };

@@ -1,0 +1,186 @@
+{
+ "ticker": "TWLO",
+ "news": [
+  {
+   "title": "Wall Street Bulls Look Optimistic About Twilio (TWLO): Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/wall-street-bulls-look-optimistic-about-twilio-twlo-should-you-buy",
+   "date": "2026-10-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Is Trending Stock Twilio Inc. (TWLO) a Buy Now?",
+   "url": "https://www.nasdaq.com/articles/trending-stock-twilio-inc-twlo-buy-now",
+   "date": "2026-10-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Twilio (TWLO) Declines More Than Market: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/twilio-twlo-declines-more-market-some-information-investors",
+   "date": "2026-10-14",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Will Twilio (TWLO) Beat Estimates Again in Its Next Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/will-twilio-twlo-beat-estimates-again-its-next-earnings-report",
+   "date": "2026-10-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Twilio (TWLO) Suffers a Larger Drop Than the General Market: Key Insights",
+   "url": "https://www.nasdaq.com/articles/twilio-twlo-suffers-larger-drop-general-market-key-insights",
+   "date": "2026-10-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Twilio (TWLO) Outperforms Broader Market: What You Need to Know",
+   "url": "https://www.nasdaq.com/articles/twilio-twlo-outperforms-broader-market-what-you-need-know-0",
+   "date": "2026-10-05",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wall Street Analysts Think Twilio (TWLO) Is a Good Investment: Is It?",
+   "url": "https://www.nasdaq.com/articles/wall-street-analysts-think-twilio-twlo-good-investment-it",
+   "date": "2026-09-30",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Twilio (TWLO) Advances While Market Declines: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/twilio-twlo-advances-while-market-declines-some-information-investors",
+   "date": "2026-09-29",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "reportDate": "2026-08-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000088/twlo-20260806.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-17",
+   "reportDate": "2026-06-16",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000055/twlo-20260616.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000046/twlo-20260430.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-24",
+   "reportDate": "2026-03-24",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000027/twlo-20260324.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-12",
+   "reportDate": "2026-02-12",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000010/twlo-20260212.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-10-30",
+   "reportDate": "2025-10-30",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766925000147/twlo-20251030.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 18.44,
+  "saleNy": 11.55,
+  "epsCy": 21.31,
+  "epsNy": 14.64,
+  "cyTrend": 0.05,
+  "nyTrend": 0.19,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    22.03,
+    20,
+    14.32
+   ],
+   "ni": [
+    4659.44,
+    350.31,
+    "적자확대"
+   ],
+   "opm": [
+    5.64,
+    7.65,
+    4.16
+   ],
+   "updated": "2026-09-08 08:38:14"
+  }
+ }
+}

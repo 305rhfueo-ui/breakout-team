@@ -1,0 +1,800 @@
+{
+ "ticker": "MSTR",
+ "date": "2026-10-17",
+ "session": "2026-10-16",
+ "source": "list",
+ "plan": {
+  "ticker": "MSTR",
+  "name": "스트래티지",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "price": 151.2899932861328,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 171.19,
+  "stop": 163.71,
+  "distToPivotPct": -20.07,
+  "distToPivotAdr": -3.67,
+  "riskPerSharePct": 4.37,
+  "adrPct": 5.47,
+  "extensionAdr": -2.09,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 20,
+   "baseWeeks": 4,
+   "depthPct": 21.7,
+   "priorMovePct": 109.3,
+   "higherLows": 0,
+   "contraction": 1.05,
+   "closeRange10Adr": 3.7,
+   "surf10": -2.09,
+   "surf20": -2.61,
+   "slope20": 1.87,
+   "baseLow": 134.11,
+   "lastSwingLow": 147.37
+  },
+  "reasons": [
+   "선행 상승 +109%",
+   "베이스 4주",
+   "깊이 21.7%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.05배 · 10일 종가폭 3.7 ADR",
+   "✗ 10일선 -2.1 ADR · 20일선 -2.6 ADR",
+   "20일선 기울기 +1.87%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.14396970348682656,
+    "pct": 96.34806131650136
+   },
+   "m3": {
+    "v": 0.5127486256829628,
+    "pct": 96.97926059513074
+   },
+   "m6": {
+    "v": -0.11536668514459401,
+    "pct": 19.792605951307486
+   }
+  },
+  "ret1m": 14.4,
+  "ret3m": 51.27,
+  "ret6m": -11.54,
+  "marketCap": "64.06B",
+  "volx": null,
+  "volSurgeWk": 1.88,
+  "high52": 49.42,
+  "newHigh52": false,
+  "adr": 5.26,
+  "div50": 12.8,
+  "div200": 11.49,
+  "targetStatus": false,
+  "saleCy": 5.13,
+  "saleNy": 2.22,
+  "epsCy": 50.07,
+  "epsNy": -157.64,
+  "cyTrend": -8.2,
+  "nyTrend": -4.71,
+  "est": {
+   "cyCur": -22.85613,
+   "cy30": -24.89662,
+   "nyCur": 13.17459,
+   "ny30": 13.82537
+  },
+  "fs": {
+   "sale": [
+    6.88,
+    11.92,
+    1.9
+   ],
+   "ni": [
+    -186.45,
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -6808.11,
+    -11641.53,
+    -14184.96
+   ],
+   "updated": "2026-09-21 06:41:17"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-17",
+  "nameKo": "스트래티지",
+  "nameEn": "STRATEGY INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001050446&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 122368000,
+     "profit": -8330950000,
+     "netIncome": -8219628000,
+     "margin": -6808.1,
+     "yoy": {
+      "revenue": 6.9,
+      "profit": -159.4,
+      "netIncome": -182,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 124300000,
+     "profit": -14470419000,
+     "netIncome": -12542670000,
+     "margin": -11641.5,
+     "yoy": {
+      "revenue": 11.9,
+      "profit": -144.4,
+      "netIncome": -197.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 122988000,
+     "profit": -17445805000,
+     "netIncome": -12436653000,
+     "margin": -14185,
+     "yoy": {
+      "revenue": 1.9,
+      "profit": -1616.4,
+      "netIncome": -1754,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 128691000,
+     "profit": 3890842000,
+     "netIncome": 2785024000,
+     "margin": 3023.4,
+     "yoy": {
+      "revenue": 10.9,
+      "profit": 999.4,
+      "netIncome": 918.7,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Strategy (MSTR) Falls More Steeply Than Broader Market: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/strategy-mstr-falls-more-steeply-broader-market-what-investors-need-know",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Trending Stock Strategy Inc (MSTR) a Buy Now?",
+     "url": "https://www.nasdaq.com/articles/trending-stock-strategy-inc-mstr-buy-now",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Strategy (MSTR) Dips More Than Broader Market: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/strategy-mstr-dips-more-broader-market-what-you-should-know",
+     "date": "2026-10-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "MSTR Stock Rises 60% in Three Months: Is More Upside Still Ahead?",
+     "url": "https://www.nasdaq.com/articles/mstr-stock-rises-60-three-months-more-upside-still-ahead",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-16",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526423400/mstr-20261015.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-13",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526419726/mstr-20261012.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-05",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526413164/mstr-20261005.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-01",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526409863/mstr-20260930.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-28",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526403417/mstr-20260914.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-25",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526401636/mstr-20260924.htm"
+   }
+  ],
+  "krReports": {
+   "total": 2,
+   "reports": [
+    {
+     "date": "2026-02-06",
+     "broker": "한화증권",
+     "analyst": "김유민",
+     "title": "[스트래티지 (NAS:MSTR)] 변동성 확대, 신중한 접근 필요",
+     "summary": "- 매출은 1억 달러(YoY +1.9%), 영업손실 174억 달러를 기록했다. 순손 실은 126억 달러, 주당 순손실은 42.93 달러다. 비트코인 가격 하락에 따른 평가 손실이 재무제표에 반영되면서 대규모 회계상 손실을 기록 했다.- 주가 및 비트코인 가격 부진에도 공격적인 매수를 지속하며 4분기에 32,470 BTC를 약 31억 달러에 매입했다. 2025년 전체 BTC 수익률은 22.8%를 기록하며 목표 범위(22~26%)를 달성했다.- BTC 수익률은 주 당 비트코인 수의 변화율로 구한다. 주식을 발행해 자금을 조달하더라 도, 그 돈으로 주식 수 증가분보다 더 많은 비율의 비트코인을 매입했 다면 BPS는 상승하고 BTC 수익률은 양의 값을 가진다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqczixlleezkzggcgxeceq.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-01-07",
+     "broker": "한화증권",
+     "analyst": "김유민",
+     "title": "[스트래티지 (NAS:MSTR)] 스트래티지 MSCI 편출 우려 완화",
+     "summary": "- 스트래티지는 MSCI 편출 불확실성을 해소하며 시간 외로 6.6% 상승했 습니다. 실제로 제외된다 하더라도 여파는 크지 않을 것으로 보입니다. 10월 MSCI 발표 이후 주가는 51% 하락하며 리스크를 미리 반영했습니 다.- 시장에서는 편출 시 매도 규모를 약 28억 달러로 추정했다. 주가가 급 락하고 변동성이 확대되면 스트래티지의 자본 조달 여건이 약화돼 비 트코인을 매도할 수 있다는 우려가 컸다- 10월 MSCI 발표 이후 주가 는 51% 하락했다. 편출은 보류하지만 가중치 상향 및 추가 편입을 제 한했다. 주식 수나 유통 지분 등의 증가를 반영하지 않으며 당분간 해 당 종목들이 지수 내 비중이 커지는 상황을 막을 것이다",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxqqqeczxeqeqggcgxeceq.pdf",
+     "pages": "6"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "MSTR-report1.pdf",
+   "broker": "한화증권",
+   "analyst": "김유민",
+   "date": "2026-02-06",
+   "title": "[스트래티지 (NAS:MSTR)] 변동성 확대, 신중한 접근 필요",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqczixlleezkzggcgxeceq.pdf",
+   "pages": "6"
+  },
+  {
+   "file": "MSTR-report2.pdf",
+   "broker": "한화증권",
+   "analyst": "김유민",
+   "date": "2026-01-07",
+   "title": "[스트래티지 (NAS:MSTR)] 스트래티지 MSCI 편출 우려 완화",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxqqqeczxeqeqggcgxeceq.pdf",
+   "pages": "6"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Amazon, Marvell, PayPal & more",
+   "url": "https://www.cnbc.com/2026/08/28/stocks-making-the-biggest-moves-midday-amzn-mrvl-pypl-crm.html",
+   "date": "2026-08-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "A breakout is brewing in this bitcoin-linked stock. How to trade it",
+   "url": "https://www.cnbc.com/2026/08/26/a-breakout-is-brewing-in-this-bitcoin-linked-stock-how-to-trade-it.html",
+   "date": "2026-08-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Expedia, Nvidia, Strategy and more",
+   "url": "https://www.cnbc.com/2026/08/24/stocks-making-the-biggest-moves-midday-expe-nvda-mstr-hims.html",
+   "date": "2026-08-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Moderna, Robinhood & more",
+   "url": "https://www.cnbc.com/2026/08/21/stocks-making-the-biggest-moves-midday-mrna-hood-bj-coin.html",
+   "date": "2026-08-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves premarket: BJ's Wholesale, Broadcom, Ross Stores",
+   "url": "https://www.cnbc.com/2026/08/21/stocks-making-the-biggest-moves-premarket-bj-avg-coin-rost.html",
+   "date": "2026-08-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Bitcoin rebounds after Trump says he's become 'a big crypto guy'",
+   "url": "https://www.cnbc.com/2026/07/06/bitcoin-rebounds-after-trump-says-hes-become-a-big-crypto-guy.html",
+   "date": "2026-07-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Sandisk, Robinhood, Palantir & more",
+   "url": "https://www.cnbc.com/2026/07/02/stocks-making-the-biggest-moves-premarket-sndk-hood-pltr.html",
+   "date": "2026-07-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Options Action: Traders buy crypto dip",
+   "url": "https://www.cnbc.com/video/2026/09/25/options-action-traders-buy-crypto-dip.html",
+   "date": "2026-09-25",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "MSTR",
+  "fetchedAt": "2026-10-17",
+  "source": "한국투자증권 Open API",
+  "per": 1.41,
+  "pbr": 1.65,
+  "eps": 97.21,
+  "bps": 83.12,
+  "shares": 402431000,
+  "marketCapM": 55065,
+  "high52": 308.88,
+  "high52Date": "2025-10-15",
+  "low52": 81.81,
+  "low52Date": "2026-06-26",
+  "last": 136.83,
+  "prevClose": 151.29,
+  "nameKo": "스트래티지",
+  "nameEn": "STRATEGY INC",
+  "listedOn": "0000-00-00",
+  "exchange": "나스닥",
+  "listedShares": 402431000
+ },
+ "estimates": {
+  "ticker": "MSTR",
+  "url": "https://finance.yahoo.com/quote/MSTR/analysis/",
+  "fetchedAt": "2026-10-17",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 17.98,
+    "epsLow": -0.99,
+    "epsHigh": 52.82,
+    "epsYearAgo": 8.42,
+    "epsAnalysts": 9,
+    "epsGrowth": 113.5,
+    "epsCur": "USD",
+    "rev": 129356470,
+    "revAnalysts": 10,
+    "revYearAgo": 128691000,
+    "revGrowth": 0.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 12.67,
+    "epsLow": -0.97,
+    "epsHigh": 66.62,
+    "epsYearAgo": -42.93,
+    "epsAnalysts": 8,
+    "epsGrowth": 129.5,
+    "epsCur": "USD",
+    "rev": 126788020,
+    "revAnalysts": 10,
+    "revYearAgo": 122989000,
+    "revGrowth": 3.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": -19.12,
+    "epsLow": -74.5,
+    "epsHigh": 65.56,
+    "epsYearAgo": -15.23,
+    "epsAnalysts": 11,
+    "epsGrowth": -25.5,
+    "epsCur": "USD",
+    "rev": 501703000,
+    "revAnalysts": 13,
+    "revYearAgo": 477233000,
+    "revGrowth": 5.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 13.04,
+    "epsLow": -2.42,
+    "epsHigh": 69.86,
+    "epsYearAgo": -19.12,
+    "epsAnalysts": 8,
+    "epsGrowth": 168.2,
+    "epsCur": "USD",
+    "rev": 512855010,
+    "revAnalysts": 9,
+    "revYearAgo": 501703000,
+    "revGrowth": 2.2,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 17.98,
+    "d7": 27.7,
+    "d30": -6.8,
+    "d90": 22.7,
+    "ago90": 14.65,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 12.67,
+    "d7": -1.1,
+    "d30": -40.4,
+    "d90": -38,
+    "ago90": 20.43,
+    "up7": 0,
+    "up30": 1,
+    "down7": 1,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -19.12,
+    "d7": 16.3,
+    "d30": 18.4,
+    "d90": -213.4,
+    "ago90": 16.87,
+    "up7": 2,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 13.04,
+    "d7": -1,
+    "d30": -0.7,
+    "d90": 48.7,
+    "ago90": 8.77,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 2
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": -24.45,
+    "estimate": 3.07,
+    "surprisePct": -895.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": -38.25,
+    "estimate": -15.33,
+    "surprisePct": -149.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": -42.93,
+    "estimate": -20.99,
+    "surprisePct": -104.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 8.42,
+    "estimate": 9.67,
+    "surprisePct": -12.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 0,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 8,
+   "ptLowered": 5,
+   "total": 15,
+   "recent": [
+    {
+     "date": "2026-10-16",
+     "firm": "Cantor Fitzgerald",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 208,
+     "ptPrior": 186
+    },
+    {
+     "date": "2026-10-09",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 175,
+     "ptPrior": 160
+    },
+    {
+     "date": "2026-10-02",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 240,
+     "ptPrior": 136
+    },
+    {
+     "date": "2026-09-22",
+     "firm": "B. Riley Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 195,
+     "ptPrior": 175
+    },
+    {
+     "date": "2026-09-15",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 160,
+     "ptPrior": 125
+    },
+    {
+     "date": "2026-09-08",
+     "firm": "Canaccord Genuity",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 179,
+     "ptPrior": 175
+    },
+    {
+     "date": "2026-09-03",
+     "firm": "B. Riley Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 175,
+     "ptPrior": 155
+    },
+    {
+     "date": "2026-09-02",
+     "firm": "Alliance Global Partners",
+     "action": "init",
+     "from": null,
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 217,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-08-26",
+     "firm": "Bernstein",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 350,
+     "ptPrior": 450
+    },
+    {
+     "date": "2026-08-25",
+     "firm": "Canaccord Genuity",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 175,
+     "ptPrior": 130
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-29",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-16",
+  "numbers": {
+   "price": 136.83,
+   "ma20": 156.4,
+   "ma50": 134.92,
+   "ma150": 132.53,
+   "distMA50": 1.41,
+   "periodHigh": 543,
+   "pullbackFromHigh": -74.8,
+   "volRatio20": 1.52,
+   "dryUpRatio": 0.96
+  },
+  "last10": [
+   {
+    "d": "2026-10-05",
+    "o": 164.68,
+    "h": 166.2,
+    "l": 160.12,
+    "c": 164.43,
+    "v": 18216500,
+    "clsPos": 71,
+    "gapPct": 2.92
+   },
+   {
+    "d": "2026-10-06",
+    "o": 165.82,
+    "h": 168.73,
+    "l": 163.18,
+    "c": 164.55,
+    "v": 17497200,
+    "clsPos": 25,
+    "gapPct": 0.85
+   },
+   {
+    "d": "2026-10-07",
+    "o": 157.7,
+    "h": 158.66,
+    "l": 152.53,
+    "c": 153.37,
+    "v": 21670900,
+    "clsPos": 14,
+    "gapPct": -4.16
+   },
+   {
+    "d": "2026-10-08",
+    "o": 150.34,
+    "h": 153.63,
+    "l": 147.37,
+    "c": 151.47,
+    "v": 23703500,
+    "clsPos": 65,
+    "gapPct": -1.98
+   },
+   {
+    "d": "2026-10-09",
+    "o": 154.22,
+    "h": 158.11,
+    "l": 150.5,
+    "c": 154.34,
+    "v": 16042200,
+    "clsPos": 50,
+    "gapPct": 1.82
+   },
+   {
+    "d": "2026-10-12",
+    "o": 153.4,
+    "h": 158.4,
+    "l": 150.84,
+    "c": 152.68,
+    "v": 13157300,
+    "clsPos": 24,
+    "gapPct": -0.61
+   },
+   {
+    "d": "2026-10-13",
+    "o": 153.11,
+    "h": 156.2,
+    "l": 150.93,
+    "c": 152.18,
+    "v": 12381900,
+    "clsPos": 24,
+    "gapPct": 0.28
+   },
+   {
+    "d": "2026-10-14",
+    "o": 149.76,
+    "h": 152.18,
+    "l": 141.74,
+    "c": 143.24,
+    "v": 20850100,
+    "clsPos": 14,
+    "gapPct": -1.59
+   },
+   {
+    "d": "2026-10-15",
+    "o": 137.74,
+    "h": 151.33,
+    "l": 134.89,
+    "c": 151.29,
+    "v": 22287000,
+    "clsPos": 100,
+    "gapPct": -3.84
+   },
+   {
+    "d": "2026-10-16",
+    "o": 146.14,
+    "h": 146.83,
+    "l": 134.11,
+    "c": 136.83,
+    "v": 31774229,
+    "clsPos": 21,
+    "gapPct": -3.4
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MSTR-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MSTR-6m.png"
+ },
+ "market": {
+  "verdict": "yellow",
+  "ko": "🟡 10일선이 20일선 위지만 오르는 힘이 약해짐 — 넣는 돈을 줄일 때",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

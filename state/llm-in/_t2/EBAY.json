@@ -1,0 +1,304 @@
+{
+ "ticker": "EBAY",
+ "sector": "Consumer Cyclical",
+ "industry": "Internet Retail",
+ "nameKo": "이베이",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.87,
+  "saleNy": 6.67,
+  "epsCy": 11.14,
+  "epsNy": 9.44,
+  "est": {
+   "cyCur": 6.13496,
+   "cy30": 6.12668,
+   "nyCur": 6.71422,
+   "ny30": 6.73289
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    14.8,
+    19.5,
+    14.97
+   ],
+   "ni": [
+    51.1,
+    2.61,
+    -21.06
+   ],
+   "opm": [
+    21.57,
+    19.78,
+    20.61
+   ],
+   "updated": "2026-09-08 10:47:43"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-17",
+  "nameKo": "이베이",
+  "nameEn": "EBAY INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001065088&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 3134000000,
+     "profit": 676000000,
+     "netIncome": 550000000,
+     "margin": 21.6,
+     "yoy": {
+      "revenue": 14.8,
+      "profit": 41.1,
+      "netIncome": 51.1,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 3089000000,
+     "profit": 611000000,
+     "netIncome": 512000000,
+     "margin": 19.8,
+     "yoy": {
+      "revenue": 19.5,
+      "profit": 0,
+      "netIncome": 2.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 2965000000,
+     "profit": 601000000,
+     "netIncome": 528000000,
+     "margin": 20.3,
+     "yoy": {
+      "revenue": 15,
+      "profit": 10.7,
+      "netIncome": -22.2,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 2820000000,
+     "profit": 576000000,
+     "netIncome": 632000000,
+     "margin": 20.4,
+     "yoy": {
+      "revenue": 9.5,
+      "profit": -3.2,
+      "netIncome": -0.3,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here's How Much You'd Have If You Invested $1000 in eBay a Decade Ago",
+     "url": "https://www.nasdaq.com/articles/heres-how-much-youd-have-if-you-invested-1000-ebay-decade-ago",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CARG vs. EBAY: Which Stock Should Value Investors Buy Now?",
+     "url": "https://www.nasdaq.com/articles/carg-vs-ebay-which-stock-should-value-investors-buy-now",
+     "date": "2026-10-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why eBay (EBAY) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-ebay-ebay-top-momentum-stock-long-term",
+     "date": "2026-09-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "eBay CFO Peggy Alford Sells 2,716 Shares in Tax-Related Transaction",
+     "url": "https://www.nasdaq.com/articles/ebay-cfo-peggy-alford-sells-2716-shares-tax-related-transaction",
+     "date": "2026-09-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "eBay CEO Jamie Iannone Sells Company Shares Worth $2.3 Million Amid a 12% One-Year Return",
+     "url": "https://www.nasdaq.com/articles/ebay-ceo-jamie-iannone-sells-company-shares-worth-23-million-amid-12-one-year-return",
+     "date": "2026-09-11",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "GameStop’s Comeback Case Is Getting Interesting, But eBay Still Looks Stronger",
+     "url": "https://www.nasdaq.com/articles/gamestops-comeback-case-getting-interesting-ebay-still-looks-stronger",
+     "date": "2026-09-10",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "eBay Sees Collectibles, Live Commerce and AI Powering Its Next Growth Phase",
+     "url": "https://www.nasdaq.com/articles/ebay-sees-collectibles-live-commerce-and-ai-powering-its-next-growth-phase",
+     "date": "2026-09-09",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Why Is eBay (EBAY) Down 3.9% Since Last Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/why-ebay-ebay-down-39-last-earnings-report",
+     "date": "2026-09-04",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000174/ebay-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000135/ebay-20260617.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-12",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1065088/000155278126000322/e26249_ebay-8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1065088/000155278126000302/e26238_ebay-8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000092/ebay-20260429.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-24",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000060/ebay-20260319.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Katie Stockton says retail stocks could be primed for a counter-trend rally",
+   "url": "https://www.cnbc.com/2026/10/12/katie-stockton-says-retail-stocks-could-be-primed-for-a-counter-trend-rally-these-stocks-may-lead-the-bounce.html",
+   "date": "2026-10-12",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "CNBC Daily Open: Eyes on the Middle East, Ukraine, IMF and World Bank",
+   "url": "https://www.cnbc.com/2026/10/12/tensions-middle-east-and-ukraine-wars-imf-world-bank.html",
+   "date": "2026-10-12",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Pokémon cards are booming in value. How to grade, buy and sell them",
+   "url": "https://www.cnbc.com/2026/10/10/pokemon-card-values-grading-guide.html",
+   "date": "2026-10-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "These stocks will benefit most from AI productivity gains, Goldman says",
+   "url": "https://www.cnbc.com/2026/08/17/these-stocks-will-benefit-most-from-ai-productivity-gains-per-goldman.html",
+   "date": "2026-08-17",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: NetApp, MarineMax, Doximity & more",
+   "url": "https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-midday-ntap-intc-aapl-docs-vrsk.html",
+   "date": "2026-08-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Berkshire, Intel, GameStop, & more",
+   "url": "https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-premarket-aapl-hpe-rklb-and-more.html",
+   "date": "2026-08-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "EBAY",
+  "fetchedAt": "2026-10-17",
+  "source": "한국투자증권 Open API",
+  "per": 24.9,
+  "pbr": 11.47,
+  "eps": 4.83,
+  "bps": 10.48,
+  "shares": 445000000,
+  "marketCapM": 53525,
+  "high52": 124.59,
+  "high52Date": "2026-10-15",
+  "low52": 77.3199,
+  "low52Date": "2026-02-17",
+  "last": 120.28,
+  "prevClose": 122.91,
+  "nameKo": "이베이",
+  "nameEn": "EBAY INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 445000000
+ }
+}

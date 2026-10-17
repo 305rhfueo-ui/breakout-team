@@ -1,0 +1,43 @@
+{
+ "ticker": "CHKP",
+ "news": [
+  {
+   "title": "Check Point (CHKP) Q2 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/check-point-chkp-q2-2026-earnings-call-transcript",
+   "date": "2026-08-08",
+   "publisher": "The Motley Fool"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 2.81,
+  "saleNy": 5.8,
+  "epsCy": -12.22,
+  "epsNy": 8.16,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    1.26,
+    4.8,
+    5.85
+   ],
+   "ni": [
+    -4.44,
+    0.37,
+    18.25
+   ],
+   "opm": [
+    27.48,
+    27.69,
+    31.27
+   ],
+   "updated": "2026-09-08 07:13:06"
+  }
+ }
+}

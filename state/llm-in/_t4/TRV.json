@@ -2,19 +2,47 @@
  "ticker": "TRV",
  "news": [
   {
-   "title": "Here's Why Travelers (TRV) is a Strong Value Stock",
-   "url": "https://www.nasdaq.com/articles/heres-why-travelers-trv-strong-value-stock",
-   "date": "2026-10-12",
+   "title": "Travelers (TRV) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/travelers-trv-q3-2026-earnings-call-transcript",
+   "date": "2026-10-16",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Why Travelers (TRV) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-travelers-trv-top-momentum-stock-long-term",
+   "date": "2026-10-16",
    "publisher": "Zacks"
   },
   {
-   "title": "Travelers (TRV) Expected to Beat Earnings Estimates: Should You Buy?",
-   "url": "https://www.nasdaq.com/articles/travelers-trv-expected-beat-earnings-estimates-should-you-buy",
-   "date": "2026-10-09",
+   "title": "Travelers (TRV) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+   "url": "https://www.nasdaq.com/articles/travelers-trv-q3-earnings-taking-look-key-metrics-versus-estimates",
+   "date": "2026-10-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Travelers (TRV) Surpasses Q3 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/travelers-trv-surpasses-q3-earnings-and-revenue-estimates",
+   "date": "2026-10-16",
    "publisher": "Zacks"
   }
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-16",
+   "reportDate": "2026-10-16",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000180/trv-20261016.htm",
+   "description": "8-K"
+  },
   {
    "form": "8-K",
    "filingDate": "2026-08-07",
@@ -94,34 +122,18 @@
    "isEarnings": false,
    "url": "https://www.sec.gov/Archives/edgar/data/86312/000110465926065156/tm2614971d1_8k.htm",
    "description": "FORM 8-K"
-  },
-  {
-   "form": "8-K",
-   "filingDate": "2026-04-16",
-   "reportDate": "2026-04-16",
-   "items": [
-    "2.02",
-    "9.01"
-   ],
-   "itemsKo": [
-    "실적 발표",
-    "재무제표·첨부"
-   ],
-   "isEarnings": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000110/trv-20260416.htm",
-   "description": "8-K"
   }
  ],
  "financials": null,
  "krReports": null,
  "site": {
   "targetStatus": false,
-  "saleCy": -1.11,
-  "saleNy": 2.88,
-  "epsCy": 25.26,
-  "epsNy": -11.82,
-  "cyTrend": 1.48,
-  "nyTrend": 0.88,
+  "saleCy": -1.06,
+  "saleNy": 2.75,
+  "epsCy": 31.04,
+  "epsNy": -14.93,
+  "cyTrend": 5.9,
+  "nyTrend": 1.61,
   "newHigh52": false,
   "bbCenterBrk5d": false,
   "fs": {

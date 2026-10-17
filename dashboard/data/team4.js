@@ -161,27 +161,53 @@ window.TEAM4_DATA = {
       "catalyst": {
         "status": "done",
         "ticker": "TRV",
-        "category": 6,
+        "category": 1,
         "claims": [
           {
             "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
+            "statement": "10월 16일 3분기 실적을 발표했고, 이익과 매출이 시장 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Travelers (TRV) Surpasses Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/travelers-trv-surpasses-q3-earnings-and-revenue-estimates",
+                "date": "2026-10-16",
+                "quote": "Travelers (TRV) Surpasses Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "같은 날 SEC에 실적 발표 공시(8-K)가 제출됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Travelers 8-K (item 2.02 실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000180/trv-20261016.htm",
+                "date": "2026-10-16",
+                "quote": "8-K 2026-10-16 items 2.02, 9.01 (실적 발표)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
           }
         ],
-        "company": "트래블러스는 미국 대형 손해보험사로, 기업·개인 고객에게 보험을 팔고 받은 보험료와 투자 수익으로 돈을 법니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
+        "company": "Travelers는 미국 최대급 손해보험사로, 기업·개인에게 재산·상해 보험을 팔아 보험료와 투자수익으로 돈을 번다.",
+        "volumeExplanation": "10월 16일 3분기 실적을 발표했는데 이익과 매출이 예상치를 넘어서며 거래량이 평소 5일 평균의 2.7배로 늘었다.",
+        "confidence": "medium",
         "factcheck": {
-          "verdict": "pass",
+          "verdict": "partial",
           "removed": [],
-          "reason": ""
+          "reason": "어닝 실적 발표는 Zacks 기사와 SEC 8-K로 입증됨. 다만 거래량 2.7배는 claim에 근거가 없음."
         },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-16",
-        "carried": true
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -225,9 +251,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:40:13"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "WTS",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Watts Water Technologies는 건물용 수도 배관 밸브, 수질 정화, 온수 장비를 만들어 파는 산업재 기업이다. 주택·상업용 건물의 수도 설비 수요가 매출의 중심이다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 올바르게 분류됨."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -271,9 +317,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 06:11:11"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "NDSN",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Nordson은 접착제·코팅 등을 정밀하게 분사하는 산업용 장비와 부품을 만들어 파는 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 올바르게 분류됨."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -317,9 +383,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:38:14"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "TWLO",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Twilio는 기업이 문자·음성·이메일을 앱에 넣을 수 있게 해 주는 클라우드 통신 서비스를 팔아 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 올바르게 분류됨."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -363,9 +449,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:52:53"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ECL",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Ecolab은 기업·병원·식품공장에 세정·위생 화학제품과 물 처리 서비스를 공급해 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 올바르게 분류됨."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -409,9 +515,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:03:42"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "GRMN",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Garmin은 GPS 기반 스마트워치, 피트니스·야외 활동 기기, 자동차·항공·해양용 전자장비를 만들어 판매하는 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -455,9 +581,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:34:04"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "OKTA",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "기업용 로그인·접근 권한 관리(아이덴티티 보안) 소프트웨어를 구독 방식으로 팔아 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -501,9 +647,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:30:14"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "RMD",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "ResMed는 수면무호흡 치료용 기기와 마스크, 클라우드 소프트웨어를 팔아 돈을 버는 의료기기 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -547,9 +713,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:21:18"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ALL",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Allstate는 미국 최대급 손해보험사로, 자동차·주택 보험료를 받아 보험금을 지급하고 남는 이익과 투자수익으로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다. 10월 15일 공시는 매달 나오는 9월 재해 손실 추정 발표일 뿐이다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -593,9 +779,57 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:24:35"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SAP",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 7일 SAP가 IBM과 기업 시스템 현대화·AI 도입 준비를 돕는 공동 솔루션을 내놓았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "IBM, SAP Launch Solution To Support Business Modernization, AI-readiness",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/ibm-sap-launch-solution-support-business-modernization-ai-readiness",
+                "date": "2026-10-07",
+                "quote": "IBM, SAP Launch Solution To Support Business Modernization, AI-readiness",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "같은 날 SAP는 AI 인력관리 기업 TechWolf 인수를 발표했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "SAP to Acquire TechWolf to Strengthen AI-Powered Workforce Management",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/sap-acquire-techwolf-strengthen-ai-powered-workforce-management",
+                "date": "2026-10-07",
+                "quote": "SAP to Acquire TechWolf to Strengthen AI-Powered Workforce Management",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "SAP는 기업용 경영관리 소프트웨어(ERP)를 클라우드 구독 형태로 팔아 돈을 버는 독일 회사다.",
+        "volumeExplanation": "10월 7일 IBM과의 공동 솔루션 출시와 TechWolf 인수 발표가 있었지만 실적 수치가 없는 소규모 소식이다. 거래량 증가 시점과 직접 이어진다는 근거는 약하다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [],
+          "reason": "뉴스 자체는 sourced이고 정확하지만, volumeExplanation에서 '거래량 증가 시점과 직접 이어진다는 근거는 약하다'고 명시했으므로 category 3(소규모 뉴스) → 6(근거 없음)으로 정정"
+        },
+        "originalCategory": 3,
+        "corrected": true,
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -639,9 +873,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-19 05:47:34"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "TM",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "토요타는 일본 최대 자동차 제조사로, 승용차와 SUV, 하이브리드 차량을 전 세계에 팔아 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -685,9 +939,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 06:59:19"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "DXPE",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "DXP Enterprises는 공장과 사업장에 펌프, 베어링, 안전용품 같은 산업 자재를 공급하는 유통 회사다. 시설 유지보수 서비스와 장비 판매로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -731,9 +1005,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:56:14"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BR",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Broadridge는 증권사와 상장사를 위한 주주 의결권 대행, 증권 거래 처리, 투자자 소통 기술을 제공하고 수수료로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -777,9 +1071,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:30:02"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "NSIT",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Insight Enterprises는 기업 고객에게 컴퓨터·소프트웨어·클라우드 장비를 유통하고 IT 구축 서비스를 제공해 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -823,9 +1137,41 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:51:41"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "EOG",
+        "category": 5,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "EOG는 10월 8일 공시에서 중동 분쟁으로 3분기 유가가 올라 세금 비용 전망을 크게 높였다. 유가 상승이 이익 증가로 이어졌다는 신호다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "EOG Resources 8-K (2026-10-08)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/821189/000082118926000202/eog-20261008.htm",
+                "date": "2026-10-08",
+                "quote": "EOG now expects its third quarter 2026 current tax expense to be $835 million - $935 million, ... Due to the higher crude oil prices realized in the third quarter 2026 ... as a result of the ongoing conflict in the Middle East.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "EOG Resources는 미국 셰일 지역에서 원유와 천연가스를 캐내 팔아 돈을 버는 석유·가스 생산 기업이다.",
+        "volumeExplanation": "중동 분쟁으로 유가가 오르자 EOG는 10월 8일 3분기 세금 비용 전망을 크게 올렸고, 이익 증가 기대가 거래량으로 이어진 것으로 보인다. 다음 분기 실적에서 이익이 실제로 늘었는지 확인되면 이 이야기가 맞다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": "c2 statement의 '3분기'가 해당 quote에 명시되지 않음 (quote: 'averaged $85.68 per barrel'만 있고 시기 미표기)"
+        },
+        "categoryName": "매크로·정책·산업 돌파",
+        "isHighlight": true,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -869,9 +1215,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:13:06"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CHKP",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Check Point는 기업용 사이버보안 소프트웨어(방화벽, 클라우드·이메일 보안)를 팔아 돈을 버는 이스라엘 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -981,9 +1347,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 07:28:07"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "FMX",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "FMX(페멕사)는 멕시코에서 코카콜라 계열 음료를 병입·유통하고 OXXO 편의점을 운영해 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -1027,9 +1413,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:11:01"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "PAYX",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Paychex는 중소기업에 급여 처리, 인사관리, 복리후생 대행 서비스를 제공하고 구독·수수료로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -1139,9 +1545,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:59:05"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "FROG",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "JFrog는 소프트웨어 개발 과정에서 쓰는 코드·패키지를 관리하고 보안을 점검하는 구독형 소프트웨어를 판다. 기업 고객의 구독 매출이 수입의 중심이다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -1185,9 +1611,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:40:21"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ACGL",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Arch Capital Group은 재보험·특수보험·모기지보험을 함께 파는 종합 보험사다. 보험료를 받아 운용하고 보험금을 지급하는 차액으로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -1231,9 +1677,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:34:16"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ATKR",
+        "category": 3,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "Prysmian이 Atkore를 주당 95달러 현금에 인수하기로 했고, 10월 7일 주주총회에서 승인됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Atkore stockholders approve acquisition by Prysmian",
+                "publisher": "Prysmian",
+                "url": "https://www.prysmian.com/en/media/press-releases/atkore-stockholders-approve-acquisition-by-prysmian",
+                "date": "2026-10-07",
+                "quote": "Atkore stockholders approved an acquisition by Prysmian on October 7, 2026. Under the agreement, Prysmian will acquire Atkore for $95.00 per share in cash.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "10월 7일 주주총회 표결 결과가 SEC 공시(8-K)로 제출됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Atkore 8-K (주주총회 표결)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1666138/000166613826000037/atkr-20261007.htm",
+                "date": "2026-10-07",
+                "quote": "5.07 주주총회 표결",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Atkore는 전기 배선관과 케이블 보호 설비 등 전기 인프라 부품을 만들어 파는 회사다.",
+        "volumeExplanation": "Prysmian이 주당 95달러 현금으로 Atkore를 인수하기로 했고 10월 7일 주주들이 승인했다. 주가가 인수가 근처에 고정되는 가운데 마감 전 물량이 오가며 거래량이 늘었을 가능성이 크다. 인수 완료(10월 19일 예정)가 확인되면 이 설명이 맞다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "Prysmian 공식 보도자료(c1)와 SEC 8-K(c2) 모두 근거 충분. 모든 숫자(95달러)와 날짜(10월 7일)가 quote에 정확히 일치. Category 3(M&A) 적절."
+        },
+        "categoryName": "대형 파트너십·공급계약",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -1277,9 +1769,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:28:41"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SRCE",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "미국 인디애나주 기반 지역은행 1st Source로, 예금을 받아 기업·개인에게 대출해 이자 수익을 얻는다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음(no_source)으로 명시적 분류. Category 6 적절."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     },
     {
@@ -1323,9 +1835,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:08:13"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "GRVY",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "GRVY는 라그나로크 온라인 같은 온라인·모바일 게임을 만들어 전 세계에 서비스하며 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음(no_source)으로 명시적 분류. Category 6 적절."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-17",
+        "carried": false
       }
     }
   ],
@@ -1366,14 +1898,14 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 4,
+    "done": 26,
     "total": 26,
-    "cap": null,
-    "pending": 22,
+    "cap": 23,
+    "pending": 0,
     "failed": 0,
-    "carried": 4,
+    "carried": 3,
     "ineligible": 0,
-    "note": "26종목 중 4종목을 조사했습니다. 그중 4종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 22종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 3종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -1391,5 +1923,24 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적 호재 2건이 금융(자산운용)과 반도체 위탁생산에 하나씩 나뉘어 있어 한 업종 쏠림은 보이지 않습니다. 산업 기술 돌파로 분류된 종목은 없습니다.",
     "caution": "오늘 후보 29개 중 호재로 분류된 종목은 두 개뿐이고 나머지 대부분은 '뉴스 없는 거래량 급증'으로 근거가 없습니다. 분류는 공시·뉴스 기준이며 차트 상태는 보지 않았으니, 주가 위치와 실적 발표 일정은 직접 확인하세요.",
     "researchedOn": "2026-10-16"
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "TRV",
+        "category": 1,
+        "oneLine": "10월 16일 3분기 실적에서 이익과 매출이 시장 예상치를 모두 웃돌았다."
+      }
+    ],
+    "sectorSignal": "실적 호재는 TRV 1건뿐이라 특정 업종에 몰렸다고 보기 어렵다. 산업 기술 돌파 같은 큰 호재는 이번 목록에 없다.",
+    "caution": "호재로 꼽힌 건 TRV 한 종목이고, 나머지 대부분은 뉴스 근거 없이 거래량만 튄 종목이다. 실적이 예상보다 좋았다는 사실만 확인됐을 뿐, 주가가 이미 올랐는지나 차트 상태는 보지 않았으니 직접 확인해야 한다.",
+    "researchedOn": "2026-10-17"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 2,
+    "3": 1,
+    "5": 1,
+    "6": 22
   }
 };

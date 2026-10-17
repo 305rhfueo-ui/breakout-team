@@ -1,0 +1,282 @@
+{
+ "ticker": "CAKE",
+ "sector": "Consumer Cyclical",
+ "industry": "Restaurants",
+ "nameKo": "치즈케익 팩토리",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.39,
+  "saleNy": 7.55,
+  "epsCy": 21.46,
+  "epsNy": 10.67,
+  "est": {
+   "cyCur": 4.57918,
+   "cy30": 4.5298,
+   "nyCur": 5.06758,
+   "ny30": 5.00635
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    7.72,
+    5.57,
+    4.41
+   ],
+   "ni": [
+    24.78,
+    50.41,
+    -30.08
+   ],
+   "opm": [
+    7.63,
+    5.62,
+    3.46
+   ],
+   "updated": "2026-09-07 07:59:25"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-10-16",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-17",
+  "nameKo": "치즈케익 팩토리",
+  "nameEn": "CHEESECAKE FACTORY",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000887596&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1029633000,
+     "profit": 78608000,
+     "netIncome": 68394000,
+     "margin": 7.6,
+     "yoy": {
+      "revenue": 7.7,
+      "profit": 21.3,
+      "netIncome": 24.8,
+      "priorEnd": "2025-07-01"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 978833000,
+     "profit": 55045000,
+     "netIncome": 49548000,
+     "margin": 5.6,
+     "yoy": {
+      "revenue": 5.6,
+      "profit": 5.9,
+      "netIncome": 50.4,
+      "priorEnd": "2025-04-01"
+     }
+    },
+    {
+     "periodEnd": "2025-12-30",
+     "derived": true,
+     "revenue": 961558000,
+     "profit": 33235000,
+     "netIncome": 28348000,
+     "margin": 3.5,
+     "yoy": {
+      "revenue": 4.4,
+      "profit": -28.7,
+      "netIncome": -31.5,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 907226000,
+     "profit": 37269000,
+     "netIncome": 31899000,
+     "margin": 4.1,
+     "yoy": {
+      "revenue": 4.8,
+      "profit": 10.6,
+      "netIncome": 6.4,
+      "priorEnd": "2024-10-01"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Cheesecake Factory (CAKE) is a Top-Ranked Growth Stock: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/cheesecake-factory-cake-top-ranked-growth-stock-should-you-buy-0",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CAKE Stock Gains 17% in a Month: Should Investors Ride the Rally?",
+     "url": "https://www.nasdaq.com/articles/cake-stock-gains-17-month-should-investors-ride-rally",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can CAKE's Strong Traffic Offset Persistent Restaurant Cost Inflation?",
+     "url": "https://www.nasdaq.com/articles/can-cakes-strong-traffic-offset-persistent-restaurant-cost-inflation",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Will Cheesecake Factory (CAKE) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-cheesecake-factory-cake-beat-estimates-again-its-next-earnings-report-0",
+     "date": "2026-10-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Cheesecake Factory (CAKE) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-cheesecake-factory-cake-strong-momentum-stock-1",
+     "date": "2026-10-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "3 Reasons Growth Investors Will Love Cheesecake Factory (CAKE)",
+     "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-cheesecake-factory-cake",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can Cheesecake Factory's $13.5M AUVs Drive Its Next Growth Phase?",
+     "url": "https://www.nasdaq.com/articles/can-cheesecake-factorys-135m-auvs-drive-its-next-growth-phase",
+     "date": "2026-10-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CAKE Bets on Menu Innovation: Can It Keep Consumers Coming Back?",
+     "url": "https://www.nasdaq.com/articles/cake-bets-menu-innovation-can-it-keep-consumers-coming-back",
+     "date": "2026-09-30",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926087561/tm2621325d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-03",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926070125/tm2616600d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-29",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926051574/tm2612833d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-31",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926037831/tm2610653d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-18",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926017090/tm266472d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-10-28",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465925103205/tm2529478d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Wednesday's biggest analyst calls: Nvidia, SpaceX, AMD, Snowflake, Disney, Reddit & more",
+   "url": "https://www.cnbc.com/2026/07/29/biggest-analyst-calls-on-wall-street-include-nvidia-amd.html",
+   "date": "2026-07-29",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's lightning round: First Solar 'has one of the worst charts I've ever seen'",
+   "url": "https://www.cnbc.com/2026/07/20/cramers-lightning-round-first-solar-has-one-of-the-worst-charts-ive-ever-seen.html",
+   "date": "2026-07-20",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "CAKE",
+  "fetchedAt": "2026-10-17",
+  "source": "한국투자증권 Open API",
+  "per": 31.19,
+  "pbr": 11.02,
+  "eps": 3.68,
+  "bps": 10.43,
+  "shares": 49760600,
+  "marketCapM": 5718,
+  "high52": 118.6349,
+  "high52Date": "2026-10-16",
+  "low52": 42.5399,
+  "low52Date": "2025-11-20",
+  "last": 114.92,
+  "prevClose": 116.59,
+  "nameKo": "치즈케익 팩토리",
+  "nameEn": "CHEESECAKE FACTORY",
+  "listedOn": "0000-00-00",
+  "exchange": "나스닥",
+  "listedShares": 49760600
+ }
+}
