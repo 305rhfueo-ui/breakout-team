@@ -21,7 +21,8 @@ ok('새 것만 — 본 것 제외 · 처음 보는 종목은 최근 3일 것만 
   const items = [{ key: 'a', date: '2026-10-16' }, { key: 'b', date: '2026-10-01' }, { key: 'c', date: '2026-10-17' }];
   assert.deepStrictEqual(H.pickNew('X', items, {}, '2026-10-17').fresh.map((x) => x.key), ['a', 'c']);
   const seen = { X: { a: '2026-10-16' } };
-  assert.deepStrictEqual(H.pickNew('X', items, seen, '2026-10-17').fresh.map((x) => x.key), ['b', 'c']);
+  assert.deepStrictEqual(H.pickNew('X', items, seen, '2026-10-17').fresh.map((x) => x.key), ['c']);   // b(10-01)는 5일 넘어 알리지 않는다
+  assert.deepStrictEqual(H.pickNew('X', [{ key: 'old', date: '2026-10-08' }], { X: { z: '2026-10-17' } }, '2026-10-17').fresh, [], '뒤늦게 잡힌 옛 기사는 새 소식이 아니다');
   H.remember(seen, 'X', items, '2026-10-17'); assert.deepStrictEqual(Object.keys(seen.X).sort(), ['a', 'b', 'c']);
   assert.deepStrictEqual(H.prune({ X: { old: '2026-08-01', new: '2026-10-17' } }, '2026-10-17'), { X: { new: '2026-10-17' } });
 });

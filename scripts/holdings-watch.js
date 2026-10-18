@@ -20,7 +20,7 @@ const { paths, loadEnv, readJson, writeJson, ensureDir, say, today } = require('
 const TJ = 'https://raw.githubusercontent.com/305rhfueo-ui/trading-journal/main';
 const SEEN_FILE = path.join(paths.cacheDir, 'notified-holdings.json');
 const LOCK_FILE = path.join(paths.cacheDir, 'holdings-watch.lock');
-const KEEP_DAYS = 60, FIRST_DAYS = 3, CHUNK = 3900;
+const KEEP_DAYS = 60, FIRST_DAYS = 3, ALERT_MAX_DAYS = 5, CHUNK = 3900;
 const ICON = { good: '🟢', bad: '🔴', neutral: '⚪' };
 
 // ── 보유 티커 (순수 함수) ──
@@ -98,6 +98,7 @@ function pickNew(T, items, seen, todayStr) {
   for (const it of items) {
     if (mine && mine[it.key]) continue;
     if (!mine && it.date && daysBetween(it.date, todayStr) > FIRST_DAYS) continue;
+    if (it.date && daysBetween(it.date, todayStr) > ALERT_MAX_DAYS) continue;   // 목록에 뒤늦게 잡힌 옛 기사는 '새 소식'이 아니다 (2026-10-18 실측: 10-08 기사가 새 소식으로 갔다)
     fresh.push(it);
   }
   return { fresh, first: !mine };
