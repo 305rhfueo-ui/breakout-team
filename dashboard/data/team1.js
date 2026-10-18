@@ -1,19 +1,28 @@
 window.TEAM1_DATA = {
-  "generated": "2026-10-18",
+  "generated": "2026-10-19",
   "data_source": {
-    "rs_last_updated": "2026-10-17 00:35:12 UTC",
+    "rs_last_updated": "2026-10-17 23:44:43 UTC",
     "sessionDate": "2026-10-16",
     "stale": false,
     "source": "live",
     "columns": 54,
     "qqqLastBar": "2026-10-16",
     "sessionMismatch": false,
-    "barGaps": 0,
-    "barsNotice": null,
+    "barGaps": 1,
+    "barsNotice": {
+      "level": "warn",
+      "qqqLastBar": "2026-10-16",
+      "expectedSession": "2026-10-16",
+      "qqqMissing": [],
+      "gappedTickers": [
+        "WHLRL"
+      ],
+      "ko": "⚠️ 야후 일봉 품질 경고 — 봉이 빠진 종목 1개 (WHLRL). 데드크로스 날짜·50일선 연속 이탈일수·돌파 거래량 판정이 하루씩 어긋날 수 있습니다. 이 경고가 사라진 실행의 판정을 기준으로 삼으세요."
+    },
     "siteCondition": "BAD",
     "apiCalled": {
-      "fresh": 553,
-      "cached": 556,
+      "fresh": 22,
+      "cached": 1087,
       "total": 1109
     },
     "degraded": false,
@@ -22,8 +31,8 @@ window.TEAM1_DATA = {
       "total": 1109,
       "blank_rows": 0,
       "null_rate": 0,
-      "api_called_count": 553,
-      "duration_s": 2246.2,
+      "api_called_count": 22,
+      "duration_s": 804.2,
       "threshold": 0.15
     },
     "rsQuality": {
@@ -63,7 +72,7 @@ window.TEAM1_DATA = {
       "손절 타이트하게"
     ],
     "chart_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 960 560\" width=\"100%\" style=\"max-width:960px;height:auto;font-family:ui-monospace,SFMono-Regular,Menlo,monospace\"><rect width=\"960\" height=\"560\" fill=\"#0d1117\" rx=\"8\"/><text x=\"16\" y=\"26\" fill=\"#c9d1d9\" font-size=\"15\" font-weight=\"700\">QQQ DAILY</text><text x=\"16\" y=\"44\" fill=\"#7d8590\" font-size=\"11\">10 / 20 / 50 DAY MA   LAST 3 MONTHS</text><line x1=\"855.8\" y1=\"22\" x2=\"867.8\" y2=\"22\" stroke=\"#a1a1aa\" stroke-width=\"2.5\"/><text x=\"871.8\" y=\"26\" fill=\"#a1a1aa\" font-size=\"11\">MA50 726.77</text><line x1=\"769.5999999999999\" y1=\"22\" x2=\"781.5999999999999\" y2=\"22\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><text x=\"785.5999999999999\" y=\"26\" fill=\"#3b82f6\" font-size=\"11\">MA20 742.52</text><line x1=\"683.3999999999999\" y1=\"22\" x2=\"695.3999999999999\" y2=\"22\" stroke=\"#f5a524\" stroke-width=\"2.5\"/><text x=\"699.3999999999999\" y=\"26\" fill=\"#f5a524\" font-size=\"11\">MA10 742.88</text><line x1=\"62\" y1=\"350.1\" x2=\"942\" y2=\"350.1\" stroke=\"#30363d\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><text x=\"54\" y=\"354.1\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">675.0</text><line x1=\"62\" y1=\"271.0\" x2=\"942\" y2=\"271.0\" stroke=\"#30363d\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><text x=\"54\" y=\"275.0\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">700.0</text><line x1=\"62\" y1=\"191.9\" x2=\"942\" y2=\"191.9\" stroke=\"#30363d\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><text x=\"54\" y=\"195.9\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">725.0</text><line x1=\"62\" y1=\"112.8\" x2=\"942\" y2=\"112.8\" stroke=\"#30363d\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><text x=\"54\" y=\"116.8\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">750.0</text><line x1=\"189.7\" y1=\"56\" x2=\"189.7\" y2=\"410\" stroke=\"#30363d\" stroke-width=\"1\" opacity=\"0.5\"/><text x=\"189.7\" y=\"426\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"middle\">AUG</text><line x1=\"487.8\" y1=\"56\" x2=\"487.8\" y2=\"410\" stroke=\"#30363d\" stroke-width=\"1\" opacity=\"0.5\"/><text x=\"487.8\" y=\"426\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"middle\">SEP</text><line x1=\"785.9\" y1=\"56\" x2=\"785.9\" y2=\"410\" stroke=\"#30363d\" stroke-width=\"1\" opacity=\"0.5\"/><text x=\"785.9\" y=\"426\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"middle\">OCT</text><line x1=\"62.0\" y1=\"239.2\" x2=\"62.0\" y2=\"262.1\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"58.0\" y=\"242.6\" width=\"8.0\" height=\"7.6\" fill=\"#2ea043\"/><line x1=\"76.2\" y1=\"240.4\" x2=\"76.2\" y2=\"259.5\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"72.2\" y=\"254.0\" width=\"8.0\" height=\"5.5\" fill=\"#2ea043\"/><line x1=\"90.4\" y1=\"275.2\" x2=\"90.4\" y2=\"309.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"86.4\" y=\"287.8\" width=\"8.0\" height=\"8.6\" fill=\"#f85149\"/><line x1=\"104.6\" y1=\"294.3\" x2=\"104.6\" y2=\"326.4\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"100.6\" y=\"301.3\" width=\"8.0\" height=\"19.6\" fill=\"#f85149\"/><line x1=\"118.8\" y1=\"295.3\" x2=\"118.8\" y2=\"347.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"114.8\" y=\"297.3\" width=\"8.0\" height=\"30.2\" fill=\"#f85149\"/><line x1=\"133.0\" y1=\"336.1\" x2=\"133.0\" y2=\"372.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"346.2\" width=\"8.0\" height=\"2.3\" fill=\"#f85149\"/><line x1=\"147.2\" y1=\"334.1\" x2=\"147.2\" y2=\"393.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"143.2\" y=\"348.4\" width=\"8.0\" height=\"43.6\" fill=\"#f85149\"/><line x1=\"161.4\" y1=\"318.0\" x2=\"161.4\" y2=\"355.4\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"157.4\" y=\"323.0\" width=\"8.0\" height=\"27.8\" fill=\"#2ea043\"/><line x1=\"175.5\" y1=\"284.3\" x2=\"175.5\" y2=\"334.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"171.5\" y=\"295.9\" width=\"8.0\" height=\"13.0\" fill=\"#f85149\"/><line x1=\"189.7\" y1=\"265.9\" x2=\"189.7\" y2=\"315.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"185.7\" y=\"270.7\" width=\"8.0\" height=\"37.2\" fill=\"#2ea043\"/><line x1=\"203.9\" y1=\"189.8\" x2=\"203.9\" y2=\"247.1\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"199.9\" y=\"195.5\" width=\"8.0\" height=\"49.6\" fill=\"#2ea043\"/><line x1=\"218.1\" y1=\"180.7\" x2=\"218.1\" y2=\"217.4\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"214.1\" y=\"187.9\" width=\"8.0\" height=\"28.3\" fill=\"#f85149\"/><line x1=\"232.3\" y1=\"209.8\" x2=\"232.3\" y2=\"244.1\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"228.3\" y=\"224.6\" width=\"8.0\" height=\"12.1\" fill=\"#2ea043\"/><line x1=\"246.5\" y1=\"196.2\" x2=\"246.5\" y2=\"218.7\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"242.5\" y=\"198.1\" width=\"8.0\" height=\"9.1\" fill=\"#2ea043\"/><line x1=\"260.7\" y1=\"192.9\" x2=\"260.7\" y2=\"206.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"256.7\" y=\"200.1\" width=\"8.0\" height=\"4.8\" fill=\"#f85149\"/><line x1=\"274.9\" y1=\"197.1\" x2=\"274.9\" y2=\"221.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"270.9\" y=\"197.3\" width=\"8.0\" height=\"15.3\" fill=\"#f85149\"/><line x1=\"289.1\" y1=\"184.8\" x2=\"289.1\" y2=\"198.5\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"285.1\" y=\"185.3\" width=\"8.0\" height=\"10.7\" fill=\"#f85149\"/><line x1=\"303.3\" y1=\"163.5\" x2=\"303.3\" y2=\"194.9\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"299.3\" y=\"169.5\" width=\"8.0\" height=\"21.9\" fill=\"#2ea043\"/><line x1=\"317.5\" y1=\"162.2\" x2=\"317.5\" y2=\"181.4\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"313.5\" y=\"165.3\" width=\"8.0\" height=\"7.4\" fill=\"#f85149\"/><line x1=\"331.7\" y1=\"161.6\" x2=\"331.7\" y2=\"178.4\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"327.7\" y=\"166.7\" width=\"8.0\" height=\"9.7\" fill=\"#f85149\"/><line x1=\"345.9\" y1=\"201.0\" x2=\"345.9\" y2=\"220.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"341.9\" y=\"207.0\" width=\"8.0\" height=\"8.5\" fill=\"#f85149\"/><line x1=\"360.1\" y1=\"202.9\" x2=\"360.1\" y2=\"231.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"356.1\" y=\"206.5\" width=\"8.0\" height=\"13.6\" fill=\"#f85149\"/><line x1=\"374.3\" y1=\"223.7\" x2=\"374.3\" y2=\"244.0\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"370.3\" y=\"232.7\" width=\"8.0\" height=\"3.7\" fill=\"#f85149\"/><line x1=\"388.5\" y1=\"221.4\" x2=\"388.5\" y2=\"241.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"384.5\" y=\"222.8\" width=\"8.0\" height=\"5.7\" fill=\"#f85149\"/><line x1=\"402.6\" y1=\"240.0\" x2=\"402.6\" y2=\"262.4\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"398.6\" y=\"240.4\" width=\"8.0\" height=\"10.6\" fill=\"#f85149\"/><line x1=\"416.8\" y1=\"226.5\" x2=\"416.8\" y2=\"247.4\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"412.8\" y=\"235.5\" width=\"8.0\" height=\"1.6\" fill=\"#f85149\"/><line x1=\"431.0\" y1=\"229.8\" x2=\"431.0\" y2=\"245.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"427.0\" y=\"235.0\" width=\"8.0\" height=\"9.4\" fill=\"#2ea043\"/><line x1=\"445.2\" y1=\"203.4\" x2=\"445.2\" y2=\"225.0\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"441.2\" y=\"204.2\" width=\"8.0\" height=\"13.2\" fill=\"#2ea043\"/><line x1=\"459.4\" y1=\"194.6\" x2=\"459.4\" y2=\"223.2\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"455.4\" y=\"208.5\" width=\"8.0\" height=\"10.5\" fill=\"#f85149\"/><line x1=\"473.6\" y1=\"215.3\" x2=\"473.6\" y2=\"229.3\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"469.6\" y=\"217.9\" width=\"8.0\" height=\"5.0\" fill=\"#2ea043\"/><line x1=\"487.8\" y1=\"232.1\" x2=\"487.8\" y2=\"256.2\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"483.8\" y=\"246.8\" width=\"8.0\" height=\"1.0\" fill=\"#2ea043\"/><line x1=\"502.0\" y1=\"240.0\" x2=\"502.0\" y2=\"254.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"498.0\" y=\"241.7\" width=\"8.0\" height=\"6.8\" fill=\"#2ea043\"/><line x1=\"516.2\" y1=\"211.1\" x2=\"516.2\" y2=\"240.3\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"512.2\" y=\"215.1\" width=\"8.0\" height=\"21.6\" fill=\"#2ea043\"/><line x1=\"530.4\" y1=\"201.8\" x2=\"530.4\" y2=\"218.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"526.4\" y=\"209.7\" width=\"8.0\" height=\"1.2\" fill=\"#f85149\"/><line x1=\"544.6\" y1=\"201.7\" x2=\"544.6\" y2=\"221.7\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"540.6\" y=\"204.8\" width=\"8.0\" height=\"8.1\" fill=\"#f85149\"/><line x1=\"558.8\" y1=\"208.6\" x2=\"558.8\" y2=\"226.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"554.8\" y=\"219.1\" width=\"8.0\" height=\"1.0\" fill=\"#f85149\"/><line x1=\"573.0\" y1=\"232.8\" x2=\"573.0\" y2=\"249.3\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"569.0\" y=\"243.5\" width=\"8.0\" height=\"3.6\" fill=\"#2ea043\"/><line x1=\"587.2\" y1=\"215.2\" x2=\"587.2\" y2=\"227.8\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"583.2\" y=\"221.4\" width=\"8.0\" height=\"2.5\" fill=\"#f85149\"/><line x1=\"601.4\" y1=\"230.0\" x2=\"601.4\" y2=\"262.3\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"597.4\" y=\"241.9\" width=\"8.0\" height=\"18.5\" fill=\"#2ea043\"/><line x1=\"615.5\" y1=\"240.8\" x2=\"615.5\" y2=\"259.4\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"611.5\" y=\"243.1\" width=\"8.0\" height=\"13.5\" fill=\"#f85149\"/><line x1=\"629.7\" y1=\"233.4\" x2=\"629.7\" y2=\"271.0\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"625.7\" y=\"245.7\" width=\"8.0\" height=\"10.4\" fill=\"#f85149\"/><line x1=\"643.9\" y1=\"213.9\" x2=\"643.9\" y2=\"228.8\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"639.9\" y=\"217.4\" width=\"8.0\" height=\"3.1\" fill=\"#2ea043\"/><line x1=\"658.1\" y1=\"202.2\" x2=\"658.1\" y2=\"223.3\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"654.1\" y=\"203.1\" width=\"8.0\" height=\"8.3\" fill=\"#2ea043\"/><line x1=\"672.3\" y1=\"134.2\" x2=\"672.3\" y2=\"183.0\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"668.3\" y=\"139.8\" width=\"8.0\" height=\"43.0\" fill=\"#2ea043\"/><line x1=\"686.5\" y1=\"118.0\" x2=\"686.5\" y2=\"141.5\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"682.5\" y=\"120.8\" width=\"8.0\" height=\"20.5\" fill=\"#2ea043\"/><line x1=\"700.7\" y1=\"121.9\" x2=\"700.7\" y2=\"150.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"696.7\" y=\"122.4\" width=\"8.0\" height=\"18.2\" fill=\"#f85149\"/><line x1=\"714.9\" y1=\"136.0\" x2=\"714.9\" y2=\"161.4\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"710.9\" y=\"140.9\" width=\"8.0\" height=\"18.4\" fill=\"#2ea043\"/><line x1=\"729.1\" y1=\"125.7\" x2=\"729.1\" y2=\"145.6\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"725.1\" y=\"130.2\" width=\"8.0\" height=\"5.3\" fill=\"#2ea043\"/><line x1=\"743.3\" y1=\"139.9\" x2=\"743.3\" y2=\"170.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"739.3\" y=\"143.0\" width=\"8.0\" height=\"12.4\" fill=\"#f85149\"/><line x1=\"757.5\" y1=\"142.6\" x2=\"757.5\" y2=\"159.2\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"753.5\" y=\"143.9\" width=\"8.0\" height=\"7.0\" fill=\"#f85149\"/><line x1=\"771.7\" y1=\"128.3\" x2=\"771.7\" y2=\"146.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"767.7\" y=\"143.8\" width=\"8.0\" height=\"1.3\" fill=\"#f85149\"/><line x1=\"785.9\" y1=\"129.6\" x2=\"785.9\" y2=\"156.3\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"781.9\" y=\"136.5\" width=\"8.0\" height=\"1.5\" fill=\"#f85149\"/><line x1=\"800.1\" y1=\"98.4\" x2=\"800.1\" y2=\"120.6\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"796.1\" y=\"108.6\" width=\"8.0\" height=\"5.5\" fill=\"#f85149\"/><line x1=\"814.3\" y1=\"90.9\" x2=\"814.3\" y2=\"115.7\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"810.3\" y=\"93.2\" width=\"8.0\" height=\"21.7\" fill=\"#2ea043\"/><line x1=\"828.5\" y1=\"72.1\" x2=\"828.5\" y2=\"84.0\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"824.5\" y=\"79.5\" width=\"8.0\" height=\"2.7\" fill=\"#f85149\"/><line x1=\"842.6\" y1=\"86.5\" x2=\"842.6\" y2=\"107.2\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"838.6\" y=\"88.3\" width=\"8.0\" height=\"12.5\" fill=\"#2ea043\"/><line x1=\"856.8\" y1=\"90.1\" x2=\"856.8\" y2=\"134.2\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"852.8\" y=\"100.2\" width=\"8.0\" height=\"20.2\" fill=\"#f85149\"/><line x1=\"871.0\" y1=\"103.7\" x2=\"871.0\" y2=\"117.9\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"867.0\" y=\"104.7\" width=\"8.0\" height=\"4.0\" fill=\"#f85149\"/><line x1=\"885.2\" y1=\"113.4\" x2=\"885.2\" y2=\"129.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"881.2\" y=\"113.8\" width=\"8.0\" height=\"11.5\" fill=\"#f85149\"/><line x1=\"899.4\" y1=\"131.1\" x2=\"899.4\" y2=\"148.1\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"895.4\" y=\"133.1\" width=\"8.0\" height=\"12.8\" fill=\"#2ea043\"/><line x1=\"913.6\" y1=\"142.7\" x2=\"913.6\" y2=\"187.5\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"909.6\" y=\"150.8\" width=\"8.0\" height=\"28.6\" fill=\"#f85149\"/><line x1=\"927.8\" y1=\"177.9\" x2=\"927.8\" y2=\"222.1\" stroke=\"#2ea043\" stroke-width=\"1\"/><rect x=\"923.8\" y=\"182.4\" width=\"8.0\" height=\"29.9\" fill=\"#2ea043\"/><line x1=\"942.0\" y1=\"188.8\" x2=\"942.0\" y2=\"248.1\" stroke=\"#f85149\" stroke-width=\"1\"/><rect x=\"938.0\" y=\"190.2\" width=\"8.0\" height=\"49.7\" fill=\"#f85149\"/><path d=\"M62.0 234.4 L76.2 236.3 L90.4 246.2 L104.6 259.3 L118.8 268.6 L133.0 282.6 L147.2 300.3 L161.4 307.4 L175.5 309.7 L189.7 308.5 L203.9 303.8 L218.1 300.0 L232.3 292.8 L246.5 280.5 L260.7 268.3 L274.9 254.7 L289.1 235.1 L303.3 219.7 L317.5 206.1 L331.7 196.7 L345.9 198.7 L360.1 199.1 L374.3 200.2 L388.5 203.3 L402.6 207.9 L416.8 210.3 L431.0 214.2 L445.2 217.7 L459.4 222.3 L473.6 226.5 L487.8 229.6 L502.0 231.7 L516.2 229.6 L530.4 227.9 L544.6 224.1 L558.8 222.3 L573.0 223.1 L587.2 225.1 L601.4 227.4 L615.5 231.3 L629.7 232.2 L643.9 229.8 L658.1 228.6 L672.3 221.4 L686.5 212.2 L700.7 204.4 L714.9 194.1 L729.1 184.7 L743.3 176.1 L757.5 165.5 L771.7 154.4 L785.9 146.5 L800.1 137.6 L814.3 132.9 L828.5 129.1 L842.6 123.8 L856.8 121.8 L871.0 119.6 L885.2 116.6 L899.4 114.9 L913.6 118.3 L927.8 122.7 L942.0 135.3\" fill=\"none\" stroke=\"#f5a524\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><path d=\"M62.0 224.6 L76.2 225.9 L90.4 228.8 L104.6 233.9 L118.8 237.8 L133.0 245.5 L147.2 257.3 L161.4 263.8 L175.5 267.7 L189.7 271.3 L203.9 269.1 L218.1 268.1 L232.3 269.5 L246.5 269.9 L260.7 268.4 L274.9 268.6 L289.1 267.7 L303.3 263.6 L317.5 257.9 L331.7 252.6 L345.9 251.2 L360.1 249.5 L374.3 246.5 L388.5 241.9 L402.6 238.1 L416.8 232.5 L431.0 224.6 L445.2 218.7 L459.4 214.2 L473.6 211.6 L487.8 214.1 L502.0 215.4 L516.2 214.9 L530.4 215.6 L544.6 216.0 L558.8 216.3 L573.0 218.7 L587.2 221.4 L601.4 224.9 L615.5 228.9 L629.7 230.9 L643.9 230.8 L658.1 229.1 L672.3 224.7 L686.5 218.1 L700.7 213.3 L714.9 208.6 L729.1 204.9 L743.3 201.7 L757.5 198.4 L771.7 193.3 L785.9 188.1 L800.1 183.1 L814.3 177.2 L828.5 170.7 L842.6 164.1 L856.8 157.9 L871.0 152.2 L885.2 146.4 L899.4 140.2 L913.6 136.4 L927.8 134.6 L942.0 136.4\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><path d=\"M62.0 209.9 L76.2 210.3 L90.4 211.7 L104.6 213.1 L118.8 215.2 L133.0 218.0 L147.2 221.0 L161.4 222.4 L175.5 223.2 L189.7 224.1 L203.9 223.5 L218.1 223.5 L232.3 224.5 L246.5 224.9 L260.7 225.8 L274.9 227.1 L289.1 228.3 L303.3 229.2 L317.5 230.0 L331.7 230.7 L345.9 229.9 L360.1 229.9 L374.3 229.7 L388.5 228.4 L402.6 229.1 L416.8 229.8 L431.0 231.9 L445.2 232.4 L459.4 232.8 L473.6 234.3 L487.8 236.2 L502.0 236.5 L516.2 236.1 L530.4 235.9 L544.6 235.1 L558.8 235.6 L573.0 237.4 L587.2 238.0 L601.4 238.3 L615.5 239.4 L629.7 239.7 L643.9 239.4 L658.1 239.5 L672.3 238.5 L686.5 236.2 L700.7 234.9 L714.9 233.4 L729.1 230.9 L743.3 228.3 L757.5 225.7 L771.7 223.7 L785.9 221.4 L800.1 217.8 L814.3 213.2 L828.5 208.3 L842.6 203.1 L856.8 197.7 L871.0 193.4 L885.2 189.7 L899.4 187.0 L913.6 186.6 L927.8 186.0 L942.0 186.3\" fill=\"none\" stroke=\"#a1a1aa\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><text x=\"62\" y=\"438\" fill=\"#7d8590\" font-size=\"10\">VOLUME</text><rect x=\"58.0\" y=\"485.6\" width=\"8.0\" height=\"42.4\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"72.2\" y=\"498.2\" width=\"8.0\" height=\"29.8\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"86.4\" y=\"472.6\" width=\"8.0\" height=\"55.4\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"100.6\" y=\"474.0\" width=\"8.0\" height=\"54.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"114.8\" y=\"474.3\" width=\"8.0\" height=\"53.7\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"129.0\" y=\"463.3\" width=\"8.0\" height=\"64.7\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"143.2\" y=\"456.0\" width=\"8.0\" height=\"72.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"157.4\" y=\"444.0\" width=\"8.0\" height=\"84.0\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"171.5\" y=\"464.4\" width=\"8.0\" height=\"63.6\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"185.7\" y=\"471.4\" width=\"8.0\" height=\"56.6\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"199.9\" y=\"452.8\" width=\"8.0\" height=\"75.2\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"214.1\" y=\"485.8\" width=\"8.0\" height=\"42.2\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"228.3\" y=\"486.4\" width=\"8.0\" height=\"41.6\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"242.5\" y=\"488.9\" width=\"8.0\" height=\"39.1\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"256.7\" y=\"495.0\" width=\"8.0\" height=\"33.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"270.9\" y=\"491.1\" width=\"8.0\" height=\"36.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"285.1\" y=\"491.4\" width=\"8.0\" height=\"36.6\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"299.3\" y=\"488.2\" width=\"8.0\" height=\"39.8\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"313.5\" y=\"498.1\" width=\"8.0\" height=\"29.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"327.7\" y=\"494.7\" width=\"8.0\" height=\"33.3\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"341.9\" y=\"466.3\" width=\"8.0\" height=\"61.7\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"356.1\" y=\"482.9\" width=\"8.0\" height=\"45.1\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"370.3\" y=\"486.0\" width=\"8.0\" height=\"42.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"384.5\" y=\"486.0\" width=\"8.0\" height=\"42.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"398.6\" y=\"480.9\" width=\"8.0\" height=\"47.1\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"412.8\" y=\"498.0\" width=\"8.0\" height=\"30.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"427.0\" y=\"502.3\" width=\"8.0\" height=\"25.7\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"441.2\" y=\"491.9\" width=\"8.0\" height=\"36.1\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"455.4\" y=\"485.1\" width=\"8.0\" height=\"42.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"469.6\" y=\"487.4\" width=\"8.0\" height=\"40.6\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"483.8\" y=\"483.7\" width=\"8.0\" height=\"44.3\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"498.0\" y=\"498.5\" width=\"8.0\" height=\"29.5\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"512.2\" y=\"490.9\" width=\"8.0\" height=\"37.1\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"526.4\" y=\"486.6\" width=\"8.0\" height=\"41.4\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"540.6\" y=\"492.3\" width=\"8.0\" height=\"35.7\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"554.8\" y=\"494.3\" width=\"8.0\" height=\"33.7\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"569.0\" y=\"488.5\" width=\"8.0\" height=\"39.5\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"583.2\" y=\"494.5\" width=\"8.0\" height=\"33.5\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"597.4\" y=\"483.7\" width=\"8.0\" height=\"44.3\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"611.5\" y=\"494.5\" width=\"8.0\" height=\"33.5\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"625.7\" y=\"483.1\" width=\"8.0\" height=\"44.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"639.9\" y=\"481.1\" width=\"8.0\" height=\"46.9\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"654.1\" y=\"467.0\" width=\"8.0\" height=\"61.0\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"668.3\" y=\"469.2\" width=\"8.0\" height=\"58.8\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"682.5\" y=\"477.5\" width=\"8.0\" height=\"50.5\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"696.7\" y=\"486.2\" width=\"8.0\" height=\"41.8\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"710.9\" y=\"491.5\" width=\"8.0\" height=\"36.5\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"725.1\" y=\"489.9\" width=\"8.0\" height=\"38.1\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"739.3\" y=\"475.4\" width=\"8.0\" height=\"52.6\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"753.5\" y=\"494.0\" width=\"8.0\" height=\"34.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"767.7\" y=\"490.5\" width=\"8.0\" height=\"37.5\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"781.9\" y=\"483.0\" width=\"8.0\" height=\"45.0\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"796.1\" y=\"484.6\" width=\"8.0\" height=\"43.4\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"810.3\" y=\"495.8\" width=\"8.0\" height=\"32.2\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"824.5\" y=\"494.6\" width=\"8.0\" height=\"33.4\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"838.6\" y=\"496.0\" width=\"8.0\" height=\"32.0\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"852.8\" y=\"465.5\" width=\"8.0\" height=\"62.5\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"867.0\" y=\"501.4\" width=\"8.0\" height=\"26.6\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"881.2\" y=\"496.4\" width=\"8.0\" height=\"31.6\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"895.4\" y=\"491.8\" width=\"8.0\" height=\"36.2\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"909.6\" y=\"462.1\" width=\"8.0\" height=\"65.9\" fill=\"#f85149\" opacity=\"0.55\"/><rect x=\"923.8\" y=\"465.3\" width=\"8.0\" height=\"62.7\" fill=\"#2ea043\" opacity=\"0.55\"/><rect x=\"938.0\" y=\"444.1\" width=\"8.0\" height=\"83.9\" fill=\"#f85149\" opacity=\"0.55\"/><text x=\"942\" y=\"550\" fill=\"#7d8590\" font-size=\"10\" text-anchor=\"end\">2026-10-16 · $709.80</text></svg>",
-    "chart_png": "charts/qqq-2026-10-18.png",
+    "chart_png": "charts/qqq-2026-10-19.png",
     "index_dip": {
       "status": "normal",
       "div200": 5.17,
@@ -190,7 +199,7 @@ window.TEAM1_DATA = {
         "freeMargin": "D"
       }
     },
-    "fetched_at": "2026-10-17T22:10:14.319Z"
+    "fetched_at": "2026-10-18T22:10:10.192Z"
   },
   "leaders": {
     "stocks": [
@@ -198,67 +207,66 @@ window.TEAM1_DATA = {
         "ticker": "MRNA",
         "sector": "Healthcare",
         "industry": "Biotechnology",
-        "price": 236.5,
+        "price": 218.00999450683594,
         "bestPct": 99.95,
         "rs": {
-          "m1": 99.77457168620379,
+          "m1": 99.6844003606853,
           "m3": 99.95491433724075,
           "m6": 99.95491433724075
         },
-        "div200": 209.32,
-        "div50": 55.95,
-        "adr": 8.56,
-        "high52": 97.61,
+        "div200": 181.68,
+        "div50": 40.71,
+        "adr": 8.82,
+        "high52": 89.98,
         "overheat": {
-          "status": "overheat",
-          "label": "🔥과열(+209%)",
-          "div200": 209.32,
-          "threshold": 200,
-          "note": "3기간 모두 상위 2% 초강세 기준 +200% 초과 — 분할 차익 검토. 전량 매도는 금지(추세 지속 사례 다수)"
+          "status": "normal",
+          "label": "정상(+182%)",
+          "div200": 181.68,
+          "threshold": 200
         }
       },
       {
         "ticker": "KOD",
         "sector": "Healthcare",
         "industry": "Biotechnology",
-        "price": 88.12000274658203,
+        "price": 85.75,
         "bestPct": 99.95,
         "rs": {
           "m1": 99.95491433724075,
-          "m3": 99.6844003606853,
-          "m6": 96.97926059513074
+          "m3": 99.77457168620379,
+          "m6": 97.79080252479712
         },
-        "div200": 128.64,
-        "div50": 66.9,
-        "adr": 11.75,
-        "high52": 84.73,
+        "div200": 120.83,
+        "div50": 59.96,
+        "adr": 11.44,
+        "high52": 82.45,
         "overheat": {
           "status": "overheat",
-          "label": "🔥과열(+129%)",
-          "div200": 128.64,
+          "label": "🔥과열(+121%)",
+          "div200": 120.83,
           "threshold": 112,
-          "note": "고변동성(ADR 11.75%) 기준 +112% 초과 — 분할 차익 검토. 전량 매도는 금지(추세 지속 사례 다수)"
+          "note": "고변동성(ADR 11.44%) 기준 +112% 초과 — 분할 차익 검토. 전량 매도는 금지(추세 지속 사례 다수)"
         }
       },
       {
         "ticker": "TEAM",
         "sector": "Technology",
         "industry": "Software - Application",
-        "price": 217.1199951171875,
+        "price": 207.82000732421875,
         "bestPct": 99.86,
         "rs": {
-          "m1": 95.26600541027953,
+          "m1": 88.41298467087466,
           "m3": 99.86474301172227,
           "m6": 99.6844003606853
         },
-        "div200": 90.1,
-        "div50": 19.27,
-        "adr": 4.4,
-        "high52": 99.94,
+        "div200": 81.6,
+        "div50": 12.95,
+        "adr": 4.66,
+        "high52": 92.9,
         "overheat": {
           "status": "normal",
-          "label": "정상(+90%)",
-          "div200": 90.1,
+          "label": "정상(+82%)",
+          "div200": 81.6,
           "threshold": 150
         }
       },
@@ -266,21 +274,21 @@ window.TEAM1_DATA = {
         "ticker": "GRAL",
         "sector": "Healthcare",
         "industry": "Diagnostics & Research",
-        "price": 135.4600067138672,
+        "price": 117.80999755859375,
         "bestPct": 99.86,
         "rs": {
           "m1": 99.86474301172227,
-          "m3": 99.59422903516682,
-          "m6": 99.50405770964834
+          "m3": 99.14337240757439,
+          "m6": 99.14337240757439
         },
-        "div200": 78.5,
-        "div50": 39,
-        "adr": 9.14,
-        "high52": 81.37,
+        "div200": 54.91,
+        "div50": 19.55,
+        "adr": 9.51,
+        "high52": 70.77,
         "overheat": {
           "status": "normal",
-          "label": "정상(+79%)",
-          "div200": 78.5,
+          "label": "정상(+55%)",
+          "div200": 54.91,
           "threshold": 200
         }
       },
@@ -288,65 +296,21 @@ window.TEAM1_DATA = {
         "ticker": "AGL",
         "sector": "Healthcare",
         "industry": "Medical Care Facilities",
-        "price": 88.44999694824219,
+        "price": 85.12000274658203,
         "bestPct": 99.86,
         "rs": {
-          "m1": 45.1307484220018,
-          "m3": 3.7421100090171326,
+          "m1": 26.82596934174932,
+          "m3": 16.636609558160504,
           "m6": 99.86474301172227
         },
-        "div200": 44.44,
-        "div50": -0.17,
-        "adr": 5.86,
-        "high52": 66.48,
+        "div200": 38.24,
+        "div50": -3.89,
+        "adr": 5.83,
+        "high52": 63.98,
         "overheat": {
           "status": "normal",
-          "label": "정상(+44%)",
-          "div200": 44.44,
-          "threshold": 150
-        }
-      },
-      {
-        "ticker": "TXG",
-        "sector": "Healthcare",
-        "industry": "Medical Devices",
-        "price": 72.38999938964844,
-        "bestPct": 99.77,
-        "rs": {
-          "m1": 18.800721370604148,
-          "m3": 97.70063119927863,
-          "m6": 99.77457168620379
-        },
-        "div200": 92.83,
-        "div50": 2.81,
-        "adr": 9.16,
-        "high52": 70.41,
-        "overheat": {
-          "status": "normal",
-          "label": "정상(+93%)",
-          "div200": 92.83,
-          "threshold": 112
-        }
-      },
-      {
-        "ticker": "RNG",
-        "sector": "Technology",
-        "industry": "Software - Application",
-        "price": 79.94000244140625,
-        "bestPct": 99.77,
-        "rs": {
-          "m1": 84.71596032461677,
-          "m3": 99.77457168620379,
-          "m6": 96.88908926961226
-        },
-        "div200": 72.77,
-        "div50": 11.21,
-        "adr": 4.46,
-        "high52": 97.61,
-        "overheat": {
-          "status": "normal",
-          "label": "정상(+73%)",
-          "div200": 72.77,
+          "label": "정상(+38%)",
+          "div200": 38.24,
           "threshold": 150
         }
       },
@@ -354,21 +318,87 @@ window.TEAM1_DATA = {
         "ticker": "PTC",
         "sector": "Technology",
         "industry": "Software - Application",
-        "price": 193.14999389648438,
-        "bestPct": 99.68,
+        "price": 192.97999572753906,
+        "bestPct": 99.77,
         "rs": {
-          "m1": 99.6844003606853,
-          "m3": 99.23354373309287,
-          "m6": 89.85572587917042
+          "m1": 99.77457168620379,
+          "m3": 99.41388638412985,
+          "m6": 90.6672678088368
         },
-        "div200": 32.4,
-        "div50": 26.12,
-        "adr": 2.05,
-        "high52": 93.39,
+        "div200": 32.2,
+        "div50": 25.27,
+        "adr": 1.99,
+        "high52": 93.31,
         "overheat": {
           "status": "normal",
           "label": "정상(+32%)",
-          "div200": 32.4,
+          "div200": 32.2,
+          "threshold": 150
+        }
+      },
+      {
+        "ticker": "TXG",
+        "sector": "Healthcare",
+        "industry": "Medical Devices",
+        "price": 69.86000061035156,
+        "bestPct": 99.77,
+        "rs": {
+          "m1": 14.652840396753833,
+          "m3": 96.70874661857529,
+          "m6": 99.77457168620379
+        },
+        "div200": 84.77,
+        "div50": -1.46,
+        "adr": 9.18,
+        "high52": 67.95,
+        "overheat": {
+          "status": "normal",
+          "label": "정상(+85%)",
+          "div200": 84.77,
+          "threshold": 112
+        }
+      },
+      {
+        "ticker": "RNG",
+        "sector": "Technology",
+        "industry": "Software - Application",
+        "price": 75.44000244140625,
+        "bestPct": 99.68,
+        "rs": {
+          "m1": 77.32191163210099,
+          "m3": 99.6844003606853,
+          "m6": 96.70874661857529
+        },
+        "div200": 62.23,
+        "div50": 4.56,
+        "adr": 4.69,
+        "high52": 92.11,
+        "overheat": {
+          "status": "normal",
+          "label": "정상(+62%)",
+          "div200": 62.23,
+          "threshold": 150
+        }
+      },
+      {
+        "ticker": "PAYC",
+        "sector": "Technology",
+        "industry": "Software - Application",
+        "price": 251.63999938964844,
+        "bestPct": 99.59,
+        "rs": {
+          "m1": 94.54463480613165,
+          "m3": 99.59422903516682,
+          "m6": 98.33183047790803
+        },
+        "div200": 59.23,
+        "div50": 11.15,
+        "adr": 2.87,
+        "high52": 98.07,
+        "overheat": {
+          "status": "normal",
+          "label": "정상(+59%)",
+          "div200": 59.23,
           "threshold": 150
         }
       },
@@ -376,43 +406,21 @@ window.TEAM1_DATA = {
         "ticker": "OKTA",
         "sector": "Technology",
         "industry": "Software - Infrastructure",
-        "price": 208.52000427246094,
+        "price": 187.25999450683594,
         "bestPct": 99.59,
         "rs": {
-          "m1": 92.01983769161407,
-          "m3": 97.43011722272318,
+          "m1": 66.3210099188458,
+          "m3": 95.35617673579802,
           "m6": 99.59422903516682
         },
-        "div200": 76.68,
-        "div50": 16.48,
-        "adr": 4.8,
-        "high52": 88.73,
+        "div200": 58,
+        "div50": 4.09,
+        "adr": 5.29,
+        "high52": 79.69,
         "overheat": {
           "status": "normal",
-          "label": "정상(+77%)",
-          "div200": 76.68,
-          "threshold": 150
-        }
-      },
-      {
-        "ticker": "TTAN",
-        "sector": "Technology",
-        "industry": "Software - Application",
-        "price": 76.11000061035156,
-        "bestPct": 99.59,
-        "rs": {
-          "m1": 99.59422903516682,
-          "m3": 74.16591523895401,
-          "m6": 77.23174030658251
-        },
-        "div200": 3.52,
-        "div50": -0.87,
-        "adr": 5.71,
-        "high52": 68.35,
-        "overheat": {
-          "status": "normal",
-          "label": "정상(+4%)",
-          "div200": 3.52,
+          "label": "정상(+58%)",
+          "div200": 58,
           "threshold": 150
         }
       }
@@ -423,51 +431,52 @@ window.TEAM1_DATA = {
         "count": 23,
         "tickers": [
           "TEAM",
-          "RNG",
           "PTC",
+          "RNG",
+          "PAYC",
           "OKTA",
           "TTAN",
-          "PAYC",
           "SHOP",
-          "P"
+          "ACN"
         ],
         "sharePct": 46
       },
       {
         "name": "Healthcare",
-        "count": 11,
+        "count": 10,
         "tickers": [
           "MRNA",
           "KOD",
           "GRAL",
           "AGL",
           "TXG",
+          "VEEV",
           "CORT",
-          "TWST",
-          "VEEV"
+          "HNGE"
         ],
-        "sharePct": 22
+        "sharePct": 20
       },
       {
         "name": "Consumer Cyclical",
-        "count": 7,
+        "count": 8,
         "tickers": [
           "SHAK",
-          "WING",
-          "BH.A",
-          "ETSY",
-          "CAKE",
           "ANF",
-          "BH"
+          "WING",
+          "BH",
+          "BH.A",
+          "DKS",
+          "CAKE",
+          "SIG"
         ],
-        "sharePct": 14
+        "sharePct": 16
       },
       {
         "name": "Energy",
         "count": 3,
         "tickers": [
-          "PBF",
           "MPC",
+          "PBF",
           "DINO"
         ],
         "sharePct": 6
@@ -483,27 +492,26 @@ window.TEAM1_DATA = {
       },
       {
         "name": "Consumer Defensive",
-        "count": 2,
+        "count": 1,
         "tickers": [
-          "OLLI",
-          "ELF"
+          "OLLI"
         ],
-        "sharePct": 4
+        "sharePct": 2
       }
     ],
     "market_overheat": {
       "count": 1096,
       "over150": 1,
       "over100": 2,
-      "reentry": 62,
-      "max": 209.32,
-      "median": 2.6,
+      "reentry": 74,
+      "max": 181.68,
+      "median": 2.2,
       "ko": "200일선 +150% 초과 1종목 · +100% 초과 2종목 — 과열 임계 미달"
     }
   },
   "weekly_question": {
-    "week": "2026-W42",
-    "opened_on": "2026-10-12",
+    "week": "2026-W43",
+    "opened_on": "2026-10-19",
     "answered": false,
     "answered_on": null,
     "question": "이번 주 주도주가 뭐라고 생각하세요?",

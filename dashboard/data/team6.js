@@ -1,5 +1,5 @@
 window.TEAM6_DATA = {
-  "generated": "2026-10-18",
+  "generated": "2026-10-19",
   "sessionDate": "2026-10-16",
   "rulesVersion": "0.3",
   "regime": "yellow",
@@ -66,7 +66,7 @@ window.TEAM6_DATA = {
     },
     {
       "ticker": "AUGO",
-      "name": null,
+      "name": "오라 미네랄스",
       "sector": "Basic Materials",
       "industry": "Gold",
       "grade": "B",
@@ -179,7 +179,7 @@ window.TEAM6_DATA = {
     },
     {
       "ticker": "ETSY",
-      "name": "엣시",
+      "name": null,
       "sector": "Consumer Cyclical",
       "industry": "Internet Retail",
       "grade": "C",

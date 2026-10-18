@@ -1,5 +1,5 @@
 window.CHIEF_DATA = {
-  "generated": "2026-10-18",
+  "generated": "2026-10-19",
   "market": {
     "verdict": "yellow",
     "ko": "🟡 10일선이 20일선 위지만 오르는 힘이 약해짐 — 넣는 돈을 줄일 때",
@@ -8,11 +8,11 @@ window.CHIEF_DATA = {
   },
   "counts": {
     "universe": 1109,
-    "picks": 31,
+    "picks": 30,
     "tracking": {
-      "active": 73,
+      "active": 72,
       "dormant": 0,
-      "excluded": 98,
+      "excluded": 99,
       "total": 171,
       "unevaluated": [
         "HPE-C"
@@ -20,9 +20,9 @@ window.CHIEF_DATA = {
       "reentryBlocked": 3
     },
     "breakouts": 10,
-    "epCandidates": 26,
-    "chartCheck": 10,
-    "chartCheckShown": 10,
+    "epCandidates": 31,
+    "chartCheck": 8,
+    "chartCheckShown": 8,
     "plans": {
       "evaluated": 79,
       "near": 2,
@@ -36,48 +36,8 @@ window.CHIEF_DATA = {
       "noBars": 1
     }
   },
-  "theme": "Software - Application 8종목(25.8%) · Software - Infrastructure 5종목(16.1%) · Biotechnology 3종목(9.7%)",
+  "theme": "Software - Application 7종목(23.3%) · Software - Infrastructure 5종목(16.7%) · Biotechnology 3종목(10%)",
   "chartCheck": [
-    {
-      "ticker": "ESTC",
-      "score": 6,
-      "source": "T3",
-      "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.14, 최저 0.13)",
-        "넘어야 할 선 $92.6 바로 아래(-0.93%)",
-        "최근 2주 종가가 2.18% 안에서만 움직였다",
-        "1년 최고가의 90.04% 자리"
-      ],
-      "flags": [
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 92.6,
-      "price": 91.74,
-      "barGap": false
-    },
-    {
-      "ticker": "MRX",
-      "score": 6,
-      "source": "T3",
-      "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.09, 최저 0.08)",
-        "넘어야 할 선 $71.18 바로 아래(-0.96%)",
-        "최근 2주 종가가 2.32% 안에서만 움직였다",
-        "1년 최고가의 91.39% 자리"
-      ],
-      "flags": [
-        "bbSqueeze",
-        "nearResist",
-        "tightCloses",
-        "high52"
-      ],
-      "resistance": 71.18,
-      "price": 70.5,
-      "barGap": false
-    },
     {
       "ticker": "FLXS",
       "score": 6,
@@ -86,7 +46,7 @@ window.CHIEF_DATA = {
         "최근 1주 거래량이 한 달 평균의 0.65배로 줄었다(팔 사람이 줄어듦)",
         "넘어야 할 선 $84.47 바로 아래(-0.54%)",
         "최근 2주 종가가 1.44% 안에서만 움직였다",
-        "1년 최고가의 96% 자리"
+        "1년 최고가의 92.94% 자리"
       ],
       "flags": [
         "volDry",
@@ -103,10 +63,10 @@ window.CHIEF_DATA = {
       "score": 6,
       "source": "T3",
       "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.11, 최저 0.11)",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.09, 최저 0.09)",
         "넘어야 할 선 $77.95 바로 아래(-3.22%)",
         "최근 2주 종가가 2.09% 안에서만 움직였다",
-        "1년 최고가의 97.61% 자리"
+        "1년 최고가의 92.11% 자리"
       ],
       "flags": [
         "bbSqueeze",
@@ -123,7 +83,7 @@ window.CHIEF_DATA = {
       "score": 5,
       "source": "T3",
       "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.16, 최저 0.16)",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.13, 최저 0.13)",
         "넘어야 할 선 $88.57 바로 아래(-1.39%)",
         "최근 2주 종가가 2.62% 안에서만 움직였다"
       ],
@@ -137,39 +97,39 @@ window.CHIEF_DATA = {
       "barGap": false
     },
     {
-      "ticker": "NOW",
+      "ticker": "ESTC",
       "score": 5,
       "source": "T3",
       "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.11, 최저 0.09)",
-        "넘어야 할 선 $147.57 바로 아래(-3.79%)",
-        "최근 2주 종가가 2.42% 안에서만 움직였다"
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.13, 최저 0.13)",
+        "넘어야 할 선 $92.6 바로 아래(-0.93%)",
+        "최근 2주 종가가 2.18% 안에서만 움직였다"
       ],
       "flags": [
         "bbSqueeze",
         "nearResist",
         "tightCloses"
       ],
-      "resistance": 147.57,
-      "price": 141.97,
+      "resistance": 92.6,
+      "price": 91.74,
       "barGap": false
     },
     {
-      "ticker": "CRM",
+      "ticker": "MRX",
       "score": 5,
       "source": "T3",
       "reasons": [
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.1, 최저 0.09)",
-        "넘어야 할 선 $250.47 바로 아래(-3.9%)",
-        "1년 최고가의 92.14% 자리"
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.09, 최저 0.08)",
+        "넘어야 할 선 $71.18 바로 아래(-0.96%)",
+        "최근 2주 종가가 2.32% 안에서만 움직였다"
       ],
       "flags": [
         "bbSqueeze",
         "nearResist",
-        "high52"
+        "tightCloses"
       ],
-      "resistance": 250.47,
-      "price": 240.7,
+      "resistance": 71.18,
+      "price": 70.5,
       "barGap": false
     },
     {
@@ -227,8 +187,17 @@ window.CHIEF_DATA = {
       "barGap": false
     }
   ],
-  "chartCheckTotal": 10,
-  "barsNotice": null,
+  "chartCheckTotal": 8,
+  "barsNotice": {
+    "level": "warn",
+    "qqqLastBar": "2026-10-16",
+    "expectedSession": "2026-10-16",
+    "qqqMissing": [],
+    "gappedTickers": [
+      "WHLRL"
+    ],
+    "ko": "⚠️ 야후 일봉 품질 경고 — 봉이 빠진 종목 1개 (WHLRL). 데드크로스 날짜·50일선 연속 이탈일수·돌파 거래량 판정이 하루씩 어긋날 수 있습니다. 이 경고가 사라진 실행의 판정을 기준으로 삼으세요."
+  },
   "sessionDate": "2026-10-16",
   "sessionMismatch": false,
   "stale": false,
