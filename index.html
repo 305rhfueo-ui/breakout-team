@@ -11,6 +11,7 @@
 <script src="dashboard/data/team5.js"      onerror="window.__NO_T5=1"></script>
 <script src="dashboard/data/team6.js"      onerror="window.__NO_T6=1"></script>
 <script src="dashboard/data/ondemand.js"   onerror="window.__NO_OD=1"></script>
+<script src="dashboard/data/holdings.js"   onerror="window.__NO_HD=1"></script>
 <script src="dashboard/data/paper.js"      onerror="window.__NO_PAPER=1"></script>
 <script src="dashboard/data/chartcheck.js" onerror="window.__NO_CC=1"></script>
 <script src="dashboard/data/industry-ko.js"></script>
@@ -214,7 +215,7 @@ details.deep .ck,.ck{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;fo
 
 <script>
 const D={chief:window.CHIEF_DATA,t1:window.TEAM1_DATA,t2:window.TEAM2_DATA,t3:window.TEAM3_DATA,
-         t4:window.TEAM4_DATA,t5:window.TEAM5_DATA,t6:window.TEAM6_DATA,od:window.ONDEMAND_DATA,cc:window.CHARTCHECK_DATA};
+         t4:window.TEAM4_DATA,t5:window.TEAM5_DATA,t6:window.TEAM6_DATA,od:window.ONDEMAND_DATA,hd:window.HOLDINGS_DATA,cc:window.CHARTCHECK_DATA};
 const $=i=>document.getElementById(i);
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const n=(v,d=2)=>v==null||Number.isNaN(Number(v))?'—':Number(v).toFixed(d);
@@ -238,6 +239,8 @@ const AGENTS=[
    duty:'다른 팀이 고른 후보를 <b>실제 거래 계획</b>으로 바꿉니다. 아침에는 "큰 상승 뒤 고점 아래에서 쉬고 있는 종목"을 찾아 <b>어디를 넘으면 사고(피벗), 어디서 자르고(손절), 계좌의 몇 %를 넣을지(비중)</b>를 숫자로 내놓습니다. 밤에 미국 장이 열리면 그 종목이 <b>거래량을 실어 피벗과 장 초반 고점을 넘는 순간</b>을 잡아 모의로 사고, 손절·익절·10일선 이탈 규칙대로 팝니다. 전부 정해진 규칙으로만 움직이고 <b>실제 주문은 내지 않습니다</b>. 시장이 빨간불이면 새로 사지 않고, 실적 발표 직전 종목도 사지 않습니다.'},
   {id:'t7',name:'지우',role:'7팀 · 종목 판정',tab:'t7',job:'물어본 종목 판정',
    duty:'사장님이 <b>텔레그램으로 직접 물어본 종목</b>을 심층 분석해 <b>지금 매수하기에 적정한지</b> 결론을 냅니다 — 🟢 매수 적정 / 🟡 조건부 / 🔴 아니다. 봇 대화창에 <code>SNOW 심층분석</code> 이라고 보내면 5~10분 뒤 답이 옵니다. 차트(쿨라매기 기준)·재무(CAN SLIM)·<b>새로운 성장 동력(N)</b>·뉴스·리스크를 CNBC 기사와 증권사 리포트 원문 근거로 조사합니다. 결론은 AI 판정이지만, <b>시장 빨간불 · 50일선 아래 · 실적 발표 임박 · 쉬는 구간 없음 · 추격 구간</b>이면 코드가 \'매수 적정\'을 막고 그 사유를 그대로 보여 줍니다. 결론을 내는 팀은 지우뿐입니다 — 다른 팀은 지금처럼 판정하지 않습니다.'},
+  {id:'t8',name:'다온',role:'8팀 · 보유 종목 소식',tab:'t8',job:'보유 종목 지킴이',
+   duty:'사장님 <b>매매일지(trading-journal)에 보유로 잡힌 종목</b>만 지켜봅니다. 하루 두 번(아침 7시 · 밤 10시) 그 종목의 <b>새 기사(나스닥·CNBC)·SEC 공시(8-K)·증권사 리포트(연합인포맥스)</b>를 모아, 새로 나온 것만 텔레그램으로 알려 드립니다. 소식마다 한국어 한 줄 요약과 🟢 유리 · 🔴 불리 · ⚪ 중립을 붙이고 원문 링크를 답니다 — 요약은 제목·요약문에 있는 내용만 쓰고, 없는 숫자를 쓰면 코드가 버리고 원문 제목을 보냅니다. 텔레그램에 <code>보유</code> 라고 보내면 바로 확인합니다. 판단은 소식 내용 기준이며 매매 권유가 아닙니다.'},
 ];
 const avatar=(a,cls='av')=>`<img class="${cls}" src="assets/avatars/${a.id}.svg" alt="${esc(a.name)}" loading="lazy" width="56" height="56">`;
 
@@ -316,6 +319,12 @@ function _dd(id){
     return {stat:I.length?ko(I[0]):'—',statl:'업종 순위 1위 (RS 사이트 FRANK)',
       line:I.length?`2위 ${ko(I[1]||{})} · 3위 ${ko(I[2]||{})}<br>리포트 ${I.filter(x=>x.report&&x.report.status==='done').length}/${I.length}업종`:'대기 중',
       busy:!!t};
+  }
+  if(id==='t8'){
+    const H=(D.hd&&D.hd.holdings)||[],nw=H.reduce((a,h)=>a+(h.items||[]).filter(x=>x.isNew).length,0),tot=H.reduce((a,h)=>a+(h.items||[]).length,0);
+    return {stat:H.length?H.map(h=>esc(h.ticker)).join(' · '):'—',statl:'보유 종목',
+      line:D.hd?`최근 2주 소식 ${tot}건${nw?` · 이번 확인에서 새로 ${nw}건`:''}<br>마지막 확인 ${esc(new Date(D.hd.updated).toLocaleString('ko-KR',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}))}`:'아직 확인 전',
+      busy:!!D.hd};
   }
   if(id==='t7'){
     const I=(D.od&&D.od.items)||[],x=I[0];
@@ -1111,6 +1120,20 @@ function bodyFor(id){
     return h;
   }
   if(id==='t5')return industryView();
+  if(id==='t8'){
+    const d=D.hd; if(!d)return '<div class="empty">아직 확인 전입니다 — 매일 07:10 · 22:00 에 확인하고, 텔레그램에 "보유"라고 보내면 바로 확인합니다.</div>';
+    const TI={good:'🟢',bad:'🔴',neutral:'⚪'},TY={news:'기사',cnbc:'기사','8k':'공시',report:'증권사 리포트'};
+    let h=`<div class="sec"><div class="note">보유 종목은 <a href="${esc(d.sourceUrl)}" target="_blank">매매일지(trading-journal) ↗</a>에서 읽습니다(청산 안 된 거래). 마지막 확인 ${esc(new Date(d.updated).toLocaleString('ko-KR'))}. 최근 2주 소식을 종목당 최대 12건 보입니다. 🟢 유리 · 🔴 불리 · ⚪ 중립은 소식 내용 기준이며 매매 권유가 아닙니다.</div></div>`;
+    if(!(d.holdings||[]).length)return h+'<div class="empty">지금 보유 종목이 없습니다.</div>';
+    for(const x of d.holdings){
+      h+=`<div class="sec"><h4><span class="tk" data-tk="${esc(x.ticker)}">${esc(x.ticker)}</span>${x.side==='short'?' <span class="chip">공매도</span>':''} <span class="dim">최근 2주 소식 ${(x.items||[]).length}건</span>
+        <a href="https://finance.yahoo.com/quote/${encodeURIComponent(x.ticker.replace(/\./g,'-'))}/analysis/" target="_blank" style="font-size:12px;margin-left:6px">전망치 ↗</a></h4>`;
+      if(!(x.items||[]).length){h+='<div class="note">최근 2주 새 기사·공시·리포트가 없습니다.</div></div>';continue;}
+      h+=`<ul class="plist">${x.items.map(it=>`<li>${it.type==='8k'?'📄':TI[it.tone]||'•'} ${esc(it.ko||it.title)}${it.isNew?' <span class="chip">새 소식</span>':''}
+        <div class="note">${esc(it.publisher||'')} · ${TY[it.type]||''} · ${esc(it.date||'')}${it.ko&&it.type!=='8k'?` · 원문: ${esc(it.title)}`:''} ${it.url?`<a href="${esc(it.url)}" target="_blank">링크 ↗</a>`:''}</div></li>`).join('')}</ul></div>`;
+    }
+    return h;
+  }
   if(id==='t7'){
     const I=(D.od&&D.od.items)||[];
     if(!I.length)return '<div class="empty">아직 물어본 종목이 없습니다 — 텔레그램 봇 대화창에 <b>SNOW 심층분석</b> 처럼 보내 주세요</div>';
@@ -1192,7 +1215,7 @@ function openAgent(id){
     +(br?`<div class="sec brief"><h4>💬 ${a.name}의 브리핑</h4><div class="pi">${br}</div>
        ${llmSum?`<div class="pi" style="margin-top:10px;padding-top:10px;border-top:1px solid var(--bd)">${esc(llmSum)}</div>`:''}</div>`:'')
     +bodyFor(id)
-    +(id==='t5'||id==='t7'?'':`<div style="text-align:center;margin-top:14px">
+    +(id==='t5'||id==='t7'||id==='t8'?'':`<div style="text-align:center;margin-top:14px">
        <a class="btn btn2" href="dashboard/breakout-room.html#${a.tab}">이 팀 전체 자료 보기 →</a></div>`);
   $('mbox').classList.toggle('wide',id==='t2'||id==='t5');
   $('modal').classList.add('on');

@@ -4,7 +4,7 @@
 //
 //   node scripts/holdings-watch.js            정기(아침 07:10 morning.sh · 밤 22:00 launchd) — 새 것이 없으면 조용히 끝
 //   node scripts/holdings-watch.js --force    텔레그램 "보유" 명령 — 새 것이 없어도 "새 소식 없음" 답
-//   옵션 --no-send(보내지 않음) · --dry(기록을 남기지 않음 — 시험용) · --no-ai(한 줄 요약 없이 제목만)
+//   옵션 --no-send(보내지 않음) · --dry(기록·대시보드를 남기지 않음 — 시험용) · --no-ai(한 줄 요약 없이 제목만) · --no-git(대시보드 파일만 쓰고 push 안 함)
 //
 // 원칙
 //   · 보유 티커만 읽는다 — 수량·가격은 읽지도 저장하지도 않는다. 기록은 저장소 밖(CACHE_DIR)과 텔레그램에만.
@@ -188,7 +188,21 @@ function lock() {
 }
 const unlock = () => { try { fs.unlinkSync(LOCK_FILE); } catch (e) { /* noop */ } };
 
-async function run({ force = false, send = true, dry = false, ai = true } = {}) {
+// ── 대시보드 (2026-10-18 사용자: "브레이크아웃 화면에도 에이전트로") ──
+// 공개 사이트에 보유 종목·소식을 보인다(사용자 결정 — trading-journal 도 공개). 수량·금액은 없다.
+// 화면에는 "새 것"만이 아니라 최근 14일 소식을 종목당 최대 12건 보인다. 한 줄 요약은 CACHE_DIR 에 기억해 두고 다시 쓴다(매번 AI 를 부르지 않게).
+const SUM_FILE = path.join(paths.cacheDir, 'holdings-summaries.json');
+const SHOW_DAYS = 14, SHOW_MAX = 12;
+function dashboardData(groups, { holdings, updated, source }) {
+  return { updated, source, sourceUrl: 'https://305rhfueo-ui.github.io/trading-journal/',
+    holdings: holdings.map((h) => {
+      const g = groups.find((x) => x.ticker === h.ticker) || { show: [] };
+      return { ticker: h.ticker, side: h.side, items: (g.show || []).map((it) => ({ type: it.type, title: it.title, url: it.url || null, date: it.date || null, publisher: it.publisher,
+        ko: it.fixed || (it.summary && it.summary.ko) || null, tone: it.fixed ? null : (it.summary && it.summary.tone) || null, isNew: !!it.isNew })) };
+    }) };
+}
+
+async function run({ force = false, send = true, dry = false, ai = true, publish = true } = {}) {
   const { notify } = require('./lib/notify');
   if (!lock()) { if (force && send) await notify('⏳ 보유 종목 소식을 지금 확인하는 중입니다 — 잠시 뒤 결과가 옵니다.'); return { ok: false, busy: true }; }
   try {
@@ -197,27 +211,53 @@ async function run({ force = false, send = true, dry = false, ai = true } = {}) 
     const H = await loadHoldings();
     if (!H.ok) { if (send) await notify('⚠️ 보유 종목 목록(trading-journal)을 읽지 못했습니다 — 다음 확인 때 다시 시도합니다.'); return { ok: false, error: 'holdings' }; }
     const seen = prune(readJson(SEEN_FILE, null) || {}, d);
+    const sums = readJson(SUM_FILE, null) || {};
     const groups = [];
     for (const h of H.list) {
       const items = await collect(h.ticker);
       const { fresh } = pickNew(h.ticker, items, seen, d);
-      groups.push({ ...h, items: fresh, all: items });
+      for (const it of fresh) it.isNew = true;
+      const show = items.filter((it) => !it.date || daysBetween(it.date, d) <= SHOW_DAYS).sort((x, y) => String(y.date).localeCompare(String(x.date))).slice(0, SHOW_MAX);
+      groups.push({ ...h, items: fresh, all: items, show });
     }
-    // 한 줄 요약 (8-K 는 고정 문장이라 제외)
-    const batch = [];
-    groups.forEach((g, gi) => g.items.forEach((it, ii) => { if (!it.fixed) batch.push({ id: `${gi}-${ii}`, ticker: g.ticker, side: g.side, type: it.type, text: it.text, ref: it }); }));
-    if (ai && batch.length) {
+    // 한 줄 요약 — 새 소식 + 화면에 보일 소식 중 아직 요약이 없는 것만 한 번에 (8-K 는 고정 문장이라 제외)
+    const need = new Map();
+    for (const g of groups) for (const it of [...g.items, ...g.show]) {
+      if (it.fixed) continue;
+      const c = sums[it.key];
+      if (c) { it.summary = c.ko ? { ko: c.ko, tone: c.tone } : null; if (c.unrelated) it.unrelated = true; continue; }
+      if (!need.has(it.key)) need.set(it.key, { ticker: g.ticker, side: g.side, refs: [] });
+      need.get(it.key).refs.push(it);
+    }
+    if (ai && need.size) {
+      const batch = [...need.entries()].map(([key, v], i) => ({ id: String(i), ticker: v.ticker, side: v.side, type: v.refs[0].type, text: v.refs[0].text, key, refs: v.refs }));
       const map = summarize(batch);
       for (const b of batch) {
-        b.ref.summary = cleanSummary(map[b.id], b.ref);
-        if (map[b.id] && map[b.id].about === 'no' && b.ref.type === 'cnbc') b.ref.unrelated = true;   // CNBC 태그가 느슨하다 — 다른 회사만 다루는 기사는 뺀다
+        const sm = cleanSummary(map[b.id], b.refs[0]);
+        const unrelated = !!(map[b.id] && map[b.id].about === 'no' && b.refs[0].type === 'cnbc');   // CNBC 태그가 느슨하다 — 다른 회사만 다루는 기사는 뺀다
+        for (const r of b.refs) { r.summary = sm; if (unrelated) r.unrelated = true; }
+        if (map[b.id]) sums[b.key] = { ko: sm ? sm.ko : null, tone: sm ? sm.tone : null, unrelated, at: d };
       }
-      for (const g of groups) g.items = g.items.filter((it) => !it.unrelated);
     }
+    for (const g of groups) { g.items = g.items.filter((it) => !it.unrelated); g.show = g.show.filter((it) => !it.unrelated); }
     const msgs = buildMessages(groups, { force, checked: H.list.map((h) => h.ticker), when });
     say('SYSTEM', `보유 ${H.list.map((h) => h.ticker).join(' · ') || '없음'} (${H.source}) · 새 소식 ${groups.reduce((a, g) => a + g.items.length, 0)}건 · 메시지 ${msgs.length}개`);
     if (send) for (const m of msgs) await notify(m);
-    if (!dry) { for (const g of groups) remember(seen, g.ticker, g.all, d); writeJson(SEEN_FILE, seen); }
+    if (!dry) {
+      for (const g of groups) remember(seen, g.ticker, g.all, d);
+      writeJson(SEEN_FILE, seen);
+      for (const [k, v] of Object.entries(sums)) if (v.at && daysBetween(v.at, d) > KEEP_DAYS) delete sums[k];
+      writeJson(SUM_FILE, sums);
+      // 대시보드 파일 — 내용이 바뀌었을 때만 쓰고, 그 파일만 커밋·push (밤 루프·아침 실행 파일은 건드리지 않는다)
+      const file = path.join(paths.dashboardData, 'holdings.js');
+      const data = dashboardData(groups, { holdings: H.list, updated: new Date().toISOString(), source: H.source });
+      const prev = (() => { try { const t = fs.readFileSync(file, 'utf8'); return JSON.parse(t.slice(t.indexOf('{'), t.lastIndexOf('}') + 1)); } catch (e) { return null; } })();
+      const same = prev && JSON.stringify({ ...prev, updated: 0 }) === JSON.stringify({ ...data, updated: 0 });
+      if (!same) {
+        require('./lib/util').writeWindowData(file, 'HOLDINGS_DATA', data);
+        if (publish) { const pub = require('./finish-ondemand').gitPublish([file], `holdings: ${d} 보유 종목 소식 갱신`); if (!pub.ok) say('WARN', `GitHub: ${pub.error}`); }
+      }
+    }
     return { ok: true, holdings: H.list, groups, messages: msgs };
   } finally { unlock(); }
 }
@@ -225,8 +265,8 @@ async function run({ force = false, send = true, dry = false, ai = true } = {}) 
 if (require.main === module) {
   loadEnv();
   const a = process.argv.slice(2);
-  run({ force: a.includes('--force'), send: !a.includes('--no-send'), dry: a.includes('--dry'), ai: !a.includes('--no-ai') })
+  run({ force: a.includes('--force'), send: !a.includes('--no-send'), dry: a.includes('--dry'), ai: !a.includes('--no-ai'), publish: !a.includes('--no-git') })
     .then((r) => { if (a.includes('--print') && r.messages) console.log(r.messages.join('\n\n────────\n\n')); process.exit(0); })
     .catch((e) => { console.error(e); process.exit(1); });
 }
-module.exports = { holdingsFromTrades, holdingsFromPrices, pickNew, remember, prune, cleanSummary, buildMessages, run };
+module.exports = { holdingsFromTrades, holdingsFromPrices, pickNew, remember, prune, cleanSummary, buildMessages, dashboardData, run };

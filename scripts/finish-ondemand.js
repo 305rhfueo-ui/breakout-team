@@ -195,4 +195,4 @@ if (require.main === module) {
     .then((r) => { if (a.includes('--print') && r.messages) console.log(r.messages.join('\n\n────────\n\n')); console.log(JSON.stringify({ ok: r.ok, ticker: r.ticker, verdict: r.verdict, error: r.error, pushed: r.pushed })); process.exit(r.ok ? 0 : 1); })
     .catch((e) => { console.log(JSON.stringify({ ok: false, error: e.message })); process.exit(1); });
 }
-module.exports = { finish, enforceVerdict, messages, allClaims, loadOndemand };
+module.exports = { finish, enforceVerdict, messages, allClaims, loadOndemand, gitPublish };

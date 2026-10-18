@@ -139,6 +139,22 @@ console.log('\n[전망치·N 줄] 팝업 맨 아래 전망치 칸 · 체크표 N
   ok('전망치 자료가 없어도 야후 링크는 나간다', () => { assert.ok(h2.includes('finance.yahoo.com/quote/ZZNO/analysis/')); assert.ok(h2.includes('전망치 자료를 받지 못했습니다')); });
 }
 
+console.log('\n[8팀] 다온 — 보유 종목 소식 카드·탭 (2026-10-18)');
+{
+  const H = require('../../scripts/holdings-watch');
+  const data = H.dashboardData([{ ticker: 'PLTR', show: [
+    { type: 'news', title: 'HDSENT title', url: 'https://www.nasdaq.com/a', date: '2026-10-16', publisher: 'Zacks', summary: { ko: 'HDKO 요약', tone: 'good' }, isNew: true },
+    { type: '8k', title: '8-K 공시: 실적 발표', fixed: '실적 발표 공시 — 실적 발표', url: 'https://www.sec.gov/x', date: '2026-10-15', publisher: 'SEC' }] }],
+    { holdings: [{ ticker: 'PLTR', side: 'long' }, { ticker: 'OKTA', side: 'long' }], updated: '2026-10-18T01:00:00Z', source: 'trades.json' });
+  ok('대시보드 데이터에 수량·금액이 없다', () => assert.ok(!/qty|entryPrice|exitPrice|fees/.test(JSON.stringify(data))));
+  const c8 = loadRoom(`window.HOLDINGS_DATA = ${JSON.stringify(data)};`);
+  c8.cards(); const card = c8.document.getElementById('team').innerHTML, b = c8.bodyFor('t8');
+  ok('카드에 다온·보유 종목, 탭에 종목별 소식·요약·판단·새 소식 표시·링크', () => {
+    assert.ok(card.includes('다온') && card.includes('PLTR · OKTA'));
+    for (const k of ['data-tk="PLTR"', '🟢 HDKO 요약', '새 소식', '원문: HDSENT title', '📄 실적 발표 공시', 'trading-journal', '최근 2주 새 기사·공시·리포트가 없습니다', '매매 권유가 아닙니다']) assert.ok(b.includes(k), `없음: ${k}`);
+  });
+}
+
 console.log('\n[1] 2팀 — 회사 설명·근거·인용문이 실제로 렌더되는가');
 const done2 = doneAll;
 if (T2 && T2.lists) {
