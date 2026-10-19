@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-10-18T01:58:30.934Z",
+  "updated": "2026-10-19T22:10:11.535Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -9,21 +9,41 @@ window.HOLDINGS_DATA = {
       "items": [
         {
           "type": "news",
+          "title": "Palantir Stock Is Near a Record High. Should Investors Sell?",
+          "url": "https://www.nasdaq.com/articles/palantir-stock-near-record-high-should-investors-sell",
+          "date": "2026-10-19",
+          "publisher": "The Motley Fool",
+          "ko": "팔란티어 주가가 사상 최고가 부근이며 투자자가 매도해야 하는지 묻는 기사",
+          "tone": "neutral",
+          "isNew": true
+        },
+        {
+          "type": "news",
+          "title": "Why Palantir Technologies Stock Rallied Today",
+          "url": "https://www.nasdaq.com/articles/why-palantir-technologies-stock-rallied-today",
+          "date": "2026-10-19",
+          "publisher": "The Motley Fool",
+          "ko": "팔란티어 주가가 오늘 상승 랠리를 보인 이유를 다룬 기사",
+          "tone": "good",
+          "isNew": true
+        },
+        {
+          "type": "news",
+          "title": "Palantir Partners With Knox System For Customer Support With Missions In FedRAMP",
+          "url": "https://www.nasdaq.com/articles/palantir-partners-knox-system-customer-support-missions-fedramp",
+          "date": "2026-10-19",
+          "publisher": "RTTNews",
+          "ko": "팔란티어가 Knox System과 제휴해 FedRAMP 환경의 고객 지원을 제공",
+          "tone": "good",
+          "isNew": true
+        },
+        {
+          "type": "news",
           "title": "Palantir Stock Is Near Its Record. Here's the Price at Which I'd Buy It.",
           "url": "https://www.nasdaq.com/articles/palantir-stock-near-its-record-heres-price-which-id-buy-it",
           "date": "2026-10-16",
           "publisher": "The Motley Fool",
           "ko": "팔란티어 주가가 기록 근처이며 매수하고 싶은 가격대를 다룬 기고",
-          "tone": "neutral",
-          "isNew": false
-        },
-        {
-          "type": "news",
-          "title": "Prediction: Palantir Stock Will Be Worth This Much by the End of 2027",
-          "url": "https://www.nasdaq.com/articles/prediction-palantir-stock-will-be-worth-much-end-2027",
-          "date": "2026-10-16",
-          "publisher": "The Motley Fool",
-          "ko": "2027년 말 팔란티어 주가 가치를 전망하는 기고",
           "tone": "neutral",
           "isNew": false
         },
