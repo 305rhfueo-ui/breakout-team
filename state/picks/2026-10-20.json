@@ -1,0 +1,303 @@
+{
+  "date": "2026-10-20",
+  "count": 29,
+  "tickers": [
+    "MRNA",
+    "KOD",
+    "TEAM",
+    "GRAL",
+    "AGL",
+    "TXG",
+    "OKTA",
+    "TTAN",
+    "SHOP",
+    "CORT",
+    "HNGE",
+    "ECO",
+    "TWST",
+    "SHAK",
+    "SNOW",
+    "P",
+    "QLYS",
+    "RNG",
+    "VEON",
+    "TLN",
+    "RBRK",
+    "DELL",
+    "ESTC",
+    "AUGO",
+    "PBF",
+    "ILMN",
+    "NOW",
+    "PENG",
+    "HPE"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": true
+  },
+  "themes": [
+    {
+      "key": "Industry:Software - Application",
+      "level": "Industry",
+      "name": "Software - Application",
+      "count": 7,
+      "sharePct": 24.1,
+      "tickers": [
+        "TEAM",
+        "TTAN",
+        "SHOP",
+        "SNOW",
+        "RNG",
+        "ESTC",
+        "NOW"
+      ],
+      "concentration": "high",
+      "periods": {
+        "m1": 2,
+        "m3": 4,
+        "m6": 3
+      }
+    },
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 3,
+      "sharePct": 10.3,
+      "tickers": [
+        "MRNA",
+        "KOD",
+        "CORT"
+      ],
+      "concentration": "mid",
+      "periods": {
+        "m1": 2,
+        "m3": 2,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Diagnostics & Research",
+      "level": "Industry",
+      "name": "Diagnostics & Research",
+      "count": 3,
+      "sharePct": 10.3,
+      "tickers": [
+        "GRAL",
+        "TWST",
+        "ILMN"
+      ],
+      "concentration": "mid",
+      "periods": {
+        "m1": 1,
+        "m3": 1,
+        "m6": 3
+      }
+    },
+    {
+      "key": "Industry:Software - Infrastructure",
+      "level": "Industry",
+      "name": "Software - Infrastructure",
+      "count": 3,
+      "sharePct": 10.3,
+      "tickers": [
+        "OKTA",
+        "QLYS",
+        "RBRK"
+      ],
+      "concentration": "mid",
+      "periods": {
+        "m1": 0,
+        "m3": 1,
+        "m6": 3
+      }
+    },
+    {
+      "key": "Industry:Computer Hardware",
+      "level": "Industry",
+      "name": "Computer Hardware",
+      "count": 2,
+      "sharePct": 6.9,
+      "tickers": [
+        "P",
+        "DELL"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 1,
+        "m6": 1
+      }
+    }
+  ],
+  "byPeriod": {
+    "m1": [
+      "MRNA",
+      "KOD",
+      "GRAL",
+      "TTAN",
+      "SHOP",
+      "SHAK",
+      "P",
+      "VEON",
+      "TLN"
+    ],
+    "m3": [
+      "MRNA",
+      "KOD",
+      "TEAM",
+      "GRAL",
+      "ECO",
+      "P",
+      "RNG",
+      "VEON",
+      "RBRK",
+      "ESTC",
+      "AUGO",
+      "NOW"
+    ],
+    "m6": [
+      "MRNA",
+      "TEAM",
+      "GRAL",
+      "AGL",
+      "TXG",
+      "OKTA",
+      "CORT",
+      "HNGE",
+      "TWST",
+      "SNOW",
+      "QLYS",
+      "RNG",
+      "RBRK",
+      "DELL",
+      "PBF",
+      "ILMN",
+      "PENG",
+      "HPE"
+    ]
+  },
+  "cross": {
+    "persistent": [
+      "MRNA",
+      "GRAL"
+    ],
+    "newEntrants": [
+      "TTAN",
+      "SHOP",
+      "SHAK",
+      "TLN"
+    ],
+    "midTerm": [
+      "TEAM",
+      "ECO",
+      "RNG",
+      "RBRK",
+      "ESTC",
+      "AUGO",
+      "NOW"
+    ],
+    "fading": [
+      "AGL",
+      "TXG",
+      "OKTA",
+      "CORT",
+      "HNGE",
+      "TWST",
+      "SNOW",
+      "QLYS",
+      "DELL",
+      "PBF",
+      "ILMN",
+      "PENG",
+      "HPE"
+    ]
+  },
+  "lists": {
+    "dollar": [
+      "AXTI",
+      "COHU",
+      "ACMR",
+      "NFEGP",
+      "WHLRL"
+    ],
+    "m1": [
+      "KOD",
+      "GRAL",
+      "PTC",
+      "MRNA",
+      "TTAN",
+      "SHOP",
+      "ACN",
+      "WING",
+      "SHAK",
+      "SYNA",
+      "BH",
+      "BH.A",
+      "OLLI",
+      "TLN",
+      "VEEV",
+      "DKS",
+      "P",
+      "CAKE",
+      "IDT",
+      "SNPS",
+      "SIG",
+      "VEON"
+    ],
+    "m3": [
+      "MRNA",
+      "TEAM",
+      "KOD",
+      "PAYC",
+      "VEEV",
+      "PTC",
+      "ECO",
+      "ANF",
+      "GRAL",
+      "ACN",
+      "P",
+      "RNG",
+      "VEON",
+      "HURN",
+      "ESTC",
+      "AUGO",
+      "RBRK",
+      "NOW",
+      "CRM",
+      "IT",
+      "MPC",
+      "SAP"
+    ],
+    "m6": [
+      "MRNA",
+      "AGL",
+      "TXG",
+      "TEAM",
+      "OKTA",
+      "CORT",
+      "HNGE",
+      "NSIT",
+      "TWST",
+      "GRAL",
+      "SNOW",
+      "QLYS",
+      "MPC",
+      "RBRK",
+      "DELL",
+      "PBF",
+      "DINO",
+      "ILMN",
+      "PAYC",
+      "PENG",
+      "HPE",
+      "RNG"
+    ],
+    "all": [
+      "MRNA",
+      "GRAL"
+    ]
+  }
+}
