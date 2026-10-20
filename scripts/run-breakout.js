@@ -839,6 +839,25 @@ async function main() {
     } catch (e) { say('WARN', `팝업 차트 봉 저장 실패: ${e.message}`); }
   }
 
+  // ── 13d) 팝업 RS 1·3·6개월 시계열 (2026-10-20 복구) — 최근 3개월(63거래일) RS 사이트 일별 스냅샷으로 종목별 선을 만든다.
+  //    8월 이후 이 단계가 빠져 그래프 파일이 멈춰 있었다(사용자 지적). 목록·선정·서준 관심·7팀·보유 종목만. 없는 날짜 스냅샷은 받아 둔다(캐시).
+  if (!args.offline) {
+    try {
+      const H = require('./lib/history-series');
+      const idx = await H.fetchIndex();
+      const days = H.weekdaysOnly(idx.dates).slice(-63);
+      let got = 0;
+      for (const d of days) { const r = await H.ensureSnapshot(d); if (r && !r.cached) got++; }
+      const od = readPrevWindow('ondemand.js', 'ONDEMAND_DATA'), hd = readPrevWindow('holdings.js', 'HOLDINGS_DATA');
+      const want = [...new Set([...pool.map((q) => q.ticker), ...(team6 ? team6.plans.map((p) => p.ticker) : []),
+        ...((od && od.items) || []).map((x) => x.ticker), ...((hd && hd.holdings) || []).map((x) => x.ticker)])];
+      const { byTicker } = H.buildSeries(days, { tickers: want });
+      const r = H.writeSeriesFiles(byTicker, new Map(), { tickers: want });
+      const removed = H.pruneSeries([...byTicker.keys()]);
+      say('SYSTEM', `팝업 RS 시계열 ${r.tickers}종목 · ${days[0]}~${days[days.length - 1]} (${days.length}일, 새로 받은 스냅샷 ${got})${removed ? ` · 지난 종목 ${removed}개 삭제` : ''}`);
+    } catch (e) { say('WARN', `팝업 RS 시계열 실패: ${e.message}`); }
+  }
+
   // ── 14) 실장 종합 + 대시보드 데이터 ──
   const chief = {
     generated: dateStr,

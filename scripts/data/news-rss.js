@@ -55,6 +55,7 @@ function parseRss(xml) {
       url: tag(it, 'link'),
       published: tag(it, 'pubDate'),
       creator: tag(it, 'dc:creator') || tag(it, 'author'),
+      desc: (tag(it, 'description') || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 600) || null,   // 기사 요약(나스닥 RSS) — 2026-10-20 보유 소식 정리용
       tickers: tickersRaw ? tickersRaw.split(',').map((s) => s.trim()).filter(Boolean) : null,
     };
   }).filter((x) => x.title && x.url);
@@ -103,7 +104,7 @@ async function getTickerNews(ticker, { limit = 8, nameHint = null } = {}) {
       return true;
     })
     .map((x) => ({
-      title: x.title, url: x.url, date: toIso(x.published),
+      title: x.title, url: x.url, date: toIso(x.published), desc: x.desc || null,
       publisher: x.creator || 'Nasdaq',
       tier1: TIER1.test(x.creator || ''),
       direct: titleMentions(x.title, t, nameHint),   // 제목에 이 종목이 나오는가

@@ -35,6 +35,16 @@ ok('한 줄 요약 검사 — 제목에 없는 숫자·URL·@·긴 글·이상�
   assert.strictEqual(H.cleanSummary({ ko: '좋은 소식 https://evil.example 참고 @bot', tone: 'neutral' }, it).ko, '좋은 소식 참고');
   assert.strictEqual(H.cleanSummary(undefined, it), null);
 });
+ok('소식 정리 검사 — 확인된 인용문·제목에 없는 숫자 문장은 지우고, 헤드라인이 깨지면 버린다', () => {
+  const it = { title: 'Okta beats estimates', text: 'Okta beats estimates' };
+  const raw = { tone: 'good', headline: '옥타 실적이 예상을 넘었다', easy: '매출이 12% 늘었다. 구독 고객이 늘었다.', whyMatters: '보유자에게 유리하다.', quote: 'Revenue grew 12% year over year.', read: true };
+  const ok1 = H.cleanDigest(raw, it, { quoteOk: true });
+  assert.strictEqual(ok1.easy, '매출이 12% 늘었다. 구독 고객이 늘었다.'); assert.ok(ok1.read && ok1.quote);
+  const no = H.cleanDigest(raw, it, { quoteOk: false });                    // 인용문을 원문에서 못 찾으면 12% 는 근거 없음
+  assert.strictEqual(no.easy, '구독 고객이 늘었다.'); assert.strictEqual(no.quote, ''); assert.strictEqual(no.read, false);
+  assert.strictEqual(H.cleanDigest({ ...raw, headline: '매출 40% 급증' }, it, { quoteOk: true }), null);
+  assert.strictEqual(H.cleanDigest({ ...raw, tone: 'buy' }, it), null);
+});
 ok('메시지 — 종목별 묶음, 요약 없으면 원문 제목, 3,900자 이하로 나눔, 매매 권유 아님 표시', () => {
   const mk = (n) => ({ type: 'news', title: `Title ${n} ${'x'.repeat(300)}`, text: '', url: 'https://www.nasdaq.com/a', date: '2026-10-16', publisher: 'Zacks' });
   const groups = [{ ticker: 'PLTR', side: 'long', items: [{ ...mk(1), summary: { ko: '요약 한 줄', tone: 'good' } }, ...Array.from({ length: 20 }, (_, i) => mk(i + 2))] },

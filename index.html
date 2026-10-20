@@ -526,6 +526,40 @@ function briefing(id){
     else P.push(`모의 거래는 아직 없습니다.`);
     return P.join(' ');
   }
+  /* 하린·지우·다온 — 2026-10-20: 이 분기가 없어 실장 보고가 그대로 나왔다(사용자 지적). 자기 일만 브리핑한다. */
+  if(id==='t5'){
+    const t=D.t5; if(!t||!(t.industries||[]).length)return '';
+    const I=t.industries,ko=x=>esc((INDUSTRY_KO||{})[x.industry]||x.industry),done=I.filter(x=>x.report&&x.report.status==='done');
+    P.push(`RS 사이트 업종 순위(FRANK) 1~10위를 사이트와 같은 계산으로 가져왔습니다(사이트 갱신 ${esc(t.siteUpdated||'—')}). 1위는 <b>${ko(I[0])}</b>, 2위 ${ko(I[1]||{})}, 3위 ${ko(I[2]||{})}입니다.`);
+    const up=I.filter(x=>x.frank25dChg>0).sort((a,b)=>b.frank25dChg-a.frank25dChg)[0];
+    if(up)P.push(`한 달 새 가장 많이 올라온 업종은 <b>${ko(up)}</b>(${up.frank25dChg}계단 상승)입니다.`);
+    const r=I[0].report&&I[0].report.status==='done'?I[0].report:null;
+    if(r)P.push(`1위 업종이 강한 이유: ${esc(r.headline)}${(r.leaders||[]).length?` 기사·리포트가 꼽은 주도주는 ${r.leaders.map(l=>`<b>${esc(l.ticker)}</b>`).join('·')}입니다.`:''}`);
+    P.push(`10개 업종 중 ${done.length}개는 왜 상위인지 출처와 함께 정리했고${done.length<I.length?`, 나머지는 다음 아침 조사에서 채웁니다`:''}. 근거가 없는 업종은 지어내지 않고 "근거 없음"으로 둡니다.`);
+    return P.join(' ');
+  }
+  if(id==='t7'){
+    const I=(D.od&&D.od.items)||[];
+    if(!I.length)return `아직 물어보신 종목이 없습니다. 텔레그램 봇에 <b>"티커 심층분석"</b>(예: SNOW 심층분석)이라고 보내 주시면 5~10분 뒤 결론과 근거를 드립니다.`;
+    const x=I[0],cnt=v=>I.filter(y=>y.verdict===v).length;
+    P.push(`가장 최근에 물어보신 <b>${esc(x.ticker)}</b>(${esc(x.requestedOn||'')})는 <b>${VICON[x.verdict]||''} ${esc(x.verdict)}</b>입니다 — ${esc(x.verdictLine||'')}`);
+    if((x.verdictAdjusted||[]).length)P.push(`이 판정은 코드가 한 번 조정했습니다(${esc(x.verdictAdjusted[0])}).`);
+    P.push(`지금까지 ${I.length}종목을 봤고, 매수 적정 ${cnt('매수 적정')} · 조건부 ${cnt('조건부')} · 아니다 ${cnt('아니다')}입니다. 판정은 물어본 날 자료 기준이라 며칠 지나면 "티커 다시"로 새로 보시는 게 좋습니다.`);
+    return P.join(' ');
+  }
+  if(id==='t8'){
+    const d=D.hd; if(!d)return '';
+    const H=d.holdings||[];
+    if(!H.length)return `매매일지에 지금 보유 종목이 없습니다.`;
+    P.push(`매매일지에서 보유 중인 <b>${H.map(h=>esc(h.ticker)).join(' · ')}</b>를 지켜보고 있습니다(마지막 확인 ${esc(new Date(d.updated).toLocaleString('ko-KR',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}))}).`);
+    for(const h of H){
+      const it=h.items||[],good=it.filter(x=>x.tone==='good').length,bad=it.filter(x=>x.tone==='bad').length,nw=it.filter(x=>x.isNew).length;
+      const top=it.find(x=>x.tone==='bad')||it.find(x=>x.tone==='good')||it[0];
+      P.push(`<b>${esc(h.ticker)}</b> — 최근 2주 소식 ${it.length}건(유리 ${good} · 불리 ${bad}${nw?` · 이번에 새로 ${nw}`:''})${top?`. 눈여겨볼 것: ${esc(top.headline||top.ko||top.title)}`:''}.`);
+    }
+    P.push(`새 소식이 있으면 매일 07:10·22:00 텔레그램으로 알려 드리고, "보유"라고 보내시면 바로 확인합니다.`);
+    return P.join(' ');
+  }
   /* 실장 — 사장께 올리는 보고 */
   const c=D.chief; if(!c)return '';
   const k=c.counts||{},m=c.market||{},cc=(D.cc&&D.cc.items)||[];
@@ -738,6 +772,38 @@ function loadOhlc(t,cb){
 }
 /* 캔들차트 — scripts/lib/chart/model.js 의 색·배치를 그대로 옮겼다(서준 심층 분석 PNG 와 같은 모양).
    rows = [[날짜,시,고,저,종,거래량], …]. 이평선은 앞쪽 봉까지 써서 계산하고 화면엔 최근 show 개만 그린다. */
+/* ── RS 1·3·6개월 최근 3개월 선 그래프 (2026-10-20 복구) — RS 사이트 일별 스냅샷의 RS_1mo·RS_3mo·RS_6mo.
+   RS = 그 기간 QQQ 대비 초과 수익(0 = QQQ 와 같음). 선이 함께 오르면 강해지는 중, 1개월선이 꺾이면 최근 힘이 빠지는 중. */
+function loadSeries(t,cb){
+  window.SERIES=window.SERIES||{};
+  if(window.SERIES[t])return cb(window.SERIES[t]);
+  const sc=document.createElement('script');
+  sc.src=`dashboard/data/series/${String(t).replace(/[^A-Za-z0-9._-]/g,'_')}.js`;
+  sc.onload=()=>cb(window.SERIES[t]||null);sc.onerror=()=>cb(null);
+  document.head.appendChild(sc);
+}
+function rsSvg(S,{W=780,H=240}={}){
+  const C={bg:'#0d1117',grid:'#30363d',text:'#c9d1d9',dim:'#7d8590'},L=[['r1','RS 1개월','#f5a524'],['r3','RS 3개월','#3b82f6'],['r6','RS 6개월','#c084fc']];
+  const d=S.d||[],vals=L.flatMap(([k])=>(S[k]||[]).filter(v=>v!=null&&isFinite(v)));
+  if(d.length<5||!vals.length)return '<div class="empty">RS 시계열이 아직 부족합니다</div>';
+  const pl=52,pr=14,pt=30,pb=26,w=W-pl-pr,h=H-pt-pb;
+  let lo=Math.min(0,...vals),hi=Math.max(0,...vals);if(hi-lo<1e-6){hi+=0.05;lo-=0.05;}const pad=(hi-lo)*0.08;lo-=pad;hi+=pad;
+  const x=i=>pl+(d.length===1?0:i*w/(d.length-1)),y=v=>pt+(hi-v)*h/(hi-lo);
+  let g=`<svg viewBox="0 0 ${W} ${H}" width="100%" style="max-width:${W}px;display:block;background:${C.bg};border-radius:8px">`;
+  for(let k=0;k<=4;k++){const v=lo+(hi-lo)*k/4;g+=`<line x1="${pl}" x2="${W-pr}" y1="${y(v)}" y2="${y(v)}" stroke="${C.grid}" stroke-width="0.6"/><text x="${pl-6}" y="${y(v)+4}" fill="${C.dim}" font-size="10" text-anchor="end">${(v*100).toFixed(0)}%</text>`;}
+  g+=`<line x1="${pl}" x2="${W-pr}" y1="${y(0)}" y2="${y(0)}" stroke="${C.text}" stroke-width="0.8" stroke-dasharray="4 3"/><text x="${W-pr}" y="${y(0)-4}" fill="${C.dim}" font-size="10" text-anchor="end">QQQ 와 같음</text>`;
+  const step=Math.max(1,Math.round(d.length/6));for(let i=0;i<d.length;i+=step)g+=`<text x="${x(i)}" y="${H-8}" fill="${C.dim}" font-size="10" text-anchor="middle">${d[i].slice(5)}</text>`;
+  let leg=pl;
+  for(const [k,lab,col] of L){
+    const a=S[k]||[];let path='',pen=false;
+    a.forEach((v,i)=>{if(v==null||!isFinite(v)){pen=false;return;}path+=`${pen?'L':'M'}${x(i).toFixed(1)},${y(v).toFixed(1)}`;pen=true;});
+    const last=[...a].reverse().find(v=>v!=null&&isFinite(v));
+    g+=`<path d="${path}" fill="none" stroke="${col}" stroke-width="1.8"/>`;
+    g+=`<rect x="${leg}" y="10" width="10" height="3" fill="${col}"/><text x="${leg+14}" y="15" fill="${C.text}" font-size="11">${lab} ${last==null?'—':(last>0?'+':'')+(last*100).toFixed(1)+'%'}</text>`;leg+=150;
+  }
+  return g+`</svg>`;
+}
+
 function candleSvg(rows,{ma=[10,20,50],show=84,W=780,H=430}={}){
   const C={bg:'#0d1117',grid:'#30363d',text:'#c9d1d9',dim:'#7d8590',up:'#2ea043',down:'#f85149'};
   const MC={10:'#f5a524',20:'#3b82f6',50:'#a1a1aa'};
@@ -814,6 +880,7 @@ function openTicker(T){
     <a href="https://finviz.com/quote.ashx?t=${encodeURIComponent(T)}" target="_blank" style="margin-left:auto;font-size:13px">Finviz ↗</a>
     <button class="x" onclick="closeM2()">닫기 ✕</button></div>`;
   h+=`<div class="chartbox" id="ohlcBox"><div class="empty">차트 불러오는 중…</div></div>`;
+  h+=`<div class="chartbox" id="rsBox" style="margin-top:8px"><div class="empty">RS 그래프 불러오는 중…</div></div><div class="note" style="margin:2px 0 8px">RS = 그 기간 QQQ 대비 초과 수익(RS 사이트 일별 값, 최근 3개월). 세 선이 함께 오르면 강해지는 중이고, 1개월선만 꺾이면 최근 힘이 빠지는 중입니다.</div>`;
   h+=verdictBlock(od);
   if(it)h+=`<div class="sec"><h4>핵심 지표 <span class="dim">(RS 사이트 · 쿨라매기 기준)</span></h4>${rows(colsFor('all').slice(1).map(([lab,tip,f])=>[`<span title="${esc(tip)}">${lab}</span>`,f(it)]))}</div>`;
   const K=p&&p.kis;
@@ -855,6 +922,7 @@ function openTicker(T){
     h+=`<div class="sec"><div class="note" style="margin:0">아직 조사 전입니다 — 거래대금 상위·세 기간 공통 종목부터 매일 순환 조사합니다.</div></div>`;
   $('mbox2').innerHTML=h;$('modal2').classList.add('on');$('modal2').scrollTop=0;
   loadOhlc(T,r=>{const b=$('ohlcBox');if(!b)return;b.innerHTML=r&&r.length>20?candleSvg(r):'<div class="empty">차트 데이터가 없습니다 (봉 수집 대상이 아닌 종목)</div>';});
+  loadSeries(T,S=>{const b=$('rsBox');if(!b)return;b.innerHTML=S?rsSvg(S):'<div class="empty">RS 시계열이 없습니다 (RS 사이트 목록 밖이거나 다음 아침 스캔에서 만들어집니다)</div>';});
 }
 function closeM2(){$('modal2').classList.remove('on');}
 // 어디서든 data-tk 가 붙은 티커를 누르면 팝업 (목록 표 · 서준 카드 · 실장 차트확인 · 테마)
@@ -1129,8 +1197,12 @@ function bodyFor(id){
       h+=`<div class="sec"><h4><span class="tk" data-tk="${esc(x.ticker)}">${esc(x.ticker)}</span>${x.side==='short'?' <span class="chip">공매도</span>':''} <span class="dim">최근 2주 소식 ${(x.items||[]).length}건</span>
         <a href="https://finance.yahoo.com/quote/${encodeURIComponent(x.ticker.replace(/\./g,'-'))}/analysis/" target="_blank" style="font-size:12px;margin-left:6px">전망치 ↗</a></h4>`;
       if(!(x.items||[]).length){h+='<div class="note">최근 2주 새 기사·공시·리포트가 없습니다.</div></div>';continue;}
-      h+=`<ul class="plist">${x.items.map(it=>`<li>${it.type==='8k'?'📄':TI[it.tone]||'•'} ${esc(it.ko||it.title)}${it.isNew?' <span class="chip">새 소식</span>':''}
-        <div class="note">${esc(it.publisher||'')} · ${TY[it.type]||''} · ${esc(it.date||'')}${it.ko&&it.type!=='8k'?` · 원문: ${esc(it.title)}`:''} ${it.url?`<a href="${esc(it.url)}" target="_blank">링크 ↗</a>`:''}</div></li>`).join('')}</ul></div>`;
+      h+=x.items.map(it=>`<div style="margin:0 0 12px">
+        <b>${it.type==='8k'?'📄':TI[it.tone]||'•'} ${esc(it.headline||it.ko||it.title)}</b>${it.isNew?' <span class="chip">새 소식</span>':''}${it.read?' <span class="chip" title="에이전트가 기사 본문을 읽고 썼고, 인용문을 원문 페이지에서 확인했습니다">본문 확인</span>':''}
+        ${it.easy?`<div class="pi">${esc(it.easy)}</div>`:''}
+        ${it.whyMatters?`<div class="pi"><b>내 보유에:</b> ${esc(it.whyMatters)}</div>`:''}
+        ${it.quote?`<div class="quote">${esc(it.quote)}</div>`:''}
+        <div class="note">${esc(it.publisher||'')} · ${TY[it.type]||''} · ${esc(it.date||'')}${(it.headline||it.ko)&&it.type!=='8k'?` · 원문: ${esc(it.title)}`:''} ${it.url?`<a href="${esc(it.url)}" target="_blank">링크 ↗</a>`:''}</div></div>`).join('')+`</div>`;
     }
     return h;
   }
