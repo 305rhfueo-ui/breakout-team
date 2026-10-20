@@ -911,17 +911,7 @@ window.TEAM6_DATA = {
   "noBars": [
     "HPE-C"
   ],
-  "triggers": [
-    {
-      "ticker": "AUGO",
-      "at": "1125",
-      "fired": false,
-      "grade": "B",
-      "ko": "대기 — 진입 창(120분) 종료 — 기준선 93.49 미돌파 (종가 87.5) (1125 ET 기준)",
-      "pace": 0.41,
-      "level": 93.49
-    }
-  ],
+  "triggers": [],
   "positions": [],
   "trades": [
     {
@@ -1024,19 +1014,16 @@ window.TEAM6_DATA = {
     },
     "slipPct": 0.2,
     "open": 0,
-    "totalPct": -1.04,
-    "openPct": 0,
-    "observing": true,
-    "minSample": 30
+    "totalPct": -1.04
   },
   "health": {
-    "at": "2026-10-19T20:00:20.072Z",
-    "atKst": "2026-10-20 05:00 KST",
-    "atEt": "2026-10-19 1600",
+    "at": "2026-10-20T20:00:20.052Z",
+    "atKst": "2026-10-21 05:00 KST",
+    "atEt": "2026-10-20 1600",
     "phase": "post",
     "source": "kis",
     "status": "정상",
-    "watch": 1,
+    "watch": 0,
     "checked": 0,
     "errors": []
   },
