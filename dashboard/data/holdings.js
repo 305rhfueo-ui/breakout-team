@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-10-19T22:10:11.535Z",
+  "updated": "2026-10-20T03:54:59.325Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -13,9 +13,14 @@ window.HOLDINGS_DATA = {
           "url": "https://www.nasdaq.com/articles/palantir-stock-near-record-high-should-investors-sell",
           "date": "2026-10-19",
           "publisher": "The Motley Fool",
-          "ko": "팔란티어 주가가 사상 최고가 부근이며 투자자가 매도해야 하는지 묻는 기사",
+          "ko": "팔란티어가 사상 최고가 부근, 매도할지 논쟁",
           "tone": "neutral",
-          "isNew": true
+          "isNew": false,
+          "headline": "팔란티어가 사상 최고가 부근, 매도할지 논쟁",
+          "easy": "기사 제목과 요약에 따르면 팔란티어 주가가 사상 최고가 근처에 있고, 투자자가 팔아야 하는지를 다룬다. 요약은 팔란티어의 뛰어난 성장이 강세 논리를 뒷받침한다고만 밝혔다. 그 밖의 세부 내용은 기사에 안 나왔다.",
+          "whyMatters": "보유 중이라면 주가가 고점 부근이라는 점과 성장이 강세 논거라는 점만 확인된다. 구체적 근거는 본문을 읽지 못해 알 수 없다.",
+          "quote": null,
+          "read": false
         },
         {
           "type": "news",
@@ -23,9 +28,14 @@ window.HOLDINGS_DATA = {
           "url": "https://www.nasdaq.com/articles/why-palantir-technologies-stock-rallied-today",
           "date": "2026-10-19",
           "publisher": "The Motley Fool",
-          "ko": "팔란티어 주가가 오늘 상승 랠리를 보인 이유를 다룬 기사",
+          "ko": "팔란티어 주가가 녹스 시스템즈와 협업 발표 후 상승",
           "tone": "good",
-          "isNew": true
+          "isNew": false,
+          "headline": "팔란티어 주가가 녹스 시스템즈와 협업 발표 후 상승",
+          "easy": "요약에 따르면 팔란티어가 Knox Systems와의 협업을 발표한 뒤 주가가 올랐다. 구체적인 상승폭이나 협업 내용은 기사에 안 나왔다.",
+          "whyMatters": "협업 소식이 주가에 긍정적으로 반영된 것으로 보여 보유자에게는 우호적이다. 다만 규모와 영향은 알 수 없다.",
+          "quote": null,
+          "read": false
         },
         {
           "type": "news",
@@ -33,9 +43,14 @@ window.HOLDINGS_DATA = {
           "url": "https://www.nasdaq.com/articles/palantir-partners-knox-system-customer-support-missions-fedramp",
           "date": "2026-10-19",
           "publisher": "RTTNews",
-          "ko": "팔란티어가 Knox System과 제휴해 FedRAMP 환경의 고객 지원을 제공",
+          "ko": "팔란티어가 녹스와 연방 클라우드 고객 지원 제휴",
           "tone": "good",
-          "isNew": true
+          "isNew": false,
+          "headline": "팔란티어가 녹스와 연방 클라우드 고객 지원 제휴",
+          "easy": "요약에 따르면 미국 연방기관과 전쟁부에 관리형 클라우드를 제공하는 Knox Systems가 월요일 팔란티어와의 파트너십을 발표했다. 목적은 FedRAMP와 IL5 환경에서 중요 임무를 수행하는 고객을 지원하는 것이다. 계약 금액 등은 기사에 안 나왔다.",
+          "whyMatters": "정부·국방 고객 기반의 사업 확장 소식이라 보유자에게 긍정적일 수 있다. 실적 영향은 기사에 나오지 않았다.",
+          "quote": null,
+          "read": false
         },
         {
           "type": "news",
@@ -43,9 +58,29 @@ window.HOLDINGS_DATA = {
           "url": "https://www.nasdaq.com/articles/palantir-stock-near-its-record-heres-price-which-id-buy-it",
           "date": "2026-10-16",
           "publisher": "The Motley Fool",
-          "ko": "팔란티어 주가가 기록 근처이며 매수하고 싶은 가격대를 다룬 기고",
+          "ko": null,
+          "tone": null,
+          "isNew": false,
+          "headline": null,
+          "easy": null,
+          "whyMatters": null,
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "cnbc",
+          "title": "Nvidia, Cisco confirm multimillion-dollar donations to Trump's ballroom",
+          "url": "https://www.cnbc.com/2026/10/15/trump-ballroom-nvidia-cisco-donations.html",
+          "date": "2026-10-15",
+          "publisher": "CNBC",
+          "ko": "팔란티어 등 빅테크, 트럼프 연회장 기부자 명단에 포함",
           "tone": "neutral",
-          "isNew": false
+          "isNew": false,
+          "headline": "팔란티어 등 빅테크, 트럼프 연회장 기부자 명단에 포함",
+          "easy": "CNBC는 엔비디아와 시스코가 트럼프 대통령의 백악관 연회장 사업에 수백만 달러를 냈다고 확인했다. 워싱턴포스트는 아마존, 팔란티어 등도 수백만 달러를 기부했다고 보도했다. 팔란티어는 논평 요청에 바로 답하지 않았다. 의원들과 전문가들은 기부가 정책 결정이나 연방 계약에 영향을 줄 수 있다고 우려했다.",
+          "whyMatters": "팔란티어는 기부 기업 명단에 올랐고 정부 계약과의 연관성 논란이 이어질 수 있다. 팔란티어의 구체적 기부액은 기사에 안 나왔다.",
+          "quote": "Amazon , Palantir , ServiceNow , Meta Platforms and Microsoft also made contributions in the millions, according to the Post.",
+          "read": true
         },
         {
           "type": "cnbc",
@@ -53,9 +88,14 @@ window.HOLDINGS_DATA = {
           "url": "https://www.cnbc.com/2026/10/15/josh-brown-says-this-is-his-ai-roller-coaster-stock.html",
           "date": "2026-10-15",
           "publisher": "CNBC",
-          "ko": "Josh Brown이 꼽은 AI 롤러코스터 종목 소개로 팔란티어 관련 여부 불분명",
+          "ko": "조시 브라운이 꼽은 AI 롤러코스터 종목 소개",
           "tone": "neutral",
-          "isNew": false
+          "isNew": false,
+          "headline": "조시 브라운이 꼽은 AI 롤러코스터 종목 소개",
+          "easy": "제목은 조시 브라운이 자신의 AI 롤러코스터 종목을 말했다는 내용이다. 본문이 비어 있어 어떤 종목인지, 팔란티어와 관련 있는지 기사에 안 나왔다.",
+          "whyMatters": "팔란티어 관련 여부를 확인할 수 없어 보유 포지션에 미치는 영향은 판단할 수 없다.",
+          "quote": null,
+          "read": false
         },
         {
           "type": "cnbc",
@@ -63,9 +103,14 @@ window.HOLDINGS_DATA = {
           "url": "https://www.cnbc.com/2026/10/08/thursday-top-wall-street-analyst-calls.html",
           "date": "2026-10-08",
           "publisher": "CNBC",
-          "ko": "엔비디아, 팔란티어 등 여러 종목에 대한 목요일 애널리스트 의견 모음",
+          "ko": "목요일 주요 애널리스트 평가에 팔란티어 포함",
           "tone": "neutral",
-          "isNew": false
+          "isNew": false,
+          "headline": "목요일 주요 애널리스트 평가에 팔란티어 포함",
+          "easy": "제목에 따르면 목요일 주요 애널리스트 평가 대상에 엔비디아, 팔란티어, 마이크로소프트, 제너락이 들어 있다. 평가 방향이나 목표가는 기사에 안 나왔다.",
+          "whyMatters": "팔란티어가 평가 대상이라는 것만 알 수 있고, 유불리는 판단할 수 없다.",
+          "quote": null,
+          "read": false
         },
         {
           "type": "cnbc",
@@ -73,9 +118,14 @@ window.HOLDINGS_DATA = {
           "url": "https://www.cnbc.com/2026/10/08/palantir-isnt-done-capitalizing-on-ai-boom-goldman-sachs-says.html",
           "date": "2026-10-08",
           "publisher": "CNBC",
-          "ko": "팔란티어가 강세를 보였고 골드만삭스는 앞으로 더 모멘텀이 있다고 봄",
+          "ko": "골드만삭스, 팔란티어 상승세 이어질 것으로 전망",
           "tone": "good",
-          "isNew": false
+          "isNew": false,
+          "headline": "골드만삭스, 팔란티어 상승세 이어질 것으로 전망",
+          "easy": "제목에 따르면 팔란티어가 가파르게 올랐고 골드만삭스는 앞으로도 모멘텀이 더 있다고 본다. 근거와 목표가는 기사에 안 나왔다.",
+          "whyMatters": "대형 투자은행이 긍정적으로 본다는 점은 보유자에게 우호적이다. 구체적 내용은 확인할 수 없다.",
+          "quote": null,
+          "read": false
         },
         {
           "type": "cnbc",
@@ -83,9 +133,14 @@ window.HOLDINGS_DATA = {
           "url": "https://www.cnbc.com/2026/10/07/dan-ives-says-ai-buildout-only-in-3rd-inning-here-are-his-top-5-plays-from-here-.html",
           "date": "2026-10-07",
           "publisher": "CNBC",
-          "ko": "Dan Ives가 AI 구축은 3회라며 상위 5개 종목을 제시, 팔란티어 포함 여부 불분명",
+          "ko": "댄 아이브스, AI 투자는 3회 초반이라며 5종목 제시",
           "tone": "neutral",
-          "isNew": false
+          "isNew": false,
+          "headline": "댄 아이브스, AI 투자는 3회 초반이라며 5종목 제시",
+          "easy": "제목에 따르면 댄 아이브스는 AI 인프라 구축이 야구로 치면 3회 정도에 불과하다고 보며 유망 5종목을 꼽았다. 팔란티어가 포함됐는지는 기사에 안 나왔다.",
+          "whyMatters": "AI 투자 흐름이 길게 이어진다는 시각이지만, 팔란티어와의 직접 관련은 확인되지 않는다.",
+          "quote": null,
+          "read": false
         }
       ]
     }
