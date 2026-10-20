@@ -1,0 +1,714 @@
+{
+ "ticker": "SHAK",
+ "date": "2026-10-20",
+ "session": "2026-10-19",
+ "source": "list",
+ "plan": {
+  "ticker": "SHAK",
+  "name": "쉐이크쉑",
+  "sector": "Consumer Cyclical",
+  "industry": "Restaurants",
+  "price": 71.87000274658203,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 76.41,
+  "stop": 73.42,
+  "distToPivotPct": -5.94,
+  "distToPivotAdr": -1.43,
+  "riskPerSharePct": 3.91,
+  "adrPct": 4.16,
+  "extensionAdr": 1.14,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 28.4,
+   "priorMovePct": 48.1,
+   "higherLows": 1,
+   "contraction": 1.08,
+   "closeRange10Adr": 2.6,
+   "surf10": 1.14,
+   "surf20": 2.77,
+   "slope20": 5.8,
+   "baseLow": 54.73,
+   "lastSwingLow": 55.48
+  },
+  "reasons": [
+   "선행 상승 +48%",
+   "베이스 8주",
+   "✗ 깊이 28.4%",
+   "저점 상승 1회",
+   "✗ 진폭 1.08배 · 10일 종가폭 2.6 ADR",
+   "10일선 +1.1 ADR · 20일선 +2.8 ADR",
+   "20일선 기울기 +5.8%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.2617627089494433,
+    "pct": 99.23354373309287
+   },
+   "m3": {
+    "v": 0.258669083487892,
+    "pct": 91.8394950405771
+   },
+   "m6": {
+    "v": -0.2823764188559626,
+    "pct": 5.45536519386835
+   }
+  },
+  "ret1m": 26.18,
+  "ret3m": 25.87,
+  "ret6m": -28.24,
+  "marketCap": "2.83B",
+  "volx": 1.03,
+  "volSurgeWk": 1.02,
+  "high52": 66.88,
+  "newHigh52": false,
+  "adr": 4.16,
+  "div50": 8.49,
+  "div200": -5.61,
+  "targetStatus": false,
+  "saleCy": 14.25,
+  "saleNy": 14.59,
+  "epsCy": -15.05,
+  "epsNy": 25.73,
+  "cyTrend": -0.26,
+  "nyTrend": 0.09,
+  "est": {
+   "cyCur": 1.12132,
+   "cy30": 1.12428,
+   "nyCur": 1.40987,
+   "ny30": 1.40863
+  },
+  "fs": {
+   "sale": [
+    17.16,
+    14.28,
+    21.86
+   ],
+   "ni": [
+    -8.56,
+    -106.83,
+    35.83
+   ],
+   "opm": [
+    4.97,
+    -0.72,
+    4.68
+   ],
+   "updated": "2026-09-08 06:04:12"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-10-15",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 3,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-20",
+  "nameKo": "쉐이크쉑",
+  "nameEn": "SHAKE SHACK INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001620533&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-01",
+     "derived": false,
+     "revenue": 417618000,
+     "profit": 20746000,
+     "netIncome": 15680000,
+     "margin": 5,
+     "yoy": {
+      "revenue": 17.2,
+      "profit": -7.3,
+      "netIncome": -8.6,
+      "priorEnd": "2025-06-25"
+     }
+    },
+    {
+     "periodEnd": "2026-04-01",
+     "derived": false,
+     "revenue": 366737000,
+     "profit": -2634000,
+     "netIncome": -290000,
+     "margin": -0.7,
+     "yoy": {
+      "revenue": 14.3,
+      "profit": -192.7,
+      "netIncome": -106.8,
+      "priorEnd": "2025-03-26"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 400531000,
+     "profit": 18744000,
+     "netIncome": 15816000,
+     "margin": 4.7,
+     "yoy": {
+      "revenue": 21.9,
+      "profit": 83.6,
+      "netIncome": 69.6,
+      "priorEnd": "2024-12-25"
+     }
+    },
+    {
+     "periodEnd": "2025-09-24",
+     "derived": false,
+     "revenue": 367411000,
+     "profit": 18548000,
+     "netIncome": 12501000,
+     "margin": 5,
+     "yoy": {
+      "revenue": 15.9,
+      "profit": 203.1,
+      "netIncome": 222.4,
+      "priorEnd": "2024-09-25"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "CBRL vs. SHAK: Which Stock Should Value Investors Buy Now?",
+     "url": "https://www.nasdaq.com/articles/cbrl-vs-shak-which-stock-should-value-investors-buy-now",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Wall Street Analysts Predict a 32.34% Upside in Shake Shack (SHAK): Here's  What You Should Know",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-predict-3234-upside-shake-shack-shak-heres-what-you-should-know",
+     "date": "2026-10-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CBRL or SHAK: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/cbrl-or-shak-which-better-value-stock-right-now",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "BLMN vs. SHAK: Which Stock Is the Better Value Option?",
+     "url": "https://www.nasdaq.com/articles/blmn-vs-shak-which-stock-better-value-option-0",
+     "date": "2026-09-11",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1620533/000162053326000033/shak-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-12",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1620533/000110465926073466/tm2617735d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1620533/000110465926072950/tm2617505d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-02",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1620533/000110465926069246/tm2616608d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1620533/000110465926056664/tm2613751d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1620533/000162053326000024/shak-20260507.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-02-27",
+     "broker": "현대차증권",
+     "analyst": "장문영",
+     "title": "[쉐이크쉑 (NYS:SHAK)] 트래픽 반등과 마진 개선의 동시 확인",
+     "summary": "- '25년 연간 매출은 $14.5억(YoY +15.4%), 동일매장매출 +2.3% 기록. 신규 매장 출점과 디지털 채널을 통한 고객 유입 확대가 외형 성장을 견인- 원자재 가격 상승 및 기상 이변에도 불구하고 공급망 효율화와 운영 최적화 성과로 레스토랑 이익률은 120bp 상승한 22.6% 달성- '26년 신규 매장 95~105개 오픈 계획과 함께 매출 $16억~$17억, 레스토랑 이익률 23~23.5% 가이던스 제시",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgkcccgiexxqkgcgxecgc.pdf",
+     "pages": "4"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "SHAK-report1.pdf",
+   "broker": "현대차증권",
+   "analyst": "장문영",
+   "date": "2026-02-27",
+   "title": "[쉐이크쉑 (NYS:SHAK)] 트래픽 반등과 마진 개선의 동시 확인",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgkcccgiexxqkgcgxecgc.pdf",
+   "pages": "4"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "RBC says this fast casual stock down 50% from its highs is set to rise",
+   "url": "https://www.cnbc.com/2026/09/08/rbc-says-this-fast-casual-stock-down-50percent-from-its-highs-is-set-to-rise.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Calls of the Day: Shake Shack and Airbnb",
+   "url": "https://www.cnbc.com/video/2026/09/08/calls-of-the-day-shake-shack-and-airbnb.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "SHAK",
+  "fetchedAt": "2026-10-20",
+  "source": "한국투자증권 Open API",
+  "per": 75.76,
+  "pbr": 5.65,
+  "eps": 0.95,
+  "bps": 12.72,
+  "shares": 40408100,
+  "marketCapM": 2904,
+  "high52": 107.46,
+  "high52Date": "2026-02-26",
+  "low52": 51.6,
+  "low52Date": "2026-06-08",
+  "last": 71.87,
+  "prevClose": 69.99,
+  "nameKo": "쉐이크쉑",
+  "nameEn": "SHAKE SHACK INC",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 40408100
+ },
+ "estimates": {
+  "ticker": "SHAK",
+  "url": "https://finance.yahoo.com/quote/SHAK/analysis/",
+  "fetchedAt": "2026-10-20",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 0.34,
+    "epsLow": 0.26,
+    "epsHigh": 0.4,
+    "epsYearAgo": 0.36,
+    "epsAnalysts": 24,
+    "epsGrowth": -6.4,
+    "epsCur": "USD",
+    "rev": 426344010,
+    "revAnalysts": 24,
+    "revYearAgo": 367411000,
+    "revGrowth": 16,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 0.36,
+    "epsLow": 0.27,
+    "epsHigh": 0.49,
+    "epsYearAgo": 0.37,
+    "epsAnalysts": 24,
+    "epsGrowth": -1.7,
+    "epsCur": "USD",
+    "rev": 438397080,
+    "revAnalysts": 24,
+    "revYearAgo": 400531000,
+    "revGrowth": 9.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 1.12,
+    "epsLow": 1,
+    "epsHigh": 1.35,
+    "epsYearAgo": 1.32,
+    "epsAnalysts": 25,
+    "epsGrowth": -15,
+    "epsCur": "USD",
+    "rev": 1651291700,
+    "revAnalysts": 27,
+    "revYearAgo": 1445306000,
+    "revGrowth": 14.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 1.41,
+    "epsLow": 1.24,
+    "epsHigh": 1.71,
+    "epsYearAgo": 1.12,
+    "epsAnalysts": 26,
+    "epsGrowth": 25.7,
+    "epsCur": "USD",
+    "rev": 1892186740,
+    "revAnalysts": 27,
+    "revYearAgo": 1651291700,
+    "revGrowth": 14.6,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 0.34,
+    "d7": -0.5,
+    "d30": -0.3,
+    "d90": -14.2,
+    "ago90": 0.39,
+    "up7": 1,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 0.36,
+    "d7": -0.9,
+    "d30": -0.5,
+    "d90": -14.9,
+    "ago90": 0.43,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.12,
+    "d7": -0.3,
+    "d30": -0.3,
+    "d90": -0.5,
+    "ago90": 1.13,
+    "up7": 1,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 1.41,
+    "d7": -0.6,
+    "d30": 0.1,
+    "d90": -5.4,
+    "ago90": 1.49,
+    "up7": 1,
+    "up30": 2,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 0.43,
+    "estimate": 0.3,
+    "surprisePct": 41.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 0,
+    "estimate": 0.12,
+    "surprisePct": -100,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 0.37,
+    "estimate": 0.35,
+    "surprisePct": 6.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 0.36,
+    "estimate": 0.31,
+    "surprisePct": 17.2,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 3,
+   "ptLowered": 3,
+   "total": 7,
+   "recent": [
+    {
+     "date": "2026-10-15",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 79,
+     "ptPrior": 74
+    },
+    {
+     "date": "2026-09-29",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 75,
+     "ptPrior": 77
+    },
+    {
+     "date": "2026-09-08",
+     "firm": "RBC Capital",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 89,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-08-06",
+     "firm": "DA Davidson",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 85,
+     "ptPrior": 70
+    },
+    {
+     "date": "2026-08-06",
+     "firm": "BNP Paribas",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 81,
+     "ptPrior": 77
+    },
+    {
+     "date": "2026-08-03",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 68,
+     "ptPrior": 79
+    },
+    {
+     "date": "2026-07-31",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 80,
+     "ptPrior": 100
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-05",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-19",
+  "numbers": {
+   "price": 71.87,
+   "ma20": 63.59,
+   "ma50": 66.25,
+   "ma150": 70.52,
+   "distMA50": 8.49,
+   "periodHigh": 144.65,
+   "pullbackFromHigh": -50.31,
+   "volRatio20": 0.91,
+   "dryUpRatio": 0.89
+  },
+  "last10": [
+   {
+    "d": "2026-10-06",
+    "o": 62.66,
+    "h": 66.11,
+    "l": 62.64,
+    "c": 64.61,
+    "v": 1633400,
+    "clsPos": 57,
+    "gapPct": 0.42
+   },
+   {
+    "d": "2026-10-07",
+    "o": 64.33,
+    "h": 64.74,
+    "l": 63.56,
+    "c": 64.17,
+    "v": 856500,
+    "clsPos": 52,
+    "gapPct": -0.43
+   },
+   {
+    "d": "2026-10-08",
+    "o": 63.93,
+    "h": 68.08,
+    "l": 63.49,
+    "c": 67.31,
+    "v": 2012500,
+    "clsPos": 83,
+    "gapPct": -0.37
+   },
+   {
+    "d": "2026-10-09",
+    "o": 66.72,
+    "h": 67.64,
+    "l": 66.41,
+    "c": 66.9,
+    "v": 850500,
+    "clsPos": 40,
+    "gapPct": -0.88
+   },
+   {
+    "d": "2026-10-12",
+    "o": 66.8,
+    "h": 69.46,
+    "l": 66.7,
+    "c": 69.34,
+    "v": 1356900,
+    "clsPos": 96,
+    "gapPct": -0.15
+   },
+   {
+    "d": "2026-10-13",
+    "o": 69.52,
+    "h": 71.93,
+    "l": 69.52,
+    "c": 71.06,
+    "v": 1220400,
+    "clsPos": 64,
+    "gapPct": 0.26
+   },
+   {
+    "d": "2026-10-14",
+    "o": 70.75,
+    "h": 70.75,
+    "l": 67.24,
+    "c": 68.77,
+    "v": 1361900,
+    "clsPos": 44,
+    "gapPct": -0.44
+   },
+   {
+    "d": "2026-10-15",
+    "o": 69.1,
+    "h": 70.83,
+    "l": 68.89,
+    "c": 70.61,
+    "v": 1268300,
+    "clsPos": 88,
+    "gapPct": 0.48
+   },
+   {
+    "d": "2026-10-16",
+    "o": 71.09,
+    "h": 71.91,
+    "l": 69.39,
+    "c": 69.99,
+    "v": 1324900,
+    "clsPos": 24,
+    "gapPct": 0.68
+   },
+   {
+    "d": "2026-10-19",
+    "o": 70.33,
+    "h": 72.57,
+    "l": 69.53,
+    "c": 71.87,
+    "v": 1328900,
+    "clsPos": 77,
+    "gapPct": 0.49
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SHAK-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SHAK-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 0일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

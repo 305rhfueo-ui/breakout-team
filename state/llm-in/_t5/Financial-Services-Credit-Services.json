@@ -1,0 +1,778 @@
+{
+ "key": "Financial Services|Credit Services",
+ "sector": "Financial Services",
+ "industry": "Credit Services",
+ "industryKo": "여신·카드",
+ "frank": 10,
+ "frank25dChg": 11,
+ "finalWrs": 0.1996,
+ "count": 16,
+ "winRatePct": 75,
+ "members": [
+  {
+   "ticker": "SEZL",
+   "rs1": 0.09523807965231694,
+   "rs3": -0.19722026328105335,
+   "rs6": 0.5968225872827904,
+   "rnk1": 8.16,
+   "rnk3": 89.5,
+   "rnk6": 6.18,
+   "ret1d": -3.57,
+   "high52": 65.22,
+   "dollarVolM": 55,
+   "marketCap": "4.33B",
+   "name": "세즐"
+  },
+  {
+   "ticker": "V",
+   "rs1": 0.0931873686778404,
+   "rs3": 0.1472068585152956,
+   "rs6": 0.30532590641805757,
+   "rnk1": 8.79,
+   "rnk3": 17.18,
+   "rnk6": 14.2,
+   "ret1d": 0.72,
+   "high52": 99.47,
+   "dollarVolM": 2729.7,
+   "marketCap": "756.42B",
+   "name": "비자"
+  },
+  {
+   "ticker": "MA",
+   "rs1": 0.09397067592788655,
+   "rs3": 0.16607136270161105,
+   "rs6": 0.22305662444385752,
+   "rnk1": 8.7,
+   "rnk3": 14.74,
+   "rnk6": 20.78,
+   "ret1d": 0.18,
+   "high52": 99.19,
+   "dollarVolM": 2116.6,
+   "marketCap": "539.97B",
+   "name": "마스타카드"
+  },
+  {
+   "ticker": "ECPG",
+   "rs1": 0.021498888587157094,
+   "rs3": 0.18743435205607423,
+   "rs6": 0.2061684059815175,
+   "rnk1": 36.29,
+   "rnk3": 12.85,
+   "rnk6": 22.86,
+   "ret1d": -0.9,
+   "high52": 95.94,
+   "dollarVolM": 15.6,
+   "marketCap": "2.13B",
+   "name": "앙코어 캐피털 그룹"
+  },
+  {
+   "ticker": "AGM",
+   "rs1": -0.07680818789346942,
+   "rs3": -0.00019730716851797334,
+   "rs6": 0.18320594335500875,
+   "rnk1": 82.46,
+   "rnk3": 47.48,
+   "rnk6": 24.84,
+   "ret1d": -1.09,
+   "high52": 82.74,
+   "dollarVolM": 17.2,
+   "marketCap": "2.16B",
+   "name": "페더럴 애그리컬처럴 모기지"
+  },
+  {
+   "ticker": "BFH",
+   "rs1": -0.05500784380218715,
+   "rs3": -0.007689061421917194,
+   "rs6": 0.1710398924257025,
+   "rnk1": 75.79,
+   "rnk3": 49.82,
+   "rnk6": 26.1,
+   "ret1d": 1.23,
+   "high52": 89.74,
+   "dollarVolM": 60.4,
+   "marketCap": "3.94B",
+   "name": "브레드 파이낸셜 홀딩스"
+  },
+  {
+   "ticker": "ATLC",
+   "rs1": -0.01075037665113202,
+   "rs3": -0.03764909014964767,
+   "rs6": 0.15908801298044573,
+   "rnk1": 54.87,
+   "rnk3": 58.12,
+   "rnk6": 27.37,
+   "ret1d": -1.62,
+   "high52": 80.48,
+   "dollarVolM": 5.6,
+   "marketCap": "1.37B",
+   "name": "애틀랜티쿠스 홀딩스"
+  },
+  {
+   "ticker": "WRLD",
+   "rs1": -0.05764796329848207,
+   "rs3": -0.05213166747266576,
+   "rs6": 0.11752069459034735,
+   "rnk1": 76.51,
+   "rnk3": 63.71,
+   "rnk6": 33.59,
+   "ret1d": -0.42,
+   "high52": 75.39,
+   "dollarVolM": 4.5,
+   "marketCap": "0.78B",
+   "name": "월드 억셉턴스"
+  },
+  {
+   "ticker": "AGM.A",
+   "rs1": -0.06086669921875,
+   "rs3": -0.037988491152663485,
+   "rs6": 0.06648177398093676,
+   "rnk1": 77.77,
+   "rnk3": 58.21,
+   "rnk6": 42.25,
+   "ret1d": 0,
+   "high52": 80.87,
+   "dollarVolM": 0,
+   "marketCap": "1.53B",
+   "name": "페더럴 애그리컬처럴 모기지 A"
+  },
+  {
+   "ticker": "CACC",
+   "rs1": -0.06451780071628631,
+   "rs3": -0.08706148846180428,
+   "rs6": 0.04995728344507239,
+   "rnk1": 78.85,
+   "rnk3": 72.72,
+   "rnk6": 45.4,
+   "ret1d": -1.62,
+   "high52": 80.88,
+   "dollarVolM": 33.9,
+   "marketCap": "5.55B",
+   "name": "크레디트 억셉턴스"
+  },
+  {
+   "ticker": "COF",
+   "rs1": -0.0034085224896603854,
+   "rs3": 0.012464558430106448,
+   "rs6": 0.04745478360548641,
+   "rnk1": 50,
+   "rnk3": 44.32,
+   "rnk6": 45.85,
+   "ret1d": 1.45,
+   "high52": 78.61,
+   "dollarVolM": 957.8,
+   "marketCap": "122.59B",
+   "name": "캐피털 원 파이낸셜"
+  },
+  {
+   "ticker": "ENVA",
+   "rs1": 0.01814330441161701,
+   "rs3": -0.18324152021533807,
+   "rs6": 0.0247119420236353,
+   "rnk1": 38.73,
+   "rnk3": 88.23,
+   "rnk6": 51.26,
+   "ret1d": 0.21,
+   "high52": 66.51,
+   "dollarVolM": 45,
+   "marketCap": "4.39B",
+   "name": "이노바 인터내셔널"
+  },
+  {
+   "ticker": "FCFS",
+   "rs1": -0.017032790961980956,
+   "rs3": 0.09259757515825971,
+   "rs6": -0.005803744593235399,
+   "rnk1": 58.03,
+   "rnk3": 25.65,
+   "rnk6": 58.93,
+   "ret1d": -0.67,
+   "high52": 90.09,
+   "dollarVolM": 84.9,
+   "marketCap": "9.32B",
+   "name": null
+  },
+  {
+   "ticker": "AXP",
+   "rs1": 0.009628680060826988,
+   "rs3": -0.07710391255489389,
+   "rs6": -0.01072329998524131,
+   "rnk1": 42.52,
+   "rnk3": 70.47,
+   "rnk6": 59.92,
+   "ret1d": -0.09,
+   "high52": 81.84,
+   "dollarVolM": 1062.5,
+   "marketCap": "213.67B",
+   "name": null
+  },
+  {
+   "ticker": "SYF",
+   "rs1": -0.01013336181640625,
+   "rs3": 0.02277869180446175,
+   "rs6": -0.01818907729124378,
+   "rnk1": 54.24,
+   "rnk3": 41.16,
+   "rnk6": 61.63,
+   "ret1d": 0.76,
+   "high52": 84.68,
+   "dollarVolM": 349.3,
+   "marketCap": "24.16B",
+   "name": null
+  },
+  {
+   "ticker": "NNI",
+   "rs1": 0.010708324560871065,
+   "rs3": -0.029205570264332494,
+   "rs6": -0.09669047807835342,
+   "rnk1": 41.97,
+   "rnk3": 55.95,
+   "rnk6": 76.69,
+   "ret1d": -0.47,
+   "high52": 88.71,
+   "dollarVolM": 17.3,
+   "marketCap": "4.48B",
+   "name": null
+  }
+ ],
+ "evidence": {
+  "SEZL": {
+   "cnbc": [
+    {
+     "title": "Sezzle CEO Charlie Youakim on the state of the 'Buy Now, Pay Later' space",
+     "url": "https://www.cnbc.com/video/2026/06/26/sezzle-ceo-charlie-youakim-on-the-state-of-the-buy-now-pay-later-space.html",
+     "date": "2026-06-26",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": []
+  },
+  "V": {
+   "cnbc": [
+    {
+     "title": "CNBC's The China Connection newsletter: Navigating a tech-heavy world",
+     "url": "https://www.cnbc.com/2026/10/19/cnbcs-the-china-connection-newsletter-navigating-a-tech-heavy-world.html",
+     "date": "2026-10-19",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Visa gets Beijing's green light for bank card business after 40 years of working with China",
+     "url": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
+     "date": "2026-10-13",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Visa tells CNBC it is expanding data offering for blockchain lenders",
+     "url": "https://www.cnbc.com/2026/09/08/visa-blockchain-lender-stablecoin-cards.html",
+     "date": "2026-09-08",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Bolster your portfolio with these dividend-paying cash cows as midterms approach",
+     "url": "https://www.cnbc.com/2026/08/28/bolster-your-portfolio-with-these-dividend-paying-cash-cows-as-midterms-approach.html",
+     "date": "2026-08-28",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Why the charts are signaling that Mastercard could be poised for a long-term breakout",
+     "url": "https://www.cnbc.com/video/2026/10/13/why-the-charts-are-signaling-that-mastercard-could-be-poised-for-a-long-term-breakout.html",
+     "date": "2026-10-13",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Final Trades: Visa, Disney, Netflix and the IYJ",
+     "url": "https://www.cnbc.com/video/2026/10/08/final-trades-visa-disney-netflix-and-the-iyj.html",
+     "date": "2026-10-08",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[비자 (NYS:V)] [26Q4 Preview] FY27 첫 가이던스와 부가가치 서비스 성장률 관건, 투자의견 적극 매수 유지",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-10-19",
+     "summary": "- 10월 28일 발표의 무게는 FY27 첫 전망에 쏠려 있음- 열두 분기 넘게 이어진 상회 흐름이 이번에도 유지될지가 첫 관문- 월드컵이 밀어올린 부가서비스 성장률의 착지점이 진짜 변수",
+     "url": "https://rreport.einfomax.co.kr/report/eqmgilimmgmzixegcgxecgc.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[비자 (NYS:V)] [Issue & News] 중국 내 카드 결제 청산 사업 준비 승인 - 유니온페이가 독점한 시장에 진입하는 첫 공식 절차",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-10-13",
+     "summary": "- 중국 내 은행카드 클리어링 사업 준비 승인 획득- 실제 영업까지 추가 인허가·시스템 구축 남아- 단기 실적 영향 제한적, 중장기 신규 성장축 가능성",
+     "url": "https://rreport.einfomax.co.kr/report/eqmemgzckmxglxlgcgxecgc.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[벤처 글로벌 (NYS:VG)] LNG 스프레드 확대로 단기 이익 극대화",
+     "broker": "iM증권",
+     "analyst": "장호",
+     "date": "2026-10-12",
+     "summary": "- 동사는 미국 루이지애나를 중심으로 LNG 액화/수출 터미널을 운영하는 업체이다. 장기 SPA를 기반으로 안정적인 현금흐름을 확보하는 동시에, 미계약/커미셔닝 물량의 Spot 판매를 통해 LNG  가격 스프레드 확대의 업사이드를 함께 갖추고 있다- JKM/TTF-HH 스프레드 확대는 단기적인 이익 업사이드를 높이는 핵심 요인이다. 장기 물량의 수수료는 고정된 반면,  미계약/커미셔닝 물량은 글로벌 LNG 가격에 노출돼 있어 스프레드 확대 시 Implied Liquefaction Fee가 증가하기 때문이다- 동사의  Implied  Liquefaction  Fee는  1Q26  평균  MMBtu당  $3.82에서  2Q26 $6.45로 QoQ +69% 상승했다. 3월 전쟁 발발 이후 1)카타르/UAE의 설비 차질 및 2)유럽 재고 확충 수요가 지속되며 JKM/TTF 가격이 크게 급등한 반면,  미국 Henry Hub 가격은 비교적 안정세를 유지한 영향이다",
+     "url": "https://rreport.einfomax.co.kr/report/eqmeqzmkqgxzeiggcgxecgc.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[발레로 에너지 (NYS:VLO)] 정제마진 강세 속 Gulf Coast 최대 정유사로 고마진 향유",
+     "broker": "iM증권",
+     "analyst": "전유진",
+     "date": "2026-09-16",
+     "summary": "- 동사는 업스트림과 석유화학 등의 사업을 영위하지 않는 대표적인 순수 정유사로, 현재 미국에 250만b/d 정제설비를 운영하고 있다.- 동사 정제설비의 61%는 Gulf Coast에 밀집되어 있는데, 경쟁사들이 약 20~40% 그치는  것  대비  매우  높은  수준이다.  해당  지역은  주요  파이프라인과  터미널이 집적되어 있어 내수운송과 원유 수입, 정제품/석유화학 수출 등이 용이한 곳이다- 이 같은 지리적 이점은 동사 원유 조달 경쟁력의 근거가 된다. 중질유 캐나다산은 Keystone 파이프라인을 통해 Port Arthur까지 연결되고, 베네수엘라와 중남미산 또한  멕시코만을  거쳐  단기에  도입된다",
+     "url": "https://rreport.einfomax.co.kr/report/eqlmzezgggekgmcgcgxecgc.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[발레로 에너지 (NYS:VLO)] 정유업 = Printing Money",
+     "broker": "메리츠증권",
+     "analyst": "노우호",
+     "date": "2026-09-15",
+     "summary": "- 글로벌 정유설비 공급 여력이 제한적인 상황에 중동 및 러시아의 공급 차질이 더해지며 정제마진 강세를 견인- 미국 정유사 가동률이 98%임에도 디젤, 휘발유 재고 수준은 최근 10개년 최저 수준 감소하는 타이트한 공급 여건- 2Q26 주주환원 규모는 $2.6bn으로 조정 영업현금흐름의 59% 차지. 경영진은 변동성 완화 시 주주환원 확대 검토",
+     "url": "https://rreport.einfomax.co.kr/report/eqlmkglqgqeclzzgcgxecgc.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": [
+    {
+     "title": "Why Visa (V) is a Top Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-visa-v-top-stock-long-term-1",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Visa (V) Outperforms Broader Market: What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/visa-v-outperforms-broader-market-what-you-need-know",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "MA": {
+   "cnbc": [
+    {
+     "title": "U.S. raises Mastercard, Citigroup market access in talks with China, official says",
+     "url": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
+     "date": "2026-10-16",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Mastercard is up 8 days in a row. The charts indicate the run isn't over",
+     "url": "https://www.cnbc.com/2026/10/13/mastercard-is-up-8-days-in-a-row-the-charts-indicate-the-run-isnt-over.html",
+     "date": "2026-10-13",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "A Goldman portfolio of favorite stocks is up 29% this year. Here are the new members",
+     "url": "https://www.cnbc.com/2026/08/24/a-goldman-portfolio-of-favorite-stocks-is-up-29percent-this-year-here-are-the-new-members.html",
+     "date": "2026-08-24",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Circle names BlackRock and Visa as initial Arc partners",
+     "url": "https://www.cnbc.com/2026/08/05/circle-names-blackrock-and-visa-as-initial-arc-partners-signaling-early-institutional-backing.html",
+     "date": "2026-08-05",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Jim Cramer's top 10 things to watch in the stock market Friday",
+     "url": "https://www.cnbc.com/investingclub/2026/07/31/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday-.html",
+     "date": "2026-07-31",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Why the charts are signaling that Mastercard could be poised for a long-term breakout",
+     "url": "https://www.cnbc.com/video/2026/10/13/why-the-charts-are-signaling-that-mastercard-could-be-poised-for-a-long-term-breakout.html",
+     "date": "2026-10-13",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[마스타카드 (NYS:MA)] [26Q3 Preview] 크로스보더 지속 여부와 부가가치 서비스 성장률 관건, 투자의견 매수 유지",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-10-20",
+     "summary": "- 10월 29일, 시장은 '바닥 확인'이 '재가속'으로 넘어가는지를 본다- 크로스보더 12%가 이벤트 효과였는지가 첫 번째 시험대- 부가가치 서비스가 18%에서 어느 쪽으로 움직이는지가 밸류에이션을 가른다",
+     "url": "https://rreport.einfomax.co.kr/report/eqmgkxcqqcqeexqgcgxecgc.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[마스타카드 (NYS:MA)] [26Q2 Review] 자체 전망 상회, 매수 유지",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-07-30",
+     "summary": "- CN 12%로 자체 Q2 가이던스 10% 상회- FY26 전망 상향, 다만 통화중립 기준 불명- 콜 톤 6분기 만에 처음 more_bullish 전환",
+     "url": "https://rreport.einfomax.co.kr/report/eqlzkxclclxxkkkgcgxecgc.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": [
+    {
+     "title": "Will MasterCard (MA) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-mastercard-ma-beat-estimates-again-its-next-earnings-report",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why MasterCard (MA) Outpaced the Stock Market Today",
+     "url": "https://www.nasdaq.com/articles/why-mastercard-ma-outpaced-stock-market-today-0",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is It Worth Investing in MasterCard (MA) Based on Wall Street's Bullish Views?",
+     "url": "https://www.nasdaq.com/articles/it-worth-investing-mastercard-ma-based-wall-streets-bullish-views",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "ECPG": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Is ECPG a Buy Now as Cheap Valuation Meets Rising Earnings Momentum?",
+     "url": "https://www.nasdaq.com/articles/ecpg-buy-now-cheap-valuation-meets-rising-earnings-momentum",
+     "date": "2026-08-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ECPG Rises 16.3% in 3 Months Amid Record Collections and Higher EPS",
+     "url": "https://www.nasdaq.com/articles/ecpg-rises-163-3-months-amid-record-collections-and-higher-eps",
+     "date": "2026-08-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "All You Need to Know About Encore Capital Group (ECPG) Rating Upgrade to Strong Buy",
+     "url": "https://www.nasdaq.com/articles/all-you-need-know-about-encore-capital-group-ecpg-rating-upgrade-strong-buy",
+     "date": "2026-08-10",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Investors Undervaluing Encore Capital Group (ECPG) Right Now?",
+     "url": "https://www.nasdaq.com/articles/are-investors-undervaluing-encore-capital-group-ecpg-right-now",
+     "date": "2026-08-07",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "AGM": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "AGM or UWMC: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/agm-or-uwmc-which-better-value-stock-right-now",
+     "date": "2026-09-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "All You Need to Know About Farmer Mac (AGM) Rating Upgrade to Strong Buy",
+     "url": "https://www.nasdaq.com/articles/all-you-need-know-about-farmer-mac-agm-rating-upgrade-strong-buy",
+     "date": "2026-08-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Federal Agricultural Mortgage (AGM) Q2 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/federal-agricultural-mortgage-agm-q2-earnings-and-revenues-surpass-estimates",
+     "date": "2026-07-30",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "BFH": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Bread Financial Holdings (BFH) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",
+     "url": "https://www.nasdaq.com/articles/bread-financial-holdings-bfh-expected-beat-earnings-estimates-can-stock-move-higher",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Will Bread Financial (BFH) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-bread-financial-bfh-beat-estimates-again-its-next-earnings-report",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "BFH or FUTU: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/bfh-or-futu-which-better-value-stock-right-now",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "ATLC": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Should Value Investors Buy Atlanticus (ATLC) Stock?",
+     "url": "https://www.nasdaq.com/articles/should-value-investors-buy-atlanticus-atlc-stock",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Are Investors Undervaluing Atlanticus (ATLC) Right Now?",
+     "url": "https://www.nasdaq.com/articles/are-investors-undervaluing-atlanticus-atlc-right-now",
+     "date": "2026-09-21",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Atlanticus (ATLC) Stock Undervalued Right Now?",
+     "url": "https://www.nasdaq.com/articles/atlanticus-atlc-stock-undervalued-right-now-0",
+     "date": "2026-09-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Atlanticus (ATLC) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/atlanticus-atlc-q2-2026-earnings-call-transcript",
+     "date": "2026-08-14",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "WRLD": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "World Acceptance (WRLD) Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/world-acceptance-wrld-earnings-call-transcript",
+     "date": "2026-01-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "World Acceptance (WRLD) Reports Q3 Loss, Beats Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/world-acceptance-wrld-reports-q3-loss-beats-revenue-estimates",
+     "date": "2026-01-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "World Acceptance (WRLD) Reports Q2 Loss, Beats Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/world-acceptance-wrld-reports-q2-loss-beats-revenue-estimates",
+     "date": "2025-10-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "World Acceptance (WRLD) Q1 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/world-acceptance-wrld-q1-2026-earnings-call-transcript",
+     "date": "2025-07-24",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "AGM.A": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Federal Agricultural Mortgage  - (AGM.A) Declares $1.10 Dividend",
+     "url": "https://www.nasdaq.com/articles/federal-agricultural-mortgage-agm.a-declares-$1.10-dividend-0",
+     "date": "2023-05-05",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Federal Agricultural Mortgage (AGM.A) Declares $1.10 Dividend",
+     "url": "https://www.nasdaq.com/articles/federal-agricultural-mortgage-agm.a-declares-$1.10-dividend",
+     "date": "2023-03-01",
+     "publisher": "Fintel"
+    }
+   ]
+  },
+  "CACC": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "What's Next for CACC After Its Multistate Lending Settlement?",
+     "url": "https://www.nasdaq.com/articles/whats-next-cacc-after-its-multistate-lending-settlement",
+     "date": "2026-09-18",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Credit Acceptance (CACC) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/credit-acceptance-cacc-q2-2026-earnings-call-transcript",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "All You Need to Know About Credit Acceptance (CACC) Rating Upgrade to Buy",
+     "url": "https://www.nasdaq.com/articles/all-you-need-know-about-credit-acceptance-cacc-rating-upgrade-buy",
+     "date": "2026-08-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CACC Q2 Earnings Beat as Expenses & Provisions Decline, Revenues Rise",
+     "url": "https://www.nasdaq.com/articles/cacc-q2-earnings-beat-expenses-provisions-decline-revenues-rise",
+     "date": "2026-08-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "COF": {
+   "cnbc": [
+    {
+     "title": "Capital One, General Motors are among the stocks reporting this week with momentum",
+     "url": "https://www.cnbc.com/2026/10/19/gm-abbott-earnings-momentum.html",
+     "date": "2026-10-19",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Trump debanking push gets backing from Treasury report on major banks",
+     "url": "https://www.cnbc.com/2026/10/14/treasury-banks-debanking-trump-reputation-risk.html",
+     "date": "2026-10-14",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Unicorn Frappuccinos to VIP meet-and-greets: How 3 brands turn buzz into business",
+     "url": "https://www.cnbc.com/investingclub/2026/10/02/unicorn-frappuccinos-to-vip-meet-and-greets-how-3-brands-turn-buzz-into-business.html",
+     "date": "2026-10-02",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "AI is redefining Wall Street jobs — and boosting demand for one skill by 1,721%",
+     "url": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html",
+     "date": "2026-10-02",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Fed may not be done hiking rates. What it means for our 4 very different banks",
+     "url": "https://www.cnbc.com/investingclub/2026/09/25/fed-may-not-be-done-hiking-rates-what-it-means-for-our-4-bank-stocks.html",
+     "date": "2026-09-25",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "A rapid-fire update on our 33-stock portfolio, including 6 stocks to buy now",
+     "url": "https://www.cnbc.com/investingclub/2026/09/10/a-rapid-fire-update-on-our-33-stock-portfolio-including-6-to-buy-now.html",
+     "date": "2026-09-10",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Countdown to Capital One (COF) Q3 Earnings: Wall Street Forecasts for Key Metrics",
+     "url": "https://www.nasdaq.com/articles/countdown-capital-one-cof-q3-earnings-wall-street-forecasts-key-metrics",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Will Weak Consumer Loan Demand & High Provisions Hurt COF Q3 Earnings?",
+     "url": "https://www.nasdaq.com/articles/will-weak-consumer-loan-demand-high-provisions-hurt-cof-q3-earnings",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Capital One (COF) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",
+     "url": "https://www.nasdaq.com/articles/capital-one-cof-expected-beat-earnings-estimates-can-stock-move-higher",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "ENVA": {
+   "cnbc": [
+    {
+     "title": "Stocks making the biggest moves midday: Skyworks, Axon, Dave & Buster's, Revvity",
+     "url": "https://www.cnbc.com/2026/09/15/stocks-making-the-biggest-moves-midday-swks-axon-play-rvty.html",
+     "date": "2026-09-15",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "There's a big rotation happening in the market. Two stocks to watch with attractive charts",
+     "url": "https://www.cnbc.com/2026/07/29/theres-a-big-rotation-happening-in-the-market-two-stocks-to-watch-with-attractive-charts.html",
+     "date": "2026-07-29",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Enova International Breaks Above 200-Day Moving Average - Bullish for ENVA",
+     "url": "https://www.nasdaq.com/articles/enova-international-breaks-above-200-day-moving-average-bullish-enva",
+     "date": "2026-10-06",
+     "publisher": "BNK Invest"
+    }
+   ]
+  }
+ },
+ "industryReports": [
+  {
+   "title": "[마스타카드 (NYS:MA)] [26Q3 Preview] 크로스보더 지속 여부와 부가가치 서비스 성장률 관건, 투자의견 매수 유지",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-10-20",
+   "summary": "- 10월 29일, 시장은 '바닥 확인'이 '재가속'으로 넘어가는지를 본다- 크로스보더 12%가 이벤트 효과였는지가 첫 번째 시험대- 부가가치 서비스가 18%에서 어느 쪽으로 움직이는지가 밸류에이션을 가른다",
+   "url": "https://rreport.einfomax.co.kr/report/eqmgkxcqqcqeexqgcgxecgc.pdf",
+   "via": "연합인포맥스",
+   "keyword": "카드"
+  },
+  {
+   "title": "[비자 (NYS:V)] [Issue & News] 중국 내 카드 결제 청산 사업 준비 승인 - 유니온페이가 독점한 시장에 진입하는 첫 공식 절차",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-10-13",
+   "summary": "- 중국 내 은행카드 클리어링 사업 준비 승인 획득- 실제 영업까지 추가 인허가·시스템 구축 남아- 단기 실적 영향 제한적, 중장기 신규 성장축 가능성",
+   "url": "https://rreport.einfomax.co.kr/report/eqmemgzckmxglxlgcgxecgc.pdf",
+   "via": "연합인포맥스",
+   "keyword": "카드"
+  },
+  {
+   "title": "[애브비 (NYS:ABBV)] [Issue & News] 피하주사 크론병 치료제 4분기 승인 기대 - IBD 프랜차이즈 성장 둔화 방어 카드",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-09-09",
+   "summary": "- 애브비, 4분기 피하주사 크론병 치료제 FDA 승인 기대 발언- Skyrizi 성장률 둔화(65%→29%) 속 경쟁 심화 국면- 승인시 투약 편의성 강화, 주가 영향은 제한적",
+   "url": "https://rreport.einfomax.co.kr/report/eqlmccizilzqxlxgcgxecgc.pdf",
+   "via": "연합인포맥스",
+   "keyword": "카드"
+  },
+  {
+   "title": "[마스타카드 (NYS:MA)] [26Q2 Review] 자체 전망 상회, 매수 유지",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-07-30",
+   "summary": "- CN 12%로 자체 Q2 가이던스 10% 상회- FY26 전망 상향, 다만 통화중립 기준 불명- 콜 톤 6분기 만에 처음 more_bullish 전환",
+   "url": "https://rreport.einfomax.co.kr/report/eqlzkxclclxxkkkgcgxecgc.pdf",
+   "via": "연합인포맥스",
+   "keyword": "카드"
+  },
+  {
+   "title": "[서클 인터넷 그룹 (NYS:CRCL)] [Issue & News] 싱가포르 타자페이 인수 계약 - 이자수익 의존 축소, 결제 인프라 확장 본격화",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-09-08",
+   "summary": "- 서클, 싱가포르 타자페이 인수 계약 체결(조건 비공개)- 크로스보더 결제 인프라 확보로 이자수익 의존도 낮추기- 9월16일 Arc 메인넷 앞두고 결제망 확장 가속",
+   "url": "https://rreport.einfomax.co.kr/report/eqllmegzkxzmxqqgcgxecgc.pdf",
+   "via": "연합인포맥스",
+   "keyword": "결제"
+  }
+ ],
+ "note": "members 는 이 업종 전 종목(6개월 RS 상위 순, rnk = 전체 종목 중 상위 몇 %). evidence 는 그중 상위 12종목의 기사·리포트. 리포트 url 은 연합인포맥스 PDF."
+}

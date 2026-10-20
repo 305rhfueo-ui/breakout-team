@@ -1,0 +1,293 @@
+{
+ "ticker": "DKS",
+ "sector": "Consumer Cyclical",
+ "industry": "Specialty Retail",
+ "nameKo": "딕스 스포팅 굿즈",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 28.19,
+  "saleNy": 2.52,
+  "epsCy": -13.59,
+  "epsNy": 14.44,
+  "est": {
+   "cyCur": 11.40614,
+   "cy30": 11.41119,
+   "nyCur": 13.05288,
+   "ny30": 13.36288
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    53.21,
+    62.68,
+    59.9
+   ],
+   "ni": [
+    -17.29,
+    21.01,
+    -57.22
+   ],
+   "opm": [
+    7.89,
+    8.73,
+    2.96
+   ],
+   "updated": "2026-09-08 06:27:13"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-10-16",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 2,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-20",
+  "nameKo": "딕스 스포팅 굿즈",
+  "nameEn": "DICKS SPORTING GOODS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001089063&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-08-01",
+     "derived": false,
+     "revenue": 5586815000,
+     "profit": 440756000,
+     "netIncome": 315461000,
+     "margin": 7.9,
+     "yoy": {
+      "revenue": 53.2,
+      "profit": -2.5,
+      "netIncome": -17.3,
+      "priorEnd": "2025-08-02"
+     }
+    },
+    {
+     "periodEnd": "2026-05-02",
+     "derived": false,
+     "revenue": 5164504000,
+     "profit": 450650000,
+     "netIncome": 319822000,
+     "margin": 8.7,
+     "yoy": {
+      "revenue": 62.7,
+      "profit": 23.1,
+      "netIncome": 21,
+      "priorEnd": "2025-05-03"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 6226054000,
+     "profit": 184510000,
+     "netIncome": 128098000,
+     "margin": 3,
+     "yoy": {
+      "revenue": 59.9,
+      "profit": -52.3,
+      "netIncome": -57.3,
+      "priorEnd": "2025-02-01"
+     }
+    },
+    {
+     "periodEnd": "2025-11-01",
+     "derived": false,
+     "revenue": 4167773000,
+     "profit": 93097000,
+     "netIncome": 75212000,
+     "margin": 2.2,
+     "yoy": {
+      "revenue": 36.3,
+      "profit": -67.5,
+      "netIncome": -67,
+      "priorEnd": "2024-11-02"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Dick's Sporting Goods (DKS) Outpaces Stock Market Gains: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/dicks-sporting-goods-dks-outpaces-stock-market-gains-what-you-should-know-1",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Dick's Sporting Goods (DKS) Beats Stock Market Upswing: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/dicks-sporting-goods-dks-beats-stock-market-upswing-what-investors-need-know",
+     "date": "2026-10-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Dick's Sporting Goods (DKS) Suffers a Larger Drop Than the General Market: Key Insights",
+     "url": "https://www.nasdaq.com/articles/dicks-sporting-goods-dks-suffers-larger-drop-general-market-key-insights-0",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Bear of the Day: Dick's Sporting Goods (DKS)",
+     "url": "https://www.nasdaq.com/articles/bear-day-dicks-sporting-goods-dks-0",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Dick's Sporting Goods (DKS) Stock Drops Despite Market Gains: Important Facts to Note",
+     "url": "https://www.nasdaq.com/articles/dicks-sporting-goods-dks-stock-drops-despite-market-gains-important-facts-note",
+     "date": "2026-10-01",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Monday 9/28 Insider Buying Report: DKS, DLY",
+     "url": "https://www.nasdaq.com/articles/monday-9-28-insider-buying-report-dks-dly",
+     "date": "2026-09-28",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-25",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1089063/000114036126037715/ef20082695_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-21",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1089063/000114036126037192/ef20082169_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-25",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1089063/000108906326000033/dks-20260824.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-12",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1089063/000108906326000031/dks-20260610.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-27",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1089063/000108906326000021/dks-20260526.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-12",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1089063/000108906326000005/dks-20260311.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Monday's biggest analyst calls: Nvidia, SpaceX, Apple, GM, Affirm, Caterpillar",
+   "url": "https://www.cnbc.com/2026/09/14/monday-wall-street-analyst-calls-like-nvidia.html",
+   "date": "2026-09-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
+   "url": "https://www.cnbc.com/investingclub/2026/08/26/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+   "date": "2026-08-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Dick’s just had its worst day ever. Here's Cramer's advice on the stock now",
+   "url": "https://www.cnbc.com/2026/08/25/dicks-sporting-goods-worst-day-ever-jim-cramer-advice.html",
+   "date": "2026-08-25",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves midday: Dick's Sporting Goods, Marvell, AMD & more",
+   "url": "https://www.cnbc.com/2026/08/25/stocks-making-the-biggest-moves-midday-dks-mrvl-amd-kura.html",
+   "date": "2026-08-25",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer says this could be the key to sending Apple shares higher",
+   "url": "https://www.cnbc.com/investingclub/2026/08/25/jim-cramer-says-this-could-be-the-key-to-sending-apple-shares-higher.html",
+   "date": "2026-08-25",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "I don't want to give up on Dick's here, I'm a believer, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/08/25/i-dont-want-to-give-up-on-dicks-here-im-a-believer-says-jim-cramer.html",
+   "date": "2026-08-25",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "DKS",
+  "fetchedAt": "2026-10-20",
+  "source": "한국투자증권 Open API",
+  "per": 15.44,
+  "pbr": 2.24,
+  "eps": 9.31,
+  "bps": 64.24,
+  "shares": 65355900,
+  "marketCapM": 9396,
+  "high52": 242.0855,
+  "high52Date": "2026-06-22",
+  "low52": 119.2706,
+  "low52Date": "2026-08-26",
+  "last": 143.77,
+  "prevClose": 144.35,
+  "nameKo": "딕스 스포팅 굿즈",
+  "nameEn": "DICKS SPORTING GOODS INC",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 65355900
+ }
+}

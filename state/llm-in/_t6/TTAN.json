@@ -1,0 +1,780 @@
+{
+ "ticker": "TTAN",
+ "date": "2026-10-20",
+ "session": "2026-10-19",
+ "source": "list",
+ "plan": {
+  "ticker": "TTAN",
+  "name": "서비스타이탄",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "price": 78.26000213623047,
+  "grade": "B",
+  "state": "pre",
+  "pivot": 102.95,
+  "stop": 98.53,
+  "distToPivotPct": -23.98,
+  "distToPivotAdr": -4.25,
+  "riskPerSharePct": 4.29,
+  "adrPct": 5.65,
+  "extensionAdr": 1.14,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 37,
+   "baseWeeks": 7.4,
+   "depthPct": 48.5,
+   "priorMovePct": 70.1,
+   "higherLows": 2,
+   "contraction": 0.92,
+   "closeRange10Adr": 2.2,
+   "surf10": 1.14,
+   "surf20": 2.22,
+   "slope20": 7.1,
+   "baseLow": 53,
+   "lastSwingLow": 70.11
+  },
+  "reasons": [
+   "선행 상승 +70%",
+   "베이스 7.4주",
+   "✗ 깊이 48.5%",
+   "저점 상승 2회",
+   "진폭 0.92배 · 10일 종가폭 2.2 ADR",
+   "10일선 +1.1 ADR · 20일선 +2.2 ADR",
+   "20일선 기울기 +7.1%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.38439773264052907,
+    "pct": 99.59422903516682
+   },
+   "m3": {
+    "v": 0.11038590250764374,
+    "pct": 77.41208295761948
+   },
+   "m6": {
+    "v": 0.28971657453263355,
+    "pct": 85.07664562669072
+   }
+  },
+  "ret1m": 38.44,
+  "ret3m": 11.04,
+  "ret6m": 28.97,
+  "marketCap": "7.23B",
+  "volx": 0.75,
+  "volSurgeWk": 0.85,
+  "high52": 70.28,
+  "newHigh52": false,
+  "adr": 5.65,
+  "div50": 2.41,
+  "div200": 6.88,
+  "targetStatus": false,
+  "saleCy": 18.87,
+  "saleNy": 14.5,
+  "epsCy": 33.05,
+  "epsNy": 21.13,
+  "cyTrend": 0,
+  "nyTrend": -0.64,
+  "est": {
+   "cyCur": 1.35713,
+   "cy30": 1.35713,
+   "nyCur": 1.64388,
+   "ny30": 1.65446
+  },
+  "fs": {
+   "sale": [
+    24.63,
+    21.36,
+    25.03
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    -9.58,
+    -16.8,
+    -16.95
+   ],
+   "updated": "2026-09-07 07:31:15"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-10-15",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 3,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-20",
+  "nameKo": "서비스타이탄",
+  "nameEn": "SERVICETITAN INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001638826&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": false,
+     "revenue": 292756000,
+     "profit": -27552000,
+     "netIncome": -24921000,
+     "margin": -9.4,
+     "yoy": {
+      "revenue": 20.9,
+      "profit": 20.8,
+      "netIncome": 22.7,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 268824000,
+     "profit": -25762000,
+     "netIncome": -22818000,
+     "margin": -9.6,
+     "yoy": {
+      "revenue": 24.6,
+      "profit": 48,
+      "netIncome": 50.8,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 253987000,
+     "profit": -42671000,
+     "netIncome": -41784000,
+     "margin": -16.8,
+     "yoy": {
+      "revenue": 21.4,
+      "profit": 57.3,
+      "netIncome": 58.6,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 249163000,
+     "profit": -42226000,
+     "netIncome": -39527000,
+     "margin": -16.9,
+     "yoy": {
+      "revenue": 25,
+      "profit": 4.1,
+      "netIncome": 14.9,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "ServiceTitan Unveils Max AI Platform to Build Self-Running Contractor Businesses",
+     "url": "https://www.nasdaq.com/articles/servicetitan-unveils-max-ai-platform-build-self-running-contractor-businesses",
+     "date": "2026-10-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "ServiceTitan CFO David Sherry Sells 23,245 Shares for $1.3 Million",
+     "url": "https://www.nasdaq.com/articles/servicetitan-cfo-david-sherry-sells-23245-shares-13-million",
+     "date": "2026-10-02",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "ServiceTitan CEO Unloads Over 3,000 Shares Worth $180,000 as the Stock Dropped to a One-Year Low",
+     "url": "https://www.nasdaq.com/articles/servicetitan-ceo-unloads-over-3000-shares-worth-180000-stock-dropped-one-year-low",
+     "date": "2026-09-24",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "ServiceTitan (TTAN) Q2 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/servicetitan-ttan-q2-2027-earnings-call-transcript",
+     "date": "2026-09-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Why ServiceTitan Stock Is Crashing Today",
+     "url": "https://www.nasdaq.com/articles/why-servicetitan-stock-crashing-today",
+     "date": "2026-09-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "ServiceTitan Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/servicetitan-q2-earnings-call-highlights",
+     "date": "2026-09-08",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Compared to Estimates, ServiceTitan Inc. (TTAN) Q2 Earnings: A Look at Key Metrics",
+     "url": "https://www.nasdaq.com/articles/compared-estimates-servicetitan-inc-ttan-q2-earnings-look-key-metrics",
+     "date": "2026-09-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ServiceTitan Inc. (TTAN) Q2 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/servicetitan-inc-ttan-q2-earnings-and-revenues-surpass-estimates",
+     "date": "2026-09-08",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-08",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000093/ttan-20260908.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000067/ttan-20260617.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000044/ttan-20260604.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1638826/000163882626000009/ttan-20260312.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-03",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1638826/000119312526035548/ttan-20260130.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-12-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1638826/000119312525308075/ttan-20251204.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Why Cramer still recommends being 'a little more reserved' about data center stocks",
+   "url": "https://www.cnbc.com/investingclub/2026/09/09/why-cramer-still-recommends-being-a-little-more-reserved-about-data-center-stocks.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves midday: Meta, Centerspace, Apple, Casey's General Stores",
+   "url": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-midday-meta-csr-aapl-casy-sig.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves premarket: Apple, Casey's General Store, Signet Jewelers",
+   "url": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-premarket-aapl-casy-sig.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves after hours: ServiceTitan, Mission Produce",
+   "url": "https://www.cnbc.com/2026/09/08/stocks-making-the-biggest-moves-after-hours-ttan-avo-chym.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Final Trades: SK Hynix, Airbnb, Meta and ServiceTitan",
+   "url": "https://www.cnbc.com/video/2026/10/07/final-trades-sk-hynix-airbnb-meta-servicetitan.html",
+   "date": "2026-10-07",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Calls of the Day: Spotify, ServiceTitan and Coinbase",
+   "url": "https://www.cnbc.com/video/2026/10/07/calls-of-the-day-spotify-servicetitan-coinbase.html",
+   "date": "2026-10-07",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Trade Tracker: Josh Brown sells Marriott and Citizens Financial",
+   "url": "https://www.cnbc.com/video/2026/09/10/trade-tracker-josh-brown-sells-marriott-and-citizens-financial.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "TTAN",
+  "fetchedAt": "2026-10-20",
+  "source": "한국투자증권 Open API",
+  "per": 57.23,
+  "pbr": 4.7,
+  "eps": 1.37,
+  "bps": 16.65,
+  "shares": 84082060,
+  "marketCapM": 6580,
+  "high52": 111.36,
+  "high52Date": "2025-12-23",
+  "low52": 53,
+  "low52Date": "2026-09-18",
+  "last": 78.26,
+  "prevClose": 74.98,
+  "nameKo": "서비스타이탄",
+  "nameEn": "SERVICETITAN INC",
+  "listedOn": "2024-12-12",
+  "exchange": "나스닥",
+  "listedShares": 84082060
+ },
+ "estimates": {
+  "ticker": "TTAN",
+  "url": "https://finance.yahoo.com/quote/TTAN/analysis/",
+  "fetchedAt": "2026-10-20",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "eps": 0.26,
+    "epsLow": 0.22,
+    "epsHigh": 0.28,
+    "epsYearAgo": 0.24,
+    "epsAnalysts": 17,
+    "epsGrowth": 8.9,
+    "epsCur": "USD",
+    "rev": 286520400,
+    "revAnalysts": 16,
+    "revYearAgo": 249163000,
+    "revGrowth": 15,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "eps": 0.33,
+    "epsLow": 0.3,
+    "epsHigh": 0.36,
+    "epsYearAgo": 0.27,
+    "epsAnalysts": 17,
+    "epsGrowth": 23.5,
+    "epsCur": "USD",
+    "rev": 294312120,
+    "revAnalysts": 16,
+    "revYearAgo": 253987000,
+    "revGrowth": 15.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "eps": 1.36,
+    "epsLow": 1.27,
+    "epsHigh": 1.41,
+    "epsYearAgo": 1.02,
+    "epsAnalysts": 17,
+    "epsGrowth": 33.1,
+    "epsCur": "USD",
+    "rev": 1142262810,
+    "revAnalysts": 17,
+    "revYearAgo": 960965000,
+    "revGrowth": 18.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "eps": 1.64,
+    "epsLow": 1.44,
+    "epsHigh": 1.79,
+    "epsYearAgo": 1.36,
+    "epsAnalysts": 17,
+    "epsGrowth": 21.1,
+    "epsCur": "USD",
+    "rev": 1307903540,
+    "revAnalysts": 17,
+    "revYearAgo": 1142262810,
+    "revGrowth": 14.5,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "cur": "USD",
+    "now": 0.26,
+    "d7": 0,
+    "d30": 0,
+    "d90": 1.5,
+    "ago90": 0.26,
+    "up7": 9,
+    "up30": 9,
+    "down7": 3,
+    "down30": 3
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 0.33,
+    "d7": 0,
+    "d30": 0,
+    "d90": -0.3,
+    "ago90": 0.33,
+    "up7": 8,
+    "up30": 8,
+    "down7": 6,
+    "down30": 6
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 1.36,
+    "d7": 0,
+    "d30": 0,
+    "d90": 3.7,
+    "ago90": 1.31,
+    "up7": 13,
+    "up30": 13,
+    "down7": 3,
+    "down30": 3
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "cur": "USD",
+    "now": 1.64,
+    "d7": -0.6,
+    "d30": -0.6,
+    "d90": 0.5,
+    "ago90": 1.64,
+    "up7": 11,
+    "up30": 11,
+    "down7": 6,
+    "down30": 6
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-07-31",
+    "actual": 0.4,
+    "estimate": 0.35,
+    "surprisePct": 14.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-04-30",
+    "actual": 0.37,
+    "estimate": 0.28,
+    "surprisePct": 34.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-01-31",
+    "actual": 0.27,
+    "estimate": 0.18,
+    "surprisePct": 52.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-10-31",
+    "actual": 0.24,
+    "estimate": 0.15,
+    "surprisePct": 56,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 1,
+   "ptLowered": 10,
+   "total": 16,
+   "recent": [
+    {
+     "date": "2026-10-07",
+     "firm": "TD Cowen",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 100,
+     "ptPrior": 100
+    },
+    {
+     "date": "2026-10-02",
+     "firm": "BTIG",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 110,
+     "ptPrior": 110
+    },
+    {
+     "date": "2026-09-25",
+     "firm": "TD Cowen",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 100,
+     "ptPrior": 100
+    },
+    {
+     "date": "2026-09-09",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 76,
+     "ptPrior": 83
+    },
+    {
+     "date": "2026-09-09",
+     "firm": "Canaccord Genuity",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 90,
+     "ptPrior": 105
+    },
+    {
+     "date": "2026-09-09",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 92,
+     "ptPrior": 124
+    },
+    {
+     "date": "2026-09-09",
+     "firm": "Truist Securities",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 100,
+     "ptPrior": 110
+    },
+    {
+     "date": "2026-09-09",
+     "firm": "Stifel",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 100,
+     "ptPrior": 125
+    },
+    {
+     "date": "2026-09-09",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 105,
+     "ptPrior": 115
+    },
+    {
+     "date": "2026-09-09",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 100,
+     "ptPrior": 125
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-12-03",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-19",
+  "numbers": {
+   "price": 78.26,
+   "ma20": 68.45,
+   "ma50": 76.42,
+   "ma150": 71.03,
+   "distMA50": 2.41,
+   "periodHigh": 131.33,
+   "pullbackFromHigh": -40.41,
+   "volRatio20": 0.65,
+   "dryUpRatio": 0.79
+  },
+  "last10": [
+   {
+    "d": "2026-10-06",
+    "o": 72,
+    "h": 72.31,
+    "l": 68.51,
+    "c": 68.67,
+    "v": 1572800,
+    "clsPos": 4,
+    "gapPct": -0.22
+   },
+   {
+    "d": "2026-10-07",
+    "o": 69.05,
+    "h": 73.11,
+    "l": 68.88,
+    "c": 71.74,
+    "v": 2215100,
+    "clsPos": 68,
+    "gapPct": 0.55
+   },
+   {
+    "d": "2026-10-08",
+    "o": 71.84,
+    "h": 74.42,
+    "l": 71.77,
+    "c": 72.93,
+    "v": 3403400,
+    "clsPos": 44,
+    "gapPct": 0.14
+   },
+   {
+    "d": "2026-10-09",
+    "o": 73.68,
+    "h": 75.24,
+    "l": 71.88,
+    "c": 72.59,
+    "v": 1669700,
+    "clsPos": 21,
+    "gapPct": 1.03
+   },
+   {
+    "d": "2026-10-12",
+    "o": 73.19,
+    "h": 74,
+    "l": 71.55,
+    "c": 72.28,
+    "v": 1077700,
+    "clsPos": 30,
+    "gapPct": 0.83
+   },
+   {
+    "d": "2026-10-13",
+    "o": 72.36,
+    "h": 74.53,
+    "l": 71.52,
+    "c": 71.76,
+    "v": 1377400,
+    "clsPos": 8,
+    "gapPct": 0.11
+   },
+   {
+    "d": "2026-10-14",
+    "o": 70.34,
+    "h": 72.92,
+    "l": 70.11,
+    "c": 72.69,
+    "v": 1386200,
+    "clsPos": 92,
+    "gapPct": -1.98
+   },
+   {
+    "d": "2026-10-15",
+    "o": 72,
+    "h": 76.68,
+    "l": 71.3,
+    "c": 76.11,
+    "v": 1903500,
+    "clsPos": 89,
+    "gapPct": -0.95
+   },
+   {
+    "d": "2026-10-16",
+    "o": 76.37,
+    "h": 76.9,
+    "l": 74.4,
+    "c": 74.98,
+    "v": 2098600,
+    "clsPos": 23,
+    "gapPct": 0.34
+   },
+   {
+    "d": "2026-10-19",
+    "o": 74.48,
+    "h": 78.57,
+    "l": 73.64,
+    "c": 78.26,
+    "v": 1325900,
+    "clsPos": 94,
+    "gapPct": -0.67
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/TTAN-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/TTAN-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 0일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

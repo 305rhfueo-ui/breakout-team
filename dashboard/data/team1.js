@@ -520,8 +520,312 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-20",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "가장 위험한 정크본드가 경고 신호를 보냈다",
+        "easy": "신용등급이 가장 낮은 고금리 채권(정크본드)에서 경고 신호가 나왔다. 전에 없던 영역에 들어섰다는 평가다. 왜 그런 신호가 나왔는지 구체적 이유는 기사에 안 나왔다. 돈을 빌려주는 쪽이 위험한 회사를 피하기 시작하면, 빚으로 버티는 기업이 먼저 흔들린다.",
+        "whyMatters": "빚 의존도가 높은 중소형 성장주와 은행·소비자금융 업종에 나쁜 신호다. 반대로 현금이 많은 대형 기술주와 필수소비재는 상대적으로 덜 흔들린다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/credit-markets-have-entered-uncharted-territory-as-the-riskiest-junk-bonds-send-a-warning-to-investors-816a05d5?mod=mw_rss_topstories",
+            "date": "2026-10-19",
+            "quote": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "많이 빠진 기술주가 하루 반등했다",
+        "easy": "그동안 크게 밀렸던 기술주들이 하루 되돌림 반등을 보였다. 많이 빠진 종목이 싸 보이면서 되사는 손길이 들어온 것이다. 같은 날 의사 설문 결과가 나와 Lilly에 대한 긍정적 시각이 유지됐다. 하루 반등은 추세 전환이 아니라 되돌림일 수 있다.",
+        "whyMatters": "기술 업종의 낙폭 과대 종목과 헬스케어의 Lilly에 단기적으로 좋은 소식이다. 다만 하루 반등으로 끝나면 기술주 비중을 늘릴 근거가 되지 못한다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Crushed tech stocks bounce — plus, new doctor survey keeps us positive on Lilly",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/investingclub/2026/10/19/crushed-tech-stocks-bounce-new-doctor-survey-keeps-us-positive-on-lilly.html",
+            "date": "2026-10-19",
+            "quote": "Crushed tech stocks bounce — plus, new doctor survey keeps us positive on Lilly",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "Micron 등 반도체주가 급락 뒤 되살아났다",
+        "easy": "Micron을 비롯한 반도체 종목들이 심한 급락 뒤 다시 올랐다. 낙폭이 컸던 만큼 저가 매수가 들어온 것으로 보인다. 반등을 끌어낸 개별 재료는 기사에 안 나왔다. 반도체는 지수의 방향을 끌고 가는 업종이라 흐름을 먼저 본다.",
+        "whyMatters": "반도체 업종과 그 안의 Micron에 직접 좋은 소식이고, 반도체 장비·AI 서버 쪽으로도 온기가 번진다. 반도체가 다시 밀리면 기술 업종 전체가 같이 흔들린다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Micron and other chip stocks spring back to life after bruising selloff",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories",
+            "date": "2026-10-19",
+            "quote": "Micron and other chip stocks spring back to life after bruising selloff",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "미국이 정부 내 DeepSeek 사용을 금지했다",
+        "easy": "미국 정부가 중국 AI 모델 DeepSeek을 정부 업무에 쓰지 못하게 막았다. 중국과의 기술 갈등이 계속되는 가운데 나온 조치다. 미국 기관이 중국산 AI를 쓰는 길이 막히면 미국 AI 업체 쪽으로 수요가 남는다. 동시에 중국 관련 규제 갈등은 시장의 불안 요인으로 남는다.",
+        "whyMatters": "미국 소프트웨어·AI 서비스 업종에는 수요가 남는 방향이고, 중국 매출 비중이 큰 반도체 업종에는 갈등 확대가 부담이다. 추가 규제가 어디까지 번지는지만 지켜보면 된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "US bans DeepSeek AI from government use as tech tension with China continues",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo?at_medium=RSS&at_campaign=rss",
+            "date": "2026-10-19",
+            "quote": "US bans DeepSeek AI from government use as tech tension with China continues",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "애플이 10월 28일 신제품 행사를 예고했다",
+        "easy": "애플이 10월 28일에 신제품 발표 행사를 연다고 알렸다. 애널리스트들은 터치스크린 노트북이 나올 것으로 본다. 새 제품군이 열리면 부품을 넣는 회사들의 주문도 함께 늘어난다. 실제로 무엇이 나오는지는 행사 당일 확인된다.",
+        "whyMatters": "Apple과 디스플레이·부품을 공급하는 기술 하드웨어 업종에 기대가 붙는 소식이다. 발표 내용이 기대에 못 미치면 같은 업종이 그만큼 되밀릴 수 있다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Apple announces product launch event for Oct. 28. Analysts expect touchscreen laptop",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/19/apple-product-launch-event-oct-28-analysts-expect-touchscreen-laptop.html",
+            "date": "2026-10-19",
+            "quote": "Apple announces product launch event for Oct. 28. Analysts expect touchscreen laptop",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "IMF·세계은행 회의에서 부채와 금리가 화두였다",
+        "easy": "IMF와 세계은행 회의가 끝나고 세 가지 핵심 내용이 정리됐다. 나라별 부채와 국채 금리, 러시아·중국 문제가 다뤄졌다. 구체적 합의 내용은 기사 제목만으로는 확인되지 않는다. 국채 금리가 오르면 주식의 몸값을 재는 기준이 같이 올라간다.",
+        "whyMatters": "금리에 민감한 기술·성장주와 부동산 업종에 부담이 될 수 있는 쪽 이야기다. 금리가 내려오면 같은 업종이 가장 먼저 숨을 돌린다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Three big takeaways from the IMF-World Bank meetings",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/20/imf-debt-yields-russia-china-takeaway-.html",
+            "date": "2026-10-20",
+            "quote": "Three big takeaways from the IMF-World Bank meetings",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기에 좋은 때가 아니고, 들고 있는 것도 정리할지 점검할 구간이다. 나스닥 대표 ETF인 QQQ가 718.36에서 10일선이 20일선 아래로 내려앉은 첫날이기 때문이다. 오늘 뉴스에서 눌렸던 기술주와 Micron 같은 반도체주가 되살아난 것은 반가운 신호지만, 아직 하루치 되돌림이라 추세가 바뀌었다고 말할 수는 없다. 조심할 쪽은 신용이다 — 가장 위험한 정크본드가 경고를 보내는데 빚내서 산 주식(마진부채)은 1년 전보다 31.4% 늘어 주의선을 넘었다. 이번 주는 10일선이 20일선 위로 되돌아오는지, 그리고 애플 10월 28일 행사 전까지 반도체·기술주의 반등이 이어지는지만 보면 된다.",
+    "keyRisks": [
+      "신용 시장 경고: 가장 위험한 등급의 채권에서 경고 신호가 나왔다. 돈 빌리기가 어려워지면 빚이 많은 회사부터 흔들린다.",
+      "빚으로 산 주식이 많다: 마진부채가 주의선을 넘어 있다. 하락이 시작되면 강제 매도가 겹쳐 낙폭이 커진다.",
+      "하루 반등을 추세로 착각: 기술주·반도체 반등은 아직 하루치다. 다시 밀리면 반등에서 산 자리가 그대로 손실이 된다.",
+      "쏠린 업종: 주도 종목의 절반 가까이가 기술 업종이다. 기술주가 식으면 분산해도 같이 빠진다."
+    ],
+    "easySummary": [
+      "QQQ의 10일선이 20일선 아래로 내려온 첫날이라, 새로 사기보다 지키는 쪽이 맞다.",
+      "눌렸던 기술주와 Micron 등 반도체주는 하루 반등했지만 추세 전환으로 보기엔 이르다.",
+      "가장 위험한 채권의 경고와 마진부채 과열이 겹쳐, 하락이 시작되면 폭이 커질 수 있다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 163,
+      "ok": 261,
+      "unverified": 1,
+      "dead": 0,
+      "stripped": 11,
+      "removed": [
+        {
+          "reason": "중복",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000021535/000143774926025053/ex_994647.htm"
+        }
+      ],
+      "numberCut": 27,
+      "numberCuts": [
+        {
+          "sentence": "올해 3월 분기에 이어 두 분기 연속 매출이 30% 넘게 늘었다.",
+          "missing": [
+            "30"
+          ]
+        },
+        {
+          "sentence": "순이익 증가율(199%)도 일회성 영향이 섞였을 수 있어 영업이익을 함께 봐야 한다.",
+          "missing": [
+            "199"
+          ]
+        },
+        {
+          "sentence": "주가는 5월 고점 143.16달러보다 크게 낮고 1개월 수익률이 -29%다.",
+          "missing": [
+            "29"
+          ]
+        },
+        {
+          "sentence": "주가는 10월 5일 고점 75.72달러에서 약 29% 내려온 상태이고, 최근 한 달 수익률은 마이너스다.",
+          "missing": [
+            "75.72",
+            "29"
+          ]
+        },
+        {
+          "sentence": "상장 이후 가격 변동도 매우 크다(최저 38.4달러, 최고 519.84달러).",
+          "missing": [
+            "38.4",
+            "519.84"
+          ]
+        },
+        {
+          "sentence": "8월 25일 실적 발표 후 주가가 상장 이래 최악의 하루를 보냈고, 8월 26일 52주 최저가(약 119달러)를 찍은 뒤 반등했다.",
+          "missing": [
+            "119"
+          ]
+        },
+        {
+          "sentence": "현재가 143.77달러는 그 저점보다 약 21% 높다.",
+          "missing": [
+            "143.77",
+            "21"
+          ]
+        },
+        {
+          "sentence": "몸집은 커졌고 주가 수준은 예상 주당순이익 기준 15배 정도다.",
+          "missing": [
+            "15"
+          ]
+        },
+        {
+          "sentence": "매출은 53% 늘었는데 영업이익은 1년 전보다 2.5%, 순이익은 17% 줄었다.",
+          "missing": [
+            "53"
+          ]
+        },
+        {
+          "sentence": "이익률은 7.9%로 낮아졌다.",
+          "missing": [
+            "7.9"
+          ]
+        },
+        {
+          "sentence": "10월 초 Zacks가 이 종목을 '이번 주 약세 종목'으로 꼽았고, 주가는 1년 최고가(6월, 약 242달러)보다 40% 낮다.",
+          "missing": [
+            "242",
+            "40"
+          ]
+        },
+        {
+          "sentence": "매출은 15억 달러로 0.5% 감소에 그쳤지만 비용 개선으로 영업이익률이 5.7%까지 올랐다.",
+          "missing": [
+            "15억 달러"
+          ]
+        },
+        {
+          "sentence": "2분기 실적에서 앞으로 12개월 클라우드 수주잔고가 27% 늘어 229억 유로로 커졌고, 클라우드 매출도 22% 증가했다.",
+          "missing": [
+            "229억"
+          ]
+        },
+        {
+          "sentence": "이 발표 직후 주가가 하루 7% 넘게 뛰었다.",
+          "missing": [
+            "7"
+          ]
+        },
+        {
+          "sentence": "회사가 2027년 1월까지 최대 26억 유로 규모의 자사주를 사들이기로 해 주가를 받치고 있다.",
+          "missing": [
+            "26억"
+          ]
+        },
+        {
+          "sentence": "2분기(6월 말 기준) 매출이 103.9억 달러로 1년 전보다 53% 늘고, 영업이익은 11.7억 달러로 약 4.2배가 됐다.",
+          "missing": [
+            "4.2"
+          ]
+        },
+        {
+          "sentence": "매출도 520억 달러로 54% 증가해 영업이익률이 14.1%까지 올랐다.",
+          "missing": [
+            "54"
+          ]
+        },
+        {
+          "sentence": "최근 분기(2026년 5~7월) 매출이 4.27억 달러로 1년 전보다 37.9% 늘었고, 영업적자는 7,190만 달러로 1년 전보다 23.9% 개선됐다.",
+          "missing": [
+            "23.9"
+          ]
+        },
+        {
+          "sentence": "증권사 목표주가 평균이 11.5% 올라 122.31달러가 됐고, 10월 6일 주가가 이 평균 목표가를 넘어서며 52주 고점 127.9달러를 찍었다.",
+          "missing": [
+            "127.9"
+          ]
+        },
+        {
+          "sentence": "7월 마감 분기 영업이익이 1.07억 달러로 1년 전보다 161% 늘었고, 영업이익률은 13.3%로 직전 분기 7.3%에서 크게 올랐다.",
+          "missing": [
+            "7.3"
+          ]
+        },
+        {
+          "sentence": "증가율이 3개 분기 연속 30%를 넘어 커졌다.",
+          "missing": [
+            "3",
+            "30"
+          ]
+        },
+        {
+          "sentence": "직전 두 분기 적자(영업이익률 -3%대)에서 이익률 11.9%로 올라선 점이 핵심이다.",
+          "missing": [
+            "3"
+          ]
+        },
+        {
+          "sentence": "현재가 69.89달러는 이익(주당 0.59달러) 대비 118배로 비싸다.",
+          "missing": [
+            "118"
+          ]
+        },
+        {
+          "sentence": "매출 증가율이 분기마다 7~10%대에 머문다.",
+          "missing": [
+            "7"
+          ]
+        },
+        {
+          "sentence": "최근 분기(2026-06-27) 매출 3.08억 달러, 1년 전보다 8.9% 증가.",
+          "missing": [
+            "06",
+            "27"
+          ]
+        },
+        {
+          "sentence": "직전 분기는 10.4%, 그 전 분기는 13.2% 증가로 증가율이 둔화 중이다.",
+          "missing": [
+            "10.4",
+            "13.2"
+          ]
+        },
+        {
+          "sentence": "10월 1일 실적이 예상을 웃돌자 주가가 20% 넘게 급등했다.",
+          "missing": [
+            "20"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-20"
   }
 };

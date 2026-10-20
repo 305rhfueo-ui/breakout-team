@@ -1,0 +1,163 @@
+{
+ "ticker": "PBAM",
+ "news": [
+  {
+   "title": "Here's What Key Metrics Tell Us About Private Bancorp of America (PBAM) Q3 Earnings",
+   "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-private-bancorp-america-pbam-q3-earnings",
+   "date": "2026-10-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Private Bancorp of America, Inc. (PBAM) Q3 Earnings Miss Estimates",
+   "url": "https://www.nasdaq.com/articles/private-bancorp-america-inc-pbam-q3-earnings-miss-estimates",
+   "date": "2026-10-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Private Bancorp of America, Inc. (PBAM) Earnings Expected to Grow: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/private-bancorp-america-inc-pbam-earnings-expected-grow-should-you-buy-0",
+   "date": "2026-10-09",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's What Key Metrics Tell Us About Private Bancorp of America (PBAM) Q2 Earnings",
+   "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-private-bancorp-america-pbam-q2-earnings",
+   "date": "2026-07-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Private Bancorp of America, Inc. (PBAM) Tops Q2 Earnings and Revenue Estimates",
+   "url": "https://www.nasdaq.com/articles/private-bancorp-america-inc-pbam-tops-q2-earnings-and-revenue-estimates",
+   "date": "2026-07-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Private Bancorp of America (PBAM) Is a Great Choice for 'Trend' Investors, Here's Why",
+   "url": "https://www.nasdaq.com/articles/private-bancorp-america-pbam-great-choice-trend-investors-heres-why",
+   "date": "2026-06-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Momentum in Private Bancorp of America (PBAM) Should Keep going",
+   "url": "https://www.nasdaq.com/articles/heres-why-momentum-private-bancorp-america-pbam-should-keep-going",
+   "date": "2026-05-11",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Private Bancorp of America (PBAM) Price Target Increased by 15.20% to 86.96",
+   "url": "https://www.nasdaq.com/articles/private-bancorp-america-pbam-price-target-increased-1520-8696",
+   "date": "2026-04-28",
+   "publisher": "Fintel"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-16",
+   "reportDate": "2026-10-16",
+   "items": [
+    "2.02",
+    "7.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1705284/000170528426000010/pbam-20261016.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-11",
+   "reportDate": "2026-09-05",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1705284/000119312526389249/d145617d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-17",
+   "reportDate": "2026-08-17",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1705284/000119312526354298/pbam-20260817.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-11",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1705284/000119312526344695/pbam-20260811.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-10",
+   "reportDate": "2026-08-10",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1705284/000119312526342492/pbam-20260810.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-29",
+   "reportDate": "2026-07-29",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1705284/000119312526323834/pbam-20260729.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.69,
+  "saleNy": 7.06,
+  "epsCy": 22.83,
+  "epsNy": 2.74,
+  "cyTrend": 0.15,
+  "nyTrend": 0.63,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": null
+ }
+}

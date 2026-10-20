@@ -1,0 +1,178 @@
+{
+ "ticker": "HAS",
+ "news": [
+  {
+   "title": "Stay Ahead of the Game With Hasbro (HAS) Q3 Earnings: Wall Street's Insights on Key Metrics",
+   "url": "https://www.nasdaq.com/articles/stay-ahead-game-hasbro-has-q3-earnings-wall-streets-insights-key-metrics",
+   "date": "2026-10-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Hasbro (HAS) Advances While Market Declines: Some Information for Investors",
+   "url": "https://www.nasdaq.com/articles/hasbro-has-advances-while-market-declines-some-information-investors",
+   "date": "2026-10-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Hasbro (HAS) Could Beat Earnings Estimates Again",
+   "url": "https://www.nasdaq.com/articles/why-hasbro-has-could-beat-earnings-estimates-again",
+   "date": "2026-10-02",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Hasbro (HAS) Surpasses Market Returns: Some Facts Worth Knowing",
+   "url": "https://www.nasdaq.com/articles/hasbro-has-surpasses-market-returns-some-facts-worth-knowing",
+   "date": "2026-10-01",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Hasbro (HAS) Exceeds Market Returns: Some Facts to Consider",
+   "url": "https://www.nasdaq.com/articles/hasbro-has-exceeds-market-returns-some-facts-consider",
+   "date": "2026-09-25",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Hasbro (HAS) Registers a Bigger Fall Than the Market: Important Facts to Note",
+   "url": "https://www.nasdaq.com/articles/hasbro-has-registers-bigger-fall-market-important-facts-note",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Hasbro (HAS) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+   "url": "https://www.nasdaq.com/articles/hasbro-has-sees-more-significant-dip-broader-market-some-facts-know",
+   "date": "2026-09-08",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "HAS Dividend Yield Pushes Past 3%",
+   "url": "https://www.nasdaq.com/articles/has-dividend-yield-pushes-past-3",
+   "date": "2026-08-31",
+   "publisher": "BNK Invest"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-27",
+   "reportDate": "2026-07-27",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000047/has-20260727.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-21",
+   "reportDate": "2026-07-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000044/has-20260721.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-15",
+   "reportDate": "2026-06-11",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000034/has-20260611.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-20",
+   "reportDate": "2026-05-20",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000029/has-20260520.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-23",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000016/has-20260423.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-01",
+   "reportDate": "2026-04-01",
+   "items": [
+    "8.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/46080/000004608026000013/has-20260401.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.69,
+  "saleNy": 6.94,
+  "epsCy": 11,
+  "epsNy": 5.36,
+  "cyTrend": -0.16,
+  "nyTrend": -0.71,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    16.19,
+    12.75,
+    31.25
+   ],
+   "ni": [
+    "흑자전환",
+    101.22,
+    "흑자전환"
+   ],
+   "opm": [
+    22.16,
+    27.02,
+    20.58
+   ],
+   "updated": "2026-09-08 06:41:57"
+  }
+ }
+}

@@ -1,0 +1,334 @@
+{
+ "ticker": "CRM",
+ "sector": "Technology",
+ "industry": "Software - Application",
+ "nameKo": "세일스포스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.49,
+  "saleNy": 9.73,
+  "epsCy": 33.83,
+  "epsNy": -4.37,
+  "est": {
+   "cyCur": 16.7558,
+   "cy30": 16.69556,
+   "nyCur": 16.02297,
+   "ny30": 16.00817
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    10.83,
+    13.27,
+    12.09
+   ],
+   "ni": [
+    86.86,
+    36.73,
+    13.76
+   ],
+   "opm": [
+    20.55,
+    21.08,
+    16.69
+   ],
+   "updated": "2026-09-08 06:18:43"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-10-16",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 2,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-19",
+  "nameKo": "세일스포스",
+  "nameEn": "SALESFORCE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001108524&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": false,
+     "revenue": 11345000000,
+     "profit": 2331000000,
+     "netIncome": 3526000000,
+     "margin": 20.5,
+     "yoy": {
+      "revenue": 10.8,
+      "profit": 0,
+      "netIncome": 86.9,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 11133000000,
+     "profit": 2347000000,
+     "netIncome": 2107000000,
+     "margin": 21.1,
+     "yoy": {
+      "revenue": 13.3,
+      "profit": 20.9,
+      "netIncome": 36.7,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 11201000000,
+     "profit": 1869000000,
+     "netIncome": 1943000000,
+     "margin": 16.7,
+     "yoy": {
+      "revenue": 12.1,
+      "profit": 2.7,
+      "netIncome": 13.8,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 10259000000,
+     "profit": 2188000000,
+     "netIncome": 2086000000,
+     "margin": 21.3,
+     "yoy": {
+      "revenue": 8.6,
+      "profit": 15.6,
+      "netIncome": 36.6,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Salesforce (CRM) Suffers a Larger Drop Than the General Market: Key Insights",
+     "url": "https://www.nasdaq.com/articles/salesforce-crm-suffers-larger-drop-general-market-key-insights",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Investors Heavily Search Salesforce, Inc. (CRM): Here is What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/investors-heavily-search-salesforce-inc-crm-here-what-you-need-know",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Salesforce vs. ServiceNow: Here's What Revenue Trends Tell Investors About These Software Giants and Their Move to AI",
+     "url": "https://www.nasdaq.com/articles/salesforce-vs-servicenow-heres-what-revenue-trends-tell-investors-about-these-software",
+     "date": "2026-10-15",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Salesforce vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?",
+     "url": "https://www.nasdaq.com/articles/salesforce-vs-palantir-technologies-which-technology-stock-better-buy-2026",
+     "date": "2026-10-14",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Salesforce vs. ServiceNow: Which AI Software Stock Has the Edge?",
+     "url": "https://www.nasdaq.com/articles/salesforce-vs-servicenow-which-ai-software-stock-has-edge",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Docusign Expands Partnership With Salesforce",
+     "url": "https://www.nasdaq.com/articles/docusign-expands-partnership-salesforce",
+     "date": "2026-10-13",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-17",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000210/crm-20260916.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-04",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000197/crm-20260902.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000187/crm-20260826.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000160/crm-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-02",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000138/crm-20260527.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-01",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000131/crm-20260528.htm"
+   }
+  ],
+  "krReports": {
+   "total": 5,
+   "reports": [
+    {
+     "date": "2026-09-23",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "title": "[세일스포스 (NYS:CRM)] 클로드포스 확장성을 기대",
+     "summary": "- 클로드포스 출시에 따른 성과가 현재 컨센서스 미반영으로 판단- 이에 대한 판단은 RPO 및 ARR 추가 성장 확보 수준에 달려 있음- 지표별 추가 성장성 확보시 이에 따른 밸류에이션 레벨업 여지 존재",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmceexgxkeglicgcgxecem.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-09-15",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "title": "[세일스포스 (NYS:CRM)] 매니지먼트의 인사이트가 긍정적으로 작동",
+     "summary": "- 동사 데이터와 앤트로픽 LLM 강결합을 통한 구독경제 확대 전망- 이를 통한 동사 ARR 및 탑라인 그로스와 순이익 CAGR 확장 기대- 상기 과정을 통한 실질 PEGR 기준 동사 기업가치 재평가 여지 상존",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlmkgxqkezlmqigcgxecem.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-05-12",
+     "broker": "현대차증권",
+     "analyst": "장문영",
+     "title": "[세일스포스 (NYS:CRM)] 내러티브는 흔들렸지만, 구조는 강화되고 있다",
+     "summary": "- 글로벌 CRM 시장 점유율 43%로 1위. M&A 통해 AI가 실제 업무 수행하는 엔터프라이즈 운영 플랫폼으로 진화 중- Agentforce와 Data 360 ARR $29억으로 급성장. 예약의 60%가 기존 고객에서 발생- 12M Fwd P/E 14배로 과거 평균 크게 하회하는 역사적 저점. 위험 대비 기대수익 유리한 진입 시점 평가",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlzkzemxqcgkigcgxecem.pdf",
+     "pages": "12"
+    },
+    {
+     "date": "2026-03-04",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "title": "[세일스포스 (NYS:CRM)] 중기 이상 이익 성장성을 높일 필요 명확",
+     "summary": "- 거대 AI 백본을 보유한 글로벌 빅테크의 엔터프라이즈 영역 진입- 위 과정에 따른 경쟁강도 심화를 타개하기 위한 빅테크와 협력 요구- 동사 FY27E PER 및 3개년 EPS CAGR 기반 PEGR 1.2배 감안 필요",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgzqqixkmxlxmgcgxecem.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2025-12-04",
+     "broker": "한화증권",
+     "analyst": "임해인",
+     "title": "[세일스포스 (NYS:CRM)] Earnings Flash",
+     "summary": "- 매출액 102.6억 달러(YoY +8.6%, 고정 통화 기준 +8%)로 2개 분기 연속 최고치 경신, 예상치 0.2% 하회- 분기 내 38억 달러 자사주 매입, 4억 달러 배당금 지급. 자사주 매입 프로그램 총 승인 금액(500억 달러) 중 누적 281억 달러 사용- 역사적 최저 밸류에이션∙강력한 AI 성장률에도 불구, AI의 매출 기여가 초기 단계에 머물러 주가 반응 제한적. 시간 외 +1.8%",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxklgkxzmegmimgcgxecem.pdf",
+     "pages": "1"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Meta shares rise for a second straight day as new AI model family impresses",
+   "url": "https://www.cnbc.com/investingclub/2026/10/13/meta-shares-rise-for-a-second-straight-day-as-new-ai-model-family-impresses.html",
+   "date": "2026-10-13",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Bear to bull: A double upgrade of Salesforce illustrates the folly of the 'SaaSpocalypse'",
+   "url": "https://www.cnbc.com/investingclub/2026/10/12/bear-to-bull-a-double-upgrade-of-salesforce-illustrates-the-folly-of-the-saaspocalypse-.html",
+   "date": "2026-10-12",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
+   "url": "https://www.cnbc.com/investingclub/2026/10/12/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+   "date": "2026-10-12",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Salesforce could punch into the green on AI pivot, Bank of America says",
+   "url": "https://www.cnbc.com/2026/10/12/salesforce-to-punch-into-the-green-on-ai-pivot-bank-of-america-says-.html",
+   "date": "2026-10-12",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Monday's big analyst calls: SpaceX, Salesforce, Robinhood, First Solar & more",
+   "url": "https://www.cnbc.com/2026/10/12/big-wall-street-analyst-calls-like-spacex.html",
+   "date": "2026-10-12",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Salesforce, First Solar, Biogen",
+   "url": "https://www.cnbc.com/2026/10/12/stocks-making-the-biggest-moves-premarket-crm-fslr-biib.html",
+   "date": "2026-10-12",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "CRM",
+  "fetchedAt": "2026-10-20",
+  "source": "한국투자증권 Open API",
+  "per": 22.1,
+  "pbr": 5.2,
+  "eps": 10.97,
+  "bps": 46.63,
+  "shares": 823000000,
+  "marketCapM": 199536,
+  "high52": 267.7989,
+  "high52Date": "2026-09-03",
+  "low52": 146.0631,
+  "low52Date": "2026-06-22",
+  "last": 242.45,
+  "prevClose": 240.7,
+  "nameKo": "세일스포스",
+  "nameEn": "SALESFORCE INC",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 823000000
+ }
+}

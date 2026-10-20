@@ -1,0 +1,85 @@
+{
+ "ticker": "TECK",
+ "news": [
+  {
+   "title": "What Makes Teck Resources (TECK) a New Buy Stock",
+   "url": "https://www.nasdaq.com/articles/what-makes-teck-resources-teck-new-buy-stock",
+   "date": "2026-10-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "TECK vs. WPM: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/teck-vs-wpm-which-stock-should-value-investors-buy-now",
+   "date": "2026-10-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Teck Resources Ltd (TECK) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-teck-resources-ltd-teck-top-momentum-stock-long-term-0",
+   "date": "2026-10-12",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "TECK or BHP: Which Is the Better Value Stock Right Now?",
+   "url": "https://www.nasdaq.com/articles/teck-or-bhp-which-better-value-stock-right-now",
+   "date": "2026-09-29",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Teck Resources Ltd (TECK) is a Top-Ranked Growth Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/teck-resources-ltd-teck-top-ranked-growth-stock-should-you-buy",
+   "date": "2026-09-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "USA Rare Earth vs. Teck Resources: Which Mining Stock Has Better Potential?",
+   "url": "https://www.nasdaq.com/articles/usa-rare-earth-vs-teck-resources-which-mining-stock-has-better-potential",
+   "date": "2026-09-25",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Teck Resources Ltd (TECK) is a Top-Ranked Momentum Stock: Should You Buy?",
+   "url": "https://www.nasdaq.com/articles/teck-resources-ltd-teck-top-ranked-momentum-stock-should-you-buy",
+   "date": "2026-09-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Teck Resources Ltd (TECK) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-teck-resources-ltd-teck-strong-growth-stock-1",
+   "date": "2026-09-10",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 42.55,
+  "saleNy": 1.57,
+  "epsCy": 99.65,
+  "epsNy": -10.13,
+  "cyTrend": 4.34,
+  "nyTrend": 11.11,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    78.03,
+    80.22,
+    "흑자전환"
+   ],
+   "ni": [
+    314.16,
+    131.68,
+    35.61
+   ],
+   "opm": [
+    45.46,
+    41.16,
+    30.29
+   ],
+   "updated": "2026-09-08 09:41:59"
+  }
+ }
+}

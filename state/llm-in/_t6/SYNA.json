@@ -1,0 +1,691 @@
+{
+ "ticker": "SYNA",
+ "date": "2026-10-20",
+ "session": "2026-10-19",
+ "source": "list",
+ "plan": {
+  "ticker": "SYNA",
+  "name": "시냅틱스",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "price": 117.18000030517578,
+  "grade": "B",
+  "state": "pre",
+  "pivot": 121.98,
+  "stop": 119.36,
+  "distToPivotPct": -4.04,
+  "distToPivotAdr": -1.81,
+  "riskPerSharePct": 2.15,
+  "adrPct": 2.24,
+  "extensionAdr": -0.58,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 11,
+   "baseWeeks": 2.2,
+   "depthPct": 4.2,
+   "priorMovePct": 38.5,
+   "higherLows": 0,
+   "contraction": 0.4,
+   "closeRange10Adr": 1.1,
+   "surf10": -0.58,
+   "surf20": 2.11,
+   "slope20": 5.81,
+   "baseLow": 116.85,
+   "lastSwingLow": 118.3
+  },
+  "reasons": [
+   "선행 상승 +38%",
+   "베이스 2.2주",
+   "깊이 4.2%",
+   "✗ 저점 상승 0회",
+   "진폭 0.4배 · 10일 종가폭 1.1 ADR",
+   "10일선 -0.6 ADR · 20일선 +2.1 ADR",
+   "20일선 기울기 +5.81%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.25851143311181785,
+    "pct": 99.14337240757439
+   },
+   "m3": {
+    "v": -0.003571413047575309,
+    "pct": 51.352569882777274
+   },
+   "m6": {
+    "v": 0.2774446311662377,
+    "pct": 83.9945897204689
+   }
+  },
+  "ret1m": 25.85,
+  "ret3m": -0.36,
+  "ret6m": 27.74,
+  "marketCap": "4.65B",
+  "volx": null,
+  "volSurgeWk": 0.66,
+  "high52": 78.59,
+  "newHigh52": false,
+  "adr": 2.3,
+  "div50": 13.21,
+  "div200": 15.97,
+  "targetStatus": false,
+  "saleCy": 7.65,
+  "saleNy": 13.85,
+  "epsCy": 13.04,
+  "epsNy": 27.04,
+  "cyTrend": 0,
+  "nyTrend": 0,
+  "est": {
+   "cyCur": 5.17718,
+   "cy30": 5.17718,
+   "nyCur": 6.57731,
+   "ny30": 6.57731
+  },
+  "fs": {
+   "sale": [
+    8.91,
+    10.35,
+    13.21
+   ],
+   "ni": [
+    "적자확대",
+    "적자축소",
+    -922.22
+   ],
+   "opm": [
+    -5.23,
+    -4.32,
+    -4.99
+   ],
+   "updated": "2026-09-21 06:50:38"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-10-15",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 3,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": {
+  "score": 5,
+  "reasons": [
+   "최근 2주 가격 흔들림이 그 전 2주의 0.4배로 줄었다",
+   "넘어야 할 선 $121.98 바로 아래(-4.04%)",
+   "최근 2주 종가가 0.95% 안에서만 움직였다"
+  ],
+  "resistance": 121.98
+ },
+ "detail": {
+  "fetchedAt": "2026-10-20",
+  "nameKo": "시냅틱스",
+  "nameEn": "SYNAPTICS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000817720&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-27",
+     "derived": true,
+     "revenue": 308000000,
+     "profit": -16100000,
+     "netIncome": -447400000,
+     "margin": -5.2,
+     "yoy": {
+      "revenue": 8.9,
+      "profit": 33.5,
+      "netIncome": -9419.1,
+      "priorEnd": "2025-06-28"
+     }
+    },
+    {
+     "periodEnd": "2026-03-28",
+     "derived": false,
+     "revenue": 294200000,
+     "profit": -12700000,
+     "netIncome": -8000000,
+     "margin": -4.3,
+     "yoy": {
+      "revenue": 10.4,
+      "profit": 51.7,
+      "netIncome": 63.3,
+      "priorEnd": "2025-03-29"
+     }
+    },
+    {
+     "periodEnd": "2025-12-27",
+     "derived": false,
+     "revenue": 302500000,
+     "profit": -15100000,
+     "netIncome": -14800000,
+     "margin": -5,
+     "yoy": {
+      "revenue": 13.2,
+      "profit": 0.7,
+      "netIncome": -922.2,
+      "priorEnd": "2024-12-28"
+     }
+    },
+    {
+     "periodEnd": "2025-09-27",
+     "derived": false,
+     "revenue": 292500000,
+     "profit": -23200000,
+     "netIncome": -20600000,
+     "margin": -7.9,
+     "yoy": {
+      "revenue": 13.5,
+      "profit": 18.3,
+      "netIncome": 10.8,
+      "priorEnd": "2024-09-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Synaptics' Key Insider Rahul Patel Sells Shares",
+     "url": "https://www.nasdaq.com/articles/synaptics-key-insider-rahul-patel-sells-shares",
+     "date": "2026-10-19",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Synaptics (SYNA) Soars 14.1%: Is Further Upside Left in the Stock?",
+     "url": "https://www.nasdaq.com/articles/synaptics-syna-soars-141-further-upside-left-stock",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Onsemi Revises Synaptics $5.7 Bln Merger Agreement At $123/shr",
+     "url": "https://www.nasdaq.com/articles/onsemi-revises-synaptics-57-bln-merger-agreement-123-shr",
+     "date": "2026-10-02",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-15",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/817720/000081772026000081/syna-20261013.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/817720/000114036126038301/ef20083029_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-21",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/817720/000081772026000061/syna-20260820.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/817720/000081772026000049/syna-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-25",
+    "itemsKo": [
+     "중요 계약 체결",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/817720/000114036126026434/ef20076748_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/817720/000081772026000035/syna-20260507.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Tesla, Broadcom, Nike, ON Semiconductor & more",
+   "url": "https://www.cnbc.com/2026/10/02/stocks-making-the-biggest-moves-midday-tsla-avgo-nke-on-more-.html",
+   "date": "2026-10-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "ON Semiconductor records worst day since 2020 as CEO defends Synaptics deal",
+   "url": "https://www.cnbc.com/2026/06/26/on-semi-stock-synaptics-ceo-hassane-el-khoury.html",
+   "date": "2026-06-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "ON Semiconductor strikes $7 billion deal for Synaptics in physical AI push",
+   "url": "https://www.cnbc.com/2026/06/25/on-semi-synaptics-deal-physical-ai.html",
+   "date": "2026-06-25",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "CNBC TechCheck Evening Edition: June 26, 2026",
+   "url": "https://www.cnbc.com/video/2026/06/26/cnbc-techcheck-evening-edition-june-26th-2026.html",
+   "date": "2026-06-26",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "ON Semiconductor CEO: Synaptics deal will provide a $30B incremental market expansion",
+   "url": "https://www.cnbc.com/video/2026/06/26/onsemi-ceo-hassane-el-khoury-synaptics-deal-will-provide-a-30b-incremental-market-expansion.html",
+   "date": "2026-06-26",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "ON Semi to acquire Synaptics",
+   "url": "https://www.cnbc.com/video/2026/06/25/on-semi-to-acquire-synaptics.html",
+   "date": "2026-06-25",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "SYNA",
+  "fetchedAt": "2026-10-20",
+  "source": "한국투자증권 Open API",
+  "per": 9.25,
+  "pbr": 4.92,
+  "eps": 12.65,
+  "bps": 23.8,
+  "shares": 39701400,
+  "marketCapM": 4647,
+  "high52": 149.11,
+  "high52Date": "2026-05-27",
+  "low52": 58.28,
+  "low52Date": "2025-11-20",
+  "last": 117.05,
+  "prevClose": 117.18,
+  "nameKo": "시냅틱스",
+  "nameEn": "SYNAPTICS INC",
+  "listedOn": "0000-00-00",
+  "exchange": "나스닥",
+  "listedShares": 39701400
+ },
+ "estimates": {
+  "ticker": "SYNA",
+  "url": "https://finance.yahoo.com/quote/SYNA/analysis/",
+  "fetchedAt": "2026-10-20",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 1.25,
+    "epsLow": 1.12,
+    "epsHigh": 1.35,
+    "epsYearAgo": 1.09,
+    "epsAnalysts": 12,
+    "epsGrowth": 15.1,
+    "epsCur": "USD",
+    "rev": 315660000,
+    "revAnalysts": 10,
+    "revYearAgo": 292500000,
+    "revGrowth": 7.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 1.36,
+    "epsLow": 1.15,
+    "epsHigh": 1.52,
+    "epsYearAgo": 1.21,
+    "epsAnalysts": 12,
+    "epsGrowth": 12.1,
+    "epsCur": "USD",
+    "rev": 328390000,
+    "revAnalysts": 10,
+    "revYearAgo": 302500000,
+    "revGrowth": 8.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-06-30",
+    "eps": 5.18,
+    "epsLow": 4.64,
+    "epsHigh": 5.61,
+    "epsYearAgo": 4.58,
+    "epsAnalysts": 11,
+    "epsGrowth": 13,
+    "epsCur": "USD",
+    "rev": 1288777780,
+    "revAnalysts": 9,
+    "revYearAgo": 1197200000,
+    "revGrowth": 7.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-06-30",
+    "eps": 6.58,
+    "epsLow": 5.86,
+    "epsHigh": 6.98,
+    "epsYearAgo": 5.18,
+    "epsAnalysts": 6,
+    "epsGrowth": 27,
+    "epsCur": "USD",
+    "rev": 1467212560,
+    "revAnalysts": 6,
+    "revYearAgo": 1288777780,
+    "revGrowth": 13.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 1.25,
+    "d7": 0.5,
+    "d30": 0.5,
+    "d90": -0.4,
+    "ago90": 1.26,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.36,
+    "d7": 0.4,
+    "d30": 0.4,
+    "d90": -1,
+    "ago90": 1.37,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-06-30",
+    "cur": "USD",
+    "now": 5.18,
+    "d7": 0,
+    "d30": 0,
+    "d90": -1.8,
+    "ago90": 5.27,
+    "up7": 1,
+    "up30": 0,
+    "down7": 2,
+    "down30": 2
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-06-30",
+    "cur": "USD",
+    "now": 6.58,
+    "d7": 0,
+    "d30": 0,
+    "d90": 0.6,
+    "ago90": 6.54,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.23,
+    "estimate": 1.21,
+    "surprisePct": 2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.09,
+    "estimate": 1.01,
+    "surprisePct": 8.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.21,
+    "estimate": 1.15,
+    "surprisePct": 5.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 1.09,
+    "estimate": 1.06,
+    "surprisePct": 2.6,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 1,
+   "initiations": 0,
+   "ptRaised": 1,
+   "ptLowered": 3,
+   "total": 4,
+   "recent": [
+    {
+     "date": "2026-10-02",
+     "firm": "Wells Fargo",
+     "action": "down",
+     "from": "Overweight",
+     "to": "Equal-Weight",
+     "ptAction": "Lowers",
+     "pt": 123,
+     "ptPrior": 140
+    },
+    {
+     "date": "2026-10-02",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 123,
+     "ptPrior": 115
+    },
+    {
+     "date": "2026-08-07",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 140,
+     "ptPrior": 160
+    },
+    {
+     "date": "2026-08-07",
+     "firm": "Rosenblatt",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 115,
+     "ptPrior": 160
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-05",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-19",
+  "numbers": {
+   "price": 117.05,
+   "ma20": 111.53,
+   "ma50": 103.72,
+   "ma150": 107.28,
+   "distMA50": 12.85,
+   "periodHigh": 149.11,
+   "pullbackFromHigh": -21.5,
+   "volRatio20": 0.64,
+   "dryUpRatio": 1
+  },
+  "last10": [
+   {
+    "d": "2026-10-06",
+    "o": 120.5,
+    "h": 120.65,
+    "l": 119.13,
+    "c": 119.39,
+    "v": 1535300,
+    "clsPos": 17,
+    "gapPct": 0.64
+   },
+   {
+    "d": "2026-10-07",
+    "o": 118.5,
+    "h": 120.5,
+    "l": 118.3,
+    "c": 119.46,
+    "v": 718000,
+    "clsPos": 53,
+    "gapPct": -0.75
+   },
+   {
+    "d": "2026-10-08",
+    "o": 119.4,
+    "h": 119.9,
+    "l": 118.69,
+    "c": 119.08,
+    "v": 936500,
+    "clsPos": 32,
+    "gapPct": -0.05
+   },
+   {
+    "d": "2026-10-09",
+    "o": 119.95,
+    "h": 120.6,
+    "l": 118.94,
+    "c": 119.82,
+    "v": 2009000,
+    "clsPos": 53,
+    "gapPct": 0.73
+   },
+   {
+    "d": "2026-10-12",
+    "o": 119.82,
+    "h": 120.16,
+    "l": 119.19,
+    "c": 119.4,
+    "v": 566000,
+    "clsPos": 22,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-13",
+    "o": 118.82,
+    "h": 119.86,
+    "l": 118.67,
+    "c": 119.44,
+    "v": 599900,
+    "clsPos": 65,
+    "gapPct": -0.49
+   },
+   {
+    "d": "2026-10-14",
+    "o": 118.5,
+    "h": 118.9,
+    "l": 117.26,
+    "c": 117.36,
+    "v": 1827700,
+    "clsPos": 6,
+    "gapPct": -0.79
+   },
+   {
+    "d": "2026-10-15",
+    "o": 117.3,
+    "h": 117.75,
+    "l": 116.85,
+    "c": 117.55,
+    "v": 1882900,
+    "clsPos": 78,
+    "gapPct": -0.05
+   },
+   {
+    "d": "2026-10-16",
+    "o": 117.13,
+    "h": 117.95,
+    "l": 116.98,
+    "c": 117.18,
+    "v": 1312900,
+    "clsPos": 21,
+    "gapPct": -0.36
+   },
+   {
+    "d": "2026-10-19",
+    "o": 117.71,
+    "h": 118.09,
+    "l": 117,
+    "c": 117.05,
+    "v": 824300,
+    "clsPos": 5,
+    "gapPct": 0.45
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SYNA-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SYNA-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 0일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

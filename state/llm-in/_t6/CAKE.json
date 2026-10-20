@@ -1,0 +1,751 @@
+{
+ "ticker": "CAKE",
+ "date": "2026-10-20",
+ "session": "2026-10-19",
+ "source": "list",
+ "plan": {
+  "ticker": "CAKE",
+  "name": "치즈케익 팩토리",
+  "sector": "Consumer Cyclical",
+  "industry": "Restaurants",
+  "price": 114.91999816894531,
+  "grade": "A",
+  "state": "post",
+  "pivot": 115.78,
+  "stop": 112.36,
+  "distToPivotPct": 0.35,
+  "distToPivotAdr": 0.11,
+  "riskPerSharePct": 2.96,
+  "adrPct": 3.14,
+  "extensionAdr": 1.35,
+  "breakDate": "2026-10-15",
+  "metrics": {
+   "baseBars": 37,
+   "baseWeeks": 7.4,
+   "depthPct": 18.3,
+   "priorMovePct": 83.5,
+   "higherLows": 1,
+   "contraction": 1.02,
+   "closeRange10Adr": 1.7,
+   "surf10": 1.08,
+   "surf20": 2.03,
+   "slope20": 2.26,
+   "baseLow": 94.54,
+   "lastSwingLow": 105.55
+  },
+  "reasons": [
+   "선행 상승 +84%",
+   "베이스 7.4주",
+   "깊이 18.3%",
+   "저점 상승 1회",
+   "진폭 1.02배 · 10일 종가폭 1.7 ADR",
+   "10일선 +1.1 ADR · 20일선 +2 ADR",
+   "20일선 기울기 +2.26%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.19075738913286808,
+    "pct": 98.42200180342651
+   },
+   "m3": {
+    "v": 0.36432506107301743,
+    "pct": 94.99549143372408
+   },
+   "m6": {
+    "v": 0.8525478200134722,
+    "pct": 96.52840396753832
+   }
+  },
+  "ret1m": 19.08,
+  "ret3m": 36.43,
+  "ret6m": 85.25,
+  "marketCap": "5.78B",
+  "volx": null,
+  "volSurgeWk": 0.56,
+  "high52": 96.87,
+  "newHigh52": false,
+  "adr": 3.19,
+  "div50": 6.72,
+  "div200": 50.07,
+  "targetStatus": false,
+  "saleCy": 7.39,
+  "saleNy": 7.55,
+  "epsCy": 21.46,
+  "epsNy": 10.67,
+  "cyTrend": 1.09,
+  "nyTrend": 1.22,
+  "est": {
+   "cyCur": 4.57918,
+   "cy30": 4.5298,
+   "nyCur": 5.06758,
+   "ny30": 5.00635
+  },
+  "fs": {
+   "sale": [
+    7.72,
+    5.57,
+    4.41
+   ],
+   "ni": [
+    24.78,
+    50.41,
+    -30.08
+   ],
+   "opm": [
+    7.63,
+    5.62,
+    3.46
+   ],
+   "updated": "2026-09-07 07:59:25"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-10-16",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 2,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-20",
+  "nameKo": "치즈케익 팩토리",
+  "nameEn": "CHEESECAKE FACTORY",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000887596&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1029633000,
+     "profit": 78608000,
+     "netIncome": 68394000,
+     "margin": 7.6,
+     "yoy": {
+      "revenue": 7.7,
+      "profit": 21.3,
+      "netIncome": 24.8,
+      "priorEnd": "2025-07-01"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 978833000,
+     "profit": 55045000,
+     "netIncome": 49548000,
+     "margin": 5.6,
+     "yoy": {
+      "revenue": 5.6,
+      "profit": 5.9,
+      "netIncome": 50.4,
+      "priorEnd": "2025-04-01"
+     }
+    },
+    {
+     "periodEnd": "2025-12-30",
+     "derived": true,
+     "revenue": 961558000,
+     "profit": 33235000,
+     "netIncome": 28348000,
+     "margin": 3.5,
+     "yoy": {
+      "revenue": 4.4,
+      "profit": -28.7,
+      "netIncome": -31.5,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 907226000,
+     "profit": 37269000,
+     "netIncome": 31899000,
+     "margin": 4.1,
+     "yoy": {
+      "revenue": 4.8,
+      "profit": 10.6,
+      "netIncome": 6.4,
+      "priorEnd": "2024-10-01"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Are You Looking for a Top Momentum Pick? Why Cheesecake Factory (CAKE) is a Great Choice",
+     "url": "https://www.nasdaq.com/articles/are-you-looking-top-momentum-pick-why-cheesecake-factory-cake-great-choice",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "The Cheesecake Factory Incorporated (CAKE) Hits Fresh High: Is There Still Room to Run?",
+     "url": "https://www.nasdaq.com/articles/cheesecake-factory-incorporated-cake-hits-fresh-high-there-still-room-run",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Cheesecake Factory (CAKE) is a Top-Ranked Growth Stock: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/cheesecake-factory-cake-top-ranked-growth-stock-should-you-buy-0",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CAKE Stock Gains 17% in a Month: Should Investors Ride the Rally?",
+     "url": "https://www.nasdaq.com/articles/cake-stock-gains-17-month-should-investors-ride-rally",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can CAKE's Strong Traffic Offset Persistent Restaurant Cost Inflation?",
+     "url": "https://www.nasdaq.com/articles/can-cakes-strong-traffic-offset-persistent-restaurant-cost-inflation",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Will Cheesecake Factory (CAKE) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-cheesecake-factory-cake-beat-estimates-again-its-next-earnings-report-0",
+     "date": "2026-10-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Cheesecake Factory (CAKE) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-cheesecake-factory-cake-strong-momentum-stock-1",
+     "date": "2026-10-08",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "3 Reasons Growth Investors Will Love Cheesecake Factory (CAKE)",
+     "url": "https://www.nasdaq.com/articles/3-reasons-growth-investors-will-love-cheesecake-factory-cake",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-28",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926087561/tm2621325d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-03",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926070125/tm2616600d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-29",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926051574/tm2612833d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-31",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926037831/tm2610653d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-18",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926017090/tm266472d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-10-28",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465925103205/tm2529478d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Wednesday's biggest analyst calls: Nvidia, SpaceX, AMD, Snowflake, Disney, Reddit & more",
+   "url": "https://www.cnbc.com/2026/07/29/biggest-analyst-calls-on-wall-street-include-nvidia-amd.html",
+   "date": "2026-07-29",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cramer's lightning round: First Solar 'has one of the worst charts I've ever seen'",
+   "url": "https://www.cnbc.com/2026/07/20/cramers-lightning-round-first-solar-has-one-of-the-worst-charts-ive-ever-seen.html",
+   "date": "2026-07-20",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "CAKE",
+  "fetchedAt": "2026-10-20",
+  "source": "한국투자증권 Open API",
+  "per": 31.53,
+  "pbr": 11.14,
+  "eps": 3.68,
+  "bps": 10.43,
+  "shares": 49760600,
+  "marketCapM": 5781,
+  "high52": 118.6349,
+  "high52Date": "2026-10-16",
+  "low52": 42.5399,
+  "low52Date": "2025-11-20",
+  "last": 116.18,
+  "prevClose": 114.92,
+  "nameKo": "치즈케익 팩토리",
+  "nameEn": "CHEESECAKE FACTORY",
+  "listedOn": "0000-00-00",
+  "exchange": "나스닥",
+  "listedShares": 49760600
+ },
+ "estimates": {
+  "ticker": "CAKE",
+  "url": "https://finance.yahoo.com/quote/CAKE/analysis/",
+  "fetchedAt": "2026-10-20",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 0.89,
+    "epsLow": 0.81,
+    "epsHigh": 1.1,
+    "epsYearAgo": 0.68,
+    "epsAnalysts": 16,
+    "epsGrowth": 31.3,
+    "epsCur": "USD",
+    "rev": 992129390,
+    "revAnalysts": 15,
+    "revYearAgo": 907226000,
+    "revGrowth": 9.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 1.22,
+    "epsLow": 1.04,
+    "epsHigh": 1.52,
+    "epsYearAgo": 1,
+    "epsAnalysts": 17,
+    "epsGrowth": 21.8,
+    "epsCur": "USD",
+    "rev": 1025993660,
+    "revAnalysts": 16,
+    "revYearAgo": 961558000,
+    "revGrowth": 6.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 4.58,
+    "epsLow": 4.05,
+    "epsHigh": 5.12,
+    "epsYearAgo": 3.77,
+    "epsAnalysts": 18,
+    "epsGrowth": 21.5,
+    "epsCur": "USD",
+    "rev": 4029072050,
+    "revAnalysts": 18,
+    "revYearAgo": 3751806000,
+    "revGrowth": 7.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 5.07,
+    "epsLow": 4.4,
+    "epsHigh": 5.9,
+    "epsYearAgo": 4.58,
+    "epsAnalysts": 19,
+    "epsGrowth": 10.7,
+    "epsCur": "USD",
+    "rev": 4333116870,
+    "revAnalysts": 18,
+    "revYearAgo": 4029072050,
+    "revGrowth": 7.6,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 0.89,
+    "d7": 1.3,
+    "d30": 2,
+    "d90": 34.5,
+    "ago90": 0.66,
+    "up7": 1,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.22,
+    "d7": 1.7,
+    "d30": 2.6,
+    "d90": 4,
+    "ago90": 1.17,
+    "up7": 1,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 4.58,
+    "d7": 0.7,
+    "d30": 1.1,
+    "d90": 13.2,
+    "ago90": 4.04,
+    "up7": 1,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 5.07,
+    "d7": 0.9,
+    "d30": 1.2,
+    "d90": 13.7,
+    "ago90": 4.46,
+    "up7": 1,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.44,
+    "estimate": 1.18,
+    "surprisePct": 21.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.05,
+    "estimate": 1.01,
+    "surprisePct": 3.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1,
+    "estimate": 0.99,
+    "surprisePct": 1.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 0.68,
+    "estimate": 0.6,
+    "surprisePct": 13,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 2,
+   "initiations": 0,
+   "ptRaised": 13,
+   "ptLowered": 0,
+   "total": 13,
+   "recent": [
+    {
+     "date": "2026-10-06",
+     "firm": "Oppenheimer",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 122,
+     "ptPrior": 101
+    },
+    {
+     "date": "2026-09-15",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 105,
+     "ptPrior": 90
+    },
+    {
+     "date": "2026-08-26",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 105,
+     "ptPrior": 92
+    },
+    {
+     "date": "2026-07-30",
+     "firm": "Argus Research",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 110,
+     "ptPrior": 72
+    },
+    {
+     "date": "2026-07-29",
+     "firm": "Oppenheimer",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 101,
+     "ptPrior": 91
+    },
+    {
+     "date": "2026-07-29",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 93,
+     "ptPrior": 85
+    },
+    {
+     "date": "2026-07-29",
+     "firm": "Baird",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 90,
+     "ptPrior": 65
+    },
+    {
+     "date": "2026-07-29",
+     "firm": "Morgan Stanley",
+     "action": "up",
+     "from": "Underweight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 80,
+     "ptPrior": 50
+    },
+    {
+     "date": "2026-07-29",
+     "firm": "Stephens & Co.",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 93,
+     "ptPrior": 80
+    },
+    {
+     "date": "2026-07-29",
+     "firm": "Jefferies",
+     "action": "down",
+     "from": "Buy",
+     "to": "Hold",
+     "ptAction": "Raises",
+     "pt": 88,
+     "ptPrior": 75
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-27",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-19",
+  "numbers": {
+   "price": 116.18,
+   "ma20": 108.69,
+   "ma50": 107.88,
+   "ma150": 82.86,
+   "distMA50": 7.69,
+   "periodHigh": 118.63,
+   "pullbackFromHigh": -2.07,
+   "volRatio20": 0.59,
+   "dryUpRatio": 0.97
+  },
+  "last10": [
+   {
+    "d": "2026-10-06",
+    "o": 110,
+    "h": 110.68,
+    "l": 107.18,
+    "c": 108.23,
+    "v": 2072200,
+    "clsPos": 30,
+    "gapPct": 0.89
+   },
+   {
+    "d": "2026-10-07",
+    "o": 107.51,
+    "h": 107.84,
+    "l": 106.55,
+    "c": 106.99,
+    "v": 867700,
+    "clsPos": 34,
+    "gapPct": -0.67
+   },
+   {
+    "d": "2026-10-08",
+    "o": 106.65,
+    "h": 107.95,
+    "l": 105.55,
+    "c": 106.91,
+    "v": 929900,
+    "clsPos": 57,
+    "gapPct": -0.32
+   },
+   {
+    "d": "2026-10-09",
+    "o": 106.91,
+    "h": 109.2,
+    "l": 105.56,
+    "c": 108.45,
+    "v": 1137600,
+    "clsPos": 79,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-10-12",
+    "o": 108.24,
+    "h": 110.13,
+    "l": 108,
+    "c": 109,
+    "v": 1314400,
+    "clsPos": 47,
+    "gapPct": -0.19
+   },
+   {
+    "d": "2026-10-13",
+    "o": 108.76,
+    "h": 113.75,
+    "l": 108.69,
+    "c": 112.37,
+    "v": 1450700,
+    "clsPos": 73,
+    "gapPct": -0.22
+   },
+   {
+    "d": "2026-10-14",
+    "o": 112.43,
+    "h": 113,
+    "l": 109.73,
+    "c": 112.85,
+    "v": 1167600,
+    "clsPos": 95,
+    "gapPct": 0.05
+   },
+   {
+    "d": "2026-10-15",
+    "o": 113.86,
+    "h": 117.48,
+    "l": 113.51,
+    "c": 116.59,
+    "v": 1488900,
+    "clsPos": 78,
+    "gapPct": 0.89
+   },
+   {
+    "d": "2026-10-16",
+    "o": 116.96,
+    "h": 118.63,
+    "l": 113.73,
+    "c": 114.92,
+    "v": 1282400,
+    "clsPos": 24,
+    "gapPct": 0.32
+   },
+   {
+    "d": "2026-10-19",
+    "o": 114.92,
+    "h": 116.35,
+    "l": 113.96,
+    "c": 116.18,
+    "v": 752100,
+    "clsPos": 93,
+    "gapPct": 0
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CAKE-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CAKE-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 0일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

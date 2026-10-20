@@ -1,0 +1,668 @@
+{
+ "ticker": "AXTI",
+ "date": "2026-10-20",
+ "session": "2026-10-19",
+ "source": "list",
+ "plan": {
+  "ticker": "AXTI",
+  "name": "AXT",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
+  "price": 56.790000915527344,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 88.36,
+  "stop": 83.5,
+  "distToPivotPct": -35.73,
+  "distToPivotAdr": -4.17,
+  "riskPerSharePct": 5.5,
+  "adrPct": 8.56,
+  "extensionAdr": -1.86,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 14,
+   "baseWeeks": 2.8,
+   "depthPct": 42.8,
+   "priorMovePct": 140.6,
+   "higherLows": 0,
+   "contraction": 0.83,
+   "closeRange10Adr": 6.7,
+   "surf10": -1.86,
+   "surf20": -3.21,
+   "slope20": -3.17,
+   "baseLow": 50.57,
+   "lastSwingLow": 50.57
+  },
+  "reasons": [
+   "선행 상승 +141%",
+   "베이스 2.8주",
+   "✗ 깊이 42.8%",
+   "✗ 저점 상승 0회",
+   "진폭 0.83배 · 10일 종가폭 6.7 ADR",
+   "✗ 10일선 -1.9 ADR · 20일선 -3.2 ADR",
+   "✗ 20일선 기울기 -3.17%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.28950330665956514,
+    "pct": 0.6762849413886384
+   },
+   "m3": {
+    "v": 0.20241375113166796,
+    "pct": 88.2326420198377
+   },
+   "m6": {
+    "v": -0.17348272926464117,
+    "pct": 13.300270513976557
+   }
+  },
+  "ret1m": -28.95,
+  "ret3m": 20.24,
+  "ret6m": -17.35,
+  "marketCap": "3.38B",
+  "volx": 1.26,
+  "volSurgeWk": 1.22,
+  "high52": 39.67,
+  "newHigh52": false,
+  "adr": 8.56,
+  "div50": -19.06,
+  "div200": -10.21,
+  "targetStatus": false,
+  "saleCy": 146.79,
+  "saleNy": 111.35,
+  "epsCy": -311.71,
+  "epsNy": 159.22,
+  "cyTrend": 191.28,
+  "nyTrend": 1.08,
+  "est": {
+   "cyCur": 0.868,
+   "cy30": 0.298,
+   "nyCur": 2.25,
+   "ny30": 2.226
+  },
+  "fs": {
+   "sale": [
+    164.77,
+    39.1,
+    -8.22
+   ],
+   "ni": [
+    "흑자전환",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    21.9,
+    -5.89,
+    -16.64
+   ],
+   "updated": "2026-09-16 06:44:01"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-20",
+  "nameKo": "AXT",
+  "nameEn": "AXT INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001051627&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 47589000,
+     "profit": 10423000,
+     "netIncome": 11128000,
+     "margin": 21.9,
+     "yoy": {
+      "revenue": 164.8,
+      "profit": 254.5,
+      "netIncome": 258.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 26924000,
+     "profit": -1585000,
+     "netIncome": -1620000,
+     "margin": -5.9,
+     "yoy": {
+      "revenue": 39.1,
+      "profit": 84.6,
+      "netIncome": 81.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 23041000,
+     "profit": -3833000,
+     "netIncome": -3548000,
+     "margin": -16.6,
+     "yoy": {
+      "revenue": -8.2,
+      "profit": 37.8,
+      "netIncome": 30.3,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 27955000,
+     "profit": -1123000,
+     "netIncome": -1906000,
+     "margin": -4,
+     "yoy": {
+      "revenue": 18.2,
+      "profit": 67,
+      "netIncome": 35.1,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "AXT's Inventory Rises Sharply: Will Working Capital Pressure Grow?",
+     "url": "https://www.nasdaq.com/articles/axts-inventory-rises-sharply-will-working-capital-pressure-grow",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Can Surging InP Demand Strengthen AXT's Long-Term Growth Potential?",
+     "url": "https://www.nasdaq.com/articles/can-surging-inp-demand-strengthen-axts-long-term-growth-potential",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "AXT (AXTI) Is Up 12.72% in One Week: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/axt-axti-1272-one-week-what-you-should-know",
+     "date": "2026-09-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Amkor vs. AXT: Which Semiconductor Stock Is the Better Buy Now?",
+     "url": "https://www.nasdaq.com/articles/amkor-vs-axt-which-semiconductor-stock-better-buy-now",
+     "date": "2026-09-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Bull of the Day: AXT (AXTI)",
+     "url": "https://www.nasdaq.com/articles/bull-day-axt-axti",
+     "date": "2026-09-18",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "AXT's Geographic Reach Expands: Can It Drive More Revenue Growth?",
+     "url": "https://www.nasdaq.com/articles/axts-geographic-reach-expands-can-it-drive-more-revenue-growth",
+     "date": "2026-09-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "AXT's Liquidity Supports InP Capacity Expansion: Can Growth Continue?",
+     "url": "https://www.nasdaq.com/articles/axts-liquidity-supports-inp-capacity-expansion-can-growth-continue",
+     "date": "2026-09-09",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926025061/axti20260609_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926024883/axti20260715_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "3.03",
+     "5.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926024882/axti20260729_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-22",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926024184/axti20260720_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-08",
+    "itemsKo": [
+     "2.04"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926022984/axti20260629_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-02",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926022557/axti20260630_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Friday stocks from analyst calls include Nvidia, SpaceX, Amazon & more",
+   "url": "https://www.cnbc.com/2026/07/31/friday-stocks-from-analyst-calls-include-nvidia-spacex.html",
+   "date": "2026-07-31",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: AXT, Dell, Broadcom, O'Reilly & more",
+   "url": "https://www.cnbc.com/2026/07/06/stocks-making-the-biggest-moves-midday-axti-dell-avgo-orly.html",
+   "date": "2026-07-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "AXTI",
+  "fetchedAt": "2026-10-20",
+  "source": "한국투자증권 Open API",
+  "per": 3053.23,
+  "pbr": 4.21,
+  "eps": 0.02,
+  "bps": 13.48,
+  "shares": 65573200,
+  "marketCapM": 3724,
+  "high52": 143.16,
+  "high52Date": "2026-05-26",
+  "low52": 4.3503,
+  "low52Date": "2025-10-17",
+  "last": 56.79,
+  "prevClose": 51.47,
+  "nameKo": "AXT",
+  "nameEn": "AXT INC",
+  "listedOn": "0000-00-00",
+  "exchange": "나스닥",
+  "listedShares": 65573200
+ },
+ "estimates": {
+  "ticker": "AXTI",
+  "url": "https://finance.yahoo.com/quote/AXTI/analysis/",
+  "fetchedAt": "2026-10-20",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 0.31,
+    "epsLow": 0.3,
+    "epsHigh": 0.32,
+    "epsYearAgo": -0.03,
+    "epsAnalysts": 5,
+    "epsGrowth": "n/m",
+    "epsCur": "USD",
+    "rev": 66004800,
+    "revAnalysts": 5,
+    "revYearAgo": 27955000,
+    "revGrowth": 136.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 0.36,
+    "epsLow": 0.33,
+    "epsHigh": 0.41,
+    "epsYearAgo": -0.05,
+    "epsAnalysts": 5,
+    "epsGrowth": "n/m",
+    "epsCur": "USD",
+    "rev": 77450800,
+    "revAnalysts": 5,
+    "revYearAgo": 23041000,
+    "revGrowth": 236.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 0.87,
+    "epsLow": 0.81,
+    "epsHigh": 0.91,
+    "epsYearAgo": -0.41,
+    "epsAnalysts": 5,
+    "epsGrowth": 311.7,
+    "epsCur": "USD",
+    "rev": 217978200,
+    "revAnalysts": 5,
+    "revYearAgo": 88326000,
+    "revGrowth": 146.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 2.25,
+    "epsLow": 1.92,
+    "epsHigh": 2.61,
+    "epsYearAgo": 0.87,
+    "epsAnalysts": 5,
+    "epsGrowth": 159.2,
+    "epsCur": "USD",
+    "rev": 460690000,
+    "revAnalysts": 4,
+    "revYearAgo": 217978200,
+    "revGrowth": 111.4,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 0.31,
+    "d7": 202,
+    "d30": 202,
+    "d90": 190.6,
+    "ago90": 0.11,
+    "up7": 4,
+    "up30": 4,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 0.36,
+    "d7": 184.4,
+    "d30": 184.4,
+    "d90": 175.8,
+    "ago90": 0.13,
+    "up7": 4,
+    "up30": 4,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 0.87,
+    "d7": 191.3,
+    "d30": 191.3,
+    "d90": 185.5,
+    "ago90": 0.3,
+    "up7": 4,
+    "up30": 4,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 2.25,
+    "d7": 1.1,
+    "d30": 1.1,
+    "d90": 199.2,
+    "ago90": 0.75,
+    "up7": 1,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 0.19,
+    "estimate": 0.07,
+    "surprisePct": 163.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": -0.01,
+    "estimate": -0.05,
+    "surprisePct": 78.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": -0.05,
+    "estimate": -0.06,
+    "surprisePct": 13.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": -0.03,
+    "estimate": -0.12,
+    "surprisePct": 74.6,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 1,
+   "ptLowered": 1,
+   "total": 3,
+   "recent": [
+    {
+     "date": "2026-07-31",
+     "firm": "B. Riley Securities",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 55,
+     "ptPrior": 52
+    },
+    {
+     "date": "2026-07-31",
+     "firm": "Needham",
+     "action": "up",
+     "from": "Hold",
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 90,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-07-28",
+     "firm": "B. Riley Securities",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 52,
+     "ptPrior": 73
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-10-29",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-19",
+  "numbers": {
+   "price": 56.79,
+   "ma20": 72.38,
+   "ma50": 70.16,
+   "ma150": 75.08,
+   "distMA50": -19.06,
+   "periodHigh": 143.16,
+   "pullbackFromHigh": -60.33,
+   "volRatio20": 1.56,
+   "dryUpRatio": 1.37
+  },
+  "last10": [
+   {
+    "d": "2026-10-06",
+    "o": 87.78,
+    "h": 88.36,
+    "l": 83.91,
+    "c": 84.06,
+    "v": 6154600,
+    "clsPos": 3,
+    "gapPct": 1.29
+   },
+   {
+    "d": "2026-10-07",
+    "o": 79.78,
+    "h": 83.22,
+    "l": 78.7,
+    "c": 79.79,
+    "v": 6320500,
+    "clsPos": 24,
+    "gapPct": -5.09
+   },
+   {
+    "d": "2026-10-08",
+    "o": 77.07,
+    "h": 77.25,
+    "l": 71.02,
+    "c": 71.66,
+    "v": 10130500,
+    "clsPos": 10,
+    "gapPct": -3.41
+   },
+   {
+    "d": "2026-10-09",
+    "o": 73.77,
+    "h": 75.49,
+    "l": 68.2,
+    "c": 68.46,
+    "v": 8771400,
+    "clsPos": 4,
+    "gapPct": 2.94
+   },
+   {
+    "d": "2026-10-12",
+    "o": 66.3,
+    "h": 66.41,
+    "l": 61.86,
+    "c": 61.98,
+    "v": 9595200,
+    "clsPos": 3,
+    "gapPct": -3.16
+   },
+   {
+    "d": "2026-10-13",
+    "o": 60.79,
+    "h": 64.96,
+    "l": 60.05,
+    "c": 64.63,
+    "v": 10600200,
+    "clsPos": 93,
+    "gapPct": -1.92
+   },
+   {
+    "d": "2026-10-14",
+    "o": 61.76,
+    "h": 65.35,
+    "l": 60.31,
+    "c": 61.59,
+    "v": 8976900,
+    "clsPos": 25,
+    "gapPct": -4.44
+   },
+   {
+    "d": "2026-10-15",
+    "o": 57.51,
+    "h": 59.01,
+    "l": 53.31,
+    "c": 57.91,
+    "v": 14745900,
+    "clsPos": 81,
+    "gapPct": -6.62
+   },
+   {
+    "d": "2026-10-16",
+    "o": 56.23,
+    "h": 56.58,
+    "l": 50.57,
+    "c": 51.47,
+    "v": 11417100,
+    "clsPos": 15,
+    "gapPct": -2.9
+   },
+   {
+    "d": "2026-10-19",
+    "o": 55.33,
+    "h": 59.43,
+    "l": 54.66,
+    "c": 56.79,
+    "v": 13486300,
+    "clsPos": 45,
+    "gapPct": 7.5
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AXTI-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AXTI-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 0일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

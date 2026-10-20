@@ -1,0 +1,225 @@
+{
+ "ticker": "IT",
+ "sector": "Technology",
+ "industry": "Information Technology Services",
+ "nameKo": "가트너",
+ "site": {
+  "targetStatus": false,
+  "saleCy": -1.28,
+  "saleNy": 4.02,
+  "epsCy": 9.72,
+  "epsNy": 13.39,
+  "est": {
+   "cyCur": 14.44994,
+   "cy30": 14.44775,
+   "nyCur": 16.385,
+   "ny30": 16.36802
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -0.62,
+    -1.51,
+    2.18
+   ],
+   "ni": [
+    14.42,
+    5.41,
+    -39.25
+   ],
+   "opm": [
+    22.59,
+    20.92,
+    19.07
+   ],
+   "updated": "2026-09-08 07:56:54"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-10-16",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 2,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-19",
+  "nameKo": "가트너",
+  "nameEn": "GARTNER INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000749251&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1675943000,
+     "profit": 378520000,
+     "netIncome": 275498000,
+     "margin": 22.6,
+     "yoy": {
+      "revenue": -0.6,
+      "profit": 15.7,
+      "netIncome": 14.4,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1511041000,
+     "profit": 316092000,
+     "netIncome": 222344000,
+     "margin": 20.9,
+     "yoy": {
+      "revenue": -1.5,
+      "profit": 13.7,
+      "netIncome": 5.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1752570000,
+     "profit": 334239000,
+     "netIncome": 241921000,
+     "margin": 19.1,
+     "yoy": {
+      "revenue": 2.2,
+      "profit": 5.2,
+      "netIncome": -39.3,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1524072000,
+     "profit": 86344000,
+     "netIncome": 35357000,
+     "margin": 5.7,
+     "yoy": {
+      "revenue": 2.7,
+      "profit": -64.9,
+      "netIncome": -91.5,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Gartner Stock Rises 41% in Three Months: Here's What You Should Know",
+     "url": "https://www.nasdaq.com/articles/gartner-stock-rises-41-three-months-heres-what-you-should-know",
+     "date": "2026-09-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Gartner (IT) is a Top Value Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-gartner-it-top-value-stock-long-term",
+     "date": "2026-09-22",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-08",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/749251/000119312526417937/d158580d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000243/it-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-02",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000198/it-20260528.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000165/it-20260430.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-03",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000028/it-20260129.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-29",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/749251/000074925126000025/it-20260129.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "IT",
+  "fetchedAt": "2026-10-20",
+  "source": "한국투자증권 Open API",
+  "per": 18.64,
+  "pbr": 0,
+  "eps": 11.15,
+  "bps": 0,
+  "shares": 63149000,
+  "marketCapM": 13117,
+  "high52": 261.1,
+  "high52Date": "2025-10-21",
+  "low52": 124.25,
+  "low52Date": "2026-06-22",
+  "last": 207.72,
+  "prevClose": 205.35,
+  "nameKo": "가트너",
+  "nameEn": "GARTNER INC",
+  "listedOn": "0000-00-00",
+  "exchange": "뉴욕거래소",
+  "listedShares": 63149000
+ }
+}
