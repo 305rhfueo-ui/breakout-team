@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-10-20T03:54:59.325Z",
+  "updated": "2026-10-21T22:10:02.733Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -124,21 +124,6 @@ window.HOLDINGS_DATA = {
           "headline": "골드만삭스, 팔란티어 상승세 이어질 것으로 전망",
           "easy": "제목에 따르면 팔란티어가 가파르게 올랐고 골드만삭스는 앞으로도 모멘텀이 더 있다고 본다. 근거와 목표가는 기사에 안 나왔다.",
           "whyMatters": "대형 투자은행이 긍정적으로 본다는 점은 보유자에게 우호적이다. 구체적 내용은 확인할 수 없다.",
-          "quote": null,
-          "read": false
-        },
-        {
-          "type": "cnbc",
-          "title": "Dan Ives says AI buildout only in 3rd inning. Here are his top 5 plays from here",
-          "url": "https://www.cnbc.com/2026/10/07/dan-ives-says-ai-buildout-only-in-3rd-inning-here-are-his-top-5-plays-from-here-.html",
-          "date": "2026-10-07",
-          "publisher": "CNBC",
-          "ko": "댄 아이브스, AI 투자는 3회 초반이라며 5종목 제시",
-          "tone": "neutral",
-          "isNew": false,
-          "headline": "댄 아이브스, AI 투자는 3회 초반이라며 5종목 제시",
-          "easy": "제목에 따르면 댄 아이브스는 AI 인프라 구축이 야구로 치면 3회 정도에 불과하다고 보며 유망 5종목을 꼽았다. 팔란티어가 포함됐는지는 기사에 안 나왔다.",
-          "whyMatters": "AI 투자 흐름이 길게 이어진다는 시각이지만, 팔란티어와의 직접 관련은 확인되지 않는다.",
           "quote": null,
           "read": false
         }
