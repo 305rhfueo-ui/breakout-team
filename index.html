@@ -868,10 +868,11 @@ function verdictBlock(x){
 function openTicker(T){
   const t2=D.t2||{},pool=[...(t2.picks||[]),...(t2.listPicks||[])];
   const od=((D.od&&D.od.items)||[]).find(x=>x.ticker===T)||null;
-  const p=pool.find(x=>x.ticker===T)||od;   // 목록에 없는 종목은 7팀이 모은 자료(체크표·KIS·CNBC·실적)로 팝업을 채운다
+  const ep=((D.t4&&D.t4.items)||[]).find(x=>x.ticker===T)||null;
+  // 목록에 없는 종목은 7팀(물어본 종목) 또는 재민(4팀 EP)이 모은 자료(체크표·KIS·CNBC·실적·전망치)로 팝업을 채운다 (2026-10-22 재민 추가)
+  const p=pool.find(x=>x.ticker===T)||od||(ep&&ep.checks?ep:null);
   const it=t2.lists?LKEYS.map(k=>t2.lists[k].items.find(i=>i.ticker===T)).find(Boolean):null;
   const plan=[...((D.t6&&D.t6.plans)||[]),...((D.t6&&D.t6.post)||[])].find(x=>x.ticker===T)||null;
-  const ep=((D.t4&&D.t4.items)||[]).find(x=>x.ticker===T)||null;
   const inLists=t2.lists?LKEYS.filter(k=>t2.lists[k].items.some(i=>i.ticker===T)).map(k=>t2.lists[k].label):[];
   const nm=(p&&(p.nameKo||p.nameEn))||(it&&it.name)||(plan&&plan.name)||'';
   const ind=(p&&p.industry)||(it&&it.industry)||(plan&&plan.industry)||'';
@@ -895,7 +896,7 @@ function openTicker(T){
   if(CKS){
     h+=`<div class="sec"><h4>쿨라매기 돌파 셋업 체크 <span class="chip">코드 계산 · 판정 아님</span></h4>${ck(CKS.qm)}
       <div class="note">기준: docs/기준-쿨라매기-차트.md · 피벗·베이스 수치는 서준과 같은 계산${p.setup&&p.setup.pivot?` (피벗 ${n(p.setup.pivot)} · 예비 손절 ${n(p.setup.stop)})`:''}</div></div>`;
-    h+=`<div class="sec"><h4>CAN SLIM 체크 <span class="chip">코드 계산 · N 은 AI 심층 분석</span></h4>${ck(canslimRows(CKS.canslim,DL))}
+    h+=`<div class="sec"><h4>CAN SLIM 체크 <span class="chip">코드 계산 · N 은 AI 심층 분석</span></h4>${ck(canslimRows(CKS.canslim,DL,p===ep?ep:null))}
       <div class="note">기준: docs/기준-CANSLIM-재무.md (오닐) · C·A 는 EPS 대신 순이익 증가율로 근사 · N(신제품·신서비스와 그 매출·이익 영향)은 증권사 리포트·기사를 읽은 심층 분석 결과 · 기관 보유 자료 없음</div></div>`;
   }
   if(p&&p!==od&&p.deep&&!(plan&&plan.deep))h+=`<div class="sec"><h4>AI 심층 분석 <span class="dim">(도윤 목록 순환)</span></h4>${deepBlock(p.deep)}</div>`;
@@ -949,8 +950,13 @@ function nRowOf(D){
     :cut((String(D.nNarrative||'').match(/^.*?[.!?。](\s|$)/)||[D.nNarrative||'최근 3개월 안에 확인된 신제품·신서비스가 없다'])[0],120);
   return {item:'N 신제품·신서비스',status:st,evidence:`${D.nVerdict} · ${what} (${D.researchedOn||''} 분석 · 아래 "N — 새로운 성장 동력")`};
 }
-function canslimRows(rows,D){
-  const r=nRowOf(D);
+function canslimRows(rows,D,ep){
+  let r=nRowOf(D);
+  // 재민 종목은 목록 순환 심층 분석 대상이 아니다 — "순환 대기"라고 쓰면 거짓이 된다. 재민의 촉매 분류를 대신 보인다(판정은 하지 않음).
+  if(!r&&ep){const c=ep.catalyst||{};
+    r={item:'N 신제품·신서비스',status:'확인 불가',evidence:c.status==='done'
+      ?`재민 촉매 분류: ${'①②③④⑤⑥'[(c.category||6)-1]||''} ${c.categoryName||''}${c.volumeExplanation?` — ${String(c.volumeExplanation).slice(0,110)}`:''} (재민 종목은 N 심층 분석 대상이 아님 — 아래 촉매 근거 참고)`
+      :'재민 촉매 분류 대기(화~토 아침 리서치) — 재민 종목은 N 심층 분석 대상이 아님'};}
   return r?(rows||[]).map(x=>String(x.item||'')[0]==='N'?r:x):rows;
 }
 

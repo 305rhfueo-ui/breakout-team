@@ -147,7 +147,7 @@ async function price(ticker) {
 //            상품기본정보 CTPF1702R = 한글명·상장일·거래소 (PRDT_TYPE_CD 512 나스닥 · 513 뉴욕 · 529 아멕스).
 // ⚠️ 미국 종목 증권사 분석 리포트는 KIS API 에 없다(국내 종목 투자의견만). 해외 속보는 기사 링크가 없어 출처로 못 쓴다.
 const PRDT = { NAS: '512', NYS: '513', AMS: '529' };
-const ymd = (v) => (/^\d{8}$/.test(String(v || '')) ? `${String(v).slice(0, 4)}-${String(v).slice(4, 6)}-${String(v).slice(6, 8)}` : null);
+const ymd = (v) => (/^[12]\d{7}$/.test(String(v || '')) ? `${String(v).slice(0, 4)}-${String(v).slice(4, 6)}-${String(v).slice(6, 8)}` : null);
 
 function mapPriceDetail(o) {
   if (!o) return null;

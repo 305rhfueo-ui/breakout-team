@@ -184,7 +184,8 @@ async function tick({ nowMs, sessionDate, ledger, watch, rules, acct, prov, dry 
       if (isMain && w.sector && ledger.main().filter((p) => p.ctx && p.ctx.sector === w.sector).length >= rules.entry.maxPerSector) { log[log.length - 1].ko += ' — 같은 섹터 상한'; continue; }
       const ctx = { orh: r.orh, pace: r.pace, ext: r.ext, levelIs: r.levelIs, stopIs: r.stopIs, at: r.at, pivot: w.pivot, sector: w.sector || null, industry: w.industry || null,
         baseWeeks: w.metrics ? w.metrics.baseWeeks : null, depthPct: w.metrics ? w.metrics.depthPct : null, priorMovePct: w.metrics ? w.metrics.priorMovePct : null,
-        catalyst: w.catalyst ? w.catalyst.category : null, flow: w.flow ? w.flow.flow : null, regime: watch.regime, source: prov.name };
+        catalyst: w.catalyst ? w.catalyst.category : null, flow: w.flow ? w.flow.flow : null, regime: watch.regime, source: prov.name,
+        metrics: w.metrics || null, score: w.score ?? null };   // 진입 당시 지표 전부 — 주간 리뷰가 어떤 셋업이 통했는지 가른다 (2026-10-22)
       const lastT = b.bars[r.barIdx].t;   // 트리거 봉까지는 본 것으로 친다 — 손절 확인은 그다음 봉부터
       for (const book of (isMain ? ['main', 'trail20'] : [w.shadowBook || 'gradeC'])) {
         const p = paper.open({ ticker: w.ticker, date: sessionDate, at: r.entryAt, entry: r.entry, stop: r.stop, book, rules, riskPct: acct.riskPct, regime: watch.regime, grade: w.grade, ctx });

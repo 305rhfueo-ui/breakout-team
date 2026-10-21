@@ -308,7 +308,9 @@ async function run({ force = false, send = true, dry = false, ai = true, publish
         const dg = cleanDigest(raw, b.refs[0], { quoteOk });
         const unrelated = !!(raw && raw.about === 'no' && b.refs[0].type === 'cnbc');   // CNBC 태그가 느슨하다 — 다른 회사만 다루는 기사는 뺀다
         for (const r of b.refs) { r.digest = dg; r.summary = dg ? { ko: dg.headline, tone: dg.tone } : null; if (unrelated) r.unrelated = true; }
-        if (raw) sums[b.key] = { v: 2, ...(dg || {}), headline: dg ? dg.headline : null, unrelated, at: d };
+        // Laya·Nimble(로컬 판정 모델)도 같은 제목·요약·본문으로 about·tone 을 낸다 — 기록만(주간 리뷰가 Claude 와 일치율을 본다). Ollama 가 없으면 null (2026-10-22)
+        const local = raw ? await require('./lib/local-judge').judgeNews({ ticker: b.ticker, title: b.title, text: b.text, body: b.body }) : null;
+        if (raw) sums[b.key] = { v: 2, ...(dg || {}), headline: dg ? dg.headline : null, unrelated, at: d, ticker: b.ticker, side: b.side, about: raw.about, claudeTone: raw.tone, local };
       }
     }
     for (const g of groups) { g.items = g.items.filter((it) => !it.unrelated); g.show = g.show.filter((it) => !it.unrelated); }

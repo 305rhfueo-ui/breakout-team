@@ -85,6 +85,13 @@ const tail = (f, n = 2) => { try { return fs.readFileSync(f, 'utf8').replace(/\x
     if (web && web === local) ok.push(`웹 반영 ${web}`); else bad.push(`웹 데이터 ${web || '?'} ≠ 로컬 ${local || '?'}`);
   } catch (e) { bad.push(`공개 사이트 확인 실패: ${e.message}`); }
 
+  // ⑧ 로컬 판정 모델(Ollama) — 선택 기능. 꺼져 있어도 실패가 아니다(Claude 옆 기록만 빠진다)
+  try {
+    const tags = await (await fetch('http://localhost:11434/api/tags', { signal: AbortSignal.timeout(3000) })).json();
+    const have = ['laya', 'nimble'].filter((m) => (tags.models || []).some((x) => x.name.startsWith(m + ':')));
+    ok.push(`참고: Ollama 응답 (${have.join('·') || '모델 없음'})`);
+  } catch (e) { ok.push('참고: Ollama 응답 없음 — 로컬 판정 기록만 빠짐'); }
+
   const head = bad.length ? `⚠️ 자동 실행 점검 — 문제 ${bad.length}건` : '✅ 자동 실행 점검 — 이상 없음';
   const msg = [head, ...bad.map((b) => `✗ ${b}`), ...ok.map((o) => `✓ ${o}`)].join('\n');
   say(bad.length ? 'WARN' : 'SYSTEM', msg);

@@ -78,7 +78,16 @@ function watchlistOf(team6) {
       ma10: p.ma10, metrics: p.metrics, catalyst: p.catalyst,
       price: p.price, sector: p.sector, industry: p.industry, score: p.score, reasons: p.reasons,
     })),
+    // 사지 않은 후보도 남긴다 (2026-10-22 학습 고리) — 막힌 후보(사유)·이미 돌파한 후보. 주간 리뷰가 10·21거래일 뒤 결과로 채점한다.
+    //   빨간불 날은 items 가 비어 채점할 것이 없었다. paper-trader 는 items 만 읽는다(others 는 매매에 쓰지 않음). 퍼센트만 — 수량 없음.
+    others: [...team6.plans.filter((p) => !p.watch && !p.shadowBook).map((p) => ({ ...slimOther(p), kind: 'blocked', blocked: p.blocked || null })),
+      ...(team6.post || []).map((p) => ({ ...slimOther(p), kind: 'post', breakDate: p.breakDate || null }))],
   };
+}
+function slimOther(p) {
+  return { ticker: p.ticker, grade: p.grade, state: p.state, pivot: p.pivot, stopPre: p.stop, price: p.price, distToPivotAdr: p.distToPivotAdr ?? null,
+    extensionAdr: p.extensionAdr ?? null, adrPct: p.adrPct ?? null, metrics: p.metrics || null, catalyst: p.catalyst ? p.catalyst.category ?? null : null,
+    earnings: p.earnings ?? null, score: p.score ?? null, reasons: p.reasons || null, sector: p.sector || null, industry: p.industry || null };
 }
 
 const sg = (x) => (x == null ? '—' : `${x > 0 ? '+' : ''}${x}`);
