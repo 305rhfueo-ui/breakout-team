@@ -10,12 +10,10 @@
 // Ollama 가 꺼져 있거나 응답 모양이 바뀌면 그 모델 값은 null — 절대 throw 하지 않는다(기존 흐름에 영향 없음).
 const HOST = process.env.OLLAMA_URL || 'http://localhost:11434';
 const MODELS = ['laya', 'nimble'];
-let down = false;                                   // 한 번 연결이 안 되면 이 프로세스에서는 다시 부르지 않는다
 
 const r2 = (v) => (Number.isFinite(v) ? Math.round(v * 100) / 100 : null);
 
 async function ask(model, state, questions) {
-  if (down) return null;
   try {
     const r = await fetch(`${HOST}/v1/systemone`, { method: 'POST', body: JSON.stringify({ model, state, questions }), signal: AbortSignal.timeout(60000) });
     if (!r.ok) return null;
@@ -27,7 +25,7 @@ async function ask(model, state, questions) {
       out[k] = q.type === 'noul' ? r2(x.noul) : typeof x.choice === 'string' ? { v: x.choice, conf: r2(x.confidence) } : null;
     }
     return out;
-  } catch (e) { if (e.cause && /ECONNREFUSED/.test(e.cause.code || '')) down = true; return null; }
+  } catch (e) { return null; }
 }
 
 // 같은 입력을 두 모델에 → { laya: {...}|null, nimble: {...}|null } | null(둘 다 실패)
@@ -76,4 +74,4 @@ async function judgeNews({ ticker, title, text, body }) {
   return out;
 }
 
-module.exports = { judge, judgeCatalyst, judgeNews, catalystState, MODELS };
+module.exports = { judgeCatalyst, judgeNews, catalystState };

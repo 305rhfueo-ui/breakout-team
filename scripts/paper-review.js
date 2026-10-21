@@ -195,6 +195,6 @@ async function main() {
   }
 }
 
-module.exports = { scoreReads, scoreAt, learnSection };
+module.exports = { scoreReads, scoreAt };
 
 if (require.main === module) main().catch((e) => { console.error('리뷰 오류:', e); process.exit(1); });
