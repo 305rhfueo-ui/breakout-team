@@ -1,0 +1,262 @@
+{
+ "ticker": "URBN",
+ "sector": "Consumer Cyclical",
+ "industry": "Apparel Retail",
+ "nameKo": "어반 아웃피터스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.51,
+  "saleNy": 6.92,
+  "epsCy": 40.48,
+  "epsNy": -3.56,
+  "est": {
+   "cyCur": 7.10816,
+   "cy30": 6.17822,
+   "nyCur": 6.85487,
+   "ny30": 6.71046
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    10.44,
+    11.42,
+    10.12
+   ],
+   "ni": [
+    67.28,
+    6.79,
+    -19.98
+   ],
+   "opm": [
+    17.37,
+    9.43,
+    8.81
+   ],
+   "updated": "2026-09-07 07:41:44"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-10-20",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-21",
+  "nameKo": "어반 아웃피터스",
+  "nameEn": "URBAN OUTFITTERS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000912615&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-07-31",
+     "derived": false,
+     "revenue": 1661915000,
+     "profit": 288739000,
+     "netIncome": 240651000,
+     "margin": 17.4,
+     "yoy": {
+      "revenue": 10.4,
+      "profit": 65.6,
+      "netIncome": 67.3,
+      "priorEnd": "2025-07-31"
+     }
+    },
+    {
+     "periodEnd": "2026-04-30",
+     "derived": false,
+     "revenue": 1481345000,
+     "profit": 139681000,
+     "netIncome": 115705000,
+     "margin": 9.4,
+     "yoy": {
+      "revenue": 11.4,
+      "profit": 8.9,
+      "netIncome": 6.8,
+      "priorEnd": "2025-04-30"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 1801770000,
+     "profit": 158701000,
+     "netIncome": 96267000,
+     "margin": 8.8,
+     "yoy": {
+      "revenue": 10.1,
+      "profit": 26.6,
+      "netIncome": -20,
+      "priorEnd": "2025-01-31"
+     }
+    },
+    {
+     "periodEnd": "2025-10-31",
+     "derived": false,
+     "revenue": 1529350000,
+     "profit": 144319000,
+     "netIncome": 116440000,
+     "margin": 9.4,
+     "yoy": {
+      "revenue": 12.3,
+      "profit": 12.1,
+      "netIncome": 13.1,
+      "priorEnd": "2024-10-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Urban Outfitters' Brand Momentum Sets the Stage for Continued Growth",
+     "url": "https://www.nasdaq.com/articles/urban-outfitters-brand-momentum-sets-stage-continued-growth",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Needham Initiates Coverage of Urban Outfitters with Buy Rating",
+     "url": "https://www.nasdaq.com/articles/needham-initiates-coverage-urban-outfitters-buy-rating",
+     "date": "2026-10-17",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "URBN vs. ZGN: Which Stock Is the Better Value Option?",
+     "url": "https://www.nasdaq.com/articles/urbn-vs-zgn-which-stock-better-value-option",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Urban Outfitters (URBN) Stock Undervalued Right Now?",
+     "url": "https://www.nasdaq.com/articles/urban-outfitters-urbn-stock-undervalued-right-now",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Urban Outfitters (URBN) is a Top Growth Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-urban-outfitters-urbn-top-growth-stock-long-term",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Urban Outfitters (URBN) is a Strong Momentum Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-urban-outfitters-urbn-strong-momentum-stock",
+     "date": "2026-10-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Urban Outfitters (URBN) is a Top Value Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-urban-outfitters-urbn-top-value-stock-long-term-0",
+     "date": "2026-10-08",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-27",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/912615/000119312526369924/urbn-20260826.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-05",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/912615/000119312526259496/d158763d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-26",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/912615/000119312526239316/d147336d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-21",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/912615/000119312526233928/urbn-20260520.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-26",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/912615/000119312526074606/urbn-20260225.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-12",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/912615/000119312526010089/urbn-20260112.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves after hours: Nvidia, Salesforce, CrowdStrike, Urban Outfitters and more",
+   "url": "https://www.cnbc.com/2026/08/26/stocks-making-the-biggest-moves-after-hours-nvda-crm-crwd-urbn-and-more.html",
+   "date": "2026-08-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "URBN",
+  "fetchedAt": "2026-10-21",
+  "source": "한국투자증권 Open API",
+  "per": 13.62,
+  "pbr": 2.62,
+  "eps": 6.41,
+  "bps": 33.32,
+  "shares": 85660200,
+  "marketCapM": 7480,
+  "high52": 90.59,
+  "high52Date": "2026-10-16",
+  "low52": 59.535,
+  "low52Date": "2025-11-19",
+  "last": 87.32,
+  "prevClose": 86.83,
+  "nameKo": "어반 아웃피터스",
+  "nameEn": "URBAN OUTFITTERS INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 85660200
+ }
+}

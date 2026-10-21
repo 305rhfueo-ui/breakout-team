@@ -1,0 +1,496 @@
+{
+ "ticker": "RMBS",
+ "date": "2026-10-21",
+ "session": "2026-10-20",
+ "source": "list",
+ "plan": {
+  "ticker": "RMBS",
+  "name": "램버스",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "price": 92.66000366210938,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 114.97,
+  "stop": 110.52,
+  "distToPivotPct": -19.61,
+  "distToPivotAdr": -4.07,
+  "riskPerSharePct": 3.87,
+  "adrPct": 4.82,
+  "extensionAdr": -1.34,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 14,
+   "baseWeeks": 2.8,
+   "depthPct": 24.5,
+   "priorMovePct": 43.7,
+   "higherLows": 0,
+   "contraction": 1,
+   "closeRange10Adr": 5.4,
+   "surf10": -1.34,
+   "surf20": -2.3,
+   "slope20": 0.01,
+   "baseLow": 86.78,
+   "lastSwingLow": 86.78
+  },
+  "reasons": [
+   "선행 상승 +44%",
+   "베이스 2.8주",
+   "깊이 24.5%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1배 · 10일 종가폭 5.4 ADR",
+   "✗ 10일선 -1.3 ADR · 20일선 -2.3 ADR",
+   "20일선 기울기 +0.01%"
+  ],
+  "earnings": "2026-10-26"
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.04434813802563133,
+    "pct": 30.793507664562668
+   },
+   "m3": {
+    "v": -0.034892182060028656,
+    "pct": 44.950405770964835
+   },
+   "m6": {
+    "v": -0.16725077327587642,
+    "pct": 13.0297565374211
+   }
+  },
+  "ret1m": -4.43,
+  "ret3m": -3.49,
+  "ret6m": -16.73,
+  "marketCap": "10.05B",
+  "volx": null,
+  "volSurgeWk": 0.75,
+  "high52": 53.22,
+  "newHigh52": false,
+  "adr": 4.72,
+  "div50": -2.65,
+  "div200": -14.45,
+  "targetStatus": false,
+  "saleCy": 17.39,
+  "saleNy": 20.44,
+  "epsCy": 23.68,
+  "epsNy": 24.2,
+  "cyTrend": 0.06,
+  "nyTrend": 1.38,
+  "est": {
+   "cyCur": 3.0375,
+   "cy30": 3.03571,
+   "nyCur": 3.7725,
+   "ny30": 3.72125
+  },
+  "fs": {
+   "sale": [
+    20.43,
+    8.12,
+    18.09
+   ],
+   "ni": [
+    16.69,
+    -0.74,
+    2.63
+   ],
+   "opm": [
+    35.07,
+    34.27,
+    37.23
+   ],
+   "updated": "2026-09-08 08:39:35"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-21",
+  "nameKo": "램버스",
+  "nameEn": "RAMBUS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000917273&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 180189000,
+     "profit": 61758000,
+     "netIncome": 59858000,
+     "margin": 34.3,
+     "yoy": {
+      "revenue": 8.1,
+      "profit": -2.2,
+      "netIncome": -0.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 190244000,
+     "profit": 70826000,
+     "netIncome": 63840000,
+     "margin": 37.2,
+     "yoy": {
+      "revenue": 18.1,
+      "profit": 22.4,
+      "netIncome": 2.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 178513000,
+     "profit": 63255000,
+     "netIncome": 48377000,
+     "margin": 35.4,
+     "yoy": {
+      "revenue": 22.7,
+      "profit": 15.7,
+      "netIncome": -0.6,
+      "priorEnd": "2024-09-30"
+     }
+    },
+    {
+     "periodEnd": "2025-06-30",
+     "derived": false,
+     "revenue": 172209000,
+     "profit": 62993000,
+     "netIncome": 57935000,
+     "margin": 36.6,
+     "yoy": {
+      "revenue": 30.3,
+      "profit": 56.2,
+      "netIncome": 60.7,
+      "priorEnd": "2024-06-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Do Options Traders Know Something About Rambus Stock We Don't?",
+     "url": "https://www.nasdaq.com/articles/do-options-traders-know-something-about-rambus-stock-we-dont",
+     "date": "2026-09-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Wall Street Analysts Believe Rambus (RMBS) Could Rally 51.77%: Here's is How to Trade",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-believe-rambus-rmbs-could-rally-5177-heres-how-trade",
+     "date": "2026-08-26",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Rambus: Another AI Phoenix Ready to Rise From the Ashes of Correction",
+     "url": "https://www.nasdaq.com/articles/rambus-another-ai-phoenix-ready-rise-ashes-correction",
+     "date": "2026-07-28",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Rambus Q2 Results Highlight AI-Fueled Growth Strategy",
+     "url": "https://www.nasdaq.com/articles/rambus-q2-results-highlight-ai-fueled-growth-strategy",
+     "date": "2026-07-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Rambus Inc. Bottom Line Rises In Q2",
+     "url": "https://www.nasdaq.com/articles/rambus-inc-bottom-line-rises-q2",
+     "date": "2026-07-27",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Rambus Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/rambus-q2-earnings-call-highlights",
+     "date": "2026-07-27",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Rambus (RMBS) Surpasses Q2 Earnings and Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/rambus-rmbs-surpasses-q2-earnings-and-revenue-estimates",
+     "date": "2026-07-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Rambus Q2 26 Earnings Conference Call At 5:00 PM ET",
+     "url": "https://www.nasdaq.com/articles/rambus-q2-26-earnings-conference-call-5-00-pm-et",
+     "date": "2026-07-27",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-04",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/917273/000119312526383630/d80115d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/917273/000119312526333887/d122300d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/917273/000119312526318063/rmbs-20260727.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-29",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/917273/000119312526192210/d20390d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/917273/000119312526182076/rmbs-20260427.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-24",
+    "itemsKo": [
+     "주주총회 표결",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/917273/000119312526177140/d44557d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-02-04",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "title": "[램버스 (NAS:RMBS)] AI 메모리 병목을 해결하는 인터페이스 강자",
+     "summary": "- AI 매출 비중 75% 상회, 메모리 병목 해소 기반 독보적 IP 경쟁력- 단기 공급망 노이즈에 따른 주가 급락에 따른 밸류에이션 부담 해소- DDR5 사이클 가속화 및 컨센서스 기반 연 20% EPS 성장 가시성 확보",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcezlmqqlzkmmgcgxecge.pdf",
+     "pages": "4"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "RMBS-report1.pdf",
+   "broker": "키움증권",
+   "analyst": "박기현",
+   "date": "2026-02-04",
+   "title": "[램버스 (NAS:RMBS)] AI 메모리 병목을 해결하는 인터페이스 강자",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqcezlmqqlzkmmgcgxecge.pdf",
+   "pages": "4"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves after hours: Cadence Design, Rambus and more",
+   "url": "https://www.cnbc.com/2026/07/27/stocks-making-the-biggest-moves-after-hours-cdns-rmbs-well.html",
+   "date": "2026-07-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Thursday's biggest analyst calls: Nvidia, Apple, SpaceX, Blackrock, Cintas, JPMorgan & more",
+   "url": "https://www.cnbc.com/2026/07/16/thursdays-stock-calls-include-spacex-and-nvidia.html",
+   "date": "2026-07-16",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Lightning Round: L3Harris should not be going down, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/10/07/lightning-round-l3harris-should-not-be-going-down-says-jim-cramer.html",
+   "date": "2026-10-07",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "RMBS",
+  "fetchedAt": "2026-10-21",
+  "source": "한국투자증권 Open API",
+  "per": 42.3,
+  "pbr": 6.83,
+  "eps": 2.18,
+  "bps": 13.52,
+  "shares": 108462000,
+  "marketCapM": 10024,
+  "high52": 174.1,
+  "high52Date": "2026-06-03",
+  "low52": 77.89,
+  "low52Date": "2026-03-30",
+  "last": 92.42,
+  "prevClose": 92.66,
+  "nameKo": "램버스",
+  "nameEn": "RAMBUS INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 108462000
+ },
+ "estimates": null,
+ "chart": {
+  "lastBar": "2026-10-20",
+  "numbers": {
+   "price": 92.42,
+   "ma20": 102.64,
+   "ma50": 95.12,
+   "ma150": 110.5,
+   "distMA50": -2.83,
+   "periodHigh": 174.1,
+   "pullbackFromHigh": -46.92,
+   "volRatio20": 0.78,
+   "dryUpRatio": 0.95
+  },
+  "last10": [
+   {
+    "d": "2026-10-07",
+    "o": 110.94,
+    "h": 112.27,
+    "l": 109.25,
+    "c": 111.48,
+    "v": 1070100,
+    "clsPos": 74,
+    "gapPct": -2.76
+   },
+   {
+    "d": "2026-10-08",
+    "o": 108.51,
+    "h": 111.55,
+    "l": 106.3,
+    "c": 108.47,
+    "v": 1557400,
+    "clsPos": 41,
+    "gapPct": -2.66
+   },
+   {
+    "d": "2026-10-09",
+    "o": 110.82,
+    "h": 110.82,
+    "l": 104.54,
+    "c": 107.47,
+    "v": 1077400,
+    "clsPos": 47,
+    "gapPct": 2.17
+   },
+   {
+    "d": "2026-10-12",
+    "o": 105.35,
+    "h": 105.35,
+    "l": 100.8,
+    "c": 101.04,
+    "v": 1880000,
+    "clsPos": 5,
+    "gapPct": -1.97
+   },
+   {
+    "d": "2026-10-13",
+    "o": 97.6,
+    "h": 99,
+    "l": 95.83,
+    "c": 98.17,
+    "v": 2136300,
+    "clsPos": 74,
+    "gapPct": -3.4
+   },
+   {
+    "d": "2026-10-14",
+    "o": 95.95,
+    "h": 96.76,
+    "l": 91.89,
+    "c": 92.11,
+    "v": 1883800,
+    "clsPos": 5,
+    "gapPct": -2.26
+   },
+   {
+    "d": "2026-10-15",
+    "o": 88.82,
+    "h": 93.39,
+    "l": 86.78,
+    "c": 92.87,
+    "v": 1687500,
+    "clsPos": 92,
+    "gapPct": -3.57
+   },
+   {
+    "d": "2026-10-16",
+    "o": 90.59,
+    "h": 91.3,
+    "l": 86.85,
+    "c": 87.25,
+    "v": 1585000,
+    "clsPos": 9,
+    "gapPct": -2.46
+   },
+   {
+    "d": "2026-10-19",
+    "o": 91.69,
+    "h": 94.24,
+    "l": 90.65,
+    "c": 92.66,
+    "v": 1613400,
+    "clsPos": 56,
+    "gapPct": 5.09
+   },
+   {
+    "d": "2026-10-20",
+    "o": 90.87,
+    "h": 94.84,
+    "l": 89,
+    "c": 92.42,
+    "v": 1331002,
+    "clsPos": 59,
+    "gapPct": -1.93
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/RMBS-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/RMBS-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 1일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

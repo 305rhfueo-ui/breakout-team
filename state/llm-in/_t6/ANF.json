@@ -1,0 +1,769 @@
+{
+ "ticker": "ANF",
+ "date": "2026-10-21",
+ "session": "2026-10-20",
+ "source": "list",
+ "plan": {
+  "ticker": "ANF",
+  "name": "애버크롬비 앤드 피치",
+  "sector": "Consumer Cyclical",
+  "industry": "Apparel Retail",
+  "price": 162.00999450683594,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 3.56,
+  "extensionAdr": 2.05,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.18463001619042826,
+    "pct": 98.69251577998197
+   },
+   "m3": {
+    "v": 0.7270013721687227,
+    "pct": 99.50405770964834
+   },
+   "m6": {
+    "v": 0.9008563666055068,
+    "pct": 96.61857529305681
+   }
+  },
+  "ret1m": 18.46,
+  "ret3m": 72.7,
+  "ret6m": 90.09,
+  "marketCap": "6.87B",
+  "volx": null,
+  "volSurgeWk": 0.79,
+  "high52": 99.58,
+  "newHigh52": false,
+  "adr": 3.61,
+  "div50": 20.5,
+  "div200": 57.72,
+  "targetStatus": false,
+  "saleCy": 5.01,
+  "saleNy": 4.37,
+  "epsCy": 28.56,
+  "epsNy": -0.56,
+  "cyTrend": -0.38,
+  "nyTrend": 2.65,
+  "est": {
+   "cyCur": 13.44766,
+   "cy30": 13.49873,
+   "nyCur": 13.37184,
+   "ny30": 13.02714
+  },
+  "fs": {
+   "sale": [
+    4.81,
+    1.5,
+    5.36
+   ],
+   "ni": [
+    29.94,
+    -16.51,
+    -8.06
+   ],
+   "opm": [
+    19.95,
+    7.97,
+    14.13
+   ],
+   "updated": "2026-09-08 09:20:51"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-10-20",
+   "m3": "2026-10-12",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 7,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-21",
+  "nameKo": "애버크롬비 앤드 피치",
+  "nameEn": "ABERCROMBIE & FITCH CO",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018840&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-08-01",
+     "derived": false,
+     "revenue": 1266689000,
+     "profit": 252700000,
+     "netIncome": 183720000,
+     "margin": 19.9,
+     "yoy": {
+      "revenue": 4.8,
+      "profit": 22.3,
+      "netIncome": 29.9,
+      "priorEnd": "2025-08-02"
+     }
+    },
+    {
+     "periodEnd": "2026-05-02",
+     "derived": false,
+     "revenue": 1113821000,
+     "profit": 88797000,
+     "netIncome": 67134000,
+     "margin": 8,
+     "yoy": {
+      "revenue": 1.5,
+      "profit": -12.5,
+      "netIncome": -16.5,
+      "priorEnd": "2025-05-03"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 1669802000,
+     "profit": 235931000,
+     "netIncome": 172130000,
+     "margin": 14.1,
+     "yoy": {
+      "revenue": 5.4,
+      "profit": -7.9,
+      "netIncome": -2.9,
+      "priorEnd": "2025-02-01"
+     }
+    },
+    {
+     "periodEnd": "2025-11-01",
+     "derived": false,
+     "revenue": 1290619000,
+     "profit": 155021000,
+     "netIncome": 112995000,
+     "margin": 12,
+     "yoy": {
+      "revenue": 6.8,
+      "profit": -13.5,
+      "netIncome": -14.4,
+      "priorEnd": "2024-11-02"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Abercrombie & Fitch Company (ANF) Hit a 52 Week High, Can the Run Continue?",
+     "url": "https://www.nasdaq.com/articles/abercrombie-fitch-company-anf-hit-52-week-high-can-run-continue",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Abercrombie & Fitch (ANF) Outpaces Stock Market Gains: What You Should Know",
+     "url": "https://www.nasdaq.com/articles/abercrombie-fitch-anf-outpaces-stock-market-gains-what-you-should-know",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Abercrombie & Fitch Company (ANF) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/abercrombie-fitch-company-anf-attracting-investor-attention-here-what-you-should-know",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Abercrombie & Fitch (ANF) Fell More Than Broader Market",
+     "url": "https://www.nasdaq.com/articles/heres-why-abercrombie-fitch-anf-fell-more-broader-market-0",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "ANF vs. TPR: Which Stock Should Value Investors Buy Now?",
+     "url": "https://www.nasdaq.com/articles/anf-vs-tpr-which-stock-should-value-investors-buy-now",
+     "date": "2026-10-07",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-26",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000041/anf-20260826.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-20",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000039/anf-20260818.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-04",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000034/anf-20260603.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000029/anf-20260527.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000006/anf-20260304.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-01-12",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000003/anf-20260112.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2025-11-27",
+     "broker": "키움증권",
+     "analyst": "조소정",
+     "title": "[애버크롬비 앤드 피치 (NYS:ANF)] 저점 통과, 점차 낮아지는 리스크",
+     "summary": "- 캐주얼 의류 브랜드사 (Hollister, Abercrombie)- 3Q26 실적은 매출과 EPS가 시장 기대치를 상회. Hollister가 매출 성장을 견인한 가운데, 재고 관리와 프로모션 축소로 관세 여파를 상쇄한 덕분- 주가는 선행 PER 9배 수준. 최근 주가 급등에도 밸류에이션 부담은 없음. 향후 실적 가시성 개선될 전망인 만큼, 주가 상승 여력이 커질 듯.",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkemzmcximczmgcgxecge.pdf",
+     "pages": "4"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "ANF-report1.pdf",
+   "broker": "키움증권",
+   "analyst": "조소정",
+   "date": "2025-11-27",
+   "title": "[애버크롬비 앤드 피치 (NYS:ANF)] 저점 통과, 점차 낮아지는 리스크",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkemzmcximczmgcgxecge.pdf",
+   "pages": "4"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Wednesday's biggest analyst calls: Nvidia, Tesla, Dell, Affirm, Teva, Robinhood",
+   "url": "https://www.cnbc.com/2026/09/09/wednesday-big-analyst-calls-include-nvidia-tesla-dell-first-solar.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Monday's biggest analyst calls: Nvidia, Apple, SpaceX, Dell, Deere, Broadcom, Costco",
+   "url": "https://www.cnbc.com/2026/08/31/monday-big-wall-street-analyst-calls-like-nvidia.html",
+   "date": "2026-08-31",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "This beaten-down retailer just surged 35%. Jim Cramer says to pounce on the next pullback",
+   "url": "https://www.cnbc.com/2026/08/27/jim-cramer-pounce-next-pullback-abercrombie.html",
+   "date": "2026-08-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making big moves premarket: Nvidia, HP, Salesforce, Dollar General",
+   "url": "https://www.cnbc.com/2026/08/27/stocks-making-the-biggest-moves-premarket-nvda-hp-crm-dg-p.html",
+   "date": "2026-08-27",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Intuit, Zoom, SolarEdge & more",
+   "url": "https://www.cnbc.com/2026/08/26/stocks-making-the-biggest-moves-midday-meta-anf-zm-intu.html",
+   "date": "2026-08-26",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "'Fast Money' traders talk divergence in the retail space",
+   "url": "https://www.cnbc.com/video/2026/08/28/fast-money-traders-talk-divergence-in-the-retail-space.html",
+   "date": "2026-08-28",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "If Abercrombie and Fitch gives you a pullback, you might want to pounce on it, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/08/27/if-abercrombie-and-fitch-gives-you-a-pullback-you-might-want-to-pounce-on-it-says-jim-cramer.html",
+   "date": "2026-08-27",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Jim Cramer checks out Abercrombie and Fitch after the company's stock jumps on quarterly results",
+   "url": "https://www.cnbc.com/video/2026/08/27/jim-cramer-checks-out-abercrombie-and-fitch-after-the-companys-stock-jumps-on-quarterly-results.html",
+   "date": "2026-08-27",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "ANF",
+  "fetchedAt": "2026-10-20",
+  "source": "한국투자증권 Open API",
+  "per": 13.88,
+  "pbr": 5.08,
+  "eps": 11.68,
+  "bps": 31.92,
+  "shares": 42434400,
+  "marketCapM": 6875,
+  "high52": 162.6899,
+  "high52Date": "2026-10-19",
+  "low52": 65.45,
+  "low52Date": "2025-11-24",
+  "last": 162.01,
+  "prevClose": 153.26,
+  "nameKo": "애버크롬비 앤드 피치",
+  "nameEn": "ABERCROMBIE & FITCH CO",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 42434400
+ },
+ "estimates": {
+  "ticker": "ANF",
+  "url": "https://finance.yahoo.com/quote/ANF/analysis/",
+  "fetchedAt": "2026-10-20",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "eps": 3.19,
+    "epsLow": 3.12,
+    "epsHigh": 3.26,
+    "epsYearAgo": 2.36,
+    "epsAnalysts": 5,
+    "epsGrowth": 35.3,
+    "epsCur": "USD",
+    "rev": 1366596700,
+    "revAnalysts": 10,
+    "revYearAgo": 1290619000,
+    "revGrowth": 5.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "eps": 4.92,
+    "epsLow": 4.85,
+    "epsHigh": 5.05,
+    "epsYearAgo": 3.68,
+    "epsAnalysts": 5,
+    "epsGrowth": 33.8,
+    "epsCur": "USD",
+    "rev": 1784646380,
+    "revAnalysts": 10,
+    "revYearAgo": 1669802000,
+    "revGrowth": 6.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "eps": 13.45,
+    "epsLow": 12.88,
+    "epsHigh": 13.76,
+    "epsYearAgo": 10.46,
+    "epsAnalysts": 7,
+    "epsGrowth": 28.6,
+    "epsCur": "USD",
+    "rev": 5530307150,
+    "revAnalysts": 11,
+    "revYearAgo": 5266292000,
+    "revGrowth": 5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "eps": 13.37,
+    "epsLow": 12.65,
+    "epsHigh": 14.2,
+    "epsYearAgo": 13.45,
+    "epsAnalysts": 7,
+    "epsGrowth": -0.6,
+    "epsCur": "USD",
+    "rev": 5772046580,
+    "revAnalysts": 11,
+    "revYearAgo": 5530307150,
+    "revGrowth": 4.4,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "cur": "USD",
+    "now": 3.19,
+    "d7": 2.7,
+    "d30": 3.7,
+    "d90": 10.4,
+    "ago90": 2.89,
+    "up7": 3,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 4.92,
+    "d7": 0.7,
+    "d30": 1.4,
+    "d90": 8.4,
+    "ago90": 4.54,
+    "up7": 3,
+    "up30": 3,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 13.45,
+    "d7": -0.7,
+    "d30": -0.4,
+    "d90": 25.6,
+    "ago90": 10.71,
+    "up7": 5,
+    "up30": 5,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "cur": "USD",
+    "now": 13.37,
+    "d7": 1.5,
+    "d30": 2.6,
+    "d90": 12.6,
+    "ago90": 11.87,
+    "up7": 5,
+    "up30": 4,
+    "down7": 0,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-07-31",
+    "actual": 4.17,
+    "estimate": 1.97,
+    "surprisePct": 111.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-04-30",
+    "actual": 1.47,
+    "estimate": 1.27,
+    "surprisePct": 15.7,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-01-31",
+    "actual": 3.68,
+    "estimate": 3.57,
+    "surprisePct": 3.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-10-31",
+    "actual": 2.36,
+    "estimate": 2.16,
+    "surprisePct": 9.4,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 2,
+   "downgrades": 2,
+   "initiations": 1,
+   "ptRaised": 11,
+   "ptLowered": 0,
+   "total": 15,
+   "recent": [
+    {
+     "date": "2026-10-07",
+     "firm": "BTIG",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 175,
+     "ptPrior": 175
+    },
+    {
+     "date": "2026-09-09",
+     "firm": "BMO Capital",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 170,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-08-31",
+     "firm": "Argus Research",
+     "action": "up",
+     "from": "Hold",
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 162,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-08-27",
+     "firm": "Citigroup",
+     "action": "down",
+     "from": "Buy",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 156,
+     "ptPrior": 135
+    },
+    {
+     "date": "2026-08-27",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 155,
+     "ptPrior": 114
+    },
+    {
+     "date": "2026-08-27",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 185,
+     "ptPrior": 153
+    },
+    {
+     "date": "2026-08-27",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 134,
+     "ptPrior": 87
+    },
+    {
+     "date": "2026-08-26",
+     "firm": "Needham",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 165,
+     "ptPrior": 108
+    },
+    {
+     "date": "2026-08-26",
+     "firm": "BTIG",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 175,
+     "ptPrior": 120
+    },
+    {
+     "date": "2026-08-19",
+     "firm": "Telsey Advisory Group",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 118,
+     "ptPrior": 115
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-25",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-20",
+  "numbers": {
+   "price": 161.73,
+   "ma20": 142.94,
+   "ma50": 135.31,
+   "ma150": 104.4,
+   "distMA50": 19.53,
+   "periodHigh": 164.8,
+   "pullbackFromHigh": -1.86,
+   "volRatio20": 0.96,
+   "dryUpRatio": 1.16
+  },
+  "last10": [
+   {
+    "d": "2026-10-07",
+    "o": 139.49,
+    "h": 141.75,
+    "l": 138.41,
+    "c": 139.44,
+    "v": 1088100,
+    "clsPos": 31,
+    "gapPct": -1.34
+   },
+   {
+    "d": "2026-10-08",
+    "o": 137.72,
+    "h": 143.22,
+    "l": 137.72,
+    "c": 141.41,
+    "v": 926000,
+    "clsPos": 67,
+    "gapPct": -1.23
+   },
+   {
+    "d": "2026-10-09",
+    "o": 141,
+    "h": 143.39,
+    "l": 138.44,
+    "c": 142.58,
+    "v": 1002500,
+    "clsPos": 84,
+    "gapPct": -0.29
+   },
+   {
+    "d": "2026-10-12",
+    "o": 144,
+    "h": 149.3,
+    "l": 143.91,
+    "c": 145.91,
+    "v": 1708300,
+    "clsPos": 37,
+    "gapPct": 1
+   },
+   {
+    "d": "2026-10-13",
+    "o": 146.44,
+    "h": 152.4,
+    "l": 146.44,
+    "c": 150.88,
+    "v": 1528100,
+    "clsPos": 74,
+    "gapPct": 0.36
+   },
+   {
+    "d": "2026-10-14",
+    "o": 148.92,
+    "h": 150.87,
+    "l": 147.52,
+    "c": 149.74,
+    "v": 1356700,
+    "clsPos": 66,
+    "gapPct": -1.3
+   },
+   {
+    "d": "2026-10-15",
+    "o": 152,
+    "h": 156.72,
+    "l": 150.05,
+    "c": 151.99,
+    "v": 1798300,
+    "clsPos": 29,
+    "gapPct": 1.51
+   },
+   {
+    "d": "2026-10-16",
+    "o": 153.01,
+    "h": 156.14,
+    "l": 150.71,
+    "c": 153.26,
+    "v": 1374600,
+    "clsPos": 47,
+    "gapPct": 0.67
+   },
+   {
+    "d": "2026-10-19",
+    "o": 154.5,
+    "h": 162.69,
+    "l": 154.28,
+    "c": 162.01,
+    "v": 1578400,
+    "clsPos": 92,
+    "gapPct": 0.81
+   },
+   {
+    "d": "2026-10-20",
+    "o": 162,
+    "h": 163.82,
+    "l": 159.61,
+    "c": 161.73,
+    "v": 1206965,
+    "clsPos": 50,
+    "gapPct": -0.01
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ANF-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/ANF-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 1일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

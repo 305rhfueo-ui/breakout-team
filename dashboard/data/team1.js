@@ -518,8 +518,314 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-10-21",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "S&P 500 에 15% 조정 경고가 나왔다",
+        "easy": "S&P 500 이 앞으로 15% 가까이 떨어질 수 있다는 분석이 나왔다. 강세장은 요란하게 터지며 끝나지 않고 조용히 꺾인다는 점이 근거로 제시됐다. 실제로 나스닥100(QQQ)도 10일선이 20일선 아래로 내려선 상태다. 당장 급락이 왔다는 말은 아니지만, 새로 사기보다 쉬어 가기에 무게가 실린다.",
+        "whyMatters": "조정이 오면 올해 많이 오른 기술·반도체와 경기소비재가 먼저 눌리고, 신규 돌파 매수의 실패 확률이 높아진다. 지수가 10일선 위를 되찾는지부터 확인하는 게 순서다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Bull markets tend to peak with a whimper, not a bang — but a 15% correction for the S&P 500 may be next",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/bull-markets-tend-to-peak-with-a-whimper-not-a-bang-but-a-15-correction-for-the-s-p-500-may-be-next-dab40e2c?mod=mw_rss_topstories",
+            "date": "2026-10-21",
+            "quote": "Bull markets tend to peak with a whimper, not a bang — but a 15% correction for the S&P 500 may be next",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "주택시장 경고등 속에 연준은 추가 금리 인상을 저울질한다",
+        "easy": "미국 주택시장에서 경고 신호가 나오고 있다. 그런데 연준은 금리를 더 올릴지를 놓고 고민하는 국면이다. 금리가 더 오르면 주택담보대출 이자가 비싸져 집을 사려는 수요가 더 줄어든다. 집값·거래가 식으면 소비 심리도 같이 가라앉는다.",
+        "whyMatters": "주택·건설과 모기지 비중이 큰 은행에 직접 부담이고, 미래 이익을 당겨 평가받는 기술·성장주도 금리가 오르면 함께 눌린다. 연준 인사들의 발언 수위를 지켜보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
+            "date": "2026-10-20",
+            "quote": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "넷플릭스는 실적을 넘겼지만 주가는 떨어졌다",
+        "easy": "넷플릭스 3분기 이익은 시장 기대를 넘겼다. 그런데 광고 사업과 다음 분기 매출 가이던스(회사가 내놓은 전망)가 기대에 못 미쳤다. 회사는 시청 흐름을 되살리겠다고 했지만 투자자들은 주식을 팔았다. 실적이 좋아도 전망이 약하면 주가가 빠진다는 장세다.",
+        "whyMatters": "광고 매출에 기대를 걸던 미디어·스트리밍 업종에 부담이고, 실적을 앞둔 다른 대형 기술주도 전망 발표에 더 민감해진다. 이번 주 실적 발표 종목은 숫자보다 가이던스를 먼저 보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Netflix posts third-quarter earnings beat, but shares fall on advertising and revenue guidance",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html",
+            "date": "2026-10-20",
+            "quote": "Netflix posts third-quarter earnings beat, but shares fall on advertising and revenue guidance",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Netflix vows to revive viewership trends, but investors hit 'sell' on the stock",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/netflix-vows-to-revive-viewership-trends-but-investors-hit-sell-on-the-stock-3e24420a?mod=mw_rss_topstories",
+            "date": "2026-10-21",
+            "quote": "Netflix vows to revive viewership trends, but investors hit ‘sell’ on the stock",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "슈퍼마이크로가 급등하며 Dell·HPE 도 같이 올랐다",
+        "easy": "Super Micro 가 예정에 없던 소식을 내놓은 뒤 주가가 크게 올랐다. 같은 AI 서버를 만드는 Dell 과 HPE 주가도 함께 따라 올랐다. 한 회사 호재가 업종 전체로 번진 모양새다. AI 서버 주문이 아직 살아 있다는 신호로 받아들여졌다.",
+        "whyMatters": "AI 서버·데이터센터 장비와 그 부품을 공급하는 반도체 업종에 긍정적이다. 지수가 약한 날에도 이 쪽으로 자금이 도는지가 확인 포인트다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Super Micro's stock soars after surprise update — with Dell and HPE shares joining the rally",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/super-micros-stock-soars-after-surprise-update-with-dell-and-hpe-shares-joining-the-rally-1837a69f?mod=mw_rss_topstories",
+            "date": "2026-10-21",
+            "quote": "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "일본 9월 수출이 기대에 크게 못 미쳤다",
+        "easy": "일본의 9월 수출이 시장 예상을 크게 밑돌았다. 수출은 늘긴 했지만 증가율이 16.7% 로 떨어졌다. 왜 둔화됐는지 구체적인 이유는 기사에 안 나왔다. 아시아 수출이 식으면 글로벌 제조업 수요가 꺾이고 있다는 신호가 된다.",
+        "whyMatters": "일본·대만을 거쳐 미국으로 이어지는 반도체와 기계·산업재 공급망에 부정적이다. 다른 아시아 수출 지표도 같은 방향으로 나오는지 보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Japan exports post huge miss in September as growth slows to 16.7%",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/21/japan-trade-exports-semiconductor-yen.html",
+            "date": "2026-10-21",
+            "quote": "Japan exports post huge miss in September as growth slows to 16.7%",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "머스크가 테슬라·SpaceX 합병 검토를 언급했다",
+        "easy": "일론 머스크가 테슬라와 SpaceX 의 합병을 검토 중이라고 말했다. 비상장인 SpaceX 의 가치를 테슬라 주주가 나눠 갖게 될 수 있다는 기대가 생겼다. 그래서 테슬라 주가가 올랐다. 다만 검토 단계이고 확정된 내용은 아직 없다.",
+        "whyMatters": "테슬라와 우주·방산 관련 업종에 기대를 키우지만, 발언 하나에 움직인 상승이라 되돌림도 빠를 수 있다. 회사의 공식 발표가 나오는지만 확인하면 된다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Elon Musk says Tesla-SpaceX merger being considered",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-10-20",
+            "quote": "Elon Musk says Tesla-SpaceX merger being considered",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Tesla's stock rises as Elon Musk drops new clues about a possible SpaceX merger",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger-8cc44fc2?mod=mw_rss_topstories",
+            "date": "2026-10-21",
+            "quote": "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "지금은 새로 사기에 좋은 때가 아니고, 들고 있는 것도 정리를 검토할 구간이다. QQQ 종가는 717.63 이고 10일선이 20일선 아래로 내려선 첫날이며, 빚내서 산 주식(마진부채)은 1년 전보다 31.4% 늘어 주의선을 넘었다. 오늘 뉴스는 넷플릭스의 약한 전망, 주택시장 경고, 일본 수출 둔화가 겹쳐 지수 조정 경고 쪽에 무게를 더했다. 다만 Super Micro·Dell·HPE 처럼 AI 서버로는 여전히 자금이 돌아, 시장 전체가 아니라 업종별로 갈리는 흐름이다. 이번 주에는 10일선이 20일선 위로 되돌아오는지, 그리고 연준의 금리 발언 수위를 보면 된다.",
+    "keyRisks": [
+      "단기 흐름 꺾임: 10일선이 20일선 아래로 내려선 첫날이라, 돌파해서 올라가던 종목이 바로 밀려 손절로 끝나는 비율이 높아진다.",
+      "빚투 과열: 마진부채가 주의선을 넘은 상태에서 하락이 시작되면 강제 청산이 겹쳐 낙폭이 평소보다 커진다.",
+      "금리 부담: 연준이 추가 인상을 저울질하는 국면이라 주택·건설과 은행이 눌리고, 미래 이익을 당겨 평가받는 기술·성장주도 같이 약해진다.",
+      "업종 쏠림: 선정 종목의 42%가 기술 업종이라 기술주가 흔들리면 목록 전체가 한 방향으로 같이 흔들린다."
+    ],
+    "easySummary": [
+      "QQQ 는 10일선이 20일선 아래로 내려선 첫날이라 새로 사기보다 지켜볼 구간이다.",
+      "S&P 500 에 15% 조정 경고, 주택 경고등과 연준의 추가 인상 검토, 일본 수출 둔화가 겹쳤다.",
+      "반면 Super Micro·Dell·HPE 는 올라 AI 서버 수요는 아직 살아 있다는 신호를 줬다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 152,
+      "ok": 268,
+      "unverified": 5,
+      "dead": 0,
+      "stripped": 8,
+      "removed": [
+        {
+          "reason": "인용문 없음",
+          "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000308/mmm-20261020.htm"
+        },
+        {
+          "reason": "중복",
+          "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxecge.pdf"
+        }
+      ],
+      "numberCut": 24,
+      "numberCuts": [
+        {
+          "sentence": "매출이 없고 분기 영업손실이 7천만~9천만 달러대로 이어져, 승인 지연이나 거절 때 자금 조달 부담이 커질 수 있다.",
+          "missing": [
+            "7",
+            "9"
+          ]
+        },
+        {
+          "sentence": "3억 5천만 달러 공모로 임상을 이어갈 자금을 확보했다.",
+          "missing": [
+            "3억 5"
+          ]
+        },
+        {
+          "sentence": "직전 분기(6월말) 매출 89.65억 달러로 1년 전보다 371.6% 늘었고, 영업이익률은 78.5%에 달했다.",
+          "missing": [
+            "78.5"
+          ]
+        },
+        {
+          "sentence": "주가수익비율이 36배로 높고 고점 대비 약 17% 내려와 있다.",
+          "missing": [
+            "17"
+          ]
+        },
+        {
+          "sentence": "남성 탈모 치료제 VDPHL01의 3상 임상이 모든 평가 지표를 충족했다.",
+          "missing": [
+            "01"
+          ]
+        },
+        {
+          "sentence": "같은 날 중요 사건 공시(8-K)도 나왔다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "올해 5월 분기는 영업이익이 12.5% 줄었고, 2025년 11월 분기도 13.5% 줄었다.",
+          "missing": [
+            "13.5"
+          ]
+        },
+        {
+          "sentence": "직전 분기 1,721만 달러 적자에서 크게 개선됐고, 순이익은 176만 달러 흑자로 돌아섰다.",
+          "missing": [
+            "1,721만 달러"
+          ]
+        },
+        {
+          "sentence": "주가가 6월 30일 고점 128.3달러에서 73.51달러로 내려왔고 최근 한 달도 10% 하락했다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "주가는 10월 6일 고점(219.7달러)에서 크게 내려왔다.",
+          "missing": [
+            "219.7"
+          ]
+        },
+        {
+          "sentence": "6월 고점(927달러)보다 아직 26% 낮다.",
+          "missing": [
+            "26"
+          ]
+        },
+        {
+          "sentence": "주가는 10월 16일 52주 최고가 90.59달러를 찍었다.",
+          "missing": [
+            "90.59"
+          ]
+        },
+        {
+          "sentence": "직전 두 분기 영업이익률은 8.8~9.4%였다가 이번에 17.4%로 뛰었다.",
+          "missing": [
+            "17.4"
+          ]
+        },
+        {
+          "sentence": "자사주 매입 규모를 30억 달러로 키웠다.",
+          "missing": [
+            "30억 달러"
+          ]
+        },
+        {
+          "sentence": "2분기 매출이 1.16조 원이 아닌 11.6억 달러로, 1년 전보다 9.4% 늘었다.",
+          "missing": [
+            "1.16조 원"
+          ]
+        },
+        {
+          "sentence": "직전 분기 증가율 4.8%보다 높아졌다.",
+          "missing": [
+            "4.8"
+          ]
+        },
+        {
+          "sentence": "3M이 2026년 10월 20일 3분기 실적을 발표했고, 같은 날 실적 발표 공시(8-K)가 제출됐다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "직전 분기는 8.5% 증가.",
+          "missing": [
+            "8.5"
+          ]
+        },
+        {
+          "sentence": "회사가 2030년까지 매출 2배, EBITDA 4배를 목표로 제시했다고 보도됐다.",
+          "missing": [
+            "2",
+            "4"
+          ]
+        },
+        {
+          "sentence": "10월 6일 3.5억 달러 규모 공모 가격 결정.",
+          "missing": [
+            "3.5억 달러"
+          ]
+        },
+        {
+          "sentence": "3.5억 달러 공모로 주식 수가 늘어 기존 주주 몫이 줄어든다(희석).",
+          "missing": [
+            "3.5억 달러"
+          ]
+        },
+        {
+          "sentence": "가격 상승과 원가 하락이 함께 나타나 매출총이익률이 1년 전보다 13.1%p 올랐다.",
+          "missing": [
+            "13.1"
+          ]
+        },
+        {
+          "sentence": "회사는 FY26 연간 매출 가이던스를 44.5~44.7억 달러로 올렸으나 Q4 성장률은 약 25%로 둔화하는 궤적이다.",
+          "missing": [
+            "44.7억 달러",
+            "44.5"
+          ]
+        },
+        {
+          "sentence": "키움증권이 인용한 블룸버그 컨센서스(2026-09-16 기준)는 FY26 매출 +30.5%, FY27 +22.9%다.",
+          "missing": [
+            "09",
+            "16"
+          ]
+        }
+      ],
+      "noQuote": 1
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-10-21"
   }
 };

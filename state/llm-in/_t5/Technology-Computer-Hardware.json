@@ -1,0 +1,674 @@
+{
+ "key": "Technology|Computer Hardware",
+ "sector": "Technology",
+ "industry": "Computer Hardware",
+ "industryKo": "컴퓨터 하드웨어",
+ "frank": 8,
+ "frank25dChg": -7,
+ "finalWrs": 0.2279,
+ "count": 7,
+ "winRatePct": 85.7,
+ "members": [
+  {
+   "ticker": "DELL",
+   "rs1": -0.2083572258884291,
+   "rs3": 0.041005719866071426,
+   "rs6": 1.2152801007424687,
+   "rnk1": 96.35,
+   "rnk3": 35.03,
+   "rnk6": 0.95,
+   "ret1d": 0.83,
+   "high52": 76.48,
+   "dollarVolM": 3028.6,
+   "marketCap": "289.57B",
+   "name": "델 테크놀로지스"
+  },
+  {
+   "ticker": "P",
+   "rs1": 0.11815935459324978,
+   "rs3": 0.7045332684998498,
+   "rs6": 0.7917664710430973,
+   "rnk1": 4.91,
+   "rnk3": 0.59,
+   "rnk6": 4.37,
+   "ret1d": 2.48,
+   "high52": 80.66,
+   "dollarVolM": 325.4,
+   "marketCap": "42.16B",
+   "name": "에버퓨어"
+  },
+  {
+   "ticker": "SNDK",
+   "rs1": -0.22388263384261606,
+   "rs3": -0.04555330846426417,
+   "rs6": 0.36790545070416186,
+   "rnk1": 97.25,
+   "rnk3": 59.02,
+   "rnk6": 11.23,
+   "ret1d": 5.53,
+   "high52": 58.24,
+   "dollarVolM": 11703.1,
+   "marketCap": "198.16B",
+   "name": "샌디스크"
+  },
+  {
+   "ticker": "STX",
+   "rs1": -0.24619050423939517,
+   "rs3": -0.22349714320796116,
+   "rs6": 0.14296538127574895,
+   "rnk1": 97.88,
+   "rnk3": 93.28,
+   "rnk6": 29.53,
+   "ret1d": 3.41,
+   "high52": 57.8,
+   "dollarVolM": 2727.4,
+   "marketCap": "150.26B",
+   "name": "시게이트 테크놀로지 홀딩스"
+  },
+  {
+   "ticker": "LOGI",
+   "rs1": 0.021213809639208468,
+   "rs3": 0.031704204758534325,
+   "rs6": 0.1292805254156717,
+   "rnk1": 32.78,
+   "rnk3": 36.93,
+   "rnk6": 31.42,
+   "ret1d": 2.82,
+   "high52": 84.17,
+   "dollarVolM": 159.7,
+   "marketCap": "15.37B",
+   "name": "로지텍 인터내셔널"
+  },
+  {
+   "ticker": "ANET",
+   "rs1": -0.10938565583192601,
+   "rs3": 0.05149716174605303,
+   "rs6": 0.10684254570413236,
+   "rnk1": 88.05,
+   "rnk3": 32.51,
+   "rnk6": 35.39,
+   "ret1d": 3.37,
+   "high52": 84.15,
+   "dollarVolM": 1156.3,
+   "marketCap": "230.74B",
+   "name": "아리스타 네트웍스"
+  },
+  {
+   "ticker": "WDC",
+   "rs1": -0.21411522212011944,
+   "rs3": -0.32219495235309803,
+   "rs6": -0.09866007378181017,
+   "rnk1": 96.71,
+   "rnk3": 97.88,
+   "rnk6": 77.05,
+   "ret1d": 6.09,
+   "high52": 44.05,
+   "dollarVolM": 2752,
+   "marketCap": "131.84B",
+   "name": "웨스턴 디지털"
+  }
+ ],
+ "evidence": {
+  "DELL": {
+   "cnbc": [
+    {
+     "title": "Dell stock plunges 11%, leading data center sell-off as fears mount about 'AI timing'",
+     "url": "https://www.cnbc.com/2026/10/14/dell-stock-barclays-enterprise-ai.html",
+     "date": "2026-10-14",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "We're exiting our remaining stake in an industrial stock spin-off gone wrong",
+     "url": "https://www.cnbc.com/investingclub/2026/10/14/were-exiting-our-remaining-stake-in-an-industrial-stock-spin-off-gone-wrong.html",
+     "date": "2026-10-14",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Michael Dell says government has a role in AI safety",
+     "url": "https://www.cnbc.com/2026/10/13/michael-dell-ai-safeguards-government.html",
+     "date": "2026-10-13",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Trump Accounts hit 70 million enrolled and can now accept stock donations",
+     "url": "https://www.cnbc.com/2026/10/08/trump-accounts-70-million-enrolled.html",
+     "date": "2026-10-08",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Final Trade: GM, DELL, SNAP, NOC",
+     "url": "https://www.cnbc.com/video/2026/10/20/final-trade-gm-dell-snap-noc.html",
+     "date": "2026-10-20",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Watch CNBC’s full discussion with the ‘Squawk on the Street’ crew",
+     "url": "https://www.cnbc.com/video/2026/10/15/watch-cnbcas-full-discussion-with-the-asquawk-on-the-streeta-crew.html",
+     "date": "2026-10-15",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[델 테크놀로지스 (NYS:DELL)] 온프레미스 AI 의 관문",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "date": "2026-09-07",
+     "summary": "- 델의  2분기  매출은  470억달러(+58%yoy), GPM 21.1%, OPM 12.6%, EPS 7.04로 컨센을 상회. AI 서버발 탑라인 성장으로 인한 영업 레버리지, 스토리지 믹스 개선으로 수익성 개선이 두드러짐. 3분기 가이던스도 매출 490억달러(+81%yoy), EPS 6.5달러를 제시하며 컨센을 상회했으며, F27 연간 가이던스는 매출 1,920억달러, EPS 25.5달러로 상향 조정- AI 서버 매출은 164억달러(+100%yoy)를 기록하며 탑라인 성장을 견인. 전방위적 AI 수요 강세로 인해 델이 강점을 가진 네오클라우드·엔터프라이 즈·소버린이 가파르게 성장 중. AI 서버 주문은 609억달러로 전분기 대비 150% 증가하며 역대 최고치를 달성했고, 분기말 AI 서버 백로그는 950억 달러로 전년비 7배 이상 증가- 델의 12M Fwd PER은 18.6배 수준으로 경쟁사(HPE, SMCI 등) 대비 높은 밸류에이션을 받고 있음. 델 역시 서버 ODM의 고질적 리스크인 메모리 인 플레이션으로 인한 잠재적 마진 부담, 백로그 이행 속도 등에서 자유롭지는 못함. 다만 견조한 대형 AI 고객사의 캐팩스 투자와 더불어 엔터프라이즈향 오픈웨이트 모델 확산 수혜에 가장 크게 노출되어 있다고 판단하며, 리스크 에도 불구하고 가장 높은 성장 포텐셜을 보유하였다고 판단.",
+     "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxecge.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[델 테크놀로지스 (NYS:DELL)] 이유 있는 독주, 엔터프라이즈 DC 현대화가 연 리레이팅",
+     "broker": "키움증권",
+     "analyst": "박기현",
+     "date": "2026-09-04",
+     "summary": "- Non-AI가 견인한 실적 서프라이즈와 GPM 개선으로 마진 희석 우려 해소- 연간 가이던스 상향 및 이익 급증으로 주가 급등에도 밸류에이션 매력 지속- 풍부한 AI 수주잔고 속 하반기 영업현금흐름 정상화와 마진 지속성이 핵심- 리스크 요인: 부품가 사이클 변동성, 수주 이행력, 그리고 현금흐름의 질",
+     "url": "https://rreport.einfomax.co.kr/report/eqllkqkqezillqegcgxecge.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": [
+    {
+     "title": "Cash Dividend On The Way From Dell Technologies",
+     "url": "https://www.nasdaq.com/articles/cash-dividend-way-dell-technologies",
+     "date": "2026-10-19",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Why Dell Technologies Stock Took a Dive Last Week",
+     "url": "https://www.nasdaq.com/articles/why-dell-technologies-stock-took-dive-last-week",
+     "date": "2026-10-18",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "The Zacks Analyst Blog Highlights CoreWeave, Dell Technologies and Nebius",
+     "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-coreweave-dell-technologies-and-nebius",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Dell Technologies (DELL) Stock Drops Despite Market Gains: Important Facts to Note",
+     "url": "https://www.nasdaq.com/articles/dell-technologies-dell-stock-drops-despite-market-gains-important-facts-note",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "P": {
+   "cnbc": [
+    {
+     "title": "Stocks making the biggest moves midday: Nvidia, Hormel, HP, Best Buy & more",
+     "url": "https://www.cnbc.com/2026/08/27/stocks-making-the-biggest-moves-midday-nvda-okta-hrl-veev.html",
+     "date": "2026-08-27",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Thursday's biggest analyst calls: Nvidia, SpaceX, Tesla, Salesforce, CrowdStrike",
+     "url": "https://www.cnbc.com/2026/08/27/thursday-analyst-calls-from-stocks-like-nvidia.html",
+     "date": "2026-08-27",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves after hours: Nvidia, Salesforce, CrowdStrike, Urban Outfitters and more",
+     "url": "https://www.cnbc.com/2026/08/26/stocks-making-the-biggest-moves-after-hours-nvda-crm-crwd-urbn-and-more.html",
+     "date": "2026-08-26",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "We've been picking up market share in the enterprise for 14 years now, says Everpure CEO",
+     "url": "https://www.cnbc.com/investingclub/video/2026/10/09/weve-been-picking-up-market-share-in-the-enterprise-for-14-years-now-says-everpure-ceo.html",
+     "date": "2026-10-09",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Cramer’s Stop Trading: Costco and Everpure",
+     "url": "https://www.cnbc.com/video/2026/10/08/crameras-stop-trading-costco-and-everpure.html",
+     "date": "2026-10-08",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[프록터 앤드 갬블 (NYS:PG)] [27Q1 Preview] 연간 유기 성장률 1~3% 가이던스 유지 여부, 투자의견 중립 유지",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-10-13",
+     "summary": "- 프록터 앤 갬블은 10 월 22 일에 2027 회계연도 1 분기 실적을 내놓는다. 타이드, 팬틴, 질레트, SK-II 를 거느린 세계 최대 생활용품 회사다. 이번 분기가 특별한 이유는 하나다. 회사가 직전 실적 발표에서 1 분기 코어 주당순이익이 전년 대비 5% 이상 줄어들 수 있다고 미리 알렸기 때문이다. 전년 동기 코어 주당순이익은 1.99 달러였다. 즉 시장은 좋은 숫자를 기대하는 게 아니라, 예고된 역성장이 얼마나 깊은지를 확인하려 모여 있다.- 팩트셋에 집계된 시장 평균 전망(컨센서스)은 주당순이익 1.43 달러, 매출 212.0 억 달러다. 우리 하우스가 7 월에 제시한 예상 범위는 주당순이익 1.85~1.95 달러, 매출 212.0~220.0 억 달러였다. 매출 눈높이는 거의 겹치지만 이익 쪽은 시장이 우리보다 훨씬 보수적으로 잡고 있다. 구조조정 잔여 비용과 회계 기준 차이가 섞인 결과로 보이지만, 그만큼 이익 기대치의 하방 완충이 두껍다는 뜻도 된다. 원자재·에너지·물류 부담이 연간 10 억 달러 규모로 예고된 만큼, 이 중 얼마가 1 분기에 몰렸는지가 숫자의 위치를 가른다.",
+     "url": "https://rreport.einfomax.co.kr/report/eqmelkliqkixikxgcgxecge.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[플래닛 랩스 (NYS:PL)] AI + Satellite Service",
+     "broker": "신한투자증권",
+     "analyst": "이주은",
+     "date": "2026-09-07",
+     "summary": "- 플래닛 랩스는 해외 D&I 매출 급증으로 예상을 상회하는 2Q 실적 달성. 대규모 신규 수주 부재와 3Q 매출 증가율 둔화는 투자심리 악화 요인.- 매출 1.16억달러(+58% YoY, 이하 전년동기대비)로 사상 최대 분기 매출 달성. 조정 EBITDA 1,300만달러, 조정 EPS 0.02달러로 시장 예상치 상회- 3Q 매출은 1.0억달러(+26.8%), GPM 57%, 조정 EBITDA 350만달러 적자 전망하면서 시장 예상치 하회.",
+     "url": "https://rreport.einfomax.co.kr/report/eqllqikegqzxemzgcgxecge.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[프록터 앤드 갬블 (NYS:PG)] [Issue & News] 프리미엄 웰니스 브랜드 Thorne 인수 발표 - 정체된 Health Care 카테고리의 프리미엄화 시도",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-08-05",
+     "summary": "- P&G, 프리미엄 웰니스 브랜드 Thorne 인수 발표- 금액·조건 미공개, Health Care 부진 만회 포석- FY27 가이던스 영향은 세부조건 공개 이후 판단",
+     "url": "https://rreport.einfomax.co.kr/report/eqlzlmilkqimgxcgcgxecge.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[필립 모리스 인터내셔널 (NYS:PM)] 담배는 너무 잘 팔지만",
+     "broker": "키움증권",
+     "analyst": "박상준",
+     "date": "2026-07-24",
+     "summary": "- 말보로와 아이코스 등으로 유명한 글로벌 담배 시장점유율 1위 업체- 2분기 매출액 및 조정 EPS는 시장 컨센서스 상회- SFP 판매 비중 확대와 궐련담배 ASP 상승에 힘입어, 구조적 실적 개선 지속 전망",
+     "url": "https://rreport.einfomax.co.kr/report/eqlklklzzgmiqixgcgxecge.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[필립 모리스 인터내셔널 (NYS:PM)] 불 붙은 매출 신기록",
+     "broker": "신한투자증권",
+     "analyst": "조상훈",
+     "date": "2026-07-23",
+     "summary": "- 2Q26 글로벌 담배 시장 점유율 29.1%로 업계 최고 수준의 시장장악력(일 반담배 23.3%, 궐련형 전자담배 5.8%) 지속. 일반담배 출하량이 오랜만에 플러스 전환하며 반등한 가운데, 가열식 담배 IQOS, 니코틴 파우치 ZYN, 액상형 VEEV의 고성장 지속.- 2Q26 매출과 영업이익은 111.9억달러(+10.4%, 이하 YoY), 45.3억달러 (+22%) 기록하며 분기 최초로 매출 110억 달러 돌파, 컨센서스 상회. 조 정 EPS 역시 2.2달러(+15.2%)로 기대치 상회. Smoke-Free 카테고리(궐련 형 전자담배, 니코틴 파우치 등)는 482억본(+7.5%), 일반담배는 1,569억 본(+1.1%) 판매하며 5개 분기만에 플러스 전환- 부문별 매출 성장률은 해외 Smoke-Free +14.2%, 해외 일반담배 +9.8%, 미국 -0.7%. 전반적인 해외 성장 속 지정학적 리스크가 비용에 일부 영향",
+     "url": "https://rreport.einfomax.co.kr/report/eqlkqmcilemieqkgcgxecge.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": [
+    {
+     "title": "S&P 500 Analyst Moves: P",
+     "url": "https://www.nasdaq.com/articles/sp-500-analyst-moves-p",
+     "date": "2026-10-16",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "SNDK": {
+   "cnbc": [
+    {
+     "title": "Tuesday's big analyst calls: Nvidia, Netflix, Broadcom, SanDisk, Meta, CoreWeave",
+     "url": "https://www.cnbc.com/2026/09/22/big-wall-street-analyst-calls-tuesday.html",
+     "date": "2026-09-22",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Sandisk has gained more than 600% in 2026 and has room to run, Rosenblatt says",
+     "url": "https://www.cnbc.com/2026/09/22/sndk-is-up-600percent-in-2026-and-has-more-room-to-run-rosenblatt-says.html",
+     "date": "2026-09-22",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Leopold Aschenbrenner's Situational Awareness is active in options market",
+     "url": "https://www.cnbc.com/2026/09/11/leopold-aschenbrenners-situational-awareness-is-active-in-options-market-sources-say.html",
+     "date": "2026-09-11",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "AI is losing its stranglehold on the U.S. stock market. Here's why",
+     "url": "https://www.cnbc.com/2026/09/10/ai-is-losing-its-stranglehold-on-the-us-stock-market-heres-why.html",
+     "date": "2026-09-10",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "The big lesson from this week's earnings: The AI buildout is not a zero-sum game",
+     "url": "https://www.cnbc.com/investingclub/2026/08/29/big-lesson-from-this-weeks-earnings-ai-buildout-is-not-a-zero-sum-game.html",
+     "date": "2026-08-29",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+     "url": "https://www.cnbc.com/investingclub/2026/08/25/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+     "date": "2026-08-25",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[샌디스크 (NAS:SNDK)] [27Q1 Preview] 매출 가이던스 상회보다 총마진 85% 근접 여부, 투자의견 중립 유지",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-10-21",
+     "summary": "- 10월 30일, 시장이 보는 건 이익 규모가 아니라 사이클의 남은 길- 가격이 끌어올린 이익은 되돌림도 빠르다- 데이터센터가 전체를 끌고, 컨슈머는 두 분기 연속 줄어들 수 있음",
+     "url": "https://rreport.einfomax.co.kr/report/eqmgzkgzxeqekecgcgxecge.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[샌디스크 (NAS:SNDK)] [Issue & News] 키옥시아와 6년간 5조엔 공동투자 - NAND 공급 사이클 상단에서의 증설 베팅",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-08-27",
+     "summary": "- 키옥시아·샌디스크, 6년간 5조엔 공동투자 발표- 신규 생산시설에 1.8조엔 투입, 증설 베팅- 가격 사이클 지속 여부가 향후 마진의 관건",
+     "url": "https://rreport.einfomax.co.kr/report/eqlqlxmlkiiigekgcgxecge.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[샌디스크 (NAS:SNDK)] [Issue & News] 투자자의 날에서 물량 성장·HBF 로드맵 공개 - 가격 사이클 이후 성장동력 다각화 신호",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-08-14",
+     "summary": "- 투자자의날서 물량 두자릿수 중후반 성장·HBF 로드맵 공개- 8개 고객사 총계약가치 939억달러, NBM 계약 흐름과 결 같아- 가격기여·마진 고원 리스크는 여전, 방향성 제시 수준",
+     "url": "https://rreport.einfomax.co.kr/report/eqlxxxxkgkmlcklgcgxecge.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[샌디스크 (NAS:SNDK)] Earnings Flash",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "date": "2026-08-06",
+     "summary": "- 매출액 89.7억 달러(YOY +371.6%), 영업이익 70.4억 달러(YoY +38,994.4%), 조정 EPS 39.3 달러 (YoY +13,434.5%)로 각각 예상치 3.8%, 9.7%, 14.2% 상회- 2분기 자사주 45.2억 달러 매입. 140억 달러 추가 자사주 매입 승인으로 잔여 한도 155억 달러로 확대- 가격 상승폭 둔화와 NBM 계약으로 인해 판매량 증가율이 둔화된다는 가이던스에 따라 시간 외 8% 하락",
+     "url": "https://rreport.einfomax.co.kr/report/eqlxcczlkqixekegcgxecge.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[샌디스크 (NAS:SNDK)] [26Q4 Review] 마진 상향의 시대가 끝났다, 투자의견 중립 신규",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "date": "2026-08-05",
+     "summary": "- Q4 매출 $8.97B·비GAAP EPS $39.25로 컨센 상회- Q1 매출 가이던스 컨센 하회, 시간외 11% 하락- 자사주 잔여한도 $15.5B, NTM PER 6.8배",
+     "url": "https://rreport.einfomax.co.kr/report/eqlzmqeqgkxgcligcgxecge.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": [
+    {
+     "title": "Down 27.5% in 4 Weeks, Here's Why Sandisk Corporation (SNDK) Looks Ripe for a Turnaround",
+     "url": "https://www.nasdaq.com/articles/down-275-4-weeks-heres-why-sandisk-corporation-sndk-looks-ripe-turnaround",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "STX": {
+   "cnbc": [
+    {
+     "title": "Data storage demand is strong. That should boost this stock, Morgan Stanley says",
+     "url": "https://www.cnbc.com/2026/10/20/this-data-storage-stock-should-get-a-big-boost-morgan-stanley-says.html",
+     "date": "2026-10-20",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves midday: Tesla, Broadcom, Nike, ON Semiconductor & more",
+     "url": "https://www.cnbc.com/2026/10/02/stocks-making-the-biggest-moves-midday-tsla-avgo-nke-on-more-.html",
+     "date": "2026-10-02",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves premarket: Nike, ON Semiconductor, Synaptics, Vylor & more",
+     "url": "https://www.cnbc.com/2026/10/02/stocks-making-the-biggest-moves-premarket-nike-on-semiconductor-synaptics-vylor-more.html",
+     "date": "2026-10-02",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves premarket: Alibaba, Marvell, Sandisk and more",
+     "url": "https://www.cnbc.com/2026/08/24/stocks-making-the-biggest-moves-premarket-baba-mrvl-sndk-and-more.html",
+     "date": "2026-08-24",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "4 memory stocks are darlings of the AI boom. How they differ and why we own Micron",
+     "url": "https://www.cnbc.com/investingclub/2026/08/21/4-memory-stocks-are-darlings-of-the-ai-boom-how-they-differ-and-why-we-own-micron.html",
+     "date": "2026-08-21",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Jim Cramer says it’s not too late to own any one of these 4 soaring memory stocks",
+     "url": "https://www.cnbc.com/2026/08/17/cramer-buy-soaring-memory-stocks.html",
+     "date": "2026-08-17",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[시게이트 테크놀로지 홀딩스 (NAS:STX)] 더 싸게 만들고, 더 비싸게 판다",
+     "broker": "유진투자증권",
+     "analyst": "박재환",
+     "date": "2026-07-30",
+     "summary": "- 데이터센터 내 스토리지의 중요성은 지속적으로 상승하는 추세. 클로드 Fable/Opus 5, 오픈 AI GPT 5.6, Kimi K3 등 모델의 고도화와 출시 주기 단축으로 인해 학습 데이터와 체크포인트가 빠르게 누적되고 있음. Agent AI의 멀티 스탭 워크로드 역시 컨텍스트 누적을 통해 스토리지 부담을 가 중. 이에 주요 CSP들은 SSD와 HDD를 함께 활용하는 계층형 스토리지 구 조로 대응 중이며, 용량 대비 가격 경쟁력이 높은 HDD의 수요도 견조하게 유지되는 상황- 데이터센터 고용량 스토리지 수요 호조로 HDD 엑사바이트 출하량은 전년 비 34% 증가했으며 Nearline HDD가 성장을 견인. 또한 공급 업체의 보수 적 증설 기조로 타이트한 수급 환경이 이어지며 FY4Q26 TB 당 ASP는 전 년비 10.7% 수준 재차 상승한 것으로 추정.- 이에 반해 TB 당 매출원가는 지속적으로 하락. 씨게이트는 공격적인 HAMR 전환을 통해 출하량의 40%를 HAMR 기반 HDD로 전환했으며, CY2026 말까지 50% 이상으로 확대할 계획. HAMR은 유사한 수준의 BOM으로 플래터당 용량을 3TB 이상으로 높일 수 있어 수익성 개선에 긍 정적",
+     "url": "https://rreport.einfomax.co.kr/report/eqlzixxzmzqmmxegcgxecge.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[시게이트 테크놀로지 홀딩스 (NAS:STX)] HAMR 선도 프리미엄을 숫자로 증명",
+     "broker": "신한투자증권",
+     "analyst": "고준혁",
+     "date": "2026-07-29",
+     "summary": "- HDD 업황의 타이트한 수급과 HAMR 기술 상용화로 FY27 이익 추정치 상향 기대. AI 인프라 투심 회복 시 공급부족 프리미엄 재부각 전망- FY4Q26 매출액 36.3억달러(YoY+48.5%, 이하 전년대비), 영업이익 16.2 억달러(+152.9%, OPM 44.6%)로 컨센서스를 각각 4%, 10.7% 상회. 총 출하용량 218EB(+33.7%), 니어라인 출하량은 195EB(+42.3%) 기록. 평균 가격/TB은 전년대비 10.3% 증가해 매출총이익률 52.7%(+14.8%p) 달성. 데이터센터향 매출이 29.3억달러(+57.1%)로 전체 비중의 81.2% 차지. HAMR 전환에 따른 원가/TB 하락으로 출하량 대비 매출 증가세 재확인- FY1Q27 가이던스는 중간값 기준 매출액 41억달러, OPM 50%, EPS 7.3달 러로 제시. 니어라인 EB 공급은 CY27에서 CY28까지 대부분 배정 완료. 유닛 공급능력 증설을 제한해 가격/EB도 전년대비 20% 안판의 상승 전망",
+     "url": "https://rreport.einfomax.co.kr/report/eqlziczkmqcekiggcgxecge.pdf",
+     "via": "연합인포맥스"
+    },
+    {
+     "title": "[시게이트 테크놀로지 홀딩스 (NAS:STX)] Earnings Flash",
+     "broker": "한화증권",
+     "analyst": "박제인",
+     "date": "2026-07-29",
+     "summary": "- 매출액 36.3억 달러(YoY +48.5%), 영업이익 16.2억 달러(YoY +153%), 조정 EPS 5.71 달러(YoY +120.5%)로 각각 예상치 3.9%, 10.7%. 12.3% 상회.- 분기 배당금 주당 0.74달러로 유지. FY 2026 연간 주주환원액 8.1억 달러- 예상치를 상회하는 실적과 가이던스로 시간외메서 6.6% 상승 마감",
+     "url": "https://rreport.einfomax.co.kr/report/eqlzicimgicqzgcgcgxecge.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": []
+  },
+  "LOGI": {
+   "cnbc": [
+    {
+     "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+     "url": "https://www.cnbc.com/2026/06/30/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+     "date": "2026-06-30",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Tuesday's biggest analyst calls: Nvidia, Netflix, Tesla, Alphabet, AMD, Sandisk & more",
+     "url": "https://www.cnbc.com/2026/06/30/tuesday-biggest-analyst-call-on-wall-street-include-nvidia.html",
+     "date": "2026-06-30",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Analysts Estimate Logitech (LOGI) to Report a Decline in Earnings: What to Look Out for",
+     "url": "https://www.nasdaq.com/articles/analysts-estimate-logitech-logi-report-decline-earnings-what-look-out",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Bullish Two Hundred Day Moving Average Cross - LOGI",
+     "url": "https://www.nasdaq.com/articles/bullish-two-hundred-day-moving-average-cross-logi",
+     "date": "2026-09-11",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Logitech (LOGI) Reports Q1 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/logitech-logi-reports-q1-earnings-what-key-metrics-have-say",
+     "date": "2026-07-28",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "ANET": {
+   "cnbc": [
+    {
+     "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+     "url": "https://www.cnbc.com/investingclub/2026/09/01/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+     "date": "2026-09-01",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "SpaceX gives Nvidia a much-needed boost. Plus, Cramer on an 'undervalued' stock",
+     "url": "https://www.cnbc.com/investingclub/2026/08/05/spacex-gives-nvidia-a-much-needed-boost-cramers-undervalued-stock-.html",
+     "date": "2026-08-05",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Final Trades: Hewlett Packard, Wells Fargo, Arista Networks and UnitedHealth",
+     "url": "https://www.cnbc.com/video/2026/10/09/final-trades-hewlett-packard-wells-fargo-arista-networks-and-unitedhealth.html",
+     "date": "2026-10-09",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "KKM Financial’s Jeff Kilburg on buying the 'net' names",
+     "url": "https://www.cnbc.com/video/2026/10/05/kkm-financialas-jeff-kilburg-on-buying-the-net-names.html",
+     "date": "2026-10-05",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Memory is the new gold, says Arista Networks CEO Jayshree Ullal",
+     "url": "https://www.cnbc.com/video/2026/08/05/memory-is-the-new-gold-says-arista-networks-ceo-jayshree-ullal.html",
+     "date": "2026-08-05",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "News Update – Market Close",
+     "url": "https://www.cnbc.com/video/2026/07/06/post-market-wrap-july-6-2026.html",
+     "date": "2026-07-06",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[아리스타 네트웍스 (NYS:ANET)] Scale-Across의 부상",
+     "broker": "키움증권",
+     "analyst": "김승혁",
+     "date": "2026-08-06",
+     "summary": "- 아리스타 네트웍스는 AI 데이터센터 중심의 이더넷 네트워크 장비 기업- FY2Q26 실적은 공급망 개선에 힘입어 매출 성장과 가이던스 상향을 기록- 부품 원가 및 고객 집중도 변수가 있으나 Scale-Across 확대로 장기 성장 기대",
+     "url": "https://rreport.einfomax.co.kr/report/eqlzmxmcglxmklxgcgxecge.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": [
+    {
+     "title": "Here is What to Know Beyond Why Arista Networks, Inc. (ANET) is a Trending Stock",
+     "url": "https://www.nasdaq.com/articles/here-what-know-beyond-why-arista-networks-inc-anet-trending-stock-0",
+     "date": "2026-10-19",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's Why Arista Networks (ANET) Could be Great Choice for a Bottom Fisher",
+     "url": "https://www.nasdaq.com/articles/heres-why-arista-networks-anet-could-be-great-choice-bottom-fisher",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "WDC": {
+   "cnbc": [
+    {
+     "title": "Stocks making the biggest moves midday: Tesla, Broadcom, Nike, ON Semiconductor & more",
+     "url": "https://www.cnbc.com/2026/10/02/stocks-making-the-biggest-moves-midday-tsla-avgo-nke-on-more-.html",
+     "date": "2026-10-02",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves premarket: Nike, ON Semiconductor, Synaptics, Vylor & more",
+     "url": "https://www.cnbc.com/2026/10/02/stocks-making-the-biggest-moves-premarket-nike-on-semiconductor-synaptics-vylor-more.html",
+     "date": "2026-10-02",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Stocks making the biggest moves premarket: Alibaba, Marvell, Sandisk and more",
+     "url": "https://www.cnbc.com/2026/08/24/stocks-making-the-biggest-moves-premarket-baba-mrvl-sndk-and-more.html",
+     "date": "2026-08-24",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "4 memory stocks are darlings of the AI boom. How they differ and why we own Micron",
+     "url": "https://www.cnbc.com/investingclub/2026/08/21/4-memory-stocks-are-darlings-of-the-ai-boom-how-they-differ-and-why-we-own-micron.html",
+     "date": "2026-08-21",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Jim Cramer says it’s not too late to own any one of these 4 soaring memory stocks",
+     "url": "https://www.cnbc.com/2026/08/17/cramer-buy-soaring-memory-stocks.html",
+     "date": "2026-08-17",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Cramer’s Stop Trading: Sandisk Corporation & Western Digital",
+     "url": "https://www.cnbc.com/video/2026/10/19/crameras-stop-trading-sandisk-corporation-western-digital.html",
+     "date": "2026-10-19",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [
+    {
+     "title": "[웨스턴 디지털 (NAS:WDC)] 분명히 좋은데 비교적 아쉽다",
+     "broker": "신한투자증권",
+     "analyst": "고준혁",
+     "date": "2026-08-06",
+     "summary": "- 실적발표 이후 11% 하락. 매출 성장분의 80% 이상을 매출총이익으로 전 환. TB당 판가 상승과 원가 하락이 동시에 나타나며 수익 구조 개선 확인. *HAMR 정보, 마진 개선 등 구체적 내용 부재가 투심에 부정적 영향- FY4Q26 매출액 37.5억달러(YoY+43.8%, 이하 전년동기대비), 영업이익 16.6억달러(+126.1%, OPM 44.2%)로 컨센서스를 각각 1.7%, 8.5% 상회. 총 출하용량은 231EB(+21.6%)으로 컨센서스를 4.5% 하회했으나 제품 믹 스와 구매 시점 인식 차이가 일시적 원인. FY27 25% 이상의 성장 목표 재 확인. 40TB ePMR 본격 출하와 UltraSMR 비중 확대로 가격/TB는 전년대 비 10% 후반 상승, 원가/TB는 8% 하락해 GPM 54.4%(+13.1%p) 달성- FY1Q27 가이던스는 중간값 기준 매출액 41억달러, GPM 55.5%, EPS 4.0 달러로 제시. 경쟁사 대비 마진 상승 속도가 느린 것을 시장은 우려. 다만 기술력의 구조적 열위가 아닌 LTA 가격 재설정과 40TB ePMR 램프 시점 차이가 원인. FY27 ePMR, UltraSMR 비중 확대로 마진 격차 축소 전망",
+     "url": "https://rreport.einfomax.co.kr/report/eqlxccxikccqqelgcgxecge.pdf",
+     "via": "연합인포맥스"
+    }
+   ],
+   "news": [
+    {
+     "title": "Western Digital (WDC) Stock Declines While Market Improves: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/western-digital-wdc-stock-declines-while-market-improves-some-information-investors",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    }
+   ]
+  }
+ },
+ "industryReports": [
+  {
+   "title": "[GLOBAL X MLCC & ELECTRONIC COMPONENTS (AMS:MLCC)] AI 인프라의 새로운 병목, MLCC",
+   "broker": "키움증권",
+   "analyst": "김진영",
+   "date": "2026-09-23",
+   "summary": "- 아시아 주요 MLCC·수동 전자부품 기업에 집중 투자하는 액티브 ETF- AI 서버향 고용량 MLCC 수요 확대 및 공급 병목 수혜 기업을 선별하며, 글로벌 MLCC 공급의 약 85%를 차지하는 5개사에 포트폴리오 약 76% 배분",
+   "url": "https://rreport.einfomax.co.kr/report/eqmcekzikkgzeelgcgxecge.pdf",
+   "via": "연합인포맥스",
+   "keyword": "AI 서버"
+  },
+  {
+   "title": "[델 테크놀로지스 (NYS:DELL)] 온프레미스 AI 의 관문",
+   "broker": "유진투자증권",
+   "analyst": "박재환",
+   "date": "2026-09-07",
+   "summary": "- 델의  2분기  매출은  470억달러(+58%yoy), GPM 21.1%, OPM 12.6%, EPS 7.04로 컨센을 상회. AI 서버발 탑라인 성장으로 인한 영업 레버리지, 스토리지 믹스 개선으로 수익성 개선이 두드러짐. 3분기 가이던스도 매출 490억달러(+81%yoy), EPS 6.5달러를 제시하며 컨센을 상회했으며, F27 연간 가이던스는 매출 1,920억달러, EPS 25.5달러로 상향 조정- AI 서버 매출은 164억달러(+100%yoy)를 기록하며 탑라인 성장을 견인. 전방위적 AI 수요 강세로 인해 델이 강점을 가진 네오클라우드·엔터프라이 즈·소버린이 가파르게 성장 중. AI 서버 주문은 609억달러로 전분기 대비 150% 증가하며 역대 최고치를 달성했고, 분기말 AI 서버 백로그는 950억 달러로 전년비 7배 이상 증가- 델의 12M Fwd PER은 18.6배 수준으로 경쟁사(HPE, SMCI 등) 대비 높은 밸류에이션을 받고 있음. 델 역시 서버 ODM의 고질적 리스크인 메모리 인 플레이션으로 인한 잠재적 마진 부담, 백로그 이행 속도 등에서 자유롭지는 못함. 다만 견조한 대형 AI 고객사의 캐팩스 투자와 더불어 엔터프라이즈향 오픈웨이트 모델 확산 수혜에 가장 크게 노출되어 있다고 판단하며, 리스크 에도 불구하고 가장 높은 성장 포텐셜을 보유하였다고 판단.",
+   "url": "https://rreport.einfomax.co.kr/report/eqllqiqlqlgmmxqgcgxecge.pdf",
+   "via": "연합인포맥스",
+   "keyword": "AI 서버"
+  }
+ ],
+ "note": "members 는 이 업종 전 종목(6개월 RS 상위 순, rnk = 전체 종목 중 상위 몇 %). evidence 는 그중 상위 12종목의 기사·리포트. 리포트 url 은 연합인포맥스 PDF."
+}

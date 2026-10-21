@@ -1,0 +1,158 @@
+{
+ "ticker": "HLT",
+ "news": [
+  {
+   "title": "Hilton Worldwide Holdings Inc. (HLT) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "url": "https://www.nasdaq.com/articles/hilton-worldwide-holdings-inc-hlt-earnings-expected-grow-what-know-ahead-next-weeks",
+   "date": "2026-10-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Wolfe Research Initiates Coverage of Hilton Worldwide Holdings (HLT) with Peer Perform Recommendation",
+   "url": "https://www.nasdaq.com/articles/wolfe-research-initiates-coverage-hilton-worldwide-holdings-hlt-peer-perform",
+   "date": "2026-09-02",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Hilton Worldwide (HLT) Up 3.4% Since Last Earnings Report: Can It Continue?",
+   "url": "https://www.nasdaq.com/articles/hilton-worldwide-hlt-34-last-earnings-report-can-it-continue",
+   "date": "2026-08-27",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-20",
+   "reportDate": "2026-10-20",
+   "items": [
+    "3.01",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "상장규정 위반",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1585689/000158568926000045/hlt-20261020.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-28",
+   "reportDate": "2026-07-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1585689/000158568926000042/hlt-20260728.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-18",
+   "reportDate": "2026-05-14",
+   "items": [
+    "5.02",
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1585689/000158568926000037/hlt-20260514.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-11",
+   "reportDate": "2026-05-07",
+   "items": [
+    "1.01",
+    "2.03",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1585689/000119312526217102/d144789d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-05",
+   "reportDate": "2026-05-05",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1585689/000119312526205180/d29790d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-28",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1585689/000158568926000031/hlt-20260428.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 8.18,
+  "saleNy": 8.56,
+  "epsCy": 11.58,
+  "epsNy": 15.16,
+  "cyTrend": 0.07,
+  "nyTrend": -0.33,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.5,
+    8.98,
+    10.92
+   ],
+   "ni": [
+    9.55,
+    28.33,
+    -41.19
+   ],
+   "opm": [
+    25.68,
+    23.08,
+    19.5
+   ],
+   "updated": "2026-09-08 09:46:10"
+  }
+ }
+}

@@ -1,0 +1,253 @@
+{
+ "ticker": "PRAX",
+ "sector": "Healthcare",
+ "industry": "Biotechnology",
+ "nameKo": "프락시스 프리시전 메디신",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0,
+  "saleNy": 41442.59,
+  "epsCy": 4.04,
+  "epsNy": -32.3,
+  "est": {
+   "cyCur": -14.02439,
+   "cy30": -13.93524,
+   "nyCur": -9.49386,
+   "ny30": -9.2938
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": null,
+   "updated": "2026-09-21 06:36:43"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-21",
+  "nameKo": "프락시스 프리시전 메디신",
+  "nameEn": "PRAXIS PRECISION MEDICINES INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001689548&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 0,
+     "profit": -97044000,
+     "netIncome": -88643000,
+     "margin": null,
+     "yoy": {
+      "revenue": -100,
+      "profit": -51.7,
+      "netIncome": -51.1,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 0,
+     "profit": -78359000,
+     "netIncome": -73934000,
+     "margin": null,
+     "yoy": {
+      "revenue": -100,
+      "profit": -37.9,
+      "netIncome": -42.4,
+      "priorEnd": "2024-09-30"
+     }
+    },
+    {
+     "periodEnd": "2025-06-30",
+     "derived": false,
+     "revenue": 0,
+     "profit": -76067000,
+     "netIncome": -71127000,
+     "margin": null,
+     "yoy": {
+      "revenue": -100,
+      "profit": -102.9,
+      "netIncome": -117.7,
+      "priorEnd": "2024-06-30"
+     }
+    },
+    {
+     "periodEnd": "2025-03-31",
+     "derived": false,
+     "revenue": 0,
+     "profit": -74728000,
+     "netIncome": -69296000,
+     "margin": null,
+     "yoy": {
+      "revenue": -100,
+      "profit": -78.4,
+      "netIncome": -75.2,
+      "priorEnd": "2024-03-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "UBS Initiates Coverage of Praxis Precision Medicines with Buy",
+     "url": "https://www.nasdaq.com/articles/ubs-initiates-coverage-praxis-precision-medicines-buy",
+     "date": "2026-10-17",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "JP Morgan Initiates Coverage of Praxis Precision Medicines at Overweight",
+     "url": "https://www.nasdaq.com/articles/jp-morgan-initiates-coverage-praxis-precision-medicines-overweight",
+     "date": "2026-10-17",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Praxis (PRAX) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/praxis-prax-q2-2026-earnings-call-transcript",
+     "date": "2026-08-13",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Show Me The Money: After An 800%+ Gain, PRAX Enters A High-Stakes Stretch",
+     "url": "https://www.nasdaq.com/articles/show-me-money-after-800-gain-prax-enters-high-stakes-stretch",
+     "date": "2026-08-07",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Praxis Precision Medicines Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/praxis-precision-medicines-q2-earnings-call-highlights",
+     "date": "2026-08-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "FDA Extends Praxis' Relutrigine NDA Review; New PDUFA Date Set For December 27,2026",
+     "url": "https://www.nasdaq.com/articles/fda-extends-praxis-relutrigine-nda-review-new-pdufa-date-set-december-272026",
+     "date": "2026-06-30",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Praxis Gains After FDA Grants Breakthrough Therapy Designation To Elsunersen For SCN2A-DEE",
+     "url": "https://www.nasdaq.com/articles/praxis-gains-after-fda-grants-breakthrough-therapy-designation-elsunersen-scn2a-dee",
+     "date": "2026-06-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Wedbush Analyst Ratings On PRAX, IDYA, EWTX, JADE",
+     "url": "https://www.nasdaq.com/articles/wedbush-analyst-ratings-prax-idya-ewtx-jade",
+     "date": "2026-06-04",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954826000082/prax-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-07",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954826000072/prax-20260707.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-02",
+    "itemsKo": [
+     "4.01",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1689548/000110465926080356/tm2619331d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-29",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954826000069/prax-20260629.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-22",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954826000066/prax-20260622.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-12",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954826000056/prax-20260610.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "PRAX",
+  "fetchedAt": "2026-10-21",
+  "source": "한국투자증권 Open API",
+  "per": 20.44,
+  "pbr": 5.51,
+  "eps": 12.94,
+  "bps": 48.04,
+  "shares": 27920000,
+  "marketCapM": 7385,
+  "high52": 392.7,
+  "high52Date": "2026-08-20",
+  "low52": 154.45,
+  "low52Date": "2025-11-05",
+  "last": 264.49,
+  "prevClose": 260.17,
+  "nameKo": "프락시스 프리시전 메디신",
+  "nameEn": "PRAXIS PRECISION MEDICINES INC",
+  "listedOn": "2020-10-15",
+  "exchange": "나스닥",
+  "listedShares": 27920000
+ }
+}

@@ -1,0 +1,178 @@
+{
+ "ticker": "GPC",
+ "news": [
+  {
+   "title": "Genuine Parts (GPC) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/genuine-parts-gpc-q3-2026-earnings-call-transcript",
+   "date": "2026-10-20",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Here's What Key Metrics Tell Us About Genuine Parts (GPC) Q3 Earnings",
+   "url": "https://www.nasdaq.com/articles/heres-what-key-metrics-tell-us-about-genuine-parts-gpc-q3-earnings",
+   "date": "2026-10-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Genuine Parts (GPC) Q3 Earnings Lag Estimates",
+   "url": "https://www.nasdaq.com/articles/genuine-parts-gpc-q3-earnings-lag-estimates",
+   "date": "2026-10-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "KMX vs. GPC: Which Stock Is the Better Value Option?",
+   "url": "https://www.nasdaq.com/articles/kmx-vs-gpc-which-stock-better-value-option",
+   "date": "2026-10-16",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Gear Up for Genuine Parts (GPC) Q3 Earnings: Wall Street Estimates for Key Metrics",
+   "url": "https://www.nasdaq.com/articles/gear-genuine-parts-gpc-q3-earnings-wall-street-estimates-key-metrics",
+   "date": "2026-10-15",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "DRVN vs. GPC: Which Stock Should Value Investors Buy Now?",
+   "url": "https://www.nasdaq.com/articles/drvn-vs-gpc-which-stock-should-value-investors-buy-now",
+   "date": "2026-09-30",
+   "publisher": "Zacks"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-20",
+   "reportDate": "2026-10-20",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/40987/000004098726000037/gpc-20261020.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-09",
+   "reportDate": "2026-09-04",
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40987/000119312526385959/d136093d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-11",
+   "reportDate": "2026-08-11",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40987/000004098726000035/gpc-20260811.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-21",
+   "reportDate": "2026-07-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/40987/000004098726000031/gpc-20260721.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-28",
+   "reportDate": "2026-04-27",
+   "items": [
+    "1.01",
+    "2.03",
+    "5.07",
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "주주총회 표결",
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40987/000004098726000021/gpc-20260427.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-21",
+   "reportDate": "2026-04-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/40987/000004098726000015/gpc-20260421.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.14,
+  "saleNy": 3.6,
+  "epsCy": 4.95,
+  "epsNy": 7.56,
+  "cyTrend": -0.05,
+  "nyTrend": 0.18,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    6.04,
+    6.8,
+    4.15
+   ],
+   "ni": [
+    -10.72,
+    -3.01,
+    -558.08
+   ],
+   "opm": [
+    5.15,
+    4.57,
+    -0.64
+   ],
+   "updated": "2026-09-08 08:15:01"
+  }
+ }
+}

@@ -1,0 +1,281 @@
+{
+ "ticker": "NTRA",
+ "sector": "Healthcare",
+ "industry": "Diagnostics & Research",
+ "nameKo": "나테라",
+ "site": {
+  "targetStatus": true,
+  "saleCy": 26.19,
+  "saleNy": 20.84,
+  "epsCy": -3.01,
+  "epsNy": -84.37,
+  "est": {
+   "cyCur": -1.47426,
+   "cy30": -1.38803,
+   "nyCur": -0.23036,
+   "ny30": -0.10291
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    37.71,
+    38.82,
+    39.79
+   ],
+   "ni": [
+    "적자축소",
+    "적자확대",
+    "흑자전환"
+   ],
+   "opm": [
+    -10.07,
+    -13.42,
+    -3.42
+   ],
+   "updated": "2026-09-07 07:27:41"
+  },
+  "qualifiedBy": [
+   "3mo"
+  ],
+  "top2Since": {
+   "m1": null,
+   "m3": "2026-10-20",
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 1,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-10-21",
+  "nameKo": "나테라",
+  "nameEn": "NATERA INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001604821&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 752750000,
+     "profit": -75792000,
+     "netIncome": -66969000,
+     "margin": -10.1,
+     "yoy": {
+      "revenue": 37.7,
+      "profit": 31.3,
+      "netIncome": 33.7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 696644000,
+     "profit": -93516000,
+     "netIncome": -85091000,
+     "margin": -13.4,
+     "yoy": {
+      "revenue": 38.8,
+      "profit": -18.1,
+      "netIncome": -27.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 665498000,
+     "profit": -22785000,
+     "netIncome": 47258000,
+     "margin": -3.4,
+     "yoy": {
+      "revenue": 39.8,
+      "profit": 64.8,
+      "netIncome": 187.9,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 592183000,
+     "profit": -97576000,
+     "netIncome": -87544000,
+     "margin": -16.5,
+     "yoy": {
+      "revenue": 34.7,
+      "profit": -148,
+      "netIncome": -177.1,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "NTRA Crosses Above Average Analyst Target",
+     "url": "https://www.nasdaq.com/articles/ntra-crosses-above-average-analyst-target-0",
+     "date": "2026-10-20",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Natera, TransCode Target Residual Colorectal Cancer With Trial Collaboration",
+     "url": "https://www.nasdaq.com/articles/natera-transcode-target-residual-colorectal-cancer-trial-collaboration",
+     "date": "2026-10-13",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Natera's Multi-cancer Early Detection Assay Granted Breakthrough Device Designation By FDA",
+     "url": "https://www.nasdaq.com/articles/nateras-multi-cancer-early-detection-assay-granted-breakthrough-device-designation-fda",
+     "date": "2026-10-09",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Natera Announces Japan's PMDA Authorization For Signatera In Muscle-Invasive Bladder Cancer",
+     "url": "https://www.nasdaq.com/articles/natera-announces-japans-pmda-authorization-signatera-muscle-invasive-bladder-cancer",
+     "date": "2026-09-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Natera CEO Steven Chapman Sells 1,698 Shares for $545,000",
+     "url": "https://www.nasdaq.com/articles/natera-ceo-steven-chapman-sells-1698-shares-545000",
+     "date": "2026-09-18",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Show Me The Money: Natera Delivers Over 120% Gain In Just About A Year",
+     "url": "https://www.nasdaq.com/articles/show-me-money-natera-delivers-over-120-gain-just-about-year",
+     "date": "2026-09-18",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "NTRA Crosses Above Average Analyst Target",
+     "url": "https://www.nasdaq.com/articles/ntra-crosses-above-average-analyst-target",
+     "date": "2026-09-15",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1604821/000160482126000015/ntra-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-06",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1604821/000160482126000005/ntra-20260701.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-16",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1604821/000160482126000003/ntra-20260611.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-05",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1604821/000160482126000002/a20260605newdirectortomlyn.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1604821/000162828026032101/ntra-20260507.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-01",
+    "itemsKo": [
+     "임원 변동",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1604821/000110465926038519/tm2610771d1_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-07-16",
+     "broker": "신한투자증권",
+     "analyst": "하헌호",
+     "title": "[나테라 (NAS:NTRA)] 안정적 성장세 + @",
+     "summary": "- 미세잔존암(MRD), 산과 등 다양한 분야의 혈액 기반 진단 제품 개발로 액체생검 시장 성장에 따른 수혜 가능. 유방암, 대장암 조기 진단기기 성 과 입증, MRD의 일본 등 글로벌 시장 진출로 추가 성장 모멘텀 확보- 산과, 종양, 장기이식 사업을 중심으로 성장하고 있으며 액체생검 시장의 구조적 성장으로 시판하는 대부분의 제품 수요 레벨업 전망. 액체생검 암 진단 제품(시그나테라)이 신규 성장 모멘텀으로 작용하는 가운데 올해 방 광암, 직장암, 유방암에서 긍정적 임상 결과 발표- 선항암 받은 방광암 환자가 시그나테라로 음성 판정 받은 후 수술 없이도 수술 받은 환자와 유사한 수준 예후. 70세 이상 유방암 환자, 해당 제품 활 용한 추적 관찰로 수술 및 독성 높은 항암 치료 없이도 원격 전이 제한적 인 결과. 유방암은 MRD 진단 제품 중 잠재 시장 규모 가장 커 적극적인 투자. 직장암에서 음성/양성 구분을 넘어 수치 증가 속도로 항암 치료 시 점, 방법 결정할 수 있는 정보 제공. 연간 15만명 신규 대장암 환자 발생 하는 일본에서 최초 MRD 제품으로 승인. 비미국 시장 매출 증가 본격화",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlkexgcqxqlkzmgcgxecge.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Catalyst Funds’ David Miller: Natera can grow at exponential margins for years to come",
+   "url": "https://www.cnbc.com/video/2026/10/13/catalyst-fundsa-david-miller-natera-can-grow-at-exponential-margins-for-years-to-come.html",
+   "date": "2026-10-13",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "I would put Natera on my watch list and not chase the stock here, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/09/03/i-would-put-natera-on-my-watch-list-and-not-chase-the-stock-here-says-jim-cramer.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "NTRA",
+  "fetchedAt": "2026-10-21",
+  "source": "한국투자증권 Open API",
+  "per": 296.6,
+  "pbr": 32,
+  "eps": 1.37,
+  "bps": 12.68,
+  "shares": 144144000,
+  "marketCapM": 58511,
+  "high52": 437.4083,
+  "high52Date": "2026-10-06",
+  "low52": 181,
+  "low52Date": "2026-03-27",
+  "last": 405.92,
+  "prevClose": 399.42,
+  "nameKo": "나테라",
+  "nameEn": "NATERA INC",
+  "listedOn": "0000-00-00",
+  "exchange": "나스닥",
+  "listedShares": 144144000
+ }
+}

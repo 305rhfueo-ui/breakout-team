@@ -1,0 +1,513 @@
+{
+ "ticker": "TWLO",
+ "date": "2026-10-21",
+ "session": "2026-10-20",
+ "source": "list",
+ "plan": {
+  "ticker": "TWLO",
+  "name": "트윌리오",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "price": 257.2900085449219,
+  "grade": "B",
+  "state": "pre",
+  "pivot": 308.4,
+  "stop": 292.4,
+  "distToPivotPct": -16.12,
+  "distToPivotAdr": -2.61,
+  "riskPerSharePct": 5.19,
+  "adrPct": 6.18,
+  "extensionAdr": -0.75,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 20,
+   "baseWeeks": 4,
+   "depthPct": 23.2,
+   "priorMovePct": 71.7,
+   "higherLows": 1,
+   "contraction": 0.86,
+   "closeRange10Adr": 2.8,
+   "surf10": -0.75,
+   "surf20": -1.4,
+   "slope20": 0.45,
+   "baseLow": 236.85,
+   "lastSwingLow": 272.05
+  },
+  "reasons": [
+   "선행 상승 +72%",
+   "베이스 4주",
+   "깊이 23.2%",
+   "저점 상승 1회",
+   "진폭 0.86배 · 10일 종가폭 2.8 ADR",
+   "✗ 10일선 -0.8 ADR · 20일선 -1.4 ADR",
+   "20일선 기울기 +0.45%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.03296244867378262,
+    "pct": 36.56447249774571
+   },
+   "m3": {
+    "v": 0.34383160724232187,
+    "pct": 94.8151487826871
+   },
+   "m6": {
+    "v": 0.809862140665509,
+    "pct": 95.98737601442741
+   }
+  },
+  "ret1m": -3.3,
+  "ret3m": 34.38,
+  "ret6m": 80.99,
+  "marketCap": "39.51B",
+  "volx": null,
+  "volSurgeWk": 0.49,
+  "high52": 83.43,
+  "newHigh52": false,
+  "adr": 6.29,
+  "div50": 1.18,
+  "div200": 40.2,
+  "targetStatus": false,
+  "saleCy": 18.44,
+  "saleNy": 11.55,
+  "epsCy": 21.31,
+  "epsNy": 14.64,
+  "cyTrend": 0.05,
+  "nyTrend": 0.19,
+  "est": {
+   "cyCur": 5.93213,
+   "cy30": 5.92927,
+   "nyCur": 6.80031,
+   "ny30": 6.7873
+  },
+  "fs": {
+   "sale": [
+    22.03,
+    20,
+    14.32
+   ],
+   "ni": [
+    4659.44,
+    350.31,
+    "적자확대"
+   ],
+   "opm": [
+    5.64,
+    7.65,
+    4.16
+   ],
+   "updated": "2026-09-08 08:38:14"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-21",
+  "nameKo": "트윌리오",
+  "nameEn": "TWILIO INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001447669&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1499089000,
+     "profit": 84546000,
+     "netIncome": 1067209000,
+     "margin": 5.6,
+     "yoy": {
+      "revenue": 22,
+      "profit": 128.6,
+      "netIncome": 4659.4,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1406907000,
+     "profit": 107666000,
+     "netIncome": 90139000,
+     "margin": 7.7,
+     "yoy": {
+      "revenue": 20,
+      "profit": 366.5,
+      "netIncome": 350.3,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1365930000,
+     "profit": 56783000,
+     "netIncome": -45688000,
+     "margin": 4.2,
+     "yoy": {
+      "revenue": 14.3,
+      "profit": 313.7,
+      "netIncome": -278.6,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 1300402000,
+     "profit": 40948000,
+     "netIncome": 37248000,
+     "margin": 3.1,
+     "yoy": {
+      "revenue": 14.7,
+      "profit": 936.7,
+      "netIncome": 483,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Block Takes Over #254 Spot From Twilio",
+     "url": "https://www.nasdaq.com/articles/block-takes-over-254-spot-twilio",
+     "date": "2026-10-16",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Wall Street Bulls Look Optimistic About Twilio (TWLO): Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/wall-street-bulls-look-optimistic-about-twilio-twlo-should-you-buy",
+     "date": "2026-10-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Trending Stock Twilio Inc. (TWLO) a Buy Now?",
+     "url": "https://www.nasdaq.com/articles/trending-stock-twilio-inc-twlo-buy-now",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Twilio (TWLO) Declines More Than Market: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/twilio-twlo-declines-more-market-some-information-investors",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Here's How Much a $1000 Investment in Twilio Made 10 Years Ago Would Be Worth Today",
+     "url": "https://www.nasdaq.com/articles/heres-how-much-1000-investment-twilio-made-10-years-ago-would-be-worth-today-0",
+     "date": "2026-10-14",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Will Twilio (TWLO) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-twilio-twlo-beat-estimates-again-its-next-earnings-report",
+     "date": "2026-10-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Twilio (TWLO) Suffers a Larger Drop Than the General Market: Key Insights",
+     "url": "https://www.nasdaq.com/articles/twilio-twlo-suffers-larger-drop-general-market-key-insights",
+     "date": "2026-10-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Twilio (TWLO) Outperforms Broader Market: What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/twilio-twlo-outperforms-broader-market-what-you-need-know-0",
+     "date": "2026-10-05",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000088/twlo-20260806.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-17",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000055/twlo-20260616.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000046/twlo-20260430.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-24",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000027/twlo-20260324.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-12",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000010/twlo-20260212.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2025-10-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1447669/000144766925000147/twlo-20251030.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making big moves midday: Akamai Technologies, Genius Sports, People Inc",
+   "url": "https://www.cnbc.com/2026/09/25/stocks-making-the-biggest-moves-midday-akam-geni-ppli.html",
+   "date": "2026-09-25",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+   "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+   "date": "2026-08-07",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves after hours: Lyft, Airbnb, DraftKings and more",
+   "url": "https://www.cnbc.com/2026/08/06/stocks-making-the-biggest-moves-after-hours-sg-abnb-dkng-ttd.html",
+   "date": "2026-08-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Delta, Circle, Intel and more",
+   "url": "https://www.cnbc.com/2026/07/10/stocks-making-the-biggest-moves-premarket-dal-crcl-intc-more-.html",
+   "date": "2026-07-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Final Trades: Amazon, UnitedHealth, eBay and Twilio",
+   "url": "https://www.cnbc.com/video/2026/10/20/final-trades-amazon-unitedhealth-ebay-and-twilio.html",
+   "date": "2026-10-20",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Lightning Round: Twilio is valued correctly, says Jim Cramer",
+   "url": "https://www.cnbc.com/video/2026/10/19/lightning-round-twilio-is-valued-correctly-says-jim-cramer.html",
+   "date": "2026-10-19",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Final Trades: Twilio, Transocean and UnitedHealth",
+   "url": "https://www.cnbc.com/video/2026/10/19/final-trades-twilio-transocean-unitedhealth.html",
+   "date": "2026-10-19",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Twilio CEO: Voice AI penetration rate is extraordinarily low",
+   "url": "https://www.cnbc.com/video/2026/10/13/twilio-ceo-voice-ai-penetration-rate-is-extraordinarily-low.html",
+   "date": "2026-10-13",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "TWLO",
+  "fetchedAt": "2026-10-21",
+  "source": "한국투자증권 Open API",
+  "per": 36,
+  "pbr": 4.43,
+  "eps": 7.19,
+  "bps": 58.46,
+  "shares": 153575000,
+  "marketCapM": 39728,
+  "high52": 308.4,
+  "high52Date": "2026-10-06",
+  "low52": 105,
+  "low52Date": "2026-02-04",
+  "last": 258.69,
+  "prevClose": 257.29,
+  "nameKo": "트윌리오",
+  "nameEn": "TWILIO INC",
+  "listedOn": "2016-06-23",
+  "exchange": "뉴욕거래소",
+  "listedShares": 153575000
+ },
+ "estimates": null,
+ "chart": {
+  "lastBar": "2026-10-20",
+  "numbers": {
+   "price": 258.69,
+   "ma20": 281.05,
+   "ma50": 254.45,
+   "ma150": 204.7,
+   "distMA50": 1.67,
+   "periodHigh": 308.4,
+   "pullbackFromHigh": -16.12,
+   "volRatio20": 0.29,
+   "dryUpRatio": 0.58
+  },
+  "last10": [
+   {
+    "d": "2026-10-07",
+    "o": 278.36,
+    "h": 279.04,
+    "l": 272.05,
+    "c": 273,
+    "v": 3480800,
+    "clsPos": 14,
+    "gapPct": -0.73
+   },
+   {
+    "d": "2026-10-08",
+    "o": 273.86,
+    "h": 280.53,
+    "l": 273.46,
+    "c": 275.77,
+    "v": 1862800,
+    "clsPos": 33,
+    "gapPct": 0.32
+   },
+   {
+    "d": "2026-10-09",
+    "o": 277.68,
+    "h": 293,
+    "l": 276.86,
+    "c": 289.47,
+    "v": 2618200,
+    "clsPos": 78,
+    "gapPct": 0.69
+   },
+   {
+    "d": "2026-10-12",
+    "o": 291.95,
+    "h": 293.66,
+    "l": 276,
+    "c": 282.66,
+    "v": 1945000,
+    "clsPos": 38,
+    "gapPct": 0.86
+   },
+   {
+    "d": "2026-10-13",
+    "o": 280.62,
+    "h": 289.05,
+    "l": 278.8,
+    "c": 281.59,
+    "v": 1616300,
+    "clsPos": 27,
+    "gapPct": -0.72
+   },
+   {
+    "d": "2026-10-14",
+    "o": 280.1,
+    "h": 286.2,
+    "l": 269.66,
+    "c": 271.12,
+    "v": 1972800,
+    "clsPos": 9,
+    "gapPct": -0.53
+   },
+   {
+    "d": "2026-10-15",
+    "o": 264.2,
+    "h": 276.26,
+    "l": 260.66,
+    "c": 273.4,
+    "v": 2347900,
+    "clsPos": 82,
+    "gapPct": -2.55
+   },
+   {
+    "d": "2026-10-16",
+    "o": 276.58,
+    "h": 278.43,
+    "l": 236.85,
+    "c": 244.37,
+    "v": 4592800,
+    "clsPos": 18,
+    "gapPct": 1.16
+   },
+   {
+    "d": "2026-10-19",
+    "o": 249.03,
+    "h": 259.79,
+    "l": 248,
+    "c": 257.29,
+    "v": 3089300,
+    "clsPos": 79,
+    "gapPct": 1.91
+   },
+   {
+    "d": "2026-10-20",
+    "o": 254.06,
+    "h": 260.97,
+    "l": 250.65,
+    "c": 258.69,
+    "v": 1348212,
+    "clsPos": 78,
+    "gapPct": -1.26
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/TWLO-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/TWLO-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 1일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

@@ -1,0 +1,770 @@
+{
+ "ticker": "MPC",
+ "date": "2026-10-21",
+ "session": "2026-10-20",
+ "source": "list",
+ "plan": {
+  "ticker": "MPC",
+  "name": "매러선 페트롤리엄",
+  "sector": "Energy",
+  "industry": "Oil & Gas Refining & Marketing",
+  "price": 473.69000244140625,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 3.66,
+  "extensionAdr": 0.38,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.17722052958213413,
+    "pct": 98.42200180342651
+   },
+   "m3": {
+    "v": 0.5359818696856942,
+    "pct": 98.24165915238953
+   },
+   "m6": {
+    "v": 1.0499585369342213,
+    "pct": 98.60234445446348
+   }
+  },
+  "ret1m": 17.72,
+  "ret3m": 53.6,
+  "ret6m": 105,
+  "marketCap": "133.02B",
+  "volx": null,
+  "volSurgeWk": 1.05,
+  "high52": 95.89,
+  "newHigh52": false,
+  "adr": 3.71,
+  "div50": 18.66,
+  "div200": 71.09,
+  "targetStatus": true,
+  "saleCy": 26.98,
+  "saleNy": -11.29,
+  "epsCy": 502.66,
+  "epsNy": -12.08,
+  "cyTrend": 17.14,
+  "nyTrend": 32.9,
+  "est": {
+   "cyCur": 64.48431,
+   "cy30": 55.04855,
+   "nyCur": 56.69683,
+   "ny30": 42.66276
+  },
+  "fs": {
+   "sale": [
+    53.83,
+    8.51,
+    -1.7
+   ],
+   "ni": [
+    322.53,
+    "흑자전환",
+    313.75
+   ],
+   "opm": [
+    14.08,
+    4.11,
+    8.27
+   ],
+   "updated": "2026-09-08 10:31:37"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": "2026-10-20",
+   "m3": "2026-10-19",
+   "m6": "2026-10-16"
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 2,
+   "m6": 3
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-10-21",
+  "nameKo": "매러선 페트롤리엄",
+  "nameEn": "MARATHON PETROLEUM CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001510295&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 51994000000,
+     "profit": 7322000000,
+     "netIncome": 5138000000,
+     "margin": 14.1,
+     "yoy": {
+      "revenue": 53.8,
+      "profit": 233.3,
+      "netIncome": 322.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 34200000000,
+     "profit": 1404000000,
+     "netIncome": 511000000,
+     "margin": 4.1,
+     "yoy": {
+      "revenue": 8.5,
+      "profit": 104.4,
+      "netIncome": 790.5,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 32574000000,
+     "profit": 2694000000,
+     "netIncome": 1535000000,
+     "margin": 8.3,
+     "yoy": {
+      "revenue": -1.7,
+      "profit": 136.1,
+      "netIncome": 313.7,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 34809000000,
+     "profit": 2713000000,
+     "netIncome": 1370000000,
+     "margin": 7.8,
+     "yoy": {
+      "revenue": -0.8,
+      "profit": 101.1,
+      "netIncome": 120.3,
+      "priorEnd": "2024-09-30"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Here's Why Marathon Petroleum (MPC) is a Strong Value Stock",
+     "url": "https://www.nasdaq.com/articles/heres-why-marathon-petroleum-mpc-strong-value-stock",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Marathon Petroleum Corporation (MPC) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/marathon-petroleum-corporation-mpc-attracting-investor-attention-here-what-you-should-know",
+     "date": "2026-10-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Marathon Petroleum (MPC) Stock Declines While Market Improves: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/marathon-petroleum-mpc-stock-declines-while-market-improves-some-information-investors",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Marathon vs. Delek US: Which Refining Stock Is the Better Buy Now?",
+     "url": "https://www.nasdaq.com/articles/marathon-vs-delek-us-which-refining-stock-better-buy-now",
+     "date": "2026-10-15",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Marathon Petroleum (MPC) is a Great Momentum Stock: Should You Buy?",
+     "url": "https://www.nasdaq.com/articles/marathon-petroleum-mpc-great-momentum-stock-should-you-buy-0",
+     "date": "2026-10-12",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000060/mpc-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-29",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000055/mpc-20260626.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000039/mpc-20260505.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-01",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000033/mpc-20260429.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-13",
+    "itemsKo": [
+     "중요 계약 체결",
+     "1.02",
+     "실적 발표",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000029/mpc-20260407.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-02-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000003/mpc-20260203.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2026-01-21",
+     "broker": "메리츠증권",
+     "analyst": "노우호",
+     "title": "[매러선 페트롤리엄 (NYS:MPC)] 베네수엘라 증질유 처리에 특화된 미국 정유사",
+     "summary": "- 2026년 1월 미국 트럼프 행정부는 베네수엘라 석유 재건 사업을 전격 결정 및 관련 기업들에 투자 독려 중- 기존 베네수엘라→ 중국으로 판매되던 원유(40만배럴/일)이 미국 걸프만 지역으로 수출될 수 있어- 2026년 연초 미국의 베네수엘라 원유 수출 주도권 확보 및 재건 이후의 긍정적 효과를 고민해야할 시점",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxmckecqxgkcxmgcgxecge.pdf",
+     "pages": "1"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "MPC-report1.pdf",
+   "broker": "메리츠증권",
+   "analyst": "노우호",
+   "date": "2026-01-21",
+   "title": "[매러선 페트롤리엄 (NYS:MPC)] 베네수엘라 증질유 처리에 특화된 미국 정유사",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxmckecqxgkcxmgcgxecge.pdf",
+   "pages": "1"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "The energy sector is taking the bull market lead from tech",
+   "url": "https://www.cnbc.com/2026/10/14/todd-gordon-marathon-petroleum.html",
+   "date": "2026-10-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks were up this week. Here are the names that are now overbought",
+   "url": "https://www.cnbc.com/2026/10/10/stocks-were-up-this-week-here-are-the-names-that-are-now-overbought.html",
+   "date": "2026-10-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "The S&P 500 just logged a losing week. These stocks could be due for a bounce",
+   "url": "https://www.cnbc.com/2026/09/19/the-sp-500-just-logged-another-losing-week-these-stocks-could-be-due-for-a-bounce.html",
+   "date": "2026-09-19",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "What's next for oil refiners after an unprecedented run to all-time highs",
+   "url": "https://www.cnbc.com/2026/09/14/whats-next-for-oil-refiners-after-an-unprecedented-run-to-all-time-highs.html",
+   "date": "2026-09-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves premarket: Intel, Marvell, CrowdStrike & more",
+   "url": "https://www.cnbc.com/2026/09/14/stocks-making-the-biggest-moves-premarket-intc-mrvl-crwd.html",
+   "date": "2026-09-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Trump’s energy holdings have surged as the Iran war moved oil markets",
+   "url": "https://www.cnbc.com/2026/09/09/trump-oil-gas-holdings-iran-war.html",
+   "date": "2026-09-09",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Trump oil and gas stocks gained up to $15.5 million, Democrats say",
+   "url": "https://www.cnbc.com/2026/08/24/trump-oil-gas-stocks-iran-war-investments-democrats.html",
+   "date": "2026-08-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Refiner stocks are on a nearly unprecedented run. History says it could end soon",
+   "url": "https://www.cnbc.com/2026/08/17/refiner-stocks-are-on-a-nearly-unprecedented-run-history-says-it-could-end-soon.html",
+   "date": "2026-08-17",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "MPC",
+  "fetchedAt": "2026-10-20",
+  "source": "한국투자증권 Open API",
+  "per": 16.31,
+  "pbr": 7.03,
+  "eps": 29.05,
+  "bps": 67.41,
+  "shares": 280825000,
+  "marketCapM": 133024,
+  "high52": 493.98,
+  "high52Date": "2026-10-19",
+  "low52": 160.0715,
+  "low52Date": "2025-12-31",
+  "last": 473.69,
+  "prevClose": 478.07,
+  "nameKo": "매러선 페트롤리엄",
+  "nameEn": "MARATHON PETROLEUM CORP",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 280825000
+ },
+ "estimates": {
+  "ticker": "MPC",
+  "url": "https://finance.yahoo.com/quote/MPC/analysis/",
+  "fetchedAt": "2026-10-20",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 25.35,
+    "epsLow": 14.61,
+    "epsHigh": 28.44,
+    "epsYearAgo": 3.01,
+    "epsAnalysts": 18,
+    "epsGrowth": "n/m",
+    "epsCur": "USD",
+    "rev": 43643500150,
+    "revAnalysts": 11,
+    "revYearAgo": 35849000000,
+    "revGrowth": 21.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "eps": 19.76,
+    "epsLow": 8.71,
+    "epsHigh": 29.81,
+    "epsYearAgo": 4.07,
+    "epsAnalysts": 18,
+    "epsGrowth": 385.4,
+    "epsCur": "USD",
+    "rev": 41854496690,
+    "revAnalysts": 11,
+    "revYearAgo": 33422000000,
+    "revGrowth": 25.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 63.69,
+    "epsLow": 42.53,
+    "epsHigh": 74.14,
+    "epsYearAgo": 10.7,
+    "epsAnalysts": 17,
+    "epsGrowth": 495.2,
+    "epsCur": "USD",
+    "rev": 171706360480,
+    "revAnalysts": 11,
+    "revYearAgo": 135222000000,
+    "revGrowth": 27,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 55.93,
+    "epsLow": 24.78,
+    "epsHigh": 90.87,
+    "epsYearAgo": 63.69,
+    "epsAnalysts": 19,
+    "epsGrowth": -12.2,
+    "epsCur": "USD",
+    "rev": 152312167450,
+    "revAnalysts": 11,
+    "revYearAgo": 171706360480,
+    "revGrowth": -11.3,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 25.35,
+    "d7": 8.7,
+    "d30": 17.2,
+    "d90": 97.3,
+    "ago90": 12.85,
+    "up7": 6,
+    "up30": 10,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 19.76,
+    "d7": 19.8,
+    "d30": 50.9,
+    "d90": 188.1,
+    "ago90": 6.86,
+    "up7": 4,
+    "up30": 10,
+    "down7": 2,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 63.69,
+    "d7": 9.6,
+    "d30": 17,
+    "d90": 86.6,
+    "ago90": 34.14,
+    "up7": 7,
+    "up30": 11,
+    "down7": 1,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 55.93,
+    "d7": 10.3,
+    "d30": 39.7,
+    "d90": 121.3,
+    "ago90": 25.27,
+    "up7": 6,
+    "up30": 12,
+    "down7": 2,
+    "down30": 2
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-06-30",
+    "actual": 17.73,
+    "estimate": 13.95,
+    "surprisePct": 27.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.65,
+    "estimate": 0.75,
+    "surprisePct": 120.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 4.07,
+    "estimate": 2.71,
+    "surprisePct": 50.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 3.01,
+    "estimate": 3.16,
+    "surprisePct": -4.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 1,
+   "initiations": 0,
+   "ptRaised": 20,
+   "ptLowered": 0,
+   "total": 21,
+   "recent": [
+    {
+     "date": "2026-10-14",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 560,
+     "ptPrior": 400
+    },
+    {
+     "date": "2026-10-13",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 518,
+     "ptPrior": 318
+    },
+    {
+     "date": "2026-10-12",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 488,
+     "ptPrior": 321
+    },
+    {
+     "date": "2026-10-12",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "In-Line",
+     "to": "In-Line",
+     "ptAction": "Raises",
+     "pt": 420,
+     "ptPrior": 330
+    },
+    {
+     "date": "2026-10-08",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 457,
+     "ptPrior": 304
+    },
+    {
+     "date": "2026-10-02",
+     "firm": "B of A Securities",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 426,
+     "ptPrior": 410
+    },
+    {
+     "date": "2026-09-22",
+     "firm": "Jefferies",
+     "action": "down",
+     "from": "Buy",
+     "to": "Hold",
+     "ptAction": "Announces",
+     "pt": 413,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-21",
+     "firm": "Goldman Sachs",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 472,
+     "ptPrior": 376
+    },
+    {
+     "date": "2026-09-14",
+     "firm": "Raymond James",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 445,
+     "ptPrior": 350
+    },
+    {
+     "date": "2026-09-14",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 453,
+     "ptPrior": 265
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-03",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-10-20",
+  "numbers": {
+   "price": 475.04,
+   "ma20": 437.16,
+   "ma50": 402.43,
+   "ma150": 307.68,
+   "distMA50": 18.04,
+   "periodHigh": 493.98,
+   "pullbackFromHigh": -3.83,
+   "volRatio20": 0.92,
+   "dryUpRatio": 0.9
+  },
+  "last10": [
+   {
+    "d": "2026-10-07",
+    "o": 435.58,
+    "h": 444.99,
+    "l": 435,
+    "c": 442.26,
+    "v": 1923900,
+    "clsPos": 73,
+    "gapPct": 0.74
+   },
+   {
+    "d": "2026-10-08",
+    "o": 449.45,
+    "h": 467.85,
+    "l": 447.59,
+    "c": 463.34,
+    "v": 2750500,
+    "clsPos": 78,
+    "gapPct": 1.63
+   },
+   {
+    "d": "2026-10-09",
+    "o": 461.04,
+    "h": 470,
+    "l": 450.38,
+    "c": 455.03,
+    "v": 1967200,
+    "clsPos": 24,
+    "gapPct": -0.5
+   },
+   {
+    "d": "2026-10-12",
+    "o": 461.86,
+    "h": 468.42,
+    "l": 454.51,
+    "c": 458.81,
+    "v": 1519700,
+    "clsPos": 31,
+    "gapPct": 1.5
+   },
+   {
+    "d": "2026-10-13",
+    "o": 464,
+    "h": 477.73,
+    "l": 462.41,
+    "c": 476.98,
+    "v": 1644200,
+    "clsPos": 95,
+    "gapPct": 1.13
+   },
+   {
+    "d": "2026-10-14",
+    "o": 480,
+    "h": 485.22,
+    "l": 473.56,
+    "c": 484.92,
+    "v": 1631700,
+    "clsPos": 97,
+    "gapPct": 0.63
+   },
+   {
+    "d": "2026-10-15",
+    "o": 481.2,
+    "h": 481.55,
+    "l": 469.07,
+    "c": 476.92,
+    "v": 2080700,
+    "clsPos": 63,
+    "gapPct": -0.77
+   },
+   {
+    "d": "2026-10-16",
+    "o": 480.61,
+    "h": 484.25,
+    "l": 470.56,
+    "c": 478.07,
+    "v": 1800900,
+    "clsPos": 55,
+    "gapPct": 0.77
+   },
+   {
+    "d": "2026-10-19",
+    "o": 478,
+    "h": 493.98,
+    "l": 470.68,
+    "c": 473.69,
+    "v": 1925900,
+    "clsPos": 13,
+    "gapPct": -0.01
+   },
+   {
+    "d": "2026-10-20",
+    "o": 471.95,
+    "h": 476.98,
+    "l": 464.14,
+    "c": 475.04,
+    "v": 1915252,
+    "clsPos": 85,
+    "gapPct": -0.37
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MPC-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/MPC-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 1일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "⚠️ 빚내서 산 주식(마진부채)이 1년 전보다 +31.4% — 주의선 +30% 초과",
+  "finraLevel": "warn"
+ }
+}

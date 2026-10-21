@@ -49,9 +49,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:05:29"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BRK.A",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "버크셔 해서웨이는 보험, 철도, 에너지, 제조업 자회사와 대규모 주식 포트폴리오를 가진 지주회사다. 보험 영업과 자회사 이익으로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-21",
+        "carried": false
       }
     },
     {
@@ -95,9 +115,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:39:57"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MCO",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "무디스는 기업·국가 신용등급을 매기고 금융 데이터와 분석을 구독 형태로 팔아 돈을 버는 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-21",
+        "carried": false
       }
     },
     {
@@ -141,9 +181,31 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:46:10"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "HLT",
+        "category": 6,
+        "claims": [
+          {
+            "id": "none",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Hilton은 호텔 브랜드를 전 세계에 빌려주고 위탁 운영하며, 수수료로 돈을 버는 호텔 회사다.",
+        "volumeExplanation": "10월 20일 나스닥 이전 공시가 나왔지만 실적이나 계약 같은 뚜렷한 호재는 아니다. 거래량이 이 공시 때문인지는 근거가 없어 암묵적 호재로 본다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reason": "statement의 '티커는 HLT 그대로다'는 SEC EDGAR quote에 명시되지 않음. 거래소 이전은 sourced이지만 티커 유지는 quote에서 확인 불가하므로 제거"
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-21",
+        "carried": false
       }
     },
     {
@@ -187,9 +249,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 06:57:45"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "DHR",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Danaher는 생명과학 장비, 진단 장비, 바이오 공정 제품을 팔아 돈을 버는 헬스케어 기업이다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-21",
+        "carried": false
       }
     },
     {
@@ -233,9 +315,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-20 06:41:16"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CR",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Crane Company는 산업용 밸브·펌프(유체 처리), 항공우주·전자부품, 결제·자동판매 기술 장비를 만들어 파는 제조업체다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-21",
+        "carried": false
       }
     },
     {
@@ -279,9 +381,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:56:54"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "IT",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Gartner는 기업 IT 리서치와 자문 구독, 컨퍼런스 참가비로 돈을 버는 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-21",
+        "carried": false
       }
     },
     {
@@ -325,9 +447,41 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 05:54:49"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MMM",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "3M (MMM) Q3 2026 Earnings Call Transcript",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/3m-mmm-q3-2026-earnings-call-transcript",
+                "date": "2026-10-20",
+                "quote": "3M (MMM) Q3 2026 Earnings Call Transcript",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "3M이 2026년 10월 20일 3분기 실적을 발표했고, 같은 날 실적 발표 공시(8-K)가 제출됐다.",
+            "stripped": true
+          }
+        ],
+        "company": "3M은 산업용 접착제·소재·안전용품·전자 소재 등을 만들어 파는 미국 다각화 제조업체다.",
+        "volumeExplanation": "3M이 10월 20일 3분기 실적을 발표해 거래량이 평소보다 늘어난 것으로 보인다. 다만 예상치 대비 어느 정도였는지는 확인하지 못했다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-21",
+        "carried": false
       }
     },
     {
@@ -371,9 +525,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 08:15:01"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "GPC",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 20일 3분기 실적을 발표했는데 주당순이익이 증권사 예상치(컨센서스)에 못 미쳤다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Genuine Parts (GPC) Q3 Earnings Lag Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/genuine-parts-gpc-q3-earnings-lag-estimates",
+                "date": "2026-10-20",
+                "quote": "Genuine Parts (GPC) Q3 Earnings Lag Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "같은 날 SEC에 실적발표 8-K를 제출했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "GPC 8-K (item 2.02 실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/40987/000004098726000037/gpc-20261020.htm",
+                "date": "2026-10-20",
+                "quote": "8-K, filingDate 2026-10-20, items 2.02, 9.01 (isEarnings: true)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Genuine Parts는 자동차 부품과 산업용 부품을 유통하는 회사다. 정비소와 소매점에 부품을 공급해 돈을 번다.",
+        "volumeExplanation": "10월 20일 3분기 실적이 시장 예상에 못 미쳐 거래량이 평소보다 늘었다. 당일 종가는 하루 중 가장 낮은 쪽이어서 매도 쪽 거래가 많았던 것으로 보인다. 실적 세부 내용이 예상 하회 외에 더 확인되면 이 이야기가 맞고, 실적 직후 반등하면 틀린다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-21",
+        "carried": false
       }
     },
     {
@@ -417,9 +617,41 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 05:48:05"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "TW",
+        "category": 3,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "Tradeweb이 10월 19일 채권 전자거래 업체 Trumid를 19억 7천만 달러(현금 18억 8,800만 달러 포함)에 인수하는 계약을 공시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Tradeweb Markets 8-K (Trumid 인수 계약)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1758730/000119312526425378/d140509d8k.htm",
+                "date": "2026-10-19",
+                "quote": "Acquiror will pay a purchase price of $1.970 billion, which will consist of cash consideration of $1.888 billion",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Tradeweb은 채권·파생상품 등을 사고파는 전자거래 플랫폼을 운영하며 거래 수수료로 돈을 번다. 영업이익률이 40%를 넘는 고수익 사업이다.",
+        "volumeExplanation": "10월 19일 Tradeweb이 Trumid를 약 19.7억 달러에 인수한다고 공시하면서 거래량이 평소보다 늘었다. 대형 인수가 사업 확장 기대와 인수 대금 부담이라는 평가를 동시에 불러 주식이 많이 거래된 것으로 보인다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": ""
+        },
+        "categoryName": "대형 파트너십·공급계약",
+        "isHighlight": false,
+        "researchedOn": "2026-10-21",
+        "carried": false
       }
     },
     {
@@ -463,9 +695,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:42:19"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "CCK",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "10월 19일 3분기 실적을 발표했고, 이익과 매출 모두 시장 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Crown Holdings (CCK) Beats Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/crown-holdings-cck-beats-q3-earnings-and-revenue-estimates",
+                "date": "2026-10-19",
+                "quote": "Crown Holdings (CCK) Beats Q3 Earnings and Revenue Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "같은 날 SEC에 3분기 실적 발표 8-K가 제출됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "2026 THIRD QUARTER EARNINGS RELEASE (8-K)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1219601/000162828026066281/cck-20261019.htm",
+                "date": "2026-10-19",
+                "quote": "2026 THIRD QUARTER EARNINGS RELEASE",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Crown Holdings는 음료 캔 등 금속 포장재를 만들어 식품·음료 회사에 파는 회사다.",
+        "volumeExplanation": "10월 19일 3분기 실적이 시장 예상치를 웃돌았다는 평가가 나오면서 거래량이 늘었다. 다만 60일 신고가 돌파나 가이던스 상향은 확인되지 않아 강도는 제한적이다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-21",
+        "carried": false
       }
     },
     {
@@ -509,9 +787,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-16 06:40:20"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "HNGE",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Hinge Health는 집에서 쓰는 앱으로 허리·관절 등 근골격계 재활 관리를 제공하고, 기업 고객사에서 이용료를 받아 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-21",
+        "carried": false
       }
     },
     {
@@ -555,9 +853,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:11:23"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "PFBC",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Preferred Bank는 미국 서부(주로 캘리포니아)에서 기업·부동산 대출을 해 이자 수익으로 돈을 버는 지역은행입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-21",
+        "carried": false
       }
     },
     {
@@ -669,9 +987,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:44:33"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "IOSP",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Innospec은 연료 첨가제, 성능 화학제품, 유전용 화학제품 등 특수화학 제품을 만들어 파는 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-21",
+        "carried": false
       }
     },
     {
@@ -717,43 +1055,39 @@ window.TEAM4_DATA = {
       "catalyst": {
         "status": "done",
         "ticker": "HAS",
-        "category": 6,
+        "category": 1,
         "claims": [
           {
-            "id": "c2",
-            "statement": "직전 분기(2분기)에는 주당순이익 1.28달러로 예상치 1.16달러를 넘었고, 매출은 1년 전보다 16.2% 늘었다.",
+            "id": "c1",
+            "statement": "Hasbro가 10월 20일 3분기 실적을 발표했고, 이익과 매출 모두 증권사 예상치를 웃돌았다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Zacks Research estimates Hasbro's Q1 earnings",
-                "publisher": "MarketBeat",
-                "url": "https://www.marketbeat.com/instant-alerts/zacks-research-estimates-hasbros-q1-earnings-nasdaqhas-2026-07-16/",
-                "date": "2026-07-16",
-                "quote": "Hasbro posted Q2 2026 earnings on July 21, 2026, reporting an EPS of $1.28, which beat analysts' consensus estimates of $1.16 by $0.12. Quarterly revenue rose 16.2% year-over-year to $1.14 billion, above the consensus estimate of $1.07 billion.",
+                "title": "Hasbro (HAS) Tops Q3 Earnings and Revenue Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/hasbro-has-tops-q3-earnings-and-revenue-estimates",
+                "date": "2026-10-20",
+                "quote": "Hasbro (HAS) Tops Q3 Earnings and Revenue Estimates",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           }
         ],
-        "company": "Hasbro는 보드게임(모노폴리 등)·완구와 디지털 게임 사업으로 돈을 버는 미국 장난감·게임 회사다. 매직 더 개더링 같은 게임 라이선스 수익도 크다.",
-        "volumeExplanation": "발표 내용(예상치 대비 결과)은 확인하지 못했다.",
+        "company": "Hasbro는 모노폴리, 매직 더 개더링, 던전 앤 드래곤 같은 장난감·보드게임·카드게임을 만들고 게임 IP 라이선스로 돈을 번다.",
+        "volumeExplanation": "10월 20일 3분기 실적 발표에서 이익과 매출이 예상치를 넘어서자 거래량이 평소의 3.7배로 늘었다. 실적 서프라이즈가 거래량의 이유로 보인다.",
         "confidence": "medium",
         "factcheck": {
           "verdict": "partial",
           "removed": [
-            "c1"
+            "c2"
           ],
-          "reason": "statement \"발표했고\"(과거)는 quote \"will be released\"(미래)와 시제 불일치. source date 2026-07-16의 미래 예정 정보가 오늘(2026-10-20) 현재와 맞지 않음",
-          "narrativeFixed": true
+          "reason": ""
         },
-        "originalCategory": 1,
-        "corrected": true,
-        "volumeExplanationOriginal": "10월 20일 장 시작 전 3분기 실적 발표가 있었고, 결과를 반영하려는 매매로 거래량이 늘었다. 발표 내용(예상치 대비 결과)은 확인하지 못했다.",
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-20",
-        "carried": true
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-21",
+        "carried": false
       }
     },
     {
@@ -797,9 +1131,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-09 07:02:19"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "GM",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "GM이 10월 20일 3분기 실적을 발표했고, 주당순이익과 매출 모두 증권사 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "General Motors (GM) Q3 Earnings and Revenues Top Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/general-motors-gm-q3-earnings-and-revenues-top-estimates",
+                "date": "2026-10-20",
+                "quote": "General Motors (GM) Q3 Earnings and Revenues Top Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "같은 날 SEC에 실적 발표 공시(8-K, 항목 2.02)가 제출됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "GM 8-K (실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000056/gm-20261020.htm",
+                "date": "2026-10-20",
+                "quote": "8-K 2026-10-20 items 2.02, 9.01 (실적 발표)",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "GM은 쉐보레·캐딜락 등을 만들어 파는 미국 최대 자동차 제조사로, 차량 판매와 금융 사업으로 돈을 번다.",
+        "volumeExplanation": "10월 20일 3분기 실적이 증권사 예상치를 웃돌았고, 이 발표를 계기로 거래량이 평소의 3.67배로 늘었다. 구체적 가이던스 변화는 확인된 근거가 없다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-10-21",
+        "carried": false
       }
     },
     {
@@ -843,9 +1223,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:31:40"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "JOYY",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "JOYY는 라이브 방송 등 인터넷 콘텐츠·소셜 서비스를 해외에서 운영하며 구독·가상 아이템 매출로 돈을 ″법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-21",
+        "carried": false
       }
     },
     {
@@ -872,9 +1272,29 @@ window.TEAM4_DATA = {
       "bbCenterBrk5d": false,
       "fs": null,
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "STRD",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "STRD는 소프트웨어 회사 Strategy Inc가 발행한 우선주(배당을 먼저 받는 주식)입니다. 시가총액은 약 8.3억 달러입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다. 최근 5일 평균보다 2.14배 거래됐다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-10-21",
+        "carried": false
       }
     }
   ],
@@ -897,19 +1317,47 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 2,
+    "done": 18,
     "total": 18,
-    "cap": null,
-    "pending": 16,
+    "cap": 17,
+    "pending": 0,
     "failed": 0,
-    "carried": 2,
+    "carried": 1,
     "ineligible": 0,
-    "note": "18종목 중 2종목을 조사했습니다. 그중 2종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 16종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 1종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [],
     "sectorSignal": "오늘 후보 10개 중 실적 호재나 기술 돌파로 분류된 종목은 없습니다. 전부 뚜렷한 뉴스 없이 거래량만 늘어난 경우라서 특정 업종 쏠림을 말할 근거가 없습니다.",
     "caution": "10개 모두 뉴스 없이 거래량만 터진 종목이라 호재 근거가 없습니다. HAS가 직전 분기(2분기)에 실적이 예상보다 좋았던 것은 사실이지만, 오늘 거래량이 늘어난 이유라는 증거는 아닙니다.",
     "researchedOn": "2026-10-20"
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "CCK",
+        "category": 1,
+        "oneLine": "10월 19일 3분기 실적에서 이익과 매출 모두 시장 예상치를 웃돌았다."
+      },
+      {
+        "ticker": "HAS",
+        "category": 1,
+        "oneLine": "10월 20일 3분기 실적에서 이익과 매출 모두 증권사 예상치를 웃돌았다."
+      },
+      {
+        "ticker": "GM",
+        "category": 1,
+        "oneLine": "10월 20일 3분기 주당순이익과 매출이 모두 증권사 예상치를 웃돌았다."
+      }
+    ],
+    "sectorSignal": "실적 호재 3건이 포장재(CCK), 완구(HAS), 자동차(GM)로 흩어져 있어 특정 업종 쏠림은 보이지 않는다. 산업 기술 돌파 사례는 오늘 없다.",
+    "caution": "실적 분류 5건 중 GPC는 주당순이익이 예상치에 못 미쳤고 MMM은 예상치 상회 여부를 확인할 근거가 없어 강조에서 뺐다. 나머지 12건은 뉴스 없는 거래량 급증일 뿐 호재 근거가 없으며, 가격 데이터를 받지 않아 주가 반응은 확인하지 못했다.",
+    "researchedOn": "2026-10-21"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 5,
+    "3": 1,
+    "6": 12
   }
 };
