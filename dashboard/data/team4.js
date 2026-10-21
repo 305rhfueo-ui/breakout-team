@@ -1,405 +1,578 @@
 window.TEAM4_DATA = {
-  "generated": "2026-10-20",
+  "generated": "2026-10-21",
   "filter": {
     "volXMin": 2,
     "volSurgeWkMin": 2,
     "aboveMa150": true
   },
-  "universeHits": 17,
-  "analyzed": 10,
+  "universeHits": 30,
+  "analyzed": 18,
   "items": [
     {
-      "ticker": "RDVT",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "price": 74.48999786376953,
-      "marketCap": "1.19B",
-      "volx": 2.13,
-      "volSurgeWk": 2.78,
+      "ticker": "BRK.A",
+      "sector": "Financial Services",
+      "industry": "Insurance - Diversified",
+      "price": 809555,
+      "marketCap": "1139.86B",
+      "volx": 2.25,
+      "volSurgeWk": 2.14,
       "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 91.49,
-      "high52": 91.07,
-      "adr": 3.63,
+      "brk60d": true,
+      "clsPos": 114.18,
+      "high52": 100.16,
+      "adr": 0.97,
       "targetStatus": false,
-      "saleCy": 18.19,
-      "saleNy": 13.23,
-      "epsCy": 27.69,
-      "epsNy": 6.02,
-      "cyTrend": 1.53,
-      "nyTrend": 2.33,
+      "saleCy": 5.48,
+      "saleNy": 8.42,
+      "epsCy": 5.34,
+      "epsNy": -1.01,
+      "cyTrend": -5.26,
+      "nyTrend": -3.78,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          22.71,
-          17.39,
-          19.56
+          10.04,
+          4.4,
+          -0.72
         ],
         "ni": [
-          84.66,
-          27.56,
-          226.19
+          107.49,
+          119.55,
+          -2.51
         ],
         "opm": [
-          22.81,
-          21.08,
-          6.84
+          33.73,
+          15.27,
+          34.06
         ],
-        "updated": "2026-09-15 06:42:15"
+        "updated": "2026-09-07 07:05:29"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "RDVT",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Red Violet은 기업·정부기관에 신원·위험 조회용 데이터 분석 소프트웨어를 구독 형태로 파는 회사다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-20",
-        "carried": false
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "PBAM",
+      "ticker": "MCO",
       "sector": "Financial Services",
-      "industry": "Banks - Regional",
-      "price": 83.76000213623047,
-      "marketCap": "0.47B",
-      "volx": 2.06,
-      "volSurgeWk": 2.17,
+      "industry": "Financial Data & Stock Exchanges",
+      "price": 481.260009765625,
+      "marketCap": "83.35B",
+      "volx": null,
+      "volSurgeWk": 2.25,
       "aboveMa150": true,
       "brk60d": false,
-      "clsPos": 65.9,
-      "high52": 90.95,
+      "clsPos": 0,
+      "high52": 88.59,
+      "adr": 2.08,
+      "targetStatus": false,
+      "saleCy": 7.24,
+      "saleNy": 6.92,
+      "epsCy": 13.28,
+      "epsNy": 11.17,
+      "cyTrend": -0.23,
+      "nyTrend": -0.4,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          15.12,
+          8.06,
+          12.98
+        ],
+        "ni": [
+          51.9,
+          5.76,
+          54.43
+        ],
+        "opm": [
+          47.87,
+          44.35,
+          40.76
+        ],
+        "updated": "2026-09-08 08:39:57"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "HLT",
+      "sector": "Consumer Cyclical",
+      "industry": "Lodging",
+      "price": 346.0400085449219,
+      "marketCap": "77.88B",
+      "volx": null,
+      "volSurgeWk": 2.46,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 96.7,
+      "adr": 1.89,
+      "targetStatus": false,
+      "saleCy": 8.18,
+      "saleNy": 8.56,
+      "epsCy": 11.58,
+      "epsNy": 15.16,
+      "cyTrend": 0.07,
+      "nyTrend": -0.33,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          6.5,
+          8.98,
+          10.92
+        ],
+        "ni": [
+          9.55,
+          28.33,
+          -41.19
+        ],
+        "opm": [
+          25.68,
+          23.08,
+          19.5
+        ],
+        "updated": "2026-09-08 09:46:10"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "DHR",
+      "sector": "Healthcare",
+      "industry": "Diagnostics & Research",
+      "price": 224.42999267578125,
+      "marketCap": "157.77B",
+      "volx": null,
+      "volSurgeWk": 2.12,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 92.99,
+      "adr": 2.79,
+      "targetStatus": false,
+      "saleCy": 7.26,
+      "saleNy": 8.09,
+      "epsCy": 9.05,
+      "epsNy": 9.3,
+      "cyTrend": -0.02,
+      "nyTrend": -0.02,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          5.54,
+          3.66,
+          4.59
+        ],
+        "ni": [
+          56.76,
+          7.86,
+          10.22
+        ],
+        "opm": [
+          17.99,
+          22.58,
+          21.97
+        ],
+        "updated": "2026-09-09 06:57:45"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "CR",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "price": 206.30999755859375,
+      "marketCap": "11.92B",
+      "volx": null,
+      "volSurgeWk": 2.2,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 89.62,
+      "adr": 2.29,
+      "targetStatus": false,
+      "saleCy": 25.4,
+      "saleNy": 5.46,
+      "epsCy": 16.04,
+      "epsNy": 11.59,
+      "cyTrend": 0.06,
+      "nyTrend": 0.08,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          25.55,
+          24.89,
+          6.78
+        ],
+        "ni": [
+          11,
+          -37.35,
+          0.86
+        ],
+        "opm": [
+          19.91,
+          14.37,
+          17.52
+        ],
+        "updated": "2026-09-20 06:41:16"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "IT",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "price": 207.72000122070312,
+      "marketCap": "13.12B",
+      "volx": null,
+      "volSurgeWk": 2.25,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 79.56,
+      "adr": 3.64,
+      "targetStatus": false,
+      "saleCy": -1.28,
+      "saleNy": 4.02,
+      "epsCy": 9.72,
+      "epsNy": 13.39,
+      "cyTrend": 0.02,
+      "nyTrend": 0.1,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          -0.62,
+          -1.51,
+          2.18
+        ],
+        "ni": [
+          14.42,
+          5.41,
+          -39.25
+        ],
+        "opm": [
+          22.59,
+          20.92,
+          19.07
+        ],
+        "updated": "2026-09-08 07:56:54"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "MMM",
+      "sector": "Industrials",
+      "industry": "Conglomerates",
+      "price": 162.00999450683594,
+      "marketCap": "83.55B",
+      "volx": null,
+      "volSurgeWk": 2.51,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 88,
       "adr": 2.02,
       "targetStatus": false,
-      "saleCy": 11.69,
-      "saleNy": 7.06,
-      "epsCy": 22.83,
-      "epsNy": 2.74,
-      "cyTrend": 0.15,
-      "nyTrend": 0.63,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": null,
-      "catalyst": {
-        "status": "done",
-        "ticker": "PBAM",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Private Bancorp of America는 미국 캘리포니아의 지역은행으로, 기업·개인 대출과 예금으로 돈을 법니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-20",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "TECK",
-      "sector": "Basic Materials",
-      "industry": "Other Industrial Metals & Mining",
-      "price": 63.47999954223633,
-      "marketCap": "31.70B",
-      "volx": 1.27,
-      "volSurgeWk": 2.02,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 51.66,
-      "high52": 87.61,
-      "adr": 2.62,
-      "targetStatus": false,
-      "saleCy": 42.55,
-      "saleNy": 1.57,
-      "epsCy": 99.65,
-      "epsNy": -10.13,
-      "cyTrend": 4.34,
-      "nyTrend": 11.11,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          78.03,
-          80.22,
-          "흑자전환"
-        ],
-        "ni": [
-          314.16,
-          131.68,
-          35.61
-        ],
-        "opm": [
-          45.46,
-          41.16,
-          30.29
-        ],
-        "updated": "2026-09-08 09:41:59"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "TECK",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "TECK는 구리와 아연을 캐서 파는 캐나다 광산 회사입니다. 금속 판매가 주된 수입원입니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-20",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "NHC",
-      "sector": "Healthcare",
-      "industry": "Medical Care Facilities",
-      "price": 242.82000732421875,
-      "marketCap": "3.75B",
-      "volx": null,
-      "volSurgeWk": 2.08,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 0,
-      "high52": 97.99,
-      "adr": 2.67,
-      "targetStatus": false,
-      "saleCy": null,
-      "saleNy": null,
-      "epsCy": null,
-      "epsNy": null,
-      "cyTrend": null,
-      "nyTrend": null,
-      "newHigh52": false,
-      "bbCenterBrk5d": false,
-      "fs": {
-        "sale": [
-          8.83,
-          2.17,
-          4.65
-        ],
-        "ni": [
-          69.96,
-          11.34,
-          308.63
-        ],
-        "opm": [
-          11.99,
-          8.45,
-          8.57
-        ],
-        "updated": "2026-09-08 10:39:23"
-      },
-      "catalyst": {
-        "status": "done",
-        "ticker": "NHC",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "NHC는 미국 남동부에서 요양시설(스킬드 너싱), 재가 돌봄, 호스피스를 운영하며 환자 진료비로 돈을 법니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-20",
-        "carried": false
-      }
-    },
-    {
-      "ticker": "EHC",
-      "sector": "Healthcare",
-      "industry": "Medical Care Facilities",
-      "price": 127.87000274658203,
-      "marketCap": "12.01B",
-      "volx": null,
-      "volSurgeWk": 2.35,
-      "aboveMa150": true,
-      "brk60d": false,
-      "clsPos": 0,
-      "high52": 98.39,
-      "adr": 2.37,
-      "targetStatus": false,
-      "saleCy": 8.84,
-      "saleNy": 8.26,
-      "epsCy": 12.14,
-      "epsNy": 9.27,
+      "saleCy": 4.73,
+      "saleNy": 4.47,
+      "epsCy": 10.94,
+      "epsNy": 9.82,
       "cyTrend": -0.03,
+      "nyTrend": 0.36,
+      "newHigh52": false,
+      "bbCenterBrk5d": true,
+      "fs": {
+        "sale": [
+          2.46,
+          1.28,
+          2.05
+        ],
+        "ni": [
+          29.05,
+          -41.49,
+          -20.74
+        ],
+        "opm": [
+          15.14,
+          23.17,
+          12.98
+        ],
+        "updated": "2026-09-08 05:54:49"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "GPC",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Parts",
+      "price": 130.17999267578125,
+      "marketCap": "17.95B",
+      "volx": null,
+      "volSurgeWk": 2.01,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 88.3,
+      "adr": 2.17,
+      "targetStatus": false,
+      "saleCy": 5.14,
+      "saleNy": 3.6,
+      "epsCy": 4.95,
+      "epsNy": 7.56,
+      "cyTrend": -0.05,
+      "nyTrend": 0.18,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          6.04,
+          6.8,
+          4.15
+        ],
+        "ni": [
+          -10.72,
+          -3.01,
+          -558.08
+        ],
+        "opm": [
+          5.15,
+          4.57,
+          -0.64
+        ],
+        "updated": "2026-09-08 08:15:01"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "TW",
+      "sector": "Financial Services",
+      "industry": "Capital Markets",
+      "price": 114.69999694824219,
+      "marketCap": "24.20B",
+      "volx": null,
+      "volSurgeWk": 2.8,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 90.07,
+      "adr": 2.36,
+      "targetStatus": false,
+      "saleCy": 14.57,
+      "saleNy": 11.75,
+      "epsCy": 17.49,
+      "epsNy": 13.97,
+      "cyTrend": 0.75,
+      "nyTrend": 1.18,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          8.96,
+          21.21,
+          12.48
+        ],
+        "ni": [
+          17.91,
+          38.35,
+          128.53
+        ],
+        "opm": [
+          43.88,
+          46.5,
+          42.41
+        ],
+        "updated": "2026-09-08 05:48:05"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "CCK",
+      "sector": "Consumer Cyclical",
+      "industry": "Packaging & Containers",
+      "price": 114.88999938964844,
+      "marketCap": "12.50B",
+      "volx": null,
+      "volSurgeWk": 2.16,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 93.47,
+      "adr": 2,
+      "targetStatus": false,
+      "saleCy": 10.92,
+      "saleNy": 2.07,
+      "epsCy": 7.83,
+      "epsNy": 7.76,
+      "cyTrend": -0.04,
+      "nyTrend": 0.06,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          16.48,
+          12.89,
+          7.72
+        ],
+        "ni": [
+          35.36,
+          -9.33,
+          -58.1
+        ],
+        "opm": [
+          12.65,
+          11.2,
+          11.96
+        ],
+        "updated": "2026-09-08 09:42:19"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "HNGE",
+      "sector": "Healthcare",
+      "industry": "Health Information Services",
+      "price": 103.95999908447266,
+      "marketCap": "8.68B",
+      "volx": null,
+      "volSurgeWk": 2.31,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 97.16,
+      "adr": 4.31,
+      "targetStatus": false,
+      "saleCy": 46.4,
+      "saleNy": 26.46,
+      "epsCy": -8.43,
+      "epsNy": 27.44,
+      "cyTrend": -0.09,
       "nyTrend": 0,
       "newHigh52": false,
       "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          9.58,
-          9.01,
-          9.94
+          53,
+          47.23,
+          null
         ],
         "ni": [
-          8.33,
-          28.38,
-          21.17
+          "흑자전환",
+          -71.96,
+          null
         ],
         "opm": [
-          17.85,
           19,
-          18.35
+          17.59,
+          15.96
         ],
-        "updated": "2026-09-07 06:57:52"
+        "updated": "2026-09-16 06:40:20"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "EHC",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Encompass Health는 미국에서 입원 재활병원을 운영하며, 뇌졸중·골절 환자 등의 재활 치료 보험 청구로 돈을 번다. 병상을 계속 늘리는 중이다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-20",
-        "carried": false
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
-      "ticker": "GEF.B",
-      "sector": "Consumer Cyclical",
-      "industry": "Packaging & Containers",
-      "price": 110.63999938964844,
-      "marketCap": "4.22B",
+      "ticker": "PFBC",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "price": 103.58999633789062,
+      "marketCap": "1.23B",
       "volx": null,
-      "volSurgeWk": 2.18,
+      "volSurgeWk": 2.46,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 0,
-      "high52": 96.51,
-      "adr": 2.62,
+      "high52": 93.67,
+      "adr": 2.19,
       "targetStatus": false,
-      "saleCy": 10.06,
-      "saleNy": 2.71,
-      "epsCy": 113.56,
-      "epsNy": 15.36,
-      "cyTrend": 0.08,
-      "nyTrend": 4.69,
+      "saleCy": 0.35,
+      "saleNy": 5.99,
+      "epsCy": 3.39,
+      "epsNy": 2.96,
+      "cyTrend": 0.24,
+      "nyTrend": 0.94,
       "newHigh52": false,
-      "bbCenterBrk5d": true,
+      "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          2.72,
-          -4.72,
-          -28.21
+          6.24,
+          -6.42,
+          null
         ],
         "ni": [
-          138.65,
-          -77.01,
-          998.11
+          11.71,
+          3.05,
+          null
         ],
         "opm": [
-          9.26,
-          3.3,
-          25.79
+          38.56,
+          36.79,
+          null
         ],
-        "updated": "2026-09-08 07:23:43"
+        "updated": "2026-09-21 06:11:23"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "GEF.B",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "Greif는 산업용 포장재(드럼통, 대형 용기, 종이 포장)를 만들어 파는 회사입니다. GEF.B는 이 회사의 B 클래스 주식입니다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-20",
-        "carried": false
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
       "ticker": "NATH",
       "sector": "Consumer Cyclical",
       "industry": "Restaurants",
-      "price": 101.9000015258789,
+      "price": 101.87999725341797,
       "marketCap": "0.42B",
       "volx": null,
-      "volSurgeWk": 4.54,
+      "volSurgeWk": 2.43,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 0,
-      "high52": 95.33,
-      "adr": 0.55,
+      "high52": 95.34,
+      "adr": 0.47,
       "targetStatus": false,
       "saleCy": null,
       "saleNy": null,
@@ -452,88 +625,68 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-20",
-        "carried": false
+        "carried": true
       }
     },
     {
-      "ticker": "CFFI",
-      "sector": "Financial Services",
-      "industry": "Banks - Regional",
-      "price": 102.05999755859375,
-      "marketCap": "0.33B",
+      "ticker": "IOSP",
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "price": 97.98999786376953,
+      "marketCap": "2.41B",
       "volx": null,
-      "volSurgeWk": 2.3,
+      "volSurgeWk": 2.19,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 0,
-      "high52": 96.85,
-      "adr": 2.87,
+      "high52": 97.52,
+      "adr": 2.15,
       "targetStatus": false,
-      "saleCy": null,
-      "saleNy": 9.45,
-      "epsCy": null,
-      "epsNy": 6.05,
-      "cyTrend": 0,
-      "nyTrend": 0,
+      "saleCy": 7.14,
+      "saleNy": 5.81,
+      "epsCy": -6.64,
+      "epsNy": 25.34,
+      "cyTrend": -0.34,
+      "nyTrend": 0.27,
       "newHigh52": false,
-      "bbCenterBrk5d": false,
+      "bbCenterBrk5d": true,
       "fs": {
         "sale": [
-          10.31,
-          9.49,
-          9.9
+          11.76,
+          2.81,
+          -2.4
         ],
         "ni": [
-          11.34,
-          25.69,
-          11
+          31.06,
+          -7.32,
+          "흑자전환"
         ],
         "opm": [
-          20.85,
-          17.49,
-          16.97
+          8.08,
+          8.05,
+          10.27
         ],
-        "updated": "2026-09-08 10:23:02"
+        "updated": "2026-09-08 10:44:33"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "CFFI",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
-        ],
-        "company": "CFFI는 미국 버지니아주 지역은행으로, 대출 이자와 예금 수수료로 돈을 번다. 시가총액은 약 3.3억 달러의 소형주다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-20",
-        "carried": false
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     },
     {
       "ticker": "HAS",
       "sector": "Consumer Cyclical",
       "industry": "Leisure",
-      "price": 98.76000213623047,
+      "price": 98.48999786376953,
       "marketCap": "13.89B",
       "volx": null,
-      "volSurgeWk": 2.17,
+      "volSurgeWk": 3.66,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 0,
-      "high52": 94.42,
-      "adr": 2.67,
+      "high52": 94.16,
+      "adr": 2.64,
       "targetStatus": false,
       "saleCy": 7.69,
       "saleNy": 6.94,
@@ -600,107 +753,163 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-20",
-        "carried": false
+        "carried": true
       }
     },
     {
-      "ticker": "FLXS",
+      "ticker": "GM",
       "sector": "Consumer Cyclical",
-      "industry": "Furnishings, Fixtures & Appliances",
-      "price": 84.01000213623047,
-      "marketCap": "0.34B",
+      "industry": "Auto Manufacturers",
+      "price": 82.75,
+      "marketCap": "72.61B",
       "volx": null,
-      "volSurgeWk": 2.56,
+      "volSurgeWk": 3.67,
       "aboveMa150": true,
       "brk60d": false,
       "clsPos": 0,
-      "high52": 92.94,
-      "adr": 3.46,
+      "high52": 90.28,
+      "adr": 2.53,
       "targetStatus": false,
-      "saleCy": 3.6,
-      "saleNy": 4.64,
-      "epsCy": 7.09,
-      "epsNy": 14.37,
-      "cyTrend": 4.75,
-      "nyTrend": 4.67,
+      "saleCy": 0.48,
+      "saleNy": 2.05,
+      "epsCy": 26.59,
+      "epsNy": 12.63,
+      "cyTrend": -0.36,
+      "nyTrend": 0.73,
       "newHigh52": false,
-      "bbCenterBrk5d": true,
+      "bbCenterBrk5d": false,
       "fs": {
         "sale": [
-          0.66,
-          1.01,
-          9
+          1.92,
+          -0.9,
+          -5.06
         ],
         "ni": [
-          18.78,
-          "흑자전환",
-          -26.62
+          -30.99,
+          -22.23,
+          "적자확대"
         ],
         "opm": [
-          14.17,
-          7.14,
-          7.61
+          3.04,
+          6.71,
+          -8.05
         ],
-        "updated": "2026-09-15 06:31:48"
+        "updated": "2026-09-09 07:02:19"
       },
       "catalyst": {
-        "status": "done",
-        "ticker": "FLXS",
-        "category": 6,
-        "claims": [
-          {
-            "id": "c1",
-            "statement": "근거 없음",
-            "evidence_level": "no_source",
-            "sources": []
-          }
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "JOYY",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "price": 83.95999908447266,
+      "marketCap": "4.16B",
+      "volx": null,
+      "volSurgeWk": 2.03,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 99.07,
+      "adr": 2.11,
+      "targetStatus": false,
+      "saleCy": 12.63,
+      "saleNy": 10.39,
+      "epsCy": -0.07,
+      "epsNy": 20.4,
+      "cyTrend": -0.44,
+      "nyTrend": 0.86,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": {
+        "sale": [
+          16.35,
+          12.41,
+          5.91
         ],
-        "company": "Flexsteel은 소파·의자 등 주거용 가구를 만들어 파는 미국 가구 제조사다. 시가총액은 약 3.4억 달러로 작다.",
-        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
-        "confidence": "low",
-        "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
-        },
-        "categoryName": "암묵적(뉴스 없는 이상거래량)",
-        "isHighlight": false,
-        "researchedOn": "2026-10-20",
-        "carried": false
+        "ni": [
+          -14.93,
+          -97.36,
+          "흑자전환"
+        ],
+        "opm": [
+          2.34,
+          1.23,
+          3.14
+        ],
+        "updated": "2026-09-08 09:31:40"
+      },
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
+      }
+    },
+    {
+      "ticker": "STRD",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "price": 71,
+      "marketCap": "0.83B",
+      "volx": null,
+      "volSurgeWk": 2.14,
+      "aboveMa150": true,
+      "brk60d": false,
+      "clsPos": 0,
+      "high52": 94.73,
+      "adr": 1.48,
+      "targetStatus": false,
+      "saleCy": 5.13,
+      "saleNy": 2.22,
+      "epsCy": null,
+      "epsNy": null,
+      "cyTrend": null,
+      "nyTrend": null,
+      "newHigh52": false,
+      "bbCenterBrk5d": false,
+      "fs": null,
+      "catalyst": {
+        "status": "pending",
+        "category": null,
+        "note": "LLM 촉매 분류 대기"
       }
     }
   ],
   "excludedEtf": [],
   "excludedNoMarketCap": [
-    "BAC-L",
-    "WFC-L",
-    "CMS-B"
+    "WFC-L"
   ],
   "excludedBelowMa150": [
-    "MSCI",
+    "TDY",
+    "GE",
+    "DVA",
+    "PRK",
+    "EFX",
     "FORTY",
-    "HOV",
-    "RBA"
+    "SE",
+    "PDS",
+    "CWST",
+    "WH",
+    "HBCP"
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 10,
-    "total": 10,
-    "cap": 10,
-    "pending": 0,
+    "done": 2,
+    "total": 18,
+    "cap": null,
+    "pending": 16,
     "failed": 0,
-    "carried": 0,
+    "carried": 2,
     "ineligible": 0,
-    "note": "150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "18종목 중 2종목을 조사했습니다. 그중 2종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 16종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
-  "llm": {
+  "llmCarried": {
     "highlights": [],
     "sectorSignal": "오늘 후보 10개 중 실적 호재나 기술 돌파로 분류된 종목은 없습니다. 전부 뚜렷한 뉴스 없이 거래량만 늘어난 경우라서 특정 업종 쏠림을 말할 근거가 없습니다.",
     "caution": "10개 모두 뉴스 없이 거래량만 터진 종목이라 호재 근거가 없습니다. HAS가 직전 분기(2분기)에 실적이 예상보다 좋았던 것은 사실이지만, 오늘 거래량이 늘어난 이유라는 증거는 아닙니다.",
     "researchedOn": "2026-10-20"
-  },
-  "reusedFrom": null,
-  "byCategory": {
-    "6": 10
   }
 };
