@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-10-22T13:00:32.445Z",
+  "updated": "2026-10-22T22:10:21.035Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -9,13 +9,28 @@ window.HOLDINGS_DATA = {
       "items": [
         {
           "type": "news",
+          "title": "All Eyes Will Be on Palantir on Nov. 2. Here's What It Must Say to Keep the Run Going.",
+          "url": "https://www.nasdaq.com/articles/all-eyes-will-be-palantir-nov-2-heres-what-it-must-say-keep-run-going",
+          "date": "2026-10-22",
+          "publisher": "The Motley Fool",
+          "ko": "11월 2일 팔란티어 발표에 시장 관심이 쏠린다",
+          "tone": "neutral",
+          "isNew": true,
+          "headline": "11월 2일 팔란티어 발표에 시장 관심이 쏠린다",
+          "easy": "팔란티어가 11월 2일 발표를 앞두고 있고, 상승세를 이어가려면 어떤 말을 해야 하는지 다룬 기사다. 제목과 요약만 확인했고 구체적인 내용은 기사에 안 나왔다. 요약에는 팔란티어가 눈높이를 낮춰 말하고 실제로는 더 잘 해내는 경향이 있다는 말만 있다.",
+          "whyMatters": "보유 중이라면 11월 2일 발표 내용에 따라 주가가 크게 움직일 수 있는 시기다. 다만 이 기사만으로는 방향을 알 수 없다.",
+          "quote": null,
+          "read": false
+        },
+        {
+          "type": "news",
           "title": "Palantir Stock: Buy, Sell, or Hold After a Research Firm's AI Warning?",
           "url": "https://www.nasdaq.com/articles/palantir-stock-buy-sell-or-hold-after-research-firms-ai-warning",
           "date": "2026-10-22",
           "publisher": "The Motley Fool",
           "ko": "가트너의 AI 확장성 경고, 팔란티어엔 시험대",
           "tone": "neutral",
-          "isNew": true,
+          "isNew": false,
           "headline": "가트너의 AI 확장성 경고, 팔란티어엔 시험대",
           "easy": "리서치 기업 가트너가 고객사에 엔지니어를 파견해 AI를 맞춤 구축하는 방식(포워드 디플로이드 AI)은 규모를 키우기 어렵다고 경고했다. 팔란티어가 이 방식의 대표 업체라 시험대에 올랐다는 내용이다. 기사 본문은 확인하지 못했고, 요약에는 팔란티어의 경험·재사용 가능한 소프트웨어·파트너 전략·수익 구조가 다른 업체와 차별점이 될지 따져본다고만 나온다.",
           "whyMatters": "주가가 올라야 이익인 보유자에게는 이 경고가 팔란티어의 성장 방식에 대한 논쟁거리가 될 수 있다. 다만 본문이 없어 결론이나 구체 수치는 알 수 없다.",
@@ -94,36 +109,6 @@ window.HOLDINGS_DATA = {
           "headline": "조시 브라운이 꼽은 AI 롤러코스터 종목 소개",
           "easy": "제목은 조시 브라운이 자신의 AI 롤러코스터 종목을 말했다는 내용이다. 본문이 비어 있어 어떤 종목인지, 팔란티어와 관련 있는지 기사에 안 나왔다.",
           "whyMatters": "팔란티어 관련 여부를 확인할 수 없어 보유 포지션에 미치는 영향은 판단할 수 없다.",
-          "quote": null,
-          "read": false
-        },
-        {
-          "type": "cnbc",
-          "title": "Thursday's big analyst calls: Nvidia, Palantir, Microsoft, Generac",
-          "url": "https://www.cnbc.com/2026/10/08/thursday-top-wall-street-analyst-calls.html",
-          "date": "2026-10-08",
-          "publisher": "CNBC",
-          "ko": "목요일 주요 애널리스트 평가에 팔란티어 포함",
-          "tone": "neutral",
-          "isNew": false,
-          "headline": "목요일 주요 애널리스트 평가에 팔란티어 포함",
-          "easy": "제목에 따르면 목요일 주요 애널리스트 평가 대상에 엔비디아, 팔란티어, 마이크로소프트, 제너락이 들어 있다. 평가 방향이나 목표가는 기사에 안 나왔다.",
-          "whyMatters": "팔란티어가 평가 대상이라는 것만 알 수 있고, 유불리는 판단할 수 없다.",
-          "quote": null,
-          "read": false
-        },
-        {
-          "type": "cnbc",
-          "title": "Palantir has been on a tear. Goldman Sachs sees more momentum ahead",
-          "url": "https://www.cnbc.com/2026/10/08/palantir-isnt-done-capitalizing-on-ai-boom-goldman-sachs-says.html",
-          "date": "2026-10-08",
-          "publisher": "CNBC",
-          "ko": "골드만삭스, 팔란티어 상승세 이어질 것으로 전망",
-          "tone": "good",
-          "isNew": false,
-          "headline": "골드만삭스, 팔란티어 상승세 이어질 것으로 전망",
-          "easy": "제목에 따르면 팔란티어가 가파르게 올랐고 골드만삭스는 앞으로도 모멘텀이 더 있다고 본다. 근거와 목표가는 기사에 안 나왔다.",
-          "whyMatters": "대형 투자은행이 긍정적으로 본다는 점은 보유자에게 우호적이다. 구체적 내용은 확인할 수 없다.",
           "quote": null,
           "read": false
         }
