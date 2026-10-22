@@ -71,7 +71,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       },
       "nameKo": "로쿠",
       "nameEn": "ROKU INC",
@@ -731,7 +731,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       }
     },
     {
@@ -797,7 +797,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       },
       "nameKo": "인베스터스 타이틀",
       "nameEn": "INVESTORS TITLE CO",
@@ -1382,7 +1382,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       }
     },
     {
@@ -1474,7 +1474,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       },
       "nameKo": "왑텍",
       "nameEn": "WESTINGHOUSE AIR BRAKE TECH CORP",
@@ -2106,7 +2106,7 @@ window.TEAM4_DATA = {
         "categoryName": "대형 파트너십·공급계약",
         "isHighlight": false,
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       },
       "nameKo": "스테리스",
       "nameEn": "STERIS PLC",
@@ -2701,8 +2701,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       },
       "nameKo": "메트로폴리탄 뱅크 홀딩",
       "nameEn": "METROPOLITAN BANK HOLDING CORP",
@@ -3280,8 +3279,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       }
     },
     {
@@ -3347,7 +3345,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       },
       "nameKo": "뱅크 오브 몬트리올",
       "nameEn": "BANK OF MONTREAL",
@@ -3843,7 +3841,7 @@ window.TEAM4_DATA = {
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       },
       "nameKo": "애보트 래브러토리스",
       "nameEn": "ABBOTT LABORATORIES",
@@ -4623,8 +4621,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       },
       "nameKo": "인튜이티브 서지컬",
       "nameEn": "INTUITIVE SURGICAL INC",
@@ -5379,8 +5376,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       },
       "nameKo": "코카콜라 펨사(ADR)",
       "nameEn": "COCA-COLA FEMSA S.A.B. DE C.V. ADS EA REP 10 UNTS(3 SER B SH",
@@ -5843,7 +5839,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       },
       "nameKo": "덱스컴",
       "nameEn": "DEXCOM INC",
@@ -6518,8 +6514,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       },
       "nameKo": "피너클 파이낸셜 파트너스",
       "nameEn": "PINNACLE FINANCIAL PARTNERS",
@@ -7202,8 +7197,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       },
       "nameKo": "무디스",
       "nameEn": "MOODYS CORP",
@@ -7843,7 +7837,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       },
       "nameKo": "아코사",
       "nameEn": "ARCOSA INC",
@@ -8380,8 +8374,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       },
       "nameKo": "SAP(ADR)",
       "nameEn": "SAP SE SPON ADR EACH REP 1 ORD NPV",
@@ -8906,8 +8899,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       },
       "nameKo": "트랜스캣",
       "nameEn": "TRANSCAT INC",
@@ -9504,7 +9496,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       },
       "nameKo": "노스웨스턴 에너지 그룹",
       "nameEn": "NORTHWESTERN ENERGY GROUP INC",
@@ -10087,8 +10079,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       },
       "nameKo": "토론토 도미니언 뱅크",
       "nameEn": "TORONTO-DOMINION BANK",
@@ -10568,7 +10559,7 @@ window.TEAM4_DATA = {
         "categoryName": "암묵적(뉴스 없는 이상거래량)",
         "isHighlight": false,
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       },
       "nameKo": "선벨트 렌털스 홀딩스",
       "nameEn": "SUNBELT RENTALS HOLDINGS INC",
@@ -11164,8 +11155,7 @@ window.TEAM4_DATA = {
       },
       "catalyst": {
         "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "note": "아직 조사하지 않았습니다"
       },
       "nameKo": "무그 B",
       "nameEn": "MOOG INC",
@@ -11692,12 +11682,12 @@ window.TEAM4_DATA = {
   "research_coverage": {
     "done": 12,
     "total": 22,
-    "cap": null,
+    "cap": 15,
     "pending": 10,
     "failed": 0,
-    "carried": 12,
+    "carried": 0,
     "ineligible": 0,
-    "note": "22종목 중 12종목을 조사했습니다. 그중 12종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 10종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "22종목 중 12종목을 조사했습니다. 나머지 10종목은 상한(15) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다. 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -11720,5 +11710,33 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적 호재 3건(TDY, MEDP, WAB)은 서로 다른 업종이라 한 업종 쏠림은 보이지 않는다. 산업 기술 돌파 호재는 입력에 없다.",
     "caution": "BFC, ABT, CTBI는 실적 분류에 들어 있지만 예상치에 못 미친 소식이라 호재에서 뺐다. 호재 3건도 실적 발표 사실만 확인된 것이고, 가이던스(회사의 향후 실적 전망) 상향 근거는 입력에 없으며 주가 반응과 차트는 따로 확인해야 한다.",
     "researchedOn": "2026-10-22"
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "TDY",
+        "category": 1,
+        "oneLine": "10월 21일 3분기 실적에서 매출과 주당순이익이 모두 예상치를 넘었다."
+      },
+      {
+        "ticker": "MEDP",
+        "category": 1,
+        "oneLine": "10월 21일 3분기 실적에서 매출과 주당순이익이 모두 증권사 예상치를 웃돌았다."
+      },
+      {
+        "ticker": "WAB",
+        "category": 1,
+        "oneLine": "10월 21일 3분기 주당순이익이 시장 예상치를 웃돌았다(매출 언급은 없음)."
+      }
+    ],
+    "sectorSignal": "실적 호재 3건(TDY, MEDP, WAB)은 서로 다른 업종이라 한 업종 쏠림은 보이지 않는다. 산업 기술 돌파 호재는 입력에 없다.",
+    "caution": "BFC, ABT, CTBI는 실적 분류에 들어 있지만 예상치에 못 미친 소식이라 호재에서 뺐다. 호재 3건도 실적 발표 사실만 확인된 것이고, 가이던스(회사의 향후 실적 전망) 상향 근거는 입력에 없으며 주가 반응과 차트는 따로 확인해야 한다.",
+    "researchedOn": "2026-10-22"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 3,
+    "3": 1,
+    "6": 8
   }
 };

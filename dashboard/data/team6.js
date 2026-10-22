@@ -1478,5 +1478,15 @@ window.TEAM6_DATA = {
     "watch": 0,
     "checked": 0,
     "errors": []
+  },
+  "deep_coverage": {
+    "done": 0,
+    "total": 0,
+    "cap": 14,
+    "pending": 0,
+    "failed": 0,
+    "carried": 0,
+    "ineligible": 0,
+    "note": "전 종목(0) 조사 완료"
   }
 };

@@ -399,7 +399,6 @@ window.CHIEF_DATA = {
       "noQuote": 2
     },
     "reusedFrom": null,
-    "reuseAll": null,
-    "carried": true
+    "reuseAll": null
   }
 };

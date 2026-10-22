@@ -819,7 +819,6 @@ window.TEAM1_DATA = {
       "noQuote": 2
     },
     "reusedFrom": null,
-    "researchedOn": "2026-10-22",
-    "carried": true
+    "researchedOn": "2026-10-22"
   }
 };

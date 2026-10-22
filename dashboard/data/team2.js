@@ -275,7 +275,7 @@ window.TEAM2_DATA = {
         },
         "leadOriginal": "모더나는 8월 흑색종 암 백신의 3상 임상 성공이 알려지면서 3개월 새 3배 넘게 올랐다. 10월에는 나스닥-100 편입 소식까지 더해져 52주 신고가 부근이다. 다만 본업 매출은 줄고 적자가 커서, 암 백신이 다른 암으로 확장될지 확인되지 않으면 이야기가 약해진다.",
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       },
       "deep": {
         "status": "done",
@@ -13111,7 +13111,7 @@ window.TEAM2_DATA = {
         },
         "leadOriginal": "세즐은 7월 고점(195.71달러)에서 꺾인 뒤 최근 한 달 18% 반등했다. 받쳐 주는 것은 분기 매출이 1년 전보다 63% 늘어난 실적이다. 이번 반등의 직접 계기가 된 새 소식은 확인되지 않았고, 11월 4일 3분기 실적이 이 흐름을 이어 줄지가 관건이다.",
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       },
       "nameKo": "세즐",
       "nameEn": "SEZZLE INC",
@@ -16907,7 +16907,7 @@ window.TEAM2_DATA = {
           "reasons": []
         },
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       },
       "deep": {
         "status": "done",
@@ -17218,7 +17218,7 @@ window.TEAM2_DATA = {
         },
         "researchedOn": "2026-10-22",
         "session": "2026-10-21",
-        "carried": true,
+        "carried": false,
         "source": "list"
       },
       "nameKo": "찰스 리버 래브러토리스 인터내셔널",
@@ -18092,7 +18092,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "포럼 에너지 테크놀로지스",
       "nameEn": "FORUM ENERGY TECHNOLOGIES INC",
@@ -21996,7 +21996,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "쇼피파이",
       "nameEn": "SHOPIFY INC",
@@ -23850,7 +23850,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "스트래티지",
       "nameEn": "STRATEGY INC",
@@ -25752,7 +25752,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "이팸 시스템스",
       "nameEn": "EPAM SYS INC",
@@ -26610,7 +26610,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "크라우드스트라이크 홀딩스",
       "nameEn": "CROWDSTRIKE HOLDINGS INC",
@@ -28361,7 +28361,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "엘라스틱",
       "nameEn": "ELASTIC N V",
@@ -29240,7 +29240,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "템퍼스 AI",
       "nameEn": "TEMPUS AI INC",
@@ -30188,7 +30188,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "제이프로그",
       "nameEn": "JFROG LTD",
@@ -30764,7 +30764,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "오라 미네랄스",
       "nameEn": "AURA MINERALS INC (VG)",
@@ -32694,7 +32694,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "데이터도그",
       "nameEn": "DATADOG INC",
@@ -33641,7 +33641,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "스페이스X",
       "nameEn": "SPACE EXPLORATION TECHNOLOGIES CORP",
@@ -34547,7 +34547,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "블룸 에너지",
       "nameEn": "BLOOM ENERGY CORPORATION",
@@ -35577,7 +35577,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "크리도 테크놀로지 그룹 홀딩",
       "nameEn": "CREDO TECHNOLOGY GROUP HOLDING LTD",
@@ -36511,7 +36511,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "클라우드플레어",
       "nameEn": "CLOUDFLARE INC",
@@ -37399,7 +37399,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "시에나",
       "nameEn": "CIENA CORP",
@@ -38492,7 +38492,7 @@ window.TEAM2_DATA = {
           ]
         },
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       },
       "deep": {
         "status": "done",
@@ -38839,7 +38839,7 @@ window.TEAM2_DATA = {
         },
         "researchedOn": "2026-10-22",
         "session": "2026-10-21",
-        "carried": true,
+        "carried": false,
         "source": "list"
       },
       "nameKo": "몽고DB",
@@ -39761,7 +39761,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "로켓 랩",
       "nameEn": "ROCKET LAB CORPORATION",
@@ -40690,7 +40690,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "메드페이스 홀딩스",
       "nameEn": "MEDPACE HOLDINGS INC",
@@ -41545,7 +41545,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "지스케일러",
       "nameEn": "ZSCALER INC",
@@ -42424,7 +42424,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "에코스타",
       "nameEn": "ECHOSTAR CORPORATION",
@@ -43168,7 +43168,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "TTM 테크놀로지스",
       "nameEn": "TTM TECHNOLOGIES INC",
@@ -44082,7 +44082,7 @@ window.TEAM2_DATA = {
         },
         "leadOriginal": "슈나이더 일렉트릭이 PTC를 주당 205달러 현금에 인수하기로 발표하면서 10월 5일 주가가 약 35% 급등했다. 현재 주가(194.38달러)가 인수가보다 조금 낮아 인수가에 수렴한 모습이다. 인수 승인·종결이 지연되거나 무산되면 이 상승 이야기는 깨진다.",
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       },
       "deep": {
         "status": "done",
@@ -46721,7 +46721,7 @@ window.TEAM2_DATA = {
           "reasons": []
         },
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       },
       "deep": {
         "status": "done",
@@ -46990,7 +46990,7 @@ window.TEAM2_DATA = {
         },
         "researchedOn": "2026-10-22",
         "session": "2026-10-21",
-        "carried": true,
+        "carried": false,
         "source": "list"
       },
       "nameKo": "해즈브로",
@@ -47936,7 +47936,7 @@ window.TEAM2_DATA = {
         },
         "leadOriginal": "RCL은 9월 저점 뒤 한 달 새 22% 올랐다. 계기는 Sandals Resorts 지분 50%를 30억 달러에 사기로 한 발표와 증권사의 긍정 평가다. 다만 3개월 기준으로는 아직 마이너스라서, 10월 말 실적에서 성장이 이어지는지가 확인돼야 이야기가 유지된다.",
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       },
       "nameKo": "로열 캐리비언 크루즈",
       "nameEn": "ROYAL CARIBBEAN GROUP",
@@ -48839,7 +48839,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "가트너",
       "nameEn": "GARTNER INC",
@@ -50947,7 +50947,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "deep": {
         "status": "done",
@@ -55888,7 +55888,7 @@ window.TEAM2_DATA = {
         },
         "leadOriginal": "트레이드웹이 10월 20일 기업간 채권 거래 플랫폼 Trumid를 19.7억 달러에 인수한다고 알려지며 한 달 새 주가가 올랐다. 지난 분기 매출과 영업이익이 모두 늘었고 월스트리트 증권사도 긍정 평가를 시작했다. 인수 부담과 통합 성과가 확인되지 않으면 이야기가 약해진다.",
         "researchedOn": "2026-10-22",
-        "carried": true
+        "carried": false
       },
       "nameKo": "트레이드웹 마케츠",
       "nameEn": "TRADEWEB MARKETS INC",
@@ -56732,7 +56732,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "팔란티어 테크",
       "nameEn": "PALANTIR TECH INC",
@@ -60925,7 +60925,7 @@ window.TEAM2_DATA = {
       },
       "research": {
         "status": "pending",
-        "note": "LLM 리서치 대기"
+        "note": "아직 조사하지 않았습니다 (순환 조사 대기)"
       },
       "nameKo": "레드 바이올렛",
       "nameEn": "RED VIOLET INC",
@@ -66691,7 +66691,410 @@ window.TEAM2_DATA = {
       ],
       "researchedOn": "2026-10-22",
       "sanitized": null
-    }
+    },
+    "llm": {
+      "lists": [
+        {
+          "key": "dollar",
+          "commonIndustries": [
+            {
+              "industry": "Biotechnology",
+              "tickers": [],
+              "why": "바이오 6종목이지만 오르는 이유는 제각각입니다. 모더나는 나스닥100 편입, 레볼루션 메디신은 폐암 3상 시작과 증권사 커버리지 개시가 재료이고 나머지는 이유 확인 안 됨."
+            },
+            {
+              "industry": "Software - Application",
+              "tickers": [],
+              "why": "이유 확인 안 됨. 허브스팟은 200일선 위로 올라섰다는 기사만 있고 세 종목을 함께 올린 공통 재료는 확인되지 않았습니다."
+            }
+          ],
+          "themes": [],
+          "unexplained": [
+            "MDB",
+            "CRL"
+          ],
+          "narrative": "거래대금 상위 20종목은 바이오 6종목과 소프트웨어 3종목이 가장 많이 모였습니다. 다만 두 업종 모두 같이 오른 공통 이유는 확인되지 않았습니다. 가장 뚜렷한 흐름은 10월 20~21일 3분기 실적을 낸 3M, 해즈브로, MSCI, 에퀴팩스, 비코 5종목입니다. 나머지 종목은 개별 재료가 불분명하거나 근거 기사가 부족해 이유를 확인하지 못했습니다.",
+          "label": "거래대금 상위",
+          "factcheck": {
+            "verdict": "pass",
+            "removed": 0
+          }
+        },
+        {
+          "key": "m1",
+          "commonIndustries": [
+            {
+              "industry": "Software - Application",
+              "tickers": [
+                "PTC",
+                "TTAN"
+              ],
+              "why": "PTC는 슈나이더일렉트릭의 인수 발표로 급등했습니다. 나머지 4종목은 애널리스트 상향과 52주 신고가 기사는 있으나, 같이 오른 공통 이유는 확인 안 됨."
+            },
+            {
+              "industry": "Restaurants",
+              "tickers": [
+                "WING"
+              ],
+              "why": "이유 확인 안 됨"
+            },
+            {
+              "industry": "Biotechnology",
+              "tickers": [
+                "KOD",
+                "MRNA"
+              ],
+              "why": "KOD는 습성 황반변성 치료제 3상 결과가 호재였고, MRNA는 나스닥100 편입이 거론됩니다. 두 종목이 같은 이유로 오른다는 근거는 확인 안 됨."
+            },
+            {
+              "industry": "Information Technology Services",
+              "tickers": [
+                "ACN",
+                "IT"
+              ],
+              "why": "이유 확인 안 됨"
+            }
+          ],
+          "themes": [
+            {
+              "name": "인수합병 발표로 급등",
+              "plainKo": "PTC와 SYNA는 인수 계약이 나오며 주가가 크게 뛰었습니다. 인수가에 맞춰 움직이는 종목이라 일반 상승과는 성격이 다릅니다.",
+              "why": "PTC는 슈나이더일렉트릭이 현금 인수를 발표하며 주가가 올랐습니다. SYNA는 온세미와의 합병 계약 조건이 조정되었습니다.",
+              "tickers": [
+                "PTC",
+                "SYNA"
+              ],
+              "sources": [
+                {
+                  "title": "Schneider Electric To Acquire PTC For $205/Share In Cash; PTC Shares Up 35%",
+                  "publisher": "RTTNews",
+                  "url": "https://www.nasdaq.com/articles/schneider-electric-acquire-ptc-205-share-cash-ptc-shares-35",
+                  "date": "2026-10-05",
+                  "quote": "Schneider Electric To Acquire PTC For $205/Share In Cash; PTC Shares Up 35%",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "Onsemi Revises Synaptics $5.7 Bln Merger Agreement At $123/shr",
+                  "publisher": "RTTNews",
+                  "url": "https://www.nasdaq.com/articles/onsemi-revises-synaptics-57-bln-merger-agreement-123-shr",
+                  "date": "2026-10-02",
+                  "quote": "Onsemi Revises Synaptics $5.7 Bln Merger Agreement At $123/shr",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "unexplained": [
+            "WING",
+            "ACN",
+            "IT",
+            "TTAN",
+            "MPC",
+            "RCL",
+            "ANF",
+            "TLN",
+            "SEZL",
+            "IDT",
+            "MRNA"
+          ],
+          "narrative": "22종목 중 소프트웨어 5종목, 레스토랑 3종목이 가장 많이 몰렸고 바이오와 IT서비스가 각 2종목입니다. 확인된 뚜렷한 이유는 PTC와 SYNA의 인수합병 발표뿐입니다. 소프트웨어와 레스토랑 쪽은 같이 오른 공통 원인을 뉴스에서 찾지 못했습니다. 업종 쏠림이 실제 흐름인지는 이들 종목의 실적 발표와 후속 애널리스트 의견으로 확인해야 합니다.",
+          "label": "RS(1MO)",
+          "factcheck": {
+            "verdict": "pass",
+            "removed": 0
+          }
+        },
+        {
+          "key": "m3",
+          "commonIndustries": [
+            {
+              "industry": "Software - Application",
+              "tickers": [
+                "TEAM",
+                "PAYC",
+                "ESTC"
+              ],
+              "why": "같은 이유로 오른다는 근거는 확인 안 됨. 아틀라시언·페이컴은 실적과 연간 전망 상향, PTC는 슈나이더 일렉트릭의 인수 발표가 각각의 이유였다."
+            },
+            {
+              "industry": "Biotechnology",
+              "tickers": [
+                "MRNA",
+                "KOD"
+              ],
+              "why": "이유 확인 안 됨. 모더나는 mRNA 암 백신 3상 성공, 코디악은 망막질환 3상 결과로 서로 다른 재료였다."
+            },
+            {
+              "industry": "Diagnostics & Research",
+              "tickers": [
+                "GRAL",
+                "TWST",
+                "NTRA"
+              ],
+              "why": "그레일과 나테라는 FDA 판단·우대 지정 기대가 겹친다. 트위스트는 매출 전망 상향이 이유라 결이 다르다."
+            },
+            {
+              "industry": "Health Information Services",
+              "tickers": [
+                "VEEV",
+                "TEM"
+              ],
+              "why": "이유 확인 안 됨. 비바는 실적과 신제품 기대, 템퍼스는 영업 효율 개선 보도가 있었으나 공통 재료는 아니다."
+            }
+          ],
+          "themes": [
+            {
+              "name": "유가·에너지 업종 강세",
+              "plainKo": "정유사 MPC와 유조선 ECO가 에너지 업종 강세 흐름에 함께 올랐다. 둘 다 원유 관련 이익 개선이 주가를 밀었다.",
+              "why": "CNBC는 에너지 업종이 기술주 대신 강세장을 이끈다고 전했다. 유조선 주식은 올해 가장 뜨거운 거래로 꼽혔다.",
+              "tickers": [
+                "MPC",
+                "ECO"
+              ],
+              "sources": [
+                {
+                  "title": "The energy sector is taking the bull market lead from tech",
+                  "publisher": "CNBC",
+                  "url": "https://www.cnbc.com/2026/10/14/todd-gordon-marathon-petroleum.html",
+                  "date": "2026-10-14",
+                  "quote": "The energy sector is taking the bull market lead from tech",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "The hottest trade of the year so far isn't AI. It's tanker stocks",
+                  "publisher": "CNBC",
+                  "url": "https://www.cnbc.com/2026/09/30/the-hottest-trade-of-the-year-so-far-isnt-ai-its-tanker-stocks.html",
+                  "date": "2026-09-30",
+                  "quote": "The hottest trade of the year so far isn't AI. It's tanker stocks",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "name": "암 조기진단 검사의 FDA 기대",
+              "plainKo": "그레일과 나테라는 암 조기진단 검사에 대한 FDA 결정과 우대 지정 기대로 올랐다. 상용화 가능성이 커진 점이 같다.",
+              "why": "그레일은 갤러리의 FDA 판단이 가까워졌다는 기대가 있었다. 나테라는 다중암 조기진단 검사가 FDA 혁신 의료기기 지정을 받았다.",
+              "tickers": [
+                "GRAL",
+                "NTRA"
+              ],
+              "sources": [
+                {
+                  "title": "Jim Cramer says Grail can run higher as FDA decision on Galleri nears",
+                  "publisher": "CNBC",
+                  "url": "https://www.cnbc.com/2026/10/06/cramer-grail-stock-galleri-fda-approval.html",
+                  "date": "2026-10-06",
+                  "quote": "Jim Cramer says Grail can run higher as FDA decision on Galleri nears",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "Natera's Multi-cancer Early Detection Assay Granted Breakthrough Device Designation By FDA",
+                  "publisher": "RTTNews",
+                  "url": "https://www.nasdaq.com/articles/nateras-multi-cancer-early-detection-assay-granted-breakthrough-device-designation-fda",
+                  "date": "2026-10-09",
+                  "quote": "Natera's Multi-cancer Early Detection Assay Granted Breakthrough Device Designation By FDA",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "unexplained": [
+            "AUGO",
+            "TXG",
+            "VEON"
+          ],
+          "narrative": "22종목이 소프트웨어, 바이오·진단, 에너지로 나뉘어 있고 업종이 겹치는 곳은 4곳이다. 뚜렷하게 묶이는 흐름은 정유·유조선 에너지 강세와 암 조기진단 FDA 기대 두 가지다. 소프트웨어는 종목마다 실적·인수 등 이유가 달라 하나로 묶기 어렵다. 에너지 강세는 유가와 운임이 유지되는지, 진단주는 갤러리 FDA 결정이 나오는지로 흐름이 맞는지 확인된다.",
+          "label": "RS(3MO)",
+          "factcheck": {
+            "verdict": "pass",
+            "removed": 0
+          }
+        },
+        {
+          "key": "m6",
+          "commonIndustries": [
+            {
+              "industry": "Software - Application",
+              "tickers": [
+                "TEAM",
+                "SNOW",
+                "PAYC",
+                "RDVT",
+                "ESTC"
+              ],
+              "why": "TEAM·SNOW는 실적 호조와 함께 소프트웨어가 AI에 밀린다는 우려가 줄며 올랐다. PAYC는 연간 전망 상향, RNG는 AI 기능 추가 판매가 근거이고 RDVT·ESTC는 이유 확인 안 됨."
+            },
+            {
+              "industry": "Diagnostics & Research",
+              "tickers": [
+                "TWST",
+                "GRAL",
+                "ILMN"
+              ],
+              "why": "유전체·암 진단 쪽에서 각자 호재가 있었다. NTRA는 다중암 조기 진단 검사의 FDA 우대 지정, GRAL은 FDA 판단 기대, TWST는 매출 전망 상향, ILMN은 병원 진단 성장이 근거다."
+            },
+            {
+              "industry": "Biotechnology",
+              "tickers": [
+                "MRNA",
+                "CORT"
+              ],
+              "why": "임상·허가 소식이 각각 주가를 끌었다. MRNA는 mRNA 암 백신 3상 성공, KOD는 안과 치료제 3상 결과, CORT는 유럽 허가 기대다. 공통 원인은 없고 종목별 재료다."
+            },
+            {
+              "industry": "Software - Infrastructure",
+              "tickers": [
+                "OKTA",
+                "RBRK",
+                "QLYS"
+              ],
+              "why": "세 종목 모두 사이버보안 계열이다. AI 성장 둔화 우려가 나오자 AI 관련주에서 보안주로 자금이 옮겨 갔고, 실적 호조도 겹쳤다."
+            }
+          ],
+          "themes": [
+            {
+              "name": "AI 둔화 우려 속 사이버보안주 자금 유입",
+              "plainKo": "AI 관련주가 흔들릴 때 사이버보안주로 돈이 옮겨 갔다. OKTA·RBRK·QLYS가 함께 올랐다.",
+              "why": "CNBC는 AI 성장 둔화 우려로 AI주는 빠지고 보안주가 올랐다고 전했다. OKTA는 실적 발표 후 보안 업종과 함께 급등했고, RBRK도 실적 이후 연달아 올랐다.",
+              "tickers": [
+                "OKTA",
+                "RBRK",
+                "QLYS"
+              ],
+              "sources": [
+                {
+                  "title": "AI stocks sink while cybersecurity shares rally on slowdown fears",
+                  "publisher": "CNBC",
+                  "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html",
+                  "date": "2026-09-14",
+                  "quote": "AI stocks sink while cybersecurity shares rally on slowdown fears",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "2 Top Cybersecurity Stocks to Buy Amid AI Safety Fears: FTNT, QLYS",
+                  "publisher": "Zacks",
+                  "url": "https://www.nasdaq.com/articles/2-top-cybersecurity-stocks-buy-amid-ai-safety-fears-ftnt-qlys",
+                  "date": "2026-09-14",
+                  "quote": "2 Top Cybersecurity Stocks to Buy Amid AI Safety Fears: FTNT, QLYS",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "name": "소프트웨어 AI 대체 우려 완화와 실적 호조",
+              "plainKo": "소프트웨어가 AI에 밀린다는 불안이 줄고 실적이 받쳐 주면서 TEAM·SNOW가 올랐다.",
+              "why": "8월 CNBC는 SaaSpocalypse 논쟁으로 소프트웨어주가 크게 출렁인다고 전했다. 이후 TEAM·SNOW 모두 분기 실적이 성장했고, 업종이 바닥에서 반등한 흐름이 뒷받침했다.",
+              "tickers": [
+                "TEAM",
+                "SNOW"
+              ],
+              "sources": [
+                {
+                  "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+                  "publisher": "CNBC",
+                  "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+                  "date": "2026-08-07",
+                  "quote": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "unexplained": [
+            "RDVT",
+            "ESTC",
+            "NSIT"
+          ],
+          "narrative": "RS(6개월) 상위 22종목은 소프트웨어(응용·인프라 합쳐 9종목)와 진단·바이오(7종목 이상)에 몰려 있다. 소프트웨어는 AI에 밀린다는 우려가 풀리고 AI 둔화 불안 속 보안주로 자금이 옮겨 간 흐름이 겹쳤다. 진단·바이오는 FDA 우대 지정, 임상 성공, 허가 기대 같은 종목별 재료가 달라 공통 원인은 약하다. 소프트웨어 반등이 실적으로 계속 확인되는지, AI 투자 둔화 우려가 다시 커지는지가 이 흐름의 맞고 틀림을 가른다.",
+          "label": "RS(6MO)",
+          "factcheck": {
+            "verdict": "pass",
+            "removed": 0
+          }
+        },
+        {
+          "key": "all",
+          "commonIndustries": [
+            {
+              "industry": "Biotechnology",
+              "tickers": [
+                "MRNA"
+              ],
+              "why": "두 종목 모두 임상 3상 성공 소식이 주가를 끌어올렸다. MRNA는 mRNA 암 백신, KOD는 망막 질환 치료제 결과다."
+            }
+          ],
+          "themes": [],
+          "unexplained": [],
+          "narrative": "두 종목 모두 바이오텍이며 임상 3상 성공이 상승의 출발점이다. MRNA는 암 백신 성공과 나스닥100 편입 소식이 겹쳤고, KOD는 황반변성 치료제 결과로 목표주가가 올랐다. 두 종목 모두 급등 뒤라, 신약 허가 신청 진행과 MRNA에 대한 증권사의 하향 의견(밸류에이션 부담) 중 어느 쪽이 맞는지가 흐름의 확인점이다.",
+          "label": "RS(1~6MO)",
+          "factcheck": {
+            "verdict": "pass",
+            "removed": 0
+          }
+        }
+      ],
+      "researchedOn": "2026-10-22",
+      "sanitized": {
+        "removed": [
+          "dollar.industry:MRNA",
+          "dollar.industry:RVMD",
+          "dollar.industry:ARGX",
+          "dollar.industry:SYRE",
+          "dollar.industry:ABVX",
+          "dollar.industry:DNTH",
+          "dollar.industry:GWRE",
+          "dollar.industry:HUBS",
+          "dollar.industry:MNDY",
+          "dollar.theme:MMM",
+          "dollar.theme:HAS",
+          "dollar.theme:MSCI",
+          "dollar.theme:EFX",
+          "dollar.theme:VICR",
+          "dollar.unexplained:CRCL",
+          "dollar.unexplained:IT",
+          "dollar.unexplained:GWRE",
+          "dollar.unexplained:HUBS",
+          "dollar.unexplained:SN",
+          "dollar.unexplained:MNDY",
+          "dollar.unexplained:SPHR",
+          "dollar.unexplained:ARGX",
+          "dollar.unexplained:SYRE",
+          "dollar.unexplained:ABVX",
+          "dollar.unexplained:DNTH",
+          "dollar.unexplained:MRNA",
+          "m1.industry:GWRE",
+          "m1.industry:DOCU",
+          "m1.industry:MNDY",
+          "m1.industry:BH",
+          "m1.industry:SHAK",
+          "m1.unexplained:BH",
+          "m1.unexplained:SHAK",
+          "m1.unexplained:GWRE",
+          "m1.unexplained:DOCU",
+          "m1.unexplained:MNDY",
+          "m1.unexplained:VEEV",
+          "m3.industry:PTC",
+          "m3.industry:HALO",
+          "m3.unexplained:HURN",
+          "m6.industry:RNG",
+          "m6.industry:NTRA",
+          "m6.industry:KOD",
+          "m6.unexplained:XMTR",
+          "all.industry:KOD",
+          "all.theme:KOD"
+        ]
+      }
+    },
+    "reusedFrom": null
   },
   "fs_coverage": {
     "have": 31,
@@ -66703,9 +67106,9 @@ window.TEAM2_DATA = {
     "cap": 20,
     "pending": 24,
     "failed": 0,
-    "carried": 36,
+    "carried": 28,
     "ineligible": 0,
-    "note": "60종목 중 36종목을 조사했습니다. 그중 36종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 24종목은 상한(20) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다. 2팀 선정 종목과 5개 목록 종목을 함께 순환 조사합니다(거래대금 상위·세 기간 공통 먼저)."
+    "note": "60종목 중 36종목을 조사했습니다. 그중 28종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 24종목은 상한(20) 밖이라 아직 조사하지 않았습니다. 다음 실행부터 순환 조사되어 며칠에 걸쳐 전량 채워집니다."
   },
   "detail_coverage": {
     "done": 56,

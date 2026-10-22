@@ -349,7 +349,7 @@
     },
     "MDB": {
       "last": "2026-10-22",
-      "count": 13
+      "count": 14
     },
     "SNDK": {
       "last": "2026-10-21",
@@ -389,7 +389,7 @@
     },
     "SN": {
       "last": "2026-10-22",
-      "count": 5
+      "count": 6
     },
     "AAOI": {
       "last": "2026-10-07",
@@ -525,7 +525,7 @@
     },
     "MRNA": {
       "last": "2026-10-22",
-      "count": 16
+      "count": 17
     },
     "KYMR": {
       "last": "2026-09-01",
@@ -617,7 +617,7 @@
     },
     "RVMD": {
       "last": "2026-10-22",
-      "count": 2
+      "count": 3
     },
     "ANF": {
       "last": "2026-10-21",
@@ -765,7 +765,7 @@
     },
     "VICR": {
       "last": "2026-10-22",
-      "count": 7
+      "count": 8
     },
     "QCOM": {
       "last": "2026-09-29",
@@ -845,7 +845,7 @@
     },
     "RCL": {
       "last": "2026-10-22",
-      "count": 2
+      "count": 3
     },
     "GLW": {
       "last": "2026-10-07",
@@ -905,7 +905,7 @@
     },
     "PTC": {
       "last": "2026-10-22",
-      "count": 3
+      "count": 4
     },
     "IMOS": {
       "last": "2026-10-15",
@@ -953,7 +953,7 @@
     },
     "MNDY": {
       "last": "2026-10-22",
-      "count": 2
+      "count": 3
     },
     "SAIC": {
       "last": "2026-10-09",
@@ -1065,7 +1065,7 @@
     },
     "BH": {
       "last": "2026-10-22",
-      "count": 2
+      "count": 3
     },
     "CDW": {
       "last": "2026-10-15",
@@ -1213,47 +1213,47 @@
     },
     "HAS": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "CRL": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "EFX": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "MSCI": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "MMM": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "ARGX": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "DNTH": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "ABVX": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "SPHR": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "TW": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "SEZL": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     }
   },
   "team4": {
@@ -1758,7 +1758,7 @@
     },
     "SUNB": {
       "last": "2026-10-22",
-      "count": 3,
+      "count": 4,
       "cat": 6,
       "evid": "6bf7eac738f279da"
     },
@@ -2669,7 +2669,7 @@
     },
     "BMO": {
       "last": "2026-10-22",
-      "count": 3,
+      "count": 4,
       "cat": 6,
       "evid": "25a88ae749248626"
     },
@@ -2759,13 +2759,11 @@
     },
     "CTBI": {
       "last": "2026-10-22",
-      "count": 2,
-      "cat": 1,
-      "evid": "91e834918819f3c5"
+      "count": 3
     },
     "CRL": {
       "last": "2026-10-22",
-      "count": 2,
+      "count": 3,
       "cat": 6,
       "evid": "cae4c1a677641ce5"
     },
@@ -2795,7 +2793,7 @@
     },
     "NWE": {
       "last": "2026-10-22",
-      "count": 2,
+      "count": 3,
       "cat": 6,
       "evid": "7ae225f18334aeb0"
     },
@@ -3023,7 +3021,7 @@
     },
     "ROKU": {
       "last": "2026-10-22",
-      "count": 2,
+      "count": 3,
       "cat": 6,
       "evid": "0b5ef4bda90c7d1b"
     },
@@ -3353,55 +3351,51 @@
     },
     "TDY": {
       "last": "2026-10-22",
-      "count": 1,
-      "cat": 1,
-      "evid": "cc67ff24c31dd84a"
+      "count": 2
     },
     "MEDP": {
       "last": "2026-10-22",
-      "count": 1,
+      "count": 2,
       "cat": 1,
       "evid": "6ad8d59e92abd6f6"
     },
     "ITIC": {
       "last": "2026-10-22",
-      "count": 1,
+      "count": 2,
       "cat": 6,
       "evid": "7a08af66f372c4fa"
     },
     "WAB": {
       "last": "2026-10-22",
-      "count": 1,
+      "count": 2,
       "cat": 1,
       "evid": "ad3132e34172094c"
     },
     "STE": {
       "last": "2026-10-22",
-      "count": 1,
+      "count": 2,
       "cat": 3,
       "evid": "c6a44c7d1e2cc63e"
     },
     "ACA": {
       "last": "2026-10-22",
-      "count": 1,
+      "count": 2,
       "cat": 6,
       "evid": "025577dc5fc051f1"
     },
     "BFC": {
       "last": "2026-10-22",
-      "count": 1,
-      "cat": 1,
-      "evid": "9ca6e1166a88c35f"
+      "count": 2
     },
     "ABT": {
       "last": "2026-10-22",
-      "count": 1,
+      "count": 2,
       "cat": 1,
       "evid": "c38fd9f03a714ef8"
     },
     "DXCM": {
       "last": "2026-10-22",
-      "count": 1,
+      "count": 2,
       "cat": 6,
       "evid": "e26340b9b6c5a8f1"
     }
@@ -3937,59 +3931,59 @@
     },
     "HAS": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "GWRE": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "MNDY": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "SN": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "CRL": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "EFX": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "MDB": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "RVMD": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "MSCI": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "MMM": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "ARGX": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "DNTH": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "ABVX": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     },
     "SPHR": {
       "last": "2026-10-22",
-      "count": 1
+      "count": 2
     }
   }
 }
